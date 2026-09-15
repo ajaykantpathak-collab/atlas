@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_005",
+   "title": "c7_physics_ch07_005",
+   "questions": [
+    {
+     "q": "What happens to the temperature of a test tube when a strong acid and a strong base are mixed together?",
+     "a": "The temperature increases because a neutralization reaction is exothermic, meaning it releases heat energy. A wrong answer shows confusion with physical dissolving processes that absorb heat or a belief that mixing chemicals has no thermal effect, indicating a lack of connection between chemical changes and energy release.",
+     "self_check": true
+    },
+    {
+     "q": "Why does adding an antacid tablet (which is basic) provide relief when someone experiences acid indigestion in the stomach?",
+     "a": "The basic antacid chemically reacts with the excess hydrochloric acid in the stomach to neutralize it, reducing acidity and forming harmless products. A wrong answer suggests the antacid dilutes the acid without reacting, ignoring the specific neutralizing chemical interaction between acids and bases.",
+     "self_check": true
+    },
+    {
+     "q": "If 50 mL of dilute hydrochloric acid is mixed with exactly 50 mL of sodium hydroxide solution of equal strength using phenolphthalein indicator, what final color is observed in the mixture?",
+     "a": "Steps:\n1. Identify initial substances: Hydrochloric acid (acid) and sodium hydroxide (base) of equal strength.\n2. Recall indicator behavior: Phenolphthalein is colorless in acidic solutions and pink in basic solutions.\n3. Determine reaction outcome: Equal volumes of equal strength acid and base completely neutralize each other, resulting in a neutral solution.\n4. Evaluate indicator in neutral medium: In a neutral solution, phenolphthalein remains colorless.\nReasoning: Full neutralization removes both excess acid and base, bringing the pH to neutrality where phenolphthalein does not show a pink hue.\nAnswer: Colorless. A wrong answer indicates the student thinks indicators stay colored even after neutralization or confuses acid-base color charts.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the red litmus paper test when it is dipped into a solution formed immediately after completely neutralizing vinegar with baking soda.",
+     "a": "The red litmus paper will remain red (or show no significant blue shift) because the resulting solution is neutral, having neither excess acidic nor basic properties. A wrong answer reveals a misconception that the mixture retains the properties of whichever reactant was originally in the container, rather than forming a new substance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"When an acid and a base are mixed, the resulting mixture is always completely pure water and nothing else.\" Is this statement correct?",
+     "a": "The statement is incorrect because neutralization produces both water and a dissolved salt, meaning ions from the original acid and base remain in the solution. A wrong answer shows a failure to account for all atomic components (cations and anions) participating in the neutralization reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment using turmeric water to demonstrate that adding a cleaning powder (base) to lemon juice (acid) eventually neutralizes the acidic effect.",
+     "a": "Criteria for a good answer: Add turmeric to lemon juice (remains yellow), drop-by-drop add cleaning powder solution while stirring until the yellow turns red (indicating basic), and explain that further controlled addition can return it to yellow. A poor answer lacks measurable steps or confuses indicator color changes with simple dilution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

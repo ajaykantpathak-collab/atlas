@@ -1,0 +1,416 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 106,
+ "chapter_title": "Control and Coordination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc106.txt",
+ "concepts": [
+  {
+   "id": "jesc.6.1.1",
+   "title": "Structure of a Neuron and Nerve Impulse Transmission",
+   "section": "6.1",
+   "definition": "In brief, In brief, the nervous' primary cellular unit system specialized for receiving, processing, and transmitting information through electrical and chemical signals.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Nerve impulses travel electrically within a neuron and chemically across the synaptic gap between neurons.",
+   "textbook_ref": "jesc106.txt lines 30-70",
+   "question_patterns": [
+    "explain how information travels through a neuron",
+    "what happens at the synapse between two neurons",
+    "describe the structure of a nerve cell",
+    "where is information acquired and converted into electrical signals in a neuron"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the site of signal acquisition",
+     "explain": "The dendritic tips of the neuron detect environmental stimuli or receive chemical signals from preceding cells."
+    },
+    {
+     "step": 2,
+     "action": "Describe electrical impulse conduction",
+     "explain": "The signal triggers a chemical reaction generating an electrical impulse that travels through the cell body and along the axon."
+    },
+    {
+     "step": 3,
+     "action": "Explain synaptic transmission",
+     "explain": "At the axon terminal, the electrical impulse triggers the release of neurotransmitter chemicals that diffuse across the synapse to initiate an impulse in the next neuron."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.2",
+   "title": "Reflex Action and Reflex Arc",
+   "section": "6.1.1",
+   "definition": "An immediate, involuntary response to an environmental stimulus that is processed directly through a short neural pathway in the spinal cord to minimize harm.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Reflex arcs bypass conscious brain thought to execute rapid, protective motor actions.",
+   "textbook_ref": "jesc106.txt lines 71-125",
+   "question_patterns": [
+    "what is a reflex action",
+    "explain the pathway of a reflex arc",
+    "how does the body respond to a hot object reflexively",
+    "what is the role of the spinal cord in reflex actions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detect stimulus via receptor",
+     "explain": "A receptor (e.g., heat receptor in skin) detects an environmental change."
+    },
+    {
+     "step": 2,
+     "action": "Transmit signal via sensory neuron",
+     "explain": "The sensory neuron carries the electrical impulse from the receptor to the spinal cord."
+    },
+    {
+     "step": 3,
+     "action": "Process in spinal cord",
+     "explain": "In the spinal cord, an association/relay neuron integrates the input and transfers it directly to a motor neuron."
+    },
+    {
+     "step": 4,
+     "action": "Execute response via motor neuron and effector",
+     "explain": "The motor neuron transmits the impulse to the effector muscle, causing it to contract and move away from the stimulus."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.3",
+   "title": "Regions and Functions of the Human Brain",
+   "section": "6.1.2",
+   "definition": "In brief, In brief, the nervous' central organ system that integrates sensory inputs and coordinates both voluntary and involuntary bodily activities.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, the brain is divided into fore-brain, mid-brain, and hind-brain, each managing distinct cognitive and physiological functions.",
+   "textbook_ref": "jesc106.txt lines 126-180",
+   "question_patterns": [
+    "what are the main regions of the human brain",
+    "which part of the brain maintains posture and balance",
+    "explain the functions of the fore-brain, mid-brain, and hind-brain",
+    "how do we feel full or detect hunger in the brain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify fore-brain functions",
+     "explain": "The fore-brain is the main thinking center, responsible for memory, learning, sensory interpretation, and hunger sensation."
+    },
+    {
+     "step": 2,
+     "action": "Identify mid-brain and hind-brain involuntary controls",
+     "explain": "The mid-brain and medulla (hind-brain) control involuntary actions like blood pressure, salivation, and vomiting."
+    },
+    {
+     "step": 3,
+     "action": "Identify cerebellum functions",
+     "explain": "The cerebellum (part of hind-brain) coordinates voluntary movements, precision, and maintains body posture and equilibrium."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.4",
+   "title": "Protection of the Central Nervous System",
+   "section": "6.1.3",
+   "definition": "The structural defenses, including the bony cranium, vertebral column, and cerebrospinal fluid, that shield the both both both both both both both both both both both both both both both both both both both both both both both both brain and spinal cord from mechanical injuries.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Bony enclosures and shock-absorbing fluid protect the central's delicate tissues nervous system.",
+   "textbook_ref": "jesc106.txt lines 181-192",
+   "question_patterns": [
+    "how is the brain protected from shocks",
+    "what protects the spinal cord in human beings",
+    "explain the role of the vertebral column and bony box"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain brain protection",
+     "explain": "The brain is housed inside a bony skull (cranium) and suspended in a fluid-filled balloon (cerebrospinal fluid) that acts as a shock absorber."
+    },
+    {
+     "step": 2,
+     "action": "Explain spinal cord protection",
+     "explain": "The spinal cord is protected by the vertebral column (backbone), which is a hard, bony structure running down the back."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.1.5",
+   "title": "Cellular Mechanism of Muscle Contraction",
+   "section": "6.1.4",
+   "definition": "In brief, In brief, In brief, the process where muscle cells alter their both shape and shorten through the rearrangement of specialized proteins triggered by nervous stimulation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Electrical nerve impulses stimulate cellular protein changes that cause muscle fibers to contract.",
+   "textbook_ref": "jesc106.txt lines 193-215",
+   "question_patterns": [
+    "how does muscle tissue cause movement",
+    "what happens to muscle cells when a nerve impulse reaches them",
+    "explain how muscle cells change their shape"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Receive electrical impulse",
+     "explain": "The nervous impulse reaches the neuromuscular junction, stimulating the muscle fiber."
+    },
+    {
+     "step": 2,
+     "action": "Trigger protein rearrangement",
+     "explain": "Specialized proteins in the muscle cells change their shape and organization in response to the electrical signal."
+    },
+    {
+     "step": 3,
+     "action": "Shorten muscle cells",
+     "explain": "The new protein arrangements cause the muscle cells to contract and shorten, resulting in movement."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.1",
+   "title": "Immediate Growth-Independent Movements in Plants",
+   "section": "6.2.1",
+   "definition": "Rapid, non-directional plant movements triggered by touch or other stimuli, achieved through reversible changes in cellular water content rather than growth.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Turgor pressure changes in plant cells enable fast, growth-independent responses like leaf folding.",
+   "textbook_ref": "jesc106.txt lines 216-255",
+   "question_patterns": [
+    "how do the leaves of a sensitive plant fold up",
+    "explain immediate response to stimulus in mimosa pudica",
+    "how is plant movement independent of growth achieved",
+    "compare animal muscle movement with sensitive plant leaf movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detect stimulus and transmit signal",
+     "explain": "Touch is detected, and electrochemical signals are transmitted from cell to cell without specialized nervous tissue."
+    },
+    {
+     "step": 2,
+     "action": "Alter water content in cells",
+     "explain": "Target cells change their shape by losing or gaining water, causing them to shrink or swell."
+    },
+    {
+     "step": 3,
+     "action": "Execute folding movement",
+     "explain": "The sudden loss of turgor pressure in specific cells causes the leaves to fold up and droop."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.2",
+   "title": "Directional Growth Movements (Tropisms)",
+   "section": "6.2.2",
+   "definition": "Slow, directional growth responses of plant organs toward or away from environmental stimuli such as light, gravity, water, or chemicals.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Tropic movements orient plant parts favorably in response to external directional cues.",
+   "textbook_ref": "jesc106.txt lines 256-305",
+   "question_patterns": [
+    "what is phototropism and geotropism",
+    "explain chemotropism with an example",
+    "how do plant roots and shoots respond to gravity",
+    "describe how tendrils circle around a support"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stimulus",
+     "explain": "Environmental triggers like light (phototropism), gravity (geotropism), water (hydrotropism), or chemicals (chemotropism) act as directional cues."
+    },
+    {
+     "step": 2,
+     "action": "Show differential growth",
+     "explain": "Cells on one side of the plant organ grow faster than those on the other side, causing the organ to bend."
+    },
+    {
+     "step": 3,
+     "action": "Observe directional bending",
+     "explain": "Shoots bend toward light (positive phototropism) and away from gravity, while roots grow toward gravity (positive geotropism) and water."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.2.3",
+   "title": "Functions of Phytohormones",
+   "section": "6.2.2",
+   "definition": "Naturally occurring organic compounds in plants that regulate growth, cell division, development, and physiological responses to environmental stimuli.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Plant hormones like auxins, gibberellins, cytokinins, and abscisic acid coordinate growth and inhibition.",
+   "textbook_ref": "jesc106.txt lines 306-345",
+   "question_patterns": [
+    "what are plant hormones",
+    "how does auxin help a plant bend towards light",
+    "name a plant hormone that inhibits growth",
+    "what are the roles of gibberellins and cytokinins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain auxin action in phototropism",
+     "explain": "Auxin is synthesized at the shoot tip and diffuses to the shady side, stimulating cells there to grow longer and cause bending toward light."
+    },
+    {
+     "step": 2,
+     "action": "Explain gibberellins and cytokinins",
+     "explain": "Gibberellins assist in stem elongation, while cytokinins promote rapid cell division in fruits and seeds."
+    },
+    {
+     "step": 3,
+     "action": "Explain growth inhibition by abscisic acid",
+     "explain": "Abscisic acid signals the plant to stop growing, leading to effects like the wilting of leaves."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.3.1",
+   "title": "Endocrine Glands and Animal Hormones",
+   "section": "6.3",
+   "definition": "Chemical messengers secreted by ductless endocrine glands directly into the blood to regulate metabolism, growth, and physiological homeostasis across target organs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Hormones provide slow, widespread, and persistent chemical coordination throughout the animal body.",
+   "textbook_ref": "jesc106.txt lines 346-435",
+   "question_patterns": [
+    "how does chemical coordination take place in animals",
+    "what is the role of adrenaline in emergency situations",
+    "why is iodised salt advisable for the thyroid gland",
+    "explain the functions of insulin and growth hormone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe adrenaline action",
+     "explain": "Secreted by adrenal glands, adrenaline increases heart rate and breathing, diverting blood to skeletal muscles to prepare for fight-or-flight."
+    },
+    {
+     "step": 2,
+     "action": "Describe thyroxin and iodine",
+     "explain": "The thyroid gland requires iodine to synthesize thyroxin, which regulates carbohydrate, protein, and fat metabolism for balanced growth."
+    },
+    {
+     "step": 3,
+     "action": "Describe growth hormone and insulin",
+     "explain": "Growth hormone from the pituitary regulates development, while insulin from the pancreas regulates blood glucose levels."
+    }
+   ]
+  },
+  {
+   "id": "jesc.6.3.2",
+   "title": "Feedback Control of Hormone Secretion",
+   "section": "6.3",
+   "definition": "A self-regulating biological mechanism that adjusts the timing and quantity of hormone release using the concentration of specific substances in the blood.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, Feedback loops ensure hormones are indeed secreted in precise amounts to maintain internal balance.",
+   "textbook_ref": "jesc106.txt lines 436-450",
+   "question_patterns": [
+    "how is the timing and amount of hormone release regulated",
+    "explain the feedback mechanism of insulin secretion",
+    "what happens when blood sugar levels rise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detect change in blood concentration",
+     "explain": "High blood glucose levels are detected by the cells of the pancreas."
+    },
+    {
+     "step": 2,
+     "action": "Trigger hormone release",
+     "explain": "The pancreas responds by secreting more insulin to lower blood glucose levels."
+    },
+    {
+     "step": 3,
+     "action": "Inhibit hormone release",
+     "explain": "As blood sugar levels fall, the stimulus is removed, and insulin secretion is reduced."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc106.txt lines 306-345",
+   "concept": "jesc.6.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "A plant shoot bends towards a light source placed on its {direction} side. Explain the role of the hormone {hormone_name} in this movement.",
+   "extracted_variables": {
+    "direction": "the side from which light is coming",
+    "hormone_name": "the plant growth hormone involved"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify hormone synthesis",
+     "explain": "The hormone {hormone_name} (auxin) is synthesized at the growing tip of the plant shoot."
+    },
+    {
+     "step": 2,
+     "action": "Explain diffusion to the shady side",
+     "explain": "When light comes from the {direction} side, the hormone diffuses towards the opposite, shady side of the shoot."
+    },
+    {
+     "step": 3,
+     "action": "Describe cell elongation and bending",
+     "explain": "The high concentration of {hormone_name} on the shady side stimulates cells to grow longer, causing the shoot to bend towards the light."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc106.txt lines 346-435",
+   "concept": "jesc.6.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "A person is in a highly stressful or scary situation. Explain how the hormone {hormone_name} secreted by the {gland_name} gland prepares the body to deal with this emergency.",
+   "extracted_variables": {
+    "hormone_name": "the emergency hormone",
+    "gland_name": "the endocrine gland secreting the hormone"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify hormone secretion and transport",
+     "explain": "The hormone {hormone_name} (adrenaline) is secreted directly into the blood by the {gland_name} (adrenal) glands."
+    },
+    {
+     "step": 2,
+     "action": "Describe physiological changes in target organs",
+     "explain": "It acts on the heart, causing it to beat faster to supply more oxygen to muscles, while reducing blood flow to the skin and digestive system."
+    },
+    {
+     "step": 3,
+     "action": "Explain the overall outcome",
+     "explain": "Breathing rate increases due to contractions of diaphragm and rib muscles, preparing the body to run or fight."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "jesc106.txt lines 455-475",
+   "questions": [
+    "Which of the following is a plant hormone? (a) Insulin (b) Thyroxin (c) Oestrogen (d) Cytokinin.",
+    "The gap between two neurons is called a (a) dendrite. (b) synapse. (c) axon. (d) impulse.",
+    "The brain is responsible for (a) thinking. (b) regulating the heart beat. (c) balancing the body. (d) all of the above.",
+    "What is the function of receptors in our body? Think of situations where receptors do not work properly. What problems are likely to arise?",
+    "Draw the structure of a neuron and explain its function.",
+    "How does phototropism occur in plants?",
+    "Which signals will get disrupted in case of a spinal cord injury?",
+    "How does chemical coordination occur in plants?",
+    "What is the need for a system of control and coordination in an organism?",
+    "How are involuntary actions and reflex actions different from each other?",
+    "Compare and contrast nervous and hormonal mechanisms for control and coordination in animals.",
+    "What is the difference between the manner in which movement takes place in a sensitive plant and the movement in our legs?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

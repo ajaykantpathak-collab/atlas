@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_002",
+   "title": "c11_math_cbse_01_002",
+   "questions": [
+    {
+     "q": "Write the definition of an empty set and give its two standard notations.",
+     "a": "An empty set is a set that does not contain any element. Its standard notations are φ (phi) and { } (curly braces with nothing inside). A wrong answer (e.g., writing {0} or {φ}) reveals the student confuses \"empty\" with \"contains the number zero\" or \"contains the empty set as an element\" — a critical distinction because {0} has cardinality 1, not 0.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the set A = {x : x ∈ ℕ, x² = 4, x is odd} is an empty set, while B = {x : x ∈ ℕ, x² = 4} is a singleton set.",
+     "a": "For A: x² = 4 gives x = 2 or x = -2; but x must be a natural number and odd. 2 is even, -2 is not natural → no element satisfies all conditions → A = φ. For B: x² = 4 with x ∈ ℕ gives only x = 2 → exactly one element → singleton {2}. A wrong answer (e.g., saying B is empty because -2 is excluded) shows the student forgets that ℕ contains only positive integers, or fails to check all conditions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each set as empty, singleton, finite, or infinite. Justify briefly.\n(i) C = {x : x ∈ ℤ, x² ≤ 4}\n(ii) D = {x : x ∈ ℝ, x² = -1}\n(iii) E = {x : x is a prime factor of 60}\n(iv) F = {x : x ∈ ℕ, x is a multiple of 7}",
+     "a": "(i) C: x² ≤ 4 ⇒ -2 ≤ x ≤ 2. Integers in this range: -2, -1, 0, 1, 2 → 5 elements → **finite** (n(C)=5).\n(ii) D: No real number squares to -1 → **empty** (φ).\n(iii) E: Prime factors of 60 are 2, 3, 5 → 3 elements → **finite** (n(E)=3).\n(iv) F: Multiples of 7 are 7, 14, 21, … no last element → **infinite**.\nA wrong classification (e.g., calling F finite because \"multiples of 7 up to 100\") reveals the student imposes an unstated bound; the condition \"x ∈ ℕ, x is a multiple of 7\" has no upper limit.",
+     "self_check": true
+    },
+    {
+     "q": "Set P = {x : x ∈ ℕ, x² - 5x + 6 = 0} and Set Q = {x : x ∈ ℤ, x² - 5x + 6 = 0}. Compare the cardinalities n(P) and n(Q). Are they equal? Why or why not?",
+     "a": "Solve x² - 5x + 6 = 0 → (x-2)(x-3)=0 → x=2,3. Both 2 and 3 belong to ℕ and ℤ. So P = {2,3}, Q = {2,3}. n(P)=2, n(Q)=2 → equal. The student might incorrectly think ℤ includes negative roots (it doesn't, the equation has no negative roots) or that ℕ excludes 2,3. This tests whether the student solves the equation first, then checks membership in the specified universal set.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The set of all lines parallel to the x-axis is finite because you can draw only a limited number of lines on a paper.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is **false**. The set of all lines parallel to the x-axis in the Cartesian plane is **infinite**. Each line has equation y = c for some real number c. Since there are infinitely many real numbers c, there are infinitely many such lines. The student confuses a *physical drawing* (limited by paper size and pencil thickness) with the *mathematical concept* (ideal lines in the infinite plane). This misconception shows confusion between concrete representation and abstract definition.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an example of a set that is:\n(i) a singleton set defined by a quadratic equation in ℕ,\n(ii) an infinite set defined by a linear inequality in ℤ,\n(iii) an empty set defined by a trigonometric condition in ℝ.\nWrite each in set-builder form.",
+     "a": "Possible answers:\n(i) {x : x ∈ ℕ, x² - 4x + 4 = 0} → x=2 only → {2} (singleton).\n(ii) {x : x ∈ ℤ, x > -5} → ..., -4, -3, -2, -1, 0, 1, 2, ... (infinite).\n(iii) {x : x ∈ ℝ, sin x = 2} → no real solution → φ (empty).\nA poor answer might use equations with no solution in the specified domain (e.g., x²+1=0 in ℝ for singleton) or fail to ensure the condition yields exactly the required type. This tests creative application of definitions across number systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

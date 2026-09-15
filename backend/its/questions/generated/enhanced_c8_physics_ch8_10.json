@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_10",
+   "title": "c8_physics_ch8_10",
+   "questions": [
+    {
+     "q": "A student sees a remora fish attached to a shark. The remora gets transport and food scraps; the shark is neither helped nor harmed. What type of symbiotic relationship is this?",
+     "a": "Commensalism. A wrong answer (e.g., mutualism or parasitism) reveals the student cannot correctly map the neutral effect on the shark to the (0) symbol and may think any close association must benefit or harm both partners.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tick feeding on a dog is classified as parasitism and not commensalism, using the effect on each organism.",
+     "a": "The tick benefits (+) by obtaining blood meals, while the dog is harmed (-) through blood loss, irritation, and possible disease transmission. A wrong answer indicates the student confuses \"close contact\" with the type of interaction and does not recognize that harm to the host is the defining feature of parasitism.",
+     "self_check": true
+    },
+    {
+     "q": "In a certain forest, ants live in the hollow thorns of an acacia tree. The ants get shelter and food (nectar); the tree gets protection from herbivores because the ants attack anything that touches the leaves. Classify this relationship and give the sign pair for (ant effect, tree effect).",
+     "a": "Mutualism; sign pair (+,+). A wrong answer (e.g., commensalism) shows the student misses the reciprocal benefit — the tree gains protection — and may focus only on the obvious shelter/food for the ants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two interactions: (A) orchids growing on tree branches for support only, (B) mistletoe growing on tree branches and absorbing water and nutrients. Analyze why (A) is commensalism while (B) is parasitism, even though both involve an epiphyte on a host tree.",
+     "a": "In (A) the orchid benefits (+) from elevated light and the tree is unaffected (0); in (B) the mistletoe benefits (+) but the tree is harmed (-) by losing water and nutrients. A wrong answer reveals the student cannot distinguish between using a host merely as a substrate versus tapping into the host's vascular tissue, which is the critical structural difference.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"All symbiosis is mutualism because 'symbiosis' means living together and both must benefit to stay together.\" Evaluate this statement and correct the misconception using definitions.",
+     "a": "The statement is false. Symbiosis is the broad term for any close, long-term interaction; mutualism is only one subtype where both benefit. Commensalism and parasitism are also symbiotic. A wrong evaluation shows the student equates the everyday meaning of \"symbiosis\" (cooperation) with the scientific definition and has not internalized the three-category framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation you could do in your school garden or neighbourhood to find one example each of mutualism, commensalism, and parasitism. Describe what you would look for and how you would record the effects on each organism.",
+     "a": "A good answer proposes observing (1) bees on flowers (mutualism: bee gets nectar, flower gets pollinated), (2) spiders building webs on plants (commensalism: spider gets support, plant unaffected), (3) aphids on plant stems (parasitism: aphids suck sap, plant wilts). Recording method: a table with columns Organism A, Organism B, Effect on A (+/0/-), Effect on B (+/0/-), Relationship type. A poor answer lists vague examples without clear effect analysis or confuses predation (e.g., cat eating mouse) with symbiosis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

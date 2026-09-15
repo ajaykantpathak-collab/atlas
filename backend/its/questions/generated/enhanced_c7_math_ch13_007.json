@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_007",
+   "title": "c7_math_ch13_007",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a key or legend in a pictograph?",
+     "a": "The key or legend shows the exact numerical value that each picture symbol represents (e.g., 1 smiley face = 4 students). A wrong answer often assumes the picture just represents 1 item always, showing a misunderstanding of scaled pictographs.",
+     "self_check": true
+    },
+    {
+     "q": "If a bar graph uses a scale where 1 unit on the vertical axis represents 10 units of data, how high should the bar be drawn for a frequency of 45?",
+     "a": "The bar should be drawn at 4.5 units high (halfway between 4 and 5). A wrong answer like drawing it at 45 units high shows confusion between the data value and the scaled graph paper units.",
+     "self_check": true
+    },
+    {
+     "q": "In a bar graph showing the monthly savings of Amit from January to April, the scale on the vertical axis is 1 cm = ₹50. If Amit's savings in March is represented by a bar of height 7 cm, what are his actual savings in March?",
+     "a": "To find the actual savings, multiply the bar height by the scale value: 7 cm × ₹50/cm = ₹350. A wrong answer like ₹57 or ₹120 indicates the student tried to add the scale to the height instead of multiplying or misread the multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important that all bars in a bar graph have equal widths and equal spaces between them?",
+     "a": "Equal widths and spaces ensure that the visual comparison is fair and unbiased; if one bar is wider, it might visually exaggerate its quantity even if its height is the same. A wrong answer suggests it is purely for decoration or aesthetics rather than accurate mathematical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a bar graph where the vertical axis starts at 10 instead of 0, and a bar for a value of 50 is drawn 40 units high. Is this representation misleading, and why?",
+     "a": "Yes, it is misleading because starting the axis at a non-zero value distorts visual proportions, making differences look much larger or smaller than they actually are. A wrong answer claims it is fine as long as the label says 50, missing the psychological and visual distortion of the baseline.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scale for a pictograph where data categories have values of 120, 180, 240, and 300 students. State your chosen symbol and what it represents.",
+     "a": "A good answer will choose a scale factor that divides all numbers cleanly, such as choosing 1 star symbol to represent 60 students. Then 120 = 2 stars, 180 = 3 stars, 240 = 4 stars, and 300 = 5 stars. A poor answer chooses an awkward scale like 1 symbol = 45 students, which results in fractions of symbols.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

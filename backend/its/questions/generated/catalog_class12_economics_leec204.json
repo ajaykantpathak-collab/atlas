@@ -1,0 +1,234 @@
+{
+ "catalog": "catalog_class12_economics_leec204",
+ "concepts": [
+  {
+   "id": "leec.204.1.1",
+   "title": "Perfect Competition and Price Taking",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Perfect Competition and Price Taking' refers to.",
+     "a": "A perfectly competitive market has very many buyers and sellers of an identical product, free entry and exit, and perfect information; these features force every participant to accept the going market price, since charging more loses all customers and offering less is unnecessary.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Perfect Competition and Price Taking'.",
+     "a": "Size alone confers no market power, so the firm's demand curve is a flat line at the ruling price.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Perfect Competition and Price Taking', in plain ASCII form.",
+     "a": "price_taking_firm = sells_any_quantity_at_market_price and nothing_above_it",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.1.2",
+   "title": "Revenue: Total, Average and Marginal under Price Taking",
+   "questions": [
+    {
+     "q": "Using the method 'Revenue: Total, Average and Marginal under Price Taking', work with: market_price = 5000, quantity_sold = 24, total_revenue_of_previous_output = 20000. Carry the chain through step by step and give the final value of marginal_revenue.",
+     "a": "100000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Revenue: Total, Average and Marginal under Price Taking' and work with: market_price = 20000, quantity_sold = 10, total_revenue_of_previous_output = 80000. Carry the chain through step by step and give the final value of marginal_revenue.",
+     "a": "120000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue: Total, Average and Marginal under Price Taking' refers to.",
+     "a": "A price-taking firm's total revenue is the market price times the quantity sold, which makes total revenue a straight line through the origin whose slope is the price; both average revenue and marginal revenue then equal the market price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue: Total, Average and Marginal under Price Taking'.",
+     "a": "Since every extra unit sells at the same market price, price, average revenue and marginal revenue coincide.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue: Total, Average and Marginal under Price Taking', in plain ASCII form.",
+     "a": "total_revenue = market_price * quantity_sold",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.2.1",
+   "title": "Profit and its Computation",
+   "questions": [
+    {
+     "q": "Using the method 'Profit and its Computation', work with: total_cost = 20000, total_revenue = 12000. Carry the chain through step by step and give the final value of profit.",
+     "a": "-8000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Profit and its Computation' and work with: total_cost = 5000, total_revenue = 1200. Carry the chain through step by step and give the final value of profit.",
+     "a": "-3800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit and its Computation' refers to.",
+     "a": "Profit is what remains of total revenue after total cost of production is met, and the firm is assumed to choose the output that makes this residual as large as possible.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit and its Computation'.",
+     "a": "Profit is revenue net of all costs, and maximising it is the firm's single objective.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit and its Computation', in plain ASCII form.",
+     "a": "profit = total_revenue - total_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.2.2",
+   "title": "Profit Maximisation: The Three Conditions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Profit Maximisation: The Three Conditions' refers to.",
+     "a": "A profit-maximising competitive firm produces where price equals marginal cost on a non-decreasing stretch of the marginal cost curve, and only if price covers average variable cost in the short run or average cost in the long run.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit Maximisation: The Three Conditions'.",
+     "a": "Produce where the last unit just pays its way, on a rising marginal cost, provided the price clears the average cost floor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit Maximisation: The Three Conditions', in plain ASCII form.",
+     "a": "profit_maximum where market_price = marginal_cost (rising) and price covers average cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.3.1",
+   "title": "Short Run Supply Curve of a Firm",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Short Run Supply Curve of a Firm' refers to.",
+     "a": "The firm's short run supply curve is the rising portion of its marginal cost curve starting at the minimum of average variable cost, together with zero output at every price below that minimum.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Short Run Supply Curve of a Firm'.",
+     "a": "Above the average variable cost floor the firm follows marginal cost; below it, it supplies nothing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Short Run Supply Curve of a Firm', in plain ASCII form.",
+     "a": "short_run_supply = rising_smc from minimum_avc upward; zero_output below it",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.3.2",
+   "title": "Long Run Supply Curve, Shut Down Point and Break-even",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Long Run Supply Curve, Shut Down Point and Break-even' refers to.",
+     "a": "In the long run supply is the rising marginal cost curve from the minimum of long run average cost upward; the minimum average variable cost marks the short run shut down point, the minimum average cost the long run one, and the point where supply meets average cost is the break-even earning only normal profit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Long Run Supply Curve, Shut Down Point and Break-even'.",
+     "a": "The firm exits below average cost in the long run, and exactly at the average cost minimum it earns only normal profit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Long Run Supply Curve, Shut Down Point and Break-even', in plain ASCII form.",
+     "a": "long_run_supply = rising_lrmc from minimum_lrac upward; break_even at supply meets average cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.4.1",
+   "title": "Determinants of Supply: Technology, Input Prices and Unit Tax",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Determinants of Supply: Technology, Input Prices and Unit Tax' refers to.",
+     "a": "Anything that moves the marginal cost curve moves supply: technological progress lowers marginal cost and shifts supply right, costlier inputs raise it and shift supply left, and a per-unit tax lifts marginal cost by the tax amount, also shifting supply left.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Determinants of Supply: Technology, Input Prices and Unit Tax'.",
+     "a": "Supply rides on marginal cost, so cheaper production shifts it right and costlier production left.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Determinants of Supply: Technology, Input Prices and Unit Tax', in plain ASCII form.",
+     "a": "supply_shift = direction_of(technology, input_prices, unit_tax)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.5.1",
+   "title": "Market Supply by Horizontal Summation",
+   "questions": [
+    {
+     "q": "Using the method 'Market Supply by Horizontal Summation', work with: supply_firm1 = 360, supply_firm2 = 360. Carry the chain through step by step and give the final value of market_supply_at_price.",
+     "a": "720 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Market Supply by Horizontal Summation' and work with: supply_firm1 = 18, supply_firm2 = 500. Carry the chain through step by step and give the final value of market_supply_at_price.",
+     "a": "518 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Market Supply by Horizontal Summation' refers to.",
+     "a": "Market supply at any price is the total quantity offered by all firms at that price, built by adding the firms' supply curves sideways; below the lowest shut down price nobody produces, between shut down prices only low-cost firms produce, and above them all do.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Supply by Horizontal Summation'.",
+     "a": "Add quantities firm by firm at each price, remembering that higher-cost firms join in only above their own floors.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Supply by Horizontal Summation', in plain ASCII form.",
+     "a": "market_supply_at_price = supply_firm1 + supply_firm2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.204.5.2",
+   "title": "Price Elasticity of Supply",
+   "questions": [
+    {
+     "q": "Using the method 'Price Elasticity of Supply', work with: change_in_market_price = 1200, change_in_quantity_supplied = 15, initial_market_price = 50000, initial_quantity_supplied = 6. Carry the chain through step by step and give the final value of elasticity_of_supply.",
+     "a": "104.1667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Price Elasticity of Supply' and work with: change_in_market_price = 8000, change_in_quantity_supplied = 8, initial_market_price = 50000, initial_quantity_supplied = 18. Carry the chain through step by step and give the final value of elasticity_of_supply.",
+     "a": "2.7778 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Elasticity of Supply' refers to.",
+     "a": "Price elasticity of supply measures the responsiveness of quantity supplied to price, computed as the percentage change in quantity supplied over the percentage change in price; a vertical supply curve is perfectly inelastic, and for a straight-line supply curve elasticity is read from where its extension cuts the quantity axis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Elasticity of Supply'.",
+     "a": "Supply elasticity is a pure responsiveness number: more than one when the line's extension meets the quantity axis negatively, one through the origin, less than one otherwise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Elasticity of Supply', in plain ASCII form.",
+     "a": "elasticity_of_supply = percentage_change_in_quantity_supplied / percentage_change_in_market_price",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

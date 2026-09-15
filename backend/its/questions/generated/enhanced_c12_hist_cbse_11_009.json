@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_11_009",
+   "title": "c12_hist_cbse_11_009",
+   "questions": [
+    {
+     "q": "In which year and location was the Poona Pact signed, and who were the two principal signatories?",
+     "a": "The Poona Pact was signed on 24 September 1932 at Yerwada Central Jail, Poona, between Mahatma Gandhi and Dr. B.R. Ambedkar (with Madan Mohan Malaviya and other leaders as witnesses). A wrong answer — such as naming the Gandhi-Irwin Pact (1931) or the Communal Award (1932) as the same event, or placing the signing in London or Delhi — reveals confusion between the three distinct 1931-32 events: Round Table Conference, Communal Award, and Poona Pact. Students often conflate the British government's unilateral Communal Award with the negotiated Poona Pact.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Gandhi oppose separate electorates for the Depressed Classes, and how did his argument differ from Ambedkar's justification for demanding them?",
+     "a": "Gandhi opposed separate electorates because he believed they would \"perpetuate the stigma\" of untouchability in perpetuity, permanently segregating Depressed Classes from caste Hindus and preventing the destruction of untouchability itself (Source 5: \"Do you want the 'Untouchables' to remain 'Untouchables' for ever?\"). Ambedkar argued separate electorates were a \"paramount necessity\" for a community \"handicapped\" by social tyranny, economically dependent on high-caste Hindus, and denied all avenues of advancement — political power was the only shield against \"organised tyranny\" (Source 6). A wrong answer that frames Gandhi's opposition as merely \"not wanting to divide Hindus\" or Ambedkar's demand as merely \"wanting more seats\" misses the profound philosophical divide: Gandhi saw separate electorates as institutionalising untouchability; Ambedkar saw them as the only protection against it.",
+     "self_check": true
+    },
+    {
+     "q": "The Communal Award (August 1932) granted 71 reserved seats to Depressed Classes under separate electorates. The Poona Pact (September 1932) increased this to 148 seats but under joint electorates with a primary panel system. Explain the mechanical difference between \"separate electorates\" and \"joint electorates with reserved seats and primary panels\" using a concrete voting example.",
+     "a": "Under separate electorates: Only Depressed Class voters vote for Depressed Class candidates in exclusive constituencies — caste Hindus cannot vote for these seats. Under Poona Pact's joint electorates with primary panels: (1) Depressed Class voters form an electoral college and hold a primary election to choose 4 candidates per reserved seat; (2) In the general election, ALL voters (including caste Hindus) vote among these 4 candidates to elect the final representative. Example: In a constituency with 1 reserved seat, 10,000 Depressed Class voters first choose 4 candidates in a primary; then 100,000 total voters (including 90,000 caste Hindus) elect one from those 4. A wrong answer that says \"both systems let Dalits choose their own representatives\" misses the critical shift: under the Pact, the final winner needs caste Hindu votes, making the representative accountable to the majority community, not just the Dalit constituency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the immediate political outcome of the Poona Pact for Dalit representation in the 1937 provincial elections with its long-term consequence for the framing of the Indian Constitution (1947-50). Why did the same reserved-seat system produce different results in these two periods?",
+     "a": "In 1937, the primary panel system often failed — Depressed Class voters were too few, scattered, and intimidated to hold effective primaries; Congress candidates backed by caste Hindu majorities won most reserved seats, marginalising independent Dalit voices. By 1947-50, the Constituent Assembly adopted reserved seats in joint electorates (Article 330/332) but dropped the primary panel, and universal adult franchise with a much larger Dalit electorate (post-1935 Act expansions, 1947 Partition migrations) made the system more workable. The key difference: electorate size, political mobilisation (Ambedkar's Scheduled Castes Federation, later Republican Party), and constitutional safeguards (independent Election Commission). A wrong answer that claims \"the system worked the same way\" ignores how the primary panel mechanism — designed to ensure Dalit choice of candidates — became a dead letter in 1937 due to demographic and coercive realities, whereas the post-1947 system evolved with stronger institutional protections.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that the Poona Pact was a \"victory for Gandhi\" or a \"betrayal by Ambedkar.\" Use evidence from the negotiation process, the Pact's terms, and Ambedkar's own later writings to defend your position.",
+     "a": "The \"victory/betrayal\" binary is historically inadequate. Gandhi achieved his core aim: preventing separate electorates that would fracture Hindu unity. Ambedkar secured nearly double the seats (148 vs 71) and forced the Congress to formally acknowledge Dalit political claims — a major concession from a movement that had previously ignored caste oppression. However, Ambedkar later wrote in *What Congress and Gandhi Have Done to the Untouchables* (1945) that the Pact \"gave the Depressed Classes no political power\" because the primary panel was sabotaged and Congress nominees won. Yet he also signed the Pact voluntarily to save Gandhi's life, calling it a \"compromise.\" A nuanced evaluation: it was a tactical compromise under duress (Gandhi's fast) that extracted maximum concessions possible in 1932 but whose structural flaw (joint electorate without effective primary) limited Dalit agency until post-1947 reforms. A wrong answer that takes either extreme ignores the coercive context of the fast and the pragmatic calculus of both leaders.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the causal chain from the Second Round Table Conference (1931) to the Poona Pact (1932), identifying at each stage: (a) the key decision-maker, (b) their motive, and (c) the unintended consequence that propelled the next stage.",
+     "a": "Timeline with causal chain:\n1. **Sept-Dec 1931, Second RTC, London** — Decision-maker: Ambedkar; Motive: Secure separate electorates as shield for Dalits; Unintended consequence: Gandhi returns to India committed to defeating this demand.\n2. **Aug 1932, Communal Award (Ramsay MacDonald)** — Decision-maker: British PM; Motive: Divide Indian nationalism by granting separate electorates to Muslims, Sikhs, Europeans, AND Depressed Classes; Unintended consequence: Gandhi announces fast unto death, framing it as moral defence of Hindu unity.\n3. **Sept 1932, Gandhi's fast, Yerwada Jail** — Decision-maker: Gandhi; Motive: Force Ambedkar to yield; Unintended consequence: Massive public pressure on Ambedkar (\"traitor to Hinduism\" if he lets Gandhi die); Ambedkar negotiates to save Gandhi's life.\n4. **24 Sept 1932, Poona Pact signed** — Decision-makers: Ambedkar, Malaviya, Gandhi; Motive: Ambedkar — save Gandhi, gain maximum seats; Gandhi — end fast, preserve unity; Unintended consequence: Primary panel system fails in practice, Congress captures reserved seats, Dalit independent politics marginalised for decades.\nA poor answer lists events without showing the causal logic — e.g., treating the Communal Award as inevitable rather than a British divide-and-rule move that Gandhi exploited morally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

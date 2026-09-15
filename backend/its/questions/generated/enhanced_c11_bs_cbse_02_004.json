@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_004",
+   "title": "c11_bs_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the four criteria used in Table 2.1 of NCERT to classify the six types of partners, and state the liability status common to all six types.",
+     "a": "The four criteria are: (1) Capital contribution, (2) Participation in management, (3) Share in profits/losses, (4) Liability. All six types — Active, Sleeping, Secret, Nominal, Partner by Estoppel, Partner by Holding Out — have UNLIMITED liability to third parties. A wrong answer (e.g., saying Nominal Partner has limited liability) reveals the student memorised the table without grasping the core legal principle: anyone held out as a partner bears unlimited liability to protect third parties who extend credit relying on that representation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the critical difference between a Secret Partner and a Nominal Partner. Why does the law impose unlimited liability on both despite their opposite levels of actual involvement?",
+     "a": "A Secret Partner actively participates in management and shares profits/losses but keeps their association hidden from the public. A Nominal Partner does NOT participate in management, contributes NO capital, and shares NO profits/losses — they only lend their name/reputation. Both have unlimited liability because third parties extend credit based on the firm's apparent composition: for Secret Partner, the firm benefits from their hidden expertise; for Nominal Partner, the firm benefits from their public reputation. The law prioritises protecting creditors over protecting partners who allow themselves to be used. A wrong answer focusing only on \"secret vs. public\" misses the liability rationale.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: Arjun invests ₹5 lakh in a garment export firm but never visits the office or attends meetings. He receives quarterly profit statements. The firm takes a ₹20 lakh loan from a bank, which fails. The bank sues Arjun personally. Arjun argues: \"I was only a sleeping partner, I didn't sign the loan agreement.\" Is Arjun liable? Explain step by step.",
+     "a": "Step 1: Identify Arjun's partner type — contributes capital, no management, shares profits/losses → Sleeping Partner. Step 2: Recall liability rule — ALL partner types except Minor have unlimited, joint and several liability to third parties. Step 3: Apply to facts — Bank is a third party; Arjun's internal role doesn't limit external liability. Step 4: Conclusion — Arjun IS personally liable for the full ₹20 lakh (jointly and severally). He can later claim contribution from other partners per agreement, but the bank can recover from him alone. Wrong answer (\"not liable because didn't sign\") reveals confusion between internal agreement and external liability — the Partnership Act binds all partners for firm debts regardless of who signed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Partner by Estoppel and Partner by Holding Out. Construct a scenario where the SAME person could be classified as EITHER depending on a single behavioural change. Explain the legal consequence difference.",
+     "a": "Partner by Estoppel: Person's OWN conduct (words/actions) creates impression of partnership — e.g., Rani actively negotiates a deal for Simplex Solutions, saying \"We partners will deliver.\" Partner by Holding Out: Person PASSIVELY allows firm to represent them as partner — e.g., Rani sits silently while Seema introduces her as \"my partner Rani.\" Scenario: Rani accompanies Seema to a meeting. If Rani SPEAKS and negotiates → Estoppel (her initiative). If Rani stays SILENT but Seema says \"This is my partner Rani\" and Rani doesn't deny → Holding Out (her acquiescence). Legal consequence: IDENTICAL — both liable to third parties who extended credit relying on the representation. Difference is only in HOW the representation arose. Wrong answer treating consequences differently reveals misunderstanding that both doctrines protect third-party reliance, not partner intent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A Nominal Partner is better off than an Active Partner because they have no management burden and no profit-sharing obligation, yet the same unlimited liability.\" Defend or critique with reference to risk-return trade-off and legal exposure.",
+     "a": "Critique: The statement ignores ASYMMETRIC RISK. Active Partner: Unlimited liability BUT gains (1) management control to mitigate risks, (2) profit share as return for risk, (3) access to information for informed decisions. Nominal Partner: Unlimited liability WITHOUT (1) control to prevent bad decisions, (2) profit share to compensate risk, (3) information access — they're blind to firm's financial health. Worse: Nominal Partner's reputation is the asset pledged; if firm fails, their personal brand is destroyed. Active Partner at least chose the risk. Nominal Partner often lends name as favour, unaware of true exposure. Board exam answer must highlight: \"Unlimited liability without control or return = highest risk-adjusted exposure.\" Wrong answer agreeing with statement shows failure to analyse risk-return asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) involving a partnership with at least THREE different partner types. Include a specific transaction with a third party. Ask: \"Who is liable to the third party and to what extent?\" Provide the answer key with reasoning.",
+     "a": "Mini-case: \"M/s GreenFields, a partnership, has four partners: Maya (Active, manages operations), Rohan (Sleeping, invested ₹15 lakh), and Ms. Iyer (Nominal, renowned environmentalist, lends name only). GreenFields orders ₹50 lakh raw materials from EcoSupplies on credit, representing all three as partners. EcoSupplies delivers but GreenFields defaults.\" Answer: ALL THREE — Maya, Rohan, Ms. Iyer — are jointly and severally liable for the FULL ₹50 lakh. Reason: Partnership Act makes every partner (including nominal) an agent of the firm; third parties can recover from any partner regardless of internal role. Maya/Rohan liable as actual partners; Ms. Iyer liable as nominal partner who allowed name use. Good answer identifies all three, cites \"joint and several liability,\" explains nominal partner's exposure. Poor answer excludes nominal partner or apportions liability by capital contribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

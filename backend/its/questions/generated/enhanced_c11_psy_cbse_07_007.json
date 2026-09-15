@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_007",
+   "title": "c11_psy_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define creative thinking according to NCERT Class 11 Psychology, explicitly naming the three criteria that distinguish it from mere novelty or non-conformist behavior.",
+     "a": "Creative thinking is the production of novel and original ideas or solutions that are also appropriate, reality-oriented, constructive, and socially desirable. A wrong answer that only mentions \"new ideas\" or \"thinking differently\" reveals the misconception that creativity equals mere novelty or non-conformity, ignoring the critical appropriateness criterion (e.g., a bizarre idea with no practical value is not creative).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims, \"Divergent thinking is the same as creative thinking because both produce many ideas.\" Explain why this statement is incorrect using the distinction between divergent and convergent thinking in the creative process.",
+     "a": "Divergent thinking (fluency, flexibility, originality, elaboration) generates a wide range of ideas, but creative thinking *also* requires convergent thinking to evaluate, select, and refine the most appropriate solution. The student's error conflates idea generation with the entire creative process; a person high in divergent thinking but low in convergent thinking may produce many ideas but fail to produce a verified, useful creative product.",
+     "self_check": true
+    },
+    {
+     "q": "Riya is designing a poster for a \"Save Water\" campaign. She lists 20 slogans (fluency), categorizes them into humor, fear, and hope appeals (flexibility), combines a traditional proverb with a modern meme format (originality), and writes detailed explanations for the top 3 slogans (elaboration). Identify which divergent thinking component each action demonstrates.",
+     "a": "Listing 20 slogans → Fluency; Categorizing into 3 appeals → Flexibility; Combining proverb + meme → Originality; Writing detailed explanations → Elaboration. A wrong answer that swaps flexibility and originality (e.g., calling the proverb-meme combo \"flexibility\") reveals confusion between *variety of categories* (flexibility) and *uniqueness/remoteness of association* (originality).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"vertical thinking\" and \"lateral thinking\" approaches to solving the problem: \"Reduce plastic waste in the school canteen.\" Provide one specific example of a vertical thinking step and one lateral thinking step for this problem.",
+     "a": "Vertical thinking: Digging deeper in the same direction — e.g., \"Calculate exact plastic waste per day, then optimize bin placement and collection frequency.\" Lateral thinking: Digging a hole in a new place — e.g., \"Replace all single-use plastic with edible cutlery made from millet flour.\" A wrong answer that offers two vertical steps (e.g., \"ban plastic bottles\" and \"fine students\") shows failure to grasp lateral thinking as *restructuring the problem space*, not just generating more solutions within the same frame.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim using the four-stage creative process: \"Archimedes' 'Eureka' moment in the bath proves that creativity is sudden inspiration requiring no prior effort.\" Support your critique with stage-specific reasoning.",
+     "a": "The claim ignores the preparation stage (Archimedes had intensely studied the crown problem), incubation stage (he stepped away to bathe), and verification stage (he subsequently tested the displacement principle). The \"Eureka\" moment is only the *illumination* stage — the visible tip of a structured process. A wrong answer that agrees with the claim reveals the \"flash of genius\" misconception, failing to recognize that incubation *requires* prior saturated preparation and illumination *must* be followed by verification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity using Osborn's brainstorming principles to enhance divergent thinking on the topic \"Reducing food waste in the school mess.\" Specify the rule that must be explicitly enforced and explain why postponing judgment increases fluency.",
+     "a": "Activity: \"Wild Ideas Round\" — groups of 4 generate maximum ideas in 7 minutes; *rule: no criticism/evaluation allowed*; last 3 minutes: cluster ideas, then select top 3. Postponing judgment prevents premature convergent thinking from suppressing unusual ideas (e.g., \"feed leftovers to campus stray dogs\" might be dismissed as unhygienic but could lead to a composting partnership). A poor answer that allows \"constructive criticism\" during generation misunderstands that *any* evaluation activates convergent mode, reducing the cognitive safety needed for remote associations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

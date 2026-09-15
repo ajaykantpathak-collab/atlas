@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_011",
+   "title": "c11_biotech_cbse_02_011",
+   "questions": [
+    {
+     "q": "List the three major cytoskeletal filament types in eukaryotic cells, their approximate diameters in nanometers, and their primary protein subunits.",
+     "a": "Microtubules: 25 nm, α/β-tubulin heterodimers; Actin filaments (microfilaments): 6 nm, globular actin (G-actin) polymers; Intermediate filaments: 10 nm, diverse fibrous proteins (keratins, vimentin, lamins, desmin, neurofilaments). A wrong answer typically swaps diameters (e.g., assigning 10 nm to microtubules) or confuses actin with tubulin, revealing that the student memorized names without linking structural parameters to protein identity. This error propagates into misunderstanding motor protein specificity and inhibitor effects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why microtubules and actin filaments exhibit structural polarity (plus/minus ends) while intermediate filaments do not, and describe one functional consequence of this polarity for each polar filament type.",
+     "a": "Microtubules and actin filaments are assembled from asymmetric subunits (α/β-tubulin heterodimers and G-actin monomers, respectively) that add preferentially in one orientation, creating structurally distinct plus (fast-growing) and minus (slow-growing) ends. Intermediate filaments are assembled from symmetric, coiled-coil dimers that associate in antiparallel, staggered arrays, yielding non-polar filaments. Functional consequence: microtubule polarity directs kinesin (plus-end directed) and dynein (minus-end directed) transport; actin polarity directs myosin-II movement toward the plus end, enabling muscle contraction and cytokinesis. A wrong answer claiming intermediate filaments have polarity or failing to link polarity to directional transport reveals a fundamental gap in understanding how cytoskeletal asymmetry enables vectorial cellular processes.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cultured fibroblasts with 10 μM nocodazole (microtubule depolymerizing agent) and 1 μM latrunculin B (actin monomer sequestering agent) separately. Predict and justify the distinct effects on: (a) organelle positioning, (b) cell shape and motility, (c) mitotic progression.",
+     "a": "(a) Nocodazole: Golgi apparatus fragments and disperses toward cell periphery (loss of minus-end directed dynein transport); mitochondria become randomly distributed. Latrunculin B: less effect on long-range organelle transport but disrupts short-range actin-based positioning near cortex. (b) Nocodazole: cell becomes rounded but maintains cortical integrity; motility severely impaired (no microtubule-based polarization). Latrunculin B: cell loses lamellipodia/filopodia, becomes rigid and spherical; motility abolished (no actin polymerization for protrusion). (c) Nocodazole: mitotic arrest at metaphase (spindle assembly checkpoint activation). Latrunculin B: cells enter mitosis but fail cytokinesis (no contractile ring). A wrong answer that predicts identical effects for both drugs shows the student cannot map specific filament functions to cellular processes — a critical error for interpreting cytoskeletal pharmacology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of microtubules, actin filaments, and intermediate filaments during the stages of animal cell mitosis (prophase through telophase/cytokinesis). Identify which filament system is dispensable for chromosome segregation but essential for cytokinesis.",
+     "a": "Prophase: Microtubules form mitotic spindle (centrosome separation); actin cortex begins remodeling; intermediate filaments (nuclear lamins) phosphorylated → nuclear envelope breakdown. Metaphase: Microtubules attach kinetochores; actin cortex stiffens. Anaphase: Microtubules segregate chromosomes (Anaphase A: kinetochore shortening; Anaphase B: spindle elongation). Telophase: Microtubules form midbody; actin-myosin contractile ring assembles → cleavage furrow ingression; intermediate filaments reorganize around reforming nuclei. Cytokinesis: Actin filaments (with myosin-II) are essential for contractile ring; microtubules (midbody) coordinate abscission; intermediate filaments provide mechanical resilience. Actin filaments are dispensable for chromosome segregation but essential for cytokinesis. A wrong answer assigning chromosome segregation to actin or claiming intermediate filaments drive anaphase reveals confusion between spindle mechanics and cortical mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Intermediate filaments are merely passive structural cables; they do not participate in dynamic cellular processes like microtubules and actin filaments.\" Support your evaluation with three specific counterexamples from cell biology.",
+     "a": "The statement is incorrect. Counterexamples: (1) Nuclear lamins (type V intermediate filaments) dynamically disassemble/reassemble during mitosis via phosphorylation, regulating nuclear envelope breakdown/reformation and chromatin organization — a highly regulated, cell-cycle-coupled process. (2) Neurofilaments (type IV) undergo slow axonal transport and their phosphorylation state regulates axonal caliber and conduction velocity, directly impacting neuronal function. (3) Keratin filaments in epithelial cells reorganize during wound healing and cell migration, and mutations cause epidermolysis bullosa — proving active roles in tissue integrity and remodeling. A student who agrees with the statement has absorbed the oversimplified \"structural vs. dynamic\" dichotomy from introductory texts and fails to appreciate that intermediate filament dynamics operate on longer timescales and are regulated by post-translational modifications, not nucleotide hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fluorescence microscopy experiment to distinguish whether a novel cytoplasmic filament observed in a newly discovered protist is a microtubule, actin filament, or intermediate filament. Specify the probes, controls, and expected localization patterns for each possibility.",
+     "a": "Probes: (1) Anti-α-tubulin antibody + secondary Alexa Fluor 488 (microtubules); (2) Phalloidin-Alexa Fluor 568 (F-actin); (3) Pan-intermediate filament antibody (e.g., anti-vimentin) or transgenic fluorescent keratin/lamin fusion. Controls: (a) No-primary-antibody control for immunofluorescence; (b) Latrunculin B treatment (should abolish phalloidin signal); (c) Nocodazole treatment (should abolish tubulin signal); (d) Withaferin A treatment (disrupts vimentin). Expected patterns: Microtubules — radial array from centrosome, spindle during division. Actin — cortical meshwork, stress fibers, contractile ring. Intermediate filaments — perinuclear cage, extended cytoplasmic network, no centrosomal nucleation. A poor answer uses only one probe, omits drug controls, or cannot predict the distinct spatial organization of each system, indicating inability to translate biochemical identity into diagnostic microscopy signatures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

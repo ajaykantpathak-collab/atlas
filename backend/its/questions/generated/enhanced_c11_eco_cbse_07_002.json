@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_002",
+   "title": "c11_eco_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the per capita forest land availability in India according to the NCERT data, and how does it compare to the estimated requirement for meeting basic needs?",
+     "a": "Per capita forest land is 0.06 hectare against a requirement of 0.47 hectare, creating a deficit of 0.41 hectare per person. A wrong answer (e.g., stating 0.47 ha as availability) reveals the student has confused the requirement with actual availability, indicating they cannot distinguish between normative benchmarks and empirical data — a critical error for interpreting environmental statistics in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why soil erosion at 5.3 billion tonnes annually represents a more severe crisis than the absolute number suggests, considering India's land area and agricultural dependence.",
+     "a": "The 5.3 billion tonnes/year erosion rate translates to roughly 16 tonnes per hectare annually across India's 328 million hectares, far exceeding the natural soil formation rate of 0.5-1 tonne/hectare/year. A wrong answer focusing only on the billion-tonne magnitude without normalizing by land area or comparing to regeneration rates shows the student cannot contextualize aggregate statistics — they miss that degradation intensity per unit area determines agricultural sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Using the nutrient loss data (0.8 Mt nitrogen, 1.8 Mt phosphorus, 26.3 Mt potassium annually), calculate the approximate NPK fertilizer equivalent value lost per year if nitrogen costs ₹30/kg, phosphorus ₹40/kg, and potassium ₹25/kg. What does this imply for India's fertilizer subsidy burden?",
+     "a": "Step 1: Convert million tonnes to kg: N = 0.8×10⁹ kg, P = 1.8×10⁹ kg, K = 26.3×10⁹ kg. Step 2: Calculate value: N = 0.8×10⁹ × 30 = ₹24,000 crore; P = 1.8×10⁹ × 40 = ₹72,000 crore; K = 26.3×10⁹ × 25 = ₹65,750 crore. Step 3: Total = ₹1,61,750 crore annually. Step 4: This exceeds the annual fertilizer subsidy (₹1.3-1.5 lakh crore), implying degradation effectively nullifies the subsidy. A wrong calculation (e.g., missing unit conversion) reveals inability to work with large-number environmental economics — a frequent board exam requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the degradation mechanisms in the Deccan Plateau's black soil region (cotton cultivation) versus the Indo-Gangetic plains (rice-wheat system). How do the dominant causal factors differ?",
+     "a": "Deccan Plateau: degradation driven by cotton monoculture, excessive pesticide use, and rain-fed erosion on sloping lands — primarily chemical degradation and water erosion. Indo-Gangetic Plains: degradation driven by rice-wheat rotation, flood irrigation causing waterlogging and salinization, groundwater over-extraction, and residue burning — primarily physical (structure collapse) and chemical (salinity, nutrient mining) degradation. A wrong answer listing identical factors for both regions shows the student cannot differentiate degradation pathways by agro-ecological zone — a key analytical skill for case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Poverty-induced environmental degradation and affluence-driven pollution are two independent problems requiring separate policy responses.\" Use the Chipko/Appiko movement and industrial pollution in Damodar Valley as evidence.",
+     "a": "The statement is false — they are interconnected through land-use competition. Chipko/Appiko arose because commercial felling for industries (affluence-driven) deprived locals of fuelwood/fodder (poverty-driven), forcing them into further forest degradation. Damodar Valley industries pollute land/water, reducing agricultural productivity of nearby poor communities who then intensify cultivation on marginal lands. A wrong evaluation treating them as separate reveals the student misses the systemic linkage: affluence-driven resource appropriation often displaces poverty-driven degradation onto ecologically fragile lands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-indicator monitoring framework for land degradation in a semi-arid district of Rajasthan that a District Collector could implement with existing revenue and agricultural department data. Justify each indicator.",
+     "a": "Indicator 1: Annual change in net sown area under protective irrigation (from revenue records) — captures groundwater mining and salinization risk. Indicator 2: Ratio of livestock to carrying capacity of pastureland (from livestock census + satellite pasture data) — quantifies overgrazing pressure. Indicator 3: Trend in soil organic carbon % from periodic soil health cards — integrates erosion, nutrient mining, and residue management. A poor answer listing generic indicators (e.g., \"deforestation rate\") without linking to available administrative data shows the student cannot translate macro concepts into implementable local governance tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

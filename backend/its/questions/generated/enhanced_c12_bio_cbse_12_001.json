@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_001",
+   "title": "c12_bio_cbse_12_001",
+   "questions": [
+    {
+     "q": "Name the bacterium from which cry genes are isolated for Bt cotton, and state the form in which the insecticidal protein exists in the bacterium.",
+     "a": "The bacterium is *Bacillus thuringiensis*. The insecticidal protein exists as an inactive protoxin (crystalline inclusion body) during sporulation. A wrong answer (e.g., *E. coli* or \"active toxin\") reveals the student hasn't linked the bacterial source to the crystal protein formation stage, which is essential for understanding why the toxin needs activation in the insect gut.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Bt toxin kills bollworm larvae but does not harm humans or other mammals, even though the cry gene is expressed in every cell of the cotton plant.",
+     "a": "Bt toxin is produced as an inactive protoxin that requires alkaline pH (pH 9-10) of the lepidopteran larval midgut for solubilization and proteolytic activation by gut proteases. The activated toxin then binds to specific cadherin-like receptors on midgut epithelial cells. Humans and mammals have acidic stomachs (pH 1.5-3.5) and lack these specific receptors, so the protoxin remains inactive and is digested like any other dietary protein. A wrong answer focusing only on \"different DNA\" or \"humans don't eat cotton\" misses the precise biochemical basis of specificity.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer plants Bt cotton expressing cryIAc. In the second season, bollworm damage reappears. Propose a molecular mechanism for this resistance development and name the strategy recommended to delay it.",
+     "a": "Resistance can arise via mutation in the cadherin receptor gene (reduced toxin binding) or enhanced detoxification/protease modification in the insect. The recommended strategy is the \"refuge strategy\": planting a block of non-Bt cotton (refuge) near the Bt field so that susceptible moths survive and mate with any resistant moths emerging from the Bt crop, keeping resistance alleles recessive and rare in the population. A wrong answer suggesting \"spray more pesticide\" or \"rotate crops\" fails to address the population genetics principle underlying resistance management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cryIAc and cryIIAb genes used in Bollgard I and Bollgard II cotton. Why was cryIIAb added in the second generation?",
+     "a": "cryIAc encodes a Cry1Ac protein toxic primarily to *Helicoverpa armigera* (American bollworm). cryIIAb encodes Cry2Ab, which has a different receptor-binding domain and is toxic to a broader range of lepidopterans including *Helicoverpa* and *Pectinophora* (pink bollworm). cryIIAb was added as a \"pyramid\" gene to provide two distinct toxins with different modes of action, drastically reducing the probability of simultaneous resistance mutations (from ~10⁻⁶ to ~10⁻¹²). A wrong answer stating \"cryIIAb is stronger\" or \"cryIAc stopped working\" confuses potency with resistance management strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since Bt cotton produces its own insecticide, farmers should stop all pesticide sprays immediately after planting.\"",
+     "a": "The claim is incorrect. Bt cotton targets only lepidopteran pests (bollworms). It does not control sucking pests (aphids, jassids, whiteflies, mealybugs) which are major cotton pests in India. Farmers must still monitor and spray for sucking pests using integrated pest management (IPM). Additionally, refuge compliance requires non-Bt cotton which may need sprays. Stopping all sprays leads to sucking pest outbreaks and yield loss. A student who agrees reveals a misconception that Bt toxin is broad-spectrum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to confirm that the insecticidal effect in Bt cotton is due to the Cry protein and not some other secondary metabolite induced by genetic transformation.",
+     "a": "Feed purified Cry1Ac protein (from *E. coli* expression) to bollworm larvae on artificial diet and compare mortality with larvae fed on: (1) Bt cotton leaves, (2) non-Bt cotton leaves, (3) non-Bt cotton leaves sprayed with purified Cry1Ac. If mortality is high and equal in (1), (3), and purified protein groups, but low in (2), the effect is due to Cry protein alone. A poor answer that only compares Bt vs non-Bt cotton leaves cannot rule out position effects or unintended metabolites from the transformation process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

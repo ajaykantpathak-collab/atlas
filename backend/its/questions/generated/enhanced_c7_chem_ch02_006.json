@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_006",
+   "title": "c7_chem_ch02_006",
+   "questions": [
+    {
+     "q": "What are the three essential requirements for combustion to take place?",
+     "a": "The three essential requirements are fuel, oxygen (air), and ignition temperature (heat). A student who answers \"just wood and fire\" demonstrates a recall error by missing oxygen, which is the chemical reactant necessary for the oxidation process to occur.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ash left behind after burning a piece of paper cannot be converted back into the original paper.",
+     "a": "Ash cannot be converted back because combustion is a permanent chemical change that creates entirely new chemical substances, such as carbon dioxide and ash, rather than just changing the physical shape of the paper. A student who thinks it can be reversed confuses physical changes like tearing paper with chemical changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student places a glass tumbler over a burning candle fixed on a plate. After a short while, the flame flickers and goes out. Calculate or deduce which component of air was consumed and explain why the flame extinguished.",
+     "a": "Steps: 1. Identify the fuel as the candle wax and the oxidant as the oxygen in the air inside the tumbler. 2. Recognize that the tumbler traps a limited volume of air. 3. Deduce that as the candle burns, it consumes the oxygen present inside the sealed glass. 4. Conclude that once the oxygen is depleted, the combustion reaction stops, causing the flame to extinguish. A student who incorrectly states that carbon dioxide was consumed shows a misconception about the roles of gases in combustion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rusting of iron with the combustion of wood. How are they similar, and how are they different?",
+     "a": "Both rusting and combustion are chemical changes involving the reaction of a substance with oxygen. However, combustion is a very rapid process that produces visible flames, intense heat, and light, whereas rusting is an extremely slow process that occurs at room temperature without producing flames or light. A student who claims they have nothing in common fails to recognize that both are oxidation reactions differing only in speed and energy release.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims that combustion is a physical change because the wood changes its state from solid to smoke and ash. Evaluate this claim using scientific reasoning.",
+     "a": "The classmate's claim is incorrect. Combustion is a chemical change because new substances with completely different chemical properties (carbon dioxide, water vapour, ash) are formed, and the original fuel is permanently lost; physical changes do not create new chemical substances. A student who agrees with the claim confuses the visual disappearance of solid matter with a simple change of physical state like melting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, safe classroom demonstration to prove that oxygen is necessary for combustion using a candle, a matchbox, and a glass jar. Describe the steps and expected observation.",
+     "a": "Steps: 1. Fix a small candle on a flat plate and light it. 2. Observe the stable flame burning in open air. 3. Carefully invert a glass jar over the burning candle so its rim rests on the plate. 4. Observe the flame as time passes until it goes out. 5. Conclude that sealing the jar cuts off the continuous supply of fresh oxygen from the surrounding air, proving oxygen is required for burning. A poor answer would lack safety precautions or fail to link the extinguishing of the flame to oxygen depletion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

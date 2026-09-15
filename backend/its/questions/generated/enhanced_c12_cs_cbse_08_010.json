@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_010",
+   "title": "c12_cs_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the definition of traversing a linked list, and what condition terminates the traversal loop?",
+     "a": "Traversing a linked list means visiting each node once in order from head to tail by following `next` pointers; the loop terminates when the current pointer becomes `None`. A wrong answer (e.g., \"traversal stops at the last node's data\") reveals the student confuses the last node with the termination condition and may write `while current.next is not None`, which skips processing the last node.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we use a temporary pointer (e.g., `current = head`) instead of moving `head` directly during traversal?",
+     "a": "Using a temporary pointer preserves the original `head` reference so the list remains accessible after traversal; if we move `head` itself, we lose the starting point and the list becomes unreachable (memory leak in languages without garbage collection). A wrong answer like \"it's just a convention\" shows the student does not understand reference semantics and will likely write destructive traversal code in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `count_nodes(head)` that returns the number of nodes in a singly linked list. Assume the Node class has `data` and `next` attributes.",
+     "a": "```python\ndef count_nodes(head):\n    count = 0\n    current = head\n    while current is not None:\n        count += 1\n        current = current.next\n    return count\n```\nSteps: initialize counter, use temporary pointer, loop until `None`, increment counter, advance pointer. A wrong answer that uses `head` directly or forgets to advance `current` reveals misunderstanding of loop mechanics and pointer mutation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare iterative and recursive traversal in terms of memory usage and risk of stack overflow for a linked list of 10,000 nodes.",
+     "a": "Iterative traversal uses O(1) auxiliary space (only a few variables); recursive traversal uses O(n) call stack space, which for 10,000 nodes will likely exceed Python's recursion limit (default ~1000) and raise `RecursionError`. A student who claims recursion is \"more efficient\" or \"uses less memory\" confuses code brevity with space complexity and ignores Python's recursion depth limit.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the error in the following traversal code and correct it:\n```python\ndef print_list(head):\n    while head is not None:\n        print(head.data)\n        head = head.next\n```",
+     "a": "The error: the function modifies the parameter `head`, destroying the caller's reference to the list. Correction: use a temporary variable `current = head` and loop on `current`. A student who says \"it works fine because head is a local variable\" misses that the caller's `head` reference is lost (in Python the reference is passed by value, but reassigning the local variable does not affect the caller's variable? Wait: In Python, arguments are passed by object reference. Reassigning the local parameter `head` does not change the caller's variable. However, the function still loses the ability to return the head or use it after the loop. The real issue is that the function modifies the parameter, which is a bad practice and if the function needed to return the head it would be wrong. But the main misconception is that students think it's okay to move head because it's a local variable. Actually, in Python, the caller's variable is not affected because the parameter is a reference passed by value. However, the function cannot use the head after the loop. The NCERT textbook emphasizes preserving head. So the error is that the head reference is lost inside the function, making it impossible to use the list again within the same function. The correct answer: use a temporary pointer. A wrong answer that says \"no error\" shows the student does not understand the importance of preserving the head reference for subsequent operations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a recursive function `print_reverse(head)` that prints the linked list elements in reverse order without modifying the list or using any auxiliary data structure.",
+     "a": "```python\ndef print_reverse(node):\n    if node is None:\n        return\n    print_reverse(node.next)\n    print(node.data)\n```\nA good answer includes the base case, recursive call before printing, and explanation of call stack behavior. A poor answer that uses a loop with a stack or modifies `next` pointers shows inability to think recursively and misunderstanding of the call stack as an implicit stack.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

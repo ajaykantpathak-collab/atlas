@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_011",
+   "title": "c11_phy_cbse_03_011",
+   "questions": [
+    {
+     "q": "State the horizontal and vertical components of initial velocity for a projectile launched with speed 25 m/s at 30° above horizontal. Give the formulas and compute numerical values with units.",
+     "a": "v₀ₓ = v₀ cos θ₀ = 25 cos 30° = 25 × (√3/2) = 21.65 m/s (horizontal). v₀ᵧ = v₀ sin θ₀ = 25 sin 30° = 25 × 0.5 = 12.5 m/s (vertical). A wrong answer (e.g., swapping sin/cos, forgetting units, or using θ in radians) reveals the student cannot correctly resolve vectors into components or confuses the angle's reference axis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the horizontal velocity of a projectile remains constant throughout its flight while the vertical velocity changes. What would happen to the trajectory if gravity were suddenly turned off at the maximum height?",
+     "a": "Horizontal velocity is constant because there is no horizontal force (neglecting air resistance), so by Newton's first law, aₓ = 0 ⇒ vₓ = constant. Vertical velocity changes because gravity exerts a downward force, giving aᵧ = -g. If gravity were turned off at max height, the projectile would continue with constant velocity v = v₀ₓ î (horizontal only) in a straight line tangent to the trajectory at that point. A wrong answer (e.g., \"horizontal velocity decreases due to gravity\") shows confusion between force components and velocity components.",
+     "self_check": true
+    },
+    {
+     "q": "A stone is thrown from the top of a 45 m high cliff with an initial speed of 20 m/s at 30° above horizontal. Calculate (a) the time taken to hit the ground, (b) the horizontal distance from the base of the cliff where it lands. Use g = 10 m/s².",
+     "a": "Given: y₀ = 45 m, v₀ = 20 m/s, θ₀ = 30°, g = 10 m/s².  \nStep 1: v₀ₓ = 20 cos 30° = 20 × (√3/2) = 10√3 ≈ 17.32 m/s. v₀ᵧ = 20 sin 30° = 10 m/s.  \nStep 2: Vertical motion: y(t) = y₀ + v₀ᵧ t - ½gt². Ground at y = 0 ⇒ 0 = 45 + 10t - 5t² ⇒ 5t² - 10t - 45 = 0 ⇒ t² - 2t - 9 = 0.  \nStep 3: Solve quadratic: t = [2 ± √(4 + 36)]/2 = [2 ± √40]/2 = 1 ± √10. Positive root: t = 1 + √10 ≈ 4.16 s.  \nStep 4: Horizontal distance: x = v₀ₓ t = 17.32 × 4.16 ≈ 72.1 m.  \nAnswer: (a) 4.16 s, (b) 72.1 m. A wrong answer (e.g., using y₀ = 0, or forgetting the initial height in the quadratic) reveals inability to adapt the standard ground-level formulas to a launch-from-height scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Two projectiles A and B are launched with the same initial speed v₀ but at angles θ and (90° - θ) respectively. Compare their maximum heights, times of flight, and horizontal ranges. Which quantities are equal and which are different? Justify using formulas.",
+     "a": "For A (angle θ): H_A = (v₀² sin²θ)/(2g), T_A = (2v₀ sinθ)/g, R_A = (v₀² sin2θ)/g.  \nFor B (angle 90°-θ): sin(90°-θ) = cosθ, cos(90°-θ) = sinθ.  \nH_B = (v₀² cos²θ)/(2g) ≠ H_A (unless θ=45°).  \nT_B = (2v₀ cosθ)/g ≠ T_A.  \nR_B = (v₀² sin(180°-2θ))/g = (v₀² sin2θ)/g = R_A.  \nThus, ranges are equal, but max heights and times of flight are swapped (complementary angles give same range). A wrong answer (e.g., saying all three are equal) shows lack of understanding of the trigonometric symmetry in the range formula and the distinct dependence of H and T on sinθ vs cosθ.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a projectile problem and gets a time of flight of 3.2 s for a ball launched at 20 m/s, 30° from ground level. Without redoing the full calculation, how can you quickly check if this answer is physically plausible? What does a negative time root in the quadratic for time of flight represent?",
+     "a": "Quick check: For ground-level launch, T = 2v₀ sinθ/g = 2×20×0.5/9.8 ≈ 2.04 s. The student's 3.2 s is too large (maybe they used g=10 but miscalculated, or used wrong angle). A negative time root in the quadratic (e.g., from y = v₀ᵧ t - ½gt² = 0 giving t=0 and t=2v₀ᵧ/g) corresponds to the time before launch when the projectile would have been at ground level if extrapolated backward along the parabolic path. It is mathematically valid but physically not the time of flight. A wrong answer (e.g., \"negative time means the projectile went backward in time\") reveals a misunderstanding of the mathematical vs physical interpretation of quadratic solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rubber band, a small projectile (like a crumpled paper ball), and a measuring tape to verify that the maximum range occurs at 45° for a given launch speed. Describe how you would keep launch speed constant while varying angle, and what measurements you would take.",
+     "a": "A good answer: Use a rubber band stretched to a fixed extension (measured with a ruler) as a launcher to keep initial speed roughly constant. Mount it on a protractor base to set angles (15°, 30°, 45°, 60°, 75°). Launch the paper ball 5 times per angle, measure horizontal range each time, average them. Plot range vs angle; peak should be near 45°. A poor answer (e.g., \"throw by hand at different angles\") shows inability to control variables and understand the need for consistent initial speed to isolate the angle dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

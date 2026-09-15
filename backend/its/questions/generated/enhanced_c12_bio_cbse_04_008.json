@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_008",
+   "title": "c12_bio_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define Total Fertility Rate (TFR) and state the replacement-level TFR value for a population with low mortality.",
+     "a": "TFR is the average number of children a woman would bear if she experienced the current age-specific fertility rates throughout her reproductive life (15-49 years). Replacement-level TFR is approximately 2.1 in populations with low mortality. A wrong answer (e.g., \"TFR is the number of births per 1000 population\") confuses TFR with Crude Birth Rate, revealing the student cannot distinguish between a period rate (CBR) and a synthetic cohort measure (TFR).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a population continues to grow for several decades even after TFR reaches replacement level (2.1).",
+     "a": "This is population momentum: a large proportion of the population is in the reproductive age group due to past high fertility. Even with replacement-level fertility, the absolute number of births exceeds deaths because there are many potential parents. A wrong answer (e.g., \"because TFR 2.1 still means growth\") shows the student does not understand the age-structure effect and the lag between fertility decline and population stabilisation.",
+     "self_check": true
+    },
+    {
+     "q": "A district has a population of 2.5 lakh, 4,500 live births, and 2,000 deaths in a year. Calculate CBR and CDR. If the TFR is 3.2, what does this imply about the district's demographic transition stage?",
+     "a": "CBR = (4500/250000)×1000 = 18 per 1000. CDR = (2000/250000)×1000 = 8 per 1000. TFR 3.2 with CBR 18 and CDR 8 indicates Stage 3 of demographic transition: death rate has fallen significantly, birth rate is declining but still above replacement. A wrong calculation (e.g., using percentage instead of per 1000) or misclassifying as Stage 2 reveals inability to apply demographic formulas or interpret transition stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of promoting female sterilisation versus promoting spacing methods (IUCD, injectables) on the age-specific fertility rate (ASFR) curve and population momentum.",
+     "a": "Female sterilisation (terminal method) truncates the ASFR curve at the age of sterilisation, reducing fertility only for older women. Spacing methods reduce ASFR across younger ages (20-30), lowering the peak and delaying first birth. This reduces population momentum more effectively because it lengthens generation interval. A wrong answer focusing only on \"both reduce TFR equally\" misses the critical distinction in age-pattern of fertility and momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's Family Planning Programme should focus exclusively on increasing female sterilisation acceptance to achieve population stabilisation quickly.\"",
+     "a": "The statement is flawed: (1) Sterilisation is terminal and does not address spacing needs of young couples; (2) High sterilisation reliance creates a skewed method mix, violating reproductive rights and informed choice; (3) It ignores population momentum — sterilising older women does not reduce births from the large cohort of young women entering reproductive age; (4) NFHS data shows unmet need for spacing (4% in NFHS-5). A student agreeing with the statement reveals a misunderstanding of demographic momentum and rights-based approach.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level intervention package for a block with TFR 3.5, CPR 40%, and unmet need for spacing 12%. Specify three measurable indicators to track progress over 3 years.",
+     "a": "Package: (1) ASHA-led home delivery of contraceptives (condoms, OCPs, Chhaya); (2) Fixed-day IUCD insertion services at sub-centres with counsellors; (3) Newly-wed kits with spacing method information; (4) Male engagement sessions on vasectomy/condoms. Indicators: (i) CPR increase to ≥60%; (ii) Spacing method share in CPR from 20% to 40%; (iii) Unmet need for spacing reduced to ≤5%. A poor answer lists only awareness camps without service delivery or measurable indicators, showing inability to translate demographic data into actionable programme design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

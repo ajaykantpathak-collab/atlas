@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_006",
+   "title": "c11_bio_cbse_07_006",
+   "questions": [
+    {
+     "q": "List the components of the frog's alimentary canal in correct sequential order from mouth to cloaca.",
+     "a": "Correct sequence: Mouth → Buccal cavity → Pharynx → Oesophagus → Stomach → Intestine (duodenum + ileum) → Rectum → Cloaca → Cloacal aperture. A wrong answer (e.g., placing rectum before intestine, omitting pharynx, or adding gall bladder as part of alimentary canal) reveals confusion between the alimentary canal (the tube) and accessory glands, or lack of sequential understanding of food passage.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the frog's intestine shorter relative to its body length compared to a herbivorous mammal like a rabbit?",
+     "a": "Frogs are carnivores; their diet (insects, worms) is protein-rich and easily digestible, requiring less time and surface area for absorption. Herbivores need longer intestines for microbial fermentation of cellulose. A wrong answer citing \"frogs are smaller\" or \"frogs don't eat plants\" without linking diet to absorption efficiency shows superficial reasoning — the student recalls a fact but misses the structure-function-diet evolutionary principle.",
+     "self_check": true
+    },
+    {
+     "q": "A frog's common bile duct is ligated (tied off) experimentally. Predict the specific effect on digestion of a meal rich in fats and proteins, and explain why carbohydrate digestion is less affected.",
+     "a": "Bile (from liver, stored in gall bladder) emulsifies fats — without it, fat digestion by pancreatic lipase drops drastically. Pancreatic juice (carried by same duct) contains proteases for proteins and amylase for carbohydrates. Protein digestion suffers due to loss of trypsin/chymotrypsin; carbohydrate digestion continues via pancreatic amylase (still secreted) and intestinal maltase/sucrase/isomaltase (brush border enzymes unaffected). A wrong answer saying \"all digestion stops\" reveals confusion between bile's role (emulsification, not enzymatic) and pancreatic enzymes, or ignorance that intestinal brush border enzymes are independent of the bile duct.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the frog and human digestive systems in three ways: (i) teeth and tongue function, (ii) stomach structure, (iii) terminal opening. Relate each difference to diet and habitat.",
+     "a": "(i) Frog: maxillary/vomerine teeth only for holding prey, bilobed tongue for capture; Human: heterodont teeth for cutting/grinding, muscular tongue for manipulation/taste — frog swallows whole, human chews. (ii) Frog: simple J-shaped stomach with gastric glands; Human: distinct cardiac/fundic/pyloric regions with specialized cell types — frog's simpler stomach reflects less mechanical preprocessing. (iii) Frog: cloaca (common exit for faeces, urine, gametes); Human: separate anus and urogenital openings — cloaca conserves water and suits aquatic/terrestrial life with external fertilisation. A wrong answer listing differences without diet/habitat links shows rote memorisation, not analytical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since frogs are poikilotherms, their digestive enzyme activity remains constant across seasons, unlike in homeothermic mammals.\" Justify your evaluation with two specific reasons.",
+     "a": "Statement is FALSE. Reason 1: Poikilotherm body temperature varies with environment; enzyme kinetics are temperature-dependent (Q10 effect) — digestion slows in cold, speeds in warmth. Reason 2: Frogs undergo hibernation/aestivation where metabolic rate (including digestive enzyme synthesis/secretion) drops to near zero — no digestion occurs during dormancy. A wrong answer claiming \"enzymes work the same at all temperatures\" reveals a fundamental misunderstanding of enzyme thermodynamics and poikilotherm physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory investigation using frog intestinal tissue to demonstrate the presence and action of disaccharidases (maltase, sucrase, lactase). Specify the control, variable, and how you would detect products.",
+     "a": "Good answer: Homogenise fresh frog intestinal mucosa (source of brush border enzymes). Incubate separate tubes with maltose, sucrose, lactose (substrates) at 25°C (frog body temp). Control: boiled homogenate + each substrate. Variable: substrate type. Detect glucose/fructose/galactose using Benedict's test (reducing sugars) or glucose oxidase strips at timed intervals. Expect: maltose → glucose; sucrose → glucose+fructose; lactose → glucose+galactose (if lactase present; many adult vertebrates lack it). Poor answer: using whole frog, no control, testing only starch (amylase not disaccharidase), or suggesting iodine test (for starch, not products) — reveals confusion between enzyme classes, experimental design, and detection methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 103,
+ "chapter_title": "Delhi: 12th to 15th Century",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees102.txt",
+ "concepts": [
+  {
+   "id": "gess.103.1.1",
+   "title": "Land Revenue Assessment",
+   "section": "Administration under the Khaljis and Tughluqs",
+   "definition": "The system of calculating and collecting taxes from agricultural produce based on land measurement and state-prescribed rates.",
+   "formula": "revenue = total_produce * tax_rate",
+   "key_idea": "State-controlled revenue collection based on land assessment.",
+   "textbook_ref": "gess103.txt lines 135-150",
+   "question_patterns": [
+    "calculate the revenue if total produce is ... and rate is ...",
+    "how much tax is collected if produce is ... at 50 percent rate",
+    "find the revenue amount for a yield of ...",
+    "determine the tax burden on a peasant with produce ...",
+    "compute the state share if the harvest is ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply total produce by tax rate",
+     "explain": "calculate the share of the state from the total agricultural output",
+     "compute": "revenue = total_produce * tax_rate"
+    }
+   ]
+  },
+  {
+   "id": "gess.103.2.1",
+   "title": "The Circle of Justice",
+   "section": "Understanding Delhi under the Sultans",
+   "definition": "A political theory suggesting that a king's stability depends on soldiers, whose salaries depend on peasant revenue, which in turn requires a prosperous and just peasantry.",
+   "formula": "stability = (justice * prosperity) / (soldiers * salaries)",
+   "key_idea": "Interdependence of the king, soldiers, and peasants for a stable state.",
+   "textbook_ref": "gess103.txt lines 45-60",
+   "question_patterns": [
+    "explain the circle of justice in your own words",
+    "why did the king need to ensure peasant prosperity",
+    "what is the relationship between soldiers and revenue",
+    "describe the circle of justice concept",
+    "how does justice relate to the king's survival"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze the dependency chain",
+     "explain": "identify the link between king, soldiers, and peasants"
+    }
+   ]
+  },
+  {
+   "id": "gess.103.3.1",
+   "title": "Iqta System",
+   "section": "Administration under the Khaljis and Tughluqs",
+   "definition": "A system where military commanders were assigned territories to manage and collect revenue as salary for their military service.",
+   "formula": "salary = revenue_collected",
+   "key_idea": "Land assignment in exchange for military service and law enforcement.",
+   "textbook_ref": "gess103.txt lines 115-130",
+   "question_patterns": [
+    "what was the role of an iqtadar",
+    "how were military commanders compensated",
+    "define the iqta system",
+    "why were iqtas not inheritable",
+    "what were the duties of the holder of an iqta"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the function of iqta",
+     "explain": "examine the link between revenue collection and military duty"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess103.txt",
+   "concept": "gess.103.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the revenue if total produce is {total_produce} and tax rate is {tax_rate}",
+   "extracted_variables": {
+    "total_produce": 1000,
+    "tax_rate": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply produce by rate",
+     "explain": "calculate 50 percent of the total produce",
+     "compute": "revenue = total_produce * tax_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess103.txt",
+   "concept": "gess.103.1.1",
+   "question_type": "compute",
+   "question_pattern": "Find the revenue for a harvest of {total_produce} units at a {tax_rate} tax rate",
+   "extracted_variables": {
+    "total_produce": 2000,
+    "tax_rate": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply produce by rate",
+     "explain": "calculate the state share",
+     "compute": "revenue = total_produce * tax_rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gess103.txt",
+   "questions": [
+    "What was the language of administration under the Delhi Sultans?",
+    "In whose reign did the Delhi Sultanate reach its farthest extent?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about battuta.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about commanders.",
+    "What is meant by the internal and external frontiers of the Sultanate?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

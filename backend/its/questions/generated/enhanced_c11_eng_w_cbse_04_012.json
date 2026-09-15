@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_04_012",
+   "title": "c11_eng_w_cbse_04_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the address on Nathan Garrideb's brass plate?\" Explain your classification in one sentence.",
+     "a": "This is a literal question because the answer (\"136, Little Ryder Street, W.\") is explicitly stated in the text when Watson reads the telephone directory entry and later when Holmes notes the brass plate. A wrong answer (classifying as inferential) reveals the student confuses \"specific detail retrieval\" with \"interpretation\"—they may think any question about a character's detail requires inference, not recognizing that explicitly stated facts are literal regardless of specificity.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"Holmes had spent several days in bed, as was his habit from time to time.\" A student answers an inferential question \"Why did Holmes stay in bed?\" with \"Because he was tired.\" Explain why this answer is insufficient for an inferential question at Class 11 level.",
+     "a": "The answer is insufficient because it offers a generic assumption unsupported by textual evidence. The text implies Holmes's bed-rest is a thinking strategy (\"he emerged that morning with a long foolscap document... and a twinkle of amusement\"), not fatigue. A Class 11 inferential answer must cite textual anchors (the document, the twinkle, the timing before a case) and reason: \"Holmes uses bed-rest as a cognitive incubation period to process case details before emerging with a plan.\" A wrong answer reveals the student treats inference as guesswork rather than evidence-based deduction.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: Using the PEEL structure, answer this inferential question: \"Why did John Garrideb (Killer Evans) invent the Alexander Hamilton Garrideb legacy?\" Provide Point, Evidence (2 quotes), Explanation, and Link.",
+     "a": "**Point:** Evans invented the legacy to lure Nathan Garrideb out of his rooms so Evans could access the hidden counterfeiting press beneath the floor.  \n**Evidence 1:** \"He wanted to get our amiable friend out of his room—that is very clear and, as the collector never went out, it took some planning to do it.\"  \n**Evidence 2:** \"The whole of this Garrideb invention was apparently for no other end.\"  \n**Explanation:** Evans knew Nathan never left his rooms (literal fact), so he fabricated a scenario requiring Nathan's physical presence in Birmingham (the third Garrideb). The \"legacy\" was the bait; the Birmingham trip was the mechanism to vacate the room.  \n**Link:** This reveals the story's central irony—the \"three Garridebs\" comedy masked a criminal tragedy.  \nA wrong answer (e.g., \"Evans wanted money\") shows the student misses the spatial/strategic logic: the goal wasn't the legacy money (which didn't exist) but physical access to the room.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the literal question \"What did the advertisement for Howard Garrideb say?\" with the inferential question \"How did Holmes deduce the advertisement was planted by Evans?\" Break down the reasoning steps Holmes uses, identifying which textual details are literal anchors and which are his inferences.",
+     "a": "**Literal anchors (directly stated):**  \n- Advertisement text: \"HOWARD GARRIDEB... Constructor of Agricultural Machinery... Apply Grosvenor Buildings, Aston.\"  \n- Misspelling: \"plough\" spelled \"plow\" (American).  \n- Terms: \"buckboards,\" \"artesian wells\" (American usage).  \n- Purports to be English firm but uses American English.  \n\n**Holmes's inferences (reasoning steps):**  \n1. American spelling in an English ad → planted by an American (Evans).  \n2. Evans \"opened inquiries in Birmingham\" → he controls the timeline.  \n3. Ad appears conveniently after Evans visits Nathan → manufactured to send Nathan away.  \n4. Nathan never goes out → Evans needed a compelling reason (inheritance) to move him.  \n\n**Analysis:** The inference chain is: literal textual anomalies (spelling/vocabulary) → authorial identity (American) → motive (vacate room) → strategic timing (coincides with Evans's visit). A wrong answer that lists only the anomalies without the causal chain shows the student cannot distinguish evidence from conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: A student writes: \"Holmes guessed Nathan would go to Little Ryder Street because he's smart.\" Critique this answer against board-exam standards. What specific textual reasoning is missing?",
+     "a": "The answer fails because it attributes Holmes's deduction to an innate trait (\"smart\") rather than reconstructing the textual logic. Board-exam standard requires:  \n1. **Literal anchor:** Holmes notes Nathan \"never went out\" and \"very seldom leave[s] my room.\"  \n2. **Literal anchor:** Evans arranges Birmingham trip for Nathan (\"You leave at twelve... back the same night\").  \n3. **Inference 1:** Nathan's absence creates a window for Evans to search the rooms.  \n4. **Inference 2:** Holmes anticipates Evans will act that evening (Nathan gone, Mrs. Saunders leaves at 4).  \n5. **Literal anchor:** Holmes confirms with house-agents that previous tenant (Presbury) used the same rooms.  \n6. **Conclusion:** Holmes goes to 136 Little Ryder Street *during* Nathan's absence to catch Evans in the act.  \nMissing any step reduces the answer to assertion. A wrong evaluation that accepts \"he's smart\" reveals the student cannot deconstruct analytical reasoning into traceable textual steps.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Write an original inferential question about the story's climax (the cellar discovery) that requires synthesizing evidence from three different scenes. Provide the ideal answer outline.",
+     "a": "**Question:** \"How does the discovery of Presbury's counterfeiting press in the cellar retrospectively explain three earlier 'coincidences' in the narrative?\"  \n**Ideal Answer Outline:**  \n1. **Scene 1 (Evans's arrival):** Evans's \"chubby face... English coat frayed at elbow\" (literal) → inference: he's been in London long-term, not a new arrival; he knew the house layout from Presbury.  \n2. **Scene 2 (Advertisement):** American spelling in Birmingham ad (literal) → inference: Evans planted it to replicate the \"third Garrideb\" pattern, knowing Nathan would never verify Birmingham personally.  \n3. **Scene 3 (Holmes's house-agent visit):** Previous tenant Waldron = Presbury (literal: \"tall, dark man with a beard\") → inference: Evans murdered Presbury to seize the press location, then waited for a namesake tenant to provide cover.  \n**Synthesis:** The cellar revelation transforms isolated details into a unified criminal strategy. A poor question/answer would treat scenes in isolation or miss the retrospective explanatory power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

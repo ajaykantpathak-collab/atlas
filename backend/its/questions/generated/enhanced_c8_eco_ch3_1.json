@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_1",
+   "title": "c8_eco_ch3_1",
+   "questions": [
+    {
+     "q": "According to the Census of India, what are the three specific criteria that a settlement must simultaneously satisfy to be classified as a 'Census Town' (urban)?",
+     "a": "To be classified as a Census Town, a settlement must have: (1) a minimum population of 5,000, (2) at least 75% of its male main working population engaged in non-agricultural pursuits, and (3) a minimum population density of 400 persons per square kilometre.\n*Wrong Answer Reveal*: If a student only lists one or two criteria (such as \"it has many buildings\" or \"only population size\"), it reveals they do not understand that the definition is multi-dimensional, requiring demographic, density, and occupational conditions to be met at the same time.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a highly populated village with 10,000 residents, where 80% of the workforce is engaged in wheat and paddy cultivation, is still classified as a rural area under Indian economic standards.",
+     "a": "Even though the village meets the population threshold (>5,000), its structural economic base is entirely agrarian, with 80% of the workforce in the primary sector. An urban area must have at least 75% of its male workforce in non-agricultural activities (secondary and tertiary sectors) to ensure the economy is driven by industrial or service markets.\n*Wrong Answer Reveal*: If a student thinks that any place with a large population is automatically a city, they miss the core economic concept that urbanisation represents a structural shift in livelihoods from agriculture to manufacturing and services.",
+     "self_check": true
+    },
+    {
+     "q": "Settlement 'Z' has a total population of 6,000 people living in an area of 20 square kilometres. If 80% of its working population is employed in local factories and services, does it qualify as a Census Town? Show your calculations.",
+     "a": "Step 1: Identify given data: Population = 6,000; Area = 20 sq km; Non-agricultural workforce = 80%.\nStep 2: Recall the criteria: Population $\\ge$ 5,000; Density $\\ge$ 400 persons/sq km; Non-agricultural workforce $\\ge$ 75%.\nStep 3: Calculate Density = Population / Area = 6,000 / 20 = 300 persons/sq km.\nStep 4: Compare with criteria: Population (6,000 $\\ge$ 5,000) and Workforce (80% $\\ge$ 75%) are met, but Density (300 < 400) is NOT met.\nConclusion: No, Settlement 'Z' does not qualify because its population density is below the required 400 persons/sq km.\n*Wrong Answer Reveal*: If a student answers \"Yes\" because the population and workforce criteria are met, it shows they fail to apply all three criteria conjunctively, overlooking the density requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the difference in \"market velocity\" (the speed and frequency of transactions) between rural and urban areas is linked to their infrastructure networks.",
+     "a": "Urban markets experience high market velocity because dense transport networks (highways, metros) and digital/financial infrastructure (banks, high-speed internet) allow goods and payments to circulate rapidly. Rural markets have slower transaction cycles because they depend on seasonal agricultural harvests, periodic weekly haats, and sparser transport and banking networks, which limit daily economic exchange.\n*Wrong Answer Reveal*: If a student attributes the difference purely to \"urban people being richer,\" they fail to analyze the structural role of physical and financial infrastructure in enabling high-frequency economic transactions.",
+     "self_check": true
+    },
+    {
+     "q": "A state government decides to build a massive multi-specialty hospital and a college in a rural block. Evaluate how this social infrastructure project might trigger the transition of this rural block into an urban area over the next ten years.",
+     "a": "The project will directly create non-agricultural jobs in healthcare, education, administration, and maintenance. This will attract secondary businesses (pharmacies, hostels, restaurants, transport), pulling local workers away from farming and satisfying the 75% non-agricultural workforce criterion. Additionally, the influx of students, patients, and staff will increase the local population and density past the urban thresholds.\n*Wrong Answer Reveal*: If a student says \"it becomes urban immediately because a hospital is an urban building,\" they fail to evaluate the dynamic, long-term economic chain reaction (job creation $\\rightarrow$ occupational shift $\\rightarrow$ migration $\\rightarrow$ density increase) required for true urbanisation.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose you are an urban planner. Propose a plan showing how a small rural market town can upgrade its physical and utility infrastructure to support a transition into a formal urban municipality. Focus on three distinct urban utility requirements.",
+     "a": "A successful plan must propose: (1) Upgrading transport infrastructure from dirt roads to paved, multi-lane roads to handle higher traffic density; (2) Transitioning from individual wells to a centralized, piped water supply and sewage treatment network; (3) Replacing intermittent power with a stable, high-capacity electricity grid to support continuous commercial activities.\n*Wrong Answer Reveal*: If a student proposes superficial elements like \"building beautiful parks\" or \"opening luxury shops\" without addressing core utility systems, it reveals they do not understand that urban areas require highly coordinated, high-capacity utility infrastructure to sustain dense populations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

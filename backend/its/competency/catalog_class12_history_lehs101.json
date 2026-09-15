@@ -1,0 +1,283 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 10,
+ "chapter_title": "Bricks, Beads and Bones",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.101.1",
+   "title": "Harappan Urban Planning",
+   "section": "Early Harappan Archaeology",
+   "definition": "Mature Harappan cities were built of standardized baked bricks whose length and breadth were multiples of the height, laid in interlocking patterns; the citadel rose to the west of the lower town, and covered drains along the streets carried waste out of every house.",
+   "formula": "",
+   "key_idea": "Uniform brick ratios and planned drainage across distant sites prove a shared building culture rather than isolated towns.",
+   "textbook_ref": "lehs101.txt drainage, bricks and citadel-lower town sections",
+   "question_patterns": [
+    "describe the drainage system of Harappan cities",
+    "what was the standard ratio of Harappan bricks",
+    "differentiate the citadel from the lower town",
+    "why were bricks standardized across sites",
+    "how were wells and reservoirs managed at Mohenjodaro",
+    "what do house remains show about privacy norms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the plan",
+     "explain": "citadel west, lower town east, both walled on mud-brick platforms"
+    },
+    {
+     "step": 2,
+     "action": "measure the bricks",
+     "explain": "length four times and breadth twice the height gave strong interlocking bonds"
+    },
+    {
+     "step": 3,
+     "action": "close with drainage",
+     "explain": "house drains slotted into street drains kept cities remarkably clean"
+    }
+   ]
+  },
+  {
+   "id": "lehs.101.2",
+   "title": "Seals, Script and Crafts",
+   "section": "Seals, Script, Weights",
+   "definition": "Harappan craftsmen cut seals of steatite, made beads of carnelian and faience, and worked copper and bronze; the pictographic script on seals remains undeciphered, and cubical chert weights followed a binary-decimal system of measurement.",
+   "formula": "",
+   "key_idea": "Seals carried animals and an unread script, serving as identity and quality markers in exchange networks we can see but not yet read.",
+   "textbook_ref": "lehs101.txt seals, undeciphered script and weights sections",
+   "question_patterns": [
+    "what materials were Harappan seals made of",
+    "why is the Harappan script called undeciphered",
+    "describe the weight system of the Harappans",
+    "what is faience and how was it used",
+    "identify the craft products of Chanhudaro",
+    "how do seals help archaeologists reconstruct exchange"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the crafts",
+     "explain": "steatite seals, carnelian beads, faience ornaments and copper tools were mass crafts"
+    },
+    {
+     "step": 2,
+     "action": "state the script problem",
+     "explain": "short inscriptions with no bilingual key have kept the script undeciphered"
+    },
+    {
+     "step": 3,
+     "action": "close with weights",
+     "explain": "cubical chert weights in binary and decimal steps measured goods precisely"
+    }
+   ]
+  },
+  {
+   "id": "lehs.101.3",
+   "title": "Subsistence and Long-distance Trade",
+   "section": "Strategies for Procuring Materials",
+   "definition": "Harappans grew wheat, barley, lentil, chickpea and millets, herded cattle, sheep and goats, and procured raw materials from near and far - copper from Oman and Rajasthan, gold from Karnataka, lapis from Shortughai - with Mesopotamian texts mentioning Dilmun, Magan and Meluhha.",
+   "formula": "",
+   "key_idea": "Deposits of imported materials and Mesopotamian references together prove the Harappan world was tied into a long-distance exchange network.",
+   "textbook_ref": "lehs101.txt subsistence strategies, procuring materials and contact with distant lands",
+   "question_patterns": [
+    "list the crops and animals of Harappan subsistence",
+    "from where did the Harappans obtain copper and gold",
+    "what do Mesopotamian texts say about Meluhha",
+    "how do we detect long-distance exchange archaeologically",
+    "why were wild resources like forest products gathered",
+    "describe the role of coastal settlements in trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the materials",
+     "explain": "copper, gold, lapis and shell travelled hundreds of kilometres to reach workshops"
+    },
+    {
+     "step": 2,
+     "action": "cross-check the texts",
+     "explain": "Meluhha in Mesopotamian records matches Harappan goods like carnelian and seals"
+    },
+    {
+     "step": 3,
+     "action": "close with strategy",
+     "explain": "colonies like Shortughai secured sources of lapis far beyond the alluvium"
+    }
+   ]
+  },
+  {
+   "id": "lehs.101.4",
+   "title": "The End of the Harappan Civilisation",
+   "section": "The End of Civilisation",
+   "definition": "By c. 1900 BCE most Mature Harappan sites were abandoned; scholars debate causes - climate change, deforestation, excessive floods, shifting or drying rivers and the breakdown of trade - and favour multiple overlapping causes over a single explanation.",
+   "formula": "",
+   "key_idea": "The disappearance of seals, script, weights and the distinctive pottery marks the end of the civilisation more surely than any single catastrophe.",
+   "textbook_ref": "lehs101.txt evidence of an end and multiple causes debates",
+   "question_patterns": [
+    "when did the Mature Harappan culture end",
+    "what material changes mark the civilisation's end",
+    "state the major causes proposed for the decline",
+    "why do scholars prefer multiple causes",
+    "how did the river regime affect Harappan settlements",
+    "distinguish Late Harappan from Mature Harappan traits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the decline",
+     "explain": "abandonments cluster around 1900 BCE"
+    },
+    {
+     "step": 2,
+     "action": "list the suspects",
+     "explain": "climate, deforestation, floods, river shifts and trade breakdown are the debated causes"
+    },
+    {
+     "step": 3,
+     "action": "close with materiality",
+     "explain": "the loss of urban traits, not the people, defines the end"
+    }
+   ]
+  },
+  {
+   "id": "lehs.101.5",
+   "title": "Harappan Chronology",
+   "section": "The Indus Valley Civilisation",
+   "definition": "The Mature Harappan culture, with its cities, seals and standardised bricks, is dated between about 2600 BCE and 1900 BCE; subtracting the end date from the beginning gives the length of the mature urban phase.",
+   "formula": "mature_span = start_bce - end_bce",
+   "key_idea": "Subtracting the end date BCE from the start date BCE yields the duration of the Mature Harappan phase in years.",
+   "textbook_ref": "lehs101.txt chronology of the Mature Harappan phase (c. 2600-1900 BCE)",
+   "question_patterns": [
+    "what are the start and end dates of the Mature Harappan phase",
+    "compute the duration of the mature urban phase",
+    "which phases preceded the Mature Harappan",
+    "how do archaeologists fix such dates",
+    "compare Early and Mature Harappan traits",
+    "why is the mature phase called urban"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the bounds",
+     "explain": "the mature phase runs from about 2600 BCE to 1900 BCE",
+     "compute": "start_bce = 2600"
+    },
+    {
+     "step": 2,
+     "action": "subtract the end from the start",
+     "explain": "the difference gives 700 years of urban life",
+     "compute": "mature_span = start_bce - end_bce"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs101_1",
+   "source_ref": "lehs101.txt Mature Harappan chronology",
+   "concept": "lehs.101.5",
+   "question_type": "compute",
+   "question_pattern": "The Mature Harappan culture lasted from about 2600 BCE to 1900 BCE. How many years did it span?",
+   "extracted_variables": {
+    "start_bce": 2600,
+    "end_bce": 1900
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the bounds",
+     "explain": "2600 BCE to 1900 BCE",
+     "compute": "start_bce = 2600"
+    },
+    {
+     "step": 2,
+     "action": "subtract the end from the start",
+     "explain": "2600 - 1900 = 700 years",
+     "compute": "mature_span = start_bce - end_bce"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs101_2",
+   "source_ref": "lehs101.txt bricks and drainage passages",
+   "concept": "lehs.101.1",
+   "question_type": "short_answer",
+   "question_pattern": "Explain how brick standardisation and drainage planning display civic order.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "bricks",
+     "explain": "a fixed ratio produced uniform, interlocking walls across the region"
+    },
+    {
+     "step": 2,
+     "action": "drains",
+     "explain": "covered street drains with sumps required planned labour and maintenance"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "both show authorities able to enforce shared standards"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs101_3",
+   "source_ref": "lehs101.txt distant lands passage",
+   "concept": "lehs.101.3",
+   "question_type": "short_answer",
+   "question_pattern": "Give three kinds of evidence for Harappan long-distance exchange.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "materials",
+     "explain": "non-local copper, gold and lapis found in cities"
+    },
+    {
+     "step": 2,
+     "action": "texts",
+     "explain": "Mesopotamian records naming Meluhha and its goods"
+    },
+    {
+     "step": 3,
+     "action": "depots",
+     "explain": " Shortughai settlement guarding lapis sources shows direct procurement"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs101_1",
+   "source_ref": "lehs101.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "list the pieces of craft production evidence from Harappan sites",
+    "describe the drainage system and its civic implications",
+    "evaluate the probable causes of the end of the civilisation",
+    "compute the duration of the Mature Harappan phase",
+    "describe the exchange network with Mesopotamia"
+   ]
+  },
+  {
+   "id": "ex_lehs101_2",
+   "source_ref": "lehs101.txt project questions, reworded",
+   "questions": [
+    "argue which Harappan artefact class best reconstructs society",
+    "compare Mohenjodaro and Harappa as urban plans",
+    "explain the problems of the undeciphered script",
+    "relate subsistence evidence to agricultural practice",
+    "assess why Burzahom and Mehrgarh matter to the story"
+   ]
+  }
+ ]
+}

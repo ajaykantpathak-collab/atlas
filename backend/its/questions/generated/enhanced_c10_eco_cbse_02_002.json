@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_002",
+   "title": "c10_eco_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the approximate percentage share of the tertiary sector in India's GDP and in employment as per the latest available data (2023-24 estimates).",
+     "a": "Correct answer: Tertiary sector contributes approximately 54% to GDP and employs approximately 32% of the workforce (2023-24 estimates). A wrong answer (e.g., stating tertiary employs the most people) reveals the student has memorized GDP shares but not employment shares, confusing output contribution with labor absorption — a critical distinction for board exam questions on structural imbalance.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the primary sector employ the largest share of India's workforce (about 42%) but contribute the smallest share to GDP (about 18%)?",
+     "a": "Correct answer: Low labor productivity in agriculture due to fragmented landholdings, dependence on monsoon, disguised unemployment, and limited technology adoption means many workers produce relatively little output value. A wrong answer citing \"lack of jobs in other sectors\" without explaining low productivity per worker misses the economic reasoning — the board exam expects the term \"disguised unemployment\" and the concept of output per worker (productivity) as the core explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following hypothetical data for a state: Primary sector GDP = ₹1,20,000 crore, Secondary sector GDP = ₹1,80,000 crore, Tertiary sector GDP = ₹3,00,000 crore. Total workforce = 5 crore. Primary employs 2.5 crore, Secondary employs 1 crore, Tertiary employs 1.5 crore. Calculate the GDP per worker (productivity) for each sector and identify which sector has the highest productivity.",
+     "a": "Step 1: Total GDP = 1,20,000 + 1,80,000 + 3,00,000 = ₹6,00,000 crore. Step 2: Primary productivity = 1,20,000 / 2.5 = ₹48,000 per worker. Step 3: Secondary productivity = 1,80,000 / 1 = ₹1,80,000 per worker. Step 4: Tertiary productivity = 3,00,000 / 1.5 = ₹2,00,000 per worker. Step 5: Tertiary sector has highest productivity (₹2,00,000), followed by secondary (₹1,80,000), primary lowest (₹48,000). A wrong answer (e.g., dividing total GDP by total workforce) shows inability to compute sectoral productivity — a common board exam calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"If India shifts workers from primary to tertiary sector, GDP will automatically increase because tertiary has higher productivity.\" Identify two economic conditions necessary for this shift to actually raise GDP.",
+     "a": "Correct answer: (1) The displaced primary workers must possess or acquire the skills required for tertiary jobs (human capital matching). (2) The tertiary sector must have sufficient demand and capital investment to absorb new workers productively — otherwise they join low-productivity informal services (e.g., street vending) and GDP per worker falls. A wrong answer ignoring skill mismatch or demand constraints shows superficial understanding — board exams test awareness that structural shift requires complementary investments in education and infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the impact of the Green Revolution on the inter-sectoral relationship between primary and secondary sectors in India. Did it strengthen or weaken forward linkages? Justify.",
+     "a": "Correct answer: Strengthened forward linkages. The Green Revolution (1960s-70s) raised agricultural output (primary), creating surplus grain that fed agro-processing industries (secondary) like flour mills, sugar factories, and fertilizer plants. Higher farm incomes also increased demand for industrial goods (tractors, pumps), strengthening backward linkages. A wrong answer saying \"weakened because industry grew faster\" confuses sectoral share changes with linkage intensity — board exams require distinguishing between share shifts and physical/input-output connections.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple input-output flow diagram showing how a cotton farmer (primary), a textile mill (secondary), and a retail garment shop (tertiary) are linked. Label the flows as goods, services, or money payments.",
+     "a": "Expected answer: Farmer → (raw cotton, goods) → Textile mill → (money payment for cotton) → Farmer. Textile mill → (cotton cloth, goods) → Retail shop → (money payment for cloth) → Textile mill. Retail shop → (retailing service, service) → Consumer → (money payment for garment) → Retail shop. Also: Bank → (credit service) → all three; Government → (infrastructure service) → all three. A poor answer showing only linear goods flow without money return flows or service inputs reveals inability to visualize circular flow and interdependence — a key diagram in board exam case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

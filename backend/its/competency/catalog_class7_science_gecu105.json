@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Changes Around Us: Physical and Chemical",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.5.1",
+   "title": "Changes Around Us",
+   "section": "Introduction",
+   "definition": "An ice cube melts, milk sours, iron rusts, paper burns: change is the ordinary business of the world, and watching change closely is where chemistry begins.",
+   "formula": "",
+   "key_idea": "The world is a theatre of changes: our job is to tell the kinds apart.",
+   "textbook_ref": "gecu105.txt, Introduction",
+   "question_patterns": [
+    "list five changes you saw today",
+    "how did the ice cube change on the table",
+    "which changes can be undone and which cannot",
+    "why do we study changes in substances",
+    "classify your five changes as natural or caused",
+    "what questions do we ask about any change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.2",
+   "title": "Physical Changes",
+   "section": "A substance may change in state or shape",
+   "definition": "In a physical change a substance changes its state, shape or size but keeps its identity: melted ice is still water, and folded paper is still paper, so most physical changes can be reversed.",
+   "formula": "physical change = new shape or state, same substance",
+   "key_idea": "Nothing new appears in a physical change: the substance re-dresses, not re-makes.",
+   "textbook_ref": "gecu105.txt, A substance may change in state or shape",
+   "question_patterns": [
+    "what is a physical change with examples",
+    "why is melting of ice a physical change",
+    "can a physical change be reversed generally",
+    "is dissolving sugar a physical change",
+    "what changes only in a physical change",
+    "give three physical changes from your kitchen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.3",
+   "title": "Chemical Changes",
+   "section": "A substance may change into a new substance",
+   "definition": "In a chemical change a new substance forms with new properties: burning magnesium turns to white ash, milk to curd, iron to rust; usually such changes cannot be undone by simple means.",
+   "formula": "chemical change = new substance + new properties",
+   "key_idea": "A chemical change re-makes matter: the signs are new colour, gas, heat, light or a permanent new material.",
+   "textbook_ref": "gecu105.txt, A substance may change into a new substance",
+   "question_patterns": [
+    "what is a chemical change with examples",
+    "which signs tell that a chemical change has occurred",
+    "why is burning of magnesium a chemical change",
+    "compare physical and chemical changes in a table",
+    "is souring of milk reversible why not",
+    "name two chemical changes you see daily"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.4",
+   "title": "Slow Changes and Desirable Changes",
+   "section": "Slow natural changes",
+   "definition": "Some changes race in seconds, some creep over years, weathering of rocks, ripening of fruit; and not all changes please us, so we welcome ripening and cooking while fighting rust, decay and spoilage.",
+   "formula": "",
+   "key_idea": "Changes differ in speed and in welcome: knowledge tells us which to harness and which to halt.",
+   "textbook_ref": "gecu105.txt, Slow natural changes",
+   "question_patterns": [
+    "give examples of slow natural changes",
+    "which changes are desirable and which undesirable",
+    "why do we call rusting undesirable",
+    "how do rocks change slowly over years",
+    "how can we slow down undesirable changes",
+    "compare fast and slow changes with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu105.txt",
+   "concept": "gecu.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "which changes around you are physical and which chemical?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu105.txt",
+   "concept": "gecu.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "what happens when a magnesium ribbon burns?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu105.txt, Let us enhance our learning",
+   "questions": [
+    "Which changes around you are physical and which chemical?",
+    "What happens when a magnesium ribbon burns?",
+    "Are all changes desirable? Discuss with examples.",
+    "Think, pair and share: classify ten changes as physical or chemical.",
+    "Record one slow natural change you can observe over a month."
+   ]
+  }
+ ]
+}

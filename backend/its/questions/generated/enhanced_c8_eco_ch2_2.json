@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_2",
+   "title": "c8_eco_ch2_2",
+   "questions": [
+    {
+     "q": "What term describes the composition of a population according to characteristics such as age, gender, and education level?",
+     "a": "The correct answer is population structure. A student who answers \"population size\" or \"pattern\" is confusing the total count of people or their geographic distribution with the internal makeup or classification of the population groups.",
+     "self_check": true
+    },
+    {
+     "q": "Why is knowing the geographic distribution (pattern) of a population just as important for a government as knowing the total population size when planning infrastructure like electricity grids?",
+     "a": "The correct answer is that total size only tells us the aggregate number of citizens needing power, whereas geographic pattern tells us *where* those citizens are concentrated (e.g., dense urban clusters vs. scattered rural settlements), which dictates where power plants and transmission lines must be built. A student who thinks total size is enough ignores the problem of spatial mismatch, assuming people are spread evenly across the country.",
+     "self_check": true
+    },
+    {
+     "q": "A small town has a total population size of 50,000 people. If 60% of this population falls into the working-age group (15–64 years), calculate the exact number of working-age individuals in this town.",
+     "a": "The correct answer is 30,000 individuals. \nSteps: \n1. Identify total population size = 50,000.\n2. Identify the percentage belonging to the working-age structure = 60%.\n3. Convert percentage to a decimal: 60 / 100 = 0.60.\n4. Multiply total population by the decimal: 50,000 × 0.60 = 30,000.\nA student who adds or subtracts instead of multiplying reveals a fundamental confusion with calculating demographic proportions from a total population size.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic difference between studying a population \"trend\" versus a population \"structure\" in a given state.",
+     "a": "The correct answer is that population structure looks at a \"snapshot\" of who makes up the population at a single point in time (like how many males vs females, or children vs elders), whereas population trend looks at how population variables (size, growth rates, birth rates) change over a span of multiple years or decades. A student who thinks both terms mean the same thing fails to distinguish between static composition and dynamic historical movement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact if a region experiences a rapid shift in its population trend from high birth rates to very low birth rates over twenty years, while its total population size remains temporarily steady.",
+     "a": "The correct answer is that even if total size is temporarily stable, the structural shift means fewer children will enter the schooling system in the short term, leading to underutilized school infrastructure, and eventually a shrinking workforce decades later, requiring adjustments in economic production and social security planning. A student who argues that steady total size means zero economic impact ignores how demographic structural aging alters consumer demand and labor supply.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic demographic profile framework for a newly established industrial city in India, specifying what data points you would collect under size, structure, and pattern.",
+     "a": "The expected answer should include: \n1. Size: Total head count of migrant workers and families.\n2. Structure: Age distribution (focusing heavily on working-age 15-64) and gender ratio.\n3. Pattern: Where these residents settle relative to the industrial zone (urban core vs. suburban outskirts). \nA poor answer would just list random numbers or confuse demographic components with financial banking terms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

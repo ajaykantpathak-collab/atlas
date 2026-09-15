@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_002",
+   "title": "c11_math_cbse_10_002",
+   "questions": [
+    {
+     "q": "State the distance formula between points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\). If \\(P(1, 2)\\) and \\(Q(4, 6)\\), write the expression for PQ without evaluating.",
+     "a": "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). For the given points, \\(PQ = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2}\\). A wrong answer like \\(\\sqrt{(1-4)^2 + (2-6)^2}\\) is also algebraically correct because of squaring, but \\(\\sqrt{(4-1) + (6-2)} = \\sqrt{7}\\) reveals the student forgot to square the differences. Writing \\(\\sqrt{(x_1 - x_2)^2 - (y_1 - y_2)^2}\\) shows confusion with the hyperbola definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distance formula uses \\((x_2 - x_1)^2 + (y_2 - y_1)^2\\) instead of \\(|x_2 - x_1| + |y_2 - y_1|\\). Give a concrete counterexample where the two expressions give different results.",
+     "a": "The formula \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\) gives the straight-line (Euclidean) distance, while \\(|x_2 - x_1| + |y_2 - y_1|\\) gives the Manhattan distance (sum of horizontal and vertical legs). For \\(P(0,0)\\) and \\(Q(3,4)\\), Euclidean distance = 5, Manhattan distance = 7. A student who says \"both give the same because squaring removes signs\" misunderstands that \\(\\sqrt{a^2+b^2} \\neq |a|+|b|\\) in general. They are confusing the Pythagorean theorem with linear addition.",
+     "self_check": true
+    },
+    {
+     "q": "Find the distance between \\(A(-2, 5)\\) and \\(B(3, -1)\\). Then determine if the point \\(C(0, 2)\\) lies on the line segment AB by checking if \\(AC + CB = AB\\).",
+     "a": "\\(AB = \\sqrt{(3 - (-2))^2 + (-1 - 5)^2} = \\sqrt{5^2 + (-6)^2} = \\sqrt{25+36} = \\sqrt{61}\\).\n\\(AC = \\sqrt{(0 - (-2))^2 + (2 - 5)^2} = \\sqrt{2^2 + (-3)^2} = \\sqrt{13}\\).\n\\(CB = \\sqrt{(3 - 0)^2 + (-1 - 2)^2} = \\sqrt{3^2 + (-3)^2} = \\sqrt{18}\\).\n\\(\\sqrt{13} + \\sqrt{18} \\approx 3.61 + 4.24 = 7.85\\), while \\(\\sqrt{61} \\approx 7.81\\). Not equal, so C is not on AB. A student who gets \\(AB = \\sqrt{61}\\) but then claims C is on AB because \"the points look aligned\" is relying on visual estimation instead of algebraic verification. A common error is miscalculating \\(AC\\) as \\(\\sqrt{(0+2)^2+(2+5)^2} = \\sqrt{4+49} = \\sqrt{53}\\) by mishandling the negative sign in \\(y_1=5\\).",
+     "self_check": true
+    },
+    {
+     "q": "Three points are \\(P(1, 1)\\), \\(Q(4, 5)\\), \\(R(7, 9)\\). Without plotting, determine if they form a right triangle, an equilateral triangle, or are collinear. Justify using only distances.",
+     "a": "\\(PQ = \\sqrt{(4-1)^2+(5-1)^2} = \\sqrt{9+16}=5\\).\n\\(QR = \\sqrt{(7-4)^2+(9-5)^2} = \\sqrt{9+16}=5\\).\n\\(PR = \\sqrt{(7-1)^2+(9-1)^2} = \\sqrt{36+64}=10\\).\nSince \\(PQ + QR = 5+5=10 = PR\\), the points are collinear (R lies on the line segment PQ extended). They do not form a triangle. A student who computes \\(PQ=5, QR=5, PR=10\\) but says \"isosceles triangle because two sides equal\" fails to check the triangle inequality / collinearity condition. Another error: computing \\(PR = \\sqrt{(7-1)^2+(9-1)^2} = \\sqrt{6^2+8^2}=10\\) correctly but then checking \\(5^2+5^2=50 \\neq 100\\) and concluding \"not right triangle\" without realising collinearity is the primary classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find point on x-axis equidistant from (2, 3) and (4, 5).\" Their working: Let point be (x, 0). \\(\\sqrt{(x-2)^2+(0-3)^2} = \\sqrt{(x-4)^2+(0-5)^2}\\). Squaring: \\((x-2)^2+9 = (x-4)^2+25\\). \\(x^2-4x+4+9 = x^2-8x+16+25\\). \\(-4x+13 = -8x+41\\). \\(4x = 28\\), \\(x=7\\). Answer: (7, 0). Is this correct? Identify any error.",
+     "a": "The solution is correct. The algebra is sound: \\((x-2)^2+9 = (x-4)^2+25\\) expands correctly to \\(x^2-4x+13 = x^2-8x+41\\), giving \\(4x=28, x=7\\). Verification: distance to (2,3) = \\(\\sqrt{5^2+3^2}=\\sqrt{34}\\); to (4,5) = \\(\\sqrt{3^2+5^2}=\\sqrt{34}\\). A student who claims an error might mistakenly think the point on x-axis should have y-coordinate 3 or 5, or might incorrectly square only the x-difference: \\((x-2)^2 = (x-4)^2\\) leading to x=3, which is wrong because it ignores the y-distances.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires using the distance formula twice and comparing the results. The problem must involve a decision (e.g., which route is shorter, which location to choose). Provide the coordinates and the question.",
+     "a": "Example: \"Rahul lives at (2, 3) and works at (8, 7). He can take the metro from station A(5, 5) or station B(4, 6). Walking speed is same. Which station should he walk to from home to minimize total walking distance (home → station + station → work)?\"\nA good answer sets up coordinates, computes home→A + A→work and home→B + B→work, compares. A poor answer only computes home→station distances and ignores station→work, or assumes the station with smaller x-coordinate is closer without calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

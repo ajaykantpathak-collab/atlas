@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_12_002",
+   "title": "c11_eng_h_cbse_12_002",
+   "questions": [
+    {
+     "q": "Define \"narrative arc\" in the context of a narrative poem and name its five standard stages in order.",
+     "a": "A narrative arc is the structural framework that shapes a poem's story progression through five stages: (1) Exposition — introduces setting, characters, and initial situation; (2) Rising Action — develops conflict through complications; (3) Climax — the moment of highest tension or turning point; (4) Falling Action — consequences of the climax unfold; (5) Resolution/Denouement — conflict resolves, new equilibrium established. A wrong answer that lists only \"beginning, middle, end\" reveals the student conflates structural stages with vague temporal divisions and cannot map them to specific stanzas.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Father to Father,\" the first stanza establishes a quiet domestic scene. A student claims this is \"just setting description, not plot.\" Explain why this misunderstanding fails to recognize the narrative function of exposition in poetry.",
+     "a": "Exposition *is* plot—it establishes the \"before\" state against which all later disruption is measured. In \"Father to Father,\" the opening domestic details (specific objects, routines, silence) create a baseline of normalcy; the poem's emotional weight depends on this baseline being disrupted later. A student who dismisses it as \"mere description\" cannot trace how the poem's central conflict (generational disconnect) originates in the unspoken tensions *within* that quiet scene, and will miss foreshadowing embedded in the imagery.",
+     "self_check": true
+    },
+    {
+     "q": "The poem uses enjambment between stanzas 3 and 4 to carry a sentence across the stanza break. Apply the concept of \"narrative pacing\" to explain the effect of this structural choice on the reader's experience of the climax.",
+     "a": "Enjambment across the stanza break accelerates narrative pacing by denying the reader the habitual pause at the stanza boundary, mimicking the sudden, uncontrollable surge of emotion or revelation at the climax. The thought spills forward uncontrollably, just as the father's suppressed feelings overflow. A wrong answer that says \"it makes the poem flow better\" reveals the student treats enjambment as a decorative flourish rather than a structural device that manipulates time and tension in the narrative arc.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"Father to Father\" and the Class 10 poem \"The Ball Poem\" (from *First Flight*) use stanza structure to represent the passage of time. Analyze one similarity and one difference in their narrative time management.",
+     "a": "Similarity: Both use discrete stanzas as temporal markers—each stanza advances the narrative clock (in \"Father to Father,\" from evening to night to morning; in \"The Ball Poem,\" from loss to realization to acceptance). Difference: \"Father to Father\" employs a linear, chronological progression across stanzas (exposition→climax→resolution in real time), while \"The Ball Poem\" compresses psychological time—stanzas 1-2 cover seconds of the ball bouncing, stanza 3 expands into years of metaphorical meaning. A student who only notes \"both have stanzas\" misses how stanza *count* and *internal pacing* encode different narrative temporalities.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues that the poem's resolution (final stanza) is \"weak\" because the father and son do not speak or reconcile explicitly. Evaluate this claim using the concept of \"open denouement\" in narrative poetry.",
+     "a": "The claim confuses *resolution of plot* with *resolution of tension*. An open denouement deliberately withholds explicit closure to mirror the reality that generational understanding often remains incomplete, unspoken—a shared silence replacing dialogue. The final image (e.g., both looking at the same object, or the son repeating a gesture) resolves the *emotional arc* (acceptance of distance) without resolving the *relational arc*. A student who demands a hug or conversation imposes prose-novel expectations on poetic narrative, failing to recognize that poetic resolution often resides in imagery, not action.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-stanza narrative poem (4 lines each) that depicts a parent-child moment of misunderstood protection, using stanza breaks to mark: (1) exposition, (2) rising action, (3) climax, (4) open denouement. Use enjambment once to accelerate pacing at the climax.",
+     "a": "A strong answer will: (Stanza 1) Establish a routine act of care (e.g., father waking early to pack lunch); (Stanza 2) Introduce child's resistance/misreading (e.g., teen throwing lunch away, calling it \"baby food\"); (Stanza 3) Climax—enjambment carries the father's discovery of the trash bin into the next stanza without pause, the realization hitting in real time; (Stanza 4) Open denouement—father packs lunch again next morning, no words exchanged, the act itself the only language. A weak answer that rhymes forcedly or resolves with a hug reveals the student prioritizes \"poetic form\" over narrative structure and cannot sustain an open ending.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

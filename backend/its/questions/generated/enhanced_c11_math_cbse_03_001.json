@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_001",
+   "title": "c11_math_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the exact radian measure of an angle of 150° in terms of π, and explain why the answer is not approximately 2.62 radian when asked for an exact value.",
+     "a": "150° = 150 × π/180 = 5π/6 radian. A wrong answer of \"2.62 radian\" reveals the student confuses exact symbolic form (required in board exams) with decimal approximation, and likely does not understand that π is a symbol representing an irrational number, not a variable to be approximated unless explicitly asked.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts –47°30′ to radians and writes –47.5 × π/180 = –19π/72. Is this correct? If not, identify the exact error in the minute-to-degree conversion.",
+     "a": "The conversion is incorrect. –47°30′ = –(47 + 30/60)° = –47.5° is correct, but –47.5 × π/180 = –95π/360 = –19π/72 is correct. Wait — the student's answer is actually correct! A wrong answer like –47.3 × π/180 reveals the student treats 30′ as 0.3° instead of 0.5° (since 1′ = 1/60° = 0.0167°, not 0.1°). This is a classic decimal-place-value error from Class 6 decimals (c6_math_ch04_043).",
+     "self_check": true
+    },
+    {
+     "q": "A wheel of radius 0.5 m rotates through an angle of 120°. Find the distance travelled by a point on the rim. Show all steps including the mandatory radian conversion.",
+     "a": "Step 1: Convert 120° to radians: θ = 120 × π/180 = 2π/3 rad.\nStep 2: Use l = rθ with r = 0.5 m, θ = 2π/3.\nStep 3: l = 0.5 × 2π/3 = π/3 m ≈ 1.047 m.\nA wrong answer of 0.5 × 120 = 60 m reveals the student used degrees directly in l = rθ, not understanding that the formula l = rθ is ONLY valid when θ is in radians (derivation: arc length / radius = angle in radians by definition).",
+     "self_check": true
+    },
+    {
+     "q": "Two circles have radii r₁ and r₂. An arc of length 10 cm in the first circle subtends 60° at the centre. The same arc length in the second circle subtends 45°. Find the ratio r₁ : r₂ without calculating individual radii. What does this ratio tell you about the relationship between radius and subtended angle for fixed arc length?",
+     "a": "For fixed arc length l, θ ∝ 1/r (since l = rθ ⇒ r = l/θ). So r₁/r₂ = θ₂/θ₁ = 45°/60° = 3/4. Thus r₁ : r₂ = 3 : 4. A wrong answer of 4:3 reveals the student thinks larger angle means larger radius, not grasping the inverse proportionality. This tests analytical reasoning: understanding the derived relationship r = l/θ rather than just plugging into l = rθ twice.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student solves \"Convert 6 radians to degrees\" as: 6 × 180/π = 1080/π ≈ 343.77°. The NCERT example gives 343°38′11″. Evaluate: Is the student's answer acceptable in a board exam? Justify with reference to the \"Notational Convention\" in the textbook.",
+     "a": "The student's decimal answer 343.77° is mathematically correct but NOT acceptable in CBSE board exams when the question expects degrees-minutes-seconds (DMS) form. The NCERT Notational Convention and Example 2 explicitly show conversion to DMS (343°38′11″). A wrong evaluation (\"yes it's fine\") reveals the student doesn't know board exam presentation requirements: angles in degrees must be expressed in DMS unless decimal is specified, and π = 22/7 must be used for approximation when instructed.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem from Indian context (e.g., a clock, a vehicle wheel, a circular track) that requires using l = rθ with θ in radians, where the given angle is in degrees and the answer must be in metres. The problem should have a \"twist\" that tests whether the student automatically converts to radians.",
+     "a": "Sample problem: \"The minute hand of the clock on the Mumbai Railway Station tower is 1.2 m long. How far does its tip move in 25 minutes? (Use π = 3.14)\" Twist: 25 minutes = 25/60 × 360° = 150° = 5π/6 rad. l = 1.2 × 5π/6 = π m = 3.14 m. A poor problem would give the angle directly in radians or ask for degrees only, not testing the conversion step. A good answer shows the student can design a problem that forces the degree→radian→arc length chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_004",
+   "title": "c12_hs_cbse_05_004",
+   "questions": [
+    {
+     "q": "List the four functions of the management process in their correct sequential order and give one specific activity for each function when managing a family monthly budget.",
+     "a": "Correct sequence: Planning → Organising → Implementing → Controlling. Example activities: Planning – setting savings goal and listing income/expense categories; Organising – allocating amounts to each category, assigning who tracks expenses; Implementing – recording daily expenses, paying bills on time; Controlling – comparing actual spending with budget at month-end, adjusting next month's allocations. A wrong answer (e.g., putting Controlling before Implementing, or listing \"saving money\" as an activity for all four) reveals the student sees these as interchangeable labels rather than distinct phases with unique decision-making roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the management process is described as a \"cycle\" rather than a straight line, using the example of a student managing their Class 12 board exam preparation.",
+     "a": "The process is cyclic because Controlling (e.g., weekly mock test scores revealing weak areas) generates new information that requires revising the study plan (Planning), reorganising time allocation (Organising), and changing daily study tactics (Implementing). A linear view would treat the initial plan as fixed, ignoring that effective management requires continuous adaptation based on feedback. If a student says \"you plan once and then just follow it,\" they misunderstand the dynamic, feedback-driven nature of management.",
+     "self_check": true
+    },
+    {
+     "q": "A family plans a weekend trip. They set a budget (Planning), pack food and assign driving duties (Organising), and start driving (Implementing). Halfway, the car breaks down. Identify which management function is MOST critical at this moment and describe the specific steps within that function to handle the breakdown.",
+     "a": "Controlling is most critical. Steps: (1) Establish the standard: \"Trip continues safely within budget and time.\" (2) Measure performance: Car broken, 100 km from destination, repair cost unknown. (3) Compare: Deviation = unplanned cost, time delay, safety risk. (4) Take corrective action: Call roadside assistance, use emergency fund, rearrange schedule, inform relatives. (5) Follow up: Verify repair, update budget, adjust arrival time. A student who says \"Implementing – just fix the car and keep going\" misses that Controlling is the function that detects the deviation and initiates structured corrective action, not just ad-hoc reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Organising\" in the management process with \"Decision-Making\" (covered in node c12_hs_cbse_05_005). How do they interact when a family decides to buy a new refrigerator?",
+     "a": "Decision-Making is the cognitive process of selecting a course of action from alternatives (e.g., choosing which refrigerator model to buy based on capacity, energy rating, price). Organising is the structural function of arranging resources and tasks to execute that decision (e.g., allocating funds, scheduling delivery, assigning who measures kitchen space, coordinating old fridge disposal). They interact iteratively: the decision defines what must be organised; organising constraints (e.g., budget limit) may force a re-decision. A student who conflates them (\"organising is deciding where to put the fridge\") fails to see that organising operationalises decisions, it doesn't make them.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a small family, the Controlling function is unnecessary because everyone knows what to do informally.\" Justify your answer with two specific reasons from management theory.",
+     "a": "The statement is false. Reason 1: Without explicit standards (e.g., \"monthly grocery spending ≤ ₹8,000\") and measurement (actual receipts), there is no objective basis to know if resources are used effectively – informal \"knowing\" is subjective and prone to memory bias. Reason 2: Controlling provides the feedback loop for continuous improvement; even well-intentioned families drift from goals (lifestyle creep, festival overspending) without periodic comparison and corrective action. A student who agrees reveals a misconception that Controlling equals \"policing\" rather than \"steering,\" and underestimates the need for systematic feedback in any goal-directed system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-page \"Management Process Checklist\" for a Class 12 student organising their own 3-month board exam preparation. The checklist must have at least two verifiable items under each of the four functions, and include a feedback mechanism linking Controlling back to Planning.",
+     "a": "A good checklist includes: Planning – (a) List all subjects with weightage, (b) Set target scores per subject; Organising – (a) Create weekly timetable with specific topics, (b) Gather all study materials (NCERT, sample papers); Implementing – (a) Follow daily 3-hour study blocks with 10-min breaks, (b) Complete one past paper every Sunday; Controlling – (a) Weekly self-test: score ≥80% on covered topics, (b) Monthly mock exam: track percentile; Feedback Mechanism – \"If any weekly score <80%, revise next week's plan (Planning) to add 2 extra hours on weak topics and adjust timetable (Organising).\" A poor checklist lacks measurable standards, omits the feedback link, or treats functions as isolated boxes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

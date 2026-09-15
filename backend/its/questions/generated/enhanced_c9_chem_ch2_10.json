@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_10",
+   "title": "c9_chem_ch2_10",
+   "questions": [
+    {
+     "q": "State the one major experimental result that Thomson's plum pudding model could not explain, which led to Rutherford's nuclear model.",
+     "a": "The gold foil (alpha particle scattering) experiment showed that most alpha particles passed through undeflected, but a few were deflected at large angles (even >90°). Thomson's model predicted only small deflections because the positive charge was spread out. A wrong answer (e.g., \"it couldn't explain cathode rays\") reveals the student confuses the discovery of electrons (which Thomson explained) with the discovery of the nucleus (which he could not).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Rutherford's nuclear model, despite discovering the nucleus, was considered unstable according to classical electromagnetic theory.",
+     "a": "In Rutherford's model, electrons revolve around the nucleus in circular orbits. According to Maxwell's electromagnetic theory, any accelerating charged particle (like an electron in circular motion) must continuously radiate energy. The electron would lose energy, spiral inward, and crash into the nucleus in ~10⁻⁸ seconds, making atoms unstable – but atoms are stable. A wrong answer (e.g., \"it couldn't explain isotopes\") shows the student confuses nuclear stability with atomic/electronic stability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bohr's model solved all problems because it introduced fixed orbits where electrons don't radiate energy.\" Identify two specific phenomena that Bohr's model still could not explain, even with quantized orbits.",
+     "a": "1. Spectra of multi-electron atoms (e.g., helium, lithium) – Bohr's model only accurately predicts hydrogen-like (single electron) spectra. 2. Fine structure (splitting of spectral lines) and Zeeman/Stark effects (splitting in magnetic/electric fields). 3. It violated the later-discovered wave-particle duality and Heisenberg uncertainty principle by assuming definite orbits. A wrong answer listing \"isotopes\" or \"valency\" reveals the student confuses nuclear properties or chemical combining capacity with electronic structure limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the explanation of \"line spectra\" in Rutherford's model vs. Bohr's model. Why does Rutherford's model predict a continuous spectrum while Bohr's predicts discrete lines?",
+     "a": "Rutherford's model: Electrons spiral inward continuously, losing energy gradually → emit radiation of continuously decreasing frequency → continuous spectrum. Bohr's model: Electrons jump between fixed, quantized energy levels (n=1,2,3...). Energy change ΔE = hν is fixed for each transition → only specific frequencies emitted → discrete line spectrum. A wrong answer shows the student cannot link the motion of the electron (spiral vs. jump) to the nature of emitted radiation (continuous vs. discrete).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Bohr's model is completely wrong because it was replaced by the quantum mechanical model.\" Is this a fair assessment? Justify your answer with two specific successes of Bohr's model that are still valid concepts today.",
+     "a": "No, it is not fair. Bohr's model was a crucial stepping stone. Two lasting successes: (1) It correctly introduced the concept of quantized energy levels (electrons exist only at specific energies), which is a cornerstone of quantum mechanics. (2) It quantitatively predicted the hydrogen spectrum (Rydberg formula) and the ionization energy of hydrogen with remarkable accuracy. A wrong answer (e.g., \"it's wrong because electrons don't orbit\") shows the student judges historical models by modern standards rather than evaluating their explanatory power for their time.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment or diagram to demonstrate to a Class 8 student why the \"plum pudding\" model fails the gold foil test. Use the analogy of shooting bullets at a watermelon vs. a cherry suspended in jelly.",
+     "a": "Good answer: Draw a watermelon (Thomson's diffuse positive charge) – bullets (alpha particles) pass through with minor deflections. Draw a cherry (tiny dense nucleus) in a large jelly (empty space) – most bullets miss the cherry and pass through, but a rare head-on hit bounces back. This shows the need for a concentrated positive charge. A poor answer draws both as uniform spheres, revealing the student hasn't grasped the massive difference in charge density/concentration between the models.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

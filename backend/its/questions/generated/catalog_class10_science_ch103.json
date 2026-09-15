@@ -1,0 +1,318 @@
+{
+ "catalog": "catalog_class10_science_ch103.json",
+ "concepts": [
+  {
+   "id": "jesc.3.1.1",
+   "title": "Physical Properties of Metals",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "conductance",
+     "expr": "1 / resistance",
+     "explain": "conductivity is the reciprocal of resistance"
+    },
+    {
+     "step": 2,
+     "name": "half_resistance_current",
+     "expr": "voltage / (resistance / 2)",
+     "explain": "current if the wire were half as resistive"
+    },
+    {
+     "step": 3,
+     "name": "current",
+     "expr": "voltage * conductance",
+     "explain": "ohm's law rearranged through conductance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A copper wire of resistance 4 ohm is connected to a 12 V battery. Taking conductivity as the reciprocal of resistance, find the conductance and the current in the wire.",
+     "vals": {
+      "resistance": 4,
+      "voltage": 12
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "3 A",
+     "self_check": false
+    },
+    {
+     "q": "An aluminium rod has resistance 8 ohm. It is placed across 24 V. Compute its conductance and the current it carries.",
+     "vals": {
+      "resistance": 8,
+      "voltage": 24
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "3 A",
+     "self_check": false
+    },
+    {
+     "q": "A graphite rod of resistance 10 ohm is put across a 5 V cell. Find its conductance in siemens and the current flowing.",
+     "vals": {
+      "resistance": 10,
+      "voltage": 5
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "0.5 A",
+     "self_check": false
+    },
+    {
+     "q": "The heating element of a toaster has resistance 20 ohm at working temperature and is run on 110 V. What current does it draw?",
+     "vals": {
+      "resistance": 20,
+      "voltage": 110
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "5.5 A",
+     "self_check": false
+    },
+    {
+     "q": "A thick silver wire has a very low resistance of 2 ohm. Connected to 9 V, what current flows through it?",
+     "vals": {
+      "resistance": 2,
+      "voltage": 9
+     },
+     "unit": "A",
+     "steps": null,
+     "a": "4.5 A",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.1",
+   "title": "Amphoteric Oxides",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do metals conduct electricity well?",
+     "a": "They contain free, mobile electrons that drift when a potential difference is applied.",
+     "self_check": true
+    },
+    {
+     "q": "Why are metals sonorous and lustrous?",
+     "a": "Their closely packed metallic lattice rings on striking (sonority) and free electrons reflect light, giving a shine.",
+     "self_check": true
+    },
+    {
+     "q": "State two physical properties in which non-metals differ from metals.",
+     "a": "Non-metals are poor conductors (except graphite) and are brittle or soft, often dull, and not sonorous.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.2",
+   "title": "Metal Reactivity with Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do sodium and potassium differ from magnesium towards water?",
+     "a": "Sodium and potassium react vigorously with cold water catching fire; magnesium reacts slowly with hot water only.",
+     "self_check": true
+    },
+    {
+     "q": "Why is calcium left floating when put in water?",
+     "a": "Hydrogen bubbles stick to it and the reaction heat keeps it afloat as it reacts.",
+     "self_check": true
+    },
+    {
+     "q": "Which metals do not react with water even as steam?",
+     "a": "Less reactive metals like lead, copper, silver and gold do not displace hydrogen from water or steam.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.2.5",
+   "title": "The Reactivity Series",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does the reactivity series tell us?",
+     "a": "It arranges metals from most to least reactive, predicting which metal displaces another from its salt solution.",
+     "self_check": true
+    },
+    {
+     "q": "Why can silver not displace hydrogen from dilute acids?",
+     "a": "Silver lies below hydrogen in the reactivity series, so it cannot push hydrogen out of acids.",
+     "self_check": true
+    },
+    {
+     "q": "A metal X displaces zinc from zinc sulphate but not magnesium from magnesium sulphate. Where does it sit?",
+     "a": "X is more reactive than zinc but less reactive than magnesium, so it lies between magnesium and zinc.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.3.1",
+   "title": "Properties of Ionic Compounds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do ionic compounds have high melting points?",
+     "a": "Strong electrostatic forces between oppositely charged ions need large energy to break.",
+     "self_check": true
+    },
+    {
+     "q": "Why do ionic compounds conduct electricity in molten state or solution but not as solids?",
+     "a": "In the solid, ions are fixed in the lattice; melting or dissolving frees the ions to move and carry current.",
+     "self_check": true
+    },
+    {
+     "q": "Are ionic compounds generally soluble in water or in kerosene?",
+     "a": "In water (polar solvent) they dissolve; in organic solvents like kerosene they do not.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.4.4",
+   "title": "Roasting and Calcination",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is roasting of a sulphide ore?",
+     "a": "Heating the ore strongly in excess air, converting sulphides to oxides and giving out sulphur dioxide.",
+     "self_check": true
+    },
+    {
+     "q": "How is calcination different from roasting?",
+     "a": "Calcination heats carbonate ores in limited air without oxygen to convert them to oxides; roasting is for sulphide ores in excess air.",
+     "self_check": true
+    },
+    {
+     "q": "Write what happens when zinc carbonate is calcined.",
+     "a": "It decomposes to zinc oxide with carbon dioxide driven off.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.4.6",
+   "title": "Electrolytic Refining",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does electrolytic refining of copper work?",
+     "a": "Impure copper is the anode, pure copper the cathode, copper sulphate solution the electrolyte; copper dissolves from the anode and deposits pure on the cathode.",
+     "self_check": true
+    },
+    {
+     "q": "Where do the impurities of impure copper go during refining?",
+     "a": "Less reactive impurities settle below the anode as anode mud; reactive ones stay in solution.",
+     "self_check": true
+    },
+    {
+     "q": "Which electrode loses mass during the refining?",
+     "a": "The anode, the impure copper block, dissolves away and loses mass.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.1",
+   "title": "Gold Content and Carat Rating",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "gold_fraction",
+     "expr": "carat / 24",
+     "explain": "a 24 carat piece is pure gold, so fraction = carat/24"
+    },
+    {
+     "step": 2,
+     "name": "other_metal_parts",
+     "expr": "24 - carat",
+     "explain": "parts of other metals mixed in the alloy"
+    },
+    {
+     "step": 3,
+     "name": "purity_percent",
+     "expr": "gold_fraction * 100",
+     "explain": "convert the fraction to a percentage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A bangle is stamped 22 carat. What per cent of it is pure gold?",
+     "vals": {
+      "carat": 22
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "91.6667 %",
+     "self_check": false
+    },
+    {
+     "q": "An old ring is 18 carat gold. Calculate its percentage purity.",
+     "vals": {
+      "carat": 18
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "75 %",
+     "self_check": false
+    },
+    {
+     "q": "A chain marked 14 carat is bought second hand. What is its gold content in per cent?",
+     "vals": {
+      "carat": 14
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "58.3333 %",
+     "self_check": false
+    },
+    {
+     "q": "A coin is declared 24 carat. What per cent purity does this show?",
+     "vals": {
+      "carat": 24
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "100 %",
+     "self_check": false
+    },
+    {
+     "q": "A pendant is only 12 carat. Express its gold purity as a percentage.",
+     "vals": {
+      "carat": 12
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "50 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.2",
+   "title": "Alloying and Amalgams",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an amalgam?",
+     "a": "An alloy in which one of the metals is mercury.",
+     "self_check": true
+    },
+    {
+     "q": "Why is pure gold not used for ornaments?",
+     "a": "Pure gold (24 carat) is very soft; it is alloyed with silver, copper or other metals to make it hard and durable.",
+     "self_check": true
+    },
+    {
+     "q": "Name the constituents of stainless steel and one advantage of it.",
+     "a": "Iron with nickel and chromium; it resists rusting and is strong and shiny.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

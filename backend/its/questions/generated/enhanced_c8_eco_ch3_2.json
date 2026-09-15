@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_2",
+   "title": "c8_eco_ch3_2",
+   "questions": [
+    {
+     "q": "What economic condition is absolutely necessary for an ancient rural settlement to transition into a specialized urban city?",
+     "a": "An agricultural surplus is necessary so that a portion of the population can survive without farming, allowing them to specialize in crafts, trade, administration, and services. \n*What a wrong answer reveals:* If a student suggests \"large buildings\" or \"money,\" they are focusing on visual or modern characteristics of cities rather than the fundamental economic prerequisite of surplus food production that sustains non-agricultural labor.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the economic purpose of colonial presidency towns (like Madras, Bombay, and Calcutta) differed from that of traditional inland medieval capitals (like Delhi or Hyderabad).",
+     "a": "Colonial presidency towns were developed as coastal ports designed to channel raw materials out of India and import manufactured goods, creating an export-oriented trade economy. In contrast, medieval inland capitals were administrative and consumption centers designed to collect land revenue from surrounding regions and redistribute wealth through royal courts and local trade guilds.\n*What a wrong answer reveals:* A wrong answer shows that the student does not understand how colonial trade patterns restructured the spatial geography of the Indian economy from internal consumption to external exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds that in an ancient Harappan city, 40% of the households contained specialized tools for bead-making and metallurgy, while 60% of the surrounding rural settlements produced grain. If the total grain production was 500 tonnes and the rural settlements consumed 200 tonnes for their own survival, calculate:\n1. The marketable agricultural surplus available for the city.\n2. The maximum population of city bead-makers that can be sustained if each urban citizen requires 0.5 tonnes of grain per year.",
+     "a": "1. Marketable agricultural surplus = Total grain production - Rural consumption = 500 tonnes - 200 tonnes = 300 tonnes.\n2. Urban population sustained = Marketable surplus / Grain required per citizen per year = 300 tonnes / 0.5 tonnes/person = 600 people.\n*What a wrong answer reveals:* If a student fails to subtract rural consumption from total production, they confuse \"total supply\" with \"marketable surplus.\" This shows they do not grasp how urban specialization depends strictly on the surplus left over after producers meet their own subsistence needs.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic consequences of the British colonial railway network connecting inland cotton-growing regions directly to port cities like Bombay, rather than connecting inland manufacturing towns to each other. How did this affect local Indian industries?",
+     "a": "By connecting raw material sources directly to ports, the railway network facilitated the cheap export of raw cotton to British mills and the import of cheap machine-made textiles back into India. This led to \"de-industrialization\" of inland handloom centers, as local weavers could no longer compete with cheap imports, and the transport network did not support domestic inter-city trade.\n*What a wrong answer reveals:* If a student argues that railways simply improved all Indian businesses equally, they fail to analyze transport infrastructure from a political-economy perspective. They miss how infrastructure design can selectively benefit colonial trade while undermining domestic industrial integration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Modern Indian metropolises like Bengaluru and Mumbai should completely ignore their colonial or pre-colonial spatial layouts and rebuild their infrastructure from scratch to maximize efficiency.\" Provide an economic argument for or against this proposal.",
+     "a": "This proposal is economically unviable due to \"path dependency\" and high \"sunk costs.\" Millions of crores of rupees are already locked up in existing physical infrastructure (railways, roads, sewage lines, and building foundations). Demolishing and rebuilding everything from scratch would cause massive economic disruption, lose valuable historical assets, and require astronomical capital investments that would yield a lower return than retrofitting and upgrading existing systems (such as the Smart Cities Mission).\n*What a wrong answer reveals:* If a student agrees with the proposal, they are ignoring the realities of economic scarcity, opportunity cost, and sunk costs in urban planning, showing a lack of realistic economic policy evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design an economic development plan outline for a historical inland temple town that wants to transition into a modern tourism and handicraft hub. State three specific infrastructure investments based on its historical legacy and explain how they generate local employment.",
+     "a": "A model plan outline should include:\n1. *Pedestrianization and heritage market restoration* near the temple to boost local artisans' sales (direct retail employment).\n2. *Upgrading digital payment infrastructure and transport connectivity* (highways/rail links) to reduce transaction costs for tourists.\n3. *Establishing a cooperative credit facility (micro-finance)* for local handicraft producers to scale production.\n*What a poor answer reveals:* A poor answer might suggest building unrelated heavy industries (like steel plants) that do not leverage the town's existing historical and cultural capital, showing a failure to connect historical legacy with strategic economic planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_5",
+   "title": "c9_math_ch1_5",
+   "questions": [
+    {
+     "q": "Two points A(4, 7) and B(4, -3) lie on a line parallel to the y-axis. What is the distance between them?",
+     "a": "The distance is 10 units. Since the x-coordinates are equal (both 4), the segment is vertical. Distance = |y₂ - y₁| = |-3 - 7| = |-10| = 10. A wrong answer of 4 reveals the student subtracted x-coordinates instead of y-coordinates, or ignored the sign and computed 7 - 3 = 4. A wrong answer of -10 reveals the student forgot the absolute value, not understanding distance is non-negative.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distance formula √[(x₂ - x₁)² + (y₂ - y₁)²] simplifies to |x₂ - x₁| when the points lie on a line parallel to the x-axis.",
+     "a": "When points lie on a line parallel to the x-axis, their y-coordinates are equal, so y₂ - y₁ = 0. Substituting into the formula: √[(x₂ - x₁)² + 0²] = √[(x₂ - x₁)²] = |x₂ - x₁|. A wrong answer that says \"the y-coordinates cancel out\" without showing the substitution reveals a procedural memory without conceptual understanding. A student who says \"we just ignore the y-part\" misses the mathematical justification that the vertical leg of the right triangle has zero length.",
+     "self_check": true
+    },
+    {
+     "q": "Find the distance between P(-6, 2) and Q(3, 2). Show your steps.",
+     "a": "Step 1: Identify coordinates: P(-6, 2), Q(3, 2). Step 2: Observe y-coordinates are equal (both 2), so segment is horizontal. Step 3: Use formula |x₂ - x₁| = |3 - (-6)|. Step 4: Simplify: |3 + 6| = |9| = 9. Step 5: Distance = 9 units. A wrong answer of 3 reveals the student computed 3 - (-6) incorrectly as 3 - 6 = -3, then took absolute value 3, showing confusion with integer subtraction. A wrong answer of √85 reveals the student used the full distance formula unnecessarily, indicating they cannot recognize the special case.",
+     "self_check": true
+    },
+    {
+     "q": "Points A(2, 5), B(2, -1), C(-4, -1), and D(-4, 5) are vertices of a rectangle. Without using the distance formula for slanted lines, find the perimeter of rectangle ABCD.",
+     "a": "AB is vertical: |5 - (-1)| = 6. BC is horizontal: |2 - (-4)| = 6. CD is vertical: |5 - (-1)| = 6. DA is horizontal: |2 - (-4)| = 6. Perimeter = 6+6+6+6 = 24 units. A wrong answer of 12 reveals the student only computed two adjacent sides and forgot to double for perimeter. A wrong answer using the diagonal distance reveals the student does not recognize that rectangle sides are parallel to axes when vertices are given in this aligned pattern, missing the structural property.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Distance between (5, 8) and (5, -2) is 8 - (-2) = 10, so distance = 10.\" Is this solution fully correct? Justify.",
+     "a": "The final answer 10 is correct, but the working is incomplete. The student wrote \"8 - (-2) = 10\" which correctly computes the difference, but did not explicitly state the absolute value or the rule |y₂ - y₁|. In board exams, writing only \"8 - (-2) = 10\" without |...| may lose a step mark. The correct working: Distance = |y₂ - y₁| = |-2 - 8| = |-10| = 10. A wrong evaluation saying \"it's fully correct\" reveals the student does not understand the importance of the absolute value notation for distance, which ensures non-negative result even if subtraction order is reversed.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the distance between two points on a line parallel to an axis must be found. Provide the coordinates and ask for the distance. Ensure your problem requires the solver to recognize which coordinate is constant.",
+     "a": "Example: \"Two electric poles are located on the same north-south road. Pole A is at coordinate (100, 50) and Pole B is at (100, 120) where units are in metres. Find the distance between the poles.\" Expected solution: Since x-coordinates are equal (100), the road is vertical (parallel to y-axis). Distance = |120 - 50| = 70 metres. A poor problem would have both coordinates changing, or would not specify the context clearly, showing the student cannot distinguish between axis-parallel and general distance situations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

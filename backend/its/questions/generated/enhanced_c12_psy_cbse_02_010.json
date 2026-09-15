@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_010",
+   "title": "c12_psy_cbse_02_010",
+   "questions": [
+    {
+     "q": "Name the post-Freudian theorist who proposed the \"collective unconscious\" containing inherited \"archetypes,\" and give one example of an archetype mentioned in the NCERT text.",
+     "a": "Carl Jung; example: God or Mother Earth. A wrong answer (e.g., \"Adler\" or \"personal unconscious\") reveals confusion between Jung's *transpersonal* inherited layer and Freud's/Adler's *individual* unconscious — a board-exam distinction tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Karen Horney argued that psychological disorders stem from \"basic anxiety\" caused by disturbed interpersonal relationships in childhood. Explain in your own words how this differs from Freud's explanation of neurosis.",
+     "a": "Freud: neurosis = intrapsychic conflict between id impulses (sexual/aggressive) and superego repression, rooted in *biological* drives. Horney: neurosis = interpersonal coping strategies (moving toward/away/against people) developed to manage *basic anxiety* from parental indifference/erraticness. Wrong answers that mention \"penis envy\" or \"Oedipus complex\" show the student hasn't grasped Horney's *cultural-relational* pivot — a frequent 2-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old boy avoids all competitive games, saying \"I'll lose anyway.\" His teacher notices he constantly seeks reassurance. Using Adler's concepts, identify the core dynamic and name the specific complex involved.",
+     "a": "Core dynamic: striving for superiority blocked by exaggerated feelings of inadequacy → inferiority complex. The boy's avoidance and reassurance-seeking are *safeguarding strategies* (excuses, withdrawal) to protect a fragile self-esteem. A wrong answer citing \"oral fixation\" or \"repression\" shows failure to distinguish Adler's *teleological* (future-goal-driven) model from Freud's *causal* (past-drive-driven) model — a common CUET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Erikson's and Freud's views on: (a) the primary driver of development, (b) the role of the ego, and (c) the timeline of personality formation. Present as a 3-row table.",
+     "a": "| Dimension | Freud | Erikson |\n|---|---|---|\n| Primary driver | Libido (sexual energy) | Psychosocial crises (ego tasks) |\n| Ego role | Mediator (reality principle) | Autonomous organiser; synthesises identity |\n| Timeline | Fixed by age 5–6 (genital stage) | Lifespan (8 stages, old age included) |\nWrong answers that equate Erikson's stages with Freud's psychosexual stages (e.g., \"trust = oral\") miss Erikson's *epigenetic principle*: each stage builds on prior resolutions but addresses a *new social demand*, not a new erogenous zone.",
+     "self_check": true
+    },
+    {
+     "q": "Erich Fromm identified five \"character orientations\" (receptive, exploitative, hoarding, marketing, productive). A student argues: \"The marketing orientation is just the modern version of the exploitative orientation — both use people.\" Evaluate this claim using Fromm's theory.",
+     "a": "The claim is *partially correct but incomplete*. Both are non-productive orientations where self-worth depends on external validation. However, exploitative orientation *takes by force/manipulation* (aggressive), while marketing orientation *packages oneself as a commodity* to be accepted (conformist, alienated). Fromm saw marketing orientation as uniquely modern — shaped by bureaucratic capitalism — not merely a variant of exploitation. A wrong answer that conflates them misses Fromm's *historical-materialist* analysis of personality, which boards test via case-based questions on \"alienation in modern society.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence case vignette of an adolescent that could be explained *equally well* by Horney's \"moving toward people\" (compliance) AND Erikson's \"identity vs. role confusion\" — then state the *one* question a clinician would ask to discriminate between the two frameworks.",
+     "a": "Vignette: \"Priya, 17, moulds her opinions to match whichever friend group she's with, fears abandonment if she disagrees, and says 'I don't know who I am without them.'\" Discriminating question: \"When you adopt others' views, does it feel like a *safety strategy against anxiety* (Horney) or a *genuine search for a coherent self-definition* (Erikson)?\" Poor answers that suggest \"ask about childhood\" or \"ask about dreams\" show inability to operationalise theoretical constructs — a skill needed for NEET-style case-analysis items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

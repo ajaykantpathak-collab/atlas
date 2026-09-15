@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "New Beginnings: Cities and States",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.4.1",
+   "title": "New Beginnings: Cities and States",
+   "section": "Introduction",
+   "definition": "After the early second millennium BCE, new beginnings reshaped the subcontinent: iron tools cleared forests, villages multiplied, and people gathered into cities and states called janapadas and mahajanapadas.",
+   "formula": "",
+   "key_idea": "Better tools and growing surplus let villages grow into cities, and cities into states.",
+   "textbook_ref": "gees104.txt, Introduction",
+   "question_patterns": [
+    "what new beginnings marked this period",
+    "what is a janapada and what is a mahajanapada",
+    "how did iron change life in the early first millennium bce",
+    "why did cities grow again after the harappan age",
+    "where were the early cities of this age located",
+    "how did villages support the new cities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.4.2",
+   "title": "Kautilya's Ideal Kingdom",
+   "section": "Arthashastra quotation",
+   "definition": "Kautilya's Arthashastra describes a well-protected kingdom: a fortified capital, cultivable land, mines and forests, water not dependent on rain alone, good roads and a productive economy.",
+   "formula": "",
+   "key_idea": "A strong state plans for hard times: stores, forts and roads keep the people safe in calamities.",
+   "textbook_ref": "gees104.txt, Arthashastra quotation",
+   "question_patterns": [
+    "what qualities should a kingdom have according to kautilya",
+    "why should a kingdom be protected by forts",
+    "why is dependence only on rain discouraged",
+    "what does the arthashastra say about roads and waterways",
+    "how does a kingdom provide for outsiders in calamities",
+    "list the resources kautilya wants a kingdom to hold"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.4.3",
+   "title": "The Mahajanapadas and the Rise of Magadha",
+   "section": "Mahajanapadas",
+   "definition": "Scores of mahajanapadas, each with a capital and an assembly, dotted the subcontinent; Magadha, with its fertile plains, iron and elephants, rose above them all and prepared the ground for empires.",
+   "formula": "",
+   "key_idea": "Location plus resources equals power: Magadha's rivers, iron and elephants made it first among states.",
+   "textbook_ref": "gees104.txt, Mahajanapadas",
+   "question_patterns": [
+    "how many mahajanapadas are listed in early texts",
+    "why did magadha become the most powerful mahajanapada",
+    "name the capital cities of some mahajanapadas",
+    "what role did assemblies play in the mahajanapadas",
+    "which resources helped magadha build strength",
+    "how did taxes support the mahajanapada rulers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.4.4",
+   "title": "Life in the Cities and Villages",
+   "section": "Cities and villages",
+   "definition": "New cities hummed with artisans, traders and officials, ringed by villages of farmers and herders who paid taxes; coins, weights and writing kept this growing economy moving.",
+   "formula": "",
+   "key_idea": "City and village fed each other: grain flowed in, goods, taxes and orders flowed out.",
+   "textbook_ref": "gees104.txt, Cities and villages",
+   "question_patterns": [
+    "which craftspeople lived in the new cities",
+    "what taxes did villagers pay to the state",
+    "how did trade bind city and village",
+    "what were the early coins of this age like",
+    "why did rulers build roads and wells",
+    "describe a market day in an early city"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees104.txt",
+   "concept": "gees.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Magadha rise above the other mahajanapadas?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the gifts",
+     "explain": "Fertile river plains, iron ore, forests of elephants and strong rulers."
+    },
+    {
+     "step": 2,
+     "action": "state the result",
+     "explain": "Resources turned into armies and canals, making Magadha the springboard of the first empire."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees104.txt",
+   "concept": "gees.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "what changes came in the early first millennium bce?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees104.txt, Let us explore",
+   "questions": [
+    "What does Kautilya's Arthashastra say an ideal kingdom should have?",
+    "What changes came in the early first millennium BCE?",
+    "Name some mahajanapadas and their capitals.",
+    "On an outline map, mark the mahajanapadas named in the chapter.",
+    "List what a ruler must provide according to the Arthashastra."
+   ]
+  }
+ ]
+}

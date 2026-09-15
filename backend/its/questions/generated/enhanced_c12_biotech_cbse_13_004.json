@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_004",
+   "title": "c12_biotech_cbse_13_004",
+   "questions": [
+    {
+     "q": "A student writes: \"Environmental risk assessment of GMOs checks if the GM crop is 100% safe for the environment.\" What is the fundamental flaw in this statement, and what is the correct regulatory standard used in India?",
+     "a": "The flaw is the \"100% safe\" absolutist standard — zero risk is scientifically unattainable and not the regulatory benchmark. India follows the **comparative safety assessment** principle under the 1989 Rules (EPA 1986): the GM crop must be shown to pose **no greater risk** than its conventional non-GM counterpart (the comparator) under intended use conditions. A student writing \"100% safe\" confuses hazard identification with risk characterization and ignores the tiered, evidence-weighting approach where acceptability is judged relative to existing agricultural practice.",
+     "self_check": true
+    },
+    {
+     "q": "In the context of Bt cotton (Cry1Ac) in India, explain why \"non-target organism testing\" focuses on honeybees (Apis mellifera), green lacewings (Chrysoperla carnea), and soil collembolans (Folsomia candida) — but NOT on earthworms (Eisenia fetida) as a primary tier species.",
+     "a": "The selection follows **exposure relevance** and **ecological function** criteria. Honeybees are primary pollinators with high pollen/nectar exposure; lacewings are key predators exposed via prey (pests feeding on Bt cotton); collembolans are primary decomposers directly exposed to root exudates and crop residue in rhizosphere. Earthworms (Eisenia fetida) are standard OECD test species but have **low exposure** to Cry1Ac in Bt cotton — Bt protein is not expressed in roots at significant levels (promoter is CaMV 35S but tissue-specific expression varies), and earthworms ingest soil organic matter, not fresh root exudates. Testing them as Tier I primary species would waste resources on a low-exposure pathway. Students who list earthworms first misunderstand **exposure-driven test species selection**.",
+     "self_check": true
+    },
+    {
+     "q": "A GM rice event expresses Cry2Aa protein (15 μg/g fresh leaf weight). The LC₅₀ for the target pest (yellow stem borer) is 0.08 μg/g diet. The LC₅₀ for a non-target butterfly (Papilio polytes) is 120 μg/g diet. Calculate the **Margin of Exposure (MoE)** for both species and interpret whether the non-target risk is acceptable per Indian regulatory guidance (MoE > 10 = low concern).",
+     "a": "**Step 1:** MoE = LC₅₀ (non-target) / Estimated Environmental Concentration (EEC). EEC = expression level in relevant tissue = 15 μg/g (leaf).  \n**Step 2:** Target pest MoE = 0.08 / 15 = **0.0053** (<< 1, confirms insecticidal efficacy).  \n**Step 3:** Non-target butterfly MoE = 120 / 15 = **8.0**.  \n**Step 4:** Interpretation: MoE = 8 < 10 threshold → **potential concern**, triggers Tier II semi-field testing.  \n**Why wrong answers happen:** Students often invert the ratio (EEC/LC₅₀), use target pest LC₅₀ for non-target, or forget that MoE > 10 is the *screening* threshold — values below require higher-tier data, not automatic rejection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **gene flow risk** from Bt cotton (Gossypium hirsutum) vs. GM mustard (Brassica juncea) in India. Which crop poses higher risk of transgene introgression into wild/weedy relatives, and why? Consider: (a) sexual compatibility, (b) pollination biology, (c) presence of wild relatives in cultivation zones.",
+     "a": "**GM mustard poses substantially higher gene flow risk.**  \n- **Sexual compatibility:** Brassica juncea (AABB) readily hybridizes with B. rapa (AA, wild mustard/weedy relative) and B. napus (AACC) — all share the A genome. Cotton (G. hirsutum, AD genome) has **no wild sexually compatible relatives** in India; its wild progenitors (G. herbaceum, G. arboreum) are A/D genome diploids — hybridization is extremely rare and hybrids sterile.  \n- **Pollination:** Mustard is **largely cross-pollinated** (insect-mediated, 10-30% outcrossing); cotton is **predominantly self-pollinated** (<5% outcrossing).  \n- **Wild relatives:** B. rapa grows as weed **within mustard fields** across North India; no wild Gossypium species co-occur with cotton cultivation.  \nStudents who say \"both equal\" or \"cotton higher\" ignore **taxonomic proximity** and **sympatry** — the two strongest predictors of introgression.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this risk mitigation proposal for Bt cotton resistance management in India: \"Farmers should plant 20% non-Bt cotton refuge as a separate block at the edge of the field. The refuge should be sprayed with conventional insecticides to protect it from bollworm damage.\" Identify two critical flaws and explain why each violates the **High-Dose/Refuge (HDR) strategy** assumptions.",
+     "a": "**Flaw 1: Insecticide spraying on refuge.** HDR requires refuge to produce **susceptible homozygous (SS) adults** that mate with resistant (RR) survivors from Bt crop. Spraying kills SS larvae → reduces susceptible allele frequency → **accelerates resistance**. Refuge must be **unsprayed** (or sprayed only with non-lepidopteran-targeting chemicals).  \n**Flaw 2: Separate block at field edge.** This creates **spatial separation** → reduces random mating between Bt-survivors (RR) and refuge-produced (SS) adults. HDR assumes **random mating** — best achieved by **seed mix (refuge-in-bag)** or **adjacent strips within field**. Edge blocks increase assortative mating by emergence time and distance.  \nStudents missing these confuse \"refuge = non-Bt plants\" with the **population genetics requirements** (susceptible allele production + random mating).",
+     "self_check": true
+    },
+    {
+     "q": "Design a **Tier II confined field trial** protocol to test the hypothesis: \"GM mustard (barnase/barstar) pollen does not reduce fertility in honeybee (Apis mellifera) colonies foraging during flowering.\" Specify: (a) experimental design (treatments, replicates), (b) exposure verification, (c) key endpoints, (d) statistical power consideration.",
+     "a": "**Good answer criteria:**  \n(a) **Design:** Randomized complete block, 4 treatments × 6 replicates = 24 plots (10m × 10m): T1 = GM mustard, T2 = non-GM parental line (comparator), T3 = non-GM + spiked barnase protein (positive control), T4 = no crop (negative control). Colonies (standardized: 5 frames, queen-right) placed at plot center at 10% bloom.  \n(b) **Exposure verification:** Pollen traps on hives → quantify % GM pollen (event-specific qPCR) + barnase protein ELISA in bee bread.  \n(c) **Endpoints:** Primary = colony strength (brood area cm², adult bee count) at 21 days post-bloom; Secondary = queen survival, pollen diversity (metabarcoding), hypopharyngeal gland size.  \n(d) **Power:** Detect 20% reduction in brood area (SD=15%) at α=0.05, power=0.8 → n≥6 per treatment (G*Power calculation cited).  \n**Poor answers** omit positive control, use non-standardized colonies, measure only honey yield (lagging indicator), or ignore power analysis — revealing misunderstanding of **hypothesis-driven, statistically rigorous** Tier II design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

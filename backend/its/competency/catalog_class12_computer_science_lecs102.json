@@ -1,0 +1,343 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 2,
+ "chapter_title": "File Handling in Python",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs102.1",
+   "title": "write() Returns the Character Count",
+   "section": "2.4.1",
+   "definition": "The write() method copies one string into a text file and reports how many characters it stored, counting the newline escape as a single character; numeric values must first be turned into strings before they can be written.",
+   "formula": "returned = letters + 1",
+   "key_idea": "Writing str(58) reports 2, one character per digit, because only strings may enter a text file.",
+   "textbook_ref": "lecs102.txt, section 2.4.1",
+   "question_patterns": [
+    "What value does write() display after storing the line 'Hey I have started using files in Python' followed by a newline?",
+    "Why does myobject.write(str(marks)) return 2 when marks holds 58?",
+    "How is the newline escape counted by the write() method?",
+    "Which two methods write data to a text file, and which one reports a character count?",
+    "A sentence of 24 letters plus a newline is written once. How many characters does write() report?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the sentence letters",
+     "explain": "Words of 3, 1, 4, 7, 5, 5, 2 and 6 letters are joined by 7 spaces, making 40 visible characters.",
+     "compute": "letters = 3 + 1 + 1 + 1 + 4 + 1 + 7 + 1 + 5 + 1 + 5 + 1 + 2 + 1 + 6"
+    },
+    {
+     "step": 2,
+     "action": "add the newline character",
+     "explain": "The escape \\n counts as exactly one character.",
+     "compute": "returned = letters + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "f.write('Hello') stores 5 letters plus a newline. What does write() return?",
+     "a": "6"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.2",
+   "title": "Binary File Size from Record Count",
+   "section": "2.8.3 and Program 2-8",
+   "definition": "A binary file grows by a fixed number of bytes per pickled record; Program 2-8 reports the size through tell(), and dividing by the record count gives the per-record size that projects the size for any number of records.",
+   "formula": "projected = total_bytes / records * new_records",
+   "key_idea": "Two dumped employee records produced 216 bytes, so each record occupies 108 bytes.",
+   "textbook_ref": "lecs102.txt, Program 2-8 and its output",
+   "question_patterns": [
+    "Program 2-8 stores 2 employee records in 216 bytes. How many bytes will 5 records occupy?",
+    "Which method reports the byte size of a binary file before reading begins?",
+    "Why does the pickle module open a file in wb mode rather than w?",
+    "The size of a binary file holding one student record is 108 bytes. Estimate the size for 10 records.",
+    "What does the tell() value mean just before a binary file is closed?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the per-record size",
+     "explain": "Divide the file size by the number of records already stored.",
+     "compute": "bytes_per_record = total_bytes / records"
+    },
+    {
+     "step": 2,
+     "action": "project for new records",
+     "explain": "Multiply the per-record size by the planned record count.",
+     "compute": "projected = bytes_per_record * new_records"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two dumped records produce 216 bytes. How many bytes does one record occupy?",
+     "a": "108"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.3",
+   "title": "Moving the File Offset with seek",
+   "section": "2.6 and Program 2-2",
+   "definition": "The tell() method reports the byte position of the file object from the start, while seek(offset, reference) jumps the object by offset bytes counted from 0 for the beginning, 1 for the current position, or 2 for the end of the file.",
+   "formula": "new_pos = current_pos + shift",
+   "key_idea": "Every read advances the offset, so Program 2-2 must rewind with seek(0) before reading again from the start.",
+   "textbook_ref": "lecs102.txt, section 2.6 and Program 2-2",
+   "question_patterns": [
+    "After reading a 33-byte file, the object calls seek(10). At which byte position does tell() report it now?",
+    "Where does seek(5, 0) place the file object?",
+    "Which reference value makes the offset count from the end of the file?",
+    "Why does Program 2-2 call seek(0) before reading the file a second time?",
+    "A file object at position 0 reads 12 bytes and then shifts back by 7. Where does it end up?",
+    "Which function returns the current byte position of the file object?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "advance past the first read",
+     "explain": "Reading moves the offset forward by the byte count read.",
+     "compute": "after_read = start + read_count"
+    },
+    {
+     "step": 2,
+     "action": "apply the seek shift",
+     "explain": "A negative shift rewinds the object; a positive one moves it forward.",
+     "compute": "new_pos = after_read + shift"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which call rewinds a file object to the very start before reading again?",
+     "a": "seek(0)"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.4",
+   "title": "Employee Salary Total in a Binary Record",
+   "section": "Program 2-8",
+   "definition": "Each pickled employee record stores a list of employee number, name, basic salary and allowances, with the total salary computed as basic plus allowances before the list is dumped to the binary file.",
+   "formula": "totsal = ebasic + allow",
+   "key_idea": "The record for employee 11 holds [11, 'D N Ravi', 32600, 4400, 37000], where 37000 is basic plus allowances.",
+   "textbook_ref": "lecs102.txt, Program 2-8",
+   "question_patterns": [
+    "An employee draws a basic salary of 32600 and allowances of 4400. What total salary is dumped into the record?",
+    "Compute the yearly cost of an employee whose basic plus allowances come to 43550 per month.",
+    "Which fields make up the employee record pickled by Program 2-8?",
+    "Farida's basic is 38250 with 5300 allowances. Find the total stored in her record.",
+    "Why must numeric fields be part of the list before pickling?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the allowances",
+     "explain": "Basic salary plus allowances forms the monthly total.",
+     "compute": "gross = ebasic + allowances"
+    },
+    {
+     "step": 2,
+     "action": "project the yearly figure",
+     "explain": "Twelve monthly totals give the annual cost.",
+     "compute": "yearly = gross * 12"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An employee record stores basic salary 32600 and allowances 4400. What total salary gets computed?",
+     "a": "37000"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.5",
+   "title": "Text File versus Binary File",
+   "section": "2.2",
+   "definition": "A text file stores bytes that encode readable characters, one file line ending at an EOL such as the newline, while a binary file stores raw bytes of real content like images or executables that only specific programs can interpret.",
+   "formula": "text -> ASCII per character; binary -> raw byte stream",
+   "key_idea": "Opening a binary file in a text editor shows garbage because its bytes are not character codes.",
+   "textbook_ref": "lecs102.txt, sections 2.2.1 and 2.2.2",
+   "question_patterns": [
+    "Differentiate a text file from a binary file with one example of each.",
+    "What does the ASCII value 65 display as in a text editor, and why?",
+    "Which character terminates each line of a text file in Python?",
+    "Why can a single changed bit corrupt a binary file?",
+    "Name three extensions that belong to text files.",
+    "Why is a .docx file larger than a .txt file holding the same name?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the byte meaning",
+     "explain": "If every byte decodes through a character encoding, the file is text; if the bytes carry raw content, it is binary and needs its own program."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which file type stores bytes that encode readable characters?",
+     "a": "text file"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.6",
+   "title": "File Access Modes of open()",
+   "section": "2.3 and Table 2.1",
+   "definition": "open(file_name, access_mode) returns a file handle whose mode controls everything: r reads from the start, w overwrites or creates, a appends at the end, a plus sign permits both reading and writing, and b switches to byte-level binary handling.",
+   "formula": "r/w/a plus optional + and b, with the offset at start or end",
+   "key_idea": "In r, r+ and w modes the object starts at the beginning; in a and a+ it starts at the end.",
+   "textbook_ref": "lecs102.txt, section 2.3, Table 2.1",
+   "question_patterns": [
+    "Which mode opens example.txt for both reading and writing?",
+    "Which mode opens a binary file bfile.dat for writing only?",
+    "Where is the file offset positioned when a file opens in append mode?",
+    "What happens to the previous contents when an existing file is opened in w mode?",
+    "Which attributes of a file object report its closed state, mode and name?",
+    "Why does opening a file with the with clause close it automatically?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the mode letters",
+     "explain": "Each letter fixes one behaviour: the base letter fixes the operation, + adds the other direction, and b switches to binary bytes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which access mode overwrites an existing file or creates it fresh?",
+     "a": "w"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.7",
+   "title": "Reading Methods: read, readline, readlines",
+   "section": "2.5",
+   "definition": "Three methods drain a text file: read(n) takes n bytes or the whole file, readline() returns one line up to its newline, and readlines() returns every line as the elements of a list of strings.",
+   "formula": "readlines() -> list of lines; readline() -> one line; read() -> whole text",
+   "key_idea": "Looping over the file object or calling readline() repeatedly ends when an empty string signals end of file.",
+   "textbook_ref": "lecs102.txt, sections 2.5.1 to 2.5.3",
+   "question_patterns": [
+    "Differentiate readline() from readlines() with one example of each.",
+    "What does read(10) return for a file beginning 'Hello everyone'?",
+    "Why does a readline() loop stop naturally at the end of the file?",
+    "How does split() change the output of readlines() when printing each word separately?",
+    "Which method returns a list whose elements each end with a newline?",
+    "In which modes must a file be opened before any reading is possible?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the method to the wanted unit",
+     "explain": "Choose the byte, the single line, or the full list of lines depending on how the program consumes the text."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which method returns every line of a text file as one list?",
+     "a": "readlines()"
+    }
+   ]
+  },
+  {
+   "id": "lecs102.8",
+   "title": "Pickling and the dump, load Methods",
+   "section": "2.8",
+   "definition": "The pickle module serialises a Python object into a byte stream for a binary file: dump(object, file_object) writes it while the file is open in wb mode, and load(file_object) rebuilds the object from a file opened in rb mode.",
+   "formula": "dump -> object to bytes; load -> bytes back to object",
+   "key_idea": "Pickling stores the object's structure as well as its data, so a dumped list loads back as a list.",
+   "textbook_ref": "lecs102.txt, sections 2.8.1 to 2.8.3",
+   "question_patterns": [
+    "Define pickling and explain serialization and deserialization of a Python object.",
+    "Write the use and syntax of the dump() method.",
+    "Why does reading a pickled file end with an EOFError that the program must catch?",
+    "What does Program 2-7 print after loading mybinary.dat?",
+    "Which modes are used to open a binary file for dumping and for loading?",
+    "Why is pickle unsuitable for files a human must read directly?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair the mode with the method",
+     "explain": "Dumping needs wb and dump(); loading needs rb and load(); reading past the last record raises EOFError, which a try..except handles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which module serialises Python objects into byte streams?",
+     "a": "pickle"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs102.we1",
+   "title": "Character count of a written line",
+   "concept_id": "lecs102.1",
+   "problem": "The statement myobject.write('Hey I have started using files in Python\\n') runs once. What does it return?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "total the visible characters",
+     "explain": "Word lengths 3, 1, 4, 7, 5, 5, 2, 6 with 7 separating spaces give 40.",
+     "compute": "letters = 3 + 1 + 1 + 1 + 4 + 1 + 7 + 1 + 5 + 1 + 5 + 1 + 2 + 1 + 6"
+    },
+    {
+     "step": 2,
+     "action": "count the newline once",
+     "explain": "The escape \\n is a single character.",
+     "compute": "returned = letters + 1"
+    }
+   ],
+   "answer_note": "The method returns 41, exactly as shown in the chapter's shell transcript."
+  },
+  {
+   "id": "lecs102.we2",
+   "title": "Projecting a binary file's size",
+   "concept_id": "lecs102.2",
+   "problem": "Two employee records weigh 216 bytes in empfile.dat. Estimate the file size for 6 records.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "size of one record",
+     "explain": "216 bytes over 2 records gives 108 bytes each.",
+     "compute": "bytes_per_record = 216 / 2"
+    },
+    {
+     "step": 2,
+     "action": "grow to six records",
+     "explain": "Multiply the per-record size by 6.",
+     "compute": "projected = bytes_per_record * 6"
+    }
+   ],
+   "answer_note": "Each record takes 108 bytes, so 6 records need 648 bytes."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs102.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 2 Exercise (items reworded)",
+   "questions": [
+    "Differentiate: text file and binary file; readline() and readlines(); write() and writelines().",
+    "Write the use and syntax of open(), read(), seek() and dump().",
+    "State the mode and the opening statement for: example.txt in read and write mode, bfile.dat in binary write mode, try.txt in append and read mode, btry.dat in binary read-only mode.",
+    "Why should a file be closed after reading and writing, and what changes if it is not?",
+    "How do the two statements P = open('practice.txt','r') followed by P.read(10), and with open('practice.txt','r') as P: x = P.read(), differ?",
+    "Write commands to append the three given lines to hello.txt, then display the file in read mode and say what would differ in write mode.",
+    "Write a program that stores sentences until the user types END and later prints only those starting with a capital letter.",
+    "A program stores 8 records in a binary file of 864 bytes. Compute the size of one record and of 13 records."
+   ]
+  }
+ ]
+}

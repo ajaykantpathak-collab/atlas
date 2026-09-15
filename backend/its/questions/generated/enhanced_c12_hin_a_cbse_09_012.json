@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_09_012",
+   "title": "c12_hin_a_cbse_09_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"According to the first poem, what time of day is described in the opening stanza?\"",
+     "a": "**Correct:** Literal. The question asks for a detail explicitly stated in the text (time of day).  \n**Wrong answer reveals:** If a student says \"inferential,\" they confuse *setting description* with *interpretation*. They likely think any \"what\" question about poetry is inferential because poems are \"hard.\" Remind them: if the answer is directly written (e.g., \"cgqr fnuku dks\" = many days / long time), it is literal.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the textbook question \"dfo us ^pkgr pyu ;s lanslks ys lqtku dks* D;ksa dgk gS?\" with: \"Because the bird flew away.\" Explain why this answer is incomplete for an inferential question.",
+     "a": "**Correct explanation:** The question asks *why the poet says this* (the poet's intention/feeling), not *what happened*. The student gave a literal plot summary. A complete inferential answer must link the bird's departure to the poet's emotional state (longing, helplessness) using the stanza's contrast: the bird flies freely (\"pkgr pyu\") while the poet is bound (\"lanslks\").  \n**Wrong answer reveals:** The student treats \"why\" as \"what caused the event\" rather than \"what does the poet convey.\" They miss the shift from *event* to *authorial purpose*.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: The second poem contains the line \"owQdHkjh ewdrk cqyk; vki cksfygSA\" (You have filled the cup of sorrow with the poison of irony). Write a 3-step inference chain to answer: \"What does this line suggest about the relationship between the speaker and the addressee?\"",
+     "a": "**Steps & Answer:**  \n1. **Literal anchor:** The line uses metaphor — \"owQdHkjh\" (poison of irony) mixed in \"ewdrk\" (cup of sorrow).  \n2. **Reasoning:** Poison in a cup implies deliberate harm; irony implies the addressee's words/actions contradict the speaker's expectations.  \n3. **Conclusion:** The relationship is marked by betrayal or deep disappointment — the addressee has turned the speaker's grief into something toxic.  \n**Wrong answer reveals:** If the student writes \"they are sad,\" they stop at the literal word \"sorrow\" and ignore the metaphor's agency (\"vki cksfyg\" = *you* filled). They miss the *interpersonal* dimension.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the two textbook questions: (1) \"dfo ekSu gksdj izsfedk osQ dkSu ls iz.k ikyu dks ns[kuk pkgrk gS?\" and (2) \"?kukuan dh jpukvksa dh Hkkf\"kd fo'ks\"krkvksa dks vius 'kCnksa esa fyf[k,A\". Classify each and justify why the second cannot be answered by quoting a single line.",
+     "a": "**Correct:** (1) Inferential — asks for the *specific quality* the poet wants to see, requiring synthesis across stanzas (the bird's fearlessness, freedom). (2) Analytical/Evaluative — asks for *characteristic features of all works*, needing generalization across poems.  \n**Why second isn't single-line:** It demands a thematic synthesis (language style, recurring motifs like disciple, irony, musicality) that no single line contains.  \n**Wrong answer reveals:** If a student says both are \"long answer,\" they miss the cognitive leap: Q1 is *text-bound inference*; Q2 is *author-study synthesis*. They treat all \"explain\" questions as same difficulty.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: A student claims: \"In the first poem, the line 'vc u f?kjr ?ku vkuan funku dks' is literal because it describes the poet's current action.\" Defend or refute this claim using the definition of literal comprehension.",
+     "a": "**Refute.** The line means \"Now I do not find the path to reach you\" — it expresses an *internal state of helplessness*, not an observable action. Literal comprehension only covers what is *explicitly denoted* (e.g., \"the bird flew\"). The poet's inability to find a path is a metaphorical expression of emotional distance.  \n**Wrong answer reveals:** The student equates \"first-person statement\" with \"literal fact.\" They don't grasp that poetry often uses *figurative literal statements* — the words are literal, the meaning is inferential.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Frame one literal and one inferential question *on the same stanza* (Stanza 1 of Poem 2) that a Class 12 examiner could ask. Ensure the inferential question cannot be answered by copying a phrase.",
+     "a": "**Sample literal:** \"What does the speaker ask the addressee in the first line of the second poem?\" (Answer: \"vkukdkuh vkjlh fugkfjcks djkSxs dkSykSa\\\" — Why do you create separation?)  \n**Sample inferential:** \"How does the rhetorical question in the opening line establish the tone of the entire poem?\" (Answer: It sets a tone of accusation and bewilderment, implying the separation is unjustified and painful.)  \n**Poor answer reveals:** If the inferential question is \"Why is the speaker angry?\", it's still too close to literal (anger is named in \"vkukdkuh\"). A good inferential question forces analysis of *technique* (rhetorical question, tone) not just *emotion*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

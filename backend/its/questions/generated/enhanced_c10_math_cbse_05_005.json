@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_005",
+   "title": "c10_math_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the formula to find the number of terms \\(n\\) in an AP when the first term \\(a\\), common difference \\(d\\), and the \\(n\\)th term \\(a_n\\) are known?",
+     "a": "The formula is \\(n = \\frac{a_n - a}{d} + 1\\). A wrong answer like \\(n = \\frac{a_n - a}{d}\\) reveals the student forgot to add 1 after dividing, which corresponds to confusing the number of steps \\((n-1)\\) with the number of terms \\(n\\). Another error is using \\(n = \\frac{a_n + a}{d}\\) which shows misunderstanding of the formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "In the AP 5, 9, 13, 17, ..., a student claims that 101 is the 25th term. Without calculating the exact term, explain why this claim must be false by looking at the parity (odd/even) of the terms.",
+     "a": "All terms in this AP are odd because the first term 5 is odd and the common difference 4 is even (odd + even = odd). Since 101 is odd, parity alone doesn't disprove it. But if the student said 100 is a term, that would be false because 100 is even. A wrong answer that says \"101 is odd so it could be a term\" shows the student understands parity but doesn't realize they must also check the formula. The deeper misconception is thinking parity is sufficient to confirm membership; the correct check is whether \\(n = \\frac{101-5}{4}+1 = 25\\) is an integer, which it is, so 101 actually IS the 25th term. The question tests if the student blindly applies parity without verifying with the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Find the number of terms in the AP: 18, 15, 12, ..., -48.",
+     "a": "Given: \\(a = 18\\), \\(d = 15 - 18 = -3\\), \\(a_n = -48\\).  \nStep 1: Use \\(a_n = a + (n-1)d\\).  \nStep 2: \\(-48 = 18 + (n-1)(-3)\\).  \nStep 3: \\(-48 - 18 = (n-1)(-3) \\Rightarrow -66 = (n-1)(-3)\\).  \nStep 4: Divide by -3: \\(22 = n-1\\).  \nStep 5: \\(n = 23\\).  \nAnswer: 23 terms.  \nA wrong answer like \\(n = 22\\) reveals the student forgot to add 1 after dividing (i.e., they computed \\(n-1\\) but didn't add 1). Another error: using \\(d = 3\\) instead of \\(-3\\) gives negative \\(n\\), showing sign error.",
+     "self_check": true
+    },
+    {
+     "q": "An AP has first term 3 and common difference 4. The sum of the first \\(n\\) terms is 105. A student sets up the equation \\(105 = \\frac{n}{2}[2(3) + (n-1)4]\\) and simplifies to \\(2n^2 + n - 105 = 0\\). They get two roots: \\(n = 7\\) and \\(n = -7.5\\). They write \"\\(n = 7\\) or \\(n = -7.5\\)\". Analyze the student's answer and explain what is incomplete.",
+     "a": "The student correctly solved the quadratic but failed to reject the negative/non-integer root. \\(n\\) represents the number of terms, so it must be a positive integer. The answer should be only \\(n = 7\\). Writing both roots shows the student treats it as a pure algebra problem without applying the context constraint. This is a common board exam error where students lose marks for not stating \"\\(n\\) cannot be negative or fractional, so \\(n = 7\\)\".",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many terms of the AP 24, 21, 18, ... must be taken so that their sum is 78?\" They write: \\(S_n = \\frac{n}{2}[2(24) + (n-1)(-3)] = 78\\) → \\(3n^2 - 51n + 156 = 0\\) → \\(n^2 - 17n + 52 = 0\\) → \\((n-4)(n-13) = 0\\) → \\(n = 4\\) or \\(n = 13\\). They answer \"4 terms\". Evaluate whether this answer is fully correct and justify.",
+     "a": "Both \\(n = 4\\) and \\(n = 13\\) are valid because the sum of the first 4 terms is 78 and the sum of the first 13 terms is also 78 (the terms become negative after a point and cancel out the earlier positive sum). The student's answer \"4 terms\" is incomplete; the correct answer is \"4 or 13 terms\". This tests the understanding that a quadratic can yield two valid positive integer solutions in AP sum problems. A student who gives only one root misses the second valid case.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where finding the number of terms in an AP is required, and the solution yields two possible positive integer values for \\(n\\). Explain why both values make sense in the context.",
+     "a": "Example: \"A contractor employs workers to complete a job. On day 1, 30 workers show up. Each subsequent day, 2 fewer workers come. The total worker-days required is 240. Find the number of days to complete the job.\" Here \\(a = 30\\), \\(d = -2\\), \\(S_n = 240\\). Solving gives \\(n = 10\\) or \\(n = 24\\). Both are valid: if workers stop coming after day 10, the job is done; if they continue, the negative workers (meaning workers leaving) still sum to 240 by day 24? Actually negative workers don't make sense, so the context must be adjusted: maybe a stack of logs where each layer has 2 fewer logs. A good answer will craft a context where both roots are physically meaningful (e.g., a ball bouncing up and down, or a savings plan with withdrawals). A poor answer gives a context where only one root works, showing the student doesn't understand the double-root phenomenon.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

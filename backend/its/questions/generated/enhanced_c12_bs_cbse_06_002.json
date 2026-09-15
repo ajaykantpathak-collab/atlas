@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_002",
+   "title": "c12_bs_cbse_06_002",
+   "questions": [
+    {
+     "q": "List the eight steps of the staffing process in the correct sequential order as per NCERT.",
+     "a": "The correct sequence is: (1) Estimating Manpower Requirements, (2) Recruitment, (3) Selection, (4) Placement and Orientation, (5) Training and Development, (6) Performance Appraisal, (7) Promotion and Career Planning, (8) Compensation. A wrong answer (e.g., placing recruitment before estimation, or putting training before placement) reveals the student views staffing as a menu of independent HR tasks rather than a logical process where each step's output becomes the next step's input. For instance, recruiting without first estimating requirements leads to over/under-hiring; training before placement wastes resources on people who may not fit the actual job.",
+     "self_check": true
+    },
+    {
+     "q": "A company hires 50 engineers through campus recruitment, gives them a 2-week technical training, assigns them to projects, and after 6 months conducts their first performance review. The HR head says \"We completed the staffing process.\" Identify which step is missing and explain why its absence breaks the logical chain.",
+     "a": "The missing step is Placement and Orientation (step 4). The company jumped from Training (step 5) to Performance Appraisal (step 6) without formally placing employees in specific roles and orienting them to company policies, superiors, subordinates, and workplace culture. Without placement, employees don't know their exact responsibilities, reporting lines, or performance standards — making the subsequent appraisal meaningless because there were no defined expectations to appraise against. A wrong answer that identifies \"Promotion\" or \"Compensation\" as missing shows the student confuses later-stage outcomes with the immediate post-training requirement of role clarity and socialisation.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: A manufacturing firm estimates it needs 30 CNC machine operators (step 1). It advertises widely and receives 500 applications (step 2). It conducts written tests and interviews, selecting 30 candidates (step 3). The selected candidates are handed appointment letters and told to \"start work on Monday\" with no factory tour, no introduction to shift supervisors, no safety briefing, and no explanation of quality standards. Two months later, defect rates are 15% and three operators quit. Diagnose the failure using the staffing process framework.",
+     "a": "The failure occurred at Step 4: Placement and Orientation. The firm completed recruitment and selection but skipped systematic placement (assigning each operator to a specific machine/shift with clear responsibilities) and orientation (safety protocols, quality standards, introductions to supervisors/peers, grievance mechanisms). Without orientation, operators didn't know quality expectations → high defects. Without placement clarity and socialisation, they felt alienated → attrition. A student who blames \"poor selection\" or \"inadequate training\" misses that even well-selected, well-trained employees fail if they don't know where to report, what standards apply, or who to ask for help — the core purpose of placement and orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the logical dependency between (Recruitment → Selection) and (Performance Appraisal → Promotion). How does the nature of dependency differ between these two pairs?",
+     "a": "Recruitment → Selection is a **pool-to-choice** dependency: recruitment creates the candidate pool from which selection chooses; without recruitment, selection has no input. Performance Appraisal → Promotion is an **evidence-to-decision** dependency: appraisal generates performance evidence on which promotion decisions are based; without appraisal, promotions lack objective justification. The first is about *availability* of options; the second is about *validity* of decisions. A student who treats both as \"step A feeds step B\" without distinguishing the *type* of feed (candidates vs. performance data) fails to grasp why organisations can't promote without appraisal but *can* select without formal recruitment (e.g., direct applications) — though NCERT treats recruitment as the formal preceding step.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Compensation is the final step of staffing, so it has no impact on earlier steps like recruitment or training.\" Defend or critique with reasoning grounded in the staffing process logic.",
+     "a": "Critique: The statement is false. While compensation appears last sequentially, it operates as a **feedback loop** influencing all prior steps. (1) Compensation structure determines the *attractiveness* of the job advertisement in Recruitment — below-market pay yields poor applicant pools. (2) Compensation benchmarks (e.g., salary bands for each grade) define the *target profile* in Estimating Manpower Requirements — you estimate needs for roles you can afford. (3) Compensation linked to skill acquisition (e.g., pay hikes for certifications) drives *training motivation* and ROI. (4) Performance-based pay design shapes *appraisal criteria*. Treating compensation as a terminal step ignores its role as a strategic design parameter that shapes the entire staffing architecture. A student who agrees reveals a linear \"checklist\" mental model rather than a systems view of HR processes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step mini-staffing-process for hiring a single freelance content writer for a 3-month project at a small marketing agency. Map each step to the corresponding NCERT staffing step and justify any omissions or mergers.",
+     "a": "A strong answer maps: (1) Define role & budget → Estimating Manpower Requirements; (2) Post on Upwork/LinkedIn + ask network → Recruitment; (3) Review portfolios, test assignment, video call → Selection; (4) Share brand guidelines, introduce to editor, set deadlines → Placement & Orientation (merged); (5) Mid-project review & final payment → Performance Appraisal + Compensation (merged). Omissions justified: No separate Training (freelancer brings skills), no Promotion/Career Planning (fixed-term contract), no formal Compensation structure (project fee agreed upfront). The answer must show *why* merging is valid for this context (short duration, external hire, defined scope) while preserving the logical flow: need → attract → choose → onboard → evaluate/pay. A weak answer lists generic hiring steps without mapping to NCERT's eight steps or justifying context-specific adaptations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

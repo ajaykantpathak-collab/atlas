@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_007",
+   "title": "c11_hs_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define personal hygiene in one sentence using the WHO health dimensions (physical, mental, social).",
+     "a": "Personal hygiene is the practice of maintaining bodily cleanliness to preserve physical health by preventing pathogen entry, support mental well-being through self-esteem and social confidence, and enable social well-being by meeting cultural norms of cleanliness. A wrong answer that only mentions \"bathing daily\" or \"looking clean\" reveals the student views hygiene as cosmetic rather than a multidimensional health intervention tied to WHO's definition.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"I shower daily, so my personal hygiene is perfect.\" Identify two specific components this statement ignores and explain why each matters for an adolescent.",
+     "a": "The statement ignores (1) oral hygiene—adolescents have higher sugar intake and orthodontic appliances increasing caries risk; brushing twice daily prevents Streptococcus mutans from producing acid that demineralises enamel. (2) Nail hygiene—long nails harbour Staphylococcus aureus and parasitic ova (e.g., Enterobius vermicularis) which transfer to food during eating, causing reinfection. A wrong answer focusing only on \"using deodorant\" or \"washing hair\" shows the student equates hygiene with odour control rather than microbial load reduction.",
+     "self_check": true
+    },
+    {
+     "q": "During a week-long camp, you notice a peer develops painful boils on the neck and refuses to share towels. Using the nutrition-infection cycle, explain how poor personal hygiene could trigger this condition and worsen their nutritional status in 4 steps.",
+     "a": "Step 1: Inadequate body hygiene (infrequent bathing with soap) allows Staphylococcus aureus to colonise hair follicles on the neck. Step 2: Friction from dirty collars/towels causes micro-abrasions, enabling bacterial entry → folliculitis/boils. Step 3: Infection triggers immune response (fever, inflammation) increasing basal metabolic rate by 10-15% and nitrogen loss via urine. Step 4: Pain reduces appetite while nutrient demand rises → negative nitrogen balance → weight loss and impaired immunity → risk of recurrent infection. A wrong answer missing the metabolic cost (Step 3) reveals the student hasn't linked infection to nutritional deterioration as taught in c11_hs_cbse_07_006.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the personal hygiene needs of a 16-year-old boy and a 16-year-old girl in a table with three columns: Component, Boy's Specific Need, Girl's Specific Need. Include at least 5 components.",
+     "a": "| Component | Boy's Specific Need | Girl's Specific Need |\n|---|---|---|\n| Body hygiene | Daily washing of genital folds (smegma accumulation under foreskin if uncircumcised) | Menstrual hygiene: changing sanitary product every 4-6 hrs, washing vulva front-to-back |\n| Hair hygiene | Managing increased sebum on scalp; may need daily shampoo if oily | Same, plus managing hair during menstruation (cultural practices vary) |\n| Nail hygiene | Trimming straight across to prevent ingrown toenails from sports shoes | Same, plus avoiding long artificial nails that harbour pathogens |\n| Clothing hygiene | Changing underwear daily; washing athletic supporters after use | Changing underwear daily; washing reusable cloth pads with disinfectant |\n| Respiratory hygiene | Covering cough/sneeze; not spitting in public (common habit) | Same |\nA wrong answer listing \"girls need more hygiene\" without specifics reveals gender bias rather than biological understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this school policy: \"Students must carry hand sanitiser (70% alcohol) and use it before every meal. Soap and water are optional.\" Justify your position using microbiological evidence.",
+     "a": "The policy is flawed. Alcohol-based sanitiser (70%) effectively kills enveloped viruses (influenza, coronavirus) and most bacteria but NOT bacterial spores (Clostridium difficile), non-enveloped viruses (norovirus, rotavirus), or protozoan cysts (Giardia, Entamoeba). Soil, grease, or food debris on hands inactivates alcohol. Soap + water mechanically removes ALL pathogen types via surfactant action and friction. For adolescents handling food, playing sports, or using shared toilets, soap-water is superior. Sanitiser is a supplement when water is unavailable. A wrong answer endorsing the policy shows the student confuses \"germ-killing\" claims with spectrum of activity and ignores the mechanical removal principle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 7-day personal hygiene audit checklist for a Class 11 hostel student that includes frequency, method, and a \"why\" column linking each practice to a specific pathogen or health outcome. Provide 3 completed rows as examples.",
+     "a": "| Practice | Frequency | Method | Why (Pathogen/Outcome) |\n|---|---|---|---|\n| Hand wash | Before meals, after toilet | Soap + water, 20 sec, scrub nails | Removes Salmonella, Shigella, E. coli → prevents diarrhoea |\n| Tooth brushing | 2× daily (morning/night) | Fluoride toothpaste, Bass technique 2 min | Disrupts Streptococcus mutans biofilm → prevents dental caries |\n| Bathing | Daily + after sports | Mild soap, attention to axilla, groin, feet | Removes Corynebacterium (odour), dermatophytes (tinea) |\n| ... | ... | ... | ... |\nA poor answer listing only \"wash hands, brush teeth, bathe\" without frequency/method/why columns shows the student treats hygiene as a checklist of tasks rather than targeted microbial control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

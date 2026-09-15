@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_005",
+   "title": "c12_bs_cbse_11_005",
+   "questions": [
+    {
+     "q": "A company sells industrial lubricants to manufacturing firms. The lubricants are purchased routinely with minimal comparison. Into which sub-category of industrial products does this fall, and why?",
+     "a": "Industrial lubricants fall under \"Supplies and Services\" — specifically \"Maintenance and Repair Items\" (operating supplies). They are purchased routinely, with low unit value, and minimal comparison, similar to convenience goods in consumer markets. A wrong answer (e.g., \"Materials and Parts\" or \"Capital Items\") reveals the student confuses industrial product categories: they may think all inputs are \"materials\" or confuse high-value durable equipment (capital items) with consumable supplies.",
+     "self_check": true
+    },
+    {
+     "q": "\"Branding is just giving a catchy name to a product.\" Explain why this statement is incomplete and what three strategic functions branding performs beyond identification.",
+     "a": "Branding is not just a name; it performs: (1) Differentiation — creates distinct identity in a crowded market; (2) Quality Assurance — signals consistent standards, reducing buyer's perceived risk; (3) Legal Protection — trademark registration prevents imitation. A student who only mentions \"identification\" or \"awareness\" misses the strategic role of branding in building equity, enabling premium pricing, and creating legal barriers to entry.",
+     "self_check": true
+    },
+    {
+     "q": "A startup sells premium cold-pressed oils in 500ml glass bottles. They want to use minimalist packaging with only the brand name and logo on the front, moving all statutory information to a QR code on the bottom. Is this legally permissible under Indian labelling laws? Justify.",
+     "a": "No, this is not permissible. The Legal Metrology (Packaged Commodities) Rules, 2011 and FSSAI regulations mandate that certain declarations (name of product, net quantity, MRP, date of manufacture, expiry/best before, FSSAI license number, manufacturer's name and address, consumer care details) must be physically printed on the package in a conspicuous manner. A QR code cannot replace mandatory on-pack declarations. A student who says \"yes, if QR code is scannable\" confuses digital supplementation with statutory replacement — a common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the packaging requirements for a consumer convenience product (e.g., biscuits) vs an industrial capital item (e.g., a CNC machine). How do the levels (primary, secondary, transportation) and functions differ?",
+     "a": "For biscuits (convenience product): Primary packaging (wrapper) is critical for protection, freshness, branding, and labelling; secondary (carton) aids shelf display and handling; transportation (corrugated box) ensures bulk logistics. For CNC machine (capital item): Primary packaging may be minimal (protective film); secondary is often custom crating; transportation packaging is heavy-duty, shock-absorbent, and designed for forklift handling. The key difference: consumer packaging emphasizes promotion and convenience; industrial packaging emphasizes protection, handling efficiency, and cost minimization. A student who treats both similarly misses the role of packaging in the purchase decision process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a specialty product like a luxury watch, branding is more important than packaging.\" Provide a reasoned judgment with examples.",
+     "a": "The statement is partially true but misleading. For specialty products, branding (heritage, status, emotional connect) is the PRIMARY driver of purchase — packaging supports but cannot substitute brand equity (e.g., Rolex's crown logo vs its green box). However, packaging must reinforce the brand promise: a luxury watch in a cheap box destroys perceived value. So branding is strategically dominant, but packaging is tactically essential for experience consistency. A student who says \"branding is everything, packaging doesn't matter\" fails to see packaging as a brand touchpoint; one who says \"both equally important\" misses the hierarchy of influence in specialty goods.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new product concept for the Indian market: a subscription-based service delivering customized vitamin packs. Classify it (consumer/industrial, sub-type), propose a brand name with rationale, describe the packaging system (levels), and list 5 mandatory label declarations.",
+     "a": "Classification: Consumer product → Shopping product (high involvement, comparison on quality/customization). Brand name: \"VitaScript\" — combines \"vita\" (life) and \"script\" (personalized prescription), suggesting scientific customization. Packaging: Primary — individual daily sachets (foil, nitrogen-flushed); Secondary — weekly dispenser box (branded, child-resistant); Transportation — insulated corrugated mailer with cold pack for heat-sensitive vitamins. Mandatory labels: (1) Product name + \"Dietary Supplement\"; (2) Net quantity (e.g., \"30 sachets × 2g\"); (3) FSSAI license number & logo; (4) Nutritional information per serving (vitamins/minerals % RDA); (5) \"Best before\" date, batch number, manufacturer address, consumer helpline. A poor answer would misclassify as convenience product, ignore cold-chain needs, or omit FSSAI-specific declarations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

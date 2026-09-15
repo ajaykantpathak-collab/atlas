@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_008",
+   "title": "c11_geo_cbse_14_008",
+   "questions": [
+    {
+     "q": "Name any three ecological services provided by the Western Ghats' tropical evergreen forests that directly support agriculture in the Peninsular plains.",
+     "a": "Correct answer: (1) Watershed regulation — forests intercept monsoon rainfall, reduce runoff, and recharge aquifers feeding rivers like Kaveri/Godavari that irrigate plains; (2) Soil conservation — root systems prevent erosion, maintaining reservoir capacity downstream; (3) Climate moderation — evapotranspiration from forests contributes to regional rainfall recycling. A wrong answer (e.g., \"timber, honey, tourism\") reveals confusion between ecological services (indirect, regulating) and economic goods (direct, provisioning).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the economic value of non-timber forest products (NTFPs) like mahua, tendu leaves, and sal seeds is often higher for tribal communities in Central India than the timber value of the same forests, despite timber having a higher market price per cubic metre.",
+     "a": "Correct answer: NTFPs provide **annual, low-capital, labour-intensive income** accessible to landless households without felling trees, whereas timber extraction requires capital, permits, and destroys the resource base. NTFPs sustain livelihoods year after year (sustainable yield), while timber is a one-time asset liquidation. A wrong answer focusing only on market price per kg reveals inability to distinguish between **stock value** (timber as asset) and **flow value** (NTFPs as recurring income) — a core concept in forest economics.",
+     "self_check": true
+    },
+    {
+     "q": "A 500 ha patch of tropical moist deciduous forest in Chhattisgarh is proposed for conversion to teak plantation. Using the concept of **ecosystem service valuation**, calculate the minimum annual ecological value (in ₹) that must be exceeded by plantation revenue to justify conversion, given: carbon sequestration = 5 tC/ha/yr @ ₹1,500/tCO₂e; soil conservation = ₹12,000/ha/yr (avoided siltation cost in downstream dam); water regulation = ₹8,000/ha/yr (groundwater recharge value). Show steps.",
+     "a": "Step 1: Convert carbon to CO₂e: 5 tC × 44/12 = 18.33 tCO₂e/ha/yr.  \nStep 2: Carbon value = 18.33 × ₹1,500 = ₹27,495/ha/yr.  \nStep 3: Total ecological value/ha = ₹27,495 + ₹12,000 + ₹8,000 = ₹47,495/ha/yr.  \nStep 4: For 500 ha = 500 × ₹47,495 = **₹2,37,47,500/yr**.  \nStep 5: Plantation must generate >₹2.37 cr/yr *net* of management costs to break even ecologically.  \nWrong answer (e.g., using only timber revenue) ignores that plantations sequester less carbon, increase runoff, and reduce biodiversity — revealing failure to apply **full-cost accounting**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ecological-economics trade-off in two scenarios: (A) Selective logging in Arunachal Pradesh's subtropical forests vs (B) Clear-felling for tea estates in Assam's Brahmaputra valley. Which scenario causes irreversible loss of **option value** and why? Use the concept of **keystone species** and **hydrological connectivity**.",
+     "a": "Scenario B causes irreversible option value loss. Tea estates replace complex multi-strata forests with monoculture, eliminating keystone species (e.g., fig trees supporting frugivores) and severing hydrological connectivity between Himalayan catchments and floodplains — destroying future possibilities for pharmaceutical discovery, ecotourism, and flood regulation. Selective logging (A) retains forest structure, allowing recovery of option values. Wrong answer choosing A reveals misunderstanding that **option value depends on ecosystem complexity and connectivity**, not just tree cover.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's forest cover has increased from 21.3% (2013) to 24.6% (2023) per ISFR, so the ecological and economic value of forests has risen proportionally.\" Identify three flaws using concepts from nodes 007 (distribution) and this node.",
+     "a": "Flaw 1: **Plantations ≠ natural forests** — ISFR counts monoculture plantations (teak, eucalyptus) as \"forest cover\" but they lack biodiversity, carbon density, and NTFP diversity of natural forests (node 002, 003).  \nFlaw 2: **Fragmentation** — cover increase may be in small, isolated patches (node 007: \"scattered patches in plains\") reducing ecological functionality (edge effects, species loss).  \nFlaw 3: **Degradation within** — dense forest canopy may decline while \"open forest\" expands, lowering per-hectare service flow.  \nWrong answer accepting the statement reveals inability to distinguish **quantity (area)** from **quality (ecological integrity)** — a critical error in forest assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **payment for ecosystem services (PES)** scheme for a 200 ha community-managed forest in Uttarakhand's middle Himalaya that supplies drinking water to a downstream town of 50,000 people. Specify: (a) which ecological service is monetized, (b) who pays whom, (c) one measurable indicator for payment release, (d) one safeguard against elite capture.",
+     "a": "(a) **Water regulation service** — forest cover maintains perennial springs/streams via infiltration and slow release.  \n(b) **Urban water utility (or municipal corporation) pays** the Van Panchayat (community forest council) annually.  \n(c) **Indicator**: Dry-season (April–June) spring discharge measured at fixed gauge ≥ 50 L/s (baseline from historical data).  \n(d) **Safeguard**: Payment deposited in joint account requiring signatures of Van Panchayat president + women's SHG representative + forest guard; 30% earmarked for forest restoration labor by landless households.  \nPoor answer (e.g., \"government pays villagers to plant trees\") misses the **service-provider → service-beneficiary** directionality and **conditionality on measured outcomes** — confusing PES with afforestation subsidies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

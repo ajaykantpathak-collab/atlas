@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_001",
+   "title": "c11_acc_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define depreciation in one sentence using the terms \"depreciable cost\", \"useful life\", and \"expired cost\".",
+     "a": "Depreciation is the systematic allocation of the depreciable cost of a tangible fixed asset over its estimated useful life, representing the expired cost charged as an expense each period. A wrong answer (e.g., \"depreciation is the fall in market value\") reveals the student confuses accounting depreciation (cost allocation) with economic depreciation (market value change) – a critical distinction because accounting depreciation is based on historical cost, not market fluctuations.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Depreciation is charged so that we have cash to replace the asset when it wears out.\" Explain why this statement is incorrect and what the true purpose of depreciation is.",
+     "a": "Depreciation is a non-cash expense; it does not generate cash. Its purpose is to match the expired cost of the asset to the revenue it helps generate (matching principle), ensuring true profit measurement. A student who thinks depreciation creates a replacement fund confuses depreciation (an expense) with a sinking fund or reserve (an appropriation of profit). This misconception leads to errors in cash flow analysis and profit calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as depreciation, depletion, or amortisation: (a) A coal mine purchased for ₹2 crore, (b) A patent acquired for ₹50 lakh, (c) A factory building costing ₹10 crore. Justify each classification in one line.",
+     "a": "(a) Depletion – exhaustion of natural resource. (b) Amortisation – expiry of intangible asset's legal life. (c) Depreciation – wear and tear/obsolescence of tangible fixed asset. A wrong classification (e.g., calling the patent \"depreciation\") shows the student cannot distinguish asset types: tangible vs. intangible vs. wasting assets. This matters because AS-6 treats them similarly but terminology differs.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchases a machine for ₹5,00,000 (installation ₹50,000) with a 10-year life and ₹50,000 scrap value. The accountant debits the full ₹5,50,000 to Profit & Loss in Year 1. Analyse the impact on (i) Year 1 profit, (ii) Year 2–10 profits, (iii) Balance Sheet asset value, and (iv) Tax liability in Year 1.",
+     "a": "(i) Year 1 profit understated by ₹4,95,000 (₹5,50,000 – ₹55,000 depreciation). (ii) Year 2–10 profits overstated by ₹55,000 each year (no depreciation charged). (iii) Asset shown at ₹0 instead of ₹4,95,000 net book value – violates true and fair view. (iv) Tax liability artificially reduced in Year 1 (higher expense), but tax authorities may disallow excessive depreciation. The student must see that violating matching principle distorts multiple periods and legal compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a company maintains its assets perfectly, depreciation need not be charged because the asset does not lose value.\" Defend your answer with reference to the causes of depreciation.",
+     "a": "False. Depreciation arises from (1) wear and tear from use, (2) effluxion of time (even idle assets deteriorate), (3) obsolescence (technology/market changes), and (4) expiration of legal rights. Perfect maintenance only reduces physical wear; it cannot prevent time-based deterioration, technological obsolescence, or legal expiry. AS-6 mandates depreciation for all depreciable assets regardless of maintenance. A student who agrees ignores the multi-causal nature of depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a business purchases a fixed asset, and write a short note explaining to the owner why charging depreciation is necessary for (a) true profit, (b) tax compliance, and (c) legal requirements under the Companies Act.",
+     "a": "Scenario: \"Ramesh buys a ₹20 lakh food delivery van for his cloud kitchen on 1-Apr-2024. Expected life: 6 years, scrap: ₹2 lakh.\" Note: (a) Without depreciation, Year 1 profit is understated by ₹18 lakh and Years 2–6 overstated by ₹3 lakh each – matching principle violated. (b) Income Tax Act allows depreciation deduction; skipping it increases taxable profit illegally. (c) Companies Act 2013 (Schedule II) mandates depreciation on fixed assets; non-compliance attracts penalties. A poor answer treats these as separate unrelated points instead of linking them to the core concept of cost allocation over useful life.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_012",
+   "title": "c11_math_cbse_01_012",
+   "questions": [
+    {
+     "q": "State the definition of the complement of a set \\(A\\) with respect to a universal set \\(U\\) using set-builder notation.",
+     "a": "The complement of \\(A\\) is \\(A' = \\{x \\mid x \\in U \\text{ and } x \\notin A\\}\\). A wrong answer (e.g., \\(A' = \\{x \\mid x \\notin A\\}\\) without mentioning \\(U\\)) reveals that the student thinks complement is absolute, not relative to a universal set — a fundamental misconception that leads to errors when the universal set changes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((A')' = A\\) for any subset \\(A\\) of a universal set \\(U\\). Use the definition of complement in your reasoning.",
+     "a": "By definition, \\(A' = \\{x \\in U \\mid x \\notin A\\}\\). Then \\((A')' = \\{x \\in U \\mid x \\notin A'\\}\\). But \\(x \\notin A'\\) means it is false that (\\(x \\in U\\) and \\(x \\notin A\\)), i.e., \\(x \\notin U\\) or \\(x \\in A\\). Since we only consider \\(x \\in U\\), this simplifies to \\(x \\in A\\). Hence \\((A')' = A\\). A wrong answer (e.g., \"it's obvious\" without using the definition) shows the student cannot connect the double complement to the logical negation of a negation.",
+     "self_check": true
+    },
+    {
+     "q": "Let \\(U = \\{1,2,3,4,5,6,7,8,9,10\\}\\), \\(A = \\{2,4,6,8,10\\}\\), \\(B = \\{1,3,5,7,9\\}\\). Find \\(A'\\), \\(B'\\), \\(A \\cup B\\), and \\((A \\cup B)'\\). Verify that \\((A \\cup B)' = A' \\cap B'\\).",
+     "a": "\\(A' = \\{1,3,5,7,9\\}\\), \\(B' = \\{2,4,6,8,10\\}\\), \\(A \\cup B = U\\), so \\((A \\cup B)' = \\varnothing\\). \\(A' \\cap B' = \\varnothing\\). Hence \\((A \\cup B)' = A' \\cap B'\\). A wrong answer (e.g., claiming \\((A \\cup B)' = A' \\cup B'\\)) indicates the student has confused De Morgan's law for union with the incorrect \"distributive\" version.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\(U = \\{x \\in \\mathbb{N} \\mid x \\le 12\\}\\), \\(A = \\{x \\in U \\mid x \\text{ is a multiple of } 3\\}\\), \\(B = \\{x \\in U \\mid x \\text{ is a multiple of } 4\\}\\). Without listing all elements, explain why \\((A \\cap B)' = A' \\cup B'\\) must hold.",
+     "a": "By definition, \\(x \\in (A \\cap B)' \\iff x \\in U \\text{ and } x \\notin (A \\cap B) \\iff x \\in U \\text{ and } (x \\notin A \\text{ or } x \\notin B) \\iff (x \\in U \\text{ and } x \\notin A) \\text{ or } (x \\in U \\text{ and } x \\notin B) \\iff x \\in A' \\cup B'\\). A wrong answer (e.g., \"because the Venn diagram looks the same\") shows the student relies on visual intuition without understanding the logical equivalence that drives De Morgan's laws.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \\(U = \\{1,2,3,4,5\\}\\), \\(A = \\{1,2\\}\\), \\(B = \\{2,3\\}\\). They wrote \\((A \\cup B)' = \\{4,5\\}\\) and \\(A' \\cap B' = \\{4,5\\}\\), then concluded \\((A \\cup B)' = A' \\cup B'\\). Identify the error and correct it.",
+     "a": "The student correctly computed \\((A \\cup B)' = \\{4,5\\}\\) and \\(A' \\cap B' = \\{4,5\\}\\), but incorrectly wrote the conclusion as \\((A \\cup B)' = A' \\cup B'\\) instead of \\((A \\cup B)' = A' \\cap B'\\). This slip reveals a memory confusion between the two De Morgan's laws — the student recalled the pattern \"complement of union becomes intersection of complements\" but wrote the wrong symbol.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian school context) where finding the complement of a set is necessary to answer the question. Define \\(U\\), \\(A\\), and the question clearly.",
+     "a": "Example: In a school of 500 students (\\(U\\)), 320 students opted for Mathematics (\\(A\\)). The principal wants to know how many students did NOT opt for Mathematics to plan alternative classes. The answer is \\(n(A') = n(U) - n(A) = 180\\). A poor answer would omit the universal set or ask a question that doesn't require complement (e.g., \"how many opted for Mathematics?\"). This tests whether the student can recognise a complement situation in context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

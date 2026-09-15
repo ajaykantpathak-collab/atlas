@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_001",
+   "title": "c12_hs_cbse_11_001",
+   "questions": [
+    {
+     "q": "Define \"Family Resource Management\" in your own words and list the two broad categories of resources it deals with.",
+     "a": "Family Resource Management is the systematic process of planning, organizing, implementing, controlling, and evaluating the use of human resources (knowledge, skills, time, energy) and non-human resources (money, materials, space, environment) to achieve family goals. The two broad categories are human resources and non-human resources. A wrong answer that only mentions \"money and time\" reveals the student conflates resources with only tangible or measurable items, missing human capital like skills and knowledge. A wrong answer that omits \"systematic process\" or the five steps reveals the student sees management as ad-hoc decision-making rather than a structured cycle.",
+     "self_check": true
+    },
+    {
+     "q": "A family has a vegetable garden, a car, the mother's nursing qualification, the father's carpentry skills, and access to a community park. Classify each into: (a) human vs non-human, (b) individual vs shared vs natural vs community. Explain your reasoning for the mother's nursing qualification.",
+     "a": "(a) Human: mother's nursing qualification, father's carpentry skills. Non-human: vegetable garden, car, community park. (b) Individual: mother's nursing qualification (owned by her), father's carpentry skills. Shared: car (used by family), vegetable garden (family effort). Natural: community park (natural environment), vegetable garden (land/soil). Community: community park (public resource). The mother's nursing qualification is INDIVIDUAL HUMAN because it resides in her person, cannot be transferred, and she alone decides its use — though the income it generates becomes a shared family resource. A wrong answer classifying the qualification as \"shared\" reveals confusion between the resource itself (her skill) and its output (salary). A wrong answer calling the garden \"natural\" only ignores the human labor invested, missing the interchangeability characteristic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the five-step management process to this situation: A family of four wants to reduce their monthly electricity bill by 20% over the next three months. Current bill: ₹4,500. They have: two working parents, two school-going children, 3 ACs, 1 refrigerator, 5 fans, 10 LED lights, and a washing machine. Show the specific actions at EACH step.",
+     "a": "Step 1 PLANNING: Set goal = ₹3,600/month (20% reduction). Identify high-consumption appliances: ACs (major), refrigerator, washing machine. List possible actions: set AC to 24°C, use timers, full loads in washing machine, defrost fridge regularly, switch off fans/lights when not in use. Assign responsibility: parents monitor AC/fridge, children monitor lights/fans. Step 2 ORGANIZING: Create a weekly tracking chart on fridge. Buy timer plugs for ACs (₹500 investment). Rearrange fridge for better airflow. Step 3 IMPLEMENTING: Start new habits Day 1. Parents set AC timers; children do \"light patrol\" before leaving rooms. Step 4 CONTROLLING: Compare weekly meter readings vs target. Week 2: bill projection ₹4,100 — gap ₹500. Adjust: reduce AC runtime by 1 hour, use fan+AC combo. Step 5 EVALUATING: Month 3 bill = ₹3,550 (goal met). Debrief: timer plugs paid off in month 1; children's involvement built habit. A wrong answer that skips CONTROLLING (no mid-course check) reveals the student thinks planning alone ensures results. A wrong answer that merges organizing/implementing reveals confusion between preparing resources and executing actions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"interchangeability\" and \"manageability\" as characteristics of resources. Give one example where a resource is high in interchangeability but low in manageability, and vice versa.",
+     "a": "Interchangeability means one resource can substitute for another to achieve the same goal (e.g., money can buy time by hiring help; time can save money by DIY repairs). Manageability means the resource can be controlled, directed, or regulated by the user (e.g., time is highly manageable — you decide how to spend each hour; money is manageable via budgeting). Example high interchangeability/low manageability: COMMUNITY PARK — can substitute for private garden (interchangeable for recreation) but family cannot control its maintenance, hours, or crowding (low manageability). Example low interchangeability/high manageability: MOTHER'S NURSING SKILL — cannot be easily substituted by another resource to generate her specific income (low interchangeability) but she fully controls when/how to use it, upgrade it, or leverage it (high manageability). A wrong answer giving \"money\" for both reveals failure to distinguish the characteristics — money is high in BOTH. A wrong answer saying \"time is not manageable\" reveals confusion between scarcity and controllability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In modern dual-income nuclear families, time has become a more critical resource than money for effective family resource management.\" Defend or critique with three specific arguments grounded in resource characteristics.",
+     "a": "CRITIQUE (balanced): The statement overgeneralizes. Argument 1 (Scarcity vs Criticality): Time is absolutely scarce (24 hrs fixed) while money is relatively scalable (overtime, investments), making time a harder constraint — but \"criticality\" depends on family goals. A family saving for a house down-payment may find money more critical. Argument 2 (Interchangeability asymmetry): Money can buy time (hired help, appliances), but time cannot directly create money without skills/opportunities — so money has higher interchangeability, giving it strategic leverage. Argument 3 (Manageability): Time is highly manageable (schedules, routines) but non-storable; money is storable (savings) but less manageable due to market risks. In dual-income families, the time-money trade-off is central: they often use money to reclaim time. A wrong answer simply agreeing \"yes, time is limited\" reveals lack of evaluative thinking — it states a fact but doesn't weigh against family context. A wrong answer ignoring interchangeability misses the core economic insight of resource substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Family Resource Map\" for a household of your choice (real or fictional) showing at least 10 resources classified across all four dimensions: human/non-human × individual/shared/natural/community. Present as a table. Then identify ONE resource that appears in multiple categories and explain the overlap.",
+     "a": "Example map for a 3-generation household (grandparents, parents, 2 kids):\n\n| Resource | Human/Non-human | Individual/Shared/Natural/Community |\n|---|---|---|\n| Grandmother's recipes | Human | Individual (her knowledge) |\n| Family car | Non-human | Shared |\n| Rooftop solar panels | Non-human | Shared (family asset) |\n| Father's coding skill | Human | Individual |\n| Mother's teaching salary | Non-human (money) | Shared (pooled income) |\n| Community library | Non-human | Community |\n| Backyard mango tree | Non-human | Natural |\n| Grandfather's pension | Non-human (money) | Individual (his entitlement) |\n| Elder child's bicycle | Non-human | Individual |\n| Younger child's time | Human | Individual |\n\nOVERLAP: \"Backyard mango tree\" is BOTH natural (grows naturally, provides fruit/shade) AND shared (family collectively maintains, harvests, enjoys). The tree as a biological entity is natural; as a family asset yielding mangoes for all, it becomes shared. A poor answer listing only distinct resources without overlap misses that real resources often span categories — e.g., a skill (human/individual) generates income (non-human/shared). A poor answer with no table or fewer than 10 resources shows incomplete mapping skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

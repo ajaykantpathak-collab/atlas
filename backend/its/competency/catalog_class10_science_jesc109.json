@@ -1,0 +1,166 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Light - Reflection and Refraction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.109.9.1",
+   "title": "Reflection of Light by Spherical Mirrors",
+   "section": "9.3",
+   "definition": "Reflection follows the rule that the angle of incidence equals the angle of reflection; spherical mirrors - concave converging and convex diverging - form images located by pole, centre of curvature, principal focus and focal length, with concave mirrors making real or virtual images and convex mirrors always making small virtual ones.",
+   "formula": "-",
+   "key_idea": "Equal angles, mirror geometry: focus and pole map every image's position and nature.",
+   "textbook_ref": "jesc109.txt sections on reflection and spherical mirrors",
+   "question_patterns": [
+    "state the laws of reflection of light",
+    "find the image formed by a concave mirror when the object is beyond C",
+    "define the principal focus of a concave mirror",
+    "why do dentists use concave mirrors - explain",
+    "draw the ray diagram for the object at the focus of a concave mirror",
+    "list the uses of convex mirrors with reasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the reflection rule",
+     "explain": "Incident and reflected angles stay equal about the normal."},
+    {"step": 2, "action": "trace two rays",
+     "explain": "Standard rays from the object locate the image point."},
+    {"step": 3, "action": "describe the image",
+     "explain": "State real or virtual, erect or inverted, magnified or diminished."}
+   ]
+  },
+  {
+   "id": "jesc.109.9.2",
+   "title": "Mirror Formula, Magnification and Refraction",
+   "section": "9.4",
+   "definition": "Object distance u, image distance v and focal length f connect through the mirror formula, and magnification m equals the image height over object height; light then bends on entering glass - refraction - governed by Snell's law, and lenses focus light with their own power in dioptres.",
+   "formula": "magnification = image_height / object_height",
+   "key_idea": "One formula relates u, v and f; magnification scales the image height.",
+   "textbook_ref": "jemh109 mirror formula, magnification and refraction sections",
+   "question_patterns": [
+    "find the image distance using the mirror formula for the given data",
+    "find the magnification produced by the given mirror",
+    "state Snell's law of refraction with a diagram",
+    "define the power of a lens and give its unit",
+    "an object is placed at the given distance - locate the image",
+    "why does a stick appear bent in water - explain refraction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide the image height by the object height",
+     "explain": "Magnification is the ratio of heights.",
+     "compute": "magnification = image_height / object_height"}
+   ]
+  },
+  {
+   "id": "jesc.109.9.3",
+   "title": "Power of a Lens and Image Formation by Lenses",
+   "section": "9.5",
+   "definition": "A convex lens converges and a concave lens diverges light; the lens formula connects object distance, image distance and focal length, and the power of a lens - the degree of convergence or divergence - equals the reciprocal of focal length in metres, measured in dioptres.",
+   "formula": "power = 1 / f",
+   "key_idea": "Short focal length, strong lens: power is 1 over f in dioptres.",
+   "textbook_ref": "jemh109 sections on lenses, lens formula and power",
+   "question_patterns": [
+    "find the power of a lens of focal length 25 cm",
+    "define the power of a lens - state its unit",
+    "find the focal length of a lens of power the given dioptres",
+    "which lens has greater power - the one of focal length 10 cm or 20 cm",
+    "draw the ray diagram of image formation by a convex lens",
+    "the power of two lenses in contact is given - how are powers combined"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert focal length to metres",
+     "explain": "The focal length must be in metres for dioptres.",
+     "compute": "f_m = f / 100"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "Power in dioptres is 1 over f in metres.",
+     "compute": "power = 1 / f_m"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc109.txt magnification example",
+   "concept": "jesc.109.9.2",
+   "question_type": "compute",
+   "question_pattern": "An object of height {object_height} cm forms an image of height {image_height} cm. Find the magnification.",
+   "extracted_variables": {
+    "object_height": "height of the object in cm",
+    "image_height": "height of the image in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide image height by object height",
+     "explain": "Magnification is the height ratio.",
+     "compute": "magnification = image_height / object_height"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc109.txt magnification practice",
+   "concept": "jesc.109.9.2",
+   "question_type": "compute",
+   "question_pattern": "A mirror forms an image {image_height} cm tall of an object {object_height} cm tall. Calculate the magnification.",
+   "extracted_variables": {
+    "object_height": "object height in cm",
+    "image_height": "image height in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the height ratio",
+     "explain": "Divide the image size by the object size.",
+     "compute": "magnification = image_height / object_height"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jesc109.txt power of lens example",
+   "concept": "jesc.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "Find the power of a convex lens of focal length {f} cm.",
+   "extracted_variables": {
+    "f": "focal length in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "convert to metres",
+     "explain": "Divide the focal length in cm by 100.",
+     "compute": "f_m = f / 100"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "Power equals 1 over f in metres, in dioptres.",
+     "compute": "power = 1 / f_m"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jesc109.txt power practice",
+   "concept": "jesc.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "A lens has focal length {f} cm. Calculate its power in dioptres.",
+   "extracted_variables": {
+    "f": "focal length in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "convert to metres",
+     "explain": "Metres are needed for dioptres.",
+     "compute": "f_m = f / 100"},
+    {"step": 2, "action": "invert the focal length",
+     "explain": "Power is the reciprocal of f in metres.",
+     "compute": "power = 1 / f_m"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "jesc109.txt exercises",
+   "questions": [
+     "Find the image position and nature for the given mirror data.",
+     "Solve the numericals using the mirror and lens formulae.",
+     "Draw ray diagrams for the given object positions."
+   ]
+  }
+ ]
+}

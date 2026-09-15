@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_9",
+   "title": "c8_math_ch1_9",
+   "questions": [
+    {
+     "q": "What are the two consecutive whole numbers between which √85 lies?",
+     "a": "√85 lies between 9 and 10 because 9² = 81 and 10² = 100, and 81 < 85 < 100. A wrong answer like \"8 and 9\" reveals the student cannot recall perfect squares up to 10² or misapplies the inequality direction.",
+     "self_check": true
+    },
+    {
+     "q": "Without calculating, explain why √30 is closer to 5 than to 6.",
+     "a": "30 is 5 away from 25 (5²) but 6 away from 36 (6²). Since the distance to the lower perfect square is smaller, √30 is closer to 5. A wrong answer focusing only on \"30 is between 25 and 36\" without comparing distances shows the student lacks the conceptual link between numerical distance and root proximity.",
+     "self_check": true
+    },
+    {
+     "q": "Estimate √120 to one decimal place. Show your steps.",
+     "a": "Step 1: 10² = 100, 11² = 121 → √120 is between 10 and 11.\nStep 2: 120 is 20 away from 100, 1 away from 121 → much closer to 11.\nStep 3: Linear interpolation: 10 + (20/21) ≈ 10.95 → round to 11.0? Wait, 120 is very close to 121, so estimate ≈ 10.95 ≈ 11.0. Actually, since 120 is just 1 less than 121, a better estimate is 10.95, which rounds to 11.0. But to one decimal, 11.0. However, if we compute: difference = 21, 120-100=20, fraction = 20/21 ≈ 0.95, so 10.95 ≈ 11.0. A wrong answer like 10.5 reveals the student used midpoint instead of proportional distance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accuracy of estimating √50 by (a) midpoint method (7.5) and (b) linear interpolation (7.1). Which is better and why?",
+     "a": "Linear interpolation (7.1) is better because 50 is much closer to 49 than to 64. The midpoint assumes equal distance, but the gap from 49 to 50 is 1, while 50 to 64 is 14. Squaring 7.1 gives 50.41 (error 0.41), while 7.5² = 56.25 (error 6.25). A wrong choice of midpoint shows the student does not analyse the non-linear growth of squares.",
+     "self_check": true
+    },
+    {
+     "q": "A student estimates √200 ≈ 14.2 because 14² = 196 and 15² = 225, and 200 is 4 away from 196. They compute 14 + 4/29 ≈ 14.14 and round to 14.1. Evaluate their method and answer.",
+     "a": "The method is correct (linear interpolation), but the rounding is wrong: 14.14 rounds to 14.1 (one decimal), but the student wrote 14.2. Actually 14.14 to one decimal is 14.1. The error is in rounding. A wrong evaluation that says \"method is wrong\" reveals the student cannot distinguish between method error and arithmetic slip.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where estimating a square root is necessary, and solve it.",
+     "a": "Example: \"A square garden has an area of 200 m². Estimate the side length to buy fencing wire sold by the metre.\" Solution: √200 ≈ 14.1 m, so buy 15 m (rounding up). A poor answer uses a perfect square area (like 196) or ignores the need to round up for purchase, showing lack of real-world application sense.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

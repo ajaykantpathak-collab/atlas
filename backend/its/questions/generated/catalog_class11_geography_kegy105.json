@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy105",
+  "concepts": [
+    {
+      "id": "kegy.105.1.1",
+      "questions": [
+        {"q": "Which forests grow where rainfall exceeds 200 cm with no distinct dry season? (two words)", "a": "tropical evergreen"},
+        {"q": "What other name do the tropical deciduous forests bear, from their seasonal leaf-fall? (one word)", "a": "monsoon forests"},
+        {"q": "Which forests of thorny scrub suit the arid west? (one word)", "a": "thorn"},
+        {"q": "Which forests change with altitude on mountain slopes? (one word)", "a": "montane"},
+        {"q": "Which deltaic forests of tangled roots grow in tidal swamps? (one word)", "a": "mangroves"},
+        {"q": "Tropical deciduous forests divide into moist and which other type? (one word)", "a": "dry"},
+        {"q": "How many major forest types are listed for India? (number)", "a": "5"}
+      ]
+    },
+    {
+      "id": "kegy.105.2.1",
+      "questions": [
+        {"q": "Which management scheme pairs forest departments with local communities? (three words)", "a": "joint forest management"},
+        {"q": "Which forestry programme plants trees on farms and along roads? (two words)", "a": "social forestry"},
+        {"q": "Which protected area category, alongside national parks, shelters biodiversity? (one word)", "a": "sanctuaries"},
+        {"q": "Which kind of laws protect wildlife from depletion? (two words)", "a": "wildlife protection"},
+        {"q": "What does social forestry plant along railway lines and roads? (one word)", "a": "avenue"},
+        {"q": "Which two partners join hands under joint forest management: the department and whom? (two words)", "a": "local communities"},
+        {"q": "Is depletion of forest cover countered by protection or by open access? (one word)", "a": "protection"}
+      ]
+    },
+    {
+      "id": "kegy.105.3.1",
+      "questions": [
+        {"q": "Forests cover about what fraction of India's land area? (one word)", "a": "fifth"},
+        {"q": "The National Forest Policy aims at what fraction of land under forest? (one word)", "a": "one-third"},
+        {"q": "Which forest product feeds grazing animals in the countryside? (one word)", "a": "fodder"},
+        {"q": "Which forest product supports rural medicine? (two words)", "a": "medicinal plants"},
+        {"q": "Is India's forest cover above or below the one-third goal of the policy? (one word)", "a": "below"},
+        {"q": "Which ecological service do forests provide to wild species? (one word)", "a": "habitat"},
+        {"q": "What construction material from forests supports rural housing besides fuel? (one word)", "a": "timber"}
+      ]
+    }
+  ]
+}

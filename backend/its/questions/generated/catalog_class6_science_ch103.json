@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class6_science_ch103.json",
+ "concepts": [
+  {
+   "id": "fesc.3.1.1",
+   "title": "Fabric Composition",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is fabric made of?",
+     "a": "Fabrics are made of yarns, and yarns are made of thin strands called fibres.",
+     "self_check": true
+    },
+    {
+     "q": "How can you show that fabric is made of yarns?",
+     "a": "Pull a thread from a piece of cloth and untwist it - it separates into fibres.",
+     "self_check": true
+    },
+    {
+     "q": "Name two natural and two synthetic fabrics.",
+     "a": "Natural: cotton, silk, wool. Synthetic: nylon, polyester.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.2.1",
+   "title": "Fibre Classification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two natural and two synthetic fibres.",
+     "a": "Natural: cotton and wool (also silk, jute). Synthetic: nylon and polyester.",
+     "self_check": true
+    },
+    {
+     "q": "From which plant does cotton fibre come?",
+     "a": "From the cotton boll - the fruity ball of the cotton plant.",
+     "self_check": true
+    },
+    {
+     "q": "From which animal does wool come?",
+     "a": "Sheep (also goat, yak) - wool is their hair fleece.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.4.1",
+   "title": "Spinning Efficiency",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "yarn_length",
+     "expr": "fibres_twisted * twist_factor",
+     "explain": "each fibre contributes its own length to the twisted yarn"
+    },
+    {
+     "step": 2,
+     "name": "yarn_mm",
+     "expr": "yarn_length * 10",
+     "explain": "yarn length in millimetres"
+    },
+    {
+     "step": 3,
+     "name": "yarn_in_metres",
+     "expr": "yarn_length / 100",
+     "explain": "convert centimetres to metres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "If 20 fibres, each contributing 50 cm, are twisted into one yarn, find the yarn length in cm and m.",
+     "vals": {
+      "fibres_twisted": 20,
+      "twist_factor": 50
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "10 m",
+     "self_check": false
+    },
+    {
+     "q": "A spinner twists 35 cotton fibres of 40 cm each. How long is the yarn in metres?",
+     "vals": {
+      "fibres_twisted": 35,
+      "twist_factor": 40
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "14 m",
+     "self_check": false
+    },
+    {
+     "q": "25 fibres of 60 cm are spun together. Calculate the yarn length.",
+     "vals": {
+      "fibres_twisted": 25,
+      "twist_factor": 60
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "15 m",
+     "self_check": false
+    },
+    {
+     "q": "If 18 fibres of 25 cm each make a yarn, what is its length in m?",
+     "vals": {
+      "fibres_twisted": 18,
+      "twist_factor": 25
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "4.5 m",
+     "self_check": false
+    },
+    {
+     "q": "A silk yarn uses 12 fibres of 75 cm each. Find its total length in metres.",
+     "vals": {
+      "fibres_twisted": 12,
+      "twist_factor": 75
+     },
+     "unit": "m",
+     "steps": null,
+     "a": "9 m",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.3.5.1",
+   "title": "Weaving Area Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "fabric_area",
+     "expr": "length * width",
+     "explain": "area of cloth = length times width"
+    },
+    {
+     "step": 2,
+     "name": "edge_length",
+     "expr": "2 * (length + width)",
+     "explain": "edge length around the cloth"
+    },
+    {
+     "step": 3,
+     "name": "area_in_cm2",
+     "expr": "fabric_area * 10000",
+     "explain": "convert square metres to square centimetres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A tailor buys cloth 3 m long and 1.5 m wide. Find the area of the fabric in sq m and sq cm.",
+     "vals": {
+      "length": 3,
+      "width": 1.5
+     },
+     "unit": "sq m",
+     "steps": null,
+     "a": "45000 sq m",
+     "self_check": false
+    },
+    {
+     "q": "A weaver makes a mat 2 m long and 0.8 m wide. What is its area?",
+     "vals": {
+      "length": 2,
+      "width": 0.8
+     },
+     "unit": "sq m",
+     "steps": null,
+     "a": "16000 sq m",
+     "self_check": false
+    },
+    {
+     "q": "A bedsheet measures 2.5 m by 2 m. Calculate the fabric area.",
+     "vals": {
+      "length": 2.5,
+      "width": 2
+     },
+     "unit": "sq m",
+     "steps": null,
+     "a": "50000 sq m",
+     "self_check": false
+    },
+    {
+     "q": "A flag of cloth is 1.2 m long and 0.9 m wide. Find its area.",
+     "vals": {
+      "length": 1.2,
+      "width": 0.9
+     },
+     "unit": "sq m",
+     "steps": null,
+     "a": "10800 sq m",
+     "self_check": false
+    },
+    {
+     "q": "A curtain piece is 4 m long and 1.25 m wide. Compute the cloth area in sq m.",
+     "vals": {
+      "length": 4,
+      "width": 1.25
+     },
+     "unit": "sq m",
+     "steps": null,
+     "a": "50000 sq m",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

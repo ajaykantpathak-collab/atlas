@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_003",
+   "title": "c11_hs_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define Time and Energy as human resources, stating two key characteristics that distinguish each from non-human resources like money or materials.",
+     "a": "Time is a human resource characterised by universal equality (24 hours/day for everyone) and irreversibility (cannot be stored, borrowed, or recovered once spent). Energy is a human resource characterised by individual variability (differs by age, health, fitness, motivation) and renewability (can be restored through rest, nutrition, sleep). A wrong answer revealing \"Time can be saved for later\" or \"Energy is same for everyone\" indicates confusion with non-human resources (money can be saved; materials are standardised) and failure to grasp the biological basis of human resources.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"I have 6 hours of free time after school, so I should be able to finish my project, exercise, and relax — but I always end up scrolling social media and feel guilty.\" Explain why \"having 6 hours\" is misleading using the three dimensions of time, and identify which dimension is being neglected.",
+     "a": "The three dimensions are: Work time (goal-directed productive activity), Non-work time (maintenance: meals, hygiene, commute, chores), and Rest-Leisure time (recovery: sleep, relaxation, hobbies). The student counts only \"free\" hours but ignores that non-work maintenance (snacks, shower, family obligations) consumes 1-2 hours, and rest-leisure (mental decompression, sleep prep) needs 1-2 hours, leaving only 2-3 hours for actual project work. Neglecting Rest-Leisure dimension causes decision fatigue, making social media scrolling a pseudo-rest that doesn't restore energy. A wrong answer focusing only on \"distraction\" or \"procrastination\" misses the structural misallocation across dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Riya (16) and her father (45) both have 2 hours to prepare a complex presentation. Riya schedules it 10 PM-midnight; her father schedules it 6-8 AM. Using the concept of peak energy periods and age-related energy patterns, evaluate which schedule is more efficient for each person and justify.",
+     "a": "Adolescents (16) have delayed circadian phase — peak alertness typically 10 AM-1 PM and 7-11 PM; melatonin onset ~11 PM. Adults (45) have advanced phase — peak alertness 8-11 AM; melatonin onset ~9 PM. Riya's 10 PM-midnight aligns with her second peak window (high cognitive capacity). Father's 6-8 AM aligns with his morning peak (cortisol surge). Both are efficient IF they protect sleep: Riya needs 8-9 hours (sleep by 11 PM if waking 7 AM — conflict!), so her schedule risks sleep debt. Father waking at 5:30 AM for 6 AM start needs sleep by 9:30 PM — feasible. A wrong answer saying \"both same\" ignores chronobiology; saying \"Riya should do morning\" ignores adolescent biology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interchangeability of Time vs. Energy with Money vs. Material goods. Give one example where Time can substitute for Energy, and one where it CANNOT. Explain the principle governing substitutability.",
+     "a": "Interchangeability principle: Resources can substitute when they perform the same function in a specific context. Time CAN substitute for Energy: Hand-washing clothes (high time, low energy) vs. machine-washing (low time, high energy/electricity). Time CANNOT substitute for Energy: Surgical procedure — a surgeon cannot \"take more time\" to compensate for fatigue-induced tremor; energy (alertness, steady hands) is non-substitutable for safety-critical tasks. Money-Material: Money can buy materials (high interchangeability), but cannot buy back lost time or restore depleted cellular ATP. Wrong answer claiming \"all resources fully interchangeable\" violates the manageability characteristic — some resources are contextually non-substitutable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this time plan for a Class 11 student: \"Study 6 AM-8 AM (Math), School 8 AM-2 PM, Tuition 3 PM-6 PM, Dinner 6-7 PM, Study 7 PM-11 PM (Physics/Chem), Sleep 11 PM-6 AM.\" Identify three violations of energy management principles and the likely physiological consequence after two weeks.",
+     "a": "Violations: (1) No rest-leisure dimension — 17 waking hours all work/non-work; (2) No energy trough accommodation — 7-11 PM study ignores post-lunch dip (1-3 PM) and evening fatigue; (3) Sleep window 7 hours — adolescents need 8-10 hours for prefrontal cortex development. Consequence: Cumulative sleep debt → impaired working memory, emotional dysregulation, weakened immunity, microsleeps during tuition. The plan treats time as a container to fill, ignoring energy as a depletable resource needing cyclic restoration. Wrong answer citing only \"too much study\" misses the structural absence of recovery cycles and chronobiological mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Design a personal \"Energy Audit Template\" for a Class 11 student to use for 5 days. Specify: (a) time granularity, (b) energy metrics to record, (c) activity categories, (d) analysis method to identify peak/trough patterns, and (e) one actionable adjustment rule derived from the data.",
+     "a": "(a) 30-minute blocks for 16 waking hours (e.g., 6 AM-10 PM). (b) Energy level (1-5 scale: 1=exhausted, 5=peak focus), Cognitive demand of task (Low/Medium/High), Physical posture (Sitting/Standing/Moving). (c) Categories: Academic (core study, homework), Maintenance (meals, hygiene, commute), Recovery (sleep, nap, meditation, hobby), Social (family, friends, social media). (d) Plot Energy vs. Time of Day scatter; compute 3-day moving average; flag blocks where Energy ≤2 during High-cognitive tasks (mismatch) or Energy ≥4 during Low-cognitive tasks (wasted peak). (e) Adjustment rule: \"Shift highest-cognitive subject to the 90-minute window with highest average Energy score; move Low-cognitive tasks (review flashcards, organise notes) to lowest Energy windows.\" Poor answer: generic \"track activities\" without metrics, categories, or decision rule — fails to convert data into management action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

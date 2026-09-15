@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_006",
+   "title": "c12_phy_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the SI unit of energy stored in an inductor, and which formula gives this energy in terms of self-inductance \\( L \\) and current \\( I \\)?",
+     "a": "The SI unit is joule (J). The formula is \\( U = \\frac{1}{2} L I^2 \\). A wrong unit (e.g., watt or henry) reveals confusion between energy, power, and inductance. Writing \\( U = L I^2 \\) (missing the factor 1/2) shows the student forgot the integration step or confused it with \\( U = \\frac{1}{2} C V^2 \\) for capacitors.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the energy stored in an inductor depend on the square of the current, \\( I^2 \\), rather than linearly on \\( I \\)?",
+     "a": "The back emf \\( \\varepsilon = -L \\frac{dI}{dt} \\) is proportional to the rate of change of current. The instantaneous power is \\( P = I \\varepsilon \\propto I \\frac{dI}{dt} \\). Integrating \\( \\int I \\, dI \\) yields \\( \\frac{1}{2} I^2 \\). If a student says \"energy is \\( L I \\)\" they are treating emf as constant (like a battery) and ignoring that the opposing emf grows with current, so more work is needed per unit current increment at higher currents.",
+     "self_check": true
+    },
+    {
+     "q": "A solenoid of self-inductance \\( 40 \\, \\text{mH} \\) carries a steady current of \\( 2.5 \\, \\text{A} \\). Calculate the magnetic energy stored. If the current is doubled, by what factor does the stored energy change?",
+     "a": "Given: \\( L = 40 \\times 10^{-3} \\, \\text{H} \\), \\( I = 2.5 \\, \\text{A} \\).  \n\\( U = \\frac{1}{2} \\times 40 \\times 10^{-3} \\times (2.5)^2 = 0.5 \\times 0.04 \\times 6.25 = 0.125 \\, \\text{J} \\).  \nIf \\( I \\to 2I \\), \\( U \\propto I^2 \\) so energy becomes \\( 4 \\times 0.125 = 0.5 \\, \\text{J} \\). Factor = 4.  \nA wrong factor of 2 indicates the student thinks \\( U \\propto I \\). A unit error (e.g., answer in mJ without conversion) shows mishandling of milli-henry.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical inductors each of inductance \\( L \\) are connected (a) in series, (b) in parallel. A current \\( I \\) flows through the combination. Compare the total magnetic energy stored in the two cases.",
+     "a": "(a) Series: \\( L_{\\text{eq}} = 2L \\), current through each is \\( I \\). Total energy \\( U_s = \\frac{1}{2} (2L) I^2 = L I^2 \\).  \n(b) Parallel: \\( L_{\\text{eq}} = L/2 \\), total current \\( I \\) splits equally, each carries \\( I/2 \\). Energy per inductor \\( = \\frac{1}{2} L (I/2)^2 = \\frac{1}{8} L I^2 \\). Total \\( U_p = 2 \\times \\frac{1}{8} L I^2 = \\frac{1}{4} L I^2 \\).  \nRatio \\( U_s : U_p = 4 : 1 \\).  \nIf a student gives equal energy, they incorrectly used the same current \\( I \\) for each inductor in parallel.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the energy stored in an inductor as \\( U = \\frac{1}{2} \\frac{B^2}{\\mu_0} \\times \\text{volume} \\) for a solenoid. Is this correct? If yes, derive it from \\( U = \\frac{1}{2} L I^2 \\) using \\( B = \\mu_0 n I \\) and \\( L = \\mu_0 n^2 A l \\).",
+     "a": "Yes, it is correct.  \n\\( U = \\frac{1}{2} L I^2 = \\frac{1}{2} (\\mu_0 n^2 A l) I^2 \\).  \nBut \\( B = \\mu_0 n I \\Rightarrow I = \\frac{B}{\\mu_0 n} \\).  \nSubstitute: \\( U = \\frac{1}{2} \\mu_0 n^2 A l \\left( \\frac{B}{\\mu_0 n} \\right)^2 = \\frac{1}{2} \\frac{B^2}{\\mu_0} A l \\).  \nVolume \\( V = A l \\), so energy density \\( u = \\frac{U}{V} = \\frac{B^2}{2\\mu_0} \\).  \nA student who cannot derive this likely memorised the formula without understanding the link between circuit parameters (\\( L, I \\)) and field parameters (\\( B, \\mu_0 \\)).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, an inductor (e.g., a coil of wire), a resistor, and a switch to demonstrate that energy is stored in the inductor and returned to the circuit when the switch is opened. Explain what you would observe and why.",
+     "a": "Connect battery, switch, resistor, and inductor in series. Close switch: current builds up slowly, energy stored in inductor. Open switch suddenly: the inductor tries to maintain current, inducing a large back emf that can cause a spark across the switch contacts (or light a neon lamp connected across the inductor). The spark shows the stored magnetic energy is converted to heat/light. A good answer mentions the spark and explains it via \\( \\varepsilon = -L \\frac{dI}{dt} \\) with large \\( \\frac{dI}{dt} \\) at switch opening. A poor answer omits the spark or says the current stops instantly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

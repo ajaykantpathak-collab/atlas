@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_9",
+   "title": "c9_physics_ch5_9",
+   "questions": [
+    {
+     "q": "Define ultrasound and state its frequency range.",
+     "a": "Ultrasound is sound with frequency above 20,000 Hz (20 kHz), above the human audible upper limit. Medical ultrasound typically uses 2-15 MHz (million Hz). A wrong answer (e.g., \"ultrasound is loud sound\") confuses frequency with amplitude — ultrasound is high frequency, not necessarily loud.",
+     "self_check": true
+    },
+    {
+     "q": "Describe how medical ultrasound imaging works in three steps.",
+     "a": "Step 1: A probe (transducer) emits ultrasound into the body. Step 2: The sound reflects off boundaries between tissues (different densities) and returns to the probe. Step 3: A computer processes the time delay and strength of the echoes to create an image of internal structures. A wrong answer (e.g., \"ultrasound uses radiation\") confuses ultrasound (mechanical sound wave) with X-rays (electromagnetic radiation) — ultrasound uses sound, not radiation.",
+     "self_check": true
+    },
+    {
+     "q": "Give one advantage of ultrasound over X-rays for medical imaging.",
+     "a": "Ultrasound does not use ionizing radiation, so it is safe for pregnant women, developing fetuses, and repeated use. X-rays use ionizing radiation, which can damage cells and DNA, especially in developing fetuses. Ultrasound is also better for imaging soft tissues (organs, blood flow), while X-rays are better for bones. A wrong answer (e.g., \"ultrasound is cheaper\") may be true but misses the primary advantage — safety (no radiation).",
+     "self_check": true
+    },
+    {
+     "q": "How do bats use ultrasound for navigation? Describe echolocation.",
+     "a": "Bats emit ultrasound (up to 100,000 Hz) from their mouths or noses. The sound reflects off objects (insects, trees, walls) and returns to the bat's ears. The bat's brain processes the time delay (how long the echo takes to return) to determine distance, and the direction of the echo to determine location. This allows bats to navigate and hunt in total darkness. A wrong answer (e.g., \"bats see in the dark\") misses the mechanism — bats do not see; they use sound (echolocation).",
+     "self_check": true
+    },
+    {
+     "q": "How is ultrasound used for industrial cleaning? Explain the mechanism.",
+     "a": "Objects (jewelry, machine parts) are placed in a cleaning solution, and ultrasound is passed through the solution. The high-frequency sound creates tiny bubbles (cavitation) that form and collapse rapidly. The collapsing bubbles scrub the surface, removing dirt from crevices that brushes cannot reach. This is effective for delicate objects (watches, lenses) that would be damaged by mechanical cleaning. A wrong answer (e.g., \"ultrasound dissolves dirt\") misses the mechanism — it is cavitation (bubble collapse) that cleans, not dissolution.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Ultrasound is dangerous because it is high-frequency.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Ultrasound is safe for medical use because it is a mechanical wave (sound), not ionizing radiation. High frequency alone does not make it dangerous — the energy depends on amplitude (intensity), not just frequency. Medical ultrasound uses controlled, low-intensity ultrasound that is safe for imaging, including pregnant women. Very high-intensity ultrasound can be used therapeutically (to break kidney stones) but is carefully controlled. The danger of sound depends on intensity (energy), not frequency alone. A wrong evaluation (agreeing with the student) confuses frequency with energy — high frequency does not mean high energy or danger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

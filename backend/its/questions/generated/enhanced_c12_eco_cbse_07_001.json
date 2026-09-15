@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_001",
+   "title": "c12_eco_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define macroeconomics and list three key aggregate variables it studies. How does it differ from microeconomics in its unit of analysis?",
+     "a": "Macroeconomics studies the economy as a whole using aggregates like real GDP, unemployment rate, and inflation rate. Microeconomics analyses individual households, firms, or markets. A wrong answer (e.g., \"macroeconomics studies large firms\") reveals confusion between \"aggregate\" and \"large-scale\" — macroeconomics is about *system-wide* outcomes, not firm size.",
+     "self_check": true
+    },
+    {
+     "q": "The Great Depression (1929–33) saw US unemployment peak at 25% while wages and prices fell. Classical economists argued markets would self-correct via wage cuts. Explain why this reasoning failed at the aggregate level, referencing the fallacy of composition.",
+     "a": "Individually, a firm cutting wages reduces costs and may hire more. But if *all* firms cut wages simultaneously, aggregate income falls, reducing aggregate demand for their products — so they hire *less*, not more. This is the fallacy of composition: what is true for one agent is false for the whole. A student who says \"lower wages always increase employment\" misses the aggregate demand feedback loop Keynes identified.",
+     "self_check": true
+    },
+    {
+     "q": "Given India's 2019–21 data: Real GDP (₹ lakh crore): 2019–20: 145.7, 2020–21: 135.1; Unemployment rate (%): 2019–20: 4.8, 2020–21: 9.1; CPI inflation (%): 2019–20: 4.8, 2020–21: 6.2. (a) Calculate the real GDP growth rate for 2020–21. (b) Classify each variable as stock or flow. (c) Which variable moved counter-cyclically?",
+     "a": "(a) Growth = (135.1 − 145.7)/145.7 × 100 = −7.28%. (b) Real GDP is a flow (measured over a year); unemployment rate and inflation rate are stocks (measured at a point in time). (c) Inflation rose (6.2% > 4.8%) while output fell — counter-cyclical (stagflationary). A student treating GDP as a stock or missing the counter-cyclical inflation reveals weak variable classification and business-cycle understanding.",
+     "self_check": true
+    },
+    {
+     "q": "During the 2020 lockdown, Maruti Suzuki's sales dropped 50%. A microeconomist analyses this using demand-supply in the car market. A macroeconomist notes that aggregate consumption (C) fell, investment (I) collapsed, and net exports (NX) turned negative. Explain how the macroeconomist's explanation accounts for *spillover effects* the microeconomist misses.",
+     "a": "The microeconomist sees lower car demand → lower car prices → equilibrium restored in car market. The macroeconomist sees: lower C → lower aggregate demand → lower GDP → lower income → further lower C (multiplier); lower I due to uncertainty → lower future capacity; lower NX due to global demand collapse. These cross-market feedbacks (income → demand → output → income) are invisible in a single-market model. A student who only describes the car market misses the *general equilibrium* nature of macroeconomics.",
+     "self_check": true
+    },
+    {
+     "q": "\"Paradox of Thrift: If every household tries to save more by cutting consumption, national saving will not rise; it may fall.\" Evaluate this statement using the income-expenditure identity Y = C + I + G + NX and the saving-investment identity S = I + (G − T) + (X − M). Assume a closed economy with no government.",
+     "a": "In a closed economy with no government: Y = C + I, and S ≡ Y − C ≡ I. If households *plan* to save more (lower C), aggregate demand falls → unplanned inventory accumulation → firms cut output → Y falls. Since S = I and I is unchanged (assumed exogenous here), actual S cannot rise; it falls if Y falls enough. The paradox: *intended* saving ↑ but *actual* saving ↔ or ↓. A student claiming \"saving rises because Y − C rises\" ignores the endogenous drop in Y — confusing ex-ante and ex-post saving.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a short narrative (4–5 sentences) showing how a sudden drop in export demand for Indian textiles (an external shock) can trigger a recession through circular flow linkages. Use the terms: leakages, injections, multiplier, aggregate demand, involuntary unemployment.",
+     "a": "A fall in textile exports reduces injections (X↓) into the circular flow. Lower export revenue → lower income for textile workers → lower consumption (C↓) → lower aggregate demand → firms across sectors cut production → income falls further (multiplier effect). As leakages (S, T, M) exceed injections (I, G, X), the economy contracts. Workers laid off in textiles and downstream sectors face involuntary unemployment — willing to work at prevailing wages but no aggregate demand for their output. A poor narrative treats sectors in isolation or omits the multiplier feedback loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_005",
+   "title": "c12_acc_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the correct starting figure for calculating cash flows from operating activities under the indirect method as per AS-3?",
+     "a": "The correct starting figure is **Net Profit before Tax and Extraordinary Items** (not net profit after tax). A wrong answer (e.g., \"Net Profit after Tax\") reveals the student confuses the profit figure in the Statement of Profit and Loss with the required starting point, ignoring that tax paid is deducted later as a separate cash outflow and extraordinary items are shown separately.",
+     "self_check": true
+    },
+    {
+     "q": "A company reports a profit on sale of machinery of ₹2,00,000 in its Statement of Profit and Loss. While preparing the cash flow statement using the indirect method, how should this amount be treated and why?",
+     "a": "The profit on sale of machinery (₹2,00,000) must be **deducted** from net profit before tax. It is a non-operating investing income already included in profit but the actual cash inflow (full sale proceeds) belongs to investing activities. A wrong answer (e.g., \"add it\" or \"ignore it\") shows the student fails to distinguish between the income statement's accrual recognition and the cash flow statement's classification by activity.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Net profit before tax = ₹10,00,000; Depreciation = ₹2,00,000; Goodwill written off = ₹50,000; Increase in trade receivables = ₹1,50,000; Decrease in trade payables = ₹80,000; Increase in inventories = ₹70,000; Income tax paid = ₹3,00,000. Calculate net cash from operating activities.",
+     "a": "**Steps:**  \n1. Start: ₹10,00,000  \n2. Add non-cash: +₹2,00,000 (depreciation) +₹50,000 (goodwill) = ₹12,50,000  \n3. Adjust working capital: -₹1,50,000 (↑ receivables) -₹80,000 (↓ payables) -₹70,000 (↑ inventories) = ₹9,50,000  \n4. Less tax paid: -₹3,00,000 = **₹6,50,000 net cash from operations**.  \nA wrong answer typically misses the sign convention for working capital changes (e.g., adds increase in receivables) or forgets to deduct tax paid at the end.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the indirect method and direct method for operating activities. Why do most companies prefer the indirect method despite AS-3 encouraging the direct method?",
+     "a": "The indirect method starts from net profit (readily available from the income statement) and adjusts for accruals; the direct method requires tracking every cash receipt/payment (cash from customers, cash to suppliers) which needs detailed ledger analysis not always maintained. Companies prefer indirect because it's less costly to prepare and links profit to cash flow. A weak answer merely states \"indirect is easier\" without explaining the data availability constraint or the reconciliation benefit.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Proposed dividend of the previous year is a financing outflow, so it should be deducted from operating profit in the indirect method.\" Evaluate this statement.",
+     "a": "**Incorrect.** Previous year's proposed dividend, once declared, becomes a current liability (dividend payable) and its payment is a financing outflow. In the indirect method, we **add back** the proposed dividend (if it was debited to surplus) to arrive at net profit before tax, then show the actual cash paid as financing outflow. The student confuses the adjustment to profit (adding back non-cash/non-operating debits) with the final classification of the cash payment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case: A company has net profit before tax ₹20 lakh. It has the following: (a) depreciation ₹4 lakh, (b) loss on sale of furniture ₹1 lakh, (c) increase in prepaid expenses ₹50,000, (d) decrease in outstanding salaries ₹30,000, (e) interest received ₹2 lakh (investing income). Write the indirect method operating activities section showing all adjustments.",
+     "a": "**Expected answer structure:**  \nNet profit before tax: 20,00,000  \n+ Depreciation: 4,00,000  \n+ Loss on sale of furniture: 1,00,000  \n- Interest received: (2,00,000)  \nOperating profit before WC changes: 23,00,000  \n- Increase in prepaid expenses: (50,000)  \n- Decrease in outstanding salaries: (30,000)  \nCash generated from operations: 22,20,000  \n- Tax paid: (say X)  \nNet cash from operations: (22,20,000 - X)  \nA poor answer misses the treatment of loss on sale (add back) or interest received (deduct), or misapplies working capital signs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

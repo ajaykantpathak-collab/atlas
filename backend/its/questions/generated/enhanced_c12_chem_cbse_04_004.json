@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_004",
+   "title": "c12_chem_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the general trend in first ionisation enthalpy across the first transition series (Sc to Zn) and give the approximate percentage increase from Sc to Zn. Why is this increase much smaller than that observed across a period of main-group elements (e.g., Na to Ar)?",
+     "a": "The first ionisation enthalpy increases gradually from Sc (631 kJ mol⁻¹) to Zn (906 kJ mol⁻¹), a ~44% rise. In main-group periods (e.g., Na to Ar), the increase exceeds 300%. The smaller rise in transition metals occurs because added electrons enter the inner (n−1)d subshell, which shields the outer ns electrons from the increasing nuclear charge more effectively than outer-shell electrons shield each other. A wrong answer (e.g., \"ionisation enthalpy decreases\" or \"increase is similar to main group\") reveals confusion between d-block and s/p-block shielding mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the second ionisation enthalpy of chromium (1592 kJ mol⁻¹) is unusually high compared to its neighbours vanadium (1414 kJ mol⁻¹) and manganese (1509 kJ mol⁻¹). What stable electronic configuration of Cr⁺ is responsible?",
+     "a": "Cr has ground-state configuration 3d⁵4s¹. Removing the first electron (from 4s) gives Cr⁺ with 3d⁵ — a stable half-filled d subshell with maximum exchange energy. The second ionisation requires breaking this stable d⁵ configuration, so ΔH₂ is abnormally high. A wrong answer attributing the spike to \"increasing nuclear charge only\" misses the key role of exchange energy stabilisation in half-filled d orbitals.",
+     "self_check": true
+    },
+    {
+     "q": "Manganese (Z = 25) exhibits oxidation states from +2 to +7. Using its ground-state configuration (3d⁵4s²), write the electronic configurations of Mn²⁺, Mn³⁺, Mn⁴⁺, Mn⁵⁺, Mn⁶⁺, and Mn⁷⁺. Which oxidation state is most stable in aqueous solution and why?",
+     "a": "Mn: 3d⁵4s² → Mn²⁺: 3d⁵ (loses 4s²), Mn³⁺: 3d⁴, Mn⁴⁺: 3d³, Mn⁵⁺: 3d², Mn⁶⁺: 3d¹, Mn⁷⁺: 3d⁰. Mn²⁺ (3d⁵) is most stable in aqueous solution because the half-filled d⁵ configuration has maximum exchange energy and zero crystal field stabilisation energy loss in high-spin octahedral fields. A wrong answer listing configurations without identifying the d⁵ stability, or claiming Mn⁷⁺ is most stable, shows failure to apply Hund’s rule and exchange-energy arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the variability of oxidation states in transition metals versus non-transition (p-block) elements. Why do transition metal oxidation states differ by unity (e.g., Fe²⁺, Fe³⁺) while p-block elements often differ by two (e.g., Sn²⁺, Sn⁴⁺; Pb²⁺, Pb⁴⁺)?",
+     "a": "Transition metals have incompletely filled (n−1)d orbitals close in energy to ns orbitals; both subshells participate in bonding, allowing loss of 1, 2, 3… electrons sequentially (difference of 1). In p-block elements, the ns² electrons are reluctant to ionise due to the inert-pair effect (especially heavier elements), so oxidation states typically differ by 2 (ns² lost together). A wrong answer citing \"d orbitals are involved\" without contrasting the energy proximity of (n−1)d and ns versus the inert-pair stabilisation of ns² misses the mechanistic distinction.",
+     "self_check": true
+    },
+    {
+     "q": "The standard electrode potential E°(Cu²⁺/Cu) is +0.34 V (positive), while all other 3d M²⁺/M couples have negative E° values. Using thermochemical data (ΔHₐ, ΔH₁, ΔH₂, ΔHₕyd), explain why copper is the only 3d metal with a positive E°(M²⁺/M). Is copper a strong reducing agent?",
+     "a": "E°(M²⁺/M) depends on the overall energy change for M(s) → M²⁺(aq): ΔHₐ + ΔH₁ + ΔH₂ + ΔHₕyd. For Cu, ΔHₐ (339 kJ mol⁻¹) and ΔH₂ (1958 kJ mol⁻¹) are high, but ΔHₕyd (−2121 kJ mol⁻¹) is not negative enough to compensate, making the sum positive → positive E°. Copper is NOT a strong reducing agent; a positive E° means Cu(s) is harder to oxidise than H⁺, so Cu does not displace H₂ from non-oxidising acids. A wrong answer claiming \"Cu has low ionisation energy\" or \"Cu is a good reducing agent\" confuses the sign convention and thermodynamic cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have aqueous solutions of V²⁺, Cr²⁺, Mn²⁺, Fe²⁺, Co²⁺, Ni²⁺, Cu²⁺, Zn²⁺. Predict which M²⁺ ions will be stable, which will undergo disproportionation, and which will be strong reducing/oxidising agents. Justify each prediction using dⁿ configuration and ionisation enthalpy trends.",
+     "a": "Stable M²⁺ (no disproportionation): Mn²⁺ (d⁵ half-filled), Fe²⁺ (d⁶), Co²⁺ (d⁷), Ni²⁺ (d⁸), Cu²⁺ (d⁹), Zn²⁺ (d¹⁰ filled). Strong reducing agents (easily oxidised to M³⁺): V²⁺ (d³ → d², but V²⁺ is d³? Wait: V is 3d³4s², V²⁺ is 3d³ — actually V²⁺ is a reducing agent because V³⁺ (d²) is more stable? Let's check: V²⁺ (d³) → V³⁺ (d²) loses exchange energy? Better: Cr²⁺ (d⁴) → Cr³⁺ (d³, half-filled t₂g) is strongly reducing. Mn²⁺ (d⁵) is stable, not reducing. Fe²⁺ (d⁶) → Fe³⁺ (d⁵) is moderately reducing. Co²⁺ (d⁷) → Co³⁺ (d⁶) is oxidising? Actually Co³⁺ is a strong oxidant. Cu⁺ (d¹⁰) disproportionates: 2Cu⁺ → Cu²⁺ (d⁹) + Cu(s). A complete answer must map each ion to its dⁿ, identify stable configurations (d⁰, d⁵, d¹⁰), and predict redox behaviour. A poor answer lists ions without dⁿ reasoning or misidentifies Cr²⁺ as oxidising.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,876 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 201,
+ "chapter_title": "Mechanical Properties of Solids",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph201.txt",
+ "concepts": [
+  {
+   "id": "keph.201.1",
+   "title": "Longitudinal Stress",
+   "section": "8.2",
+   "definition": "Internal restoring force generated per unit cross-sectional area when an external deforming force acts normal to the surface.",
+   "formula": "stress = force / area",
+   "key_idea": "Restoring force per unit area acting normal to cross-section.",
+   "textbook_ref": "keph201.txt lines 30-55",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids calculate tensile stress on a rod",
+    "find the longitudinal stress produced in a stretched wire",
+    "what is the stress generated when a load acts perpendicular to an area",
+    "determine compressive stress in a cylindrical column",
+    "compute the normal force per unit area under axial tension"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide force by cross-sectional area",
+     "explain": "stress is the ratio of applied force to the cross-sectional area",
+     "compute": "force / area"
+    },
+    {
+     "step": 2,
+     "action": "determine cross-sectional area from geometry",
+     "explain": "for a circular rod use area = pi * radius^2; for rectangular bar use breadth times depth",
+     "compute": "pi * radius**2"
+    },
+    {
+     "step": 3,
+     "action": "classify stress as tensile or compressive",
+     "explain": "a pulling force gives tensile stress while a pushing force gives compressive stress, both computed as force per unit area"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving longitudinal stress.",
+     "solution": "Step 1: divide force by cross-sectional area. Step 2: determine cross-sectional area from geometry. Step 3: classify stress as tensile or compressive. Working: force / area, pi * radius**2.",
+     "answer": "Longitudinal Stress applied step by step gives the required result."
+    },
+    {
+     "question": "Apply longitudinal stress to a fresh example and interpret the result.",
+     "solution": "Step 1: divide force by cross-sectional area. Step 2: determine cross-sectional area from geometry. Step 3: classify stress as tensile or compressive. Working: force / area, pi * radius**2.",
+     "answer": "The method of longitudinal stress leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.2",
+   "title": "Longitudinal Strain",
+   "section": "8.2",
+   "definition": "Fractional change in length defined as the elongation or compression divided by the initial unstretched length.",
+   "formula": "strain = delta_L / length",
+   "key_idea": "Dimensionless ratio measuring relative axial deformation.",
+   "textbook_ref": "keph201.txt lines 50-70",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids find longitudinal strain of a wire",
+    "calculate the fractional elongation under axial load",
+    "determine the strain produced when length increases by delta L",
+    "what is the tensile strain in a stretched cylinder",
+    "compute fractional change in length"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide extension by original length",
+     "explain": "strain is the ratio of length change to original length",
+     "compute": "delta_l / length"
+    },
+    {
+     "step": 2,
+     "action": "determine the sign of strain",
+     "explain": "elongation gives positive tensile strain while compression gives negative strain"
+    },
+    {
+     "step": 3,
+     "action": "express strain as dimensionless or percentage",
+     "explain": "strain is dimensionless; multiply by 100 to report as percent deformation",
+     "compute": "strain * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving longitudinal strain.",
+     "solution": "Step 1: divide extension by original length. Step 2: determine the sign of strain. Step 3: express strain as dimensionless or percentage. Working: delta_l / length, strain * 100.",
+     "answer": "Longitudinal Strain applied step by step gives the required result."
+    },
+    {
+     "question": "Apply longitudinal strain to a fresh example and interpret the result.",
+     "solution": "Step 1: divide extension by original length. Step 2: determine the sign of strain. Step 3: express strain as dimensionless or percentage. Working: delta_l / length, strain * 100.",
+     "answer": "The method of longitudinal strain leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.3",
+   "title": "Young's Modulus",
+   "section": "8.5.1",
+   "definition": "Ratio of longitudinal stress to longitudinal strain within the elastic limit of a solid material.",
+   "formula": "young_modulus = (force * length) / (area * delta_L)",
+   "key_idea": "Material property quantifying resistance to axial stretching or compression.",
+   "textbook_ref": "keph201.txt lines 140-175",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids calculate Young's modulus of elasticity",
+    "find Young's modulus from force length area and elongation",
+    "determine the elastic modulus for longitudinal deformation",
+    "what is the ratio of tensile stress to longitudinal strain",
+    "compute Young's modulus of a wire under load"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute stress",
+     "explain": "stress is force divided by area",
+     "compute": "force / area"
+    },
+    {
+     "step": 2,
+     "action": "compute strain",
+     "explain": "strain is elongation divided by initial length",
+     "compute": "delta_l / length"
+    },
+    {
+     "step": 3,
+     "action": "calculate Young's modulus",
+     "explain": "Young's modulus is stress divided by strain",
+     "compute": "stress / strain"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving young's modulus.",
+     "solution": "Step 1: compute stress. Step 2: compute strain. Step 3: calculate Young's modulus. Working: force / area, delta_l / length, stress / strain.",
+     "answer": "Young's Modulus applied step by step gives the required result."
+    },
+    {
+     "question": "Apply young's modulus to a fresh example and interpret the result.",
+     "solution": "Step 1: compute stress. Step 2: compute strain. Step 3: calculate Young's modulus. Working: force / area, delta_l / length, stress / strain.",
+     "answer": "The method of young's modulus leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.4",
+   "title": "Shear Modulus and Shearing Strain",
+   "section": "8.5.2",
+   "definition": "Ratio of tangential stress to shearing strain when deforming forces act parallel to cross-sectional surfaces.",
+   "formula": "shear_modulus = (force * height) / (area * displacement)",
+   "key_idea": "Measures rigidity and resistance to angular deformation.",
+   "textbook_ref": "keph201.txt lines 210-245",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids find shear displacement",
+    "calculate upper edge displacement of a block under shearing force",
+    "determine the shear modulus of rigidity",
+    "what is the sideways deflection under tangential load",
+    "compute shearing strain and resulting displacement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute shear stress",
+     "explain": "tangential force divided by area",
+     "compute": "force / area"
+    },
+    {
+     "step": 2,
+     "action": "calculate horizontal displacement",
+     "explain": "displacement is shear stress times height divided by shear modulus",
+     "compute": "(shear_stress * height) / shear_modulus"
+    },
+    {
+     "step": 3,
+     "action": "compute shearing strain",
+     "explain": "shearing strain is the lateral displacement divided by the height of the block",
+     "compute": "displacement / height"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving shear modulus and shearing strain.",
+     "solution": "Step 1: compute shear stress. Step 2: calculate horizontal displacement. Step 3: compute shearing strain. Working: force / area, (shear_stress * height) / shear_modulus, displacement / height.",
+     "answer": "Shear Modulus and Shearing Strain applied step by step gives the required result."
+    },
+    {
+     "question": "Apply shear modulus and shearing strain to a fresh example and interpret the result.",
+     "solution": "Step 1: compute shear stress. Step 2: calculate horizontal displacement. Step 3: compute shearing strain. Working: force / area, (shear_stress * height) / shear_modulus, displacement / height.",
+     "answer": "The method of shear modulus and shearing strain leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.5",
+   "title": "Bulk Modulus and Compressibility",
+   "section": "8.5.3",
+   "definition": "Ratio of hydraulic pressure to volume strain representing resistance of a substance to uniform compression.",
+   "formula": "bulk_modulus = pressure * volume / delta_volume",
+   "key_idea": "Measures resistance to uniform volume decrease under external fluid pressure.",
+   "textbook_ref": "keph201.txt lines 246-280",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids calculate bulk modulus",
+    "find fractional compression of fluid at depth",
+    "determine bulk modulus given pressure increase and volume change",
+    "what is the volume strain produced by fluid pressure",
+    "compute bulk modulus of water or solids"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute volume strain",
+     "explain": "volume change divided by original volume",
+     "compute": "delta_volume / volume"
+    },
+    {
+     "step": 2,
+     "action": "calculate bulk modulus",
+     "explain": "bulk modulus is applied pressure divided by volume strain",
+     "compute": "pressure / volume_strain"
+    },
+    {
+     "step": 3,
+     "action": "compute compressibility",
+     "explain": "compressibility is the reciprocal of bulk modulus and measures ease of compression",
+     "compute": "1 / bulk_modulus"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving bulk modulus and compressibility.",
+     "solution": "Step 1: compute volume strain. Step 2: calculate bulk modulus. Step 3: compute compressibility. Working: delta_volume / volume, pressure / volume_strain, 1 / bulk_modulus.",
+     "answer": "Bulk Modulus and Compressibility applied step by step gives the required result."
+    },
+    {
+     "question": "Apply bulk modulus and compressibility to a fresh example and interpret the result.",
+     "solution": "Step 1: compute volume strain. Step 2: calculate bulk modulus. Step 3: compute compressibility. Working: delta_volume / volume, pressure / volume_strain, 1 / bulk_modulus.",
+     "answer": "The method of bulk modulus and compressibility leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.6",
+   "title": "Elastic Potential Energy Density",
+   "section": "8.5.5",
+   "definition": "Work done per unit volume in deforming a wire stored as elastic energy within the elastic limit.",
+   "formula": "energy_density = 0.5 * stress * strain",
+   "key_idea": "Energy stored per unit volume during elastic deformation.",
+   "textbook_ref": "keph201.txt lines 285-310",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids calculate elastic energy per unit volume",
+    "find work done per unit volume in stretching a wire",
+    "determine potential energy density stored in a wire",
+    "what is the elastic potential energy density",
+    "compute energy density given stress and strain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy density",
+     "explain": "energy density is half the product of stress and strain",
+     "compute": "0.5 * stress * strain"
+    },
+    {
+     "step": 2,
+     "action": "compute stress from force and area if not given directly",
+     "explain": "stress equals applied force divided by cross-sectional area",
+     "compute": "force / area"
+    },
+    {
+     "step": 3,
+     "action": "compute total elastic energy stored",
+     "explain": "multiply energy density by volume to obtain total work stored as elastic potential energy",
+     "compute": "energy_density * volume"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving elastic potential energy density.",
+     "solution": "Step 1: calculate energy density. Step 2: compute stress from force and area if not given directly. Step 3: compute total elastic energy stored. Working: 0.5 * stress * strain, force / area, energy_density * volume.",
+     "answer": "Elastic Potential Energy Density applied step by step gives the required result."
+    },
+    {
+     "question": "Apply elastic potential energy density to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate energy density. Step 2: compute stress from force and area if not given directly. Step 3: compute total elastic energy stored. Working: 0.5 * stress * strain, force / area, energy_density * volume.",
+     "answer": "The method of elastic potential energy density leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.7",
+   "title": "Sagging of a Central Loaded Beam",
+   "section": "8.6",
+   "definition": "Vertical deflection produced at the midpoint of a beam resting on two end supports under a central load.",
+   "formula": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)",
+   "key_idea": "Bending depression decreases with larger Young's modulus and beam depth.",
+   "textbook_ref": "keph201.txt lines 340-370",
+   "question_patterns": [
+    "in Class 11 Physics mechanical properties of solids calculate bending sag of a beam",
+    "find central depression in a beam loaded at middle",
+    "determine sagging delta for a given span load and dimensions",
+    "what is the vertical bending in a structural beam",
+    "compute depression of a rectangular bar loaded centrally"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate central sag",
+     "explain": "sag depends directly on load and length cubed and inversely on breadth, depth cubed, and Young's modulus",
+     "compute": "(load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+    },
+    {
+     "step": 2,
+     "action": "identify beam dimensions and material Young's modulus",
+     "explain": "collect length, breadth, depth of the beam and the Young's modulus of the material from the problem statement",
+     "compute": "depth**3"
+    },
+    {
+     "step": 3,
+     "action": "interpret the sag value for structural safety",
+     "explain": "a smaller sag indicates a stiffer beam; compare against allowable deflection limits to assess safety",
+     "compute": "allowable_sag / sag"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving sagging of a central loaded beam.",
+     "solution": "Step 1: calculate central sag. Step 2: identify beam dimensions and material Young's modulus. Step 3: interpret the sag value for structural safety. Working: (load * length**3) / (4 * breadth * depth**3 * young_modulus), depth**3, allowable_sag / sag.",
+     "answer": "Sagging of a Central Loaded Beam applied step by step gives the required result."
+    },
+    {
+     "question": "Apply sagging of a central loaded beam to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate central sag. Step 2: identify beam dimensions and material Young's modulus. Step 3: interpret the sag value for structural safety. Working: (load * length**3) / (4 * breadth * depth**3 * young_modulus), depth**3, allowable_sag / sag.",
+     "answer": "The method of sagging of a central loaded beam leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.201.8",
+   "title": "Stress-Strain Behavior and Elastic Limits",
+   "section": "8.4",
+   "definition": "Graphical curve showing proportional region, yield point, ultimate strength, and fracture point of a material under tensile load.",
+   "formula": "none",
+   "key_idea": "Materials exhibit elastic recovery up to yield point and plastic deformation beyond it.",
+   "textbook_ref": "keph201.txt lines 105-139",
+   "question_patterns": [
+    "explain stress-strain curve regions for a metallic wire",
+    "what is yield point and ultimate tensile strength",
+    "distinguish between ductile and brittle materials",
+    "define elastic limit and plastic deformation region",
+    "describe behavior of elastomers using stress-strain graph"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify proportional region OA",
+     "explain": "Hooke's law holds where stress is proportional to strain"
+    },
+    {
+     "step": 2,
+     "action": "identify elastic limit B",
+     "explain": "yield point B marks the maximum stress for complete elastic recovery"
+    },
+    {
+     "step": 3,
+     "action": "identify ultimate strength D and fracture E",
+     "explain": "close points D and E indicate brittleness while distant points indicate ductility"
+    }
+   ]
+  },
+  {
+   "id": "keph.201.9",
+   "title": "Poisson's Ratio",
+   "section": "8.5.4",
+   "definition": "Ratio of lateral strain to longitudinal strain in a stretched material within its elastic limit.",
+   "formula": "poisson_ratio = (delta_d / d) / (delta_L / L)",
+   "key_idea": "Transverse contraction accompanies axial elongation.",
+   "textbook_ref": "keph201.txt lines 270-285",
+   "question_patterns": [
+    "define Poisson's ratio for a stretched wire",
+    "find lateral strain given longitudinal strain and Poisson ratio",
+    "what is the relationship between radial contraction and axial extension",
+    "explain why Poisson's ratio is dimensionless",
+    "determine lateral contraction in a loaded wire"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute longitudinal strain",
+     "explain": "axial extension divided by original length",
+     "compute": "delta_l / length"
+    },
+    {
+     "step": 2,
+     "action": "compute lateral strain",
+     "explain": "change in diameter divided by original diameter",
+     "compute": "delta_d / diameter"
+    },
+    {
+     "step": 3,
+     "action": "calculate Poisson ratio",
+     "explain": "ratio of lateral strain to longitudinal strain",
+     "compute": "lat_strain / long_strain"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex201.1.1",
+   "source_ref": "Example 8.1 part a",
+   "concept": "keph.201.1",
+   "question_type": "compute",
+   "question_pattern": "A structural steel rod has a radius of {radius} m and length {length} m. A force of {force} N stretches it. Calculate stress.",
+   "extracted_variables": {
+    "radius": 0.01,
+    "length": 1.0,
+    "force": 100000,
+    "area": 0.000314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide force by cross-sectional area",
+     "explain": "stress is the force per unit cross-sectional area",
+     "compute": "stress = force / area"
+    }
+   ]
+  },
+  {
+   "id": "ex201.1.2",
+   "source_ref": "Exercise 8.8",
+   "concept": "keph.201.1",
+   "question_type": "compute",
+   "question_pattern": "A copper bar of area {area} m2 is pulled with a force of {force} N. Calculate the stress.",
+   "extracted_variables": {
+    "area": 0.00029,
+    "force": 44500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide force by cross-sectional area",
+     "explain": "stress is calculated as force over area",
+     "compute": "stress = force / area"
+    }
+   ]
+  },
+  {
+   "id": "ex201.2.1",
+   "source_ref": "Example 8.1 part c",
+   "concept": "keph.201.2",
+   "question_type": "compute",
+   "question_pattern": "A rod of length {length} m elongates by {delta_L} m. Calculate longitudinal strain.",
+   "extracted_variables": {
+    "length": 1.0,
+    "delta_L": 0.00159
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide extension by original length",
+     "explain": "strain is elongation divided by original length",
+     "compute": "strain = delta_l / length"
+    }
+   ]
+  },
+  {
+   "id": "ex201.2.2",
+   "source_ref": "Exercise 8.1 modified",
+   "concept": "keph.201.2",
+   "question_type": "compute",
+   "question_pattern": "A wire of length {length} m stretches by {delta_L} m under a load. Determine the strain.",
+   "extracted_variables": {
+    "length": 4.7,
+    "delta_L": 0.0005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide extension by original length",
+     "explain": "strain is change in length over length",
+     "compute": "strain = delta_l / length"
+    }
+   ]
+  },
+  {
+   "id": "ex201.3.1",
+   "source_ref": "Example 8.1 combined",
+   "concept": "keph.201.3",
+   "question_type": "compute",
+   "question_pattern": "A rod of length {length} m and area {area} m2 is pulled by force {force} N causing elongation {delta_L} m. Calculate Young's modulus.",
+   "extracted_variables": {
+    "length": 1.0,
+    "area": 0.000314,
+    "force": 100000,
+    "delta_L": 0.00159
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute stress",
+     "explain": "stress is force divided by area",
+     "compute": "stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "compute strain",
+     "explain": "strain is delta_L divided by length",
+     "compute": "strain = delta_l / length"
+    },
+    {
+     "step": 3,
+     "action": "calculate Young's modulus",
+     "explain": "Young's modulus is stress divided by strain",
+     "compute": "young_modulus = stress / strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.3.2",
+   "source_ref": "Standard wire test",
+   "concept": "keph.201.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate Young's modulus for a wire of length {length} m and area {area} m2 stretched by force {force} N with elongation {delta_L} m.",
+   "extracted_variables": {
+    "length": 2.0,
+    "area": 1e-05,
+    "force": 1000,
+    "delta_L": 0.001
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute stress",
+     "explain": "stress is force divided by area",
+     "compute": "stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "compute strain",
+     "explain": "strain is elongation divided by initial length",
+     "compute": "strain = delta_l / length"
+    },
+    {
+     "step": 3,
+     "action": "calculate Young's modulus",
+     "explain": "Young's modulus is stress divided by strain",
+     "compute": "young_modulus = stress / strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.4.1",
+   "source_ref": "Example 8.4",
+   "concept": "keph.201.4",
+   "question_type": "compute",
+   "question_pattern": "A square slab of height {height} m and face area {area} m2 is subjected to shearing force {force} N. If shear modulus is {shear_modulus} Pa, calculate displacement.",
+   "extracted_variables": {
+    "height": 0.5,
+    "area": 0.05,
+    "force": 90000,
+    "shear_modulus": 5600000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute shear stress",
+     "explain": "shear stress is force divided by area",
+     "compute": "shear_stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "calculate horizontal displacement",
+     "explain": "displacement is stress times height divided by shear modulus",
+     "compute": "displacement = (shear_stress * height) / shear_modulus"
+    }
+   ]
+  },
+  {
+   "id": "ex201.4.2",
+   "source_ref": "Exercise 8.6",
+   "concept": "keph.201.4",
+   "question_type": "compute",
+   "question_pattern": "An aluminium block of height {height} m and area {area} m2 experiences shearing force {force} N. Given shear modulus {shear_modulus} Pa, determine deflection.",
+   "extracted_variables": {
+    "height": 0.1,
+    "area": 0.01,
+    "force": 980,
+    "shear_modulus": 25000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute shear stress",
+     "explain": "shear stress is force divided by area",
+     "compute": "shear_stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "calculate horizontal displacement",
+     "explain": "displacement is shear stress times height divided by shear modulus",
+     "compute": "displacement = (shear_stress * height) / shear_modulus"
+    }
+   ]
+  },
+  {
+   "id": "ex201.5.1",
+   "source_ref": "Example 8.5",
+   "concept": "keph.201.5",
+   "question_type": "compute",
+   "question_pattern": "Water at depth experiences pressure {pressure} Pa resulting in volume change {delta_volume} m3 for initial volume {volume} m3. Find bulk modulus.",
+   "extracted_variables": {
+    "pressure": 30000000,
+    "delta_volume": 0.0136,
+    "volume": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute volume strain",
+     "explain": "volume strain is volume change divided by volume",
+     "compute": "volume_strain = delta_volume / volume"
+    },
+    {
+     "step": 2,
+     "action": "calculate bulk modulus",
+     "explain": "bulk modulus is pressure divided by volume strain",
+     "compute": "bulk_modulus = pressure / volume_strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.5.2",
+   "source_ref": "Exercise 8.12",
+   "concept": "keph.201.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate bulk modulus when pressure increase of {pressure} Pa causes volume change {delta_volume} m3 in initial volume {volume} m3.",
+   "extracted_variables": {
+    "pressure": 10130000,
+    "delta_volume": 0.005,
+    "volume": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute volume strain",
+     "explain": "volume strain is volume change divided by volume",
+     "compute": "volume_strain = delta_volume / volume"
+    },
+    {
+     "step": 2,
+     "action": "calculate bulk modulus",
+     "explain": "bulk modulus is pressure divided by volume strain",
+     "compute": "bulk_modulus = pressure / volume_strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.6.1",
+   "source_ref": "Section 8.5.5 derivation",
+   "concept": "keph.201.6",
+   "question_type": "compute",
+   "question_pattern": "A wire is subjected to tensile stress {stress} Pa with longitudinal strain {strain}. Calculate elastic potential energy density.",
+   "extracted_variables": {
+    "stress": 100000000,
+    "strain": 0.001
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate energy density",
+     "explain": "energy density is 0.5 times stress times strain",
+     "compute": "energy_density = 0.5 * stress * strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.6.2",
+   "source_ref": "Elastic energy application",
+   "concept": "keph.201.6",
+   "question_type": "compute",
+   "question_pattern": "Determine energy stored per unit volume when stress is {stress} Pa and strain is {strain}.",
+   "extracted_variables": {
+    "stress": 50000000,
+    "strain": 0.0005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate energy density",
+     "explain": "energy density is half of stress multiplied by strain",
+     "compute": "energy_density = 0.5 * stress * strain"
+    }
+   ]
+  },
+  {
+   "id": "ex201.7.1",
+   "source_ref": "Section 8.6 beam sagging",
+   "concept": "keph.201.7",
+   "question_type": "compute",
+   "question_pattern": "A bar of length {length} m, breadth {breadth} m and depth {depth} m is loaded centrally with {load} N. If Young's modulus is {young_modulus} Pa, calculate sag.",
+   "extracted_variables": {
+    "length": 1.0,
+    "breadth": 0.02,
+    "depth": 0.04,
+    "load": 100,
+    "young_modulus": 200000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate central sag",
+     "explain": "sag is given by load times length cubed divided by 4 times breadth times depth cubed times Young's modulus",
+     "compute": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+    }
+   ]
+  },
+  {
+   "id": "ex201.7.2",
+   "source_ref": "Beam deflection example",
+   "concept": "keph.201.7",
+   "question_type": "compute",
+   "question_pattern": "Determine central sag for a beam of length {length} m, breadth {breadth} m, depth {depth} m under load {load} N with Young's modulus {young_modulus} Pa.",
+   "extracted_variables": {
+    "length": 2.0,
+    "breadth": 0.05,
+    "depth": 0.1,
+    "load": 200,
+    "young_modulus": 100000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate central sag",
+     "explain": "sag formula applies load, length, breadth, depth, and Young's modulus",
+     "compute": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "keph201.txt exercise 8.1",
+   "questions": [
+    "A steel wire of length 4.7 m and cross-sectional area 3.0 x 10^-5 m2 stretches by the same amount as a copper wire of length 3.5 m and cross-sectional area 4.0 x 10^-5 m2 under a given load. What is the ratio of the Young's modulus of steel to that of copper?"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "keph201.txt exercise 8.2",
+   "questions": [
+    "Figure 8.9 shows the strain-stress curve for a given material. What are (a) Young's modulus and (b) approximate yield strength for this material?"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "keph201.txt exercise 8.3",
+   "questions": [
+    "The stress-strain graphs for materials A and B are shown. Which of the materials has the greater Young's modulus? Which of the two is the stronger material?"
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "keph201.txt exercise 8.4",
+   "questions": [
+    "State with reasons if true or false: (a) The Young's modulus of rubber is greater than that of steel; (b) The stretching of a coil is determined by its shear modulus."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "keph201.txt exercise 8.5",
+   "questions": [
+    "Two wires of diameter 0.25 cm, one made of steel and the other made of brass are loaded. The unloaded length of steel wire is 1.5 m and brass wire is 1.0 m. Compute the elongations of the steel and brass wires."
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "keph201.txt exercise 8.6",
+   "questions": [
+    "The edge of an aluminium cube is 10 cm long. One face is firmly fixed to a vertical wall. A mass of 100 kg is attached to the opposite face. Shear modulus is 25 GPa. What is the vertical deflection of this face?"
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "keph201.txt exercise 8.7",
+   "questions": [
+    "Four identical hollow cylindrical columns of mild steel support a structure of mass 50000 kg. Inner and outer radii are 30 cm and 60 cm. Calculate compressional strain of each column."
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "keph201.txt exercise 8.8",
+   "questions": [
+    "A piece of copper of cross-section 15.2 mm x 19.1 mm is pulled in tension with 44500 N force. Calculate resulting strain."
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "keph201.txt exercise 8.9",
+   "questions": [
+    "A steel cable with radius 1.5 cm supports a chairlift. If maximum stress is not to exceed 10^8 N m^-2, what is the maximum load the cable can support?"
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "keph201.txt exercise 8.10",
+   "questions": [
+    "A rigid bar of mass 15 kg is supported symmetrically by three wires each 2.0 m long. End wires are copper and middle is iron. Determine ratio of diameters if each has same tension."
+   ]
+  },
+  {
+   "id": "ex8.11",
+   "source_ref": "keph201.txt exercise 8.11",
+   "questions": [
+    "A 14.5 kg mass on a steel wire of length 1.0 m is whirled in a vertical circle at 2 rev/s. Calculate elongation at lowest point."
+   ]
+  },
+  {
+   "id": "ex8.12",
+   "source_ref": "keph201.txt exercise 8.12",
+   "questions": [
+    "Compute bulk modulus of water given initial volume 100.0 L, pressure increase 100.0 atm, final volume 100.5 L."
+   ]
+  },
+  {
+   "id": "ex8.13",
+   "source_ref": "keph201.txt exercise 8.13",
+   "questions": [
+    "What is the density of water at a depth where pressure is 80.0 atm given surface density 1.03 x 10^3 kg m^-3?"
+   ]
+  },
+  {
+   "id": "ex8.14",
+   "source_ref": "keph201.txt exercise 8.14",
+   "questions": [
+    "Compute fractional change in volume of a glass slab subjected to hydraulic pressure of 10 atm."
+   ]
+  },
+  {
+   "id": "ex8.15",
+   "source_ref": "keph201.txt exercise 8.15",
+   "questions": [
+    "Determine volume contraction of a solid copper cube 10 cm on an edge under hydraulic pressure of 7.0 x 10^6 Pa."
+   ]
+  },
+  {
+   "id": "ex8.16",
+   "source_ref": "keph201.txt exercise 8.16",
+   "questions": [
+    "How much should the pressure on a litre of water be changed to compress it by 0.10 percent?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file",
+  "keph.201.2: bad compute 'delta_L / length' (unknown symbol: delta_L)",
+  "keph.201.3: bad compute 'delta_L / length' (unknown symbol: delta_L)"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

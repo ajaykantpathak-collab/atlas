@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_04_006",
+   "title": "c11_eng_w_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the difference between the plot of a story and its primary theme?",
+     "a": "The plot is the sequence of events that happen in the story (e.g., Holmes investigates a fake inheritance scheme and catches a counterfeiter). The primary theme is the central idea or insight about life that the story explores through those events (e.g., the power of observation to penetrate deception). A wrong answer that describes the plot as the theme reveals the student conflates \"what happens\" with \"what it means,\" a common error where students retell the story instead of analysing its deeper significance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"three Garridebs\" inheritance story is a ruse, and what this reveals about the story's primary theme.",
+     "a": "The inheritance story is a ruse invented by Killer Evans (posing as John Garrideb) to lure Nathan Garrideb out of his rooms so Evans can access the counterfeiting press hidden beneath the floorboards, left by his former confederate Roger Presbury. This reveals the primary theme: elaborate deception driven by greed inevitably contains flaws that a keen observer can detect. A wrong answer that only summarises the ruse without connecting it to the theme shows the student understands the plot mechanics but not the thematic significance of deception versus observation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"theme\" to a new context: If you were to write a one-sentence thematic statement for this story that could apply to real-life situations beyond detective fiction, what would it be?",
+     "a": "A strong thematic statement: \"No matter how clever a deception, greed creates observable inconsistencies that careful reasoning can expose.\" This works because it abstracts the story's specific events (the misspelled \"plough,\" the English-cut clothes, the lack of advertisements) into a universal principle about human behaviour. A weak answer like \"Crime doesn't pay\" is a cliché moral, not a thematic statement derived from the story's specific exploration of observation and deception.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the contrast between Holmes's \"cold mask\" and his reaction to Watson's injury contributes to the story's message about loyalty.",
+     "a": "Throughout the story, Holmes appears detached and purely intellectual — he calls the case \"whimsical,\" manipulates suspects, and focuses on clues. When Watson is shot, Holmes's \"clear, hard eyes were dimmed\" and \"firm lips were shaking,\" revealing profound emotional depth. This contrast reinforces the message that intellectual brilliance and deep human loyalty are not mutually exclusive; the \"cold mask\" is a professional façade, not the whole person. A wrong answer that only notes Holmes was worried misses the analytical point: the thematic function of the contrast is to humanise the detective and show that the story values both reason and emotion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The primary message of the story is that crime is punished and justice prevails.\" Use textual evidence to support or refute.",
+     "a": "The claim is partially true but incomplete. Justice does prevail — Evans is caught and the counterfeiting press is discovered — but the story's deeper message is more nuanced. The innocent Nathan Garrideb suffers a devastating psychological blow (\"never got over the shock of his dissipated dreams\"), and Holmes reflects that the case \"cost one man his reason.\" The message is not a simple triumph of justice but a recognition that exposing deception can have collateral damage. A wrong answer that agrees without qualification shows the student accepts a surface-level moral rather than analysing the story's complex resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new opening paragraph for a modern adaptation of this story that establishes the same primary theme (deception vs. observation) in a contemporary Indian setting.",
+     "a": "A strong adaptation might begin: \"The WhatsApp forward promised ₹50 lakhs to anyone sharing the surname 'Chakraborty' who could locate two others — a digital inheritance scam that seemed absurd until the cyber-security analyst noticed the sender's IP address traced to a known phishing hub in Jamtara, and the Gujarati-script typo in the Hindi message.\" This establishes the theme by updating the Garrideb ruse to a digital scam, the American lawyer to a cyber-criminal, and Holmes's observation to digital forensics. A weak answer that merely changes names without updating the mechanism of deception and detection fails to transfer the theme to a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_012",
+   "title": "c11_eng_h_cbse_05_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the name of the train Professor Gaitonde took from Pune to Bombay?\"",
+     "a": "**Answer:** Literal. The text explicitly states: \"The Jijamata Express sped along the Pune-Bombay route...\" A wrong answer (e.g., calling it inferential) reveals the student cannot distinguish between directly stated facts and conclusions requiring reasoning. They may confuse *locating* a detail with *interpreting* it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the statement \"The story tries to relate history to science\" (Understanding the Text, I.5) is true, using two specific textual references.",
+     "a": "**Answer:** True. The story connects history and science through: (1) Rajendra using **catastrophe theory** to explain the Battle of Panipat's bifurcation point (\"Wars fought face to face... offer excellent examples of this theory\"), and (2) Rajendra invoking **quantum theory's lack of determinism** to explain Gaitonde's transition between worlds (\"The behaviour of these systems cannot be predicted definitively...\"). A wrong answer that only summarizes the plot without citing the scientific theories reveals the student treats the story as pure fiction, missing the interdisciplinary core that Class 11 demands.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this inferential question: \"Why does Gangadharpant feel 'the country he knew' is different from 'what he was witnessing around him'?\" (Text: \"Gangadharpant could not help comparing...\")",
+     "a": "**Answer:**\n**Point:** Gangadharpant witnesses an India that was never colonized, retaining self-respect and technological parity.\n**Evidence:** The text states the East India Company was \"reduced to pockets of influence\" and India \"had not been subjected to slavery for the white man\"; Bombay was retained only as a commercial lease expiring in 2001.\n**Explanation:** In his original world, India suffered colonial subjugation; here, the Maratha victory at Panipat created a sovereign, self-confident nation engaging with the West on equal terms.\n**Link:** This contrast drives his realization that a single historical event (Panipat) altered the nation's entire trajectory.\nA wrong answer listing only surface differences (e.g., \"shops were British\") without linking to the *cause* (Panipat victory) or the *theme* (colonialism vs. sovereignty) shows inability to synthesize textual evidence into an inference.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference in meaning between these two sentences from the text: (i) \"The librarian spoke respectfully to the learned scholar.\" (ii) \"You will find the historian and the scientist in the archaeology and natural science sections of the museum respectively.\" Why is this distinction critical for inferential reading?",
+     "a": "**Answer:** (i) \"Respectfully\" = with respect/deference (adverb of manner). (ii) \"Respectively\" = in the order given: historian → archaeology, scientist → natural science (adverb of order). This distinction is critical because misreading \"respectively\" as \"respectfully\" in an inferential question (e.g., \"How were the scholar and scientist treated?\") would lead to a completely wrong inference about character attitudes vs. spatial arrangement. It tests precise vocabulary understanding needed for accurate textual inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the validity of this inference: \"Professor Gaitonde's transition to the alternate world was caused solely by the truck collision.\" Use Rajendra's two theories to justify your evaluation.",
+     "a": "**Answer:** The inference is **invalid**. Rajendra explicitly states the collision was only a *trigger* (\"neurons in your brain acted as a trigger\"), while the *cause* was the catastrophic bifurcation at Panipat (catastrophe theory) and a macroscopic quantum transition (quantum theory). The collision provided the interaction, but the *content* of his thoughts (Panipat battle) determined *which* alternate world he accessed. A student calling it \"valid\" confuses necessary condition (collision) with sufficient cause (bifurcation + quantum jump), missing the chapter's central scientific argument.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the \"empty presidential chair\" incident (Azad Maidan) that requires connecting the scene to the theme of democratic tradition vs. hierarchical authority. Provide the expected answer structure.",
+     "a": "**Question:** \"What does the audience's violent rejection of Gaitonde occupying the presidential chair reveal about the political culture of this alternate India?\"\n**Expected Answer Structure:**\n**Point:** It reveals a mature democratic culture that rejects symbolic hierarchy.\n**Evidence:** Audience shouts: \"We abolished the old customs long ago... Keep the platform empty.\"\n**Explanation:** Unlike Gaitonde's world (where chair = authority), here the empty chair *is* the symbol of equality; occupying it is \"sacrilege.\"\n**Link:** This mirrors the broader alternate history: a society that evolved democracy organically (post-Peshwa) without colonial imposition.\nA poor answer focuses only on the tomatoes/eggs (literal) or calls the audience \"rude\" (misreading cultural context), failing to infer the political philosophy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

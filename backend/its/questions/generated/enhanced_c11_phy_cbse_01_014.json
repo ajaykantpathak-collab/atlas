@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_014",
+   "title": "c11_phy_cbse_01_014",
+   "questions": [
+    {
+     "q": "A student measures the time period of a simple pendulum using a stopwatch. The stopwatch consistently starts 0.2 seconds late due to the student's reaction time. If the true period is 2.00 s, what type of error is this, and what will be the measured value after 20 oscillations?",
+     "a": "This is a systematic error (personal error – reaction time delay). The stopwatch records 20 × 2.00 s = 40.00 s for oscillations, but starts 0.2 s late, so measured time = 40.2 s. Measured period = 40.2 s / 20 = 2.01 s. A wrong answer (e.g., calling it random error) reveals confusion between consistent directional bias and unpredictable scatter.",
+     "self_check": true
+    },
+    {
+     "q": "Why does taking more readings and averaging reduce random error but not systematic error? Explain using the concept of error distribution.",
+     "a": "Random errors follow a symmetric distribution around the true value; positive and negative deviations cancel out when averaged, reducing the standard error of the mean by factor 1/√n. Systematic errors shift all readings by the same amount in the same direction, so the mean remains offset by that constant bias regardless of n. A wrong answer (e.g., \"averaging always improves accuracy\") reveals misunderstanding of error nature and the distinction between precision and accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "A vernier caliper has a least count of 0.01 cm. A student measures a rod's length five times: 3.21 cm, 3.23 cm, 3.22 cm, 3.20 cm, 3.24 cm. The true length is 3.22 cm. Calculate (a) mean absolute error, (b) relative error, (c) percentage error.",
+     "a": "(a) Mean = (3.21+3.23+3.22+3.20+3.24)/5 = 3.22 cm. Deviations: |3.21-3.22|=0.01, |3.23-3.22|=0.01, |3.22-3.22|=0.00, |3.20-3.22|=0.02, |3.24-3.22|=0.02. Mean absolute error = (0.01+0.01+0.00+0.02+0.02)/5 = 0.012 cm ≈ 0.01 cm (to least count). (b) Relative error = 0.01/3.22 = 0.0031. (c) Percentage error = 0.0031 × 100% = 0.31%. A wrong answer using individual deviations instead of mean absolute error reveals misunderstanding of how random error is quantified for a set.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment to determine g using a simple pendulum, a student uses a stopwatch with least count 0.1 s and measures time for 20 oscillations. The length is measured with a metre scale of least count 0.1 cm. Which measurement contributes more to the percentage error in g? Justify quantitatively assuming L = 100 cm and T = 2.0 s.",
+     "a": "g = 4π²L/T². Percentage error in g = %ΔL + 2×%ΔT. ΔL = 0.1 cm → %ΔL = (0.1/100)×100% = 0.1%. Time for 20 oscillations = 20×2.0 = 40 s. Δt = 0.1 s (least count). %Δt = (0.1/40)×100% = 0.25%. Since T = t/20, %ΔT = %Δt = 0.25%. Then 2×%ΔT = 0.5%. Total %Δg = 0.1% + 0.5% = 0.6%. Time measurement contributes 0.5/0.6 ≈ 83% of total error. A wrong answer ignoring the square on T or using ΔT = 0.1 s directly reveals flawed error propagation understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"If an instrument has zero error, it is a systematic error. If the zero error is +0.02 mm, subtracting 0.02 mm from every reading eliminates the error completely.\" Evaluate this statement. Is it always true?",
+     "a": "The statement is partially correct but incomplete. Subtracting the zero error corrects the *constant* systematic shift, assuming the zero error is truly constant across the measurement range. However, if the instrument has additional systematic errors like non-linear calibration drift (e.g., screw gauge pitch error varying with position), backlash error, or temperature-dependent expansion, subtracting a single zero error value does not eliminate all systematic errors. A wrong answer (\"yes, always true\") reveals oversimplification of systematic error sources and ignorance of instrument-specific non-linearities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale, a stopwatch, and a pendulum bob to demonstrate the difference between systematic and random errors. Specify what you would measure, how you would introduce a known systematic error, and how you would identify random error from the data.",
+     "a": "Measure time for 20 oscillations of a simple pendulum (L ≈ 1 m) using a stopwatch. Introduce systematic error by deliberately starting the stopwatch 0.5 s late for every trial (simulating consistent reaction delay). Take 10 readings. The mean will be consistently higher than true value by ~0.5 s/20 = 0.025 s per oscillation – this offset is systematic. The scatter of individual readings around the mean (some 0.02 s higher, some 0.03 s lower) is random error from unpredictable reaction time variations. A poor answer (e.g., \"measure length multiple times\") fails to isolate time measurement errors or deliberately introduce a known systematic bias.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

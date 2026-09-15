@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_008",
+   "title": "c12_geo_cbse_12_008",
+   "questions": [
+    {
+     "q": "Define \"watershed management\" as described in the NCERT Class 12 textbook, and name two government programmes that implement it in India.",
+     "a": "Watershed management is the efficient management and conservation of surface and groundwater resources within a drainage basin, involving prevention of runoff, storage, and recharge of groundwater through structures like percolation tanks and recharge wells, while balancing natural resources and society through community participation. Two programmes: Haryali (central government) and Neeru-Meeru (Andhra Pradesh).  \nA wrong answer that only mentions \"building check dams\" misses the holistic scope (conservation of all resources, community participation, balance with society). A wrong answer naming \"Namami Gange\" or \"Jal Jeevan Mission\" confuses river cleaning or drinking water supply with watershed management.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rooftop rainwater harvesting is particularly effective in urban areas like Chennai or Bengaluru, but less commonly practised in rural Rajasthan where traditional methods dominate.",
+     "a": "Urban areas have high impervious cover (concrete roofs, roads) preventing natural infiltration, high water demand outstripping supply, and declining groundwater tables — rooftop harvesting directly captures runoff from existing structures and recharges aquifers or stores for domestic use. Rural Rajasthan has low population density, traditional community-managed structures (kunds, tankas) suited to local geology and social systems, and less roof area per capita; modern systems are costlier and less culturally embedded.  \nA wrong answer claiming \"urban areas get more rain\" ignores that Chennai gets ~1400 mm but Jaisalmer gets ~150 mm — effectiveness depends on demand-supply gap and imperviousness, not just rainfall. A wrong answer saying \"rural areas don't need it\" overlooks groundwater depletion in rural Punjab/Haryana.",
+     "self_check": true
+    },
+    {
+     "q": "A house in Delhi has a flat roof of 12 m × 10 m. The average annual rainfall is 700 mm. The runoff coefficient for concrete roof is 0.85. Calculate the theoretical annual rainwater harvesting potential in litres. If the household uses 600 litres/day, for how many days can this harvested water meet demand (assuming 100% storage efficiency)?",
+     "a": "Step 1: Roof area = 12 × 10 = 120 m².  \nStep 2: Rainfall = 700 mm = 0.7 m.  \nStep 3: Volume = Area × Rainfall × Runoff coefficient = 120 × 0.7 × 0.85 = 71.4 m³.  \nStep 4: Convert to litres: 71.4 × 1000 = 71,400 litres.  \nStep 5: Daily demand = 600 litres. Days = 71,400 ÷ 600 = 119 days.  \nAnswer: 71,400 litres; can meet demand for 119 days.  \nA wrong answer using rainfall in mm without converting to m (120 × 700 × 0.85 = 71,400 m³) overestimates by 1000×. Forgetting the runoff coefficient (using 1.0) overestimates by ~18%. Not converting m³ to litres gives 71.4 m³, which is dimensionally incorrect for daily use in litres.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the watershed management approaches of Haryali (central government) and Arvary Pani Sansad (Alwar, Rajasthan) in terms of institutional structure, community role, and types of structures built. Which is more likely to be sustainable in a tribal region with strong traditional governance?",
+     "a": "Haryali: Sponsored by Central Government, executed by Gram Panchayats with people's participation; focuses on percolation tanks, recharge wells for drinking, irrigation, fisheries, afforestation. Top-down design with bottom-up implementation.  \nArvary Pani Sansad: Community-led initiative in Alwar; builds johads (earthen check dams), percolation tanks, dug-out ponds through voluntary labour and traditional decision-making (gram sabha). Bottom-up, rooted in local customs.  \nIn a tribal region with strong traditional governance (e.g., PESA areas), Arvary Pani Sansad model is more sustainable because it aligns with customary institutions, uses local materials/knowledge, and ensures ownership — whereas Haryali may face bureaucratic delays and lack of cultural fit.  \nA wrong answer saying \"Haryali is better because it has government funding\" ignores that sustainability depends on community ownership, not just funds. A wrong answer claiming both are identical misses the crucial difference in institutional origin and decision-making power.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Watershed management alone can solve India's water scarcity problem.\" Use evidence from the Ralegan Siddhi case study and national data on groundwater depletion.",
+     "a": "Watershed management is necessary but not sufficient. Ralegan Siddhi shows success: percolation tank raised water tables, banned water-intensive crops, increased agriculture prosperity. However, the case study notes high fertilizer/pesticide use persists, and long-term sustainability after the leader's departure is uncertain. Nationally, groundwater depletion continues in Punjab, Haryana, Rajasthan despite watershed programmes because: (1) agricultural demand (89% of surface water, 92% of groundwater) far exceeds recharge rates, (2) pollution (fluoride, arsenic, salinity) reduces usable water, (3) climate change alters rainfall patterns. Watershed management must be combined with demand-side measures (crop diversification, efficient irrigation, water pricing) and pollution control.  \nA wrong answer agreeing fully ignores the scale mismatch: watershed projects cover limited areas, while depletion is basin-wide. A wrong answer dismissing watershed management entirely overlooks proven local successes like Ralegan Siddhi and Neeru-Meeru.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rainwater harvesting and watershed management plan for a 50-hectare village in semi-arid Maharashtra (annual rainfall 600 mm, black cotton soil, gentle slope). Specify: (a) two rooftop structures for public buildings, (b) three watershed structures with locations, (c) one community rule for sustainable use, and (d) how you will monitor groundwater recharge.",
+     "a": "(a) Rooftop structures: (i) School building (roof 300 m²) → recharge pit (3 m × 2 m × 3 m) with filter media; (ii) Panchayat office (roof 200 m²) → storage tank (10,000 L) for drinking water.  \n(b) Watershed structures: (i) Contour trenches along slope breaks (upper catchment) to reduce runoff velocity; (ii) Percolation tank at natural depression (mid-catchment) to store and recharge; (iii) Check dam (gabion) on seasonal stream (lower catchment) to arrest baseflow.  \n(c) Community rule: \"No borewell deeper than 60 m; water-intensive crops (sugarcane, banana) banned; mandatory drip irrigation for all cash crops.\"  \n(d) Monitoring: Install 3 observation wells (upstream, midstream, downstream) with monthly water level logging; compare pre-monsoon/post-monsoon levels annually; track crop yield and well sustainability.  \nA poor answer lists generic structures without locating them topographically (e.g., \"build check dams everywhere\"), omits community rules, or suggests monitoring only through \"villager feedback\" without quantitative water level data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

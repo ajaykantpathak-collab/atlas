@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_007",
+   "title": "c12_bio_cbse_06_007",
+   "questions": [
+    {
+     "q": "What is the function of the Shine-Dalgarno sequence in prokaryotic translation initiation?",
+     "a": "The Shine-Dalgarno sequence (AGGAGG) is a ribosome-binding site upstream of the start codon on prokaryotic mRNA that base-pairs with the 16S rRNA of the 30S ribosomal subunit to position the start codon (AUG) in the P site. A wrong answer (e.g., \"it codes for methionine\" or \"it is the start codon\") reveals confusion between the ribosomal binding site and the coding sequence, or between prokaryotic and eukaryotic initiation mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the initiator tRNA in prokaryotes carry formyl-methionine (fMet) while in eukaryotes it carries unmodified methionine, even though both recognize AUG?",
+     "a": "In prokaryotes, methionyl-tRNA is formylated by transformylase using N10-formyl-THF after aminoacylation, creating fMet-tRNA^fMet which is recognized by IF2 for initiation; in eukaryotes, Met-tRNA^iMet is directly recognized by eIF2. A wrong answer (e.g., \"eukaryotes don't have formyl groups\" or \"fMet is only for elongation\") shows lack of understanding of the distinct initiator tRNAs (tRNA^fMet vs tRNA^iMet) and the role of formylation in blocking the amino group to prevent peptide bond formation at the N-terminus during initiation.",
+     "self_check": true
+    },
+    {
+     "q": "A mutation changes the anticodon of a tRNA^Lys from UUU to UCU. The mRNA codon for lysine is AAA. What amino acid will be incorporated at AAA codons in this mutant, and why?",
+     "a": "The mutant tRNA^Lys with anticodon UCU will pair with AGA (not AAA) due to complementary base pairing (A-U, G-C, A-U). Since AGA codes for arginine, arginine will be incorporated at AGA codons. At AAA codons, the wild-type tRNA^Lys (anticodon UUU) or other near-cognate tRNAs may still function, but the mutant tRNA will NOT recognize AAA. A wrong answer (e.g., \"lysine will still be inserted at AAA\" or \"the mutant tRNA will read AAA due to wobble\") reveals misunderstanding of codon-anticodon pairing rules and wobble position flexibility (wobble occurs at the 3rd base of codon/5th of anticodon, not 1st/2nd).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy cost (in high-energy phosphate bonds) of adding one amino acid during elongation in prokaryotes vs eukaryotes. Are they the same or different? Justify.",
+     "a": "Both require 4 high-energy phosphate bonds per amino acid added: 1 for aminoacyl-tRNA synthetase (ATP → AMP + PPi, equivalent to 2 ATP), 1 for EF-Tu/eEF1A GTP hydrolysis during ternary complex binding, 1 for EF-G/eEF2 GTP hydrolysis during translocation, and 1 for peptide bond formation (catalyzed by peptidyl transferase, no direct GTP but energy from ester bond in peptidyl-tRNA). Total = 4. They are the same. A wrong answer (e.g., \"eukaryotes use more because of more factors\" or \"prokaryotes use 2 GTP\") shows confusion between number of factors and actual GTP hydrolysis events, or failure to count ATP→AMP as 2 high-energy bonds.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a eukaryotic cell-free translation system with a drug that prevents eIF2α phosphorylation. Under stress conditions (e.g., heat shock), how will global protein synthesis and stress-response protein synthesis (e.g., HSP70) be affected compared to untreated cells?",
+     "a": "Preventing eIF2α phosphorylation blocks the integrated stress response (ISR). Normally, stress → eIF2α-P → inhibits eIF2B (GEF) → reduces ternary complex (eIF2-GTP-Met-tRNA^iMet) → global translation downregulation BUT selective translation of uORF-containing mRNAs like ATF4/HSP70. With the drug: global synthesis remains HIGH (no inhibition), but stress-response proteins like HSP70 are NOT selectively upregulated. A wrong answer (e.g., \"both decrease\" or \"global increases, HSP70 increases\") reveals misunderstanding of the paradoxical uORF mechanism and the dual role of eIF2α-P in global suppression and specific activation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal in vitro translation system using purified components to synthesize a 10-amino acid peptide from a synthetic mRNA. List the absolute minimum components required and explain why each is essential.",
+     "a": "Minimum components: (1) synthetic mRNA with start codon, 10 sense codons, stop codon; (2) 30S/40S and 50S/60S ribosomal subunits (or 70S/80S ribosomes); (3) all 20 amino acids; (4) complete set of tRNAs (or at least those for the 10 codons + initiator + stop); (5) aminoacyl-tRNA synthetases (or pre-charged tRNAs); (6) initiation factors (IF1, IF2, IF3 / eIFs); (7) elongation factors (EF-Tu, EF-Ts, EF-G / eEF1A, eEF1B, eEF2); (8) release factors (RF1/2/3 / eRF1/3); (9) GTP, ATP; (10) buffer with Mg²⁺, K⁺, NH₄⁺. Each is essential: ribosomes provide peptidyl transferase and factor binding; tRNAs decode; factors drive conformational changes; energy drives directionality. A poor answer omits energy sources, release factors, or assumes ribosomes alone suffice, revealing lack of systems-level understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

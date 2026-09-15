@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_046",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_046",
+   "title": "c6_math_ch04_046",
+   "questions": [
+    {
+     "q": "What is the most important rule to follow when setting up a problem to add 2.45 and 12.3?",
+     "a": "The decimal points must be aligned vertically. A wrong answer like \"adding the last digits first\" reveals the student is treating decimals like whole numbers and ignoring place value.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it helpful to add a zero to 1.5 when you are subtracting it from 2.64?",
+     "a": "Adding a zero (making it 1.50) gives both numbers the same number of decimal places, making it easier to subtract column by column. A wrong answer suggests the student does not understand that 1.5 is the same as 1.50, which is essential for place value alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate 8.4 - 2.15.",
+     "a": "Step 1: Align points: 8.40 and 2.15. Step 2: Borrow from 4 to make 10-5=5. Step 3: Subtract columns to get 6.25. A wrong answer usually comes from calculating 8.4-2.15 as 8.4-2.1=6.3 and ignoring the 5, or misaligning the place values.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 5.0 and 5.000, are they the same value? Explain why this matters for addition.",
+     "a": "Yes, they are equal because adding zeros to the right of a decimal does not change its value. This matters because it allows us to match the number of digits in different numbers before adding or subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "Is 0.7 + 0.3 equal to 0.10? Why or why not?",
+     "a": "No, it is equal to 1.0. The sum 0.7 + 0.3 = 1.0; a student saying 0.10 is incorrectly treating the decimals like whole numbers (7+3=10) without considering the place value of tenths.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where you need to subtract 1.25 from 3.0. Show how you would write it down to solve it.",
+     "a": "The student should write 3.00 - 1.25. A poor answer would be writing 3.0 - 1.25 without the extra zero, which makes the subtraction confusing for the tenths column.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

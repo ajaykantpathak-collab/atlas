@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_8",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_8",
+   "title": "c8_hist_ch5_8",
+   "questions": [
+    {
+     "q": "What is the approximate height of the Qutub Minar, and which three rulers contributed to its construction across different periods?",
+     "a": "The Qutub Minar stands approximately 73 meters (240 feet) tall. Construction began under Qutb-ud-din Aibak (1199 CE), the first three storeys were completed by Iltutmish (1220s), and the top two storeys were rebuilt in marble by Firoz Shah Tughlaq (1368) after lightning damage. A wrong answer (e.g., naming only Aibak, or attributing it entirely to the Mughals) reveals the student misses the multi-phase, multi-dynasty nature of early Sultanate architecture and the continuity of patronage across regime changes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the builders of the Quwwat-ul-Islam Mosque (part of the Qutub complex) reuse columns and lintels from demolished Hindu and Jain temples instead of carving new ones?",
+     "a": "Early Sultanate builders lacked artisans trained in true arch and dome construction — Indian craftsmen knew only corbelled techniques. Reusing temple spolia (columns, brackets, lintels) provided ready-made structural elements for the mosque's colonnaded courtyards while new builders learned Persianate methods. A wrong answer (e.g., \"to humiliate Hindus\" or \"to save money\") reveals a political misreading: the reuse was primarily structural necessity and pragmatic adaptation, not purely ideological, though it carried symbolic meaning too.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the arch construction in the Quwwat-ul-Islam Mosque's screen (c. 1199) with the Alai Darwaza (1311). What structural principle changed, and what does this reveal about technology transfer?",
+     "a": "The Quwwat-ul-Islam screen uses corbelled arches (stones layered inward until they meet) — an indigenous Indian technique. The Alai Darwaza, built by Ala-ud-din Khalji's architects, employs true voussoir arches (wedge-shaped stones locking into a keystone) — a Persianate/Central Asian technique requiring precise stonecutting. This shift reveals that within 112 years, Sultanate builders mastered the true arch through contact with West Asian craftsmen, marking the transition from \"Indian buildings with Islamic elements\" to genuine Indo-Islamic structural synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "The Jama Masjid Delhi (1650-56) uses both red sandstone and white marble in a deliberate pattern. Analyze how this material choice reflects both Mughal imperial ideology and practical adaptation to Delhi's climate.",
+     "a": "Red sandstone (locally quarried, heat-resistant) forms the structural mass; white marble (imported from Makrana, Rajasthan) highlights domes, minarets, mihrabs, and calligraphy bands — visually asserting Mughal legitimacy through Timurid color symbolism (red = sovereignty, white = purity/spirituality). The alternating bands also create thermal expansion joints. A student who sees only \"decoration\" misses how material geography (local vs imported stone) and imperial iconography operate simultaneously in mature Mughal architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The Jama Masjid is simply a larger, more polished version of the Quwwat-ul-Islam Mosque — the architecture didn't fundamentally change, only the scale.\" Defend or refute with three specific structural or spatial differences.",
+     "a": "Refute. Three fundamental differences: (1) Spatial logic: Quwwat-ul-Islam is a hypostyle courtyard mosque (endless columns, no hierarchy); Jama Masjid uses a four-iwan plan with a monumental central pishtaq directing focus to the mihrab — Persian spatial hierarchy. (2) Dome construction: Quwwat-ul-Islam has no true domes (only corbelled ceilings); Jama Masjid has three bulbous double-domes on high drums using Persian pendentive transition. (3) Minaret function: Qutub Minar is a free-standing victory tower; Jama Masjid's minarets are integrated into the mosque facade for the call to prayer. Scale increase masks a complete reorganization of sacred space.",
+     "self_check": true
+    },
+    {
+     "q": "Create a visual timeline (verbal description acceptable) showing five key innovations in Indo-Islamic architecture from 1192 to 1656, placing each innovation at the specific monument where it first appears in the Delhi region.",
+     "a": "Timeline: (1) 1199 — Corbelled arch reuse of temple spolia at Quwwat-ul-Islam Mosque (indigenous technique adapted). (2) 1230s — Early true arch experiment at Iltutmish's tomb (first surviving true arch in Delhi). (3) 1311 — Mastered true arch + dome on pendentives at Alai Darwaza (first fully Persianate structure). (4) 1560s — Double dome on high drum at Humayun's Tomb (Timurid innovation for exterior monumentality + interior scale). (5) 1650-56 — Four-iwan plan with bulbous domes, marble inlay (pietra dura), and chhatri integration at Jama Masjid (mature Mughal synthesis). A poor answer lists monuments without naming the specific structural/technical innovation each introduced.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

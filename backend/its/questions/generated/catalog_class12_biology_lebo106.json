@@ -1,0 +1,246 @@
+{
+ "catalog": "catalog_class12_biology_lebo106",
+ "concepts": [
+  {
+   "id": "lebo106.6.1.1",
+   "title": "Origin of Life: Chemical Evolution and Miller's Experiment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Origin of Life: Chemical Evolution and Miller's Experiment' refers to.",
+     "a": "The universe began some 13.8 billion years back and earth condensed about 4.5 billion years ago under a reducing sky of methane, ammonia and water vapour; Oparin and Haldane argued the first living things assembled from non-living organics after a long stretch of chemical evolution, and Miller's 1953 spark-discharge flask produced amino acids from just such a gas mix, backing the story in the lab.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Origin of Life: Chemical Evolution and Miller's Experiment'.",
+     "a": "Pasteur killed the idea of life springing from rot spontaneously, yet how the very first self-copying capsule arose remains the open question chemical evolution only half answers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Origin of Life: Chemical Evolution and Miller's Experiment' taught, and from which source text?",
+     "a": "6.1 (source: lebo106.txt lines 13-111 (Big Bang, early atmosphere, panspermia, Pasteur, Oparin-Haldane, Miller 1953))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.2.1",
+   "title": "Darwin's Theory and Natural Selection",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Darwin's Theory and Natural Selection' refers to.",
+     "a": "Observations from the beagle voyage convinced Darwin that living forms share ancestors, change gradually and go extinct; populations carry built-in heritable variation, and individuals whose traits suit the conditions leave more offspring -- nature selects for reproductive fitness, the mechanism Wallace reached independently.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Darwin's Theory and Natural Selection'.",
+     "a": "Fitness in Darwin's sense means only one thing -- leaving more progeny -- which quietly turns variation into evolutionary change over billions of years.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Darwin's Theory and Natural Selection' taught, and from which source text?",
+     "a": "6.2 (source: lebo106.txt lines 112-148 (special creation critique, H.M.S. Beagle, fitness, Wallace))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.3.1",
+   "title": "Fossils and Embryology as Evidence for Evolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fossils and Embryology as Evidence for Evolution' refers to.",
+     "a": "Hard remains trapped in sedimentary rock record which creatures lived in which geological period, so deeper layers hold older life -- paleontological evidence that forms appeared and vanished on a timetable; embryology added that vertebrate embryos share features such as gill slits, though von Baer showed embryos never replay the adult forms of other animals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fossils and Embryology as Evidence for Evolution'.",
+     "a": "Rock layers stack in time and radioactive dating pins absolute ages, letting fossils order life's history; shared embryos hint at shared ancestry but stop short of recapitulation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fossils and Embryology as Evidence for Evolution' taught, and from which source text?",
+     "a": "6.3 (source: lebo106.txt lines 149-176 (sedimentary fossils, paleontological evidence, Haeckel and von Baer))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.3.2",
+   "title": "Homology, Analogy, Divergent and Convergent Evolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Homology, Analogy, Divergent and Convergent Evolution' refers to.",
+     "a": "Organs built on one plan but shaped for different jobs -- the forelimb bones shared by whale, bat, cheetah and human, or thorn versus tendril in Bougainvillea and Cucurbita -- are homologous and betray divergent evolution from a common ancestor; organs serving the same job from different builds, like butterfly and bird wings, are analogous products of convergent evolution under similar habitats.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Homology, Analogy, Divergent and Convergent Evolution'.",
+     "a": "Same structure, different function means common ancestry; same function, different structure means similar selection pressures -- the two comparisons point in opposite directions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Homology, Analogy, Divergent and Convergent Evolution' taught, and from which source text?",
+     "a": "6.3 (source: lebo106.txt lines 173-232 (comparative anatomy, forelimb homology, plant homology, analogy examples, biochemical similarity, artificial selection))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.3.3",
+   "title": "Industrial Melanism and Evolution by Human Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrial Melanism and Evolution by Human Action' refers to.",
+     "a": "England's moth collections flipped from mostly white-winged in the 1850s to mostly dark-winged by 1920 as industrial soot blackened tree trunks and predators picked off whichever moth stood out -- camouflage decided survival; herbicide-resistant weeds, pesticide-resistant pests and drug-resistant microbes repeat the lesson within months or years, evolution driven by human action.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Melanism and Evolution by Human Action'.",
+     "a": "Selection favours whichever variant blends into the current environment, and no variant is ever wiped out completely -- evolution is stochastic, not a directed march.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Melanism and Evolution by Human Action' taught, and from which source text?",
+     "a": "6.3 (source: lebo106.txt lines 233-272 (moth collections before and after industrialisation, predators, resistant varieties, anthropogenic action))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.4.1",
+   "title": "Adaptive Radiation: Darwin's Finches and Marsupials",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Adaptive Radiation: Darwin's Finches and Marsupials' refers to.",
+     "a": "From one ancestral seed-eating stock on the Galapagos, finch beaks radiated into insect-crushing and fruit-eating shapes as birds spread into new niches on the same islands -- evolution of many species from a point of origin across a geography; Australia's marsupials did the same on an island continent, and their parallels with placental mammals make the pair a case of convergent evolution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adaptive Radiation: Darwin's Finches and Marsupials'.",
+     "a": "One ancestor plus many vacant niches equals a burst of diversification -- and when two separate radiations land on look-alike answers, that is convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Adaptive Radiation: Darwin's Finches and Marsupials' taught, and from which source text?",
+     "a": "6.4 (source: lebo106.txt lines 273-308 (Galapagos finches, Australian marsupials, placental-marsupial parallels))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.5.1",
+   "title": "Darwinian Fitness, Lamarck's Claim and the Two Keys of Evolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Darwinian Fitness, Lamarck's Claim and the Two Keys of Evolution' refers to.",
+     "a": "Evolution by selection runs at the speed of each lineage's life cycle -- bacteria can pivot in days while fish need aeons -- because fitness is inherited; Darwin's two key ideas are branching descent and natural selection, while Lamarck's rival story that giraffes stretched their necks by use and passed the stretch on has been discarded.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Darwinian Fitness, Lamarck's Claim and the Two Keys of Evolution'.",
+     "a": "Selection needs limited resources, stable population sizes and heritable variation -- Malthus's population arithmetic turned into biology.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Darwinian Fitness, Lamarck's Claim and the Two Keys of Evolution' taught, and from which source text?",
+     "a": "6.5 (source: lebo106.txt lines 309-393 (bacterial colony example, genetic basis of fitness, branching descent, Lamarck's giraffes, Malthus, deVries mutation theory))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.7.1",
+   "title": "Hardy-Weinberg Principle and Allele Frequencies",
+   "questions": [
+    {
+     "q": "Using the method 'Hardy-Weinberg Principle and Allele Frequencies', work with: dominant_freq = 400, recessive_freq = 25. Carry the chain through step by step and give the final value of homozygous_recessive.",
+     "a": "625 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Hardy-Weinberg Principle and Allele Frequencies' and work with: dominant_freq = 24, recessive_freq = 200. Carry the chain through step by step and give the final value of homozygous_recessive.",
+     "a": "40000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hardy-Weinberg Principle and Allele Frequencies' refers to.",
+     "a": "In a large, undisturbed population the allele frequencies p and q stay frozen across generations -- genetic equilibrium -- and the diploid genotype shares follow the binomial spread p-squared for the homozygous dominant class, 2pq for heterozygotes and q-squared for the homozygous recessive class, with the three summing to one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hardy-Weinberg Principle and Allele Frequencies'.",
+     "a": "The equation is a null model -- measured frequencies that drift away from it are the very signature of evolution at work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hardy-Weinberg Principle and Allele Frequencies', in plain ASCII form.",
+     "a": "p_2 + 2pq + q_2 = 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.7.2",
+   "title": "Five Forces Against Equilibrium and Three Modes of Selection",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Five Forces Against Equilibrium and Three Modes of Selection' refers to.",
+     "a": "Gene migration, genetic drift, mutation, recombination and natural selection all shove allele frequencies off balance; drift acting on a small founding sample can even seed a new species (founder effect), and selection itself works in three gaits -- stabilising around the mean, directional toward one extreme, or disruptive favouring both tails of the curve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Forces Against Equilibrium and Three Modes of Selection'.",
+     "a": "Any change of allele frequency between generations is evolution in action -- the five forces are simply the levers that move it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Five Forces Against Equilibrium and Three Modes of Selection' taught, and from which source text?",
+     "a": "6.7 (source: lebo106.txt lines 427-451 (gene flow, drift, founder effect, speciation, stabilising/directional/disruptive selection))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.8.1",
+   "title": "A Timeline of Life's History on Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'A Timeline of Life's History on Earth' refers to.",
+     "a": "Cellular life appears near 2000 million years ago, multicellular forms follow, invertebrates flourish by 500 mya, jawless fish and the lobefin ancestors of amphibians show around 350 mya, reptiles with shelled eggs take over, dinosaurs rule until their sudden exit about 65 mya, and mammals -- first shrew-like -- inherit the earth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'A Timeline of Life's History on Earth'.",
+     "a": "Each invasion of a new medium -- water to land, land to air -- rides on a structure repurposed from an older one, like stout fins becoming limbs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'A Timeline of Life's History on Earth' taught, and from which source text?",
+     "a": "6.8 (source: lebo106.txt lines 452-513 (first cells, oxygen release, invertebrates, lobefins, amphibians, reptiles, dinosaurs, mammals, continental drift))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo106.6.9.1",
+   "title": "Origin and Evolution of Man",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Origin and Evolution of Man' refers to.",
+     "a": "Human linehistory climbs from the ape-like Dryopithecus and more man-like Ramapithecus (15 mya) through upright, fruit-eating Australopithecines (2 mya) to Homo habilis with a 650-800 cc brain, Homo erectus at about 900 cc who ate meat, heavy-browed Neanderthal man at 1400 cc who buried his dead, and finally Homo sapiens, who arose in Africa and spread worldwide during the ice age.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Origin and Evolution of Man'.",
+     "a": "Brain capacity roughly doubles across the sequence while diet, tool use and culture deepen -- language and self-awareness crown the story.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Origin and Evolution of Man' taught, and from which source text?",
+     "a": "6.9 (source: lebo106.txt lines 514-546 (Dryopithecus to Homo sapiens, brain capacities, cave art, agriculture))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

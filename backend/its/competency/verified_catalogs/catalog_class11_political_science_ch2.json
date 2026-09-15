@@ -1,0 +1,572 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 2,
+ "chapter_title": "Rights in the Indian Constitution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest106.txt",
+ "concepts": [
+  {
+   "id": "c11ps.2.1",
+   "title": "Meaning of Rights",
+   "section": "Meaning of Rights",
+   "definition": "Rights are reasonable claims of persons recognised by society and sanctioned by law, which enable individuals to develop their personality and live with dignity, backed by the authority of the state.",
+   "formula": "",
+   "key_idea": "Rights are claims that are recognised by society and enforced by the state; they are essential for the full development of individuals and the protection of their dignity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are rights and why are they important?",
+    "Explain the difference between a moral right and a legal right.",
+    "Why must rights be recognised by society and sanctioned by law?",
+    "How do rights contribute to the development of human personality?",
+    "What is the relationship between rights and duties?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define rights as recognised claims",
+     "explain": "Rights are reasonable claims of individuals that are recognised by society and backed by the legal authority of the state."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish types of rights",
+     "explain": "Moral rights are based on moral principles and not enforceable by law; legal rights are recognised and enforced by the state; constitutional rights are guaranteed by the constitution."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship between rights and duties",
+     "explain": "Rights and duties are two sides of the same coin; one person's right implies a corresponding duty on others and the state to respect it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the right to education considered a legal right rather than merely a moral right?",
+     "solution": "Step 1: A moral right is based on conscience and is not enforceable. Step 2: The right to education is recognised and enforced by law under the Constitution. Step 3: Hence it is a legal right.",
+     "answer": "Because it is recognised and enforced by law, not merely by moral conscience"
+    },
+    {
+     "question": "How are rights and duties related?",
+     "solution": "Step 1: Every right imposes a duty on others and the state to respect it. Step 2: For example, my right to free speech implies a duty on others not to prevent me from speaking. Step 3: Hence rights and duties are complementary.",
+     "answer": "Rights and duties are complementary; every right creates a corresponding duty on others and the state"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of rights and distinguish between moral, legal, and constitutional rights.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are rights necessary for the development of human personality?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.2",
+   "title": "Fundamental Rights: An Overview",
+   "section": "Fundamental Rights",
+   "definition": "Fundamental Rights are the basic rights guaranteed by Part III (Articles 12 to 35) of the Indian Constitution to all citizens, which are enforceable by courts and are essential for the development of individuals and the democratic functioning of the country.",
+   "formula": "",
+   "key_idea": "The Indian Constitution guarantees six categories of Fundamental Rights that are enforceable by courts and cannot be violated by the state, forming the cornerstone of Indian democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Fundamental Rights and why are they called fundamental?",
+    "List the six Fundamental Rights guaranteed by the Indian Constitution.",
+    "Why are Fundamental Rights enforceable by courts?",
+    "How do Fundamental Rights differ from ordinary legal rights?",
+    "Explain the significance of Fundamental Rights in a democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the six categories of Fundamental Rights",
+     "explain": "The six Fundamental Rights are: Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies."
+    },
+    {
+     "step": 2,
+     "action": "Explain why they are called fundamental",
+     "explain": "They are essential for the all-round development of individuals, are guaranteed by the Constitution, and are enforceable by courts through writs, making them superior to ordinary legal rights."
+    },
+    {
+     "step": 3,
+     "action": "Note the significance in a democracy",
+     "explain": "They protect citizens from arbitrary state action, ensure equality and freedom, and empower citizens to approach courts for their enforcement, strengthening democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are Fundamental Rights considered superior to ordinary legal rights?",
+     "solution": "Step 1: Ordinary legal rights can be changed or removed by ordinary legislation. Step 2: Fundamental Rights are guaranteed by the Constitution and can be curtailed only by constitutional amendment. Step 3: They are also enforceable directly by courts through writs.",
+     "answer": "Because they are guaranteed by the Constitution, cannot be removed by ordinary law, and are directly enforceable by courts"
+    },
+    {
+     "question": "How many categories of Fundamental Rights are guaranteed by the Indian Constitution?",
+     "solution": "Step 1: The Constitution originally provided seven categories. Step 2: The Right to Property was removed by the 44th Amendment and made a legal right. Step 3: Currently there are six categories of Fundamental Rights.",
+     "answer": "Six categories"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the six Fundamental Rights and explain why they are called fundamental.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do Fundamental Rights differ from ordinary legal rights?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.3",
+   "title": "Right to Equality",
+   "section": "Right to Equality (Articles 14-18)",
+   "definition": "The Right to Equality, guaranteed by Articles 14 to 18, establishes equality before law and equal protection of laws, prohibits discrimination on grounds of religion, race, caste, sex, or place of birth, and abolishes untouchability and titles.",
+   "formula": "",
+   "key_idea": "The Right to Equality ensures that all citizens are treated equally by the law, prohibits discrimination, and abolishes social evils like untouchability and the conferment of titles.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the meaning of equality before law and equal protection of laws?",
+    "Explain the provisions of Article 15 regarding prohibition of discrimination.",
+    "What does the abolition of untouchability under Article 17 mean?",
+    "How does the Right to Equality allow reasonable classification?",
+    "Explain the provisions of Article 16 regarding equality of opportunity in public employment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific article and its provision",
+     "explain": "Article 14 guarantees equality before law and equal protection of laws; Article 15 prohibits discrimination; Article 16 ensures equality of opportunity in public employment; Article 17 abolishes untouchability; Article 18 abolishes titles."
+    },
+    {
+     "step": 2,
+     "action": "Explain the scope and exceptions of the provision",
+     "explain": "Equality does not mean absolute equality; reasonable classification based on intelligible differentia is permitted, and special provisions for women, children, and backward classes are allowed."
+    },
+    {
+     "step": 3,
+     "action": "Apply the provision to the given situation",
+     "explain": "Determine whether the act in question amounts to discrimination, violates equality of opportunity, or constitutes the practice of untouchability, and conclude accordingly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A state government reserves a certain percentage of government jobs for Scheduled Castes and Scheduled Tribes. Does this violate the Right to Equality?",
+     "solution": "Step 1: Article 16 guarantees equality of opportunity in public employment. Step 2: However, the Constitution permits reservation for backward classes as a reasonable classification. Step 3: Hence such reservation does not violate the Right to Equality.",
+     "answer": "No, because reservation for backward classes is a permitted reasonable classification under Article 16(4)"
+    },
+    {
+     "question": "A restaurant refuses to serve a person because of their caste. Which fundamental right is violated?",
+     "solution": "Step 1: Article 15 prohibits discrimination on grounds of caste in access to public places. Step 2: Article 17 abolishes untouchability and its practice in any form. Step 3: The restaurant's action violates both Article 15 and Article 17.",
+     "answer": "Articles 15 and 17 (prohibition of discrimination and abolition of untouchability)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the provisions of Articles 14 to 18 relating to the Right to Equality.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between equality before law and equal protection of laws.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.4",
+   "title": "Right to Freedom",
+   "section": "Right to Freedom (Articles 19-22)",
+   "definition": "The Right to Freedom, guaranteed by Articles 19 to 22, provides for six freedoms of citizens (speech, assembly, association, movement, residence, and profession), protection against arbitrary arrest and detention, and safeguards in cases of preventive detention.",
+   "formula": "",
+   "key_idea": "The Right to Freedom guarantees essential personal and political freedoms to citizens, while allowing reasonable restrictions in the interest of public order, security, and morality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the six freedoms guaranteed under Article 19?",
+    "Explain the reasonable restrictions that can be imposed on the freedom of speech and expression.",
+    "What protections are available to a person arrested under ordinary law under Article 22?",
+    "Distinguish between punitive detention and preventive detention.",
+    "How does the Right to Freedom balance individual liberty with public interest?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific freedom or protection in question",
+     "explain": "Article 19 guarantees six freedoms (speech and expression, assembly, association, movement, residence, profession); Articles 20-22 deal with protection in criminal cases and arrest safeguards."
+    },
+    {
+     "step": 2,
+     "action": "Determine whether reasonable restrictions apply",
+     "explain": "Each freedom under Article 19 is subject to reasonable restrictions in the interests of sovereignty, public order, decency, morality, or friendly relations with foreign states."
+    },
+    {
+     "step": 3,
+     "action": "Apply the safeguards under Articles 20-22 if arrest is involved",
+     "explain": "Article 22 requires that an arrested person be informed of grounds of arrest, allowed to consult a lawyer, and produced before a magistrate within 24 hours."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person is arrested and not produced before a magistrate for three days. Which fundamental right is violated?",
+     "solution": "Step 1: Article 22 requires an arrested person to be produced before a magistrate within 24 hours. Step 2: The person was not produced for three days. Step 3: This violates Article 22 of the Constitution.",
+     "answer": "Article 22 (Right against arbitrary arrest and detention)"
+    },
+    {
+     "question": "Can the government restrict a public meeting if it is likely to cause a breach of peace?",
+     "solution": "Step 1: Article 19(1)(b) guarantees the right to assemble peacefully. Step 2: This is subject to reasonable restrictions in the interest of public order. Step 3: Hence the government can impose reasonable restrictions to maintain public order.",
+     "answer": "Yes, under reasonable restrictions in the interest of public order under Article 19(3)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the six freedoms guaranteed under Article 19 and the reasonable restrictions on each.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the safeguards provided under Article 22 against arbitrary arrest?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.5",
+   "title": "Right against Exploitation",
+   "section": "Right against Exploitation (Articles 23-24)",
+   "definition": "The Right against Exploitation, guaranteed by Articles 23 and 24, prohibits traffic in human beings and forced labour (begar), and bans the employment of children below the age of fourteen years in factories, mines, or hazardous occupations.",
+   "formula": "",
+   "key_idea": "The Right against Exploitation protects vulnerable sections of society by prohibiting human trafficking, forced labour, and child labour in hazardous occupations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is begar and how does the Constitution prohibit it?",
+    "Explain the provisions of Article 23 regarding traffic in human beings and forced labour.",
+    "What does Article 24 say about the employment of children?",
+    "How does the Right against Exploitation protect vulnerable sections of society?",
+    "Distinguish between the prohibitions under Articles 23 and 24."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the situation involves forced labour, trafficking, or child labour",
+     "explain": "Article 23 prohibits traffic in human beings, begar (forced labour without payment), and similar forms of forced labour; Article 24 prohibits employment of children below 14 in factories, mines, or hazardous work."
+    },
+    {
+     "step": 2,
+     "action": "Determine the applicable article",
+     "explain": "If the issue is forced labour or trafficking, Article 23 applies; if it is child labour in hazardous occupations, Article 24 applies."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the right is violated",
+     "explain": "State that the practice is prohibited and is a punishable offence under the Constitution, and that the state is bound to enforce this prohibition."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A landlord forces a tenant to work on his fields without payment. Which fundamental right is violated?",
+     "solution": "Step 1: The tenant is being forced to work without payment, which is begar. Step 2: Article 23 prohibits forced labour and begar. Step 3: Hence Article 23 is violated.",
+     "answer": "Article 23 (prohibition of forced labour and begar)"
+    },
+    {
+     "question": "A factory employs children aged 12 in a hazardous chemical unit. Which fundamental right is violated?",
+     "solution": "Step 1: The children are below 14 years of age. Step 2: Article 24 prohibits employment of children below 14 in factories and hazardous occupations. Step 3: Hence Article 24 is violated.",
+     "answer": "Article 24 (prohibition of child labour in hazardous occupations)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the provisions of Articles 23 and 24 relating to the Right against Exploitation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is begar and why has the Constitution prohibited it?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.6",
+   "title": "Right to Freedom of Religion",
+   "section": "Right to Freedom of Religion (Articles 25-28)",
+   "definition": "The Right to Freedom of Religion, guaranteed by Articles 25 to 28, provides freedom of conscience and the right to profess, practise, and propagate religion, while allowing the state to regulate secular activities and ensure public order, morality, and health.",
+   "formula": "",
+   "key_idea": "India is a secular state where all religions are treated equally; citizens have the freedom to profess, practise, and propagate any religion, subject to public order, morality, and health.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the meaning of secularism in the Indian context?",
+    "Explain the freedom of religion guaranteed under Article 25.",
+    "How does the Constitution distinguish between religious and secular activities?",
+    "What does Article 28 say about religious instruction in educational institutions?",
+    "How does the Right to Freedom of Religion balance religious freedom with state regulation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the religious freedom or restriction in question",
+     "explain": "Article 25 guarantees freedom of conscience and the right to profess, practise, and propagate religion; Article 26 allows religious denominations to manage affairs; Article 27 prohibits taxes for religious promotion; Article 28 restricts religious instruction in state institutions."
+    },
+    {
+     "step": 2,
+     "action": "Determine the limits on religious freedom",
+     "explain": "Religious freedom is subject to public order, morality, health, and other fundamental rights; the state can regulate secular, economic, financial, or political activities associated with religion."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the state action is permissible",
+     "explain": "If the state action regulates a secular activity or protects public order, it is valid; if it interferes with genuine religious practice without justification, it violates the right."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can the state regulate the financial and economic activities of a religious institution?",
+     "solution": "Step 1: Article 25 allows the state to regulate secular activities associated with religion. Step 2: Financial and economic activities are secular in nature. Step 3: Hence the state can regulate them.",
+     "answer": "Yes, because economic and financial activities are secular activities that the state can regulate under Article 25(2)"
+    },
+    {
+     "question": "Can a wholly state-funded educational institution give religious instruction?",
+     "solution": "Step 1: Article 28 prohibits religious instruction in institutions wholly maintained by state funds. Step 2: The institution is wholly state-funded. Step 3: Hence it cannot give religious instruction.",
+     "answer": "No, Article 28(1) prohibits religious instruction in wholly state-funded institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the provisions of Articles 25 to 28 relating to the Right to Freedom of Religion.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does Indian secularism differ from the concept of secularism in some Western countries?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.7",
+   "title": "Cultural and Educational Rights",
+   "section": "Cultural and Educational Rights (Articles 29-30)",
+   "definition": "Cultural and Educational Rights, guaranteed by Articles 29 and 30, protect the interests of minorities by allowing them to conserve their culture, language, and script, and by giving them the right to establish and administer educational institutions.",
+   "formula": "",
+   "key_idea": "The Constitution protects the cultural and educational interests of minorities, both religious and linguistic, ensuring that they can preserve their identity and establish educational institutions of their choice.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Cultural and Educational Rights and to whom are they guaranteed?",
+    "Explain the right of minorities to establish and administer educational institutions under Article 30.",
+    "How does Article 29 protect the culture and language of minorities?",
+    "Can the state discriminate in granting aid to minority institutions? Explain.",
+    "Why are Cultural and Educational Rights important for minorities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the situation concerns a minority group and its cultural or educational rights",
+     "explain": "Article 29 protects the right of any section of citizens with a distinct language, script, or culture to conserve it; Article 30 gives religious and linguistic minorities the right to establish and administer educational institutions."
+    },
+    {
+     "step": 2,
+     "action": "Determine the applicable provision",
+     "explain": "If the issue is conservation of culture or language, Article 29 applies; if it is the right to establish and administer an educational institution, Article 30 applies."
+    },
+    {
+     "step": 3,
+     "action": "Assess whether state action is discriminatory",
+     "explain": "Article 30(2) prohibits the state from discriminating against any educational institution in granting aid merely because it is under minority management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A linguistic minority wants to establish a school to teach in its own language. Which fundamental right supports this?",
+     "solution": "Step 1: The group is a linguistic minority. Step 2: Article 30 gives minorities the right to establish and administer educational institutions. Step 3: Hence Article 30 supports this right.",
+     "answer": "Article 30 (right of minorities to establish and administer educational institutions)"
+    },
+    {
+     "question": "The state government refuses to grant aid to a school run by a religious minority while granting aid to similar schools run by the majority community. Is this valid?",
+     "solution": "Step 1: Article 30(2) prohibits discrimination in granting aid on the ground of minority management. Step 2: The state is discriminating because the school is under minority management. Step 3: Hence this is invalid under Article 30(2).",
+     "answer": "No, it violates Article 30(2) which prohibits discrimination in granting aid to minority institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the provisions of Articles 29 and 30 relating to Cultural and Educational Rights.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are Cultural and Educational Rights important for the protection of minorities?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.8",
+   "title": "Right to Constitutional Remedies",
+   "section": "Right to Constitutional Remedies (Article 32)",
+   "definition": "The Right to Constitutional Remedies, guaranteed by Article 32, allows a citizen to approach the Supreme Court directly for the enforcement of Fundamental Rights through writs such as habeas corpus, mandamus, prohibition, certiorari, and quo warranto.",
+   "formula": "",
+   "key_idea": "Article 32 makes Fundamental Rights enforceable by empowering citizens to approach the Supreme Court directly, which is why Dr. Ambedkar called it the heart and soul of the Constitution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Right to Constitutional Remedies and why is it important?",
+    "Explain the five types of writs issued by the Supreme Court under Article 32.",
+    "Why did Dr. Ambedkar call Article 32 the heart and soul of the Constitution?",
+    "What is the difference between Article 32 and Article 226?",
+    "Explain the writ of habeas corpus with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fundamental right that has been violated",
+     "explain": "Determine which Fundamental Right under Part III has been infringed by the state or its action."
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate writ for the situation",
+     "explain": "Habeas corpus (illegal detention), mandamus (compel a public authority to perform duty), prohibition (prevent lower court from exceeding jurisdiction), certiorari (quash an order of a lower court or tribunal), quo warranto (challenge unlawful holding of a public office)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of Article 32 in enforcement",
+     "explain": "Article 32 allows direct approach to the Supreme Court for enforcement of Fundamental Rights, making them meaningful and effective rather than merely declaratory."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person is detained by the police without being informed of the grounds of arrest. Which writ should be filed and under which article?",
+     "solution": "Step 1: The person is illegally detained without lawful authority. Step 2: The writ of habeas corpus is used to produce the detained person before the court. Step 3: It can be filed under Article 32 in the Supreme Court.",
+     "answer": "Habeas corpus under Article 32"
+    },
+    {
+     "question": "Why did Dr. B.R. Ambedkar call Article 32 the heart and soul of the Constitution?",
+     "solution": "Step 1: Fundamental Rights would be meaningless without a mechanism to enforce them. Step 2: Article 32 provides the right to approach the Supreme Court directly for their enforcement. Step 3: Hence it is the heart and soul of the Constitution.",
+     "answer": "Because it provides the mechanism to enforce all other Fundamental Rights, making them effective and meaningful"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the Right to Constitutional Remedies under Article 32 and the five types of writs.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between the writs of mandamus and certiorari.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.9",
+   "title": "Directive Principles of State Policy",
+   "section": "Directive Principles of State Policy (Articles 36-51)",
+   "definition": "Directive Principles of State Policy, contained in Part IV (Articles 36 to 51), are guidelines for the state in making laws and policies, aimed at establishing social and economic justice, and are not enforceable by courts but are fundamental to governance.",
+   "formula": "",
+   "key_idea": "Directive Principles are non-justiciable directions to the state to promote social and economic welfare, inspired by the Irish Constitution, and are fundamental in the governance of the country.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Directive Principles of State Policy and what is their purpose?",
+    "Why are Directive Principles not enforceable by courts?",
+    "Classify the Directive Principles into social, economic, and political categories.",
+    "Explain the difference between Fundamental Rights and Directive Principles.",
+    "What is the significance of Directive Principles in the governance of the country?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the Directive Principle in question",
+     "explain": "Directive Principles are classified into social justice (equal pay, living wage), economic (distribution of resources, right to work), and political (participation in administration, international peace) categories."
+    },
+    {
+     "step": 2,
+     "action": "Explain their non-justiciable character",
+     "explain": "Article 37 states that Directive Principles are not enforceable by courts, but they are fundamental in the governance of the country and the state has a duty to apply them in making laws."
+    },
+    {
+     "step": 3,
+     "action": "Assess their significance in governance",
+     "explain": "They guide the state in policy-making, help in interpreting laws, and provide the goal of a welfare state, even though courts cannot compel their enforcement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can a citizen approach the court to enforce a Directive Principle if the state has failed to implement it?",
+     "solution": "Step 1: Directive Principles are contained in Part IV of the Constitution. Step 2: Article 37 states that they are not enforceable by courts. Step 3: Hence a citizen cannot approach the court to enforce a Directive Principle.",
+     "answer": "No, because Directive Principles are non-justiciable under Article 37"
+    },
+    {
+     "question": "The government enacts a law providing equal pay for equal work for men and women. Which Directive Principle is being implemented?",
+     "solution": "Step 1: Equal pay for equal work is a Directive Principle. Step 2: Article 39(d) directs the state to secure equal pay for equal work for both men and women. Step 3: Hence Article 39(d) is being implemented.",
+     "answer": "Article 39(d) - equal pay for equal work for men and women"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the nature and significance of Directive Principles of State Policy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are Directive Principles not enforceable by courts despite being fundamental to governance?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.2.10",
+   "title": "Relationship between Fundamental Rights and Directive Principles",
+   "section": "Relationship between Fundamental Rights and Directive Principles",
+   "definition": "Fundamental Rights and Directive Principles are complementary to each other; Fundamental Rights are justiciable rights that protect individual liberty, while Directive Principles are non-justiciable goals that guide the state towards social and economic justice, and together they form the conscience of the Constitution.",
+   "formula": "",
+   "key_idea": "Fundamental Rights and Directive Principles are not contradictory but complementary, aiming together to establish a just and welfare society, with courts harmoniously interpreting them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the relationship between Fundamental Rights and Directive Principles.",
+    "How do Fundamental Rights and Directive Principles complement each other?",
+    "Can Directive Principles override Fundamental Rights? Explain with the example of Article 31C.",
+    "How have the courts harmonised the conflict between Fundamental Rights and Directive Principles?",
+    "Why are Fundamental Rights and Directive Principles described as two sides of the same coin?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the apparent conflict",
+     "explain": "Fundamental Rights (Part III) are justiciable and protect individual liberty; Directive Principles (Part IV) are non-justiciable and aim at collective welfare, which may sometimes appear to conflict."
+    },
+    {
+     "step": 2,
+     "action": "Apply the principle of harmonious construction",
+     "explain": "Courts have held that the two are complementary and should be harmoniously interpreted; laws giving effect to Directive Principles may be protected under Article 31C if they do not destroy the basic structure."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on their complementary nature",
+     "explain": "Fundamental Rights provide the political democracy and individual freedom, while Directive Principles provide the social and economic democracy; together they aim at a just social order."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Supreme Court resolve the conflict between Fundamental Rights and Directive Principles in the Minerva Mills case?",
+     "solution": "Step 1: The Minerva Mills case (1980) concerned the balance between Fundamental Rights and Directive Principles. Step 2: The Court held that both are complementary and that harmony between them is the basic structure of the Constitution. Step 3: Hence neither can destroy the other, and they must be read together.",
+     "answer": "The Court held that Fundamental Rights and Directive Principles are complementary and form the basic structure, and must be harmoniously balanced"
+    },
+    {
+     "question": "A law nationalises an industry to give effect to a Directive Principle but affects the Right to Property. Is such a law valid?",
+     "solution": "Step 1: The law seeks to implement a Directive Principle. Step 2: Article 31C protects laws giving effect to certain Directive Principles from being challenged on the ground of violating Articles 14 or 19. Step 3: Hence such a law is valid to the extent it is protected by Article 31C.",
+     "answer": "Yes, such a law is protected under Article 31C if it gives effect to a Directive Principle, subject to the basic structure"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the complementary relationship between Fundamental Rights and Directive Principles with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How have the courts harmonised the apparent conflict between Fundamental Rights and Directive Principles?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

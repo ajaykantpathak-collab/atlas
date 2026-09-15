@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_11",
+   "title": "c9_chem_ch1_11",
+   "questions": [
+    {
+     "q": "Define the Tyndall effect and state the size range of particles that exhibit it.",
+     "a": "The Tyndall effect is the scattering of light by colloidal particles (1 nm – 1000 nm) making the light path visible. A wrong answer (e.g., \"scattering by any particles\" or \"size >1000 nm\") reveals the student confuses colloids with suspensions or does not know the critical size criterion linking particle dimensions to light wavelength.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a true solution of copper sulphate not show the Tyndall effect, while a colloidal solution of starch does? Explain using particle size and light wavelength.",
+     "a": "CuSO₄ solution has ions/molecules <1 nm, much smaller than visible light wavelength (400-700 nm), so no scattering occurs. Starch colloid has particles 1-1000 nm, comparable to light wavelength, causing strong scattering. A wrong answer (e.g., \"starch is coloured\" or \"CuSO₄ is transparent\") shows the student relies on appearance rather than the size-wavelength relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student shines a laser pointer through three beakers: (A) salt water, (B) milk diluted 1:100, (C) muddy water. In which beaker(s) will the beam be visible? Justify your answer for each.",
+     "a": "Beam visible only in (B) milk (colloid, 1-1000 nm fat/protein particles scatter light). Not visible in (A) salt water (true solution, ions <1 nm). Not visible in (C) muddy water (suspension, particles >1000 nm settle quickly and block light rather than scatter). A wrong answer identifying (C) shows confusion between suspension and colloid; identifying (A) shows misunderstanding of true solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Tyndall effect observed in a colloid with the scattering of sunlight by atmospheric molecules (Rayleigh scattering). How are the particle sizes and scattering intensity different?",
+     "a": "Rayleigh scattering: particles (N₂, O₂ molecules) ~0.3 nm, much smaller than wavelength, scattering intensity ∝ 1/λ⁴ (blue sky). Tyndall effect: colloidal particles 1-1000 nm, comparable to wavelength, scattering less wavelength-dependent (white beam). A wrong answer equating the two shows failure to distinguish molecular vs. colloidal scattering regimes.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"If a liquid looks clear and colourless, it cannot be a colloid.\" Evaluate this statement using the Tyndall effect as evidence.",
+     "a": "The statement is false. Many colloids (e.g., dilute gelatin, some sols) appear clear and colourless to the naked eye but show a visible Tyndall beam when a laser passes through. The Tyndall effect is a more reliable diagnostic than visual clarity. A wrong answer agreeing with the teacher reveals the misconception that colloids must always look cloudy or opaque.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to test whether a given sample of \"honey\" is a true solution or a colloid. List materials, procedure, observation, and conclusion criteria.",
+     "a": "Materials: laser pointer, clear glass, water, honey sample. Procedure: Dilute honey in water (1:10), stir. Shine laser through the mixture in a dark room. Observation: If beam path is visible (bright cone), it's a colloid; if invisible, true solution. Criteria: Colloidal particles in honey (pollen, proteins) scatter light. A poor answer (e.g., \"taste it\" or \"check if it dissolves\") shows inability to apply the Tyndall effect as a diagnostic tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

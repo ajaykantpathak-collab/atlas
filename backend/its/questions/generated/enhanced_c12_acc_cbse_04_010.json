@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_010",
+   "title": "c12_acc_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the journal entry to transfer sundry assets (excluding cash/bank) to Realisation Account at book value when a partnership firm is dissolved.",
+     "a": "Correct entry: Realisation A/c Dr. → To Sundry Assets A/c (individually). A wrong answer like \"Sundry Assets A/c Dr. → To Realisation A/c\" reveals confusion about which account is debited — students often reverse the direction because they think assets are \"coming in\" rather than being transferred out for realisation. The Realisation Account is debited because it is being charged with the book value of assets given up.",
+     "self_check": true
+    },
+    {
+     "q": "A partner agrees to bear realisation expenses of ₹10,000 for which the firm pays ₹10,000 to a third party. Explain why the entry is NOT \"Realisation A/c Dr. 10,000 → To Partner's Capital A/c 10,000\" at the time of payment.",
+     "a": "Correct reasoning: When the firm pays the third party, the entry is Realisation A/c Dr. → To Bank A/c. The partner's obligation is recorded separately later: Partner's Capital A/c Dr. → To Realisation A/c (for the amount borne). Combining them at payment stage violates the principle that Realisation Account records only firm-level transactions. A student who merges them confuses the timing of expense recognition with the partner's reimbursement commitment.",
+     "self_check": true
+    },
+    {
+     "q": "On dissolution, an unrecorded asset (old furniture) is taken over by Partner A at an agreed value of ₹5,000. The firm's books show no furniture account. Pass the journal entry.",
+     "a": "Correct entry: Partner A's Capital A/c Dr. 5,000 → To Realisation A/c 5,000. Steps: (1) Recognise unrecorded asset brings gain to Realisation A/c → Credit Realisation A/c. (2) Partner taking it over settles via his capital → Debit Partner's Capital A/c. A wrong entry like \"Realisation A/c Dr. → To Partner's Capital A/c\" reverses the flow and treats it as a loss. Another common error: crediting Bank A/c instead of Realisation A/c, forgetting no cash changes hands.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal entries for (a) payment of a partner's loan to the firm and (b) payment of a partner's capital after realisation. Why does the loan entry NOT go through Realisation Account?",
+     "a": "(a) Partner's Loan A/c Dr. → To Bank A/c. (b) Partner's Capital A/c Dr. → To Bank A/c (after Realisation profit/loss adjustment). The loan is an external liability of the firm, not a capital claim; it is paid before capital and does not affect Realisation Account because it is not part of the realisation process — it is a separate contractual obligation. A student who routes loan payment through Realisation A/c mistakenly treats it as a realisation expense or liability to be realised, confusing loan (liability) with capital (owner's equity).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"In case of a partner's insolvency, the deficient capital is shared by solvent partners in their profit-sharing ratio.\" Is this statement correct under Garner v Murray? Justify.",
+     "a": "Incorrect. Under Garner v Murray, the solvent partners bear the insolvent partner's deficiency in their **capital ratio (fixed capitals before dissolution)**, not profit-sharing ratio. The rule applies only when: (i) fixed capitals are maintained, (ii) no agreement to the contrary, (iii) the firm is dissolved. A student who says profit-sharing ratio ignores the specific legal precedent and the distinction between profit-sharing (for P&L) and capital contribution (for loss on realisation). This error costs full marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case: A firm with partners X, Y, Z (profit ratio 3:2:1) dissolves. Realisation profit ₹30,000. X's capital ₹1,00,000, Y ₹60,000, Z ₹40,000 (dr.). Z is insolvent (can pay ₹10,000). Write the journal entry to distribute the realisation profit and the entry for Z's deficiency under Garner v Murray. Show the final capital balances.",
+     "a": "Step 1: Distribute profit 3:2:1 → X ₹15,000, Y ₹10,000, Z ₹5,000. Entry: Realisation A/c Dr. 30,000 → To X's Capital 15,000, Y's Capital 10,000, Z's Capital 5,000. Step 2: Z's capital after profit = ₹45,000 (dr. 40,000 + 5,000 cr. = 35,000 dr.? Wait: Z had debit balance 40,000, gets credit 5,000 → net debit 35,000). Z pays 10,000 → Bank Dr. 10,000 → To Z's Capital 10,000. Deficiency = 25,000. Borne by X & Y in capital ratio 1,00,000:60,000 = 5:3. X bears 25,000×5/8=15,625; Y bears 9,375. Entry: X's Capital Dr. 15,625, Y's Capital Dr. 9,375 → To Z's Capital 25,000. Final: X = 1,00,000+15,000-15,625=99,375; Y=60,000+10,000-9,375=60,625; Z=0. A poor answer misses the capital ratio step or uses profit ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

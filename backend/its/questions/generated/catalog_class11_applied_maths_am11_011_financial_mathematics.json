@@ -1,0 +1,412 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_011_financial_mathematics.json",
+ "concepts": [
+  {
+   "id": "am11_011.1",
+   "title": "Simple Interest on the Principal",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 6000 at 8% per annum for 4 years.",
+     "a": "1920",
+     "self_check": false
+    },
+    {
+     "q": "Rs 6000 is deposited at 8% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "7920",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 8% per annum simple interest earns Rs 1920 in 4 years. Find the principal (two decimal places).",
+     "a": "6000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 6000 at 8% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "1558.27",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 6000 grows for 3 years at 8% per annum compounded annually (two decimal places)?",
+     "a": "7558.27",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 6000 at 12% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "7574.86",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.2",
+   "title": "Maturity Amount at Simple Interest",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 5000 at 4% per annum for 4 years.",
+     "a": "800",
+     "self_check": false
+    },
+    {
+     "q": "Rs 5000 is deposited at 4% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "5800",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 4% per annum simple interest earns Rs 800 in 4 years. Find the principal (two decimal places).",
+     "a": "5000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 5000 at 4% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "408",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 5000 grows for 2 years at 4% per annum compounded annually (two decimal places)?",
+     "a": "5408",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 5000 at 10% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "6077.53",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.3",
+   "title": "Compound Interest Earned",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 8000 at 10% per annum for 4 years.",
+     "a": "3200",
+     "self_check": false
+    },
+    {
+     "q": "Rs 8000 is deposited at 10% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "11200",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 10% per annum simple interest earns Rs 3200 in 4 years. Find the principal (two decimal places).",
+     "a": "8000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 8000 at 10% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "2648",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 8000 grows for 3 years at 10% per annum compounded annually (two decimal places)?",
+     "a": "10648",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 8000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "9358.87",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.4",
+   "title": "Accumulated Amount under Compound Interest",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 8000 at 8% per annum for 5 years.",
+     "a": "3200",
+     "self_check": false
+    },
+    {
+     "q": "Rs 8000 is deposited at 8% simple interest per annum for 5 years. Find the maturity amount.",
+     "a": "11200",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 8% per annum simple interest earns Rs 3200 in 5 years. Find the principal (two decimal places).",
+     "a": "8000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 8000 at 8% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "1331.2",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 8000 grows for 2 years at 8% per annum compounded annually (two decimal places)?",
+     "a": "9331.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 8000 at 12% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "10099.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.5",
+   "title": "Annual Equivalent and Effective Rate",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 155, find the index number.",
+     "a": "155",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 5, 5, 10 and the base-year prices are 12, 16, 13. Find the simple aggregative price index (two decimal places).",
+     "a": "48.78",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 48.78 and the corresponding Paasche price index is 48.78. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.24",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 75 + 2 x. Find the fitted value at x = 5.",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 2 per kg (8 kg) and Rs 4 per kg (2 kg). Find the mean price by alligation (two decimal places).",
+     "a": "2.4",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 40 litres; 16 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.6",
+   "title": "Present Value by Discounting",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 500 and sells it for Rs 575. Find the profit.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 500, selling price Rs 575. Find the profit percentage.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 500 is sold for Rs 250. Find the loss percentage.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 200. At what price should he sell it?",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 800 and the shop offers a 20% discount. What is the sale price?",
+     "a": "640",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 800 sells for Rs 640 after a discount. Find the discount percentage.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.7",
+   "title": "Net Present Value of a Cash Flow",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For a triangular prism, find the number of edges.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For a pentagonal pyramid, find the number of vertices.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a triangular prism by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 8, find F.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 8, find V.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 3, find E.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.8",
+   "title": "Future Value of an Annuity",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 1000 at 6% per annum for 4 years.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1000 is deposited at 6% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "1240",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 6% per annum simple interest earns Rs 240 in 4 years. Find the principal (two decimal places).",
+     "a": "1000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 1000 at 6% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "191.02",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 1000 grows for 3 years at 6% per annum compounded annually (two decimal places)?",
+     "a": "1191.02",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 1000 at 12% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "1262.48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.9",
+   "title": "Present Value of an Annuity",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 143, find the index number.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 9, 5, 15 and the base-year prices are 15, 10, 10. Find the simple aggregative price index (two decimal places).",
+     "a": "82.86",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 82.86 and the corresponding Paasche price index is 82.86. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.69",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 60 + 2 x. Find the fitted value at x = 5.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 3 per kg (9 kg) and Rs 7 per kg (4 kg). Find the mean price by alligation (two decimal places).",
+     "a": "4.23",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 40 litres; 8 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.10",
+   "title": "Sinking Fund Deposits",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 2000 at 5% per annum for 5 years.",
+     "a": "500",
+     "self_check": false
+    },
+    {
+     "q": "Rs 2000 is deposited at 5% simple interest per annum for 5 years. Find the maturity amount.",
+     "a": "2500",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 5% per annum simple interest earns Rs 500 in 5 years. Find the principal (two decimal places).",
+     "a": "2000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 2000 at 5% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "315.25",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 2000 grows for 3 years at 5% per annum compounded annually (two decimal places)?",
+     "a": "2315.25",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 2000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "2339.72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_011.11",
+   "title": "Electricity Bill Slabs",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 250 and sells it for Rs 350. Find the profit.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 250, selling price Rs 350. Find the profit percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 250 is sold for Rs 125. Find the loss percentage.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 25% profit on an article costing Rs 200. At what price should he sell it?",
+     "a": "250",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 1000 and the shop offers a 5% discount. What is the sale price?",
+     "a": "950",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 1000 sells for Rs 950 after a discount. Find the discount percentage.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

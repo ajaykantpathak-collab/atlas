@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_005",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_005",
+   "title": "c7_geo_ch03_005",
+   "questions": [
+    {
+     "q": "During which months does the retreating monsoon and Northeast Monsoon season primarily affect the Indian subcontinent?",
+     "a": "The season primarily occurs from October to December. A student who answers \"June to September\" is confusing the Northeast Monsoon with the active Southwest Monsoon season, showing they have not grasped the seasonal timing of wind reversals.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the rainfall during the Northeast Monsoon season concentrate heavily along the southeastern coast of India (such as Tamil Nadu) while most of the rest of the country stays dry?",
+     "a": "As the winds retreat southward, they blow from the land to the sea, making them dry over mainland India; however, as these northeast winds travel across the Bay of Bengal, they absorb moisture and drop it when they hit the Eastern Ghats and the Tamil Nadu coastline. A student who answers that \"all of India gets heavy rain because winds blow from the ocean\" fails to understand that winter monsoon winds are offshore over most of the country and only pick up moisture just before hitting the southeast coast.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station in Chennai records heavy rainfall in November, whereas a station in New Delhi experiences dry, clear weather during the same month. Using your knowledge of the Northeast Monsoon, calculate or trace the path of moisture for Chennai's rainfall.",
+     "a": "Step 1: Identify Chennai's location on the southeastern coast of the Indian Peninsula. Step 2: Note the season (November), which falls in the retreating/Northeast Monsoon period. Step 3: Trace the wind path: cool, dry winds blow from the northern landmass toward the south and east. Step 4: Track the wind crossing the Bay of Bengal, where it gathers moisture. Step 5: Conclude that as these moisture-laden northeast winds strike the Coromandel Coast, they cause localized winter rainfall in Chennai while Delhi remains under dry continental influence. A student who thinks Delhi gets the same rain confuses northern winter western disturbances with monsoon winds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the wind direction of the Southwest Monsoon with the Northeast Monsoon in peninsular India, and explain why this directional shift alters where rain falls.",
+     "a": "The Southwest Monsoon winds blow from southwest to northeast (from the Arabian Sea and Indian Ocean onto the land), causing widespread rainfall across most of India. In contrast, the Northeast Monsoon winds blow from northeast to southwest (from the land toward the Bay of Bengal), meaning they are dry over most of India and only bring rain where they cross the Bay of Bengal to hit Tamil Nadu. A student who believes both winds blow in the same direction demonstrates a fundamental misunderstanding of pressure belts and wind reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The retreating monsoon brings uniform rainfall relief to all of agricultural India during the winter crop sowing season.\" Is this statement accurate, and why or why not?",
+     "a": "The statement is inaccurate because the retreating monsoon is only wet in a very specific region—southeastern peninsular India (Tamil Nadu, parts of Andhra Pradesh and Kerala). Most of northern, western, and central India experiences dry, clear weather during this period, relying instead on irrigation or winter western disturbances for Rabi crops. A student who agrees with the statement assumes monsoon rain is distributed evenly across the entire country during every season.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short weather advisory leaflet for farmers in Tamil Nadu for the month of November, explaining what weather changes to expect and how the Northeast Monsoon will affect their agricultural fields.",
+     "a": "A strong leaflet should mention that November brings the Northeast Monsoon, which causes heavy downpours and potential tropical cyclones along the coast. It should advise farmers to manage drainage for rice crops while capturing rainwater for agricultural storage. A poor answer would advise farmers to protect crops from intense summer heat or Southwest Monsoon flooding, missing the specific timing and regional impact of the post-monsoon rains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

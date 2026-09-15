@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_8",
+   "title": "c8_physics_ch6_8",
+   "questions": [
+    {
+     "q": "What type of image (real/virtual, erect/inverted, magnified/diminished) is formed by a concave mirror when the object is placed between the pole and the focus?",
+     "a": "Virtual, erect, and magnified. A wrong answer (e.g., saying real or inverted) reveals the student has not linked the object position to the image characteristics taught in ray diagrams (c8_physics_ch6_5) and is likely memorising uses without understanding the underlying optics.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a dentist use a concave mirror instead of a plane mirror to examine a tooth?",
+     "a": "A concave mirror held close to the tooth (object between pole and focus) produces a magnified, erect, virtual image, allowing the dentist to see a larger view of the tooth. A plane mirror would give a same-size image. If a student says \"concave mirrors always magnify\", they are overgeneralising — they must specify the object must be within the focal length.",
+     "self_check": true
+    },
+    {
+     "q": "In a car headlight, the bulb is placed at the focus of the concave reflector. If the bulb is accidentally shifted 2 cm away from the focus towards the mirror, what happens to the reflected beam and why?",
+     "a": "The reflected beam will diverge (spread out) instead of being parallel. When the source is between focus and pole, rays reflect as if coming from a virtual focus behind the mirror, producing a divergent beam. A wrong answer (e.g., \"beam becomes more parallel\") shows the student does not understand the reversibility of light paths: rays from focus go parallel; rays from inside focus diverge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the object positions relative to the focal point for a shaving mirror and a headlight reflector. Explain why the shaving mirror must be held close to the face while the headlight bulb is fixed at the focus.",
+     "a": "Shaving mirror: object (face) is between pole and focus (u < f) → magnified virtual image. Headlight: source (bulb) is exactly at focus (u = f) → parallel beam. A student who says both are at the focus confuses the two distinct requirements: magnification needs u < f; collimation needs u = f.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A concave mirror used as a shaving mirror forms a real image on the face.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. A shaving mirror forms a *virtual* image behind the mirror that appears magnified and erect. The image cannot be projected on a screen (the face). If the student thinks it's real, they confuse the magnified virtual image (u < f) with the magnified real image formed when the object is between focus and centre of curvature (f < u < 2f).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror (e.g., a shiny steel spoon or a makeup mirror) to demonstrate all three uses: shaving, dentist, and headlight. List the steps and what you would observe in each case.",
+     "a": "A good answer includes: (1) Hold spoon close to eye → magnified erect image (shaving/dentist). (2) Hold spoon at arm's length → inverted diminished image (not a use). (3) Place a small LED bulb at the focal point of a larger concave mirror (or approximate with spoon and torch) → reflected beam becomes a narrow parallel patch on a distant wall (headlight). A poor answer misses the focal point demonstration or cannot explain why the bulb must be at the focus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

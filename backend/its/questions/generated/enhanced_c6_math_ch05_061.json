@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_061",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_061",
+   "title": "c6_math_ch05_061",
+   "questions": [
+    {
+     "q": "If each packet of biscuits costs 15 rupees, how would you write an expression for the cost of $k$ packets?",
+     "a": "The expression is $15k$. A student who writes $15 + k$ reveals a misunderstanding of how multiplication represents \"groups of\" or \"per,\" which is the core of scaling in algebra.",
+     "self_check": true
+    },
+    {
+     "q": "In the equation $4x = 60$, what does the letter $x$ represent, and what is its value?",
+     "a": "$x$ represents the unknown number, and its value is 15. If a student answers \"60,\" they likely confuse the result of the equation with the value of the variable itself, failing to see $x$ as a specific quantity that must be isolated.",
+     "self_check": true
+    },
+    {
+     "q": "A taxi charges a fixed 20 rupees plus 12 rupees for every additional kilometer. Write an expression for the total cost for $x$ kilometers (where $x > 1$).",
+     "a": "The expression is $20 + 12(x-1)$ or $12x + 8$. A student who writes $20 + 12x$ fails to account for the logic of the \"first kilometer\" already being paid for within the base fee or the specific condition provided in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use letters like $x$ or $y$ instead of just guessing numbers? Compare this to the trial-and-error method.",
+     "a": "Letters allow us to solve for any situation at once, whereas trial-and-error is slow and only works for one specific case. If a student says \"it's just a rule to make math harder,\" they have not yet grasped that algebra is a tool for efficiency and generalization.",
+     "self_check": true
+    },
+    {
+     "q": "If $3x = 300$, can you justify why we divide 300 by 3 to find $x$?",
+     "a": "We divide because the equation says \"3 times $x$ is 300,\" so to find one $x$, we must undo the multiplication. A student who tries to subtract 3 instead of dividing fails to understand inverse operations, which is the foundational \"balancing\" logic of equations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario where you would need to use the equation $5x = 500$ to find an answer.",
+     "a": "A good answer would be: \"If 5 kg of rice costs 500 rupees, what is the price of 1 kg?\" A poor answer, like \"5 plus $x$ is 500,\" shows a failure to recognize the multiplicative nature of the $5x$ term.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

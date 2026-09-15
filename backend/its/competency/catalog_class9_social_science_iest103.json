@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Atmosphere and Climate",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.103.3.1",
+   "title": "Composition of the Atmosphere",
+   "section": "3",
+   "definition": "The atmosphere is a blanket of mixed gases - nitrogen the largest share, oxygen vital for breathing, carbon dioxide small but heat-trapping - along with water vapour and dust; each component plays a role in weather, climate and life.",
+   "formula": "-",
+   "key_idea": "Nitrogen dominates, oxygen sustains, carbon dioxide warms: every gas has a job.",
+   "textbook_ref": "iest103.txt opening sections (composition of the atmosphere)",
+   "question_patterns": [
+    "what is the composition of the atmosphere",
+    "which gas dominates the atmosphere and why does it matter",
+    "what is the role of carbon dioxide in the atmosphere",
+    "why is the ozone layer important though it is a trace gas",
+    "how does water vapour in the air affect weather",
+    "compare the gases of the atmosphere in a table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the gases",
+     "explain": "Note nitrogen, oxygen, argon, carbon dioxide and traces of others."},
+    {"step": 2, "action": "assign the roles",
+     "explain": "Breathing, burning, warmth and protection come from different gases."},
+    {"step": 3, "action": "add the variable parts",
+     "explain": "Water vapour and dust change place to place and drive weather."}
+   ]
+  },
+  {
+   "id": "iest.103.3.2",
+   "title": "Weather and Climate: Elements and Difference",
+   "section": "3",
+   "definition": "Weather is the hour-to-hour state of temperature, pressure, wind, humidity, cloud and rainfall, while climate is the long-term average pattern of weather of a place; the two share elements but differ in timescale.",
+   "formula": "-",
+   "key_idea": "Weather is today's mood, climate is long-term character.",
+   "textbook_ref": "iest103.txt sections on weather, climate and their elements",
+   "question_patterns": [
+    "differentiate weather and climate with examples",
+    "name the elements of weather and climate",
+    "what does the climate of a place depend on",
+    "how is weather recorded and forecast",
+    "why do coastal places have moderate climate - explain",
+    "compare the climates of two regions you know"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define both terms",
+     "explain": "Weather is short-lived; climate is the long-run pattern."},
+    {"step": 2, "action": "list the elements",
+     "explain": "Temperature, pressure, wind, humidity and rainfall measure both."},
+    {"step": 3, "action": "apply the difference",
+     "explain": "Classify given statements as weather or climate."}
+   ]
+  },
+  {
+   "id": "iest.103.3.3",
+   "title": "Climate Change and Its Impacts",
+   "section": "3",
+   "definition": "Human activities raise greenhouse gases and warm the planet, shifting rainfall patterns, melting glaciers and raising seas; understanding the atmosphere helps citizens read these changes and support mitigation and adaptation.",
+   "formula": "-",
+   "key_idea": "The blanket is thickening: climate change rewrites weather patterns worldwide.",
+   "textbook_ref": "iest103.txt sections on climate change and impacts",
+   "question_patterns": [
+    "what is climate change and what causes it",
+    "how do greenhouse gases warm the earth",
+    "list three impacts of climate change on climate patterns",
+    "what steps can reduce climate change - suggest mitigation",
+    "how can communities adapt to changing climate",
+    "connect the greenhouse effect to the given weather event"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the cause",
+     "explain": "Burning fuels adds carbon dioxide and Methane to the air."},
+    {"step": 2, "action": "trace the effect",
+     "explain": "Trapped heat shifts rainfall, ice and sea levels."},
+    {"step": 3, "action": "plan the response",
+     "explain": "Cutting emissions and adapting practices protect the future."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "iest103.txt exercises",
+   "questions": [
+     "Draw a chart of the composition of the atmosphere.",
+     "Differentiate weather and climate with examples.",
+     "Explain the causes and impacts of climate change."
+   ]
+  }
+ ]
+}

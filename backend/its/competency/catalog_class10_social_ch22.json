@@ -1,0 +1,526 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 22,
+ "chapter_title": "Consumer Rights",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess205.txt",
+ "concepts": [
+  {
+   "id": "c10ss.22.1",
+   "title": "Consumer Movement",
+   "section": "Consumer Movement",
+   "definition": "The consumer movement arose out of dissatisfaction of consumers regarding unfair trade practices like adulteration, false advertising, and black marketing, leading to organised efforts to protect and promote consumer interests.",
+   "formula": "",
+   "key_idea": "The consumer movement is a collective effort to protect consumers from unfair trade practices and to ensure their rights are respected.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why did the consumer movement arise in India?",
+    "Trace the origin of the consumer movement in India.",
+    "What factors led to the birth of consumer organisations?",
+    "Explain the causes of consumer dissatisfaction that led to the movement.",
+    "How did the consumer movement develop over time?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causes",
+     "explain": "Note that adulteration, false advertising, black marketing, and lack of accountability caused consumer dissatisfaction."
+    },
+    {
+     "step": 2,
+     "action": "Trace the response",
+     "explain": "Consumers began forming groups and organisations to demand fair treatment and protection of their interests."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the outcome",
+     "explain": "Confirm that these organised efforts grew into the consumer movement, leading to laws and rights for consumers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the consumer movement arise in India?",
+     "solution": "It arose because of widespread unfair practices like adulteration, black marketing, false advertising, and poor quality goods, which left consumers dissatisfied and unprotected.",
+     "answer": "Due to unfair trade practices like adulteration, false advertising and black marketing."
+    },
+    {
+     "question": "How did the consumer movement begin?",
+     "solution": "It began as a social movement in the 1960s when consumers started forming groups to protect their interests against unfair trade practices.",
+     "answer": "It began as a social movement in the 1960s by consumers forming groups."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the reasons for the rise of the consumer movement in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List four unfair trade practices that led to consumer dissatisfaction.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.2",
+   "title": "Consumer Rights",
+   "section": "Consumer Rights",
+   "definition": "Consumer rights are a set of rights that protect consumers in the marketplace, including the right to safety, the right to be informed, the right to choose, the right to be heard, the right to seek redressal, and the right to consumer education.",
+   "formula": "",
+   "key_idea": "Consumer rights protect buyers from exploitation and ensure they can make informed choices and seek justice when cheated.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the six consumer rights.",
+    "Explain the right to safety.",
+    "What is the right to be informed?",
+    "Explain the right to choose with an example.",
+    "Why are consumer rights important?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the rights",
+     "explain": "State the six rights: safety, information, choice, representation (heard), redressal, and consumer education."
+    },
+    {
+     "step": 2,
+     "action": "Explain each right",
+     "explain": "Describe what each right means for the consumer in the marketplace."
+    },
+    {
+     "step": 3,
+     "action": "Conclude their importance",
+     "explain": "Confirm that these rights protect consumers from exploitation and ensure fair treatment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List any four consumer rights.",
+     "solution": "(1) Right to safety, (2) right to be informed, (3) right to choose, (4) right to seek redressal.",
+     "answer": "Safety, information, choice, and redressal."
+    },
+    {
+     "question": "Explain the right to safety.",
+     "solution": "The right to safety means consumers should be protected from goods and services that are hazardous to life and property, such as electrical appliances meeting safety standards.",
+     "answer": "Protection from goods and services hazardous to life and property."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the six consumer rights and explain any two.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the right to be informed important for consumers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.3",
+   "title": "Right to Information",
+   "section": "Right to be Informed",
+   "definition": "The right to information means a consumer has the right to be informed about the quality, quantity, potency, purity, standard and price of goods or services so as to protect against unfair trade practices.",
+   "formula": "",
+   "key_idea": "Consumers must be given full information about a product so they can make an informed choice and avoid being cheated.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the right to information for consumers?",
+    "Why should a consumer be informed about a product?",
+    "How does information on labels help consumers?",
+    "Explain the importance of the right to be informed.",
+    "What details must a manufacturer provide to consumers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the right",
+     "explain": "Note that consumers have the right to be informed about quality, quantity, purity, standard and price of goods."
+    },
+    {
+     "step": 2,
+     "action": "Explain its purpose",
+     "explain": "Information helps consumers compare products and make informed choices, preventing exploitation."
+    },
+    {
+     "step": 3,
+     "action": "Give examples",
+     "explain": "Confirm that labels on packaged food, medicines with expiry dates, and MRP tags are examples of this right in practice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the right to be informed? Give an example.",
+     "solution": "Consumers have the right to know the quality, quantity, price and ingredients of a product. For example, a packet of biscuits must list ingredients, weight, price and expiry date.",
+     "answer": "The right to know quality, quantity, price and ingredients; e.g., biscuit packet labels."
+    },
+    {
+     "question": "How does the right to information protect consumers?",
+     "solution": "By providing complete product information, it lets consumers compare and choose wisely and prevents sellers from hiding defects or charging unfair prices.",
+     "answer": "It lets consumers make informed choices and prevents hidden defects or unfair prices."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the right to be informed with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What information should a medicine label carry?",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.4",
+   "title": "Right to Choose",
+   "section": "Right to Choose",
+   "definition": "The right to choose means a consumer has the right to choose from a variety of goods and services at competitive prices, and should not be forced to buy a particular product or brand.",
+   "formula": "",
+   "key_idea": "Consumers must have access to a range of products at fair prices and must not be coerced into buying any one brand or item.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the right to choose?",
+    "How does the right to choose protect consumers?",
+    "Explain the right to choose with an example.",
+    "Why is competition important for the right to choose?",
+    "How does a monopoly violate the right to choose?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the right",
+     "explain": "Note that consumers have the right to choose from a variety of goods at competitive prices."
+    },
+    {
+     "step": 2,
+     "action": "Explain its basis",
+     "explain": "Choice is possible only when there is competition and no monopoly forcing a single product on buyers."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "Confirm that a shopkeeper forcing a buyer to take a particular brand along with the wanted product violates this right."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the right to choose with an example.",
+     "solution": "A consumer can choose any brand of soap from several available at competitive prices. If a shopkeeper insists the buyer purchase a particular brand to get the wanted item, it violates this right.",
+     "answer": "Right to choose from competing products; forcing a brand violates it."
+    },
+    {
+     "question": "How does a monopoly affect the right to choose?",
+     "solution": "A monopoly leaves consumers with no alternative, so they must buy the single available product at the seller's price, violating the right to choose.",
+     "answer": "Monopoly removes alternatives, forcing consumers to buy one product."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the right to choose with a suitable example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does competition support the right to choose?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.5",
+   "title": "Right to Seek Redressal",
+   "section": "Right to Seek Redressal",
+   "definition": "The right to seek redressal means a consumer has the right to seek compensation or remedy against unfair trade practices, exploitation, or defective goods and services through consumer courts and forums.",
+   "formula": "",
+   "key_idea": "Consumers can claim compensation and remedies for defective goods or unfair practices through a legal redressal system.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the right to seek redressal?",
+    "How can a consumer seek redressal?",
+    "Explain the process of filing a complaint in a consumer court.",
+    "What remedies are available under the right to redressal?",
+    "Why is the right to redressal important?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the right",
+     "explain": "Note that consumers have the right to seek compensation for defective goods or unfair trade practices."
+    },
+    {
+     "step": 2,
+     "action": "Identify the mechanism",
+     "explain": "Consumers can file complaints in consumer courts or forums at district, state and national levels."
+    },
+    {
+     "step": 3,
+     "action": "List the remedies",
+     "explain": "Confirm that remedies include replacement, refund, compensation, and stopping unfair practices."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the right to seek redressal?",
+     "solution": "It is the right of a consumer to claim compensation or remedy against defective goods or unfair trade practices through consumer forums.",
+     "answer": "The right to claim compensation for defective goods or unfair practices."
+    },
+    {
+     "question": "What remedies can a consumer court provide?",
+     "solution": "A consumer court can order replacement of the good, refund of the price, compensation for loss, and removal of the unfair practice.",
+     "answer": "Replacement, refund, compensation, and stopping the unfair practice."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the right to seek redressal and the remedies available.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how a consumer can file a complaint in a consumer court.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.6",
+   "title": "Consumer Protection and COPRA",
+   "section": "Consumer Protection Act, 1986",
+   "definition": "The Consumer Protection Act (COPRA) of 1986 is a law enacted by the Government of India to protect consumer rights, establish consumer councils and authorities, and set up a three-tier quasi-judicial system for consumer disputes.",
+   "formula": "",
+   "key_idea": "COPRA provides a legal framework to protect consumer rights and a three-tier system of consumer courts for redressal of complaints.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is COPRA?",
+    "Explain the three-tier structure of consumer courts under COPRA.",
+    "When was COPRA enacted and why?",
+    "How does COPRA protect consumer rights?",
+    "What are the main features of the Consumer Protection Act, 1986?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define COPRA",
+     "explain": "State that COPRA is the Consumer Protection Act enacted in 1986 to protect consumer rights."
+    },
+    {
+     "step": 2,
+     "action": "Explain the structure",
+     "explain": "Note the three-tier system: District Forum, State Commission, and National Commission for consumer disputes."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the purpose",
+     "explain": "Confirm that COPRA gives consumers a legal way to seek redressal and enforces their six rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is COPRA? When was it enacted?",
+     "solution": "COPRA is the Consumer Protection Act enacted by the Government of India in 1986 to protect consumer rights and provide redressal of disputes.",
+     "answer": "Consumer Protection Act, 1986, to protect consumer rights."
+    },
+    {
+     "question": "Explain the three-tier structure of consumer courts under COPRA.",
+     "solution": "COPRA set up District Forums at the district level, State Consumer Disputes Redressal Commissions at the state level, and the National Consumer Disputes Redressal Commission at the national level.",
+     "answer": "District Forum, State Commission, and National Commission."
+    },
+    {
+     "question": "Why was COPRA necessary?",
+     "solution": "COPRA was needed to provide a legal mechanism for consumers to seek redressal against unfair trade practices and to enforce consumer rights.",
+     "answer": "To provide legal redressal and enforce consumer rights."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the main features of COPRA, 1986.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the three-tier structure of consumer courts in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.7",
+   "title": "Consumer Courts and Forums",
+   "section": "Consumer Courts",
+   "definition": "Consumer courts, also called consumer disputes redressal agencies, are quasi-judicial bodies set up under COPRA at three levels -- District Forum, State Commission and National Commission -- to hear and decide consumer complaints.",
+   "formula": "",
+   "key_idea": "Consumer courts provide a simple, inexpensive and speedy mechanism for resolving disputes between consumers and sellers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are consumer courts?",
+    "Explain the jurisdiction of the District Forum.",
+    "What is the State Consumer Commission?",
+    "What is the National Consumer Commission?",
+    "How do consumer courts differ from civil courts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three tiers",
+     "explain": "List the three levels: District Forum, State Commission, and National Commission."
+    },
+    {
+     "step": 2,
+     "action": "Determine jurisdiction by claim value",
+     "explain": "District Forum handles claims up to a limit, State Commission handles higher claims, National Commission handles the highest claims and appeals."
+    },
+    {
+     "step": 3,
+     "action": "State the appeal path",
+     "explain": "An appeal flows from District Forum to State Commission to National Commission."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three levels of consumer courts in India?",
+     "solution": "The three levels are the District Forum at the district level, the State Consumer Disputes Redressal Commission at the state level, and the National Consumer Disputes Redressal Commission at the national level.",
+     "answer": "District Forum, State Commission, National Commission."
+    },
+    {
+     "question": "How do consumer courts differ from regular civil courts?",
+     "solution": "Consumer courts are quasi-judicial, less formal, less expensive and provide quicker redressal than regular civil courts, making them accessible to ordinary consumers.",
+     "answer": "Consumer courts are simpler, cheaper and faster than civil courts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three-tier system of consumer courts and their jurisdictions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are consumer courts considered consumer-friendly?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.8",
+   "title": "Role of Consumer Organisations",
+   "section": "Role of Consumer Organisations",
+   "definition": "Consumer organisations and NGOs play an important role in creating consumer awareness, educating people about their rights, helping them file complaints, and pressurising the government for stronger consumer protection laws.",
+   "formula": "",
+   "key_idea": "Consumer organisations spread awareness, help consumers seek redressal, and push for better laws to protect consumer interests.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the role of consumer organisations?",
+    "How do consumer NGOs help consumers?",
+    "Explain how consumer organisations create awareness.",
+    "Name some consumer organisations in India.",
+    "How do consumer groups influence government policy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify their functions",
+     "explain": "Note that consumer organisations create awareness, educate consumers, help file complaints, and lobby for stronger laws."
+    },
+    {
+     "step": 2,
+     "action": "Explain their methods",
+     "explain": "They publish magazines, hold workshops, file public interest cases, and run helplines to assist consumers."
+    },
+    {
+     "step": 3,
+     "action": "Conclude their impact",
+     "explain": "Confirm that these organisations strengthen consumer protection by informing people and pressurising the government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the role of consumer organisations in protecting consumers?",
+     "solution": "Consumer organisations create awareness about consumer rights, help consumers file complaints, and pressurise the government to enforce and strengthen consumer protection laws.",
+     "answer": "They spread awareness, help file complaints, and lobby for stronger laws."
+    },
+    {
+     "question": "Name two consumer organisations in India.",
+     "solution": "Two well-known consumer organisations in India are the Consumer Guidance Society of India (CGSI) and VOICE (Voluntary Organisation in Interest of Consumer Education).",
+     "answer": "CGSI and VOICE."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of consumer organisations in consumer protection.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do consumer organisations create awareness among consumers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.22.9",
+   "title": "Standardisation and Quality Marks",
+   "section": "Standardisation and Quality Marks",
+   "definition": "Standardisation is the process of setting common standards for goods and services to ensure quality and safety. Quality marks like ISI, Agmark, Hallmark and ISO certify that a product meets the prescribed standards.",
+   "formula": "",
+   "key_idea": "Standardisation and quality marks assure consumers that products meet specified standards of quality, safety and purity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is standardisation?",
+    "What is the ISI mark and what does it certify?",
+    "Explain the meaning of Agmark.",
+    "What does the Hallmark certify?",
+    "What is ISO and why is it important?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the quality marks",
+     "explain": "List the common marks: ISI (industrial goods), Agmark (agricultural goods), Hallmark (jewellery), ISO (international standards)."
+    },
+    {
+     "step": 2,
+     "action": "Match mark to product type",
+     "explain": "Determine which mark applies to a given product based on its category."
+    },
+    {
+     "step": 3,
+     "action": "State the assurance",
+     "explain": "Confirm that the mark assures the consumer that the product meets the prescribed quality and safety standards."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the ISI mark? What does it indicate?",
+     "solution": "ISI is a certification mark issued by the Bureau of Indian Standards. It indicates that an industrial product, such as electrical goods or cement, meets Indian safety and quality standards.",
+     "answer": "ISI certifies that industrial goods meet Indian safety and quality standards."
+    },
+    {
+     "question": "What is Agmark?",
+     "solution": "Agmark is a certification mark used on agricultural products in India to certify that they meet certain standards of quality and purity.",
+     "answer": "Agmark certifies quality and purity of agricultural products."
+    },
+    {
+     "question": "What does the Hallmark indicate?",
+     "solution": "Hallmark is a mark used on gold and silver jewellery to certify the purity of the precious metal, assuring consumers of genuine quality.",
+     "answer": "Hallmark certifies the purity of gold and silver jewellery."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of standardisation and quality marks for consumers.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between ISI, Agmark and Hallmark.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_unknown_kest102",
+ "concepts": [
+  {
+   "id": "kest102.1.1",
+   "title": "Sources of Data: Primary and Secondary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of Data: Primary and Secondary' refers to.",
+     "a": "Data for a statistical study may be collected first-hand from the field -- primary data -- or drawn from published and recorded sources -- secondary data. Primary collection gives fit and freshness at a cost; secondary use is cheap and quick but limited by someone else's purpose and definitions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of Data: Primary and Secondary'.",
+     "a": "Ask it yourself or borrow it from records -- primary costs time, secondary costs control.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sources of Data: Primary and Secondary' taught, and from which source text?",
+     "a": "1.1 (source: kest102.txt sources sections (primary data, secondary data, merits and demerits, published sources of secondary data))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest102.1.2",
+   "title": "Modes of Collecting Primary Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modes of Collecting Primary Data' refers to.",
+     "a": "Primary data arrive by three main modes: personal interviews where the investigator questions respondents face to face; mailed questionnaires that respondents fill themselves; and telephone or telephoned interviews for quick reach. Choice depends on area, literacy, cost and accuracy needed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modes of Collecting Primary Data'.",
+     "a": "Meet, mail or phone -- each mode trades cost against accuracy and coverage.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Modes of Collecting Primary Data' taught, and from which source text?",
+     "a": "1.2 (source: kest102.txt modes sections (personal interview, mailed questionnaire, telephone interview, merits demerits of each mode))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest102.1.3",
+   "title": "Pilot Survey, Census and Sampling Frames",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pilot Survey, Census and Sampling Frames' refers to.",
+     "a": "Before the main collection, a pilot survey trials the questionnaire on a small group to expose confusing questions. The study then chooses between a census -- covering every unit of the population -- and a sample survey -- studying a selected few to represent the whole; the sampling frame lists the units from which the sample is drawn.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pilot Survey, Census and Sampling Frames'.",
+     "a": "Try it small, then cover all -- or let a well-chosen few speak for the whole.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pilot Survey, Census and Sampling Frames' taught, and from which source text?",
+     "a": "1.3 (source: kest102.txt pilot census sections (pilot survey, census, sample survey, population, sampling frame, merits of sampling))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_011",
+   "title": "c11_psy_cbse_01_011",
+   "questions": [
+    {
+     "q": "Name the branch of psychology that primarily deals with the assessment, diagnosis, and treatment of mental disorders such as anxiety disorders, depression, and schizophrenia.",
+     "a": "Clinical Psychology. A wrong answer (e.g., \"Counselling Psychology\" or \"Psychiatry\") reveals confusion between the severity of problems addressed (clinical = diagnosable disorders; counselling = everyday adjustment issues) or between the professional qualifications (psychiatrists are medical doctors who can prescribe medication; clinical psychologists have a psychology degree and cannot prescribe medication in India).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a student struggling with career choice and mild exam anxiety would typically see a counselling psychologist rather than a clinical psychologist.",
+     "a": "Counselling psychology focuses on helping functioning individuals cope with everyday challenges (career decisions, mild stress, relationship issues) and promote personal growth, whereas clinical psychology focuses on diagnosing and treating significant psychopathology. A wrong answer that says \"counselling is for less serious problems\" without mentioning \"functioning individuals\" or \"everyday challenges\" shows a superficial understanding of the distinction based only on severity, missing the developmental and vocational focus of counselling psychology.",
+     "self_check": true
+    },
+    {
+     "q": "A school principal wants to redesign the Class 9 mathematics curriculum because students consistently perform poorly on word problems. The principal consults a psychologist who observes classrooms, analyses the textbook's cognitive load, and recommends changes to how concepts are sequenced and scaffolded. Which branch of psychology does this psychologist represent? Justify your answer with two specific reasons from the branch's definition.",
+     "a": "Educational Psychology. Reason 1: The problem concerns how students learn (learning processes, cognitive load, concept sequencing) in an educational setting. Reason 2: The psychologist applies psychological principles to improve instructional methods and materials (curriculum design, scaffolding). A wrong answer of \"Clinical Psychology\" or \"Counselling Psychology\" reveals failure to recognise that educational psychology's domain is learning and instruction systems, not individual mental health or personal adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the training and legal scope of practice of a clinical psychologist and a psychiatrist in India. Present your answer as a table with three rows: (i) Minimum Educational Qualification, (ii) Prescription Authority, (iii) Primary Treatment Modality.",
+     "a": "| Aspect | Clinical Psychologist | Psychiatrist |\n|--------|----------------------|--------------|\n| Minimum Educational Qualification | M.Phil. in Clinical Psychology (RCI recognised) after Master's in Psychology | MBBS followed by MD/DNB in Psychiatry |\n| Prescription Authority | Cannot prescribe medication (in India) | Can prescribe psychotropic medication |\n| Primary Treatment Modality | Psychotherapy (e.g., CBT, psychodynamic), psychological assessment | Pharmacotherapy, ECT, combined with psychotherapy |\nA wrong answer that gives clinical psychologists prescription rights or equates their training to a medical degree reveals a critical misunderstanding of the legal and professional boundaries in India, which is a frequent board exam question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Educational psychology is just the application of cognitive psychology in schools.\" Is this statement accurate, partially accurate, or inaccurate? Defend your evaluation using the NCERT definition of educational psychology and at least one way it goes beyond cognitive processes.",
+     "a": "Partially accurate but incomplete. NCERT defines educational psychology as studying \"how people of all ages learn\" and helping \"develop instructional methods and materials used to train people in both educational and work settings\" and being \"concerned with research on issues of relevance for education, counselling and learning problems.\" While cognitive processes (memory, attention, problem-solving) are central, educational psychology also encompasses: (1) Social and emotional development (e.g., classroom climate, peer relationships), (2) Motivational factors (e.g., self-efficacy, attribution theory), (3) Individual differences (e.g., special needs, giftedness), and (4) Assessment and measurement (e.g., test construction, formative evaluation). A student who says \"accurate\" misses the developmental, social, emotional, and measurement dimensions that are explicitly part of the field.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic, original case vignette (3-4 sentences) involving a 16-year-old student that would require collaboration between a clinical psychologist, a counselling psychologist, and an educational psychologist. Briefly state the specific role each professional would play.",
+     "a": "Example vignette: \"Arjun, a 16-year-old, has been diagnosed with Generalised Anxiety Disorder (clinical psychologist manages diagnosis and CBT for anxiety symptoms). He also experiences severe career indecision and conflict with parents about stream selection (counselling psychologist provides career counselling and family communication sessions). His teachers report he struggles with timed examinations despite understanding concepts (educational psychologist recommends assessment accommodations, study skills training, and works with teachers on instructional pacing).\" A poor answer either assigns all roles to one professional, creates a vignette without clear differentiation of roles, or uses vague descriptions like \"helps with mental health\" without branch-specific terminology (diagnosis, career counselling, instructional accommodation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

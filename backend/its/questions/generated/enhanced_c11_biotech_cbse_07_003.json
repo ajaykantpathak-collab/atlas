@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_003",
+   "title": "c11_biotech_cbse_07_003",
+   "questions": [
+    {
+     "q": "Name the three eukaryotic nuclear RNA polymerases and state the major class of RNA each transcribes.",
+     "a": "RNA Polymerase I transcribes 28S, 18S, and 5.8S rRNA; RNA Polymerase II transcribes hnRNA (precursor of mRNA); RNA Polymerase III transcribes tRNA and 5S rRNA. A wrong answer (e.g., assigning mRNA to Pol I or rRNA to Pol III) reveals the student has memorized polymerase names without linking each to its specific transcriptional output and subcellular site (nucleolus vs nucleoplasm), a critical distinction for understanding gene expression regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why RNA polymerase can initiate RNA synthesis de novo (without a primer) whereas DNA polymerase absolutely requires a primer with a free 3'-OH group.",
+     "a": "RNA polymerase uses ribonucleoside triphosphates (rNTPs) as substrates; the first rNTP provides its own 3'-OH group for the incoming second rNTP to attack, forming a phosphodiester bond. DNA polymerase uses deoxyribonucleoside triphosphates (dNTPs) but cannot stabilize the transition state for the first nucleotide addition without a pre-existing 3'-OH from a primer. A wrong answer confusing rNTP/dNTP chemistry or claiming RNA polymerase \"has a built-in primer\" shows misunderstanding of the fundamental mechanistic difference in initiation between the two polymerases.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a prokaryotic cell extract with an antibody that specifically binds and inactivates the sigma (σ) factor of RNA polymerase. Predict the effect on transcription of (a) a housekeeping gene with a strong consensus promoter, and (b) a heat-shock gene with a non-consensus promoter recognized by σ³². Justify your answer.",
+     "a": "(a) Transcription of the housekeeping gene will be severely reduced because σ⁷⁰ (primary sigma factor) is required for promoter recognition at consensus -35/-10 sequences; without it, core enzyme binds DNA non-specifically and cannot initiate at the correct start site. (b) Transcription of the heat-shock gene will also be abolished because σ³² is a specialized sigma factor that recognizes heat-shock promoters; the antibody against σ factor (if pan-specific) would inactivate σ³² as well. If the antibody is specific only to σ⁷⁰, heat-shock transcription would proceed normally. A wrong answer stating \"transcription continues normally because core enzyme has polymerase activity\" reveals the misconception that promoter recognition is an intrinsic property of the core enzyme rather than sigma factor-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the promoter recognition strategy of prokaryotic RNA polymerase holoenzyme with that of eukaryotic RNA Polymerase II. Include the roles of sigma factor versus general transcription factors (GTFs) and the concept of consensus sequences.",
+     "a": "Prokaryotic holoenzyme (α₂ββ'σ) directly recognizes consensus promoter elements (-35 TTGACA, -10 TATAAT/Pribnow box) via σ factor's helix-turn-helix domains; σ dissociates after initiation. Eukaryotic Pol II cannot bind promoters alone; it requires assembly of a pre-initiation complex (PIC) comprising GTFs (TFIID with TBP binding TATA box, TFIIB, TFIIF, TFIIE, TFIIH) that collectively recognize core promoter elements (TATA box, Inr, DPE) and melt DNA. The key difference: prokaryotes use a single specificity factor (σ) that is part of the holoenzyme, while eukaryotes use a multi-protein PIC that assembles stepwise on the promoter. A wrong answer equating σ factor with TBP alone ignores the combinatorial complexity of eukaryotic initiation and the fact that Pol II has no inherent promoter affinity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The evolutionary conservation of RNA polymerase core subunits (β, β' in prokaryotes; RPB1, RPB2 in eukaryotes) across all domains of life proves that the catalytic mechanism of transcription is identical in bacteria and humans.\" Defend or refute with molecular evidence.",
+     "a": "Refute. While the core catalytic mechanism (Mg²⁺-dependent nucleophilic attack of 3'-OH on α-phosphate of incoming rNTP, forming phosphodiester bond with pyrophosphate release) is conserved, the overall transcription process differs fundamentally: (1) Eukaryotes require chromatin remodeling and histone modification before PIC assembly; (2) Pol II CTD (C-terminal domain) heptad repeats (YSPTSPS) undergo phosphorylation cycles that recruit capping, splicing, and polyadenylation machinery — absent in prokaryotes; (3) Prokaryotic transcription is coupled to translation, while eukaryotic transcription is nuclear and spatially separated from cytoplasmic translation. Conservation of catalytic core ≠ identity of regulatory mechanisms. A wrong answer agreeing with the statement reveals a \"sequence conservation equals functional identity\" fallacy, ignoring the layered regulatory complexity added in eukaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using α-amanitin (a toxin that inhibits eukaryotic RNA polymerases at different concentrations) to determine which RNA polymerase transcribes a newly discovered small nuclear RNA (snRNA) gene in human cells. Specify concentrations, controls, and expected results for each polymerase.",
+     "a": "Treat permeabilized human cells or isolated nuclei with: (1) 0.01 μg/mL α-amanitin (inhibits Pol II), (2) 1 μg/mL (inhibits Pol II and Pol III), (3) 100 μg/mL (inhibits all three). Measure snRNA synthesis via ³²P-UTP incorporation or qRT-PCR. Controls: untreated, vehicle-only, and known Pol II (mRNA), Pol I (45S pre-rRNA), Pol III (tRNA/5S rRNA) transcripts. Expected: If snRNA synthesis is inhibited at 0.01 μg/mL → Pol II transcript (most snRNAs are Pol II-dependent). If resistant at 0.01 but inhibited at 1 μg/mL → Pol III transcript (e.g., U6 snRNA). If resistant at 1 but inhibited at 100 μg/mL → Pol I transcript (unlikely for snRNA). A poor answer omits concentration gradients, proper controls, or fails to link known snRNA polymerase identities (Pol II for U1, U2, U4, U5; Pol III for U6) to the experimental design, showing inability to translate biochemical inhibition profiles into a diagnostic assay.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

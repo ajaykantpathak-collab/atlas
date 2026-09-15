@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_001",
+   "title": "c12_eco_cbse_06_001",
+   "questions": [
+    {
+     "q": "State the four key features of a monopoly market structure as per NCERT Class 12 Microeconomics.",
+     "a": "The four key features are: (1) Single seller (firm = industry), (2) No close substitutes for the product, (3) High barriers to entry for new firms, (4) Firm is a price maker (faces downward-sloping market demand curve). A wrong answer that misses \"no close substitutes\" or \"barriers to entry\" reveals the student confuses monopoly with mere single-seller situations (like a local vegetable vendor who still faces competition from substitutes).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"control over essential raw materials\" acts as a barrier to entry in monopoly, using the example of De Beers in the diamond market. Why is this considered a natural barrier?",
+     "a": "Control over essential raw materials (like De Beers controlling most diamond mines) prevents potential entrants from accessing the key input needed for production, making entry impossible or prohibitively expensive. It is a natural barrier because it arises from the physical scarcity and ownership of a natural resource, not from government policy or strategic actions by the firm. A wrong answer that calls it a \"legal barrier\" reveals confusion between natural resource control and government-granted patents/licenses.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company holds a patent for a life-saving drug in India for 20 years. Identify the type of barrier to entry this represents. If the government introduces a policy allowing generic versions after 10 years under compulsory licensing, how does this change the barrier? Calculate the reduction in monopoly period.",
+     "a": "The patent is a legal barrier to entry (government-granted exclusive right). Compulsory licensing after 10 years converts the absolute legal barrier into a time-limited one, allowing generic entry earlier. Monopoly period reduces from 20 years to 10 years — a 50% reduction. A wrong answer calling patent a \"natural barrier\" shows misunderstanding that patents are state-created legal monopolies, not arising from technology or scale.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demand curve faced by a monopolist with that faced by a firm in perfect competition. Why can the monopolist set price but the competitive firm cannot? Use the concept of \"availability of close substitutes\" in your explanation.",
+     "a": "The monopolist faces the downward-sloping market demand curve (no close substitutes, so consumers must buy from them or go without). The competitive firm faces a perfectly elastic (horizontal) demand curve at market price because identical substitutes are available from many sellers — any price increase loses all customers. The monopolist's lack of close substitutes gives it market power; the competitive firm's perfect substitutes take it away. A wrong answer saying both face downward-sloping curves reveals failure to distinguish firm-level vs market-level demand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Indian Railways is a monopoly because it is the only provider of rail transport in India.\" Consider the presence of substitutes (airlines, buses, trucks) and the concept of \"relevant market\" in your evaluation.",
+     "a": "The statement is partially correct but economically imprecise. Indian Railways is a monopoly in the \"rail transport\" market (no close substitute *within* rail), but faces competition in the broader \"long-distance transport\" market from airlines, buses, and trucks. For monopoly analysis, we define the relevant market narrowly (rail services) where it has 100% share and high barriers (capital, land, license). However, cross-elasticity of demand with substitutes limits its pricing power. A wrong answer calling it a \"pure monopoly without qualification\" ignores the competitive constraint from other transport modes — a common error in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world Indian example of a monopoly arising from \"economies of scale as a natural barrier.\" Explain why a second firm entering would be inefficient. Draw the LRAC curve showing the minimum efficient scale relative to market demand.",
+     "a": "Example: Electricity distribution in a city (e.g., BSES in Delhi). High fixed costs (grid infrastructure) and declining LRAC over the entire market demand range make it a natural monopoly. A second firm would duplicate infrastructure, raising average costs for both — socially wasteful. The LRAC curve should slope downward until beyond the market demand quantity. A poor answer that gives \"Google search\" as an example confuses network effects (strategic barrier) with natural economies of scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

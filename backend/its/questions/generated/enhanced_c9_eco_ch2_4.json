@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_4",
+   "title": "c9_eco_ch2_4",
+   "questions": [
+    {
+     "q": "Define substitute goods and complementary goods in the context of demand. Give one real-life example of each from an Indian market.",
+     "a": "Substitute goods are goods that can replace each other (e.g., tea and coffee); a rise in the price of one increases demand for the other. Complementary goods are goods used together (e.g., petrol and cars); a rise in the price of one decreases demand for the other. A wrong answer (e.g., saying tea and sugar are substitutes) reveals the student confuses joint consumption with replaceability.",
+     "self_check": true
+    },
+    {
+     "q": "If the price of diesel increases significantly, what happens to the demand for diesel cars? Explain the economic reasoning and state whether diesel and diesel cars are substitutes or complements.",
+     "a": "Demand for diesel cars decreases because diesel and diesel cars are complements — higher diesel price raises the running cost of diesel cars, making them less attractive. A wrong answer (e.g., demand increases) reveals the student thinks they are substitutes or ignores the joint consumption relationship.",
+     "self_check": true
+    },
+    {
+     "q": "The price of butter increases from ₹200/kg to ₹250/kg. As a result, the demand for margarine at a local store rises from 50 kg/week to 70 kg/week. Calculate the percentage change in price of butter and percentage change in quantity demanded of margarine. What does the positive relationship indicate?",
+     "a": "%ΔP_butter = (250-200)/200 × 100 = 25%. %ΔQ_margarine = (70-50)/50 × 100 = 40%. The positive cross-price effect (both changes in same direction) indicates butter and margarine are substitutes. A wrong calculation or interpretation (e.g., negative relationship) reveals confusion in percentage change formula or misidentifying the good relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on demand for smartphones when: (a) the price of mobile data plans falls, and (b) the price of laptops falls. Assume smartphones and data plans are complements, while smartphones and laptops are substitutes. Draw the demand curve shifts for smartphones in both cases.",
+     "a": "(a) Lower data plan price → demand for smartphones increases (rightward shift) because they are complements. (b) Lower laptop price → demand for smartphones decreases (leftward shift) because they are substitutes. A wrong shift direction reveals the student reverses the complement/substitute logic or confuses movement along the curve with a shift.",
+     "self_check": true
+    },
+    {
+     "q": "The government imposes a heavy tax on sugary drinks, raising their price by 30%. A student argues: \"This will increase demand for fruit juices because they are substitutes, so fruit juice producers will benefit.\" Evaluate this argument. Consider at least two other factors that might affect the outcome.",
+     "a": "The argument is partially correct: sugary drinks and fruit juices are substitutes, so demand for fruit juices likely rises. However, (1) if fruit juices are also seen as unhealthy, demand might not rise much; (2) if incomes are low, consumers might switch to water instead. A wrong evaluation (e.g., ignoring income or health trends) reveals the student treats cross-price effect in isolation without considering other determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario involving three goods — Good X, Good Y, and Good Z — where X and Y are substitutes, Y and Z are complements, and X and Z are unrelated. Describe a price change in one good and trace its effect on the demand for the other two goods using correct economic terminology.",
+     "a": "Example: X = tea, Y = coffee, Z = sugar. Tea and coffee are substitutes; coffee and sugar are complements; tea and sugar are complements (but assume unrelated for this scenario). If price of coffee rises: demand for tea rises (substitute), demand for sugar falls (complement with coffee). A poor answer fails to distinguish the pairwise relationships or applies the same effect to both.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

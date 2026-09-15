@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_004",
+   "title": "c11_geo_cbse_03_004",
+   "questions": [
+    {
+     "q": "Name the three major discontinuities in Earth's interior in order from shallowest to deepest, and state the approximate depth of each.",
+     "a": "The three major discontinuities from shallowest to deepest are: (1) Mohorovičić discontinuity (Moho) at 5-70 km depth; (2) Gutenberg discontinuity at ~2,900 km depth; (3) Lehmann discontinuity at ~5,150 km depth. A wrong answer (e.g., reversing Gutenberg and Lehmann, or giving a single depth for Moho) reveals the student has memorized names but not the sequential layering or the significant depth differences between crust-mantle, mantle-core, and outer-inner core boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why S-waves cannot pass through the Gutenberg discontinuity while P-waves can, and what this tells us about the physical state of the outer core.",
+     "a": "S-waves are shear waves that require a rigid medium to propagate; they cannot travel through liquids. P-waves are compressional waves that can travel through both solids and liquids. The disappearance of S-waves at the Gutenberg discontinuity (creating an S-wave shadow zone) and the refraction of P-waves indicates the outer core is liquid. A wrong answer (e.g., saying both waves stop, or that S-waves slow down but continue) reveals a misunderstanding of wave mechanics and the diagnostic use of S-wave shadow zones to infer liquid layers.",
+     "self_check": true
+    },
+    {
+     "q": "A seismic station records a P-wave arrival from an earthquake at a distance of 120°. The direct P-wave travels through the mantle, but a later arrival is a P-wave that has been refracted at the Gutenberg discontinuity and traveled through the outer core (PKP phase). Given the average P-wave velocity in the lower mantle is 13.7 km/s and in the outer core is 8.1 km/s, calculate the approximate additional time the PKP wave spends in the outer core compared to an equivalent mantle path, assuming a chord length of 2,000 km through the outer core.",
+     "a": "Step 1: Identify the path difference – the PKP wave travels 2,000 km through the outer core instead of the mantle.\nStep 2: Time in outer core = distance / velocity = 2,000 km / 8.1 km/s ≈ 246.9 s.\nStep 3: Time for same distance in lower mantle = 2,000 km / 13.7 km/s ≈ 146.0 s.\nStep 4: Additional time = 246.9 - 146.0 = 100.9 s ≈ 101 seconds.\nStep 5: Interpretation – the PKP arrival is delayed by ~101 seconds due to slower velocity in the liquid outer core, confirming the Gutenberg discontinuity marks a low-velocity zone.\nA wrong answer (e.g., using same velocity for both, or ignoring the chord length) reveals inability to apply seismic velocity contrasts to real travel-time calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mohorovičić and Gutenberg discontinuities in terms of: (a) the layers they separate, (b) the nature of the velocity change (increase or decrease), and (c) the geodynamic significance of each boundary.",
+     "a": "(a) Moho separates crust ( felsic/mafic rocks) from mantle (ultramafic peridotite); Gutenberg separates solid mantle from liquid outer core (iron-nickel alloy). (b) At Moho, both P and S wave velocities increase sharply (from ~6.8-7.2 km/s to ~8.0-8.2 km/s for P-waves); at Gutenberg, P-wave velocity drops sharply (from ~13.7 km/s to ~8.1 km/s) and S-waves drop to zero. (c) Moho marks the base of the crust and is central to isostasy and crustal differentiation; Gutenberg marks the mantle-core boundary and is crucial for understanding Earth's magnetic field generation (geodynamo) and core-mantle heat exchange. A wrong answer (e.g., saying both show velocity increases, or confusing which boundary is liquid) reveals failure to distinguish compositional vs. phase-change boundaries and their different geodynamic roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Lehmann discontinuity is the most important boundary for understanding Earth's magnetic field.\" Provide two reasons supporting or refuting this claim.",
+     "a": "The statement is largely incorrect. The Gutenberg discontinuity (core-mantle boundary) is more directly important for the magnetic field because: (1) The geodynamo operates in the liquid outer core, and heat flow across the core-mantle boundary drives convection; (2) The inner core boundary (Lehmann) is where latent heat release and compositional convection occur, but the primary energy source for the dynamo is the cooling of the entire core, with the core-mantle boundary controlling heat extraction. However, the Lehmann discontinuity marks the onset of solid inner core growth, which powers compositional convection – so it is secondarily important. A wrong answer (e.g., agreeing without nuance, or saying neither matters) reveals confusion between the roles of the outer core's liquid state (Gutenberg) and inner core solidification (Lehmann) in sustaining the geodynamo.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple schematic cross-section of Earth's interior showing the three major discontinuities. Annotate each boundary with: (i) its name, (ii) approximate depth, (iii) the seismic wave behavior that defines it (e.g., \"P-wave velocity jumps from 7 to 8 km/s\"), and (iv) one geodynamic process associated with it.",
+     "a": "A good answer includes a neatly drawn concentric circle diagram with three labeled boundaries at roughly correct proportional depths (Moho very near surface, Gutenberg at ~2,900 km, Lehmann at ~5,150 km). Annotations: Moho – 5-70 km – P-wave velocity increase (crust to mantle) – isostatic adjustment/crustal differentiation; Gutenberg – 2,900 km – P-wave velocity drop, S-waves disappear (mantle to liquid outer core) – geodynamo/heat exchange; Lehmann – 5,150 km – P-wave velocity increase, S-waves reappear (liquid to solid inner core) – inner core growth/compositional convection. A poor answer (e.g., equal spacing, missing S-wave behavior, or wrong processes) reveals inability to visualize the scale of Earth's layers and link seismic observations to dynamic processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

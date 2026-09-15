@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_002",
+   "title": "c12_bio_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define \"vehicle-borne transmission\" and give one bacterial and one viral disease example where this is the primary route.",
+     "a": "Vehicle-borne transmission occurs when pathogens are carried through contaminated inanimate substances (water, food, ice, biological products). Bacterial example: cholera (Vibrio cholerae via contaminated water). Viral example: hepatitis A (via contaminated food/water). A wrong answer (e.g., naming malaria) reveals confusion between vehicle-borne (passive carrier) and vector-borne (living arthropod carrier) transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why droplet transmission (e.g., common cold) is classified as direct contact while airborne transmission (e.g., tuberculosis) is classified as indirect contact, even though both involve respiratory particles.",
+     "a": "Droplet transmission involves large particles (>5 µm) that travel ≤1 metre and deposit directly on mucosal surfaces — requiring close proximity, hence direct. Airborne transmission involves droplet nuclei (≤5 µm) that remain suspended for long periods, travel >1 metre, and can be inhaled by anyone sharing the airspace — no direct contact needed, hence indirect. A wrong answer (e.g., \"both are airborne\") shows failure to distinguish particle size, settling velocity, and infection control implications (surgical mask vs N95).",
+     "self_check": true
+    },
+    {
+     "q": "A village uses a common pond for bathing, washing cattle, and drawing drinking water. During monsoon, cases of acute diarrhoea spike. Identify the transmission mode, name the most likely pathogen group, and suggest two interventions targeting different links in the transmission chain.",
+     "a": "Mode: vehicle-borne (water). Likely pathogens: enteric bacteria (Vibrio, Shigella, E. coli) or viruses (rotavirus). Interventions: (1) Provide safe drinking water (breaks vehicle link) — e.g., chlorination or boiled water. (2) Build separate cattle washing area upstream (breaks contamination at source). A wrong answer focusing only on treatment (ORS) misses the preventive transmission-blocking approach required in public health.",
+     "self_check": true
+    },
+    {
+     "q": "Compare mechanical vs biological vectors using housefly (Musca domestica) and Anopheles mosquito as examples. Explain why biological vectors generally pose a greater challenge for disease eradication.",
+     "a": "Mechanical vector (housefly): pathogen carried passively on body parts (legs, mouthparts), no multiplication/development — transmits diarrhoeal pathogens. Biological vector (Anopheles): pathogen undergoes essential developmental/multiplication stages (Plasmodium sporogony) inside vector — transmits malaria. Biological vectors are harder to eradicate because pathogen-vector specificity creates co-evolution, vector competence varies genetically, and control requires interrupting complex life cycles (larvicides, insecticides, bed nets) rather than just sanitation. A wrong answer stating \"both just carry germs\" ignores the obligatory developmental cycle that makes biological transmission more efficient and harder to break.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Vertical transmission only occurs for viral infections like HIV.\" Provide two counter-examples (one bacterial, one parasitic) and explain the clinical significance of vertical transmission for each.",
+     "a": "Statement is false. Bacterial counter-example: Treponema pallidum (syphilis) crosses placenta → congenital syphilis (stillbirth, neurosyphilis). Parasitic counter-example: Toxoplasma gondii crosses placenta → congenital toxoplasmosis (hydrocephalus, chorioretinitis). Clinical significance: vertical transmission bypasses behavioural prevention, affects foetus during critical organogenesis, and requires antenatal screening/treatment (penicillin for syphilis, spiramycin for toxoplasmosis). A wrong answer accepting the statement shows ignorance of non-viral congenital infections and their distinct management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple community-level experiment to demonstrate that houseflies mechanically transmit enteric bacteria from faeces to food. Specify control, variables, and how you would confirm bacterial transfer without molecular tools.",
+     "a": "Set up: Two identical plates of cooked rice — Plate A exposed to flies in a room with fresh human faeces; Plate B covered with fine mesh (control) in same room. After 2 hours, homogenise rice samples, streak on MacConkey agar, incubate 24h at 37°C. Count lactose-fermenting (pink) colonies (E. coli indicator). Expect significantly higher CFU on Plate A. Variables: independent = fly access; dependent = CFU count; controlled = rice type, temperature, time, room. Confirmation: pink colonies on MacConkey = lactose-fermenting enterics; Gram stain shows Gram-negative rods. A poor design (no control, no quantitative culture) fails to prove mechanical transfer versus environmental contamination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

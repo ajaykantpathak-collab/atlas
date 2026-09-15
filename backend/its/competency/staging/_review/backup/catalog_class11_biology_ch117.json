@@ -1,0 +1,392 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 117,
+ "chapter_title": "Locomotion and Movement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo117.txt",
+ "concepts": [
+  {
+   "id": "kebo.117.1",
+   "title": "Types of Cellular Movement",
+   "section": "17.1",
+   "definition": "The three primary mechanisms by which human cells exhibit motion: amoeboid (using pseudopodia), ciliary (using hair-like projections), and muscular (using contractile proteins).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, Cells utilize different structural elements like microfilaments or cilia to reach internal or external movement.",
+   "textbook_ref": "kebo117.txt lines 30-55",
+   "question_patterns": [
+    "what are the three types of movement in human cells",
+    "describe amoeboid movement in macrophages",
+    "where does ciliary movement occur in the human body",
+    "how do leucocytes move through the blood"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the cell type",
+     "explain": "Determine if the cell is a macrophage, ciliated epithelial cell, or muscle cell."
+    },
+    {
+     "step": 2,
+     "action": "match with movement mechanism",
+     "explain": "Macrophages use amoeboid; respiratory tract uses ciliary; limbs use muscular movement."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.2",
+   "title": "Classification of Muscle Tissues",
+   "section": "17.2",
+   "definition": "Muscles are specialized mesodermal tissues categorized into skeletal (striated/voluntary), visceral (smooth/involuntary), and cardiac (striated/involuntary) types.",
+   "formula": "body_muscle_mass = 0.45 * total_body_weight",
+   "key_idea": "Muscles are distinguished by their location, microscopic appearance, and the nature of their nervous regulation.",
+   "textbook_ref": "kebo117.txt lines 70-105",
+   "question_patterns": [
+    "classify muscles based on their location",
+    "what are the characteristics of visceral muscles",
+    "distinguish between skeletal and cardiac muscles",
+    "why are skeletal muscles called voluntary"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for striations",
+     "explain": "Skeletal and cardiac muscles show stripes; visceral muscles are smooth."
+    },
+    {
+     "step": 2,
+     "action": "determine control mechanism",
+     "explain": "Skeletal is voluntary; visceral and cardiac are involuntary."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.3",
+   "title": "Structure of the Sarcomere",
+   "section": "17.2",
+   "definition": "The functional unit of a myofibril located between two successive Z-lines, containing organized arrangements of actin and myosin filaments.",
+   "formula": "sarcomere = I_half + A_band + I_half",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the sarcomere is indeed the basic contractile segment that shortens during muscle activity.",
+   "textbook_ref": "kebo117.txt lines 120-145",
+   "question_patterns": [
+    "define a sarcomere",
+    "what is the H-zone in a muscle fibre",
+    "identify the boundaries of a sarcomere",
+    "describe the arrangement of A and I bands"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate Z-lines",
+     "explain": "Identify the elastic fibers that bisect the I-bands."
+    },
+    {
+     "step": 2,
+     "action": "identify filament zones",
+     "explain": "The A-band contains myosin; the I-band contains actin; the H-zone is the central myosin-only part."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.4",
+   "title": "Sliding Filament Theory Mechanism",
+   "section": "17.2.2",
+   "definition": "The process where muscle contraction occurs by thin actin filaments sliding over thick myosin filaments, triggered by neural signals and calcium release.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, ATP hydrolysis powers the myosin head to form cross-bridges with actin, pulling them toward the center.",
+   "textbook_ref": "kebo117.txt lines 175-215",
+   "question_patterns": [
+    "explain the sliding filament theory",
+    "role of calcium ions in muscle contraction",
+    "what happens to the I-band during contraction",
+    "how is a cross-bridge formed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "neural activation",
+     "explain": "CNS sends signal via motor neuron to release Acetylcholine."
+    },
+    {
+     "step": 2,
+     "action": "calcium binding",
+     "explain": "Calcium binds to troponin, exposing active sites on actin."
+    },
+    {
+     "step": 3,
+     "action": "power stroke",
+     "explain": "Myosin head binds to actin using ATP and pulls the filament."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.5",
+   "title": "Axial Skeleton Bone Count",
+   "section": "17.3",
+   "definition": "The central core of the human skeleton comprising the skull, vertebral column, sternum, and ribs.",
+   "formula": "total_axial = skull + hyoid + ossicles + vertebrae + sternum + ribs",
+   "key_idea": "In brief, in brief, in brief, in brief, the axial skeleton is made up of 80 bones aligned along the body's main longitudinal axis.",
+   "textbook_ref": "kebo117.txt lines 245-260",
+   "question_patterns": [
+    "calculate the total bones in the axial skeleton",
+    "how many bones make up the human skull",
+    "find the number of bones in the axial system",
+    "what is the sum of cranial and facial bones"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum skull components",
+     "explain": "Skull has 8 cranial and 14 facial bones.",
+     "compute": "skull = 8 + 14"
+    },
+    {
+     "step": 2,
+     "action": "add associated head bones",
+     "explain": "Add 1 hyoid and 6 ear ossicles to the skull count.",
+     "compute": "head_total = skull + 1 + 6"
+    },
+    {
+     "step": 3,
+     "action": "add trunk bones",
+     "explain": "Add 26 vertebrae, 1 sternum, and 24 ribs.",
+     "compute": "total_axial = head_total + 26 + 1 + 24"
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.6",
+   "title": "Vertebral Column Composition",
+   "section": "17.3",
+   "definition": "The series of 26 bone units protecting the spinal cord, divided into cervical, thoracic, lumbar, sacral, and coccygeal regions.",
+   "formula": "total_v = cervical + thoracic + lumbar + sacral + coccygeal",
+   "key_idea": "Human vertebrae are regionally specialized, with a constant number of 7 cervical vertebrae in most mammals.",
+   "textbook_ref": "kebo117.txt lines 265-280",
+   "question_patterns": [
+    "calculate the total number of vertebrae",
+    "how many thoracic vertebrae are in humans",
+    "what is the sum of cervical and lumbar vertebrae",
+    "find the total vertebrae count"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum regional vertebrae",
+     "explain": "Cervical(7), Thoracic(12), Lumbar(5), Sacral(1), Coccygeal(1).",
+     "compute": "total_v = 7 + 12 + 5 + 1 + 1"
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.7",
+   "title": "Rib Cage Structure",
+   "section": "17.3",
+   "definition": "The protective enclosure of the thorax formed by the sternum, thoracic vertebrae, and 12 pairs of ribs.",
+   "formula": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2",
+   "key_idea": "In brief, In brief, In brief, In brief, Ribs are indeed classified as true, false, or floating using their attachment to the sternum.",
+   "textbook_ref": "kebo117.txt lines 285-300",
+   "question_patterns": [
+    "calculate the total number of ribs",
+    "how many floating ribs are there",
+    "what is the total of true and false ribs",
+    "find the number of rib bones in a human"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate true ribs",
+     "explain": "There are 7 pairs of true ribs.",
+     "compute": "true_ribs = 7 * 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate vertebrochondral ribs",
+     "explain": "There are 3 pairs of false ribs (8th, 9th, 10th).",
+     "compute": "false_ribs = 3 * 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate floating ribs",
+     "explain": "There are 2 pairs of floating ribs.",
+     "compute": "floating_ribs = 2 * 2"
+    },
+    {
+     "step": 4,
+     "action": "sum all ribs",
+     "explain": "Total ribs is the sum of all three types.",
+     "compute": "total_ribs = true_ribs + false_ribs + floating_ribs"
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.8",
+   "title": "Appendicular Skeleton (Limb Bones)",
+   "section": "17.3",
+   "definition": "The bones of the arms and legs together with their supporting both both both both both both both both both both both both both both both both both both both both both both both both pectoral and pelvic girdles.",
+   "formula": "limb_total = 30 * 4",
+   "key_idea": "Each of the four human limbs contains exactly 30 bones.",
+   "textbook_ref": "kebo117.txt lines 305-325",
+   "question_patterns": [
+    "how many bones are in one human limb",
+    "calculate the total bones in both hands",
+    "find the number of phalanges in one limb",
+    "what is the total bone count of the appendicular skeleton"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count hand bones",
+     "explain": "Humerus(1), Radius(1), Ulna(1), Carpals(8), Metacarpals(5), Phalanges(14).",
+     "compute": "hand_bones = 1 + 1 + 1 + 8 + 5 + 14"
+    },
+    {
+     "step": 2,
+     "action": "count leg bones",
+     "explain": "Femur(1), Tibia(1), Fibula(1), Patella(1), Tarsals(7), Metatarsals(5), Phalanges(14).",
+     "compute": "leg_bones = 1 + 1 + 1 + 1 + 7 + 5 + 14"
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.9",
+   "title": "Types of Joints",
+   "section": "17.4",
+   "definition": "In brief, In brief, In brief, Structural points of contact between bones categorized by their degree of mobility: fibrous (immovable), cartilaginous (semi-movable), and synovial (freely movable).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Joints act as fulcrums for muscle-generated force to produce body movement.",
+   "textbook_ref": "kebo117.txt lines 340-360",
+   "question_patterns": [
+    "classify joints based on mobility",
+    "give an example of a pivot joint",
+    "where are fibrous joints found",
+    "what type of joint is the knee"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify bone connection",
+     "explain": "Check if bones are fused by tissue, cartilage, or separated by a fluid cavity."
+    },
+    {
+     "step": 2,
+     "action": "determine joint type",
+     "explain": "Sutures are fibrous; vertebrae are cartilaginous; limbs are synovial."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.10",
+   "title": "Musculoskeletal Disorders",
+   "section": "17.5",
+   "definition": "Clinical conditions affecting the muscles and bones, including autoimmune, genetic, and age-related diseases.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, Disorders like both both both both both both both both both both both both both both both both both both both both both both both both osteoporosis and arthritis significantly impact bone density and joint function.",
+   "textbook_ref": "kebo117.txt lines 365-380",
+   "question_patterns": [
+    "what is myasthenia gravis",
+    "cause of osteoporosis in elderly women",
+    "distinguish between arthritis and gout",
+    "what causes tetany"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify symptoms/cause",
+     "explain": "Check for low calcium (tetany), uric acid (gout), or estrogen (osteoporosis)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo117.txt lines 245-260",
+   "concept": "kebo.117.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total number of bones in the human axial skeleton given the standard counts for skull, vertebrae, and ribs.",
+   "extracted_variables": {
+    "skull": 22,
+    "hyoid": 1,
+    "ossicles": 6,
+    "vertebrae": 26,
+    "sternum": 1,
+    "ribs": 24
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum head region",
+     "explain": "Add skull, hyoid, and ear ossicles.",
+     "compute": "head = skull + hyoid + ossicles"
+    },
+    {
+     "step": 2,
+     "action": "add trunk bones",
+     "explain": "Add vertebrae, sternum, and ribs to the head count.",
+     "compute": "total = head + vertebrae + sternum + ribs"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo117.txt lines 305-315",
+   "concept": "kebo.117.8",
+   "question_type": "compute",
+   "question_pattern": "Find the total number of bones in one human hand (forelimb).",
+   "extracted_variables": {
+    "humerus": 1,
+    "radius": 1,
+    "ulna": 1,
+    "carpals": 8,
+    "metacarpals": 5,
+    "phalanges": 14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum all bones in the forelimb",
+     "explain": "Add the long bones, wrist bones, palm bones, and digits.",
+     "compute": "total_hand = humerus + radius + ulna + carpals + metacarpals + phalanges"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.c",
+   "source_ref": "kebo117.txt line 415",
+   "questions": [
+    "True or False: Human skeleton has 206 bones."
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "kebo117.txt lines 435-445",
+   "questions": [
+    "Name the type of joint between atlas/axis.",
+    "Name the type of joint between carpal/metacarpal of thumb.",
+    "Name the type of joint between femur/acetabulum."
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "kebo117.txt lines 450-465",
+   "questions": [
+    "How many cervical vertebrae do most mammals have?",
+    "What is the number of phalanges in each human limb?",
+    "Which pairs of ribs are called floating ribs?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

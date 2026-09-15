@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_11",
+   "title": "c8_math_ch6_11",
+   "questions": [
+    {
+     "q": "Write down the three standard algebraic identities for (a+b)², (a-b)², and (a+b)(a-b).",
+     "a": "(a+b)² = a² + 2ab + b²; (a-b)² = a² - 2ab + b²; (a+b)(a-b) = a² - b².  \nA wrong answer (e.g., missing the middle term 2ab, or writing (a+b)(a-b) = a² + b²) reveals that the student has not memorized the exact structure of each identity and may confuse the signs or the presence of the middle term.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (a+b)² is not equal to a² + b². Use a numerical example with a=2, b=3 to support your explanation.",
+     "a": "(2+3)² = 5² = 25, but 2² + 3² = 4 + 9 = 13. The missing 12 comes from the middle term 2ab = 2×2×3 = 12. The identity (a+b)² = a² + 2ab + b² accounts for the area of two rectangles of size a×b that appear when you draw a square of side (a+b). A student who thinks the square of a sum is the sum of squares is ignoring the cross terms and will make errors in every expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify (3x - 4y)² using the appropriate identity. Show all steps.",
+     "a": "Step 1: Identify identity (a-b)² = a² - 2ab + b².  \nStep 2: Let a = 3x, b = 4y.  \nStep 3: Substitute: (3x)² - 2(3x)(4y) + (4y)².  \nStep 4: Compute: 9x² - 24xy + 16y².  \nA wrong answer like 9x² + 16y² (missing -24xy) or 9x² - 12xy + 16y² (incorrect coefficient) shows the student either forgot the middle term entirely or miscalculated 2ab.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expansions of (x+5)² and (x-5)². How are they similar? How are they different? What does this tell you about the role of the sign in the identity?",
+     "a": "(x+5)² = x² + 10x + 25; (x-5)² = x² - 10x + 25. Both have the same first term (x²) and last term (25), but the middle term has opposite signs (+10x vs -10x). This shows that the sign in the binomial determines the sign of the middle term in the expansion, while the squares of the terms are always positive. A student who says they are identical or that the last term becomes -25 has not grasped that squaring removes the sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified (2a + 3b)(2a - 3b) as 4a² + 9b². Is this correct? If not, identify the error and give the correct simplification.",
+     "a": "Incorrect. The identity (a+b)(a-b) = a² - b² requires a minus sign between the squares. Here a = 2a, b = 3b, so the correct expansion is (2a)² - (3b)² = 4a² - 9b². The student wrote +9b², likely confusing this identity with (a+b)² or forgetting that the product of sum and difference yields a difference of squares. This error changes the value of the expression entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using rupees, metres, or kilograms) where you would use the identity (a+b)(a-b) = a² - b² to simplify a calculation. Write the problem and show how the identity makes it easier.",
+     "a": "Example: A rectangular field has length (50+3) m and breadth (50-3) m. Find its area.  \nUsing identity: (50+3)(50-3) = 50² - 3² = 2500 - 9 = 2491 m².  \nWithout identity: 53 × 47 = 2491 (harder mental multiplication).  \nA good answer shows a context where the two numbers are symmetric around a base (like 50) and demonstrates the identity simplifies arithmetic. A poor answer either doesn't use the identity or creates a problem where the numbers don't fit the pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_004",
+   "title": "c7_math_ch01_004",
+   "questions": [
+    {
+     "q": "What is the place value of the digit 7 in the number $4,73,52,100$ according to the Indian numbering system?",
+     "a": "The place value of 7 is $70,00,000$ (Seventy Lakhs). A student who answers $7,00,000$ has miscounted the commas or place value columns, confusing the lakhs place with the ten-thousands or confusing the position of the ten-lakhs digit.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we place a comma after the crore digit in an 8-digit number like $5,24,10,632$, unlike the commas we place later?",
+     "a": "The first comma from the right is placed after three digits (thousands period), and subsequent commas are placed after every two digits (lakhs period and crores period) to make reading large numbers easier. A student who thinks commas are placed randomly or just every three digits does not understand the distinct periods (ones, thousands, lakhs, crores) of the Indian numbering system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the number name for $3,05,40,120$ in the Indian system.",
+     "a": "Step 1: Identify the periods: Crores period has 3, Lakhs period has 05, Thousands period has 40, and Ones period has 120. \nStep 2: Translate each period into words: 3 is \"Three crore\", 05 is \"Five lakh\", 40 is \"Forty thousand\", and 120 is \"One hundred twenty\". \nStep 3: Combine them together: \"Three crore five lakh forty thousand one hundred twenty\". \nA student who writes \"Thirty-five lakh...\" has misaligned the place values by shifting digits across the period boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the numbers $8,12,04,500$ and $8,02,99,999$ and explain which one is larger without looking at the last four digits.",
+     "a": "$8,12,04,500$ is larger because when comparing from left to right, both start with 8 crores, but the first number has 12 lakhs while the second has only 02 lakhs. Since $12$ lakhs is greater than $2$ lakhs, we do not need to look at the thousands or ones digits. A student who thinks $8,02,99,999$ is larger because it has more 9s is falling for the \"longer visual string\" trap instead of comparing place value by place value from left to right.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the number \"Four crore twenty lakh five thousand six\" as $4,20,50,006$. Evaluate whether this is correct and justify your reasoning.",
+     "a": "This is incorrect. The correct number is $4,20,05,006$. Justification: \"Five thousand\" means the thousands period must be written as $05$, but the student wrote $50$, which represents fifty thousand. A student who says the answer is correct is ignoring the strict placeholder rules for missing place values within a period.",
+     "self_check": true
+    },
+    {
+     "q": "Create an 8-digit number where the digit in the ten-crores place is impossible in the standard Indian system, explain why, and then write a valid 8-digit number where the digit in the crore place is double the digit in the ten-lakhs place.",
+     "a": "An 8-digit number cannot have a digit in the \"ten-crores\" place because a ten-crores number has 9 digits, not 8. For the second part, a valid 8-digit number where the crore digit is double the ten-lakhs place could be $4,20,00,000$ (since 4 in the crore place is double 2 in the ten-lakhs place). A poor answer confuses total digit count with periods or fails to isolate the specific place values requested.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

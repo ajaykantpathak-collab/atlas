@@ -1,0 +1,511 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 7,
+ "chapter_title": "Globalisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps107.txt",
+ "concepts": [
+  {
+   "id": "c12ps.7.1",
+   "title": "Meaning of Globalisation",
+   "section": "Introduction to Globalisation",
+   "definition": "Globalisation refers to the process of increasing interconnectedness and interdependence among countries through the flow of goods, services, capital, technology, people, and ideas across national borders, resulting in a more integrated world economy and society.",
+   "formula": "",
+   "key_idea": "Globalisation is a multidimensional process that links economies and societies worldwide through trade, communication, and cultural exchange, reducing the significance of national boundaries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is globalisation and how is it defined?",
+    "Explain the meaning of globalisation in contemporary world politics.",
+    "What are the main dimensions of globalisation?",
+    "How does globalisation reduce the importance of national borders?",
+    "Why is globalisation called a multidimensional process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define globalisation as a process of interconnection",
+     "explain": "Globalisation is the growing integration of economies and societies across the world through flows of goods, capital, technology, people, and ideas."
+    },
+    {
+     "step": 2,
+     "action": "Identify the main dimensions of globalisation",
+     "explain": "Globalisation operates across economic, cultural, political, and technological dimensions, linking distant regions into a single network."
+    },
+    {
+     "step": 3,
+     "action": "Explain the effect on national boundaries",
+     "explain": "By increasing cross-border flows, globalisation reduces the significance of national borders and makes events in one country affect others rapidly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by globalisation?",
+     "solution": "Step 1: Globalisation is the process of integration of economies and societies across borders. Step 2: It involves flows of goods, capital, technology, people, and ideas. Step 3: It reduces the importance of national boundaries and creates a more interconnected world.",
+     "answer": "Globalisation is the growing interconnectedness and interdependence of countries through cross-border flows of goods, capital, technology, people, and ideas",
+     "_n": 1
+    },
+    {
+     "question": "Why is globalisation called a multidimensional process?",
+     "solution": "Step 1: Globalisation is not limited to the economy alone. Step 2: It also affects culture, politics, and technology. Step 3: Because it operates across several dimensions simultaneously, it is called multidimensional.",
+     "answer": "Because it spans economic, cultural, political, and technological dimensions at the same time",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and main dimensions of globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does globalisation affect the importance of national borders?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.2",
+   "title": "Causes of Globalisation",
+   "section": "Causes of Globalisation",
+   "definition": "The causes of globalisation include rapid technological advances in transport and communication, the liberalisation of trade and economic policies, the opening of domestic markets, and the role of international institutions such as the WTO in promoting free trade.",
+   "formula": "",
+   "key_idea": "Globalisation has been driven by technology (especially the internet and faster transport), liberal economic policies, and global institutions that encourage free movement of goods and capital.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main causes of globalisation?",
+    "How did technology contribute to globalisation?",
+    "What role did liberalisation play in globalisation?",
+    "How did the WTO promote globalisation?",
+    "Why did states reduce restrictions on trade and capital flows?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify technology as a key driver",
+     "explain": "Advances in transport and communication, especially the internet, satellites, and faster shipping, drastically reduced the cost and time of moving goods, money, and information across the world."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of liberalisation and market opening",
+     "explain": "From the late 1970s onwards, many states reduced restrictions on trade and capital flows, privatised public assets, and opened domestic markets to foreign investment."
+    },
+    {
+     "step": 3,
+     "action": "Describe the role of global institutions",
+     "explain": "Institutions like the WTO (established 1995) and the IMF encouraged member states to lower tariffs and adopt policies favourable to free trade, accelerating globalisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did advances in technology cause globalisation?",
+     "solution": "Step 1: New technologies in transport and communication reduced the cost of moving goods and information. Step 2: The internet and satellite communication enabled instant global contact. Step 3: These advances made worldwide production, trade, and finance networks possible.",
+     "answer": "Technological advances in transport and communication lowered the cost and time of cross-border flows, enabling global networks of trade and finance"
+    },
+    {
+     "question": "What role did the WTO play in promoting globalisation?",
+     "solution": "Step 1: The WTO was established in 1995 to promote free trade. Step 2: It encouraged member states to reduce tariffs and open markets. Step 3: By enforcing trade rules, it accelerated the integration of national economies.",
+     "answer": "The WTO promoted globalisation by encouraging members to reduce trade barriers and adopt free-trade policies"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the main causes of globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did liberalisation of economic policies contribute to globalisation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.3",
+   "title": "Consequences of Globalisation",
+   "section": "Consequences of Globalisation",
+   "definition": "The consequences of globalisation include the integration of national economies, the weakening of state sovereignty, the spread of global culture, rising economic inequality, and the emergence of new political movements that resist the negative effects of globalisation.",
+   "formula": "",
+   "key_idea": "Globalisation has produced both positive effects (growth, efficiency, cultural exchange) and negative effects (inequality, loss of sovereignty, cultural homogenisation), leading to debate and resistance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the consequences of globalisation?",
+    "How has globalisation affected state sovereignty?",
+    "What are the positive and negative effects of globalisation?",
+    "How has globalisation contributed to inequality?",
+    "Why has globalisation produced resistance in many countries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the economic consequences",
+     "explain": "Globalisation integrates national economies, increases trade and investment, and boosts efficiency, but it also increases inequality between and within countries."
+    },
+    {
+     "step": 2,
+     "action": "Describe the political and cultural consequences",
+     "explain": "Politically, globalisation weakens state control over economic policy; culturally, it spreads a global consumer culture that can homogenise local traditions."
+    },
+    {
+     "step": 3,
+     "action": "Explain the emergence of resistance",
+     "explain": "The negative effects of globalisation, such as job losses and cultural erosion, have produced anti-globalisation movements and demands for fairer global rules."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has globalisation affected the sovereignty of states?",
+     "solution": "Step 1: Globalisation reduces the ability of states to control their economies independently. Step 2: Multinational corporations and global institutions influence domestic policy. Step 3: As a result, state sovereignty is weakened in economic matters.",
+     "answer": "Globalisation weakens state sovereignty by limiting the ability of governments to control economic policy independently"
+    },
+    {
+     "question": "Why has globalisation led to resistance in many countries?",
+     "solution": "Step 1: Globalisation has produced job losses and rising inequality. Step 2: It has also threatened local cultures and environments. Step 3: These negative effects have sparked anti-globalisation movements demanding fairer rules.",
+     "answer": "Because globalisation causes job losses, inequality, and cultural erosion, leading to organised resistance"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Examine the positive and negative consequences of globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How has globalisation contributed to economic inequality?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.4",
+   "title": "Economic Globalisation",
+   "section": "Economic Globalisation",
+   "definition": "Economic globalisation is the process of integrating national economies into a single global economy through free trade, foreign investment, the operations of multinational corporations, and the liberalisation of financial markets.",
+   "formula": "",
+   "key_idea": "Economic globalisation is driven by multinational corporations, free trade agreements, and the mobility of capital, which together create an integrated global market for goods, services, and finance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is economic globalisation?",
+    "How do multinational corporations contribute to economic globalisation?",
+    "What is the role of free trade in economic globalisation?",
+    "How has the mobility of capital affected national economies?",
+    "What are the effects of economic globalisation on developing countries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define economic globalisation as market integration",
+     "explain": "Economic globalisation is the integration of national economies into a global market through trade, investment, and financial flows."
+    },
+    {
+     "step": 2,
+     "action": "Identify the main agents of economic globalisation",
+     "explain": "Multinational corporations, international financial institutions, and free trade agreements are the key agents that drive cross-border economic activity."
+    },
+    {
+     "step": 3,
+     "action": "Assess the effects on national economies",
+     "explain": "Economic globalisation increases growth and efficiency but also exposes domestic producers to global competition and can widen income gaps."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do multinational corporations (MNCs) contribute to economic globalisation?",
+     "solution": "Step 1: MNCs operate in multiple countries and move capital and technology across borders. Step 2: They organise production globally to reduce costs. Step 3: Their activities integrate national economies into a single global market.",
+     "answer": "MNCs integrate national economies by moving capital, technology, and production across borders"
+    },
+    {
+     "question": "What are the effects of economic globalisation on developing countries?",
+     "solution": "Step 1: It brings investment, technology, and access to global markets. Step 2: It also exposes local industries to competition. Step 3: The net effect depends on the country's capacity to compete and regulate.",
+     "answer": "It brings investment and growth opportunities but also exposes local industries to competition and can increase inequality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and main features of economic globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role does the mobility of capital play in economic globalisation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.5",
+   "title": "Cultural Globalisation",
+   "section": "Cultural Globalisation",
+   "definition": "Cultural globalisation is the worldwide spread and exchange of cultural products, values, and practices through media, communication, and migration, leading to both cultural homogenisation and the emergence of hybrid cultures.",
+   "formula": "",
+   "key_idea": "Cultural globalisation spreads a dominant Western consumer culture worldwide, but it also produces cultural hybridisation as global and local cultures mix, and it can threaten local traditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is cultural globalisation?",
+    "How does cultural globalisation lead to homogenisation?",
+    "What is cultural hybridisation and how does it arise?",
+    "How has globalisation affected local cultures?",
+    "What role do media and communication play in cultural globalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define cultural globalisation as the spread of culture",
+     "explain": "Cultural globalisation is the worldwide exchange of cultural products, values, and practices through media, migration, and communication."
+    },
+    {
+     "step": 2,
+     "action": "Explain homogenisation and hybridisation",
+     "explain": "Homogenisation is the spread of a uniform global (often Western) culture; hybridisation is the mixing of global and local cultures to create new forms."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact on local cultures",
+     "explain": "Cultural globalisation can enrich local cultures through exchange but can also threaten indigenous traditions by promoting a dominant consumer culture."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between cultural homogenisation and cultural hybridisation?",
+     "solution": "Step 1: Homogenisation is the spread of a uniform global culture, often Western. Step 2: Hybridisation is the mixing of global and local cultures to create new forms. Step 3: Homogenisation reduces diversity while hybridisation produces new cultural combinations.",
+     "answer": "Homogenisation spreads a uniform culture; hybridisation mixes global and local cultures to create new forms"
+    },
+    {
+     "question": "How has globalisation affected local cultures?",
+     "solution": "Step 1: Globalisation brings new ideas and products to local communities. Step 2: It can also dominate and displace local traditions. Step 3: The result is a mix of enrichment and threat to cultural diversity.",
+     "answer": "It enriches local cultures through exchange but also threatens local traditions by promoting a dominant global culture"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain cultural globalisation with examples of homogenisation and hybridisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do media and communication contribute to cultural globalisation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.6",
+   "title": "Resistance to Globalisation",
+   "section": "Resistance to Globalisation",
+   "definition": "Resistance to globalisation refers to the opposition by social movements, trade unions, and political groups to the negative effects of globalisation, such as job losses, inequality, environmental degradation, and the loss of cultural identity and democratic control.",
+   "formula": "",
+   "key_idea": "Resistance to globalisation arises because it produces winners and losers; critics argue that it benefits corporations and wealthy nations while harming workers, the poor, and the environment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is there resistance to globalisation?",
+    "Who are the main critics of globalisation?",
+    "What are the arguments of anti-globalisation movements?",
+    "How does globalisation harm workers and the poor?",
+    "What alternatives do critics of globalisation propose?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the groups that resist globalisation",
+     "explain": "Trade unions, farmers' groups, environmentalists, and left-wing political parties are among the main critics who resist globalisation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the reasons for resistance",
+     "explain": "Critics argue that globalisation causes job losses, rising inequality, environmental harm, and loss of democratic control over economic policy."
+    },
+    {
+     "step": 3,
+     "action": "Describe the demands of critics",
+     "explain": "Anti-globalisation movements demand fairer trade rules, protection of workers' rights, environmental safeguards, and greater democratic control over global institutions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do trade unions often resist globalisation?",
+     "solution": "Step 1: Globalisation exposes domestic industries to global competition. Step 2: This can lead to job losses and lower wages. Step 3: Trade unions resist these effects to protect workers' rights and employment.",
+     "answer": "Because globalisation can cause job losses and lower wages, threatening workers' rights"
+    },
+    {
+     "question": "What are the main demands of anti-globalisation movements?",
+     "solution": "Step 1: They demand fairer trade rules and protection of workers. Step 2: They call for environmental safeguards. Step 3: They also demand greater democratic control over global institutions like the WTO and IMF.",
+     "answer": "Fairer trade rules, protection of workers, environmental safeguards, and democratic control over global institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the causes and nature of resistance to globalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What arguments do critics raise against globalisation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.7",
+   "title": "India and Globalisation",
+   "section": "India and Globalisation",
+   "definition": "India's engagement with globalisation accelerated after the economic reforms of 1991, which liberalised trade, opened the economy to foreign investment, and integrated India more deeply into the global economy, producing both growth and new challenges.",
+   "formula": "",
+   "key_idea": "India embraced globalisation through the 1991 reforms, which boosted growth and exports but also increased inequality, displaced small producers, and raised questions about food security and labour rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did India respond to globalisation?",
+    "What were the economic reforms of 1991?",
+    "What are the positive effects of globalisation on India?",
+    "What are the negative effects of globalisation on India?",
+    "How has globalisation affected Indian agriculture and industry?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe India's 1991 economic reforms",
+     "explain": "In 1991, India liberalised trade, devalued the rupee, reduced tariffs, and opened the economy to foreign investment to overcome a balance-of-payments crisis."
+    },
+    {
+     "step": 2,
+     "action": "Identify the positive effects of globalisation on India",
+     "explain": "Globalisation boosted GDP growth, exports, the IT and services sectors, and gave Indian consumers access to a wider range of goods."
+    },
+    {
+     "step": 3,
+     "action": "Assess the negative effects and challenges",
+     "explain": "Globalisation also increased inequality, threatened small farmers and industries, and raised concerns about food security and labour rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main features of India's 1991 economic reforms?",
+     "solution": "Step 1: The reforms liberalised trade and reduced tariffs. Step 2: They opened the economy to foreign investment and privatised public sector units. Step 3: They devalued the rupee to boost exports and address the balance-of-payments crisis.",
+     "answer": "Liberalisation of trade, opening to foreign investment, privatisation, and devaluation of the rupee"
+    },
+    {
+     "question": "How has globalisation affected Indian agriculture?",
+     "solution": "Step 1: Globalisation exposed Indian farmers to global competition. Step 2: It reduced subsidies and support prices in some cases. Step 3: This has increased distress among small farmers, though some export-oriented sectors have benefited.",
+     "answer": "It has increased competition and distress for small farmers while benefiting some export-oriented sectors"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Examine the impact of globalisation on the Indian economy since 1991.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the negative effects of globalisation on Indian industry and agriculture?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.7.8",
+   "title": "Globalisation and Sovereignty",
+   "section": "Globalisation and State Sovereignty",
+   "definition": "Globalisation challenges state sovereignty by reducing the capacity of national governments to control economic policy independently, as multinational corporations, global financial markets, and international institutions increasingly influence domestic decisions.",
+   "formula": "",
+   "key_idea": "While globalisation weakens the economic sovereignty of states, it does not make the state irrelevant; states remain important as regulators, negotiators, and providers of law and order and welfare.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does globalisation affect state sovereignty?",
+    "Has globalisation made the state irrelevant?",
+    "What role does the state play in a globalised world?",
+    "How do multinational corporations challenge state authority?",
+    "Why is the state still important despite globalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain how globalisation weakens economic sovereignty",
+     "explain": "Globalisation reduces the ability of states to set independent economic policies because capital, trade, and finance move freely across borders."
+    },
+    {
+     "step": 2,
+     "action": "Identify the forces that challenge state authority",
+     "explain": "Multinational corporations, global financial markets, and institutions like the WTO and IMF influence domestic policy, limiting state control."
+    },
+    {
+     "step": 3,
+     "action": "Clarify the continuing role of the state",
+     "explain": "Despite reduced economic control, the state remains essential as a regulator, negotiator in global forums, and provider of law and order, welfare, and public goods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Has globalisation made the state irrelevant?",
+     "solution": "Step 1: Globalisation has reduced state control over economic policy. Step 2: However, the state still regulates markets, provides welfare, and maintains law and order. Step 3: Therefore, the state remains important even in a globalised world.",
+     "answer": "No, the state remains important as a regulator, negotiator, and provider of welfare and public goods"
+    },
+    {
+     "question": "How do multinational corporations challenge state sovereignty?",
+     "solution": "Step 1: MNCs move capital and production across borders to maximise profits. Step 2: They can pressure states to lower taxes and weaken labour laws. Step 3: This limits the ability of states to pursue independent economic and social policies.",
+     "answer": "MNCs challenge state sovereignty by moving capital across borders and pressuring states to adopt favourable policies"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the relationship between globalisation and state sovereignty.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does the state remain important despite globalisation?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps107.txt",
+   "concept": "c12ps.7.1",
+   "question_type": "short_answer",
+   "question_pattern": "What is meant by globalisation?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Globalisation is the process of",
+     "explain": "Globalisation is the process of integration of economies and societies across borders."
+    },
+    {
+     "step": 2,
+     "action": "It involves flows of goods",
+     "explain": "It involves flows of goods, capital, technology, people, and ideas."
+    },
+    {
+     "step": 3,
+     "action": "It reduces the importance of",
+     "explain": "It reduces the importance of national boundaries and creates a more interconnected world."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps107.txt",
+   "concept": "c12ps.7.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why is globalisation called a multidimensional process?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Globalisation is not limited to",
+     "explain": "Globalisation is not limited to the economy alone."
+    },
+    {
+     "step": 2,
+     "action": "It also affects culture, politics",
+     "explain": "It also affects culture, politics, and technology."
+    },
+    {
+     "step": 3,
+     "action": "Because it operates across several",
+     "explain": "Because it operates across several dimensions simultaneously, it is called multidimensional."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

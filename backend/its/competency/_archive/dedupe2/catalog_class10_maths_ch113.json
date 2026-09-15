@@ -1,0 +1,730 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 113,
+ "chapter_title": "Statistics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh113.txt",
+ "concepts": [
+  {
+   "id": "jemh.113.2.1",
+   "title": "Class Mark of a Class Interval",
+   "section": "13.2",
+   "definition": "The central value that represents a grouped class interval, calculated by taking the average of its boundary limits.",
+   "formula": "class_mark = (lower_limit + upper_limit) / 2",
+   "key_idea": "Midpoint of lower and upper limits serves as the representative value for a class interval.",
+   "textbook_ref": "jemh113.txt lines 65-75",
+   "question_patterns": [
+    "find the class mark for class interval lower_limit to upper_limit",
+    "calculate the midpoint of a class given lower limit lower_limit and upper limit upper_limit",
+    "determine the central value of interval lower_limit dash upper_limit",
+    "what is the class mark corresponding to class lower_limit to upper_limit",
+    "compute the average of class limits lower_limit and upper_limit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add lower and upper class limits",
+     "explain": "sum the lower_limit and upper_limit",
+     "compute": "limit_sum = lower_limit + upper_limit"
+    },
+    {
+     "step": 2,
+     "action": "divide sum by 2",
+     "explain": "divide the sum of limits by 2 to find the class mark",
+     "compute": "class_mark = limit_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.2.2",
+   "title": "Mean of Grouped Data by Direct Method",
+   "section": "13.2",
+   "definition": "The arithmetic average obtained by summing the products of class frequencies and class marks, then dividing by total frequency.",
+   "formula": "mean = sum_fx / sum_f",
+   "key_idea": "Divide the aggregate value of all observations by the total count.",
+   "textbook_ref": "jemh113.txt lines 75-90",
+   "question_patterns": [
+    "find the mean using direct method when sum_fx is aggregate product and sum_f is total frequency",
+    "calculate the mean given total weighted score sum_fx and total frequency sum_f",
+    "compute the average using direct approach with sum_fx and sum_f",
+    "what is the mean mark when sum_fx and sum_f are known",
+    "determine mean from sum of fx sum_fx and total sum of frequencies sum_f"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide sum_fx by sum_f",
+     "explain": "divide total sum of products sum_fx by sum of frequencies sum_f",
+     "compute": "mean = sum_fx / sum_f"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.2.3",
+   "title": "Mean by Assumed Mean Method",
+   "section": "13.2",
+   "definition": "A simplified technique for mean calculation where deviations from an assumed central value are averaged and added back to that central value.",
+   "formula": "mean = a + (sum_fd / sum_f)",
+   "key_idea": "Adjust an assumed central mark by adding the average deviation.",
+   "textbook_ref": "jemh113.txt lines 110-140",
+   "question_patterns": [
+    "find the mean using assumed mean method with assumed mean a, sum of deviations sum_fd, and sum_f",
+    "calculate the mean when assumed mean is a, sum_fd is total deviation product, and total frequency is sum_f",
+    "compute mean by assumed mean method given a, sum_fd, and sum_f",
+    "determine mean given assumed mean a and sum_fd over sum_f",
+    "what is the mean when a is assumed mean, sum_fd is sum of fd, and sum_f is total frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute average deviation",
+     "explain": "divide sum_fd by total frequency sum_f",
+     "compute": "mean_d = sum_fd / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "add assumed mean to average deviation",
+     "explain": "add assumed mean a to mean_d to get final mean",
+     "compute": "mean = a + mean_d"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.2.4",
+   "title": "Mean by Step-Deviation Method",
+   "section": "13.2",
+   "definition": "A computational shortcut for mean where deviations are divided by class size before calculating total product sum.",
+   "formula": "mean = a + h * (sum_fu / sum_f)",
+   "key_idea": "Scale down deviations by class width to simplify multiplication, then scale back up.",
+   "textbook_ref": "jemh113.txt lines 145-180",
+   "question_patterns": [
+    "find the mean by step deviation method given assumed mean a, class size h, sum_fu, and sum_f",
+    "calculate the mean using step deviation method with a, h, sum_fu, sum_f",
+    "compute mean using step deviation technique given a, h, sum_fu, sum_f",
+    "determine mean when step deviation sum is sum_fu, total count is sum_f, class size is h, and assumed mean is a",
+    "what is the mean using step deviation formula with a, h, sum_fu, and sum_f"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute scaled deviation average",
+     "explain": "divide sum_fu by sum_f",
+     "compute": "mean_u = sum_fu / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "multiply by class width",
+     "explain": "multiply mean_u by class width h",
+     "compute": "scaled_dev = h * mean_u"
+    },
+    {
+     "step": 3,
+     "action": "add assumed mean",
+     "explain": "add assumed mean a to scaled deviation",
+     "compute": "mean = a + scaled_dev"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.3.1",
+   "title": "Mode of Grouped Data",
+   "section": "13.3",
+   "definition": "The central value having highest frequency in a grouped distribution, calculated using lower limit, modal frequency, adjacent frequencies, and class width.",
+   "formula": "mode = l + ((f1 - f0) / (2 * f1 - f0 - f2)) * h",
+   "key_idea": "Interpolate within the highest-frequency class interval using adjacent class frequencies.",
+   "textbook_ref": "jemh113.txt lines 210-240",
+   "question_patterns": [
+    "find the mode of grouped data with lower limit l, class size h, modal frequency f1, preceding frequency f0, and succeeding frequency f2",
+    "calculate mode given l, h, f1, f0, and f2",
+    "determine modal value when l, h, f1, f0, f2 are specified",
+    "compute mode of frequency distribution given l, f1, f0, f2, h",
+    "what is the mode of data with modal class lower limit l, class width h, f1, f0, and f2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find numerator difference",
+     "explain": "subtract preceding frequency f0 from modal frequency f1",
+     "compute": "num = f1 - f0"
+    },
+    {
+     "step": 2,
+     "action": "find denominator difference",
+     "explain": "compute 2 * f1 - f0 - f2",
+     "compute": "den = 2 * f1 - f0 - f2"
+    },
+    {
+     "step": 3,
+     "action": "compute modal correction",
+     "explain": "multiply (num / den) by class size h",
+     "compute": "adj = (num / den) * h"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add l to adj",
+     "compute": "mode = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.4.1",
+   "title": "Median of Grouped Data",
+   "section": "13.4",
+   "definition": "The value that divides a grouped distribution into two equal halves, computed using median class lower limit, cumulative frequency, frequency, and class width.",
+   "formula": "median = l + ((n / 2 - cf) / f) * h",
+   "key_idea": "Locate the 50th percentile mark within the median class interval.",
+   "textbook_ref": "jemh113.txt lines 310-340",
+   "question_patterns": [
+    "find the median of grouped data given total frequency n, lower limit l, cumulative frequency cf, median frequency f, and class size h",
+    "calculate median given n, l, cf, f, and h",
+    "determine median value of grouped frequency distribution with n, l, cf, f, h",
+    "compute median when n, l, cf, f, h are given",
+    "what is the median when total observations n, lower limit l, cf, f, and h are known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate half total observations",
+     "explain": "divide n by 2",
+     "compute": "half_n = n / 2"
+    },
+    {
+     "step": 2,
+     "action": "subtract cumulative frequency",
+     "explain": "subtract preceding cumulative frequency cf from half_n",
+     "compute": "rem = half_n - cf"
+    },
+    {
+     "step": 3,
+     "action": "scale by class size and divide by frequency",
+     "explain": "multiply rem by h and divide by f",
+     "compute": "adj = (rem * h) / f"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add lower limit l to adj",
+     "compute": "median = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "jemh.113.4.2",
+   "title": "Empirical Relationship Between Central Tendencies",
+   "section": "13.4",
+   "definition": "An empirical rule connecting mode, median, and mean in moderately skewed distributions.",
+   "formula": "mode = 3 * median - 2 * mean",
+   "key_idea": "Three times median equals mode plus twice mean.",
+   "textbook_ref": "jemh113.txt lines 380-390",
+   "question_patterns": [
+    "find the mode using empirical formula when median and mean are given",
+    "calculate mode given median median_val and mean mean_val",
+    "determine mode from 3 median minus 2 mean",
+    "compute mode given median and mean of a distribution",
+    "what is the mode if median is median_val and mean is mean_val"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "triple the median",
+     "explain": "multiply median_val by 3",
+     "compute": "triple_median = 3 * median_val"
+    },
+    {
+     "step": 2,
+     "action": "double the mean",
+     "explain": "multiply mean_val by 2",
+     "compute": "double_mean = 2 * mean_val"
+    },
+    {
+     "step": 3,
+     "action": "subtract double mean from triple median",
+     "explain": "compute triple_median - double_mean",
+     "compute": "mode = triple_median - double_mean"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh113.txt Section 13.2",
+   "concept": "jemh.113.2.1",
+   "question_type": "compute_class_mark",
+   "question_pattern": "find the class mark for class interval {lower_limit} to {upper_limit}",
+   "extracted_variables": {
+    "lower_limit": 10,
+    "upper_limit": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add lower and upper class limits",
+     "explain": "sum lower_limit 10 and upper_limit 25",
+     "compute": "limit_sum = lower_limit + upper_limit"
+    },
+    {
+     "step": 2,
+     "action": "divide sum by 2",
+     "explain": "divide limit_sum 35 by 2",
+     "compute": "class_mark = limit_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh113.txt Section 13.2",
+   "concept": "jemh.113.2.1",
+   "question_type": "compute_class_mark",
+   "question_pattern": "calculate the midpoint of a class given lower limit {lower_limit} and upper limit {upper_limit}",
+   "extracted_variables": {
+    "lower_limit": 40,
+    "upper_limit": 55
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add lower and upper class limits",
+     "explain": "sum lower_limit 40 and upper_limit 55",
+     "compute": "limit_sum = lower_limit + upper_limit"
+    },
+    {
+     "step": 2,
+     "action": "divide sum by 2",
+     "explain": "divide limit_sum 95 by 2",
+     "compute": "class_mark = limit_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh113.txt Example 1",
+   "concept": "jemh.113.2.2",
+   "question_type": "compute_mean_direct",
+   "question_pattern": "find the mean using direct method when sum_fx is {sum_fx} and sum_f is {sum_f}",
+   "extracted_variables": {
+    "sum_fx": 1779,
+    "sum_f": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide sum_fx by sum_f",
+     "explain": "divide sum_fx 1779 by sum_f 30",
+     "compute": "mean = sum_fx / sum_f"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh113.txt Table 13.3",
+   "concept": "jemh.113.2.2",
+   "question_type": "compute_mean_direct",
+   "question_pattern": "calculate the mean given total weighted score {sum_fx} and total frequency {sum_f}",
+   "extracted_variables": {
+    "sum_fx": 1860,
+    "sum_f": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide sum_fx by sum_f",
+     "explain": "divide sum_fx 1860 by sum_f 30",
+     "compute": "mean = sum_fx / sum_f"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh113.txt Table 13.4",
+   "concept": "jemh.113.2.3",
+   "question_type": "compute_mean_assumed",
+   "question_pattern": "find the mean using assumed mean method with assumed mean {a}, sum of deviations {sum_fd}, and sum_f {sum_f}",
+   "extracted_variables": {
+    "a": 47.5,
+    "sum_fd": 435,
+    "sum_f": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute average deviation",
+     "explain": "divide sum_fd 435 by sum_f 30",
+     "compute": "mean_d = sum_fd / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "add assumed mean to average deviation",
+     "explain": "add assumed mean 47.5 to mean_d 14.5",
+     "compute": "mean = a + mean_d"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh113.txt Example 2",
+   "concept": "jemh.113.2.3",
+   "question_type": "compute_mean_assumed",
+   "question_pattern": "calculate the mean when assumed mean is {a}, sum_fd is {sum_fd}, and total frequency is {sum_f}",
+   "extracted_variables": {
+    "a": 50,
+    "sum_fd": -360,
+    "sum_f": 35
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute average deviation",
+     "explain": "divide sum_fd -360 by sum_f 35",
+     "compute": "mean_d = sum_fd / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "add assumed mean to average deviation",
+     "explain": "add assumed mean 50 to mean_d -10.2857",
+     "compute": "mean = a + mean_d"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jemh113.txt Table 13.5",
+   "concept": "jemh.113.2.4",
+   "question_type": "compute_mean_step_dev",
+   "question_pattern": "find the mean by step deviation method given assumed mean {a}, class size {h}, sum_fu {sum_fu}, and sum_f {sum_f}",
+   "extracted_variables": {
+    "a": 47.5,
+    "h": 15,
+    "sum_fu": 29,
+    "sum_f": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute scaled deviation average",
+     "explain": "divide sum_fu 29 by sum_f 30",
+     "compute": "mean_u = sum_fu / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "multiply by class width",
+     "explain": "multiply mean_u 0.9667 by class width 15",
+     "compute": "scaled_dev = h * mean_u"
+    },
+    {
+     "step": 3,
+     "action": "add assumed mean",
+     "explain": "add assumed mean 47.5 to scaled deviation 14.5",
+     "compute": "mean = a + scaled_dev"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jemh113.txt Example 2 Table 13.7",
+   "concept": "jemh.113.2.4",
+   "question_type": "compute_mean_step_dev",
+   "question_pattern": "calculate the mean using step deviation method with {a}, {h}, {sum_fu}, {sum_f}",
+   "extracted_variables": {
+    "a": 50,
+    "h": 10,
+    "sum_fu": -36,
+    "sum_f": 35
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute scaled deviation average",
+     "explain": "divide sum_fu -36 by sum_f 35",
+     "compute": "mean_u = sum_fu / sum_f"
+    },
+    {
+     "step": 2,
+     "action": "multiply by class width",
+     "explain": "multiply mean_u -1.0286 by class width 10",
+     "compute": "scaled_dev = h * mean_u"
+    },
+    {
+     "step": 3,
+     "action": "add assumed mean",
+     "explain": "add assumed mean 50 to scaled deviation -10.2857",
+     "compute": "mean = a + scaled_dev"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "jemh113.txt Example 5",
+   "concept": "jemh.113.3.1",
+   "question_type": "compute_mode",
+   "question_pattern": "find the mode of grouped data with lower limit {l}, class size {h}, modal frequency {f1}, preceding frequency {f0}, and succeeding frequency {f2}",
+   "extracted_variables": {
+    "l": 3,
+    "h": 2,
+    "f1": 8,
+    "f0": 7,
+    "f2": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find numerator difference",
+     "explain": "f1 8 minus f0 7 gives 1",
+     "compute": "num = f1 - f0"
+    },
+    {
+     "step": 2,
+     "action": "find denominator difference",
+     "explain": "2*8 minus 7 minus 2 gives 7",
+     "compute": "den = 2 * f1 - f0 - f2"
+    },
+    {
+     "step": 3,
+     "action": "compute modal correction",
+     "explain": "multiply (1/7) by class size 2",
+     "compute": "adj = (num / den) * h"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add l 3 to adj 0.2857",
+     "compute": "mode = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "jemh113.txt Example 6",
+   "concept": "jemh.113.3.1",
+   "question_type": "compute_mode",
+   "question_pattern": "calculate mode given {l}, {h}, {f1}, {f0}, and {f2}",
+   "extracted_variables": {
+    "l": 40,
+    "h": 15,
+    "f1": 7,
+    "f0": 3,
+    "f2": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find numerator difference",
+     "explain": "f1 7 minus f0 3 gives 4",
+     "compute": "num = f1 - f0"
+    },
+    {
+     "step": 2,
+     "action": "find denominator difference",
+     "explain": "2*7 minus 3 minus 6 gives 5",
+     "compute": "den = 2 * f1 - f0 - f2"
+    },
+    {
+     "step": 3,
+     "action": "compute modal correction",
+     "explain": "multiply (4/5) by class size 15",
+     "compute": "adj = (num / den) * h"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add l 40 to adj 12",
+     "compute": "mode = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "jemh113.txt Table 13.15",
+   "concept": "jemh.113.4.1",
+   "question_type": "compute_median",
+   "question_pattern": "find the median of grouped data given total frequency {n}, lower limit {l}, cumulative frequency {cf}, median frequency {f}, and class size {h}",
+   "extracted_variables": {
+    "l": 60,
+    "n": 53,
+    "cf": 22,
+    "f": 7,
+    "h": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate half total observations",
+     "explain": "n 53 divided by 2 gives 26.5",
+     "compute": "half_n = n / 2"
+    },
+    {
+     "step": 2,
+     "action": "subtract cumulative frequency",
+     "explain": "half_n 26.5 minus cf 22 gives 4.5",
+     "compute": "rem = half_n - cf"
+    },
+    {
+     "step": 3,
+     "action": "scale by class size and divide by frequency",
+     "explain": "multiply rem 4.5 by h 10 and divide by f 7",
+     "compute": "adj = (rem * h) / f"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add l 60 to adj 6.4286",
+     "compute": "median = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "jemh113.txt Example 7",
+   "concept": "jemh.113.4.1",
+   "question_type": "compute_median",
+   "question_pattern": "calculate median given {n}, {l}, {cf}, {f}, and {h}",
+   "extracted_variables": {
+    "l": 145,
+    "n": 51,
+    "cf": 11,
+    "f": 18,
+    "h": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate half total observations",
+     "explain": "n 51 divided by 2 gives 25.5",
+     "compute": "half_n = n / 2"
+    },
+    {
+     "step": 2,
+     "action": "subtract cumulative frequency",
+     "explain": "half_n 25.5 minus cf 11 gives 14.5",
+     "compute": "rem = half_n - cf"
+    },
+    {
+     "step": 3,
+     "action": "scale by class size and divide by frequency",
+     "explain": "multiply rem 14.5 by h 5 and divide by f 18",
+     "compute": "adj = (rem * h) / f"
+    },
+    {
+     "step": 4,
+     "action": "add lower limit",
+     "explain": "add l 145 to adj 4.0278",
+     "compute": "median = l + adj"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "jemh113.txt Section 13.4 Remarks",
+   "concept": "jemh.113.4.2",
+   "question_type": "compute_mode_empirical",
+   "question_pattern": "calculate mode given median {median_val} and mean {mean_val}",
+   "extracted_variables": {
+    "median_val": 25,
+    "mean_val": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "triple the median",
+     "explain": "multiply median_val 25 by 3",
+     "compute": "triple_median = 3 * median_val"
+    },
+    {
+     "step": 2,
+     "action": "double the mean",
+     "explain": "multiply mean_val 22 by 2",
+     "compute": "double_mean = 2 * mean_val"
+    },
+    {
+     "step": 3,
+     "action": "subtract double mean from triple median",
+     "explain": "triple_median 75 minus double_mean 44 gives 31",
+     "compute": "mode = triple_median - double_mean"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "jemh113.txt Section 13.4 Remarks",
+   "concept": "jemh.113.4.2",
+   "question_type": "compute_mode_empirical",
+   "question_pattern": "find the mode using empirical formula when median is {median_val} and mean is {mean_val}",
+   "extracted_variables": {
+    "median_val": 60,
+    "mean_val": 58
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "triple the median",
+     "explain": "multiply median_val 60 by 3",
+     "compute": "triple_median = 3 * median_val"
+    },
+    {
+     "step": 2,
+     "action": "double the mean",
+     "explain": "multiply mean_val 58 by 2",
+     "compute": "double_mean = 2 * mean_val"
+    },
+    {
+     "step": 3,
+     "action": "subtract double mean from triple median",
+     "explain": "triple_median 180 minus double_mean 116 gives 64",
+     "compute": "mode = triple_median - double_mean"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "Exercise 13.1",
+   "questions": [
+    "1. A survey was conducted by a group of students as a part of their environment awareness programme, in which they collected the following data regarding the number of plants in 20 houses in a locality. Find the mean number of plants per house.",
+    "2. Consider the following distribution of daily wages of 50 workers of a factory. Find the mean daily wages of the workers of the factory by using an appropriate method.",
+    "3. The following distribution shows the daily pocket allowance of children of a locality. The mean pocket allowance is Rs 18. Find the missing frequency f.",
+    "4. Thirty women were examined in a hospital by a doctor and the number of heartbeats per minute were recorded and summarised as follows. Find the mean heartbeats per minute for these women, choosing a suitable method.",
+    "5. In a retail market, fruit vendors were selling mangoes kept in packing boxes. Find the mean number of mangoes kept in a packing box.",
+    "6. The table below shows the daily expenditure on food of 25 households in a locality. Find the mean daily expenditure on food by a suitable method.",
+    "7. To find out the concentration of SO2 in the air, the data was collected for 30 localities in a certain city. Find the mean concentration of SO2 in the air.",
+    "8. A class teacher has the following absentee record of 40 students of a class for the whole term. Find the mean number of days a student was absent.",
+    "9. The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "Exercise 13.2",
+   "questions": [
+    "1. The following table shows the ages of the patients admitted in a hospital during a year. Find the mode and the mean of the data given above.",
+    "2. The following data gives the information on the observed lifetimes (in hours) of 225 electrical components. Determine the modal lifetimes of the components.",
+    "3. The following data gives the distribution of total monthly household expenditure of 200 families of a village. Find the modal monthly expenditure of the families. Also, find the mean monthly expenditure.",
+    "4. The following distribution gives the state-wise teacher-student ratio in higher secondary schools of India. Find the mode and mean of this data.",
+    "5. The given distribution shows the number of runs scored by some top batsmen of the world in one-day international cricket matches. Find the mode of the data.",
+    "6. A student noted the number of cars passing through a spot on a road for 100 periods each of 3 minutes. Find the mode of the data."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "Exercise 13.3",
+   "questions": [
+    "1. The following frequency distribution gives the monthly consumption of electricity of 68 consumers of a locality. Find the median, mean and mode of the data and compare them.",
+    "2. If the median of the distribution given below is 28.5, find the values of x and y.",
+    "3. A life insurance agent found the following data for distribution of ages of 100 policy holders. Calculate the median age.",
+    "4. The lengths of 40 leaves of a plant are measured correct to the nearest millimetre. Find the median length of the leaves.",
+    "5. The following table gives the distribution of the life time of 400 neon lamps. Find the median life time of a lamp.",
+    "6. 100 surnames were randomly picked up from a local telephone directory. Determine the median number of letters in the surnames. Find the mean number of letters in the surnames. Also, find the modal size of the surnames.",
+    "7. The distribution below gives the weights of 30 students of a class. Find the median weight of the students."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

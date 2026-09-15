@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_007",
+   "title": "c10_chem_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the reactivity series of metals including hydrogen and carbon, listing at least ten elements in correct decreasing order of reactivity.",
+     "a": "Correct sequence: Potassium > Sodium > Calcium > Magnesium > Aluminium > Zinc > Iron > Lead > Hydrogen > Copper > Silver > Gold. A wrong answer (e.g., placing Cu above Fe, or omitting H) reveals the student has memorised an incomplete list or confused the order of transition metals. It also indicates they haven't linked the series to displacement experiments where Fe displaces Cu but Cu cannot displace Fe.",
+     "self_check": true
+    },
+    {
+     "q": "Why is hydrogen placed in the reactivity series of metals even though it is a non-metal? Explain using the concept of electron loss.",
+     "a": "Hydrogen is included because it can lose an electron to form H⁺, behaving like a metal in displacement reactions. Metals above hydrogen (e.g., Zn, Fe) displace H₂ from dilute acids; metals below (e.g., Cu, Ag) do not. A wrong answer (e.g., \"hydrogen is a gas so it shouldn't be there\") shows the student views the series as a physical property list rather than a chemical reactivity ranking based on electron-donating tendency.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds zinc granules to four test tubes containing: (i) MgSO₄, (ii) FeSO₄, (iii) CuSO₄, (iv) Al₂(SO₄)₃. In which test tubes will a displacement reaction occur? Write balanced chemical equations for the reactions that take place.",
+     "a": "Step 1: Locate Zn in the series: Zn is above Fe and Cu but below Mg and Al.  \nStep 2: Zn can displace metals below it (Fe, Cu) but not above it (Mg, Al).  \nStep 3: Reactions occur in (ii) and (iii).  \nStep 4: Zn(s) + FeSO₄(aq) → ZnSO₄(aq) + Fe(s)  \nStep 5: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)  \nStep 6: No reaction in (i) and (iv).  \nA wrong answer (e.g., predicting reaction with MgSO₄) reveals the student thinks any metal reacts with any salt, ignoring the series order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactivity of aluminium and zinc using their positions in the series and their reactions with (a) steam and (b) dilute hydrochloric acid. Explain any apparent contradiction between the series order and observed reaction rates.",
+     "a": "Al is above Zn in the series, so Al is more reactive. However, Al forms a protective Al₂O₃ layer that slows its reaction with steam and dilute HCl, while Zn reacts readily with both. The series reflects thermodynamic tendency (electron loss), not kinetics. A wrong answer (e.g., \"Zn is more reactive because it reacts faster\") confuses reaction rate with thermodynamic reactivity, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since copper is below hydrogen in the reactivity series, copper reacts with dilute HCl to give H₂ gas.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. Metals below hydrogen (Cu, Ag, Au) do NOT displace H₂ from dilute acids because they are less reactive (weaker reducing agents) than hydrogen. The correct statement: \"Copper does not react with dilute HCl because it lies below hydrogen in the reactivity series.\" A wrong evaluation shows the student has reversed the displacement rule: they think the lower metal displaces the higher one.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only iron nails, copper wire, and solutions of FeSO₄ and CuSO₄ to determine the relative reactivity of iron and copper. Describe the procedure, observations, and conclusion.",
+     "a": "Procedure: Place an iron nail in CuSO₄ solution and a copper wire in FeSO₄ solution. Observe after 30 minutes.  \nObservation: Iron nail develops reddish-brown Cu deposit; CuSO₄ fades from blue to pale green. Copper wire shows no change; FeSO₄ remains pale green.  \nConclusion: Iron displaces copper from its salt, so Fe is more reactive than Cu.  \nA poor answer (e.g., \"heat both metals and see which melts first\") reveals the student cannot translate the series concept into a displacement experiment, indicating a lack of procedural understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

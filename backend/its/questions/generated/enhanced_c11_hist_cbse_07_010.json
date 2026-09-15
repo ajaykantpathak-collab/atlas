@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_010",
+   "title": "c11_hist_cbse_07_010",
+   "questions": [
+    {
+     "q": "What invention, perfected in Mainz c. 1450, accelerated the spread of Renaissance texts to Northern Europe more than any other factor?",
+     "a": "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450. A wrong answer (e.g., \"the compass\" or \"universities\") reveals the student has not linked the technology of reproduction to the speed and scale of textual diffusion – a core causal mechanism in this node.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Northern Humanists like Erasmus and Thomas More focus on editing the New Testament in Greek and criticising Church corruption, whereas Italian Humanists like Lorenzo Valla focused on classical Latin texts and civic life?",
+     "a": "Northern Humanism was \"Christian Humanism\" – it used philological tools to purify Christianity, not just revive antiquity; the Church's pervasive role in Northern political life made religious reform urgent. A wrong answer (e.g., \"Northerners were more religious\") shows the student misses the structural difference: Northern Europe lacked the secular city-state republics that shaped Italian civic humanism.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant in Antwerp buys a 1516 edition of Erasmus's Novum Instrumentum (Greek New Testament with Latin translation). Trace the journey of this book from the printer in Basel to the merchant's desk, naming at least three nodes in the distribution network.",
+     "a": "Basel press → Rhine river barge to Strasbourg → Frankfurt Book Fair (wholesale) → Rhine/Meuse river network to Antwerp → retail bookseller. A wrong answer omitting the Frankfurt Book Fair or river transport reveals ignorance of the commercial infrastructure that made mass distribution possible.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the patronage systems that supported artists in Florence (c. 1450) and Nuremberg (c. 1500). How did the difference shape the subject matter of Botticelli vs. Dürer?",
+     "a": "Florence: Medici and guilds commissioned mythological/civic themes for public spaces; Nuremberg: city council, wealthy merchants, and the Emperor commissioned portraits, altarpieces, and prints for private devotion and civic pride. A wrong answer treating both as \"Church patronage\" misses the rise of the open art market and print culture in the North.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Northern Renaissance was merely a delayed copy of the Italian Renaissance.\" Use evidence from Erasmus's *Adagia*, Dürer's treatises on proportion, and Rabelais's *Gargantua* to defend your position.",
+     "a": "The claim is false. Erasmus compiled proverbs to reform moral education across Europe; Dürer mathematically analysed human proportion to elevate German art to a science; Rabelais used satire to attack scholasticism and monasticism in French vernacular. All three *transformed* Italian models for Northern religious, linguistic, and scientific contexts. A wrong answer listing only \"similarities\" shows inability to evaluate adaptation vs. imitation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-panel storyboard (describe each panel in 2 sentences) showing how a classical manuscript discovered in a Bavarian monastery in 1455 could reach a London schoolmaster by 1520, incorporating print, trade, and humanist networks.",
+     "a": "Panel 1: Monk in Tegernsee copies Cicero manuscript; sends to Nuremberg humanist Willibald Pirckheimer. Panel 2: Pirckheimer edits text; sends to Basel printer Johann Froben for publication (1510). Panel 3: Printed copies travel via Rhine to Frankfurt Fair, then to Antwerp, shipped to London Steelyard. Panel 4: London schoolmaster John Colet buys copy at St. Paul's Churchyard bookstall; uses it to teach *humanitas* at St. Paul's School. A poor answer omits the printer-editor-patron triangle or the Frankfurt/Antwerp commercial hubs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

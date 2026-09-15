@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_005",
+   "title": "c11_bs_cbse_10_005",
+   "questions": [
+    {
+     "q": "Define \"large-scale retailer\" and list the six types classified in the NCERT textbook for Class 11 Business Studies Chapter 10.",
+     "a": "A large-scale retailer is a fixed-shop retail business with substantial capital, large inventory, high sales volume, and organised structure serving a broad customer base. The six types are: (1) Departmental Stores, (2) Chain Stores/Multiple Shops, (3) Mail Order Houses, (4) Consumer Cooperative Stores, (5) Super Markets, (6) Vending Machines. A wrong answer that omits vending machines or includes \"super bazaars\" or \"hypermarkets\" as separate types reveals the student is relying on modern retail terminology rather than the NCERT classification, or confusing small-scale categories like \"single line stores\" with large-scale types.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Departmental stores and super markets are the same thing - both sell many products under one roof.\" Explain why this is incorrect by identifying three fundamental operational differences between them.",
+     "a": "Three fundamental differences: (1) **Service model**: Departmental stores offer extensive services (home delivery, credit, restaurants, restrooms, personal selling); super markets operate on self-service with minimal services. (2) **Pricing and margins**: Departmental stores target higher-income customers with higher margins; super markets use low-margin, high-volume pricing. (3) **Product focus**: Departmental stores carry \"needle to aeroplane\" - wide variety including durables, apparel, services; super markets focus on food, groceries, and low-priced branded consumer goods. A wrong answer focusing only on size or location reveals the student conflates physical appearance with operational strategy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Bata India operates 1,500+ stores across India with identical layouts, centralised procurement from head office, fixed prices, cash-only sales, and branch managers reporting daily to headquarters.\" Identify which type of large-scale retailer this represents and justify your answer using at least four features from the description.",
+     "a": "This represents **Chain Stores/Multiple Shops**. Justification from the description: (1) \"Identical layouts\" → standardised merchandising and display across outlets; (2) \"Centralised procurement from head office\" → centralised purchasing and distribution; (3) \"Fixed prices, cash-only sales\" → uniform pricing policy and no credit; (4) \"Branch managers reporting daily to headquarters\" → centralised control with branch-level supervision. A wrong answer of \"departmental store\" shows confusion between single-location variety (departmental) and multi-location standardisation (chain stores).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the risk-bearing capacity of a departmental store versus a chain store organisation when consumer preferences shift suddenly (e.g., a fashion trend change). Which structure handles this better and why?",
+     "a": "**Chain stores handle sudden demand shifts better** due to risk diffusion. In a departmental store, all inventory risk is concentrated in one location - unsold fashion stock leads to heavy clearance losses at that single store. In a chain store organisation, the risk is diffused across hundreds of outlets: unsold stock in one region can be transferred to another where demand exists (transfer of goods feature), and losses in some branches are offset by profits in others. Additionally, chain stores' centralised procurement allows faster response - the head office can redirect production/procurement based on aggregate data. A wrong answer claiming departmental stores are better because \"they have more variety\" misses that variety increases inventory risk when trends change.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Mail order houses are obsolete in the internet age because e-commerce does everything mail order did but faster and better.\" Evaluate from the perspective of a rural Indian consumer with limited internet access but reliable postal service.",
+     "a": "The statement is **partially valid for urban, digitally-literate consumers but false for rural/remote populations**. Mail order houses remain relevant because: (1) They require only literacy and postal access - no smartphone, internet, or digital payment needed; (2) VPP (Value Payable Post) allows cash-on-delivery without digital transactions; (3) They serve standardised, non-perishable goods (books, seeds, medicines, small electronics) effectively; (4) Low capital requirement makes them viable for niche products. However, limitations remain: no product inspection, delayed delivery, high promotion costs, and dependence on postal efficiency. A poor answer ignores the digital divide and treats \"internet access\" as universal, revealing urban bias in business analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new large-scale retail concept for Tier-2 Indian cities that combines features of any two types from the six NCERT categories. Specify: (a) which two types you're combining, (b) three operational features of the hybrid, (c) target customer segment, and (d) one major challenge you anticipate.",
+     "a": "**Example answer**: Combining **Consumer Cooperative Store + Super Market** → \"Community Super Cooperative\". (a) Types: Consumer Cooperative + Super Market. (b) Features: (i) Member-owned with democratic governance (1 member = 1 vote) but operating on self-service, low-margin supermarket model; (ii) Bulk procurement directly from farmers/FPOs eliminating middlemen, passing savings as patronage dividends; (iii) Limited credit for members via linked SHG/bank partnerships. (c) Target: Middle-income families in Tier-2 cities seeking quality groceries at lower prices with ownership stake. (d) Challenge: Balancing professional management efficiency (needed for supermarket operations) with democratic member control (cooperative principle) - often leads to governance conflicts. A poor answer combines types without resolving operational contradictions (e.g., \"chain store + mail order\" without explaining how centralised physical stores merge with remote ordering).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

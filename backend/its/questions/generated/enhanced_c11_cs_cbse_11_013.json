@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_013",
+   "title": "c11_cs_cbse_11_013",
+   "questions": [
+    {
+     "q": "What is the primary difference between a packet-filtering firewall and a stateful inspection firewall in terms of connection tracking?",
+     "a": "A packet-filtering firewall examines each packet in isolation (source/destination IP, port, protocol) without remembering past packets, while a stateful inspection firewall maintains a state table tracking active connections (e.g., TCP handshake stages) and allows return traffic only for initiated sessions. A wrong answer (e.g., \"both track connections\") reveals the student confuses stateless ACLs with dynamic stateful logic, a common error when they memorize definitions without understanding the TCP state machine.",
+     "self_check": true
+    },
+    {
+     "q": "A student configures their host firewall to \"Allow all outbound traffic\" and \"Block all inbound traffic except established/related.\" They claim this makes their laptop completely safe from malware downloads. Explain why this reasoning is flawed.",
+     "a": "The rule allows the student to initiate a connection to a malicious website (outbound allowed), download malware (return traffic is \"established\"), and execute it. The firewall only filters network traffic, not file content. A wrong answer (e.g., \"inbound block stops downloads\") shows the student misunderstands that \"established\" return packets carry the malicious payload, and that firewalls do not inspect application-layer content like antivirus does.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a firewall log snippet: \n```\nTIMESTAMP       SRC_IP        DST_IP        PROTO  SPORT  DPORT  ACTION\n10:00:01        203.0.113.5   192.168.1.10  TCP    54321  22     ALLOW\n10:00:02        203.0.113.5   192.168.1.10  TCP    54321  22     ALLOW\n10:00:03        203.0.113.5   192.168.1.10  TCP    54321  3389   DENY\n10:00:04        203.0.113.5   192.168.1.10  TCP    54322  445    DENY\n```\nIdentify the likely attack pattern and state which firewall rule (from a default-deny policy) would have explicitly allowed the first two lines.",
+     "a": "The log shows port scanning (SSH on 22 succeeded, then RDP 3389 and SMB 445 probed). The first two lines were allowed by a rule: \"ALLOW TCP FROM ANY TO 192.168.1.10 PORT 22\" (SSH access). A wrong answer (e.g., \"allow all from 203.0.113.5\") indicates inability to read logs and infer the minimal necessary rule, a critical skill for board exam log-analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare signature-based and heuristic-based antivirus detection in terms of: (a) ability to detect zero-day malware, (b) false positive rate, (c) resource consumption during scan. Present as a table.",
+     "a": "| Aspect                | Signature-based                     | Heuristic-based                         |\n|-----------------------|-------------------------------------|-----------------------------------------|\n| Zero-day detection    | Poor (needs prior sample)           | Good (behavioral patterns)              |\n| False positive rate   | Very low (exact match)              | Moderate to high (suspicious behavior)  |\n| Resource consumption  | Low (hash/lookup)                   | Higher (emulation/code analysis)        |\nA wrong answer swapping false positive rates shows the student memorized definitions but not the operational trade-offs examiners test in \"justify your choice\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Your school lab has 50 PCs. The IT admin installs a free antivirus that updates signatures once a week via manual USB. Evaluate this strategy against the criteria of \"timeliness,\" \"consistency,\" and \"attack surface.\" Recommend a better approach with justification.",
+     "a": "Evaluation: Timeliness – poor (weekly gap allows new malware); Consistency – low (manual process fails if admin absent); Attack surface – high (USB itself can spread malware). Better approach: Deploy a centrally managed antivirus with automatic hourly cloud updates over the LAN, using a local update mirror to save bandwidth. This ensures timeliness (hourly), consistency (automated), and reduces attack surface (no USB). A wrong answer suggesting \"daily manual updates\" fails to address consistency and USB risk, missing the enterprise-management concept.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal firewall rule set (max 5 rules) for a home router protecting a LAN (192.168.1.0/24) that hosts a web server (192.168.1.50) accessible from the internet on port 80/443, allows all outbound web browsing, and blocks everything else. Write rules in order with ACTION, PROTOCOL, SOURCE, DESTINATION, PORT.",
+     "a": "1. ALLOW TCP ANY 192.168.1.50 80,443 (inbound web)\n2. ALLOW TCP 192.168.1.0/24 ANY 80,443 (outbound web)\n3. ALLOW UDP 192.168.1.0/24 ANY 53 (DNS for browsing)\n4. ALLOW ICMP ANY ANY (ping/traceroute for diagnostics)\n5. DENY ANY ANY ANY ANY (implicit default, but explicit for clarity)\nA poor answer includes \"ALLOW ANY ANY ANY\" or misses DNS, showing inability to apply least-privilege principle and understand dependency protocols.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

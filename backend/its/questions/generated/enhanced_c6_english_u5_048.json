@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u5_048",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u5_048",
+   "title": "c6_english_u5_048",
+   "questions": [
+    {
+     "q": "In the sentence \"The artist painted a picture,\" who is performing the action?",
+     "a": "The artist is performing the action. A wrong answer suggests the student is confused about identifying the \"doer\" versus the \"thing being acted upon\" in a sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say the sentence \"The border was defended by the soldiers\" is in the passive voice?",
+     "a": "It is passive because the subject (\"The border\") is not doing the defending; it is receiving the action of being defended. A wrong answer indicates the student thinks any sentence with a long phrase at the end is passive, regardless of who does the work.",
+     "self_check": true
+    },
+    {
+     "q": "Identify if the following sentence is active or passive: \"The teacher told a story to the students.\"",
+     "a": "Active. The steps are: 1) Identify the subject (The teacher). 2) Identify the verb (told). 3) Ask, \"Did the teacher tell the story?\" Yes. Since the subject does the action, it is active.",
+     "self_check": true
+    },
+    {
+     "q": "If you change a sentence from \"The women made beautiful patterns\" to \"Beautiful patterns were made by the women,\" what has changed about the focus of the sentence?",
+     "a": "The focus shifts from the women (the creators) to the patterns (the creation). A wrong answer shows the student does not understand that voice changes the emphasis of a sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Is it always better to use active voice? Explain your judgment.",
+     "a": "Not necessarily. Active voice is better for clarity and energy, but passive voice is useful when we want to highlight the object or when the doer is less important than the result. A wrong answer shows a lack of understanding that both have specific purposes in writing.",
+     "self_check": true
+    },
+    {
+     "q": "Create one active voice sentence about a student drawing a picture. Then, rewrite the focus so the picture becomes the subject.",
+     "a": "Active: \"The student draws a picture.\" Passive: \"The picture is drawn by the student.\" A poor answer fails to shift the subject or incorrectly attempts a complex transformation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_009",
+   "title": "c12_geo_cbse_21_009",
+   "questions": [
+    {
+     "q": "Define overlay analysis in GIS and name the three geometric combinations (feature-type pairs) on which it can be performed.",
+     "a": "Overlay analysis is a GIS operation that spatially integrates two or more thematic layers of the same area to produce a new layer whose features inherit attributes from all input layers. The three geometric combinations are polygon-on-polygon, point-in-polygon, and line-in-polygon. A wrong answer (e.g., “overlay only works on rasters” or “it merges attribute tables without geometry”) reveals confusion between raster map algebra and vector overlay, or a failure to grasp that topology (containment, intersection) drives the operation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why buffer analysis generates polygon features regardless of whether the input feature is a point, line, or polygon.",
+     "a": "A buffer defines the locus of all locations within a specified distance from the input feature; that locus is always an area (polygon) because distance extends in all directions around the feature. Even a point buffer becomes a circle (polygon), a line buffer becomes a corridor with rounded ends (polygon), and a polygon buffer becomes a dilated or eroded polygon. If a student says “buffer of a line stays a line”, they misunderstand the geometric definition of a buffer as a proximity zone, not a linear offset.",
+     "self_check": true
+    },
+    {
+     "q": "A city planner has two vector layers: (1) hospitals (point) and (2) residential wards (polygon). She wants to find all wards that lie completely inside a 3 km buffer of any hospital. Describe the exact sequence of GIS operations (tools and order) to achieve this.",
+     "a": "Step 1: Run Buffer tool on hospital point layer with distance = 3 km → output: hospital_buffer_3km (polygon layer). Step 2: Run Select by Location (or Spatial Join) with target = residential wards, source = hospital_buffer_3km, spatial relationship = “completely within” → output: selected wards. Step 3: Export selected features to a new layer. A wrong sequence (e.g., buffering wards instead of hospitals, or using “intersect” instead of “within”) shows inability to translate a proximity question into the correct geometric logic and tool order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare overlay analysis and buffer analysis in terms of (a) number of input layers, (b) primary geometric operation, and (c) typical output use-case.",
+     "a": "(a) Overlay requires ≥2 thematic layers; buffer requires 1 input layer + a distance parameter. (b) Overlay computes geometric intersection/union/identity of features; buffer computes offset/locus at fixed distance. (c) Overlay output is used for suitability mapping, change detection, zone merging; buffer output is used for proximity zones, impact corridors, service areas. A student who says “both need two layers” or “both produce line outputs” conflates the two distinct analytical paradigms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Network analysis in GIS is just buffer analysis applied along roads.” Provide a reasoned judgment with a concrete counter-example.",
+     "a": "The statement is false. Buffer analysis measures Euclidean (straight-line) distance in all directions from a feature, ignoring network connectivity, directionality, and impedance (travel time, turn restrictions). Network analysis computes least-cost paths along a topological graph (edges = road segments, nodes = intersections) respecting one-way streets, speed limits, and turn penalties. Counter-example: A hospital 2 km straight-line from a colony may be 5 km by road due to a river with no bridge; buffer would wrongly show it as accessible within 2 km, while network analysis correctly computes the 5 km route. A student who agrees misses the fundamental difference between planar proximity and network-constrained routing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a GIS workflow to identify optimal locations for new public toilets in a municipal ward using these data layers: slum settlements (polygon), existing toilets (point), road network (line), and ward boundary (polygon). Constraints: (i) within 200 m of slum clusters, (ii) on road frontage, (iii) not within 100 m of existing toilets, (iv) inside ward boundary. List tools, order, and key parameters.",
+     "a": "1. Buffer slum settlements by 200 m → slum_buffer_200m (polygon). 2. Buffer existing toilets by 100 m → toilet_buffer_100m (polygon). 3. Erase (Difference) slum_buffer_200m minus toilet_buffer_100m → candidate_zone (polygon). 4. Intersect candidate_zone with ward boundary → candidate_zone_ward (polygon). 5. Convert road network lines to a 10 m buffer → road_frontage (polygon). 6. Intersect candidate_zone_ward with road_frontage → final_sites (polygon). 7. Convert final_sites polygons to centroids → candidate_points (point). A poor answer omits the erase step (constraint iii), uses Euclidean distance for road frontage instead of line buffer, or forgets to clip to ward boundary, revealing weak logical sequencing of spatial operators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

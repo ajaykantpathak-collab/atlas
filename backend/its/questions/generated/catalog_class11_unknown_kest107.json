@@ -1,0 +1,78 @@
+{
+ "catalog": "catalog_class11_unknown_kest107",
+ "concepts": [
+  {
+   "id": "kest107.1.1",
+   "title": "Index Numbers: Barometers of Economic Activity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Index Numbers: Barometers of Economic Activity' refers to.",
+     "a": "An index number is a statistical device for measuring changes in a variable -- or a group of related variables -- over time or place, expressed relative to a base period taken as 100. Called the barometers of economic activity, index numbers gauge price levels, industrial output and business conditions at a glance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Index Numbers: Barometers of Economic Activity'.",
+     "a": "One number, one base of 100 -- the index turns sprawling changes into a single readable dial.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Index Numbers: Barometers of Economic Activity' taught, and from which source text?",
+     "a": "1.1 (source: kest107.txt introduction (index numbers, base period, barometers of economic activity, uses of index numbers))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest107.1.2",
+   "title": "Price Index: Simple and Weighted Averages",
+   "questions": [
+    {
+     "q": "Compute the price index using the aggregate expenditure method. Use the method 'Price Index: Simple and Weighted Averages'. Work with: base_price = 1200, current_price = 5000. Carry the chain through step by step and give the final value of price_index.",
+     "a": "416.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the price relative of each commodity and average them. Use the method 'Price Index: Simple and Weighted Averages'. Work with: base_price = 1200, current_price = 8000. Carry the chain through step by step and give the final value of price_index.",
+     "a": "666.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Index: Simple and Weighted Averages' refers to.",
+     "a": "A simple price index compares a commodity's current price with its base price; aggregate and average-of-relatives methods extend this to many commodities. Weighted index numbers attach importance weights -- typically quantities -- so that items bought in bulk move the index more than rare ones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Index: Simple and Weighted Averages'.",
+     "a": "Current over base times 100 -- the price index is a ratio dressed as a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Index: Simple and Weighted Averages', in plain ASCII form.",
+     "a": "price_index = (current_price / base_price) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest107.1.3",
+   "title": "Consumer Price Index and Inflation Measurement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consumer Price Index and Inflation Measurement' refers to.",
+     "a": "The consumer price index tracks the retail prices of a basket of goods and services bought by a typical family, revealing changes in the cost of living; wholesale and industrial-production indices serve other sectors. Real income is nominal income deflated by the price index -- the index that links money to its true worth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Price Index and Inflation Measurement'.",
+     "a": "The CPI is the cost-of-living dial -- divide money income by the index to know real worth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Consumer Price Index and Inflation Measurement' taught, and from which source text?",
+     "a": "1.3 (source: kest107.txt cpi sections (consumer price index, cost of living index, wholesale price index, index of industrial production, inflation and real income))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

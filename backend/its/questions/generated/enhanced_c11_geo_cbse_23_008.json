@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_008",
+   "title": "c11_geo_cbse_23_008",
+   "questions": [
+    {
+     "q": "What is the defining geometric characteristic of a zenithal (azimuthal) projection that distinguishes it from cylindrical and conical projections?",
+     "a": "A zenithal projection uses a plane as its developable surface, tangent to the globe at a single point (typically a pole), whereas cylindrical projections use a cylinder wrapped around the equator and conical projections use a cone over a latitude. A wrong answer (e.g., \"it uses a cone touching at a parallel\") reveals the student cannot visualise the three developable surfaces and their contact geometry — a prerequisite for understanding distortion patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a gnomonic zenithal projection represent all great circles as straight lines, and what navigational advantage does this provide?",
+     "a": "In a gnomonic projection, the light source is at the centre of the globe; any plane through the centre cuts the globe along a great circle and the projection plane along a straight line. This allows navigators to plot the shortest path (great circle route) as a straight line on the map. A wrong answer (e.g., \"it preserves distances\") indicates confusion between projection properties — gnomonic distorts distance and area severely away from the centre; only direction from centre is true.",
+     "self_check": true
+    },
+    {
+     "q": "A cartographer needs to map the Arctic Ocean for a climate study showing accurate relative sizes of sea-ice polygons. Which zenithal variant should they choose, and why?",
+     "a": "Choose the **azimuthal equal-area (Lambert azimuthal equal-area)** projection. Step 1: Identify requirement — accurate area comparison (sea-ice polygons). Step 2: Recall that equal-area property preserves relative sizes. Step 3: Among zenithal variants, only the azimuthal equal-area (not gnomonic, stereographic, or orthographic) maintains area equivalence. Step 4: Verify it is centred on the North Pole for polar aspect. A wrong choice (e.g., stereographic) shows the student cannot match projection properties to thematic mapping needs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distortion patterns of a polar zenithal equidistant projection and a polar stereographic projection at 60°N latitude. Which preserves shape better locally, and which preserves radial distances?",
+     "a": "At 60°N: The **stereographic** projection is conformal — it preserves local shapes (angles) but exaggerates area and radial distance. The **equidistant** projection preserves true distances along meridians from the pole (radial distances) but distorts shapes and areas. A wrong answer (e.g., \"both preserve shape\") reveals the student does not distinguish between conformality (stereographic) and equidistance — a critical error for selecting projections for specific purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The orthographic zenithal projection is the best choice for a world map showing correct distances from the North Pole to all other points.\"",
+     "a": "The claim is **false**. Orthographic projection simulates a view from infinite distance (like a photograph); it preserves neither distance nor area nor shape except at the centre point. For true radial distances from the pole, the **zenithal equidistant** projection must be used. A student who agrees with the claim confuses the visual realism of orthographic with metric properties — a common error when prioritising appearance over measurement integrity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map layout for an airline's polar route network (e.g., Delhi → New York via North Pole). Specify the projection, aspect, and central meridian, and annotate how great circle routes will appear.",
+     "a": "**Projection:** Gnomonic zenithal (polar aspect). **Central meridian:** 0° (Greenwich) or chosen to centre the route network. **Annotation:** All great circle routes passing through the North Pole appear as straight lines radiating from the centre; routes not passing through the pole appear as curves. A poor answer (e.g., choosing Mercator) shows inability to apply the unique great-circle-to-straight-line property of gnomonic projections to real-world navigation mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_007",
+   "title": "c12_psy_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define Conversion Disorder and state its two essential diagnostic features as per DSM-5.",
+     "a": "Conversion Disorder (Functional Neurological Symptom Disorder) involves one or more symptoms of altered voluntary motor or sensory function (e.g., paralysis, blindness, seizures) that are incompatible with recognized neurological conditions. The two essential features are: (1) clinical findings provide evidence of incompatibility between the symptom and recognized neurological or medical conditions, and (2) the symptom is not better explained by another medical or mental disorder. A wrong answer that describes it as \"faking illness\" reveals the misconception that conversion symptoms are voluntary; they are genuinely experienced and not under conscious control.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old student complains of severe abdominal pain and nausea for three months. Multiple medical investigations are normal. She constantly researches symptoms online, visits doctors weekly, and misses school. Her mother has a history of anxiety. Which disorder best fits: Somatic Symptom Disorder or Illness Anxiety Disorder? Justify your choice using the primary clinical distinction.",
+     "a": "Somatic Symptom Disorder is the correct diagnosis. The primary distinction: Somatic Symptom Disorder centers on distressing somatic symptoms (pain, nausea) with excessive thoughts/behaviors about them, while Illness Anxiety Disorder centers on preoccupation with having a serious illness *without* prominent somatic symptoms (or only mild ones). Here, the student has prominent physical symptoms (pain, nausea) plus excessive health-related behaviors, fitting Somatic Symptom Disorder. Choosing Illness Anxiety Disorder would indicate confusion about the role of actual physical symptoms versus health anxiety.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"dissociation\" to explain why a person with Dissociative Fugue may travel to a new city, assume a new identity, and have no memory of their past life, yet show no outward signs of psychosis.",
+     "a": "Dissociation is a disruption in the normally integrated functions of consciousness, memory, identity, and perception. In Dissociative Fugue, extreme stress triggers a massive dissociative barrier that walls off autobiographical memory and identity, allowing the person to function superficially (travel, interact) but without access to their past self. This is not psychosis because reality testing remains intact — the person is not hallucinating or delusional; they simply lack access to their own history. An answer citing \"psychosis\" or \"deliberate escape\" shows failure to grasp the involuntary, protective nature of dissociation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Depersonalization/Derealization Disorder with Dissociative Identity Disorder on three dimensions: (a) continuity of identity, (b) awareness of symptoms, (c) typical trauma history.",
+     "a": "(a) Depersonalization/Derealization: identity remains singular but feels unreal/detached; DID: two or more distinct personality states alternate. (b) Depersonalization/Derealization: person is aware of the unreality and finds it distressing; DID: amnesia between alters often means unawareness of other identities. (c) Both linked to trauma, but DID is strongly associated with severe, chronic childhood abuse; Depersonalization/Derealization can arise from acute stress, panic, or trauma. An answer that claims DID involves \"schizophrenia-like voices\" confuses alters with auditory hallucinations.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Somatic Symptom Disorder and Conversion Disorder are essentially the same because both involve physical symptoms without medical cause.\" Use diagnostic criteria to support your judgment.",
+     "a": "The statement is false. While both involve physical symptoms unexplained by medical conditions, they differ fundamentally: Somatic Symptom Disorder requires *excessive thoughts, feelings, or behaviors* related to the symptoms (health anxiety, doctor shopping) and symptoms may be vague (pain, fatigue). Conversion Disorder requires *specific neurological deficits* (weakness, seizures, blindness) that are *incompatible* with neurological pathways, and psychological factors are inferred but not required as a criterion. Equating them ignores the distinct clinical presentation and diagnostic thresholds. A student agreeing with the statement demonstrates inability to apply differential diagnosis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief case vignette (4-5 sentences) of a 17-year-old that clearly illustrates Dissociative Amnesia with Fugue, ensuring you include: precipitating stressor, travel/identity change, amnesia scope, and resolution cue.",
+     "a": "After witnessing his father's sudden death in a car accident, Rohan boarded a train without a ticket, traveled 300 km, and was found working at a tea stall under the name \"Raju\" with no memory of his family, school, or the accident. He responded to his original name only when his mother appeared on local news. A good vignette includes all four elements; missing the stressor or resolution cue suggests incomplete understanding of the disorder's typical course.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

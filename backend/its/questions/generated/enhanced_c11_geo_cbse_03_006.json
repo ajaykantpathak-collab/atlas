@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_006",
+   "title": "c11_geo_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define the asthenosphere and state its approximate depth range below Earth's surface.",
+     "a": "The asthenosphere is a mechanically weak, ductile layer in the upper mantle (≈100–400 km depth) characterized by 1–2% partial melt and reduced seismic wave velocities (low-velocity zone), enabling lithospheric plate motion. A wrong answer (e.g., \"liquid layer at 50 km\" or \"part of the crust\") reveals confusion between the lithosphere–asthenosphere boundary (LAB) and the Moho, or failure to distinguish partial melt from complete melting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why S-wave velocities decrease in the asthenosphere but increase again in the mesosphere despite rising temperature with depth.",
+     "a": "In the asthenosphere, partial melt (1–2%) and near-solidus temperatures drastically reduce shear modulus, lowering Vs. In the mesosphere, increasing pressure raises the solidus faster than the geotherm, suppressing melt; pressure-induced phase transitions to denser, high-shear-modulus minerals (wadsleyite, ringwoodite, bridgmanite) dominate, so Vs increases with depth. A wrong answer attributing the Vs increase solely to \"cooling\" or \"composition change\" misses the pressure–temperature–phase equilibrium interplay.",
+     "self_check": true
+    },
+    {
+     "q": "A seismic tomography cross-section shows a low-velocity anomaly at 150 km depth beneath a mid-ocean ridge extending laterally 200 km. Calculate the approximate percentage of partial melt if the background Vs = 4.6 km/s and the anomaly Vs = 4.2 km/s, assuming a linear melt-velocity relationship (ΔVs/Vs ≈ -0.5 × melt fraction).",
+     "a": "Step 1: ΔVs = 4.2 – 4.6 = –0.4 km/s. Step 2: Fractional change = –0.4 / 4.6 ≈ –0.087. Step 3: Melt fraction ≈ –(ΔVs/Vs) / 0.5 = 0.087 / 0.5 = 0.174 ≈ 17.4%. Step 4: This is unrealistically high for the asthenosphere (typical 1–2%), indicating the anomaly likely combines melt, temperature, and anisotropy effects. A wrong answer using only ΔVs without normalization, or ignoring the linear approximation limits, shows poor quantitative seismic interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rheological behavior of the asthenosphere and mesosphere on geological timescales (10⁶–10⁹ years) and explain how both can flow despite the mesosphere being \"stronger.\"",
+     "a": "The asthenosphere deforms by diffusion/dislocation creep and melt-assisted grain-boundary sliding at low stresses (10⁻²–10⁻¹ MPa), acting as a lubricating channel. The mesosphere, though 10–100× more viscous (10²¹–10²³ Pa·s), undergoes solid-state convection driven by thermal buoyancy over 10⁸–10⁹ years; its flow is slower but organizes into large-scale upwellings (plumes) and downwellings (slabs). A wrong answer claiming the mesosphere is \"rigid and immobile\" ignores mantle convection evidence from tomography and geoid anomalies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 660 km discontinuity is a chemical boundary separating the upper and lower mantle.\" Use seismic and geochemical evidence.",
+     "a": "The 660 km discontinuity is primarily a **phase boundary** (ringwoodite → bridgmanite + ferropericlase) marked by a sharp Vs and Vp increase, not a major chemical change. Evidence: (1) seismic precursors show it is sharp (≤4 km) and depth varies with temperature (Clapeyron slope ≈ –2.5 MPa/K), consistent with phase change; (2) MORB and OIB trace-element systematics indicate whole-mantle convection with some chemical heterogeneity, not a strict upper/lower mantle chemical layering. A wrong answer treating it as a compositional boundary like the crust–mantle (Moho) misinterprets phase-transition topography as chemical stratification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual model (sketch + 100-word caption) showing how a subducting slab interacts with the asthenosphere, transition zone (410/660 km), and mesosphere, including phase changes and induced flow.",
+     "a": "A good model shows: (1) cold slab penetrating asthenosphere, dragging corner flow; (2) slab flattening/ponding at 660 km due to negative Clapeyron slope of ringwoodite→bridgmanite (endothermic), causing metastable olivine wedge; (3) slab eventually penetrating into mesosphere, inducing return flow and possible plume initiation at core–mantle boundary. Caption must link phase buoyancy forces to slab morphology. A poor model omits phase-change buoyancy, shows slab stopping at 660 km permanently, or ignores asthenospheric return flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

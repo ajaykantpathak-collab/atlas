@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_009",
+   "title": "c11_bs_cbse_11_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between GATT (1947) and WTO (1995) in terms of their legal and institutional nature?",
+     "a": "GATT was a provisional multilateral treaty with no institutional structure, applied provisionally under Protocol of Provisional Application; WTO is a permanent international organisation with legal personality, created by an international treaty (Marrakesh Agreement) ratified by member legislatures. A wrong answer (e.g., \"GATT was for goods only, WTO includes services\") reveals confusion between scope of coverage and institutional nature - both covered goods, but WTO added services and IP; the core difference is GATT had no organisation, just a secretariat.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"WTO's objective of 'raising standards of living' means WTO directly gives money to poor countries to improve their living standards.\" Explain why this interpretation is incorrect and state what the objective actually means in WTO context.",
+     "a": "WTO has no fund or aid mechanism; it cannot transfer money. The objective means creating trade conditions (lower barriers, non-discrimination, predictability) that enable countries to grow through trade, which historically raises incomes and living standards. A wrong answer reveals the misconception that WTO is a development bank or aid agency rather than a rule-making body - confusing \"creating enabling conditions\" with \"direct resource transfer.\"",
+     "self_check": true
+    },
+    {
+     "q": "Mr. Manchanda's competitor in Thailand complains that India imposes 30% tariff on imported auto components while India's bound tariff rate at WTO for that product is 25%. Using WTO's functions, explain step-by-step what mechanism the competitor's government can use, and what makes this mechanism binding unlike under GATT.",
+     "a": "Step 1: Thailand government requests consultations with India under WTO Dispute Settlement Understanding (DSU) - Function: dispute settlement. Step 2: If unresolved in 60 days, Thailand requests a panel - Function: administering dispute settlement. Step 3: Panel rules India's 30% tariff violates Article II GATT (bound tariff commitment) - Function: surveillance via Trade Policy Review. Step 4: If India appeals, Appellate Body reviews legal interpretation. Step 5: DSB adopts ruling; India must comply within \"reasonable period\" or face authorised retaliation. Binding because: (a) automatic adoption of reports (no blocking by loser as in GATT), (b) strict timelines (approx 15 months), (c) retaliation authorised by DSB if non-compliance. A wrong answer missing \"automatic adoption\" or \"retaliation authorisation\" reveals misunderstanding of why WTO dispute settlement is called the \"crown jewel\" vs GATT's toothless system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of WTO's Trade Policy Review Mechanism (TPRM) with its Dispute Settlement Body (DSB). In what way are they complementary rather than overlapping?",
+     "a": "TPRM is preventive, transparent, peer-review based: all members' trade policies examined periodically (every 2-4 years depending on trade share), no complainant/respondent, no binding ruling, aims to increase transparency and peer pressure. DSB is reactive, adjudicative: triggered by a specific complaint, has complainant/respondent, produces binding rulings with retaliation authorisation. Complementary: TPRM exposes problematic policies early (naming/shaming) reducing need for disputes; DSB provides enforcement when peer pressure fails. A wrong answer treating both as \"courts\" or both as \"review mechanisms\" misses the fundamental distinction: surveillance vs adjudication, soft law vs hard law.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"WTO's Most-Favoured-Nation (MFN) principle means every member must give every other member the exact same tariff rate on every product.\" Is this fully accurate? Justify with two specific exceptions permitted under WTO agreements.",
+     "a": "Not fully accurate. MFN (Article I GATT) requires any advantage given to one member extended to all, but two major exceptions: (1) Regional Trade Agreements (Article XXIV GATT) - members of customs union/FTA can give each other preferential tariffs (e.g., India-ASEAN FTA), (2) Generalised System of Preferences (Enabling Clause) - developed countries can give unilateral tariff preferences to developing countries (e.g., EU's GSP for India). Also: security exceptions (Article XXI), waivers. A wrong answer stating \"no exceptions\" or citing only one exception reveals incomplete understanding of how WTO balances non-discrimination with policy flexibility for development and regional integration.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical but realistic scenario where an Indian MSME exporting leather goods to the EU faces a new EU regulation requiring \"deforestation-free certification\" for all leather imports. Using WTO's functions and agreements, outline a 4-step strategy the Indian government could pursue at WTO to protect exporters' interests, citing specific WTO agreements at each step.",
+     "a": "Step 1 (Transparency/TPRM): Raise issue in Committee on Technical Barriers to Trade (TBT) - EU regulation may be a technical regulation under TBT Agreement; request notification and justification. Step 2 (Surveillance): Use Trade Policy Review of EU to question proportionality and scientific basis - leverage peer pressure. Step 3 (Standard-setting): Engage in International Organisation for Standardisation (ISO) / Codex processes to influence global standards - WTO encourages harmonisation via TBT/SPS. Step 4 (Dispute Settlement): If regulation is discriminatory (e.g., exempts EU producers) or more trade-restrictive than necessary, request consultations under DSU citing TBT Agreement Article 2.2 (necessity test) and Article 5 (risk assessment). A poor answer missing specific agreements (TBT, SPS, DSU) or skipping the progressive escalation reveals inability to connect WTO's toolkit to real trade problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_009",
+   "title": "c11_bs_cbse_09_009",
+   "questions": [
+    {
+     "q": "State the five macroeconomic roles of an entrepreneur as per the NCERT Class 11 Business Studies curriculum.",
+     "a": "The five roles are: (1) Capital Formation, (2) Employment Generation, (3) Innovation and Technological Progress, (4) Balanced Regional Development, and (5) Export Promotion and Import Substitution. A wrong answer listing only 'job creation' or 'profit making' reveals the student confuses micro-level business goals with macro-level development functions. They are viewing the entrepreneur as a business owner rather than an economic agent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how an entrepreneur setting up a manufacturing unit in a backward district contributes to balanced regional development, using the concept of 'backward and forward linkages'.",
+     "a": "The unit creates backward linkages by demanding raw materials, transport, and services from local suppliers (stimulating local MSMEs), and forward linkages by supplying finished goods to downstream industries and consumers. It also develops infrastructure (roads, power) and creates ancillary industries. A wrong answer focusing only on 'jobs for locals' misses the structural transformation: the student fails to see how one enterprise catalyses an industrial ecosystem, treating development as additive rather than multiplicative.",
+     "self_check": true
+    },
+    {
+     "q": "A textile entrepreneur in Tirupur invests ₹2 crore in automated knitting machines, reducing per-unit labour from 4 workers to 1 but increasing output from 5,000 to 25,000 units/day. He exports 60% of output. Analyse the net effect on (a) employment, (b) capital intensity, and (c) foreign exchange earnings.",
+     "a": "(a) Direct employment per unit falls (labour-displacing technology), but total employment may rise if output expansion creates more jobs in logistics, quality control, and ancillary units. (b) Capital intensity rises sharply (capital/labour ratio increases). (c) Foreign exchange earnings increase due to higher export volume. A wrong answer claiming 'employment decreases' reveals a static, partial-equilibrium mindset: the student ignores scale effects, ancillary job creation, and the distinction between labour-saving and job-destroying innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic development impact of a 'necessity entrepreneur' (starting a kirana store due to unemployment) versus an 'opportunity entrepreneur' (launching a fintech startup). Use the concepts of innovation, scalability, and multiplier effect.",
+     "a": "The necessity entrepreneur typically exhibits low innovation (replicative), low scalability (local market), and low multiplier (limited linkages). The opportunity entrepreneur introduces novel products/processes (Schumpeterian innovation), targets scalable markets (national/global), and generates high multipliers through vendor networks, talent attraction, and knowledge spillovers. A wrong answer stating 'both create jobs equally' reveals inability to distinguish between subsistence self-employment and transformative entrepreneurship — a critical Class 11 analytical gap.",
+     "self_check": true
+    },
+    {
+     "q": "\"Entrepreneurs bear uncertainty, not just risk.\" Evaluate this statement in the context of Knightian uncertainty and its implication for economic development.",
+     "a": "Risk involves known probability distributions (insurable); uncertainty involves unknown probabilities (non-insurable). Entrepreneurs bear uncertainty by committing resources to ventures with unknowable outcomes (e.g., launching a product in a new market). This function is irreplaceable: without it, no new economic activity emerges. Development stalls if agents only take calculable risks. A wrong answer equating risk and uncertainty shows the student has not grasped the theoretical foundation of entrepreneurial profit (Knight, 1921) and cannot explain why entrepreneurship cannot be reduced to a contractible factor service.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical entrepreneur profile (background, venture, location, innovation) that simultaneously maximises all five macroeconomic roles. Justify each design choice.",
+     "a": "Example: A tribal woman from Odisha's Koraput district launches a millet-based snack brand using traditional recipes, solar dehydration (innovation), sourcing from 500 marginal farmers (backward linkage), employing 30 local women (employment), locating in the district (regional development), and exporting to Europe via an FPO (foreign exchange). Justification must link each feature to a specific role. A poor answer lists generic traits without causal mapping (e.g., 'she is innovative' without specifying product/process/organisational innovation), revealing superficial template-matching rather than conceptual integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

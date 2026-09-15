@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_011",
+   "title": "c12_eco_cbse_02_011",
+   "questions": [
+    {
+     "q": "State the formula for price elasticity of demand at a point on a linear demand curve using the geometric (point) method. Define the terms \"upper segment\" and \"lower segment\" with reference to a diagram.",
+     "a": "Ed = (Lower segment of demand curve from the point) / (Upper segment of demand curve from the point). The upper segment is the distance from the point to the Y-axis intercept (price intercept); the lower segment is the distance from the point to the X-axis intercept (quantity intercept). A wrong answer (e.g., Ed = slope, or Ed = upper/lower) reveals confusion between slope and elasticity, or reversal of the segment ratio — a common error where students invert the fraction because they misremember \"lower/upper\" as \"upper/lower\" or confuse it with the percentage method's (%ΔQ/%ΔP).",
+     "self_check": true
+    },
+    {
+     "q": "On a linear demand curve, elasticity is 1 at the midpoint, greater than 1 above the midpoint, and less than 1 below the midpoint. Explain WHY this happens using the geometric formula, even though the slope is constant everywhere.",
+     "a": "Ed = (Lower segment)/(Upper segment). At the midpoint, lower = upper, so Ed = 1. Above midpoint (closer to price intercept), lower segment > upper segment, so Ed > 1 (elastic). Below midpoint (closer to quantity intercept), lower segment < upper segment, so Ed < 1 (inelastic). Slope is constant (ΔP/ΔQ), but elasticity = (P/Q) × (1/slope). As we move down the curve, P falls and Q rises, so P/Q falls — elasticity decreases continuously. A wrong answer claiming \"elasticity equals slope\" or \"elasticity is constant on a straight line\" reveals the fundamental misconception that slope and elasticity are the same concept.",
+     "self_check": true
+    },
+    {
+     "q": "A linear demand curve has equation Q = 100 - 2P. Calculate the price elasticity of demand at P = ₹20 using the geometric method. Show the similar triangles derivation.",
+     "a": "Step 1: Find Q at P=20: Q = 100 - 2(20) = 60.\nStep 2: Find intercepts: Price intercept (P when Q=0): 0 = 100 - 2P → P = 50. Quantity intercept (Q when P=0): Q = 100.\nStep 3: Point is (Q=60, P=20). Upper segment = distance from point to price intercept = 50 - 20 = 30. Lower segment = distance from point to quantity intercept = 60 - 0 = 60? Wait — careful: On a P-Q graph with P on vertical axis, the \"upper segment\" is the vertical distance from point to price intercept? No — the geometric method uses segments ALONG the demand curve. But for linear curves, the ratio of segments ALONG the curve equals the ratio of vertical/horizontal segments due to similar triangles. Correct approach: Ed = (Lower segment along curve)/(Upper segment along curve) = (distance from point to Q-intercept along curve)/(distance from point to P-intercept along curve). By similar triangles: Ed = (P/Q) × (ΔQ/ΔP) = (20/60) × (1/2) × (-1)? Wait: dQ/dP = -2, so |dQ/dP| = 2. Ed = (P/Q) × |dQ/dP| = (20/60) × 2 = 2/3 = 0.67. Using segments: The demand line from (0,50) to (100,0). Point (60,20). Distance along line to Q-intercept (100,0): √[(100-60)² + (0-20)²] = √[1600+400] = √2000. Distance to P-intercept (0,50): √[(60-0)² + (20-50)²] = √[3600+900] = √4500. Ratio = √2000/√4500 = √(2000/4500) = √(4/9) = 2/3. Correct. A wrong answer using Ed = slope = -2, or Ed = (ΔQ/ΔP) without P/Q, or inverting the segment ratio, reveals confusion between slope and elasticity or misidentification of upper/lower segments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geometric (point) method and the percentage (flux) method for measuring elasticity on a linear demand curve. When would each be preferred? Give a specific example where the geometric method is faster.",
+     "a": "Both methods yield identical results at any point on a linear demand curve. The percentage method: Ed = (%ΔQ/%ΔP) = (ΔQ/Q)/(ΔP/P) = (P/Q)×(ΔQ/ΔP). The geometric method: Ed = (Lower segment)/(Upper segment) = (P/Q)×|slope| by similar triangles. The geometric method is preferred when: (a) The demand curve is linear and a diagram is given, (b) We need elasticity at multiple points quickly, (c) No specific ΔP/ΔQ is provided — just the curve equation or graph. Example: \"Find Ed at midpoint of Q = 50 - P.\" Geometric: Midpoint → Ed = 1 instantly. Percentage: Need to pick two close points, calculate % changes — slower. A wrong answer saying \"percentage method is always better\" or \"geometric method only works for straight lines through origin\" reveals lack of understanding of when each method applies.",
+     "self_check": true
+    },
+    {
+     "q": "A firm faces a linear demand curve. The manager says: \"Since our demand curve is a straight line, elasticity is constant, so a price cut will always increase total revenue by the same proportion.\" Evaluate this statement.",
+     "a": "The statement is FALSE. On a linear demand curve, slope is constant but elasticity varies from 0 to ∞. Total revenue (TR = P×Q) increases when price falls ONLY in the elastic region (Ed > 1, upper half of curve). In the inelastic region (Ed < 1, lower half), a price cut DECREASES total revenue. At the midpoint (Ed = 1), TR is maximized and unchanged by small price changes. The manager confuses constant slope with constant elasticity. A wrong evaluation agreeing with the manager reveals the critical misconception that \"straight line = constant elasticity\" — this error costs marks in both board exams (theory) and competitive exams (application to revenue maximization).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a linear demand curve equation where the price elasticity of demand at P = ₹30 is exactly 2. Show that the geometric method gives the same result as the percentage method for a small price change from ₹30 to ₹29.",
+     "a": "We need Ed = 2 at P = 30. For linear demand Q = a - bP, Ed = (P/Q) × b = 2. So (30/Q) × b = 2 → Q = 15b. Also Q = a - 30b. So a - 30b = 15b → a = 45b. Choose b = 2 → a = 90. Demand: Q = 90 - 2P. At P=30, Q=30. Ed = (30/30)×2 = 2. Geometric: Price intercept = 45, Q-intercept = 90. Point (30,30). Upper segment along curve to (0,45): √(30²+15²)=√1125. Lower to (90,0): √(60²+30²)=√4500. Ratio = √4500/√1125 = √4 = 2. Percentage method: P=30→29 (ΔP=-1), Q=30→32 (ΔQ=+2). %ΔP = -1/30 = -3.33%, %ΔQ = 2/30 = 6.67%. Ed = |6.67/(-3.33)| = 2. Both match. A poor answer that picks arbitrary a,b without satisfying Ed=2, or uses large ΔP for percentage method (violating \"point\" concept), reveals inability to work backwards from elasticity to curve parameters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

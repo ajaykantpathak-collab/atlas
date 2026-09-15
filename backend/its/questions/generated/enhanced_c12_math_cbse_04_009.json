@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_009",
+   "title": "c12_math_cbse_04_009",
+   "questions": [
+    {
+     "q": "State Cramer's Rule for a system of two linear equations in two variables: a₁x + b₁y = c₁ and a₂x + b₂y = c₂. Write the expressions for x and y in terms of determinants.",
+     "a": "x = Δₓ/Δ, y = Δᵧ/Δ where Δ = |a₁ b₁; a₂ b₂| = a₁b₂ − a₂b₁, Δₓ = |c₁ b₁; c₂ b₂| = c₁b₂ − c₂b₁, Δᵧ = |a₁ c₁; a₂ c₂| = a₁c₂ − a₂c₁. A wrong answer where the student writes Δₓ = |a₁ c₁; a₂ c₂| (replacing the wrong column) reveals confusion about which column corresponds to which variable. A wrong answer where the student writes Δ = a₁b₁ − a₂b₂ reveals a fundamental error in 2×2 determinant calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Cramer's Rule fails when the determinant of the coefficient matrix Δ = 0. What does Δ = 0 imply about the geometry of the lines (for 2×2) or planes (for 3×3)?",
+     "a": "When Δ = 0, the coefficient matrix is singular, meaning its columns are linearly dependent. For a 2×2 system, the two lines are either parallel (no solution, inconsistent) or coincident (infinitely many solutions, dependent). For a 3×3 system, the three planes either do not intersect at a single point (no solution) or intersect along a line or plane (infinitely many solutions). Cramer's Rule involves division by Δ, which is undefined when Δ = 0. A student who says \"the system has no solution\" without mentioning the possibility of infinitely many solutions shows incomplete understanding of the Δ = 0 case.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following system using Cramer's Rule:\n3x − 2y + z = 4\n2x + 3y − z = 3\nx + y + z = 6",
+     "a": "Step 1: Write coefficient matrix A and constant matrix B.\nA = [[3, −2, 1], [2, 3, −1], [1, 1, 1]], B = [[4], [3], [6]].\n\nStep 2: Compute Δ = det(A).\nΔ = 3·(3·1 − (−1)·1) − (−2)·(2·1 − (−1)·1) + 1·(2·1 − 3·1)\n  = 3·(3 + 1) + 2·(2 + 1) + 1·(2 − 3)\n  = 3·4 + 2·3 + 1·(−1) = 12 + 6 − 1 = 17.\n\nStep 3: Compute Δₓ by replacing column 1 with B.\nΔₓ = det([[4, −2, 1], [3, 3, −1], [6, 1, 1]])\n    = 4·(3·1 − (−1)·1) − (−2)·(3·1 − (−1)·6) + 1·(3·1 − 3·6)\n    = 4·(3 + 1) + 2·(3 + 6) + 1·(3 − 18)\n    = 4·4 + 2·9 − 15 = 16 + 18 − 15 = 19.\nx = Δₓ/Δ = 19/17.\n\nStep 4: Compute Δᵧ by replacing column 2 with B.\nΔᵧ = det([[3, 4, 1], [2, 3, −1], [1, 6, 1]])\n    = 3·(3·1 − (−1)·6) − 4·(2·1 − (−1)·1) + 1·(2·6 − 3·1)\n    = 3·(3 + 6) − 4·(2 + 1) + 1·(12 − 3)\n    = 3·9 − 4·3 + 9 = 27 − 12 + 9 = 24.\ny = Δᵧ/Δ = 24/17.\n\nStep 5: Compute Δz by replacing column 3 with B.\nΔz = det([[3, −2, 4], [2, 3, 3], [1, 1, 6]])\n    = 3·(3·6 − 3·1) − (−2)·(2·6 − 3·1) + 4·(2·1 − 3·1)\n    = 3·(18 − 3) + 2·(12 − 3) + 4·(2 − 3)\n    = 3·15 + 2·9 + 4·(−1) = 45 + 18 − 4 = 59.\nz = Δz/Δ = 59/17.\n\nAnswer: x = 19/17, y = 24/17, z = 59/17.\nA wrong answer where the student gets Δ = 17 but Δₓ = 17 (forgetting to replace the column) shows mechanical application without understanding the column replacement rule. Sign errors in cofactor expansion (e.g., forgetting the −(−2) becomes +2) are the most common computational mistakes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Cramer's Rule and the Matrix Inverse Method (X = A⁻¹B) for solving a 3×3 system. For a given system, which method would you choose if: (a) you only need the value of one variable, say y? (b) you need to solve the same system for multiple different constant vectors B? Justify your choices.",
+     "a": "(a) Cramer's Rule is more efficient when only one variable is needed because you only compute Δ and that variable's Δᵢ (2 determinants total), whereas the inverse method requires computing the full inverse (9 cofactors, adjugate, division by Δ) or solving the full system. (b) The Matrix Inverse Method is better for multiple B vectors because A⁻¹ is computed once and then each solution is just a matrix multiplication X = A⁻¹B. With Cramer's Rule, you would recompute all Δᵢ for each new B. A student who says \"Cramer's Rule is always better because it's simpler\" fails to analyze computational complexity and reusability. A student who says \"Inverse method is always better\" ignores the single-variable case where Cramer's Rule avoids unnecessary work.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the system:\nx + 2y + 3z = 14\n2x + 3y + z = 11\n3x + y + 2z = 11\nusing Cramer's Rule and gets Δ = 18, Δₓ = 18, Δᵧ = 36, Δz = 54, concluding x = 1, y = 2, z = 3. Verify whether this solution is correct by substituting back into the original equations. If there is an error, identify which determinant was likely computed incorrectly.",
+     "a": "Substitute x=1, y=2, z=3:\nEq1: 1 + 4 + 9 = 14 ✓\nEq2: 2 + 6 + 3 = 11 ✓\nEq3: 3 + 2 + 6 = 11 ✓\nThe solution satisfies all equations, so it is correct. The student's determinants are consistent.\nHowever, if the student had obtained x=2, y=1, z=3 (swapped x and y), substitution would give Eq1: 2+2+9=13≠14, revealing the error. The likely mistake would be computing Δₓ using the y-column constants or vice versa — i.e., replacing the wrong column. A student who only checks \"Δ ≠ 0\" and assumes the answer is correct without substitution misses this verification step that catches column-replacement errors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context: prices, quantities, mixtures, or investments) that leads to a 3×3 system solvable by Cramer's Rule. Ensure the coefficient matrix has a non-zero determinant. Write the problem statement, the system of equations, and the solution using Cramer's Rule.",
+     "a": "Example problem: \"A shopkeeper sells three types of rice: Basmati, Sona Masoori, and Kolam. On Monday, he sold 2 kg Basmati, 3 kg Sona Masoori, and 1 kg Kolam for ₹480. On Tuesday, he sold 1 kg Basmati, 2 kg Sona Masoori, and 3 kg Kolam for ₹450. On Wednesday, he sold 3 kg Basmati, 1 kg Sona Masoori, and 2 kg Kolam for ₹510. Find the price per kg of each rice variety.\"\nSystem: 2x + 3y + z = 480; x + 2y + 3z = 450; 3x + y + 2z = 510.\nΔ = det([[2,3,1],[1,2,3],[3,1,2]]) = 2(4−3) − 3(2−9) + 1(1−6) = 2 + 21 − 5 = 18 ≠ 0.\nΔₓ = det([[480,3,1],[450,2,3],[510,1,2]]) = 480(4−3) − 3(900−1530) + 1(450−1020) = 480 + 1890 − 570 = 1800 → x = 100.\nΔᵧ = det([[2,480,1],[1,450,3],[3,510,2]]) = 2(900−1530) − 480(2−9) + 1(510−1350) = −1260 + 3360 − 840 = 1260 → y = 70.\nΔz = det([[2,3,480],[1,2,450],[3,1,510]]) = 2(1020−450) − 3(510−1350) + 480(1−6) = 1140 + 2520 − 2400 = 1260 → z = 70.\nPrices: Basmati ₹100/kg, Sona Masoori ₹70/kg, Kolam ₹70/kg.\nA poor answer would have Δ = 0 (making Cramer's Rule inapplicable) or would not show the determinant calculations. The problem must be checked for Δ ≠ 0 before presenting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

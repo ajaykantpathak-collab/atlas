@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_005",
+   "title": "c12_cs_cbse_06_005",
+   "questions": [
+    {
+     "q": "What is the return type of `cursor.fetchone()` when the result set has at least one row remaining, and what does it return when the result set is exhausted?",
+     "a": "`fetchone()` returns a tuple representing the next row (e.g., `('Aman', 85)`), and returns `None` when no more rows are available. A wrong answer like \"returns a list\" or \"raises an exception\" reveals confusion between `fetchone()` and `fetchall()` or misunderstanding of DB-API 2.0 specification.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `rows = cursor.fetchall(); rows = cursor.fetchall()` expecting the second call to return the same rows again. Explain why the second call returns an empty list, and how to re-read the same result set without re-executing the query.",
+     "a": "After `fetchall()`, the cursor position is at the end of the result set; a subsequent `fetchall()` returns `[]`. To re-read, either re-execute the query or use a buffered cursor (`cursor = conn.cursor(buffered=True)`) which stores the entire result set client-side and allows `cursor.fetchall()` to be called multiple times. A wrong answer suggests the student thinks the result set is automatically reset, indicating a gap in understanding cursor state.",
+     "self_check": true
+    },
+    {
+     "q": "Write a code snippet that uses `fetchmany(5)` in a loop to print all rows from a result set containing 17 rows. How many iterations will the loop run, and what will the last iteration return?",
+     "a": "The loop runs 4 iterations: three iterations return 5 rows each (list of 5 tuples), the fourth returns the remaining 2 rows (list of 2 tuples), and a fifth call would return `[]`. A student who says \"3 iterations\" or \"last returns None\" confuses `fetchmany` with `fetchone` or misunderstands that `fetchmany` returns a list (never `None`) and returns fewer than `size` rows at the end.",
+     "self_check": true
+    },
+    {
+     "q": "Compare memory usage and network round-trips when using `fetchall()` vs `fetchmany(100)` for a 10,000-row result set on a typical school lab network. Which method is safer for a memory-constrained Raspberry Pi project, and why?",
+     "a": "`fetchall()` loads all 10,000 rows into RAM at once (high memory, one network transfer). `fetchmany(100)` loads 100 rows at a time (low memory, 100 network round-trips). For a Raspberry Pi with limited RAM, `fetchmany` is safer because it bounds memory usage to 100 rows. A student who picks `fetchall()` for \"speed\" ignores memory constraints, a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A CBSE board question asks: \"Write a Python function `get_top_n_students(n)` that returns the top `n` students by marks from a table `students(roll, name, marks)` using a single fetch method call.\" Which fetch method should be used, and what SQL clause must accompany it? Justify your answer.",
+     "a": "Use `fetchmany(n)` after executing `SELECT roll, name, marks FROM students ORDER BY marks DESC`. `fetchmany(n)` directly returns at most `n` rows, matching the requirement exactly. `fetchall()` would waste memory; `fetchone()` would require a loop. A student who suggests `fetchall()` and then slicing in Python (`rows[:n]`) loses marks for not using the database to limit rows, a frequent board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would deliberately choose `fetchone()` over the other two methods, and write the complete Python code (connection, query, fetch, close) for that scenario. Explain why the other methods would be inappropriate.",
+     "a": "Scenario: An ATM balance-check transaction — only one row (the current user's balance) is ever expected. Code uses `fetchone()` because it returns a single tuple or `None`, directly mapping to \"account found\" or \"account not found\". `fetchall()` would create an unnecessary list; `fetchmany(1)` returns a list of one tuple, requiring extra indexing. A poor answer uses `fetchall()` \"to be safe\", showing lack of precision in method selection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

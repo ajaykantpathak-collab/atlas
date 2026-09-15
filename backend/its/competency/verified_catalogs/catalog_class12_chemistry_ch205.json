@@ -1,0 +1,670 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 205,
+ "chapter_title": "Biomolecules",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech205.txt",
+ "concepts": [
+  {
+   "id": "lech.205.1",
+   "title": "Classification of Carbohydrates",
+   "section": "10.1.1",
+   "definition": "Carbohydrates are categorized into monosaccharides, oligosaccharides, or polysaccharides depending on the number of simpler sugar units they yield upon acid or enzymatic hydrolysis.",
+   "formula": "None",
+   "key_idea": "Hydrolysis breaks complex carbohydrates into simpler sugar units.",
+   "textbook_ref": "lech205.txt lines 30-70",
+   "question_patterns": [
+    "classify carbohydrates based on their hydrolysis products",
+    "what are monosaccharides, oligosaccharides, and polysaccharides",
+    "how do we categorize carbohydrates based on hydrolysis",
+    "explain the classification of carbohydrates with examples",
+    "justify why classification of carbohydrates matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of monosaccharide units produced on hydrolysis",
+     "explain": "Monosaccharides cannot be further hydrolyzed; oligosaccharides yield 2-10 units; polysaccharides yield a large number of units."
+    },
+    {
+     "step": 2,
+     "action": "Match the hydrolysis product count to the correct category",
+     "explain": "A single unit means monosaccharide (e.g., glucose); 2-10 units means oligosaccharide (e.g., sucrose); many units means polysaccharide (e.g., starch)."
+    },
+    {
+     "step": 3,
+     "action": "Provide an example to confirm the classification",
+     "explain": "Examples anchor the classification: glucose is a monosaccharide, sucrose is a disaccharide, and cellulose is a polysaccharide."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.2",
+   "title": "Reducing and Non-Reducing Sugars",
+   "section": "10.1.1",
+   "definition": "Sugars are indeed classified as reducing if they have a free hemiacetal or hemiketal group capable of reducing mild oxidizing agents like Tollens' or Fehling's reagents.",
+   "formula": "None",
+   "key_idea": "Reducing ability varies with the presence of a free, unbonded carbonyl group.",
+   "textbook_ref": "lech205.txt lines 70-85",
+   "question_patterns": [
+    "distinguish between reducing and non-reducing sugars",
+    "why is sucrose a non-reducing sugar while maltose is reducing",
+    "identify if a given sugar is reducing or non-reducing",
+    "what makes a carbohydrate a reducing sugar",
+    "short note on reducing and non-reducing sugars"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the anomeric carbon has a free hemiacetal or hemiketal group",
+     "explain": "If the carbonyl group is engaged in a glycosidic linkage, the sugar is non-reducing."
+    },
+    {
+     "step": 2,
+     "action": "Test the sugar with Tollens' or Fehling's reagent",
+     "explain": "A reducing sugar gives a positive test (silver mirror or brick-red precipitate) because the free carbonyl group can reduce the oxidizing agent."
+    },
+    {
+     "step": 3,
+     "action": "Conclude reducing or non-reducing based on the test result",
+     "explain": "A positive test confirms a reducing sugar (e.g., glucose, maltose); a negative test confirms a non-reducing sugar (e.g., sucrose) where both anomeric carbons are locked in glycosidic bonds."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.3",
+   "title": "Chemical Evidence for Open-Chain Structure of Glucose",
+   "section": "10.1.2.1",
+   "definition": "The linear six-carbon structure of glucose is demonstrated by its reactions with specific reagents that target its carbonyl, aldehyde, and hydroxyl functional groups.",
+   "formula": "None",
+   "key_idea": "Reagents target specific functional groups to reveal the carbon skeleton and substituents.",
+   "textbook_ref": "lech205.txt lines 110-170",
+   "question_patterns": [
+    "what is the evidence that glucose has a straight chain of six carbons",
+    "how does reaction with bromine water prove the presence of an aldehyde group in glucose",
+    "explain the reactions of glucose with HI and acetic anhydride",
+    "how is the presence of five hydroxyl groups in glucose confirmed",
+    "why is chemical evidence for open-chain structure of glucose important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Correlate each chemical test with its structural implication",
+     "explain": "HI reduction yields n-hexane (straight chain); hydroxylamine/HCN confirms carbonyl; bromine water confirms aldehyde; acetylation confirms five OH groups; nitric acid confirms primary alcohol."
+    },
+    {
+     "step": 2,
+     "action": "Count the carbon chain length from the n-hexane product",
+     "explain": "Reduction with HI to n-hexane proves glucose has six carbons arranged in a straight chain."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the number of hydroxyl and aldehyde groups from acetylation and bromine water tests",
+     "explain": "Acetylation with acetic anhydride gives a pentaacetate, confirming five OH groups; bromine water oxidation to gluconic acid confirms the aldehyde group."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.4",
+   "title": "Cyclic Structure of Glucose and Anomers",
+   "section": "10.1.2.1",
+   "definition": "Glucose exists predominantly in six-membered cyclic hemiacetal forms that differ in configuration only at the first carbon, giving rise to alpha and beta anomers.",
+   "formula": "None",
+   "key_idea": "Anomers are cyclic stereoisomers that differ in configuration only at the hemiacetal carbon (C-1).",
+   "textbook_ref": "lech205.txt lines 210-250",
+   "question_patterns": [
+    "explain why glucose does not give Schiff's test despite having an aldehyde group",
+    "what are anomers and how do alpha and beta glucose differ",
+    "describe the cyclic pyranose structure of D-glucose",
+    "why does glucose form two different crystalline structures",
+    "state two key points about cyclic structure of glucose and anomers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the hemiacetal carbon and the configuration of the OH group",
+     "explain": "In alpha-D-glucose, the C-1 OH is on the opposite side of the CH2OH group (or down in Haworth), while in beta-D-glucose it is on the same side (or up)."
+    },
+    {
+     "step": 2,
+     "action": "Explain why the cyclic form does not give Schiff's test",
+     "explain": "The aldehyde group at C-1 is converted into a hemiacetal in the cyclic form, so the free carbonyl is not available to react with Schiff's reagent."
+    },
+    {
+     "step": 3,
+     "action": "Describe the equilibrium between alpha and beta anomers in solution",
+     "explain": "In aqueous solution, the open-chain form interconverts between alpha and beta pyranose forms via mutarotation, establishing an equilibrium mixture."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.5",
+   "title": "Glycosidic Linkage in Disaccharides",
+   "section": "10.1.3",
+   "definition": "The C-O-C bridge joining two monosaccharide rings; water is eliminated as the oxygen bridge forms.",
+   "formula": "None",
+   "key_idea": "The specific carbons involved in the glycosidic bond determine the properties of the disaccharide.",
+   "textbook_ref": "lech205.txt lines 290-340",
+   "question_patterns": [
+    "what is a glycosidic linkage",
+    "describe the glycosidic bond in sucrose, maltose, and lactose",
+    "which carbons are linked in lactose",
+    "explain the linkage that forms sucrose",
+    "describe glycosidic linkage in disaccharides with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the monosaccharide units and the linking carbon positions",
+     "explain": "Sucrose has C1 of alpha-glucose linked to C2 of beta-fructose; maltose has C1-C4 alpha-linkage; lactose has C1 of beta-galactose linked to C4 of beta-glucose."
+    },
+    {
+     "step": 2,
+     "action": "Determine if the glycosidic bond involves both anomeric carbons",
+     "explain": "If both anomeric carbons are bonded (as in sucrose C1-C2), the disaccharide is non-reducing because no free hemiacetal group remains."
+    },
+    {
+     "step": 3,
+     "action": "Predict reducing or non-reducing behavior from the linkage",
+     "explain": "Maltose and lactose have one free anomeric carbon, so they are reducing sugars; sucrose has both anomeric carbons engaged, so it is non-reducing."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.6",
+   "title": "Polysaccharides",
+   "section": "10.1.4",
+   "definition": "Polysaccharides are complex, high-molecular-weight carbohydrates composed of numerous monosaccharide units linked together, serving structural or storage roles.",
+   "formula": "None",
+   "key_idea": "Polysaccharides like starch, cellulose, and glycogen serve as structural components or energy reservoirs.",
+   "textbook_ref": "lech205.txt lines 345-410",
+   "question_patterns": [
+    "compare starch, cellulose, and glycogen",
+    "what is the structural difference between starch and cellulose",
+    "explain the role of glycogen in animals",
+    "describe the structural components of starch",
+    "short note on polysaccharides"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the monomeric units and linkage types",
+     "explain": "Starch and glycogen are polymers of alpha-D-glucose, whereas cellulose is a straight-chain polymer of beta-D-glucose."
+    },
+    {
+     "step": 2,
+     "action": "Compare the branching and linkage patterns",
+     "explain": "Starch has amylose (linear alpha-1,4) and amylopectin (branched alpha-1,4 and alpha-1,6); glycogen is highly branched; cellulose has linear beta-1,4 linkages."
+    },
+    {
+     "step": 3,
+     "action": "Relate the structure to the biological function",
+     "explain": "Starch and glycogen serve as energy storage due to easy enzymatic hydrolysis of alpha-linkages; cellulose provides structural support in plants because humans lack enzymes to hydrolyze beta-linkages."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.7",
+   "title": "Starch Component Composition",
+   "section": "10.1.4(i)",
+   "definition": "Starch is indeed made up of two structural fractions: a linear water-soluble polymer called amylose and a branched water-insoluble polymer called amylopectin.",
+   "formula": "amylopectin_pct = 100 - amylose_pct",
+   "key_idea": "The percentages' sum of both amylose and amylopectin in starch is always 100 percent.",
+   "textbook_ref": "lech205.txt lines 370-390",
+   "question_patterns": [
+    "calculate the percentage of amylopectin in a starch sample containing some percent of amylose",
+    "if amylose constitutes some percent of starch, what is the percentage of amylopectin",
+    "find the amylopectin content given the amylose percentage",
+    "how much amylopectin is present if amylose is given",
+    "solve a numerical on starch component composition"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the amylose percentage from 100 to get the amylopectin percentage",
+     "explain": "Since starch is composed entirely of amylose and amylopectin, their percentages must sum to 100.",
+     "compute": "amylopectin_pct = 100 - amylose_pct"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given amylose percentage into the formula",
+     "explain": "Replace amylose_pct with the given numerical value to compute the amylopectin percentage directly.",
+     "compute": "amylopectin_pct = 100 - given_amylose_pct"
+    },
+    {
+     "step": 3,
+     "action": "Verify that the two percentages sum to 100",
+     "explain": "Adding the computed amylopectin percentage to the given amylose percentage should equal 100, confirming the result is correct.",
+     "compute": "total_pct = amylose_pct + amylopectin_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Starch Component Composition, compute the result for amylose_pct = 3, given_amylose_pct = 3.",
+     "solution": "Step 1: Subtract the amylose percentage from 100 to get the amylopectin percentage: amylopectin_pct = 100 - amylose_pct = 97.0 Step 2: Substitute the given amylose percentage into the formula: amylopectin_pct = 100 - given_amylose_pct = 97.0 Step 3: Verify that the two percentages sum to 100: total_pct = amylose_pct + amylopectin_pct = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    },
+    {
+     "question": "Using Starch Component Composition, compute the result for amylose_pct = 4, given_amylose_pct = 4.",
+     "solution": "Step 1: Subtract the amylose percentage from 100 to get the amylopectin percentage: amylopectin_pct = 100 - amylose_pct = 96.0 Step 2: Substitute the given amylose percentage into the formula: amylopectin_pct = 100 - given_amylose_pct = 96.0 Step 3: Verify that the two percentages sum to 100: total_pct = amylose_pct + amylopectin_pct = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    }
+   ]
+  },
+  {
+   "id": "lech.205.8",
+   "title": "Amino Acids and Zwitterion Formation",
+   "section": "10.2.1",
+   "definition": "Amino acids contain both acidic both carboxyl and basic amino groups, allowing internal proton transfer to form a dipolar, electrically neutral zwitterion in solution.",
+   "formula": "None",
+   "key_idea": "The zwitterionic form gives amino acids high melting points, water solubility, and amphoteric behavior.",
+   "textbook_ref": "lech205.txt lines 440-485",
+   "question_patterns": [
+    "what is a zwitterion and how is it formed in amino acids",
+    "explain why amino acids have high melting points compared to halo acids",
+    "describe the amphoteric nature of amino acids",
+    "how does an amino acid behave in acidic and basic media",
+    "justify why amino acids and zwitterion formation matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the proton transfer from carboxyl to amino group",
+     "explain": "The -COOH group loses a proton to become -COO-, and the -NH2 group accepts it to become -NH3+, creating a dipolar species."
+    },
+    {
+     "step": 2,
+     "action": "Explain the amphoteric behavior of the zwitterion",
+     "explain": "In acidic medium the -COO- accepts a proton to form -COOH, and in basic medium the -NH3+ loses a proton to form -NH2, allowing the amino acid to act as both acid and base."
+    },
+    {
+     "step": 3,
+     "action": "Relate zwitterion formation to physical properties",
+     "explain": "The strong dipolar attraction gives amino acids high melting points and high solubility in water compared to simple halo acids."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.9",
+   "title": "Peptide Bond Count in Polypeptides",
+   "section": "10.2.3",
+   "definition": "A peptide bond is a covalent amide linkage that connects the carboxyl group of one amino acid to the amino group of another in a polypeptide chain.",
+   "formula": "peptide_bonds = amino_acids - 1",
+   "key_idea": "In a linear polypeptide chain, the number of peptide linkages is always one less than the total number of amino acid residues.",
+   "textbook_ref": "lech205.txt lines 490-520",
+   "question_patterns": [
+    "how many peptide bonds are present in a polypeptide containing some amino acids",
+    "calculate the number of peptide linkages in a chain of some amino acid residues",
+    "find the peptide bond count for a protein with some amino acids",
+    "what is the number of peptide bonds in a peptide with some residues",
+    "compute the answer step by step for peptide bond count in polypeptides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract one from the total number of amino acids",
+     "explain": "Each peptide bond connects two adjacent amino acids, so a linear chain of N residues has N - 1 bonds.",
+     "compute": "peptide_bonds = amino_acids - 1"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given number of amino acid residues into the formula",
+     "explain": "Replace amino_acids with the given value to obtain the exact peptide bond count for the polypeptide chain.",
+     "compute": "peptide_bonds = given_amino_acids - 1"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result by checking the chain connectivity",
+     "explain": "Confirm that each consecutive pair of residues forms exactly one bond, so the total of N - 1 bonds is consistent with a linear chain.",
+     "compute": "residue_check = peptide_bonds + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Peptide Bond Count in Polypeptides, compute the result for amino_acids = 3, given_amino_acids = 3.",
+     "solution": "Step 1: Subtract one from the total number of amino acids: peptide_bonds = amino_acids - 1 = 2.0 Step 2: Substitute the given number of amino acid residues into the formula: peptide_bonds = given_amino_acids - 1 = 2.0 Step 3: Verify the result by checking the chain connectivity: residue_check = peptide_bonds + 1 = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Peptide Bond Count in Polypeptides, compute the result for amino_acids = 4, given_amino_acids = 4.",
+     "solution": "Step 1: Subtract one from the total number of amino acids: peptide_bonds = amino_acids - 1 = 3.0 Step 2: Substitute the given number of amino acid residues into the formula: peptide_bonds = given_amino_acids - 1 = 3.0 Step 3: Verify the result by checking the chain connectivity: residue_check = peptide_bonds + 1 = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lech.205.10",
+   "title": "Classification of Proteins",
+   "section": "10.2.3",
+   "definition": "Proteins are divided into fibrous and globular classes using whether their polypeptide chains run parallel in sheets or fold into compact spherical shapes.",
+   "formula": "None",
+   "key_idea": "Fibrous proteins have parallel linear chains, while globular proteins have folded spherical chains.",
+   "textbook_ref": "lech205.txt lines 525-545",
+   "question_patterns": [
+    "differentiate between fibrous and globular proteins",
+    "give examples of fibrous and globular proteins",
+    "why is keratin insoluble in water while insulin is soluble",
+    "classify proteins based on their molecular shape",
+    "explain classification of proteins in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the shape and intermolecular forces of the protein",
+     "explain": "Fibrous proteins form fibers held by hydrogen/disulfide bonds and are insoluble; globular proteins fold into spheres and are water-soluble."
+    },
+    {
+     "step": 2,
+     "action": "Identify representative examples for each class",
+     "explain": "Keratin and collagen are fibrous proteins serving structural roles; insulin and hemoglobin are globular proteins serving functional roles."
+    },
+    {
+     "step": 3,
+     "action": "Classify the protein based on solubility and function",
+     "explain": "Insoluble, thread-like proteins are fibrous; soluble, spherical proteins with biological activity are globular."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.11",
+   "title": "Structural Levels of Proteins",
+   "section": "10.2.3",
+   "definition": "Protein structure is organized into four hierarchical levels: primary (sequence), secondary (folding patterns), tertiary (overall 3D shape), and quaternary (subunit assembly).",
+   "formula": "None",
+   "key_idea": "The specific sequence of amino acids dictates the higher-order folding and functional conformation of the protein.",
+   "textbook_ref": "lech205.txt lines 545-600",
+   "question_patterns": [
+    "explain the four levels of protein structure",
+    "what stabilizes the secondary structure of proteins",
+    "describe the difference between alpha-helix and beta-pleated sheet structures",
+    "what forces stabilize the tertiary structure of proteins",
+    "what do you understand by structural levels of proteins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the structural complexity from sequence to 3D assembly",
+     "explain": "Primary is the covalent sequence; secondary is hydrogen-bonded local structures; tertiary is the overall folding stabilized by multiple forces; quaternary is the spatial arrangement of multiple subunits."
+    },
+    {
+     "step": 2,
+     "action": "Identify the stabilizing forces at each level",
+     "explain": "Secondary structure is stabilized by hydrogen bonds; tertiary structure by hydrophobic interactions, disulfide bonds, and ionic bonds; quaternary by interactions between subunits."
+    },
+    {
+     "step": 3,
+     "action": "Relate each structural level to protein function",
+     "explain": "The primary sequence determines all higher-order folding, and the final 3D shape is essential for the protein's biological activity."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.12",
+   "title": "Classification and Deficiency of Vitamins",
+   "section": "10.4.1",
+   "definition": "Vitamins are essential organic micronutrients classified into fat-both both soluble and water-soluble groups, each playing distinct roles in physiological maintenance.",
+   "formula": "None",
+   "key_idea": "Water-soluble vitamins are excreted easily and must indeed be supplied regularly, while fat-soluble vitamins can be stored in liver and fatty tissues.",
+   "textbook_ref": "lech205.txt lines 650-700",
+   "question_patterns": [
+    "how are vitamins classified based on solubility",
+    "why cannot vitamin C be stored in the body",
+    "name the deficiency diseases of vitamin A, C, and D",
+    "distinguish between fat-soluble and water-soluble vitamins",
+    "give one everyday example of classification and deficiency of vitamins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the solubility group of the vitamin",
+     "explain": "Vitamins A, D, E, and K are fat-soluble; B-complex and C are water-soluble."
+    },
+    {
+     "step": 2,
+     "action": "Identify the deficiency disease associated with the vitamin",
+     "explain": "Vitamin A deficiency causes night blindness; vitamin C causes scurvy; vitamin D causes rickets; vitamin B1 causes beriberi."
+    },
+    {
+     "step": 3,
+     "action": "Explain storage behavior based on solubility",
+     "explain": "Fat-soluble vitamins can be stored in the liver and fatty tissues, while water-soluble vitamins are excreted in urine and must be supplied regularly through diet."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.13",
+   "title": "Nucleic Acid Components",
+   "section": "10.5.1",
+   "definition": "Nucleic acids are made up of nucleotide monomers, which are constructed from a nitrogenous base, a pentose sugar, and a phosphate group.",
+   "formula": "None",
+   "key_idea": "A nucleoside contains only sugar and base; adding a phosphate group at the 5'-position forms a nucleotide.",
+   "textbook_ref": "lech205.txt lines 740-780",
+   "question_patterns": [
+    "what is the difference between a nucleoside and a nucleotide",
+    "name the sugar and bases present in DNA and RNA",
+    "what are the hydrolysis products of a nucleotide",
+    "describe the chemical composition of nucleic acids",
+    "justify why nucleic acid components matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of the nucleoside or nucleotide",
+     "explain": "Nucleoside = Sugar + Base. Nucleotide = Sugar + Base + Phosphate."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish the sugar and bases in DNA versus RNA",
+     "explain": "DNA contains deoxyribose sugar and bases adenine, guanine, cytosine, and thymine; RNA contains ribose sugar with uracil replacing thymine."
+    },
+    {
+     "step": 3,
+     "action": "Describe how nucleotides polymerize into nucleic acids",
+     "explain": "Nucleotides link through phosphodiester bonds between the 3'-OH of one sugar and the 5'-phosphate of the next, forming the sugar-phosphate backbone."
+    }
+   ]
+  },
+  {
+   "id": "lech.205.14",
+   "title": "DNA Double Helix and Base Pairing",
+   "section": "10.5.2",
+   "definition": "DNA is made up of two antiparallel polynucleotide strands wound into a double helix, stabilized by specific hydrogen bonds between complementary base pairs.",
+   "formula": "None",
+   "key_idea": "Adenine pairs specifically with thymine (A=T), and cytosine pairs with guanine (C-G).",
+   "textbook_ref": "lech205.txt lines 780-820",
+   "question_patterns": [
+    "why are the two strands of DNA complementary to each other",
+    "describe the double helix structure of DNA proposed by Watson and Crick",
+    "explain base pairing rules in DNA",
+    "how do hydrogen bonds stabilize the DNA double helix",
+    "give one everyday example of dna double helix and base pairing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply complementary base pairing rules",
+     "explain": "Adenine forms two hydrogen bonds with Thymine, and Guanine forms three hydrogen bonds with Cytosine."
+    },
+    {
+     "step": 2,
+     "action": "Describe the antiparallel orientation of the two strands",
+     "explain": "One strand runs 5' to 3' and the other runs 3' to 5', ensuring the bases align properly for hydrogen bonding across the helix."
+    },
+    {
+     "step": 3,
+     "action": "Relate base pairing to the stability and replication of DNA",
+     "explain": "The specific A-T and G-C pairing ensures faithful replication and transcription, while the hydrogen bonds and base stacking stabilize the double helix."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lech205.txt lines 490-520",
+   "concept": "lech.205.9",
+   "question_type": "compute",
+   "question_pattern": "How many peptide bonds are present in a polypeptide chain consisting of {amino_acids} amino acid residues?",
+   "extracted_variables": {
+    "amino_acids": "the total number of amino acid residues in the polypeptide"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract one from the total number of amino acids",
+     "explain": "Each peptide bond connects two adjacent amino acids, so a linear chain of N residues has N - 1 bonds.",
+     "compute": "peptide_bonds = amino_acids - 1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lech205.txt lines 370-390",
+   "concept": "lech.205.7",
+   "question_type": "compute",
+   "question_pattern": "If a sample of starch contains {amylose_pct} percent amylose, what is the percentage of amylopectin in the sample?",
+   "extracted_variables": {
+    "amylose_pct": "the percentage of amylose in starch"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the amylose percentage from 100 to get the amylopectin percentage",
+     "explain": "Since starch is composed entirely of amylose and amylopectin, their percentages must sum to 100.",
+     "compute": "amylopectin_pct = 100 - amylose_pct"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lech205.txt lines 370-390",
+   "concept": "lech.205.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute starch component composition step by step",
+   "extracted_variables": {
+    "amylose_pct": "value of amylose_pct"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the amylose percentage from 100 to get the amylopectin percentage",
+     "explain": "Since starch is composed entirely of amylose and amylopectin, their percentages must sum to 100.",
+     "compute": "amylopectin_pct = 100 - amylose_pct"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "lech205.txt lines 490-520",
+   "concept": "lech.205.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute peptide bond count in polypeptides step by step",
+   "extracted_variables": {
+    "amino_acids": "value of amino_acids"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract one from the total number of amino acids",
+     "explain": "Each peptide bond connects two adjacent amino acids, so a linear chain of N residues has N - 1 bonds.",
+     "compute": "peptide_bonds = amino_acids - 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "lech205.txt lines 1010-1015",
+   "questions": [
+    "What are monosaccharides?"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "lech205.txt lines 1015-1017",
+   "questions": [
+    "What are reducing sugars?"
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "lech205.txt lines 1020-1023",
+   "questions": [
+    "Classify the following into monosaccharides and disaccharides: Ribose, 2-deoxyribose, maltose, galactose, fructose and lactose."
+   ]
+  },
+  {
+   "id": "ex10.7",
+   "source_ref": "lech205.txt lines 1025-1028",
+   "questions": [
+    "What are the hydrolysis products of (i) sucrose and (ii) lactose?"
+   ]
+  },
+  {
+   "id": "ex10.9",
+   "source_ref": "lech205.txt lines 1030-1035",
+   "questions": [
+    "What happens when D-glucose is treated with the following reagents? (i) HI (ii) Bromine water (iii) HNO3"
+   ]
+  },
+  {
+   "id": "ex10.11",
+   "source_ref": "lech205.txt lines 1040-1043",
+   "questions": [
+    "What are essential and non-essential amino acids? Give two examples of each type."
+   ]
+  },
+  {
+   "id": "ex10.12",
+   "source_ref": "lech205.txt lines 1045-1048",
+   "questions": [
+    "Define the following as related to proteins: (i) Peptide linkage (ii) Primary structure (iii) Denaturation."
+   ]
+  },
+  {
+   "id": "ex10.16",
+   "source_ref": "lech205.txt lines 1055-1058",
+   "questions": [
+    "How do you explain the amphoteric behaviour of amino acids?"
+   ]
+  },
+  {
+   "id": "ex10.19",
+   "source_ref": "lech205.txt lines 1060-1063",
+   "questions": [
+    "How are vitamins classified? Name the vitamin responsible for the coagulation of blood."
+   ]
+  },
+  {
+   "id": "ex10.22",
+   "source_ref": "lech205.txt lines 1070-1073",
+   "questions": [
+    "What is the difference between a nucleoside and a nucleotide?"
+   ]
+  },
+  {
+   "id": "ex10.23",
+   "source_ref": "lech205.txt lines 1075-1078",
+   "questions": [
+    "The two strands in DNA are not identical but are complementary. Explain."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

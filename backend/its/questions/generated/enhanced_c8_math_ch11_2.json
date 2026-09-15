@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_2",
+   "title": "c8_math_ch11_2",
+   "questions": [
+    {
+     "q": "What is the first step in constructing the Sierpinski Carpet from a solid square (Stage 0)?",
+     "a": "Divide the square into 9 equal smaller squares (a 3×3 grid) and remove the central square.  \nA wrong answer (e.g., \"remove 4 corner squares\" or \"divide into 4 squares\") reveals the student confuses the Sierpinski Carpet with the Sierpinski Gasket (triangle) or does not grasp the 3×3 grid base structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of remaining squares at Stage 2 is 64, not 56 or 72.",
+     "a": "At Stage 1 we have 8 squares. Each of those 8 squares is divided into 9 and loses its centre, leaving 8 per square. So 8 × 8 = 64.  \nA wrong answer shows the student thinks additively (8+8=16) or miscounts the multiplication factor, missing the recursive \"each square becomes 8\" pattern.",
+     "self_check": true
+    },
+    {
+     "q": "If the original square has side length 27 cm, what is the side length of each small square at Stage 3?",
+     "a": "Stage 0: 27 cm. Stage 1: 27 ÷ 3 = 9 cm. Stage 2: 9 ÷ 3 = 3 cm. Stage 3: 3 ÷ 3 = 1 cm.  \nAnswer: 1 cm.  \nA wrong answer (e.g., 27 ÷ 9 = 3 cm) reveals the student divides by 3ⁿ incorrectly, perhaps dividing by 3 only once or confusing stage number with exponent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the construction rule of the Sierpinski Carpet with the Sierpinski Gasket (triangle). What is the key geometric difference in how the \"hole\" is created at each stage?",
+     "a": "The Carpet uses a square grid (3×3) and removes the central square; the Gasket uses an equilateral triangle divided into 4 smaller triangles and removes the central inverted triangle. The Carpet's hole is a square, the Gasket's hole is a triangle.  \nA wrong answer (e.g., \"both remove the middle\") shows the student sees only the recursive idea but not the shape-specific division (9 vs 4 pieces, square vs triangle).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At Stage 4, the Sierpinski Carpet has 8⁴ = 4096 squares, each of side length (1/3)⁴ of the original. So the total area is 4096 × (1/81) = 50.57 times the original area.\" Identify the error and correct it.",
+     "a": "The student correctly computed the number of squares (8⁴=4096) and side length factor (1/3⁴=1/81), but area scales with the square of side length. Each small square has area (1/81)² = 1/6561 of the original. Total area = 4096/6561 ≈ 0.624 of original, not 50.57. The error is using side-length factor instead of area factor.  \nA wrong answer shows confusion between linear scaling and area scaling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Stage 1.5\" Sierpinski Carpet variant where you divide the original square into a 3×3 grid but remove the 4 corner squares instead of the centre. Draw Stage 1 and describe the pattern for Stage 2. How many squares remain at Stage 2?",
+     "a": "Stage 1: 9 - 4 = 5 squares remain (the centre and the 4 edge-middles). Stage 2: Apply the same rule (remove 4 corners of each 3×3 subgrid) to each of the 5 squares → 5 × 5 = 25 squares.  \nA poor answer (e.g., \"still 8 squares\" or \"remove centre again\") shows the student cannot transfer the recursive rule to a new removal pattern, indicating rote memorization without understanding the generative process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

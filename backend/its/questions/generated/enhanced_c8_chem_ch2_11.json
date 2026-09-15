@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_11",
+   "title": "c8_chem_ch2_11",
+   "questions": [
+    {
+     "q": "What happens to the movement and kinetic energy of water molecules when liquid water freezes into ice inside a refrigerator tray?",
+     "a": "The kinetic energy of the water molecules decreases, and their movement slows down until they are restricted to fixed positions in a crystal lattice. A wrong answer—such as stating that molecules move faster or gain energy during freezing—shows a severe confusion between cooling and heating, often because the student thinks freezing makes water harder and therefore more energetic, ignoring that heat is removed during this phase change.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the temperature of boiling water remain constant at 100°C even though heat is continuously being supplied from a gas burner?",
+     "a": "The supplied heat energy is not increasing the kinetic energy of the particles; instead, it is entirely used up to overcome the strong inter-particle attractive forces holding the liquid molecules together so they can escape into the gas phase. A wrong answer usually assumes that added heat must always raise the temperature, revealing a misconception about latent heat and the energy required to break intermolecular bonds during phase changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student warms solid naphthalene in a test tube. Describe the changes in inter-particle space and attractive forces as the naphthalene melts into a liquid.",
+     "a": "Steps: 1. Identify initial state (solid) where inter-particle space is minimal and attraction is very strong. 2. Recognize that heating increases particle vibration and kinetic energy. 3. Conclude that increased motion forces particles slightly further apart. 4. Determine that inter-particle attraction weakens as particles overcome their rigid positions to flow. A wrong answer typically states that intermolecular forces increase during melting or that particles expand in size, showing confusion between particle separation and individual particle expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why water droplets form on the outer cold surface of a glass filled with iced lemonade on a humid monsoon day, identifying the specific state change and thermal energy transfer.",
+     "a": "Water vapor molecules present in the warm humid air collide with the cold surface of the glass, lose thermal energy to the glass, decrease in kinetic energy, and undergo condensation (gas to liquid) as attractive forces pull them close together into liquid droplets. A wrong answer claims that water leaks through the glass walls, demonstrating a failure to recognize condensation from atmospheric humidity and a misunderstanding of gas-to-liquid phase transitions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Melting is a chemical change because a solid block of ice turns completely into a liquid substance.\" Is this claim scientifically valid? Justify your evaluation using particle and chemical principles.",
+     "a": "The statement is scientifically invalid. Melting is a physical change because only the arrangement, spacing, and movement of water molecules ($H_2O$) change, while the chemical identity and composition ($H_2O$) remain entirely identical before and after melting. A wrong answer agrees that it is a chemical change because the appearance changes permanently until frozen back, failing to distinguish between outward visual appearance and internal chemical composition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple domestic experiment using an electric kettle, a metal plate, and ice cubes to demonstrate both vaporization (boiling) and condensation in a single setup, explaining the particle behavior in each stage.",
+     "a": "A valid design involves heating water in an electric kettle until it boils (vaporization, where liquid particles gain energy and escape as gas/steam), and then holding a cold metal plate in the path of the rising steam. The steam particles touch the cold plate, lose thermal energy, slow down, and condense into liquid water droplets. A poor answer fails to include both phase changes or incorrectly describes steam as a different chemical substance rather than water vapor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

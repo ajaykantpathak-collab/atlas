@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_15_002",
+   "title": "c12_hin_ar_cbse_15_002",
+   "questions": [
+    {
+     "q": "What is the central thesis of Ambedkar's essay \"Jati Vichar aur Varna Vyavastha\" as stated in the opening section?",
+     "a": "The central thesis is that the caste system (varna vyavastha) is fundamentally incompatible with the three pillars of a just society — liberty, equality, and fraternity — because it assigns social status by birth rather than merit, making structural equality impossible. A wrong answer (e.g., \"Ambedkar describes his childhood struggles\") reveals the student confuses illustrative anecdote with the argument's core claim; they are tracking narrative events instead of rhetorical architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Ambedkar places his personal school experience (the teacher asking \"what will you do by reading-writing?\") early in the essay rather than later.",
+     "a": "The anecdote functions as concrete, lived evidence that grounds the abstract thesis in visceral reality — it shows caste humiliation as everyday experience, not theoretical concept, establishing ethos before the logical dissection begins. A wrong answer (e.g., \"it's a hook to grab attention\") treats it as mere stylistic flourish, missing its structural role as the empirical anchor for the entire argument.",
+     "self_check": true
+    },
+    {
+     "q": "Map the essay's middle section (paragraphs 3-7) into three distinct argumentative blocks. Label each block with its specific claim and the type of evidence Ambedkar uses (historical, logical, experiential, textual).",
+     "a": "Block 1 (para 3): Claim — caste is birth-based, not merit-based. Evidence: logical definition + personal experience (school incident). Block 2 (para 4-5): Claim — caste destroys individual freedom and social mobility. Evidence: historical analysis (Manu Smriti references) + logical reasoning (hereditary occupation vs. choice). Block 3 (para 6-7): Claim — caste prevents fraternity by design. Evidence: textual (scriptural quotes) + sociological reasoning (endogamy as barrier). A wrong mapping (e.g., lumping all as \"examples of discrimination\") shows inability to distinguish evidence types and logical progression.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Ambedkar structures his rebuttal of the \"merit\" argument (that caste reflects natural ability). Identify the three-step logical move he makes and explain why this sequence is rhetorically effective.",
+     "a": "Step 1: Concede surface plausibility (\"some say caste divides labor efficiently\"). Step 2: Expose hidden premise — it assumes birth determines ability, which is empirically false (cites cross-caste competence). Step 3: Flip the burden — merit requires equal opportunity first; caste denies it. The sequence works because it validates the opponent before dismantling, preventing dismissal as \"straw man.\" A wrong analysis (e.g., \"he just says it's wrong\") misses the dialectical structure essential for board-level \"critical appreciation\" answers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the essay's conclusion — linking political democracy to social democracy — follows necessarily from the preceding arguments, or whether it introduces a new, unsupported claim. Justify with textual evidence.",
+     "a": "It follows necessarily: the essay establishes caste as structural inequality (para 3-7), proves political rights alone cannot fix it (para 8: \"political democracy cannot survive without social democracy\"), then concludes structural reform is prerequisite. The logical chain is: caste → social inequality → political instability → therefore social democracy first. A wrong evaluation (e.g., \"it's a new topic\") fails to see the syllogistic structure where the conclusion is the necessary synthesis of all prior premises.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the essay's core argument as a 6-step logical flowchart using only cause-effect arrows (→). Each step must be a complete clause. Example: \"Birth determines caste → Occupation fixed at birth → No choice of work → Economic unfreedom → Political equality meaningless → Social democracy required first.\"",
+     "a": "Caste assigned by birth → Hereditary occupation enforced → Individual talent/choice suppressed → Economic dependency created → Social hierarchy rigidified → Fraternity impossible → Political democracy unstable → Structural equality (liberty, equality, fraternity) becomes prerequisite for stable polity. A poor flowchart (e.g., listing themes without causal links) reveals the student sees isolated points, not the engineered argumentative architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

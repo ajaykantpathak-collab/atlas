@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_001",
+   "title": "c11_geo_cbse_22_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a map and a sketch, according to the definition of scale in cartography?",
+     "a": "A map has a defined scale that establishes a consistent ratio between map distance and ground distance, whereas a sketch lacks a scale and only shows rough relative positions. If a student says a sketch is just \"less detailed,\" they miss the critical cartographic distinction: without a scale, distances cannot be measured reliably, making it a sketch, not a map.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a map projection necessary when representing the Earth on a flat surface, and what property does it inevitably distort?",
+     "a": "A map projection is necessary because the Earth is a curved surface (oblate spheroid) and cannot be flattened without tearing or stretching; every projection distorts at least one of the four properties: area, shape, distance, or direction. If a student claims a projection can preserve all properties, they hold the misconception that a perfect flat map of the whole Earth exists, which is mathematically impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map with a Representative Fraction (RF) of 1:50,000, calculate the ground distance in kilometres represented by 3.5 cm on the map.",
+     "a": "Step 1: RF 1:50,000 means 1 cm on map = 50,000 cm on ground. Step 2: 3.5 cm on map = 3.5 × 50,000 = 175,000 cm on ground. Step 3: Convert cm to km: 175,000 cm ÷ 100,000 = 1.75 km. Answer: 1.75 km. If a student forgets to convert cm to km, they reveal a gap in metric system conversion, a prerequisite skill from earlier classes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a physical map and a thematic map of India: which would you use to analyze the spatial distribution of literacy rates, and why?",
+     "a": "A thematic map is designed to show the distribution of a specific theme (e.g., literacy rates) using symbols, choropleth shading, or isopleths, while a physical map shows natural features like relief, drainage, and vegetation. If a student chooses the physical map, they confuse the purpose of map types: physical maps depict natural landscape, not socio-economic data.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A large-scale map always shows more detail than a small-scale map, so it is always better for planning a cross-country road trip.\"",
+     "a": "The statement is false. Large-scale maps (e.g., 1:10,000) show greater detail but cover a small area; a cross-country trip requires a small-scale map (e.g., 1:5,000,000) to see the entire route, major highways, and cities. The \"better\" map depends on the purpose. If a student agrees, they misunderstand the trade-off between scale, extent, and detail.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple map legend for a thematic map showing the distribution of rice cultivation in India, using three categories: high, medium, low intensity. Specify the symbols/colors you would choose and justify your choices.",
+     "a": "A good answer: Use a sequential color scheme (light yellow → orange → dark green) for low to high intensity, because it intuitively represents increasing density. Symbols: solid color fill for states/districts. Justification: color progression aids visual hierarchy; green associates with agriculture. A poor answer uses random colors (red, blue, purple) without order, showing lack of understanding of visual variables in cartography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

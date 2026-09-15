@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_6",
+   "title": "c8_physics_ch8_6",
+   "questions": [
+    {
+     "q": "What is the approximate percentage of energy transferred from one trophic level to the next according to Lindeman's 10% rule, and what is the primary form of the lost energy?",
+     "a": "Approximately 10% is transferred; the remaining 90% is lost primarily as metabolic heat (due to respiration), along with waste (feces, urine) and uneaten biomass. A wrong answer (e.g., \"50% transferred\" or \"lost as light\") reveals the student confuses energy transfer efficiency with biomass transfer or misunderstands that energy cannot be recycled like matter.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a pyramid of energy always upright (decreasing at higher levels), while a pyramid of biomass can sometimes be inverted (e.g., phytoplankton vs. zooplankton in a pond)?",
+     "a": "Energy pyramids are always upright because energy flow obeys the Second Law of Thermodynamics: energy degrades to heat at each transfer, so each higher level must have less energy. Biomass pyramids can invert when producers have high turnover (fast reproduction) but low standing biomass (e.g., phytoplankton), while consumers have longer lives and accumulate more biomass. A wrong answer indicates the student conflates standing biomass with energy flow rate, missing that energy is measured per unit time.",
+     "self_check": true
+    },
+    {
+     "q": "In a Rajasthan desert ecosystem, producers capture 20,000 J/m²/yr of solar energy. Calculate the energy available to secondary consumers (third trophic level) using the 10% rule. Show units at each step.",
+     "a": "Step 1: Producer energy = 20,000 J/m²/yr. Step 2: Primary consumer energy = 10% of 20,000 = 2,000 J/m²/yr. Step 3: Secondary consumer energy = 10% of 2,000 = 200 J/m²/yr. Answer: 200 J/m²/yr. A wrong answer (e.g., 2,000 J/m²/yr) shows the student applied 10% only once instead of twice, misunderstanding that the rule applies at each transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this statement: \"If we eliminate all herbivores from an ecosystem, carnivores will survive by eating more producers.\" Use energy flow principles to evaluate.",
+     "a": "The statement is false. Carnivores cannot digest cellulose or access producer energy directly; they lack the enzymes and digestive structures. Even if they could eat producers, the 10% rule means they would get only 1% of the original producer energy (10% of 10%), insufficient to sustain their metabolic needs. A wrong answer reveals the student thinks energy transfer is flexible or that trophic levels are interchangeable, ignoring physiological constraints and the compounding effect of the 10% rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Decomposers get the most energy because they break down dead organisms from all trophic levels.\" Evaluate this claim using the concept of energy flow.",
+     "a": "The claim is incorrect. Decomposers receive energy from dead organic matter at all levels, but they still only capture a fraction (about 10%) of the chemical energy stored in that detritus; the rest is lost as heat during decomposition. They do not \"sum\" the energy from all levels — energy is not additive across levels because it has already been lost at each prior transfer. A wrong answer shows the student thinks decomposers recycle energy, violating the First Law (energy cannot be created) and Second Law (energy degrades).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using a local compost pit or kitchen waste bin to demonstrate that energy is lost as heat during decomposition. List materials, measurements, and expected outcome.",
+     "a": "Materials: Two identical insulated boxes, fresh vegetable waste (measured mass), thermometer, soil with decomposers. Procedure: Put equal waste in both boxes; add soil+decomposers to Box A, sterile sand to Box B. Measure temperature daily for a week. Expected: Box A shows temperature rise (heat from microbial respiration), Box B stays near ambient. This shows decomposers release heat. A poor answer omits a control (Box B), doesn't measure temperature change, or expects mass loss without linking it to energy loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs102",
+ "concepts": [
+  {
+   "id": "lecs102.1",
+   "title": "write() Returns the Character Count",
+   "questions": [
+    {
+     "q": "Using the method 'write() Returns the Character Count', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of returned.",
+     "a": "41 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'write() Returns the Character Count' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of returned.",
+     "a": "41 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'write() Returns the Character Count' refers to.",
+     "a": "The write() method copies one string into a text file and reports how many characters it stored, counting the newline escape as a single character; numeric values must first be turned into strings before they can be written.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'write() Returns the Character Count'.",
+     "a": "Writing str(58) reports 2, one character per digit, because only strings may enter a text file.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'write() Returns the Character Count', in plain ASCII form.",
+     "a": "returned = letters + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.2",
+   "title": "Binary File Size from Record Count",
+   "questions": [
+    {
+     "q": "Using the method 'Binary File Size from Record Count', work with: new_records = 12, records = 100, total_bytes = 256. Carry the chain through step by step and give the final value of projected.",
+     "a": "30.72 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Binary File Size from Record Count' and work with: new_records = 18, records = 60, total_bytes = 1024. Carry the chain through step by step and give the final value of projected.",
+     "a": "307.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Binary File Size from Record Count' refers to.",
+     "a": "A binary file grows by a fixed number of bytes per pickled record; Program 2-8 reports the size through tell(), and dividing by the record count gives the per-record size that projects the size for any number of records.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Binary File Size from Record Count'.",
+     "a": "Two dumped employee records produced 216 bytes, so each record occupies 108 bytes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Binary File Size from Record Count', in plain ASCII form.",
+     "a": "projected = total_bytes / records * new_records",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.3",
+   "title": "Moving the File Offset with seek",
+   "questions": [
+    {
+     "q": "Using the method 'Moving the File Offset with seek', work with: read_count = 4, shift = 60, start = 100. Carry the chain through step by step and give the final value of new_pos.",
+     "a": "164 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Moving the File Offset with seek' and work with: read_count = 30, shift = 3, start = 30. Carry the chain through step by step and give the final value of new_pos.",
+     "a": "63 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Moving the File Offset with seek' refers to.",
+     "a": "The tell() method reports the byte position of the file object from the start, while seek(offset, reference) jumps the object by offset bytes counted from 0 for the beginning, 1 for the current position, or 2 for the end of the file.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Moving the File Offset with seek'.",
+     "a": "Every read advances the offset, so Program 2-2 must rewind with seek(0) before reading again from the start.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Moving the File Offset with seek', in plain ASCII form.",
+     "a": "new_pos = current_pos + shift",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.4",
+   "title": "Employee Salary Total in a Binary Record",
+   "questions": [
+    {
+     "q": "Using the method 'Employee Salary Total in a Binary Record', work with: allowances = 150, ebasic = 12. Carry the chain through step by step and give the final value of yearly.",
+     "a": "1944 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Employee Salary Total in a Binary Record' and work with: allowances = 10, ebasic = 150. Carry the chain through step by step and give the final value of yearly.",
+     "a": "1920 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Employee Salary Total in a Binary Record' refers to.",
+     "a": "Each pickled employee record stores a list of employee number, name, basic salary and allowances, with the total salary computed as basic plus allowances before the list is dumped to the binary file.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Employee Salary Total in a Binary Record'.",
+     "a": "The record for employee 11 holds [11, 'D N Ravi', 32600, 4400, 37000], where 37000 is basic plus allowances.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Employee Salary Total in a Binary Record', in plain ASCII form.",
+     "a": "totsal = ebasic + allow",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.5",
+   "title": "Text File versus Binary File",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Text File versus Binary File' refers to.",
+     "a": "A text file stores bytes that encode readable characters, one file line ending at an EOL such as the newline, while a binary file stores raw bytes of real content like images or executables that only specific programs can interpret.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Text File versus Binary File'.",
+     "a": "Opening a binary file in a text editor shows garbage because its bytes are not character codes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Text File versus Binary File', in plain ASCII form.",
+     "a": "text -> ASCII per character; binary -> raw byte stream",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.6",
+   "title": "File Access Modes of open()",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'File Access Modes of open()' refers to.",
+     "a": "open(file_name, access_mode) returns a file handle whose mode controls everything: r reads from the start, w overwrites or creates, a appends at the end, a plus sign permits both reading and writing, and b switches to byte-level binary handling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'File Access Modes of open()'.",
+     "a": "In r, r+ and w modes the object starts at the beginning; in a and a+ it starts at the end.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'File Access Modes of open()', in plain ASCII form.",
+     "a": "r/w/a plus optional + and b, with the offset at start or end",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.7",
+   "title": "Reading Methods: read, readline, readlines",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reading Methods: read, readline, readlines' refers to.",
+     "a": "Three methods drain a text file: read(n) takes n bytes or the whole file, readline() returns one line up to its newline, and readlines() returns every line as the elements of a list of strings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reading Methods: read, readline, readlines'.",
+     "a": "Looping over the file object or calling readline() repeatedly ends when an empty string signals end of file.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reading Methods: read, readline, readlines', in plain ASCII form.",
+     "a": "readlines() -> list of lines; readline() -> one line; read() -> whole text",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs102.8",
+   "title": "Pickling and the dump, load Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pickling and the dump, load Methods' refers to.",
+     "a": "The pickle module serialises a Python object into a byte stream for a binary file: dump(object, file_object) writes it while the file is open in wb mode, and load(file_object) rebuilds the object from a file opened in rb mode.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pickling and the dump, load Methods'.",
+     "a": "Pickling stores the object's structure as well as its data, so a dumped list loads back as a list.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pickling and the dump, load Methods', in plain ASCII form.",
+     "a": "dump -> object to bytes; load -> bytes back to object",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

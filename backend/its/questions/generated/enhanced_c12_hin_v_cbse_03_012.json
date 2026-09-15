@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_03_012",
+   "title": "c12_hin_v_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What is the length of the Great Bath?\"), while an inferential question requires the reader to deduce meaning not directly written (e.g., \"Why might the Great Bath have been centrally located?\"). A wrong answer that confuses the two (e.g., treating an inference as a fact) reveals the student cannot distinguish explicit statements from implied meanings, leading to unsupported answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the author describes the Great Bath as \"33 feet long\" and \"centrally located.\" A student writes: \"The Great Bath was important because it was 33 feet long.\" Why is this a weak inference?",
+     "a": "The student mistakes a literal detail (size) for evidence of importance without logical connection. A strong inference would link central location, sophisticated drainage, and ritual significance (from text) to argue importance. The error shows the student treats any textual fact as proof of any claim, lacking the skill to select relevant evidence and explain the reasoning — a common board exam pitfall where marks are lost for \"unsupported inference.\"",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"The streets were straight and crossed at right angles.\" An exam question asks: \"What does the street layout suggest about the city's administration?\" Apply inferential reasoning to answer in 3–4 sentences using PEEL structure.",
+     "a": "Point: The grid layout suggests a strong, centralized administrative authority. Evidence: The text notes streets \"crossed at right angles\" and were \"straight,\" indicating deliberate planning. Explanation: Such uniformity requires enforced regulations, surveying, and coordination — impossible without organized governance. Link: This supports the chapter's theme of a highly developed civic administration in the Indus Valley Civilization. A wrong answer that merely repeats the literal fact (\"streets were straight\") without explaining the implication shows inability to move from observation to interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal and inferential value of the author's description of the \"dancing girl\" bronze figurine. How does the same textual passage serve both question types?",
+     "a": "Literal: The passage gives the figurine's material (bronze), size (small), and posture (dancing) — directly stated facts. Inferential: The same details imply advanced metallurgy, artistic sensibility, and cultural value of performance. A student who only lists the literal details for an inferential question (\"What does the figurine reveal about their culture?\") fails to synthesize. The error reveals a compartmentalized reading habit — treating facts and meanings as separate rather than layered.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Since the text says 'no weapons were found,' the Indus people were completely peaceful.\" Is this a valid inference? Justify.",
+     "a": "Invalid inference. The text states \"no weapons were found\" (absence of evidence), not \"no weapons existed\" (evidence of absence). The student commits the logical fallacy of equating archaeological silence with historical fact. A valid inference would be: \"The lack of weapon finds in excavated areas suggests either limited warfare, different conflict methods, or preservation bias.\" This error is critical — board exams penalize overgeneralization from limited evidence; competitive exams (CUET, IPMAT) test this exact reasoning trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the chapter's description of the \"Granary\" that requires connecting architectural features to economic organization. Provide a model answer outline.",
+     "a": "Question: \"How do the granary's raised platform, air ducts, and massive size collectively indicate state-controlled surplus management?\" Model outline: Point — Features show centralized planning. Evidence 1 — Raised platform prevents moisture/rodents (text: \"protect from dampness\"). Evidence 2 — Air ducts show engineering for long-term storage. Evidence 3 — Size (multiple rooms) implies large-scale collection. Explanation — Such investment requires taxation, redistribution systems, and bureaucratic oversight. Link — Confirms the chapter's argument of a sophisticated urban economy. A poor question would be literal (\"How big was the granary?\"); a poor answer would list features without explaining their systemic implication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

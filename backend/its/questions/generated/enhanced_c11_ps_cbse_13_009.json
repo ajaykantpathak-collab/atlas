@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_009",
+   "title": "c11_ps_cbse_13_009",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the Council of Ministers, and how does it differ from the constitutional status of the Cabinet?",
+     "a": "The Council of Ministers is explicitly established under Article 75(1) (\"There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President\"), while the word \"Cabinet\" does not appear in the original Constitution — it was inserted only by the 44th Amendment (Article 352) defining it as \"the Council consisting of the Prime Minister and other Ministers of Cabinet rank appointed under Article 75.\" A wrong answer (e.g., \"both are in Article 75\" or \"Cabinet is in Article 74\") reveals confusion between the constitutional text and political practice, and inability to distinguish formal constitutional creation from evolutionary institutionalization.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide for a Council of Ministers collectively responsible to the Lok Sabha, yet political practice creates a smaller Cabinet that actually makes decisions?",
+     "a": "The Constitution mandates collective responsibility of the entire Council of Ministers (Article 75(3)) to ensure democratic accountability — every minister is answerable to Parliament. However, a body of 60-70 ministers cannot deliberate effectively on urgent policy matters; the Cabinet (15-20 senior ministers) enables efficient decision-making. A wrong answer (e.g., \"the Cabinet is unconstitutional\" or \"collective responsibility applies only to Cabinet\") reveals misunderstanding of the functional necessity of a smaller executive core within a constitutionally mandated larger body, and confusion about where collective responsibility legally resides.",
+     "self_check": true
+    },
+    {
+     "q": "In a coalition government, the Prime Minister inducts a senior leader from an ally party as a Cabinet Minister but excludes them from the Inner Cabinet. Analyze the constitutional and political implications of this exclusion.",
+     "a": "Constitutionally, the ally minister is a full Cabinet Minister with equal status under Article 75 and bound by collective responsibility — they attend Cabinet meetings and share responsibility for all decisions. Politically, exclusion from the Inner Cabinet means they are kept out of pre-decisional consultations on sensitive issues (security, alliances, key appointments), reducing their real influence despite formal rank. A wrong answer (e.g., \"the ally has no collective responsibility\" or \"Inner Cabinet is constitutional so exclusion is illegal\") reveals failure to distinguish constitutional equality from political hierarchy, and ignorance of the extra-constitutional nature of the Inner Cabinet.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decision-making authority of the three tiers: Council of Ministers, Cabinet, and Inner Cabinet. Which tier's decisions are legally binding on the President under Article 74(1)?",
+     "a": "Only the Council of Ministers' advice (formally communicated by the Cabinet as its senior expression) is binding on the President under Article 74(1). The Cabinet's decisions become the Council's advice because the Cabinet *is* the Council's decision-making face. The Inner Cabinet has zero constitutional standing — its decisions are politically binding on the PM and Cabinet but legally invisible. A wrong answer (e.g., \"Inner Cabinet advice binds the President\" or \"Cabinet advice is not binding\") reveals confusion about which body constitutionally \"aids and advises\" and the legal fiction that the full Council acts through the Cabinet.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Inner Cabinet undermines collective responsibility because critical decisions are made by an unelected, unaccountable clique before the Cabinet or Parliament even knows.\"",
+     "a": "The argument has merit politically but not constitutionally. Collective responsibility (Article 75(3)) applies to the *entire* Council of Ministers — once the Cabinet formally adopts an Inner Cabinet-shaped decision, every minister (including those excluded from the Inner Cabinet) must publicly defend it or resign. The accountability mechanism remains intact legally; the democratic deficit is political — excluded ministers and Parliament lose deliberative input. A wrong answer (e.g., \"collective responsibility is violated legally\" or \"Inner Cabinet is unconstitutional so decisions are void\") reveals inability to separate legal accountability from political process, and failure to recognize that the Constitution does not regulate intra-executive consultation structures.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 2-sentence constitutional amendment proposal that would formalize the Inner Cabinet while preserving collective responsibility. Justify each sentence.",
+     "a": "Proposal: \"There shall be a Cabinet Committee on Political Affairs chaired by the Prime Minister, comprising such Cabinet Ministers as the PM may designate, to consider and recommend decisions on specified strategic matters before they are placed before the Cabinet.\" \"All decisions of the Committee shall be deemed decisions of the Cabinet, and every Minister shall be collectively responsible for them under Article 75(3).\" First sentence creates a constitutional Inner Cabinet with defined scope; second preserves collective responsibility by legally equating its output with Cabinet decisions. A poor answer (e.g., just naming a body without linking to collective responsibility, or making the PM sole decision-maker) reveals failure to balance formalization with the core constitutional principle of shared executive accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

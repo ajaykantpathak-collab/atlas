@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_008",
+   "title": "c12_chem_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the reagents and the characteristic observation for the carbylamine test. Write the general balanced chemical equation for a primary amine R–NH₂.",
+     "a": "Reagents: chloroform (CHCl₃) and alcoholic potassium hydroxide (alc. KOH). Observation: formation of an extremely foul-smelling isocyanide (carbylamine). Balanced equation: R–NH₂ + CHCl₃ + 3KOH → R–NC + 3KCl + 3H₂O. A wrong answer (e.g., using aqueous KOH, or writing product as nitrile R–CN) reveals confusion between hydrolysis of chloroform (which gives formate) and the carbylamine reaction, or confusion between isocyanide (R–NC) and nitrile (R–CN) functional groups.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why secondary amines (R₂NH) and tertiary amines (R₃N) do not give a positive carbylamine test, even though they also have a lone pair on nitrogen.",
+     "a": "The reaction requires *two* N–H bonds on the same nitrogen to undergo the two successive dehydrohalogenation/elimination steps after the initial addition of dichlorocarbene. Primary amines (R–NH₂) have two N–H bonds; secondary amines have only one (R₂NH); tertiary amines have none (R₃N). Without two N–H bonds, the sequence cannot proceed to form the C≡N triple bond of the isocyanide. A wrong answer focusing only on the lone pair (e.g., \"all amines have a lone pair so all should react\") reveals a misunderstanding of the reaction stoichiometry and the role of N–H bonds in the elimination steps.",
+     "self_check": true
+    },
+    {
+     "q": "An unknown amine with molecular formula C₃H₉N gives a positive carbylamine test. Write the structure and IUPAC name of the amine, and the structure of the isocyanide product formed.",
+     "a": "C₃H₉N has three isomers: propan-1-amine (CH₃CH₂CH₂NH₂), propan-2-amine (CH₃CHNH₂CH₃), and N-methylethanamine (CH₃NHCH₂CH₃). Only primary amines give the test, so the compound is either propan-1-amine or propan-2-amine. Both are primary. The isocyanide products are propyl isocyanide (CH₃CH₂CH₂NC) and isopropyl isocyanide (CH₃CH(NC)CH₃) respectively. A wrong answer listing a secondary amine (N-methylethanamine) or writing the product as a nitrile (R–CN) reveals failure to apply the \"primary amine only\" rule and/or confusion between isocyanide and nitrile connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the carbylamine test and Hinsberg's test (benzenesulphonyl chloride) for distinguishing primary, secondary, and tertiary amines. Which test is more specific for primary amines? Justify.",
+     "a": "Carbylamine test: *Only* primary amines react (give foul smell). Secondary and tertiary do not react. Hinsberg's test: Primary amines give a sulphonamide soluble in alkali; secondary give a sulphonamide insoluble in alkali; tertiary do not react. Both distinguish all three classes, but carbylamine is *more specific* for primary amines because it gives a unique, unmistakable sensory observation (extreme foul odour) *only* for primary amines, whereas Hinsberg's requires a solubility check after reaction. A wrong answer claiming Hinsberg's is more specific, or that carbylamine reacts with secondary amines, reveals confusion about the selectivity of the two tests.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs the carbylamine test on aniline (C₆H₅NH₂) using aqueous KOH instead of alcoholic KOH. Will the test work? Evaluate and explain.",
+     "a": "No, the test will not work (or will be very slow/inefficient). Alcoholic KOH is essential because it generates the dichlorocarbene (:CCl₂) intermediate effectively in a non-aqueous medium. Aqueous KOH leads to hydrolysis of chloroform to sodium formate and chloride, and the carbene is quenched by water. The reaction requires anhydrous conditions to maintain the electrophilic carbene. A wrong answer saying \"it works the same\" reveals ignorance of the solvent's role in carbene generation and stability — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart using *only* the carbylamine test and Hinsberg's test to separate and identify the three components in a mixture of a primary, a secondary, and a tertiary amine.",
+     "a": "Step 1: Perform carbylamine test on the mixture. The foul smell confirms presence of primary amine. Isolate the primary amine (e.g., by distillation or extraction after reaction). Step 2: On the remaining mixture (secondary + tertiary), perform Hinsberg's test with benzenesulphonyl chloride. The secondary amine forms an alkali-insoluble sulphonamide (precipitate); the tertiary amine does not react and remains in solution. Filter to separate. Step 3: Regenerate the secondary amine from its sulphonamide by alkaline hydrolysis. A poor flowchart (e.g., doing Hinsberg's first, or not regenerating amines) reveals inability to sequence qualitative tests logically — a key competency for practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

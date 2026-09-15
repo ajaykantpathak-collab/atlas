@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc113.json",
+ "concepts": [
+  {
+   "id": "iesc.113.13.1",
+   "title": "Earth as a Connected System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the earth called a connected system?",
+     "a": "Its air, water, land and life constantly exchange matter and energy - change in one affects all.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of interaction between spheres.",
+     "a": "Volcanoes (lithosphere) throw ash into the atmosphere, cooling climate and affecting seas and life.",
+     "self_check": true
+    },
+    {
+     "q": "Why study the earth as one system?",
+     "a": "Problems like climate change cut across spheres, so solutions must consider everything together.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.13.2",
+   "title": "Cycles of Matter: Water, Carbon and Nutrients",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name three cycles of matter in nature.",
+     "a": "Water cycle, carbon cycle and nitrogen cycle (also oxygen cycle).",
+     "self_check": true
+    },
+    {
+     "q": "What keeps the water cycle running?",
+     "a": "Solar energy evaporating water, which condenses to clouds and returns as rain and snow.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the nitrogen cycle essential for life?",
+     "a": "It converts air's nitrogen into soil nitrates that plants need to build proteins.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.13.3",
+   "title": "Energy Flow and Life Support",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does energy enter an ecosystem?",
+     "a": "As sunlight captured by green plants in photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "State the ten per cent law of energy flow.",
+     "a": "Only about 10% of energy passes from one trophic level to the next; the rest is lost as heat.",
+     "self_check": true
+    },
+    {
+     "q": "Why are decomposers the recycling agents of an ecosystem?",
+     "a": "They break dead matter into soil nutrients that producers reuse, completing the loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

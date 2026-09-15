@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_004",
+   "title": "c7_physics_ch03_004",
+   "questions": [
+    {
+     "q": "What is the primary medium through which heat transfer by convection takes place?",
+     "a": "Convection takes place through fluids, which include both liquids and gases. A wrong answer shows confusion with conduction (which occurs primarily in solids) or radiation (which requires no medium).",
+     "self_check": true
+    },
+    {
+     "q": "Why does heated water at the bottom of a container rise to the top instead of staying at the bottom?",
+     "a": "When water is heated, its particles gain kinetic energy, move slightly further apart, and become less dense than the surrounding cooler water. Because of this lower density, buoyant forces push the warm water upward. A wrong answer suggests the heat pushes it up mechanically, ignoring the crucial role of density change.",
+     "self_check": true
+    },
+    {
+     "q": "A pot contains 1 kg of water at 20 °C. If heat is supplied at the base at a steady rate, describe the exact path taken by the water particles to distribute heat uniformly.",
+     "a": "Step 1: Water at the bottom absorbs heat from the vessel base and expands, lowering its density. Step 2: The warm, less dense water rises vertically toward the top surface. Step 3: Cooler, denser water from the upper layers flows downward along the sides to replace the rising water. Step 4: This continuous cyclic motion forms a convection current until all the water reaches a nearly uniform temperature. A wrong answer indicates the student thinks heat travels only sideways or that static particles pass heat silently.",
+     "self_check": true
+    },
+    {
+     "q": "If you place your hand above a burning candle flame, it feels very hot, but if you place your hand the exact same distance to the side of the flame, it does not feel as hot. Why?",
+     "a": "Hot air expands, becomes less dense, and rises straight up due to convection, carrying thermal energy directly above the flame. The air to the side is not in the primary path of this rising convection current, so it receives less heat through that mode. A wrong answer assumes heat spreads equally in all directions by conduction through air, ignoring the directional flow of convection currents.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Convection can occur effectively in a sealed vacuum chamber if you fill the chamber with solid iron blocks.\" Is this correct?",
+     "a": "The statement is incorrect because convection requires a fluid medium (liquid or gas) whose particles are free to move and carry heat by bulk flow. Solid iron blocks transfer heat via conduction, not convection, and a vacuum chamber has no fluid medium at all. A wrong answer reveals a failure to distinguish between the three distinct modes of heat transfer (conduction, convection, and radiation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a beaker, water, potassium permanganate crystals, and a burner to prove that convection currents exist in liquids.",
+     "a": "Criteria for a good answer: The student must describe placing a small crystal of potassium permanganate at the bottom corner of a glass beaker filled with water, then heating that specific corner with a burner. The answer should correctly predict that coloured purple streaks will rise up from the heated spot, spread across the top, and sink down the opposite side, visually mapping a convection current. A poor answer fails to mention a tracer like potassium permanganate or describes static heating without movement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

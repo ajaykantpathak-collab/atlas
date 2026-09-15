@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_010",
+   "title": "c12_hs_cbse_14_010",
+   "questions": [
+    {
+     "q": "A student reads \"Dry Clean Only\" on a garment label and assumes the process uses no liquid at all. What is the fundamental misconception here, and what actually happens during the cleaning stage?",
+     "a": "The misconception is that \"dry\" means absence of liquid. In reality, dry cleaning uses liquid organic solvents (e.g., perchloroethylene) — the term \"dry\" only indicates absence of water. During the cleaning stage, garments are tumbled in a perforated drum while solvent is continuously filtered and circulated, mechanically agitating soils out of the fabric. A wrong answer reveals the student confuses \"dry\" with \"waterless\" rather than \"non-aqueous.\"",
+     "self_check": true
+    },
+    {
+     "q": "Perchloroethylene (perc) is the most common dry cleaning solvent. Explain why perc effectively removes oily stains from wool but does not cause felting shrinkage, whereas water does.",
+     "a": "Perc is non-polar and dissolves non-polar oily soils without penetrating the wool fibre's internal structure or swelling the cuticle scales. Water, being polar, hydrogen-bonds with wool's amide groups, causing fibre swelling; mechanical action then makes scales interlock irreversibly (felting). A wrong answer suggests the student thinks perc \"coats\" fibres or that felting is caused by heat alone, missing the solvent–fibre polarity interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A customer brings a rayon challis dress with a grease stain and a \"Dry Clean Only\" label. The cleaner uses hydrocarbon solvent instead of perc. Is this appropriate? Justify using fibre–solvent–stain interactions.",
+     "a": "Yes, hydrocarbon solvent is appropriate. Rayon (regenerated cellulose) loses 40–60% tensile strength when wet and is prone to distortion; both perc and hydrocarbon are non-aqueous, but hydrocarbon's lower KB value (solvency power) is sufficient for grease on rayon and is gentler on delicate finishes. Perc's higher solvency could strip certain dyes or finishes on rayon. A wrong answer claims perc is \"always better\" or that rayon can be wet-cleaned, ignoring wet strength loss.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental and health profiles of perchloroethylene vs. liquid CO₂ dry cleaning. Why has perc faced regulatory phase-outs despite its superior cleaning power?",
+     "a": "Perc is a probable human carcinogen (IARC Group 2A), persistent in groundwater, and requires hazardous waste handling; liquid CO₂ is non-toxic, non-flammable, and leaves zero residue but requires ultra-high-pressure equipment (≈70 bar) and has lower solvency for some polar soils. Regulatory phase-outs (e.g., EPA, California) target perc's occupational exposure and environmental persistence. A wrong answer focuses only on cleaning efficacy or cost, ignoring the toxicological and regulatory drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All silk garments must be dry cleaned in perchloroethylene.\" Provide two specific counter-examples with reasoning.",
+     "a": "The statement is false. Counter-example 1: Silk with water-soluble dyes (e.g., some hand-painted silks) may bleed in perc if the dye has affinity for chlorinated solvents; hydrocarbon or wet cleaning with controlled pH may be safer. Counter-example 2: Lightweight silk chiffon without structure can be professionally wet-cleaned using specialized surfactants and mechanical action control, as per ISO 3175. A wrong answer treats \"silk = dry clean\" as an absolute rule, ignoring dye–solvent interactions and advances in wet cleaning technology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text description) that a dry cleaner would use to choose between perc, hydrocarbon, silicone (D5), and liquid CO₂ for an unknown garment with mixed fibre content and unknown stains. Include at least four decision nodes.",
+     "a": "A good flowchart: Node 1 — Check care label: if \"P\" (perc allowed) → consider perc; if \"F\" (hydrocarbon only) → hydrocarbon/D5/CO₂; if \"W\" (wet clean) → exit dry cleaning. Node 2 — Fibre analysis: acetate/triacetate → avoid perc (can dissolve); spandex/elastane → avoid perc (degrades polyurethane); beaded/sequined → D5/CO₂ (gentle). Node 3 — Stain type: heavy oil/grease → perc/hydrocarbon; water-based stains (sweat, wine) → D5/CO₂ with pre-spotting. Node 4 — Environmental/local regulation: perc banned → hydrocarbon/D5/CO₂. A poor answer lists solvents without decision logic or ignores label symbols and fibre-specific contraindications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

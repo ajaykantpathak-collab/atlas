@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_004",
+   "title": "c11_eco_cbse_03_004",
+   "questions": [
+    {
+     "q": "Define \"Statutory Liquidity Ratio (SLR)\" and \"Cash Reserve Ratio (CRR)\" as they existed in 1990, and state their approximate combined level at that time.",
+     "a": "**Answer:** SLR is the fraction of a bank's Net Demand and Time Liabilities (NDTL) that must be maintained in approved government securities (gold, cash, government bonds). CRR is the fraction of NDTL that must be held as non-interest-bearing cash reserves with the RBI. In 1990, SLR was 38.5% and CRR was 15%, totaling **53.5%** of deposits locked in low-yield assets.  \n**Wrong answer reveals:** If a student gives current rates (SLR 18%, CRR 4.5%) or confuses SLR with capital adequacy, they are memorising present values without understanding the *magnitude of pre-reform financial repression* — the core reason reforms were needed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Narasimham Committee (1991) recommended reducing SLR and CRR *gradually* rather than abolishing them immediately, linking your answer to government borrowing needs and bank solvency.",
+     "a": "**Answer:** SLR financed the government's fiscal deficit by forcing banks to buy low-interest government bonds; a sudden drop would spike bond yields, raise borrowing costs, and destabilise the fiscal position. CRR is the RBI's primary liquidity management tool — eliminating it would remove the central bank's ability to absorb excess liquidity. Gradual reduction (SLR from 38.5% to 25% by 1997, CRR from 15% to 4.5% by 2003) balanced **fiscal accommodation** with **monetary control** while giving banks time to adjust asset-liability structures.  \n**Wrong answer reveals:** If a student says \"to prevent inflation\" or \"to help banks earn more profit,\" they miss the **political economy constraint**: SLR was a captive market for government debt. This is a Class 11-specific error — middle school students don't know fiscal-monetary coordination.",
+     "self_check": true
+    },
+    {
+     "q": "A bank has Net Demand and Time Liabilities (NDTL) of ₹1,000 crore. In 1991, CRR = 15%, SLR = 38.5%. In 2024, CRR = 4.5%, SLR = 18%. Calculate the *additional lendable funds* released per ₹1,000 crore NDTL due to the reduction in statutory pre-emptions. Show steps.",
+     "a": "**Steps:**  \n1. Pre-reform locked funds = (15% + 38.5%) × 1,000 = 53.5% × 1,000 = **₹535 crore**  \n2. Post-reform locked funds = (4.5% + 18%) × 1,000 = 22.5% × 1,000 = **₹225 crore**  \n3. Additional lendable funds = 535 – 225 = **₹310 crore per ₹1,000 crore NDTL**  \n4. This represents a **58% increase** in the lendable portion of deposits (from 46.5% to 77.5%).  \n**Wrong answer reveals:** If a student calculates only CRR change or only SLR change, they don't grasp that *both* were pre-emptions. If they use deposit amount instead of NDTL, they confuse stock concepts — a critical Class 11 distinction (stock vs flow).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interest rate regime pre-1991 (administered) and post-1991 (deregulated). Why did the RBI retain the \"Bank Rate\" and later introduce \"Repo Rate\" as the policy anchor instead of letting all rates be fully market-determined?",
+     "a": "**Answer:** Pre-1991: RBI fixed deposit and lending rates by maturity and sector (e.g., 12% for large industry, 9% for priority sector). Post-1991: Rates deregulated in phases — first lending rates for loans >₹2 lakh (1992), then all lending rates (1994), then savings deposit rate (2011). RBI retained Bank Rate/Repo Rate as the **policy anchor** because: (i) it signals the monetary policy stance to the entire yield curve, (ii) it operates through the liquidity adjustment facility (LAF) to manage short-term rates, (iii) complete market determination without a policy rate would delink short-term rates from inflation objectives, creating volatility. The **transmission mechanism** (policy rate → interbank rate → bank lending rates) requires a controllable short-term anchor.  \n**Wrong answer reveals:** If a student says \"RBI controls all rates even now\" or \"Repo rate is the lending rate for customers,\" they confuse the *policy instrument* with *retail pricing*. This is a senior-secondary error — misunderstanding monetary policy transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Entry of private and foreign banks after 1991 improved efficiency but increased systemic risk, so the RBI correctly imposed stricter capital adequacy norms (Basel I/II/III) simultaneously.\" Use the concepts of *competition*, *risk-weighted assets*, and *moral hazard*.",
+     "a": "**Answer:** **Valid evaluation.** Private/foreign banks (e.g., HDFC, ICICI, Citibank) introduced technology, risk-based pricing, and competition, forcing PSBs to improve. However, *competition for market share* can incentivise excessive risk-taking (lower lending standards, aggressive growth) — a **moral hazard** if depositors/bailouts protect downside. Basel norms (1992 onwards) mandated **Capital to Risk-Weighted Assets Ratio (CRAR)** — initially 8% (Basel I), then risk-sensitive weights (Basel II), then countercyclical buffers (Basel III). This ensured that *higher risk assets require more capital*, internalising risk. RBI's *simultaneous* tightening of prudential norms (income recognition, asset classification, provisioning) prevented \"regulatory arbitrage\" where banks shift risk off-balance-sheet.  \n**Wrong answer reveals:** If a student says \"Basel norms were imposed because foreign banks demanded them\" or \"Capital adequacy reduces bank profits,\" they miss the **microprudential rationale**: capital is a buffer against *unexpected losses*, not a cost. This confusion between *regulatory capital* and *economic capital* is a Class 11 board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1991–2024) showing the *sequence* of five key financial sector reforms, with the year and the specific policy action. Then write one sentence explaining why *sequencing* mattered (e.g., why interest rate deregulation before prudential norms would be dangerous).",
+     "a": "**Expected Timeline (sample):**  \n1. 1991: Narasimham Committee I report → roadmap for reforms  \n2. 1992: Interest rate deregulation begins (lending rates >₹2 lakh freed)  \n3. 1993: Prudential norms introduced (income recognition, asset classification, provisioning)  \n4. 1994: Private sector bank entry licensed (10 new banks)  \n5. 1996: Capital adequacy norms (Basel I, 8% CRAR) made mandatory  \n6. 2000: Foreign investment limit in private banks raised to 74%  \n7. 2004: FRBM Act → SLR reduction mandated statutorily  \n8. 2015: Basel III fully implemented (CCB, LCR, NSFR)  \n\n**Sequencing rationale:** Prudential norms *before* full interest rate deregulation ensured banks had **risk management capacity** (provisioning for NPAs, capital buffers) *before* they gained pricing freedom. If rates were freed first, weak banks would have underpriced risk to gain share, accelerating NPA accumulation — as seen in the 2008-14 NPA crisis where *delayed* recognition norms worsened the problem.  \n**Poor answer reveals:** Listing reforms randomly or omitting the *causal link* between sequencing and financial stability. This tests **analytical synthesis** — a board-level competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

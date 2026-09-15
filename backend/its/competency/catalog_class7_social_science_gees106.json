@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Age of Reorganisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.6.1",
+   "title": "Kingdoms after the Mauryas",
+   "section": "New powers",
+   "definition": "After the Mauryas, the subcontinent was reorganised into many kingdoms: Shaka and Kushana rulers from Central Asia, Satavahanas in the Deccan, and others who adopted Indian ways even as they arrived.",
+   "formula": "",
+   "key_idea": "Political break-up did not mean cultural break: new rulers settled in and joined the civilisation they entered.",
+   "textbook_ref": "gees106.txt, New powers",
+   "question_patterns": [
+    "which kingdoms rose after the fall of the mauryas",
+    "who were the kushanas and where did they rule",
+    "which power held the deccan in this age",
+    "how did foreign rulers adopt indian culture",
+    "why is this age called one of reorganisation",
+    "what do coins of these kingdoms reveal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.6.2",
+   "title": "Trade Routes: Uttarapatha and Dakshinapatha",
+   "section": "Routes and trade",
+   "definition": "Highways reorganised commerce: the Uttarapatha ran across the north, the Dakshinapatha pierced the Deccan to the southern ports, and both carried goods between land and sea routes to Rome and Southeast Asia.",
+   "formula": "",
+   "key_idea": "Roads are arteries of civilisation: along the routes moved cloth, spices, coins, monks and ideas.",
+   "textbook_ref": "gees106.txt, Routes and trade",
+   "question_patterns": [
+    "what were the uttarapatha and dakshinapatha",
+    "which goods travelled on the ancient routes",
+    "how did sea trade link india with rome",
+    "what role did ports play in this trade",
+    "how do trade routes spread ideas along with goods",
+    "trace the dakshinapatha on a map of india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.6.3",
+   "title": "A Living Tradition of Change",
+   "section": "Opening quotation",
+   "definition": "The chapter opens with the thought that by a continuous living tradition and vital power of rejuvenescence, this land readjusted itself through unnumbered transformations; each new wave was absorbed and made Indian.",
+   "formula": "",
+   "key_idea": "India's strength is renewal: change after change left the civilisation itself alive and growing.",
+   "textbook_ref": "gees106.txt, Opening quotation",
+   "question_patterns": [
+    "what does the opening quotation of the chapter mean",
+    "how did india absorb new peoples and ideas",
+    "what transformations marked the centuries after the mauryas",
+    "why is the tradition called living",
+    "give one example of readjustment through transformation",
+    "why did conquerors often become part of indian society"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.6.4",
+   "title": "Legacy of the Age of Reorganisation",
+   "section": "Legacy",
+   "definition": "The age left a legacy of devotional religion, Gandhara and Mathura art, Sanskrit literature and science, coinage and trade networks that later ages, including the Guptas, built upon.",
+   "formula": "",
+   "key_idea": "What looks like a pause between empires is a workshop: the reorganisation age forged the tools of the golden age to come.",
+   "textbook_ref": "gees106.txt, Legacy",
+   "question_patterns": [
+    "what legacy did this age leave for later india",
+    "how did art change in this period",
+    "which languages and texts grew in this age",
+    "how did religious practice change after the mauryas",
+    "what did later dynasties inherit from this age",
+    "why do historians value this period of reorganisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees106.txt",
+   "concept": "gees.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did trade routes carry culture as well as cargo?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "walk the route",
+     "explain": "Merchants, monks and artisans moved together on the same roads and ships."
+    },
+    {
+     "step": 2,
+     "action": "see what stayed",
+     "explain": "Stupas, scripts and styles of art grew at stops along the routes, seeded by the travellers."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees106.txt",
+   "concept": "gees.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "which kingdoms arose after the mauryas?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees106.txt, Let us explore",
+   "questions": [
+    "Why does the chapter open with a quotation about continuous living tradition?",
+    "Which kingdoms arose after the Mauryas?",
+    "What do you remember of the Kalinga war and its aftermath?",
+    "Trace the Uttarapatha and Dakshinapatha on an outline map.",
+    "Collect pictures of coins of the Shaka, Kushana and Satavahana rulers."
+   ]
+  }
+ ]
+}

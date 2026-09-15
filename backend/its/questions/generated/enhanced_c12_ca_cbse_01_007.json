@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_007",
+   "title": "c12_ca_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the four limitations of Computerised Accounting System (CAS) as per NCERT Class 12 Chapter 1.",
+     "a": "The four limitations are: (1) Faster obsolescence of technology necessitates investment in shorter period of time. (2) Data may be lost or corrupted due to power interruptions. (3) Data are prone to hacking. (4) Un-programmed and un-specified reports cannot be generated.\nA wrong answer (e.g., listing \"high initial cost\" or \"requires skilled staff\") reveals the student is confusing limitations of CAS with disadvantages of implementation or limitations of manual accounting. It shows lack of precise recall of NCERT's specific list.",
+     "self_check": true
+    },
+    {
+     "q": "A company uses CAS. The accountant says: \"We cannot get a report showing 'region-wise sales by salesman for discontinued products' because the software doesn't have that report built-in.\" Which limitation of CAS does this illustrate? Explain why this is a limitation of CAS and not a limitation of the accountant.",
+     "a": "This illustrates the limitation: \"Un-programmed and un-specified reports cannot be generated.\" CAS software operates on pre-defined report templates. If a report format is not anticipated and programmed by the software developer, the system cannot produce it, regardless of the accountant's skill. This is a structural limitation of the software's design, not a human error. A wrong answer (e.g., \"accountant lacks training\") reveals the misconception that CAS can do anything if the user is skilled enough, ignoring that software executes only what it is coded to do.",
+     "self_check": true
+    },
+    {
+     "q": "\"Shree Traders\" uses CAS. Last week, a thunderstorm caused a power surge that damaged the server's hard disk. The last backup was 10 days old. Explain which limitation of CAS this scenario represents and why a manual accounting system would not have this specific vulnerability.",
+     "a": "This represents: \"Data may be lost or corrupted due to power interruptions.\" In CAS, all data resides on electronic storage (hard disk/SSD) which is physically sensitive to power fluctuations. A surge can destroy the storage medium, making data unrecoverable without backup. In manual accounting, data is on paper (ledgers, vouchers) which is immune to power surges — fire or water can damage it, but not electricity. A wrong answer (e.g., \"manual systems also lose data in fire\") fails to distinguish the *specific* vulnerability: CAS introduces a new risk category (electrical/hardware failure) that manual systems do not have.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limitation \"Faster obsolescence of technology\" in CAS with the concept of \"depreciation of fixed assets\" learned in Class 11 Accountancy (c11_acc_cbse_07_001). How are they similar and how do they differ in terms of financial impact and planning?",
+     "a": "Similarity: Both involve loss of value/utility over time. Depreciation allocates the cost of a tangible asset over its useful life; technology obsolescence means the CAS software/hardware becomes outdated (e.g., non-GST compliant, unsupported OS) faster than its physical life, forcing early replacement. Difference: Depreciation is a planned, systematic allocation (e.g., 10% SLM) reflecting gradual wear; obsolescence is often sudden and driven by external changes (new tax laws, OS updates), requiring unplanned capital expenditure. Financially, depreciation is a non-cash expense spread over years; obsolescence triggers a cash outflow for new licenses/hardware much earlier than the asset's depreciated life. A wrong answer (e.g., \"they are the same\") shows inability to distinguish accounting depreciation (a measurement concept) from economic obsolescence (a business risk).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The risk of hacking in CAS is exaggerated because manual ledgers can also be stolen or tampered with.\" Use the NCERT limitations to justify your evaluation.",
+     "a": "The statement is false. While manual records can be physically stolen or altered, CAS hacking is a *distinct and amplified* risk because: (1) Remote access: A hacker can breach data from anywhere globally without physical presence; manual theft requires physical access. (2) Scale: One breach can expose years of data for all customers/suppliers; manual theft is limited to physical documents on site. (3) Stealth: Hacking can go undetected for months (data copied, not removed); missing manual ledgers are immediately noticed. (4) NCERT explicitly lists \"Data are prone to hacking\" as a separate limitation, acknowledging it as a systemic vulnerability of digital systems. A wrong answer (e.g., \"both have risks so it's equal\") reveals failure to analyze the *qualitative difference* in risk magnitude, detectability, and scope — a key competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point risk mitigation plan for a medium-sized firm using CAS to address the four NCERT limitations. Each point must map to at least one specific limitation.",
+     "a": "A good answer includes:\n1. **Technology Refresh Policy**: Annual budget allocation for hardware/software upgrades + vendor AMC for version updates → addresses *faster obsolescence*.\n2. **Power & Backup Infrastructure**: UPS for all nodes + automated daily incremental backup to cloud/off-site + monthly restore drill → addresses *data loss due to power interruptions* and *hard disk damage*.\n3. **Cybersecurity Framework**: Firewall, role-based access control, 2FA, annual VAPT (Vulnerability Assessment & Penetration Testing), employee phishing training → addresses *hacking/virus*.\n4. **Flexible Reporting Module**: Ensure CAS has ad-hoc query builder / export to Excel/API for custom reports → addresses *un-programmed reports*.\nA poor answer (e.g., \"buy good software, take backup, install antivirus\") is generic, lacks mapping to specific limitations, and misses the *un-programmed reports* limitation entirely — showing superficial understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

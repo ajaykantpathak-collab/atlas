@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_001",
+   "title": "c12_geo_cbse_14_001",
+   "questions": [
+    {
+     "q": "Define manufacturing as per NCERT Class 12 Geography and state its sectoral classification in the three-sector economic model.",
+     "a": "Manufacturing is the transformation of raw materials into finished goods of higher value using machinery, labour, and energy; it belongs to the secondary sector. A wrong answer (e.g., \"primary sector\" or \"only making things by hand\") reveals confusion between extraction (primary) and value-addition (secondary), and misses the machinery/energy requirement that distinguishes modern manufacturing from handicrafts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"value addition\" concept is central to distinguishing manufacturing from primary activities, using the example of cotton textile versus cotton farming.",
+     "a": "Cotton farming (primary) produces raw cotton; cotton textile industry (manufacturing) spins, weaves, and finishes it into cloth — each stage adds value through labour, technology, and energy, increasing price per kg from ~₹60 (raw cotton) to ~₹300+ (finished fabric). A wrong answer that equates farming and textile as both \"production\" misses the qualitative change in form, utility, and economic value that defines manufacturing.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following industries using all four NCERT bases: (a) Bhilai Steel Plant, (b) Khadi village unit spinning cotton yarn, (c) Maruti Suzuki Gurugram, (d) Amul dairy cooperative. Use a table format.",
+     "a": "| Industry | Raw Material | Scale | Ownership | Product Type |\n|---|---|---|---|---|\n| Bhilai Steel Plant | Mineral-based (iron ore) | Large-scale (>₹10 Cr investment) | Public sector (SAIL) | Heavy, Basic goods |\n| Khadi village unit | Agro-based (cotton) | Cottage (<₹25 Lakh) | Cooperative | Light, Consumer goods |\n| Maruti Suzuki Gurugram | Mineral-based (steel, aluminium) + Assembled parts | Large-scale | Joint sector (Govt + Suzuki) | Heavy, Consumer durable |\n| Amul dairy | Animal-based (milk) | Large-scale | Cooperative | Light, Consumer goods |\n\nWrong classification (e.g., calling Maruti \"small scale\" or Bhilai \"private\") reveals misunderstanding of investment thresholds (>₹10 Cr = large, <₹25 Lakh = cottage) and ownership definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution implications of agro-based versus mineral-based industries in India. Why do agro-based industries show wider dispersal while mineral-based cluster in specific regions?",
+     "a": "Agro-based industries (cotton, jute, sugar) use widely distributed agricultural raw materials (cotton in Deccan, jute in Bengal, sugarcane in UP/Maharashtra) — perishable/bulky raw material forces location near source, creating dispersed pattern. Mineral-based industries (iron/steel, aluminium) require concentrated, non-perishable ores found only in specific geological belts (Chota Nagpur, Odisha) — high transport cost of ore vs. product drives clustering. Wrong answer citing \"market access\" for both misses the raw material geography distinction central to Weber's least-cost location theory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Small-scale and cottage industries are more important for India's employment generation than large-scale industries, despite contributing less to GDP.\" Use quantitative reasoning.",
+     "a": "True. Large-scale industries contribute ~80% of manufacturing GDP but employ ~20% of industrial workers (capital-intensive). Small-scale/cottage (investment <₹10 Cr / <₹25 Lakh) contribute ~40% of manufacturing output but employ ~80% of workers (labour-intensive). Per unit of capital, SSI generates 5-10x more jobs. Wrong evaluation focusing only on GDP share ignores India's demographic imperative — employment elasticity of SSI is critical for absorbing 10-12 million annual workforce entrants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classification flowchart for a new industry: \"Bamboo furniture manufacturing unit in Tripura with ₹50 lakh investment, owned by a women's self-help group, producing chairs for urban markets.\" Show all four classification decisions.",
+     "a": "Flowchart decisions:\n1. Raw material: Forest-based (bamboo) → Agro/Forest category\n2. Scale: ₹50 Lakh > ₹25 Lakh (cottage limit) but < ₹10 Cr (large limit) → Small-scale industry\n3. Ownership: Women's SHG → Cooperative sector\n4. Product: Furniture (light, finished consumer good) → Light industry, Consumer goods\nA poor answer missing any decision node (e.g., skipping ownership) or misclassifying scale (calling ₹50L \"cottage\") shows incomplete grasp of threshold values and category definitions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

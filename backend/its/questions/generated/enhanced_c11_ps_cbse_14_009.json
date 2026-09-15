@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_009",
+   "title": "c11_ps_cbse_14_009",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the formation of Parliamentary Committees in India, and which two articles are most directly relevant?",
+     "a": "The constitutional basis derives from Article 105 (powers, privileges, and immunities of Parliament and its members) and Article 118 (each House makes rules for regulating its procedure and conduct of business). A wrong answer citing Article 79 (constitution of Parliament) or Article 110 (Money Bill definition) reveals confusion between Parliament's composition/legislative categories and its internal procedural autonomy to create committees.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution not explicitly list Parliamentary Committees, leaving their creation to the Rules of Procedure of each House?",
+     "a": "The Constitution establishes the *framework* of legislative oversight but leaves *operational details* to each House's rules because committee structures must adapt to changing governance complexity (e.g., Department-Related Standing Committees were created only in 1993). A wrong answer claiming \"committees are not constitutional bodies\" reveals a fundamental misconception: they are constitutionally recognised through Article 118's rule-making power, not extra-constitutional.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill on cryptocurrency regulation is introduced in Lok Sabha. The Speaker refers it to a Joint Committee of both Houses. Is this a Standing or Ad Hoc committee? Justify your answer with two distinguishing features.",
+     "a": "It is an Ad Hoc committee — specifically a Joint Select Committee. Distinguishing features: (1) It is constituted for a *specific purpose* (examining this particular Bill) and dissolves after submitting its report; (2) Its membership is *ad hoc* — nominated by the Speaker/Chairman for that task only, unlike Standing Committees with fixed annual tenure and predetermined membership quotas. A wrong answer calling it Standing because it has members from both Houses confuses \"Joint\" (bicameral composition) with \"Standing\" (permanence).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Public Accounts Committee (PAC) and a Select Committee on a Bill in terms of: (a) tenure, (b) source of referral, (c) nature of output, and (d) executive response obligation.",
+     "a": "(a) PAC: permanent (reconstituted annually); Select Committee: temporary (dissolves after report). (b) PAC: examines CAG reports referred by Speaker; Select Committee: examines a specific Bill referred by House. (c) PAC: reports on financial irregularities, *audit* findings; Select Committee: reports with *amendments* to the Bill. (d) PAC: Executive *must* respond via Action Taken Reports (ATRs) monitored by Committee; Select Committee: House votes on report, but no formal ATR mechanism. A wrong answer treating both as \"financial committees\" misses that Select Committees are legislative, not financial, oversight bodies.",
+     "self_check": true
+    },
+    {
+     "q": "\"Department-Related Standing Committees (DRSCs) have made Parliament more effective but less visible.\" Evaluate this statement with two arguments for and two against.",
+     "a": "For: (1) DRSCs enable *specialised scrutiny* — 24 committees shadow ministries, building MP expertise; (2) They foster *bipartisan consensus* — closed-door meetings reduce grandstanding. Against: (1) *Opacity* — proceedings are confidential, reducing public accountability; (2) *Weak enforcement* — reports are recommendatory, government often ignores them (e.g., only ~30% recommendations accepted). A wrong answer focusing only on \"effectiveness\" without addressing the transparency-accountability trade-off shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new Parliamentary Committee structure to oversee the implementation of the National Education Policy (NEP) 2020 across Centre and States. Specify: type (Standing/Ad Hoc), composition, tenure, and two unique powers it should have.",
+     "a": "Type: Standing (permanent oversight needed for long-term policy). Composition: 31 members (21 LS, 10 RS) with proportional party representation, plus 5 rotating State Education Ministers as special invitees (federal dimension). Tenure: 1 year, renewable. Unique powers: (1) *Summon State Education Secretaries* (unlike DRSCs limited to Union ministries); (2) *Mandate mid-term social audits* by civil society groups. A poor answer creating another DRSC without federal coordination mechanisms misses the Centre-State implementation gap in education.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

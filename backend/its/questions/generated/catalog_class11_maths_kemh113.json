@@ -1,0 +1,306 @@
+{
+ "catalog": "catalog_class11_maths_kemh113.json",
+ "concepts": [
+  {
+   "id": "kemh113.13.2.1",
+   "title": "Measures of Dispersion",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the dispersion formula to the data",
+     "explain": "apply the dispersion formula to the data: mean = (6 + 7 + 6) / 3 gives 6.33333",
+     "compute": "mean = (6 + 7 + 6) / 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the dispersion formula to the data: md = (abs(6 - mean) + abs(7 - mean) + abs(6 - mean)) / 3 gives 0.444444",
+     "compute": "md = (abs(6 - mean) + abs(7 - mean) + abs(6 - mean)) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 6, 7, 6 (two decimal places).",
+     "a": "0.44",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 6, 7, 8, 9 (two decimal places).",
+     "a": "1.25",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 25. Find its standard deviation.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 4 and the mean is 60.",
+     "a": "6.66667",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 18 and 31. Find the interquartile range.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "For 15 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.3.1",
+   "title": "Range of a Series",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 4th term of the AP with first term 4 and common difference 3.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP 2, 10, 18, ... .",
+     "a": "870",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 4 and last term 34 with 16 terms. Find its sum.",
+     "a": "304",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 7 and 13. Find the common difference.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 12, 18, 24, ... up to and including 60?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 55 and the 4th term is 25. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.4.1",
+   "title": "Mean Deviation About the Mean (Ungrouped Data)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 28, 12, 34, 6, 29.",
+     "a": "21.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 3, 12, 16, 37, 49 (already in increasing order).",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 5, 32. A seventh value 54 is added, making 7 values. Find the median of the 7 values.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 23 and 58. Find the median.",
+     "a": "40.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 3 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 58, 19, 31, 36.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.4.2",
+   "title": "Mean Deviation for Grouped (Frequency) Data",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((20, 19, 36, 3, 12)) gives 90",
+     "compute": "total = sum((20, 19, 36, 3, 12))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 18",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 20, 19, 36, 3, 12.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 5, 7, 17, 37, 46 (already in increasing order).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 2, 36. A seventh value 51 is added, making 7 values. Find the median of the 7 values.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 30 and 48. Find the median.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 1 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 14, 7, 52, 7.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.5.1",
+   "title": "Variance and Standard Deviation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 12, 10, 14 (two decimal places).",
+     "a": "1.33",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 8, 6, 2, 7 (two decimal places).",
+     "a": "5.19",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 4. Find its standard deviation.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 5 and the mean is 50.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 24 and 40. Find the interquartile range.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.5.2",
+   "title": "Standard Deviation of a Frequency Distribution",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((19, 20, 24, 4, 3)) gives 70",
+     "compute": "total = sum((19, 20, 24, 4, 3))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 14",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 19, 20, 24, 4, 3.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 4, 15, 24, 45, 47 (already in increasing order).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 21, 24. A seventh value 41 is added, making 7 values. Find the median of the 7 values.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 19 and 50. Find the median.",
+     "a": "34.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 11, 51, 40, 45.",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh113.13.5.3",
+   "title": "Shortcut Method for Variance via Assumed Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 12, 10, 15 (two decimal places).",
+     "a": "1.78",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 8, 2, 1, 9 (two decimal places).",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 4. Find its standard deviation.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 5 and the mean is 60.",
+     "a": "8.33333",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 11 and 30. Find the interquartile range.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "For 11 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

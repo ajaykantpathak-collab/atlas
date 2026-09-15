@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_003",
+   "title": "c7_math_ch12_003",
+   "questions": [
+    {
+     "q": "What is the rule for determining the position of the decimal point when multiplying two decimal numbers like $0.4 \\times 0.05$?",
+     "a": "The correct rule is to count the total number of decimal places in both multipliers and place the decimal point in the product so that it has the same total number of decimal places ($1 + 2 = 3$ places, giving $0.020$). A wrong answer such as aligning the decimal points vertically (like in addition) reveals a confusion between addition/subtraction rules and multiplication rules of decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying $1.2 \\times 3.4$ yields a product that is smaller than either $1.2$ or $3.4$ if we multiply numbers less than 1, but larger when multiplying numbers greater than 1. For $1.2 \\times 3.4$, why is the product $4.08$ larger than both?",
+     "a": "The product $1.2 \\times 3.4$ is larger than both numbers because both multipliers are greater than $1$, meaning we are scaling $3.4$ up by more than one whole group ($1$ group of $3.4$ plus another $0.2$ groups). A wrong answer stating that decimal multiplication always makes numbers smaller shows a misconception carried over from multiplying proper fractions less than $1$.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the exact product of $3.25 \\text{ and } 4.1$.",
+     "a": "The correct answer is $13.325$. Working steps: \n1. Multiply $325$ by $41$ as whole numbers: $325 \\times 1 = 325$, and $325 \\times 40 = 13000$. \n2. Add the partial products: $13000 + 325 = 13325$. \n3. Count decimal places: $3.25$ has two decimal places, and $4.1$ has one decimal place, totaling $3$ decimal places. \n4. Place the decimal point three places from the right: $13.325$. \nA wrong answer like $1.3325$ or $133.25$ indicates an error in counting or placing the total decimal places.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of $0.07 \\times 0.08$ and $0.7 \\times 0.8$. Without fully calculating both standard algorithms, explain how the position of the decimal point changes based on the number of decimal digits.",
+     "a": "$0.07 \\times 0.08 = 0.0056$ (4 decimal places) while $0.7 \\times 0.8 = 0.56$ (2 decimal places). The product with fewer decimal places has digits shifted two places to the right because the total number of decimal places in the factors decreases from $4$ to $2$. A wrong answer shows a failure to recognize that each decimal place in the factors shifts the product's decimal point by one power of $10$.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates $2.4 \\times 1.5$ and writes the answer as $3.60$. Another student writes $3.6$. Are both answers mathematically correct, and which one is standard in decimal notation?",
+     "a": "Both $3.60$ and $3.6$ represent the same numerical value, but $3.6$ is the simplified standard form because trailing zeros at the end of the decimal part can be omitted unless measuring precision (like money or significant figures) requires keeping them. A wrong answer claiming one is mathematically wrong shows a misunderstanding of equivalent decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multiplication problem involving two decimal numbers, each having two decimal places, such that their product is a whole number. Provide the problem and its solution.",
+     "a": "An example is $2.50 \\times 0.40$. Working: $250 \\times 40 = 10000$. There are $2 + 2 = 4$ total decimal places, so placing the decimal point four places from the right gives $1.0000$, which simplifies to the whole number $1$. A poor answer provides numbers that do not result in a terminating whole number or fails to count decimal places correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

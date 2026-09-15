@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_006",
+   "title": "c7_physics_ch04_006",
+   "questions": [
+    {
+     "q": "What is the standard SI unit of speed, and what two base physical quantities are used to derive it?",
+     "a": "The standard SI unit of speed is meters per second (m/s), derived from the base quantities of length (measured in meters) and time (measured in seconds). A wrong answer often confuses speed with force or energy units, or mistakenly states that kilometers per hour is the official SI unit rather than a convenient everyday unit.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it incorrect to state that an object traveling a long distance always has a higher speed than an object traveling a short distance? Explain using the formula for speed.",
+     "a": "Speed depends on *both* distance and time, not distance alone. If Object A travels 100 meters in 10 seconds (speed = 10 m/s) and Object B travels 50 meters in 2 seconds (speed = 25 m/s), Object B is faster despite covering a shorter distance because it takes much less time. A wrong answer shows a failure to recognize speed as a ratio, focusing only on the numerator (distance) while ignoring the denominator (time).",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist travels a distance of 180 meters on a flat road in 30 seconds. Calculate the speed of the cyclist in meters per second (m/s).",
+     "a": "Given distance $d = 180\\text{ m}$ and time $t = 30\\text{ s}$. \nStep 1: Identify the formula: $speed = \\frac{distance}{time}$. \nStep 2: Substitute values: $speed = \\frac{180\\text{ m}}{30\\text{ s}}$. \nStep 3: Compute: $180 \\div 30 = 6$. \nStep 4: Attach units: $6\\text{ m/s}$. \nA wrong answer, such as 5400 m/s (from multiplying distance and time) or 0.16 m/s (from dividing time by distance), indicates confusion over formula placement or arithmetic inversion.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars, Car X and Car Y, travel between Mumbai and Pune. Car X covers 150 km in 3 hours, while Car Y covers 200 km in 4 hours. Compare their speeds and determine which car traveled faster.",
+     "a": "Speed of Car X = $\\frac{150\\text{ km}}{3\\text{ h}} = 50\\text{ km/h}$. Speed of Car Y = $\\frac{200\\text{ km}}{4\\text{ h}} = 50\\text{ km/h}$. Both cars traveled at the exact same speed. A wrong answer usually assumes Car Y is faster simply because it covered a greater total distance, ignoring the extra time it took.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the running speed of an ant to be $2500\\text{ m/s}$. Evaluate whether this numerical result is physically reasonable, and explain why or why not.",
+     "a": "This result is entirely unreasonable because $2500\\text{ m/s}$ is faster than a fighter jet, whereas ants move very slowly over a fraction of a meter in several seconds. A realistic speed for an ant would be a fraction of a meter per second (e.g., $0.02\\text{ m/s}$). A wrong answer shows a lack of physical intuition and failure to check if computational outputs make sense in the real world.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple backyard experiment using a rolling marble, a measuring tape, and a stopwatch to determine the average speed of the marble down an inclined wooden plank.",
+     "a": "A good answer will state: Set up a wooden plank at an angle, mark a starting point (0 cm) and a finish point (e.g., 200 cm) using the measuring tape. Release the marble and use the stopwatch to record the exact time $t$ in seconds it takes to roll from start to finish. Finally, divide the measured distance by the recorded time to find the average speed in cm/s. A poor answer fails to include measurable parameters, lacks timing tools, or does not mention the formula calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

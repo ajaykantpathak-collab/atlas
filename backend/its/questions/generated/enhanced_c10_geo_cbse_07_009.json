@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_009",
+   "title": "c10_geo_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define \"invisible export\" in the context of tourism and give one example of how a foreign tourist's spending in India becomes an invisible export.",
+     "a": "An invisible export is a service sold to a foreign resident that earns foreign exchange without any physical goods leaving the country. When a tourist from Germany spends ₹50,000 on a heritage hotel in Jaipur, that ₹50,000 (converted from euros) enters India's foreign exchange reserves — no physical product was shipped, but India earned foreign currency. A wrong answer (e.g., \"exporting handicrafts to Germany\") reveals the student confuses invisible exports (services) with visible exports (goods).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same geographical feature — the Himalayas — supports both adventure tourism (trekking in Ladakh) and wellness tourism (yoga retreats in Rishikesh), while the Thar Desert primarily supports only desert safaris and cultural tourism.",
+     "a": "The Himalayas offer high-altitude terrain for trekking/mountaineering AND serene river-valley settings (Ganga in Rishikesh) for spiritual wellness — two distinct tourism products from one landform due to vertical zonation. The Thar Desert lacks altitudinal variation; its flat sandy expanse supports camel safaris and cultural festivals (Pushkar Fair) but not altitude-based adventure or river-based wellness. A wrong answer (e.g., \"Himalayas are cold, desert is hot\") shows the student misses how relief diversity within one mountain system creates multiple tourism niches.",
+     "self_check": true
+    },
+    {
+     "q": "A tourist from the USA spends $2,000 on a 10-day medical tourism package in Chennai (hospital stay, surgery, recovery resort). The exchange rate is ₹83 = $1. Calculate the foreign exchange earnings in rupees. If the hospital imports medical equipment worth $500 for this treatment, what is the net foreign exchange gain for India?",
+     "a": "Step 1: Gross earnings = $2,000 × ₹83 = ₹1,66,000. Step 2: Import cost = $500 × ₹83 = ₹41,500. Step 3: Net gain = ₹1,66,000 - ₹41,500 = ₹1,24,500. A wrong answer (e.g., only calculating gross earnings) reveals the student ignores that tourism services often require imported inputs (medical equipment, luxury food, fuel), reducing net foreign exchange — a key board exam nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tourism potential of Kerala's backwaters and Rajasthan's palace hotels. Identify two geographical factors that make each unique and explain how they attract different tourist segments.",
+     "a": "Kerala backwaters: (1) Lagoon-estuary network formed by coastal geography — attracts leisure/honeymoon tourists seeking houseboat stays. (2) Tropical monsoon climate with lush greenery — attracts wellness/Ayurveda tourists. Rajasthan palace hotels: (1) Desert location with historic hill forts/palaces — attracts heritage/cultural tourists. (2) Extreme climate (hot days, cold nights) — limits season to Oct-Mar, creating high-season premium pricing. A wrong answer listing only \"culture\" or \"nature\" misses the physical geography-climate-tourism product linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Medical tourism in India is sustainable because it earns high foreign exchange per tourist.\" Consider infrastructure strain, equity in healthcare access, and environmental impact.",
+     "a": "The statement is partially true but incomplete. Medical tourists spend 3-5× more than leisure tourists (high forex/tourist), but sustainability requires: (1) Infrastructure: Private hospitals expand, but public health may be neglected — equity concern. (2) Environment: Medical waste, water use in water-stressed cities (Chennai, Delhi). (3) Social: Local patients may face longer waits/costs. True sustainability needs regulation ensuring cross-subsidisation and waste management. A wrong answer focusing only on forex earnings ignores the triple-bottom-line (economic, social, environmental) evaluation expected in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day tourism itinerary for a district in your state that has ONE natural attraction (waterfall/hill/beach/forest) and ONE cultural attraction (temple/fort/museum/festival). Label each day's primary tourism type (eco, heritage, adventure, wellness) and justify the sequence using geographical logic (distance, climate, energy level).",
+     "a": "Example for Mysuru district: Day 1 — Chamundi Hills (trekking/sunrise) = adventure tourism; high energy morning, cool climate. Day 2 — Mysuru Palace + Devaraja Market = heritage/cultural tourism; mid-day indoor palace visit avoids heat, evening market walk. Day 3 — Ranganathittu Bird Sanctuary (boat ride) = eco-tourism; low energy, morning bird activity, water-based cooling. Justification: Sequence follows energy curve (high→medium→low) and climate adaptation (outdoor morning→indoor midday→water morning). A poor answer lists random sites without geographical sequencing logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

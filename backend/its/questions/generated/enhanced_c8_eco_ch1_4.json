@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_4",
+   "title": "c8_eco_ch1_4",
+   "questions": [
+    {
+     "q": "What is the economic definition of 'labour' as a factor of production?",
+     "a": "Labour is defined as any physical or mental human effort exerted with the objective of earning an economic reward like wages or salaries to produce goods and services. A wrong answer usually confuses labour with mere physical exertion or exercise, forgetting that in economics, the effort must be directed toward production and economic compensation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is human effort considered an 'active' factor of production compared to land or physical capital?",
+     "a": "Human effort is active because land and physical capital (like tools and buildings) cannot organize themselves, initiate production, or use themselves; they require living human beings to operate, direct, and set them into motion. A wrong answer assumes that machines or natural resources can function independently without human intervention or decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "A local furniture workshop employs a master carpenter who earns ₹800 per day for designing and building intricate wooden chairs. If the workshop produces 10 chairs per day, calculate the labour cost per chair.",
+     "a": "Steps: 1. Identify total daily wages paid to labour = ₹800. 2. Identify total daily output produced = 10 chairs. 3. Divide total wage cost by total output (₹800 / 10 chairs). 4. Result = ₹80 per chair. A wrong answer might multiply the wage by output instead of dividing, showing a confusion between total cost allocation and total revenue generation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between physical labour and mental labour using the example of a school. Who provides which type of effort, and why are both necessary for the school to function?",
+     "a": "Physical labour involves manual exertion (such as a school caretaker maintaining the campus grounds), while mental labour involves cognitive and intellectual effort (such as a teacher designing lesson plans). Both are necessary because physical maintenance provides the safe infrastructure and environment required for teaching, while mental instruction imparts education, showing that modern production relies on a combination of both efforts. A wrong answer claims that only mental labour holds economic value while physical labour does not.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Paying higher wages to skilled labour always increases total production costs, so businesses should only hire unskilled workers.\" Is this economically sound?",
+     "a": "This statement is economically unsound because skilled labour possesses higher productivity, meaning they produce more goods per hour and produce fewer defective items than unskilled workers. While their daily wage is higher, the labour cost per unit of output is often lower or balanced by superior quality and higher market value. A wrong answer focuses solely on the wage rate without considering productivity per worker.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple production plan for a small handicraft unit in your town, specifying how many workers are needed, what types of physical and mental labour they will perform, and how their efforts will combine with tools.",
+     "a": "A good answer outlines a clear scenario: e.g., hiring 2 artisans for manual carving (physical labour) and 1 manager for marketing and accounts (mental labour), utilizing basic hand tools to produce terracotta pots. A poor answer just lists random jobs without linking human effort to the production process or output goals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

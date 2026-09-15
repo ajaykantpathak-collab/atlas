@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_political_science_leps104",
+ "concepts": [
+  {
+   "id": "leps.104.1",
+   "title": "Why International Organisations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why International Organisations' refers to.",
+     "a": "International organisations exist because states need forums to cooperate on problems no single state can solve - war prevention, development, health and humanitarian relief - with the UN founded in 1945 after two world wars to save succeeding generations from the scourge of war.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why International Organisations'.",
+     "a": "An organisation helps with matters of war and peace and helps countries cooperate to make better living conditions for us all.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why International Organisations' taught, and from which source text?",
+     "a": "Why International Organisations? (source: leps104.txt rationale for organisations and UN founding 1945 sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.104.2",
+   "title": "Evolution of the UN and Membership",
+   "questions": [
+    {
+     "q": "How many members did the UN have at founding and now? Use the method 'Evolution of the UN and Membership'. Work with: current_members = 512, founding_members = 51. Carry the chain through step by step and give the final value of membership_growth.",
+     "a": "461 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the growth in UN membership. Use the method 'Evolution of the UN and Membership'. Work with: current_members = 8192, founding_members = 51. Carry the chain through step by step and give the final value of membership_growth.",
+     "a": "8141 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Evolution of the UN and Membership' refers to.",
+     "a": "The UN began in 1945 with 51 founding members and expanded to 193 members as decolonisation admitted new states, changing the General Assembly's majorities and pushing demands to reform the Security Council whose five permanent members hold vetoes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Evolution of the UN and Membership'.",
+     "a": "The growth of UN membership is the current member count minus the founding count of 51.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Evolution of the UN and Membership', in plain ASCII form.",
+     "a": "membership_growth = current_members - founding_members",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.104.3",
+   "title": "Reform of the UN",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reform of the UN' refers to.",
+     "a": "Reform debates cover two tracks: procedures and relevance - making the Security Council more representative and reworking mandates - with India arguing for permanent membership on grounds of population, democracy, economy and peacekeeping record, while rivals propose alternatives like longer-term seats.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reform of the UN'.",
+     "a": "Everyone wants a reformed Council; no one agrees whose seat it should be.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reform of the UN' taught, and from which source text?",
+     "a": "Reform of the UN (source: leps104.txt reform criteria and India's case sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.104.4",
+   "title": "India and the UN",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India and the UN' refers to.",
+     "a": "India's UN engagement spans peacekeeping contributions among the largest, leadership of the Non-Aligned and G77, nuclear debate years, and campaigns for Council reform; India uses the UN to project multilateralism while seeking its democratisation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and the UN'.",
+     "a": "For India the UN is both stage and stake: it defends multilateral rules while asking for a seat at the top table.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India and the UN' taught, and from which source text?",
+     "a": "India and the UN (source: leps104.txt India's UN contributions and diplomacy sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

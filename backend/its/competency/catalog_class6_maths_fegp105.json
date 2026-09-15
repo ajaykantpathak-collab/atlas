@@ -1,0 +1,239 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Prime Time",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.5.1",
+   "title": "Prime Factorisation: Breaking Numbers into Primes",
+   "section": "Prime Time",
+   "definition": "Every composite number breaks completely into prime factors: keep dividing by primes 2, 3, 5, 7 and so on until only primes remain, and the factor tree or repeated division shows the full set.",
+   "formula": "num = product of its prime factors",
+   "key_idea": "Prime factors are the atoms of a number: whatever order you divide in, the same prime set comes out.",
+   "textbook_ref": "fegp105.txt, Prime Time",
+   "question_patterns": [
+    "break 60 into its prime factors",
+    "what is the prime factorisation of 36",
+    "why is a factor tree stopped at primes",
+    "write 84 as a product of primes",
+    "do two different factor trees of 12 give the same primes",
+    "which is the smallest prime factor of 45"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by the first prime",
+     "explain": "Take out a prime factor by dividing the number by the smallest prime that fits.",
+     "compute": "q1 = num // p1"
+    },
+    {
+     "step": 2,
+     "action": "keep dividing",
+     "explain": "Divide the result again by a prime until only primes remain.",
+     "compute": "q2 = q1 // p2"
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.2",
+   "title": "Primes, Composites and the Idli-Vada Game",
+   "section": "Prime Time",
+   "definition": "Numbers with exactly two factors are prime, those with more are composite; in the idli-vada game, players say idli on multiples of 3 and vada on multiples of 5, and buzz on numbers like 15 that are multiples of both.",
+   "formula": "",
+   "key_idea": "Multiples of a number repeat at fixed gaps, and numbers that are multiples of two numbers at once sit at the crossings.",
+   "textbook_ref": "fegp105.txt, Prime Time",
+   "question_patterns": [
+    "which numbers are called prime and which composite",
+    "in the idli vada game which numbers are idli and which vada",
+    "is 1 a prime number why or why not",
+    "list the first five multiples of 4",
+    "which numbers are multiples of both 3 and 5 up to 60",
+    "find all primes between 1 and 30"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.3",
+   "title": "Divisibility Tests",
+   "section": "Divisibility tests",
+   "definition": "Short rules decide divisibility without dividing: a number is divisible by 2 if its last digit is even, by 5 if it ends in 0 or 5, by 10 if it ends in 0, and further rules check 3, 4, 6, 8, 9 and 11.",
+   "formula": "",
+   "key_idea": "Last digits and digit sums carry the secret: divisibility rules read them instead of doing long division.",
+   "textbook_ref": "fegp105.txt, Divisibility tests",
+   "question_patterns": [
+    "state the divisibility test of 5 and of 10",
+    "is 4536 divisible by 2 and by 3 give reasons",
+    "which digits can end a number divisible by 10",
+    "test whether 273 is divisible by 9",
+    "use a divisibility rule to check 1256 by 4",
+    "why do divisibility tests work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "fegp.5.4",
+   "title": "Perfect Numbers and the Prime Hunt",
+   "section": "Prime hunt and perfect numbers",
+   "definition": "A perfect number equals the sum of its proper factors, like 6 = 1 + 2 + 3 and 28 = 1 + 2 + 4 + 7 + 14; hunting primes and such special numbers turns factor games into discoveries.",
+   "formula": "",
+   "key_idea": "Some numbers hide rare balance: their factors add up exactly to themselves, a property discovered long ago.",
+   "textbook_ref": "fegp105.txt, Prime hunt and perfect numbers",
+   "question_patterns": [
+    "what is a perfect number give an example",
+    "show that 6 is a perfect number",
+    "is 28 a perfect number check",
+    "why is 1 not a perfect number",
+    "find the proper factors of 12 and add them",
+    "hunting primes: how do you check if 29 is prime"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp105.txt",
+   "concept": "fegp.5.1",
+   "question_type": "compute",
+   "question_pattern": "Break 60 into prime factors step by step: first divide by 2, then divide the result by 2 again.",
+   "extracted_variables": {
+    "num": "the number to break up",
+    "p1": "the first prime divisor",
+    "p2": "the second prime divisor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by the first prime",
+     "explain": "Take out the first prime factor by dividing the number by it.",
+     "compute": "q1 = num // p1"
+    },
+    {
+     "step": 2,
+     "action": "divide the result again",
+     "explain": "Keep dividing by primes until what remains is itself prime.",
+     "compute": "q2 = q1 // p2"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp105.txt",
+   "concept": "fegp.5.1",
+   "question_type": "compute",
+   "question_pattern": "Start breaking 36 into prime factors: divide by 2 and then divide the answer by 2 again.",
+   "extracted_variables": {
+    "num": "the number to break up",
+    "p1": "the first prime divisor",
+    "p2": "the second prime divisor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by the first prime",
+     "explain": "36 divided by 2 gives the next stage of the factor tree.",
+     "compute": "q1 = num // p1"
+    },
+    {
+     "step": 2,
+     "action": "divide the result again",
+     "explain": "18 divided by 2 leaves 9, which still waits for the prime 3.",
+     "compute": "q2 = q1 // p2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp105.txt",
+   "concept": "fegp.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "which numbers say idli and which say vada in the game?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp105.txt, Figure it Out",
+   "questions": [
+    "Break 60 into prime factors.",
+    "Which numbers say idli and which say vada in the game?",
+    "State the divisibility tests of 2, 5 and 10.",
+    "Show that 6 is a perfect number.",
+    "Is 1 prime? Give a reason."
+   ]
+  }
+ ]
+}

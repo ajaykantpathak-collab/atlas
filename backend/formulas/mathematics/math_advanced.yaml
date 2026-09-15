@@ -1,0 +1,1189 @@
+---
+- formula_id: "MATH_RA_001"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Ratio Test"
+  latex: "\\limsup_{n \\to \\infty} \\left|\\frac{a_{n+1}}{a_n}\\right| = L < 1 \\implies \\sum_{n=0}^{\\infty} a_n \\text{ converges absolutely}"
+  description: "Determines absolute convergence of an infinite series by examining the limit of the ratio of successive terms."
+
+- formula_id: "MATH_RA_002"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Root Test"
+  latex: "\\limsup_{n \\to \\infty} \\sqrt[n]{|a_n|} = L < 1 \\implies \\sum_{n=0}^{\\infty} a_n \\text{ converges absolutely}"
+  description: "Determines absolute convergence using the nth root of the general term."
+
+- formula_id: "MATH_RA_003"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Direct Comparison Test"
+  latex: "0 \\leq a_n \\leq b_n \\text{ and } \\sum_{n=1}^{\\infty} b_n < \\infty \\implies \\sum_{n=1}^{\\infty} a_n < \\infty"
+  description: "Compares a series with a known convergent series to establish convergence."
+
+- formula_id: "MATH_RA_004"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Limit Comparison Test"
+  latex: "\\lim_{n \\to \\infty} \\frac{a_n}{b_n} = c \\in (0,\\infty) \\implies \\sum a_n \\text{ and } \\sum b_n \\text{ converge or diverge together}"
+  description: "Compares the asymptotic behavior of two series."
+
+- formula_id: "MATH_RA_005"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Integral Test"
+  latex: "f \\text{ positive decreasing} \\implies \\sum_{n=1}^{\\infty} f(n) < \\infty \\iff \\int_1^{\\infty} f(x)\\,dx < \\infty"
+  description: "Relates convergence of a series to convergence of an improper integral."
+
+- formula_id: "MATH_RA_006"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Alternating Series Test"
+  latex: "a_n \\searrow 0 \\implies \\sum_{n=1}^{\\infty} (-1)^{n+1} a_n \\text{ converges}"
+  description: "Leibniz criterion for conditional convergence of alternating series."
+
+- formula_id: "MATH_RA_007"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Riemann Sum Definition"
+  latex: "\\sum_{i=1}^{n} f(x_i^*) \\Delta x_i \\to \\int_a^b f(x)\\,dx \\text{ as } \\|\\Delta x\\| \\to 0"
+  description: "Defines the Riemann integral as the limit of sums over partitions."
+
+- formula_id: "MATH_RA_008"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Riemann Integral Definition"
+  latex: "\\int_a^b f(x)\\,dx = L \\iff \\forall\\epsilon>0\\,\\exists\\delta>0: \\|P\\|<\\delta \\implies |S(P,f)-L|<\\epsilon"
+  description: "Riemann integrability via partition refinement."
+
+- formula_id: "MATH_RA_009"
+  category: "real_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Lebesgue Integral Definition"
+  latex: "\\int_E f\\,d\\mu = \\int_0^{\\infty} \\mu(\\{x \\in E : f(x) > t\\})\\,dt"
+  description: "Defines the Lebesgue integral via distribution function of f."
+
+- formula_id: "MATH_RA_010"
+  category: "real_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Lebesgue Dominated Convergence Theorem"
+  latex: "f_n \\to f \\text{ a.e.}, \\ |f_n| \\leq g \\in L^1 \\implies \\lim_{n\\to\\infty} \\int f_n\\,d\\mu = \\int f\\,d\\mu"
+  description: "Allows interchange of limit and integral under domination."
+
+- formula_id: "MATH_RA_011"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Taylor's Theorem with Lagrange Remainder"
+  latex: "f(x) = \\sum_{k=0}^{n} \\frac{f^{(k)}(a)}{k!}(x-a)^k + \\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}"
+  description: "Expresses f(x) as Taylor polynomial plus remainder evaluated at intermediate point c."
+
+- formula_id: "MATH_RA_012"
+  category: "real_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Taylor's Theorem with Cauchy Remainder"
+  latex: "R_n(x) = \\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a)"
+  description: "Alternative form of Taylor remainder involving two evaluation points."
+
+- formula_id: "MATH_RA_013"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Cauchy Criterion for Series"
+  latex: "\\sum a_n \\text{ converges} \\iff \\forall\\epsilon>0\\,\\exists N: m,n>N \\implies \\left|\\sum_{k=m}^{n} a_k\\right| < \\epsilon"
+  description: "Characterizes convergence of series via Cauchy condition on partial sums."
+
+- formula_id: "MATH_RA_014"
+  category: "real_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Weierstrass M-Test"
+  latex: "|f_n(x)| \\leq M_n,\\ \\sum M_n < \\infty \\implies \\sum f_n(x) \\text{ converges uniformly}"
+  description: "Uniform convergence test for series of functions."
+
+- formula_id: "MATH_CA_001"
+  category: "complex_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Cauchy's Integral Theorem"
+  latex: "\\oint_{\\gamma} f(z)\\,dz = 0"
+  description: "States that the contour integral of an analytic function over a closed curve is zero."
+
+- formula_id: "MATH_CA_002"
+  category: "complex_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Cauchy's Integral Formula"
+  latex: "f^{(n)}(a) = \\frac{n!}{2\\pi i} \\oint_{\\gamma} \\frac{f(z)}{(z-a)^{n+1}}\\,dz"
+  description: "Evaluates derivatives of analytic functions via contour integrals."
+
+- formula_id: "MATH_CA_003"
+  category: "complex_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Cauchy-Riemann Equations"
+  latex: "\\frac{\\partial u}{\\partial x} = \\frac{\\partial v}{\\partial y},\\quad \\frac{\\partial u}{\\partial y} = -\\frac{\\partial v}{\\partial x}"
+  description: "Necessary and sufficient conditions for complex differentiability."
+
+- formula_id: "MATH_CA_004"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Morera's Theorem"
+  latex: "\\oint_{\\gamma} f(z)\\,dz = 0 \\text{ for all closed } \\gamma \\implies f \\text{ is analytic}"
+  description: "Converse of Cauchy's theorem: vanishing contour integrals imply analyticity."
+
+- formula_id: "MATH_CA_005"
+  category: "complex_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Residue Theorem"
+  latex: "\\oint_{\\gamma} f(z)\\,dz = 2\\pi i \\sum_{k} \\operatorname{Res}(f, a_k)"
+  description: "Computes contour integrals by summing residues inside the contour."
+
+- formula_id: "MATH_CA_006"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Laurent Series Expansion"
+  latex: "f(z) = \\sum_{n=-\\infty}^{\\infty} c_n (z-a)^n,\\quad c_n = \\frac{1}{2\\pi i} \\oint_{\\gamma} \\frac{f(\\zeta)}{(\\zeta-a)^{n+1}}\\,d\\zeta"
+  description: "Represents functions in annuli via series with negative powers."
+
+- formula_id: "MATH_CA_007"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Argument Principle"
+  latex: "\\frac{1}{2\\pi i}\\oint_{\\gamma} \\frac{f'(z)}{f(z)}\\,dz = N - P"
+  description: "Relates contour integral of logarithmic derivative to zeros minus poles."
+
+- formula_id: "MATH_CA_008"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Rouché's Theorem"
+  latex: "|f(z) - g(z)| < |g(z)| \\text{ on } \\gamma \\implies f,g \\text{ have same number of zeros inside } \\gamma"
+  description: "Counts zeros inside contours via perturbation."
+
+- formula_id: "MATH_CA_009"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Liouville's Theorem"
+  latex: "f \\text{ entire and bounded} \\implies f \\text{ is constant}"
+  description: "Bounded entire functions are constant."
+
+- formula_id: "MATH_CA_010"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Maximum Modulus Principle"
+  latex: "|f(z)| \\leq \\max_{\\partial D} |f| \\text{ for } f \\text{ analytic on bounded domain } D"
+  description: "Maximum of modulus occurs on boundary for non-constant analytic functions."
+
+- formula_id: "MATH_CA_011"
+  category: "complex_analysis"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Taylor Series for Analytic Functions"
+  latex: "f(z) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(z-a)^n"
+  description: "Power series expansion of analytic function about point a."
+
+- formula_id: "MATH_CA_012"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Jordan's Lemma"
+  latex: "\\lim_{R \\to \\infty} \\int_{\\gamma_R} f(z) e^{iaz}\\,dz = 0"
+  description: "Evaluates vanishing integrals over large semicircles for exponential factors."
+
+- formula_id: "MATH_CA_013"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Gauss's Mean Value Theorem"
+  latex: "f(a) = \\frac{1}{2\\pi} \\int_0^{2\\pi} f(a+re^{i\\theta})\\,d\\theta"
+  description: "Value at center equals average over circle for analytic f."
+
+- formula_id: "MATH_CA_014"
+  category: "complex_analysis"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Schwarz Lemma"
+  latex: "|f(z)| \\leq |z|,\\quad |f'(0)| \\leq 1"
+  description: "Bound on analytic self-maps of unit disk fixing the origin."
+
+- formula_id: "MATH_LA_001"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Singular Value Decomposition"
+  latex: "A = U\\Sigma V^T,\\quad U^TU = I,\\ V^TV = I,\\ \\Sigma = \\operatorname{diag}(\\sigma_1,\\ldots,\\sigma_r)"
+  description: "Factorizes matrix into orthogonal matrices and singular values."
+
+- formula_id: "MATH_LA_002"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "QR Decomposition via Gram-Schmidt"
+  latex: "A = QR,\\quad Q^TQ = I,\\ R \\text{ upper triangular}"
+  description: "Orthogonal-triangular factorization of a matrix."
+
+- formula_id: "MATH_LA_003"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Orthogonal Projection Matrix"
+  latex: "P = A(A^TA)^{-1}A^T"
+  description: "Projects vectors onto the column space of A."
+
+- formula_id: "MATH_LA_004"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Spectral Theorem for Symmetric Matrices"
+  latex: "A = Q\\Lambda Q^T,\\quad Q^TQ = I,\\ \\Lambda = \\operatorname{diag}(\\lambda_1,\\ldots,\\lambda_n)"
+  description: "Diagonalizes real symmetric matrices by orthogonal similarity."
+
+- formula_id: "MATH_LA_005"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Spectral Theorem for Normal Matrices"
+  latex: "A = U\\Lambda U^*,\\quad U^*U = I"
+  description: "Diagonalizes normal matrices by unitary similarity."
+
+- formula_id: "MATH_LA_006"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Jordan Canonical Form"
+  latex: "A = PJP^{-1},\\quad J = \\operatorname{diag}(J_{k_1}(\\lambda_1),\\ldots,J_{k_m}(\\lambda_m))"
+  description: "Block diagonal form capturing generalized eigenspaces."
+
+- formula_id: "MATH_LA_007"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Cayley-Hamilton Theorem"
+  latex: "p_A(A) = 0"
+  description: "A matrix satisfies its own characteristic polynomial."
+
+- formula_id: "MATH_LA_008"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Eigendecomposition"
+  latex: "A = VDV^{-1}"
+  description: "Diagonalizes diagonalizable matrices via eigenvector matrix V."
+
+- formula_id: "MATH_LA_009"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Cholesky Decomposition"
+  latex: "A = LL^T,\\quad L \\text{ lower triangular}"
+  description: "Factorization of symmetric positive definite matrices."
+
+- formula_id: "MATH_LA_010"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "LU Decomposition"
+  latex: "PA = LU,\\quad P \\text{ permutation},\\ L \\text{ lower triangular},\\ U \\text{ upper triangular}"
+  description: "Gaussian elimination factorization with partial pivoting."
+
+- formula_id: "MATH_LA_011"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Moore-Penrose Pseudoinverse"
+  latex: "A^+ = (A^TA)^{-1}A^T"
+  description: "Generalized inverse for full column rank matrices."
+
+- formula_id: "MATH_LA_012"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Gram-Schmidt Orthogonalization"
+  latex: "u_k = v_k - \\sum_{j=1}^{k-1} \\frac{\\langle v_k, u_j \\rangle}{\\langle u_j, u_j \\rangle} u_j"
+  description: "Constructs orthogonal basis from linearly independent vectors."
+
+- formula_id: "MATH_LA_013"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Householder Reflection"
+  latex: "H = I - 2\\frac{vv^T}{v^Tv}"
+  description: "Reflection matrix used in QR factorization."
+
+- formula_id: "MATH_LA_014"
+  category: "linear_algebra_advanced"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Givens Rotation"
+  latex: "G(i,j,\\theta) = I \\text{ except } 2\\times2 \\text{ rotation in } (i,j) \\text{ plane}"
+  description: "Elementary rotation matrix for zeroing matrix entries."
+
+- formula_id: "MATH_NM_001"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Newton-Raphson Method"
+  latex: "x_{n+1} = x_n - \\frac{f(x_n)}{f'(x_n)}"
+  description: "Iterative root-finding method using tangent line approximation."
+
+- formula_id: "MATH_NM_002"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Secant Method"
+  latex: "x_{n+1} = x_n - \\frac{f(x_n)(x_n - x_{n-1})}{f(x_n) - f(x_{n-1})}"
+  description: "Derivative-free root-finding using secant approximations."
+
+- formula_id: "MATH_NM_003"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Bisection Method"
+  latex: "c_n = \\frac{a_n + b_n}{2},\\quad \\text{sign}(f(c_n)) = \\text{sign}(f(a_n)) \\implies a_{n+1}=c_n,\\ b_{n+1}=b_n"
+  description: "Bracketing root-finding method with guaranteed linear convergence."
+
+- formula_id: "MATH_NM_004"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Runge-Kutta 4th Order Method"
+  latex: "k_1 = f(t_n,y_n),\\ k_2 = f(t_n+h/2,y_n+hk_1/2),\\ k_3 = f(t_n+h/2,y_n+hk_2/2),\\ k_4 = f(t_n+h,y_n+hk_3),\\ y_{n+1} = y_n + \\frac{h}{6}(k_1+2k_2+2k_3+k_4)"
+  description: "Classical fourth-order ODE integrator."
+
+- formula_id: "MATH_NM_005"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Forward Finite Difference"
+  latex: "f'(x) \\approx \\frac{f(x+h)-f(x)}{h} + O(h)"
+  description: "First-order accurate approximation of first derivative."
+
+- formula_id: "MATH_NM_006"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Backward Finite Difference"
+  latex: "f'(x) \\approx \\frac{f(x)-f(x-h)}{h} + O(h)"
+  description: "One-sided first derivative approximation."
+
+- formula_id: "MATH_NM_007"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Central Finite Difference"
+  latex: "f'(x) \\approx \\frac{f(x+h)-f(x-h)}{2h} + O(h^2)"
+  description: "Second-order accurate symmetric derivative approximation."
+
+- formula_id: "MATH_NM_008"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Lagrange Interpolation Polynomial"
+  latex: "P(x) = \\sum_{i=0}^{n} y_i \\prod_{j \\neq i} \\frac{x-x_j}{x_i-x_j}"
+  description: "Unique polynomial of degree ≤ n passing through n+1 data points."
+
+- formula_id: "MATH_NM_009"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Newton Interpolation Polynomial"
+  latex: "P(x) = a_0 + a_1(x-x_0) + a_2(x-x_0)(x-x_1) + \\cdots + a_n \\prod_{k=0}^{n-1}(x-x_k)"
+  description: "Nested form of interpolating polynomial with divided differences."
+
+- formula_id: "MATH_NM_010"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Euler Method"
+  latex: "y_{n+1} = y_n + hf(t_n,y_n)"
+  description: "First-order explicit ODE integration method."
+
+- formula_id: "MATH_NM_011"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Modified Euler Method"
+  latex: "y_{n+1} = y_n + \\frac{h}{2}\\big[f(t_n,y_n) + f(t_{n+1},y_n+hf(t_n,y_n))\\big]"
+  description: "Second-order predictor-corrector ODE method."
+
+- formula_id: "MATH_NM_012"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Trapezoidal Rule"
+  latex: "\\int_a^b f(x)\\,dx \\approx \\frac{h}{2}\\big[f(x_0)+2\\sum_{i=1}^{n-1}f(x_i)+f(x_n)\\big]"
+  description: "Second-order accurate numerical quadrature."
+
+- formula_id: "MATH_NM_013"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Simpson's Rule"
+  latex: "\\int_a^b f(x)\\,dx \\approx \\frac{h}{3}\\big[f(x_0)+4\\sum_{\\text{odd } i}f(x_i)+2\\sum_{\\text{even } i\\neq 0,n}f(x_i)+f(x_n)\\big]"
+  description: "Fourth-order accurate composite quadrature rule."
+
+- formula_id: "MATH_NM_014"
+  category: "numerical_methods"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Gaussian Elimination"
+  latex: "Ux = c \\text{ after forward elimination, then back substitution}"
+  description: "Algorithm for solving linear systems via triangular factorization."
+
+- formula_id: "MATH_OPT_001"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Karush-Kuhn-Tucker (KKT) Conditions"
+  latex: "\\nabla f(x) + \\sum_{i} \\lambda_i \\nabla g_i(x) + \\sum_{j} \\mu_j \\nabla h_j(x) = 0,\\quad \\mu_j h_j(x) = 0,\\quad \\mu_j \\geq 0"
+  description: "First-order necessary conditions for constrained optimization."
+
+- formula_id: "MATH_OPT_002"
+  category: "optimization"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Gradient Descent Update"
+  latex: "x_{k+1} = x_k - \\alpha_k \\nabla f(x_k)"
+  description: "Iterative minimization using negative gradient direction."
+
+- formula_id: "MATH_OPT_003"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Simplex Method Tableau"
+  latex: "x_B = B^{-1}b - B^{-1}Nx_N"
+  description: "Basic feasible solution representation in linear programming."
+
+- formula_id: "MATH_OPT_004"
+  category: "optimization"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Lagrange Multipliers for Equality Constraints"
+  latex: "\\mathcal{L}(x,\\lambda) = f(x) - \\lambda^T(g(x)-c)"
+  description: "Constructs Lagrangian for constrained optimization."
+
+- formula_id: "MATH_OPT_005"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Newton's Method for Optimization"
+  latex: "x_{k+1} = x_k - [\\nabla^2 f(x_k)]^{-1} \\nabla f(x_k)"
+  description: "Second-order method using Hessian inverse for minimization."
+
+- formula_id: "MATH_OPT_006"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Nonlinear Conjugate Gradient"
+  latex: "x_{k+1} = x_k + \\alpha_k p_k,\\quad p_{k+1} = -\\nabla f(x_{k+1}) + \\beta_k p_k"
+  description: "Direction set method with conjugate search directions."
+
+- formula_id: "MATH_OPT_007"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Lagrange Dual Function"
+  latex: "g(\\lambda) = \\inf_{x} \\mathcal{L}(x,\\lambda)"
+  description: "Pointwise infimum of Lagrangian over primal variables."
+
+- formula_id: "MATH_OPT_008"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Slater's Condition"
+  latex: "\\exists x_0: g_i(x_0) < 0,\\ h_j(x_0) = 0 \\implies \\text{zero duality gap}"
+  description: "Interior point condition guaranteeing strong duality in convex optimization."
+
+- formula_id: "MATH_OPT_009"
+  category: "optimization"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Convex Set Definition"
+  latex: "(1-t)x + ty \\in C \\text{ for all } x,y \\in C,\\ t \\in [0,1]"
+  description: "Set containing all line segments between its points."
+
+- formula_id: "MATH_OPT_010"
+  category: "optimization"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Convex Function Definition"
+  latex: "f((1-t)x + ty) \\leq (1-t)f(x) + tf(y)"
+  description: "Function whose epigraph is a convex set."
+
+- formula_id: "MATH_OPT_011"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Jensen's Inequality"
+  latex: "f\\Big(\\sum_{i} p_i x_i\\Big) \\leq \\sum_{i} p_i f(x_i)"
+  description: "Convex functions preserve inequality under convex combinations."
+
+- formula_id: "MATH_OPT_012"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Subgradient Definition"
+  latex: "f(y) \\geq f(x) + g^T(y-x) \\text{ for all } y \\implies g \\in \\partial f(x)"
+  description: "Generalization of gradient for nondifferentiable convex functions."
+
+- formula_id: "MATH_OPT_013"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Armijo Condition"
+  latex: "f(x_k - \\alpha_k \\nabla f(x_k)) \\leq f(x_k) - c\\alpha_k \\|\\nabla f(x_k)\\|^2"
+  description: "Sufficient decrease condition for step size selection in gradient methods."
+
+- formula_id: "MATH_OPT_014"
+  category: "optimization"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Logarithmic Barrier Function"
+  latex: "\\phi(x) = f(x) - \\mu \\sum_{i} \\ln(-g_i(x))"
+  description: "Interior point barrier for inequality constrained problems."
+
+- formula_id: "MATH_DG_001"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Curvature of Plane Curve"
+  latex: "\\kappa = \\frac{|x'y'' - x''y'|}{(x'^2 + y'^2)^{3/2}}"
+  description: "Measures bending of parametric plane curves."
+
+- formula_id: "MATH_DG_002"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Torsion of Space Curve"
+  latex: "\\tau = \\frac{(\\mathbf{r}' \\times \\mathbf{r}'') \\cdot \\mathbf{r}'''}{|\\mathbf{r}' \\times \\mathbf{r}''|^2}"
+  description: "Measures twisting of space curves out of the osculating plane."
+
+- formula_id: "MATH_DG_003"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Frenet-Serret Formulas"
+  latex: "\\mathbf{T}' = \\kappa\\mathbf{N},\\quad \\mathbf{N}' = -\\kappa\\mathbf{T}+\\tau\\mathbf{B},\\quad \\mathbf{B}' = -\\tau\\mathbf{N}"
+  description: "Describes derivatives of orthonormal frame along curve."
+
+- formula_id: "MATH_DG_004"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Christoffel Symbols of the First Kind"
+  latex: "\\Gamma_{ij,k} = \\frac{1}{2}\\big(\\partial_i g_{kj} + \\partial_j g_{ki} - \\partial_k g_{ij}\\big)"
+  description: "Metric derivatives forming connection coefficients in lower index form."
+
+- formula_id: "MATH_DG_005"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Christoffel Symbols of the Second Kind"
+  latex: "\\Gamma^k_{ij} = g^{kl}\\Gamma_{lij}"
+  description: "Contravariant connection coefficients for covariant derivative."
+
+- formula_id: "MATH_DG_006"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Geodesic Equation"
+  latex: "\\ddot{x}^k + \\Gamma^k_{ij}\\dot{x}^i\\dot{x}^j = 0"
+  description: "Euler-Lagrange equations for locally length-minimizing curves."
+
+- formula_id: "MATH_DG_007"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "First Fundamental Form"
+  latex: "I = E\\,du^2 + 2F\\,du\\,dv + G\\,dv^2"
+  description: "Induced metric tensor on parametrized surfaces."
+
+- formula_id: "MATH_DG_008"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Second Fundamental Form"
+  latex: "II = L\\,du^2 + 2M\\,du\\,dv + N\\,dv^2"
+  description: "Encodes extrinsic curvature via normal component of second derivatives."
+
+- formula_id: "MATH_DG_009"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Gaussian Curvature"
+  latex: "K = \\frac{LN - M^2}{EG - F^2}"
+  description: "Intrinsic curvature as product of principal curvatures."
+
+- formula_id: "MATH_DG_010"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Mean Curvature"
+  latex: "H = \\frac{EG - 2FM + GN}{2(EG - F^2)}"
+  description: "Average of principal curvatures measuring surface bending."
+
+- formula_id: "MATH_DG_011"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Riemann Curvature Tensor"
+  latex: "R^\\rho_{\\sigma\\mu\\nu} = \\partial_\\mu \\Gamma^\\rho_{\\nu\\sigma} - \\partial_\\nu \\Gamma^\\rho_{\\mu\\sigma} + \\Gamma^\\rho_{\\mu\\lambda}\\Gamma^\\lambda_{\\nu\\sigma} - \\Gamma^\\rho_{\\nu\\lambda}\\Gamma^\\lambda_{\\mu\\sigma}"
+  description: "Measures intrinsic curvature and noncommutativity of covariant derivatives."
+
+- formula_id: "MATH_DG_012"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Metric Tensor"
+  latex: "ds^2 = g_{ij}\\,dx^i\\,dx^j"
+  description: "Infinitesimal arc length squared in coordinate basis."
+
+- formula_id: "MATH_DG_013"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Covariant Derivative"
+  latex: "\\nabla_i V^j = \\partial_i V^j + \\Gamma^j_{ik}V^k"
+  description: "Coordinate-covariant derivative correcting for basis variation."
+
+- formula_id: "MATH_DG_014"
+  category: "differential_geometry"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Gauss-Bonnet Theorem"
+  latex: "\\int_M K\\,dA + \\int_{\\partial M} \\kappa_g\\,ds = 2\\pi\\chi(M)"
+  description: "Relates total curvature to Euler characteristic for compact surfaces."
+
+- formula_id: "MATH_PDE_001"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Classification of Second-Order PDEs"
+  latex: "A\\phi_{xx} + 2B\\phi_{xy} + C\\phi_{yy} + \\cdots: \\begin{cases} B^2 - AC < 0 & \\text{elliptic} \\\\ B^2 - AC = 0 & \\text{parabolic} \\\\ B^2 - AC > 0 & \\text{hyperbolic} \\end{cases}"
+  description: "Taxonomy based on discriminant of principal part."
+
+- formula_id: "MATH_PDE_002"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Heat Equation"
+  latex: "\\frac{\\partial u}{\\partial t} = \\alpha \\nabla^2 u"
+  description: "Parabolic PDE modeling diffusion."
+
+- formula_id: "MATH_PDE_003"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Wave Equation"
+  latex: "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\nabla^2 u"
+  description: "Hyperbolic PDE describing wave propagation."
+
+- formula_id: "MATH_PDE_004"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Laplace Equation"
+  latex: "\\nabla^2 u = 0"
+  description: "Elliptic PDE for harmonic functions."
+
+- formula_id: "MATH_PDE_005"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Separation of Variables Ansatz"
+  latex: "u(x,t) = X(x)T(t)"
+  description: "Reduces PDE to ODEs by assuming product solution."
+
+- formula_id: "MATH_PDE_006"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Fourier Series Representation"
+  latex: "f(x) = \\sum_{n=-\\infty}^{\\infty} c_n e^{inx},\\quad c_n = \\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi} f(x)e^{-inx}\\,dx"
+  description: "Expands periodic functions in complex exponential basis."
+
+- formula_id: "MATH_PDE_007"
+  category: "partial_differential_equations"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Fourier Transform"
+  latex: "\\hat{f}(\\xi) = \\int_{-\\infty}^{\\infty} f(x)e^{-2\\pi i x \\xi}\\,dx"
+  description: "Continuous frequency domain representation."
+
+- formula_id: "MATH_PDE_008"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Laplace Transform"
+  latex: "\\mathcal{L}\\{f\\}(s) = \\int_0^{\\infty} f(t)e^{-st}\\,dt"
+  description: "Transforms initial value problems into algebraic equations."
+
+- formula_id: "MATH_PDE_009"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Method of Characteristics"
+  latex: "\\frac{dx}{a} = \\frac{dy}{b} = \\frac{du}{c}"
+  description: "Solves first-order PDEs along characteristic curves."
+
+- formula_id: "MATH_PDE_010"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "D'Alembert Solution"
+  latex: "u(x,t) = \\frac{1}{2}\\big[f(x+ct)+f(x-ct)\\big] + \\frac{1}{2c}\\int_{x-ct}^{x+ct} g(s)\\,ds"
+  description: "Explicit solution of 1D wave equation with initial data."
+
+- formula_id: "MATH_PDE_011"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Maximum Principle for Elliptic PDEs"
+  latex: "\\max_{\\bar{\\Omega}} u = \\max_{\\partial \\Omega} u"
+  description: "Solutions of Laplace equation achieve extrema on boundary."
+
+- formula_id: "MATH_PDE_012"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Energy Method for Wave Equation"
+  latex: "E(t) = \\int_\\Omega \\big(|u_t|^2 + c^2|\\nabla u|^2\\big)\\,dx"
+  description: "Defines conserved energy for wave evolution."
+
+- formula_id: "MATH_PDE_013"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Green's Function Representation"
+  latex: "Lu = f \\implies u(x) = \\int G(x,y)f(y)\\,dy"
+  description: "Inverts linear differential operators via fundamental solution."
+
+- formula_id: "MATH_PDE_014"
+  category: "partial_differential_equations"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Weak Solution Definition"
+  latex: "\\int_\\Omega u\\,\\phi_t + \\nabla u \\cdot \\nabla \\phi = 0"
+  description: "Solves PDE in distributional sense via integration by parts."
+
+- formula_id: "MATH_AA_001"
+  category: "abstract_algebra"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Lagrange's Theorem"
+  latex: "|G| = |H|\\,[G:H]"
+  description: "Order of subgroup divides order of group."
+
+- formula_id: "MATH_AA_002"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Sylow Theorems"
+  latex: "p^k \\|\\, |G| \\implies \\exists P \\leq G,\\ |P| = p^k"
+  description: "Existence of subgroups of maximal prime power order."
+
+- formula_id: "MATH_AA_003"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Cauchy's Theorem (Groups)"
+  latex: "p \\mid |G| \\implies \\exists g \\in G,\\ \\operatorname{ord}(g) = p"
+  description: "Finite groups of order divisible by p contain element of order p."
+
+- formula_id: "MATH_AA_004"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Class Equation"
+  latex: "|G| = |Z(G)| + \\sum_{i} [G:C_G(g_i)]"
+  description: "Decomposes group order via centralizer orbits."
+
+- formula_id: "MATH_AA_005"
+  category: "abstract_algebra"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Ring Ideal Definition"
+  latex: "I \\triangleleft R: I+I \\subseteq I,\\ R\\cdot I \\subseteq I"
+  description: "Subring absorbing multiplication by ring elements."
+
+- formula_id: "MATH_AA_006"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Quotient Ring"
+  latex: "R/I = \\{r + I : r \\in R\\}"
+  description: "Ring formed by cosets of an ideal."
+
+- formula_id: "MATH_AA_007"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Ring Homomorphism Properties"
+  latex: "\\phi(r+s) = \\phi(r)+\\phi(s),\\quad \\phi(rs) = \\phi(r)\\phi(s)"
+  description: "Structure-preserving maps between rings."
+
+- formula_id: "MATH_AA_008"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Galois Group Definition"
+  latex: "\\operatorname{Gal}(E/F) = \\{\\sigma: E \\to E \\text{ automorphism fixing } F\\}"
+  description: "Group of field automorphisms fixing base field."
+
+- formula_id: "MATH_AA_009"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Fundamental Theorem of Galois Theory"
+  latex: "[E:F] = |\\operatorname{Gal}(E/F)|"
+  description: "Equivalence of field extension degree and Galois group order for Galois extensions."
+
+- formula_id: "MATH_AA_010"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Module Axioms"
+  latex: "(rm+ns) = r(m)+s(n),\\ r(m+s)=rm+rs,\\ (r+s)m=rm+sm,\\ (rs)m=r(sm)"
+  description: "Generalizes vector space structure to rings."
+
+- formula_id: "MATH_AA_011"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Submodule Definition"
+  latex: "N \\leq M: rn \\in N \\text{ for all } r \\in R,\\ n \\in N"
+  description: "Subset closed under module operations."
+
+- formula_id: "MATH_AA_012"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Module Homomorphism"
+  latex: "\\phi(m+n) = \\phi(m)+\\phi(n),\\quad \\phi(rm) = r\\phi(m)"
+  description: "Linear maps between modules preserving scalar multiplication."
+
+- formula_id: "MATH_AA_013"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Tensor Product Universal Property"
+  latex: "M \\otimes_R N"
+  description: "Bilinear map factoring uniquely through tensor product."
+
+- formula_id: "MATH_AA_014"
+  category: "abstract_algebra"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Exact Sequence"
+  latex: "\\cdots \\to M_{i-1} \\xrightarrow{f_i} M_i \\xrightarrow{f_{i+1}} M_{i+1} \\to \\cdots,\\ \\operatorname{im}(f_i) = \\ker(f_{i+1})"
+  description: "Chain complex with image equal to kernel at each junction."
+
+- formula_id: "MATH_TOP_001"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Open Set Definition (Metric Space)"
+  latex: "U \\text{ open} \\iff \\forall x \\in U,\\ \\exists\\epsilon > 0: B_\\epsilon(x) \\subseteq U"
+  description: "Every point has a neighborhood contained in the set."
+
+- formula_id: "MATH_TOP_002"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Closed Set Definition"
+  latex: "F \\text{ closed} \\iff F^c \\text{ open} \\iff F = \\overline{F}"
+  description: "Set containing all its limit points."
+
+- formula_id: "MATH_TOP_003"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Continuity (Epsilon-Delta)"
+  latex: "\\forall\\epsilon>0\\,\\exists\\delta>0: d_X(x,a) < \\delta \\implies d_Y(f(x),f(a)) < \\epsilon"
+  description: "Classical definition of continuous function."
+
+- formula_id: "MATH_TOP_004"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Compactness (Open Cover Definition)"
+  latex: "\\mathcal{U} \\text{ open cover} \\implies \\exists \\text{ finite subcover}"
+  description: "Every open cover admits a finite subcover."
+
+- formula_id: "MATH_TOP_005"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Sequential Compactness"
+  latex: "\\text{Every sequence has a convergent subsequence}"
+  description: "Equivalent to compactness in metric spaces."
+
+- formula_id: "MATH_TOP_006"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Heine-Borel Theorem"
+  latex: "K \\subseteq \\mathbb{R}^n \\text{ compact} \\iff K \\text{ closed and bounded}"
+  description: "Characterization of compact subsets in Euclidean space."
+
+- formula_id: "MATH_TOP_007"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Connectedness"
+  latex: "\\text{No separation } U,V: X=U\\cup V,\\ U\\cap V=\\emptyset,\\ U,V \\text{ open nonempty}"
+  description: "Space cannot be split into two disjoint open sets."
+
+- formula_id: "MATH_TOP_008"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Path Connectedness"
+  latex: "\\forall x,y \\in X,\\ \\exists \\gamma: [0,1] \\to X \\text{ continuous},\\ \\gamma(0)=x,\\ \\gamma(1)=y"
+  description: "Any two points can be joined by a continuous path."
+
+- formula_id: "MATH_TOP_009"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Homotopy"
+  latex: "H: X \\times [0,1] \\to Y,\\ H(x,0)=f(x),\\ H(x,1)=g(x)"
+  description: "Continuous deformation between two maps."
+
+- formula_id: "MATH_TOP_010"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Fundamental Group"
+  latex: "\\pi_1(X,x_0) = \\{\\text{homotopy classes of loops at } x_0\\}"
+  description: "First homotopy group classifying loops up to deformation."
+
+- formula_id: "MATH_TOP_011"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Product Topology Basis"
+  latex: "\\mathcal{B} = \\{U \\times V : U \\text{ open in } X,\\ V \\text{ open in } Y\\}"
+  description: "Coarsest topology making projections continuous."
+
+- formula_id: "MATH_TOP_012"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Quotient Topology"
+  latex: "U \\subseteq X/\\sim \\text{ open} \\iff \\pi^{-1}(U) \\text{ open in } X"
+  description: "Final topology making quotient map continuous."
+
+- formula_id: "MATH_TOP_013"
+  category: "topology"
+  grade_range:
+    - "undergraduate"
+    - "graduate"
+    - "phd"
+  name: "Hausdorff Space"
+  latex: "\\forall x \\neq y,\\ \\exists U,V \\text{ open}: x \\in U,\\ y \\in V,\\ U \\cap V = \\emptyset"
+  description: "Points can be separated by disjoint neighborhoods."
+
+- formula_id: "MATH_TOP_014"
+  category: "topology"
+  grade_range:
+    - "graduate"
+    - "phd"
+  name: "Urysohn Lemma"
+  latex: "X \\text{ normal},\\ A,B \\text{ closed disjoint} \\implies \\exists f: X \\to [0,1],\\ f|_A=0,\\ f|_B=1"
+  description: "Existence of continuous function separating disjoint closed sets in normal spaces."

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_010",
+   "title": "c11_ip_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nstudent = {'name': 'Priya', 'age': 17, 'grade': 'A'}\nprint(student['age'])\nprint(student.get('grade'))\nprint(student.get('city'))\n```",
+     "a": "Output: 17, 'A', None. The first two access existing keys directly and via get(). The third uses get() for a non-existent key 'city', returning None instead of raising KeyError. A wrong answer (e.g., KeyError for third line) reveals the student doesn't understand get()'s safe-access behavior versus square brackets.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a TypeError, and how to fix it:\n```python\ndata = {[1, 2]: 'coordinates', 'name': 'point'}\n```",
+     "a": "Lists are mutable and unhashable, so they cannot be dictionary keys. The fix is to use an immutable tuple: `{(1, 2): 'coordinates', 'name': 'point'}`. A wrong answer (e.g., \"keys must be strings\") reveals the misconception that only strings can be keys, ignoring that numbers, tuples, and frozensets are also valid immutable keys.",
+     "self_check": true
+    },
+    {
+     "q": "Given `marks = {'Physics': 85, 'Chemistry': 92, 'Math': 78}`, write code to:\n(a) Increase Chemistry marks by 5\n(b) Add 'English': 88\n(c) Safely check if 'Biology' exists without raising an error",
+     "a": "(a) `marks['Chemistry'] += 5` or `marks['Chemistry'] = marks['Chemistry'] + 5`\n(b) `marks['English'] = 88`\n(c) `'Biology' in marks` returns False, or `marks.get('Biology')` returns None. Wrong answers using `marks['Biology']` for (c) show confusion between safe membership testing and direct access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior and use cases of `dict[key]` versus `dict.get(key)` versus `key in dict`. Provide a scenario where each is preferred.",
+     "a": "`dict[key]`: raises KeyError if missing; use when key MUST exist (e.g., accessing required config). `dict.get(key)`: returns None (or default) if missing; use for optional values (e.g., user preferences with defaults). `key in dict`: returns boolean; use for existence checks before action (e.g., \"if 'admin' in users: grant_access()\"). Wrong answers conflating get() with in reveal misunderstanding of return types (value vs boolean).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this code for a student database. Identify the bug and explain why it fails:\n```python\nstudents = {}\nroll = input(\"Enter roll number: \")\nname = input(\"Enter name: \")\nstudents[roll] = name\nprint(\"Student added:\", students[roll])",
+     "a": "Bug: `students[search]` raises KeyError if roll doesn't exist, crashing before the else block. The `if students[search]:` attempts direct access instead of using `if search in students:` or `students.get(search)`. This evaluates to \"always crash on missing key\" rather than \"handle missing key\". A student missing this reveals they don't understand KeyError propagation in conditional expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary-based solution for a library system where each book has a unique ISBN (string) mapping to a tuple (title, author, available_copies). Write code to: (a) add a new book, (b) borrow a book (decrease copies if >0), (c) return a book (increase copies), (d) check availability.",
+     "a": "```python\nlibrary = {}",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

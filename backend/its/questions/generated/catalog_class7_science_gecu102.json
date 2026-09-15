@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu102.json",
+ "concepts": [
+  {
+   "id": "gecu.2.1",
+   "title": "Nature as Our Science Laboratory",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is nature called our science laboratory?",
+     "a": "Every field, pond and sky offers materials and phenomena to observe and test.",
+     "self_check": true
+    },
+    {
+     "q": "Give one observation from nature that leads to a science question.",
+     "a": "Ants follow a line - why? Observing leads to questions about how they communicate.",
+     "self_check": true
+    },
+    {
+     "q": "How should we treat nature while learning from it?",
+     "a": "Observe without harming - do not pluck, catch or disturb more than needed.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.2",
+   "title": "Acidic, Basic and Neutral Substances",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can litmus or turmeric tell acids from bases?",
+     "a": "Acids turn blue litmus red; bases turn red litmus blue and turmeric reddish-brown.",
+     "self_check": true
+    },
+    {
+     "q": "Name two acidic and two basic substances found at home.",
+     "a": "Acidic: lemon juice, vinegar. Basic: soap solution, baking soda.",
+     "self_check": true
+    },
+    {
+     "q": "What are neutral substances? Give an example.",
+     "a": "Substances that are neither acidic nor basic, like water or sugar solution.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.3",
+   "title": "Making and Using Indicators",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is a turmeric indicator prepared and used?",
+     "a": "Rub turmeric on paper, dry it; a base turns the stain red, acids leave it yellow.",
+     "self_check": true
+    },
+    {
+     "q": "Name a natural indicator other than litmus.",
+     "a": "Turmeric, red cabbage juice or China rose (hibiscus) petals.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we need indicators?",
+     "a": "Acids and bases are often colourless - indicators reveal which is which.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.2.4",
+   "title": "Neutralisation in Daily Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does an antacid relieve indigestion?",
+     "a": "The mild base neutralises excess hydrochloric acid in the stomach.",
+     "self_check": true
+    },
+    {
+     "q": "Why is slaked lime added to acidic soil?",
+     "a": "The base neutralises the soil's acidity so crops grow better.",
+     "self_check": true
+    },
+    {
+     "q": "What neutralises an ant bite (formic acid) on the skin?",
+     "a": "A mild base like baking soda paste (or calamine lotion).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

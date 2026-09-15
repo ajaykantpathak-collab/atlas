@@ -1,0 +1,1003 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Conic Sections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kemh110.txt",
+ "concepts": [
+  {
+   "id": "kemh.110.2.1",
+   "title": "Classification of Conic Sections",
+   "section": "10.2",
+   "definition": "Classifying the conic section obtained by cutting a double cone with a flat surface at different inclinations.",
+   "formula": "beta = 90 (circle), alpha < beta < 90 (ellipse), beta = alpha (parabola), 0 <= beta < alpha (hyperbola)",
+   "key_idea": "The angle of the cutting plane relative to the cone's axis determines the resulting conic section.",
+   "textbook_ref": "kemh110.txt lines 15-45",
+   "question_patterns": [
+    "what conic section is formed when the cutting plane is perpendicular to the axis of the cone",
+    "determine the curve obtained when the angle of the plane equals the generator angle",
+    "identify the section of a cone when the angle beta is between alpha and ninety degrees",
+    "which conic section is produced if the plane cuts through both nappes of the cone",
+    "classify the degenerated conic section when the intersecting plane contains the generator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare the plane angle beta with the generator angle alpha",
+     "explain": "The relation between beta and alpha determines the geometric shape of the intersection."
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.3.1",
+   "title": "Radius of a Circle from General Equation",
+   "section": "10.3",
+   "definition": "Determining the radius of a circle by converting its general second-degree equation into standard form.",
+   "formula": "radius = sqrt(h**2 + k**2 - constant_term)",
+   "key_idea": "Complete the square for both variables to extract the radius from the constant term.",
+   "textbook_ref": "kemh110.txt lines 80-110",
+   "question_patterns": [
+    "find the radius of the circle given by the equation x^2 + y^2 + 8x + 10y - 8 = 0",
+    "calculate the radius of the circle x^2 + y^2 - 4x - 8y - 45 = 0",
+    "what is the radius of the circle represented by x^2 + y^2 - 8x + 10y - 12 = 0",
+    "determine the radius of the circle with equation x^2 + y^2 + 12x - 6y - 4 = 0",
+    "compute the radius of the circle x^2 + y^2 - 10x + 6y - 30 = 0"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the x-coordinate of the center",
+     "explain": "The center's x-coordinate h is half of the coefficient of x multiplied by negative one.",
+     "compute": "h = -1 * coeff_x / 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the y-coordinate of the center",
+     "explain": "The center's y-coordinate k is half of the coefficient of y multiplied by negative one.",
+     "compute": "k = -1 * coeff_y / 2"
+    },
+    {
+     "step": 3,
+     "action": "Compute the radius of the circle",
+     "explain": "The radius is the square root of the sum of the squared coordinates minus the constant term.",
+     "compute": "radius = sqrt(h**2 + k**2 - constant_term)"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.3.2",
+   "title": "Equation of a Circle with Given Centre and Radius",
+   "section": "10.3",
+   "definition": "Establishing the standard equation of a circle given its center coordinates and its radius.",
+   "formula": "(x - h)**2 + (y - k)**2 = r**2",
+   "key_idea": "Substitute the coordinates of the center and the radius into the standard Cartesian formula.",
+   "textbook_ref": "kemh110.txt lines 70-100",
+   "question_patterns": [
+    "find the equation of the circle with centre (0,2) and radius 2",
+    "write the equation of the circle having centre (-2,3) and radius 4",
+    "determine the equation of the circle with centre (1,1) and radius 5",
+    "calculate the equation of a circle whose centre is at the origin and radius is r",
+    "what is the equation of the circle with centre (-a, -b) and radius sqrt(a^2 - b^2)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the center coordinates (h, k) and radius r",
+     "explain": "The center is given as (h, k) and the radius as r."
+    },
+    {
+     "step": 2,
+     "action": "Substitute into standard form",
+     "explain": "Substitute h, k, and r into (x - h)^2 + (y - k)^2 = r^2 to get the equation."
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.4.1",
+   "title": "Length of Latus Rectum of a Parabola",
+   "section": "10.4",
+   "definition": "Calculating the length of the segment perpendicular to the axis of a parabola that passes through its focus.",
+   "formula": "latus_rectum = abs(linear_coeff)",
+   "key_idea": "The latus rectum length is equal to the absolute value of the coefficient of the linear term.",
+   "textbook_ref": "kemh110.txt lines 160-190",
+   "question_patterns": [
+    "find the length of the latus rectum of the parabola y^2 = 12x",
+    "calculate the length of the latus rectum of the parabola x^2 = -16y",
+    "what is the length of the latus rectum of the parabola y^2 = -8x",
+    "determine the length of the latus rectum of the parabola x^2 = 6y",
+    "compute the length of the latus rectum for the parabola y^2 = 10x"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the linear coefficient",
+     "explain": "The length of the latus rectum is the absolute value of the coefficient of the linear term in the standard parabola equation.",
+     "compute": "latus_rectum = abs(linear_coeff)"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.4.2",
+   "title": "Standard Equation of a Parabola",
+   "section": "10.4",
+   "definition": "Formulating the standard equation of a parabola based on its geometric properties like focus and directrix.",
+   "formula": "y**2 = 4*a*x or y**2 = -4*a*x or x**2 = 4*a*y or x**2 = -4*a*y",
+   "key_idea": "Equate the distance from any point on the curve to the focus with its distance to the directrix.",
+   "textbook_ref": "kemh110.txt lines 120-150",
+   "question_patterns": [
+    "find the equation of the parabola with focus (6,0) and directrix x = -6",
+    "determine the equation of the parabola with focus (0,-3) and directrix y = 3",
+    "write the equation of the parabola with vertex (0,0) and focus (3,0)",
+    "calculate the equation of the parabola with vertex (0,0) and focus (0,-2)",
+    "what is the equation of the parabola passing through (2,3) with axis along the x-axis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the orientation of the parabola",
+     "explain": "Determine if the axis of symmetry is along the x-axis or y-axis based on the focus or directrix."
+    },
+    {
+     "step": 2,
+     "action": "Determine the value of the parameter a",
+     "explain": "Find the distance a from the vertex to the focus."
+    },
+    {
+     "step": 3,
+     "action": "Write the standard equation",
+     "explain": "Substitute a into the appropriate standard form."
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.5.1",
+   "title": "Length of Major Axis of an Ellipse",
+   "section": "10.5",
+   "definition": "Finding the total length of the major axis of an ellipse from its standard equation.",
+   "formula": "major_axis = 2 * sqrt(max(den_x, den_y))",
+   "key_idea": "The major axis length is twice the square root of the larger denominator in the standard equation.",
+   "textbook_ref": "kemh110.txt lines 250-280",
+   "question_patterns": [
+    "find the length of the major axis of the ellipse x^2/25 + y^2/9 = 1",
+    "calculate the length of the major axis of the ellipse x^2/4 + y^2/25 = 1",
+    "what is the length of the major axis of the ellipse x^2/49 + y^2/36 = 1",
+    "determine the length of the major axis of the ellipse x^2/100 + y^2/400 = 1",
+    "compute the length of the major axis for the ellipse 9x^2 + 4y^2 = 36"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the two denominators under x^2 and y^2.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the major axis length",
+     "explain": "The major axis length is twice the semi-major axis.",
+     "compute": "major_axis = 2 * a"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.5.2",
+   "title": "Eccentricity of an Ellipse",
+   "section": "10.5",
+   "definition": "Determining the eccentricity of an ellipse, which represents the ratio of focal distance to the semi-major axis.",
+   "formula": "eccentricity = sqrt(max_den - min_den) / sqrt(max_den)",
+   "key_idea": "The eccentricity is the ratio of the distance of the focus from the center to the semi-major axis.",
+   "textbook_ref": "kemh110.txt lines 230-245",
+   "question_patterns": [
+    "find the eccentricity of the ellipse x^2/25 + y^2/9 = 1",
+    "calculate the eccentricity of the ellipse x^2/4 + y^2/25 = 1",
+    "what is the eccentricity of the ellipse x^2/169 + y^2/144 = 1",
+    "determine the eccentricity of the ellipse 36x^2 + 4y^2 = 144",
+    "compute the eccentricity of the ellipse x^2/49 + y^2/36 = 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators to determine the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the difference between the larger and smaller denominators.",
+     "compute": "c_sq = max_den - min_den"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-major axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.5.3",
+   "title": "Length of Latus Rectum of an Ellipse",
+   "section": "10.5",
+   "definition": "Calculating the length of the focal chord perpendicular to the major axis of an ellipse.",
+   "formula": "latus_rectum = 2 * min_den / sqrt(max_den)",
+   "key_idea": "The latus rectum length is twice the square of the semi-minor axis divided by the semi-major axis.",
+   "textbook_ref": "kemh110.txt lines 280-310",
+   "question_patterns": [
+    "find the length of the latus rectum of the ellipse x^2/25 + y^2/9 = 1",
+    "calculate the length of the latus rectum of the ellipse x^2/4 + y^2/25 = 1",
+    "what is the length of the latus rectum of the ellipse x^2/169 + y^2/144 = 1",
+    "determine the length of the latus rectum of the ellipse 9x^2 + 4y^2 = 36",
+    "compute the length of the latus rectum for the ellipse x^2/100 + y^2/400 = 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators which represents the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the smaller denominator divided by the semi-major axis.",
+     "compute": "latus_rectum = 2 * min_den / a"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.6.1",
+   "title": "Eccentricity of a Hyperbola",
+   "section": "10.6",
+   "definition": "Computing the eccentricity of a hyperbola, which measures how much the curve opens out.",
+   "formula": "eccentricity = sqrt(trans_den + conj_den) / sqrt(trans_den)",
+   "key_idea": "The eccentricity of a hyperbola is always greater than one and is calculated as c divided by a.",
+   "textbook_ref": "kemh110.txt lines 350-370",
+   "question_patterns": [
+    "find the eccentricity of the hyperbola x^2/9 - y^2/16 = 1",
+    "calculate the eccentricity of the hyperbola y^2/9 - x^2/27 = 1",
+    "what is the eccentricity of the hyperbola 9y^2 - 4x^2 = 36",
+    "determine the eccentricity of the hyperbola 16x^2 - 9y^2 = 576",
+    "compute the eccentricity of the hyperbola y^2 - 16x^2 = 16"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the sum of the transverse and conjugate denominators.",
+     "compute": "c_sq = a_sq + b_sq"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-transverse axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "kemh.110.6.2",
+   "title": "Length of Latus Rectum of a Hyperbola",
+   "section": "10.6",
+   "definition": "Determining the length of the focal chord perpendicular to the transverse axis of a hyperbola.",
+   "formula": "latus_rectum = 2 * conj_den / sqrt(trans_den)",
+   "key_idea": "The latus rectum length is twice the square of the semi-conjugate axis divided by the semi-transverse axis.",
+   "textbook_ref": "kemh110.txt lines 380-400",
+   "question_patterns": [
+    "find the length of the latus rectum of the hyperbola x^2/16 - y^2/9 = 1",
+    "calculate the length of the latus rectum of the hyperbola y^2/9 - x^2/27 = 1",
+    "what is the length of the latus rectum of the hyperbola 9y^2 - 4x^2 = 36",
+    "determine the length of the latus rectum of the hyperbola 16x^2 - 9y^2 = 576",
+    "compute the length of the latus rectum for the hyperbola y^2 - 16x^2 = 16"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the conjugate denominator divided by the semi-transverse axis.",
+     "compute": "latus_rectum = 2 * b_sq / a"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex_3_1_1",
+   "source_ref": "kemh110.txt Example 3",
+   "concept": "kemh.110.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the radius of the circle x^2 + y^2 + {coeff_x}x + {coeff_y}y - {neg_constant} = 0",
+   "extracted_variables": {
+    "coeff_x": 8,
+    "coeff_y": 10,
+    "constant_term": -8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the x-coordinate of the center",
+     "explain": "The center's x-coordinate h is half of the coefficient of x multiplied by negative one.",
+     "compute": "h = -1 * coeff_x / 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the y-coordinate of the center",
+     "explain": "The center's y-coordinate k is half of the coefficient of y multiplied by negative one.",
+     "compute": "k = -1 * coeff_y / 2"
+    },
+    {
+     "step": 3,
+     "action": "Compute the radius of the circle",
+     "explain": "The radius is the square root of the sum of the squared coordinates minus the constant term.",
+     "compute": "radius = sqrt(h**2 + k**2 - constant_term)"
+    }
+   ]
+  },
+  {
+   "id": "ex_3_1_2",
+   "source_ref": "kemh110.txt Exercise 10.1 Q7",
+   "concept": "kemh.110.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the radius of the circle x^2 + y^2 - {abs_coeff_x}x - {abs_coeff_y}y - {abs_constant} = 0",
+   "extracted_variables": {
+    "coeff_x": -4,
+    "coeff_y": -8,
+    "constant_term": -45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the x-coordinate of the center",
+     "explain": "The center's x-coordinate h is half of the coefficient of x multiplied by negative one.",
+     "compute": "h = -1 * coeff_x / 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the y-coordinate of the center",
+     "explain": "The center's y-coordinate k is half of the coefficient of y multiplied by negative one.",
+     "compute": "k = -1 * coeff_y / 2"
+    },
+    {
+     "step": 3,
+     "action": "Compute the radius of the circle",
+     "explain": "The radius is the square root of the sum of the squared coordinates minus the constant term.",
+     "compute": "radius = sqrt(h**2 + k**2 - constant_term)"
+    }
+   ]
+  },
+  {
+   "id": "ex_4_1_1",
+   "source_ref": "kemh110.txt Example 5",
+   "concept": "kemh.110.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the parabola y^2 = {linear_coeff}x",
+   "extracted_variables": {
+    "linear_coeff": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the linear coefficient",
+     "explain": "The length of the latus rectum is the absolute value of the coefficient of the linear term in the standard parabola equation.",
+     "compute": "latus_rectum = abs(linear_coeff)"
+    }
+   ]
+  },
+  {
+   "id": "ex_4_1_2",
+   "source_ref": "kemh110.txt Exercise 10.2 Q3",
+   "concept": "kemh.110.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the parabola y^2 = {linear_coeff}x",
+   "extracted_variables": {
+    "linear_coeff": -8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute value of the linear coefficient",
+     "explain": "The length of the latus rectum is the absolute value of the coefficient of the linear term in the standard parabola equation.",
+     "compute": "latus_rectum = abs(linear_coeff)"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_1_1",
+   "source_ref": "kemh110.txt Example 9",
+   "concept": "kemh.110.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the major axis of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 25,
+    "den_y": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the two denominators under x^2 and y^2.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the major axis length",
+     "explain": "The major axis length is twice the semi-major axis.",
+     "compute": "major_axis = 2 * a"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_1_2",
+   "source_ref": "kemh110.txt Example 10",
+   "concept": "kemh.110.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the major axis of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 4,
+    "den_y": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the two denominators under x^2 and y^2.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the major axis length",
+     "explain": "The major axis length is twice the semi-major axis.",
+     "compute": "major_axis = 2 * a"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_2_1",
+   "source_ref": "kemh110.txt Example 9",
+   "concept": "kemh.110.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the eccentricity of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 25,
+    "den_y": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators to determine the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the difference between the larger and smaller denominators.",
+     "compute": "c_sq = max_den - min_den"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-major axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_2_2",
+   "source_ref": "kemh110.txt Exercise 10.3 Q2",
+   "concept": "kemh.110.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the eccentricity of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 4,
+    "den_y": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators to determine the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the difference between the larger and smaller denominators.",
+     "compute": "c_sq = max_den - min_den"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-major axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_3_1",
+   "source_ref": "kemh110.txt Example 9",
+   "concept": "kemh.110.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 25,
+    "den_y": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators which represents the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the smaller denominator divided by the semi-major axis.",
+     "compute": "latus_rectum = 2 * min_den / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_5_3_2",
+   "source_ref": "kemh110.txt Exercise 10.3 Q3",
+   "concept": "kemh.110.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the ellipse x^2/{den_x} + y^2/{den_y} = 1",
+   "extracted_variables": {
+    "den_x": 16,
+    "den_y": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the larger denominator",
+     "explain": "Find the maximum of the denominators to determine the semi-major axis squared.",
+     "compute": "max_den = max(den_x, den_y)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the smaller denominator",
+     "explain": "Find the minimum of the denominators which represents the semi-minor axis squared.",
+     "compute": "min_den = min(den_x, den_y)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-major axis",
+     "explain": "The semi-major axis a is the square root of the larger denominator.",
+     "compute": "a = sqrt(max_den)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the smaller denominator divided by the semi-major axis.",
+     "compute": "latus_rectum = 2 * min_den / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_6_1_1",
+   "source_ref": "kemh110.txt Example 14(i)",
+   "concept": "kemh.110.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the eccentricity of the hyperbola x^2/{trans_den} - y^2/{conj_den} = 1",
+   "extracted_variables": {
+    "trans_den": 9,
+    "conj_den": 16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the sum of the transverse and conjugate denominators.",
+     "compute": "c_sq = a_sq + b_sq"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-transverse axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_6_1_2",
+   "source_ref": "kemh110.txt Example 14(ii)",
+   "concept": "kemh.110.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the eccentricity of the hyperbola y^2/{trans_den} - x^2/{conj_den} = 1",
+   "extracted_variables": {
+    "trans_den": 16,
+    "conj_den": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the squared focal distance",
+     "explain": "The squared focal distance c_sq is the sum of the transverse and conjugate denominators.",
+     "compute": "c_sq = a_sq + b_sq"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the focal distance",
+     "explain": "The focal distance c is the square root of c_sq.",
+     "compute": "c = sqrt(c_sq)"
+    },
+    {
+     "step": 5,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 6,
+     "action": "Compute the eccentricity",
+     "explain": "The eccentricity is the ratio of the focal distance to the semi-transverse axis.",
+     "compute": "eccentricity = c / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_6_2_1",
+   "source_ref": "kemh110.txt Example 14(i)",
+   "concept": "kemh.110.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the hyperbola x^2/{trans_den} - y^2/{conj_den} = 1",
+   "extracted_variables": {
+    "trans_den": 9,
+    "conj_den": 16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the conjugate denominator divided by the semi-transverse axis.",
+     "compute": "latus_rectum = 2 * b_sq / a"
+    }
+   ]
+  },
+  {
+   "id": "ex_6_2_2",
+   "source_ref": "kemh110.txt Example 14(ii)",
+   "concept": "kemh.110.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the length of the latus rectum of the hyperbola y^2/{trans_den} - x^2/{conj_den} = 1",
+   "extracted_variables": {
+    "trans_den": 16,
+    "conj_den": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the transverse denominator",
+     "explain": "The denominator of the positive term is the square of the semi-transverse axis.",
+     "compute": "a_sq = trans_den"
+    },
+    {
+     "step": 2,
+     "action": "Identify the conjugate denominator",
+     "explain": "The denominator of the negative term is the square of the semi-conjugate axis.",
+     "compute": "b_sq = conj_den"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the semi-transverse axis",
+     "explain": "The semi-transverse axis a is the square root of a_sq.",
+     "compute": "a = sqrt(a_sq)"
+    },
+    {
+     "step": 4,
+     "action": "Compute the latus rectum length",
+     "explain": "The latus rectum is twice the conjugate denominator divided by the semi-transverse axis.",
+     "compute": "latus_rectum = 2 * b_sq / a"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "kemh110.txt lines 181-182",
+   "questions": [
+    "In each of the following Exercises 1 to 5, find the equation of the circle with: 1. centre (0,2) and radius 2",
+    "2. centre (-2,3) and radius 4",
+    "3. centre (1/2, 1/4) and radius 1/12",
+    "4. centre (1,1) and radius sqrt(2)",
+    "5. centre (-a, -b) and radius sqrt(a^2 - b^2)",
+    "In each of the following Exercises 6 to 9, find the centre and radius of the circles: 6. (x + 5)^2 + (y - 3)^2 = 36",
+    "7. x^2 + y^2 - 4x - 8y - 45 = 0",
+    "8. x^2 + y^2 - 8x + 10y - 12 = 0",
+    "9. 2x^2 + 2y^2 - x = 0",
+    "10. Find the equation of the circle passing through the points (4,1) and (6,5) and whose centre is on the line 4x + y = 16.",
+    "11. Find the equation of the circle passing through the points (2,3) and (-1,1) and whose centre is on the line x - 3y - 11 = 0.",
+    "12. Find the equation of the circle with radius 5 whose centre lies on x-axis and passes through the point (2,3).",
+    "13. Find the equation of the circle passing through (0,0) and making intercepts a and b on the coordinate axes.",
+    "14. Find the equation of a circle with centre (2,2) and passes through the point (4,5).",
+    "15. Does the point (-2.5, 3.5) lie inside, outside or on the circle x^2 + y^2 = 25?"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "kemh110.txt lines 186-187",
+   "questions": [
+    "In each of the following Exercises 1 to 6, find the coordinates of the focus, axis of the parabola, the equation of the directrix and the length of the latus rectum: 1. y^2 = 12x",
+    "2. x^2 = 6y",
+    "3. y^2 = -8x",
+    "4. x^2 = -16y",
+    "5. y^2 = 10x",
+    "6. x^2 = -9y",
+    "In each of the Exercises 7 to 12, find the equation of the parabola that satisfies the given conditions: 7. Focus (6,0); directrix x = -6",
+    "8. Focus (0,-3); directrix y = 3",
+    "9. Vertex (0,0); focus (3,0)",
+    "10. Vertex (0,0); focus (-2,0)",
+    "11. Vertex (0,0) passing through (2,3) and axis is along x-axis.",
+    "12. Vertex (0,0), passing through (5,2) and symmetric with respect to y-axis."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "kemh110.txt lines 195",
+   "questions": [
+    "In each of the Exercises 1 to 9, find the coordinates of the foci, the vertices, the length of major axis, the minor axis, the eccentricity and the length of the latus rectum of the ellipse: 1. x^2/36 + y^2/16 = 1",
+    "2. x^2/4 + y^2/25 = 1",
+    "3. x^2/16 + y^2/9 = 1",
+    "4. x^2/25 + y^2/100 = 1",
+    "5. x^2/49 + y^2/36 = 1",
+    "6. x^2/100 + y^2/400 = 1",
+    "7. 36x^2 + 4y^2 = 144",
+    "8. 16x^2 + y^2 = 16",
+    "9. 4x^2 + 9y^2 = 36",
+    "In each of the following Exercises 10 to 20, find the equation for the ellipse that satisfies the given conditions: 10. Vertices (+-5, 0), foci (+-4, 0)",
+    "11. Vertices (0, +-13), foci (0, +-5)",
+    "12. Vertices (+-6, 0), foci (+-4, 0)",
+    "13. Ends of major axis (+-3, 0), ends of minor axis (0, +-2)",
+    "14. Ends of major axis (0, +-5), ends of minor axis (+-1, 0)",
+    "15. Length of major axis 26, foci (+-5, 0)",
+    "16. Length of minor axis 16, foci (0, +-6).",
+    "17. Foci (+-3, 0), a = 4",
+    "18. b = 3, c = 4, centre at the origin; foci on the x axis.",
+    "19. Centre at (0,0), major axis on the y-axis and passes through the points (3, 2) and (1,6).",
+    "20. Major axis on the x-axis and passes through the points (4,3) and (6,2)."
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "kemh110.txt lines 202",
+   "questions": [
+    "In each of the Exercises 1 to 6, find the coordinates of the foci and the vertices, the eccentricity and the length of the latus rectum of the hyperbolas: 1. x^2/16 - y^2/9 = 1",
+    "2. y^2/9 - x^2/27 = 1",
+    "3. 9y^2 - 4x^2 = 36",
+    "4. 16x^2 - 9y^2 = 576",
+    "5. 5y^2 - 9x^2 = 36",
+    "6. 49y^2 - 16x^2 = 784.",
+    "In each of the Exercises 7 to 15, find the equations of the hyperbola satisfying the given conditions: 7. Vertices (+-2, 0), foci (+-3, 0)",
+    "8. Vertices (0, +-5), foci (0, +-8)",
+    "9. Vertices (0, +-3), foci (0, +-5)",
+    "10. Foci (+-5, 0), the transverse axis is of length 8.",
+    "11. Foci (0, +-13), the conjugate axis is of length 24.",
+    "12. Foci (+-3*sqrt(5), 0), the latus rectum is of length 8.",
+    "13. Foci (+-4, 0), the latus rectum is of length 12",
+    "14. vertices (+-7,0), e = 4/3.",
+    "15. Foci (0, +-10), passing through (2,3)"
+   ]
+  },
+  {
+   "id": "ex10.misc",
+   "source_ref": "kemh110.txt lines 204",
+   "questions": [
+    "1. If a parabolic reflector is 20 cm in diameter and 5 cm deep, find the focus.",
+    "2. An arch is in the form of a parabola with its axis vertical. The arch is 10 m high and 5 m wide at the base. How wide is it 2 m from the vertex of the parabola?",
+    "3. The cable of a uniformly loaded suspension bridge hangs in the form of a parabola. The roadway which is horizontal and 100 m long is supported by vertical wires attached to the cable, the longest wire being 30 m and the shortest being 6 m. Find the length of a supporting wire attached to the roadway 18 m from the middle.",
+    "4. An arch is in the form of a semi-ellipse. It is 8 m wide and 2 m high at the centre. Find the height of the arch at a point 1.5 m from one end.",
+    "5. A rod of length 12 cm moves with its ends always touching the coordinate axes. Determine the equation of the locus of a point P on the rod, which is 3 cm from the end in contact with the x-axis.",
+    "6. Find the area of the triangle formed by the lines joining the vertex of the parabola x^2 = 12y to the ends of its latus rectum.",
+    "7. A man running a racecourse notes that the sum of the distances from the two flag posts from him is always 10 m and the distance between the flag posts is 8 m. Find the equation of the posts traced by the man.",
+    "8. An equilateral triangle is inscribed in the parabola y^2 = 4 ax, where one vertex is at the vertex of the parabola. Find the length of the side of the triangle."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,457 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 111,
+ "chapter_title": "Photosynthesis in Higher Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo111.txt",
+ "concepts": [
+  {
+   "id": "kebo.111.1",
+   "title": "Photosynthesis Fundamentals",
+   "section": "11.1",
+   "definition": "A biological process where green plants transform solar energy into chemical energy to synthesize organic nutrients from inorganic raw materials.",
+   "formula": "6CO2 + 12H2O -> C6H12O6 + 6H2O + 6O2",
+   "key_idea": "Plants act as primary producers by converting light into food and releasing oxygen.",
+   "textbook_ref": "kebo111.txt lines 30-50",
+   "question_patterns": [
+    "define photosynthesis",
+    "what is the basic equation of photosynthesis",
+    "why are plants called autotrophs",
+    "what are the primary requirements for photosynthesis",
+    "justify why photosynthesis fundamentals matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify reactants",
+     "explain": "The process requires carbon dioxide and water as the main substrates."
+    },
+    {
+     "step": 2,
+     "action": "identify energy source",
+     "explain": "Light energy is captured by chlorophyll to drive the chemical reaction."
+    },
+    {
+     "step": 3,
+     "action": "identify products",
+     "explain": "The reaction produces glucose, water, and oxygen as a byproduct."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.2",
+   "title": "Photosynthetic Pigments and Spectra",
+   "section": "11.4",
+   "definition": "Specific molecules like chlorophyll a, b, xanthophylls, and carotenoids that capture light at distinct wavelengths.",
+   "formula": "Efficiency = f(wavelength)",
+   "key_idea": "Chlorophyll a is indeed the primary pigment, while others act as accessory pigments to broaden the absorption range.",
+   "textbook_ref": "kebo111.txt lines 165-195",
+   "question_patterns": [
+    "list the pigments involved in photosynthesis",
+    "what is the difference between absorption and action spectra",
+    "which pigment is most abundant",
+    "role of accessory pigments in plants",
+    "give one everyday example of photosynthetic pigments and spectra"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize pigments",
+     "explain": "Chlorophyll a is the chief pigment; b, xanthophylls, and carotenoids are accessory."
+    },
+    {
+     "step": 2,
+     "action": "analyze absorption",
+     "explain": "Pigments absorb light mainly in the blue and red regions of the VIBGYOR spectrum."
+    },
+    {
+     "step": 3,
+     "action": "relate action spectrum to absorption",
+     "explain": "The action spectrum of photosynthesis closely matches the absorption spectrum of chlorophyll a, confirming it as the chief pigment while accessory pigments broaden the effective range."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.3",
+   "title": "Photolysis of Water",
+   "section": "11.6.1",
+   "definition": "The light-dependent splitting of water molecules associated with Photosystem II to provide electrons for the transport chain.",
+   "formula": "2H2O -> 4H+ + O2 + 4e-",
+   "key_idea": "Splitting of water replaces the electrons PS II loses and gives off oxygen in the process.",
+   "textbook_ref": "kebo111.txt lines 245-260",
+   "question_patterns": [
+    "calculate the number of electrons released from water",
+    "how many water molecules are needed to produce oxygen",
+    "find the protons generated from splitting water",
+    "what is the stoichiometry of water photolysis",
+    "what is the result in this photolysis of water problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate electrons",
+     "explain": "Each water molecule releases 2 electrons.",
+     "compute": "electrons = water_moles * 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate protons",
+     "explain": "Each water molecule releases 2 protons (H+).",
+     "compute": "protons = water_moles * 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate oxygen yield",
+     "explain": "Two water molecules are required to produce one molecule of O2.",
+     "compute": "oxygen_yield = water_moles / 2"
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.4",
+   "title": "Z-Scheme Electron Transport",
+   "section": "11.6",
+   "definition": "The sequential movement of electrons from PS II to PS I, resulting in the reduction of NADP+ and synthesis of ATP.",
+   "formula": "Redox Potential = f(carrier_sequence)",
+   "key_idea": "Electrons move in a zig-zag pattern across photosystems to create chemical energy carriers.",
+   "textbook_ref": "kebo111.txt lines 220-244",
+   "question_patterns": [
+    "describe the Z-scheme",
+    "where does the electron transport occur",
+    "what are the products of the light reaction",
+    "how is NADPH formed",
+    "give one everyday example of z-scheme electron transport"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "excite PS II",
+     "explain": "P680 absorbs light and ejects electrons to an acceptor."
+    },
+    {
+     "step": 2,
+     "action": "transport to PS I",
+     "explain": "Electrons move through cytochromes to PS I, generating ATP."
+    },
+    {
+     "step": 3,
+     "action": "reduce NADP",
+     "explain": "PS I transfers electrons to NADP+ to form NADPH."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.5",
+   "title": "Chemiosmotic ATP Synthesis",
+   "section": "11.6.3",
+   "definition": "The mechanism of ATP production driven by a proton gradient established across the thylakoid membrane.",
+   "formula": "ATP_yield = f(proton_gradient)",
+   "key_idea": "Proton accumulation in the lumen creates a gradient that powers ATP synthase.",
+   "textbook_ref": "kebo111.txt lines 280-315",
+   "question_patterns": [
+    "explain the chemiosmotic hypothesis",
+    "role of ATP synthase in chloroplasts",
+    "how is the proton gradient created",
+    "where do protons accumulate in the chloroplast",
+    "state two key points about chemiosmotic atp synthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "establish gradient",
+     "explain": "Protons accumulate in the thylakoid lumen due to water splitting and electron transport."
+    },
+    {
+     "step": 2,
+     "action": "facilitate diffusion",
+     "explain": "Protons move through the CF0 channel of ATP synthase to the stroma."
+    },
+    {
+     "step": 3,
+     "action": "catalyze ATP",
+     "explain": "Energy from proton flow causes conformational changes in CF1 to synthesize ATP."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.6",
+   "title": "Calvin Cycle Stoichiometry",
+   "section": "11.7.2",
+   "definition": "The cyclic pathway in the stroma where CO2 is fixed into glucose using ATP and NADPH from light reactions.",
+   "formula": "1_Glucose = 6_CO2 + 18_ATP + 12_NADPH",
+   "key_idea": "Six turns of the cycle are indeed required to produce one hexose sugar molecule.",
+   "textbook_ref": "kebo111.txt lines 340-385",
+   "question_patterns": [
+    "calculate ATP required for glucose synthesis",
+    "how many NADPH are used for a given amount of CO2",
+    "find the energy cost of the Calvin cycle",
+    "how many turns of the cycle produce one glucose",
+    "compute the answer step by step for calvin cycle stoichiometry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine CO2 moles",
+     "explain": "One glucose molecule requires 6 moles of CO2.",
+     "compute": "co2_moles = glucose_moles * 6"
+    },
+    {
+     "step": 2,
+     "action": "calculate total ATP",
+     "explain": "Each CO2 fixed requires 3 ATP (2 for reduction, 1 for regeneration).",
+     "compute": "total_atp = co2_moles * 3"
+    },
+    {
+     "step": 3,
+     "action": "calculate total NADPH",
+     "explain": "Each CO2 fixed requires 2 NADPH for the reduction phase.",
+     "compute": "total_nadph = co2_moles * 2"
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.7",
+   "title": "C4 Pathway and Kranz Anatomy",
+   "section": "11.8",
+   "definition": "An adaptive photosynthetic pathway in tropical plants that minimizes photorespiration using specialized leaf structures.",
+   "formula": "CO2 + PEP -> OAA",
+   "key_idea": "Spatial separation of CO2 fixation (mesophyll) and the Calvin cycle (bundle sheath) increases efficiency.",
+   "textbook_ref": "kebo111.txt lines 400-440",
+   "question_patterns": [
+    "what is Kranz anatomy",
+    "describe the Hatch-Slack pathway",
+    "why are C4 plants more productive",
+    "primary CO2 acceptor in C4 plants",
+    "why is c4 pathway and kranz anatomy important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "initial fixation",
+     "explain": "CO2 is fixed by PEP carboxylase in mesophyll cells to form OAA."
+    },
+    {
+     "step": 2,
+     "action": "transport",
+     "explain": "C4 acids move to bundle sheath cells."
+    },
+    {
+     "step": 3,
+     "action": "decarboxylation",
+     "explain": "CO2 is released in bundle sheath cells to enter the Calvin cycle."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.8",
+   "title": "Photorespiration",
+   "section": "11.9",
+   "definition": "A wasteful process where RuBisCO binds with oxygen instead of carbon dioxide, leading to CO2 loss without ATP production.",
+   "formula": "RuBP + O2 -> Phosphoglycerate + Phosphoglycolate",
+   "key_idea": "High oxygen concentration and temperature trigger the oxygenase activity of RuBisCO.",
+   "textbook_ref": "kebo111.txt lines 450-480",
+   "question_patterns": [
+    "what is photorespiration",
+    "why is RuBisCO called an oxygenase",
+    "conditions favoring photorespiration",
+    "why do C4 plants lack photorespiration",
+    "state two key points about photorespiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify enzyme dual nature",
+     "explain": "RuBisCO has affinity for both CO2 and O2."
+    },
+    {
+     "step": 2,
+     "action": "analyze competitive binding",
+     "explain": "At high O2:CO2 ratios, RuBisCO binds O2."
+    },
+    {
+     "step": 3,
+     "action": "evaluate outcome",
+     "explain": "Carbon is lost as CO2 and ATP is consumed, making it a wasteful process."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.9",
+   "title": "Blackman's Law of Limiting Factors",
+   "section": "11.10",
+   "definition": "The principle stating that the rate of a multi-factor process is indeed limited by the factor present at the lowest level.",
+   "formula": "Rate = min(factor_A, factor_B, factor_C)",
+   "key_idea": "The slowest step or scarcest resource determines the overall photosynthetic speed.",
+   "textbook_ref": "kebo111.txt lines 500-520",
+   "question_patterns": [
+    "state Blackman's law of limiting factors",
+    "how does light intensity affect photosynthesis",
+    "identify the limiting factor from a graph",
+    "effect of CO2 concentration on C3 vs C4 plants",
+    "what do you understand by blackman's law of limiting factors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify variables",
+     "explain": "Light, CO2, temperature, and water are key external factors."
+    },
+    {
+     "step": 2,
+     "action": "apply law",
+     "explain": "The factor closest to its minimum value limits the rate."
+    },
+    {
+     "step": 3,
+     "action": "evaluate and adjust limiting factor",
+     "explain": "Increasing the limiting factor raises the rate until another factor becomes limiting, enabling stepwise optimization of photosynthetic efficiency."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo111.txt page 145",
+   "concept": "kebo.111.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total number of ATP and NADPH molecules required to synthesize {glucose_moles} molecules of glucose.",
+   "extracted_variables": {
+    "glucose_moles": "number of glucose molecules to be produced"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find CO2 required",
+     "explain": "6 CO2 are needed per glucose.",
+     "compute": "co2_moles = glucose_moles * 6"
+    },
+    {
+     "step": 2,
+     "action": "calculate ATP",
+     "explain": "3 ATP per CO2.",
+     "compute": "total_atp = co2_moles * 3"
+    },
+    {
+     "step": 3,
+     "action": "calculate NADPH",
+     "explain": "2 NADPH per CO2.",
+     "compute": "total_nadph = co2_moles * 2"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo111.txt lines 245-260",
+   "concept": "kebo.111.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute photolysis of water step by step",
+   "extracted_variables": {
+    "water_moles": "value of water_moles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electrons",
+     "explain": "Each water molecule releases 2 electrons.",
+     "compute": "electrons = water_moles * 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate protons",
+     "explain": "Each water molecule releases 2 protons (H+).",
+     "compute": "protons = water_moles * 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate oxygen yield",
+     "explain": "Two water molecules are required to produce one molecule of O2.",
+     "compute": "oxygen_yield = water_moles / 2"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kebo111.txt lines 340-385",
+   "concept": "kebo.111.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute calvin cycle stoichiometry step by step",
+   "extracted_variables": {
+    "glucose_moles": "value of glucose_moles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine CO2 moles",
+     "explain": "One glucose molecule requires 6 moles of CO2.",
+     "compute": "co2_moles = glucose_moles * 6"
+    },
+    {
+     "step": 2,
+     "action": "calculate total ATP",
+     "explain": "Each CO2 fixed requires 3 ATP (2 for reduction, 1 for regeneration).",
+     "compute": "total_atp = co2_moles * 3"
+    },
+    {
+     "step": 3,
+     "action": "calculate total NADPH",
+     "explain": "Each CO2 fixed requires 2 NADPH for the reduction phase.",
+     "compute": "total_nadph = co2_moles * 2"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kebo111.txt lines 245-260",
+   "concept": "kebo.111.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute photolysis of water step by step",
+   "extracted_variables": {
+    "water_moles": "value of water_moles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electrons",
+     "explain": "Each water molecule releases 2 electrons.",
+     "compute": "electrons = water_moles * 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate protons",
+     "explain": "Each water molecule releases 2 protons (H+).",
+     "compute": "protons = water_moles * 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate oxygen yield",
+     "explain": "Two water molecules are required to produce one molecule of O2.",
+     "compute": "oxygen_yield = water_moles / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "kebo111.txt page 151",
+   "questions": [
+    "By looking at a plant externally, can you tell whether a plant is C3 or C4? Why and how?",
+    "By looking at which internal structure of a plant you can tell whether a plant is C3 or C4? Explain.",
+    "Even though a very few cells in a C4 plant carry out the biosynthetic - Calvin pathway, yet they are highly productive. Can you discuss why?",
+    "RuBisCO is an enzyme that acts both as a carboxylase and oxygenase. Why do you think RuBisCO carries out more carboxylation in C4 plants?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

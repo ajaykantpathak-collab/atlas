@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_007",
+   "title": "c6_math_ch01_007",
+   "questions": [
+    {
+     "q": "What are the seven basic symbols used in the Roman Numeral system and their corresponding values?",
+     "a": "The symbols are I=1, V=5, X=10, L=50, C=100, D=500, and M=1000. A wrong answer here suggests the student has not memorized the base values, making any further conversion impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Why is \"IV\" equal to 4, but \"VI\" equal to 6?",
+     "a": "In \"IV\", I (1) is before V (5), so we subtract 1 from 5 (5-1=4); in \"VI\", I (1) is after V (5), so we add 1 to 5 (5+1=6). This reveals if the student understands the position-based rule of addition versus subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the Hindu-Arabic number 49 into Roman Numerals.",
+     "a": "The answer is XLIX. To solve: 40 is XL (50-10) and 9 is IX (10-1). A student who answers \"IL\" fails to realize that Roman numerals must be broken down by place value (tens and ones separately).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Roman Numeral \"XCI\". Why can't we simply add the values from left to right?",
+     "a": "Adding left to right (10+100+1) gives 111, which is incorrect because the \"XC\" is a subtractive pair (100-10 = 90). The student must analyze the sequence in groups rather than treating each character as an independent addition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"You can repeat the symbol 'V' three times to write 15.\" Is this true or false? Justify your reasoning.",
+     "a": "False. The rules of Roman numerals state that symbols V, L, and D cannot be repeated; only I, X, C, and M can be repeated (and usually only up to three times). A student saying \"True\" has not mastered the structural constraints of the system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Roman Numeral for the number 384 and explain how you constructed it.",
+     "a": "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components (hundreds, tens, and ones).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

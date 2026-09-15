@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_004",
+   "title": "c12_acc_cbse_05_004",
+   "questions": [
+    {
+     "q": "A company issues 50,000 shares of ₹10 each. Applications are received for 45,000 shares. Can the company proceed with allotment? State the SEBI rule and calculate the minimum subscription amount.",
+     "a": "No, the company cannot proceed with allotment. SEBI requires minimum subscription of 90% of issued capital. Issued capital = 50,000 × ₹10 = ₹5,00,000. Minimum subscription = 90% of ₹5,00,000 = ₹4,50,000. Applications received = 45,000 × ₹10 = ₹4,50,000. Since applications equal exactly 90%, allotment CAN proceed (90% is the minimum threshold, not \"more than 90%\"). A wrong answer of \"cannot proceed\" reveals the student thinks 90% is exclusive rather than inclusive, or doesn't know the exact SEBI percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why excess application money in over-subscription is first adjusted towards allotment and then towards calls, rather than being refunded immediately. What accounting principle supports this treatment?",
+     "a": "Excess application money belongs to applicants who will become shareholders; refunding it immediately creates unnecessary cash flow and administrative burden. The company adjusts it towards amounts due from the same applicants (allotment, then calls) because those payments are legally owed once shares are allotted. This follows the \"Substance over Form\" principle — the economic substance is that the applicant has prepaid their future obligations. A wrong answer focusing only on \"convenience\" misses the legal obligation aspect; an answer saying \"it's a rule\" without explaining the matching principle shows rote memorisation without understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 1,00,000 shares of ₹10 each at a premium of ₹2 per share, payable as ₹3 on application, ₹5 on allotment (including premium), and ₹4 on first & final call. Applications received for 1,50,000 shares. Allotment is made pro-rata. Calculate: (a) Pro-rata ratio; (b) Excess application money received; (c) Amount due on allotment after adjustment; (d) Journal entry for allotment money due.",
+     "a": "(a) Pro-rata ratio = Shares issued : Shares applied = 1,00,000 : 1,50,000 = 2:3. (b) Application money received = 1,50,000 × ₹3 = ₹4,50,000. Application money required for 1,00,000 shares = 1,00,000 × ₹3 = ₹3,00,000. Excess = ₹1,50,000. (c) Allotment due = 1,00,000 × ₹5 = ₹5,00,000. Less excess application adjusted = ₹1,50,000. Net allotment due = ₹3,50,000. (d) Debenture Allotment A/c Dr. 5,00,000 To Share Capital A/c 3,00,000 To Securities Premium A/c 2,00,000. A wrong answer forgetting to include premium in allotment due, or adjusting excess against call instead of allotment first, reveals misunderstanding of adjustment priority.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (i) Full rejection of excess applications vs (ii) Pro-rata allotment vs (iii) Combination of both (some rejected, some pro-rata). For each, state the journal entry for refund/adjustment of excess application money. Which scenario is most common in real IPOs and why?",
+     "a": "(i) Full rejection: Excess applicants get full refund. Entry: Share Application A/c Dr. → Bank A/c (refund). (ii) Pro-rata: All applicants get shares proportionally; excess money adjusted to allotment/calls. Entry: Share Application A/c Dr. → Share Allotment A/c / Share Call A/c. (iii) Combination: Some applications rejected fully (refund), others allotted pro-rata (adjustment). Entry: Share Application A/c Dr. → Bank A/c (rejected) + Share Allotment A/c (pro-rata). Real IPOs use combination: retail portion often has full rejection for small oversubscription, while institutional/HNI portions use pro-rata. Wrong answer saying \"pro-rata is always used\" ignores SEBI regulations for different investor categories.",
+     "self_check": true
+    },
+    {
+     "q": "A company issued 2,00,000 shares of ₹10 each at par. Applications received for 3,00,000 shares. The board decides to: reject applications for 50,000 shares; make pro-rata allotment to remaining applicants. Application money: ₹3 per share. Allotment: ₹4 per share. Call: ₹3 per share. Evaluate if this decision complies with SEBI minimum subscription. Calculate the pro-rata ratio for the accepted applicants and the amount of application money refunded vs adjusted.",
+     "a": "Total applications = 3,00,000 shares. Rejected = 50,000 shares. Remaining applicants = 2,50,000 shares applied for 2,00,000 shares issued. Minimum subscription check: 2,00,000 shares issued × ₹10 = ₹20,00,000. 90% = ₹18,00,000. Application money received from all 3,00,000 applicants = 3,00,000 × ₹3 = ₹9,00,000. But rejected applicants' money (50,000 × ₹3 = ₹1,50,000) is refunded. Net from accepted = ₹7,50,000. This is LESS than ₹18,00,000 minimum subscription — DECISION VIOLATES SEBI RULE. Pro-rata ratio for accepted = 2,00,000 : 2,50,000 = 4:5. Refunded = ₹1,50,000. Adjusted = (2,50,000 × ₹3) - (2,00,000 × ₹3) = ₹7,50,000 - ₹6,00,000 = ₹1,50,000. A student who misses the minimum subscription check fails the evaluation competency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new over-subscription problem where: (a) shares are issued at a discount; (b) application money exceeds the nominal value of shares issued; (c) the pro-rata adjustment results in zero allotment money due from applicants. Provide the complete journal entries for application, allotment, and first call.",
+     "a": "Example: Issue 50,000 shares of ₹10 each at 10% discount (issue price ₹9). Payable: ₹4 application, ₹3 allotment, ₹2 call. Applications for 1,00,000 shares. Pro-rata 1:2. Application received = 1,00,000 × ₹4 = ₹4,00,000. Required for 50,000 shares = 50,000 × ₹4 = ₹2,00,000. Excess = ₹2,00,000. Allotment due = 50,000 × ₹3 = ₹1,50,000. Excess covers allotment fully (₹1,50,000) with ₹50,000 carried to call. Call due = 50,000 × ₹2 = ₹1,00,000. Less excess = ₹50,000. Net call due = ₹50,000. Journal: Bank Dr. 4,00,000 → Share Application 4,00,000; Share Application Dr. 4,00,000 → Share Capital 2,00,000, Share Allotment 1,50,000, Share Call 50,000; Share Allotment Dr. 1,50,000 → Share Capital 1,50,000; Bank Dr. 0 → Share Allotment 1,50,000 (no cash received); Share Call Dr. 1,00,000 → Share Capital 1,00,000; Bank Dr. 50,000 → Share Call 50,000. A poor answer would miss the discount on share capital or misallocate excess between allotment and call.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

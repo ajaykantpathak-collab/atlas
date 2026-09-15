@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_011",
+   "title": "c11_stat_cbse_08_011",
+   "questions": [
+    {
+     "q": "State any three limitations of index numbers as per the NCERT Class 11 curriculum.",
+     "a": "Correct answer: Any three of: (1) Choice of base year bias, (2) Fixed weights not reflecting changing consumption patterns, (3) Inability to account for quality changes, (4) Problem of new and disappearing commodities, (5) Aggregation errors across heterogeneous groups, (6) Sampling and coverage errors. A wrong answer (e.g., \"index numbers are difficult to calculate\") reveals the student confuses computational difficulty with conceptual limitations, or has memorized formulas without understanding what index numbers actually measure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Consumer Price Index (CPI) with a base year of 2012 might overstate the true cost-of-living increase for a typical urban household in 2024.",
+     "a": "Correct answer: The 2012 base year uses consumption weights from 2012. By 2024, households spend more on services (internet, streaming, healthcare) and less on items like landline phones or DVDs. Fixed 2012 weights over-weight items whose relative importance has fallen and under-weight new essential items, causing substitution bias. A wrong answer focusing only on \"prices have risen\" shows the student doesn't understand that the limitation is about **fixed weights vs changing consumption patterns**, not price changes themselves.",
+     "self_check": true
+    },
+    {
+     "q": "A statistical office constructs a new price index for \"Digital Services\" using 2020 as base year. In 2023, a major streaming platform improves video quality from HD to 4K at the same price. How does the index number's limitation regarding quality changes affect the interpretation of this index? Provide a specific numerical illustration.",
+     "a": "Correct answer: The index treats the 4K service at same price as no price change (price relative = 100). But consumers get higher quality per rupee. If the index shows 0% price change, it **understates** the true welfare gain. Numerical illustration: Suppose 2020 HD plan = ₹200/month. 2023 4K plan = ₹200/month. Index shows no change. But if 4K was separately priced at ₹300 in 2020, the quality-adjusted price fell by 33%. A wrong answer saying \"index shows correct inflation\" reveals the student thinks index numbers automatically adjust for quality, missing that **pure price indices ignore quality unless explicitly hedonic-adjusted**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limitation of \"fixed basket\" in Laspeyres index vs \"changing basket\" in Paasche index. Which index's limitation is more problematic for measuring long-term cost-of-living changes over 20 years? Justify.",
+     "a": "Correct answer: Laspeyres (fixed base-year basket) suffers from **substitution bias** – it overstates cost-of-living increase because it doesn't capture consumers switching to cheaper alternatives. Paasche (current-year basket) suffers from **inconvenience bias** – it requires new quantity data every period and understates inflation because the basket already reflects substitution. For long-term (20 years), Laspeyres' fixed basket becomes severely outdated (e.g., includes VCRs, excludes smartphones), making its limitation **more problematic** for cost-of-living measurement. A wrong answer choosing Paasche shows confusion between measurement convenience and conceptual accuracy for long-term trends.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since Fisher's Ideal Index satisfies both Time Reversal and Factor Reversal tests, it has no limitations and is the perfect index number for policy decisions.\"",
+     "a": "Correct answer: The statement is **false**. Fisher's index only satisfies mathematical consistency tests (formula properties). It does NOT solve: (1) base year obsolescence, (2) quality change neglect, (3) new goods problem, (4) aggregation across diverse groups, (5) sampling errors. A perfect formula cannot fix flawed data or conceptual mismatches. A wrong answer agreeing reveals the student confuses **formula properties** with **data/conceptual limitations** – a critical senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research project to quantify the \"outlet substitution bias\" in your city's CPI. Outline: (a) hypothesis, (b) data sources, (c) method to isolate this bias from other limitations, (d) expected policy implication.",
+     "a": "Expected answer: (a) Hypothesis: CPI overstates inflation because it samples prices from traditional retail outlets while consumers increasingly buy from cheaper online platforms. (b) Data: CPI price quotes (secondary) + primary survey of 200 households tracking identical items across online/offline for 6 months. (c) Method: Construct a matched-model index for 50 items using both outlet types; difference = outlet substitution bias. Control for quality by matching exact SKUs. (d) Policy: If bias >0.5% annually, statistical office should expand price collection to online platforms. A poor answer (e.g., \"compare CPI with WPI\") shows inability to design a targeted isolation of one specific limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

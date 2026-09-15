@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_004",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_004",
+   "title": "c7_chem_ch02_004",
+   "questions": [
+    {
+     "q": "Which of the following describes a key characteristic that uniquely identifies a chemical change rather than a physical change?\nA) Change in state from solid to liquid\nB) Change in shape or size\nC) Formation of one or more new substances with different properties\nD) Temporary alteration in appearance",
+     "a": "The correct answer is C. A chemical change always results in the creation of new substances with entirely different chemical and physical properties. If a student chooses A or B, they are confusing physical state or dimension changes with chemical transformations, failing to recognize that melting or cutting does not create new chemical molecules.",
+     "self_check": true
+    },
+    {
+     "q": "When a silver ornament develops a black coating over time when exposed to the air in your home, why is this classified as a chemical change rather than a physical change?\nA) Because the silver has only changed its color on the outside.\nB) Because silver reacts with sulfur compounds in the air to form a new chemical compound (silver sulfide).\nC) Because the process can be easily reversed by washing with water.\nD) Because the mass of the ornament decreases during the color change.",
+     "a": "The correct answer is B. The black coating is a completely new chemical substance formed by a reaction between silver and atmospheric gases, which cannot be undone by simple physical means. A student selecting A or C fails to understand that a permanent color change accompanied by compound formation indicates a chemical reaction, not a mere physical alteration.",
+     "self_check": true
+    },
+    {
+     "q": "A student dissolves 10 grams of common salt (sodium chloride) in a beaker of water and then heats the solution until all water evaporates completely, leaving dry salt crystals behind. Calculate the final mass of the recovered salt and identify the type of change that occurred during dissolution.\nA) Mass = 0 g; Chemical change\nB) Mass = 10 g; Physical change\nC) Mass = less than 10 g; Chemical change\nD) Mass = more than 10 g; Physical change",
+     "a": "Steps: \n1. Identify the process: dissolving salt in water and recovering it by evaporation. \n2. Analyze the nature of the solute: salt dissolves into ions but does not change its chemical identity (NaCl remains NaCl). \n3. Apply conservation of mass: the dissolved salt has not reacted chemically, so evaporating the water leaves the exact initial amount behind. \n4. Conclude classification: because no new substance is formed and the process is fully reversible by evaporation, it is a physical change. \nCorrect Answer: B (Mass = 10 g; Physical change). Choosing C or A indicates the misconception that dissolving destroys matter or causes a chemical reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the melting of solid candle wax and the burning of candle wick thread with wax vapor. Why is burning a candle considered to involve both physical and chemical changes simultaneously?\nA) Melting the wax is a physical change (state change), while burning the wax vapor and wick produces carbon dioxide and water vapor (chemical change).\nB) Both processes create new substances because the wax disappears completely.\nC) Melting creates a new liquid compound, and burning is just a faster melting process.\nD) Neither process involves any chemical reaction since light and heat are forms of energy, not matter.",
+     "a": "The correct answer is A. Melting involves wax changing from solid to liquid (physical), whereas combustion of the vaporized wax reacts with oxygen to form new gases like carbon dioxide and water vapor (chemical). A student choosing B or C fails to separate simple phase transitions from combustion reactions that alter molecular structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"All changes that are irreversible must automatically be classified as chemical changes.\" Is this statement scientifically valid, and why?\nA) Yes, because once something cannot be reversed, its molecules are permanently destroyed.\nB) No, because tearing a sheet of paper into tiny irreversible pieces is a physical change, as no new chemical substance is formed.\nC) Yes, because reversibility is the only criterion scientists use to separate physical and chemical changes.\nD) No, because chemical changes are always reversible if you cool them down enough.",
+     "a": "The correct answer is B. Irreversibility alone does not make a change chemical; tearing, grinding, or breaking a solid into unrecoverable fragments alters its size and shape physically without altering its molecular identity. Selecting A shows a failure to distinguish between physical subdivision and chemical transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple two-step household test to conclusively prove whether the fizzing reaction when lemon juice (citric acid) is added to baking soda (sodium bicarbonate) is a physical or chemical change. What specific observations would confirm your conclusion?",
+     "a": "To prove it is a chemical change, step 1: Mix baking soda and lemon juice in a glass and observe the vigorous effervescence (bubbling) caused by the release of carbon dioxide gas. Step 2: Test the gas produced or observe that the remaining liquid has entirely different properties (no longer tasting like baking soda or lemon juice), confirming a new substance has formed. A poor answer would state it is physical because bubbles look like boiling water, missing the creation of an entirely new gas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

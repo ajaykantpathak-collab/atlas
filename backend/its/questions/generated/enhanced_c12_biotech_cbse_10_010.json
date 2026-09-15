@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_010",
+   "title": "c12_biotech_cbse_10_010",
+   "questions": [
+    {
+     "q": "In a sandwich ELISA designed to detect a viral antigen in patient serum, which component is immobilised on the microtitre plate well as the \"capture\" molecule?",
+     "a": "A known monoclonal or polyclonal antibody specific to the viral antigen is immobilised as the capture molecule. A wrong answer (e.g., \"the patient's antigen\" or \"the enzyme-conjugated antibody\") reveals the student confuses the role of the solid-phase binder — they think the unknown sample component is coated first, whereas in sandwich ELISA the capture antibody is pre-coated to \"trap\" the antigen from the sample.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to measure the concentration of anti-dengue IgG antibodies in human serum samples. Which ELISA format is most appropriate and why?",
+     "a": "Indirect ELISA is most appropriate because the target is an antibody (IgG) in the sample. In this format, dengue viral antigen is coated on the plate; patient serum antibodies bind; then an enzyme-conjugated anti-human IgG secondary antibody detects the bound patient antibodies. A wrong answer (e.g., \"sandwich ELISA\") reveals the student does not distinguish between detecting an antigen (sandwich) vs. detecting an antibody (indirect) — they apply the same format regardless of analyte type.",
+     "self_check": true
+    },
+    {
+     "q": "A competitive ELISA kit for detecting aflatoxin B1 in milk uses a plate coated with aflatoxin-BSA conjugate. The test sample (milk extract) and enzyme-conjugated anti-aflatoxin antibody are added simultaneously. If the milk contains high aflatoxin B1, what happens to the final colour intensity and why?",
+     "a": "High aflatoxin in the sample competes with the coated aflatoxin-BSA for binding to the enzyme-conjugated antibody. More free aflatoxin in the sample means less antibody binds to the plate. After washing and substrate addition, the colour intensity will be LOW (inverse relationship). A wrong answer (e.g., \"high colour intensity\") reveals the student misses the competitive principle: they think more analyte = more signal, confusing competitive ELISA with sandwich/indirect formats where signal is directly proportional.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sensitivity and specificity of direct ELISA vs. indirect ELISA for detecting a low-abundance bacterial antigen in a complex clinical sample. Explain the trade-off.",
+     "a": "Indirect ELISA has higher sensitivity because multiple enzyme-conjugated secondary antibodies bind to each primary antibody, amplifying the signal. However, direct ELISA has higher specificity because it uses only one antibody, eliminating cross-reactivity from the secondary antibody. A wrong answer (e.g., \"indirect is better in all aspects\") reveals the student does not understand signal amplification vs. cross-reactivity trade-offs — they memorise \"indirect is more sensitive\" without knowing the specificity cost.",
+     "self_check": true
+    },
+    {
+     "q": "A diagnostic lab receives a batch of ELISA plates where the blocking step was accidentally skipped. Predict the effect on (a) background absorbance in negative control wells and (b) the limit of detection for the target analyte. Justify.",
+     "a": "(a) Background absorbance will be HIGH because unblocked plastic surfaces non-specifically bind the enzyme-conjugated detection antibody, producing false-positive signal. (b) Limit of detection will WORSEN (increase) because the signal-to-noise ratio decreases — true low-positive signals become indistinguishable from elevated background. A wrong answer (e.g., \"no effect\" or \"better detection\") reveals the student treats blocking as optional rather than critical for preventing non-specific protein adsorption — a fundamental misunderstanding of solid-phase immunoassay physics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a diagnostic algorithm using two different ELISA formats to confirm HIV infection in a patient with a reactive initial screening test. Specify the format, target analyte, and interpretation criteria for each step.",
+     "a": "Step 1 (Screening): Indirect ELISA — plate coated with HIV antigens (gp120, p24); detects anti-HIV antibodies in patient serum. Reactive = proceed to confirmation. Step 2 (Confirmation): Western blot (not ELISA, but if restricted to ELISA formats: Competitive ELISA using synthetic HIV peptides to verify antibody specificity) OR Sandwich ELISA for p24 antigen detection in early infection. Interpretation: Both antibody and antigen positive = confirmed HIV infection. A poor answer uses the same format twice or cannot justify why two different targets (antibody then antigen) are needed — revealing they don't understand the diagnostic window period and seroconversion dynamics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

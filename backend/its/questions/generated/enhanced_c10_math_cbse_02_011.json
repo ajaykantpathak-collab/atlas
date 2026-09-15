@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_011",
+   "title": "c10_math_cbse_02_011",
+   "questions": [
+    {
+     "q": "Write the formulas for the sum and product of zeros of a quadratic polynomial \\(ax^2 + bx + c\\) (where \\(a \\neq 0\\)) in terms of its coefficients.",
+     "a": "Sum of zeros \\(\\alpha + \\beta = -\\frac{b}{a}\\); Product of zeros \\(\\alpha\\beta = \\frac{c}{a}\\). A wrong answer like \\(\\alpha+\\beta = -b\\) or \\(\\alpha\\beta = c\\) reveals the student forgets to divide by the leading coefficient \\(a\\) — a critical error for non-monic polynomials that costs marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"For the polynomial \\(3x^2 - 7x + 2\\), the sum of zeros is \\(7\\) and the product is \\(2\\).\" Explain why this statement is incorrect and give the correct values.",
+     "a": "The student ignored the leading coefficient \\(a=3\\). Correct sum \\(= -(-7)/3 = 7/3\\); correct product \\(= 2/3\\). A wrong explanation that only mentions \"sign error\" shows the student does not understand that the formulas are ratios involving \\(a\\), not just the raw coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Verify whether \\(1\\) and \\(-3\\) are the zeros of the polynomial \\(2x^2 + 4x - 6\\) using the zeros-coefficients relationship. Show all steps.",
+     "a": "Given zeros: \\(1, -3\\). Sum \\(= 1 + (-3) = -2\\). Product \\(= 1 \\times (-3) = -3\\). Polynomial: \\(a=2, b=4, c=-6\\). \\(-b/a = -4/2 = -2\\). \\(c/a = -6/2 = -3\\). Both match, so \\(1\\) and \\(-3\\) satisfy the relationship. A common error is computing sum as \\(1-3=-2\\) but then comparing with \\(-b = -4\\) instead of \\(-b/a\\), leading to a false conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "The polynomial \\(x^3 - 6x^2 + 11x - 6\\) is claimed to have zeros \\(1, 2, 3\\). Verify this claim completely using all three zeros-coefficients relationships for a cubic polynomial.",
+     "a": "Zeros: \\(1,2,3\\). Sum \\(= 6\\). Pairwise sum \\(= 1\\cdot2 + 2\\cdot3 + 3\\cdot1 = 2+6+3=11\\). Product \\(= 6\\). Polynomial: \\(a=1, b=-6, c=11, d=-6\\). \\(-b/a = 6\\), \\(c/a = 11\\), \\(-d/a = 6\\). All three match. A student who only checks the sum and product but skips the pairwise sum \\(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha\\) has an incomplete verification — board exams require checking all applicable relations.",
+     "self_check": true
+    },
+    {
+     "q": "A student's verification for the polynomial \\(4x^2 - 4x + 1\\) with claimed zeros \\(\\frac{1}{2}, \\frac{1}{2}\\) is shown below. Identify the error and correct it.\n*Student's work:* Sum \\(= \\frac{1}{2} + \\frac{1}{2} = 1\\). \\(-b = -(-4) = 4\\). Sum \\(\\neq -b\\), so zeros are wrong.",
+     "a": "The student compared sum of zeros with \\(-b\\) instead of \\(-b/a\\). Correct: \\(-b/a = 4/4 = 1\\), which matches the sum. Product \\(= 1/4\\), \\(c/a = 1/4\\), matches. The zeros are correct. This error (ignoring division by \\(a\\)) is the single most common mistake in board exam verification questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic polynomial whose zeros have sum \\(5\\) and product \\(6\\), then verify your polynomial using the zeros-coefficients relationship.",
+     "a": "Using \\(x^2 - (\\text{sum})x + \\text{product}\\), polynomial is \\(x^2 - 5x + 6\\). Zeros are \\(2\\) and \\(3\\) (by factoring or quadratic formula). Verification: Sum \\(= 5 = -(-5)/1\\), Product \\(= 6 = 6/1\\). A poor answer would give a polynomial like \\(2x^2 - 10x + 12\\) and not verify, or would not show the verification step, indicating they don't understand the \"verify\" instruction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

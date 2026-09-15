@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_16_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_16_003",
+   "title": "c11_bio_cbse_16_003",
+   "questions": [
+    {
+     "q": "What is the normal glomerular filtration rate (GFR) in a healthy adult human, and what fraction of cardiac output does renal blood flow represent?",
+     "a": "Normal GFR ≈ 125 mL/min (180 L/day). Renal blood flow ≈ 1100–1200 mL/min, which is ~20–25% of cardiac output (1/5th of ventricular output). A wrong answer (e.g., \"GFR = 1.5 L/day\" or \"renal flow = 5% of cardiac output\") reveals confusion between filtrate volume and urine volume, or lack of quantitative sense of renal hemodynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the glomerular filtrate contain almost no protein despite high hydrostatic pressure, while systemic capillaries typically allow some protein leakage?",
+     "a": "The glomerular barrier has three specialized layers: fenestrated endothelium (size barrier), negatively charged basement membrane (charge barrier repelling anionic albumin), and podocyte slit diaphragms with nephrin (molecular sieve ~4–14 nm). Systemic capillaries lack the charge barrier and have continuous endothelium with tighter junctions. A wrong answer citing only \"small pores\" misses the critical role of negative charge selectivity; students often forget that albumin's negative charge at physiological pH enhances its retention beyond size exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with severe hypoalbuminemia (plasma albumin 1.5 g/dL vs normal 4.5 g/dL) develops edema. Using Starling forces, explain how this alters glomerular filtration and contributes to edema formation.",
+     "a": "Step 1: Reduced plasma albumin lowers glomerular capillary oncotic pressure (π_GC). Step 2: NFP = (P_GC - P_BC) - (π_GC - π_BC) increases because π_GC drops. Step 3: GFR rises initially (hyperfiltration). Step 4: However, systemic capillary oncotic pressure also falls, causing fluid shift from vascular to interstitial space → edema. Step 5: Reduced effective circulating volume activates RAAS, constricting efferent arteriole → further raises P_GC → vicious cycle. A wrong answer ignoring the systemic capillary effect or RAAS compensation shows incomplete integration of filtration physics with whole-body homeostasis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the autoregulatory roles of the myogenic mechanism and tubuloglomerular feedback (TGF) in maintaining constant GFR when systemic blood pressure fluctuates between 80–180 mmHg.",
+     "a": "Myogenic mechanism: Stretch of afferent arteriole smooth muscle → depolarization → vasoconstriction (rapid, seconds). TGF: Increased NaCl delivery to macula densa → adenosine release → afferent arteriole vasoconstriction (slower, 10–30 s). Both constrict afferent arteriole to lower P_GC when BP rises. Myogenic responds to pressure directly; TGF responds to flow-dependent NaCl concentration. A wrong answer conflating the two sensors (stretch vs. NaCl) or suggesting efferent constriction for autoregulation reveals misunderstanding of the distinct signaling pathways and their effector sites.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Angiotensin II increases GFR primarily by constricting the afferent arteriole to raise glomerular hydrostatic pressure.\"",
+     "a": "False. Angiotensin II preferentially constricts the efferent arteriole (higher AT1 receptor density), which increases glomerular hydrostatic pressure (P_GC) and thus GFR, while reducing renal blood flow. Constricting the afferent arteriole would decrease P_GC and GFR. This error is common because students generalize \"vasoconstriction raises pressure\" without distinguishing pre- vs. post-glomerular resistance effects on capillary pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using inulin clearance to prove that a substance is neither reabsorbed nor secreted by the tubules, and explain how the result would differ for glucose at plasma concentrations above and below the transport maximum (Tm).",
+     "a": "Infuse inulin to steady-state plasma concentration (P_in). Measure urine flow rate (V) and urine inulin concentration (U_in). Calculate C_in = (U_in × V)/P_in. If C_in = GFR (≈125 mL/min), the substance is freely filtered and neither reabsorbed nor secreted. For glucose: below Tm, C_glucose = 0 (complete reabsorption); above Tm, C_glucose > 0 and rises with plasma glucose (saturation of SGLT2). A poor design omits steady-state requirement or fails to contrast glucose's threshold behavior with inulin's linear clearance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

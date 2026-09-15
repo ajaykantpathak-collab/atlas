@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_007",
+   "title": "c11_biotech_cbse_08_007",
+   "questions": [
+    {
+     "q": "Write the standard karyotype notation for a female with Turner syndrome and a male with Klinefelter syndrome.",
+     "a": "Turner syndrome: 45,X; Klinefelter syndrome: 47,XXY. A wrong answer (e.g., 45,XO or 47,XYY) reveals the student does not know the ISCN convention: the total chromosome number is written first, followed by sex chromosomes, with a plus sign only for extra autosomes (e.g., +21) but not for extra sex chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Barr body test on buccal smear shows zero inactive X chromosomes in Turner syndrome but one in Klinefelter syndrome.",
+     "a": "Number of inactive X = number of X chromosomes - 1 (if >0). For 45,X: 1-1 = 0 inactive X → no Barr body. For 47,XXY: 2-1 = 1 inactive X → one Barr body. A wrong answer (e.g., saying Klinefelter has zero Barr bodies) indicates the student either forgets the formula or mistakenly thinks only females undergo X-inactivation.",
+     "self_check": true
+    },
+    {
+     "q": "A couple has a son diagnosed with Klinefelter syndrome (47,XXY). The father’s karyotype is 46,XY and the mother’s is 46,XX. Which meiotic error (non-disjunction in mother or father) and at which stage (meiosis I or II) could produce the XX ovum that, when fertilized by a Y sperm, gives 47,XXY? Justify.",
+     "a": "The extra X must come from the mother because the father contributes the Y. Non-disjunction in maternal meiosis I (homologous X chromosomes fail to separate) produces an XX ovum; meiosis II (sister chromatids fail to separate) would also produce an XX ovum if the chromatids are identical. Both are possible, but meiosis I is more common for X chromosome non-disjunction. A wrong answer that blames the father or ignores the maternal origin shows misunderstanding of sex chromosome inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the clinical features of Turner and Klinefelter syndromes and explain how the difference in sex chromosome complement (monosomy X vs. extra X in males) leads to opposite effects on stature (short vs. tall) and gonadal function (streak ovaries vs. small testes).",
+     "a": "Turner (45,X): short stature due to haploinsufficiency of SHOX gene on Xp; streak ovaries because two X chromosomes are needed for ovarian maintenance. Klinefelter (47,XXY): tall stature due to extra copy of SHOX (and other pseudoautosomal genes) escaping inactivation; small testes due to toxicity of extra X material on spermatogenesis and Leydig cell dysfunction. A wrong answer that attributes tall stature in Klinefelter to \"extra Y\" or short stature in Turner to \"missing autosome\" reveals confusion about which chromosome is involved.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Turner syndrome is more severe than Klinefelter syndrome because monosomy is always more harmful than trisomy.\" Use evidence from the two syndromes.",
+     "a": "The statement is false. While monosomy X leads to high prenatal lethality (many 45,X conceptuses miscarry), surviving individuals have a normal lifespan with hormone therapy. Klinefelter males also have near-normal lifespan but face infertility, increased risk of autoimmune diseases, breast cancer, and osteoporosis. Severity cannot be generalized by monosomy vs. trisomy; it depends on which chromosome and gene dosage sensitivity. A wrong answer that agrees without nuance shows lack of critical evaluation of phenotypic outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step diagnostic algorithm for a newborn with ambiguous genitalia to distinguish between Turner syndrome, Klinefelter syndrome, and a typical 46,XX or 46,XY karyotype, using Barr body test, karyotyping, and hormone assays.",
+     "a": "1. Perform Barr body test on buccal smear: 0 Barr bodies → suspect 45,X (Turner) or 46,XY; 1 Barr body → suspect 47,XXY (Klinefelter) or 46,XX; 2 Barr bodies → 47,XXX, etc. 2. Confirm with karyotyping (gold standard). 3. Measure FSH/LH: elevated in both Turner and Klinefelter due to gonadal failure. 4. Test for SRY gene (if 46,XY but female phenotype → Swyer syndrome). A poor answer omits the confirmatory karyotype or misorders the steps, showing incomplete understanding of diagnostic hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

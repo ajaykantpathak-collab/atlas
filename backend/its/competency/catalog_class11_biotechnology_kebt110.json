@@ -1,0 +1,397 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 10,
+ "chapter_title": "Protein Informatics and Cheminformatics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt110.1",
+   "title": "Protein Data Types and Their Uses",
+   "section": "10.1.1-10.1.2",
+   "definition": "Protein informatics feeds on every raw form a protein can take - micrographs of heat-denatured aggregates, solutions for physico-chemical study, MALDI sequence fragments, assembled sequences, PDB crystal files, interaction maps, NMR and mass spectra, and hypothetical proteins read straight out of genomes - each type answering a different question from marker design to drug-target mapping.",
+   "formula": "-",
+   "key_idea": "Match the raw data type to the question: crystals reveal interactions, fragments rebuild full sequences, and genome reads reveal proteins never seen in a lab.",
+   "textbook_ref": "kebt110.txt sections 10.1.1-10.1.2",
+   "question_patterns": [
+    "list any four types of raw protein data and one use of each",
+    "what is a hypothetical protein and from where can its existence be inferred",
+    "how do fragmented MALDI sequences help in finding a full length protein sequence",
+    "which databases supply raw protein data for informatics analysis",
+    "name the machine learning techniques used in protein informatics analysis",
+    "how does network mapping of proteins assist treatment design"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the data form",
+     "explain": "Image, solution, sequence, structure file, interaction record or spectrum."
+    },
+    {
+     "step": 2,
+     "action": "choose the technique",
+     "explain": "Wavelet image analysis, homology calculation, structure optimisation, machine learning or network mapping follows."
+    },
+    {
+     "step": 3,
+     "action": "read the outcome",
+     "explain": "The analysis returns markers, kinetics, structures, functions or therapeutic targets."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which file format stores solved protein 3D coordinates: PDB or FASTQ?",
+     "a": "PDB"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.2",
+   "title": "Primary Structure Descriptors of a Protein",
+   "section": "10.1.3.1",
+   "definition": "From sequence alone the ProtParam tool of ExPASy prices a protein's habits: its isoelectric point calls the molecule acidic below seven or basic above, the aliphatic index tallies aliphatic side-chain volume as a thermal-stability credit, an instability index under forty predicts a stable protein in the test tube, and the GRAVY value - hydropathy scores summed over the residue count - forecasts how sociably the chain meets water.",
+   "formula": "gravy = hydropathy_sum / residues",
+   "key_idea": "Divide the summed hydropathy by residue count for GRAVY, take the aliphatic share as a percent, and read seven and forty as the pH and stability pivots.",
+   "textbook_ref": "kebt110.txt section 10.1.3.1",
+   "question_patterns": [
+    "a peptide of 120 residues has hydropathy values summing to 96 - compute its GRAVY value",
+    "what does an instability index above 40 predict about a protein in a test tube",
+    "a protein shows pI of 5.2 - is it acidic or basic and which purification method suits the pI",
+    "how is the aliphatic index defined and why does it favour thermal stability",
+    "which server computes isoelectric point extinction coefficient and GRAVY value together",
+    "what does a low GRAVY value suggest about a protein's interaction with water"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the hydropathy",
+     "explain": "GRAVY divides the summed amino-acid hydropathy by the residue count.",
+     "compute": "gravy = hydropathy_sum / residues"
+    },
+    {
+     "step": 2,
+     "action": "take the aliphatic share",
+     "explain": "Aliphatic residues as a percent of the chain give the aliphatic index input.",
+     "compute": "aliphatic_pct = aliphatic_residues * 100 / residues"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An instability index under what value predicts a stable protein: forty or four?",
+     "a": "forty"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.3",
+   "title": "Predicting Secondary and 3D Protein Structures",
+   "section": "10.1.3.2-10.1.3.3",
+   "definition": "When no crystal exists, computation fills in: APSSP, CFSSP, SOPMA and GOR forecast helices and sheets; homology modelling on MODELLER or SWISS-MODEL copies a solved relative; threading forces the chain onto a known backbone for fold prediction; QUARK builds the model de novo from sequence alone, and InterPRO or CDD carves the chain into domains recorded later as PDB coordinates.",
+   "formula": "-",
+   "key_idea": "Close relatives give global folds by homology, distant hints give local folds by threading, and sequence alone still yields a de novo model.",
+   "textbook_ref": "kebt110.txt sections 10.1.3.2-10.1.3.3, Fig. 10.1",
+   "question_patterns": [
+    "name two tools each for homology modelling fold prediction and de novo structure prediction",
+    "which tools predict protein secondary structure and why is that step useful",
+    "how does threading differ from homology modelling in what it requires",
+    "what is a domain and which tools scan for recurring domains",
+    "trace the flowchart from protein sequence to a 3D model when a homologue exists in PDB and when none does",
+    "what does a PDB file record about a computationally modelled structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for a template",
+     "explain": "A homologous solved structure enables homology modelling; none pushes toward threading or de novo."
+    },
+    {
+     "step": 2,
+     "action": "match the method",
+     "explain": "High homology gives global folds, low homology local folds, threading tests physical viability, QUARK assembles from scratch."
+    },
+    {
+     "step": 3,
+     "action": "finish the model",
+     "explain": "Domain scans and PDB-format coordinates complete the annotated 3D model."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Copying a solved relative's fold is which modelling: homology or de novo?",
+     "a": "homology"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.4",
+   "title": "Cheminformatics and Virtual Screening",
+   "section": "10.2.1-10.2.3",
+   "definition": "Cheminformatics aims computational power at chemistry - storing property tables, reaction routes and 3D structures - so that virtual screening can score and rank millions of real and hypothetical molecules against ADME and docking filters before any synthesis; the CAS registry alone holds over 219 million substances alongside 70 million sequences and billions of property values.",
+   "formula": "sequence_share = sequences_million / substances_million",
+   "key_idea": "Screen first in silico and synthesize only the survivors; the CAS numbers show the scale such filters must face.",
+   "textbook_ref": "kebt110.txt sections 10.2.1-10.2.3",
+   "question_patterns": [
+    "how many organic and inorganic substances does the CAS registry host and how many sequences accompany them",
+    "define virtual screening and list the filter classes it may include",
+    "what is computer-aided drug design and which industries use cheminformatics daily",
+    "what are virtual libraries of molecules and why can they contain compounds that do not exist",
+    "name any four popular chemical databases and what each specialises in",
+    "which database would you consult for binding affinity of small molecules to protein targets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gather the library",
+     "explain": "Real and virtual compounds pool into searchable chemical databases."
+    },
+    {
+     "step": 2,
+     "action": "apply the filters",
+     "explain": "General ADME filters, ligand-based pharmacophore searches and structure-based docking narrow the field."
+    },
+    {
+     "step": 3,
+     "action": "verify in the lab",
+     "explain": "Only top-ranked candidates proceed to synthesis and biological testing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Scoring millions of molecules computationally before synthesis is called what screening: virtual or physical?",
+     "a": "virtual"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.5",
+   "title": "Molecular Graphs and Substructure Searching",
+   "section": "10.2.4-10.2.6",
+   "definition": "Chemicals live in computers as molecular graphs - atoms as nodes, bonds as edges - the same node-edge logic that later draws pathways like glycolysis; searching them often runs in two stages, a bitstring screen that discards obvious non-matches, then a subgraph isomorphism test that confirms every atom and bond of the query sits inside the candidate, and reaction searches add atom mapping from reactants to products.",
+   "formula": "-",
+   "key_idea": "Filter fast with bitstrings, confirm exactly with subgraph isomorphism, and map every atom to its product in reaction searches.",
+   "textbook_ref": "kebt110.txt sections 10.2.4-10.2.6",
+   "question_patterns": [
+    "how are chemical structures stored in computers - explain the node and edge analogy",
+    "what is subgraph isomorphism and why does a two-stage search save effort",
+    "what are bitstrings and how do they help screen molecule libraries",
+    "what does atom mapping achieve in a reaction database search",
+    "how could you query all reactions that use glucose near 37 degrees celsius",
+    "why is storing a molecule as a jpg or pdf of little use for deep browsing of bond angles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the graph",
+     "explain": "Represent atoms as nodes and bonds as edges."
+    },
+    {
+     "step": 2,
+     "action": "screen cheaply",
+     "explain": "Binary bitstrings encode features and eliminate most candidates."
+    },
+    {
+     "step": 3,
+     "action": "confirm exactly",
+     "explain": "Subgraph isomorphism embeds the query into survivors; atom mapping completes reaction queries."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Chemicals live in computers as molecular what, with atoms as nodes and bonds as edges?",
+     "a": "graphs"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.6",
+   "title": "Pharmacophore Models of Ligand Recognition",
+   "section": "10.2.7",
+   "definition": "A pharmacophore is not a molecule but the abstract set of steric and electronic features - charged groups, rings, hydrophobic patches - arranged in space that a ligand needs to wake a biological target; modelling these features explains how structurally unlike ligands can still dock the same receptor.",
+   "formula": "-",
+   "key_idea": "Collect the features, not the atoms - a pharmacophore maps what must be present and where, not what the molecule is.",
+   "textbook_ref": "kebt110.txt section 10.2.7",
+   "question_patterns": [
+    "define pharmacophore as per IUPAC and explain why it is not a physical molecule",
+    "which spatial features build a 3D pharmacophore model",
+    "how does a pharmacophore explain diverse ligands docking one receptor",
+    "distinguish pharmacophore points from pharmacophore models",
+    "what role do steric and electronic features play in molecular recognition of a ligand",
+    "how does pharmacophore based search fit into virtual screening"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the features",
+     "explain": "Note charge, ring and hydrophobic features with their spatial orientation."
+    },
+    {
+     "step": 2,
+     "action": "abstract the pattern",
+     "explain": "Keep the arrangement, drop the specific scaffold - that is the pharmacophore."
+    },
+    {
+     "step": 3,
+     "action": "use the model",
+     "explain": "Search libraries for any molecule satisfying the feature pattern."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A pharmacophore collects the steric and electronic what a ligand needs: features or atoms?",
+     "a": "features"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.7",
+   "title": "Lipinski's Rule of Five Screening",
+   "section": "10.2.8",
+   "definition": "Christopher Lipinski's 1997 yardstick flags oral-drug potential: at most five hydrogen-bond donors, at most ten acceptors, molecular weight below five hundred daltons and log P below five, with no more than one violation tolerated and scores under three dropping out of further analysis; intramuscular and intravenous drugs and natural products escape the rule.",
+   "formula": "weight_excess = mol_weight - 500",
+   "key_idea": "Subtract each limit from the measured value - a positive excess marks a violation against donors, acceptors, weight or log P.",
+   "textbook_ref": "kebt110.txt section 10.2.8",
+   "question_patterns": [
+    "state the four criteria of Lipinski's rule of five for an orally active drug",
+    "a compound weighs 640 daltons - by how much does it exceed the Lipinski weight limit",
+    "a molecule has 7 hydrogen bond donors - how many donors over the limit is that",
+    "how many violations of the rule of five can a compound still carry and pass",
+    "which compounds are exempt from the rule of five and which routes of administration",
+    "what RO5 score range disqualifies a compound from further analysis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weigh against the limit",
+     "explain": "Subtract 500 daltons from the molecular weight; a positive value is a violation.",
+     "compute": "weight_excess = mol_weight - 500"
+    },
+    {
+     "step": 2,
+     "action": "count extra donors",
+     "explain": "Subtract the donor limit of five from the donor count.",
+     "compute": "donors_over = hbond_donors - donor_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Lipinski's rule caps molecular weight below how many daltons: 500 or 5000?",
+     "a": "500"
+    }
+   ]
+  },
+  {
+   "id": "kebt110.8",
+   "title": "The Drug Development Pipeline Timeline",
+   "section": "10.2.9 and Fig. 10.2",
+   "definition": "A new medicine walks a long road: discovery alone consumes seven to eight years screening thousands of compounds, development trims the field to one to five candidates over one to five years, and clinical trials test the single survivor through phases I to III across five to six years before regulatory approval and patient care.",
+   "formula": "journey_total = dev_total + clinical_years",
+   "key_idea": "Add the three stage durations to price the whole lab-to-market journey.",
+   "textbook_ref": "kebt110.txt section 10.2.9, Fig. 10.2, Box 2",
+   "question_patterns": [
+    "a pipeline spends 7 years in discovery 3 in development and 6 in trials - compute the total journey time",
+    "how many compounds enter discovery and how many survive into clinical trials on average",
+    "define lead compound hit and false positive in the vocabulary of screening",
+    "what is high throughput screening and how many compounds can it test",
+    "which stages separate a new chemical entity from regulatory approval",
+    "what is off target activity and why does it matter in drug safety"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the pre-clinical stages",
+     "explain": "Discovery and development durations combine first.",
+     "compute": "dev_total = discovery_years + development_years"
+    },
+    {
+     "step": 2,
+     "action": "add the trials",
+     "explain": "Clinical phases complete the timeline.",
+     "compute": "journey_total = dev_total + clinical_years"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Discovery alone consumes how many years: seven to eight or just one?",
+     "a": "seven to eight"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt110.txt section 10.1.3.1 (GRAVY and aliphatic index)",
+   "concept": "kebt110.2",
+   "question_type": "compute",
+   "question_pattern": "A protein of {residues} residues has hydropathy values summing to {hydropathy_sum} and contains {aliphatic_residues} aliphatic residues. Compute its GRAVY value and the aliphatic percent of the chain.",
+   "extracted_variables": {
+    "residues": "total amino acid residues",
+    "hydropathy_sum": "sum of hydropathy values",
+    "aliphatic_residues": "count of aliphatic residues A V I L"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the hydropathy",
+     "explain": "GRAVY is the hydropathy sum divided by residues.",
+     "compute": "gravy = hydropathy_sum / residues"
+    },
+    {
+     "step": 2,
+     "action": "percent the aliphatic share",
+     "explain": "Aliphatic residues as a percent of the whole chain.",
+     "compute": "aliphatic_pct = aliphatic_residues * 100 / residues"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt110.txt Fig. 10.2 (drug development pipeline)",
+   "concept": "kebt110.8",
+   "question_type": "compute",
+   "question_pattern": "A drug candidate passes through {discovery_years} years of discovery, {development_years} years of development and {clinical_years} years of clinical trials. Find the total years from idea to regulatory approval.",
+   "extracted_variables": {
+    "discovery_years": "years in the discovery stage",
+    "development_years": "years in the development stage",
+    "clinical_years": "years in clinical trials"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the lab stages",
+     "explain": "Discovery plus development give the pre-clinical span.",
+     "compute": "dev_total = discovery_years + development_years"
+    },
+    {
+     "step": 2,
+     "action": "add the trials",
+     "explain": "Clinical years complete the pipeline.",
+     "compute": "journey_total = dev_total + clinical_years"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt110-ex1",
+   "source_ref": "kebt110.txt Exercises (questions 1-6)",
+   "questions": [
+    "What is the role of information technology in the determination of protein properties?",
+    "What type of protein raw data is used for computationally extracting information about a protein?",
+    "Name any two common tools for domain prediction.",
+    "What is the significance of cheminformatics in drug discovery?",
+    "Which option is not a rule in Lipinski's rule of five - receptors, log P, donors or molecular weight above 500?",
+    "Which protein property is excluded from primary structure prediction - aliphatic index, fold prediction, instability index or isoelectric point?"
+   ]
+  }
+ ]
+}

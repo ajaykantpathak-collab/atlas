@@ -1,0 +1,626 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Beyond Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu112.txt",
+ "concepts": [
+  {
+   "id": "c6cu.12.1",
+   "title": "The Solar System",
+   "section": "12.1",
+   "definition": "The solar system is the Sun and the family of eight planets, their moons, and other bodies that move around the Sun held by its gravity.",
+   "formula": "",
+   "key_idea": "The Sun is at the centre, and eight planets orbit around it in fixed paths called orbits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the solar system?",
+    "How many planets are there in the solar system?",
+    "What holds the planets in orbit around the Sun?",
+    "Name the planets in order from the Sun.",
+    "What is an orbit?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the centre",
+     "explain": "The Sun is at the centre of the solar system."
+    },
+    {
+     "step": 2,
+     "action": "List the planets",
+     "explain": "Eight planets -- Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune -- orbit the Sun."
+    },
+    {
+     "step": 3,
+     "action": "Explain orbits",
+     "explain": "Each planet moves around the Sun in a fixed path called an orbit, held by the Sun's gravity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the solar system?",
+     "solution": "The solar system is the Sun and the eight planets and other bodies that orbit it.",
+     "answer": "The Sun and the bodies that orbit it.",
+     "_n": 1
+    },
+    {
+     "question": "How many planets are there in the solar system?",
+     "solution": "There are eight planets in the solar system.",
+     "answer": "Eight planets.",
+     "_n": 2
+    },
+    {
+     "question": "What holds the planets in orbit around the Sun?",
+     "solution": "The Sun's gravity pulls the planets and keeps them moving in orbits.",
+     "answer": "The Sun's gravity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the planets in order from the Sun.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is an orbit?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which planet is closest to the Sun?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.2",
+   "title": "The Sun",
+   "section": "12.2",
+   "definition": "The Sun is a huge ball of hot, glowing gases at the centre of the solar system that gives us light and heat and holds all the planets in orbit.",
+   "formula": "",
+   "key_idea": "The Sun is a star that produces its own light and heat and is the main source of energy for Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Sun?",
+    "Why is the Sun important for life on Earth?",
+    "Is the Sun a planet or a star?",
+    "How does the Sun hold the planets in orbit?",
+    "Give one example of energy we get from the Sun."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Sun",
+     "explain": "The Sun is a huge ball of hot glowing gases at the centre of the solar system."
+    },
+    {
+     "step": 2,
+     "action": "Explain its role",
+     "explain": "It is a star that makes its own light and heat and is the main source of energy for Earth."
+    },
+    {
+     "step": 3,
+     "action": "Explain gravity",
+     "explain": "The Sun's strong gravity holds all the planets in their orbits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Sun?",
+     "solution": "The Sun is a huge ball of hot, glowing gases that gives light and heat.",
+     "answer": "A huge ball of hot glowing gases."
+    },
+    {
+     "question": "Is the Sun a planet or a star?",
+     "solution": "The Sun is a star because it makes its own light and heat.",
+     "answer": "The Sun is a star."
+    },
+    {
+     "question": "Why is the Sun important for life on Earth?",
+     "solution": "The Sun gives light and heat that plants use to make food and that keep Earth warm enough for life.",
+     "answer": "The Sun gives light and heat for life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does the Sun hold the planets in orbit?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of energy we get from the Sun.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do we see the Sun during the day and stars at night?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.3",
+   "title": "Planets of the Solar System",
+   "section": "12.3",
+   "definition": "Planets are large, round bodies that orbit the Sun and do not produce their own light; the eight planets differ in size, distance from the Sun, and surface.",
+   "formula": "",
+   "key_idea": "The first four planets are small and rocky, while the next four are large and made mostly of gases.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the eight planets in order from the Sun.",
+    "Which planets are called inner or rocky planets?",
+    "Which planets are called outer or gas planets?",
+    "Which is the largest planet?",
+    "Which planet is known as the Red Planet?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the planets in order",
+     "explain": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+     "step": 2,
+     "action": "Group them",
+     "explain": "The first four -- Mercury, Venus, Earth, Mars -- are small rocky planets; the next four are large gas planets."
+    },
+    {
+     "step": 3,
+     "action": "Recall key facts",
+     "explain": "Jupiter is the largest and Mars is called the Red Planet."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the eight planets in order from the Sun.",
+     "solution": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+     "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+     "question": "Which is the largest planet?",
+     "solution": "Jupiter is the largest planet in the solar system.",
+     "answer": "Jupiter."
+    },
+    {
+     "question": "Which planet is known as the Red Planet?",
+     "solution": "Mars looks red because of iron oxide on its surface, so it is called the Red Planet.",
+     "answer": "Mars."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Which planets are called rocky planets?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which planet is closest to the Sun?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one gas planet.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.4",
+   "title": "Counting the Planets",
+   "section": "12.3",
+   "definition": "We can find how many planets lie between two given planets by counting their positions in the order from the Sun.",
+   "formula": "planets_between = |position_far - position_near| - 1",
+   "key_idea": "Subtract the position numbers and take away one to count the planets strictly in between.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How many planets lie between Earth and Jupiter?",
+    "Count the planets between Mercury and Mars.",
+    "How many planets are between Venus and Saturn?",
+    "Find the number of planets between Earth and Neptune.",
+    "How many planets lie between Mars and Uranus?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the position numbers",
+     "explain": "Number the planets from the Sun: Mercury 1, Venus 2, Earth 3, Mars 4, Jupiter 5, Saturn 6, Uranus 7, Neptune 8.",
+     "compute": "pos_a = given_position"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the positions",
+     "explain": "Take the larger position number minus the smaller one.",
+     "compute": "diff = pos_far - pos_near"
+    },
+    {
+     "step": 3,
+     "action": "Subtract one for the count between",
+     "explain": "The planets strictly in between are diff minus one.",
+     "compute": "between = diff - 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many planets lie between Earth (3) and Jupiter (5)?",
+     "solution": "Subtract the positions: 5 - 3 = 2, then subtract one: 2 - 1 = 1. Only Mars lies between.",
+     "answer": "1 planet (Mars)."
+    },
+    {
+     "question": "Count the planets between Mercury (1) and Mars (4).",
+     "solution": "Subtract: 4 - 1 = 3, then subtract one: 3 - 1 = 2. Venus and Earth lie between.",
+     "answer": "2 planets (Venus and Earth)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How many planets lie between Venus (2) and Saturn (6)?",
+     "type": "compute"
+    },
+    {
+     "question": "Count the planets between Earth (3) and Neptune (8).",
+     "type": "compute"
+    },
+    {
+     "question": "Why do we subtract one when counting planets in between?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.5",
+   "title": "Earth in the Solar System",
+   "section": "12.4",
+   "definition": "Earth is the third planet from the Sun and the only known planet that supports life, with air, water, and a suitable temperature.",
+   "formula": "",
+   "key_idea": "Earth has air, water, and the right distance from the Sun, making it a unique planet where life can exist.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is Earth called a unique planet?",
+    "What makes Earth suitable for life?",
+    "Which planet is third from the Sun?",
+    "Why can life not survive on other planets easily?",
+    "Give one reason Earth is special compared to other planets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Earth's position",
+     "explain": "Earth is the third planet from the Sun."
+    },
+    {
+     "step": 2,
+     "action": "List conditions for life",
+     "explain": "Earth has air with oxygen, liquid water, and a comfortable temperature."
+    },
+    {
+     "step": 3,
+     "action": "Explain uniqueness",
+     "explain": "These conditions are not found together on other planets, so Earth is the only known planet that supports life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Earth called a unique planet?",
+     "solution": "Earth has air, water, and the right temperature, so it is the only known planet that supports life.",
+     "answer": "Earth has air, water, and the right temperature for life."
+    },
+    {
+     "question": "Which planet is third from the Sun?",
+     "solution": "Earth is the third planet from the Sun.",
+     "answer": "Earth."
+    },
+    {
+     "question": "What makes Earth suitable for life?",
+     "solution": "Earth has oxygen in the air, liquid water, and a temperature that living things can survive in.",
+     "answer": "Oxygen, liquid water, and suitable temperature."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why can life not survive on Mercury easily?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name two things on Earth that support life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one reason Earth is special compared to other planets.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.7",
+   "title": "Stars and Constellations",
+   "section": "12.6",
+   "definition": "Stars are huge balls of hot glowing gases that make their own light, and a constellation is a group of stars that forms a recognisable pattern in the sky.",
+   "formula": "",
+   "key_idea": "Stars are very far away and appear tiny; groups of stars form patterns called constellations that help people find their way.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a star?",
+    "Why do stars appear so small?",
+    "What is a constellation?",
+    "Name one well-known constellation.",
+    "How did people use constellations in the past?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a star",
+     "explain": "A star is a huge ball of hot glowing gases that makes its own light."
+    },
+    {
+     "step": 2,
+     "action": "Explain why stars look small",
+     "explain": "Stars are very far from Earth, so they appear as tiny points of light."
+    },
+    {
+     "step": 3,
+     "action": "Explain constellations",
+     "explain": "A constellation is a group of stars forming a pattern, such as the Big Dipper or Orion, used to find directions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a star?",
+     "solution": "A star is a huge ball of hot glowing gases that makes its own light.",
+     "answer": "A huge ball of hot glowing gases that makes light."
+    },
+    {
+     "question": "Why do stars appear so small?",
+     "solution": "Stars are very far away from Earth, so they look like tiny dots.",
+     "answer": "Because stars are very far away."
+    },
+    {
+     "question": "What is a constellation?",
+     "solution": "A constellation is a group of stars that forms a recognisable pattern in the sky.",
+     "answer": "A group of stars forming a pattern."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name one well-known constellation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How did people use constellations in the past?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does the Sun look bigger than other stars?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.8",
+   "title": "Satellites -- Natural and Artificial",
+   "section": "12.7",
+   "definition": "A satellite is a body that moves around a planet; natural satellites like the Moon form naturally, while artificial satellites are made by humans for communication and weather study.",
+   "formula": "",
+   "key_idea": "The Moon is a natural satellite, while human-made satellites help in weather forecasting, communication, and studying space.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a satellite?",
+    "What is the difference between a natural and an artificial satellite?",
+    "Give one use of an artificial satellite.",
+    "Is the Moon a natural or artificial satellite?",
+    "How do artificial satellites help us?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a satellite",
+     "explain": "A satellite is any body that orbits a planet."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish the two types",
+     "explain": "Natural satellites form in nature, like the Moon; artificial satellites are made by humans."
+    },
+    {
+     "step": 3,
+     "action": "Give uses of artificial satellites",
+     "explain": "They help in weather forecasting, television and phone signals, and studying space."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between a natural and an artificial satellite?",
+     "solution": "Natural satellites form in nature, like the Moon; artificial satellites are made by humans.",
+     "answer": "Natural ones form in nature; artificial ones are human-made."
+    },
+    {
+     "question": "Give one use of an artificial satellite.",
+     "solution": "Artificial satellites are used for weather forecasting.",
+     "answer": "Weather forecasting."
+    },
+    {
+     "question": "Is the Moon a natural or artificial satellite?",
+     "solution": "The Moon formed naturally and orbits Earth, so it is a natural satellite.",
+     "answer": "The Moon is a natural satellite."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do artificial satellites help in communication?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one natural satellite of the Earth.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one way satellites help farmers.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.9",
+   "title": "Comets, Asteroids, and Meteors",
+   "section": "12.8",
+   "definition": "Comets are icy bodies with glowing tails, asteroids are small rocky bodies mostly found between Mars and Jupiter, and meteors are small pieces of rock that burn up as shooting stars in the sky.",
+   "formula": "",
+   "key_idea": "Besides planets and moons, the solar system has many smaller bodies -- comets, asteroids, and meteors -- moving in space.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a comet?",
+    "Where are most asteroids found?",
+    "What is a meteor or shooting star?",
+    "How is a comet different from a planet?",
+    "Give one example of a famous comet."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify comets",
+     "explain": "Comets are icy bodies that develop glowing tails when they come near the Sun."
+    },
+    {
+     "step": 2,
+     "action": "Identify asteroids",
+     "explain": "Asteroids are small rocky bodies found mostly in a belt between Mars and Jupiter."
+    },
+    {
+     "step": 3,
+     "action": "Identify meteors",
+     "explain": "Meteors are small rocks that burn up as bright streaks called shooting stars when they enter Earth's atmosphere."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a comet?",
+     "solution": "A comet is an icy body that grows a glowing tail when it nears the Sun.",
+     "answer": "An icy body with a glowing tail."
+    },
+    {
+     "question": "Where are most asteroids found?",
+     "solution": "Most asteroids are found in a belt between Mars and Jupiter.",
+     "answer": "Between Mars and Jupiter."
+    },
+    {
+     "question": "What is a meteor or shooting star?",
+     "solution": "A meteor is a small piece of rock that burns up brightly as it enters Earth's atmosphere.",
+     "answer": "A small rock that burns up as a shooting star."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is a comet different from a planet?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a famous comet.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do meteors burn up in the sky?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.12.10",
+   "title": "Telescopes and Space Exploration",
+   "section": "12.9",
+   "definition": "A telescope is an instrument that makes distant objects look closer and is used to study stars and planets; space exploration uses rockets and probes to learn about space.",
+   "formula": "",
+   "key_idea": "Telescopes let us see far into space, and spacecraft help humans explore the Moon, planets, and beyond.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a telescope?",
+    "How does a telescope help us study space?",
+    "Name one Indian spacecraft or mission.",
+    "Why do scientists send probes into space?",
+    "Give one example of what we learned from space exploration."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a telescope",
+     "explain": "A telescope is an instrument that gathers light to make distant objects appear closer and clearer."
+    },
+    {
+     "step": 2,
+     "action": "Explain space exploration",
+     "explain": "Scientists use rockets, satellites, and probes to study the Moon, planets, and stars."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "India's Chandrayaan mission explored the Moon, and telescopes help us see distant stars and planets."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a telescope?",
+     "solution": "A telescope is an instrument that makes distant objects look closer so we can study them.",
+     "answer": "An instrument that makes distant objects look closer."
+    },
+    {
+     "question": "How does a telescope help us study space?",
+     "solution": "A telescope gathers more light than our eyes, so we can see faint and far-away stars and planets.",
+     "answer": "It gathers light to show far-away stars and planets."
+    },
+    {
+     "question": "Name one Indian spacecraft or mission.",
+     "solution": "Chandrayaan is an Indian mission that explored the Moon.",
+     "answer": "Chandrayaan."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do scientists send probes into space?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of what we learned from space exploration.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one instrument used to study the night sky.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu112.txt",
+   "concept": "c6cu.12.1",
+   "question_type": "short_answer",
+   "question_pattern": "What is the solar system?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The solar system is the",
+     "explain": "The solar system is the Sun and the eight planets and other bodies that orbit it."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu112.txt",
+   "concept": "c6cu.12.1",
+   "question_type": "short_answer",
+   "question_pattern": "How many planets are there in the solar system?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "There are eight planets in",
+     "explain": "There are eight planets in the solar system."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

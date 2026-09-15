@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_004",
+   "title": "c12_cs_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\ndef demo(a, b=10, *args, **kwargs):\n    print(f\"a={a}, b={b}, args={args}, kwargs={kwargs}\")\n\ndemo(1, 2, 3, 4, x=5, y=6)\n```",
+     "a": "Correct output: `a=1, b=2, args=(3, 4), kwargs={'x': 5, 'y': 6}`.  \nA wrong answer like `a=1, b=10, args=(2, 3, 4)...` reveals the student thinks default parameters are skipped when extra positional arguments exist — they don't realize positional arguments fill parameters left-to-right before `*args` collects leftovers. Another error `args=(2, 3, 4), kwargs={}` shows they think keyword arguments also go into `*args`, not understanding `**kwargs` exclusively captures name=value pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following function definition raises a SyntaxError, and rewrite it correctly:\n```python\ndef bad_func(*args, a, b=5, **kwargs):\n    pass\n```",
+     "a": "Python requires parameters after `*args` (or `*`) to be keyword-only — they cannot be filled by position. The definition `def bad_func(*args, a, b=5, **kwargs)` puts `a` and `b` after `*args` without making them keyword-only explicitly, which is allowed in Python 3 but only if called with keywords. However, the syntax error arises if you write `def bad_func(a, *args, b, **kwargs)` without a `*` separator before `b` in Python 2 style — but in Python 3, `def func(*args, a, b=5, **kwargs)` is actually VALID and makes `a` and `b` keyword-only. The real trap: students often write `def func(a, *args, b, **kwargs)` and call `func(1, 2, 3)` expecting `b=3` — but `b` becomes keyword-only and the call fails. Correct fix: either put `b` before `*args` if it should accept positional, or keep it after and always call with `b=value`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `calculate_total(base_price, *discounts, tax_rate=0.18, **fees)` that:\n- Accepts a base price (required)\n- Accepts any number of discount percentages (e.g., 10, 5 for 10% and 5%)\n- Accepts an optional tax_rate keyword argument (default 18%)\n- Accepts any number of named fees (e.g., `delivery=50, packing=20`)\n- Returns the final amount after applying discounts sequentially, then adding fees, then applying tax on the subtotal.\nShow a call: `calculate_total(1000, 10, 5, delivery=50, packing=20, tax_rate=0.12)`",
+     "a": "```python\ndef calculate_total(base_price, *discounts, tax_rate=0.18, **fees):\n    price = base_price\n    for d in discounts:\n        price -= price * d / 100\n    subtotal = price + sum(fees.values())\n    return subtotal * (1 + tax_rate)",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two calls and explain the difference in what `args` and `kwargs` receive inside the function:\n```python\ndef f(*args, **kwargs): print(args, kwargs)",
+     "a": "Both calls produce identical output: `(1, 2) {'a': 3, 'b': 4}`.  \nCall A uses literal positional and keyword arguments. Call B uses *unpacking*: `*(1, 2)` expands the tuple into positional arguments, and `**{'a': 3, 'b': 4}` expands the dict into keyword arguments. A student who says \"Call B gives args=((1,2),), kwargs={'a':3,'b':4}\" thinks unpacking passes the container itself rather than its contents — this confusion between \"passing a tuple\" and \"unpacking a tuple\" is a critical JEE/Board trap. Another error: thinking `**` works on lists — it only works on mappings.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this function to merge dictionaries:\n```python\ndef merge_dicts(*dicts, **extra):\n    result = {}\n    for d in dicts:\n        result.update(d)\n    result.update(extra)\n    return result\n\nprint(merge_dicts({'a': 1}, {'b': 2}, c=3, d=4))\n```\nThey claim \"This is the best way to merge any number of dicts.\" Evaluate this claim — is it correct, efficient, and Pythonic? What are the limitations?",
+     "a": "The claim is partially correct but has limitations:\n- ✅ Works for merging multiple dicts + extra keys\n- ❌ Fails if any positional argument is not a dict (no type checking)\n- ❌ `extra` only accepts string keys (keyword arguments must be valid identifiers), so `merge_dicts({'a':1}, **{1: 'invalid'})` raises TypeError\n- ❌ In Python 3.9+, `dict1 | dict2 | dict3` or `{**d1, **d2, **d3}` is more readable and faster\n- ❌ Order of precedence: later positional dicts override earlier ones, then `extra` overrides all — this may surprise users\nA student who says \"it's perfect\" misses the identifier restriction on `**extra` and modern alternatives. A strong answer notes that `**extra` keys must be valid Python identifiers (no spaces, no numbers as first char), making it unsuitable for arbitrary keys like `{'total-amount': 100}`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `log_event(event_type, *messages, timestamp=None, **metadata)` for a logging system. Requirements:\n- `event_type`: required string (e.g., \"ERROR\", \"INFO\")\n- `messages`: zero or more strings to log\n- `timestamp`: optional, defaults to current ISO format time if not provided\n- `metadata`: arbitrary key-value pairs (e.g., `user_id=42, request_id=\"abc\"`)\n- Returns a formatted string: `[TIMESTAMP] EVENT_TYPE: message1 | message2 | ... | key1=val1, key2=val2`\nShow the function definition and two example calls with outputs.",
+     "a": "```python\nfrom datetime import datetime\n\ndef log_event(event_type, *messages, timestamp=None, **metadata):\n    if timestamp is None:\n        timestamp = datetime.now().isoformat(timespec='seconds')\n    msg_part = \" | \".join(messages) if messages else \"(no message)\"\n    meta_part = \", \".join(f\"{k}={v}\" for k, v in metadata.items())\n    if meta_part:\n        return f\"[{timestamp}] {event_type}: {msg_part} | {meta_part}\"\n    return f\"[{timestamp}] {event_type}: {msg_part}\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

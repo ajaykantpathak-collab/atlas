@@ -1,0 +1,2302 @@
+---
+# Biology Formula Knowledge Base
+# Domains: Evo, QG, Epi, PK, PD, BI, SB, BP
+
+formulas:
+  # ─── EVOLUTION (BIO_EVO) ───
+  - formula_id: "BIO_EVO_001"
+    formula_name: "Fitness"
+    formula_sub: "BIO_EVO"
+    equation: "w = W / W_max"
+    variables:
+      w: "Relative fitness of a genotype"
+      W: "Absolute fitness (number of offspring)"
+      W_max: "Maximum fitness in the population"
+    description: "Relative fitness measures reproductive success of a genotype compared to the fittest genotype in the population."
+
+  - formula_id: "BIO_EVO_002"
+    formula_name: "Selection Coefficient"
+    formula_sub: "BIO_EVO"
+    equation: "s = 1 - w"
+    variables:
+      s: "Selection coefficient (0 to 1)"
+      w: "Relative fitness"
+    description: "Quantifies the reduction in fitness of a genotype relative to the optimal. s=0 means no selection, s=1 means lethal."
+
+  - formula_id: "BIO_EVO_003"
+    formula_name: "Haldane's Darwin"
+    formula_sub: "BIO_EVO"
+    equation: "Δz_darwin = (ln(w2) - ln(w1)) / (t × 10^6)"
+    variables:
+      Δz_darwin: "Rate of evolution in darwins per million years"
+      w2: "Final fitness"
+      w1: "Initial fitness"
+      t: "Time interval in years"
+    description: "Measures the rate of evolutionary change in a trait per million years, as proposed by J.B.S. Haldane."
+
+  - formula_id: "BIO_EVO_004"
+    formula_name: "Molecular Clock Rate"
+    formula_sub: "BIO_EVO"
+    equation: "d = K / (2T)"
+    variables:
+      d: "Substitution rate per site per million years"
+      K: "Proportion of nucleotide substitutions"
+      T: "Divergence time in million years"
+    description: "Estimates the neutral mutation rate from observed genetic divergence between two lineages."
+
+  - formula_id: "BIO_EVO_005"
+    formula_name: "Effective Population Size"
+    formula_sub: "BIO_EVO"
+    equation: "Ne = (4 × Nm × Nf) / (Nm + Nf)"
+    variables:
+      Ne: "Effective population size"
+      Nm: "Number of breeding males"
+      Nf: "Number of breeding females"
+    description: "The size of an idealized population that would experience the same genetic drift as the actual population."
+
+  - formula_id: "BIO_EVO_006"
+    formula_name: "Hardy-Weinberg Equilibrium"
+    formula_sub: "BIO_EVO"
+    equation: "p² + 2pq + q² = 1"
+    variables:
+      p: "Frequency of dominant allele"
+      q: "Frequency of recessive allele (q = 1 - p)"
+    description: "Allele and genotype frequencies remain constant across generations in the absence of evolutionary forces."
+
+  - formula_id: "BIO_EVO_007"
+    formula_name: "Inbreeding Coefficient"
+    formula_sub: "BIO_EVO"
+    equation: "F = 1 - (Ho / He)"
+    variables:
+      F: "Inbreeding coefficient (−1 to 1)"
+      Ho: "Observed heterozygosity"
+      He: "Expected heterozygosity (2pq)"
+    description: "Probability that two alleles at a locus are identical by descent. F=0 for random mating, F=1 for completely inbred."
+
+  - formula_id: "BIO_EVO_008"
+    formula_name: "Allele Frequency Change (Selection)"
+    formula_sub: "BIO_EVO"
+    equation: "Δp = (pq × s) / (1 - q²s)"
+    variables:
+      Δp: "Change in allele frequency per generation"
+      p: "Frequency of favored allele"
+      q: "Frequency of alternative allele"
+      s: "Selection coefficient"
+    description: "Describes how a beneficial allele's frequency changes under directional selection in a diploid population."
+
+  - formula_id: "BIO_EVO_009"
+    formula_name: "Variance Effective Population Size"
+    formula_sub: "BIO_EVO"
+    equation: "Ne = (p × q) / (2 × Var(Δp))"
+    variables:
+      Ne: "Variance effective population size"
+      p: "Allele frequency"
+      q: "1 - p"
+      Var(Δp): "Variance of allele frequency change"
+    description: "Estimates effective population size from observed variance in allele frequency changes over time."
+
+  - formula_id: "BIO_EVO_010"
+    formula_name: "Fixation Probability"
+    formula_sub: "BIO_EVO"
+    equation: "P_fix = (1 - e^(-2s)) / (1 - e^(-4Nes))"
+    variables:
+      P_fix: "Probability of eventual fixation"
+      s: "Selection coefficient"
+      Ne: "Effective population size"
+    description: "Probability that a new mutation will eventually reach fixation. For neutral allele (s=0), P_fix = 1/(2Ne)."
+
+  - formula_id: "BIO_EVO_011"
+    formula_name: "Mutation-Selection Balance"
+    formula_sub: "BIO_EVO"
+    equation: "q_hat = sqrt(μ / s)"
+    variables:
+      q_hat: "Equilibrium frequency of deleterious recessive"
+      μ: "Mutation rate"
+      s: "Selection coefficient"
+    description: "Equilibrium frequency of a deleterious recessive allele under mutation-selection balance."
+
+  - formula_id: "BIO_EVO_012"
+    formula_name: "Wright's F_ST"
+    formula_sub: "BIO_EVO"
+    equation: "F_ST = (HT - HS) / HT"
+    variables:
+      F_ST: "Fixation index (0 to 1)"
+      HT: "Total expected heterozygosity"
+      HS: "Mean subpopulation expected heterozygosity"
+    description: "Measures population differentiation due to genetic structure. F_ST → 0 means no structure; F_ST → 1 means complete differentiation."
+
+  - formula_id: "BIO_EVO_013"
+    formula_name: "Heterozygosity (Gene Diversity)"
+    formula_sub: "BIO_EVO"
+    equation: "H = 1 - Σ(pi²)"
+    variables:
+      H: "Expected heterozygosity"
+      pi: "Frequency of allele i"
+    description: "Probability that two randomly chosen alleles from the population are different (gene diversity)."
+
+  - formula_id: "BIO_EVO_014"
+    formula_name: "Rate of Protein Evolution (dN/dS)"
+    formula_sub: "BIO_EVO"
+    equation: "ω = dN / dS"
+    variables:
+      ω: "Selection pressure ratio (dN/dS)"
+      dN: "Rate of nonsynonymous substitution"
+      dS: "Rate of synonymous substitution"
+    description: "ω < 1: purifying selection; ω = 1: neutral evolution; ω > 1: positive selection. Also known as Ka/Ks."
+
+  - formula_id: "BIO_EVO_015"
+    formula_name: "Hardy-Weinberg with Selection"
+    formula_sub: "BIO_EVO"
+    equation: "q' = (q × wq) / w̄"
+    variables:
+      q': "New allele frequency after selection"
+      q: "Current allele frequency"
+      wq: "Fitness of genotype carrying q"
+      w̄: "Mean population fitness"
+    description: "Updated allele frequency after one generation of selection, accounting for relative fitness of genotypes."
+
+  # ─── QUANTITATIVE GENETICS (BIO_QG) ───
+  - formula_id: "BIO_QG_001"
+    formula_name: "Broad-Sense Heritability"
+    formula_sub: "BIO_QG"
+    equation: "H² = VG / VP"
+    variables:
+      H²: "Broad-sense heritability (0 to 1)"
+      VG: "Total genetic variance"
+      VP: "Total phenotypic variance"
+    description: "Proportion of total phenotypic variance attributable to all genetic factors (additive, dominance, epistatic)."
+
+  - formula_id: "BIO_QG_002"
+    formula_name: "Narrow-Sense Heritability"
+    formula_sub: "BIO_QG"
+    equation: "h² = VA / VP"
+    variables:
+      h²: "Narrow-sense heritability (0 to 1)"
+      VA: "Additive genetic variance"
+      VP: "Total phenotypic variance"
+    description: "Proportion of phenotypic variance attributable to additive genetic effects. Used in the breeder's equation."
+
+  - formula_id: "BIO_QG_003"
+    formula_name: "Breeder's Equation"
+    formula_sub: "BIO_QG"
+    equation: "R = h² × S"
+    variables:
+      R: "Response to selection per generation"
+      h²: "Narrow-sense heritability"
+      S: "Selection differential (mean of selected − population mean)"
+    description: "Predicts the genetic gain per generation from artificial selection. Central to plant and animal breeding."
+
+  - formula_id: "BIO_QG_004"
+    formula_name: "Genetic Coefficient of Variation"
+    formula_sub: "BIO_QG"
+    equation: "GCV = (sqrt(VA) / μ) × 100"
+    variables:
+      GCV: "Genetic coefficient of variation (%)"
+      VA: "Additive genetic variance"
+      μ: "Population mean"
+    description: "Standardized measure of additive genetic variation relative to the trait mean, enabling comparison across traits."
+
+  - formula_id: "BIO_QG_005"
+    formula_name: "Realized Heritability"
+    formula_sub: "BIO_QG"
+    equation: "h²_R = R / S"
+    variables:
+      h²_R: "Realized heritability from selection experiment"
+      R: "Observed response to selection"
+      S: "Selection differential"
+    description: "Heritability estimated directly from the results of an artificial selection experiment."
+
+  - formula_id: "BIO_QG_006"
+    formula_name: "Genetic Correlation"
+    formula_sub: "BIO_QG"
+    equation: "rG = CovA(X,Y) / (sqrt(VA_X) × sqrt(VA_Y))"
+    variables:
+      rG: "Genetic correlation (−1 to 1)"
+      CovA(X,Y): "Additive genetic covariance between traits X and Y"
+      VA_X: "Additive genetic variance of trait X"
+      VA_Y: "Additive genetic variance of trait Y"
+    description: "Correlation due to shared genetic effects. Positive rG means selection on one trait increases the other; negative means antagonistic pleiotropy."
+
+  - formula_id: "BIO_QG_007"
+    formula_name: "Additive Genetic Variance"
+    formula_sub: "BIO_QG"
+    equation: "VA = 2pq × [a + d(q − p)]² + (2pqd)²"
+    variables:
+      VA: "Additive genetic variance"
+      p: "Allele frequency"
+      q: "1 - p"
+      a: "Additive effect"
+      d: "Dominance deviation"
+    description: "Variance due to additive effects of individual alleles; the component transmitted predictably from parent to offspring."
+
+  - formula_id: "BIO_QG_008"
+    formula_name: "Selection Intensity"
+    formula_sub: "BIO_QG"
+    equation: "i = S / σP"
+    variables:
+      i: "Selection intensity (standardized selection differential)"
+      S: "Selection differential"
+      σP: "Phenotypic standard deviation"
+    description: "Standardized intensity of selection, depending only on the proportion of individuals selected. Tabulated values exist for different proportions."
+
+  - formula_id: "BIO_QG_009"
+    formula_name: "Predicted Selection Response"
+    formula_sub: "BIO_QG"
+    equation: "CR = i × h² × σP"
+    variables:
+      CR: "Cumulative response to selection"
+      i: "Selection intensity"
+      h²: "Narrow-sense heritability"
+      σP: "Phenotypic standard deviation"
+    description: "Expected total genetic gain after one cycle of selection with intensity i."
+
+  - formula_id: "BIO_QG_010"
+    formula_name: "Genetic Gain per Generation"
+    formula_sub: "BIO_QG"
+    equation: "ΔG = (i × h² × σP) / L"
+    variables:
+      ΔG: "Genetic gain per year"
+      i: "Selection intensity"
+      h²: "Narrow-sense heritability"
+      σP: "Phenotypic standard deviation"
+      L: "Generation interval (years)"
+    description: "Annual rate of genetic improvement in breeding programs."
+
+  - formula_id: "BIO_QG_011"
+    formula_name: "Standardized Selection Differential"
+    formula_sub: "BIO_QG"
+    equation: "k = (X̄_selected - X̄_population) / σP"
+    variables:
+      k: "Standardized selection differential"
+      X̄_selected: "Mean trait value of selected individuals"
+      X̄_population: "Mean trait value of the population"
+      σP: "Phenotypic standard deviation"
+    description: "Difference between selected and population mean expressed in units of phenotypic standard deviation."
+
+  - formula_id: "BIO_QG_012"
+    formula_name: "Repeatability"
+    formula_sub: "BIO_QG"
+    equation: "r = (VA + VD) / VP"
+    variables:
+      r: "Repeatability (0 to 1)"
+      VA: "Additive genetic variance"
+      VD: "Dominance variance"
+      VP: "Total phenotypic variance"
+    description: "Upper limit of heritability. Proportion of total variance due to genetic differences within an individual across measurements."
+
+  - formula_id: "BIO_QG_013"
+    formula_name: "Phenotypic Variance"
+    formula_sub: "BIO_QG"
+    equation: "VP = VG + VE + 2Cov(G,E)"
+    variables:
+      VP: "Total phenotypic variance"
+      VG: "Genetic variance"
+      VE: "Environmental variance"
+      Cov(G,E): "Genotype-environment covariance"
+    description: "Total observed variance in a quantitative trait decomposed into genetic, environmental, and interaction components."
+
+  - formula_id: "BIO_QG_014"
+    formula_name: "Genetic Value (Breeding Value)"
+    formula_sub: "BIO_QG"
+    equation: "Ai = 2pq × [a + d(q − p)]"
+    variables:
+      Ai: "Breeding value of genotype i"
+      p: "Allele frequency"
+      q: "1 - p"
+      a: "Additive effect"
+      d: "Dominance deviation"
+    description: "Sum of average effects of individual alleles; determines the expected performance of offspring."
+
+  - formula_id: "BIO_QG_015"
+    formula_name: "Inbreeding Depression"
+    formula_sub: "BIO_QG"
+    equation: "δ = (μ0 - μF) / μ0"
+    variables:
+      δ: "Inbreeding depression (proportion)"
+      μ0: "Mean phenotype of outbred population"
+      μF: "Mean phenotype at inbreeding coefficient F"
+    description: "Reduction in mean fitness or quantitative trait value due to inbreeding, which exposes deleterious recessive alleles."
+
+  # ─── EPIDEMIOLOGY (BIO_EPI) ───
+  - formula_id: "BIO_EPI_001"
+    formula_name: "Incidence Rate"
+    formula_sub: "BIO_EPI"
+    equation: "IR = (Number of new cases) / (Person-time at risk)"
+    variables:
+      IR: "Incidence rate (per person-time unit)"
+      Number of new cases: "Count of newly diagnosed cases in period"
+      Person-time at risk: "Total time individuals were at risk"
+    description: "Rate at which new cases of disease occur in a population. Fundamental measure of disease risk."
+
+  - formula_id: "BIO_EPI_002"
+    formula_name: "Prevalence"
+    formula_sub: "BIO_EPI"
+    equation: "P = (Number of existing cases) / (Total population at a point in time)"
+    variables:
+      P: "Prevalence (proportion or per 1000)"
+      Number of existing cases: "All current cases (new + pre-existing)"
+      Total population: "Size of the population"
+    description: "Proportion of a population with a disease at a specific time. P ≈ IR × D for chronic diseases where D is average duration."
+
+  - formula_id: "BIO_EPI_003"
+    formula_name: "Basic Reproduction Number"
+    formula_sub: "BIO_EPI"
+    equation: "R0 = β / γ"
+    variables:
+      R0: "Basic reproduction number"
+      β: "Transmission rate (per capita per time)"
+      γ: "Recovery rate (1 / infectious period)"
+    description: "Average number of secondary infections caused by one infectious individual in a fully susceptible population. R0 > 1: epidemic; R0 < 1: disease dies out."
+
+  - formula_id: "BIO_EPI_004"
+    formula_name: "Herd Immunity Threshold"
+    formula_sub: "BIO_EPI"
+    equation: "HIT = 1 - (1 / R0)"
+    variables:
+      HIT: "Herd immunity threshold (proportion)"
+      R0: "Basic reproduction number"
+    description: "Minimum proportion immune required for herd immunity. Above this threshold, disease cannot sustain transmission."
+
+  - formula_id: "BIO_EPI_005"
+    formula_name: "SIR Model — Susceptible"
+    formula_sub: "BIO_EPI"
+    equation: "dS/dt = −β × S × I / N"
+    variables:
+      dS/dt: "Rate of change in susceptible individuals"
+      S: "Number of susceptible individuals"
+      I: "Number of infectious individuals"
+      β: "Transmission rate"
+      N: "Total population size"
+    description: "SIR compartmental model: susceptible individuals become infected at rate proportional to contact with infectious individuals."
+
+  - formula_id: "BIO_EPI_006"
+    formula_name: "SIR Model — Infectious"
+    formula_sub: "BIO_EPI"
+    equation: "dI/dt = β × S × I / N − γ × I"
+    variables:
+      dI/dt: "Rate of change in infectious individuals"
+      β: "Transmission rate"
+      S: "Susceptible individuals"
+      I: "Infectious individuals"
+      γ: "Recovery rate"
+      N: "Total population"
+    description: "SIR: new infections minus recoveries. Peak occurs when dI/dt = 0."
+
+  - formula_id: "BIO_EPI_007"
+    formula_name: "SIR Model — Recovered"
+    formula_sub: "BIO_EPI"
+    equation: "dR/dt = γ × I"
+    variables:
+      dR/dt: "Rate of change in recovered/removed individuals"
+      γ: "Recovery rate (1/infectious period)"
+      I: "Infectious individuals"
+    description: "SIR: individuals recover at constant rate γ and move to the removed class with immunity."
+
+  - formula_id: "BIO_EPI_008"
+    formula_name: "SEIR Model — Exposed"
+    formula_sub: "BIO_EPI"
+    equation: "dE/dt = β × S × I / N − σ × E"
+    variables:
+      dE/dt: "Rate of change in exposed (latent) individuals"
+      β: "Transmission rate"
+      S: "Susceptible individuals"
+      I: "Infectious individuals"
+      σ: "Rate of progression to infectiousness (1/latent period)"
+      N: "Total population"
+    description: "SEIR: exposed individuals incubate the pathogen before becoming infectious, adding a latent compartment E."
+
+  - formula_id: "BIO_EPI_009"
+    formula_name: "SEIR Model — Full System"
+    formula_sub: "BIO_EPI"
+    equation: "dS/dt = −βSI/N;  dE/dt = βSI/N − σE;  dI/dt = σE − γI;  dR/dt = γI"
+    variables:
+      S: "Susceptible"
+      E: "Exposed (latent)"
+      I: "Infectious"
+      R: "Recovered/removed"
+      β: "Transmission rate"
+      σ: "Inverse of latent period"
+      γ: "Recovery rate"
+      N: "Total population"
+    description: "Complete SEIR model: accounts for latent/incubation period between infection and infectiousness."
+
+  - formula_id: "BIO_EPI_010"
+    formula_name: "Force of Infection"
+    formula_sub: "BIO_EPI"
+    equation: "λ = β × I / N"
+    variables:
+      λ: "Force of infection (hazard rate)"
+      β: "Transmission rate"
+      I: "Infectious individuals"
+      N: "Total population"
+    description: "Instantaneous rate at which susceptible individuals acquire infection. Used in age-structured and stochastic models."
+
+  - formula_id: "BIO_EPI_011"
+    formula_name: "Case Fatality Rate"
+    formula_sub: "BIO_EPI"
+    equation: "CFR = (Deaths from disease / Cases of disease) × 100"
+    variables:
+      CFR: "Case fatality rate (percentage)"
+      Deaths from disease: "Confirmed deaths attributable to the disease"
+      Cases of disease: "Confirmed cases"
+    description: "Proportion of confirmed cases that result in death. Not the same as mortality rate (which uses total population)."
+
+  - formula_id: "BIO_EPI_012"
+    formula_name: "Doubling Time"
+    formula_sub: "BIO_EPI"
+    equation: "Td = ln(2) / r"
+    variables:
+      Td: "Doubling time"
+      r: "Exponential growth rate"
+      ln(2): "Natural log of 2 ≈ 0.693"
+    description: "Time required for the number of cases to double during exponential growth phase. Critical for pandemic monitoring."
+
+  - formula_id: "BIO_EPI_013"
+    formula_name: "Generation Time"
+    formula_sub: "BIO_EPI"
+    equation: "Tg = (ln(R0)) / (ln(R0) − 1) × 1/γ"
+    variables:
+      Tg: "Mean generation time"
+      R0: "Basic reproduction number"
+      γ: "Recovery rate"
+    description: "Average time between infection of primary case and infection of secondary cases by that primary case."
+
+  - formula_id: "BIO_EPI_014"
+    formula_name: "Contact Rate with Mixing Matrix"
+    formula_sub: "BIO_EPI"
+    equation: "λ_ij = C × Σ(cij × βj × Ij / Nj)"
+    variables:
+      λ_ij: "Force of infection for age group i"
+      C: "Average contacts per unit time"
+      cij: "Proportion of contacts with group j from group i"
+      βj: "Transmission probability per contact in group j"
+      Ij: "Infectious in group j"
+      Nj: "Population in group j"
+    description: "Age-structured contact rate using a who-acquires-infection-from-whom (WAIFW) matrix."
+
+  - formula_id: "BIO_EPI_015"
+    formula_name: "Secondary Attack Rate"
+    formula_sub: "BIO_EPI"
+    equation: "SAR = (Cases among contacts / Total susceptible contacts) × 100"
+    variables:
+      SAR: "Secondary attack rate (percentage)"
+      Cases among contacts: "New cases among known contacts of a primary case"
+      Total susceptible contacts: "All susceptible individuals exposed"
+    description: "Proportion of susceptible contacts who become infected after exposure to a primary case. Used for household and close-contact studies."
+
+  - formula_id: "BIO_EPI_016"
+    formula_name: "Attributable Risk"
+    formula_sub: "BIO_EPI"
+    equation: "AR = Ie − Iu"
+    variables:
+      AR: "Attributable risk (risk difference)"
+      Ie: "Incidence in exposed group"
+      Iu: "Incidence in unexposed group"
+    description: "Absolute excess risk in the exposed group attributable to the exposure. AR = Ie − Iu."
+
+  - formula_id: "BIO_EPI_017"
+    formula_name: "Relative Risk"
+    formula_sub: "BIO_EPI"
+    equation: "RR = Ie / Iu"
+    variables:
+      RR: "Relative risk"
+      Ie: "Incidence in exposed group"
+      Iu: "Incidence in unexposed group"
+    description: "Ratio of disease probability in exposed vs. unexposed. RR > 1 indicates increased risk associated with exposure."
+
+  - formula_id: "BIO_EPI_018"
+    formula_name: "Odds Ratio"
+    formula_sub: "BIO_EPI"
+    equation: "OR = (a/b) / (c/d) = (a × d) / (b × c)"
+    variables:
+      OR: "Odds ratio"
+      a: "Exposed cases"
+      b: "Exposed non-cases"
+      c: "Unexposed cases"
+      d: "Unexposed non-cases"
+    description: "Ratio of odds of exposure in cases to odds of exposure in non-cases. Used in case-control studies. Approximates RR when disease is rare."
+
+  - formula_id: "BIO_EPI_019"
+    formula_name: "Serial Interval"
+    formula_sub: "BIO_EPI"
+    equation: "SI = t_secondary − t_primary"
+    variables:
+      SI: "Serial interval (time between symptom onsets)"
+      t_secondary: "Symptom onset date of secondary case"
+      t_primary: "Symptom onset date of primary case"
+    description: "Time between symptom onset of successive cases in a transmission chain. Used to estimate R0 from epidemic curves."
+
+  - formula_id: "BIO_EPI_020"
+    formula_name: "Reproduction Number from Growth Rate"
+    formula_sub: "BIO_EPI"
+    equation: "R0 = 1 + r × Td"
+    variables:
+      R0: "Effective reproduction number"
+      r: "Exponential growth rate"
+      Td: "Mean generation time"
+    description: "Approximate relationship between growth rate and reproduction number used in real-time epidemic estimation."
+
+  - formula_id: "BIO_EPI_021"
+    formula_name: "Attack Rate"
+    formula_sub: "BIO_EPI"
+    equation: "AR = (Number developing disease / Total exposed) × 100"
+    variables:
+      AR: "Attack rate (cumulative incidence in outbreak)"
+      Number developing disease: "Cases occurring in exposed cohort"
+      Total exposed: "Total population exposed to the outbreak"
+    description: "Cumulative incidence of disease during an outbreak. Used in foodborne and point-source outbreak investigations."
+
+  - formula_id: "BIO_EPI_022"
+    formula_name: "Excess Mortality"
+    formula_sub: "BIO_EPI"
+    equation: "EM = Observed_deaths − Expected_deaths"
+    variables:
+      EM: "Excess mortality"
+      Observed_deaths: "All-cause deaths in period"
+      Expected_deaths: "Baseline deaths from historical data"
+    description: "Additional deaths above expected baseline during a pandemic or disaster. Comprehensive measure of population impact."
+
+  # ─── PHARMACOKINETICS (BIO_PK) ───
+  - formula_id: "BIO_PK_001"
+    formula_name: "One-Compartment IV Bolus"
+    formula_sub: "BIO_PK"
+    equation: "C(t) = (Dose / V) × e^(−kt)"
+    variables:
+      C(t): "Plasma concentration at time t"
+      Dose: "Administered dose"
+      V: "Volume of distribution"
+      k: "Elimination rate constant (1/time)"
+      t: "Time after administration"
+    description: "Assumes body is a single well-stirred compartment. Concentration decays monoexponentially after IV bolus."
+
+  - formula_id: "BIO_PK_002"
+    formula_name: "Elimination Rate Constant"
+    formula_sub: "BIO_PK"
+    equation: "k = ln(2) / t½"
+    variables:
+      k: "Elimination rate constant"
+      ln(2): "Natural logarithm of 2 ≈ 0.693"
+      t½: "Half-life"
+    description: "Fraction of drug eliminated per unit time. Directly derived from half-life."
+
+  - formula_id: "BIO_PK_003"
+    formula_name: "Half-Life"
+    formula_sub: "BIO_PK"
+    equation: "t½ = ln(2) / k = 0.693 / k"
+    variables:
+      t½: "Half-life (time for 50% elimination)"
+      k: "Elimination rate constant"
+    description: "Time required for plasma concentration to decrease by half. Determines dosing frequency and time to steady state."
+
+  - formula_id: "BIO_PK_004"
+    formula_name: "Area Under Curve (IV)"
+    formula_sub: "BIO_PK"
+    equation: "AUC_IV = Dose / CL"
+    variables:
+      AUC_IV: "Area under concentration-time curve after IV bolus"
+      Dose: "Administered dose"
+      CL: "Systemic clearance"
+    description: "Total drug exposure over time. After IV dosing, AUC is directly proportional to dose and inversely proportional to clearance."
+
+  - formula_id: "BIO_PK_005"
+    formula_name: "Clearance"
+    formula_sub: "BIO_PK"
+    equation: "CL = (Rate of elimination) / C = Dose / AUC"
+    variables:
+      CL: "Systemic clearance (volume/time)"
+      C: "Plasma concentration"
+      AUC: "Area under the concentration-time curve"
+    description: "Volume of plasma cleared of drug per unit time. Sum of hepatic and renal clearance. Primary determinant of steady-state concentration."
+
+  - formula_id: "BIO_PK_006"
+    formula_name: "Volume of Distribution"
+    formula_sub: "BIO_PK"
+    equation: "V = Dose / C0"
+    variables:
+      V: "Volume of distribution"
+      Dose: "IV bolus dose"
+      C0: "Initial plasma concentration at t=0"
+    description: "Hypothetical volume required to contain total drug at observed plasma concentration. V > V_plasma indicates tissue distribution."
+
+  - formula_id: "BIO_PK_007"
+    formula_name: "Bioavailability"
+    formula_sub: "BIO_PK"
+    equation: "F = (AUC_extravascular / Dose_ev) / (AUC_IV / Dose_IV)"
+    variables:
+      F: "Bioavailability (0 to 1)"
+      AUC_extravascular: "AUC after extravascular (oral) dosing"
+      Dose_ev: "Extravascular dose"
+      AUC_IV: "AUC after IV dosing"
+      Dose_IV: "IV dose"
+    description: "Fraction of administered dose reaching systemic circulation. F=1 for IV; F<1 for oral due to first-pass metabolism."
+
+  - formula_id: "BIO_PK_008"
+    formula_name: "Multiple Dosing — Steady-State"
+    formula_sub: "BIO_PK"
+    equation: "C_ss_max = (F × Dose) / (V × (1 − e^(−kτ)))"
+    variables:
+      C_ss_max: "Peak concentration at steady state"
+      F: "Bioavailability"
+      Dose: "Dose per administration"
+      V: "Volume of distribution"
+      k: "Elimination rate constant"
+      τ: "Dosing interval"
+    description: "Peak plasma concentration at steady state during repeated dosing. Accumulation depends on the factor 1/(1−e^(−kτ))."
+
+  - formula_id: "BIO_PK_009"
+    formula_name: "Accumulation Ratio"
+    formula_sub: "BIO_PK"
+    equation: "R_ac = 1 / (1 − e^(−kτ))"
+    variables:
+      R_ac: "Accumulation ratio"
+      k: "Elimination rate constant"
+      τ: "Dosing interval"
+    description: "Factor by which drug accumulates with repeated dosing. As τ approaches t½, R_ac approaches 2 (doubling)."
+
+  - formula_id: "BIO_PK_010"
+    formula_name: "Steady-State Trough Concentration"
+    formula_sub: "BIO_PK"
+    equation: "C_ss_min = C_ss_max × e^(−kτ)"
+    variables:
+      C_ss_min: "Minimum concentration at steady state (trough)"
+      C_ss_max: "Maximum concentration at steady state (peak)"
+      k: "Elimination rate constant"
+      τ: "Dosing interval"
+    description: "Concentration just before the next dose during steady-state multiple dosing."
+
+  - formula_id: "BIO_PK_011"
+    formula_name: "Time to Reach Steady State"
+    formula_sub: "BIO_PK"
+    equation: "T_ss ≈ 4.3 × t½ = 4.3 × ln(2) / k"
+    variables:
+      T_ss: "Time to reach steady state (~95% of C_ss)"
+      t½: "Half-life"
+      k: "Elimination rate constant"
+    description: "Approximately 4.3 half-lives are needed to reach steady state (97% of final steady-state level)."
+
+  - formula_id: "BIO_PK_012"
+    formula_name: "Loading Dose"
+    formula_sub: "BIO_PK"
+    equation: "DL = (C_target × V) / F"
+    variables:
+      DL: "Loading dose"
+      C_target: "Target plasma concentration"
+      V: "Volume of distribution"
+      F: "Bioavailability"
+    description: "Initial larger dose to rapidly achieve target concentration without waiting for accumulation over multiple dosing intervals."
+
+  - formula_id: "BIO_PK_013"
+    formula_name: "Maintenance Dose"
+    formula_sub: "BIO_PK"
+    equation: "DM = (C_ss_avg × CL × τ) / F"
+    variables:
+      DM: "Maintenance dose per interval"
+      C_ss_avg: "Desired average steady-state concentration"
+      CL: "Systemic clearance"
+      τ: "Dosing interval"
+      F: "Bioavailability"
+    description: "Regular dose needed to maintain desired average steady-state concentration."
+
+  - formula_id: "BIO_PK_014"
+    formula_name: "Extraction Ratio"
+    formula_sub: "BIO_PK"
+    equation: "E = (Cin − Cout) / Cin"
+    variables:
+      E: "Extraction ratio (0 to 1)"
+      Cin: "Inlet concentration (to eliminating organ)"
+      Cout: "Outlet concentration (from eliminating organ)"
+    description: "Fraction of drug removed during a single pass through an eliminating organ (e.g., liver). E = CL / Q_organ."
+
+  - formula_id: "BIO_PK_015"
+    formula_name: "Non-Compartmental AUC (Trapezoidal)"
+    formula_sub: "BIO_PK"
+    equation: "AUC = Σ((Ci + Ci+1)/2) × (ti+1 − ti)"
+    variables:
+      AUC: "Area under curve (linear trapezoidal)"
+      Ci: "Concentration at time ti"
+      ti: "Time of concentration measurement"
+    description: "Linear trapezoidal rule for estimating AUC from discrete plasma concentration-time data points."
+
+  - formula_id: "BIO_PK_016"
+    formula_name: "Two-Compartment IV Bolus"
+    formula_sub: "BIO_PK"
+    equation: "C(t) = A × e^(−αt) + B × e^(−βt)"
+    variables:
+      C(t): "Plasma concentration at time t"
+      A, B: "Intercept coefficients (hybrid rate constants)"
+      α: "Distribution phase rate constant (fast)"
+      β: "Elimination phase rate constant (slow)"
+    description: "Biexponential decay: rapid initial distribution phase followed by slower elimination phase. More realistic than one-compartment."
+
+  - formula_id: "BIO_PK_017"
+    formula_name: "Michaelis-Menten Elimination"
+    formula_sub: "BIO_PK"
+    equation: "dC/dt = (−Vmax × C) / (Km + C)"
+    variables:
+      dC/dt: "Rate of concentration change"
+      Vmax: "Maximum elimination rate"
+      C: "Plasma concentration"
+      Km: "Concentration at 50% Vmax (Michaelis constant)"
+    description: "Saturable (non-linear) elimination kinetics at high concentrations (e.g., phenytoin, ethanol, salicylates)."
+
+  - formula_id: "BIO_PK_018"
+    formula_name: "Protein Binding (Free Fraction)"
+    formula_sub: "BIO_PK"
+    equation: "fu = C_free / C_total = 1 / (1 + (Ku × Pt) / Kd)"
+    variables:
+      fu: "Unbound (free) fraction"
+      C_free: "Unbound drug concentration"
+      C_total: "Total drug concentration"
+      Ku: "Association rate constant"
+      Pt: "Total protein concentration"
+      Kd: "Dissociation constant"
+    description: "Only unbound drug is pharmacologically active and eliminated. Protein binding affects volume of distribution and clearance."
+
+  - formula_id: "BIO_PK_019"
+    formula_name: "Renal Clearance"
+    formula_sub: "BIO_PK"
+    equation: "CL_R = fu × GFR + Secretion − Reabsorption"
+    variables:
+      CL_R: "Renal clearance"
+      fu: "Unbound fraction"
+      GFR: "Glomerular filtration rate"
+      Secretion: "Active tubular secretion"
+      Reabsorption: "Passive tubular reabsorption"
+    description: "Clearance attributable to kidney excretion. Influenced by plasma protein binding and active secretion/reabsorption."
+
+  - formula_id: "BIO_PK_020"
+    formula_name: "Hepatic Clearance (Well-Stirred)"
+    formula_sub: "BIO_PK"
+    equation: "CL_H = Q_H × (fu × CL_int) / (Q_H + fu × CL_int)"
+    variables:
+      CL_H: "Hepatic clearance"
+      Q_H: "Hepatic blood flow"
+      fu: "Unbound fraction"
+      CL_int: "Intrinsic clearance (enzyme activity)"
+    description: "Well-stirred model of hepatic clearance. Limited by both enzyme capacity (CL_int) and hepatic blood flow (Q_H)."
+
+  # ─── PHARMACODYNAMICS (BIO_PD) ───
+  - formula_id: "BIO_PD_001"
+    formula_name: "Emax Model"
+    formula_sub: "BIO_PD"
+    equation: "E = (Emax × C) / (EC50 + C)"
+    variables:
+      E: "Drug effect"
+      Emax: "Maximum achievable effect"
+      C: "Drug concentration"
+      EC50: "Concentration producing 50% of Emax"
+    description: "Saturating hyperbolic dose-response relationship. Standard model for drug effects when only one binding site is involved."
+
+  - formula_id: "BIO_PD_002"
+    formula_name: "Sigmoid Emax (Hill Equation)"
+    formula_sub: "BIO_PD"
+    equation: "E = (Emax × C^n) / (EC50^n + C^n)"
+    variables:
+      E: "Drug effect"
+      Emax: "Maximum effect"
+      C: "Drug concentration"
+      EC50: "Half-maximal effective concentration"
+      n: "Hill coefficient (cooperativity/slope factor)"
+    description: "Generalized Emax model with Hill coefficient n. n=1 reduces to Emax; n>1 gives sigmoidal curve (positive cooperativity); n<1 gives shallow curve."
+
+  - formula_id: "BIO_PD_003"
+    formula_name: "EC50"
+    formula_sub: "BIO_PD"
+    equation: "EC50 = C when E = Emax / 2"
+    variables:
+      EC50: "Half-maximal effective concentration"
+      C: "Drug concentration"
+      Emax: "Maximum effect"
+    description: "Concentration producing 50% of the maximum effect. Lower EC50 indicates higher potency."
+
+  - formula_id: "BIO_PD_004"
+    formula_name: "Therapeutic Index"
+    formula_sub: "BIO_PD"
+    equation: "TI = TD50 / ED50"
+    variables:
+      TI: "Therapeutic index"
+      TD50: "Dose producing toxicity in 50% of subjects"
+      ED50: "Dose producing therapeutic effect in 50% of subjects"
+    description: "Margin of safety. Higher TI = wider margin between therapeutic and toxic doses. Narrow TI drugs require careful monitoring (e.g., digoxin, warfarin)."
+
+  - formula_id: "BIO_PD_005"
+    formula_name: "Competitive Antagonism"
+    formula_sub: "BIO_PD"
+    equation: "E = (Emax × C) / (EC50 × (1 + [A]/KA) + C)"
+    variables:
+      E: "Effect in presence of antagonist"
+      Emax: "Maximum effect"
+      C: "Agonist concentration"
+      EC50: "Agonist EC50 without antagonist"
+      [A]: "Antagonist concentration"
+      KA: "Dissociation constant of antagonist"
+    description: "Schild equation for competitive antagonism: antagonist increases apparent EC50 but does not change Emax. Surmountable antagonism."
+
+  - formula_id: "BIO_PD_006"
+    formula_name: "IC50"
+    formula_sub: "BIO_PD"
+    equation: "IC50 = C when Inhibition = 50%"
+    variables:
+      IC50: "Half-maximal inhibitory concentration"
+      C: "Inhibitor concentration"
+    description: "Concentration producing 50% inhibition of a biological process. Used to quantify potency of antagonists and enzyme inhibitors."
+
+  - formula_id: "BIO_PD_007"
+    formula_name: "Cheng-Prusoff Correction"
+    formula_sub: "BIO_PD"
+    equation: "Ki = IC50 / (1 + [S] / Km)"
+    variables:
+      Ki: "Inhibition constant (true binding affinity)"
+      IC50: "Observed inhibitory concentration"
+      [S]: "Substrate concentration in assay"
+      Km: "Michaelis constant for substrate"
+    description: "Corrects IC50 to Ki (equilibrium dissociation constant) accounting for substrate concentration in competitive binding assays."
+
+  - formula_id: "BIO_PD_008"
+    formula_name: "Gaddum Equation (Competitive)"
+    formula_sub: "BIO_PD"
+    equation: "DR = 1 + [B] / KB"
+    variables:
+      DR: "Dose ratio (EC50 with antagonist / EC50 without)"
+      [B]: "Equilibrium antagonist concentration"
+      KB: "Dissociation constant of antagonist"
+    description: "Classical Gaddum equation: competitive antagonist shifts dose-response curve rightward by factor (1 + [B]/KB). Linear Schild plot."
+
+  - formula_id: "BIO_PD_009"
+    formula_name: "Schild Regression"
+    formula_sub: "BIO_PD"
+    equation: "log(DR − 1) = log[B] − log(KA)"
+    variables:
+      DR: "Dose ratio"
+      [B]: "Antagonist concentration"
+      KA: "Dissociation constant of antagonist"
+    description: "Schild plot: log(DR−1) vs. log[B] is linear with slope 1 for competitive antagonism. x-intercept = −log(KA)."
+
+  - formula_id: "BIO_PD_010"
+    formula_name: "Dose Ratio"
+    formula_sub: "BIO_PD"
+    equation: "DR = EC50_with_antagonist / EC50_without_antagonist"
+    variables:
+      DR: "Dose ratio"
+      EC50_with_antagonist: "EC50 in presence of antagonist"
+      EC50_without_antagonist: "EC50 in absence of antagonist"
+    description: "Rightward shift of the dose-response curve caused by competitive antagonism. DR = 1 means no antagonism."
+
+  # ─── BIOINFORMATICS (BIO_BI) ───
+  - formula_id: "BIO_BI_001"
+    formula_name: "BLAST E-value"
+    formula_sub: "BIO_BI"
+    equation: "E = K × m × n × e^(−λS)"
+    variables:
+      E: "E-value (expectation value)"
+      K: "Normalization constant"
+      m: "Length of query sequence"
+      n: "Total length of database"
+      λ: "Lambda parameter (Gumbel extreme value distribution)"
+      S: "Alignment bit score"
+    description: "Expected number of alignments with score ≥ S occurring by chance in database search. Lower E-value indicates more significant alignment."
+
+  - formula_id: "BIO_BI_002"
+    formula_name: "BLAST Bit Score"
+    formula_sub: "BIO_BI"
+    equation: "S' = (λ × S − ln K) / ln 2"
+    variables:
+      S': "Normalized bit score"
+      λ: "Lambda parameter"
+      S: "Raw alignment score"
+      K: "Normalization constant"
+    description: "Score normalized to bits. Bit scores are independent of database size, enabling comparison across different BLAST searches."
+
+  - formula_id: "BIO_BI_003"
+    formula_name: "Sequence Alignment Score"
+    formula_sub: "BIO_BI"
+    equation: "Score = Σ(matches) − Σ(mismatches) − Σ(gaps)"
+    variables:
+      Score: "Alignment score"
+      matches: "Sum of match scores"
+      mismatches: "Sum of mismatch penalties"
+      gaps: "Sum of gap penalties"
+    description: "Sum of match rewards minus mismatch penalties and gap penalties. Maximum score indicates optimal alignment under given scoring scheme."
+
+  - formula_id: "BIO_BI_004"
+    formula_name: "Jukes-Cantor Distance"
+    formula_sub: "BIO_BI"
+    equation: "d_JC = −(3/4) × ln(1 − (4/3) × p)"
+    variables:
+      d_JC: "JC evolutionary distance (substitutions per site)"
+      p: "Proportion of sites that differ (Hamming distance)"
+    description: "Maximum likelihood distance assuming equal base frequencies and equal substitution rates between all nucleotides. Corrects for multiple substitutions."
+
+  - formula_id: "BIO_BI_005"
+    formula_name: "Kimura 2-Parameter Distance"
+    formula_sub: "BIO_BI"
+    equation: "d_K2P = −(1/2) × ln(1 − 2P − Q) − (1/4) × ln(1 − 2Q)"
+    variables:
+      d_K2P: "Kimura distance (substitutions per site)"
+      P: "Proportion of transitional differences"
+      Q: "Proportion of transversional differences"
+    description: "Two-parameter model distinguishing transitions (A↔G, C↔T) and transversions (purine↔pyrimidine). More realistic than JC for most sequences."
+
+  - formula_id: "BIO_BI_006"
+    formula_name: "Tamura-Nei Distance"
+    formula_sub: "BIO_BI"
+    equation: "d_TN = −(1/2) × ln(1 − 2P − Q) − (1/4) × (1 − 2G)^−1 × ln(1 − 2G × P − Q)"
+    variables:
+      d_TN: "Tamura-Nei evolutionary distance"
+      P: "Transitional differences"
+      Q: "Transversional differences"
+      G: "G+C content"
+    description: "Accounts for unequal base frequencies and different transition rates. Most sophisticated standard nucleotide distance model."
+
+  - formula_id: "BIO_BI_007"
+    formula_name: "Percent Sequence Identity"
+    formula_sub: "BIO_BI"
+    equation: "%ID = (Identical positions / Total aligned positions) × 100"
+    variables:
+      %ID: "Percent sequence identity"
+      Identical positions: "Number of aligned positions with identical residues"
+      Total aligned positions: "Length of the alignment excluding gaps"
+    description: "Simplest measure of sequence similarity. Used in homology assessment but not a reliable phylogenetic distance metric."
+
+  - formula_id: "BIO_BI_008"
+    formula_name: "Tsai-Tanimoto Similarity"
+    formula_sub: "BIO_BI"
+    equation: "T = c / (a + b − c)"
+    variables:
+      T: "Tanimoto similarity (0 to 1)"
+      a: "Number of features in molecule/sequence A"
+      b: "Number of features in molecule/sequence B"
+      c: "Number of shared features between A and B"
+    description: "Jaccard/Tanimoto coefficient for molecular fingerprints or sequence feature vectors. T=1 means identical; T=0 means no overlap."
+
+  - formula_id: "BIO_BI_009"
+    formula_name: "Codon Adaptation Index"
+    formula_sub: "BIO_BI"
+    equation: "CAI = (∏ w_i)^(1/L)"
+    variables:
+      CAI: "Codon adaptation index (0 to 1)"
+      w_i: "Relative adaptiveness of codon i"
+      L: "Length of coding sequence (number of codons)"
+    description: "Measures codon usage bias relative to a reference set of highly expressed genes. High CAI genes are likely highly expressed."
+
+  - formula_id: "BIO_BI_010"
+    formula_name: "GC Content"
+    formula_sub: "BIO_BI"
+    equation: "%GC = ((G + C) / (A + G + C + T)) × 100"
+    variables:
+      %GC: "GC content percentage"
+      G: "Count of guanine nucleotides"
+      C: "Count of cytosine nucleotides"
+      A: "Count of adenine nucleotides"
+      T: "Count of thymine nucleotides"
+    description: "Proportion of G and C nucleotides. Correlates with genome thermostability in prokaryotes and CpG island presence in eukaryotes."
+
+  - formula_id: "BIO_BI_011"
+    formula_name: "Shannon Entropy (Sequence)"
+    formula_sub: "BIO_BI"
+    equation: "H = −Σ(pi × ln(pi))"
+    variables:
+      H: "Shannon entropy (bits per position)"
+      pi: "Frequency of residue type i at a position"
+    description: "Sequence conservation score: H=0 means fully conserved; H=ln(20) for amino acids means completely variable. Used in sequence logos."
+
+  - formula_id: "BIO_BI_012"
+    formula_name: "Sequence Divergence"
+    formula_sub: "BIO_BI"
+    equation: "D = K / L"
+    variables:
+      D: "Sequence divergence (substitutions per site)"
+      K: "Number of substitutions between two sequences"
+      L: "Alignment length"
+    description: "Raw proportion of substitutions. Overestimates true distance due to multiple substitutions; use JC or K2P correction."
+
+  - formula_id: "BIO_BI_013"
+    formula_name: "Read Coverage"
+    formula_sub: "BIO_BI"
+    equation: "Cx = N × L / G"
+    variables:
+      Cx: "Average read coverage (depth)"
+      N: "Number of reads"
+      L: "Average read length"
+      G: "Size of target genome/region"
+    description: "Average number of reads covering each base in a sequencing experiment. Critical for variant calling and assembly quality."
+
+  - formula_id: "BIO_BI_014"
+    formula_name: "Coverage Uniformity"
+    formula_sub: "BIO_BI"
+    equation: "Cu = C_min / C_mean"
+    variables:
+      Cu: "Coverage uniformity ratio"
+      C_min: "Minimum coverage over the target"
+      C_mean: "Mean coverage"
+    description: "Measures evenness of read distribution. Low Cu indicates coverage gaps, important for clinical sequencing."
+
+  - formula_id: "BIO_BI_015"
+    formula_name: "Effective Number of Codons"
+    formula_sub: "BIO_BI"
+    equation: "ENC = 2 + (n × (Σpi^−2) − 2) / (n × (Σ1/pi) − 2)"
+    variables:
+      ENC: "Effective number of codons (1 to 61)"
+      n: "Number of synonymous codons (20 for amino acids)"
+      pi: "Frequency of codon type i"
+    description: "Measures codon usage bias independent of gene length. ENC = 61: no bias; ENC = 20: extreme bias using one codon per amino acid."
+
+  - formula_id: "BIO_BI_016"
+    formula_name: "Conservation Score (Scorecons)"
+    formula_sub: "BIO_BI"
+    equation: "Sc(i) = (1/L) × Σ|freq_residue(i,j) − bg_freq_residue(j)|"
+    variables:
+      Sc(i): "Conservation score at position i"
+      L: "Number of sequences in alignment"
+      freq_residue(i,j): "Frequency of residue type j at position i"
+      bg_freq_residue(j): "Background frequency of residue j"
+    description: "Measures how much the observed residue distribution at position i deviates from expected background. Higher score = more conserved."
+
+  - formula_id: "BIO_BI_017"
+    formula_name: "Overlap Coefficient (Sequences)"
+    formula_sub: "BIO_BI"
+    equation: "OVC = |A ∩ B| / min(|A|, |B|)"
+    variables:
+      OVC: "Overlap coefficient (0 to 1)"
+      |A ∩ B|: "Number of k-mers shared between sequences A and B"
+      |A|: "Number of k-mers in sequence A"
+      |B|: "Number of k-mers in sequence B"
+    description: "Used in k-mer based sequence comparison (e.g., Mash, MinHash). More sensitive than Jaccard for sequences of unequal length."
+
+  - formula_id: "BIO_BI_018"
+    formula_name: "Phylogenetic Tree — Patristic Distance"
+    formula_sub: "BIO_BI"
+    equation: "Dij = Σ(branch_lengths on path from i to j)"
+    variables:
+      Dij: "Patristic distance between taxa i and j"
+      branch_lengths: "Sum of branch lengths along the path connecting i and j"
+    description: "Sum of branch lengths connecting two taxa in a phylogenetic tree. More accurate than p-distance for evolutionary time estimation."
+
+  - formula_id: "BIO_BI_019"
+    formula_name: "Phylogenetic Tree — Robinson-Foulds Metric"
+    formula_sub: "BIO_BI"
+    equation: "RF = (B1 + B2) / (2n − 6)"
+    variables:
+      RF: "Robinson-Foulds distance (normalized, 0 to 1)"
+      B1: "Bipartitions in tree 1 not in tree 2"
+      B2: "Bipartitions in tree 2 not in tree 1"
+      n: "Number of taxa"
+    description: "Standard metric for comparing tree topologies. RF = 0 means identical; RF = 1 means completely different trees."
+
+  - formula_id: "BIO_BI_020"
+    formula_name: "MAPQ Mapping Quality"
+    formula_sub: "BIO_BI"
+    equation: "MAPQ = −10 × log10(P_error)"
+    variables:
+      MAPQ: "Mapping quality score (Phred scale)"
+      P_error: "Probability that alignment is wrong"
+    description: "Phred-scaled probability that a read is mapped incorrectly. MAPQ = 20 means 1% chance of wrong mapping; MAPQ = 30 means 0.1%."
+
+  - formula_id: "BIO_BI_021"
+    formula_name: "Gene Expression — FPKM"
+    formula_sub: "BIO_BI"
+    equation: "FPKM = (10^9 × C) / (N × L)"
+    variables:
+      FPKM: "Fragments per kilobase per million mapped reads"
+      C: "Number of fragments mapped to gene"
+      N: "Total mapped fragments in experiment"
+      L: "Length of gene in base pairs"
+    description: "Normalizes gene expression for sequencing depth and gene length. Replaced by TPM in modern pipelines."
+
+  - formula_id: "BIO_BI_022"
+    formula_name: "TPM — Transcripts Per Million"
+    formula_sub: "BIO_BI"
+    equation: "TPM = (Ri / ΣRj) × 10^6"
+    variables:
+      TPM: "Transcripts per million"
+      Ri: "Read count for transcript i (RPK-normalized)"
+      Rj: "RPK-normalized read count for transcript j"
+    description: "Proportion-based normalization: the sum of all TPMs in a sample equals 1,000,000. Enables cross-sample comparison."
+
+  # ─── SYSTEMS BIOLOGY (BIO_SB) ───
+  - formula_id: "BIO_SB_001"
+    formula_name: "Gene Regulation Hill Function"
+    formula_sub: "BIO_SB"
+    equation: "d[mRNA]/dt = β / (1 + (Protein/K)^n) − α × [mRNA]"
+    variables:
+      [mRNA]: "mRNA concentration"
+      Protein: "Concentration of regulatory protein"
+      β: "Maximal transcription rate"
+      K: "Dissociation constant (concentration for half-maximal repression)"
+      n: "Hill coefficient (cooperativity)"
+      α: "mRNA degradation rate"
+    description: "Gene expression model with cooperative repression. Forms the basis of toggle switches, repressilators, and synthetic gene circuits."
+
+  - formula_id: "BIO_SB_002"
+    formula_name: "Michaelis-Menten Enzyme Kinetics"
+    formula_sub: "BIO_SB"
+    equation: "v = (Vmax × [S]) / (Km + [S])"
+    variables:
+      v: "Reaction velocity"
+      Vmax: "Maximum velocity (at saturating substrate)"
+      [S]: "Substrate concentration"
+      Km: "Michaelis constant (= k-1 + kcat / k1)"
+    description: "Rate of enzyme-catalyzed reaction as a function of substrate concentration. Km is the substrate concentration at half Vmax."
+
+  - formula_id: "BIO_SB_003"
+    formula_name: "Repressilator — Gene A"
+    formula_sub: "BIO_SB"
+    equation: "dA/dt = α / (1 + C^n) − A"
+    variables:
+      A: "Concentration of protein A"
+      C: "Concentration of protein C (repressor of A)"
+      α: "Maximal synthesis rate"
+      n: "Hill coefficient"
+    description: "Synthetic genetic oscillator (Elowitz & Leibler, 2000): three genes A, B, C mutually repress each other in a cycle."
+
+  - formula_id: "BIO_SB_004"
+    formula_name: "Lotka-Volterra (Competitive)"
+    formula_sub: "BIO_SB"
+    equation: "dN1/dt = r1 × N1 × (1 − (N1 + α12 × N2) / K1)"
+    variables:
+      N1: "Population size of species 1"
+      r1: "Intrinsic growth rate of species 1"
+      K1: "Carrying capacity of species 1"
+      α12: "Competition coefficient (effect of species 2 on 1)"
+      N2: "Population size of species 2"
+    description: "Competitive Lotka-Volterra: two species compete for shared resources. Outcome depends on α coefficients and initial conditions."
+
+  - formula_id: "BIO_SB_005"
+    formula_name: "Metabolic Flux Balance"
+    formula_sub: "BIO_SB"
+    equation: "S × v = 0"
+    variables:
+      S: "Stoichiometric matrix (m reactions × n metabolites)"
+      v: "Flux vector (steady-state reaction rates)"
+    description: "At steady state, net production of each metabolite is zero. Combined with an objective function (e.g., maximize biomass), defines FBA."
+
+  - formula_id: "BIO_SB_006"
+    formula_name: "Goldbeter-Koshland Ultrasensitivity"
+    formula_sub: "BIO_SB"
+    equation: "z = (V1 × [X] / Km1 + V2 × [Y] / Km2) / ([X]/Km1 + [Y]/Km2 + Km1 + Km2) ... (simplified)"
+    variables:
+      z: "Steady-state fraction of modified protein"
+      V1: "Kinase catalytic rate"
+      V2: "Phosphatase catalytic rate"
+      [X]: "Kinase concentration"
+      [Y]: "Phosphatase concentration"
+    description: "Ultrasensitive response in zero-order ultrasensitivity. Produces a very steep input-output curve, acting as a biological switch."
+
+  - formula_id: "BIO_SB_007"
+    formula_name: "Feedback Stability Criterion"
+    formula_sub: "BIO_SB"
+    equation: "τ_feedback × dX/dt < 1 (for stability)"
+    variables:
+      τ_feedback: "Feedback time delay"
+      dX/dt: "Rate of change of controlled variable"
+    description: "Negative feedback is stabilizing only if the feedback response is faster than the perturbation. Delay can destabilize feedback loops."
+
+  - formula_id: "BIO_SB_008"
+    formula_name: "Coherence Resonance (Positive Feedback)"
+    formula_sub: "BIO_SB"
+    equation: "dx/dt = −V0 × x + (V1 + V2 × H(x − θ)) / (1 + (x/K)^n)"
+    variables:
+      x: "State variable (e.g., phosphorylation level)"
+      V0: "Basal dephosphorylation rate"
+      V1, V2: "Phosphorylation rates"
+      H(x − θ): "Heaviside step function at threshold θ"
+      K: "Saturation constant"
+    description: "Positive feedback with noise: system exhibits stochastic resonance or coherence resonance at intermediate noise levels."
+
+  - formula_id: "BIO_SB_009"
+    formula_name: "Toggle Switch"
+    formula_sub: "BIO_SB"
+    equation: "du/dt = α1 / (1 + v^β) − u;  dv/dt = α2 / (1 + u^γ) − v"
+    variables:
+      u: "Concentration of protein 1 (repressor of gene 2)"
+      v: "Concentration of protein 2 (repressor of gene 1)"
+      α1, α2: "Maximal expression rates"
+      β, γ: "Cooperativity of repression"
+    description: "Synthetic bistable switch (Gardner et al., 2000): two genes mutually repress, giving two stable states (ON/OFF). Memory element."
+
+  - formula_id: "BIO_SB_010"
+    formula_name: "Goodwin Oscillator"
+    formula_sub: "BIO_SB"
+    equation: "dX/dt = k1 / (1 + Z^n) − k2 × X;  dY/dt = k3 × X − k4 × Y;  dZ/dt = k5 × Y − k6 × Z"
+    variables:
+      X: "mRNA concentration"
+      Y: "Protein concentration"
+      Z: "Active end-product concentration (repressor)"
+      k1–k6: "Rate constants"
+      n: "Hill coefficient (cooperativity of repression)"
+    description: "Three-component negative feedback oscillator: mRNA → protein → end-product represses its own transcription. Requires n ≥ 8 for oscillations."
+
+  - formula_id: "BIO_SB_011"
+    formula_name: "Quorum Sensing — Autoinducer Accumulation"
+    formula_sub: "BIO_SB"
+    equation: "d[A]/dt = k_syn × N − k_dec × [A] − k_bind × [A] × N / (Ka + [A])"
+    variables:
+      [A]: "Autoinducer concentration"
+      N: "Cell density (number of cells)"
+      k_syn: "Synthesis rate per cell"
+      k_dec: "Decay/dilution rate"
+      k_bind: "Receptor binding rate"
+      Ka: "Binding affinity"
+    description: "Bacterial cell-cell communication: autoinducer accumulates with cell density; triggers coordinated gene expression above threshold."
+
+  - formula_id: "BIO_SB_012"
+    formula_name: "Gene Expression (Transcription + Translation)"
+    formula_sub: "BIO_SB"
+    equation: "dmRNA/dt = k_tx − γ_m × mRNA;  dProtein/dt = k_tl × mRNA − γ_p × Protein"
+    variables:
+      mRNA: "mRNA concentration"
+      Protein: "Protein concentration"
+      k_tx: "Transcription rate"
+      γ_m: "mRNA degradation rate constant"
+      k_tl: "Translation rate"
+      γ_p: "Protein degradation rate constant"
+    description: "Two-stage gene expression: transcription produces mRNA which is translated to protein. Both mRNA and protein degrade at first-order rates."
+
+  - formula_id: "BIO_SB_013"
+    formula_name: "Phosphorylation Cycle"
+    formula_sub: "BIO_SB"
+    equation: "dXp/dt = k1 × E × X − k2 × F × Xp"
+    variables:
+      Xp: "Phosphorylated protein concentration"
+      X: "Unphosphorylated protein concentration"
+      E: "Kinase enzyme concentration"
+      F: "Phosphatase enzyme concentration"
+      k1: "Phosphorylation rate constant"
+      k2: "Dephosphorylation rate constant"
+    description: "Bidirectional modification cycle: kinase phosphorylates protein; phosphatase dephosphorylates. Central to signaling cascades."
+
+  - formula_id: "BIO_SB_014"
+    formula_name: "Network Motif — Feed-Forward Loop"
+    formula_sub: "BIO_SB"
+    equation: "dZ/dt = k_on × H(X × Y) − k_off × Z"
+    variables:
+      Z: "Output gene expression"
+      X: "Primary regulator"
+      Y: "Intermediate regulator (also regulated by X)"
+      H(X × Y): "AND or OR logic gate function"
+      k_on: "Activation rate"
+      k_off: "Deactivation rate"
+    description: "X regulates Z both directly and through Y. Types: coherent (accelerates response, filters noise) or incoherent (generates pulse, accelerates shutoff)."
+
+  - formula_id: "BIO_SB_015"
+    formula_name: "Allosteric Regulation (MWC Model)"
+    formula_sub: "BIO_SB"
+    equation: "Y = (1 + α)^n / ((1 + α)^n + L × (1 + c×α)^n)"
+    variables:
+      Y: "Fraction of sites in active (R) state"
+      α: "Ligand concentration relative to K_R"
+      L: "Allosteric constant (T/R equilibrium)"
+      c: "Ratio of dissociation constants (K_R / K_T)"
+      n: "Number of subunits"
+    description: "Monod-Wyman-Changeux model of allosteric cooperativity. Explains sigmoidal oxygen binding curves of hemoglobin."
+
+  # ─── BIOPHYSICS (BIO_BP) ───
+  - formula_id: "BIO_BP_001"
+    formula_name: "Goldman-Hodgkin-Katz Voltage Equation"
+    formula_sub: "BIO_BP"
+    equation: "Vm = 61.5 × log10((PKNa×[Na+]out + PKK×[K+]out + PKCl×[Cl−]in) / (PKNa×[Na+]in + PKK×[K+]in + PKCl×[Cl−]out))"
+    variables:
+      Vm: "Resting membrane potential (mV)"
+      PKNa, PKK, PKCl: "Relative permeabilities to Na+, K+, Cl−"
+      [ion]out: "Extracellular ion concentration"
+      [ion]in: "Intracellular ion concentration"
+    description: "Membrane potential determined by weighted permeabilities of multiple ions. At rest, primarily K+ permeable; during action potential, Na+ permeability dominates."
+
+  - formula_id: "BIO_BP_002"
+    formula_name: "Ion Channel Current (Ohm's Law)"
+    formula_sub: "BIO_BP"
+    equation: "I = g × (Vm − E_ion)"
+    variables:
+      I: "Ion channel current"
+      g: "Single-channel conductance (pS)"
+      Vm: "Membrane potential"
+      E_ion: "Reversal (Nernst) potential for the ion"
+    description: "Current through an open ion channel is proportional to driving force (Vm − E_ion). Direction reverses at E_ion."
+
+  - formula_id: "BIO_BP_003"
+    formula_name: "Nernst Potential"
+    formula_sub: "BIO_BP"
+    equation: "E_ion = (RT / zF) × ln([ion]out / [ion]in)"
+    variables:
+      E_ion: "Nernst equilibrium potential for the ion"
+      R: "Gas constant (8.314 J/(mol·K))"
+      T: "Absolute temperature (K)"
+      z: "Ion valence (e.g., +1 for K+, Na+; −1 for Cl−)"
+      F: "Faraday constant (96,485 C/mol)"
+    description: "Membrane potential at which there is no net flux of the ion. At 37°C: E = 61.5 mV × log10([out]/[in]) for z=1."
+
+  - formula_id: "BIO_BP_004"
+    formula_name: "Boltzmann Activation (Channel Gating)"
+    formula_sub: "BIO_BP"
+    equation: "P_open = 1 / (1 + exp(−(Vm − V½) / k))"
+    variables:
+      P_open: "Probability of channel being open (0 to 1)"
+      Vm: "Membrane potential"
+      V½: "Voltage at which P_open = 0.5"
+      k: "Slope factor (mV), related to effective gating charge"
+    description: "Voltage-dependent channel activation follows Boltzmann distribution. Describes steady-state activation (m∞) or inactivation (h∞) curves."
+
+  - formula_id: "BIO_BP_005"
+    formula_name: "Diffusion-Limited Reaction Rate"
+    formula_sub: "BIO_BP"
+    equation: "k_diff = 4πr × D × NA"
+    variables:
+      k_diff: "Diffusion-controlled rate constant (M^−1s^−1)"
+      r: "Sum of molecular radii (encounter distance)"
+      D: "Relative diffusion coefficient (DA + DB)"
+      NA: "Avogadro's number (6.022 × 10^23)"
+    description: "Maximum possible rate of a bimolecular reaction in solution when every collision is productive. ~10^9 M^−1s^−1 in water."
+
+  - formula_id: "BIO_BP_006"
+    formula_name: "Fick's First Law of Diffusion"
+    formula_sub: "BIO_BP"
+    equation: "J = −D × (dC/dx)"
+    variables:
+      J: "Diffusive flux (molecules/(area·time))"
+      D: "Diffusion coefficient"
+      dC/dx: "Concentration gradient"
+    description: "Diffusive flux is proportional to the concentration gradient. Negative sign indicates net flux from high to low concentration."
+
+  - formula_id: "BIO_BP_007"
+    formula_name: "Osmotic Pressure (van't Hoff)"
+    formula_sub: "BIO_BP"
+    equation: "Π = i × R × T × C"
+    variables:
+      Π: "Osmotic pressure"
+      i: "Van't Hoff factor (particles per molecule)"
+      R: "Gas constant"
+      T: "Absolute temperature (K)"
+      C: "Molar concentration of solute"
+    description: "Pressure required to prevent osmotic water flow across a semipermeable membrane. Critical for cell volume regulation and osmoregulation."
+
+  - formula_id: "BIO_BP_008"
+    formula_name: "Poisson-Boltzmann Equation"
+    formula_sub: "BIO_BP"
+    equation: "∇²ψ = −(ρ_f + ρ_m) / ε"
+    variables:
+      ∇²ψ: "Laplacian of electrostatic potential"
+      ρ_f: "Fixed charge density"
+      ρ_m: "Mobile ion charge density"
+      ε: "Dielectric permittivity of the medium"
+    description: "Describes electrostatic potential around charged biomolecules (proteins, nucleic acids, membranes). Basis for molecular electrostatics calculations."
+
+  - formula_id: "BIO_BP_009"
+    formula_name: "Cable Equation (Axon)"
+    formula_sub: "BIO_BP"
+    equation: "τ_m × ∂V/∂t = λ² × ∂²V/∂x² − V + (λ² / r_m) × I_inj"
+    variables:
+      τ_m: "Membrane time constant (Rm × Cm)"
+      λ: "Space constant (sqrt(Rm / Ri))"
+      V: "Membrane potential along axon"
+      x: "Distance along axon"
+      Rm: "Membrane resistance per unit length"
+      Ri: "Internal (axial) resistance"
+      Cm: "Membrane capacitance per unit length"
+      I_inj: "Injected current"
+    description: "Describes passive spread of voltage along cylindrical neurons. Determines how far and how fast action potentials propagate."
+
+  - formula_id: "BIO_BP_010"
+    formula_name: "Membrane Time Constant"
+    formula_sub: "BIO_BP"
+    equation: "τ_m = Rm × Cm"
+    variables:
+      τ_m: "Membrane time constant"
+      Rm: "Membrane resistance"
+      Cm: "Membrane capacitance"
+    description: "Time for membrane potential to rise to 63% (or decay to 37%) of its final value in response to a current step. Determines temporal integration."
+
+  - formula_id: "BIO_BP_011"
+    formula_name: "Space Constant"
+    formula_sub: "BIO_BP"
+    equation: "λ = sqrt(Rm / Ri)"
+    variables:
+      λ: "Space constant (length for 1/e decay)"
+      Rm: "Membrane resistance per unit length"
+      Ri: "Internal/axial resistance per unit length"
+    description: "Length over which passive membrane voltage decays to 1/e of its initial value. Larger λ = longer signal conduction."
+
+  - formula_id: "BIO_BP_012"
+    formula_name: "Length Constant (Cylindrical Cable)"
+    formula_sub: "BIO_BP"
+    equation: "λ = sqrt(rm / ri)"
+    variables:
+      λ: "Length constant"
+      rm: "Specific membrane resistance (Ω·cm²)"
+      ri: "Specific internal resistivity (Ω·cm)"
+    description: "Alternative form using specific resistances. Characterizes passive electrical properties of dendrites and axons."
+
+  - formula_id: "BIO_BP_013"
+    formula_name: "Hodgkin-Huxley K+ Current"
+    formula_sub: "BIO_BP"
+    equation: "IK = gK_bar × n⁴ × (Vm − EK)"
+    variables:
+      IK: "Potassium current"
+      gK_bar: "Maximum potassium conductance"
+      n: "K+ channel activation variable (0 to 1)"
+      Vm: "Membrane potential"
+      EK: "Potassium Nernst potential"
+    description: "Delayed rectifier K+ current in HH model. n follows first-order kinetics: dn/dt = αn(1−n) − βn×n."
+
+  - formula_id: "BIO_BP_014"
+    formula_name: "Hodgkin-Huxley Na+ Current"
+    formula_sub: "BIO_BP"
+    equation: "INa = gNa_bar × m³ × h × (Vm − ENa)"
+    variables:
+      INa: "Sodium current"
+      gNa_bar: "Maximum sodium conductance"
+      m: "Na+ channel activation variable (fast)"
+      h: "Na+ channel inactivation variable (slow)"
+      Vm: "Membrane potential"
+      ENa: "Sodium Nernst potential"
+    description: "Rapid activating (m) and slowly inactivating (h) Na+ current. m³h reflects three independent activation gates and one inactivation gate."
+
+  - formula_id: "BIO_BP_015"
+    formula_name: "Hodgkin-Huxley Membrane Equation"
+    formula_sub: "BIO_BP"
+    equation: "Cm × dVm/dt = −gNa×m³h×(Vm−ENa) − gK×n⁴×(Vm−EK) − gL×(Vm−EL) + I_inj"
+    variables:
+      Cm: "Membrane capacitance"
+      dVm/dt: "Rate of membrane potential change"
+      gNa, gK: "Voltage-dependent Na+, K+ conductances"
+      gL: "Leak conductance"
+      m, h, n: "Gating variables"
+      ENa, EK, EL: "Nernst potentials for Na+, K+, leak"
+      I_inj: "Injected current"
+    description: "Complete HH model: capacitance, ionic currents, and injection current sum to zero. Four coupled ODEs (Vm, m, h, n)."
+
+  - formula_id: "BIO_BP_016"
+    formula_name: "Viscous Drag (Stokes' Law)"
+    formula_sub: "BIO_BP"
+    equation: "F_drag = 6π × η × r × v"
+    variables:
+      F_drag: "Viscous drag force"
+      η: "Fluid viscosity"
+      r: "Particle (sphere) radius"
+      v: "Velocity"
+    description: "Drag force on a spherical particle moving in viscous fluid. Key for understanding motion of bacteria, vesicles, and molecular motors."
+
+  - formula_id: "BIO_BP_017"
+    formula_name: "Rotational Diffusion Coefficient"
+    formula_sub: "BIO_BP"
+    equation: "Dr = kT / (8πηr³)"
+    variables:
+      Dr: "Rotational diffusion coefficient"
+      k: "Boltzmann constant (1.381 × 10^−23 J/K)"
+      T: "Absolute temperature (K)"
+      η: "Viscosity"
+      r: "Hydrodynamic radius of molecule"
+    description: "Rate of rotational reorientation of a molecule in solution. Important for interpreting fluorescence anisotropy and NMR relaxation data."
+
+  - formula_id: "BIO_BP_018"
+    formula_name: "Debye Length"
+    formula_sub: "BIO_BP"
+    equation: "λD = sqrt(ε × R × T / (2 × F² × I))"
+    variables:
+      λD: "Debye length (electrostatic screening distance)"
+      ε: "Dielectric constant of medium"
+      R: "Gas constant"
+      T: "Absolute temperature"
+      F: "Faraday constant"
+      I: "Ionic strength"
+    description: "Characteristic distance over which electrostatic interactions are screened in electrolyte solutions. Short in physiological salt (~0.8 nm)."
+
+  - formula_id: "BIO_BP_019"
+    formula_name: "Diffusion Coefficient (Einstein-Stokes)"
+    formula_sub: "BIO_BP"
+    equation: "D = kT / (6π × η × r)"
+    variables:
+      D: "Translational diffusion coefficient"
+      k: "Boltzmann constant"
+      T: "Absolute temperature"
+      η: "Viscosity"
+      r: "Hydrodynamic radius"
+    description: "Relationship between molecular size and diffusion rate. Used to estimate protein size from FRAP or FCS measurements."
+
+  - formula_id: "BIO_BP_020"
+    formula_name: "Beer-Lambert Law"
+    formula_sub: "BIO_BP"
+    equation: "A = ε × c × l"
+    variables:
+      A: "Absorbance (optical density)"
+      ε: "Molar extinction coefficient (M^−1cm^−1)"
+      c: "Molar concentration"
+      l: "Path length (cm)"
+    description: "Fundamental law of spectrophotometry. Used to quantify DNA (A260), protein (A280), and growth (A600) in virtually all biochemistry labs."
+
+  # ─── MODELS (BIO_MODEL_<NNN>) ───
+  - model_id: "BIO_MODEL_001"
+    model_name: "SIR Epidemiological Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β × S × I / N
+      dI/dt = β × S × I / N − γ × I
+      dR/dt = γ × I
+      with: S + I + R = N  (conservation of population)
+    variables:
+      S: "Susceptible individuals"
+      I: "Infectious individuals"
+      R: "Recovered/removed (immune) individuals"
+      N: "Total population"
+      β: "Transmission rate (per contact per time)"
+      γ: "Recovery rate (1/infectious period)"
+      R0: "Basic reproduction number = β/γ"
+    description: "Classic Kermack-McKendrick compartmental model. Describes epidemic wave: rapid rise and fall of I, with S depleted below HIT threshold."
+
+  - model_id: "BIO_MODEL_002"
+    model_name: "SEIR Epidemiological Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β × S × I / N
+      dE/dt = β × S × I / N − σ × E
+      dI/dt = σ × E − γ × I
+      dR/dt = γ × I
+      with: S + E + I + R = N
+    variables:
+      S: "Susceptible"
+      E: "Exposed (latent, not yet infectious)"
+      I: "Infectious"
+      R: "Recovered"
+      σ: "Rate of progression from E to I (1/latent period)"
+      β: "Transmission rate"
+      γ: "Recovery rate"
+    description: "Extended SIR with latent period E. Produces delayed epidemic peak, more realistic for diseases with incubation period (e.g., COVID-19, measles)."
+
+  - model_id: "BIO_MODEL_003"
+    model_name: "Lotka-Volterra Predator-Prey"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dx/dt = α × x − β × x × y
+      dy/dt = δ × x × y − γ × y
+    variables:
+      x: "Prey population density"
+      y: "Predator population density"
+      α: "Prey intrinsic growth rate"
+      β: "Predation rate coefficient"
+      δ: "Predator growth efficiency from predation"
+      γ: "Predator mortality rate"
+    description: "Classic oscillatory dynamics: prey grow exponentially without predators; predators decline without prey. Closed orbits in phase space."
+
+  - model_id: "BIO_MODEL_004"
+    model_name: "One-Compartment Pharmacokinetic Model"
+    model_type: "Ordinary Differential Equations / Exponential Decay"
+    model_domain: "BIO_PK"
+    equations: |
+      dC/dt = −k × C
+      C(t) = C0 × e^(−kt)  [for IV bolus]
+      C(t) = (F × Dose / V) × (e^(−kt) − e^(−kat)) / (ka × V × (1 − e^(−kτ)))  [for oral multiple dosing]
+    variables:
+      C: "Plasma drug concentration"
+      C0: "Initial concentration at t=0"
+      k: "Elimination rate constant"
+      F: "Bioavailability"
+      Dose: "Administered dose"
+      V: "Volume of distribution"
+      ka: "Absorption rate constant"
+      τ: "Dosing interval"
+    description: "Assumes body is a single homogeneous compartment. Drug distributes instantaneously and eliminates by first-order kinetics."
+
+  - model_id: "BIO_MODEL_005"
+    model_name: "Emax Pharmacodynamic Model"
+    model_type: "Emax Dose-Response"
+    model_domain: "BIO_PD"
+    equations: |
+      E = (Emax × C^γ) / (EC50^γ + C^γ)
+    variables:
+      E: "Drug effect"
+      Emax: "Maximum achievable effect"
+      C: "Drug concentration"
+      EC50: "Half-maximal effective concentration"
+      γ: "Hill coefficient"
+    description: "Sigmoidal dose-response curve. Used to characterize agonist potency (EC50) and efficacy (Emax). γ=1 gives hyperbolic Emax curve."
+
+  - model_id: "BIO_MODEL_006"
+    model_name: "Sigmoid Emax / Hill Equation"
+    model_type: "Hill Function"
+    model_domain: "BIO_PD"
+    equations: |
+      E = Emax × C^n / (EC50^n + C^n)
+      In (logit form): log(E/(Emax−E)) = n×log(C) − n×log(EC50)
+    variables:
+      E: "Response magnitude"
+      Emax: "Maximum response"
+      C: "Ligand/concentration"
+      EC50: "Half-effective concentration"
+      n: "Hill coefficient (cooperativity)"
+    description: "Generalized Hill equation for cooperative binding and sigmoidal dose-response. n>1 indicates positive cooperativity (e.g., hemoglobin O2 binding)."
+
+  - model_id: "BIO_MODEL_007"
+    model_name: "Repressilator Genetic Oscillator"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dm_i/dt = α / (1 + p_j^n) − m_i
+      dp_i/dt = κ × m_i − p_i
+      (where j = i−1 modulo 3; i, j ∈ {A, B, C})
+    variables:
+      m_i: "mRNA concentration of gene i"
+      p_i: "Protein concentration of gene i"
+      α: "Maximal transcription rate (in repression)"
+      n: "Hill coefficient of repression"
+      κ: "mRNA-to-protein translation/degradation ratio"
+    description: "Synthetic 3-gene negative feedback loop (Elowitz & Leibler, Nature 2000). Proteins A represses B, B represses C, C represses A — creating a ring oscillator."
+
+  - model_id: "BIO_MODEL_008"
+    model_name: "Goldman-Hodgkin-Katz Membrane Potential"
+    model_type: "Steady-State Electrochemical Equation"
+    model_domain: "BIO_BP"
+    equations: |
+      Vm = (RT/F) × ln((P_K×[K+]out + P_Na×[Na+]out + P_Cl×[Cl−]in) / (P_K×[K+]in + P_Na×[Na+]in + P_Cl×[Cl−]out))
+    variables:
+      Vm: "Membrane potential"
+      R: "Gas constant"
+      T: "Temperature (K)"
+      F: "Faraday constant"
+      P_K, P_Na, P_Cl: "Relative permeabilities"
+      [ion]out, [ion]in: "Extracellular/intracellular concentrations"
+    description: "Weighted permeabilities determine resting Vm. Dominant K+ permeability gives ~−70 mV at rest. Shift to Na+ permeability gives depolarization (+30 mV)."
+
+  - model_id: "BIO_MODEL_009"
+    model_name: "Michaelis-Menten Enzyme Kinetics"
+    model_type: "Rate Equation / Enzyme Kinetics"
+    model_domain: "BIO_SB"
+    equations: |
+      v = (Vmax × [S]) / (Km + [S])
+      Lineweaver-Burk: 1/v = (Km/Vmax)(1/[S]) + 1/Vmax
+    variables:
+      v: "Reaction velocity"
+      Vmax: "Maximum velocity"
+      [S]: "Substrate concentration"
+      Km: "Michaelis constant (= (k−1 + kcat)/k1)"
+      kcat: "Turnover number"
+    description: "Fundamental model of enzyme catalysis. At [S] = Km, v = Vmax/2. Derived from Briggs-Haldane steady-state assumption."
+
+  - model_id: "BIO_MODEL_010"
+    model_name: "Toggle Switch (Synthetic Gene Circuit)"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      du/dt = α1 / (1 + v^β) − u
+      dv/dt = α2 / (1 + u^γ) − v
+    variables:
+      u: "Concentration of protein expressed by gene 1"
+      v: "Concentration of protein expressed by gene 2"
+      α1, α2: "Maximal synthesis rates"
+      β, γ: "Repression Hill coefficients"
+    description: "Bistable switch: two genes mutually repress. System has two stable steady states. Switching triggered by transient inducers (Gardner et al., Nature 2000)."
+
+  - model_id: "BIO_MODEL_011"
+    model_name: "Rosenzweig-MacArthur Predator-Prey"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN/dt = r × N × (1 − N/K) − (a × N / (1 + a × h × N)) × P
+      dP/dt = e × (a × N / (1 + a × h × N)) × P − m × P
+    variables:
+      N: "Prey population"
+      P: "Predator population"
+      r: "Prey intrinsic growth rate"
+      K: "Prey carrying capacity"
+      a: "Attack rate"
+      h: "Handling time per prey"
+      e: "Conversion efficiency"
+      m: "Predator mortality rate"
+    description: "Extended Lotka-Volterra with Holling Type II functional response and logistic prey growth. Produces stable equilibrium or limit cycles (paradox of enrichment)."
+
+  - model_id: "BIO_MODEL_012"
+    model_name: "Hodgkin-Huxley Action Potential Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_BP"
+    equations: |
+      Cm × dV/dt = −gNa×m³h×(V−ENa) − gK×n⁴×(V−EK) − gL×(V−EL) + I(t)
+      dm/dt = αm(V)(1−m) − βm(V)×m
+      dh/dt = αh(V)(1−h) − βh(V)×h
+      dn/dt = αn(V)(1−n) − βn(V)×n
+    variables:
+      V: "Membrane potential"
+      m, h: "Na+ channel gating (activation, inactivation)"
+      n: "K+ channel activation"
+      gNa, gK, gL: "Maximum Na+, K+, leak conductances"
+      ENa, EK, EL: "Nernst potentials"
+      αm, βm, αh, βh, αn, βn: "Voltage-dependent rate functions"
+    description: "Biophysical model of neuronal action potential (Hodgkin & Huxley, 1952). Four coupled ODEs produce the characteristic spike waveform and refractory period."
+
+  - model_id: "BIO_MODEL_013"
+    model_name: "Competitive Antagonism (Schild)"
+    model_type: "Pharmacodynamic Model"
+    model_domain: "BIO_PD"
+    equations: |
+      E = Emax × C^n / (EC50^n × (1 + [B]/KB)^n + C^n)
+      log(DR − 1) = log[B] − log(KA)
+      DR = EC50_with_B / EC50_without_B
+    variables:
+      E: "Drug effect"
+      Emax: "Maximum effect"
+      C: "Agonist concentration"
+      EC50: "Half-effective concentration of agonist"
+      [B]: "Antagonist concentration"
+      KB: "Dissociation constant of antagonist"
+      DR: "Dose ratio"
+    description: "Surmountable competitive antagonism: antagonist increases apparent EC50 (rightward shift), Emax unchanged. Schild plot has unit slope."
+
+  - model_id: "BIO_MODEL_014"
+    model_name: "Lotka-Volterra Competition Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN1/dt = r1 × N1 × (1 − (N1 + α12×N2) / K1)
+      dN2/dt = r2 × N2 × (1 − (N2 + α21×N1) / K2)
+    variables:
+      N1, N2: "Population sizes of species 1 and 2"
+      r1, r2: "Intrinsic growth rates"
+      K1, K2: "Carrying capacities"
+      α12: "Competition coefficient (effect of species 2 on 1)"
+      α21: "Competition coefficient (effect of species 1 on 2)"
+    description: "Two species compete for shared limiting resources. Four possible outcomes: competitive exclusion (species 1 or 2 wins) or coexistence (if α12×α21 < 1)."
+
+  - model_id: "BIO_MODEL_015"
+    model_name: "Nicholson-Bailey Host-Parasitoid Model"
+    model_type: "Difference Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      H(t+1) = R × H(t) × e^(−a × P(t))
+      P(t+1) = k × H(t) × (1 − e^(−a × P(t)))
+    variables:
+      H(t): "Host population at generation t"
+      P(t): "Parasitoid population at generation t"
+      R: "Host reproductive rate"
+      a: "Searching efficiency of parasitoid"
+      k: "Average number of parasitoid offspring per parasitized host"
+    description: "Discrete-time model of host-parasitoid interactions. Produces unstable oscillations diverging to extinction — the ' Nicholson-Bailey instability.'"
+
+  - model_id: "BIO_MODEL_016"
+    model_name: "Allee Effect Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN/dt = r × N × (1 − N/K) × (N/A − 1)
+      (or per-capita: dN/(Ndt) = r × (1 − N/K) × (N/A − 1))
+    variables:
+      N: "Population size"
+      r: "Intrinsic growth rate"
+      K: "Carrying capacity"
+      A: "Allee threshold (critical minimum population size)"
+    description: "Positive density dependence at low N: population growth is reduced below threshold A. Two stable equilibria: N=0 (extinction) and N=K. Unstable equilibrium at N=A."
+
+  - model_id: "BIO_MODEL_017"
+    model_name: "Goodwin Oscillator"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dm/dt = k1 / (1 + z^n) − k2 × m
+      dp/dt = k3 × m − k4 × p
+      dz/dt = k5 × p − k6 × z
+    variables:
+      m: "mRNA concentration"
+      p: "Protein concentration"
+      z: "End-product (repressor) concentration"
+      k1: "Maximal transcription rate"
+      k2: "mRNA degradation rate"
+      k3: "Translation rate"
+      k4: "Protein degradation rate"
+      k5: "Activation rate (protein → end-product)"
+      k6: "End-product degradation rate"
+      n: "Hill coefficient"
+    description: "Three-component negative feedback oscillator: end-product z represses its own transcription. Requires high cooperativity (n ≥ 8) for sustained oscillations."
+
+  - model_id: "BIO_MODEL_018"
+    model_name: "Logistic Growth Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN/dt = r × N × (1 − N/K)
+      Solution: N(t) = K / (1 + ((K−N0)/N0) × e^(−rt))
+    variables:
+      N: "Population size"
+      r: "Intrinsic rate of increase"
+      K: "Carrying capacity"
+      N0: "Initial population size"
+    description: "Sigmoidal population growth: exponential at low N, zero growth at N=K. Foundational model in ecology and population biology."
+
+  - model_id: "BIO_MODEL_019"
+    model_name: "SEIS Disease Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β × S × I / N + γ × R
+      dE/dt = β × S × I / N − σ × E
+      dI/dt = σ × E − γ × I
+      dR/dt = γ × I − γ × R
+    variables:
+      S: "Susceptible"
+      E: "Exposed"
+      I: "Infectious"
+      R: "Recovered"
+      β: "Transmission rate"
+      σ: "Rate of becoming infectious"
+      γ: "Recovery rate"
+    description: "Like SEIR but recovered individuals lose immunity and return to susceptible class. Used for diseases with temporary immunity (e.g., influenza, malaria)."
+
+  - model_id: "BIO_MODEL_020"
+    model_name: "Fitzhugh-Nagumo Neuron Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_BP"
+    equations: |
+      dV/dt = V − V³/3 − W + I(t)
+      dw/dt = ε × (V + a − b×W)
+    variables:
+      V: "Membrane potential (fast variable)"
+      W: "Recovery variable (slow, represents K+ channel activation)"
+      I(t): "Applied current"
+      a, b: "Recovery parameters"
+      ε: "Timescale separation (ε << 1)"
+    description: "Two-variable simplification of Hodgkin-Huxley. Phase portrait shows cubic nullcline and limit cycle producing repetitive spikes."
+
+  - model_id: "BIO_MODEL_021"
+    model_name: "Chemostat Continuous Culture Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dS/dt = D × (S_in − S) − (μ(S) × X) / Y
+      dX/dt = (μ(S) − D) × X
+    variables:
+      S: "Limiting nutrient concentration"
+      X: "Biomass concentration"
+      S_in: "Inflow nutrient concentration"
+      D: "Dilution rate (flow rate / culture volume)"
+      μ(S): "Specific growth rate (Monod: μmax×S/(Ks+S))"
+      Y: "Biomass yield coefficient"
+    description: "Continuous culture with constant fresh medium inflow and outflow. Washout occurs when D > μ_max. Basis of industrial fermentation and chemostat theory."
+
+  - model_id: "BIO_MODEL_022"
+    model_name: "Replicator Equation (Evolutionary Dynamics)"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dxi/dt = xi × (fi(x) − f̄(x))
+      f̄(x) = Σ(xj × fj(x))
+    variables:
+      xi: "Frequency of strategy/phenotype i"
+      fi(x): "Fitness (payoff) of strategy i"
+      f̄(x): "Mean fitness of the population"
+    description: "Describes frequency dynamics of competing strategies. Successful strategies increase in frequency; ESS (evolutionarily stable strategy) is a stable fixed point."
+
+  - model_id: "BIO_MODEL_023"
+    model_name: "Reaction-Diffusion (Fisher-KPP)"
+    model_type: "Partial Differential Equation"
+    model_domain: "BIO_SB"
+    equations: |
+      ∂u/∂t = D × ∂²u/∂x² + r × u × (1 − u/K)
+    variables:
+      u: "Population density at position x and time t"
+      D: "Diffusion coefficient (spatial spread rate)"
+      r: "Intrinsic growth rate"
+      K: "Carrying capacity"
+    description: "Describes spatial spread of a population with diffusion and logistic growth. Wave front advances at speed v = 2×sqrt(rD). Fisher-Kolmogorov equation."
+
+  - model_id: "BIO_MODEL_024"
+    model_name: "Viral Infection Dynamics Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dT/dt = λ − d×T − β×T×V
+      dI/dt = β×T×V − δ×I
+      dV/dt = p×I − c×V
+    variables:
+      T: "Uninfected target cells"
+      I: "Infected cells"
+      V: "Free virus concentration"
+      λ: "Cell production rate"
+      d: "Cell death rate"
+      β: "Infection rate"
+      δ: "Infected cell death rate"
+      p: "Virus production rate per cell"
+      c: "Virus clearance rate"
+    description: "HIV/HEP C viral dynamics model. Describes acute infection peak and set-point. Basic reproduction number R0 = β×λ×p / (d×δ×c)."
+
+  - model_id: "BIO_MODEL_025"
+    model_name: "Two-Compartment Pharmacokinetic Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_PK"
+    equations: |
+      dC1/dt = −k12×C1 + k21×C2 − k10×C1
+      dC2/dt = k12×C1 − k21×C2
+      C(t) = A×e^(−αt) + B×e^(−βt)
+    variables:
+      C1: "Central compartment (blood/plasma) concentration"
+      C2: "Peripheral compartment concentration"
+      k12: "Rate constant from central to peripheral"
+      k21: "Rate constant from peripheral to central"
+      k10: "Elimination rate constant from central"
+      A, B: "Mixing coefficients"
+      α: "Distribution phase hybrid rate constant"
+      β: "Elimination phase hybrid rate constant"
+    description: "Biexponential decay: rapid distribution phase (α) followed by slower elimination (β). Required for drugs with significant tissue distribution."
+
+  - model_id: "BIO_MODEL_026"
+    model_name: "Metabolic Pathway Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dS/dt = v_in − v1
+      dv1/dt = k1×E1×S/(Km1+S) − k2×E2×P1/(Km2+P1)
+      dP/dt = v3 − v_out
+    variables:
+      S: "Substrate concentration"
+      P: "Product concentration"
+      v_in: "Input flux"
+      v_out: "Output flux"
+      E1, E2: "Enzyme concentrations"
+      k1, k2: "Catalytic rate constants"
+      Km1, Km2: "Michaelis constants"
+    description: "Simplified metabolic pathway: substrate → intermediate → product. Enzyme kinetics follow Michaelis-Menten. Basis for metabolic control analysis."
+
+  - model_id: "BIO_MODEL_027"
+    model_name: "Gene Expression Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dmRNA/dt = α − γ_m × mRNA
+      dProtein/dt = k_tl × mRNA − γ_p × Protein
+    variables:
+      mRNA: "Messenger RNA concentration"
+      Protein: "Protein concentration"
+      α: "Transcription rate"
+      γ_m: "mRNA degradation rate constant"
+      k_tl: "Translation rate constant"
+      γ_p: "Protein degradation rate constant"
+    description: "Two-step gene expression: transcription (DNA → mRNA) and translation (mRNA → protein). Both mRNA and protein degrade at first-order rates."
+
+  - model_id: "BIO_MODEL_028"
+    model_name: "Goldbeter-Koshland Ultrasensitivity"
+    model_type: "Zero-Order Ultrasensitivity"
+    model_domain: "BIO_SB"
+    equations: |
+      dz/dt = V1/(1 + (Z/Km1)^n) − V2/(1 + (Kd/Z)^m)
+      (at steady state for large enzyme concentrations)
+    variables:
+      Z: "Concentration of modified enzyme (e.g., phosphorylated)"
+      V1: "Kinase catalytic rate"
+      V2: "Phosphatase catalytic rate"
+      Km1: "Michaelis constant for kinase"
+      Kd: "Dissociation constant for phosphatase"
+      n, m: "Hill coefficients for kinase and phosphatase"
+    description: "Ultrasensitive phosphorylation cycle in zero-order regime (saturating enzymes). Produces a sigmoidal, switch-like response with arbitrarily steep slope."
+
+  - model_id: "BIO_MODEL_029"
+    model_name: "Quorum Sensing Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      d[A]/dt = k_syn × f(A) − k_dec × [A] − k_bind × [AR] + k_release × [AR]
+      d[AR]/dt = k_bind × [A] × R − k_release × [AR]
+      dR/dt = k_prod × g([AR]) − k_deg × R
+    variables:
+      [A]: "Autoinducer concentration"
+      [AR]: "Autoinducer-receptor complex"
+      R: "Receptor/regulatory protein"
+      k_syn: "Autoinducer synthesis rate"
+      k_dec: "Autoinducer decay rate"
+      k_bind, k_release: "Binding and dissociation rates"
+      k_prod: "Target gene production rate"
+    description: "Bacterial cell-cell communication. Low cell density: low [A], no coordinated gene expression. High density: [A] accumulates, triggers collective behavior (bioluminescence, virulence, biofilm)."
+
+  - model_id: "BIO_MODEL_030"
+    model_name: "Lotka-Volterra Mutualism Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN1/dt = r1 × N1 × (1 + α12 × N2 / K2) × (1 − N1/K1)
+      dN2/dt = r2 × N2 × (1 + α21 × N1 / K1) × (1 − N2/K2)
+    variables:
+      N1, N2: "Population sizes of mutualistic species 1 and 2"
+      r1, r2: "Intrinsic growth rates"
+      K1, K2: "Carrying capacities in absence of partner"
+      α12, α21: "Mutualistic benefit coefficients"
+    description: "Two species benefit each other (e.g., pollinators-plants, rhizobia-legumes). Growth is enhanced by the partner's presence. Without saturation, unbounded growth."
+
+models:
+  - model_id: "BIO_MODEL_001"
+    model_name: "SIR Epidemiological Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β × S × I / N
+      dI/dt = β × S × I / N − γ × I
+      dR/dt = γ × I
+      S + I + R = N  (population conservation)
+    variables:
+      S: "Susceptible individuals"
+      I: "Infectious individuals"
+      R: "Recovered/removed individuals"
+      N: "Total population size"
+      β: "Transmission rate"
+      γ: "Recovery rate"
+      R0: "Basic reproduction number = β/γ"
+    description: "Foundational compartmental epidemic model (Kermack & McKendrick, 1927). Assumes homogeneous mixing and permanent immunity after recovery."
+
+  - model_id: "BIO_MODEL_002"
+    model_name: "SEIR Epidemiological Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β × S × I / N
+      dE/dt = β × S × I / N − σ × E
+      dI/dt = σ × E − γ × I
+      dR/dt = γ × I
+      S + E + I + R = N
+    variables:
+      S: "Susceptible"
+      E: "Exposed (latent/incubating)"
+      I: "Infectious"
+      R: "Recovered"
+      σ: "Inverse of latent period"
+      β: "Transmission rate"
+      γ: "Recovery rate"
+    description: "SEIR adds an Exposed compartment for the incubation period. Delays the epidemic peak and produces larger total attack rates compared to SIR."
+
+  - model_id: "BIO_MODEL_003"
+    model_name: "Lotka-Volterra Predator-Prey Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dx/dt = α × x − β × x × y
+      dy/dt = δ × x × y − γ × y
+    variables:
+      x: "Prey population density"
+      y: "Predator population density"
+      α: "Prey intrinsic growth rate"
+      β: "Predation encounter rate"
+      δ: "Conversion efficiency (prey → predator offspring)"
+      γ: "Predator mortality rate"
+    description: "Classic oscillatory model (Lotka 1925, Volterra 1926). Closed orbits around a neutrally stable center. Prey peak precedes predator peak by ~quarter cycle."
+
+  - model_id: "BIO_MODEL_004"
+    model_name: "One-Compartment Pharmacokinetic Model"
+    model_type: "Exponential Decay / ODE"
+    model_domain: "BIO_PK"
+    equations: |
+      dC/dt = −k × C
+      C(t) = C0 × e^(−kt)
+      AUC = C0 / k = Dose / CL
+    variables:
+      C: "Plasma drug concentration"
+      C0: "Initial concentration"
+      k: "Elimination rate constant"
+      Dose: "IV bolus dose"
+      V: "Volume of distribution"
+      CL: "Clearance"
+    description: "Simplest PK model: body is one homogeneous compartment. Drug distributes instantly and eliminates by first-order kinetics. C(t) is monoexponential."
+
+  - model_id: "BIO_MODEL_005"
+    model_name: "Emax Pharmacodynamic Model"
+    model_type: "Hyperbolic / Sigmoidal Response"
+    model_domain: "BIO_PD"
+    equations: |
+      E = (Emax × C) / (EC50 + C)
+      (Emax with Hill coefficient n):
+      E = (Emax × C^n) / (EC50^n + C^n)
+    variables:
+      E: "Drug effect magnitude"
+      Emax: "Maximum possible effect"
+      C: "Drug concentration"
+      EC50: "Concentration producing 50% of Emax"
+      n: "Hill coefficient (n=1: hyperbolic; n>1: sigmoidal)"
+    description: "Standard PD model describing relationship between drug concentration and pharmacological effect. EC50 measures potency; Emax measures efficacy."
+
+  - model_id: "BIO_MODEL_006"
+    model_name: "Competitive Antagonism (Schild Equation)"
+    model_type: "Pharmacodynamic Model"
+    model_domain: "BIO_PD"
+    equations: |
+      E = Emax × C^n / (EC50_app^n + C^n)
+      EC50_app = EC50 × (1 + [B]/KB)
+      log(DR − 1) = log[B] − log(KA)
+      where DR = EC50_app / EC50
+    variables:
+      E: "Effect in presence of antagonist"
+      Emax: "Maximum effect"
+      C: "Agonist concentration"
+      EC50: "Agonist EC50 without antagonist"
+      [B]: "Antagonist concentration"
+      KB: "Antagonist dissociation constant"
+      DR: "Dose ratio"
+    description: "Surmountable competitive antagonism: antagonist increases apparent EC50 proportionally to [B]/KB. Schild plot (log(DR−1) vs log[B]) has unit slope."
+
+  - model_id: "BIO_MODEL_007"
+    model_name: "Repressilator Genetic Oscillator"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dmi/dt = α / (1 + pj^n) − δm × mi
+      dpi/dt = δp × mi − δp × pi
+      (j = i−1 modulo 3; i ∈ {lacI, tetR, cI})
+    variables:
+      mi: "mRNA concentration of gene i"
+      pi: "Protein concentration of gene i"
+      α: "Maximal transcription rate"
+      n: "Hill coefficient (cooperativity of repression)"
+      δm: "mRNA degradation/dilution rate"
+      δp: "Protein degradation/dilution rate"
+    description: "Synthetic 3-gene ring oscillator (Elowitz & Leibler, Nature 2000): LacI represses tetR, tetR represses cI, cI represses lacI. Produces sustained ~150 min oscillations in E. coli."
+
+  - model_id: "BIO_MODEL_008"
+    model_name: "Goldman-Hodgkin-Katz Membrane Potential"
+    model_type: "Steady-State Electrochemical Equation"
+    model_domain: "BIO_BP"
+    equations: |
+      Vm = (RT/F) × ln((P_K×[K+]out + P_Na×[Na+]out + P_Cl×[Cl−]in) / (P_K×[K+]in + P_Na×[Na+]in + P_Cl×[Cl−]out))
+    variables:
+      Vm: "Membrane potential"
+      R: "Gas constant (8.314 J/mol·K)"
+      T: "Temperature (K)"
+      F: "Faraday constant (96,485 C/mol)"
+      P_K, P_Na, P_Cl: "Relative permeabilities"
+      [ion]out, [ion]in: "Extracellular/intracellular ion concentrations"
+    description: "Generalized Nernst equation for multiple permeant ions. Resting Vm (~−70 mV) dominated by K+; AP peak (~+30 mV) by Na+."
+
+  - model_id: "BIO_MODEL_009"
+    model_name: "Michaelis-Menten Enzyme Kinetics"
+    model_type: "Rate Equation"
+    model_domain: "BIO_SB"
+    equations: |
+      v = (Vmax × [S]) / (Km + [S])
+      Lineweaver-Burk: 1/v = (Km/Vmax)×(1/[S]) + 1/Vmax
+      Hanes-Woolf: [S]/v = [S]/Vmax + Km/Vmax
+    variables:
+      v: "Initial reaction velocity"
+      Vmax: "Maximum velocity (= kcat × [E]total)"
+      [S]: "Substrate concentration"
+      Km: "Michaelis constant (= (k−1 + kcat)/k1)"
+      kcat: "Turnover number (molecules per enzyme per second)"
+    description: "Briggs-Haldane steady-state enzyme kinetics. Km approximates [S] at half-saturation. Lower Km = higher enzyme-substrate affinity."
+
+  - model_id: "BIO_MODEL_010"
+    model_name: "Synthetic Toggle Switch"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      du/dt = α1 / (1 + v^β) − u
+      dv/dt = α2 / (1 + u^γ) − v
+    variables:
+      u: "Protein 1 (repressor of gene 2)"
+      v: "Protein 2 (repressor of gene 1)"
+      α1, α2: "Maximal expression rates"
+      β, γ: "Cooperativity of repression"
+    description: "Bistable switch (Gardner et al., Nature 2000). Two mutually repressing genes produce two stable steady states (gene 1 ON/gene 2 OFF and vice versa). Bistability enables cellular memory."
+
+  - model_id: "BIO_MODEL_011"
+    model_name: "Rosenzweig-MacArthur Predator-Prey"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN/dt = r × N × (1 − N/K) − (a×N / (1 + a×h×N)) × P
+      dP/dt = e × (a×N / (1 + a×h×N)) × P − m × P
+    variables:
+      N: "Prey density"
+      P: "Predator density"
+      r: "Prey intrinsic growth rate"
+      K: "Prey carrying capacity"
+      a: "Attack rate"
+      h: "Handling time per prey (Holling Type II)"
+      e: "Conversion efficiency"
+      m: "Predator mortality"
+    description: "Extended Lotka-Volterra: logistic prey growth + saturating Holling Type II functional response. Paradox of enrichment: increasing K destabilizes equilibrium → limit cycles."
+
+  - model_id: "BIO_MODEL_012"
+    model_name: "Hodgkin-Huxley Action Potential"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_BP"
+    equations: |
+      Cm × dV/dt = −gNa×m³h×(V−ENa) − gK×n⁴×(V−EK) − gL×(V−EL) + I_inj
+      dm/dt = αm(V)(1−m) − βm(V)×m
+      dh/dt = αh(V)(1−h) − βh(V)×h
+      dn/dt = αn(V)(1−n) − βn(V)×n
+    variables:
+      V: "Membrane potential"
+      m: "Na+ channel activation (fast)"
+      h: "Na+ channel inactivation (slow)"
+      n: "K+ channel activation (delayed)"
+      gNa, gK, gL: "Maximum conductances"
+      ENa, EK, EL: "Nernst potentials"
+      αi(V), βi(V): "Voltage-dependent rate functions"
+    description: "Biophysical squid giant axon model (Hodgkin & Huxley, 1952, Nobel Prize). Four coupled ODEs produce all-or-none spike, refractory period, and repetitive firing."
+
+  - model_id: "BIO_MODEL_013"
+    model_name: "Nicholson-Bailey Host-Parasitoid"
+    model_type: "Discrete-Time Difference Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      H(t+1) = R × H(t) × e^(−a × P(t))
+      P(t+1) = k × H(t) × (1 − e^(−a × P(t)))
+    variables:
+      H(t): "Host population at generation t"
+      P(t): "Parasitoid population at generation t"
+      R: "Host reproduction rate"
+      a: "Parasitoid searching efficiency"
+      k: "Average parasitoid offspring per parasitized host"
+    description: "Discrete-time host-parasitoid model (Nicholson & Bailey, 1935). Produces unstable divergent oscillations → both species go extinct. Classic demonstration of instability in simple consumer-resource models."
+
+  - model_id: "BIO_MODEL_014"
+    model_name: "Allee Effect (Critical Population Threshold)"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN/dt = r × N × (1 − N/K) × (N/A − 1)
+      Alternative form: dN/dt = r×N × (1 − N/K) × (1 + c×N) / (1 + d×N²)
+    variables:
+      N: "Population size"
+      r: "Intrinsic growth rate"
+      K: "Carrying capacity"
+      A: "Allee threshold (minimum viable population size)"
+      c, d: "Allee effect strength parameters"
+    description: "Positive density dependence at low N: per-capita growth rate increases with N. Below threshold A, population declines to extinction. Above A, grows toward K. Two stable equilibria."
+
+  - model_id: "BIO_MODEL_015"
+    model_name: "Lotka-Volterra Competition Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EVO"
+    equations: |
+      dN1/dt = r1 × N1 × (1 − (N1 + α12×N2) / K1)
+      dN2/dt = r2 × N2 × (1 − (N2 + α21×N1) / K2)
+    variables:
+      N1, N2: "Population densities of competitors 1 and 2"
+      r1, r2: "Intrinsic growth rates"
+      K1, K2: "Carrying capacities"
+      α12: "Competitive effect of species 2 on species 1"
+      α21: "Competitive effect of species 1 on species 2"
+    description: "Two species compete for shared resources. Four outcomes: exclusion of species 1, exclusion of species 2, unstable coexistence, or stable coexistence."
+
+  - model_id: "BIO_MODEL_016"
+    model_name: "SEIS Epidemic Model"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_EPI"
+    equations: |
+      dS/dt = −β×S×I/N + γ×R
+      dE/dt = β×S×I/N − σ×E
+      dI/dt = σ×E − γ×I
+      dR/dt = γ×I − γ×R
+      S + E + I + R = N
+    variables:
+      S: "Susceptible"
+      E: "Exposed"
+      I: "Infectious"
+      R: "Recovered (temporary immunity)"
+      β: "Transmission rate"
+      σ: "Inverse of latent period"
+      γ: "Recovery/immunity loss rate"
+    description: "Like SEIR but recovered individuals lose immunity and return to S. Used for diseases with temporary immunity: influenza, malaria, rotavirus."
+
+  - model_id: "BIO_MODEL_017"
+    model_name: "Goodwin Oscillator"
+    model_type: "Ordinary Differential Equations"
+    model_domain: "BIO_SB"
+    equations: |
+      dm/dt = k1 / (1 + z^n) − k2 × m
+      dp/dt = k3 × m − k4 × p
+      dz/dt = k5 × p − k6 × z
+    variables:
+      m: "mRNA concentration"
+      p: "Protein concentration

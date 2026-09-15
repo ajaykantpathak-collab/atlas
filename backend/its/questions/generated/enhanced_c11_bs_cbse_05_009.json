@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_009",
+   "title": "c11_bs_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define e-Procurement and state the two specific mechanisms it uses for B2B transactions as per NCERT.",
+     "a": "e-Procurement involves internet-based sales transactions between business firms using (1) reverse auctions — where a single buyer posts requirements and multiple sellers bid competitively downward, and (2) digital marketplaces — where multiple buyers and multiple sellers trade on a common platform. A wrong answer that describes e-Procurement as \"online shopping for businesses\" confuses it with B2C e-Commerce and misses the competitive bidding mechanism unique to procurement.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"e-Bidding and e-Auction are the same thing — both just mean bidding online.\" Explain why this is incorrect by distinguishing the two mechanisms with one example each.",
+     "a": "e-Bidding typically refers to forward auctions where buyers bid upward for goods/services (e.g., airline tickets on \"Quote your price\" sites), while e-Auction in procurement context often means reverse auctions where sellers bid downward to win a buyer's contract (e.g., government e-tendering on GeM portal). The student's error reveals confusion between price discovery direction — upward for consumer bidding vs. downward for seller competition — which determines who holds market power in the transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: A furniture manufacturer wants to source timber from multiple suppliers across states. They need real-time price comparison, automated purchase orders, and delivery tracking. Which e-business application fits best, and which mechanism (reverse auction or digital marketplace) should they use if they want suppliers to compete on price for a large recurring order?",
+     "a": "e-Procurement is the correct application. For a large recurring order where the buyer wants suppliers to compete on price, a reverse auction is appropriate — the manufacturer posts specifications and quantity, and suppliers bid downward. A digital marketplace would be better for discovering new suppliers or smaller ad-hoc purchases. The student must link the business need (recurring, high-volume, price-sensitive) to the mechanism design (reverse auction creates seller competition).",
+     "self_check": true
+    },
+    {
+     "q": "Compare e-Delivery and e-Trading on three dimensions: (a) nature of product delivered, (b) settlement finality, (c) regulatory oversight. Use Indian examples.",
+     "a": "(a) e-Delivery handles digitizable products/services (software, e-books, consulting) delivered electronically; e-Trading handles financial instruments (shares, bonds, derivatives) where delivery is dematerialised securities transfer. (b) e-Delivery settlement completes upon download/access; e-Trading follows T+1 settlement cycle via clearing corporations. (c) e-Delivery governed by IT Act 2000, Consumer Protection Act; e-Trading regulated by SEBI (LODR), SCRA. A weak answer conflates \"digital delivery\" with \"securities settlement\" and misses the distinct regulatory frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "\"e-Communication/e-Promotion is just online advertising — it doesn't create real business value like e-Procurement or e-Trading.\" Evaluate this statement using two arguments from the NCERT text and one counter-argument from business practice.",
+     "a": "NCERT lists e-Communication/e-Promotion as including email, online catalogues, banners, pop-ups, opinion polls, customer surveys, and video conferencing — these enable customer acquisition, feedback loops, and virtual meetings that reduce travel costs. Counter-argument: In B2B, a video conference closing a ₹50 crore deal creates more immediate value than a reverse auction saving 2% on raw materials. The statement undervalues information exchange and relationship-building as value-creation activities, confusing \"transactional\" with \"strategic\" value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical e-business application workflow for a new platform \"AgriConnect\" that helps small farmers sell directly to urban retailers. Specify: (a) which two e-business applications it combines, (b) the mechanism for price discovery, (c) how delivery and payment are handled, (d) one risk unique to this model.",
+     "a": "(a) Combines e-Procurement (retailers as buyers sourcing from farmers) and e-Commerce (B2C-like interface for farmers). (b) Reverse auction for bulk seasonal produce; fixed-price listings for perishables. (c) e-Delivery for logistics coordination (cold-chain tracking); payment via UPI escrow released on quality verification. (d) Quality asymmetry risk — farmers may grade produce optimistically; retailers cannot physically inspect before bidding. A good answer integrates multiple applications and identifies a context-specific risk, not generic \"internet fraud.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

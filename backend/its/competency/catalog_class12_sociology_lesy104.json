@@ -1,0 +1,391 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 4,
+ "chapter_title": "The Market as a Social Institution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy104.1",
+   "title": "Sociological versus Economic Perspectives on Markets",
+   "section": "4.1 Sociological Perspectives on Markets and the Economy",
+   "definition": "Economics, born as eighteenth-century political economy with Adam Smith's Wealth of Nations, treats the market as a separate sphere following its own laws, where millions of self-interested exchanges automatically build an ordered system - the famous invisible hand. Sociology answers that markets are culturally specific social institutions, controlled by particular groups and tied to other structures, a position captured by saying economies are socially embedded.",
+   "formula": "economic_view = market as separate self_lawed sphere ; sociological_view = economies socially embedded in culture_and_groups",
+   "key_idea": "Smith's individuals never intended to build a system, yet their transactions produce one; sociologists insist that same system cannot be understood apart from caste, kinship and community.",
+   "textbook_ref": "lesy104.txt, section 4.1 (Adam Smith box, political economy, embeddedness argument)",
+   "question_patterns": [
+    "what is meant by the phrase invisible hand in Adam Smith's account of the market?",
+    "how does a sociological perspective on markets differ from an economic one?",
+    "what do sociologists convey by saying that economies are socially embedded?",
+    "why is the market called a social institution in Class 12 sociology?",
+    "which book made Adam Smith the fountainhead of contemporary economic thought?",
+    "why did early political economy leave out the social and political context of markets?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the Smithian claim",
+     "explain": "individual exchanges or transactions automatically create a functioning ordered system although no participant intended one"
+    },
+    {
+     "step": 2,
+     "action": "check the sociological counter",
+     "explain": "markets are constructed in culturally specific ways, organised by particular social groups or classes, and connected to other institutions and processes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who wrote the Wealth of Nations: Adam Smith or Karl Marx?",
+     "a": "Adam Smith"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.2",
+   "title": "The Weekly Tribal Haat and Periodic Markets",
+   "section": "4.1 Sociological Perspectives - weekly market example",
+   "definition": "In agrarian societies the periodic market is a central institution: the weekly haat gathers villagers to sell agricultural and forest produce, buy salt, implements and trinkets, and just as importantly to meet kin, arrange marriages and exchange gossip. In the Bastar study, buyers are mostly adivasis and sellers mainly caste Hindus, forest officials transact with tribal labourers, and colonial opening-up of tribal areas brought traders and moneylenders whose entry impoverished many adivasis who lost their land.",
+   "formula": "haat_roles = selling_produce + buying_essentials + social_intercourse ; bastar_pattern = adivasi_buyers + hindu_seller_traders + forest_officials",
+   "key_idea": "The haat links village, regional and national economies, but incorporation into wider markets after colonial pacification often ran against local people.",
+   "textbook_ref": "lesy104.txt, weekly market and Dhorai village Box 4.1 (Gell's Bastar market study, goods exchanged, tribal labour market)",
+   "question_patterns": [
+    "in what ways is a weekly village market a social institution?",
+    "why do many visitors say the primary reason to come to the haat is social?",
+    "who are the main buyers and sellers at the Bastar weekly market study?",
+    "how did colonial opening of tribal areas change the weekly market economy?",
+    "which goods dominate exchange in the tribal market of Dhorai village?",
+    "how do periodic markets link local economies to the wider national economy?",
+    "what consequences followed the entry of outside traders and moneylenders for adivasis?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three functions of the haat",
+     "explain": "exchange of goods, purchase of essentials, and social intercourse such as meeting kin and arranging marriages all happen at the weekly market"
+    },
+    {
+     "step": 2,
+     "action": "check the colonial transformation",
+     "explain": "roads and pacification opened tribal areas so forest produce flowed out, money and new goods entered, and outside traders and moneylenders impoverished many adivasis"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The weekly tribal market is called a what: haat or mall?",
+     "a": "haat"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.3",
+   "title": "Caste-based Trading Networks, Hundi and Business Communities",
+   "section": "4.1 Caste-based markets and trading networks / Traditional Business Communities",
+   "definition": "Pre-colonial India was already extensively monetised with sophisticated trading networks, indigenous merchant groups and banking systems; the hundi, a bill of exchange honoured by merchants of the same caste-kin network in distant places, enabled long-distance trade. The Nakarattars of Tamil Nadu ran a caste-based banking system resting on shared reputation and reserve deposits, and traditional business communities include Vaisya-claiming groups like banias as well as Parsis, Sindhis, Bohras and Jains, while the marginalised Banjara tribals once controlled the salt trade. Because businessmen trust their own community or kin, caste monopoly arises in particular trades.",
+   "formula": "network_credit = hundi honoured within caste_kin_network ; business_trust = own_community_networks -> caste_monopoly_in_trade",
+   "key_idea": "Trust, not a government central bank, kept Nakarattar banking sound - reputation within caste-defined exchange spheres did that work.",
+   "textbook_ref": "lesy104.txt, pre-colonial monetisation paragraphs, Box 4.2 Nakarattars, traditional business communities section, Activity 4.1",
+   "question_patterns": [
+    "how do caste and kin networks contribute to the success of a business?",
+    "what is a hundi and how did it allow long-distance trade in pre-colonial India?",
+    "how did the Nakarattar banking system work without a central bank?",
+    "name four communities included among India's traditional business communities besides Vaisyas",
+    "why do particular communities come to control particular areas of business such as jewellery or hardware?",
+    "which marginalised tribal group controlled long-distance salt trade in colonial times?",
+    "what does the claim of Vaisya status reveal about upward mobility among trading castes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the credit instrument",
+     "explain": "a hundi issued in one place was honoured by a merchant elsewhere because trade ran through caste and kinship networks"
+    },
+    {
+     "step": 2,
+     "action": "check the trust mechanism",
+     "explain": "businessmen prefer their own community or kin group, which creates caste monopoly within certain arenas of business"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A bill of exchange honoured within a caste-kin network is called a what?",
+     "a": "hundi"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.4",
+   "title": "Colonialism and the Emergence of New Markets",
+   "section": "4.1 Colonialism and the Emergence of New Markets",
+   "definition": "Colonialism disrupted production, trade and agriculture - the handloom industry died under cheap manufactured textiles from England - and turned India from a major exporter of manufactures into a supplier of raw materials and a consumer of finished goods for industrialising England. Yet the expanding market also gave openings that some communities seized: the Marwaris, absent from prominence before, rose in colonial cities like Calcutta through trade and moneylending built on extensive social networks, then transformed into modern industrialists, and today control more of India's industry than any other community.",
+   "formula": "colonial_shift = exporter_of_manufactures -> raw_material_supplier + consumer_of_goods ; marwari_path = migrant_traders -> merchant_bankers -> industrialists",
+   "key_idea": "New communities like the Marwaris, represented by families such as the Birlas, show how the social context of trust and networks shapes economic opportunity.",
+   "textbook_ref": "lesy104.txt, Colonialism and the Emergence of New Markets (handloom demise, Marwari rise, Hardgrove reference)",
+   "question_patterns": [
+    "in what ways did the Indian economy change after the coming of colonialism?",
+    "which Indian industry declined when cheap English textiles flooded the market?",
+    "trace the Marwari journey from migrant traders to industrialists under colonialism",
+    "why is the colonial period called the turning point for India's link with the world capitalist economy?",
+    "how did Marwari social networks support their banking and moneylending success?",
+    "which industrial families exemplify Marwari prominence in the chapter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the colonial reversal",
+     "explain": "before colonisation India exported manufactures; after, it supplied raw materials and agricultural products while consuming British goods"
+    },
+    {
+     "step": 2,
+     "action": "check the community ascent",
+     "explain": "the Marwaris exploited colonial city opportunities, acted as bankers aiding British commercial expansion, and later became leading industrialists"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Indian industry died under cheap English textiles: handlooms or steel?",
+     "a": "handlooms"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.5",
+   "title": "Capitalism, Wage Labour and Surplus Value",
+   "section": "4.2 Understanding Capitalism as a Social System",
+   "definition": "Karl Marx, a founder of sociology and critic of capitalism, read it as commodity production for the market through wage labour; every mode of production carries relations of production that generate a class structure, so capitalism creates capitalists who own the means of production and workers who must sell their labour power. Because wages fall short of the value workers actually produce, the capitalist extracts surplus value - proof for Marx that the economy is not things in markets but relations between people connected through production.",
+   "formula": "surplus_value = value_produced_by_workers - wage_bill_paid ; classes = capitalists_owners + workers_sellers_of_labour",
+   "key_idea": "Labour itself becomes a commodity in capitalism, and profit is the gap between what labour produces and what labour is paid.",
+   "textbook_ref": "lesy104.txt, section 4.2 Understanding Capitalism as a Social System (Marx, commodity production, two classes, surplus value)",
+   "question_patterns": [
+    "how does Marx understand capitalism as a system of commodity production?",
+    "workers produce goods worth 5000 rupees and receive 3000 rupees in wages - compute the surplus value extracted",
+    "name the two basic classes of the capitalist mode of production and what each owns or sells",
+    "why does labour itself become a commodity under capitalism?",
+    "what does Marx mean by relations of production giving rise to a class structure?",
+    "how do capitalists profit by paying workers less than the value they produce?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the total wages paid from the value the workers produced",
+     "explain": "wages fall short of the produced value, and the difference is what the capitalist appropriates",
+     "compute": "surplus_extracted = value_produced_by_workers - wage_bill_paid"
+    },
+    {
+     "step": 2,
+     "action": "express the appropriation as a percentage of the produced value",
+     "explain": "the rate of surplus shows how much of each rupee of output the workers do not receive",
+     "compute": "surplus_rate = surplus_extracted / value_produced_by_workers * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In capitalism, workers must sell their what: labour power or land?",
+     "a": "labour power"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.6",
+   "title": "Commodification, Consumption and Status Symbols",
+   "section": "4.2 Commoditisation and Consumption",
+   "definition": "Commodification occurs when things once outside trade become commodities - labour and skills, bottled water barely fifteen years old, education in private schools and coaching classes, matchmaking through marriage bureaus and websites, even kidneys sold by the poor. In capitalist society consumption also carries symbolic meaning: Weber coined status symbol for the close tie between the goods people buy - the phone brand or car model of the Indian middle class - and their social standing, and companies sell by attaching status and cultural meanings to products.",
+   "formula": "commodification = non_market_things -> commodities ; status_symbol = weber's tie between goods_bought and social_standing",
+   "key_idea": "A commodity need not be a thing - services and skills count too - and consumption communicates socio-economic status and cultural preference.",
+   "textbook_ref": "lesy104.txt, Commoditisation and Consumption (bottled water Activity 4.2, kidney controversy, marriage bureaus, Weber status symbol)",
+   "question_patterns": [
+    "explain the meaning of commoditisation with the help of the bottled water example",
+    "why is the sale of kidneys by the poor called a controversy of commodification?",
+    "what is a status symbol and who coined the term?",
+    "how do marriage bureaus and personality development institutes show services becoming commodities?",
+    "how does consumption create and communicate social distinctions in modern societies?",
+    "which goods act as status markers among the Indian middle class today?",
+    "name one thing that was not a commodity earlier but is one now, and one that may become one"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the commodification definition",
+     "explain": "things or processes previously outside market exchange become commodities, whether objects like bottled water or services like education and matchmaking"
+    },
+    {
+     "step": 2,
+     "action": "check the symbolic side",
+     "explain": "Weber's status symbol links consumption to social standing, so buying and displaying goods conveys socio-economic status and cultural taste"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Things once outside trade becoming commodities is called what?",
+     "a": "commodification"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.7",
+   "title": "Globalisation: Interlinked Markets and Culture as Commodity",
+   "section": "4.3 Globalisation - Interlinking of Local, Regional, National and International Markets",
+   "definition": "Since the late 1980s globalisation has interlinked economies, cultures and politics through rising international movement of commodities, money, information and people, carried by new technology in computers, telecom and transport. Integrated markets transmit shocks worldwide - a US slump can hit Indian software and BPO jobs, as after 9/11 - and even culture enters trade: yoga and ayurveda are marketed in the West, and the Pushkar camel fair, still a local social and economic event drawing about 200,000 people and some 50,000 camels and cattle, is itself sold internationally as a tourist product timed to Kartik Purnima.",
+   "formula": "globalisation_trends = movement_of_commodities_money_information_people + technology ; market_integration -> distant_shocks_transmitted",
+   "key_idea": "When the Pushkar fair becomes a product in the tourism market, a market itself turns into a commodity - spirituality, tradition and images included.",
+   "textbook_ref": "lesy104.txt, section 4.3 Globalisation, Box 4.3 Pushkar fair (Lonely Planet passages), software and BPO example",
+   "question_patterns": [
+    "what are some of the processes included under the label globalisation?",
+    "how can a market slump in one country cost jobs in another, as with Indian software after 9/11?",
+    "how does the Pushkar fair show a market itself becoming a commodity for tourism?",
+    "which Indian knowledge systems are marketed in the West as commodities of spirituality?",
+    "name the technologies that allow the global movement of goods, money, information and people",
+    "why do pilgrims, camel traders and foreign tourists all meet at Pushkar around Kartik Purnima?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the integration claim",
+     "explain": "extension and integration of markets means changes in one part of the globe profoundly affect markets far away"
+    },
+    {
+     "step": 2,
+     "action": "check the culture-commodity claim",
+     "explain": "products, services and cultural elements once outside the market, such as spirituality, tourism fairs and images, are drawn into new circuits of exchange"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Since the late 1980s, economies, cultures and politics have been interlinked by what process?",
+     "a": "globalisation"
+    }
+   ]
+  },
+  {
+   "id": "lesy104.8",
+   "title": "Liberalisation: Support Prices, Subsidies and Farmer Income",
+   "section": "4.3 Debate on Liberalisation - Market versus State",
+   "definition": "Liberalisation, begun in the late 1980s, covers privatisation of public sector firms, loosened regulation of capital, labour and trade, lower tariffs and import duties, and easier entry for foreign companies - in one word, marketisation. Earlier, support prices at which the government agreed to buy farm produce guaranteed a minimum income, and subsidies on inputs like fertiliser and diesel lowered farming costs; liberalisation reduces or withdraws both, exposing Indian farmers and small manufacturers to global competition, shifting jobs from organised to unorganised sectors, and leaving the net impact of reform hotly debated.",
+   "formula": "protected_income = harvest_quintals * support_price ; income_gap = protected_income - open_market_income",
+   "key_idea": "Support prices ensure a minimum income because the government buys at them; withdraw them, and the gap between guaranteed and open-market earnings falls on the farmer.",
+   "textbook_ref": "lesy104.txt, Debate on Liberalisation - Market versus State (privatisation, deregulation, tariffs, support prices and subsidies paragraphs)",
+   "question_patterns": [
+    "what is meant by liberalisation and which policies does it include?",
+    "a farmer harvests 20 quintals and the support price is 2000 rupees per quintal while the open market pays 1650 - find the income gap protection gives",
+    "how do support prices help ensure a minimum income for farmers?",
+    "how do subsidies lower the cost of farming inputs like fertilisers and diesel?",
+    "which sectors gain and which lose from access to the global market under liberalisation?",
+    "why is marketisation said to use market processes instead of government policy?",
+    "how has privatisation of public sector firms affected organised sector employment?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the harvest by the government support price",
+     "explain": "the state buys at the support price, so this product is the guaranteed minimum income",
+     "compute": "protected_income = harvest_quintals * support_price"
+    },
+    {
+     "step": 2,
+     "action": "multiply the same harvest by the open market price",
+     "explain": "without protection the farmer sells at the going market rate",
+     "compute": "market_income = harvest_quintals * market_price"
+    },
+    {
+     "step": 3,
+     "action": "subtract the market income from the protected income",
+     "explain": "the difference measures the income cushion that support prices provide and liberalisation would withdraw",
+     "compute": "income_gap = protected_income - market_income"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The government buying farm produce at guaranteed prices is called what: support price or disinvestment?",
+     "a": "support price"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy104.we1",
+   "concept_id": "lesy104.5",
+   "problem": "Workers in a cloth unit produce goods worth 5000 rupees in a week and are paid a total wage bill of 3000 rupees. Find the surplus value extracted and its rate.",
+   "given": {
+    "value_produced_by_workers": 5000,
+    "wage_bill_paid": 3000
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "subtract the wage bill from the value produced",
+     "compute": "surplus_extracted = 5000 - 3000"
+    },
+    {
+     "step": 2,
+     "action": "divide the surplus by the produced value and scale to a percentage",
+     "compute": "surplus_rate = surplus_extracted / 5000 * 100"
+    }
+   ],
+   "answer": "surplus_extracted = 2000 rupees and surplus_rate = 40 per cent - two-fifths of the value workers create goes to the capitalist"
+  },
+  {
+   "id": "lesy104.we2",
+   "concept_id": "lesy104.8",
+   "problem": "A farmer grows 20 quintals of paddy. The government support price is 2000 rupees per quintal while the open market offers 1650 rupees. How much income does the support price protect?",
+   "given": {
+    "harvest_quintals": 20,
+    "support_price": 2000,
+    "market_price": 1650
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the harvest by the support price",
+     "compute": "protected_income = 20 * 2000"
+    },
+    {
+     "step": 2,
+     "action": "multiply the harvest by the market price",
+     "compute": "market_income = 20 * 1650"
+    },
+    {
+     "step": 3,
+     "action": "subtract market income from protected income",
+     "compute": "income_gap = protected_income - market_income"
+    }
+   ],
+   "answer": "protected_income = 40000 rupees against a market income of 33000 rupees, an income_gap of 7000 rupees that support prices guarantee"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy104.ex1",
+   "source_ref": "lesy104.txt chapter-end Questions",
+   "questions": [
+    "What is meant by the phrase invisible hand?",
+    "How does a sociological perspective on markets differ from an economic one?",
+    "In what ways is a market, such as a weekly village market, a social institution?",
+    "How do caste and kin networks contribute to the success of a business?",
+    "In what ways did the Indian economy change after the coming of colonialism?",
+    "Explain the meaning of commoditisation with the help of examples.",
+    "What is a status symbol?",
+    "What are some of the processes included under the label globalisation?",
+    "What is meant by liberalisation?",
+    "In your opinion, will the long term benefits of liberalisation exceed its costs? Give reasons."
+   ]
+  },
+  {
+   "id": "lesy104.ex2",
+   "source_ref": "lesy104.txt Box 4.3 (Pushkar fair) and Activity 4.1",
+   "questions": [
+    "About 200,000 people and 50,000 camels and cattle converge at Pushkar - how many people come per animal?",
+    "Visit your local market area and record which communities control jewellery, kirana and hardware shops; are the businesses hereditary?",
+    "Collect two advertisements and explain how each links its product to a desirable lifestyle or social status."
+   ]
+  }
+ ]
+}

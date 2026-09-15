@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_053",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_053",
+   "title": "c6_math_ch05_053",
+   "questions": [
+    {
+     "q": "In the expression 4a + 7b - 3, what are the three separate terms?",
+     "a": "The terms are 4a, 7b, and -3. A wrong answer (like listing 4, a, 7, b, 3) shows the student confuses individual factors within a term with the terms themselves, which are defined by the operation signs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the number 5 in the term 5y called a \"coefficient\"?",
+     "a": "It is called a coefficient because it represents the multiplier of the variable 'y'. A wrong answer suggests the student thinks it is just a \"number\" or \"constant,\" missing the specific relationship that a coefficient exists only to modify a variable.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the coefficient of the term 'm' in the expression 9n + m - 12.",
+     "a": "The coefficient is 1. Students often answer 0 because they see no number written before 'm'; explaining that 'm' is the same as '1 × m' corrects this.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the expression 6x - 2y + 8. How does the negative sign affect the term containing 'y'?",
+     "a": "The negative sign belongs to the term, making it -2y. A wrong answer (identifying the term as 2y) ignores that the sign preceding a term is part of that term's identity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the expression 3x + 10 if x = 2. Is 10 a constant term or a coefficient? Justify.",
+     "a": "10 is a constant term because it does not have a variable attached to it and its value remains fixed regardless of the value of 'x'. Answering that it is a coefficient reveals a misunderstanding of the definition of constant vs. variable terms.",
+     "self_check": true
+    },
+    {
+     "q": "Create an expression that has three terms, including one constant term, one term with a coefficient of 5, and one term with a coefficient of -2.",
+     "a": "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

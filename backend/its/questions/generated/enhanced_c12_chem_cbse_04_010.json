@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_010",
+   "title": "c12_chem_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the general electronic configuration of actinoid atoms and identify which two orbitals show variable occupancy across the series.",
+     "a": "The general electronic configuration of actinoid atoms is [Rn] 5f¹⁻¹⁴ 6d⁰⁻¹ 7s². The 5f and 6d orbitals show variable occupancy across the series. A wrong answer (e.g., \"only 5f varies\" or \"7s varies\") reveals the student has not grasped that 6d occupancy fluctuates (e.g., Ac: 6d¹7s², Th: 6d²7s², Pa: 5f²6d¹7s², U: 5f³6d¹7s²) due to the very small energy gap between 5f and 6d — unlike lanthanoids where 4f and 5d gaps are larger and 5d occupancy is rare.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why actinoids exhibit a wider range of oxidation states than lanthanoids, referencing orbital energies.",
+     "a": "In actinoids, the 5f, 6d, and 7s orbitals have comparable energies (small ΔE), so electrons from all three can participate in bonding or be lost, giving oxidation states from +3 to +7 (e.g., U: +3, +4, +5, +6). In lanthanoids, the 4f orbitals are deeply buried (much lower energy than 5d/6s), so only 6s² and occasionally one 4f electron are lost, restricting states mainly to +3 (with few +2/+4 exceptions). A wrong answer citing \"larger size of actinoids\" or \"more electrons\" without mentioning orbital energy proximity shows the student memorises the fact but not the quantum mechanical origin.",
+     "self_check": true
+    },
+    {
+     "q": "For the actinoid series, the ionic radius of M³⁺ decreases from Ac³⁺ (111 pm) to Lr³⁺. If the decrease from Ac³⁺ to Pu³⁺ (Z=94) is 12 pm over 5 elements, and from Pu³⁺ to Lr³⁺ (Z=103) is 15 pm over 9 elements, calculate the average contraction per element for each segment and explain which segment shows greater contraction per step.",
+     "a": "Segment 1 (Ac→Pu): 12 pm / 5 steps = 2.4 pm per element. Segment 2 (Pu→Lr): 15 pm / 9 steps = 1.67 pm per element. The early segment (Ac–Pu) shows greater contraction per step. This is because 5f orbitals are initially more diffuse and shield poorly; as they fill, the increasing nuclear charge pulls the electron cloud in more sharply. A wrong answer giving equal or reverse values indicates the student assumes uniform contraction like lanthanoids, missing that actinoid contraction is steeper early on due to poorer 5f shielding compared to 4f.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxidation state trends in the first half (Ac–Pu) vs second half (Am–Lr) of the actinoid series. Why does the maximum oxidation state increase then decrease?",
+     "a": "First half (Ac–Pu): Maximum oxidation state rises from +3 (Ac) to +4 (Th), +5 (Pa), +6 (U), +7 (Np, Pu) because 5f, 6d, 7s electrons are all available for bonding/ionisation as 5f orbitals are still expanding and energetically accessible. Second half (Am–Lr): Maximum oxidation state drops; +3 becomes dominant (Am, Cm, Bk, Cf, Es, Fm, Md, No, Lr) because 5f orbitals contract and become core-like (better shielding, lower energy), making electron removal harder. The turning point at Pu/Np occurs when 5f orbitals become sufficiently contracted to behave like lanthanoid 4f. A wrong answer stating \"oxidation states increase throughout\" or \"all actinoids show +3 only\" reveals failure to link orbital radial extension to chemical behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All actinoids are highly radioactive, so their chemistry cannot be studied.\" Evaluate this statement using half-life data and known chemical studies.",
+     "a": "The statement is false. Early actinoids (Th, Pa, U, Np, Pu) have long half-lives (Th-232: 1.4×10¹⁰ y, U-238: 4.5×10⁹ y) and are available in macroscopic quantities; their chemistry (e.g., UO₂²⁺, Pu⁴⁺ complexes) is well-studied. Only later actinoids (Es, Fm, Md, No, Lr) have very short half-lives (minutes to hours) and exist in microgram/nanogram amounts, limiting chemical investigation. A wrong evaluation treating all actinoids as equally unstudiable shows the student overlooks the half-life gradient across the series and the distinction between \"radioactive\" and \"too radioactive for bulk chemistry\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparison table with four rows that contrasts actinoids and lanthanoids on: (a) orbital involved, (b) shielding effectiveness, (c) oxidation state range, (d) magnetic moment complexity. Fill it with specific values or descriptors.",
+     "a": "| Property | Lanthanoids | Actinoids |\n|---|---|---|\n| Orbital involved | 4f (buried) | 5f (less buried, more radial extension) |\n| Shielding effectiveness | 4f shields 4f moderately | 5f shields 5f poorly → greater contraction |\n| Oxidation state range | Mainly +3; few +2, +4 | +3 to +7; early members show high states |\n| Magnetic moment complexity | Spin-only formula works well (orbital contribution quenched) | Spin-only fails; orbital contribution significant → complex magnetic behaviour |\nA poor answer with vague entries (\"both have f orbitals\", \"both show contraction\") reveals the student cannot extract quantitative/qualitative distinctions from the text and treats the two series as chemically identical.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

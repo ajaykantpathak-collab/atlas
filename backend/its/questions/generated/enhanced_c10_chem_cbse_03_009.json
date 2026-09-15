@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_009",
+   "title": "c10_chem_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the physical state of ionic compounds at room temperature and give one reason based on their structure.",
+     "a": "Ionic compounds are solids at room temperature because their oppositely charged ions are held in a rigid three-dimensional lattice by strong electrostatic forces, requiring high thermal energy to overcome. A wrong answer (e.g., \"they are gases\" or \"weak forces\") reveals the student hasn't connected lattice strength to melting point.",
+     "self_check": true
+    },
+    {
+     "q": "Why does solid NaCl not conduct electricity, but molten NaCl does? Explain in terms of charge carriers.",
+     "a": "In solid NaCl, Na⁺ and Cl⁻ ions are fixed in the lattice and cannot move, so no charge carriers exist; in molten NaCl, the lattice breaks and ions become mobile, allowing them to carry current. A wrong answer (e.g., \"electrons move in molten state\") shows confusion between metallic and ionic conduction.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests solubility of four compounds: NaCl, MgO, CCl₄, and CH₃COONa. Predict which will dissolve in water and which in kerosene. Justify using polarity.",
+     "a": "NaCl and CH₃COONa (ionic) dissolve in water (polar) due to ion-dipole interactions overcoming lattice energy; MgO has very high lattice energy so it's sparingly soluble; CCl₄ (covalent non-polar) dissolves in kerosene (non-polar). A wrong prediction for MgO (saying \"insoluble like CCl₄\") reveals ignorance of lattice energy vs hydration energy balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electrical conductivity of solid MgCl₂, aqueous MgCl₂, and molten MgCl₂. Rank them from highest to lowest conductivity and explain the trend.",
+     "a": "Molten MgCl₂ ≈ aqueous MgCl₂ (both high, mobile Mg²⁺ and Cl⁻) > solid MgCl₂ (zero, ions fixed). The near-equality of molten and aqueous shows both provide mobile ions; a wrong ranking (e.g., aqueous > molten) may stem from thinking water adds extra charge carriers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All ionic compounds conduct electricity in aqueous solution because they dissociate into ions.\" Evaluate this statement. Is it always true? Give a counterexample if false.",
+     "a": "False. While most ionic compounds dissociate, some like BaSO₄, AgCl, PbS have very low solubility (Ksp << 1) so the concentration of ions in solution is negligible, giving almost no conductivity. A student saying \"true\" overlooks solubility product and the distinction between \"dissociate\" and \"dissolve appreciably\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.",
+     "a": "Steps: (1) Test physical state — observe if solid at room temp. (2) Solubility — add to water and kerosene; note if dissolves in water only. (3) Conductivity — test solid with electrodes (no glow), then dissolve in water and test (glow), then melt a small amount in crucible and test (glow). Conclusion: solid, water-soluble, conducts when molten/aqueous → ionic. A poor answer misses melting test or uses only one property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

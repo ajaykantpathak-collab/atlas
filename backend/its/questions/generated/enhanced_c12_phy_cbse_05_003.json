@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_003",
+   "title": "c12_phy_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the formula for the magnetic field at a point on the axial line of a short bar magnet of magnetic moment \\(m\\) at a distance \\(r\\) from its centre. Give the SI unit of each quantity.",
+     "a": "\\(B_{\\text{axial}} = \\frac{\\mu_0}{4\\pi} \\frac{2m}{r^3}\\). \\(\\mu_0/4\\pi = 10^{-7} \\, \\text{T·m/A}\\), \\(m\\) in A·m², \\(r\\) in m, \\(B\\) in T. A wrong answer (e.g., missing factor 2, using \\(r^2\\), or confusing axial/equatorial) reveals the student has not internalised the dipole analogy or the solenoid derivation.",
+     "self_check": true
+    },
+    {
+     "q": "A bar magnet’s magnetic moment \\(\\vec{m}\\) points north. At a point on the equatorial line, what is the direction of the magnetic field \\(\\vec{B}\\) relative to \\(\\vec{m}\\)? Explain using the electrostatic analogy.",
+     "a": "On the equatorial line, \\(\\vec{B}\\) is anti-parallel to \\(\\vec{m}\\) (points opposite to the magnetic moment). The electric dipole’s equatorial field is \\(\\vec{E}_{\\text{eq}} = -\\frac{1}{4\\pi\\varepsilon_0} \\frac{\\vec{p}}{r^3}\\); replacing \\(\\vec{E} \\to \\vec{B}\\), \\(\\vec{p} \\to \\vec{m}\\), \\(1/4\\pi\\varepsilon_0 \\to \\mu_0/4\\pi\\) gives \\(\\vec{B}_{\\text{eq}} = -\\frac{\\mu_0}{4\\pi} \\frac{\\vec{m}}{r^3}\\). A student who says “same direction” is confusing axial and equatorial fields or misapplying the analogy.",
+     "self_check": true
+    },
+    {
+     "q": "A short bar magnet has magnetic moment \\(0.48 \\, \\text{J/T}\\). Calculate the magnitude of the magnetic field at a distance of \\(10 \\, \\text{cm}\\) from the centre on (a) the axial line, (b) the equatorial line. Use \\(\\mu_0/4\\pi = 10^{-7} \\, \\text{T·m/A}\\).",
+     "a": "Given: \\(m = 0.48 \\, \\text{A·m}^2\\), \\(r = 0.10 \\, \\text{m}\\).  \n(a) Axial: \\(B = 10^{-7} \\times \\frac{2 \\times 0.48}{(0.10)^3} = 10^{-7} \\times \\frac{0.96}{0.001} = 10^{-7} \\times 960 = 9.6 \\times 10^{-5} \\, \\text{T}\\).  \n(b) Equatorial: \\(B = 10^{-7} \\times \\frac{0.48}{(0.10)^3} = 10^{-7} \\times 480 = 4.8 \\times 10^{-5} \\, \\text{T}\\).  \nA wrong answer often comes from using \\(r\\) in cm without converting to m (giving \\(10^{-11}\\) T), or forgetting the factor 2 in axial field.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical short bar magnets of moment \\(m\\) are placed coaxially with their north poles facing each other, separated by a distance \\(2d\\). Find the point on the line joining them where the net magnetic field is zero.",
+     "a": "Let the point be at distance \\(x\\) from the centre of the left magnet (so \\(x\\) from left, \\(2d - x\\) from right). Both magnets produce axial fields pointing away from their north poles. For zero net field, magnitudes must be equal:  \n\\(\\frac{2m}{x^3} = \\frac{2m}{(2d - x)^3} \\Rightarrow x = 2d - x \\Rightarrow x = d\\).  \nThe midpoint is the null point. A student who sets up the equation but forgets the \\(r^3\\) dependence (using \\(r^2\\)) will get a different answer, revealing confusion with Coulomb’s law.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: “The magnetic field on the axis of a bar magnet is twice the field on the equator at the same distance.” Is this statement always correct? Justify.",
+     "a": "The statement is correct **only in magnitude** for a short dipole at the same distance \\(r\\): \\(|B_{\\text{axial}}| = 2|B_{\\text{eq}}|\\). However, the directions are different: axial field is parallel to \\(\\vec{m}\\), equatorial is anti-parallel. If the student ignores direction or assumes the formula holds for \\(r \\sim l\\), the statement is misleading. A complete answer must mention both magnitude ratio and directional difference, and the condition \\(r \\gg l\\).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a compass needle and a bar magnet to verify that the magnetic field on the axial line is twice that on the equatorial line at the same distance. Outline the procedure and the measurements needed.",
+     "a": "Place the bar magnet on a sheet of paper with its axis along the east-west direction (to avoid Earth’s field interference). Mark the centre. At a fixed distance \\(r\\) (e.g., 10 cm) on the axial line, place a compass and note the deflection \\(\\theta_{\\text{axial}}\\) from east-west. Repeat on the equatorial line at the same \\(r\\) to get \\(\\theta_{\\text{eq}}\\). In a uniform field \\(B\\), \\(\\tan\\theta \\propto B\\). Compute \\(\\tan\\theta_{\\text{axial}} / \\tan\\theta_{\\text{eq}}\\); it should be close to 2. A poor answer omits the need to eliminate Earth’s field or uses a single compass without a reference direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

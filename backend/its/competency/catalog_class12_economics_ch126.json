@@ -1,0 +1,440 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 126,
+ "chapter_title": "On Science Fiction",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl126.txt",
+ "concepts": [
+  {
+   "id": "lekl.126.1",
+   "title": "Historical Emergence and Foundation of Science Fiction",
+   "section": "I. The Prescientific Universe",
+   "definition": "Science fiction as a distinct literary genre relies on the widespread societal realization that technological advances drive future changes, a perspective born during the Industrial Revolution.",
+   "formula": "SF_emergence = rate_of_technological_change >= perceptible_lifetime_threshold",
+   "key_idea": "True science fiction requires viewing scientific and technological progress as the engine of future change.",
+   "textbook_ref": "lekl126.txt lines 25-50",
+   "question_patterns": [
+    "What historical developments made the emergence of science fiction possible around 1800?",
+    "Why could true science fiction not exist prior to the Industrial Revolution?",
+    "How does the rate of technological change enable futuristic storytelling?",
+    "Explain the essential prerequisite for writing science fiction according to Asimov.",
+    "Explain Historical Emergence and Foundation of Science Fiction with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify historical context",
+     "explain": "Locate the turning point around 1800 marked by the Industrial Revolution."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the conceptual shift",
+     "explain": "Recognize that rapid technological shifts allowed individuals to witness societal transformation within a single lifetime."
+    },
+    {
+     "step": 3,
+     "action": "Connect technology to genre emergence",
+     "explain": "Conclude that science fiction depends on recognizing science as the primary shaper of the future."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.2",
+   "title": "Prescientific Worldview versus Scientific Worldview",
+   "section": "I. The Prescientific Universe",
+   "definition": "Prescientific societies explained natural phenomena through unpredictable, human-like gods placated by magic, whereas the scientific worldview sees nature governed by immutable physical laws.",
+   "formula": "prescientific_view = anthropomorphic_deities + magical_formulas; scientific_view = unswervable_laws + empirical_understanding",
+   "key_idea": "Prescientific myth relies on arbitrary divine will, whereas science fiction operates within unbreakable natural laws.",
+   "textbook_ref": "lekl126.txt lines 51-105",
+   "question_patterns": [
+    "Differentiate between the prescientific universe and the scientific universe.",
+    "How did ancient people explain unpredictable and destructive natural events?",
+    "Compare the role of priests and wizards in ancient times to modern scientists.",
+    "Why were prescientific deities portrayed as whimsical and easily offended?",
+    "Explain Prescientific Worldview versus Scientific Worldview with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze prescientific assumptions",
+     "explain": "Ancient cultures attributed natural forces to emotional gods of superhuman size and power."
+    },
+    {
+     "step": 2,
+     "action": "Analyze scientific assumptions",
+     "explain": "Modern science views the universe as governed by consistent, unyielding laws of nature."
+    },
+    {
+     "step": 3,
+     "action": "Compare methods of control",
+     "explain": "Priests used appeasement formulas and magic, whereas scientists apply natural laws to control the environment."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.3",
+   "title": "Parallels Between Ancient Myths and Modern Science Fiction",
+   "section": "I. The Prescientific Universe",
+   "definition": "Ancient legends and modern science fiction share the emotional purpose of inspiring wonder and depicting life beyond normal bounds, substituting magical objects with futuristic technology.",
+   "formula": "mythical_magic(flying_carpet, crystal_ball, seven_league_boots) <=> sf_tech(aircraft, television, automobiles)",
+   "key_idea": "Myths and science fiction satisfy the same psychological longing for wonder through different framework backgrounds.",
+   "textbook_ref": "lekl126.txt lines 110-155",
+   "question_patterns": [
+    "What parallels does Asimov draw between ancient myths and modern science fiction?",
+    "How do magical items like crystal balls and seven-league boots correspond to modern devices?",
+    "In what ways do ancient legends fulfill the same emotional needs as science fiction?",
+    "How do mythical hybrid monsters compare to extraterrestrial beings in science fiction?",
+    "Explain Parallels Between Ancient Myths and Modern Science Fiction with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify common emotional objective",
+     "explain": "Both satisfy human desire for wonder and portray non-standard life forms and extraordinary powers."
+    },
+    {
+     "step": 2,
+     "action": "Map mythic elements to technology",
+     "explain": "Match magical objects (flying carpets, magic shells) to technological realities (planes, phones)."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate underlying premise",
+     "explain": "Highlight that myths use magic in a god-ruled universe while SF uses science in a law-ruled universe."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.4",
+   "title": "Genre Definition by Background versus Content",
+   "section": "II. The Universe of Science Fiction",
+   "definition": "Category fiction genres are defined by specific narrative content, whereas science fiction is defined by an altered societal background into which any genre narrative can be placed.",
+   "formula": "genre_narrative(content) + altered_societal_setting(background) = science_fiction_hybrid",
+   "key_idea": "Science fiction is a background setting that can encompass any story category or deep human drama.",
+   "textbook_ref": "lekl126.txt lines 165-210",
+   "question_patterns": [
+    "How does science fiction differ from content-defined genres like Westerns, sports, or jungle stories?",
+    "Why does Asimov claim that science fiction is defined by its background rather than its content?",
+    "How can a traditional sports or detective story be transformed into science fiction?",
+    "Explain John W. Campbell's vision of science fiction taking all conceivable societies as its domain.",
+    "Explain Genre Definition by Background versus Content with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define content-restricted genres",
+     "explain": "Identify how sports, Western, or jungle stories require specific content (athletics, cowboys, tropical wilderness)."
+    },
+    {
+     "step": 2,
+     "action": "Explain background expansion",
+     "explain": "Show how changing the setting to a space station or alien planet adds a science fiction dimension."
+    },
+    {
+     "step": 3,
+     "action": "Summarize Campbell's broad vision",
+     "explain": "Affirm that science fiction encompasses all possible societies, past, future, realistic, or fantastic."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.5",
+   "title": "Fair Play and Boundary Conditions in Science Fiction Mysteries",
+   "section": "II. The Universe of Science Fiction",
+   "definition": "Writing a fair science fiction mystery requires establishing fixed rule boundaries for the futuristic society so the reader has equal opportunity to solve the crime.",
+   "formula": "fair_sf_mystery = explicitly_defined_world_rules + equal_clue_access_for_reader",
+   "key_idea": "SF mysteries are valid when technological rules are clearly bounded and no unexpected inventions cheat the reader.",
+   "textbook_ref": "lekl126.txt lines 211-260",
+   "question_patterns": [
+    "Why did John Campbell believe it was impossible to write a fair science fiction mystery?",
+    "How can an author ensure fair play when writing a mystery in a futuristic setting?",
+    "What essential boundary conditions must be established in a science fiction mystery?",
+    "How does Asimov refute the claim that science fiction mysteries are conceptually impossible?",
+    "Explain Fair Play and Boundary Conditions in Science Fiction Mysteries with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State Campbell's objection",
+     "explain": "Campbell feared writers would cheat readers by introducing unannounced futuristic devices mid-story."
+    },
+    {
+     "step": 2,
+     "action": "Define rule of fair play",
+     "explain": "The author must explicitly lay down what is possible and impossible within the fictional universe."
+    },
+    {
+     "step": 3,
+     "action": "Ensure reader parity",
+     "explain": "The reader must see every clue and observation available to the investigator."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.6",
+   "title": "Scientific Accuracy and Extrapolation Pitfalls in Fiction",
+   "section": "II. The Universe of Science Fiction",
+   "definition": "Authors using science in fiction must maintain scientific accuracy and make logical extrapolations, as factual errors undermine narrative credibility.",
+   "formula": "valid_speculative_fiction = scientific_accuracy + logical_extrapolation",
+   "key_idea": "Factual scientific errors ruin plot integrity, requiring authors to extrapolate science carefully.",
+   "textbook_ref": "lekl126.txt lines 230-255",
+   "question_patterns": [
+    "What scientific errors in mystery writing does Asimov cite as examples of authorial pitfalls?",
+    "What challenges must an author guard against when writing science fiction mysteries?",
+    "How do scientific bloopers affect the credibility of a literary plot?",
+    "Why is sound knowledge of science required for logical extrapolation in fiction?",
+    "Explain Scientific Accuracy and Extrapolation Pitfalls in Fiction with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify common authorial errors",
+     "explain": "Reference mistakes like confusing elements with compounds or exaggerating biological reactions."
+    },
+    {
+     "step": 2,
+     "action": "Explain impact on plot",
+     "explain": "Demonstrate how scientific errors reduce narrative logic to a shambles."
+    },
+    {
+     "step": 3,
+     "action": "Formulate requirement for SF writing",
+     "explain": "SF writers must understand genuine science to create plausible future modifications."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.7",
+   "title": "Phonological Tone Groups and Speech Rhythm",
+   "section": "Language Work - Pronunciation",
+   "definition": "Spoken English is divided into tone groups bounded by pauses, serving physical breathing needs and structuring speech into clear cognitive units.",
+   "formula": "spoken_utterance = tone_group_1 / tone_group_2 / ... / tone_group_n",
+   "key_idea": "Tone groups segment spoken English into meaningful chunks averaging five words or two seconds.",
+   "textbook_ref": "lekl126.txt lines 280-320",
+   "question_patterns": [
+    "What is a tone group or breath group in spoken English?",
+    "Why do speakers break spoken language into tone groups?",
+    "How do physical and cognitive factors determine the length of tone groups?",
+    "Mark the pause boundaries in a spoken dialogue passage.",
+    "Explain Phonological Tone Groups and Speech Rhythm with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain physical basis",
+     "explain": "Pauses allow speakers to take breath, limiting tone groups to about five words or two seconds."
+    },
+    {
+     "step": 2,
+     "action": "Explain cognitive basis",
+     "explain": "Pauses structure information to match the pace of thought and listener comprehension."
+    },
+    {
+     "step": 3,
+     "action": "Apply pause notation",
+     "explain": "Mark tone group boundaries using slash symbols (/) at natural syntactic pauses."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.8",
+   "title": "Active to Passive Voice Transformation of Transitive Verbs",
+   "section": "Language Work - Grammar",
+   "definition": "Transitive verbs taking direct object noun phrases can be transformed into passive voice by making the object the new subject and adjusting the auxiliary verb structure.",
+   "formula": "active(Subject + Transitive_Verb + Direct_Object) -> passive(Direct_Object + Auxiliary_Be + Past_Participle + [by Subject])",
+   "key_idea": "Direct objects of active transitive verbs become subjects in passive voice constructions.",
+   "textbook_ref": "lekl126.txt lines 321-345",
+   "question_patterns": [
+    "How do you transform an active sentence with a transitive verb into passive voice?",
+    "Identify the object noun phrase and convert the sentence into passive voice.",
+    "Why do sentences with the verb 'have' usually resist passivization?",
+    "Convert given sentences from the essay into passive voice.",
+    "Explain Active to Passive Voice Transformation of Transitive Verbs with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify verb and direct object",
+     "explain": "Locate the transitive verb and underline the noun phrase acting as its direct object."
+    },
+    {
+     "step": 2,
+     "action": "Reposition object as subject",
+     "explain": "Move the direct object noun phrase to the sentence-initial subject position."
+    },
+    {
+     "step": 3,
+     "action": "Modify verb phrase",
+     "explain": "Change the active verb to the appropriate form of 'be' + past participle."
+    }
+   ]
+  },
+  {
+   "id": "lekl.126.9",
+   "title": "Verbs taking That-Clause Complement Structures",
+   "section": "Language Work - Grammar",
+   "definition": "Verbs of reporting, belief, or cognition (such as ask, believe, reveal, expect) frequently take subordinate 'that'-clauses as direct object complements.",
+   "formula": "Sentence = Subject + Reporting_Verb + 'that' + Subordinate_Clause",
+   "key_idea": "'That'-clauses act as noun complements expressing propositional content after mental or speech verbs.",
+   "textbook_ref": "lekl126.txt lines 346-350",
+   "question_patterns": [
+    "Identify verbs in the text that are followed by a 'that'-clause.",
+    "How do 'that'-clauses function as complement objects to reporting or belief verbs?",
+    "Construct sentences using verbs like reveal, expect, or ask followed by 'that'-clauses.",
+    "Analyze the grammatical structure of sentences containing 'that'-clause object complements.",
+    "Explain Verbs taking That-Clause Complement Structures with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify matrix verb",
+     "explain": "Locate cognitive or communicative verbs such as believe, ask, reveal, or expect."
+    },
+    {
+     "step": 2,
+     "action": "Locate subordinate clause",
+     "explain": "Find the clause introduced by the conjunction 'that' immediately following the verb."
+    },
+    {
+     "step": 3,
+     "action": "Analyze grammatical complement function",
+     "explain": "Confirm that the 'that'-clause functions as the direct object carrying the full statement."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl126.txt lines 330-340",
+   "concept": "lekl.126.8",
+   "question_type": "grammatical_transformation",
+   "question_pattern": "Identify the direct object noun phrase in the sentence '{active_sentence}' and convert it to passive voice.",
+   "extracted_variables": {
+    "active_sentence": "He expected a sudden change of rules."
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify verb and direct object",
+     "explain": "In 'He expected a sudden change of rules', the transitive verb is 'expected' and the direct object noun phrase is 'a sudden change of rules'."
+    },
+    {
+     "step": 2,
+     "action": "Promote direct object to subject position",
+     "explain": "Place 'A sudden change of rules' at the beginning as the new subject."
+    },
+    {
+     "step": 3,
+     "action": "Form passive verb structure",
+     "explain": "Change 'expected' (past tense) to 'was expected'. The passive sentence becomes: 'A sudden change of rules was expected by him.'"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl126.txt lines 305-318",
+   "concept": "lekl.126.7",
+   "question_type": "prosodic_analysis",
+   "question_pattern": "Mark the tone group pauses in the sentence: '{spoken_text}'",
+   "extracted_variables": {
+    "spoken_text": "Good morning, I'd like to speak to the person in charge of your After Sales Service, please."
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify natural speech units and breathing points",
+     "explain": "Separate greetings, core requests, prepositions, and polite sign-offs into distinct breath groups."
+    },
+    {
+     "step": 2,
+     "action": "Insert pause slashes",
+     "explain": "The marked utterance is: 'Good morning, / I’d like to speak to the person / in charge of your After Sales Service, / please.'"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lekl126.txt lines 211-260",
+   "concept": "lekl.126.5",
+   "question_type": "literary_analysis",
+   "question_pattern": "Explain how Asimov establishes that {editor_name}'s view on science fiction mysteries was mistaken.",
+   "extracted_variables": {
+    "editor_name": "John Campbell"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Summarize Campbell's argument",
+     "explain": "John Campbell argued that science fiction mysteries could not be fair because unlimited speculative possibilities allow authors to change rules unexpectedly."
+    },
+    {
+     "step": 2,
+     "action": "State Asimov's counter-principle",
+     "explain": "Asimov refutes this by showing that if an author clearly defines the futuristic boundary conditions beforehand, the reader has a fair chance to solve the mystery."
+    },
+    {
+     "step": 3,
+     "action": "Provide evidence",
+     "explain": "Asimov cites his own successfully fair science fiction mystery novels, 'The Caves of Steel' and 'The Naked Sun'."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex126.1",
+   "source_ref": "lekl126.txt lines 156-160",
+   "questions": [
+    "What is the parallel drawn between myths and legends of the past and science fiction?",
+    "What gives science fiction its validity?",
+    "Which literary works does the author have in mind when he refers to 'Open Sesame' or the concept of winged horses or flying carpets?"
+   ]
+  },
+  {
+   "id": "ex126.2",
+   "source_ref": "lekl126.txt lines 261-268",
+   "questions": [
+    "What makes for the distinction between the various genres of fiction—'a sports story', 'a Western story', 'a jungle story' and science fiction?",
+    "How does Asimov establish that John Campbell was wrong in his opinion that it is not possible for a science fiction mystery to be fair to a reader in the same way as a classical mystery is?",
+    "What are the pitfalls that the writer of science fiction mystery must guard against?"
+   ]
+  },
+  {
+   "id": "ex126.3",
+   "source_ref": "lekl126.txt lines 269-278",
+   "questions": [
+    "Discuss in small groups: Imagination and fantasy help human beings to speculate upon the possible explanations for the complexity and unpredictability of the phenomena in the universe.",
+    "Discuss in small groups: The difference that science and technology have made to everyday life today was visualised in science fiction fifty years ago."
+   ]
+  },
+  {
+   "id": "ex126.4",
+   "source_ref": "lekl126.txt lines 279-288",
+   "questions": [
+    "Discuss the author's attitude towards the pre-scientific imagination and the tone he adopts while talking about it.",
+    "Observe how the paragraph, as a form, has been used in the essay. Some paragraphs consist of just one sentence. What purpose do you think the author had in putting them in this manner?",
+    "Mark the linkers used by the author to connect the point he makes in one paragraph with that in the next."
+   ]
+  },
+  {
+   "id": "ex126.5",
+   "source_ref": "lekl126.txt lines 330-345",
+   "questions": [
+    "Identify the noun phrases that are the verbs' objects, and underline them. Then turn these sentences into a passive form: (a) He expected a sudden change of rules. (b) Nothing prevents writers from using actual science. (c) He revealed that he didn't know the difference between the element and the compound. (d) He demonstrated that he couldn't tell the difference between carbon monoxide and carbon dioxide and reduced the plot to a shambles. (e) The writer must carefully explain to the reader all the boundary conditions of the imaginary society."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

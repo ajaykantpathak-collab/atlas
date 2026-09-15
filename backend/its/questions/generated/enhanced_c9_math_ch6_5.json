@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_5",
+   "title": "c9_math_ch6_5",
+   "questions": [
+    {
+     "q": "State the formula for the area of a triangle using base and height. Define what is meant by \"height\" corresponding to a chosen base.",
+     "a": "The formula is \\( \\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} \\). The height (altitude) is the perpendicular distance from the opposite vertex to the line containing the chosen base. A wrong answer (e.g., \"height is the other side\" or \"height is the slant length\") reveals the student confuses the side length with the perpendicular altitude, a critical error for non-right triangles.",
+     "self_check": true
+    },
+    {
+     "q": "In triangle ABC, angle B is obtuse (120°). Side AC is chosen as the base. Where does the foot of the perpendicular from B to line AC lie — on segment AC, or on its extension? Explain why the area formula still works.",
+     "a": "The foot lies on the extension of AC beyond A or C (outside the segment). The formula still works because the area of triangle ABC equals the difference of areas of two right triangles formed by the altitude, which simplifies to \\( \\frac{1}{2} \\times AC \\times \\text{height} \\). A wrong answer (e.g., \"the formula doesn't work for obtuse triangles\" or \"height is measured to the segment only\") reveals the student believes the altitude must land on the segment itself, not understanding the geometric derivation via decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has base 14 cm and area 56 cm². Find its height. Then, if the same triangle is redrawn with a different side as base of length 8 cm, what is the corresponding height?",
+     "a": "Step 1: \\( 56 = \\frac{1}{2} \\times 14 \\times h \\Rightarrow 56 = 7h \\Rightarrow h = 8 \\) cm.  \nStep 2: Area is invariant. \\( 56 = \\frac{1}{2} \\times 8 \\times h' \\Rightarrow 56 = 4h' \\Rightarrow h' = 14 \\) cm.  \nA wrong answer (e.g., using the same height 8 cm for the new base) reveals the student thinks height is a fixed property of the triangle, not dependent on the chosen base.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles share the same base of length 10 cm. Triangle P has height 6 cm. Triangle Q has height 9 cm but is obtuse, with the altitude falling outside the base segment. Compare their areas. Does the position of the altitude (inside vs outside) affect the area calculation?",
+     "a": "Area of P = \\( \\frac{1}{2} \\times 10 \\times 6 = 30 \\) cm². Area of Q = \\( \\frac{1}{2} \\times 10 \\times 9 = 45 \\) cm². The position of the altitude does not affect the calculation; the formula uses the perpendicular distance to the *line* containing the base. A wrong answer (e.g., \"Triangle Q's area is less because the height is outside\") reveals the student mistakenly thinks the altitude must intersect the base segment for the formula to apply.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Triangle area = 30 cm², base = 5 cm. Find height.\" Their working: \\( 30 = \\frac{1}{2} \\times 5 \\times h \\Rightarrow 30 = 2.5h \\Rightarrow h = 12 \\) cm. Then they write: \"Height = 12 cm².\" Identify the error and correct it.",
+     "a": "The error is writing the unit as cm² for height. Height is a length, so its unit is cm (or m, etc.). The correct answer: Height = 12 cm. A wrong answer that misses the unit error reveals the student does not distinguish between linear and area units, a common board-exam penalty point.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a triangular plot's area must be found using base and height, but the height is not directly given — it must be deduced from a right-triangle relationship (e.g., a ladder leaning against a wall forming a triangle with the ground). Provide the full problem statement and solution.",
+     "a": "Example problem: \"A 13 m long ladder leans against a vertical wall. Its foot is 5 m from the wall. Find the area of the triangle formed by the ladder, wall, and ground.\"  \nSolution: The ladder is the hypotenuse. Height on wall = \\( \\sqrt{13^2 - 5^2} = 12 \\) m. Base = 5 m. Area = \\( \\frac{1}{2} \\times 5 \\times 12 = 30 \\) m².  \nA poor answer (e.g., using 13 m as height or base) reveals the student cannot identify which sides are perpendicular in a right-triangle context, confusing hypotenuse with altitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

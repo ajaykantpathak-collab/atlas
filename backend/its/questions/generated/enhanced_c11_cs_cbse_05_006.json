@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_006",
+   "title": "c11_cs_cbse_05_006",
+   "questions": [
+    {
+     "q": "Write the exact syntax of Python's ternary operator using the placeholders `condition`, `value_if_true`, and `value_if_false`.",
+     "a": "Correct syntax: `value_if_true if condition else value_if_false`. A wrong answer like `if condition: value_if_true else: value_if_false` reveals the student is confusing the ternary *expression* with the `if-else` *statement* and does not understand that the ternary operator returns a value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code prints `True`:\n```python\nx = 10\nresult = \"Even\" if x % 2 == 0 else \"Odd\"\nprint(result == \"Even\")\n```",
+     "a": "The condition `x % 2 == 0` evaluates to `True` because 10 is even, so the ternary expression returns `\"Even\"`. The comparison `result == \"Even\"` is therefore `True`. A student who says \"because x is 10\" without tracing the modulo operation shows they cannot evaluate the boolean condition step by step.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following `if-else` block as a single ternary expression assigned to variable `grade`:\n```python\nmarks = 85\nif marks >= 90:\n    grade = \"A\"\nelse:\n    grade = \"B\"\n```",
+     "a": "`grade = \"A\" if marks >= 90 else \"B\"`. A wrong answer like `grade = if marks >= 90: \"A\" else: \"B\"` shows the student still thinks in statement syntax. Another common error is swapping the order: `grade = \"A\" else \"B\" if marks >= 90` which reveals misunderstanding of the required `value_if_true if condition else value_if_false` order.",
+     "self_check": true
+    },
+    {
+     "q": "Given the expression `discount = 0.1 if amount > 1000 else 0.05 if amount > 500 else 0`, what is the value of `discount` when `amount = 750`? Explain the evaluation order.",
+     "a": "The expression is parsed as `discount = 0.1 if amount > 1000 else (0.05 if amount > 500 else 0)`. Since 750 > 1000 is False, the `else` branch is evaluated: `0.05 if 750 > 500 else 0`. 750 > 500 is True, so `discount = 0.05`. A student who answers 0.1 or 0 shows they do not understand right-to-left associativity of chained ternary operators.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this code snippet: `status = \"Pass\" if marks >= 33 else \"Fail\" if marks >= 0 else \"Invalid\"`. Is it a good use of the ternary operator? Justify.",
+     "a": "It works logically but violates readability guidelines (PEP 8 discourages chained ternaries). A better approach is an `if-elif-else` statement. A student who says \"it's fine because it works\" fails to evaluate code quality; a student who says \"it's wrong syntax\" doesn't know chaining is syntactically valid. The correct critique balances functionality with maintainability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a ternary operator is the clearest way to assign a value, and write the Python code for it. The scenario must involve a boolean condition and two distinct numeric outcomes.",
+     "a": "Example: \"Auto-rickshaw fare: first 2 km costs ₹25, every additional km costs ₹10.\" Code: `fare = 25 if distance <= 2 else 25 + (distance - 2) * 10`. A poor answer uses a scenario requiring more than two outcomes (e.g., slab-based tax) or uses a ternary for side-effects like printing, showing the student doesn't grasp that ternary is for *value selection*, not control flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

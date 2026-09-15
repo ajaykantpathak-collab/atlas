@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_003",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_003",
+   "title": "c6_chemistry_ch04_003",
+   "questions": [
+    {
+     "q": "What are the two substances that must be present for iron to rust?",
+     "a": "The substances are oxygen (from the air) and water (or moisture). A wrong answer suggests the student thinks rust is simply dirt or \"old age\" rather than a specific chemical reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a shiny iron nail lose its shine after being left in a humid garden for a week?",
+     "a": "The iron has reacted with oxygen and water to form iron oxide, which is a new substance covering the metal. If a student says \"it just got dirty,\" they fail to recognize that the surface of the iron itself has undergone a chemical change.",
+     "self_check": true
+    },
+    {
+     "q": "If you coat an iron rod completely with oil or paint, why does it prevent rusting?",
+     "a": "The coating acts as a barrier that prevents oxygen and water from touching the iron surface. If a student says \"it makes it look pretty,\" they are missing the protective scientific purpose of the barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Is rusting a surface change or a chemical reaction? Explain why.",
+     "a": "It is a chemical reaction because a new substance (iron oxide) is created that has different properties than the original iron. If a student says \"surface change,\" they are confusing the *location* of the rust with the *nature* of the change.",
+     "self_check": true
+    },
+    {
+     "q": "If an iron nail is kept in a vacuum (an environment with no air) but inside water, will it rust? Why?",
+     "a": "No, because rust requires BOTH oxygen and water; removing oxygen prevents the reaction. A student answering \"yes\" ignores the necessity of oxygen in the chemical combination.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to prove that water is necessary for rusting.",
+     "a": "Place one iron nail in a completely dry container (with a drying agent) and another in a container with water. The student should observe that only the one with water rusts, proving the necessity of moisture. A poor answer fails to include a \"control\" (the dry nail) to compare against.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

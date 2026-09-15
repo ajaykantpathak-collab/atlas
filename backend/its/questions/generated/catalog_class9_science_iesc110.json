@@ -1,0 +1,153 @@
+{
+ "catalog": "catalog_class9_science_iesc110.json",
+ "concepts": [
+  {
+   "id": "iesc.110.10.1",
+   "title": "Sound as a Mechanical Wave",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is sound called a mechanical wave?",
+     "a": "It needs a material medium of particles vibrating to carry energy; it cannot travel in vacuum.",
+     "self_check": true
+    },
+    {
+     "q": "What are compressions and rarefactions?",
+     "a": "Compressions are regions of crowded high-pressure particles; rarefactions are spread-out low-pressure regions.",
+     "self_check": true
+    },
+    {
+     "q": "In which direction do particles vibrate in a sound wave?",
+     "a": "Along the direction of wave travel - sound is longitudinal.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.110.10.2",
+   "title": "Characteristics of Sound Waves",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "period_s",
+     "expr": "1 / frequency",
+     "explain": "time period is the reciprocal of frequency"
+    },
+    {
+     "step": 2,
+     "name": "waves_per_minute",
+     "expr": "frequency * 60",
+     "explain": "waves per minute"
+    },
+    {
+     "step": 3,
+     "name": "speed",
+     "expr": "wavelength * frequency",
+     "explain": "v = f x lambda"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A sound has frequency 250 Hz and wavelength 1.36 m. Find the speed of sound.",
+     "vals": {
+      "frequency": 250,
+      "wavelength": 1.36
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A wave of frequency 512 Hz has wavelength 0.65 m. Calculate its speed.",
+     "vals": {
+      "frequency": 512,
+      "wavelength": 0.65
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "332.8 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Sound of wavelength 2 m has frequency 170 Hz. Compute its speed.",
+     "vals": {
+      "frequency": 170,
+      "wavelength": 2
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "A tuning fork of 340 Hz sends waves of 1 m. What is the wave speed?",
+     "vals": {
+      "frequency": 340,
+      "wavelength": 1
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    },
+    {
+     "q": "Waves of wavelength 0.25 m at frequency 1360 Hz: find their speed.",
+     "vals": {
+      "frequency": 1360,
+      "wavelength": 0.25
+     },
+     "unit": "m/s",
+     "steps": null,
+     "a": "340 m/s",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.110.10.3",
+   "title": "Reflection of Sound: Echo and Reverberation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an echo?",
+     "a": "A reflected sound heard distinctly after the original, needing about 17 m distance for a 0.1 s gap.",
+     "self_check": true
+    },
+    {
+     "q": "What is reverberation?",
+     "a": "Repeated multiple reflections that prolong sound in big halls; soft materials on walls reduce it.",
+     "self_check": true
+    },
+    {
+     "q": "State two uses of sound reflection.",
+     "a": "Megaphones, stethoscopes and sonar - all direct or use reflected sound.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.110.10.4",
+   "title": "Range of Hearing and Ultrasound Applications",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the range of hearing of humans?",
+     "a": "About 20 Hz to 20000 Hz.",
+     "self_check": true
+    },
+    {
+     "q": "What is ultrasound and name one use?",
+     "a": "Sound above 20 kHz - used in sonar, medical imaging and cleaning delicate parts.",
+     "self_check": true
+    },
+    {
+     "q": "Which animals use ultrasound to navigate?",
+     "a": "Bats and dolphins emit ultrasound and judge distance from the echoes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

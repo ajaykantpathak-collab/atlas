@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_004",
+   "title": "c11_phy_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the formula for the magnitude of torque about an origin O due to a force **F** applied at point P with position vector **r**. Define each symbol and give the SI unit of torque.",
+     "a": "The magnitude of torque is τ = r F sinθ, where r = |**r**| is the distance from O to the point of application, F = |**F**| is the magnitude of the force, and θ is the angle between **r** and **F**. The SI unit is newton metre (N·m). A wrong answer (e.g., τ = r F, or unit = joule) reveals the student confuses torque with work/energy or forgets the angular dependence sinθ.",
+     "self_check": true
+    },
+    {
+     "q": "A force **F** = 10 N acts on a particle at position **r** = (2 m, 0, 0) from the origin. The force is directed along the positive y-axis. Calculate the torque vector **τ** about the origin. Explain why the torque is not zero even though the force is applied at a distance from the origin.",
+     "a": "**τ** = **r** × **F** = (2î) × (10ĵ) = 20 **k̂** N·m. The torque is non-zero because **r** and **F** are perpendicular (θ = 90°), giving maximum lever arm r⊥ = 2 m. A wrong answer (e.g., τ = 0) reveals the student thinks torque requires a component of force along **r**, or misapplies the right-hand rule, or confuses torque with work (which would be zero here as **F** ⟂ **r**).",
+     "self_check": true
+    },
+    {
+     "q": "A force of 25 N is applied at the end of a 0.40 m long wrench at an angle of 30° to the wrench handle. Calculate the magnitude of the torque about the bolt (pivot). If the same force is applied perpendicular to the handle, what is the new torque? Show unit analysis.",
+     "a": "Given: F = 25 N, r = 0.40 m, θ = 30°. τ = r F sinθ = (0.40 m)(25 N) sin30° = (10 N·m)(0.5) = 5.0 N·m. When perpendicular, θ = 90°, sin90° = 1, τ = 10 N·m. Unit analysis: m × N = N·m. A wrong answer (e.g., using cosθ, or forgetting sinθ) reveals confusion between torque and work formulas, or inability to identify the correct angle between **r** and **F**.",
+     "self_check": true
+    },
+    {
+     "q": "Two forces act on a rigid body: **F₁** = 5 N at **r₁** = (1, 0, 0) m along +y, and **F₂** = 5 N at **r₂** = (0, 1, 0) m along -x. Find the net torque about the origin. Are the torques in the same direction? What does this imply about the rotational effect?",
+     "a": "**τ₁** = **r₁** × **F₁** = (1î) × (5ĵ) = 5 **k̂** N·m. **τ₂** = **r₂** × **F₂** = (1ĵ) × (-5î) = 5 **k̂** N·m. Net **τ** = 10 **k̂** N·m. Both torques are along +z (same direction), so they add constructively, producing a net anticlockwise rotation in the xy-plane. A wrong answer (e.g., opposite directions) reveals failure to apply the right-hand rule correctly for each force, or confusion about vector addition of torques.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a force passes through the centre of mass of a body, its torque about the centre of mass is always zero, but its torque about any other point is non-zero.\" Evaluate this statement. Is it fully correct? Provide a counterexample if false.",
+     "a": "The statement is **partially correct but incomplete**. Torque about the centre of mass is zero if the force's line of action passes through the CM (r = 0 or θ = 0°/180°). However, torque about another point can *also* be zero if the force's line of action passes through that other point. Counterexample: A force applied at the centre of a uniform rod directed along the rod. Torque about CM = 0. Torque about one end = 0 (since force passes through that end too). A wrong evaluation reveals the student thinks torque about any other point is automatically non-zero, ignoring the line of action condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, a pivot (knife edge), and known weights to demonstrate that torque depends on both force magnitude and perpendicular distance. Describe the procedure, what you would measure, and how you would verify τ = F × d⊥.",
+     "a": "Procedure: Balance the metre scale horizontally on a knife-edge pivot at its 50 cm mark (CM). Hang a 100 g weight (0.98 N) at the 20 cm mark (d₁ = 30 cm from pivot). Hang a 200 g weight (1.96 N) on the other side and adjust its position until the scale balances horizontally. Measure its distance d₂ from pivot. Expected: τ₁ = τ₂ → (0.98 N)(0.30 m) = (1.96 N) d₂ → d₂ = 0.15 m (15 cm). Verification: If balance occurs at d₂ ≈ 15 cm, it confirms τ = F d⊥. A poor design (e.g., not ensuring horizontal balance, ignoring weight of scale) reveals misunderstanding of equilibrium conditions or lever arm definition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

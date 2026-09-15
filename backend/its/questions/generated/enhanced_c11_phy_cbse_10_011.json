@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_011",
+   "title": "c11_phy_cbse_10_011",
+   "questions": [
+    {
+     "q": "State the SI unit of thermal conductivity and write the defining formula for heat current H through a rod in steady state, defining each symbol.",
+     "a": "SI unit: W m⁻¹ K⁻¹ (or J s⁻¹ m⁻¹ K⁻¹). Formula: H = K A (T_H - T_C) / L, where H = heat current (W), K = thermal conductivity (W m⁻¹ K⁻¹), A = cross-sectional area (m²), T_H and T_C = hot and cold end temperatures (K or °C, since difference is same), L = length (m). A wrong answer (e.g., unit as W m⁻¹ or J K⁻¹) reveals confusion between thermal conductivity and thermal conductance, or missing the area/length dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Two rods of identical dimensions but different materials (copper K = 385 W m⁻¹ K⁻¹, steel K = 50.2 W m⁻¹ K⁻¹) have their hot ends at 100°C and cold ends at 0°C. Without calculation, which rod has a steeper temperature gradient dT/dx along its length? Explain why.",
+     "a": "Steel rod has a steeper temperature gradient. Reason: In steady state, H = -K A dT/dx is constant. For the same H and A, dT/dx ∝ 1/K. Steel's lower K means a larger temperature drop per unit length. A wrong answer (copper steeper) reveals the misconception that \"better conductor means temperature changes faster\" instead of \"better conductor needs smaller gradient for same heat flow.\"",
+     "self_check": true
+    },
+    {
+     "q": "A copper rod (K = 385 W m⁻¹ K⁻¹, L = 0.5 m, A = 2 × 10⁻⁴ m²) connects a reservoir at 120°C to a junction. A steel rod (K = 50.2 W m⁻¹ K⁻¹, L = 0.3 m, A = 2 × 10⁻⁴ m²) connects the same junction to a reservoir at 20°C. Find the junction temperature in steady state.",
+     "a": "Step 1: Steady state ⇒ H_Cu = H_Steel = H.\nStep 2: H = K_Cu A (120 - T_j) / L_Cu = K_Steel A (T_j - 20) / L_Steel. Area A cancels.\nStep 3: 385 × (120 - T_j) / 0.5 = 50.2 × (T_j - 20) / 0.3\nStep 4: 770 (120 - T_j) = 167.33 (T_j - 20)\nStep 5: 92400 - 770 T_j = 167.33 T_j - 3346.6\nStep 6: 937.33 T_j = 95746.6 ⇒ T_j ≈ 102.1°C.\nAnswer: 102.1°C. A wrong answer (e.g., 70°C average) reveals ignoring the different thermal conductivities and lengths, treating it as a simple average instead of heat current balance.",
+     "self_check": true
+    },
+    {
+     "q": "A composite rod is made by joining an aluminium rod (K = 205 W m⁻¹ K⁻¹) and a brass rod (K = 109 W m⁻¹ K⁻¹) end-to-end. Both have same length L and cross-section A. The free ends are at 100°C and 0°C. Sketch the qualitative temperature vs. position graph along the composite rod. Label the junction temperature T_j. Is T_j > 50°C, = 50°C, or < 50°C?",
+     "a": "T_j < 50°C. Graph: Two straight lines with different slopes meeting at the junction. Slope in Al = (T_j - 100)/L, slope in Brass = (0 - T_j)/L. Since |slope| ∝ 1/K, Al (higher K) has smaller slope magnitude than Brass. Heat current balance: K_Al (100 - T_j) = K_Brass (T_j - 0) ⇒ 205(100 - T_j) = 109 T_j ⇒ T_j ≈ 65.2°C? Wait, 20500 - 205T_j = 109T_j ⇒ 314T_j = 20500 ⇒ T_j ≈ 65.3°C. Actually T_j > 50°C because Al conducts better, so it \"pulls\" the junction temperature closer to its hot end. A wrong answer (T_j = 50°C) reveals assuming equal temperature drops regardless of conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a composite rod problem and gets a junction temperature of 150°C when the hot reservoir is at 100°C and cold at 0°C. They claim \"the junction is hotter because heat accumulates there.\" Evaluate this claim and identify the error.",
+     "a": "The claim is physically impossible. In steady state, temperature at any point must lie between the boundary temperatures (0°C and 100°C). A junction temperature of 150°C violates the second law of thermodynamics (heat cannot flow from cold to hot without external work). The error likely comes from a sign mistake in the heat current equation: using H = K A (T_C - T_H)/L instead of (T_H - T_C)/L, or incorrectly setting up the balance H₁ = H₂ with wrong temperature differences. This reveals a fundamental misunderstanding of the direction of heat flow and the steady-state constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to compare the thermal conductivity of aluminium, steel, and copper rods of identical dimensions. Describe the setup, what you would measure, and how you would rank the materials.",
+     "a": "Setup: Obtain three rods (Al, Steel, Cu) of same length (~30 cm) and diameter (~6 mm). Fix one end of each into a block of melted wax (or use drawing pins attached with wax at equal intervals). Heat the other ends equally using a spirit lamp or hot water bath. Measure: Time for each wax/pin to fall at a fixed distance from the hot end, or distance melted in fixed time. Rank: Shortest time / farthest melt = highest K. Expected order: Cu > Al > Steel. A poor answer (e.g., \"touch the rods to feel heat\") reveals inability to design a controlled, quantitative comparison and confusion between temperature and heat flow rate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

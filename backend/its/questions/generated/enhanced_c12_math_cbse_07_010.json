@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_010",
+   "title": "c12_math_cbse_07_010",
+   "questions": [
+    {
+     "q": "State property P3: \\(\\int_a^b f(x)dx = \\int_a^b f(a+b-x)dx\\). Write the substitution used to prove it.",
+     "a": "The substitution is \\(t = a+b-x\\), so \\(dt = -dx\\). When \\(x=a\\), \\(t=b\\); when \\(x=b\\), \\(t=a\\). Then \\(\\int_a^b f(x)dx = \\int_b^a f(a+b-t)(-dt) = \\int_a^b f(a+b-t)dt = \\int_a^b f(a+b-x)dx\\). A wrong answer (e.g., \\(t = x-a\\) or forgetting the minus sign) reveals the student does not understand how the limits flip and the differential changes sign, which is the core of the proof.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\int_{-2}^2 x^3 dx = 0\\) without computing the antiderivative. Which property justifies this?",
+     "a": "The function \\(f(x)=x^3\\) is odd because \\(f(-x) = -x^3 = -f(x)\\). By property P7(ii), \\(\\int_{-a}^a f(x)dx = 0\\) for an odd function. Here \\(a=2\\). A wrong answer (e.g., saying it's because the function is symmetric) shows confusion between even and odd symmetry; the student must identify the function as odd, not just symmetric.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\int_0^{\\pi} \\frac{x \\sin x}{1+\\cos^2 x} dx\\) using property P4.",
+     "a": "Let \\(I = \\int_0^{\\pi} \\frac{x \\sin x}{1+\\cos^2 x} dx\\). By P4, \\(I = \\int_0^{\\pi} \\frac{(\\pi-x) \\sin(\\pi-x)}{1+\\cos^2(\\pi-x)} dx = \\int_0^{\\pi} \\frac{(\\pi-x) \\sin x}{1+\\cos^2 x} dx\\) (since \\(\\sin(\\pi-x)=\\sin x\\), \\(\\cos(\\pi-x)=-\\cos x\\)). Adding the two expressions: \\(2I = \\int_0^{\\pi} \\frac{\\pi \\sin x}{1+\\cos^2 x} dx\\). Substitute \\(t=\\cos x\\), \\(dt = -\\sin x dx\\): when \\(x=0\\), \\(t=1\\); \\(x=\\pi\\), \\(t=-1\\). Then \\(2I = \\pi \\int_1^{-1} \\frac{-dt}{1+t^2} = \\pi \\int_{-1}^1 \\frac{dt}{1+t^2} = \\pi [\\tan^{-1} t]_{-1}^1 = \\pi (\\frac{\\pi}{4} - (-\\frac{\\pi}{4})) = \\frac{\\pi^2}{2}\\). So \\(I = \\frac{\\pi^2}{4}\\). A wrong answer (e.g., forgetting to change limits in the \\(t\\)-substitution or misapplying \\(\\sin(\\pi-x)\\)) reveals gaps in trigonometric identities combined with property application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of P3 and P4. When would you choose P4 over P3? Give an example integral where P4 is directly applicable but P3 would require extra work.",
+     "a": "P4 is the special case of P3 when \\(a=0\\) and \\(b=a\\), i.e., the lower limit is 0. P4 states \\(\\int_0^a f(x)dx = \\int_0^a f(a-x)dx\\). Choose P4 when the integral has limits \\([0,a]\\) because the transformation \\(x \\to a-x\\) is simpler to write and remember. Example: \\(\\int_0^{\\pi/2} \\frac{\\sin x}{\\sin x + \\cos x} dx\\). Using P4 with \\(a=\\pi/2\\) gives \\(\\int_0^{\\pi/2} \\frac{\\cos x}{\\cos x + \\sin x} dx\\); adding yields \\(\\int_0^{\\pi/2} 1 dx = \\pi/2\\), so original integral is \\(\\pi/4\\). Using P3 with \\(a=0, b=\\pi/2\\) gives the same but P4 is more direct. A wrong answer (e.g., saying P3 and P4 are identical) shows the student hasn't recognized the special-case relationship and the efficiency of P4 for \\([0,a]\\) limits.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \\(\\int_{-1}^1 \\frac{1}{x^2} dx = \\left[ -\\frac{1}{x} \\right]_{-1}^1 = -1 - 1 = -2\\). Evaluate this solution. Is the property P7 applicable? Why or why not?",
+     "a": "The solution is incorrect because \\(f(x)=1/x^2\\) is not continuous on \\([-1,1]\\) (it has an infinite discontinuity at \\(x=0\\)). The definite integral is improper and diverges. Property P7 requires \\(f\\) to be integrable on \\([-a,a]\\); here it is not. The student blindly applied the even-function property (P7(i)) without checking continuity/integrability. A wrong evaluation (e.g., saying the answer is \\(-2\\) or \\(0\\)) reveals the student ignores the domain condition for definite integrals and applies properties mechanically.",
+     "self_check": true
+    },
+    {
+     "q": "Create a definite integral problem that requires using both P2 (additivity) and P7 (even/odd) to evaluate efficiently. Provide the integrand, limits, and the final answer.",
+     "a": "Example: Evaluate \\(\\int_{-2}^2 (|x| + x^3) dx\\). Split using P2: \\(\\int_{-2}^2 |x| dx + \\int_{-2}^2 x^3 dx\\). \\(|x|\\) is even, so first integral \\(= 2\\int_0^2 x dx = 2 \\cdot \\frac{4}{2} = 4\\). \\(x^3\\) is odd, so second integral \\(= 0\\). Total \\(= 4\\). A poor answer would be an integral that doesn't need both properties (e.g., just an even function on \\([-a,a]\\)), showing the student cannot design a problem that combines concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

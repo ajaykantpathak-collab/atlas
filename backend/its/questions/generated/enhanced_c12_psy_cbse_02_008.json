@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_008",
+   "title": "c12_psy_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define 'repression' as described by Freud in the psychodynamic approach. How does it differ from simple forgetting?",
+     "a": "Repression is the unconscious blocking of anxiety-provoking thoughts, memories, or impulses from entering conscious awareness. Unlike simple forgetting (which is passive decay or interference), repression is an active, motivated process where the ego pushes threatening material into the unconscious to protect the individual from anxiety. The repressed content continues to influence behaviour (e.g., slips of tongue, dreams) despite being inaccessible to consciousness. A wrong answer that equates repression with \"choosing not to think about it\" reveals the misconception that repression is a conscious, voluntary suppression (which is actually 'suppression').",
+     "self_check": true
+    },
+    {
+     "q": "A student who habitually cheats in exams strongly believes that \"everyone else cheats too\" and gets angry when others talk about academic integrity. Using the concept of projection, explain the unconscious process occurring here.",
+     "a": "The student's own unacceptable impulse (cheating/dishonesty) creates anxiety because it violates the superego's moral standards. To reduce this anxiety, the ego unconsciously attributes this same impulse to others — \"everyone else cheats.\" By seeing the trait in others, the student avoids recognising it in themselves. The anger at integrity discussions is a defence against the projected trait being challenged. A wrong answer that says \"the student is just justifying their behaviour\" confuses projection (unconscious attribution) with rationalisation (conscious excuse-making) or simple hypocrisy.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'reaction formation' to this scenario: A person who feels intense, unconscious hostility towards their overbearing parent becomes excessively caring, praises them publicly, and insists they have a \"perfect relationship.\" Explain why this is reaction formation and not genuine affection.",
+     "a": "Reaction formation occurs when the ego converts an anxiety-provoking unconscious impulse (hostility towards parent) into its opposite conscious behaviour (excessive care/praise). The behaviour is **exaggerated, compulsive, and inflexible** — the person *must* perform it to keep the hostility unconscious. Genuine affection is flexible and doesn't require rigid performance. The key indicator: the behaviour serves to *defend against* the unconscious feeling, not express a conscious one. A wrong answer focusing only on the outward behaviour (\"they are being nice\") misses the unconscious dynamic and the defensive, over-the-top quality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'denial' and 'rationalisation' in terms of: (a) the level of reality distortion, (b) the role of conscious awareness, and (c) the type of anxiety each primarily defends against.",
+     "a": "(a) Denial distorts reality more severely — it refuses to acknowledge the *existence* of a fact (e.g., \"I don't have a tumour\"). Rationalisation accepts the fact but distorts its *meaning/cause* (e.g., \"The tumour is a sign to slow down\"). (b) In denial, the person is completely unaware of the reality; in rationalisation, the person is aware of the event but unconsciously creates a plausible but false explanation. (c) Denial defends against overwhelming external reality anxiety (trauma, death, illness). Rationalisation defends against internal moral/self-esteem anxiety (failure, guilt, poor choices) by preserving self-image. A wrong answer that treats them as \"both are excuses\" fails to capture the structural difference: denial = \"it didn't happen\"; rationalisation = \"it happened but for a good reason.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Defence mechanisms are unhealthy and indicate psychological disorder.\" Use Freud's view and modern perspective to justify your answer.",
+     "a": "Freud viewed defence mechanisms as **normal, universal, and necessary** for ego functioning — they only become pathological when used **rigidly, excessively, or as the sole coping strategy**, leading to reality distortion that impairs functioning (e.g., denial of a medical condition preventing treatment). Modern psychology (e.g., Vaillant's hierarchy) classifies them on a maturity continuum: psychotic (denial), immature (projection), neurotic (repression, rationalisation, reaction formation), and mature (sublimation, humour). Thus, the statement is false. A wrong answer that agrees with the statement reflects the common lay misconception equating \"defence\" with \"pathology,\" ignoring their adaptive, anxiety-reducing function in everyday life.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original, realistic scenario involving a Class 12 student preparing for CUET that simultaneously demonstrates **three** of the five defence mechanisms (repression, projection, denial, reaction formation, rationalisation). Label each mechanism in your scenario and explain the unconscious anxiety each defends against.",
+     "a": "**Scenario:** Priya aims for a top university via CUET.  \n1. **Repression:** She completely forgets the date of a crucial mock test she failed badly last month, despite reminders. *Anxiety:* Fear of incompetence/shame from that failure.  \n2. **Projection:** She tells friends, \"The CUET syllabus is unfairly vast; the exam board wants us to fail.\" *Anxiety:* Her own unconscious fear of not being prepared enough.  \n3. **Rationalisation:** After scoring low on a practice paper, she says, \"These practice papers are harder than the real exam anyway; they don't predict anything.\" *Anxiety:* Threat to self-esteem from the low score.  \nA poor answer lists mechanisms without a cohesive scenario, uses conscious excuses instead of unconscious processes, or mislabels mechanisms (e.g., calling the excuse \"denial\" instead of \"rationalisation\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

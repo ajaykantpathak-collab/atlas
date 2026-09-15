@@ -1,0 +1,142 @@
+# Implicit Value Rules — Physics: Mechanics
+# Rules for friction, strings, pulleys, inclined planes.
+
+rules:
+  # ── Friction ──
+  - rule_id: "IMPL_MEC_001"
+    priority: 10
+    patterns:
+      - "smooth surface"
+      - "frictionless surface"
+      - "no friction"
+      - "friction is negligible"
+      - "friction can be neglected"
+      - "smooth inclined plane"
+      - "smooth incline"
+    conditions:
+      - concept_tag in ["PHY_NLM", "PHY_MEC"]
+      - not already_bound["mu"]
+    bindings:
+      - symbol: "mu"
+        value: 0.0
+        unit: ""
+        reason: "Smooth/frictionless surface means coefficient of friction is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MEC_002"
+    priority: 9
+    patterns:
+      - "light string"
+      - "massless string"
+      - "inextensible string"
+      - "massless rope"
+      - "light rope"
+      - "ideal string"
+    conditions:
+      - concept_tag in ["PHY_NLM", "PHY_MEC"]
+    bindings:
+      - symbol: "m_string"
+        value: 0.0
+        unit: "kg"
+        reason: "Massless/light string has zero mass."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MEC_003"
+    priority: 9
+    patterns:
+      - "massless pulley"
+      - "light pulley"
+      - "frictionless pulley"
+      - "ideal pulley"
+    conditions:
+      - concept_tag in ["PHY_NLM", "PHY_MEC"]
+    bindings:
+      - symbol: "m_pulley"
+        value: 0.0
+        unit: "kg"
+        reason: "Massless pulley has zero mass and no friction."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MEC_004"
+    priority: 8
+    patterns:
+      - "in equilibrium"
+      - "at equilibrium"
+      - "balanced"
+      - "net force is zero"
+      - "no net force"
+    conditions:
+      - concept_tag in ["PHY_NLM", "PHY_MEC"]
+    bindings:
+      - symbol: "F_net"
+        value: 0.0
+        unit: "N"
+        reason: "At equilibrium, net force is zero."
+    confidence: 1.0
+
+  # ── Inclined plane defaults ──
+  - rule_id: "IMPL_MEC_010"
+    priority: 7
+    patterns:
+      - "inclined at"
+      - "incline"
+      - "incline plane"
+      - "wedge"
+    conditions:
+      - concept_tag in ["PHY_NLM"]
+      - not already_bound["g"]
+    bindings:
+      - symbol: "g"
+        value: 9.8
+        unit: "m/s^2"
+        reason: "Standard gravity for inclined plane problems."
+    confidence: 0.9
+
+  # ── Spring ──
+  - rule_id: "IMPL_MEC_020"
+    priority: 8
+    patterns:
+      - "natural length"
+      - "equilibrium position"
+      - "rest position"
+      - "unstretched"
+      - "uncompressed"
+    conditions:
+      - concept_tag in ["PHY_OSC", "PHY_MEC"]
+    bindings:
+      - symbol: "x"
+        value: 0.0
+        unit: "m"
+        reason: "At natural/equilibrium length, displacement is zero."
+    confidence: 1.0
+
+  # ── Collision ──
+  - rule_id: "IMPL_MEC_030"
+    priority: 9
+    patterns:
+      - "elastic collision"
+      - "perfectly elastic"
+    conditions:
+      - concept_tag in ["PHY_MEC"]
+    bindings:
+      - symbol: "e"
+        value: 1.0
+        unit: ""
+        reason: "Elastic collision has coefficient of restitution e = 1."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MEC_031"
+    priority: 9
+    patterns:
+      - "perfectly inelastic"
+      - "completely inelastic"
+      - "stick together"
+      - "objects stick"
+    conditions:
+      - concept_tag in ["PHY_MEC"]
+    bindings:
+      - symbol: "e"
+        value: 0.0
+        unit: ""
+        reason: "Perfectly inelastic collision has e = 0."
+    confidence: 1.0

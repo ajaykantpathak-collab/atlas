@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_004",
+   "title": "c12_geo_cbse_10_004",
+   "questions": [
+    {
+     "q": "A settlement has a population of 6,200, density of 550 persons/km², but 80% of male main workers are engaged in agriculture. According to the Census of India definition, is this an urban settlement? Explain your answer in one sentence.",
+     "a": "No, it is not an urban settlement because it fails the occupational criterion (75% male main workers in non-agricultural activities). A WRONG answer of \"yes\" reveals the student thinks population and density alone suffice, missing that economic character is equally mandatory — all three criteria must be met simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Census definition require 75% of *male main workers* specifically to be in non-agricultural work, rather than 75% of *total workers* or *total population*? What would happen to the urban count if the threshold were lowered to 50%?",
+     "a": "The Census historically used male main workers because female workforce participation was undercounted and seasonal; using total population would misclassify agricultural villages with large non-working populations. Lowering to 50% would inflate urban numbers by including semi-urban villages with mixed economies. A WRONG answer focusing only on \"tradition\" misses the methodological reason: male main workers provided the most stable, comparable metric across censuses.",
+     "self_check": true
+    },
+    {
+     "q": "Town X has a municipal council (statutory status), population 4,800, density 380 persons/km², and 85% male main workers in non-agriculture. Town Y has no local urban body, population 6,500, density 600 persons/km², and 80% male main workers in non-agriculture. Classify each as statutory town, Census town, or neither. Show your reasoning.",
+     "a": "Town X: Statutory town (has municipal council) — statutory towns are urban by notification regardless of demographic criteria. Town Y: Census town (meets all three demographic criteria but lacks statutory status). A WRONG answer classifying Town X as \"neither\" reveals confusion: students often think statutory towns must also meet the three criteria, but notification overrides them. A WRONG answer calling Town Y \"statutory\" confuses Census town with statutory town.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 1991 Census definition (used in NCERT) with the 2011 Census definition: both use the same three criteria. However, the 2011 Census introduced a new category \"Out Growth\" (OG) for areas contiguous to a statutory town but not meeting criteria independently. Analyse how OGs affect urban population counts and the interpretation of urbanisation trends.",
+     "a": "OGs add population to urban totals without creating new towns, inflating urbanisation rates especially around large cities. This makes decadal growth comparisons tricky: apparent \"urban growth\" may partly reflect reclassification of peripheral areas as OGs rather than organic growth. A WRONG answer ignoring OGs treats all urban growth as genuine demographic expansion, missing the methodological artifact that complicates trend analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes lowering the population threshold from 5,000 to 3,000 to \"boost urbanisation statistics\" and access central urban development funds. Evaluate this proposal: what are the geographical and administrative consequences of such a change?",
+     "a": "Lowering the threshold would artificially inflate urban counts by reclassifying large villages, distorting inter-state comparisons and time-series data. Administratively, it would burden small settlements with urban governance costs (water, sewage, building codes) without fiscal capacity. Geographically, it blurs the rural-urban continuum conceptually. A WRONG answer supporting the proposal ignores that definitions exist for analytical consistency, not political convenience — changing thresholds breaks comparability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field-survey checklist for a researcher to determine whether a given settlement in Rajasthan qualifies as a Census town. The checklist must be usable by a non-expert and must verify all three criteria without relying on Census records.",
+     "a": "Checklist: (1) Count residential structures × average household size ≈ population ≥ 5,000? (2) Survey 100 households: list main occupation of adult males; calculate % in non-agriculture (services, manufacturing, trade) ≥ 75%? (3) Measure built-up area via pacing/GPS; divide population by area ≥ 400/km²? (4) Confirm no municipality/cantonment board exists. A poor checklist would rely on visual impression (\"looks urban\") or skip occupational survey — the hardest criterion to verify on ground.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

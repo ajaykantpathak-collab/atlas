@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_008",
+   "title": "c11_stat_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define non-random sampling and state the fundamental characteristic that distinguishes it from random sampling in terms of probability of selection.",
+     "a": "Non-random sampling is a method where the investigator selects sample units based on judgment, convenience, or quotas rather than a random process. The fundamental distinction is that in non-random sampling, **not every unit in the population has a known or equal chance of being selected**; the probability of selection is either zero for many units or unknown for all units. A wrong answer (e.g., \"non-random sampling is when you pick randomly but without a computer\") reveals the student confuses \"random\" with \"haphazard\" and does not grasp the probabilistic foundation of random sampling.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the spending habits of teenagers in a city. She stands outside a popular gaming arcade on a Saturday afternoon and interviews the first 50 teenagers who exit. Identify the sampling method and explain why this method might produce a sample that is not representative of all teenagers in the city.",
+     "a": "This is **convenience sampling** — the researcher selects units based solely on accessibility and proximity. The sample will likely over-represent teenagers who frequent gaming arcades on weekends (likely higher disposable income, specific interests) and completely miss teenagers who never visit arcades (e.g., those studying, working, or in other neighborhoods). A wrong answer identifying this as \"random sampling because she didn't choose names\" shows the student mistakes \"lack of deliberate bias\" for \"equal probability of selection.\"",
+     "self_check": true
+    },
+    {
+     "q": "An NGO needs to survey 200 households in a slum cluster about access to clean water. They decide to select exactly 100 households with female heads and 100 with male heads. Field workers go door-to-door and interview the first 100 of each type they find. Name the sampling method and describe the specific step that makes it non-random despite the subgroup targets.",
+     "a": "This is **quota sampling**. The non-random step is the **field worker's discretion in choosing \"the first 100 they find\"** within each quota category. Unlike stratified random sampling (where households would be randomly selected from a list of female-headed and male-headed households), here the investigator's convenience or judgment determines which specific households enter the sample. A wrong answer calling this \"stratified sampling\" reveals confusion between *stratification* (dividing population) and *random selection within strata*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast purposive sampling and quota sampling on: (a) basis of subgroup formation, (b) role of investigator's judgment, and (c) ability to ensure all population segments are represented.",
+     "a": "(a) **Purposive**: subgroups not formally defined; investigator picks cases deemed \"typical,\" \"critical,\" or \"expert.\" **Quota**: subgroups (quotas) are pre-defined by observable characteristics (e.g., gender, income bracket) to mirror population proportions. (b) **Purposive**: judgment is central — investigator decides *which specific units* represent the study purpose. **Quota**: judgment operates only *within* quotas to fill numbers; the quota structure itself is fixed. (c) **Purposive**: no guarantee all segments are covered; may focus only on \"information-rich\" cases. **Quota**: explicitly ensures pre-defined segments are represented in target numbers, but only those segments. A wrong answer stating \"both use judgment so they are the same\" misses the structural difference of pre-set quotas vs. open-ended purposive selection.",
+     "self_check": true
+    },
+    {
+     "q": "A PhD scholar uses purposive sampling to select 10 \"exemplary\" school principals for an in-depth case study on leadership. She claims her findings can be generalized to all school principals in India because she chose the \"best\" ones. Evaluate this claim using the concept of sampling frame and statistical inference.",
+     "a": "The claim is **invalid**. Purposive sampling has no sampling frame covering the target population (all Indian principals); the sample is deliberately non-representative by design. Statistical inference (generalizing with known confidence) requires a known probability of selection for every population unit, which is absent here. The \"best\" principals are, by definition, outliers, not a cross-section. A wrong answer accepting the claim (\"she picked good ones so it's fine\") reveals a fundamental misunderstanding: the student thinks \"representative\" means \"high quality\" rather than \"probabilistically mirroring population diversity.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a non-random sampling plan to study the challenges faced by first-generation college students in your district. Specify which of the three methods you would use, define your selection criteria/quotas, and justify why a random sample is impractical here.",
+     "a": "**Method: Purposive (Judgment) Sampling.** Selection criteria: (1) Currently enrolled in a district college, (2) Neither parent completed a bachelor's degree, (3) Willing to participate in a 60-minute interview. I would use college administrative records (with permission) to identify potential participants and purposively select 15-20 students ensuring variation across gender, stream (Arts/Science/Commerce), and college type (govt/private). **Why random sampling is impractical**: No comprehensive, accessible list (sampling frame) of *only* first-generation students exists; identifying them would require screening the entire student population — prohibitively expensive and time-consuming for a qualitative study. A poor answer proposing \"convenience sampling at the college gate\" fails to address the need for *variation* in a qualitative study and shows inability to match method to research purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

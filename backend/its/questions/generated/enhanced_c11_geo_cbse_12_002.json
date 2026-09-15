@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_002",
+   "title": "c11_geo_cbse_12_002",
+   "questions": [
+    {
+     "q": "Name the four master horizons of a mature soil profile in correct top-to-bottom sequence and state the dominant process forming each.",
+     "a": "Correct sequence: O (organic accumulation — humification), A (mineral-organic mixing — bioturbation/humification), B (illuviation/accumulation — eluviation from above + illuviation), C (weathered parent material — physical/chemical weathering). A wrong answer (e.g., swapping A and B, or omitting O) reveals the student memorises horizon labels but does not understand the **direction of material movement**: organic matter accumulates DOWNWARD in O, minerals leach DOWN from A to B, and weathering proceeds UPWARD from C.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the E horizon (eluviated layer) is often pale, sandy, and nutrient-poor compared to the overlying A horizon and underlying B horizon.",
+     "a": "The E horizon forms where intense leaching (eluviation) removes clay, iron/aluminium oxides, and organic matter — leaving behind coarse quartz sand and silt. This occurs in cool, humid climates (e.g., Himalayan coniferous forests) where percolating water is acidic. A student who says \"E horizon is just a transition layer\" misses the **process logic**: it is a zone of **net loss**, not transition. Its absence in tropical soils (where leaching is so intense that A merges directly into B) is a critical diagnostic clue.",
+     "self_check": true
+    },
+    {
+     "q": "A soil profile from the Western Ghats shows: O horizon (5 cm, dark), A horizon (20 cm, brown, granular), B horizon (60 cm, red, clayey, blocky), C horizon (weathered gneiss). Identify the soil order (USDA) and explain the horizon sequence using the concept of **climate-driven pedogenesis**.",
+     "a": "**Steps**: (1) Note high rainfall (>2000 mm), warm temperature → intense chemical weathering + leaching. (2) O and A thin because rapid decomposition prevents thick organic buildup. (3) B horizon thick, red (hematite/goethite), clayey (kaolinite) → extreme leaching of bases/silica, accumulation of Fe/Al oxides = **Oxisol** (or Ultisol if base saturation <35%). (4) C horizon shows parent rock (gneiss) weathering in situ. Wrong answer (e.g., \"Alfisol\") shows confusion: Alfisols have less weathered Bt horizons with higher base saturation, typical of sub-humid regions (e.g., Deccan Plateau margins), not hyper-humid Western Ghats.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the B horizon development in a Chernozem (Mollisol) of the Russian steppes versus a Laterite (Oxisol) of the Western Ghats. What does the difference reveal about the **dominant pedogenic process** in each?",
+     "a": "Chernozem: B horizon is **Bk or Bw** — carbonate (CaCO₃) accumulation at depth due to **evapotranspiration > precipitation** (semi-arid). Calcium leached downward in wet season, precipitates in dry season. Laterite: B horizon is **Bo (oxic)** — deep, intense accumulation of Fe/Al oxides, kaolinite, **no carbonates** due to **precipitation >> evapotranspiration** (humid tropical). The contrast reveals **climate controls the net direction of ion flux**: upward capillary rise (carbonates) in dry climates vs. downward percolation (bases/silica) in wet climates. Student error: attributing red colour in both to \"iron\" without distinguishing **oxide crystallinity** (hematite in Laterite vs. goethite/ferrihydrite in Chernozem).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The C horizon is simply weathered parent rock and has no pedogenic significance.\" Use the concept of **lithological discontinuity** and **paleosols** in your reasoning.",
+     "a": "The statement is **false**. The C horizon records: (1) **Initial mineralogy** — determines nutrient reserve (e.g., basalt C horizon releases Ca, Mg; granite C releases K, Na). (2) **Lithological discontinuity** — a sudden change in particle size/mineralogy between C and overlying solum indicates **depositional history** (e.g., loess over bedrock, alluvium over residuum), critical for land-use planning. (3) **Paleosols** — buried C horizons with relic B horizon features (e.g., carbonate nodules, clay films) reveal **past climates**. A student calling C \"inert\" ignores that **weathering front progression into C horizon IS active pedogenesis** — the solum deepens over millennia by converting C to B.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to determine whether a soil profile in the Indo-Gangetic Plain has formed **in situ** from alluvium or shows **lithological discontinuity** due to multiple flood deposits. Specify 3 measurable horizon properties and the diagnostic criterion for each.",
+     "a": "**Investigation design**: Dig 2 m pit, describe horizons at 10 cm intervals. Measure: (1) **Particle size distribution (PSD)** — abrupt textural change (e.g., silt loam over sandy loam) at same depth across pit face = **discontinuity** (different flood events). Gradual change = in situ weathering. (2) **Mica content (visual count)** — fresh mica flakes in C but absent in B = **recent deposition**; mica weathered throughout = **time for pedogenesis**. (3) **Carbonate nodules (kankar) depth & morphology** — nodules only in lower B/C = **active leaching front**; nodules at multiple depths with different coatings = **polygenetic profile** (multiple stability periods). Poor answer: only describing colour/texture without **quantitative PSD or mineralogical tracers**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

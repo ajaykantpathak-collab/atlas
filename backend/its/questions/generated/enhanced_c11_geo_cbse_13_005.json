@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_005",
+   "title": "c11_geo_cbse_13_005",
+   "questions": [
+    {
+     "q": "Name the two distinct traditional rainwater harvesting structures of Western Rajasthan and state the primary use (agricultural vs domestic) of each.",
+     "a": "Khadins (agricultural runoff farming in Jaisalmer/Barmer) and Tankas (domestic rooftop storage in Bikaner/Phalodi). A wrong answer — e.g., swapping their functions or locating them in Tamil Nadu — reveals the student memorised names without linking structure to hydro-geomorphic context (slope vs flat, alluvial vs sandy soil) or to the water-use purpose (crop vs drinking).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Khadin bund is built in a crescent shape perpendicular to the slope, while a Tanka is a rectangular underground chamber. What would happen if you reversed the designs?",
+     "a": "Crescent bund follows contour lines to maximise catchment area and distribute pressure evenly; rectangular Tanka minimises wall stress in loose sand and fits under courtyards. Reversed: a straight bund on slope would breach at ends; a crescent Tanka would collapse in sandy soil and waste courtyard space. Wrong answer shows inability to connect structural form to geotechnical constraints (soil cohesion, slope stability) and spatial constraints (courtyard geometry).",
+     "self_check": true
+    },
+    {
+     "q": "A household in Phalodi has a 100 m² roof catchment. Annual rainfall is 150 mm. Runoff coefficient for lime-plastered roof = 0.8. Calculate the theoretical annual water harvest in litres. If the family needs 50 litres/day, what minimum Tanka capacity (in litres) ensures 180-day dry-season supply? Show steps.",
+     "a": "Step 1: Rainfall volume = 100 m² × 0.150 m = 15 m³ = 15,000 L. Step 2: Harvest = 15,000 × 0.8 = 12,000 L/year. Step 3: Dry-season demand = 50 L/day × 180 days = 9,000 L. Step 4: Minimum capacity = 9,000 L (but add 20% buffer for evaporation/leakage → 10,800 L). Wrong answer (e.g., forgetting coefficient or using mm directly) reveals gaps in unit conversion (mm→m), runoff concept, or distinguishing annual harvest from storage sizing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Khadin and Tanka on three dimensions: (a) hydrological function (runoff vs rainwater), (b) social management (community vs household), (c) climate resilience (drought vs flood). Which system is more vulnerable to a 30% rainfall decline? Justify.",
+     "a": "(a) Khadin captures *surface runoff* from large catchment (hectares); Tanka captures *direct rainfall* on roof (100–200 m²). (b) Khadin requires village-level labour for bund maintenance and equitable water-sharing rules; Tanka is household-owned, cleaned annually by family. (c) Khadin fails in drought (no runoff) but recharges groundwater during floods; Tanka fails in multi-year drought (empty) but unaffected by floods. Khadin more vulnerable to 30% decline because runoff drops non-linearly (threshold effect), while Tanka yield drops linearly. Wrong answer treats both as \"rainwater harvesting\" without distinguishing catchment scale, social institution, or non-linear runoff response.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Khadins and Tankas are obsolete; the Indira Gandhi Canal makes them unnecessary.\" Use evidence on groundwater salinity, equity, and energy footprint.",
+     "a": "Canal water reaches only 30% of Thar; tail-end villages get saline water (EC > 4 dS/m) unfit for irrigation. Khadins use zero energy, recharge sweet groundwater lenses, and are managed by *pani panchayats* ensuring equitable access. Tankas provide drinking water where canal supply is erratic. Abandoning them increases dependence on diesel pumps (carbon footprint) and deepens inequity. Wrong answer ignores spatial inequality of canal distribution, water quality issues, and the energy-water nexus — showing a techno-centric rather than socio-hydrological perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid system for a 50-household village in Barmer (slope 1.5%, sandy loam, 250 mm rain) that integrates a community Khadin for kharif fodder and household Tankas for drinking water. Sketch layout (verbal description) and list three governance rules needed.",
+     "a": "Layout: Khadin bund at lowest contour (2 ha catchment → 1 ha cultivated), surplus spillway feeds recharge well; each house has 10,000 L Tanka connected to roof via first-flush diverter. Governance: (1) Village water committee allocates Khadin moisture to landless via sharecropping; (2) Tanka cleaning rotated before monsoon; (3) Ban on borewells within 500 m of Khadin to protect baseflow. Poor answer omits spillway-recharge link, ignores landless equity, or proposes top-down rules without community enforcement — missing the institutional design principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

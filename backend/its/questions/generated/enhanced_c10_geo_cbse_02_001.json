@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_001",
+   "title": "c10_geo_cbse_02_001",
+   "questions": [
+    {
+     "q": "Name the four internationally recognised biodiversity hotspots that lie partly or wholly within India's political boundaries.",
+     "a": "The four biodiversity hotspots are: (1) The Himalaya, (2) The Western Ghats (and Sri Lanka), (3) Indo-Burma (covers Andaman & Nicobar Islands and parts of Northeast India), and (4) Sundaland (includes Nicobar Islands). A wrong answer — such as listing \"Thar Desert\" or \"Deccan Plateau\" — reveals the student confuses bio-geographic zones with hotspots and does not understand the hotspot criteria (high endemism + high threat).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Western Ghats harbour higher species endemism than the Eastern Ghats, even though both run parallel to coasts.",
+     "a": "The Western Ghats act as a continuous orographic barrier forcing moisture-laden Southwest Monsoon winds to rise, creating a steep rainfall gradient (2000–6000 mm) and diverse microclimates over short distances. The Eastern Ghats are discontinuous, lower in elevation, and lie in the rain-shadow of the Western Ghats, receiving less rainfall (900–1300 mm) and offering fewer isolated niches for speciation. A wrong answer focusing only on \"Western Ghats are higher\" without linking to monsoon orography and habitat fragmentation shows incomplete understanding of the climate-relief-biodiversity nexus.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of altitudinal zonation, predict the sequence of natural vegetation types a trekker would encounter while ascending from the foothills (300 m) to the summit (3500 m) of the Eastern Himalaya in Arunachal Pradesh.",
+     "a": "Step 1: Identify the base zone — Subtropical broadleaf forest (300–1000 m) with sal, teak, and bamboo.  \nStep 2: Next zone — Temperate broadleaf and coniferous forest (1000–2000 m) with oak, rhododendron, and pine.  \nStep 3: Higher zone — Subalpine coniferous forest (2000–3000 m) with fir, spruce, and juniper.  \nStep 4: Summit zone — Alpine meadow/scrub (3000–3500 m) with dwarf rhododendron, primulas, and grasses.  \nA wrong sequence (e.g., placing alpine before temperate) reveals the student has not internalised the temperature lapse rate (~6.5°C/km) and its control on vegetation belts — a concept built in Class 9 (c9_geo_ch2_3, c9_geo_ch2_7).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flora of the Andaman & Nicobar Islands with that of the Lakshadweep Islands and explain the biogeographical reason for the difference.",
+     "a": "Andaman & Nicobar (part of Indo-Burma/Sundaland hotspots) have tropical evergreen forests with dipterocarps, palms, and high endemism due to their continental origin (extension of Arakan Yoma) and proximity to Southeast Asian landmass. Lakshadweep (coral atolls) have sparse littoral vegetation — coconut, pandanus, salt-tolerant shrubs — due to coral origin, tiny land area, saline soil, and isolation. A student who attributes the difference only to \"rainfall\" misses the fundamental role of geological history and island biogeography (area-isolation equilibrium) taught in Class 8 (c8_geo_ch2_5, c8_geo_ch2_6).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's biodiversity richness is solely due to its tropical latitude.\" Provide two geographical arguments against it.",
+     "a": "Argument 1: The Himalayan temperate and alpine zones (outside tropics) contribute unique cold-adapted flora/fauna (e.g., snow leopard, blue poppy) — latitude alone cannot explain this vertical diversity.  \nArgument 2: The Thar Desert (tropical latitude) has low species richness compared to the Western Ghats (same latitude) because rainfall and soil moisture — not latitude — are the limiting factors.  \nA wrong evaluation that agrees with the statement shows the student reduces biodiversity to a single climatic variable, ignoring the multi-factor framework (relief, geology, evolutionary history) established in Class 6 (c6_geography_ch01_001) and Class 9 (c9_geo_ch1_4).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map of India showing: (a) the ten bio-geographic zones, (b) the four biodiversity hotspots, and (c) one flagship endemic species per hotspot. Include a legend and scale.",
+     "a": "A good answer includes: correctly delineated zones (Trans-Himalaya, Himalaya, Desert, Semi-Arid, Western Ghats, Deccan Peninsula, Gangetic Plain, Coasts, Northeast, Islands); hotspots shaded with distinct patterns; flagship species — Himalaya: Himalayan monal / snow leopard; Western Ghats: Nilgiri tahr / lion-tailed macaque; Indo-Burma: Hoolock gibbon / Sangai deer; Sundaland: Nicobar megapode / saltwater crocodile. A poor answer with zones/hotspots misplaced or missing flagship species indicates the student cannot synthesise spatial data — a core board exam skill (map work carries 3–5 marks).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

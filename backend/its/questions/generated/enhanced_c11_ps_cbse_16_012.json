@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_012",
+   "title": "c11_ps_cbse_16_012",
+   "questions": [
+    {
+     "q": "Which constitutional articles correspond to the three types of emergencies in India, and what is the maximum initial duration for which President's Rule (Article 356) can be imposed without parliamentary approval?",
+     "a": "Article 352 (National Emergency), Article 356 (State Emergency/President's Rule), Article 360 (Financial Emergency). President's Rule can be imposed initially for 2 months without parliamentary approval (Article 356(3)). A wrong answer reveals the student confuses the three emergency types or doesn't know the critical 2-month parliamentary ratification requirement—a key safeguard against arbitrary dismissal of State governments.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a National Emergency under Article 352 fundamentally alter the federal balance by empowering Parliament to legislate on State List subjects, while a Financial Emergency under Article 360 does not grant similar legislative powers to the Centre?",
+     "a": "Article 352 explicitly suspends the federal distribution of legislative powers (Article 250), allowing Parliament to make laws on State List subjects during the emergency. Article 360 only empowers the Centre to issue directions to States regarding financial propriety, reduce salaries, and reserve money bills—it does not transfer legislative competence. A wrong answer shows the student treats all emergencies as identical in their centralizing effect, missing the graduated nature: legislative centralization (352) > executive/financial centralization (356, 360).",
+     "self_check": true
+    },
+    {
+     "q": "A State government loses its majority after 15 MLAs defect to the opposition. The Governor recommends President's Rule without giving the Chief Minister a chance to prove majority on the floor of the House. Applying the S.R. Bommai (1994) principles, is this constitutional? Explain the procedural safeguard violated.",
+     "a": "No, this is unconstitutional. S.R. Bommai established that the Governor must allow the Chief Minister to prove majority on the floor of the Assembly (floor test) before recommending President's Rule. The Governor's report cannot be a substitute for democratic verification. The student who says \"yes, the Governor has discretion\" misunderstands that Article 356 is not a discretionary power but a constitutional obligation triggered only by objective \"failure of constitutional machinery,\" subject to judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parliamentary approval requirements for the three emergencies: Why does Article 352 require a special majority (2/3rd of members present and voting + majority of total membership) while Article 356 requires only simple majority? What does this difference reveal about the framers' threat perception?",
+     "a": "Article 352 (National Emergency) requires special majority in both Houses because it suspends fundamental rights (Article 19 automatically, others by Presidential order) and the federal structure entirely—it's the \"nuclear option.\" Article 356 (President's Rule) requires only simple majority because it affects one State's autonomy temporarily, not the entire federal edifice. The framers viewed external aggression/war as existential threats requiring broader consensus, while State-level constitutional breakdown was seen as a more localized corrective measure. A wrong answer misses the hierarchy of constitutional disruption each emergency represents.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the 44th Amendment (1978) in preventing misuse of emergency provisions. Consider: (a) the \"armed rebellion\" replacement for \"internal disturbance,\" (b) written Cabinet advice requirement, and (c) judicial review restoration. Which safeguard is most significant and why?",
+     "a": "The 44th Amendment significantly but incompletely curbed misuse. Most significant: replacing \"internal disturbance\" with \"armed rebellion\" (Article 352) because it objectively narrows the trigger—Indira Gandhi's 1975 Emergency used \"internal disturbance\" to justify suppressing political opposition. Written Cabinet advice (Article 352(3)) adds accountability but can be manufactured. Judicial review restoration (Minerva Mills, 1980) is crucial but reactive. The student who claims \"44th Amendment completely fixed the problem\" ignores that Article 356 misuse continued post-1978 (e.g., 1990s dismissals) until S.R. Bommai.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal to further prevent misuse of Article 356, incorporating: (a) a mandatory floor test before Governor's report, (b) time-bound judicial review by a Constitutional Bench, and (c) automatic revival of the Assembly if Parliament doesn't approve within 30 days. Justify each element.",
+     "a": "A strong answer proposes: \"Insert Article 356A: (1) Governor shall not recommend President's Rule without a floor test unless Assembly is dissolved; (2) Supreme Court Constitutional Bench shall review the proclamation within 15 days; (3) If Parliament fails to approve within 30 days, the Assembly stands revived automatically.\" Justification: floor test ensures democratic verification (addressing Bommai gap); time-bound judicial review prevents prolonged uncertainty; automatic revival prevents legislative vacuum. A poor answer suggests vague \"consultation\" mechanisms or ignores the tension between Centre's duty to ensure constitutional governance and State autonomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

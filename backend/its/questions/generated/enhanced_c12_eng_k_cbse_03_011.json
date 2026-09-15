@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_03_011",
+   "title": "c12_eng_k_cbse_03_011",
+   "questions": [
+    {
+     "q": "What are the four sentence structures classified in English grammar, and which coordinating conjunctions join independent clauses in a compound sentence?",
+     "a": "The four structures are: Simple (one independent clause), Compound (two+ independent clauses joined by coordinating conjunctions FANBOYS — for, and, nor, but, or, yet, so — or semicolon), Complex (one independent + one+ dependent clauses joined by subordinating conjunctions), Compound-Complex (two+ independent + one+ dependent). A wrong answer listing \"complex-compound\" as a fifth type or naming \"because\" as a coordinating conjunction reveals confusion between coordination and subordination — a fatal error in board exam sentence-transformation questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the textbook paragraph (sentences 1–10), sentence 3 uses a semicolon with \"meanwhile.\" Explain why this is still classified as two simple sentences joined by a semicolon, not a compound sentence.",
+     "a": "Sentence 3: \"During the years, he had stopped attending functions of the Senciminer Society; meanwhile the town of Sencimin had been destroyed.\" \"Meanwhile\" is a conjunctive adverb (transition), not a coordinating conjunction. When a semicolon joins two independent clauses with a conjunctive adverb (meanwhile, therefore, however), each clause remains a grammatically complete simple sentence; the semicolon only signals a close thematic link. Students who label this \"compound\" confuse conjunctive adverbs with FANBOYS — in CBSE marking, this loses the 1-mark classification point.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze sentence 5 from the paragraph: \"Many Senciminers had survived, and, later, come to America from the camps, but most of them were younger people whom he, Solomon, had not known in the old country.\" Identify its structure type and break down every clause with its subordinators/coordinators.",
+     "a": "Sentence 5 is Compound-Complex. Breakdown:\n- Independent clause 1: \"Many Senciminers had survived\" (past perfect)\n- Coordinator: \"and\" joins to next independent clause\n- Independent clause 2: \"later, come to America from the camps\" (elliptical subject \"they\", past tense \"come\" — note: \"had come\" implied by parallelism)\n- Coordinator: \"but\" joins to third independent clause\n- Independent clause 3: \"most of them were younger people\" (past tense)\n- Dependent relative clause: \"whom he, Solomon, had not known in the old country\" (subordinator \"whom\", past perfect) modifying \"younger people\".\nA wrong answer missing the elliptical \"had\" in clause 2 or mislabeling the relative clause as a noun clause shows inability to handle ellipsis and embedding — common in JEE English comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative function of sentence 1 (25 words, compound) and sentence 2 (7 words, simple) in the same paragraph. How does the abrupt length drop serve the story's psychological portrayal?",
+     "a": "Sentence 1 establishes the comforting ritual: \"Usually after breakfast on Sunday, he and his wife took a walk in Central Park, or, when the weather was mild, went to the Palisades.\" Its compound structure (two independent clauses joined by \"or\") and adverbial clause (\"when the weather was mild\") create a flowing, predictable rhythm — mirroring the stable past. Sentence 2 — \"But today Solomon Margolin lingered in bed.\" — is a stark 7-word simple sentence starting with adversative \"But.\" The violent truncation (25→7 words) and loss of subordination enact the protagonist's sudden paralysis; the grammar itself performs the emotional rupture. Students who only cite \"contrast\" without linking syntactic compression to psychological state miss the 2-mark \"effect of language\" criterion in board competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Marking primary stress on the third syllable of 'afternoon' (af-ter-NOON) is sufficient for correct pronunciation; secondary stress on the first syllable is optional for intelligibility.\"",
+     "a": "The claim is false. In English phonology, secondary stress (ˌaf-ter-ˈNOON) maintains the word's rhythmic footprint and distinguishes it from potential mishearings (e.g., \"afternoon\" vs. \"after noon\" as two words). For polysyllabic words in the textbook list like \"illustrious\" (il-ˈLUS-tri-ous, secondary on first), omitting secondary stress flattens the prosodic contour, making the speaker sound non-native and potentially altering perceived vowel quality (unstressed vowels reduce to schwa). In CUET/IPMAT oral assessments or listening sections, incorrect stress patterns lead to lost marks for \"pronunciation accuracy.\" A student arguing \"optional\" confuses intelligibility (barely understood) with accuracy (standard norm) — the board expects dictionary-standard stress.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence paragraph about a personal Sunday routine disrupted by an unexpected event, deliberately using: (1) a compound sentence with \"or\", (2) a simple sentence of ≤8 words, (3) a complex sentence with a \"when\" clause, (4) a compound-complex sentence with both \"and\" and a relative clause. Mark primary/secondary stress in two polysyllabic words you use.",
+     "a": "Sample answer:\n1. (Compound) \"Usually I read the newspaper or I listen to podcasts while drinking tea.\" (25 words)\n2. (Simple) \"But today the power failed.\" (6 words)\n3. (Complex) \"When the outage hit, my router died instantly.\" (9 words)\n4. (Compound-Complex) \"I lit a candle and finished the chapter that I had started yesterday.\" (14 words)\nStress marking: ˌnews-ˈpa-per (secondary on first, primary on second); ˌin-stant-ˈly (secondary on first, primary on third).\nA poor answer uses four simple sentences or misses the required connectors, revealing inability to consciously manipulate syntactic variety — the exact skill tested in CBSE writing section (Article/Report) where \"sentence variety\" is a rubric criterion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

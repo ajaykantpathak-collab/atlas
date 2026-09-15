@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_7",
+   "title": "c9_bio_ch3_7",
+   "questions": [
+    {
+     "q": "Define double fertilisation and name the two fusion events with their respective products.",
+     "a": "Double fertilisation is the process where two male gametes from a pollen tube fuse with two different female nuclei in the embryo sac: (1) syngamy - fusion of one male gamete with the egg cell forming a diploid (2n) zygote, and (2) triple fusion - fusion of the second male gamete with two polar nuclei forming a triploid (3n) primary endosperm nucleus. A wrong answer revealing confusion between the two fusion events (e.g., saying both gametes fuse with the egg) shows the student hasn't grasped the functional separation of the two sperm cells.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the pollen tube grow all the way to the embryo sac instead of the male gametes swimming to the egg like in bryophytes and pteridophytes?",
+     "a": "Flowering plants are terrestrial and lack free water for flagellated sperm motility; the pollen tube acts as a conduit delivering non-motile male gametes directly to the embryo sac through sporophytic tissue. The tube grows via tip elongation guided by chemotropic signals (like calcium gradients) from the synergids. A wrong answer suggesting pollen tubes are \"just like roots\" reveals confusion between vegetative growth and targeted gamete delivery - the pollen tube is a haploid gametophytic structure, not a diploid sporophytic organ.",
+     "self_check": true
+    },
+    {
+     "q": "In a flowering plant with 2n=24 chromosomes, determine the chromosome number in: (a) the zygote, (b) the primary endosperm nucleus, (c) the antipodal cells before fertilisation, and (d) the pollen grain nucleus.",
+     "a": "(a) Zygote: 24 chromosomes (2n) - formed by fusion of n=12 egg + n=12 sperm. (b) Primary endosperm nucleus: 36 chromosomes (3n) - fusion of n=12 sperm + n=12 polar nucleus + n=12 polar nucleus. (c) Antipodal cells: 12 chromosomes (n) - they are haploid cells of the female gametophyte. (d) Pollen grain nucleus (generative): 12 chromosomes (n) - haploid product of meiosis. A wrong answer giving 2n for endosperm reveals the student thinks triple fusion involves only one polar nucleus, not two.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of the two male gametes in double fertilisation with the single fertilisation event in gymnosperms. What evolutionary advantage does double fertilisation provide?",
+     "a": "In gymnosperms, one sperm fuses with the egg (the other degenerates) forming only a zygote; nutritive tissue (female gametophyte) is pre-formed and haploid (n). In angiosperms, double fertilisation produces both zygote (2n) and endosperm (3n) simultaneously - the endosperm is a fresh, genetically matched, triploid nutritive tissue formed only after fertilisation, avoiding resource waste on unfertilised ovules. A wrong answer stating \"gymnosperms also have double fertilisation\" confuses the rare double fertilisation in Ephedra/Gnetum (which produces two zygotes, not endosperm) with the angiosperm pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The primary endosperm nucleus is 3n because it forms from three haploid nuclei, so the endosperm tissue will also be 3n.\" Evaluate this statement.",
+     "a": "The statement is correct about the primary endosperm nucleus being 3n (triple fusion of three haploid nuclei), but incomplete - the endosperm tissue develops through mitotic divisions of this nucleus, so all endosperm cells remain 3n. However, in many plants (like cereals), the endosperm becomes polyploid through repeated DNA replication without cytokinesis. A wrong answer saying \"endosperm becomes 2n after some divisions\" reveals confusion between chromosome number (set by fusion) and DNA content (which can increase).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using pollen grains of a common garden plant (like petunia or pumpkin) to observe pollen tube growth in vitro, and explain how you would confirm that double fertilisation has occurred in vivo.",
+     "a": "In vitro: Dust mature pollen on a slide with 10% sucrose + 0.01% boric acid + 1% agar; incubate at 25°C for 1-2 hours; observe tube germination under microscope. In vivo confirmation: Tag newly pollinated flowers, fix ovules at 24-48 hour intervals, stain with acetocarmine, and observe under microscope for: (1) pollen tube entry at micropyle, (2) two sperm cells released, (3) one sperm fusing with egg (zygote formation), (4) other sperm fusing with polar nuclei (primary endosperm nucleus). A poor answer suggesting \"wait for seeds to form\" confuses fertilisation (hours) with seed development (weeks) and doesn't address direct observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

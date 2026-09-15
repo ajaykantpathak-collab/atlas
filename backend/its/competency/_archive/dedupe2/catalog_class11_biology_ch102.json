@@ -1,0 +1,392 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 102,
+ "chapter_title": "Biological Classification",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo102.txt",
+ "concepts": [
+  {
+   "id": "kebo.102.1",
+   "title": "Five Kingdom Classification Criteria",
+   "section": "2",
+   "definition": "A taxonomic system that organizes all living organisms into five distinct kingdoms based on cellular complexity, body organization, mode of nutrition, reproduction, and evolutionary lineage.",
+   "formula": "",
+   "key_idea": "Organisms are classified using multiple cellular, physiological, and phylogenetic parameters rather than superficial traits.",
+   "textbook_ref": "kebo102.txt lines 45-75",
+   "question_patterns": [
+    "What are the main criteria used by Whittaker for the five kingdom classification?",
+    "State the five kingdoms proposed by R.H. Whittaker.",
+    "How did Whittaker's classification system improve upon earlier systems?",
+    "List the five kingdoms of life and their defining structural criteria.",
+    "Explain the basis of the five kingdom classification system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the five kingdoms",
+     "explain": "The five kingdoms defined by Whittaker are Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+     "step": 2,
+     "action": "List the key criteria",
+     "explain": "The classification is based on cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.2",
+   "title": "Kingdom Monera and Bacterial Shapes",
+   "section": "2.1",
+   "definition": "Prokaryotic single-celled organisms, primarily bacteria, characterized by simple structural organization but highly diverse metabolic capabilities, classified into four distinct shapes.",
+   "formula": "",
+   "key_idea": "Bacteria are the sole members of Monera and are categorized by their physical morphology.",
+   "textbook_ref": "kebo102.txt lines 110-135",
+   "question_patterns": [
+    "Describe the four basic shapes of bacteria with examples.",
+    "What are the primary morphological categories of Kingdom Monera?",
+    "How are bacteria classified based on their shape?",
+    "Identify the shape of Coccus, Bacillus, Vibrium, and Spirillum.",
+    "Name the sole members of Kingdom Monera and their structural forms."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four shapes",
+     "explain": "Bacteria are categorized into spherical Coccus, rod-shaped Bacillus, comma-shaped Vibrium, and spiral Spirillum."
+    },
+    {
+     "step": 2,
+     "action": "Explain metabolic diversity",
+     "explain": "Despite their simple structure, bacteria exhibit complex behavior and the most extensive metabolic diversity of any group."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.3",
+   "title": "Archaebacteria and Extreme Habitats",
+   "section": "2.1.1",
+   "definition": "A specialized group of ancient bacteria possessing a unique cell wall structure that enables them to survive in highly hostile environments like salt pans, hot springs, and marshes.",
+   "formula": "",
+   "key_idea": "Distinct cell wall composition allows survival in extreme ecological niches.",
+   "textbook_ref": "kebo102.txt lines 136-150",
+   "question_patterns": [
+    "What are archaebacteria and where are they found?",
+    "Explain how archaebacteria survive in extreme conditions.",
+    "What is the role of methanogens in ruminant animals?",
+    "Differentiate halophiles, thermoacidophiles, and methanogens.",
+    "Why are archaebacteria considered unique compared to other bacteria?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three main groups",
+     "explain": "Archaebacteria include halophiles (salty areas), thermoacidophiles (hot springs), and methanogens (marshy areas and ruminant guts)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the structural adaptation",
+     "explain": "Their survival in extreme conditions is due to a unique cell wall structure that differs from other bacteria."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.4",
+   "title": "Eubacteria and Cyanobacteria",
+   "section": "2.1.2",
+   "definition": "True bacteria characterized by a rigid cell wall and often a flagellum, including photosynthetic autotrophs like blue-green algae that can fix atmospheric nitrogen.",
+   "formula": "",
+   "key_idea": "Eubacteria include photosynthetic, chemosynthetic, and heterotrophic forms with significant ecological roles.",
+   "textbook_ref": "kebo102.txt lines 151-190",
+   "question_patterns": [
+    "What are eubacteria and how do they differ from archaebacteria?",
+    "Describe the structure and nitrogen-fixing ability of cyanobacteria.",
+    "What is the function of heterocysts in Nostoc and Anabaena?",
+    "Explain the ecological and economic importance of heterotrophic bacteria.",
+    "How do chemosynthetic autotrophic bacteria produce ATP?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define eubacteria",
+     "explain": "Eubacteria are true bacteria with rigid cell walls and flagella if motile."
+    },
+    {
+     "step": 2,
+     "action": "Explain cyanobacteria features",
+     "explain": "Cyanobacteria are photosynthetic autotrophs containing chlorophyll a, often forming gelatinous colonies, and can fix nitrogen using specialized cells called heterocysts."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.5",
+   "title": "Chrysophytes and Diatomaceous Earth",
+   "section": "2.2.1",
+   "definition": "A group of microscopic, photosynthetic protists including diatoms and golden algae, characterized by indestructible siliceous cell walls that form massive geological deposits.",
+   "formula": "",
+   "key_idea": "Diatom cell walls fit like a soap box and leave gritty silica deposits used in filtration and polishing.",
+   "textbook_ref": "kebo102.txt lines 205-220",
+   "question_patterns": [
+    "What is the nature of cell walls in diatoms?",
+    "How is diatomaceous earth formed and what are its uses?",
+    "Why are diatoms called the chief producers of the oceans?",
+    "Describe the structural features of chrysophytes.",
+    "Explain the soap-box-like cell wall structure of diatoms."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the cell wall structure",
+     "explain": "Diatoms have two thin overlapping shells embedded with silica, fitting together like a soap box, making them indestructible."
+    },
+    {
+     "step": 2,
+     "action": "Explain the formation of diatomaceous earth",
+     "explain": "Accumulation of these cell wall deposits over billions of years forms diatomaceous earth, which is gritty and used in polishing and filtration."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.6",
+   "title": "Euglenoids and Mixotrophy",
+   "section": "2.2.3",
+   "definition": "Freshwater protists lacking a cell wall but possessing a flexible protein-rich pellicle, exhibiting photosynthetic behavior in light and heterotrophic behavior in its absence.",
+   "formula": "",
+   "key_idea": "Flexible body with dual nutritional modes (phototrophic and heterotrophic).",
+   "textbook_ref": "kebo102.txt lines 230-245",
+   "question_patterns": [
+    "What are the characteristic features of Euglenoids?",
+    "How do Euglenoids behave in the absence of sunlight?",
+    "What is a pellicle and what is its function in Euglena?",
+    "Describe the flagellar arrangement and nutrition of Euglena.",
+    "Why are euglenoids considered transitionary between plants and animals?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify structural features",
+     "explain": "Euglenoids lack a cell wall and instead have a protein-rich flexible layer called a pellicle, along with two flagella."
+    },
+    {
+     "step": 2,
+     "action": "Explain nutritional behavior",
+     "explain": "They are photosynthetic in sunlight, but act as heterotrophic predators when deprived of light."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.7",
+   "title": "Protozoans and Their Major Groups",
+   "section": "2.2.5",
+   "definition": "Heterotrophic, single-celled eukaryotic organisms that live as predators or parasites, divided into amoeboid, flagellated, ciliated, and sporozoan groups.",
+   "formula": "",
+   "key_idea": "Unicellular animal relatives categorized by their mechanisms of locomotion.",
+   "textbook_ref": "kebo102.txt lines 255-285",
+   "question_patterns": [
+    "Describe the four major groups of protozoans with examples.",
+    "What are amoeboid protozoans and how do they capture prey?",
+    "Identify the causative agent of sleeping sickness and malaria among protozoans.",
+    "Explain the function of cilia in Paramecium.",
+    "What are sporozoans and why are they medically significant?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the four groups",
+     "explain": "Protozoans are divided into amoeboid (use pseudopodia), flagellated (have flagella), ciliated (have cilia), and sporozoans (have an infectious spore stage)."
+    },
+    {
+     "step": 2,
+     "action": "Provide examples for each",
+     "explain": "Examples include Amoeba (amoeboid), Trypanosoma (flagellated), Paramecium (ciliated), and Plasmodium (sporozoan)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.8",
+   "title": "Kingdom Fungi and Coenocytic Hyphae",
+   "section": "2.3",
+   "definition": "A diverse kingdom of heterotrophic, mostly multicellular eukaryotic organisms with cell walls made of chitin, characterized by a network of thread-like structures called hyphae.",
+   "formula": "",
+   "key_idea": "Fungi are filamentous decomposers, parasites, or symbionts with chitinous cell walls.",
+   "textbook_ref": "kebo102.txt lines 286-335",
+   "question_patterns": [
+    "What is the composition of the cell wall in fungi?",
+    "Define hyphae, mycelium, and coenocytic hyphae.",
+    "Explain the three steps of the sexual cycle in fungi.",
+    "How do fungi reproduce vegetatively and asexually?",
+    "What is a dikaryon stage in fungal reproduction?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define vegetative structures",
+     "explain": "Fungal bodies consist of thread-like hyphae; a network of hyphae is a mycelium. Continuous multinucleated hyphae are called coenocytic."
+    },
+    {
+     "step": 2,
+     "action": "Explain the sexual cycle steps",
+     "explain": "The sexual cycle involves plasmogamy (protoplasm fusion), karyogamy (nuclear fusion), and meiosis (producing haploid spores)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.9",
+   "title": "Classes of Fungi",
+   "section": "2.3",
+   "definition": "The division of Kingdom Fungi into Phycomycetes, Ascomycetes, Basidiomycetes, and Deuteromycetes based on mycelium morphology, spore formation, and fruiting bodies.",
+   "formula": "",
+   "key_idea": "Fungi are classified by their structural morphology and sexual reproduction methods.",
+   "textbook_ref": "kebo102.txt lines 336-405",
+   "question_patterns": [
+    "Compare the four main classes of Kingdom Fungi.",
+    "Why are Deuteromycetes called imperfect fungi?",
+    "Give examples of Phycomycetes, Ascomycetes, and Basidiomycetes.",
+    "Differentiate between endogenous and exogenous spore formation in fungi.",
+    "Which class of fungi includes mushrooms, rusts, and smuts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish the classes",
+     "explain": "Phycomycetes have aseptate/coenocytic mycelia; Ascomycetes, Basidiomycetes, and Deuteromycetes have septate/branched mycelia."
+    },
+    {
+     "step": 2,
+     "action": "Explain Deuteromycetes status",
+     "explain": "Deuteromycetes are called imperfect because only their asexual or vegetative phases are known; they lack identified sexual stages."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.10",
+   "title": "Viruses, Viroids, and Prions",
+   "section": "2.6",
+   "definition": "Non-cellular infectious agents excluded from the five-kingdom system, consisting of either nucleoproteins (viruses), free low-molecular-weight RNA (viroids), or abnormally folded proteins (prions).",
+   "formula": "",
+   "key_idea": "Sub-cellular pathogens that hijack host cellular machinery to replicate.",
+   "textbook_ref": "kebo102.txt lines 420-475",
+   "question_patterns": [
+    "How are viroids different from viruses?",
+    "What are prions and what diseases do they cause?",
+    "Describe the structure and genetic material of a virus.",
+    "Why are viruses excluded from Whittaker's five-kingdom classification?",
+    "Explain the contributions of Ivanowsky, Beijerinck, and Stanley to virology."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define viruses",
+     "explain": "Viruses are inert crystalline nucleoproteins outside hosts, containing either DNA or RNA protected by a protein coat (capsid)."
+    },
+    {
+     "step": 2,
+     "action": "Define viroids and prions",
+     "explain": "Viroids are free RNA molecules lacking a protein coat. Prions are infectious agents composed entirely of abnormally folded proteins."
+    }
+   ]
+  },
+  {
+   "id": "kebo.102.11",
+   "title": "Lichens as Symbiotic Associations",
+   "section": "2.6",
+   "definition": "A mutually beneficial symbiotic partnership between an autotrophic algal component (phycobiont) and a heterotrophic fungal component (mycobiont).",
+   "formula": "",
+   "key_idea": "Dual organisms acting as a single ecological unit and serving as sensitive pollution indicators.",
+   "textbook_ref": "kebo102.txt lines 476-488",
+   "question_patterns": [
+    "What do the terms phycobiont and mycobiont signify?",
+    "Describe the symbiotic relationship in lichens.",
+    "Why are lichens considered excellent pollution indicators?",
+    "Explain the mutual benefits shared by algae and fungi in a lichen.",
+    "How do lichens behave in environments with high air pollution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the symbiotic components",
+     "explain": "The phycobiont (algal partner) synthesizes food, while the mycobiont (fungal partner) provides shelter and absorbs water and minerals."
+    },
+    {
+     "step": 2,
+     "action": "Explain environmental sensitivity",
+     "explain": "Lichens are highly sensitive to air pollution and do not grow in polluted areas, making them excellent natural bioindicators."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo102.txt lines 205-220",
+   "concept": "kebo.102.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why diatoms are indestructible and how they contribute to diatomaceous earth.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the cell wall composition",
+     "explain": "Diatoms have cell walls embedded with silica, making them highly resistant to destruction."
+    },
+    {
+     "step": 2,
+     "action": "Explain the accumulation process",
+     "explain": "Over billions of years, the dead remains of these cell walls accumulate at the bottom of water bodies, forming diatomaceous earth."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo102.txt lines 455-465",
+   "concept": "kebo.102.10",
+   "question_type": "verify_property",
+   "question_pattern": "Differentiate between a virus and a viroid based on their structural components.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze virus structure",
+     "explain": "A virus consists of a genetic material (either DNA or RNA) enclosed within a protein coat called a capsid."
+    },
+    {
+     "step": 2,
+     "action": "Analyze viroid structure",
+     "explain": "A viroid is smaller than a virus and consists solely of free, low-molecular-weight RNA without any protein coat."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "kebo102.txt lines 490-515",
+   "questions": [
+    "Discuss how classification systems have undergone several changes over a period of time?",
+    "State two economically important uses of: (a) heterotrophic bacteria (b) archaebacteria",
+    "What is the nature of cell-walls in diatoms?",
+    "Find out what do the terms 'algal bloom' and 'red-tides' signify.",
+    "How are viroids different from viruses?",
+    "Describe briefly the four major groups of Protozoa.",
+    "Plants are autotrophic. Can you think of some plants that are partially heterotrophic?",
+    "What do the terms phycobiont and mycobiont signify?",
+    "Give a comparative account of the classes of Kingdom Fungi under the following: (i) mode of nutrition (ii) mode of reproduction",
+    "What are the characteristic features of Euglenoids?",
+    "Give a brief account of viruses with respect to their structure and nature of genetic material. Also name four common viral diseases.",
+    "Organise a discussion in your class on the topic - Are viruses living or non-living?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_009",
+   "title": "c11_acc_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the primary utility of a ledger that distinguishes it from a journal?",
+     "a": "The ledger provides the net balance of a specific account on a given date by grouping all its debits and credits in one place, whereas the journal records transactions chronologically without account-wise classification. A wrong answer (e.g., \"ledger records transactions first\") reveals the student confuses the sequence of recording (journal first, ledger second) and misses the analytical purpose of the ledger.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ledger is called the 'principal book of accounting system' while the journal is called the 'book of original entry'.",
+     "a": "The journal is the book of original entry because transactions are recorded there first, in chronological order, from source documents. The ledger is the principal book because it contains the final, classified summary of all accounts, which is the direct source for preparing the trial balance and financial statements. A wrong answer (e.g., \"ledger is used for original recording\") shows the student has not grasped the sequential relationship: journal → ledger → trial balance → financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "A business has the following accounts: Cash, Bank, Furniture, Capital, Sales, Rent Expense, and Creditors. Classify each as permanent or temporary and state which financial statement each permanent account appears in.",
+     "a": "Permanent (Balance Sheet): Cash (Asset), Bank (Asset), Furniture (Asset), Capital (Equity), Creditors (Liability). Temporary (closed to Trading/P&L): Sales (Revenue), Rent Expense (Expense). A wrong classification (e.g., putting Sales in Balance Sheet) reveals the student does not understand that revenue/expense accounts are temporary and closed at period-end, while asset/liability/capital accounts carry forward.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information available in a journal entry for a credit sale to Mohan (₹10,000) with the information that will appear in Mohan's ledger account after posting. What additional insight does the ledger provide?",
+     "a": "The journal shows one transaction: Mohan Dr. ₹10,000 / Sales Cr. ₹10,000. The ledger account for Mohan will show this ₹10,000 debit alongside any other transactions with Mohan (e.g., previous sales, cash received, returns). The ledger reveals the running balance (net amount Mohan owes), which the journal cannot. A wrong answer focusing only on the single entry misses the aggregation function of the ledger.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since the journal already has a complete record of every transaction with debits and credits, the ledger is redundant in a computerised accounting system.\"",
+     "a": "The statement is false. Even in computerised systems, the ledger (general ledger) is the core database table that stores account balances. The journal is the input interface; the ledger is the aggregated output used for trial balance, financial statements, and management queries (e.g., \"show me the balance of Debtor X\"). Redundancy would imply the same data stored twice, but here the data is transformed from transaction-level to account-level. A student agreeing reveals they view the ledger only as a manual posting step, not as the structural foundation of the accounting information system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a business owner needs information that can ONLY be obtained from the ledger, not the journal. Specify the accounts involved and the question the owner asks.",
+     "a": "Scenario: On 31st March, the owner asks, \"What is the total amount receivable from all debtors combined, and what is the individual balance of our top 5 customers?\" The journal would require filtering and summing across hundreds of entries for multiple debtor accounts. The ledger provides each debtor's individual balance instantly, and the sum of all debtor balances gives total receivables. A poor answer gives a scenario answerable from a single journal entry (e.g., \"what was the sale to X on 15th March?\"), missing the need for account-wise aggregation over time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

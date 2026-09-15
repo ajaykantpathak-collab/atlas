@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_011",
+   "title": "c10_chem_cbse_04_011",
+   "questions": [
+    {
+     "q": "Write the molecular formula and functional group of ethanol and ethanoic acid. How do their functional groups differ in structure?",
+     "a": "Ethanol: C₂H₅OH, functional group –OH (hydroxyl). Ethanoic acid: CH₃COOH, functional group –COOH (carboxyl). The carboxyl group contains a carbonyl (C=O) and a hydroxyl (–OH) attached to the same carbon, whereas the hydroxyl group in ethanol is attached to an alkyl carbon only. A wrong answer (e.g., writing –OH for both) reveals the student cannot distinguish the structural difference between alcohol and carboxylic acid functional groups, leading to errors in predicting acidity and reaction types.",
+     "self_check": true
+    },
+    {
+     "q": "Ethanol reacts with sodium metal to give hydrogen gas. Ethanoic acid also reacts with sodium metal to give hydrogen gas. A student concludes both have equal acidic strength. Why is this conclusion incorrect? Explain using the reaction with NaHCO₃.",
+     "a": "Both react with Na because both have an acidic hydrogen (–OH in ethanol, –COOH in ethanoic acid), but ethanoic acid is a stronger acid (pKa ~4.76) than ethanol (pKa ~16). Ethanoic acid reacts with NaHCO₃ (a weak base) to evolve CO₂, while ethanol does not. A student who says \"both are equally acidic\" confuses reactivity with sodium (which only requires a polar O–H bond) with acidic strength (which requires stable conjugate base; carboxylate ion is resonance-stabilised, ethoxide is not). This misconception leads to wrong predictions in esterification equilibrium and salt formation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reaction of ethanol with concentrated sulphuric acid at (a) 170°C and (b) 140°C. Name the products and the reaction type in each case.",
+     "a": "(a) CH₃CH₂OH →[conc. H₂SO₄, 170°C] CH₂=CH₂ + H₂O (dehydration / elimination). (b) 2CH₃CH₂OH →[conc. H₂SO₄, 140°C] CH₃CH₂–O–CH₂CH₃ + H₂O (substitution / condensation forming diethyl ether). A wrong answer (e.g., same product at both temperatures, or unbalanced equation) reveals the student has not memorised the temperature-dependent reaction pathway — a classic board exam trap. The examiners often ask \"what happens at 140°C vs 170°C?\" as a 2-marker.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxidation of ethanol and ethanoic acid using alkaline KMnO₄ or acidified K₂Cr₂O₇. What products form? Why does ethanoic acid not oxidise further under these conditions?",
+     "a": "Ethanol oxidises first to ethanal (CH₃CHO) then to ethanoic acid (CH₃COOH). Ethanoic acid does not oxidise further because the carbonyl carbon is already at its highest oxidation state (+3) and has no α-hydrogen to lose; cleavage of C–C bond would require stronger conditions (e.g., combustion). A student who writes \"ethanoic acid oxidises to CO₂ and H₂O\" confuses combustion with controlled oxidation. This error costs marks in \"distinguish between\" questions and in predicting products of oxidation of alcohols vs acids.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds a few drops of ethanoic acid to sodium hydrogen carbonate solution in a test tube. No effervescence is observed. The student concludes ethanoic acid is a weak acid and does not react with NaHCO₃. Evaluate this conclusion and identify the likely experimental error.",
+     "a": "The conclusion is wrong. Ethanoic acid (pKa 4.76) is stronger than carbonic acid (pKa1 6.35), so it *does* react with NaHCO₃ to give CO₂ effervescence: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂↑. No effervescence means either (i) the acid was too dilute (vinegar is fine, but very dilute may be slow), (ii) the NaHCO₃ was stale (decomposed to Na₂CO₃), or (iii) the student didn't wait/observe carefully. A student who accepts \"no reaction\" fails to apply acid-base strength comparison — a competency-based reasoning skill tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-step laboratory sequence using only ethanol, ethanoic acid, sodium metal, sodium hydrogen carbonate, and concentrated sulphuric acid to distinguish between three unlabelled test tubes containing ethanol, ethanoic acid, and water. Write the observation for each test tube at each step.",
+     "a": "Step 1: Add Na metal to each. Ethanol → steady H₂ bubbles; ethanoic acid → vigorous H₂ bubbles; water → very slow H₂ (negligible at room temp). Step 2: To the two that reacted, add NaHCO₃. Ethanoic acid → brisk CO₂ effervescence; ethanol → no gas. Step 3: To the remaining (ethanol), add conc. H₂SO₄ and heat to 170°C → ethene gas (decolourises Br₂ water if tested). Water shows no reaction in any step. A poor answer (e.g., using only one test, or confusing observations) reveals inability to design a logical differentiation scheme — a skill needed for practical-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

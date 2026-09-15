@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_011",
+   "title": "c11_soc_cbse_06_011",
+   "questions": [
+    {
+     "q": "Define Marx's concept of alienation in one sentence using the precise sociological terminology from the NCERT glossary.",
+     "a": "Correct answer: \"Marx used the term to refer to the loss of control on the part of workers over the nature of the labour task, and over the products of their labour.\" A wrong answer revealing misconception: \"Alienation means workers feel unhappy, lonely, or disconnected from society.\" This confuses the subjective psychological state (anomie/isolation) with the objective structural condition of lost control over labour and its product — a Category Error between structural analysis and psychological description.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Varanasi handloom weaver who works 12 hours daily for a master weaver, follows prescribed designs, and earns piece-rate wages is NOT alienated because they use traditional skills and work from home.\" Using Marx's four dimensions, explain why this reasoning is flawed.",
+     "a": "Correct reasoning: The weaver experiences all four alienations: (1) Product alienation — the cloth belongs to the master weaver, not the weaver; (2) Process alienation — labour is externally controlled (designs, deadlines, pace set by master); (3) Species-being alienation — creative potential reduced to mechanical reproduction of others' designs; (4) Social alienation — relation to master is hierarchical market exchange, not communal cooperation. A wrong answer focusing only on \"traditional skills\" or \"work from home\" reveals the Technology/Location Fallacy: confusing the means of production (handloom vs powerloom) or workplace (home vs factory) with the social relations of production (wage labour, private property) that generate alienation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Marx's concept to analyze this scenario: A software engineer at a Bengaluru startup \"owns\" their code on GitHub, chooses their stack, works flexible hours, and gets equity. Yet they experience burnout, cannot pursue creative side projects, and feel their work serves investor metrics not human needs. Identify which dimensions of alienation are present/absent and justify.",
+     "a": "Step-by-step application: (1) Product alienation: PARTIALLY PRESENT — code legally belongs to company (IP assignment), equity is illiquid/conditional; (2) Process alienation: PARTIALLY ABSENT — apparent autonomy in stack/process, but sprint deadlines, investor-driven roadmaps, surveillance (Jira/GitHub metrics) impose external control; (3) Species-being alienation: PRESENT — creative coding reduced to feature-factory output for valuation metrics, not human need; (4) Social alienation: PRESENT — relations mediated by equity/competition, not cooperation; \"culture\" masks extraction. A wrong answer claiming \"no alienation because of autonomy/equity\" reveals the Formal Autonomy Fallacy: mistaking surface-level discretion for substantive control over the labour process and its purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Marx's alienation and Durkheim's anomie using this contrast: A factory worker in 1890s Manchester vs. a freelance graphic designer in 2024 Mumbai. Analyze how each concept explains their condition differently, and identify one scenario where BOTH concepts apply simultaneously.",
+     "a": "Correct analysis: Manchester worker — Alienation (primary): separated from product (owned by capitalist), process (machine-paced), species-being (reduced to appendage), others (class antagonism). Anomie: ABSENT — strong collective norms (union, community, religion). Mumbai freelancer — Anomie (primary): normlessness in gig economy, no collective regulation, algorithmic unpredictability, isolated competition. Alienation: PARTIAL — owns product (copyright), controls process, but species-being alienated (creativity commodified for client briefs), socially alienated (platform-mediated competition). BOTH apply: Amazon warehouse worker — Alienation (algorithm controls process, product owned by Bezos, species-being reduced to \"pick rate\", social relations atomized) AND Anomie (no stable norms, constant surveillance, isolated competition, union-busting). Wrong answer equating the two reveals the Conflation Error: treating structural powerlessness (alienation) as identical to normative deregulation (anomie), missing that alienation requires capitalist relations of production while anomie can exist in any normless context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Marx's alienation theory is outdated because modern Indian workers have labour laws, unions, and technology that gives them more control than 19th-century factory workers.\" Provide a sociological judgment with evidence from at least two Indian labour contexts (formal and informal).",
+     "a": "Correct evaluation: The claim is INVALID. Sociological judgment: Alienation persists because labour laws regulate but don't abolish the wage relation. Evidence: (1) Formal sector — Maruti Suzuki Manesar workers (2011-12): despite unions/laws, product/process controlled by Japanese management, speed-up via \"kaizen\", species-being alienated (skilled workers doing repetitive tightening), social alienation (contract vs permanent divide). (2) Informal sector — Mumbai construction workers: no legal coverage, product (building) owned by developer, process controlled by contractor/thekedar, species-being alienated (migrant labour as \"hands\"), social alienation (caste/region hierarchies). Technology INTENSIFIES alienation: warehouse algorithms, ride-app surveillance, IT \"agile\" micromanagement. Wrong answer citing \"better conditions\" reveals the Melioration Fallacy: confusing improved living standards with transformed relations of production — alienation is about the STRUCTURE of labour, not its intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original analytical framework: Design a 4-question \"Alienation Audit\" that an Indian sociologist could use to measure alienation in any workplace (factory, office, gig, home-based). Each question must map to ONE specific dimension, be empirically observable, and avoid psychological language.",
+     "a": "Expected framework (criteria: each question targets ONE dimension, observable, non-psychological):\n1. Product: \"Who legally owns the output you produce at the end of each work period, and can you determine its use/disposal?\" (Maps to product alienation — ownership/control)\n2. Process: \"Who decides the sequence, pace, and method of your tasks during the work period — you, a supervisor, an algorithm, or a client?\" (Maps to process alienation — control over labour process)\n3. Species-being: \"Does your work allow you to develop and express capabilities (creativity, judgment, craft) beyond what is strictly required for the assigned task?\" (Maps to species-being — human potential vs. narrow function)\n4. Social: \"Are your workplace relationships primarily cooperative (shared purpose, mutual aid) or competitive/contractual (individual targets, replaceability, hierarchy)?\" (Maps to social alienation — relation type). Poor answer: \"Do you feel proud of your work?\" (psychological, conflates dimensions). This reveals the Subjectivist Trap: designing measures that capture feelings rather than structural positions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

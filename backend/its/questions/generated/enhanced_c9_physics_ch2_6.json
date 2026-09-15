@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_6",
+   "title": "c9_physics_ch2_6",
+   "questions": [
+    {
+     "q": "What physical quantity does the slope of a distance-time graph represent, and what are its SI units?",
+     "a": "The slope represents speed, with SI units of metres per second (m/s). A wrong answer such as \"velocity\" reveals the student confuses scalar distance with vector displacement; a wrong answer such as \"acceleration\" reveals confusion with velocity-time graphs where slope gives acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A distance-time graph for a car shows a straight line passing through the origin with a slope of 15 m/s. After 20 seconds, the line becomes horizontal. Explain what the horizontal section means physically and why the graph cannot tell us whether the car is facing north or south.",
+     "a": "The horizontal section means the car is at rest (speed = 0 m/s) because distance does not change with time. The graph cannot indicate direction because distance is a scalar quantity — it only measures path length, not displacement. A wrong answer stating \"the car moves backwards\" reveals the student thinks a flat line means negative speed, confusing distance-time with displacement-time graphs.",
+     "self_check": true
+    },
+    {
+     "q": "Two cyclists, A and B, start from the same point at the same time. Cyclist A's distance-time graph is a straight line with slope 5 m/s. Cyclist B's graph is a curve that starts steeper than A's but becomes less steep after 10 s. At t = 15 s, both have travelled 75 m. Calculate the average speed of each cyclist over 15 s and explain which cyclist had a higher initial speed.",
+     "a": "Average speed = total distance / total time = 75 m / 15 s = 5 m/s for both. Cyclist B had higher initial speed because the curve starts steeper than A's straight line (slope > 5 m/s initially). A wrong answer giving different average speeds reveals the student does not understand average speed depends only on total distance and total time, not the path taken.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a distance-time graph for a ball thrown vertically upward and claims the graph goes up, then down, forming an inverted V shape. Identify the error in this graph and explain what the correct graph should look like.",
+     "a": "The error: distance travelled never decreases — it always increases or stays constant. The graph cannot go down. The correct graph curves upward with decreasing slope (ball slows down), becomes horizontal at the top (momentarily at rest), then curves upward with increasing slope (ball speeds up downward). A wrong answer accepting the inverted V reveals the student confuses distance with displacement or height.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If two objects have the same distance-time graph, they must have the same velocity.\" Is it true or false? Justify your answer.",
+     "a": "False. Distance-time graphs show speed (magnitude only), not velocity (magnitude and direction). Two objects moving in opposite directions at the same speed will have identical distance-time graphs but opposite velocities. A student answering \"true\" reveals confusion between speed and velocity, and between distance and displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a toy car, a metre scale, and a stopwatch to collect data for plotting a distance-time graph of non-uniform motion. Describe how you would ensure the motion is non-uniform and what shape you expect the graph to have.",
+     "a": "Place the toy car on an inclined ramp (e.g., a wooden plank raised at one end) so it accelerates down. Mark positions at 0 cm, 20 cm, 40 cm, 60 cm, 80 cm, 100 cm. Release from rest and measure time to reach each mark. Plot distance vs time. The graph will curve upward with increasing slope (getting steeper) because the car speeds up. A poor answer using a flat surface with constant push reveals the student does not know how to produce measurable non-uniform motion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

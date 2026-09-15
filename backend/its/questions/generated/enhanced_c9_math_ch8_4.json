@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_4",
+   "title": "c9_math_ch8_4",
+   "questions": [
+    {
+     "q": "Write the definition of an arithmetic progression and state the formula for the common difference \\(d\\) in terms of the terms \\(a_n\\) and \\(a_{n+1}\\).",
+     "a": "An arithmetic progression is a sequence where the difference between consecutive terms is constant. The common difference is \\(d = a_{n+1} - a_n\\) for all \\(n \\ge 1\\). A wrong answer (e.g., defining AP as \"numbers increasing by the same amount\" without mentioning constancy for all consecutive pairs, or writing \\(d = a_n - a_{n+1}\\)) reveals confusion about the direction of subtraction or the requirement that the property holds for every pair of adjacent terms, not just the first few.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the sequence: 3, 7, 11, 15, 19,... Is this an arithmetic progression? Explain why or why not by referencing the definition.",
+     "a": "Yes, it is an AP because the difference between consecutive terms is constant: \\(7-3=4\\), \\(11-7=4\\), \\(15-11=4\\), \\(19-15=4\\). The common difference \\(d=4\\). A wrong answer (e.g., \"Yes because it increases by 4\" without checking all given pairs, or \"No because the numbers are not multiples of 4\") shows the student is not verifying the constancy condition for every consecutive pair or is confusing the definition with a pattern of multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Find the common difference of the AP: \\(\\frac{1}{3}, \\frac{5}{6}, \\frac{4}{3}, \\frac{11}{6}, \\dots\\)",
+     "a": "Step 1: Identify two consecutive terms, e.g., \\(a_1 = \\frac{1}{3}\\) and \\(a_2 = \\frac{5}{6}\\). Step 2: Compute \\(d = a_2 - a_1 = \\frac{5}{6} - \\frac{1}{3} = \\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}\\). Step 3: Verify with next pair: \\(a_3 - a_2 = \\frac{4}{3} - \\frac{5}{6} = \\frac{8}{6} - \\frac{5}{6} = \\frac{3}{6} = \\frac{1}{2}\\). The common difference is \\(\\frac{1}{2}\\). A wrong answer (e.g., \\(\\frac{1}{3}\\) or \\(\\frac{5}{6}\\)) usually comes from subtracting incorrectly with fractions or not converting to a common denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Sequence A: 2, 5, 8, 11,... Sequence B: 2, 4, 8, 16,... Compare the two sequences. Which one is an AP? Justify your answer by analysing the pattern of differences.",
+     "a": "Sequence A is an AP because differences are constant: \\(5-2=3\\), \\(8-5=3\\), \\(11-8=3\\). Sequence B is not an AP because differences are not constant: \\(4-2=2\\), \\(8-4=4\\), \\(16-8=8\\). A wrong answer (e.g., claiming both are APs because both have a pattern, or neither because they don't start with the same number) indicates the student is not analysing the differences between consecutive terms but rather looking at the numbers themselves or the first term only.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the sequence defined by \\(a_n = 2n^2 + 1\\) is an arithmetic progression because \"it has a formula\". Evaluate this claim and explain why it is correct or incorrect.",
+     "a": "The claim is incorrect. Compute first few terms: \\(a_1=3\\), \\(a_2=9\\), \\(a_3=19\\), \\(a_4=33\\). Differences: \\(9-3=6\\), \\(19-9=10\\), \\(33-19=14\\). Differences are not constant (they increase by 4 each time), so it is not an AP. A wrong evaluation (e.g., \"correct because it has a formula\" or \"incorrect because the formula is quadratic\") shows the student either thinks any explicit formula defines an AP, or knows quadratics aren't linear but cannot demonstrate the non-constant difference.",
+     "self_check": true
+    },
+    {
+     "q": "Create an arithmetic progression of 5 terms where the common difference is a negative fraction. Write the sequence and verify it is an AP.",
+     "a": "Example: Start with 10, common difference \\(-\\frac{1}{2}\\). Sequence: 10, 9.5, 9, 8.5, 8. Verification: \\(9.5-10=-0.5\\), \\(9-9.5=-0.5\\), \\(8.5-9=-0.5\\), \\(8-8.5=-0.5\\). All differences equal \\(-\\frac{1}{2}\\). A poor answer (e.g., sequence with positive difference, or not verifying all consecutive pairs) reveals the student cannot work with negative fractions or does not understand that the constant difference must be checked for every adjacent pair.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

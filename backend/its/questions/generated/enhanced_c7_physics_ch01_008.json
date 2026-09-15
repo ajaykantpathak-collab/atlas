@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_008",
+   "title": "c7_physics_ch01_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of keeping certain factors constant (controlled variables) during a scientific experiment?",
+     "a": "Controlled variables ensure that any change observed in the dependent variable is caused *only* by the independent variable being tested, making the experiment fair and reliable. If a student thinks controlled variables are just extra steps to make an experiment harder, they misunderstand that uncontrolled factors can ruin the validity of the results by introducing hidden causes.",
+     "self_check": true
+    },
+    {
+     "q": "Why must physical measurements in experiments be recorded using standard SI units rather than informal units like handspans or paces?",
+     "a": "Standard SI units provide a universal, consistent language that allows scientists anywhere in the world to replicate, compare, and verify experimental findings accurately. A student who believes informal units are just as good fails to understand that non-standard units vary from person to person, making scientific communication and global reproducibility impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A student testing how surface texture affects the rolling distance of a marble measures distances of 1.2 m on a smooth wooden board, 0.8 m on a rubber mat, and 0.4 m on rough carpet. If the marble is released from the exact same height each time, calculate the total average distance the marble traveled across all three surfaces.",
+     "a": "Steps: 1) Identify given values: distance 1 ($d_1$) = 1.2 m, distance 2 ($d_2$) = 0.8 m, distance 3 ($d_3$) = 0.4 m. 2) Identify the operation: find the sum and divide by the number of trials (3) to find the average. 3) Substitute values: $(1.2\\text{ m} + 0.8\\text{ m} + 0.4\\text{ m}) / 3$. 4) Compute sum: $2.4\\text{ m} / 3 = 0.8\\text{ m}$. 5) Verify units and reasonableness: average distance is 0.8 m, which is physically reasonable and correctly tracks units. A student who gets a wrong answer often adds or divides incorrectly or loses track of the unit of length (meters).",
+     "self_check": true
+    },
+    {
+     "q": "How does gathering quantitative data through repeated trials improve our confidence in an experimental result compared to relying on a single observation?",
+     "a": "Repeated trials help identify and reduce the impact of random experimental errors or accidental mistakes, ensuring the final conclusion is consistent and trustworthy. A student who thinks one successful trial is enough does not understand that accidental anomalies can easily mimic true physical laws if not checked through repetition.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs an experiment on heat conduction in metal rods of different materials (copper, iron, aluminum) of the exact same length and thickness, using wax to hold pins on them. The student concludes that copper conducts heat best because its pin falls off first. Judge whether this conclusion is logically justified based on experimental design.",
+     "a": "The conclusion is justified because all variables except the material (independent variable) were strictly controlled, allowing a direct comparison of thermal conductivity based on the time taken for the pin to drop. A student who claims the experiment is invalid because the pins were different sizes misses the point that experimental control ensures a fair test when size and thickness are identical.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items in India to test whether the color of a container affects how fast water inside it absorbs heat from sunlight.",
+     "a": "A good answer will propose taking two identical small containers (e.g., empty steel tiffin boxes), painting one black and leaving the other shiny silver (or white), filling both with equal amounts of water at room temperature (measured with a thermometer in °C), placing both in direct sunlight for 1 hour, and measuring the final temperature of the water in each. A poor answer fails to control the volume of water, initial temperature, or exposure time, making any temperature difference inconclusive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

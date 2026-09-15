@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_009",
+   "title": "c11_soc_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define \"identity\" in the sociological sense as distinct from the everyday psychological sense, and list the four main sources of identity mentioned in the NCERT glossary.",
+     "a": "Sociologically, identity is the distinctive characteristic of a person or group relating to who they are and what is meaningful to them, formed through social interaction and structural location. The NCERT glossary lists gender, nationality/ethnicity, social class, and (implicitly through chapter context) caste/religion as main sources. A wrong answer that defines identity as \"personality traits\" or \"self-concept\" reveals a psychological rather than sociological understanding — missing that identity is a social address linking individuals to collectivities with differential power.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"My identity as a 'Brahmin' is fixed by birth and biology, so it cannot be socially constructed.\" Using the distinction between ascribed status and social construction, explain why this statement reflects a common misconception.",
+     "a": "While caste is an ascribed status assigned at birth, its meaning, hierarchy, and boundaries are socially constructed: the purity-pollution logic, endogamy rules, and occupational associations are maintained by collective beliefs and institutional practices (e.g., marriage networks, temple entry), not biology. The misconception confuses \"ascribed at birth\" with \"biologically determined\" — a student making this error fails to see that even unchosen identities are sustained by social processes that can change (e.g., urbanization weakening ritual avoidance, democratic politics reshaping caste as interest groups).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following situation using the concept of reference groups: A Dalit teenager in a metropolitan city follows Ambedkarite Buddhist groups on social media, adopts their language of rights and dignity, and distances themselves from village caste customs. Identify the reference group, the aspirational identity, and the structural constraint that makes this identity negotiation necessary.",
+     "a": "Reference group: Ambedkarite Buddhist collectives (online/offline) whose lifestyle and ideology are emulated. Aspirational identity: A modern, rights-bearing citizen identity transcending caste stigma. Structural constraint: The persistent caste stratification system that assigns \"polluted\" status at birth, forcing the teenager to actively construct a counter-identity through reference group emulation rather than simply inheriting a valued status. A wrong answer that misses the structural constraint treats identity choice as purely voluntary, ignoring how stratification compels identity work.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"national identity\" and \"caste identity\" function as sources of identity in modern India. In your comparison, address: (a) the role of the state in constructing each, (b) whether each is primarily ascribed or achieved, and (c) how they can conflict in a person's status set.",
+     "a": "(a) National identity is actively constructed by the state through citizenship laws, textbooks, symbols (flag, anthem), and civic rituals; caste identity is historically constructed by religious texts and local power structures, though the state now recognizes it for affirmative action. (b) National identity has achieved elements (naturalization, civic participation) but is largely ascribed by birth (jus soli/sanguinis); caste is purely ascribed. (c) Conflict arises when caste loyalty demands voting for a caste-based party while national identity demands voting on development issues, or when caste endogamy contradicts the national ideal of fraternity. A weak answer treats both as equally \"natural\" or ignores state agency in constructing national identity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Globalization weakens all traditional identities (caste, religion, tribe) and replaces them with a universal consumer identity.\" Use the concepts of hybridity, identity assertion, and reference groups to support your judgment.",
+     "a": "The claim is partially true but sociologically incomplete. Globalization does spread consumer culture (a reference group for urban youth), creating hybrid identities (e.g., \"modern Hindu\" celebrating Diwali with Amazon gifts). However, it also triggers defensive identity assertion: caste associations go digital to arrange marriages, religious identities harden against perceived cultural threat, and tribal movements use global indigenous rights discourses. Identities are not erased but reconfigured — a student who agrees wholly misses the dialectic of homogenization and particularization central to sociological analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic strip or storyboard concept (described in text) that illustrates the social construction of gender identity for a child from ages 3 to 12. Each panel must show a different socializing agent (family, school, media) enforcing a specific gender norm, and the child's negotiation of it.",
+     "a": "Panel 1 (Age 3, Family): Grandmother gifts a kitchen set to girl, cricket bat to boy; girl asks for bat, told \"girls don't play cricket.\" Panel 2 (Age 8, School): Teacher asks \"strong boys\" to move desks; girl volunteers, teacher says \"let the boys do it.\" Panel 3 (Age 12, Media): Girl watches women's cricket World Cup, sees female athletes celebrated, joins local girls' team despite family reluctance. Good answer shows distinct agents, explicit norms, and active negotiation (not passive internalization). Poor answer shows only compliance or misses the institutional nature of each agent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

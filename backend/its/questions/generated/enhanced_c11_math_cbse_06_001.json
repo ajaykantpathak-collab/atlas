@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_001",
+   "title": "c11_math_cbse_06_001",
+   "questions": [
+    {
+     "q": "Which of the following are linear inequalities in one variable? (i) 3x + 5 < 11 (ii) x² - 4 > 0 (iii) 2x - 7 ≥ 3x + 1 (iv) 5 < 8 (v) |x - 2| ≤ 4. Explain your reasoning for each.",
+     "a": "(i) and (iii) are linear inequalities in one variable. (i) has variable x with power 1 and uses < symbol. (iii) has x on both sides but simplifies to -x ≥ 8, still degree 1. (ii) is quadratic (degree 2). (iv) has no variable (numerical inequality). (v) involves absolute value, not a polynomial inequality. A wrong answer reveals confusion between degree of polynomial and inequality type, or inability to recognise that variables on both sides still yield linear inequality after simplification.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the solution of x > 3 as \"x = 4, 5, 6, ...\" and the solution of x ≥ 3 as \"x = 3, 4, 5, 6, ...\". Is this correct? If not, explain the conceptual error and give the correct representation using interval notation.",
+     "a": "The student's answer is incorrect because it treats the solution as a discrete set of integers rather than a continuous interval of real numbers. x > 3 means all real numbers greater than 3, written as (3, ∞). x ≥ 3 means all real numbers ≥ 3, written as [3, ∞). A wrong answer reveals the misconception that variables only take integer values, or confusion between solution set of an inequality vs. solutions of an equation.",
+     "self_check": true
+    },
+    {
+     "q": "Represent the solution set of the inequality -2x + 5 ≤ 11 on a number line. Write the solution in set-builder notation and interval notation.",
+     "a": "Step 1: -2x + 5 ≤ 11 → -2x ≤ 6 → x ≥ -3 (inequality reverses when dividing by negative).\nStep 2: Set-builder: {x ∈ ℝ | x ≥ -3}. Interval: [-3, ∞).\nStep 3: Number line: closed circle at -3, arrow pointing right.\nA wrong answer typically forgets to reverse the inequality sign when dividing by -2, giving x ≤ -3 with open circle at -3 and arrow left. This reveals the critical misconception about sign reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution sets of 2x - 5 < 3 and 2x - 5 ≤ 3. How do they differ on the number line? If a student shades the boundary point for both, what specific concept have they not understood?",
+     "a": "2x - 5 < 3 gives x < 4 → (-∞, 4) with open circle at 4. 2x - 5 ≤ 3 gives x ≤ 4 → (-∞, 4] with closed circle at 4. The difference is inclusion of the boundary point 4. If a student shades the boundary for both, they have not understood the distinction between strict (<, >) and non-strict (≤, ≥) inequalities, specifically that \"less than\" excludes the endpoint while \"less than or equal to\" includes it.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves 3 - 2x > 7 as follows: -2x > 4 → x > -2. Evaluate this solution. Is it correct? If not, identify the exact step where the error occurs and explain why it is wrong.",
+     "a": "The solution is incorrect. Error occurs at the final step: dividing by -2 should reverse the inequality. Correct: -2x > 4 → x < -2. The student wrote x > -2, forgetting the sign reversal rule. This reveals the most common senior-secondary error: treating inequality manipulation exactly like equation manipulation without accounting for multiplication/division by negative numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context: money, distance, marks) that can be modelled by a linear inequality in one variable. Write the inequality, define the variable, and explain what the solution set represents in your context.",
+     "a": "Example: \"A metro ride costs ₹10 for the first 2 km and ₹5 per km thereafter. Rahul has ₹50. How far can he travel?\" Let x = additional km beyond 2 km. Inequality: 10 + 5x ≤ 50 → 5x ≤ 40 → x ≤ 8. Total distance ≤ 10 km. Solution set [0, 8] for x means Rahul can travel up to 8 additional km. A poor answer uses an equation (=) instead of inequality, or defines variable unclearly, or gives a scenario requiring two variables. This reveals inability to translate \"at most\", \"at least\", \"budget\" language into ≤ or ≥.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

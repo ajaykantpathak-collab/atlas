@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_014",
+   "title": "c11_cs_cbse_04_014",
+   "questions": [
+    {
+     "q": "What information does a Python traceback provide, and in what order are the function calls listed?",
+     "a": "A traceback shows the error type (e.g., ZeroDivisionError), error message, and the call stack — listing function calls from **most recent (bottom) to oldest (top)**, with file names, line numbers, and the actual code line. A wrong answer (e.g., \"top to bottom\" or \"only the error line\") reveals the student cannot navigate tracebacks to locate the true origin of a runtime error, a critical skill for debugging nested function calls.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `for i in range(5): print(i); print(\"Done\")` and sees `0 1 2 3 4 Done` but expected `Done` to print after each number. They say \"the loop is broken.\" Explain why this diagnosis is incorrect and what the real issue is.",
+     "a": "The loop works correctly — `print(\"Done\")` is **not indented**, so it executes once after the loop ends. The student misreads indentation as syntax rather than structure. A wrong answer (e.g., \"range(5) is wrong\") shows they confuse logical flow with syntax, and cannot mentally simulate execution — a prerequisite for dry-run debugging.",
+     "self_check": true
+    },
+    {
+     "q": "You have a function `calculate_discount(price, percent)` that returns wrong values. You suspect the formula `price * percent / 100` is correct but the arguments are swapped in the call. Describe exactly where you would place **two** print statements to confirm this without changing the function.",
+     "a": "Place one print **before the function call**: `print(f\"Calling with price={price}, percent={percent}\")` and one **inside the function** as first line: `print(f\"Received price={price}, percent={percent}\")`. If values differ, the call site has swapped arguments. A wrong answer (e.g., printing only result) shows the student doesn't understand parameter passing or how to isolate input vs. logic errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"print debugging\" and \"IDE debugger (breakpoints)\" for finding a logical error in a loop that runs 1000 iterations. Which is more efficient and why?",
+     "a": "IDE debugger is more efficient: set a conditional breakpoint (e.g., `i == 500`) and inspect variables **once** at the suspicious iteration. Print debugging would flood output with 1000 lines, requiring manual search. A wrong answer (e.g., \"print is better because it's simple\") reveals the student doesn't grasp scalability of debugging techniques or conditional breakpoints — a key Class 11 skill.",
+     "self_check": true
+    },
+    {
+     "q": "A program crashes with `IndexError: list index out of range` at `data[i] = value`. The loop is `for i in range(len(data)+1):`. Evaluate whether fixing the loop to `range(len(data))` is always correct. Justify.",
+     "a": "Not always. If the algorithm **intentionally** appends one element (e.g., building a prefix sum array of length n+1), then `range(len(data)+1)` is correct and the fix should be `data.append(value)` inside the loop. Blindly changing the range without checking the algorithm's intent introduces a logical error. A wrong answer (e.g., \"yes, always fix the range\") shows the student debugs syntax/semantics but not **algorithm correctness** — the highest level of debugging per NCERT's verification step.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-line Python snippet with a **subtle logical error** (no syntax/runtime error) that calculates compound interest but uses simple interest formula. The error must not be obvious from variable names.",
+     "a": "```python\nprincipal = 10000\nrate = 0.08\ntime = 3\namount = principal * (1 + rate * time)  # Simple interest, not compound\nprint(f\"Amount: {amount:.2f}\")\n```\nA poor answer (e.g., syntax error, or obvious `rate * time` comment) shows the student cannot design a **hidden logical error** — meaning they don't deeply understand the difference between formula semantics and code semantics, which is essential for creating test cases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

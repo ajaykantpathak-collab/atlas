@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_003",
+   "title": "c11_cs_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the output of `text = \"PYTHON\"; print(text[1:4])`?",
+     "a": "The output is `YTH`. Slicing `text[1:4]` starts at index 1 (`Y`), includes indices 2 (`T`) and 3 (`H`), and stops before index 4 (`O`). A wrong answer like `YTHO` reveals the student thinks the stop index is inclusive; `PYTH` reveals confusion between 0-based indexing and 1-based counting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what `s[-3:-1]` returns for any string `s` of length at least 3.",
+     "a": "It returns the substring consisting of the third-last and second-last characters (two characters total). For `s = \"COMPUTER\"`, `s[-3:-1]` gives `TE`. A wrong answer like \"last three characters\" shows the student treats negative stop as inclusive or miscounts the range; \"third-last only\" shows they think slicing returns a single character like indexing.",
+     "self_check": true
+    },
+    {
+     "q": "Given `msg = \"HELLO WORLD\"`, write a single slicing expression that produces `\"OLLEH\"` (the first word reversed).",
+     "a": "`msg[4::-1]` or `msg[:5][::-1]`. Step-by-step: the first word \"HELLO\" occupies indices 0–4. To reverse it, start at index 4 (`O`), go backwards to the beginning (default stop before index 0), with step `-1`. A wrong answer like `msg[4:0:-1]` yields `OLLE` (missing `H`) because stop index 0 is excluded; `msg[5:0:-1]` includes the space. This tests understanding of default stop with negative step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `s[::2]` and `s[1::2]` for `s = \"ABCDEFG\"`. What pattern do they together represent?",
+     "a": "`s[::2]` → `ACEG` (even indices: 0,2,4,6); `s[1::2]` → `BDF` (odd indices: 1,3,5). Together they partition the string into alternating characters. A student who answers `ACEG` and `BCDF` misapplies the start index; one who says they are \"first half and second half\" confuses slicing step with length-based splitting.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `pan = \"ABCDE1234F\"; year = pan[-5:-1]` to extract the four digits. They claim `pan[-1:-5]` would also work. Evaluate this claim.",
+     "a": "The claim is false. `pan[-1:-5]` with default step `+1` tries to move forward from the last character to the fifth-last, which is impossible (start > stop in forward direction), so it returns an empty string `\"\"`. To go backwards, step must be `-1`: `pan[-1:-5:-1]` gives `F432` (reversed). The student confuses index order with step direction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a slicing expression that, for any string `pwd`, returns the last three characters followed by the first three characters (e.g., `\"PASSWORD\"` → `\"ORDPAS\"`). Explain your reasoning.",
+     "a": "`pwd[-3:] + pwd[:3]`. `pwd[-3:]` takes from third-last to end (default stop = length). `pwd[:3]` takes from start to index 2. Concatenation joins them. A poor answer like `pwd[-3:3]` returns empty because start > stop with positive step; or `pwd[3:-3]` returns middle portion. This tests synthesis of two slices and concatenation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

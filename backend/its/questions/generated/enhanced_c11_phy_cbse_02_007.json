@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_007",
+   "title": "c11_phy_cbse_02_007",
+   "questions": [
+    {
+     "q": "Two cars A and B move on a straight road. Car A moves east at 20 m/s, car B moves west at 15 m/s. What is the velocity of A relative to B? State the magnitude, direction, and SI unit.",
+     "a": "**Answer:** v_AB = 35 m/s east.  \n**Reasoning:** Choose east as +ve. v_A = +20 m/s, v_B = –15 m/s. v_AB = v_A – v_B = 20 – (–15) = +35 m/s. The positive sign means east.  \n**Wrong answer reveals:** If a student writes 5 m/s, they subtracted magnitudes (20 – 15) treating velocity as speed. If they write 35 m/s west, they computed v_BA instead of v_AB. Both errors show confusion between vector subtraction and scalar difference, and confusion about which object is the observer.",
+     "self_check": true
+    },
+    {
+     "q": "A police van moving at 30 km/h fires a bullet at a thief's car speeding away at 192 km/h in the same direction. Muzzle speed of bullet is 150 m/s. Explain why the speed relevant for damaging the thief's car is the relative speed of the bullet with respect to the thief's car, not the muzzle speed.",
+     "a": "**Answer:** Damage depends on the kinetic energy transferred during impact, which is determined by the relative speed at collision. The bullet's speed relative to ground is 150 m/s + 30 km/h ≈ 158.3 m/s. The thief's car speed is 192 km/h ≈ 53.3 m/s. Relative speed = 158.3 – 53.3 = 105 m/s.  \n**Wrong answer reveals:** If a student uses 150 m/s or 158.3 m/s directly, they ignore the motion of the target. This is a classic board-exam trap (NCERT Exercise 2.14). The misconception is treating the ground frame speed as the \"impact speed\" without transforming to the target's frame.",
+     "self_check": true
+    },
+    {
+     "q": "A man swims at 4 km/h in still water. He crosses a 1 km wide river flowing at 3 km/h. He aims perpendicular to the banks. Calculate: (a) his velocity relative to ground, (b) time to cross, (c) downstream drift.",
+     "a": "**Answer:** (a) 5 km/h at 36.9° downstream (tan⁻¹(3/4)), (b) 15 min, (c) 0.75 km.  \n**Steps:**  \n1. v_m/w = 4 km/h ⊥ to bank (ŷ). v_w/g = 3 km/h along bank (x̂).  \n2. v_m/g = v_m/w + v_w/g = 3x̂ + 4ŷ km/h. Magnitude = 5 km/h. Direction: tan θ = 3/4 → θ = 36.9°.  \n3. Crossing depends only on ŷ-component: t = width / v_y = 1 km / 4 km/h = 0.25 h = 15 min.  \n4. Drift = v_x × t = 3 km/h × 0.25 h = 0.75 km.  \n**Wrong answer reveals:** If t = 1/5 = 12 min, student used resultant speed instead of perpendicular component. If drift = 0, they ignored river flow. Both show failure to decompose vectors and identify which component governs crossing.",
+     "self_check": true
+    },
+    {
+     "q": "Two particles start from the same point on a straight line. Particle A moves with constant velocity 5 m/s. Particle B starts from rest with constant acceleration 2 m/s². Sketch the position-time graphs for both from ground frame. Then describe how the graph of A would appear from B's frame (qualitatively).",
+     "a": "**Answer:** Ground frame: A is straight line (slope 5), B is upward parabola (s = t²). From B's frame: A's graph is a downward parabola starting with slope 5, crossing zero slope at t = 2.5 s, then negative slope.  \n**Reasoning:** In B's frame, v_A/B = v_A – v_B = 5 – 2t. Integrating: x_A/B = 5t – t². This is an inverted parabola with maximum at t = 2.5 s.  \n**Wrong answer reveals:** If student draws straight line in B's frame, they assume relative velocity is constant (forgetting B accelerates). If they say \"same as ground\", they don't understand frame transformation. This tests deep understanding that relative motion graphs change shape when the observer accelerates.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a river-crossing problem: \"Boat speed 5 km/h, river 3 km/h, width 2 km. Time to cross = 2/5 = 0.4 h.\" The student claims this is correct regardless of the angle the boat heads. Evaluate this claim.",
+     "a": "**Answer:** The claim is **false**. Time to cross = width / (component of boat velocity perpendicular to banks). This component is 5 cos θ where θ is angle with perpendicular. Only when θ = 0° (heading straight across) is time = 0.4 h. If boat heads upstream at an angle, perpendicular component < 5 km/h, so time > 0.4 h.  \n**Wrong answer reveals:** The student treats boat speed as a scalar that always acts across the river, ignoring vector resolution. This is the most common error in relative velocity — confusing speed with velocity component. Board exams often ask \"minimum time to cross\" which requires θ = 0°.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two battery-operated toy cars on a long table to demonstrate relative velocity. Specify: (a) what to measure, (b) how to calculate relative velocity, (c) how to verify the formula v_AB = v_A – v_B.",
+     "a": "**Expected answer:**  \n(a) Measure each car's speed separately using stopwatch and metre scale (v_A, v_B). Then run both simultaneously in same direction and measure time for A to catch B from known initial separation.  \n(b) Relative speed = separation / catch-up time.  \n(c) Compare measured relative speed with v_A – v_B. Repeat for opposite directions (v_A + v_B).  \n**Poor answer reveals:** If student only measures catch-up time without independent v_A, v_B, they cannot verify the formula. If they use same-direction only, they miss the sign convention. A good answer includes vector nature, multiple trials, and error analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

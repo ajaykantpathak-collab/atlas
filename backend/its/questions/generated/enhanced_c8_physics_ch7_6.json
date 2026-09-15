@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_6",
+   "title": "c8_physics_ch7_6",
+   "questions": [
+    {
+     "q": "Why can we see the Moon during the day even though the Sun is shining brightly?",
+     "a": "The Moon reflects sunlight just like it does at night. When the Moon is above the horizon during daylight hours and its illuminated face is turned toward Earth, the reflected sunlight is bright enough to be seen against the blue sky. A wrong answer like \"the Moon makes its own light during the day\" reveals the student still thinks the Moon is luminous (confusing it with the Sun), ignoring c6_physics_ch11_035 on luminous vs non-luminous objects.",
+     "self_check": true
+    },
+    {
+     "q": "If you see a half-Moon (first quarter) high in the sky at 3 PM, where is the Sun relative to the Moon and Earth? Draw a quick top-down sketch showing all three bodies.",
+     "a": "At first quarter, the Moon is 90° east of the Sun as seen from Earth. The Sun will be in the western sky (setting soon), the Moon high in the southern sky, and Earth between them at a right angle. A wrong answer placing the Sun and Moon close together reveals the student hasn't internalized the phase geometry from c8_physics_ch7_3 — they're confusing first quarter with crescent or gibbous phases.",
+     "self_check": true
+    },
+    {
+     "q": "The Moon rises about 50 minutes later each day. If the Moon rose at 6:00 AM today, at what approximate time will it rise 7 days from now? Show your calculation.",
+     "a": "Daily delay = 50 minutes. Over 7 days: 7 × 50 min = 350 min = 5 hours 50 minutes. 6:00 AM + 5 hr 50 min = 11:50 AM. The Moon will rise around 11:50 AM, meaning it will be visible in the daytime sky. A wrong answer like \"6:00 AM\" shows the student thinks Moonrise is fixed like Sunrise, missing the orbital motion concept from c8_physics_ch7_5 (lunar month).",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two statements: (A) \"The Moon is only visible at night because that's when it comes out.\" (B) \"The Moon is visible whenever it's above the horizon and sunlit, day or night.\" Which is scientifically accurate? Use the terms 'reflection', 'horizon', and 'orbital position' in your explanation.",
+     "a": "Statement B is accurate. The Moon orbits Earth (orbital position) and reflects sunlight (reflection). When Earth's rotation brings a location to face the Moon (above the horizon), we see it — regardless of whether that location also faces the Sun (daytime). Statement A reflects the misconception that the Moon \"belongs\" to night. A student choosing A hasn't grasped that the Moon's orbit is independent of Earth's day-night cycle (c7_physics_ch06_001 vs c8_physics_ch7_5).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"You can never see the Full Moon during the day because the Full Moon rises at sunset and sets at sunrise.\" Is this claim correct? Evaluate it using the geometry of the Sun-Earth-Moon system.",
+     "a": "The claim is essentially correct for mid-latitudes. At Full Moon, the Moon is opposite the Sun (180° elongation), so it rises as the Sun sets and sets as the Sun rises. Therefore, the Full Moon is above the horizon only during nighttime hours. A student who says \"Full Moon can be seen at noon\" has the geometry backwards — they're placing the Moon at the same side as the Sun (New Moon position), confusing the phase cycle from c8_physics_ch7_3.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2-week observation project for your class to prove the Moon is visible during daytime. Specify: (1) what to record each day, (2) what pattern you expect to see, and (3) how this connects to the lunar month.",
+     "a": "(1) Record: date, time, Moon phase (shape), compass direction, and whether it's day/night. (2) Pattern: Moon appears later each day by ~50 min; visible in morning sky after Full Moon, afternoon sky before Full Moon. (3) This tracks the Moon's 27.3-day orbit (lunar month, c8_physics_ch7_5) — the changing rise/set times prove the Moon orbits Earth independently of Earth's rotation. A poor answer that only records \"Moon seen at night\" shows the student didn't actually observe during daytime or doesn't understand the phase-rise time relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

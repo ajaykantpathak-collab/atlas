@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_008",
+   "title": "c10_chem_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define pH and state the pH range for acidic, neutral, and basic solutions at 25°C.",
+     "a": "pH = -log₁₀[H⁺]; acidic: pH < 7, neutral: pH = 7, basic: pH > 7. A wrong answer (e.g., \"pH 7 is always neutral\" or \"acidic pH > 7\") reveals the student has memorised the scale but not the condition of 25°C or the logarithmic definition, and may confuse the direction of the scale.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the pH scale logarithmic? What does a change of one pH unit represent in terms of hydrogen ion concentration?",
+     "a": "The pH scale is logarithmic because hydrogen ion concentrations in solutions vary over many orders of magnitude (e.g., 1 M to 10⁻¹⁴ M). A change of one pH unit represents a tenfold change in [H⁺]. If a student says \"one unit means double the concentration\" or \"it's just a convenient scale\", they misunderstand the mathematical basis and will make errors in dilution calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pH of a 0.001 M H₂SO₄ solution, assuming complete dissociation. (Given: log₁₀2 ≈ 0.30)",
+     "a": "Step 1: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × 0.001 M = 0.002 M = 2 × 10⁻³ M.  \nStep 2: pH = -log(2 × 10⁻³) = -[log 2 + log 10⁻³] = -[0.30 - 3] = 2.70.  \nA wrong answer (e.g., pH = 3) shows the student forgot the stoichiometric factor of 2 for diprotic acids, a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Solution A has pH = 3 and Solution B has pH = 5. Which solution is more acidic and by how many times? If 10 mL of Solution A is diluted to 100 mL, what is the new pH?",
+     "a": "Solution A is more acidic. [H⁺]_A = 10⁻³ M, [H⁺]_B = 10⁻⁵ M, so A has 100 times more H⁺. After 10× dilution, [H⁺] becomes 10⁻⁴ M, so new pH = 4. A student who says \"pH becomes 3.1\" or \"acidity increases 10 times\" does not grasp the logarithmic dilution effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the pH of 10⁻⁸ M HCl is 8 because pH = -log(10⁻⁸) = 8. Evaluate this statement and give the correct pH with justification.",
+     "a": "The statement is incorrect. At such low acid concentration, the H⁺ from water autoionisation (10⁻⁷ M) cannot be ignored. Total [H⁺] ≈ 10⁻⁷ + 10⁻⁸ = 1.1 × 10⁻⁷ M, so pH ≈ 6.96 (slightly less than 7). A student who accepts pH = 8 fails to recognise the contribution of water's self-ionisation, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only natural indicators (like turmeric, beetroot, or hibiscus petals) to arrange three unknown colourless solutions in order of increasing pH. Explain the principle.",
+     "a": "Prepare extracts of turmeric (turns red in base), beetroot (colour intensifies in acid), and hibiscus (turns pink in acid, green in base). Add a few drops of each indicator to each solution and observe colour changes. Arrange solutions from most acidic (red with hibiscus, no change with turmeric) to most basic (red with turmeric, green with hibiscus). A poor answer uses only one indicator or cannot explain the colour chemistry, showing lack of understanding of indicator pH ranges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

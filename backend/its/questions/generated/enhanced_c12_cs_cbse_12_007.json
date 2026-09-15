@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_007",
+   "title": "c12_cs_cbse_12_007",
+   "questions": [
+    {
+     "q": "Define \"personal data\" and \"sensitive personal data\" as per the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. Give one example of each.",
+     "a": "Personal data is any information that relates to a natural person, which, either directly or indirectly, in combination with other information available or likely to be available with a body corporate, is capable of identifying such person (e.g., name, email). Sensitive personal data (SPD) includes passwords, financial information, health parameters, biometric data, sexual orientation, etc. (e.g., credit card number, fingerprint). A wrong answer that lists only \"name\" as SPD reveals confusion between identifiability and sensitivity; students often think any identifier is sensitive, but SPD has a legally defined narrower scope with stricter protection requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between \"anonymization\" and \"pseudonymization\" of data. Why is pseudonymized data still considered personal data under data protection laws?",
+     "a": "Anonymization irreversibly transforms data so that the data subject cannot be identified by any means reasonably likely to be used; pseudonymization replaces identifying fields with artificial identifiers (pseudonyms) but retains a separate key to re-identify. Pseudonymized data remains personal data because re-identification is possible with the key. A wrong answer claiming pseudonymized data is anonymous shows misunderstanding of the re-identification risk; students often conflate \"masking\" with \"irreversible removal,\" leading to inadequate protection measures.",
+     "self_check": true
+    },
+    {
+     "q": "A school uses a web-based attendance system that transmits student roll numbers and timestamps over HTTP. The IT admin argues, \"Roll numbers are not sensitive, so HTTPS is unnecessary.\" Evaluate this claim using the principle of data minimization and the concept of metadata.",
+     "a": "The claim is flawed. Even if roll numbers alone seem low-risk, HTTP exposes metadata (timestamps, IP addresses, device info) that can be correlated to build detailed behavioral profiles (e.g., attendance patterns, location). Data minimization requires protecting all transmitted data, not just \"sensitive\" fields, because attackers aggregate seemingly harmless metadata. A student who agrees with the admin misses that privacy risk emerges from data combination, not single fields — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of a \"Data Controller\" and a \"Data Processor\" under GDPR. Provide a concrete example involving a school (controller) and a cloud-based grading platform (processor).",
+     "a": "The controller determines the purposes and means of processing (school decides what grades to collect, why, and for how long). The processor acts on the controller's instructions (cloud platform stores/calculates grades but cannot use them for advertising). The school must have a Data Processing Agreement (DPA) with the platform. A wrong answer that lets the processor decide retention periods or share data with third parties violates the controller's accountability — a frequent board exam error where students assign controller duties to the processor.",
+     "self_check": true
+    },
+    {
+     "q": "A startup wants to implement \"Privacy by Design\" in its new health-tracking app. Critique the following proposed features: (a) Default setting shares all health data with \"research partners\" unless user opts out. (b) Data is encrypted at rest but not in transit. (c) Users can download their data but cannot delete it. Justify your evaluation against the seven PbD principles.",
+     "a": "All three features violate PbD: (a) Violates \"Privacy as Default\" (opt-in consent required, not opt-out). (b) Violates \"End-to-End Security\" — TLS/HTTPS mandatory for health data in transit. (c) Violates \"User-Centric Design\" — right to erasure (GDPR Art. 17) and data portability require deletion capability. A student who approves any feature demonstrates failure to apply PbD proactively; they treat privacy as an add-on rather than foundational.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step \"Data Breach Response Plan\" for a small e-commerce website that discovers a SQL injection leak exposing customer names, hashed passwords, and order histories. Include legal notification thresholds under IT Act 2000.",
+     "a": "1. **Contain & Assess**: Isolate affected server, preserve logs, determine scope (which tables, how many records). 2. **Notify Internally**: Alert DPO/management, engage cybersecurity team. 3. **Remediate**: Patch SQLi vulnerability, rotate keys, force password reset. 4. **Notify Authorities & Users**: Under IT Act Sec 72A & SPDI Rules, notify CERT-In within 6 hours of detection; inform affected users if high risk (hashed passwords + order history = high risk). 5. **Review & Document**: Post-incident audit, update WISP (Written Information Security Program). A poor answer that omits CERT-In notification or treats hashed passwords as \"safe\" misses legal obligations and the risk of offline cracking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

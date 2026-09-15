@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_al_cbse_02_015",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_al_cbse_02_015",
+   "title": "c12_hin_al_cbse_02_015",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a 'discussion point' in a Class 12 Hindi speaking and listening assessment?",
+     "a": "A discussion point is an open-ended, text-anchored prompt designed to initiate analytical dialogue among students, requiring them to interpret themes, evaluate character motivations, or connect the text to socio-cultural contexts using evidence. A wrong answer (e.g., \"to test if students remember the plot\") reveals the student confuses discussion with comprehension recall; discussion points assess higher-order thinking (analysis, evaluation), not factual retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the prompt \"Did you like the description of the village fair in the chapter?\" is a poor discussion point for \"fcLdksgj dh ekVh\".",
+     "a": "It is a closed, subjective question eliciting only a yes/no or preference-based response, shutting down analytical dialogue. A strong discussion point would be: \"How does the village fair scene reveal the intersection of community bonding and economic necessity in rural life?\" — this demands textual evidence (e.g., *dey* selling, *jhulana* rides) and socio-cultural analysis. A student who cannot articulate this difference misunderstands the difference between personal response and literary discussion.",
+     "self_check": true
+    },
+    {
+     "q": "Formulate a discussion point on the theme of 'childhood memory vs. adult reflection' in the chapter that requires peers to reference at least two specific textual moments.",
+     "a": "Example: \"The narrator describes his childhood fear of the *bhut* (ghost) stories told by *falu* (falu) but later reflects on how those stories shaped his imagination as a writer. Identify two moments where the adult narrator's voice interrupts the child's perspective. What does this duality reveal about the nature of memory?\" A weak answer would list events without analyzing the narrative voice shift; this shows the student cannot distinguish between plot summary and narrative technique analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the discussion potential of these two prompts: (A) \"List the festivals mentioned in the chapter.\" (B) \"How do the festivals of Holi and Diwali function as structural devices that mark the passage of time and the cyclical nature of rural life?\" Which is better for a 10-minute group discussion and why?",
+     "a": "Prompt B is superior because it is analytical, open-ended, and connects micro-details (festival descriptions) to macro-themes (time, cyclicality, rural rhythm). Prompt A is a retrieval task that ends once the list is exhausted. A student choosing A reveals a misconception that discussion = information sharing; they miss that board/CUET speaking assessments evaluate *how* students build on each other's ideas using textual anchors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student response during a discussion: \"I think the author romanticizes village life because he only shows the happy moments like playing in the rain, not the poverty.\" Is this a valid critical interpretation? Justify using the text.",
+     "a": "It is a *partially valid but incomplete* interpretation. The text *does* depict hardship: the mother's exhausting labor (*dey* making, fetching water), the father's absence, the fear of *bhut*, the economic pressure of *mahajan* (moneylender). A strong evaluation would acknowledge the student's valid observation about selective nostalgia (the rain-play scene is idyllic) but counter with evidence of gritty realism. A student who agrees wholly misses the text's dialectic of joy and struggle; one who dismisses it entirely misses the critical thinking skill of nuanced reading.",
+     "self_check": true
+    },
+    {
+     "q": "Create a discussion point that connects the chapter's use of Bundeli dialect words (*dey, riyaan, bhut, phagua*) to the theme of cultural identity. The prompt must require speakers to analyze *why* the author retains these words instead of using standard Hindi equivalents.",
+     "a": "Strong prompt: \"The author writes *dey* not *dahi*, *riyaan* not *rani*, *phagua* not *Holi*. Choose two such words and argue: does their retention serve only local color, or does it perform a deeper act of cultural preservation? Support with examples where the word carries emotions/untranslatable nuances that the standard Hindi word loses.\" A poor answer would merely define the words; this shows the student cannot move from vocabulary identification to linguistic-cultural analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

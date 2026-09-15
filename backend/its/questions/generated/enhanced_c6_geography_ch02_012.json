@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_012",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_012",
+   "title": "c6_geography_ch02_012",
+   "questions": [
+    {
+     "q": "Which instrument would you use to find out how much rain fell during a monsoon shower?",
+     "a": "The rain gauge. If a student answers \"thermometer\" or \"barometer,\" they are confusing the measurement of water volume with temperature or pressure, indicating they need to review the specific purpose of each tool.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a barometer is useful for understanding the weather even though it doesn't measure rain or temperature.",
+     "a": "A barometer measures air pressure, which changes before weather systems move in. A wrong answer suggests the student thinks weather only consists of what we can feel (like heat or wetness), failing to understand that invisible air pressure drives those changes.",
+     "self_check": true
+    },
+    {
+     "q": "If you see the cups on an anemometer spinning very fast, what can you conclude about the weather?",
+     "a": "You can conclude that the wind speed is high. If a student says the temperature is rising, they are incorrectly linking wind speed to temperature, showing a need to distinguish between different weather elements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mercury barometer and the aneroid barometer. How do they both measure the same thing differently?",
+     "a": "Both measure air pressure, but the mercury type uses a liquid column, while the aneroid uses a metal chamber that changes shape. A failure to compare these shows the student is only memorizing names rather than understanding the underlying principle of pressure measurement.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer in the Deccan Plateau wants to decide when to plant crops, why should they track both rainfall and temperature?",
+     "a": "They need to ensure there is enough water (rain gauge) and the right warmth (thermometer) for seeds to germinate. A wrong answer suggests the student doesn't see how multiple weather factors combine to affect real-life activities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a bucket or container to see if you can estimate rainfall without a professional rain gauge.",
+     "a": "The student should suggest placing a straight-sided container in an open area and measuring the water level with a ruler. A poor answer would lack the concept of \"straight sides\" or \"open area,\" which are essential for accuracy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

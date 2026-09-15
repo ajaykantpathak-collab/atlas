@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_005",
+   "title": "c12_biotech_cbse_06_005",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the four most common chemical disinfectants used for plant explant surface sterilization and state the typical concentration range for each as used in standard Indian tissue culture laboratories.",
+     "a": "Correct answer: (1) Sodium hypochlorite (NaOCl) — 1–4% available chlorine (typically 2–3% for 10–20 min); (2) Mercuric chloride (HgCl₂) — 0.1–0.2% (w/v) for 2–10 min; (3) Ethanol (EtOH) — 70% (v/v) for 30–60 s; (4) Calcium hypochlorite [Ca(OCl)₂] — 2–3% (w/v) for 10–15 min. A wrong answer (e.g., listing antibiotics like streptomycin as primary surface sterilant, or giving 10% NaOCl for 30 min) reveals the student confuses surface sterilization with media supplementation or does not know that excessive concentration/time causes tissue necrosis — a frequent board exam error where students write \"5% NaOCl for 30 min\" and lose marks for ignoring explant tolerance limits.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why meristem-tip culture (0.1–0.5 mm) is the preferred explant for virus elimination in crops like potato and banana, whereas leaf discs are unsuitable for this specific purpose, even though both are totipotent.",
+     "a": "Correct answer: Meristems lack vascular tissue and often have no virus particles because cell division outpaces viral movement; their small size allows rapid sterilization with minimal chemical exposure, preserving viability. Leaf discs have developed vasculature where viruses replicate systemically, and their larger surface area requires longer/harsher sterilization that kills the tissue. A wrong answer stating \"meristems are more totipotent\" or \"leaf discs are too differentiated\" reveals the misconception that totipotency varies by tissue type — it does not; the difference is viral distribution and sterilization kinetics, not regenerative capacity.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: You have 500 mL of commercial bleach containing 10% (w/v) available chlorine. Prepare 1 L of 2.5% (w/v) NaOCl working solution for sterilizing mango nodal segments. Show the calculation and state the volume of sterile distilled water to add. Then explain why you would NOT use this same concentration for sterilizing delicate orchid protocorms.",
+     "a": "Calculation: C₁V₁ = C₂V₂ → (10%) × V₁ = (2.5%) × 1000 mL → V₁ = 250 mL bleach. Add 750 mL sterile distilled water. Orchid protocorms are thin, non-lignified, and highly sensitive; 2.5% NaOCl for standard 15 min causes 90%+ necrosis. For orchids, use 0.5–1% NaOCl for 3–5 min or 0.1% HgCl₂ for 2 min. A wrong calculation (e.g., 25 mL bleach) shows inability to use dilution formula; using same protocol for orchids shows failure to apply the principle that sterilization severity must match tissue robustness — a classic NEET trap where \"one protocol fits all\" is assumed.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare and contrast the contamination patterns observed when (a) sterilization time is too short vs. (b) sterilization concentration is too high, for a batch of 50 rose nodal explants. Describe the visual appearance of cultures at 7 days and the underlying biological reason for each pattern.",
+     "a": "(a) Too short: 60–80% cultures show fuzzy white/green/black growth (fungal/bacterial colonies) emerging from explant edges by day 3–5; explant tissue remains green initially. Reason: surviving epiphytes proliferate on nutrient-rich media. (b) Too high: 70–90% explants turn brown/black and leathery (necrotic) by day 2–3 with NO microbial growth. Reason: oxidizing agents (hypochlorite/HgCl₂) penetrate and denature proteins/lipids, killing plant cells; dead tissue cannot support contaminants. A wrong answer describing necrosis for both cases, or saying \"high concentration kills contaminants better so it's fine,\" reveals inability to distinguish contamination (living microbes) from phytotoxicity (dead plant tissue) — a critical distinction for board practical viva and troubleshooting.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student proposes: \"To save time, I will skip the 70% ethanol dip and increase NaOCl from 2% to 4% for 20 min for all my explants.\" Critique this proposal using principles of disinfectant mode of action and tissue physiology. Is it ever acceptable? Justify.",
+     "a": "Critique: Ethanol rapidly dehydrates and disrupts lipid membranes of surface microbes and removes waxy cuticle, enhancing NaOCl penetration. Skipping it reduces initial bioburden removal, so higher NaOCl must compensate — but 4% NaOCl for 20 min causes severe oxidative damage (chlorine radicals) to living cells, especially in soft/herbaceous tissues. Acceptable ONLY for thick, lignified, mature woody explants (e.g., mature rose stems) with heavy contamination history, where ethanol alone cannot penetrate. For most explants (soft shoots, leaves, meristems), this protocol will cause >80% necrosis. A wrong answer saying \"higher concentration always kills more germs so it's better\" reveals the misconception that sterilization efficacy is monotonic with concentration — it is not; the viability-contamination trade-off is a peaked curve, not a line.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a complete surface sterilization protocol for a NEW, untested medicinal plant species (woody shrub, thick cuticle, suspected endophytes). Specify: (i) explant type and size, (ii) pre-wash steps, (iii) disinfectant sequence with concentrations/times, (iv) rinsing regime, (v) one positive and one negative control you would include. Justify each choice in one sentence.",
+     "a": "Good answer example: (i) Nodal segment 1.5–2 cm with axillary bud (woody, meristematic, low endophyte load); (ii) Tap water 30 min → liquid detergent (Teepol 1%) 10 min with gentle agitation → running tap water 15 min; (iii) 70% EtOH 45 s → 0.1% HgCl₂ 8 min (better penetration for thick cuticle) → 3× sterile DW 5 min each; (iv) Same as (iii) step 3; (v) Positive: non-sterilized explant on media (confirms contamination source); Negative: media-only plate (confirms media sterility). Justifications must link woody nature → HgCl₂ over NaOCl; thick cuticle → longer EtOH/detergent; endophyte suspicion → HgCl₂'s systemic penetration. A poor answer using only NaOCl, omitting controls, or choosing leaf explant for woody shrub shows failure to synthesize tissue properties, contaminant types, and disinfectant chemistry into a coherent protocol.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

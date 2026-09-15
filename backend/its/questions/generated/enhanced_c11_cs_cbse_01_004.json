@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_004",
+   "title": "c11_cs_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three output devices discussed in this topic and state the primary human sense each one targets.",
+     "a": "The three devices are monitor (targets vision), printer (targets touch/vision via hard copy), and speaker (targets hearing). A wrong answer — such as listing keyboard or scanner — reveals the student confuses input and output directions; listing \"projector\" instead of monitor shows they know examples but not the core categorisation. If a student says printer targets \"smell\" (ink odor), they are focusing on a side-effect rather than the designed information channel.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a monitor is called a soft-copy output device while a printer is called a hard-copy output device. What happens to the output when power is switched off in each case?",
+     "a": "A monitor produces soft copy because the image exists only as long as electric power maintains the pixel states; switching off power erases the output instantly. A printer produces hard copy because the ink/toner on paper remains physically stable without power. A wrong answer that claims \"soft copy means low quality\" or \"hard copy means thick paper\" shows the student has memorised the terms without understanding the persistence distinction. If they say both lose output on power off, they miss the non-volatility of printed media.",
+     "self_check": true
+    },
+    {
+     "q": "A school lab needs to print 500 pages of text-heavy worksheets daily. The budget allows either one laser printer (₹12,000, toner ₹800 for 1,500 pages) or two inkjet printers (₹4,000 each, cartridge ₹400 for 200 pages). Calculate the total cost of ownership for 30 days for each option and recommend the better choice. Show your reasoning.",
+     "a": "Laser: Printer cost ₹12,000 (one-time). Pages in 30 days = 500 × 30 = 15,000. Toner cartridges needed = 15,000 ÷ 1,500 = 10. Toner cost = 10 × ₹800 = ₹8,000. Total = ₹20,000. Inkjet (two printers): Printer cost = 2 × ₹4,000 = ₹8,000. Each printer handles 250 pages/day → 7,500 pages/30 days. Cartridges per printer = 7,500 ÷ 200 = 37.5 → 38. Total cartridges = 76. Cartridge cost = 76 × ₹400 = ₹30,400. Total = ₹38,400. Laser is cheaper by ₹18,400. A wrong answer that ignores the one-time printer cost or miscalculates cartridge count shows inability to apply total-cost-of-ownership thinking — a critical skill for real procurement decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the working principle of an LCD monitor and an OLED monitor. Why does an OLED display achieve \"true black\" while an LCD cannot? How does this affect contrast ratio and power consumption when displaying a mostly-dark user interface?",
+     "a": "LCD uses a constant backlight (LED) that passes through liquid crystals which twist to block or allow light; even \"black\" pixels leak some backlight. OLED has self-emissive pixels — each organic diode produces its own light; \"black\" means the diode is off, emitting zero photons. Therefore OLED achieves infinite contrast ratio (true black) and consumes near-zero power for dark pixels, while LCD backlight always draws full power. A wrong answer claiming \"OLED has a better backlight\" or \"LCD turns off backlight for black\" reveals confusion between transmissive and emissive technologies. If they say contrast ratio is the same, they miss the fundamental physics difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A 3D printer is just a printer that prints in three dimensions instead of two, so it should be judged by the same metrics — DPI and pages per minute.\" Defend or refute with at least three technical arguments.",
+     "a": "Refute. (1) 3D printers build volume layer by layer; resolution is specified in layer height (µm) and XY micron accuracy, not DPI. (2) Throughput is measured in mm³/s or grams/hour, not ppm, because each \"page\" is a unique 3D object with varying geometry. (3) Material properties (filament/resin type, temperature, adhesion) dominate quality, unlike 2D where ink/toner is standardised. A student who agrees shows they treat 3D printing as a trivial extension of 2D printing, missing the paradigm shift from area deposition to volumetric additive manufacturing. If they only mention \"it's slower\" without technical metrics, the evaluation is superficial.",
+     "self_check": true
+    },
+    {
+     "q": "Design an output system for a visually impaired student who needs to read digital textbooks, navigate the OS, and listen to audio explanations. Specify the exact devices (including model-type features), connection interfaces, and justify each choice based on accessibility standards.",
+     "a": "Good answer includes: (1) Braille display (e.g., 40-cell refreshable, USB/Bluetooth) for tactile text output — essential for silent reading and code syntax. (2) Screen reader software (NVDA/JAWS) routed to high-clarity speakers or bone-conduction headphones (leaves ears open for environment) — frequency response 100 Hz–10 kHz optimised for speech. (3) Large-print high-contrast monitor (27\", 4K, 200% scaling) for residual vision — HDMI/DisplayPort. (4) Tactile graphics printer (e.g., PIAF) for diagrams. Justification references WCAG 2.1 AA and Indian RPwD Act 2016. A poor answer lists only \"speaker and braille keyboard\" (keyboard is input) or omits connection standards, showing lack of systems-thinking and accessibility awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_007",
+   "title": "c12_biotech_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define \"stem cell niche\" and name two cellular and two non-cellular components of the hematopoietic stem cell (HSC) niche in bone marrow.",
+     "a": "A stem cell niche is the specialized microenvironment that regulates stem cell fate. In the HSC niche: cellular components = osteoblasts and sinusoidal endothelial cells; non-cellular components = collagen/fibronectin extracellular matrix and low oxygen tension (hypoxia). A wrong answer that lists only cell types or only signals reveals the student thinks the niche is purely cellular or purely molecular, missing the integrated physical-chemical-cellular nature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a hematopoietic stem cell transplanted into the spleen (which has a different microenvironment) may fail to engraft long-term, even though the spleen contains supportive stromal cells.",
+     "a": "The spleen lacks the specific combination of osteoblasts, endosteal hypoxia, and CXCL12-abundant reticular (CAR) cells that constitutively express high levels of SCF and CXCL12 required for HSC quiescence and retention. Stromal cells alone are insufficient; the precise spatial arrangement, oxygen gradient, and adhesive ligand density constitute the niche. A student who says \"spleen has no stem cells\" confuses niche with stem cell source; the error is thinking any supportive tissue can substitute for the specific niche architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher cultures intestinal stem cells (ISCs) in a dish with Matrigel (ECM mimic), EGF, Noggin, and R-spondin1 (Wnt agonist). The ISCs form organoids but gradually lose stemness after 10 passages. Propose one niche component missing in this culture that could explain the loss, and justify your choice.",
+     "a": "Missing component: Paneth cells (or their Notch ligand DLL1/4). In vivo, Paneth cells intercalate with ISCs at the crypt base, providing Notch ligands, Wnt3, and EGF — essential for stemness maintenance. Matrigel + growth factors replaces ECM and soluble factors but cannot replicate the dynamic, contact-dependent Notch signaling from a neighboring cell. A student who suggests \"add more Wnt\" misses that Notch signaling is contact-dependent and cannot be replaced by soluble agonists alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regulatory logic of the hematopoietic stem cell niche (endosteal vs. vascular niches) with the intestinal crypt niche. How do both niches use spatial segregation to enforce different fates?",
+     "a": "In bone marrow, the endosteal niche (osteoblasts, low O₂, TGF-β, Ang-1) enforces quiescence, while the vascular niche (endothelial cells, higher O₂, G-CSF, SCF) promotes proliferation/differentiation. In the crypt, the base (Paneth cells, high Wnt, Notch) maintains stemness, while the transit-amplifying zone (lower Wnt, BMP gradient) drives differentiation. Both use physical position relative to signaling gradients to dictate fate. A wrong answer that says \"both niches just have stem cells at the bottom\" ignores the distinct signaling architectures and the functional consequence of spatial displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Induced pluripotent stem cells (iPSCs) do not require a niche because they can self-renew indefinitely in defined media (e.g., mTeSR) on Matrigel.\"",
+     "a": "The statement is false. Defined media + Matrigel IS an artificial niche: Matrigel provides ECM (laminin, collagen IV), and mTeSR supplies precise concentrations of FGF2, TGF-β/Activin, and other factors that mimic niche signals. iPSCs still require exogenous niche-like inputs; removal of FGF2 or switch to differentiation media causes loss of pluripotency. The error is conflating \"defined medium\" with \"absence of niche\" — the niche is reconstituted chemically, not eliminated.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal synthetic niche for maintaining human mesenchymal stem cells (MSCs) in vitro for 20 passages without spontaneous differentiation. List three components (one cellular, one ECM, one soluble factor) with specific concentrations or ratios, and explain how each mimics the in vivo perivascular niche.",
+     "a": "Cellular: Co-culture with human umbilical vein endothelial cells (HUVECs) at 1:5 MSC:HUVEC ratio (mimics perivascular contact and paracrine SDF-1/CXCL12). ECM: Fibronectin-coated surface (10 μg/mL) + 1 kPa polyacrylamide gel (mimics vascular basement membrane stiffness). Soluble: FGF2 (10 ng/mL) + PDGF-BB (5 ng/mL) (mimics endothelial-derived mitogens). A poor answer lists generic \"growth factors\" without concentrations or mechanical cues, showing failure to integrate biophysical and biochemical niche dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

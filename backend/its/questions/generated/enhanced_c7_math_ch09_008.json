@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_008",
+   "title": "c7_math_ch09_008",
+   "questions": [
+    {
+     "q": "In $\\triangle ABC$, $\\angle B = 90^\\circ$. What is the name of the side opposite to $\\angle B$?",
+     "a": "The correct answer is the hypotenuse. A wrong answer like \"base\" or \"perpendicular\" shows confusion regarding triangle terminology, failing to recognize that the side opposite the right angle in any right-angled triangle is always uniquely designated as the hypotenuse.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims that if two right triangles have equal hypotenuse lengths, they must be congruent by the RHS criterion. Is Rahul correct, and why or why not?",
+     "a": "Rahul is incorrect because having only an equal hypotenuse is not enough; the RHS criterion requires BOTH the hypotenuse AND one corresponding side (leg) to be equal. A wrong answer indicating \"yes\" reveals a fundamental misunderstanding that a single matching side/hypotenuse pair constitutes full congruence.",
+     "self_check": true
+    },
+    {
+     "q": "In right-angled $\\triangle PQR$ and $\\triangle XYZ$, $\\angle Q = 90^\\circ$, $\\angle Y = 90^\\circ$, hypotenuse $PR = 13\\text{ cm}$, side $PQ = 5\\text{ cm}$, hypotenuse $XZ = 13\\text{ cm}$, and side $XY = 5\\text{ cm}$. Are these triangles congruent? State the criterion used.",
+     "a": "Steps: \n1. Identify the given right angles: $\\angle Q = \\angle Y = 90^\\circ$. \n2. Identify the matching hypotenuses: $PR = XZ = 13\\text{ cm}$. \n3. Identify the matching side legs: $PQ = XY = 5\\text{ cm}$. \n4. Conclude that $\\triangle PQR \\cong \\triangle XYZ$ by the RHS congruence criterion. \nA wrong answer usually stems from mixing up the side labels or failing to verify that the right angle is indeed between or adjacent to the specified legs, leading to incorrect application of SSS or SAS instead of RHS.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the SSA (Side-Side-Angle where the angle is not included) condition fails to form a unique triangle, whereas the RHS condition—which is technically a special case of SSA where the angle is $90^\\circ$—guarantees congruence.",
+     "a": "The RHS criterion works because the fixed right angle ($90^\\circ$) combined with the Pythagorean theorem ($a^2 + b^2 = c^2$) strictly locks the third side's length. General SSA fails because an acute or obtuse non-included angle allows the non-fixed side to swing into two different triangle positions (the ambiguous case). A wrong answer suggests students do not understand how a $90^\\circ$ angle constrains geometric movement differently than any arbitrary angle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"To prove two triangles are congruent by RHS, we must explicitly measure all three interior angles of both triangles.\" Is this statement valid? Defend your reasoning.",
+     "a": "The statement is invalid. We do NOT need to measure all three angles because the RHS criterion requires only: (1) one pair of right angles ($90^\\circ$), (2) a pair of equal hypotenuses, and (3) a pair of equal sides (legs). A wrong answer indicates the student believes all parts of a triangle must be checked individually rather than relying on established congruence shortcuts.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a scenario involving an Indian architectural setting (such as a triangular staircase support or roof truss) where you would use the RHS congruence criterion to prove two support beams are identical, listing the exact measurements you would take.",
+     "a": "A good response should describe a concrete scenario, such as building two right-angled wooden ramps for a school stage. The student must specify measuring a $90^\\circ$ vertical corner, a $5\\text{ metre}$ slanted board (hypotenuse), and a $4\\text{ metre}$ ground base (leg). A poor response lacks specific real-world context, omits units of measurement, or fails to mention the right angle and hypotenuse explicitly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

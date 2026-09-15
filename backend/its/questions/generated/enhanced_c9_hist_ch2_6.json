@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_6",
+   "title": "c9_hist_ch2_6",
+   "questions": [
+    {
+     "q": "What is the approximate time range of the Mehrgarh settlement, and in which modern-day country is it located?",
+     "a": "Mehrgarh dates from c. 7000 BCE to 2500 BCE and is located in present-day Balochistan, Pakistan. A wrong answer (e.g., placing it in the Indus Valley proper or dating it to 3000 BCE) reveals the student confuses Mehrgarh with the later mature Harappan phase or does not grasp its earlier, pre-urban Neolithic character.",
+     "self_check": true
+    },
+    {
+     "q": "Why do archaeologists consider Mehrgarh a \"precursor\" to the Harappan Civilisation rather than a separate, unrelated culture?",
+     "a": "Mehrgarh shows continuous cultural development over millennia: the same crops (wheat, barley), domesticated animals (humped cattle), mud-brick architecture, and craft techniques (bead-making, pottery) appear at Mehrgarh first and persist into the Harappan period. A wrong answer that cites only \"geographical proximity\" misses the specific material continuities that demonstrate direct cultural ancestry.",
+     "self_check": true
+    },
+    {
+     "q": "An archaeologist finds a layer at Mehrgarh containing handmade pottery, domesticated wheat grains, and bones of wild gazelle alongside domesticated goat bones. What does this assemblage tell you about the subsistence strategy of that community?",
+     "a": "The community practiced a mixed economy: they were early farmers (domesticated wheat, goat) but still relied significantly on hunting (wild gazelle). This indicates a transitional phase, not full dependence on agriculture. A wrong answer claiming \"fully agricultural\" or \"purely hunter-gatherer\" fails to interpret the co-occurrence of wild and domestic species as evidence of a gradual shift.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the housing patterns of Mehrgarh Period I (circa 7000–5500 BCE) and Period III (circa 4800–3500 BCE). What does the change from circular to rectangular mud-brick houses suggest about social organisation?",
+     "a": "Period I's circular huts suggest small, possibly kin-based groups with flexible layouts. Period III's standardized rectangular mud-brick houses with multiple rooms indicate larger, more permanent settlements, planning, and possibly emerging social differentiation or family units requiring defined spaces. A wrong answer focusing only on \"better technology\" misses the social implications of planned, modular housing.",
+     "self_check": true
+    },
+    {
+     "q": "Some historians argue that Mehrgarh's agriculture was \"induced\" by contact with the Fertile Crescent, while others argue for \"independent local domestication.\" Evaluate the evidence for local domestication at Mehrgarh.",
+     "a": "Evidence for local domestication includes: (1) the wild progenitors of barley and wheat exist in the nearby hills, (2) a long sequence showing gradual morphological change in grains (non-shattering rachis, larger size) within Mehrgarh's own layers, and (3) the unique domestication of humped cattle (Bos indicus), which is native to South Asia. A wrong answer that only cites \"similar crops to West Asia\" ignores the local wild ancestors and the distinct cattle species, revealing a diffusionist bias.",
+     "self_check": true
+    },
+    {
+     "q": "Create a timeline chart showing the major phases of Mehrgarh (Periods I–VII) alongside the contemporary developments in Mesopotamia (e.g., Ubaid, Uruk). Annotate two specific parallels and two key differences in the trajectory towards urbanism.",
+     "a": "A good answer aligns Mehrgarh Period I (aceramic Neolithic) with Pre-Pottery Neolithic B in the Fertile Crescent, notes parallel domestication of wheat/barley, but highlights differences: (1) Mehrgarh lacks the early temple-centred public architecture of Mesopotamia, (2) Mehrgarh's transition to urbanism (Harappan) occurs 2,000 years later and is indigenous, not driven by the same institutional complexity. A poor answer merely lists dates without comparative analysis, showing inability to synthesise cross-regional patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

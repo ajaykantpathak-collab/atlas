@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_009",
+   "title": "c11_stat_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the exact range of Karl Pearson's correlation coefficient and explain what values at the extremes (+1, -1, 0) indicate about the relationship between variables X and Y.",
+     "a": "The correlation coefficient r always lies in the closed interval [-1, +1]. r = +1 indicates perfect positive linear relationship (all points lie exactly on a line with positive slope), r = -1 indicates perfect negative linear relationship (all points lie exactly on a line with negative slope), r = 0 indicates no linear correlation (but non-linear relationship may exist). A wrong answer revealing r can exceed 1 in magnitude shows confusion with covariance; saying r=0 means \"no relationship at all\" reveals the linearity misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes correlation between height (in cm) and weight (in kg) for a class and gets r = 0.68. They then convert height to metres and weight to grams and recompute. What will the new correlation coefficient be? Justify using the relevant property.",
+     "a": "The new correlation coefficient remains exactly 0.68. This demonstrates the property of invariance under change of origin and scale: r is a dimensionless pure number unaffected by linear transformations of the form X' = aX + b, Y' = cY + d where a, c ≠ 0. A wrong answer (e.g., \"it will change because units changed\") reveals the student confuses correlation with covariance (which does change with scale) or thinks r depends on units.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data pairs: (1, 2), (2, 4), (3, 6), (4, 8), (5, 10), (100, 1). Calculate the correlation coefficient with and without the last point. What does this demonstrate about a limitation of Pearson's r?",
+     "a": "Without (100,1): points lie perfectly on y=2x, so r = +1. With (100,1): the outlier drastically pulls r toward negative (actual r ≈ -0.86). This demonstrates Limitation 2: Pearson's r is highly sensitive to outliers because it uses mean and standard deviation (both non-robust). A student who says \"r decreases slightly\" underestimates outlier influence; one who says \"r becomes 0\" doesn't grasp the direction reversal possible with a single extreme point.",
+     "self_check": true
+    },
+    {
+     "q": "A study finds r = 0.92 between \"number of fire engines sent to a fire\" and \"damage caused by the fire (in rupees)\". The city council proposes sending fewer fire engines to reduce damage. Identify the specific limitation being violated and explain why the reasoning is flawed using the concept of a confounding variable.",
+     "a": "This violates Limitation 3: correlation does not imply causation. The confounding variable is \"severity of fire\" — larger fires cause more damage AND require more fire engines. The correlation reflects this common cause, not a causal effect of engines on damage. A wrong answer blaming \"outliers\" or \"non-linearity\" misses the core logical error; saying \"r is too high to be trusted\" confuses statistical strength with causal validity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this claim: \"Since the correlation coefficient between X and Y is 0, there is no relationship between them.\" Provide a specific counterexample with a scatter plot description and explain which property/limitation makes this claim incorrect.",
+     "a": "The claim is false. Property 5 states r = 0 means no LINEAR correlation only. Counterexample: X = -3, -2, -1, 0, 1, 2, 3 and Y = X² (9, 4, 1, 0, 1, 4, 9). The scatter plot forms a perfect parabola (strong quadratic relationship) but r = 0 because positive and negative deviations cancel symmetrically. A student who agrees with the claim conflates \"correlation\" with \"association\"; one who gives a linear counterexample (e.g., horizontal line) doesn't understand r=0 already captures that case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small dataset (5-6 pairs) where the correlation coefficient is exactly 0 but there is a clear deterministic non-linear relationship. Show the calculation proving r=0 and describe the relationship. What property does this illustrate?",
+     "a": "Example: X = -2, -1, 0, 1, 2; Y = 4, 1, 0, 1, 4 (Y = X²). ΣX = 0, ΣY = 10, ΣXY = 0, ΣX² = 10, ΣY² = 34. r = [5(0) - (0)(10)] / √[5(10)-0²][5(34)-10²] = 0 / √[50][70] = 0. Relationship: perfect quadratic (parabolic). This illustrates Property 5: r measures only linear association; r=0 ⇏ independence. A poor answer gives a random scatter with r≈0 but no clear pattern, missing the \"deterministic\" requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Sound Waves: Characteristics and Applications",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.110.10.1",
+   "title": "Sound as a Mechanical Wave",
+   "section": "10",
+   "definition": "Sound is produced by vibrating bodies and travels as a mechanical wave - a sequence of compressions and rarefactions - through a material medium; it cannot travel through vacuum, and the particles of the medium only oscillate while the wave moves forward.",
+   "formula": "-",
+   "key_idea": "Vibration to medium to ear: sound needs matter to ride on, vacuum kills it.",
+   "textbook_ref": "iesc110.txt sections on production and propagation of sound",
+   "question_patterns": [
+    "how is sound produced - explain with an example",
+    "why does sound not travel through vacuum - justify",
+    "what are compressions and rarefactions in a sound wave",
+    "is a sound wave mechanical or electromagnetic - justify",
+    "explain how sound reaches our ears from a source",
+    "demonstrate that sound needs a medium to travel"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the vibration",
+     "explain": "The source vibrates and pushes the neighbouring particles."},
+    {"step": 2, "action": "follow the wave",
+     "explain": "Compressions and rarefactions travel onward through the medium."},
+    {"step": 3, "action": "end at the ear",
+     "explain": "The eardrum vibrates with the arriving wave and we hear."}
+   ]
+  },
+  {
+   "id": "iesc.110.10.2",
+   "title": "Characteristics of Sound Waves",
+   "section": "10",
+   "definition": "Three quantities describe a sound wave: frequency, the number of compressions per second heard as pitch; amplitude, the size of the oscillation heard as loudness; and wavelength with speed, which tie together as speed equals frequency times wavelength.",
+   "formula": "speed = frequency * wavelength",
+   "key_idea": "Frequency sets pitch, amplitude sets loudness, and v = f times wavelength ties them.",
+   "textbook_ref": "iesc110.txt sections on frequency, amplitude, wavelength, pitch and loudness",
+   "question_patterns": [
+    "find the speed of sound of frequency 500 Hz and wavelength 0.68 m",
+    "differentiate pitch and loudness with examples",
+    "define frequency and state its unit",
+    "which characteristic decides the shrillness of a sound",
+    "a wave has the given wavelength and speed - find its frequency",
+    "why does a flute produce a note of higher pitch than a drum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply frequency by wavelength",
+     "explain": "The wave equation gives the speed of sound.",
+     "compute": "speed = frequency * wavelength"}
+   ]
+  },
+  {
+   "id": "iesc.110.10.3",
+   "title": "Reflection of Sound: Echo and Reverberation",
+   "section": "10",
+   "definition": "Sound bounces off hard surfaces like light: an echo is a reflected sound heard separately when the reflecting surface lies far enough - at least 17.2 metres for a 0.1 second gap - while multiple rapid reflections inside halls pile up as reverberation, tamed by soft absorbent panels.",
+   "formula": "-",
+   "key_idea": "Reflection distance rule: 17.2 m keeps the echo half a second behind the original.",
+   "textbook_ref": "iesc110.txt sections on echo, reverberation and applications",
+   "question_patterns": [
+    "what is an echo - state the condition to hear it clearly",
+    "why are cinema halls given soft ceilings and curtains",
+    "find the minimum distance to hear an echo in air",
+    "define reverberation and how it is reduced",
+    "how does a bat use reflection of sound - explain",
+    "an echo returns in the given time - find the distance of the reflecting surface"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "reflect the sound",
+     "explain": "A hard distant surface returns the wave."},
+    {"step": 2, "action": "check the gap",
+     "explain": "The echo must arrive at least 0.1 s later, needing about 17.2 m in air."},
+    {"step": 3, "action": "apply to design",
+     "explain": "Concert halls absorb extra reflections; SONAR and bats exploit them."}
+   ]
+  },
+  {
+   "id": "iesc.110.10.4",
+   "title": "Range of Hearing and Ultrasound Applications",
+   "section": "10",
+   "definition": "Human ears hear roughly 20 Hz to 20000 Hz: sounds below this range are infrasound and above it ultrasound; ultrasound's short wavelengths let it clean, weld, image the body in sonography and detect undersea objects through SONAR.",
+   "formula": "-",
+   "key_idea": "Beyond human ears lies ultrasound - short waves that see, clean and measure.",
+   "textbook_ref": "iesc110.txt sections on hearing range and ultrasound applications",
+   "question_patterns": [
+    "state the audible range of frequency for humans",
+    "what is ultrasound - give two of its applications",
+    "how does SONAR measure the depth of the sea",
+    "name two animals that can hear ultrasound",
+    "what is infrasound with an example",
+    "explain sonography using ultrasound waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "mark the hearing band",
+     "explain": "20 Hz to 20000 Hz is audible; outside lie infra and ultrasound."},
+    {"step": 2, "action": "use the short wavelengths",
+     "explain": "High frequencies travel as narrow beams that reflect cleanly."},
+    {"step": 3, "action": "list the applications",
+     "explain": "Cleaning, welding, medical imaging and SONAR exploit these reflections."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc110.txt wave equation example",
+   "concept": "iesc.110.10.2",
+   "question_type": "compute",
+   "question_pattern": "A sound wave of frequency {frequency} Hz has a wavelength of {wavelength} m. Find the speed of sound.",
+   "extracted_variables": {
+    "frequency": "frequency in hertz",
+    "wavelength": "wavelength in metres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply frequency by wavelength",
+     "explain": "The wave equation gives the speed.",
+     "compute": "speed = frequency * wavelength"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc110.txt wave equation practice",
+   "concept": "iesc.110.10.2",
+   "question_type": "compute",
+   "question_pattern": "A sound of frequency {frequency} Hz travels with wavelength {wavelength} m in air. Calculate the wave speed.",
+   "extracted_variables": {
+    "frequency": "frequency in Hz",
+    "wavelength": "wavelength in m"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply frequency by wavelength",
+     "explain": "Speed equals frequency times wavelength.",
+     "compute": "speed = frequency * wavelength"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "iesc110.txt exercises",
+   "questions": [
+     "Solve the given wave-equation numericals.",
+     "Explain echo and reverberation with applications.",
+     "Describe the working of SONAR."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_009",
+   "title": "c12_hs_cbse_14_009",
+   "questions": [
+    {
+     "q": "A student reads \"Do not tumble dry\" on a wool sweater label and decides to spin-dry it at 1200 rpm in the washing machine instead. Is this a safe alternative? Explain why or why not in terms of fibre structure.",
+     "a": "No. Spin-drying at high rpm subjects wet wool fibres to centrifugal forces that stretch the elongated, scale-covered protein chains beyond their elastic recovery limit, causing permanent distortion and felting. Wool must be flat-dried after gentle pressing in a towel. A wrong answer reveals the student confuses \"no heat\" with \"no mechanical stress\" and does not understand that wet wool's low wet modulus makes it vulnerable to mechanical deformation as well as thermal damage.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a steam iron set to \"cotton/linen\" (≈200 °C) dangerous for a polyester-cotton blend shirt labelled \"warm iron (150 °C max)\", even though cotton alone tolerates 200 °C?",
+     "a": "Polyester melts at ~250 °C but begins to soften, shrink, and develop glossy \"glaze\" spots at 160–180 °C. In a blend, the polyester phase cannot dissipate heat as fast as cotton, so localised overheating occurs at fibre contact points. A wrong answer shows the student treats blends as \"average of components\" rather than recognising that the most heat-sensitive fibre dictates the maximum safe temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A cotton bedsheet is line-dried in direct sunlight until bone-dry, then ironed on \"cotton\" setting with heavy pressure. The fabric develops a harsh hand and reduced absorbency. Diagnose the two sequential errors and propose the corrected procedure.",
+     "a": "Error 1: Over-drying in direct UV sunlight causes photo-oxidative degradation of cellulose chains and excessive crystallisation, making fibres brittle. Error 2: Ironing bone-dry cotton requires excessive heat/pressure to re-establish hydrogen bonds, causing fibre flattening (glazing). Corrected: Line-dry in shade to 10–15 % residual moisture, then iron with steam at 180–200 °C while damp. A wrong answer indicates the student does not grasp that controlled residual moisture is a processing aid, not a nuisance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heat-transfer mechanisms in (a) tumble drying and (b) steam ironing. Explain why tumble drying a \"dry clean only\" silk garment is less damaging than steam ironing it, even though both use heat.",
+     "a": "Tumble drying uses forced convection (hot air ~60–70 °C) — heat transfer coefficient ~10–50 W/m²·K — gentle, uniform, no pressure. Steam ironing uses condensation of steam (latent heat 2260 kJ/kg) at 100 °C directly on fabric under 3–5 kg pressure — heat flux >10 kW/m² — causing rapid, localised thermal shock and mechanical compression of delicate silk fibroin. A wrong answer reveals confusion between bulk temperature and heat flux/pressure as damage drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"A garment steamer (vertical steam) can replace an iron for all fabrics because it operates at lower temperature (100 °C steam vs 200 °C soleplate) and applies no pressure.\"",
+     "a": "Claim is false. Steamers excel at relaxing wrinkles in hanging garments (wool, silk, synthetics) but cannot create sharp creases (trousers, pleats) or flatten dense weaves (denim, canvas) because they lack pressure to overcome fibre bending rigidity and set new hydrogen-bond configurations. Also, steam condensation on cool fabric can cause water spotting on silk/rayon. A wrong answer shows the student equates \"wrinkle removal\" with \"pressing\" and ignores the mechanical role of pressure in permanent set.",
+     "self_check": true
+    },
+    {
+     "q": "Design a drying-and-ironing protocol for a mixed load containing: 100 % linen tablecloth, 70/30 polyester/cotton shirt, merino wool sweater, and silk scarf. Specify: drying method, drying equipment, ironing temperature, ironing equipment, and sequence — justifying each choice in one sentence.",
+     "a": "Linen: shade line-dry to damp, steam press at 200 °C (cellulosic, high wet strength, needs pressure for crispness). Poly/cotton: tumble dry low heat (60 °C) to 10 % moisture, steam iron at 150 °C (polyester limits temp). Wool: flat dry on towel rack away from heat, steam iron at 140 °C with press cloth (protein, felting risk). Silk: flat dry in shade, steam iron at 110 °C dry side down with press cloth (protein, UV/heat sensitive). Sequence: dry all first (linen & poly/cotton can tumble; wool & silk flat), then iron coolest to hottest (silk → wool → poly/cotton → linen) to avoid re-heating soleplate. A poor answer treats all items identically or ignores the ironing sequence efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

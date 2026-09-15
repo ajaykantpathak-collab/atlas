@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_004",
+   "title": "c10_chem_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the fundamental basis on which Mendeleev arranged elements in his periodic table, and name the specific property that caused anomalies in this arrangement.",
+     "a": "Mendeleev arranged elements in order of increasing **atomic mass**. The anomalies arose because he prioritized **chemical properties** (similarity in formulae and reactivity) over strict atomic mass order, leading to pairs like Ar (39.9) placed before K (39.1). A wrong answer (e.g., \"atomic number\" or \"valency\") reveals the student confuses Mendeleev's basis with the Modern Periodic Law or does not recall the historical basis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pair Argon (atomic mass 39.9) and Potassium (atomic mass 39.1) is called an \"anomalous pair\" in Mendeleev's table. What decision did Mendeleev make to resolve this?",
+     "a": "Argon is heavier than potassium, so strict atomic mass order would place K before Ar. However, Ar is a noble gas (Group 0) and K is an alkali metal (Group 1); placing K before Ar would break the periodic recurrence of properties. Mendeleev **reversed their order**, placing Ar before K, to keep elements with similar properties in the same group. A wrong answer (e.g., \"Mendeleev placed them by atomic mass\") shows the student does not understand that Mendeleev deliberately violated his own primary criterion to preserve chemical periodicity.",
+     "self_check": true
+    },
+    {
+     "q": "Cobalt (Co, atomic mass 58.93) and Nickel (Ni, atomic mass 58.69) form another anomalous pair. If a student arranges them strictly by increasing atomic mass, which element would come first? Why would this be chemically incorrect in Mendeleev's table? (Refer to their group positions: Co in Group 9, Ni in Group 10).",
+     "a": "Strict atomic mass order: Ni (58.69) before Co (58.93). This is chemically incorrect because Co belongs to Group 9 (with Rh, Ir) and Ni to Group 10 (with Pd, Pt). Swapping them would place Co in Group 10 and Ni in Group 9, separating each from its chemically similar congeners. Mendeleev placed Co before Ni to maintain group similarity. A wrong answer indicates the student cannot apply the \"property over mass\" principle to a new pair or does not know group numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Chlorine has two isotopes: Cl-35 (75%) and Cl-37 (25%). Using Mendeleev's atomic mass criterion, how many positions would chlorine occupy in his table? Why does this contradict the observation that all isotopes of chlorine show identical chemical properties?",
+     "a": "Mendeleev's table would require **two separate positions** — one for Cl-35 (mass 35) and one for Cl-37 (mass 37) — because each has a different atomic mass. However, isotopes have the same atomic number (Z=17) and therefore identical chemical properties; they must occupy the **same position** in a chemically meaningful table. This contradiction proves atomic mass cannot be the fundamental basis. A wrong answer (e.g., \"one position because they are the same element\") shows the student knows the outcome but not the mechanistic reason within Mendeleev's framework.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Mendeleev's table has no problem with isotopes because he left gaps for undiscovered elements, so he could just put isotopes in adjacent gaps.\" Evaluate this claim and explain why it fails.",
+     "a": "The claim fails because **gaps were for undiscovered elements with distinct properties**, not for multiple forms of the same element. Isotopes have **identical chemical properties**; placing them in separate gaps would imply they are different elements with different properties, which is false. Moreover, there are many isotopes for many elements — the table would become unmanageably large. A wrong evaluation reveals the student conflates \"gaps for unknown elements\" with \"multiple positions for known element variants\" and misses the core issue: same properties demand same position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You are Mendeleev in 1871. You have just learned that \"element X\" exists as two forms with masses 20 and 22 but identical chemistry. Write a short note to your laboratory notebook describing (a) where you would place them in your current table, (b) the problem this creates, and (c) what fundamental property you now suspect might be better than atomic mass.",
+     "a": "(a) I would be forced to place mass-20 form at position 20 and mass-22 form at position 22. (b) This splits one chemical element into two boxes, breaking the one-element-one-position principle and leaving a gap at mass 21 that has no chemical justification. (c) I suspect the **charge on the nucleus (or a property that increases by one per element)** — later identified as atomic number — is the true fundamental basis. A poor answer treats isotopes as different elements or suggests \"atomic number\" without explaining why the mass-based table forces a split.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

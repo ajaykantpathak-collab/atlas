@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_001",
+   "title": "c11_phy_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the SI unit of pressure and its equivalent in base SI units (kg, m, s). Write the dimensional formula of pressure.",
+     "a": "The SI unit of pressure is pascal (Pa). 1 Pa = 1 N/m² = 1 kg·m⁻¹·s⁻². Dimensional formula: [ML⁻¹T⁻²]. A wrong answer (e.g., giving N/m² without converting to base units, or writing [MLT⁻²]) reveals the student cannot connect derived units to base units or confuse pressure dimensions with force dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Pressure is force divided by area, and force is a vector, so pressure must also be a vector.\" Explain why this reasoning is incorrect, referencing the definition of pressure at a point in a fluid.",
+     "a": "Pressure is defined using only the *normal component* of force (ΔFₙ) acting perpendicular to the surface element ΔA. The tangential component would cause fluid flow, which cannot exist in a fluid at rest. Since only the magnitude of the normal force per unit area is used, and this quantity has no direction associated with it (it acts equally in all directions at a point), pressure is a scalar. A wrong answer indicates the student confuses the vector nature of force with the scalar definition of pressure, missing the crucial \"normal component\" condition.",
+     "self_check": true
+    },
+    {
+     "q": "A hydraulic press has a small piston of cross-sectional area 2.5 cm² and a large piston of area 350 cm². If a force of 120 N is applied on the small piston, calculate the pressure in the fluid in pascal and in atm. (Take 1 atm = 1.013 × 10⁵ Pa)",
+     "a": "Step 1: Convert area to m²: A₁ = 2.5 cm² = 2.5 × 10⁻⁴ m².\nStep 2: Pressure P = F/A₁ = 120 N / (2.5 × 10⁻⁴ m²) = 4.8 × 10⁵ Pa.\nStep 3: Convert to atm: P = (4.8 × 10⁵ Pa) / (1.013 × 10⁵ Pa/atm) ≈ 4.74 atm.\nA wrong answer (e.g., using cm² directly, or forgetting to convert) reveals unit conversion errors or confusion between average pressure and point pressure definition.",
+     "self_check": true
+    },
+    {
+     "q": "Two surfaces of different areas (A₁ = 10 cm² and A₂ = 50 cm²) experience the same normal force F = 200 N. Compare the average pressures on them. If the force is applied at an angle of 30° to the normal on surface A₂, what is the effective pressure? Analyze how the angle affects pressure.",
+     "a": "P₁ = 200 N / (10 × 10⁻⁴ m²) = 2 × 10⁵ Pa. P₂ = 200 N / (50 × 10⁻⁴ m²) = 4 × 10⁴ Pa. Pressure is inversely proportional to area for same force. At 30°, normal component Fₙ = F cos 30° = 200 × (√3/2) ≈ 173.2 N. Effective pressure P₂' = 173.2 N / (50 × 10⁻⁴ m²) ≈ 3.46 × 10⁴ Pa. Pressure decreases because only the normal component contributes. A wrong answer (using full force at angle, or not converting area) shows misunderstanding of the normal force requirement in pressure definition.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"Atmospheric pressure at sea level is 1.013 × 10⁵ Pa.\" A student measures pressure in their lab using a mercury barometer and gets 76 cm Hg. Evaluate whether these two values are consistent. (Density of mercury = 13,600 kg/m³, g = 9.8 m/s²)",
+     "a": "Pressure from mercury column: P = ρgh = 13,600 kg/m³ × 9.8 m/s² × 0.76 m = 1.013 × 10⁵ Pa. The values are consistent. This evaluates the student's ability to connect the barometer reading (length of Hg column) to the SI pressure value using P = ρgh. A wrong evaluation (e.g., saying they differ, or using h = 76 m instead of 0.76 m) reveals unit conversion failure or not recognizing the barometer formula as an application of pressure definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that pressure depends on area for a constant force. Describe the procedure, what you would measure, and how you would calculate and compare pressures.",
+     "a": "Place a brick (weight ≈ 20 N) on sand in three orientations: largest face (≈ 0.02 m²), smallest face (≈ 0.005 m²), and on its edge (≈ 0.01 m²). Measure the depth of sinking in each case. Calculate pressure: P = 20 N / area. Largest face: 1000 Pa; smallest: 4000 Pa; edge: 2000 Pa. Deeper sinking correlates with higher pressure. A poor answer (e.g., using different forces, not measuring area, or confusing mass with weight) shows inability to isolate variables or apply the pressure formula correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

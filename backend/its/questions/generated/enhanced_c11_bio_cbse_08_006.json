@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_006",
+   "title": "c11_bio_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the precise sedimentation coefficient of ribosomes found in the mitochondrial matrix and chloroplast stroma, and explain why this specific value is significant for evolutionary biology.",
+     "a": "The ribosomes in both mitochondrial matrix and chloroplast stroma are 70S (composed of 50S and 30S subunits), identical to prokaryotic ribosomes but distinct from the 80S cytoplasmic ribosomes of eukaryotes. This similarity supports the endosymbiotic theory — mitochondria and chloroplasts originated from free-living prokaryotes engulfed by ancestral eukaryotic cells. A wrong answer (e.g., stating 80S ribosomes) reveals the student has not internalised the evolutionary evidence and treats these organelles as typical eukaryotic structures.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since both mitochondria and chloroplasts have double membranes, the inner membrane of mitochondria is equivalent to the thylakoid membrane of chloroplasts in function.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is incorrect. The mitochondrial inner membrane (cristae) houses the electron transport chain and ATP synthase for oxidative phosphorylation, while the chloroplast thylakoid membrane houses photosystems and ATP synthase for photophosphorylation. The *functional equivalent* of the mitochondrial inner membrane is the chloroplast thylakoid membrane — not the chloroplast inner envelope membrane. The chloroplast inner membrane is primarily a permeability barrier for metabolite transport. A wrong answer reveals confusion between envelope membranes and internal energy-transducing membranes.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the effect on cellular ATP levels if a specific inhibitor blocks the mitochondrial outer membrane porin channels (VDAC) in a hepatocyte actively performing gluconeogenesis. Justify your prediction with the metabolic pathway involved.",
+     "a": "ATP levels in the cytosol would decrease. Gluconeogenesis requires mitochondrial oxaloacetate to be transported to cytosol as malate or aspartate; this shuttle depends on free diffusion of metabolites (ADP, ATP, pyruvate, malate) through VDAC channels. Blocking VDAC traps ADP inside mitochondria and prevents ATP export to cytosol, stalling both gluconeogenesis and cytosolic ATP supply. A wrong answer (e.g., \"no effect because mitochondria make their own ATP\") reveals failure to integrate membrane transport with whole-cell metabolic compartmentalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the genetic autonomy of mitochondria and chloroplasts by analysing: (a) genome size and gene content, (b) protein import machinery complexity, and (c) division mechanism. What pattern emerges about their evolutionary trajectories?",
+     "a": "Both organelles have reduced genomes (~16.5 kb human mtDNA, ~120-170 kb chloroplast DNA) encoding only a subset of their proteins (13 in human mitochondria, ~100 in chloroplasts). Both use TOM/TIM (mitochondria) and TOC/TIC (chloroplasts) translocases for nuclear-encoded protein import. Both divide by binary fission using dynamin-related proteins (Drp1 in mitochondria, FtsZ in chloroplasts). The pattern: chloroplasts retain more genes and a more prokaryote-like division apparatus (FtsZ), suggesting a later endosymbiotic event or stronger retention of ancestral functions, while mitochondria show greater gene transfer to nucleus and host-derived division machinery. A wrong answer focusing only on \"both have DNA\" misses the comparative evolutionary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A research team isolates a mutant Arabidopsis line lacking functional stromules (stroma-filled tubules extending from chloroplasts). They observe normal photosynthesis but impaired sucrose synthesis in leaves during cold stress. Propose a mechanistic explanation linking stromule function to this phenotype.",
+     "a": "Stromules facilitate metabolite exchange between chloroplast stroma and cytosol, particularly under stress when diffusion distances increase. During cold stress, cytosolic sucrose synthesis requires triose phosphates exported from chloroplasts via the triose phosphate/phosphate translocator (TPT). Without stromules increasing chloroplast-cytosol contact area, TPT-mediated export becomes rate-limiting, reducing cytosolic sucrose synthesis despite intact Calvin cycle. A wrong answer (e.g., \"photosynthesis is impaired\") reveals failure to distinguish light reactions from carbon partitioning and to recognise stromules as dynamic metabolic interfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using differential centrifugation and marker enzymes to prove that a newly discovered organelle in a thermophilic alga is a mitochondrion-derived hydrogenosome (lacks cytochrome-based ETC, produces H₂ and ATP via substrate-level phosphorylation). Specify the fractionation steps, marker enzymes, and expected results.",
+     "a": "1. Homogenise cells in isotonic buffer; 2. Low-speed spin (1,000g) to remove nuclei/debris; 3. Medium-speed spin (10,000g) to pellet mitochondria/hydrogenosomes; 4. Assay pellet for: citrate synthase (mitochondrial matrix marker) — should be POSITIVE; cytochrome c oxidase (ETC marker) — should be NEGATIVE; hydrogenase (hydrogenosome marker) — should be POSITIVE; 5. Confirm ATP production in pellet with pyruvate + ADP but without oxygen. Expected: organelle sediments at 10,000g, has matrix enzymes and hydrogenase, lacks cytochromes, makes ATP anaerobically. A poor design (e.g., skipping marker enzymes) reveals inability to use biochemical criteria for organelle identity beyond morphology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

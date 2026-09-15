@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_12",
+   "title": "c8_eco_ch1_12",
+   "questions": [
+    {
+     "q": "What does the term \"sustainable production\" primarily aim to balance?",
+     "a": "Sustainable production aims to balance current economic manufacturing needs with the preservation of natural resources and environmental health for future generations. A student who answers that it only means stopping all production or reducing output completely misunderstands that sustainability focuses on efficiency and resource renewal rather than halting economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a factory owner who ignores resource efficiency face higher production costs in the long run?",
+     "a": "A factory owner who wastes raw materials and energy will face higher long-term costs because wasted inputs represent lost money, and resource depletion eventually makes raw materials scarcer and more expensive to buy. A student who thinks wasting resources saves money fails to recognize that every discarded input is an unpaid cost that reduces overall profit.",
+     "self_check": true
+    },
+    {
+     "q": "A paper mill uses 1,000 kilograms of wood pulp to produce 800 kilograms of paper, generating 200 kilograms of waste sludge. By upgrading its machinery for ₹50,000, the mill reduces waste sludge to 50 kilograms while using the same 1,000 kilograms of pulp. If recycled paper sells for ₹40 per kilogram, what is the net value of the extra paper produced by the upgrade?",
+     "a": "Steps:\n1. Identify initial paper output: 800 kg.\n2. Identify new paper output after upgrade: 1,000 kg pulp minus 50 kg waste = 950 kg paper.\n3. Calculate extra paper produced: 950 kg - 800 kg = 150 kg of extra paper.\n4. Calculate the total value of extra paper: 150 kg × ₹40/kg = ₹6,000.\nAnswer: ₹6,000. A student who calculates the gross revenue incorrectly or subtracts the machine cost when asked only for the value of extra paper lacks clear operational analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how shifting from traditional coal-powered electricity to solar energy affects a manufacturing firm's variable costs and its dependency on natural capital.",
+     "a": "Shifting to solar energy reduces long-term variable energy costs because sunlight is free after the initial capital investment in panels, whereas coal prices fluctuate and rise. Furthermore, it decreases dependency on exhaustible natural capital, insulating the firm from fossil fuel shortages and government carbon penalties. A student who claims solar energy increases variable costs indefinitely is confusing capital investment with ongoing operational expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Sustainable production practices always reduce a small business's short-term profits, so government regulations are the only reason to adopt them.\" Do you agree or disagree? Provide economic reasoning.",
+     "a": "I disagree because while some sustainable practices require upfront investment (capital costs), many practices—such as reducing material waste, recycling water, and saving electricity—immediately lower operational costs and increase net profit even without regulations. A student who agrees ignores that efficiency directly cuts unnecessary expenditure, proving that sustainability and profitability often go hand in hand.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a three-step sustainable production strategy for a local sweet-making workshop that uses large amounts of sugarcane, water, and firewood.",
+     "a": "A strong response includes: (1) Replacing firewood with biomass briquettes or solar heaters to reduce deforestation and fuel costs, (2) Installing a water recycling system to clean and reuse washing water, and (3) Converting organic sugar waste into compost or animal feed to eliminate disposal fees. A poor response merely suggests \"stopping production\" or \"using less sugar,\" which does not address operational sustainability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_008",
+   "title": "c11_phy_cbse_06_008",
+   "questions": [
+    {
+     "q": "State the definition of moment of inertia for a system of discrete particles. Write the formula with all symbols defined and give its SI unit and dimensions.",
+     "a": "Moment of inertia I = Σ m_i r_i² where m_i is the mass of the ith particle (kg) and r_i is its perpendicular distance from the axis of rotation (m). SI unit: kg·m². Dimensions: [M L² T⁰]. A wrong answer (e.g., using r instead of r², or using linear distance along the axis) reveals confusion between moment of inertia and mass moment or misunderstanding of \"perpendicular distance\".",
+     "self_check": true
+    },
+    {
+     "q": "A thin rod of length L has two point masses m and 2m attached at its ends. The rod rotates about an axis perpendicular to it passing through the centre. A student writes I = m(L/2) + 2m(L/2) = 1.5mL. Explain why this is incorrect and write the correct expression.",
+     "a": "The student used r instead of r². Moment of inertia requires the square of the perpendicular distance: I = m(L/2)² + 2m(L/2)² = mL²/4 + 2mL²/4 = 3mL²/4. The error shows the student treats it like a linear sum (mass × distance) rather than the correct mass × distance², confusing it with centre of mass calculation or moment of force.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the moment of inertia of a system consisting of three particles of masses 2 kg, 3 kg, and 5 kg placed at the vertices of an equilateral triangle of side 0.4 m. The axis of rotation passes through the 2 kg mass and is perpendicular to the plane of the triangle.",
+     "a": "Step 1: Identify axis – through 2 kg mass, perpendicular to plane.\nStep 2: Distances from axis: r₁ = 0 (for 2 kg mass), r₂ = 0.4 m (for 3 kg mass), r₃ = 0.4 m (for 5 kg mass).\nStep 3: I = Σ m_i r_i² = (2 × 0²) + (3 × 0.4²) + (5 × 0.4²) = 0 + 3 × 0.16 + 5 × 0.16 = 0.48 + 0.80 = 1.28 kg·m².\nStep 4: Units check: kg × m² = kg·m² ✓.\nStep 5: Physical reasonableness: I > 0, increases with mass and distance ✓.\nWrong answer (e.g., 0.32 kg·m²) indicates forgetting to square distances or misidentifying which mass is on the axis.",
+     "self_check": true
+    },
+    {
+     "q": "Two uniform rods A and B have the same mass M and length L. Rod A rotates about an axis through its centre perpendicular to its length. Rod B rotates about an axis through one end perpendicular to its length. Without using the standard formulas from memory, explain qualitatively which rod has larger moment of inertia and why. Then write the ratio I_B / I_A.",
+     "a": "Rod B has larger I because more of its mass is distributed farther from the axis. For Rod A, mass elements range from 0 to L/2; for Rod B, from 0 to L. Since I depends on r², the larger distances in B dominate. Ratio: I_B / I_A = (ML²/3) / (ML²/12) = 4. A student answering 2 or 1 reveals they think I scales linearly with distance or that total mass alone determines I.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The moment of inertia of a body about any axis is a fixed property of the body, just like its mass.\" Evaluate this statement. Is it true or false? Justify your answer with a concrete example.",
+     "a": "False. Moment of inertia depends on the choice of axis. Example: A thin rod of mass M, length L. About centre perpendicular axis: I = ML²/12. About end perpendicular axis: I = ML²/3. Same body, different axes, different I. Mass is invariant; I is not. The student's error is treating I as an intrinsic scalar property like mass, ignoring its dependence on axis orientation and position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that moment of inertia depends on mass distribution, not just total mass. Describe the setup, procedure, and what observation confirms the concept.",
+     "a": "Setup: Two identical rulers (same mass, length). Tape four 10 g coins near the centre of ruler A; tape the same four coins at the ends of ruler B. Hold each ruler at its centre and twist rapidly back and forth (torsional oscillation). Observation: Ruler B oscillates slower (larger period) because its mass is farther from the axis → larger I. This shows I depends on mass distribution. A poor answer would describe an experiment that doesn't isolate distribution (e.g., different total masses) or measures linear motion instead of rotational.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

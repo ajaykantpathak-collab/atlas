@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_003",
+   "title": "c10_math_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the algebraic condition for a pair of linear equations \\(a_1x + b_1y + c_1 = 0\\) and \\(a_2x + b_2y + c_2 = 0\\) to represent parallel lines (inconsistent system).",
+     "a": "The condition is \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\). A wrong answer like \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\) reveals the student confuses inconsistent (parallel) systems with dependent (coincident) systems. Writing \\(\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}\\) indicates confusion with consistent (intersecting) systems. The student must distinguish all three cases by the relationship among the three ratios.",
+     "self_check": true
+    },
+    {
+     "q": "The equations \\(3x + 4y = 12\\) and \\(6x + 8y = 15\\) represent parallel lines. Explain why this system has no solution by referring to both the ratio condition and the graphical meaning.",
+     "a": "Rewrite in standard form: \\(3x + 4y - 12 = 0\\) and \\(6x + 8y - 15 = 0\\). Ratios: \\(\\frac{3}{6} = \\frac{1}{2}\\), \\(\\frac{4}{8} = \\frac{1}{2}\\), \\(\\frac{-12}{-15} = \\frac{4}{5}\\). Since \\(\\frac{1}{2} = \\frac{1}{2} \\neq \\frac{4}{5}\\), the condition for parallel lines is satisfied. Graphically, both lines have slope \\(-\\frac{3}{4}\\) but different y-intercepts (3 and 1.875), so they never intersect. A wrong answer that only checks \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2}\\) without comparing \\(\\frac{c_1}{c_2}\\) shows the student doesn't understand that equal slopes alone could mean coincident lines (infinitely many solutions) — the constant ratio check is essential to confirm they are distinct parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the following pair of equations has a solution: \\(2x - 3y = 7\\) and \\(4x - 6y = 20\\). Show all steps using the ratio method.",
+     "a": "**Step 1:** Write in standard form: \\(2x - 3y - 7 = 0\\) and \\(4x - 6y - 20 = 0\\).\n**Step 2:** Identify coefficients: \\(a_1=2, b_1=-3, c_1=-7\\); \\(a_2=4, b_2=-6, c_2=-20\\).\n**Step 3:** Compute ratios: \\(\\frac{a_1}{a_2} = \\frac{2}{4} = \\frac{1}{2}\\), \\(\\frac{b_1}{b_2} = \\frac{-3}{-6} = \\frac{1}{2}\\), \\(\\frac{c_1}{c_2} = \\frac{-7}{-20} = \\frac{7}{20}\\).\n**Step 4:** Compare: \\(\\frac{1}{2} = \\frac{1}{2} \\neq \\frac{7}{20}\\).\n**Step 5:** Conclusion: The system is inconsistent (parallel lines), so there is **no solution**.\nA wrong answer claiming \"unique solution\" or \"infinitely many solutions\" reveals the student either miscalculated ratios (e.g., \\(\\frac{-7}{-20} = \\frac{1}{2}\\) by error) or doesn't know how to interpret the inequality of the third ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the system \\(5x + 2y = 11\\) and \\(10x + 4y = 22\\). Student A says \"no solution\" because \\(\\frac{5}{10} = \\frac{2}{4}\\). Student B says \"infinitely many solutions\" because all three ratios are equal. Who is correct? Justify by computing all three ratios.",
+     "a": "Standard form: \\(5x + 2y - 11 = 0\\) and \\(10x + 4y - 22 = 0\\).\nRatios: \\(\\frac{a_1}{a_2} = \\frac{5}{10} = \\frac{1}{2}\\), \\(\\frac{b_1}{b_2} = \\frac{2}{4} = \\frac{1}{2}\\), \\(\\frac{c_1}{c_2} = \\frac{-11}{-22} = \\frac{1}{2}\\).\nSince \\(\\frac{1}{2} = \\frac{1}{2} = \\frac{1}{2}\\), **Student B is correct** — the system is dependent (coincident lines), not inconsistent. Student A made the common error of stopping after checking only the first two ratios and ignoring the constant ratio. This reveals the misconception that equal \\(x\\) and \\(y\\) coefficient ratios automatically imply parallel lines, forgetting that equal constant ratio means the lines are actually the same line.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The equations \\(x + 2y = 3\\) and \\(2x + 4y = 5\\) have no solution because when I multiply the first equation by 2, I get \\(2x + 4y = 6\\), which contradicts the second equation \\(2x + 4y = 5\\). Since \\(6 \\neq 5\\), there is no solution.\" Evaluate this reasoning. Is it valid? Does it match the ratio condition?",
+     "a": "The reasoning is **valid and correct**. Multiplying the first equation by 2 gives \\(2x + 4y = 6\\). Comparing with the second equation \\(2x + 4y = 5\\), the left-hand sides are identical but right-hand sides differ (\\(6 \\neq 5\\)), which is a contradiction — no \\((x, y)\\) can satisfy both. This matches the ratio condition: standard form \\(x + 2y - 3 = 0\\) and \\(2x + 4y - 5 = 0\\). Ratios: \\(\\frac{1}{2} = \\frac{2}{4} = \\frac{1}{2}\\), but \\(\\frac{-3}{-5} = \\frac{3}{5} \\neq \\frac{1}{2}\\). So \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\) holds. A student who says \"this method is wrong, you must use ratios\" reveals a misconception that the elimination approach (which they will learn in the next node) is invalid for checking consistency — in fact, it's a perfectly valid algebraic verification that leads to the same conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a linear equation in two variables that, together with \\(3x - 5y = 10\\), forms an inconsistent system (parallel lines). Explain how you chose the coefficients to satisfy the parallel lines condition.",
+     "a": "One possible answer: \\(6x - 10y = 25\\) (or any equation where coefficients of \\(x\\) and \\(y\\) are in the same ratio \\(3:-5\\) but the constant is not in that ratio).\n**Construction steps:**\n1. Given equation: \\(3x - 5y - 10 = 0\\) → \\(a_1=3, b_1=-5, c_1=-10\\).\n2. Choose \\(a_2, b_2\\) such that \\(\\frac{a_2}{a_1} = \\frac{b_2}{b_1} = k\\) (same ratio). Let \\(k=2\\): \\(a_2=6, b_2=-10\\).\n3. Choose \\(c_2\\) such that \\(\\frac{c_2}{c_1} \\neq k\\). Let \\(c_2 = -25\\) (since \\(\\frac{-25}{-10} = 2.5 \\neq 2\\)).\n4. Equation: \\(6x - 10y - 25 = 0\\) or \\(6x - 10y = 25\\).\n5. Verify: \\(\\frac{3}{6} = \\frac{1}{2}\\), \\(\\frac{-5}{-10} = \\frac{1}{2}\\), \\(\\frac{-10}{-25} = \\frac{2}{5}\\). Since \\(\\frac{1}{2} = \\frac{1}{2} \\neq \\frac{2}{5}\\), condition satisfied.\nA poor answer like \\(3x - 5y = 20\\) (same coefficients, different constant) is actually correct but shows less understanding of the ratio concept; an answer like \\(6x - 10y = 20\\) would be wrong because \\(\\frac{-10}{-20} = \\frac{1}{2}\\) equals the other ratios, making it a dependent system (coincident lines).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

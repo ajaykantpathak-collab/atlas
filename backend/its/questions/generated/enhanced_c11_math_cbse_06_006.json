@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_006",
+   "title": "c11_math_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the correct boundary line style and shading for the inequality 3x - 2y > 6? Explain your reasoning in two sentences.",
+     "a": "The boundary line 3x - 2y = 6 should be drawn as a dashed line because the inequality is strict (>). Testing the origin (0,0): 0 > 6 is false, so the half-plane NOT containing the origin is shaded. A wrong answer (solid line or shading the wrong side) reveals the student confuses strict vs. non-strict inequality symbols or does not know how to use a test point to determine the solution region.",
+     "self_check": true
+    },
+    {
+     "q": "A student graphs the inequality x + y ≤ 4 by drawing a solid line through (0,4) and (4,0) and shading the region containing the origin. Is this correct? If not, what specific error did the student make in the test point evaluation?",
+     "a": "The student's graph is actually correct. The line x + y = 4 is solid (≤), and testing (0,0) gives 0 ≤ 4 which is true, so shading the origin side is correct. If a student claims this is wrong, they likely believe the inequality symbol direction indicates shading direction (e.g., ≤ means shade \"below\" the line), which is a common misconception that only works when the line is in slope-intercept form with y isolated and positive coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Graph the system of inequalities: 2x + 3y ≤ 12, x - y ≥ 1, x ≥ 0, y ≥ 0. Find the coordinates of all corner points of the feasible region.",
+     "a": "Step 1: Draw boundary lines: 2x + 3y = 12 (intercepts (0,4), (6,0), solid), x - y = 1 (intercepts (0,-1), (1,0), solid), x=0 (y-axis, solid), y=0 (x-axis, solid).\nStep 2: Test points: For 2x+3y≤12, origin (0,0) gives 0≤12 (true) → shade origin side. For x-y≥1, origin gives 0≥1 (false) → shade opposite side. x≥0 and y≥0 restrict to first quadrant.\nStep 3: Find intersections:\n- 2x+3y=12 and x-y=1: Substitute y=x-1 → 2x+3(x-1)=12 → 5x=15 → x=3, y=2. Point (3,2).\n- 2x+3y=12 and x=0: y=4. Point (0,4).\n- x-y=1 and y=0: x=1. Point (1,0).\n- x=0 and y=0: Point (0,0).\nStep 4: Check which intersections satisfy ALL inequalities: (3,2) ✓, (0,4) ✓, (1,0) ✓, (0,0) ✓.\nCorner points: (0,0), (1,0), (3,2), (0,4). A wrong answer (missing points or including invalid ones) reveals the student cannot solve simultaneous equations or does not verify corner points against all constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the feasible regions of these two systems:\nSystem A: x + y ≤ 5, x ≥ 0, y ≥ 0\nSystem B: x + y ≥ 5, x ≥ 0, y ≥ 0\nDescribe how the inequality direction changes the region's shape, boundedness, and location relative to the line x + y = 5.",
+     "a": "System A (≤) gives a bounded triangular region in the first quadrant with vertices (0,0), (5,0), (0,5) — the region BELOW the line including the origin. System B (≥) gives an unbounded region in the first quadrant ABOVE the line, extending infinitely away from the origin, with boundary segment from (5,0) to (0,5) and rays going outward. The inequality direction flips which half-plane is the solution. A wrong answer reveals the student thinks both systems produce similar bounded triangles or cannot distinguish bounded vs. unbounded regions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the system: x + 2y ≤ 8, 3x + y ≤ 9, x ≥ 0, y ≥ 0 and claims the feasible region has corner points (0,0), (0,4), (3,0), and (2,3). Evaluate this claim. Is (2,3) actually a corner point? Show verification.",
+     "a": "The claim is incorrect. Check (2,3) in both inequalities: x+2y = 2+6 = 8 ≤ 8 ✓. 3x+y = 6+3 = 9 ≤ 9 ✓. So (2,3) satisfies both, but it is the INTERSECTION of the two lines x+2y=8 and 3x+y=9. Solving: multiply second by 2: 6x+2y=18. Subtract first: 5x=10 → x=2, y=3. This IS a corner point! The student's list is actually correct: (0,0), (0,4) from x+2y=8 & x=0, (3,0) from 3x+y=9 & y=0, and (2,3) from the two slanted lines. All four are valid corners. A wrong evaluation reveals the student cannot solve simultaneous equations to find intersections or does not check all constraint boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem from Indian context (e.g., farming, manufacturing, budgeting) that requires graphing a system of at least THREE linear inequalities in two variables. Write the inequalities, describe the feasible region, and explain what the corner points represent in your context.",
+     "a": "Example: A farmer in Punjab has 10 hectares of land, ₹50,000 budget, and 200 labor hours. Wheat requires 1 hectare, ₹5,000, 20 hours per unit; Rice requires 1 hectare, ₹4,000, 30 hours per unit. Let x = wheat units, y = rice units. Inequalities: x + y ≤ 10 (land), 5x + 4y ≤ 50 (budget in thousands), 2x + 3y ≤ 20 (labor in tens of hours), x ≥ 0, y ≥ 0. Feasible region is a polygon in first quadrant. Corner points represent extreme production plans: e.g., intersection of land and budget constraints gives maximum crop mix within both limits. A poor answer uses trivial inequalities, misses non-negativity, or cannot interpret corner points as optimal trade-offs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_10_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_10_014",
+   "title": "c12_eng_k_cbse_10_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical paragraphs for poetry?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student has memorised a mnemonic without understanding its functional steps — they cannot map each letter to a specific writing action, so their paragraphs lack structure.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it insufficient to write: \"Dickinson uses personification when she says the trees 'hit – and – swung' like tassels\"?",
+     "a": "That sentence only provides Evidence without a Point (what is the purpose?), Explanation (how does \"hit/swing\" create human agency?), or Link (how does this build the summer day imagery?). A student who thinks this is a complete answer treats quotation as analysis — they haven't learned that evidence must be *framed* by argument.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL paragraph (4-5 sentences) answering: \"How does the metaphor 'Psalteries of Summer' enhance the auditory imagery of the poem?\" Use the exact phrase 'Psalteries of Summer' as embedded evidence.",
+     "a": "**Point:** Dickinson transforms visual summer sounds into a structured musical experience through the metaphor \"Psalteries of Summer\". **Evidence:** By calling the wind-through-trees sound \"Psalteries\" — an ancient stringed instrument — she frames nature's noise as deliberate melody. **Explanation:** A psaltery requires a player; this implies the summer breeze is a musician, turning random rustling into \"a Tune\" that \"Enamoring the Ear\". **Link:** This metaphor elevates the poem's soundscape from background noise to an enchanting concert, reinforcing the speaker's awe at summer's artistry.  \n*Wrong answer reveals:* Student writes \"The poet says Psalteries of Summer which means the trees sound like music\" — this paraphrases without analysing *why* the specific instrument metaphor matters (player agency, deliberateness, ear-enchantment).",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two answers to \"Discuss the significance of capitalised pronouns for the Sun (Himself, His, Him).\"  \nAnswer A: \"The Sun is called Himself and His to show it is powerful like a king.\"  \nAnswer B: \"Capitalising 'Himself', 'His', and 'Him' personifies the Sun as a sovereign landowner who chooses when to reveal himself ('optional') and owns 'Estates of Cloud' — this agency makes nature's unpredictability feel like conscious whim rather than blind force.\"  \nWhich answer demonstrates higher-order analysis? Justify using PEEL criteria.",
+     "a": "Answer B is superior. It makes a precise Point (Sun as sovereign landowner), embeds exact Evidence ('optional', 'Estates of Cloud'), Explains the implication (agency → conscious whim), and Links to the poem's central tension (unpredictability as choice). Answer A only states a vague Point (\"powerful like a king\") with no textual Evidence, no Explanation of *how* capitalisation creates that effect, and no Link to the poem's themes. A student picking Answer A confuses thematic assertion with textual analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Dickinson's dashes show she was shy and hesitated while writing.\" Evaluate this interpretation as a response to \"Analyze the function of dashes in the poem.\" Is it acceptable for a board exam? Why or why not?",
+     "a": "Unacceptable. The interpretation commits the *biographical fallacy* — confusing the poet's life with the poem's craft. Dashes in Dickinson create caesuras, control pacing, and isolate phrases for emphasis (e.g., \"There seemed to rise a Tune / From Miniature Creatures / Accompanying the Sun –\" the dash after \"Sun\" suspends the moment). A board exam requires *text-internal* analysis: how the punctuation shapes meaning *in the poem*. The student's answer would score 0/3 for misunderstanding the analytical task.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original PEEL paragraph (5-6 sentences) on this new prompt: \"How does the image 'Hindered Flags – Sweet hoisted – / With Spices – in the Hem –' combine visual and olfactory imagery to suggest effortful beauty?\" Invent your own Point and Link; use the quoted phrases as Evidence.",
+     "a": "**Point:** The \"Hindered Flags\" image fuses sight and scent to portray beauty as something achieved through resistance. **Evidence:** Flowers rise \"Like Hindered Flags – Sweet hoisted – / With Spices – in the Hem –\". **Explanation:** \"Hindered\" implies struggle against gravity/wind; \"hoisted\" suggests deliberate raising; \"Spices in the Hem\" adds fragrance released only by that upward motion. **Link:** This synaesthetic image captures the poem's core paradox: summer's perfection is not effortless — it is \"Sweet\" *because* it is \"Hindered\", making the beauty earned and tangible.  \n*Poor answer:* \"The flowers are like flags that are hindered and have spices in their hem.\" — This only paraphrases; no analysis of *why* the flag metaphor works (ceremony, resistance, scent release) or how it connects to \"effortful beauty\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

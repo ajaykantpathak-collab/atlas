@@ -1,0 +1,234 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 10,
+ "chapter_title": "The Other Side of Zero",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.10.1",
+   "title": "The Other Side of Zero: Negative Numbers",
+   "section": "The Other Side of Zero",
+   "definition": "Below zero lies the other side of the number line: numbers less than zero, written with a minus sign, arise from temperatures below freezing, steps to the left of a starting point, or giving away tokens one does not have.",
+   "formula": "",
+   "key_idea": "Zero is the floor between two worlds: one side counts what we have, the other counts what we owe.",
+   "textbook_ref": "fegp110.txt, The Other Side of Zero",
+   "question_patterns": [
+    "what kinds of quantities are written with negative numbers",
+    "which is bigger -3 or -5 and why",
+    "mark -2, -1, 0, 1, 2 on a number line",
+    "give two daily life examples of numbers below zero",
+    "what does -4 degrees temperature mean",
+    "why is zero neither positive nor negative"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.2",
+   "title": "Moves on the Number Line: Adding Integers",
+   "section": "Moving on the number line",
+   "definition": "On the number line, adding a positive number moves the token right and adding a negative number moves it left; the landing point of the token is the sum of the start and the signed move.",
+   "formula": "total = start + move",
+   "key_idea": "Addition is motion: sign decides direction, size decides distance, and the token lands on the sum.",
+   "textbook_ref": "fegp110.txt, Moving on the number line",
+   "question_patterns": [
+    "a token at 3 moves 5 steps left where does it land",
+    "find 4 plus -7 on the number line",
+    "which way does adding a negative number move the token",
+    "a token at -2 moves 6 right find the landing number",
+    "write a move story that lands on -1",
+    "why does adding -5 mean moving 5 steps left"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mark the start",
+     "explain": "Place the token at the starting number on the number line.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "apply the signed move",
+     "explain": "Add the move with its sign; the token lands on the total.",
+     "compute": "total = start + move"
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.3",
+   "title": "Adding Positive and Negative Numbers",
+   "section": "Adding integers",
+   "definition": "When a positive and a negative number are added, the bigger magnitude wins the sign and the difference gives the size: 5 plus -3 lands at 2, while 3 plus -5 lands at -2.",
+   "formula": "result = pos + neg",
+   "key_idea": "Opposite pulls cancel partially: subtract the magnitudes and keep the sign of the larger pull.",
+   "textbook_ref": "fegp110.txt, Adding integers",
+   "question_patterns": [
+    "add 5 and -3",
+    "find the sum of -8 and 3",
+    "what is 4 plus -4 explain",
+    "which is the sum of -6 and -2",
+    "solve a token game question with positive and negative moves",
+    "why does a positive and a negative number partly cancel"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write both numbers with signs",
+     "explain": "Note the positive number and the negative number of the question.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the signed numbers",
+     "explain": "Adding them gives the result with its own sign.",
+     "compute": "result = pos + neg"
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.4",
+   "title": "Back and Forth: Subtraction and Undoing",
+   "section": "Subtracting on the number line",
+   "definition": "Every move can be undone: moving 4 right and then 4 left returns to the start, so subtraction is the reverse move of addition, and pairs like +4 and -4 wipe each other out.",
+   "formula": "",
+   "key_idea": "Plus and minus are mirrors in motion: the reverse move undoes exactly what the first move did.",
+   "textbook_ref": "fegp110.txt, Subtracting on the number line",
+   "question_patterns": [
+    "what move undoes a move of +4",
+    "a token moves 5 left then 5 right where is it now",
+    "how is subtraction related to addition on the number line",
+    "show that +3 followed by -3 returns to the start",
+    "write a chain of moves that ends back at zero",
+    "why are opposite moves called inverses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fegp110.txt",
+   "concept": "fegp.10.1",
+   "question_type": "compute",
+   "question_pattern": "A token starts at 3 on the number line and moves 5 steps to the left (a move of -5). Where does it land?",
+   "extracted_variables": {
+    "start": "starting number on the number line",
+    "move": "the move with its sign"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the start",
+     "explain": "Mark the starting point on the number line.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "apply the move",
+     "explain": "Add the move, keeping its sign, to the start.",
+     "compute": "total = start + move"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fegp110.txt",
+   "concept": "fegp.10.1",
+   "question_type": "compute",
+   "question_pattern": "A token starts at -2 and moves 6 steps to the right (a move of +6). Find the landing number.",
+   "extracted_variables": {
+    "start": "starting number on the number line",
+    "move": "the move with its sign"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the start",
+     "explain": "The token begins at -2, on the other side of zero.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "apply the move",
+     "explain": "Adding +6 carries the token across zero to the right.",
+     "compute": "total = start + move"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp110.txt",
+   "concept": "fegp.10.2",
+   "question_type": "verify_property",
+   "question_pattern": "add 5 and -3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp110.txt, Figure it Out",
+   "questions": [
+    "A token at 3 moves 5 steps left. Where does it land?",
+    "Add 5 and -3.",
+    "Which is bigger, -3 or -5? Why?",
+    "What move undoes a move of +4?",
+    "Give two examples of numbers below zero from daily life."
+   ]
+  }
+ ]
+}

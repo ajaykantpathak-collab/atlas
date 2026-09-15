@@ -1,0 +1,345 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Combustion and Flame",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hesc104.txt",
+ "concepts": [
+  {
+   "id": "hesc.104.1",
+   "title": "Combustion",
+   "section": "4.1",
+   "definition": "A chemical interaction where a material reacts with oxygen to release energy, primarily as heat.",
+   "formula": "fuel + oxygen -> heat + light + products",
+   "key_idea": "Burning is a chemical process requiring oxygen.",
+   "textbook_ref": "hesc104.txt lines 30-45",
+   "question_patterns": [
+    "What is combustion?",
+    "Define combustible substances.",
+    "Is food considered a fuel for the body?",
+    "What are the products of burning magnesium?",
+    "explain combustion in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify reactants",
+     "explain": "Check if the substance reacts with oxygen."
+    },
+    {
+     "step": 2,
+     "action": "check energy release",
+     "explain": "Confirm if heat or light is produced during the reaction."
+    },
+    {
+     "step": 3,
+     "action": "classify the substance as combustible",
+     "explain": "If both oxygen reaction and energy release are present, the substance is combustible and undergoes combustion."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.2",
+   "title": "Ignition Temperature",
+   "section": "4.1",
+   "definition": "The minimum temperature threshold that a material must reach to start burning.",
+   "formula": "T_substance >= T_ignition",
+   "key_idea": "A substance will not catch fire if its temperature is below its ignition point.",
+   "textbook_ref": "hesc104.txt lines 115-125",
+   "question_patterns": [
+    "What is ignition temperature?",
+    "Why does a matchstick not burn on its own at room temperature?",
+    "Why do dry leaves catch fire more easily than green leaves?",
+    "Explain why paper wrapped around an aluminum pipe does not burn easily.",
+    "why is ignition temperature important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare temperatures",
+     "explain": "Determine if the heat source raises the material's temperature to its specific ignition point."
+    },
+    {
+     "step": 2,
+     "action": "evaluate heat transfer conditions",
+     "explain": "Consider whether the material is insulated or in contact with a heat conductor that draws heat away, preventing ignition."
+    },
+    {
+     "step": 3,
+     "action": "conclude whether burning starts",
+     "explain": "If the material reaches its ignition temperature it catches fire; otherwise it remains unburnt."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.3",
+   "title": "Inflammable Substances",
+   "section": "4.1",
+   "definition": "Materials that have extremely low ignition both temperatures and can catch fire very easily with a flame.",
+   "formula": "none",
+   "key_idea": "Substances like LPG and petrol are highly dangerous due to easy ignition.",
+   "textbook_ref": "hesc104.txt lines 185-195",
+   "question_patterns": [
+    "Define inflammable substances.",
+    "Give examples of inflammable materials.",
+    "Why are petrol and alcohol called inflammable?",
+    "list the main features of inflammable substances",
+    "give one everyday example of inflammable substances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check ignition point",
+     "explain": "Identify if the substance ignites at very low temperatures."
+    },
+    {
+     "step": 2,
+     "action": "list common examples",
+     "explain": "Recall substances like petrol, alcohol, LPG, and diesel that catch fire easily with a small flame."
+    },
+    {
+     "step": 3,
+     "action": "assess handling precautions",
+     "explain": "Conclude that low ignition temperature makes the substance hazardous and requiring careful storage away from sparks."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.4",
+   "title": "Fire Control and Extinguishing",
+   "section": "4.2",
+   "definition": "The method of putting out a fire by removing one or more of the three essential requirements: fuel, air (oxygen), or heat.",
+   "formula": "none",
+   "key_idea": "Eliminating the supply of oxygen or cooling the fuel stops combustion.",
+   "textbook_ref": "hesc104.txt lines 215-235",
+   "question_patterns": [
+    "What are the three requirements for producing fire?",
+    "How does a fire extinguisher work?",
+    "Why is water not used for electrical fires?",
+    "How does CO2 control fire?",
+    "list the main features of fire control and extinguishing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the fire type",
+     "explain": "Determine if the fire involves electricity, oil, or solid combustibles like wood."
+    },
+    {
+     "step": 2,
+     "action": "select extinguishing agent",
+     "explain": "Choose water for wood/paper, or CO2 for electrical/oil fires to cut oxygen or lower temperature."
+    },
+    {
+     "step": 3,
+     "action": "verify the fire triangle is broken",
+     "explain": "Confirm that at least one of fuel, oxygen, or heat has been removed so combustion cannot sustain itself."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.5",
+   "title": "Types of Combustion",
+   "section": "4.3",
+   "definition": "Classification of burning based on speed and initiation, including rapid (fast), spontaneous (untriggered), and explosion (sudden gas release).",
+   "formula": "none",
+   "key_idea": "Combustion can occur at different rates and under different conditions.",
+   "textbook_ref": "hesc104.txt lines 285-315",
+   "question_patterns": [
+    "What is rapid combustion?",
+    "Explain spontaneous combustion with an example.",
+    "What is an explosion in the context of combustion?",
+    "Why do coal mines have spontaneous fires?",
+    "what do you understand by types of combustion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze reaction speed",
+     "explain": "Check if the reaction is immediate (rapid) or sudden (explosion)."
+    },
+    {
+     "step": 2,
+     "action": "check for external heat",
+     "explain": "If it starts without a visible flame/spark, it is spontaneous."
+    },
+    {
+     "step": 3,
+     "action": "classify the combustion type",
+     "explain": "Assign the reaction as rapid, spontaneous, or explosion based on speed and whether an external trigger was needed."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.6",
+   "title": "Structure of a Flame",
+   "section": "4.5",
+   "definition": "The physical zones of a flame representing different stages of both combustion and temperature levels.",
+   "formula": "none",
+   "key_idea": "The outer blue zone is the hottest due to complete combustion.",
+   "textbook_ref": "hesc104.txt lines 355-385",
+   "question_patterns": [
+    "Describe the different zones of a candle flame.",
+    "Which is the hottest part of a flame?",
+    "Why do goldsmiths use the outermost zone of the flame?",
+    "What causes the yellow color in the middle zone?",
+    "why is structure of a flame important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the zone",
+     "explain": "Locate the outer (blue), middle (yellow), or inner (black) part of the flame."
+    },
+    {
+     "step": 2,
+     "action": "determine combustion level",
+     "explain": "Outer is complete, middle is partial, inner is unburnt vapours."
+    },
+    {
+     "step": 3,
+     "action": "match zone to temperature and use",
+     "explain": "The outer blue zone is hottest and used by goldsmiths for melting metals due to complete combustion."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.7",
+   "title": "Calorific Value",
+   "section": "4.7",
+   "definition": "The quantity of heat energy formed by the complete burning of exactly one kilogram of a specific fuel.",
+   "formula": "calorific_value = heat_energy / mass",
+   "key_idea": "Higher calorific value indicates a more efficient fuel.",
+   "textbook_ref": "hesc104.txt lines 415-425",
+   "question_patterns": [
+    "What is calorific value?",
+    "Calculate the calorific value if {heat} kJ is produced from {mass} kg of fuel.",
+    "In what unit is calorific value expressed?",
+    "Which fuel has the highest calorific value?",
+    "calculate calorific value for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total heat by mass",
+     "explain": "Calorific value is heat per unit mass.",
+     "compute": "calorific_value = heat / mass"
+    },
+    {
+     "step": 2,
+     "action": "state the unit of calorific value",
+     "explain": "The standard unit is kilojoule per kilogram (kJ/kg) used to compare fuels."
+    },
+    {
+     "step": 3,
+     "action": "compare with other fuels",
+     "explain": "A higher calorific value means the fuel releases more energy per kg and is more efficient."
+    }
+   ]
+  },
+  {
+   "id": "hesc.104.8",
+   "title": "Environmental Impact of Burning Fuels",
+   "section": "4.7",
+   "definition": "The harmful consequences of fuel combustion, including pollution, global warming, and acid rain.",
+   "formula": "none",
+   "key_idea": "Incomplete combustion and byproduct gases damage the environment and health.",
+   "textbook_ref": "hesc104.txt lines 440-480",
+   "question_patterns": [
+    "What are the harmful effects of burning wood?",
+    "How is global warming linked to fuel combustion?",
+    "What causes acid rain?",
+    "Why is CNG called a cleaner fuel?",
+    "describe environmental impact of burning fuels with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the pollutant",
+     "explain": "Check for CO2 (global warming), SO2/NOx (acid rain), or unburnt carbon (respiratory issues)."
+    },
+    {
+     "step": 2,
+     "action": "trace the environmental effect",
+     "explain": "Map each pollutant to its consequence: CO2 traps heat causing global warming, SO2 and NOx form acid rain."
+    },
+    {
+     "step": 3,
+     "action": "recommend cleaner fuel alternative",
+     "explain": "Suggest CNG or fuels with complete combustion to reduce harmful emissions and health impacts."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Exercise 11",
+   "concept": "hesc.104.7",
+   "question_type": "compute",
+   "question_pattern": "In an experiment {mass} kg of a fuel was completely burnt. The heat produced was measured to be {heat} kJ. Calculate the calorific value of the fuel.",
+   "extracted_variables": {
+    "mass": "mass of fuel in kg",
+    "heat": "heat energy in kJ"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total heat by mass",
+     "explain": "To find the heat per kg, divide the total energy by the total mass.",
+     "compute": "calorific_value = heat / mass"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc104.txt lines 415-425",
+   "concept": "hesc.104.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute calorific value step by step",
+   "extracted_variables": {
+    "heat": "value of heat",
+    "mass": "value of mass"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total heat by mass",
+     "explain": "Calorific value is heat per unit mass.",
+     "compute": "calorific_value = heat / mass"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hesc104.txt lines 515-535",
+   "questions": [
+    "List the main points about combustion in your own words.",
+    "Fill in the blanks: Fuel must be heated to its ... before it starts burning.",
+    "Explain automobiles in your own words and add one example of your own.",
+    "Compare LPG and wood as fuels.",
+    "Give reasons: Water is not used to control fires involving electrical equipment.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about labelled.",
+    "Name calorific and characterise it briefly in your own words.",
+    "Explain how CO2 is able to control fires.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about difficult.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about goldsmith.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about completely.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about combustion.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about experiment."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_005",
+   "title": "c11_ip_cbse_01_005",
+   "questions": [
+    {
+     "q": "What are the three main components of the CPU and what is the primary function of each?",
+     "a": "The three components are: (1) ALU — performs arithmetic (add, subtract) and logical (AND, OR, NOT) operations; (2) CU — fetches instructions, decodes them, and generates control signals to coordinate all parts of the computer; (3) Registers — small, high-speed storage locations inside the CPU that hold data, instructions, or addresses currently being processed. A wrong answer (e.g., \"ALU controls the monitor\" or \"Registers are part of RAM\") reveals the student cannot distinguish processing from control or storage hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The Control Unit does the calculations because it controls everything.\" Explain why this statement is incorrect using the specific roles of CU and ALU.",
+     "a": "The CU directs operations but does not perform calculations. It fetches and decodes instructions, then sends control signals to the ALU to execute arithmetic/logic tasks. The ALU is the only component that actually computes (e.g., adds two numbers). If a student attributes calculation to CU, they confuse *orchestration* with *execution* — a fundamental misunderstanding of the division of labour inside the CPU.",
+     "self_check": true
+    },
+    {
+     "q": "During the execution of the instruction \"ADD R1, R2\" (add contents of register R2 to register R1), describe the sequence of actions performed by the CU, ALU, and registers in the correct order.",
+     "a": "1. CU fetches the instruction from memory into the Instruction Register. 2. CU decodes it as an ADD operation involving registers R1 and R2. 3. CU signals the ALU to perform addition. 4. ALU reads operands from R1 and R2, computes the sum. 5. ALU writes the result back to R1 (or a destination register). 6. CU updates the Program Counter to point to the next instruction. A wrong sequence (e.g., ALU acting before CU decode) shows the student doesn't grasp the fetch-decode-execute cycle's strict order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare registers and RAM in terms of speed, capacity, volatility, and physical location. Why does the CPU need registers if RAM already exists?",
+     "a": "Registers are on the CPU chip (nanosecond access, bytes to KB capacity, volatile), while RAM is on separate modules (tens of nanoseconds, GB capacity, volatile). Registers exist because RAM is too slow to keep up with the CPU clock; without registers, the CPU would stall waiting for data. If a student says \"registers are just a small part of RAM\", they miss the critical latency difference that defines the memory hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A computer with a faster ALU but slower CU will always outperform one with a slower ALU but faster CU.\" Justify your answer with reference to instruction processing.",
+     "a": "False. Performance depends on the *bottleneck*. If the CU cannot fetch/decode instructions fast enough to feed the ALU, the ALU sits idle (starvation). Conversely, a fast CU with a slow ALU creates a backlog of decoded instructions. Balanced design matters. A student who agrees reveals a \"faster component = faster system\" fallacy, ignoring interdependence and pipeline effects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple analogy (different from a kitchen) that maps ALU, CU, registers, and RAM to real-world roles. Explain how your analogy handles a conditional branch instruction (e.g., \"if x>0 then do A else do B\").",
+     "a": "Example analogy: Orchestra. CU = Conductor (reads score, cues sections). ALU = Soloist (performs complex passages). Registers = Music stands on stage (immediate access to current bars). RAM = Sheet music library (larger, slower to fetch). For a conditional branch: Conductor evaluates a cue (condition), then either cues the soloist for passage A or signals a different section for passage B. A poor analogy fails to show *conditional control flow* or misplaces the decision-making (e.g., letting the soloist choose the music).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

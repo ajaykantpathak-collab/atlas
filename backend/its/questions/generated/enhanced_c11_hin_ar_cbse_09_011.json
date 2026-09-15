@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_09_011",
+   "title": "c11_hin_ar_cbse_09_011",
+   "questions": [
+    {
+     "q": "What is the modern Hindi equivalent of the Braj Bhasha word **'nkstx'** as given in the *kCn&Nfo* (gloss) at the end of the poem?",
+     "a": "The gloss explicitly states: **nkstx (iQk- nks”k[k) → ujd** (निर्देश). A wrong answer such as *nishchay* (निश्चय) reveals the student either did not consult the provided gloss or confused the phonetic shape with a similar-sounding tatsama word, showing a reliance on guesswork over textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the line **'ge rkS ,d ,d dfj tkaukaA'**, the verb **'tkauka'** ends in **'-auka'**. Explain what grammatical category this suffix marks in Braj Bhasha and how it differs from the modern Hindi equivalent.",
+     "a": "The suffix **'-auka'** marks the **habitual present / general truth** (equivalent to modern Hindi **'-te hain'** or **'-ta hai'**). A response calling it \"past tense\" or \"future tense\" shows the student is imposing Hindi verb paradigms (*-tha*, *-ega*) onto Braj morphology instead of recognising the distinct *-auka* habitual paradigm that gives the poem its universal, proverbial tone.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the Braj phrase **'lc ?kfV varfj rw¡gh O;kid /jS l:iS lksbZAA'** in modern standard Hindi, correctly mapping each case marker (*karak chinha*) and the verb.",
+     "a": "**Step-by-step mapping:**  \n1. *lc* → **लेकिन** (conjunction, not a case marker).  \n2. *rw¡gh* (genitive) → **का** (*O;kid rw¡gh* → *किसी का*).  \n3. */jS* (locative) → **में** (*l:iS /jS* → *स्थिर में* → *स्थिर रहती है* contextually).  \n4. *lksbZ* (verb *rahnā* habitual) → **रहती है**।  \n**Modern Hindi:** \"लेकिन क्षण भर किसी के हाथ में स्थिर नहीं रहती।\"  \nAn answer that translates *rw¡gh* as *से* or */jS* as *को* reveals confusion between Braj and Hindi postposition systems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the density and function of **alliteration (anupraas)** in the first two lines of the poem (*ge rkS ,d ,d dfj tkaukaA / nksb dgSa frugha dkSa nkstx ftu ukfgau ifgpkauka*) with its occurrence in the prose sentence **'lk[kh] lcn ,oa jeSuh ladfyr gSa'**. Why does the poet pack more alliteration into the verse?",
+     "a": "The poem uses **dense, consecutive alliteration** (*ge rkS*, *dgSa frugha*, *nkstx ftu*, *ukfgau ifgpkauka*) to create **musicality, memorability, and oral rhythm**—essential for a folk poem meant to be sung. The prose uses **sparse, isolated alliteration** (*lk[kh] lcn jeSuh*) only for **rhetorical polish** in a written, explanatory context. Missing this contrast indicates the student cannot distinguish poetic vs. prosaic linguistic registers.",
+     "self_check": true
+    },
+    {
+     "q": "The gloss translates **'ck<+h dk\"V gh dkVS vfxfu u dkVS dksbZA'** as **'टेढ़ी टांग ही टेढ़ी नहीं तो टेढ़ी किसी की नहीं।'** Critique whether this translation fully captures the grammatical force of the particles **'gh'** and **'vfxfu'**.",
+     "a": "The translation correctly renders *gh* as **'ही'** (exclusive focus) and *vfxfu* as **'नहीं'** (negation), but it **loses the elliptical parallelism** of the original where the copula *hai* is omitted in both clauses. A poor critique would say \"it's accurate\" without noting that Braj's zero-copula gnomic structure makes the statement more aphoristic and absolute than the Hindi translation, which feels slightly more discursive.",
+     "self_check": true
+    },
+    {
+     "q": "Compose **two original lines in Braj Bhasha style** that express a philosophical idea about impermanence. You must use: (a) the habitual suffix **'-auka'**, (b) the genitive marker **'rw¡gh'** (or *osQ*), and (c) at least one tadbhava word from the poem's gloss (e.g., *lekauka*, *dksagjk*).",
+     "a": "**Sample answer:**  \n*jg mY~ sab nashvar ghatauka, kaun rahai sada thirauka |*  \n*karam kI gat nyari nirakhai, sabhI ko apano karauka ||*  \n**Criteria for a good answer:**  \n- Uses *-auka* correctly on verbs (*ghatauka*, *thirauka*, *karauka*).  \n- Uses *rw¡gh* or *osQ* for genitive (*karam kI gat* → *karam rw¡gh gat* acceptable).  \n- Includes tadbhava vocabulary (*ghatauka* from *ghaṭnā*, *thirauka* from *sthira*).  \nA poor answer uses modern Hindi forms (*hote hain*, *ka*, *nirdesh*) showing failure to internalise Braj patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

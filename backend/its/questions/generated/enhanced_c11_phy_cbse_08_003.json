@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_003",
+   "title": "c11_phy_cbse_08_003",
+   "questions": [
+    {
+     "q": "State Hooke's law in words and write its mathematical form. What is the name and SI unit of the proportionality constant?",
+     "a": "Hooke's law: Within the elastic limit, stress is directly proportional to strain. Mathematical form: stress = E × strain, where E is the modulus of elasticity (or elastic modulus). SI unit: pascal (Pa) or N m⁻². A wrong answer (e.g., stating F = kx without converting to stress/strain, or giving unit as N/m) reveals the student confuses the spring-form of Hooke's law (F = kx) with the material-form (stress = E × strain), or does not know that the modulus of elasticity has the same units as stress because strain is dimensionless.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots a stress-strain curve for a metal wire and obtains a straight line passing through the origin up to a strain of 0.002, after which the curve bends. The student claims \"Hooke's law is valid up to the fracture point because the graph is a straight line.\" Explain why this claim is incorrect using the concepts of proportional limit and elastic limit.",
+     "a": "Hooke's law (stress ∝ strain) is valid only in the linear region OA (up to point A, the proportional limit). Beyond A, the curve bends (region AB) — stress and strain are no longer proportional, though the material may still be elastic (returns to original shape when unloaded). The elastic limit (point B) is where permanent deformation begins. The student's claim confuses the proportional limit (end of linear region) with the elastic limit (end of fully recoverable deformation) and ignores the plastic region BD and fracture at E. A wrong answer indicates the student cannot distinguish between the proportional limit, elastic limit, and yield point on the curve.",
+     "self_check": true
+    },
+    {
+     "q": "In a tensile test, a steel specimen of cross-sectional area 2.5 × 10⁻⁶ m² and original length 1.2 m is subjected to a force of 15,000 N. The extension recorded is 0.9 mm. Calculate the stress, strain, and Young's modulus of the steel. State whether the specimen obeys Hooke's law at this load.",
+     "a": "Step 1: Given: F = 15,000 N, A = 2.5 × 10⁻⁶ m², L = 1.2 m, ΔL = 0.9 mm = 0.9 × 10⁻³ m.\nStep 2: Stress σ = F/A = 15,000 / (2.5 × 10⁻⁶) = 6.0 × 10⁹ N m⁻² = 6.0 GPa.\nStep 3: Strain ε = ΔL/L = (0.9 × 10⁻³) / 1.2 = 7.5 × 10⁻⁴ (dimensionless).\nStep 4: Young's modulus Y = σ/ε = (6.0 × 10⁹) / (7.5 × 10⁻⁴) = 8.0 × 10¹² N m⁻² = 8.0 TPa.\nStep 5: Typical Young's modulus for steel is ~200 GPa = 2 × 10¹¹ Pa. The calculated value (8 TPa) is 40 times larger, indicating the data point is likely not in the linear region or there is a measurement error. Hooke's law requires σ/ε to be constant (equal to Y). Since the computed Y is far from the known value, the specimen does NOT obey Hooke's law at this load — it has likely passed the proportional limit. A wrong answer (e.g., accepting 8 TPa as correct) shows the student cannot evaluate physical reasonableness or compare with known material properties.",
+     "self_check": true
+    },
+    {
+     "q": "Two materials X and Y have stress-strain curves as described: Material X has a long linear region, a distinct yield point, a long plastic region, and fracture far from the yield point. Material Y has a short linear region, no distinct yield point, and fracture occurs very close to the proportional limit. Classify each material as ductile or brittle. Justify your answer using the curve features.",
+     "a": "Material X is ductile: long linear region (obeys Hooke's law over a wide range), distinct yield point (clear transition to plastic deformation), large plastic region (BD) allowing significant permanent deformation before fracture, and large separation between ultimate strength (D) and fracture (E) — all characteristic of ductile metals like mild steel. Material Y is brittle: short linear region, no well-defined yield point (proportional limit ≈ fracture point), minimal plastic deformation, and fracture occurs soon after the proportional limit — typical of cast iron, glass, or concrete. A wrong answer (e.g., swapping the classifications) reveals the student does not connect curve morphology to material behaviour or misunderstands the significance of the plastic region length.",
+     "self_check": true
+    },
+    {
+     "q": "A lab group tests a copper wire and records the following (stress in MPa, strain × 10⁻³): (50, 0.5), (100, 1.0), (150, 1.5), (200, 2.1), (250, 2.9), (300, 4.0). They claim \"Copper obeys Hooke's law up to 300 MPa because stress increases with strain.\" Evaluate this claim. Identify the proportional limit from the data.",
+     "a": "The claim is incorrect. Hooke's law requires stress ∝ strain (constant ratio σ/ε). Compute σ/ε for each point: (50/0.5)=100, (100/1.0)=100, (150/1.5)=100, (200/2.1)≈95.2, (250/2.9)≈86.2, (300/4.0)=75. The ratio is constant (100 GPa) only for the first three points. At 200 MPa, the ratio drops, indicating deviation from linearity. The proportional limit is 150 MPa (the highest stress where σ/ε remains constant). The student's claim confuses \"stress increases with strain\" (true for the entire curve) with \"stress is proportional to strain\" (true only in the linear region). A wrong evaluation shows the student cannot test proportionality from discrete data or identify the proportional limit as the end of the constant-ratio region.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to verify Hooke's law for a metal wire. List the apparatus needed, the measurements to take, the graph to plot, and how you would determine if the wire obeys Hooke's law. Mention one precaution to ensure the wire stays within its elastic limit.",
+     "a": "Apparatus: Uniform metal wire (e.g., copper, 2 m long), rigid support, hanger, slotted weights (10 g to 500 g), metre scale, micrometer screw gauge, vernier caliper. Measurements: (1) Measure wire diameter at 3 points with micrometer, compute mean area A. (2) Measure original length L with metre scale. (3) Add weights incrementally (e.g., 50 g steps), record extension ΔL for each load using a pointer and scale. (4) Compute stress σ = mg/A and strain ε = ΔL/L for each load. Graph: Plot σ (y-axis) vs ε (x-axis). Verification: If the graph is a straight line through the origin for the initial data points, Hooke's law is obeyed. The slope gives Young's modulus. Precaution: Use small loads (e.g., ≤ 200 g for thin copper wire) and unload after each step to check for permanent set; stop if extension does not fully recover. A poor answer (e.g., plotting F vs ΔL without converting to stress/strain, or not measuring cross-section) shows the student does not understand that Hooke's law in material form requires intensive quantities (stress, strain) not extensive ones (force, extension).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

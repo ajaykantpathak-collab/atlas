@@ -1,0 +1,653 @@
+{
+ "class": 11,
+ "subject": "applied_maths",
+ "chapter": 1,
+ "chapter_title": "Numbers and Quantification",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_001_numbers_quantification.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "am11_001.1",
+   "title": "Prime Numbers and Divisor Counting",
+   "section": "1.2",
+   "definition": "A prime is a whole number above 1 whose positive divisors are just itself and 1; any larger whole number with an extra divisor is composite, and 1 falls in neither group.",
+   "formula": "divisor_count = (a + 1) * (b + 1)",
+   "key_idea": "If n = p**a * q**b, each exponent offers one more choice per prime, so multiply one-plus-exponent over all primes.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.2 primes and factorisation",
+   "question_patterns": [
+    "find the number of positive divisors of 360 from its prime factorization",
+    "how many divisors does 2^4 * 3^2 * 7 have in all",
+    "test whether 971 is prime by checking divisors up to its square root",
+    "count the total divisors of 1080",
+    "is 437 a prime or a composite number, give a reason",
+    "write 104568 as a product of primes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add one to the exponent of the first prime",
+     "explain": "each prime contributes exponent plus one choices",
+     "compute": "f1 = a + 1"
+    },
+    {
+     "step": 2,
+     "action": "add one to the exponent of the second prime",
+     "explain": "repeat for every distinct prime",
+     "compute": "f2 = b + 1"
+    },
+    {
+     "step": 3,
+     "action": "add one to the exponent of the third prime",
+     "explain": "a missing prime has exponent zero and contributes factor one",
+     "compute": "f3 = c + 1"
+    },
+    {
+     "step": 4,
+     "action": "multiply the three factors",
+     "explain": "divisor count is the product of the one-plus-exponent terms",
+     "compute": "divisor_count = f1 * f2 * f3"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.2",
+   "title": "GCD from Prime Factorizations",
+   "section": "1.3",
+   "definition": "The greatest common divisor of two numbers is the largest integer dividing both; comparing factorizations, it keeps each shared prime raised to the smaller of its two exponents.",
+   "formula": "gcd = p**min(a1, b1) * q**min(a2, b2)",
+   "key_idea": "Minimum exponents of the common primes multiplied together give the gcd.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.3 gcd of 4680 and 15708",
+   "question_patterns": [
+    "find the gcd of 4680 and 15708 using their prime factorizations",
+    "compute the highest common factor of 105 and 120",
+    "two numbers factor as 2^3 * 3^2 * 5 and 2^2 * 3 * 7 * 11; what is their gcd",
+    "find gcd(210, 495) by comparing exponents of common primes",
+    "what is the greatest common divisor of 4680 and 15708",
+    "check whether 3 and 17 are coprime"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the smaller exponent of the first prime",
+     "explain": "the gcd carries whichever power of p occurs less often",
+     "compute": "e1 = min(a1, b1)"
+    },
+    {
+     "step": 2,
+     "action": "take the smaller exponent of the second prime",
+     "explain": "same comparison for the next shared prime",
+     "compute": "e2 = min(a2, b2)"
+    },
+    {
+     "step": 3,
+     "action": "multiply the prime powers",
+     "explain": "the product of these minimum powers is the gcd",
+     "compute": "gcd = p**e1 * q**e2"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.3",
+   "title": "Euclid Division Algorithm for GCD",
+   "section": "1.3",
+   "definition": "The Euclid division algorithm finds the highest common factor of two positive integers by repeated division: divide, keep the remainder, then divide the previous divisor by that remainder. Because every remainder is smaller than the divisor, the remainders shrink strictly and the ladder must terminate; the last nonzero remainder is the gcd.",
+   "formula": "r = b % a",
+   "key_idea": "The last nonzero remainder left on the ladder is the gcd.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.3 Euclid GCD algorithm ladder for 15708 and 4680",
+   "question_patterns": [
+    "use Euclid algorithm to find the gcd of 4680 and 15708",
+    "find the hcf of 867 and 255 by successive division",
+    "apply the remainder ladder to get gcd(4052, 12576)",
+    "find the greatest common divisor of 15708 and 4680 without factoring them",
+    "run the division algorithm on 324 and 48 and state the hcf"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide b by a and keep the remainder",
+     "explain": "first rung of the ladder"
+    },
+    {
+     "step": 2,
+     "action": "divide a by r1",
+     "explain": "shift the pair down one rung"
+    },
+    {
+     "step": 3,
+     "action": "divide r1 by r2",
+     "explain": "repeat the modulo step"
+    },
+    {
+     "step": 4,
+     "action": "divide r2 by r3",
+     "explain": "remainders keep shrinking"
+    },
+    {
+     "step": 5,
+     "action": "divide r3 by r4",
+     "explain": "continue while remainders are nonzero"
+    },
+    {
+     "step": 6,
+     "action": "divide r4 by r5",
+     "explain": "the next remainder would be zero, so this value is the last nonzero remainder"
+    },
+    {
+     "step": 7,
+     "action": "declare the last nonzero remainder as the gcd",
+     "explain": "stop once a remainder of zero would follow"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.4",
+   "title": "Euler Totient and RSA Key Parameters",
+   "section": "1.3",
+   "definition": "For an RSA modulus n built from two distinct primes p and q, the totient counts the integers below n that are coprime to n as (p-1)(q-1); a public exponent e is chosen coprime to this count and the private exponent d undoes it.",
+   "formula": "phi = (p - 1) * (q - 1)",
+   "key_idea": "Multiply the two reduced primes to count the usable key values.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.3 RSA example with p = 71, q = 101",
+   "question_patterns": [
+    "an RSA setup picks p = 71 and q = 101; find the modulus n and the totient",
+    "compute phi(n) for n = 7171 formed from the primes 71 and 101",
+    "how many integers from 1 to 34 are coprime to 35",
+    "for p = 13 and q = 19 find (p - 1)(q - 1) used for the rsa keys",
+    "find the public modulus when the secret primes are 3 and 11"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two secret primes",
+     "explain": "the modulus n = pq is made public",
+     "compute": "n = p * q"
+    },
+    {
+     "step": 2,
+     "action": "reduce each prime by one and multiply",
+     "explain": "phi(n) = (p-1)(q-1) counts numbers coprime to n",
+     "compute": "phi = (p - 1) * (q - 1)"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.5",
+   "title": "Modular Arithmetic and Remainder of Powers",
+   "section": "1.3",
+   "definition": "Two integers are congruent modulo m when division by m leaves them the same remainder; a power can be reduced after every multiplication without disturbing the final remainder.",
+   "formula": "rem = a**k % m",
+   "key_idea": "Reduce after each squaring or multiplication so the numbers stay small.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.3 congruences, Euler theorem a^phi = 1 mod m",
+   "question_patterns": [
+    "find the remainder when 3^5 is divided by 7",
+    "what is the remainder of 2^10 modulo 5",
+    "reduce 17^2 modulo 5 and name the smaller congruent number",
+    "show that 17 leaves remainder 2 on division by 5",
+    "compute 3^4 mod 7 by squaring in stages"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the base",
+     "explain": "write the exponent as a sum of doublings plus a leftover",
+     "compute": "sq = 3**2"
+    },
+    {
+     "step": 2,
+     "action": "reduce the square modulo m",
+     "explain": "smaller stand-in with the same remainder",
+     "compute": "sq_mod = sq % 7"
+    },
+    {
+     "step": 3,
+     "action": "multiply the reduced square by itself",
+     "explain": "this covers the exponent 4",
+     "compute": "quad = sq_mod * sq_mod"
+    },
+    {
+     "step": 4,
+     "action": "reduce and multiply the leftover base factor",
+     "explain": "exponent 5 = 4 + 1",
+     "compute": "rem = quad % 7 * 3 % 7"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.6",
+   "title": "Binary to Decimal Conversion",
+   "section": "1.4",
+   "definition": "A base 2 numeral stores coefficients of powers of two; scanning the bits left to right and doubling the running total before adding each bit rebuilds the base 10 value.",
+   "formula": "value = 2 * acc + bit",
+   "key_idea": "Each step doubles what has been read and drops in the next bit.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.4 binary expansion of 23456 and (1010101010) = 682",
+   "question_patterns": [
+    "convert the binary number 101101110100000 to decimal notation",
+    "write (1010101010)2 in base 10",
+    "find the decimal value of the base 2 numeral 11011",
+    "change 101011000110 from base 2 to base 10",
+    "how much is the binary expansion 2^5 + 2^7 + 2^8 + 2^9 + 2^11 + 2^12 + 2^14 in decimal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the leading bit and fold in the second",
+     "explain": "running total starts at the first bit",
+     "compute": "acc1 = 1 * 2 + 1"
+    },
+    {
+     "step": 2,
+     "action": "double the total and add the next bit",
+     "explain": "Horner step for the third bit",
+     "compute": "acc2 = acc1 * 2 + 0"
+    },
+    {
+     "step": 3,
+     "action": "double the total and add the next bit",
+     "explain": "repeat for every remaining bit",
+     "compute": "acc3 = acc2 * 2 + 1"
+    },
+    {
+     "step": 4,
+     "action": "double the total and add the last bit",
+     "explain": "the final total is the base 10 value",
+     "compute": "decimal_value = acc3 * 2 + 1"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.7",
+   "title": "Decimal to Binary by Repeated Halving",
+   "section": "1.4",
+   "definition": "Divide the number by 2 again and again, writing down each remainder; the remainders read from last to first spell out the base 2 numeral.",
+   "formula": "next = n // 2",
+   "key_idea": "The remainder column read bottom to top is the binary numeral.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.4 writing 23456 as (101101110100000)2",
+   "question_patterns": [
+    "write 23456 in binary form",
+    "convert 100 to base 2 by repeated division",
+    "express 654321 in the binary system",
+    "find the binary expansion of 23456 and count its trailing zeros",
+    "write the base 2 numeral equal to 682"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by 2 and record the remainder",
+     "explain": "the remainder is the units bit"
+    },
+    {
+     "step": 2,
+     "action": "divide the quotient by 2 again",
+     "explain": "each remainder is the next place value bit"
+    },
+    {
+     "step": 3,
+     "action": "stop when the quotient reaches zero",
+     "explain": "no powers of two remain"
+    },
+    {
+     "step": 4,
+     "action": "read the remainders from bottom to top",
+     "explain": "the highest bit is found last"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.8",
+   "title": "Multiplying Complex Numbers",
+   "section": "1.5",
+   "definition": "For z1 = a1 + b1 i and z2 = a2 + b2 i, expand like binomials and replace i squared with -1; the pieces regroup into a new real part and a new imaginary part.",
+   "formula": "z1 * z2 = (a1 * a2 - b1 * b2) + (a1 * b2 + a2 * b1) * i",
+   "key_idea": "Cross terms build the new imaginary part; the b1 b2 term flips sign.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.5 product (1 + i)(2 + 3i) = -1 + 5i",
+   "question_patterns": [
+    "find the product (1 + i)(2 + 3i) in a + bi form",
+    "multiply 3 + 2i by 1 - 4i",
+    "compute z1 z2 for z1 = 1 - i and z2 = 3 + i",
+    "evaluate the square of 1 + i",
+    "multiply (2 + 3i)(4 + 5i) and write the real and imaginary parts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the real parts and subtract the imaginary product",
+     "explain": "i squared turns b1 b2 into -b1 b2",
+     "compute": "re = a1 * a2 - b1 * b2"
+    },
+    {
+     "step": 2,
+     "action": "add the two cross products",
+     "explain": "these carry the factor i",
+     "compute": "im = a1 * b2 + a2 * b1"
+    },
+    {
+     "step": 3,
+     "action": "square the new parts and add",
+     "explain": "prepares the modulus of the product",
+     "compute": "m2 = re * re + im * im"
+    },
+    {
+     "step": 4,
+     "action": "take the square root",
+     "explain": "the modulus of a product is the product of moduli",
+     "compute": "mod_product = sqrt(m2)"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.9",
+   "title": "Conjugate and Modulus of a Complex Number",
+   "section": "1.5",
+   "definition": "Changing the sign of the imaginary part gives the conjugate of z; the modulus is the distance of z from the origin, computed from the two parts.",
+   "formula": "mod_z = sqrt(a**2 + b**2)",
+   "key_idea": "z times its conjugate equals the squared modulus, a real nonnegative number.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.5 zz-bar = a^2 + b^2 and |1 + i| = sqrt(2)",
+   "question_patterns": [
+    "find the modulus of 1 - i",
+    "what is the conjugate of 10 + 4i",
+    "compute the absolute value of 3 + 5i",
+    "find |z| when z = 2 + 3i",
+    "verify that z times its conjugate equals the square of the modulus for z = 7 + i"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square both parts and add",
+     "explain": "z z-bar collapses to a real sum of squares",
+     "compute": "zz = a**2 + b**2"
+    },
+    {
+     "step": 2,
+     "action": "take the nonnegative square root",
+     "explain": "this is the modulus",
+     "compute": "mod_z = sqrt(zz)"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.10",
+   "title": "Powers of Iota on the Four Cycle",
+   "section": "1.5",
+   "definition": "Since i squared equals -1, powers of iota repeat in a block of four; the remainder of the exponent on division by 4 selects the value among 1, i, -1 and -i.",
+   "formula": "cycle = k % 4",
+   "key_idea": "Cycle values 0, 2 give the real answers 1 and -1; odd cycles keep one factor of i.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.5 i^4n = 1, i^4n+2 = -1",
+   "question_patterns": [
+    "find the value of i raised to 100",
+    "simplify i^402",
+    "evaluate i^96",
+    "what does i^4n equal for a whole number n",
+    "compute the cycle position of the exponent 2026 for powers of iota"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the exponent by 4 and keep the remainder",
+     "explain": "the cycle position repeats every four powers",
+     "compute": "cycle = k % 4"
+    },
+    {
+     "step": 2,
+     "action": "convert an even cycle position to a numeric value",
+     "explain": "cycle 0 gives 1 and cycle 2 gives -1",
+     "compute": "value = (-1)**(cycle // 2)"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.11",
+   "title": "Laws of Indices",
+   "section": "1.6",
+   "definition": "Powers obey short rules: same-base products add exponents, same-base quotients subtract them, a power of a power multiplies them, and a zero power gives 1 while a negative power inverts the base.",
+   "formula": "a**m * a**n = a**(m + n)",
+   "key_idea": "Combine exponents by the index laws before evaluating any number.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.6 indices rules and examples 2^3.2^2 = 2^5",
+   "question_patterns": [
+    "simplify 2^3 * 2^5 and give its value",
+    "evaluate (3^2)^3",
+    "find the value of 9^(1/2) * 8^(1/3)",
+    "write 2^-3 as a fraction",
+    "compute 4^0 + 6^0",
+    "reduce a^7 / a^4 when a = 2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the exponents of the same-base product",
+     "explain": "index law for multiplication",
+     "compute": "merged = 2**(3 + 5)"
+    },
+    {
+     "step": 2,
+     "action": "divide by the remaining power",
+     "explain": "index law for division subtracts exponents",
+     "compute": "val = merged / 2**4"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.12",
+   "title": "Logarithm Product Rule with Given Values",
+   "section": "1.7",
+   "definition": "A logarithm states the power that produces a given number from a base; the log of a product splits into a sum of logs, and a repeated factor drags its multiplier out front.",
+   "formula": "log_b(M * N) = log_bM + log_bN",
+   "key_idea": "Break the target number into known factors, then add multiples of their given logs.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.7 properties of logarithms, log 2 = 0.3010 style tables",
+   "question_patterns": [
+    "given log 2 = 0.3010 and log 3 = 0.4771 find log 12",
+    "evaluate log 6 to the base 10 using the standard log values",
+    "find log 72 given log 2 and log 3",
+    "compute log 18 from log 2 = 0.3010 and log 3 = 0.4771",
+    "what is log 36 to the base 10"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the target as a product of powers of the known factors",
+     "explain": "12 = 2 squared times 3",
+     "compute": "part = 2 * log_two"
+    },
+    {
+     "step": 2,
+     "action": "add the log of the remaining factor",
+     "explain": "product rule turns multiplication into addition",
+     "compute": "log_target = part + log_three"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.13",
+   "title": "Antilogarithm via Powers of Ten",
+   "section": "1.7",
+   "definition": "The antilog reverses a logarithm: if x is the log of y to base 10, then y is 10 raised to x; splitting x into whole and fractional pieces rebuilds y as a whole power times a fractional power.",
+   "formula": "y = 10**x",
+   "key_idea": "Whole part fixes the size, fractional part fixes the significant digits.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.7 anti-logarithm paragraph after log properties",
+   "question_patterns": [
+    "find the antilog of 2.4771",
+    "if log y = 1.3010 what is the number y",
+    "a number has logarithm 3.4771 to the base 10; find the number",
+    "evaluate 10^0.4771 and hence the antilog of 2.4771",
+    "recover y when log 10 y equals 0.3010"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise 10 to the fractional part",
+     "explain": "the fractional part gives the leading digits",
+     "compute": "sig = 10**0.4771"
+    },
+    {
+     "step": 2,
+     "action": "raise 10 to the whole part",
+     "explain": "the whole part is the power of ten scale",
+     "compute": "scale = 10**2"
+    },
+    {
+     "step": 3,
+     "action": "multiply the two pieces",
+     "explain": "antilog = whole power times fractional power",
+     "compute": "y = scale * sig"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.14",
+   "title": "Richter Scale Amplitude Comparison",
+   "section": "1.8",
+   "definition": "Earthquake magnitude sits on a base 10 logarithm of the wave amplitude over a fixed reference wave, so every whole step on the scale multiplies the amplitude by ten.",
+   "formula": "ratio = 10**(r1 - r2)",
+   "key_idea": "Subtract the two magnitudes first; ten to that difference is the amplitude factor.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.8 Richter scale R = log(A/A0), Chile 1960 magnitude 9.5",
+   "question_patterns": [
+    "how many times larger is the amplitude of a magnitude 8.5 earthquake than a magnitude 6.3 one",
+    "two quakes read 7.1 and 4.6 on the Richter scale; find their amplitude ratio",
+    "by what factor does the wave amplitude grow from Richter 5 to Richter 9",
+    "a quake measures 9.5 and another 5.5 on the Richter scale; compare the wave amplitudes",
+    "the Richter readings differ by 3; how many times bigger is the amplitude"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the smaller magnitude from the larger",
+     "explain": "the difference drives the factor",
+     "compute": "diff = r1 - r2"
+    },
+    {
+     "step": 2,
+     "action": "raise ten to the difference",
+     "explain": "each unit of Richter difference is a tenfold amplitude step",
+     "compute": "ratio = 10**diff"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.15",
+   "title": "Exponential Growth Models",
+   "section": "1.8",
+   "definition": "When a quantity multiplies by a fixed factor every fixed interval, its size equals the starting amount times that factor raised to the number of elapsed intervals.",
+   "formula": "cells = start * 2**(t / 20)",
+   "key_idea": "Divide the elapsed time by one interval to count the doublings, then scale the start value.",
+   "textbook_ref": "am11_001_numbers_quantification.txt, section 1.8 bacteria b = 200(2)^(t/20) and population P = 4.7(1.02)^t",
+   "question_patterns": [
+    "a bacteria colony doubles every 20 hours starting from 200 cells; how many cells after 60 hours",
+    "world population in billions is 4.7(1.02)^t with t years after 2010; find the population in 2029",
+    "find the bacteria count after 100 hours if the culture doubles every 20 hours from 200 cells",
+    "a culture of 500 cells triples every hour; how many cells after 4 hours",
+    "if p = 4.7(1.02)^t billions, what is the population 19 years after 2010"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the elapsed time by one doubling interval",
+     "explain": "counts how many times the factor applies",
+     "compute": "steps_count = t / 20"
+    },
+    {
+     "step": 2,
+     "action": "raise the growth factor to that count",
+     "explain": "two for doubling, three for tripling",
+     "compute": "growth = 2**steps_count"
+    },
+    {
+     "step": 3,
+     "action": "multiply the starting amount",
+     "explain": "scales the colony size",
+     "compute": "cells = start * growth"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "am11_001.we1",
+   "source_ref": "am11_001 section 1.3 RSA illustration",
+   "concept": "am11_001.4",
+   "question_type": "compute",
+   "question_pattern": "choose primes 71 and 101; find the RSA modulus and totient, and verify the enciphering key 37 is coprime to the totient",
+   "extracted_variables": {
+    "p": 71,
+    "q": 101,
+    "e": 37
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the primes",
+     "compute": "n = p * q"
+    },
+    {
+     "step": 2,
+     "action": "reduce each prime by one and multiply",
+     "compute": "phi = (p - 1) * (q - 1)"
+    }
+   ]
+  },
+  {
+   "id": "am11_001.we2",
+   "source_ref": "am11_001 section 1.8 bacteria growth example",
+   "concept": "am11_001.15",
+   "question_type": "compute",
+   "question_pattern": "a colony starts with 200 bacteria cells and doubles every 20 hours; find the cell count after 60 hours",
+   "extracted_variables": {
+    "start": 200,
+    "t": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the doubling intervals",
+     "compute": "steps_count = t / 20"
+    },
+    {
+     "step": 2,
+     "action": "raise two to the interval count",
+     "compute": "growth = 2**steps_count"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the starting cells",
+     "compute": "cells = start * growth"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "am11_001.ex1",
+   "source_ref": "am11_001 section 1.4 exercises on binary numbers",
+   "questions": [
+    "Write (1010101100110)2 in decimal notation.",
+    "Write (101011000110)2 in decimal notation.",
+    "Convert 654321 to base 2 by repeated halving.",
+    "Find the decimal value of (1010101010)2 and check it equals 682."
+   ]
+  },
+  {
+   "id": "am11_001.ex2",
+   "source_ref": "am11_001 sections 1.6 to 1.8 exercises and word problems",
+   "questions": [
+    "Simplify log10 a + log10 b^2 + log10 c^3 as a single expression.",
+    "Given log 2 = 0.3010 and log 3 = 0.4771, find log 12 and log 18.",
+    "An earthquake has wave amplitude 2020 times the standard wave; estimate its Richter reading to two decimals.",
+    "Two quakes measure 8.5 and 6.3; how many times larger is the amplitude of the first?",
+    "Using P = 4.7(1.02)^t billions with t years after 2010, find the population in 2029.",
+    "Find the gcd of 4680 and 15708 by Euclid algorithm and by prime factorizations, and check both give 12."
+   ]
+  }
+ ]
+}

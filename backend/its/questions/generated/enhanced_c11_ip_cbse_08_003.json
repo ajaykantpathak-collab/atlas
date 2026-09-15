@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_003",
+   "title": "c11_ip_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the default behaviour of `plt.plot(y)` when only a single list `y` is provided? Describe the x-coordinates used.",
+     "a": "When only `y` is provided, `plt.plot(y)` uses integer indices starting from 0 as the x-coordinates (i.e., 0, 1, 2, ..., len(y)-1). A wrong answer (e.g., \"x-coordinates are 1, 2, 3,...\") reveals the student does not understand Python's zero-based indexing default and may misalign data when plotting against explicit x-values later.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `linestyle='--'` and `linestyle=':'` in a line chart. Give a scenario where you would choose one over the other.",
+     "a": "`linestyle='--'` produces a dashed line (long dashes), while `linestyle=':'` produces a dotted line (short dots). A dashed line is often used for secondary data series or to indicate uncertainty; a dotted line is used for less prominent series or projected values. If a student says both are the same or confuses them with markers, they misunderstand that line style and marker style are independent customisations.",
+     "self_check": true
+    },
+    {
+     "q": "Given the code snippet:\n```python\nimport matplotlib.pyplot as plt\nplt.plot([1,2,3], [10,20,30], color='green', marker='s', linestyle='-', linewidth=3)\nplt.show()\n```\nPredict the exact visual output: describe the line colour, marker shape, line style, and line thickness.",
+     "a": "The chart shows a solid green line (linestyle='-') of width 3 pixels connecting points (1,10), (2,20), (3,30). At each data point, a square marker (marker='s') appears in green. A wrong answer (e.g., \"circles instead of squares\" or \"dashed line\") indicates the student cannot map keyword arguments to their visual effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the charts produced by `plt.plot(x, y1, label='A')` and `plt.plot(x, y2, label='B')` followed by `plt.legend()` versus calling `plt.plot(x, y1, label='A'); plt.plot(x, y2, label='B'); plt.legend()` in separate cells of a notebook. Are the legends identical? Why or why not?",
+     "a": "Yes, the legends are identical because `plt.legend()` collects labels from all lines plotted in the current figure before it is called. The order of plotting does not matter as long as both `plt.plot` calls occur before `plt.legend()`. A student who thinks the legend only shows the last plot misunderstands that matplotlib maintains a global list of artists for the current figure.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `plt.plot(x, y, color='blue', marker='red')` and gets an error. Evaluate why this fails and propose a correct way to have a blue line with red markers.",
+     "a": "The `marker` argument does not accept a colour; it accepts a marker style (e.g., 'o', 's'). To set marker colour separately, use `markerfacecolor='red'` (for fill) and `markeredgecolor='red'` (for edge) along with `color='blue'` for the line. The error reveals the student conflates marker style with marker colour, a common confusion because `color` sets both line and marker colour by default.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world dataset (not temperature) that would be appropriately visualised with a line chart. Specify the x and y variables, suggest at least three customisations (colour, marker, linestyle), and justify each choice based on the data's nature.",
+     "a": "Example: Monthly electricity consumption (kWh) over a year for a household. x = months (1-12), y = consumption. Customisations: colour='orange' (high visibility), marker='^' (triangles to highlight each month's reading), linestyle='-' (solid to show continuous trend). Justification: orange stands out in presentations; triangles mark discrete monthly readings; solid line emphasises the continuous nature of consumption over time. A poor answer uses a dataset better suited for bar chart (e.g., categorical data) or chooses customisations without justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

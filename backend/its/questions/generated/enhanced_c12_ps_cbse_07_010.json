@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_07_010",
+   "title": "c12_ps_cbse_07_010",
+   "questions": [
+    {
+     "q": "What are the two core components of the UNDP's 1994 definition of human security, and how do they differ from the traditional notion of state security?",
+     "a": "The two core components are 'freedom from want' (covering economic, food, health, and environmental security) and 'freedom from fear' (covering personal, community, and political security). Traditional state security focuses exclusively on protecting the state's territorial integrity and sovereignty from external military threats, treating the state as the primary referent object. A wrong answer that equates human security with only 'human rights' or only 'development' misses the dual structure and the explicit expansion of the security agenda beyond military threats.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indian state's decision to maintain the Armed Forces Special Powers Act (AFSPA) in certain regions illustrates a tension between state security and human security.",
+     "a": "AFSPA grants the military wide powers (arrest, shoot-to-kill, immunity from prosecution) to maintain order in 'disturbed areas', prioritizing the state's territorial integrity and internal security (state security). However, it has been criticized for enabling human rights violations — extrajudicial killings, disappearances, sexual violence — directly undermining the personal security and political security of civilians (human security). A wrong answer that says 'AFSPA is only about human rights violations' ignores the state's stated security rationale, while an answer that says 'AFSPA is necessary for national security' ignores the documented human security costs.",
+     "self_check": true
+    },
+    {
+     "q": "A state government diverts 15% of its health budget to upgrade police surveillance technology citing 'internal security threats'. Using the human security framework, analyze which dimensions of human security are compromised and which dimension of state security is prioritized.",
+     "a": "The diversion compromises health security (reduced access to care), economic security (higher out-of-pocket expenses), and potentially food security (if nutrition programs are cut). It prioritizes the 'personal security' and 'political security' aspects of state security — specifically the state's capacity to monitor and control internal dissent. A wrong answer that claims 'surveillance improves human security by preventing crime' conflates state security outputs with human security outcomes; prevention of crime is a state security function, but if it comes at the cost of healthcare, it creates a net human security deficit for the vulnerable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the National Security Council (NSC) and the National Human Rights Commission (NHRC) in mediating the balance between state security and human security in India.",
+     "a": "The NSC (chaired by the PM, with NSA, Defence, Home, Finance, External Affairs Ministers) is the apex body for state security strategy — threat assessment, nuclear doctrine, border management. The NHRC (statutory body under Protection of Human Rights Act, 1993) investigates violations, recommends compensation, and monitors custodial conditions — directly addressing human security. The tension arises when NSC-driven operations (e.g., counter-insurgency) generate NHRC cases. A wrong answer that says 'NHRC controls the military' overstates its powers (it cannot prosecute), while 'NSC ignores human rights' ignores that the NSC includes the Home Minister who oversees internal security and human rights portfolios.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: 'In a resource-constrained developing country like India, prioritizing state security (defence modernization, border infrastructure) is a prerequisite for human security; without a secure state, there can be no human security.'",
+     "a": "The argument has empirical support (e.g., 1962 war led to neglect of development; terrorism in Punjab/Kashmir disrupted livelihoods) but commits the fallacy of sequencing: it assumes a linear trade-off. Evidence shows that chronic neglect of human security (e.g., tribal alienation due to land loss, malnutrition in conflict zones) fuels insurgency, increasing state security costs. The Kargil Review Group (2000) and Naresh Chandra Committee (2011) both recommended integrating human security into defence planning. A wrong answer that fully agrees ignores the 'security dilemma' where excessive militarization creates new human insecurities; a wrong answer that fully disagrees ignores the existential reality of external aggression.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy brief for a District Magistrate in a Naxal-affected district on how to implement a 'security-with-development' approach that balances state security operations with human security delivery. Include three specific, measurable actions.",
+     "a": "A strong answer will specify: (1) Joint security-development review meetings monthly with SP, DFO, CMO, and NGOs to map 'grey zones' where development deficits overlap with insurgent influence; (2) Fast-track delivery of three human security entitlements (PDS ration, MGNREGA work, PHC functionality) in 10 worst-affected panchayats within 90 days, verified by social audit; (3) Standard Operating Procedure for security forces: no cordon-and-search during school hours/market days, mandatory video recording of operations, NHRC-intimation within 24 hours of any civilian casualty. A poor answer lists vague 'development schemes' without targeting, sequencing, or accountability mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

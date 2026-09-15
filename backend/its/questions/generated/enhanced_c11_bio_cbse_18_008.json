@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_008",
+   "title": "c11_bio_cbse_18_008",
+   "questions": [
+    {
+     "q": "Name the three concentric layers (tunics) of the human eyeball wall from outermost to innermost, and state the primary tissue type composing each layer.",
+     "a": "Correct answer: (1) Fibrous tunic – dense regular connective tissue (sclera) and transparent avascular collagen (cornea); (2) Vascular tunic (uvea) – highly vascularized loose connective tissue with melanocytes (choroid, ciliary body, iris); (3) Nervous tunic (retina) – stratified neural tissue containing photoreceptors and interneurons. A wrong answer (e.g., listing \"cornea, lens, retina\") reveals the student confuses anatomical layers with optical components and does not understand the histological organization fundamental to eye function.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the human retina is described as \"inverted\" and evaluate one functional advantage and one disadvantage of this arrangement compared to a \"verted\" retina (as in cephalopods).",
+     "a": "Correct answer: The retina is inverted because light must pass through the ganglion cell layer, inner plexiform layer, inner nuclear layer (bipolar/horizontal/amacrine cells), and outer plexiform layer before reaching the photoreceptor outer segments (rods/cones) which abut the retinal pigment epithelium (RPE). Advantage: Photoreceptors are in direct contact with RPE for efficient phagocytosis of shed outer segment discs and retinal isomerization (visual cycle). Disadvantage: Creates a blind spot (optic disc) where axons exit, and light scattering by inner layers reduces photon capture efficiency. A wrong answer focusing only on the blind spot without mentioning the RPE-photoreceptor metabolic coupling reveals incomplete understanding of the evolutionary trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads a book at 25 cm distance. Trace the sequence of events from photon absorption by a cone photopigment to the generation of an action potential in a retinal ganglion cell, including the specific ion channel changes at each synaptic step.",
+     "a": "Correct answer steps: (1) Photon isomerizes 11-cis-retinal to all-trans-retinal in photopsin → activates transducin → activates PDE → hydrolyzes cGMP → cGMP-gated Na⁺/Ca²⁺ channels CLOSE → photoreceptor hyperpolarizes (glutamate release decreases). (2) Reduced glutamate binds to mGluR6 on ON-bipolar cells → TRPM1 cation channels OPEN → bipolar cell depolarizes. (3) Bipolar cell releases glutamate onto ganglion cell AMPA/kainate receptors → Na⁺ influx → ganglion cell depolarizes to threshold → voltage-gated Na⁺ channels open → action potential initiated. A wrong answer stating photoreceptors depolarize to light (like skin photoreceptors) reveals a fundamental misconception about vertebrate phototransduction being an \"off\" response.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the phototransduction cascade in rods versus cones, focusing on: (a) photopigment sensitivity and spectral tuning, (b) amplification factor, (c) recovery kinetics, and (d) synaptic convergence ratios. Explain how these differences underlie scotopic vs photopic vision.",
+     "a": "Correct answer: (a) Rods: rhodopsin (λmax 498 nm), high sensitivity, single pigment → monochromatic. Cones: three photopsins (S: 420 nm, M: 534 nm, L: 564 nm) → trichromatic color vision. (b) Rods: high amplification (one photon → ~10⁵ cGMP hydrolyzed) due to long transducin lifetime; Cones: lower amplification, faster transducin inactivation. (c) Rods: slow recovery (seconds) due to slow retinal regeneration via RPE; Cones: fast recovery (milliseconds) via Müller cell pathway. (d) Rods: high convergence (many rods → one bipolar → one ganglion) → high sensitivity, low acuity. Cones: low convergence (1:1 in fovea) → high acuity, low sensitivity. A wrong answer claiming cones are more sensitive than rods or that rods mediate color vision reveals confusion between scotopic/photopic systems.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old patient reports difficulty reading fine print on medicine labels but sees distant road signs clearly. The ophthalmologist prescribes +2.5 D convex lenses. Evaluate whether this prescription is appropriate by: (i) identifying the defect, (ii) calculating the near point of the unaided eye, (iii) explaining the physiological cause at the level of lens elasticity and ciliary muscle function.",
+     "a": "Correct evaluation: (i) Defect is presbyopia (age-related loss of accommodation), not hypermetropia (though correction is similar). (ii) Lens formula: P = 1/f (m). For reading at 25 cm (0.25 m), required power = +4 D. Patient's residual accommodation = +4 D – (+2.5 D) = +1.5 D. Unaided near point = 1/1.5 = 0.67 m (67 cm). (iii) Cause: Age-related denaturation of lens crystallins → increased lens stiffness (reduced elasticity) + reduced ciliary muscle contractility → inability to increase lens curvature for near vision. A wrong answer calling this hypermetropia and suggesting the eyeball is \"too short\" reveals confusion between refractive error (axial length) and accommodative failure (lens elasticity).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a smartphone flashlight, a red filter (e.g., red cellophane), and a dark room to demonstrate the Purkinje shift and the differential spectral sensitivity of rods vs cones. Describe the procedure, predicted observations, and the underlying photopigment mechanism.",
+     "a": "Good answer criteria: Procedure: Dark-adapt 20 min. View a colored object (e.g., blue and red flowers) under dim white light → note relative brightness. Switch to red-filtered light (transmits >600 nm) → observe blue appears darker than red. Mechanism: Rods (λmax 498 nm) are more sensitive to blue; cones (L-cone λmax 564 nm) more sensitive to red. In mesopic conditions, rod vision dominates → blue appears brighter (Purkinje shift). Red filter eliminates short wavelengths → only cones stimulated → red appears brighter. A poor answer that cannot explain why red light preserves dark adaptation (rods insensitive to >600 nm) or confuses the shift direction reveals lack of understanding of spectral sensitivity curves.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

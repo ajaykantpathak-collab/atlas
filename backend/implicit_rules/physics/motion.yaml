@@ -1,0 +1,154 @@
+# Implicit Value Rules — Physics: Motion
+# Rules that infer unstated quantities from physics idioms.
+# Schema per Fable design C3.
+
+rules:
+  # ── Category 1: Zero-by-convention ──
+  - rule_id: "IMPL_MOT_001"
+    priority: 10
+    patterns:
+      - "starts from rest"
+      - "initially at rest"
+      - "released from rest"
+      - "starts from stationary"
+      - "begins from rest"
+      - "at rest initially"
+      - "from rest"
+    conditions:
+      - concept_tag in ["PHY_KIN", "PHY_NLM", "PHY_PROJ"]
+      - not already_bound["u"]
+    bindings:
+      - symbol: "u"
+        value: 0.0
+        unit: "m/s"
+        reason: "Object starts from rest, so initial velocity is zero."
+    confidence: 1.0
+    exceptions:
+      - "while still moving"
+
+  - rule_id: "IMPL_MOT_002"
+    priority: 10
+    patterns:
+      - "at the highest point"
+      - "maximum height"
+      - "at apex"
+      - "at the peak"
+      - "topmost point"
+    conditions:
+      - concept_tag in ["PHY_KIN", "PHY_PROJ"]
+    bindings:
+      - symbol: "v_final"
+        value: 0.0
+        unit: "m/s"
+        reason: "At the highest point of projectile motion, final vertical velocity is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MOT_003"
+    priority: 8
+    patterns:
+      - "just before hitting the ground"
+      - "at ground level"
+      - "reaches the ground"
+      - "hits the ground"
+    conditions:
+      - concept_tag in ["PHY_KIN", "PHY_PROJ"]
+      - not already_bound["h"]
+    bindings:
+      - symbol: "h"
+        value: 0.0
+        unit: "m"
+        reason: "At ground level, height is zero."
+    confidence: 0.95
+
+  - rule_id: "IMPL_MOT_006"
+    priority: 9
+    patterns:
+      - "comes to rest"
+      - "stops"
+      - "comes to a stop"
+      - "finally stops"
+      - "comes to rest"
+    conditions:
+      - concept_tag in ["PHY_KIN", "PHY_NLM"]
+      - not already_bound["v"]
+    bindings:
+      - symbol: "v"
+        value: 0.0
+        unit: "m/s"
+        reason: "Object comes to rest, so final velocity is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MOT_005"
+    priority: 8
+    patterns:
+      - "moves with uniform velocity"
+      - "constant velocity"
+      - "uniform speed"
+      - "constant speed"
+      - "steady speed"
+    conditions:
+      - concept_tag in ["PHY_KIN"]
+      - not already_bound["a"]
+    bindings:
+      - symbol: "a"
+        value: 0.0
+        unit: "m/s^2"
+        reason: "Uniform/constant velocity means zero acceleration."
+    confidence: 1.0
+
+  - rule_id: "IMPL_MOT_004"
+    priority: 7
+    patterns:
+      - "reaches twice the initial velocity"
+      - "doubles its velocity"
+      - "velocity becomes twice"
+    conditions:
+      - concept_tag in ["PHY_KIN"]
+      - already_bound["u"]
+    bindings:
+      - symbol: "v"
+        value: null
+        unit: "m/s"
+        reason: "Final velocity is twice the initial velocity (v = 2u)."
+        relation: "v = 2*u"
+    confidence: 0.95
+
+  # ── Category 2: Standard constants ──
+  - rule_id: "IMPL_MOT_010"
+    priority: 5
+    patterns:
+      - "freely falling"
+      - "free fall"
+      - "dropped"
+      - "falls from"
+      - "projectile"
+      - "thrown upward"
+      - "thrown up"
+      - "thrown downward"
+      - "gravity"
+      - "gravitational"
+    conditions:
+      - not already_bound["g"]
+    bindings:
+      - symbol: "g"
+        value: 9.8
+        unit: "m/s^2"
+        reason: "Standard gravitational acceleration (g = 9.8 m/s²)."
+    confidence: 0.9
+
+  - rule_id: "IMPL_MOT_011"
+    priority: 6
+    patterns:
+      - "class 9"
+      - "class 10"
+      - "simplify"
+      - "take g = 10"
+      - "g = 10"
+    conditions:
+      - not already_bound["g"]
+    bindings:
+      - symbol: "g"
+        value: 10.0
+        unit: "m/s^2"
+        reason: "Simplified g = 10 m/s² for lower classes."
+    confidence: 0.7

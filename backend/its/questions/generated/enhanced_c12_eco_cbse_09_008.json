@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_008",
+   "title": "c12_eco_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the two primary functions of a commercial bank and give one example of each in the Indian context.",
+     "a": "The two primary functions are (1) accepting deposits (e.g., a household opening a savings account at HDFC Bank earning 3% p.a. interest) and (2) advancing loans (e.g., a manufacturer borrowing ₹50 lakh as cash credit from Punjab National Bank at 9% p.a. for working capital). A wrong answer that lists \"issuing cheques\" or \"locker facility\" as primary functions reveals confusion between primary (balance-sheet) and secondary (fee-based) functions — the student has not grasped that primary functions create the bank's assets and liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a current account deposit considered a primary function of a commercial bank, while providing a safe deposit locker is a secondary function? Explain using the bank's balance sheet.",
+     "a": "A current account deposit is a primary function because it creates a LIABILITY on the bank's balance sheet (money owed to depositors, repayable on demand) and forms part of the money supply (M1). The bank uses these funds to create assets (loans). A safe deposit locker is a secondary function because it is a fee-based service — the bank earns rent but does not create a deposit liability or loan asset; it merely provides physical space. A wrong answer that says \"both are services to customers\" misses the balance-sheet distinction: primary functions change the bank's financial position; secondary functions do not.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial bank receives ₹10 crore in fixed deposits at 6% p.a. and lends ₹8 crore as term loans at 10% p.a. The bank keeps ₹2 crore as cash reserves (CRR/SLR). Calculate the bank's gross interest spread and net interest margin (NIM) on the loan portfolio. What does this spread represent economically?",
+     "a": "Step 1: Interest income = ₹8 crore × 10% = ₹0.8 crore.\nStep 2: Interest expense = ₹10 crore × 6% = ₹0.6 crore (paid on total deposits, not just lent portion).\nStep 3: Gross interest spread = 10% − 6% = 4 percentage points.\nStep 4: Net Interest Margin (NIM) = (Interest income − Interest expense) / Average earning assets = (₹0.8 cr − ₹0.6 cr) / ₹8 cr = ₹0.2 cr / ₹8 cr = 2.5%.\nEconomically, the spread represents the bank's reward for maturity transformation (borrowing short, lending long) and credit risk bearing. A wrong answer calculating spread only on the lent amount (₹8 cr) ignores that the bank pays interest on ALL deposits, revealing misunderstanding of bank liability management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liquidity and profitability implications for a commercial bank of (a) savings deposits vs (b) fixed deposits vs (c) current account deposits. Which deposit type is most profitable for the bank and why?",
+     "a": "(a) Savings deposits: Moderate liquidity risk (withdrawable on demand but sticky in practice), low cost (3-4% p.a.), moderate profitability. (b) Fixed deposits: Low liquidity risk (fixed tenure), higher cost (6-7% p.a.), lower profitability per rupee. (c) Current account deposits: Highest liquidity risk (payable on demand, no interest paid), zero explicit interest cost, HIGHEST profitability — the bank gets free funds to lend at 9-12%. Current accounts are most profitable because they are zero-cost liabilities (ignoring service charges) that fund high-yielding assets. A wrong answer saying \"fixed deposits are most profitable because they stay longer\" confuses stability with profitability — the bank pays higher interest on them, reducing spread.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Agency functions like collection of cheques and payment of insurance premiums are less important than primary functions because they don't create money.\" Is this true for a modern Indian commercial bank's revenue model? Justify.",
+     "a": "The statement is FALSE for a modern bank's revenue model. While agency functions don't create money (they don't expand the money supply like credit creation), they generate significant NON-INTEREST INCOME (fee income). For large Indian banks (e.g., HDFC, ICICI), non-interest income constitutes 25-35% of total income — from locker rent, forex commissions, credit card fees, insurance distribution, mutual fund commissions. These diversify revenue, reduce dependence on interest spread (which is compressed by RBI rate cuts), and improve ROE. A student who agrees with the statement views banks only through the money-multiplier lens, ignoring the universal banking model where fee income is critical for profitability and stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new secondary service that a commercial bank in India could offer to small retailers (kirana stores) to increase digital payment adoption. Explain how this service uses the bank's existing infrastructure and generates fee income without creating credit risk.",
+     "a": "Service: \"UPI Settlement Dashboard\" — a daily automated reconciliation tool that matches the kirana's UPI collections (via QR code) with bank credits, flags failed/pending transactions, and generates GST-compliant sales reports. Uses existing UPI switch infrastructure and core banking system; no new credit exposure. Fee: ₹199/month per merchant. Generates recurring fee income, deepens merchant relationship (cross-sell: business loans, POS devices), and supports Digital India. A poor answer proposing \"giving loans to kirana stores\" confuses secondary (fee-based) with primary (credit) functions and ignores the \"no credit risk\" constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 116,
+ "chapter_title": "Excretory Products and their Elimination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo116.txt",
+ "concepts": [
+  {
+   "id": "kebo.116.1.1",
+   "title": "Nitrogenous Wastes and Modes of Excretion",
+   "section": "16.1 Modes of Excretion",
+   "definition": "Animals eliminate ammonia, urea or uric acid as nitrogenous wastes, and accordingly are classified as ammonotelic like most aquatic organisms, ureotelic like mammals and terrestrial amphibians, or uricotelic like reptiles, birds and insects that conserve water.",
+   "formula": "",
+   "key_idea": "Ammonia is the most toxic form needing large water for elimination, uric acid is the least toxic and excreted as pellets, which explains why aquatic forms are ammonotelic while desert birds are uricotelic.",
+   "textbook_ref": "kebo116.txt section 16.1",
+   "question_patterns": [
+    "classify animals as ammonotelic ureotelic and uricotelic",
+    "which nitrogenous waste is the least toxic and why",
+    "why do mammals excrete urea while birds excrete uric acid",
+    "define ammonotelism with examples",
+    "compare the toxicity and water need of ammonia urea and uric acid",
+    "give examples of uricotelic animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the waste product",
+     "explain": "Note whether the animal excretes ammonia, urea or uric acid."
+    },
+    {
+     "step": 2,
+     "action": "relate to habitat",
+     "explain": "Link water availability to the form of nitrogenous waste."
+    },
+    {
+     "step": 3,
+     "action": "name the mode",
+     "explain": "Label the animal ammonotelic, ureotelic or uricotelic."
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.2.1",
+   "title": "Human Excretory System and the Nephron",
+   "section": "16.2 Human Excretory System",
+   "definition": "The human excretory system has a pair of kidneys with about a million nephrons each, ureters, a urinary bladder and a urethra; each nephron has Bowman's capsule with a glomerulus, proximal convoluted tubule, loop of Henle, distal convoluted tubule and collecting duct, with cortical and juxtamedullary types.",
+   "formula": "",
+   "key_idea": "The juxtaglomerular apparatus of macula densa and juxtaglomerular cells regulates glomerular filtration, and malpighian corpuscles lie in the cortex while loops of Henle run into the medulla.",
+   "textbook_ref": "kebo116.txt section 16.2",
+   "question_patterns": [
+    "describe the structure of a nephron with its parts",
+    "what is the difference between cortical and juxtamedullary nephrons",
+    "name the parts of the human excretory system",
+    "what is the juxtaglomerular apparatus and its function",
+    "how does bowman's capsule hold the glomerulus",
+    "state the role of the loop of henle in urine concentration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the urinary tract",
+     "explain": "Follow kidney, ureter, bladder and urethra in order."
+    },
+    {
+     "step": 2,
+     "action": "map the nephron parts",
+     "explain": "Locate glomerulus, PCT, loop of Henle, DCT and collecting duct."
+    },
+    {
+     "step": 3,
+     "action": "note the zones",
+     "explain": "Separate cortical and medullary regions and their nephron types."
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.3.1",
+   "title": "Urine Formation: Glomerular Filtration Rate and Reabsorption",
+   "section": "16.3 Mechanism of Concentration of the Filtrate",
+   "definition": "Urine formation involves glomerular filtration where about 1200 ml of blood is filtered per minute producing a glomerular filtration rate of about 125 ml per minute or 180 litres per day, tubular reabsorption returning nearly 99 per cent of the filtrate, and tubular secretion; the final urine is only about 1.5 litres a day.",
+   "formula": "filtrate_percent = gfr / blood_filtered * 100",
+   "key_idea": "Comparing 180 litres of filtrate a day with 1.5 litres of urine shows that nearly 99 per cent of the filtrate is reabsorbed by the renal tubules, chiefly in the proximal convoluted tubule.",
+   "textbook_ref": "kebo116.txt sections 16.3, 16.4",
+   "question_patterns": [
+    "what is the gfr of a healthy person and what does it mean",
+    "how much blood do the kidneys filter per minute",
+    "calculate the percentage of filtrate reabsorbed per day",
+    "compare the daily filtrate with daily urine output",
+    "describe the steps of urine formation",
+    "what substances are reabsorbed in the pct"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express gfr against filtered blood",
+     "explain": "Divide the glomerular filtration rate by the blood filtered per minute and multiply by 100 to get the filtrate percentage",
+     "compute": "filtrate_percent = gfr / blood_filtered * 100"
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.4.1",
+   "title": "Counter Current Mechanism and Hormonal Control",
+   "section": "16.4 Counter Current Mechanism, 16.5 Regulation of Kidney Function",
+   "definition": "The counter current mechanism of Henle's loop and the vasa recta, with the medullary gradient rising to about 1200 mOsmol per litre in the inner medulla, concentrates the filtrate, while ADH, aldosterone and the juxtaglomerular apparatus with renin regulate water and ion balance.",
+   "formula": "",
+   "key_idea": "ADH increases water reabsorption from the collecting duct and aldosterone promotes sodium reabsorption, so small changes in their secretion adjust the volume and concentration of urine.",
+   "textbook_ref": "kebo116.txt sections 16.4, 16.5",
+   "question_patterns": [
+    "explain the counter current mechanism of urine concentration",
+    "what is the medullary gradient and how is it maintained",
+    "how does adh regulate water reabsorption",
+    "state the role of aldosterone and renin",
+    "what happens to urine output when a person is dehydrated",
+    "describe the role of vasa recta in the counter current system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the two flows",
+     "explain": "Follow filtrate in Henle's loop and blood in vasa recta in opposite directions."
+    },
+    {
+     "step": 2,
+     "action": "note the osmotic gradient",
+     "explain": "Recall the rise of osmolarity from cortex to inner medulla."
+    },
+    {
+     "step": 3,
+     "action": "add the hormonal control",
+     "explain": "Explain ADH, aldosterone and renin adjustments to the urine."
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.5.1",
+   "title": "Micturition, Disorders of the Excretory System and Dialysis",
+   "section": "16.6 Micturition, 16.7 Disorders",
+   "definition": "The neural signalling of micturition releases urine from the bladder when it is full, and disorders include uremia, renal calculi and glomerulonephritis; haemodialysis with a cellophane tube in dialysing fluid removes urea from the blood of uremic patients, and a kidney transplant is the ultimate remedy.",
+   "formula": "",
+   "key_idea": "In haemodialysis blood from an artery passes through cellophane tubes in dialysing fluid and is returned to a vein, clearing nitrogenous wastes that failed renal clearance.",
+   "textbook_ref": "kebo116.txt sections 16.6-16.8",
+   "question_patterns": [
+    "define micturition and its neural control",
+    "what is uremia and how is it treated",
+    "describe the working of a haemodialysis machine",
+    "what are renal calculi and glomerulonephritis",
+    "when is a kidney transplant advised",
+    "why is dialysing fluid kept at the same osmotic pressure as blood"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain the reflex",
+     "explain": "Note bladder stretching and the CNS signal releasing sphincters."
+    },
+    {
+     "step": 2,
+     "action": "match the disorder",
+     "explain": "Pair uremia, stones or inflammation with their causes."
+    },
+    {
+     "step": 3,
+     "action": "describe the remedy",
+     "explain": "Explain dialysis and transplant as treatment routes."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo116.txt sections 16.3, 16.4",
+   "concept": "kebo.116.3.1",
+   "question_type": "compute_filtrate_fraction",
+   "question_pattern": "The kidneys filter {blood_filtered} ml of blood per minute and the glomerular filtration rate is {gfr} ml per minute. Calculate what percentage of the filtered blood enters the nephron as filtrate.",
+   "extracted_variables": {
+    "blood_filtered": 1200,
+    "gfr": 125
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express gfr against filtered blood",
+     "explain": "Divide the glomerular filtration rate by the blood filtered per minute and multiply by 100 to get the filtrate percentage",
+     "compute": "filtrate_percent = gfr / blood_filtered * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo116.txt sections 16.3, 16.4",
+   "concept": "kebo.116.3.1",
+   "question_type": "compute_filtrate_fraction",
+   "question_pattern": "In a patient {blood_filtered} ml of blood is filtered per minute with a GFR of {gfr} ml per minute. Work out the fraction of blood forming glomerular filtrate as a percentage.",
+   "extracted_variables": {
+    "blood_filtered": 1000,
+    "gfr": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express gfr against filtered blood",
+     "explain": "Divide the glomerular filtration rate by the blood filtered per minute and multiply by 100 to get the filtrate percentage",
+     "compute": "filtrate_percent = gfr / blood_filtered * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo116.txt exercises section",
+   "questions": [
+    "Define Glomerular Filtration Rate (GFR).",
+    "Explain the autoregulatory mechanism of GFR.",
+    "Describe the role of ADH, aldosterone and renin in kidney function.",
+    "Explain micturition.",
+    "Match the excretory products with the animals and note the modes of excretion.",
+    "Explain the counter current mechanism in the kidney.",
+    "How does the medullary gradient help in urine concentration?"
+   ]
+  }
+ ]
+}

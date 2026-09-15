@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_8",
+   "title": "c9_physics_ch2_8",
+   "questions": [
+    {
+     "q": "State the three equations of motion for uniformly accelerated motion along a straight line. Write each equation with its variables and SI units.",
+     "a": "The three equations are: (1) v = u + at, where v and u are in m/s, a in m/s², t in s. (2) s = ut + ½at², where s is in m, u in m/s, a in m/s², t in s. (3) v² = u² + 2as, where v and u in m/s, a in m/s², s in m. A wrong answer (e.g., missing the ½ factor, swapping u and v, or writing s = vt) reveals the student has memorised formulas without understanding their graphical origin or the meaning of each term.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the second equation as s = vt - ½at². Is this correct? Explain why or why not using the velocity-time graph for uniform acceleration.",
+     "a": "The equation s = vt - ½at² is mathematically equivalent to s = ut + ½at² (substitute u = v - at) and is therefore also correct for uniform acceleration. On a v-t graph, the area under the line can be calculated as a large rectangle (vt) minus the top triangle (½at²). A student who says it is wrong because \"the formula is s = ut + ½at²\" has only memorised one algebraic form and does not understand that the displacement is the total area under the graph, which can be partitioned in multiple ways.",
+     "self_check": true
+    },
+    {
+     "q": "A train leaving Howrah station accelerates uniformly from rest at 0.5 m/s² for 2 minutes. Calculate its final velocity in m/s and the distance covered in km. Show all steps with units.",
+     "a": "Given: u = 0 m/s, a = 0.5 m/s², t = 2 min = 120 s.\nStep 1: Find v using v = u + at = 0 + (0.5 × 120) = 60 m/s.\nStep 2: Find s using s = ut + ½at² = 0 + ½ × 0.5 × (120)² = 0.25 × 14400 = 3600 m.\nStep 3: Convert to km: 3600 m = 3.6 km.\nFinal answer: v = 60 m/s, s = 3.6 km. A wrong answer (e.g., 3600 km or 60 km/s) reveals a unit conversion error (forgetting to convert minutes to seconds) or incorrect formula substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Two cyclists start from the same point on a straight road. Cyclist A moves with constant velocity 5 m/s. Cyclist B starts from rest and accelerates uniformly at 1 m/s². Without calculating exact numbers, analyse and explain: who will be ahead after 2 seconds? After 10 seconds? After 20 seconds? Justify using the equations of motion.",
+     "a": "At t=2s: s_A = 5×2 = 10 m; s_B = 0 + ½×1×4 = 2 m. Cyclist A is ahead.\nAt t=10s: s_A = 50 m; s_B = ½×1×100 = 50 m. They are at the same position.\nAt t=20s: s_A = 100 m; s_B = ½×1×400 = 200 m. Cyclist B is ahead.\nA student who says \"B is always ahead because it accelerates\" or \"A is always ahead because it starts faster\" fails to understand that displacement depends on t² for accelerated motion, which eventually overtakes linear growth. They are not analysing the time-dependence of the two equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A car stops in 5 s with a retardation of 2 m/s². Find initial speed.\" The student writes: v = 0, a = -2 m/s², t = 5 s. Uses v = u + at → 0 = u + (-2)(5) → u = 10 m/s. Then uses s = vt - ½at² = 0 - ½(-2)(25) = 25 m. Evaluate if the method and answer are fully correct. Identify any subtle error.",
+     "a": "The initial speed u = 10 m/s is correct. However, the displacement calculation uses s = vt - ½at². Since v=0, this gives s = -½at². With a = -2, s = -½(-2)(25) = +25 m. The magnitude is correct, but the formula s = vt - ½at² is derived assuming v is the final velocity at time t. Here v=0 is indeed the final velocity, so the formula is applicable. The subtle error is conceptual: the student used a formula with final velocity v to find displacement, but the standard form s = ut + ½at² is more direct when u is known. Both yield 25 m, so the answer is numerically correct but the choice of formula shows incomplete flexibility in selecting the most efficient equation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone, a long smooth plank, and a few books to verify the equation s = ut + ½at² for a ball rolling down an inclined plane. Describe the procedure, measurements, and how you would analyse the data to confirm the ½ factor.",
+     "a": "Procedure: 1) Prop the plank on books to make an incline. 2) Mark positions at 0.5 m, 1.0 m, 1.5 m from the top. 3) Use the smartphone's stopwatch to measure time t for the ball to roll from rest (u=0) to each mark. Repeat 3 times per mark. 4) Plot s (y-axis) vs t² (x-axis). Since u=0, s = ½a t² → graph should be a straight line through origin with slope = ½a. 5) Calculate a from slope and compare with a = g sinθ. A poor answer (e.g., \"measure time for one distance and calculate a\") shows the student doesn't understand that verifying the t² dependence requires multiple data points and graphical analysis, not a single calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

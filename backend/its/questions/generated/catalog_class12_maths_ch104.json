@@ -1,0 +1,375 @@
+{
+ "catalog": "catalog_class12_maths_ch104.json",
+ "concepts": [
+  {
+   "id": "lemh.4.2.2",
+   "title": "Determinant of a 2x2 Matrix",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[3, 9], [-2, 7]].",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[5, 7, -4], [-2, 7, 0], [-5, 6, -4]] along the first row.",
+     "a": "-288",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[4, 3], [1, 2]] and B = [[0], [-2]] (column), find the (1,1) entry of AB.",
+     "a": "-6",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 5 times a matrix whose (1,1) entry is -2.",
+     "a": "-10",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 3. Find det(4A) using det(kA) = k^n det A.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.2.3",
+   "title": "Determinant of a 3x3 Matrix",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-3, 3], [9, 5]].",
+     "a": "-42",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[4, 6, 0], [0, 8, 1], [6, 8, -1]] along the first row.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[2, 8], [1, 2]] and B = [[6], [-1]] (column), find the (1,1) entry of AB.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 5.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 4. Find det(3A) using det(kA) = k^n det A.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.3.1",
+   "title": "Area of a Triangle using Determinants",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 24 cm by 20 cm.",
+     "a": "480",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 8 m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 15 m garden has a 11 m x 11 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 8 cm. Find its breadth.",
+     "a": "4.5",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 19 m x 20 m floor.",
+     "a": "5700",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 21 m x 12 m hall?",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.3.2",
+   "title": "Line Equation and Collinearity using Determinants",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-5, 1) and (7, 17).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-3, -2) from the origin.",
+     "a": "3.61",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-4, 0) and (2, -8).",
+     "a": "-1",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 1 : 4. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (6, 0), (3, -3) and (2, 0) (two decimal places).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (2, 1), (4, -3) and (-5, -5).",
+     "a": "0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.4.1",
+   "title": "Minors of a Matrix Element",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[7, 1], [-1, -2]].",
+     "a": "-13",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[5, 6, 2], [0, 4, 0], [3, -1, -5]] along the first row.",
+     "a": "-124",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[0, 6], [1, 2]] and B = [[-3], [8]] (column), find the (1,1) entry of AB.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 3.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 5. Find det(3A) using det(kA) = k^n det A.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.4.2",
+   "title": "Cofactors of a Matrix Element",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-6, 9], [4, -1]].",
+     "a": "-30",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[2, 6, -2], [-1, -1, 2], [2, 8, -2]] along the first row.",
+     "a": "-4",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[3, 4], [1, 2]] and B = [[6], [2]] (column), find the (1,1) entry of AB.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 3 times a matrix whose (1,1) entry is 0.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 3. Find det(4A) using det(kA) = k^n det A.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.1",
+   "title": "Adjoint of a Square Matrix",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 22.",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 39 m. What is the number of square metres in its area?",
+     "a": "1521",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 3^2 and 4^2? (Rule: 2 x n)",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 7 x 5.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 86?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 10. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.2",
+   "title": "Determinant of Adjoint Matrix Property",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-5, 0], [2, -6]].",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-2, -5, 1], [-5, 2, -2], [5, 5, -1]] along the first row.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[7, 0], [1, 2]] and B = [[-5], [2]] (column), find the (1,1) entry of AB.",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 5 times a matrix whose (1,1) entry is 2.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 7. Find det(2A) using det(kA) = k^n det A.",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.5.3",
+   "title": "Inverse of a Square Matrix using Adjoint",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 39.",
+     "a": "1521",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 39 m. What is the number of square metres in its area?",
+     "a": "1521",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 2^2 and 3^2? (Rule: 2 x n)",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 34?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 30. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "226",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.4.6.1",
+   "title": "Solving System of Linear Equations using Matrix Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 3 = 13.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 3 = 33.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 10 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 38 = 4.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 9 = 1x + 27.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 6) = 66.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

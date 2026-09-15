@@ -1,0 +1,246 @@
+{
+ "catalog": "catalog_class11_biology_ch103",
+ "concepts": [
+  {
+   "id": "kebo.103.1",
+   "title": "Classification Systems in Botany",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification Systems in Botany' refers to.",
+     "a": "The evolution of plant categorization from simple physical traits to complex internal and genetic relationships.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification Systems in Botany'.",
+     "a": "Classification shifted from artificial morphological traits to natural affinities and evolutionary lineages.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classification Systems in Botany', in plain ASCII form.",
+     "a": "Phylogeny = Evolutionary History + Common Ancestry",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.2",
+   "title": "Modern Taxonomic Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modern Taxonomic Methods' refers to.",
+     "a": "Advanced techniques using computational data, cellular structures, and chemical profiles to resolve plant classification.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modern Taxonomic Methods'.",
+     "a": "Using computers and chemical data to provide objective weightage to multiple plant characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Modern Taxonomic Methods', in plain ASCII form.",
+     "a": "Numerical Taxonomy = sum(observable_characters) / total_traits",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.3",
+   "title": "Algal Sexual Reproduction Modes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Algal Sexual Reproduction Modes' refers to.",
+     "a": "Classification of algal reproduction by the relative size and motility of the fusing gametes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Algal Sexual Reproduction Modes'.",
+     "a": "Reproductive diversity in algae ranges from identical gamete fusion to specialized egg-sperm interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Algal Sexual Reproduction Modes', in plain ASCII form.",
+     "a": "Isogamy: G1 = G2; Anisogamy: G1 != G2; Oogamy: Large_Static_Female + Small_Motile_Male",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.4",
+   "title": "Chlorophyceae (Green Algae)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chlorophyceae (Green Algae)' refers to.",
+     "a": "A group of algae characterized by the presence of chlorophyll a and b, storing food as starch in pyrenoids.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chlorophyceae (Green Algae)'.",
+     "a": "Green algae share primary pigments and storage products with higher plants.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chlorophyceae (Green Algae)', in plain ASCII form.",
+     "a": "Cell Wall = Inner Cellulose + Outer Pectose",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.5",
+   "title": "Phaeophyceae (Brown Algae)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phaeophyceae (Brown Algae)' refers to.",
+     "a": "Marine algae containing fucoxanthin and storing energy as complex carbohydrates like laminarin or mannitol.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phaeophyceae (Brown Algae)'.",
+     "a": "Brown algae possess specialized structures like holdfasts and produce hydrocolloids like algin.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phaeophyceae (Brown Algae)', in plain ASCII form.",
+     "a": "Brown Pigment = Fucoxanthin",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.6",
+   "title": "Bryophyte Life Cycle and Structure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bryophyte Life Cycle and Structure' refers to.",
+     "a": "Non-vascular plants where the haploid gametophyte is indeed the dominant phase, requiring water for fertilization.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bryophyte Life Cycle and Structure'.",
+     "a": "Often called the plant kingdom's amphibians, since water is essential for their sexual reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bryophyte Life Cycle and Structure', in plain ASCII form.",
+     "a": "Bryophyte = Gametophyte(n) + Dependent Sporophyte(2n)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.7",
+   "title": "Liverwort Reproduction (Gemmae)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Liverwort Reproduction (Gemmae)' refers to.",
+     "a": "Asexual reproduction in liverworts via specialized multicellular green buds called gemmae.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liverwort Reproduction (Gemmae)'.",
+     "a": "Gemmae develop in gemma cups and detach to form independent clones of the parent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Liverwort Reproduction (Gemmae)', in plain ASCII form.",
+     "a": "New Thallus = Germinated Gemma",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.8",
+   "title": "Pteridophyte Characteristics and Vascularity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pteridophyte Characteristics and Vascularity' refers to.",
+     "a": "The first terrestrial plants to evolve vascular tissues (both xylem and phloem) with a dominant sporophyte stage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pteridophyte Characteristics and Vascularity'.",
+     "a": "Transition to sporophyte dominance and the development of true conducting tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pteridophyte Characteristics and Vascularity', in plain ASCII form.",
+     "a": "Pteridophyte = Sporophyte (Root + Stem + Leaves) + Vascular Tissue",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.9",
+   "title": "Heterospory and Seed Habit Precursor",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Heterospory and Seed Habit Precursor' refers to.",
+     "a": "The production of two different sizes of spores (macro and micro) which lead to distinct both male and female gametophytes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Heterospory and Seed Habit Precursor'.",
+     "a": "Retention of the female gametophyte on the parent sporophyte is a critical evolutionary step toward seeds.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Heterospory and Seed Habit Precursor', in plain ASCII form.",
+     "a": "Heterospory = Megaspores + Microspores",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.10",
+   "title": "Gymnosperm Seed and Ovule Structure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gymnosperm Seed and Ovule Structure' refers to.",
+     "a": "Plants where ovules and resulting seeds are indeed not enclosed within an ovary wall, remaining 'naked'.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gymnosperm Seed and Ovule Structure'.",
+     "a": "Seeds develop directly on the surface of megasporophylls, usually in cones.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gymnosperm Seed and Ovule Structure', in plain ASCII form.",
+     "a": "Gymnosperm = Naked Ovule + No Fruit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.11",
+   "title": "Ploidy Calculation in Plant Cycles",
+   "questions": [
+    {
+     "q": "Calculate the ploidy of a zygote given the spore count. Use the method 'Ploidy Calculation in Plant Cycles'. Work with: input_chromosomes = 6. Carry the chain through step by step and give the final value of final_answer.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "How many chromosomes are in a fern prothallus if the rhizome has 40? Use the method 'Ploidy Calculation in Plant Cycles'. Work with: input_chromosomes = 24. Carry the chain through step by step and give the final value of final_answer.",
+     "a": "48 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ploidy Calculation in Plant Cycles' refers to.",
+     "a": "Calculating the chromosome count of different life stages based on the alternation of generations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ploidy Calculation in Plant Cycles'.",
+     "a": "Meiosis reduces ploidy to haploid (n) in spores, while fertilization restores diploidy (2n) in the zygote.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ploidy Calculation in Plant Cycles', in plain ASCII form.",
+     "a": "sporophyte = 2 * gametophyte",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

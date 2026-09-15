@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_004",
+   "title": "c11_cs_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the return type of `f.read()` when `f` is a file object opened in text mode `'r'` and the file contains three lines of text?",
+     "a": "`f.read()` returns a single string containing the entire file content including newline characters. A wrong answer (e.g., \"list of lines\" or \"first line only\") reveals the student confuses `read()` with `readlines()` or `readline()`, indicating they haven't distinguished the three methods by return type.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `data = f.read(); lines = f.readlines()` on a file opened as `f = open('data.txt', 'r')`. They expect `lines` to contain all lines of the file. Explain why `lines` will be an empty list.",
+     "a": "`f.read()` consumes the entire file and moves the file pointer to the end. Subsequent `readlines()` starts at the end-of-file and returns an empty list. A wrong explanation (e.g., \"readlines() always returns empty\") shows the student doesn't understand the file pointer's role — they think each method independently reads from the start.",
+     "self_check": true
+    },
+    {
+     "q": "Given a file `prices.txt` with content:\n```\n120.50\n85.00\n200.00\n```\nWrite a code snippet using `readline()` in a `while` loop to read each line, convert to float, and compute the total. Show the loop condition that correctly stops at end-of-file.",
+     "a": "```python\ntotal = 0.0\nwith open('prices.txt', 'r') as f:\n    line = f.readline()\n    while line != '':          # empty string signals EOF\n        total += float(line)\n        line = f.readline()\nprint(total)\n```\nA wrong condition like `while line:` works but `while line is not None:` fails because `readline()` returns `''` not `None`. This reveals misunderstanding of EOF signaling in Python.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory usage and processing flexibility of `read()` vs `readlines()` for a 2 GB log file. Which method would you choose to search for a specific error code line-by-line, and why?",
+     "a": "`read()` loads the entire 2 GB into one string — high memory, but allows global search/regex across lines. `readlines()` loads a 2 GB list of strings — even higher memory overhead due to list object pointers. For line-by-line search, neither is ideal; `readline()` in a loop or iterating the file object directly (`for line in f:`) uses constant memory. Choosing `readlines()` for a huge file shows the student ignores memory constraints and doesn't know lazy iteration exists.",
+     "self_check": true
+    },
+    {
+     "q": "A program uses `content = f.read(100)` followed by `next_chunk = f.read(100)`. The file contains exactly 150 characters. What does `next_chunk` contain, and what does this reveal about the `size` parameter in `read(size)`?",
+     "a": "`next_chunk` contains the remaining 50 characters. The `size` parameter is a maximum limit, not a fixed block size; `read()` returns fewer characters if EOF is reached. A student answering \"empty string\" or \"error\" thinks `read(100)` always reads exactly 100 characters or fails, showing they treat `size` as a rigid block size rather than a ceiling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you would deliberately use `read()` to read a configuration file, then `readline()` to process a log file, and `readlines()` to load a small CSV file — all in the same program. Justify each choice in one sentence.",
+     "a": "Example: `config = f.read()` for a small JSON config (need whole structure at once); `f.readline()` in a loop for a massive log file (memory-efficient line-by-line parsing); `rows = f.readlines()` for a 50-line CSV (convenient list for `csv.reader` or list comprehension). A poor answer uses the same method for all three, indicating the student hasn't internalized the trade-offs: whole-content vs streaming vs list convenience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

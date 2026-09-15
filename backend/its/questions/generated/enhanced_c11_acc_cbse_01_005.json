@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_005",
+   "title": "c11_acc_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the four qualitative characteristics of accounting information as per the NCERT Class 11 framework.",
+     "a": "The four qualitative characteristics are: (1) Reliability, (2) Relevance, (3) Understandability, and (4) Comparability. A wrong answer (e.g., listing \"accuracy,\" \"completeness,\" or \"materiality\" as separate top-level characteristics) reveals the student is confusing the NCERT classification with the IASB Conceptual Framework hierarchy where materiality is a pervasive constraint and faithful representation replaces reliability. It also indicates the student hasn't memorised the specific NCERT terminology required for board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "A company changes its depreciation method from straight-line to written-down value in the current year without disclosing the change or its effect on profit. The financial statements are issued on time. Which qualitative characteristic is primarily violated, and why is timeliness not the issue here?",
+     "a": "Comparability is primarily violated because the change in accounting policy without disclosure prevents users from comparing financial statements across periods and with other entities using consistent methods. Timeliness is satisfied (statements issued on time), but comparability requires consistent application of policies or full disclosure of changes. A wrong answer identifying \"reliability\" or \"relevance\" shows the student cannot distinguish between faithful representation of transactions (reliability) and consistency of methodology across time (comparability). This is a classic board exam trap where students conflate \"correctness\" with \"consistency.\"",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. values its closing inventory at the higher of cost and net realisable value, as required by accounting standards. However, the accountant deliberately overstates the net realisable value to show higher profits. The financial statements are otherwise prepared on time and use consistent policies. Identify the TWO qualitative characteristics violated and explain the specific sub-component breached in each case.",
+     "a": "(1) Reliability — specifically **faithfulness** (faithful representation) and **neutrality** are violated because the information does not faithfully represent the economic reality and is biased toward showing higher profits. (2) Relevance — specifically **predictive value** is impaired because users cannot rely on the reported profit to predict future performance. A wrong answer identifying only \"reliability\" misses that deliberately distorted information also loses its decision-usefulness (relevance). Students often think relevance only means \"timely,\" but NCERT explicitly states relevance includes predictive and feedback value — biased information fails both.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of **verifiability** and **faithfulness** as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
+     "a": "Verifiability means independent observers using the same method reach substantially the same measurement (consensus on measurement process). Faithfulness means the measurement actually represents the economic phenomenon it purports to represent (correspondence with reality). Yes, information can be verifiable but not faithful. Example: A company values inventory at historical cost (verifiable — multiple auditors agree on the invoice price), but the inventory has become obsolete and its realisable value is near zero (not faithful — does not represent current economic value). A wrong answer claiming they are the same or that verifiability implies faithfulness reveals a fundamental misunderstanding: verifiability is about *process consensus*, faithfulness is about *representation accuracy*. Board exams test this distinction through scenarios involving historical cost vs. fair value.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"For accounting information to be decision-useful, it must satisfy all four qualitative characteristics simultaneously and to the maximum degree possible.\" Is this statement true or false? Justify your answer with reference to the trade-offs between characteristics.",
+     "a": "**False.** The statement is false because qualitative characteristics often conflict, requiring trade-offs rather than simultaneous maximisation. Key trade-offs: (1) **Reliability vs. Relevance (Timeliness)**: Early estimates (relevant for timely decisions) are less reliable than audited figures available later. (2) **Comparability vs. Relevance**: Strict uniformity (comparability) may prevent adoption of improved methods that better reflect economic reality (relevance). (3) **Understandability vs. Completeness**: Over-simplification for understandability may omit complex but relevant details. The NCERT framework acknowledges these as \"constraints\" — information need only possess characteristics *to a sufficient degree* for decision-usefulness. A \"true\" answer shows the student treats characteristics as independent checkboxes rather than an interacting system requiring professional judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a small Indian business (e.g., a textile trader in Surat) where the accountant must make a judgment call between two qualitative characteristics. Describe the situation, the two characteristics in conflict, the decision the accountant should make, and the disclosure required.",
+     "a": "**Scenario**: Surat Textiles receives a large order in late March 2024 (year-end 31 March). The goods are dispatched on 28 March but reach the customer on 3 April. The accountant must decide whether to recognise revenue in FY 2023-24 or FY 2024-25. **Conflict**: **Relevance (timeliness/predictive value)** — recognising in FY 2023-24 gives timely information about the order secured — vs. **Reliability (faithfulness)** — revenue recognition criteria (transfer of control) may not be met until delivery on 3 April. **Decision**: Defer revenue to FY 2024-25 (faithfulness > timeliness) because recognising unearned revenue misrepresents performance. **Disclosure**: Note in financial statements: \"Revenue of ₹15 lakh relating to goods dispatched on 28 March 2024 but delivered on 3 April 2024 has been recognised in FY 2024-25 in accordance with the transfer-of-control principle.\" A poor answer chooses timeliness without justification or omits disclosure, showing the student doesn't understand that reliability is a *threshold* quality (information must be reliable to be useful at all) while relevance is a *degreed* quality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

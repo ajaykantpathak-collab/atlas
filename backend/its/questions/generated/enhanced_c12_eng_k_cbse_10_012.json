@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_10_012",
+   "title": "c12_eng_k_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the difference between a literal comprehension question and an inferential comprehension question when applied to a poem?",
+     "a": "A literal question asks for information directly stated in the poem (e.g., \"What does the Sun do at intervals?\" — Answer: \"shone whole\"). An inferential question asks for meaning not directly stated, requiring the reader to combine textual clues (e.g., \"Why are pronouns for the Sun capitalised?\" — Answer: To personify the Sun as a powerful, willful entity). A wrong answer that defines both as \"questions about the poem\" reveals the student cannot distinguish retrieval from reasoning, leading to vague, unsupported answers in exams.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"The Trees like Tassels hit – and – swung –\" appears. A student writes: \"The trees are moving because of the wind.\" Is this a literal or inferential statement? Justify your answer using the text.",
+     "a": "This is an inferential statement. The poem literally states the trees \"hit – and – swung\" like \"Tassels\" but never mentions wind. The student inferred the cause (wind) from the motion described. A wrong answer calling it \"literal\" reveals the student confuses vivid description with explicit causation — a common error when imagery suggests a familiar scene. The text only gives the movement and the simile; the cause is implied, not stated.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this inferential question using the PEEL structure: \"What does the phrase 'Psalteries of Summer' suggest about the sounds of the season?\" (Hint: A psaltery is a stringed musical instrument.)",
+     "a": "**Point:** The phrase suggests the sounds of summer are musical, delicate, and orchestrated. **Evidence:** \"Psalteries\" are plucked string instruments; \"Far Psalteries of Summer – Enamoring the Ear\" links the sound to enchantment. **Explanation:** By comparing summer sounds to a psaltery, Dickinson transforms ambient noise (insects, breeze) into a deliberate, harmonious composition, elevating nature to art. **Link:** This supports the poem's theme of nature as a purposeful, beautiful performance. A weak answer merely defines \"psaltery\" without connecting to \"enamoring the ear\" or the poem's musical imagery, missing the inferential leap from instrument to artistic intention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal description of the Sun in stanza 3 (\"The Sun shone whole at intervals — Then Half — then utter hid —\") with the inferential portrayal in stanza 4 (\"As if Himself were optional / And had Estates of Cloud / Sufficient to enfold Him / Eternally from view —\"). What relationship between the Sun and clouds does the inference reveal that the literal description does not?",
+     "a": "The literal description records observed changes: full sun, half sun, hidden sun. The inference reveals agency and ownership: the Sun *chooses* to hide (\"optional\"), possesses clouds as \"Estates,\" and can disappear \"Eternally\" — implying dominance, not passivity. A wrong answer that only paraphrases both stanzas (\"The sun hides behind clouds which it owns\") misses the shift from observation to personification. The key analytical move is noticing the modal verb \"were optional\" and the noun \"Estates\" — turning weather into will and property.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the question \"Give examples from the poem to show that great poetry is a result of close observation of natural phenomena\" by listing: \"1. Trees moving like tassels. 2. A bird on a fence. 3. Flowers blooming.\" Evaluate this answer. What is missing for a full-mark response?",
+     "a": "The answer identifies observed phenomena but fails to show *how* the poetry results from that observation — i.e., the transformation of observation into art through literary craft. A full-mark response must link each observation to a poetic device: e.g., \"The trees' movement is not just noted but crafted into the simile 'like Tassels' with dashes mimicking the hit-and-swing rhythm.\" The student's answer treats the poem as a list of observations, missing the \"result of\" in the question. This reveals a misconception: that observation = poetry, rather than observation + craft = poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for this poem that requires the reader to connect imagery from two different stanzas. Provide the question and a model answer outline.",
+     "a": "**Question:** \"How does Dickinson use the imagery of 'Hindered Flags' (stanza 5) and 'Psalteries of Summer' (stanza 2) to present nature as both struggling and harmonious?\" **Model Outline:** Point: Nature embodies tension between effort and beauty. Evidence 1: \"Hindered Flags — Sweet hoisted — With Spices — in the Hem\" — flags suggest struggle (\"Hindered\"), yet \"Sweet hoisted\" implies triumph. Evidence 2: \"Far Psalteries of Summer — Enamoring the Ear\" — music implies harmony. Explanation: The flowers' struggle to bloom (\"Hindered\") parallels the effort behind art; the resulting \"Spices\" and \"Psalteries\" are the sensory rewards. Link: Dickinson shows nature's beauty is earned, not given — a hallmark of her close observation. A poor question would ask for a single-stanza inference or a yes/no answer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

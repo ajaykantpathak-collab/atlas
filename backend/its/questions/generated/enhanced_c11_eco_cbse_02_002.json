@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_002",
+   "title": "c11_eco_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the Harrod-Domar growth equation and explain why the First Five Year Plan's actual growth rate (3.6%) exceeded its target (2.1%) despite a savings rate of only 5-6%.",
+     "a": "Harrod-Domar: g = s/v where g = growth rate, s = savings rate, v = capital-output ratio. The Plan exceeded target because agriculture/irrigation investments have low capital-output ratio (v ≈ 2-3) compared to heavy industry (v ≈ 4-5). With s ≈ 5-6%, g = 5%/2.5 = 2% theoretically, but actual v was lower due to quick-yielding irrigation projects and high labour absorption, raising effective growth to 3.6%. A wrong answer (e.g., \"higher savings caused it\") reveals confusion between ex-ante model parameters and ex-post realised productivity of specific investments.",
+     "self_check": true
+    },
+    {
+     "q": "The First Plan allocated 44.6% to agriculture/irrigation but only 4.9% to industry. Using the concept of wage-goods constraint, explain why this allocation was necessary for a labour-surplus economy with 72% workforce in agriculture.",
+     "a": "In a labour-surplus economy, industrial expansion requires wage-goods (food) to feed workers without raising prices. With 72% workforce in agriculture at low productivity, food supply was inelastic. Investing 44.6% in agriculture raised food output (51→65 MT), releasing surplus labour for industry while preventing inflationary pressure on wages. A wrong answer focusing only on \"agriculture was important\" misses the macroeconomic linkage: industrial growth is constrained by agricultural surplus generation (wage-goods constraint), not just sectoral priority.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the annual compound growth rate of food grain production during the First Plan (1951: 51 MT, 1956: 65 MT). Then explain why this rate (≈4.9%) exceeded overall GDP growth (3.6%).",
+     "a": "CAGR = (65/51)^(1/5) - 1 = (1.2745)^0.2 - 1 = 1.0498 - 1 = 4.98% ≈ 5.0%. Food grain growth exceeded GDP growth because: (1) Plan focused resources on agriculture (44.6% outlay), (2) irrigation expansion (17 Mha) raised land productivity disproportionately, (3) land reforms improved incentives on existing land, (4) low base effect from colonial stagnation. A wrong answer (e.g., \"better seeds\") confuses First Plan (pre-HYV) with Green Revolution period; HYV seeds came in mid-1960s.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land reform strategy of the First Plan (abolition of intermediaries, tenancy reform, land ceiling) with the colonial zamindari system. Identify which reform component had the largest incentive effect on productivity and why, using the ownership-incentive principle.",
+     "a": "Colonial zamindari: intermediaries (zamindars) collected rent without investing; tillers had no ownership incentive. First Plan reforms: (1) Abolition of intermediaries — 200 lakh tenants became owners, largest incentive effect because ownership → residual claimant on output → incentive to invest/improve land (Box 2.5 Soviet example: state farmers packed rotten fruit because no ownership stake). (2) Tenancy reform — security of tenure, fair rent. (3) Land ceiling — redistributive but poorly implemented. Abolition of intermediaries had largest effect because it directly transferred property rights to actual cultivators, aligning marginal product of effort with marginal reward. Wrong answer citing \"land ceiling\" as most effective ignores implementation failure (loopholes, benami transfers, court delays).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The First Five Year Plan's success in achieving 3.6% growth proves the Harrod-Domar model is universally applicable to developing economies.\" Consider the role of specific initial conditions (food crisis, labour surplus, low capital-output ratio in agriculture).",
+     "a": "The statement is false. The Plan's success was context-specific: (1) Severe food crisis meant agriculture had extremely low capital-output ratio (quick yields from irrigation), (2) Massive disguised unemployment allowed labour-intensive projects without wage pressure, (3) Pent-up demand for food ensured high marginal returns, (4) Low base from colonial stagnation inflated growth percentage. Harrod-Domar assumes constant v and s; here v fell endogenously due to sectoral choice. Universal application fails when: capital-output ratio is high (heavy industry), savings are very low (<5%), or structural bottlenecks exist (e.g., Second Plan's heavy industry focus raised v, lowered growth). Wrong answer treating model as universal ignores that model parameters (v, s) are policy-endogenous, not exogenous constants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical First Plan allocation for a fictional country with: 65% workforce in agriculture, 55% GDP from agriculture, food deficit of 10%, savings rate 7%, capital-output ratio 3 in agriculture vs 5 in industry. Total outlay: 1000 units. Justify your sectoral split using wage-goods constraint and employment generation per unit capital.",
+     "a": "Allocate 50% to agriculture/irrigation, 20% to transport/power (complementary), 15% to industry (consumer goods), 15% to social services. Reasoning: (1) Food deficit 10% → wage-goods constraint binds; agriculture must grow > population growth. (2) Employment elasticity: agriculture ≈ 0.5, industry ≈ 0.2 per unit capital; with 65% workforce in agriculture, labour absorption priority demands agri investment. (3) Capital-output ratio 3 vs 5 → agriculture gives 67% more output per unit capital. (4) Savings 7% → g = 7/3 = 2.3% achievable in agri vs 1.4% in industry. A poor answer splits equally \"for balance\" ignoring that initial conditions (food deficit, labour surplus) make balanced allocation dynamically inconsistent — industry would stall without wage-goods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_003",
+   "title": "c7_eco_ch02_003",
+   "questions": [
+    {
+     "q": "Which type of market is a village weekly market (haat) where local farmers sell vegetables directly to nearby villagers?",
+     "a": "The correct answer is a local market. A student who answers \"national market\" has a misconception that any market selling food items is automatically national, failing to understand that the geographic reach of buyers and sellers is restricted to a single village or neighborhood.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a handloom weaver from a small town in Odisha sell sarees to customers in Delhi and Mumbai today, whereas fifty years ago they could only sell within their district?",
+     "a": "The correct answer is that improvements in transport networks (like expressways and railways) and communication networks (like the internet and e-commerce platforms) have expanded the market's reach from regional to national. A student who answers \"because the sarees became smaller\" shows a failure to connect infrastructure development with the expansion of market boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "An organic honey farmer in the Nilgiri hills produces 500 kilograms of honey a year. 50 kg is sold to tourists visiting the local town, 200 kg is distributed to stores across Tamil Nadu, and 250 kg is exported to customers in Europe via an online export portal. Categorize the 250 kg sold to Europe into its proper market type and explain why it does not fit the local market category.",
+     "a": "The correct answer is that the 250 kg sold to Europe operates in a global market. Working steps: 1) Identify the buyer's location (Europe) and seller's location (India); 2) Note that exchange crosses international borders; 3) Conclude that because the distance and regulatory framework span multiple countries, it transcends local and national boundaries. A student who categorizes this as a local market confuses the point of production with the geographic scope of distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the impact of a new national highway connecting remote agricultural districts to metropolitan cities on the pricing of perishable fruits like strawberries. How does this shift the market boundary?",
+     "a": "The correct answer is that the new highway expands the market from a local/regional market to a national market, stabilizing prices and reducing local wastage because farmers can now reach distant urban consumers before the fruit spoils. A student who thinks transport infrastructure only affects local markets fails to analyze how physical infrastructure connects isolated economic zones into a unified national market.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"With the rise of the internet, local markets will completely disappear and all buying and selling will become global.\" Is this statement economically sound?",
+     "a": "The correct answer is that the argument is economically unsound because certain goods and services—such as fresh haircuts, local bakery items, or neighborhood plumbing repairs—inherently require face-to-face interaction and cannot be substituted by global digital shipping. A student who agrees with the statement ignores the distinction between tradable digital/manufactured goods and non-tradable local personal services.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a classification scheme for a newly established district cooperative that sells milk locally, processed butter regionally within the state, and specialized cheese nationally across India. Describe the infrastructure required for each tier.",
+     "a": "The expected answer should correctly assign milk to a local market requiring basic two-wheeler transport, butter to a regional market requiring refrigerated vans and state highways, and cheese to a national market requiring cold-chain logistics and national transport networks. A poor answer lumps all products into a single market category without considering product shelf-life and transport requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

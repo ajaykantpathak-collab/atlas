@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_04_002",
+   "title": "c12_hin_a_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define \"narrative arc\" in the context of a narrative poem. List its five standard stages in order.",
+     "a": "A narrative arc is the structural framework of a story comprising five stages: (1) Exposition — introduces setting, time, and initial situation; (2) Rising Action — introduces conflict or complication; (3) Climax — moment of highest tension or turning point; (4) Falling Action — consequences of the climax unfold; (5) Resolution — new equilibrium or closure. A wrong answer (e.g., listing \"beginning, middle, end\" or confusing with thematic progression) reveals the student treats poems as static images rather than temporal sequences — a Class 11 carry-over where lyrical poems dominated.",
+     "self_check": true
+    },
+    {
+     "q": "In चुकजल, the poem moves from \"ओलार\" (buzzing activity) at the well to \"एक ठहरी हुई साँस\" (a paused breath) in the final stanza. Explain in your own words how this shift represents a structural movement from rising action to resolution. Why does the poet *delay* the moment of stillness until the end?",
+     "a": "The opening stanzas pile sensory details (bucket descending, water splashing, ropes creaking) creating kinetic energy — this is rising action. The final stanza's stillness (\"वह ठहरी हुई साँस\") resolves that energy by freezing the motion into a reflective moment. The delay forces the reader to experience the village's rhythm *before* granting the epiphany. A wrong answer focusing only on \"calm vs noise\" misses the *temporal* function: structure controls *when* the reader receives insight, not just *what* the insight is.",
+     "self_check": true
+    },
+    {
+     "q": "Given this 4-line excerpt from an unseen narrative poem:  \n\"पहले आया सन्नाटा, फिर पदचाप / फिर दरवाज़ा खुला, फिर कोई न आया / फिर धूप झुकी दीवार पर, फिर छाया / फिर रात ने गिने तारे, फिर सवेरा आया\"  \nIdentify the narrative stage of each line using the five-stage arc. Justify your mapping for line 2 and line 4.",
+     "a": "Line 1: Exposition (establishes silence/emptiness). Line 2: Rising Action (door opens but absence creates tension — \"कोई न आया\" is the complication). Line 3: Climax (sunlight shifting marks peak visual transformation). Line 4: Falling Action → Resolution (night counting stars = reflection; dawn = new equilibrium). Justification: Line 2 introduces *unfulfilled expectation* (classic complication). Line 4 shows *time passing without resolution of the visitor*, accepting cyclical nature — resolution without closure. Wrong answers that label line 2 as \"climax\" confuse surprise with structural peak; line 4 as \"climax\" confuses imagery intensity with narrative function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of चुकजल and फ्नेक. Both use repetition (\"एक ठहरी हुई साँस\" / \"पिता-पिता — उसने कहा\"), but to opposite structural effects. Analyze how repetition functions as a *structural hinge* in each poem.",
+     "a": "In चुकजल, repetition (\"एक ठहरी हुई साँस\" echoes earlier \"ओलार\") creates a *circular structure* — the well's activity returns to stillness, mirroring the village's eternal rhythm. The hinge connects end to beginning. In फ्नेक, \"पिता-पिता\" repeats at increasing intervals (stanza 1 → stanza 3 → final cry) creating a *spiral structure* — each repetition escalates the child's urgency and the father's absence, driving toward irreversible loss. The hinge *propels* time forward. Wrong answers that say \"both show emphasis\" miss how repetition's *placement* in the sequence determines whether it closes or opens the narrative.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"फ्नेक has no real climax — the father never appears, so nothing *happens*.\" Evaluate this claim using narrative structure theory. Is the poem's climax internal or external? Defend your judgment with two structural evidence points.",
+     "a": "The claim confuses *external event* with *narrative climax*. The climax is internal: the child's realization (\"मैंने पहली बार जाना / फनेग पिता नहीं है\") — an epistemological turning point. Evidence 1: The poem's longest stanza (stanza 4) coincides with this realization — structural weight = thematic weight. Evidence 2: The final repetition \"पिता-पिता\" shifts from address to invocation — syntax change marks the psychological climax. Wrong evaluations that demand a physical confrontation impose novelistic expectations on poetic narrative, where climax = moment of maximum *perceptual change*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-stanza narrative poem outline (2 lines per stanza) on \"A farmer waiting for rain\" that uses *only* structural sequencing (no adjectives, no metaphors) to move from hope to acceptance. Label each stanza's narrative stage.",
+     "a": "Stanza 1 (Exposition): \"Sky turns white at noon / Oxen rest under neem\"  \nStanza 2 (Rising Action): \"Cloud gathers on horizon / Wind lifts dust in spirals\"  \nStanza 3 (Climax): \"First drop hits dry earth / Second drop misses the bucket\"  \nStanza 4 (Falling Action): \"Cloud passes without breaking / Shadow returns to field\"  \nStanza 5 (Resolution): \"Farmer unties oxen / Walks home with empty pot\"  \nA poor answer uses emotional language (\"sad farmer\", \"cruel sky\") revealing the misconception that structure = theme. Structure *is* the sequence of concrete actions; theme emerges *from* the sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

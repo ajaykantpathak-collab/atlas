@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_009",
+   "title": "c12_ip_cbse_03_009",
+   "questions": [
+    {
+     "q": "What are the three distinct phases of a circuit-switched communication session, and what happens in each phase?",
+     "a": "The three phases are: (1) Connection Setup — a dedicated path is established end-to-end via signaling; (2) Data Transfer — data flows continuously over the reserved path with constant latency; (3) Connection Teardown — the path is released and resources freed. A wrong answer (e.g., \"setup, routing, teardown\") reveals confusion with packet switching's per-packet routing. Students often think circuit switching involves routing decisions during transfer — it does not; the route is fixed at setup.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why packet switching is more efficient than circuit switching for bursty data traffic like web browsing.",
+     "a": "Web browsing is bursty: short data bursts (HTTP requests/responses) separated by long idle periods (user reading). Circuit switching reserves bandwidth for the entire session, wasting it during idle times. Packet switching shares links statistically — packets from many users interleave on the same link, so idle periods of one user are filled by others' packets. A wrong answer (\"packet switching is faster\") misses the core concept: efficiency comes from statistical multiplexing, not speed. Students often confuse \"efficiency\" with \"latency\" — packet switching actually has higher per-packet latency due to store-and-forward delays.",
+     "self_check": true
+    },
+    {
+     "q": "A 1 Mbps link is shared by 10 users. Each user is active 10% of the time at 100 kbps when active. Calculate the probability that more than 10 users are simultaneously active (assume independence). Would circuit switching or packet switching handle this better? (Use binomial approximation: P(X>10) ≈ 0 for n=10, p=0.1)",
+     "a": "Circuit switching requires dedicating 100 kbps per user → 10 users need 1 Mbps exactly. But if even one extra user becomes active (11 users), demand = 1.1 Mbps > 1 Mbps → blocking. Probability of >10 active users is effectively 0 for n=10, so circuit switching works here. However, packet switching handles it better because it allows statistical multiplexing: average load = 10 users × 0.1 × 100 kbps = 100 kbps, far below 1 Mbps. Even with bursts, queues absorb temporary overload. A wrong answer (\"circuit switching is better because no queueing\") ignores that circuit switching would require 10 Mbps capacity to guarantee no blocking for 10 users at peak — a 10× overprovisioning. Students often forget circuit switching must provision for peak rate, not average rate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a single link failure on an ongoing circuit-switched call versus a packet-switched TCP connection. Which recovers faster and why?",
+     "a": "Circuit switching: the dedicated path is broken → call drops immediately. Recovery requires new connection setup (signaling, path reservation) — takes seconds. Packet switching: TCP detects loss via timeout/duplicate ACKs, retransmits lost packets, and routing protocols (OSPF/BGP) converge to a new path — recovery in milliseconds to seconds. Packet switching wins because routing is decentralized and per-packet; no end-to-end reservation to tear down. A wrong answer (\"both drop equally\") misses that packet switching's connectionless network layer (IP) reroutes around failures transparently to TCP. Students often think TCP is circuit-switched because it's \"connection-oriented\" — but TCP connections are logical, not physical reservations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Packet switching is always better than circuit switching for real-time applications like VoIP because it uses bandwidth more efficiently.\" Defend or refute with two specific technical arguments.",
+     "a": "Refute. Argument 1: Packet switching introduces variable delay (jitter) due to queueing at routers, which degrades VoIP quality unless complex QoS (priority queuing, jitter buffers) is added. Circuit switching provides constant latency and zero jitter by design. Argument 2: Packet switching has no admission control — congestion can cause packet loss and uncontrolled delay. Circuit switching uses admission control (busy signal) to guarantee QoS for admitted calls. A wrong answer (\"packet switching is better because it's modern\") shows no understanding of QoS trade-offs. Students often equate \"efficient\" with \"better for all applications\" — but real-time apps need predictability, not just average efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid network scenario where circuit switching and packet switching coexist optimally. Specify which traffic uses which, and justify with one quantitative metric for each.",
+     "a": "Example: A corporate WAN with dedicated leased lines (circuit switched) for ERP database replication (needs guaranteed 50 Mbps, <5 ms latency, zero loss) and IPsec VPN over Internet (packet switched) for email/web (bursty, tolerant of 100 ms latency). Metric for circuit: committed information rate (CIR) = 50 Mbps with 99.999% availability. Metric for packet: average throughput > 10 Mbps with <1% packet loss. A poor answer (\"use circuit for voice, packet for data\") is vague — must specify traffic characteristics and measurable QoS targets. Students often propose hybrids without quantitative justification, missing that engineering decisions require metrics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_007",
+   "title": "c11_acc_cbse_03_007",
+   "questions": [
+    {
+     "q": "What are the five columns of a standard journal format, and in which column is the page number of the ledger account recorded?",
+     "a": "The five columns are: Date, Particulars, L.F. (Ledger Folio), Debit Amount, Credit Amount. The L.F. column records the page number of the ledger account where the entry is posted. A wrong answer (e.g., saying narration is a column, or that L.F. is filled at entry time) reveals the student confuses journal format with ledger format or doesn't understand the posting sequence.",
+     "self_check": true
+    },
+    {
+     "q": "In a journal entry, why is the account to be credited written on the second line with a 'To' prefix and indentation, while the debited account is written first with 'Dr.' at the end?",
+     "a": "This format visually distinguishes debit from credit accounts, prevents errors in identification, and follows the double-entry convention where debit (left side) is recorded first. The 'To' prefix and indentation make credit accounts instantly recognizable. A wrong answer (e.g., \"it's just tradition\" or \"to save space\") shows the student memorizes format without understanding its error-prevention purpose in manual accounting systems.",
+     "self_check": true
+    },
+    {
+     "q": "A business purchases furniture for ₹25,000, paying ₹5,000 cash immediately and the balance on credit from M/s Modern Furnishings. Write the complete compound journal entry with narration.",
+     "a": "Furniture A/c Dr. 25,000\n    To Cash A/c 5,000\n    To Modern Furnishings A/c 20,000\n    (Purchased furniture, paid partial cash, balance on credit)\nSteps: 1) Identify 3 accounts: Furniture (asset ↑), Cash (asset ↓), Modern Furnishings (liability ↑). 2) Apply rules: Debit Furniture, Credit Cash, Credit Modern Furnishings. 3) Write debit account first, credit accounts indented with 'To'. 4) Narration explains the transaction. Wrong answer (e.g., two separate entries, or debiting Modern Furnishings) reveals inability to handle compound entries with mixed payment modes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a simple journal entry and a compound journal entry. Give one example of each where the transaction involves the same accounts but differs in the number of accounts affected.",
+     "a": "Simple entry: Only two accounts affected (one debit, one credit). Example: Goods sold for cash ₹10,000 → Cash A/c Dr. 10,000 To Sales A/c 10,000. Compound entry: More than two accounts affected (multiple debits/credits). Example: Goods sold for ₹10,000, ₹6,000 cash received, ₹4,000 on credit → Cash A/c Dr. 6,000, Debtors A/c Dr. 4,000 To Sales A/c 10,000. Wrong answer (confusing compound entry with multiple simple entries) shows the student doesn't grasp that a single transaction with multiple accounts requires one compound entry, not separate entries.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the L.F. column is filled at the time of posting to ledger, we can leave it blank forever if we never post to ledger.\" Evaluate this statement and justify your position.",
+     "a": "The statement is incorrect. The L.F. column serves as a critical cross-reference and audit trail — it proves the entry has been posted and allows tracing from journal to ledger and back. Leaving it blank permanently breaks the accounting cycle, violates the principle of verifiability, and would fail an audit. Even in computerised systems, the posting reference (equivalent of L.F.) is auto-generated. A wrong evaluation (agreeing with the student) reveals misunderstanding of the journal-ledger relationship and the purpose of accounting controls.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario involving a compound journal entry with at least three accounts where one account is an expense, one is an asset, and one is a liability. Write the complete journal entry with proper format and narration.",
+     "a": "Scenario: A firm purchases a delivery van for ₹5,00,000, pays ₹1,00,000 cash, takes a loan of ₹3,50,000 from HDFC Bank, and pays ₹50,000 registration charges (expense) by cheque.\nEntry:\nVehicle A/c Dr. 5,00,000\nRegistration Expenses A/c Dr. 50,000\n    To Cash A/c 1,00,000\n    To HDFC Bank Loan A/c 3,50,000\n    To Bank A/c 50,000\n    (Purchased delivery van, paid registration, part cash, part loan)\nGood answer shows correct account classification, proper debit/credit, compound format, and meaningful narration. Poor answer (missing expense, wrong liability account, no narration) reveals inability to synthesize multiple concepts into one entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

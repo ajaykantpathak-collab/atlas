@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_01_014",
+   "title": "c11_hin_ar_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does the 'P' in PEEL stand for, and what is its specific function in a board exam answer for Hindi literature?",
+     "a": "'P' stands for **Point** - a clear, one-sentence thesis statement that directly answers the question (e.g., \"व्यासिंह का प्रतिरोध मौन असहयोग के रूप में प्रकट होता है\"). A wrong answer like \"Point means the main idea of the story\" reveals the student confuses *structural component* with *content summary* and will likely write narrative retelling instead of analytical argument.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"व्यासिंह बहुत बहादुर थे क्योंकि उन्होंने दरोगा को सलाम नहीं किया और नौकरी छोड़ दी।\" Identify which PEEL component is missing and explain why this answer would score low in a Class 11 board exam.",
+     "a": "The answer has **Point** (bravery) and **Evidence** (refused salute, quit job) but completely lacks **Explanation** (how/why these actions constitute resistance) and **Link** (connection to colonial oppression theme). This reveals the student treats evidence as self-explanatory - a Class 10 habit. In Class 11, examiners require explicit analytical commentary: *why* refusing salute challenges colonial hierarchy, *how* job sacrifice transforms personal loss into collective dignity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL framework to answer: \"उद का नक्शा में व्याकुल व्यासिंह का चरित्र-चित्रण कीजिए।\" Write only the **Point** and **Evidence** sentences for the first trait (fearlessness).",
+     "a": "**Point:** व्याकुल व्यासिंह का चरित्र निडरता और स्वाभिमान की प्रतिमूर्ति है।  \n**Evidence:** जब दरोगा ने उन्हें सलाम करने को कहा, तो उन्होंने स्पष्ट कहा - \"सरकार हम नहीं जानते\" और नौकरी छोड़ने का निर्णय लिया।  \n*Reasoning check:* Evidence is specific (quotes dialogue, references action), not vague (\"wo bahadur the\"). A wrong answer using \"वह बहुत बहादुर थे\" as evidence shows confusion between *trait* and *textual proof*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two Explanation sentences for the same evidence (Vyaksihnhu quitting job):  \n(A) \"इससे पता चलता है कि वे डरे नहीं।\"  \n(B) \"नौकरी त्यागकर व्यासिंह ने औपनिवेशिक तंत्र की आर्थिक बेड़ियों को तोड़ा, जिससे गाँव वालों में प्रतिरोध की चेतना जागी।\"  \nAnalyze which meets Class 11 analytical depth and why.",
+     "a": "**(B)** meets Class 11 depth because it: (1) uses precise terminology (\"औपनिवेशिक तंत्र\", \"आर्थिक बेड़ियाँ\"), (2) explains *mechanism* (how job resignation breaks economic control), (3) extends impact beyond individual to collective (\"गाँव वालों में चेतना\") - linking to theme. **(A)** is Class 8 level: states the obvious, uses no literary vocabulary, treats character in isolation. Students choosing (A) typically confuse *narration* with *analysis*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a 6-mark question on theme, writing three separate PEEL paragraphs (each with different evidence) is better than one long paragraph with three evidences.\" Defend your judgment with board exam marking logic.",
+     "a": "**Judgment: True.** CBSE marking schemes allocate marks per *distinct analytical point* (typically 2 marks per PEEL unit: 1 for Point+Evidence, 1 for Explanation+Link). Three separate paragraphs make each point *visibly distinct* to the examiner, reducing risk of missing a point in a dense block. One long paragraph risks: (a) examiner overlooking the second/third evidence, (b) Link sentences getting blurred, (c) word-limit violation. A student arguing \"but it flows better\" prioritizes aesthetics over marking reality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-sentence **Link** sentence that connects Vyaksihnhu's final surrender (going to jail) to the story's central theme, using the phrase \"मानवीय गरिमा\" (human dignity).",
+     "a": "**Expected answer:** \"अंततः व्यासिंह का कारावास स्वीकार करना सिद्ध करता है कि औपनिवेशिक दमन के सम्मुख मानवीय गरिमा केवल प्रतिरोध में नहीं, बल्कि परिणाम भोगने के साहस में निहित है।\"  \n*Criteria:* Must (1) reference the specific final action, (2) use the required phrase, (3) articulate a *thematic insight* (not plot summary). A poor answer: \"इससे पता चलता है कि मानवीय गरिमा महत्वपूर्ण है\" - circular, no textual anchoring, no analytical progression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

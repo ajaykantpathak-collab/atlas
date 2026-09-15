@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_006",
+   "title": "c11_ps_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the primary constitutional basis for political rights in India, and which article guarantees universal adult franchise?",
+     "a": "The primary constitutional basis for political rights in India is Article 326, which guarantees universal adult franchise (right to vote). Additionally, Article 19(1)(a) (freedom of speech and expression) and Article 19(1)(c) (freedom to form associations) support political participation. A wrong answer (e.g., citing Article 21 or Article 14) reveals confusion between civil rights (protection of life and equality) and political rights (participation in governance).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the right to a fair trial (Article 21) is considered a civil right and not a political right, even though it involves the state.",
+     "a": "The right to a fair trial is a civil right because it protects an individual's liberty and due process from arbitrary state action, ensuring equal treatment under law. It does not directly enable participation in governance (like voting or contesting elections). A wrong answer that equates any state-related right as political reveals a misunderstanding that civil rights are about protection from the state, while political rights are about participation in the state.",
+     "self_check": true
+    },
+    {
+     "q": "A journalist is arrested for criticizing government policy. Identify which specific civil and political rights are violated, citing constitutional articles.",
+     "a": "The arrest violates the civil right to freedom of speech and expression (Article 19(1)(a)) and the civil right to protection against arbitrary arrest (Article 22). It also violates the political right to participate in public discourse and hold the government accountable, which is derived from Article 19(1)(a) as a political right. A wrong answer that only cites one category shows inability to see the overlap: civil liberties enable political participation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of civil rights and political rights in protecting minority communities. How do they work together?",
+     "a": "Civil rights protect minorities from discrimination (Article 15, 16) and allow them to maintain culture (Article 29). Political rights (Article 326, 330, 332) ensure representation in legislatures. Together, civil rights create the freedom to organize, while political rights translate that into policy influence. A wrong answer that treats them as separate spheres misses their interdependence: without civil liberties, political participation is meaningless; without political power, civil rights can be eroded.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country can have political rights without civil rights, but not civil rights without political rights.\" Use Indian constitutional examples.",
+     "a": "The statement is false. A country can have political rights (e.g., elections) without full civil rights (e.g., authoritarian regimes with limited free speech). Conversely, civil rights can exist without full political rights (e.g., colonial India had some civil liberties but no universal franchise). In India, both are constitutionally guaranteed and mutually reinforcing. A wrong answer that agrees with the statement shows a lack of historical and comparative perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a student council election manifesto that distinguishes between the civil rights and political rights of students in school, and proposes one measure to strengthen each.",
+     "a": "A good answer will define civil rights in school context (e.g., freedom of expression, fair disciplinary process) and political rights (e.g., right to vote, stand for election, form student groups). It will propose a measure for each (e.g., a student grievance cell for civil rights; a transparent election code for political rights). A poor answer conflates the two or proposes measures that don't match the category.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

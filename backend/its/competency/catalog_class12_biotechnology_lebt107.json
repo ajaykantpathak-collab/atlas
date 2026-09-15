@@ -1,0 +1,401 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 7,
+ "chapter_title": "Plant Tissue Culture",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt107.1",
+   "title": "Totipotency and the History of Plant Tissue Culture",
+   "section": "7.1",
+   "definition": "Every living plant cell keeps the totipotent power to regenerate a whole plant, the intuition Haberlandt advanced in 1902 that earned him the fatherhood of the field; kinetin arrived in 1955, the Skoog-Miller 1957 ratio rule tied organ fate to hormone balance, Murashige and Skoog's 1962 salt-rich medium became the standard, and Guha and Maheshwari's 1964 anther-culture haploids opened the door to somatic hybrids, Pomato of 1978 and the somaclonal variation named in 1981.",
+   "formula": "-",
+   "key_idea": "One vegetative cell can rebuild the entire plant - the promise that turned tissue culture into both a science and an industry.",
+   "textbook_ref": "lebt107.txt section 7.1, Box 1",
+   "question_patterns": [
+    "who is regarded as the father of plant tissue culture and which 1902 idea earned that title",
+    "define totipotency and explain why it underlies all plant tissue culture",
+    "which 1957 hypothesis tied root and shoot differentiation to the auxin kinetin ratio",
+    "why did the 1962 Murashige and Skoog medium become the most widely used formulation",
+    "who produced the first androgenic haploid Datura plants and through which culture",
+    "arrange the landmarks from kinetin discovery to the naming of somaclonal variation in date order"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the principle",
+     "explain": "Totipotency lets a differentiated vegetative cell divide and redifferentiate into any specialised cell or whole plant."
+    },
+    {
+     "step": 2,
+     "action": "line up the milestones",
+     "explain": "1902 concept, 1955 kinetin, 1957 ratio rule, 1962 MS medium, 1964 haploid Datura, 1972 somatic hybrid."
+    },
+    {
+     "step": 3,
+     "action": "connect to applications",
+     "explain": "Each landmark enabled a modern use - regeneration, haploid breeding, somatic hybridisation and variation screening."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who advanced the totipotency intuition in 1902: Haberlandt or Skoog?",
+     "a": "Haberlandt"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.2",
+   "title": "Explant Preparation and Culture Steps",
+   "section": "7.2",
+   "definition": "Culturing starts with an explant - meristem, leaf, cotyledon, hypocotyl or embryo - surface-sterilised in sodium hypochlorite, rinsed and inoculated onto sterile medium; the tissue then dedifferentiates into callus, redifferentiates organ primordia through organogenesis or follows somatic embryogenesis, with regenerated shoots rooted and plantlets hardened toward the field, immature embryos responding best among explant choices.",
+   "formula": "-",
+   "key_idea": "Sterilise, inoculate, dedifferentiate, redifferentiate, root and harden - the pipeline from explant to field-ready plantlet.",
+   "textbook_ref": "lebt107.txt section 7.2, Fig. 7.1",
+   "question_patterns": [
+    "list the sequential steps of plant tissue culture from explant selection to field transfer",
+    "define explant and name five tissues commonly used as explants",
+    "which disinfectant is most commonly used for surface sterilisation of explants",
+    "differentiate organogenesis from somatic embryogenesis as regeneration pathways",
+    "what are dedifferentiation and redifferentiation in a cultured explant",
+    "why do seedling-grown explants not need a second surface sterilisation",
+    "rank immature embryos apical meristem and leaf explants by their responsiveness in culture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prepare aseptic material",
+     "explain": "Select the explant and disinfect with sodium hypochlorite, then rinse in sterile water."
+    },
+    {
+     "step": 2,
+     "action": "induce growth",
+     "explain": "Inoculate onto medium; cells dedifferentiate into callus and then redifferentiate shoots, roots or somatic embryos."
+    },
+    {
+     "step": 3,
+     "action": "finish the plant",
+     "explain": "Excise shoots to rooting medium, then harden plantlets in soil before field transfer."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The starting tissue piece in culture is called an what: explant or implant?",
+     "a": "explant"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.3",
+   "title": "Auxin Cytokinin Balance in Nutrient Media",
+   "section": "7.3",
+   "definition": "Media blend macronutrients, micronutrients, amino acids, B vitamins, two to five percent sucrose, gelling agar, optional antibiotics and minute doses of five hormone classes; the auxin-cytokinin ratio rules morphogenesis - excess auxin roots, excess cytokinin shoots, and intermediate balance proliferates callus - while a pH set around 5.8-6.0 keeps the gel firm and the salts soluble.",
+   "formula": "hormone_ratio = auxin_level / kinetin_level",
+   "key_idea": "Divide auxin by cytokinin - a quotient above one pushes roots, below one pushes shoots, near one keeps callus.",
+   "textbook_ref": "lebt107.txt section 7.3, Box 2",
+   "question_patterns": [
+    "a medium carries 2 mg per litre auxin and 0.5 mg per litre kinetin - compute the ratio and predict the organ that regenerates",
+    "which hormone ratio favours shoot regeneration and which favours rooting",
+    "at what concentration is sucrose added to plant tissue culture media",
+    "why is the pH of nutrient media adjusted to about 5.8 to 6.0",
+    "list the macronutrients and micronutrients of a typical plant tissue culture medium",
+    "which carbon source is considered best for in vitro plant cultures and why",
+    "what happens to medium hardness when pH rises or falls"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the hormones",
+     "explain": "The auxin-to-cytokinin quotient predicts the morphogenic fate.",
+     "compute": "hormone_ratio = auxin_level / kinetin_level"
+    },
+    {
+     "step": 2,
+     "action": "measure the imbalance",
+     "explain": "A positive difference marks auxin dominance and rooting; negative marks shoot dominance.",
+     "compute": "excess = auxin_level - kinetin_level"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Excess auxin in the medium pushes what organ: roots or shoots?",
+     "a": "roots"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.4",
+   "title": "MS Medium Strength versus White Medium",
+   "section": "7.3 Box 2",
+   "definition": "Murashige and Skoog's formulation is a salt powerhouse next to White's classic recipe: potassium nitrate runs 1900 against 80 milligrams per litre and ammonium nitrate adds 1650 where White has none, thiamine sits at 0.5 rather than 0.01, and sucrose rises from 20 to 30 grams per litre - richness that lets MS culture a far wider range of species.",
+   "formula": "ms_fold = ms_conc / white_conc",
+   "key_idea": "Divide each MS concentration by its White's value to see how much stronger the modern medium is.",
+   "textbook_ref": "lebt107.txt section 7.3 Box 2",
+   "question_patterns": [
+    "MS medium holds 1900 mg per litre potassium nitrate against White's 80 - compute the fold difference",
+    "how many extra milligrams per litre of potassium nitrate does MS supply over White's medium",
+    "which nitrogen salts appear only in MS medium and not in White's",
+    "compare the sucrose levels of White's and MS media in grams per litre",
+    "which vitamins does MS supply at higher levels than White's medium",
+    "why are higher salt concentrations useful in a general-purpose plant tissue culture medium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the concentrations",
+     "explain": "The quotient shows the fold enrichment of MS over White's.",
+     "compute": "ms_fold = ms_conc / white_conc"
+    },
+    {
+     "step": 2,
+     "action": "measure the addition",
+     "explain": "The difference gives the extra milligrams per litre supplied.",
+     "compute": "extra_mg = ms_conc - white_conc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "MS medium's potassium nitrate runs how many milligrams per litre: 1900 or 80?",
+     "a": "1900"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.5",
+   "title": "Micropropagation and Synthetic Seeds",
+   "section": "7.5",
+   "definition": "Micropropagation clones elite, rare or non-fertile plants season-free in flasks - India alone regenerates over 400 million banana plantlets a year - while synthetic seeds encapsulate somatic embryos in calcium alginate coats loaded with nutrients and regulators, storing and shipping clonal stock of carrot, grape or sandalwood without any seed at all.",
+   "formula": "-",
+   "key_idea": "Multiply one elite genotype into millions, then pack the embryos in alginate beads that behave like true seeds.",
+   "textbook_ref": "lebt107.txt section 7.5, Fig. 7.3",
+   "question_patterns": [
+    "what is micropropagation and how does it beat traditional vegetative propagation",
+    "which crops illustrate successful micropropagation in India and how many banana plantlets are raised yearly",
+    "describe the structure of an artificial seed and the material of its coat",
+    "why are synthetic seeds useful for hybrid varieties and elite genotypes",
+    "which plants have been propagated successfully through artificial seed production",
+    "why is micropropagation independent of season while cutting-based multiplication is not"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the clone",
+     "explain": "Sterile explants regenerate shoots repeatedly under controlled light and temperature."
+    },
+    {
+     "step": 2,
+     "action": "encapsulate embryos",
+     "explain": "Somatic embryos drop into calcium alginate with nutrients and growth regulators."
+    },
+    {
+     "step": 3,
+     "action": "store and sow",
+     "explain": "Synthetic seeds keep and germinate like normal seed for mass clonal propagation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Synthetic seeds encapsulate somatic embryos in coats of what: calcium alginate or plastic?",
+     "a": "calcium alginate"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.6",
+   "title": "Haploids Double Haploids and Somatic Hybrids",
+   "section": "7.5",
+   "definition": "Anther, pollen or ovary culture yields haploids whose colchicine doubling produces homozygous diploids that expose recessive traits for breeders; protoplasts stripped by cellulase and pectinase fuse under polyethylene glycol across species barriers - Carlson's 1972 Nicotiana hybrids began the era, Pomato mixed potato with tomato, and cybridisation even pairs one parent's nucleus with another's mitochondria or chloroplasts.",
+   "formula": "doubled_count = haploid_count * 2",
+   "key_idea": "Double the haploid chromosome set with colchicine and the clone turns homozygous diploid; fuse protoplasts and species barriers fall.",
+   "textbook_ref": "lebt107.txt section 7.5, Fig. 7.4",
+   "question_patterns": [
+    "a haploid rice plant carries 12 chromosomes - how many chromosomes does its colchicine-doubled derivative carry",
+    "how are haploid plants produced through anther pollen or ovary culture",
+    "why are double haploid plants valuable in cross breeding programmes",
+    "describe somatic hybridisation from protoplast isolation to hybrid plant regeneration",
+    "which enzyme preparations free plant protoplasts from their cell walls",
+    "what is cybridisation and which cytoplasmic genomes can it combine",
+    "which 1978 hybrid combined potato and tomato through somatic fusion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the set",
+     "explain": "Colchicine converts each haploid chromosome count to diploid.",
+     "compute": "doubled_count = haploid_count * 2"
+    },
+    {
+     "step": 2,
+     "action": "restore the diploid status",
+     "explain": "The doubled plant is a homozygous diploid ready for crossing.",
+     "compute": "homozygous_pairs = doubled_count / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which chemical doubles haploid chromosome sets: colchicine or caffeine?",
+     "a": "colchicine"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.7",
+   "title": "Meristem Culture for Virus-Free Plants",
+   "section": "7.5",
+   "definition": "Viruses scatter unevenly through plant bodies and leave the apical and axillary meristems clean, so excising a meristem tip shorter than one millimetre and culturing it regenerates sugarcane, banana or potato stock entirely free of virus - rescuing yields in clonally propagated crops where every infected cutting infects its whole lineage.",
+   "formula": "-",
+   "key_idea": "Take the tiniest meristem - under a millimetre - where no virus has reached, and grow a clean clone from it.",
+   "textbook_ref": "lebt107.txt section 7.5 (Production of virus-free plants)",
+   "question_patterns": [
+    "why are apical and axillary meristems free of virus particles",
+    "what is the maximum meristem length used as explant for virus-free plant production",
+    "name three clonally propagated crops rescued through meristem culture",
+    "why is virus elimination especially critical for vegetatively propagated crops",
+    "how does meristem culture differ from ordinary micropropagation in its explant choice",
+    "what losses do virus-infested crop plants suffer in productivity and quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "excise the tip",
+     "explain": "Dissect a sub-millimetre apical or axillary meristem under sterile conditions."
+    },
+    {
+     "step": 2,
+     "action": "regenerate",
+     "explain": "Culture the tip onto medium to rebuild a whole plantlet."
+    },
+    {
+     "step": 3,
+     "action": "index and multiply",
+     "explain": "Test the plantlets for virus, then bulk up the clean stock by micropropagation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Meristem tips shorter than what length yield virus-free plants: one millimetre or one centimetre?",
+     "a": "one millimetre"
+    }
+   ]
+  },
+  {
+   "id": "lebt107.8",
+   "title": "Somaclonal Variation and Secondary Metabolites",
+   "section": "7.5",
+   "definition": "Culture both creates and harvests plant chemistry: somaclonal variations - the term Larkin and Scowcroft coined in 1981 - pass somatic mutations into regenerated plants, a bane for clonal fidelity but a boon yielding disease-resistant sugarcane, banana and tomato cultivars; meanwhile cell suspensions and hairy roots overproduce secondary metabolites from artemisinin and azadirachtin to taxol, shikonin and vincristine, independent of season and without stripping wild populations.",
+   "formula": "-",
+   "key_idea": "Culture-induced variants can be screened as new cultivars, and cultured cells can out-produce the whole plant in valuable metabolites.",
+   "textbook_ref": "lebt107.txt section 7.5, Box 3",
+   "question_patterns": [
+    "define somaclonal variation and name the scientists who introduced the term",
+    "why can somaclonal variation be both a boon and a bane in tissue culture",
+    "name two disease-resistant somaclonal cultivars released for cultivation",
+    "list any four secondary metabolites produced industrially through plant cell culture with their plant sources",
+    "why is cell culture based production of alkaloids preferable to overharvesting wild plants",
+    "what is the hairy root system and why does it suit secondary metabolite production",
+    "which anticancer compounds are produced from Catharanthus and Taxus cultures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "generate variability",
+     "explain": "Long-term callus or suspension culture accumulates and expresses somatic mutations in regenerants."
+    },
+    {
+     "step": 2,
+     "action": "screen the somaclone",
+     "explain": "Select regenerants with agronomically useful novel phenotypes."
+    },
+    {
+     "step": 3,
+     "action": "farm the chemistry",
+     "explain": "Parallel cell or hairy-root cultures scale up secondary metabolite yields under controlled conditions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who coined the term somaclonal variation in 1981: Larkin and Scowcroft, or Haberlandt?",
+     "a": "Larkin and Scowcroft"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt107.txt section 7.3 (auxin and kinetin ratio controls organ fate)",
+   "concept": "lebt107.3",
+   "question_type": "compute",
+   "question_pattern": "A callus induction medium carries {auxin_level} mg per litre auxin and {kinetin_level} mg per litre kinetin. Compute the auxin-to-cytokinin ratio and the auxin excess, then state the expected morphogenic outcome.",
+   "extracted_variables": {
+    "auxin_level": "auxin concentration in mg per litre",
+    "kinetin_level": "kinetin concentration in mg per litre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the hormones",
+     "explain": "The ratio decides root versus shoot versus callus.",
+     "compute": "hormone_ratio = auxin_level / kinetin_level"
+    },
+    {
+     "step": 2,
+     "action": "subtract the levels",
+     "explain": "A positive difference marks auxin dominance; negative marks cytokinin dominance.",
+     "compute": "excess = auxin_level - kinetin_level"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt107.txt Box 2 (KNO3 1900 mg per litre in MS versus 80 in White's)",
+   "concept": "lebt107.4",
+   "question_type": "compute",
+   "question_pattern": "MS medium supplies {ms_conc} mg per litre of potassium nitrate while White's medium supplies {white_conc} mg per litre. Find the fold enrichment and the extra milligrams per litre MS provides.",
+   "extracted_variables": {
+    "ms_conc": "concentration in MS medium in mg per litre",
+    "white_conc": "concentration in White's medium in mg per litre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the concentrations",
+     "explain": "The quotient gives the fold enrichment of MS.",
+     "compute": "ms_fold = ms_conc / white_conc"
+    },
+    {
+     "step": 2,
+     "action": "subtract the recipes",
+     "explain": "The difference is the extra salt MS contributes.",
+     "compute": "extra_mg = ms_conc - white_conc"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt107-ex1",
+   "source_ref": "lebt107.txt Exercises (questions 1-20)",
+   "questions": [
+    "Define plant tissue culture and describe the components of its nutrient media.",
+    "What are the general steps of plant tissue culture from explant to hardened plantlet?",
+    "Describe the applications of plant tissue culture including micropropagation and synthetic seeds.",
+    "How are somatic hybrids developed and what advantages does somatic hybridisation hold?",
+    "Define explant and list five commonly used explants for plant tissue culture.",
+    "Explain the role of pH in nutrient media and the auxin-cytokinin ratio in organ regeneration.",
+    "Identify which tissues serve as explants, which explant yields virus-free plants, and what cybridisation means.",
+    "Evaluate the assertions on synthetic seed coats and on meristem culture for virus elimination."
+   ]
+  }
+ ]
+}

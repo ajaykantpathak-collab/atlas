@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy203",
+  "concepts": [
+    {
+      "id": "kegy.203.1.1",
+      "questions": [
+        {"q": "Which direct method of probing the crust, besides mining, reaches the interior through deep holes? (one word)", "a": "drilling"},
+        {"q": "Which Russian superdeep borehole is the classic direct probe of the crust? (two words)", "a": "Kola superdeep"},
+        {"q": "Which wave-based indirect source reveals the earth's layered interior? (two words)", "a": "seismic waves"},
+        {"q": "Name one indirect source of the interior besides seismic waves and meteorites. (one word)", "a": "gravitation"},
+        {"q": "Which extraterrestrial visitors serve as indirect samples of planetary material? (one word)", "a": "meteorites"},
+        {"q": "Are mining and drilling direct or indirect sources of the interior? (one word)", "a": "direct"},
+        {"q": "How many indirect sources are named (seismic waves, meteorites, gravitation, magnetic field, density)? (number)", "a": "5"}
+      ]
+    },
+    {
+      "id": "kegy.203.2.1",
+      "questions": [
+        {"q": "Which discontinuity separates the crust from the mantle? (one word)", "a": "Moho"},
+        {"q": "Which discontinuity separates the upper mantle from the lower mantle? (one word)", "a": "Repetti"},
+        {"q": "Which discontinuity lies between the mantle and the core? (one word)", "a": "Gutenberg"},
+        {"q": "The core is composed mainly of nickel and which metal? (one word)", "a": "iron"},
+        {"q": "What are the two divisions of the crust called? (two words)", "a": "sial, sima"},
+        {"q": "How many main layers does the earth divide into (crust, mantle, core)? (number)", "a": "3"},
+        {"q": "Name one rock type of the crust besides igneous and metamorphic. (one word)", "a": "sedimentary"}
+      ]
+    },
+    {
+      "id": "kegy.203.3.1",
+      "questions": [
+        {"q": "What is the point on the surface directly above an earthquake's origin called? (one word)", "a": "epicentre"},
+        {"q": "What is the actual point of origin of an earthquake within the earth called? (one word)", "a": "focus"},
+        {"q": "What waves carry an earthquake's energy through the earth? (two words)", "a": "seismic waves"},
+        {"q": "From which layer does volcanic magma rise? (one word)", "a": "asthenosphere"},
+        {"q": "Along which crustal fractures do most earthquakes occur? (one word)", "a": "faults"},
+        {"q": "Which scales describe the strength of earthquake shaking? (one word)", "a": "intensity"},
+        {"q": "Do earthquakes and volcanoes both connect to the movement of what? (one word)", "a": "plates"}
+      ]
+    }
+  ]
+}

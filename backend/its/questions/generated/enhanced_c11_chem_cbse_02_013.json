@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_013",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_013",
+   "title": "c11_chem_cbse_02_013",
+   "questions": [
+    {
+     "q": "State the four quantum numbers with their symbols and the physical property each describes for an electron in an atom.",
+     "a": "The four quantum numbers are: (1) Principal quantum number (n) - determines the main energy shell, size, and energy of the orbital; (2) Azimuthal quantum number (l) - defines the subshell and orbital shape (s, p, d, f); (3) Magnetic quantum number (mₗ) - specifies the orbital's spatial orientation; (4) Spin quantum number (mₛ) - describes the electron's intrinsic spin orientation (+½ or -½). A wrong answer reveals the student is memorizing symbols without connecting each to its physical meaning, a critical gap for predicting orbital properties and electron configurations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the azimuthal quantum number l cannot have a value equal to or greater than the principal quantum number n. Use the relationship between radial nodes and quantum numbers in your reasoning.",
+     "a": "The total number of nodes in an orbital is (n-1), with l angular nodes and (n-l-1) radial nodes. If l ≥ n, then (n-l-1) becomes negative, implying negative radial nodes which is physically impossible. The radial wavefunction must have a non-negative number of nodes. A wrong answer shows the student treats the rule l = 0 to n-1 as arbitrary rather than understanding it emerges from the mathematical requirement of physically acceptable solutions to the Schrödinger equation.",
+     "self_check": true
+    },
+    {
+     "q": "An electron in a hydrogen atom has quantum numbers n=4, l=2, mₗ=+1, mₛ=-½. Write the orbital designation (e.g., 3dₓᵧ) and calculate the total number of orbitals and maximum electrons possible in this subshell.",
+     "a": "Orbital designation: 4d (since n=4, l=2 → d subshell). The specific orbital with mₗ=+1 is one of the five d orbitals (commonly dₓᵧ, dᵧ₂, d₂ₓ, dₓ²₋ᵧ², or d₂² depending on convention). Total orbitals in subshell = 2l+1 = 2(2)+1 = 5 orbitals. Maximum electrons = 2(2l+1) = 10 electrons. Steps: (1) Identify l=2 → d subshell; (2) n=4 → 4d; (3) 2l+1 gives 5 orbitals; (4) Each orbital holds 2 electrons (Pauli) → 10 electrons. A wrong answer (e.g., saying 4 orbitals or 8 electrons) reveals confusion between number of orbitals (2l+1) and maximum electrons (4l+2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy ordering of orbitals in hydrogen atom versus multi-electron atoms for n=3 and n=4. Explain the physical origin of the difference using the concepts of shielding and penetration.",
+     "a": "In hydrogen: 3s = 3p = 3d (degenerate); 4s = 4p = 4d = 4f (degenerate). Energy depends only on n. In multi-electron atoms: 3s < 3p < 3d; 4s < 4p < 4d < 4f. The difference arises because in multi-electron atoms, s orbitals penetrate closer to the nucleus, experience less shielding, and feel higher effective nuclear charge (Zₑff). d and f orbitals are more diffuse, experience greater shielding, and have higher energy. A wrong answer (claiming same ordering for both) shows the student misses the central role of electron-electron repulsion and shielding in lifting degeneracy — a key concept for understanding the periodic table and aufbau principle.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following set of quantum numbers for an electron in a 3p orbital: n=3, l=1, mₗ=+2, mₛ=+½. Identify the error and explain why this set is invalid. Provide a valid set for a 3p electron.",
+     "a": "Error: mₗ = +2 is invalid for l=1. Allowed mₗ values are -l to +l, i.e., -1, 0, +1. The value +2 would require l ≥ 2 (d or higher subshell). Valid sets for 3p: (3, 1, -1, +½), (3, 1, 0, +½), (3, 1, +1, +½), or the same with mₛ = -½. A wrong answer (e.g., accepting mₗ=+2) reveals the student doesn't understand the constraint mₗ ∈ [-l, +l] and its connection to the number of orbitals per subshell (2l+1). This is a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using the Stern-Gerlach apparatus to demonstrate that electrons have only two possible spin states. Explain how the results would differ if electrons had three spin states (mₛ = -1, 0, +1) instead of two.",
+     "a": "Stern-Gerlach experiment: Pass a beam of neutral silver atoms (single unpaired electron) through an inhomogeneous magnetic field. Observation: Beam splits into exactly TWO components, corresponding to mₛ = +½ (spin up) and mₛ = -½ (spin down). If three spin states existed, the beam would split into THREE components (mₛ = -1, 0, +1). The two-beam result proves only two spin orientations exist. A poor answer (e.g., describing continuous splitting) shows the student cannot connect quantum number quantization to experimental evidence, missing the bridge between abstract numbers and measurable physics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

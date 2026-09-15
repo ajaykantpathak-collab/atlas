@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy102",
+  "concepts": [
+    {
+      "id": "legy.102.1",
+      "questions": [
+        {"q": "About what per cent of the world's people live on about 10 per cent of its land? (give the per cent)", "a": "90"},
+        {"q": "The two most densely populated world clusters lie in East Asia and which other Asian region? (two words)", "a": "South Asia"},
+        {"q": "Which European sub-continent forms a third major cluster of world population? (one word)", "a": "Europe"},
+        {"q": "Which South-East Asian region joins the list of dense world population clusters? (two words)", "a": "South East Asia"},
+        {"q": "What per cent of the world's land carries about 90 per cent of its people? (give the per cent)", "a": "10"},
+        {"q": "Fertile plains attract dense settlement. Which natural factor besides soil pulls people to a region? (one word)", "a": "water"},
+        {"q": "Very cold, very hot and very dry lands tend to be densely or sparsely populated? (one word)", "a": "sparsely"}
+      ]
+    },
+    {
+      "id": "legy.102.2",
+      "questions": [
+        {"q": "A country has 50 million people on 2 lakh (200,000) sq km. What is its density in persons per sq km? (number)", "a": "250"},
+        {"q": "A region holds 6 million people on 30,000 sq km. Compute its density per sq km. (number)", "a": "200"},
+        {"q": "Population density is usually expressed per square what? (one word)", "a": "kilometre"},
+        {"q": "A territory of 5 lakh (500,000) sq km holds 15 million people. Its density is how many per sq km? (number)", "a": "30"},
+        {"q": "If a country's population doubles while its area stays fixed, its density doubles or halves? (one word)", "a": "doubles"},
+        {"q": "A district of 4,000 sq km has a density of 350 persons per sq km. How many people live there? (number)", "a": "1400000"},
+        {"q": "World average density masks what kind of internal differences within countries? (two words)", "a": "sharp contrasts"}
+      ]
+    },
+    {
+      "id": "legy.102.3",
+      "questions": [
+        {"q": "Population change caused by births and deaths alone is called what kind of growth? (one word)", "a": "natural"},
+        {"q": "Immigration and emigration together make up which component of population change? (one word)", "a": "migration"},
+        {"q": "People moving into a country are counted as what? (one word)", "a": "immigration"},
+        {"q": "People leaving a country are counted as what? (one word)", "a": "emigration"},
+        {"q": "Growth expressed as a per cent per year is called growth what? (one word)", "a": "rate"},
+        {"q": "Births minus deaths give what component of growth? (one word)", "a": "natural growth"},
+        {"q": "Absolute growth is measured as a difference between two what? (one word)", "a": "time points"}
+      ]
+    },
+    {
+      "id": "legy.102.4",
+      "questions": [
+        {"q": "The ten most populous countries hold about what per cent of world population? (give the per cent)", "a": "60"},
+        {"q": "If the top ten countries hold 60 per cent of humanity, what per cent do all the rest hold? (give the per cent)", "a": "40"},
+        {"q": "Which two countries together approach two-fifths of the world's population? (two words)", "a": "China, India"},
+        {"q": "Two-fifths of the world population is what per cent? (give the per cent)", "a": "40"},
+        {"q": "How many countries make up the group holding about 60 per cent of world population? (number)", "a": "10"},
+        {"q": "China and India together approach what fraction of the world's people? (one word)", "a": "two-fifths"},
+        {"q": "If the top ten held 65 per cent instead, the rest of the world would hold what per cent? (give the per cent)", "a": "35"}
+      ]
+    }
+  ]
+}

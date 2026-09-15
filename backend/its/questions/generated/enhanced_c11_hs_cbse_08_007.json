@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_007",
+   "title": "c11_hs_cbse_08_007",
+   "questions": [
+    {
+     "q": "What does the acronym 'PENTA' stand for in the National Immunisation Schedule, and at which three ages is it administered?",
+     "a": "PENTA stands for a combination vaccine containing DPT (Diphtheria, Pertussis, Tetanus), Hepatitis B, and Hib (Haemophilus influenzae type b). It is administered at 6 weeks, 10 weeks, and 14 weeks. A wrong answer (e.g., \"PENTA is only DPT\" or \"given at birth\") reveals the student has not memorised the schedule components or confuses PENTA with the birth dose of Hepatitis B.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the BCG vaccine given at birth while the Measles-Rubella (MR) vaccine is delayed until 9 months?",
+     "a": "BCG is given at birth because tuberculosis exposure can occur immediately and the newborn's immune system can respond to this live attenuated vaccine despite maternal antibodies. MR is delayed until 9 months because high levels of maternal anti-measles antibodies (transferred via placenta) neutralise the live vaccine virus if given earlier, preventing seroconversion. A wrong answer (e.g., \"BCG is stronger\" or \"MR is for older children\") shows misunderstanding of maternal antibody interference with live vaccines.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-week-old infant has received BCG, OPV (birth), Hepatitis B (birth), and two doses of PENTA (at 6 and 10 weeks). Which vaccines are due at the 14-week visit, and what is the minimum interval from the previous PENTA dose?",
+     "a": "At 14 weeks, the infant is due for the third dose of PENTA and the third dose of OPV. The minimum interval between PENTA doses is 4 weeks (28 days). A wrong answer (e.g., \"only OPV\" or \"MR vaccine\") indicates the student cannot track the multi-dose series or confuses the 14-week visit with the 9-month visit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the immune response to a live attenuated vaccine (e.g., OPV) versus an inactivated vaccine (e.g., Hepatitis B). How does this difference influence the number of doses required in the schedule?",
+     "a": "Live attenuated vaccines (OPV) replicate mildly in the host, mimicking natural infection and stimulating robust, long-lasting humoral and cellular immunity with fewer doses (e.g., 3 primary doses + boosters). Inactivated/subunit vaccines (Hep B) cannot replicate; they require multiple doses (3 primary doses) to achieve protective antibody titers and often need boosters because antibody levels wane faster. A wrong answer (e.g., \"both need same doses\" or \"live vaccines need more doses\") shows failure to link vaccine type to immunological memory generation.",
+     "self_check": true
+    },
+    {
+     "q": "A parent argues: \"Polio has been eradicated in India, so the OPV doses in the schedule are unnecessary and only cause side effects.\" Critique this argument using epidemiological principles.",
+     "a": "The argument is flawed. Eradication in India (certified 2014) does not mean global eradication; wild poliovirus persists in Afghanistan and Pakistan. Importation risk remains high due to travel/migration. Herd immunity must be maintained (OPV coverage >80%) to prevent outbreaks if the virus is imported. Additionally, OPV provides intestinal mucosal immunity (IgA) that reduces transmission – a benefit IPV alone does not fully give. Stopping OPV prematurely would create an immunity gap. A wrong answer (e.g., \"polio is gone so stop\") reveals confusion between elimination (local) and eradication (global) and ignorance of herd immunity thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified immunisation reminder card for a low-literacy rural mother. Show vaccines due at each visit (birth, 6w, 10w, 14w, 9m, 15m, 16-24m, 2y, 5y, 10y, 16y) using only symbols/pictures. Explain your design choices for two specific vaccines.",
+     "a": "A good answer includes: a timeline with icons (syringe, calendar, sun/moon for age), colour-coded visits, and pictograms for each vaccine (e.g., lung for BCG, drops for OPV, shield for PENTA, measles rash for MR). For BCG: use a shield with \"TB\" crossed out, given at birth (newborn icon). For MR: use a spotted face (measles) and a pregnant woman with a crossed-out rubella virus, given at 9 months (baby sitting icon). Poor answer: text-heavy, no visual hierarchy, or incorrect ages (e.g., MR at birth). Reveals inability to translate technical schedule into accessible health communication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_009",
+   "title": "c11_bs_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the minimum and maximum number of members allowed in a Private Company and a Public Company as per the Companies Act, 2013.",
+     "a": "Private Company: Minimum 2, Maximum 200 members (excluding present/past employees). Public Company: Minimum 7, No maximum limit. A wrong answer (e.g., stating max 50 for private or min 2 for public) reveals confusion with the old Companies Act 1956 limits or misreading the current threshold. It also indicates the student hasn't internalized the specific numerical boundaries that legally define each type.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a Private Company cannot invite the public to subscribe to its securities, and what happens if it contravenes this provision.",
+     "a": "A Private Company is designed for closely-held ownership where control rests with a known group. Prohibiting public invitation protects unsophisticated investors from opaque, unlisted securities and preserves the company's \"private\" character. If it contravenes, it ceases to be a private company and loses all privileges/exemptions (e.g., no prospectus needed, can allot shares without minimum subscription). A wrong answer that says \"it becomes a public company automatically\" is incorrect — it loses privileges but doesn't auto-convert; it faces penalties and must rectify.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan wants to start a consulting firm as a One Person Company (OPC). He has no nominee. His friend says, \"Just register as OPC, nominee is optional.\" Is the friend correct? Apply the Companies Act 2013 provisions to justify your answer.",
+     "a": "No, the friend is incorrect. Section 2(62) of Companies Act 2013 defines OPC as having only one member, **but Rule 3 of Companies (Incorporation) Rules, 2014 mandates that the sole member must nominate a person (with written consent) who becomes member on death/incapacity**. The nominee's name is filed in the memorandum. Without a nominee, incorporation cannot be completed. A wrong answer shows the student misses the mandatory nominee requirement — a unique safeguard in OPC for perpetual succession despite single ownership.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the share transfer restrictions in Private vs Public Companies. Why does the law impose strict transfer restrictions only on Private Companies? Analyze the underlying policy rationale.",
+     "a": "Private Company: Articles **must** restrict right to transfer shares (Section 2(68)). Public Company: Shares are freely transferable (Section 58(2)). Policy rationale: Private companies rely on mutual trust among known members; unrestricted transfer could force unwanted strangers into the close-knit group, disrupting management harmony. Public companies thrive on liquidity; free transfer enables stock exchange listing, price discovery, and investor exit, which are essential for public capital markets. A wrong answer that says \"both restrict transfer\" or \"public companies restrict to protect owners\" confuses the fundamental capital-market role of public companies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A Private Company is always better than a Public Company for a startup because it has fewer compliances.\" Provide a balanced judgment with at least two counter-scenarios where a Public Company might be preferable even at early stage.",
+     "a": "The statement is **overgeneralized**. While Private Company has fewer compliances (no prospectus, no statutory meeting, only 2 directors), a startup **aiming for IPO within 3-5 years** or **needing large public capital** may prefer Public Company from day one to avoid conversion costs later. Also, if the startup wants **ESOP liquidity for early employees** or **strategic investors demanding listed entity status**, Public structure helps. A poor evaluation treats compliance count as the sole criterion, ignoring capital strategy, exit planning, and investor expectations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (2-3 sentences) where an entrepreneur would choose **One Person Company** over Sole Proprietorship and Private Company. Explicitly state the deciding factors: liability, succession, and compliance burden.",
+     "a": "**Scenario:** \"Priya, a freelance AI consultant, earns ₹50 lakh/year. She wants limited liability to protect her personal flat from client lawsuits, but doesn't want a partner or complex board meetings. She chooses OPC.\"  \n**Deciding factors:** (1) **Limited liability** (unlike sole proprietorship), (2) **Perpetual succession via nominee** (unlike sole proprietorship which ends on death), (3) **Lower compliance than Private Company** (only 1 director, no AGM required, fewer filings). A weak answer omits the nominee succession feature or confuses OPC compliance with Private Company.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

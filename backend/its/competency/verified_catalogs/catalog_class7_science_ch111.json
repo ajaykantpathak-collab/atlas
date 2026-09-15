@@ -1,0 +1,410 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 111,
+ "chapter_title": "Light",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc111.txt",
+ "concepts": [
+  {
+   "id": "gesc.111.1",
+   "title": "Rectilinear Propagation of Light",
+   "section": "11.1",
+   "definition": "Light naturally travels in a straight path and does not curve around objects in its way.",
+   "formula": "path = straight_line",
+   "key_idea": "Light follows a linear trajectory from the source.",
+   "textbook_ref": "gesc111.txt lines 1-25",
+   "question_patterns": [
+    "how does light travel",
+    "why can we not see a candle through a bent pipe",
+    "demonstrate that light travels in straight lines",
+    "describe the path of light",
+    "state two key points about rectilinear propagation of light"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe light source",
+     "explain": "Look at a light source through a straight tube."
+    },
+    {
+     "step": 2,
+     "action": "bend the tube",
+     "explain": "Attempt to look at the same source through a bent tube; the light is blocked."
+    },
+    {
+     "step": 3,
+     "action": "conclude rectilinear propagation",
+     "explain": "Since light is only visible through a straight path, light travels in straight lines."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.2",
+   "title": "Reflection of Light",
+   "section": "11.2",
+   "definition": "The phenomenon where a surface, like a mirror or water, changes the direction of light hitting it.",
+   "formula": "angle_of_incidence = angle_of_reflection",
+   "key_idea": "Shiny surfaces act as mirrors to redirect light.",
+   "textbook_ref": "gesc111.txt lines 35-60",
+   "question_patterns": [
+    "define reflection of light",
+    "what happens when light falls on a mirror",
+    "how can we change the direction of light",
+    "give examples of reflecting surfaces",
+    "what do you understand by reflection of light"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify surface",
+     "explain": "Locate a polished or shiny surface like a mirror."
+    },
+    {
+     "step": 2,
+     "action": "trace light path",
+     "explain": "Observe the light hitting the surface and bouncing off in a new direction."
+    },
+    {
+     "step": 3,
+     "action": "verify angle equality",
+     "explain": "Confirm that the angle of incidence equals the angle of reflection, proving the law of reflection."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.3",
+   "title": "Image Formation in a Plane Mirror",
+   "section": "11.2",
+   "definition": "A flat mirror creates an upright image that is indeed the same size as the object and located at an equal distance behind the mirror.",
+   "formula": "image_distance = object_distance",
+   "key_idea": "The image in a plane mirror is virtual, erect, and equidistant.",
+   "textbook_ref": "gesc111.txt lines 90-120",
+   "question_patterns": [
+    "calculate the distance of the image from the mirror",
+    "what are the characteristics of a plane mirror image",
+    "find the distance between the object and its image",
+    "is the image in a plane mirror real or virtual",
+    "find the required value in a image formation in a plane mirror problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine object distance",
+     "explain": "Measure the distance from the object to the mirror surface.",
+     "compute": "image_dist = object_dist"
+    },
+    {
+     "step": 2,
+     "action": "calculate total distance",
+     "explain": "The total distance between object and image is the sum of their distances from the mirror.",
+     "compute": "total_dist = object_dist + image_dist"
+    },
+    {
+     "step": 3,
+     "action": "verify image properties",
+     "explain": "Confirm the image is virtual, erect, same size, and laterally inverted as expected for a plane mirror.",
+     "compute": "image_type = virtual"
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.5",
+   "title": "Real and Virtual Images",
+   "section": "11.4",
+   "definition": "A real image can indeed be captured on a screen, while a virtual image cannot be projected onto a surface.",
+   "formula": "image_type = screen_test",
+   "key_idea": "Real images are formed by converging rays; virtual images are perceived behind mirrors.",
+   "textbook_ref": "gesc111.txt lines 215-230",
+   "question_patterns": [
+    "difference between real and virtual image",
+    "can a plane mirror form a real image",
+    "define a virtual image",
+    "how to identify a real image",
+    "how does real and virtual images work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "attempt screen projection",
+     "explain": "Place a screen at the point where the image appears to form."
+    },
+    {
+     "step": 2,
+     "action": "verify visibility",
+     "explain": "If the image appears on the screen, it is real; if not, it is virtual."
+    },
+    {
+     "step": 3,
+     "action": "classify image type",
+     "explain": "Use the screen test result to conclude whether the image is real (captured on screen) or virtual (not captured)."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.6",
+   "title": "Concave Mirrors",
+   "section": "11.4",
+   "definition": "A spherical mirror with an inward-curving reflecting surface that can form real or virtual images depending on object distance.",
+   "formula": "surface = inward_curve",
+   "key_idea": "Concave mirrors converge light and are used by both dentists and in torch reflectors.",
+   "textbook_ref": "gesc111.txt lines 235-275",
+   "question_patterns": [
+    "uses of concave mirrors",
+    "what type of image does a concave mirror form",
+    "which mirror is used by dentists",
+    "can a concave mirror form a virtual image",
+    "list the main features of concave mirrors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check curvature",
+     "explain": "Identify if the reflecting surface curves inward like a spoon's bowl."
+    },
+    {
+     "step": 2,
+     "action": "analyze image",
+     "explain": "Observe that close objects appear magnified and erect, while distant objects appear inverted."
+    },
+    {
+     "step": 3,
+     "action": "identify applications",
+     "explain": "Recognize uses such as dentist mirrors, torch reflectors, and shaving mirrors that rely on the converging property of concave mirrors."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.7",
+   "title": "Convex Mirrors",
+   "section": "11.4",
+   "definition": "A spherical mirror with an outward-curving reflecting surface that always produces virtual, erect, and diminished images.",
+   "formula": "surface = outward_curve",
+   "key_idea": "Convex mirrors provide a wide field of view, making them ideal for vehicle side mirrors.",
+   "textbook_ref": "gesc111.txt lines 285-310",
+   "question_patterns": [
+    "why are convex mirrors used as side mirrors",
+    "describe the image formed by a convex mirror",
+    "can a convex mirror form a real image",
+    "identify a mirror that always forms smaller images",
+    "give one everyday example of convex mirrors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check curvature",
+     "explain": "Identify if the reflecting surface curves outward."
+    },
+    {
+     "step": 2,
+     "action": "analyze image",
+     "explain": "Observe that the image is always upright and smaller than the object."
+    },
+    {
+     "step": 3,
+     "action": "confirm wide field of view",
+     "explain": "Verify that the convex mirror shows a wider area than a plane mirror, making it suitable for side mirrors of vehicles."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.8",
+   "title": "Convex Lenses",
+   "section": "11.5",
+   "definition": "A transparent lens fatter in the middle than at the edges that converges light rays.",
+   "formula": "type = converging",
+   "key_idea": "Convex lenses can magnify objects and are used in magnifying glasses.",
+   "textbook_ref": "gesc111.txt lines 320-360",
+   "question_patterns": [
+    "what is a magnifying glass",
+    "describe a convex lens",
+    "does a convex lens converge or diverge light",
+    "what kind of image is formed by a convex lens",
+    "give one everyday example of convex lenses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "feel thickness",
+     "explain": "Check if the lens is thicker in the center than at the periphery."
+    },
+    {
+     "step": 2,
+     "action": "observe light",
+     "explain": "Note that parallel light rays passing through the lens meet at a point."
+    },
+    {
+     "step": 3,
+     "action": "test magnification",
+     "explain": "Hold the lens close to an object and observe the enlarged, erect virtual image, confirming it acts as a magnifying glass."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.9",
+   "title": "Concave Lenses",
+   "section": "11.5",
+   "definition": "A transparent lens slimmer in the middle than at the edges that diverges light rays.",
+   "formula": "type = diverging",
+   "key_idea": "Concave lenses always form virtual, erect, and smaller images.",
+   "textbook_ref": "gesc111.txt lines 365-385",
+   "question_patterns": [
+    "describe a concave lens",
+    "what is a diverging lens",
+    "nature of image formed by concave lens",
+    "how to identify a concave lens by touch",
+    "what do you understand by concave lenses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "feel thickness",
+     "explain": "Check if the lens is thinner in the center than at the periphery."
+    },
+    {
+     "step": 2,
+     "action": "observe light",
+     "explain": "Note that light rays spread out after passing through the lens."
+    },
+    {
+     "step": 3,
+     "action": "verify image nature",
+     "explain": "Confirm that the image formed is always virtual, erect, and diminished regardless of object position."
+    }
+   ]
+  },
+  {
+   "id": "gesc.111.10",
+   "title": "Dispersion of Sunlight",
+   "section": "11.6",
+   "definition": "The process of splitting white light into its seven constituent colors (VIBGYOR).",
+   "formula": "white_light = sum(7_colors)",
+   "key_idea": "Sunlight is a mixture of seven colors, visible in rainbows and prisms.",
+   "textbook_ref": "gesc111.txt lines 400-435",
+   "question_patterns": [
+    "how many colors are in a rainbow",
+    "what does a prism do to sunlight",
+    "what is Newton's disc",
+    "is sunlight white or colored",
+    "explain dispersion of sunlight in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pass light through prism",
+     "explain": "Direct a narrow beam of sunlight through a glass prism."
+    },
+    {
+     "step": 2,
+     "action": "observe spectrum",
+     "explain": "Look for the seven colors appearing on a white screen behind the prism."
+    },
+    {
+     "step": 3,
+     "action": "identify color order",
+     "explain": "Note the sequence of colors from top to bottom: violet, indigo, blue, green, yellow, orange, and red (VIBGYOR)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc111.txt Exercise 12",
+   "concept": "gesc.111.3",
+   "question_type": "compute",
+   "question_pattern": "David is observing his image in a plane mirror. The distance between the mirror and his image is {dist_img} m. If he moves {move} m towards the mirror, then what is the distance between David and his image?",
+   "extracted_variables": {
+    "dist_img": "initial distance of image from mirror",
+    "move": "distance moved towards mirror"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate new object distance",
+     "explain": "Since initial image distance is dist_img, initial object distance is also dist_img. Moving towards the mirror reduces this.",
+     "compute": "new_obj_dist = dist_img - move"
+    },
+    {
+     "step": 2,
+     "action": "calculate total distance",
+     "explain": "The distance between object and image is twice the object distance from the mirror.",
+     "compute": "ans = new_obj_dist * 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc111.txt Exercise 13",
+   "concept": "gesc.111.3",
+   "question_type": "compute",
+   "question_pattern": "A driver is reversing his car at a speed of {speed} m/s. At what speed will the image of a stationary truck appear to approach the driver in the plane mirror?",
+   "extracted_variables": {
+    "speed": "speed of the car"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate relative speed",
+     "explain": "In a plane mirror, the image approaches the mirror at the same speed as the object. The relative speed between object and image is double the speed relative to the mirror.",
+     "compute": "approach_speed = speed + speed"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "gesc111.txt lines 460-475",
+   "questions": [
+    "An image that cannot be obtained on a screen is called ____________.",
+    "Image formed by a convex __________ is always virtual and smaller in size.",
+    "An image formed by a __________ mirror is always of the same size as that of the object.",
+    "An image which can be obtained on a screen is called a _________ image.",
+    "An image formed by a concave ___________ cannot be obtained on a screen."
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "gesc111.txt lines 476-485",
+   "questions": [
+    "We can obtain an enlarged and erect image by a convex mirror. (T/F)",
+    "A concave lens always form a virtual image. (T/F)",
+    "We can obtain a real, enlarged and inverted image by a concave mirror. (T/F)",
+    "A real image cannot be obtained on a screen. (T/F)",
+    "A concave mirror always form a real image. (T/F)"
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "gesc111.txt lines 486-500",
+   "questions": [
+    "Match the items: (a) Plane mirror (b) Convex mirror (c) Convex lens (d) Concave mirror (e) Concave lens"
+   ]
+  },
+  {
+   "id": "ex11.4",
+   "source_ref": "gesc111.txt line 501",
+   "questions": [
+    "State the characteristics of the image formed by a plane mirror."
+   ]
+  },
+  {
+   "id": "ex11.12",
+   "source_ref": "gesc111.txt lines 515-520",
+   "questions": [
+    "David is observing his image in a plane mirror. The distance between the mirror and his image is 4 m. If he moves 1 m towards the mirror, then the distance between David and his image will be..."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

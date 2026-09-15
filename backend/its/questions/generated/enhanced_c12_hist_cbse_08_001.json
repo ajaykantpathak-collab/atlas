@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_001",
+   "title": "c12_hist_cbse_08_001",
+   "questions": [
+    {
+     "q": "In what regnal year of Akbar was the Ain-i-Akbari completed, and how many revisions did the manuscript undergo before finalization?",
+     "a": "The Ain-i-Akbari was completed in the forty-second regnal year of Akbar (1598 CE) after five revisions. A wrong answer (e.g., \"first regnal year\" or \"no revisions\") reveals the student confuses the Ain's completion with Akbar's accession (1556) or misses the textual history — the five revisions reflect Abu'l Fazl's methodological rigour in cross-checking oral testimonies and official orders, a point the NCERT explicitly highlights as evidence of the author's \"caution\" and \"search for authenticity.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT describe the Ain-i-Akbari as presenting \"a view from the top,\" and what specific ideological purpose did this serve in Abu'l Fazl's framework?",
+     "a": "The Ain presents a \"view from the top\" because it was authored by a court historian to showcase Akbar's empire as a harmonious order where a strong ruling class ensures social stability; any rebellion is portrayed as \"predestined to fail.\" A student who answers only \"it was written by a courtier\" misses the ideological work: the text legitimizes Mughal sovereignty by making imperial administration appear systematic, benevolent, and inevitable — a crucial distinction for source criticism in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds that the Ain's mulk-abadi provides detailed caste breakdowns of zamindars for Agra and Delhi subas but omits this data for Bengal and Orissa. Using the NCERT's discussion of the Ain's limitations, explain TWO reasons why this unevenness occurs and how it affects the study of agrarian relations in eastern India.",
+     "a": "First, data collection was not uniform across provinces — the Ain's quantitative richness reflects the imperial centre's priorities and access, with detailed records for core north Indian subas but gaps for distant regions like Bengal. Second, the Ain's fiscal focus meant parameters like prices and wages were well-documented only around Agra. This unevenness forces historians to supplement the Ain with regional revenue records (Gujarat, Maharashtra, Rajasthan) and East India Company records for eastern India, as the NCERT explicitly recommends. A student who says \"the Ain is incomplete\" without specifying the provincial bias misses the methodological lesson: source limitations are structured, not random.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Ain-i-Akbari's approach to recording history with the tradition of medieval chroniclers described in the NCERT (e.g., Ziauddin Barani). Identify THREE specific departures the Ain makes from that tradition.",
+     "a": "The Ain departs by: (1) recording quantitative data on land, revenue, crops, and troops instead of only \"wars, conquests, political machinations\"; (2) organizing information systematically in tables with eight columns per sarkar (pargana, qila, measured area, cash revenue, suyurghal, zamindars, caste, troops) rather than narrative chronicles; (3) treating the empire's people, products, and professions as primary subjects, not \"embellishments to the essentially political thrust.\" A student who lists only \"it has numbers\" misses the epistemological shift: the Ain makes society and economy knowable as administrative objects, founding a new genre of Indian historical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Ain-i-Akbari's quantitative data on zamindar military strength (384,558 cavalry, 4.27 million infantry, etc.) can be taken as accurate for the entire Mughal Empire.\" Use the NCERT's discussion of errors and data skew to justify your position.",
+     "a": "The claim is not fully defensible. While the Ain's quantitative evidence is \"uncontested where the study of agrarian relations is concerned,\" the NCERT notes \"numerous errors in totalling\" from arithmetic/transcription slips and, crucially, \"skewed nature of the quantitative data\" — not all provinces reported uniformly. The zamindar troop figures likely reflect the imperial centre's compiled returns, which may omit or misrepresent regions with weak reporting (e.g., Bengal, forest zones). Historians use these figures as indicators of scale and composition, not exact census counts. A student who accepts the numbers uncritically misses the source-critical skill the board expects: distinguishing between \"quantitative veracity\" (broad reliability) and \"literal accuracy\" (exact totals).",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a Class 12 history project that uses a 10-12 page section of the Ain-i-Akbari (available online) to investigate ONE aspect of Mughal agrarian society. Specify: (a) the section you would choose (e.g., mulk-abadi tables for a specific suba), (b) the historical question, and (c) two supplementary sources you would use to cross-verify the Ain's data.",
+     "a": "Example: (a) Select the mulk-abadi tables for Allahabad suba showing pargana-wise measured area, jama, zamindar castes, and troops. (b) Question: \"How did the caste composition of zamindars in Allahabad suba correlate with their assessed revenue and military obligations under Akbar?\" (c) Supplementary sources: (i) Seventeenth-century revenue records from the Allahabad region (if available in regional archives), (ii) East India Company's early settlement reports for the same area (late 18th century) showing continuity/change in zamindari rights. A strong answer demonstrates the NCERT's recommended method: using the Ain as a baseline but triangulating with regional and colonial records to overcome its \"view from the top\" limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

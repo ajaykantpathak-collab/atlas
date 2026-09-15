@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_009",
+   "title": "c11_phy_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define gravitational potential at a point in a gravitational field. State its SI unit and whether it is a scalar or vector quantity.",
+     "a": "Gravitational potential at a point is the work done per unit mass in bringing a test mass from infinity to that point without acceleration. SI unit: J/kg. It is a scalar quantity. A wrong answer (e.g., stating unit as J or N, or calling it a vector) reveals confusion between potential energy (J) and potential (J/kg), or misunderstanding that potential is defined per unit mass, not total energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why is gravitational potential negative everywhere except at infinity where it is zero? Explain using the definition of work done by an external agent versus work done by the gravitational field.",
+     "a": "Gravitational force is attractive, so the field does positive work when a mass moves from infinity to a point r. The external agent must do negative work (or the field does positive work) to bring the mass slowly, meaning potential energy decreases. Since V = W_ext/m and W_ext is negative, V is negative. At infinity, no work is needed, so V=0. A wrong answer (e.g., \"potential is negative because force is negative\") reveals confusion between force direction and potential sign, or not understanding the reference point choice.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the gravitational potential at a point 10,000 km from Earth's centre. Given: Mass of Earth M_E = 6.0 × 10^24 kg, G = 6.67 × 10^-11 N·m²/kg². Express your answer in J/kg.",
+     "a": "Step 1: Identify given: r = 10,000 km = 1.0 × 10^7 m, M = 6.0 × 10^24 kg, G = 6.67 × 10^-11 N·m²/kg².\nStep 2: Formula: V = -GM/r.\nStep 3: Substitute: V = -(6.67 × 10^-11 × 6.0 × 10^24) / (1.0 × 10^7) = -(40.02 × 10^13) / (1.0 × 10^7) = -4.002 × 10^7 J/kg.\nStep 4: Units check: (N·m²/kg² × kg) / m = (kg·m/s² × m²/kg² × kg) / m = m²/s² = J/kg. Correct.\nStep 5: Answer: V ≈ -4.0 × 10^7 J/kg. Negative sign indicates bound state. A wrong answer (e.g., positive value, wrong exponent, missing negative) reveals unit conversion error (km to m), sign error, or formula misremembering.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical point masses M are placed at a distance d apart. Compare the gravitational potential at the midpoint between them with the potential at a point on the perpendicular bisector at distance d/2 from the midpoint. Which is more negative and why?",
+     "a": "At midpoint: distance to each mass = d/2. V_mid = 2 × (-GM/(d/2)) = -4GM/d.\nAt point on perpendicular bisector at distance d/2 from midpoint: distance to each mass = √((d/2)² + (d/2)²) = d/√2. V_perp = 2 × (-GM/(d/√2)) = -2√2 GM/d ≈ -2.828 GM/d.\nSince -4GM/d < -2.828 GM/d, the midpoint has more negative potential. This is because potential is scalar and adds directly; at the midpoint, distances are smaller, so each contribution is more negative. A wrong answer (e.g., saying they are equal, or perpendicular point is more negative) reveals misunderstanding of superposition for scalars vs vectors, or not calculating distances correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Gravitational potential at the centre of a uniform solid sphere of mass M and radius R is zero because the gravitational field is zero there.\" Evaluate this statement and correct it if wrong.",
+     "a": "The statement is FALSE. Gravitational field (g) is zero at the centre due to symmetry, but potential (V) is NOT zero. Potential is the integral of field from infinity: V(centre) = -∫_∞^R (GM/r²)dr - ∫_R^0 (GMr/R³)dr = -GM/R - GM/(2R) = -3GM/(2R). Field is the gradient of potential (g = -dV/dr); g=0 only means dV/dr=0 (potential is minimum), not V=0. A wrong evaluation reveals confusion between field (vector, derivative of potential) and potential (scalar, integral of field), a common senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment or graphical method to show that gravitational potential difference between two points depends only on the endpoints, not the path taken. Use the concept of conservative force.",
+     "a": "Take a 1 kg test mass. Move it from point A to point B along two different paths: Path 1 (radial line) and Path 2 (circular arc + radial line). Calculate work done by gravity along each: Path 1: W = ∫_A^B F·dr = GMm(1/r_B - 1/r_A). Path 2: Circular part has F⊥dr, so W=0; radial part gives same integral. Both give same work. Since W_grav = -ΔU, ΔU is path-independent. Hence V = U/m is path-independent. A poor answer (e.g., just stating \"gravity is conservative\" without showing the path calculation) reveals inability to connect the abstract property to concrete mathematical demonstration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

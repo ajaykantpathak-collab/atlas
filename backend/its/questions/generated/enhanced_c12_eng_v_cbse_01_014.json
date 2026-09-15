@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_01_014",
+   "title": "c12_eng_v_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does PEEL stand for in the context of writing structured answers for Class 12 English board exams?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Conclusion\") reveals the student lacks the standard answer-writing framework taught in Class 11-12, leading to disorganized responses that lose marks for coherence and textual support in 6-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Charley escapes because he is unhappy. He collects stamps and finds the third level. Sam also escapes to 1894.\" Identify the TWO major structural flaws in this response for a 6-mark board question.",
+     "a": "Flaw 1: No PEEL structure — it lists events without a clear topic sentence (Point) or analysis (Explanation). Flaw 2: No textual evidence — \"He collects stamps\" is a claim without a supporting quote or specific detail (e.g., \"blocks of four of practically every U.S. issue\"). A wrong diagnosis (e.g., \"grammar errors\") shows the student confuses language accuracy with answer architecture, which is the primary differentiator between 3/6 and 5/6 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence PEEL paragraph answering: \"How does the description of the third level establish its historical authenticity?\" Use at least two specific sensory details from the chapter.",
+     "a": "Point: Finney uses dense sensory details to authenticate the third level as 1894. Evidence: The \"open-flame gaslights,\" \"brass spittoons,\" the clerk's \"green eyeshade and long black sleeve protectors,\" and the \"Currier & Ives locomotive with a funnel-shaped stack\" are period-specific. Explanation: These details are not generic vintage tropes but historically precise markers — gaslights predate electric lighting, sleeve protectors were standard for clerks, and Currier & Ives prints defined 19th-century Americana — forcing the reader to accept the setting as real, not imagined. Link: This verisimilitude makes Charley's psychological escape tangible, blurring the line between hallucination and time-slip. A weak answer uses vague phrases like \"old-fashioned things\" — revealing inability to select and deploy precise textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"The Third Level\" and \"Adventure\" (Hornbill) use the protagonist's profession to ground their fantastical premises. Write a 3-point comparative analysis.",
+     "a": "1. Both protagonists are intellectuals (Charley: ordinary office worker but methodical; Professor Gaitonde: historian) whose rationality makes their impossible experiences more credible — they don't just dream, they investigate. 2. Both use professional habits as entry points: Charley's stamp collecting (cataloguing, dating, verifying) mirrors Gaitonde's historical research (cross-referencing Bakhar, checking facts) — each uses disciplinary rigor to validate the anomaly. 3. Both stories end with the protagonist's professional community indirectly confirming the experience: Charley's psychiatrist friend Sam disappears into the past; Gaitonde's colleague Rajendra Deshpande explains the experience via catastrophe theory. A response that only notes \"both are educated\" misses the functional role of profession in narrative architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Sam's letter is the only proof that the third level exists; without it, the story is just a delusion.\" Defend or refute using textual evidence.",
+     "a": "Refute. The letter is the strongest proof but not the only one. Evidence 1: Charley's own verified research — he finds the June 11, 1894 front page of *The World* in the Public Library files, confirming the newspaper's existence and date independently. Evidence 2: The currency exchange — Charley buys $300 worth of old-style bills at a premium, a transaction requiring real-world coin dealers and historical currency markets. Evidence 3: Sam's purchase of $800 in old currency at the same stamp/coin store, verified by the shopkeeper. The letter crowns a chain of corroborating details. A student who agrees with the claim overlooks the story's layered epistemology — Finney builds a \"case file,\" not a single clue.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word diary entry dated July 20, 1894, from Sam Weiner's perspective, describing his first week in Galesburg. Include at least three sensory details from the chapter and show his emotional transition from skepticism to belonging.",
+     "a": "July 20, 1894\nDear Diary,\nThe piano at Daly's plays \"Seeing Nelly Home\" and the porch is full of voices — lemonade clinks in glasses, fireflies stitch the dusk. A week ago I laughed at Charley's \"waking-dream wish fulfillment\"; tonight I signed the deed for a hay, feed and grain shop on Willard Street. The air smells of cut grass and cigar smoke, not ozone and anxiety. No psychiatrist analyzes me here; neighbors wave from lawns where branches meet overhead. I've stopped checking my pocket watch. Galesburg doesn't need a future. — Sam\nA poor answer writes generic nostalgia (\"I like it here\") without chapter-specific sensory anchors (piano tune, lemonade, fireflies, branch-canopied lawns) or the professional irony (psychiatrist becoming grain merchant).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

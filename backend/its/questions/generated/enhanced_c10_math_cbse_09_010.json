@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_010",
+   "title": "c10_math_cbse_09_010",
+   "questions": [
+    {
+     "q": "A lighthouse is 100 m high. The angles of depression of two ships on the same side of the lighthouse are 30° and 60°. Write the formula for the distance between the two ships in terms of the height h and the angles α and β (where α > β).",
+     "a": "The distance between the ships = h(cot β - cot α). For h = 100 m, α = 60°, β = 30°, distance = 100(cot 30° - cot 60°) = 100(√3 - 1/√3) = 100(2/√3) ≈ 115.47 m. A wrong answer like h(cot α - cot β) reveals the student does not understand that the larger angle of depression corresponds to the nearer ship, so its horizontal distance is smaller, and we must subtract the smaller distance from the larger one.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the angle of depression from the top of the lighthouse to a ship is equal to the angle of elevation from the ship to the top of the lighthouse. How does this equality help in setting up the tangent ratio?",
+     "a": "The angle of depression and angle of elevation are alternate interior angles formed by a transversal (the line of sight) cutting two parallel horizontal lines (the observer's horizontal and the ship's horizontal). They are equal. This allows us to work with the angle of elevation inside the right triangle at the ship, where the opposite side is the lighthouse height and the adjacent side is the horizontal distance, so tan(angle) = height/distance. A student who says \"they are just the same angle\" without mentioning parallel lines and alternate interior angles shows a superficial understanding and may misidentify the angle in the triangle.",
+     "self_check": true
+    },
+    {
+     "q": "From the top of a lighthouse 80 m high, the angles of depression of two ships on opposite sides are 30° and 45°. Find the distance between the two ships. (Use √3 = 1.732)",
+     "a": "Let height h = 80 m. For ship A (30°): distance x = h cot 30° = 80 × √3 = 80 × 1.732 = 138.56 m. For ship B (45°): distance y = h cot 45° = 80 × 1 = 80 m. Since ships are on opposite sides, total distance = x + y = 138.56 + 80 = 218.56 m. A wrong answer of 58.56 m (subtracting) indicates the student did not recognise \"opposite sides\" requires addition. A wrong answer using tan instead of cot (e.g., 80/√3) shows confusion between opposite/adjacent sides.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"Lighthouse height 50 m, angles of depression 30° and 60°, ships on same side.\" Student A uses d = 50(cot 30° - cot 60°). Student B uses d = 50(tan 60° - tan 30°). Are both methods correct? Justify your answer.",
+     "a": "Student A is correct: cot 30° = √3, cot 60° = 1/√3, difference = 2/√3, distance = 100/√3 ≈ 57.74 m. Student B is incorrect because tan 60° = √3, tan 30° = 1/√3, difference = 2/√3, but this gives the same numerical value only by coincidence? Wait: tan 60° = cot 30°, tan 30° = cot 60°. So tan 60° - tan 30° = cot 30° - cot 60°. Actually both expressions are identical because tan(90°-θ) = cot θ. Since 60° and 30° are complementary, tan 60° = cot 30° and tan 30° = cot 60°. So both formulas give the same result. However, Student B's formula using tan of the angles of depression is not generally valid; it works only because the angles are complementary. The correct general formula uses cot of the angles of depression. A student who says both are always correct fails to recognise the complementary angle relationship and would make errors with non-complementary angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution: \"Height = 60 m, angles of depression = 30° and 45°, ships on same side. Distance = 60(cot 45° - cot 30°) = 60(1 - 1.732) = -43.92 m. Distance cannot be negative, so answer is 43.92 m.\" Evaluate this solution. Is the final answer correct? Is the method correct?",
+     "a": "The final answer 43.92 m is numerically correct, but the method is flawed. The student subtracted in the wrong order: cot 45° - cot 30° is negative because cot 30° > cot 45°. The correct order is cot 30° - cot 45° (since the smaller angle of depression corresponds to the larger distance). The student then took the absolute value, which masks the conceptual error. In an exam, this would lose marks for incorrect reasoning. The correct working: distance = 60(cot 30° - cot 45°) = 60(√3 - 1) = 60(1.732 - 1) = 43.92 m. A student who thinks the negative sign is just a minor issue does not understand that distance is a positive scalar and the formula must be set up to yield a positive result directly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on \"ships and lighthouses\" where the height of the lighthouse is unknown, but the distance between the two ships (on the same side) and the two angles of depression are given. The problem should require finding the height of the lighthouse. Provide the problem statement and the formula to find the height.",
+     "a": "Problem: \"From the top of a lighthouse, the angles of depression of two ships on the same side are observed to be 30° and 45°. If the distance between the ships is 100 m, find the height of the lighthouse.\" Formula: h = d / (cot β - cot α) where α > β (here α = 45°, β = 30°). A poor answer would give a problem where the ships are on opposite sides but still use subtraction, or would not specify which angle is larger, leading to ambiguity. The student must recognise that the larger angle of depression corresponds to the nearer ship, so the denominator is cot(smaller angle) - cot(larger angle).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

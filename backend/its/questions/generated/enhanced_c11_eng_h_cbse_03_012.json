@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_012",
+   "title": "c11_eng_h_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"When was the CT scan done?\" – \"5 January 2005\"). An inferential question requires reading between the lines using textual evidence (e.g., \"Why was Zahi Hawass worried?\" – inferred from his sleepless night and relief). A wrong answer (e.g., \"Literal questions are easy, inferential are hard\") reveals the student confuses difficulty with the source of the answer, not the cognitive process.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the author writes: \"The million-dollar scanner had quit because of sand in a cooler fan. 'Curse of the pharaoh,' joked a guard nervously.\" Is the guard's nervousness a literal or inferential detail? Explain.",
+     "a": "The guard's nervousness is an *inferential* detail. The text literally states he \"joked ... nervously\" – the word \"nervously\" is the author's interpretation of his tone/behavior, not a direct quote of his internal state. A student who calls it literal because the word \"nervously\" appears in the text misses that the author *inferred* the nervousness from observation; the student must infer *why* he was nervous (superstition, pressure). A wrong answer reveals confusion between explicit adjectives and explicit facts.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this question: \"List the advances in technology that have improved forensic analysis.\" Identify the question type and list the steps to answer it.",
+     "a": "This is a **literal** question (text explicitly lists: X-ray in 1968, CT scan, portable CT machine). Steps: 1) Scan the text for keywords \"technology,\" \"advances,\" \"forensic.\" 2) Locate the paragraph discussing 1968 X-ray and CT scan. 3) Extract the listed technologies. 4) Present as a list. A wrong answer (e.g., writing an essay on *how* they improved analysis) shows the student misidentified the question type and over-answered.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following question: \"Explain the statement: 'King Tut is one of the first mummies to be scanned — in death, as in life, moving regally ahead of his countrymen.'\" Break it into literal and inferential components.",
+     "a": "Literal component: \"King Tut is one of the first mummies to be scanned\" (directly stated in the Egyptian Mummy Project paragraph). Inferential component: \"in death, as in life, moving regally ahead of his countrymen\" – requires inferring that Tut was a leader in life (pharaoh) and remains a leader in death (first scanned), and that \"countrymen\" refers to other mummies. A wrong answer treats the whole statement as literal, missing the metaphorical layer.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why did Carter chisel the resin? Because he wanted to get the gold.\" Is this answer sufficient for a board exam? Justify.",
+     "a": "No, it is insufficient. The text states Carter \"had little choice\" because thieves would have \"ripped it apart to remove the gold.\" The student's answer infers a greedy motive not supported by the text; the correct inference is *preservation from thieves*. A board exam requires evidence: \"Carter chiselled the resin to free the mummy from the coffin because the hardened resin cemented the body, and he feared thieves would destroy the mummy for the gold (text: 'thieves most certainly would have circumvented the guards and ripped it apart').\" A wrong evaluation reveals the student cannot distinguish between a plausible guess and a text-supported inference.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on the paragraph describing the CT scan night (from \"The night of the scan...\" to \"...pharaoh again rested in peace\"). Provide the answer key for both.",
+     "a": "Literal Q: \"How long was the mummy outside the coffin?\" Answer: \"Less than three hours.\" (Directly stated). Inferential Q: \"Why did the technicians check that no data had been lost before handing Tut back?\" Answer: \"Because the scanner had malfunctioned due to sand, risking data corruption; they needed to ensure the scan was complete before returning the fragile mummy.\" (Combines scanner failure + mummy's fragility + procedural care). A poor created question (e.g., \"What color was the fan?\") shows inability to identify significant textual details.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

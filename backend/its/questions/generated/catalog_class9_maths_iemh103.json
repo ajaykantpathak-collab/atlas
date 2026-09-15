@@ -1,0 +1,209 @@
+{
+ "catalog": "catalog_class9_maths_iemh103.json",
+ "concepts": [
+  {
+   "id": "iemh.103.3.1",
+   "title": "Integers and Their Operations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 25 + (24) gives 49",
+     "compute": "total = 25 + (24)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers 25 and 24.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 9 on a number line and moves -25 steps (negative means left). Where does it finish?",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 6 and 3.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Divide 101 by 2.",
+     "a": "50.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -10 and return it.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 4 x 2 + 4 x 2 as 4 x (2 + 2).",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.103.3.2",
+   "title": "Rational Numbers on the Number Line",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 7 * 9 + 7 * 2 gives 77",
+     "compute": "num = 7 * 9 + 7 * 2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 2 * 9 gives 18",
+     "compute": "den = 2 * 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 4.27778",
+     "compute": "val = num / den"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the rational numbers 7/2 and 7/9.",
+     "a": "77/18",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of the rational number 9/6.",
+     "a": "-3/2",
+     "self_check": false
+    },
+    {
+     "q": "Find the multiplicative inverse of the rational number 2/3.",
+     "a": "3/2",
+     "self_check": false
+    },
+    {
+     "q": "Find a rational number lying exactly halfway between 2/2 and 6/2 (use the mean).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the rational numbers 15/3 and 9/3 on the number line.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Write the rational number 16/14 in standard form by dividing both terms by 2; give the numerator of the standard form over its denominator as a single value.",
+     "a": "8/7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.103.3.3",
+   "title": "Irrational Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.103.3.4",
+   "title": "Real Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

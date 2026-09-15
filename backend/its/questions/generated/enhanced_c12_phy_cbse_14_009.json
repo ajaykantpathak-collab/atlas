@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_009",
+   "title": "c12_phy_cbse_14_009",
+   "questions": [
+    {
+     "q": "State the condition for a bipolar junction transistor to operate in the active region when used as a CE amplifier.",
+     "a": "The emitter-base junction must be forward-biased and the collector-base junction must be reverse-biased. A wrong answer (e.g., both junctions forward-biased) reveals the student confuses active region with saturation region, which would cause distortion and loss of amplification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the output voltage of a CE amplifier is 180° out of phase with the input voltage.",
+     "a": "When \\(v_{in}\\) increases, \\(I_B\\) increases → \\(I_C = \\beta I_B\\) increases → voltage drop across \\(R_L\\) (\\(I_C R_L\\)) increases → \\(V_{CE} = V_{CC} - I_C R_L\\) decreases. Thus output voltage (\\(V_{CE}\\) or voltage across \\(R_L\\)) moves opposite to input. A wrong answer indicates the student memorizes \"phase reversal\" without understanding the voltage-divider action of \\(R_L\\) and the transistor.",
+     "self_check": true
+    },
+    {
+     "q": "An npn transistor in CE configuration has \\(\\beta = 100\\), input resistance \\(r_i = 1.2\\ \\text{k}\\Omega\\), and load resistance \\(R_L = 4.7\\ \\text{k}\\Omega\\). Calculate the voltage gain \\(A_v\\) and power gain \\(A_p\\).",
+     "a": "\\(A_v = \\beta \\frac{R_L}{r_i} = 100 \\times \\frac{4700}{1200} = 391.7\\) (dimensionless). \\(A_p = \\beta^2 \\frac{R_L}{r_i} = 100^2 \\times \\frac{4700}{1200} = 3.92 \\times 10^4\\). A wrong answer (e.g., using \\(R_L/r_i\\) only) shows the student forgets the \\(\\beta\\) factor in voltage gain or squares incorrectly for power gain.",
+     "self_check": true
+    },
+    {
+     "q": "Given the output characteristics of an npn transistor in CE mode, a load line is drawn for \\(V_{CC} = 12\\ \\text{V}\\) and \\(R_L = 2\\ \\text{k}\\Omega\\). The Q-point is chosen at \\(I_C = 3\\ \\text{mA}, V_{CE} = 6\\ \\text{V}\\). If the input signal causes \\(I_B\\) to vary by \\(\\pm 10\\ \\mu\\text{A}\\) and \\(\\beta = 100\\), determine the peak-to-peak collector current swing and collector-emitter voltage swing.",
+     "a": "\\(\\Delta I_B = 20\\ \\mu\\text{A}\\) peak-to-peak → \\(\\Delta I_C = \\beta \\Delta I_B = 100 \\times 20\\ \\mu\\text{A} = 2\\ \\text{mA}\\) peak-to-peak. \\(\\Delta V_{CE} = \\Delta I_C \\times R_L = 2\\ \\text{mA} \\times 2\\ \\text{k}\\Omega = 4\\ \\text{V}\\) peak-to-peak. A wrong answer (e.g., using only peak values) reveals confusion between peak and peak-to-peak quantities in AC analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student builds a CE amplifier with fixed bias (\\(R_B\\) only) and finds the Q-point shifts drastically when temperature rises. Evaluate why this happens and suggest a better biasing method.",
+     "a": "Fixed bias makes \\(I_B\\) (and thus \\(I_C\\)) highly temperature-dependent because \\(V_{BE}\\) decreases with temperature, increasing \\(I_B = (V_{CC}-V_{BE})/R_B\\). Voltage-divider bias (using \\(R_1, R_2\\) across \\(V_{CC}\\) with emitter resistor \\(R_E\\)) provides negative feedback that stabilizes the Q-point. A wrong evaluation shows the student does not understand thermal runaway and the role of \\(R_E\\) in stabilization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a school laboratory CRO, function generator, and a BC547 transistor to demonstrate the phase reversal of a CE amplifier. Specify the key measurements and expected observations.",
+     "a": "Build voltage-divider bias CE amplifier with \\(V_{CC}=9\\ \\text{V}\\), \\(R_L=2.2\\ \\text{k}\\Omega\\), \\(R_1=47\\ \\text{k}\\Omega\\), \\(R_2=10\\ \\text{k}\\Omega\\), \\(R_E=1\\ \\text{k}\\Omega\\), coupling capacitors \\(10\\ \\mu\\text{F}\\). Apply 1 kHz, 50 mVpp sine wave at input. Connect CRO CH1 to input (after \\(C_{in}\\)), CH2 to output (after \\(C_{out}\\)). Observe CH2 waveform inverted relative to CH1. Measure \\(A_v = V_{out,pp}/V_{in,pp}\\). A poor answer omits coupling capacitors, uses wrong bias, or expects no phase shift.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

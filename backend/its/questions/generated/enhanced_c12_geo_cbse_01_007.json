@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_007",
+   "title": "c12_geo_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the major field of human geography that studies the spatial distribution of voting patterns and electoral behaviour, and identify its sister discipline.",
+     "a": "Correct answer: Political Geography — sub-field Electoral Geography; sister discipline: Psephology (study of elections). A wrong answer (e.g., \"Social Geography with Sociology\") reveals the student confuses political processes with general social patterns and does not know the specialised term \"psephology\" or the sub-field classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"Geography of Marketing\" is a sub-field of Economic Geography and not a separate major field, and name the sister disciplines it interfaces with.",
+     "a": "Correct answer: Marketing is a specific economic activity (buying/selling goods), so it falls under the broader Economic Geography; sister disciplines: Business Studies, Economics, Commerce. A wrong answer (e.g., \"It's a major field because marketing is big\") shows the student cannot distinguish hierarchical classification (major field → sub-field) and misses the interdisciplinary link to business/commerce.",
+     "self_check": true
+    },
+    {
+     "q": "A student maps the locations of all primary health centres in a district and analyses their accessibility for rural populations. Identify the major field, sub-field (if any), and the sister discipline this work draws on.",
+     "a": "Correct answer: Major field: Medical Geography; no separate sub-field listed in NCERT; sister discipline: Epidemiology. Steps: 1) Identify health/healthcare focus → Medical Geography. 2) Check Table 1.2 — Medical Geography has no sub-fields listed. 3) Sister discipline is Epidemiology (study of disease distribution). A wrong answer (e.g., \"Social Geography with Sociology\") reveals confusion between general social welfare and specialised health/disease mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the interdisciplinary interfaces of Cultural Geography and Gender Geography. Why does Gender Geography draw on three disciplines while Cultural Geography draws on only one?",
+     "a": "Correct answer: Cultural Geography interfaces with Anthropology (study of cultures). Gender Geography interfaces with Sociology, Anthropology, and Women's Studies because gender is a cross-cutting social construct requiring sociological (structures), anthropological (cultural practices), and feminist/women's studies (gender theory) perspectives. A wrong answer (e.g., \"both use Sociology\") shows the student misses the distinct disciplinary foundations and the reason for multiple interfaces in Gender Geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Settlement Geography and Urban Geography are the same field because both study human habitations.\" Use NCERT Table 1.2 to justify your answer.",
+     "a": "Correct answer: False. Settlement Geography (interface: Urban/Rural Planning) studies all settlements — rural and urban — their patterns, types, and evolution. Urban Geography (interface: Urban Studies and Planning) focuses specifically on cities, urban processes, and urban systems. They are separate major fields with different sister disciplines. A wrong answer (e.g., \"True, both study cities\") reveals the student overlooks the rural dimension of Settlement Geography and the distinct planning interfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research project that combines Population Geography and Economic Geography to study the impact of out-migration on agricultural labour availability in a specific Indian state. Name the sub-fields involved and the sister disciplines you would consult.",
+     "a": "Expected answer: Major fields: Population Geography (interface: Demography) and Economic Geography → sub-field Geography of Agriculture (interface: Agricultural Sciences). Sister disciplines: Demography (for migration data, age-sex structure), Agricultural Sciences (for cropping patterns, labour requirements), Economics (for wage rates, livelihood analysis). A poor answer (e.g., only \"Population Geography with Demography\") shows inability to integrate multiple fields and sub-fields for a real-world problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch01_003",
+   "title": "c7_bio_ch01_003",
+   "questions": [
+    {
+     "q": "What is the primary biological reason behind the sudden increase in height during early adolescence?",
+     "a": "The correct answer is the rapid elongation of long bones in the arms and legs, stimulated by growth hormones. A wrong answer often reveals the misconception that muscles stretch the bones, confusing muscle tissue growth with skeletal structural expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Why do hands and feet often appear disproportionately large during the early stages of the adolescent growth spurt?",
+     "a": "The correct answer is that different body parts grow at different rates—a phenomenon known as asynchrony—where extremities like hands, feet, and nose reach near-adult size before the torso and limbs. A wrong answer shows a misunderstanding that the entire body scales up uniformly all at once.",
+     "self_check": true
+    },
+    {
+     "q": "If a 13-year-old boy's parents are both of short stature, does this guarantee that he will not experience a significant height spurt? Explain based on genetic potential.",
+     "a": "The correct answer is no, because height is influenced by a combination of genetic potential from the entire family tree and environmental factors like nutrition and health. Steps: 1. Identify that genetics set a maximum potential range. 2. Recognize that parental height is a general indicator, not an absolute rule. 3. Consider nutritional intake which allows a person to reach their full genetic limit. 4. Conclude that while he may be shorter than average, he will still undergo his own unique growth spurt. A wrong answer suggests height is strictly predetermined without any environmental influence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between rapid skeletal growth (height) and nutritional demand in a 14-year-old girl. Why might she feel hungrier during this phase?",
+     "a": "The correct answer is that rapid bone elongation and muscle tissue synthesis require vast amounts of energy, minerals (like calcium), and proteins, driving up metabolic demands and appetite. A wrong answer indicates the student thinks hunger changes in adolescence are purely psychological or behavioral rather than metabolic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Weight gain during adolescence is always a sign of unhealthy fat accumulation and poor lifestyle.\" Is this accurate? Why or why not?",
+     "a": "The correct answer is false, because weight gain during adolescence largely consists of increases in bone density, muscle mass, and blood volume, not just adipose (fat) tissue. Steps: 1. Analyze the components of body weight (bones, muscles, organs, fat). 2. Recognize that the adolescent growth spurt builds heavy skeletal and muscle structures. 3. Conclude that weight gain is a normal, healthy indicator of physical maturation. A wrong answer shows failure to distinguish between healthy tissue expansion and simple fat accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weekly tracking method for a school health club to monitor adolescent physical growth trends among students without causing body image anxiety.",
+     "a": "A good answer proposes measuring non-invasive metrics like height milestones, shoe size changes, or uniform fit trends anonymously while emphasizing that varying growth rates are completely normal. A poor answer focuses solely on strict body weight scales, which can promote unhealthy anxiety and misunderstanding of natural developmental variations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

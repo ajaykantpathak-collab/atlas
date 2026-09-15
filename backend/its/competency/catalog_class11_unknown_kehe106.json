@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 106,
+  "chapter_title": "Media and Communication Technology",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe106.1.1",
+      "title": "Communication: Meaning, Elements and Types",
+      "section": "6.1",
+      "definition": "Communication is the sharing of meaning between a sender and a receiver through a message carried by a medium, completed by feedback. It may be verbal or non-verbal, formal or informal, and one-way or interactive -- and its success is judged by how far the intended meaning arrived intact.",
+      "formula": "",
+      "key_idea": "Sender, message, medium, receiver, feedback -- communication is complete only when meaning lands.",
+      "textbook_ref": "kehe106.txt communication sections (concept of communication, elements, verbal and non verbal, one way and two way, feedback)",
+      "question_patterns": [
+        "define communication and name its elements",
+        "in class 11 media and communication technology: why is feedback important in communication",
+        "distinguish verbal from non verbal communication with examples",
+        "when is communication said to be effective",
+        "compare one way and two way communication",
+        "identify the elements in a given communication situation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "name the chain",
+          "explain": "Trace sender to message to medium to receiver, then the feedback that closes the loop."
+        },
+        {
+          "step": 2,
+          "action": "classify the modes",
+          "explain": "Words carry verbal meaning; gestures, tone and appearance carry non-verbal meaning alongside."
+        },
+        {
+          "step": 3,
+          "action": "test the success",
+          "explain": "Ask whether the receiver's understanding matches the sender's intent -- that match defines effectiveness."
+        }
+      ]
+    },
+    {
+      "id": "kehe106.1.2",
+      "title": "Media: Print, Electronic and New Media",
+      "section": "6.2",
+      "definition": "Media are the channels mass communication rides on: print media such as newspapers and magazines, electronic media such as radio and television, and the new digital media of internet, e-mail and social platforms. Each has reach, cost and credibility differences that shape what it is used for.",
+      "formula": "",
+      "key_idea": "Print endures, broadcast travels, digital interacts -- pick the medium that fits the message.",
+      "textbook_ref": "kehe106.txt media sections (print media newspaper magazine, radio television, internet email social media, role of media in society)",
+      "question_patterns": [
+        "classify media into print electronic and new media with examples",
+        "in class 11 media and communication technology: how does the internet differ from television as a medium",
+        "what roles do media play in a democratic society",
+        "compare radio and newspaper as sources of information",
+        "why is social media called interactive media",
+        "evaluate the reliability of different media sources"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the channels",
+          "explain": "Print endures on paper, electronic broadcasts by airwaves, and new media distributes digitally over networks."
+        },
+        {
+          "step": 2,
+          "action": "weigh their traits",
+          "explain": "Check reach, speed, cost, permanence and interactivity -- print is permanent and reflective, broadcast is fast, digital is interactive."
+        },
+        {
+          "step": 3,
+          "action": "match to purpose",
+          "explain": "Announcements, entertainment, education and discussion each suit different media choices."
+        }
+      ]
+    },
+    {
+      "id": "kehe106.1.3",
+      "title": "Communication Technology in Daily and Family Life",
+      "section": "6.3",
+      "definition": "Modern tools -- telephones, computers and the internet -- have changed how families study, shop, bank, work and stay in touch, and how communities access services. The chapter also flags the discipline of use: verifying information, protecting privacy and balancing screen time with real interaction.",
+      "formula": "",
+      "key_idea": "Technology multiplies contact -- and demands judgment: verify, protect, balance.",
+      "textbook_ref": "kehe106.txt technology sections (telephone computer internet in daily life, e learning, online services, misuse and safe use, screen time)",
+      "question_patterns": [
+        "how has communication technology changed family life",
+        "in class 11 media and communication technology: what precautions should guide internet use",
+        "explain the benefits of e learning for students",
+        "what risks arise from sharing personal information online",
+        "how can screen time be balanced with other activities",
+        "list three online services families now use daily"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "map the uses",
+          "explain": "List the daily portals -- calls, study material, banking, shopping, news -- where technology has entered family routine."
+        },
+        {
+          "step": 2,
+          "action": "weigh the risks",
+          "explain": "False information, fraud and privacy loss ride the same pipes; verification and guarded personal data are the countermeasures."
+        },
+        {
+          "step": 3,
+          "action": "set the discipline",
+          "explain": "Time limits and device-free hours keep technology a servant of relationships, not their replacement."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe106.txt communication sections",
+      "concept": "kehe106.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "In a classroom lecture, identify sender, message, medium, receiver and feedback, and one non-verbal element.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "trace the chain",
+          "explain": "Teacher sends, lecture content is the message, spoken words carry it, students receive."
+        },
+        {
+          "step": 2,
+          "action": "find the feedback",
+          "explain": "Questions and puzzled looks tell the teacher whether to re-explain."
+        },
+        {
+          "step": 3,
+          "action": "spot the non-verbal",
+          "explain": "Tone, gestures and eye contact add meaning beyond the words."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe106.txt media sections",
+      "concept": "kehe106.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A colony must warn residents about water supply cut tomorrow. Which medium suits best and why?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the requirement",
+          "explain": "Speed and sure reach tonight matter more than depth or permanence."
+        },
+        {
+          "step": 2,
+          "action": "compare candidates",
+          "explain": "Newspaper is too slow; a social media group and loudspeaker announcement reach residents tonight."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Interactive digital plus a local announcement fits the purpose -- medium matched to message."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define communication and draw its elements.",
+        "Distinguish print, electronic and new media with examples.",
+        "How does media influence opinions in society?",
+        "State the precautions for safe internet use at home.",
+        "Explain feedback with a situation from your own life.",
+        "How has e learning changed study habits?"
+      ]
+    }
+  ]
+}

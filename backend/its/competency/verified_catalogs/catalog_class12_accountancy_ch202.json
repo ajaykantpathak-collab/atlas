@@ -1,0 +1,833 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 202,
+ "chapter_title": "Issue and Redemption of Debentures",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac202.txt",
+ "concepts": [
+  {
+   "id": "leac.202.1",
+   "title": "Meaning and Nature of Debentures",
+   "section": "2.1",
+   "definition": "A debenture is a formal certificate issued by a corporation as an acknowledgment of debt, detailing the repayment of the principal and periodic interest payments.",
+   "formula": "total_debt = number_of_debentures * face_value",
+   "key_idea": "Debentures represent borrowed capital and constitute a long-term liability for the company.",
+   "textbook_ref": "leac202.txt lines 30-45",
+   "question_patterns": [
+    "define the term debenture",
+    "what is the meaning of a debenture in company accounts",
+    "explain debenture as an instrument of debt",
+    "how does a bond differ from a debenture",
+    "Explain Meaning and Nature of Debentures with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify instrument type",
+     "explain": "Check if the document acknowledges a debt under the company's common seal."
+    },
+    {
+     "step": 2,
+     "action": "verify interest and repayment terms",
+     "explain": "Confirm the presence of a fixed interest rate and a specified redemption period."
+    }
+   ]
+  },
+  {
+   "id": "leac.202.2",
+   "title": "Issue of Debentures at Par",
+   "section": "2.4.1",
+   "definition": "The process of issuing debentures where the price paid by the investor is exactly equal to the nominal or face value of the instrument.",
+   "formula": "bank_receipt = number_of_debentures * face_value",
+   "key_idea": "No discount or premium is applied; the issue price equals the face value.",
+   "textbook_ref": "leac202.txt lines 115-135",
+   "question_patterns": [
+    "calculate the amount received on issue of debentures at par",
+    "journalize the issue of debentures at par",
+    "what is the total bank balance after issuing debentures at face value",
+    "Numerical: apply Issue of Debentures at Par and compute the final value step by step.",
+    "Using the relation for Issue of Debentures at Par, calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate application money",
+     "explain": "Multiply the number of debentures by the application rate per unit.",
+     "compute": "app_money = num_debentures * app_rate"
+    },
+    {
+     "step": 2,
+     "action": "calculate allotment money",
+     "explain": "Multiply the number of debentures by the allotment rate per unit.",
+     "compute": "allot_money = num_debentures * allot_rate"
+    },
+    {
+     "step": 3,
+     "action": "sum total receipts",
+     "explain": "Total cash received is the sum of all installments.",
+     "compute": "total_cash = app_money + allot_money"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Issue of Debentures at Par, compute the result for num_debentures = 3, app_rate = 3, allot_rate = 3.",
+     "solution": "Step 1: calculate application money: app_money = num_debentures * app_rate = 9.0 Step 2: calculate allotment money: allot_money = num_debentures * allot_rate = 9.0 Step 3: sum total receipts: total_cash = app_money + allot_money = 18.0 Final result: 18.0",
+     "answer": "18.0"
+    },
+    {
+     "question": "Using Issue of Debentures at Par, compute the result for num_debentures = 4, app_rate = 4, allot_rate = 4.",
+     "solution": "Step 1: calculate application money: app_money = num_debentures * app_rate = 16.0 Step 2: calculate allotment money: allot_money = num_debentures * allot_rate = 16.0 Step 3: sum total receipts: total_cash = app_money + allot_money = 32.0 Final result: 32.0",
+     "answer": "32.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.202.3",
+   "title": "Issue of Debentures at a Discount",
+   "section": "2.4.2",
+   "definition": "Issuing debentures at a price lower than their face value, where the difference is treated as a capital loss.",
+   "formula": "issue_price = face_value - discount_amount",
+   "key_idea": "The discount is a loss to be written off against profits or securities premium.",
+   "textbook_ref": "leac202.txt lines 165-180",
+   "question_patterns": [
+    "find the issue price of a debenture at discount",
+    "calculate total discount on issue of debentures",
+    "how much is the bank receipt when debentures are issued at 5% discount",
+    "Numerical: apply Issue of Debentures at a Discount and compute the final value step by step.",
+    "Using the relation for Issue of Debentures at a Discount, calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate discount per unit",
+     "explain": "Apply the discount percentage to the face value.",
+     "compute": "unit_discount = face_value * discount_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate total discount",
+     "explain": "Multiply unit discount by the number of debentures.",
+     "compute": "total_discount = unit_discount * num_debentures"
+    },
+    {
+     "step": 3,
+     "action": "calculate net cash received",
+     "explain": "Subtract total discount from total face value.",
+     "compute": "net_cash = (num_debentures * face_value) - total_discount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Issue of Debentures at a Discount, compute the result for face_value = 3, discount_rate = 3, num_debentures = 3.",
+     "solution": "Step 1: calculate discount per unit: unit_discount = face_value * discount_rate / 100 = 0.09 Step 2: calculate total discount: total_discount = unit_discount * num_debentures = 0.27 Step 3: calculate net cash received: net_cash = (num_debentures * face_value) - total_discount = 8.73 Final result: 8.73",
+     "answer": "8.73"
+    },
+    {
+     "question": "Using Issue of Debentures at a Discount, compute the result for face_value = 4, discount_rate = 4, num_debentures = 4.",
+     "solution": "Step 1: calculate discount per unit: unit_discount = face_value * discount_rate / 100 = 0.16 Step 2: calculate total discount: total_discount = unit_discount * num_debentures = 0.64 Step 3: calculate net cash received: net_cash = (num_debentures * face_value) - total_discount = 15.36 Final result: 15.36",
+     "answer": "15.36"
+    }
+   ]
+  },
+  {
+   "id": "leac.202.4",
+   "title": "Issue of Debentures at a Premium",
+   "section": "2.4.3",
+   "definition": "The issuance of debentures at a price higher than their face value, with the excess credited to the Securities Premium Reserve.",
+   "formula": "issue_price = face_value + premium_amount",
+   "key_idea": "The premium is a capital gain used for specific purposes under the Companies Act.",
+   "textbook_ref": "leac202.txt lines 210-225",
+   "question_patterns": [
+    "calculate the premium on issue of debentures",
+    "what is the total amount credited to securities premium reserve",
+    "find the total bank receipt for debentures issued at a premium",
+    "Numerical: apply Issue of Debentures at a Premium and compute the final value step by step.",
+    "Using the relation for Issue of Debentures at a Premium, calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate premium per unit",
+     "explain": "Apply the premium percentage to the face value.",
+     "compute": "unit_premium = face_value * premium_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate total premium",
+     "explain": "Multiply unit premium by the number of debentures.",
+     "compute": "total_premium = unit_premium * num_debentures"
+    },
+    {
+     "step": 3,
+     "action": "calculate total proceeds",
+     "explain": "Add total premium to the total face value.",
+     "compute": "total_proceeds = (num_debentures * face_value) + total_premium"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Issue of Debentures at a Premium, compute the result for face_value = 3, premium_rate = 3, num_debentures = 3.",
+     "solution": "Step 1: calculate premium per unit: unit_premium = face_value * premium_rate / 100 = 0.09 Step 2: calculate total premium: total_premium = unit_premium * num_debentures = 0.27 Step 3: calculate total proceeds: total_proceeds = (num_debentures * face_value) + total_premium = 9.27 Final result: 9.27",
+     "answer": "9.27"
+    },
+    {
+     "question": "Using Issue of Debentures at a Premium, compute the result for face_value = 4, premium_rate = 4, num_debentures = 4.",
+     "solution": "Step 1: calculate premium per unit: unit_premium = face_value * premium_rate / 100 = 0.16 Step 2: calculate total premium: total_premium = unit_premium * num_debentures = 0.64 Step 3: calculate total proceeds: total_proceeds = (num_debentures * face_value) + total_premium = 16.64 Final result: 16.64",
+     "answer": "16.64"
+    }
+   ]
+  },
+  {
+   "id": "leac.202.5",
+   "title": "Issue for Consideration Other Than Cash",
+   "section": "2.6",
+   "definition": "Issuing debentures to vendors as payment for assets purchased or businesses acquired instead of paying in cash.",
+   "formula": "number_of_debentures = purchase_consideration / issue_price",
+   "key_idea": "The number of debentures depends on the agreed purchase price and the issue price (par, premium, or discount).",
+   "textbook_ref": "leac202.txt lines 300-320",
+   "question_patterns": [
+    "how many debentures should be issued to a vendor",
+    "calculate the number of debentures for asset purchase at premium",
+    "find the number of debentures issued for business acquisition at discount",
+    "Numerical: apply Issue for Consideration Other Than Cash and compute the final value step by step.",
+    "Using the relation for Issue for Consideration Other Than Cash, calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine issue price per unit",
+     "explain": "Adjust face value for premium or discount.",
+     "compute": "unit_issue_price = face_value + unit_premium - unit_discount"
+    },
+    {
+     "step": 2,
+     "action": "calculate number of units",
+     "explain": "Divide total purchase consideration by the issue price per unit.",
+     "compute": "num_units = purchase_consideration / unit_issue_price"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Issue for Consideration Other Than Cash, compute the result for face_value = 3, unit_premium = 3, unit_discount = 3, purchase_consideration = 2.",
+     "solution": "Step 1: determine issue price per unit: unit_issue_price = face_value + unit_premium - unit_discount = 3.0 Step 2: calculate number of units: num_units = purchase_consideration / unit_issue_price = 0.666667 Final result: 0.666667",
+     "answer": "0.666667"
+    },
+    {
+     "question": "Using Issue for Consideration Other Than Cash, compute the result for face_value = 4, unit_premium = 4, unit_discount = 4, purchase_consideration = 3.",
+     "solution": "Step 1: determine issue price per unit: unit_issue_price = face_value + unit_premium - unit_discount = 4.0 Step 2: calculate number of units: num_units = purchase_consideration / unit_issue_price = 0.75 Final result: 0.75",
+     "answer": "0.75"
+    }
+   ]
+  },
+  {
+   "id": "leac.202.6",
+   "title": "Debentures as Collateral Security",
+   "section": "2.7",
+   "definition": "Issuing debentures as a secondary or auxiliary security to a lender in addition to the primary security for a loan.",
+   "formula": "loan_amount = principal_borrowed",
+   "key_idea": "Collateral debentures do not carry interest until the primary security fails and the lender invokes them.",
+   "textbook_ref": "leac202.txt lines 430-450",
+   "question_patterns": [
+    "explain the concept of collateral security",
+    "how are debentures issued as collateral security shown in the balance sheet",
+    "what is the journal entry for debenture suspense",
+    "Explain Debentures as Collateral Security with a suitable example.",
+    "Write a short note on Debentures as Collateral Security."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check accounting method",
+     "explain": "Determine if the company uses the 'No Entry' method or the 'Debenture Suspense' method."
+    },
+    {
+     "step": 2,
+     "action": "verify balance sheet presentation",
+     "explain": "Ensure the loan is shown under long-term borrowings with a note about the collateral."
+    }
+   ]
+  },
+  {
+   "id": "leac.202.7",
+   "title": "Interest on Debentures",
+   "section": "2.9",
+   "definition": "Periodic payment made to debentureholders at a fixed rate calculated on the face value of the debentures.",
+   "formula": "interest = face_value * rate * time / 100",
+   "key_idea": "Interest is a charge against profits and is payable regardless of profit levels, subject to Tax Deducted at Source (TDS).",
+   "textbook_ref": "leac202.txt lines 570-585",
+   "question_patterns": [
+    "calculate interest on debentures for six months",
+    "find the amount of TDS on debenture interest",
+    "what is the net interest payable to debentureholders",
+    "Numerical: apply Interest on Debentures and compute the final value step by step.",
+    "Using the relation for Interest on Debentures, calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate gross interest",
+     "explain": "Multiply total nominal value by the coupon rate and time period.",
+     "compute": "gross_interest = total_face_value * coupon_rate * months / 1200"
+    },
+    {
+     "step": 2,
+     "action": "calculate tax deduction",
+     "explain": "Apply the TDS rate to the gross interest.",
+     "compute": "tds_amount = gross_interest * tds_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net payment",
+     "explain": "Subtract TDS from gross interest.",
+     "compute": "net_interest = gross_interest - tds_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Interest on Debentures, compute the result for total_face_value = 3, coupon_rate = 3, months = 3, tds_rate = 2.",
+     "solution": "Step 1: calculate gross interest: gross_interest = total_face_value * coupon_rate * months / 1200 = 0.0225 Step 2: calculate tax deduction: tds_amount = gross_interest * tds_rate / 100 = 0.00045 Step 3: calculate net payment: net_interest = gross_interest - tds_amount = 0.02205 Final result: 0.02205",
+     "answer": "0.02205"
+    },
+    {
+     "question": "Using Interest on Debentures, compute the result for total_face_value = 4, coupon_rate = 4, months = 4, tds_rate = 3.",
+     "solution": "Step 1: calculate gross interest: gross_interest = total_face_value * coupon_rate * months / 1200 = 0.053333 Step 2: calculate tax deduction: tds_amount = gross_interest * tds_rate / 100 = 0.0016 Step 3: calculate net payment: net_interest = gross_interest - tds_amount = 0.051733 Final result: 0.051733",
+     "answer": "0.051733"
+    }
+   ]
+  },
+  {
+   "id": "leac.202.8",
+   "title": "Debenture Redemption Investment (DRI)",
+   "section": "2.11",
+   "definition": "A mandatory investment in specified securities required by law to ensure liquidity for redeeming debentures.",
+   "formula": "dri_required = 0.15 * maturing_debentures_value",
+   "key_idea": "Companies must invest at least 15% of the nominal value of debentures maturing during the year by April 30.",
+   "textbook_ref": "leac202.txt lines 695-715",
+   "question_patterns": [
+    "calculate the amount to be invested in DRI",
+    "how much should a company deposit in specified securities for redemption",
+    "find the DRI requirement for debentures maturing next year",
+    "Numerical: apply Debenture Redemption Investment (DRI) and compute the final value step by step.",
+    "Using the relation for Debenture Redemption Investment (DRI), calculate the required quantity from the given data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify maturing amount",
+     "explain": "Determine the face value of debentures due for redemption in the current financial year.",
+     "compute": "maturing_value = num_to_redeem * face_value"
+    },
+    {
+     "step": 2,
+     "action": "calculate investment",
+     "explain": "Calculate 15% of the maturing face value.",
+     "compute": "dri_amount = maturing_value * 15 / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Debenture Redemption Investment (DRI), compute the result for num_to_redeem = 3, face_value = 3.",
+     "solution": "Step 1: identify maturing amount: maturing_value = num_to_redeem * face_value = 9.0 Step 2: calculate investment: dri_amount = maturing_value * 15 / 100 = 1.35 Final result: 1.35",
+     "answer": "1.35"
+    },
+    {
+     "question": "Using Debenture Redemption Investment (DRI), compute the result for num_to_redeem = 4, face_value = 4.",
+     "solution": "Step 1: identify maturing amount: maturing_value = num_to_redeem * face_value = 16.0 Step 2: calculate investment: dri_amount = maturing_value * 15 / 100 = 2.4 Final result: 2.4",
+     "answer": "2.4"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.13.1",
+   "title": "Redemption by Purchase in Open Market at a Discount",
+   "section": "2.13",
+   "definition": "When an entity buys back its own debt securities from the open market at a price below their face value for immediate cancellation, the difference is recognized as a capital profit on redemption.",
+   "formula": "profit_on_redemption = nominal_value - purchase_cost",
+   "key_idea": "Buying own debentures at lower than face value creates a profit on redemption credited to Capital Reserve.",
+   "textbook_ref": "leac202.txt lines 1-35",
+   "question_patterns": [
+    "calculate profit on redemption when debentures are purchased in open market",
+    "find the gain on cancellation of own debentures",
+    "how much profit is transferred to capital reserve on open market purchase",
+    "what is the net purchase consideration for debentures bought below par",
+    "Numerical: apply Redemption by Purchase in Open Market at a Discount and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total nominal value",
+     "explain": "multiply number of debentures by face value per debenture",
+     "compute": "nominal_value = num_debentures * face_value"
+    },
+    {
+     "step": 2,
+     "action": "calculate total purchase cost",
+     "explain": "multiply number of debentures by purchase price per debenture and add incidental expenses",
+     "compute": "purchase_cost = (num_debentures * purchase_price) + expenses"
+    },
+    {
+     "step": 3,
+     "action": "determine profit on redemption",
+     "explain": "deduct total purchase cost from nominal value",
+     "compute": "profit_on_redemption = nominal_value - purchase_cost"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Redemption by Purchase in Open Market at a Discount, compute the result for num_debentures = 3, face_value = 3, purchase_price = 3, expenses = 2.",
+     "solution": "Step 1: calculate total nominal value: nominal_value = num_debentures * face_value = 9.0 Step 2: calculate total purchase cost: purchase_cost = (num_debentures * purchase_price) + expenses = 11.0 Step 3: determine profit on redemption: profit_on_redemption = nominal_value - purchase_cost = -2.0 Final result: -2.0",
+     "answer": "-2.0"
+    },
+    {
+     "question": "Using Redemption by Purchase in Open Market at a Discount, compute the result for num_debentures = 4, face_value = 4, purchase_price = 4, expenses = 3.",
+     "solution": "Step 1: calculate total nominal value: nominal_value = num_debentures * face_value = 16.0 Step 2: calculate total purchase cost: purchase_cost = (num_debentures * purchase_price) + expenses = 19.0 Step 3: determine profit on redemption: profit_on_redemption = nominal_value - purchase_cost = -3.0 Final result: -3.0",
+     "answer": "-3.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.13.2",
+   "title": "Redemption by Purchase in Open Market at a Premium",
+   "section": "2.13",
+   "definition": "When an enterprise acquires its own debentures from the market at a rate higher than the nominal value, the excess amount paid represents a capital loss charged to statement of profit and loss.",
+   "formula": "loss_on_redemption = purchase_cost - nominal_value",
+   "key_idea": "Purchasing own debentures at a price above face value leads to a loss on redemption.",
+   "textbook_ref": "leac202.txt lines 15-25",
+   "question_patterns": [
+    "find the loss on redemption of debentures purchased above par",
+    "calculate the excess paid on open market purchase of debentures",
+    "what is the loss on cancellation of debentures",
+    "how much is debited to statement of profit and loss on open market buyback",
+    "Numerical: apply Redemption by Purchase in Open Market at a Premium and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute nominal value of debentures cancelled",
+     "explain": "multiply quantity of debentures by face value",
+     "compute": "nominal_value = num_debentures * face_value"
+    },
+    {
+     "step": 2,
+     "action": "compute total acquisition cost",
+     "explain": "multiply quantity by market purchase price and add expenses",
+     "compute": "purchase_cost = (num_debentures * purchase_price) + expenses"
+    },
+    {
+     "step": 3,
+     "action": "calculate loss on redemption",
+     "explain": "deduct nominal value from total purchase cost",
+     "compute": "loss_on_redemption = purchase_cost - nominal_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Redemption by Purchase in Open Market at a Premium, compute the result for num_debentures = 3, face_value = 3, purchase_price = 3, expenses = 2.",
+     "solution": "Step 1: compute nominal value of debentures cancelled: nominal_value = num_debentures * face_value = 9.0 Step 2: compute total acquisition cost: purchase_cost = (num_debentures * purchase_price) + expenses = 11.0 Step 3: calculate loss on redemption: loss_on_redemption = purchase_cost - nominal_value = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    },
+    {
+     "question": "Using Redemption by Purchase in Open Market at a Premium, compute the result for num_debentures = 4, face_value = 4, purchase_price = 4, expenses = 3.",
+     "solution": "Step 1: compute nominal value of debentures cancelled: nominal_value = num_debentures * face_value = 16.0 Step 2: compute total acquisition cost: purchase_cost = (num_debentures * purchase_price) + expenses = 19.0 Step 3: calculate loss on redemption: loss_on_redemption = purchase_cost - nominal_value = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.1",
+   "title": "Redemption of Debentures by Conversion into Shares at Par",
+   "section": "2.14",
+   "definition": "Discharge of debenture liability by issuing new equity or preference shares to debenture holders without any premium or discount on the new shares.",
+   "formula": "number_of_shares = amount_payable / issue_price_per_share",
+   "key_idea": "The total amount payable to debenture holders is settled by dividing it by the par issue price per share.",
+   "textbook_ref": "leac202.txt lines 85-115",
+   "question_patterns": [
+    "calculate the number of shares to be issued on conversion of debentures at par",
+    "how many equity shares are issued to redeem debentures",
+    "find the share capital created on conversion of debentures at par",
+    "determine the quantity of new shares issued on redemption",
+    "Numerical: apply Redemption of Debentures by Conversion into Shares at Par and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find total amount due to debentureholders",
+     "explain": "multiply number of debentures to be redeemed by redemption value per debenture",
+     "compute": "amount_payable = num_debentures * redemption_value"
+    },
+    {
+     "step": 2,
+     "action": "compute number of equity shares issued",
+     "explain": "divide the payable liability by the par value per share",
+     "compute": "number_of_shares = amount_payable / share_face_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Redemption of Debentures by Conversion into Shares at Par, compute the result for num_debentures = 3, redemption_value = 3, share_face_value = 3.",
+     "solution": "Step 1: find total amount due to debentureholders: amount_payable = num_debentures * redemption_value = 9.0 Step 2: compute number of equity shares issued: number_of_shares = amount_payable / share_face_value = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Redemption of Debentures by Conversion into Shares at Par, compute the result for num_debentures = 4, redemption_value = 4, share_face_value = 4.",
+     "solution": "Step 1: find total amount due to debentureholders: amount_payable = num_debentures * redemption_value = 16.0 Step 2: compute number of equity shares issued: number_of_shares = amount_payable / share_face_value = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.2",
+   "title": "Redemption of Debentures by Conversion into Shares at a Premium",
+   "section": "2.14",
+   "definition": "Settling debenture obligations by allotting new equity shares priced above their nominal face value, creating securities premium reserve.",
+   "formula": "number_of_shares = amount_payable / (share_face_value + premium_per_share)",
+   "key_idea": "The total issue price of a share includes face value plus premium, determining the count of shares issued.",
+   "textbook_ref": "leac202.txt lines 88-120",
+   "question_patterns": [
+    "calculate number of equity shares issued on conversion at premium",
+    "find securities premium credited on conversion of debentures",
+    "how many shares are issued to redeem debentures when shares are priced at premium",
+    "determine share capital and securities premium on redemption by conversion",
+    "Numerical: apply Redemption of Debentures by Conversion into Shares at a Premium and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate amount payable to debentureholders",
+     "explain": "multiply debentures redeemed by redemption price per debenture",
+     "compute": "amount_payable = num_debentures * redemption_price"
+    },
+    {
+     "step": 2,
+     "action": "determine issue price per share",
+     "explain": "add premium to nominal face value of new share",
+     "compute": "issue_price_per_share = share_face_value + premium_per_share"
+    },
+    {
+     "step": 3,
+     "action": "calculate count of new shares issued",
+     "explain": "divide total obligation by issue price per share",
+     "compute": "number_of_shares = amount_payable / issue_price_per_share"
+    },
+    {
+     "step": 4,
+     "action": "compute securities premium credited",
+     "explain": "multiply number of shares by premium per share",
+     "compute": "securities_premium = number_of_shares * premium_per_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Redemption of Debentures by Conversion into Shares at a Premium, compute the result for num_debentures = 3, redemption_price = 3, share_face_value = 3, premium_per_share = 2.",
+     "solution": "Step 1: calculate amount payable to debentureholders: amount_payable = num_debentures * redemption_price = 9.0 Step 2: determine issue price per share: issue_price_per_share = share_face_value + premium_per_share = 5.0 Step 3: calculate count of new shares issued: number_of_shares = amount_payable / issue_price_per_share = 1.8 Step 4: compute securities premium credited: securities_premium = number_of_shares * premium_per_share = 3.6 Final result: 3.6",
+     "answer": "3.6"
+    },
+    {
+     "question": "Using Redemption of Debentures by Conversion into Shares at a Premium, compute the result for num_debentures = 4, redemption_price = 4, share_face_value = 4, premium_per_share = 3.",
+     "solution": "Step 1: calculate amount payable to debentureholders: amount_payable = num_debentures * redemption_price = 16.0 Step 2: determine issue price per share: issue_price_per_share = share_face_value + premium_per_share = 7.0 Step 3: calculate count of new shares issued: number_of_shares = amount_payable / issue_price_per_share = 2.285714 Step 4: compute securities premium credited: securities_premium = number_of_shares * premium_per_share = 6.857143 Final result: 6.857143",
+     "answer": "6.857143"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.3",
+   "title": "Debenture Redemption Investment and Reserve Requirement",
+   "section": "2.14",
+   "definition": "Mandatory creation of a reserve out of divisible profits and investment of a minimum percentage of the nominal value of debentures maturing during the financial year into specified financial instruments.",
+   "formula": "dri_amount = nominal_maturing * dri_rate / 100",
+   "key_idea": "A specified percentage of debentures maturing in the year must be invested in prescribed securities before redemption.",
+   "textbook_ref": "leac202.txt lines 40-75",
+   "question_patterns": [
+    "calculate the amount to be invested in debenture redemption investment",
+    "find the required debenture redemption investment before redemption",
+    "how much should be invested in DRI for debentures maturing in current year",
+    "determine the minimum DRI amount required",
+    "Numerical: apply Debenture Redemption Investment and Reserve Requirement and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate nominal value of maturing debentures",
+     "explain": "multiply number of maturing debentures by face value",
+     "compute": "nominal_maturing = num_maturing_debentures * face_value"
+    },
+    {
+     "step": 2,
+     "action": "compute DRI investment amount",
+     "explain": "apply prescribed DRI percentage on maturing debentures nominal value",
+     "compute": "dri_amount = (nominal_maturing * dri_rate) / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Debenture Redemption Investment and Reserve Requirement, compute the result for num_maturing_debentures = 3, face_value = 3, dri_rate = 3.",
+     "solution": "Step 1: calculate nominal value of maturing debentures: nominal_maturing = num_maturing_debentures * face_value = 9.0 Step 2: compute DRI investment amount: dri_amount = (nominal_maturing * dri_rate) / 100 = 0.27 Final result: 0.27",
+     "answer": "0.27"
+    },
+    {
+     "question": "Using Debenture Redemption Investment and Reserve Requirement, compute the result for num_maturing_debentures = 4, face_value = 4, dri_rate = 4.",
+     "solution": "Step 1: calculate nominal value of maturing debentures: nominal_maturing = num_maturing_debentures * face_value = 16.0 Step 2: compute DRI investment amount: dri_amount = (nominal_maturing * dri_rate) / 100 = 0.64 Final result: 0.64",
+     "answer": "0.64"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac202.txt lines 136-160",
+   "concept": "leac.202.2",
+   "question_type": "compute",
+   "question_pattern": "ABC Limited issued {num} debentures of Rs. {face} each at par. {app} on application and {allot} on allotment. Public applied for {applied} debentures.",
+   "extracted_variables": {
+    "num": "10000",
+    "face": "100",
+    "app": "30",
+    "allot": "70",
+    "applied": "9000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate application money",
+     "explain": "9000 debentures * 30 per unit",
+     "compute": "app_money = applied * app"
+    },
+    {
+     "step": 2,
+     "action": "calculate allotment money",
+     "explain": "9000 debentures * 70 per unit",
+     "compute": "allot_money = applied * allot"
+    },
+    {
+     "step": 3,
+     "action": "total receipt",
+     "compute": "total_cash = app_money + allot_money"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "leac202.txt lines 340-365",
+   "concept": "leac.202.5",
+   "question_type": "compute",
+   "question_pattern": "Purchased assets of Rs. {price}. Paid by issuing debentures of Rs. {face} at {prem_pct}% premium.",
+   "extracted_variables": {
+    "price": "99000",
+    "face": "100",
+    "prem_pct": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate issue price",
+     "explain": "Face value + 10% premium",
+     "compute": "unit_issue_price = face * (1 + prem_pct / 100)"
+    },
+    {
+     "step": 2,
+     "action": "calculate number of debentures",
+     "explain": "Purchase price / issue price",
+     "compute": "num_units = price / unit_issue_price"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "leac202.txt Illustration 28",
+   "concept": "leac.2.13.1",
+   "question_type": "compute_profit_on_open_market_cancellation",
+   "question_pattern": "A company purchased {num_debentures} of its own debentures of Rs. {face_value} each from the open market for cancellation at Rs. {purchase_price}. Find the profit on redemption.",
+   "extracted_variables": {
+    "num_debentures": "number of debentures purchased (200)",
+    "face_value": "nominal face value per debenture (100)",
+    "purchase_price": "market price paid per debenture (92)",
+    "expenses": "incidental transaction expenses (0)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total nominal value",
+     "explain": "200 debentures of Rs. 100 each = Rs. 20,000",
+     "compute": "nominal_value = num_debentures * face_value"
+    },
+    {
+     "step": 2,
+     "action": "calculate total purchase cost",
+     "explain": "200 debentures at Rs. 92 each = Rs. 18,400",
+     "compute": "purchase_cost = (num_debentures * purchase_price) + expenses"
+    },
+    {
+     "step": 3,
+     "action": "determine profit on redemption",
+     "explain": "Rs. 20,000 - Rs. 18,400 = Rs. 1,600",
+     "compute": "profit_on_redemption = nominal_value - purchase_cost"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "leac202.txt Illustration 31",
+   "concept": "leac.2.14.2",
+   "question_type": "compute_shares_on_conversion",
+   "question_pattern": "A company redeemed {num_debentures} debentures of Rs. {redemption_price} each by converting them into equity shares of Rs. {share_face_value} each at a premium of Rs. {premium_per_share} per share. Calculate the number of equity shares issued.",
+   "extracted_variables": {
+    "num_debentures": "number of debentures to be converted (1000)",
+    "redemption_price": "value per debenture payable (100)",
+    "share_face_value": "nominal value of equity share (10)",
+    "premium_per_share": "securities premium per share (2.50)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate amount payable to debentureholders",
+     "explain": "1000 debentures x Rs. 100 = Rs. 1,00,000",
+     "compute": "amount_payable = num_debentures * redemption_price"
+    },
+    {
+     "step": 2,
+     "action": "determine issue price per share",
+     "explain": "Rs. 10 + Rs. 2.50 = Rs. 12.50",
+     "compute": "issue_price_per_share = share_face_value + premium_per_share"
+    },
+    {
+     "step": 3,
+     "action": "calculate count of new shares issued",
+     "explain": "Rs. 1,00,000 / Rs. 12.50 = 8000 shares",
+     "compute": "number_of_shares = amount_payable / issue_price_per_share"
+    },
+    {
+     "step": 4,
+     "action": "compute securities premium credited",
+     "explain": "8000 shares x Rs. 2.50 = Rs. 20,000",
+     "compute": "securities_premium = number_of_shares * premium_per_share"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "leac202.txt Illustration 33",
+   "concept": "leac.2.13.1",
+   "question_type": "compute_profit_on_cancellation",
+   "question_pattern": "LCM Ltd. purchased for cancellation {num_debentures} debentures of Rs. {face_value} each at Rs. {purchase_price} each. Calculate the profit on cancellation transferred to capital reserve.",
+   "extracted_variables": {
+    "num_debentures": "number of debentures (1000000)",
+    "face_value": "face value (500)",
+    "purchase_price": "purchase price (480)",
+    "expenses": "expenses incurred (0)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total nominal value",
+     "explain": "10,00,000 * 500 = 50,00,00,000",
+     "compute": "nominal_value = num_debentures * face_value"
+    },
+    {
+     "step": 2,
+     "action": "calculate total purchase cost",
+     "explain": "10,00,00,000 * 480 = 48,00,00,000",
+     "compute": "purchase_cost = (num_debentures * purchase_price) + expenses"
+    },
+    {
+     "step": 3,
+     "action": "determine profit on redemption",
+     "explain": "50,00,00,000 - 48,00,00,000 = 2,00,00,000",
+     "compute": "profit_on_redemption = nominal_value - purchase_cost"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "leac202.txt lines 410-425",
+   "questions": [
+    "Amrit Company Limited purchased assets of the value of Rs. 2,20,000 from another company and agreed to make the payment of purchase consideration by issuing 2,000, 10% debentures of Rs.100 each at a premium of 10%. Record necessary journal entries.",
+    "A company purchased assets of the value of Rs.1,90,000 from another company and agreed to make the payment of purchase consideration by issuing 2,000, 10% debentures of Rs. 100 each at a discount of 5%. Record necessary journal entries."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "leac202.txt lines 675-685",
+   "questions": [
+    "State whether the following statements are True (T) or False (F): Debenture is a part of owned capital.",
+    "The payment of interest on debentures is a charge on the profits of the company.",
+    "A collateral security is a subsidiary security."
+   ]
+  },
+  {
+   "id": "p2_ex_tyu_2",
+   "source_ref": "leac202.txt Test your Understanding - II",
+   "questions": [
+    "1. Debentures which are transferable by mere delivery are: (a) Registered debentures, (b) First debentures, (c) Bearer debentures.",
+    "2. The following journal entry appears in the books of X Co. Ltd. Bank a/c Dr. 4,75,000 Loss on issue of debenture a/c Dr. 75,000 To 12% Debentures a/c 5,00,000 To Premium on Redemption of Debenture A/c 50,000. Debentures have been issued at a discount of: (a) 15%, (b) 5%, (c) 10%.",
+    "3. X Co. Ltd. purchased assets worth Rs. 28,80,000. It issued debentures of Rs. 100 each at a discount of 4 per cent in full satisfaction of the purchase consideration. The number of debentures issued to vendor is: (a) 30,000, (b) 28,800, (c) 32,000.",
+    "4. Convertible debentures cannot be issued at a discount if: (a) They are to be immediately converted, (b) They are not to be immediately converted, (c) None of the above.",
+    "5. When debentures are issued at par and are redeemable at a premium, the loss on such an issue is debited to: (a) Statement of profit and loss, (b) Debentures applications and allotment account, (c) Loss on issue of debentures account.",
+    "6. Excess value of net assets over purchase consideration at the time of purchase of business is credited to: (a) General reserve, (b) Capital reserve, (c) Vendors account.",
+    "7. Own debentures are those debentures of the company which: (a) The company allots to its own promoters, (b) The company allots to its Director, (c) The company purchases from the market and keeps them as investments.",
+    "8. Profit on cancellation of own debentures is transferred to: (a) Statement of profit and loss, (b) Debenture redemption reserve, (c) Capital reserve."
+   ]
+  },
+  {
+   "id": "p2_ex_diy",
+   "source_ref": "leac202.txt Do it Yourself",
+   "questions": [
+    "1. G. Ltd., has Rs. 800 lakh, 10% debentures of Rs. 100 each due for redemption on March 31, 2017. Give journal entries for issue and redemption of debentures.",
+    "2. R. Ltd., issued 88,00,000, 8% debenture of Rs. 50 each at a premium of 5% on July 1, 2014 redeemable at par by conversion of debentures into shares of Rs. 20 each at a premium of Rs. 2 per share on June 30, 2017. Record necessary entries for redemption of debentures.",
+    "3. C. Ltd. has outstanding 11,00,000, 10% debentures of Rs. 200 each, on April 1, 2017. The Board of Directors have decided to purchase 20% of own debentures for cancellation at Rs. 200 each. Record necessary entries for the same.",
+    "4. Record necessary journal entries in the books of the Company in each of the following cases for redemption of 1,000, 12% Debentures of Rs. 10 each issued at par: (a) Debentures redeemed at par by conversion into 12% Preference Shares of Rs. 100 each; (b) Debentures redeemed at a premium of 10% by conversion into Equity Shares issued at par; (c) Debentures redeemed at a premium of 10% by conversion into Equity Shares issued at a premium of 25%.",
+    "5. On 31 March, 2017 Janta Ltd. converted its Rs. 88,00,000, 6% debentures into equity shares of Rs. 20 each at a premium of Rs. 2 per share. Record necessary journal entries in the books of the company for redemption of debentures.",
+    "6. Anirudh Ltd. has 4,000, 8% debentures of Rs. 100 each due for redemption on March 31, 2017. The company has a debenture redemption reserve of Rs. 50,000 on that date. Assuming that no interest is due, record the necessary journal entries at the time of redemption of debentures.",
+    "7. X Ltd. were to redeem 8,000, 10% debentures of Rs. 100 each on April 1, 2017 at a premium of 5%. The company has a surplus of Rs. 9,00,000 in the statement of profit and loss. Record journal entries.",
+    "8. G Ltd. issued 5,00,000, 12% debentures of Rs. 100 each on April 1, 2013 redeemable at par on July 1, 2017. How much amount of Debenture Redemption Reserve is to be created before redemption is carried out? Record entries."
+   ]
+  },
+  {
+   "id": "p2_ex_num",
+   "source_ref": "leac202.txt Numerical Questions",
+   "questions": [
+    "1. G. Ltd. a listed company issued 75,00,000, 6% debentures of Rs. 50 each at par payable Rs. 15 on application and Rs. 35 on allotment, redeemable at par after 7 years. Record necessary entries.",
+    "2. Y. Ltd. issued 2,000, 6% debentures of Rs. 100 each payable as follows: Rs. 25 on application; Rs. 50 on allotment and Rs. 25 on first and final call. Record necessary entries.",
+    "3. A. Ltd. issued 10,000, 10% debentures of Rs. 100 each at a premium of 5% payable Rs. 10 on application, Rs. 20 along with premium on allotment and balance on call. Record journal entries.",
+    "4. A. Ltd. issued 90,00,000, 9% debenture of Rs. 50 each at a discount of 8%, redeemable at par any time after 9 years. Record entries.",
+    "5. A. Ltd. issued 4,000, 9% debentures of Rs. 100 each on specified terms with pro-rata allotment. Record journal entries.",
+    "6. T. Ltd. offered 2,00,000, 8% debenture of Rs. 500 each at a premium of 10% on pro-rata basis. Record journal entries.",
+    "7. X. Ltd. invited applications for 10,000 debentures with partial allotment and rejection. Record journal entries.",
+    "8. R. Ltd. offered 20,00,000, 10% debentures of Rs. 200 each at a discount of 7% redeemable at premium of 8% after 9 years. Record entries.",
+    "9. M. Ltd. took over assets of Rs. 9,00,00,000 and liabilities of Rs. 70,00,000 of S.Ltd. and issued 8% debentures of Rs. 100 each. Record entries.",
+    "10. B. Ltd. purchased assets of book value Rs. 4,00,000 and took over liability of Rs. 50,000 with purchase consideration Rs. 3,80,000 paid by debentures at par, 10% discount, and 10% premium.",
+    "11. X. Ltd. purchased Machinery at Rs. 4,40,000 settled by issue of 12% debentures of Rs. 100 each at a premium of Rs. 10 per debenture.",
+    "12. X. Ltd. issued 15,000, 10% debentures of Rs. 100 each in 4 different cases: premium of 10%, discount of 5%, collateral security, and issue to machinery supplier.",
+    "13. Journalise issue and redemption conditions for debentures issued at discount/par and repayable at par/premium.",
+    "14. A. Ltd. issued 50,00,000, 8% debentures of Rs. 100 at 6% discount redeemable at 4% premium by draw of lots. Record entries and prepare discount account.",
+    "15. Record issue and redemption entries for 5 distinct debenture issuance scenarios for a listed company.",
+    "16. A listed company issued debentures of face value Rs. 5,00,000 at 6% discount redeemable by annual drawings of Rs. 1,00,000.",
+    "17. B. Ltd. issued debentures at 94% for Rs. 4,00,000 repayable by five equal drawings of Rs. 80,000 each.",
+    "18. B. Ltd. issued 1,000, 12% debentures of Rs. 100 at 5% discount redeemable at 10% premium. Record issue and interest entries with 10% TDS.",
+    "19. Jay Kay Ltd. issued 60,000, 12% debentures of Rs. 100 at par redeemable at 20% premium. Record entries for issue, writing off loss, interest, and redemption with DRR and DRI.",
+    "20. Madhur Ltd. has outstanding debentures of Rs. 50,00,000 redeemable at par. Record entries for DRR, DRI, and redemption.",
+    "21. MK Ltd. has outstanding Rs. 30,000, 11% debentures of Rs. 100 each redeemable at 10% premium in three tranches.",
+    "22. X Ltd. had outstanding 20,000, 12% debentures of Rs. 100 each redeemable on June 30, 2019. Record redemption entries.",
+    "23. XYZ Ltd. issued 6,000, 12% debentures of Rs. 50 redeemable in four equal installments across six cases of issue and redemption terms."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

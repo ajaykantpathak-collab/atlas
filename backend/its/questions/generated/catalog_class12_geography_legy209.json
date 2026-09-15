@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy209",
+  "concepts": [
+    {
+      "id": "legy.209.1",
+      "questions": [
+        {"q": "About what per cent of the world's people live in cities today? (give the per cent)", "a": "55"},
+        {"q": "By which year is the world's urban share projected to reach 68 per cent? (give the year)", "a": "2050"},
+        {"q": "From today's 55 per cent to a projected 68 per cent is how many percentage points of urban growth? (number)", "a": "13"},
+        {"q": "Name one kind of pollution concentrated by urban surge besides air and waste. (one word)", "a": "water"},
+        {"q": "What is the concentration of people, pollution and pressure in cities called? (one word)", "a": "urbanisation"},
+        {"q": "Is the world's urban share rising or falling? (one word)", "a": "rising"},
+        {"q": "Urban growth puts pressure on governments and on what else? (one word)", "a": "environments"}
+      ]
+    },
+    {
+      "id": "legy.209.2",
+      "questions": [
+        {"q": "Which water-borne disease, caused by Vibrio bacteria, spreads through polluted water? (one word)", "a": "cholera"},
+        {"q": "Which intestinal disease completes the water-borne list besides cholera, typhoid and jaundice? (one word)", "a": "diarrhoea"},
+        {"q": "Which common intestinal complaint spreads via polluted drinking water? (one word)", "a": "diarrhoea"},
+        {"q": "Which two waste streams pollute rivers: sewage and industrial what? (one word)", "a": "effluents"},
+        {"q": "Which social group bears the heaviest burden of polluted surface water? (one word)", "a": "poor"},
+        {"q": "Untreated sewage flows chiefly into rivers and what underground source? (two words)", "a": "groundwater"},
+        {"q": "Which fever, spread via polluted water, is named alongside cholera? (one word)", "a": "typhoid"}
+      ]
+    },
+    {
+      "id": "legy.209.3",
+      "questions": [
+        {"q": "What is the advance of desert-like conditions into productive land called? (one word)", "a": "desertification"},
+        {"q": "Which human activity of cutting forests degrades land? (one word)", "a": "deforestation"},
+        {"q": "Which over-use of grasslands by cattle degrades land? (two words)", "a": "overgrazing"},
+        {"q": "Which faulty farm practice raises soil salinity and degrades land? (one word)", "a": "irrigation"},
+        {"q": "In which tracts does desertification advance fastest: arid and semi-arid or humid? (short phrase)", "a": "arid and semi-arid"},
+        {"q": "Which watershed-based treatment checks land degradation? (one word)", "a": "watershed"},
+        {"q": "Besides watershed treatment and shelter belts, what discipline over cattle checks degradation? (two words)", "a": "grazing discipline"}
+      ]
+    },
+    {
+      "id": "legy.209.4",
+      "questions": [
+        {"q": "Which statutory bodies enforce emission norms in India? (two words)", "a": "pollution control boards"},
+        {"q": "Which citizen practice of rooftop capture is a personal environmental measure? (two words)", "a": "rainwater harvesting"},
+        {"q": "Segregating household refuse into wet and dry streams is called waste what? (one word)", "a": "segregation"},
+        {"q": "Which green programme of tree planting is a government measure against degradation? (one word)", "a": "afforestation"},
+        {"q": "Which shared urban transport cuts per-person emissions? (two words)", "a": "public transport"},
+        {"q": "What is described as the multiplier of all environmental measures? (one word)", "a": "awareness"},
+        {"q": "Name one citizen measure against environmental issues besides harvesting and segregation. (two words)", "a": "public transport"}
+      ]
+    }
+  ]
+}

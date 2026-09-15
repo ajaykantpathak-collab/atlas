@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_011",
+   "title": "c11_math_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the domain and range of the function f(x) = [x] (greatest integer function), and why does its graph consist of horizontal line segments with jumps at integer values?",
+     "a": "Domain = ℝ (all real numbers), Range = ℤ (all integers). The graph has horizontal segments because for any x in [n, n+1) where n ∈ ℤ, [x] = n (constant), creating a horizontal line at y = n. At x = n+1, the value jumps to n+1, creating a discontinuity. A wrong answer (e.g., range = ℝ) reveals the student confuses the greatest integer function with the identity function f(x) = x, not understanding that [x] outputs only integers regardless of input.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the graph of f(x) = 1/x has two separate branches (one in Quadrant I, one in Quadrant III) and never touches either axis, whereas the graph of f(x) = x³ is a single continuous curve passing through the origin.",
+     "a": "f(x) = 1/x is undefined at x = 0 (division by zero), so the domain excludes 0, splitting the graph into two disconnected branches. As x → 0⁺, f(x) → +∞; as x → 0⁻, f(x) → -∞, creating vertical asymptote x = 0. As x → ±∞, f(x) → 0, creating horizontal asymptote y = 0. f(x) = x³ is a polynomial defined for all ℝ, continuous everywhere, with f(0) = 0. A wrong answer (e.g., \"both pass through origin\") reveals confusion between rational functions (with domain restrictions and asymptotes) and polynomial functions (defined everywhere, no asymptotes).",
+     "self_check": true
+    },
+    {
+     "q": "Sketch the graph of f(x) = |x - 2| + 1. Identify the vertex, axis of symmetry, domain, range, and intercepts.",
+     "a": "Vertex: (2, 1). Axis of symmetry: x = 2. Domain: ℝ. Range: [1, ∞). y-intercept: (0, 3) since f(0) = |0-2|+1 = 3. x-intercepts: None (|x-2|+1 ≥ 1 > 0). Graph: V-shape opening upward, vertex at (2,1), left arm slope -1, right arm slope +1. Steps: 1) Start with f(x) = |x| (vertex at origin). 2) Shift right 2 units: |x-2|. 3) Shift up 1 unit: |x-2|+1. A wrong vertex (e.g., (-2,1)) reveals misunderstanding of horizontal shift direction (x - h shifts right, not left).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of f(x) = x² and g(x) = x²/(x²+1). Both have domain ℝ and are even functions. Explain why f(x) has range [0, ∞) while g(x) has range [0, 1), and how their asymptotic behaviors differ.",
+     "a": "f(x) = x² grows without bound as x → ±∞ (range [0, ∞), no horizontal asymptote). g(x) = x²/(x²+1) = 1 - 1/(x²+1). As x → ±∞, 1/(x²+1) → 0, so g(x) → 1 from below (horizontal asymptote y = 1). Since x²+1 > x² for all x, g(x) < 1 always. At x = 0, g(0) = 0. Range = [0, 1). A wrong answer claiming g(x) reaches 1 reveals failure to analyze the rational function's structure: g(x) = 1 - 1/(x²+1) < 1 for all finite x.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The graph of (f+g)(x) where f(x) = 1/x and g(x) = x is just the graph of f(x) shifted up by g(x), so it looks like 1/x but higher.\" Evaluate this claim. Is it correct? If not, what is the correct graph of (f+g)(x) = x + 1/x, and what are its key features?",
+     "a": "The claim is incorrect. \"Shifting up by g(x)\" is meaningless because g(x) = x is not a constant — the vertical shift varies with x. Correct: h(x) = x + 1/x. Domain: ℝ \\ {0}. As x → 0⁺, h(x) → +∞; as x → 0⁻, h(x) → -∞ (vertical asymptote x = 0). As x → ±∞, 1/x → 0, so h(x) ≈ x (oblique asymptote y = x). Derivative h'(x) = 1 - 1/x² = 0 at x = ±1. Local minimum at (1, 2), local maximum at (-1, -2). The graph has two branches with a \"gap\" at x = 0, each approaching the line y = x. A wrong answer reveals confusion between constant vertical shifts (f(x) + c) and function addition (f(x) + g(x)).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that can be modeled by a piecewise function combining at least two of the seven standard functions. Define the function, state its domain/range in context, sketch the graph, and explain what the graph's features represent in your scenario.",
+     "a": "Example: Electricity billing in Mumbai. First 100 units: ₹3/unit (constant rate → linear). Next 200 units: ₹5/unit. Above 300 units: ₹8/unit. Function: C(x) = 3x for 0 ≤ x ≤ 100; C(x) = 300 + 5(x-100) = 5x - 200 for 100 < x ≤ 300; C(x) = 1300 + 8(x-300) = 8x - 1100 for x > 300. Domain: [0, ∞) (units consumed). Range: [0, ∞) (bill in ₹). Graph: Three line segments with increasing slopes (3, 5, 8) joined at (100, 300) and (300, 1300). Features: Slope = marginal cost per unit; kinks = slab boundaries; intercepts = fixed charges (none here). A poor answer uses only one function type or ignores domain restrictions, showing inability to synthesize multiple concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

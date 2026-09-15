@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_005",
+   "title": "c12_soc_cbse_12_005",
+   "questions": [
+    {
+     "q": "According to the NCERT text, what percentage of India's workforce was employed in the unorganised/informal sector, and what is the minimum employee threshold for an enterprise to be classified as \"organised\" under the definition discussed in the chapter?",
+     "a": "Over 90% of India's workforce is in the unorganised/informal sector. The organised sector is defined as units employing ten or more people throughout the year that are registered with the government. A wrong answer (e.g., \"50% informal\" or \"20 employee threshold\") reveals the student has not internalised the core statistical fact that defines the Indian labour market's structural peculiarity — this number (90%+) is the single most cited statistic in board exam questions on this topic.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"In India, over 52% of the workers are self-employed, only about 24% are in regular salaried employment, while approximately 24% are in casual labour.\" A student argues: \"Since 52% are self-employed, they must be entrepreneurs with control over their work.\" Explain why this reasoning is sociologically flawed using the chapter's discussion of home-based work and the bidi industry.",
+     "a": "Self-employment in India is predominantly \"own-account work\" in the informal sector — home-based bidi rollers, street vendors, petty artisans — where the worker has no control over raw material prices, piece-rates, or market access; the contractor/agent sets terms. The bidi worker rolls 1000 bidis/day for a piece-rate determined by the contractor who controls tobacco/leaf supply and marketing. A wrong answer reveals the student conflates \"self-employed\" (a legal/administrative category) with \"autonomous entrepreneur\" (a class position), missing the chapter's core argument that informalisation creates the *illusion* of independence while reproducing dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A Maruti Udyog factory produces 2 cars per minute. Workers get 45 minutes total rest daily (two 7.5-min tea breaks + 30-min lunch). The firm outsources cleaning, security, and parts manufacturing to ancillary units located nearby that deliver parts every 2 hours (just-in-time). If an ancillary unit fails to deliver on time, Maruti's line stops. Explain how this just-in-time system disciplines *both* Maruti's permanent workers and the ancillary unit's contract workers, using the concept of \"time slavery\" from the chapter.",
+     "a": "Just-in-time creates a double discipline: (1) Maruti's permanent workers must \"run to keep up\" when delayed parts arrive, intensifying labour pace without wage increase — they internalise the time pressure as personal failure (\"exhausted by 40\"). (2) Ancillary unit workers face unpredictable schedules — idle when no order, then forced overtime when urgent delivery is demanded — with no overtime pay because they are contract/casual. The system externalises risk to the smallest units. A wrong answer focusing only on \"efficiency\" misses the sociological point: technology (JIT) reorganises social relations of production to fragment worker solidarity across the supply chain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Bombay Textile Strike of 1982 (led by Datta Samant, 2.5 lakh workers, 2 years, demand for better wages and independent union) with the contemporary condition of IT sector workers described in Box 5.1 (\"Time Slavery\"). Identify two structural similarities and two fundamental differences in the nature of worker exploitation and capacity for collective action.",
+     "a": "Similarities: (1) Both face intensified work rhythms — textile workers \"extensions of the machine,\" IT workers \"time slavery\" with 10-12 hour days and night-outs; (2) Both experience job insecurity — badli/contract workers in mills, project-based contracts in IT. Differences: (1) Textile workers shared a common workplace, caste/regional networks, and physical proximity enabling mass mobilisation; IT workers are isolated in cubicles/call centres, managed through \"flexi-time\" ideology that individualises overtime. (2) Textile workers had a visible employer (mill owner) to strike against; IT workers' real employer is often a foreign client, mediated by layers of subcontracting — no single gate to picket. A weak answer lists surface features without analysing how spatial/temporal organisation of work shapes collective action capacity.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT notes: \"Government employment in India has played a major role in overcoming boundaries of caste, religion and region. One sociologist has argued that the reason why there have never been communal riots in a place like Bhilai is because the public sector Bhilai Steel Plant employs people from all over India who work together.\" Evaluate this claim in light of the chapter's data on disinvestment and shrinking public sector employment. Is the decline of public sector jobs likely to weaken or strengthen social cohesion in industrial towns? Justify.",
+     "a": "The claim is plausible but not deterministic — Bhilai's cohesion stems from *stable, benefit-secure* employment creating interdependent daily routines across identities. Disinvestment (e.g., Modern Foods: 60% forced retirement in 5 years) replaces such jobs with contract/casual work where workers compete for daily survival, eroding the material basis for cross-caste solidarity. Shrinking public sector weakens cohesion because: (a) fewer \"anchor\" institutions for mixed-community interaction, (b) rising income inequality (liberalisation correlates with inequality per text) maps onto caste lines, (c) casual workers lack time/energy for civic engagement. A poor answer treats the Bhilai example as proof rather than a hypothesis requiring testing against the informalisation trend.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question survey instrument to investigate whether \"work from home\" (WFH) during COVID-19 (Activity 5.3) replicated the exploitation patterns of traditional home-based work (bidi rolling) or created new forms of autonomy for women workers. For each question, state the specific concept from the chapter it operationalises (e.g., piece-rate, contractor control, time discipline, social isolation, double burden).",
+     "a": "Sample questions: (1) \"Who sets your daily output target — you, your manager, or an algorithm?\" [Operationalises: labour process control / Taylorism vs autonomy] (2) \"Are you paid a fixed monthly salary or per task/deliverable completed?\" [Operationalises: piece-rate vs time-wage] (3) \"Who provides your work equipment (laptop, internet, software) — you or the company?\" [Operationalises: means of ownership / contractor-supplied raw materials] (4) \"How many hours of unpaid domestic/care work do you perform on a typical WFH day?\" [Operationalises: double burden / gendered division of labour] (5) \"Do you interact with colleagues about work problems, or is communication only task-based with supervisors?\" [Operationalises: worker solidarity / isolation]. A weak survey asks only about \"satisfaction\" without probing the structural relations of production.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 104,
+ "chapter_title": "Planning",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs104.txt",
+ "concepts": [
+  {
+   "id": "lebs.4.1",
+   "title": "Concept and Meaning of Planning",
+   "section": "4.1",
+   "definition": "Planning is the managerial process of establishing organizational targets ahead of time and mapping out specific actions to fulfill them efficiently.",
+   "formula": "",
+   "key_idea": "Determining in advance what needs to be accomplished, how it will be executed, and who will execute it.",
+   "textbook_ref": "lebs104.txt lines 30-70",
+   "question_patterns": [
+    "what is the meaning of planning",
+    "define planning in management",
+    "explain how planning bridges the gap between present and future position",
+    "state the primary focus of planning"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define setting objectives",
+     "explain": "Planning starts with setting specific organizational goals for a clear timeframe."
+    },
+    {
+     "step": 2,
+     "action": "Identify courses of action",
+     "explain": "It requires formulating multiple pathways to attain the predetermined objectives."
+    },
+    {
+     "step": 3,
+     "action": "Select the best alternative",
+     "explain": "Managers evaluate choices and select the optimal strategy to bridge the gap between present state and desired target."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.2",
+   "title": "Importance of Planning",
+   "section": "4.2",
+   "definition": "Planning provides organizational direction, minimizes operational uncertainty, eliminates redundant activities, fosters innovative thinking, facilitates decision making, and establishes control standards.",
+   "formula": "",
+   "key_idea": "Systematic planning enables smooth coordination and sets reference benchmarks for evaluating performance.",
+   "textbook_ref": "lebs104.txt lines 71-135",
+   "question_patterns": [
+    "why is planning important for an enterprise",
+    "explain how planning reduces the risks of uncertainty",
+    "how does planning provide directions to employees",
+    "discuss how planning establishes standards for controlling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze direction and uncertainty reduction",
+     "explain": "Clear goals clarify expectations for employees, while foresight helps anticipate and prepare for dynamic changes."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate efficiency and innovation benefits",
+     "explain": "Coordinated action prevents overlapping efforts, and strategic thinking generates creative business solutions."
+    },
+    {
+     "step": 3,
+     "action": "Connect planning to controlling",
+     "explain": "Planning sets target standards; controlling measures actual outputs against these predetermined targets to find deviations."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.3",
+   "title": "Features of Planning",
+   "section": "4.3",
+   "definition": "Planning is characterized by goal orientation, primacy among management functions, pervasive application, continuous nature, forward-looking orientation, decision involvement, and mental rigor.",
+   "formula": "",
+   "key_idea": "An intellectual, pervasive, and continuous function that forms the foundation for all other administrative tasks.",
+   "textbook_ref": "lebs104.txt lines 136-220",
+   "question_patterns": [
+    "state the main features of planning",
+    "why is planning called a pervasive function",
+    "explain planning as a continuous process",
+    "how is planning a mental exercise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify core characteristics",
+     "explain": "Examine whether the feature reflects goal orientation, primary foundation, or pervasive scope across management tiers."
+    },
+    {
+     "step": 2,
+     "action": "Assess process attributes",
+     "explain": "Recognize that plans follow cyclical continuous iterations and focus on futuristic forecasting."
+    },
+    {
+     "step": 3,
+     "action": "Highlight intellectual demand",
+     "explain": "Confirm that planning involves analytical thinking, logical foresight, and systematic decision making rather than guesswork."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.4",
+   "title": "Limitations of Planning",
+   "section": "4.4",
+   "definition": "Constraints in planning include creating operational rigidity, vulnerability to dynamic environmental shifts, suppression of initiative, high financial expense, heavy time consumption, and lack of guaranteed success.",
+   "formula": "",
+   "key_idea": "Plans can create inflexibility and high overhead costs without guaranteeing success in dynamic market conditions.",
+   "textbook_ref": "lebs104.txt lines 221-280",
+   "question_patterns": [
+    "what are the major limitations of planning",
+    "how does planning lead to rigidity",
+    "why does planning reduce creativity in middle management",
+    "does planning guarantee success for an enterprise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify structural constraints",
+     "explain": "Pre-decided plans make managers reluctant to adapt, introducing organizational rigidity."
+    },
+    {
+     "step": 2,
+     "action": "Analyze environmental and behavioral limitations",
+     "explain": "Unpredictable environmental changes derail forecasts, and rigid execution by lower staff suppresses individual innovation."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate economic resource costs",
+     "explain": "Extensive investigation and time expenditure may outweigh operational benefits without assuring success."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.5",
+   "title": "Steps in the Planning Process",
+   "section": "4.5",
+   "definition": "The systematic sequence of planning actions: setting objectives, establishing premises, identifying course alternatives, evaluating options, selecting a plan, implementation, and follow-up review.",
+   "formula": "",
+   "key_idea": "A step-by-step procedure moving from goal specification to continuous implementation and monitoring.",
+   "textbook_ref": "lebs104.txt lines 281-360",
+   "question_patterns": [
+    "explain the steps in the planning process",
+    "what is meant by developing premises in planning",
+    "how are alternative courses evaluated",
+    "what is the final step in the planning process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set objectives and develop premises",
+     "explain": "Establish measurable organizational targets and formulate baseline assumptions/forecasts about future conditions."
+    },
+    {
+     "step": 2,
+     "action": "Identify and evaluate alternatives",
+     "explain": "Generate potential action courses and weigh their pros, cons, costs, and expected returns."
+    },
+    {
+     "step": 3,
+     "action": "Select, implement, and perform follow-up",
+     "explain": "Adopt the optimal plan, allocate required resources for execution, and systematically track ongoing performance."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.6",
+   "title": "Single-Use and Standing Plans",
+   "section": "4.6",
+   "definition": "Single-use plans are designed for non-recurring unique projects, whereas standing plans govern repetitive ongoing activities to standardize routine operations.",
+   "formula": "",
+   "key_idea": "Operational plans differ based on whether they target unique one-time events or ongoing repetitive functions.",
+   "textbook_ref": "lebs104.txt lines 361-410",
+   "question_patterns": [
+    "distinguish between single-use plans and standing plans",
+    "give examples of single-use plans",
+    "what are standing plans in an organization",
+    "classify budgets and procedures as single-use or standing plans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define single-use plans",
+     "explain": "Identify plans crafted for specific non-repetitive events, such as projects, programmes, and budgets."
+    },
+    {
+     "step": 2,
+     "action": "Define standing plans",
+     "explain": "Identify recurring guidelines designed to handle regular organizational activities, such as policies, procedures, methods, and rules."
+    },
+    {
+     "step": 3,
+     "action": "Compare usage and duration",
+     "explain": "Single-use plans expire upon project completion, whereas standing plans persist and undergo periodic modifications."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.7",
+   "title": "Types of Plans (Objective, Strategy, Policy, Procedure, Method, Rule, Programme)",
+   "section": "4.7",
+   "definition": "Plans are classified into distinct functional types based on purpose: objectives (ends), strategies (comprehensive responses), policies (general guidelines), procedures (chronological steps), methods (specific task techniques), rules (strict constraints), and programmes (detailed project outlines).",
+   "formula": "",
+   "key_idea": "Each type of plan provides specific guidance, ranging from broad strategic positioning to strict operational rules.",
+   "textbook_ref": "lebs104.txt lines 411-530",
+   "question_patterns": [
+    "identify the type of plan in the given case scenario",
+    "how does a policy differ from a rule",
+    "explain strategy as a type of plan",
+    "what is a procedure and how does it relate to policy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine plan purpose and scope",
+     "explain": "Check if the statement establishes an end goal (Objective), competitive reaction (Strategy), or general operational boundary (Policy)."
+    },
+    {
+     "step": 2,
+     "action": "Assess operational detail level",
+     "explain": "Determine if the scenario describes chronological execution steps (Procedure), specific step execution technique (Method), or non-negotiable mandates (Rule)."
+    },
+    {
+     "step": 3,
+     "action": "Identify comprehensive project plans",
+     "explain": "Recognize combination plans containing objectives, procedures, and resource budgets as Programmes."
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.8",
+   "title": "Cash Budget Position Calculation",
+   "section": "4.8",
+   "definition": "A quantitative statement forecasting expected cash receipts and disbursements over a designated timeframe to compute net cash surplus or deficit.",
+   "formula": "net_cash = cash_inflows - cash_outflows",
+   "key_idea": "Determining projected net liquidity by subtracting anticipated cash expenditures from expected cash receipts.",
+   "textbook_ref": "lebs104.txt lines 531-560",
+   "question_patterns": [
+    "calculate net cash position from cash budget",
+    "find the cash surplus or deficiency",
+    "compute the net cash balance given inflows and outflows",
+    "what is the expected net cash balance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate net cash position",
+     "explain": "Subtract projected cash outflows from projected cash inflows to determine cash surplus or deficit.",
+     "compute": "net_cash = cash_inflows - cash_outflows"
+    }
+   ]
+  },
+  {
+   "id": "lebs.4.9",
+   "title": "Quantitative Target Sales / Objective Growth Calculation",
+   "section": "4.9",
+   "definition": "Calculating targeted organizational performance metrics by applying percentage growth projections to baseline operational statistics.",
+   "formula": "target_val = initial_val + (initial_val * growth_percent / 100)",
+   "key_idea": "Quantifying future objectives by adding target percentage increments to current baseline figures.",
+   "textbook_ref": "lebs104.txt lines 290-310",
+   "question_patterns": [
+    "calculate the target sales objective",
+    "find the future target value given current sales and growth rate",
+    "compute the target market volume",
+    "how much should target sales increase by"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate incremental growth amount",
+     "explain": "Multiply initial baseline metric by target percentage growth and divide by 100.",
+     "compute": "growth_amount = initial_val * growth_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total target output",
+     "explain": "Add the growth amount to the initial baseline figure to obtain the final target value.",
+     "compute": "target_val = initial_val + growth_amount"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook section on Cash Budget",
+   "concept": "lebs.4.8",
+   "question_type": "compute",
+   "question_pattern": "A business anticipates total cash receipts of {cash_inflows} rupees and total cash disbursements of {cash_outflows} rupees for the upcoming month. Calculate the projected net cash position.",
+   "extracted_variables": {
+    "cash_inflows": "total expected cash inflows",
+    "cash_outflows": "total expected cash outflows"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate net cash position",
+     "explain": "Subtract projected cash outflows from projected cash inflows.",
+     "compute": "net_cash = cash_inflows - cash_outflows"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook section on Setting Objectives",
+   "concept": "lebs.4.9",
+   "question_type": "compute",
+   "question_pattern": "A retail firm currently records sales of {initial_val} units and sets an objective to boost sales by {growth_percent} percent in the next financial year. Compute the target total sales units.",
+   "extracted_variables": {
+    "initial_val": "current baseline sales units",
+    "growth_percent": "percentage target growth rate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate incremental growth amount",
+     "explain": "Determine incremental target units by applying growth percentage to initial sales.",
+     "compute": "growth_amount = initial_val * growth_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total target output",
+     "explain": "Sum initial sales and incremental growth amount to find the new target sales figure.",
+     "compute": "target_val = initial_val + growth_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Short Answer Question 5",
+   "concept": "lebs.4.7",
+   "question_type": "verify_property",
+   "question_pattern": "A telecommunications company refreshes its plan to offer double the data per day at a competitive price point in response to market entry by a competitor. Identify the type of plan and its dimensions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the plan type",
+     "explain": "A competitive business move crafted to protect market share against rival moves is a Strategy."
+    },
+    {
+     "step": 2,
+     "action": "State its three dimensions",
+     "explain": "Strategy involves determining long-term objectives, adopting a specific course of action, and allocating necessary resources to achieve the objectives."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "Very Short Answer Type Questions",
+   "questions": [
+    "How does planning provide direction?",
+    "A company wants to increase its market share from the present 10% to 25% to have a dominant position in the market by the end of the next financial year. Ms Rajni, the sales manager has been asked to prepare a proposal that will outline the options available for achieving this objective. Her report included the following options - entering new markets, expanding the product range offered to customers, using sales promotion techniques such as giving rebates, discounts or increasing the budget for advertising activities. Which step of the planning process has been performed by Ms Rajni?",
+    "Why are rules considered to be plans?",
+    "Rama Stationery Mart has made a decision to make all the payments by e-transfers only. Identify the type of plan adopted by Rama Stationery Mart.",
+    "Can planning work in a changing environment? Give a reason to justify your answer."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "Short Answer Type Questions",
+   "questions": [
+    "What are the main aspects in the definition of planning?",
+    "If planning involves working out details for the future, why does it not ensure success?",
+    "What kind of strategic decisions are taken by business organisations?",
+    "Planning reduces creativity. Critically comment.",
+    "In an attempt to cope with Reliance Jio's onslaught in 2018, market leader Bharti Airtel has refreshed its Rs 149 prepaid plan to offer 2 GB of 3G/4G data per day, twice the amount it offered earlier. Name the type of plan highlighted in the given example? State its three dimensions also.",
+    "State the type of plan and state whether they are Single use or Standing plan: a. A type of plan which serves as a controlling device as well. b. A plan based on research and analysis and is concerned with physical and technical tasks."
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "Long Answer Type Questions",
+   "questions": [
+    "Why is it that organisations are not always able to accomplish all their objectives?",
+    "What are the steps taken by management in the planning process?",
+    "An auto company C Ltd. is facing a problem of declining market share due to increased competition from other new and existing players in the market. Its competitors are introducing lower priced models for mass consumers who are price sensitive. C Ltd. realized that it needs to take steps immediately to improve its market standing in the future. For quality conscious consumers, C Limited plans to introduce new models with added features and new technological advancements. The company has formed a team with representatives from all the levels of management. This team will brainstorm and will determine the steps that will be adopted by the organisation for implementing the above strategy. Explain the features of Planning highlighted in the situation given below."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

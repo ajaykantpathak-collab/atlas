@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_9",
+   "title": "c9_geo_ch2_9",
+   "questions": [
+    {
+     "q": "Define the term 'radiative forcing' in the context of climate change and state its standard unit of measurement.",
+     "a": "Radiative forcing is the change in net energy flux (incoming minus outgoing radiation) at the top of the atmosphere due to an external driver (e.g., GHG increase), measured in watts per square meter (W/m²). A wrong answer (e.g., confusing it with surface temperature change or omitting 'top of atmosphere') reveals the student doesn't grasp that climate change originates from an energy imbalance at the planetary boundary, not just local warming.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the current rise in atmospheric CO₂ is attributed to fossil fuel combustion rather than natural sources like volcanoes or ocean outgassing, using two distinct lines of evidence.",
+     "a": "Correct answer: (1) Isotopic signature — fossil fuels lack carbon-14 and are depleted in carbon-13; the declining ¹³C/¹²C ratio in atmospheric CO₂ matches fossil fuel emissions. (2) Oxygen depletion — burning fossil fuels consumes O₂; observed atmospheric O₂ decline correlates with CO₂ rise. A wrong answer citing only 'correlation with industrial activity' shows the student confuses correlation with process-based attribution and misses the geochemical fingerprints that distinguish sources.",
+     "self_check": true
+    },
+    {
+     "q": "Given that the global average surface temperature has risen ~1.2°C since 1850–1900, and the equilibrium climate sensitivity is ~3°C per CO₂ doubling, calculate the implied warming from CO₂ increase alone (from 280 ppm to 420 ppm) assuming logarithmic forcing. Show steps.",
+     "a": "Step 1: CO₂ concentration ratio = 420/280 = 1.5. Step 2: Number of doublings = log₂(1.5) ≈ 0.585. Step 3: Forcing from CO₂ alone = 0.585 × 3°C ≈ 1.76°C. Step 4: Compare to observed 1.2°C — difference explained by aerosol cooling (negative forcing) and ocean thermal inertia. A wrong answer using linear scaling (e.g., 1.5 × 3 = 4.5°C) reveals misunderstanding of logarithmic radiative forcing — a core concept in climate physics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evidence for climate change from (a) satellite-era sea level rise (since 1993) and (b) tide gauge records (since 1880). What does each reveal about acceleration, and why do they differ in spatial coverage?",
+     "a": "Satellite altimetry (since 1993) shows global mean sea level rise accelerating from ~3.2 mm/yr to ~4.5 mm/yr, with near-global coverage revealing regional patterns (e.g., western Pacific higher due to wind-driven redistribution). Tide gauges provide longer record (~1.7 mm/yr average since 1900) but are coastal, sparse, and affected by vertical land motion (subsidence/uplift). A wrong answer claiming they measure the same thing ignores that satellites measure geocentric sea level while gauges measure relative sea level — a critical distinction for coastal impact assessment in India.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'The Medieval Warm Period (950–1250 CE) was as warm as today, so current warming is natural.' Use evidence from paleoclimate reconstructions and spatial pattern analysis.",
+     "a": "The statement is incorrect. Paleoclimate proxies (tree rings, ice cores, corals, sediments) show the Medieval Warm Period was regionally heterogeneous — warm in North Atlantic but cool in tropical Pacific — whereas current warming is globally coherent (>98% of globe warming). Global mean temperature reconstructions (e.g., PAGES 2k) show current temperatures exceed the Medieval Warm Period by ~0.5°C. A wrong answer accepting the statement reveals confusion between regional climate variability and globally forced change — a common misconception exploited in climate misinformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation for your school to document local evidence of climate change over the past 30 years, using at least three independent data sources accessible to students. Specify what each source would measure and how you'd cross-validate.",
+     "a": "Good answer: (1) IMD temperature/rainfall records for nearest station — trend analysis of annual means and extremes. (2) Local farmer interviews on cropping calendar shifts (e.g., wheat sowing/harvest dates) — phenological evidence. (3) Repeat photography of nearby glacier/snowline (if in Himalayas) or lake water levels — cryosphere/hydrosphere evidence. Cross-validation: check if temperature trends match phenological shifts (e.g., earlier flowering) and hydrological changes. Poor answer using only one source (e.g., 'ask grandparents') shows failure to understand that robust climate detection requires multiple independent lines of evidence — the core principle of attribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

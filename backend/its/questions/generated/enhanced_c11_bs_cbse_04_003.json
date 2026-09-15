@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_003",
+   "title": "c11_bs_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the three parties involved in a cheque transaction and define the role of each in one sentence.",
+     "a": "The three parties are: (1) Drawer – the account holder who writes and signs the cheque ordering payment; (2) Drawee – the bank on which the cheque is drawn and which pays the amount; (3) Payee – the person named on the cheque who receives the payment. A wrong answer (e.g., confusing drawee with payee, or omitting the drawer) reveals the student cannot identify the legal relationships that determine liability when a cheque bounces.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a crossed cheque is considered safer than a bearer cheque, and describe what \"account payee only\" crossing adds to that safety.",
+     "a": "A crossed cheque (two parallel lines) cannot be encashed over the counter; it must be deposited into a bank account, creating an audit trail. \"Account payee only\" crossing further restricts the collecting banker to credit the proceeds only to the payee's account, preventing endorsement to third parties. A wrong answer that says \"crossed cheque cannot be stolen\" or \"bearer cheque is safer because it's faster\" shows the student confuses liquidity with security and misses the legal protection under Section 126/127 of the Negotiable Instruments Act.",
+     "self_check": true
+    },
+    {
+     "q": "A business in Delhi must pay ₹12 lakh to a vendor in Chennai today. The vendor insists on immediate credit confirmation. Compare NEFT, RTGS, and a demand draft on: (a) settlement finality time, (b) maximum amount limit, (c) availability on a Sunday. Recommend the best option with justification.",
+     "a": "(a) NEFT: batches every 30 min, credit within 2 hours; RTGS: real-time, instant final settlement; DD: physical delivery + clearing (2–3 days). (b) NEFT: no limit (but banks may cap); RTGS: minimum ₹2 lakh, no upper limit; DD: no statutory limit. (c) NEFT: 24×7×365; RTGS: 24×7×365; DD: only on bank working days. Recommendation: RTGS – meets minimum amount, gives instant irrevocable credit on a Sunday, and avoids physical handling risk. A wrong answer choosing NEFT (ignoring batch delay) or DD (ignoring Sunday non-availability) shows inability to match instrument features to urgency, amount, and calendar constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"Cheque Truncation System (CTS) has eliminated the risk of cheque bouncing.\" Is it true or false? Explain the actual risk that CTS reduces and the risk it does not affect.",
+     "a": "False. CTS eliminates physical movement of cheques by transmitting electronic images, reducing transit loss, clearing time (T+1 to same day), and fraud from physical tampering. It does NOT eliminate bouncing due to insufficient funds—that risk remains with the drawer's account balance. A student who says \"true\" confuses operational efficiency (clearing speed) with credit risk (solvency of drawer).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"UPI is superior to NEFT and RTGS for all business payments because it is free, instant, and works 24/7.\" Identify two business scenarios where NEFT or RTGS would still be preferred over UPI, and justify.",
+     "a": "The claim is overstated. UPI has per-transaction limits (typically ₹1 lakh, up to ₹5 lakh for verified merchants) and daily caps, making it unsuitable for high-value B2B settlements (e.g., ₹50 lakh machinery payment). RTGS is preferred for: (1) Large-value, time-critical inter-bank obligations (minimum ₹2 lakh, no upper cap, real-time gross settlement with finality); (2) Payments requiring legal proof of settlement time-stamp for regulatory/audit trails (RTGS provides RBI-monitored timestamps). NEFT is preferred for: (3) Batch salary/vendor payments where individual amounts are below ₹2 lakh but total batch exceeds UPI daily limits, and the half-hourly batch cycle is acceptable. A student who agrees with the claim ignores transaction limits, regulatory requirements, and reconciliation needs of businesses.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text-based) that a small business owner can use to choose among: bearer cheque, crossed cheque, demand draft, NEFT, RTGS, UPI for an outward payment. Include at least four decision nodes (e.g., amount, urgency, payee relationship, day/time).",
+     "a": "A good flowchart starts with: Is amount > ₹2 lakh? → Yes → Is it a working day & within RTGS hours? → Yes → Use RTGS; No → Use NEFT (24×7). If amount ≤ ₹2 lakh: Is instant credit needed 24×7? → Yes → Is amount ≤ UPI limit? → Yes → Use UPI; No → Use NEFT. If not instant: Is payee known/trusted? → Yes → Crossed cheque (low cost); No → Demand draft (guaranteed funds). A poor answer lists instruments without decision logic or misses critical nodes like \"working day\" or \"payee trust,\" showing inability to structure a multi-criteria choice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

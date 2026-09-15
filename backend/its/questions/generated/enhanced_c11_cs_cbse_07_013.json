@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_013",
+   "title": "c11_cs_cbse_07_013",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nmy_list = [1, 2, 3]\nmy_tuple = tuple(my_list)\nmy_dict = dict(my_tuple)\nprint(my_dict)\n```",
+     "a": "The code will raise a ValueError because dict() expects an iterable of key-value pairs (each of length 2), but my_tuple provides single integers. A wrong answer (e.g., {1:2, 3:None}) reveals the misconception that dict() can directly convert a flat sequence into a dictionary by pairing consecutive elements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why converting a dictionary to a list using list(my_dict) produces a list of keys, not key-value pairs, and how you would obtain a list of (key, value) tuples instead.",
+     "a": "list(my_dict) iterates over the dictionary's keys by default, yielding a list of keys. To get key-value pairs, use list(my_dict.items()). A wrong answer (e.g., \"it returns values\" or \"use list(my_dict.values())\") shows confusion about the default iteration behavior of dictionaries and the purpose of .items().",
+     "self_check": true
+    },
+    {
+     "q": "Given a tuple of tuples `data = (('a', 1), ('b', 2), ('c', 3))`, write the single-line Python statement to convert it into a dictionary, and then convert that dictionary back into a list of keys.",
+     "a": "```python\nd = dict(data)\nkeys_list = list(d.keys())\n```\nA wrong answer (e.g., using list(d) for keys is correct but missing .keys() is also acceptable; however, if they write list(d.values()) or try to convert the tuple directly to list of keys without dict) reveals inability to chain conversions correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mutability and memory implications of converting a large list to a tuple versus keeping it as a list. When would you choose tuple(list) over list itself?",
+     "a": "Converting to tuple creates an immutable object, which can be used as a dictionary key or set element, and may save memory due to fixed size. Choose tuple when you need immutability (e.g., as a key) or to signal that the collection should not change. A wrong answer (e.g., \"tuple is always faster\" or \"list is immutable\") shows misunderstanding of mutability and use cases.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `dict([1,2,3])` to create a dictionary with keys 1,2,3 and values None. Critique this approach and provide the correct code to achieve the intended dictionary.",
+     "a": "The code raises ValueError because dict() expects key-value pairs. The correct way is `dict.fromkeys([1,2,3])` or `{k: None for k in [1,2,3]}`. A wrong answer (e.g., \"it works and gives {1:None, 2:None, 3:None}\") indicates the student hasn't tested the code and assumes dict() pairs consecutive elements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where you would convert a dictionary to a list of tuples, sort it by value, and convert it back to a dictionary. Write the Python code for this entire process.",
+     "a": "Scenario: A dictionary `marks = {'Aman': 85, 'Priya': 92, 'Rohit': 78}` needs to be sorted by marks descending. Code:\n```python\nmarks = {'Aman': 85, 'Priya': 92, 'Rohit': 78}\nsorted_items = sorted(marks.items(), key=lambda x: x[1], reverse=True)\nsorted_dict = dict(sorted_items)\n```\nA poor answer (e.g., sorting keys only, or not using items()) shows inability to apply conversion and sorting together.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

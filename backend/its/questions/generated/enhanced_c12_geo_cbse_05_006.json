@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_006",
+   "title": "c12_geo_cbse_05_006",
+   "questions": [
+    {
+     "q": "Name the four major plantation crops of India and the primary state associated with each.",
+     "a": "Tea — Assam/West Bengal (Darjeeling); Coffee — Karnataka (Kodagu); Rubber — Kerala; Sugarcane — Uttar Pradesh/Maharashtra. A wrong answer (e.g., \"Tea — Kerala\" or \"Coffee — Assam\") reveals confusion between crop-specific climatic niches: tea requires high humidity and acidic soils of Himalayan foothills/Western Ghats, while coffee needs shaded, well-drained slopes of Western Ghats at 1000–1500 m.",
+     "self_check": true
+    },
+    {
+     "q": "Why are plantations absent in the Indo-Gangetic Plain despite its fertile alluvial soil and high population density?",
+     "a": "Plantations require perennial crops needing frost-free, high-rainfall (>200 cm), well-drained acidic soils on undulating terrain — conditions absent in the Indo-Gangetic Plain, which has seasonal rainfall, winter frost, flat topography prone to waterlogging, and neutral-to-alkaline alluvial soils suited for annual cereals (wheat, rice). A wrong answer citing \"lack of labour\" or \"poor soil fertility\" shows misunderstanding of the specific agro-climatic envelope; the plain is densely populated and fertile but for the wrong crop type.",
+     "self_check": true
+    },
+    {
+     "q": "A company plans a new rubber plantation. They have two sites: Site A — 500 m elevation, 250 cm annual rainfall, lateritic soil, 24°C mean temperature, 15° slope. Site B — 50 m elevation, 120 cm rainfall, alluvial soil, 28°C mean temperature, flat. Using climatic thresholds, which site is suitable? Justify with three parameters.",
+     "a": "Site A is suitable. Steps: (1) Rubber requires >200 cm rainfall — Site A has 250 cm, Site B has 120 cm (fail). (2) Rubber needs well-drained acidic soil — lateritic soil (Site A) is ideal; alluvial (Site B) is poorly drained and neutral. (3) Rubber grows best at 200–500 m elevation on gentle slopes for drainage — Site A meets this; Site B is flat and low-lying, risking waterlogging. A wrong choice of Site B indicates ignoring rainfall threshold and drainage needs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the labour structure of a tea plantation in Assam with a wheat farm in Punjab. Identify two structural differences and explain how each shapes the social geography of the region.",
+     "a": "Difference 1: Tea plantations employ permanent, resident migrant labour (historically tribal from Central India) living in estate housing — creates distinct \"labour lines\" settlements, segregated from managerial housing, with low mobility. Wheat farms use seasonal family labour + hired migrants only at harvest — no permanent settlement, higher mobility. Difference 2: Plantation labour is organised in unions with collective bargaining; wheat farm labour is informal, piece-rate. Wrong answers focusing only on \"wage levels\" miss the spatial and social segmentation unique to plantation enclaves.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Plantation agriculture is ecologically unsustainable in the Western Ghats.\" Provide two arguments for and two against, using specific environmental processes.",
+     "a": "For: (1) Monoculture replaces biodiversity-rich evergreen forests, fragmenting corridors for elephants and endemic species (e.g., Nilgiri tahr). (2) Heavy pesticide/fertiliser use leaches into streams, causing eutrophication in downstream reservoirs. Against: (1) Shade-grown coffee under native canopy trees mimics forest structure, preserving bird diversity and reducing erosion. (2) Tea estates on slopes with contour planting and vetiver grass hedges reduce soil loss compared to deforested land. A one-sided answer ignoring shade-coffee systems or contour conservation shows lack of nuanced evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new oil palm plantation in the Andaman Islands. List five weighted criteria (sum = 100), assign weights, and score two hypothetical sites. Explain why oil palm is controversial in this region.",
+     "a": "Criteria & weights: Rainfall >200 cm (25), Frost-free days >330 (20), Well-drained lateritic soil (20), Proximity to port <50 km (15), Slope <15° (10), Labour availability (10). Site A (Middle Andaman): 25+20+20+15+10+5 = 95. Site B (Little Andaman): 25+20+10+5+10+5 = 75. Controversy: oil palm replaces primary rainforest, threatens endemic species (Andaman wild pig, Nicobar megapode), and requires high freshwater extraction on islands with limited aquifers. A matrix missing \"ecological sensitivity\" or \"water footprint\" fails to capture island-specific constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

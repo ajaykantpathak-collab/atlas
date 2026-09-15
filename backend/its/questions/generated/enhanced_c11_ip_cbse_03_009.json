@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_009",
+   "title": "c11_ip_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nfor val in range(5, 0, -1):\n    print(val, end=' ')\n```",
+     "a": "**Correct Output:** `5 4 3 2 1 `\n**Explanation:** `range(5, 0, -1)` generates integers starting at 5, decrementing by 1, stopping *before* 0 (i.e., 5, 4, 3, 2, 1). A wrong answer like `5 4 3 2 1 0` reveals the misconception that the `stop` value is inclusive. A wrong answer like `4 3 2 1` reveals confusion about the `start` value being inclusive.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `range(10, 1, -2)` expecting the sequence `10, 8, 6, 4, 2`. They claim the `stop` value 1 is not reached, so 2 should be the last value. Is the student correct? Explain why or why not.",
+     "a": "**Correct Answer:** Yes, the student is correct. The sequence generated is `10, 8, 6, 4, 2`. The `stop` value (1) is exclusive. Since the step is -2, the values decrease: 10, 8, 6, 4, 2. The next value would be 0, which is *less than* the stop value (1) when stepping negatively, so iteration stops before 0. A wrong answer claiming the output includes 0 or stops at 4 reveals a misunderstanding of the exclusive stop boundary condition for negative steps (the condition is `value > stop` for negative step, not `value >= stop`).",
+     "self_check": true
+    },
+    {
+     "q": "Write a `for` loop using `range()` to calculate the sum of the first 10 multiples of 7 (i.e., 7 + 14 + 21 + ... + 70). Provide the code and the final sum.",
+     "a": "**Correct Code:**\n```python\ntotal = 0\nfor i in range(1, 11):      # i takes values 1 to 10\n    total += 7 * i\nprint(total)                # Output: 385\n```\n**Alternative using step:** `for val in range(7, 71, 7): total += val`\n**Explanation:** The loop must iterate exactly 10 times. Using `range(1, 11)` gives multipliers 1 through 10. Multiplying each by 7 gives the multiples. Summing yields 385. A wrong answer using `range(10)` (0 to 9) would calculate 0+7+...+63 = 315, missing the 10th multiple (70). A wrong answer using `range(7, 70, 7)` would stop at 63 (since stop is exclusive), missing 70.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory usage and execution speed of these two snippets for summing integers 1 to 1,00,00,000 (1 Crore). Which is better and why?\n```python",
+     "a": "**Correct Analysis:** Snippet A is significantly better. `range()` in Python 3 returns a `range` object (a lazy sequence) that calculates values on demand, using constant memory (O(1)). Snippet B creates a `list` of 1 crore integers, consuming ~800 MB of RAM (O(N) memory) and taking time to allocate. Both have similar CPU time for the addition, but B has high memory overhead and startup latency. A student choosing B reveals the misconception that `range()` returns a list (true in Python 2, false in Python 3).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following code designed to print a countdown from 10 to 1. Identify the logical error and correct it.\n```python\nfor count in range(10, 0, 1):\n    print(count)\n```",
+     "a": "**Error:** The step is `+1` (default), but the start (10) is greater than stop (0). With a positive step, `range` generates values while `value < stop`. Since 10 is not < 0, the range is **empty**. The loop body never executes; nothing prints.\n**Correction:** Use a negative step: `range(10, 0, -1)`.\n**Misconception Revealed:** The student assumes `range` automatically detects direction based on start/stop values. Python requires explicit negative step for decreasing sequences. This is a classic \"off-by-one\" / direction error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a `for` loop using `range()` that prints the following pattern exactly (note the spacing):\n```\n*\n* *\n* * *\n* * * *\n```\nYou may only use `print()` with `end` parameter and one `print()` for newline per row. No string multiplication or concatenation of `'*'` allowed inside the inner loop (simulate nested iteration logic).",
+     "a": "**Expected Solution:**\n```python\nfor row in range(1, 5):          # Rows 1 to 4\n    for col in range(row):       # Cols 0 to row-1 (total 'row' times)\n        print('*', end=' ')\n    print()                      # Newline after each row\n```\n**Criteria for Good Answer:** Correct nested loop structure; outer loop controls row count (1 to 4); inner loop runs `row` times; uses `end=' '` for spacing; uses empty `print()` for newline. A poor answer uses a single loop with string multiplication (`print('* ' * row)`) violating the constraint, or gets the inner loop range wrong (e.g., `range(4)` printing 4 stars every row), showing inability to link outer loop variable to inner loop bound.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

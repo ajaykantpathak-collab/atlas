@@ -1,0 +1,360 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 401,
+ "chapter_title": "Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess401.txt",
+ "concepts": [
+  {
+   "id": "hess.401.1",
+   "title": "Definition and Utility of Resources",
+   "section": "Resources",
+   "definition": "A material or item that has practical usefulness and can fulfill human requirements is defined as a resource.",
+   "formula": "",
+   "key_idea": "Utility and usability define what constitutes a resource.",
+   "textbook_ref": "hess401.txt lines 1-25",
+   "question_patterns": [
+    "what is a resource",
+    "explain the concept of utility in resources",
+    "how does utility make something a resource",
+    "what makes an object or substance a resource",
+    "define usability of resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify human needs",
+     "explain": "Determine if the object or substance can be used to satisfy a human need."
+    },
+    {
+     "step": 2,
+     "action": "Determine utility",
+     "explain": "Establish that utility or usability is the primary characteristic that makes an object a resource."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.2",
+   "title": "Value and Economic Worth of Resources",
+   "section": "Resources",
+   "definition": "The significance or worth of an item, which may carry commercial value or simply aesthetic appeal, while fulfilling human requirements.",
+   "formula": "",
+   "key_idea": "Value means worth, which can change over time or with commercialization.",
+   "textbook_ref": "hess401.txt lines 26-45",
+   "question_patterns": [
+    "what is meant by the value of a resource",
+    "do all resources have economic value",
+    "explain how a resource can become economically valuable over time",
+    "distinguish between economic and non-economic value of resources",
+    "how do grandmother's home remedies gain commercial value"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define value",
+     "explain": "Understand that value refers to the worth of a resource."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish value types",
+     "explain": "Differentiate between economic value (like metals) and non-economic value (like a beautiful landscape), noting that both satisfy human needs."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.3",
+   "title": "Factors of Resource Transformation: Time and Technology",
+   "section": "Resources",
+   "definition": "Dual key elements, namely duration and technological advancement, that modify raw materials into beneficial assets to fulfill human requirements.",
+   "formula": "",
+   "key_idea": "Time and technology transform substances into resources to meet human needs.",
+   "textbook_ref": "hess401.txt lines 46-65",
+   "question_patterns": [
+    "what are the two important factors that change substances into resources",
+    "how do time and technology act as factors in resource creation",
+    "explain the role of technology in creating resources",
+    "how does fast flowing water turn into a resource",
+    "describe how discoveries and inventions lead to more resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify transformation factors",
+     "explain": "Recognize time and technology as the two key factors related to human needs."
+    },
+    {
+     "step": 2,
+     "action": "Analyze human role",
+     "explain": "Understand that human ideas, knowledge, inventions, and discoveries drive this transformation."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.4",
+   "title": "Classification of Natural Resources",
+   "section": "Types of Resources - Natural Resources",
+   "definition": "Assets gathered from the environment with very little alteration, split into those that replenish rapidly and those with restricted supplies.",
+   "formula": "",
+   "key_idea": "Natural resources are divided based on their replenishment rates.",
+   "textbook_ref": "hess401.txt lines 66-105",
+   "question_patterns": [
+    "classify natural resources with examples",
+    "what is the difference between renewable and non-renewable resources",
+    "why are coal and petroleum considered non-renewable resources",
+    "give examples of renewable resources that can be affected by overuse",
+    "define stock of resource"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define natural resources",
+     "explain": "Identify resources drawn from nature and used without much modification."
+    },
+    {
+     "step": 2,
+     "action": "Categorize by replenishment",
+     "explain": "Classify them into renewable (unlimited or quick to replenish) and non-renewable (limited stock, taking thousands of years to replenish)."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.5",
+   "title": "Distribution of Natural Resources",
+   "section": "Types of Resources - Natural Resources",
+   "definition": "The uneven geographic dispersion of environmental assets, governed by regional characteristics such as topography, weather conditions, and elevation.",
+   "formula": "",
+   "key_idea": "Physical factors vary widely, causing unequal resource distribution.",
+   "textbook_ref": "hess401.txt lines 106-115",
+   "question_patterns": [
+    "why are resources distributed unequally over the earth",
+    "what physical factors affect the distribution of natural resources",
+    "how do terrain and climate influence resource distribution",
+    "explain why resource distribution is unequal",
+    "what determines where natural resources are found"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify physical factors",
+     "explain": "Recognize terrain, climate, and altitude as the physical factors determining distribution."
+    },
+    {
+     "step": 2,
+     "action": "Explain variation",
+     "explain": "Note that because these physical factors differ greatly across the earth, resource distribution is unequal."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.6",
+   "title": "Human Made Resources",
+   "section": "Types of Resources - Human Made Resources",
+   "definition": "Artificial assets produced by modifying environmental materials to construct infrastructure, equipment, and transport systems.",
+   "formula": "",
+   "key_idea": "Natural substances become human-made resources when modified by human effort.",
+   "textbook_ref": "hess401.txt lines 116-130",
+   "question_patterns": [
+    "what are human made resources",
+    "how does iron ore become a human made resource",
+    "give examples of human made resources",
+    "is technology a human made resource",
+    "explain how natural substances are changed into human made resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify modification",
+     "explain": "Note that natural substances become resources only when their original form is changed by humans."
+    },
+    {
+     "step": 2,
+     "action": "List human creations",
+     "explain": "Identify structures like buildings, bridges, roads, machinery, vehicles, and technology as human-made resources."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.7",
+   "title": "Human Resources and Development",
+   "section": "Types of Resources - Human Resources",
+   "definition": "The population size along with the intellectual and physical capabilities of individuals, which can be upgraded via schooling and medical care to generate further assets.",
+   "formula": "",
+   "key_idea": "People are the ultimate resource, and improving their skills is human resource development.",
+   "textbook_ref": "hess401.txt lines 131-160",
+   "question_patterns": [
+    "why are human resources important",
+    "what is human resource development",
+    "how do education and health make people a valuable resource",
+    "explain the term human resource",
+    "how do human skills help in transferring physical material into a valuable resource"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define human resource",
+     "explain": "Understand human resource as the quantity and mental/physical abilities of people."
+    },
+    {
+     "step": 2,
+     "action": "Explain human resource development",
+     "explain": "Recognize that improving people's skills through education and health enables them to create more resources."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.8",
+   "title": "Resource Conservation",
+   "section": "Conserving Resources",
+   "definition": "The mindful utilization of environmental assets while granting them adequate duration to naturally replenish.",
+   "formula": "",
+   "key_idea": "Conservation prevents the exhaustion of both renewable and non-renewable resources.",
+   "textbook_ref": "hess401.txt lines 161-190",
+   "question_patterns": [
+    "what is resource conservation",
+    "how can we conserve resources in our daily lives",
+    "why is it important to conserve resources",
+    "what are the ways an individual can contribute to resource conservation",
+    "explain the role of recycling and reusing in conservation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define conservation",
+     "explain": "Using resources carefully and giving them time to get renewed is resource conservation."
+    },
+    {
+     "step": 2,
+     "action": "Identify individual actions",
+     "explain": "Contribute by reducing consumption, recycling, and reusing materials."
+    }
+   ]
+  },
+  {
+   "id": "hess.401.9",
+   "title": "Sustainable Development",
+   "section": "Conserving Resources",
+   "definition": "A balanced approach to consumption that satisfies current societal demands without compromising the survival needs of upcoming generations.",
+   "formula": "",
+   "key_idea": "Balancing current resource use with conservation for the future.",
+   "textbook_ref": "hess401.txt lines 191-225",
+   "question_patterns": [
+    "what is sustainable development",
+    "state the principles of sustainable development",
+    "why is sustainable development necessary for our planet",
+    "how do we balance the need to use resources with future conservation",
+    "explain how the future of our planet is linked with sustainable development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sustainable development",
+     "explain": "Balancing the need to use resources today while conserving them for future generations."
+    },
+    {
+     "step": 2,
+     "action": "Identify key principles",
+     "explain": "Respect all forms of life, improve human life quality, conserve earth's vitality, and minimize depletion of natural resources."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess401.txt lines 106-115",
+   "concept": "hess.401.5",
+   "question_type": "short_answer",
+   "question_pattern": "Why are resources distributed unequally over the earth?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify physical factors",
+     "explain": "The distribution of natural resources depends upon physical factors like terrain, climate, and altitude."
+    },
+    {
+     "step": 2,
+     "action": "Relate to global variation",
+     "explain": "Since these physical factors differ greatly across the earth, the distribution of resources is unequal."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess401.txt lines 161-190",
+   "concept": "hess.401.8",
+   "question_type": "short_answer",
+   "question_pattern": "What is resource conservation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define resource conservation",
+     "explain": "Using resources carefully and giving them time to get renewed is called resource conservation."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess401.txt lines 131-160",
+   "concept": "hess.401.7",
+   "question_type": "short_answer",
+   "question_pattern": "Why are human resources important?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain human capabilities",
+     "explain": "Human resources are important because people's ideas, knowledge, inventions, and skills are what create and transform physical materials into valuable resources."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hess401.txt lines 191-225",
+   "concept": "hess.401.9",
+   "question_type": "short_answer",
+   "question_pattern": "What is sustainable development?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define sustainable development",
+     "explain": "Carefully utilizing resources so that besides meeting the requirements of the present, it also takes care of future generations is called sustainable development."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hess401.txt lines 226-245",
+   "questions": [
+    "Why are resources distributed unequally over the earth?",
+    "What is resource conservation?",
+    "Why are human resources important?",
+    "What is sustainable development?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess401.txt lines 246-260",
+   "questions": [
+    "Which one of the following does NOT make substance a resource? (a) utility (b) value (c) quantity",
+    "Which one of the following is a human made resource? (a) medicines to treat cancer (b) spring water (c) tropical forests",
+    "Complete the statement. Non-renewable resources are (a) those which have limited stock (b) made by human beings (c) derived from non-living things"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class8_social_science_hees207",
+ "concepts": [
+  {
+   "id": "hees.207.7.1",
+   "title": "Population Density in Cities",
+   "questions": [
+    {
+     "q": "Using the method 'Population Density in Cities', work with: area = 100, population = 48000. Carry the chain through step by step and give the final value of density.",
+     "a": "480 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Population Density in Cities' and work with: area = 500, population = 1200. Carry the chain through step by step and give the final value of density.",
+     "a": "2.4 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Population Density in Cities' refers to.",
+     "a": "Cities crowd many people onto small land: population density - persons per square kilometre - runs far higher in cities like Gurugram than in villages such as Asadpur Khera in Haryana, and this density drives both the energy and the strains of urban life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Density in Cities'.",
+     "a": "People per square kilometre is the yardstick of crowding - and cities pack thousands.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Density in Cities', in plain ASCII form.",
+     "a": "density = population / area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.207.7.2",
+   "title": "Why Cities Grow: Centres of Work and Hope",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why Cities Grow: Centres of Work and Hope' refers to.",
+     "a": "Cities attract people because they concentrate jobs, factories, offices, schools, hospitals and markets - offering something for everybody, as the chapter's epigraph puts it - so migration from villages keeps feeding urban growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why Cities Grow: Centres of Work and Hope'.",
+     "a": "Jobs and services pull migrants in: cities grow because opportunity concentrates there.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why Cities Grow: Centres of Work and Hope' taught, and from which source text?",
+     "a": "7 (source: hees207.txt lines 2-62 (cities provide something for everybody), 106-128 (how cities become centres))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.207.7.3",
+   "title": "Urbanisation: The Process and Its Challenges",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Urbanisation: The Process and Its Challenges' refers to.",
+     "a": "Urbanisation is the rising share of people living in urban places; as India urbanises, cities strain under slums, housing shortages, traffic, pollution and unequal services, needing planned infrastructure and governance to stay liveable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Urbanisation: The Process and Its Challenges'.",
+     "a": "Urbanisation is inevitable - planning decides whether cities become engines or slums.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Urbanisation: The Process and Its Challenges' taught, and from which source text?",
+     "a": "7 (source: hees207.txt lines 205-260 (the process of urbanisation), 260-340 (challenges))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.207.7.4",
+   "title": "The World's Most Populous Cities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The World's Most Populous Cities' refers to.",
+     "a": "Giant cities now span the globe - Tokyo, Delhi, Shanghai and other metropolises hold tens of millions, with New Delhi among the world's most populous cities and Seoul in South Korea another megacity - showing that urbanisation is a worldwide phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The World's Most Populous Cities'.",
+     "a": "Megacities of tens of millions now anchor the world economy - and its congestion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The World's Most Populous Cities' taught, and from which source text?",
+     "a": "7 (source: hees207.txt lines 129-160 (world's most populous cities in 2025, New Delhi, Seoul))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_010",
+   "title": "c12_geo_cbse_15_010",
+   "questions": [
+    {
+     "q": "In which year did radio broadcasting begin in India, and by which organisation?",
+     "a": "Radio broadcasting began in India in 1923 by the Radio Club of Bombay. A wrong answer (e.g., 1936 when it became All India Radio, or 1957 when renamed Akashwani) reveals the student confuses the *start* of broadcasting with later administrative milestones — a common error where students memorise renamed dates but miss the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Why is satellite communication described as \"vital for the country due to economic and strategic reasons\" in the NCERT text? Explain using the dual roles of INSAT and IRS.",
+     "a": "Satellite communication is vital because INSAT (established 1983) serves telecommunication, television broadcasting, and meteorological observation (weather forecasting, cyclone tracking) — directly supporting economic activities (banking, media, aviation) and strategic needs (disaster management, border surveillance). IRS (operational from 1988) provides remote sensing data for natural resource management (agriculture, forestry, water, minerals) — essential for economic planning. A wrong answer that only mentions \"TV signals\" or \"weather\" misses the integrated multi-purpose design and the strategic dimension (border monitoring, resource sovereignty), showing superficial reading.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Arunachal Pradesh at 2,500 m elevation has no mobile towers, no landline, and receives only intermittent radio signals. Which communication system from the NCERT chapter would provide the most reliable *mass communication* link for disaster warnings, and why?",
+     "a": "Satellite-based television (Doordarshan via INSAT) would be most reliable. Steps: (1) Identify the need: mass communication (one-to-many) for disaster warnings. (2) Eliminate personal systems (internet, phone) — require ground infrastructure absent here. (3) Eliminate radio — \"intermittent signals\" due to terrain blocking line-of-sight terrestrial waves. (4) Satellite TV receives signals from geostationary satellites (INSAT) — elevation angle is high in North-East, terrain obstruction minimal, receiver (dish) is low-cost and passive. (5) INSAT carries dedicated disaster warning channels. A wrong answer choosing \"radio\" ignores the physics of terrestrial wave propagation in mountains; choosing \"internet\" ignores infrastructure dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution patterns of radio vs. television penetration in India as implied by their historical rollout (radio: 1923 Bombay → 1930 national → 1957 Akashwani; TV: 1959 Delhi → 1972 other centres → 1976 Doordarshan → 1983 INSAT). How did the technology difference (terrestrial vs. satellite) alter the geography of access?",
+     "a": "Radio spread gradually via terrestrial transmitters — early concentration in urban centres (Bombay, Calcutta, Delhi), slow diffusion to rural areas limited by transmitter range and terrain. Television initially followed the same urban-centric terrestrial model (Delhi 1959, other metros by 1972). The 1983 INSAT satellite launch fundamentally changed TV's geography: geostationary coverage enabled simultaneous national reach (Common National Programmes), bypassing terrestrial infrastructure gaps and bringing TV to \"backward and remote rural areas\" directly. Radio remained largely terrestrial (FM expansion came later), so its rural penetration lagged behind satellite TV. A wrong answer stating \"both reached villages at the same time\" misses the technological leap of satellite broadcasting that decoupled TV access from ground networks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The internet is the most effective personal communication system in India.\" Use evidence on urban-rural divide, cost, and language barriers from the NCERT context and current data trends.",
+     "a": "The statement is *conditionally true* but geographically incomplete. NCERT calls internet \"most effective and advanced\" and \"widely used in urban areas\" — acknowledging its power (e-mail, e-commerce, knowledge access, low-cost information). However, effectiveness requires: (1) infrastructure (broadband/fiber/4G) — concentrated in cities; (2) affordability — data costs relative to income; (3) digital literacy and language — content predominantly in English/Hindi. In rural/remote areas (North-East, Himalayas, tribal belts), radio (Akashwani) and TV (Doordarshan) remain *more effective* for mass reach due to universal receiver access, no recurring cost, and local language programming. A wrong answer that agrees uncritically ignores the digital divide; one that disagrees entirely undervalues internet's transformative role where accessible.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication strategy for a new government scheme targeting women farmers in Odisha's tribal districts (Koraput, Malkangiri). Specify which *mix* of personal and mass communication systems you would use, justifying each choice with geographical reasoning about terrain, literacy, language, and infrastructure.",
+     "a": "A strong answer proposes a *layered mix*: (1) **Mass base**: Akashwani (radio) in local dialects (Desia, Kui) — penetrates hilly/forested terrain via terrestrial waves, zero cost to listener, high trust, works without electricity (battery). (2) **Mass supplement**: Doordarshan (TV) via INSAT — visual demonstrations of farming techniques, reaches community centres/panchayat bhawans with dish antennas. (3) **Personal follow-up**: IVRS (Interactive Voice Response) calls in local language to registered mobile numbers — low literacy barrier, works on basic feature phones (high penetration even in tribal areas). (4) **Personal interactive**: WhatsApp groups for *literate* frontline workers (Anganwadi, ASHA) to share scheme updates, using internet where available. (5) **Exclude**: Print media (low literacy), internet-only portals (connectivity gaps), English-only content. A poor answer picks only one medium (e.g., \"use WhatsApp\") ignoring terrain-infrastructure-literacy constraints, or lists media without justifying *why* each fits the specific geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_002",
+   "title": "c7_geo_ch02_002",
+   "questions": [
+    {
+     "q": "Which gas makes up the largest percentage of the Earth's atmosphere by volume?",
+     "a": "Nitrogen, which makes up approximately 78% of the atmosphere. A student who answers \"Oxygen\" has confused the most abundant gas with the gas most essential for human respiration, a very common mixing of chemical presence versus biological importance.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the temperature decrease as you climb higher into the troposphere, but increase as you climb higher into the stratosphere?",
+     "a": "The troposphere gets its heat primarily from the Earth's surface, which absorbs solar energy and warms the air from below, causing temperature to drop with altitude. In contrast, the stratosphere contains the ozone layer, which directly absorbs incoming ultraviolet radiation from the sun, causing the upper part of this layer to become warmer. A student who thinks temperature decreases continuously as altitude increases fails to recognize how different atmospheric layers absorb heat sources differently.",
+     "self_check": true
+    },
+    {
+     "q": "If an airplane is flying smoothly at an altitude of 12 kilometers to avoid stormy weather, which atmospheric layer is it currently cruising through, and why is this layer calm?",
+     "a": "The airplane is flying in the lower stratosphere (just above the tropopause). It is calm because weather phenomena like clouds, rain, and strong convective currents are confined to the troposphere below, whereas the stratosphere features stable horizontal air movement. A student who answers \"troposphere\" forgets that commercial flights fly above weather disturbances to ensure a smooth ride.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the role of carbon dioxide in the atmosphere: why is it considered both essential for life and a critical factor in global climate regulation even though it constitutes less than 1% of air?",
+     "a": "Carbon dioxide is essential because plants require it for photosynthesis to produce food, and it acts as a greenhouse gas that traps heat radiated from the Earth, maintaining a temperature range that makes life possible. Even though it is present in tiny proportions (about 0.04%), any significant increase in its concentration enhances heat trapping, leading to global warming. A student who thinks trace gases have no impact overlooks how delicate the thermal balance of the atmosphere is.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Without the mesosphere, life on Earth would be just as warm, but Earth's surface would be heavily cratered by space debris.\" Is this evaluation accurate?",
+     "a": "This evaluation is partially inaccurate. While the mesosphere is indeed the layer where most meteors burn up due to friction with its dense-enough gas molecules (protecting the surface from craters), it is also the coldest layer of the atmosphere where temperatures drop to about -90°C. Therefore, it does not directly dictate surface warmth in the way the troposphere and greenhouse gases do, but its protective burning function is correctly stated. A student who agrees entirely misses the thermal characteristics of the mesosphere.",
+     "self_check": true
+    },
+    {
+     "q": "Design a vertical cross-section diagram of the atmosphere for a school geography exhibition, labeling all five layers in order from the surface up to 500 km, and indicate beside each layer one major feature or phenomenon that occurs there.",
+     "a": "A complete design should feature: 1) Troposphere (0-12 km, weather occurs); 2) Stratosphere (12-50 km, ozone layer / jets fly); 3) Mesosphere (50-80 km, meteors burn up); 4) Thermosphere (80-400 km, auroras / space station orbits); 5) Exosphere (>400 km, merges into outer space). A poor answer would mix up the order of layers or place weather phenomena like clouds in the stratosphere or thermosphere.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u2_018",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u2_018",
+   "title": "c6_english_u2_018",
+   "questions": [
+    {
+     "q": "What is the main difference between an action in the present tense and an action in the past tense?",
+     "a": "The present tense describes things happening now or regularly, while the past tense describes things that already happened. A wrong answer suggests the student hasn't linked verb forms to the concept of time, requiring a review of basic timelines.",
+     "self_check": true
+    },
+    {
+     "q": "If I say \"The bird flies,\" how can I change this to show it happened yesterday?",
+     "a": "The answer is \"The bird flew.\" A wrong answer indicates the student is struggling with irregular verbs, which do not always follow the simple -ed pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Change the verb in brackets to the correct past tense: \"The mahout (talk) to the elephant.\"",
+     "a": "The answer is \"talked.\" Step 1: Identify the action (talk). Step 2: Determine the time (past). Step 3: Add the suffix -ed. A wrong answer reveals the student might be confused about when to use -ed versus irregular forms.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this sentence: \"The dog wags his tail.\" Is this a story event or a general statement? How do you know?",
+     "a": "It is a general statement because the present tense \"wags\" is used to describe a habit, not a specific finished event. If the student thinks it is a story event, they are ignoring the clue provided by the present tense verb.",
+     "self_check": true
+    },
+    {
+     "q": "\"Jahnavi sat by the river.\" Can we change this to present tense to describe a habit? How?",
+     "a": "Yes, it becomes \"Jahnavi sits by the river.\" This shows we are shifting from a specific past memory to a general, repeatable habit. A wrong answer suggests a lack of understanding regarding how verb forms dictate the \"state\" of the action (habit vs. event).",
+     "self_check": true
+    },
+    {
+     "q": "Write a short sentence about a friend in the present, then turn it into a past tense sentence.",
+     "a": "Example: \"My friend helps me.\" (Present) / \"My friend helped me.\" (Past). A poor answer fails to change the verb form or uses incorrect tense markers, showing they haven't internalized the rule of verb modification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_12_004",
+   "title": "c10_engl_cbse_12_004",
+   "questions": [
+    {
+     "q": "What specific complaint does Ausable claim to have made to the hotel management about the balcony before the events of the story?",
+     "a": "Ausable claims he complained that the balcony was a \"nuisance\" because people could climb into his room from it, and that the management had promised to block it off. A wrong answer (e.g., \"he complained about the view\" or \"he never mentioned it before\") reveals the student hasn't grasped how Ausable plants the balcony's existence *and* its danger *before* Max needs to use it — a classic Chekhov's Gun setup where the \"gun\" is mentioned in Act 1 to be \"fired\" in Act 3.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Ausable chooses to describe the balcony as extending \"under the window\" of the *next* room rather than his own.",
+     "a": "By placing the balcony under the neighbor's window, Ausable makes it accessible from the corridor (via the neighbor's room) but not directly from his own — this explains why Max must *leave* the room to reach it, and why the \"police\" knocking at the door would cut off that escape. A student who says \"it doesn't matter\" or \"Ausable was confused\" misses the spatial logic that makes the trap physically plausible: Max must cross the threshold to reach safety, putting him directly in the path of whoever is knocking.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"dramatic irony\" to this scene: What does the reader know that Max does not, and how does this knowledge change our reading of Ausable's calm tone?",
+     "a": "The reader knows (from Fowler's perspective and the story's genre) that Ausable is improvising, while Max believes the balcony is real. This irony transforms Ausable's casual complaints about \"management\" into a performance — his calmness isn't genuine; it's tactical. A wrong answer that treats Ausable's calm as natural personality (referencing c10_engl_cbse_12_001) fails to see the *situational* deception: Ausable is *acting* the role of a bored bureaucrat to lower Max's guard, a distinction critical for board-level character analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Ausable uses the *knock on the door* (which he hasn't yet acknowledged) to time his balcony story for maximum pressure on Max.",
+     "a": "Ausable begins the balcony story *exactly when* the knock starts — he says \"That will be the police\" *before* describing the balcony, then details the escape route *while* Max hears the knocking continue. This sequencing traps Max: the threat (police) is announced first, then the solution (balcony) is offered as the only way out. A student who analyzes the balcony description in isolation misses the temporal coordination — the lie is a *response* to the knock, not a pre-prepared story. This connects to c10_engl_cbse_12_008 (suspense structure) where timing is the mechanism of surprise.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether Ausable's lie would have worked if Max had been a more experienced agent who checked the window *before* committing to the balcony. Justify with textual evidence.",
+     "a": "No — the lie depends entirely on Max's panic preventing verification. Textual evidence: Max \"glanced at the window\" but \"did not go to it\" because Ausable's \"police\" claim created time pressure. A competent agent would have tested the window latch or looked down *before* climbing out. This evaluates the lie as a *psychological exploit*, not a factual one — it targets the specific vulnerability (fear of capture) of *this* antagonist. Students who say \"yes, because the story was convincing\" confuse narrative persuasiveness with tactical robustness — a common board exam error where they praise the writing instead of analyzing the character's decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence internal monologue for Max *at the moment he swings his legs over the windowsill* that reveals his realization of the trap, using only details from the story up to this point.",
+     "a": "Example: \"The night air hits my face — no balcony floor, just empty space. Ausable's 'management' never came; the knock wasn't police, it was his signal. I chose the story over the window latch.\" A poor answer invents new details (e.g., \"I see Fowler laughing\") or shows no realization. This tests whether the student can synthesize the spatial lie (no floor), the temporal lie (management promise), and the tactical feint (knock as signal) into the antagonist's perspective — the highest Bloom level for this scene.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

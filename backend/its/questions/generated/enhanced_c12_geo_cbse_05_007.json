@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_007",
+   "title": "c12_geo_cbse_05_007",
+   "questions": [
+    {
+     "q": "What are the two main cereal crops that dominate extensive commercial grain farming globally, and name one major region (belt) for each?",
+     "a": "The two main crops are wheat and maize (corn). Major wheat belts include the Prairies (North America), Steppes (Eurasia), Pampas (Argentina), and Downs (Australia). Major corn belts include the US Corn Belt (Midwest USA), the Chinese Corn Belt (Northeast China), and parts of the Pampas. A wrong answer (e.g., naming rice or millet) reveals confusion between extensive commercial grain farming and intensive subsistence or plantation agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Why is extensive commercial grain farming concentrated in the mid-latitude grasslands (30°–55° N/S) rather than in tropical or equatorial regions?",
+     "a": "Mid-latitude grasslands provide the ideal combination of: (1) moderate rainfall (250–750 mm) suitable for wheat/maize without waterlogging, (2) distinct warm summers and cold winters that allow a single crop cycle and natural pest control, (3) deep, fertile soils (chernozems, prairie soils) formed under grassland vegetation, and (4) vast flat terrain enabling mechanization. Tropical regions have high rainfall, year-round warmth leading to multiple cropping but also pests/diseases, and soils often leached. A wrong answer focusing only on \"flat land\" misses the critical climatic and soil factors.",
+     "self_check": true
+    },
+    {
+     "q": "Given a climate graph for a station in the Canadian Prairies (e.g., Regina: annual precipitation 390 mm, summer max 26°C, winter min -20°C), explain whether it supports extensive wheat farming and why.",
+     "a": "Step 1: Identify the climate type: semi-arid continental (BSk). Step 2: Check precipitation: 390 mm falls within the 250–750 mm range for wheat. Step 3: Check temperature: warm summer (26°C) allows grain filling; cold winter (-20°C) provides dormancy and kills pests. Step 4: Conclude: Yes, it supports extensive wheat farming (spring wheat). A wrong answer might misinterpret low precipitation as unsuitable, ignoring that wheat is drought-tolerant and the region uses summer fallow to conserve moisture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the farm size, labor input, and yield per hectare of extensive commercial grain farming in the US Corn Belt with intensive subsistence rice farming in the Ganga-Brahmaputra delta. What geographical factors explain the differences?",
+     "a": "US Corn Belt: farm size >200 ha, labor input very low (1–2 persons per farm, highly mechanized), yield ~10–12 t/ha for maize. Ganga-Brahmaputra delta: farm size <1 ha, labor input high (family labor, manual), yield ~3–4 t/ha for rice. Factors: (1) Land availability: abundant in US, scarce in delta. (2) Climate: Corn Belt has single growing season; delta has year-round warmth allowing multiple crops. (3) Capital: high in US (machinery, fertilizers); low in delta. (4) Market orientation: commercial export vs subsistence/local. A wrong answer that only compares yields without linking to landholding size and mechanization misses the structural geographical drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of extensive commercial grain farming in the context of soil degradation, water use, and climate change. Is it more or less sustainable than intensive subsistence farming in India? Justify.",
+     "a": "Extensive commercial grain farming faces sustainability challenges: (1) Soil erosion from monoculture and removal of crop residue; (2) Groundwater depletion in areas using irrigation (e.g., Ogallala Aquifer in US High Plains); (3) High fossil fuel dependence for machinery and fertilizers; (4) Climate change increasing drought frequency in mid-latitudes. However, it uses less water per ton of grain than irrigated rice in India, and conservation tillage/no-till practices are improving soil health. Intensive subsistence farming in India has higher land productivity but suffers from fragmentation, overuse of chemicals, and groundwater depletion. Neither is fully sustainable; extensive farming has higher environmental footprint per farm but lower per unit output if managed with conservation agriculture. A wrong answer that labels one as \"sustainable\" and the other \"unsustainable\" without nuance fails to evaluate trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use plan for a 500-hectare farm in the Argentine Pampas transitioning from extensive wheat monoculture to a more sustainable system. Include crop rotation, soil conservation, and market considerations.",
+     "a": "A good plan: (1) Rotate wheat with soybeans (nitrogen-fixing) and maize (different root depth) in a 3-year cycle. (2) Adopt no-till seeding to reduce erosion and conserve moisture. (3) Establish windbreaks (e.g., eucalyptus rows) on field margins to reduce wind erosion. (4) Allocate 10% to pasture for livestock integration (mixed farming) to diversify income and recycle nutrients. (5) Use precision agriculture (GPS-guided variable rate fertilizer) to optimize inputs. (6) Market: target premium wheat for export, soy for global feed market, maize for local livestock. A poor answer simply says \"rotate crops\" without specifying the rotation, conservation techniques, or economic rationale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

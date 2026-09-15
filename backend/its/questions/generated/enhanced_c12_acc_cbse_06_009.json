@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_009",
+   "title": "c12_acc_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the minimum percentage of the face value of debentures that a company must transfer to Debenture Redemption Reserve (DRR) before commencement of redemption, as per the Companies Act, 2013?",
+     "a": "25% of the face value of outstanding debentures. A wrong answer (e.g., 10%, 15%, 50%) reveals the student has confused the DRR creation requirement (25%) with the investment/deposit requirement (15%) or is guessing. This is a pure statutory recall — mixing up the two percentages is the most common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues ₹1,00,00,000 debentures redeemable after 4 years. It decides to create a sinking fund earning 5% p.a. compound interest. The sinking fund table shows ₹0.232012 grows to ₹1 in 4 years at 5%. A student calculates the annual contribution as ₹1,00,00,000 × 0.232012 = ₹23,20,120. Is this correct? Explain why or why not.",
+     "a": "Yes, correct. The sinking fund factor (0.232012) is the amount that ₹1 invested annually at 5% accumulates to in 4 years. Multiplying the redemption amount by this factor gives the required annual contribution. A wrong answer (e.g., using 0.25 or dividing by 4) shows the student does not understand the time value of money embedded in the sinking fund table — they treat it as simple division rather than compound accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. has ₹2,00,00,000, 9% debentures outstanding, redeemable in three equal annual installments starting 31st March 2025. The company has not created any DRR yet. Calculate the minimum amount that must be transferred to DRR before the first redemption on 31st March 2025, and the minimum amount to be invested/deposited by 30th April 2024 for the debentures maturing in 2024-25.",
+     "a": "DRR required before first redemption = 25% of ₹2,00,00,000 = ₹50,00,000. Investment/deposit by 30th April 2024 = 15% of the face value of debentures maturing in 2024-25. Since redemption is in three equal installments, first installment = ₹2,00,00,000 / 3 = ₹66,66,667. 15% of ₹66,66,667 = ₹10,00,000 (approx). A wrong answer (e.g., calculating DRR on installment amount only, or ignoring the 15% investment rule) reveals the student does not distinguish between the *total outstanding* basis for DRR creation and the *maturing portion* basis for the 15% investment requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sinking Fund Method and the DRR requirement. A student says: \"Both are the same thing — the company puts money aside for redemption.\" Analyze this statement and explain the fundamental difference in their *nature*, *purpose*, and *accounting treatment*.",
+     "a": "The statement is incorrect. Sinking Fund is a *voluntary/internal financial planning tool* (though often adopted to meet redemption) where actual cash is invested in external assets (Sinking Fund Investments) to accumulate a specific sum. DRR is a *statutory legal requirement* that mandates *appropriation of profits* (not cash setting aside) to a reserve account — it does not require specific investments (except the separate 15% deposit rule). Accounting: Sinking Fund creates a reserve (credit) and an asset (investment, debit); DRR only transfers profit from Surplus to DRR (reserve) — no asset is created unless the separate 15% investment is made. A student conflating them misses the distinction between *funded* accumulation (sinking fund) and *profit retention* (DRR).",
+     "self_check": true
+    },
+    {
+     "q": "A company has a Sinking Fund of ₹40,00,000 and Sinking Fund Investments of ₹38,00,000 at book value. The investments are sold for ₹39,50,000 to redeem debentures of ₹40,00,000. Evaluate whether the company has a deficit or surplus in the sinking fund, and state the journal entry to transfer the balance to General Reserve after redemption.",
+     "a": "Sale proceeds ₹39,50,000 < Debentures ₹40,00,000 → Deficit of ₹50,000. But Sinking Fund balance is ₹40,00,000. Realisation profit = ₹39,50,000 - ₹38,00,000 = ₹1,50,000 (credit Sinking Fund). Sinking Fund becomes ₹41,50,000. After paying ₹40,00,000, balance = ₹1,50,000 credit. This surplus is transferred to General Reserve: Debit Sinking Fund ₹1,50,000; Credit General Reserve ₹1,50,000. A wrong answer (e.g., ignoring realisation profit/loss, or transferring the whole ₹40,00,000) shows the student does not track the Sinking Fund account as a running ledger that accumulates contributions, investment income, and realisation gains/losses.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sinking fund redemption plan for a company that issued ₹5,00,00,000, 8% debentures on 1st April 2023, redeemable at par on 31st March 2028. The sinking fund earns 6% p.a. The sinking fund table factor for 5 years at 6% is 0.177396. The company wants to make annual contributions on 31st March each year. Provide: (a) Annual contribution amount; (b) Journal entries for the first two years (2023-24, 2024-25) including interest on investments at 6%; (c) DRR and 15% investment compliance dates and amounts.",
+     "a": "(a) Annual contribution = ₹5,00,00,000 × 0.177396 = ₹88,69,800. (b) Year 1 (31 Mar 2024): Dr P&L Appropriation ₹88,69,800 Cr Sinking Fund ₹88,69,800; Dr Sinking Fund Investment ₹88,69,800 Cr Bank ₹88,69,800. Year 2 (31 Mar 2025): Dr P&L Appropriation ₹88,69,800 Cr Sinking Fund ₹88,69,800; Dr Bank ₹5,32,188 (6% on ₹88,69,800) Cr Sinking Fund ₹5,32,188; Dr Sinking Fund Investment ₹94,01,988 Cr Bank ₹94,01,988. (c) DRR: Must create 25% of ₹5,00,00,000 = ₹1,25,00,000 before redemption starts (i.e., by 31 Mar 2028). 15% Investment: By 30 April 2027, invest/deposit 15% of ₹5,00,00,000 = ₹75,00,000. A poor answer misses the reinvestment of interest in Year 2, or misstates DRR timing (must be *before* redemption, not at redemption), or calculates 15% on wrong base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

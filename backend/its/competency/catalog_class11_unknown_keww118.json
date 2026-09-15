@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 118,
+  "chapter_title": "For Elkana",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww118.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww118.1.1",
+      "title": "An April Evening on the Lawn",
+      "section": "1",
+      "definition": "Nissim Ezekiel sets a domestic scene: a warm April evening tempts a couple to the breezes crossing the lawn; they drag their chairs down the stone steps to sit in the garden. Into this quiet parental idyll walks their small son, Elkana, with a remark that will reorder the evening.",
+      "formula": "",
+      "key_idea": "Ordinary evening, extraordinary child -- a garden scene waiting for one sentence to tilt it.",
+      "textbook_ref": "keww118.txt opening stanzas (warm april evening, breezes across the lawn, chairs down the stone steps, garden setting)",
+      "question_patterns": [
+        "describe the setting of the poem for elkana",
+        "in class 11 for elkana: why do the parents move to the lawn",
+        "what mood does the opening of the poem create",
+        "who are the speakers in the poem",
+        "what time of year and day does the poem describe",
+        "how does the domestic setting prepare for the child's entrance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "paint the evening",
+          "explain": "April warmth, garden breezes and lawn chairs create a scene of contented married leisure."
+        },
+        {
+          "step": 2,
+          "action": "note the couple",
+          "explain": "The parents sit together, talking -- the poem will overhear their small negotiation."
+        },
+        {
+          "step": 3,
+          "action": "wait for the child",
+          "explain": "The scene is arranged precisely so that Elkana's interruption lands with full force."
+        }
+      ]
+    },
+    {
+      "id": "keww118.1.2",
+      "title": "Elkana's Interruption and the Logic of a Child",
+      "section": "1",
+      "definition": "Elkana interrupts his parents' conversation with his own announcement -- insisting he must be heard, that he is speaking the truth. His childish phrasing carries an uncanny wisdom; the parents pause, correct their mood, and see the evening through their son's innocent but piercing logic.",
+      "formula": "",
+      "key_idea": "A child's sentence stops the adult world -- innocence as the sharpest commentary on love.",
+      "textbook_ref": "keww118.mp3 middle stanzas (keww118.txt: elkana's announcement, i must be heard, speaking the truth, parents' reaction, correction of mood)",
+      "question_patterns": [
+        "what does elkana announce to his parents",
+        "in class 11 for elkana: how do the parents react to elkana's interruption",
+        "explain the child's insistence that he is speaking the truth",
+        "what is humorous in elkana's words and what is wise",
+        "how does the poem show adult conversation through the child's eyes",
+        "why does the couple's mood change after elkana speaks"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "hear the interruption",
+          "explain": "Elkana breaks in with an announcement, demanding the hearing adults give each other."
+        },
+        {
+          "step": 2,
+          "action": "weigh his words",
+          "explain": "His claim to truth is childlike yet disarming -- he states the family's small politics plainly."
+        },
+        {
+          "step": 3,
+          "action": "watch the parents adjust",
+          "explain": "Amused and chastened, they take his words seriously, letting innocence reorder their mood."
+        }
+      ]
+    },
+    {
+      "id": "keww118.1.3",
+      "title": "Love Argued and Affirmed: The Theme of Family Understanding",
+      "section": "1",
+      "definition": "Beneath the light comedy, the poem measures a marriage: the parents' slightly strained affection, their accommodation of a third voice, and the tenderness that survives honesty. Family love appears not as sentiment but as daily negotiation -- argued, interrupted, and finally affirmed.",
+      "formula": "",
+      "key_idea": "Family love as negotiation -- interruption, wit and accommodation holding a household together.",
+      "textbook_ref": "keww118.txt theme sections (marriage of the parents, affection and strain, family understanding, tenderness at the end of the poem)",
+      "question_patterns": [
+        "what does the poem suggest about the relationship between the parents",
+        "in class 11 for elkana: how does the poem balance humour and tenderness",
+        "is the poem only about a child's remark discuss its theme",
+        "how does the poem portray family communication",
+        "what role does humour play in holding the family together",
+        "explain the ending of for elkana and its feeling"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the marriage",
+          "explain": "Small frictions and accommodations between the parents are shown with affectionate precision."
+        },
+        {
+          "step": 2,
+          "action": "read the child's role",
+          "explain": "Elkana's interruption works like a hinge, turning private irritation into shared laughter."
+        },
+        {
+          "step": 3,
+          "action": "read the affirmation",
+          "explain": "The poem ends with love intact -- negotiated daily, never merely declared."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww118.txt middle stanzas",
+      "concept": "keww118.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "How does Ezekiel make Elkana's interruption both funny and meaningful at once?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the comic timing",
+          "explain": "The child arrives exactly when the parents' talk is most self-absorbed."
+        },
+        {
+          "step": 2,
+          "action": "note the serious kernel",
+          "explain": "His insistence on being heard and on truth turns a nuisance into a comment on the couple's conversation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Humour carries the meaning: the child's nonsense is the household's honest mirror."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww118.txt theme sections",
+      "concept": "keww118.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Would you call For Elkana a love poem? Argue with reference to the poem.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant the domestic frame",
+          "explain": "There are no roses or moons -- only lawn chairs, breezes and a chattering child."
+        },
+        {
+          "step": 2,
+          "action": "find the love",
+          "explain": "The parents' endurance of interruption and their shared amusement are love in its daily form."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "It is a love poem of family life -- affection tested and proven by interruption."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww118.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the scene with which the poem opens.",
+        "What does Elkana say to his parents and how do they respond?",
+        "How does Ezekiel create humour in the poem?",
+        "Comment on the relationship between the parents in the poem.",
+        "What aspects of family life does the poem highlight?",
+        "Justify the title 'For Elkana'."
+      ]
+    }
+  ]
+}

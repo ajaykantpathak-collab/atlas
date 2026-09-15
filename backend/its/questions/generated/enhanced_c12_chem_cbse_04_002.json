@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_002",
+   "title": "c12_chem_cbse_04_002",
+   "questions": [
+    {
+     "q": "Write the ground-state electronic configuration of a neutral copper atom (Z = 29) and explain why it does not follow the expected (n−1)d⁹ ns² pattern.",
+     "a": "Correct answer: Cu = [Ar] 3d¹⁰ 4s¹. The expected configuration would be [Ar] 3d⁹ 4s², but a fully-filled d¹⁰ subshell provides extra stability (exchange energy and symmetry), so one 4s electron is promoted to the 3d orbital. A wrong answer of [Ar] 3d⁹ 4s² reveals that the student is mechanically applying the Aufbau order without considering the special stability of completely filled d subshells — a classic board exam error that also appears in JEE questions asking for the configuration of Cu⁺ or Cu²⁺ ions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the electronic configuration of Cr²⁺ as [Ar] 3d² 4s². Identify the error and write the correct configuration. Explain the rule for electron removal in transition metal ions.",
+     "a": "Correct answer: Cr²⁺ = [Ar] 3d⁴. The student incorrectly removed the 3d electrons first. The rule: when d-block elements form ions, the ns electrons are lost before the (n−1)d electrons. Neutral Cr is [Ar] 3d⁵ 4s¹; removing two electrons gives 3d⁴ (both from 4s¹ and one from 3d⁵). Writing 3d²4s² shows the student has not internalised the \"ns before (n−1)d\" ionisation order — a critical concept for predicting oxidation states and magnetic properties in later nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Given the atomic numbers: Sc (21), Ti (22), V (23), Cr (24), Mn (25), Fe (26), Co (27), Ni (28), Cu (29), Zn (30). Write the ground-state configurations for all ten elements. Identify which two are exceptions to the general (n−1)d¹⁻¹⁰ ns² pattern and state their configurations.",
+     "a": "Configurations: Sc [Ar] 3d¹4s², Ti [Ar] 3d²4s², V [Ar] 3d³4s², Cr [Ar] 3d⁵4s¹, Mn [Ar] 3d⁵4s², Fe [Ar] 3d⁶4s², Co [Ar] 3d⁷4s², Ni [Ar] 3d⁸4s², Cu [Ar] 3d¹⁰4s¹, Zn [Ar] 3d¹⁰4s². Exceptions: Cr (3d⁵4s¹) and Cu (3d¹⁰4s¹). A student who writes Cr as 3d⁴4s² and Cu as 3d⁹4s² is applying the Aufbau principle rigidly and missing the stability of half-filled (d⁵) and fully-filled (d¹⁰) d subshells. This error propagates to ion configurations (e.g., writing Cr³⁺ as 3d¹ instead of 3d³) and to questions on magnetic moment calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electronic configurations of the 3d, 4d, and 5d series elements in Group 6 (Cr, Mo, W). Why does tungsten (W, Z = 74) have the configuration [Xe] 4f¹⁴ 5d⁴ 6s² while chromium (Cr, Z = 24) is [Ar] 3d⁵ 4s¹? Is molybdenum (Mo, Z = 42) an exception like Cr?",
+     "a": "Cr: [Ar] 3d⁵4s¹ (half-filled d⁵ stability). Mo: [Kr] 4d⁵5s¹ (also half-filled d⁵ stability — Mo IS an exception like Cr). W: [Xe] 4f¹⁴ 5d⁴6s² (NOT an exception; the 5d⁴6s² configuration is more stable due to relativistic effects and the lanthanoid contraction making 5d and 6s energies closer; the half-filled 5d⁵ would require promoting a 6s electron, which is less favourable for heavier elements). A student who says \"all Group 6 elements have d⁵s¹\" is overgeneralising the Cr exception. JEE often tests this by asking which of Cr, Mo, W has the \"normal\" d⁴s² configuration — the answer is W.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Zinc (Zn, Z = 30) is a transition element because it is in the d-block and has electrons in the d orbital.\" Is this statement correct according to the IUPAC definition? Justify your answer with the electronic configuration of Zn and its common ion Zn²⁺.",
+     "a": "The statement is INCORRECT. IUPAC defines a transition element as a metal that has an incomplete d subshell in its neutral atom OR in its common oxidation states. Zn: [Ar] 3d¹⁰4s² (d¹⁰ fully filled). Zn²⁺: [Ar] 3d¹⁰ (still d¹⁰ fully filled). Since Zn never has an incomplete d subshell, it is a d-block element but NOT a transition element. The same applies to Cd and Hg. A student who agrees with the statement confuses \"d-block\" with \"transition element\" — a distinction explicitly tested in CBSE (1-mark) and NEET (assertion-reason) questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (algorithm) that a student can use to determine whether a given d-block element (atomic number provided) is a transition element according to IUPAC. Your flowchart must handle neutral atoms and common oxidation states (+2, +3). Test it on Sc, Zn, Cu, and Pd.",
+     "a": "Flowchart logic: (1) Write ground-state config of neutral atom. (2) If (n−1)d is incomplete → transition element. (3) If (n−1)d is complete (d¹⁰), write configs of common ions (M²⁺, M³⁺ by removing ns then (n−1)d electrons). (4) If any common ion has incomplete d → transition element. (5) Else → not transition element. Test: Sc [Ar] 3d¹4s² → d incomplete → YES. Zn [Ar] 3d¹⁰4s² → d¹⁰; Zn²⁺ [Ar] 3d¹⁰ → still d¹⁰ → NO. Cu [Ar] 3d¹⁰4s¹ → d¹⁰; Cu⁺ [Ar] 3d¹⁰ → d¹⁰; Cu²⁺ [Ar] 3d⁹ → d incomplete → YES. Pd [Kr] 4d¹⁰5s⁰ → d¹⁰; Pd²⁺ [Kr] 4d⁸ → d incomplete → YES. A poor answer would omit the ion-check step and misclassify Cu and Pd.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

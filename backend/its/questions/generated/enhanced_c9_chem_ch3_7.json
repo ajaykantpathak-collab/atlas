@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_7",
+   "title": "c9_chem_ch3_7",
+   "questions": [
+    {
+     "q": "Write the chemical formula for magnesium nitride, given that magnesium has valency 2 and nitrogen has valency 3.",
+     "a": "The correct formula is Mg₃N₂. Steps: Write symbols Mg and N. Write valencies: Mg²⁺, N³⁻. Cross over: Mg₃N₂. Check charge balance: 3×(+2) = +6, 2×(-3) = -6, net zero. A wrong answer like MgN or Mg₂N₃ reveals the student either forgot to cross valencies, crossed incorrectly, or did not simplify to the simplest ratio. It also shows they may not verify charge neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for aluminium sulfate is Al₂(SO₄)₃ and not AlSO₄ or Al₃(SO₄)₂.",
+     "a": "Aluminium has valency 3 (Al³⁺), sulfate has valency 2 (SO₄²⁻). Crossing over gives Al₂(SO₄)₃. Charge check: 2×(+3)=+6, 3×(-2)=-6, neutral. AlSO₄ would give +3 and -2 (not neutral). Al₃(SO₄)₂ would give +9 and -4 (not neutral). A wrong explanation reveals the student does not understand that the cross-over method directly ensures charge balance, or they treat the polyatomic ion as a single atom without considering its valency as a whole unit.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formula for calcium phosphate as Ca₃(PO₄)₂. Verify if this is correct by calculating the total positive and negative charges. If incorrect, write the correct formula.",
+     "a": "Calcium valency = 2 (Ca²⁺), phosphate valency = 3 (PO₄³⁻). Cross over: Ca₃(PO₄)₂. Charge check: 3×(+2)=+6, 2×(-3)=-6. Net charge = 0. The formula is correct. If a student writes Ca₂(PO₄)₃, the charges would be +4 and -9 (not neutral). A wrong verification indicates the student cannot compute the net charge from subscripts, or confuses the valency of phosphate (3) with that of phosphate ion's internal atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formulae of sodium oxide (Na₂O) and magnesium oxide (MgO). Both contain oxygen with valency 2. Why does sodium require two atoms while magnesium requires only one?",
+     "a": "Sodium has valency 1 (Na⁺), oxygen has valency 2 (O²⁻). To balance -2, two Na⁺ are needed: Na₂O. Magnesium has valency 2 (Mg²⁺), so one Mg²⁺ balances one O²⁻: MgO. The difference arises because the valency of the metal determines how many atoms are needed to balance the fixed valency of oxygen. A wrong answer (e.g., \"oxygen changes valency\") reveals the misconception that oxygen's valency changes per compound, rather than the metal's valency determining the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the formula for ammonium carbonate is (NH₄)₂CO₃ because \"ammonium has valency 1 and carbonate has valency 2\". Evaluate this claim and correct if necessary.",
+     "a": "The claim is correct. Ammonium ion (NH₄⁺) has valency 1, carbonate (CO₃²⁻) has valency 2. Cross over: (NH₄)₂CO₃. Charge check: 2×(+1)=+2, 1×(-2)=-2, neutral. The parentheses are essential because ammonium is a polyatomic ion and the subscript 2 applies to the whole group. If the student writes NH₄CO₃, it would be +1 and -2 (not neutral). If they write NH₄₂CO₃ (without parentheses), it implies N H₄₂ which is chemically meaningless. A wrong evaluation shows the student does not recognize the need for parentheses with polyatomic ions when more than one is present.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure (algorithm) that a Class 9 student can follow to write the formula of any binary ionic compound given the names of the metal and non-metal and their valencies. Test your procedure on iron(III) oxide (Fe valency 3, O valency 2).",
+     "a": "Procedure: 1) Write the symbols of the cation and anion. 2) Write their valencies as superscripts (charges). 3) Cross the valencies to become subscripts of the opposite ion. 4) Simplify subscripts to simplest whole-number ratio if needed. 5) Verify charge balance: (cation subscript × cation charge) + (anion subscript × anion charge) = 0. 6) Write final formula. Test: Fe³⁺, O²⁻ → cross → Fe₂O₃. Check: 2×(+3) + 3×(-2) = 0. Correct. A poor answer lacks the verification step, omits simplification, or does not handle the Roman numeral (III) to deduce Fe valency 3.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

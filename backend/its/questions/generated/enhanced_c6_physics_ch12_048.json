@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_048",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_048",
+   "title": "c6_physics_ch12_048",
+   "questions": [
+    {
+     "q": "What is the position of the Moon during a solar eclipse?",
+     "a": "During a solar eclipse, the Moon is positioned between the Earth and the Sun. A student who says \"the Sun is between the Earth and Moon\" confuses the alignment and fails to realize that the Moon is the one casting the shadow on Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon disappear or turn dark during a lunar eclipse?",
+     "a": "The Moon turns dark because the Earth blocks sunlight from reaching the Moon's surface. If a student thinks the Moon itself \"runs out of light,\" they miss the concept of the Earth acting as an opaque barrier that casts a shadow into space.",
+     "self_check": true
+    },
+    {
+     "q": "If you are standing in a location experiencing a solar eclipse, what do you see when you look at the Sun?",
+     "a": "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen. A wrong answer suggests the student doesn't understand that the Moon is opaque and physically obstructs our line of sight to the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the shadow-casting object in a solar eclipse versus a lunar eclipse.",
+     "a": "In a solar eclipse, the Moon casts the shadow; in a lunar eclipse, the Earth casts the shadow. If a student says the Sun casts the shadow, they have fundamentally misunderstood that the Sun is the light *source*, not the object being shadowed.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a solar eclipse to happen at night? Justify your answer.",
+     "a": "No, because a solar eclipse requires the Sun to be visible in the sky to be blocked by the Moon. If a student answers \"yes,\" they are ignoring the fact that the Sun is on the opposite side of the Earth at night.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you have a torch (Sun), a small ball (Moon), and a globe (Earth). How would you arrange them to show a lunar eclipse?",
+     "a": "The order must be Torch -> Globe -> Ball. The student must demonstrate that the Earth (globe) is in the middle, intercepting the light from the torch. A poor answer would place the ball in the middle, which would represent a solar eclipse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

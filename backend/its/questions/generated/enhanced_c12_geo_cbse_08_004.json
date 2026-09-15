@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_004",
+   "title": "c12_geo_cbse_08_004",
+   "questions": [
+    {
+     "q": "Name the two major pipeline networks in India for natural gas transportation and the organization that operates them.",
+     "a": "Correct answer: The two major natural gas pipeline networks are the Hazira-Vijaipur-Jagdishpur (HVJ) pipeline and the Dahej-Vijaipur pipeline, operated by GAIL (India) Ltd. A wrong answer (e.g., naming oil pipelines like Naharkatiya-Nunmati or confusing with petroleum product pipelines) reveals confusion between natural gas and petroleum product pipeline networks and their operators.",
+     "self_check": true
+    },
+    {
+     "q": "Why is air transport preferred for high-value, low-volume goods (like electronics, pharmaceuticals) while pipelines are used for low-value, high-volume fluids (like crude oil)? Explain using the concept of 'value-to-weight ratio'.",
+     "a": "Correct answer: Air transport has high cost per tonne-km but very high speed, making it economical only when the value of goods is high relative to their weight (high value-to-weight ratio). Pipelines have very low operating cost per tonne-km and high capacity but are limited to fluids; they are economical for low-value, high-volume bulk fluids where speed is not critical. A wrong answer that focuses only on speed or only on cost without linking to value-to-weight ratio shows incomplete understanding of transport economics.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data: Air freight cost = ₹50/kg for 1000 km; Pipeline transport cost = ₹0.10/tonne-km for crude oil. Calculate the cost to transport 1 tonne of smartphones (assume 1000 smartphones per tonne, each worth ₹50,000) by air vs 1 tonne of crude oil (worth ₹40,000 per tonne) by pipeline over 1000 km. Which mode is more cost-effective for each commodity? Show steps.",
+     "a": "Steps: 1) Air cost for 1 tonne = 1000 kg × ₹50/kg = ₹50,000. Value of smartphones = 1000 × ₹50,000 = ₹5 crore. Transport cost as % of value = 0.01%. 2) Pipeline cost for 1 tonne over 1000 km = ₹0.10/tonne-km × 1000 km = ₹100. Value of crude = ₹40,000. Transport cost as % = 0.25%. Both are low percentage, but air is justified for high-value goods; pipeline for low-value bulk. Wrong answer: miscalculating units (e.g., using ₹0.10/kg for pipeline) or not converting units reveals unit mismatch errors common in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impacts of air transport and pipeline transport. Consider emissions per tonne-km, land use, risk of accidents, and noise pollution. Which is more sustainable for long-distance bulk fluid transport?",
+     "a": "Correct analysis: Air transport has high CO2 emissions per tonne-km (≈500-1000 g), significant noise, and requires large airports. Pipelines have low emissions (≈10-20 g CO2/tonne-km), minimal land disruption after construction, but risk of leaks/spills. For bulk fluids, pipelines are far more sustainable. Wrong answer that claims pipelines are worse due to oil spills without comparing per-unit emissions shows lack of quantitative comparison skill.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: 'India should shift all long-distance freight from railways to air transport to speed up the economy.' Use data on cost, capacity, energy use, and type of goods.",
+     "a": "Correct evaluation: Air freight is 10-15 times costlier than rail per tonne-km, has limited capacity (suitable for <1% of total freight volume), consumes more energy, and is unsuitable for bulk commodities (coal, iron ore, food grains). Shifting all freight would skyrocket logistics costs and inflation. The statement is flawed; a multimodal approach is optimal. Wrong answer that agrees without considering cost/capacity shows inability to evaluate trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal transport plan for exporting Darjeeling tea from West Bengal to Europe. Specify the sequence of modes (road/rail/air/pipeline/sea), justify each leg, and identify the key infrastructure nodes (airports, ports, ICDs) involved.",
+     "a": "Expected answer: Tea is high-value, perishable, moderate volume. Plan: 1) Road from gardens to Siliguri (short distance). 2) Rail to Kolkata (ICD) or direct to airport. 3) Air freight from Kolkata (Netaji Subhas Chandra Bose International Airport) to European hub (e.g., Frankfurt). 4) Road to final destination. Justify: Air for speed to preserve quality; rail for cost-effective long haul to port/airport; sea not used due to time. Key nodes: Bagdogra airport (alternative), Kolkata airport/port, ICD Dankuni. Poor answer uses pipeline or sea for tea, or misses the need for cold chain/air, showing lack of commodity-specific reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

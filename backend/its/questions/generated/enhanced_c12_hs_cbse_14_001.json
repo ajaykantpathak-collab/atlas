@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_001",
+   "title": "c12_hs_cbse_14_001",
+   "questions": [
+    {
+     "q": "List four distinct sources of fabric soiling in a typical Indian household and classify each as particulate, oily, or combination soil.",
+     "a": "Correct answer: (1) Road dust / construction dust — particulate; (2) Cooking oil splatter / ghee — oily; (3) Perspiration (sweat + sebum) — combination; (4) Food spills (dal, curry with turmeric/oil) — combination. A wrong answer that lists only \"dirt\" or \"stains\" without classification reveals the student cannot distinguish soil by chemical nature, which is essential for selecting cleaning agents later (e.g., surfactants for oily soil, mechanical agitation for particulate).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why cotton fabrics soil more readily than polyester fabrics of identical weave, using the terms 'hydrophilicity', 'amorphous regions', and 'capillary action'.",
+     "a": "Correct explanation: Cotton is hydrophilic with abundant amorphous cellulose regions that absorb water-borne soils via capillary action, swelling the fibre and trapping particulates inside the fibre structure. Polyester is hydrophobic with high crystallinity; water and water-borne soils remain on the surface where they can be rinsed off. A wrong answer citing only \"cotton is natural\" or \"polyester is synthetic\" shows the student relies on fibre origin rather than structural properties — a critical gap for predicting behaviour of regenerated fibres like viscose.",
+     "self_check": true
+    },
+    {
+     "q": "A white cotton bedsheet used in a coastal city turns yellow after six months despite regular washing. Propose the most likely chemical deterioration mechanism and name the environmental factor accelerating it.",
+     "a": "Correct answer: Oxidative yellowing (cellulose oxidation to carbonyl/quinone chromophores) accelerated by high humidity and salt aerosols (NaCl) from sea air, which catalyse photo-oxidation under sunlight. A wrong answer blaming \"detergent residue\" or \"hard water\" alone misses the synergistic role of UV radiation + salt + moisture — a classic competitive-exam trap where students identify one factor but not the interacting system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deterioration pathways of wool and nylon when exposed to (a) prolonged sunlight, (b) carpet beetle larvae. Present as a 2×2 table with mechanism and severity.",
+     "a": "Correct table: Wool — (a) Photo-oxidative cleavage of disulfide bonds in keratin → yellowing, embrittlement, HIGH severity; (b) Keratin digestion by larval proteases → holes, COMPLETE destruction. Nylon — (a) Photo-oxidation of amide linkages → chain scission, MODERATE severity (slower than wool); (b) Synthetic polymer resistant to biological enzymes → NEGLIGIBLE. A wrong answer claiming \"both degrade equally in sunlight\" ignores the chromophore difference (aromatic amino acids in wool vs. aliphatic nylon) and reveals poor grasp of structure-property relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Frequent washing always extends fabric life because it removes soil.\" Provide two counter-examples with mechanisms.",
+     "a": "Correct evaluation: False. Counter-example 1: Wool washed in hot water with alkaline detergent → felting (irreversible fibre entanglement) and hydrolysis of peptide bonds — mechanical + chemical damage exceeds soil damage. Counter-example 2: Cotton washed with chlorine bleach at high temperature → oxidative cellulose degradation (tendering) — tensile strength loss > soil abrasion. A wrong answer agreeing with the statement shows the student views washing as purely beneficial, ignoring that laundering itself is a controlled deterioration process — a key concept for later nodes on wash cycle optimisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a controlled experiment to test whether particulate soil (fine sand) or oily soil (cooking oil) causes greater tensile strength loss in cotton after 20 simulated wear cycles. Specify: fabric prep, soil application method, wear simulation, test standard, and the key variable to isolate.",
+     "a": "Good answer: (1) Fabric prep: Scour and bleach 100% cotton plain weave (150 GSM), condition at 20°C/65% RH. (2) Soil application: Group A — dust with 100 μm silica sand (2 g/m²) via rotary tumbler; Group B — pad-dry-cure with 5% refined sunflower oil. (3) Wear simulation: Martindale abrasion tester, 9 kPa pressure, 20 cycles, dry state. (4) Test standard: IS 1969 / ASTM D5034 grab test, 5 specimens per group. (5) Key variable isolated: Soil chemistry (particulate vs. oily) — all other parameters identical. A poor answer that varies fabric type or uses \"rubbing by hand\" lacks control and cannot isolate the soil effect — revealing inability to design valid comparative experiments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

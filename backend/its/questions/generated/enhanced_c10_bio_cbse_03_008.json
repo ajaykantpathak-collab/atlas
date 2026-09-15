@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_008",
+   "title": "c10_bio_cbse_03_008",
+   "questions": [
+    {
+     "q": "Name the primary male sex organ and state the two main functions it performs from puberty onwards.",
+     "a": "The primary male sex organ is the testis (plural: testes). Its two main functions from puberty are: (1) production of haploid sperm (spermatogenesis) in the seminiferous tubules, and (2) secretion of the hormone testosterone by Leydig cells. A wrong answer (e.g., naming the penis or prostate as the primary organ) reveals confusion between primary sex organs (gonads) and accessory reproductive structures, and/or ignorance that testes have both exocrine (sperm) and endocrine (hormone) functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the testes are located outside the abdominal cavity in the scrotum, and predict what would happen to sperm production if they remained inside the abdomen.",
+     "a": "The testes are in the scrotum because spermatogenesis requires a temperature 2–3°C lower than core body temperature (37°C). If testes remained intra-abdominal, the higher temperature would denature enzymes essential for meiosis in spermatogenesis, leading to impaired or absent sperm production (azoospermia/oligospermia) and infertility. A wrong answer (e.g., \"for protection\" or \"to make space\") shows the student has memorised the location but not the functional reason — a classic board exam trap where students confuse anatomical position with physiological necessity.",
+     "self_check": true
+    },
+    {
+     "q": "A sperm is produced in the seminiferous tubules. Trace its complete path from production to exit from the body, naming every structure it passes through and stating one functional change that occurs to the sperm or its environment at each step.",
+     "a": "Path: Seminiferous tubules → Rete testis → Epididymis (sperm mature, gain motility) → Vas deferens (transport via peristalsis) → Ejaculatory duct (mixes with seminal vesicle fluid) → Urethra (mixes with prostate fluid, then bulbourethral fluid) → Penis (ejaculation). At epididymis: sperm mature and become motile. At seminal vesicles: fructose added for energy. At prostate: alkaline fluid added to neutralise vaginal acidity. At bulbourethral glands: mucus lubricates urethra. A wrong sequence or missing accessory gland reveals the student views the system as a simple tube rather than a multi-stage processing line where each gland contributes specific biochemical support.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and function of secretions from the seminal vesicles, prostate gland, and bulbourethral glands. Why is the mixture of these three fluids (semen) more effective for fertilisation than sperm alone?",
+     "a": "Seminal vesicles (60% volume): viscous, alkaline fluid rich in fructose (energy), prostaglandins (stimulate uterine contractions), and clotting proteins. Prostate (30%): milky, slightly acidic fluid with citrate, enzymes (PSA), and zinc — activates sperm motility and liquefies semen after clotting. Bulbourethral glands (trace): clear mucus lubricates urethra and neutralises residual acidic urine. Semen provides: (1) energy substrate (fructose), (2) pH buffering for vaginal acidity, (3) coagulation/liquefaction for retention in vagina, (4) lubrication, (5) immune modulation. Sperm alone would die quickly in acidic vagina, lack energy, and be expelled. A wrong answer listing only \"nutrition\" or \"protection\" misses the multi-functional biochemical synergy — a common board exam error where students underdescribe semen's role.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The urethra in males is part of both the urinary and reproductive systems, so urine and semen can be expelled at the same time.\" Is this correct? Justify your answer with the physiological mechanism that prevents mixing.",
+     "a": "The statement is INCORRECT. Although the urethra is a common passage, urine and semen are NEVER expelled simultaneously. During sexual arousal, the internal urethral sphincter (at the bladder neck) contracts tightly, preventing urine from entering the urethra and preventing retrograde ejaculation into the bladder. Only during urination does this sphincter relax while the external sphincter is voluntarily controlled. A wrong evaluation (agreeing with the statement) reveals a dangerous misconception about shared pathways — students often confuse anatomical sharing with functional simultaneity, ignoring the neural/hormonal control of sphincters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using everyday materials) to show why the scrotum's external position is critical for sperm production. Explain what each material represents and what observation would confirm the principle.",
+     "a": "Materials: Two identical zip-lock bags with equal amounts of gelatin (representing testicular tissue with enzymes), two thermometers, a bowl of ice water (~20°C), a bowl of warm water (~37°C). Place one bag in ice water (scrotal temp) and one in warm water (abdominal temp). After 30 min, check gelatin consistency. The cooler bag remains firm (enzymes functional); the warmer bag liquefies (enzymes denatured). This models how temperature affects protein/enzyme stability in spermatogenesis. A poor design (e.g., using yeast fermentation) tests metabolism not temperature-sensitive meiosis, showing the student cannot isolate the specific thermal sensitivity of spermatogenesis from general biological processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

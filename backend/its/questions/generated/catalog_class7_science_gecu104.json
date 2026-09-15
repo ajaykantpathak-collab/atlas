@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu104.json",
+ "concepts": [
+  {
+   "id": "gecu.4.1",
+   "title": "Properties of Metals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State three properties of metals.",
+     "a": "They are lustrous, good conductors of heat and electricity, and can be hammered into sheets.",
+     "self_check": true
+    },
+    {
+     "q": "Name the property that lets metals be drawn into wires.",
+     "a": "Ductility - gold and copper wires are common examples.",
+     "self_check": true
+    },
+    {
+     "q": "Why are cooking pots made of metal but handles of wood or plastic?",
+     "a": "Metal conducts heat to cook fast; wood or plastic insulates the hand from heat.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.2",
+   "title": "The World of Metals and Non-metals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two metals and two non-metals with one use each.",
+     "a": "Iron (construction) and copper (wires); carbon (pencils) and sulphur (medicines).",
+     "self_check": true
+    },
+    {
+     "q": "Which non-metal is essential for breathing?",
+     "a": "Oxygen - a non-metal we breathe in.",
+     "self_check": true
+    },
+    {
+     "q": "Is graphite a metal or non-metal? Why is it special?",
+     "a": "A non-metal that conducts electricity, so it is used in electrodes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.3",
+   "title": "Rusting: Iron Meets Air and Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is rusting and what does iron need to rust?",
+     "a": "Brown flaky iron oxide forming on iron; both air (oxygen) and water are needed.",
+     "self_check": true
+    },
+    {
+     "q": "Name two methods to stop rusting.",
+     "a": "Painting or oiling the surface, and galvanising with zinc.",
+     "self_check": true
+    },
+    {
+     "q": "Why do iron railings in coastal areas rust faster?",
+     "a": "Salty moist sea air speeds up the rusting reaction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.4",
+   "title": "Substances that Behave Differently and Uses of Non-metals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Which substances behave both as acids and bases?",
+     "a": "Amphoteric-like substances such as some metal oxides (e.g. aluminium oxide) react with both.",
+     "self_check": true
+    },
+    {
+     "q": "Name two uses of non-metals in daily life.",
+     "a": "Oxygen for breathing and burning; chlorine to purify water; carbon in fuels.",
+     "self_check": true
+    },
+    {
+     "q": "Why is phosphorus stored in water?",
+     "a": "It catches fire in air, so water keeps air away from it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

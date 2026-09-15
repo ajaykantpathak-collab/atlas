@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_2",
+   "title": "c8_math_ch2_2",
+   "questions": [
+    {
+     "q": "State the defining characteristic that distinguishes exponential growth from linear growth in a sequence of numbers.",
+     "a": "Correct: Linear growth has a constant **difference** between consecutive terms (additive), while exponential growth has a constant **ratio** between consecutive terms (multiplicative).  \nA wrong answer (e.g., \"exponential grows faster\") reveals the student knows the outcome but not the structural definition — they cannot test a given sequence to classify it.",
+     "self_check": true
+    },
+    {
+     "q": "A sequence starts at 5 and each term is obtained by adding 3. Another starts at 5 and each term is obtained by multiplying by 3. Without calculating beyond the 3rd term, explain which sequence will be larger at the 10th term and why.",
+     "a": "Correct: The multiplicative (exponential) sequence will be larger at the 10th term. Even though both start at 5, repeated multiplication by 3 grows much faster than repeated addition of 3 because each step scales the *entire current value*, not just adds a fixed chunk.  \nA wrong answer (e.g., \"addition wins because 3+3+3...\") reveals the student thinks linearly about growth and doesn't grasp that multiplication compounds on the accumulated total.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan saves ₹200 every month (linear). Priya saves ₹50 the first month and doubles her savings each subsequent month (exponential). Make a table for months 1 to 6 showing each person's **total cumulative savings**. In which month does Priya's total first exceed Rohan's?",
+     "a": "**Table:**\n| Month | Rohan (Add ₹200) | Priya (Double each month) |\n|-------|------------------|---------------------------|\n| 1     | 200              | 50                        |\n| 2     | 400              | 100                       |\n| 3     | 600              | 200                       |\n| 4     | 800              | 400                       |\n| 5     | 1000             | 800                       |\n| 6     | 1200             | 1600                      |\n\nPriya exceeds Rohan in **Month 6** (1600 > 1200).  \nSteps: Rohan = 200 × month. Priya = 50 × 2^(month-1). Compute each month cumulatively.  \nA wrong answer (e.g., Month 5) usually comes from comparing monthly *deposits* (Priya's month 5 deposit = 800, Rohan's = 200) instead of *cumulative totals* — a classic confusion between term value and sum.",
+     "self_check": true
+    },
+    {
+     "q": "Two bacteria colonies grow for 5 hours. Colony A increases by 1000 bacteria every hour (linear). Colony B starts with 10 bacteria and triples every hour (exponential). Compare the **rate of increase per hour** for each colony at Hour 3 and Hour 5. What pattern do you notice about how the rates themselves change?",
+     "a": "Colony A (linear): Rate is constant **1000 bacteria/hour** at both Hour 3 and Hour 5.  \nColony B (exponential): Hour 3 population = 10 × 3³ = 270; increase from Hour 2 to 3 = 270 - 90 = **180/hour**. Hour 5 population = 10 × 3⁵ = 2430; increase from Hour 4 to 5 = 2430 - 810 = **1620/hour**.  \nPattern: Linear growth has a **constant rate**; exponential growth has an **increasing rate** (the rate itself grows exponentially).  \nA wrong answer (e.g., \"both rates increase\") reveals the student doesn't distinguish between the *value* growing and the *rate of growth* changing — they conflate the two.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Any exponential growth will eventually beat any linear growth, no matter how small the multiplier or how large the linear increment.\" Evaluate this claim. Is it always true? Give a counterexample or proof.",
+     "a": "The claim is **true for positive multipliers > 1 and positive increments**, given enough steps. However, if the exponential multiplier is **between 0 and 1** (decay) or the linear increment is **negative**, the claim fails. Also, if the exponential starts at 0, it stays 0.  \nCounterexample: Exponential: start 10, multiply by 0.5 (decay). Linear: start 10, add 1. Linear grows, exponential shrinks — linear wins forever.  \nA wrong answer (e.g., \"always true\") reveals the student hasn't considered edge cases: decay, negative growth, or zero start — they overgeneralized from positive growth examples only.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a person must choose between a linear payment plan and an exponential payment plan for a 10-day job. The exponential plan must start lower but end higher. Specify the starting amount, the linear daily increment, and the exponential daily multiplier. Show the crossover day.",
+     "a": "Example: A mason is offered: Plan A (linear): ₹500 on Day 1, increase by ₹200 each day. Plan B (exponential): ₹50 on Day 1, double each day.  \nCrossover: Day 6 (Plan A = 500+5×200=1500; Plan B = 50×2⁵=1600).  \nA good answer defines both plans clearly, computes a table, and identifies the crossover day with correct arithmetic. A poor answer (e.g., no crossover, or wrong multiplier like 1.1) shows the student cannot engineer the parameters to guarantee the required outcome — they lack backward reasoning from the crossover condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

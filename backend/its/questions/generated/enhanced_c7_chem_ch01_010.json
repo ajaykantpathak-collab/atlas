@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_010",
+   "title": "c7_chem_ch01_010",
+   "questions": [
+    {
+     "q": "Which essential non-metal gas makes up about 78% of Earth's atmosphere and is crucial for plant growth through compounds in fertilizers?",
+     "a": "Nitrogen ($N_2$). A wrong answer such as \"oxygen\" reveals a confusion between the gas we breathe for respiration and the main atmospheric gas utilized by nitrogen-fixing bacteria for plant nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is carbon considered the backbone of all known living matter on Earth?",
+     "a": "Carbon can form stable covalent bonds with many elements, including itself, creating complex molecules like carbohydrates, proteins, and fats necessary for life. A wrong answer suggests students think living things are made entirely of metals or water without organic molecules.",
+     "self_check": true
+    },
+    {
+     "q": "A greenhouse farmer in Pune wants to increase plant yield. Which non-metal element, when added as a soluble nitrate or phosphate salt, directly promotes leaf and root development?",
+     "a": "Nitrogen (for leaves/stems) and phosphorus (for roots). Steps: 1. Identify plant nutritional needs. 2. Recognize macronutrients supplied by fertilizers. 3. Match elements to non-metals (N, P). 4. Conclude that non-metal compounds are essential for agriculture. A wrong answer shows a failure to connect chemical elements in fertilizers to non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why aquatic animals depend on dissolved oxygen ($O_2$), a non-metal, rather than gaseous oxygen from the air directly.",
+     "a": "Aquatic organisms have specialized respiratory organs (gills) adapted to extract oxygen molecules dissolved in water. A wrong answer indicates a misconception that fish breathe water molecules ($H_2O$) directly rather than using dissolved $O_2$ gas.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since non-metals are poor conductors of electricity, they have no electrical use in our daily lives.\" Is this valid?",
+     "a": "The statement is invalid. While bulk non-metals like sulfur are poor conductors, specific non-metals and their forms—such as graphite (a form of carbon)—conduct electricity, and non-metal insulators (like plastic and rubber made from carbon/hydrogen polymers) are crucial for safe electrical wiring. A wrong answer shows overgeneralizing a single physical property to all applications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home observation to prove that carbon dioxide ($CO_2$), a non-metal oxide, is produced during the burning of a kitchen fuel like an LPG gas stove or a candle.",
+     "a": "A good answer involves holding a clean, dry glass tumbler over a burning candle and testing the condensation for water, or bubbling the gas produced through freshly prepared lime water to observe it turning milky due to calcium carbonate formation. A poor answer lacks a specific chemical test for the non-metal oxide product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

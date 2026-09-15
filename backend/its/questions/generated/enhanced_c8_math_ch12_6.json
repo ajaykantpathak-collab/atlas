@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_6",
+   "title": "c8_math_ch12_6",
+   "questions": [
+    {
+     "q": "State the rule for how the mean changes when every value in a data set is multiplied by a constant \\( k \\).",
+     "a": "The new mean equals \\( k \\) times the original mean. A wrong answer (e.g., \"the mean increases by \\( k \\)\" or \"the mean stays the same\") reveals that the student is confusing multiplication with addition or does not grasp that the sum scales proportionally while the count stays fixed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying every data value by 3 results in the mean also becoming 3 times the original mean. Use the formula for mean in your explanation.",
+     "a": "The mean is \\( \\frac{\\sum x_i}{n} \\). If each \\( x_i \\) becomes \\( 3x_i \\), the new sum is \\( \\sum 3x_i = 3\\sum x_i \\). The new mean is \\( \\frac{3\\sum x_i}{n} = 3 \\times \\frac{\\sum x_i}{n} = 3 \\times \\text{original mean} \\). A wrong answer that only gives an example without using the sum formula shows the student cannot generalise the reasoning and relies on memorised patterns.",
+     "self_check": true
+    },
+    {
+     "q": "The mean of 6 numbers is 12. If each number is multiplied by 0.5, what is the new mean? Show your steps.",
+     "a": "Original mean = 12. Constant \\( k = 0.5 \\). New mean = \\( 12 \\times 0.5 = 6 \\). Steps: 1) Identify original mean = 12. 2) Identify multiplier = 0.5. 3) Apply rule: new mean = original mean × multiplier. 4) Compute: 12 × 0.5 = 6. A wrong answer like 12.5 or 11.5 indicates the student added the constant instead of multiplying, or misapplied decimal multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A data set has mean 20. After multiplying each value by a constant \\( k \\), the new mean becomes -60. What is the value of \\( k \\)? What does the negative sign tell you about the transformation?",
+     "a": "\\( k = \\frac{-60}{20} = -3 \\). The negative sign means the constant is negative, so the direction of the data values is reversed (positive become negative and vice versa) while the magnitude is tripled. A wrong answer like \\( k = 3 \\) ignores the sign change, showing the student does not connect the sign of the mean to the sign of the multiplier.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I multiply all values by 2, the mean doubles. If I multiply all values by \\( \\frac{1}{2} \\), the mean halves. So multiplying by any constant just multiplies the mean by that constant.\" Is this statement always correct? Justify your answer with reasoning about the definition of mean.",
+     "a": "Yes, the statement is always correct. The mean is defined as sum divided by count. Multiplying each value by \\( k \\) multiplies the sum by \\( k \\) (distributive property), and the count \\( n \\) is unchanged, so the new mean is \\( k \\times \\text{original mean} \\). This holds for any real \\( k \\) (positive, negative, fraction, decimal, zero). A wrong answer that says \"not for zero\" or \"not for negatives\" reveals a misunderstanding that the algebraic derivation holds universally.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where multiplying every data value by a constant is needed to find a new mean. Provide the original data, the constant, and the question. Then solve it using the scaling rule.",
+     "a": "Example: A school records the heights of 5 students in cm: 140, 145, 150, 155, 160. The mean height is 150 cm. The school wants to report the mean height in metres (1 m = 100 cm). Constant \\( k = \\frac{1}{100} \\). New mean = \\( 150 \\times \\frac{1}{100} = 1.5 \\) m. A poor answer would use a constant that doesn't represent a real conversion or would recalculate the entire sum instead of using the scaling rule, showing they haven't internalised the efficiency of the rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

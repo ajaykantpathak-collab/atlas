@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_003",
+   "title": "c12_bio_cbse_05_003",
+   "questions": [
+    {
+     "q": "In a dihybrid cross between homozygous dominant (RRYY) and homozygous recessive (rryy) parents for seed shape (R=round, r=wrinkled) and seed color (Y=yellow, y=green), how many different types of gametes can the F1 heterozygote (RrYy) produce, and what are they?",
+     "a": "The F1 heterozygote RrYy produces 4 gamete types: RY, Ry, rY, ry. Each gamete receives one allele per gene due to segregation, and the two genes assort independently, giving 2×2=4 combinations. A wrong answer (e.g., 2 gametes like RY and ry only) reveals the student thinks alleles stay linked as parental combinations, not understanding independent assortment creates new recombinant gametes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the F2 phenotypic ratio in a Mendelian dihybrid cross is 9:3:3:1 rather than 3:1 or 1:2:1.",
+     "a": "The 9:3:3:1 ratio arises because two independent 3:1 monohybrid ratios multiply: (3 round:1 wrinkled) × (3 yellow:1 green) = 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green. A student giving 3:1 is treating the cross as monohybrid; one giving 1:2:1 is confusing phenotypic with genotypic ratio. Both errors show failure to apply product rule for independent events.",
+     "self_check": true
+    },
+    {
+     "q": "A pea plant with round yellow seeds (dominant for both traits) is test-crossed with a wrinkled green plant. The offspring show 42 round yellow, 38 round green, 40 wrinkled yellow, and 44 wrinkled green. What was the genotype of the round yellow parent? Show your reasoning.",
+     "a": "The 1:1:1:1 phenotypic ratio (≈42:38:40:44) indicates the round yellow parent was heterozygous for both traits (RrYy). A test cross of RrYy × rryy produces four gamete types from the heterozygote (RY, Ry, rY, ry) each matching the single ry gamete from the recessive parent, yielding four phenotypes in equal proportion. If the parent were RRYY, all offspring would be round yellow; if RRYy, only round yellow and round green would appear. The observed ratio confirms dihybrid heterozygosity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genotypic ratio of a monohybrid cross (1:2:1) with that of a dihybrid cross. How many distinct genotypes appear in the F2 of a dihybrid cross, and what is the mathematical relationship between the two ratios?",
+     "a": "A dihybrid cross yields 9 distinct genotypes in a 1:2:1:2:4:2:1:2:1 ratio. This is the product of two independent 1:2:1 monohybrid genotypic ratios: (1 RR : 2 Rr : 1 rr) × (1 YY : 2 Yy : 1 yy). Each of the 3×3=9 genotype combinations gets a frequency equal to the product of its constituent single-locus frequencies. Students who list only 4 genotypes are collapsing heterozygotes or confusing phenotype with genotype categories.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a dihybrid cross, the 9:3:3:1 ratio proves the two genes are on different chromosomes.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "Partially correct. The 9:3:3:1 ratio demonstrates independent assortment, which occurs when genes are on different chromosomes OR far apart on the same chromosome (recombination frequency ≈50%). Genes on the same chromosome but tightly linked deviate from 9:3:3:1 (showing parental excess). The student's statement is incorrect because it ignores the \"far apart on same chromosome\" case. A fully correct statement: \"9:3:3:1 indicates independent assortment, consistent with unlinked loci.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a dihybrid cross experiment using a locally available plant (e.g., tomato: fruit shape — round vs. oblong; fruit color — red vs. yellow) to test Mendel's Law of Independent Assortment. Outline the P, F1, and F2 generations, the data you would collect, and the statistical test to validate the 9:3:3:1 ratio.",
+     "a": "P: True-breeding round red (RRYY) × oblong yellow (rryy). F1: All round red (RrYy). F2: Self-pollinate F1, score ≥200 offspring for 4 phenotypes. Expected: 9/16 round red, 3/16 round yellow, 3/16 oblong red, 1/16 oblong yellow. Chi-square test: Σ(O-E)²/E with df=3; if p>0.05, data fit 9:3:3:1. A good answer specifies sample size justification, chi-square application, and interpretation of p-value. Poor answers omit statistical validation or use too small a sample.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

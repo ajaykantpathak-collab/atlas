@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_005",
+   "title": "c11_math_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the conjugate of the denominator used when dividing \\(\\frac{2+3i}{4-i}\\), and why do we multiply by it?",
+     "a": "The conjugate is \\(4+i\\). We multiply by it because \\((4-i)(4+i) = 4^2 - i^2 = 16 - (-1) = 17\\), a real number, which eliminates \\(i\\) from the denominator. A wrong answer like \"\\(4-i\\)\" (same as denominator) reveals the student confuses conjugate with reciprocal; \"\\(-4+i\\)\" reveals sign errors in conjugate formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\frac{1}{i} = -i\\) using the conjugate method, and why multiplying numerator and denominator by \\(i\\) directly also works.",
+     "a": "\\(\\frac{1}{i} = \\frac{1 \\cdot (-i)}{i \\cdot (-i)} = \\frac{-i}{-i^2} = \\frac{-i}{1} = -i\\). Multiplying by \\(i\\) gives \\(\\frac{i}{i^2} = \\frac{i}{-1} = -i\\). Both work because \\(i\\) and \\(-i\\) are both conjugates of \\(i\\) (since \\(i = 0+i\\), conjugate is \\(0-i = -i\\)). A student who says \"multiply by \\(i\\) because it's the reciprocal\" confuses reciprocal (\\(1/i = -i\\)) with conjugate; the conjugate method is generalisable to any complex denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Divide \\(\\frac{5-2i}{3+4i}\\) and express the result in \\(a+ib\\) form. Show all steps.",
+     "a": "Multiply by conjugate of denominator: \\(\\frac{(5-2i)(3-4i)}{(3+4i)(3-4i)}\\). Numerator: \\(15 -20i -6i +8i^2 = 15 -26i -8 = 7 -26i\\). Denominator: \\(9 -16i^2 = 9+16 = 25\\). Result: \\(\\frac{7}{25} - \\frac{26}{25}i\\). A wrong answer like \\(\\frac{23}{25} - \\frac{26}{25}i\\) reveals the student computed \\(5 \\times 3 + (-2) \\times (-4) = 15+8=23\\) instead of \\(15 + 8i^2 = 15-8=7\\), forgetting \\(i^2 = -1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of \\(\\frac{z_1}{z_2}\\) and \\(\\frac{\\overline{z_1}}{\\overline{z_2}}\\) for \\(z_1 = 2+3i, z_2 = 1-i\\). What relationship do you observe? Prove it generally.",
+     "a": "\\(\\frac{2+3i}{1-i} = \\frac{(2+3i)(1+i)}{2} = \\frac{-1+5i}{2} = -\\frac{1}{2} + \\frac{5}{2}i\\). \\(\\frac{2-3i}{1+i} = \\frac{(2-3i)(1-i)}{2} = \\frac{-1-5i}{2} = -\\frac{1}{2} - \\frac{5}{2}i = \\overline{\\left(\\frac{z_1}{z_2}\\right)}\\). Generally, \\(\\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}\\). A student who gets different results likely made sign errors in conjugate multiplication; this tests understanding that conjugation distributes over division.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved \\(\\frac{3+4i}{2-i} = \\frac{(3+4i)(2+i)}{(2-i)(2+i)} = \\frac{6+3i+8i+4i^2}{5} = \\frac{6+11i-4}{5} = \\frac{2+11i}{5}\\). Is this correct? If not, identify the exact error.",
+     "a": "Incorrect. The error is in the numerator expansion: \\(4i^2 = 4(-1) = -4\\), so \\(6 + 11i - 4 = 2 + 11i\\) is correct, but the student wrote \\(6+3i+8i+4i^2\\) — the term \\(3i\\) should be \\(3i\\) (from \\(3 \\times i\\)) and \\(8i\\) (from \\(4i \\times 2\\)) giving \\(11i\\), which is correct. Wait, the actual error: \\((3+4i)(2+i) = 6 + 3i + 8i + 4i^2 = 6 + 11i - 4 = 2 + 11i\\). The student's working is actually correct! But the final answer \\(\\frac{2+11i}{5}\\) is right. A student who flags this as wrong might mistakenly think \\(4i^2 = 4\\) instead of \\(-4\\). This question tests careful verification of \\(i^2 = -1\\) application.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving division of complex numbers that models a real situation in electrical engineering (impedance) or signal processing, using Indian context (e.g., voltage in a circuit with resistance and reactance). Define all variables.",
+     "a": "Example: \"In an AC circuit, voltage \\(V = (120 + 80i)\\) volts and impedance \\(Z = (6 + 8i)\\) ohms. Find the current \\(I = V/Z\\) in \\(a+ib\\) form.\" Solution: \\(I = \\frac{120+80i}{6+8i} = \\frac{(120+80i)(6-8i)}{100} = \\frac{720 -960i +480i -640i^2}{100} = \\frac{1360 -480i}{100} = 13.6 - 4.8i\\) A. A poor answer uses unrealistic numbers, omits units, or doesn't require conjugate method (e.g., purely real impedance). This tests ability to contextualise abstract division.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

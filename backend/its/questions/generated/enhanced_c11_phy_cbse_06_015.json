@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_015",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_015",
+   "title": "c11_phy_cbse_06_015",
+   "questions": [
+    {
+     "q": "A solid sphere and a hollow sphere of the same mass and radius are released from rest on the same inclined plane. Which one reaches the bottom first, and what is the ratio of their accelerations?",
+     "a": "The solid sphere reaches the bottom first. Its acceleration is a_solid = (5/7)g sinθ, while the hollow sphere's acceleration is a_hollow = (2/3)g sinθ. The ratio a_solid/a_hollow = 15/14 ≈ 1.07. A wrong answer (e.g., saying they reach together or the hollow sphere wins) reveals the student thinks mass or radius alone determines rolling speed, ignoring the moment of inertia factor I/(mR²) which is 2/5 for solid sphere and 2/3 for hollow sphere.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Static friction acts up the incline for a cylinder rolling down, so it must be doing positive work on the cylinder because the cylinder moves down.\" Explain why this reasoning is incorrect.",
+     "a": "Static friction does zero work in pure rolling because the point of application (the contact point) has zero instantaneous velocity relative to the incline. Work done by a force is W = ∫F·v_contact dt, and v_contact = 0 for pure rolling. The student incorrectly uses the centre-of-mass velocity instead of the contact point velocity. A wrong answer reveals confusion between the work-energy theorem for the centre of mass (where friction appears as an external force) and the actual work done by friction at the microscopic contact point.",
+     "self_check": true
+    },
+    {
+     "q": "A solid cylinder of mass 2.0 kg and radius 0.10 m rolls without slipping down a 30° incline of length 2.0 m. Calculate its linear acceleration, final speed at the bottom, and time taken. (g = 9.8 m/s²)",
+     "a": "Given: m = 2.0 kg, R = 0.10 m, θ = 30°, L = 2.0 m, g = 9.8 m/s². For solid cylinder, I = ½mR², so I/(mR²) = ½.\nStep 1: a = g sinθ / (1 + I/(mR²)) = 9.8 × sin30° / (1 + ½) = 4.9 / 1.5 = 3.27 m/s².\nStep 2: v² = 2aL = 2 × 3.27 × 2.0 = 13.08 → v = 3.62 m/s.\nStep 3: t = √(2L/a) = √(4.0/3.27) = 1.11 s.\nUnits: a in m/s², v in m/s, t in s. A wrong answer often comes from using I = mR² (ring formula) or forgetting the 1 + I/(mR²) denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Two inclined planes have the same height but different angles (θ₁ = 30°, θ₂ = 60°). A solid sphere rolls down each from rest. Compare the final speeds and times of descent. Which plane gives a greater final speed? Which gives a shorter time?",
+     "a": "Final speed depends only on height: v = √(2gh/(1 + I/(mR²))) = √(10gh/7) for solid sphere. Since height is same, final speeds are identical. Time t = √(2L/a) = √(2h/(g sin²θ (1 + I/(mR²)))). For θ₁ = 30°, sinθ = 0.5; for θ₂ = 60°, sinθ = √3/2 ≈ 0.866. Since t ∝ 1/sinθ, the steeper plane (60°) gives shorter time. A wrong answer claiming different final speeds reveals the student thinks acceleration magnitude alone determines final speed, ignoring that the steeper plane has a shorter path length for the same height.",
+     "self_check": true
+    },
+    {
+     "q": "A ring and a solid disc of identical mass and radius roll down an incline. The coefficient of static friction is μ_s = 0.2. The incline angle is 45°. Will both objects roll without slipping? Justify with calculations.",
+     "a": "Required μ_min = (tanθ) / (1 + mR²/I). For ring: I = mR² → μ_min = tan45° / (1 + 1) = 1/2 = 0.5. For disc: I = ½mR² → μ_min = tan45° / (1 + 2) = 1/3 ≈ 0.33. Given μ_s = 0.2 < 0.33 < 0.5, neither object can roll without slipping; both will slip. A wrong answer saying one or both roll purely reveals the student either used the wrong I formula or forgot that the condition for pure rolling depends on I/(mR²) and requires μ_s ≥ μ_min.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that a solid cylinder rolls down an incline faster than a hollow cylinder of the same mass and radius. List the materials, procedure, and what measurements you would take.",
+     "a": "Materials: Two identical cylindrical cans (one solid - filled with sand/clay and sealed; one hollow - empty), a wooden plank (1-2 m long), protractor, stopwatch, ruler. Procedure: Set plank at fixed angle (e.g., 30°). Mark start and finish lines. Release both cans simultaneously from rest. Measure time for each to reach bottom. Repeat 5 times. Expected: Solid can consistently wins. Measurements: time, angle, length. A poor answer uses objects of different radii or masses, or doesn't control the release mechanism, showing lack of understanding of controlled variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "catalog": "catalog_class9_science_ch105.json",
+ "concepts": [
+  {
+   "id": "iesc.5.1",
+   "title": "Classification of Mixtures",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a mixture?",
+     "a": "Two or more substances mixed in any ratio, each keeping its own properties, e.g. air, soil, salt water.",
+     "self_check": true
+    },
+    {
+     "q": "How do mixtures differ from compounds?",
+     "a": "Mixtures have variable composition and no fixed boiling point; compounds have fixed composition and new properties.",
+     "self_check": true
+    },
+    {
+     "q": "Name the two kinds of mixtures with examples.",
+     "a": "Homogeneous (uniform throughout, like salt solution) and heterogeneous (non-uniform, like sand and salt).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.2.A",
+   "title": "Mass by Mass Percentage",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_fraction",
+     "expr": "mass_solute / mass_solution",
+     "explain": "fraction of solute in the solution"
+    },
+    {
+     "step": 2,
+     "name": "solute_in_200g",
+     "expr": "mass_fraction * 200",
+     "explain": "solute in 200 g of the solution"
+    },
+    {
+     "step": 3,
+     "name": "percentage",
+     "expr": "mass_fraction * 100",
+     "explain": "mass by mass percentage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "10 g of salt is dissolved in 90 g of water. Find the mass percentage of the solution.",
+     "vals": {
+      "mass_solute": 10,
+      "mass_solution": 100
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "10 %",
+     "self_check": false
+    },
+    {
+     "q": "5 g of sugar in 45 g of water: what is the mass by mass percentage?",
+     "vals": {
+      "mass_solute": 5,
+      "mass_solution": 50
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "10 %",
+     "self_check": false
+    },
+    {
+     "q": "A solution has 20 g of solute in 180 g total mass. Compute the percentage.",
+     "vals": {
+      "mass_solute": 20,
+      "mass_solution": 200
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "10 %",
+     "self_check": false
+    },
+    {
+     "q": "15 g of glucose is dissolved to make 300 g of solution. Find the concentration in mass %.",
+     "vals": {
+      "mass_solute": 15,
+      "mass_solution": 300
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "5 %",
+     "self_check": false
+    },
+    {
+     "q": "2 g of urea in 48 g of water: calculate the mass percentage of urea.",
+     "vals": {
+      "mass_solute": 2,
+      "mass_solution": 50
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "4 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.2.B",
+   "title": "Mass by Volume Percentage",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_volume_fraction",
+     "expr": "mass_solute / volume_solution",
+     "explain": "grams per millilitre of solution"
+    },
+    {
+     "step": 2,
+     "name": "grams_per_litre",
+     "expr": "(mass_solute / volume_solution) * 1000",
+     "explain": "grams of solute per litre"
+    },
+    {
+     "step": 3,
+     "name": "percentage",
+     "expr": "mass_volume_fraction * 100",
+     "explain": "mass by volume percentage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A saline solution contains 9 g of salt in 1000 mL of water. Find the mass by volume percentage.",
+     "vals": {
+      "mass_solute": 9,
+      "volume_solution": 1000
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "0.9 %",
+     "self_check": false
+    },
+    {
+     "q": "5 g of glucose is dissolved in 200 mL of solution. Calculate the mass/volume percentage.",
+     "vals": {
+      "mass_solute": 5,
+      "volume_solution": 200
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "2.5 %",
+     "self_check": false
+    },
+    {
+     "q": "A medical solution has 2 g of drug per 50 mL. What is its mass by volume percentage?",
+     "vals": {
+      "mass_solute": 2,
+      "volume_solution": 50
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "4 %",
+     "self_check": false
+    },
+    {
+     "q": "10 g of potash alum is dissolved in 500 mL of water. Find the percentage (m/V).",
+     "vals": {
+      "mass_solute": 10,
+      "volume_solution": 500
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "2 %",
+     "self_check": false
+    },
+    {
+     "q": "A cough syrup holds 0.4 g of medicine in 8 mL. Compute the mass/volume percentage.",
+     "vals": {
+      "mass_solute": 0.4,
+      "volume_solution": 8
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "5 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.3",
+   "title": "Solubility and Saturated Solutions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "salt_per_gram",
+     "expr": "solubility_per_100g / 100",
+     "explain": "salt held per gram of water"
+    },
+    {
+     "step": 2,
+     "name": "water_in_kg",
+     "expr": "solvent_mass / 1000",
+     "explain": "solvent mass in kilograms"
+    },
+    {
+     "step": 3,
+     "name": "mass_needed",
+     "expr": "salt_per_gram * solvent_mass",
+     "explain": "salt needed to saturate the given water"
+    }
+   ],
+   "questions": [
+    {
+     "q": "At 30 C, 36 g of NaCl saturates 100 g of water. How much salt saturates 250 g of water?",
+     "vals": {
+      "solubility_per_100g": 36,
+      "solvent_mass": 250
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "90 g",
+     "self_check": false
+    },
+    {
+     "q": "KNO3 has solubility 32 g per 100 g water. How much is needed for 150 g of water?",
+     "vals": {
+      "solubility_per_100g": 32,
+      "solvent_mass": 150
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "48 g",
+     "self_check": false
+    },
+    {
+     "q": "Sugar's solubility is 204 g per 100 g water. How much sugar saturates 50 g of water?",
+     "vals": {
+      "solubility_per_100g": 204,
+      "solvent_mass": 50
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "102 g",
+     "self_check": false
+    },
+    {
+     "q": "A salt dissolves 25 g per 100 g water. Find the mass needed for 400 g of water.",
+     "vals": {
+      "solubility_per_100g": 25,
+      "solvent_mass": 400
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "100 g",
+     "self_check": false
+    },
+    {
+     "q": "CuSO4 solubility is 20 g per 100 g water. How much saturates 75 g of water?",
+     "vals": {
+      "solubility_per_100g": 20,
+      "solvent_mass": 75
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "15 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.1",
+   "title": "Crystallization",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "left_fraction",
+     "expr": "mass_final_solubility / mass_initial",
+     "explain": "fraction that stays dissolved"
+    },
+    {
+     "step": 2,
+     "name": "yield_fraction",
+     "expr": "1 - left_fraction",
+     "explain": "fraction crystallised out"
+    },
+    {
+     "step": 3,
+     "name": "mass_precipitated",
+     "expr": "mass_initial * yield_fraction",
+     "explain": "mass of crystals separating out"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A saturated solution at 60 C holds 110 g KNO3 in 100 g water; on cooling only 20 g stays dissolved. What mass crystallises out?",
+     "vals": {
+      "mass_initial": 110,
+      "mass_final_solubility": 20
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "90 g",
+     "self_check": false
+    },
+    {
+     "q": "Hot water holds 95 g of a salt; on cooling it can hold only 30 g. How much separates as crystals?",
+     "vals": {
+      "mass_initial": 95,
+      "mass_final_solubility": 30
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "65 g",
+     "self_check": false
+    },
+    {
+     "q": "A solution contains 204 g of sugar; after evaporation 34 g remains dissolved. Find the crystallised mass.",
+     "vals": {
+      "mass_initial": 204,
+      "mass_final_solubility": 34
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "170 g",
+     "self_check": false
+    },
+    {
+     "q": "A salt solution at high temperature holds 60 g of solute; cooled, it holds 12 g. What mass precipitates?",
+     "vals": {
+      "mass_initial": 60,
+      "mass_final_solubility": 12
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "48 g",
+     "self_check": false
+    },
+    {
+     "q": "150 g of solute is in hot solution; only 50 g can stay in the cold solvent. Compute the crystal yield.",
+     "vals": {
+      "mass_initial": 150,
+      "mass_final_solubility": 50
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "100 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.2",
+   "title": "Distillation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "When is distillation used to separate a mixture?",
+     "a": "When the components differ in boiling points by about 25 deg C or more, e.g. acetone from water.",
+     "self_check": true
+    },
+    {
+     "q": "What is fractional distillation for?",
+     "a": "Separating miscible liquids whose boiling points are close, like the fractions of petroleum or components of air.",
+     "self_check": true
+    },
+    {
+     "q": "Give one everyday application of distillation.",
+     "a": "Obtaining pure drinking water by distillation, or separating alcohol from fermented mash in industry.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.3",
+   "title": "Paper Chromatography",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is chromatography used for?",
+     "a": "Separating coloured (or detectable) dissolved substances that travel at different speeds on an absorbent medium.",
+     "self_check": true
+    },
+    {
+     "q": "On what principle does paper chromatography work?",
+     "a": "Different solutes are absorbed differently and move different distances with the solvent - separation by differential movement.",
+     "self_check": true
+    },
+    {
+     "q": "Name two uses of chromatography.",
+     "a": "Separating dyes in ink, and detecting drugs or pigments in forensic and medical labs.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.1",
+   "title": "Separating Funnel",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "When is a separating funnel used?",
+     "a": "To separate two immiscible liquids of different densities, like oil and water.",
+     "self_check": true
+    },
+    {
+     "q": "On what property does the separating funnel rely?",
+     "a": "Difference in density - the denser liquid forms the lower layer and can be drained first.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a pair separated by a separating funnel.",
+     "a": "Kerosene (or mustard oil) and water; the water is drawn off from below.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.2",
+   "title": "Sublimation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is sublimation?",
+     "a": "A solid changing directly into vapour on heating, and vapour back to solid on cooling, without becoming liquid.",
+     "self_check": true
+    },
+    {
+     "q": "Name two substances that sublime.",
+     "a": "Camphor and naphthalene (also iodine, ammonium chloride, dry ice).",
+     "self_check": true
+    },
+    {
+     "q": "How does sublimation help separate mixtures?",
+     "a": "A sublimable component (like ammonium chloride) leaves the mixture as vapour and collects on a cold surface, away from salt or sand.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.3",
+   "title": "Centrifugation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is centrifugation?",
+     "a": "Spinning a mixture fast so that denser particles settle at the bottom and lighter ones stay above.",
+     "self_check": true
+    },
+    {
+     "q": "Name two uses of centrifugation.",
+     "a": "Separating cream from milk, and separating blood cells from plasma in labs.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the denser component settle first in a centrifuge?",
+     "a": "The rapid spin throws heavier particles outward more strongly than light ones, so they pack at the bottom.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.5",
+   "title": "Tyndall Effect",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the Tyndall effect?",
+     "a": "Scattering of a beam of light by colloidal particles, making the beam's path visible.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a true solution not show the Tyndall effect?",
+     "a": "Its particles are too small (under 1 nm) to scatter light.",
+     "self_check": true
+    },
+    {
+     "q": "Name two colloids that show the Tyndall effect.",
+     "a": "Milk and fog (also starch solution, smoke).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

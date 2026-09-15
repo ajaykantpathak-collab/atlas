@@ -1,0 +1,392 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 102,
+ "chapter_title": "Kings and Kingdoms",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kepy103.txt",
+ "concepts": [
+  {
+   "id": "gess.102.1",
+   "title": "Emergence of New Dynasties and Samanta Autonomy",
+   "section": "The Emergence of New Dynasties",
+   "definition": "Process through which medieval regional military lords evolved from subordinate vassals into autonomous kings through wealth accumulation and legitimizing rituals.",
+   "formula": "none",
+   "key_idea": "Feudal subordinates asserted royal sovereignty as they gathered economic power and armed forces.",
+   "textbook_ref": "gess102.txt lines 16-45",
+   "question_patterns": [
+    "explain how samantas established independent ruling lineages in medieval India",
+    "what steps did subordinate chiefs take to break away from their overlords",
+    "describe the significance of the hiranya-garbha ritual performed by Dantidurga",
+    "identify how non-Kshatriya leaders established royal authority",
+    "analyze the transition from a samanta to a maha-mandaleshvara"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the role of samantas",
+     "explain": "Vassal lords provided tribute, court presence, and armed troops to ruling monarchs."
+    },
+    {
+     "step": 2,
+     "action": "Analyze resource accumulation",
+     "explain": "Gaining local revenue and military strength enabled them to assume titles like maha-samanta."
+    },
+    {
+     "step": 3,
+     "action": "Detail independence mechanisms",
+     "explain": "Overlords were overthrown, and rituals like hiranya-garbha granted royal Kshatriya status."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.2",
+   "title": "Royal Administration and Taxation Systems",
+   "section": "Administration in the Kingdoms",
+   "definition": "Administrative organization wherein rulers adopted elevated titles while extracting agricultural produce and imposing labor levies through hereditary officials.",
+   "formula": "none",
+   "key_idea": "Kingdoms sustained state operations through diverse revenue collections like forced labor and crop shares.",
+   "textbook_ref": "gess102.txt lines 46-75",
+   "question_patterns": [
+    "describe the administrative titles adopted by new medieval rulers",
+    "what was the distinction between vetti and kadamai taxes",
+    "explain how revenue was extracted from agrarian producers and traders",
+    "identify the role of influential families in revenue administration",
+    "how did medieval kings share power with local peasant and merchant groups"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify royal grand titles",
+     "explain": "Monarchs used epithets such as maharaja-adhiraja and tribhuvana-chakravartin."
+    },
+    {
+     "step": 2,
+     "action": "Categorize primary tax types",
+     "explain": "Vetti represented unremunerated forced labor while kadamai comprised direct land revenue."
+    },
+    {
+     "step": 3,
+     "action": "Examine official recruitment",
+     "explain": "State collection posts were typically assigned to elite families on a hereditary basis."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.3",
+   "title": "Prashastis and Copper Plate Inscribed Land Grants",
+   "section": "Prashastis and Land Grants",
+   "definition": "Formal royal panegyrics highlighting ruler achievements, coupled with metallic recorded grants conferring land rights and taxation privileges upon Brahmana recipients.",
+   "formula": "none",
+   "key_idea": "Inscribed copper plates served as official legal deeds detailing land boundaries and revenue entitlements.",
+   "textbook_ref": "gess102.txt lines 76-115",
+   "question_patterns": [
+    "what information is provided in medieval prashasti inscriptions",
+    "describe how copper plate sets functioned as legal title documents",
+    "explain what resources were granted alongside land in Chola records",
+    "analyze the difference between poetic prashastis and critical historical texts like Kalhana's Rajatarangini",
+    "identify how rulers rewarded learned Brahmanas for administrative and religious support"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define prashasti composition",
+     "explain": "Learned court scholars composed laudatory texts depicting rulers as invincible conquerors."
+    },
+    {
+     "step": 2,
+     "action": "Detail land grant contents",
+     "explain": "Copper plates recorded boundary markers, soil features, water bodies, and rights to collect local levies."
+    },
+    {
+     "step": 3,
+     "action": "Compare praise literature with critical history",
+     "explain": "Unlike praise poets, Kalhana utilized diverse primary sources to critically assess Kashmiri rulers."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.4",
+   "title": "Tripartite Struggle and Wealth-Oriented Warfare",
+   "section": "Warfare for Wealth",
+   "definition": "Strategic military campaigns waged by medieval dynasties to secure control over fertile river basins and appropriate accumulated temple wealth.",
+   "formula": "none",
+   "key_idea": "Geopolitical rivalries centered on the fertile Ganga plain and prosperous temple urban centers.",
+   "textbook_ref": "gess102.txt lines 116-150",
+   "question_patterns": [
+    "which dynasties competed in the tripartite struggle over Kanauj",
+    "why was control of the Ganga valley and Kanauj highly sought after",
+    "explain why medieval armies frequently targeted wealthy temples during invasions",
+    "describe the military campaigns of Mahmud of Ghazni in the Indian subcontinent",
+    "analyze the battles between Prithviraja III and Sultan Muhammad Ghori"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify factions in the Kanauj conflict",
+     "explain": "The Gurjara-Pratihara, Rashtrakuta, and Pala lineages contested control of Kanauj."
+    },
+    {
+     "step": 2,
+     "action": "Explain temple targeting",
+     "explain": "Temples concentrated immense economic capital and symbolised royal legitimacy."
+    },
+    {
+     "step": 3,
+     "action": "Outline Northwest frontier conflicts",
+     "explain": "Chahamanas resisted western opponents before facing Turkish invasions led by Muhammad Ghori."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.5",
+   "title": "Rise and Imperial Expansion of the Chola Dynasty",
+   "section": "A Closer Look: The Cholas",
+   "definition": "Ascendancy of the Chola kingdom from a minor delta fiefdom into a major maritime empire through regional conquest and administrative restructuring.",
+   "formula": "none",
+   "key_idea": "Chola power expanded across southern India under visionary commanders like Rajaraja I and Rajendra I.",
+   "textbook_ref": "gess102.txt lines 151-180",
+   "question_patterns": [
+    "how did Vijayalaya lay the foundation of the Chola empire",
+    "describe the conquest strategies of Rajaraja I and Rajendra I",
+    "explain how the Cholas subdued the Muttaraiyar family in the Kaveri delta",
+    "identify the territorial expansion of Chola rule into Pandyan and Pallava lands",
+    "what naval expeditions were conducted by Rajendra I"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the capture of Kaveri delta",
+     "explain": "Vijayalaya wrested control from Muttaraiyar chieftains and established Thanjavur as the regional center."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Rajaraja I's governance reform",
+     "explain": "Rajaraja I annexed neighboring regions and restructured imperial administrative units."
+    },
+    {
+     "step": 3,
+     "action": "Examine overseas military ventures",
+     "explain": "Rajendra I launched naval expeditions across Southeast Asia and raided the Ganga valley."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.6",
+   "title": "Chola Temples and Lost-Wax Bronze Craftsmanship",
+   "section": "Splendid Temples and Bronze Sculpture",
+   "definition": "Chola architectural complexes that served as socio-economic growth hubs, complemented by sophisticated metal sculptures cast via investment moulding.",
+   "formula": "none",
+   "key_idea": "Temples formed vibrant centers of economic redistribution, craft specialization, and religious art.",
+   "textbook_ref": "gess102.txt lines 181-205",
+   "question_patterns": [
+    "why were Chola temples considered the nucleus of economic and social life",
+    "describe the architectural features of temples at Thanjavur and Gangaikondacholapuram",
+    "explain the process and artistic quality of Chola bronze sculptures",
+    "identify the specialists supported by temple land grants",
+    "what role did bronze images play in Chola religious practices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe temple architectural magnificence",
+     "explain": "Monumental structures featured tapering stone towers and intricate wall carvings."
+    },
+    {
+     "step": 2,
+     "action": "Detail socio-economic functions",
+     "explain": "Agricultural endowments supported temple staff including priests, dancers, musicians, and artisans."
+    },
+    {
+     "step": 3,
+     "action": "Analyze bronze casting excellence",
+     "explain": "Craftsmen produced internationally renowned bronze figures depicting deities and devoted followers."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.7",
+   "title": "Chola Agricultural Development and Hydraulic Engineering",
+   "section": "Agriculture and Irrigation",
+   "definition": "Large-scale land development initiatives in the Kaveri river basin using complex water management networks to facilitate double-cropping.",
+   "formula": "none",
+   "key_idea": "Hydraulic infrastructure such as canals, tanks, and sluice gates enabled widespread agrarian prosperity.",
+   "textbook_ref": "gess102.txt lines 206-235",
+   "question_patterns": [
+    "what agricultural developments allowed two crops to be grown annually in Tamil Nadu",
+    "explain the functioning and purpose of a sluice gate in Chola canal networks",
+    "describe the methods used to collect and distribute irrigation water in the Kaveri delta",
+    "how were land levelling and forest clearing organized for agriculture",
+    "analyze the community and state effort required for medieval irrigation maintenance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Kaveri river geography",
+     "explain": "Branching river channels deposited fertile silt and supplied vital water for wet-paddy farming."
+    },
+    {
+     "step": 2,
+     "action": "Identify physical infrastructure",
+     "explain": "Engineers constructed protective embankments, excavated rainwater storage tanks, and dug distribution channels."
+    },
+    {
+     "step": 3,
+     "action": "Explain water flow regulation",
+     "explain": "Sluice gates regulated water levels entering irrigation channels to ensure fair distribution."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.8",
+   "title": "Chola Local Governance and Land Classification",
+   "section": "The Administration of the Empire",
+   "definition": "Structured system of local agrarian units combined with administrative land categories defined by ownership and usage.",
+   "formula": "none",
+   "key_idea": "Assemblies of agrarian settlements executed local administrative, fiscal, and judicial responsibilities.",
+   "textbook_ref": "gess102.txt lines 236-265",
+   "question_patterns": [
+    "what were the functions of ur and nadu in Chola administration",
+    "distinguish between vellanvagai, brahmadeya, and devadana land types",
+    "explain the roles of titles like muvendavelan and araiyar given to rich landowners",
+    "describe the administrative duties carried out by merchant associations called nagaram",
+    "identify how the central Chola government supervised local assemblies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define administrative groupings",
+     "explain": "Peasant settlements (ur) aggregated into larger territorial districts called nadu."
+    },
+    {
+     "step": 2,
+     "action": "Classify land tenure categories",
+     "explain": "Distinguished land held by non-Brahmana peasants (vellanvagai), Brahmana gifts (brahmadeya), and temple gifts (devadana)."
+    },
+    {
+     "step": 3,
+     "action": "Explain elite titles and duties",
+     "explain": "Crown officials conferred honorific titles upon prosperous landholders managing district revenue."
+    }
+   ]
+  },
+  {
+   "id": "gess.102.9",
+   "title": "Brahmana Sabhas and Democratic Selection at Uttaramerur",
+   "section": "Inscriptions and texts",
+   "definition": "Self-governing Brahmana assemblies utilizing stringent qualifications and ticket-drawing lottery systems for committee administration.",
+   "formula": "none",
+   "key_idea": "Uttaramerur inscriptions specify strict moral, financial, and age standards for sabha committee candidacy.",
+   "textbook_ref": "gess102.txt lines 266-300",
+   "question_patterns": [
+    "what qualifications were required to become a member of a sabha according to Uttaramerur inscriptions",
+    "describe the lottery process used to choose committee members in a Chola sabha",
+    "explain the disqualification criteria for sabha candidates in medieval Tamil Nadu",
+    "how were specialized sub-committees organized within a Brahmana assembly",
+    "analyze the contrasting lives of ordinary hamlet dwellers in the Periyapuranam text"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List qualification standards",
+     "explain": "Candidates were required to own taxable land, maintain private residences, be aged 35 to 70, and know Vedic texts."
+    },
+    {
+     "step": 2,
+     "action": "Detail selection mechanics",
+     "explain": "Eligible candidate names on palm leaf slips were drawn from an earthenware pot by a young boy."
+    },
+    {
+     "step": 3,
+     "action": "Identify governance accountability",
+     "explain": "Individuals failing to submit financial accounts or serving consecutive terms were barred from contestation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess102.txt lines 16-35",
+   "concept": "gess.102.1",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "How did samantas transform into independent rulers during the seventh to eighth centuries?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the initial role of samantas",
+     "explain": "Samantas were subordinate military chiefs who rendered military aid and tribute to existing monarchs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the accumulation of resources",
+     "explain": "As they accumulated local wealth and military strength, they declared themselves maha-samantas or regional lords."
+    },
+    {
+     "step": 3,
+     "action": "Describe religious legitimization",
+     "explain": "They overthrew overlords and performed rituals such as hiranya-garbha with Brahmana help to claim royal Kshatriya status."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess102.txt lines 266-285",
+   "concept": "gess.102.9",
+   "question_type": "historical_analysis",
+   "question_pattern": "Describe the election process and candidate eligibility for committee members in Uttaramerur sabhas.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List eligibility criteria",
+     "explain": "Candidates had to be landowning householders aged 35 to 70, educated in the Vedas, honest, and administrative experts."
+    },
+    {
+     "step": 2,
+     "action": "List disqualification grounds",
+     "explain": "Serving on a committee in the previous three years or failing to submit family financial accounts disqualified a candidate."
+    },
+    {
+     "step": 3,
+     "action": "Explain the ticket selection method",
+     "explain": "Names written on palm-leaf tickets were placed in an earthenware pot, and a young boy drew tickets one by one for each committee."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "gess102.txt page 28",
+   "questions": [
+    "Match the following ruling dynasties with their respective regions: Gurjara-Pratiharas, Rashtrakutas, Palas, Cholas.",
+    "Who were the parties involved in the tripartite struggle over Kanauj?",
+    "What were the qualifications necessary to become a member of a committee of the sabha in the Chola empire?",
+    "What were the two major cities under the control of the Chahamanas?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "gess102.txt pages 28-29",
+   "questions": [
+    "How did the Rashtrakutas become powerful in the Deccan region?",
+    "What did the new dynasties do to gain political acceptance and religious legitimacy?",
+    "What kind of irrigation works were developed in the Tamil region under the Cholas?",
+    "Contrast the elections described in the Uttaramerur inscription with present-day democratic elections."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

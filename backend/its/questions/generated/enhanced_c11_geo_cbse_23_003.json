@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_003",
+   "title": "c11_geo_cbse_23_003",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a graphical (bar) scale that distinguishes it from a statement scale or representative fraction?",
+     "a": "A graphical scale remains accurate when a map is enlarged or reduced because the scale bar changes size proportionally with the map, whereas statement scales and RFs become invalid after resizing. A wrong answer (e.g., \"it shows distance in km\") reveals the student knows what it displays but not its functional advantage — the core reason cartographers use it.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the primary divisions of a graphical scale placed to the right of zero and secondary divisions to the left?",
+     "a": "Primary divisions (whole units: 1 km, 2 km) extend rightward from zero for measuring whole distances; secondary divisions (sub-units: 100 m, 200 m) extend leftward to measure fractional parts without estimation. A wrong answer (e.g., \"it looks better\") shows the student hasn't grasped the practical measurement logic — this arrangement lets you slide a paper edge from zero to the feature, then read whole units right and fraction left.",
+     "self_check": true
+    },
+    {
+     "q": "A map has RF 1:50,000. You need to construct a plain graphical scale to show kilometres and hectometres (100 m), with a total length of 15 cm representing 7.5 km. What is the length of one primary division (1 km) and one secondary division (100 m)?",
+     "a": "Step 1: RF 1:50,000 means 1 cm on map = 50,000 cm on ground = 0.5 km.\nStep 2: Scale length 15 cm represents 7.5 km (given).\nStep 3: Primary division (1 km) = (15 cm / 7.5 km) × 1 km = 2 cm.\nStep 4: Secondary division (100 m = 0.1 km) = 2 cm × 0.1 = 0.2 cm = 2 mm.\nA wrong answer (e.g., 1 cm for 1 km) reveals confusion between RF ground distance and scale construction arithmetic — the student must derive division lengths from the chosen scale length, not directly from RF.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a map with RF 1:25,000 printed at original size versus the same map photocopied at 200% enlargement. How does the usability of the graphical scale differ from the RF printed in the margin?",
+     "a": "At 200% enlargement, the graphical scale doubles in length — its divisions now correctly represent ground distances on the enlarged map. The printed RF \"1:25,000\" becomes false because 1 cm on the enlarged map now represents only 12,500 cm on ground. A wrong answer (e.g., \"both work\") shows the student doesn't understand that RF is a fixed ratio tied to original dimensions, while the bar scale is a physical ruler that scales with the map.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the distance between two towns on a map using a graphical scale. They place a paper edge between the towns, mark the endpoints, then align the left mark with the 2 km primary division and the right mark falls at the 3rd secondary division (each secondary = 100 m). They report the distance as 2.3 km. Is this correct? Justify.",
+     "a": "No. Correct method: align the LEFT mark with ZERO, not a primary division. If left mark is at 2 km and right mark at 3rd secondary (300 m beyond 2 km), the distance is 2.3 km ONLY if the paper span exactly matches 2 km + 300 m. But the student misaligned — they should place left mark at 0, right mark reads directly. If they instead placed left at 2 km, the span represents (right reading - 2 km). A wrong justification reveals misunderstanding of the \"zero-start\" rule for bar scale measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a graphical scale for a trekking map of the Western Ghats (RF 1:25,000) that shows kilometres and 200 m intervals, fitting within a 12 cm × 1.5 cm box on the map margin. Specify: total ground distance represented, length of 1 km division, length of 200 m division, and number of primary/secondary divisions.",
+     "a": "Step 1: RF 1:25,000 → 1 cm = 0.25 km. Box width 12 cm → max ground distance = 12 × 0.25 = 3 km.\nStep 2: Choose 3 km total (uses full width). Primary division (1 km) = 12 cm / 3 = 4 cm.\nStep 3: Secondary division (200 m = 0.2 km) = 4 cm × 0.2 = 0.8 cm = 8 mm.\nStep 4: Primary divisions: 3 (0, 1, 2, 3 km). Secondary divisions: 1 km / 0.2 km = 5 divisions per km, but only need left of zero → 5 secondary divisions (0.2, 0.4, 0.6, 0.8, 1.0 km).\nA poor answer (e.g., arbitrary lengths) shows inability to work backwards from physical constraints to scale design — a key cartographic skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

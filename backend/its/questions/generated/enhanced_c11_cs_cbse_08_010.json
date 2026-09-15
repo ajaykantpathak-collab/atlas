@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_010",
+   "title": "c11_cs_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the actual data type of the object returned by the statement `return 10, 20, 30` in a Python function?",
+     "a": "The returned object is a **tuple** `(10, 20, 30)`. A wrong answer (e.g., \"list\", \"three separate integers\", or \"a special multiple-return object\") reveals that the student does not understand that comma-separated values in a `return` statement are automatically packed into a tuple. This misconception leads to errors when trying to manipulate the returned value as if it were a list or when failing to unpack it correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function:\n```python\ndef stats(data):\n    return min(data), max(data), sum(data)/len(data)\n```\nIf you call `result = stats([1,2,3,4,5])`, what will be the value and type of `result`? How would you access the minimum value?",
+     "a": "`result` will be the tuple `(1, 5, 3.0)`. To access the minimum, you must use indexing: `result[0]` or unpack with `mn, mx, avg = stats([1,2,3,4,5])`. A wrong answer (e.g., thinking `result` holds only the minimum, or that `result.min()` works) shows the student believes the function returns only the first value or that the returned object has named attributes. This indicates confusion between multiple return values and a single composite return object.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `solve_linear(a, b)` that returns the solution `x` of the linear equation `ax + b = 0` and a boolean flag indicating whether a solution exists (i.e., `a != 0`). Then write the calling code to unpack both values.",
+     "a": "```python\ndef solve_linear(a, b):\n    if a == 0:\n        return None, False\n    return -b/a, True\n\nx, exists = solve_linear(2, 4)\n```\nA wrong answer might return only one value in the `a==0` case, or forget to return a tuple in both branches, or unpack incorrectly (e.g., `x = solve_linear(2,4)`). This reveals the student cannot consistently apply tuple packing/unpacking across all control-flow paths.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two function definitions:\n```python\ndef f1(): return 1, 2\ndef f2(): return [1, 2]\n```\nWhen calling `a, b = f1()` and `a, b = f2()`, both work. What is the fundamental difference in the returned objects, and why does unpacking work for both? Give one scenario where choosing a tuple (f1) is more appropriate than a list (f2).",
+     "a": "`f1` returns a **tuple** (immutable, fixed-size, lightweight), while `f2` returns a **list** (mutable, variable-size, heavier). Unpacking works for both because Python's unpacking protocol accepts any iterable. Tuples are more appropriate when the number of returned values is fixed and the values represent a heterogeneous record (e.g., `(quotient, remainder)`), signalling immutability and semantic grouping. A wrong answer that claims they are identical or that lists are always better shows the student misses the semantic and performance implications of the choice.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\ndef divide(a, b):\n    return a // b, a % b\nq, r = divide(10, 3)\nprint(q, r)\n```\nThey claim the output is `3 1`. Is this correct? If the student instead wrote `return a / b, a % b`, what would be the output for `divide(10, 3)` and why might this be problematic for unpacking into integer variables?",
+     "a": "The output is indeed `3 1` because `//` is integer division and `%` is modulo. If they used `/`, the first returned value would be `3.333...` (a float). Unpacking into `q, r` would still work syntactically, but `q` would be a float, which might break subsequent integer-only logic (e.g., using `q` as a list index). A wrong answer that says the second version fails to unpack reveals the student thinks unpacking requires specific types; it only requires the correct number of values.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `analyze_text(text)` that returns three values: the number of vowels, the number of consonants, and the number of spaces in the given string. Write the function and a sample call that prints each count with a descriptive label. Ensure your function handles uppercase and lowercase letters.",
+     "a": "```python\ndef analyze_text(text):\n    vowels = consonants = spaces = 0\n    for ch in text.lower():\n        if ch in 'aeiou':\n            vowels += 1\n        elif ch.isalpha():\n            consonants += 1\n        elif ch == ' ':\n            spaces += 1\n    return vowels, consonants, spaces\n\nv, c, s = analyze_text(\"Hello World\")\nprint(f\"Vowels: {v}, Consonants: {c}, Spaces: {s}\")\n```\nA poor answer might use three separate `return` statements (only the first executes), or return a list without unpacking, or forget to handle case. This shows the student cannot synthesize iteration, conditionals, and multiple return values into a cohesive solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

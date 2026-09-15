@@ -1,0 +1,378 @@
+{
+ "catalog": "catalog_class12_economics_leec105",
+ "concepts": [
+  {
+   "id": "leec.105.1.1",
+   "title": "Objectives of the Government Budget: Allocation, Redistribution, Stabilisation",
+   "questions": [
+    {
+     "q": "Using the method 'Objectives of the Government Budget: Allocation, Redistribution, Stabilisation', work with: allocation = 15, redistribution = 60, stabilisation = 80. Carry the chain through step by step and give the final value of budget_functions.",
+     "a": "155 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Objectives of the Government Budget: Allocation, Redistribution, Stabilisation' and work with: allocation = 30, redistribution = 40, stabilisation = 500. Carry the chain through step by step and give the final value of budget_functions.",
+     "a": "570 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Objectives of the Government Budget: Allocation, Redistribution, Stabilisation' refers to.",
+     "a": "Through its budget the government directs resources toward goods markets fail to supply, reshapes the income distribution via taxes and transfers, and leans against booms and slumps by managing aggregate demand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of the Government Budget: Allocation, Redistribution, Stabilisation'.",
+     "a": "The budget is the state's instrument for supplying public goods, evening out incomes and steadying the economy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives of the Government Budget: Allocation, Redistribution, Stabilisation', in plain ASCII form.",
+     "a": "budget_functions = allocation + redistribution + stabilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.1.2",
+   "title": "Public Goods versus Private Goods and the Free-Rider Problem",
+   "questions": [
+    {
+     "q": "Using the method 'Public Goods versus Private Goods and the Free-Rider Problem', work with: non_excludable = 100, non_rivalrous = 18. Carry the chain through step by step and give the final value of public_good.",
+     "a": "118 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Public Goods versus Private Goods and the Free-Rider Problem' and work with: non_excludable = 100, non_rivalrous = 400. Carry the chain through step by step and give the final value of public_good.",
+     "a": "500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Public Goods versus Private Goods and the Free-Rider Problem' refers to.",
+     "a": "A public good is consumed jointly - one person's enjoyment does not diminish another's, and nobody can be barred from its benefits - so non-payers ride free and private firms will not supply it, leaving provision to the government budget.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Goods versus Private Goods and the Free-Rider Problem'.",
+     "a": "Non-rivalry and non-excludability break the payment link, so markets starve public goods and the state must step in.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Public Goods versus Private Goods and the Free-Rider Problem', in plain ASCII form.",
+     "a": "public_good = non_rivalrous + non_excludable",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.1.3",
+   "title": "Revenue Receipts: Tax and Non-Tax Revenue",
+   "questions": [
+    {
+     "q": "Using the method 'Revenue Receipts: Tax and Non-Tax Revenue', work with: non_tax_revenue = 10, tax_revenue = 18. Carry the chain through step by step and give the final value of revenue_receipts.",
+     "a": "28 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Revenue Receipts: Tax and Non-Tax Revenue' and work with: non_tax_revenue = 8, tax_revenue = 25. Carry the chain through step by step and give the final value of revenue_receipts.",
+     "a": "33 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue Receipts: Tax and Non-Tax Revenue' refers to.",
+     "a": "Receipts that create no claim on the government are revenue receipts; they comprise tax revenue - direct taxes on incomes and profits plus indirect taxes on goods and services - and non-tax items such as interest, dividends, fees and grants received.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue Receipts: Tax and Non-Tax Revenue'.",
+     "a": "If a receipt neither borrows nor sells assets, it is revenue, whether taxed or earned.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue Receipts: Tax and Non-Tax Revenue', in plain ASCII form.",
+     "a": "revenue_receipts = tax_revenue + non_tax_revenue",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.1.4",
+   "title": "Capital Receipts: Debt-Creating and Non-Debt-Creating",
+   "questions": [
+    {
+     "q": "Using the method 'Capital Receipts: Debt-Creating and Non-Debt-Creating', work with: borrowings = 18, disinvestment_proceeds = 6, recovery_of_loans = 3. Carry the chain through step by step and give the final value of capital_receipts.",
+     "a": "27 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Capital Receipts: Debt-Creating and Non-Debt-Creating' and work with: borrowings = 120, disinvestment_proceeds = 24, recovery_of_loans = 10. Carry the chain through step by step and give the final value of capital_receipts.",
+     "a": "154 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Receipts: Debt-Creating and Non-Debt-Creating' refers to.",
+     "a": "Receipts that either build a repayment obligation or shrink the government's assets are capital receipts: borrowings create future liability, while recovery of loans and sale of PSU shares merely reduce financial assets without borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Receipts: Debt-Creating and Non-Debt-Creating'.",
+     "a": "Any receipt that raises a liability or sells off an asset is capital, and only the borrowing part creates debt.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Receipts: Debt-Creating and Non-Debt-Creating', in plain ASCII form.",
+     "a": "capital_receipts = borrowings + recovery_of_loans + disinvestment_proceeds",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.1.5",
+   "title": "Revenue Expenditure versus Capital Expenditure",
+   "questions": [
+    {
+     "q": "Using the method 'Revenue Expenditure versus Capital Expenditure', work with: capital_expenditure = 5000, revenue_expenditure = 50000. Carry the chain through step by step and give the final value of total_expenditure.",
+     "a": "55000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Revenue Expenditure versus Capital Expenditure' and work with: capital_expenditure = 8000, revenue_expenditure = 120000. Carry the chain through step by step and give the final value of total_expenditure.",
+     "a": "128000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue Expenditure versus Capital Expenditure' refers to.",
+     "a": "Spending that neither builds any asset nor cuts a liability - salaries, subsidies, interest, grants - is revenue expenditure, while outlays that create assets such as land, buildings and machinery or that repay liabilities are capital expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue Expenditure versus Capital Expenditure'.",
+     "a": "Ask whether the outlay leaves behind an asset or removes a liability; if not, it is revenue spending.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue Expenditure versus Capital Expenditure', in plain ASCII form.",
+     "a": "total_expenditure = revenue_expenditure + capital_expenditure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.2.1",
+   "title": "Balanced, Surplus and Deficit Budget",
+   "questions": [
+    {
+     "q": "Find whether a budget is in surplus or deficit from receipts and spending. Use the method 'Balanced, Surplus and Deficit Budget'. Work with: total_expenditure = 5, total_receipts = 25. Carry the chain through step by step and give the final value of budget_balance.",
+     "a": "20 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the budget balance when revenue and capital figures are given. Use the method 'Balanced, Surplus and Deficit Budget'. Work with: total_expenditure = 60, total_receipts = 60. Carry the chain through step by step and give the final value of budget_balance.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balanced, Surplus and Deficit Budget' refers to.",
+     "a": "Matching total spending with total receipts balances the budget; receipts above spending leave a surplus, and the common case of spending above receipts is a deficit that must be met by borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balanced, Surplus and Deficit Budget'.",
+     "a": "The sign of receipts minus spending labels the budget as balanced, surplus or deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balanced, Surplus and Deficit Budget', in plain ASCII form.",
+     "a": "budget_balance = total_receipts - total_expenditure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.2.2",
+   "title": "Revenue Deficit",
+   "questions": [
+    {
+     "q": "Using the method 'Revenue Deficit', work with: revenue_expenditure = 5000, revenue_receipts = 80000. Carry the chain through step by step and give the final value of revenue_deficit.",
+     "a": "-75000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Revenue Deficit' and work with: revenue_expenditure = 12000, revenue_receipts = 5000. Carry the chain through step by step and give the final value of revenue_deficit.",
+     "a": "7000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue Deficit' refers to.",
+     "a": "The gap by which revenue expenditure outruns revenue receipts is the revenue deficit; it shows the government is dissaving and borrowing to fund everyday consumption rather than asset creation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue Deficit'.",
+     "a": "A revenue deficit means borrowed money is financing consumption, a warning about expenditure quality.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue Deficit', in plain ASCII form.",
+     "a": "revenue_deficit = revenue_expenditure - revenue_receipts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.2.3",
+   "title": "Fiscal Deficit as the Borrowing Requirement",
+   "questions": [
+    {
+     "q": "Calculate the fiscal deficit from total expenditure and non-borrowed receipts. Use the method 'Fiscal Deficit as the Borrowing Requirement'. Work with: disinvestment_proceeds = 8, recovery_of_loans = 45, revenue_receipts = 1200, total_expenditure = 20. Carry the chain through step by step and give the final value of fiscal_deficit.",
+     "a": "-1233 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the financing-side composition of the fiscal deficit from home and foreign borrowing. Use the method 'Fiscal Deficit as the Borrowing Requirement'. Work with: disinvestment_proceeds = 360, recovery_of_loans = 300, revenue_receipts = 120000, total_expenditure = 25. Carry the chain through step by step and give the final value of fiscal_deficit.",
+     "a": "-120635 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Fiscal Deficit as the Borrowing Requirement' refers to.",
+     "a": "Total expenditure minus all receipts other than borrowings is the fiscal deficit, which measures exactly how much the government must borrow from all sources - the public, the RBI and abroad.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fiscal Deficit as the Borrowing Requirement'.",
+     "a": "Strip out borrowings from receipts and the residual gap is precisely the borrowing requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fiscal Deficit as the Borrowing Requirement', in plain ASCII form.",
+     "a": "fiscal_deficit = total_expenditure - (revenue_receipts + non_debt_capital_receipts)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.2.4",
+   "title": "Primary Deficit",
+   "questions": [
+    {
+     "q": "Using the method 'Primary Deficit', work with: fiscal_deficit = 45, interest_payments = 12. Carry the chain through step by step and give the final value of primary_deficit.",
+     "a": "33 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Primary Deficit' and work with: fiscal_deficit = 15, interest_payments = 8. Carry the chain through step by step and give the final value of primary_deficit.",
+     "a": "7 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Primary Deficit' refers to.",
+     "a": "Removing interest obligations on past debt from the fiscal deficit leaves the primary deficit, which isolates the borrowing caused by this year's spending decisions alone.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Deficit'.",
+     "a": "The primary deficit separates today's fiscal imbalance from the legacy cost of yesterday's debt.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Primary Deficit', in plain ASCII form.",
+     "a": "primary_deficit = fiscal_deficit - interest_payments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.3.1",
+   "title": "Government Spending, Tax and Transfer Multipliers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Government Spending, Tax and Transfer Multipliers' refers to.",
+     "a": "A rupee of public spending enters demand directly and multiplies through the MPC chain, while a rupee of tax change enters only through disposable income, so the tax multiplier is smaller in size and negative, and transfers work like taxes in reverse with a multiplier of c over one minus c.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Spending, Tax and Transfer Multipliers'.",
+     "a": "Spending hits demand at full strength, taxes and transfers only through the spending fraction, so their multipliers are one rung weaker.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Government Spending, Tax and Transfer Multipliers', in plain ASCII form.",
+     "a": "government_spending_multiplier = 1 / marginal_propensity_to_save",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.3.2",
+   "title": "Balanced Budget Multiplier",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Balanced Budget Multiplier' refers to.",
+     "a": "When an increase in government spending is financed by an equal rise in taxes, the spending and tax effects combine so that equilibrium income grows by exactly the extra spending - the balanced budget multiplier equals one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balanced Budget Multiplier'.",
+     "a": "Equal rises in G and T lift income one-for-one, because the first-round tax leak skips the initial spending injection.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balanced Budget Multiplier', in plain ASCII form.",
+     "a": "balanced_budget_multiplier = spending_multiplier + tax_multiplier = 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.3.3",
+   "title": "Proportional Taxes and Automatic Stabilisers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Proportional Taxes and Automatic Stabilisers' refers to.",
+     "a": "A proportional income tax of rate t trims the effective propensity to consume to c times one minus t, flattening aggregate demand and shrinking the multiplier; because collections rise in booms and fall in slumps, the tax acts as a built-in shock absorber without any policy decision.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proportional Taxes and Automatic Stabilisers'.",
+     "a": "Proportional taxes dampen every upswing and cushion every downswing automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Proportional Taxes and Automatic Stabilisers', in plain ASCII form.",
+     "a": "effective_mpc = marginal_propensity_to_consume * (1 - tax_rate)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.105.4.1",
+   "title": "Government Debt, Ricardian Equivalence and Crowding Out",
+   "questions": [
+    {
+     "q": "Using the method 'Government Debt, Ricardian Equivalence and Crowding Out', work with: accumulated_deficits = 45, accumulated_interest = 18. Carry the chain through step by step and give the final value of debt_stock.",
+     "a": "63 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Government Debt, Ricardian Equivalence and Crowding Out' and work with: accumulated_deficits = 75, accumulated_interest = 8. Carry the chain through step by step and give the final value of debt_stock.",
+     "a": "83 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Government Debt, Ricardian Equivalence and Crowding Out' refers to.",
+     "a": "Year after year of deficits accumulate into a debt stock whose interest itself adds to future deficits; whether debt is a burden turns on growth effects - Ricardian equivalence claims far-sighted savers offset public borrowing, while crowding out warns that government bonds soak up private savings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Debt, Ricardian Equivalence and Crowding Out'.",
+     "a": "Deficits are flows feeding a debt stock, and the debate is whether that stock taxes future growth or rides on it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Government Debt, Ricardian Equivalence and Crowding Out', in plain ASCII form.",
+     "a": "debt_stock = accumulated_deficits + accumulated_interest",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

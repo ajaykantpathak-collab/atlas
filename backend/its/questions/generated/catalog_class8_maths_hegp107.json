@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class8_maths_hegp107.json",
+ "concepts": [
+  {
+   "id": "hegp.107.7.1",
+   "title": "Similarity in Change (Proportional Change)",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
+     "compute": "t1 = 25 / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 25 : 50 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 640 is divided between two friends in the ratio 2 : 6. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 2 : 7 = 8 : ?  (give the fourth term).",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 2 : 7 :: 8 : 28 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 40, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "400",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.107.7.2",
+   "title": "Ratios and Proportion",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 4 : 20 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 880 is divided between two friends in the ratio 5 : 6. Find the smaller share.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 6 = 10 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 6 :: 10 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 40, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.107.7.3",
+   "title": "Simplest Form of a Ratio",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 12 and 30 have HCF 6 with coprime multipliers 2 and 5. Verify by computing hcf = 6 x 1; then find the HCF value.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 12 and 30 given their HCF is 6 and HCF x LCM = product of the numbers.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 12 and 30 is 60. Use HCF x LCM = a x b to find their HCF.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 12 cm and 30 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 12 minutes and 30 minutes. After how many minutes will they next ring together?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 96?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.107.7.4",
+   "title": "Missing Value in a Proportion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 80 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 880 is divided between two friends in the ratio 2 : 9. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 6 = 25 : ?  (give the fourth term).",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 6 :: 25 : 30 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 100, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.107.7.5",
+   "title": "Sharing a Whole in a Given Ratio",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 4 : 48 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1100 is divided between two friends in the ratio 5 : 6. Find the smaller share.",
+     "a": "500",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 3 = 28 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 3 :: 28 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 120, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "300",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.107.7.6",
+   "title": "Unit Conversions and Temperature",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 20 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 720 is divided between two friends in the ratio 3 : 6. Find the smaller share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 2 : 4 = 6 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 2 : 4 :: 6 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 100, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "80",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

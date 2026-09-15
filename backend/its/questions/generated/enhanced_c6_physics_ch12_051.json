@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_051",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_051",
+   "title": "c6_physics_ch12_051",
+   "questions": [
+    {
+     "q": "Why does the Moon appear to change its shape throughout the month?",
+     "a": "The Moon appears to change shape because it orbits the Earth, and our view of the side lit by the Sun changes as it moves. A student saying \"the Moon grows or shrinks\" reveals a failure to understand that the Moon is a solid sphere whose actual shape remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "If you see a \"New Moon,\" where is the Moon located in relation to the Earth and the Sun?",
+     "a": "The Moon is located between the Earth and the Sun, making the side facing us dark. A student saying \"it is behind the Earth\" shows confusion about the orbital alignment required for the dark phase.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon takes 29.5 days to complete its cycle, how long do you think it takes to go from a New Moon to a First Quarter phase?",
+     "a": "It takes approximately 7.4 days (one-fourth of the cycle). A student guessing \"half a month\" or \"15 days\" fails to connect the phases as segments of the total 29.5-day orbital period.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Moon to a mirror. Is this a good comparison for why we see lunar phases?",
+     "a": "Yes, because the Moon reflects sunlight just as a mirror reflects light. A student who says \"no\" likely believes the Moon generates its own light, ignoring that stars are light sources but planets and moons are light reflectors.",
+     "self_check": true
+    },
+    {
+     "q": "If you were on the Moon looking at the Earth, would the Earth have \"phases\" too?",
+     "a": "Yes, because the Earth would also be lit by the Sun at different angles from your perspective on the Moon. A student who says \"no\" is not applying the concept of light reflection and perspective to other objects in space.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a torch and a tennis ball to show a \"waxing crescent\" phase.",
+     "a": "The student should place the torch (Sun) to one side, move the ball (Moon) around their head (Earth), and position the ball so only a tiny sliver of the lit side is visible. A poor answer would just say \"move the ball\" without explaining how to align the light to create the specific crescent shape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

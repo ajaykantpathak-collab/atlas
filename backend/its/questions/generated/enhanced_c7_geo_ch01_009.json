@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_009",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_009",
+   "title": "c7_geo_ch01_009",
+   "questions": [
+    {
+     "q": "Which of the following best describes the primary source of water for Himalayan river systems compared to Peninsular river systems?\nA) Both are fed exclusively by monsoon rainfall.\nB) Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall.\nC) Himalayan rivers are seasonal, while Peninsular rivers flow throughout the year.\nD) Both are fed entirely by underground springs.",
+     "a": "The correct answer is B. Himalayan rivers are fed by melting glaciers and monsoon rains, whereas Peninsular rivers are mainly fed by seasonal monsoon rainfall. A wrong answer reveals a confusion between perennial snow-fed rivers and seasonal rain-fed rivers, often forgetting that Peninsular plateaus lack permanent snowfields.",
+     "self_check": true
+    },
+    {
+     "q": "Why do rivers originating in the Himalayas, such as the Ganga and Brahmaputra, have large perennial water flow throughout the year, unlike many rivers in the southern plateau?\nA) Because they flow through flat deserts where evaporation is low.\nB) Because they receive continuous meltwater from high-altitude glaciers in summer, followed by heavy monsoon rains.\nC) Because they are artificially pumped by hydroelectric dams.\nD) Because they do not experience any human water extraction.",
+     "a": "The correct answer is B. Because they receive continuous meltwater from high-altitude glaciers in summer, followed by heavy monsoon rains. A wrong answer shows the misconception that rivers only flow due to current rainfall, ignoring the vital role of glacial ice melting during the dry summer months.",
+     "self_check": true
+    },
+    {
+     "q": "A geographer is analyzing a river that originates in the Western Ghats, flows eastward across the Deccan Plateau, and empties into the Bay of Bengal with a large delta. Which major river system is this?\nA) Indus River System\nB) Narmada River System\nC) Godavari River System\nD) Brahmaputra River System",
+     "a": "The correct answer is C. Godavari River System. \nWorking steps:\n1. Identify the origin: Western Ghats rules out Himalayan systems (Indus, Brahmaputra).\n2. Identify the direction of flow: Eastward across the Deccan Plateau rules out west-flowing rivers like Narmada.\n3. Identify the mouth: Emptying into the Bay of Bengal with a delta confirms it is an east-flowing peninsular river, making the Godavari (often called Dakshina Ganga) the correct choice.\nA wrong answer indicates confusion regarding the cardinal directions of peninsular river flows and their ultimate mouths (Arabian Sea vs. Bay of Bengal).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the structural difference in valley formation between the upper course of the Ganga in the Himalayas and its lower course in the Northern Plains. How does the river's work change?\nA) In the upper course, the river cuts deep V-shaped valleys through rapid erosion; in the lower course, it slows down and deposits sediments, forming plains and deltas.\nB) In the upper course, the river deposits massive silt; in the lower course, it cuts deep rocky canyons.\nC) The river behaves identically in both regions because water speed is constant.\nD) The river only erodes land in the lower course and only deposits in the upper course.",
+     "a": "The correct answer is A. In the upper course, the river cuts deep V-shaped valleys through rapid erosion; in the lower course, it slows down and deposits sediments, forming plains and deltas. A wrong answer reveals a misunderstanding of river stages (youth, mature, old) and how gradient changes affect erosional and depositional work.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Building large dams on Himalayan rivers provides immense benefits for irrigation and electricity, but has no negative ecological impact on the river basin.\" Is this statement accurate?\nA) Yes, dams completely eliminate floods and improve river health everywhere.\nB) No, while dams provide power and irrigation, they disrupt natural sediment deposition, block fish migration, and can submerge upstream forests and settlements.\nC) Yes, because rivers naturally adjust to concrete walls without any disruption.\nD) No, because dams stop water from flowing entirely to the ocean.",
+     "a": "The correct answer is B. No, while dams provide power and irrigation, they disrupt natural sediment deposition, block fish migration, and can submerge upstream forests and settlements. A wrong answer shows a one-sided view of resource utilization, ignoring the complex trade-offs between human engineering benefits and ecological disruption in river basins.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical management strategy for a hypothetical peninsular river basin that experiences severe drought in summer and severe flooding during the monsoon. What measures would you propose to balance water availability?",
+     "a": "A strong answer proposes an integrated watershed management plan combining rainwater harvesting, check dams to slow down runoff, contour bunding on slopes to trap moisture, afforestation in the upper catchment to reduce soil erosion, and inter-linking of canals or reservoirs to store excess monsoon water for dry months. A poor answer merely suggests digging deeper wells or ignoring seasonal variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

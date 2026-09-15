@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_1",
+   "title": "c8_physics_ch2_1",
+   "questions": [
+    {
+     "q": "A compass needle points north-south when placed far from any wire. When a straight wire carrying current from a battery is placed parallel to the needle (north-south direction) and the circuit is closed, the needle deflects. What does this observation tell us about electric current?",
+     "a": "The observation tells us that an electric current produces a magnetic field around the wire. This magnetic field interacts with the magnetic field of the compass needle, causing deflection. A wrong answer (e.g., \"the battery attracts the needle\" or \"the wire becomes a magnet permanently\") reveals the student thinks the effect is due to static electricity or permanent magnetization, not understanding that the magnetic field exists only while current flows.",
+     "self_check": true
+    },
+    {
+     "q": "In Oersted's experiment, the compass needle deflects when placed above a horizontal wire carrying current from south to north. If the battery connections are reversed so current flows north to south, how will the deflection direction change? Explain why.",
+     "a": "The needle will deflect in the opposite direction. Reversing current reverses the direction of the magnetic field produced around the wire (as per the right-hand rule, though not formally taught yet). A wrong answer (e.g., \"deflection stays the same\" or \"needle stops deflecting\") reveals the student does not grasp that magnetic field direction depends on current direction - they may think the wire simply \"becomes magnetic\" regardless of current flow direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a circuit with a 1.5 V cell, a switch, and a long straight wire. The compass is placed 5 cm below the wire. When the switch is closed, the needle deflects 30° from north-south. The student then adds a second identical cell in series (total 3.0 V) and repeats. Predict qualitatively how the deflection angle will change and explain your reasoning.",
+     "a": "The deflection angle will increase (become larger than 30°). Higher voltage drives more current through the same wire (Ohm's law, though not formally required), producing a stronger magnetic field, which exerts a greater torque on the compass needle. A wrong answer (e.g., \"angle stays 30°\" or \"angle decreases\") reveals the student doesn't connect current magnitude to magnetic field strength - they may think the effect is binary (on/off) rather than proportional to current.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical circuits are set up side by side. Circuit A has a thick copper wire; Circuit B has a thin copper wire of the same length. Both use the same 1.5 V cell. A compass placed at the same distance from each wire shows different deflections. Which circuit produces greater deflection and why?",
+     "a": "Circuit A (thick wire) produces greater deflection. Thicker wire has lower resistance, allowing more current to flow for the same voltage. More current creates a stronger magnetic field, causing larger deflection. A wrong answer (e.g., \"thin wire deflects more\" or \"both same\") reveals confusion between wire thickness and resistance, or failure to apply their Class 7 knowledge of conductors (c7_physics_ch02_009) to this magnetic context.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The compass needle deflects because the electric current flows through the compass needle itself.\" Evaluate this claim. Is it correct? If not, identify the error and explain the correct mechanism.",
+     "a": "The claim is incorrect. The compass needle is not part of the electrical circuit - it is just a magnet free to rotate. The current flows only through the wire. The wire's current creates a magnetic field around it, and this field exerts a torque on the magnetized needle, causing deflection. A wrong evaluation reveals the student confuses the path of current with the region of magnetic influence - a fundamental misunderstanding of action-at-a-distance via fields.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a 1.5 V cell, a switch, insulated copper wire, a compass, and cardboard to demonstrate that the magnetic field around a current-carrying wire forms concentric circles. Describe your setup, procedure, and what observation would confirm circular field lines.",
+     "a": "Place the cardboard horizontally. Pass the wire vertically through a hole in the cardboard so it stands upright. Connect the wire to the cell and switch. Place the compass at various positions on the cardboard around the wire. Close the switch and mark the needle direction at each position. The needle will align tangentially to circles centered on the wire, confirming circular field lines. A poor answer (e.g., \"move compass along wire\" or \"use iron filings\") shows inability to translate the concept of field lines into a practical investigation using available materials.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_001",
+   "title": "c10_geo_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define water scarcity and state the two main types of water scarcity recognized in geography.",
+     "a": "Water scarcity is the shortage of freshwater resources to meet standard demand. The two main types are physical (absolute) water scarcity, where natural water resources are insufficient for demand (e.g., arid regions like Rajasthan), and economic water scarcity, where water is available but infrastructure or investment is lacking to access it (e.g., parts of Jharkhand or Odisha). A wrong answer that only mentions \"low rainfall\" reveals the misconception that scarcity is purely climatic, ignoring human factors like infrastructure, pollution, and over-extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a region with high annual rainfall, such as Cherrapunji (Meghalaya) or Mumbai (Maharashtra), can still experience water scarcity during summer months.",
+     "a": "High rainfall does not guarantee year-round water availability because: (1) Rainfall is highly seasonal (concentrated in 3-4 monsoon months), (2) Steep slopes or impervious urban surfaces cause rapid runoff instead of groundwater recharge, (3) Lack of storage infrastructure leads to loss of monsoon water, and (4) High population density creates demand that exceeds the dry-season supply. A wrong answer attributing scarcity only to \"less rain\" shows the student has not understood the temporal mismatch between rainfall concentration and year-round demand, or the role of storage and recharge.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Maharashtra receives 800 mm annual rainfall. The cultivable area is 200 hectares. The main crop is sugarcane, requiring 2000 mm of water per hectare per year. Groundwater recharge is estimated at 15% of rainfall. Calculate the water deficit per hectare and explain whether this represents physical or economic scarcity.",
+     "a": "Step 1: Calculate water available from rainfall per hectare = 800 mm = 8000 m³/ha (since 1 mm = 10 m³/ha). Step 2: Groundwater recharge = 15% of 8000 = 1200 m³/ha. Step 3: Crop requirement = 2000 mm = 20000 m³/ha. Step 4: Deficit = 20000 - 1200 = 18800 m³/ha. This is physical scarcity because the natural renewable supply (recharge) is far below the crop demand, even if infrastructure existed. A wrong answer that ignores recharge percentage or uses total rainfall shows misunderstanding of usable water vs total precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the water scarcity challenges of two Indian cities: Jaisalmer (Rajasthan, annual rainfall ~150 mm) and Bengaluru (Karnataka, annual rainfall ~900 mm). Identify the dominant type of scarcity in each and explain how their causes differ.",
+     "a": "Jaisalmer faces primarily physical scarcity due to extremely low rainfall (arid climate), high evaporation, and limited surface/groundwater resources — nature does not provide enough water. Bengaluru faces primarily economic scarcity: it receives good rainfall but lacks sufficient reservoirs, has lost lakes to encroachment, depends on distant Cauvery water (pumped 100 km uphill), and has depleted groundwater due to unregulated borewells. A wrong answer that labels both as \"physical scarcity\" or both as \"economic scarcity\" fails to distinguish between nature-limited and management-limited scarcity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India’s water scarcity is mainly caused by low rainfall.\" Provide three counter-arguments with specific Indian examples.",
+     "a": "The statement is incorrect. Counter-arguments: (1) India receives 1170 mm average annual rainfall (higher than global average), yet faces scarcity — e.g., Punjab has high rainfall but severe groundwater depletion due to water-intensive paddy cultivation. (2) Unequal distribution: Cherrapunji gets 11,000 mm but faces summer shortages; Rajasthan gets 150 mm but grows water-intensive crops via canals. (3) Pollution makes available water unusable: Yamuna in Delhi, Ganga in Kanpur — water exists but is unfit for use without expensive treatment. A wrong answer that agrees with the statement shows the student confuses \"water availability\" with \"rainfall amount\" and ignores demand-side drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page poster for a school campaign titled \"Why Every Drop Counts in Our City\" that explains the causes of water scarcity in your city/town and proposes three student-led conservation actions. Use geographical terms correctly.",
+     "a": "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level), (2) List 2-3 causes with geographical reasoning (e.g., \"Over-extraction of groundwater for irrigation in peri-urban farms lowers water table\"), (3) Propose three feasible student actions (e.g., \"Fix leaking taps — saves 50 litres/day per tap\", \"Reuse RO reject water for mopping/gardening\", \"Campaign for rooftop rainwater harvesting in school\"), (4) Use terms like aquifer, recharge, water table, runoff, per capita availability. A poor poster uses generic slogans (\"Save water!\") without local geographical context or confuses causes (e.g., blames only \"less rain\" in a high-rainfall city).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

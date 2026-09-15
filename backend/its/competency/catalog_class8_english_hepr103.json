@@ -1,0 +1,205 @@
+{
+ "class": 8,
+ "subject": "english",
+ "chapter": 3,
+ "chapter_title": "The Case of the Fifth Word",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hepr103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hepr.3.1",
+   "title": "Encyclopedia Brown, the Boy Detective",
+   "section": "The Case of the Fifth Word, Let us read I",
+   "definition": "Leroy Brown of Idaville, called Encyclopedia for his head full of facts, solves the police chief's hardest cases at the dinner table; he asks one careful question and never boasts about his help.",
+   "formula": "",
+   "key_idea": "Knowledge plus modesty makes the boy wonder: he reads endlessly, forgets nothing and keeps quiet about praise.",
+   "textbook_ref": "hepr103.txt, The Case of the Fifth Word, Let us read I",
+   "question_patterns": [
+    "why is leroy brown called encyclopedia",
+    "how does encyclopedia help his father solve cases",
+    "what are the character traits of encyclopedia brown",
+    "why does chief brown keep his son's talent secret",
+    "what question does encyclopedia ask about the fir tree",
+    "how does encyclopedia find the meaning of the four words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect actions and words",
+     "explain": "List what the character does and says at key moments."
+    },
+    {
+     "step": 2,
+     "action": "infer the traits",
+     "explain": "Match each action to a quality such as wit, valour or patience."
+    },
+    {
+     "step": 3,
+     "action": "cite the evidence",
+     "explain": "Point to the lines of the text that support each trait."
+    }
+   ]
+  },
+  {
+   "id": "hepr.3.2",
+   "title": "The Four-Word Code: Nom Utes Sweden Hurts",
+   "section": "The Case of the Fifth Word, Let us read II",
+   "definition": "Dying, Tim Nolan leaves four strange words beside his will; Encyclopedia sees they hide the days of the week without the letters day, so the missing fifth word, fir for Friday, marks the young fir tree under which the stolen jewellery lies.",
+   "formula": "nom utes sweden hurts = monday tuesday wednesday thursday",
+   "key_idea": "A code bends around its calendar page: each word stands for a weekday, and the unwritten day points to the hiding place.",
+   "textbook_ref": "hepr103.txt, The Case of the Fifth Word, Let us read II",
+   "question_patterns": [
+    "how did encyclopedia crack the four word code",
+    "what does nom stand for in nolan's code",
+    "why did nolan write the words on a calendar sheet",
+    "where was the stolen jewellery hidden",
+    "why would the code make no sense to a stranger",
+    "what was the fifth word and why was it left unwritten"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the strange words",
+     "explain": "Write the four words exactly as Nolan left them."
+    },
+    {
+     "step": 2,
+     "action": "hunt the hidden pattern",
+     "explain": "Notice that dropping day from each weekday leaves letters that reshape into the words."
+    },
+    {
+     "step": 3,
+     "action": "name the missing piece",
+     "explain": "See that the fifth weekday gives fir, the tree under which the loot was buried."
+    }
+   ]
+  },
+  {
+   "id": "hepr.3.3",
+   "title": "Clues and Inference: Solving a Mystery",
+   "section": "The Case of the Fifth Word, Let us think and reflect",
+   "definition": "The story is a chain of clues, a five-year-old robbery, a missing partner, a searched house, a deathbed will; inference joins them, as Encyclopedia reasons from the calendar sheet and the single fir tree to the buried jug of earth.",
+   "formula": "",
+   "key_idea": "A detective reasons instead of guessing: each small fact, one question at a time, closes in on the answer.",
+   "textbook_ref": "hepr103.txt, The Case of the Fifth Word, Let us think and reflect",
+   "question_patterns": [
+    "which clues help encyclopedia solve the case",
+    "why does encyclopedia ask about the fir tree in the nursery",
+    "what was suspicious about the sheet from the desk calendar",
+    "how did the police know that nolan and davenport hid the jewellery",
+    "why did the search of nolan's house find nothing",
+    "what does the case teach about careful reasoning"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gather the facts",
+     "explain": "Separate what is known, the robbery, the will, the searched house, from what is guessed."
+    },
+    {
+     "step": 2,
+     "action": "join the facts",
+     "explain": "Reason step by step from each clue towards the hiding place."
+    },
+    {
+     "step": 3,
+     "action": "check the solution",
+     "explain": "Test the answer against every clue before declaring the case closed."
+    }
+   ]
+  },
+  {
+   "id": "hepr.3.4",
+   "title": "Word Meanings: Hunch, Loot and Testify",
+   "section": "The Case of the Fifth Word, Let us learn",
+   "definition": "Detective words come clear from context: a hunch is a strong feeling about something, loot is stolen goods, to testify is to make a statement in court, and a hold-up is a robbery with threat or violence.",
+   "formula": "",
+   "key_idea": "Crime-story vocabulary, from court order to testimony, builds the world in which the boy detective works.",
+   "textbook_ref": "hepr103.txt, The Case of the Fifth Word, Let us learn",
+   "question_patterns": [
+    "what is a hunch as chief brown uses the word",
+    "what does loot mean in the story",
+    "why did the clerk refuse to testify",
+    "what are hold-ups according to the gloss",
+    "find the meaning of foreseen from the text",
+    "use the word nursery in a sentence of your own"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the word",
+     "explain": "Find the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "read the clues around it",
+     "explain": "Use nearby words to sense the meaning that fits."
+    },
+    {
+     "step": 3,
+     "action": "test a replacement",
+     "explain": "Swap in the guessed meaning and check the sentence still works."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr103.txt, explanation section",
+   "concept": "hepr.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does the calendar sheet serve as the key to Nolan's code?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the sheet",
+     "explain": "Nolan clipped a page from a desk calendar beside the will."
+    },
+    {
+     "step": 2,
+     "action": "apply the key",
+     "explain": "Once the words are read as weekdays missing their day letters, the unwritten fifth day, Fir or Friday, names the hiding spot."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hepr103.txt, Let us read I",
+   "concept": "hepr.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Chief Brown stare at his soup at dinner?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the family signal",
+     "explain": "Staring at the cream-of-mushroom soup was the chief's habit when a case defeated him."
+    },
+    {
+     "step": 2,
+     "action": "state the reason",
+     "explain": "Tim Nolan had died leaving a will and four words no one could read, and the stolen jewellery was still missing."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr103.txt, Let us discuss and think and reflect",
+   "questions": [
+    "Separate the facts from the opinions listed from parts I and II of the story.",
+    "Match the textual evidences of the trait table to knowledge, modesty, patience and speed.",
+    "What was suspicious about the sheet from Nolan's desk calendar?",
+    "Do you think Chief Brown needed Leroy's help in this case? Why?",
+    "Explain how the four words told Davenport where the jewellery was."
+   ]
+  }
+ ]
+}

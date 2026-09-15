@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch1_6",
+   "title": "c8_civ_ch1_6",
+   "questions": [
+    {
+     "q": "Which type of election is held to choose representatives who will sit in the national Parliament at New Delhi to make laws for the entire country?",
+     "a": "The correct answer is the Lok Sabha election. A wrong answer—such as choosing State Assembly or Local Body elections—reveals a confusion between the national level of government (Parliament) and state or grassroots levels, failing to recognize that national laws are made by Members of Parliament (MPs) elected to the Lok Sabha.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India conduct separate elections for State Assemblies (Vidhan Sabha) and Local Bodies (Panchayats and Municipalities) instead of having a single national election handle everything?",
+     "a": "Separate elections exist because India is a federal democracy with multiple levels of government, each handling different responsibilities (such as police and agriculture for states, and sanitation and local roads for local bodies). A wrong answer assumes that a national government can efficiently manage every local issue, showing a misunderstanding of grassroots democracy and the division of powers between national, state, and local authorities.",
+     "self_check": true
+    },
+    {
+     "q": "A group of villagers in Odisha wants to build a local drainage system in their village. Which type of election should they focus on to elect the leaders responsible for funding and constructing this drainage system?",
+     "a": "The villagers must focus on Local Body elections (specifically Panchayati Raj institutions like the Gram Panchayat or Panchayat Samiti). A wrong answer—such as a Lok Sabha election—reveals a failure to connect local public works with local self-government, incorrectly assuming national MPs manage village-level civil works.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between a Member of Parliament (MP) elected in a Lok Sabha election and a Member of the Legislative Assembly (MLA) elected in a State Assembly election. How do their domains of authority differ?",
+     "a": "An MP elected to the Lok Sabha participates in lawmaking and policy decisions that apply across the entire nation (e.g., railways, defense, national taxation), whereas an MLA elected to a State Assembly participates in making laws for a specific state (e.g., state police, public health, school education within that state). A wrong answer suggests that MPs and MLAs have overlapping or identical powers, missing the constitutional division of legislative subjects between the Union and State lists.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Local body elections are less important than Lok Sabha elections because local bodies do not deal with major national economic policies.\" Is this assessment accurate from the perspective of a citizen's daily life?",
+     "a": "This assessment is inaccurate. While Lok Sabha elections shape national and international policies, Local Body elections directly impact a citizen's daily life by governing immediate needs like clean drinking water, street lighting, sanitation, and primary healthcare. A wrong answer shows an elitist view of democracy that ignores grassroots governance and the direct accountability of local leaders to ordinary citizens.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple voting scenario for a medium-sized town in India where a citizen participates in all three tiers of elections within a five-year cycle. Describe which office is being chosen in each election.",
+     "a": "A good response outlines three distinct elections: 1) A Municipal Corporation election (Local Body) to choose ward councillors for garbage collection and local water supply; 2) A State Assembly election to choose an MLA representing their constituency in the state capital for matters like state schools and transport; 3) A Lok Sabha election to choose an MP representing their parliamentary constituency in New Delhi for national laws and foreign policy. A poor answer merges all three levels into one election or mistakes local councillors for national lawmakers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

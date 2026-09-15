@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_005",
+   "title": "c11_bs_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the Principle of Indemnity in one sentence and name the one major type of insurance where it does NOT apply.",
+     "a": "Correct answer: \"The Principle of Indemnity states that the insurer compensates the insured only for the actual financial loss suffered, restoring them to the same financial position as before the loss, and it does NOT apply to life insurance.\" A wrong answer—such as saying indemnity applies to all insurance or that it allows the insured to claim the full sum assured regardless of loss—reveals confusion between indemnity contracts (fire, marine) and value contracts (life), and suggests the student memorised the definition without grasping the \"no profit\" rationale.",
+     "self_check": true
+    },
+    {
+     "q": "A factory owner insures his machinery worth ₹50 lakh under two policies: Policy X for ₹30 lakh and Policy Y for ₹40 lakh. A fire causes ₹20 lakh damage. The owner claims ₹20 lakh from Policy X and ₹20 lakh from Policy Y, totalling ₹40 lakh. Explain why this claim violates the Principle of Contribution and state the correct amount each insurer should pay.",
+     "a": "Correct answer: Contribution prevents double recovery; total indemnity cannot exceed actual loss (₹20 lakh). Insurers share in proportion to sum assured: Policy X pays (30/70)×20 = ₹8.57 lakh; Policy Y pays (40/70)×20 = ₹11.43 lakh. A student who says \"each pays ₹20 lakh because both policies cover the loss\" misunderstands that contribution is triggered by double insurance on the same subject matter, not by the number of policies. This error shows they treat each policy in isolation rather than as a shared liability pool.",
+     "self_check": true
+    },
+    {
+     "q": "Your car (insured for ₹6 lakh) is damaged in an accident caused by a rash driver. Repair cost is ₹2 lakh. Your insurer pays you ₹2 lakh. Two months later, the rash driver offers you ₹2 lakh as out-of-court settlement. You accept it, keeping both amounts. Identify which principle is violated and explain the insurer's legal right in this situation.",
+     "a": "Correct answer: The Principle of Subrogation is violated. After paying ₹2 lakh, the insurer acquires the right to sue the rash driver for ₹2 lakh. By accepting the driver's money, you deprived the insurer of this recovery right. The insurer can now refuse future claims or recover the ₹2 lakh from you. A student who says \"the insured can keep both because the driver was at fault\" misses that subrogation transfers the insured's right of action to the insurer upon indemnification—it is not optional for the insured.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Indemnity and Contribution using the concepts of \"single policy\" vs. \"double insurance\" and \"actual loss\" vs. \"sum assured.\" Why is Contribution considered a corollary of Indemnity?",
+     "a": "Correct answer: Indemnity operates with a single policy—payout = actual loss (capped at sum assured). Contribution operates only when double insurance exists—multiple insurers jointly indemnify, each paying a fraction of actual loss proportional to their sum assured. Contribution is a corollary because without it, double insurance would let the insured collect actual loss from each insurer, violating indemnity's \"no profit\" rule. A student who lists definitions separately without linking them to the \"single vs. multiple insurer\" distinction shows fragmented understanding rather than seeing contribution as indemnity's extension to multi-insurer scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Subrogation applies only when a third party is at fault; if the loss is caused by an act of God (e.g., lightning), subrogation has no role.\" Is this true or false? Justify with reference to the insurer's rights.",
+     "a": "Correct answer: True. Subrogation requires a third party against whom the insured has a legal right of recovery. In act-of-God losses (lightning, flood), no third party exists, so there are no rights to transfer. The insurer bears the loss alone. A student who says \"subrogation still applies because the insurer can sue nature\" or \"subrogation applies to all indemnity claims\" confuses subrogation (rights against third parties) with the insurer's general obligation to indemnify. This reveals a failure to identify the necessary condition: a legally actionable third party.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) involving a shopkeeper, a landlord, and a fire insurance policy where BOTH Contribution and Subrogation operate simultaneously. Specify the sums assured, actual loss, and third-party liability.",
+     "a": "Expected answer: Example—\"Shopkeeper insures stock worth ₹10 lakh under two policies: Policy A (₹6 lakh) and Policy B (₹8 lakh). Faulty wiring in landlord's building causes fire; actual loss = ₹5 lakh. Landlord is legally liable.\" Contribution: Insurers A and B share ₹5 lakh in 6:8 ratio (A pays ₹2.14L, B pays ₹2.86L). Subrogation: After paying, insurers jointly sue landlord to recover ₹5 lakh. A poor answer omits either the double insurance (needed for contribution) or the negligent third party (needed for subrogation), or lets the insured recover from both insurers and the landlord—showing inability to synthesize the two principles in one scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

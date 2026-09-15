@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_003",
+   "title": "c11_ip_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the exact difference between opening a file in 'w' mode versus 'a' mode when the file already exists and contains data?",
+     "a": "'w' mode truncates the file to zero length immediately upon opening, destroying all existing content, and positions the file pointer at the beginning. 'a' mode preserves all existing content and positions the file pointer at the end of the file so new writes are appended. A wrong answer (e.g., saying both preserve data or both start at beginning) reveals the student confuses the destructive nature of 'w' with the preservative nature of 'a', a critical error that leads to silent data loss in programs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `f = open('data.txt', 'r+')` intending to read the file first and then write new data at the end. The file exists and contains \"Hello\". After `f.read()`, they call `f.write('World')`. Where does 'World' get written, and why might this surprise the student?",
+     "a": "After `f.read()`, the file pointer is at the end of the file (position 5). `f.write('World')` writes starting at that position, so the file becomes \"HelloWorld\". The student might expect 'World' to be written at the beginning because they think 'r+' always starts writing at the start, or they might not realize `read()` moves the pointer. A wrong answer reveals the misconception that 'r+' mode fixes the write position at the start, ignoring the dynamic file pointer — a senior-secondary error where students treat modes as static permissions rather than dynamic pointer contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that safely opens 'config.ini' for reading, but if the file does not exist, creates it with default content \"debug=false\" without throwing an exception. You may only use one `open()` call.",
+     "a": "```python\ntry:\n    f = open('config.ini', 'r')\nexcept FileNotFoundError:\n    f = open('config.ini', 'w')\n    f.write('debug=false')\n    f.close()\n    f = open('config.ini', 'r')",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviors of 'w+', 'r+', and 'a+' modes across these three dimensions: (1) File creation if missing, (2) Truncation of existing content, (3) Initial file pointer position. Present as a truth table.",
+     "a": "| Mode | Creates if missing? | Truncates existing? | Initial pointer position |\n|------|---------------------|---------------------|--------------------------|\n| w+   | Yes                 | Yes                 | Start (0)                |\n| r+   | No                  | No                  | Start (0)                |\n| a+   | Yes                 | No                  | End (file size)          |\nA wrong answer (e.g., saying 'r+' creates file or 'a+' starts at 0) reveals the student has memorized modes in isolation without analyzing the orthogonal design: creation, truncation, and pointer are three independent binary choices that Python combines into 6 modes. This is a senior-secondary analytical error — treating modes as arbitrary labels rather than composed behaviors.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer argues: \"Since 'a' mode appends, it's always safer than 'w' mode for writing log files. We should use 'a' for all file writing to avoid data loss.\" Evaluate this claim. Is it always true? Provide a counterexample where 'a' mode causes incorrect behavior.",
+     "a": "The claim is false. Counterexample: A program that rewrites a configuration file with updated settings. If you use 'a' mode, each run appends the new settings to the end, leaving stale settings earlier in the file. When the config parser reads the file, it may use the first occurrence (old values) or see duplicate keys, causing incorrect behavior. 'w' mode is correct here because it ensures the file contains exactly the current configuration. A wrong evaluation (agreeing with the claim) reveals the student thinks \"safe\" means \"never loses bytes\" rather than \"produces semantically correct file content\" — a senior-secondary error confusing data preservation with logical correctness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a file access mode string (using only standard Python mode characters: r, w, a, +, b, x) that satisfies all these constraints simultaneously: (1) Must create the file if it doesn't exist, (2) Must NOT truncate if it exists, (3) Must allow both reading and writing, (4) Must start writing at the end of the file, (5) Must start reading at the beginning of the file. If impossible, explain why and propose the minimal two-mode workaround.",
+     "a": "Impossible with a single mode. 'a+' satisfies (1), (2), (3), (4) but fails (5) — it starts reading at the end too (pointer at end). No standard mode starts reading at beginning and writing at end simultaneously because the file pointer is shared. Workaround: Open twice — first `f_read = open('file.txt', 'r')` for reading from start, then `f_write = open('file.txt', 'a')` for appending. Or open once in 'a+', then `f.seek(0)` before reading. A poor answer (proposing a non-existent mode like 'ra+' or claiming 'a+' works) reveals the student doesn't grasp that a file has one pointer shared by read/write operations — a fundamental OS concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_007",
+   "title": "c12_cs_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the time complexity of `dequeue` operation when a queue is implemented using a Python list with `pop(0)`, and why?",
+     "a": "The time complexity is O(n) where n is the number of elements in the queue. `pop(0)` removes the first element and must shift all remaining n-1 elements one position to the left to fill the gap, which takes time proportional to n. A wrong answer of O(1) reveals the student thinks list deletion at index 0 is constant time, ignoring the internal shifting mechanism of dynamic arrays.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `queue.pop()` for dequeue instead of `queue.pop(0)`. What logical error does this introduce, and which principle of queue is violated?",
+     "a": "Using `pop()` removes the last element (rear) instead of the first element (front), violating the FIFO (First-In-First-Out) principle — the queue behaves like a stack (LIFO). A wrong answer that says \"it still works\" shows the student confuses queue and stack operations and does not understand that the order of removal defines the data structure.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following sequence of operations on an initially empty queue implemented with a list: `enqueue(10)`, `enqueue(20)`, `dequeue()`, `enqueue(30)`, `dequeue()`, `dequeue()`, `dequeue()`. What is the output of each `dequeue` and what error occurs on the last operation?",
+     "a": "Outputs: first `dequeue()` returns 10, second returns 20, third returns 30. The fourth `dequeue()` raises an `IndexError: pop from empty list` (underflow). A student who answers \"None\" or \"0\" for the last dequeue does not understand that Python lists raise an exception on `pop(0)` from an empty list; proper implementation must check `is_empty()` first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory layout and mutability effects when a queue is implemented with a Python list versus a linked list (conceptually). How does the list's dynamic array nature affect performance during repeated enqueue/dequeue cycles?",
+     "a": "A Python list is a dynamic array: elements are stored contiguously. Repeated `pop(0)` causes O(n) shifts and may trigger occasional reallocation when the underlying array grows/shrinks, leading to memory fragmentation and cache misses. A linked list stores nodes non-contiguously with pointers; enqueue/dequeue at head/tail are O(1) without shifting. A student who says \"both are O(1)\" ignores the array-shifting cost and the difference between logical and physical data organisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following implementation of `front()` method for a list-based queue:\n```python\ndef front(self):\n    return self.items[0] if self.items else None\n```\nIs this correct for all cases? If not, what is the edge case and how should it be handled in a production-quality queue?",
+     "a": "The method returns `None` for an empty queue, which is ambiguous if `None` is a valid data value that could be enqueued. A production queue should raise a custom exception (e.g., `QueueUnderflowError`) or use `Optional` type hint and document the behaviour. A student who says \"it's fine\" misses the semantic ambiguity and the need for explicit error signalling in robust software.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a list-based queue with `pop(0)` would cause a noticeable performance bottleneck in a real-time system (e.g., network packet processing). Propose a drop-in replacement using the standard library and justify why it solves the problem.",
+     "a": "Scenario: A router processes 10,000 packets/second; each packet is enqueued and dequeued once. Using `list.pop(0)` gives O(n) dequeue → ~50 million shifts/second, causing CPU spike and latency. Drop-in replacement: `from collections import deque; q = deque(); q.append(pkt); q.popleft()` — `deque` is a doubly-linked list of blocks, providing O(1) `popleft()` without shifting. A student who suggests \"use `pop()` and reverse the list\" still has O(n) reversal cost and misses the purpose-built `deque`.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

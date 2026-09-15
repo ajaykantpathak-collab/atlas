@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_11_002",
+   "title": "c12_hin_a_cbse_11_002",
+   "questions": [
+    {
+     "q": "Define 'plot' and 'narrative structure' in your own words, and give one example of how they differ in any story you know.",
+     "a": "Plot is the chronological sequence of events (what happens); narrative structure is the author's chosen arrangement of those events (how it's told). Example: In *The God of Small Things*, the plot begins with Sophie Mol's funeral, but the narrative structure jumps between 1969 and 1993. A wrong answer that equates the two (e.g., \"plot is the structure of the story\") reveals the student cannot distinguish *fabula* (story) from *syuzhet* (discourse) — a critical distinction for Class 12 board answers and CUET literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In \"?kM+h osQ iq”ksZ\", the author uses a watch repair scene to frame a philosophical argument about education. Explain why this is a 'frame narrative' and not just a 'setting description'.",
+     "a": "A frame narrative embeds a secondary story (the watchmaker's lecture) within a primary narrative (the narrator's visit), using the inner story to comment on the outer. The watch scene is not mere setting because it carries the *entire thematic argument* — the watch becomes a metaphor for the child's mind. A student who calls it \"setting\" confuses *physical backdrop* with *structural device*; they miss that removing the watch scene collapses the story's argument, whereas changing the room's color would not.",
+     "self_check": true
+    },
+    {
+     "q": "Given these jumbled events from \"ckyd cp x;k\": (A) The boy says \"Yaw\", (B) The teacher asks questions about history/geography, (C) The father and teacher watch the boy struggle, (D) The boy is brought to school, (E) The boy refuses to name his book. Arrange them in correct *plot order* (exposition → resolution) and label each stage.",
+     "a": "Correct order: D (Exposition: boy brought to school), B (Rising Action: teacher tests knowledge), C (Rising Action: adults observe struggle), E (Climax: boy's defiant refusal \"I am a wild tribal\"), A (Falling Action/Resolution: boy says \"Yaw\" and flees). A student who places A before E misses that the single word \"Yaw\" is the *release* of tension after the climax of refusal — they confuse emotional peak with structural climax.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"?kM+h osQ iq”ksZ\" and \"<sys pqu yks\". How does the use of *allegory* in the latter change the relationship between plot events and thematic meaning compared to the *frame narrative* in the former?",
+     "a": "In \"?kM+h osQ iq”ksZ\", the frame creates *distance*: the watchmaker's words are reported, allowing reader skepticism. In \"<sys pqu yks\", allegory creates *equivalence*: each bird part *is* a social class (peasant, soldier, priest, etc.), so plot events (the bird choosing a part) directly map to political choices. The former uses structure to *mediate* meaning; the latter uses structure to *enact* meaning. A student who says \"both use symbols\" misses that allegory *is* the structure — there is no 'literal' plot separate from the symbolic one.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Is the climax of \"<sys pqu yks\" the moment the bird chooses the stomach, or the poet's final couplet (\"cdkSy dchj osQ...\")? Justify with reference to how narrative structure shapes thematic closure.",
+     "a": "The structural climax is the bird's choice — that's the plot's turning point where the allegory's central conflict (which organ rules?) is decided. The couplet is a *coda* (epilogue) that re-frames the allegory as a warning about *present* exploitation (\"vkt dk dcwrj vPNk gS dy osQ eksj ls\"). A student who picks the couplet confuses *thematic emphasis* with *structural climax* — they need to distinguish *plot peak* from *authorial commentary*. This error costs marks in \"analysis of structure\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the ending of \"ckyd cp x;k\" as a *circular narrative* that returns to the opening image (the boy being dragged to school) but with the boy's internal perspective revealed. Write 4-5 sentences in Hindi.",
+     "a": "A strong answer: \"phir vhI dk;ZHkwfe] vhI ckyd] vhI jkspd ykM+] nhikr eSa ugha FkkA eSaus ^yaw* D;ksa dgk] bls dsl D;ksa ugha ldrk\\ vc uqekb'k ds fudky esa eSaus viuh thfor o`{k dk iqdkj ugha] viuh euq\"; dk lq[kk cuk;k FkkA firk vkSj vè;kid abHc u ns[ks] muds ?kM+h esa eSaus viuh rjyrk ns[kh FkhA eSa cp ugha x;k] eSa lq[kk dj x;kA\" — This uses circular structure to reframe the escape as agency. A weak answer just repeats the original ending — revealing the student cannot manipulate structure to shift perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_011",
+   "title": "c12_geo_cbse_12_011",
+   "questions": [
+    {
+     "q": "List three multipurpose benefits of large dams in India as per the National Water Policy framework.",
+     "a": "Correct answer: 1) Irrigation for agriculture (e.g., Bhakra-Nangal irrigates 1.4 million hectares), 2) Hydroelectric power generation (e.g., Tehri Dam produces 1000 MW), 3) Flood control (e.g., Damodar Valley Corporation dams moderate floods in West Bengal). Additional benefits include domestic/industrial water supply and navigation. A wrong answer that lists only \"electricity\" or \"water storage\" reveals the student has not grasped the multipurpose nature emphasized in NCERT and Class 12 board exams. Students often forget flood control and navigation, focusing only on irrigation and power.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why large dams in India disproportionately displace tribal and forest-dwelling communities, citing two structural reasons.",
+     "a": "Correct answer: 1) Dam reservoirs are often located in hilly, forested upper catchments where tribal communities have historically lived (e.g., Narmada valley, Subarnarekha). 2) These communities lack formal land titles (patta) over forest land, making them ineligible for standard compensation packages. A wrong answer that says \"because they live near rivers\" misses the structural issues of land tenure and location of dam sites in resource-rich tribal belts. This misconception leads to oversimplified answers in board exams that ignore the socio-legal dimension of displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Using the map of the Narmada basin (mental or physical), identify the likely submergence zone of the Sardar Sarovar Dam and estimate the number of villages affected if the Full Reservoir Level (FRL) is raised from 121.9 m to 138.68 m. (Hint: contour interval 10 m, approximate area between contours).",
+     "a": "Steps: 1) Locate Sardar Sarovar Dam on the Narmada River in Gujarat. 2) Note FRL increase of 16.78 m. 3) On a topo sheet, trace the 120 m and 140 m contours upstream along the river valley. 4) The area between these contours in the narrow gorge and widening valley indicates submergence zone. 5) Count villages within this zone using settlement symbols. Typical answer: ~245 villages (as per official data) across Madhya Pradesh, Maharashtra, and Gujarat. A wrong answer that only counts villages in Gujarat reveals the student does not understand the inter-state nature of submergence and the upstream-downstream spatial extent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impacts of a Himalayan dam (e.g., Tehri on Bhagirathi) and a Peninsular dam (e.g., Almatti on Krishna) in terms of sedimentation rate, seismic risk, and downstream delta effects.",
+     "a": "Correct answer: Himalayan dam (Tehri): High sedimentation due to young, eroding mountains; high seismic risk (Zone IV-V); traps sediment that would nourish the Ganga delta, increasing coastal erosion. Peninsular dam (Almatti): Lower sedimentation (older, stable Deccan trap); lower seismic risk (Zone II-III); Krishna delta already sediment-starved due to multiple upstream dams, exacerbating saltwater intrusion. A wrong answer that treats both as similar ignores the geomorphic and tectonic differences critical for board exam \"compare and contrast\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The benefits of the Bhakra-Nangal Project outweigh its environmental and social costs.\" Provide a reasoned judgment with three pieces of evidence for each side.",
+     "a": "Judgment: Benefits are significant but costs are substantial and ongoing. Evidence for benefits: 1) Irrigates 1.4 million ha, enabling Green Revolution in Punjab/Haryana. 2) Generates 1325 MW hydropower. 3) Flood control in Sutlej-Beas basin. Evidence for costs: 1) Submerged 16,000 ha of forest and agricultural land. 2) Displaced ~21,000 people (many still awaiting full rehabilitation). 3) Waterlogging and salinity in command area due to intensive irrigation. A wrong answer that is purely one-sided (e.g., \"dams are good for development\") fails the evaluation competency required in CBSE 150-word questions and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rehabilitation framework for a community of 500 tribal families displaced by a proposed dam in Central India, addressing land-for-land, livelihood restoration, and cultural preservation.",
+     "a": "Good answer includes: 1) Land-for-land: Identify cultivable waste land nearby, ensure title deeds in joint names (husband/wife). 2) Livelihood: Skill training for non-farm jobs, support for dairy/poultry, access to forest rights (FRA 2006) for NTFP collection. 3) Cultural: Relocate as a whole village to maintain social cohesion, build community hall and sacred grove, preserve language through local schools. 4) Monitoring: Independent grievance redressal, 10-year handholding. A poor answer that only mentions cash compensation reveals the student does not understand the difference between compensation and rehabilitation — a key distinction in NCERT and Supreme Court guidelines (e.g., Narmada judgment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

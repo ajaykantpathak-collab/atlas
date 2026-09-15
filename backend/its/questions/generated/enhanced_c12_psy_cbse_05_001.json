@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_001",
+   "title": "c12_psy_cbse_05_001",
+   "questions": [
+    {
+     "q": "List the four characteristics of psychotherapy as stated in the NCERT textbook. (REMEMBER level)",
+     "a": "The four characteristics are: (i) systematic application of principles underlying different theories of therapy, (ii) only persons with practical training under expert supervision can practice psychotherapy, (iii) therapeutic situation involves a therapist and client where client is focus of attention, (iv) interaction results in consolidation/formation of therapeutic relationship which is confidential, interpersonal, and dynamic. A wrong answer (e.g., \"therapist gives advice,\" \"client must be mentally ill,\" \"therapy is unstructured\") reveals the student conflates psychotherapy with informal helping or medical treatment, missing the emphasis on systematic theory-based practice, professional training requirement, and the therapeutic relationship as the vehicle of change.",
+     "self_check": true
+    },
+    {
+     "q": "A client tells the therapist: \"I feel worthless because I failed my exam.\" The therapist responds: \"I understand exactly how you feel — I failed my boards too, it was terrible.\" Identify why this response fails to demonstrate empathy as defined in psychotherapy. (UNDERSTAND level)",
+     "a": "The therapist's response demonstrates sympathy (sharing personal experience, feeling pity) not empathy. NCERT defines empathy as \"understanding things from the other person's perspective, i.e., putting oneself in the other person's shoes\" — it requires feeling *like* the client, not feeling *for* the client or sharing one's own story. A wrong answer (e.g., \"therapist showed they care,\" \"therapist validated the feeling\") reveals the student confuses sympathy/intellectual understanding with therapeutic empathy, which is a common error in board exam case-study questions where students must identify the *quality* of the therapeutic response.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul, a Class 12 student, seeks therapy for social anxiety. In the first session, the therapist explains: \"We will meet weekly for 12 sessions. Our goal is to help you attend college events without panic. Everything you share stays confidential unless there's risk of harm. I'm trained in CBT.\" Map each statement to the corresponding component of therapeutic alliance. (APPLY level)",
+     "a": "Mapping: \"Weekly for 12 sessions\" → limited duration (second component of alliance); \"Help you attend college events without panic\" → contractual partnership with specific goals (first component); \"Everything stays confidential unless risk of harm\" → confidentiality (property of therapeutic relationship); \"Trained in CBT\" → therapist qualification (characteristic ii: trained under expert supervision). A wrong answer (e.g., missing the contractual nature, confusing confidentiality with secrecy, not linking training to characteristic ii) reveals inability to operationalize abstract alliance components in a concrete clinical scenario — a skill tested in board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the therapeutic relationship with a close friendship using the NCERT properties: trust, empathy, unconditional positive regard, confidentiality, professional boundaries, and limited duration. Create a 3×2 table (Property | Therapy | Friendship). (ANALYZE level)",
+     "a": "| Property | Therapy | Friendship |\n|---|---|---|\n| Trust | High, structured by contract and ethics | High, based on personal history |\n| Empathy | Professional, perspective-taking without self-disclosure | Mutual, often involves self-disclosure |\n| Unconditional Positive Regard | Guaranteed regardless of client's actions | Conditional on shared values/reciprocity |\n| Confidentiality | Absolute ethical/legal obligation (except harm) | Voluntary, can be broken |\n| Professional Boundaries | Strict (no dual relationships, no social contact) | Fluid (social, emotional, practical overlap) |\n| Duration | Time-limited, goal-directed | Open-ended, evolving |\nA wrong answer (e.g., \"friendship also has unconditional positive regard,\" \"therapy has no boundaries\") reveals failure to analyze the *structural* differences — students often describe therapy as \"paid friendship\" missing that the therapeutic frame (contract, boundaries, time-limit) is what enables the healing properties.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since psychotherapy is just talking, any caring teacher or parent can do it effectively if they read a few psychology books.\" Use NCERT characteristics and ethics to justify your evaluation. (EVALUATE level)",
+     "a": "The statement is false. NCERT characteristic (ii) explicitly states: \"persons who have received practical training under expert supervision can practice psychotherapy, and not everybody. An untrained person may unintentionally cause more harm than any good.\" Characteristic (i) requires systematic application of theoretical principles — not casual conversation. Ethics require informed consent, confidentiality, professional competence, and boundary maintenance — which untrained individuals cannot guarantee. A wrong answer (e.g., \"talking helps, so anyone can do it,\" \"books provide enough knowledge\") reveals the dangerous misconception that psychotherapy = supportive conversation, ignoring the technical, ethical, and structural rigor that distinguishes it — a confusion that appears in board exam assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Therapeutic Contract\" template for a first session with a 16-year-old client presenting with exam anxiety. Include 6 clauses derived from NCERT therapeutic alliance components and ethics. (CREATE level)",
+     "a": "A strong template includes: (1) **Parties & Purpose**: Names, voluntary participation, goal (e.g., \"reduce exam anxiety to attend exams calmly\"). (2) **Structure**: Session frequency (weekly), duration (50 min), estimated number (8–12), review points. (3) **Confidentiality**: Limits (harm to self/others, legal mandate), note-taking/storage. (4) **Therapist Role**: Trained in [approach], uses evidence-based techniques, maintains boundaries (no social contact). (5) **Client Role**: Active participation, homework between sessions, honest feedback. (6) **Termination**: Either party can end with notice; planned termination when goals met; referral options. A poor answer (vague clauses, missing confidentiality limits, no termination clause, no mention of therapist training) reveals inability to synthesize alliance components into a practical clinical tool — a skill needed for competitive exam case-formulation questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

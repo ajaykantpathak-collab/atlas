@@ -1,0 +1,551 @@
+# Problem Type Definitions for ISC Class 11 Mathematics
+# Each type: category, difficulty, blooms_level, competency_type, tags, syllabus_nodes
+
+namespace: isc_c11_maths
+version: "1.0"
+
+problem_types:
+
+  # ─── SETS AND FUNCTIONS ────────────────────────────────────────────
+  sets_union_intersection:
+    category: standard
+    difficulty: easy
+    blooms_level: remember
+    competency_type: null
+    tags: [sets, venn-diagram, operations]
+    syllabus_nodes: [1.1, 1.2]
+    marks: 2
+    variables:
+      - type: integer
+        name: n_a
+        range: [5, 15]
+      - type: integer
+        name: n_b
+        range: [5, 15]
+      - type: integer
+        name: n_inter
+        range: [2, 5]
+
+  sets_power_set:
+    category: standard
+    difficulty: easy
+    blooms_level: understand
+    competency_type: null
+    tags: [sets, power-set, subsets]
+    syllabus_nodes: [1.3]
+    marks: 2
+    variables:
+      - type: integer
+        name: n_elements
+        range: [2, 4]
+
+  sets_venn_three:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: data_interpretation
+    tags: [sets, venn-diagram, three-sets, real-world]
+    syllabus_nodes: [1.4]
+    marks: 4
+    variables:
+      - type: integer
+        name: n_a
+        range: [30, 50]
+      - type: integer
+        name: n_b
+        range: [25, 45]
+      - type: integer
+        name: n_c
+        range: [20, 40]
+
+  relation_properties:
+    category: standard
+    difficulty: medium
+    blooms_level: analyze
+    competency_type: null
+    tags: [relations, properties, reflexive, symmetric, transitive]
+    syllabus_nodes: [1.5]
+    marks: 3
+
+  function_basic:
+    category: standard
+    difficulty: easy
+    blooms_level: remember
+    competency_type: null
+    tags: [functions, domain, range]
+    syllabus_nodes: [1.6]
+    marks: 2
+
+  function_type_classification:
+    category: standard
+    difficulty: medium
+    blooms_level: analyze
+    competency_type: null
+    tags: [functions, injective, surjective, bijective]
+    syllabus_nodes: [1.7]
+    marks: 3
+
+  function_composition:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [functions, composition, fog, gof]
+    syllabus_nodes: [1.8]
+    marks: 3
+
+  trig_identity_proof:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [trigonometry, identities, proof]
+    syllabus_nodes: [1.9]
+    marks: 3
+
+  trig_identity_three_angles:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: real_world_scenario
+    tags: [trigonometry, identities, three-angles, geometry]
+    syllabus_nodes: [1.10]
+    marks: 4
+
+  trig_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [trigonometry, equation, principal-value]
+    syllabus_nodes: [1.11]
+    marks: 3
+
+  inverse_trig_simplify:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [trigonometry, inverse, simplification]
+    syllabus_nodes: [1.12]
+    marks: 3
+
+  # ─── ALGEBRA ───────────────────────────────────────────────────────
+  complex_modulus_argument:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [complex-numbers, modulus, argument, polar]
+    syllabus_nodes: [2.1]
+    marks: 3
+
+  complex_polar_form:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [complex-numbers, polar, de-moivre]
+    syllabus_nodes: [2.2]
+    marks: 3
+
+  complex_equation:
+    category: competency
+    difficulty: hard
+    blooms_level: analyze
+    competency_type: multi_step_reasoning
+    tags: [complex-numbers, equation, simultaneous]
+    syllabus_nodes: [2.3]
+    marks: 5
+
+  quadratic_discriminant:
+    category: standard
+    difficulty: easy
+    blooms_level: understand
+    competency_type: null
+    tags: [quadratic, discriminant, roots]
+    syllabus_nodes: [2.4]
+    marks: 2
+
+  quadratic_form_equation:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [quadratic, roots, equation-formation]
+    syllabus_nodes: [2.5]
+    marks: 2
+
+  linear_inequality_graph:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [inequalities, number-line, solution-set]
+    syllabus_nodes: [2.6]
+    marks: 2
+
+  permutation_simple:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [permutations, arrangement, factorial]
+    syllabus_nodes: [2.7]
+    marks: 2
+
+  combination_selection:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: real_world_scenario
+    tags: [combinations, selection, team, combinatorics]
+    syllabus_nodes: [2.8]
+    marks: 4
+
+  permutation_repetition:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [permutations, repetition, word-arrangement]
+    syllabus_nodes: [2.9]
+    marks: 3
+
+  circular_permutation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [permutations, circular, arrangement]
+    syllabus_nodes: [2.10]
+    marks: 3
+
+  binomial_coefficient:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [binomial, coefficient, expansion]
+    syllabus_nodes: [2.11]
+    marks: 3
+
+  binomial_middle_term:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [binomial, middle-term, expansion]
+    syllabus_nodes: [2.12]
+    marks: 3
+
+  ap_sum:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [sequences, ap, sum, arithmetic]
+    syllabus_nodes: [2.13]
+    marks: 3
+
+  gp_sum:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [sequences, gp, sum, geometric]
+    syllabus_nodes: [2.14]
+    marks: 3
+
+  ap_word_problem:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: real_world_scenario
+    tags: [sequences, ap, word-problem, penalty]
+    syllabus_nodes: [2.15]
+    marks: 4
+
+  gp_word_problem:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: multi_step_reasoning
+    tags: [sequences, gp, word-problem, instalments]
+    syllabus_nodes: [2.16]
+    marks: 4
+
+  # ─── COORDINATE GEOMETRY ───────────────────────────────────────────
+  line_slope:
+    category: standard
+    difficulty: easy
+    blooms_level: remember
+    competency_type: null
+    tags: [coordinate-geometry, slope, lines]
+    syllabus_nodes: [3.1]
+    marks: 2
+
+  line_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [coordinate-geometry, line-equation, parallel, perpendicular]
+    syllabus_nodes: [3.2]
+    marks: 3
+
+  angle_between_lines:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [coordinate-geometry, angle, slope]
+    syllabus_nodes: [3.3]
+    marks: 3
+
+  line_distance:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [coordinate-geometry, distance, perpendicular]
+    syllabus_nodes: [3.4]
+    marks: 3
+
+  circle_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [conic-sections, circle, equation]
+    syllabus_nodes: [3.5]
+    marks: 3
+
+  parabola_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [conic-sections, parabola, focus, directrix]
+    syllabus_nodes: [3.6]
+    marks: 3
+
+  ellipse_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [conic-sections, ellipse, foci, eccentricity]
+    syllabus_nodes: [3.7]
+    marks: 3
+
+  hyperbola_equation:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [conic-sections, hyperbola, foci, latus-rectum]
+    syllabus_nodes: [3.8]
+    marks: 4
+
+  conic_area_word:
+    category: competency
+    difficulty: hard
+    blooms_level: create
+    competency_type: real_world_scenario
+    tags: [conic-sections, circle, area, integration, land]
+    syllabus_nodes: [3.9]
+    marks: 5
+
+  # ─── CALCULUS ──────────────────────────────────────────────────────
+  limit_rationalization:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [limits, rationalization, 0/0-form]
+    syllabus_nodes: [4.1]
+    marks: 3
+
+  limit_factorization:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [limits, factorization, algebraic]
+    syllabus_nodes: [4.2]
+    marks: 3
+
+  limit_trigonometric:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [limits, trigonometry, sin, standard-limits]
+    syllabus_nodes: [4.3]
+    marks: 3
+
+  derivative_first_principles:
+    category: standard
+    difficulty: medium
+    blooms_level: understand
+    competency_type: null
+    tags: [derivatives, first-principles, definition]
+    syllabus_nodes: [4.4]
+    marks: 3
+
+  derivative_algebraic_rules:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [derivatives, product-rule, sum-rule]
+    syllabus_nodes: [4.5]
+    marks: 2
+
+  continuity_check:
+    category: standard
+    difficulty: medium
+    blooms_level: analyze
+    competency_type: null
+    tags: [continuity, piecewise, LHL, RHL]
+    syllabus_nodes: [4.6]
+    marks: 3
+
+  # ─── STATISTICS ────────────────────────────────────────────────────
+  mean_deviation_ungrouped:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [statistics, mean-deviation, ungrouped]
+    syllabus_nodes: [5.1]
+    marks: 3
+
+  mean_deviation_grouped:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [statistics, mean-deviation, grouped, frequency]
+    syllabus_nodes: [5.2]
+    marks: 4
+
+  variance_sd_ungrouped:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [statistics, variance, standard-deviation]
+    syllabus_nodes: [5.3]
+    marks: 3
+
+  statistics_word_problem:
+    category: competency
+    difficulty: hard
+    blooms_level: analyze
+    competency_type: data_interpretation
+    tags: [statistics, mean-deviation, consistency, real-world]
+    syllabus_nodes: [5.4]
+    marks: 5
+
+  # ─── PROBABILITY ───────────────────────────────────────────────────
+  sample_space_enumerate:
+    category: standard
+    difficulty: easy
+    blooms_level: understand
+    competency_type: null
+    tags: [probability, sample-space, coin, dice]
+    syllabus_nodes: [6.1]
+    marks: 2
+
+  classical_probability:
+    category: standard
+    difficulty: easy
+    blooms_level: apply
+    competency_type: null
+    tags: [probability, classical, favourable]
+    syllabus_nodes: [6.2]
+    marks: 2
+
+  mutually_exclusive:
+    category: standard
+    difficulty: medium
+    blooms_level: understand
+    competency_type: null
+    tags: [probability, mutually-exclusive, addition]
+    syllabus_nodes: [6.3]
+    marks: 3
+
+  independent_events:
+    category: standard
+    difficulty: medium
+    blooms_level: apply
+    competency_type: null
+    tags: [probability, independent, multiplication]
+    syllabus_nodes: [6.4]
+    marks: 3
+
+  conditional_probability:
+    category: competency
+    difficulty: medium
+    blooms_level: apply
+    competency_type: multi_step_reasoning
+    tags: [probability, conditional, bayes, cards]
+    syllabus_nodes: [6.5]
+    marks: 4
+
+  probability_word_problem:
+    category: competency
+    difficulty: hard
+    blooms_level: analyze
+    competency_type: case_study
+    tags: [probability, word-problem, probability-axioms]
+    syllabus_nodes: [6.6]
+    marks: 5
+
+  # ─── COMPETENCY-BASED INTEGRATED ───────────────────────────────────
+  system_of_equations_word:
+    category: competency
+    difficulty: hard
+    blooms_level: create
+    competency_type: case_study
+    tags: [algebra, system, linear, word-problem, shopkeeper]
+    syllabus_nodes: [2.17]
+    marks: 5
+
+  mensuration_word:
+    category: competency
+    difficulty: hard
+    blooms_level: create
+    competency_type: real_world_scenario
+    tags: [mensuration, area, cost, field]
+    syllabus_nodes: [2.18]
+    marks: 5
+
+  probability_assertion_reasoning:
+    category: competency
+    difficulty: hard
+    blooms_level: evaluate
+    competency_type: assertion_reasoning
+    tags: [probability, assertion, reasoning]
+    syllabus_nodes: [6.7]
+    marks: 4
+
+  arithmetic_progression_proof:
+    category: competency
+    difficulty: hard
+    blooms_level: create
+    competency_type: proof
+    tags: [sequences, ap, proof, induction]
+    syllabus_nodes: [2.19]
+    marks: 5
+
+  statistics_consistency:
+    category: competency
+    difficulty: hard
+    blooms_level: analyze
+    competency_type: data_interpretation
+    tags: [statistics, consistency, cv, comparison]
+    syllabus_nodes: [5.5]
+    marks: 5

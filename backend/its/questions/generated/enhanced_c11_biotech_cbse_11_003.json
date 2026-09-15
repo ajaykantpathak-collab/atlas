@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_003",
+   "title": "c11_biotech_cbse_11_003",
+   "questions": [
+    {
+     "q": "List the five most commonly used Biopython modules and state one primary function of each.",
+     "a": "Correct answer: (1) Bio.SeqIO — parsing/writing sequence file formats (FASTA, GenBank); (2) Bio.Seq — sequence object with biological methods (transcribe, translate, reverse_complement); (3) Bio.SeqRecord — container for sequence plus metadata (id, description, annotations); (4) Bio.SeqUtils — sequence statistics (GC content, molecular weight); (5) Bio.Entrez — programmatic access to NCBI databases (search, fetch). A wrong answer revealing only module names without functions indicates rote memorization without understanding the module-purpose mapping. If a student lists \"Bio.BLAST\" or \"Bio.PDB\" as top-five, it shows confusion between core workflow modules and specialized modules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a Seq object and a Python string, and why `str(my_seq)` is sometimes necessary when using Biopython.",
+     "a": "Correct answer: A Seq object is a Biopython class that wraps a sequence string and adds biological methods (`.transcribe()`, `.translate()`, `.reverse_complement()`, `.complement()`) and an alphabet attribute (deprecated but historically used). A Python string has none of these methods. `str(my_seq)` is necessary when a function expects a plain string (e.g., writing to a non-Biopython file, using regex with `re` module, or printing without Biopython's formatting). A wrong answer claiming \"Seq is just a string with extra methods\" misses that Seq objects are immutable like strings but have different slicing behavior (returns Seq, not str) and alphabet-aware operations. If a student says \"no difference,\" they will fail when code breaks at `re.search(pattern, seq_obj)` with TypeError.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python script using Biopython that reads a FASTA file \"rice_ests.fasta\", counts sequences with length > 500 bp, calculates their average GC content, and prints both values. Assume the file exists in the current directory.",
+     "a": "Correct answer:\n```python\nfrom Bio import SeqIO\nfrom Bio.SeqUtils import gc_fraction\n\ncount = 0\ngc_sum = 0.0\nfor record in SeqIO.parse(\"rice_ests.fasta\", \"fasta\"):\n    if len(record.seq) > 500:\n        count += 1\n        gc_sum += gc_fraction(record.seq)\nif count > 0:\n    avg_gc = gc_sum / count * 100\n    print(f\"Sequences > 500 bp: {count}\")\n    print(f\"Average GC%: {avg_gc:.2f}\")\nelse:\n    print(\"No sequences > 500 bp found\")\n```\nSteps: (1) Import modules; (2) Initialize accumulators; (3) Iterate using `SeqIO.parse()` which returns an iterator (memory-efficient); (4) Check length via `len(record.seq)`; (5) Compute GC fraction (returns 0.0-1.0) and accumulate; (6) Calculate average and print with formatting. A wrong answer using `list(SeqIO.parse(...))` loads all records into memory — dangerous for large files. Using `record.seq.gc()` (non-existent method) shows confusion with old Biopython API. Forgetting `gc_fraction` returns fraction not percentage gives 100x smaller values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast parsing a GenBank file with `SeqIO.parse()` versus manually splitting lines by \"//\" delimiter. Discuss memory usage, annotation access, and error handling.",
+     "a": "Correct answer: `SeqIO.parse(\"file.gb\", \"genbank\")` returns an iterator yielding SeqRecord objects with structured attributes: `record.annotations` (dict of topology, molecule_type, taxonomy list), `record.features` (list of SeqFeature objects with location, type, qualifiers), `record.dbxrefs` (database cross-references). Manual splitting by \"//\" treats the file as flat text, requiring custom regex to extract CDS coordinates, gene names, or translation tables — error-prone for multi-exon genes or joined features. Memory: iterator processes one record at a time (O(1) memory); manual split often loads entire file (O(n)). Error handling: Biopython raises informative `ValueError` for malformed records; manual code fails silently or with cryptic index errors. A wrong answer claiming \"both are equivalent for simple tasks\" ignores that GenBank's nested feature structure (e.g., `join(100..200,300..400)`) cannot be reliably parsed with string splitting.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this script to download 10,000 nucleotide sequences from NCBI using Entrez. Identify three critical flaws and explain the consequences:\n```python\nfrom Bio import Entrez\nEntrez.email = \"student@college.edu\"\nids = [\"NM_001\"] * 10000  # placeholder\nhandle = Entrez.efetch(db=\"nucleotide\", id=ids, rettype=\"fasta\")\nrecords = list(SeqIO.parse(handle, \"fasta\"))\n```",
+     "a": "Correct answer: Flaw 1: No `Entrez.api_key` — without it, NCBI limits to 3 requests/second; 10,000 IDs in one request exceeds URL length limits and will be rejected. Fix: Use `Entrez.api_key = \"your_key\"` and batch IDs in chunks of 200. Flaw 2: `list(SeqIO.parse(...))` loads all 10,000 records into RAM simultaneously — may cause MemoryError. Fix: Process iteratively or write to disk incrementally. Flaw 3: No error handling for network timeouts, invalid IDs, or NCBI throttling (HTTP 429). Fix: Wrap in try/except with retry logic and `time.sleep()`. A wrong answer focusing only on \"missing import SeqIO\" misses the architectural flaws that cause real-world failures. If a student says \"it works fine for small datasets,\" they don't understand scalability constraints in bioinformatics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Biopython workflow to identify all open reading frames (ORFs) longer than 300 codons in a bacterial genome FASTA file, considering all six reading frames, and output a GFF3 file with ORF coordinates. Outline the modules, key functions, and data structures you would use.",
+     "a": "Expected answer criteria: (1) Use `SeqIO.parse()` to iterate genome contigs; (2) For each contig, get `seq` (forward) and `seq.reverse_complement()` (reverse); (3) Use `seq[frame:].translate(table=11, to_stop=False)` for each frame 0,1,2 to get protein strings with '*' for stop codons; (4) Split protein string by '*' to get ORFs; (5) Map protein coordinates back to nucleotide coordinates: `nt_start = frame + aa_start*3`, `nt_end = frame + (aa_end+1)*3` (adjust for reverse strand); (6) Filter ORFs where `(nt_end - nt_start) >= 900`; (7) Create `SeqFeature` with `FeatureLocation` and type=\"CDS\"; (8) Build `SeqRecord` for each contig with features list; (9) Write GFF3 using `SeqIO.write(records, \"orfs.gff\", \"gff\")` or `BCF.GFF.write()`. Key modules: `Bio.SeqIO`, `Bio.Seq`, `Bio.SeqRecord`, `Bio.SeqFeature`, `Bio.Data.CodonTable`. A poor answer using regex on nucleotide sequence (`ATG(?:...)*?TAA|TAG|TGA`) fails to handle alternative start codons (GTG, TTG in bacteria), overlapping ORFs, and coordinate mapping to GFF3 format. It also ignores memory efficiency for multi-megabase genomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

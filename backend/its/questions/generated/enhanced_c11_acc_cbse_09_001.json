@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_001",
+   "title": "c11_acc_cbse_09_001",
+   "questions": [
+    {
+     "q": "What is the fundamental accounting concept that creates the need for adjustments in financial statements, and how does it differ from the cash basis?",
+     "a": "The accrual concept requires revenues to be recognised when earned and expenses when incurred, regardless of cash flow. The cash basis recognises them only when cash is received/paid. A wrong answer (e.g., \"matching concept\" or \"going concern\") reveals the student confuses the *reason* for adjustments (accrual) with other concepts. The matching concept *applies* accrual but doesn't *cause* the need — accrual does.",
+     "self_check": true
+    },
+    {
+     "q": "A business pays ₹24,000 on October 1, 2023 for a one-year rent agreement. The accounting year ends March 31, 2024. Explain why the full ₹24,000 cannot be debited to Rent Expense in the 2023–24 Profit & Loss Account.",
+     "a": "Only 6 months (Oct–Mar) relate to the current year; the remaining 6 months (Apr–Sep 2024) benefit the next period. Debiting the full amount violates the accrual concept — it overstates current year expense and understates next year's. A student who says \"it's a prepaid expense so we adjust\" without explaining the *period mismatch* shows rote memorisation, not understanding of *why* the split exists.",
+     "self_check": true
+    },
+    {
+     "q": "Salaries for March 2024 (₹15,000) are paid on April 5, 2024. The Trial Balance shows Salaries ₹1,80,000 (for April 2023–Feb 2024). Show the adjustment entry and state the two places this adjustment will appear in the final accounts.",
+     "a": "**Entry:** Salaries A/c Dr. ₹15,000 → Outstanding Salaries A/c ₹15,000.  \n**Two places:** (1) Added to Salaries on debit side of Profit & Loss Account (total ₹1,95,000). (2) Shown as Outstanding Salaries under Current Liabilities in Balance Sheet. A wrong answer that puts it only in P&L or only in Balance Sheet misses the dual effect — the hallmark of every adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (a) Prepaid Insurance and (b) Outstanding Wages. For each, state: (i) Is it an asset or liability? (ii) Does it increase or decrease profit? (iii) Which account is debited in the adjustment entry?",
+     "a": "(a) Prepaid Insurance: Asset; increases profit (reduces expense); Prepaid Insurance A/c Dr.  \n(b) Outstanding Wages: Liability; decreases profit (increases expense); Wages A/c Dr.  \nA student who swaps asset/liability or profit effect confuses \"paid in advance\" (asset — future benefit) with \"unpaid but incurred\" (liability — past obligation). This is the most common classification error.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If we already paid cash for insurance, why create a Prepaid Insurance asset? The money is gone — it's an expense.\" Evaluate this reasoning using the accrual concept.",
+     "a": "The reasoning confuses cash flow with expense recognition. Cash outflow occurred, but the *benefit* spans two periods. The portion benefiting next period is not an expense *of this period* — it's a future economic resource (asset). The accrual concept separates *payment* from *expense*. A student who accepts this flawed reasoning fails to grasp that financial statements measure *period performance*, not cash movement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new adjustment scenario (not from the textbook) involving a business that receives ₹50,000 on March 1, 2024 for a 10-month service contract starting March 1. The year ends March 31, 2024. Identify the adjustment item, the two accounts affected, and the amounts in Profit & Loss and Balance Sheet.",
+     "a": "**Item:** Income Received in Advance (Unearned Income).  \n**Service period:** Mar–Dec 2024 (10 months). **Current year:** 1 month (March).  \n**Adjustment:** Commission Received A/c Dr. ₹45,000 → Commission Received in Advance A/c ₹45,000.  \n**P&L:** Commission Received ₹5,000 (1/10 × ₹50,000).  \n**Balance Sheet:** Commission Received in Advance ₹45,000 (Current Liability).  \nA poor answer calculates 12 months instead of 10, or puts the advance on the asset side — showing they don't apply the \"period belonging\" logic to new contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_002",
+   "title": "c12_chem_cbse_07_002",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the preparation of propan-2-ol from 2-bromopropane using aqueous NaOH. Identify the reaction mechanism (SN1 or SN2) and justify your choice based on the substrate structure.",
+     "a": "CH3CHBrCH3 + NaOH(aq) → CH3CH(OH)CH3 + NaBr. Mechanism: SN1 because 2-bromopropane is a secondary alkyl halide; the carbocation CH3C+HCH3 is relatively stable and the reaction proceeds via carbocation formation in polar protic solvent. A wrong answer (e.g., writing SN2 or using alcoholic KOH) reveals confusion between substitution/elimination conditions and carbocation stability trends.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why acid-catalyzed hydration of propene yields propan-2-ol as the major product, while hydroboration-oxidation of propene yields propan-1-ol as the major product. Use the terms \"carbocation stability\" and \"anti-Markovnikov addition\" in your answer.",
+     "a": "In acid-catalyzed hydration, H+ adds to the less substituted carbon of propene to form the more stable secondary carbocation (CH3C+HCH3), then water attacks giving propan-2-ol (Markovnikov). In hydroboration-oxidation, borane adds with boron attaching to the less hindered terminal carbon; oxidation replaces B with OH, yielding propan-1-ol (anti-Markovnikov). A wrong answer that swaps the products or omits carbocation stability shows misunderstanding of regioselectivity origins.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major alcohol product when 3-methylbut-1-ene undergoes (a) acid-catalyzed hydration and (b) hydroboration-oxidation. Draw the structures and name them.",
+     "a": "(a) Acid-catalyzed hydration: H+ adds to C1 forming secondary carbocation at C2; a hydride shift from C3 yields a more stable tertiary carbocation at C3. Water attacks to give 3-methylbutan-2-ol (major) and some 2-methylbutan-2-ol after rearrangement. (b) Hydroboration-oxidation: boron adds to terminal carbon, oxidation gives 3-methylbutan-1-ol (anti-Markovnikov, no rearrangement). A wrong answer that ignores carbocation rearrangement in (a) or gives Markovnikov product for (b) reveals gaps in mechanism understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reaction conditions and stereochemical outcomes of acid-catalyzed hydration and hydroboration-oxidation for a chiral alkene like (Z)-but-2-ene. Which method gives a racemic mixture and why?",
+     "a": "Acid-catalyzed hydration proceeds via planar carbocation, so water attacks from both faces giving racemic butan-2-ol. Hydroboration-oxidation involves syn addition of H and OH across the double bond; for (Z)-but-2-ene, syn addition yields a meso compound (if applicable) or specific stereoisomers, but not a racemic mixture because the addition is stereospecific. A wrong answer claiming both give racemic mixtures misses the stereospecific syn addition of hydroboration.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prepare tert-butanol from 2-methylpropene using concentrated H2SO4 followed by water. They observe a low yield of tert-butanol and formation of an alkene by-product. Evaluate the likely error and suggest the correct condition.",
+     "a": "Concentrated H2SO4 at high temperature causes elimination (dehydration) to reform the alkene or form di-tert-butyl ether. Correct condition: dilute H2SO4 (or H3PO4) at lower temperature (e.g., 353 K) to favor hydration over elimination. A wrong answer blaming the alkene structure instead of reaction conditions shows inability to distinguish substitution vs elimination competition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of 2-phenylethanol starting from styrene (phenylethene). Specify reagents for each step and explain why your chosen route avoids carbocation rearrangement.",
+     "a": "Step 1: Hydroboration-oxidation of styrene with (BH3)2 then H2O2/NaOH gives 2-phenylethanol directly (anti-Markovnikov, no carbocation). Alternative: acid-catalyzed hydration would give 1-phenylethanol via benzylic carbocation (Markovnikov). The designed route avoids rearrangement because hydroboration does not involve carbocation intermediates. A poor answer using acid hydration shows failure to apply regioselectivity control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

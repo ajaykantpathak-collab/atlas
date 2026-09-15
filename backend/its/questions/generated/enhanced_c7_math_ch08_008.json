@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch08_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch08_008",
+   "title": "c7_math_ch08_008",
+   "questions": [
+    {
+     "q": "If a tailor has a ribbon of length $3\\frac{1}{2}$ metres and cuts it into pieces that are each $\\frac{1}{2}$ metre long, what mathematical operation should be used to find the total number of pieces?",
+     "a": "Division ($3\\frac{1}{2} \\div \\frac{1}{2}$). A wrong answer such as multiplication or subtraction reveals that the student views fractions in word problems solely as keywords rather than visualizing partitioning a total length into equal-sized segments.",
+     "self_check": true
+    },
+    {
+     "q": "A recipe calls for $\\frac{2}{3}$ cup of sugar per batch. Priya has $4$ cups of sugar. Why is the calculation to find the number of batches $4 \\div \\frac{2}{3}$ rather than $\\frac{2}{3} \\div 4$?",
+     "a": "The total available resource ($4$ cups) must be divided by the amount consumed per single batch ($\\frac{2}{3}$ cup), because we are partitioning the total into groups of $\\frac{2}{3}$. Reversing the order shows a fundamental misunderstanding of what the dividend and divisor represent in sharing or grouping situations.",
+     "self_check": true
+    },
+    {
+     "q": "A ribbon of length $7\\frac{1}{2}$ metres is cut into pieces of length $1\\frac{1}{4}$ metres each. How many pieces are obtained?",
+     "a": "First, convert mixed numbers to improper fractions: $7\\frac{1}{2} = \\frac{15}{2}$ and $1\\frac{1}{4} = \\frac{5}{4}$. Next, set up the division: $\\frac{15}{2} \\div \\frac{5}{4}$. Then, multiply by the reciprocal of the divisor: $\\frac{15}{2} \\times \\frac{4}{5}$. Simplify by cross-cancelling: $\\frac{15 \\div 5}{2 \\div 1} \\times \\frac{4 \\div 2}{5 \\div 5} = \\frac{3}{1} \\times \\frac{2}{1} = 6$. Answer: $6$ pieces. A wrong answer like $9$ or $\\frac{75}{8}$ usually stems from multiplying instead of dividing or failing to invert the second fraction correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of dividing a number by a fraction less than $1$ versus dividing the same number by a whole number greater than $1$. What happens to the quotient relative to the original number, and why?",
+     "a": "Dividing by a fraction less than $1$ results in a quotient larger than the original number because you are asking how many small fractional parts fit into the whole, which yields more parts. Conversely, dividing by a number greater than $1$ splits the quantity into fewer, larger shares, making the quotient smaller. A wrong answer indicates confusion between the effects of fraction multiplication and fraction division.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul solved a word problem where $6$ kg of sweets were shared into bags of $\\frac{3}{4}$ kg each. His working was: $6 \\times \\frac{3}{4} = \\frac{18}{4} = 4\\frac{1}{2}$ bags. Is Rahul's solution correct? If not, identify his error.",
+     "a": "Rahul's solution is incorrect. He multiplied instead of dividing; he should have calculated $6 \\div \\frac{3}{4} = 6 \\times \\frac{4}{3} = \\frac{24}{3} = 8$ bags. A wrong answer means the student failed to notice that splitting a total into fractional portions requires division, not multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem about buying fruits or vegetables where the answer requires calculating $5\\frac{1}{4} \\div \\frac{3}{4}$, and state the final answer.",
+     "a": "An acceptable problem: \"A fruit vendor has $5\\frac{1}{4}$ kg of apples and packs them into small bags weighing $\\frac{3}{4}$ kg each. How many bags can he fill?\" Solution: $5\\frac{1}{4} = \\frac{21}{4}$, so $\\frac{21}{4} \\div \\frac{3}{4} = \\frac{21}{4} \\times \\frac{4}{3} = 7$ bags. A poor answer uses incorrect units, improper fraction conversion, or sets up a multiplication instead of a grouping division.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

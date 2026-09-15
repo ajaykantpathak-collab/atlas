@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_001",
+   "title": "c12_cs_cbse_08_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a linear data structure and a non-linear data structure? Give one example of each.",
+     "a": "Linear data structures arrange elements in a sequential order where each element has a unique predecessor and successor (except first and last), e.g., array, stack, queue, linked list. Non-linear data structures arrange elements hierarchically or in a network where an element can be connected to multiple others, e.g., tree, graph. A wrong answer (e.g., \"linear means sorted, non-linear means unsorted\") reveals confusion between logical arrangement and physical ordering; the student is conflating data organization with data values.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"An array is a dynamic data structure because we can add elements to it by writing code like `arr.append(5)` in Python.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. In the context of data structure classification (as per NCERT), an array is a **static** data structure because its size is fixed at compile time / declaration and cannot be changed during runtime in languages like C/C++. Python's `list` is a dynamic array implementation that handles resizing internally, but the abstract data structure \"array\" is static. A wrong answer reveals the student is confusing the high-level language feature (Python list) with the fundamental data structure concept (static vs dynamic memory allocation).",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a system to manage the \"Undo\" functionality in a text editor. Which data structure would you choose and why? Explain the principle it follows.",
+     "a": "A **stack** is the appropriate data structure because the Undo operation must reverse the most recent action first (Last In, First Out – LIFO). Each user action (typing, delete, format) is pushed onto the stack; when Undo is pressed, the top action is popped and reversed. If the student chooses queue (FIFO), they misunderstand the temporal order required — undo must revert the latest change, not the earliest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the memory representation of a static array and a linked list. How does this difference affect insertion at the beginning?",
+     "a": "A static array uses contiguous memory locations; inserting at the beginning requires shifting all existing elements one position right (O(n) time). A linked list uses non-contiguous memory (nodes linked by pointers); inserting at the beginning only requires creating a new node and updating its `next` pointer to the current head (O(1) time). A student who says \"both are O(1)\" ignores the shifting cost in arrays; a student who says \"linked list is always faster\" ignores the extra memory overhead per node and lack of cache locality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A tree is just a special case of a graph.\" Is this true? Justify your answer with reference to the definitions of both data structures.",
+     "a": "Yes, it is true. A graph is a collection of vertices (nodes) and edges connecting them, with no restrictions on cycles or number of parents. A tree is a connected, acyclic graph where each node (except root) has exactly one parent. Thus, every tree is a graph, but not every graph is a tree. A student who says \"no, they are completely different\" fails to recognize the hierarchical relationship in the mathematical definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (not from the textbook) that requires a **queue** data structure. Describe the entities, the operations performed, and why FIFO is essential.",
+     "a": "Example: A hospital emergency room triage system. Patients (entities) are enqueued upon arrival with a priority tag (but within same priority, FIFO). Operations: `enqueue` (new patient arrives), `dequeue` (doctor calls next patient), `peek` (view next patient without removing). FIFO is essential because medical ethics and fairness demand that patients with the same urgency are treated in order of arrival. A poor answer would describe a stack-like scenario (e.g., \"undo button\") or a scenario where priority alone decides (ignoring FIFO within priority).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

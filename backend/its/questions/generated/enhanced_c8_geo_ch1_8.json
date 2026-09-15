@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_8",
+   "title": "c8_geo_ch1_8",
+   "questions": [
+    {
+     "q": "State the primary difference between resource extraction and resource over-exploitation.",
+     "a": "Resource extraction is the simple physical removal of resources for human use, whereas over-exploitation occurs when resources are extracted faster than their natural rate of recovery or recharge. A wrong answer (e.g., stating they are the same, or focusing only on pollution) reveals that the student fails to understand the temporal/rate aspect of resource consumption versus natural renewal.",
+     "self_check": true
+    },
+    {
+     "q": "Why does over-clearing forests in mountainous regions like the Western Ghats lead to severe flooding in the lowlands during the monsoon?",
+     "a": "Forest canopies and root systems act as natural sponges that slow down rainwater velocity and facilitate infiltration into the soil. Without vegetation, heavy monsoon rain runs off rapidly along the bare surface, causing immediate flash floods in downstream valleys. A wrong answer (e.g., claiming that cutting trees physically makes more rain fall) reveals the misconception that forests directly produce water bodies, rather than acting as a regulator of the hydrological cycle and soil stability.",
+     "self_check": true
+    },
+    {
+     "q": "A district in Rajasthan has an annual groundwater recharge rate of 120 million cubic meters (mcm). The agricultural sector pumps out 150 mcm annually, while domestic use requires 20 mcm. Calculate the annual groundwater deficit and predict the long-term physical impact on the local aquifer.",
+     "a": "1. Total annual extraction = 150 mcm (agriculture) + 20 mcm (domestic) = 170 mcm.\n2. Annual recharge = 120 mcm.\n3. Balance = Recharge - Extraction = 120 mcm - 170 mcm = -50 mcm (deficit).\n4. Long-term impact: The water table will drop systematically, shallow wells will dry up, and the aquifer may suffer from compaction or salinity ingress.\nA wrong answer (e.g., just subtracting agricultural use or getting a positive balance) shows the student does not account for all resource drains or fails to connect a negative balance with the physical sinking of the water table.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical consequences of over-exploiting groundwater in the alluvial plains of Punjab with over-exploiting groundwater in the hard-rock Peninsular Plateau of Maharashtra.",
+     "a": "In the deep, sandy alluvial aquifers of Punjab, over-exploitation leads to a steady, deep drop in the water table over a large area, requiring deeper tube wells and causing soil salinization. In contrast, the crystalline hard-rock aquifers of the Deccan Plateau in Maharashtra have very low storage capacity; over-exploitation here leads to rapid, localized seasonal drying of wells, causing acute water distress immediately when rains fail. A wrong answer focusing only on crop types reveals that the student cannot relate sub-surface geological structures (alluvium vs. hard rock, learned in Class 7) to how resources respond to stress.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes to solve a drinking water crisis by digging deeper borewells (up to 1000 feet) across a drought-prone basaltic region. Evaluate the long-term environmental sustainability of this solution.",
+     "a": "This solution is unsustainable. Basalt hard-rock aquifers hold ancient, limited water (fossil water) in fractures with extremely slow recharge rates. Digging deeper merely mines this non-renewable water, eventually dry-locking the deep aquifer, while potentially releasing harmful deep-earth minerals like fluoride or arsenic into the drinking supply. A wrong answer praising the plan for \"finding more water\" shows that the student evaluates solutions based on short-term access rather than long-term geological limits and aquifer recovery dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a 3-step community-level land management plan for a hilly village in Uttarakhand facing severe soil erosion due to overgrazing and deforestation.",
+     "a": "A successful plan should include:\n1. Rotational Grazing and Fencing: Divide village pastures into zones, allowing vegetation in resting zones to regenerate roots that bind the soil.\n2. Afforestation with Native Broad-leaved Species: Plant trees like Oak (Banj) which restore soil moisture and reduce runoff velocity compared to commercial pine.\n3. Contour Trenching and Bunding: Dig shallow trenches along slope contours to trap escaping topsoil and rainwater, enhancing local soil moisture.\nA poor answer that simply suggests \"banning all farming\" or \"building concrete walls\" shows a failure to integrate human livelihoods with ecological restoration techniques appropriate for mountain geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

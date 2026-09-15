@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_010",
+   "title": "c12_chem_cbse_09_010",
+   "questions": [
+    {
+     "q": "What is the general structural formula of an azo dye formed from coupling of benzenediazonium chloride with phenol, and at which position of phenol does the coupling occur under standard conditions?",
+     "a": "The product is p-hydroxyazobenzene (HOC₆H₄–N=N–C₆H₅) with coupling at the para position of phenol. A wrong answer (e.g., ortho product or meta coupling) reveals the student does not understand that –OH is an ortho/para director and para is favoured due to less steric hindrance; meta coupling would indicate confusion about resonance donation from –OH.",
+     "self_check": true
+    },
+    {
+     "q": "Why does coupling of benzenediazonium chloride with phenol require mildly alkaline conditions (NaOH), whereas coupling with aniline requires mildly acidic conditions (HCl)?",
+     "a": "Phenol (pKa ~10) is deprotonated to phenoxide (–O⁻) in mild alkali, which is more strongly activating (greater electron density at ortho/para) than neutral phenol. Aniline (pKb ~9.4) is protonated to anilinium (–NH₃⁺) in strong acid, which is deactivating; mild acid keeps aniline mostly neutral (–NH₂) while providing H⁺ for diazotisation equilibrium. A wrong answer (e.g., \"both need acid\") shows the student confuses diazotisation conditions with coupling conditions and misses the acid-base equilibrium of the coupling partner.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major product when benzenediazonium chloride couples with p-cresol (4-methylphenol). Draw the structure and name the compound.",
+     "a": "The para position of p-cresol is blocked by –CH₃, so coupling occurs at the ortho position relative to –OH (position 2). Product: 2-hydroxy-5-methylazobenzene (or 4-methyl-2-hydroxyazobenzene). Structure: CH₃ at C-4, OH at C-1, –N=N–C₆H₅ at C-2 of the phenol ring. A wrong answer (e.g., para coupling giving a disubstituted carbon) reveals the student does not apply the \"para blocked → ortho\" rule and ignores steric blocking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coupling reactivity of benzenediazonium chloride with phenol vs. nitrobenzene. Explain using resonance structures why nitrobenzene does not undergo coupling.",
+     "a": "Phenol couples readily; nitrobenzene does not couple. Phenol's –OH donates electron density via resonance (+M effect), placing high electron density at ortho/para positions (three resonance forms show negative charge at ortho/para). Nitrobenzene's –NO₂ withdraws electron density via resonance (–M effect), placing positive charge at ortho/para positions (resonance forms show positive charge at ortho/para), making these positions electron-deficient and unreactive toward the electrophilic diazonium ion. A wrong answer (e.g., \"nitrobenzene couples at meta\") shows the student misunderstands that coupling is electrophilic aromatic substitution requiring an electron-rich ring, not a deactivated one.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the coupling reaction of benzenediazonium chloride with aniline as: C₆H₅N₂⁺Cl⁻ + C₆H₅NH₂ → C₆H₅–N=N–C₆H₄–NH₂ (para) + HCl. Identify the error in the stoichiometry and correct the equation.",
+     "a": "The equation is unbalanced for hydrogen and charge. Correct equation: C₆H₅N₂⁺Cl⁻ + C₆H₅NH₂ → p-H₂NC₆H₄–N=N–C₆H₅ + H⁺ (or + HCl if Cl⁻ is spectator). The diazonium ion is Ar–N₂⁺; coupling eliminates H⁺ from the aromatic ring (electrophilic aromatic substitution mechanism). The student wrote HCl as product but forgot that the H comes from the ring carbon, not from –NH₂. A wrong answer (e.g., \"it's balanced\") reveals the student treats it as a simple combination reaction instead of electrophilic substitution where Ar–H + E⁺ → Ar–E + H⁺.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of 4-aminoazobenzene (p-aminoazobenzene) starting from nitrobenzene. Write all reagents, conditions, and intermediate structures.",
+     "a": "Step 1: Nitrobenzene → Aniline via reduction (Sn/HCl or Fe/HCl or H₂/Pd). Step 2: Aniline → Benzenediazonium chloride (NaNO₂/HCl, 273–278 K). Step 3: Coupling with aniline (excess aniline in mild acid, 273–278 K) → p-aminoazobenzene. Overall: C₆H₅NO₂ → C₆H₅NH₂ → C₆H₅N₂⁺Cl⁻ → p-H₂NC₆H₄–N=N–C₆H₅. A poor answer (e.g., direct coupling of nitrobenzene) reveals the student does not know that nitrobenzene is too deactivated for coupling and that diazonium salt must be prepared from aniline first.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

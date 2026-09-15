@@ -1,0 +1,522 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 2,
+ "chapter_title": "Money and Banking",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\ClassXII_2019-20_Economics_SQP.txt",
+ "concepts": [
+  {
+   "id": "c12eco.2.1",
+   "title": "Meaning and Functions of Money",
+   "section": "Introduction",
+   "definition": "Money is anything that is generally accepted as a medium of exchange, a store of value, a unit of account and a standard of deferred payment.",
+   "formula": "",
+   "key_idea": "Money removes the inefficiencies of barter by serving as a common medium of exchange.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Meaning and Functions of Money and explain its components.",
+    "Distinguish between related terms in Introduction.",
+    "Compute Meaning and Functions of Money given numerical data.",
+    "Explain the significance of Meaning and Functions of Money in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Meaning and Functions of Money."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define money",
+     "explain": "Money is a generally acceptable medium of exchange."
+    },
+    {
+     "step": 2,
+     "action": "List primary functions",
+     "explain": "Medium of exchange and measure of value."
+    },
+    {
+     "step": 3,
+     "action": "List secondary functions",
+     "explain": "Store of value and standard of deferred payment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the four functions of money.",
+     "solution": "Medium of exchange, unit of account, store of value and standard of deferred payment.",
+     "answer": "Money performs four key functions."
+    },
+    {
+     "question": "How does money solve the problem of double coincidence of wants?",
+     "solution": "By acting as a universally accepted medium, money eliminates the need for direct barter.",
+     "answer": "Money removes double coincidence of wants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define money and list its primary functions.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how money acts as a store of value.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.2",
+   "title": "Types of Money",
+   "section": "Forms of Money",
+   "definition": "Money can be classified as commodity money, metallic money, paper money, bank money (deposits), fiduciary money and credit money.",
+   "formula": "",
+   "key_idea": "Modern economies use a mix of fiat paper money, coins and bank-deposit money.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Types of Money and explain its components.",
+    "Distinguish between related terms in Forms of Money.",
+    "Compute Types of Money given numerical data.",
+    "Explain the significance of Types of Money in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Types of Money."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify commodity money",
+     "explain": "Money whose value equals the commodity it is made of."
+    },
+    {
+     "step": 2,
+     "action": "Identify fiat money",
+     "explain": "Money declared legal tender by government decree."
+    },
+    {
+     "step": 3,
+     "action": "Identify bank money",
+     "explain": "Demand deposits withdrawable by cheque are bank money."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between commodity money and fiat money.",
+     "solution": "Commodity money has intrinsic value; fiat money has value by legal decree.",
+     "answer": "Commodity money is backed by the commodity; fiat money by law."
+    },
+    {
+     "question": "Give an example of bank money.",
+     "solution": "Demand deposits that can be withdrawn by cheque.",
+     "answer": "Bank money = demand deposits."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the different types of money with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the concept of legal tender money.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.3",
+   "title": "Money Supply: M1, M2, M3, M4",
+   "section": "Money Supply",
+   "definition": "Money supply is the total stock of money circulating in the economy, measured by RBI in four measures: M1, M2, M3 and M4.",
+   "formula": "M1 = Currency + Demand Deposits + Other Deposits with RBI",
+   "key_idea": "M1 is the narrowest and most liquid measure; M4 is the broadest and least liquid.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Money Supply: M1, M2, M3, M4 and explain its components.",
+    "Distinguish between related terms in Money Supply.",
+    "Compute Money Supply: M1, M2, M3, M4 given numerical data.",
+    "Explain the significance of Money Supply: M1, M2, M3, M4 in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Money Supply: M1, M2, M3, M4."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify currency and demand deposits",
+     "explain": "Sum currency held by the public and demand deposits.",
+     "compute": "M1 = C + DD + OD"
+    },
+    {
+     "step": 2,
+     "action": "Add post office savings for M2",
+     "explain": "M2 = M1 + savings deposits with post office.",
+     "compute": "M2 = M1 + Post office savings"
+    },
+    {
+     "step": 3,
+     "action": "Add time deposits for M3 and post office deposits for M4",
+     "explain": "M3 = M1 + time deposits; M4 = M3 + all post office deposits.",
+     "compute": "M3 = M1 + TD; M4 = M3 + Post office deposits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Currency = Rs 1,000, demand deposits = Rs 2,000, other deposits with RBI = Rs 50. Find M1.",
+     "solution": "M1 = 1000 + 2000 + 50 = 3050.",
+     "answer": "M1 = Rs 3,050 crore"
+    },
+    {
+     "question": "If M1 = Rs 5,000 and time deposits = Rs 3,000, find M3.",
+     "solution": "M3 = M1 + TD = 5000 + 3000 = 8000.",
+     "answer": "M3 = Rs 8,000 crore"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define money supply and list its four measures.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute M1: currency 2000, demand deposits 4000, other deposits 100.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.4",
+   "title": "Functions of the Central Bank (RBI)",
+   "section": "Central Banking",
+   "definition": "The Reserve Bank of India is the apex monetary authority that issues currency, acts as banker to the government and banks, controls credit and manages foreign exchange.",
+   "formula": "",
+   "key_idea": "The central bank regulates the banking system and formulates monetary policy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Functions of the Central Bank (RBI) and explain its components.",
+    "Distinguish between related terms in Central Banking.",
+    "Compute Functions of the Central Bank (RBI) given numerical data.",
+    "Explain the significance of Functions of the Central Bank (RBI) in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Functions of the Central Bank (RBI)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify issue function",
+     "explain": "RBI has the sole right to issue currency notes."
+    },
+    {
+     "step": 2,
+     "action": "Identify banker functions",
+     "explain": "RBI acts as banker to the government and as lender of last resort to banks."
+    },
+    {
+     "step": 3,
+     "action": "Identify regulatory function",
+     "explain": "RBI controls money supply and credit through monetary policy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the role of RBI as lender of last resort.",
+     "solution": "When commercial banks cannot meet their requirements, RBI provides funds to prevent failure.",
+     "answer": "RBI supports banks in liquidity crises."
+    },
+    {
+     "question": "Why is RBI called the banker to the government?",
+     "solution": "It manages government accounts, issues loans and manages public debt.",
+     "answer": "RBI handles government banking and debt management."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any four functions of the Reserve Bank of India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of RBI as the controller of credit.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.5",
+   "title": "Monetary Policy",
+   "section": "Central Banking",
+   "definition": "Monetary policy is the policy through which the central bank regulates money supply and credit to achieve price stability and growth.",
+   "formula": "",
+   "key_idea": "Monetary policy uses quantitative and qualitative instruments to influence credit availability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Monetary Policy and explain its components.",
+    "Distinguish between related terms in Central Banking.",
+    "Compute Monetary Policy given numerical data.",
+    "Explain the significance of Monetary Policy in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Monetary Policy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define monetary policy",
+     "explain": "Policy regulating money supply and interest rates."
+    },
+    {
+     "step": 2,
+     "action": "Identify objectives",
+     "explain": "Price stability, growth, exchange stability and employment."
+    },
+    {
+     "step": 3,
+     "action": "Classify instruments",
+     "explain": "Quantitative (bank rate, CRR, SLR, open market operations) and qualitative (margin, moral suasion)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between quantitative and qualitative instruments of monetary policy.",
+     "solution": "Quantitative tools affect total credit volume; qualitative tools direct credit to specific sectors.",
+     "answer": "Quantitative affects volume; qualitative affects direction of credit."
+    },
+    {
+     "question": "What is the primary objective of monetary policy in India?",
+     "solution": "To control inflation and support economic growth.",
+     "answer": "Price stability with growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define monetary policy and state its main objectives.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain any two quantitative instruments of monetary policy.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.6",
+   "title": "Functions of Commercial Banks",
+   "section": "Commercial Banking",
+   "definition": "Commercial banks accept deposits, grant loans and advances, and provide agency and general utility services.",
+   "formula": "",
+   "key_idea": "Commercial banks mobilise savings and channel them into productive investment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Functions of Commercial Banks and explain its components.",
+    "Distinguish between related terms in Commercial Banking.",
+    "Compute Functions of Commercial Banks given numerical data.",
+    "Explain the significance of Functions of Commercial Banks in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Functions of Commercial Banks."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify primary functions",
+     "explain": "Accepting deposits and lending loans."
+    },
+    {
+     "step": 2,
+     "action": "Identify secondary functions",
+     "explain": "Agency services like collection of cheques and utility services like lockers."
+    },
+    {
+     "step": 3,
+     "action": "Summarise role",
+     "explain": "Banks bridge savers and investors in the economy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List the primary functions of a commercial bank.",
+     "solution": "Accepting demand and time deposits and granting loans and advances.",
+     "answer": "Deposits and loans are primary functions."
+    },
+    {
+     "question": "Give two agency functions of a commercial bank.",
+     "solution": "Collection of cheques and bills, and payment of insurance premiums on behalf of customers.",
+     "answer": "Agency services are performed on behalf of customers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the primary functions of commercial banks.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two general utility services of commercial banks.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.7",
+   "title": "Credit Creation by Commercial Banks",
+   "section": "Commercial Banking",
+   "definition": "Credit creation is the process by which banks create deposits many times the initial deposit through the fractional reserve system.",
+   "formula": "Credit multiplier = 1 / LRR; Total credit = Initial deposit x multiplier",
+   "key_idea": "Banks keep a fraction of deposits as reserves and lend the rest, multiplying total credit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Credit Creation by Commercial Banks and explain its components.",
+    "Distinguish between related terms in Commercial Banking.",
+    "Compute Credit Creation by Commercial Banks given numerical data.",
+    "Explain the significance of Credit Creation by Commercial Banks in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Credit Creation by Commercial Banks."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify initial deposit",
+     "explain": "The primary deposit received by the bank.",
+     "compute": "Initial deposit = D"
+    },
+    {
+     "step": 2,
+     "action": "Identify legal reserve ratio",
+     "explain": "LRR is the fraction of deposits banks must keep as reserves.",
+     "compute": "LRR = CRR + SLR"
+    },
+    {
+     "step": 3,
+     "action": "Compute total credit",
+     "explain": "Multiply initial deposit by the credit multiplier.",
+     "compute": "Total credit = D x (1 / LRR)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Initial deposit = Rs 1,000, LRR = 10%. Find total credit created.",
+     "solution": "Multiplier = 1 / 0.10 = 10; total credit = 1000 x 10 = 10,000.",
+     "answer": "Total credit = Rs 10,000"
+    },
+    {
+     "question": "If LRR = 20% and initial deposit = Rs 2,000, find the credit multiplier and total credit.",
+     "solution": "Multiplier = 1 / 0.20 = 5; total credit = 2000 x 5 = 10,000.",
+     "answer": "Multiplier = 5; total credit = Rs 10,000"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the process of credit creation by commercial banks.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Compute total credit: initial deposit 5000, LRR 25%.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.8",
+   "title": "Instruments of Monetary Policy",
+   "section": "Central Banking",
+   "definition": "Instruments of monetary policy are the tools used by RBI to control money supply and credit: bank rate, repo rate, reverse repo rate, CRR, SLR and open market operations.",
+   "formula": "",
+   "key_idea": "Quantitative instruments influence overall credit; qualitative instruments guide its direction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Instruments of Monetary Policy and explain its components.",
+    "Distinguish between related terms in Central Banking.",
+    "Compute Instruments of Monetary Policy given numerical data.",
+    "Explain the significance of Instruments of Monetary Policy in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Instruments of Monetary Policy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List quantitative instruments",
+     "explain": "Bank rate, repo rate, reverse repo rate, CRR, SLR and open market operations."
+    },
+    {
+     "step": 2,
+     "action": "List qualitative instruments",
+     "explain": "Margin requirements, moral suasion and direct action."
+    },
+    {
+     "step": 3,
+     "action": "Explain impact",
+     "explain": "Tightening reduces credit; easing expands credit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain how an increase in the bank rate affects credit.",
+     "solution": "Higher bank rate raises lending rates, reducing borrowing and credit.",
+     "answer": "Credit contracts when the bank rate rises."
+    },
+    {
+     "question": "What are open market operations?",
+     "solution": "Buying and selling of government securities by RBI to control money supply.",
+     "answer": "OMO regulates money supply via securities trading."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define bank rate and repo rate.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain open market operations and their effect on money supply.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.2.9",
+   "title": "Banking System in India",
+   "section": "Banking System",
+   "definition": "The Indian banking system comprises the RBI, commercial banks (public, private, foreign) and cooperative banks, supported by recent reforms and digital banking initiatives.",
+   "formula": "",
+   "key_idea": "India's banking structure is a three-tier system led by the RBI.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Banking System in India and explain its components.",
+    "Distinguish between related terms in Banking System.",
+    "Compute Banking System in India given numerical data.",
+    "Explain the significance of Banking System in India in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Banking System in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the apex bank",
+     "explain": "RBI sits at the top of the banking structure."
+    },
+    {
+     "step": 2,
+     "action": "Identify commercial banks",
+     "explain": "Public, private and foreign banks form the second tier."
+    },
+    {
+     "step": 3,
+     "action": "Identify cooperative banks",
+     "explain": "Cooperative banks serve rural and urban local needs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the three-tier structure of the Indian banking system.",
+     "solution": "RBI at the top, commercial banks in the middle, and cooperative banks at the base.",
+     "answer": "Three-tier: RBI, commercial banks, cooperative banks."
+    },
+    {
+     "question": "Name two recent developments in Indian banking.",
+     "solution": "Digital banking and the growth of payment banks and small finance banks.",
+     "answer": "Digital and differentiated banks are recent developments."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Outline the structure of the Indian banking system.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two types of commercial banks in India.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

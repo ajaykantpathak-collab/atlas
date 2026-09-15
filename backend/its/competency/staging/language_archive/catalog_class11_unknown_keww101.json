@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 101,
+  "chapter_title": "The Lament",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww101.1.1",
+      "title": "Iona Potapov's Grief That No One Will Hear",
+      "section": "1",
+      "definition": "Chekhov's story follows Iona Potapov, an old sledge driver whose son has died barely a week ago. Wrapped in snow, he tries three times to tell his fares of his loss, but each passenger -- the officer, the hunchbacked lad, the young cabman -- is too busy, impatient or indifferent to listen.",
+      "formula": "",
+      "key_idea": "Grief doubled by loneliness -- the loss itself, and then the world's refusal to hear it.",
+      "textbook_ref": "keww101.txt story sections (iona potapov sledge driver, son died, fares who will not listen, officer hunchback cabman)",
+      "question_patterns": [
+        "why does iona try to talk about his son's death to his fares",
+        "in class 11 the lament: how do the passengers react to iona's grief",
+        "describe iona potapov's condition at the start of the story",
+        "who were iona's fares in the story and how did each behave",
+        "what makes each listener refuse iona's story",
+        "how does chekhov show the loneliness of the old cabman"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "note the triple attempt", "explain": "Each fare gets the same opening -- 'my son died this week' -- and each meets a wall of indifference."},
+        {"step": 2, "action": "catalogue the refusals", "explain": "The officer is brisk, the hunchback mocking and hurried, the young cabman sleepy -- the city has no time for grief."},
+        {"step": 3, "action": "read the theme", "explain": "Chekhov indicts a society too busy to hear one man's sorrow, making indifference the true tragedy."}
+      ]
+    },
+    {
+      "id": "keww101.1.2",
+      "title": "Confiding in the Horse",
+      "section": "1",
+      "definition": "Rejected by humans, Iona finally tells his whole sorrow to his little mare in the stable -- the horse breathing on his hands as he speaks. The animal's silent, patient listening is the only comfort the story allows, a bitter closing irony about human society.",
+      "formula": "",
+      "key_idea": "The only listener left is a horse -- Chekhov's last word on human indifference.",
+      "textbook_ref": "keww101.txt closing sections (iona tells the horse, mare breathes on hands, quiet stable ending)",
+      "question_patterns": [
+        "to whom does iona finally tell his grief and why",
+        "in class 11 the lament: what is the significance of the ending with the horse",
+        "how does the mare respond to iona's story",
+        "why is the ending of the lament ironic",
+        "what does the horse episode suggest about human society",
+        "compare the horse's listening with the passengers' behaviour"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "follow him to the stable", "explain": "Unable to hold his sorrow, Iona goes to the mare and begins to tell her everything."},
+        {"step": 2, "action": "watch the listening", "explain": "The horse breathes on her master's hands and listens quietly -- more than any human offered."},
+        {"step": 3, "action": "draw the irony", "explain": "An animal out-listens the whole city, sealing the story's judgment on human indifference."}
+      ]
+    },
+    {
+      "id": "keww101.1.3",
+      "title": "Setting and Tone: Snow, Streets and Sorrow",
+      "section": "1",
+      "definition": "The story's setting is a snow-bound evening city -- white sledge, white horse, hunched driver -- where the cold mirrors Iona's inner state. Chekhov's tone stays quiet and unmelodramatic, letting small details convey the heaviness of grief and the bustle that ignores it.",
+      "formula": "",
+      "key_idea": "Snow outside, snow inside -- the setting itself performs the old man's desolation.",
+      "textbook_ref": "keww101.txt setting details (snow covered city, white sledge, evening streets, cold imagery through the story)",
+      "question_patterns": [
+        "how does the snowy setting support the mood of the lament",
+        "in class 11 the lament: comment on chekhov's tone in the story",
+        "what is the significance of the whiteness surrounding iona",
+        "how does the busy evening street contrast with iona's stillness",
+        "pick details that mirror iona's inner state",
+        "why is the story called a lament rather than a story of death"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "collect the cold images", "explain": "Snow, sleet, darkness and the motionless white figure build an outer landscape of desolation."},
+        {"step": 2, "action": "link scene to soul", "explain": "The unremitting cold externalises grief that no passenger will warm with a listening ear."},
+        {"step": 3, "action": "note the restraint", "explain": "Chekhov never weeps for his hero; the plainness of the telling is the lament's power."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww101.txt story sections",
+      "concept": "keww101.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Arrange the three fares in the order Iona meets them and state each one's reaction to his grief.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "first the officer", "explain": "The officer hears 'my son died' and answers with mild, hurried politeness before changing the subject."},
+        {"step": 2, "action": "then the three young men", "explain": "The hunchback taunts the old man even as he rides, caring only to reach the destination."},
+        {"step": 3, "action": "last the young cabman", "explain": "Even a fellow cabman, asked about his night, nods off -- every human door is shut."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww101.txt closing sections",
+      "concept": "keww101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Justify the ending of the story with the horse as the most fitting close to Iona's day.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the day's pattern", "explain": "Every human listener has turned away through the whole evening."},
+        {"step": 2, "action": "read the final listener", "explain": "The mare's quiet attention is the day's only mercy -- incomplete, yet real."},
+        {"step": 3, "action": "state the judgment", "explain": "Ending with the horse makes Chekhov's point unforgettable: society's indifference is the deepest cold in the story."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is Iona's grief and how does he try to share it?",
+        "How do the different fares treat the old cabman?",
+        "Comment on the appropriateness of the title 'The Lament'.",
+        "Describe the significance of the horse in the story.",
+        "How does Chekhov portray the indifference of city life?",
+        "Explain how the setting deepens the story's sorrow."
+      ]
+    }
+  ]
+}

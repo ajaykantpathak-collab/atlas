@@ -1,0 +1,1653 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 106,
+ "chapter_title": "Systems of Particles and Rotational Motion",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph106.txt",
+ "concepts": [
+  {
+   "id": "keph.106.6.2.1",
+   "title": "Centre of Mass of a System of Particles",
+   "section": "6.2",
+   "definition": "The point representing the average position of the mass distribution in a system, weighted by the mass of each individual particle.",
+   "formula": "X_cm = (m1*x1 + m2*x2 + m3*x3) / (m1 + m2 + m3)",
+   "key_idea": "Mass-weighted arithmetic mean of particle position coordinates.",
+   "textbook_ref": "keph106.txt lines 95-150",
+   "question_patterns": [
+    "in Class 11 physics: find the centre of mass position for three point masses along an axis",
+    "calculate the centre of mass location for a system of three particles",
+    "determine the x coordinate of centre of mass given masses and positions",
+    "what is the centre of mass of three particles with masses m1, m2, m3 at x1, x2, x3",
+    "evaluate the position of the centre of mass for a discrete particle distribution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total weighted position sum",
+     "explain": "Multiply each mass by its position coordinate and sum them",
+     "compute": "m1 * x1 + m2 * x2 + m3 * x3"
+    },
+    {
+     "step": 2,
+     "action": "compute total mass",
+     "explain": "Add individual particle masses together",
+     "compute": "m1 + m2 + m3"
+    },
+    {
+     "step": 3,
+     "action": "compute centre of mass x coordinate",
+     "explain": "Divide weighted position sum by total mass",
+     "compute": "mx_sum / total_mass"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving centre of mass of a system of particles.",
+     "solution": "Step 1: compute total weighted position sum. Step 2: compute total mass. Step 3: compute centre of mass x coordinate. Working: m1 * x1 + m2 * x2 + m3 * x3, m1 + m2 + m3, mx_sum / total_mass.",
+     "answer": "Centre of Mass of a System of Particles applied step by step gives the required result."
+    },
+    {
+     "question": "Apply centre of mass of a system of particles to a fresh example and interpret the result.",
+     "solution": "Step 1: compute total weighted position sum. Step 2: compute total mass. Step 3: compute centre of mass x coordinate. Working: m1 * x1 + m2 * x2 + m3 * x3, m1 + m2 + m3, mx_sum / total_mass.",
+     "answer": "The method of centre of mass of a system of particles leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.3.1",
+   "title": "Acceleration of Centre of Mass",
+   "section": "6.3",
+   "definition": "The linear acceleration of a system centre of mass is governed solely by the net external force acting on the system.",
+   "formula": "a_cm = f_ext / total_mass",
+   "key_idea": "Centre of mass accelerates as if total mass were concentrated there under net external force.",
+   "textbook_ref": "keph106.txt lines 190-230",
+   "question_patterns": [
+    "in Class 11 physics: calculate the acceleration of the centre of mass for a system",
+    "find the centre of mass acceleration given total external force and total mass",
+    "determine how fast the centre of mass accelerates under a net external force",
+    "what is the acceleration of the centre of mass of a system of particles",
+    "evaluate centre of mass acceleration when external force and system mass are known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate acceleration of centre of mass",
+     "explain": "Divide net external force by total system mass",
+     "compute": "f_ext / total_mass"
+    },
+    {
+     "step": 2,
+     "action": "verify that internal forces cancel out",
+     "explain": "Internal forces between particles occur in action-reaction pairs and do not affect the motion of the centre of mass.",
+     "compute": "0"
+    },
+    {
+     "step": 3,
+     "action": "relate centre of mass acceleration to total linear momentum change",
+     "explain": "The acceleration of the centre of mass equals the time rate of change of total linear momentum divided by total mass.",
+     "compute": "(p_final - p_initial) / (total_mass * delta_t)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving acceleration of centre of mass.",
+     "solution": "Step 1: calculate acceleration of centre of mass. Step 2: verify that internal forces cancel out. Step 3: relate centre of mass acceleration to total linear momentum change. Working: f_ext / total_mass, 0, (p_final - p_initial) / (total_mass * delta_t).",
+     "answer": "Acceleration of Centre of Mass applied step by step gives the required result."
+    },
+    {
+     "question": "Apply acceleration of centre of mass to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate acceleration of centre of mass. Step 2: verify that internal forces cancel out. Step 3: relate centre of mass acceleration to total linear momentum change. Working: f_ext / total_mass, 0, (p_final - p_initial) / (total_mass * delta_t).",
+     "answer": "The method of acceleration of centre of mass leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.4.1",
+   "title": "Linear Momentum of a System of Particles",
+   "section": "6.4",
+   "definition": "The cumulative linear momentum of a multi-particle system equals total mass multiplied by the velocity vector of its centre of mass.",
+   "formula": "p_total = total_mass * v_cm",
+   "key_idea": "Total momentum of a system is equivalent to a single effective particle located at centre of mass.",
+   "textbook_ref": "keph106.txt lines 235-270",
+   "question_patterns": [
+    "in Class 11 physics: calculate the total linear momentum of a system of particles",
+    "find the system linear momentum given total mass and velocity of centre of mass",
+    "determine the linear momentum of an extended system moving with center of mass velocity",
+    "what is the net momentum of a particle system with total mass M and velocity V",
+    "evaluate total linear momentum from system mass and centre of mass speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total linear momentum",
+     "explain": "Multiply total system mass by centre of mass velocity",
+     "compute": "total_mass * v_cm"
+    },
+    {
+     "step": 2,
+     "action": "verify momentum conservation for an isolated system",
+     "explain": "If no net external force acts on the system, total linear momentum remains constant over time.",
+     "compute": "(mass_i * velocity_i)"
+    },
+    {
+     "step": 3,
+     "action": "relate total momentum to net external force",
+     "explain": "The time rate of change of total linear momentum equals the net external force on the system.",
+     "compute": "(p_final - p_initial) / delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving linear momentum of a system of particles.",
+     "solution": "Step 1: calculate total linear momentum. Step 2: verify momentum conservation for an isolated system. Step 3: relate total momentum to net external force. Working: total_mass * v_cm, (mass_i * velocity_i), (p_final - p_initial) / delta_t.",
+     "answer": "Linear Momentum of a System of Particles applied step by step gives the required result."
+    },
+    {
+     "question": "Apply linear momentum of a system of particles to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate total linear momentum. Step 2: verify momentum conservation for an isolated system. Step 3: relate total momentum to net external force. Working: total_mass * v_cm, (mass_i * velocity_i), (p_final - p_initial) / delta_t.",
+     "answer": "The method of linear momentum of a system of particles leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.5.1",
+   "title": "Vector Product and Properties",
+   "section": "6.5",
+   "definition": "A binary vector operation producing a vector normal to the plane of operands with magnitude proportional to the sine of their enclosed angle.",
+   "formula": "c = a * b * sin(theta)",
+   "key_idea": "Cross product generates a perpendicular vector and is anti-commutative.",
+   "textbook_ref": "keph106.txt lines 310-380",
+   "question_patterns": [
+    "in Class 11 physics: verify anti-commutativity of vector cross product",
+    "explain the right hand rule for vector cross product direction",
+    "state the conditions under which vector product of two vectors is zero",
+    "how does a cross product behave under spatial reflection",
+    "show that self cross product of a vector equals zero vector"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify vector components and orientation",
+     "explain": "Check angle between vectors and plane of orientation"
+    },
+    {
+     "step": 2,
+     "action": "apply right hand screw rule",
+     "explain": "Curl fingers from first vector to second vector to determine directional normal"
+    },
+    {
+     "step": 3,
+     "action": "verify anti-commutativity and zero self-cross-product properties",
+     "explain": "Confirm that a x b equals negative of b x a, and that the cross product of any vector with itself yields the zero vector."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.6.1",
+   "title": "Tangential Velocity in Rigid Body Rotation",
+   "section": "6.6",
+   "definition": "The linear speed of a point in a rotating body proportional to its radial distance from the fixed axis of rotation.",
+   "formula": "v = omega * r",
+   "key_idea": "Linear speed increases linearly with radial distance from the rotational axis.",
+   "textbook_ref": "keph106.txt lines 385-440",
+   "question_patterns": [
+    "in Class 11 physics: find the linear speed of a point on a rotating body",
+    "calculate tangential velocity given angular velocity and radius",
+    "determine the speed of a particle at distance r from the axis of rotation",
+    "what is the linear velocity of a point on a wheel rotating with angular speed omega",
+    "evaluate linear speed from angular speed and perpendicular distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute tangential linear speed",
+     "explain": "Multiply angular velocity by perpendicular distance from axis",
+     "compute": "omega * r"
+    },
+    {
+     "step": 2,
+     "action": "determine the direction of tangential velocity",
+     "explain": "The tangential velocity vector is always perpendicular to the radius vector and points along the instantaneous direction of motion.",
+     "compute": "perpendicular_to_r"
+    },
+    {
+     "step": 3,
+     "action": "verify consistency with angular speed and radius",
+     "explain": "All points on a rigid body share the same angular velocity, so linear speed scales linearly with radial distance from the axis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving tangential velocity in rigid body rotation.",
+     "solution": "Step 1: compute tangential linear speed. Step 2: determine the direction of tangential velocity. Step 3: verify consistency with angular speed and radius. Working: omega * r, perpendicular_to_r.",
+     "answer": "Tangential Velocity in Rigid Body Rotation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply tangential velocity in rigid body rotation to a fresh example and interpret the result.",
+     "solution": "Step 1: compute tangential linear speed. Step 2: determine the direction of tangential velocity. Step 3: verify consistency with angular speed and radius. Working: omega * r, perpendicular_to_r.",
+     "answer": "The method of tangential velocity in rigid body rotation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.7.1",
+   "title": "Torque or Moment of Force",
+   "section": "6.7.1",
+   "definition": "The turning action produced by a force about a pivot, measured by force magnitude multiplied by perpendicular distance to axis.",
+   "formula": "tau = force * arm_length",
+   "key_idea": "Rotational counterpart of force depending on magnitude, direction, and application point.",
+   "textbook_ref": "keph106.txt lines 450-500",
+   "question_patterns": [
+    "in Class 11 physics: calculate the torque produced by a force applied at a perpendicular distance",
+    "find the moment of force given applied force and perpendicular arm length",
+    "determine the magnitude of torque about an axis of rotation",
+    "what is the torque when a force F acts at distance r perpendicular to the lever",
+    "evaluate torque acting on a body given force and arm distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate torque magnitude",
+     "explain": "Multiply force by perpendicular lever arm length",
+     "compute": "force * arm_length"
+    },
+    {
+     "step": 2,
+     "action": "determine the direction of torque using right hand rule",
+     "explain": "The torque vector points along the axis of rotation, determined by curling fingers from the lever arm toward the force.",
+     "compute": "r_cross_f"
+    },
+    {
+     "step": 3,
+     "action": "verify torque as the cross product of position and force vectors",
+     "explain": "Torque is the vector cross product of the position vector and the force vector, giving both magnitude and direction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving torque or moment of force.",
+     "solution": "Step 1: calculate torque magnitude. Step 2: determine the direction of torque using right hand rule. Step 3: verify torque as the cross product of position and force vectors. Working: force * arm_length, r_cross_f.",
+     "answer": "Torque or Moment of Force applied step by step gives the required result."
+    },
+    {
+     "question": "Apply torque or moment of force to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate torque magnitude. Step 2: determine the direction of torque using right hand rule. Step 3: verify torque as the cross product of position and force vectors. Working: force * arm_length, r_cross_f.",
+     "answer": "The method of torque or moment of force leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.7.2",
+   "title": "Angular Momentum of a Particle",
+   "section": "6.7.2",
+   "definition": "The moment of linear momentum of a particle about a reference origin, equal to cross product of position and linear momentum vectors.",
+   "formula": "L = mass * velocity * r_perp",
+   "key_idea": "Rotational analogue of linear momentum for orbiting or rotating particles.",
+   "textbook_ref": "keph106.txt lines 505-560",
+   "question_patterns": [
+    "in Class 11 physics: calculate the angular momentum of a particle moving in a circle",
+    "find angular momentum given mass, velocity, and perpendicular distance from origin",
+    "determine the moment of momentum for a particle about a fixed point",
+    "what is the angular momentum of a point mass m moving with speed v at radius r",
+    "evaluate angular momentum of a particle in circular motion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate angular momentum",
+     "explain": "Multiply mass, linear speed, and perpendicular distance",
+     "compute": "mass * velocity * r_perp"
+    },
+    {
+     "step": 2,
+     "action": "determine the direction of angular momentum vector",
+     "explain": "The angular momentum vector points perpendicular to the plane containing the position and momentum vectors, found via the right hand rule.",
+     "compute": "r_cross_p"
+    },
+    {
+     "step": 3,
+     "action": "verify angular momentum as the cross product of position and momentum",
+     "explain": "Angular momentum is the vector cross product of the position vector and linear momentum vector, giving magnitude mass times velocity times perpendicular distance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving angular momentum of a particle.",
+     "solution": "Step 1: calculate angular momentum. Step 2: determine the direction of angular momentum vector. Step 3: verify angular momentum as the cross product of position and momentum. Working: mass * velocity * r_perp, r_cross_p.",
+     "answer": "Angular Momentum of a Particle applied step by step gives the required result."
+    },
+    {
+     "question": "Apply angular momentum of a particle to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate angular momentum. Step 2: determine the direction of angular momentum vector. Step 3: verify angular momentum as the cross product of position and momentum. Working: mass * velocity * r_perp, r_cross_p.",
+     "answer": "The method of angular momentum of a particle leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.8.1",
+   "title": "Principle of Moments for Levers",
+   "section": "6.8.1",
+   "definition": "For a body in rotational equilibrium, total clockwise moment about a pivot equals total counter-clockwise moment.",
+   "formula": "effort = (load * load_arm) / effort_arm",
+   "key_idea": "Product of load and load arm equals product of effort and effort arm.",
+   "textbook_ref": "keph106.txt lines 590-640",
+   "question_patterns": [
+    "in Class 11 physics: calculate the required effort to lift a load using a lever",
+    "find the effort force using the principle of moments",
+    "determine effort needed when load, load arm, and effort arm are given",
+    "what effort is required to balance a given load on a lever",
+    "evaluate effort force for mechanical equilibrium of a pivoted rod"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate required effort force",
+     "explain": "Multiply load by load arm and divide by effort arm",
+     "compute": "(load * load_arm) / effort_arm"
+    },
+    {
+     "step": 2,
+     "action": "compute the clockwise moment produced by the load",
+     "explain": "The load moment is the product of the load force and its perpendicular distance from the pivot.",
+     "compute": "load * load_arm"
+    },
+    {
+     "step": 3,
+     "action": "verify rotational equilibrium by equating clockwise and counter-clockwise moments",
+     "explain": "For a lever in equilibrium, the effort moment must equal the load moment, confirming the principle of moments.",
+     "compute": "effort * effort_arm"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving principle of moments for levers.",
+     "solution": "Step 1: calculate required effort force. Step 2: compute the clockwise moment produced by the load. Step 3: verify rotational equilibrium by equating clockwise and counter-clockwise moments. Working: (load * load_arm) / effort_arm, load * load_arm, effort * effort_arm.",
+     "answer": "Principle of Moments for Levers applied step by step gives the required result."
+    },
+    {
+     "question": "Apply principle of moments for levers to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate required effort force. Step 2: compute the clockwise moment produced by the load. Step 3: verify rotational equilibrium by equating clockwise and counter-clockwise moments. Working: (load * load_arm) / effort_arm, load * load_arm, effort * effort_arm.",
+     "answer": "The method of principle of moments for levers leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.9.1",
+   "title": "Moment of Inertia and Radius of Gyration",
+   "section": "6.9",
+   "definition": "The rotational inertia of a body about a given axis, quantified as total mass times the square of radius of gyration.",
+   "formula": "I = mass * (radius_gyration ** 2)",
+   "key_idea": "Measure of resistance of a body to angular acceleration about an axis.",
+   "textbook_ref": "keph106.txt lines 695-750",
+   "question_patterns": [
+    "in Class 11 physics: calculate moment of inertia from mass and radius of gyration",
+    "find the moment of inertia of a body given mass M and radius of gyration k",
+    "determine rotational inertia using body mass and radius of gyration",
+    "what is the moment of inertia when mass and radius of gyration are known",
+    "evaluate moment of inertia from radius of gyration and total mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute moment of inertia",
+     "explain": "Multiply total mass by square of radius of gyration",
+     "compute": "mass * (radius_gyration ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "compute the radius of gyration from the moment of inertia if needed",
+     "explain": "The radius of gyration is the square root of the ratio of moment of inertia to total mass.",
+     "compute": "sqrt(inertia / mass)"
+    },
+    {
+     "step": 3,
+     "action": "verify the moment of inertia using the parallel axis theorem when needed",
+     "explain": "For an axis parallel to a centroidal axis, the moment of inertia equals the centroidal value plus mass times the square of the offset distance.",
+     "compute": "inertia_cm + mass * (offset ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving moment of inertia and radius of gyration.",
+     "solution": "Step 1: compute moment of inertia. Step 2: compute the radius of gyration from the moment of inertia if needed. Step 3: verify the moment of inertia using the parallel axis theorem when needed. Working: mass * (radius_gyration ** 2), sqrt(inertia / mass), inertia_cm + mass * (offset ** 2).",
+     "answer": "Moment of Inertia and Radius of Gyration applied step by step gives the required result."
+    },
+    {
+     "question": "Apply moment of inertia and radius of gyration to a fresh example and interpret the result.",
+     "solution": "Step 1: compute moment of inertia. Step 2: compute the radius of gyration from the moment of inertia if needed. Step 3: verify the moment of inertia using the parallel axis theorem when needed. Working: mass * (radius_gyration ** 2), sqrt(inertia / mass), inertia_cm + mass * (offset ** 2).",
+     "answer": "The method of moment of inertia and radius of gyration leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.10.1",
+   "title": "Rotational Kinematics with Constant Angular Acceleration",
+   "section": "6.10",
+   "definition": "Equations describing rotational motion under uniform angular acceleration, directly analogous to linear kinematics.",
+   "formula": "omega = omega0 + alpha * t",
+   "key_idea": "Angular speed changes linearly with time under constant angular acceleration.",
+   "textbook_ref": "keph106.txt lines 760-810",
+   "question_patterns": [
+    "in Class 11 physics: calculate final angular speed under constant angular acceleration",
+    "find the angular velocity after time t given initial angular speed and alpha",
+    "determine final angular velocity of a wheel accelerating uniformly",
+    "what is the angular speed after time t with initial omega0 and constant angular acceleration",
+    "evaluate final rotational speed given initial angular speed, acceleration and time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute final angular velocity",
+     "explain": "Add initial angular velocity to product of angular acceleration and time",
+     "compute": "omega0 + alpha * t"
+    },
+    {
+     "step": 2,
+     "action": "calculate angular displacement during the acceleration interval",
+     "explain": "Angular displacement equals initial angular velocity times time plus half the angular acceleration times time squared.",
+     "compute": "omega0 * t + 0.5 * alpha * (t ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "verify using the angular velocity-displacement relation",
+     "explain": "The square of final angular velocity equals the square of initial angular velocity plus twice the product of angular acceleration and angular displacement.",
+     "compute": "sqrt(omega0 ** 2 + 2 * alpha * theta)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving rotational kinematics with constant angular acceleration.",
+     "solution": "Step 1: compute final angular velocity. Step 2: calculate angular displacement during the acceleration interval. Step 3: verify using the angular velocity-displacement relation. Working: omega0 + alpha * t, omega0 * t + 0.5 * alpha * (t ** 2), sqrt(omega0 ** 2 + 2 * alpha * theta).",
+     "answer": "Rotational Kinematics with Constant Angular Acceleration applied step by step gives the required result."
+    },
+    {
+     "question": "Apply rotational kinematics with constant angular acceleration to a fresh example and interpret the result.",
+     "solution": "Step 1: compute final angular velocity. Step 2: calculate angular displacement during the acceleration interval. Step 3: verify using the angular velocity-displacement relation. Working: omega0 + alpha * t, omega0 * t + 0.5 * alpha * (t ** 2), sqrt(omega0 ** 2 + 2 * alpha * theta).",
+     "answer": "The method of rotational kinematics with constant angular acceleration leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.11.1",
+   "title": "Rotational Dynamics and Angular Acceleration",
+   "section": "6.11",
+   "definition": "Net external torque applied to a rigid body produces angular acceleration inversely proportional to its moment of inertia.",
+   "formula": "alpha = tau / I",
+   "key_idea": "Rotational analogue of Newton second law: torque equals moment of inertia times angular acceleration.",
+   "textbook_ref": "keph106.txt lines 820-880",
+   "question_patterns": [
+    "in Class 11 physics: calculate angular acceleration given applied torque and moment of inertia",
+    "find angular acceleration of a flywheel subjected to a torque",
+    "determine alpha when moment of inertia and net torque are specified",
+    "what is the angular acceleration produced by a given torque on a rotating body",
+    "evaluate angular acceleration using rotational analogue of Newton second law"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute angular acceleration",
+     "explain": "Divide applied torque by moment of inertia",
+     "compute": "tau / inertia"
+    },
+    {
+     "step": 2,
+     "action": "calculate the final angular velocity after the torque acts for a given time",
+     "explain": "Using rotational kinematics, final angular velocity equals initial angular velocity plus angular acceleration times time.",
+     "compute": "omega0 + alpha * t"
+    },
+    {
+     "step": 3,
+     "action": "verify the torque-angular momentum relationship",
+     "explain": "The net torque equals the time rate of change of angular momentum, confirming the rotational analogue of Newton's second law.",
+     "compute": "(l_final - l_initial) / delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving rotational dynamics and angular acceleration.",
+     "solution": "Step 1: compute angular acceleration. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the torque-angular momentum relationship. Working: tau / inertia, omega0 + alpha * t, (l_final - l_initial) / delta_t.",
+     "answer": "Rotational Dynamics and Angular Acceleration applied step by step gives the required result."
+    },
+    {
+     "question": "Apply rotational dynamics and angular acceleration to a fresh example and interpret the result.",
+     "solution": "Step 1: compute angular acceleration. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the torque-angular momentum relationship. Working: tau / inertia, omega0 + alpha * t, (l_final - l_initial) / delta_t.",
+     "answer": "The method of rotational dynamics and angular acceleration leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.11.2",
+   "title": "Rotational Kinetic Energy",
+   "section": "6.11",
+   "definition": "Energy possessed by a rigid body due to rotation about an axis, equal to half moment of inertia times angular speed squared.",
+   "formula": "ke_rot = 0.5 * I * (omega ** 2)",
+   "key_idea": "Rotational kinetic energy scales with moment of inertia and square of angular speed.",
+   "textbook_ref": "keph106.txt lines 885-920",
+   "question_patterns": [
+    "in Class 11 physics: calculate rotational kinetic energy of a rotating body",
+    "find the kinetic energy of rotation given moment of inertia and angular velocity",
+    "determine energy stored in a flywheel rotating at angular speed omega",
+    "what is the kinetic energy of a body with moment of inertia I and angular speed omega",
+    "evaluate rotational kinetic energy from I and omega"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute rotational kinetic energy",
+     "explain": "Multiply half moment of inertia by square of angular velocity",
+     "compute": "0.5 * inertia * (omega ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate total kinetic energy including translational component if rolling",
+     "explain": "For a rolling body, total kinetic energy is the sum of translational kinetic energy of the centre of mass and rotational kinetic energy about the centre of mass.",
+     "compute": "0.5 * mass * (v_cm ** 2) + ke_rot"
+    },
+    {
+     "step": 3,
+     "action": "verify energy conservation in rolling without slipping",
+     "explain": "For pure rolling, the velocity of the centre of mass equals the product of angular velocity and radius, linking translational and rotational energies.",
+     "compute": "omega * radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving rotational kinetic energy.",
+     "solution": "Step 1: compute rotational kinetic energy. Step 2: calculate total kinetic energy including translational component if rolling. Step 3: verify energy conservation in rolling without slipping. Working: 0.5 * inertia * (omega ** 2), 0.5 * mass * (v_cm ** 2) + ke_rot, omega * radius.",
+     "answer": "Rotational Kinetic Energy applied step by step gives the required result."
+    },
+    {
+     "question": "Apply rotational kinetic energy to a fresh example and interpret the result.",
+     "solution": "Step 1: compute rotational kinetic energy. Step 2: calculate total kinetic energy including translational component if rolling. Step 3: verify energy conservation in rolling without slipping. Working: 0.5 * inertia * (omega ** 2), 0.5 * mass * (v_cm ** 2) + ke_rot, omega * radius.",
+     "answer": "The method of rotational kinetic energy leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.1",
+   "title": "Angular Momentum of a Rigid Body about a Fixed Axis",
+   "section": "6.12",
+   "definition": "For a body spinning around a fixed symmetry line, total angular momentum vector aligns with the rotation axis and equals moment of inertia times angular velocity.",
+   "formula": "L = I * omega",
+   "key_idea": "Rotational momentum along a fixed symmetry axis equals moment of inertia multiplied by angular velocity.",
+   "textbook_ref": "keph106.txt lines 1-40",
+   "question_patterns": [
+    "in Class 11 physics rotational motion find the angular momentum of a body given moment of inertia and angular speed",
+    "calculate the magnitude of angular momentum for a body rotating about a fixed axis",
+    "what is the angular momentum of a cylinder rotating with known moment of inertia and angular speed",
+    "how much angular momentum does a rotating rigid body possess given its rotational inertia and angular velocity",
+    "determine the angular momentum of a system rotating about its central symmetry axis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply moment of inertia by angular speed",
+     "explain": "Angular momentum along the axis of rotation is the product of moment of inertia and angular velocity.",
+     "compute": "inertia * omega"
+    },
+    {
+     "step": 2,
+     "action": "verify the direction of angular momentum along the symmetry axis",
+     "explain": "For a symmetric body rotating about its symmetry axis, the angular momentum vector is parallel to the angular velocity vector.",
+     "compute": "along_axis"
+    },
+    {
+     "step": 3,
+     "action": "relate angular momentum to torque using the time derivative",
+     "explain": "The net external torque equals the rate of change of angular momentum, providing a check on rotational dynamics.",
+     "compute": "(l_final - l_initial) / delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving angular momentum of a rigid body about a fixed axis.",
+     "solution": "Step 1: multiply moment of inertia by angular speed. Step 2: verify the direction of angular momentum along the symmetry axis. Step 3: relate angular momentum to torque using the time derivative. Working: inertia * omega, along_axis, (l_final - l_initial) / delta_t.",
+     "answer": "Angular Momentum of a Rigid Body about a Fixed Axis applied step by step gives the required result."
+    },
+    {
+     "question": "Apply angular momentum of a rigid body about a fixed axis to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply moment of inertia by angular speed. Step 2: verify the direction of angular momentum along the symmetry axis. Step 3: relate angular momentum to torque using the time derivative. Working: inertia * omega, along_axis, (l_final - l_initial) / delta_t.",
+     "answer": "The method of angular momentum of a rigid body about a fixed axis leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.2",
+   "title": "Torque and Angular Acceleration",
+   "section": "6.12",
+   "definition": "The resultant torque acting on a body about a stationary axis of rotation equals its moment of inertia about that axis multiplied by angular acceleration.",
+   "formula": "torque = I * alpha",
+   "key_idea": "Net rotational force produces angular acceleration inversely proportional to moment of inertia.",
+   "textbook_ref": "keph106.txt lines 41-70",
+   "question_patterns": [
+    "in Class 11 physics rotational dynamics find the angular acceleration when a torque is applied to a rotating body",
+    "calculate the rotational acceleration produced by a given external torque",
+    "what is the angular acceleration of a cylinder pulled by a force creating torque",
+    "how much angular acceleration is produced by a given torque on a body with moment of inertia I",
+    "determine the angular acceleration of a rotating mass under external torque"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide torque by moment of inertia",
+     "explain": "Angular acceleration is obtained by dividing net torque by moment of inertia.",
+     "compute": "torque / inertia"
+    },
+    {
+     "step": 2,
+     "action": "calculate the final angular velocity after the torque acts for a given time",
+     "explain": "Using rotational kinematics, final angular velocity equals initial angular velocity plus angular acceleration times time.",
+     "compute": "omega0 + alpha * t"
+    },
+    {
+     "step": 3,
+     "action": "verify the rotational analogue of Newton's second law",
+     "explain": "The applied torque equals the product of moment of inertia and angular acceleration, confirming the rotational dynamics equation.",
+     "compute": "inertia * alpha"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving torque and angular acceleration.",
+     "solution": "Step 1: divide torque by moment of inertia. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the rotational analogue of Newton's second law. Working: torque / inertia, omega0 + alpha * t, inertia * alpha.",
+     "answer": "Torque and Angular Acceleration applied step by step gives the required result."
+    },
+    {
+     "question": "Apply torque and angular acceleration to a fresh example and interpret the result.",
+     "solution": "Step 1: divide torque by moment of inertia. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the rotational analogue of Newton's second law. Working: torque / inertia, omega0 + alpha * t, inertia * alpha.",
+     "answer": "The method of torque and angular acceleration leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.3",
+   "title": "Conservation of Angular Momentum",
+   "section": "6.12.1",
+   "definition": "When the external torque on a body rotating about a fixed axis is zero, its total angular momentum remains constant.",
+   "formula": "omega2 = (I1 * omega1) / I2",
+   "key_idea": "In the absence of external torque, altering moment of inertia causes an inverse change in angular velocity.",
+   "textbook_ref": "keph106.txt lines 71-110",
+   "question_patterns": [
+    "in Class 11 physics rotational motion find the new angular speed when moment of inertia changes without external torque",
+    "calculate the final angular velocity of a rotating turntable after redistributing mass",
+    "what is the new angular frequency when a child folds arms on a swivel chair",
+    "how much does angular speed change when moment of inertia is reduced in conserved angular momentum",
+    "determine the final rotational speed using conservation of angular momentum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial angular momentum",
+     "explain": "Find initial angular momentum as product of initial moment of inertia and initial angular speed.",
+     "compute": "inertia1 * omega1"
+    },
+    {
+     "step": 2,
+     "action": "divide initial angular momentum by final moment of inertia",
+     "explain": "By conservation of angular momentum, final angular speed is initial angular momentum divided by final moment of inertia.",
+     "compute": "l_initial / inertia2"
+    },
+    {
+     "step": 3,
+     "action": "verify conservation by comparing initial and final angular momentum",
+     "explain": "In the absence of external torque, the final angular momentum must equal the initial angular momentum, confirming conservation.",
+     "compute": "inertia2 * omega2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving conservation of angular momentum.",
+     "solution": "Step 1: calculate initial angular momentum. Step 2: divide initial angular momentum by final moment of inertia. Step 3: verify conservation by comparing initial and final angular momentum. Working: inertia1 * omega1, l_initial / inertia2, inertia2 * omega2.",
+     "answer": "Conservation of Angular Momentum applied step by step gives the required result."
+    },
+    {
+     "question": "Apply conservation of angular momentum to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate initial angular momentum. Step 2: divide initial angular momentum by final moment of inertia. Step 3: verify conservation by comparing initial and final angular momentum. Working: inertia1 * omega1, l_initial / inertia2, inertia2 * omega2.",
+     "answer": "The method of conservation of angular momentum leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.4",
+   "title": "Rotational Kinetic Energy",
+   "section": "Summary item 13",
+   "definition": "Energy stored in a body by virtue of its spinning motion around an axis, proportional to moment of inertia and square of angular speed.",
+   "formula": "K_rot = (1/2) * I * omega^2",
+   "key_idea": "Rotational kinetic energy scales with half of moment of inertia times squared angular speed.",
+   "textbook_ref": "keph106.txt lines 150-170",
+   "question_patterns": [
+    "in Class 11 rotational energy find the kinetic energy associated with the rotation of a body",
+    "calculate the rotational kinetic energy of a solid cylinder rotating about its axis",
+    "what is the kinetic energy of rotation for a body with given moment of inertia and angular speed",
+    "how much rotational energy is stored in a spinning rotor",
+    "determine the rotational kinetic energy given moment of inertia and angular velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate rotational kinetic energy",
+     "explain": "Rotational kinetic energy is half times moment of inertia times square of angular velocity.",
+     "compute": "0.5 * inertia * omega**2"
+    },
+    {
+     "step": 2,
+     "action": "compute the change in rotational kinetic energy when angular speed changes",
+     "explain": "The change in rotational kinetic energy is the difference between final and initial rotational kinetic energies.",
+     "compute": "0.5 * inertia * omega_final**2 - 0.5 * inertia * omega_initial**2"
+    },
+    {
+     "step": 3,
+     "action": "relate the kinetic energy change to the work done by torque",
+     "explain": "The work done by the net torque equals the change in rotational kinetic energy, analogous to the work-energy theorem in translation.",
+     "compute": "delta_k_rot"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving rotational kinetic energy.",
+     "solution": "Step 1: calculate rotational kinetic energy. Step 2: compute the change in rotational kinetic energy when angular speed changes. Step 3: relate the kinetic energy change to the work done by torque. Working: 0.5 * inertia * omega**2, 0.5 * inertia * omega_final**2 - 0.5 * inertia * omega_initial**2, delta_k_rot.",
+     "answer": "Rotational Kinetic Energy applied step by step gives the required result."
+    },
+    {
+     "question": "Apply rotational kinetic energy to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate rotational kinetic energy. Step 2: compute the change in rotational kinetic energy when angular speed changes. Step 3: relate the kinetic energy change to the work done by torque. Working: 0.5 * inertia * omega**2, 0.5 * inertia * omega_final**2 - 0.5 * inertia * omega_initial**2, delta_k_rot.",
+     "answer": "The method of rotational kinetic energy leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.5",
+   "title": "Power Transmitted by Torque",
+   "section": "Summary / Exercise 6.14",
+   "definition": "The rate of doing work by a torque maintaining steady angular speed, given by product of torque and angular speed.",
+   "formula": "power = torque * omega",
+   "key_idea": "Rotational power transmission equals applied torque multiplied by angular velocity.",
+   "textbook_ref": "keph106.txt lines 210-220",
+   "question_patterns": [
+    "in Class 11 rotational dynamics find the power required to maintain a rotor at constant angular speed",
+    "calculate the rotational power engine needs to transmit given torque and angular velocity",
+    "what is the power output of a motor exerting torque at a given angular speed",
+    "how much power is needed to keep a body rotating against constant resistive torque",
+    "determine power transmitted by an applied torque operating at steady angular speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply torque by angular speed",
+     "explain": "Rotational power required is the product of applied torque and uniform angular speed.",
+     "compute": "torque * omega"
+    },
+    {
+     "step": 2,
+     "action": "convert angular speed from revolutions per minute to radians per second if needed",
+     "explain": "Angular speed in rad/s equals revolutions per minute multiplied by 2 pi and divided by 60.",
+     "compute": "omega_rpm * 2 * pi / 60"
+    },
+    {
+     "step": 3,
+     "action": "verify power as the rate of doing rotational work",
+     "explain": "Power equals the work done by torque divided by time, which simplifies to torque times angular speed for steady rotation.",
+     "compute": "work_torque / delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving power transmitted by torque.",
+     "solution": "Step 1: multiply torque by angular speed. Step 2: convert angular speed from revolutions per minute to radians per second if needed. Step 3: verify power as the rate of doing rotational work. Working: torque * omega, omega_rpm * 2 * pi / 60, work_torque / delta_t.",
+     "answer": "Power Transmitted by Torque applied step by step gives the required result."
+    },
+    {
+     "question": "Apply power transmitted by torque to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply torque by angular speed. Step 2: convert angular speed from revolutions per minute to radians per second if needed. Step 3: verify power as the rate of doing rotational work. Working: torque * omega, omega_rpm * 2 * pi / 60, work_torque / delta_t.",
+     "answer": "The method of power transmitted by torque leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.6",
+   "title": "Symmetry and Perpendicular Angular Momentum",
+   "section": "6.12",
+   "definition": "For symmetric rigid bodies, particle contributions to angular momentum perpendicular to the rotation axis cancel out in pairs, keeping total vector along the axis.",
+   "formula": "L_perp = 0",
+   "key_idea": "Axial symmetry guarantees that non-axial components of angular momentum sum to zero.",
+   "textbook_ref": "keph106.txt lines 25-50",
+   "question_patterns": [
+    "explain why angular momentum lies along the axis of rotation for symmetric bodies",
+    "show that the perpendicular component of angular momentum vanishes for symmetric rigid bodies",
+    "verify that angular momentum vector is parallel to angular velocity for symmetric rotators",
+    "what condition ensures angular momentum is parallel to the fixed axis of rotation",
+    "how does body symmetry affect the direction of angular momentum relative to rotation axis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify symmetry pair of particles",
+     "explain": "For every particle with velocity v_i at radius vector r_i, there exists an identical diametrically opposite particle with velocity -v_i."
+    },
+    {
+     "step": 2,
+     "action": "sum perpendicular angular momentum components",
+     "explain": "The cross products OC_i x m_i v_i for diametrically opposite pairs cancel each other out completely."
+    },
+    {
+     "step": 3,
+     "action": "conclude vector direction of angular momentum",
+     "explain": "Since all perpendicular components sum to zero, the total angular momentum vector reduces to L_z along the fixed z-axis."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keph106.txt lines 130-150",
+   "concept": "keph.106.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the centre of mass position for three particles of mass {m1} kg, {m2} kg, and {m3} kg located along x-axis at x1 = {x1} m, x2 = {x2} m, and x3 = {x3} m.",
+   "extracted_variables": {
+    "m1": 0.1,
+    "m2": 0.15,
+    "m3": 0.2,
+    "x1": 0.0,
+    "x2": 0.5,
+    "x3": 0.25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total weighted position sum",
+     "explain": "Multiply each mass by its position coordinate and sum them",
+     "compute": "mx_sum = m1 * x1 + m2 * x2 + m3 * x3"
+    },
+    {
+     "step": 2,
+     "action": "compute total mass",
+     "explain": "Add individual particle masses together",
+     "compute": "total_mass = m1 + m2 + m3"
+    },
+    {
+     "step": 3,
+     "action": "compute centre of mass x coordinate",
+     "explain": "Divide weighted position sum by total mass",
+     "compute": "x_cm = mx_sum / total_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keph106.txt lines 95-120",
+   "concept": "keph.106.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate centre of mass position for three particles of mass {m1} kg, {m2} kg, and {m3} kg positioned along x-axis at {x1} m, {x2} m, and {x3} m.",
+   "extracted_variables": {
+    "m1": 2.0,
+    "m2": 3.0,
+    "m3": 5.0,
+    "x1": 1.0,
+    "x2": 2.0,
+    "x3": 4.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total weighted position sum",
+     "explain": "Multiply each mass by its position coordinate and sum them",
+     "compute": "mx_sum = m1 * x1 + m2 * x2 + m3 * x3"
+    },
+    {
+     "step": 2,
+     "action": "compute total mass",
+     "explain": "Add individual particle masses together",
+     "compute": "total_mass = m1 + m2 + m3"
+    },
+    {
+     "step": 3,
+     "action": "compute centre of mass x coordinate",
+     "explain": "Divide weighted position sum by total mass",
+     "compute": "x_cm = mx_sum / total_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keph106.txt lines 190-210",
+   "concept": "keph.106.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate acceleration of centre of mass for a system of mass {total_mass} kg under net external force {f_ext} N.",
+   "extracted_variables": {
+    "f_ext": 50.0,
+    "total_mass": 10.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate acceleration of centre of mass",
+     "explain": "Divide net external force by total system mass",
+     "compute": "a_cm = f_ext / total_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keph106.txt lines 211-230",
+   "concept": "keph.106.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find centre of mass acceleration for a body of mass {total_mass} kg acted upon by net force {f_ext} N.",
+   "extracted_variables": {
+    "f_ext": 120.0,
+    "total_mass": 15.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate acceleration of centre of mass",
+     "explain": "Divide net external force by total system mass",
+     "compute": "a_cm = f_ext / total_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keph106.txt lines 235-250",
+   "concept": "keph.106.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find total linear momentum of a system with mass {total_mass} kg whose centre of mass moves at {v_cm} m/s.",
+   "extracted_variables": {
+    "total_mass": 8.0,
+    "v_cm": 4.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total linear momentum",
+     "explain": "Multiply total system mass by centre of mass velocity",
+     "compute": "p_total = total_mass * v_cm"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keph106.txt lines 251-270",
+   "concept": "keph.106.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate total linear momentum of an object of total mass {total_mass} kg moving with centre of mass speed {v_cm} m/s.",
+   "extracted_variables": {
+    "total_mass": 25.0,
+    "v_cm": 12.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total linear momentum",
+     "explain": "Multiply total system mass by centre of mass velocity",
+     "compute": "p_total = total_mass * v_cm"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keph106.txt lines 385-410",
+   "concept": "keph.106.6.6.1",
+   "question_type": "compute",
+   "question_pattern": "Determine linear speed of a point at distance {r} m from rotation axis on a body turning at {omega} rad/s.",
+   "extracted_variables": {
+    "omega": 10.0,
+    "r": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute tangential linear speed",
+     "explain": "Multiply angular velocity by perpendicular distance from axis",
+     "compute": "v = omega * r"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keph106.txt lines 411-440",
+   "concept": "keph.106.6.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find linear speed of a particle located at radius {r} m in a body rotating with angular speed {omega} rad/s.",
+   "extracted_variables": {
+    "omega": 25.0,
+    "r": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute tangential linear speed",
+     "explain": "Multiply angular velocity by perpendicular distance from axis",
+     "compute": "v = omega * r"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "keph106.txt lines 825-835",
+   "concept": "keph.106.6.7.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate torque produced when a force of {force} N acts perpendicular to a lever arm of length {arm_length} m.",
+   "extracted_variables": {
+    "force": 25.0,
+    "arm_length": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate torque magnitude",
+     "explain": "Multiply force by perpendicular lever arm length",
+     "compute": "tau = force * arm_length"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "keph106.txt lines 450-480",
+   "concept": "keph.106.6.7.1",
+   "question_type": "compute",
+   "question_pattern": "Find torque generated by force {force} N applied at distance {arm_length} m perpendicular to axis.",
+   "extracted_variables": {
+    "force": 60.0,
+    "arm_length": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate torque magnitude",
+     "explain": "Multiply force by perpendicular lever arm length",
+     "compute": "tau = force * arm_length"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "keph106.txt lines 505-530",
+   "concept": "keph.106.6.7.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate angular momentum of a particle of mass {mass} kg moving at velocity {velocity} m/s at perpendicular distance {r_perp} m.",
+   "extracted_variables": {
+    "mass": 2.0,
+    "velocity": 5.0,
+    "r_perp": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angular momentum",
+     "explain": "Multiply mass, linear speed, and perpendicular distance",
+     "compute": "L = mass * velocity * r_perp"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "keph106.txt lines 531-560",
+   "concept": "keph.106.6.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find angular momentum of mass {mass} kg orbiting with velocity {velocity} m/s at radius {r_perp} m.",
+   "extracted_variables": {
+    "mass": 0.5,
+    "velocity": 12.0,
+    "r_perp": 0.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angular momentum",
+     "explain": "Multiply mass, linear speed, and perpendicular distance",
+     "compute": "L = mass * velocity * r_perp"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "keph106.txt lines 590-620",
+   "concept": "keph.106.6.8.1",
+   "question_type": "compute",
+   "question_pattern": "Find required effort force to balance load {load} N at load arm {load_arm} m when effort arm is {effort_arm} m.",
+   "extracted_variables": {
+    "load": 196.0,
+    "load_arm": 0.5,
+    "effort_arm": 2.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate required effort force",
+     "explain": "Multiply load by load arm and divide by effort arm",
+     "compute": "effort = (load * load_arm) / effort_arm"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "keph106.txt lines 621-640",
+   "concept": "keph.106.6.8.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate effort needed to lift load {load} N placed at distance {load_arm} m using effort arm of {effort_arm} m.",
+   "extracted_variables": {
+    "load": 500.0,
+    "load_arm": 0.2,
+    "effort_arm": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate required effort force",
+     "explain": "Multiply load by load arm and divide by effort arm",
+     "compute": "effort = (load * load_arm) / effort_arm"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "keph106.txt lines 715-735",
+   "concept": "keph.106.6.9.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate moment of inertia of a wheel with mass {mass} kg and radius of gyration {radius_gyration} m.",
+   "extracted_variables": {
+    "mass": 20.0,
+    "radius_gyration": 0.1414
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute moment of inertia",
+     "explain": "Multiply total mass by square of radius of gyration",
+     "compute": "inertia = mass * (radius_gyration ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "keph106.txt lines 736-750",
+   "concept": "keph.106.6.9.1",
+   "question_type": "compute",
+   "question_pattern": "Find rotational inertia of a disc of mass {mass} kg having radius of gyration {radius_gyration} m.",
+   "extracted_variables": {
+    "mass": 4.0,
+    "radius_gyration": 0.25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute moment of inertia",
+     "explain": "Multiply total mass by square of radius of gyration",
+     "compute": "inertia = mass * (radius_gyration ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "keph106.txt lines 800-818",
+   "concept": "keph.106.6.10.1",
+   "question_type": "compute",
+   "question_pattern": "Find final angular velocity of a motor wheel starting from {omega0} rad/s accelerating at {alpha} rad/s^2 after {t} s.",
+   "extracted_variables": {
+    "omega0": 125.66,
+    "alpha": 12.57,
+    "t": 16.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute final angular velocity",
+     "explain": "Add initial angular velocity to product of angular acceleration and time",
+     "compute": "omega = omega0 + alpha * t"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "keph106.txt lines 760-785",
+   "concept": "keph.106.6.10.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate angular speed of a wheel starting from rest with constant angular acceleration {alpha} rad/s^2 after time {t} s.",
+   "extracted_variables": {
+    "omega0": 0.0,
+    "alpha": 4.0,
+    "t": 5.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute final angular velocity",
+     "explain": "Add initial angular velocity to product of angular acceleration and time",
+     "compute": "omega = omega0 + alpha * t"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "keph106.txt lines 825-835",
+   "concept": "keph.106.6.11.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate angular acceleration of a flywheel with moment of inertia {I} kg m^2 when subjected to torque {tau} N m.",
+   "extracted_variables": {
+    "tau": 5.0,
+    "I": 0.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute angular acceleration",
+     "explain": "Divide applied torque by moment of inertia",
+     "compute": "alpha = tau / inertia"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "keph106.txt lines 820-850",
+   "concept": "keph.106.6.11.1",
+   "question_type": "compute",
+   "question_pattern": "Find angular acceleration produced in a cylinder of moment of inertia {I} kg m^2 by torque {tau} N m.",
+   "extracted_variables": {
+    "tau": 18.0,
+    "I": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute angular acceleration",
+     "explain": "Divide applied torque by moment of inertia",
+     "compute": "alpha = tau / inertia"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "keph106.txt lines 840-850",
+   "concept": "keph.106.6.11.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate rotational kinetic energy of a wheel with moment of inertia {I} kg m^2 rotating at angular speed {omega} rad/s.",
+   "extracted_variables": {
+    "I": 0.4,
+    "omega": 15.81
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute rotational kinetic energy",
+     "explain": "Multiply half moment of inertia by square of angular velocity",
+     "compute": "ke_rot = 0.5 * inertia * (omega ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "keph106.txt lines 885-915",
+   "concept": "keph.106.6.11.2",
+   "question_type": "compute",
+   "question_pattern": "Find rotational kinetic energy of a rotor with moment of inertia {I} kg m^2 spinning at {omega} rad/s.",
+   "extracted_variables": {
+    "I": 2.5,
+    "omega": 20.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute rotational kinetic energy",
+     "explain": "Multiply half moment of inertia by square of angular velocity",
+     "compute": "ke_rot = 0.5 * inertia * (omega ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "keph106.txt Exercise 6.11 part b",
+   "concept": "keph.106.12.1",
+   "question_type": "compute",
+   "question_pattern": "find the angular momentum of a cylinder with moment of inertia {I} kg m^2 rotating at angular speed {omega} rad/s",
+   "extracted_variables": {
+    "I": 0.625,
+    "omega": 100.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply moment of inertia by angular speed",
+     "explain": "Angular momentum along the axis of rotation is the product of moment of inertia and angular velocity.",
+     "compute": "L = inertia * omega"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "keph106.txt Section 6.12",
+   "concept": "keph.106.12.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the angular momentum of a fly wheel with moment of inertia {I} kg m^2 spinning with angular velocity {omega} rad/s",
+   "extracted_variables": {
+    "I": 2.5,
+    "omega": 12.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply moment of inertia by angular speed",
+     "explain": "Angular momentum along the axis of rotation is the product of moment of inertia and angular velocity.",
+     "compute": "L = inertia * omega"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "keph106.txt Exercise 6.13",
+   "concept": "keph.106.12.2",
+   "question_type": "compute",
+   "question_pattern": "find the angular acceleration when a net torque {torque} N m is applied to a body of moment of inertia {I} kg m^2",
+   "extracted_variables": {
+    "torque": 12.0,
+    "I": 0.48
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide torque by moment of inertia",
+     "explain": "Angular acceleration is obtained by dividing net torque by moment of inertia.",
+     "compute": "alpha = torque / inertia"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "keph106.txt Section 6.12",
+   "concept": "keph.106.12.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the angular acceleration produced by torque {torque} N m acting on a wheel with moment of inertia {I} kg m^2",
+   "extracted_variables": {
+    "torque": 180.0,
+    "I": 4.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide torque by moment of inertia",
+     "explain": "Angular acceleration is obtained by dividing net torque by moment of inertia.",
+     "compute": "alpha = torque / inertia"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex5",
+   "source_ref": "keph106.txt Exercise 6.12a",
+   "concept": "keph.106.12.3",
+   "question_type": "compute",
+   "question_pattern": "find the new angular speed when initial moment of inertia {I1} kg m^2 at angular speed {omega1} rev/min is reduced to {I2} kg m^2",
+   "extracted_variables": {
+    "I1": 5.0,
+    "omega1": 40.0,
+    "I2": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial angular momentum",
+     "explain": "Find initial angular momentum as product of initial moment of inertia and initial angular speed.",
+     "compute": "l_initial = inertia1 * omega1"
+    },
+    {
+     "step": 2,
+     "action": "divide initial angular momentum by final moment of inertia",
+     "explain": "By conservation of angular momentum, final angular speed is initial angular momentum divided by final moment of inertia.",
+     "compute": "omega2 = l_initial / inertia2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex6",
+   "source_ref": "keph106.txt Section 6.12.1",
+   "concept": "keph.106.12.3",
+   "question_type": "compute",
+   "question_pattern": "determine final angular velocity when rotational inertia changes from {I1} kg m^2 with initial speed {omega1} rad/s to {I2} kg m^2",
+   "extracted_variables": {
+    "I1": 10.0,
+    "omega1": 15.0,
+    "I2": 6.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial angular momentum",
+     "explain": "Find initial angular momentum as product of initial moment of inertia and initial angular speed.",
+     "compute": "l_initial = inertia1 * omega1"
+    },
+    {
+     "step": 2,
+     "action": "divide initial angular momentum by final moment of inertia",
+     "explain": "By conservation of angular momentum, final angular speed is initial angular momentum divided by final moment of inertia.",
+     "compute": "omega2 = l_initial / inertia2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex7",
+   "source_ref": "keph106.txt Exercise 6.11 part a",
+   "concept": "keph.106.12.4",
+   "question_type": "compute",
+   "question_pattern": "find the kinetic energy associated with rotation for a body with moment of inertia {I} kg m^2 and angular speed {omega} rad/s",
+   "extracted_variables": {
+    "I": 0.625,
+    "omega": 100.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate rotational kinetic energy",
+     "explain": "Rotational kinetic energy is half times moment of inertia times square of angular velocity.",
+     "compute": "K_rot = 0.5 * inertia * omega**2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex8",
+   "source_ref": "keph106.txt Summary item 13",
+   "concept": "keph.106.12.4",
+   "question_type": "compute",
+   "question_pattern": "calculate the rotational kinetic energy of a rotor with rotational inertia {I} kg m^2 spinning at {omega} rad/s",
+   "extracted_variables": {
+    "I": 1.5,
+    "omega": 20.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate rotational kinetic energy",
+     "explain": "Rotational kinetic energy is half times moment of inertia times square of angular velocity.",
+     "compute": "K_rot = 0.5 * inertia * omega**2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex9",
+   "source_ref": "keph106.txt Exercise 6.14",
+   "concept": "keph.106.12.5",
+   "question_type": "compute",
+   "question_pattern": "find the power required to maintain a rotor at uniform angular speed {omega} rad/s when torque is {torque} N m",
+   "extracted_variables": {
+    "torque": 180.0,
+    "omega": 200.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply torque by angular speed",
+     "explain": "Rotational power required is the product of applied torque and uniform angular speed.",
+     "compute": "power = torque * omega"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "keph106.txt Summary",
+   "concept": "keph.106.12.5",
+   "question_type": "compute",
+   "question_pattern": "calculate the power delivered by an engine applying torque {torque} N m at angular speed {omega} rad/s",
+   "extracted_variables": {
+    "torque": 50.0,
+    "omega": 150.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply torque by angular speed",
+     "explain": "Rotational power required is the product of applied torque and uniform angular speed.",
+     "compute": "power = torque * omega"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "p2_ex6.1",
+   "source_ref": "keph106.txt Exercise 6.1",
+   "questions": [
+    "Give the location of the centre of mass of a (i) sphere, (ii) cylinder, (iii) ring, and (iv) cube, each of uniform mass density. Does the centre of mass of a body necessarily lie inside the body ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.2",
+   "source_ref": "keph106.txt Exercise 6.2",
+   "questions": [
+    "In the HCl molecule, the separation between the nuclei of the two atoms is about 1.27 A (1 A = 10^-10 m). Find the approximate location of the CM of the molecule, given that a chlorine atom is about 35.5 times as massive as a hydrogen atom and nearly all the mass of an atom is concentrated in its nucleus."
+   ]
+  },
+  {
+   "id": "p2_ex6.3",
+   "source_ref": "keph106.txt Exercise 6.3",
+   "questions": [
+    "A child sits stationary at one end of a long trolley moving uniformly with a speed V on a smooth horizontal floor. If the child gets up and runs about on the trolley in any manner, what is the speed of the CM of the (trolley + child) system ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.4",
+   "source_ref": "keph106.txt Exercise 6.4",
+   "questions": [
+    "Show that the area of the triangle contained between the vectors a and b is one half of the magnitude of a x b."
+   ]
+  },
+  {
+   "id": "p2_ex6.5",
+   "source_ref": "keph106.txt Exercise 6.5",
+   "questions": [
+    "Show that a.(b x c) is equal in magnitude to the volume of the parallelepiped formed on the three vectors, a, b and c."
+   ]
+  },
+  {
+   "id": "p2_ex6.6",
+   "source_ref": "keph106.txt Exercise 6.6",
+   "questions": [
+    "Find the components along the x, y, z axes of the angular momentum l of a particle, whose position vector is r with components x, y, z and momentum is p with components px, py and pz. Show that if the particle moves only in the x-y plane the angular momentum has only a z-component."
+   ]
+  },
+  {
+   "id": "p2_ex6.7",
+   "source_ref": "keph106.txt Exercise 6.7",
+   "questions": [
+    "Two particles, each of mass m and speed v, travel in opposite directions along parallel lines separated by a distance d. Show that the angular momentum vector of the two particle system is the same whatever be the point about which the angular momentum is taken."
+   ]
+  },
+  {
+   "id": "p2_ex6.8",
+   "source_ref": "keph106.txt Exercise 6.8",
+   "questions": [
+    "A non-uniform bar of weight W is suspended at rest by two strings of negligible weight. The angles made by the strings with the vertical are 36.9 deg and 53.1 deg respectively. The bar is 2 m long. Calculate the distance d of the centre of gravity of the bar from its left end."
+   ]
+  },
+  {
+   "id": "p2_ex6.9",
+   "source_ref": "keph106.txt Exercise 6.9",
+   "questions": [
+    "A car weighs 1800 kg. The distance between its front and back axles is 1.8 m. Its centre of gravity is 1.05 m behind the front axle. Determine the force exerted by the level ground on each front wheel and each back wheel."
+   ]
+  },
+  {
+   "id": "p2_ex6.10",
+   "source_ref": "keph106.txt Exercise 6.10",
+   "questions": [
+    "Torques of equal magnitude are applied to a hollow cylinder and a solid sphere, both having the same mass and radius. The cylinder is free to rotate about its standard axis of symmetry, and the sphere is free to rotate about an axis passing through its centre. Which of the two will acquire a greater angular speed after a given time."
+   ]
+  },
+  {
+   "id": "p2_ex6.11",
+   "source_ref": "keph106.txt Exercise 6.11",
+   "questions": [
+    "A solid cylinder of mass 20 kg rotates about its axis with angular speed 100 rad s^-1. The radius of the cylinder is 0.25 m. What is the kinetic energy associated with the rotation of the cylinder? What is the magnitude of angular momentum of the cylinder about its axis?"
+   ]
+  },
+  {
+   "id": "p2_ex6.12",
+   "source_ref": "keph106.txt Exercise 6.12",
+   "questions": [
+    "(a) A child stands at the centre of a turntable with his two arms outstretched. The turntable is set rotating with an angular speed of 40 rev/min. How much is the angular speed of the child if he folds his hands back and thereby reduces his moment of inertia to 2/5 times the initial value ? Assume that the turntable rotates without friction.",
+    "(b) Show that the child's new kinetic energy of rotation is more than the initial kinetic energy of rotation. How do you account for this increase in kinetic energy?"
+   ]
+  },
+  {
+   "id": "p2_ex6.13",
+   "source_ref": "keph106.txt Exercise 6.13",
+   "questions": [
+    "A rope of negligible mass is wound round a hollow cylinder of mass 3 kg and radius 40 cm. What is the angular acceleration of the cylinder if the rope is pulled with a force of 30 N ? What is the linear acceleration of the rope ? Assume that there is no slipping."
+   ]
+  },
+  {
+   "id": "p2_ex6.14",
+   "source_ref": "keph106.txt Exercise 6.14",
+   "questions": [
+    "To maintain a rotor at a uniform angular speed of 200 rad s^-1, an engine needs to transmit a torque of 180 N m. What is the power required by the engine ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.15",
+   "source_ref": "keph106.txt Exercise 6.15",
+   "questions": [
+    "From a uniform disk of radius R, a circular hole of radius R/2 is cut out. The centre of the hole is at R/2 from the centre of the original disc. Locate the centre of gravity of the resulting flat body."
+   ]
+  },
+  {
+   "id": "p2_ex6.16",
+   "source_ref": "keph106.txt Exercise 6.16",
+   "questions": [
+    "A metre stick is balanced on a knife edge at its centre. When two coins, each of mass 5 g are put one on top of the other at the 12.0 cm mark, the stick is found to be balanced at 45.0 cm. What is the mass of the metre stick?"
+   ]
+  },
+  {
+   "id": "p2_ex6.17",
+   "source_ref": "keph106.txt Exercise 6.17",
+   "questions": [
+    "The oxygen molecule has a mass of 5.30 x 10^-26 kg and a moment of inertia of 1.94 x 10^-46 kg m^2 about an axis through its centre perpendicular to the lines joining the two atoms. Suppose the mean speed of such a molecule in a gas is 500 m/s and that its kinetic energy of rotation is two thirds of its kinetic energy of translation. Find the average angular velocity of the molecule."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "keph.106.6.11.1: bad compute 'tau / I' (unknown symbol: I)",
+  "keph.106.6.11.2: bad compute '0.5 * I * (omega ** 2)' (unknown symbol: I)",
+  "keph.106.12.1: bad compute 'I * omega' (unknown symbol: I)",
+  "keph.106.12.2: bad compute 'torque / I' (unknown symbol: I)",
+  "keph.106.12.3: bad compute 'I1 * omega1' (unknown symbol: I1)",
+  "keph.106.12.3: bad compute 'L_initial / I2' (unknown symbol: L_initial)",
+  "keph.106.12.4: bad compute '0.5 * I * omega**2' (unknown symbol: I)"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

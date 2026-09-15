@@ -1,0 +1,632 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 8,
+ "chapter_title": "Design for Fabric and Apparel",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe201.1",
+   "title": "Meaning of Design: Structural and Applied",
+   "section": "Introduction and Basic Concepts",
+   "definition": "Design is planned creation for a purpose, not mere decoration; structural design grows out of the object itself -- fibre, yarn, weave, or the basic cut of a garment -- while applied design is laid on top through finishes, dyeing, printing, embroidery, trims and fasteners.",
+   "formula": "design = structural base plus applied overlay",
+   "key_idea": "True harmony arrives only when beauty is welded to usefulness; a pretty but unusable object is badly designed.",
+   "textbook_ref": "lehe201.txt, Introduction and Design Analysis (approx lines 152-192)",
+   "question_patterns": [
+    "what do you understand by the term design",
+    "differentiate between structural and applied design",
+    "why is design more than decoration",
+    "give two examples of applied design on a garment",
+    "which features form the structural design of a fabric",
+    "what makes an object well designed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define design as planned, purposeful creation",
+     "explain": "beauty must integrate with the use of the object"
+    },
+    {
+     "step": 2,
+     "action": "split it into the two aspects",
+     "explain": "inbuilt form versus superimposed ornament"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Design growing out of the object itself -- fibre, yarn, weave -- is which design: structural or applied?",
+     "a": "structural"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.2",
+   "title": "Elements and Principles of Design",
+   "section": "Basic Concepts",
+   "definition": "The elements -- colour, texture, line, shape or form -- are the tools of the art, while the principles -- harmony, balance, rhythm, proportion and emphasis -- are the rules for blending those tools into an appealing whole.",
+   "formula": "elements as tools worked through principles as rules",
+   "key_idea": "A composition results when selected elements are placed by chosen principles in a given two or three dimensional space.",
+   "textbook_ref": "lehe201.txt, design factors and composition (approx lines 193-197, 699-717)",
+   "question_patterns": [
+    "name the elements of design",
+    "list the principles of design",
+    "how do elements differ from principles in design",
+    "what is a composition in design",
+    "which tools does a designer manipulate to build a pattern"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the five elements and five principles",
+     "explain": "colour, texture, line, shape, form versus proportion, balance, emphasis, rhythm, harmony"
+    },
+    {
+     "step": 2,
+     "action": "define composition",
+     "explain": "arrangement of elements by principles inside a given space"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Colour, texture, line and shape are the what of art: elements or principles?",
+     "a": "elements"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.3",
+   "title": "Colour: Hue, Value and Intensity",
+   "section": "Elements of Design: Colour",
+   "definition": "Colour is the eye's response to light reflected off a surface, read along three dimensions: hue, the colour's name; value, its lightness or darkness as tint or shade; and intensity or chroma, its brightness and purity, dulled by blending in the opposite hue.",
+   "formula": "colour = hue plus value plus intensity",
+   "key_idea": "The wheel starts from three primaries -- red, yellow, blue -- mixing to secondaries and six tertiaries, while white, black and greys stand apart as achromatic neutrals.",
+   "textbook_ref": "lehe201.txt, colour theory and understanding colour (approx lines 211-280, 327-349)",
+   "question_patterns": [
+    "define hue, value and intensity of colour",
+    "which colours are primary and why are they called so",
+    "how are secondary and tertiary colours produced",
+    "differentiate between tint and shade of a hue",
+    "what are achromatic or neutral colours",
+    "why does a fabric look white or black in light",
+    "what is the use of a Pantone shade card in the trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the three dimensions",
+     "explain": "name, lightness, purity"
+    },
+    {
+     "step": 2,
+     "action": "build the wheel",
+     "explain": "three primaries mix to three secondaries; adjacent primary and secondary give six tertiaries; neutrals sit outside the wheel"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The colour's name is called its what: hue or value?",
+     "a": "hue"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.4",
+   "title": "Colour Schemes and Harmonies",
+   "section": "Colour Schemes or Colour Harmonies",
+   "definition": "Related schemes share at least one hue -- monochromatic, achromatic, accented neutral and analogous -- while contrasting schemes set hues apart through complementary, split complementary, double complementary, analogous complementary and triadic pairings read off the colour wheel.",
+   "formula": "scheme choice -- related shares a hue, contrasting opposes hues",
+   "key_idea": "A scheme only proposes hues; the designer still decides values, intensities and quantities.",
+   "textbook_ref": "lehe201.txt, colour schemes (approx lines 399-450)",
+   "question_patterns": [
+    "classify colour schemes into related and contrasting groups",
+    "what is monochromatic harmony",
+    "define analogous harmony and its risk with four or more hues",
+    "which scheme places two hues opposite each other on the wheel",
+    "explain split complementary harmony",
+    "what makes a triadic harmony",
+    "give an example of an accented neutral scheme"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the schemes into the two families",
+     "explain": "related keep kinship, contrasting seek tension"
+    },
+    {
+     "step": 2,
+     "action": "read each scheme off the wheel",
+     "explain": "adjacent hues, opposite hues, or equidistant triples"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which scheme shares at least one hue: analogous or complementary?",
+     "a": "analogous"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.5",
+   "title": "Texture in Fabrics and Dress",
+   "section": "Elements of Design: Texture",
+   "definition": "Texture is what a material looks like, how it behaves and how it feels; in textiles it is fixed by the fibre content, yarn processing and type, construction technique, finishes and surface ornamentation, and in dress it must flatter the figure, silhouette and occasion.",
+   "formula": "texture = sight plus behaviour plus touch",
+   "key_idea": "Heavy bulky textures overpower a petite frame, so texture choices must serve the wearer's build.",
+   "textbook_ref": "lehe201.txt, texture section (approx lines 455-495)",
+   "question_patterns": [
+    "define texture and state its three descriptive aspects",
+    "which factors decide the texture of a textile material",
+    "how do finishes such as starching or napping change texture",
+    "why should textures in a dress be chosen with the wearer's figure in mind",
+    "give three terms for describing how a fabric feels",
+    "what role does texture play in creating interest in dress design"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe texture on three axes",
+     "explain": "looks, behaves, feels"
+    },
+    {
+     "step": 2,
+     "action": "trace the causes from fibre to ornament",
+     "explain": "fibre type, yarn twist, weave or knit, finishes, embroidery and tufting"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What a material looks like, how it behaves and how it feels is its what: texture or price?",
+     "a": "texture"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.6",
+   "title": "Line and Its Types",
+   "section": "Elements of Design: Line",
+   "definition": "A line joins two points and carries direction and mood: vertical lines stress height with a severe dignity, horizontal lines suggest width, calm and stability, diagonal lines dramatise by stretching or squeezing both, while curved lines from restrained arcs to circular sweeps read as soft, graceful and feminine.",
+   "formula": "line types -- straight vertical, horizontal, diagonal plus curved restrained to circular",
+   "key_idea": "Straight line dominance gives a masculine force; flowing curves lend grace and rhythm.",
+   "textbook_ref": "lehe201.txt, line section (approx lines 504-555)",
+   "question_patterns": [
+    "define line as an element of design",
+    "what effects do vertical, horizontal and diagonal lines create",
+    "how do straight and curved lines differ in mood",
+    "name the named curves mentioned in design",
+    "which line direction would add apparent height to a figure",
+    "why are long flowing curves called graceful"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort straight lines by direction",
+     "explain": "up down, side to side, slanted -- each with its own illusion"
+    },
+    {
+     "step": 2,
+     "action": "grade the curves",
+     "explain": "restrained arcs to dramatic circles, named shapes like parabola and serpentine"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which lines stress height and dignity: vertical or horizontal?",
+     "a": "vertical"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.7",
+   "title": "Shapes, Forms and Patterns",
+   "section": "Elements of Design: Shapes or Forms",
+   "definition": "Connecting lines builds shapes, two dimensional on cloth or three dimensional on the body; the four basic groups are natural, stylised, geometric and abstract, and grouping shapes yields patterns whose placement or repeat finishes a fabric design.",
+   "formula": "shapes from lines; patterns from grouped shapes",
+   "key_idea": "In apparel, shape and form appear as silhouette, cut and detailing; in fabric, as drape, motif and repeat.",
+   "textbook_ref": "lehe201.txt, shapes and patterns (approx lines 556-594)",
+   "question_patterns": [
+    "name the four basic groups of shapes in design",
+    "differentiate between natural and stylised shapes",
+    "what makes a shape geometric",
+    "what is an abstract shape",
+    "how is a pattern formed in a design",
+    "how do shape and form show themselves in apparel"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the four shape families",
+     "explain": "copies of nature, simplified nature, ruler made figures, free forms"
+    },
+    {
+     "step": 2,
+     "action": "connect shapes to patterns",
+     "explain": "grouping one or several shape types sets the repeat of the design"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two-dimensional figures built from lines are called what: shapes or shadows?",
+     "a": "shapes"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.8",
+   "title": "Proportion and the Golden Mean",
+   "section": "Principles of Design: Proportion",
+   "definition": "Proportion governs how one part of a design relates to another and to the whole; the classical guide is the golden mean, which splits a garment in uneven ratios such as 3:5:8 or 5:8:13 at waistline, yoke and hemline, and extends to colour, texture and motif size as well.",
+   "formula": "golden mean ratios -- 3 to 5 to 8 up to 5 to 8 to 13",
+   "key_idea": "Unequal horizontal divisions slim the figure while equal halves shorten and widen it; a high waist bodice can hide abdominal fullness.",
+   "textbook_ref": "lehe201.txt, proportion section (approx lines 602-634)",
+   "question_patterns": [
+    "what is the golden mean and how is it applied to a dress",
+    "why do unequal divisions look better than equal ones on the body",
+    "explain proportion of colour and proportion of texture",
+    "how does a high waist bodice help maternity clothing",
+    "at which points of a garment do golden mean sections appear"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define proportion and cite the ratio ladder",
+     "explain": "3:5:8 climbing through 5:8:13"
+    },
+    {
+     "step": 2,
+     "action": "extend beyond size",
+     "explain": "colour splits, texture weight and motif scale all obey the same uneven split"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The classical guide to pleasing proportion is the golden what: mean or ring?",
+     "a": "mean"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.9",
+   "title": "Balance in Dress",
+   "section": "Principles of Design: Balance",
+   "definition": "Balance equals the visual weight on either side of a garment's centre, vertically and horizontally; formal balance mirrors the symmetrical body and feels stable though monotonous, informal balance evens unequal parts by placement, and radial balance flows out from a centre point.",
+   "formula": "balance types -- formal plus informal plus radial",
+   "key_idea": "Horizontal balance corrects figure problems, for instance a dark hue over a large area.",
+   "textbook_ref": "lehe201.txt, balance section (approx lines 635-650)",
+   "question_patterns": [
+    "define balance and name its three types",
+    "why is formal balance called the least expensive type",
+    "how does informal balance differ from formal balance",
+    "what is radial balance in a garment",
+    "how can horizontal balance correct a figure problem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the principle",
+     "explain": "equalised weight from the central point, checked both ways"
+    },
+    {
+     "step": 2,
+     "action": "contrast the three routes",
+     "explain": "mirror symmetry, adjusted placement, radiation from a hub"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which balance mirrors the symmetrical body: formal or informal?",
+     "a": "formal"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.10",
+   "title": "Emphasis and the Focal Point",
+   "section": "Principles of Design: Emphasis",
+   "definition": "Emphasis plants the spot where the eye lands first -- through contrast of colour, unusual shape, line, detailing or accessories -- and smart dressing aims it at the face or at a figure strength while steering it away from a problem zone.",
+   "formula": "emphasis = one dominant focal area per garment",
+   "key_idea": "A bright belt celebrates a small waist, while a hip belt on full hips only advertises them.",
+   "textbook_ref": "lehe201.txt, emphasis section (approx lines 651-663)",
+   "question_patterns": [
+    "what is meant by emphasis in dress design",
+    "how can emphasis flatter or spoil a figure",
+    "which devices create a focal point on a garment",
+    "why is detail near the face especially effective",
+    "give an example of using emphasis to camouflage a figure problem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the focal point",
+     "explain": "the area that captures the first glance"
+    },
+    {
+     "step": 2,
+     "action": "apply the figure logic",
+     "explain": "draw the eye to strengths, never to trouble spots"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The spot where the eye lands first is called the what: focal point or hemline?",
+     "a": "focal point"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.11",
+   "title": "Rhythm in Design",
+   "section": "Principles of Design: Rhythm",
+   "definition": "Rhythm repeats lines, colours or details so the eye travels easily across the garment; it arises through repetition of trims, gradation or cordation of motif sizes, radiation from gathers at waist or cuff, and parallelism of tucks or pleats.",
+   "formula": "rhythm routes -- repetition plus gradation plus radiation plus parallelism",
+   "key_idea": "Ordered movement of the eye is what turns scattered detail into visual unity.",
+   "textbook_ref": "lehe201.txt, rhythm section (approx lines 664-689)",
+   "question_patterns": [
+    "what is rhythm in dress design",
+    "list the ways of creating rhythm in a garment",
+    "what is cordation or gradation",
+    "how do knife pleats create rhythm",
+    "give an example of radiation as a rhythm device"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define rhythm",
+     "explain": "organised repetition letting the eye flow"
+    },
+    {
+     "step": 2,
+     "action": "name the four devices",
+     "explain": "repetition, gradual size change, radiation from a centre, parallel placement"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Repeating lines and details so the eye travels easily is called what: rhythm or silence?",
+     "a": "rhythm"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.12",
+   "title": "Harmony and Composition",
+   "section": "Principles of Design: Harmony",
+   "definition": "Harmony is the agreement of every element -- shape matching shape, texture suiting texture across kurta, salwar and dupatta -- and a composition is the final artwork built by placing elements through chosen principles in a two or three dimensional space.",
+   "formula": "harmony = all elements agreeing; composition = elements plus principles in a space",
+   "key_idea": "A silk kurta with a cotton dupatta breaks textural harmony; one square pocket can break shape harmony of curved collar and cuffs.",
+   "textbook_ref": "lehe201.txt, harmony and composition (approx lines 690-717)",
+   "question_patterns": [
+    "what is harmony in dress design",
+    "explain harmony by shape with an example",
+    "how is harmony by texture achieved in a salwar kurta set",
+    "define composition in design",
+    "why is harmony critical for marketable designs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define harmony as unity",
+     "explain": "shape, texture and colour continuity across all garment areas"
+    },
+    {
+     "step": 2,
+     "action": "define composition",
+     "explain": "the deliberate placement of elements by selected principles"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The agreement of every element in a design is called what: harmony or chaos?",
+     "a": "harmony"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.13",
+   "title": "Careers in Fabric and Apparel Design",
+   "section": "Preparing for a Career and Scope",
+   "definition": "The field splits into fabric design, which demands command of fibre characteristics, processing and dyeing behaviour, and apparel design; training runs from certificates and diplomas to bachelor degrees, and textile designers work in industry, fashion houses, design agencies or freelance, tracking trends ahead of the curve.",
+   "formula": "career base -- fibre knowledge plus dyeing knowledge plus design principles",
+   "key_idea": "Apparel textile designs turn over faster than furnishing designs, so trend awareness is a job requirement.",
+   "textbook_ref": "lehe201.txt, career and scope (approx lines 718-749)",
+   "question_patterns": [
+    "what knowledge must a fabric designer command",
+    "which courses prepare one for a career in this field",
+    "where can a textile designer find employment",
+    "why do apparel designs change faster than furnishing designs",
+    "how does the field split into two specialisations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the specialisations",
+     "explain": "fabric for many uses, apparel using many materials"
+    },
+    {
+     "step": 2,
+     "action": "map study and work routes",
+     "explain": "certificate to degree programmes; industry, agency, freelance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which design career demands command of fibre and dyeing behaviour: fabric design or accounting?",
+     "a": "fabric design"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.14",
+   "title": "Golden Mean Arithmetic",
+   "section": "Principles of Design: Proportion",
+   "definition": "When a garment divides on golden mean units, any part's share of the whole is its unit count over the combined units, scaled to a percentage -- the arithmetic behind a pleasing 3:5 blouse and skirt split.",
+   "formula": "part_pct = part_units / (small_units + large_units) * 100",
+   "key_idea": "The 3:5 split gives the blouse 37.5 per cent of the whole; the shirt-pant 5:8 split gives the shirt about 38.5 per cent.",
+   "textbook_ref": "lehe201.txt, golden mean paragraph (approx lines 607-616)",
+   "question_patterns": [
+    "a blouse and skirt dress divides in golden mean ratio 3:5; what percentage of the whole does the blouse occupy",
+    "a shirt pant outfit splits 5:8; compute the shirt's percentage of the total effect",
+    "find the percentage share of the smaller section when a garment is divided in golden mean units",
+    "calculate each part's per cent of the whole for a 3 to 5 division at the waistline",
+    "what share of the combined whole does the larger section take in a 5 to 8 split"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the units",
+     "explain": "add the two section counts to get the whole",
+     "compute": "total_units = small_units + large_units"
+    },
+    {
+     "step": 2,
+     "action": "scale the part to a percentage",
+     "explain": "divide the part by the whole and multiply by one hundred",
+     "compute": "part_pct = part_units / total_units * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The 3:5 split gives the blouse what percent of the whole: 37.5 or 62.5?",
+     "a": "37.5"
+    }
+   ]
+  },
+  {
+   "id": "lehe201.15",
+   "title": "Grey Scale Position",
+   "section": "Elements of Design: Value",
+   "definition": "The value chart runs through eleven grades from black at zero to white at ten with grey as the mid value; a hue's distance below white is the white grade minus its own grade, telling whether it sits in shade or tint territory.",
+   "formula": "distance_from_white = white_grade - hue_grade",
+   "key_idea": "Grades below five are shades approaching black, grades above five are tints approaching white.",
+   "textbook_ref": "lehe201.txt, grey scale and value chart (approx lines 275-326)",
+   "question_patterns": [
+    "a hue is graded 7 on the grey scale; how many grades below white does it sit",
+    "compute the distance from white for any hue given its grade on the value chart",
+    "a tint sits at grade 9; how far is it from the white end of the scale",
+    "find how many grades separate a shade at grade 4 from the white end",
+    "what is the grade gap between a hue at 6 and the white end of the chart"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the hue grade from the white grade",
+     "explain": "white anchors grade ten, so the difference counts the grades below it",
+     "compute": "distance_from_white = white_grade - hue_grade"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The grey scale runs through how many grades: eleven or one?",
+     "a": "eleven"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe201.txt golden mean paragraph",
+   "concept": "lehe201.14",
+   "question_type": "numeric",
+   "question_pattern": "A skirt and blouse dress follows the golden mean split of {small_units} to {large_units}, with the blouse as the smaller part. What percentage of the whole dress does the blouse represent?",
+   "extracted_variables": {
+    "small_units": 3,
+    "large_units": 5,
+    "part_units": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the units",
+     "explain": "3 + 5 = 8 units for the whole figure",
+     "compute": "total_units = small_units + large_units"
+    },
+    {
+     "step": 2,
+     "action": "scale the blouse",
+     "explain": "3 / 8 x 100 = 37.5 per cent",
+     "compute": "part_pct = part_units / total_units * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe201.txt grey scale and value chart",
+   "concept": "lehe201.15",
+   "question_type": "numeric",
+   "question_pattern": "A dyed swatch matches grade {hue_grade} on the eleven grade value chart. How many grades below the white end does it sit?",
+   "extracted_variables": {
+    "hue_grade": 7,
+    "white_grade": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from the white grade",
+     "explain": "10 - 7 = 3 grades below white, so the swatch lies on the tint side",
+     "compute": "distance_from_white = white_grade - hue_grade"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe201.txt rhythm section",
+   "concept": "lehe201.11",
+   "question_type": "short_answer",
+   "question_pattern": "A dressmaker repeats the same piping at the neckline, sleeves and hem, and adds knife pleats to the skirt. Which rhythm devices has she used and what visual effect follows?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "name the devices",
+     "explain": "repetition of piping and parallelism of pleats"
+    },
+    {
+     "step": 2,
+     "action": "state the effect",
+     "explain": "the eye moves in an organised flow, giving visual unity to the garment"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe201.txt Review Questions 1-5",
+   "questions": [
+    "Explain the term design in your own words.",
+    "Which factors fix the texture of a fabric during manufacture?",
+    "How does the stage of colour application change the design of a fabric?",
+    "Name the types of lines and shapes and the effects and moods they create.",
+    "How are rhythm and harmony achieved in a dress?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe201.txt Practicals 1-3, tie and dye, batik, block printing",
+   "questions": [
+    "Tie small cotton samples by knotting, marbling, binding, tritik sewing and folding, dye them and compare the patterns obtained.",
+    "Prepare a batik article by waxing a design, dyeing cold below 35 degrees, freezing and crushing the wax, then hot pressing between absorbent papers.",
+    "Print a pattern with wooden blocks, starting with the darkest outline block and filling with lighter colours, then dry and hot press from the wrong side.",
+    "State the resist principle common to tie and dye and batik and how block printing differs from both."
+   ]
+  }
+ ]
+}

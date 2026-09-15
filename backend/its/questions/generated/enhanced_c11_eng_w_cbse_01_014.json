@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_01_014",
+   "title": "c11_eng_w_cbse_01_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for literary analysis answers and state the function of each component in a single sentence.",
+     "a": "PEEL stands for Point (topic sentence stating the analytical claim), Evidence (textual support — quote or close paraphrase with location), Explanation (analysis of how evidence proves the point, discussing language/effect), and Link (connecting back to the question/theme/author's intent). A wrong answer that lists \"Point, Example, Explanation, Conclusion\" reveals confusion between general essay structure and the specific literary analysis scaffold CBSE expects; \"Example\" is not synonymous with \"Evidence\" because evidence requires textual grounding, not just any illustration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why embedding a quotation like \"Iona's feelings are too much for him and he tells the little horse the whole story\" is more effective than writing \"At the end, Iona talks to his horse about everything\" in a board exam answer.",
+     "a": "The embedded quotation preserves the author's exact diction (\"too much for him,\" \"whole story\"), allowing the examiner to verify textual fidelity and enabling the student to analyse specific language choices (e.g., \"too much\" conveys emotional overflow; \"whole story\" suggests narrative completeness denied to human listeners). A student who paraphrases vaguely demonstrates inability to distinguish between narrative summary and literary analysis — a critical Class 11 error where marks are awarded for *how* the text means, not just *what* happens.",
+     "self_check": true
+    },
+    {
+     "q": "Given the question \"Analyse how the setting in the opening paragraph reflects Iona's internal state,\" write a complete PEEL paragraph (4-5 sentences) using only details from the first paragraph of the story.",
+     "a": "**Point:** The wintry twilight setting mirrors Iona's emotional desolation and social invisibility. **Evidence:** The \"thick wet snow\" covering him \"in soft thin layers\" while he sits \"bent double... like a phantom\" parallels how grief envelops him unnoticed. **Explanation:** The passive accumulation of snow on his motionless form mimics the way sorrow settles without release; \"phantom\" suggests he is already ghost-like — present in body but erased from human connection. **Link:** This atmospheric opening establishes the central tragedy: a grief so immense it \"would flow over the whole earth\" yet remains unseen, foreshadowing every failed attempt at communication that follows. A weak answer describing weather without connecting to character psychology shows the student cannot move from literal to symbolic reading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the officer and the three young men as audiences for Iona's grief. What does their contrasting indifference reveal about Chekhov's view of modern urban society?",
+     "a": "Both encounters expose transactional relationships where human connection is subordinated to utility: the officer treats Iona as a conveyance (\"Hurry up a bit!\"), while the young men reduce him to a target for cruelty (\"old pest,\" \"serpent Gorinytch\"). The officer's momentary inquiry (\"What did he die of?\") collapses into impatience; the youths' brief silence becomes an opening for mockery, not empathy. Together they represent a spectrum of urban alienation — institutional indifference and peer cruelty — proving Chekhov's thesis that \"inability of human beings to respond to, or even to communicate with, one another\" cuts across class and age. A student who merely lists differences (\"one is an officer, three are students\") misses the thematic synthesis required for analysis-level response.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The horse is merely a plot device to give Iona someone to talk to at the end.\" Defend or refute using three textual moments across the story.",
+     "a": "Refute. The horse functions as a sustained symbolic counterpart, not a last-minute device. Moment 1: Opening paragraph — \"His little horse is also quite white... plunged in deep thought\" establishes parallel suffering before any dialogue occurs. Moment 2: Stable scene — Iona avoids thinking of his son when alone but *dares* speak to the horse, showing the animal enables emotional articulation humans prevent. Moment 3: Final confession — the horse \"munches, listens and breathes over its master's hand,\" its animal presence offering the only reciprocity (breath on hand) in the story. The horse embodies the story's central irony: a beast shows more humanity than humans. A student agreeing with the claim reveals inability to track symbol development across narrative arc — a hallmark of surface-level reading.",
+     "self_check": true
+    },
+    {
+     "q": "Write a new final paragraph for \"The Lament\" (4-5 sentences) where Iona encounters *one* person who listens, maintaining Chekhov's tone and thematic concerns. Do not resolve the grief — only the act of being heard.",
+     "a": "A strong response might read: \"An old woman selling apples paused beside his sleigh, her fingers blue with cold. 'You look like a man carrying a mountain,' she said, not unkindly. Iona's throat opened. 'My son,' he began, and the words came slow and crooked, but she did not hurry him, did not tell him to drive on. The snow kept falling. The mountain did not move. But for the first time in a week, someone held a shovel.\" This mirrors Chekhov's restraint (no emotional adjectives for the listener), preserves the snow motif, and honours the story's truth: being heard lightens the *telling*, not the *grief*. A weak answer where the listener \"comforts\" him or \"solves\" his pain violates the story's existential logic — Chekhov's world offers witness, not redemption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

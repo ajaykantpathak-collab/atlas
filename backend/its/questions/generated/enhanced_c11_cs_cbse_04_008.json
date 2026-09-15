@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_008",
+   "title": "c11_cs_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the data type of the value returned by `input()` when the user types `42` and presses Enter?",
+     "a": "The data type is `str` (string). A wrong answer (e.g., `int` or `float`) reveals that the student assumes Python automatically interprets numeric keystrokes as numbers, which is a fundamental misunderstanding of how `input()` works — it always returns the raw keystrokes as a string, regardless of content.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code prints `1010` instead of `20` when the user enters `10` for both inputs:\n```python\na = input(\"Enter first number: \")\nb = input(\"Enter second number: \")\nprint(a + b)\n```",
+     "a": "Because `input()` returns strings, the `+` operator performs string concatenation, not numeric addition. A wrong explanation (e.g., \"Python adds the numbers but prints them twice\") shows the student does not grasp that the variables hold string objects and that the `+` operator is overloaded — it behaves differently depending on the operand types.",
+     "self_check": true
+    },
+    {
+     "q": "Write a program that asks the user for the length and breadth of a rectangle (in metres) and prints the area in square metres. The input values may be decimals.",
+     "a": "```python\nlength = float(input(\"Enter length in metres: \"))\nbreadth = float(input(\"Enter breadth in metres: \"))\narea = length * breadth\nprint(\"Area =\", area, \"sq m\")\n```\nIf the student omits `float()` or uses `int()`, the program will either concatenate strings or truncate decimals. This reveals they have not internalised that `input()` returns a string and that explicit conversion is required for arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of these two `print()` calls when `x = 10` and `y = 20`:\n```python\nprint(x, y)\nprint(x, y, sep='-', end='!')\n```\nWhat does each parameter (`sep`, `end`) control?",
+     "a": "First call prints `10 20` followed by a newline (default `sep=' '`, `end='\\n'`). Second call prints `10-20!` with no newline. `sep` controls the string inserted *between* arguments; `end` controls the string appended *after* the last argument. A wrong answer (e.g., confusing `sep` with `end`) indicates the student has not distinguished between inter-argument separation and line termination.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\nname = input(\"Name: \")\nage = input(\"Age: \")\nprint(\"Name:\", name, \"Age:\", age, sep=\"\\n\")\n```\nThey expect each label-value pair on a new line, but the output is:\n```\nName:\nJohn\nAge:\n17\n```\nEvaluate whether this matches the student's expectation and explain why.",
+     "a": "The output does NOT match the expectation. `sep=\"\\n\"` inserts a newline between *every* argument, so the four arguments (`\"Name:\"`, `name`, `\"Age:\"`, `age`) are printed each on a new line. To get `Name: John` on one line and `Age: 17` on the next, the student should use two separate `print()` calls or format the string differently. A wrong evaluation shows the student thinks `sep` only separates \"groups\" of arguments, not every single argument.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-program that reads a single line containing three values — item name (string), price (float), quantity (int) — separated by commas, splits them, converts appropriately, and prints the total cost in the format: `Total for <item>: ₹<total>`.",
+     "a": "```python\nline = input(\"Enter item,price,qty: \")\nparts = line.split(',')\nitem = parts[0].strip()\nprice = float(parts[1].strip())\nqty = int(parts[2].strip())\ntotal = price * qty\nprint(\"Total for\", item, \": ₹\", total, sep='')\n```\nA poor answer might use three separate `input()` calls, ignore splitting, or forget `strip()` and conversion. This reveals the student cannot compose `input()`, string methods, type conversion, and `print()` formatting into a cohesive solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

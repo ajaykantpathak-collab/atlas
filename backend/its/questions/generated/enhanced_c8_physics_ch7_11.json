@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_11",
+   "title": "c8_physics_ch7_11",
+   "questions": [
+    {
+     "q": "If today is a New Moon, what will be the Moon's phase after exactly 29.5 days?",
+     "a": "New Moon. The lunar cycle (synodic month) is 29.5 days, so after one complete cycle the Moon returns to the same phase. A wrong answer (e.g., Full Moon) reveals the student confuses the synodic month with half-cycle (14.75 days) or thinks the cycle is 28 days.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Moon's phase on a given date shifts by about one day each calendar month (e.g., Full Moon on 1st January, then ~31st January, then ~1st March).",
+     "a": "The lunar cycle (29.5 days) is shorter than most calendar months (30 or 31 days). Each calendar month, the Moon completes its cycle and begins the next one ~1-1.5 days earlier relative to the calendar date. A wrong answer (e.g., \"Moon phases follow calendar months exactly\") shows the student hasn't connected the 29.5-day cycle to the Gregorian calendar mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Today is 10th October and the Moon is a Waxing Gibbous. What phase will it be on 20th October (10 days later)? Show your step-by-step counting.",
+     "a": "Waning Gibbous. Steps: 10th Oct = Waxing Gibbous. 11-12: still Waxing Gibbous. 13-14: Full Moon. 15-17: Waning Gibbous. 18-20: Waning Gibbous (continuing). So on 20th Oct: Waning Gibbous. A wrong answer (e.g., First Quarter) reveals the student reverses the waxing/waning order or miscounts the ~3.7-day phase duration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two prediction methods: (A) Count days forward in the 8-phase cycle. (B) Multiply days by (360°/29.5) to get angular advance. Which is more accurate for a 5-day prediction? Why?",
+     "a": "Method A is more practical and equally accurate for Class 8 because phase boundaries are ~3.7 days wide; 5 days spans ~1.35 phases, so stepping through named phases avoids angular precision errors. Method B introduces false precision (degrees) without defined phase-angle boundaries. A wrong choice of B with \"more accurate because it uses math\" reveals over-reliance on calculation over conceptual cycle understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student predicts: \"Today is Third Quarter. In 7 days it will be New Moon.\" Evaluate this prediction. Is it correct? If not, what is the correct phase and why did the student err?",
+     "a": "Incorrect. Third Quarter → (1-2 days) Waning Crescent → (3-4 days) Waning Crescent → (5-6 days) New Moon → (7 days) New Moon. Actually, New Moon occurs ~7.4 days after Third Quarter, so on day 7 it is still a very thin Waning Crescent (almost New). The student likely used 7 days per quarter (28/4) instead of 7.4 days (29.5/4), a common rounding error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Moon Phase Predictor\" wheel for your school science fair that lets visitors dial a date and see the Moon phase. Describe the two concentric circles, their markings, and how to align them for any month.",
+     "a": "Inner circle: 29.5 equal sectors labeled with 8 phase names (repeating). Outer circle: calendar dates 1-31. Align by setting a known reference (e.g., \"Full Moon on 17th Oct\") — rotate inner circle until \"Full Moon\" sector aligns with 17 on outer. Then any date shows its phase. A poor answer (e.g., \"just draw Moon shapes on a calendar\") misses the cyclic alignment mechanism and reusability across months.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

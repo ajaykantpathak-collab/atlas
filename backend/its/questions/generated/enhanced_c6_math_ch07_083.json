@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_083",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_083",
+   "title": "c6_math_ch07_083",
+   "questions": [
+    {
+     "q": "What is the primary condition for two shapes to be called congruent?",
+     "a": "Two shapes are congruent if they have the same shape and the same size. A wrong answer suggests the student confuses congruence with similarity (same shape but different size).",
+     "self_check": true
+    },
+    {
+     "q": "If you have two triangles where all three sides are equal, but you haven't measured the angles, can you say they are congruent? Why?",
+     "a": "Yes, because the SSS (Side-Side-Side) rule states that if three sides of one triangle are equal to the three sides of another, the triangles are congruent. A wrong answer suggests the student is not yet familiar with the congruence shortcuts for triangles.",
+     "self_check": true
+    },
+    {
+     "q": "If two squares have a side length of 5 cm each, are they congruent? Explain the steps to verify.",
+     "a": "Yes. Step 1: Measure all sides (all 5 cm). Step 2: Measure all angles (all 90 degrees). Step 3: Attempt to superimpose one over the other. Step 4: Confirm they match exactly. A wrong answer shows confusion between \"equal area\" and \"congruence.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare a small photograph and a large poster of the same person. Are they congruent? Analyze the relationship between their shape and size.",
+     "a": "They are not congruent because their sizes are different. While they have the same \"shape\" (similarity), congruence requires the dimensions to be identical, which they are not in this case.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"If two triangles have the same angles, they must be congruent.\" Is this always true?",
+     "a": "This is false. Two triangles can have the same angles but different side lengths (like a small and large equilateral triangle), meaning they are not congruent. A wrong answer shows the student assumes angles alone define size.",
+     "self_check": true
+    },
+    {
+     "q": "Draw two different pairs of shapes: one pair that is congruent and one pair that is not congruent, using everyday objects like coins or notebooks.",
+     "a": "The student should draw or describe objects like two identical 10-rupee notes (congruent) versus a 10-rupee note and a 20-rupee note (not congruent). A poor answer fails to distinguish between objects of different sizes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

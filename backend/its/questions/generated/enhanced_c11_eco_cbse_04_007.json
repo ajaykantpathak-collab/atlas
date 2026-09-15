@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_007",
+   "title": "c11_eco_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the two ways in which government expenditure on education is expressed as per NCERT, and give the 2020 values for each measure.",
+     "a": "Government education expenditure is expressed as (i) percentage of total government expenditure (16.54% in 2020) and (ii) percentage of GDP (4.47% in 2020). A wrong answer (e.g., citing only one measure or confusing with health expenditure) reveals the student cannot distinguish between the two indicators of fiscal priority: the first shows budgetary importance relative to other sectors, the second shows resource commitment relative to national income.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Education Commission (1964-66) recommended 6% of GDP for education, and why the current ~4.5% level is considered inadequate despite absolute spending increases.",
+     "a": "The 6% target was set to achieve a \"noticeable rate of growth in educational achievements\" — the threshold for universalising quality schooling. Current ~4.5% is inadequate because (a) population growth dilutes per-student spending, (b) the Tapas Majumdar Committee estimated Rs 1.37 lakh crore over 10 years (1998-2007) just for 6-14 age group, and (c) per capita spending varies wildly (Rs 96,968 in Sikkim vs Rs 10,710 in Bihar). A student who says \"spending increased so it's sufficient\" confuses absolute growth with adequacy relative to demographic and developmental needs.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate annual education expenditure required (in Rs crore) to meet the 6% GDP target if India's GDP is Rs 270 lakh crore. Then compute the shortfall from the current 4.47% level.",
+     "a": "Step 1: Target expenditure = 6% of Rs 270 lakh crore = 0.06 × 270,00,000 = Rs 16,20,000 crore.\nStep 2: Current expenditure = 4.47% of Rs 270 lakh crore = 0.0447 × 270,00,000 = Rs 12,06,900 crore.\nStep 3: Shortfall = 16,20,000 - 12,06,900 = Rs 4,13,100 crore annually.\nA wrong calculation (e.g., using 4.47 as 4.47% without decimal conversion, or misplacing lakhs/crores) shows inability to handle large-number fiscal arithmetic — a core Class 11 skill linking c10_math_cbse_13_001 (mean of grouped data) to real budget analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse why per capita public expenditure on elementary education differs so sharply across states (Sikkim Rs 96,968 vs Bihar Rs 10,710 in 2020-21), and explain how this creates a vicious cycle for human capital formation in poorer states.",
+     "a": "Differences arise from: (i) varying state fiscal capacity (tax base, central transfers), (ii) different priority allocations within state budgets, (iii) demographic pressure (Bihar's high child population dilutes per capita spending), and (iv) historical infrastructure deficits. This creates a vicious cycle: low spending → poor school quality → low learning outcomes → low future productivity → low tax base → low education spending. A student who attributes it only to \"corruption\" or \"neglect\" misses the structural fiscal federalism dimension — the core of c11_eco_cbse_04_009 (Education Sector Achievements and Problems).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since educated unemployment is high (19% for rural male graduates in 2011-12), the government should reduce higher education spending and focus only on elementary education.\"",
+     "a": "This argument is flawed because: (i) educated unemployment reflects skill mismatch, not oversupply — NEP 2020 emphasises multidisciplinary, employable skills; (ii) elementary expansion requires more teachers trained in higher education institutions; (iii) the \"education pyramid\" steepness shows access inequality, not excess; (iv) returns to higher education remain positive (private + social benefits per Box 4.1). A student agreeing with the argument confuses symptom (unemployment) with cause (quality/alignment), ignoring the complementarity across education levels highlighted in NCERT: \"As we expand school education, we need more teachers who are trained in higher educational institutions.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy proposal to reduce regional disparity in per capita elementary education spending, using the education cess mechanism and Finance Commission transfers. Justify each point with economic reasoning.",
+     "a": "1. **Earmark 50% of education cess for backward states**: Cess is a Union levy; directing it via needs-based formula (child population, inverse per capita spending) addresses vertical fiscal imbalance. \n2. **Incentivise state matching grants**: Centre offers 2:1 matching for states raising own education spending above 15% of budget — solves the \"low priority\" problem in states like Bihar. \n3. **Outcome-linked transfers**: Tie 20% of Samagra Shiksha funds to learning outcomes (NAS scores), not just enrolment — shifts focus from input to quality. \nA weak proposal (e.g., \"give more money to Bihar\") lacks fiscal federalism mechanisms and ignores incentive compatibility — key for c11_eco_cbse_04_011 (Magnitude and Issues).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

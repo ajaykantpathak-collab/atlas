@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_3",
+   "title": "c9_geo_ch1_3",
+   "questions": [
+    {
+     "q": "What are the three types of plate movements and the primary geological feature formed at each boundary type?",
+     "a": "Correct answer: Convergent (plates move toward each other) forms mountains/trenches/volcanic arcs; Divergent (plates move apart) forms mid-ocean ridges/rift valleys; Transform (plates slide past horizontally) forms strike-slip faults. A wrong answer like \"divergent boundaries form mountains\" reveals confusion between constructive and destructive boundaries — the student hasn't linked movement direction to crustal creation vs destruction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Himalayan region experience frequent shallow-focus earthquakes while the Mid-Indian Ocean Ridge has mostly shallow-focus earthquakes but different fault mechanisms?",
+     "a": "Correct answer: Himalayas = convergent boundary where Indian Plate subducts under Eurasian Plate, causing compressional stress and thrust/reverse faults (shallow to intermediate depth). Mid-Indian Ocean Ridge = divergent boundary where plates pull apart, creating tensional stress and normal faults (shallow only). A wrong answer attributing both to \"plate collision\" shows misunderstanding of divergent boundaries as extensional, not compressional — a common board-level error confusing ridge processes with subduction.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map showing the Indian Plate boundary with the Eurasian Plate (north), African Plate (southwest), and Antarctic Plate (southeast), identify the movement type at each boundary and predict the dominant landform.",
+     "a": "Steps: 1) Indian-Eurasian boundary: convergence (Indian Plate moves north) → Himalayas and Tibetan Plateau (fold mountains). 2) Indian-African boundary: divergence along Central Indian Ridge → mid-ocean ridge with rift valley. 3) Indian-Antarctic boundary: divergence along Southeast Indian Ridge → mid-ocean ridge. Wrong prediction of \"trenches at Indian-African boundary\" reveals failure to distinguish divergent (oceanic-oceanic) from convergent boundaries — student applies subduction logic to all boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volcanic activity at the Andes (South America) and Iceland (Mid-Atlantic Ridge). Explain why both have volcanoes but with different magma compositions and eruption styles.",
+     "a": "Correct answer: Andes = oceanic-continental convergence → subduction of Nazca Plate under South American Plate → water-rich magma → explosive andesitic/rhyolitic volcanoes. Iceland = divergent boundary on Mid-Atlantic Ridge + hotspot → decompression melting of mantle → effusive basaltic eruptions. Wrong answer claiming \"both are convergent\" misses that Iceland sits on a divergent boundary — student overlooks that ridges can have volcanism without subduction, a key board distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Transform boundaries are less hazardous than convergent boundaries because they don't create volcanoes.\" Use Indian Ocean examples.",
+     "a": "Correct evaluation: False. Transform boundaries like the Owen Fracture Zone (Indian Plate-Arabian Plate) produce devastating shallow-focus earthquakes (e.g., 2013 Balochistan earthquake M7.7) due to sudden stress release on strike-slip faults. While they lack volcanism, their seismic hazard is comparable — the 2004 Sumatra earthquake (convergent) caused a tsunami, but transform faults can rupture urban areas directly. Wrong agreement shows oversimplification: student equates \"no volcanoes\" with \"low hazard,\" ignoring earthquake magnitude, depth, and population exposure — a board-level error in hazard assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-section diagram showing the Indian Plate's three boundary types (convergent north, divergent south, transform west) with correct movement arrows, fault types, and landforms. Label depth of earthquake foci.",
+     "a": "Good answer: North — convergent: Indian Plate subducts under Eurasian Plate, thrust faults, shallow-to-intermediate quakes, Himalayas. South — divergent: Central Indian Ridge, normal faults, shallow quakes, rift valley. West — transform: Owen Fracture Zone, strike-slip faults, shallow quakes, linear fault scarps. Poor answer shows all boundaries with same fault type or arrows pointing randomly — reveals inability to visualize 3D plate geometry and link boundary kinematics to structural geology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_001",
+   "title": "c12_math_cbse_11_001",
+   "questions": [
+    {
+     "q": "Write the condition that direction cosines l, m, n of any line must satisfy.",
+     "a": "The condition is l² + m² + n² = 1. A wrong answer (e.g., l+m+n=1 or l²+m²+n²=0) reveals the student confuses direction cosines with direction ratios or does not understand that direction cosines are components of a unit vector.",
+     "self_check": true
+    },
+    {
+     "q": "A line has direction ratios 2, -3, 6. A student claims its direction cosines are 2, -3, 6. Why is this incorrect? Explain the relationship.",
+     "a": "Direction cosines are the normalized direction ratios; they must satisfy l²+m²+n²=1. The correct direction cosines are 2/7, -3/7, 6/7 because √(2²+(-3)²+6²)=7. The student forgot to divide by the magnitude, confusing direction ratios (which can be any proportional triple) with direction cosines (which are unique up to sign for a directed line).",
+     "self_check": true
+    },
+    {
+     "q": "Find the direction cosines of the line passing through points P(1, -2, 3) and Q(4, 1, -2).",
+     "a": "Direction ratios = (4-1, 1-(-2), -2-3) = (3, 3, -5). Distance PQ = √(3²+3²+(-5)²) = √43. Direction cosines = (3/√43, 3/√43, -5/√43). A wrong answer like (3,3,-5) or (3/√34, ...) reveals errors in coordinate subtraction or distance calculation (e.g., forgetting to square the differences or misadding squares).",
+     "self_check": true
+    },
+    {
+     "q": "Two lines have direction ratios (a, b, c) and (ka, kb, kc) for some non-zero k. What is the angle between them? What does this imply about the lines?",
+     "a": "The angle is 0° (or 180° if opposite direction). The lines are parallel. The direction ratios are proportional, so the lines are parallel (or coincident if they share a point). A student answering 90° confuses proportional direction ratios with the perpendicular condition a₁a₂+b₁b₂+c₁c₂=0.",
+     "self_check": true
+    },
+    {
+     "q": "A student found direction cosines of a line with direction ratios 2, 3, 6 as (2/7, 3/7, 6/7) and then stated the line makes angles 2/7, 3/7, 6/7 radians with the axes. Identify the error.",
+     "a": "The error: direction cosines are the cosines of the angles, not the angles themselves. The angles are cos⁻¹(2/7), cos⁻¹(3/7), cos⁻¹(6/7) (in degrees or radians). The student confused the value of cosine with the angle measure. This reveals a fundamental misunderstanding of the definition: l = cos α, not l = α.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a line in 3D space has direction cosines (1/2, 1/2, 1/√2). Find its direction ratios and the angles it makes with each axis. Then write a real-world scenario where this line could represent a physical direction.",
+     "a": "Direction ratios can be (1, 1, √2) or any multiple. Angles: 60°, 60°, 45°. Scenario: A staircase in a building goes up at 45° to the horizontal (z-axis) while making 60° angles with the east (x) and north (y) walls. A poor answer would give incorrect angles (e.g., 30° instead of 60°) or fail to provide a coherent 3D scenario, showing inability to interpret direction cosines geometrically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

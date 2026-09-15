@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_002",
+   "title": "c11_stat_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the two independent criteria used to classify correlation into the four types: positive, negative, linear, and non-linear.",
+     "a": "The two criteria are: (1) **Direction** — whether variables change in the same direction (positive) or opposite directions (negative); (2) **Pattern** — whether the relationship follows a constant ratio (linear) or a changing ratio (non-linear). A wrong answer that only mentions direction (e.g., “positive and negative are the only types”) reveals the student has not grasped that linearity is a separate, independent classification dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: “If correlation is positive, it must be linear because both variables increase together.” Explain why this statement is incorrect, using a concrete real-world example.",
+     "a": "Positive correlation only means variables move in the same direction; it does not require a constant rate of change. Example: A company’s advertising expenditure and sales revenue. Initially, small increases in advertising bring large sales gains (steep curve), but after saturation, huge advertising increases yield tiny sales gains (flattening curve). This is **positive but non-linear**. If the student thinks positive implies linear, they confuse direction with functional form — a critical error for later coefficient interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following paired observations on X (price in ₹) and Y (quantity demanded in kg):\n(10, 100), (12, 85), (14, 72), (16, 60), (18, 50), (20, 42)\nWithout drawing a graph, determine whether the correlation is positive or negative, and linear or non-linear. Show your reasoning step by step.",
+     "a": "**Step 1:** Observe direction: as X increases (10→20), Y decreases (100→42) → **negative correlation**.  \n**Step 2:** Check linearity: compute successive ratios of change.  \nΔX = 2 each step. ΔY: -15, -13, -12, -10, -8. The absolute change in Y is not constant (15, 13, 12, 10, 8) → ratio ΔY/ΔX is not constant → **non-linear**.  \n**Conclusion:** Negative, non-linear correlation.  \nA wrong answer claiming linearity reveals the student assumes any monotonic trend is linear, ignoring the need for constant marginal change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the scatter diagram patterns for: (a) positive linear, (b) positive non-linear, (c) negative linear, (d) negative non-linear. Describe the visual appearance and the underlying mathematical relationship in each case.",
+     "a": "(a) **Positive linear**: Points cluster around an upward-sloping straight line; Y = a + bX (b>0).  \n(b) **Positive non-linear**: Points follow an upward curve (e.g., concave down: diminishing returns, or concave up: accelerating returns); Y = f(X) with f' > 0 but f'' ≠ 0.  \n(c) **Negative linear**: Points cluster around a downward-sloping straight line; Y = a + bX (b<0).  \n(d) **Negative non-linear**: Points follow a downward curve (e.g., convex: steep fall then flattening); Y = f(X) with f' < 0 but f'' ≠ 0.  \nA student who draws all four as straight lines with different slopes has not understood that non-linearity means curvature, not just slope sign.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher calculates Karl Pearson’s correlation coefficient (r) for a data set and obtains r = 0.92. She concludes the correlation is strong, positive, and linear. Evaluate this conclusion. Is it fully justified? Why or why not?",
+     "a": "The conclusion is **not fully justified**. Karl Pearson’s r measures only the strength of **linear** association. A high r (0.92) confirms a strong linear component, but it does not rule out a non-linear pattern that also has a linear trend. For example, a perfect quadratic relationship (Y = X² for X>0) can yield a high r if the range is narrow. The researcher must **also examine the scatter diagram** to verify linearity. A student who thinks r alone confirms linearity commits the “correlation coefficient fallacy” — a major senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world scenario (Indian context) involving two variables that exhibit **negative non-linear correlation**. Describe the variables, the expected pattern, and why the relationship is non-linear rather than linear. Sketch a rough scatter diagram (describe it in words).",
+     "a": "**Scenario:** Average speed of a vehicle (km/h) vs. fuel efficiency (km/litre) in city traffic.  \n**Variables:** X = speed, Y = fuel efficiency.  \n**Pattern:** At very low speeds (0–20 km/h), efficiency is low due to idling. As speed increases to 40–60 km/h, efficiency rises sharply (negative correlation: speed up → efficiency up? Wait, negative correlation means one increases while the other decreases. Let's correct: Actually, as speed increases from low to moderate, efficiency increases → positive correlation. For negative non-linear: Consider **price of onions (₹/kg) vs. quantity purchased by a household (kg/month)**. As price rises, quantity bought falls, but the fall is steep at first (consumers cut back sharply) and then flattens (basic needs must be met). This is **negative non-linear** (convex curve).  \n**Scatter description:** Points start high on left (low price, high quantity), drop steeply, then curve gently downward to the right.  \nA poor answer that gives a linear demand curve shows the student hasn’t internalized diminishing marginal utility or necessity goods behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

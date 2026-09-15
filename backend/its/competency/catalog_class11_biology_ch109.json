@@ -1,0 +1,795 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 109,
+ "chapter_title": "Biomolecules: How to Analyse Chemical Composition",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo109.txt",
+ "concepts": [
+  {
+   "id": "kebo.109.1",
+   "title": "Chemical Analysis of Living Tissues",
+   "section": "9.1",
+   "definition": "Chemical extraction using trichloroacetic acid separates cellular contents into an acid-soluble filtrate of low molecular weight compounds and an acid-insoluble retentate.",
+   "formula": "dry_weight = wet_weight - water_mass",
+   "key_idea": "Acid fractionation separates low molecular weight metabolites from macromolecular insoluble cellular structures.",
+   "textbook_ref": "kebo109.txt lines 20-55",
+   "question_patterns": [
+    "how to analyze chemical composition of living tissues in Class 11 biology",
+    "determine dry weight from wet weight and water loss",
+    "calculate the dry weight of a plant tissue sample",
+    "find remaining dry mass given initial wet weight and evaporated water",
+    "what is the method for isolating acid soluble pool from retentate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract water mass from wet weight",
+     "explain": "dry weight is determined by subtracting evaporated water mass from total initial wet weight",
+     "compute": "dry_weight = wet_weight - water_mass"
+    },
+    {
+     "step": 2,
+     "action": "Validate the dry weight is non-negative",
+     "explain": "Confirm the water mass removed does not exceed the original wet weight, ensuring a physically meaningful dry mass remains."
+    },
+    {
+     "step": 3,
+     "action": "Classify the dry fraction into acid-soluble and acid-insoluble pools",
+     "explain": "Grind tissue with trichloroacetic acid to separate low molecular weight acid-soluble filtrate from macromolecular acid-insoluble retentate.",
+     "compute": "acid_soluble_fraction = filtrate_mass"
+    },
+    {
+     "step": 4,
+     "action": "Classify the dry fraction into acid-soluble and acid-insoluble pools",
+     "explain": "Grind tissue with trichloroacetic acid to separate low molecular weight acid-soluble filtrate from macromolecular acid-insoluble retentate.",
+     "compute": "acid_insoluble_fraction = retentate_mass"
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.2",
+   "title": "Primary and Secondary Metabolites",
+   "section": "9.2",
+   "definition": "Cellular organic molecules are grouped into primary metabolites essential for fundamental physiology and secondary metabolites serving specialized ecological roles.",
+   "formula": "total_metabolites = primary_count + secondary_count",
+   "key_idea": "Primary metabolites participate in basic living processes while secondary metabolites provide defense, coloration, or industrial utility.",
+   "textbook_ref": "kebo109.txt lines 130-160",
+   "question_patterns": [
+    "distinguish between primary and secondary metabolites in Class 11 biology",
+    "calculate total metabolite types from primary and secondary counts",
+    "find total number of identified metabolic compounds",
+    "how many total compounds exist if primary count is known",
+    "what are examples of secondary metabolites in plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add primary and secondary metabolite counts",
+     "explain": "total metabolite count is the sum of primary and secondary categories",
+     "compute": "total_metabolites = primary_count + secondary_count"
+    },
+    {
+     "step": 2,
+     "action": "Validate the total metabolite count is positive",
+     "explain": "Confirm both primary and secondary counts are non-negative so the sum represents a valid compound total."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish primary from secondary metabolite roles",
+     "explain": "Primary metabolites support basic physiology such as respiration, while secondary metabolites serve ecological roles like defense and pigmentation."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.3",
+   "title": "Cellular Mass and Biomacromolecules Composition",
+   "section": "9.3",
+   "definition": "Quantitative distribution of cellular components where macromolecules like proteins form the insoluble fraction while water dominates overall mass.",
+   "formula": "component_mass = (percentage * total_cell_mass) / 100",
+   "key_idea": "Biomacromolecules feature molecular weights above ten thousand daltons and make up most cellular structural dry weight.",
+   "textbook_ref": "kebo109.txt lines 165-210",
+   "question_patterns": [
+    "calculate the mass of cellular protein from percentage in Class 11 biology",
+    "find the weight of water in cell given total cell mass",
+    "determine component mass from cell composition percentage",
+    "how much nucleic acid is present in a given mass of tissue",
+    "compute cellular constituent weight using mass percent"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply total cell mass by percentage and divide by 100",
+     "explain": "component weight is calculated by multiplying total cellular mass by the fractional percentage",
+     "compute": "component_mass = (percentage * total_cell_mass) / 100"
+    },
+    {
+     "step": 2,
+     "action": "Validate the component mass is non-negative",
+     "explain": "Confirm the percentage and total cell mass are valid so the computed component mass is physically meaningful."
+    },
+    {
+     "step": 3,
+     "action": "Classify the component as macro or micromolecule",
+     "explain": "Biomacromolecules such as proteins and nucleic acids have molecular weights above ten thousand daltons and form the acid-insoluble fraction."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.4",
+   "title": "Proteins and Amino Acid Linkages",
+   "section": "9.4",
+   "definition": "Proteins are heteropolymers composed of amino acid monomers linked together sequentially by covalent peptide bonds.",
+   "formula": "peptide_bonds = amino_acid_count - 1",
+   "key_idea": "Unbranched polypeptide chains of N amino acid units contain N minus one peptide bonds.",
+   "textbook_ref": "kebo109.txt lines 215-250",
+   "question_patterns": [
+    "calculate number of peptide bonds in a linear protein chain",
+    "find peptide bond count for a given number of amino acids",
+    "determine total peptide bonds in a polypeptide sequence",
+    "how many peptide bonds connect a chain of amino acids",
+    "what is the peptide bond formula for linear proteins in Class 11 biology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract one from total amino acid monomers",
+     "explain": "in a linear polypeptide chain, the number of peptide bonds equals the amino acid count minus one",
+     "compute": "peptide_bonds = amino_acid_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "Validate the peptide bond count is non-negative",
+     "explain": "Confirm the amino acid count is at least one so the chain can form a valid polypeptide."
+    },
+    {
+     "step": 3,
+     "action": "Relate peptide bonds to heteropolymer structure",
+     "explain": "Proteins are heteropolymers of up to twenty amino acid types joined by covalent peptide bonds between carboxyl and amino groups."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.5",
+   "title": "Polysaccharides and Glycosidic Polymers",
+   "section": "9.5",
+   "definition": "Long sugar chains joined by glycosidic bonds function as structural walls or stored energy reserves like starch and glycogen.",
+   "formula": "monosaccharide_mass = total_polymer_mass / monomer_count",
+   "key_idea": "Complex polysaccharide chains consist of monosaccharide residues with distinct reducing and non-reducing ends.",
+   "textbook_ref": "kebo109.txt lines 255-290",
+   "question_patterns": [
+    "find average monomer mass in a polysaccharide chain",
+    "calculate average mass of monosaccharide unit in polysaccharide",
+    "determine individual sugar unit weight from total polysaccharide mass",
+    "how to compute monomer mass given polymer weight and monomer count",
+    "what is the building block weight of a polysaccharide polymer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total polymer weight by monomer count",
+     "explain": "average monosaccharide mass is obtained by dividing total polysaccharide weight by total monomer units",
+     "compute": "monosaccharide_mass = total_polymer_mass / monomer_count"
+    },
+    {
+     "step": 2,
+     "action": "Validate the monosaccharide mass is positive",
+     "explain": "Confirm the monomer count is greater than zero so the average monomer mass is well-defined."
+    },
+    {
+     "step": 3,
+     "action": "Identify reducing and non-reducing ends",
+     "explain": "Polysaccharide chains have a reducing end with a free anomeric carbon and a non-reducing end, distinguishing homopolymers like cellulose from heteropolymers like chitin."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.6",
+   "title": "Nucleic Acids and Nucleotide Structure",
+   "section": "9.6",
+   "definition": "Polynucleotides composed of nitrogenous bases, pentose sugars, and phosphate groups that store and transmit biological genetic information.",
+   "formula": "total_nucleotides = purine_count + pyrimidine_count",
+   "key_idea": "Nucleic acid polymers consist of purine and pyrimidine nucleotide monomers linked sequentially.",
+   "textbook_ref": "kebo109.txt lines 295-320",
+   "question_patterns": [
+    "calculate total nucleotides from purine and pyrimidine counts",
+    "find nucleotide count given purines and pyrimidines",
+    "determine combined total nitrogenous bases in a DNA strand",
+    "how many total nucleotides are in a nucleic acid segment",
+    "what is the sum of purine and pyrimidine bases in RNA"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add purine count and pyrimidine count",
+     "explain": "total nucleotides equal the sum of purine bases and pyrimidine bases",
+     "compute": "total_nucleotides = purine_count + pyrimidine_count"
+    },
+    {
+     "step": 2,
+     "action": "Validate the total nucleotide count is positive",
+     "explain": "Confirm both purine and pyrimidine counts are non-negative so the nucleic acid strand length is valid."
+    },
+    {
+     "step": 3,
+     "action": "Relate nucleotides to nucleic acid components",
+     "explain": "Each nucleotide consists of a nitrogenous base, a pentose sugar, and a phosphate group, linked to form polynucleotide chains that store genetic information."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.7",
+   "title": "Structural Organization of Proteins",
+   "section": "9.7",
+   "definition": "Proteins organize into primary sequences, secondary helices or sheets, tertiary globular folds, and quaternary multi-subunit assemblies.",
+   "formula": "none",
+   "key_idea": "Three-dimensional tertiary folding creates active sites required for catalytic and metabolic functions.",
+   "textbook_ref": "kebo109.txt lines 325-365",
+   "question_patterns": [
+    "describe four levels of protein structure in Class 11 biology",
+    "explain primary secondary tertiary and quaternary protein structures",
+    "what defines the tertiary structure of a protein",
+    "how do subunits arrange in quaternary structure like hemoglobin",
+    "differentiate N terminal and C terminal in protein primary chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify primary structure",
+     "explain": "Linear order of amino acid residues from N-terminal end to C-terminal end."
+    },
+    {
+     "step": 2,
+     "action": "Identify secondary and tertiary structures",
+     "explain": "Alpha helices and beta sheets form secondary structures, which fold into globular tertiary configurations that form catalytic active sites."
+    },
+    {
+     "step": 3,
+     "action": "Identify quaternary structure",
+     "explain": "Spatial arrangement of multiple folded polypeptide subunits working as a functional complex."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.8",
+   "title": "Enzyme Catalysis and Reaction Rate",
+   "section": "9.8.1",
+   "definition": "Enzymatic reaction rate represents the quantity of substrate converted into product per unit time.",
+   "formula": "rate = delta_p / delta_t",
+   "key_idea": "Enzymes greatly accelerate chemical conversion rates compared to uncatalysed background reactions.",
+   "textbook_ref": "kebo109.txt lines 370-430",
+   "question_patterns": [
+    "calculate enzymatic reaction rate in Class 11 biology",
+    "find rate of product formation per unit time",
+    "determine reaction velocity given product change and time",
+    "compute rate of chemical conversion delta P over delta t",
+    "how fast is product formed in an enzyme catalysed reaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide product change by time interval",
+     "explain": "reaction rate equals product formation divided by elapsed time",
+     "compute": "rate = delta_p / delta_t"
+    },
+    {
+     "step": 2,
+     "action": "Validate the reaction rate is positive",
+     "explain": "Confirm the time interval is greater than zero and product change is non-negative so the rate is physically meaningful."
+    },
+    {
+     "step": 3,
+     "action": "Compare catalysed rate to uncatalysed background",
+     "explain": "Enzymes greatly accelerate conversion rates compared to uncatalysed reactions by providing an alternative lower-energy pathway.",
+     "compute": "rate_ratio = catalysed_rate / uncatalysed_rate"
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.9",
+   "title": "Activation Energy and Catalytic Acceleration",
+   "section": "9.8.9",
+   "definition": "Enzymes lower the activation energy barrier necessary to reach the high-energy transition state, increasing conversion speed.",
+   "formula": "fold_acceleration = catalysed_rate / uncatalysed_rate",
+   "key_idea": "Substrate binding at active sites lowers activation energy to accelerate chemical transformation.",
+   "textbook_ref": "kebo109.txt lines 435-480",
+   "question_patterns": [
+    "calculate fold acceleration of reaction by enzyme",
+    "find rate increase factor comparing catalysed and uncatalysed reaction",
+    "determine catalytic enhancement ratio of carbonic anhydrase",
+    "compute how many times faster enzyme speeds up reaction",
+    "what is the fold acceleration given catalysed and uncatalysed rates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide catalysed reaction rate by uncatalysed reaction rate",
+     "explain": "fold acceleration measures the relative rate enhancement achieved by enzyme catalysis",
+     "compute": "fold_acceleration = catalysed_rate / uncatalysed_rate"
+    },
+    {
+     "step": 2,
+     "action": "Validate the fold acceleration exceeds unity",
+     "explain": "Confirm the catalysed rate is greater than the uncatalysed rate, since enzymes lower activation energy to speed up reactions."
+    },
+    {
+     "step": 3,
+     "action": "Relate fold acceleration to activation energy reduction",
+     "explain": "Substrate binding at the enzyme active site stabilizes the transition state, lowering activation energy and producing the observed rate enhancement."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.10",
+   "title": "Enzyme Kinetics and Factors Affecting Activity",
+   "section": "9.8.4",
+   "definition": "Enzyme velocity increases with substrate concentration until reaching maximum velocity Vmax, influenced by pH, temperature, and inhibitors.",
+   "formula": "half_vmax = vmax / 2",
+   "key_idea": "Saturation of active sites at high substrate concentration defines maximum enzymatic rate Vmax.",
+   "textbook_ref": "kebo109.txt lines 515-570",
+   "question_patterns": [
+    "calculate half maximum velocity from Vmax in Class 11 biology",
+    "find half Vmax value for enzyme kinetics curve",
+    "determine velocity at Km substrate concentration",
+    "compute value of half Vmax given maximum velocity",
+    "what is half maximum velocity in enzyme concentration curve"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide maximum velocity Vmax by 2",
+     "explain": "half Vmax represents 50 percent of the maximum enzymatic velocity",
+     "compute": "half_vmax = vmax / 2"
+    },
+    {
+     "step": 2,
+     "action": "Validate the half Vmax is positive",
+     "explain": "Confirm Vmax is positive so half Vmax represents a meaningful enzymatic velocity at the Km substrate concentration."
+    },
+    {
+     "step": 3,
+     "action": "Relate half Vmax to substrate concentration and Km",
+     "explain": "Km is the substrate concentration at which reaction velocity equals half Vmax, reflecting enzyme-substrate affinity and saturation behavior."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.11",
+   "title": "Enzyme Classification and Co-factors",
+   "section": "9.8.5",
+   "definition": "Enzymes are classified into six categories based on reaction type, requiring non-protein cofactors for full catalytic function.",
+   "formula": "none",
+   "key_idea": "Active holoenzyme consists of the protein apoenzyme combined with organic or inorganic cofactors.",
+   "textbook_ref": "kebo109.txt lines 575-630",
+   "question_patterns": [
+    "explain the six main classes of enzymes in Class 11 biology",
+    "describe cofactors prosthetic groups coenzymes and metal ions",
+    "what is the role of apoenzyme and cofactor in enzyme activity",
+    "differentiate oxidoreductases transferases hydrolases lyases isomerases ligases",
+    "give examples of enzyme cofactors like haem or zinc"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List six major enzyme classes",
+     "explain": "Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, and Ligases according to chemical reaction type."
+    },
+    {
+     "step": 2,
+     "action": "Define apoenzyme and cofactor",
+     "explain": "Apoenzyme is the protein component, requiring non-protein cofactors to achieve catalytic activity."
+    },
+    {
+     "step": 3,
+     "action": "Classify cofactors into three types",
+     "explain": "Prosthetic groups tightly bound to apoenzyme, transient coenzymes derived from vitamins, and metallic ions forming coordination bonds."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo109.txt line 35",
+   "concept": "kebo.109.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the dry weight of a tissue sample with wet weight {wet_weight} grams and water mass {water_mass} grams.",
+   "extracted_variables": {
+    "wet_weight": 100,
+    "water_mass": 75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract water mass from wet weight",
+     "explain": "dry weight is determined by subtracting evaporated water mass from total initial wet weight",
+     "compute": "dry_weight = wet_weight - water_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo109.txt line 35",
+   "concept": "kebo.109.1",
+   "question_type": "compute",
+   "question_pattern": "Determine remaining dry weight when leaf wet weight is {wet_weight} milligrams and evaporated water is {water_mass} milligrams.",
+   "extracted_variables": {
+    "wet_weight": 50,
+    "water_mass": 42
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract water mass from wet weight",
+     "explain": "dry weight is determined by subtracting evaporated water mass from total initial wet weight",
+     "compute": "dry_weight = wet_weight - water_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo109.txt line 140",
+   "concept": "kebo.109.2",
+   "question_type": "compute",
+   "question_pattern": "Find the total number of metabolic compounds when primary count is {primary_count} and secondary count is {secondary_count}.",
+   "extracted_variables": {
+    "primary_count": 120,
+    "secondary_count": 350
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add primary and secondary metabolite counts",
+     "explain": "total metabolite count is the sum of primary and secondary categories",
+     "compute": "total_metabolites = primary_count + secondary_count"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kebo109.txt line 140",
+   "concept": "kebo.109.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate total identified metabolites given {primary_count} primary compounds and {secondary_count} secondary compounds.",
+   "extracted_variables": {
+    "primary_count": 45,
+    "secondary_count": 210
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add primary and secondary metabolite counts",
+     "explain": "total metabolite count is the sum of primary and secondary categories",
+     "compute": "total_metabolites = primary_count + secondary_count"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kebo109.txt Table 9.4",
+   "concept": "kebo.109.3",
+   "question_type": "compute",
+   "question_pattern": "Determine cellular protein mass when protein percentage is {percentage} percent in a cell mass of {total_cell_mass} milligrams.",
+   "extracted_variables": {
+    "percentage": 15,
+    "total_cell_mass": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply total cell mass by percentage and divide by 100",
+     "explain": "component weight is calculated by multiplying total cellular mass by the fractional percentage",
+     "compute": "component_mass = (percentage * total_cell_mass) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kebo109.txt Table 9.4",
+   "concept": "kebo.109.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate total water mass in a organism sample of {total_cell_mass} grams where water constitutes {percentage} percent of mass.",
+   "extracted_variables": {
+    "percentage": 70,
+    "total_cell_mass": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply total cell mass by percentage and divide by 100",
+     "explain": "component weight is calculated by multiplying total cellular mass by the fractional percentage",
+     "compute": "component_mass = (percentage * total_cell_mass) / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "kebo109.txt line 218",
+   "concept": "kebo.109.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of peptide bonds in a polypeptide with {amino_acid_count} amino acid residues.",
+   "extracted_variables": {
+    "amino_acid_count": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract one from total amino acid monomers",
+     "explain": "in a linear polypeptide chain, the number of peptide bonds equals the amino acid count minus one",
+     "compute": "peptide_bonds = amino_acid_count - 1"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "kebo109.txt line 218",
+   "concept": "kebo.109.4",
+   "question_type": "compute",
+   "question_pattern": "Find how many peptide bonds link a protein polymer containing {amino_acid_count} amino acids.",
+   "extracted_variables": {
+    "amino_acid_count": 450
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract one from total amino acid monomers",
+     "explain": "in a linear polypeptide chain, the number of peptide bonds equals the amino acid count minus one",
+     "compute": "peptide_bonds = amino_acid_count - 1"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "kebo109.txt line 258",
+   "concept": "kebo.109.5",
+   "question_type": "compute",
+   "question_pattern": "Find the average monosaccharide unit mass for a polysaccharide with total mass {total_polymer_mass} daltons and {monomer_count} sugar monomers.",
+   "extracted_variables": {
+    "total_polymer_mass": 16200,
+    "monomer_count": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total polymer weight by monomer count",
+     "explain": "average monosaccharide mass is obtained by dividing total polysaccharide weight by total monomer units",
+     "compute": "monosaccharide_mass = total_polymer_mass / monomer_count"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "kebo109.txt line 258",
+   "concept": "kebo.109.5",
+   "question_type": "compute",
+   "question_pattern": "Determine monomer mass of a homopolysaccharide chain with total weight {total_polymer_mass} Da having {monomer_count} monomer units.",
+   "extracted_variables": {
+    "total_polymer_mass": 81000,
+    "monomer_count": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total polymer weight by monomer count",
+     "explain": "average monosaccharide mass is obtained by dividing total polysaccharide weight by total monomer units",
+     "compute": "monosaccharide_mass = total_polymer_mass / monomer_count"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "kebo109.txt line 305",
+   "concept": "kebo.109.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate total nucleotides in a nucleic acid containing {purine_count} purines and {pyrimidine_count} pyrimidines.",
+   "extracted_variables": {
+    "purine_count": 150,
+    "pyrimidine_count": 150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add purine count and pyrimidine count",
+     "explain": "total nucleotides equal the sum of purine bases and pyrimidine bases",
+     "compute": "total_nucleotides = purine_count + pyrimidine_count"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "kebo109.txt line 305",
+   "concept": "kebo.109.6",
+   "question_type": "compute",
+   "question_pattern": "Find combined nucleotide total for an RNA fragment with {purine_count} purine bases and {pyrimidine_count} pyrimidine bases.",
+   "extracted_variables": {
+    "purine_count": 80,
+    "pyrimidine_count": 120
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add purine count and pyrimidine count",
+     "explain": "total nucleotides equal the sum of purine bases and pyrimidine bases",
+     "compute": "total_nucleotides = purine_count + pyrimidine_count"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "kebo109.txt line 400",
+   "concept": "kebo.109.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the reaction rate when product change is {delta_p} molecules in time interval {delta_t} seconds.",
+   "extracted_variables": {
+    "delta_p": 600000,
+    "delta_t": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide product change by time interval",
+     "explain": "reaction rate equals product formation divided by elapsed time",
+     "compute": "rate = delta_p / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "kebo109.txt line 400",
+   "concept": "kebo.109.8",
+   "question_type": "compute",
+   "question_pattern": "Find the reaction velocity if {delta_p} molecules of carbonic acid are formed over {delta_t} seconds.",
+   "extracted_variables": {
+    "delta_p": 1200,
+    "delta_t": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide product change by time interval",
+     "explain": "reaction rate equals product formation divided by elapsed time",
+     "compute": "rate = delta_p / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "kebo109.txt line 410",
+   "concept": "kebo.109.9",
+   "question_type": "compute",
+   "question_pattern": "Find fold acceleration when catalysed rate is {catalysed_rate} molecules per second and uncatalysed rate is {uncatalysed_rate} molecules per second.",
+   "extracted_variables": {
+    "catalysed_rate": 600000,
+    "uncatalysed_rate": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide catalysed reaction rate by uncatalysed reaction rate",
+     "explain": "fold acceleration measures the relative rate enhancement achieved by enzyme catalysis",
+     "compute": "fold_acceleration = catalysed_rate / uncatalysed_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "kebo109.txt line 410",
+   "concept": "kebo.109.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate catalytic enhancement fold given catalysed reaction speed {catalysed_rate} units per second and baseline speed {uncatalysed_rate} units per second.",
+   "extracted_variables": {
+    "catalysed_rate": 1000000,
+    "uncatalysed_rate": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide catalysed reaction rate by uncatalysed reaction rate",
+     "explain": "fold acceleration measures the relative rate enhancement achieved by enzyme catalysis",
+     "compute": "fold_acceleration = catalysed_rate / uncatalysed_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "kebo109.txt Figure 9.5",
+   "concept": "kebo.109.10",
+   "question_type": "compute",
+   "question_pattern": "Determine half Vmax when maximum enzymatic velocity Vmax is {vmax} units.",
+   "extracted_variables": {
+    "vmax": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide maximum velocity Vmax by 2",
+     "explain": "half Vmax represents 50 percent of the maximum enzymatic velocity",
+     "compute": "half_vmax = vmax / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "kebo109.txt Figure 9.5",
+   "concept": "kebo.109.10",
+   "question_type": "compute",
+   "question_pattern": "Find the half maximum velocity for an enzyme reaction achieving Vmax of {vmax} micromoles per minute.",
+   "extracted_variables": {
+    "vmax": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide maximum velocity Vmax by 2",
+     "explain": "half Vmax represents 50 percent of the maximum enzymatic velocity",
+     "compute": "half_vmax = vmax / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo109.txt line 635",
+   "questions": [
+    "What are macromolecules? Give examples."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo109.txt line 636",
+   "questions": [
+    "What is meant by tertiary structure of proteins?"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo109.txt line 637",
+   "questions": [
+    "Find and write down structures of 10 interesting small molecular weight biomolecules."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kebo109.txt line 640",
+   "questions": [
+    "Find out and make a list of proteins used as therapeutic agents."
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kebo109.txt line 642",
+   "questions": [
+    "Explain the composition of triglyceride."
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kebo109.txt line 645",
+   "questions": [
+    "Draw the structure of the amino acid, alanine."
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "kebo109.txt line 650",
+   "questions": [
+    "Describe the important properties of enzymes."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL"
+}

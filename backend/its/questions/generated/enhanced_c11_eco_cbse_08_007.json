@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_007",
+   "title": "c11_eco_cbse_08_007",
+   "questions": [
+    {
+     "q": "What are the three dimension indices that constitute the HDI according to the 2010 revised methodology, and what specific indicators are used for each dimension?",
+     "a": "The three dimension indices are: (1) Health Index - measured by life expectancy at birth; (2) Education Index - measured by mean years of schooling (adults 25+) and expected years of schooling (children); (3) Standard of Living Index - measured by GNI per capita at PPP (constant 2017 international $). A wrong answer listing \"literacy rate\" or \"GDP per capita\" instead of \"mean years of schooling\" and \"GNI per capita at PPP\" reveals the student is using the pre-2010 HDI methodology, confusing the updated indicators with the older ones.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.5 data, explain why China's HDI rank (78) is substantially better than India's (130) and Pakistan's (168) despite all three countries having similar per capita incomes in the 1980s.",
+     "a": "China's superior HDI stems from pre-reform (pre-1978) investments in basic health (barefoot doctors, commune health systems) and education (universal primary schooling under communes) that created high baseline human capital. Post-1978 reforms then amplified these gains through rapid income growth (GNI per capita PPP $22,029 vs India's $9,047). A wrong answer attributing China's HDI lead solely to post-1978 economic reforms misses the critical role of pre-reform social infrastructure - the textbook explicitly states \"establishment of infrastructure in education and health... helped positively in improving social and income indicators in the post-reform period.\"",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate Health Index for India, China, and Pakistan using the HDI formula: Health Index = (LE - 20) / (85 - 20), where LE is life expectancy at birth. Use Table 8.5 values (India: 72.0, China: 78.0, Pakistan: 67.6). Show your work.",
+     "a": "Health Index = (LE - 20) / 65.\nIndia: (72.0 - 20) / 65 = 52 / 65 = 0.800\nChina: (78.0 - 20) / 65 = 58 / 65 = 0.892\nPakistan: (67.6 - 20) / 65 = 47.6 / 65 = 0.732\nA wrong answer using (LE / 85) or forgetting to subtract the minimum (20) reveals misunderstanding of the goalpost normalization method - the index measures achievement relative to a minimum (20 years) and maximum (85 years), not absolute life expectancy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the maternal mortality rate (MMR) data in Table 8.5 (India: 103, China: 23, Pakistan: 154 per 1 lakh births) in relation to the \"liberty indicators\" discussion in the textbook. Why might MMR be considered a proxy for women's agency and reproductive rights?",
+     "a": "MMR reflects access to reproductive healthcare, skilled birth attendance, and women's decision-making power over their bodies - all liberty indicators. China's low MMR (23) correlates with strong state-provided maternal healthcare and women's workforce participation since the 1950s. India and Pakistan's high MMR (103, 154) indicate gaps in healthcare access and patriarchal norms limiting women's reproductive autonomy. A wrong answer treating MMR purely as a \"health indicator\" misses the textbook's argument that HDI lacks \"liberty indicators\" like \"constitutional protection given to rights of citizens\" - MMR disparities reveal gendered liberty deficits that HDI's education and income components don't capture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"China's one-child policy was the primary driver of its superior HDI performance compared to India and Pakistan.\" Use evidence from Table 8.1 (demographic indicators) and Table 8.5 (HDI indicators).",
+     "a": "The claim is partially true but incomplete. The one-child policy (Table 8.1: China's population growth -0.10%, fertility rate 1.2 vs India's 2.0, Pakistan's 3.4) reduced dependency ratios, enabling higher per capita investment in health/education. However, Table 8.5 shows China's HDI lead existed in components NOT directly caused by population control: life expectancy (78 vs 72/67.6) and mean years schooling (8.0 vs 6.9/4.3) reflect pre-1978 social investments. The textbook states HDI improvements \"were attributed not to the reform process but the strategies that China adopted in the pre-reform period.\" A wrong answer crediting only the one-child policy ignores the foundational role of pre-reform commune-based health/education systems.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \"Liberty-Adjusted HDI\" framework for comparing India, China, and Pakistan. Propose three measurable liberty indicators (beyond those mentioned in the textbook) that could be quantified and integrated, justifying each with a specific constitutional or legal provision from each country.",
+     "a": "A strong answer proposes indicators like: (1) Judicial Independence Index - measured by tenure security of judges (India: Article 124/217; China: NPCSC interpretation powers; Pakistan: judicial commissions), (2) Press Freedom Score - using Reporters Without Borders methodology linked to constitutional free speech guarantees (India: Art 19(1)(a); China: Art 35; Pakistan: Art 19), (3) Minority Rights Protection - measured by anti-discrimination case enforcement (India: Art 29-30; China: Regional Ethnic Autonomy Law; Pakistan: Art 20-22). A poor answer lists vague concepts like \"democracy\" or \"freedom\" without measurable indicators tied to specific legal frameworks, missing the textbook's call for indicators that \"have not even been introduced so far\" with \"overriding importance.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

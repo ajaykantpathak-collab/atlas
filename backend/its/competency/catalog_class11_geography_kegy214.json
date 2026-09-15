@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 214,
+ "chapter_title": "Life on the Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy214.txt",
+ "concepts": [
+  {
+   "id": "kegy.214.1.1",
+   "title": "Biosphere, Ecosystem and Ecological Balance",
+   "section": "",
+   "definition": "The biosphere is the narrow zone where lithosphere, hydrosphere and atmosphere meet and life exists, organised into ecosystems of producers, consumers and decomposers exchanging energy and matter through food chains, food webs and nutrient cycling, which keep the ecological balance.",
+   "formula": "",
+   "key_idea": "Energy flows one way through the ecosystem from green plants to consumers, while nutrients recycle, so disruption at any level unbalances the whole system.",
+   "textbook_ref": "kegy214.txt biosphere and ecosystem sections",
+   "question_patterns": [
+    "define biosphere and ecosystem",
+    "describe the food chain and food web with examples",
+    "state the role of producers consumers and decomposers",
+    "what is ecological balance and how is it disturbed",
+    "explain the flow of energy in an ecosystem",
+    "differentiate habitat and niche"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.214.2.1",
+   "title": "Biodiversity, Its Loss and Conservation",
+   "section": "",
+   "definition": "Biodiversity covers the variety of genes, species and ecosystems on the earth, and its loss proceeds through habitat destruction, overexploitation, pollution, invasive species and climate change, demanding conservation through biosphere reserves, national parks, sanctuaries and laws.",
+   "formula": "",
+   "key_idea": "Tropical forests hold the richest biodiversity, and in-situ conservation in reserves alongside ex-situ methods like zoos and gene banks protects species for the future.",
+   "textbook_ref": "kegy214.txt biodiversity sections",
+   "question_patterns": [
+    "define biodiversity and its three levels",
+    "state the causes of loss of biodiversity",
+    "describe the methods of conservation of biodiversity",
+    "what are biosphere reserves and their zones",
+    "distinguish in-situ and ex-situ conservation",
+    "why is biodiversity important for human survival"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.214.3.1",
+   "title": "Life Forms, Their Evolution and Threats to the Biosphere",
+   "section": "Life on the earth",
+   "definition": "Life evolved in the primordial oceans from simple cells to complex plants and animals over billions of years, and today pollution, habitat loss, invasive species and climate change threaten the biosphere, so environmental ethics and sustainable living are needed to keep the earth habitable.",
+   "formula": "",
+   "key_idea": "Human survival depends on the biosphere's services of oxygen, food, water purification and climate regulation, which damaged ecosystems can no longer provide.",
+   "textbook_ref": "kegy214.txt evolution and threats sections",
+   "question_patterns": [
+    "how did life originate and evolve on the earth",
+    "state the threats to the biosphere from human activities",
+    "what is sustainable development and why is it needed",
+    "how does pollution affect living organisms",
+    "define environmental ethics with examples",
+    "why are forests called the lungs of the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy214.txt exercises",
+   "questions": [
+    "Multiple choice on biosphere and biodiversity.",
+    "Define biosphere and explain its importance.",
+    "What is an ecosystem? Describe its components.",
+    "Explain the causes of biodiversity loss and conservation methods.",
+    "Write a note on food chains and food webs."
+   ]
+  }
+ ]
+}

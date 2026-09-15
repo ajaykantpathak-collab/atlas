@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_005",
+   "title": "c11_cs_cbse_04_005",
+   "questions": [
+    {
+     "q": "List all Python keywords that begin with the letter 'f' or 'w' and state the total number of keywords in Python 3.10.",
+     "a": "The keywords starting with 'f' are: `False`, `finally`, `for`, `from`. The keywords starting with 'w' are: `while`, `with`. Python 3.10 has 35 keywords (33 standard + 2 soft keywords: `match`, `case`). A wrong answer (e.g., missing `finally` or counting `def` under 'f') reveals the student has not memorised the exact keyword list and relies on vague recall, which leads to accidentally using keywords as identifiers in exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `my-variable = 10` and gets a SyntaxError. Another writes `my_variable = 10` and it works. Explain why the first fails and the second succeeds, referencing the exact lexical rule for identifiers.",
+     "a": "The first fails because the hyphen (`-`) is not a permitted character in identifiers — only letters, digits, and underscore (`_`) are allowed after the first character. The second succeeds because `my_variable` uses only permitted characters and starts with a letter. A wrong answer (e.g., \"hyphen means subtraction\") reveals confusion between *operators* in expressions and *characters in names* — the student thinks the parser sees `my - variable` as an expression, not realising tokenisation happens before parsing.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following tokens, classify each as: (a) Keyword, (b) Valid Identifier, (c) Invalid Identifier. Justify each classification in one sentence.\n1. `_count`\n2. `2ndPlace`\n3. `None`\n4. `for_loop`\n5. `global`\n6. `my@email`",
+     "a": "1. `_count` → (b) Valid Identifier: starts with underscore, followed by letters.  \n2. `2ndPlace` → (c) Invalid Identifier: starts with a digit (violates start-character rule).  \n3. `None` → (a) Keyword: it is a reserved constant (singleton).  \n4. `for_loop` → (b) Valid Identifier: contains `for` as substring but is not the keyword `for`.  \n5. `global` → (a) Keyword: used for variable scope declaration.  \n6. `my@email` → (c) Invalid Identifier: contains `@` which is not a letter, digit, or underscore.  \nA wrong classification (e.g., marking `for_loop` as keyword) reveals the student thinks any identifier containing a keyword is invalid — a common overgeneralisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the identifiers `TotalMarks`, `totalMarks`, `total_marks`, and `TOTAL_MARKS`. Which follow PEP 8 conventions for (i) variables/functions, (ii) classes, (iii) constants? Explain the convention each represents.",
+     "a": "- `total_marks` → snake_case: PEP 8 standard for **variables and functions**.  \n- `TotalMarks` → CamelCase (PascalCase): PEP 8 standard for **class names**.  \n- `TOTAL_MARKS` → UPPER_SNAKE_CASE: PEP 8 convention for **module-level constants**.  \n- `totalMarks` → camelCase (lower camel case): **not standard in Python**; used in Java/JS.  \nA wrong answer (e.g., saying `totalMarks` is preferred for variables) reveals the student is carrying conventions from other languages and has not internalised Python's distinct style guide.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since `print` is not a keyword (it doesn't appear in `keyword.kwlist`), I can safely write `print = 42` and use `print` as a variable.\" Evaluate this claim. Is it syntactically valid? Is it good practice? What happens to the built-in function?",
+     "a": "Syntactically **valid** — `print` is a built-in name, not a keyword, so `print = 42` executes without error. However, it is **bad practice** because it shadows the built-in `print()` function in the current scope, making it inaccessible unless `del print` or restart. The claim is **partially correct but dangerous** — confusing \"not a keyword\" with \"safe to override\" ignores namespace pollution. A wrong evaluation (e.g., \"it causes SyntaxError\") reveals the student conflates keywords with built-ins, a critical distinction for debugging name errors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a valid Python identifier for each scenario, following PEP 8. Justify each choice.\n(i) A variable storing the number of students in a class.\n(ii) A function that calculates compound interest.\n(iii) A class representing a bank account.\n(iv) A constant for maximum login attempts.\n(v) A temporary loop counter in a 3-line loop.",
+     "a": "(i) `student_count` — snake_case, descriptive, noun phrase.  \n(ii) `calculate_compound_interest` — snake_case, verb phrase, action-oriented.  \n(iii) `BankAccount` — CamelCase, singular noun, class convention.  \n(iv) `MAX_LOGIN_ATTEMPTS` — UPPER_SNAKE_CASE, module-level constant.  \n(v) `i` — acceptable exception: single-letter for short-lived loop index (PEP 8 allows `i`, `j`, `k` in tight loops).  \nA poor answer (e.g., `numOfStudents`, `CalcInterest`, `bank_account`, `maxAttempts`, `counter`) reveals inconsistent convention use, lack of PEP 8 awareness, or over-engineering simple cases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

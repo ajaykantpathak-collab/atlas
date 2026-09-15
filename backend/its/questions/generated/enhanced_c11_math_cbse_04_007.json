@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_04_007",
+   "title": "c11_math_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the precise logical structure of the inductive hypothesis in a standard mathematical induction proof. What exactly do we assume, and for which values?",
+     "a": "The inductive hypothesis assumes that the statement P(k) is true for **some arbitrary but fixed** natural number k (k ≥ base case). We do NOT assume it is true for all k, nor for all numbers up to k. A wrong answer like \"assume P(k) is true for all k\" reveals the student confuses the hypothesis with the conclusion they are trying to prove, leading to circular reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following \"proof\" is invalid: To prove 1+3+5+...+(2n-1) = n², a student writes: \"Assume 1+3+...+(2k-1) = k². Then for k+1: 1+3+...+(2k-1)+(2k+1) = k²+(2k+1) = (k+1)². Hence proved.\" What subtle but critical step is missing before the inductive step?",
+     "a": "The student omitted the **base case verification** (n=1). Without checking P(1), the inductive step only shows that *if* P(k) is true then P(k+1) is true, but there is no starting point to trigger the chain. A wrong answer that focuses only on algebra reveals the student thinks induction is purely algebraic manipulation, ignoring the logical foundation of the principle.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prove n! > 2ⁿ for n ≥ 4 by induction. Their base case: 4! = 24 > 16 = 2⁴ ✓. Inductive step: Assume k! > 2ᵏ. Then (k+1)! = (k+1)k! > (k+1)2ᵏ. They then claim (k+1)2ᵏ > 2ᵏ⁺¹ because k+1 > 2 for k≥4. Is this proof complete? If not, what is missing?",
+     "a": "The proof is **incomplete**. The student correctly derived (k+1)! > (k+1)2ᵏ but then implicitly used (k+1)2ᵏ ≥ 2·2ᵏ = 2ᵏ⁺¹. However, they must explicitly state that since k ≥ 4, k+1 ≥ 5 > 2, so (k+1)2ᵏ > 2·2ᵏ = 2ᵏ⁺¹, giving (k+1)! > 2ᵏ⁺¹. A wrong answer that says \"it's complete\" reveals the student accepts implicit inequalities without writing the explicit chain, a common pitfall in inequality inductions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two approaches for the inductive step of proving ∑_{i=1}^n i³ = [n(n+1)/2]²:\nApproach A: Start with LHS of P(k+1) = ∑_{i=1}^{k+1} i³ = [k(k+1)/2]² + (k+1)³, then simplify to [(k+1)(k+2)/2]².\nApproach B: Start with the goal [(k+1)(k+2)/2]² and work backwards to [k(k+1)/2]² + (k+1)³.\nWhich approach is logically valid for a formal proof? Why is the other approach dangerous?",
+     "a": "Approach A is valid; Approach B is **dangerous and formally invalid**. Approach A follows the logical direction: assume P(k), then derive P(k+1) by forward reasoning. Approach B starts with the conclusion (P(k+1)) and works backwards to the assumption (P(k)), which only shows that P(k+1) *implies* P(k) — the converse of what is needed. A student who prefers Approach B reveals a misunderstanding of logical implication direction, often leading to \"proofs\" that assume the conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's proof that 7ⁿ - 3ⁿ is divisible by 4 for all n ∈ ℕ:\n\"Base: n=1, 7-3=4 divisible by 4 ✓.\nAssume 7ᵏ - 3ᵏ = 4m.\nFor k+1: 7ᵏ⁺¹ - 3ᵏ⁺¹ = 7·7ᵏ - 3·3ᵏ = 7(4m+3ᵏ) - 3·3ᵏ = 28m + 7·3ᵏ - 3·3ᵏ = 28m + 4·3ᵏ = 4(7m+3ᵏ). Hence divisible by 4.\"\nIs this proof correct? If yes, what makes it a good model? If no, identify the error.",
+     "a": "The proof is **correct and exemplary**. It properly verifies the base case, states the inductive hypothesis with an explicit integer m, substitutes 7ᵏ = 4m+3ᵏ (rearranged from hypothesis), and factors out 4 cleanly. A student who says \"it's wrong because they used 7ᵏ = 4m+3ᵏ instead of 7ᵏ = 3ᵏ+4m\" reveals a superficial focus on form over substance; both are algebraically equivalent. The proof demonstrates the key technique: express the (k+1) expression in terms of the k expression using the hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flawed induction proof for the statement \"n² + n + 41 is prime for all n ∈ ℕ\" that contains exactly two of the common pitfalls discussed. Write the proof and then annotate each pitfall.",
+     "a": "A good answer would present a proof like:\n\"Base: n=1, 1+1+41=43 prime ✓.\nAssume k²+k+41 is prime.\nFor k+1: (k+1)²+(k+1)+41 = k²+2k+1+k+1+41 = (k²+k+41) + 2k+2.\nSince k²+k+41 is prime, and 2k+2 is even, the sum is prime. Hence proved.\"\nPitfall 1: The inductive step incorrectly assumes that adding an even number to a prime yields a prime (false, e.g., 3+2=5 prime but 7+2=9 not prime). Pitfall 2: The proof never uses the inductive hypothesis in a meaningful algebraic way; it just states a false property about primes. A poor answer would only list generic errors like \"no base case\" without embedding them in a concrete flawed proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "catalog": "catalog_class11_economics_ch6",
+ "concepts": [
+  {
+   "id": "c11eco.6.1",
+   "title": "Production Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Production Function' refers to.",
+     "a": "A production function expresses the maximum quantity of output that can be produced from given quantities of inputs, given the technology.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Production Function'.",
+     "a": "Output depends on the quantities of inputs and the state of technology; it shows the maximum feasible output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Production Function', in plain ASCII form.",
+     "a": "Q = f(L, K) where Q is output, L is labour, K is capital",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.2",
+   "title": "Short Run and Long Run in Production",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Short Run and Long Run in Production' refers to.",
+     "a": "The short run is a period in which some inputs are fixed and others are variable. The long run is a period in which all inputs are variable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Short Run and Long Run in Production'.",
+     "a": "In the short run, output can be changed only by varying variable inputs; in the long run, all inputs can be varied.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Short Run and Long Run in Production'.",
+     "a": "distinguish between short run and long run production",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.3",
+   "title": "Total, Average and Marginal Product",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Total, Average and Marginal Product' refers to.",
+     "a": "Total product (TP) is the total output from a given input. Average product (AP) is output per unit of input. Marginal product (MP) is the additional output from using one more unit of input.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total, Average and Marginal Product'.",
+     "a": "MP is the change in TP from one extra unit of input; AP is TP divided by the number of units of input.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total, Average and Marginal Product', in plain ASCII form.",
+     "a": "AP = TP / L; MP = TP_n - TP_(n-1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.4",
+   "title": "Law of Variable Proportions (Returns to a Factor)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Law of Variable Proportions (Returns to a Factor)' refers to.",
+     "a": "As more units of a variable input are added to a fixed input, total product first increases at an increasing rate, then at a diminishing rate, and eventually falls.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Law of Variable Proportions (Returns to a Factor)'.",
+     "a": "The law operates in the short run when one factor is fixed; MP eventually diminishes and may become negative.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Law of Variable Proportions (Returns to a Factor)', in plain ASCII form.",
+     "a": "Stage 1: MP rises; Stage 2: MP falls but positive; Stage 3: MP negative",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.5",
+   "title": "Short Run Costs: Total, Fixed and Variable",
+   "questions": [
+    {
+     "q": "Compute total cost from fixed and variable costs. Use the method 'Short Run Costs: Total, Fixed and Variable'. Work with: tfc = 80, tvc = 300. Carry the chain through step by step and give the final value of the result.",
+     "a": "380 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find TFC and TVC given TC at different output levels. Use the method 'Short Run Costs: Total, Fixed and Variable'. Work with: tfc = 80, tvc = 100. Carry the chain through step by step and give the final value of the result.",
+     "a": "180 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Short Run Costs: Total, Fixed and Variable' refers to.",
+     "a": "Total cost (TC) is the sum of total fixed cost (TFC) and total variable cost (TVC). TFC does not change with output; TVC varies with output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Short Run Costs: Total, Fixed and Variable'.",
+     "a": "Fixed costs are incurred even at zero output; variable costs rise with output; total cost is their sum.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Short Run Costs: Total, Fixed and Variable', in plain ASCII form.",
+     "a": "TC = TFC + TVC",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.6",
+   "title": "Short Run Average Costs: AFC, AVC and AC",
+   "questions": [
+    {
+     "q": "Compute AFC, AVC and AC from cost data. Use the method 'Short Run Average Costs: AFC, AVC and AC'. Work with: q = 3, tc = 400. Carry the chain through step by step and give the final value of the result.",
+     "a": "133.3333 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find output at which AC is minimum. Use the method 'Short Run Average Costs: AFC, AVC and AC'. Work with: q = 3, tc = 60. Carry the chain through step by step and give the final value of the result.",
+     "a": "20 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Short Run Average Costs: AFC, AVC and AC' refers to.",
+     "a": "Average fixed cost (AFC) is fixed cost per unit of output. Average variable cost (AVC) is variable cost per unit. Average cost (AC) is total cost per unit, equal to AFC + AVC.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Short Run Average Costs: AFC, AVC and AC'.",
+     "a": "AFC falls continuously as output rises; AVC and AC are typically U-shaped.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Short Run Average Costs: AFC, AVC and AC', in plain ASCII form.",
+     "a": "AFC = TFC / Q; AVC = TVC / Q; AC = TC / Q = AFC + AVC",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.8",
+   "title": "Revenue: Total, Average and Marginal Revenue",
+   "questions": [
+    {
+     "q": "Compute TR, AR and MR from price and quantity data. Use the method 'Revenue: Total, Average and Marginal Revenue'. Work with: p = 300, q = 45. Carry the chain through step by step and give the final value of the result.",
+     "a": "13500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find MR given TR at different output levels. Use the method 'Revenue: Total, Average and Marginal Revenue'. Work with: p = 6, q = 8. Carry the chain through step by step and give the final value of the result.",
+     "a": "48 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue: Total, Average and Marginal Revenue' refers to.",
+     "a": "Total revenue (TR) is the total receipts from sales. Average revenue (AR) is revenue per unit, equal to price. Marginal revenue (MR) is the additional revenue from selling one more unit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue: Total, Average and Marginal Revenue'.",
+     "a": "AR equals price; MR is the change in TR from one extra unit sold; under perfect competition, AR = MR = price.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue: Total, Average and Marginal Revenue', in plain ASCII form.",
+     "a": "TR = P * Q; AR = TR / Q = P; MR = TR_n - TR_(n-1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.9",
+   "title": "Producer's Equilibrium",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Producer's Equilibrium' refers to.",
+     "a": "A producer is in equilibrium when producing the output at which the difference between total revenue and total cost is maximum, or where marginal cost equals marginal revenue and MC is rising.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Producer's Equilibrium'.",
+     "a": "Profit is maximized where MR = MC and the MC curve is rising (cuts MR from below).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Producer's Equilibrium', in plain ASCII form.",
+     "a": "MC = MR, and MC rises after equilibrium (MC curve cuts MR from below)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.10",
+   "title": "Supply and Market Supply",
+   "questions": [
+    {
+     "q": "Compute market supply by summing individual supplies. Use the method 'Supply and Market Supply'. Work with: individual_supplies_total = 60. Carry the chain through step by step and give the final value of the result.",
+     "a": "60 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find total quantity supplied at a given price. Use the method 'Supply and Market Supply'. Work with: individual_supplies_total = 10. Carry the chain through step by step and give the final value of the result.",
+     "a": "10 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Supply and Market Supply' refers to.",
+     "a": "Supply is the quantity of a commodity that a producer is willing and able to offer for sale at a given price in a given time period. Market supply is the sum of individual supplies of all producers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Supply and Market Supply'.",
+     "a": "Market supply is obtained by horizontal summation of individual supply curves; it generally rises with price.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Supply and Market Supply', in plain ASCII form.",
+     "a": "Market Supply = sum of individual supplies Q_s = q1 + q2 + ... + qn",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.11",
+   "title": "Price Elasticity of Supply",
+   "questions": [
+    {
+     "q": "Compute price elasticity of supply using percentage method. Use the method 'Price Elasticity of Supply'. Work with: delta_p = 150, delta_q = 240, p = 120, q = 50. Carry the chain through step by step and give the final value of the result.",
+     "a": "3.84 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find percentage change in quantity supplied given elasticity and price change. Use the method 'Price Elasticity of Supply'. Work with: delta_p = 40, delta_q = 300, p = 18, q = 500. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.27 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Elasticity of Supply' refers to.",
+     "a": "Price elasticity of supply measures the percentage change in quantity supplied in response to a percentage change in price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Elasticity of Supply'.",
+     "a": "Supply elasticity is positive because price and quantity supplied move in the same direction; its magnitude determines elasticity classification.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Elasticity of Supply', in plain ASCII form.",
+     "a": "Es = (percentage change in quantity supplied) / (percentage change in price) = (delta Q / Q) / (delta P / P)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

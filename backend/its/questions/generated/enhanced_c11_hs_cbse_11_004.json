@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_004",
+   "title": "c11_hs_cbse_11_004",
+   "questions": [
+    {
+     "q": "Define the term 'stain' as per the NCERT Class 11 Home Science textbook and state the fundamental characteristic that distinguishes it from ordinary dirt/soil.",
+     "a": "A stain is an unwanted mark or colouration on a fabric caused by contact and absorption of foreign matter which cannot be removed by normal washing process and requires special treatment. The distinguishing characteristic is that normal laundering (water + detergent + agitation) fails to remove it; it demands a specific reagent or technique targeting its chemical composition. A wrong answer (e.g., \"any dirty mark\") reveals the student confuses surface soiling (loose dirt) with a stain (absorbed/chemically bonded chromophore), leading to incorrect treatment choices like vigorous scrubbing instead of chemical dissolution.",
+     "self_check": true
+    },
+    {
+     "q": "A student spills cold coffee (with milk and sugar) on a cotton shirt. They classify it solely as a 'vegetable stain' and treat it with hot alkaline soap solution immediately. Explain why this classification is incomplete and the treatment potentially damaging, using the chemical nature of the stain components.",
+     "a": "Coffee with milk is a **combination stain**: the coffee (tannins) is vegetable/acidic, but the milk contributes **animal protein (casein)** and **fat (oil)**. Treating it solely as vegetable with hot alkali will **coagulate (set) the protein** from milk, making it permanent, and may not fully emulsify the fat. The correct approach is cold water first (for protein), then alkaline/oxidising for tannin, and solvent for grease. A wrong answer shows the student misses the critical Class 11 concept of **combination/mixed stains** and the principle that **heat sets protein**, leading to irreversible damage.",
+     "self_check": true
+    },
+    {
+     "q": "You encounter an old, yellowish-brown stain on a stored white linen saree. You cannot identify its source (unknown stain). Apply the NCERT 'General Considerations for Removal' to write the exact sequence of 5 treatment steps you would attempt, justifying the reagent choice at each step.",
+     "a": "**Sequence for Unknown Stain (NCERT General Considerations):**\n1.  **Cold Water Soak:** Submerge in cold water. *Justification:* Safest first step; removes water-soluble components, freshens old stain, no risk of setting protein or bleeding dye.\n2.  **Neutral Soap/Detergent (Knead & Squeeze):** Apply mild liquid detergent, knead gently. *Justification:* Emulsifies oils/grease; safe for all fibres; 'milder reagent repeated' principle.\n3.  **Alkaline Reagent (e.g., Borax/Ammonia solution):** If step 2 fails, apply warm alkaline solution. *Justification:* Targets vegetable/acidic stains (tannins, fruit) and some protein; test on hem first.\n4.  **Acidic Reagent (e.g., Lemon juice/Oxalic acid):** If step 3 fails, apply mild acid. *Justification:* Targets mineral stains (rust, ink) and some dye bleeds; neutralise after.\n5.  **Oxidising Bleach (Sunlight/Hydrogen Peroxide/Sodium Perborate):** Last resort. *Justification:* Destroys chromophore for stubborn vegetable/dye stains; use only on white, bleach-safe fibres (cotton/linen); test first.\n*Wrong answer (e.g., starting with bleach or hot water) reveals failure to internalise the 'simple to complex, mild to strong, test first' algorithm, risking fibre damage or setting the stain.*",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the **Sponging** and **Drop Method** techniques of stain removal. Analyse which technique is mandatory for a fresh ballpoint ink stain on a silk blouse and why the other would be disastrous.",
+     "a": "**Sponging:** Stained area placed flat on absorbent blotting paper; reagent applied via sponge on top; stain dissolves and is **absorbed downwards into blotting paper**. Prevents ring formation. **Drop Method:** Fabric stretched over a bowl; reagent dropped **through** the stain; stain dissolves and falls **into the bowl**. Used for sturdy fabrics.\n**Mandatory for Silk Blouse: Sponging.**\n*Reason:* Silk is weakened when wet and susceptible to abrasion, ring marks, and distortion. Sponging supports the fabric flat, controls reagent quantity, and wicks stain *away* from the fibre surface into the blotter. Drop method stretches wet silk (causing permanent distortion), allows uncontrolled reagent penetration (risking water marks/ring stains), and offers no support. A wrong choice shows inability to match technique to **fibre vulnerability (wet strength, surface morphology)** — a core Class 11 competency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Sunlight is the best bleaching agent for all white fabrics after stain removal.\" Defend or refute with specific reference to fibre properties and stain chemistry from the NCERT text.",
+     "a": "**Refute.** The statement is **dangerously incorrect** for senior secondary level.\n1.  **Fibre Damage:** NCERT Table 2 explicitly states: *Silk* \"gets weakened if exposed for long time to sunlight; should not be dried in sun.\" *Nylon* \"sunlight is destructive... causes marked loss of strength.\" *Synthetics* \"tend to turn yellow, which is irreversible.\" *Wool* degrades under UV.\n2.  **Stain Chemistry:** Sunlight (UV) acts as an **oxidising bleach**. It works on **vegetable/organic stains** (tea, fruit, mildew) on **cotton/linen**. It **does not remove** mineral stains (rust, ink), oil stains, or protein stains effectively. It can **yellow** protein residues (wool, silk, nylon) and **set** certain dye stains.\n3.  **Correct Use:** Only for **white cotton/linen** after thorough rinsing, as a final brightening step. A student agreeing reveals a middle-school overgeneralisation (\"sun bleaches everything\") and ignores the fibre-specific care tables (Table 2) which are examinable in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 'Stain First-Aid Decision Flowchart' (text-based) for a Class 11 student to use when a stain occurs on an **unknown fabric**. The flowchart must have decision nodes for: (a) Stain Age, (b) Stain Type Identification, (c) Fabric Sensitivity Test, (d) Reagent Selection Logic. Use only NCERT principles from this node.",
+     "a": "**STAIN FIRST-AID FLOWCHART (Unknown Fabric)**\n```\nSTART\n│\n├─► 1. STAIN AGE? → FRESH: BLOT (don't rub) → Go to 2. → OLD: Soak COLD water 30 min → Go to 2.\n│\n├─► 2. IDENTIFY TYPE (Colour/Smell/Feel) → \n│       ├─ Acidic/Vegetable (tea, fruit) → ALKALINE track\n│       ├─ Protein/Animal (blood, egg, milk) → COLD WATER/ENZYME track (NO HEAT)\n│       ├─ Grease/Oil (butter, oil) → SOLVENT/ABSORBENT track\n│       ├─ Mineral (ink, rust, medicine) → ACID then ALKALINE track\n│       └─ Dye Bleed → ACID or ALKALI (test) track\n│       └─ UNKNOWN → Go to 3 (General Sequence)\n│\n├─► 3. FABRIC SENSITIVITY TEST (MANDATORY) → \n│       Apply chosen reagent on hidden seam/hem → Wait 5 min → Check: Colour bleed? Fibre damage? Texture change?\n│       ├─ YES → STOP. Dilute reagent / Change method / Professional clean.\n│       └─ NO → Go to 4.\n│\n├─► 4. REAGENT APPLICATION (Technique Selection) → \n│       ├─ Surface build-up (wax, gum) → SCRAPE first.\n│       ├─ Delicate/Coloured/Structured (silk, wool, embroidery) → SPONGING (on blotter).\n│       ├─ Sturdy/Flat (cotton, linen) → DIPPING or DROP METHOD.\n│       └─ Large/Heavy (towels) → SUCTION (later stage).\n│\n├─► 5. RINSE THOROUGHLY (Cold → Warm) → Remove ALL chemical traces.\n│\n├─► 6. FINAL: Air dry (shade for coloured/delicate) → Sun ONLY if white cotton/linen & stain gone.\nEND\n```\n*Poor answer (missing test step, ignoring 'no heat for protein', suggesting bleach first) reveals lack of procedural integration — treating principles as isolated facts rather than a decision algorithm.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

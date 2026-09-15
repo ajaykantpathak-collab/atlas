@@ -1,0 +1,452 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 103,
+ "chapter_title": "Current Electricity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph103.3.2.1",
+   "title": "Electric Current as Charge Flow Rate",
+   "section": "3.2",
+   "definition": "Current through a cross-section is the net charge crossing it in the forward sense divided by the time taken, with the sign telling which way it runs.",
+   "formula": "I = q / t",
+   "key_idea": "Steady current means this quotient stays constant; the ampere is the SI unit and lightning reaches tens of thousands of them.",
+   "textbook_ref": "leph103.txt sections 3.2-3.3 (Eqs. 3.1-3.2)",
+   "question_patterns": [
+    "a charge of 90 coulomb crosses a wire section in one minute; find the current",
+    "how much charge flows through a conductor carrying 2 ampere for 10 seconds",
+    "calculate the current when a stated charge passes a cross-section in a given time",
+    "find the flow rate of charge through a bulb from the charge moved and the time taken",
+    "the net charge across a section is 0.5 coulomb each second; what current does that make"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "split the charge by the elapsed time",
+     "explain": "current is defined as the charge transported per unit time through the section",
+     "compute": "current = charge_flow / time_interval"}
+   ]
+  },
+  {
+   "id": "leph103.3.4.1",
+   "title": "Ohm Law and Resistance",
+   "section": "3.4",
+   "definition": "For ohmic conductors the drop across the ends grows in direct proportion to the current, and the fixed ratio of drop to current defines the resistance in ohms.",
+   "formula": "R = V / I",
+   "key_idea": "The proportionality V with I is the physical claim of the law; the ratio R can be quoted for any conductor, ohmic or not.",
+   "textbook_ref": "leph103.txt section 3.4 (Eqs. 3.3, 3.10-3.13)",
+   "question_patterns": [
+    "a drop of 6 volt drives 2 ampere through a resistor; find its resistance",
+    "determine the resistance of a conductor from the voltage across it and the current through it",
+    "what does the ratio of potential difference to current give for a metallic wire",
+    "a heater draws 4 ampere on a 220 volt line; compute the element resistance",
+    "state the relation between voltage and current for materials that follow the linear law"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide the drop by the current",
+     "explain": "resistance is the constant ratio of the potential difference across a conductor to the current it carries",
+     "compute": "resistance = voltage_drop / circuit_current"}
+   ]
+  },
+  {
+   "id": "leph103.3.4.2",
+   "title": "Resistance from Resistivity and Geometry",
+   "section": "3.4",
+   "definition": "A wire opposes current in proportion to its length and in inverse proportion to its cross-sectional area, with the material constant rho setting the scale.",
+   "formula": "R = rho * l / A",
+   "key_idea": "Resistivity belongs to the material and ignores its shape; stretching a wire longer and thinner multiplies its resistance twice over.",
+   "textbook_ref": "leph103.txt sections 3.4 and 3.7 (Eqs. 3.8-3.9, Exercise 3.4)",
+   "question_patterns": [
+    "a wire 15 m long with cross-section 6 times 10 to the minus 7 metre squared measures 5 ohm; find the material resistivity",
+    "find the resistance of a wire of given length, area and resistivity",
+    "calculate R for a conductor using rho l over A with numbers",
+    "how does the resistance of a wire respond when its length is doubled and the area kept fixed",
+    "compute the resistance of a rod of stated material and dimensions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the length to area ratio",
+     "explain": "geometry enters only through length divided by cross-sectional area",
+     "compute": "geometry_ratio = wire_length / cross_area"},
+    {"step": 2, "action": "scale by the material constant",
+     "explain": "multiplying the geometry ratio by the resistivity completes the resistance",
+     "compute": "resistance = resistivity * geometry_ratio"}
+   ]
+  },
+  {
+   "id": "leph103.3.5.1",
+   "title": "Drift Speed of Conduction Electrons",
+   "section": "3.5",
+   "definition": "Electrons in a current-carrying metal crawl along with a small average speed set by the current divided by the carrier charge, density and area, while their random thermal motion stays far faster.",
+   "formula": "v_d = I / (n * e * A)",
+   "key_idea": "Drift is slow, about a millimetre per second, yet the field that starts it travels at light speed, so lamps glow at once.",
+   "textbook_ref": "leph103.txt section 3.5 (Eqs. 3.17-3.18, Example 3.1, Exercise 3.9)",
+   "question_patterns": [
+    "estimate how fast conduction electrons drift along a copper wire of given area carrying 1.5 ampere",
+    "find v d for a metal wire from the current, carrier density, electronic charge and cross-section",
+    "how fast do electrons drift on average inside a wire carrying a stated current",
+    "compute the average drift velocity of free electrons using n, e, A and I",
+    "compare the drift speed of electrons in a wire with their random thermal speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the electronic charge",
+     "explain": "each carrier carries e = 1.6e-19 C",
+     "compute": "elem_charge = 1.6e-19"},
+    {"step": 2, "action": "divide the current by the carrier flow factors",
+     "explain": "current equals n e A v d, so the drift speed is the current split by density, charge and area together",
+     "compute": "drift_speed = current / (carrier_density * elem_charge * wire_area)"}
+   ]
+  },
+  {
+   "id": "leph103.3.5.2",
+   "title": "Mobility of Charge Carriers",
+   "section": "3.5.1",
+   "definition": "Mobility measures how easily carriers respond to a field, quoted as the drift speed gained per unit field strength, with units of metre squared per volt second.",
+   "formula": "mu = v_d / E",
+   "key_idea": "Mobility equals e tau over m, linking collision time to conduction quality; it is always taken positive.",
+   "textbook_ref": "leph103.txt section 3.5.1 (Eqs. 3.24-3.25)",
+   "question_patterns": [
+    "find the mobility of carriers whose drift speed is 1 millimetre per second inside a field of 100 volt per metre",
+    "define mobility and give its SI unit",
+    "calculate the mobility from a stated drift velocity and applied field",
+    "how is mobility related to the relaxation time of electron collisions",
+    "a carrier gains 0.5 millimetre per second of drift per 50 volt per metre; what is its mobility"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "split the drift speed by the field",
+     "explain": "mobility is defined as the drift velocity obtained per unit electric field",
+     "compute": "mobility = drift_speed / e_field"}
+   ]
+  },
+  {
+   "id": "leph103.3.6.1",
+   "title": "Where Ohm Law Fails",
+   "section": "3.6",
+   "definition": "Some devices break the proportionality between drop and current: the graph bends, the answer flips when the polarity reverses, or one current admits several voltages, as in diodes and GaAs.",
+   "formula": "V_not_linear_with_I -> non_ohmic",
+   "key_idea": "Ohm law is a material behaviour, not a law of nature; V equals I times R still defines resistance even for non-ohmic devices.",
+   "textbook_ref": "leph103.txt section 3.6 (Figs. 3.5-3.7, diode, GaAs)",
+   "question_patterns": [
+    "name the ways a device can fail to follow the linear voltage current law",
+    "why does a junction diode not obey the proportionality of voltage and current",
+    "give an example of a material where one current corresponds to more than one voltage",
+    "does reversing the polarity always reverse the current equally in every device",
+    "is the linear voltage current relation a fundamental law of nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the straight-line condition",
+     "explain": "the law holds only while the voltage current plot stays a straight line through the origin"},
+    {"step": 2, "action": "check polarity symmetry",
+     "explain": "some devices pass different currents for plus and minus V of equal size, diodes being the standard case"},
+    {"step": 3, "action": "check uniqueness",
+     "explain": "materials such as GaAs allow several voltages for one current, breaking the law in a third way"}
+   ]
+  },
+  {
+   "id": "leph103.3.8.1",
+   "title": "Temperature Dependence of Resistance",
+   "section": "3.8",
+   "definition": "Near a reference temperature a metal resistance grows linearly with temperature, the fractional rise per degree being the temperature coefficient alpha.",
+   "formula": "R_T = R_0 * (1 + alpha * (T - T_0))",
+   "key_idea": "Metals carry a positive alpha while semiconductors fall in resistance as they warm, because their carrier count grows faster than collisions shorten tau.",
+   "textbook_ref": "leph103.txt section 3.8 (Eqs. 3.26-3.27, Examples 3.3-3.4, Exercises 3.3, 3.5-3.6)",
+   "question_patterns": [
+    "a heating element reads 100 ohm at 27 degrees and 117 ohm when hot; find its temperature given alpha 1.7 times 10 to the minus 4",
+    "calculate the resistance of a platinum wire at a stated temperature from its ice point value and alpha",
+    "find the rise in temperature of a nichrome element from its cold and hot resistance values",
+    "how does the resistance of a metal change when its temperature rises by a given amount",
+    "a silver wire shows 2.1 ohm and 2.7 ohm at two temperatures; work out the temperature coefficient"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the temperature rise",
+     "explain": "the linear law uses the excess of the working temperature over the reference temperature",
+     "compute": "temp_rise = final_temp - reference_temp"},
+    {"step": 2, "action": "apply the linear growth factor",
+     "explain": "multiply the reference resistance by one plus alpha times the rise",
+     "compute": "new_resistance = reference_resistance * (1 + temp_coeff * temp_rise)"}
+   ]
+  },
+  {
+   "id": "leph103.3.7.1",
+   "title": "Material Classes by Resistivity",
+   "section": "3.7",
+   "definition": "Materials sort by resistivity into metals near 10 to the minus 8 ohm metre, insulators up to 10 to the 18 times larger, and semiconductors between, whose resistivity drops on heating and shrinks further with doping.",
+   "formula": "metals_low_rho ; semiconductors_middle ; insulators_high",
+   "key_idea": "Only semiconductors combine a mid-range resistivity with strong temperature and impurity sensitivity, the basis of electronic devices.",
+   "textbook_ref": "leph103.txt section 3.7 (resistivity ranges of materials)",
+   "question_patterns": [
+    "arrange metals, semiconductors and insulators by their resistivity ranges",
+    "why are semiconductors preferred for electronic devices over metals",
+    "roughly how many times larger is the resistivity of an insulator than that of a metal",
+    "which class of materials shows falling resistivity as temperature rises",
+    "what role do added impurities play in the resistivity of a semiconductor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "rank the three classes",
+     "explain": "metal resistivities sit around 10 to the minus 8 ohm metre, semiconductors in the middle band, insulators astronomically higher"},
+    {"step": 2, "action": "note the temperature behaviour",
+     "explain": "metals warm upward in resistivity, semiconductors fall as heat frees more carriers"},
+    {"step": 3, "action": "add the doping effect",
+     "explain": "trace impurities pull semiconductor resistivity down by orders of magnitude, which is what device engineering exploits"}
+   ]
+  },
+  {
+   "id": "leph103.3.9.1",
+   "title": "Ohmic Power Dissipation",
+   "section": "3.9",
+   "definition": "A resistor turns electrical energy into heat at the rate of the current squared times its resistance, which is why transmission lines are run at enormous voltages to keep losses small.",
+   "formula": "P = I**2 * R",
+   "key_idea": "The same loss reads V times I or V squared over R; the I squared R form explains why cutting the current pays off quadratically in transmission.",
+   "textbook_ref": "leph103.txt section 3.9 (Eqs. 3.31-3.35)",
+   "question_patterns": [
+    "a bulb filament of 10 ohm carries 3 ampere; compute its power dissipation through heating",
+    "calculate the heat produced per second in a resistor from its current and resistance",
+    "what is the ohmic loss in a transmission cable of given resistance and current",
+    "a bulb filament of stated resistance carries a known current; compute its power",
+    "why do power lines carry current at very high voltage to cut cable losses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the current into the resistance",
+     "explain": "the dissipation rate equals the current squared multiplied by the resistance",
+     "compute": "power_loss = circuit_current ** 2 * resistance"}
+   ]
+  },
+  {
+   "id": "leph103.3.10.1",
+   "title": "Current from a Cell with Internal Resistance",
+   "section": "3.10",
+   "definition": "A real cell drives the circuit with its emf while its own internal resistance shares the load, so the current is the emf split between the outside resistance and the inside one together.",
+   "formula": "I = emf / (R + r)",
+   "key_idea": "Short-circuiting the cell gives the largest possible current, emf over r, which real cells are never allowed to deliver.",
+   "textbook_ref": "leph103.txt section 3.10 (Eqs. 3.36-3.40, Exercise 3.1)",
+   "question_patterns": [
+    "a 12 volt battery with 0.4 ohm internal resistance is shorted; find the largest current drawable",
+    "find the current when a cell of emf e and internal resistance r feeds an external resistor R",
+    "calculate the circuit current for a battery of given emf and internal resistance connected to a stated load",
+    "a 10 volt battery of 3 ohm internal resistance drives a resistor; what current flows if the load is known",
+    "how is the current limited by the internal resistance of a real cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the load to the internal resistance",
+     "explain": "the same current crosses both the outside resistor and the electrolyte inside",
+     "compute": "total_resistance = external_resistance + internal_resistance"},
+    {"step": 2, "action": "split the emf over the total",
+     "explain": "Ohm law on the whole loop gives current equal to emf over the summed resistance",
+     "compute": "circuit_current = emf / total_resistance"}
+   ]
+  },
+  {
+   "id": "leph103.3.10.2",
+   "title": "Terminal Voltage of a Real Cell",
+   "section": "3.10",
+   "definition": "The voltage available at the terminals sits below the emf by the internal drop, the product of the drawn current and the internal resistance.",
+   "formula": "V = emf - I * r",
+   "key_idea": "Open circuit reads the full emf; heavier loading drags the terminal voltage down until charging current would push it above emf.",
+   "textbook_ref": "leph103.txt section 3.10 (Eq. 3.38, Exercises 3.2 and 3.8)",
+   "question_patterns": [
+    "a 10 volt battery of 3 ohm internal resistance delivers 0.5 ampere; find the terminal voltage",
+    "calculate the voltage across the terminals of a cell while it supplies a stated current",
+    "why does a battery read less than its emf when the circuit is closed",
+    "find the terminal voltage during charging when the supplied current is known",
+    "what is the potential difference between the terminals of a cell carrying current through its internal resistance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract the internal drop",
+     "explain": "the emf loses I times r inside the cell before reaching the terminals",
+     "compute": "terminal_voltage = emf - circuit_current * internal_resistance"}
+   ]
+  },
+  {
+   "id": "leph103.3.11.1",
+   "title": "Cells in Series Driving a Load",
+   "section": "3.11",
+   "definition": "Cells stacked in series contribute their emfs (signs honoured) and their internal resistances, both by plain addition, before the usual current rule is applied.",
+   "formula": "I = (e1 + e2) / (r1 + r2 + R)",
+   "key_idea": "A cell turned the wrong way subtracts its emf; the internal resistances always add regardless of orientation.",
+   "textbook_ref": "leph103.txt section 3.11 (Eqs. 3.43-3.47)",
+   "question_patterns": [
+    "two cells of emf 2 volt and 1 volt with internal resistances 1 and 2 ohm drive a 3 ohm resistor in series; find the current",
+    "find the current delivered by a series stack of cells with known emfs and internal resistances feeding a load",
+    "how do the emfs and internal resistances of series cells combine before the current is computed",
+    "one cell of a series pair is reversed; what changes in the combined emf and the current",
+    "calculate the loop current for two real cells in series across an external resistance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the series emfs",
+     "explain": "matching orientations add; a reversed cell enters with a minus sign",
+     "compute": "total_emf = emf1 + emf2"},
+    {"step": 2, "action": "add the internal resistances",
+     "explain": "the electrolyte resistances sit in series with the load",
+     "compute": "total_internal = internal1 + internal2"},
+    {"step": 3, "action": "apply the loop current rule",
+     "explain": "divide the combined emf by the sum of internal and external resistance",
+     "compute": "circuit_current = total_emf / (total_internal + external_load)"}
+   ]
+  },
+  {
+   "id": "leph103.3.12.1",
+   "title": "Kirchhoff Junction and Loop Rules",
+   "section": "3.12",
+   "definition": "Circuit analysis rests on two bookkeeping rules: charge counted per second into a junction equals charge out, and walking any closed loop of a circuit returns the potential to its starting value.",
+   "formula": "sum_I_in = sum_I_out ; sum_delta_V_loop = 0",
+   "key_idea": "The junction rule is charge conservation, the loop rule is energy conservation; together they solve any network, however tangled.",
+   "textbook_ref": "leph103.txt section 3.12 (rules a-b, Examples 3.5-3.6)",
+   "question_patterns": [
+    "state the rule about currents where several wires meet at a junction",
+    "why must the voltage changes around a closed loop add to zero",
+    "use the junction rule to relate the currents entering and leaving a node",
+    "apply the loop rule to write an equation for a closed mesh with cells and resistors",
+    "which conservation laws lie behind the two circuit rules"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the junction rule",
+     "explain": "label branch currents with arrows; at every node, incoming currents sum to outgoing ones"},
+    {"step": 2, "action": "apply the loop rule",
+     "explain": "walk each closed mesh adding signed voltage changes across cells and resistors until the total is zero"},
+    {"step": 3, "action": "solve the resulting equations",
+     "explain": "enough independent junction and loop equations determine every unknown branch current"}
+   ]
+  },
+  {
+   "id": "leph103.3.13.1",
+   "title": "Wheatstone Bridge Balance Condition",
+   "section": "3.13",
+   "definition": "In a four-arm bridge fed across one diagonal, the galvanometer across the other diagonal reads zero exactly when the products of opposite arms match, or equivalently the two arm ratios agree.",
+   "formula": "R1 / R2 = R3 / R4",
+   "key_idea": "At balance no current crosses the bridge arm, the junction and loop rules collapse to the ratio condition, and one unknown arm becomes measurable.",
+   "textbook_ref": "leph103.txt section 3.13 (Eqs. 3.62-3.64, Example 3.7)",
+   "question_patterns": [
+    "state the condition for zero deflection in a Wheatstone bridge",
+    "when does the galvanometer of a balanced bridge carry no current",
+    "for four bridge arms in ratio, write the balance equation among R1 R2 R3 R4",
+    "why does the galvanometer arm carry nothing once the bridge ratios match",
+    "how does a balanced bridge help measure an unknown resistance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "impose the null condition",
+     "explain": "zero galvanometer current forces equal junction pairings I1 = I3 and I2 = I4"},
+    {"step": 2, "action": "write the two loop equations",
+     "explain": "the meshes through the galvanometer then demand equal drops across the upper and lower arms"},
+    {"step": 3, "action": "read off the ratio condition",
+     "explain": "combining the loops gives the product-of-opposites rule that defines balance"}
+   ]
+  },
+  {
+   "id": "leph103.3.13.2",
+   "title": "Unknown Resistance from a Balanced Bridge",
+   "section": "3.13",
+   "definition": "Once the bridge is balanced, the fourth arm follows from the other three, since the arm products of opposite sides must agree.",
+   "formula": "R4 = R3 * R2 / R1",
+   "key_idea": "Adjust one known arm until the galvanometer falls silent, then the unknown is a single multiplication away; the meter bridge works this way.",
+   "textbook_ref": "leph103.txt section 3.13 (Eq. 3.64b)",
+   "question_patterns": [
+    "three arms of a balanced bridge read 10, 60 and 5 ohm; find the fourth arm",
+    "find the unknown resistance in a Wheatstone bridge when the other three arms are known at balance",
+    "a meter bridge is balanced; compute the unknown from the remaining arms",
+    "use the balance condition to evaluate the missing resistance of a bridge",
+    "given R1, R2 and R3 of a null bridge, determine R4"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the opposite-arm product",
+     "explain": "at balance the product of one diagonal pair equals that of the other",
+     "compute": "product_pair = arm2 * arm3"},
+    {"step": 2, "action": "divide by the remaining arm",
+     "explain": "splitting that product by the first known arm leaves the unknown fourth resistance",
+     "compute": "unknown_arm = product_pair / arm1"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph103_1",
+   "source_ref": "leph103.txt Exercise 3.9 data (electron drift along a 3 m copper wire)",
+   "concept": "leph103.3.5.1",
+   "question_type": "drift_time_along_wire",
+   "question_pattern": "Copper wire {L} m long and {A} metre squared in section carries {I} A with carrier density {n} per metre cubed. How long does an electron take to drift the full length?",
+   "extracted_variables": {"L": 3.0, "A": 2e-06, "I": 3.0, "n": 8.5e28},
+   "solution_template": [
+    {"step": 1, "action": "drift speed from the current",
+     "explain": "v d equals I over n e A with e = 1.6e-19 C",
+     "compute": "drift_speed = I / (n * 1.6e-19 * A)"},
+    {"step": 2, "action": "time to traverse the wire",
+     "explain": "the drift time is the length divided by the drift speed",
+     "compute": "drift_time = L / drift_speed"}
+   ]
+  },
+  {
+   "id": "we_leph103_2",
+   "source_ref": "leph103.txt Exercise 3.2 data (10 V battery, 3 ohm internal, 0.5 A)",
+   "concept": "leph103.3.10.2",
+   "question_type": "terminal_voltage",
+   "question_pattern": "A battery of emf {E} volt and internal resistance {r} ohm delivers {I} ampere. What voltage does it show at its terminals?",
+   "extracted_variables": {"E": 10.0, "r": 3.0, "I": 0.5},
+   "solution_template": [
+    {"step": 1, "action": "subtract the internal drop",
+     "explain": "terminal voltage equals emf minus the product of current and internal resistance",
+     "compute": "terminal_voltage = E - I * r"}
+   ]
+  },
+  {
+   "id": "we_leph103_3",
+   "source_ref": "leph103.txt Example 3.3 (nichrome toaster element temperature)",
+   "concept": "leph103.3.8.1",
+   "question_type": "element_temperature",
+   "question_pattern": "A heater element of cold resistance {R1} ohm at {T1} degrees C draws {I} ampere on a {V} volt supply; with coefficient {alpha}, find its steady temperature.",
+   "extracted_variables": {"R1": 75.3, "T1": 27.0, "I": 2.68, "V": 230.0, "alpha": 0.00017},
+   "solution_template": [
+    {"step": 1, "action": "hot resistance from the supply",
+     "explain": "steady operation gives R2 equal to V over I",
+     "compute": "hot_resistance = V / I"},
+    {"step": 2, "action": "convert the resistance rise to a temperature rise",
+     "explain": "rearrange the linear law: the rise is (R2 - R1) over R1 alpha",
+     "compute": "temp_rise = (hot_resistance - R1) / (R1 * alpha)"},
+    {"step": 3, "action": "add the room temperature",
+     "explain": "the steady temperature is the room value plus the rise",
+     "compute": "final_temp = T1 + temp_rise"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph103_3_1_to_3_3",
+   "source_ref": "leph103.txt exercises 3.1-3.3",
+   "questions": [
+    "A car battery of emf 12 V has 0.4 ohm inside; what is the greatest current it can supply?",
+    "A 10 V battery with 3 ohm internal resistance feeds a resistor at 0.5 A; find the load resistance and the terminal voltage.",
+    "A heating element reads 100 ohm at 27 degrees C and 117 ohm when running; find its temperature with alpha = 1.7e-4 per degree."
+   ]
+  },
+  {
+   "id": "ex_leph103_3_4_to_3_6",
+   "source_ref": "leph103.txt exercises 3.4-3.6",
+   "questions": [
+    "A 15 m wire of section 6e-7 metre squared measures 5.0 ohm; work out the resistivity at the experiment temperature.",
+    "A silver wire shows 2.1 ohm at 27.5 degrees C and 2.7 ohm at 100 degrees C; determine its temperature coefficient.",
+    "A nichrome element drawing 3.2 A initially settles at 2.8 A on a 230 V line; find its steady temperature from a 27 degree room and alpha = 1.7e-4."
+   ]
+  },
+  {
+   "id": "ex_leph103_3_7_to_3_9",
+   "source_ref": "leph103.txt exercises 3.7-3.9",
+   "questions": [
+    "Apply the junction and loop rules to the four-branch network of Fig. 3.20 and find every branch current.",
+    "An 8 V battery with 0.5 ohm inside charges against a 120 V supply through 15.5 ohm; find the charging terminal voltage and the role of the series resistor.",
+    "With 8.5e28 carriers per metre cubed, how long does an electron take to drift the 3.0 m of a wire of 2e-6 metre squared section carrying 3.0 A?"
+   ]
+  }
+ ]
+}

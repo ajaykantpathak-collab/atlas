@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_009",
+   "title": "c7_math_ch14_009",
+   "questions": [
+    {
+     "q": "What geometric instrument is primarily used alongside a straightedge (ruler) to measure equal radii when constructing a perpendicular from an external point to a line?",
+     "a": "The correct answer is a compass. A wrong answer like \"protractor\" or \"set-square\" reveals that the student is confusing measurement tools with construction tools used for scribing equidistant arcs.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the compass width be kept constant when drawing intersecting arcs from two reference points on a line during a perpendicular construction?",
+     "a": "The correct answer is that keeping the radius constant ensures that the resulting intersection points are equidistant from the two reference points, guaranteeing symmetry and an exact 90-degree right angle. A wrong answer shows a lack of understanding of the symmetrical properties of isosceles triangles and rhombuses used in basic constructions.",
+     "self_check": true
+    },
+    {
+     "q": "Given a line $L$ and a point $P$ not on $L$, if you set your compass to a radius greater than the shortest distance from $P$ to $L$ and place the pointer at $P$, how many times will your arc intersect line $L$?",
+     "a": "The correct answer is exactly 2 times. Working steps: 1) Place compass pointer at point $P$ outside line $L$. 2) Adjust the compass width so it easily reaches across line $L$. 3) Sweep an arc across line $L$; because the arc curves downwards and crosses the straight path of line $L$ at two distinct locations, it intersects it twice (let's call them points $A$ and $B$). A wrong answer indicates the student imagines a circle or arc touching a line tangentially instead of cutting across it.",
+     "self_check": true
+    },
+    {
+     "q": "How does the construction of a perpendicular from a point *on* a line differ in its initial step from the construction of a perpendicular from a point *outside* the line?",
+     "a": "The correct answer is that when the point is *on* the line, you place the compass pointer at that given point to mark two equal segments along the line on either side. When the point is *outside* the line, you place the compass pointer at that external point to draw an initial arc that intersects the line twice. A wrong answer shows confusion regarding where the center of the first compass sweep must be placed.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a perpendicular line from an external point $P$ to a line $AB$ and measures the resulting angle with a protractor as $88^\\circ$. What does this imperfection indicate about the construction process?",
+     "a": "The correct answer is that the student likely experienced compass slip or shifted the ruler while drawing the final joining line, because a geometrically accurate construction must yield a precise $90^\\circ$ angle. A wrong answer suggests the student believes geometric constructions are merely rough sketches where small measurement errors are standard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short set of instructions for constructing a perpendicular to a line segment of length 8 cm from a point located exactly 5 cm vertically above its midpoint, specifying the necessary compass radius adjustments.",
+     "a": "The expected response should outline: 1) Draw line segment $AB = 8$ cm and mark midpoint $M$. 2) Establish point $P$ at 5 cm above $M$. 3) Open compass to a radius larger than 5 cm with center at $P$, intersecting line $AB$ at $X$ and $Y$. 4) With centers at $X$ and $Y$, draw intersecting arcs below line $AB$ to locate point $Q$. 5) Join $P$ through $M$ to $Q$. A poor answer fails to specify correct radius bounds or skips arc-intersection steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

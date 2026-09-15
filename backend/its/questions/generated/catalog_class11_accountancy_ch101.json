@@ -1,0 +1,339 @@
+{
+ "catalog": "catalog_class11_accountancy_ch101",
+ "concepts": [
+  {
+   "id": "keac.101.1",
+   "title": "Meaning and Definition of Accounting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Definition of Accounting' refers to.",
+     "a": "A structured methodology for tracking, quantifying, documenting, and sharing financial data of a business entity to assist stakeholders in making choices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Definition of Accounting'.",
+     "a": "Accounting acts as an information system that translates business activities into financial reports.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Definition of Accounting' taught, and from which source text?",
+     "a": "1.1 (source: keac101.txt lines 35-70)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.2",
+   "title": "Economic Events",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Economic Events' refers to.",
+     "a": "Significant financial occurrences within or outside an enterprise that involve measurable transactions expressed in monetary units.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic Events'.",
+     "a": "Transactions must be measurable in monetary terms to be considered economic events.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Economic Events' taught, and from which source text?",
+     "a": "1.1.1 (source: keac101.txt lines 110-145)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.3",
+   "title": "The Accounting Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Accounting Process' refers to.",
+     "a": "The series of actions involving the recognition, monetary valuation, chronological bookkeeping, and reporting of business transactions to interested parties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Accounting Process'.",
+     "a": "The process begins with identification of transactions and ends with communication of financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Accounting Process' taught, and from which source text?",
+     "a": "1.1.2 (source: keac101.txt lines 146-190)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.4",
+   "title": "Users of Accounting Information",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Users of Accounting Information' refers to.",
+     "a": "Various stakeholders, split into inside managers and outside entities like lenders or regulators, who utilize financial statements for their specific analytical needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Users of Accounting Information'.",
+     "a": "Different stakeholders utilize accounting data to assess performance, solvency, and compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Users of Accounting Information' taught, and from which source text?",
+     "a": "1.1.4 (source: keac101.txt lines 198-250)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.5",
+   "title": "Sub-disciplines of Accounting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sub-disciplines of Accounting' refers to.",
+     "a": "Distinct fields of study within accountancy designed for different purposes, including historical reporting to outsiders, tracking production expenses, and aiding internal managerial strategy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sub-disciplines of Accounting'.",
+     "a": "Different branches serve distinct informational needs of internal and external stakeholders.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sub-disciplines of Accounting' taught, and from which source text?",
+     "a": "1.2 (source: keac101.txt lines 270-315)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.6",
+   "title": "Qualitative Characteristics of Accounting Information",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Qualitative Characteristics of Accounting Information' refers to.",
+     "a": "Core features of financial reports - such as being dependable, timely, clear, and consistent - that ensure the presented data is highly valuable for analysis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Qualitative Characteristics of Accounting Information'.",
+     "a": "Information must be timely, verifiable, clear, and consistent across periods and entities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Qualitative Characteristics of Accounting Information' taught, and from which source text?",
+     "a": "1.2.1 (source: keac101.txt lines 316-370)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.7",
+   "title": "Objectives of Accounting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Objectives of Accounting' refers to.",
+     "a": "The fundamental aims of bookkeeping, which center on keeping orderly transaction logs, determining net income, showing assets and liabilities, and distributing reports.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of Accounting'.",
+     "a": "Accounting aims to provide a true and fair view of financial performance and position.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Objectives of Accounting' taught, and from which source text?",
+     "a": "1.3 (source: keac101.txt lines 371-440)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.8",
+   "title": "Basic Accounting Terms: Assets and Liabilities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Basic Accounting Terms: Assets and Liabilities' refers to.",
+     "a": "Assets represent valuable properties or rights controlled by a firm that yield future utility, whereas liabilities denote outstanding financial debts owed to external parties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Basic Accounting Terms: Assets and Liabilities'.",
+     "a": "Assets represent what the business owns, and liabilities represent what it owes to outsiders.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Basic Accounting Terms: Assets and Liabilities' taught, and from which source text?",
+     "a": "1.5.3 (source: keac101.txt lines 480-535)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.9",
+   "title": "Calculation of Accounting Profit",
+   "questions": [
+    {
+     "q": "Calculate the profit when revenue is {revenue} and expenses are {expenses}. Use the method 'Calculation of Accounting Profit'. Work with: expenses = 20000, revenue = 2500. Carry the chain through step by step and give the final value of profit.",
+     "a": "-17500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the profit earned by a business with revenue of {revenue} and expenses of {expenses}. Use the method 'Calculation of Accounting Profit'. Work with: expenses = 80000, revenue = 120000. Carry the chain through step by step and give the final value of profit.",
+     "a": "40000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Accounting Profit' refers to.",
+     "a": "The positive net earnings realized when a business's total periodic revenues exceed its corresponding operating costs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Accounting Profit'.",
+     "a": "Profit is the positive difference between total revenue and total expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Accounting Profit', in plain ASCII form.",
+     "a": "profit = revenue - expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.10",
+   "title": "Calculation of Accounting Loss",
+   "questions": [
+    {
+     "q": "Calculate the loss when expenses are {expenses} and revenue is {revenue}. Use the method 'Calculation of Accounting Loss'. Work with: expenses = 5000, revenue = 2500. Carry the chain through step by step and give the final value of loss.",
+     "a": "2500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the loss incurred by a business with expenses of {expenses} and revenue of {revenue}. Use the method 'Calculation of Accounting Loss'. Work with: expenses = 5000, revenue = 500. Carry the chain through step by step and give the final value of loss.",
+     "a": "4500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Accounting Loss' refers to.",
+     "a": "The negative financial outcome that occurs when a firm's total operating expenditures surpass its total earned revenues over a given timeframe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Accounting Loss'.",
+     "a": "Loss is the excess of expenses over revenues.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Accounting Loss', in plain ASCII form.",
+     "a": "loss = expenses - revenue",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.11",
+   "title": "Calculation of Gain on Sale of Asset",
+   "questions": [
+    {
+     "q": "Calculate the gain when an asset costing {cost_price} is sold for {selling_price}. Use the method 'Calculation of Gain on Sale of Asset'. Work with: cost_price = 80000, selling_price = 2500. Carry the chain through step by step and give the final value of gain.",
+     "a": "-77500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the gain on sale of an asset with cost price {cost_price} and selling price {selling_price}. Use the method 'Calculation of Gain on Sale of Asset'. Work with: cost_price = 20000, selling_price = 8000. Carry the chain through step by step and give the final value of gain.",
+     "a": "-12000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Gain on Sale of Asset' refers to.",
+     "a": "An irregular financial benefit resulting from non-operating transactions, such as disposing of a long-term resource for more than its carrying value.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Gain on Sale of Asset'.",
+     "a": "Gain is the excess of the selling price of an asset over its cost or book value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Gain on Sale of Asset', in plain ASCII form.",
+     "a": "gain = selling_price - cost_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.12",
+   "title": "Total Expenses and Losses",
+   "questions": [
+    {
+     "q": "Calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}. Use the method 'Total Expenses and Losses'. Work with: expenses = 8000, losses = 120000. Carry the chain through step by step and give the final value of total_outflow.",
+     "a": "128000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of expenses of {expenses} and losses of {losses}. Use the method 'Total Expenses and Losses'. Work with: expenses = 8000, losses = 5000. Carry the chain through step by step and give the final value of total_outflow.",
+     "a": "13000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Expenses and Losses' refers to.",
+     "a": "The combined total of standard business operating costs and sudden non-reciprocal damages or asset destructions within a period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Expenses and Losses'.",
+     "a": "Combining operational expenses and incidental losses to find total financial outflows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Expenses and Losses', in plain ASCII form.",
+     "a": "total_outflow = expenses + losses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.13",
+   "title": "Basic Accounting Terms: Capital and Drawings",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Basic Accounting Terms: Capital and Drawings' refers to.",
+     "a": "Capital is the financial investment made by a proprietor into a business, while drawings represent the extraction of cash or goods by the owner for personal use.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Basic Accounting Terms: Capital and Drawings'.",
+     "a": "Capital increases owner's equity, whereas drawings reduce it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Basic Accounting Terms: Capital and Drawings' taught, and from which source text?",
+     "a": "1.5.5 (source: keac101.txt lines 540-560, 650-670)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.101.14",
+   "title": "Basic Accounting Terms: Debtors and Creditors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Basic Accounting Terms: Debtors and Creditors' refers to.",
+     "a": "Debtors are customers or entities who owe money to the business for credit sales, while creditors are suppliers to whom the business owes money for credit purchases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Basic Accounting Terms: Debtors and Creditors'.",
+     "a": "Debtors are current assets, whereas creditors are current liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Basic Accounting Terms: Debtors and Creditors' taught, and from which source text?",
+     "a": "1.5.19 (source: keac101.txt lines 690-720)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

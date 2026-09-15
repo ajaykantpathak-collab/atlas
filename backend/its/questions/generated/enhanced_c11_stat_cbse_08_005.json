@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_005",
+   "title": "c11_stat_cbse_08_005",
+   "questions": [
+    {
+     "q": "Write the exact formula for Laspeyre's Price Index Number, defining every symbol used.",
+     "a": "**Correct Answer:** Laspeyre's Price Index (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year.  \n**What a wrong answer reveals:** If a student writes q₁ (current-year quantity) instead of q₀, they confuse Laspeyre's with Paasche's index. If they omit the ×100, they don't understand index numbers are expressed as percentages relative to 100. If they swap p₀ and p₁, they invert the time comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates Laspeyre's index for 3 commodities and gets 125. They claim: \"This means each commodity's price increased by 25% on average.\" Is this statement correct? Explain why or why not.",
+     "a": "**Correct Answer:** No, the statement is incorrect. An index of 125 means the **total cost of the base-year basket** increased by 25%, not that each commodity's price rose by 25%. Individual price changes can vary widely (e.g., one item +50%, another -10%); the index is a weighted average of price relatives, not a simple average.  \n**What a wrong answer reveals:** If the student agrees, they misunderstand the index as an unweighted mean of price changes. They miss the weighting by base-year quantities and the aggregative nature of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below, compute Laspeyre's Price Index for 2024 with 2020 as base year.\n\n| Commodity | Price 2020 (₹/kg) | Price 2024 (₹/kg) | Qty 2020 (kg) |\n|-----------|-------------------|-------------------|---------------|\n| Rice      | 40                | 50                | 10            |\n| Wheat     | 20                | 25                | 15            |\n| Dal       | 80                | 100               | 5             |",
+     "a": "**Correct Answer with Steps:**  \n1. Compute Σ(p₀q₀) = (40×10) + (20×15) + (80×5) = 400 + 300 + 400 = **1100**  \n2. Compute Σ(p₁q₀) = (50×10) + (25×15) + (100×5) = 500 + 375 + 500 = **1375**  \n3. Index = (1375 / 1100) × 100 = **125**  \n**Interpretation:** The cost of the 2020 basket rose 25% by 2024.  \n**What a wrong answer reveals:** If the student uses 2024 quantities (not given), they can't compute Laspeyre's. If they compute simple average of price relatives [(50/40)+(25/20)+(100/80)]/3 ×100 = 129.17, they ignore quantity weights. If they forget ×100, they get 1.25 instead of 125.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Laspeyre's and Paasche's Price Index Numbers in terms of the weights used. If prices of all commodities rise but quantities consumed shift dramatically toward cheaper substitutes, which index will show a **higher** inflation rate? Justify.",
+     "a": "**Correct Answer:** Laspeyre's uses base-year quantities (q₀) as weights; Paasche's uses current-year quantities (q₁). If consumers shift to cheaper substitutes, q₁ for expensive items falls and q₁ for cheaper items rises. Laspeyre's still weights expensive items heavily (using q₀), so it shows **higher inflation** than Paasche's, which downweights them.  \n**What a wrong answer reveals:** If the student says Paasche's is higher, they don't grasp substitution bias. If they say \"both same,\" they miss that weights differ. If they can't explain the direction, they lack the conceptual link between weight choice and substitution effect.",
+     "self_check": true
+    },
+    {
+     "q": "A government uses Laspeyre's Price Index to adjust dearness allowance (DA) for employees. Critics argue this overcompensates employees. Evaluate this claim using the concept of substitution bias.",
+     "a": "**Correct Answer:** The claim is **valid**. Laspeyre's index assumes fixed base-year consumption (q₀). When prices rise, consumers substitute toward relatively cheaper goods, reducing their actual cost of living increase. Laspeyre's ignores this substitution, overstating the true cost-of-living increase. Using it for DA adjustment gives employees a higher raise than needed to maintain their base-year utility, leading to overcompensation.  \n**What a wrong answer reveals:** If the student says \"Laspeyre's is always accurate,\" they don't know its upward bias. If they say \"Paasche's is better for DA,\" they miss that Paasche's has downward bias (uses current quantities which already reflect substitution). The ideal is a cost-of-living index (not covered here).",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (3 commodities) where Laspeyre's Price Index = 150, but the simple average of price relatives (unweighted) = 120. Show your data and both calculations.",
+     "a": "**Expected Answer (example):**  \n| Commodity | p₀ | p₁ | q₀ |  \n|-----------|----|----|----|  \n| A         | 10 | 20 | 100|  \n| B         | 20 | 22 | 1  |  \n| C         | 30 | 33 | 1  |  \n\n**Laspeyre's:** Σ(p₀q₀)=1000+20+30=1050; Σ(p₁q₀)=2000+22+33=2055; Index=(2055/1050)×100≈**195.7** → adjust quantities to hit 150.  \nBetter: Let A dominate weight.  \n| A | 10 | 20 | 10 |  \n| B | 20 | 24 | 1  |  \n| C | 30 | 36 | 1  |  \nΣ(p₀q₀)=100+20+30=150; Σ(p₁q₀)=200+24+36=260; Index=260/150×100=**173.3** → still high.  \n**Working example for 150:**  \n| A | 10 | 15 | 10 | (price relative 150)  \n| B | 20 | 22 | 1  | (110)  \n| C | 30 | 33 | 1  | (110)  \nΣ(p₀q₀)=100+20+30=150; Σ(p₁q₀)=150+22+33=205; Index=205/150×100=**136.7** → not 150.  \n**Key idea:** Student must understand that heavy weight on high-inflation items pulls Laspeyre's above simple average. A correct constructed example shows this mechanism.  \n**What a poor answer reveals:** If they can't construct it, they don't grasp how weights distort the index relative to unweighted average. If they just guess numbers without checking, they lack computational fluency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

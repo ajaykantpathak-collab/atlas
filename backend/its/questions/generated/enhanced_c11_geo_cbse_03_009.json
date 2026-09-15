@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_009",
+   "title": "c11_geo_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the primary composition of magma erupted at mid-ocean ridges, and what does this indicate about the composition of the upper mantle?",
+     "a": "The primary magma at mid-ocean ridges is tholeiitic basalt (MORB), indicating the upper mantle is predominantly peridotite (olivine + pyroxene). A wrong answer (e.g., \"andesite\" or \"granite\") reveals the student confuses differentiated crustal magmas with primary mantle melts, or does not understand that basalt composition reflects partial melting of peridotite, not the bulk crust.",
+     "self_check": true
+    },
+    {
+     "q": "Why do xenoliths in basaltic lavas provide more direct evidence of mantle composition than the basalt itself?",
+     "a": "Xenoliths are fragments of mantle rock (peridotite) mechanically entrained and brought up rapidly without melting, preserving original mineralogy and chemistry. Basalt is a partial melt that has undergone fractional crystallization and possible crustal contamination. A wrong answer reveals the student does not distinguish between a melt product (modified composition) and a physical sample (unmodified mantle rock).",
+     "self_check": true
+    },
+    {
+     "q": "A basalt sample from the Deccan Traps has 48% SiO₂, 12% MgO, and 0.2% K₂O. A sample from Mount St. Helens (Cascade arc) has 62% SiO₂, 3% MgO, and 1.5% K₂O. Identify which is closer to a primary mantle melt and explain why using the concept of partial melting and crustal processing.",
+     "a": "The Deccan basalt (48% SiO₂, 12% MgO) is closer to a primary mantle melt. High MgO (>8%) and low SiO₂ (<50%) indicate minimal fractional crystallization and low crustal contamination — typical of high-degree partial melting of peridotite at a hotspot. The Mount St. Helens sample shows high SiO₂, low MgO, high K₂O — signatures of extensive differentiation and subduction-modified mantle. Wrong classification reveals inability to use major element geochemistry as a proxy for magma evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volatile content (H₂O, CO₂, S) of magmas at mid-ocean ridges, hotspots, and subduction zones. How do these differences reflect the recycling of surface materials into the mantle?",
+     "a": "MORB: low volatiles (0.1-0.3% H₂O) — depleted mantle source. Hotspots (OIB): moderate volatiles (0.5-1% H₂O) — deep, less-degassed mantle. Subduction zones: high volatiles (3-6% H₂O) — slab-derived fluids from altered oceanic crust and sediments flux the mantle wedge. A wrong comparison (e.g., \"all have similar water\") reveals the student misses the critical link between plate tectonics (subduction) and mantle geochemical cycling — a core Class 11 concept connecting c11_geo_cbse_03_009 to c9_geo_ch1_2.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Volcanic gases directly represent the composition of Earth's primordial atmosphere.\" Consider degassing history, mantle differentiation, and biological processing.",
+     "a": "The statement is partially correct but incomplete. Volcanic gases (H₂O, CO₂, N₂, SO₂) are the primary source of Earth's secondary atmosphere through degassing. However: (1) Early degassing was more intense; (2) Mantle differentiation concentrated volatiles in the crust; (3) Biological activity (photosynthesis) drastically altered atmospheric composition (O₂ rise, CO₂ drawdown); (4) Noble gas isotopes (³He/⁴He) show mantle retains primordial signature but atmosphere does not. A wrong evaluation ignoring biological overprint or mantle evolution reveals a static view of Earth systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan to determine whether a newly discovered volcanic rock suite in the Andaman Islands represents a subduction-related arc magma or a hotspot-related melt. Specify three key geochemical criteria and the tectonic reasoning for each.",
+     "a": "A strong plan includes: (1) **K₂O vs. SiO₂ plot** — arc magmas define medium-K to high-K calc-alkaline trends; hotspot (OIB) magmas are typically low-K tholeiitic or alkaline. Reason: subduction fluids enrich LILE (K, Rb, Ba). (2) **Trace element spider diagram (normalized to primitive mantle)** — arc shows strong Nb-Ta negative anomaly (subduction signature); OIB shows smooth or Nb-Ta positive. Reason: slab fluids carry LILE but not HFSE (Nb, Ta). (3) **Radiogenic isotopes (⁸⁷Sr/⁸⁶Sr, ¹⁴³Nd/¹⁴⁴Nd)** — arc has elevated ⁸⁷Sr/⁸⁶Sr (sediment input); OIB has lower ratios (depleted or primitive mantle). Reason: crustal recycling vs. deep mantle source. Poor plans rely only on rock color or texture, ignoring geochemical fingerprints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

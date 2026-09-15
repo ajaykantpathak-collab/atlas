@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_12",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_12",
+   "title": "c8_hist_ch5_12",
+   "questions": [
+    {
+     "q": "What is the name of the primary legislation enacted by the Parliament of India in 1958 for the protection of ancient monuments and archaeological sites?",
+     "a": "The Ancient Monuments and Archaeological Sites and Remains Act, 1958 (AMASR Act). A wrong answer (e.g., \"Indian Antiquities Act\" or \"Heritage Protection Act\") reveals the student confuses colonial-era legislation (like the 1904 Ancient Monuments Preservation Act) with the post-independence framework, or does not know the specific legal instrument that empowers the ASI today.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 1958 AMASR Act introduce the concept of \"prohibited area\" (100m) and \"regulated area\" (200m) around centrally protected monuments, which did not exist in the 1904 British law?",
+     "a": "The 1958 Act recognized that monuments cannot be preserved in isolation — urban expansion, construction vibrations, and pollution threaten their structural integrity and visual setting. The British 1904 law only protected the monument structure itself. A wrong answer focusing only on \"stricter rules\" misses the shift from object-centric preservation to context-centric conservation, a key conceptual advance in post-independence heritage management.",
+     "self_check": true
+    },
+    {
+     "q": "The Hampi World Heritage Site (inscribed 1986) faced a crisis in 1999 when the Karnataka government proposed a bridge across the Tungabhadra river near the monuments. UNESCO threatened to list it as \"World Heritage in Danger.\" Apply the principles of the 2010 AMASR Amendment Act to explain why this bridge proposal violated Indian heritage law.",
+     "a": "The 2010 Amendment strengthened the 100m prohibited area (no construction) and 200m regulated area (construction only with National Monuments Authority permission). A bridge within the regulated zone near the Virupaksha Temple complex would require NMA clearance, which was not sought. A wrong answer citing only \"UNESCO rules\" shows the student does not know that Indian domestic law (AMASR Amendment 2010) now enforces buffer zones with statutory authority, making it a legal violation, not just an international guideline breach.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation approach at the Brihadiswara Temple, Thanjavur (ASI-managed, living temple with daily worship) with that at the Taj Mahal (ASI-managed, no worship, heavy tourism). Analyze how the \"living heritage\" concept creates different conservation challenges and ethical dilemmas in each case.",
+     "a": "At Brihadiswara, conservation must accommodate rituals (oil lamps, abhishekam, festival crowds) that cause soot, wear, and vibration — requiring negotiation with hereditary trustees under the Tamil Nadu HR&CE Act. At the Taj, conservation focuses on marble yellowing from pollution, visitor footfall management, and riverbed erosion — with no religious use conflict but intense commercial pressure. A wrong answer treating both as \"ASI sites needing repair\" misses the core analytical distinction: living heritage demands participatory governance; dead heritage demands visitor management. Both need different ethical frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"INTACH (Indian National Trust for Art and Cultural Heritage), founded in 1984, has been more effective than the ASI in conserving India's architectural heritage because it works with local communities and non-governmental funding.\" Defend or critique with evidence.",
+     "a": "Critique: INTACH has pioneered community-led conservation (e.g., Shekhawati havelis, Ladakh monasteries) and listed 60,000+ unprotected buildings — filling the ASI's gap of only 3,693 centrally protected monuments. However, INTACH lacks statutory power (cannot stop demolition, enforce buffers), depends on volatile donations, and cannot match ASI's technical capacity for structural conservation of massive sites like Ellora or Sanchi. A one-sided answer (\"INTACH is better because community\") ignores that legal authority and sustained public funding — which only the state provides — are indispensable for large-scale, long-term conservation. Effective heritage protection needs both.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conservation management plan for a hypothetical 16th-century stepwell (baoli) in a rapidly growing tier-2 Indian city. The stepwell is not centrally protected but is locally revered. Your plan must address: legal protection, community ownership, sustainable use, and climate resilience. Present as a 4-point framework.",
+     "a": "A strong answer includes: (1) Legal: Immediate state-level notification under State Archaeology Act + nomination for central protection; meanwhile, use 73rd/74th Amendment powers to designate it a \"heritage asset\" in the city master plan. (2) Community: Form a Baoli Conservation Committee with residents, priests, municipal councillors, and INTACH chapter — co-manage cleaning, festivals, and monitoring. (3) Sustainable use: Recharge groundwater via rainwater harvesting (reviving original function), allow cultural events with capacity limits, ban commercial extraction. (4) Climate resilience: Document with 3D laser scanning; install microclimate sensors; use traditional lime plaster for repairs; create disaster protocol for flash floods. A poor answer lists generic \"awareness campaigns\" without legal tools, technical methods, or institutional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

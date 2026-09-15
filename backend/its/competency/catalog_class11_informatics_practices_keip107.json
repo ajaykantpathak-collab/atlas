@@ -1,0 +1,418 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 7,
+ "chapter_title": "Database Concepts",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip107.1",
+   "title": "Manual Attendance Register Volume",
+   "section": "7.1",
+   "definition": "Marking attendance by hand multiplies fast: one mark per student per working day means the class teacher writes student-count times working-days entries every month, and the school year multiplies that again. The sheer volume explains why pen-and-paper registers invite skipped rows, wrong names and tiring totals.",
+   "formula": "monthly_entries = student_count * working_days",
+   "key_idea": "Multiply students by working days for one month's marks, then by the number of months for the whole session's workload.",
+   "textbook_ref": "keip107.txt section 7.1 introduction (lines 8-60)",
+   "question_patterns": [
+    "a class of 50 students meets 26 days a month; how many attendance marks does the teacher record monthly",
+    "how many manual entries pile up over a 10-month session for the 50-student class",
+    "why does manual data entry become tedious as data volume grows",
+    "list two limitations of maintaining an attendance register by hand",
+    "a 40-student class works 24 days; compute the month's entry count",
+    "how many marks are written per day for a class of 50 students"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply students by working days",
+     "explain": "every student needs one mark each working day, giving the month's entries",
+     "compute": "monthly_entries = student_count * working_days"
+    },
+    {
+     "step": 2,
+     "action": "extend to the whole session",
+     "explain": "multiplying the monthly load by the number of months gives the session total",
+     "compute": "session_entries = monthly_entries * month_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A class of 40 students meets 24 working days a month. How many attendance entries does the teacher write monthly?",
+     "a": "960"
+    }
+   ]
+  },
+  {
+   "id": "keip107.2",
+   "title": "File System Limitations",
+   "section": "7.2.1",
+   "definition": "Storing school records as separate files brings six recurring troubles: data can be reached only by writing programs, the same facts get duplicated in many files, duplicated copies drift out of agreement, related files have no link between them, programs break when a file's layout changes, and fine-grained read-only access is hard to enforce.",
+   "formula": "file_system_drawbacks = access + redundancy + isolation + dependence",
+   "key_idea": "Files alone cannot retrieve, link, de-duplicate or police data; programs must do everything, and they break on format changes.",
+   "textbook_ref": "keip107.txt section 7.2.1 A-F (lines 196-317)",
+   "question_patterns": [
+    "what are the limitations of file system that a relational DBMS can overcome",
+    "define data redundancy with the example of two files holding student names",
+    "how does data inconsistency arise when two people maintain two files",
+    "what is data isolation in a file system",
+    "why does changing a file's structure force changes in application programs",
+    "why is controlled data sharing difficult to enforce in a file system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ask how the data is reached",
+     "explain": "files ship no retrieval mechanism; every access needs a bespoke application program"
+    },
+    {
+     "step": 2,
+     "action": "look for duplicated facts",
+     "explain": "the same student name written in two files is redundancy, and divergent copies are inconsistency"
+    },
+    {
+     "step": 3,
+     "action": "check the links and rules",
+     "explain": "no mapping joins related files, format changes break programs, and per-user access rights are almost unenforceable"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The same facts stored in many files is called what?",
+     "a": "redundancy"
+    }
+   ]
+  },
+  {
+   "id": "keip107.3",
+   "title": "Removing Redundancy by Splitting Tables",
+   "section": "7.3.1",
+   "definition": "Moving from files to a database trims duplicated storage. Dropping the student-name column from the attendance table removes one copied value from every attendance row, and housing guardian facts once in their own table (reached through a GUID) removes the repeated guardian details for siblings.",
+   "formula": "cells_saved = cells_before - cells_after",
+   "key_idea": "Each dropped duplicated column saves one stored value per row; multiplying rows by dropped columns quantifies the saving.",
+   "textbook_ref": "keip107.txt section 7.3.1 File System to DBMS (lines 382-449)",
+   "question_patterns": [
+    "why need SName not be maintained in the ATTENDANCE table of the database",
+    "1300 monthly attendance rows shrink from 4 columns to 3; how many stored values are saved",
+    "how does a separate GUARDIAN table avoid repeating guardian details for siblings",
+    "why is a new column GUID needed to identify guardians",
+    "why could guardian phone number not serve as the guardian identifier",
+    "how does a DBMS avoid redundancy that a file system cannot"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the stored values before trimming",
+     "explain": "multiply the attendance rows by the original wider column count",
+     "compute": "cells_before = attendance_tuples * old_column_count"
+    },
+    {
+     "step": 2,
+     "action": "count the values after trimming",
+     "explain": "the same rows now hold one value fewer per row",
+     "compute": "cells_after = attendance_tuples * new_column_count"
+    },
+    {
+     "step": 3,
+     "action": "measure the saving",
+     "explain": "the difference between the two counts is the duplicated storage removed",
+     "compute": "cells_saved = cells_before - cells_after"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Dropping the student-name column from a 500-row attendance table removes how many copied values?",
+     "a": "500"
+    }
+   ]
+  },
+  {
+   "id": "keip107.4",
+   "title": "Degree and Cardinality of a Relation",
+   "section": "7.4",
+   "definition": "For any relation, the degree is a column count and the cardinality is a row count: GUARDIAN with its four columns and five guardian rows is a degree-4, cardinality-5 relation. Adding one more column raises the degree by one, and the grid of stored values is the degree multiplied by the cardinality.",
+   "formula": "values_stored = degree_count * cardinality_count",
+   "key_idea": "Columns give the degree, rows give the cardinality, and their product counts every stored value in the relation.",
+   "textbook_ref": "keip107.txt section 7.4 iv/v and Figure 7.5 (lines 807-814, 797-802)",
+   "question_patterns": [
+    "what is the degree of the GUARDIAN relation",
+    "what is the cardinality of the GUARDIAN relation shown in the chapter",
+    "a relation has 4 attributes and 5 tuples; how many data values does it store",
+    "differentiate between degree and cardinality of a relation",
+    "if one more column is added to GUARDIAN, what is its new degree",
+    "name the terms for the number of attributes and the number of rows of a relation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise the degree for the new column",
+     "explain": "each added attribute increases the degree by exactly one",
+     "compute": "new_degree = attribute_count + 1"
+    },
+    {
+     "step": 2,
+     "action": "count every stored value",
+     "explain": "the cell count of the relation is its degree times its cardinality",
+     "compute": "values_stored = new_degree * cardinality_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A relation has 4 columns and 5 rows. What is its degree?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "keip107.5",
+   "title": "Attendance Status P and A Tally",
+   "section": "7.2",
+   "definition": "The attendance table stores one letter per student per day, P for present or A for absent. A student's attendance figure for a period is the working days minus the absences, expressed as a percentage of the working days, and roll numbers link each status row back to the STUDENT table.",
+   "formula": "attendance_percent = attended_days / working_days * 100",
+   "key_idea": "Subtract the A-rows from the working days to get attended days, then scale by 100 for the percentage.",
+   "textbook_ref": "keip107.txt Table 7.2 and Table 7.6 (lines 179-275, 522-561)",
+   "question_patterns": [
+    "Ali Shah was absent on 2018-09-01 and present on 2018-09-02; find his attendance percentage for the two days",
+    "Taleem Shah is marked A on both days in the ATTENDANCE table; what is his attendance percentage",
+    "how is the letter A used in the attendance table",
+    "which column links the ATTENDANCE table to the STUDENT table",
+    "a student attends 24 of 26 working days; compute the attendance percentage",
+    "why is the pair of AttendanceDate and RollNumber unique in each attendance record"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the days actually attended",
+     "explain": "subtract the absences from the working days of the period",
+     "compute": "attended_days = working_days - absent_count"
+    },
+    {
+     "step": 2,
+     "action": "express attendance as a percentage",
+     "explain": "divide the attended days by the working days and scale by 100",
+     "compute": "attendance_percent = attended_days / working_days * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A student was absent on 6 of 30 working days. What is the attendance percentage?",
+     "a": "80 percent"
+    }
+   ]
+  },
+  {
+   "id": "keip107.6",
+   "title": "DBMS Terms: Schema, Instance, Metadata",
+   "section": "7.3.2",
+   "definition": "A DBMS manages related data through a small vocabulary: the schema is the skeleton design of tables, columns and constraints; the instance is the snapshot of actual contents at a moment; metadata (the data dictionary or catalog) records the schema itself; a query asks for information; and insertion, deletion and update are the three data manipulation operations.",
+   "formula": "database_state_snapshot = instance",
+   "key_idea": "Schema is the design, instance is the current contents, metadata describes the design, queries read, manipulation writes.",
+   "textbook_ref": "keip107.txt section 7.3.2 A-G (lines 568-653)",
+   "question_patterns": [
+    "differentiate between database state and database schema",
+    "what is metadata or the data dictionary of a database",
+    "give one example of a query against the student attendance database",
+    "name the three data manipulation operations on a database",
+    "which operation is needed when a guardian changes his mobile number",
+    "what does the database engine do in a DBMS"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate design from contents",
+     "explain": "the schema names tables and constraints; the instance is whatever rows exist right now"
+    },
+    {
+     "step": 2,
+     "action": "locate the description of the design",
+     "explain": "the DBMS stores schema plus constraints as metadata inside its catalog"
+    },
+    {
+     "step": 3,
+     "action": "classify the request",
+     "explain": "reading is a query; adding, removing or changing rows is data manipulation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the skeleton design of tables, columns and constraints called?",
+     "a": "schema"
+    }
+   ]
+  },
+  {
+   "id": "keip107.7",
+   "title": "Relational Model: Attribute, Tuple, Domain",
+   "section": "7.4",
+   "definition": "In the relational data model a table is a relation: its columns are attributes, each row is a tuple, and every attribute draws values from one domain (its permitted set, usually fixed by a data type). Three properties hold: attribute names are unique and their order is immaterial, tuples are distinct and unordered, and every value is atomic, single-valued and domain-conforming, with NULL marking the unknown.",
+   "formula": "relation_grid = attributes_by_tuples",
+   "key_idea": "Columns are named attributes over fixed domains, rows are distinct unordered tuples, and every cell holds one atomic value or NULL.",
+   "textbook_ref": "keip107.txt section 7.4 i-v and 7.4.1 (lines 740-850)",
+   "question_patterns": [
+    "define attribute, tuple and domain of a relation",
+    "which term describes each row of data in a relation",
+    "what are the three properties imposed on a relation in the relational model",
+    "why must every value of an attribute come from the same domain",
+    "what does the special value NULL represent in a column such as GPhone",
+    "can two tuples of a relation be identical in all attributes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table structure",
+     "explain": "unique column names are attributes; each attribute has one domain of allowed values"
+    },
+    {
+     "step": 2,
+     "action": "read the rows",
+     "explain": "every row is a tuple describing one real-world entity, and no two tuples may be fully identical"
+    },
+    {
+     "step": 3,
+     "action": "inspect the cells",
+     "explain": "each cell carries a single atomic value from the domain, or NULL when the fact is unknown"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a row of a relation called?",
+     "a": "tuple"
+    }
+   ]
+  },
+  {
+   "id": "keip107.8",
+   "title": "Keys: Candidate, Primary, Composite, Foreign",
+   "section": "7.5",
+   "definition": "Keys police uniqueness and relationships. Attributes that never repeat are candidate keys; the designer picks one as the primary key and the rest become alternate keys; when no single attribute suffices, two or more join into a composite primary key such as {RollNumber, AttendanceDate}; and an attribute pointing at another table's primary key is a foreign key, which may stay NULL when it is not part of its own table's key.",
+   "formula": "composite_key_parts = rollnumber_plus_attendancedate",
+   "key_idea": "Candidate keys are the options, the chosen one is primary, leftovers are alternate, combined ones are composite, and cross-table pointers are foreign.",
+   "textbook_ref": "keip107.txt sections 7.5.1-7.5.4 (lines 856-924)",
+   "question_patterns": [
+    "name the candidate keys of the GUARDIAN relation",
+    "if GUID is chosen as primary key of GUARDIAN, what is GPhone called",
+    "why must ATTENDANCE use a composite primary key of RollNumber and AttendanceDate",
+    "which attribute acts as a foreign key in the STUDENT relation",
+    "why are foreign keys allowed to hold NULL values",
+    "can roll number 17 appear twice in a sports preference table where Roll_no is the primary key"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "shortlist the unique attributes",
+     "explain": "any attribute whose values never repeat and are never NULL is a candidate key"
+    },
+    {
+     "step": 2,
+     "action": "make the designer's choice",
+     "explain": "one candidate becomes the primary key; the unchosen candidates are alternate keys"
+    },
+    {
+     "step": 3,
+     "action": "combine or connect",
+     "explain": "when one attribute cannot separate tuples, several join as a composite key; an attribute referencing another relation's primary key is a foreign key"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "RollNumber together with AttendanceDate forms which kind of key?",
+     "a": "composite key"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip107.txt section 7.1 (attendance register example)",
+   "concept": "keip107.1",
+   "question_type": "numeric",
+   "question_pattern": "Class strength is 50 and a month has 26 working days. How many attendance marks are recorded manually in the month, and how many over a 10-month session?",
+   "extracted_variables": {
+    "student_count": 50,
+    "working_days": 26,
+    "month_count": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply students by working days",
+     "explain": "50 * 26 = 1300 marks in the month",
+     "compute": "monthly_entries = student_count * working_days"
+    },
+    {
+     "step": 2,
+     "action": "scale to the session",
+     "explain": "1300 * 10 = 13000 manual entries across the session",
+     "compute": "session_entries = monthly_entries * month_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip107.txt section 7.3.1 (dropping SName from ATTENDANCE)",
+   "concept": "keip107.3",
+   "question_type": "numeric",
+   "question_pattern": "The attendance table holds 1300 rows for the month. Dropping the SName column reduces it from 4 columns to 3. How many stored values are saved?",
+   "extracted_variables": {
+    "attendance_tuples": 1300,
+    "old_column_count": 4,
+    "new_column_count": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count values before trimming",
+     "explain": "1300 * 4 = 5200 stored values",
+     "compute": "cells_before = attendance_tuples * old_column_count"
+    },
+    {
+     "step": 2,
+     "action": "count values after trimming",
+     "explain": "1300 * 3 = 3900 stored values",
+     "compute": "cells_after = attendance_tuples * new_column_count"
+    },
+    {
+     "step": 3,
+     "action": "measure the saving",
+     "explain": "5200 - 3900 = 1300 duplicated values removed",
+     "compute": "cells_saved = cells_before - cells_after"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip107.txt Exercise Q1, Q3, Q6",
+   "questions": [
+    "Give the terms: collection of logically related records (database/relations); DBMS file describing stored data (metadata); attribute that uniquely identifies tuples (candidate key); special value for unknown data (NULL); unique identifier not chosen as primary key (alternate key); software to create and maintain a relational database (DBMS).",
+    "Differentiate between primary key and foreign key with the STUDENT-ATTENDANCE example.",
+    "In the Sports Preferences table, roll no 17 lists two preferences. Which property of a relation is violated? (each cell must be atomic/single-valued)",
+    "In the same table, can roll no 24's preference be NULL when the school rule says every student must participate? (no, a rule constraint forbids it)",
+    "Kabaddi was chosen by nobody; can such a tuple exist in the relation? (the given table shape stores student preferences, so a tuple without a student violates the design)",
+    "Are two sports preference tables equivalent when one is sorted by roll number and the other by sports name? (yes, tuple order is immaterial in a relation)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip107.txt Exercise Q9, Q11 and Figure 7.5 facts",
+   "questions": [
+    "For EMPLOYEE(AadharNumber, Name, Address, Department, EmployeeID), name the candidate keys. (AadharNumber and EmployeeID)",
+    "What is the degree of EMPLOYEE and of DEPENDENT(EmployeeID, DependentName, Relationship)? (5 and 3)",
+    "In Movie(Movie_ID, MovieName, ReleaseDate) and Audi(AudiNo, Movie_ID, Seats, ScreenType, TicketPrice), which attribute is a foreign key? (Movie_ID in Audi)",
+    "State the degree and cardinality of the GUARDIAN relation of Figure 7.5. (degree 4, cardinality 5)",
+    "Which two attributes together form the primary key of ATTENDANCE? (RollNumber and AttendanceDate)",
+    "Why is GPhone an alternate key and not the primary key of GUARDIAN? (GUID was chosen as primary; GPhone remains a candidate, hence alternate)"
+   ]
+  }
+ ]
+}

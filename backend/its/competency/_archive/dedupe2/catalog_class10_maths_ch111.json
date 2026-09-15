@@ -1,0 +1,301 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 11,
+ "chapter_title": "Areas Related to Circles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh111.txt",
+ "concepts": [
+  {
+   "id": "jemh.11.1",
+   "title": "Sector of a Circle",
+   "section": "11.1",
+   "definition": "A region of a circle bounded by two radii and the arc connecting their endpoints.",
+   "formula": "N/A",
+   "key_idea": "A pie-shaped slice of a circular region.",
+   "textbook_ref": "jemh111.txt lines 5-15",
+   "question_patterns": [
+    "define a sector",
+    "what is a minor sector",
+    "identify the major sector in the figure",
+    "distinguish between minor and major sectors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify radii and arc",
+     "explain": "A sector is formed by two radii and an arc."
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.2",
+   "title": "Area of a Sector",
+   "section": "11.1",
+   "definition": "The total surface enclosed within a sector, proportional to the central angle's ratio to 360 degrees.",
+   "formula": "area = (theta / 360) * pi * radius**2",
+   "key_idea": "Sector area is a fraction of the total circle area.",
+   "textbook_ref": "jemh111.txt lines 35-45",
+   "question_patterns": [
+    "find the area of a sector",
+    "calculate the area of a sector with radius {radius} and angle {theta}",
+    "what is the area of a sector of angle {theta}",
+    "determine the area of the shaded sector"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the area",
+     "explain": "Multiply the circle area by the ratio of the sector angle to 360.",
+     "compute": "area = (theta / 360) * pi * radius**2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.3",
+   "title": "Length of an Arc",
+   "section": "11.1",
+   "definition": "The linear distance along the curved edge of a sector corresponding to a central angle.",
+   "formula": "arc_length = (theta / 360) * 2 * pi * radius",
+   "key_idea": "Arc length is a fraction of the total circumference.",
+   "textbook_ref": "jemh111.txt lines 48-55",
+   "question_patterns": [
+    "find the length of the arc",
+    "calculate the arc length for a sector of angle {theta}",
+    "how long is the arc of a sector with radius {radius}",
+    "determine the distance along the curved boundary"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate arc length",
+     "explain": "Multiply the circumference by the ratio of the angle to 360.",
+     "compute": "arc_length = (theta / 360) * 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.4",
+   "title": "Segment of a Circle",
+   "section": "11.1",
+   "definition": "The region enclosed between a chord and the arc it subtends.",
+   "formula": "N/A",
+   "key_idea": "A portion of the circle cut off by a straight line (chord).",
+   "textbook_ref": "jemh111.txt lines 18-25",
+   "question_patterns": [
+    "what is a segment",
+    "define minor and major segments",
+    "identify the segment formed by chord AB"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify chord and arc",
+     "explain": "A segment is the area between a chord and its corresponding arc."
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.5",
+   "title": "Area of a Minor Segment",
+   "section": "11.1",
+   "definition": "The area calculated by subtracting the area of the triangle formed by the radii and chord from the area of the sector.",
+   "formula": "segment_area = sector_area - triangle_area",
+   "key_idea": "Segment area = Sector area - Triangle area.",
+   "textbook_ref": "jemh111.txt lines 58-65",
+   "question_patterns": [
+    "find the area of the minor segment",
+    "calculate the area of segment APB",
+    "what is the area of the segment formed by a chord",
+    "determine the area between the chord and the arc"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate sector area",
+     "explain": "Find the area of the sector using the central angle.",
+     "compute": "sector_area = (theta / 360) * pi * radius**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate triangle area",
+     "explain": "Find the area of the triangle formed by the two radii and the chord.",
+     "compute": "triangle_area = 0.5 * base * height"
+    },
+    {
+     "step": 3,
+     "action": "Subtract to find segment area",
+     "explain": "Subtract the triangle area from the sector area.",
+     "compute": "segment_area = sector_area - triangle_area"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.6",
+   "title": "Area of Major Sector",
+   "section": "11.1",
+   "definition": "The area of the circle that remains after the minor sector is removed.",
+   "formula": "area = pi * radius**2 - minor_sector_area",
+   "key_idea": "Subtract the minor sector from the total circle area.",
+   "textbook_ref": "jemh111.txt lines 66-68",
+   "question_patterns": [
+    "find the area of the major sector",
+    "calculate the area of the corresponding major sector",
+    "what is the area of the unshaded sector region"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total area",
+     "explain": "Find the area of the entire circle.",
+     "compute": "total_area = pi * radius**2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract minor sector",
+     "explain": "Subtract the minor sector area from the total area.",
+     "compute": "major_area = total_area - minor_sector_area"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.7",
+   "title": "Area of a Quadrant",
+   "section": "11.1",
+   "definition": "A specific sector of a circle where the central angle is 90 degrees.",
+   "formula": "area = (1/4) * pi * radius**2",
+   "key_idea": "A quadrant is one-fourth of a circle.",
+   "textbook_ref": "jemh111.txt Exercise 11.1 Q2",
+   "question_patterns": [
+    "find the area of a quadrant",
+    "calculate the area of a quarter circle",
+    "what is the area of a sector with angle 90 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate quadrant area",
+     "explain": "Divide the total circle area by 4.",
+     "compute": "area = pi * radius**2 / 4"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.8",
+   "title": "Area Swept by a Clock Hand",
+   "section": "11.1",
+   "definition": "The sector area covered by the minute hand of a clock over a given duration.",
+   "formula": "area = (minutes / 60) * pi * radius**2",
+   "key_idea": "The minute hand sweeps 360 degrees in 60 minutes.",
+   "textbook_ref": "jemh111.txt Exercise 11.1 Q3",
+   "question_patterns": [
+    "find the area swept by the minute hand in {minutes} minutes",
+    "calculate the area covered by a clock hand of length {radius}",
+    "how much area does the minute hand sweep"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the angle",
+     "explain": "The minute hand moves 6 degrees per minute.",
+     "compute": "theta = minutes * 6"
+    },
+    {
+     "step": 2,
+     "action": "Calculate sector area",
+     "explain": "Use the calculated angle to find the area swept.",
+     "compute": "area = (theta / 360) * pi * radius**2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh111.txt lines 71-85",
+   "concept": "jemh.11.2",
+   "question_type": "compute",
+   "question_pattern": "Find the area of the sector of a circle with radius {radius} cm and of angle {theta}. Also, find the area of the corresponding major sector.",
+   "extracted_variables": {
+    "radius": "4",
+    "theta": "30"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate minor sector area",
+     "explain": "Apply the sector area formula for 30 degrees.",
+     "compute": "minor_area = (theta / 360) * pi * radius**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate major sector area",
+     "explain": "Subtract minor area from total circle area.",
+     "compute": "major_area = (pi * radius**2) - minor_area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh111.txt lines 90-120",
+   "concept": "jemh.11.5",
+   "question_type": "compute",
+   "question_pattern": "Find the area of the segment AYB if radius of the circle is {radius} cm and angle AOB = {theta}.",
+   "extracted_variables": {
+    "radius": "21",
+    "theta": "120"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate sector area",
+     "explain": "Use theta = 120 and radius = 21.",
+     "compute": "sector_area = (theta / 360) * pi * radius**2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate triangle area",
+     "explain": "Calculate area of triangle OAB using trigonometry or geometry.",
+     "compute": "triangle_area = 441 * sqrt(3) / 4"
+    },
+    {
+     "step": 3,
+     "action": "Calculate segment area",
+     "explain": "Subtract triangle area from sector area.",
+     "compute": "segment_area = sector_area - triangle_area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "jemh111.txt lines 125-175",
+   "questions": [
+    "1. Find the area of a sector of a circle with radius 6 cm if angle of the sector is 60°.",
+    "2. Find the area of a quadrant of a circle whose circumference is 22 cm.",
+    "3. The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes.",
+    "4. A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the corresponding : (i) minor segment (ii) major sector. (Use pi = 3.14)",
+    "5. In a circle of radius 21 cm, an arc subtends an angle of 60° at the centre. Find: (i) the length of the arc (ii) area of the sector formed by the arc (iii) area of the segment formed by the corresponding chord",
+    "6. A chord of a circle of radius 15 cm subtends an angle of 60° at the centre. Find the areas of the corresponding minor and major segments of the circle. (Use pi = 3.14 and sqrt(3) = 1.73)",
+    "7. A chord of a circle of radius 12 cm subtends an angle of 120° at the centre. Find the area of the corresponding segment of the circle. (Use pi = 3.14 and sqrt(3) = 1.73)",
+    "8. A horse is tied to a peg at one corner of a square shaped grass field of side 15 m by means of a 5 m long rope. Find (i) the area of that part of the field in which the horse can graze. (ii) the increase in the grazing area if the rope were 10 m long instead of 5 m. (Use pi = 3.14)",
+    "9. A brooch is made with silver wire in the form of a circle with diameter 35 mm. The wire is also used in making 5 diameters which divide the circle into 10 equal sectors. Find : (i) the total length of the silver wire required. (ii) the area of each sector of the brooch.",
+    "10. An umbrella has 8 ribs which are equally spaced. Assuming umbrella to be a flat circle of radius 45 cm, find the area between the two consecutive ribs of the umbrella.",
+    "11. A car has two wipers which do not overlap. Each wiper has a blade of length 25 cm sweeping through an angle of 115°. Find the total area cleaned at each sweep of the blades.",
+    "12. To warn ships for underwater rocks, a lighthouse spreads a red coloured light over a sector of angle 80° to a distance of 16.5 km. Find the area of the sea over which the ships are warned. (Use pi = 3.14)",
+    "13. A round table cover has six equal designs. If the radius of the cover is 28 cm, find the cost of making the designs at the rate of Rs 0.35 per cm2. (Use sqrt(3) = 1.7)",
+    "14. Tick the correct answer: Area of a sector of angle p (in degrees) of a circle with radius R is (D) (p/720) * 2 * pi * R^2"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_013",
+   "title": "c11_phy_cbse_04_013",
+   "questions": [
+    {
+     "q": "A circular race track of radius 200 m is banked at an angle of 12°. What is the optimum speed (in m/s) for a car to negotiate the curve without relying on friction? Take g = 9.8 m/s².",
+     "a": "Correct answer: v₀ = √(Rg tan θ) = √(200 × 9.8 × tan 12°) = √(200 × 9.8 × 0.2126) = √416.7 ≈ 20.4 m/s. A wrong answer using v = √(Rg sin θ) or v = √(Rg) reveals the student cannot distinguish between the components of normal reaction and incorrectly assumes the full normal force provides centripetal force, or confuses banking with level road formula v_max = √(μ_s Rg).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a car parked on a banked road with θ = 10° and μ_s = 0.15 will remain stationary, but the same car on a road with θ = 15° and μ_s = 0.15 will slide down.",
+     "a": "For θ = 10°, tan 10° = 0.176 > μ_s = 0.15 is FALSE (0.176 > 0.15 is TRUE — wait, condition for parking is tan θ ≤ μ_s. tan 10° = 0.176, μ_s = 0.15 → 0.176 > 0.15, so tan θ > μ_s, car slides. Let me correct: For θ = 10°, tan 10° ≈ 0.176, μ_s = 0.15 → tan θ > μ_s, so car slides. For θ = 8°, tan 8° ≈ 0.141 < 0.15, car stays. The student must compare tan θ with μ_s, not θ with μ_s. A wrong answer comparing angles directly (10° vs 0.15) or using sin θ reveals confusion between the friction limit condition and the banking angle geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A banked curve has radius 300 m and banking angle 15°. The coefficient of static friction is 0.2. Calculate the maximum permissible speed in km/h. Take g = 9.8 m/s².",
+     "a": "Step 1: Identify formula v_max = √[Rg (tan θ + μ_s)/(1 - μ_s tan θ)].\nStep 2: tan 15° = 0.2679.\nStep 3: Numerator = tan θ + μ_s = 0.2679 + 0.2 = 0.4679.\nStep 4: Denominator = 1 - μ_s tan θ = 1 - (0.2 × 0.2679) = 1 - 0.0536 = 0.9464.\nStep 5: v_max² = 300 × 9.8 × (0.4679/0.9464) = 2940 × 0.4944 = 1453.5.\nStep 6: v_max = √1453.5 ≈ 38.12 m/s.\nStep 7: Convert to km/h: 38.12 × 3.6 = 137.2 km/h.\nA wrong answer of 101 km/h (using v₀ formula) or 158 km/h (forgetting denominator) reveals algebraic errors in handling the simultaneous equations or unit conversion mistakes.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels at 25 m/s on a banked curve of radius 400 m and angle 10°. The coefficient of static friction is 0.18. Determine whether friction acts up the slope, down the slope, or is zero. Justify with calculations.",
+     "a": "Calculate v₀ = √(Rg tan θ) = √(400 × 9.8 × tan 10°) = √(400 × 9.8 × 0.1763) = √690.5 ≈ 26.28 m/s.\nGiven v = 25 m/s < v₀ = 26.28 m/s.\nTherefore, friction acts UP the slope to prevent the car from sliding down.\nA wrong answer saying \"friction acts down the slope\" reveals the student thinks higher speed always means friction acts down, not understanding that below optimum speed, the car tends to slide inward/downward, so friction opposes this by acting up the slope.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the maximum speed formula as v_max = √[Rg (μ_s + tan θ)] (missing the denominator). Evaluate this formula: is it ever correct? If yes, under what condition? If no, explain the physical error.",
+     "a": "The formula v_max = √[Rg (μ_s + tan θ)] is correct ONLY when μ_s tan θ << 1, i.e., when the denominator (1 - μ_s tan θ) ≈ 1. This occurs for small banking angles and/or small friction coefficients (e.g., θ < 5° and μ_s < 0.2). The physical error in omitting the denominator is ignoring that friction has a vertical component (f sin θ) that increases the normal reaction N, which in turn increases the maximum friction force itself — a self-amplifying effect captured by the denominator. A student who thinks it's always correct fails to recognize the coupling between normal force and friction in the vertical equilibrium equation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a coin, a rigid cardboard sheet, and a protractor to demonstrate the concept of optimum speed on a banked curve. Describe the procedure, measurements, and how you would verify v₀ = √(Rg tan θ).",
+     "a": "Procedure: Bend cardboard into a curved track of radius R ≈ 0.5 m. Fix it at angle θ (measure with protractor). Place coin at centre, rotate the whole assembly horizontally at controlled angular speed ω (use a variable-speed motor or hand drill with speed control). Increase ω gradually until coin stays at fixed radius without sliding up or down. Measure ω (revolutions per second). Calculate v = ωR. Compare with v₀ = √(Rg tan θ). Repeat for 3 angles. A poor answer that just says \"tilt the board and spin\" without specifying how to measure ω, control radius, or compare with formula reveals lack of experimental design thinking and confusion between angular speed and linear speed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

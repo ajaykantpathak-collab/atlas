@@ -1,0 +1,2995 @@
+---
+- formula_id: PHY_OPT_G_001
+  name: Law of Reflection
+  domain: PHY_OPT_G
+  formula: '\theta_i = \theta_r'
+  variables:
+    - name: '\theta_i'
+      description: angle of incidence
+    - name: '\theta_r'
+      description: angle of reflection
+  grade_range:
+    - undergraduate
+  description: Angle of incidence equals angle of reflection for a plane mirror.
+
+- formula_id: PHY_OPT_G_002
+  name: Snell Law
+  domain: PHY_OPT_G
+  formula: 'n_1 \sin\theta_1 = n_2 \sin\theta_2'
+  variables:
+    - name: 'n_1'
+      description: refractive index of medium 1
+    - name: 'n_2'
+      description: refractive index of medium 2
+    - name: '\theta_1'
+      description: angle of incidence
+    - name: '\theta_2'
+      description: angle of refraction
+  grade_range:
+    - undergraduate
+  description: Relates refraction angles to refractive indices at an interface.
+
+- formula_id: PHY_OPT_G_003
+  name: Critical Angle
+  domain: PHY_OPT_G
+  formula: '\sin\theta_c = n_2 / n_1'
+  variables:
+    - name: '\theta_c'
+      description: critical angle for total internal reflection
+    - name: 'n_1'
+      description: refractive index of denser medium
+    - name: 'n_2'
+      description: refractive index of rarer medium
+  grade_range:
+    - undergraduate
+  description: Angle of incidence beyond which total internal reflection occurs.
+
+- formula_id: PHY_OPT_G_004
+  name: Thin Lens Equation
+  domain: PHY_OPT_G
+  formula: '\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}'
+  variables:
+    - name: 'f'
+      description: focal length
+    - name: 'd_o'
+      description: object distance
+    - name: 'd_i'
+      description: image distance
+  grade_range:
+    - undergraduate
+  description: Relates object distance, image distance, and focal length for a thin lens.
+
+- formula_id: PHY_OPT_G_005
+  name: Lensmaker Equation
+  domain: PHY_OPT_G
+  formula: '\frac{1}{f} = (n-1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)'
+  variables:
+    - name: 'f'
+      description: focal length
+    - name: 'n'
+      description: refractive index of lens material
+    - name: 'R_1'
+      description: radius of curvature of first surface
+    - name: 'R_2'
+      description: radius of curvature of second surface
+  grade_range:
+    - undergraduate
+  description: Calculates focal length from lens geometry and material.
+
+- formula_id: PHY_OPT_G_006
+  name: Mirror Equation
+  domain: PHY_OPT_G
+  formula: '\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}'
+  variables:
+    - name: 'f'
+      description: focal length (R/2 for spherical mirror)
+    - name: 'd_o'
+      description: object distance
+    - name: 'd_i'
+      description: image distance
+  grade_range:
+    - undergraduate
+  description: Relates object and image distances for a spherical mirror.
+
+- formula_id: PHY_OPT_G_007
+  name: Lateral Magnification (Lens)
+  domain: PHY_OPT_G
+  formula: 'm = -\frac{d_i}{d_o}'
+  variables:
+    - name: 'm'
+      description: magnification
+    - name: 'd_i'
+      description: image distance
+    - name: 'd_o'
+      description: object distance
+  grade_range:
+    - undergraduate
+  description: Ratio of image height to object height for a lens.
+
+- formula_id: PHY_OPT_G_008
+  name: Lateral Magnification (Mirror)
+  domain: PHY_OPT_G
+  formula: 'm = -\frac{d_i}{d_o}'
+  variables:
+    - name: 'm'
+      description: magnification
+    - name: 'd_i'
+      description: image distance
+    - name: 'd_o'
+      description: object distance
+  grade_range:
+    - undergraduate
+  description: Ratio of image height to object height for a spherical mirror.
+
+- formula_id: PHY_OPT_G_009
+  name: Refractive Index
+  domain: PHY_OPT_G
+  formula: 'n = \frac{c}{v}'
+  variables:
+    - name: 'n'
+      description: refractive index
+    - name: 'c'
+      description: speed of light in vacuum
+    - name: 'v'
+      description: speed of light in medium
+  grade_range:
+    - undergraduate
+  description: Ratio of speed of light in vacuum to that in a medium.
+
+- formula_id: PHY_OPT_G_010
+  name: Prism Minimum Deviation
+  domain: PHY_OPT_G
+  formula: 'n = \frac{\sin\left(\frac{A + \delta_m}{2}\right)}{\sin\left(\frac{A}{2}\right)}'
+  variables:
+    - name: 'n'
+      description: refractive index
+    - name: 'A'
+      description: prism apex angle
+    - name: '\delta_m'
+      description: angle of minimum deviation
+  grade_range:
+    - undergraduate
+  description: Relates refractive index to prism angle and minimum deviation.
+
+- formula_id: PHY_OPT_G_011
+  name: Prism Deviation Angle
+  domain: PHY_OPT_G
+  formula: '\delta = \theta_1 + \theta_2 - A'
+  variables:
+    - name: '\delta'
+      description: angle of deviation
+    - name: '\theta_1'
+      description: angle of incidence at first face
+    - name: '\theta_2'
+      description: angle of emergence at second face
+    - name: 'A'
+      description: prism apex angle
+  grade_range:
+    - undergraduate
+  description: Total deviation of a ray passing through a prism.
+
+- formula_id: PHY_OPT_G_012
+  name: Numerical Aperture
+  domain: PHY_OPT_G
+  formula: 'NA = n \sin\theta'
+  variables:
+    - name: 'NA'
+      description: numerical aperture
+    - name: 'n'
+      description: refractive index of immersion medium
+    - name: '\theta'
+      description: half-angle of maximum cone of light
+  grade_range:
+    - undergraduate
+  description: Characterizes light-gathering ability of an optical system.
+
+- formula_id: PHY_OPT_G_013
+  name: Focal Length (Spherical Mirror)
+  domain: PHY_OPT_G
+  formula: 'f = \frac{R}{2}'
+  variables:
+    - name: 'f'
+      description: focal length
+    - name: 'R'
+      description: radius of curvature of mirror
+  grade_range:
+    - undergraduate
+  description: Focal length is half the radius of curvature for a spherical mirror.
+
+- formula_id: PHY_OPT_G_014
+  name: Power of Lens
+  domain: PHY_OPT_G
+  formula: 'P = \frac{1}{f}'
+  variables:
+    - name: 'P'
+      description: optical power in diopters
+    - name: 'f'
+      description: focal length in meters
+  grade_range:
+    - undergraduate
+  description: Reciprocal of focal length; measures converging or diverging strength.
+
+- formula_id: PHY_OPT_G_015
+  name: Longitudinal Spherical Aberration
+  domain: PHY_OPT_G
+  formula: 'LSA \approx \frac{h^2}{2R}\left(\frac{n-1}{n}\right)'
+  variables:
+    - name: 'LSA'
+      description: longitudinal spherical aberration
+    - name: 'h'
+      description: ray height at lens
+    - name: 'R'
+      description: radius of curvature
+    - name: 'n'
+      description: refractive index
+  grade_range:
+    - graduate
+  description: Axial displacement between paraxial and marginal foci due to spherical shape.
+
+- formula_id: PHY_OPT_G_016
+  name: Lateral Chromatic Aberration
+  domain: PHY_OPT_G
+  formula: 'LCA \approx f \cdot \frac{\Delta n}{n}'
+  variables:
+    - name: 'LCA'
+      description: lateral chromatic aberration
+    - name: 'f'
+      description: focal length
+    - name: '\Delta n'
+      description: dispersion (change in refractive index)
+    - name: 'n'
+      description: mean refractive index
+  grade_range:
+    - graduate
+  description: Variation of image height with wavelength due to dispersion.
+
+- formula_id: PHY_OPT_G_017
+  name: Compound Microscope Magnification
+  domain: PHY_OPT_G
+  formula: 'M = M_o \cdot M_e = -\frac{L}{f_o} \cdot \frac{D}{f_e}'
+  variables:
+    - name: 'M'
+      description: total magnification
+    - name: 'M_o'
+      description: objective magnification
+    - name: 'M_e'
+      description: eyepiece magnification
+    - name: 'L'
+      description: tube length
+    - name: 'f_o'
+      description: focal length of objective
+    - name: 'f_e'
+      description: focal length of eyepiece
+    - name: 'D'
+      description: near point distance (25 cm)
+  grade_range:
+    - undergraduate
+  description: Total magnification of a compound microscope.
+
+- formula_id: PHY_OPT_G_018
+  name: Astronomical Telescope Magnification
+  domain: PHY_OPT_G
+  formula: 'M = -\frac{f_o}{f_e}'
+  variables:
+    - name: 'M'
+      description: angular magnification
+    - name: 'f_o'
+      description: focal length of objective
+    - name: 'f_e'
+      description: focal length of eyepiece
+  grade_range:
+    - undergraduate
+  description: Angular magnification of an astronomical (Keplerian) telescope.
+
+- formula_id: PHY_OPT_G_019
+  name: Galilean Telescope Magnification
+  domain: PHY_OPT_G
+  formula: 'M = -\frac{f_o}{f_e}'
+  variables:
+    - name: 'M'
+      description: angular magnification
+    - name: 'f_o'
+      description: focal length of objective
+    - name: 'f_e'
+      description: focal length of eyepiece (negative for diverging lens)
+  grade_range:
+    - undergraduate
+  description: Angular magnification of a Galilean telescope with diverging eyepiece.
+
+- formula_id: PHY_OPT_G_020
+  name: Resolving Power (Rayleigh Criterion)
+  domain: PHY_OPT_G
+  formula: '\theta_{min} = 1.22 \frac{\lambda}{D}'
+  variables:
+    - name: '\theta_{min}'
+      description: minimum resolvable angular separation
+    - name: '\lambda'
+      description: wavelength of light
+    - name: 'D'
+      description: diameter of aperture
+  grade_range:
+    - undergraduate
+  description: Minimum angular separation for resolving two point sources.
+
+- formula_id: PHY_OPT_G_021
+  name: Reflection Matrix (Paraxial)
+  domain: PHY_OPT_G
+  formula: 'M_R = \begin{pmatrix} 1 & 0 \\ -2/R & 1 \end{pmatrix}'
+  variables:
+    - name: 'R'
+      description: radius of curvature of mirror
+  grade_range:
+    - graduate
+  description: Ray transfer matrix for reflection from a spherical mirror.
+
+- formula_id: PHY_OPT_G_022
+  name: Refraction Matrix (Plane Interface)
+  domain: PHY_OPT_G
+  formula: 'M_{ref} = \begin{pmatrix} 1 & 0 \\ (n_1-n_2)/(R n_2) & n_1/n_2 \end{pmatrix}'
+  variables:
+    - name: 'n_1'
+      description: refractive index before interface
+    - name: 'n_2'
+      description: refractive index after interface
+    - name: 'R'
+      description: radius of curvature
+  grade_range:
+    - graduate
+  description: Ray transfer matrix for refraction at a spherical interface.
+
+- formula_id: PHY_OPT_G_023
+  name: Translation Matrix (Free Space)
+  domain: PHY_OPT_G
+  formula: 'M_T = \begin{pmatrix} 1 & d \\ 0 & 1 \end{pmatrix}'
+  variables:
+    - name: 'd'
+      description: propagation distance
+  grade_range:
+    - graduate
+  description: Ray transfer matrix for propagation through free space.
+
+- formula_id: PHY_OPT_G_024
+  name: Fresnel Equations (s-polarized reflectance)
+  domain: PHY_OPT_G
+  formula: 'r_s = \frac{n_1 \cos\theta_i - n_2 \cos\theta_t}{n_1 \cos\theta_i + n_2 \cos\theta_t}'
+  variables:
+    - name: 'r_s'
+      description: s-polarized reflection coefficient
+    - name: 'n_1, n_2'
+      description: refractive indices
+    - name: '\theta_i, \theta_t'
+      description: incident and transmitted angles
+  grade_range:
+    - graduate
+  description: Amplitude reflection coefficient for s-polarized light.
+
+- formula_id: PHY_OPT_G_025
+  name: Fresnel Equations (p-polarized reflectance)
+  domain: PHY_OPT_G
+  formula: 'r_p = \frac{n_2 \cos\theta_i - n_1 \cos\theta_t}{n_2 \cos\theta_i + n_1 \cos\theta_t}'
+  variables:
+    - name: 'r_p'
+      description: p-polarized reflection coefficient
+    - name: 'n_1, n_2'
+      description: refractive indices
+    - name: '\theta_i, \theta_t'
+      description: incident and transmitted angles
+  grade_range:
+    - graduate
+  description: Amplitude reflection coefficient for p-polarized light.
+
+- formula_id: PHY_OPT_G_026
+  name: Brewster Angle
+  domain: PHY_OPT_G
+  formula: '\tan\theta_B = \frac{n_2}{n_1}'
+  variables:
+    - name: '\theta_B'
+      description: Brewster angle
+    - name: 'n_1, n_2'
+      description: refractive indices
+  grade_range:
+    - undergraduate
+  description: Angle of incidence at which p-polarized light is fully transmitted.
+
+- formula_id: PHY_OPT_G_027
+  name: Thick Lens Equation
+  domain: PHY_OPT_G
+  formula: '\frac{1}{f} = (n-1)\left[\frac{1}{R_1} - \frac{1}{R_2} + \frac{(n-1)d}{n R_1 R_2}\right]'
+  variables:
+    - name: 'f'
+      description: effective focal length
+    - name: 'n'
+      description: refractive index
+    - name: 'R_1, R_2'
+      description: radii of curvature
+    - name: 'd'
+      description: lens thickness
+  grade_range:
+    - graduate
+  description: Focal length of a thick lens accounting for thickness.
+
+- formula_id: PHY_OPT_G_028
+  name: Cardinal Points (Front Focal Length)
+  domain: PHY_OPT_G
+  formula: 'f_F = -f \cdot \frac{n'}{n}'
+  variables:
+    - name: 'f_F'
+      description: front focal length
+    - name: 'f'
+      description: effective focal length
+    - name: 'n, n\''
+      description: refractive indices of object and image spaces
+  grade_range:
+    - graduate
+  description: Front focal length in terms of effective focal length and refractive indices.
+
+- formula_id: PHY_OPT_G_029
+  name: Spherical Aberration Coefficient
+  domain: PHY_OPT_G
+  formula: 'S_1 \approx \frac{h^4}{8 f^3}'
+  variables:
+    - name: 'S_1'
+      description: primary spherical aberration coefficient
+    - name: 'h'
+      description: ray height
+    - name: 'f'
+      description: focal length
+  grade_range:
+    - phd
+  description: Primary spherical aberration coefficient for a thin lens.
+
+- formula_id: PHY_OPT_G_030
+  name: System Matrix (Paraxial Optics)
+  domain: PHY_OPT_G
+  formula: 'M = M_N \cdots M_2 M_1 = \begin{pmatrix} A & B \\ C & D \end{pmatrix}'
+  variables:
+    - name: 'A, B, C, D'
+      description: elements of the system matrix
+  grade_range:
+    - graduate
+  description: Overall ray transfer matrix for a cascade of optical elements.
+
+- formula_id: PHY_OPT_W_001
+  name: Young Double Slit Interference
+  domain: PHY_OPT_W
+  formula: 'd \sin\theta = m\lambda'
+  variables:
+    - name: 'd'
+      description: slit separation
+    - name: '\theta'
+      description: angle to m-th maximum
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for constructive interference in Young double slit experiment.
+
+- formula_id: PHY_OPT_W_002
+  name: Single Slit Diffraction (First Minimum)
+  domain: PHY_OPT_W
+  formula: 'a \sin\theta = m\lambda'
+  variables:
+    - name: 'a'
+      description: slit width
+    - name: '\theta'
+      description: angle to m-th minimum
+    - name: 'm'
+      description: nonzero integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for minima in single slit diffraction.
+
+- formula_id: PHY_OPT_W_003
+  name: Diffraction Grating Equation
+  domain: PHY_OPT_W
+  formula: 'd \sin\theta = m\lambda'
+  variables:
+    - name: 'd'
+      description: grating spacing
+    - name: '\theta'
+      description: diffraction angle
+    - name: 'm'
+      description: diffraction order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for principal maxima in a diffraction grating.
+
+- formula_id: PHY_OPT_W_004
+  name: Grating Resolving Power
+  domain: PHY_OPT_W
+  formula: 'R = \frac{\lambda}{\Delta\lambda} = mN'
+  variables:
+    - name: 'R'
+      description: resolving power
+    - name: '\lambda'
+      description: wavelength
+    - name: '\Delta\lambda'
+      description: minimum resolvable wavelength difference
+    - name: 'm'
+      description: diffraction order
+    - name: 'N'
+      description: total number of illuminated slits
+  grade_range:
+    - undergraduate
+  description: Ability of a grating to separate close wavelengths.
+
+- formula_id: PHY_OPT_W_005
+  name: Bragg Law
+  domain: PHY_OPT_W
+  formula: '2d \sin\theta = m\lambda'
+  variables:
+    - name: 'd'
+      description: interplanar spacing
+    - name: '\theta'
+      description: Bragg angle
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for constructive interference from crystal planes.
+
+- formula_id: PHY_OPT_W_006
+  name: Phase Difference
+  domain: PHY_OPT_W
+  formula: '\Delta\phi = \frac{2\pi}{\lambda} \Delta x'
+  variables:
+    - name: '\Delta\phi'
+      description: phase difference
+    - name: '\lambda'
+      description: wavelength
+    - name: '\Delta x'
+      description: path difference
+  grade_range:
+    - undergraduate
+  description: Phase difference corresponding to a path difference.
+
+- formula_id: PHY_OPT_W_007
+  name: Path Difference
+  domain: PHY_OPT_W
+  formula: '\Delta x = d \sin\theta'
+  variables:
+    - name: '\Delta x'
+      description: path difference between two slits
+    - name: 'd'
+      description: slit separation
+    - name: '\theta'
+      description: observation angle
+  grade_range:
+    - undergraduate
+  description: Extra distance traveled by wave from one slit relative to another.
+
+- formula_id: PHY_OPT_W_008
+  name: Coherence Length
+  domain: PHY_OPT_W
+  formula: 'L_c = c \tau_c'
+  variables:
+    - name: 'L_c'
+      description: coherence length
+    - name: 'c'
+      description: speed of light
+    - name: '\tau_c'
+      description: coherence time
+  grade_range:
+    - graduate
+  description: Path difference over which interference fringes remain observable.
+
+- formula_id: PHY_OPT_W_009
+  name: Coherence Time
+  domain: PHY_OPT_W
+  formula: '\tau_c = \frac{1}{\Delta\nu}'
+  variables:
+    - name: '\tau_c'
+      description: coherence time
+    - name: '\Delta\nu'
+      description: spectral linewidth (FWHM)
+  grade_range:
+    - graduate
+  description: Time over which wave maintains predictable phase relationship.
+
+- formula_id: PHY_OPT_W_010
+  name: Michelson Interferometer Fringe Shift
+  domain: PHY_OPT_W
+  formula: 'N = \frac{2\Delta d}{\lambda}'
+  variables:
+    - name: 'N'
+      description: number of fringes shifted
+    - name: '\Delta d'
+      description: mirror displacement
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Fringe count in Michelson interferometer when one mirror moves.
+
+- formula_id: PHY_OPT_W_011
+  name: Fabry-Perot Transmission (Airy Formula)
+  domain: PHY_OPT_W
+  formula: 'I_{trans} = \frac{I_0}{1 + F \sin^2(\delta/2)}'
+  variables:
+    - name: 'I_{trans}'
+      description: transmitted intensity
+    - name: 'I_0'
+      description: incident intensity
+    - name: 'F'
+      description: coefficient of finesse
+    - name: '\delta'
+      description: phase difference per round trip
+  grade_range:
+    - graduate
+  description: Transmission intensity of a Fabry-Perot etalon.
+
+- formula_id: PHY_OPT_W_012
+  name: Thin Film Interference (Constructive)
+  domain: PHY_OPT_W
+  formula: '2 n t \cos\theta_t = (m + \frac{1}{2})\lambda'
+  variables:
+    - name: 'n'
+      description: film refractive index
+    - name: 't'
+      description: film thickness
+    - name: '\theta_t'
+      description: angle of transmission in film
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for constructive interference in a thin film with phase reversal.
+
+- formula_id: PHY_OPT_W_013
+  name: Thin Film Interference (Destructive)
+  domain: PHY_OPT_W
+  formula: '2 n t \cos\theta_t = m\lambda'
+  variables:
+    - name: 'n'
+      description: film refractive index
+    - name: 't'
+      description: film thickness
+    - name: '\theta_t'
+      description: angle of transmission in film
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for destructive interference in a thin film with phase reversal.
+
+- formula_id: PHY_OPT_W_014
+  name: Newton Rings (Dark Ring Radius)
+  domain: PHY_OPT_W
+  formula: 'r_m = \sqrt{m\lambda R}'
+  variables:
+    - name: 'r_m'
+      description: radius of m-th dark ring
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+    - name: 'R'
+      description: radius of curvature of lens
+  grade_range:
+    - undergraduate
+  description: Radius of dark rings in Newton rings interference pattern.
+
+- formula_id: PHY_OPT_W_015
+  name: Fresnel Diffraction (Half-Period Zones)
+  domain: PHY_OPT_W
+  formula: 'A_m = \frac{\lambda}{2} \sqrt{m}'
+  variables:
+    - name: 'A_m'
+      description: area of m-th half-period zone
+    - name: '\lambda'
+      description: wavelength
+    - name: 'm'
+      description: zone number
+  grade_range:
+    - graduate
+  description: Area of successive half-period zones in Fresnel diffraction.
+
+- formula_id: PHY_OPT_W_016
+  name: Fraunhofer Diffraction (Single Slit Intensity)
+  domain: PHY_OPT_W
+  formula: 'I(\theta) = I_0 \left(\frac{\sin\beta}{\beta}\right)^2'
+  variables:
+    - name: 'I(\theta)'
+      description: intensity at angle theta
+    - name: 'I_0'
+      description: central maximum intensity
+    - name: '\beta'
+      description: '(\pi a \sin\theta) / \lambda'
+    - name: 'a'
+      description: slit width
+  grade_range:
+    - undergraduate
+  description: Angular intensity distribution for single slit Fraunhofer diffraction.
+
+- formula_id: PHY_OPT_W_017
+  name: Malus Law
+  domain: PHY_OPT_W
+  formula: 'I = I_0 \cos^2\theta'
+  variables:
+    - name: 'I'
+      description: transmitted intensity
+    - name: 'I_0'
+      description: incident intensity
+    - name: '\theta'
+      description: angle between polarizer axes
+  grade_range:
+    - undergraduate
+  description: Intensity of linearly polarized light after passing through a polarizer.
+
+- formula_id: PHY_OPT_W_018
+  name: Brewster Angle (Polarization)
+  domain: PHY_OPT_W
+  formula: '\tan\theta_B = \frac{n_2}{n_1}'
+  variables:
+    - name: '\theta_B'
+      description: Brewster angle
+    - name: 'n_1, n_2'
+      description: refractive indices
+  grade_range:
+    - undergraduate
+  description: Angle at which reflected light is perfectly polarized perpendicular to plane of incidence.
+
+- formula_id: PHY_OPT_W_019
+  name: Quarter Wave Plate Retardation
+  domain: PHY_OPT_W
+  formula: '\delta = \frac{2\pi}{\lambda} (n_e - n_o) t = \frac{\pi}{2}'
+  variables:
+    - name: '\delta'
+      description: phase retardation
+    - name: '\lambda'
+      description: wavelength
+    - name: 'n_e, n_o'
+      description: extraordinary and ordinary refractive indices
+    - name: 't'
+      description: plate thickness
+  grade_range:
+    - graduate
+  description: Thickness required to introduce a quarter wavelength phase shift.
+
+- formula_id: PHY_OPT_W_020
+  name: Birefringence
+  domain: PHY_OPT_W
+  formula: '\Delta n = n_e - n_o'
+  variables:
+    - name: '\Delta n'
+      description: birefringence
+    - name: 'n_e'
+      description: extraordinary refractive index
+    - name: 'n_o'
+      description: ordinary refractive index
+  grade_range:
+    - undergraduate
+  description: Difference between extraordinary and ordinary refractive indices in anisotropic media.
+
+- formula_id: PHY_OPT_W_021
+  name: Optical Activity (Specific Rotation)
+  domain: PHY_OPT_W
+  formula: '[\alpha] = \frac{\alpha}{l \cdot c}'
+  variables:
+    - name: '[\alpha]'
+      description: specific rotation
+    - name: '\alpha'
+      description: observed rotation angle
+    - name: 'l'
+      description: path length
+    - name: 'c'
+      description: concentration
+  grade_range:
+    - graduate
+  description: Rotation of plane of polarization by optically active substances.
+
+- formula_id: PHY_OPT_W_022
+  name: Polarization by Scattering
+  domain: PHY_OPT_W
+  formula: 'I_{\perp} = I_0 \sin^2\theta'
+  variables:
+    - name: 'I_{\perp}'
+      description: intensity perpendicular to scattering plane
+    - name: 'I_0'
+      description: incident intensity
+    - name: '\theta'
+      description: scattering angle
+  grade_range:
+    - graduate
+  description: Intensity of scattered light polarized perpendicular to scattering plane.
+
+- formula_id: PHY_OPT_W_023
+  name: Interference Fringe Spacing
+  domain: PHY_OPT_W
+  formula: '\Delta y = \frac{\lambda D}{d}'
+  variables:
+    - name: '\Delta y'
+      description: fringe spacing on screen
+    - name: '\lambda'
+      description: wavelength
+    - name: 'D'
+      description: distance to screen
+    - name: 'd'
+      description: slit separation
+  grade_range:
+    - undergraduate
+  description: Spacing between adjacent interference fringes on a distant screen.
+
+- formula_id: PHY_OPT_W_024
+  name: Coherence Area
+  domain: PHY_OPT_W
+  formula: 'A_c = \lambda^2 z^2 / A_{source}'
+  variables:
+    - name: 'A_c'
+      description: coherence area
+    - name: '\lambda'
+      description: wavelength
+    - name: 'z'
+      description: propagation distance
+    - name: 'A_{source}'
+      description: source area
+  grade_range:
+    - phd
+  description: Transverse area over which light maintains coherence.
+
+- formula_id: PHY_OPT_W_025
+  name: Degree of Coherence (Complex)
+  domain: PHY_OPT_W
+  formula: '\gamma_{12} = \frac{\langle E_1^* E_2 \rangle}{\sqrt{\langle |E_1|^2 \rangle \langle |E_2|^2 \rangle}}'
+  variables:
+    - name: '\gamma_{12}'
+      description: complex degree of coherence
+    - name: 'E_1, E_2'
+      description: electric fields at two points
+  grade_range:
+    - phd
+  description: Complex degree of coherence between two points in a wave field.
+
+- formula_id: PHY_OPT_W_026
+  name: Hanbury Brown-Twiss Correlation
+  domain: PHY_OPT_W
+  formula: 'G^{(2)}(\tau) = \langle I(t) I(t+\tau) \rangle'
+  variables:
+    - name: 'G^{(2)}(\tau)'
+      description: second-order correlation function
+    - name: 'I(t)'
+      description: intensity at time t
+    - name: '\tau'
+      description: time delay
+  grade_range:
+    - phd
+  description: Intensity correlation function used in photon statistics and astronomy.
+
+- formula_id: PHY_MOD_001
+  name: Photoelectric Effect
+  domain: PHY_MOD
+  formula: 'K_{max} = h\nu - \phi'
+  variables:
+    - name: 'K_{max}'
+      description: maximum kinetic energy of ejected electron
+    - name: 'h'
+      description: Planck constant
+    - name: '\nu'
+      description: frequency of incident light
+    - name: '\phi'
+      description: work function
+  grade_range:
+    - undergraduate
+  description: Einstein photoelectric equation relating photon energy to electron kinetic energy.
+
+- formula_id: PHY_MOD_002
+  name: Compton Scattering (Wavelength Shift)
+  domain: PHY_MOD
+  formula: '\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c}(1 - \cos\theta)'
+  variables:
+    - name: '\Delta\lambda'
+      description: change in wavelength
+    - name: '\lambda, \lambda\''
+      description: incident and scattered wavelengths
+    - name: 'h'
+      description: Planck constant
+    - name: 'm_e'
+      description: electron rest mass
+    - name: 'c'
+      description: speed of light
+    - name: '\theta'
+      description: scattering angle
+  grade_range:
+    - undergraduate
+  description: Wavelength increase of photon scattered by a free electron.
+
+- formula_id: PHY_MOD_003
+  name: Compton Scattering (Energy-Angle)
+  domain: PHY_MOD
+  formula: 'E_{\gamma}' = \frac{E_{\gamma}}{1 + \frac{E_{\gamma}}{m_e c^2}(1 - \cos\theta)}'
+  variables:
+    - name: 'E_{\gamma}, E_{\gamma}\''
+      description: incident and scattered photon energies
+    - name: 'm_e'
+      description: electron rest mass
+    - name: 'c'
+      description: speed of light
+    - name: '\theta'
+      description: scattering angle
+  grade_range:
+    - graduate
+  description: Energy of scattered photon in Compton effect expressed in terms of incident energy.
+
+- formula_id: PHY_MOD_004
+  name: de Broglie Wavelength
+  domain: PHY_MOD
+  formula: '\lambda = \frac{h}{p}'
+  variables:
+    - name: '\lambda'
+      description: de Broglie wavelength
+    - name: 'h'
+      description: Planck constant
+    - name: 'p'
+      description: momentum
+  grade_range:
+    - undergraduate
+  description: Wavelength associated with a moving particle.
+
+- formula_id: PHY_MOD_005
+  name: de Broglie Wavelength (Relativistic)
+  domain: PHY_MOD
+  formula: '\lambda = \frac{h}{\gamma m_0 v}'
+  variables:
+    - name: '\lambda'
+      description: de Broglie wavelength
+    - name: 'h'
+      description: Planck constant
+    - name: '\gamma'
+      description: Lorentz factor
+    - name: 'm_0'
+      description: rest mass
+    - name: 'v'
+      description: velocity
+  grade_range:
+    - graduate
+  description: de Broglie wavelength including relativistic momentum.
+
+- formula_id: PHY_MOD_006
+  name: Heisenberg Uncertainty (Position-Momentum)
+  domain: PHY_MOD
+  formula: '\Delta x \Delta p \geq \frac{\hbar}{2}'
+  variables:
+    - name: '\Delta x'
+      description: position uncertainty
+    - name: '\Delta p'
+      description: momentum uncertainty
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - undergraduate
+  description: Fundamental limit on simultaneous knowledge of position and momentum.
+
+- formula_id: PHY_MOD_007
+  name: Heisenberg Uncertainty (Energy-Time)
+  domain: PHY_MOD
+  formula: '\Delta E \Delta t \geq \frac{\hbar}{2}'
+  variables:
+    - name: '\Delta E'
+      description: energy uncertainty
+    - name: '\Delta t'
+      description: time uncertainty
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - undergraduate
+  description: Energy-time uncertainty relation governing virtual particles and linewidths.
+
+- formula_id: PHY_MOD_008
+  name: Bohr Model Energy Levels
+  domain: PHY_MOD
+  formula: 'E_n = -\frac{13.6 \text{ eV}}{n^2}'
+  variables:
+    - name: 'E_n'
+      description: energy of nth orbit
+    - name: 'n'
+      description: principal quantum number
+  grade_range:
+    - undergraduate
+  description: Quantized energy levels of hydrogen atom in Bohr model.
+
+- formula_id: PHY_MOD_009
+  name: Bohr Model Radius
+  domain: PHY_MOD
+  formula: 'r_n = a_0 n^2'
+  variables:
+    - name: 'r_n'
+      description: radius of nth orbit
+    - name: 'a_0'
+      description: Bohr radius (0.529 Angstrom)
+    - name: 'n'
+      description: principal quantum number
+  grade_range:
+    - undergraduate
+  description: Quantized orbital radii in Bohr model of hydrogen.
+
+- formula_id: PHY_MOD_010
+  name: Rydberg Formula
+  domain: PHY_MOD
+  formula: '\frac{1}{\lambda} = R_H \left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)'
+  variables:
+    - name: '\lambda'
+      description: emitted wavelength
+    - name: 'R_H'
+      description: Rydberg constant for hydrogen
+    - name: 'n_1, n_2'
+      description: principal quantum numbers
+  grade_range:
+    - undergraduate
+  description: Wavelengths of spectral lines in hydrogen emission.
+
+- formula_id: PHY_MOD_011
+  name: Planck Law (Photon Energy)
+  domain: PHY_MOD
+  formula: 'E = h\nu'
+  variables:
+    - name: 'E'
+      description: photon energy
+    - name: 'h'
+      description: Planck constant
+    - name: '\nu'
+      description: frequency
+  grade_range:
+    - undergraduate
+  description: Energy of a photon proportional to its frequency.
+
+- formula_id: PHY_MOD_012
+  name: Stefan-Boltzmann Law
+  domain: PHY_MOD
+  formula: 'j^* = \sigma T^4'
+  variables:
+    - name: 'j^*'
+      description: total radiant exitance
+    - name: '\sigma'
+      description: Stefan-Boltzmann constant
+    - name: 'T'
+      description: absolute temperature
+  grade_range:
+    - undergraduate
+  description: Total energy radiated per unit area by a blackbody.
+
+- formula_id: PHY_MOD_013
+  name: Wien Displacement Law
+  domain: PHY_MOD
+  formula: '\lambda_{max} T = b'
+  variables:
+    - name: '\lambda_{max}'
+      description: wavelength of peak emission
+    - name: 'T'
+      description: absolute temperature
+    - name: 'b'
+      description: Wien displacement constant
+  grade_range:
+    - undergraduate
+  description: Wavelength of maximum emission is inversely proportional to temperature.
+
+- formula_id: PHY_MOD_014
+  name: Compton Wavelength
+  domain: PHY_MOD
+  formula: '\lambda_c = \frac{h}{m_e c}'
+  variables:
+    - name: '\lambda_c'
+      description: Compton wavelength of electron
+    - name: 'h'
+      description: Planck constant
+    - name: 'm_e'
+      description: electron rest mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Characteristic wavelength scale for Compton scattering.
+
+- formula_id: PHY_MOD_015
+  name: Pair Production Threshold
+  domain: PHY_MOD
+  formula: 'E_{\gamma} \geq 2 m_e c^2'
+  variables:
+    - name: 'E_{\gamma}'
+      description: photon energy
+    - name: 'm_e'
+      description: electron rest mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Minimum photon energy required to produce an electron-positron pair.
+
+- formula_id: PHY_MOD_016
+  name: Particle in a Box (1D Energy)
+  domain: PHY_MOD
+  formula: 'E_n = \frac{n^2 h^2}{8mL^2}'
+  variables:
+    - name: 'E_n'
+      description: energy of nth level
+    - name: 'n'
+      description: positive integer quantum number
+    - name: 'h'
+      description: Planck constant
+    - name: 'm'
+      description: particle mass
+    - name: 'L'
+      description: box length
+  grade_range:
+    - undergraduate
+  description: Quantized energy levels of a particle in a one-dimensional infinite potential well.
+
+- formula_id: PHY_MOD_017
+  name: Particle in a Box (3D Energy)
+  domain: PHY_MOD
+  formula: 'E_{n_x,n_y,n_z} = \frac{h^2}{8m}\left(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)'
+  variables:
+    - name: 'E_{n_x,n_y,n_z}'
+      description: energy of quantum state
+    - name: 'n_x, n_y, n_z'
+      description: quantum numbers
+    - name: 'L_x, L_y, L_z'
+      description: box dimensions
+  grade_range:
+    - undergraduate
+  description: Quantized energy levels of a particle in a three-dimensional box.
+
+- formula_id: PHY_MOD_018
+  name: Franck-Hertz Quantization
+  domain: PHY_MOD
+  formula: 'eV = E_{n+1} - E_n'
+  variables:
+    - name: 'V'
+      description: accelerating voltage at current drop
+    - name: 'E_n'
+      description: atomic energy level
+    - name: 'e'
+      description: electron charge
+  grade_range:
+    - undergraduate
+  description: Voltage difference corresponding to atomic excitation energy in Franck-Hertz experiment.
+
+- formula_id: PHY_MOD_019
+  name: Millikan Oil Drop (Charge Quantization)
+  domain: PHY_MOD
+  formula: 'q = n e = \frac{mg}{E}'
+  variables:
+    - name: 'q'
+      description: charge on oil drop
+    - name: 'n'
+      description: integer number of electrons
+    - name: 'e'
+      description: elementary charge
+    - name: 'm'
+      description: mass of drop
+    - name: 'g'
+      description: gravitational acceleration
+    - name: 'E'
+      description: electric field
+  grade_range:
+    - undergraduate
+  description: Charge on oil drop in Millikan experiment quantized in units of e.
+
+- formula_id: PHY_MOD_020
+  name: Rutherford Scattering (Impact Parameter)
+  domain: PHY_MOD
+  formula: 'b = \frac{k Z z e^2}{2 E} \cot\frac{\theta}{2}'
+  variables:
+    - name: 'b'
+      description: impact parameter
+    - name: 'k'
+      description: Coulomb constant
+    - name: 'Z, z'
+      description: atomic numbers
+    - name: 'e'
+      description: elementary charge
+    - name: 'E'
+      description: kinetic energy of projectile
+    - name: '\theta'
+      description: scattering angle
+  grade_range:
+    - graduate
+  description: Relationship between impact parameter and scattering angle in Coulomb scattering.
+
+- formula_id: PHY_MOD_021
+  name: Davisson-Germer Condition
+  domain: PHY_MOD
+  formula: '2d \sin\theta = n\lambda'
+  variables:
+    - name: 'd'
+      description: crystal lattice spacing
+    - name: '\theta'
+      description: scattering angle
+    - name: 'n'
+      description: integer order
+    - name: '\lambda'
+      description: de Broglie wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for electron diffraction from crystal planes confirming wave nature.
+
+- formula_id: PHY_MOD_022
+  name: Blackbody Radiation (Wien Approximation)
+  domain: PHY_MOD
+  formula: 'u(\lambda, T) \approx \frac{8\pi hc}{\lambda^5} e^{-hc/(\lambda k_B T)}'
+  variables:
+    - name: 'u(\lambda, T)'
+      description: spectral energy density
+    - name: 'h'
+      description: Planck constant
+    - name: 'c'
+      description: speed of light
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+  grade_range:
+    - graduate
+  description: Short-wavelength approximation of Planck blackbody spectrum.
+
+- formula_id: PHY_MOD_023
+  name: Blackbody Radiation (Rayleigh-Jeans)
+  domain: PHY_MOD
+  formula: 'u(\lambda, T) \approx \frac{8\pi k_B T}{\lambda^4}'
+  variables:
+    - name: 'u(\lambda, T)'
+      description: spectral energy density
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - graduate
+  description: Long-wavelength classical approximation of blackbody spectrum (ultraviolet catastrophe).
+
+- formula_id: PHY_MOD_024
+  name: Photon Energy
+  domain: PHY_MOD
+  formula: 'E = h\nu = \frac{hc}{\lambda}'
+  variables:
+    - name: 'E'
+      description: photon energy
+    - name: 'h'
+      description: Planck constant
+    - name: '\nu'
+      description: frequency
+    - name: 'c'
+      description: speed of light
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Energy of a photon expressed in terms of frequency or wavelength.
+
+- formula_id: PHY_MOD_025
+  name: Photon Momentum
+  domain: PHY_MOD
+  formula: 'p = \frac{h}{\lambda} = \frac{E}{c}'
+  variables:
+    - name: 'p'
+      description: photon momentum
+    - name: 'h'
+      description: Planck constant
+    - name: '\lambda'
+      description: wavelength
+    - name: 'E'
+      description: photon energy
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Momentum carried by a photon despite having zero rest mass.
+
+- formula_id: PHY_MOD_026
+  name: Bohr Correspondence Principle
+  domain: PHY_MOD
+  formula: '\lim_{n \to \infty} \frac{\Delta E}{E} \to 0'
+  variables:
+    - name: '\Delta E'
+      description: energy level spacing
+    - name: 'E'
+      description: energy of level
+    - name: 'n'
+      description: principal quantum number
+  grade_range:
+    - graduate
+  description: Quantum mechanical predictions approach classical results for large quantum numbers.
+
+- formula_id: PHY_NUC_001
+  name: Mass-Energy Equivalence
+  domain: PHY_NUC
+  formula: 'E = m c^2'
+  variables:
+    - name: 'E'
+      description: rest energy
+    - name: 'm'
+      description: mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Rest mass equivalent to energy via speed of light squared.
+
+- formula_id: PHY_NUC_002
+  name: Nuclear Binding Energy
+  domain: PHY_NUC
+  formula: 'E_b = [Z m_p + N m_n - M(A,Z)] c^2'
+  variables:
+    - name: 'E_b'
+      description: binding energy
+    - name: 'Z'
+      description: proton number
+    - name: 'N'
+      description: neutron number
+    - name: 'm_p, m_n'
+      description: proton and neutron masses
+    - name: 'M(A,Z)'
+      description: nuclear mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Energy required to disassemble a nucleus into its constituent nucleons.
+
+- formula_id: PHY_NUC_003
+  name: Semi-Empirical Mass Formula (Volume Term)
+  domain: PHY_NUC
+  formula: 'E_b = a_v A - a_s A^{2/3} - a_c \frac{Z(Z-1)}{A^{1/3}} - a_a \frac{(A-2Z)^2}{A} + \delta(A,Z)'
+  variables:
+    - name: 'E_b'
+      description: binding energy
+    - name: 'A'
+      description: mass number
+    - name: 'Z'
+      description: atomic number
+    - name: 'a_v, a_s, a_c, a_a'
+      description: empirical coefficients
+    - name: '\delta'
+      description: pairing term
+  grade_range:
+    - graduate
+  description: Weizsacker formula for nuclear binding energy with volume, surface, Coulomb, asymmetry, and pairing terms.
+
+- formula_id: PHY_NUC_004
+  name: Radioactive Decay Law
+  domain: PHY_NUC
+  formula: 'N(t) = N_0 e^{-\lambda t}'
+  variables:
+    - name: 'N(t)'
+      description: number of undecayed nuclei at time t
+    - name: 'N_0'
+      description: initial number of nuclei
+    - name: '\lambda'
+      description: decay constant
+    - name: 't'
+      description: time
+  grade_range:
+    - undergraduate
+  description: Exponential decrease of radioactive nuclei with time.
+
+- formula_id: PHY_NUC_005
+  name: Half-Life
+  domain: PHY_NUC
+  formula: 'T_{1/2} = \frac{\ln 2}{\lambda}'
+  variables:
+    - name: 'T_{1/2}'
+      description: half-life
+    - name: '\lambda'
+      description: decay constant
+  grade_range:
+    - undergraduate
+  description: Time required for half the radioactive nuclei to decay.
+
+- formula_id: PHY_NUC_006
+  name: Mean Lifetime
+  domain: PHY_NUC
+  formula: '\tau = \frac{1}{\lambda}'
+  variables:
+    - name: '\tau'
+      description: mean lifetime
+    - name: '\lambda'
+      description: decay constant
+  grade_range:
+    - undergraduate
+  description: Average time before a radioactive nucleus decays.
+
+- formula_id: PHY_NUC_007
+  name: Radioactive Activity
+  domain: PHY_NUC
+  formula: 'A = \lambda N'
+  variables:
+    - name: 'A'
+      description: activity (decays per second)
+    - name: '\lambda'
+      description: decay constant
+    - name: 'N'
+      description: number of radioactive nuclei
+  grade_range:
+    - undergraduate
+  description: Rate of radioactive decays proportional to number of nuclei.
+
+- formula_id: PHY_NUC_008
+  name: Q-value (General Nuclear Reaction)
+  domain: PHY_NUC
+  formula: 'Q = [M_{initial} - M_{final}] c^2'
+  variables:
+    - name: 'Q'
+      description: energy released or absorbed
+    - name: 'M_{initial}, M_{final}'
+      description: total rest masses
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Net energy released in a nuclear reaction from mass defect.
+
+- formula_id: PHY_NUC_009
+  name: Q-value (Fission)
+  domain: PHY_NUC
+  formula: 'Q_{fission} = [M(A,Z) - M(A_1,Z_1) - M(A_2,Z_2)] c^2'
+  variables:
+    - name: 'Q_{fission}'
+      description: energy released in fission
+    - name: 'M'
+      description: masses of parent and fission fragments
+  grade_range:
+    - undergraduate
+  description: Energy released when a heavy nucleus splits into lighter fragments.
+
+- formula_id: PHY_NUC_010
+  name: Q-value (Fusion)
+  domain: PHY_NUC
+  formula: 'Q_{fusion} = [M_1 + M_2 - M_{final}] c^2'
+  variables:
+    - name: 'Q_{fusion}'
+      description: energy released in fusion
+    - name: 'M_1, M_2'
+      description: masses of fusing nuclei
+    - name: 'M_{final}'
+      description: mass of product nucleus
+  grade_range:
+    - undergraduate
+  description: Energy released when light nuclei fuse into a heavier nucleus.
+
+- formula_id: PHY_NUC_011
+  name: Decay Constant
+  domain: PHY_NUC
+  formula: '\lambda = \frac{\ln 2}{T_{1/2}}'
+  variables:
+    - name: '\lambda'
+      description: decay constant
+    - name: 'T_{1/2}'
+      description: half-life
+  grade_range:
+    - undergraduate
+  description: Probability per unit time that a nucleus will decay.
+
+- formula_id: PHY_NUC_012
+  name: Bateman Equation (Parent-Daughter)
+  domain: PHY_NUC
+  formula: 'N_2(t) = \frac{\lambda_1 N_{10}}{\lambda_2 - \lambda_1} (e^{-\lambda_1 t} - e^{-\lambda_2 t})'
+  variables:
+    - name: 'N_2(t)'
+      description: number of daughter nuclei
+    - name: 'N_{10}'
+      description: initial parent nuclei
+    - name: '\lambda_1, \lambda_2'
+      description: parent and daughter decay constants
+    - name: 't'
+      description: time
+  grade_range:
+    - graduate
+  description: Number of daughter nuclei in a two-step radioactive decay chain.
+
+- formula_id: PHY_NUC_013
+  name: Fission Energy Release (U-235)
+  domain: PHY_NUC
+  formula: 'Q \approx 200 \text{ MeV}'
+  variables:
+    - name: 'Q'
+      description: total energy released per fission
+  grade_range:
+    - undergraduate
+  description: Typical energy released in thermal neutron-induced fission of U-235.
+
+- formula_id: PHY_NUC_014
+  name: Fusion Energy Release (D-T)
+  domain: PHY_NUC
+  formula: 'Q = 17.6 \text{ MeV}'
+  variables:
+    - name: 'Q'
+      description: energy released per fusion reaction
+  grade_range:
+    - undergraduate
+  description: Energy released in deuterium-tritium fusion reaction.
+
+- formula_id: PHY_NUC_015
+  name: Coulomb Barrier
+  domain: PHY_NUC
+  formula: 'V_B = \frac{k Z_1 Z_2 e^2}{r_0 (A_1^{1/3} + A_2^{1/3})}'
+  variables:
+    - name: 'V_B'
+      description: Coulomb barrier height
+    - name: 'Z_1, Z_2'
+      description: atomic numbers
+    - name: 'A_1, A_2'
+      description: mass numbers
+    - name: 'e'
+      description: elementary charge
+    - name: 'k'
+      description: Coulomb constant
+    - name: 'r_0'
+      description: nuclear radius parameter
+  grade_range:
+    - graduate
+  description: Electrostatic repulsion energy two nuclei must overcome to fuse.
+
+- formula_id: PHY_NUC_016
+  name: Geiger-Nuttall Law
+  domain: PHY_NUC
+  formula: '\log_{10} \lambda = a + \frac{b}{\sqrt{E_{\alpha}}}'
+  variables:
+    - name: '\lambda'
+      description: alpha decay constant
+    - name: 'E_{\alpha}'
+      description: alpha particle kinetic energy
+    - name: 'a, b'
+      description: empirical constants
+  grade_range:
+    - graduate
+  description: Logarithm of alpha decay constant is linearly related to inverse square root of energy.
+
+- formula_id: PHY_NUC_017
+  name: Carbon Dating
+  domain: PHY_NUC
+  formula: 't = \frac{1}{\lambda} \ln\frac{N_0}{N}'
+  variables:
+    - name: 't'
+      description: age of sample
+    - name: '\lambda'
+      description: decay constant of C-14
+    - name: 'N_0'
+      description: initial C-14 activity
+    - name: 'N'
+      description: current C-14 activity
+  grade_range:
+    - undergraduate
+  description: Age determination from ratio of remaining C-14 to initial amount.
+
+- formula_id: PHY_NUC_018
+  name: Nuclear Radius
+  domain: PHY_NUC
+  formula: 'R = r_0 A^{1/3}'
+  variables:
+    - name: 'R'
+      description: nuclear radius
+    - name: 'r_0'
+      description: radius parameter (~1.2 fm)
+    - name: 'A'
+      description: mass number
+  grade_range:
+    - undergraduate
+  description: Nuclear radius proportional to cube root of mass number.
+
+- formula_id: PHY_NUC_019
+  name: Nuclear Density
+  domain: PHY_NUC
+  formula: '\rho = \frac{3 m_n}{4\pi r_0^3}'
+  variables:
+    - name: '\rho'
+      description: average nuclear density
+    - name: 'm_n'
+      description: nucleon mass
+    - name: 'r_0'
+      description: radius parameter
+  grade_range:
+    - undergraduate
+  description: Approximately constant density for all nuclei.
+
+- formula_id: PHY_NUC_020
+  name: Magic Numbers (Empirical Formula)
+  domain: PHY_NUC
+  formula: 'Z,N = 2, 8, 20, 28, 50, 82, 126'
+  variables:
+    - name: 'Z, N'
+      description: proton and neutron numbers
+  grade_range:
+    - graduate
+  description: Numbers of nucleons that complete nuclear shells leading to extra stability.
+
+- formula_id: PHY_NUC_021
+  name: Alpha Decay Energy (Geiger-Nuttall)
+  domain: PHY_NUC
+  formula: 'E_{\alpha} \propto \frac{1}{(\ln\lambda)^2}'
+  variables:
+    - name: 'E_{\alpha}'
+      description: alpha particle kinetic energy
+    - name: '\lambda'
+      description: decay constant
+  grade_range:
+    - graduate
+  description: Inversely related energy and decay constant in alpha decay.
+
+- formula_id: PHY_NUC_022
+  name: Beta Decay (Fermi Allowed)
+  domain: PHY_NUC
+  formula: '\lambda = \frac{G_F^2 |M_{fi}|^2}{2\pi^3} f(Q,Z)'
+  variables:
+    - name: '\lambda'
+      description: beta decay rate
+    - name: 'G_F'
+      description: Fermi constant
+    - name: 'M_{fi}'
+      description: nuclear matrix element
+    - name: 'f(Q,Z)'
+      description: Fermi integral
+  grade_range:
+    - phd
+  description: Decay rate for allowed beta transitions in Fermi theory.
+
+- formula_id: PHY_NUC_023
+  name: Gamma Ray Selection Rules
+  domain: PHY_NUC
+  formula: '\Delta J = L, \Delta\pi = (-1)^L'
+  variables:
+    - name: '\Delta J'
+      description: change in total angular momentum
+    - name: '\Delta\pi'
+      description: change in parity
+    - name: 'L'
+      description: multipolarity (1=dipole, 2=quadrupole)
+  grade_range:
+    - graduate
+  description: Angular momentum and parity changes for gamma ray emission.
+
+- formula_id: PHY_NUC_024
+  name: Neutron Diffusion Equation (Steady State)
+  domain: PHY_NUC
+  formula: 'D \nabla^2 \phi - \Sigma_a \phi + S = 0'
+  variables:
+    - name: 'D'
+      description: diffusion coefficient
+    - name: '\phi'
+      description: neutron flux
+    - name: '\Sigma_a'
+      description: macroscopic absorption cross section
+    - name: 'S'
+      description: neutron source
+  grade_range:
+    - graduate
+  description: Balance between diffusion, absorption, and source in a reactor.
+
+- formula_id: PHY_NUC_025
+  name: Fission Chain Reaction (Multiplication Factor)
+  domain: PHY_NUC
+  formula: 'k_{eff} = \eta f p \epsilon P_{NL}'
+  variables:
+    - name: 'k_{eff}'
+      description: effective multiplication factor
+    - name: '\eta'
+      description: neutrons per absorption in fuel
+    - name: 'f'
+      description: thermal utilization factor
+    - name: 'p'
+      description: resonance escape probability
+    - name: '\epsilon'
+      description: fast fission factor
+    - name: 'P_{NL}'
+      description: non-leakage probability
+  grade_range:
+    - phd
+  description: Six-factor formula for effective neutron multiplication in a reactor.
+
+- formula_id: PHY_QM_001
+  name: Schrödinger Equation (Time-Dependent)
+  domain: PHY_QM
+  formula: 'i\hbar \frac{\partial \Psi}{\partial t} = \hat{H} \Psi'
+  variables:
+    - name: '\Psi'
+      description: wavefunction
+    - name: '\hat{H}'
+      description: Hamiltonian operator
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 't'
+      description: time
+  grade_range:
+    - graduate
+  description: Fundamental equation of quantum mechanics for time evolution of wavefunction.
+
+- formula_id: PHY_QM_002
+  name: Schrödinger Equation (Time-Independent)
+  domain: PHY_QM
+  formula: '\hat{H} \psi = E \psi'
+  variables:
+    - name: '\psi'
+      description: stationary state wavefunction
+    - name: '\hat{H}'
+      description: Hamiltonian operator
+    - name: 'E'
+      description: energy eigenvalue
+  grade_range:
+    - graduate
+  description: Time-independent form yielding energy eigenstates and eigenvalues.
+
+- formula_id: PHY_QM_003
+  name: Heisenberg Uncertainty Principle
+  domain: PHY_QM
+  formula: '\Delta x \Delta p \geq \frac{\hbar}{2}'
+  variables:
+    - name: '\Delta x'
+      description: position uncertainty
+    - name: '\Delta p'
+      description: momentum uncertainty
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - graduate
+  description: Fundamental limit on precision of simultaneous position and momentum measurements.
+
+- formula_id: PHY_QM_004
+  name: Commutator [x, p]
+  domain: PHY_QM
+  formula: '[\hat{x}, \hat{p}] = i\hbar'
+  variables:
+    - name: '[\hat{x}, \hat{p}]'
+      description: commutator of position and momentum operators
+    - name: 'i'
+      description: imaginary unit
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - graduate
+  description: Canonical commutation relation underlying Heisenberg uncertainty.
+
+- formula_id: PHY_QM_005
+  name: Harmonic Oscillator Energy
+  domain: PHY_QM
+  formula: 'E_n = \hbar\omega\left(n + \frac{1}{2}\right)'
+  variables:
+    - name: 'E_n'
+      description: energy of nth level
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: '\omega'
+      description: angular frequency
+    - name: 'n'
+      description: quantum number (0,1,2,...)
+  grade_range:
+    - graduate
+  description: Quantized energy levels of a quantum harmonic oscillator.
+
+- formula_id: PHY_QM_006
+  name: Harmonic Oscillator Ground State Wavefunction
+  domain: PHY_QM
+  formula: '\psi_0(x) = \left(\frac{m\omega}{\pi\hbar}\right)^{1/4} e^{-m\omega x^2/(2\hbar)}'
+  variables:
+    - name: '\psi_0(x)'
+      description: ground state wavefunction
+    - name: 'm'
+      description: mass
+    - name: '\omega'
+      description: angular frequency
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - graduate
+  description: Normalized ground state wavefunction for a harmonic oscillator.
+
+- formula_id: PHY_QM_007
+  name: Hydrogen Atom Energy Levels
+  domain: PHY_QM
+  formula: 'E_n = -\frac{m_e e^4}{8\varepsilon_0^2 h^2 n^2} = -\frac{13.6 \text{ eV}}{n^2}'
+  variables:
+    - name: 'E_n'
+      description: energy of nth level
+    - name: 'm_e'
+      description: electron mass
+    - name: 'e'
+      description: elementary charge
+    - name: '\varepsilon_0'
+      description: vacuum permittivity
+    - name: 'h'
+      description: Planck constant
+    - name: 'n'
+      description: principal quantum number
+  grade_range:
+    - graduate
+  description: Quantized energy levels of hydrogen atom from Schrödinger equation.
+
+- formula_id: PHY_QM_008
+  name: Hydrogen Atom Ground State Wavefunction
+  domain: PHY_QM
+  formula: '\psi_{100}(r) = \frac{1}{\sqrt{\pi a_0^3}} e^{-r/a_0}'
+  variables:
+    - name: '\psi_{100}(r)'
+      description: ground state wavefunction
+    - name: 'a_0'
+      description: Bohr radius
+    - name: 'r'
+      description: radial distance
+  grade_range:
+    - graduate
+  description: Normalized ground state wavefunction for hydrogen atom.
+
+- formula_id: PHY_QM_009
+  name: Angular Momentum Operator Magnitude
+  domain: PHY_QM
+  formula: '\hat{L}^2 Y_{lm} = \hbar^2 l(l+1) Y_{lm}'
+  variables:
+    - name: '\hat{L}^2'
+      description: squared angular momentum operator
+    - name: 'Y_{lm}'
+      description: spherical harmonic
+    - name: 'l'
+      description: orbital angular momentum quantum number
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - graduate
+  description: Eigenvalues of squared orbital angular momentum operator.
+
+- formula_id: PHY_QM_010
+  name: Spin Operator (S-squared)
+  domain: PHY_QM
+  formula: '\hat{S}^2 |s,m_s\rangle = \hbar^2 s(s+1) |s,m_s\rangle'
+  variables:
+    - name: '\hat{S}^2'
+      description: squared spin operator
+    - name: 's'
+      description: spin quantum number
+    - name: 'm_s'
+      description: spin magnetic quantum number
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - graduate
+  description: Eigenvalues of total spin angular momentum operator.
+
+- formula_id: PHY_QM_011
+  name: Pauli Matrix (sigma_x)
+  domain: PHY_QM
+  formula: '\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}'
+  variables: []
+  grade_range:
+    - graduate
+  description: Pauli matrix representing spin-x operator.
+
+- formula_id: PHY_QM_012
+  name: Pauli Matrix (sigma_y)
+  domain: PHY_QM
+  formula: '\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}'
+  variables: []
+  grade_range:
+    - graduate
+  description: Pauli matrix representing spin-y operator.
+
+- formula_id: PHY_QM_013
+  name: Pauli Matrix (sigma_z)
+  domain: PHY_QM
+  formula: '\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}'
+  variables: []
+  grade_range:
+    - graduate
+  description: Pauli matrix representing spin-z operator.
+
+- formula_id: PHY_QM_014
+  name: Dirac Equation (Free Particle)
+  domain: PHY_QM
+  formula: '(i\gamma^\mu \partial_\mu - m) \psi = 0'
+  variables:
+    - name: '\gamma^\mu'
+      description: Dirac gamma matrices
+    - name: '\partial_\mu'
+      description: four-gradient
+    - name: 'm'
+      description: mass
+    - name: '\psi'
+      description: Dirac spinor
+  grade_range:
+    - phd
+  description: Relativistic wave equation for spin-1/2 particles.
+
+- formula_id: PHY_QM_015
+  name: Perturbation Theory (First Order Energy)
+  domain: PHY_QM
+  formula: 'E_n^{(1)} = \langle n^{(0)} | \hat{H}' | n^{(0)} \rangle'
+  variables:
+    - name: 'E_n^{(1)}'
+      description: first-order energy correction
+    - name: '\hat{H}''
+      description: perturbation Hamiltonian
+    - name: '| n^{(0)} \rangle'
+      description: unperturbed eigenstate
+  grade_range:
+    - graduate
+  description: First-order correction to energy from non-degenerate perturbation theory.
+
+- formula_id: PHY_QM_016
+  name: Perturbation Theory (Second Order Energy)
+  domain: PHY_QM
+  formula: 'E_n^{(2)} = \sum_{k \neq n} \frac{|\langle k^{(0)} | \hat{H}' | n^{(0)} \rangle|^2}{E_n^{(0)} - E_k^{(0)}}'
+  variables:
+    - name: 'E_n^{(2)}'
+      description: second-order energy correction
+    - name: '\hat{H}''
+      description: perturbation Hamiltonian
+    - name: 'E_n^{(0)}, E_k^{(0)}'
+      description: unperturbed energies
+  grade_range:
+    - graduate
+  description: Second-order correction to energy from non-degenerate perturbation theory.
+
+- formula_id: PHY_QM_017
+  name: Variational Principle
+  domain: PHY_QM
+  formula: 'E_0 \leq \frac{\langle \psi | \hat{H} | \psi \rangle}{\langle \psi | \psi \rangle}'
+  variables:
+    - name: 'E_0'
+      description: true ground state energy
+    - name: '\hat{H}'
+      description: Hamiltonian
+    - name: '|\psi\rangle'
+      description: trial wavefunction
+  grade_range:
+    - graduate
+  description: Ground state energy is less than or equal to expectation value for any trial state.
+
+- formula_id: PHY_QM_018
+  name: Particle in a Box (1D Energy)
+  domain: PHY_QM
+  formula: 'E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2}'
+  variables:
+    - name: 'E_n'
+      description: energy of nth level
+    - name: 'n'
+      description: positive integer
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 'm'
+      description: mass
+    - name: 'L'
+      description: box length
+  grade_range:
+    - graduate
+  description: Energy levels of particle in one-dimensional infinite square well.
+
+- formula_id: PHY_QM_019
+  name: Finite Square Well (Transcendental Equation)
+  domain: PHY_QM
+  formula: 'k \cot(kL/2) = -\kappa'
+  variables:
+    - name: 'k'
+      description: wavevector inside well
+    - name: '\kappa'
+      description: decay constant outside well
+    - name: 'L'
+      description: well width
+  grade_range:
+    - graduate
+  description: Transcendental equation for even bound states in a finite square well.
+
+- formula_id: PHY_QM_020
+  name: Tunneling Probability (WKB)
+  domain: PHY_QM
+  formula: 'T \approx e^{-2 \int \kappa(x) dx}'
+  variables:
+    - name: 'T'
+      description: transmission probability
+    - name: '\kappa(x)'
+      description: local decay constant under barrier
+    - name: 'x'
+      description: position coordinate
+  grade_range:
+    - graduate
+  description: Exponential suppression of tunneling probability through a barrier.
+
+- formula_id: PHY_QM_021
+  name: WKB Approximation Condition
+  domain: PHY_QM
+  formula: '|\kappa(x)| \gg |k(x)|'
+  variables:
+    - name: '\kappa(x)'
+      description: imaginary wavevector under barrier
+    - name: 'k(x)'
+      description: real wavevector under barrier
+  grade_range:
+    - phd
+  description: Validity condition for WKB approximation in barrier penetration.
+
+- formula_id: PHY_QM_022
+  name: Density Matrix Definition
+  domain: PHY_QM
+  formula: '\hat{\rho} = \sum_i p_i |\psi_i\rangle\langle\psi_i|'
+  variables:
+    - name: '\hat{\rho}'
+      description: density matrix
+    - name: 'p_i'
+      description: probability of state i
+    - name: '|\psi_i\rangle'
+      description: quantum state i
+  grade_range:
+    - graduate
+  description: Statistical operator describing mixed quantum states.
+
+- formula_id: PHY_QM_023
+  name: Expectation Value
+  domain: PHY_QM
+  formula: '\langle \hat{A} \rangle = \langle \psi | \hat{A} | \psi \rangle'
+  variables:
+    - name: '\langle \hat{A} \rangle'
+      description: expectation value of observable A
+    - name: '\hat{A}'
+      description: observable operator
+    - name: '|\psi\rangle'
+      description: quantum state
+  grade_range:
+    - graduate
+  description: Average measured value of an observable in a given quantum state.
+
+- formula_id: PHY_QM_024
+  name: Probability Current
+  domain: PHY_QM
+  formula: 'j = \frac{\hbar}{2mi} \left(\psi^* \frac{\partial \psi}{\partial x} - \psi \frac{\partial \psi^*}{\partial x}\right)'
+  variables:
+    - name: 'j'
+      description: probability current density
+    - name: '\psi'
+      description: wavefunction
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 'm'
+      description: particle mass
+  grade_range:
+    - graduate
+  description: Flux of probability density conserving continuity equation.
+
+- formula_id: PHY_QM_025
+  name: Ehrenfest Theorem
+  domain: PHY_QM
+  formula: '\frac{d}{dt}\langle \hat{x} \rangle = \frac{\langle \hat{p} \rangle}{m}'
+  variables:
+    - name: '\langle \hat{x} \rangle'
+      description: expectation value of position
+    - name: '\langle \hat{p} \rangle'
+      description: expectation value of momentum
+    - name: 'm'
+      description: mass
+  grade_range:
+    - graduate
+  description: Quantum expectation values follow classical equations of motion.
+
+- formula_id: PHY_QM_026
+  name: Virial Theorem (Quantum)
+  domain: PHY_QM
+  formula: '2\langle \hat{T} \rangle = n \langle \hat{V} \rangle'
+  variables:
+    - name: '\langle \hat{T} \rangle'
+      description: expectation value of kinetic energy
+    - name: '\langle \hat{V} \rangle'
+      description: expectation value of potential energy
+    - name: 'n'
+      description: exponent in potential V proportional to r^n
+  grade_range:
+    - graduate
+  description: Relation between average kinetic and potential energies for power-law potentials.
+
+- formula_id: PHY_QM_027
+  name: Perturbation Theory (First Order Wavefunction)
+  domain: PHY_QM
+  formula: '|n^{(1)}\rangle = \sum_{k \neq n} \frac{\langle k^{(0)} | \hat{H}' | n^{(0)} \rangle}{E_n^{(0)} - E_k^{(0)}} |k^{(0)}\rangle'
+  variables:
+    - name: '|n^{(1)}\rangle'
+      description: first-order corrected state
+    - name: '\hat{H}''
+      description: perturbation Hamiltonian
+    - name: 'E_n^{(0)}, E_k^{(0)}'
+      description: unperturbed energies
+  grade_range:
+    - phd
+  description: First-order correction to wavefunction in non-degenerate perturbation theory.
+
+- formula_id: PHY_QM_028
+  name: Time-Independent Perturbation (Non-degenerate)
+  domain: PHY_QM
+  formula: 'E_n = E_n^{(0)} + \langle n^{(0)} | \hat{H}' | n^{(0)} \rangle + \cdots'
+  variables:
+    - name: 'E_n'
+      description: corrected energy
+    - name: 'E_n^{(0)}'
+      description: unperturbed energy
+    - name: '\hat{H}''
+      description: perturbation Hamiltonian
+  grade_range:
+    - graduate
+  description: Energy expansion in powers of perturbation strength.
+
+- formula_id: PHY_QM_029
+  name: Time-Dependent Perturbation (Fermi Golden Rule)
+  domain: PHY_QM
+  formula: 'W_{i \to f} = \frac{2\pi}{\hbar} |\langle f | \hat{H}' | i \rangle|^2 \rho(E_f)'
+  variables:
+    - name: 'W_{i \to f}'
+      description: transition rate
+    - name: '\hat{H}''
+      description: time-dependent perturbation
+    - name: '|i\rangle, |f\rangle'
+      description: initial and final states
+    - name: '\rho(E_f)'
+      description: density of final states
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - phd
+  description: Transition rate from initial to final states under weak time-dependent perturbation.
+
+- formula_id: PHY_QM_030
+  name: Adiabatic Theorem
+  domain: PHY_QM
+  formula: 'P_{i \to n} = |\langle n(0) | n(T) \rangle|^2'
+  variables:
+    - name: 'P_{i \to n}'
+      description: probability of remaining in nth state
+    - name: '|n(0)\rangle'
+      description: state at initial time
+    - name: '|n(T)\rangle'
+      description: state at final time
+  grade_range:
+    - phd
+  description: System remains in instantaneous eigenstate if Hamiltonian changes slowly.
+
+- formula_id: PHY_REL_001
+  name: Lorentz Factor
+  domain: PHY_REL
+  formula: '\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}'
+  variables:
+    - name: '\gamma'
+      description: Lorentz factor
+    - name: 'v'
+      description: relative velocity
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Factor by which time, length, and mass change at relativistic speeds.
+
+- formula_id: PHY_REL_002
+  name: Time Dilation
+  domain: PHY_REL
+  formula: '\Delta t' = \gamma \Delta t'
+  variables:
+    - name: '\Delta t'
+      description: dilated time interval
+    - name: '\Delta t\''
+      description: proper time interval
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - undergraduate
+  description: Moving clocks run slower as measured in a stationary frame.
+
+- formula_id: PHY_REL_003
+  name: Length Contraction
+  domain: PHY_REL
+  formula: 'L = \frac{L_0}{\gamma}'
+  variables:
+    - name: 'L'
+      description: contracted length
+    - name: 'L_0'
+      description: proper length
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - undergraduate
+  description: Lengths parallel to motion appear contracted in a moving frame.
+
+- formula_id: PHY_REL_004
+  name: Relativistic Velocity Addition
+  domain: PHY_REL
+  formula: 'u' = \frac{u + v}{1 + uv/c^2}'
+  variables:
+    - name: 'u\''
+      description: velocity in new frame
+    - name: 'u'
+      description: object velocity in original frame
+    - name: 'v'
+      description: relative frame velocity
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Addition of velocities ensuring result does not exceed c.
+
+- formula_id: PHY_REL_005
+  name: Relativistic Momentum
+  domain: PHY_REL
+  formula: 'p = \gamma m_0 v'
+  variables:
+    - name: 'p'
+      description: relativistic momentum
+    - name: '\gamma'
+      description: Lorentz factor
+    - name: 'm_0'
+      description: rest mass
+    - name: 'v'
+      description: velocity
+  grade_range:
+    - undergraduate
+  description: Momentum increases without bound as velocity approaches c.
+
+- formula_id: PHY_REL_006
+  name: Relativistic Energy (Total)
+  domain: PHY_REL
+  formula: 'E = \gamma m_0 c^2'
+  variables:
+    - name: 'E'
+      description: total energy
+    - name: '\gamma'
+      description: Lorentz factor
+    - name: 'm_0'
+      description: rest mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Total energy including rest mass and kinetic contributions.
+
+- formula_id: PHY_REL_007
+  name: Mass-Energy Equivalence
+  domain: PHY_REL
+  formula: 'E = m c^2'
+  variables:
+    - name: 'E'
+      description: rest energy
+    - name: 'm'
+      description: rest mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Mass and energy are equivalent and interconvertible.
+
+- formula_id: PHY_REL_008
+  name: Relativistic Kinetic Energy
+  domain: PHY_REL
+  formula: 'K = (\gamma - 1) m_0 c^2'
+  variables:
+    - name: 'K'
+      description: kinetic energy
+    - name: '\gamma'
+      description: Lorentz factor
+    - name: 'm_0'
+      description: rest mass
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Kinetic energy accounting for relativistic effects at high speeds.
+
+- formula_id: PHY_REL_009
+  name: Relativistic Doppler Effect (Longitudinal)
+  domain: PHY_REL
+  formula: '\nu_{obs} = \nu_{source} \sqrt{\frac{1 \pm v/c}{1 \mp v/c}}'
+  variables:
+    - name: '\nu_{obs}'
+      description: observed frequency
+    - name: '\nu_{source}'
+      description: source frequency
+    - name: 'v'
+      description: relative velocity
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Frequency shift for light from a moving source including time dilation.
+
+- formula_id: PHY_REL_010
+  name: Schwarzschild Radius
+  domain: PHY_REL
+  formula: 'r_s = \frac{2GM}{c^2}'
+  variables:
+    - name: 'r_s'
+      description: Schwarzschild radius
+    - name: 'G'
+      description: gravitational constant
+    - name: 'M'
+      description: mass of compact object
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - undergraduate
+  description: Radius of event horizon for a non-rotating black hole.
+
+- formula_id: PHY_REL_011
+  name: Escape Velocity
+  domain: PHY_REL
+  formula: 'v_{esc} = \sqrt{\frac{2GM}{r}}'
+  variables:
+    - name: 'v_{esc}'
+      description: escape velocity
+    - name: 'G'
+      description: gravitational constant
+    - name: 'M'
+      description: mass of central body
+    - name: 'r'
+      description: distance from center
+  grade_range:
+    - undergraduate
+  description: Minimum velocity to escape gravitational pull.
+
+- formula_id: PHY_REL_012
+  name: Gravitational Time Dilation
+  domain: PHY_REL
+  formula: '\Delta t_f = \Delta t_0 \sqrt{1 - \frac{2GM}{rc^2}}'
+  variables:
+    - name: '\Delta t_f'
+      description: time interval at radius r
+    - name: '\Delta t_0'
+      description: proper time at infinity
+    - name: 'G'
+      description: gravitational constant
+    - name: 'M'
+      description: mass
+    - name: 'r'
+      description: radial coordinate
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Clocks run slower in stronger gravitational fields.
+
+- formula_id: PHY_REL_013
+  name: Lorentz Transformation (Time)
+  domain: PHY_REL
+  formula: 't' = \gamma \left(t - \frac{vx}{c^2}\right)'
+  variables:
+    - name: 't\''
+      description: time in moving frame
+    - name: 't'
+      description: time in stationary frame
+    - name: 'x'
+      description: position in stationary frame
+    - name: 'v'
+      description: relative velocity
+    - name: 'c'
+      description: speed of light
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - undergraduate
+  description: Time coordinate transformation between inertial frames.
+
+- formula_id: PHY_REL_014
+  name: Lorentz Transformation (Position)
+  domain: PHY_REL
+  formula: 'x' = \gamma (x - vt)'
+  variables:
+    - name: 'x\''
+      description: position in moving frame
+    - name: 'x'
+      description: position in stationary frame
+    - name: 't'
+      description: time in stationary frame
+    - name: 'v'
+      description: relative velocity
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - undergraduate
+  description: Position coordinate transformation between inertial frames.
+
+- formula_id: PHY_REL_015
+  name: Four-Momentum
+  domain: PHY_REL
+  formula: 'p^\mu = (E/c, \vec{p})'
+  variables:
+    - name: 'p^\mu'
+      description: four-momentum vector
+    - name: 'E'
+      description: total energy
+    - name: 'c'
+      description: speed of light
+    - name: '\vec{p}'
+      description: three-momentum
+  grade_range:
+    - graduate
+  description: Energy and momentum combined into a four-vector in special relativity.
+
+- formula_id: PHY_REL_016
+  name: Invariant Mass
+  domain: PHY_REL
+  formula: 'm^2 c^4 = E^2 - (pc)^2'
+  variables:
+    - name: 'm'
+      description: invariant (rest) mass
+    - name: 'E'
+      description: total energy
+    - name: 'p'
+      description: momentum magnitude
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Mass computed from energy and momentum is invariant across frames.
+
+- formula_id: PHY_REL_017
+  name: Relativistic Doppler Effect (Transverse)
+  domain: PHY_REL
+  formula: '\nu_{obs} = \nu_{source} / \gamma'
+  variables:
+    - name: '\nu_{obs}'
+      description: observed frequency
+    - name: '\nu_{source}'
+      description: source frequency
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - graduate
+  description: Frequency shift when source moves perpendicular to line of sight.
+
+- formula_id: PHY_REL_018
+  name: Aberration of Light
+  domain: PHY_REL
+  formula: '\cos\theta' = \frac{\cos\theta - v/c}{1 - (v/c)\cos\theta}'
+  variables:
+    - name: '\theta\''
+      description: angle in moving frame
+    - name: '\theta'
+      description: angle in stationary frame
+    - name: 'v'
+      description: relative velocity
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Apparent change in direction of light due to observer motion.
+
+- formula_id: PHY_REL_019
+  name: Equivalence Principle
+  domain: PHY_REL
+  formula: 'g_{local} = a'
+  variables:
+    - name: 'g_{local}'
+      description: local gravitational field
+    - name: 'a'
+      description: acceleration of reference frame
+  grade_range:
+    - undergraduate
+  description: Gravitational effects are locally indistinguishable from acceleration.
+
+- formula_id: PHY_REL_020
+  name: Friedmann Equation (First)
+  domain: PHY_REL
+  formula: 'H^2 = \frac{8\pi G}{3} \rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}'
+  variables:
+    - name: 'H'
+      description: Hubble parameter
+    - name: 'G'
+      description: gravitational constant
+    - name: '\rho'
+      description: energy density
+    - name: 'k'
+      description: spatial curvature parameter
+    - name: 'a'
+      description: scale factor
+    - name: '\Lambda'
+      description: cosmological constant
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Governs expansion dynamics of a homogeneous isotropic universe.
+
+- formula_id: PHY_REL_021
+  name: Cosmological Redshift
+  domain: PHY_REL
+  formula: '1 + z = \frac{a(t_{obs})}{a(t_{emit})}'
+  variables:
+    - name: 'z'
+      description: redshift
+    - name: 'a(t_{obs})'
+      description: scale factor at observation
+    - name: 'a(t_{emit})'
+      description: scale factor at emission
+  grade_range:
+    - graduate
+  description: Stretching of wavelength due to cosmic expansion.
+
+- formula_id: PHY_REL_022
+  name: Proper Time
+  domain: PHY_REL
+  formula: 'd\tau^2 = dt^2 - \frac{dx^2 + dy^2 + dz^2}{c^2}'
+  variables:
+    - name: 'd\tau'
+      description: proper time interval
+    - name: 'dt'
+      description: coordinate time interval
+    - name: 'dx, dy, dz'
+      description: spatial displacements
+    - name: 'c'
+      description: speed of light
+  grade_range:
+    - graduate
+  description: Time measured by a clock moving along a worldline.
+
+- formula_id: PHY_REL_023
+  name: Proper Length
+  domain: PHY_REL
+  formula: 'L_0 = \gamma L'
+  variables:
+    - name: 'L_0'
+      description: proper length (rest length)
+    - name: 'L'
+      description: contracted length
+    - name: '\gamma'
+      description: Lorentz factor
+  grade_range:
+    - undergraduate
+  description: Length measured in the rest frame of the object.
+
+- formula_id: PHY_REL_024
+  name: Light Cone Interval
+  domain: PHY_REL
+  formula: 'ds^2 = 0'
+  variables:
+    - name: 'ds^2'
+      description: spacetime interval squared
+  grade_range:
+    - graduate
+  description: Null interval characterizing paths of light rays.
+
+- formula_id: PHY_REL_025
+  name: Relativistic Energy-Momentum Relation
+  domain: PHY_REL
+  formula: 'E^2 = (pc)^2 + (m_0 c^2)^2'
+  variables:
+    - name: 'E'
+      description: total energy
+    - name: 'p'
+      description: momentum
+    - name: 'c'
+      description: speed of light
+    - name: 'm_0'
+      description: rest mass
+  grade_range:
+    - undergraduate
+  description: Relationship between total energy, momentum, and rest mass.
+
+- formula_id: PHY_SS_001
+  name: Bragg Law
+  domain: PHY_SS
+  formula: '2d \sin\theta = m\lambda'
+  variables:
+    - name: 'd'
+      description: interplanar spacing
+    - name: '\theta'
+      description: Bragg angle
+    - name: 'm'
+      description: integer order
+    - name: '\lambda'
+      description: wavelength
+  grade_range:
+    - undergraduate
+  description: Condition for constructive interference from crystal lattice planes.
+
+- formula_id: PHY_SS_002
+  name: Ewald Construction
+  domain: PHY_SS
+  formula: '|\vec{k}' - \vec{k}| = \frac{2\pi}{d}'
+  variables:
+    - name: '\vec{k}, \vec{k}\''
+      description: incident and scattered wavevectors
+    - name: 'd'
+      description: lattice spacing
+  grade_range:
+    - graduate
+  description: Geometric construction satisfying Laue conditions for diffraction.
+
+- formula_id: PHY_SS_003
+  name: Band Gap (Semiconductor)
+  domain: PHY_SS
+  formula: 'E_g = E_c - E_v'
+  variables:
+    - name: 'E_g'
+      description: band gap energy
+    - name: 'E_c'
+      description: conduction band minimum
+    - name: 'E_v'
+      description: valence band maximum
+  grade_range:
+    - undergraduate
+  description: Energy difference between conduction and valence bands.
+
+- formula_id: PHY_SS_004
+  name: Density of States (3D Free Electron)
+  domain: PHY_SS
+  formula: 'g(E) = \frac{1}{2\pi^2} \left(\frac{2m}{\hbar^2}\right)^{3/2} \sqrt{E}'
+  variables:
+    - name: 'g(E)'
+      description: density of states per unit volume
+    - name: 'm'
+      description: electron mass
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 'E'
+      description: energy
+  grade_range:
+    - graduate
+  description: Number of quantum states per unit energy interval in three dimensions.
+
+- formula_id: PHY_SS_005
+  name: Fermi Energy (Free Electron Gas)
+  domain: PHY_SS
+  formula: 'E_F = \frac{\hbar^2}{2m} (3\pi^2 n)^{2/3}'
+  variables:
+    - name: 'E_F'
+      description: Fermi energy
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 'm'
+      description: electron mass
+    - name: 'n'
+      description: electron number density
+  grade_range:
+    - graduate
+  description: Maximum occupied energy at absolute zero for free electron gas.
+
+- formula_id: PHY_SS_006
+  name: Fermi-Dirac Distribution
+  domain: PHY_SS
+  formula: 'f(E) = \frac{1}{e^{(E-\mu)/k_B T} + 1}'
+  variables:
+    - name: 'f(E)'
+      description: occupation probability
+    - name: 'E'
+      description: energy
+    - name: '\mu'
+      description: chemical potential
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+  grade_range:
+    - graduate
+  description: Probability that a quantum state of energy E is occupied by an electron.
+
+- formula_id: PHY_SS_007
+  name: Boltzmann Approximation
+  domain: PHY_SS
+  formula: 'f(E) \approx e^{-(E-\mu)/k_B T}'
+  variables:
+    - name: 'f(E)'
+      description: occupation probability
+    - name: 'E'
+      description: energy
+    - name: '\mu'
+      description: chemical potential
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+  grade_range:
+    - graduate
+  description: Fermi-Dirac distribution for energies far above chemical potential.
+
+- formula_id: PHY_SS_008
+  name: Effective Mass Tensor
+  domain: PHY_SS
+  formula: '\left(\frac{1}{m^*}\right)_{ij} = \frac{1}{\hbar^2} \frac{\partial^2 E}{\partial k_i \partial k_j}'
+  variables:
+    - name: 'm^*'
+      description: effective mass tensor
+    - name: 'E'
+      description: energy band structure
+    - name: 'k_i, k_j'
+      description: components of wavevector
+    - name: '\hbar'
+      description: reduced Planck constant
+  grade_range:
+    - phd
+  description: Tensor describing electron response to forces in a crystal lattice.
+
+- formula_id: PHY_SS_009
+  name: Drude Model (Electrical Conductivity)
+  domain: PHY_SS
+  formula: '\sigma = \frac{n e^2 \tau}{m}'
+  variables:
+    - name: '\sigma'
+      description: electrical conductivity
+    - name: 'n'
+      description: charge carrier density
+    - name: 'e'
+      description: elementary charge
+    - name: '\tau'
+      description: mean free time
+    - name: 'm'
+      description: effective mass
+  grade_range:
+    - undergraduate
+  description: Classical model relating conductivity to carrier density and scattering time.
+
+- formula_id: PHY_SS_010
+  name: Hall Effect (Hall Coefficient)
+  domain: PHY_SS
+  formula: 'R_H = \frac{E_y}{j_x B_z} = \frac{1}{n e}'
+  variables:
+    - name: 'R_H'
+      description: Hall coefficient
+    - name: 'E_y'
+      description: transverse electric field
+    - name: 'j_x'
+      description: current density
+    - name: 'B_z'
+      description: magnetic field
+    - name: 'n'
+      description: carrier density
+    - name: 'e'
+      description: elementary charge
+  grade_range:
+    - undergraduate
+  description: Hall voltage reveals sign and density of charge carriers.
+
+- formula_id: PHY_SS_011
+  name: Hall Voltage
+  domain: PHY_SS
+  formula: 'V_H = \frac{IB}{n e t}'
+  variables:
+    - name: 'V_H'
+      description: Hall voltage
+    - name: 'I'
+      description: current
+    - name: 'B'
+      description: magnetic field
+    - name: 'n'
+      description: carrier density
+    - name: 'e'
+      description: elementary charge
+    - name: 't'
+      description: sample thickness
+  grade_range:
+    - undergraduate
+  description: Transverse voltage developed across a current-carrying conductor in a magnetic field.
+
+- formula_id: PHY_SS_012
+  name: Semiconductor Resistivity
+  domain: PHY_SS
+  formula: '\rho = \frac{1}{\sigma} = \frac{1}{e (n \mu_n + p \mu_p)}'
+  variables:
+    - name: '\rho'
+      description: resistivity
+    - name: '\sigma'
+      description: conductivity
+    - name: 'n, p'
+      description: electron and hole densities
+    - name: '\mu_n, \mu_p'
+      description: electron and hole mobilities
+    - name: 'e'
+      description: elementary charge
+  grade_range:
+    - undergraduate
+  description: Resistivity determined by both electron and hole contributions.
+
+- formula_id: PHY_SS_013
+  name: Intrinsic Carrier Concentration
+  domain: PHY_SS
+  formula: 'n_i = \sqrt{N_c N_v} e^{-E_g/(2k_B T)}'
+  variables:
+    - name: 'n_i'
+      description: intrinsic carrier concentration
+    - name: 'N_c, N_v'
+      description: effective density of states in conduction and valence bands
+    - name: 'E_g'
+      description: band gap energy
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+  grade_range:
+    - undergraduate
+  description: Equal electron and hole concentration in pure semiconductor.
+
+- formula_id: PHY_SS_014
+  name: Extrinsic Carrier Concentration (n-type)
+  domain: PHY_SS
+  formula: 'n \approx N_d'
+  variables:
+    - name: 'n'
+      description: electron concentration
+    - name: 'N_d'
+      description: donor impurity concentration
+  grade_range:
+    - undergraduate
+  description: Electron concentration approximately equals donor density in n-type semiconductor.
+
+- formula_id: PHY_SS_015
+  name: p-n Junction (Diode Equation)
+  domain: PHY_SS
+  formula: 'I = I_0 \left(e^{eV/(k_B T)} - 1\right)'
+  variables:
+    - name: 'I'
+      description: diode current
+    - name: 'I_0'
+      description: reverse saturation current
+    - name: 'V'
+      description: applied voltage
+    - name: 'e'
+      description: elementary charge
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+  grade_range:
+    - undergraduate
+  description: Current-voltage characteristic of a p-n junction diode.
+
+- formula_id: PHY_SS_016
+  name: Superconductivity (BCS Energy Gap)
+  domain: PHY_SS
+  formula: '\Delta(0) \approx 1.76 k_B T_c'
+  variables:
+    - name: '\Delta(0)'
+      description: zero-temperature energy gap
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T_c'
+      description: critical temperature
+  grade_range:
+    - graduate
+  description: Energy gap at zero temperature in BCS theory of superconductivity.
+
+- formula_id: PHY_SS_017
+  name: Debye Temperature
+  domain: PHY_SS
+  formula: '\Theta_D = \frac{\hbar \omega_D}{k_B}'
+  variables:
+    - name: '\Theta_D'
+      description: Debye temperature
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: '\omega_D'
+      description: Debye cutoff frequency
+    - name: 'k_B'
+      description: Boltzmann constant
+  grade_range:
+    - graduate
+  description: Characteristic temperature separating quantum and classical phonon regimes.
+
+- formula_id: PHY_SS_018
+  name: Debye Model (Heat Capacity)
+  domain: PHY_SS
+  formula: 'C_V = 9Nk_B \left(\frac{T}{\Theta_D}\right)^3 \int_0^{\Theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx'
+  variables:
+    - name: 'C_V'
+      description: heat capacity at constant volume
+    - name: 'N'
+      description: number of atoms
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+    - name: '\Theta_D'
+      description: Debye temperature
+  grade_range:
+    - graduate
+  description: Low-temperature heat capacity proportional to T^3 in Debye model.
+
+- formula_id: PHY_SS_019
+  name: Einstein Model (Heat Capacity)
+  domain: PHY_SS
+  formula: 'C_V = 3Nk_B \left(\frac{\Theta_E}{T}\right)^2 \frac{e^{\Theta_E/T}}{(e^{\Theta_E/T} - 1)^2}'
+  variables:
+    - name: 'C_V'
+      description: heat capacity at constant volume
+    - name: 'N'
+      description: number of atoms
+    - name: 'k_B'
+      description: Boltzmann constant
+    - name: 'T'
+      description: temperature
+    - name: '\Theta_E'
+      description: Einstein temperature
+  grade_range:
+    - graduate
+  description: Heat capacity from independent quantum harmonic oscillators.
+
+- formula_id: PHY_SS_020
+  name: Phonon Dispersion (Linear)
+  domain: PHY_SS
+  formula: '\omega = v_s k'
+  variables:
+    - name: '\omega'
+      description: phonon frequency
+    - name: 'v_s'
+      description: speed of sound
+    - name: 'k'
+      description: wavevector
+  grade_range:
+    - graduate
+  description: Linear dispersion relation for acoustic phonons at long wavelengths.
+
+- formula_id: PHY_SS_021
+  name: Bloch Theorem
+  domain: PHY_SS
+  formula: '\psi_{n\vec{k}}(\vec{r}) = e^{i\vec{k}\cdot\vec{r}} u_{n\vec{k}}(\vec{r})'
+  variables:
+    - name: '\psi_{n\vec{k}}(\vec{r})'
+      description: Bloch wavefunction
+    - name: 'e^{i\vec{k}\cdot\vec{r}}'
+      description: plane wave factor
+    - name: 'u_{n\vec{k}}(\vec{r})'
+      description: lattice-periodic function
+    - name: 'n'
+      description: band index
+    - name: '\vec{k}'
+      description: crystal wavevector
+  grade_range:
+    - graduate
+  description: Electron wavefunctions in a periodic potential are plane waves modulated by lattice periodicity.
+
+- formula_id: PHY_SS_022
+  name: Kronig-Penney Model (Dispersion Relation)
+  domain: PHY_SS
+  formula: '\cos(ka) = \cos(\alpha b) \cosh(\beta (a-b)) - \frac{\alpha^2 + \beta^2}{2\alpha\beta} \sin(\alpha b) \sinh(\beta (a-b))'
+  variables:
+    - name: 'k'
+      description: crystal wavevector
+    - name: 'a'
+      description: lattice constant
+    - name: 'b'
+      description: barrier width
+    - name: '\alpha, \beta'
+      description: wavevectors in well and barrier
+  grade_range:
+    - phd
+  description: Dispersion relation for electrons in a periodic square-well potential.
+
+- formula_id: PHY_SS_023
+  name: Effective Mass (Cyclotron)
+  domain: PHY_SS
+  formula: 'm^* = \frac{\hbar^2}{2\pi} \frac{\partial A}{\partial E}'
+  variables:
+    - name: 'm^*'
+      description: cyclotron effective mass
+    - name: '\hbar'
+      description: reduced Planck constant
+    - name: 'A'
+      description: area of Fermi surface cross-section
+    - name: 'E'
+      description: energy
+  grade_range:
+    - phd
+  description: Effective mass measured from cyclotron resonance in magnetic fields.
+
+- formula_id: PHY_SS_024
+  name: Mobility
+  domain: PHY_SS
+  formula: '\mu = \frac{e\tau}{m^*}'
+  variables:
+    - name: '\mu'
+      description: carrier mobility
+    - name: 'e'
+      description: elementary charge
+    - name: '\tau'
+      description: mean free time
+    - name: 'm^*'
+      description: effective mass
+  grade_range:
+    - undergraduate
+  description: Drift velocity per unit electric field; measure of scattering.
+
+- formula_id: PHY_SS_025
+  name: Electrical Conductivity (Drude)
+  domain: PHY_SS
+  formula: '\sigma = \frac{n e^2 \tau}{m}'
+  variables:
+    - name: '\sigma'
+      description: electrical conductivity
+    - name: '

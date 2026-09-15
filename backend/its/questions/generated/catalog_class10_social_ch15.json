@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class10_social_ch15",
+ "concepts": [
+  {
+   "id": "c10ss.15.1",
+   "title": "Gender and Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gender and Politics' refers to.",
+     "a": "Gender division refers to a form of hierarchical social division based on the expected roles of women and men in society. In politics, it highlights how public/private roles are assigned and how women's issues become political issues.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gender and Politics'.",
+     "a": "Gender is not merely a biological category but a social construct that shapes political participation, access to resources, and power relations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gender and Politics' taught, and from which source text?",
+     "a": "Gender and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.2",
+   "title": "Women's Representation in Politics",
+   "questions": [
+    {
+     "q": "Using the method 'Women's Representation in Politics', work with: given_count = 75, given_total = 100, world_avg = 200. Carry the chain through step by step and give the final value of gap.",
+     "a": "125 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Women's Representation in Politics' and work with: given_count = 5, given_total = 120, world_avg = 360. Carry the chain through step by step and give the final value of gap.",
+     "a": "355.8333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Women's Representation in Politics' refers to.",
+     "a": "Women's representation in politics refers to the proportion of women elected to legislatures and holding decision-making positions. It is commonly measured as the percentage of seats held by women in parliament or state assemblies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Women's Representation in Politics'.",
+     "a": "Despite forming half the population, women remain underrepresented in legislatures worldwide; legal quotas and reservations are used to improve their representation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Women's Representation in Politics', in plain ASCII form.",
+     "a": "women_representation_pct = (women_seats / total_seats) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.3",
+   "title": "Feminist Movements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Feminist Movements' refers to.",
+     "a": "Feminist movements are organised efforts by women and men to achieve equal rights and opportunities for women in legal, social, economic, and political spheres. They challenge patriarchal structures and demand gender justice.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Feminist Movements'.",
+     "a": "Feminist movements have been central to expanding women's legal rights, political representation, and social status through agitation, legislation, and awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Feminist Movements' taught, and from which source text?",
+     "a": "Gender and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.4",
+   "title": "Religion and Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Religion and Politics' refers to.",
+     "a": "Religion and politics intersect when religious identities, beliefs, and values influence political preferences, party support, and policy. The relationship can be constructive when it promotes values like justice, or destructive when it leads to communal division.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Religion and Politics'.",
+     "a": "Religion can inspire moral politics, but the use of religion for electoral gain or to divide communities undermines democracy and secularism.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Religion and Politics' taught, and from which source text?",
+     "a": "Religion, Communalism and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.5",
+   "title": "Communalism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Communalism' refers to.",
+     "a": "Communalism is a situation when religion is used to divide people, assert the superiority of one religion over others, or mobilise people along religious lines for political gain. It ranges from everyday beliefs to organised violence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Communalism'.",
+     "a": "Communalism treats the religious community as the primary political identity, undermining individual rights and national unity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Communalism' taught, and from which source text?",
+     "a": "Religion, Communalism and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.6",
+   "title": "Secularism in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secularism in India' refers to.",
+     "a": "Secularism is the principle that the state does not have an official religion and treats all religions equally. Indian secularism maintains a principled distance from all religions while protecting religious freedom and minority rights.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secularism in India'.",
+     "a": "Indian secularism is distinct from strict separation models; it allows the state to intervene in religious matters to reform and protect citizens' rights while remaining neutral among religions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Secularism in India' taught, and from which source text?",
+     "a": "Religion, Communalism and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.7",
+   "title": "Caste and Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Caste and Politics' refers to.",
+     "a": "Caste and politics are interlinked when caste identities influence voting behaviour, candidate selection, and party support, and when political decisions in turn affect caste hierarchies and inequalities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste and Politics'.",
+     "a": "Caste politics is a two-way process: caste shapes politics through vote banks and representation, while politics shapes caste through policies of reservation and social mobility.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Caste and Politics' taught, and from which source text?",
+     "a": "Caste and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.8",
+   "title": "Caste Inequalities and Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Caste Inequalities and Politics' refers to.",
+     "a": "Caste inequalities refer to the unequal access to resources, status, and power associated with birth in a particular caste. Politics addresses these inequalities through reservations, affirmative action, and social justice policies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste Inequalities and Politics'.",
+     "a": "Economic development, urbanisation, and political mobilisation have weakened but not eliminated caste inequalities; constitutional provisions continue to address them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Caste Inequalities and Politics' taught, and from which source text?",
+     "a": "Caste and Politics",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.15.9",
+   "title": "Politics in Caste and Caste in Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Politics in Caste and Caste in Politics' refers to.",
+     "a": "Politics in caste refers to the way political processes reshape caste identities -- creating new caste groups, alliances, and consciousness -- while caste in politics refers to the way caste influences political outcomes such as voting and representation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Politics in Caste and Caste in Politics'.",
+     "a": "Politics does not merely reflect caste divisions; it actively constructs and reconstructs caste identities through mobilisation, alliances, and policy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Politics in Caste and Caste in Politics' taught, and from which source text?",
+     "a": "Caste and Politics",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

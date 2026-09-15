@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_002",
+   "title": "c12_biotech_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the exact source of human embryonic stem cells (hESCs) and the stage of embryonic development from which they are isolated.",
+     "a": "Human embryonic stem cells are isolated from the inner cell mass (ICM) of a blastocyst, which forms around 5–7 days after fertilisation. A wrong answer (e.g., \"from the morula\" or \"from the zygote\") reveals confusion between totipotent early embryonic stages and the pluripotent blastocyst stage; the zygote and early cleavage stages are totipotent, not pluripotent, and hESCs are specifically derived from the ICM, not the whole embryo.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Adult stem cells are called 'adult' because they are only found in fully grown humans.\" Explain why this statement is incorrect using the NCERT definition of adult (somatic) stem cells.",
+     "a": "Adult (somatic) stem cells are present in umbilical cord, placenta after birth, and in children's tissues — not only in adults. The term 'somatic' indicates they come from body tissues, not from embryos. A wrong answer shows the student has not grasped that 'adult' is a historical misnomer; NCERT explicitly states they can come from children or umbilical cord and are more precisely called somatic stem cells.",
+     "self_check": true
+    },
+    {
+     "q": "A research team wants to generate insulin-producing pancreatic beta cells for a Type 1 diabetes therapy. They have access to both human embryonic stem cells (hESCs) and hematopoietic stem cells (HSCs) from bone marrow. Which stem cell type should they choose and why? Justify based on potency and germ layer origin.",
+     "a": "They should choose hESCs because pancreatic beta cells arise from endoderm, and hESCs are pluripotent — they can differentiate into all three germ layers including endoderm. HSCs are multipotent mesodermal stem cells restricted to blood lineages (mesoderm) and cannot become endodermal pancreatic cells. A wrong choice (HSCs) indicates the student does not understand germ layer restrictions of multipotent adult stem cells.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical concerns associated with embryonic stem cells versus adult stem cells. Why does the use of hESCs involve \"technical safety and ethical dilemma\" while adult stem cells have \"no controversies regarding safety and ethical issues\" (NCERT)?",
+     "a": "hESCs require destruction of a human blastocyst (potential human life), raising ethical objections; they also risk teratoma formation due to unlimited self-renewal. Adult stem cells are obtained from consenting donors (umbilical cord, bone marrow) without embryo destruction and have limited proliferation, reducing tumour risk. A wrong answer that says \"both have same ethical issues\" or \"adult stem cells also destroy embryos\" shows failure to distinguish the fundamental ethical difference: embryo destruction vs. non-invasive harvest.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Because embryonic stem cells are pluripotent, they are always the better choice for regenerative medicine compared to adult stem cells.\" Provide two specific counterarguments based on NCERT challenges.",
+     "a": "Counterarguments: (1) Immunological rejection — hESC-derived tissues are allogeneic and require immunosuppression, whereas autologous adult stem cells (e.g., patient's own bone marrow) avoid rejection. (2) Teratoma/tumour risk — hESCs divide indefinitely and can form teratomas; adult stem cells have limited self-renewal and are safer. A wrong evaluation that ignores immune compatibility or tumourigenicity shows the student cannot weigh clinical trade-offs beyond potency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical clinical scenario where a multipotent adult stem cell would be preferred over a pluripotent embryonic stem cell. Specify the disease, the stem cell source, and the rationale for your choice.",
+     "a": "Example: Treating a patient with severe aplastic anaemia using autologous hematopoietic stem cells (HSCs) from their own bone marrow. Rationale: HSCs are multipotent for blood lineages (exactly what is needed), autologous transplant avoids immune rejection, and no ethical concerns. A poor answer that chooses ESCs for a blood disorder or ignores autologous advantage shows inability to match stem cell potency to therapeutic need.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

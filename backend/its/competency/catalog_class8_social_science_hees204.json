@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "The Role of the Judiciary in Our Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.204.4.1",
+   "title": "Law and Justice: Why Courts Matter",
+   "section": "4",
+   "definition": "The judiciary exists to settle disputes and deliver justice - because injustice anywhere threatens justice everywhere, an independent court system hears both sides, applies the law without fear or favour, and shields the weak against the powerful.",
+   "formula": "-",
+   "key_idea": "Courts turn written law into lived justice through fair, independent hearings.",
+   "textbook_ref": "hees204.txt lines 5-74 (role of the judiciary, connection between law and justice)",
+   "question_patterns": [
+    "why do we need an independent judiciary",
+    "how do courts settle disputes between citizens",
+    "what does justice mean in the Indian legal system",
+    "explain the phrase injustice anywhere is a threat to justice everywhere",
+    "how does the judiciary protect the rights of citizens",
+    "why must judges be free from government pressure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "hear the dispute",
+     "explain": "Courts listen to both sides before deciding any case."},
+    {"step": 2, "action": "apply the law",
+     "explain": "Judges interpret the constitution and statutes impartially."},
+    {"step": 3, "action": "deliver justice",
+     "explain": "The decision binds all parties and protects rights."}
+   ]
+  },
+  {
+   "id": "hees.204.4.2",
+   "title": "Structure of Courts in India",
+   "section": "4",
+   "definition": "India runs an integrated judicial system - a single pyramid from district courts at the base through high courts of the states up to the Supreme Court of India at the apex, so any ruling can be appealed upward under one uniform framework.",
+   "formula": "-",
+   "key_idea": "One pyramid of courts: district to high court to Supreme Court, all connected.",
+   "textbook_ref": "hees204.txt lines 143-190 (courts in India, judicial system, Supreme Court)",
+   "question_patterns": [
+    "describe the structure of the judicial system in India",
+    "what is the highest court of India",
+    "what cases go to the district courts",
+    "how is a high court different from a district court",
+    "why is the Indian judiciary called integrated",
+    "draw the pyramid of courts in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start at the base",
+     "explain": "District and subordinate courts hear most cases first."},
+    {"step": 2, "action": "climb the pyramid",
+     "explain": "High courts supervise their states and hear appeals."},
+    {"step": 3, "action": "reach the apex",
+     "explain": "The Supreme Court stands at the top, final for the whole country."}
+   ]
+  },
+  {
+   "id": "hees.204.4.3",
+   "title": "Jurisdictions of the Supreme Court",
+   "section": "4",
+   "definition": "The Supreme Court holds several powers: original jurisdiction to decide centre-state disputes directly, appellate jurisdiction to hear appeals from lower courts, and writ jurisdiction to protect fundamental rights by issuing writs like habeas corpus.",
+   "formula": "-",
+   "key_idea": "Dispute-settler, court of appeals and rights-guardian: the three roles of the Supreme Court.",
+   "textbook_ref": "hees204.txt lines 187-260 (writ, original and appellate jurisdiction)",
+   "question_patterns": [
+    "what is meant by the original jurisdiction of the Supreme Court",
+    "when does the Supreme Court hear appeals",
+    "what is a writ - name two writs",
+    "how does the Supreme Court protect fundamental rights",
+    "which disputes come directly to the Supreme Court",
+    "distinguish original and appellate jurisdiction with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "mark the original side",
+     "explain": "Centre-state and inter-state disputes begin straight in the Supreme Court."},
+    {"step": 2, "action": "mark the appellate side",
+     "explain": "Appeals against high court decisions travel up to the apex court."},
+    {"step": 3, "action": "mark the writ side",
+     "explain": "Citizens may petition directly for enforcement of fundamental rights through writs."}
+   ]
+  },
+  {
+   "id": "hees.204.4.4",
+   "title": "Judicial Review and Public Interest",
+   "section": "4",
+   "definition": "Through judicial review the courts can strike down laws and government actions that violate the constitution, and through public interest litigation even a letter or email from any concerned citizen can open the court's doors for the disadvantaged.",
+   "formula": "-",
+   "key_idea": "Courts keep the constitution supreme and open their doors to all through PIL.",
+   "textbook_ref": "hees204.txt lines 260-360 (judicial review, public interest litigation)",
+   "question_patterns": [
+    "what is judicial review",
+    "how does public interest litigation help the poor",
+    "who can file a PIL in an Indian court",
+    "can parliament make any law it likes - explain with judicial review",
+    "give an example of a landmark judgement that protected rights",
+    "why is an independent judiciary essential for democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test laws against the constitution",
+     "explain": "Any law or order clashing with the constitution can be struck down."},
+    {"step": 2, "action": "widen access",
+     "explain": "Public interest litigation lets any citizen seek justice for others."},
+    {"step": 3, "action": "guard democracy",
+     "explain": "Review and access together keep government within constitutional limits."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hees204.txt structure sections",
+   "questions": [
+     "Draw the structure of courts in India.",
+     "What are the three jurisdictions of the Supreme Court?",
+     "Name the writs issued by the courts."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hees204.txt review sections",
+   "questions": [
+     "Explain judicial review with an example.",
+     "What is public interest litigation and why does it matter?"
+   ]
+  }
+ ]
+}

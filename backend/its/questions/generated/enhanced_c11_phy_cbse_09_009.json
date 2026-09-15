@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_009",
+   "title": "c11_phy_cbse_09_009",
+   "questions": [
+    {
+     "q": "State the SI unit of coefficient of viscosity and write its dimensional formula.",
+     "a": "SI unit: pascal-second (Pa·s) or N·s·m⁻². Dimensional formula: [ML⁻¹T⁻¹]. A wrong answer (e.g., Poise without conversion, or [ML⁻¹T⁻²]) reveals confusion between viscosity and pressure, or between dynamic and kinematic viscosity.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical horizontal plates of area 0.02 m² are separated by 2 mm of glycerine. The top plate is pulled horizontally with a force of 0.5 N and moves at a constant velocity of 0.1 m/s. Calculate the coefficient of viscosity of glycerine. If the same experiment is done with water, would the required force be larger or smaller? Explain why at molecular level.",
+     "a": "η = Fl/(Av) = (0.5 × 0.002) / (0.02 × 0.1) = 0.5 Pa·s. For water, the required force would be smaller because water's viscosity (~0.001 Pa·s at 20°C) is much lower than glycerine's (~0.5 Pa·s). At molecular level, glycerine has extensive hydrogen bonding and larger molecular size causing stronger intermolecular forces and more momentum transfer between layers, while water's smaller molecules and weaker H-bonding network allow easier layer sliding. A wrong force comparison reveals confusion about the relative magnitudes of viscosity for common fluids.",
+     "self_check": true
+    },
+    {
+     "q": "A metal block of area 0.10 m² is connected to a 0.010 kg mass via a string over an ideal pulley. A liquid film of thickness 0.30 mm is placed between the block and the table. When released, the block moves right at constant speed 0.085 m/s. Find the coefficient of viscosity of the liquid. (g = 9.8 m/s²)",
+     "a": "Step 1: Tension T = mg = 0.010 × 9.8 = 0.098 N. This equals shear force F on fluid.\nStep 2: Shear stress = F/A = 0.098 / 0.10 = 0.98 Pa.\nStep 3: Velocity gradient = v/l = 0.085 / (0.30 × 10⁻³) = 283.33 s⁻¹.\nStep 4: η = shear stress / velocity gradient = 0.98 / 283.33 = 3.46 × 10⁻³ Pa·s.\nA wrong answer often comes from using l = 0.30 m instead of 0.30 mm, or forgetting to convert mm to m, leading to η = 3.46 Pa·s (1000× too large).",
+     "self_check": true
+    },
+    {
+     "q": "The velocity profile for laminar flow between two parallel plates (one moving, one stationary) is linear. Sketch the velocity profile for laminar flow in a cylindrical pipe (Poiseuille flow). How does the velocity gradient at the pipe wall compare to the average velocity gradient (v_avg / R)? What does this imply for the shear stress at the wall?",
+     "a": "The profile is parabolic: v(r) = v_max (1 - r²/R²). At the wall (r=R), dv/dr = -2v_max/R = -4v_avg/R. The magnitude of the velocity gradient at the wall is 4 times the average velocity gradient (v_avg/R). Since shear stress τ = η |dv/dr|, the wall shear stress is 4 times larger than what a naive average gradient would predict. A linear profile sketch reveals misunderstanding of the no-slip condition and momentum diffusion in cylindrical geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Viscosity of a liquid decreases with temperature because molecules move faster and slip past each other more easily. Viscosity of a gas increases with temperature because faster molecules collide more often, increasing momentum transfer between layers.\" Evaluate this statement. Is it fully correct? Identify any missing or incorrect parts.",
+     "a": "The statement is essentially correct but incomplete. For liquids: increased thermal energy weakens intermolecular forces (the dominant mechanism), reducing viscosity. For gases: viscosity arises from momentum transfer by molecular collisions; higher temperature increases molecular speed and collision frequency, enhancing momentum transfer and thus viscosity. The missing part is that for gases, viscosity is independent of pressure (at moderate pressures) because increased density and decreased mean free path cancel out — a key kinetic theory result. A student who only mentions \"more collisions\" without linking to momentum transfer across layers shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to compare the viscosities of cooking oil, water, and honey at room temperature. Describe the setup, measurements, and how you would calculate a relative viscosity ratio without using a stopwatch.",
+     "a": "Use a tall transparent bottle (e.g., 1 L soda bottle) filled with each liquid. Drop a small steel ball (ball bearing) from the surface and mark the positions at 1-second intervals by video recording (phone camera at 30 fps). Measure distances fallen in each frame. For low Reynolds number (small ball, viscous liquid), terminal velocity v_t ∝ 1/η (Stokes' law). Compare distances fallen in same number of frames: η₁/η₂ ≈ d₂/d₁. A poor answer uses a stopwatch with human reaction time error, or ignores terminal velocity condition (ball must reach constant speed), or uses balls of different sizes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

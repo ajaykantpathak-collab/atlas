@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_010",
+   "title": "c11_bs_cbse_10_010",
+   "questions": [
+    {
+     "q": "Name any three national-level Chambers of Commerce and Industry in India mentioned in the NCERT textbook.",
+     "a": "The three national-level chambers are: (1) Associated Chamber of Commerce and Industry (ASSOCHAM), (2) Confederation of Indian Industry (CII), and (3) Federation of Indian Chambers of Commerce and Industry (FICCI). A wrong answer (e.g., naming RBI, SEBI, or a state-level chamber) reveals the student confuses regulatory bodies with business associations or cannot distinguish national from regional bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why 'harmonisation of sales tax structure' is necessary for promoting internal trade, and how the introduction of VAT helped in this direction.",
+     "a": "Harmonisation means making sales tax rates and structures uniform across states so that traders don't face different tax rules when moving goods interstate. VAT replaced the old sales tax to remove the cascading effect (tax on tax), lowering the final tax burden and simplifying compliance. A wrong answer that only defines VAT without linking it to interstate trade barriers or cascading effect shows the student memorised the term but misses the economic rationale.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer in Gujarat wants to send goods to a retailer in West Bengal. The truck faces delays at three state borders due to octroi collection. Which specific intervention area of Chambers of Commerce addresses this, and what two concrete actions can the chamber take to resolve it?",
+     "a": "Intervention area: \"Octroi and other local levies\". Actions: (1) Lobby state governments to replace octroi with a unified tax (like GST) or ensure octroi collection doesn't impede smooth transportation; (2) Advocate for electronic toll/tax collection systems to eliminate physical stopping. A wrong answer that suggests \"chambers pay the octroi\" or \"chambers build roads\" reveals confusion between chamber advocacy and direct operational/executive roles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Chambers of Commerce in 'promoting sound infrastructure' versus 'labour legislation'. How does each intervention differently affect the cost structure of a manufacturing firm?",
+     "a": "Infrastructure promotion (roads, ports, power) reduces logistics and production downtime costs (variable/fixed costs). Labour legislation advocacy aims for flexible laws that reduce compliance costs and retrenchment compensation liabilities (fixed/quasi-fixed costs). Infrastructure lowers per-unit transportation cost; labour flexibility lowers per-unit employment risk cost. A wrong answer that treats both as \"reducing costs\" without distinguishing the cost category (logistics vs. employment) shows superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Chambers of Commerce only represent big corporations; small traders get no benefit from their advocacy on excise duty and sales tax harmonisation.\"",
+     "a": "The statement is partially flawed. While chambers are dominated by large firms, tax harmonisation (uniform rates, removal of cascading) and excise streamlining benefit all firms in the supply chain by lowering compliance burden and input costs. Small traders gain from simplified returns and seamless interstate movement. However, chambers may prioritise issues relevant to large exporters (e.g., SEZ policies) over hyper-local issues of small retailers. A wrong answer that simply agrees or disagrees without nuance shows inability to evaluate distributional effects of policy advocacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page advocacy brief that a Chamber of Commerce could submit to the Ministry of Road Transport to solve the problem of delayed perishable goods transport on the Golden Quadrilateral. Include: problem statement, two specific policy asks, and one measurable outcome indicator.",
+     "a": "A strong brief would: (1) Problem: Perishable goods lose 15-20% value due to 4-6 hour delays at toll plazas and state border checks on Golden Quadrilateral. (2) Policy asks: (a) Mandatory FASTag lanes for perishable-goods vehicles with GPS tracking; (b) Green corridor protocol for designated perishable routes with single-window clearance. (3) Indicator: Reduce average border/toll delay from 4 hours to <30 minutes within 12 months. A poor answer lists generic demands (\"build more roads\") without perishable-specific mechanisms or measurable targets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

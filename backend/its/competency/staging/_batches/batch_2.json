@@ -1,0 +1,884 @@
+[
+ {
+  "stem": "hhml109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hhml109.txt",
+  "size": 37583,
+  "class": 8,
+  "subject": "hindi"
+ },
+ {
+  "stem": "hhml110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hhml110.txt",
+  "size": 78770,
+  "class": 8,
+  "subject": "hindi"
+ },
+ {
+  "stem": "hegp101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp101.txt",
+  "size": 30905,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp102.txt",
+  "size": 56865,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp103.txt",
+  "size": 56927,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp106.txt",
+  "size": 45394,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp107.txt",
+  "size": 43099,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp201",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp201.txt",
+  "size": 51830,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp203",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp203.txt",
+  "size": 22831,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp204",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp204.txt",
+  "size": 33821,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp205",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp205.txt",
+  "size": 40479,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hegp207",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp207.txt",
+  "size": 26663,
+  "class": 8,
+  "subject": "maths"
+ },
+ {
+  "stem": "hecu101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu101.txt",
+  "size": 12820,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu102.txt",
+  "size": 40822,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu103.txt",
+  "size": 33857,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu104.txt",
+  "size": 30382,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu105.txt",
+  "size": 33101,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu106.txt",
+  "size": 35235,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu107.txt",
+  "size": 30177,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu108.txt",
+  "size": 33877,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu109.txt",
+  "size": 34901,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu110.txt",
+  "size": 32441,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu111.txt",
+  "size": 42092,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu112.txt",
+  "size": 38865,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hecu113",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu113.txt",
+  "size": 41296,
+  "class": 8,
+  "subject": "science"
+ },
+ {
+  "stem": "hees101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees101.txt",
+  "size": 31908,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees102.txt",
+  "size": 56434,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees103.txt",
+  "size": 33837,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees104.txt",
+  "size": 54942,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees106.txt",
+  "size": 37795,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees107.txt",
+  "size": 49330,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees201",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees201.txt",
+  "size": 43348,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees202",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees202.txt",
+  "size": 87297,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees203",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees203.txt",
+  "size": 44370,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees204",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees204.txt",
+  "size": 25688,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees205",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees205.txt",
+  "size": 35212,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees206",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees206.txt",
+  "size": 32342,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees207",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees207.txt",
+  "size": 32148,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hees209",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees209.txt",
+  "size": 49887,
+  "class": 8,
+  "subject": "social_science"
+ },
+ {
+  "stem": "hemh101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh101.txt",
+  "size": 20442,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh102.txt",
+  "size": 8299,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh103.txt",
+  "size": 23299,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh104.txt",
+  "size": 19541,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh105.txt",
+  "size": 37432,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh106.txt",
+  "size": 12802,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh107.txt",
+  "size": 21773,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh108.txt",
+  "size": 17943,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh109.txt",
+  "size": 26306,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh110.txt",
+  "size": 14720,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh111.txt",
+  "size": 25926,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh112.txt",
+  "size": 23696,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "hemh113",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh113.txt",
+  "size": 14372,
+  "class": 8,
+  "subject": "unknown"
+ },
+ {
+  "stem": "ihga101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga101.txt",
+  "size": 103913,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga102.txt",
+  "size": 69028,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga103.txt",
+  "size": 64514,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga104.txt",
+  "size": 96780,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga105.txt",
+  "size": 67087,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga106.txt",
+  "size": 75987,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga107.txt",
+  "size": 95888,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga108.txt",
+  "size": 21376,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga109.txt",
+  "size": 41953,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga110.txt",
+  "size": 29703,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga111.txt",
+  "size": 56435,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "ihga112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\ihga112.txt",
+  "size": 38286,
+  "class": 9,
+  "subject": "hindi"
+ },
+ {
+  "stem": "iemh101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh101.txt",
+  "size": 22021,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh102.txt",
+  "size": 34561,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh103.txt",
+  "size": 42147,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh104.txt",
+  "size": 33003,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh105.txt",
+  "size": 39725,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh106.txt",
+  "size": 55718,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh107.txt",
+  "size": 32608,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iemh108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh108.txt",
+  "size": 39090,
+  "class": 9,
+  "subject": "maths"
+ },
+ {
+  "stem": "iesc101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc101.txt",
+  "size": 18746,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc102.txt",
+  "size": 50521,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc104.txt",
+  "size": 60082,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc105.txt",
+  "size": 50994,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc106.txt",
+  "size": 57821,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc107.txt",
+  "size": 61957,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc108.txt",
+  "size": 49609,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc109.txt",
+  "size": 48648,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc110.txt",
+  "size": 55166,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc111.txt",
+  "size": 54144,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc112.txt",
+  "size": 59748,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iesc113",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc113.txt",
+  "size": 55293,
+  "class": 9,
+  "subject": "science"
+ },
+ {
+  "stem": "iest101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest101.txt",
+  "size": 25452,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest102.txt",
+  "size": 33012,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest103.txt",
+  "size": 34071,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest104.txt",
+  "size": 53827,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest105.txt",
+  "size": 76878,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest106.txt",
+  "size": 43129,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest107.txt",
+  "size": 35209,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest108.txt",
+  "size": 23014,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iest109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest109.txt",
+  "size": 41447,
+  "class": 9,
+  "subject": "social_science"
+ },
+ {
+  "stem": "iebe101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe101.txt",
+  "size": 39446,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe102.txt",
+  "size": 44152,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe103.txt",
+  "size": 35572,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe104.txt",
+  "size": 49571,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe105.txt",
+  "size": 35403,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe106.txt",
+  "size": 40067,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe107.txt",
+  "size": 34251,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "iebe108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iebe108.txt",
+  "size": 37678,
+  "class": 9,
+  "subject": "unknown"
+ },
+ {
+  "stem": "jemh103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh103.txt",
+  "size": 22977,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh104.txt",
+  "size": 17891,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh105.txt",
+  "size": 36677,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh106.txt",
+  "size": 32718,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh107.txt",
+  "size": 22106,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh108.txt",
+  "size": 28496,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh110.txt",
+  "size": 14824,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh111.txt",
+  "size": 8696,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh112.txt",
+  "size": 16956,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jemh114",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jemh114.txt",
+  "size": 27627,
+  "class": 10,
+  "subject": "maths"
+ },
+ {
+  "stem": "jesc101",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc101.txt",
+  "size": 33350,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc102.txt",
+  "size": 40399,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc103.txt",
+  "size": 44561,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc104",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc104.txt",
+  "size": 47695,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc105",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc105.txt",
+  "size": 54094,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc106",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc106.txt",
+  "size": 31438,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc107",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc107.txt",
+  "size": 38948,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc108",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc108.txt",
+  "size": 16376,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc109",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc109.txt",
+  "size": 60143,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc110",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc110.txt",
+  "size": 26251,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc111",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc111.txt",
+  "size": 47446,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc112",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc112.txt",
+  "size": 31265,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jesc113",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc113.txt",
+  "size": 21063,
+  "class": 10,
+  "subject": "science"
+ },
+ {
+  "stem": "jess102",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess102.txt",
+  "size": 13553,
+  "class": 10,
+  "subject": "social_science"
+ },
+ {
+  "stem": "jess103",
+  "file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess103.txt",
+  "size": 23650,
+  "class": 10,
+  "subject": "social_science"
+ }
+]

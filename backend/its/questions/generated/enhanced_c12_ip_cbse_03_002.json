@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_002",
+   "title": "c12_ip_cbse_03_002",
+   "questions": [
+    {
+     "q": "Which network type typically uses Bluetooth or Zigbee as its primary communication technology and covers a radius of about 10 metres around a person?",
+     "a": "PAN (Personal Area Network). A wrong answer (e.g., LAN) reveals the student confuses short-range personal device communication with building-scale networks; they likely memorised acronyms without associating each with its characteristic technology and distance.",
+     "self_check": true
+    },
+    {
+     "q": "A company has offices in three buildings within a 2 km radius. They lay their own fibre-optic cables to interconnect the buildings. Is this a LAN or a MAN? Explain why the ownership of the medium matters for classification.",
+     "a": "It is a LAN because the geographical span (2 km) falls within the LAN range (typically up to a few km) and the organisation owns the entire infrastructure. A wrong answer (MAN) shows the student thinks any multi-building network is a MAN, ignoring that MANs usually span a city (5–50 km) and often lease circuits from telecom providers.",
+     "self_check": true
+    },
+    {
+     "q": "A city government deploys a wireless network covering 40 km to connect traffic cameras, smart streetlights, and municipal offices. They use a mix of licensed microwave links and fibre leased from a telecom operator. Classify this network and justify your answer with two distinguishing features of that class.",
+     "a": "MAN (Metropolitan Area Network). Features: (1) geographical span of a city (5–50 km), (2) typically uses a combination of owned and leased media (microwave, leased fibre). A wrong answer (WAN) indicates the student overestimates the distance threshold for WAN or misses that WANs cross national/regional boundaries using public switched networks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical latency and bandwidth characteristics of a LAN (1 Gbps Ethernet) and a WAN (leased line 100 Mbps) when transferring a 10 GB dataset between two endpoints. Which will complete faster and why?",
+     "a": "LAN will complete faster. Latency on LAN is sub-millisecond; on WAN it is tens of milliseconds. Bandwidth is higher on LAN (1 Gbps vs 100 Mbps). Transfer time ≈ size/bandwidth + latency overhead. For 10 GB: LAN ≈ 80 seconds; WAN ≈ 800 seconds. A wrong answer (WAN faster) reveals confusion between bandwidth and latency or ignorance of the huge latency penalty in WANs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A PAN is just a very small LAN, so the same security policies (firewalls, VLANs) apply.\" Defend or refute with two technical reasons.",
+     "a": "Refute. (1) PANs use ad-hoc, low-power protocols (Bluetooth, Zigbee) that do not support IP-based firewalls or VLAN tagging. (2) PAN devices often lack an OS capable of running enterprise security agents; they rely on pairing encryption and proximity. A wrong answer (agree) shows the student overlooks protocol-stack differences and device capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a network plan for a multinational bank headquartered in Mumbai with branches in Delhi, London, and Singapore. Specify the network type for each link (HQ↔branch, branch↔ATMs, teller↔cash-recycler) and the primary technology you would choose for each. Justify each choice in one sentence.",
+     "a": "HQ↔branch: WAN (MPLS/VPN over internet) – connects across countries. Branch↔ATMs: MAN (metro Ethernet/fibre) – spans city. Teller↔cash-recycler: PAN (USB/Bluetooth) – <1 m personal device link. A poor answer uses LAN for HQ↔Delhi (ignores national boundary) or WAN for teller↔cash-recycler (overkill, wrong scale).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

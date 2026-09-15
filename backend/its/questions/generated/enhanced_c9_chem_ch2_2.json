@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_2",
+   "title": "c9_chem_ch2_2",
+   "questions": [
+    {
+     "q": "State the two main postulates of Thomson's Plum Pudding Model of the atom.",
+     "a": "The two postulates are: (1) An atom consists of a uniformly distributed sphere of positive charge. (2) Electrons are embedded in this sphere at fixed positions, and the total negative charge equals the total positive charge, making the atom neutral. A wrong answer (e.g., \"electrons orbit the nucleus\" or \"protons are in the center\") reveals the student is confusing Thomson's model with Rutherford's or Bohr's models, or has not grasped that Thomson had no concept of a nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Thomson propose a *sphere of positive charge* rather than a central positive core? Explain using the experimental evidence available to him in 1898.",
+     "a": "Thomson knew only two things: (1) cathode rays are negatively charged particles (electrons) present in all atoms, and (2) atoms are electrically neutral. He had *no evidence* of a concentrated positive core — Rutherford's gold foil experiment (which revealed the nucleus) was done in 1909–1911. So he spread the positive charge uniformly to balance the electrons. A wrong answer (e.g., \"because positive charge repels positive charge\") shows the student is applying later knowledge (Rutherford) anachronistically, not reasoning from Thomson's actual data.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws Thomson's model for a lithium atom (atomic number 3). They draw a large circle labeled \"+\" and place three small \"e⁻\" dots inside. Is this diagram correct? Justify your answer.",
+     "a": "Yes, the diagram is correct for Thomson's model. Steps: (1) Lithium has atomic number 3 → 3 protons worth of positive charge → sphere labeled \"+3\" or simply \"+\". (2) Neutral atom → 3 electrons embedded. (3) Electrons are stationary in the model, not orbiting. (4) No nucleus exists in this model. A wrong answer (e.g., \"electrons should be in orbits\" or \"there should be a nucleus\") reveals the student is imposing Bohr/Rutherford features onto Thomson's model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Thomson's model and Rutherford's model explain the *stability* of the atom. Why does Thomson's model fail on this count?",
+     "a": "Thomson's model: Electrons are stationary in a positive sphere; electrostatic attraction holds them in place. But stationary charges would collapse into each other — no mechanism prevents electrons from falling into the positive sphere. Rutherford's model: Electrons orbit the nucleus like planets; centripetal force balances electrostatic attraction. However, accelerating charges radiate energy (classical EM theory), so Rutherford's orbits are also unstable — but that's a *different* failure. Thomson's model fails because it has *no dynamic stability mechanism at all*. A wrong answer (e.g., \"both are stable\" or \"Thomson's model has orbits\") shows confusion between static embedding and orbital motion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Thomson's model was rejected because it could not explain the results of the gold foil experiment.\" Is this historically accurate? Explain.",
+     "a": "The claim is *partially correct but historically out of order*. Thomson's model (1898) was proposed *before* the gold foil experiment (1909–1911). It was initially accepted because it explained cathode rays and atomic neutrality. It was *later* rejected *because* it could not explain the gold foil results (large-angle scattering). A better statement: \"Thomson's model could not explain the gold foil experiment, which led to its replacement by Rutherford's model.\" A wrong answer (e.g., \"Thomson did the gold foil experiment\") reveals a chronological misconception about the sequence of atomic models.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment or diagram to show why Thomson's model predicts *no large-angle scattering* of alpha particles, unlike what Rutherford observed.",
+     "a": "A good answer: Draw a diffuse positive sphere (Thomson) and a concentrated nucleus (Rutherford). In Thomson's model, the positive charge is spread over ~10⁻¹⁰ m; an alpha particle passing through experiences weak, distributed repulsion — maximum deflection is small (<1°). In Rutherford's model, the positive charge is concentrated in ~10⁻¹⁵ m; a close encounter gives huge repulsion → large angles. Criteria: Must contrast *charge distribution* and *resulting electric field strength*. A poor answer (e.g., \"alpha particles bounce off electrons\") shows misunderstanding that electrons are too light to deflect massive alpha particles significantly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

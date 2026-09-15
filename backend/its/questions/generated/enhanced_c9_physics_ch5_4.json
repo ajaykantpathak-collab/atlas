@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_4",
+   "title": "c9_physics_ch5_4",
+   "questions": [
+    {
+     "q": "State the SI units of wavelength, frequency, and time period. Write the formula that relates frequency and time period.",
+     "a": "Wavelength: metre (m); Frequency: hertz (Hz); Time period: second (s). Formula: f = 1/T (or T = 1/f). A wrong answer (e.g., giving frequency in m/s or writing f = T) reveals the student has not memorised the basic definitions and inverse relationship, which are essential for all subsequent calculations.",
+     "self_check": true
+    },
+    {
+     "q": "A sound wave has a frequency of 500 Hz. Without using a calculator, explain whether its time period is greater than, less than, or equal to 1 second. Justify your answer using the definition of frequency.",
+     "a": "Less than 1 second. Frequency of 500 Hz means 500 oscillations occur in 1 second, so one oscillation takes 1/500 = 0.002 s. A wrong answer (e.g., \"greater than 1 second\") reveals the student thinks higher frequency means longer time period, confusing the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A tuning fork vibrates at 256 Hz. The speed of sound in air is 340 m/s. Calculate the wavelength of the sound wave produced. Show all steps with units.",
+     "a": "Given: f = 256 Hz, v = 340 m/s. Formula: v = fλ → λ = v/f. Substitute: λ = 340 m/s ÷ 256 Hz = 1.328125 m ≈ 1.33 m. A wrong answer (e.g., 87040 m from multiplying v×f) reveals the student incorrectly rearranged the formula or did not track units (m/s ÷ 1/s = m).",
+     "self_check": true
+    },
+    {
+     "q": "Two sound waves travel in the same medium. Wave A has frequency 400 Hz and wavelength 0.85 m. Wave B has frequency 800 Hz. Compare their wavelengths and time periods. Explain your reasoning without calculating exact numbers.",
+     "a": "In the same medium, wave speed is constant. Since v = fλ, doubling frequency halves wavelength. So Wave B's wavelength is half of Wave A's (0.425 m). Time period T = 1/f, so Wave B's time period is half of Wave A's. A wrong answer (e.g., \"wavelength stays same\") reveals the student thinks wavelength is independent of frequency or does not apply constant speed condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Wave speed = wavelength × time period\". Evaluate this statement. Is it correct? If not, correct it and explain the error.",
+     "a": "Incorrect. Correct formula: v = fλ = λ/T. The student multiplied by T instead of dividing. Since f = 1/T, v = λ/(T) not λ×T. This error shows confusion between frequency and time period roles; the student treated T as if it were frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone app (frequency analyser) and a ruler to verify the relationship v = fλ for sound in air. List the materials, procedure, and what you would plot to get a straight line.",
+     "a": "Materials: smartphone with frequency analyser app, tuning forks of different known frequencies (or app-generated tones), ruler, quiet room. Procedure: Play a tone of known frequency f, measure the distance between two consecutive nodes (or use wavelength from app if available) or use a resonance tube to find wavelength. Repeat for 5 frequencies. Plot λ on y-axis and 1/f on x-axis; slope gives v. A poor answer (e.g., \"measure wavelength with ruler directly in air\") reveals the student does not know how to measure wavelength of sound in air practically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

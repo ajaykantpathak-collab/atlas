@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_9",
+   "title": "c9_hist_ch1_9",
+   "questions": [
+    {
+     "q": "A historian finds a copper-plate grant dated \"Shaka 1050\" and a Persian chronicle describing the same king's accession as \"Hijri 520.\" What is the FIRST step the historian must take to place both on a common timeline?",
+     "a": "The historian must convert both dates to the Common Era (CE) using the known epochs: Shaka era begins 78 CE, so Shaka 1050 = 1128 CE; Hijri era begins 622 CE, so Hijri 520 = 1126/27 CE. A wrong answer (e.g., subtracting one from the other directly) reveals the student thinks eras are interchangeable without conversion, missing that each era has a distinct starting point and calendar type (solar vs. lunar).",
+     "self_check": true
+    },
+    {
+     "q": "Why do historians argue that the label \"Ancient India\" ending at 1200 CE is a problematic periodization for understanding social and economic continuity?",
+     "a": "Because key structures—caste hierarchy, village autonomy, temple-centered agrarian expansion, and Indian Ocean trade networks—persisted well beyond 1200 CE into the Delhi Sultanate and Mughal periods. A wrong answer (e.g., \"because Muslims arrived then\") reveals a political-conquest view of periodization, ignoring the *longue durée* of social and economic patterns that cut across dynastic changes.",
+     "self_check": true
+    },
+    {
+     "q": "You are given two timelines: Timeline A lists major battles in North India (1192 Tarain, 1526 Panipat, 1556 Second Panipat, 1761 Third Panipat). Timeline B lists major Bhakti saints' lifespans (12th–17th century). How would you use these *together* to challenge the idea that \"medieval India was only about war\"?",
+     "a": "Overlay the timelines to show that Bhakti movements flourished *during* and *between* the battle dates, often in the same regions (e.g., Kabir in Varanasi while Lodis ruled Delhi; Tulsidas composing Ramcharitmanas during Akbar's reign). A wrong answer (listing battles and saints separately) reveals the student cannot synchronize independent chronologies to reveal simultaneity of political turbulence and cultural creativity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the periodization \"Ancient / Medieval / Modern\" (James Mill, 1817) with \"Early Historic / Early Medieval / Medieval / Early Modern\" (recent Indian historiography). What specific historical *process* does the four-phase scheme capture that the three-phase scheme obscures?",
+     "a": "The four-phase scheme captures the *gradual* transition from state-society formations of the Gupta/post-Gupta era (Early Historic) to the feudal/segmentary polities and agrarian expansion of 600–1300 CE (Early Medieval), before the Sultanate's centralized bureaucracy (Medieval). The three-phase scheme lumps 600–1200 CE into \"Ancient,\" hiding the distinct social formation of early medieval India (land grants, regional kingdoms, temple economies). A wrong answer (e.g., \"more dates\") reveals the student sees periodization as labeling, not as an analytical tool for identifying structural change.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims: \"The year 1857 marks the end of medieval India and the beginning of modern India.\" Evaluate this claim using the concept of *chronological rupture* vs. *continuity*.",
+     "a": "The claim overstates rupture: political sovereignty shifted to the Crown, but land revenue systems (zamindari/ryotwari), caste-based agrarian relations, and princely state autonomy continued. Modernity in India is better seen as a *layered* process—1857 is a political rupture, but social and economic \"medieval\" structures persisted into the 20th century. A wrong answer (accepting 1857 as a clean break) reveals the student equates a single event with total historical transformation, ignoring multi-temporal change.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \"synchronic timeline\" for the year 1600 CE showing simultaneous developments in: (a) Mughal India, (b) Safavid Iran, (c) Ottoman Empire, (d) Ming China, and (e) Elizabethan England. What *one* comparative question does this timeline enable you to ask about early modern global history?",
+     "a": "1600 CE: Akbar's *Din-i-Ilahi* experiment; Abbas I reforming Safavid military; Mehmed III ruling Ottomans; Wanli Emperor's withdrawal in Ming China; East India Company charter granted in England. Comparative question: \"Why did maritime expansion and chartered companies emerge in Western Europe but not in the Asian land empires, despite comparable wealth and technology?\" A poor answer (listing unrelated facts) reveals the student cannot use synchrony to generate historical problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

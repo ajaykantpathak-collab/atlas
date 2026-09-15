@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_02_011",
+   "title": "c11_eng_s_cbse_02_011",
+   "questions": [
+    {
+     "q": "Identify the tense of the verb phrase \"had given\" in the sentence: \"It had been in the first half of the War. I was home for a few days and it struck me immediately that something or other about the rooms had changed. I missed various things. My mother was surprised I should have noticed so quickly. Then she told me about Mrs Dorling. I had never heard of her but apparently she was an old acquaintance of my mother, whom she hadn't seen for years.\"",
+     "a": "The verb phrase \"had given\" is in the past perfect tense. It indicates an action completed before another past action (the mother telling the narrator about Mrs Dorling). A wrong answer (e.g., \"past simple\") reveals the student cannot distinguish between simple past for main narrative events and past perfect for earlier past events, which is essential for tracking the story's dual timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the narrator uses \"would\" in the sentence: \"Every time she leaves here she takes something home with her,' said my mother. 'She took all the table silver in one go. And then the antique plates that hung there. She had trouble lugging those large vases, and I'm worried she got a crick in her back from the crockery.'\" (Note: The text uses \"takes\" and \"took\" but the mother's speech reports habitual past actions. The narrator later says: \"I had remembered it. But I had waited a long time to go there. Initially after the Liberation I was absolutely not interested in all that stored stuff, and naturally I was also rather afraid of it. Afraid of being confronted with things that had belonged to a connection that no longer existed; which were hidden away in cupboards and boxes and waiting in vain until they were put back in their place again; which had endured all those years because they were 'things.'\")",
+     "a": "The modal \"would\" (or \"used to\") expresses habitual past actions—Mrs Dorling's repeated visits and taking of items. In the mother's reported speech, the habits are shown through simple past (\"takes\", \"took\") because it's direct speech, but the narrator's reflection uses past perfect (\"had belonged\", \"had endured\") for earlier states. A wrong answer (e.g., \"would shows future intention\") reveals confusion between modal uses: habit vs. future-in-the-past, and inability to track how reported speech shifts tenses.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following direct speech from the story into indirect (reported) speech, adjusting tenses and pronouns correctly: The woman said, \"Have you come back? I thought that no one had come back.\" The narrator replied, \"Only me.\"",
+     "a": "The woman asked if I had come back and said she had thought that no one had come back. I replied that it was only me. Steps: 1) Change question to statement order, 2) Shift pronouns (you → I, I → she), 3) Backshift tenses (have come → had come, thought → had thought), 4) Adjust time/place references if needed. A wrong answer (e.g., keeping \"have come back\") shows failure to apply backshifting rules in reported speech, a key Class 11 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the sentence: \"I was in a room I knew and did not know.\" Identify the sentence type (simple/compound/complex) and explain how its structure mirrors the narrator's psychological state.",
+     "a": "It is a complex sentence: main clause \"I was in a room\" + subordinate clause \"I knew and did not know\" (reduced relative clause with coordinated verbs). The structure enacts the paradox—familiarity and alienation coexist in one grammatical unit, just as the objects are hers yet not hers. A wrong answer (e.g., calling it compound) reveals inability to identify subordinate clauses and link syntax to theme, a core analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the author's choice to use the past perfect tense (\"had endured\", \"had belonged\") in the paragraph beginning \"But gradually everything became more normal again...\" versus using simple past. Defend your judgment with two textual reasons.",
+     "a": "Past perfect is more effective because: 1) It establishes a clear temporal hierarchy—the objects' endurance *pre-dates* the narrator's return, emphasizing their independent existence during her absence. 2) It creates emotional distance: \"had endured\" suggests survival without her, reinforcing the theme of loss. Simple past would flatten the timeline, making the objects' past feel simultaneous with her present. A weak evaluation (e.g., \"both are fine\") shows inability to link grammatical choice to thematic effect.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph continuing the story from the last line (\"Of all the things I had to forget, that would be the easiest.\") using: (a) one past perfect verb, (b) one modal verb for past habit, (c) one complex sentence with a subordinate clause of reason, and (d) one reported speech construction.",
+     "a": "Sample: \"I had decided to walk home through the park instead of taking the tram. As I passed the old oak tree, I remembered how my mother would pause there every evening to watch the sunset. Because the memory was too sharp, I quickened my pace. I told myself that the address was just a number on a door.\" Contains: (a) \"had decided\", (b) \"would pause\", (c) \"Because the memory was too sharp...\", (d) \"I told myself that...\". A poor answer missing any element reveals gaps in applying multiple grammatical forms cohesively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

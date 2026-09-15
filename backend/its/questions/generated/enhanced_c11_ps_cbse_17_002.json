@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_002",
+   "title": "c11_ps_cbse_17_002",
+   "questions": [
+    {
+     "q": "What was the specific innovation introduced by Lord Ripon's Resolution of 1882 regarding the composition of municipal bodies in British India?",
+     "a": "Lord Ripon's 1882 Resolution mandated that municipal bodies should have a majority of elected non-official members (rather than government-appointed officials) and that the chairperson should be a non-official elected by the members. A wrong answer—such as \"it introduced universal adult franchise\" or \"it created village panchayats\"—reveals confusion between Ripon's limited municipal reform and later democratic expansions; Ripon's reform applied only to urban municipalities, retained property-based franchise, and kept district collectors as ex-officio presidents with veto power.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Government of India Act 1919 classify \"local self-government\" as a \"transferred subject\" under the dyarchy scheme, and what practical limitation did this create for Indian ministers?",
+     "a": "The 1919 Act made local self-government a transferred subject to give Indian ministers nominal control over municipalities and district boards, but the provincial governor retained \"reserved\" control over finance and law-and-order, meaning ministers could not raise taxes or ensure police cooperation for local bodies. A wrong answer—such as \"it gave full autonomy to local bodies\"—misses the dyarchy trap: ministers had responsibility without financial or coercive power, rendering local government ineffective.",
+     "self_check": true
+    },
+    {
+     "q": "A state government in 1970 dissolves a Gram Panchayat mid-term and postpones elections for three years, citing \"administrative exigencies.\" Using the pre-1992 legal framework, explain whether a citizen could successfully challenge this in court, and identify the specific constitutional gap that the 73rd Amendment later closed.",
+     "a": "Before 1992, local bodies existed only under state statutes (e.g., Panchayati Raj Acts), which typically gave state governments discretionary power to dissolve, supersede, or postpone elections—no constitutional mandate for regular elections existed. A citizen's writ petition would likely fail because Article 226 judicial review could only test statutory compliance, not a constitutional right to local democracy. The 73rd Amendment (Article 243E) closed this gap by mandating five-year terms and elections within six months of dissolution, making local democracy justiciable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balwant Rai Mehta Committee (1957) and the Ashok Mehta Committee (1978) on three dimensions: (a) tier structure, (b) constitutional status demand, and (c) political party participation. What does the shift between them reveal about the changing understanding of \"democratic decentralisation\"?",
+     "a": "Balwant Rai Mehta recommended a three-tier structure (village, block, district) with indirect elections to higher tiers, no constitutional status, and non-party-based elections. Ashok Mehta recommended a two-tier structure (district, mandal), explicit constitutional status, and open political party participation. The shift reveals a move from viewing Panchayati Raj as an administrative implementation arm (1957) to treating it as a political institution of self-government (1978)—recognizing that without constitutional protection and partisan accountability, local bodies remain state-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The 73rd and 74th Amendments merely codified existing state-level Panchayati Raj laws; they did not fundamentally alter the centre-state-local power balance.\" Support your evaluation with two specific constitutional provisions that created new federal constraints on state legislatures.",
+     "a": "The claim is false. Two provisions fundamentally altered the balance: (1) Article 243E/243U—mandatory five-year terms and elections within six months of dissolution—removed state discretion to indefinitely postpone elections (a common pre-1992 practice). (2) Article 243I/243Y—State Finance Commissions every five years—created a constitutional obligation for states to devolve funds, whereas pre-1992 grants were discretionary. These provisions bind state legislatures; they cannot be amended by simple state laws, only by constitutional amendment under Article 368.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Preamble\" for a hypothetical 1990 Private Member's Bill seeking constitutional status for local bodies, synthesizing the arguments from the L.M. Singhvi Committee (1986) and the failures of the 64th Amendment Bill (1989). Your preamble must reference: Gram Sabha as the foundation, direct elections, and protection against arbitrary dissolution.",
+     "a": "A strong preamble would read: \"Recognising that the Gram Sabha, as the embodiment of direct participatory democracy at the village level, must be the foundation of the Panchayati Raj system; acknowledging that the absence of constitutional mandate has allowed state governments to dissolve elected bodies arbitrarily and postpone elections indefinitely, thereby denying citizens their democratic right to local self-government; and affirming that regular, direct elections to all tiers, fixed five-year terms, and independent electoral and financial machinery are essential to transform local administration into genuine institutions of self-government—this Bill seeks to entrench Panchayats and Municipalities in the Constitution.\" A weak answer omits the Gram Sabha centrality or fails to link arbitrary dissolution to the 64th Bill's defeat in Rajya Sabha.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

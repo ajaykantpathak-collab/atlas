@@ -1,0 +1,536 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 118,
+ "chapter_title": "Neural Control and Coordination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo118.txt",
+ "concepts": [
+  {
+   "id": "kebo.18.2.1",
+   "title": "Organization of the Human Neural System",
+   "section": "18.2",
+   "definition": "The structural division of the body's neural architecture into a central processing core and a peripheral network connecting that core to tissues.",
+   "formula": "PNS = somatic_division + autonomic_division",
+   "key_idea": "The central neural system integrates information while peripheral pathways branch into voluntary somatic and involuntary autonomic divisions.",
+   "textbook_ref": "kebo118.txt lines 25-50",
+   "question_patterns": [
+    "How is the human neural system anatomically divided?",
+    "Distinguish between the somatic and autonomic neural systems",
+    "What constitutes the peripheral nervous system?",
+    "Classify the major divisions of the human nervous system",
+    "state two key points about organization of the human neural system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify neural divisions",
+     "explain": "Separate the central nervous system comprising brain and spinal cord from the peripheral nervous system."
+    },
+    {
+     "step": 2,
+     "action": "differentiate peripheral functions",
+     "explain": "Verify that somatic pathways regulate skeletal muscle while autonomic pathways innervate visceral organs and smooth muscles."
+    },
+    {
+     "step": 3,
+     "action": "confirm autonomic subdivisions",
+     "explain": "Check that the autonomic division further splits into sympathetic and parasympathetic branches controlling involuntary visceral activity."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.2.2",
+   "title": "Afferent and Efferent Nerve Fibres",
+   "section": "18.2",
+   "definition": "Peripheral nerve trunks that carry sensory signals inward to the central axis, or motor commands outward to muscles and glands.",
+   "formula": "total_pathways = afferent_pathways + efferent_pathways",
+   "key_idea": "Afferent neurons convey sensory information to the CNS, whereas efferent neurons convey regulatory motor signals to target tissues.",
+   "textbook_ref": "kebo118.txt lines 34-45",
+   "question_patterns": [
+    "Differentiate between afferent and efferent nerve fibres",
+    "What is the direction of transmission in sensory versus motor nerves?",
+    "How do afferent pathways differ functionally from efferent pathways?",
+    "Which nerve fibres convey regulatory signals from the central neural system?",
+    "give one everyday example of afferent and efferent nerve fibres"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace afferent trajectory",
+     "explain": "Confirm impulse travels centripetally from peripheral sensory receptors toward the brain or spinal cord."
+    },
+    {
+     "step": 2,
+     "action": "trace efferent trajectory",
+     "explain": "Confirm impulse travels centrifugally from central integrating centers toward peripheral muscles or glands."
+    },
+    {
+     "step": 3,
+     "action": "verify functional reciprocity",
+     "explain": "Confirm that afferent and efferent fibres form paired reflex arcs, ensuring sensory input and motor output are coordinated through the CNS."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.3.1",
+   "title": "Neuron Morphology and Classification",
+   "section": "18.3",
+   "definition": "The specialized histological unit of neural tissue comprising a somal cell body, receptive dendrites, and an impulse-transmitting axon, classified by process branching and myelination.",
+   "formula": "neuron_processes = dendrite_count + axon_count",
+   "key_idea": "Neurons feature specialized receptive and conductive extensions and are categorized as unipolar, bipolar, or multipolar depending on process morphology.",
+   "textbook_ref": "kebo118.txt lines 53-85",
+   "question_patterns": [
+    "Describe the anatomical parts of a multipolar neuron",
+    "How are neurons classified based on the number of axons and dendrites?",
+    "Distinguish between myelinated and non-myelinated nerve fibres",
+    "Where are unipolar, bipolar, and multipolar neurons located in the body?",
+    "state two key points about neuron morphology and classification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "characterize main regions",
+     "explain": "Identify the cell body housing Nissl's granules, sensory dendrites projecting inward, and an elongated axon terminating in synaptic knobs."
+    },
+    {
+     "step": 2,
+     "action": "categorize structural types",
+     "explain": "Match embryonic stages with unipolar, retinal tissue with bipolar, and the cerebral cortex with multipolar configurations."
+    },
+    {
+     "step": 3,
+     "action": "distinguish myelination status",
+     "explain": "Verify that myelinated fibres conduct impulses via saltatory conduction at nodes of Ranvier while non-myelinated fibres conduct continuously."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.3.2",
+   "title": "Resting Membrane Potential and Polarization",
+   "section": "18.3.1",
+   "definition": "The steady electrical voltage across an unstimulated neural membrane generated by unequal ion permeability and maintained by primary active transport.",
+   "formula": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)",
+   "key_idea": "High resting potassium permeability coupled with active sodium-potassium pumping renders the axon's interior negatively charged relative to the exterior.",
+   "textbook_ref": "kebo118.txt lines 86-118",
+   "question_patterns": [
+    "Why is the resting neural membrane described as polarised?",
+    "Explain the ionic basis of resting membrane potential in an axon",
+    "How do differential ion permeabilities maintain the resting potential?",
+    "What role does the sodium-potassium pump play in resting potential?",
+    "short note on resting membrane potential and polarization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess passive permeability",
+     "explain": "Verify high resting membrane permeability to potassium and comparative impermeability to sodium and intracellular organic anions."
+    },
+    {
+     "step": 2,
+     "action": "verify active electrogenic maintenance",
+     "explain": "Confirm the sodium-potassium ATPase constantly ejects three sodium ions for every two potassium ions imported, sustaining axoplasmic electronegativity."
+    },
+    {
+     "step": 3,
+     "action": "confirm resting voltage value",
+     "explain": "Verify that the combined ionic gradients and selective permeability establish a resting membrane potential of approximately minus seventy millivolts."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.3.3",
+   "title": "Sodium-Potassium ATPase Exchange Stoichiometry",
+   "section": "18.3.1",
+   "definition": "The quantitative stoichiometric relationship of active cation transport across the resting neuronal membrane per enzymatic cycle.",
+   "formula": "net_charge = cycles * (3 - 2)",
+   "key_idea": "Each cycle of the sodium-potassium pump consumes ATP to transport three sodium ions outward and two potassium ions inward, expelling one net elementary positive charge.",
+   "textbook_ref": "kebo118.txt lines 105-115",
+   "question_patterns": [
+    "Calculate the net charge exported across the axonal membrane after a given number of pump cycles",
+    "Find the total number of sodium ions pumped outward for a given number of cycles",
+    "How many potassium ions are transported inward by the sodium-potassium pump?",
+    "Determine the net outward movement of positive ions over several cycles",
+    "calculate sodium-potassium atpase exchange stoichiometry for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute outward sodium transport",
+     "explain": "Three sodium ions are extruded per active transport cycle",
+     "compute": "na_out = cycles * 3"
+    },
+    {
+     "step": 2,
+     "action": "compute inward potassium transport",
+     "explain": "Two potassium ions are brought in per active transport cycle",
+     "compute": "k_in = cycles * 2"
+    },
+    {
+     "step": 3,
+     "action": "determine net charge exported",
+     "explain": "Subtract imported positive charges from extruded positive charges",
+     "compute": "net_charge = na_out - k_in"
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.3.4",
+   "title": "Action Potential Generation and Impulse Propagation",
+   "section": "18.3.1",
+   "definition": "The rapid, transient reversal and restoration of membrane polarity propagated along the length of an axonal fibre following threshold stimulation.",
+   "formula": "action_potential = depolarisation_phase + repolarisation_phase",
+   "key_idea": "Stimulus-driven sodium influx transiently inverts transmembrane voltage, producing a local circuit that triggers adjacent depolarization and subsequent potassium efflux.",
+   "textbook_ref": "kebo118.txt lines 119-150",
+   "question_patterns": [
+    "Explain the role of Na+ in the generation of an action potential",
+    "How does depolarisation spread along an unmyelinated axon?",
+    "Describe the ionic events responsible for repolarisation",
+    "What causes the reversal of membrane polarity during a nerve impulse?",
+    "how does action potential generation and impulse propagation work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "track depolarisation influx",
+     "explain": "Confirm threshold stimulus causes rapid opening of voltage-sensitive sodium channels, allowing rapid sodium influx that reverses internal charge to positive."
+    },
+    {
+     "step": 2,
+     "action": "verify current loop propagation",
+     "explain": "Demonstrate internal current flow from active to adjacent resting sites, inducing subsequent depolarization down the axon."
+    },
+    {
+     "step": 3,
+     "action": "track repolarisation efflux",
+     "explain": "Confirm sodium permeability drops rapidly while potassium efflux restores the baseline resting potential."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.3.5",
+   "title": "Synaptic Impulse Transmission",
+   "section": "18.3.2",
+   "definition": "The specialized intercellular mechanism by which action potentials cross junctions between neurons via direct ionic flow or chemical ligand exocytosis.",
+   "formula": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding",
+   "key_idea": "Chemical synapses convert electrical signals into chemical neurotransmitters that cross the cleft to open post-synaptic ion channels, while electrical synapses allow direct electrotonic continuity.",
+   "textbook_ref": "kebo118.txt lines 151-188",
+   "question_patterns": [
+    "Compare electrical and chemical synapses",
+    "Describe the sequence of events during chemical synaptic transmission",
+    "How do neurotransmitters elicit responses in post-synaptic neurons?",
+    "Explain the role of synaptic vesicles and receptor channels at the synapse",
+    "why is synaptic impulse transmission important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify transmitter exocytosis",
+     "explain": "Verify arrival of action potential triggers synaptic vesicle fusion and neurotransmitter release into the synaptic cleft."
+    },
+    {
+     "step": 2,
+     "action": "evaluate post-synaptic channel opening",
+     "explain": "Check that binding of neurotransmitters to post-synaptic membrane receptors modulates ion permeability, producing excitatory or inhibitory potentials."
+    },
+    {
+     "step": 3,
+     "action": "compare electrical and chemical synapse modes",
+     "explain": "Confirm that electrical synapses allow direct ion flow through gap junctions for rapid transmission while chemical synapses rely on neurotransmitter diffusion."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.4.1",
+   "title": "Cranial Meninges and Structural Envelopes of the Brain",
+   "section": "18.4",
+   "definition": "The protective tripartite connective tissue covering encasing the brain beneath the cranial skeletal vault.",
+   "formula": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater",
+   "key_idea": "The human brain is shielded within the cranium by three meningeal sheets: tough outer dura mater, webbed middle arachnoid, and vascular inner pia mater.",
+   "textbook_ref": "kebo118.txt lines 189-210",
+   "question_patterns": [
+    "Name and arrange the cranial meninges from outside to inside",
+    "What are the protective coverings of the human brain?",
+    "Differentiate between dura mater, arachnoid, and pia mater",
+    "Describe the anatomical protection of the central nervous system",
+    "list the main features of cranial meninges and structural envelopes of the brain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order layers externally to internally",
+     "explain": "List the robust outer dura mater, the thin intermediary arachnoid membrane, and the innermost pia mater adhering to neural tissue."
+    },
+    {
+     "step": 2,
+     "action": "characterize dura mater properties",
+     "explain": "Verify the dura mater is a tough double-layered connective tissue sheet that also forms venous sinuses and is firmly attached to the inner skull surface."
+    },
+    {
+     "step": 3,
+     "action": "distinguish arachnoid and pia mater functions",
+     "explain": "Confirm the arachnoid encloses the subarachnoid space containing cerebrospinal fluid while the vascular pia mater closely invests every contour of the brain surface."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.4.2",
+   "title": "Forebrain Anatomy and Functional Centers",
+   "section": "18.4.1",
+   "definition": "The anterior subdivision of the brain comprising the cerebral hemispheres, thalamic sensory-motor relay hub, and the homeostatic hypothalamus.",
+   "formula": "forebrain = cerebrum + thalamus + hypothalamus",
+   "key_idea": "The cerebrum executes sensory, motor, and associational processing, while the thalamus relays signals and the hypothalamus coordinates vegetative balance and endocrine output.",
+   "textbook_ref": "kebo118.txt lines 211-255",
+   "question_patterns": [
+    "What are the major structural components of the forebrain?",
+    "Explain the functions of the cerebral cortex and association areas",
+    "State the role of the hypothalamus in maintaining homeostasis",
+    "What structures constitute the limbic system and what are their functions?",
+    "describe forebrain anatomy and functional centers with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "delineate cerebral organization",
+     "explain": "Verify hemisphere division by the longitudinal fissure, interhemispheric linkage via the corpus callosum, and grey versus white matter layout."
+    },
+    {
+     "step": 2,
+     "action": "identify coordinating and vegetative centers",
+     "explain": "Confirm the thalamus relays sensory and motor impulses while the hypothalamus governs body temperature, appetite, and emotional drives alongside the limbic system."
+    },
+    {
+     "step": 3,
+     "action": "map cortical functional areas",
+     "explain": "Verify that the cerebral cortex contains distinct sensory, motor, and association areas including the motor cortex in the frontal lobe and the sensory cortex in the parietal lobe."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.4.3",
+   "title": "Midbrain and Brainstem Architecture",
+   "section": "18.4.2",
+   "definition": "The intermediate conduit of the encephalon containing optic-auditory processing lobes and the cerebral aqueduct, forming an integral part of the brainstem.",
+   "formula": "brain_stem = midbrain + pons + medulla_oblongata",
+   "key_idea": "The midbrain bridges forebrain and hindbrain through corpora quadrigemina lobes and the central aqueduct, collaborating with pons and medulla to form the brainstem.",
+   "textbook_ref": "kebo118.txt lines 256-277",
+   "question_patterns": [
+    "Which structures make up the brainstem?",
+    "What is the corpora quadrigemina and where is it located?",
+    "Which canal traverses the midbrain?",
+    "Describe the anatomical position and parts of the midbrain",
+    "list the main features of midbrain and brainstem architecture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate midbrain features",
+     "explain": "Identify the dorsal four swellings termed corpora quadrigemina and the central fluid channel called the cerebral aqueduct."
+    },
+    {
+     "step": 2,
+     "action": "assemble brainstem components",
+     "explain": "Confirm that the midbrain, pons, and medulla oblongata collectively establish the connection between brain and spinal cord."
+    },
+    {
+     "step": 3,
+     "action": "verify corpora quadrigemina function",
+     "explain": "Confirm the four dorsal swellings of the corpora quadrigemina comprise superior colliculi for visual reflexes and inferior colliculi for auditory relay."
+    }
+   ]
+  },
+  {
+   "id": "kebo.18.4.4",
+   "title": "Hindbrain Organization and Autonomous Reflex Centers",
+   "section": "18.4.3",
+   "definition": "The posterior encephalic region comprising the cerebellum, pons, and medulla oblongata, responsible for motor coordination and visceral vegetative reflexes.",
+   "formula": "hindbrain = pons + cerebellum + medulla_oblongata",
+   "key_idea": "The cerebellum refines motor equilibrium, pons interconnects brain regions, and the medulla regulates cardiovascular, respiratory, and gastric reflexes.",
+   "textbook_ref": "kebo118.txt lines 262-277",
+   "question_patterns": [
+    "Name the parts of the hindbrain and describe their functions",
+    "Which brain structure coordinates muscle tone and balance?",
+    "Explain the regulatory roles played by the medulla oblongata",
+    "How does cerebellar surface convolution support high neuronal density?",
+    "list the main features of hindbrain organization and autonomous reflex centers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess cerebellar specialization",
+     "explain": "Verify that intricate surface convolutions provide expansive cortical area to organize balance and muscular coordination."
+    },
+    {
+     "step": 2,
+     "action": "identify medullary visceral centers",
+     "explain": "Confirm the presence of vital vegetative control nuclei for cardiac rhythm, pulmonary respiration, and gastrointestinal secretion in the medulla oblongata."
+    },
+    {
+     "step": 3,
+     "action": "verify pons connectivity role",
+     "explain": "Confirm the pons serves as a relay bridge interconnecting different parts of the brain through transverse fibre tracts."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo118.txt lines 105-115",
+   "concept": "kebo.18.3.3",
+   "question_type": "stoichiometric_ion_transport",
+   "question_pattern": "If the sodium-potassium pump on an axonal membrane undergoes {cycles} complete operational cycles, calculate the number of Na+ ions moved out, K+ ions moved in, and the net positive charge exported.",
+   "extracted_variables": {
+    "cycles": "number of operational ATP hydrolysis cycles executed by the pump"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute outward sodium transport",
+     "explain": "Three sodium ions are extruded per active transport cycle",
+     "compute": "na_out = cycles * 3"
+    },
+    {
+     "step": 2,
+     "action": "compute inward potassium transport",
+     "explain": "Two potassium ions are brought in per active transport cycle",
+     "compute": "k_in = cycles * 2"
+    },
+    {
+     "step": 3,
+     "action": "determine net charge exported",
+     "explain": "Subtract imported positive charges from extruded positive charges",
+     "compute": "net_charge = na_out - k_in"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo118.txt lines 105-115",
+   "concept": "kebo.18.3.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sodium-potassium atpase exchange stoichiometry step by step",
+   "extracted_variables": {
+    "cycles": "value of cycles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute outward sodium transport",
+     "explain": "Three sodium ions are extruded per active transport cycle",
+     "compute": "na_out = cycles * 3"
+    },
+    {
+     "step": 2,
+     "action": "compute inward potassium transport",
+     "explain": "Two potassium ions are brought in per active transport cycle",
+     "compute": "k_in = cycles * 2"
+    },
+    {
+     "step": 3,
+     "action": "determine net charge exported",
+     "explain": "Subtract imported positive charges from extruded positive charges",
+     "compute": "net_charge = na_out - k_in"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex18.1",
+   "source_ref": "kebo118.txt lines 294-295",
+   "questions": [
+    "Briefly describe the structure of the Brain"
+   ]
+  },
+  {
+   "id": "ex18.2",
+   "source_ref": "kebo118.txt lines 296-299",
+   "questions": [
+    "Compare Central neural system (CNS) and Peripheral neural system (PNS)",
+    "Compare Resting potential and action potential"
+   ]
+  },
+  {
+   "id": "ex18.3",
+   "source_ref": "kebo118.txt lines 300-304",
+   "questions": [
+    "Explain Polarisation of the membrane of a nerve fibre",
+    "Explain Depolarisation of the membrane of a nerve fibre",
+    "Explain Transmission of a nerve impulse across a chemical synapse"
+   ]
+  },
+  {
+   "id": "ex18.4",
+   "source_ref": "kebo118.txt lines 305-307",
+   "questions": [
+    "Draw labelled diagram of Neuron",
+    "Draw labelled diagram of Brain"
+   ]
+  },
+  {
+   "id": "ex18.5",
+   "source_ref": "kebo118.txt lines 308-311",
+   "questions": [
+    "Write short notes on Neural coordination",
+    "Write short notes on Forebrain",
+    "Write short notes on Midbrain",
+    "Write short notes on Hindbrain",
+    "Write short notes on Synapse"
+   ]
+  },
+  {
+   "id": "ex18.6",
+   "source_ref": "kebo118.txt lines 312-313",
+   "questions": [
+    "Give a brief account of Mechanism of synaptic transmission."
+   ]
+  },
+  {
+   "id": "ex18.7",
+   "source_ref": "kebo118.txt lines 314-315",
+   "questions": [
+    "Explain the role of Na+ in the generation of action potential."
+   ]
+  },
+  {
+   "id": "ex18.8",
+   "source_ref": "kebo118.txt lines 316-321",
+   "questions": [
+    "Differentiate between Myelinated and non-myelinated axons",
+    "Differentiate between Dendrites and axons",
+    "Differentiate between Thalamus and Hypothalamus",
+    "Differentiate between Cerebrum and Cerebellum"
+   ]
+  },
+  {
+   "id": "ex18.9",
+   "source_ref": "kebo118.txt lines 322-325",
+   "questions": [
+    "Which part of the human brain is the most developed?",
+    "Which part of our central neural system acts as a master clock?"
+   ]
+  },
+  {
+   "id": "ex18.10",
+   "source_ref": "kebo118.txt lines 326-331",
+   "questions": [
+    "Distinguish between afferent neurons and efferent neurons",
+    "Distinguish between impulse conduction in a myelinated nerve fibre and unmyelinated nerve fibre",
+    "Distinguish between cranial nerves and spinal nerves."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

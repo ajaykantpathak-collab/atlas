@@ -1,0 +1,1030 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 202,
+ "chapter_title": "The Baudhayana-Pythagoras Theorem",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh101.txt",
+ "concepts": [
+  {
+   "id": "hegp.2.1",
+   "title": "Doubling and Halving Area of a Square",
+   "section": "2.1 & 2.2",
+   "definition": "Build a fresh square using the slant of an older one as its side: it holds exactly twice the area; joining midpoints gives one of half.",
+   "formula": "area_doubled = 2 * side ** 2",
+   "key_idea": "The slant of a square is exactly the side a doubled-area square needs.",
+   "textbook_ref": "hegp202.txt lines 1-65",
+   "question_patterns": [
+    "find the area of a square constructed on the diagonal of a square of side",
+    "what is the area of a square with double the area of a square with side",
+    "calculate the doubled square area given side length",
+    "Square of side 6 -- find the doubled square's area.",
+    "Side 5 -- what is the inner (half) square's area?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate base area",
+     "explain": "find the area of the initial square",
+     "compute": "base_area = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "double the area",
+     "explain": "the square on the diagonal has two times the initial area",
+     "compute": "area_doubled = 2 * base_area"
+    },
+    {
+     "step": 3,
+     "action": "find the half-area square",
+     "explain": "joining the midpoints of a square gives a square of half the area",
+     "compute": "area_half = base_area / 2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.3.1",
+   "title": "Hypotenuse of an Isosceles Right Triangle",
+   "section": "2.3",
+   "definition": "Two equal legs meet at a right corner: the slant opposite satisfies leg^2 + leg^2 = slant^2.",
+   "formula": "hypotenuse = sqrt(2 * leg ** 2)",
+   "key_idea": "With equal legs, the slant squared comes to twice a leg squared.",
+   "textbook_ref": "hegp202.txt lines 66-160",
+   "question_patterns": [
+    "find the hypotenuse of an isosceles right triangle with equal sides",
+    "what is the length of the hypotenuse if the two equal sides are",
+    "calculate hypotenuse of an isosceles right-angled triangle given leg",
+    "Equal legs 5 -- find the slant.",
+    "Both legs measure 7 -- how long is the slant?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the leg length",
+     "explain": "find the square of one of the equal sides",
+     "compute": "leg_sq = leg ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute square of hypotenuse",
+     "explain": "hypotenuse squared is twice the square of the leg",
+     "compute": "hyp_sq = 2 * leg_sq"
+    },
+    {
+     "step": 3,
+     "action": "take square root",
+     "explain": "hypotenuse is the square root of double the leg squared",
+     "compute": "hypotenuse = sqrt(hyp_sq)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.3.2",
+   "title": "Leg Length of an Isosceles Right Triangle from Hypotenuse",
+   "section": "2.3",
+   "definition": "Given the slant of a right-cornered triangle with equal legs, each leg measures sqrt(h^2 / 2).",
+   "formula": "leg = sqrt(hypotenuse ** 2 / 2)",
+   "key_idea": "Equating the doubled square of the leg to the squared hypotenuse determines the leg length.",
+   "textbook_ref": "hegp202.txt lines 161-190",
+   "question_patterns": [
+    "if the hypotenuse of an isosceles right triangle is find its other two sides",
+    "what are the equal side lengths of an isosceles right triangle with hypotenuse",
+    "calculate the leg length of an isosceles right triangle given hypotenuse",
+    "Slant 10 -- find the equal legs.",
+    "Slant measures 8.485 -- find each leg."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the hypotenuse",
+     "explain": "compute the square of the hypotenuse",
+     "compute": "hyp_sq = hypotenuse ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by two",
+     "explain": "the square of each equal leg is half the squared hypotenuse",
+     "compute": "leg_sq = hyp_sq / 2"
+    },
+    {
+     "step": 3,
+     "action": "take square root",
+     "explain": "extract the square root to get the leg length",
+     "compute": "leg = sqrt(leg_sq)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.4.1",
+   "title": "Baudhayana-Pythagoras Theorem: Finding the Hypotenuse",
+   "section": "2.4",
+   "definition": "On any right-cornered triangle, the square built on the slant equals the two squares on the legs put together.",
+   "formula": "hypotenuse = sqrt(side_a ** 2 + side_b ** 2)",
+   "key_idea": "Add the squares of the two legs; that total is the slant squared.",
+   "textbook_ref": "hegp202.txt lines 191-285",
+   "question_patterns": [
+    "find the hypotenuse of a right-angled triangle with sides",
+    "a right triangle has shorter sides of length and find the hypotenuse",
+    "calculate the hypotenuse given perpendicular sides",
+    "what is the length of the hypotenuse if shorter sides are",
+    "Legs 6 and 8 -- find the slant.",
+    "Short sides 5 and 12 -- how long the slant?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the squares of the two legs",
+     "explain": "calculate side_a squared plus side_b squared",
+     "compute": "sum_sq = side_a ** 2 + side_b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "hypotenuse is the square root of the sum of squares",
+     "compute": "hypotenuse = sqrt(sum_sq)"
+    },
+    {
+     "step": 3,
+     "action": "find the area of the right triangle",
+     "explain": "area = (1/2) x side_a x side_b, using the two perpendicular legs as base and height",
+     "compute": "(side_a * side_b) / 2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.4.2",
+   "title": "Baudhayana-Pythagoras Theorem: Finding a Missing Leg",
+   "section": "2.4",
+   "definition": "A missing leg comes from sqrt(hypotenuse^2 - known_leg^2).",
+   "formula": "side_a = sqrt(hypotenuse ** 2 - side_b ** 2)",
+   "key_idea": "Subtract the square of the known leg from the square of the hypotenuse to find the square of the missing leg.",
+   "textbook_ref": "hegp202.txt lines 286-310",
+   "question_patterns": [
+    "a right-angled triangle has a short side of length and hypotenuse of length find the third side",
+    "find the missing side of a right triangle given hypotenuse and one leg",
+    "calculate the unknown perpendicular side when hypotenuse is and leg is",
+    "what is the length of the other side in a right triangle with hypotenuse",
+    "Slant 13, one leg 5 -- find the other.",
+    "Slant 10, one leg 6 -- the missing leg?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute difference of squares",
+     "explain": "subtract the square of the known side from the square of the hypotenuse",
+     "compute": "diff_sq = hypotenuse ** 2 - side_b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "the missing leg is the square root of the difference",
+     "compute": "side_a = sqrt(diff_sq)"
+    },
+    {
+     "step": 3,
+     "action": "find the area of the right triangle",
+     "explain": "area = (1/2) x side_a x side_b, using the two perpendicular legs as base and height",
+     "compute": "(side_a * side_b) / 2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.5.1",
+   "title": "Baudhayana Triples and Scaling",
+   "section": "2.5",
+   "definition": "Scale every side of a right-cornered integer triangle by the same whole number and the shape stays right-cornered.",
+   "formula": "scaled_c = scale_k * hypotenuse",
+   "key_idea": "Scaling keeps the corner honest: 3-4-5 stretched by 2 gives 6-8-10.",
+   "textbook_ref": "hegp202.txt lines 311-370",
+   "question_patterns": [
+    "find the scaled triple for given scale factor",
+    "generate a scaled Baudhayana triple by multiplying by",
+    "what are the scaled sides of triple when scaled by",
+    "Stretch 3-4-5 by 4.",
+    "Scale 5-12-13 by 3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale side a",
+     "explain": "multiply first side by scale factor",
+     "compute": "scaled_a = scale_k * side_a"
+    },
+    {
+     "step": 2,
+     "action": "scale side b",
+     "explain": "multiply second side by scale factor",
+     "compute": "scaled_b = scale_k * side_b"
+    },
+    {
+     "step": 3,
+     "action": "scale hypotenuse c",
+     "explain": "multiply hypotenuse by scale factor",
+     "compute": "scaled_c = scale_k * side_c"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.5.2",
+   "title": "Generating Baudhayana Triples from Odd Squares",
+   "section": "2.5",
+   "definition": "Expressing an odd square number as the difference between consecutive squares yields a primitive right-triangle triple where the shorter leg and hypotenuse differ by one.",
+   "formula": "hypotenuse = (odd_square + 1) / 2",
+   "key_idea": "An odd square equals the gap between neighbouring squares, handing over a triple whose slant and long leg differ by one.",
+   "textbook_ref": "hegp202.txt lines 371-420",
+   "question_patterns": [
+    "generate a Baudhayana triple from the odd square",
+    "find the right triangle triple using odd square",
+    "what is the Baudhayana triple having shortest side",
+    "Build a triple from odd square 81.",
+    "Use odd square 25 to form a triple."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find index n of the odd square",
+     "explain": "odd_square is 2*n - 1, so n is (odd_square + 1) / 2",
+     "compute": "n_val = (odd_square + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "determine the first leg",
+     "explain": "first leg is the square root of the given odd square",
+     "compute": "side_a = sqrt(odd_square)"
+    },
+    {
+     "step": 3,
+     "action": "determine the second leg",
+     "explain": "second leg is n - 1",
+     "compute": "side_b = n_val - 1"
+    },
+    {
+     "step": 4,
+     "action": "determine the hypotenuse",
+     "explain": "hypotenuse equals n",
+     "compute": "hypotenuse = n_val"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.6.1",
+   "title": "Fermat's Last Theorem",
+   "section": "2.6",
+   "definition": "There are no non-zero whole number solutions satisfying x to the power n plus y to the power n equals z to the power n for any integer exponent greater than two.",
+   "formula": "x**n + y**n != z**n (for n > 2)",
+   "key_idea": "Powers only combine into another power when the exponent is two.",
+   "textbook_ref": "hegp202.txt lines 421-460",
+   "question_patterns": [
+    "state Fermat's Last Theorem",
+    "does x cubed plus y cubed equal z cubed have positive integer solutions",
+    "explain whether power sums equal another power for n greater than 2",
+    "Can x^3 + y^3 equal z^3 in positive whole numbers?",
+    "Why does Fermat's claim not fail for squares?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check exponent condition",
+     "explain": "Fermat's Last Theorem states that for integer exponent n greater than 2, the equation has no positive integer solutions"
+    },
+    {
+     "step": 2,
+     "action": "state conclusion",
+     "explain": "no positive integers x, y, z satisfy the relation for any power above 2"
+    },
+    {
+     "step": 3,
+     "action": "contrast with the case n equals 2",
+     "explain": "for n = 2, the Baudhayana-Pythagoras theorem provides infinitely many positive integer solutions (Pythagorean triples), which is why the claim only fails for n greater than 2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.7.1",
+   "title": "Lotus Problem: Finding Water Depth",
+   "section": "2.7",
+   "definition": "A bent stem over water forms a right-cornered triangle: depth and reach are the legs, the stem is the slant.",
+   "formula": "depth = (horizontal_dist ** 2 - stem_above ** 2) / (2 * stem_above)",
+   "key_idea": "The total stem length serves as the hypotenuse while water depth and displacement serve as perpendicular legs.",
+   "textbook_ref": "hegp202.txt lines 461-505",
+   "question_patterns": [
+    "a lotus flower is above water and swayed by breeze touches water away find the depth of the lake",
+    "calculate the depth of the lake given stem above water and horizontal distance",
+    "find water depth when plant tip emerges by and touches water at distance",
+    "Stem 1 above water, tip bends away 3 -- how deep?",
+    "A reed stands 0.5 above water and reaches 2.5 away -- find the depth."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the horizontal distance",
+     "explain": "compute the square of the distance from the original position",
+     "compute": "dist_sq = horizontal_dist ** 2"
+    },
+    {
+     "step": 2,
+     "action": "square the emerged height",
+     "explain": "compute the square of the height above water",
+     "compute": "above_sq = stem_above ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute depth",
+     "explain": "depth equals (dist_sq - above_sq) divided by (2 * stem_above)",
+     "compute": "depth = (dist_sq - above_sq) / (2 * stem_above)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.7.2",
+   "title": "Side Length of a Rhombus from Diagonals",
+   "section": "2.7",
+   "definition": "A rhombus's slanted measures cut at right corners through midpoints, so each side closes a half-half triangle.",
+   "formula": "side = sqrt((diag1 / 2) ** 2 + (diag2 / 2) ** 2)",
+   "key_idea": "Each side is the slant whose legs are the two half-measures.",
+   "textbook_ref": "hegp202.txt lines 510-530",
+   "question_patterns": [
+    "Frame a sidelength task like the chapter exercise and solve it with every step shown.",
+    "calculate the side of a rhombus with diagonals of length and",
+    "what is the perimeter or side of a rhombus given diagonal lengths",
+    "Rhombus slants 16 and 12 -- find one side.",
+    "Slanted measures 10 and 24 -- side length?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "halve both diagonals",
+     "explain": "find half of each diagonal length",
+     "compute": "half_d1 = diag1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve second diagonal",
+     "explain": "find half of the second diagonal",
+     "compute": "half_d2 = diag2 / 2"
+    },
+    {
+     "step": 3,
+     "action": "sum squares of semi-diagonals",
+     "explain": "calculate sum of squares of the half-diagonals",
+     "compute": "sum_sq = half_d1 ** 2 + half_d2 ** 2"
+    },
+    {
+     "step": 4,
+     "action": "extract square root",
+     "explain": "the side of the rhombus is the square root of the sum of squares",
+     "compute": "side = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.2.7.3",
+   "title": "Area of an Equilateral Triangle via Pythagoras Theorem",
+   "section": "2.7",
+   "definition": "Drop an upright from the apex: it splits the base, forming a right-cornered triangle that yields the height, then the area.",
+   "formula": "area = (1 / 2) * side * sqrt(side ** 2 - (side / 2) ** 2)",
+   "key_idea": "The upright serves as one leg; height follows, and half-base x height gives the area.",
+   "textbook_ref": "hegp202.txt lines 540-560",
+   "question_patterns": [
+    "Frame a equilateral task like the chapter exercise and solve it with every step shown.",
+    "calculate the altitude and area of an equilateral triangle of side",
+    "what is the area of an equilateral triangle having side length",
+    "Equilateral side 4 -- find height, then area.",
+    "Equilateral side 2 -- altitude and area?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute half side",
+     "explain": "the altitude bisects the base",
+     "compute": "half_side = side / 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate height",
+     "explain": "height is the square root of side squared minus half_side squared",
+     "compute": "height = sqrt(side ** 2 - half_side ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "compute area",
+     "explain": "area is half base times height",
+     "compute": "area = (1 / 2) * side * height"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp202.txt lines 166-177",
+   "concept": "hegp.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the hypotenuse of an isosceles right triangle whose equal sides have length {leg}.",
+   "extracted_variables": {
+    "leg": "length of each equal side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the leg length",
+     "explain": "find the square of one of the equal sides",
+     "compute": "leg_sq = leg ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute square of hypotenuse",
+     "explain": "hypotenuse squared is twice the square of the leg",
+     "compute": "hyp_sq = 2 * leg_sq"
+    },
+    {
+     "step": 3,
+     "action": "take square root",
+     "explain": "hypotenuse is the square root of double the leg squared",
+     "compute": "hypotenuse = sqrt(hyp_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp202.txt lines 178-190",
+   "concept": "hegp.2.3.2",
+   "question_type": "compute",
+   "question_pattern": "If the hypotenuse of an isosceles right triangle is {hypotenuse}, find its other two sides.",
+   "extracted_variables": {
+    "hypotenuse": "length of hypotenuse"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the hypotenuse",
+     "explain": "compute the square of the hypotenuse",
+     "compute": "hyp_sq = hypotenuse ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by two",
+     "explain": "the square of each equal leg is half the squared hypotenuse",
+     "compute": "leg_sq = hyp_sq / 2"
+    },
+    {
+     "step": 3,
+     "action": "take square root",
+     "explain": "extract the square root to get the leg length",
+     "compute": "leg = sqrt(leg_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp202.txt lines 265-280",
+   "concept": "hegp.2.4.1",
+   "question_type": "compute",
+   "question_pattern": "Make a right-angled triangle whose shorter sidelengths are {side_a} cm and {side_b} cm. Find the length of the hypotenuse.",
+   "extracted_variables": {
+    "side_a": "first shorter side",
+    "side_b": "second shorter side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the squares of the two legs",
+     "explain": "calculate side_a squared plus side_b squared",
+     "compute": "sum_sq = side_a ** 2 + side_b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "hypotenuse is the square root of the sum of squares",
+     "compute": "hypotenuse = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp202.txt lines 465-505",
+   "concept": "hegp.2.7.1",
+   "question_type": "compute",
+   "question_pattern": "In a lake, a lotus flower has the tip of its stem {stem_above} unit above the water. When swayed by breeze, it touches the water {horizontal_dist} units away. Find the depth of the lake.",
+   "extracted_variables": {
+    "stem_above": "height of tip above water",
+    "horizontal_dist": "horizontal displacement where tip touches water"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the horizontal distance",
+     "explain": "compute the square of the distance from original position",
+     "compute": "dist_sq = horizontal_dist ** 2"
+    },
+    {
+     "step": 2,
+     "action": "square the emerged height",
+     "explain": "compute the square of the height above water",
+     "compute": "above_sq = stem_above ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute depth",
+     "explain": "depth equals (dist_sq - above_sq) divided by (2 * stem_above)",
+     "compute": "depth = (dist_sq - above_sq) / (2 * stem_above)"
+    }
+   ]
+  },
+  {
+   "concept": "hegp.2.1",
+   "question_pattern": "Square of side {side} -- find the doubled square's area.",
+   "extracted_variables": {
+    "side": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the square",
+     "explain": "2 x 36 = 72",
+     "compute": "area_doubled = 2 * side ** 2"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.1",
+   "question_pattern": "Square of side {side} -- find the half square's area.",
+   "extracted_variables": {
+    "side": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the square",
+     "explain": "25 / 2 = 12.5",
+     "compute": "area_half = side ** 2 / 2"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.3.1",
+   "question_pattern": "Both legs measure {leg} -- how long is the slant?",
+   "extracted_variables": {
+    "leg": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the leg square, root it",
+     "explain": "sqrt(50) = 7.071",
+     "compute": "hypotenuse = sqrt(2 * leg ** 2)"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.3.2",
+   "question_pattern": "Slant {hypotenuse} -- find the equal legs.",
+   "extracted_variables": {
+    "hypotenuse": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the square, root it",
+     "explain": "sqrt(100/2) = 7.071",
+     "compute": "leg = sqrt(hypotenuse ** 2 / 2)"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.3.2",
+   "question_pattern": "Slant measures {hypotenuse} -- find each leg.",
+   "extracted_variables": {
+    "hypotenuse": "8.4852814"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the square, root it",
+     "explain": "sqrt(72/2) = 6",
+     "compute": "leg = sqrt(hypotenuse ** 2 / 2)"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.4.1",
+   "question_pattern": "Legs {a} and {b} -- find the slant.",
+   "extracted_variables": {
+    "a": "6",
+    "b": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square both legs",
+     "explain": "36 and 64",
+     "compute": "sq1 = side_a ** 2"
+    },
+    {
+     "step": 2,
+     "action": "add, then root",
+     "explain": "sqrt(100) = 10",
+     "compute": "hypotenuse = sqrt(side_a ** 2 + side_b ** 2)"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.4.1",
+   "question_pattern": "Short sides {a} and {b} -- how long the slant?",
+   "extracted_variables": {
+    "a": "5",
+    "b": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the squares, root it",
+     "explain": "sqrt(25 + 144) = 13",
+     "compute": "hypotenuse = sqrt(side_a ** 2 + side_b ** 2)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.4.2",
+   "question_pattern": "Slant {hypotenuse}, one leg {b} -- find the other.",
+   "extracted_variables": {
+    "hypotenuse": "13",
+    "b": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "difference of squares",
+     "explain": "169 - 25 = 144",
+     "compute": "diff = hypotenuse ** 2 - side_b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "root it",
+     "explain": "sqrt(144) = 12",
+     "compute": "side_a = sqrt(hypotenuse ** 2 - side_b ** 2)"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.4.2",
+   "question_pattern": "Slant {hypotenuse}, leg {b} -- the missing leg?",
+   "extracted_variables": {
+    "hypotenuse": "10",
+    "b": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "difference of squares",
+     "explain": "100 - 36 = 64",
+     "compute": "diff = hypotenuse ** 2 - side_b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "root it",
+     "explain": "sqrt(64) = 8",
+     "compute": "side_a = sqrt(hypotenuse ** 2 - side_b ** 2)"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.5.1",
+   "question_pattern": "Stretch 3-4-{c} by {k}.",
+   "extracted_variables": {
+    "c": "5",
+    "k": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the slant",
+     "explain": "5 x 4 = 20",
+     "compute": "scaled_c = scale_k * hypotenuse"
+    },
+    {
+     "step": 2,
+     "action": "scale the legs too",
+     "explain": "12 and 16",
+     "compute": "scaled_a = 3 * scale_k"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.5.2",
+   "question_pattern": "Build a triple from odd square {os}.",
+   "extracted_variables": {
+    "os": "81"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "slant is one more than half",
+     "explain": "(81 + 1)/2 = 41",
+     "compute": "hypotenuse = (odd_square + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "long leg is one less",
+     "explain": "40",
+     "compute": "long_leg = hypotenuse - 1"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.5.2",
+   "question_pattern": "Use odd square {os} to form a triple.",
+   "extracted_variables": {
+    "os": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "slant is one more than half",
+     "explain": "(25 + 1)/2 = 13",
+     "compute": "hypotenuse = (odd_square + 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "long leg is one less",
+     "explain": "12",
+     "compute": "long_leg = hypotenuse - 1"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.1",
+   "question_pattern": "Stem {stem_above} above water, tip bends away {horizontal_dist} -- how deep?",
+   "extracted_variables": {
+    "stem_above": "1",
+    "horizontal_dist": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the reach",
+     "explain": "9 - 1 = 8",
+     "compute": "num = horizontal_dist ** 2 - stem_above ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve over the stem",
+     "explain": "8 / 2 = 4",
+     "compute": "depth = (horizontal_dist ** 2 - stem_above ** 2) / (2 * stem_above)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.1",
+   "question_pattern": "A reed stands {stem_above} above water and reaches {horizontal_dist} away -- depth?",
+   "extracted_variables": {
+    "stem_above": "0.5",
+    "horizontal_dist": "2.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the reach",
+     "explain": "6.25 - 0.25 = 6",
+     "compute": "num = horizontal_dist ** 2 - stem_above ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve over the stem",
+     "explain": "6 / 1 = 6",
+     "compute": "depth = (horizontal_dist ** 2 - stem_above ** 2) / (2 * stem_above)"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.2",
+   "question_pattern": "Rhombus slants {d1} and {d2} -- find one side.",
+   "extracted_variables": {
+    "d1": "16",
+    "d2": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve both slants",
+     "explain": "8 and 6",
+     "compute": "h1 = d1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "slant of the half-triangle",
+     "explain": "sqrt(64 + 36) = 10",
+     "compute": "side = sqrt((d1 / 2) ** 2 + (d2 / 2) ** 2)"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.3",
+   "question_pattern": "Equilateral side {side} -- find height, then area.",
+   "extracted_variables": {
+    "side": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "upright from half the base",
+     "explain": "sqrt(16 - 4) = 3.464",
+     "compute": "height = sqrt(side ** 2 - (side / 2) ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "half base x height",
+     "explain": "0.5 x 4 x 3.464 = 6.928",
+     "compute": "area = (1 / 2) * side * height"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.5.1",
+   "question_pattern": "Stretch 5-12-{c} by {k}.",
+   "extracted_variables": {
+    "c": "13",
+    "k": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the slant",
+     "explain": "13 x 3 = 39",
+     "compute": "scaled_c = scale_k * hypotenuse"
+    },
+    {
+     "step": 2,
+     "action": "scale the legs too",
+     "explain": "15 and 36",
+     "compute": "scaled_a = 5 * scale_k"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.2",
+   "question_pattern": "Slanted measures {d1} and {d2} -- side length?",
+   "extracted_variables": {
+    "d1": "10",
+    "d2": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve both slants",
+     "explain": "5 and 12",
+     "compute": "h1 = d1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "slant of the half-triangle",
+     "explain": "sqrt(25 + 144) = 13",
+     "compute": "side = sqrt((d1 / 2) ** 2 + (d2 / 2) ** 2)"
+    }
+   ],
+   "id": "ex22",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.2.7.3",
+   "question_pattern": "Equilateral side {side} -- altitude and area?",
+   "extracted_variables": {
+    "side": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "upright from half the base",
+     "explain": "sqrt(4 - 1) = 1.732",
+     "compute": "height = sqrt(side ** 2 - (side / 2) ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "half base x height",
+     "explain": "0.5 x 2 x 1.732 = 1.732",
+     "compute": "area = (1 / 2) * side * height"
+    }
+   ],
+   "id": "ex23",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hegp202.txt lines 145-160",
+   "questions": [
+    "The length of the two equal sides of an isosceles right triangle is 3. Find the hypotenuse.",
+    "The length of the two equal sides of an isosceles right triangle is 4. Find the hypotenuse.",
+    "The length of the two equal sides of an isosceles right triangle is 6. Find the hypotenuse.",
+    "The length of the two equal sides of an isosceles right triangle is 8. Find the hypotenuse.",
+    "The length of the two equal sides of an isosceles right triangle is 9. Find the hypotenuse.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about sidelengths."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hegp202.txt lines 280-310",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about hypotenuse.",
+    "Answer the exercise task on hypotenuse using your own phrasing.",
+    "Find the missing sidelength when a = 5, b = 7.",
+    "Find the missing sidelength when a = 8, b = 12.",
+    "Find the missing sidelength when a = 9, c = 15.",
+    "Find the missing sidelength when a = 7, b = 12.",
+    "Find the missing sidelength when a = 1.5, b = 3.5."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "hegp202.txt lines 405-420",
+   "questions": [
+    "Find 5 more Baudhayana triples using the odd square method.",
+    "Does this method yield non-primitive Baudhayana triples?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about primitive."
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "hegp202.txt lines 506-560",
+   "questions": [
+    "Build a fresh sidelength example with your own figures and work it out.",
+    "Find the missing sidelengths in right triangles with legs 7 and 9.",
+    "Find the missing sidelengths in right triangles with legs 4 and 10.",
+    "Find the missing sidelengths in right triangles with leg 40 and hypotenuse 41.",
+    "Find the missing sidelengths in right triangles with leg 27 and hypotenuse 45.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about sidelength.",
+    "Respond to this task about hypotenuse without copying the book's wording.",
+    "True or False: Every Baudhayana triple is either a primitive triple or a scaled version of a primitive triple.",
+    "Give one example connected with sidelengths and justify your choice.",
+    "Build a fresh equilateral example with your own figures and work it out."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

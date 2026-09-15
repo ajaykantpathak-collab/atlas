@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_004",
+   "title": "c10_eco_cbse_01_004",
+   "questions": [
+    {
+     "q": "Define Per Capita Income of a state and write the formula used to calculate it.",
+     "a": "Per Capita Income (PCI) of a state = Net State Domestic Product (NSDP) of the state ÷ Total Population of the state. Unit: Rupees per person per year. A wrong answer (e.g., using GDP instead of NSDP, or dividing population by income) reveals the student confuses national vs state aggregates or inverts the ratio, a common error in board exams when rushing.",
+     "self_check": true
+    },
+    {
+     "q": "State A has NSDP of ₹12 lakh crore and population 8 crore. State B has NSDP of ₹4 lakh crore and population 1 crore. Which state has higher Per Capita Income? Explain why total NSDP alone cannot determine this.",
+     "a": "State A PCI = ₹12,00,000 crore / 8 crore = ₹1,50,000. State B PCI = ₹4,00,000 crore / 1 crore = ₹4,00,000. State B has higher PCI despite lower total NSDP. A wrong answer (choosing State A) shows the student equates larger total income with higher average income, ignoring the population denominator — the exact trap CBSE sets in comparison questions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Per Capita Income of a state with NSDP ₹9,50,000 crore and population 19 crore. If the population grows by 2% next year while NSDP grows by 5%, what will be the new PCI? (Round to nearest rupee.)",
+     "a": "Step 1: Current PCI = 9,50,000 / 19 = ₹50,000.\nStep 2: New NSDP = 9,50,000 × 1.05 = 9,97,500 crore.\nStep 3: New Population = 19 × 1.02 = 19.38 crore.\nStep 4: New PCI = 9,97,500 / 19.38 ≈ ₹51,470.\nA wrong answer (e.g., adding percentages) reveals the student treats PCI growth as sum of growth rates, not understanding PCI = NSDP/Pop requires recomputation.",
+     "self_check": true
+    },
+    {
+     "q": "Two states have the same Per Capita Income of ₹1,00,000. State X has high inequality (top 10% earn 50% of income); State Y has low inequality. Can PCI alone tell us which state's *typical* citizen is better off? Why or why not?",
+     "a": "No. PCI is a mean average; it hides distribution. In State X, the median income (typical citizen) could be far below ₹1,00,000 due to concentration at the top. In State Y, median is closer to the mean. A wrong answer (\"yes, PCI is same so well-being is same\") shows the student doesn't grasp that PCI ignores inequality — a key limitation CBSE tests in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Goa has higher Per Capita Income than Kerala, so Goa is more developed.\" Evaluate this statement using the concept of development you have studied.",
+     "a": "The statement is incomplete. Development includes health, education, and public facilities (literacy, IMR, life expectancy) — not just income. Kerala has lower PCI but higher HDI due to better social indicators. A wrong answer (agreeing solely on PCI) reveals the student treats income as the only development goal, contradicting the multi-dimensional view taught in this chapter (nodes 001, 002, 005).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step method for a student to compare the economic development of any two Indian states using only government-published data (NSO, RBI, Census). Specify the exact data points needed and the calculation.",
+     "a": "Step 1: Obtain latest NSDP (at current prices) for both states from RBI's \"State-wise GDP\" tables.\nStep 2: Obtain latest population estimates for both states from Census/NSO projections.\nStep 3: Calculate PCI = NSDP / Population for each; rank states by PCI. Also note year of data for comparability.\nA poor answer (vague steps, missing data sources, or using GDP instead of NSDP) shows the student cannot operationalise the concept with real Indian data sources — a skill CBSE expects in competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

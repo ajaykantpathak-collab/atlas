@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_5",
+   "title": "c9_chem_ch2_5",
+   "questions": [
+    {
+     "q": "Define atomic number and mass number. Write the nuclear notation for an atom with 11 protons and 12 neutrons.",
+     "a": "Atomic number (Z) = number of protons = 11. Mass number (A) = protons + neutrons = 11 + 12 = 23. Notation: ^23_11 Na. A wrong answer (e.g., swapping Z and A, or writing ^11_23 Na) reveals confusion about which number represents protons versus total nucleons, or misunderstanding the subscript/superscript convention.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the atomic number determine the identity of an element, but the mass number does not? Use the terms \"protons\" and \"neutrons\" in your explanation.",
+     "a": "Atomic number equals the number of protons, and the number of protons defines which element it is (e.g., 6 protons is always carbon). Mass number includes neutrons, which can vary without changing the element (creating isotopes). A wrong answer that says \"mass number also identifies the element\" or \"neutrons determine the element\" shows the student has not grasped that protons are the defining property of an element.",
+     "self_check": true
+    },
+    {
+     "q": "An ion has 18 electrons, 16 protons, and 16 neutrons. Write its complete nuclear notation including charge.",
+     "a": "Step 1: Atomic number Z = number of protons = 16 → element is Sulfur (S). Step 2: Mass number A = protons + neutrons = 16 + 16 = 32. Step 3: Charge = protons − electrons = 16 − 18 = −2. Step 4: Notation: ^32_16 S^2−. A wrong answer (e.g., using electron count for Z, or forgetting the charge) reveals the student cannot distinguish between neutral atoms and ions, or misapplies the proton/electron balance.",
+     "self_check": true
+    },
+    {
+     "q": "Two atoms are represented as ^35_17 X and ^37_17 Y. (a) Are X and Y the same element? (b) What is the relationship between them? (c) How many neutrons does each have?",
+     "a": "(a) Yes, both have Z = 17, so they are the same element (Chlorine). (b) They are isotopes — same atomic number, different mass numbers. (c) Neutrons in ^35_17 X = 35 − 17 = 18; neutrons in ^37_17 Y = 37 − 17 = 20. A wrong answer (e.g., saying they are different elements, or calculating neutrons as 17−35) shows confusion between Z and A, or inability to apply A = Z + n.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the symbol for a magnesium atom as ^12_24 Mg. Identify the error and write the correct notation for the most common magnesium isotope (12 protons, 12 neutrons).",
+     "a": "The student swapped the subscript and superscript: the subscript (bottom) must be atomic number Z = 12, the superscript (top) must be mass number A = 24. Correct notation: ^24_12 Mg. A wrong answer that only says \"it's wrong\" without specifying the swap, or writes ^12_24 Mg again, reveals the student has memorised the notation positions without understanding Z represents protons and A represents total nucleons.",
+     "self_check": true
+    },
+    {
+     "q": "Create an analogy using a real-life Indian context (e.g., Aadhaar card, vehicle registration, school roll number) to explain the difference between atomic number and mass number to a Class 8 student. Your analogy must distinguish \"identity\" from \"variable weight\".",
+     "a": "Good answer example: \"Atomic number is like your Aadhaar number — unique, permanent, defines who you are. Mass number is like your total weight (body + backpack) — it can change if you add/remove items (neutrons) but your Aadhaar (protons) stays the same.\" A poor answer that uses only \"roll number\" for both, or says mass number is also fixed, shows the student cannot conceptually separate the defining property (protons) from the variable property (neutrons).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch03_018",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch03_018",
+   "title": "c6_geography_ch03_018",
+   "questions": [
+    {
+     "q": "What are the two main climatic conditions required for growing rice?",
+     "a": "Rice requires heavy rainfall (over 100 cm annually) and warm temperatures. A wrong answer suggests the student is confusing rice with dry-climate crops like millets, indicating they haven't associated \"monsoon-fed\" regions with high water needs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is wheat primarily grown in the Northern Plains of India during the 'rabi' season?",
+     "a": "Wheat needs moderate rainfall and cool weather during its growth, which matches the winter climate of Northern India. If a student says \"because it is hot,\" they are incorrectly applying the requirements for summer crops to a winter crop.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer in a region with very low rainfall and high heat wants to plant a crop, why might they struggle to grow wheat?",
+     "a": "Wheat needs moderate rainfall (50-75 cm); a dry region cannot provide this without extra help, and the heat would stress the plant during its required cool growing phase. An incorrect answer shows the student does not yet grasp that crops have specific \"limits\" for heat and water.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climate needs of rice and wheat. How do their different requirements shape the map of Indian agriculture?",
+     "a": "Rice needs high heat/rain (tropics/monsoon areas), while wheat needs cool, moderate conditions (temperate/winter areas). A wrong answer suggests the student sees all crops as interchangeable, failing to see the spatial pattern created by climate diversity.",
+     "self_check": true
+    },
+    {
+     "q": "\"Climate decides the menu for a region.\" Defend this statement using the examples of rice and wheat.",
+     "a": "This is true because the physical environment physically limits what seeds can germinate and grow; you cannot force a tropical plant to survive a freezing winter or a cool-weather plant to thrive in a scorching, water-starved desert. If a student disagrees, they likely don't understand the biological dependence of plants on their environment.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a new region in India that experiences 120 cm of rain and warm summers. Which crop would you suggest to a local farmer and why?",
+     "a": "I would suggest rice because its requirement for high rainfall (over 100 cm) and warmth aligns perfectly with the regional climate. A poor answer would choose wheat, showing the student didn't check the rainfall thresholds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

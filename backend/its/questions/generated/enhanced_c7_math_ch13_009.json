@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_009",
+   "title": "c7_math_ch13_009",
+   "questions": [
+    {
+     "q": "What term describes a single value that represents or summarises an entire set of data by pointing to its central tendency?",
+     "a": "The correct answer is a representative value or measure of central tendency (such as the mean, median, or mode). Students who answer \"data set\" or \"frequency\" confuse the entire collection of numbers with the specific summary statistic used to describe its centre.",
+     "self_check": true
+    },
+    {
+     "q": "If the mean test score of a class of 30 students is 45, and another class of 20 students has a mean test score of 50, why is it incorrect to say that the overall mean score for all 50 students is simply (45 + 50) / 2?",
+     "a": "The correct answer is that the classes have different numbers of students, so their weights in the overall average are unequal. Students who get this wrong usually think averages can be averaged directly, ignoring the fact that the total sum of scores must be found by multiplying each mean by its respective group size before dividing by the total number of students (50).",
+     "self_check": true
+    },
+    {
+     "q": "A school canteen sold the following numbers of samosas over 5 days: 35, 42, 35, 50, 38. Calculate the mean daily sale of samosas.",
+     "a": "The correct answer is 40 samosas. \nSteps: \n1. Sum all values: 35 + 42 + 35 + 50 + 38 = 200. \n2. Count the number of days: n = 5. \n3. Divide the sum by the count: Mean = 200 / 5 = 40. \nStudents who miscalculate often miscount the number of data points or make an arithmetic error in addition, yielding values like 38 or 41.",
+     "self_check": true
+    },
+    {
+     "q": "Two different cricket players have the exact same mean score of 40 runs across 5 innings. Player A's scores are [38, 40, 42, 39, 41] while Player B's scores are [5, 10, 40, 65, 80]. How can an analyst determine which player is more reliable despite identical means?",
+     "a": "The correct answer is by examining the spread or range of the data. Player A's scores are tightly clustered around the mean (range = 42 - 38 = 4), showing high consistency, whereas Player B's scores vary wildly (range = 80 - 5 = 75), indicating unreliability. Students who focus only on the mean will incorrectly conclude that both players are equally good choices.",
+     "self_check": true
+    },
+    {
+     "q": "An investigator claims that because the mode of shoe sizes sold in a shop is size 6, more than half of all customers wear size 6. Evaluate this claim and explain why it is potentially flawed.",
+     "a": "The claim is false because the mode only represents the single most frequently sold size, not the total sum or majority of all sales combined. Students who agree with the claim confuse the mode (most frequent item) with a majority percentage (more than 50% of the absolute total).",
+     "self_check": true
+    },
+    {
+     "q": "Design a small data set of 5 daily pocket money amounts (in rupees) where the mean is 50 rupees, the median is 50 rupees, but the mode is 40 rupees.",
+     "a": "A valid data set is {40, 40, 50, 60, 60}, where the sum is 250 (mean = 50), the middle value is 50, and 40 appears twice as the most frequent value. A poor answer fails to satisfy all three statistical conditions simultaneously, often resulting in a mean or median that does not match 50.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

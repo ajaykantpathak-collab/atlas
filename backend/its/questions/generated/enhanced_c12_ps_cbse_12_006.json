@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_12_006",
+   "title": "c12_ps_cbse_12_006",
+   "questions": [
+    {
+     "q": "Under which Article of the Constitution was the 1975 Emergency proclaimed, and on what specific ground?",
+     "a": "Article 352, on the ground of \"internal disturbance\" (as it stood before the 44th Amendment changed it to \"armed rebellion\"). A wrong answer (e.g., Article 356 or \"war/external aggression\") reveals confusion between National Emergency (Art 352), President's Rule (Art 356), and Financial Emergency (Art 360) — or ignorance that \"internal disturbance\" was the pre-1978 wording.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Allahabad High Court verdict of 12 June 1975 (State of Uttar Pradesh v. Raj Narain) trigger the Emergency declaration? Explain the constitutional and political chain.",
+     "a": "The verdict unseated Indira Gandhi from Lok Sabha for electoral malpractice (misuse of government officials), giving her 20 days to appeal. Politically, it destroyed her moral authority; legally, she remained PM only via a conditional Supreme Court stay (24 June) that barred her from voting in Parliament. JP Narayan's 25 June call for police/army to disobey \"immoral orders\" created a \"law and order\" pretext. A wrong answer focusing only on \"JP Movement\" or \"opposition protests\" misses the specific legal trigger: the PM's personal electoral survival was at stake, making \"internal disturbance\" a convenient constitutional cover.",
+     "self_check": true
+    },
+    {
+     "q": "During the Emergency, which Fundamental Rights were automatically suspended under Article 358, and which required a separate Presidential order under Article 359? Give one example of how each was used.",
+     "a": "Article 358 automatically suspended all Article 19 freedoms (speech, assembly, association, movement, residence, profession) — used to impose press censorship and ban strikes. Article 359(1) allowed the President to suspend the right to move courts for enforcement of other FRs (notably Article 21 — life/liberty) — used to detain thousands under MISA without habeas corpus. A wrong answer (e.g., \"all FRs suspended automatically\") confuses the two-tier mechanism and misses that Art 20-21 could only be suspended by specific order.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Supreme Court's judgment in ADM Jabalpur v. Shivkant Shukla (1976) — the \"Habeas Corpus case.\" What did the majority hold, and why is it considered a low point for judicial independence?",
+     "a": "The 4:1 majority (Khanna J. dissenting) held that during Emergency, no person has locus standi to move any court for habeas corpus or any writ under Art 226 because Art 21 (right to life/liberty) was suspended by Presidential order under Art 359 — meaning the state could detain anyone without judicial review. It is a low point because the Court surrendered its constitutional duty to protect liberty, accepting the executive's claim that \"law\" during Emergency is whatever the executive says. A wrong answer praising the judgment or missing Khanna's dissent shows failure to grasp the separation-of-powers collapse.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The 1975 Emergency was constitutionally valid because it followed Article 352 procedure — the President acted on Cabinet advice.\" Is this sufficient for constitutional legitimacy?",
+     "a": "No. Constitutional validity requires both procedural compliance AND substantive constitutionalism. The 44th Amendment (1978) later recognized this by: (a) replacing \"internal disturbance\" with \"armed rebellion\", (b) requiring written Cabinet advice (not just PM's oral word), (c) mandating Parliamentary approval within 1 month (not 2 months), (d) limiting suspension of Art 20-21. The 1975 declaration failed substantive tests: \"internal disturbance\" was vague, Cabinet wasn't formally consulted (only PM's inner circle), and the purpose was political survival not national crisis. A wrong answer equating procedural formality with legitimacy misses the basic structure doctrine (Kesavananda Bharati, c11_ps_cbse_18_004).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional safeguard (as if for the 44th Amendment) that would prevent a future PM from misusing Article 352 for personal political survival. Your draft must address: (a) definition of emergency ground, (b) decision-making process, (c) judicial review, (d) duration/approval.",
+     "a": "Sample: \"Article 352 shall be amended to provide that: (a) 'internal disturbance' is replaced by 'armed rebellion' threatening national security; (b) Proclamation requires written advice of the Union Cabinet (not just PM), recorded with reasons; (c) Proclamation is subject to judicial review on grounds of mala fides or irrelevance; (d) Parliamentary approval by special majority within 30 days, failing which it lapses; (e) Art 20-21 cannot be suspended; (f) Art 19 suspension only for duration of Proclamation and only for laws related to the emergency.\" A poor answer omits any of these four pillars or suggests non-constitutional fixes (e.g., \"PM should be honest\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

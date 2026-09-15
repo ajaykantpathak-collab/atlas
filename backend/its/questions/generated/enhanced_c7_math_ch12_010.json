@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_010",
+   "title": "c7_math_ch12_010",
+   "questions": [
+    {
+     "q": "Rahul multiplies 14.2 by 3.8 and gets 539.6. Without doing the exact long multiplication, state whether this answer is reasonable and explain why by recalling estimation rules.",
+     "a": "The answer is completely unreasonable. A student choosing \"reasonable\" likely forgot how to estimate products and simply guessed based on the large digits. To check, round 14.2 to 14 (or 10) and 3.8 to 4, giving roughly $14 \\times 4 = 56$ (or $10 \\times 4 = 40$). Since 539.6 is nearly ten times larger than 56, a decimal point error has clearly occurred.",
+     "self_check": true
+    },
+    {
+     "q": "Priya divides 45.6 by 1.2 and her calculator shows 3.8. She thinks this is correct because both numbers decreased in size. Explain why her reasoning reveals a fundamental misunderstanding of decimal division.",
+     "a": "Priya's reasoning is incorrect because dividing a number by a divisor less than 10 (and specifically a decimal close to 1) does not always make the quotient smaller than both inputs; dividing 45.6 by 1.2 means asking \"how many 1.2s fit into 45.6?\", which is roughly $45 \\div 1 = 45$. A student who believes 3.8 is correct does not understand that dividing by a number slightly greater than 1 yields a result close to the original dividend, so the true answer is 38, not 3.8.",
+     "self_check": true
+    },
+    {
+     "q": "Sneha bought 6.2 metres of ribbon for ₹15.75 per metre. She calculated the total cost as ₹9.765. Use estimation to find the correct decimal placement for the product of 6.2 and 15.75.",
+     "a": "Step 1: Round the factors to nearby whole numbers for estimation: 6.2 rounds to 6, and 15.75 rounds to 16.\nStep 2: Calculate the estimated product: $6 \\times 16 = 96$.\nStep 3: Perform the exact multiplication ignoring decimals: $62 \\times 1575 = 97650$.\nStep 4: Use the estimate (96) to place the decimal point in 97650, yielding ₹97.65.\nSneha's answer of ₹9.765 is unreasonable because it is smaller than the cost of even a single metre of ribbon (₹15.75), exposing an error where she miscounted decimal places.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two calculations: Calculation A ($12.5 \\times 0.4 = 5.0$) and Calculation B ($12.5 \\div 0.4 = 31.25$). Compare the magnitude of the results relative to 12.5 and explain the mathematical rule that governs why multiplying by a number less than 1 decreases a value, while dividing by that same number increases it.",
+     "a": "In Calculation A, multiplying 12.5 by 0.4 (which is $\\frac{2}{5}$) takes a fraction of the number, resulting in 5.0, which is smaller than 12.5. In Calculation B, dividing 12.5 by 0.4 asks how many groups of 0.4 fit into 12.5, yielding 31.25, which is larger than 12.5 because you are partitioning the whole into smaller fractional parts. A student who confuses these rules will mistakenly expect division by a decimal to always yield a smaller number.",
+     "self_check": true
+    },
+    {
+     "q": "A runner covers a track of length 4.85 km in 0.25 hours. Amit calculates the average speed as 1.2125 km/h. Evaluate whether this speed is reasonable by estimating the division of 5 by $\\frac{1}{4}$, and identify the exact error in Amit's computation.",
+     "a": "Amit's speed is completely unreasonable. If a runner covers nearly 5 km in a quarter of an hour (0.25 hr), in a full hour they would cover nearly $5 \\times 4 = 20$ km, meaning the speed should be around 20 km/h, not 1.2125 km/h. Amit's error was multiplying $4.85 \\times 0.25$ instead of dividing $4.85 \\div 0.25$, confusing speed-distance-time relationships with decimal multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world shopping word problem involving three items with decimal prices (in rupees) and quantities (in kilograms or litres) where a common decimal-placement mistake would yield a totally unreasonable total bill. Explain how estimation prevents falling for this error.",
+     "a": "A good problem: \"Amit buys 2.5 kg of apples at ₹120.50 per kg, 1.5 kg of grapes at ₹90.25 per kg, and 3.0 litres of milk at ₹48.75 per litre. If a careless student computes the total bill as ₹64.44 by misplacing decimal points during addition and multiplication, estimation saves the day.\" By estimating: apples are about $2.5 \\times 120 = 300$, grapes are $1.5 \\times 90 = 135$, milk is $3 \\times 50 = 150$, giving an estimated total of $300 + 135 + 150 = ₹585$. A poor answer would fail to provide realistic numbers or omit the comparison between the exact sum and the estimated range.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

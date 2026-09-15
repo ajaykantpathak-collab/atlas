@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_3",
+   "title": "c8_math_ch4_3",
+   "questions": [
+    {
+     "q": "State the theorem about diagonals of a rectangle and name the congruence criterion used to prove it.",
+     "a": "The theorem: In a rectangle, the diagonals are equal in length. The congruence criterion used is SAS (Side-Angle-Side) or RHS (Right angle-Hypotenuse-Side). A wrong answer like \"SSS\" or \"ASA\" reveals the student cannot identify which pairs of sides/angles are actually equal in the rectangle's triangles. They may be recalling criteria randomly without mapping them to the rectangle's properties.",
+     "self_check": true
+    },
+    {
+     "q": "In rectangle PQRS with diagonals PR and QS, a student claims ΔPQR ≅ ΔQPS by SAS. Is this correct? Explain why or why not by listing the three pairs of equal parts.",
+     "a": "Yes, it is correct. The three pairs are: PQ = QP (common side), ∠PQR = ∠QPS = 90° (rectangle angles), and QR = PS (opposite sides of rectangle). A wrong answer reveals the student cannot correctly identify corresponding vertices in the congruence statement. They may mismatch vertices (e.g., claiming ∠PQR = ∠PSQ) or forget that the common side must be named in the same order in both triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Rectangle ABCD has AB = 12 cm and BC = 5 cm. Diagonals AC and BD intersect at O. Find the length of AO. Show your steps using the diagonal equality property.",
+     "a": "Step 1: In rectangle ABCD, diagonals AC and BD are equal (proven theorem). Step 2: Use Pythagoras theorem in right triangle ABC: AC² = AB² + BC² = 12² + 5² = 144 + 25 = 169. Step 3: AC = √169 = 13 cm. Step 4: Diagonals of a rectangle bisect each other (property from c8_math_ch4_4), so AO = ½ AC = 6.5 cm. A wrong answer like 13 cm reveals the student forgot that O is the midpoint. An answer using 12 or 5 directly reveals confusion between side lengths and diagonal length.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proof that diagonals of a rectangle are equal with the proof that diagonals of a parallelogram are NOT necessarily equal. What specific rectangle property makes the proof work for rectangles but fails for general parallelograms?",
+     "a": "The proof uses the fact that all angles of a rectangle are 90° (right angles). In the SAS congruence, we need the included angle between the two equal sides to be equal. In a rectangle, ∠ABC = ∠DCB = 90°. In a general parallelogram, adjacent angles are not necessarily equal (they are supplementary), so the included angles in the two triangles are not equal, and SAS fails. A wrong answer focusing only on \"opposite sides are equal\" misses that parallelograms also have equal opposite sides. The critical difference is the right angle property.",
+     "self_check": true
+    },
+    {
+     "q": "A student proves ΔABD ≅ ΔDCA in rectangle ABCD to show AC = BD. They write: AB = DC (opposite sides), AD = AD (common), ∠BAD = ∠ADC = 90°. They conclude AC = BD by CPCT. Evaluate this proof. Is it valid? If not, identify the error.",
+     "a": "The proof is INVALID. The error is in the vertex correspondence: ΔABD and ΔDCA do not have AC and BD as corresponding sides. In ΔABD, the side opposite ∠BAD is BD. In ΔDCA, the side opposite ∠ADC is AC. For CPCT to give AC = BD, these must be corresponding sides, but the congruence statement ΔABD ≅ ΔDCA maps A↔D, B↔C, D↔A, making BD correspond to CA (which is AC) — actually this works if the order is correct. Wait: ΔABD ≅ ΔDCA means A↔D, B↔C, D↔A. Then side BD (vertices 2-3) corresponds to side CA (vertices 2-3), so BD = CA, i.e., BD = AC. The proof IS valid with correct correspondence. A student who says \"invalid\" without checking correspondence reveals they don't understand how vertex order in congruence statements determines corresponding parts. The key is verifying the mapping matches the sides we want to prove equal.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where a carpenter needs to verify a rectangular frame has equal diagonals without a measuring tape long enough to reach across. Describe the geometric reasoning they would use.",
+     "a": "Problem: A carpenter builds a rectangular door frame 210 cm tall and 90 cm wide. Their measuring tape is only 150 cm long, too short to measure the diagonal directly. They can verify the frame is rectangular by measuring both diagonals with a string: cut a string to match diagonal AC, then check if it exactly matches diagonal BD. If equal, the frame is rectangular (converse of the theorem). Geometric reasoning: In a quadrilateral, if diagonals are equal AND it has right angles (checked with a carpenter's square), it must be a rectangle. A poor answer would just say \"measure the sides\" without using the diagonal property, or would not explain why equal diagonals + right angles guarantees a rectangle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

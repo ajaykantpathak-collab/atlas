@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_07_012",
+   "title": "c12_eng_k_cbse_07_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"According to the poem 'On Time,' what does Time's 'womb' devour?\"",
+     "a": "This is a **literal** comprehension question. The answer is explicitly stated in lines 5-6: \"what thy womb devours, / Which is no more than what is false and vain, / And merely mortal dross.\" A student who labels this inferential confuses \"quoting the text\" with \"interpreting the text\" — they may think any question requiring a sentence-length answer is inferential. The distinction: literal questions have answers directly visible in the text; inferential questions require connecting clues.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what the \"heavy Plummets pace\" refers to in \"On Time,\" and why Milton uses this image to describe the hours.",
+     "a": "The \"heavy Plummets pace\" refers to the slow, regulated ticking of a clock driven by a lead weight (plummet). Milton uses this image to emphasize Time's sluggish, mechanical movement — contrasting with the speaker's desire for Time to \"Fly\" and \"run out thy race.\" A wrong answer (e.g., \"it means time moves fast\") reveals the student missed the word \"heavy\" and the clock mechanism imagery, and failed to connect the image to the poem's central tension: Time feels slow in suffering but ultimately runs out.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to an inferential question: \"Milton says Shakespeare doesn't need a monument because he is famous.\" The question was: \"Why does Milton feel it is not necessary to put up a monument in stone for Shakespeare?\" Identify the error and rewrite the answer correctly using textual evidence.",
+     "a": "**Error:** The answer states a general fact (Shakespeare is famous) but misses Milton's specific argument: Shakespeare's *works themselves* are his living monument. **Correct answer:** Milton argues that Shakespeare's \"easie numbers flow\" from \"thy unvalu'd Book\" and impress \"Delphic lines with deep impression\" on readers' hearts, making them \"Marble with too much conceaving\" — thus readers' minds become his living monument (\"live-long Monument\"), far surpassing stone. The student's version fails because it doesn't use the poem's central metaphor (readers as monument) or quote the key phrases \"live-long Monument\" / \"Sepulcher'd in such pomp.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two poems: In \"On Time,\" Time is the antagonist; in \"On Shakespeare,\" what role does Time play, and how does Milton's attitude toward Time differ between the poems? Support with one phrase from each poem.",
+     "a": "In \"On Time,\" Time is an \"envious\" destroyer to be defeated (\"Triumphing over Death, and Chance, and thee O Time\"). In \"On Shakespeare,\" Time is implicitly the force that erodes stone monuments (\"slow endeavouring art,\" \"piled Stones\"), but Shakespeare's poetry transcends it — his \"easie numbers flow\" despite \"the shame of slow endeavouring art.\" The difference: \"On Time\" portrays Time as an active enemy to be personally overcome in eternity; \"On Shakespeare\" shows Time as a passive eroder of physical memorials, defeated by the *living* monument of poetic influence. A weak answer would say \"Time is bad in both\" — missing the shift from cosmic enemy to background threat neutralized by art.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The note about Cronos devouring his children is just background information; it's not needed to answer questions about 'On Time.'\" Defend or refute using the poem's text.",
+     "a": "**Refute.** The Cronos note is essential for inferential questions. The poem calls Time \"envious\" (line 1) and says it \"devours\" (line 6) — the mythological allusion explains *why* Time is characterised this way. Without the note, a student might think \"envious\" means Time wants what humans have; the note clarifies Time *consumes* life itself, like Cronos consuming his children. This directly supports the inference that Time's \"gain\" is \"little\" because it only gets \"mortal dross\" — the note transforms a vague adjective into a precise mythological parallel. A student who ignores the note cannot fully explain the central metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 2-sentence inferential answer to: \"What does Milton mean by 'Thou in our wonder and astonishment / Hast built thy self a live-long Monument' in 'On Shakespeare'?\" Use the PEE structure implicitly.",
+     "a": "Milton means Shakespeare's true monument is not stone but the lasting wonder his poetry inspires in readers' minds (\"our wonder and astonishment\"), which becomes a \"live-long Monument\" because each generation rediscover his \"Delphic lines.\" Unlike physical tombs that Time erodes, this mental monument grows as long as humans read and feel astonishment — making Shakespeare \"Sepulcher'd in such pomp\" that \"Kings for such a Tomb would wish to die.\" A poor answer would paraphrase without the key contrast (stone vs. living mental monument) or miss the irony that readers become the \"Marble\" tomb.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

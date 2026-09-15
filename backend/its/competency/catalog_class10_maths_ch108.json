@@ -1,0 +1,511 @@
+{
+ "chapter": 108,
+ "class": 10,
+ "subject": "maths",
+ "chapter_number": 8,
+ "concepts": [
+  {
+   "id": "jemh.8.1",
+   "title": "Trigonometric Ratios Definition",
+   "section": "8.1",
+   "definition": "For a right-angled triangle, the trigonometric ratios of an acute angle are the ratios of the lengths of two sides. The six ratios are sine, cosine, tangent, cosecant, secant, and cotangent.",
+   "formula": "sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent",
+   "key_idea": "Each trigonometric ratio is a fixed ratio of two sides of a right triangle relative to a given acute angle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find sin A, cos A, and tan A for a right triangle with opposite side {opposite}, adjacent side {adjacent}, and hypotenuse {hypotenuse}.",
+    "Given the sides of a right triangle, determine all six trigonometric ratios of angle A.",
+    "If opposite = {opposite} and adjacent = {adjacent}, find tan A and the hypotenuse.",
+    "Compute the trigonometric ratios when the perpendicular and base are given.",
+    "Express sin, cos, and tan in terms of the sides of a right triangle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Label the sides for the chosen angle",
+     "explain": "Mark the side opposite the angle, the side adjacent to it and the hypotenuse."
+    },
+    {
+     "step": 2,
+     "action": "Form the ratios",
+     "explain": "sin A = opposite/hypotenuse, cos A = adjacent/hypotenuse, tan A = opposite/adjacent."
+    },
+    {
+     "step": 3,
+     "action": "Cross-check",
+     "explain": "sin^2 A + cos^2 A should equal 1 for the computed ratios."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a right triangle, the side opposite to angle A is 3, the adjacent side is 4, and the hypotenuse is 5. Find sin A, cos A, and tan A.",
+     "solution": "sin A = opposite/hypotenuse = 3/5 = 0.6; cos A = adjacent/hypotenuse = 4/5 = 0.8; tan A = opposite/adjacent = 3/4 = 0.75",
+     "answer": "sin A = 3/5, cos A = 4/5, tan A = 3/4"
+    },
+    {
+     "question": "In triangle ABC, right-angled at B, AB = 12 cm and BC = 5 cm. Find sin C and cos C.",
+     "solution": "For angle C, opposite = AB = 12, adjacent = BC = 5, hypotenuse = sqrt(12^2 + 5^2) = 13. sin C = 12/13, cos C = 5/13.",
+     "answer": "sin C = 12/13, cos C = 5/13"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In a right triangle, opposite = 8, adjacent = 15, hypotenuse = 17. Find sin A, cos A, and tan A.",
+     "type": "compute"
+    },
+    {
+     "question": "Given perpendicular = 7 and base = 24, find all six trigonometric ratios of the acute angle.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.2",
+   "title": "Reciprocal Relations of Trigonometric Ratios",
+   "section": "8.1",
+   "definition": "The cosecant, secant, and cotangent ratios are the reciprocals of sine, cosine, and tangent respectively.",
+   "formula": "cosec = 1/sin, sec = 1/cos, cot = 1/tan",
+   "key_idea": "Each of the three secondary ratios is the multiplicative inverse of a primary ratio, provided the primary ratio is non-zero.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "if sin A = {given_ratio}, find cosec A",
+    "given cos A = {given_ratio}, determine sec A",
+    "if tan A = {given_ratio}, what is cot A",
+    "find the reciprocal trigonometric ratio when one ratio is given",
+    "determine cosec A from the value of sin A",
+    "compute sec A when cos A is known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the reciprocal of the given ratio",
+     "explain": "Divide 1 by the given value of the primary ratio.",
+     "compute": "reciprocal = 1 / given_ratio"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If sin A = 3/5, find cosec A.",
+     "solution": "cosec A = 1 / sin A = 1 / (3/5) = 5/3.",
+     "answer": "cosec A = 5/3"
+    },
+    {
+     "question": "If cos A = 0.6 and tan A = 0.75, find sec A and cot A.",
+     "solution": "sec A = 1 / cos A = 1 / 0.6 = 5/3; cot A = 1 / tan A = 1 / 0.75 = 4/3.",
+     "answer": "sec A = 5/3, cot A = 4/3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If sin A = 5/13, find cosec A and sec A given cos A = 12/13.",
+     "type": "compute"
+    },
+    {
+     "question": "Given tan A = 7/24, find cot A, cosec A, and sec A.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.3",
+   "title": "Quotient Relations of Trigonometric Ratios",
+   "section": "8.1",
+   "definition": "The tangent of an angle is the ratio of sine to cosine, and the cotangent is the ratio of cosine to sine.",
+   "formula": "tan = sin/cos, cot = cos/sin",
+   "key_idea": "Tangent and cotangent can be expressed as quotients of the primary sine and cosine ratios.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "if sin A = {sin_a} and cos A = {cos_a}, find tan A",
+    "express tan A in terms of sin A and cos A",
+    "given sin and cos of an angle, compute tan using the quotient relation",
+    "determine tan A when sin A and cos A are known",
+    "calculate the tangent of the angle from its sine and cosine",
+    "what is tan A for the given values of sin A and cos A"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide sine by cosine",
+     "explain": "The quotient relation tan A = sin A / cos A.",
+     "compute": "tan_a = sin_a / cos_a"
+    },
+    {
+     "step": 2,
+     "action": "Note the reciprocal form",
+     "explain": "cot A = cos A / sin A is the reciprocal of tan A."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If sin A = 3/5 and cos A = 4/5, find tan A and cot A.",
+     "solution": "tan A = sin A / cos A = (3/5) / (4/5) = 3/4; cot A = cos A / sin A = (4/5) / (3/5) = 4/3.",
+     "answer": "tan A = 3/4, cot A = 4/3"
+    },
+    {
+     "question": "If sin A = 5/13 and cos A = 12/13, find tan A.",
+     "solution": "tan A = sin A / cos A = (5/13) / (12/13) = 5/12.",
+     "answer": "tan A = 5/12"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If sin A = 8/17 and cos A = 15/17, find tan A and cot A.",
+     "type": "compute"
+    },
+    {
+     "question": "Given sin A = 7/25 and cos A = 24/25, compute tan A using the quotient relation.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4",
+   "title": "Trigonometric Ratios of Specific Angles",
+   "section": "8.2",
+   "definition": "The trigonometric ratios of the standard angles 0, 30, 45, 60, and 90 degrees have fixed values derived from equilateral and isosceles right triangles.",
+   "formula": "sin 30 = 1/2, cos 30 = sqrt(3)/2, sin 45 = 1/sqrt(2), sin 60 = sqrt(3)/2, sin 90 = 1",
+   "key_idea": "Each standard angle has a memorizable set of values for all six trigonometric ratios.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Evaluate sin {angle} + cos {angle}.",
+    "Find the value of tan {angle} * cosec {angle}.",
+    "Compute 2 * sin^2 {angle} + cos^2 {angle}.",
+    "Evaluate the expression sin 30 cos 60 + cos 30 sin 60.",
+    "Determine the value of tan 45 + cot 45."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the standard values",
+     "explain": "Use the table for 0, 30, 45, 60 and 90 degrees."
+    },
+    {
+     "step": 2,
+     "action": "Substitute the values",
+     "explain": "Replace every ratio in the expression by its value."
+    },
+    {
+     "step": 3,
+     "action": "Simplify",
+     "explain": "Carry out the arithmetic, using identities where helpful."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Evaluate sin 60 cos 30 + sin 30 cos 60.",
+     "solution": "sin 60 = sqrt(3)/2, cos 30 = sqrt(3)/2, sin 30 = 1/2, cos 60 = 1/2. Expression = (sqrt(3)/2)(sqrt(3)/2) + (1/2)(1/2) = 3/4 + 1/4 = 1.",
+     "answer": "1"
+    },
+    {
+     "question": "Find the value of 2 tan^2 45 + cos^2 30 - sin^2 60.",
+     "solution": "tan 45 = 1, cos 30 = sqrt(3)/2, sin 60 = sqrt(3)/2. Expression = 2(1)^2 + (sqrt(3)/2)^2 - (sqrt(3)/2)^2 = 2 + 3/4 - 3/4 = 2.",
+     "answer": "2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Evaluate sin^2 30 + sin^2 45 + sin^2 60 + sin^2 90.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the value of cos 0 + cos 30 + cos 45 + cos 60 + cos 90.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.5",
+   "title": "Trigonometric Ratios of Complementary Angles",
+   "section": "8.3",
+   "definition": "For a pair of complementary angles whose sum is 90 degrees, the sine of one equals the cosine of the other, and the tangent of one equals the cotangent of the other.",
+   "formula": "sin(90 - x) = cos x, cos(90 - x) = sin x, tan(90 - x) = cot x",
+   "key_idea": "Complementary angle relations swap sine with cosine and tangent with cotangent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Evaluate sin(90 - {angle}).",
+    "Express cos(90 - {angle}) in terms of a trigonometric ratio of {angle}.",
+    "Simplify tan(90 - {angle}) to a single trigonometric ratio.",
+    "Evaluate sin(90 - 30) + cos(90 - 60).",
+    "Show that cosec(90 - x) equals sec x."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the complementary angle pair",
+     "explain": "Confirm that the two angles add up to 90 degrees."
+    },
+    {
+     "step": 2,
+     "action": "Apply the complementary angle relation",
+     "explain": "Replace sin(90 - x) with cos x, cos(90 - x) with sin x, and tan(90 - x) with cot x."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the resulting expression",
+     "explain": "Substitute the standard value if a specific angle is given and verify the equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Evaluate sin(90 - 30).",
+     "solution": "sin(90 - 30) = cos 30 = sqrt(3)/2.",
+     "answer": "sqrt(3)/2"
+    },
+    {
+     "question": "Show that tan(90 - x) = cot x.",
+     "solution": "By the complementary angle relation, tan(90 - x) = cot x, since the two acute angles of a right triangle are complementary and the opposite side of one equals the adjacent side of the other.",
+     "answer": "tan(90 - x) = cot x"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Evaluate cos(90 - 45) + sin(90 - 45).",
+     "type": "verify_property"
+    },
+    {
+     "question": "Express sec(90 - x) in terms of a trigonometric ratio of x.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.6",
+   "title": "Fundamental Trigonometric Identity",
+   "section": "8.4",
+   "definition": "For any acute angle, the square of the sine plus the square of the cosine equals one. This is the Pythagorean identity for sine and cosine.",
+   "formula": "sin^2 A + cos^2 A = 1",
+   "key_idea": "The fundamental identity follows directly from the Pythagorean theorem applied to a right triangle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "If sin A = {sinA}, find cos A using the identity sin^2 A + cos^2 A = 1.",
+    "If cos A = {cosA}, determine sin A.",
+    "Verify that sin^2 A + cos^2 A = 1 for a given angle.",
+    "Express cos A in terms of sin A using the fundamental identity.",
+    "Find the value of sin A when cos A = 1/2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the given trigonometric ratio",
+     "explain": "Compute sin^2 A or cos^2 A from the given value.",
+     "compute": "sq = given_ratio ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from 1 to find the square of the other ratio",
+     "explain": "Use sin^2 A = 1 - cos^2 A or cos^2 A = 1 - sin^2 A.",
+     "compute": "other_sq = 1 - sq"
+    },
+    {
+     "step": 3,
+     "action": "Take the positive square root to find the missing ratio",
+     "explain": "Since the angle is acute, the trigonometric ratio is positive.",
+     "compute": "missing_ratio = sqrt(other_sq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If sin A = 3/5, find cos A.",
+     "solution": "cos^2 A = 1 - sin^2 A = 1 - (3/5)^2 = 1 - 9/25 = 16/25. cos A = 4/5.",
+     "answer": "cos A = 4/5"
+    },
+    {
+     "question": "If cos A = 5/13, find sin A.",
+     "solution": "sin^2 A = 1 - cos^2 A = 1 - (5/13)^2 = 1 - 25/169 = 144/169. sin A = 12/13.",
+     "answer": "sin A = 12/13"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If sin A = 8/17, find cos A using the fundamental identity.",
+     "type": "compute"
+    },
+    {
+     "question": "If cos A = 7/25, determine sin A.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.7",
+   "title": "Related Trigonometric Identities",
+   "section": "8.4",
+   "definition": "Two additional Pythagorean identities relate secant and tangent, and cosecant and cotangent, derived by dividing the fundamental identity by cos^2 or sin^2.",
+   "formula": "1 + tan^2 A = sec^2 A, 1 + cot^2 A = cosec^2 A",
+   "key_idea": "Dividing sin^2 + cos^2 = 1 by cos^2 or sin^2 yields the secant-tangent and cosecant-cotangent identities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "If tan A = {tanA}, find sec A using 1 + tan^2 A = sec^2 A.",
+    "If cot A = {cotA}, determine cosec A.",
+    "Verify that 1 + tan^2 A = sec^2 A for a given angle.",
+    "Express sec A in terms of tan A.",
+    "Find the value of sec A when cot A = {cotA}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the given ratio (tan or cot)",
+     "explain": "Compute tan^2 A or cot^2 A from the given value.",
+     "compute": "sq = given_ratio ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to obtain the square of the related ratio",
+     "explain": "Use sec^2 A = 1 + tan^2 A or cosec^2 A = 1 + cot^2 A.",
+     "compute": "related_sq = 1 + sq"
+    },
+    {
+     "step": 3,
+     "action": "Take the positive square root to find the missing ratio",
+     "explain": "Since the angle is acute, the trigonometric ratio is positive.",
+     "compute": "missing_ratio = sqrt(related_sq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If tan A = 3/4, find sec A.",
+     "solution": "sec^2 A = 1 + tan^2 A = 1 + (3/4)^2 = 1 + 9/16 = 25/16. sec A = 5/4.",
+     "answer": "sec A = 5/4"
+    },
+    {
+     "question": "If cot A = 5/12, find cosec A.",
+     "solution": "cosec^2 A = 1 + cot^2 A = 1 + (5/12)^2 = 1 + 25/144 = 169/144. cosec A = 13/12.",
+     "answer": "cosec A = 13/12"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If tan A = 7/24, find sec A using the related identity.",
+     "type": "compute"
+    },
+    {
+     "question": "If cot A = 8/15, determine cosec A.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.8",
+   "title": "Evaluating Trigonometric Expressions",
+   "section": "8.4",
+   "definition": "Trigonometric expressions involving sums, products, and powers of ratios can be simplified using known identities and standard angle values.",
+   "formula": "simplify by substituting identities and standard values",
+   "key_idea": "Combining the fundamental identities with standard angle values allows evaluation of complex trigonometric expressions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Evaluate the expression sin^2 {angle} + cos^2 {angle} + tan^2 {angle}.",
+    "Simplify (1 - cos^2 A) / sin^2 A.",
+    "Evaluate sin A cos B + cos A sin B for given angles.",
+    "Simplify the expression sec^2 A - tan^2 A.",
+    "Compute (sin^2 A + cos^2 A) / (1 + tan^2 A)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Spot the identities",
+     "explain": "Look for sin^2 + cos^2 = 1, 1 + tan^2 = sec^2 or complementary relations."
+    },
+    {
+     "step": 2,
+     "action": "Substitute",
+     "explain": "Replace each identity and standard value."
+    },
+    {
+     "step": 3,
+     "action": "Simplify to one value",
+     "explain": "Finish the arithmetic to reach a single number."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Simplify (1 - cos^2 A) / sin^2 A.",
+     "solution": "1 - cos^2 A = sin^2 A, so (sin^2 A) / (sin^2 A) = 1.",
+     "answer": "1"
+    },
+    {
+     "question": "Evaluate sec^2 A - tan^2 A.",
+     "solution": "From the identity 1 + tan^2 A = sec^2 A, we get sec^2 A - tan^2 A = 1.",
+     "answer": "1"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Simplify (sin^2 A + cos^2 A) / (1 + tan^2 A).",
+     "type": "compute"
+    },
+    {
+     "question": "Evaluate sin^2 30 + sin^2 45 + sin^2 60 + sin^2 90.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.9",
+   "title": "Relationship Between Trigonometric Ratios",
+   "section": "8.1",
+   "definition": "The six trigonometric ratios are interrelated through reciprocal and quotient relations, allowing any ratio to be expressed in terms of another.",
+   "formula": "cosec = 1/sin, sec = 1/cos, cot = 1/tan, tan = sin/cos, cot = cos/sin",
+   "key_idea": "Knowing one trigonometric ratio and the interrelations allows computing all six ratios.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "If sin A = {sinA}, find all other five trigonometric ratios.",
+    "Given tan A = {tanA}, determine sin A and cos A.",
+    "If cos A = {cosA}, compute sec A, cosec A, and cot A.",
+    "Express all six ratios in terms of sin A.",
+    "Find the remaining ratios when one ratio is given."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recover the missing primary ratio",
+     "explain": "Use cos^2 A = 1 - sin^2 A (or the twin form) when one primary ratio is known."
+    },
+    {
+     "step": 2,
+     "action": "Apply the quotient relation",
+     "explain": "tan A = sin A / cos A."
+    },
+    {
+     "step": 3,
+     "action": "Invert for the reciprocal ratios",
+     "explain": "cosec A = 1 / sin A, sec A = 1 / cos A, cot A = 1 / tan A."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If sin A = 3/5, find all other trigonometric ratios.",
+     "solution": "cos A = sqrt(1 - 9/25) = 4/5; tan A = (3/5)/(4/5) = 3/4; cot A = 4/3; cosec A = 5/3; sec A = 5/4.",
+     "answer": "cos A = 4/5, tan A = 3/4, cot A = 4/3, cosec A = 5/3, sec A = 5/4"
+    },
+    {
+     "question": "If tan A = 5/12, find sin A and cos A.",
+     "solution": "Let opposite = 5, adjacent = 12, hypotenuse = sqrt(25 + 144) = 13. sin A = 5/13, cos A = 12/13.",
+     "answer": "sin A = 5/13, cos A = 12/13"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If cos A = 7/25, find all other five trigonometric ratios.",
+     "type": "compute"
+    },
+    {
+     "question": "If tan A = 8/15, determine sin A, cos A, sec A, cosec A, and cot A.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "chapter_title": "Introduction to Trigonometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh108.txt"
+}

@@ -1,0 +1,139 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 13,
+ "chapter_title": "Introduction to Graphs",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.113.13.1",
+   "title": "Linear Graphs and Their Uses",
+   "section": "13.2",
+   "definition": "A linear graph plots two quantities whose graph is a straight line: plotting points from a table of values and joining them shows whether the relation between the quantities is linear, as in cost per unit or fixed charges plus rate.",
+   "formula": "-",
+   "key_idea": "Table to points to a straight line: linearity is visible at a glance.",
+   "textbook_ref": "hemh113.txt sections 13.1-13.2 (line graphs, linear graphs, some applications)",
+   "question_patterns": [
+    "draw the graph of the given data and state whether it is linear",
+    "plot the points from the table and join them",
+    "does the given graph show a linear relation - justify",
+    "from the graph read the value for the given input",
+    "draw a graph for the principal and simple interest data",
+    "check which of the given tables give a linear graph"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the axes",
+     "explain": "Choose the x-axis and y-axis quantities and their scales."},
+    {"step": 2, "action": "plot the pairs",
+     "explain": "Each row of the table becomes one point."},
+    {"step": 3, "action": "join and inspect",
+     "explain": "A single straight line through all points signals a linear relation."}
+   ]
+  },
+  {
+   "id": "hemh.113.13.2",
+   "title": "Coordinates and Locating Points",
+   "section": "13.1",
+   "definition": "Every point on the plane is pinned by two coordinates - the x-coordinate measuring along the horizontal axis and the y-coordinate along the vertical - so (3, 4) sits three units right and four units up from the origin.",
+   "formula": "-",
+   "key_idea": "Order matters: the pair (x, y) walks right first, then up.",
+   "textbook_ref": "hemh113.txt sections on coordinates and the y-axis (line graphs setup)",
+   "question_patterns": [
+    "write the coordinates of the given points marked on the graph",
+    "locate the point (3, 4) on the coordinate plane",
+    "what does the first number in a coordinate pair tell",
+    "in which quadrant does the given point lie",
+    "plot the given ordered pairs and join them",
+    "which point lies on the y-axis - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the x-coordinate",
+     "explain": "Move along the horizontal axis by the first number."},
+    {"step": 2, "action": "read the y-coordinate",
+     "explain": "Move parallel to the vertical axis by the second number."},
+    {"step": 3, "action": "mark the point",
+     "explain": "The meeting place of the two guides is the point."}
+   ]
+  },
+  {
+   "id": "hemh.113.13.3",
+   "title": "Distance-Time Graphs",
+   "section": "13.3",
+   "definition": "A distance-time graph plots journey data with distance on the vertical axis and time on the horizontal; a straight rising line shows uniform speed whose value is the distance covered divided by the time taken, a horizontal stretch shows rest, and steeper lines mean faster motion.",
+   "formula": "speed = distance / time",
+   "key_idea": "The slope tells the story: steeper line, greater speed; flat line, at rest.",
+   "textbook_ref": "hemh113.txt section 13.3 (applications: distance-time graphs)",
+   "question_patterns": [
+    "draw a distance-time graph for the given journey data",
+    "find the speed of the object from its distance-time graph",
+    "when was the object at rest according to the graph",
+    "which of the two lines shows a faster speed",
+    "read the distance covered at the given time from the graph",
+    "is the motion uniform - explain from the graph"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "Uniform speed is the distance covered per unit time.",
+     "compute": "speed = distance / time"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh113.txt section 13.3 distance-time examples",
+   "concept": "hemh.113.13.3",
+   "question_type": "compute",
+   "question_pattern": "A car covers {distance} km in {time} hours moving uniformly. Find its speed.",
+   "extracted_variables": {
+    "distance": "distance covered in km",
+    "time": "time taken in hours"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "Uniform speed equals distance over time.",
+     "compute": "speed = distance / time"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh113.txt section 13.3 graph reading practice",
+   "concept": "hemh.113.13.3",
+   "question_type": "compute",
+   "question_pattern": "From the distance-time graph, the object covers {distance} metres in {time} seconds. Calculate the speed in metres per second.",
+   "extracted_variables": {
+    "distance": "distance read from the graph in metres",
+    "time": "time read from the graph in seconds"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide distance by time",
+     "explain": "The slope of the line is the speed.",
+     "compute": "speed = distance / time"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "hemh113.txt EXERCISE 13.1-13.2",
+   "questions": [
+     "Draw the graph of the given data and say whether it is linear.",
+     "Write the coordinates of the points marked in the graph.",
+     "Draw a graph for the principal and simple interest data."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "hemh113.txt EXERCISE 13.3",
+   "questions": [
+     "Draw the distance-time graph for the given journey.",
+     "Find the speed from the drawn distance-time graph.",
+     "Identify the time intervals when the object was at rest."
+   ]
+  }
+ ]
+}

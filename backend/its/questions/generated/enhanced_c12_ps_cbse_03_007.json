@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_03_007",
+   "title": "c12_ps_cbse_03_007",
+   "questions": [
+    {
+     "q": "Define \"soft power\" as conceptualized by Joseph Nye and identify its three primary sources according to his framework.",
+     "a": "Correct answer: Soft power is the ability to affect others through attraction and persuasion rather than coercion (hard power) or payment (economic inducements). Nye identifies three sources: (1) Culture — when it is attractive to others; (2) Political values — when a country lives up to them at home and abroad; (3) Foreign policies — when they are seen as legitimate and having moral authority. A wrong answer (e.g., \"soft power means cultural exports only\" or \"soft power is propaganda\") reveals the student conflates soft power with mere cultural diffusion or state-directed messaging, missing the crucial element of *voluntary attraction* and the normative dimension of values and policies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the global popularity of Hollywood films, McDonald's, and blue jeans constitutes soft power for the United States, but the mere presence of US military bases in Japan does not.",
+     "a": "Correct answer: Hollywood, McDonald's, and blue jeans represent soft power because their global adoption is largely voluntary — people *choose* to consume them because they find them appealing, modern, or status-conferring. This creates attraction toward American lifestyle and values. US military bases in Japan represent hard power — they exist due to security treaties and strategic calculations, maintained by coercive capacity and deterrence. A wrong answer (e.g., \"both are American influence so both are soft power\") reveals the student cannot distinguish *attraction* (soft) from *coercion/structural compulsion* (hard), a fundamental analytical error in hegemony studies.",
+     "self_check": true
+    },
+    {
+     "q": "A country adopts US-style judicial review and constitutional rights protections after studying American constitutional law in its universities. Identify which pillar of Nye's soft power framework this exemplifies and explain the mechanism.",
+     "a": "Correct answer: This exemplifies the \"political values\" pillar. The mechanism is ideational diffusion through education — foreign elites study US constitutional principles, internalize their legitimacy, and voluntarily replicate them domestically. This is soft power because adoption stems from perceived normative superiority, not imposition. A wrong answer citing \"culture\" or \"foreign policy\" reveals confusion between cultural products (movies, food) and institutional-ideational templates (constitutionalism, rights discourse). It also misses that education is a key *transmission channel* for values-based soft power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how \"structural power\" (Node c12_ps_cbse_03_006) and \"soft power\" (this node) enable the US to shape global outcomes. Use the WTO and Hollywood as illustrative examples.",
+     "a": "Correct answer: Structural power operates through *institutional rules* — the US shapes WTO trade rules, intellectual property regimes (TRIPS), and financial standards so the game itself favors US interests; compliance is enforced through rule-embedded incentives/sanctions. Soft power operates through *attraction* — Hollywood films disseminate American narratives, lifestyles, and values, making global audiences *want* what America represents; compliance is voluntary emulation. Structural power says \"you must follow these rules\"; soft power says \"you want to be like us.\" A wrong answer conflating the two (e.g., \"both are about US dominance\") misses the distinct causal mechanisms: rule-setting vs. preference-shaping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"US soft power has declined irreversibly in the 21st century due to the Iraq War, Guantanamo, and the rise of non-Western cultural alternatives like K-pop and Bollywood.\"",
+     "a": "Correct evaluation: The claim is partially valid but overstated. The Iraq War (2003) and Guantanamo damaged US *moral authority* (Nye's third pillar — foreign policy legitimacy), creating a \"credibility gap\" between US values and actions. Non-Western cultural flows (K-pop, Bollywood, Turkish dramas) demonstrate *pluralization* of global cultural influence, reducing US monopoly. However, US soft power persists in: (a) higher education (top universities still attract global talent), (b) technology platforms (Google, Meta, Netflix set digital norms), (c) innovation ecosystems (Silicon Valley as aspiration), and (d) the English language as global lingua franca. Decline is relative and sectoral, not irreversible. A wrong answer (uncritical \"yes\" or \"no\") reveals inability to assess soft power as multidimensional, resilient, and context-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"Soft Power Index\" for measuring a country's cultural-ideological influence. Specify 4 measurable indicators, their data sources, and why each captures a distinct dimension of soft power.",
+     "a": "Expected answer criteria: A good index includes indicators across Nye's three pillars. Example: (1) *Cultural reach* — global box office revenue / streaming hours of domestic content (source: UNESCO/MPA/Netflix data) — captures cultural attraction. (2) *Values adoption* — number of countries with constitutional provisions modeled on the index country's rights framework (source: Comparative Constitutions Project) — captures political values diffusion. (3) *Policy legitimacy* — UNGA voting alignment with the country on human rights/development resolutions (source: UN voting records) — captures foreign policy moral authority. (4) *Educational pull* — international student enrollment in domestic universities (source: UNESCO/OECD) — captures ideational transmission via elite socialization. Poor answers list only cultural metrics (e.g., \"number of McDonald's outlets\") or confuse hard power indicators (military alliances, aid volumes), revealing failure to operationalize the *attraction* vs. *coercion* distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_008",
+   "title": "c12_acc_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is the maximum overall managerial remuneration payable by a public company to all its directors (including managing director and whole-time directors) as a percentage of net profits calculated under Section 198 of the Companies Act, 2013?",
+     "a": "The maximum overall managerial remuneration payable to all directors is 11% of net profits calculated under Section 198. A wrong answer (e.g., 10%, 5%, or \"no limit\") reveals that the student has not memorised the statutory cap under Section 197(1) or is confusing the limit for a single managing director (5%) with the overall limit for all directors (11%).",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates \"net profit for managerial remuneration\" by simply taking the Profit Before Tax from the Statement of Profit and Loss. Explain why this is incorrect and list two specific adjustments required under Section 198.",
+     "a": "Profit Before Tax includes items that Section 198 explicitly excludes/includes for remuneration calculation. Two mandatory adjustments: (1) Add back depreciation charged on revaluation of assets (since it's not a real cash expense), and (2) Deduct profit on sale of fixed assets (since it's non-operating). A wrong answer indicates the student treats accounting profit and Section 198 profit as identical, missing the legal distinction.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. has a net profit of ₹80,00,000 calculated under Section 198. The company has one Managing Director and two Whole-time Directors. The board proposes: MD commission @ 5% of net profit, each WTD salary ₹12,00,000 p.a. Is this proposal within legal limits? Show calculations.",
+     "a": "Step 1: MD max = 5% of ₹80L = ₹4,00,000. Step 2: Each WTD max = 5% of ₹80L = ₹4,00,000 (individual cap for WTD is also 5%). Step 3: Total proposed = ₹4,00,000 (MD) + ₹12,00,000 + ₹12,00,000 = ₹28,00,000. Step 4: Overall cap = 11% of ₹80L = ₹8,80,000. Proposed ₹28L > ₹8.8L → VIOLATES overall cap. Also each WTD salary ₹12L > ₹4L individual cap. A wrong answer (e.g., \"yes, MD gets 5%\") shows the student ignores the overall 11% cap and individual 5% caps for WTDs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of \"Managerial Remuneration\" vs \"Salaries to Employees\" in the Statement of Profit and Loss as per Schedule III. Why are they shown separately even though both are employee costs?",
+     "a": "Managerial Remuneration is shown as a separate line item under \"Employee Benefits Expense\" (Note: \"Salaries and Wages\" includes managerial remuneration but Schedule III requires separate disclosure in Notes). Actually, Schedule III format: Employee Benefits Expense includes (a) Salaries and Wages, (b) Contribution to PF, (c) Staff Welfare, etc. Managerial Remuneration is NOT a separate main line — it is included in Salaries and Wages but MUST be disclosed separately in Notes to Accounts (Note 2.1 or similar). A wrong answer (e.g., \"shown as separate expense head\") reveals confusion between main Statement line items and Notes disclosure requirements.",
+     "self_check": true
+    },
+    {
+     "q": "A company pays ₹50 lakh as managerial remuneration but the Section 198 net profit allows only ₹35 lakh. The excess ₹15 lakh is recorded as \"Advance to Director\" in the Balance Sheet. Evaluate this treatment.",
+     "a": "This treatment is INCORRECT. Excess remuneration paid beyond statutory limits is not a recoverable advance — it is ultra vires and must be refunded by the director. The company cannot capitalise it as an asset. Correct treatment: (1) Restrict expense to ₹35L in P&L, (2) Show ₹15L as \"Recoverable from Director\" under Current Assets only if recovery is certain, but legally it's a void payment. A wrong answer accepting \"Advance to Director\" shows the student misunderstands the legal consequence of exceeding statutory caps — it's not a loan, it's an unlawful payment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company with ₹10 crore Section 198 net profit wants to pay maximum permissible remuneration to: (a) one Managing Director, (b) two Whole-time Directors, and (c) three Non-executive Directors (as commission). Specify the exact amount each category can receive and the total.",
+     "a": "Scenario: Net profit (Sec 198) = ₹10 cr. (a) MD max = 5% = ₹50L. (b) Each WTD max = 5% = ₹50L each → total ₹1Cr for two WTDs. (c) Non-executive directors: commission max = 1% of net profit = ₹10L total (if no MD/WTD) or 3% = ₹30L total (if MD/WTD exist). Since MD/WTD exist, non-exec max = 3% = ₹30L total. Overall cap = 11% = ₹1.1Cr. Allocation: MD ₹50L + 2 WTDs ₹1Cr = ₹1.5Cr → EXCEEDS overall cap. Must reduce proportionally. Valid allocation: MD ₹50L + WTDs ₹30L (₹15L each) + Non-exec ₹30L = ₹1.1Cr (11%). A poor answer gives fixed amounts without checking overall cap, showing inability to integrate multiple constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

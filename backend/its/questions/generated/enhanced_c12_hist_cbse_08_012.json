@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_012",
+   "title": "c12_hist_cbse_08_012",
+   "questions": [
+    {
+     "q": "What was the difference between jama and hasil in Mughal revenue terminology, and which one represented the state's assessed demand?",
+     "a": "Jama was the assessed revenue demand fixed by the state; hasil was the actual amount collected. A student who reverses these reveals confusion between normative targets and empirical outcomes — a critical error when analysing revenue shortfalls, because the crisis was precisely the widening gap between jama (fixed high) and hasil (falling due to flight, crop failure, zamindar resistance).",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state's policy of frequent jagirdari transfers (every 3–4 years) contribute to revenue decline rather than prevent local power consolidation?",
+     "a": "Frequent transfers gave jagirdars no stake in long-term agricultural improvement; they maximised short-term extraction (often exceeding jama through illegal cesses), driving peasants to flee. A student who says \"transfers prevented corruption\" misses the economic logic: without tenure security, jagirdars became predatory, accelerating the very revenue collapse the policy sought to avoid.",
+     "self_check": true
+    },
+    {
+     "q": "A 1665 Aurangzeb order instructs amins to assess jama \"village by village, peasant-wise (asamiwar)\" while balancing \"financial interests of government and welfare of peasantry.\" If hasil in a pargana falls 30% below jama for three consecutive years, what does this indicate about the effectiveness of that order?",
+     "a": "It indicates the order was implemented in form but not substance: detailed surveys (asamiwar) were conducted, but the \"welfare\" clause was ignored because the state's military desperation (Deccan wars) overrode peasant protection. A student who blames \"corrupt officials\" alone misses the structural pressure: the emperor himself prioritised kifayat (fiscal interest) over peasant welfare when silver inflows could not cover military expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the peasant flight response in Mughal India (desertion to forest zones or rival zamindaris) with the European serf flight to towns (\"town air makes free\") in the same period. What structural difference in land-labour relations does this reveal?",
+     "a": "Mughal peasants fled to *other rural areas* (forests, rival zamindaris) because land was abundant and labour scarce — they retained bargaining power through mobility. European serfs fled to *towns* because land was scarce and lordship legally bound them to soil. A student who equates both as \"flight from oppression\" misses the critical difference: Mughal peasant mobility was a *negotiating tool* within an agrarian system where the state *needed* cultivators, whereas European serf flight was a *break* from feudal bondage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Mughal fiscal crisis was caused primarily by the drain of silver to Europe for luxury imports, not by internal administrative failures.\"",
+     "a": "This argument is flawed: Giovanni Careri's account shows *massive silver inflows* into India (from Americas via Europe, Japan via Dutch), making the silver rupya remarkably stable until the 18th century. The crisis was *internal* — the state's inability to translate assessed revenue (jama) into collected revenue (hasil) due to jagirdari predation, zamindar defiance, and peasant flight. A student citing \"silver drain\" confuses 18th-century British drain with 17th-century Mughal reality where India was a *silver sink*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain (minimum 5 links) showing how Aurangzeb's Deccan expansion (1680s) → increased military expenditure → higher jama demands → jagirdari oppression → peasant flight → further revenue decline → zamindar rebellion → imperial fragmentation.",
+     "a": "1. Deccan wars (1681–1707) doubled military expenditure. 2. State raised jama in core provinces (Agra, Delhi, Gujarat) to fund wars. 3. Transferred jagirdars to Deccan, where they extracted maximum revenue in short tenures. 4. Peasants (especially pahi-kasht) fled to forest zones (jangal) or zamindaris with lighter demands. 5. Hasil fell, forcing state to demand more from remaining cultivators → vicious cycle. 6. Zamindars (Rajputs, Jats, Marathas) withheld revenue, raised forts. 7. Central authority collapsed after 1707. A poor chain misses the *feedback loop* (step 5→3) or treats zamindar rebellion as cause rather than consequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

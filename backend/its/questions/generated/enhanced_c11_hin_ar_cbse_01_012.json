@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_01_012",
+   "title": "c11_hin_ar_cbse_01_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question about \"Udd Ka Naukri\" is literal or inferential: \"What specific action does Vyakti Singh take when the police arrive at the station to arrest the strikers?\"",
+     "a": "**Correct Answer: Literal.** The text explicitly states: \"Vyakti Singh gave his savings to the strikers, resigned from his job, and joined them at the station\" (pages 14-15). A student who labels this \"inferential\" confuses *character motivation* (why he did it) with *explicit action* (what he did). This reveals the misconception that any question about a character's behavior is automatically inferential — but literal questions can ask for explicitly described actions, not just facts about setting or plot sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to an inferential question: \"Vyakti Singh helps the strikers because he feels bad for them.\" Explain why this answer would receive partial marks at best in a Class 11 board exam, and what specific element is missing.",
+     "a": "**Correct Explanation:** The answer states a plausible inference but provides **zero textual evidence** and **no logical reasoning chain**. In Class 11, inferential answers require: (1) a clear claim, (2) at least two specific textual references (dialogue, action, or description), (3) explanation of how each piece of evidence supports the claim, and (4) a link to a broader theme (e.g., class consciousness, moral awakening). The student's answer is an unsupported opinion — it could apply to any sympathetic character in any story. This reveals the misconception that \"inferential\" means \"give your opinion\" rather than \"draw a conclusion *grounded in the text*.\"",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL structure, write a 4-sentence answer to this inferential question: \"How does the station master's attitude toward the strike change from the beginning to the end of the story? Provide two pieces of evidence.\"",
+     "a": "**Model Answer:**\n**Point:** The station master shifts from dismissive authority to reluctant complicity.  \n**Evidence 1:** Early, he calls the strike \"a nuisance\" and threatens \"stern action\" (page 7).  \n**Evidence 2:** Later, he silently accepts Vyakti Singh's resignation and lets the strikers remain on the platform without calling police (page 15).  \n**Explanation:** His silence and inaction at the end contrast with his earlier threats, showing the strike's moral force has undermined his institutional power.  \n**Link:** This mirrors the story's theme — institutional authority crumbles when confronted with collective moral courage.\n\n**Why this works:** Each PEEL component is distinct and text-grounded. A wrong answer would merge Evidence and Explanation, use vague references (\"he acts differently later\"), or omit the thematic Link — revealing the student treats PEEL as a checklist rather than a reasoning scaffold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two student answers to the same inferential question: \"Why does Vyakti Singh's father remain silent when his son resigns?\"\n- **Answer A:** \"Because he is proud of his son.\"\n- **Answer B:** \"The text says 'his father sat silent for a long time, then said: You have done well' (page 16). His silence first shows shock at losing the secure job he sacrificed for, then acceptance because his son honored their shared values of integrity over survival.\"\nWhich answer demonstrates deeper analytical reasoning, and what specific analytical skill does the weaker answer lack?",
+     "a": "**Correct Analysis:** Answer B demonstrates deeper analytical reasoning. It **tracks a character's internal shift across time** (shock → acceptance), **uses a direct quote as anchor**, and **connects the micro-moment to a macro-value conflict** (security vs. integrity). Answer A lacks **textual anchoring** and **temporal analysis** — it treats the father's silence as a single static emotion rather than a process. This reveals the misconception that inferential answers only need a \"reasonable guess\" rather than a **reconstruction of character psychology through textual moments**.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"Since Premchand was a social reformer, Vyakti Singh's decision to join the strike is really Premchand's voice — so the 'inference' about his motivation is just the author's message.\" Evaluate this claim. Is it a valid interpretive lens or a category error? Justify.",
+     "a": "**Correct Evaluation:** It is a **category error** that conflates *authorial intent* with *character motivation*. In literary analysis, inferential questions about characters must be answered **internally** (using the character's own context, dialogue, and development) not **externally** (using the author's biography). While Premchand's reformism shapes the *theme*, Vyakti Singh's motivation must be traced through *his* experiences: his father's values (page 6), his guilt at the station (page 10), the breaking point with the police (page 14). A student who uses author biography as evidence for character motivation commits the **intentional fallacy** — a senior secondary error that replaces textual analysis with biographical speculation. Valid approach: \"The text constructs Vyakti Singh's motivation through X, Y, Z; this *aligns with* Premchand's thematic concern for...\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question about \"Udd Ka Naukri\" that requires synthesizing evidence from **at least three different scenes** and connects to the theme of **\"education as both liberation and complicity.\"** Provide the question and a bullet-point outline of the evidence a top-mark answer would use.",
+     "a": "**Created Question:** \"Trace how Vyakti Singh's education (B.A., job preparation) simultaneously empowers him to resist injustice and traps him in the colonial system — using evidence from his childhood, his job, and his final decision.\"\n\n**Top-Mark Evidence Outline:**\n- **Childhood scene (pages 6-7):** Father equates education with \"government job = security\" — education framed as *compliance tool*.\n- **Job scene (pages 8-9):** His B.A. makes him a clerk who *enforces* railway rules against strikers — education as *instrument of oppression*.\n- **Station confrontation (pages 14-15):** His literacy lets him read the strikers' pamphlets and *choose* resistance — education as *critical consciousness*.\n- **Final resignation (page 16):** He rejects the degree's institutional value (\"this piece of paper\") for moral integrity — education *transcended*.\n\n**Why this works:** The question demands **cross-scene synthesis** and **thematic dialectic** (liberation vs. complicity). A poor answer would list scenes without showing the *tension* between them, revealing the student cannot hold contradictory textual evidence in simultaneous view — a core Class 11 analytical skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

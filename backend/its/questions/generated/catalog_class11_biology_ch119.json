@@ -1,0 +1,173 @@
+{
+ "catalog": "catalog_class11_biology_ch119",
+ "concepts": [
+  {
+   "id": "kebo.19.1",
+   "title": "Endocrine Glands and Hormones",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Endocrine Glands and Hormones' refers to.",
+     "a": "Chemical substances that function as messengers between cells, are not used as nutrients, and are synthesized in minute quantities by ductless glands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Endocrine Glands and Hormones'.",
+     "a": "Hormones provide a slow but long-lasting coordination system compared to the rapid neural system.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Endocrine Glands and Hormones' taught, and from which source text?",
+     "a": "19.1 (source: kebo119.txt lines 10-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.1",
+   "title": "The Hypothalamus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Hypothalamus' refers to.",
+     "a": "The basal part of the forebrain that contains neurosecretory cells which form hormones to regulate the pituitary gland.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Hypothalamus'.",
+     "a": "The hypothalamus links the nervous system to the endocrine system via releasing and inhibiting hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Hypothalamus' taught, and from which source text?",
+     "a": "19.2.1 (source: kebo119.txt lines 55-80)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.2",
+   "title": "The Pituitary Gland and Growth Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Pituitary Gland and Growth Disorders' refers to.",
+     "a": "A master gland located in the sella tursica that secretes several trophic hormones and stores hypothalamic hormones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Pituitary Gland and Growth Disorders'.",
+     "a": "The pituitary regulates growth, milk production, and the activity of other endocrine glands.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Pituitary Gland and Growth Disorders' taught, and from which source text?",
+     "a": "19.2.2 (source: kebo119.txt lines 85-120)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.4",
+   "title": "Thyroid Gland and Metabolism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Thyroid Gland and Metabolism' refers to.",
+     "a": "A two-lobed gland in the neck that produces thyroxine and triiodothyronine to regulate the body's basal metabolic rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Thyroid Gland and Metabolism'.",
+     "a": "Iodine is necessary for thyroid hormone synthesis, which controls nutrient metabolism and RBC formation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Thyroid Gland and Metabolism' taught, and from which source text?",
+     "a": "19.2.4 (source: kebo119.txt lines 150-185)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.5",
+   "title": "Parathyroid Gland and Calcium Balance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Parathyroid Gland and Calcium Balance' refers to.",
+     "a": "Four small glands on the thyroid's back that secrete parathyroid hormone (PTH) to increase blood calcium levels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parathyroid Gland and Calcium Balance'.",
+     "a": "PTH and TCT act antagonistically to maintain calcium homeostasis in the blood.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Parathyroid Gland and Calcium Balance' taught, and from which source text?",
+     "a": "19.2.5 (source: kebo119.txt lines 190-205)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.7",
+   "title": "Adrenal Gland and Stress Response",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Adrenal Gland and Stress Response' refers to.",
+     "a": "Glands located above the kidneys consisting of a medulla (secreting emergency hormones) and a cortex (secreting corticoids).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adrenal Gland and Stress Response'.",
+     "a": "The adrenal gland manages both immediate stress (medulla) and long-term metabolic/electrolyte balance (cortex).",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Adrenal Gland and Stress Response' taught, and from which source text?",
+     "a": "19.2.7 (source: kebo119.txt lines 215-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.2.8",
+   "title": "Pancreas and Glucose Homeostasis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pancreas and Glucose Homeostasis' refers to.",
+     "a": "A composite gland containing Islets of Langerhans that secrete insulin and glucagon to manage blood sugar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pancreas and Glucose Homeostasis'.",
+     "a": "Insulin (hypoglycemic) and glucagon (hyperglycemic) maintain stable blood glucose levels.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pancreas and Glucose Homeostasis' taught, and from which source text?",
+     "a": "19.2.8 (source: kebo119.txt lines 265-295)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.19.4",
+   "title": "Mechanism of Hormone Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mechanism of Hormone Action' refers to.",
+     "a": "The process where hormones bind to specific receptors to trigger biochemical changes and physiological responses in target tissues.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mechanism of Hormone Action'.",
+     "a": "Water-soluble hormones use second messengers, while lipid-soluble hormones regulate gene expression directly.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mechanism of Hormone Action' taught, and from which source text?",
+     "a": "19.4 (source: kebo119.txt lines 345-375)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

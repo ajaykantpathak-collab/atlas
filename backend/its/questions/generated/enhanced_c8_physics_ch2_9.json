@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_9",
+   "title": "c8_physics_ch2_9",
+   "questions": [
+    {
+     "q": "What is the working principle of an electric fuse, and which effect of electric current does it utilize?",
+     "a": "The electric fuse works on the heating effect of electric current (Joule heating). When current exceeds the rated value, the heat produced (I²Rt) in the fuse wire raises its temperature to its melting point, causing it to melt and break the circuit. A wrong answer (e.g., \"magnetic effect\" or \"chemical effect\") reveals the student has not connected the fuse operation to the heating effect topic (c8_physics_ch2_6) and may be confusing it with electromagnets or electrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the fuse wire made of an alloy like tin-lead instead of copper, even though copper is a good conductor?",
+     "a": "Copper has a high melting point (1085°C) and low resistivity; a copper fuse wire would not melt quickly enough at safe overload currents, failing to protect the circuit. Tin-lead alloy has a low melting point (~180-250°C) and higher resistivity, so it produces enough heat (I²Rt) to melt rapidly at the designated overcurrent. A wrong answer (e.g., \"copper is expensive\" or \"alloy is stronger\") shows the student does not understand the critical role of melting point and resistivity in fuse design.",
+     "self_check": true
+    },
+    {
+     "q": "A fuse wire has a resistance of 0.2 Ω. It is rated to melt when the heat produced reaches 10 J. If a current of 5 A flows through it, calculate the time after which the fuse will melt. (Use H = I²Rt)",
+     "a": "Given: R = 0.2 Ω, H = 10 J, I = 5 A. Formula: H = I²Rt → t = H / (I²R) = 10 J / (5² × 0.2) = 10 / (25 × 0.2) = 10 / 5 = 2 s. The fuse melts after 2 seconds. A wrong answer (e.g., 0.4 s or 20 s) reveals errors in squaring the current, unit handling, or algebraic rearrangement. The student may have forgotten to square the current (I²) or misapplied the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical circuits are protected by fuses of different ratings: Fuse A (5 A) and Fuse B (10 A). The normal operating current in each circuit is 4 A. Suddenly, a fault causes the current to rise to 7 A in both. Which fuse will blow first, and why? What happens to the circuit with the other fuse?",
+     "a": "Fuse A (5 A) will blow first because the fault current (7 A) exceeds its rated value (5 A), producing enough heat (I²Rt) to melt it. Fuse B (10 A) will not blow because 7 A is below its rating; the circuit remains connected, risking overheating of wires and appliances. A wrong answer (e.g., \"both blow\" or \"Fuse B blows first\") shows the student does not grasp that a fuse rating is the maximum safe continuous current, not a fixed melting current for all conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student replaces a blown 5 A fuse in a household lighting circuit with a piece of copper wire from a stranded cable. Evaluate this action: Is it safe? What are the likely consequences?",
+     "a": "This is extremely unsafe. Copper wire has a very high melting point and low resistance; it will not melt at currents that can overheat the circuit wiring (typically rated for 5-6 A). The copper \"fuse\" will not break the circuit during an overload, leading to overheating of insulation, fire risk, and damage to appliances. A wrong evaluation (e.g., \"it works fine\" or \"copper is a better conductor so it's safer\") reveals a dangerous misconception that any wire can act as a fuse, ignoring the critical requirement of a low melting point.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a variable resistor (rheostat), an ammeter, and different wires (copper, nichrome, tin-lead solder) to demonstrate the principle of a fuse. Describe the procedure and what you would observe.",
+     "a": "Connect the battery, ammeter, rheostat, and test wire in series. Gradually increase current by adjusting the rheostat. Observe and record the current at which each wire melts. The tin-lead solder will melt at the lowest current (demonstrating low melting point), nichrome at a higher current (high melting point), and copper may not melt at all within the battery's capability. A poor answer (e.g., \"measure resistance of wires\" or \"connect in parallel\") shows the student cannot translate the fuse principle into a testable experiment and confuses series/parallel connections.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

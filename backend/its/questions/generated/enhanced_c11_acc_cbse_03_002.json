@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_002",
+   "title": "c11_acc_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the three mandatory elements that distinguish a valid accounting voucher from a rough note or informal memo.",
+     "a": "A valid voucher must have: (1) Name of the firm printed on top, (2) Serial number in chronological order, (3) Signatures of both preparer and authorized person. A wrong answer (e.g., listing \"amount\" or \"date\" only) reveals the student confuses transaction details with voucher validity requirements — they miss that legal enforceability comes from authorization and sequencing, not just data fields.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Since a Compound Voucher has multiple debits and one credit, a transaction with two debits and two credits is also a Compound Voucher.\" Is this correct? Explain why or why not using the NCERT classification.",
+     "a": "Incorrect. NCERT defines Compound Voucher as having multiple debits/credits AND one credit/debit (i.e., many-to-one). A transaction with multiple debits AND multiple credits is a Complex/Journal Voucher. This misconception arises because students focus on \"multiple\" without noticing the asymmetry — they treat \"compound\" as simply \"more than two accounts\" rather than the specific many-to-one structure.",
+     "self_check": true
+    },
+    {
+     "q": "Prepare a Debit Voucher for: \"Paid ₹15,000 for rent (₹10,000) and electricity (₹5,000) by cheque on 12th March 2024.\" Use the exact NCERT specimen format.",
+     "a": "Debit Voucher\nName of Firm: [Firm Name]\nVoucher No: [Serial No.] Date: 12-03-2024\nCredit Account: Bank Amount: ₹15,000\nDebit Accounts:\nS.No. Code Account Name Amount Narration\n1 Rent A/c ₹10,000 Rent for March 2024\n2 Electricity A/c ₹5,000 Electricity bill Feb 2024\nTotal ₹15,000\nAuthorised By: [Signature] Prepared By: [Signature]\nA wrong answer (e.g., putting Bank on debit side) reveals confusion between voucher perspective (source of funds credited) and ledger perspective (bank account debited when money comes in) — they haven't internalized that vouchers show the transaction's effect on the firm's resources.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why does NCERT specify \"Date of transaction is filled up against the date and not the date of recording\" as a separate essential element? What error does this prevent?",
+     "a": "This prevents backdating or postdating vouchers to manipulate financial periods (e.g., recording a 31st March purchase on 1st April to shift expense to next year). The transaction date reflects economic reality; recording date reflects clerical timing. A student who misses this distinction treats vouchers as mere clerical tools rather than legal evidence — they don't grasp that audit trails require temporal integrity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"In a computerized accounting system, physical vouchers with signatures are unnecessary since the software logs user ID and timestamp.\" Defend or critique this statement for a Class 11 board exam context.",
+     "a": "Critique: Even in computerized systems, NCERT requires physical vouchers (or printed system-generated ones) with authorized signatures because: (1) Digital logs can be altered by admins; signed paper creates non-repudiation, (2) Tax audits (GST, Income Tax) demand physical evidence with wet signatures for certain thresholds, (3) The \"authorized person\" control is a segregation-of-duties principle — software entry maker ≠ approver. A student accepting the statement confuses system controls with legal evidentiary standards — they overlook that accountancy is a compliance discipline, not just data entry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (not from textbook) where a Complex/Journal Voucher is mandatory. Specify the transaction, all accounts affected, and draw the voucher format with correct debit/credit placement.",
+     "a": "Scenario: \"Purchased machinery worth ₹2,00,000 from X Ltd. Paid ₹50,000 by cheque, ₹30,000 by cash, and balance payable after 30 days.\"\nAccounts: Machinery (Dr ₹2,00,000), Bank (Cr ₹50,000), Cash (Cr ₹30,000), X Ltd (Cr ₹1,20,000).\nComplex Voucher with multiple debits (1) and multiple credits (3).\nA poor answer (e.g., splitting into two vouchers) reveals the student doesn't understand that a single economic event with multiple resource flows must be captured atomically — they treat accounting as fragmented entries rather than holistic transaction recording.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

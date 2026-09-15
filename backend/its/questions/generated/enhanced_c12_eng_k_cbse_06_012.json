@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_012",
+   "title": "c12_eng_k_cbse_06_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension in your own words and give one example of a literal question from \"A Lecture Upon the Shadow\".",
+     "a": "Literal comprehension involves extracting information directly stated in the text without interpretation. Example: \"At what time of day does the poem's second stage begin?\" (Answer: \"noone\" / noon, explicitly stated in line 7). A wrong answer (e.g., \"It represents maturity\") reveals the student confuses literal retrieval with inference — they cannot distinguish explicit facts from implied meanings.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a literal and an inferential question using the poem's shadow metaphor. Why is \"What do the shadows after noon represent?\" an inferential question?",
+     "a": "A literal question asks for what the text says (e.g., \"When do the shadows grow longer?\" — answer: \"all the day\" after noon). An inferential question asks for what the text means (e.g., \"What do the afternoon shadows represent?\" — answer: the lovers' own flaws and fading love, derived by connecting \"these which come behinde / Will worke upon our selves, and blind our eyes\" to \"If our loves faint, and westwardly decline\"). A wrong answer that quotes only the shadow lines without linking to \"loves faint\" shows the student treats inference as quotation-hunting rather than meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "Read these lines: \"Stand still and I will read to thee / A Lecture, Love, in loves philosophy\". Answer the literal question: Who is the speaker addressing, and what is he offering to do?",
+     "a": "The speaker addresses his beloved (\"Love\") and offers to read \"A Lecture ... in loves philosophy\". Steps: 1) Identify speaker (\"I\"), 2) Identify addressee (\"Love\" — capitalised as a term of address), 3) Identify action (\"will read to thee\"), 4) Identify content (\"A Lecture ... in loves philosophy\"). A wrong answer like \"He is teaching a class about love\" misses the intimate address and the metaphysical conceit — the student fails to recognise \"Love\" as the beloved, not the abstract concept.",
+     "self_check": true
+    },
+    {
+     "q": "Two students interpret the line \"Love is a growing, or full constant light\". Student A says: \"Love should always increase like the sun at noon.\" Student B says: \"Love must either grow steadily or remain at its peak; decline means it was never true love.\" Which interpretation is better supported by the poem? Justify using textual evidence.",
+     "a": "Student B's interpretation is better supported. The poem contrasts \"growing\" (morning, \"infant loves did grow\") with \"full constant light\" (noon, \"Sunne is just above our head\") and warns that decline (\"westwardly decline\") leads to \"night\" (\"loves day is short, if love decay\"). Student A ignores the \"full constant light\" alternative and the consequence of decay. A wrong choice reveals the student cannot weigh textual evidence — they pick the first plausible idea instead of testing both against the whole poem.",
+     "self_check": true
+    },
+    {
+     "q": "A sample answer to \"What is the poet's message to his beloved?\" reads: \"The poet tells his beloved that their love is like the sun and shadows. In the morning they had shadows but at noon they don't. He wants her to know that love changes.\" Evaluate this answer for a 3-mark CBSE question. What is missing?",
+     "a": "The answer is superficial (1/3 marks). It states literal plot (shadows at morning/noon) but misses the inferential core: the metaphorical meaning of shadows (disguises → self-deception), the warning about love's fragility (\"If our loves faint ... To me thou, falsely thine\"), and the structural contrast (growing vs. constant light). The student treated the poem as a narrative report, not a metaphysical argument. Missing: PEEL structure, key quotations (\"infant loves\", \"westwardly decline\"), and thematic synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential comprehension question on the poem that requires connecting the shadow metaphor to the theme of authenticity in love. Provide a model answer using PEEL.",
+     "a": "Question: \"How does Donne use the shift from morning to afternoon shadows to argue that authentic love cannot tolerate disguise?\" Model Answer: Point: The shadow shift reveals that early love's disguises become dangerous self-deception in mature love. Evidence: \"These three houres ... Two shadowes went / Along with us, which we our selves produc'd\" (morning) vs. \"these which come behinde / Will worke upon our selves, and blind our eyes\" (afternoon). Explanation: Morning shadows are mutual, external disguises (\"we our selves produc'd\"); afternoon shadows are internal, self-inflicted blindness (\"worke upon our selves\"). Link: Thus authenticity requires shedding disguises before they turn inward and destroy love. A poor answer would only describe the shadow shift without the metaphorical pivot from \"we\" to \"our selves\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

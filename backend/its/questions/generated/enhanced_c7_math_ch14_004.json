@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_004",
+   "title": "c7_math_ch14_004",
+   "questions": [
+    {
+     "q": "What geometric tool is strictly required alongside a ruler to construct a standard 60-degree angle without measuring degrees with a protractor?",
+     "a": "A compass is required. A wrong answer like \"a protractor\" shows confusion between measuring an angle and geometric construction using arcs and intersections. Construction methods rely on the properties of equilateral triangles formed by compass arcs.",
+     "self_check": true
+    },
+    {
+     "q": "When constructing a 90-degree angle on a given line segment using a compass, why do we first construct a perpendicular bisector or a perpendicular from a point? Explain the geometrical reason.",
+     "a": "A 90-degree angle represents a right angle, which is half of a straight line (180 degrees). Constructing a perpendicular ensures that the adjacent angles formed on the line sum to 180 degrees and are equal, resulting in 90 degrees each. A wrong answer indicating \"it just looks straight\" shows a lack of understanding of perpendicular properties.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an angle of 60° on a ray $PQ$. If your initial compass radius for drawing the arc from point $P$ is 4 cm, and you keep the exact same compass width to make an intersecting arc, what will be the measure of the angle formed?",
+     "a": "Steps:\n1. Draw ray $PQ$.\n2. With centre $P$ and any radius (4 cm), draw an arc intersecting $PQ$ at point $X$.\n3. With centre $X$ and the same radius (4 cm), cut the previous arc at point $Y$.\n4. Join $PY$ and extend it to form ray $PR$.\n5. The angle $\\angle RPQ$ is 60°.\nA wrong answer like 90° or 45° indicates the student did not use the property that an arc cut with the same radius forms an equilateral triangle with 60° interior angles.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between constructing an angle using a protractor versus constructing a 60° angle using a compass. Which method is considered a strict geometric construction, and why?",
+     "a": "The compass and ruler method is a strict geometric construction because it relies on pure deductive properties of circles and equidistant points (like constructing an equilateral triangle), whereas a protractor relies on pre-graduated empirical measurement. A wrong answer stating they are identical ignores the theoretical foundations of Euclidean geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to construct a 30° angle by drawing a 60° angle and then bisecting it. Their resulting angle measures 32° when checked with a protractor. Evaluate what error might have occurred during the construction steps.",
+     "a": "The student likely made an error during the angle bisector step by placing the compass needle inaccurately on the arms of the 60° angle or shifting the compass width while drawing the intersecting arcs for the bisector. A wrong answer saying \"angles cannot be bisected\" ignores the validity of the angle bisector theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step construction guide for a craftsman who needs to weld a metal rod at an angle of 135° using only a straightedge and compass. (Hint: 135° is 90° + 45°).",
+     "a": "The student should outline: 1. Draw a baseline ray. 2. Construct a 90° angle at the vertex. 3. Construct a 90° angle adjacent to it (or extend the line to form 180° and bisect the remaining 90° section to get 45°). 4. Combine 90° + 45° = 135°. A poor answer simply states \"use a protractor to draw 135°\", which fails the geometric construction constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

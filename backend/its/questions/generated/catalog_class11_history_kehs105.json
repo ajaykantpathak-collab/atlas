@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_history_kehs105",
+  "concepts": [
+    {
+      "id": "kehs.105.1.1",
+      "questions": [
+        {"q": "In which country's towns did the Renaissance begin? (one word)", "a": "Italy"},
+        {"q": "From which century did the Italian Renaissance unfold? (give the century)", "a": "14th century"},
+        {"q": "Which learning did Renaissance humanists revive: classical Greek and Roman, or medieval? (two words)", "a": "Greek and Roman"},
+        {"q": "Which early humanist, famous for his Latin letters, led the revival? (one word)", "a": "Petrarch"},
+        {"q": "Which urban social group carried the humanist culture? (two words)", "a": "urban elites"},
+        {"q": "Humanism celebrated human beings and their what? (one word)", "a": "capacities"},
+        {"q": "Which civilisation's learning did Petrarch help revive besides the Greek? (one word)", "a": "Roman"}
+      ]
+    },
+    {
+      "id": "kehs.105.2.1",
+      "questions": [
+        {"q": "Which Renaissance painter-engineer studied anatomy and flight? (two words)", "a": "Leonardo da Vinci"},
+        {"q": "Which sculptor of David and the Sistine ceiling towers over the Renaissance? (one word)", "a": "Michelangelo"},
+        {"q": "Which painter of the School of Athens completes the great Renaissance trio with Leonardo and Michelangelo? (one word)", "a": "Raphael"},
+        {"q": "Which technique gave Renaissance paintings realistic depth? (one word)", "a": "perspective"},
+        {"q": "Name one class of Renaissance patrons besides merchants and dukes. (one word)", "a": "popes"},
+        {"q": "Which science of the body did Renaissance artists advance through dissection? (one word)", "a": "anatomy"},
+        {"q": "The Renaissance spirit of observation prepared which later revolution in science? (two words)", "a": "Scientific Revolution"}
+      ]
+    },
+    {
+      "id": "kehs.105.3.1",
+      "questions": [
+        {"q": "Who invented the printing press with movable type in Europe? (one word)", "a": "Gutenberg"},
+        {"q": "In which year did Martin Luther launch the Reformation? (give the year)", "a": "1517"},
+        {"q": "What did Luther's movement come to be called? (one word)", "a": "Reformation"},
+        {"q": "Which western institution did Luther's protest divide? (one word)", "a": "Church"},
+        {"q": "Which explorer opened the Americas to Europe in 1492? (one word)", "a": "Columbus"},
+        {"q": "What technology spread books cheaply across Europe? (one word)", "a": "printing press"},
+        {"q": "How many continents did Columbus's voyage link for the first sustained exchange? (number)", "a": "2"}
+      ]
+    }
+  ]
+}

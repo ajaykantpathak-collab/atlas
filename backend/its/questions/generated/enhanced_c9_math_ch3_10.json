@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_10",
+   "title": "c9_math_ch3_10",
+   "questions": [
+    {
+     "q": "State the closure property of real numbers under addition. Give one example using an irrational number.",
+     "a": "Correct answer: For any two real numbers \\(a\\) and \\(b\\), \\(a + b\\) is also a real number. Example: \\(\\sqrt{2} + \\sqrt{3}\\) is a real number (approximately \\(3.146\\)). A wrong answer (e.g., stating commutativity \\(a+b=b+a\\) or saying the sum of two irrationals is always irrational) reveals the student confuses closure with other properties or incorrectly generalises about irrational subsets.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the set of real numbers **not** closed under division if we include division by zero? Give a specific numerical example.",
+     "a": "Correct answer: Division by zero is undefined in mathematics; \\(5 \\div 0\\) does not yield any real number (or any number at all). Therefore, the condition \"\\(b \\neq 0\\)\" is essential for closure under division. A wrong answer (e.g., saying \\(5 \\div 0 = \\infty\\) or \\(0\\)) reveals the student has not internalised that division by zero is undefined, not just \"infinite\" or \"zero\".",
+     "self_check": true
+    },
+    {
+     "q": "Let \\(a = \\sqrt{5}\\) and \\(b = \\sqrt{20}\\). Determine whether each of the following results in a real number: \\(a + b\\), \\(a - b\\), \\(a \\times b\\), \\(a \\div b\\). Show your simplification steps.",
+     "a": "\\(a = \\sqrt{5}\\), \\(b = \\sqrt{20} = 2\\sqrt{5}\\).  \n\\(a + b = 3\\sqrt{5}\\) (real, irrational).  \n\\(a - b = -\\sqrt{5}\\) (real, irrational).  \n\\(a \\times b = \\sqrt{5} \\times 2\\sqrt{5} = 2 \\times 5 = 10\\) (real, rational).  \n\\(a \\div b = \\frac{\\sqrt{5}}{2\\sqrt{5}} = \\frac{1}{2}\\) (real, rational).  \nAll results are real numbers. A wrong answer (e.g., claiming \\(a \\times b\\) is irrational) reveals the student incorrectly believes the product of two irrationals is always irrational.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the closure properties of the set of rational numbers \\(\\mathbb{Q}\\) and the set of irrational numbers \\(\\mathbb{I}\\) under addition and multiplication. Is \\(\\mathbb{I}\\) closed under addition? Under multiplication? Provide counterexamples if not.",
+     "a": "\\(\\mathbb{Q}\\) is closed under addition and multiplication (and subtraction, division by non-zero). \\(\\mathbb{I}\\) is **not** closed under addition: \\(\\sqrt{2} + (-\\sqrt{2}) = 0 \\in \\mathbb{Q}\\). \\(\\mathbb{I}\\) is **not** closed under multiplication: \\(\\sqrt{2} \\times \\sqrt{2} = 2 \\in \\mathbb{Q}\\). A wrong answer (claiming \\(\\mathbb{I}\\) is closed) reveals the student assumes a subset inherits closure from the superset \\(\\mathbb{R}\\), not understanding closure is a property of the specific set.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since \\(\\sqrt{3}\\) and \\(\\frac{1}{\\sqrt{3}}\\) are both irrational, and their product is \\(1\\) (rational), this proves irrational numbers are not closed under multiplication. But wait — \\(1\\) is a real number, so real numbers **are** closed.\" Evaluate this reasoning. Is the conclusion about real numbers valid?",
+     "a": "The reasoning is **correct**. The example \\(\\sqrt{3} \\times \\frac{1}{\\sqrt{3}} = 1\\) correctly shows \\(\\mathbb{I}\\) is not closed (result left \\(\\mathbb{I}\\)). The conclusion that \\(\\mathbb{R}\\) is closed is valid because \\(1 \\in \\mathbb{R}\\). The student correctly distinguishes between the subset (\\(\\mathbb{I}\\)) and the superset (\\(\\mathbb{R}\\)). A wrong evaluation (saying the student is wrong because the product is rational) reveals confusion: they think closure of \\(\\mathbb{R}\\) requires the result to stay irrational, missing that \\(\\mathbb{R}\\) includes both rationals and irrationals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: money, distance, weight) that requires **at least two different operations** on real numbers (one irrational measurement). Solve it and explain why each intermediate and final result is guaranteed to be a real number.",
+     "a": "Example: A square garden has a diagonal path of length \\(10\\sqrt{2}\\) metres. Find the side length and the cost of fencing the perimeter at ₹\\(120.50\\) per metre.  \nSide \\(= \\frac{10\\sqrt{2}}{\\sqrt{2}} = 10\\) m (real).  \nPerimeter \\(= 4 \\times 10 = 40\\) m (real).  \nCost \\(= 40 \\times 120.50 = ₹4820\\) (real).  \nAll operations (division, multiplication) on real numbers yield real numbers because \\(\\mathbb{R}\\) is closed. A poor answer computes without justifying closure or uses only rational numbers, missing the requirement for an irrational measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

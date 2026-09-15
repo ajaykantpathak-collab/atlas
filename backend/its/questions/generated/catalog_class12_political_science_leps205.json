@@ -1,0 +1,191 @@
+{
+ "catalog": "catalog_class12_political_science_leps205",
+ "concepts": [
+  {
+   "id": "leps.205.1.1",
+   "title": "Challenge of Political Succession after Nehru",
+   "questions": [
+    {
+     "q": "Using the method 'Challenge of Political Succession after Nehru', work with: party_consensus_on_shastri = 45, secret_ballot_for_indira = 150. Carry the chain through step by step and give the final value of democratic_succession.",
+     "a": "195 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Challenge of Political Succession after Nehru' and work with: party_consensus_on_shastri = 20, secret_ballot_for_indira = 300. Carry the chain through step by step and give the final value of democratic_succession.",
+     "a": "320 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Challenge of Political Succession after Nehru' refers to.",
+     "a": "Nehru's death in May 1964 raised two fears -- after Nehru who, and after Nehru what -- since outsiders doubted a poor, divided country could manage a democratic succession without the army stepping in; instead Kamaraj organised a party consensus behind Lal Bahadur Shastri, and when Shastri died at Tashkent on 11 January 1966, a secret ballot gave Indira Gandhi more than two-thirds of Congress MPs against Morarji Desai, proving the critics wrong twice in two years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Challenge of Political Succession after Nehru'.",
+     "a": "The 1960s were called the dangerous decade, yet two successions in two years passed peacefully and were judged smoother than Britain's own at the time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Challenge of Political Succession after Nehru', in plain ASCII form.",
+     "a": "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.205.2.1",
+   "title": "Economic Crisis and the Devaluation of 1966",
+   "questions": [
+    {
+     "q": "Using the method 'Economic Crisis and the Devaluation of 1966', work with: price_rise_pressure = 5000, rate_after = 20, rate_before = 8. Carry the chain through step by step and give the final value of public_discontent.",
+     "a": "12500 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Economic Crisis and the Devaluation of 1966' and work with: price_rise_pressure = 500, rate_after = 8, rate_before = 18. Carry the chain through step by step and give the final value of public_discontent.",
+     "a": "222.2222 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Economic Crisis and the Devaluation of 1966' refers to.",
+     "a": "Before the 1967 elections the economy was in crisis: failed monsoons and drought cut farm output, food shortage and price rise provoked nationwide protests, foreign exchange reserves depleted and military spending rose -- and one of Indira Gandhi's first decisions was to devalue the rupee under perceived US pressure, taking the dollar from under Rs 5 to over Rs 7.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic Crisis and the Devaluation of 1966'.",
+     "a": "A weaker rupee and dearer imports deepened popular discontent, and a government that treated protests as law and order trouble only stored up bitterness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Economic Crisis and the Devaluation of 1966', in plain ASCII form.",
+     "a": "devaluation_percent = (rate_after - rate_before) / rate_before * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.205.3.1",
+   "title": "The 1967 Verdict, Non-Congressism and Coalition Politics",
+   "questions": [
+    {
+     "q": "Using the method 'The 1967 Verdict, Non-Congressism and Coalition Politics', work with: anti_congress_fronts = 200, electoral_seat_adjustments = 200, svd_coalitions = 10. Carry the chain through step by step and give the final value of non_congressism.",
+     "a": "410 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The 1967 Verdict, Non-Congressism and Coalition Politics' and work with: anti_congress_fronts = 80, electoral_seat_adjustments = 60, svd_coalitions = 100. Carry the chain through step by step and give the final value of non_congressism.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The 1967 Verdict, Non-Congressism and Coalition Politics' refers to.",
+     "a": "The February 1967 results were called a political earthquake: the Congress kept a reduced Lok Sabha majority -- half the ministers defeated, stalwarts like Kamaraj and S.K. Patil lost -- but lost majority in seven states and power in two more through defections; the DMK won Madras outright after leading the anti-Hindi agitation, ideologically mismatched parties formed SVD coalition governments, and Lohia's strategy of non-Congressism united opponents merely on the logic of removing the Congress.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The 1967 Verdict, Non-Congressism and Coalition Politics'.",
+     "a": "For the first time a train from Delhi to Howrah need not cross a single Congress-ruled state -- one-party dominance had been broken, though not replaced.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The 1967 Verdict, Non-Congressism and Coalition Politics', in plain ASCII form.",
+     "a": "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.205.4.1",
+   "title": "Defection and the Aya Ram Gaya Ram Phenomenon",
+   "questions": [
+    {
+     "q": "Using the method 'Defection and the Aya Ram Gaya Ram Phenomenon', work with: constant_realignments = 6, frequent_floor_crossing = 80. Carry the chain through step by step and give the final value of government_instability.",
+     "a": "86 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Defection and the Aya Ram Gaya Ram Phenomenon' and work with: constant_realignments = 400, frequent_floor_crossing = 120. Carry the chain through step by step and give the final value of government_instability.",
+     "a": "520 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Defection and the Aya Ram Gaya Ram Phenomenon' refers to.",
+     "a": "Defection is when an elected legislator abandons the party whose symbol won him or her the seat and joins another; after 1967 breakaway Congress legislators installed non-Congress governments in Haryana, Madhya Pradesh and Uttar Pradesh, and the Haryana MLA Gaya Lal's three party switches within a fortnight -- celebrated as Gaya Ram was now Aya Ram -- gave the phrase Aya Ram Gaya Ram to Indian politics until a constitutional amendment curbed floor-crossing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Defection and the Aya Ram Gaya Ram Phenomenon'.",
+     "a": "Where no party had a majority, individual legislators became kingmakers and governments were made and unmade by shifting loyalties.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Defection and the Aya Ram Gaya Ram Phenomenon', in plain ASCII form.",
+     "a": "government_instability = frequent_floor_crossing + constant_realignments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.205.5.1",
+   "title": "Indira versus the Syndicate and the Split of 1969",
+   "questions": [
+    {
+     "q": "Using the method 'Indira versus the Syndicate and the Split of 1969', work with: giri_conscience_vote = 10, indira_left_programme = 6, syndicate_control = 360. Carry the chain through step by step and give the final value of congress_split_1969.",
+     "a": "376 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indira versus the Syndicate and the Split of 1969' and work with: giri_conscience_vote = 6, indira_left_programme = 20, syndicate_control = 5. Carry the chain through step by step and give the final value of congress_split_1969.",
+     "a": "31 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indira versus the Syndicate and the Split of 1969' refers to.",
+     "a": "The Syndicate -- Kamaraj, S.K. Patil, S. Nijalingappa, N. Sanjeeva Reddy and Atulya Ghosh -- controlled the party organisation and expected the Prime Minister they had installed to follow their advice; Indira Gandhi instead built her own circle of advisers, converted the power struggle into an ideological one through the Ten Point Programme of May 1967, bank nationalisation and privy purse abolition, and when the Syndicate forced official candidate Sanjeeva Reddy on the party in the 1969 presidential poll, her conscience vote carried the independent V.V. Giri to victory and formalised the split into Congress (Organisation) and Congress (Requisitionists).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indira versus the Syndicate and the Split of 1969'.",
+     "a": "By casting the fight as pro-poor versus pro-rich, Indira Gandhi turned a factional clash into a popular mandate for the new Congress.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indira versus the Syndicate and the Split of 1969', in plain ASCII form.",
+     "a": "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.205.6.1",
+   "title": "The 1971 Election and the Restoration of Congress Dominance",
+   "questions": [
+    {
+     "q": "Using the method 'The 1971 Election and the Restoration of Congress Dominance', work with: cpi_alliance = 24, positive_slogan = 500, pro_poor_programme = 100. Carry the chain through step by step and give the final value of garibi_hatao_victory.",
+     "a": "624 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The 1971 Election and the Restoration of Congress Dominance' and work with: cpi_alliance = 18, positive_slogan = 30, pro_poor_programme = 80. Carry the chain through step by step and give the final value of garibi_hatao_victory.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The 1971 Election and the Restoration of Congress Dominance' refers to.",
+     "a": "Reduced to a minority and dependent on the CPI and DMK, Indira Gandhi gambled on an early poll in February 1971: against the Grand Alliance of SSP, PSP, Jan Sangh, Swatantra and Bharatiya Kranti Dal, whose only programme was Indira Hatao, she counter-posed Garibi Hatao -- public sector growth, land ceilings, abolition of princely privileges -- and won a landslide, with the Congress(R)-CPI alliance taking 375 seats and 48.4 per cent of votes while the Congress (O) sank to 16 seats, restoring the Congress as the dominant party under a new populist banner.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The 1971 Election and the Restoration of Congress Dominance'.",
+     "a": "An agenda beats an alliance of enemies: the side with an issue and a slogan swept the side that only wanted one person removed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The 1971 Election and the Restoration of Congress Dominance', in plain ASCII form.",
+     "a": "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

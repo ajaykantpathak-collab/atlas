@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_2",
+   "title": "c9_bio_ch4_2",
+   "questions": [
+    {
+     "q": "Define evolution in biological terms and state one key difference between evolution and metamorphosis.",
+     "a": "Evolution is the change in heritable traits of populations over generations, not changes within an individual's lifetime. Metamorphosis (e.g., tadpole to frog) is a programmed developmental change within one generation, whereas evolution requires genetic change passed to offspring across multiple generations. A wrong answer confusing evolution with individual development reveals the student thinks evolution happens to a single organism during its life — a classic Lamarckian misconception.",
+     "self_check": true
+    },
+    {
+     "q": "The forelimbs of a human, bat, whale, and lizard have similar bone structures but different functions. Explain why this is evidence for evolution and not evidence for intelligent design creating each organism separately.",
+     "a": "The shared pentadactyl limb pattern (one upper bone, two lower bones, wrist bones, five digits) across mammals and reptiles indicates inheritance from a common ancestor that had this arrangement. If each organism were designed independently for its function, a bat's wing would not contain the same bones as a human hand — it would be optimally structured for flight (like insect wings). A wrong answer focusing only on \"similarity proves common design\" misses the critical point: the *suboptimal* retention of the same bones for different functions (e.g., whale flipper bones not ideal for swimming) is strong evidence of historical constraint from common ancestry.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that both birds and insects have wings for flying. They conclude birds and insects share a recent common ancestor. Identify the error in this reasoning and name the correct evolutionary concept illustrated by wings of birds and insects.",
+     "a": "The error is confusing analogy (similar function, different structure/origin) with homology (similar structure, common origin). Bird wings are modified forelimbs with bones; insect wings are outgrowths of the exoskeleton with no bones. This is convergent evolution — independent evolution of similar adaptations (flight) in unrelated lineages due to similar selective pressures. A wrong answer reveals the student equates functional similarity with evolutionary relatedness, ignoring structural and developmental differences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the embryonic development of a fish, chicken, and human. At early stages, all three show pharyngeal gill slits and a post-anal tail. Explain how this embryological evidence supports evolution, and why these features disappear in the human adult.",
+     "a": "Early embryonic similarities (pharyngeal arches, tail) reflect shared developmental genetic programs inherited from a common vertebrate ancestor. In fish, gill slits develop into functional gills; in humans, they develop into ear canals, thymus, and parathyroid glands — showing modification of ancestral structures for new functions. The tail regresses via apoptosis. A wrong answer stating \"humans have gills as embryos\" confuses pharyngeal arches (present in all vertebrates) with functional gills, missing the concept of developmental repurposing (exaptation).",
+     "self_check": true
+    },
+    {
+     "q": "A fossil sequence shows: Layer 1 (oldest) — simple jawless fish; Layer 2 — jawed fish with bony skeleton; Layer 3 — amphibian-like creature with limbs; Layer 4 — early reptile. Evaluate whether this sequence proves direct linear evolution from fish to reptile, or if another interpretation is more scientifically sound.",
+     "a": "The sequence shows a *pattern* of increasing complexity and new traits (jaws, bony skeleton, limbs, amniotic adaptations) over time, consistent with evolution. However, it does NOT prove direct linear ancestry — each fossil represents a branch, not necessarily the direct ancestor. The amphibian-like creature in Layer 3 is likely a cousin of the true tetrapod ancestor. A wrong answer claiming \"this proves fish turned into reptiles step by step\" reveals a ladder-thinking misconception; evolution is a branching bush, not a ladder.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using only observable features (no DNA) to determine whether the wings of a butterfly and a bat are homologous or analogous. List the specific structures you would compare and the conclusion each outcome would support.",
+     "a": "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins. (2) developmental origin — bat wing develops from forelimb bud; butterfly wing from imaginal discs in larva. (3) muscle attachment — bat uses modified forelimb muscles; butterfly uses thoracic muscles. If structures differ fundamentally in composition, development, and attachment → analogous (convergent evolution). If they share bone pattern, developmental origin, and muscle homology → homologous. A poor answer only compares \"both used for flying,\" ignoring structural and developmental criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

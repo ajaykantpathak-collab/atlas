@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_004",
+   "title": "c11_math_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the precise condition that must be satisfied for a set A to be a subset of a set B, using the symbols ∈ and ⇒.",
+     "a": "A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). A wrong answer like \"A ⊂ B means all elements of B are in A\" reveals confusion between subset and superset direction. Writing \"x ∈ A ∧ x ∈ B\" instead of implication shows the student does not grasp the conditional nature of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2} and B = {1, 2, 3}. Is A ⊂ B? Is B ⊂ A? Is A a proper subset of B? Justify each answer using the definition.",
+     "a": "A ⊂ B is true because 1 ∈ A ⇒ 1 ∈ B and 2 ∈ A ⇒ 2 ∈ B. B ⊂ A is false because 3 ∈ B but 3 ∉ A, violating the implication. A is a proper subset of B because A ⊂ B and A ≠ B (3 ∈ B but 3 ∉ A). A student who says \"B ⊂ A because B has more elements\" confuses cardinality with the subset condition.",
+     "self_check": true
+    },
+    {
+     "q": "Given C = {x ∈ ℤ : x² < 10} and D = {−3, −2, −1, 0, 1, 2, 3}. Determine whether C ⊂ D and whether D ⊂ C. Show all steps.",
+     "a": "C = {x ∈ ℤ : x² < 10} = {−3, −2, −1, 0, 1, 2, 3} because (−3)²=9<10, (−2)²=4<10, (−1)²=1<10, 0²=0<10, 1²=1<10, 2²=4<10, 3²=9<10, but 4²=16≥10. So C = D exactly. Therefore C ⊂ D (true, every element of C is in D) and D ⊂ C (true, every element of D is in C). Since C = D, neither is a proper subset of the other. A student who writes C = {1,2,3} misses negative integers, revealing they forgot ℤ includes negatives.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"For any sets A, B, C, if A ⊂ B and B ⊂ C, then A ⊂ C.\" Is this always true? Prove your answer or give a counterexample.",
+     "a": "Yes, always true. Proof: Assume A ⊂ B and B ⊂ C. Let x ∈ A be arbitrary. Since A ⊂ B, x ∈ A ⇒ x ∈ B. Since B ⊂ C, x ∈ B ⇒ x ∈ C. By transitivity of implication, x ∈ A ⇒ x ∈ C. Since x was arbitrary, ∀x(x ∈ A ⇒ x ∈ C), so A ⊂ C. A student who says \"false, counterexample: A={1}, B={1,2}, C={2,3}\" fails to check that B ⊂ C is false here (1 ∈ B but 1 ∉ C), revealing they don't verify the premise properly.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"φ ⊄ {1, 2, 3} because the empty set has no elements, so it cannot be a subset of anything.\" Evaluate this reasoning and correct the error.",
+     "a": "The reasoning is incorrect. The definition A ⊂ B means ∀x(x ∈ A ⇒ x ∈ B). For A = φ, there is no x such that x ∈ φ, so the implication \"x ∈ φ ⇒ x ∈ B\" is vacuously true for every x. Hence φ ⊂ B for every set B, including {1, 2, 3}. The student's error is treating \"no elements to check\" as \"condition fails\" instead of \"condition holds vacuously.\" This is a classic logical misunderstanding of universal quantification over an empty domain.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an example of three sets A, B, C such that A ⊂ B, B ⊄ C, but A ⊂ C. Explain why this does not contradict the transitivity property proved in Question 4.",
+     "a": "Example: A = {1}, B = {1, 2}, C = {1, 3}. Then A ⊂ B (1 ∈ A ⇒ 1 ∈ B), B ⊄ C (2 ∈ B but 2 ∉ C), but A ⊂ C (1 ∈ A ⇒ 1 ∈ C). This does not contradict transitivity because transitivity requires BOTH A ⊂ B AND B ⊂ C to conclude A ⊂ C. Here B ⊂ C is false, so the premise of transitivity is not satisfied — the conclusion A ⊂ C happens to be true for a different reason (1 happens to be in C). A student who says \"this contradicts transitivity\" fails to distinguish between \"premise false, conclusion true\" and \"premise true, conclusion false.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

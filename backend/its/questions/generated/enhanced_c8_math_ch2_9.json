@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_9",
+   "title": "c8_math_ch2_9",
+   "questions": [
+    {
+     "q": "Write the simplified form of (5^2)^3 using a single exponent. Do not calculate the final value.",
+     "a": "Correct answer: 5^6. A wrong answer of 5^5 reveals the student added exponents (2+3) instead of multiplying them, confusing the power of a power rule with the product rule a^m × a^n = a^(m+n). A wrong answer of 25^3 or 125^2 shows the student evaluated the inner power first but didn't express the result as a single power of the original base.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (3^4)^2 = 3^8 by writing out the repeated multiplication. Do not just state the rule.",
+     "a": "Correct explanation: (3^4)^2 = (3×3×3×3)^2 = (3×3×3×3) × (3×3×3×3) = 3^8. The exponent 4 appears twice because the base 3^4 is multiplied by itself 2 times, giving 4×2 = 8 factors of 3. A wrong answer stating \"we multiply exponents because the rule says so\" without expansion shows rote memorization without conceptual understanding. A wrong expansion like 3^4 × 3^2 = 3^6 reveals confusion between power of a power and product of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (x^5)^3 × (x^2)^4. Write your answer as a single power of x.",
+     "a": "Correct answer: x^23. Steps: (x^5)^3 = x^(5×3) = x^15. (x^2)^4 = x^(2×4) = x^8. Then x^15 × x^8 = x^(15+8) = x^23. A wrong answer of x^14 (adding 5+3+2+4) reveals the student applied the power rule incorrectly by adding instead of multiplying, then added again. A wrong answer of x^120 (multiplying all exponents 5×3×2×4) shows the student multiplied across the multiplication sign instead of applying power rule to each term separately then using product rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (2^3)^4 and 2^3 × 2^4. Are they equal? Explain using the meaning of exponents.",
+     "a": "Correct answer: Not equal. (2^3)^4 = 2^(3×4) = 2^12 = 4096. 2^3 × 2^4 = 2^(3+4) = 2^7 = 128. The first has 3 fours times = 12 factors of 2. The second has 3 factors of 2 multiplied by 4 factors of 2 = 7 factors total. A wrong answer saying they are equal because \"both involve 3 and 4\" reveals the student sees numbers but not the structural difference: power of a power means repeated multiplication of a power, while product of powers means multiplying two different powers of the same base.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified (y^2)^5 as y^7. Identify the error, explain why it is wrong, and show the correct simplification.",
+     "a": "The error: The student added the exponents (2+5=7) instead of multiplying them (2×5=10). This confuses (a^m)^n with a^m × a^n. Correct: (y^2)^5 = y^(2×5) = y^10. Expansion proof: (y^2)^5 = (y×y)^5 = (y×y)×(y×y)×(y×y)×(y×y)×(y×y) = y^10. A wrong diagnosis like \"forgot the rule\" without identifying the specific confusion between addition and multiplication of exponents shows the teacher cannot target the exact misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving area or volume where you would use (a^m)^n. Write the problem and solve it showing the power of a power rule.",
+     "a": "Sample good answer: \"A cubical storage box has side length 10^2 cm. Find its volume.\" Volume = (side)^3 = (10^2)^3 = 10^(2×3) = 10^6 cm^3. This uses power of a power because the side itself is a power (10^2) and we raise it to power 3 for volume. A poor answer using simple numbers like \"side = 2 cm, volume = 2^3\" doesn't demonstrate the rule. An answer using (2^3)^2 for area of a square with side 2^3 works but shows less creativity in context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

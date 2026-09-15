@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_005",
+   "title": "c11_hs_cbse_09_005",
+   "questions": [
+    {
+     "q": "List the four essential self-help features NCERT specifies for children's clothing and the one fastener type explicitly discouraged for preschoolers.",
+     "a": "The four essential self-help features are: (1) large front openings, (2) large buttons graspable by a child's hand, (3) distinct front/back appearance for easy orientation, and (4) raglan sleeves for arm mobility. Small buttons with thread loops are explicitly discouraged as they retard self-help. A wrong answer (e.g., listing \"zippers\" or \"elastic waist\" as primary self-help features) reveals the student is conflating convenience features with true independence-enabling design — zippers often require fine motor coordination beyond a 3-year-old, and elastic waists don't teach fastening skills.",
+     "self_check": true
+    },
+    {
+     "q": "A mother buys a size-larger kurta for her 5-year-old son \"so it lasts longer.\" Using NCERT principles, explain why this violates both comfort and safety criteria, and name the specific growth allowance technique that would achieve her goal correctly.",
+     "a": "Oversized garments violate comfort (excess fabric restricts movement, causes tripping) and safety (loose cloth catches on play equipment, fire hazard near stoves). The correct technique is \"cuffs at the hemline which can be later let down to increase leg length\" — buying the correct current size with a 5-6 cm hem allowance. A wrong answer focusing only on \"it looks untidy\" misses the physiological rationale: NCERT emphasizes that clothes too large \"can be as uncomfortable as those that are too small\" because they impede the rolling, crawling, climbing movements essential for motor development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a preschool frock (ages 3-4) incorporating minimum three self-help features and two growth allowances. Sketch or describe each feature with its functional justification.",
+     "a": "A valid design includes: (1) Front placket opening 35 cm long with 1.5 cm diameter buttons — enables independent dressing; (2) Contrast piping on front neckline only — instant front/back identification; (3) Raglan sleeves with 2 cm shoulder tucks — allows arm raising + future width growth; (4) 5 cm deep hem cuff with blind stitching — lengthens 4 cm when released; (5) Adjustable elastic-button waist tabs — accommodates girth changes. Missing any self-help feature (e.g., using back zipper) fails the independence criterion; omitting growth allowances (e.g., fixed hem) fails the economic/longevity criterion. A poor answer lists features without linking each to a specific developmental need (e.g., \"buttons because they're cute\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare raglan sleeves vs. set-in sleeves for a 7-year-old's school uniform across four dimensions: shoulder mobility, growth accommodation, ease of construction, and durability at seam. Which does NCERT recommend and why?",
+     "a": "Raglan sleeves: (1) Superior shoulder mobility — diagonal seam follows natural arm motion; (2) Better growth accommodation — no armhole binding, shoulder tucks easily added; (3) Simpler construction — one-piece sleeve/body, fewer seams; (4) Higher durability — seam distributes stress across chest/back. Set-in sleeves: restricted overhead reach, armhole tightens with growth, complex easing required, seam concentrates stress at shoulder point. NCERT recommends raglan sleeves explicitly: \"Raglan sleeves provide for more freedom as well as growth than set-in fitted sleeves.\" A wrong answer choosing set-in for \"neater finish\" prioritises aesthetics over the child's physical needs — a senior secondary error of misapplying adult tailoring standards to children's wear.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Velcro closures are the ultimate self-help fastener for all children's garments because they require no fine motor skills.\" Use NCERT criteria and developmental considerations.",
+     "a": "The statement is partially correct but dangerously incomplete. Velcro excels for toddlers (1-3 years) developing pincer grasp — NCERT notes \"velcros and zippers with key chains are good choices\" for special needs. However, for preschoolers (3-6 years), over-reliance on Velcro delays buttoning/zipping skill acquisition needed for school uniforms and social conformity. Also, Velcro degrades with lint, loses grip after 30-40 washes, and can scratch sensitive skin. NCERT's hierarchy: large buttons first (teach threading motion), then zippers with pull tabs, Velcro only where buttons impractical (shoes, adaptive wear). A wrong answer accepting the statement uncritically shows inability to evaluate developmental appropriateness — a key Class 11 competency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Growth Allowance Checklist\" for a clothing manufacturer producing 2000 units of cotton-polyester blend trousers for ages 6-8 years. Include measurable specifications (cm, stitch type, reinforcement) for each allowance feature that balances cost, durability, and NCERT compliance.",
+     "a": "A competent checklist specifies: (1) Hem: 6 cm double-fold cuff, blind-stitched with polyester core-spun thread (allows 4 cm let-down, resists abrasion); (2) Waist: 3 cm elastic channel + 2 buttonhole tabs at side seams (adjusts ±3 cm girth); (3) Knee reinforcement: 8×8 cm cotton twill patch, bar-tacked at corners (withstands crawling wear); (4) Crotch gusset: 5 cm diamond-shaped insert, flat-felled seam (allows stride length increase); (5) Seam allowance: 1.5 cm throughout, serged finish (permits future letting-out). Each spec references NCERT: hem cuffs, adjustable straps, flat seams, strain reinforcement. A poor answer gives vague \"extra hem\" without measurements or stitch specs, showing inability to translate principles into production parameters — the gap between textbook knowledge and vocational application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 105,
+ "chapter_title": "Work, Energy and Power",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/keph105.txt",
+ "concepts": [
+  {
+   "id": "keph.5.1.1",
+   "title": "Scalar Product of Two Vectors",
+   "section": "5.1.1",
+   "definition": "In brief, In brief, In brief, In brief, the dot product of two vector quantities produces a scalar value same as the result of multiplying their magnitudes and the angle's cosine between their directions.",
+   "formula": "dot_product = ax * bx + ay * by + az * bz",
+   "key_idea": "In brief, In brief, In brief, In brief, the scalar product evaluates the projection of one vector along the direction of another.",
+   "textbook_ref": "keph105.txt lines 25-65",
+   "question_patterns": [
+    "calculate the scalar product of two vectors",
+    "find the dot product of vector A and vector B",
+    "what is the projection of force on displacement vector",
+    "determine the dot product given vector components"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply corresponding component values and sum them",
+     "explain": "The dot product in rectangular components equals the sum of pairwise products of components along each axis.",
+     "compute": "dot_product = ax * bx + ay * by + az * bz"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.2",
+   "title": "Work-Energy Theorem for Constant Force",
+   "section": "5.2",
+   "definition": "The net work performed on a particle by the vector sum of all acting forces is equal to the resulting change in the particle's kinetic energy.",
+   "formula": "work = ke_final - ke_initial",
+   "key_idea": "Net work done on a body directly increases or decreases its kinetic energy.",
+   "textbook_ref": "keph105.txt lines 70-110",
+   "question_patterns": [
+    "calculate work done using change in kinetic energy",
+    "find the work done by resistive force on a falling drop",
+    "determine work done on a raindrop using initial and final speeds",
+    "what is the net work done on a moving particle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial kinetic energy",
+     "explain": "Initial kinetic energy depends on mass and initial speed.",
+     "compute": "ke_i = 0.5 * mass * initial_speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate final kinetic energy",
+     "explain": "Final kinetic energy depends on mass and final speed.",
+     "compute": "ke_f = 0.5 * mass * final_speed ** 2"
+    },
+    {
+     "step": 3,
+     "action": "compute net work done",
+     "explain": "Net work equals final kinetic energy minus initial kinetic energy.",
+     "compute": "net_work = ke_f - ke_i"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.3",
+   "title": "Work Done by a Constant Force",
+   "section": "5.3",
+   "definition": "In brief, in brief, work done by a constant force means the result of multiplying the magnitude of both both both both both both both both both both both both both displacement and the constituent of force in the direction of that displacement.",
+   "formula": "work = force * displacement * cos_theta",
+   "key_idea": "In brief, Work is a scalar amount that varies with force, displacement, and the angle between them.",
+   "textbook_ref": "keph105.txt lines 110-160",
+   "question_patterns": [
+    "find the work done by a constant force",
+    "calculate the work when force is applied at an angle to displacement",
+    "what is the work done on a displaced object",
+    "compute the work done against friction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply force, displacement, and cosine of angle",
+     "explain": "Work equals magnitude of force times magnitude of displacement times cosine of the angle between them.",
+     "compute": "work = force * displacement * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.4",
+   "title": "Kinetic Energy",
+   "section": "5.4",
+   "definition": "In brief, Kinetic energy represents the capacity of an object to do work purely by virtue of its state of motion.",
+   "formula": "ke = (1/2) * mass * speed**2",
+   "key_idea": "Kinetic energy is a positive scalar quantity proportional to mass and the square of velocity.",
+   "textbook_ref": "keph105.txt lines 165-200",
+   "question_patterns": [
+    "find the kinetic energy of a moving body",
+    "calculate the kinetic energy given mass and speed",
+    "what is the emergent speed of a bullet losing part of its kinetic energy",
+    "compute the final kinetic energy after speed reduction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate kinetic energy from mass and speed",
+     "explain": "Kinetic energy is half mass times speed squared.",
+     "compute": "ke = 0.5 * mass * speed ** 2"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.5",
+   "title": "Work Done by a Variable Force",
+   "section": "5.5",
+   "definition": "The total work performed by a position-varying force equals the area under the force-versus-position curve across the displacement interval.",
+   "formula": "work = constant_force * dist1 + (1/2) * (initial_force + final_force) * dist2",
+   "key_idea": "Variable work is calculated by summing linear or rectangular sub-areas under a force-position graph.",
+   "textbook_ref": "keph105.txt lines 205-250",
+   "question_patterns": [
+    "calculate work done by a variable force",
+    "find work done from a force versus displacement graph",
+    "determine work done by a linearly reducing force",
+    "compute total work done over multiple path segments"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate work in constant force interval",
+     "explain": "Area of rectangle gives work in first segment.",
+     "compute": "w1 = force1 * dist1"
+    },
+    {
+     "step": 2,
+     "action": "calculate work in linearly changing force interval",
+     "explain": "Area of trapezium gives work in second segment.",
+     "compute": "w2 = 0.5 * (force1 + force2) * dist2"
+    },
+    {
+     "step": 3,
+     "action": "sum work contributions",
+     "explain": "Total work is the sum of work over all segments.",
+     "compute": "total_work = w1 + w2"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.6",
+   "title": "Work-Energy Theorem for Variable Force",
+   "section": "5.6",
+   "definition": "The definite integral of a variable force over a spatial interval equals the net change in kinetic energy between the boundary positions.",
+   "formula": "ke_final = ke_initial + integral_force_dx",
+   "key_idea": "In brief, In brief, Integrating force with respect to displacement yields the net kinetic energy change.",
+   "textbook_ref": "keph105.txt lines 250-280",
+   "question_patterns": [
+    "calculate final kinetic energy for a spatially variable retarding force",
+    "find final speed after passing through a variable force region",
+    "apply work energy theorem to an inverse position force",
+    "compute kinetic energy change under position dependent force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial kinetic energy",
+     "explain": "Determine starting kinetic energy from initial speed.",
+     "compute": "ke_i = 0.5 * mass * initial_speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "add integrated work done to initial kinetic energy",
+     "explain": "Final kinetic energy equals initial kinetic energy plus integral of force over displacement.",
+     "compute": "ke_f = ke_i + work_integrated"
+    },
+    {
+     "step": 3,
+     "action": "calculate final speed from final kinetic energy",
+     "explain": "Speed is square root of twice kinetic energy divided by mass.",
+     "compute": "final_speed = sqrt(2 * ke_f / mass)"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.7",
+   "title": "Gravitational Potential Energy",
+   "section": "5.7",
+   "definition": "Gravitational potential energy is energy stored within a system due to the vertical elevation of an object against Earth's gravitational pull.",
+   "formula": "pe = mass * g * height",
+   "key_idea": "Potential energy reflects stored capacity for mechanical work based on vertical position.",
+   "textbook_ref": "keph105.txt lines 270-310",
+   "question_patterns": [
+    "calculate gravitational potential energy",
+    "find potential energy at height h",
+    "what is the stored energy of an elevated mass",
+    "compute potential energy change when height increases"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute potential energy from mass, acceleration of gravity, and height",
+     "explain": "Multiply mass, acceleration due to gravity, and height.",
+     "compute": "pe = mass * g * height"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.8",
+   "title": "Conservation of Mechanical Energy",
+   "section": "5.8",
+   "definition": "In brief, In brief, In brief, In brief, the total mechanical energy of an isolated system remains constant over time provided all internal working forces are conservative.",
+   "formula": "total_energy = (1/2) * mass * speed**2 + mass * g * height",
+   "key_idea": "In brief, In brief, In brief, Kinetic and potential energies convert into one another while their total sum stays fixed.",
+   "textbook_ref": "keph105.txt lines 315-375",
+   "question_patterns": [
+    "find speed at bottom of trajectory using energy conservation",
+    "calculate minimum velocity at lowest point for circular motion",
+    "determine total mechanical energy of a falling body",
+    "what is the velocity at height h using energy conservation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine initial total mechanical energy",
+     "explain": "Total energy at top is purely gravitational potential energy.",
+     "compute": "total_energy = mass * g * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate final speed assuming total conversion to kinetic energy",
+     "explain": "Equate total energy to kinetic energy at ground level.",
+     "compute": "final_speed = sqrt(2 * total_energy / mass)"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.9",
+   "title": "Potential Energy of a Spring",
+   "section": "5.9",
+   "definition": "The work required to stretch or compress an ideal spring by a distance x gets stored as elastic potential energy proportional to the square of deformation.",
+   "formula": "pe_spring = (1/2) * spring_k * displacement**2",
+   "key_idea": "Hooke's law spring force stores elastic energy quadratically with compression or extension.",
+   "textbook_ref": "keph105.txt lines 380-450",
+   "question_patterns": [
+    "find maximum compression of a spring",
+    "calculate potential energy stored in a spring",
+    "determine maximum compression with friction present",
+    "compute spring constant required to stop a moving object"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute initial kinetic energy of moving object",
+     "explain": "Initial kinetic energy before collision.",
+     "compute": "ke = 0.5 * mass * speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "solve for maximum spring compression assuming full energy conversion",
+     "explain": "Equate initial kinetic energy to spring potential energy at maximum compression.",
+     "compute": "max_compression = sqrt(2 * ke / spring_k)"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.10",
+   "title": "Power",
+   "section": "5.10",
+   "definition": "Power measures the temporal rate of doing work or transferring energy, expressed as scalar product of force and velocity.",
+   "formula": "power = total_force * speed",
+   "key_idea": "Power quantifies how rapidly mechanical work is supplied by a source.",
+   "textbook_ref": "keph105.txt lines 490-530",
+   "question_patterns": [
+    "calculate minimum power required by an elevator motor",
+    "find power delivered given force and speed",
+    "convert power from watts to horsepower",
+    "compute electric power consumed in lifting a load"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total opposing downward force",
+     "explain": "Sum of gravitational weight and opposing resistive friction force.",
+     "compute": "total_force = mass * g + friction_force"
+    },
+    {
+     "step": 2,
+     "action": "compute power delivered in watts",
+     "explain": "Power equals total opposing force multiplied by constant speed.",
+     "compute": "power_watts = total_force * speed"
+    },
+    {
+     "step": 3,
+     "action": "convert power to horsepower",
+     "explain": "Divide power in watts by 746 to obtain horsepower.",
+     "compute": "power_hp = power_watts / 746"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.11.1",
+   "title": "One-Dimensional Elastic Collision",
+   "section": "5.11.1",
+   "definition": "A head-on impact between two bodies in which total linear momentum and total kinetic energy are both conserved.",
+   "formula": "v1f = ((mass1 - mass2) / (mass1 + mass2)) * v1i",
+   "key_idea": "Elastic collisions preserve both linear both both both both both both both both both both both both both both both both both both both both both both both both momentum and kinetic energy post-impact.",
+   "textbook_ref": "keph105.txt lines 535-620",
+   "question_patterns": [
+    "calculate final velocities after head-on elastic collision",
+    "find fractional kinetic energy lost or transferred in elastic collision",
+    "determine final speed of target mass after elastic impact",
+    "compute final velocity when moving mass hits stationary target"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate final velocity of primary mass",
+     "explain": "Apply 1D elastic collision formula for mass 1.",
+     "compute": "v1f = ((mass1 - mass2) / (mass1 + mass2)) * v1i"
+    },
+    {
+     "step": 2,
+     "action": "calculate final velocity of stationary target mass",
+     "explain": "Apply 1D elastic collision formula for mass 2.",
+     "compute": "v2f = (2 * mass1 / (mass1 + mass2)) * v1i"
+    }
+   ]
+  },
+  {
+   "id": "keph.5.11.3",
+   "title": "Two-Dimensional Collisions",
+   "section": "5.11.3",
+   "definition": "In brief, In brief, a planar impact where linear momentum vectors are conserved independently along perpendicular axes.",
+   "formula": "theta1 = 90 - theta2",
+   "key_idea": "Glancing elastic collisions between equal masses with one at rest result in perpendicular trajectories.",
+   "textbook_ref": "keph105.txt lines 625-660",
+   "question_patterns": [
+    "find scattering angle in two dimensional elastic collision",
+    "calculate angle of recoil after glancing elastic impact",
+    "determine scattering direction of two equal colliding masses",
+    "what is the angle between scattered billiard balls"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate complementary scattering angle for equal mass elastic collision",
+     "explain": "For equal masses in elastic collision with stationary target, the scattered bodies move at right angles to each other.",
+     "compute": "theta1 = 90 - theta2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex5.1",
+   "source_ref": "keph105.txt Example 5.1",
+   "concept": "keph.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "Find the dot product between force vector F and displacement vector d.",
+   "extracted_variables": {
+    "ax": "3",
+    "ay": "4",
+    "az": "-5",
+    "bx": "5",
+    "by": "4",
+    "bz": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute dot product from vector components",
+     "explain": "Multiply corresponding x, y, z components and sum.",
+     "compute": "dot_product = ax * bx + ay * by + az * bz"
+    }
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "keph105.txt Example 5.4",
+   "concept": "keph.5.4",
+   "question_type": "compute",
+   "question_pattern": "A bullet of mass {mass} kg with initial speed {speed} m/s emerges from plywood with {fraction} fraction of initial kinetic energy. Find emergent speed.",
+   "extracted_variables": {
+    "mass": "0.05",
+    "speed": "200",
+    "fraction": "0.10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial kinetic energy",
+     "explain": "Find initial kinetic energy.",
+     "compute": "ke_i = 0.5 * mass * speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate final kinetic energy",
+     "explain": "Multiply initial kinetic energy by remaining fraction.",
+     "compute": "ke_f = ke_i * fraction"
+    },
+    {
+     "step": 3,
+     "action": "calculate emergent speed",
+     "explain": "Extract final speed from final kinetic energy.",
+     "compute": "emergent_speed = sqrt(2 * ke_f / mass)"
+    }
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "keph105.txt Example 5.8",
+   "concept": "keph.5.9",
+   "question_type": "compute",
+   "question_pattern": "A car of mass {mass} kg moving at {speed} m/s collides with a spring of constant {spring_k} N/m. Find maximum compression.",
+   "extracted_variables": {
+    "mass": "1000",
+    "speed": "5",
+    "spring_k": "5250"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate kinetic energy of moving mass",
+     "explain": "Find kinetic energy of car.",
+     "compute": "ke = 0.5 * mass * speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate maximum compression distance",
+     "explain": "Equate kinetic energy to maximum spring potential energy.",
+     "compute": "max_compression = sqrt(2 * ke / spring_k)"
+    }
+   ]
+  },
+  {
+   "id": "ex5.10",
+   "source_ref": "keph105.txt Example 5.10",
+   "concept": "keph.5.10",
+   "question_type": "compute",
+   "question_pattern": "An elevator carrying mass {mass} kg moves up at constant speed {speed} m/s against friction {friction_force} N. Find minimum power delivered in horsepower.",
+   "extracted_variables": {
+    "mass": "1800",
+    "g": "10",
+    "speed": "2",
+    "friction_force": "4000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total opposing force",
+     "explain": "Sum gravity load and resistive friction.",
+     "compute": "total_force = mass * g + friction_force"
+    },
+    {
+     "step": 2,
+     "action": "calculate power in watts",
+     "explain": "Multiply force by speed.",
+     "compute": "power_watts = total_force * speed"
+    },
+    {
+     "step": 3,
+     "action": "convert power to horsepower",
+     "explain": "Divide watts by 746.",
+     "compute": "power_hp = power_watts / 746"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "keph105.txt Exercises 5.1",
+   "questions": [
+    "State carefully if the sign of work done is positive or negative in lifting a bucket out of a well.",
+    "State carefully if work done by friction on a body sliding down an inclined plane is positive or negative."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "keph105.txt Exercises 5.2",
+   "questions": [
+    "A body of mass 2 kg initially at rest moves under an applied force of 7 N on a table with friction coefficient 0.1. Compute work done by applied force in 10 s.",
+    "Compute work done by friction in 10 s and the net kinetic energy change."
+   ]
+  },
+  {
+   "id": "ex5.11",
+   "source_ref": "keph105.txt Exercises 5.11",
+   "questions": [
+    "A body constrained to move along the z-axis is subject to force F = -i + 2j + 3k N. What is the work done in moving a distance of 4 m along the z-axis?"
+   ]
+  },
+  {
+   "id": "ex5.12",
+   "source_ref": "keph105.txt Exercises 5.12",
+   "questions": [
+    "An electron with 10 keV kinetic energy and a proton with 100 keV kinetic energy are detected. Obtain the ratio of their speeds."
+   ]
+  },
+  {
+   "id": "ex5.15",
+   "source_ref": "keph105.txt Exercises 5.15",
+   "questions": [
+    "A pump can fill a tank of volume 30 m3 in 15 min at height 40 m. If efficiency is 30%, how much electric power is consumed?"
+   ]
+  },
+  {
+   "id": "ex5.18",
+   "source_ref": "keph105.txt Exercises 5.18",
+   "questions": [
+    "The bob of a pendulum of length 1.5 m is released horizontally. What is its speed at the lowest point if 5% energy is dissipated against air resistance?"
+   ]
+  },
+  {
+   "id": "ex5.20",
+   "source_ref": "keph105.txt Exercises 5.20",
+   "questions": [
+    "A body of mass 0.5 kg travels with velocity v = a x^(3/2) where a = 5 m^(-1/2) s^(-1). Find work done by net force from x = 0 to x = 2 m."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

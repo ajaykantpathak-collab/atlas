@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_015",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_015",
+   "title": "c6_physics_ch03_015",
+   "questions": [
+    {
+     "q": "What happens to the flow of electricity when you move a switch to the \"OFF\" position?",
+     "a": "The circuit is broken (opened), which stops the flow of current. A student who says \"it still flows\" confuses the term \"open\" with \"open path,\" failing to realize that an open circuit is a disconnected one.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a battery, a bulb, and a switch connected in a loop, and the bulb is not glowing, what is the most likely state of the switch?",
+     "a": "The switch is likely \"open.\" A student who says \"the battery is dead\" ignores the functional purpose of a switch, which is the primary control component in the circuit.",
+     "self_check": true
+    },
+    {
+     "q": "You are drawing a circuit diagram to control a fan. If you want the fan to stay ON, should you draw the switch connection as touching or with a gap?",
+     "a": "You should draw it touching (closed). If a student draws a gap, they have not yet understood that a gap creates an open circuit, which prevents current from reaching the fan.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it dangerous to have a circuit without any switch at all?",
+     "a": "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating. If a student says \"it wouldn't work,\" they fail to see that a permanent connection is a functional, albeit inefficient and unsafe, circuit.",
+     "self_check": true
+    },
+    {
+     "q": "If a metal piece inside a switch is rusted and cannot touch the contact point, will the device turn on? Why?",
+     "a": "No, the device will not turn on because the rust acts as an insulator, preventing the circuit from closing. A student who thinks it might still turn on lacks an understanding that electricity requires a continuous conductive path.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple \"secret\" switch for a cardboard toy box using only a paperclip, two thumbtacks, and wires. How would you arrange them?",
+     "a": "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other. A poor answer would fail to explain how the movement of the paperclip physically closes the gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

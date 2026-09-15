@@ -1,0 +1,579 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 103,
+ "chapter_title": "Recording of Transactions-I",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac103.txt",
+ "concepts": [
+  {
+   "id": "keac.3.1.1",
+   "title": "Source Documents and Accounting Vouchers",
+   "section": "3.1",
+   "definition": "Written proofs of financial exchanges such as cash memos and bills serve as source documents, from which formal accounting vouchers are prepared to authorize debit and credit entries.",
+   "formula": "none",
+   "key_idea": "Every business entry must be supported by verifiable documentary evidence arranged chronologically.",
+   "textbook_ref": "keac103.txt lines 25-80",
+   "question_patterns": [
+    "what is a source document",
+    "explain the difference between debit voucher and credit voucher",
+    "what are the essential features of an accounting voucher",
+    "how does a compound voucher differ from a complex voucher",
+    "explain source documents and accounting vouchers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the transaction type",
+     "explain": "Determine whether the exchange involves cash payment, cash receipt, or a non-cash adjustment."
+    },
+    {
+     "step": 2,
+     "action": "determine voucher classification",
+     "explain": "A transaction with one debit and one credit uses a transaction voucher; multiple debits with one credit or vice versa uses a compound voucher; multiple debits and credits use a complex or journal voucher."
+    }
+   ]
+  },
+  {
+   "id": "keac.3.2.1",
+   "title": "Fundamental Accounting Equation",
+   "section": "3.2",
+   "definition": "A mathematical statement demonstrating that total economic resources owned by an entity always equal the sum of claims held by external lenders and internal owners.",
+   "formula": "assets = liabilities + capital",
+   "key_idea": "Dual-aspect accounting ensures the equality of resources and financing claims at all points in time.",
+   "textbook_ref": "keac103.txt lines 82-150",
+   "question_patterns": [
+    "find total assets when liabilities and capital are given",
+    "calculate total resources of the firm",
+    "what is the total value of assets if liabilities are ... and capital is ...",
+    "verify whether the accounting equation holds true",
+    "calculate fundamental accounting equation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum external liabilities and equity",
+     "explain": "Total assets must equal total claims consisting of liabilities and proprietor equity.",
+     "compute": "assets = liabilities + capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.3.2.1_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.3.2.1",
+     "question_type": "compute",
+     "extracted_variables": {
+      "capital": "10",
+      "liabilities": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "sum external liabilities and equity",
+       "explain": "Total assets must equal total claims consisting of liabilities and proprietor equity.",
+       "compute": "assets = liabilities + capital"
+      }
+     ],
+     "question_pattern": "find total assets when liabilities and capital are given (given {capital}, {liabilities})"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.2.2",
+   "title": "Derivation of Capital or Liabilities from Accounting Equation",
+   "section": "3.2",
+   "definition": "Calculating an unknown component of the balance sheet equation by isolating either capital or liabilities from total assets.",
+   "formula": "capital = assets - liabilities",
+   "key_idea": "Owner's residual equity equals total assets less outsider claims.",
+   "textbook_ref": "keac103.txt lines 95-115",
+   "question_patterns": [
+    "calculate capital when assets are ... and liabilities are ...",
+    "find outsider liabilities if assets and capital are known",
+    "determine the owner equity from total assets and external claims",
+    "how much is the liability when assets are ... and capital is ...",
+    "calculate derivation of capital or liabilities from accounting equation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct external claims from total assets to determine capital",
+     "explain": "The residual interest of the proprietor is obtained by subtracting outsider liabilities from assets.",
+     "compute": "capital = assets - liabilities"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate capital when assets are ... and liabilities are ... (take assets = 10, liabilities = 10)",
+     "solution": "Applying the concept's compute chain with assets = 10, liabilities = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate capital when assets are ... and liabilities are ... (take assets = 10, liabilities = 2)",
+     "solution": "Applying the concept's compute chain with assets = 10, liabilities = 2 gives 8.0.",
+     "answer": "8.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.2.3",
+   "title": "Adjustment to Capital for Profit, Drawings, and Additional Investment",
+   "section": "3.2",
+   "definition": "Closing capital is derived by adjusting beginning capital with operational revenues, business expenses, fresh funds invested, and withdrawals made by the proprietor.",
+   "formula": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings",
+   "key_idea": "Revenues and fresh capital expand equity, whereas expenses and drawings diminish it.",
+   "textbook_ref": "keac103.txt lines 118-180",
+   "question_patterns": [
+    "calculate closing capital at the end of the year",
+    "find the updated capital after revenue expenses and drawings",
+    "compute capital from opening capital and net profit or loss",
+    "what is the net capital after withdrawals and fresh investments",
+    "calculate adjustment to capital for profit, drawings, and additional investment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net operational income",
+     "explain": "Subtract expenses from revenue to get net operating addition to capital.",
+     "compute": "net_profit = revenue - expenses"
+    },
+    {
+     "step": 2,
+     "action": "compute updated closing capital",
+     "explain": "Add additional capital and net income to opening capital and subtract drawings.",
+     "compute": "closing_capital = opening_capital + fresh_capital + net_profit - drawings"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate closing capital at the end of the year (take drawings = 10, expenses = 10, fresh_capital = 10, opening_capital = 10, revenue = 10)",
+     "solution": "Applying the concept's compute chain with drawings = 10, expenses = 10, fresh_capital = 10, opening_capital = 10, revenue = 10 gives 10.0.",
+     "answer": "10.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.3.1",
+   "title": "Modern Rules of Debit and Credit",
+   "section": "3.3.1",
+   "definition": "The system governing account entries: assets and expenses increase by debit and decrease by credit, whereas liabilities, capital, and revenues increase by credit and decrease by debit.",
+   "formula": "none",
+   "key_idea": "Debits increase asset and expense balances; credits increase liability, capital, and revenue balances.",
+   "textbook_ref": "keac103.txt lines 195-265",
+   "question_patterns": [
+    "state whether the account should be debited or credited",
+    "which account is debited when expenses are paid",
+    "classify the given accounts into assets liabilities capital expenses or revenues",
+    "apply the rules of debit and credit to the following transactions",
+    "explain modern rules of debit and credit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the nature of the account",
+     "explain": "Classify the account into one of the five categories: Asset, Liability, Capital, Expense, or Revenue."
+    },
+    {
+     "step": 2,
+     "action": "apply directional rules",
+     "explain": "Debit for increases in assets/expenses or decreases in liabilities/capital/revenue; credit for decreases in assets/expenses or increases in liabilities/capital/revenue."
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.1",
+   "title": "Journalising Transactions in the Book of Original Entry",
+   "section": "3.4.1",
+   "definition": "Recording financial events chronologically in a five-column journal format specifying debited accounts, credited accounts, amounts, and explanatory narrations.",
+   "formula": "total_debit = total_credit",
+   "key_idea": "Every journal entry preserves the dual-aspect equality by having identical aggregate debit and credit sums.",
+   "textbook_ref": "keac103.txt lines 340-420",
+   "question_patterns": [
+    "journalise the following transactions in the books of ...",
+    "record the entries in the book of original entry",
+    "how to record compound transactions involving partial cash and credit",
+    "prepare journal entries for purchase and sale of assets",
+    "explain journalising transactions in the book of original entry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify debited and credited accounts",
+     "explain": "Identify the two or more accounts involved and determine debit and credit sides using account rules."
+    },
+    {
+     "step": 2,
+     "action": "format the journal entry with narration",
+     "explain": "Write debit accounts first, prefix credited accounts with 'To', enter equal debit and credit totals, and provide a narration."
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.2",
+   "title": "Intra-State and Inter-State GST Computation",
+   "section": "3.4",
+   "definition": "Computing Goods and Services Tax wherein intra-state supplies are taxed equally as Central GST and State GST, while inter-state supplies are subject to Integrated GST.",
+   "formula": "cgst = base_amount * cgst_rate / 100; sgst = base_amount * sgst_rate / 100; invoice_total = base_amount + cgst + sgst",
+   "key_idea": "Intra-state purchases split GST equally between CGST and SGST, whereas inter-state trade levies full IGST.",
+   "textbook_ref": "keac103.txt lines 510-580",
+   "question_patterns": [
+    "calculate CGST and SGST on goods purchased for ...",
+    "compute the total invoice amount including GST",
+    "calculate IGST on inter-state sale of goods",
+    "how much input tax credit is generated on purchase of ...",
+    "calculate intra-state and inter-state gst computation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute Central GST",
+     "explain": "Apply the CGST rate percentage to the base price.",
+     "compute": "cgst = base_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute State GST",
+     "explain": "Apply the SGST rate percentage to the base price.",
+     "compute": "sgst = base_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "sum base price and taxes to find total invoice amount",
+     "explain": "Add the computed CGST and SGST amounts to the base transaction amount.",
+     "compute": "invoice_total = base_amount + cgst + sgst"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate CGST and SGST on goods purchased for ... (take base_amount = 10, cgst_rate = 10, sgst_rate = 10)",
+     "solution": "Applying the concept's compute chain with base_amount = 10, cgst_rate = 10, sgst_rate = 10 gives 12.0.",
+     "answer": "12.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.3",
+   "title": "Net GST Settlement through Input Tax Credit",
+   "section": "3.4",
+   "definition": "Offsetting the input tax credit paid on procurement against output tax collected from customers to compute the net tax payable to the government.",
+   "formula": "net_tax_payable = output_tax - input_tax",
+   "key_idea": "The government receives only the value-addition tax, computed as output tax minus eligible input tax credit.",
+   "textbook_ref": "keac103.txt lines 570-620",
+   "question_patterns": [
+    "calculate the net GST payable to the government",
+    "how much net tax is paid through electronic cash ledger",
+    "compute output tax liability after adjusting input tax credit",
+    "find balance tax payable after GST set off",
+    "calculate net gst settlement through input tax credit for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net GST payable after credit set-off",
+     "explain": "Deduct input tax credit accumulated on purchases and expenses from total output liability.",
+     "compute": "net_tax_payable = output_tax - input_tax"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the net GST payable to the government (take input_tax = 10, output_tax = 10)",
+     "solution": "Applying the concept's compute chain with input_tax = 10, output_tax = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.5.1",
+   "title": "Ledger Accounts and Posting Mechanism",
+   "section": "3.5",
+   "definition": "Transferring debits and credits recorded in chronological journal entries to individual analytical ledger accounts to summarize balances.",
+   "formula": "none",
+   "key_idea": "Posting organizes transactions by individual accounts in the principal book to determine balances at any given time.",
+   "textbook_ref": "keac103.txt lines 625-720",
+   "question_patterns": [
+    "explain the process of posting from journal to ledger",
+    "distinguish between journal and ledger",
+    "what information is entered in the journal folio column",
+    "how are permanent accounts treated differently from temporary accounts in the ledger",
+    "explain ledger accounts and posting mechanism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the ledger account",
+     "explain": "Open or locate the account named in the journal debit or credit side."
+    },
+    {
+     "step": 2,
+     "action": "post date, contra reference, folio, and amount",
+     "explain": "Enter date, refer to the corresponding opposite account in the particulars column, record journal folio, and write the transaction amount on the matching debit or credit side."
+    }
+   ]
+  },
+  {
+   "id": "keac.3.6.1",
+   "title": "Apportionment of Insolvent Debt into Recovery and Bad Debts",
+   "section": "3.6",
+   "definition": "Calculating the portion of debt recovered in cash versus the irrecoverable loss written off as bad debts when a debtor is declared insolvent.",
+   "formula": "recovered_amount = total_debt * recovery_rate / 100; bad_debts = total_debt - recovered_amount",
+   "key_idea": "Dividend from an insolvent debtor's estate is debited to cash/bank and the remaining deficit to bad debts account.",
+   "textbook_ref": "keac103.txt lines 820-845",
+   "question_patterns": [
+    "calculate bad debts when a debtor pays ... paise in a rupee",
+    "find the cash recovered and amount written off as bad debt",
+    "how much is recovered if debtor is insolvent with total debt of ...",
+    "compute bad debts from total dues and dividend percentage",
+    "calculate apportionment of insolvent debt into recovery and bad debts for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute cash amount recovered from debtor",
+     "explain": "Multiply the total outstanding debt by the percentage or paise-per-rupee dividend received.",
+     "compute": "recovered_amount = total_debt * recovery_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute irrecoverable loss written off as bad debts",
+     "explain": "Subtract the recovered amount from total outstanding debt.",
+     "compute": "bad_debts = total_debt - recovered_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate bad debts when a debtor pays ... paise in a rupee (take recovery_rate = 10, total_debt = 10)",
+     "solution": "Applying the concept's compute chain with recovery_rate = 10, total_debt = 10 gives 9.0.",
+     "answer": "9.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.3.6.2",
+   "title": "Computation of Interest on Capital",
+   "section": "3.6",
+   "definition": "Determining the interest allowable to the proprietor on capital invested in the business for a specific time period at a stated annual percentage rate.",
+   "formula": "interest = capital * rate * months / 1200",
+   "key_idea": "Interest on capital is treated as a business expense and increases the owner's total capital claim.",
+   "textbook_ref": "keac103.txt lines 825-835",
+   "question_patterns": [
+    "calculate interest on capital of ... at ... percent per annum for ... months",
+    "provide interest on proprietor capital",
+    "find the amount of interest to be credited to capital account",
+    "compute annual interest on business capital",
+    "calculate computation of interest on capital for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate interest on capital",
+     "explain": "Multiply principal capital by annual rate and months, dividing by 1200.",
+     "compute": "interest = capital * rate * months / 1200"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate interest on capital of ... at ... percent per annum for ... months (take capital = 10, months = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with capital = 10, months = 10, rate = 10 gives 0.833333.",
+     "answer": "0.833333"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac103.txt lines 130-150",
+   "concept": "keac.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate total assets if outside creditors are {liabilities} and owner capital is {capital}",
+   "extracted_variables": {
+    "liabilities": "creditors or outside liabilities amount",
+    "capital": "proprietor capital balance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum liabilities and capital",
+     "explain": "Total assets equal outsider claims plus proprietor equity.",
+     "compute": "assets = liabilities + capital"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac103.txt lines 160-185",
+   "concept": "keac.3.2.3",
+   "question_type": "compute",
+   "question_pattern": "A business starts with opening capital of {opening_capital}, earns revenue of {revenue}, incurs expenses of {expenses}, introduces fresh capital of {fresh_capital}, and withdraws {drawings}. Find the closing capital.",
+   "extracted_variables": {
+    "opening_capital": "capital at the beginning of the period",
+    "fresh_capital": "additional capital introduced",
+    "revenue": "total revenues earned",
+    "expenses": "total expenses incurred",
+    "drawings": "drawings by owner"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net profit",
+     "explain": "Net operating profit is the excess of revenue over expenses.",
+     "compute": "net_profit = revenue - expenses"
+    },
+    {
+     "step": 2,
+     "action": "determine closing capital",
+     "explain": "Add additional capital and profit to opening capital, then deduct drawings.",
+     "compute": "closing_capital = opening_capital + fresh_capital + net_profit - drawings"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac103.txt lines 515-535",
+   "concept": "keac.3.4.2",
+   "question_type": "compute",
+   "question_pattern": "Goods costing {base_amount} are purchased locally subject to CGST at {cgst_rate}% and SGST at {sgst_rate}%. Find total invoice amount.",
+   "extracted_variables": {
+    "base_amount": "cost of goods purchased before tax",
+    "cgst_rate": "percentage rate of CGST",
+    "sgst_rate": "percentage rate of SGST"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate CGST amount",
+     "explain": "Compute Central GST using base price and CGST rate.",
+     "compute": "cgst = base_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate SGST amount",
+     "explain": "Compute State GST using base price and SGST rate.",
+     "compute": "sgst = base_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "compute total invoice amount",
+     "explain": "Sum base amount and both taxes.",
+     "compute": "invoice_total = base_amount + cgst + sgst"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac103.txt lines 565-585",
+   "concept": "keac.3.4.3",
+   "question_type": "compute",
+   "question_pattern": "A trader has total output GST liability of {output_tax} and accumulated input tax credit of {input_tax}. Calculate net GST payable.",
+   "extracted_variables": {
+    "output_tax": "total tax collected on sales",
+    "input_tax": "total tax credit available on purchases"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract input tax credit from output tax",
+     "explain": "Net tax payable is output liability reduced by input tax credit.",
+     "compute": "net_tax_payable = output_tax - input_tax"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keac103.txt lines 825-835",
+   "concept": "keac.3.6.1",
+   "question_type": "compute",
+   "question_pattern": "A debtor owing {total_debt} becomes insolvent and pays a final dividend of {recovery_rate} paise in a rupee. Calculate the bad debts written off.",
+   "extracted_variables": {
+    "total_debt": "total amount owed by insolvent debtor",
+    "recovery_rate": "paise in a rupee or percentage recovered"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cash dividend recovered",
+     "explain": "Determine amount recovered by multiplying debt by recovery percentage.",
+     "compute": "recovered_amount = total_debt * recovery_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate bad debts loss",
+     "explain": "Subtract recovered cash from total debt to find unrecoverable bad debt.",
+     "compute": "bad_debts = total_debt - recovered_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keac103.txt lines 825-830",
+   "concept": "keac.3.6.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate interest on capital of {capital} at {rate}% per annum for {months} months.",
+   "extracted_variables": {
+    "capital": "total capital amount",
+    "rate": "annual interest rate in percentage",
+    "months": "period in months"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute interest on capital",
+     "explain": "Multiply capital by rate and time period in months divided by 1200.",
+     "compute": "interest = capital * rate * months / 1200"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "keac103.txt lines 870-890",
+   "questions": [
+    "State the three fundamental steps in the accounting process.",
+    "Why is the evidence provided by source documents important to accounting?",
+    "Should a transaction be first recorded in a journal or ledger? Why?",
+    "Are debits or credits listed first in journal entries? Are debits or credits indented?",
+    "Why are some accounting systems called double accounting systems?",
+    "Give a specimen of an account.",
+    "Why are the rules of debit and credit same for both liability and capital?",
+    "What is the purpose of posting J.F numbers that are entered in the journal at the time entries are posted to the accounts."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "keac103.txt lines 891-950",
+   "questions": [
+    "Prepare accounting equation on the basis of the following: (a) Harsha started business with cash Rs 2,00,000 (b) Purchased goods from Naman for cash Rs 40,000 (c) Sold goods to Bhanu costing Rs 10,000 for Rs 12,000 (d) Bought furniture on credit Rs 7,000",
+    "Prepare accounting equation from the following: (a) Kunal started business with cash Rs 2,50,000 (b) He purchased furniture for cash Rs 35,000 (c) He paid commission Rs 2,000 (d) He purchases goods on credit Rs 40,000 (e) He sold goods (costing Rs 20,000) for cash Rs 26,000",
+    "Mohit has the following transactions, prepare accounting equation: (a) Business started with cash Rs 1,75,000 (b) Purchased goods from Rohit Rs 50,000 (c) Sales goods on credit to Manish (Costing Rs 17,500) Rs 20,000 (d) Purchased furniture for office use Rs 10,000 (e) Cash paid to Rohit in full settlement Rs 48,500 (f) Cash received from Manish Rs 20,000 (g) Rent paid Rs 1,000 (h) Cash withdrew for personal use Rs 3,000",
+    "Rohit has the following transactions: (a) Commenced business with cash Rs 1,50,000 (b) Purchased machinery on credit Rs 40,000 (c) Purchased goods for cash Rs 20,000 (d) Purchased car for personal use Rs 80,000 (e) Paid to creditors in full settlement Rs 38,000 (f) Sold goods for cash costing Rs 5,000 for Rs 4,500 (g) Paid rent Rs 1,000 (h) Commission received in advance Rs 2,000. Prepare accounting equation.",
+    "Use accounting equation to show the effect of the following transactions of M/s Royal Traders: (a) Started business with cash Rs 1,20,000 (b) Purchased goods for cash Rs 10,000 (c) Rent received Rs 5,000 (d) Salary outstanding Rs 2,000 (e) Prepaid Insurance Rs 1,000 (f) Received interest Rs 700 (g) Sold goods for cash (Costing Rs 5,000) Rs 7,000 (h) Goods destroyed by fire Rs 500",
+    "Show the accounting equation on the basis of the transactions of Udit and Manoj."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "keac103.txt lines 951-1020",
+   "questions": [
+    "Journalise the following transactions in the books of Himanshu: Dec 01 Business started with cash Rs 75,000; Dec 07 Purchased goods for cash Rs 10,000; Dec 09 Sold goods to Swati Rs 5,000; Dec 12 Purchased furniture Rs 3,000; Dec 18 Cash received from Swati in full settlement Rs 4,000; Dec 25 Paid rent Rs 1,000; Dec 30 Paid salary Rs 1,500.",
+    "Enter the transactions in the Journal of Mudit including building introduction, wages, cartage, personal use drawings, and settlement with discount.",
+    "Jouranlise the following transactions in the books of Harpreet Bros.: (a) Rs 1,000 due from Rohit are now bad debts (b) Goods worth Rs 2,000 were used by proprietor (c) Charge depreciation @ 10% p.a. for two months on machine costing Rs 30,000 (d) Provide interest on capital of Rs 1,50,000 at 6% p.a. for 9 months (e) Rahul becomes insolvent, final dividend of 60 paise in a rupee is received.",
+    "Prepare Journal from the transactions: installation of machine Rs 500, charity Rs 2,000, interest on capital @ 7% p.a. on Rs 70,000, bad debt recovery Rs 1,200, fire loss Rs 2,000, outstanding rent Rs 1,000, interest on drawings Rs 900, insolvency compensation 45 paise in rupee on Rs 3,000.",
+    "Journalise the transactions and post to ledger accounts for M/s Goel Brothers, M/s Mohit Traders, M/s Bhanu Traders, M/s Beauti Traders, and Sanjana.",
+    "Record journal entries for GST transactions in the books of Anudeep of Delhi with CGST, SGST, and IGST components."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

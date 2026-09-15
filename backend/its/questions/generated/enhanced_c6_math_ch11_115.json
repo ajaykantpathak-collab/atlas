@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_115",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_115",
+   "title": "c6_math_ch11_115",
+   "questions": [
+    {
+     "q": "What are the two essential components that define an angle when you are drawing it on paper?",
+     "a": "An angle is defined by a common starting point (the vertex) and two rays (the arms). A wrong answer (like saying \"two lines\") suggests the student confuses a line segment intersection with a formal angle construction.",
+     "self_check": true
+    },
+    {
+     "q": "If you align your protractor and see your ray passing through both 0° and 180°, which scale should you look at to mark an angle of 40°?",
+     "a": "You must look at the scale that begins at 0° on the ray you are using. A wrong answer shows the student does not understand that the protractor has two scales for different ray orientations and is just picking a random number.",
+     "self_check": true
+    },
+    {
+     "q": "You are asked to draw a 70° angle. After drawing your first ray and placing the protractor, you mark the point at 70°. If you connect the vertex to this mark, what is the most important thing to check to ensure your construction is correct?",
+     "a": "Check that the angle is acute (less than 90°) by looking at it—it should look \"sharper\" than a corner of a page. If the student draws an obtuse angle, it means they used the wrong scale on the protractor.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it incorrect to place the edge of the protractor on the ray instead of the centre mark (the origin) when measuring or drawing an angle?",
+     "a": "The centre mark is the vertex of the protractor's scale; if you use the edge, your starting point for the turn is shifted, leading to an inaccurate measurement. This reveals if the student understands the geometric \"origin\" of an angle.",
+     "self_check": true
+    },
+    {
+     "q": "If a student marks 110° on the inner scale but uses the outer scale to read the position, why will the resulting angle be incorrect?",
+     "a": "The scales on a protractor are complementary (they add up to 180°). Reading the wrong scale results in an angle of 70° (180-110) instead of 110°, proving the student is not paying attention to which \"0\" mark the ray is touching.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick \"check\" to tell if your classmate's 130° angle is likely correct without using a protractor.",
+     "a": "A good answer mentions that 130° is obtuse, so it must be wider than a square corner (90°) but narrower than a straight line (180°). A poor answer suggests \"it looks big,\" which is too vague and lacks geometric reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

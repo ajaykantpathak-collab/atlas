@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_006",
+   "title": "c7_chem_ch01_006",
+   "questions": [
+    {
+     "q": "Which of the following common non-metals is an exception and can conduct electricity?\nA) Sulfur\nB) Graphite\nC) Phosphorus\nD) Oxygen",
+     "a": "The correct answer is B) Graphite. Graphite, an allotrope of carbon, has free electrons within its layered structure that allow electric current to flow through it. A student who chooses sulfur or phosphorus is relying on the generalization that all non-metals are insulators and has missed the specific allotropic exception of graphite.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a copper wire make a good electrical conductor while a plastic ruler does not?\nA) Copper is heavier than plastic.\nB) Copper has free-moving particles that carry electrical charge, whereas plastic holds its particles tightly bound.\nC) Plastic has a higher melting point than copper.\nD) Copper is magnetic, which attracts electricity.",
+     "a": "The correct answer is B) Copper has free-moving particles that carry electrical charge, whereas plastic holds its particles tightly bound. Conduction of electricity requires mobile charged particles. A student who chooses option D confuses electrical conductivity with magnetism, showing a misunderstanding of what electric current actually is.",
+     "self_check": true
+    },
+    {
+     "q": "A student builds a simple circuit with a dry cell, wires, and a bulb. She inserts an iron nail into the test gap, and the bulb lights up. She then replaces the iron nail with a piece of coal (carbon). What will happen to the bulb, and why?\nA) The bulb will shine brighter because coal is a metal.\nB) The bulb will remain unlit because coal (except for its graphite form) is a non-metal insulator.\nC) The bulb will flicker because coal stores electricity.\nD) The bulb will explode because coal is flammable.",
+     "a": "The correct answer is B) The bulb will remain unlit because coal (except for its graphite form) is a non-metal insulator. Coal is primarily composed of carbon in a form that does not provide free electrons for conduction, breaking the circuit. A student who selects option A fails to classify coal correctly as a non-metal.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following materials: aluminium foil, wooden block, copper rod, and sulfur lump. If you test each in an electrical circuit, how many will cause the indicator bulb to glow?\nA) 1\nB) 2\nC) 3\nD) 4",
+     "a": "The correct answer is B) 2. Aluminium foil and the copper rod are metals and will conduct electricity, lighting the bulb. The wooden block and sulfur lump are non-metals and act as insulators, leaving the bulb unlit. A student choosing 3 or 4 likely misclassified wood or sulfur as a conductor.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the safety practice: An electrician uses a screwdriver with a plastic or rubber handle and a steel metal tip while repairing a live household switch. Is this design chemically and physically sound?\nA) No, because steel is a non-metal and will shock the electrician.\nB) Yes, because the steel tip conducts electricity to the screw while the plastic handle acts as an insulator to protect the electrician.\nC) No, because both parts must be made of plastic to prevent any electrical contact.\nD) Yes, because plastic and steel both conduct electricity equally well.",
+     "a": "The correct answer is B) Yes, because the steel tip conducts electricity to the screw while the plastic handle acts as an insulator to protect the electrician. This combines metal conductivity (for utility) with non-metal insulation (for safety). A student choosing option C does not understand why the metal tip is necessary to turn the screw in the first place.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick classroom test using a 9V battery, an LED bulb, and connecting wires to distinguish between a powdered sample of iron filings and a powdered sample of sulfur. Describe what you would observe and conclude.",
+     "a": "The student should describe placing the two powders in separate small testing dishes or cups and bridging the circuit wires into the powder. For iron filings, the LED bulb will glow because iron is a metal conductor. For sulfur, the LED bulb will not glow because sulfur is a non-metal insulator. A poor answer would suggest mixing them together or failing to connect the circuit properly, showing a lack of experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

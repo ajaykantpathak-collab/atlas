@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_005",
+   "title": "c12_cs_cbse_07_005",
+   "questions": [
+    {
+     "q": "Write the correct order of evaluation (from first to last) for the Boolean expression `A + B' · C` without adding any parentheses.",
+     "a": "Correct order: 1) NOT on B (B'), 2) AND between B' and C, 3) OR between A and the result of step 2. A wrong answer (e.g., doing OR before AND) reveals the student is applying left‑to‑right arithmetic intuition instead of Boolean precedence (NOT > AND > OR).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the expressions `A + B · C` and `(A + B) · C` are not equivalent. Give a concrete input combination where they differ.",
+     "a": "In `A + B · C`, AND is done first (B·C), then OR with A. In `(A + B) · C`, parentheses force OR first (A+B), then AND with C. For A=1, B=0, C=0: first expression gives 1 + (0·0) = 1 + 0 = 1; second gives (1+0)·0 = 1·0 = 0. A student who says they are equivalent is ignoring the precedence‑changing role of parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the expression `(X' + Y) · (X + Z')` for X=1, Y=0, Z=1. Show every intermediate step.",
+     "a": "Step 1: X' = 0 (since X=1). Step 2: Z' = 0 (since Z=1). Step 3: X' + Y = 0 + 0 = 0. Step 4: X + Z' = 1 + 0 = 1. Step 5: (0) · (1) = 0. Final answer: 0. A wrong answer (e.g., 1) usually comes from mis‑evaluating NOT, or doing OR before AND inside parentheses, or forgetting that AND of 0 and 1 is 0.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions `A · (B + C)` and `A · B + C`. Are they logically equivalent? Justify by analysing their truth tables or by finding a counter‑example.",
+     "a": "They are NOT equivalent. Counter‑example: A=0, B=1, C=1. First: 0·(1+1)=0·1=0. Second: 0·1+1=0+1=1. The student who claims equivalence is either not testing all 8 combinations or is incorrectly distributing AND over OR without parentheses (confusing with distributive law which requires `A·(B+C) = A·B + A·C`).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the truth table for `P + Q' · R` and gets output 1 for the row P=0, Q=1, R=1. Is this correct? If not, identify the exact step where the student likely erred.",
+     "a": "Correct evaluation: Q' = 0, Q'·R = 0·1 = 0, P + 0 = 0 + 0 = 0. The student’s output 1 is wrong. The error is almost certainly doing OR before AND (i.e., computing P+Q' first = 0+0=0, then 0·R=0? Wait, that also gives 0. Another common error: mis‑reading Q' as Q, so Q'·R becomes 1·1=1, then P+1=1. The student likely forgot to apply NOT to Q before the AND.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean expression with three variables (A, B, C) that evaluates to 1 **only** when exactly two of the three variables are 1. Write the expression and verify it with a truth table.",
+     "a": "Expression: `A·B·C' + A·B'·C + A'·B·C`. Verification: For (1,1,0): first term = 1·1·1 = 1 → output 1. For (1,0,1): second term = 1·1·1 = 1 → output 1. For (0,1,1): third term = 1·1·1 = 1 → output 1. All other rows give 0. A poor answer might omit one product term, use OR incorrectly, or not verify all 8 rows — indicating the student hasn’t internalised that each row in a truth table is an independent check.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

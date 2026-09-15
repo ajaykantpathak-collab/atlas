@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_008",
+   "title": "c12_soc_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define 'plurality', 'diversity', and 'stratification' in the context of Indian society. Give one concrete example for each.",
+     "a": "**Correct answer:** Plurality = coexistence of multiple distinct groups (e.g., Hindus, Muslims, Christians, Sikhs, Buddhists, Jains, Parsis, Jews, and tribal faiths all practicing their religions side by side). Diversity = the wide range of variations within and across groups (e.g., over 19,500 languages/dialects spoken, hundreds of distinct cuisines, varied marriage rules). Stratification = hierarchical ranking of groups with unequal access to resources/power (e.g., the four varna categories plus 'untouchable' castes, with Brahmins traditionally at the top and Dalits at the bottom).  \n**What a wrong answer reveals:** If a student gives the same example for all three (e.g., \"caste\" for plurality, diversity, and stratification), they are conflating the concepts. If they describe stratification only as \"inequality\" without mentioning **hierarchy** and **systematic ranking**, they miss the structural dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"India's diversity is its strength because everyone tolerates everyone else.\" Using the sociological distinction between plurality and stratification, explain why this statement is incomplete.",
+     "a": "**Correct answer:** The statement confuses **plurality** (mere coexistence of groups) with **stratification** (hierarchical power relations). Tolerance implies peaceful coexistence, but stratification means some groups dominate others structurally — e.g., upper castes control land, temples, and political offices while Dalits face untouchability, landlessness, and violence. Diversity exists *within* a stratified order; the two are not mutually exclusive. India's diversity is not just \"tolerance\" but a complex negotiation between pluralism and hierarchy.  \n**What a wrong answer reveals:** If the student agrees with the statement or only mentions \"unity in diversity\" slogans, they are relying on common-sense nationalism rather than sociological analysis. They fail to see that stratification **structures** the terms on which plural groups interact.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical village, there are three castes: Brahmins (priests, landowners), Yadavs (cattle-herders, middle peasants), and Chamars (leather-workers, landless laborers). The village also has a Muslim community (weavers) and a Christian community (converted from Chamars). Using the three distinctive features, map the social structure of this village. Identify at least two ways in which stratification cuts across religious lines.",
+     "a": "**Correct answer:**  \n- **Plurality:** Five distinct groups (Brahmins, Yadavs, Chamars, Muslims, Christians) coexist.  \n- **Diversity:** Each group has its own rituals, deities, food habits, dress, and dialect variations.  \n- **Stratification:** Hierarchy runs Brahmins → Yadavs → Chamars (caste-based). **Cross-cutting stratification:** (1) Land ownership: Brahmins own most land, Yadavs some, Chamars/Muslims/Christians almost none — economic class reinforces caste. (2) Occupational purity: Chamars and Christians (ex-Chamars) share \"polluting\" leather work, placing them at the bottom despite different religions; Muslims (weavers) are ranked above Chamars but below Yadavs.  \n**What a wrong answer reveals:** If the student only lists caste hierarchy and ignores how religion and class intersect, they treat stratification as a single-axis caste ladder. If they say \"Muslims and Christians are outside caste,\" they miss the Indian reality where conversion rarely erases caste status.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **functionalist** and **conflict** perspectives on Indian stratification. How would each explain the persistence of the caste system despite constitutional abolition of untouchability?",
+     "a": "**Correct answer:**  \n- **Functionalist (e.g., Dumont, early Srinivas):** Caste is a system of **ritual hierarchy** (purity/pollution) that integrates society through interdependence (jajmani system). Persistence = system maintains social order; each caste has a function. Constitutional law changes formal rules but not the underlying cultural logic.  \n- **Conflict (e.g., Ambedkar, A.R. Desai):** Caste is **exploitative class structure** — Brahmins monopolize knowledge/land, Dalits provide forced labor. Persistence = dominant groups use ideology (purity) and state power to protect material interests. Legal abolition is a surface reform; economic base remains.  \n**What a wrong answer reveals:** If the student says \"functionalists say caste is good, conflict theorists say it's bad,\" they reduce theory to moral judgment. If they ignore the **material vs. ideological** distinction, they miss the core analytical difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Reservation policies have reduced stratification in India.\" Use evidence from at least two dimensions (caste, class, gender, tribe) to support your judgment.",
+     "a": "**Correct answer:** The claim is **partially true but incomplete**.  \n- **Caste:** Reservations have created a Dalit/OBC middle class (political representation, government jobs, education access) → **reduced ritual-exclusion stratification** in public sphere.  \n- **Class:** However, **intra-caste inequality** has sharpened — creamy layer vs. poor within OBCs/SCs; landless Dalits remain landless. Stratification has **shifted from pure caste to caste-class intersection**.  \n- **Gender:** Women across castes remain underrepresented; reservation for women in Panchayats (not Parliament) shows **gender stratification persists independently**.  \n- **Tribe:** ST reservations in education/jobs help, but **land alienation and displacement** (mining, dams) create new stratification.  \n**Judgment:** Reservations attenuated **ritual-exclusion** but did not dismantle **structural stratification**; they reconfigured it.  \n**What a wrong answer reveals:** A simple \"yes\" or \"no\" without dimensional analysis shows binary thinking. Ignoring class/gender/tribe intersections reveals a single-axis understanding of stratification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question survey that could empirically measure the **intersection of plurality, diversity, and stratification** in an urban neighborhood. For each question, state which feature(s) it captures and why.",
+     "a": "**Correct answer (sample):**  \n1. \"What is your mother tongue?\" → **Plurality** (language groups coexisting).  \n2. \"Which festivals do you celebrate at home?\" → **Diversity** (range of cultural practices).  \n3. \"What is your caste/tribe category (General/SC/ST/OBC)?\" → **Stratification** (hierarchical classification).  \n4. \"Do you share meals with neighbors from different castes/religions?\" → **Plurality + Stratification** (social distance across hierarchical boundaries).  \n5. \"Who holds leadership positions in your Resident Welfare Association?\" → **Stratification + Diversity** (power distribution across diverse groups).  \n**Criteria for a good answer:** Questions must be empirically answerable, each must map clearly to at least one feature, and at least two questions must capture **intersections**.  \n**What a poor answer reveals:** Questions that only ask \"Do you like diversity?\" (attitude, not structure) or that treat caste as a single question without probing economic/educational/political dimensions show failure to operationalize the concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

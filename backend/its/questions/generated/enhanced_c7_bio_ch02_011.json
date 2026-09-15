@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_011",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_011",
+   "title": "c7_bio_ch02_011",
+   "questions": [
+    {
+     "q": "What muscle lies at the floor of the chest cavity and plays the primary role in changing chest volume during breathing?",
+     "a": "The correct answer is the diaphragm. A student who answers \"lungs\" or \"heart\" confuses the organs being protected or inflated with the actual muscular pump that drives the physical movement of air.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why air rushes into your lungs when your diaphragm flattens and your ribs move upward and outward.",
+     "a": "When the diaphragm flattens and ribs move outward, the volume of the chest cavity increases, which decreases the air pressure inside the lungs compared to the outside air, causing air to rush in. A student who says \"air is sucked in by the lungs like a sponge\" does not understand that pressure differences drive air movement.",
+     "self_check": true
+    },
+    {
+     "q": "If a person suffers an injury that punctures the chest wall, allowing air to enter the space around the lungs, breathing becomes extremely difficult. Predict what happens to lung expansion in this situation.",
+     "a": "Steps: 1. Identify that chest expansion normally creates lower pressure inside the chest cavity than outside. 2. Recognize that a puncture equalizes the pressure inside the chest cavity with outside atmospheric pressure. 3. Conclude that without a pressure difference, the lungs cannot inflate when the chest expands. Answer: The lungs will fail to expand properly because the pressure gradient is destroyed. A student who thinks the lungs will just inflate harder misses the role of pressure differentials.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of the diaphragm and the direction of rib movement during inhalation versus exhalation.",
+     "a": "During inhalation, the diaphragm moves downward (contracts/flattens) and ribs move upward and outward. During exhalation, the diaphragm moves upward (relaxes into a dome shape) and ribs move downward and inward. A student who reverses these movements has not grasped the mechanical coordination between the ribs and diaphragm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The lungs actively pump air in and out by expanding and contracting on their own.\" Is this scientifically accurate? Provide your reasoning.",
+     "a": "The statement is scientifically inaccurate. Lungs do not contain muscle tissue that allows them to pump themselves; they are passive elastic bags. They expand and contract only because the surrounding chest cavity changes volume due to the action of the diaphragm and intercostal muscles. A student who believes lungs are self-powered muscles misunderstands the passive role of lung tissue.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using a plastic bottle, a Y-shaped tube, two small balloons, and a rubber sheet at the bottom to demonstrate the mechanics of human breathing. Explain how pulling down on the rubber sheet simulates inhalation.",
+     "a": "The plastic bottle represents the chest cavity, the balloons represent the lungs, and the bottom rubber sheet represents the diaphragm. Pulling down on the rubber sheet increases the volume inside the bottle, lowering the internal pressure and causing outside air to rush into the balloons, making them inflate (simulating inhalation). A poor answer fails to connect the parts of the model to actual anatomical structures or misinterprets pressure changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

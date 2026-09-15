@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_07_011",
+   "title": "c12_eng_k_cbse_07_011",
+   "questions": [
+    {
+     "q": "Identify the archaic second-person singular pronoun used in \"On Time\" and state its grammatical case.",
+     "a": "The archaic pronoun is \"thou\" (nominative case), appearing in \"Fly envious Time, till thou run out thy race\". A wrong answer like \"thy\" (possessive) or \"thee\" (objective) reveals confusion between archaic case forms — a common error because modern English only has \"you\" for all cases.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Milton writes \"entomb'd\" and \"consum'd\" with apostrophes instead of \"entombed\" and \"consumed\" in \"On Time\".",
+     "a": "The apostrophes mark poetic elision — the omission of the 'e' in '-ed' to maintain iambic rhythm. \"En-tomb'd\" scans as two syllables (unstressed-stressed), while \"en-tomb-ed\" would be three, disrupting the meter. A student who says \"it's just old spelling\" misses the metrical function; this is not mere archaism but a prosodic necessity.",
+     "self_check": true
+    },
+    {
+     "q": "In \"On Shakespeare\", the line \"Thy easie numbers flow\" uses \"easie\" instead of \"easy\". Apply your knowledge of historical spelling to explain why this variant appears and what it signals about the poem's language layer.",
+     "a": "\"Easie\" reflects Early Modern English spelling (c. 1630) where final '-y' often appeared as '-ie' (cf. 'conceaving', 'Shakespear'). It signals the poem's 17th-century origin and Milton's contemporary orthography. A student who calls it a \"mistake\" or \"old-fashioned\" without linking to historical linguistics misses the etymological awareness the NCERT Language Study section explicitly builds.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the syntactic inversion in \"What needs my Shakespear for his honour'd Bones\" (On Shakespeare). Rewrite it in standard SVO order and explain how the inversion shifts emphasis.",
+     "a": "Standard order: \"My Shakespeare needs what for his honoured bones.\" The inversion front-shifts the interrogative \"What\" and delays the subject \"my Shakespear\", foregrounding the rhetorical question's challenge to monument-building. A student who only rewrites without commenting on emphasis misses the analytical step — inversion here is a rhetorical device, not just poetic licence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Milton's use of 'thou', 'thy', 'hast', 'dost' in 'On Time' is merely decorative archaism with no semantic function.\" Defend or refute using textual evidence.",
+     "a": "Refute. \"Thou\" addresses Time as a singular, personified antagonist (intimacy + confrontation), unlike the distant \"you\". \"Thy race\", \"thy womb\", \"thy greedy self\" use possessive \"thy\" to make Time's attributes personal and grotesque. \"Hast entomb'd\", \"dost lie\" (in Shakespeare poem) mark second-person singular verb agreement, grammatically required with \"thou\". Decorative archaism would not sustain consistent grammatical concord across 14 lines.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in iambic pentameter addressing \"Death\" using at least two archaic pronouns (thou/thee/thy/thine) and one poetic contraction ('d/'s/'re), maintaining grammatical consistency.",
+     "a": "Sample: \"Thou pale and silent king, thy reign is vast, / The mighty and the meek thy shade have kist; / Thou dost not pause for crown or sceptre cast, / But lead'st all souls where light and dark are mist.\" A poor answer mixes \"thou\" with \"your\" or \"has\" — revealing failure to internalize the thou/thy/thee/hast/dost paradigm as a coherent system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

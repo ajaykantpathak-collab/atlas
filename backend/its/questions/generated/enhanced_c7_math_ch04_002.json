@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_002",
+   "title": "c7_math_ch04_002",
+   "questions": [
+    {
+     "q": "What is the definition of a \"term\" in an algebraic expression? Give a brief description.",
+     "a": "A term is a single mathematical expression or a part of an algebraic expression separated by plus (+) or minus (-) signs. A wrong answer usually confuses individual factors inside a multiplication expression (like $3$ and $x$ in $3x$) with separate terms, showing a failure to recognize that multiplication keeps items together as a single term.",
+     "self_check": true
+    },
+    {
+     "q": "In the algebraic expression $-4x^2 + 7xy - 9$, why is $-9$ considered a constant term while $7$ is a coefficient and not a constant?",
+     "a": "$-9$ is a constant because its value never changes regardless of the value of $x$ or $y$. The number $7$ is a coefficient because it is explicitly attached as a multiplier to the variable part $xy$, changing in total value as $x$ and $y$ change. A wrong answer typically claims all numbers are coefficients or all numbers are constants, showing a lack of understanding of how variables bind to numbers through multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Identify all the terms, the coefficient of $x$, the coefficient of $y$, and the constant term in the algebraic expression: $5x - 8y + 12$.",
+     "a": "Step 1: Identify terms by looking at the addition and subtraction signs: The terms are $5x$, $-8y$, and $12$.\nStep 2: Find the coefficient of $x$ by looking at the number multiplying $x$: It is $5$.\nStep 3: Find the coefficient of $y$ by looking at the number multiplying $y$, keeping the sign: It is $-8$.\nStep 4: Identify the standalone number with no variable: The constant term is $12$.\nA wrong answer usually drops the negative sign from $-8y$, writing the coefficient as $8$ instead of $-8$, which ignores the subtraction sign belonging to the term.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expression $6ab$ and the expression $6 + a + b$. How many terms do each have, and what is the coefficient of $ab$ in each?",
+     "a": "The expression $6ab$ has only ONE term because multiplication binds numbers and variables together, and its coefficient of $ab$ is $6$. The expression $6 + a + b$ has THREE terms ($6$, $a$, and $b$), where the coefficient of $ab$ does not apply directly, but the coefficient of $a$ is $1$ and $6$ is a constant term. A wrong answer treats $6ab$ as three separate terms or fails to see that multiplication creates a single unified term.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that in the algebraic expression $x - y + 4$, the coefficient of $x$ is $0$ because no number is written in front of it. Is this student correct? Evaluate and correct their reasoning.",
+     "a": "The student is incorrect. When no number is explicitly written in front of a variable, the coefficient is understood to be $1$ (since $x = 1x$). Therefore, the coefficient of $x$ is $1$, and the coefficient of $y$ is $-1$. A wrong answer agrees with the student, showing a misconception that an absent visible number means a value of zero instead of the multiplicative identity one.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression that has exactly four terms, contains variables $p$ and $q$, has a negative coefficient for one of its terms, and includes a constant term of $-15$.",
+     "a": "An example of a correct expression is $4p - 3pq + 7q - 15$. This expression has four distinct terms ($4p$, $-3pq$, $7q$, $-15$), contains variables $p$ and $q$, features a negative coefficient ($-3$), and includes a constant term of $-15$. A poor answer might create an expression with multiplication of terms into each other or miss the negative coefficient requirement, showing incomplete grasp of term separation rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_008",
+   "title": "c11_stat_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define a discrete variable and give one example from economics where the variable is inherently discrete (not made discrete by grouping).",
+     "a": "A discrete variable takes only distinct, separate values (usually integers) with no intermediate values possible. Example: Number of workers employed in a factory — it must be a whole number; 15.7 workers is meaningless. A wrong answer (e.g., \"price of a share\" or \"temperature\") reveals the student confuses discrete with \"countable\" or thinks any variable with decimals is continuous, missing the \"gaps between values\" criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"monthly household income in rupees\" is considered a continuous variable in statistical analysis, even though Indian currency has a smallest unit (1 rupee).",
+     "a": "Although the rupee is the smallest accounting unit, income is treated as continuous because: (1) the range is large (thousands to lakhs), making the gap of ₹1 negligible relative to the scale; (2) we often compute averages, fractions, and percentages that yield non-integer values; (3) statistical methods for continuous variables (histograms, mean, standard deviation) are appropriate. A wrong answer (e.g., \"it's discrete because rupees are countable\") shows the student applies a rigid mathematical definition without considering the *statistical treatment* convention used in economics.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher records \"number of times a family visits a ration shop in a month\" and \"quantity of wheat (in kg) purchased per visit\". Classify each as discrete or continuous. Then, if the researcher groups the wheat quantity into classes 0–5 kg, 5–10 kg, etc., does the variable *become* discrete? Justify.",
+     "a": "Visits: discrete (countable whole numbers). Wheat quantity: continuous (can be 3.25 kg, 7.8 kg). Grouping does **not** change the underlying nature; it only creates a discrete *frequency distribution* for tabulation. The variable remains continuous because the original measurement scale is continuous. A wrong answer (\"yes, it becomes discrete\") reveals the confusion between the *variable's nature* and the *data presentation format* — a critical error when choosing statistical techniques later.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two scenarios and identify which variable is discrete and which is continuous. Explain how the *measurement process* decides the classification:\n(a) A farmer counts the number of mango trees in his orchard.\n(b) The same farmer measures the height of each mango tree using a laser meter.",
+     "a": "(a) Discrete — counting yields integers (0, 1, 2...); no tree can be half-counted. (b) Continuous — the laser meter can record 4.3 m, 4.31 m, 4.315 m... any value within the instrument's precision. The measurement process (counting vs. measuring with a scale) determines the variable type. A wrong answer that classifies both as discrete (because \"trees are whole\") or both as continuous (because \"height can be measured\") shows the student ignores the *operational definition* of the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"In economics, all monetary variables (price, income, expenditure) are continuous, and all 'number of' variables (number of firms, number of employees) are discrete.\" Provide a counterexample for each part if possible.",
+     "a": "The statement is **largely true but has exceptions**. Counterexample for monetary: \"Number of ₹10 notes in a wallet\" is monetary but discrete (countable). Counterexample for 'number of': \"Number of kilometres travelled\" is a 'number of' but continuous (distance). The classification depends on whether the variable represents a *count* (discrete) or a *measurement on a continuous scale* (continuous), not merely the wording. A student who agrees fully reveals a surface-level, rule-based understanding without grasping the conceptual foundation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-survey with 3 questions for a study on \"Student Commuting Patterns\". For each question, specify the variable name, its type (discrete/continuous), and the *exact measurement instruction* you would give enumerators to ensure consistent classification.",
+     "a": "Good answer example:\n1. Variable: \"Number of bus rides per week\" — Discrete — Instruction: \"Record the total count of boardings Monday–Sunday as a whole number.\"\n2. Variable: \"One-way commute distance (km)\" — Continuous — Instruction: \"Use GPS/odometer; record to two decimal places (e.g., 4.25 km).\"\n3. Variable: \"Monthly transport expenditure (₹)\" — Continuous — Instruction: \"Sum all receipts; record exact rupees and paise (e.g., ₹1,245.50).\"\nA poor answer uses vague instructions (\"ask the student\") or misclassifies (e.g., distance as discrete), showing the student cannot operationalize the concept for real data collection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

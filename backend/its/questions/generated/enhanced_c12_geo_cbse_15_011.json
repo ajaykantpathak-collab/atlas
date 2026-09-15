@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_011",
+   "title": "c12_geo_cbse_15_011",
+   "questions": [
+    {
+     "q": "Name the two satellite systems operated by India for communication and remote sensing, and state one primary function of each.",
+     "a": "Correct answer: Indian National Satellite System (INSAT) — multi-purpose for telecommunication, meteorological observation, and data relay; Indian Remote Sensing Satellite System (IRS) — collects data in spectral bands for natural resource management. A wrong answer (e.g., confusing INSAT with IRS or attributing weather forecasting to IRS) reveals the student cannot distinguish between communication/weather satellites and earth-observation satellites, a common NCERT-specific confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why tele-density (telephones per 100 population) is typically higher in urban areas than rural areas in India, and name one government scheme aimed at reducing this gap.",
+     "a": "Correct answer: Urban areas have higher population density, better infrastructure, higher income, and greater demand, making network deployment profitable for operators. Rural areas face high capital cost per user, difficult terrain, and lower ARPU (average revenue per user). BharatNet (formerly NOFN) aims to connect all gram panchayats with optical fibre. A wrong answer focusing only on \"poverty\" or \"illiteracy\" misses the infrastructural and economic geography drivers (cost-distance, threshold population).",
+     "self_check": true
+    },
+    {
+     "q": "Given a district with 12 lakh population and 8.4 lakh telephone connections (landline + mobile), calculate the tele-density. If the national average tele-density is 85%, interpret whether this district is above or below average and suggest one geographical reason for the difference.",
+     "a": "Step 1: Tele-density = (Total connections / Population) × 100 = (8.4 lakh / 12 lakh) × 100 = 70%. Step 2: National average = 85%. District (70%) is below average. Step 3: Geographical reason — the district may be hilly/forested (e.g., in Uttarakhand or Northeast) with difficult terrain increasing deployment cost, or it may be a low-income agrarian region with low demand. A wrong calculation (e.g., forgetting ×100) or attributing difference only to \"government neglect\" without spatial reasoning shows weak quantitative and analytical skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reach and function of India Post (postal network) versus BharatNet (digital network) in bridging the rural-urban digital divide. Which network has a wider physical presence in remote villages as of 2024, and why?",
+     "a": "Correct answer: India Post has ~1.5 lakh post offices, 90% in rural areas, providing last-mile physical connectivity for letters, parcels, banking, and government services. BharatNet aims to connect ~2.6 lakh gram panchayats with optical fibre but as of 2024, many GPs lack last-mile connectivity (Wi-Fi hotspots not functional). India Post has wider physical presence because it was built over 150 years with universal service obligation; BharatNet is newer, capital-intensive, and faces right-of-way, power, and maintenance challenges in remote terrain. A wrong answer claiming BharatNet has wider reach confuses plan targets with ground reality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The introduction of 5G in India will automatically eliminate the digital divide between urban and rural areas.\" Provide two geographical arguments for or against.",
+     "a": "Correct evaluation: The statement is false. Argument 1: 5G requires dense fibre backhaul and small-cell sites, which are economically viable only in high-density urban clusters; rural areas lack fibre infrastructure and have low ARPU, delaying rollout. Argument 2: Digital divide is not just about network availability but also device affordability, digital literacy, electricity reliability, and relevant local content — 5G alone does not address these. A wrong answer agreeing with the statement shows technological determinism, ignoring the socio-economic and infrastructural geography of digital inclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 12 student: On an outline map of India, mark and label (i) the state with highest tele-density, (ii) a state with lowest internet penetration, (iii) the landing station of a major submarine cable, (iv) the headquarters of BSNL and TRAI. Explain the geographical pattern you observe.",
+     "a": "Expected answer: (i) Delhi or Kerala (highest tele-density ~200%), (ii) Bihar or Jharkhand (lowest internet penetration ~30-35%), (iii) Mumbai, Chennai, Kochi, Tuticorin (submarine cable landing stations), (iv) BSNL HQ: New Delhi; TRAI HQ: New Delhi. Pattern: Tele-density and internet penetration correlate with urbanization, per capita income, and coastal connectivity (cable landings). A poor answer marks random states without data backing, or cannot explain the coastal/inland disparity, indicating inability to link communication geography to physical and human factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

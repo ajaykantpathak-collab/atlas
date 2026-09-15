@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees110",
+ "concepts": [
+  {
+   "id": "gees.10.1",
+   "title": "What Is a Constitution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'What Is a Constitution' refers to.",
+     "a": "A constitution is the supreme rulebook of a state: it sets the structure of government, divides its powers, lists the rights of citizens and the duties of rulers, and stands above every ordinary law.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What Is a Constitution'.",
+     "a": "A constitution is the game's rulebook for the nation: players and referees alike must play by it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'What Is a Constitution' taught, and from which source text?",
+     "a": "Introduction (source: gees110.txt, Introduction)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.10.2",
+   "title": "Making of the Indian Constitution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Making of the Indian Constitution' refers to.",
+     "a": "India's Constitution was framed by the Constituent Assembly of elected and nominated members between 1946 and 1949; committees debated every clause, and it came into force on 26 January 1950.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Making of the Indian Constitution'.",
+     "a": "The Constitution was not decreed but deliberated: years of debate gave it the weight of a people's own choice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Making of the Indian Constitution' taught, and from which source text?",
+     "a": "Framing (source: gees110.txt, Framing)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.10.3",
+   "title": "The Preamble and Its Values",
+   "questions": [
+    {
+     "q": "Using the method 'The Preamble and Its Values', work with: democratic = 45, republic = 60, secular = 10, socialist = 20, sovereign = 6. Carry the chain through step by step and give the final value of preamble.",
+     "a": "141 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Preamble and Its Values' and work with: democratic = 80, republic = 3, secular = 80, socialist = 60, sovereign = 80. Carry the chain through step by step and give the final value of preamble.",
+     "a": "303 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Preamble and Its Values' refers to.",
+     "a": "The Preamble opens the Constitution by declaring India a sovereign, socialist, secular, democratic republic that secures justice, liberty, equality and fraternity for all its citizens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Preamble and Its Values'.",
+     "a": "The Preamble is the Constitution in one breath: a summary of the nation's goals and promises.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Preamble and Its Values', in plain ASCII form.",
+     "a": "preamble = sovereign + socialist + secular + democratic + republic",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.10.4",
+   "title": "The Constitution in Daily Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Constitution in Daily Life' refers to.",
+     "a": "The Constitution touches daily life: it guarantees the rights you exercise at school and street, protects minorities, allows amendment by special procedure, and reminds every official that power is borrowed, not owned.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Constitution in Daily Life'.",
+     "a": "The Constitution works when citizens use it: rights claimed and duties done keep it alive.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Constitution in Daily Life' taught, and from which source text?",
+     "a": "Constitution and citizens (source: gees110.txt, Constitution and citizens)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

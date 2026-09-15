@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_009",
+   "title": "c11_hs_cbse_10_009",
+   "questions": [
+    {
+     "q": "Define savings in your own words, ensuring your definition includes all three distinguishing features that separate it from (a) money kept for next week's expenses and (b) money lost or hidden without purpose.",
+     "a": "Correct answer: Savings is the deliberate setting aside of a portion of current income or resources by forgoing present consumption, for a specific future purpose (such as emergencies, goals, or productive investment), where the decision involves conscious planning and goal orientation. A wrong answer that says \"money left after spending\" reveals the misconception that savings is a passive residual rather than an active choice; a wrong answer that omits \"future purpose\" confuses savings with hoarding or idle cash; a wrong answer that omits \"deliberate/conscious\" fails to distinguish savings from unspent money due to forgetfulness or lack of opportunity to spend.",
+     "self_check": true
+    },
+    {
+     "q": "A family earns ₹80,000/month. Their essential expenses (food, rent, utilities, transport, basic healthcare) total ₹65,000/month. They currently save ₹5,000/month by putting it in a jar at home. They want to increase savings to ₹12,000/month. Explain why simply \"deciding to save more\" (willingness) may not work unless a specific condition about their ability to save changes. Use the concepts of ability and willingness in your explanation.",
+     "a": "Correct answer: Ability to save = Income − Essential Expenses = ₹80,000 − ₹65,000 = ₹15,000 maximum possible. Current savings ₹5,000 is within ability. Target ₹12,000 is also within ability (₹12,000 < ₹15,000), so willingness alone could work IF essential expenses are truly fixed. However, if \"essential expenses\" include discretionary items misclassified as essential (e.g., dining out, premium subscriptions), actual ability may be lower. Willingness cannot overcome a hard ability constraint: if true essential expenses are ₹70,000, maximum ability is ₹10,000, making ₹12,000 impossible without income increase or genuine expense reduction. A wrong answer that says \"willingness is enough\" ignores the hard ceiling of per capita income minus survival needs; a wrong answer that ignores misclassification of expenses misses the practical budgeting link from c11_hs_cbse_10_005/006.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh's family (monthly income ₹45,000) and Suresh's family (monthly income ₹90,000) both spend ₹35,000 on essential expenses. Both families decide to save 20% of their income. Calculate each family's actual savings amount and savings rate (savings/essential expenses). Which family faces a higher \"sacrifice ratio\" (reduction in discretionary spending as % of current discretionary spending) to achieve this target? Show your work.",
+     "a": "Step 1: Ramesh income = ₹45,000. Target savings = 20% × ₹45,000 = ₹9,000. Essential expenses = ₹35,000. Current discretionary = ₹45,000 − ₹35,000 = ₹10,000. To save ₹9,000, discretionary must drop to ₹1,000. Sacrifice = (₹10,000 − ₹1,000)/₹10,000 = 90%.\nStep 2: Suresh income = ₹90,000. Target savings = 20% × ₹90,000 = ₹18,000. Essential expenses = ₹35,000. Current discretionary = ₹90,000 − ₹35,000 = ₹55,000. To save ₹18,000, discretionary drops to ₹37,000. Sacrifice = (₹55,000 − ₹37,000)/₹55,000 = 32.7%.\nStep 3: Ramesh faces 90% sacrifice ratio vs Suresh's 32.7%. Ramesh's family must give up almost all discretionary spending; Suresh's retains most. This shows ability to save (income − essentials) determines the feasibility of a given willingness level. A wrong answer that only compares absolute savings (₹9,000 vs ₹18,000) misses the disproportionate burden on lower-income families; a wrong answer that uses income as denominator for sacrifice ratio confuses sacrifice rate with savings rate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which reflects a deeper understanding of the relationship between savings and capital formation. Justify your choice.\nStatement A: \"When families save money in banks, banks lend it to businesses, which build factories and create jobs.\"\nStatement B: \"Savings lead to capital formation because financial intermediaries transform household sector surplus into productive investment in the corporate sector, expanding the economy's productive capacity.\"",
+     "a": "Correct answer: Statement B reflects deeper understanding. It uses precise terminology: \"financial intermediaries\" (banks, NBFCs), \"household sector surplus\" (savings), \"productive investment\" (capital goods, not consumption loans), and \"productive capacity\" (long-term growth). Statement A is correct but descriptive; it misses the institutional mechanism (intermediation), the sectoral flow (household → corporate), and the distinction between productive vs consumption lending. A wrong choice of A reveals a surface-level \"story\" understanding without the analytical framework of sectoral balances and financial intermediation taught in senior secondary economics (linked to c6_civics_ch13_023-027 on government budgeting and resource allocation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A family that saves ₹10,000/month by keeping cash in a home locker is contributing to capital formation just as effectively as a family that deposits ₹10,000/month in a bank fixed deposit.\" Use the NCERT distinction between savings and investment, and the role of financial intermediation, to defend your evaluation.",
+     "a": "Correct evaluation: The claim is false. NCERT (10.7) explicitly states: \"If savings are put under the folds of a saree or kept hidden in a pitcher, it is not going to result in investment. Savings have to be put to productive use in the economic sense to result in investment.\" Cash in a locker is savings but not investment — it exits the financial system, earns zero return, loses value to inflation, and cannot be lent to entrepreneurs. Bank deposits enter the financial intermediation chain: bank → loan to business → capital goods → production → income → further savings. The locker saver hoards; the depositor enables capital formation. A wrong answer that says \"both save same amount\" confuses the stock of savings with the flow of investment; it ignores the NCERT's explicit warning that physical hoarding is economically sterile.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Savings Decision Framework\" for a family of four (income ₹70,000/month, essential expenses ₹48,000/month) that integrates: (a) ability-to-save calculation, (b) willingness assessment via goal-setting, (c) the NCERT principle that \"saving for saving's sake is futile,\" and (d) a mechanism to convert savings into investment. Present as a 5-step flowchart with decision rules at each step.",
+     "a": "Expected answer criteria:\n1. Step 1 (Ability): Calculate max savings = ₹70,000 − ₹48,000 = ₹22,000. Rule: Target savings ≤ ₹22,000.\n2. Step 2 (Willingness/Goals): List 3 time-bound goals (e.g., emergency fund ₹1 lakh in 12 months, child education ₹5 lakh in 10 years, retirement ₹1 crore in 25 years). Rule: Each goal must have amount, deadline, priority.\n3. Step 3 (Futility Check): Reject any \"save whatever is left\" approach. Rule: Every rupee saved must be tagged to a goal from Step 2.\n4. Step 4 (Allocation): Distribute monthly savings across goals by priority/urgency. Rule: Emergency fund first (₹8,333/month for 12 months), then education, then retirement.\n5. Step 5 (Investment Conversion): Map each goal to an instrument matching horizon/liquidity (e.g., emergency → savings account/liquid fund; education → PPF/Sukanya Samriddhi; retirement → NPS/equity MF). Rule: No cash at home; all savings auto-transferred on salary day.\nA poor answer that omits goal-tagging (Step 3) or instrument-matching (Step 5) treats savings as an end, not a means to investment — violating the core NCERT principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

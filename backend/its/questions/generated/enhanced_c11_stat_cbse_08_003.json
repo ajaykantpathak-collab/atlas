@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_003",
+   "title": "c11_stat_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the formula for the simple aggregative price index number, and what does each symbol represent?",
+     "a": "The formula is \\( P_{01} = \\frac{\\sum P_1}{\\sum P_0} \\times 100 \\), where \\( P_1 \\) is the price in the current period, \\( P_0 \\) is the price in the base period, and the summation runs over all items. A wrong answer (e.g., using quantities instead of prices, or forgetting to multiply by 100) reveals that the student confuses price and quantity indices or does not understand that the index is expressed as a percentage of the base period.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the simple average of price relatives method might give a different result from the simple aggregative method for the same dataset.",
+     "a": "The simple aggregative method weights each item by its absolute price level (higher-priced items dominate the sum), while the simple average of relatives treats each item's percentage change equally regardless of its price level. A wrong answer that claims they always give the same result shows the student misses the implicit weighting difference; a wrong answer that confuses the two formulas indicates a lack of conceptual distinction between summing prices and averaging ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for three items, compute the simple aggregative quantity index number for 2024 with 2023 as base year.\nItem A: Q2023=10 kg, Q2024=12 kg\nItem B: Q2023=5 kg, Q2024=6 kg\nItem C: Q2023=20 kg, Q2024=18 kg",
+     "a": "Step 1: Sum base-year quantities: 10+5+20 = 35 kg. Step 2: Sum current-year quantities: 12+6+18 = 36 kg. Step 3: Apply formula: \\( Q_{01} = \\frac{36}{35} \\times 100 = 102.86 \\). A wrong answer (e.g., 103.5 or 97.14) reveals arithmetic errors or using prices instead of quantities, or reversing the base and current periods.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the simple aggregative method and the simple average of relatives method in terms of the units of measurement of the items. Which method is affected by the choice of units (e.g., kg vs. grams) and why?",
+     "a": "The simple aggregative method is affected by the units of measurement because summing prices/quantities directly depends on the scale (e.g., measuring in grams instead of kg multiplies the sum by 1000, changing the index). The simple average of relatives is unit-free because each relative is a pure ratio. A wrong answer that says both are unit-free or both are affected shows the student does not understand the role of units in aggregation versus averaging ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the simple average of price relatives gives equal importance to each item, it is always better than the simple aggregative method.\" Evaluate this statement.",
+     "a": "The statement is not universally true. Equal importance per item may be desirable when items are heterogeneous and we want each percentage change to count equally, but it ignores the economic significance of items with larger price magnitudes (e.g., a 10% change in a car price matters more than a 10% change in a pencil price). The simple aggregative method implicitly weights by price level, which can be meaningful in some contexts. A wrong answer that agrees without qualification shows the student cannot critically assess the trade-offs between methods.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (at least 4 items) where the simple aggregative price index and the simple average of price relatives index differ by more than 5 index points. Show both calculations.",
+     "a": "Example: Item1: P0=100, P1=120; Item2: P0=10, P1=15; Item3: P0=50, P1=55; Item4: P0=200, P1=210.\nSimple aggregative: ΣP0=360, ΣP1=400 → index = 111.11.\nRelatives: 120, 150, 110, 105 → mean = 121.25.\nDifference ≈ 10.14 points. A poor answer would use items with similar price levels, yielding a small difference, indicating the student does not grasp how price dispersion drives the divergence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

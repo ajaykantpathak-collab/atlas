@@ -1,0 +1,251 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 8,
+ "chapter_title": "पद",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.108.1.1",
+   "title": "संत-काव्य परंपरा और रैदास का परिचय",
+   "section": "1",
+   "definition": "रैदास (रविदास) 15वीं शताब्दी के काशी-निवासी संत कवि हैं जिन्होंने बाह्य आडंबरों का खंडन कर मन की शुद्धि और आंतरिक भक्ति को ही सच्चा धर्म माना; उनकी सरल ब्रजभाषा में अवधी, राजस्थानी, खड़ी बोली और उर्दू-फारसी शब्दों का मिश्रण है तथा उनकी रचनाएँ आदि गुरु ग्रंथ साहिब और रैदास बानी में संकलित हैं।",
+   "formula": "-",
+   "key_idea": "संत-काव्य की पहचान है - आडंबर का विरोध, सरल लोकभाषा और निराकार भक्ति।",
+   "textbook_ref": "ihga108.txt lines 12-28 (रैदास का परिचय और दोनों पदों का भाव-सार)",
+   "question_patterns": [
+    "Raidas ka parichay apne shabdon mein dijiye",
+    "sant kavy parampara ki khaas baatein kya hain",
+    "Raidas ne bhaay aadambardon ka kyon virodh kiya",
+    "Raidas ki bhasha ki visheshtayen likhiye",
+    "Raidas bani kya hai",
+    "antrik bhakti ko sacha dharm kyon kaha gaya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिचय की पहचान कीजिए",
+     "explain": "जन्म काशी, जीवनकाल 15वीं शताब्दी, संत कवियों में गणना - यही आधार रखिए।"},
+    {"step": 2, "action": "दृष्टि बताइए",
+     "explain": "बाह्य आडंबर छोड़कर मन की शुद्धता को ही धर्म मानना उनका मूल सिद्धांत है।"},
+    {"step": 3, "action": "भाषा और संकलन जोड़िए",
+     "explain": "सरल ब्रजभाषा की रचनाएँ गुरु ग्रंथ साहिब तक पहुँचीं और रैदास बानी में जमा हुईं।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.2",
+   "title": "अनन्य भक्ति: चंदन-पानी से स्वामी-दास तक की उपमाएँ",
+   "section": "1",
+   "definition": "पहले पद में रैदास 'अब कैसे छूटै राम रट लागी' कहकर पूछते हैं कि नाम की रट लग जाने पर वियोग कैसे सहा जाए; चंदन-पानी की बास, दीपक-बाती की जोति, मोती-धागे का संगम और स्वामी-दास का नाता - सब उपमाएँ यही कहती हैं कि भक्त आराध्य से कभी अलग नहीं हो सकता।",
+   "formula": "-",
+   "key_idea": "भक्त और आराध्य का संबंध चंदन-पानी जैसा है - अलग होने पर भी एक-दूसरे में घुले रहते हैं।",
+   "textbook_ref": "ihga108.txt lines 32-38 (पद 1) तथा lines 23-25 (पाठ-प्रस्तावना में उपमाओं की व्याख्या)",
+   "question_patterns": [
+    "ab kaise chhutai ram rat lagi ka bhaav kya hai",
+    "chandan pani ki upama kya darshati hai",
+    "deepak baati ke sambandh se Raidas kya kahna chahte hain",
+    "moti dhaga jaise sone milat suhaaga ka arth samjhaiye",
+    "swami das sambandh mein kya bhaav hai",
+    "ananya bhakti ka kya arth hota hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "रट का भाव पकड़िए",
+     "explain": "रट लगना यानी नाम की ऐसी आदत जो बिछोह सह न सके।"},
+    {"step": 2, "action": "उपमाएँ क्रम से गिनाइए",
+     "explain": "चंदन-पानी, घन-बन और मोरा, चंद-चकोरा, दीपक-बाती, मोती-धागा - पाँच कड़ियाँ हैं।"},
+    {"step": 3, "action": "निष्कर्ष निकालिए",
+     "explain": "अंत में स्वामी-दास का घोषणात्मक संबंध ही रैदास की भगति का घोषणापत्र है।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.3",
+   "title": "दृढ़ निष्ठा: तीर्थ-व्रत से चरण-कमल की भरोसेदारी",
+   "section": "1",
+   "definition": "दूसरे पद में रैदास कहते हैं - 'जो तुम तोरौ राम मैं नहिं तोरौ, तुम सौ तोरि कवन सौं जोरौ'; वे तीर्थ और व्रत की चिंता छोड़कर प्रभु के चरण-कमल को एकमात्र भरोसा मानते हैं - यह पद अडिग निष्ठा, विश्वास और कर्मकांड से ऊपर उठी भक्ति का घोषणापत्र है।",
+   "formula": "-",
+   "key_idea": "आडंबर छोड़कर चरणों में टिका भरोसा ही सच्ची भक्ति की कसौटी है।",
+   "textbook_ref": "ihga108.txt lines 39-44 (पद 2) तथा lines 26-28 (निष्ठा-भाव की प्रस्तावना)",
+   "question_patterns": [
+    "jo tum torau ram main nahi torau ka aashay samjhaiye",
+    "tirth barat andesa nahi hona kya darshata hai",
+    "charan kamal ek bharosa kyon kaha gaya",
+    "Raidas ne tirth aur vrat ki jagah kya aadhar liya",
+    "dridh nishtha ka bhaav pad mein kaise prakat hua",
+    "karmkand aur bhakti mein kya antar hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "घोषणा की पहली कड़ी पकड़िए",
+     "explain": "प्रभु छोड़ेंगे तो किसको जोड़ेंगे - यही अनन्यता का तर्क है।"},
+    {"step": 2, "action": "तीर्थ-व्रत का स्थान देखिए",
+     "explain": "वे अनिवार्य नहीं माने गए; चरणों का भरोसा एकमात्र सहारा है।"},
+    {"step": 3, "action": "भावार्थ बाँधिए",
+     "explain": "बाह्य कर्मकांड की जगह भीतर का विश्वास लेता है।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.4",
+   "title": "सर्वव्यापक ईश्वर की अवधारणा",
+   "section": "1",
+   "definition": "'जहँ जहँ जाओ तुम्हरी पूजा, तुम सा देव ओर नहिं दूजा' पंक्ति में ईश्वर की सर्वव्यापकता व्यक्त है - जहाँ-जहाँ भी जाओ, तुम्हारी ही पूजा है और तुम्हारे जैसा दूसरा देव नहीं; इसी सोच में निराकार, एक और अखंड आराध्य की संत-परंपरा की दृष्टि झलकती है।",
+   "formula": "-",
+   "key_idea": "ईश्वर स्थान और रूप के बंधन से परे है - सब जगह उसी की पूजा है।",
+   "textbook_ref": "ihga108.txt line 42 (पद 2 की पंक्ति) तथा अभ्यास प्रश्न-6 (lines 84-88)",
+   "question_patterns": [
+    "sarvyapak ishwar ki avdharna kis pankti mein hai",
+    "jaha jaha jaao tumhari puja ka bhaavarth likhiye",
+    "tum sa dev or nahi duja ka kya arth hai",
+    "nirakar aradhy ki bhakti ka kya arth hai",
+    "sant parampara mein ek ishwar ki drishti kaisi hai",
+    "ishwar ki sarvyapakta ka varnan kijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "पंक्ति का शाब्दिक अर्थ रखिए",
+     "explain": "हर दिशा में आराध्य की ही पूजा - स्थान का बंधन नहीं।"},
+    {"step": 2, "action": "दार्शनिक तल देखिए",
+     "explain": "दूसरा देव न होना एकत्व और निराकारता दोनों का संकेत है।"},
+    {"step": 3, "action": "परंपरा से जोड़िए",
+     "explain": "यही दृष्टि रैदास को कबीर जैसे निराकार-भक्ति वाले संतों की कतार में खड़ा करती है।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.5",
+   "title": "अलंकार: अनुप्रास, उपमा और रूपक",
+   "section": "1",
+   "definition": "पदों में अनुप्रास अलंकार 'घन बन' (व्यंजनों की आवृत्ति), उपमा अलंकार 'सोने मिलत सुहागा' (प्रसिद्ध वस्तु की समानता से वर्णन) और रूपक अलंकार 'तुम्हरे चरन कमल' (उपमेय में उपमान का आरोप) - तीनों काव्य-सौंदर्य को गहरा करते हैं।",
+   "formula": "-",
+   "key_idea": "ध्वनि-अनुकरण, तुलना और अभेद-आरोप - तीन अलंकार पदों की लय और अर्थ दोनों बढ़ाते हैं।",
+   "textbook_ref": "ihga108.txt lines 101-116 (कविता का सौंदर्य - अलंकार विवेचन)",
+   "question_patterns": [
+    "anupras alankar kya hota hai - udaharan dijiye",
+    "upma aur roopak alankar mein kya antar hai",
+    "ghat ban mein kaun sa alankar hai",
+    "sone milat suhaaga mein upma ka prayog kaise hua",
+    "charan kamal mein roopak kaise sthit hai",
+    "alankar kavya saundarya kaise badhate hain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "ध्वनि देखिए",
+     "explain": "एक ही व्यंजन की बार-बार आवृत्ति अनुप्रास बनाती है।"},
+    {"step": 2, "action": "तुलना के शब्द पकड़िए",
+     "explain": "समानता का उल्लेख हो तो उपमा, न हो तो रूपक।"},
+    {"step": 3, "action": "पाठ पर लागू कीजिए",
+     "explain": "घन-बन, सोने-सुहागा और चरन-कमल तीन उदाहरण याद रखिए।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.6",
+   "title": "पदों की काव्य-विशेषताएँ: भाषा, लय और गेयता",
+   "section": "1",
+   "definition": "रैदास के दोनों पदों में अनन्य भक्ति-भाव, सरल लोकधर्मी भाषा, उपमा-तुलना की किरणें, लयात्मकता और गेयता (ध्वन्यात्मकता) तथा दृढ़ निष्ठा-आस्था - ये पाँच विशेषताएँ साफ दिखती हैं; 'राती', 'तीरथ', 'बरत' जैसे शब्द लय के अनुरूप हैं और पदों को गाने योग्य बनाते हैं।",
+   "formula": "-",
+   "key_idea": "संत-काव्य बोले जाने और गाए जाने वाला काव्य है - इसीलिए उसकी भाषा और लय लोक की है।",
+   "textbook_ref": "ihga108.txt lines 119-131 (कविता की विशेषताओं की सूची और अभ्यास)",
+   "question_patterns": [
+    "raidas ke padon ki kavya visheshtayen likhiye",
+    "lokdharmi bhasha se kya tatyap hai",
+    "layatmakta aur geyata ka kya arth hai",
+    "padon mein upma-tulna kaise prayukt hui hai",
+    "dridh nishtha aur aastha kaise prakat hui hai",
+    "sant kavy ko gaya kyon jata hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "पाँच विशेषताएँ गिनाइए",
+     "explain": "भक्ति-भाव, भाषा, उपमा, लय-गेयता और निष्ठा - सूची पाठ में दी गई है।"},
+    {"step": 2, "action": "प्रत्येक के उदाहरण जोड़िए",
+     "explain": "जैसे लय के लिए 'चरन कमल एक भरोसां' की तुक-धारा देखिए।"},
+    {"step": 3, "action": "समग्र चित्र बनाइए",
+     "explain": "ये विशेषताएँ मिलकर पदों को सुनने-गाने में आसान और यादगार बनाती हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.108.1.7",
+   "title": "नामदेव के पद और निर्गुण संत-काव्य का समान्वय",
+   "section": "1",
+   "definition": "साथ-साथ पढ़े गए नामदेव (13वीं-14वीं शताब्दी, महाराष्ट्र) के पद निर्गुण संत-काव्य परंपरा के हैं - 'राम कोइ न किसही केरा' और 'मोहि लागति तालाबेली' में भी आडंबरों का विरोध, सामाजिक समरसता और राम-नाम की आस्था है; रैदास और नामदेव के पदों में भाव की समानता और भाषा-शैली का भिन्नापन दोनों देखे जा सकते हैं।",
+   "formula": "-",
+   "key_idea": "संत-काव्य का संदेश एक है, बस बोली और बिंब अलग-अलग हैं।",
+   "textbook_ref": "ihga108.txt lines 156-186 (नामदेव का परिचय और दो पद) तथा lines 186-187 (तुलना का अभ्यास)",
+   "question_patterns": [
+    "Namdev ke padon ki bhasha kaisi hai",
+    "ram koi na kisahi kera ka bhaav samjhaiye",
+    "mohi lagati talabeli mein kya bimb hai",
+    "Raidas aur Namdev ke padon mein kya samantayen hain",
+    "nirgun sant kavy parampara kya hai",
+    "samarasta ka sandesh sant kavyon mein kaise dikhta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परंपरा की पहचान कीजिए",
+     "explain": "निर्गुण धारा में आडंबर-विरोध और निराकार भक्ति केंद्र में रहते हैं।"},
+    {"step": 2, "action": "बिंब-तुलना कीजिए",
+     "explain": "तालाब की गाय और पानी में तड़पती मीन - नामदेव के लोक-बिंब हैं।"},
+    {"step": 3, "action": "समानता-अंतर तौलिए",
+     "explain": "भाव में एकता, भाषा में विविधता - यही तुलना का निष्कर्ष है।"}
+   ]
+  },
+  {
+   "id": "ihga.108.2.1",
+   "title": "संज्ञा और सर्वनाम की पहचान",
+   "section": "2",
+   "definition": "संज्ञा वह शब्द है जो किसी व्यक्ति, वस्तु, स्थान या भाव का नाम बताता है जैसे पदों में आए 'राम', 'चकोरा', 'भगति'; सर्वनाम संज्ञा के स्थान पर प्रयुक्त होता है जैसे 'तुम', 'हम' - रैदास के पदों में 'तुम' और 'हम' का आदान-प्रदान ही भक्त-आराध्य संवाद की आत्मीयता बनाता है।",
+   "formula": "-",
+   "key_idea": "संज्ञा नाम है, सर्वनाम नाम का चलने वाला विकल्प - दोनों वाक्य की रीढ़ हैं।",
+   "textbook_ref": "ihga108.txt lines 144-150 (व्याकरण: शब्दों की बात - संज्ञा-सर्वनाम खोज)",
+   "question_patterns": [
+    "sangya aur sarvanam mein kya antar hai",
+    "pad se sangya aur sarvanam ke udaharan chuniye",
+    "tum aur hum shabd kis kya vyakt karte hain",
+    "sarvanam ka prayog kyon kiya jata hai",
+    "sangya ke kitne bhed hote hain",
+    "padon mein sarvanam ki bhumika samjhaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिभाषा की कसौटी रखिए",
+     "explain": "नाम बताता शब्द संज्ञा है, नाम की जगह लेने वाला सर्वनाम।"},
+    {"step": 2, "action": "पद से उदाहरण चुनिए",
+     "explain": "राम, चकोरा, भगति संज्ञाएँ; तुम-हम सर्वनाम हैं।"},
+    {"step": 3, "action": "काव्य-प्रयोग देखिए",
+     "explain": "तुम-हम का दोहराव भक्ति-संवाद की घनिष्ठता बढ़ाता है।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "ihga108.txt lines 54-88 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "'अब कैसे छूटै राम रट लागी' पंक्ति का भाव क्या है?",
+    "'प्रभु जी तुम चंदन हम पानी' में आराध्य-भक्त संबंध किस रूप में व्यक्त हुआ है?",
+    "'तुम दीपक, हम बाती' से रैदास का क्या आशय है?",
+    "'जो तुम तोरौ राम मैं नहिं तोरौ' में रैदास का आशय क्या है?",
+    "'तीरथ बरत न करूँ अंदेसा' पंक्ति से आप क्या समझते हैं?",
+    "सर्वव्यापक ईश्वर की अवधारणा किस पंक्ति में व्यक्त होती है?"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "ihga108.txt lines 89-102 (अर्थ और भाव तथा मेरी समझ मेरे विचार)",
+   "questions": [
+    "'प्रभु जी तुम घन बन, हम मोरा, जैसे चितवत चंद चकोरा' का अर्थ और भाव स्पष्ट कीजिए।",
+    "रैदास ने तीर्थ-व्रत के स्थान पर किस साधन को भक्ति का प्रमुख आधार माना है?",
+    "दोनों पदों में भक्त-आराध्य संबंध किन-किन प्रतीकों और उपमाओं से व्यक्त हुआ है?"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "ihga108.txt lines 144-150 (व्याकरण - शब्दों की बात)",
+   "questions": [
+    "पठित पदों से संज्ञा और सर्वनाम के तीन-तीन उदाहरण ढूँढ़कर लिखिए।",
+    "मोरा, चकोरा, बाती, तीरथ जैसे शब्दों के लिए आपके परिवेश में किन शब्दों का प्रयोग होता है?",
+    "पदों में आई उपमाओं के आधार पर भक्त और आराध्य के बीच संवाद-लेखन कीजिए।"
+   ]
+  }
+ ]
+}

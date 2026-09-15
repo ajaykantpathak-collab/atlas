@@ -1,0 +1,275 @@
+{
+ "catalog": "catalog_class12_psychology_lepy101",
+ "concepts": [
+  {
+   "id": "lepy101.1",
+   "title": "Intelligence Quotient (IQ)",
+   "questions": [
+    {
+     "q": "Find the IQ of a child whose mental age and chronological age are given. Use the method 'Intelligence Quotient (IQ)'. Work with: chronological_age = 500, mental_age = 25. Carry the chain through step by step and give the final value of iq.",
+     "a": "5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the IQ when MA equals 9 and CA equals 12. Use the method 'Intelligence Quotient (IQ)'. Work with: chronological_age = 1000, mental_age = 10. Carry the chain through step by step and give the final value of iq.",
+     "a": "1 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Intelligence Quotient (IQ)' refers to.",
+     "a": "A single numeric index of general mental ability that compares what a test-taker can do at present (mental age) with how long the person has actually lived (chronological age), scaled so that an age-typical performer lands at 100.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intelligence Quotient (IQ)'.",
+     "a": "Divide mental age by real age and multiply by 100; a result of 100 means performance typical of that age.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intelligence Quotient (IQ)', in plain ASCII form.",
+     "a": "iq = mental_age / chronological_age * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.2",
+   "title": "IQ Classification Bands and Population Shares",
+   "questions": [
+    {
+     "q": "Calculate the expected number of intellectually disabled persons in a district of 50000 using the IQ distribution. Use the method 'IQ Classification Bands and Population Shares'. Work with: band_percent = 15, population = 1200. Carry the chain through step by step and give the final value of band_count.",
+     "a": "180 units",
+     "self_check": false
+    },
+    {
+     "q": "How many people out of one lakh would be expected to score above IQ 130? Use the method 'IQ Classification Bands and Population Shares'. Work with: band_percent = 25, population = 48000. Carry the chain through step by step and give the final value of band_count.",
+     "a": "12000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'IQ Classification Bands and Population Shares' refers to.",
+     "a": "Because IQ scores pile up in the middle of a bell-shaped normal curve, psychologists label bands - average around 90-109, superior 120-130, borderline 70-79 - and can attach an approximate share of people to every band.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'IQ Classification Bands and Population Shares'.",
+     "a": "Multiply the total population by a band's percentage share to estimate how many people fall in that IQ band.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'IQ Classification Bands and Population Shares', in plain ASCII form.",
+     "a": "band_count = population * band_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.3",
+   "title": "Intellectual Giftedness and Intellectual Disability",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Intellectual Giftedness and Intellectual Disability' refers to.",
+     "a": "The two tails of the IQ spread get special labels: beyond 130 sits giftedness, exceptional general ability shown across many areas, while below 70 the term intellectual disability applies only when sub-average functioning is joined by deficits in adaptive behaviour during the developmental years up to 18.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intellectual Giftedness and Intellectual Disability'.",
+     "a": "A low score alone never settles disability - adaptive behaviour deficits before adulthood must accompany it; giftedness also differs from talent, which is narrow excellence in one field.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intellectual Giftedness and Intellectual Disability', in plain ASCII form.",
+     "a": "iq_above_130 -> giftedness ; iq_below_70 plus adaptive_deficits within age_0_to_18 -> intellectual_disability",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.4",
+   "title": "Psychometric Theories and the Guilford Cell Count",
+   "questions": [
+    {
+     "q": "How many cells does the structure-of-intellect model contain when its three dimensions are multiplied? Use the method 'Psychometric Theories and the Guilford Cell Count'. Work with: contents_count = 18, operations_count = 10, products_count = 300. Carry the chain through step by step and give the final value of guilford_cells.",
+     "a": "54000 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the total number of categories in Guilford's model from its operations, contents and products dimensions. Use the method 'Psychometric Theories and the Guilford Cell Count'. Work with: contents_count = 360, operations_count = 12, products_count = 80. Carry the chain through step by step and give the final value of guilford_cells.",
+     "a": "345600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Psychometric Theories and the Guilford Cell Count' refers to.",
+     "a": "Structural theories treat intelligence as a set of measurable abilities: Spearman's general g-factor with specific s-factors derived through factor analysis, Thurstone's seven primary mental abilities, Jensen's Level I and Level II hierarchy, and Guilford's three-dimensional operations-contents-products model.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Psychometric Theories and the Guilford Cell Count'.",
+     "a": "Guilford crosses 6 operations with 5 contents and 6 products, so his structure-of-intellect model holds 180 ability cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Psychometric Theories and the Guilford Cell Count', in plain ASCII form.",
+     "a": "guilford_cells = operations_count * contents_count * products_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.5",
+   "title": "Gardner's Theory of Multiple Intelligences",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gardner's Theory of Multiple Intelligences' refers to.",
+     "a": "Gardner replaces one general ability with eight relatively independent kinds - linguistic, logical-mathematical, spatial, musical, bodily-kinaesthetic, interpersonal, intrapersonal and naturalistic - so being strong in one tells you little about the rest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gardner's Theory of Multiple Intelligences'.",
+     "a": "Distinct intelligences work separately yet can cooperate on a real problem; each has a typical occupation profile.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gardner's Theory of Multiple Intelligences', in plain ASCII form.",
+     "a": "independent_intelligences = eight_types: linguistic, logical_mathematical, spatial, musical, bodily_kinaesthetic, interpersonal, intrapersonal, naturalistic",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.6",
+   "title": "Sternberg's Triarchic Theory of Intelligence",
+   "questions": [
+    {
+     "q": "Using the method 'Sternberg's Triarchic Theory of Intelligence', work with: componential_analytical = 80, contextual_practical = 12, experiential_creative = 25. Carry the chain through step by step and give the final value of triarchic_intelligence.",
+     "a": "117 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sternberg's Triarchic Theory of Intelligence' and work with: componential_analytical = 60, contextual_practical = 300, experiential_creative = 200. Carry the chain through step by step and give the final value of triarchic_intelligence.",
+     "a": "560 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sternberg's Triarchic Theory of Intelligence' refers to.",
+     "a": "Sternberg reads intelligent behaviour as adapting to, shaping and selecting environments, and splits it into three strands: componential analysis that serves school success, creative use of experience on fresh problems, and practical coping with daily demands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sternberg's Triarchic Theory of Intelligence'.",
+     "a": "Analytical intelligence predicts school grades, creative intelligence handles novel problems, and practical intelligence is street-smart dealing with the environment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sternberg's Triarchic Theory of Intelligence', in plain ASCII form.",
+     "a": "triarchic_intelligence = componential_analytical + experiential_creative + contextual_practical",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.7",
+   "title": "PASS Model of Intelligence",
+   "questions": [
+    {
+     "q": "Using the method 'PASS Model of Intelligence', work with: arousal_attention = 100, planning = 240, simultaneous_successive_processing = 40. Carry the chain through step by step and give the final value of pass_units.",
+     "a": "380 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'PASS Model of Intelligence' and work with: arousal_attention = 100, planning = 100, simultaneous_successive_processing = 24. Carry the chain through step by step and give the final value of pass_units.",
+     "a": "224 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'PASS Model of Intelligence' refers to.",
+     "a": "Das, Naglieri and Kirby picture intellect as three brain-based functional units - arousal with attention, coding done either simultaneously or successively, and planning - all operating over a knowledge base; their Cognitive Assessment System tests these processes in ages 5 to 18.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PASS Model of Intelligence'.",
+     "a": "Optimal arousal focuses attention, simultaneous processing integrates relations at once while successive processing stores information in sequence, and planning steers action to the goal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PASS Model of Intelligence', in plain ASCII form.",
+     "a": "pass_units = arousal_attention + simultaneous_successive_processing + planning",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.8",
+   "title": "Twin-Study Correlations: Nature and Nurture in Intelligence",
+   "questions": [
+    {
+     "q": "Using the method 'Twin-Study Correlations: Nature and Nurture in Intelligence', work with: corr_fraternal_together = 5, corr_identical_together = 500, corr_siblings_apart = 200. Carry the chain through step by step and give the final value of correlation_gap.",
+     "a": "300 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Twin-Study Correlations: Nature and Nurture in Intelligence' and work with: corr_fraternal_together = 10, corr_identical_together = 50, corr_siblings_apart = 4. Carry the chain through step by step and give the final value of correlation_gap.",
+     "a": "46 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Twin-Study Correlations: Nature and Nurture in Intelligence' refers to.",
+     "a": "Evidence on how intelligence develops comes from twin and adoption figures: the closer the genetic bond and the more similar the rearing setting, the higher the correlation between two people's intelligence scores, which supports a joint heredity-environment account.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Twin-Study Correlations: Nature and Nurture in Intelligence'.",
+     "a": "Identical twins reared together correlate near 0.90 while siblings reared apart correlate near 0.25, so genes set a range that environment fills in.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Twin-Study Correlations: Nature and Nurture in Intelligence', in plain ASCII form.",
+     "a": "correlation_gap = corr_identical_together - corr_siblings_apart",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.9",
+   "title": "Aptitude: Nature and Measurement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Aptitude: Nature and Measurement' refers to.",
+     "a": "Aptitude is a person's specific capacity to acquire a particular skill after training; it differs from intelligence (general mental ability) and from interest (mere preference), and it is measured with independent tests or multi-area batteries such as the DAT and GATB.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aptitude: Nature and Measurement'.",
+     "a": "Aptitude predicts future performance; without both aptitude and interest in the same field, the outcome stays unsatisfactory.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aptitude: Nature and Measurement', in plain ASCII form.",
+     "a": "skill_outcome = aptitude_potential plus_training_environment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy101.10",
+   "title": "Creativity and Its Relation to Intelligence",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Creativity and Its Relation to Intelligence' refers to.",
+     "a": "Creativity is the power to bring forth something novel, appropriate and useful - a fresh solution, invention or composition; it rests on some minimum intellectual base, but past that base higher intelligence does not by itself ensure creative work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Creativity and Its Relation to Intelligence'.",
+     "a": "Intelligence tests reward convergent thinking with one right answer, while open-ended creativity tests reward divergent thinking that runs in many directions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Creativity and Its Relation to Intelligence', in plain ASCII form.",
+     "a": "creative_output -> novelty plus usefulness ; requires minimum_intelligence, beyond_base no strict_correlation",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "catalog": "catalog_class8_social_ch2",
+ "concepts": [
+  {
+   "id": "c8ss.2.1",
+   "title": "Integration of Princely States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Integration of Princely States' refers to.",
+     "a": "At independence in 1947, India had over 500 princely states. Integration was the process by which these states acceded to the Indian Union, forming a unified nation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Integration of Princely States'.",
+     "a": "Most princely states joined India through persuasion and agreements; a few required special measures.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Integration of Princely States'.",
+     "a": "explain the process of integration of princely states",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.3",
+   "title": "States Reorganisation Act 1956",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'States Reorganisation Act 1956' refers to.",
+     "a": "The States Reorganisation Act 1956 was a law that reorganised the boundaries of Indian states on the basis of language, reducing the number of states and creating a more rational administrative structure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'States Reorganisation Act 1956'.",
+     "a": "The Act redrew state boundaries primarily along linguistic lines, replacing the earlier arrangement inherited from British rule.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'States Reorganisation Act 1956'.",
+     "a": "explain the purpose of the States Reorganisation Act 1956",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.4",
+   "title": "Formation of Linguistic States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formation of Linguistic States' refers to.",
+     "a": "Linguistic states are states organised so that people speaking a common language form a single administrative unit. Andhra Pradesh was the first linguistic state, formed in 1953 after the fasting death of Potti Sriramulu.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formation of Linguistic States'.",
+     "a": "Creating linguistic states made administration easier and strengthened democratic participation by respecting language identity.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Formation of Linguistic States'.",
+     "a": "explain how Andhra Pradesh became the first linguistic state",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.5",
+   "title": "Boundary Changes and Their Reasons",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Boundary Changes and Their Reasons' refers to.",
+     "a": "Boundary changes are alterations to the borders of states or creation of new states to improve administration, address linguistic or cultural identity, or meet regional demands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Boundary Changes and Their Reasons'.",
+     "a": "Boundaries change over time due to linguistic demands, administrative convenience, and regional movements.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Boundary Changes and Their Reasons'.",
+     "a": "explain reasons for boundary changes in India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.6",
+   "title": "Union Territories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Union Territories' refers to.",
+     "a": "Union Territories are regions administered directly by the Central Government of India. They do not have the full powers of a state and are governed by an administrator or Lieutenant Governor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Union Territories'.",
+     "a": "Union Territories are created for strategic, cultural, or administrative reasons where direct central control is preferred.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Union Territories'.",
+     "a": "define Union Territory",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.7",
+   "title": "Administrative Divisions of India",
+   "questions": [
+    {
+     "q": "Using the method 'Administrative Divisions of India', work with: states = 40, uts = 8. Carry the chain through step by step and give the final value of count.",
+     "a": "48 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Administrative Divisions of India' and work with: states = 25, uts = 240. Carry the chain through step by step and give the final value of count.",
+     "a": "265 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Administrative Divisions of India' refers to.",
+     "a": "India is administratively divided into states and Union Territories. States are further divided into districts, and districts into tehsils or blocks for governance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Administrative Divisions of India'.",
+     "a": "The administrative hierarchy flows from the Centre to states to districts to local bodies, enabling governance at each level.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Administrative Divisions of India', in plain ASCII form.",
+     "a": "total_units = states + union_territories",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.2.8",
+   "title": "Current Political Map of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Current Political Map of India' refers to.",
+     "a": "The current political map of India shows 28 states and 8 Union Territories, reflecting the latest boundary changes including the reorganisation of Jammu and Kashmir in 2019.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Current Political Map of India'.",
+     "a": "The political map changes with the creation of new states and Union Territories; the latest major change was in 2019 with Jammu and Kashmir and Ladakh.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Current Political Map of India'.",
+     "a": "identify states on the political map of India",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

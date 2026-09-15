@@ -1,0 +1,924 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Limits and Derivatives",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh112.txt",
+ "concepts": [
+  {
+   "id": "kemh112.12.3.1",
+   "title": "Left and Right Hand Limits",
+   "section": "12.3",
+   "definition": "The value a function approaches as the input gets closer to a specific point from the left side or the right side respectively.",
+   "formula": "LHL = lim(x->a-) f(x), RHL = lim(x->a+) f(x)",
+   "key_idea": "Directional approach to a point in the domain.",
+   "textbook_ref": "kemh112.txt lines 210-230",
+   "question_patterns": [
+    "find the left hand limit at x = a",
+    "calculate the right hand limit",
+    "what is the expected value from the left",
+    "determine the limit from the positive side",
+    "Explain the method of Left and Right Hand Limits."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the function behavior for x < a",
+     "explain": "Select the expression for f(x) when x is slightly less than the target value."
+    },
+    {
+     "step": 2,
+     "action": "Identify the function behavior for x > a",
+     "explain": "Select the expression for f(x) when x is slightly greater than the target value."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate each one-sided limit by substituting values approaching a",
+     "explain": "Plug in values of x that get arbitrarily close to a from each side to find the approached value for LHL and RHL."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.2",
+   "title": "Existence of a Limit",
+   "section": "12.3",
+   "definition": "A limit exists at a point if and only if the values approached from both the left and right sides are equal.",
+   "formula": "lim(x->a) f(x) = L if LHL = RHL = L",
+   "key_idea": "Consistency of function approach from both directions.",
+   "textbook_ref": "kemh112.txt lines 225-240",
+   "question_patterns": [
+    "does the limit exist at x = a",
+    "check if the limit is defined",
+    "verify the existence of the limit",
+    "show that the limit does not exist",
+    "Explain the method of Existence of a Limit."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute LHL",
+     "explain": "Find the limit as x approaches a from the left."
+    },
+    {
+     "step": 2,
+     "action": "Compute RHL",
+     "explain": "Find the limit as x approaches a from the right."
+    },
+    {
+     "step": 3,
+     "action": "Compare LHL and RHL",
+     "explain": "If LHL equals RHL, the limit exists and is equal to that value."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.3",
+   "title": "Algebra of Limits",
+   "section": "12.3.1",
+   "definition": "Rules governing the limits of functions formed by arithmetic operations like addition, subtraction, multiplication, and division.",
+   "formula": "lim(f + g) = lim f + lim g",
+   "key_idea": "Limits distribute over basic arithmetic operations.",
+   "textbook_ref": "kemh112.txt lines 310-330",
+   "question_patterns": [
+    "find the limit of the sum of functions",
+    "calculate the limit of f(x) times g(x)",
+    "evaluate the limit of the quotient",
+    "apply the algebra of limits to find the result",
+    "Explain the method of Algebra of Limits."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find individual limits",
+     "explain": "Calculate the limit for each function component separately.",
+     "compute": "val_f"
+    },
+    {
+     "step": 2,
+     "action": "Perform arithmetic operation",
+     "explain": "Combine the individual limits using the required operation (sum, product, etc).",
+     "compute": "limit_f + limit_g"
+    },
+    {
+     "step": 3,
+     "action": "State the final limit value",
+     "explain": "The combined limit equals the result of the arithmetic operation applied to the individual limits.",
+     "compute": "total_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving algebra of limits.",
+     "solution": "Step 1: Find individual limits. Step 2: Perform arithmetic operation. Step 3: State the final limit value. Working: val_f, limit_f + limit_g, total_limit.",
+     "answer": "Algebra of Limits applied step by step gives the required result."
+    },
+    {
+     "question": "Apply algebra of limits to a fresh example and interpret the result.",
+     "solution": "Step 1: Find individual limits. Step 2: Perform arithmetic operation. Step 3: State the final limit value. Working: val_f, limit_f + limit_g, total_limit.",
+     "answer": "The method of algebra of limits leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.4",
+   "title": "Limit of a Polynomial Function",
+   "section": "12.3.2",
+   "definition": "The limit of a polynomial as x approaches a is simply the value obtained by substituting a into the polynomial.",
+   "formula": "lim(x->a) P(x) = P(a)",
+   "key_idea": "Direct substitution for continuous polynomial expressions.",
+   "textbook_ref": "kemh112.txt lines 335-355",
+   "question_patterns": [
+    "evaluate the limit of the polynomial",
+    "find the limit as x tends to a for the expression",
+    "calculate the value of the limit for the quadratic",
+    "what is the limit of the cubic function",
+    "Explain the method of Limit of a Polynomial Function."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Substitute the value into the polynomial",
+     "explain": "Replace every instance of the variable with the target value a.",
+     "compute": "c0 + (c1 * a) + (c2 * (a ** 2))"
+    },
+    {
+     "step": 2,
+     "action": "Evaluate each term of the polynomial",
+     "explain": "Compute each power term by raising a to the corresponding exponent and multiplying by its coefficient.",
+     "compute": "(c1 * a) + (c2 * (a ** 2))"
+    },
+    {
+     "step": 3,
+     "action": "Sum all terms to get the limit",
+     "explain": "Add the constant term to the evaluated power terms to obtain the final limit value.",
+     "compute": "c0 + term_sum"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving limit of a polynomial function.",
+     "solution": "Step 1: Substitute the value into the polynomial. Step 2: Evaluate each term of the polynomial. Step 3: Sum all terms to get the limit. Working: c0 + (c1 * a) + (c2 * (a ** 2)), (c1 * a) + (c2 * (a ** 2)), c0 + term_sum.",
+     "answer": "Limit of a Polynomial Function applied step by step gives the required result."
+    },
+    {
+     "question": "Apply limit of a polynomial function to a fresh example and interpret the result.",
+     "solution": "Step 1: Substitute the value into the polynomial. Step 2: Evaluate each term of the polynomial. Step 3: Sum all terms to get the limit. Working: c0 + (c1 * a) + (c2 * (a ** 2)), (c1 * a) + (c2 * (a ** 2)), c0 + term_sum.",
+     "answer": "The method of limit of a polynomial function leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.5",
+   "title": "Standard Limit Theorem for Powers",
+   "section": "12.3.2",
+   "definition": "A specific formula for the limit of the ratio of the difference of powers to the difference of the bases.",
+   "formula": "lim(x->a) (x^n - a^n)/(x - a) = n * a^(n-1)",
+   "key_idea": "Simplifying limits of power differences using a standard result.",
+   "textbook_ref": "kemh112.txt lines 410-430",
+   "question_patterns": [
+    "evaluate the limit of (x^n - a^n)/(x - a)",
+    "find the limit using the power formula",
+    "calculate the limit for x^15 - 1 over x^10 - 1",
+    "apply the theorem for x^n - a^n",
+    "Explain the method of Standard Limit Theorem for Powers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify n and a",
+     "explain": "Determine the exponent and the constant value from the expression.",
+     "compute": "n"
+    },
+    {
+     "step": 2,
+     "action": "Apply the power rule formula",
+     "explain": "Multiply the exponent by the constant raised to the power of (n-1).",
+     "compute": "n * (a ** (n - 1))"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the computed value",
+     "explain": "Reduce the expression to its simplest numerical or algebraic form to obtain the final limit.",
+     "compute": "result"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving standard limit theorem for powers.",
+     "solution": "Step 1: Identify n and a. Step 2: Apply the power rule formula. Step 3: Simplify the computed value. Working: n, n * (a ** (n - 1)), result.",
+     "answer": "Standard Limit Theorem for Powers applied step by step gives the required result."
+    },
+    {
+     "question": "Apply standard limit theorem for powers to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify n and a. Step 2: Apply the power rule formula. Step 3: Simplify the computed value. Working: n, n * (a ** (n - 1)), result.",
+     "answer": "The method of standard limit theorem for powers leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.4.1",
+   "title": "Standard Trigonometric Limit",
+   "section": "12.4",
+   "definition": "The fundamental limit where the ratio of the sine of an angle to the angle itself approaches unity as the angle goes to zero.",
+   "formula": "lim(x->0) (sin x / x) = 1",
+   "key_idea": "The sine of a small angle is approximately equal to the angle in radians.",
+   "textbook_ref": "kemh112.txt lines 460-480",
+   "question_patterns": [
+    "evaluate the limit of sin x / x",
+    "find the limit of sin(ax) / bx",
+    "calculate the trigonometric limit as x tends to 0",
+    "apply the sandwich theorem result for sine",
+    "Explain the method of Standard Trigonometric Limit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Adjust the argument to match the denominator",
+     "explain": "Multiply and divide to ensure the sine argument and the denominator are identical.",
+     "compute": "a / b"
+    },
+    {
+     "step": 2,
+     "action": "Apply the standard limit",
+     "explain": "The limit of sin(theta)/theta as theta goes to 0 is 1.",
+     "compute": "ratio * 1"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the final expression",
+     "explain": "Reduce the product of the ratio and the standard limit value to obtain the final answer.",
+     "compute": "ans"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving standard trigonometric limit.",
+     "solution": "Step 1: Adjust the argument to match the denominator. Step 2: Apply the standard limit. Step 3: Simplify the final expression. Working: a / b, ratio * 1, ans.",
+     "answer": "Standard Trigonometric Limit applied step by step gives the required result."
+    },
+    {
+     "question": "Apply standard trigonometric limit to a fresh example and interpret the result.",
+     "solution": "Step 1: Adjust the argument to match the denominator. Step 2: Apply the standard limit. Step 3: Simplify the final expression. Working: a / b, ratio * 1, ans.",
+     "answer": "The method of standard trigonometric limit leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.1",
+   "title": "Derivative at a Point (First Principle)",
+   "section": "12.5",
+   "definition": "The instantaneous rate of change of a function at a specific point, defined as the limit of the average rate of change.",
+   "formula": "f'(a) = lim(h->0) [f(a+h) - f(a)] / h",
+   "key_idea": "Slope of the tangent line to the curve at a point.",
+   "textbook_ref": "kemh112.txt lines 530-550",
+   "question_patterns": [
+    "find the derivative at x = a",
+    "calculate the derivative using first principles",
+    "what is the slope of the tangent at a",
+    "determine the rate of change at a given point",
+    "Explain the method of Derivative at a Point (First Principle)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate f(a+h)",
+     "explain": "Substitute a+h into the function expression.",
+     "compute": "f_of_a_plus_h"
+    },
+    {
+     "step": 2,
+     "action": "Form the difference quotient",
+     "explain": "Subtract f(a) from f(a+h) and divide by h.",
+     "compute": "(val_ah - val_a) / h"
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the limit as h approaches 0",
+     "explain": "Simplify the expression and find the limit value.",
+     "compute": "limit_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving derivative at a point (first principle).",
+     "solution": "Step 1: Evaluate f(a+h). Step 2: Form the difference quotient. Step 3: Evaluate the limit as h approaches 0. Working: f_of_a_plus_h, (val_ah - val_a) / h, limit_val.",
+     "answer": "Derivative at a Point (First Principle) applied step by step gives the required result."
+    },
+    {
+     "question": "Apply derivative at a point (first principle) to a fresh example and interpret the result.",
+     "solution": "Step 1: Evaluate f(a+h). Step 2: Form the difference quotient. Step 3: Evaluate the limit as h approaches 0. Working: f_of_a_plus_h, (val_ah - val_a) / h, limit_val.",
+     "answer": "The method of derivative at a point (first principle) leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.2",
+   "title": "Power Rule for Differentiation",
+   "section": "12.5.1",
+   "definition": "A rule for finding the derivative of a variable raised to a constant power.",
+   "formula": "d/dx (x^n) = n * x^(n-1)",
+   "key_idea": "The exponent becomes the coefficient and the new exponent is reduced by one.",
+   "textbook_ref": "kemh112.txt lines 630-650",
+   "question_patterns": [
+    "differentiate x to the power n",
+    "find the derivative of x^k",
+    "calculate d/dx of the power function",
+    "what is the derivative of x^100",
+    "Explain the method of Power Rule for Differentiation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exponent n",
+     "explain": "Find the power to which the variable is raised.",
+     "compute": "n"
+    },
+    {
+     "step": 2,
+     "action": "Determine the new exponent",
+     "explain": "Subtract 1 from the original exponent.",
+     "compute": "n - 1"
+    },
+    {
+     "step": 3,
+     "action": "Write the final derivative",
+     "explain": "Combine the coefficient and the reduced power to form the derivative expression n*x^(n-1).",
+     "compute": "coeff * (x ** new_exp)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving power rule for differentiation.",
+     "solution": "Step 1: Identify the exponent n. Step 2: Determine the new exponent. Step 3: Write the final derivative. Working: n, n - 1, coeff * (x ** new_exp).",
+     "answer": "Power Rule for Differentiation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply power rule for differentiation to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify the exponent n. Step 2: Determine the new exponent. Step 3: Write the final derivative. Working: n, n - 1, coeff * (x ** new_exp).",
+     "answer": "The method of power rule for differentiation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.3",
+   "title": "Product Rule (Leibnitz Rule)",
+   "section": "12.5.1",
+   "definition": "The derivative of a product of two functions is the derivative of the first times the second plus the first times the derivative of the second.",
+   "formula": "(uv)' = u'v + uv'",
+   "key_idea": "Handling derivatives of multiplied functions.",
+   "textbook_ref": "kemh112.txt lines 610-625",
+   "question_patterns": [
+    "find the derivative of the product",
+    "differentiate f(x)g(x)",
+    "apply the Leibnitz rule",
+    "calculate the derivative of x sin x",
+    "Explain the method of Product Rule (Leibnitz Rule)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find derivatives of individual functions",
+     "explain": "Calculate u' and v' separately.",
+     "compute": "u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Apply the product rule formula",
+     "explain": "Combine the functions and their derivatives: u'v + uv'.",
+     "compute": "(du * v) + (u * dv)"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the resulting expression",
+     "explain": "Expand and combine like terms in the sum to obtain the final derivative in its simplest form.",
+     "compute": "ans"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving product rule (leibnitz rule).",
+     "solution": "Step 1: Find derivatives of individual functions. Step 2: Apply the product rule formula. Step 3: Simplify the resulting expression. Working: u_prime, (du * v) + (u * dv), ans.",
+     "answer": "Product Rule (Leibnitz Rule) applied step by step gives the required result."
+    },
+    {
+     "question": "Apply product rule (leibnitz rule) to a fresh example and interpret the result.",
+     "solution": "Step 1: Find derivatives of individual functions. Step 2: Apply the product rule formula. Step 3: Simplify the resulting expression. Working: u_prime, (du * v) + (u * dv), ans.",
+     "answer": "The method of product rule (leibnitz rule) leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.4",
+   "title": "Quotient Rule",
+   "section": "12.5.1",
+   "definition": "The rule for differentiating a fraction of two functions.",
+   "formula": "(u/v)' = (u'v - uv') / v^2",
+   "key_idea": "The derivative of a ratio involves the difference of products over the square of the denominator.",
+   "textbook_ref": "kemh112.txt lines 615-630",
+   "question_patterns": [
+    "find the derivative of u/v",
+    "differentiate the rational function",
+    "apply the quotient rule",
+    "calculate the derivative of (x+1)/x",
+    "Explain the method of Quotient Rule."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find derivatives of numerator and denominator",
+     "explain": "Calculate u' and v'.",
+     "compute": "u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Compute the numerator of the result",
+     "explain": "Calculate u'v - uv'.",
+     "compute": "(du * v) - (u * dv)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the final derivative",
+     "explain": "Divide the numerator by the square of the denominator.",
+     "compute": "num / (v ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving quotient rule.",
+     "solution": "Step 1: Find derivatives of numerator and denominator. Step 2: Compute the numerator of the result. Step 3: Compute the final derivative. Working: u_prime, (du * v) - (u * dv), num / (v ** 2).",
+     "answer": "Quotient Rule applied step by step gives the required result."
+    },
+    {
+     "question": "Apply quotient rule to a fresh example and interpret the result.",
+     "solution": "Step 1: Find derivatives of numerator and denominator. Step 2: Compute the numerator of the result. Step 3: Compute the final derivative. Working: u_prime, (du * v) - (u * dv), num / (v ** 2).",
+     "answer": "The method of quotient rule leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh112.txt lines 365-375",
+   "concept": "kemh112.12.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find the limit: lim[x^3 - x^2 + 1] as x -> {a}",
+   "extracted_variables": {
+    "a": "target value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute a into the polynomial",
+     "explain": "Evaluate 1^3 - 1^2 + 1",
+     "compute": "ans = (a ** 3) - (a ** 2) + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh112.txt lines 435-445",
+   "concept": "kemh112.12.3.5",
+   "question_type": "compute",
+   "question_pattern": "Evaluate: lim (x^{n} - 1)/(x - 1) as x -> 1",
+   "extracted_variables": {
+    "n": "exponent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply power limit theorem",
+     "explain": "Limit is n * 1^(n-1)",
+     "compute": "ans = n * (1 ** (n - 1))"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.3.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Algebra of Limits chain with val_f = 2, limit_f = 3, limit_g = 5. What value does it produce?",
+   "extracted_variables": {
+    "val_f": "2",
+    "limit_f": "3",
+    "limit_g": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find individual limits",
+     "explain": "Calculate the limit for each function component separately.",
+     "compute": "limit_f = val_f"
+    },
+    {
+     "step": 2,
+     "action": "Perform arithmetic operation",
+     "explain": "Combine the individual limits using the required operation (sum, product, etc).",
+     "compute": "total_limit = limit_f + limit_g"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.3.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Algebra of Limits chain with val_f = 2, limit_f = 3, limit_g = 5. What value does it produce?",
+   "extracted_variables": {
+    "val_f": "2",
+    "limit_f": "3",
+    "limit_g": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find individual limits",
+     "explain": "Calculate the limit for each function component separately.",
+     "compute": "limit_f = val_f"
+    },
+    {
+     "step": 2,
+     "action": "Perform arithmetic operation",
+     "explain": "Combine the individual limits using the required operation (sum, product, etc).",
+     "compute": "total_limit = limit_f + limit_g"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.3.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Limit of a Polynomial Function chain with c0 = 2, c2 = 3, c1 = 5, a = 4. What value does it produce?",
+   "extracted_variables": {
+    "c0": "2",
+    "c2": "3",
+    "c1": "5",
+    "a": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute the value into the polynomial",
+     "explain": "Replace every instance of the variable with the target value a.",
+     "compute": "ans = c0 + (c1 * a) + (c2 * (a ** 2))"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.3.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Standard Limit Theorem for Powers chain with n = 2, a = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "a": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify n and a",
+     "explain": "Determine the exponent and the constant value from the expression.",
+     "compute": "exponent = n"
+    },
+    {
+     "step": 2,
+     "action": "Apply the power rule formula",
+     "explain": "Multiply the exponent by the constant raised to the power of (n-1).",
+     "compute": "result = n * (a ** (n - 1))"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Standard Trigonometric Limit chain with a = 2, b = 3, ratio = 5. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "ratio": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Adjust the argument to match the denominator",
+     "explain": "Multiply and divide to ensure the sine argument and the denominator are identical.",
+     "compute": "ratio = a / b"
+    },
+    {
+     "step": 2,
+     "action": "Apply the standard limit",
+     "explain": "The limit of sin(theta)/theta as theta goes to 0 is 1.",
+     "compute": "ans = ratio * 1"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Standard Trigonometric Limit chain with a = 2, b = 3, ratio = 5. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "ratio": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Adjust the argument to match the denominator",
+     "explain": "Multiply and divide to ensure the sine argument and the denominator are identical.",
+     "compute": "ratio = a / b"
+    },
+    {
+     "step": 2,
+     "action": "Apply the standard limit",
+     "explain": "The limit of sin(theta)/theta as theta goes to 0 is 1.",
+     "compute": "ans = ratio * 1"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivative at a Point (First Principle) chain with f_of_a_plus_h = 2, h = 3, val_ah = 5, val_a = 4, limit_val = 7. What value does it produce?",
+   "extracted_variables": {
+    "f_of_a_plus_h": "2",
+    "h": "3",
+    "val_ah": "5",
+    "val_a": "4",
+    "limit_val": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate f(a+h)",
+     "explain": "Substitute a+h into the function expression.",
+     "compute": "val_ah = f_of_a_plus_h"
+    },
+    {
+     "step": 2,
+     "action": "Form the difference quotient",
+     "explain": "Subtract f(a) from f(a+h) and divide by h.",
+     "compute": "diff = (val_ah - val_a) / h"
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the limit as h approaches 0",
+     "explain": "Simplify the expression and find the limit value.",
+     "compute": "derivative = limit_val"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivative at a Point (First Principle) chain with f_of_a_plus_h = 2, h = 3, val_ah = 5, val_a = 4, limit_val = 7. What value does it produce?",
+   "extracted_variables": {
+    "f_of_a_plus_h": "2",
+    "h": "3",
+    "val_ah": "5",
+    "val_a": "4",
+    "limit_val": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate f(a+h)",
+     "explain": "Substitute a+h into the function expression.",
+     "compute": "val_ah = f_of_a_plus_h"
+    },
+    {
+     "step": 2,
+     "action": "Form the difference quotient",
+     "explain": "Subtract f(a) from f(a+h) and divide by h.",
+     "compute": "diff = (val_ah - val_a) / h"
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the limit as h approaches 0",
+     "explain": "Simplify the expression and find the limit value.",
+     "compute": "derivative = limit_val"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Power Rule for Differentiation chain with n = 2. What value does it produce?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the exponent n",
+     "explain": "Find the power to which the variable is raised.",
+     "compute": "coeff = n"
+    },
+    {
+     "step": 2,
+     "action": "Determine the new exponent",
+     "explain": "Subtract 1 from the original exponent.",
+     "compute": "new_exp = n - 1"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Power Rule for Differentiation chain with n = 2. What value does it produce?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the exponent n",
+     "explain": "Find the power to which the variable is raised.",
+     "compute": "coeff = n"
+    },
+    {
+     "step": 2,
+     "action": "Determine the new exponent",
+     "explain": "Subtract 1 from the original exponent.",
+     "compute": "new_exp = n - 1"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Product Rule (Leibnitz Rule) chain with u_prime = 2, du = 3, v = 5, u = 4, dv = 7. What value does it produce?",
+   "extracted_variables": {
+    "u_prime": "2",
+    "du": "3",
+    "v": "5",
+    "u": "4",
+    "dv": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find derivatives of individual functions",
+     "explain": "Calculate u' and v' separately.",
+     "compute": "du = u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Apply the product rule formula",
+     "explain": "Combine the functions and their derivatives: u'v + uv'.",
+     "compute": "ans = (du * v) + (u * dv)"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Product Rule (Leibnitz Rule) chain with u_prime = 2, du = 3, v = 5, u = 4, dv = 7. What value does it produce?",
+   "extracted_variables": {
+    "u_prime": "2",
+    "du": "3",
+    "v": "5",
+    "u": "4",
+    "dv": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find derivatives of individual functions",
+     "explain": "Calculate u' and v' separately.",
+     "compute": "du = u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Apply the product rule formula",
+     "explain": "Combine the functions and their derivatives: u'v + uv'.",
+     "compute": "ans = (du * v) + (u * dv)"
+    }
+   ]
+  },
+  {
+   "id": "drill15",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Quotient Rule chain with u_prime = 2, du = 3, v = 5, u = 4, dv = 7, num = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "u_prime": "2",
+    "du": "3",
+    "v": "5",
+    "u": "4",
+    "dv": "7",
+    "num": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find derivatives of numerator and denominator",
+     "explain": "Calculate u' and v'.",
+     "compute": "du = u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Compute the numerator of the result",
+     "explain": "Calculate u'v - uv'.",
+     "compute": "num = (du * v) - (u * dv)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the final derivative",
+     "explain": "Divide the numerator by the square of the denominator.",
+     "compute": "ans = num / (v ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "drill16",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh112.12.5.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Quotient Rule chain with u_prime = 2, du = 3, v = 5, u = 4, dv = 7, num = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "u_prime": "2",
+    "du": "3",
+    "v": "5",
+    "u": "4",
+    "dv": "7",
+    "num": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find derivatives of numerator and denominator",
+     "explain": "Calculate u' and v'.",
+     "compute": "du = u_prime"
+    },
+    {
+     "step": 2,
+     "action": "Compute the numerator of the result",
+     "explain": "Calculate u'v - uv'.",
+     "compute": "num = (du * v) - (u * dv)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the final derivative",
+     "explain": "Divide the numerator by the square of the denominator.",
+     "compute": "ans = num / (v ** 2)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "12.1",
+   "source_ref": "kemh112.txt lines 500-525",
+   "questions": [
+    "Evaluate lim x+3 as x approaches 3",
+    "Evaluate lim (x^10 + x^5 + 1)/(x - 1) as x approaches -1",
+    "Evaluate lim (sin ax)/(bx) as x approaches 0",
+    "Find lim f(x) for f(x) = |x|/x, x != 0 at x = 0"
+   ]
+  },
+  {
+   "id": "12.2",
+   "source_ref": "kemh112.txt lines 680-705",
+   "questions": [
+    "Find the derivative of x^2 - 2 at x = 10",
+    "Find the derivative of 99x at x = 100",
+    "Find the derivative of sin x cos x",
+    "Find the derivative of (x+1)/(x-1)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_010",
+   "title": "c12_geo_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define \"carrying capacity\" in the context of urban settlements and state two indicators used to measure if a city has exceeded its carrying capacity.",
+     "a": "Carrying capacity of an urban settlement is the maximum population size that the local environment can support indefinitely without degradation, given prevailing technology, resource consumption patterns, and waste assimilation capacity. Two indicators: (1) Per capita water availability falling below 135 lpcd (litres per capita per day) as per CPHEEO norms, and (2) Ambient PM2.5 levels consistently exceeding 60 µg/m³ (NAAQS annual limit), indicating the airshed's assimilative capacity is breached. A wrong answer (e.g., defining carrying capacity only as \"population density\" or citing only traffic congestion) reveals the student conflates density with sustainability and ignores biophysical limits — a critical error for both board long-answer questions and CUET case-based questions on urban environmental stress.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"compact city\" form is considered more sustainable than \"sprawl\" for Indian metropolitan regions, linking land use, transport, and energy.",
+     "a": "Compact city form — high-density, mixed-use development along transit corridors — reduces average trip lengths, enables viable public transport (metro, BRT) by concentrating demand, lowers per capita infrastructure cost (shorter water/sewer pipes, roads), and preserves peri-urban agricultural land and aquifer recharge zones. Sprawl (low-density, segregated land use at urban fringes) forces car/bike dependence, increases VKT (vehicle kilometres travelled) by 2-3×, raises per capita energy use and emissions, and fragments ecosystems. A wrong answer focusing only on \"saving land\" without connecting to transport energy, infrastructure economics, or groundwater reveals a siloed understanding — students miss the systems linkage that board examiners and CUET demand in \"analyse the relationship\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A city of 2 million people currently supplies 110 lpcd water. The Smart Cities Mission targets 135 lpcd with 24×7 supply. If non-revenue water (NRW) is 40% and the city reduces it to 15% through smart metering and leak detection, calculate the additional water production capacity (in MLD) needed to achieve the target. Assume 1 MLD = 1 million litres/day.",
+     "a": "Step 1: Current effective supply per capita = 110 lpcd × (1 – 0.40) = 66 lpcd. Step 2: Target effective supply = 135 lpcd. Step 3: Required production at 15% NRW = 135 / (1 – 0.15) = 158.8 lpcd. Step 4: Current production = 110 lpcd (since 110 is already production-level figure). Step 5: Additional production needed = (158.8 – 110) lpcd × 2,000,000 people = 48.8 × 2,000,000 = 97,600,000 litres/day = 97.6 MLD. A wrong answer (e.g., forgetting to adjust for NRW, or using 135 × 2M = 270 MLD) shows the student cannot work with system efficiency parameters — a frequent trap in CUET numerical geography and board \"calculate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the RURBAN Mission (Shyama Prasad Mukherji Rurban Mission) and the Smart Cities Mission in terms of: (a) spatial unit of intervention, (b) core strategy, and (c) intended outcome for rural-urban continuum.",
+     "a": "(a) RURBAN: Cluster of Gram Panchayats (15,000–50,000 population in plains, 5,000–15,000 in hills/tribal/desert) — Smart Cities: Municipal Corporation/Council area (typically >1 lakh, up to millions). (b) RURBAN: \"Rurban\" clusters — provisioning of economic, social, and physical infrastructure to stimulate local economic development and reduce distress migration; Smart Cities: Area-based development (retrofitting, redevelopment, greenfield) + pan-city ICT solutions for governance/service delivery. (c) RURBAN: Creates growth poles in rural areas with urban amenities, strengthening rural-urban linkages; Smart Cities: Transforms existing cities into efficient, liveable, investment-attractive hubs. A wrong answer that treats both as \"urban missions\" or ignores the rural-urban continuum concept reveals the student hasn't grasped the geographical logic of balanced regional development — a core theme in NCERT Class 12 Chapter 4 and UPSC GS Paper 1.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Smart Cities Mission is primarily a technology mission, not a sustainability mission.\" Use three specific arguments grounded in the Mission's design and Indian urban reality.",
+     "a": "The statement is partially true but incomplete. Argument 1: The Mission's pan-city solutions (Integrated Command and Control Centres, smart meters, e-governance) are indeed technology-centric, and 80% of funds in many cities went to ICT hardware/software, not ecological restoration. Argument 2: However, the area-based development (ABD) component mandates green buildings, non-motorised transport (NMT) networks, wastewater recycling, and rooftop solar — direct sustainability outcomes. Argument 3: In Indian context, technology is the *enabler* for sustainability because without real-time data (SCADA for water, adaptive traffic signals), you cannot optimise resource use in cities with legacy infrastructure and informal settlements. A wrong answer that simply agrees or disagrees without dissecting the ABD vs pan-city split, or ignores the Indian constraint of retrofitting, shows lack of critical evaluation — costing marks in board \"discuss\" and CUET \"assertion-reason\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point sustainability audit checklist for a proposed greenfield Smart City township on 500 hectares of agricultural land at the fringe of a Tier-2 Indian city. Each point must be a measurable indicator with a benchmark.",
+     "a": "Good answer criteria: (1) Water: ≥50% demand met from recycled/rainwater harvesting; benchmark: ≤85 lpcd freshwater draw. (2) Energy: ≥30% of built-up rooftop area under solar PV; benchmark: ≥15% of annual electricity demand from on-site renewables. (3) Mobility: ≥70% of trips by walk/cycle/public transit; benchmark: NMT network covering 100% streets, bus stop within 300m of all residences. (4) Ecology: Zero net loss of green cover; benchmark: ≥20% of site area as contiguous green-blue infrastructure (parks, wetlands, urban forest) with native species. (5) Waste: 100% source segregation, ≤10% landfill; benchmark: decentralised composting/biogas for wet waste, material recovery facility for dry waste. A poor answer listing vague goals (\"green city,\" \"clean energy\") without quantifiable benchmarks reveals inability to translate sustainability principles into planning parameters — exactly what board \"suggest measures\" and competitive exam \"policy design\" questions test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

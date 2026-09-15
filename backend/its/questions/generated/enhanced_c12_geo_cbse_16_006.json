@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_006",
+   "title": "c12_geo_cbse_16_006",
+   "questions": [
+    {
+     "q": "From Table 8.4, which commodity group showed the largest percentage point increase in share of India's imports between 2015-16 and 2021-22, and what was the magnitude of that increase?",
+     "a": "Fuel (Coal, POL) increased from 25.4% to 31.6%, a rise of 6.2 percentage points. A wrong answer (e.g., picking capital goods or fertilisers) reveals the student cannot read percentage share tables or confuses absolute value increase with share increase — a critical error for board data-interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did foodgrain imports disappear from India's import basket after the 1970s while edible oil imports surged to ₹1,41,532 crore in 2021-22, despite both being agricultural products?",
+     "a": "Green Revolution (HYV wheat/rice, irrigation, fertilisers) made India foodgrain self-sufficient, but oilseeds (mustard, groundnut, soybean) received no equivalent technology/policy push; low MSP, rainfed cultivation, and yield stagnation kept domestic output below demand. A wrong answer citing \"climate unsuitable for oilseeds\" ignores that India is a major oilseed producer — the gap is policy-induced, not agro-climatic.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.5, calculate the percentage share of Petroleum, Oil and Lubricants (POL) in the total value of the listed principal import commodities for 2021-22. Show steps.",
+     "a": "Step 1: Sum listed values = 1,05,796 + 1,41,532 + 11,934 + 4,99,766 + 94,053 + 12,07,803 + 2,31,279 + 67,545 + 3,08,882 = ₹26,68,590 cr. Step 2: POL value = ₹12,07,803 cr. Step 3: Share = (12,07,803 / 26,68,590) × 100 = 45.26%. A wrong answer (e.g., 31.6%) confuses Table 8.4's broad \"Fuel\" group with Table 8.5's specific \"POL\" commodity — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the import share trends of capital goods (Table 8.4) and manufactured goods exports (Table 8.2) from 2015-16 to 2021-22. What does the divergence imply about India's industrialisation strategy?",
+     "a": "Capital goods imports fell from 13.0% to 10.1% while manufactured goods exports fell from 72.9% to 67.8% — both declining, but capital goods import decline is sharper. This implies India is assembling/processing using existing machinery rather than investing in new plant/machinery (capital formation), signalling \"shallow\" industrialisation. A wrong answer claiming \"manufacturing is growing because exports are high\" misses the declining share and capital goods stagnation — a JEE/NEET-level analytical trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's rising petroleum import bill is purely a function of global price volatility; domestic policy has no role.\" Use data from Tables 8.4 and 8.5 and energy geography concepts.",
+     "a": "False. While 1973 oil crisis and 2022 price spikes raised values, the structural rise in POL share (25.4% → 31.6%) reflects policy choices: limited domestic exploration (NELP failures), refinery capacity oriented to exports not domestic security, weak public transport pushing private vehicle dependence, and slow EV transition. A wrong answer blaming only \"global prices\" ignores that India's oil import dependence rose from ~80% to ~85% despite known reserves — a policy failure, not just price shock.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point import substitution roadmap for edible oils that addresses the yield gap, farmer incentives, and processing infrastructure, using India's agro-climatic zones (Class 11 Ch 4) and oilseed missions.",
+     "a": "1) Yield: Deploy hybrid mustard/soybean in Malwa plateau (black soil) and sunflower in Deccan (red soil) with drip irrigation — target 2.5 t/ha vs current 1.2 t/ha. 2) Incentives: Guarantee MSP at 50% above A2+FL cost for 5 years, linked to procurement by NAFED, to shift area from wheat/rice in Punjab/Haryana. 3) Processing: Cluster-based solvent extraction plants in Kota (Rajasthan), Latur (Maharashtra), Adilabad (Telangana) with PLI subsidies. A poor answer lists generic \"increase production\" without zone-specific crops, price signals, or value-chain infrastructure — failing the competency test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

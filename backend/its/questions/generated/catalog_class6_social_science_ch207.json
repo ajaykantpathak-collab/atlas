@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class6_social_science_ch207",
+ "concepts": [
+  {
+   "id": "fess.207.1",
+   "title": "Geographical Expanse and Territorial Extent of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Geographical Expanse and Territorial Extent of India' refers to.",
+     "a": "The total spatial expanse of India covering its geographical surface area along with north-to-south and east-to-west linear dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Geographical Expanse and Territorial Extent of India'.",
+     "a": "India covers about 3.28 million square kilometers with distinct latitudinal and longitudinal boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Geographical Expanse and Territorial Extent of India' taught, and from which source text?",
+     "a": "OUR COUNTRY - INDIA (source: fess207.txt lines 1-20)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.2",
+   "title": "Longitudinal Time Difference Calculation",
+   "questions": [
+    {
+     "q": "Calculate local time difference for longitudinal difference of {degree_diff} degrees. Use the method 'Longitudinal Time Difference Calculation'. Work with: degree_diff = 45. Carry the chain through step by step and give the final value of time_diff_hr.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Find time gap in hours between two longitudes separated by {degree_diff} degrees. Use the method 'Longitudinal Time Difference Calculation'. Work with: degree_diff = 4. Carry the chain through step by step and give the final value of time_diff_hr.",
+     "a": "0.2667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Longitudinal Time Difference Calculation' refers to.",
+     "a": "Computation of local time variation between two longitudes based on the constant rate of four minutes per degree of longitudinal separation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Longitudinal Time Difference Calculation'.",
+     "a": "Earth rotation causes a local time change of four minutes for each degree of longitude.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Longitudinal Time Difference Calculation', in plain ASCII form.",
+     "a": "time_diff_min = degree_diff * 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.3",
+   "title": "Locational Setting and Latitudinal-Longitudinal Boundaries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Locational Setting and Latitudinal-Longitudinal Boundaries' refers to.",
+     "a": "The precise global coordinates defining the mainland of India in the northern and eastern hemispheres, including key latitude lines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Locational Setting and Latitudinal-Longitudinal Boundaries'.",
+     "a": "India lies in the Northern and Eastern Hemispheres, bisected by the Tropic of Cancer at 23 degrees 30 minutes N.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Locational Setting and Latitudinal-Longitudinal Boundaries' taught, and from which source text?",
+     "a": "LOCATIONAL SETTING (source: fess207.txt lines 20-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.4",
+   "title": "India's Land Neighbours and Marine Boundaries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India's Land Neighbours and Marine Boundaries' refers to.",
+     "a": "The geographical relationships of India with adjacent countries sharing land borders or maritime boundaries across surrounding seas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India's Land Neighbours and Marine Boundaries'.",
+     "a": "Seven countries border India by land while island neighbours lie across water channels such as the Palk Strait.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India's Land Neighbours and Marine Boundaries' taught, and from which source text?",
+     "a": "INDIA'S NEIGHBOURS (source: fess207.txt lines 45-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.5",
+   "title": "Political and Administrative Structure of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Political and Administrative Structure of India' refers to.",
+     "a": "The governance framework dividing India into states created primarily on a linguistic basis and centrally governed union territories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political and Administrative Structure of India'.",
+     "a": "India comprises 28 states and 8 union territories with New Delhi as the national capital.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Political and Administrative Structure of India' taught, and from which source text?",
+     "a": "POLITICAL AND ADMINISTRATIVE DIVISIONS (source: fess207.txt lines 65-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.6",
+   "title": "Himalayan Mountain Range Structure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Himalayan Mountain Range Structure' refers to.",
+     "a": "The northernmost mountain barrier of India, divided into three parallel structural longitudinal zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Himalayan Mountain Range Structure'.",
+     "a": "The Himalayas consist of Himadri (Great Himalayas), Himachal (Middle Himalayas), and Shiwalik (Outer Himalayas).",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Himalayan Mountain Range Structure' taught, and from which source text?",
+     "a": "PHYSICAL DIVISIONS (source: fess207.txt lines 75-90)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.7",
+   "title": "Northern Indian Plains and Alluvial River Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Northern Indian Plains and Alluvial River Systems' refers to.",
+     "a": "Flat and fertile plains located south of the Himalayas formed by silt deposits carried by major river networks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Northern Indian Plains and Alluvial River Systems'.",
+     "a": "Fine alluvial soil brought by the Indus, Ganga, Brahmaputra and tributaries creates highly fertile, densely populated plains.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Northern Indian Plains and Alluvial River Systems' taught, and from which source text?",
+     "a": "PHYSICAL DIVISIONS (source: fess207.txt lines 90-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.8",
+   "title": "Peninsular Plateau and Relief Features",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Peninsular Plateau and Relief Features' refers to.",
+     "a": "A triangular elevated landform with uneven terrain south of the northern plains, rich in mineral resources and framed by hill ranges.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Peninsular Plateau and Relief Features'.",
+     "a": "The plateau is bounded by Aravali, Vindhya, Satpura ranges and drained westward by Narmada and Tapi rivers into the Arabian Sea.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Peninsular Plateau and Relief Features' taught, and from which source text?",
+     "a": "PHYSICAL DIVISIONS (source: fess207.txt lines 105-130)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.207.9",
+   "title": "Coastal Plains, Deltas, and Island Archipelagos",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coastal Plains, Deltas, and Island Archipelagos' refers to.",
+     "a": "Coastal regions bordering the peninsular plateau along with offshore island groups formed by coral polyps or sub-sea topography.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coastal Plains, Deltas, and Island Archipelagos'.",
+     "a": "Narrow western and broad eastern coastal plains, Sundarbans delta, coral Lakshadweep in Arabian Sea, and Andaman & Nicobar in Bay of Bengal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Coastal Plains, Deltas, and Island Archipelagos' taught, and from which source text?",
+     "a": "PHYSICAL DIVISIONS (source: fess207.txt lines 130-160)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

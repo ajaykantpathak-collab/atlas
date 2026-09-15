@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_009",
+   "title": "c12_soc_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define \"universalism\" and \"particularism\" in the context of studying Indian society in one sentence each.",
+     "a": "Universalism: The approach that seeks to apply general sociological theories (often Western-origin) to Indian society, assuming social structures follow universal laws. Particularism: The approach that insists Indian society must be understood through its own indigenous categories, historical trajectories, and cultural logics, rejecting direct theory import. A wrong answer (e.g., \"universalism means studying all societies, particularism means studying one\") reveals confusion between scope of study and epistemological stance — the debate is about *how* we theorize, not *how many* societies we study.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why G.S. Ghurye's early work on caste is often cited as an example of the universalist impulse, while M.N. Srinivas's concept of \"dominant caste\" represents a particularist turn.",
+     "a": "Ghurye used Indological texts and Western structural-functional frameworks to define caste by six universal features (segmental hierarchy, hereditary occupation, etc.), treating caste as a pan-Indian system comparable to class/estate systems globally. Srinivas, through fieldwork in Rampura, showed caste operates through local power dynamics (dominant caste) invisible in textual definitions, insisting concepts must emerge from empirical Indian reality. A wrong answer that says \"Ghurye studied texts, Srinivas did fieldwork\" misses the theoretical point: the difference is whether the *analytical categories* come from outside (universalism) or inside (particularism).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies \"middle-class formation in Bengaluru\" using Erik Olin Wright's class schema (contradictory class locations) without modification. Another studies the same topic using the concept of \"asal/nasal\" (authentic/inauthentic) cultural capital from Kannada discourse. Classify each approach and justify.",
+     "a": "First researcher: Universalist — applies a global class framework assuming its categories (manager, expert, worker) capture Bengaluru's reality without testing their cultural resonance. Second researcher: Particularist — derives analytical categories from local linguistic/cultural distinctions (asal/nasal) that shape status in Bengaluru specifically. A wrong classification (e.g., calling the second \"universalist because it studies class\") shows the student equates *topic* with *methodological stance*; the debate is about the *origin and validation* of concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Louis Dumont's \"Homo Hierarchicus\" (universalist structuralism) and McKim Marriott's \"ethnosociology\" (particularist). How does each treat the relationship between Indian cultural concepts (e.g., purity/pollution) and social structure?",
+     "a": "Dumont treats purity/pollution as the *universal cognitive structure* generating caste hierarchy — a single principle explaining all of India, comparable to Western individualism. Marriott treats purity/pollution as *indigenous ethnosociological categories* that actors themselves use; he builds models from native taxonomies (e.g., \"transactional codes\") rather than imposing an external logic. A weak answer merely says \"Dumont is structuralist, Marriott is ethnosociologist\" without explaining how each links *cultural meaning* to *social structure* — the core of the universalism/particularism divide.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The universalism-particularism debate is outdated; contemporary Indian sociology has resolved it through 'contextualization' (using universal theories but adapting them to Indian specifics).\" Support your evaluation with one strength and one limitation of this synthesis.",
+     "a": "Strength: Contextualization (e.g., Srinivas's \"Western theory, Indian data\") allows cumulative dialogue with global sociology — concepts like \"social capital\" or \"intersectionality\" can be productively tested in India. Limitation: It risks \"theoretical imperialism\" where universal frameworks set the agenda, and Indian particularities become mere \"case studies\" rather than theory-generating sites (e.g., using \"civil society\" to analyze Indian NGOs may miss the role of religious mathas). A poor evaluation treats synthesis as a simple compromise without analyzing power dynamics in knowledge production.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question on \"digital inequality in rural Rajasthan\" that deliberately adopts a particularist stance. Then rewrite it from a universalist stance. Explain the epistemological difference in one sentence.",
+     "a": "Particularist: \"How do Marwari merchants' traditional trust networks (sakh/hundi) shape smartphone adoption and digital payment practices in Jodhpur villages?\" Universalist: \"What is the correlation between household income, education, and internet access in rural Rajasthan, using the Digital Divide Index?\" Epistemological difference: The first treats local cultural institutions as constitutive of the phenomenon; the second treats them as variables to be controlled in a pre-defined global model. A weak answer gives two questions that differ only in wording, not in the *source of analytical categories*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

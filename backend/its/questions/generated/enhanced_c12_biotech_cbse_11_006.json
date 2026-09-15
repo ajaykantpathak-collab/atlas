@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_006",
+   "title": "c12_biotech_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the primary biochemical target of glyphosate in plants, and which enzyme does the CP4 EPSPS transgene encode?",
+     "a": "Glyphosate targets 5-enolpyruvylshikimate-3-phosphate synthase (EPSPS) in the shikimate pathway; the CP4 EPSPS transgene encodes a glyphosate-insensitive form of this same enzyme from *Agrobacterium* sp. strain CP4. A wrong answer (e.g., \"glyphosate targets glutamine synthetase\" or \"CP4 EPSPS degrades glyphosate\") reveals confusion between the two major resistance mechanisms — target-site modification vs. metabolic detoxification — and indicates the student cannot distinguish which herbicide matches which strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a chloroplast transit peptide is fused to the CP4 EPSPS coding sequence in Roundup Ready crops, but not necessarily required for the *bar* gene product (PAT) in Liberty Link crops.",
+     "a": "EPSPS functions in the chloroplast where the shikimate pathway operates, so the bacterial CP4 EPSPS must be imported into chloroplasts via a transit peptide; PAT (phosphinothricin acetyltransferase) acts in the cytosol where glufosinate accumulates, so no organellar targeting is needed. A wrong answer (e.g., \"both need transit peptides\" or \"neither needs one\") shows the student does not connect subcellular localisation of metabolic pathways to transgene design — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher constructs a glyphosate-resistance cassette using the native plant EPSPS promoter instead of a constitutive promoter. Predict the likely phenotype of the transgenic plant when sprayed with glyphosate at the recommended field rate, and justify your prediction.",
+     "a": "The plant will likely show partial or no resistance because the native EPSPS promoter drives low, tissue-specific expression insufficient to outcompete glyphosate inhibition across all meristems; constitutive promoters (CaMV 35S, FMV) ensure high-level EPSPS in all growing tissues. A wrong answer (\"it will work fine\") ignores the kinetic competition between herbicide and enzyme — resistance requires enzyme concentration far above endogenous levels, a concept tested in NEET application questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resistance evolution risk in weeds for glyphosate-resistant (Roundup Ready) vs. glufosinate-resistant (Liberty Link) cropping systems, considering the molecular mechanism of resistance and the number of known resistance-conferring mutations in the target enzyme.",
+     "a": "Glyphosate resistance evolves faster because single-point mutations in weed EPSPS (e.g., Pro106Ser) can confer resistance while retaining enzyme function, and the target is a single enzyme; glufosinate resistance requires mutations in glutamine synthetase that often impair function, and metabolic detoxification via PAT is not easily mimicked by weed mutations. A wrong answer (\"both have equal risk\") misses the critical distinction: target-site resistance is mutationally accessible, whereas metabolic resistance is not — a key concept in competitive exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Herbicide-resistant crops reduce overall herbicide use because farmers spray less frequently.\" Support your evaluation with evidence from adoption data of Roundup Ready soybean in the USA (1996–2010).",
+     "a": "The statement is false for glyphosate-resistant systems; USDA data show total glyphosate use increased 10-fold (1996–2010) because the technology enabled repeated, broadcast applications replacing diverse herbicide mixtures and tillage. A wrong answer (\"true, because one spray replaces many\") confuses spray frequency with total active ingredient applied and ignores the shift from integrated weed management to chemical-only control — a nuance examiners test in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical transgene cassette for a crop resistant to a new herbicide that inhibits acetolactate synthase (ALS). Specify promoter, targeting sequence, coding sequence, and terminator, and justify each choice based on ALS subcellular localisation and herbicide mode of action.",
+     "a": "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e.g., Ala122Thr or Trp574Leu) → NOS terminator. Justification: ALS operates in chloroplasts for branched-chain amino acid synthesis; a transit peptide ensures enzyme delivery; a mutated ALS with reduced herbicide binding provides target-site resistance; constitutive promoter guarantees expression in all meristems. A poor answer omits the transit peptide or uses a cytosolic enzyme, showing failure to integrate pathway localisation with transgene engineering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

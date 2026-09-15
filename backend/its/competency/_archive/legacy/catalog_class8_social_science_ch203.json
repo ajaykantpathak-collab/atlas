@@ -1,0 +1,749 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "Ruling the Countryside",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess203.txt",
+ "concepts": [
+  {
+   "id": "hess.203.1",
+   "title": "Grant of Diwani to the East India Company",
+   "section": "The Company Becomes the Diwan",
+   "definition": "The official authorization granted by the Mughal Emperor in August 1765 designating the East India Company as the chief financial administrator of Bengal.",
+   "formula": "",
+   "key_idea": "Transformed a foreign trading enterprise into the sovereign revenue administrator of Bengal.",
+   "textbook_ref": "hess203.txt lines 1-25",
+   "question_patterns": [
+    "explain the significance of the grant of Diwani to the East India Company in 1765",
+    "how did the appointment as Diwan change the functioning of the East India Company",
+    "what role did Robert Clive play during the grant of Diwani",
+    "describe how becoming Diwan affected British administration in Bengal",
+    "why was obtaining the Diwani considered a major milestone for the British"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the date and authority of appointment",
+     "explain": "the Mughal emperor appointed the Company as Diwan on 12 August 1765"
+    },
+    {
+     "step": 2,
+     "action": "analyze administrative impact",
+     "explain": "the Company became chief financial administrator, allowing local revenues to finance colonial trade"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.2",
+   "title": "Bengal Revenue Crisis and Famine of 1770",
+   "section": "Revenue for the Company",
+   "definition": "An economic downturn in Bengal caused by relentless revenue extraction by the British, resulting in severe rural distress and a famine in 1770 that wiped out one-third of the population.",
+   "formula": "",
+   "key_idea": "Excessive revenue extraction without financial investment ruined the agrarian economy.",
+   "textbook_ref": "hess203.txt lines 26-55",
+   "question_patterns": [
+    "describe the economic crisis in Bengal following the grant of Diwani",
+    "what were the primary causes and consequences of the Bengal famine of 1770",
+    "how did colonial trade policies impoverish peasants and artisans in Bengal",
+    "explain why artisanal production and agriculture declined rapidly after 1765",
+    "examine how forced sales at low prices affected Bengal producers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine trade policies",
+     "explain": "artisans were compelled to sell goods cheaply while peasants faced excessive tax demands"
+    },
+    {
+     "step": 2,
+     "action": "evaluate famine impact",
+     "explain": "the 1770 famine killed ten million people, causing widespread rural economic collapse"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.3",
+   "title": "Permanent Settlement of 1793",
+   "section": "The need to improve agriculture",
+   "definition": "A land revenue system introduced by Governor-General Lord Cornwallis in 1793 in which revenue rates were fixed permanently and local elites were made hereditary zamindars.",
+   "formula": "",
+   "key_idea": "Fixed revenue demands permanently to guarantee steady income and encourage private investment in land.",
+   "textbook_ref": "hess203.txt lines 56-85",
+   "question_patterns": [
+    "what were the main features of the Permanent Settlement introduced in 1793",
+    "who introduced the Permanent Settlement system in Bengal",
+    "why did the British fix land revenue permanently under Cornwallis",
+    "describe the role assigned to zamindars under the Permanent Settlement",
+    "explain how the British expected Permanent Settlement to encourage agricultural investment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify key policymakers and terms",
+     "explain": "introduced by Lord Cornwallis in 1793, recognizing rajas and taluqdars as zamindars"
+    },
+    {
+     "step": 2,
+     "action": "explain revenue mechanics",
+     "explain": "revenue demand was permanently fixed so zamindars could retain surplus from land improvements"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.4",
+   "title": "Problems of the Permanent Settlement",
+   "section": "The problem",
+   "definition": "Flaws in the Permanent Settlement where high revenue demands caused zamindars to forfeit estates while peasants suffered under oppressive rents and insecure tenure.",
+   "formula": "",
+   "key_idea": "Immoderately high initial rates ruined zamindars and deprived cultivators of land security.",
+   "textbook_ref": "hess203.txt lines 86-125",
+   "question_patterns": [
+    "what problems arose from the implementation of the Permanent Settlement",
+    "why did many zamindars lose their estates under the Permanent Settlement",
+    "how did the Permanent Settlement oppress actual cultivators in Bengal villages",
+    "explain why zamindars failed to invest in improving agricultural land",
+    "describe the condition of under-tenants as noted by Colebrook"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze zamindar defaults",
+     "explain": "initial revenue rates were set so high that failing zamindars had their estates auctioned"
+    },
+    {
+     "step": 2,
+     "action": "assess peasant exploitation",
+     "explain": "cultivators faced high rents, debt burdens, and risk of eviction by intermediaries"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.5",
+   "title": "Mahalwari Settlement System",
+   "section": "A new system is devised",
+   "definition": "A land revenue framework created by Holt Mackenzie in 1822 for North Western Provinces, assessing revenue village-by-village (mahal) with periodic revisions.",
+   "formula": "",
+   "key_idea": "Assessed revenue per village collective with periodic revisions under village headmen control.",
+   "textbook_ref": "hess203.txt lines 126-155",
+   "question_patterns": [
+    "explain the working of the Mahalwari system devised by Holt Mackenzie",
+    "how was the Mahalwari system different from the Permanent Settlement",
+    "what was a mahal in British revenue records",
+    "who was responsible for collecting revenue in the Mahalwari system",
+    "why did the British periodically revise revenue demands under the Mahalwari system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define unit of assessment",
+     "explain": "revenue was calculated by surveying individual plots within a village estate or mahal"
+    },
+    {
+     "step": 2,
+     "action": "identify collection mechanism",
+     "explain": "village headmen collected and remitted revised revenue directly to the government"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.6",
+   "title": "Ryotwari System (Munro System)",
+   "section": "The Munro system",
+   "definition": "A direct revenue arrangement devised by Alexander Read and Thomas Munro in southern India, settling tax assessments directly with individual agricultural cultivators (ryots).",
+   "formula": "",
+   "key_idea": "Direct settlement with individual farmers without intermediary zamindars.",
+   "textbook_ref": "hess203.txt lines 156-185",
+   "question_patterns": [
+    "describe the features of the Ryotwari or Munro system in South India",
+    "why were zamindars bypassed in the southern revenue settlement",
+    "what role did Thomas Munro play in shaping South Indian revenue collection",
+    "how were land surveys conducted prior to Ryotwari revenue assessments",
+    "explain why revenue demand in the Ryotwari system led to desertion of villages"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify regions and innovators",
+     "explain": "developed by Read and Munro in Madras presidency without traditional zamindars"
+    },
+    {
+     "step": 2,
+     "action": "outline direct assessment",
+     "explain": "cultivators fields were surveyed individually to fix revenue demands directly"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.7",
+   "title": "Plough Requirement Calculation for Indigo Cultivation",
+   "section": "The problem with nij cultivation",
+   "definition": "The calculation of total agricultural ploughs required for a given area of land under nij indigo cultivation, where each bigha requires exactly two ploughs.",
+   "formula": "ploughs = 2 * bighas",
+   "key_idea": "Every bigha under indigo requires two ploughs for cultivation.",
+   "textbook_ref": "hess203.txt lines 215-235",
+   "question_patterns": [
+    "calculate the number of ploughs required for a given number of bighas of indigo cultivation",
+    "how many ploughs are needed to cultivate indigo on a specified bigha plot",
+    "find the total ploughs required for an indigo planter with a given land area in bighas",
+    "determine the number of ploughs necessary for cultivating indigo over a bigha area",
+    "compute the required ploughs for a specified bigha landholding in Bengal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply bighas by two",
+     "explain": "each bigha of indigo land requires two ploughs for proper preparation",
+     "compute": "ploughs = 2 * bighas"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.8",
+   "title": "Nij and Ryoti Systems of Indigo Cultivation",
+   "section": "How was indigo cultivated?",
+   "definition": "The two primary modes of commercial indigo production: nij, where planters cultivated directly controlled lands, and ryoti, where ryots were bound by cash advances to grow indigo.",
+   "formula": "",
+   "key_idea": "Planters produced indigo either on direct estates or through forced peasant debt contracts.",
+   "textbook_ref": "hess203.txt lines 200-260",
+   "question_patterns": [
+    "differentiate between nij and ryoti systems of indigo cultivation",
+    "what problems did planters face under the nij system of indigo cultivation",
+    "how did the contract or satta system operate under ryoti cultivation",
+    "why were peasants reluctant to grow indigo under the ryoti system",
+    "explain how cash advances trapped ryots in a continuous cycle of debt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare land control methods",
+     "explain": "nij involved direct planter ownership while ryoti forced peasants to dedicate land via contracts"
+    },
+    {
+     "step": 2,
+     "action": "analyze constraints",
+     "explain": "nij suffered from shortage of compact land and ploughs, while ryoti trapped peasants in debt"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.9",
+   "title": "Indigo Processing in Vats",
+   "section": "How was indigo produced?",
+   "definition": "The multi-stage chemical extraction of indigo dye in factory vats involving plant fermentation, paddle beating with lime water, and sediment molding.",
+   "formula": "",
+   "key_idea": "Sequential vat fermentation, oxidation beating, and pressing transformed green leaves into blue dye.",
+   "textbook_ref": "hess203.txt lines 261-290",
+   "question_patterns": [
+    "describe the step by step process of manufacturing indigo dye in vats",
+    "what were the functions of the steeper vat and beater vat in indigo manufacturing",
+    "how was lime water utilized during the indigo dye production process",
+    "explain the role of vat beaters in extracting indigo dye",
+    "what happened to the indigo solution after beating was completed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "detail fermentation stage",
+     "explain": "indigo leaves were soaked in warm water in the steeper vat until fermented"
+    },
+    {
+     "step": 2,
+     "action": "detail beating and settling stages",
+     "explain": "liquid was stirred in beater vat with lime water, settling sediment into blue pulp for pressing"
+    }
+   ]
+  },
+  {
+   "id": "hess.203.10",
+   "title": "The Blue Rebellion and Indigo Commission",
+   "section": "The \"Blue Rebellion\" and After",
+   "definition": "The massive agrarian uprising of Bengal ryots in 1859 against indigo planters, leading to the 1860 Indigo Commission report that condemned planter coercion.",
+   "formula": "",
+   "key_idea": "Peasant uprising in Bengal ended forced indigo cultivation and led to official reform.",
+   "textbook_ref": "hess203.txt lines 291-340",
+   "question_patterns": [
+    "what were the causes and consequences of the Blue Rebellion of 1859",
+    "how did women and local headmen participate in the Indigo Rebellion",
+    "what were the findings and recommendations of the Indigo Commission of 1860",
+    "why did indigo production collapse in Bengal and shift to Bihar",
+    "how was Mahatma Gandhi associated with the indigo planters in Champaran"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain uprising triggers",
+     "explain": "ryots refused advances, attacked factories, and boycotted planters due to harsh exploitation"
+    },
+    {
+     "step": 2,
+     "action": "outline commission outcome",
+     "explain": "Indigo Commission declared production unprofitable for ryots, allowing them to refuse future sowing"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess203.txt lines 220-225",
+   "concept": "hess.203.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of ploughs needed for an indigo planter holding {bighas} bighas of land.",
+   "extracted_variables": {
+    "bighas": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply bighas by two",
+     "explain": "each bigha of indigo land requires two ploughs for proper preparation",
+     "compute": "ploughs = 2 * bighas"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess203.txt lines 220-225",
+   "concept": "hess.203.7",
+   "question_type": "compute",
+   "question_pattern": "How many ploughs are required to cultivate indigo on a plantation measuring {bighas} bighas?",
+   "extracted_variables": {
+    "bighas": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply bighas by two",
+     "explain": "each bigha of indigo land requires two ploughs for proper preparation",
+     "compute": "ploughs = 2 * bighas"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the significance of the grant of Diwani to the East India Company in 1765",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the date and authority of appointment",
+     "explain": "the Mughal emperor appointed the Company as Diwan on 12 August 1765"
+    },
+    {
+     "step": 2,
+     "action": "analyze administrative impact",
+     "explain": "the Company became chief financial administrator, allowing local revenues to finance colonial trade"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.1",
+   "question_type": "verify_property",
+   "question_pattern": "how did the appointment as Diwan change the functioning of the East India Company",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the date and authority of appointment",
+     "explain": "the Mughal emperor appointed the Company as Diwan on 12 August 1765"
+    },
+    {
+     "step": 2,
+     "action": "analyze administrative impact",
+     "explain": "the Company became chief financial administrator, allowing local revenues to finance colonial trade"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.2",
+   "question_type": "verify_property",
+   "question_pattern": "describe the economic crisis in Bengal following the grant of Diwani",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine trade policies",
+     "explain": "artisans were compelled to sell goods cheaply while peasants faced excessive tax demands"
+    },
+    {
+     "step": 2,
+     "action": "evaluate famine impact",
+     "explain": "the 1770 famine killed ten million people, causing widespread rural economic collapse"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.2",
+   "question_type": "verify_property",
+   "question_pattern": "what were the primary causes and consequences of the Bengal famine of 1770",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine trade policies",
+     "explain": "artisans were compelled to sell goods cheaply while peasants faced excessive tax demands"
+    },
+    {
+     "step": 2,
+     "action": "evaluate famine impact",
+     "explain": "the 1770 famine killed ten million people, causing widespread rural economic collapse"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.3",
+   "question_type": "verify_property",
+   "question_pattern": "what were the main features of the Permanent Settlement introduced in 1793",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify key policymakers and terms",
+     "explain": "introduced by Lord Cornwallis in 1793, recognizing rajas and taluqdars as zamindars"
+    },
+    {
+     "step": 2,
+     "action": "explain revenue mechanics",
+     "explain": "revenue demand was permanently fixed so zamindars could retain surplus from land improvements"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.3",
+   "question_type": "verify_property",
+   "question_pattern": "who introduced the Permanent Settlement system in Bengal",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify key policymakers and terms",
+     "explain": "introduced by Lord Cornwallis in 1793, recognizing rajas and taluqdars as zamindars"
+    },
+    {
+     "step": 2,
+     "action": "explain revenue mechanics",
+     "explain": "revenue demand was permanently fixed so zamindars could retain surplus from land improvements"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.4",
+   "question_type": "verify_property",
+   "question_pattern": "what problems arose from the implementation of the Permanent Settlement",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze zamindar defaults",
+     "explain": "initial revenue rates were set so high that failing zamindars had their estates auctioned"
+    },
+    {
+     "step": 2,
+     "action": "assess peasant exploitation",
+     "explain": "cultivators faced high rents, debt burdens, and risk of eviction by intermediaries"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.4",
+   "question_type": "verify_property",
+   "question_pattern": "why did many zamindars lose their estates under the Permanent Settlement",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze zamindar defaults",
+     "explain": "initial revenue rates were set so high that failing zamindars had their estates auctioned"
+    },
+    {
+     "step": 2,
+     "action": "assess peasant exploitation",
+     "explain": "cultivators faced high rents, debt burdens, and risk of eviction by intermediaries"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.5",
+   "question_type": "verify_property",
+   "question_pattern": "explain the working of the Mahalwari system devised by Holt Mackenzie",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define unit of assessment",
+     "explain": "revenue was calculated by surveying individual plots within a village estate or mahal"
+    },
+    {
+     "step": 2,
+     "action": "identify collection mechanism",
+     "explain": "village headmen collected and remitted revised revenue directly to the government"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.5",
+   "question_type": "verify_property",
+   "question_pattern": "how was the Mahalwari system different from the Permanent Settlement",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define unit of assessment",
+     "explain": "revenue was calculated by surveying individual plots within a village estate or mahal"
+    },
+    {
+     "step": 2,
+     "action": "identify collection mechanism",
+     "explain": "village headmen collected and remitted revised revenue directly to the government"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.6",
+   "question_type": "verify_property",
+   "question_pattern": "describe the features of the Ryotwari or Munro system in South India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify regions and innovators",
+     "explain": "developed by Read and Munro in Madras presidency without traditional zamindars"
+    },
+    {
+     "step": 2,
+     "action": "outline direct assessment",
+     "explain": "cultivators fields were surveyed individually to fix revenue demands directly"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.6",
+   "question_type": "verify_property",
+   "question_pattern": "why were zamindars bypassed in the southern revenue settlement",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify regions and innovators",
+     "explain": "developed by Read and Munro in Madras presidency without traditional zamindars"
+    },
+    {
+     "step": 2,
+     "action": "outline direct assessment",
+     "explain": "cultivators fields were surveyed individually to fix revenue demands directly"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.8",
+   "question_type": "verify_property",
+   "question_pattern": "differentiate between nij and ryoti systems of indigo cultivation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare land control methods",
+     "explain": "nij involved direct planter ownership while ryoti forced peasants to dedicate land via contracts"
+    },
+    {
+     "step": 2,
+     "action": "analyze constraints",
+     "explain": "nij suffered from shortage of compact land and ploughs, while ryoti trapped peasants in debt"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.8",
+   "question_type": "verify_property",
+   "question_pattern": "what problems did planters face under the nij system of indigo cultivation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare land control methods",
+     "explain": "nij involved direct planter ownership while ryoti forced peasants to dedicate land via contracts"
+    },
+    {
+     "step": 2,
+     "action": "analyze constraints",
+     "explain": "nij suffered from shortage of compact land and ploughs, while ryoti trapped peasants in debt"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.9",
+   "question_type": "verify_property",
+   "question_pattern": "describe the step by step process of manufacturing indigo dye in vats",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "detail fermentation stage",
+     "explain": "indigo leaves were soaked in warm water in the steeper vat until fermented"
+    },
+    {
+     "step": 2,
+     "action": "detail beating and settling stages",
+     "explain": "liquid was stirred in beater vat with lime water, settling sediment into blue pulp for pressing"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.9",
+   "question_type": "verify_property",
+   "question_pattern": "what were the functions of the steeper vat and beater vat in indigo manufacturing",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "detail fermentation stage",
+     "explain": "indigo leaves were soaked in warm water in the steeper vat until fermented"
+    },
+    {
+     "step": 2,
+     "action": "detail beating and settling stages",
+     "explain": "liquid was stirred in beater vat with lime water, settling sediment into blue pulp for pressing"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.10",
+   "question_type": "verify_property",
+   "question_pattern": "what were the causes and consequences of the Blue Rebellion of 1859",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain uprising triggers",
+     "explain": "ryots refused advances, attacked factories, and boycotted planters due to harsh exploitation"
+    },
+    {
+     "step": 2,
+     "action": "outline commission outcome",
+     "explain": "Indigo Commission declared production unprofitable for ryots, allowing them to refuse future sowing"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.203.10",
+   "question_type": "verify_property",
+   "question_pattern": "how did women and local headmen participate in the Indigo Rebellion",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain uprising triggers",
+     "explain": "ryots refused advances, attacked factories, and boycotted planters due to harsh exploitation"
+    },
+    {
+     "step": 2,
+     "action": "outline commission outcome",
+     "explain": "Indigo Commission declared production unprofitable for ryots, allowing them to refuse future sowing"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "Let's recall Q1",
+   "questions": [
+    "Match the terms: ryot (peasant), mahal (village), nij (cultivation on planter's own land), ryoti (cultivation on ryot's lands)."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "Let's recall Q2",
+   "questions": [
+    "Fill in the blanks: (a) Growers of woad in Europe saw indigo as a crop which would provide competition to their earnings.",
+    "(b) The demand for indigo increased in late eighteenth-century Britain because of the expansion of cotton production.",
+    "(c) The international demand for indigo was affected by the discovery of synthetic dyes.",
+    "(d) The Champaran movement was against indigo planters."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "Let's discuss Q3",
+   "questions": [
+    "Describe the main features of the Permanent Settlement."
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "Let's discuss Q4",
+   "questions": [
+    "How was the mahalwari system different from the Permanent Settlement?"
+   ]
+  },
+  {
+   "id": "ex3.5",
+   "source_ref": "Let's discuss Q5",
+   "questions": [
+    "Give two problems which arose with the new Munro system of fixing revenue."
+   ]
+  },
+  {
+   "id": "ex3.6",
+   "source_ref": "Let's discuss Q6",
+   "questions": [
+    "Why were ryots reluctant to grow indigo?"
+   ]
+  },
+  {
+   "id": "ex3.7",
+   "source_ref": "Let's discuss Q7",
+   "questions": [
+    "What were the circumstances which led to the eventual collapse of indigo production in Bengal?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

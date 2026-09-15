@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_004",
+   "title": "c12_phy_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the SI unit of electric field, and how is it derived from the definition \\(\\vec{E} = \\vec{F}/q\\)?",
+     "a": "The SI unit is newton per coulomb (N/C). Since force is measured in newtons (N) and charge in coulombs (C), the ratio gives N/C. A common wrong answer is \"V/m\" without realizing it is equivalent; another is \"C/N\" which inverts the definition. If a student gives \"N·C\" or \"C/N\", they have confused the definition of field as force per unit charge.",
+     "self_check": true
+    },
+    {
+     "q": "A positive point charge \\(+Q\\) is placed at the origin. At a point P on the positive x-axis, what is the direction of the electric field vector? Explain why the direction would be opposite if the source charge were \\(-Q\\).",
+     "a": "For \\(+Q\\), the field at P points radially away from the charge, i.e., along \\(+\\hat{x}\\). For \\(-Q\\), the field points radially toward the charge, i.e., along \\(-\\hat{x}\\). This follows from the definition: a positive test charge would be repelled by \\(+Q\\) and attracted to \\(-Q\\). If a student says the field direction is the same for both, they have missed that the sign of the source charge determines the direction of the force on a positive test charge.",
+     "self_check": true
+    },
+    {
+     "q": "Two point charges, \\(q_1 = +3\\,\\mu\\text{C}\\) and \\(q_2 = -4\\,\\mu\\text{C}\\), are placed on the x-axis at \\(x = 0\\) and \\(x = 0.10\\,\\text{m}\\) respectively. Calculate the electric field at the midpoint between them. Use \\(\\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\,\\text{N·m}^2/\\text{C}^2\\).",
+     "a": "Midpoint is at \\(x = 0.05\\,\\text{m}\\). Distance from each charge to midpoint: \\(r = 0.05\\,\\text{m}\\).  \nField due to \\(q_1\\): \\(E_1 = 9 \\times 10^9 \\times \\frac{3 \\times 10^{-6}}{(0.05)^2} = 1.08 \\times 10^7\\,\\text{N/C}\\), direction \\(+\\hat{x}\\) (away from \\(+q_1\\)).  \nField due to \\(q_2\\): \\(E_2 = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-6}}{(0.05)^2} = 1.44 \\times 10^7\\,\\text{N/C}\\), direction \\(+\\hat{x}\\) (toward \\(-q_2\\)).  \nNet field: \\(E_{\\text{net}} = (1.08 + 1.44) \\times 10^7 = 2.52 \\times 10^7\\,\\text{N/C}\\) along \\(+\\hat{x}\\).  \nA wrong answer often arises if the student takes the direction of \\(E_2\\) as \\(-\\hat{x}\\) (thinking negative charge always gives negative field) or forgets to convert \\(\\mu\\text{C}\\) to C.",
+     "self_check": true
+    },
+    {
+     "q": "Three identical point charges \\(+q\\) are placed at the vertices of an equilateral triangle of side \\(a\\). A student claims the electric field at the centroid is zero because of symmetry. Is this claim correct? Justify your answer by analyzing the vector sum.",
+     "a": "Yes, the claim is correct. At the centroid, each charge produces a field of equal magnitude \\(E = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{(a/\\sqrt{3})^2} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{3q}{a^2}\\) directed radially outward from each vertex. The three vectors are spaced \\(120^\\circ\\) apart; their vector sum is zero. If a student says \"non-zero because charges are positive\", they confuse field with potential (which would be non-zero) or fail to add vectors properly.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the electric field at a point due to two charges and writes: \\(\\vec{E}_{\\text{net}} = \\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{q_1}{r_1^2} + \\frac{q_2}{r_2^2} \\right)\\) without any vector notation. Identify the error and explain why this expression is physically incomplete.",
+     "a": "The expression treats electric field as a scalar sum, ignoring direction. Electric field is a vector; the correct superposition is \\(\\vec{E}_{\\text{net}} = \\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{q_1}{r_1^2} \\hat{r}_1 + \\frac{q_2}{r_2^2} \\hat{r}_2 \\right)\\). The student's version would only be valid if both fields were exactly parallel. If they don't include unit vectors or specify directions, they have not understood that superposition is vector addition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that an electric field exists around a charged object even when no test charge is present. Describe what you would observe and how it relates to the concept of electric field.",
+     "a": "Rub a balloon on wool to charge it. Bring it near a thin stream of water from a tap — the stream bends toward the balloon. The water molecules are polar; the field of the balloon aligns them and exerts a net force. This shows the field exists in the space around the balloon and can act on charges/dipoles. A poor answer would describe only attraction of paper bits without explaining that the field is the mediator, or would confuse magnetic effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_1",
+   "title": "c9_geo_ch2_1",
+   "questions": [
+    {
+     "q": "State the approximate percentage by volume of nitrogen, oxygen, and argon in dry air, and name the most abundant variable gas.",
+     "a": "Nitrogen ≈ 78.08%, Oxygen ≈ 20.95%, Argon ≈ 0.93%; the most abundant variable gas is water vapour (0–4%). A wrong answer (e.g., listing CO₂ as a major permanent gas or omitting argon) reveals the student is recalling a simplified middle-school pie chart without the precision required for board-level quantitative questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why water vapour is called a \"variable gas\" while nitrogen is called a \"permanent gas,\" and describe how this distinction affects weather forecasting.",
+     "a": "Water vapour concentration changes rapidly in space and time (0% over deserts to 4% in tropics) due to evaporation and condensation, whereas nitrogen remains nearly constant up to the homosphere. Forecasting models must track water vapour dynamically because it controls cloud formation, precipitation, and latent heat release — nitrogen does not. A wrong answer that treats both as \"just gases in air\" shows the student misses the process-link between composition variability and weather mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "A weather balloon at 15 km altitude records 20.9% oxygen. At 50 km, the same instrument records 20.9% oxygen. At 110 km, it records 15% oxygen. Using the concept of the homosphere and heterosphere, explain these readings.",
+     "a": "Step 1: Recognise that up to ~100 km (homosphere), turbulent mixing keeps composition uniform — hence 20.9% at 15 km and 50 km. Step 2: Above ~100 km (heterosphere), diffusion separates gases by molecular weight; lighter gases (He, H) dominate, heavier O₂ declines — hence 15% at 110 km. Step 3: Conclude the balloon crossed the turbopause. A wrong answer attributing the drop to \"less air\" or \"photosynthesis stopping\" reveals confusion between pressure decrease and compositional change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the radiative roles of carbon dioxide (0.04%) and water vapour (up to 4%) in the greenhouse effect. Why is CO₂ considered the \"control knob\" despite its lower concentration?",
+     "a": "Water vapour is a feedback: its concentration responds to temperature (Clausius-Clapeyron). CO₂ is a forcing: it accumulates independently of temperature and absorbs in spectral windows (15 µm) where water vapour is transparent, allowing it to initiate warming that then amplifies via water vapour. A wrong answer claiming \"water vapour is the main greenhouse gas so CO₂ doesn't matter\" shows inability to distinguish forcing from feedback — a critical board-level conceptual error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rising methane concentrations are more dangerous than rising CO₂ because methane traps 28 times more heat per molecule over 100 years.\"",
+     "a": "The statement is partially true but misleading. Methane's Global Warming Potential (GWP₁₀₀) is ~28, but its atmospheric lifetime is ~12 years versus centuries for CO₂. CO₂'s cumulative effect dominates long-term warming; methane reductions yield faster climate benefits but cannot substitute for CO₂ mitigation. A wrong answer accepting the statement uncritically reveals a lack of systems thinking about residence time and cumulative carbon budgets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step field investigation for Class 9 students to demonstrate that exhaled air has higher CO₂ and lower O₂ than inhaled air, using only limewater, a candle, and a graduated syringe.",
+     "a": "Step 1: Collect 50 mL inhaled air (ambient) and 50 mL exhaled air in separate syringes. Step 2: Bubble each through limewater; measure time for milkiness (CO₂ indicator) — exhaled air turns it milky faster. Step 3: Insert a burning candle into each syringe; measure time to extinguish — exhaled air extinguishes it sooner (lower O₂). A poor answer that only lists materials without a controlled comparison shows inability to design a fair test — a key geographical enquiry skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

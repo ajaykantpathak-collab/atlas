@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch01_001",
+   "title": "c6_geography_ch01_001",
+   "questions": [
+    {
+     "q": "Name two different types of geographical landscapes found in India mentioned in the text.",
+     "a": "The two landscapes are the snow-capped Himalayas and the Thar Desert. A wrong answer shows the student has not yet grasped that a country can contain multiple, vastly different physical terrains.",
+     "self_check": true
+    },
+    {
+     "q": "If you travel from the Thar Desert to the east of India, how does the environment change regarding rainfall?",
+     "a": "The environment changes from a dry desert with sparse vegetation to a region with dense rainforests and some of the heaviest rainfall in the world. A wrong answer suggests the student is failing to visualize the geographical contrast described in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we say that India's geography is not \"random\"?",
+     "a": "It is not random because the variety of landscapes is directly caused by India's specific location, its vast size, and its unique geological history. Answering \"it's just nature\" shows the student missed the point that geographic features have specific, identifiable causes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the northern part of India with the southern part based on their physical features.",
+     "a": "The north is characterized by high, snow-capped mountains (the Himalayas), while the south is a peninsula fringed by tropical beaches. A failure to compare these suggests the student is struggling to organize geographical information by region.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a small country to have as much geographical diversity as India? Why or why not?",
+     "a": "It is much less likely, because diversity often relies on a large landmass covering different zones; India’s massive size allows it to host several distinct environments at once. Saying \"yes, any size works\" ignores the relationship between the scale of land and the variety of ecosystems it can support.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are a cartographer drawing a map of India. List four symbols you would use to represent the different landscapes we have discussed.",
+     "a": "The student should list symbols for mountains, desert (sand dunes), beach/coastline, and rainforest. A poor answer would include things like cities or borders, showing they do not understand the difference between physical geography and political maps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

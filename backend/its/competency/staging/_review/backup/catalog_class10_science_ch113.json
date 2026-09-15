@@ -1,0 +1,282 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 113,
+ "chapter_title": "Our Environment",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc113.txt",
+ "concepts": [
+  {
+   "id": "jesc.113.1",
+   "title": "Ecosystem and its Components",
+   "section": "13.1",
+   "definition": "An ecological unit consisting of all the living organisms interacting with each other and with the non-living physical factors in a specific area.",
+   "formula": "ecosystem = biotic_components + abiotic_components",
+   "key_idea": "A self-sustaining system formed by the interaction of living and non-living components.",
+   "textbook_ref": "jesc113.txt lines 15-45",
+   "question_patterns": [
+    "What is an ecosystem and what are its main components?",
+    "Distinguish between natural and artificial ecosystems with examples.",
+    "How do biotic and abiotic components interact in a garden?",
+    "Why is a garden or crop-field considered an artificial ecosystem?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the biotic and abiotic components",
+     "explain": "Biotic components include living organisms like plants, animals, and microbes. Abiotic components include physical factors like temperature, rainfall, wind, and soil."
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.2",
+   "title": "Producers, Consumers, and Decomposers",
+   "section": "13.1",
+   "definition": "In brief, In brief, In brief, Functional groups of organisms categorized by how they obtain energy: producers synthesize food, consumers ingest other organisms, and decomposers break down dead organic matter.",
+   "formula": "total_organisms = producers + consumers + decomposers",
+   "key_idea": "Organisms occupy distinct functional roles to sustain life and recycle nutrients in an ecosystem.",
+   "textbook_ref": "jesc113.txt lines 50-90",
+   "question_patterns": [
+    "What is the role of decomposers in an ecosystem?",
+    "Classify organisms into producers, consumers, and decomposers.",
+    "Why are green plants called producers?",
+    "How do decomposers help in the replenishment of soil nutrients?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the organism based on nutrition",
+     "explain": "Identify if the organism produces its own food (producer), consumes others (consumer), or decomposes dead matter (decomposer)."
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.3",
+   "title": "Food Chains and Trophic Levels",
+   "section": "13.1.1",
+   "definition": "In brief, In brief, a sequential pathway of organisms where each member is eaten by the next, representing the transfer of energy through distinct feeding levels called trophic levels.",
+   "formula": "trophic_levels = [producer, primary_consumer, secondary_consumer, tertiary_consumer]",
+   "key_idea": "In brief, in brief, linear representation of who eats whom in an ecosystem.",
+   "textbook_ref": "jesc113.txt lines 95-120",
+   "question_patterns": [
+    "What are trophic levels? Give an example of a food chain.",
+    "Explain the different trophic levels in a terrestrial food chain.",
+    "Why are food chains generally limited to three or four steps?",
+    "How does a food web differ from a food chain?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sequence of organisms",
+     "explain": "Trace the flow of food from autotrophs to herbivores, and then to carnivores."
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.4",
+   "title": "The Ten Percent Law of Energy Transfer",
+   "section": "13.1.1",
+   "definition": "A principle stating that only about ten percent of the food energy available at one trophic level is transferred and incorporated into the next's body level.",
+   "formula": "next_energy = current_energy * 0.10",
+   "key_idea": "In brief, In brief, In brief, Energy decreases progressively at each higher trophic level because of metabolic loss and heat.",
+   "textbook_ref": "jesc113.txt lines 125-155",
+   "question_patterns": [
+    "Calculate the energy available at the next trophic level if the previous level has energy",
+    "If the producers have energy, how much energy is transferred to the primary consumers?",
+    "Compute the energy available to the next consumer level using the ten percent law",
+    "How much energy reaches the next level of consumers when the current level has"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the current energy by 0.10",
+     "explain": "According to the 10% law, only 10% of the energy is transferred to the next level.",
+     "compute": "next_energy = current_energy * 0.10"
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.5",
+   "title": "Solar Energy Capture by Producers",
+   "section": "13.1.1",
+   "definition": "In brief, the process where green plants capture about one percent of the solar energy falling on their leaves and change it into chemical energy via photosynthesis.",
+   "formula": "producer_energy = solar_energy * 0.01",
+   "key_idea": "In brief, Only a tiny fraction of solar energy is indeed changed into food energy by autotrophs.",
+   "textbook_ref": "jesc113.txt lines 125-135",
+   "question_patterns": [
+    "Calculate the energy captured by plants if the solar energy falling on them is",
+    "How much food energy is produced from solar energy of",
+    "Find the producer energy given the incident solar radiation",
+    "What amount of energy is captured by autotrophs from sunlight of"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the incident solar energy by 0.01",
+     "explain": "Plants capture only 1% of the total solar energy falling on their leaves.",
+     "compute": "producer_energy = solar_energy * 0.01"
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.6",
+   "title": "Biological Magnification",
+   "section": "13.1.1",
+   "definition": "The progressive accumulation and increasing concentration of non-biodegradable toxic chemicals at successive trophic levels in a food chain.",
+   "formula": "concentration_at_top > concentration_at_bottom",
+   "key_idea": "Toxins accumulate most in top-level consumers, especially humans, because they cannot be metabolized or excreted.",
+   "textbook_ref": "jesc113.txt lines 165-190",
+   "question_patterns": [
+    "What is biological magnification?",
+    "Why do human beings accumulate the highest concentration of pesticides in their bodies?",
+    "Explain how harmful chemicals enter our food chain and get concentrated.",
+    "Will the levels of biological magnification be different at different trophic levels?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the position of the organism in the food chain",
+     "explain": "Organisms at higher trophic levels ingest accumulated toxins from all lower levels, leading to the highest concentration at the top."
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.7",
+   "title": "Ozone Layer Formation and Depletion",
+   "section": "13.2.1",
+   "definition": "The formation of ozone from oxygen molecules under UV radiation, and its subsequent depletion by synthetic chemicals like chlorofluorocarbons.",
+   "formula": "O2 + UV -> O + O and O + O2 -> O3",
+   "key_idea": "Ozone shields Earth from harmful UV radiation but is destroyed by industrial CFCs.",
+   "textbook_ref": "jesc113.txt lines 200-230",
+   "question_patterns": [
+    "How is ozone formed in the upper atmosphere?",
+    "What is the role of the ozone layer and how is it getting depleted?",
+    "What steps are being taken to limit the damage to the ozone layer?",
+    "Why is damage to the ozone layer a cause for concern?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the chemical reaction of ozone formation",
+     "explain": "UV radiation splits O2 into free O atoms, which combine with O2 to form O3."
+    },
+    {
+     "step": 2,
+     "action": "Explain the cause of ozone depletion",
+     "explain": "CFCs release chlorine atoms in the stratosphere, which catalytically destroy ozone molecules."
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.8",
+   "title": "Biodegradable and Non-biodegradable Wastes",
+   "section": "13.2.2",
+   "definition": "In brief, In brief, In brief, Classification of waste materials using their susceptibility to decomposition by biological both processes and microbial enzymes.",
+   "formula": "total_waste = biodegradable_waste + non_biodegradable_waste",
+   "key_idea": "Biodegradable wastes decompose naturally, while non-biodegradable wastes persist and cause environmental pollution.",
+   "textbook_ref": "jesc113.txt lines 235-275",
+   "question_patterns": [
+    "Why are some substances biodegradable and some non-biodegradable?",
+    "Distinguish between biodegradable and non-biodegradable wastes with examples.",
+    "What are the environmental impacts of non-biodegradable wastes?",
+    "How can we manage the garbage we produce in our daily lives?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine if the substance can be broken down by enzymes",
+     "explain": "Enzymes are highly specific. If bacteria have enzymes to break down the material, it is biodegradable; otherwise, it is non-biodegradable."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc113.txt lines 130-145",
+   "concept": "jesc.113.4",
+   "question_type": "compute",
+   "question_pattern": "If the energy available at the producer level is {current_energy} Joules, calculate the energy available to the next trophic level.",
+   "extracted_variables": {
+    "current_energy": "The energy available at the current trophic level in Joules"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the current energy by 0.10",
+     "explain": "According to the 10% law, only 10% of the energy is transferred to the next level.",
+     "compute": "next_energy = current_energy * 0.10"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc113.txt lines 125-135",
+   "concept": "jesc.113.5",
+   "question_type": "compute",
+   "question_pattern": "If the solar energy falling on the leaves of green plants is {solar_energy} Joules, how much energy is converted into food energy by the plants?",
+   "extracted_variables": {
+    "solar_energy": "The total solar energy incident on the leaves in Joules"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the incident solar energy by 0.01",
+     "explain": "Plants capture only 1% of the total solar energy falling on their leaves.",
+     "compute": "producer_energy = solar_energy * 0.01"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "jesc113.txt lines 191-195",
+   "questions": [
+    "What are trophic levels? Give an example of a food chain and state the different trophic levels in it.",
+    "What is the role of decomposers in the ecosystem?"
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "jesc113.txt lines 276-282",
+   "questions": [
+    "Why are some substances biodegradable and some non-biodegradable?",
+    "Give any two ways in which biodegradable substances would affect the environment.",
+    "Give any two ways in which non-biodegradable substances would affect the environment."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "jesc113.txt lines 315-320",
+   "questions": [
+    "What is ozone and how does it affect any ecosystem?",
+    "How can you help in reducing the problem of waste disposal? Give any two methods."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "jesc113.txt lines 325-350",
+   "questions": [
+    "Which of the following groups contain only biodegradable items? (a) Grass, flowers and leather (b) Grass, wood and plastic (c) Fruit-peels, cake and lime-juice (d) Cake, wood and grass",
+    "Which of the following constitute a food-chain? (a) Grass, wheat and mango (b) Grass, goat and human (c) Goat, cow and elephant (d) Grass, fish and goat",
+    "Which of the following are environment-friendly practices? (a) Carrying cloth-bags to put purchases in while shopping (b) Switching off unnecessary lights and fans (c) Walking to school instead of getting your mother to drop you on her scooter (d) All of the above",
+    "What will happen if we kill all the organisms in one trophic level?",
+    "Will the impact of removing all the organisms in a trophic level be different for different trophic levels? Can the organisms of any trophic level be removed without causing any damage to the ecosystem?",
+    "What is biological magnification? Will the levels of this magnification be different at different levels of the ecosystem?",
+    "What are the problems caused by the non-biodegradable wastes that we generate?",
+    "If all the waste we generate is biodegradable, will this have no impact on the environment?",
+    "Why is damage to the ozone layer a cause for concern? What steps are being taken to limit this damage?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

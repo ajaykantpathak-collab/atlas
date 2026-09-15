@@ -1,0 +1,464 @@
+{
+ "catalog": "catalog_class12_accountancy_leca102",
+ "concepts": [
+  {
+   "id": "leca102.1",
+   "title": "Workbook, Worksheet and Active Sheet",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Workbook, Worksheet and Active Sheet' refers to.",
+     "a": "A spreadsheet is an arrangement of rows and columns used to record, calculate and compare numerical or financial data; rows run horizontally and columns vertically. An Excel file is a workbook holding several worksheets -- three sheets exist by default -- of which exactly one is the active worksheet available for work, its name shown in bold on the sheet tab. Cells store values, and the intersection address of a row and column, such as G8 for the eighth row of column G, uniquely locates each cell.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Workbook, Worksheet and Active Sheet'.",
+     "a": "One workbook, many worksheets, one active sheet -- every datum lives at a letter-number cell address.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Workbook, Worksheet and Active Sheet', in plain ASCII form.",
+     "a": "workbook = collection of worksheets holding rows and columns",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.2",
+   "title": "Worksheet Capacity Arithmetic",
+   "questions": [
+    {
+     "q": "Calculate the total cell grid of a worksheet with 65536 rows and 256 columns. Use the method 'Worksheet Capacity Arithmetic'. Work with: sheet_columns = 25, sheet_rows = 120. Carry the chain through step by step and give the final value of cells_total.",
+     "a": "3000 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the work area in cells when rows numbered 1 to 65536 cross 256 lettered columns. Use the method 'Worksheet Capacity Arithmetic'. Work with: sheet_columns = 200, sheet_rows = 200. Carry the chain through step by step and give the final value of cells_total.",
+     "a": "40000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Worksheet Capacity Arithmetic' refers to.",
+     "a": "Excel 2007 lays out 65536 rows numbered top to bottom and 256 columns lettered left to right, so the grid of one sheet holds row-count times column-count cells in all -- a work area large enough for any application.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Worksheet Capacity Arithmetic'.",
+     "a": "Multiply the row count by the column count to size the full cell grid of one sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Worksheet Capacity Arithmetic', in plain ASCII form.",
+     "a": "cells_total = sheet_rows * sheet_columns",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.3",
+   "title": "Basic and Derived Values",
+   "questions": [
+    {
+     "q": "Using the method 'Basic and Derived Values', work with: quantity_bought = 45, unit_price = 2500. Carry the chain through step by step and give the final value of item_value.",
+     "a": "112500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Basic and Derived Values' and work with: quantity_bought = 40, unit_price = 500. Carry the chain through step by step and give the final value of item_value.",
+     "a": "20000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Basic and Derived Values' refers to.",
+     "a": "A cell value is either basic -- typed in independently -- or derived, produced by an arithmetic expression over other cells. When quantity Q of an item is bought at price P, the item's value V is derived by multiplying the two basic values; change either basic value and the derived value revises itself, which is what powers what-if study of alternatives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Basic and Derived Values'.",
+     "a": "Typed-in numbers are basic values; results of expressions over them are derived values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Basic and Derived Values', in plain ASCII form.",
+     "a": "item_value = quantity_bought * unit_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.4",
+   "title": "Cell References: Relative, Absolute and Mixed",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell References: Relative, Absolute and Mixed' refers to.",
+     "a": "A cell reference names the location of a cell or block of cells and appears inside formulas, functions and charts. A relative reference shifts when the formula is copied, following the new location. An absolute reference, wrapped in dollar signs such as $C$4, stays pinned to one cell through every copy. A mixed reference freezes only one part -- $C4 holds the column, C$4 holds the row -- and ranges are written with a colon between opposite corners, for example A1:E2.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell References: Relative, Absolute and Mixed'.",
+     "a": "Relative references travel with a copy, absolute references stay put, mixed references pin one part.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cell References: Relative, Absolute and Mixed', in plain ASCII form.",
+     "a": "fixed_ref = dollar signs around the column letter and row number",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.5",
+   "title": "Formulas, Labels and the Order of Operations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formulas, Labels and the Order of Operations' refers to.",
+     "a": "Labels are text entries -- headings, names, months -- that cannot be multiplied or subtracted, while a formula is a mathematical calculation over cells and must begin with an equals sign. Calculation follows the algebraic hierarchy remembered as GEMS or PEMDAS: brackets first, then exponents, then multiplication and division left to right, and finally addition and subtraction left to right; so =D1+E1/F1*G1 divides and multiplies before adding.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formulas, Labels and the Order of Operations'.",
+     "a": "Equals sign starts a formula, and algebra's bracket-exponent-multiply-divide-add-subtract ladder fixes the result.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Formulas, Labels and the Order of Operations', in plain ASCII form.",
+     "a": "eval_order = brackets then exponents then multiply_divide then add_subtract",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.6",
+   "title": "Compound Interest and Maturity Amount on a Deposit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Compound Interest and Maturity Amount on a Deposit' refers to.",
+     "a": "A worksheet computes compound interest and the maturity amount on a fixed deposit from four basic values -- principal, annual rate, years, and compounding periods per year. The maturity amount compounds the principal once per period at the periodic rate, and the compound interest is the maturity amount minus the principal. Because derived cells revise themselves, changing the rate or period instantly produces a fresh what-if alternative.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Compound Interest and Maturity Amount on a Deposit'.",
+     "a": "Compounding grows the principal once per period; the interest is whatever the maturity amount exceeds the principal by.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Compound Interest and Maturity Amount on a Deposit', in plain ASCII form.",
+     "a": "interest_earned = deposit_amt * (1 + rate_pct / (100 * compounds_per_year)) ** (years_count * compounds_per_year) - deposit_amt",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.7",
+   "title": "Aggregate Functions SUM and AVERAGE with Named Ranges",
+   "questions": [
+    {
+     "q": "Using the method 'Aggregate Functions SUM and AVERAGE with Named Ranges', work with: sale_fri = 500, sale_mon = 25, sale_sat = 10, sale_sun = 25, sale_thu = 3, sale_tue = 300, sale_wed = 20. Carry the chain through step by step and give the final value of day_avg.",
+     "a": "126.1429 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Aggregate Functions SUM and AVERAGE with Named Ranges' and work with: sale_fri = 25, sale_mon = 100, sale_sat = 12, sale_sun = 40, sale_thu = 75, sale_tue = 4, sale_wed = 500. Carry the chain through step by step and give the final value of day_avg.",
+     "a": "108 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregate Functions SUM and AVERAGE with Named Ranges' refers to.",
+     "a": "A function is a built-in formula written as =FunctionName(arguments). SUM adds the numbers in a range -- the AutoSum button does it in one click -- and AVERAGE returns their mean; COUNT tallies numeric entries. A range can be given a descriptive name, so =SUM(Monthly_Totals) reads better than =SUM(B2:B5), and the name may feed later formulas and other functions alike.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregate Functions SUM and AVERAGE with Named Ranges'.",
+     "a": "SUM totals a named range and AVERAGE divides the total by the number of entries.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregate Functions SUM and AVERAGE with Named Ranges', in plain ASCII form.",
+     "a": "day_avg = week_total / 7",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.8",
+   "title": "SUMIF, ROUND Family, TEXT and CONCATENATE",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'SUMIF, ROUND Family, TEXT and CONCATENATE' refers to.",
+     "a": "SUMIF adds only the cells that satisfy a criterion, written as SUMIF(range, criteria, sum_range) -- for instance the depreciation of assets valued above a cut-off. ROUND trims a number to given digits (zero digits means nearest integer), ROUNDUP pushes away from zero, ROUNDDOWN pulls toward zero. TEXT converts a number to formatted text such as Rs. 23.50, and CONCATENATE joins text strings, like first, middle and last names into one full name.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'SUMIF, ROUND Family, TEXT and CONCATENATE'.",
+     "a": "Criteria-based summing, digit-controlled rounding, number-to-text formatting and string joining extend plain arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'SUMIF, ROUND Family, TEXT and CONCATENATE', in plain ASCII form.",
+     "a": "rounding_family = round plus roundup plus rounddown by digit count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.9",
+   "title": "Date Functions and Age from Serial Numbers",
+   "questions": [
+    {
+     "q": "Using the method 'Date Functions and Age from Serial Numbers', work with: days_gap = 500. Carry the chain through step by step and give the final value of age_years.",
+     "a": "1.3689 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Date Functions and Age from Serial Numbers' and work with: days_gap = 150. Carry the chain through step by step and give the final value of age_years.",
+     "a": "0.4107 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Date Functions and Age from Serial Numbers' refers to.",
+     "a": "Excel stores each date as a serial number counted from January 1, 1900 as day 1, so dates subtract and compare like numbers. TODAY returns the current date's serial, NOW adds the time, DAY, MONTH and YEAR pull the parts of a date, and DATEVALUE turns typed text into a serial. An employee's age in years is the difference of the two serial numbers divided by 365.25, the fractional count that allows for leap years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Date Functions and Age from Serial Numbers'.",
+     "a": "Dates are serial numbers, so age in years is the day difference divided by 365.25.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Date Functions and Age from Serial Numbers', in plain ASCII form.",
+     "a": "age_years = days_gap / 365.25",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.10",
+   "title": "Logical Functions: IF, Nested IF, AND and OR",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Logical Functions: IF, Nested IF, AND and OR' refers to.",
+     "a": "IF(logical_test, value_if_true, value_if_false) returns one of two results after a comparison using operators like <, >, <=, >=, = and <>. Nested IFs stack further tests inside the false branch, for example grading marks into A, B, C or Fail. AND yields TRUE only when every argument is TRUE, OR yields TRUE when any argument is TRUE, and either can serve as the test inside IF to check several conditions at once.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Logical Functions: IF, Nested IF, AND and OR'.",
+     "a": "One comparison routes IF; nesting stacks tests; AND demands all truths, OR accepts any.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Logical Functions: IF, Nested IF, AND and OR', in plain ASCII form.",
+     "a": "if_flow = logical_test picks value_if_true else value_if_false",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.11",
+   "title": "Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP' refers to.",
+     "a": "Lookup functions fetch a value from a table by matching another. LOOKUP comes in vector form, searching a one-row or one-column list in ascending order, and array form. VLOOKUP searches the first column of a table and returns the entry from a chosen column of the same row, while HLOOKUP searches the first row and returns from a chosen row of the same column; a FALSE final argument demands an exact match, and a miss below the smallest key raises the #N/A error.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP'.",
+     "a": "Search the key column or row, then read across the same row or down the same column.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP', in plain ASCII form.",
+     "a": "lookup_family = lookup plus vlookup plus hlookup over table arrays",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.12",
+   "title": "VLOOKUP Pricing: Markup and Discount",
+   "questions": [
+    {
+     "q": "Compute the final price of goods costing Rs 50 with markup 30 per cent and discount 10 per cent. Use the method 'VLOOKUP Pricing: Markup and Discount'. Work with: discount_pct = 18, item_cost = 500, markup_pct = 80. Carry the chain through step by step and give the final value of net_price.",
+     "a": "738 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the sale price when the lookup returns cost Rs 100, markup 20 per cent and discount 5 per cent. Use the method 'VLOOKUP Pricing: Markup and Discount'. Work with: discount_pct = 20, item_cost = 1200, markup_pct = 60. Carry the chain through step by step and give the final value of net_price.",
+     "a": "1536 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'VLOOKUP Pricing: Markup and Discount' refers to.",
+     "a": "Business prices chain two lookups: the cost of an item is fetched by its item code, raised by its markup percentage to give the retail price, and a customer buying on a discount day pays the retail price cut by the discount percentage. The worksheet multiplies each stage out, so the same formula reprices every item when cost, markup or discount cells change.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'VLOOKUP Pricing: Markup and Discount'.",
+     "a": "Add the markup, then subtract the discount -- two multipliers chained on the item cost.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'VLOOKUP Pricing: Markup and Discount', in plain ASCII form.",
+     "a": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.13",
+   "title": "Loan Instalment with the PMT Function",
+   "questions": [
+    {
+     "q": "Using the method 'Loan Instalment with the PMT Function', work with: loan_amt = 12, periods = 10, rate_per = 25. Carry the chain through step by step and give the final value of loan_emi.",
+     "a": "300 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Loan Instalment with the PMT Function' and work with: loan_amt = 6, periods = 10, rate_per = 5. Carry the chain through step by step and give the final value of loan_emi.",
+     "a": "30 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loan Instalment with the PMT Function' refers to.",
+     "a": "PMT calculates the equal periodic payment of an annuity such as a fixed-rate loan, written as PMT(rate, nper, pv, fv, type): rate is the interest per period, nper the number of periods, pv the loan amount, fv usually zero and type 0 for end-of-period payment. Underlying the function, the loan amount times the periodic rate, scaled by the growth of one plus the periodic rate over the term, divides out to the constant instalment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loan Instalment with the PMT Function'.",
+     "a": "A constant instalment repays principal plus interest -- principal times periodic rate scaled by compound growth over the term.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loan Instalment with the PMT Function', in plain ASCII form.",
+     "a": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.14",
+   "title": "PV, FV, NPV and RATE Financial Functions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'PV, FV, NPV and RATE Financial Functions' refers to.",
+     "a": "PV returns what a stream of future constant payments is worth now -- a loan amount is the present value. FV returns the cash a periodic investment builds to at a constant rate. NPV discounts a series of future cash flows at a given rate, each flow divided by one plus the rate raised to its period index, and RATE solves iteratively for the interest rate per period of an annuity. Rate and nper must share the same time unit -- monthly payments take the annual rate over twelve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PV, FV, NPV and RATE Financial Functions'.",
+     "a": "PV pulls future money to today, FV pushes today's money forward, NPV discounts uneven flows, RATE reverse-engineers the rate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PV, FV, NPV and RATE Financial Functions', in plain ASCII form.",
+     "a": "npv_basis = future cash flows discounted by one plus rate per period",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.15",
+   "title": "Data Entry: Fill Handle, Series and Importing Text",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Data Entry: Fill Handle, Series and Importing Text' refers to.",
+     "a": "Excel speeds entry in several ways: the fill handle -- the small square at a selection's lower-right corner -- drags a pattern into adjacent cells; Fill then Series fills a linear run given a step value and a stop value, such as 10 to 100 in steps of 10; and text files, including comma-separated values files created in Notepad, import through Data then From Text, each comma-separated line becoming a spreadsheet row.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Entry: Fill Handle, Series and Importing Text'.",
+     "a": "Drag the fill handle, define a series by step and stop values, or import a delimited text file.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Entry: Fill Handle, Series and Importing Text', in plain ASCII form.",
+     "a": "data_fill = fill_handle plus series step and stop values plus text import",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.16",
+   "title": "Data Validation and Data Forms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Data Validation and Data Forms' refers to.",
+     "a": "Data validation restricts what a cell accepts: a drop-down list sourced from a typed list, a cell range or a named range admits only listed entries such as departments or Male/Female; limits admit only whole numbers, decimals, dates or text lengths inside bounds, like an age between 18 and 58; and custom formulas reject duplicates, over-budget sums or weekend dates. Error alerts come in three severities -- Information, Warning and Stop -- and a data form shows one full record per dialog box for easy add, change, find and delete.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Validation and Data Forms'.",
+     "a": "Lists, numeric bounds and formula tests screen entries before bad data ever lands in the sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Validation and Data Forms', in plain ASCII form.",
+     "a": "validation_rules = list plus limits plus custom formula plus error_alert",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.17",
+   "title": "Formatting, Conditional Formatting and Printing Output",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formatting, Conditional Formatting and Printing Output' refers to.",
+     "a": "Formatting makes a sheet readable: number formats attach currency, percentage, comma and decimal styling; text tools change fonts, borders, alignment and merge cells; and conditional formatting recolours cells that meet a condition, using data bars, colour scales and icon sets to expose exceptions and trends. For output, a print area is defined from Page Layout or Page Setup, headers and footers carry titles and page numbers, and whole or partial sheets, tables, charts and pivot tables print directly or to file.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formatting, Conditional Formatting and Printing Output'.",
+     "a": "Format numbers and flag exceptions on screen, then fence the print area and dress the page for the printer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Formatting, Conditional Formatting and Printing Output', in plain ASCII form.",
+     "a": "output_prep = number formats plus conditional formatting plus print_area plus headers",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.18",
+   "title": "Pivot Table Reports and Data Tables",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pivot Table Reports and Data Tables' refers to.",
+     "a": "A data table shows the results of substituting different inputs into a formula -- one-variable tables substitute down a column, two-variable tables combine a row list with a column list. A pivot table goes further: it cross-tabulates a long data list, dragging fields into report filter, column labels, row labels and values so that city-wise or product-wise summaries appear, and the layout pivots -- rows become columns -- for fresh views, with drill-down, filtering and grouping built in.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pivot Table Reports and Data Tables'.",
+     "a": "Data tables test formula inputs; pivot tables cross-tabulate a whole list and pivot views on demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pivot Table Reports and Data Tables', in plain ASCII form.",
+     "a": "pivot_report = row labels plus column labels plus values plus report filter",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leca102.19",
+   "title": "Common Formula Error Values",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Common Formula Error Values' refers to.",
+     "a": "When a formula cannot evaluate, Excel shows an error value, each with its own cause: ##### means the column is too narrow or a date went negative; #DIV/0! signals division by zero or an empty divisor cell; #N/A means a value is missing or a lookup failed; #NAME? shows unrecognised text in a formula; #NULL! marks two ranges that do not intersect; #NUM! flags invalid numeric arguments or non-converging iterations; #REF! follows deleted or pasted-over referenced cells; and #VALUE! arises from the wrong argument type, such as adding text to a number.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Common Formula Error Values'.",
+     "a": "Each error code names its own failure -- width, zero divisor, missing lookup, unknown name, disjoint ranges, bad numbers, lost references, wrong types.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Common Formula Error Values', in plain ASCII form.",
+     "a": "error_values = width_error plus div_zero plus not_available plus name_error plus null_error plus num_error plus ref_error plus type_error",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_002",
+   "title": "c12_bio_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the four postulates of Darwin's theory of natural selection in the correct logical order.",
+     "a": "Correct order: (1) Overproduction / prodigality of reproduction, (2) Existence of variation among individuals, (3) Struggle for existence due to limited resources, (4) Natural selection / survival of fittest leading to differential reproduction. A wrong answer (e.g., placing variation after struggle) reveals the student memorized terms but not the causal chain — variation must exist BEFORE selection can act, and overproduction creates the condition for struggle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Darwin's postulate of \"variation\" was incomplete without the concept of genetics, and how the Modern Synthesis resolved this.",
+     "a": "Darwin observed variation but did not know its source or inheritance mechanism (he proposed flawed \"pangenesis\"). The Modern Synthesis integrated Mendelian genetics: variation arises from mutations and recombination, and is inherited via genes. A wrong answer (e.g., \"Darwin knew about genes\") reveals confusion between historical development and current understanding — a common board exam trap where students attribute modern knowledge to Darwin.",
+     "self_check": true
+    },
+    {
+     "q": "A population of mosquitoes is exposed to a new insecticide. After 10 generations, 95% are resistant. Using Darwin's postulates, trace the step-by-step evolutionary process that led to this outcome.",
+     "a": "Step 1: Overproduction — mosquitoes lay hundreds of eggs. Step 2: Variation — random mutations confer resistance in a few individuals. Step 3: Struggle — insecticide kills susceptible mosquitoes, intense competition for survival. Step 4: Selection — resistant individuals survive, reproduce more, pass resistance alleles. Step 5: Over generations, resistance allele frequency increases. A wrong answer (e.g., \"mosquitoes developed resistance because they needed it\") reveals Lamarckian thinking — the most persistent misconception in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Darwin's natural selection with Lamarck's inheritance of acquired characters using the example of giraffe neck elongation. Identify which postulate Lamarck violates.",
+     "a": "Darwin: Ancestral giraffes had variation in neck length; those with longer necks reached more food, survived better, reproduced more → longer necks over generations. Lamarck: Giraffes stretched necks during lifetime, passed acquired length to offspring. Lamarck violates Postulate 2 — he assumed variation arises from use/disuse directed by need, not random heritable variation. A wrong answer (e.g., \"both explain long necks equally\") shows inability to distinguish mechanism — a frequent NEET assertion-reason question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Natural selection creates new traits to suit the environment.\" Justify your answer using Darwin's postulates.",
+     "a": "False. Natural selection does NOT create traits; it only selects among existing variation (Postulate 2). New traits arise via random mutation/recombination. Selection is a filter, not a creative force. A wrong answer (e.g., \"selection creates adaptations\") reveals teleological thinking — attributing purpose/foresight to selection. This is a classic JEE/NEET conceptual trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using fast-growing plants (e.g., mustard) to demonstrate natural selection in a classroom over 3-4 generations. Specify the selective pressure, measurable trait, and expected outcome.",
+     "a": "Selective pressure: Drought (water once a week vs daily). Measurable trait: Root length / days to wilting. Procedure: Grow 100 plants from mixed seeds (genetic variation). Apply drought. Collect seeds only from survivors (top 20% root length). Repeat for 3 generations. Expected: Average root length increases. A poor answer (e.g., \"measure height of all plants\") misses the core of selection — differential reproduction based on heritable variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

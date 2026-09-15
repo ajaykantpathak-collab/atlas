@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_007",
+   "title": "c11_bs_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define retained earnings and state its classification under the three bases of classifying sources of finance (period, ownership, source of generation).",
+     "a": "Retained earnings = portion of net earnings not distributed as dividends, reinvested in business. Classification: (1) Period basis: Long-term source (>5 years); (2) Ownership basis: Owner's funds; (3) Source of generation basis: Internal source. A wrong answer (e.g., calling it a borrowed fund or short-term source) reveals the student hasn't grasped the classification framework from c11_bs_cbse_08_002 and c11_bs_cbse_08_003. They are memorising the definition without linking it to the broader taxonomy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Retained earnings have no cost because the company pays no interest or dividend on them.\" Explain why this statement is a dangerous misconception for a finance manager.",
+     "a": "The statement ignores opportunity cost. Shareholders forego current dividends; they could have invested those dividends elsewhere to earn a return. The cost of retained earnings = the return shareholders expect on equivalent-risk investments. If a finance manager treats it as zero-cost, they may accept projects with returns lower than the shareholders' required rate, destroying wealth. A wrong answer (agreeing with the statement) shows the student confuses *explicit cost* (cash outflow) with *implicit cost* (opportunity cost) - a critical distinction in senior secondary finance.",
+     "self_check": true
+    },
+    {
+     "q": "A company has net profit after tax of ₹50 lakh. It follows a 40% dividend payout policy. Calculate the retained earnings for the year. If the company has 10 lakh equity shares of ₹10 each, what is the retention per share? Show how this impacts the book value per share if the current book value is ₹25.",
+     "a": "Step 1: Dividend = 40% of ₹50 lakh = ₹20 lakh. Step 2: Retained earnings = ₹50 lakh - ₹20 lakh = ₹30 lakh. Step 3: Retention per share = ₹30 lakh / 10 lakh shares = ₹3 per share. Step 4: New book value per share = ₹25 + ₹3 = ₹28. Step 5: Interpretation: Book value rises because retained earnings increase reserves & surplus (part of shareholders' equity). A wrong calculation (e.g., using profit before tax, or adding dividend) reveals confusion between profit appropriation and profit distribution, or inability to link retained earnings to balance sheet equity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare retained earnings and equity shares as sources of long-term finance on: (a) control dilution, (b) floatation costs, (c) certainty of availability, (d) shareholder preference. Present in a table.",
+     "a": "| Basis | Retained Earnings | Equity Shares |\n|-------|-------------------|---------------|\n| Control dilution | No dilution - existing shareholders retain proportional control | Dilutes control if new shareholders subscribe; existing % falls |\n| Floatation costs | Zero - no prospectus, underwriting, brokerage | High - 5-10% of issue size typically |\n| Certainty of availability | Uncertain - depends on profits, which fluctuate | Certain if issue is fully subscribed (but market conditions affect) |\n| Shareholder preference | Growth-oriented shareholders prefer; income-oriented dislike | Income-oriented may prefer if dividends expected; growth-oriented may like capital gains |\n\nA poor answer (missing dimensions or wrong on control) shows inability to synthesise across nodes c11_bs_cbse_08_004 and this node. They treat sources in isolation.",
+     "self_check": true
+    },
+    {
+     "q": "\"Retained earnings is the best source of finance for a mature company with stable profits but limited growth opportunities.\" Evaluate this statement with reference to the merits and limitations of retained earnings.",
+     "a": "The statement is FALSE for such a company. Merits: stable profits make retained earnings reliable; no floatation cost; no control dilution. BUT limitations dominate: (1) Shareholders of mature companies expect high dividends (low growth opportunities) - excessive ploughing back causes dissatisfaction (Limitation i). (2) Opportunity cost is high - shareholders could invest dividends in higher-growth ventures (Limitation iii). (3) Sub-optimal use: management may invest in low-return projects just because funds are available. Better to pay high dividends and raise external funds only if a high-return project appears. A weak evaluation ignores the *context* of company lifecycle and shareholder clientele effect.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context, specific numbers) where a company's decision to rely heavily on retained earnings backfires. Include at least two limitations from NCERT and one real-world consequence not explicitly in the textbook.",
+     "a": "Scenario: \"GreenTech Ltd.\" (solar panel maker) has ₹200 crore reserves from years of retained earnings. Management, flush with cash, diversifies into EV charging stations without core competence. Limitations exhibited: (i) Opportunity cost ignored - shareholders could have earned 15% in mutual funds vs project's 8% return. (ii) Sub-optimal use - funds deployed in unrelated business. Real-world consequence: Credit rating agencies downgrade due to \"conglomerate discount\" and capital misallocation; stock falls 30% despite high reserves. A poor answer gives a generic \"losses happen\" without linking to specific NCERT limitations or showing the agency problem between managers and owners.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

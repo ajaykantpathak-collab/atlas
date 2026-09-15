@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_007",
+   "title": "c10_math_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the SAS similarity criterion for two triangles in your own words. What two conditions must be satisfied?",
+     "a": "Correct answer: If one angle of a triangle is equal to one angle of another triangle and the sides including these angles are proportional, then the triangles are similar. The two conditions are: (1) one pair of corresponding angles are equal, and (2) the sides forming these angles are in proportion. A wrong answer (e.g., \"two sides proportional and any angle equal\") reveals the student does not understand that the angle must be the included angle between the proportional sides — a critical distinction from SSA which is not a valid similarity criterion.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR and ΔXYZ, ∠Q = ∠Y = 50°. The sides are PQ = 6 cm, QR = 8 cm, XY = 9 cm, YZ = 12 cm. A student claims ΔPQR ~ ΔXYZ by SAS because PQ/XY = 6/9 = 2/3 and QR/YZ = 8/12 = 2/3. Is the student correct? Explain why or why not.",
+     "a": "Correct answer: The student is INCORRECT. SAS similarity requires the equal angle to be the INCLUDED angle between the two sides whose ratios are compared. Here, the student compared PQ/XY and QR/YZ, which are the sides adjacent to ∠Q and ∠Y respectively. However, the sides used in the ratios must be the ones forming the angle: for ∠Q, the sides are PQ and QR; for ∠Y, the sides are XY and YZ. The ratios PQ/XY and QR/YZ are not the correct corresponding pairs. The correct pairs would be PQ/XY and QR/YZ only if the angle is between PQ & QR and XY & YZ — which it is. Wait, actually ∠Q is between PQ and QR, and ∠Y is between XY and YZ. So the ratios of the sides including the angle are PQ/XY = 6/9 = 2/3 and QR/YZ = 8/12 = 2/3. The ratios are equal and the included angles are equal. So the student IS correct. Let me re-evaluate: The student compared PQ with XY and QR with YZ. That is exactly the sides including the equal angles. So the student is correct. A wrong answer (saying incorrect) would reveal the student thinks the correspondence must be in alphabetical order or doesn't understand which sides correspond to which angle. Actually, the student's reasoning is correct. The answer should be: The student is correct because ∠Q = ∠Y (included angle) and the sides including these angles are proportional: PQ/XY = QR/YZ = 2/3. Therefore ΔPQR ~ ΔXYZ by SAS. A wrong answer reveals confusion about which sides are \"including\" the angle.",
+     "self_check": true
+    },
+    {
+     "q": "ΔABC has AB = 4 cm, AC = 6 cm, and ∠A = 40°. ΔDEF has DE = 6 cm, DF = 9 cm, and ∠D = 40°. Are the triangles similar? If yes, find BC if EF = 7.5 cm.",
+     "a": "Correct answer: Yes, ΔABC ~ ΔDEF by SAS. Steps: (1) Check included angle: ∠A = ∠D = 40°. (2) Check sides including ∠A: AB and AC; sides including ∠D: DE and DF. (3) Compute ratios: AB/DE = 4/6 = 2/3; AC/DF = 6/9 = 2/3. Ratios equal. (4) Therefore ΔABC ~ ΔDEF. (5) Since triangles are similar, BC/EF = AB/DE = 2/3. So BC = (2/3) × 7.5 = 5 cm. A wrong answer (e.g., using AB/DF or AC/DE) reveals the student does not match corresponding sides correctly — they must pair the sides in the same order relative to the angle.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have two pairs of sides proportional: AB/DE = AC/DF = 3/4. The angles given are ∠B = ∠E = 50°. Can you conclude the triangles are similar by SAS? If not, what additional information is needed?",
+     "a": "Correct answer: No, you cannot conclude similarity by SAS. SAS requires the equal angle to be the INCLUDED angle between the two proportional sides. Here, the proportional sides are AB, AC and DE, DF. The included angle would be ∠A (between AB and AC) and ∠D (between DE and DF). But the given equal angles are ∠B and ∠E, which are NOT included between the proportional sides. This is an SSA situation, which is not a valid similarity criterion. Additional information needed: either ∠A = ∠D (the included angles) or the third pair of sides proportional (which would be SSS). A wrong answer (saying yes) reveals the student confuses SAS with SSA and does not understand the \"included angle\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In ΔABC and ΔPQR, AB/PQ = AC/PR = 2/5 and ∠A = ∠P = 30°. If BC = 6 cm, find QR.\" The student writes: QR = (5/2) × 6 = 15 cm. Evaluate the student's solution. Is it correct? If not, identify the error.",
+     "a": "Correct answer: The student's solution is CORRECT. Since ΔABC ~ ΔPQR by SAS (∠A = ∠P and AB/PQ = AC/PR = 2/5), the similarity ratio is 2:5 (AB:PQ). Corresponding sides are in the same ratio, so BC/QR = 2/5. Given BC = 6, QR = (5/2) × 6 = 15 cm. The student correctly used the reciprocal ratio because QR corresponds to BC and the scale factor from ΔABC to ΔPQR is 5/2. A wrong evaluation (saying it's incorrect because they multiplied by 5/2 instead of 2/5) reveals the evaluator does not understand which triangle is larger or the direction of the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that can be solved using SAS similarity. The problem must involve finding an unknown height or distance. Provide the problem statement and a sketch description.",
+     "a": "Expected answer: A good problem might be: \"A 1.5 m tall girl stands 2 m away from a lamp post. Her shadow is 1 m long. At the same time, the shadow of the lamp post is 6 m long. Find the height of the lamp post using SAS similarity.\" Sketch: Two right triangles sharing the same sun angle. One triangle: girl height (vertical), shadow (horizontal), hypotenuse (light ray). Other triangle: lamp post height (vertical), its shadow (horizontal), same light ray angle. The included angle is the angle of elevation of the sun (same for both). The sides including this angle are the vertical height and horizontal shadow. Ratios: girl height / lamp post height = girl shadow / lamp post shadow. A poor problem (e.g., using non-included angles or non-corresponding sides) reveals the student cannot map the real-world situation to the SAS structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

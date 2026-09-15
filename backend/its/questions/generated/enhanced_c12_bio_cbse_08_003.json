@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_003",
+   "title": "c12_bio_cbse_08_003",
+   "questions": [
+    {
+     "q": "Name the four types of physical/chemical barriers in innate immunity and give one example of each.",
+     "a": "Correct: (1) Physical: skin, mucous membranes; (2) Physiological: stomach acid (pH 1.5–3.5), lysozyme in tears/saliva; (3) Cellular: neutrophils, macrophages, NK cells; (4) Cytokine/Complement: interferons, complement proteins. A wrong answer listing \"antibodies\" as innate reveals confusion — antibodies are acquired, produced by plasma cells after antigen exposure. Students often misclassify fever as acquired; fever is innate (pyrogen-induced hypothalamus reset).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a person who recovered from measles not get it again, but can still catch influenza?",
+     "a": "Correct: Measles infection generates memory B and T cells specific to measles virus antigens. Upon re-exposure, these memory cells mount a rapid, high-affinity secondary response that clears the virus before symptoms appear. Influenza virus undergoes frequent antigenic drift/shift, altering its surface proteins (HA/NA); existing memory cells no longer recognize the new epitopes, so a new primary response is needed. A wrong answer saying \"measles virus doesn't mutate\" is incomplete — it mutates slowly, but the key is immunological memory is antigen-specific, not universal.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a genetic defect causing absent C3 complement protein. Predict which innate defense mechanisms will be impaired and why.",
+     "a": "Correct: C3 is central to all three complement pathways (classical, lectin, alternative). Its absence impairs: (1) Opsonization (C3b coating bacteria for phagocytosis); (2) Chemotaxis (C5a, derived from C3 cleavage, recruits neutrophils); (3) Membrane attack complex (MAC) formation (C5b-9 lysis of Gram-negative bacteria); (4) Inflammation (C3a, C5a are anaphylatoxins). Phagocytes remain functional but less efficient without opsonins. A wrong answer listing \"antibody production\" as impaired confuses complement with acquired immunity — complement enhances but is not required for B-cell activation (though C3d on antigen lowers BCR threshold).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the antigen-recognition mechanisms of B cells vs T cells. Why can T cells not recognize free-floating antigens?",
+     "a": "Correct: B cells recognize native, conformational epitopes on intact antigens via membrane-bound immunoglobulin (BCR) — no processing needed. T cells recognize linear peptide fragments (8–18 aa) presented by MHC molecules on antigen-presenting cells (APCs). TCR cannot bind free antigen because its binding groove is evolutionarily adapted for peptide-MHC complexes. This ensures T cells only respond to antigens processed inside host cells (intracellular pathogens, tumor antigens). A wrong answer saying \"T cells need antibodies\" confuses T-cell help for B cells with T-cell antigen recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Innate immunity is primitive and inferior to acquired immunity because it lacks memory.\"",
+     "a": "Correct: False. Innate immunity is evolutionarily ancient (present in invertebrates) but not inferior — it is essential for survival. It acts within minutes/hours, controls initial pathogen load, and instructs acquired immunity via dendritic cell maturation and cytokine milieu (e.g., IL-12 drives Th1). Without innate immunity, acquired immunity never activates (no antigen presentation, no co-stimulation). Memory is a trade-off: innate uses germline-encoded PRRs (TLRs, NLRs) for broad recognition; acquired uses somatic recombination for specificity. A wrong answer agreeing reveals teleological thinking — evolution does not rank systems as \"better,\" but selects for fitness in context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a mouse model to demonstrate that acquired immunity requires prior exposure (or immunization) for a secondary response.",
+     "a": "Correct design: Group 1: Inject mice with heat-killed *Streptococcus pneumoniae* (antigen) + adjuvant (primary immunization). Group 2: Inject PBS only. After 14 days (memory formation), challenge both groups with live virulent *S. pneumoniae*. Measure survival, bacterial load in blood, and anti-pneumococcal IgG titers at 0, 3, 7 days post-challenge. Expected: Group 1 shows rapid IgG rise (secondary response), low bacteremia, high survival; Group 2 shows delayed IgM/IgG (primary), high bacteremia, mortality. Poor answer: using same antigen for challenge without control, or measuring only survival without antibody kinetics — misses the quantitative hallmark of memory (faster, higher, isotype-switched).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

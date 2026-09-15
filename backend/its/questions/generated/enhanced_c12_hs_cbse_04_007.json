@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_007",
+   "title": "c12_hs_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define 'warp' and 'weft' yarns in a woven fabric. State the direction of each relative to the selvedge.",
+     "a": "Warp yarns run parallel to the selvedge (lengthwise/grain line); weft yarns run perpendicular to the selvedge (crosswise). A wrong answer (e.g., swapping directions, saying both run parallel) reveals the student cannot visualise the loom's geometry — they memorise terms without understanding the physical setup where warp is held under tension and weft is inserted across.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric shows a clear diagonal rib running at 45° on the face. The interlacing repeats every 3 warp and 3 weft threads (over 2, under 1). Identify the weave type and its notation. Explain why this weave is stronger than plain weave for the same yarn and sett.",
+     "a": "It is a 2/1 twill (warp-faced), notation: ↑↑↓ (or 2 up, 1 down). Twill has fewer interlacings per repeat (3 vs 2 in plain), allowing yarns to pack more closely → higher thread density → more yarns per unit area share the load. A wrong answer citing \"more interlacings = stronger\" reveals the misconception that interlacing frequency alone determines strength, ignoring yarn packing and crimp.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the draft (threading plan), peg plan (lifting plan), and interlacing diagram for a 5-end satin weave (warp-faced) using straight draft on 5 shafts. Show one complete repeat.",
+     "a": "Draft: 1-2-3-4-5 (straight). Peg plan (lifting order for warp-faced satin): shaft 1 up, 2 up, 3 up, 4 up, 5 down (or cyclic permutation: 1,2,3,4,5 with one shaft down per pick). Interlacing: each warp floats over 4 wefts, under 1; staggered so no two adjacent warps have the down at same pick. A wrong answer with random lifting order or missing the 'move number' concept (e.g., 2 for 5-end) reveals the student doesn't grasp the mathematical rule: satin requires a move number (s) coprime to repeat size (n), where s ≠ 1, n-1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare handloom and modern air-jet loom on: (a) primary motions mechanism, (b) maximum picks per minute, (c) suitability for fancy weaves. Present as a 3×2 table.",
+     "a": "| Feature | Handloom | Air-jet Loom |\n|---------|----------|--------------|\n| Shedding | Treadle/lever (manual) | Cam/dobby/electronic (automated) |\n| Picking | Shuttle (hand-thrown) | Compressed air jet (shuttleless) |\n| Beating | Hand-operated sley/reed | Crank/connecting rod (mechanical) |\n| Max ppm | 40–60 | 800–1500+ |\n| Fancy weaves | Limited (dobby possible) | Excellent (electronic jacquay/dobby) |\nA wrong answer claiming handloom has higher ppm or air-jet uses shuttle reveals confusion between traditional and modern technology categories.",
+     "self_check": true
+    },
+    {
+     "q": "A designer wants a fabric with high lustre, smooth surface, and good drape for evening wear, but it must resist snagging better than traditional satin. Evaluate: 5-end satin vs 8-end satin vs sateen (weft-faced satin). Recommend one with justification.",
+     "a": "Recommend **8-end sateen (weft-faced)**. Reasoning: (1) Longer floats (7/1) than 5-end (4/1) → higher lustre; (2) Weft-faced means floats are on surface but weft yarns can be finer/more numerous → smoother; (3) Sateen structure (weft floats) distributes stress better than warp-faced satin when snagged — a pulled weft float relieves locally without distorting warp tension. 5-end satin has shorter floats (less lustre) and warp-faced structure snags more visibly. A wrong answer choosing 5-end satin for \"more interlacings = stronger\" misses that snag resistance depends on float behaviour, not interlacing count.",
+     "self_check": true
+    },
+    {
+     "q": "Design a derivative weave by combining plain and 2/2 twill in a check pattern: 8 ends plain, 8 ends 2/2 twill, repeat. Draw the draft for 16 shafts (straight draw) and write the lifting sequence for the first 8 picks. Explain how the fabric will behave differently at the transition zones.",
+     "a": "Draft: Shafts 1–8 = plain (alternating 1,2,1,2...), Shafts 9–16 = 2/2 twill (straight 9,10,11,12,13,14,15,16). Lifting (first 8 picks, plain area): Pick 1: shafts 1,3,5,7 up; Pick 2: 2,4,6,8 up; repeat. Twill area lifting (2/2): Pick 1: 9,10 up; Pick 2: 10,11 up; Pick 3: 11,12 up; Pick 4: 12,13 up; Pick 5: 13,14 up; Pick 6: 14,15 up; Pick 7: 15,16 up; Pick 8: 16,9 up. Transition zones: plain-to-twill boundary creates a line of differing crimp and float length → potential puckering or weft distortion; requires careful tension balancing. A poor answer ignores transition effects or gives random lifting, showing inability to plan multi-weave structures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

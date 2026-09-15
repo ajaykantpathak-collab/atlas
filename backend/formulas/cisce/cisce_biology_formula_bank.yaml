@@ -1,0 +1,4749 @@
+---
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_001
+  name: 2H_2O
+  latex: 2H_2O ->(light, chlorophyll)-> 4H**+ + 4e**- + O_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - 2h_2o
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_002
+  name: Non-cyclic photophosphorylation
+  latex: produces ATP + NADPH + O_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - non-cyclic-photophosphorylatio
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_003
+  name: Cyclic photophosphorylation
+  latex: produces ATP only
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - cyclic-photophosphorylation
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_004
+  name: CO_2 + RuBP
+  latex: CO_2 + RuBP ->(RuBisCO)-> 2 x 3-PGA ->->-> G3P -> Glucose
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - co_2-+-rubp
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_005
+  name: 6CO_2 + 18 ATP + 12 NADPH
+  latex: 6CO_2 + 18 ATP + 12 NADPH -> C_6H_1_2O_6 + 18 ADP + 12 NADP**+ + 3H_2O
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - 6co_2-+-18-atp-+-12-nadph
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_006
+  name: CO_2 + PEP
+  latex: CO_2 + PEP ->(PEP carboxylase)-> OAA (oxaloacetate, 4C) -> malate -> CO_2
+    + pyruvate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - co_2-+-pep
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_007
+  name: RuBisCO + O_2
+  latex: RuBisCO + O_2 -> glycolate pathway -> CO_2 released (wasteful process)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: PHOTOSYNTHESIS (C11)
+  subject: biology
+  concept_tags:
+  - rubisco-+-o_2
+  - photosynthesis-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_008
+  name: Glucose (C_6H_1_2O_6)
+  latex: Glucose (C_6H_1_2O_6) -> 2 Pyruvate (C_3H_4O_3) + 2 ATP (net) + 2 NADH
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - glucose-(c_6h_1_2o_6)
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_009
+  name: Pyruvate + CoA + NAD^+
+  latex: Pyruvate + CoA + NAD**+ -> Acetyl-CoA + CO_2 + NADH
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - pyruvate-+-coa-+-nad^+
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_010
+  name: Acetyl-CoA + Oxaloacetate
+  latex: Acetyl-CoA + Oxaloacetate -> Citrate ->->-> -> 3 NADH + 1 FADH_2 + 1 ATP
+    + 2 CO_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - acetyl-coa-+-oxaloacetate
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_011
+  name: Per glucose
+  latex: 2 turns of cycle -> 6 NADH + 2 FADH_2 + 2 ATP + 4 CO_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - per-glucose
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_012
+  name: NADH
+  latex: NADH -> 3 ATP (oxidative phosphorylation)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - nadh
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_013
+  name: FADH_2
+  latex: FADH_2 -> 2 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - fadh_2
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_014
+  name: Total per glucose
+  latex: 38 ATP (theoretical), ~36 ATP (practical)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - total-per-glucose
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_015
+  name: C_6H_1_2O_6 + 6O_2
+  latex: C_6H_1_2O_6 + 6O_2 -> 6CO_2 + 6H_2O + 38 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - c_6h_1_2o_6-+-6o_2
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_016
+  name: RQ
+  latex: CO_2 produced / O_2 consumed
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - rq
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_017
+  name: Carbohydrates
+  latex: RQ = 1.0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - carbohydrates
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_018
+  name: Fats
+  latex: RQ ~= 0.7
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - fats
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_019
+  name: Proteins
+  latex: RQ ~= 0.8
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - proteins
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_020
+  name: Organic acids
+  latex: RQ > 1.0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - organic-acids
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_021
+  name: Anaerobic
+  latex: RQ = infinity (no O_2 consumed)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: RESPIRATION (C11)
+  subject: biology
+  concept_tags:
+  - anaerobic
+  - respiration-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_022
+  name: p + q
+  latex: 1 (allele frequencies)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - p-+-q
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_023
+  name: p^2 + 2pq + q^2
+  latex: 1 (genotype frequencies)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - p^2-+-2pq-+-q^2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_024
+  name: p^2
+  latex: frequency of homozygous dominant
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - p^2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_025
+  name: 2pq
+  latex: frequency of heterozygous
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - 2pq
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_026
+  name: q^2
+  latex: frequency of homozygous recessive
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - q^2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_027
+  name: Conditions
+  latex: no mutation, no migration, no selection, random mating, large population
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - conditions
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_028
+  name: chi^2
+  latex: \Sigma (O - E)**2 / E
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - chi^2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_029
+  name: df
+  latex: n - 1 (n = number of categories)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - df
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_030
+  name: Compare to critical value (p
+  latex: 0.05)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - compare-to-critical-value-(p
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_031
+  name: '- Monohybrid F2'
+  latex: 3:1 phenotype, 1:2:1 genotype
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --monohybrid-f2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_032
+  name: '- Dihybrid F2'
+  latex: 9:3:3:1 phenotype
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --dihybrid-f2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_033
+  name: '- Test cross'
+  latex: 1:1 (heterozygous x recessive)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --test-cross
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_034
+  name: '- Incomplete dominance F2'
+  latex: 1:2:1 phenotype
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --incomplete-dominance-f2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_035
+  name: '- Co-dominance F2'
+  latex: 1:2:1 phenotype (all three distinct)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --co-dominance-f2
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_036
+  name: '- Base pairing'
+  latex: A=T (2 H-bonds), G===C (3 H-bonds)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --base-pairing
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_037
+  name: '- Purines'
+  latex: 'A, G; Pyrimidines: T, C'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --purines
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_038
+  name: '- One turn'
+  latex: 10 base pairs = 3.4 nm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --one-turn
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_039
+  name: '- Distance between bases'
+  latex: 0.34 nm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --distance-between-bases
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_040
+  name: '- Diameter'
+  latex: 2 nm
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --diameter
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_041
+  name: '- Rate'
+  latex: ~50 nucleotides/sec (human), ~1000/sec (E. coli)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --rate
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_042
+  name: '- Okazaki fragments'
+  latex: 100-1000 bp (lagging strand)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --okazaki-fragments
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_043
+  name: '- 64 codons'
+  latex: 61 sense (amino acids), 3 nonsense (stop)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --64-codons
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_044
+  name: '- Start codon'
+  latex: AUG (methionine)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --start-codon
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_045
+  name: '- Stop codons'
+  latex: UAA, UAG, UGA
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --stop-codons
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_046
+  name: '- Degenerate'
+  latex: multiple codons for same amino acid
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --degenerate
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_047
+  name: '- Universal'
+  latex: same in all organisms (with minor exceptions)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - --universal
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_048
+  name: DNA
+  latex: DNA ->(RNA polymerase)-> mRNA (in nucleus)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - dna
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_049
+  name: mRNA
+  latex: mRNA ->(ribosome)-> Protein (in cytoplasm)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - mrna
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_050
+  name: Central dogma
+  latex: DNA -> RNA -> Protein
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: GENETICS (C12)
+  subject: biology
+  concept_tags:
+  - central-dogma
+  - genetics-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_051
+  name: '- Exponential'
+  latex: dN/dt = rN (unlimited)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --exponential
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_052
+  name: '- Logistic'
+  latex: dN/dt = rN(1 - N/K) (limited by carrying capacity K)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --logistic
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_053
+  name: '- r'
+  latex: intrinsic rate of natural increase
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --r
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_054
+  name: '- K'
+  latex: carrying capacity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --k
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_055
+  name: '- Type I'
+  latex: high survival until old age (humans, elephants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --type-i
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_056
+  name: '- Type II'
+  latex: constant mortality (birds, rodents)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --type-ii
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_057
+  name: '- Type III'
+  latex: high early mortality (fish, insects, plants)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --type-iii
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_058
+  name: '- 10% law (Lindemann)'
+  latex: ~10% energy transferred to next trophic level
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --10%-law-(lindemann)
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_059
+  name: '- Energy at trophic level n'
+  latex: Energy at level 1 x (0.1)**(n-1)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --energy-at-trophic-level-n
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_060
+  name: '- Species richness (S)'
+  latex: number of species
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --species-richness-(s)
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_061
+  name: '- Shannon-Wiener index'
+  latex: H' = -\Sigma p_i ln(p_i)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --shannon-wiener-index
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_062
+  name: where p_i
+  latex: proportion of species i
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - where-p_i
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_063
+  name: '- Simpson''s index'
+  latex: D = 1 - \Sigma(n_i/N)**2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - --simpson's-index
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_064
+  name: where n_i
+  latex: individuals of species i, N = total individuals
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ECOLOGY (C12)
+  subject: biology
+  concept_tags:
+  - where-n_i
+  - ecology-(c12)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_065
+  name: CO
+  latex: Stroke Volume x Heart Rate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - co
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_066
+  name: GFR ~
+  latex: 125 mL/min (normal adult)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - gfr-~
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_067
+  name: Per day
+  latex: ~180 L filtrate, ~1.5 L urine (99% reabsorbed)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - per-day
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_068
+  name: Resting potential
+  latex: -70 mV (K**+ inside, Na**+ outside)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - resting-potential
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_069
+  name: Action potential
+  latex: +30 mV (Na**+ influx)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - action-potential
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_070
+  name: Repolarization
+  latex: K**+ efflux
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - repolarization
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_071
+  name: Refractory period
+  latex: 1-2 ms
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - refractory-period
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_072
+  name: '- Oxygen-haemoglobin dissociation curve'
+  latex: sigmoid (S-shaped)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - --oxygen-haemoglobin-dissociat
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_073
+  name: '- Bohr effect'
+  latex: higher CO_2/lower pH shifts curve right (more O_2 released)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - --bohr-effect
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_074
+  name: '- 70% as bicarbonate (HCO_3^-) in plasma'
+  latex: '- 70% as bicarbonate (HCO_3**-) in plasma'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: HUMAN PHYSIOLOGY (C11)
+  subject: biology
+  concept_tags:
+  - --70%-as-bicarbonate-(hco_3^-)
+  - human-physiology-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_075
+  name: Vmax
+  latex: maximum velocity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - vmax
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_076
+  name: Km
+  latex: Michaelis constant (substrate concentration at half Vmax)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - km
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_077
+  name: Lower Km
+  latex: higher affinity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - lower-km
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_078
+  name: '- Competitive'
+  latex: inhibitor binds active site, increases apparent Km, Vmax unchanged
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --competitive
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_079
+  name: '- Non-competitive'
+  latex: inhibitor binds elsewhere, Vmax decreases, Km unchanged
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --non-competitive
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_080
+  name: '- Temperature'
+  latex: optimum (37 ^{\circ} C for human enzymes)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --temperature
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_081
+  name: '- pH'
+  latex: optimum (pepsin = 2, trypsin = 8, salivary amylase = 7)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --ph
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_082
+  name: '- Substrate concentration'
+  latex: rate increases then plateaus (Vmax)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --substrate-concentration
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c11_c12_083
+  name: '- Enzyme concentration'
+  latex: rate proportional (if substrate excess)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class11
+  - class12
+  chapter: ENZYMES (C11)
+  subject: biology
+  concept_tags:
+  - --enzyme-concentration
+  - enzymes-(c11)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c11_c12.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_001
+  name: '- Root'
+  latex: absorbs water and minerals, anchors plant
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --root
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_002
+  name: '- Stem'
+  latex: transports water and food, supports plant
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --stem
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_003
+  name: '- Leaf'
+  latex: makes food by photosynthesis, trans\pires water
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --leaf
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_004
+  name: '- Flower'
+  latex: reproduction (produces seeds)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --flower
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_005
+  name: '- Fruit'
+  latex: protects and disperses seeds
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --fruit
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_006
+  name: '- Seed'
+  latex: grows into a new plant
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --seed
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_007
+  name: '- Land'
+  latex: forest, desert, grassland, mountains
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --land
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_008
+  name: '- Water'
+  latex: pond, river, sea, ocean
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --water
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_009
+  name: '- Underground'
+  latex: burrows (rabbits, snakes)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --underground
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_010
+  name: '- Trees'
+  latex: birds, monkeys, squirrels
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --trees
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_011
+  name: '- Skeletal system'
+  latex: bones and joints (support, protection, movement)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --skeletal-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_012
+  name: '- Muscular system'
+  latex: muscles (movement)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --muscular-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_013
+  name: '- Digestive system'
+  latex: mouth to anus (breaks down food)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --digestive-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_014
+  name: '- Respiratory system'
+  latex: nose, trachea, lungs (breathing)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --respiratory-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_015
+  name: '- Circulatory system'
+  latex: heart, blood, vessels (transport)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --circulatory-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_016
+  name: '- Nervous system'
+  latex: brain, s\pinal cord, nerves (control)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --nervous-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_017
+  name: '- Excretory system'
+  latex: kidneys, skin (waste removal)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --excretory-system
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_018
+  name: '- Sun'
+  latex: '- Sun -> Producer (plant) -> Consumer (herbivore) -> Consumer (carnivore)
+    -> Decomposer'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --sun
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_019
+  name: '- Carbohydrates'
+  latex: energy (rice, roti, bread)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --carbohydrates
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_020
+  name: '- Proteins'
+  latex: growth and repair (dal, eggs, meat)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --proteins
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_021
+  name: '- Fats'
+  latex: stored energy (ghee, oil, butter)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --fats
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_022
+  name: '- Vitamins'
+  latex: immunity and health (fruits, vegetables)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --vitamins
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_023
+  name: '- Minerals'
+  latex: strong bones, blood (milk, leafy greens)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --minerals
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_024
+  name: '- Water'
+  latex: transport and reactions
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --water
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_025
+  name: '- Roughage'
+  latex: digestion (fiber)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C1-C5: KEY FACTS (no formulas)'
+  subject: biology
+  concept_tags:
+  - --roughage
+  - c1-c5:-key-facts-(no-formulas)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_026
+  name: '- Cell theory'
+  latex: (1) all living things made of cells, (2) cell is basic unit of life, (3)
+    new cells from pre-existing cells
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --cell-theory
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_027
+  name: '- Plant cell parts'
+  latex: cell wall, cell membrane, cytoplasm, nucleus, vacuole, plastids
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --plant-cell-parts
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_028
+  name: '- Animal cell parts'
+  latex: cell membrane, cytoplasm, nucleus, small vacuoles, centrosome
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animal-cell-parts
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_029
+  name: '- Cell wall'
+  latex: fully permeable (cellulose)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --cell-wall
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_030
+  name: '- Cell membrane'
+  latex: semi-permeable (selectively permeable)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --cell-membrane
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_031
+  name: '- Word equation'
+  latex: Carbon dioxide + Water ->(sunlight, chlorophyll)-> Glucose + Oxygen
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --word-equation
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_032
+  name: '- Symbol equation'
+  latex: 6CO_2 + 6H_2O ->(sunlight, chlorophyll)-> C_6H_1_2O_6 + 6O_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --symbol-equation
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_033
+  name: '- Raw materials'
+  latex: CO_2 (from air), water (from soil)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --raw-materials
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_034
+  name: '- Products'
+  latex: glucose (food), oxygen (released)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --products
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_035
+  name: '- Conditions'
+  latex: sunlight, chlorophyll
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --conditions
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_036
+  name: '- Aerobic'
+  latex: Glucose + Oxygen -> Carbon dioxide + Water + Energy (ATP)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --aerobic
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_037
+  name: '- C_6H_1_2O_6 + 6O_2'
+  latex: '- C_6H_1_2O_6 + 6O_2 -> 6CO_2 + 6H_2O + 38 ATP'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --c_6h_1_2o_6-+-6o_2
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_038
+  name: '- Anaerobic (muscles)'
+  latex: Glucose -> Lactic acid + Energy (2 ATP)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --anaerobic-(muscles)
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_039
+  name: '- Anaerobic (yeast)'
+  latex: Glucose -> Ethanol + CO_2 + Energy (2 ATP)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --anaerobic-(yeast)
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_040
+  name: '- Respiration vs breathing'
+  latex: res\piration = chemical process (releases energy); breathing = physical process
+    (inhale/exhale)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --respiration-vs-breathing
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_041
+  name: '- Rate affected by'
+  latex: temperature, humidity, wind, light intensity
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --rate-affected-by
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_042
+  name: '- Red blood cells (RBC)'
+  latex: carry O_2 (haemoglobin), no nucleus
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --red-blood-cells-(rbc)
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_043
+  name: '- White blood cells (WBC)'
+  latex: fight infection (phagocytosis, antibodies)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --white-blood-cells-(wbc)
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_044
+  name: '- Platelets'
+  latex: blood clotting
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --platelets
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_045
+  name: '- Plasma'
+  latex: liquid part (55%), transports nutrients, hormones, waste
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --plasma
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_046
+  name: '- 4 chambers'
+  latex: right atrium, right ventricle, left atrium, left ventricle
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --4-chambers
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_047
+  name: '- Right side'
+  latex: deoxygenated blood
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --right-side
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_048
+  name: '- Left side'
+  latex: oxygenated blood
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --left-side
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_049
+  name: '- Double circulation'
+  latex: pulmonary (lungs) + systemic (body)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --double-circulation
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_050
+  name: '- Heart rate'
+  latex: ~72 beats/min (adult)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --heart-rate
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_051
+  name: '- Neuron'
+  latex: dendrite -> cell body -> axon -> nerve endings
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --neuron
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_052
+  name: '- Nerve impulse'
+  latex: electrical signal along neuron
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --nerve-impulse
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_053
+  name: '- Reflex action'
+  latex: stimulus -> sensory neuron -> s\pinal cord -> motor neuron -> response (bypasses
+    brain)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --reflex-action
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_054
+  name: '- Reflex arc'
+  latex: receptor -> sensory neuron -> relay neuron -> motor neuron -> effector
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --reflex-arc
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_055
+  name: '- Monera'
+  latex: bacteria (prokaryotic, no nucleus)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --monera
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_056
+  name: '- Protista'
+  latex: Amoeba, Paramecium (unicellular, eukaryotic)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --protista
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_057
+  name: '- Fungi'
+  latex: yeast, mushroom (heterotrophic, cell wall of chitin)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --fungi
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_058
+  name: '- Plantae'
+  latex: multicellular, autotrophic, cell wall of cellulose
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --plantae
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_059
+  name: '- Animalia'
+  latex: multicellular, heterotrophic, no cell wall
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animalia
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_060
+  name: '- Plant meristematic'
+  latex: actively dividing (a\pical, lateral, intercalary)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --plant-meristematic
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_061
+  name: '- Plant permanent'
+  latex: parenchyma (storage), collenchyma (support), sclerenchyma (strength), xylem
+    (water transport), phloem (food transport)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --plant-permanent
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_062
+  name: '- Animal epithelial'
+  latex: covering and lining
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animal-epithelial
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_063
+  name: '- Animal connective'
+  latex: blood, bone, cartilage, ligament, tendon
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animal-connective
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_064
+  name: '- Animal muscular'
+  latex: voluntary (skeletal), involuntary (smooth), cardiac
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animal-muscular
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_065
+  name: '- Animal nervous'
+  latex: neurons (transmit impulses)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --animal-nervous
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_066
+  name: '- Pituitary'
+  latex: growth hormone (master gland)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --pituitary
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_067
+  name: '- Thyroid'
+  latex: thyroxine (metabolism)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --thyroid
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_068
+  name: '- Pancreas'
+  latex: insulin (blood sugar regulation)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --pancreas
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_069
+  name: '- Adrenal'
+  latex: adrenaline (fight or flight)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --adrenal
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_070
+  name: '- Testis'
+  latex: testosterone (male puberty)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --testis
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_071
+  name: '- Ovary'
+  latex: estrogen, progesterone (female puberty, menstrual cycle)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --ovary
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_072
+  name: '- Boys'
+  latex: voice deepens, facial hair, muscle growth, testosterone
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --boys
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_073
+  name: '- Girls'
+  latex: breast development, menstruation, estrogen
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --girls
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_074
+  name: '- Both'
+  latex: body hair, growth spurt, acne, emotional changes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --both
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_075
+  name: '- Producers'
+  latex: plants (make food)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --producers
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_076
+  name: '- Consumers'
+  latex: herbivores (primary), carnivores (secondary), omnivores
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --consumers
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_077
+  name: '- Decomposers'
+  latex: bacteria, fungi (break down dead matter)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --decomposers
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_078
+  name: '- Food web'
+  latex: interconnected food chains
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --food-web
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c1_c8_079
+  name: '- Pyramid of numbers'
+  latex: fewer organisms at top
+  variables: []
+  preconditions: []
+  grade_range:
+  - class1
+  - class2
+  - class3
+  - class4
+  - class5
+  - class6
+  - class7
+  - class8
+  chapter: 'C6-C8: SIMPLE FORMULAS AND REFERENCE'
+  subject: biology
+  concept_tags:
+  - --pyramid-of-numbers
+  - c6-c8:-simple-formulas-and-ref
+  related_formulas: []
+  source: cisce/bio_formula_bank_c1_c8.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_001
+  name: '- Nucleus'
+  latex: control centre, contains DNA + nucleolus
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --nucleus
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_002
+  name: '- Mitochondria'
+  latex: power house, ATP production, cellular res\piration
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --mitochondria
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_003
+  name: '- Ribosomes'
+  latex: protein synthesis
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --ribosomes
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_004
+  name: '- Golgi bodies'
+  latex: packaging and transport
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --golgi-bodies
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_005
+  name: '- Endoplasmic reticulum'
+  latex: rough (protein), smooth (li\pid)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --endoplasmic-reticulum
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_006
+  name: '- Lysosomes'
+  latex: suicide bags, digestive enzymes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --lysosomes
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_007
+  name: '- Plastids'
+  latex: chloroplasts (photosynthesis), chromoplasts (colour), leucoplasts (storage)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --plastids
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_008
+  name: '- Vacuole'
+  latex: storage, turgor pressure (tonoplast membrane)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --vacuole
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_009
+  name: '- Centrosome'
+  latex: animal cells only, s\pindle formation
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --centrosome
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_010
+  name: '- Prokaryotic'
+  latex: no nuclear membrane, no membrane-bound organelles (bacteria)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --prokaryotic
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_011
+  name: '- Eukaryotic'
+  latex: true nucleus, membrane-bound organelles (plants, animals, fungi, protists)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: CELL BIOLOGY
+  subject: biology
+  concept_tags:
+  - --eukaryotic
+  - cell-biology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_012
+  name: Carbon dioxide + Water
+  latex: Carbon dioxide + Water ->(Sunlight, Chlorophyll)-> Glucose + Oxygen
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - carbon-dioxide-+-water
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_013
+  name: 6CO_2 + 6H_2O
+  latex: 6CO_2 + 6H_2O ->(Sunlight, Chlorophyll)-> C_6H_1_2O_6 + 6O_2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - 6co_2-+-6h_2o
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_014
+  name: Raw materials
+  latex: CO_2 (from air via stomata), H_2O (from soil via roots)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - raw-materials
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_015
+  name: Products
+  latex: C_6H_1_2O_6 (glucose), O_2 (released through stomata)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - products
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_016
+  name: Conditions
+  latex: sunlight (energy source), chlorophyll (catalyst)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - conditions
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_017
+  name: '- Light intensity'
+  latex: rate increases with light (to a point)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - --light-intensity
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_018
+  name: '- CO_2 concentration'
+  latex: rate increases with CO_2 (to a point)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - --co_2-concentration
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_019
+  name: '- Temperature'
+  latex: optimum 25-35 ^{\circ} C for most plants
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - --temperature
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_020
+  name: '- Water'
+  latex: essential raw material
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - --water
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_021
+  name: '- Chlorophyll'
+  latex: essential \pigment
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: PHOTOSYNTHESIS
+  subject: biology
+  concept_tags:
+  - --chlorophyll
+  - photosynthesis
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_022
+  name: Glucose + Oxygen
+  latex: Glucose + Oxygen -> Carbon dioxide + Water + Energy
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - glucose-+-oxygen
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_023
+  name: C_6H_1_2O_6 + 6O_2
+  latex: C_6H_1_2O_6 + 6O_2 -> 6CO_2 + 6H_2O + 38 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - c_6h_1_2o_6-+-6o_2
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_024
+  name: Glucose
+  latex: Glucose -> Lactic acid + 2 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - glucose
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_025
+  name: Anaerobic respiration (in yeast / fermentation)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - anaerobic-respiration-(in-yeas
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_026
+  name: Glucose
+  latex: Glucose -> Ethanol + CO_2 + 2 ATP
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - glucose
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_027
+  name: RQ
+  latex: CO_2 produced / O_2 consumed
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - rq
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_028
+  name: Carbohydrates
+  latex: RQ = 1.0
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - carbohydrates
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_029
+  name: Fats
+  latex: RQ ~= 0.7
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - fats
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_030
+  name: Proteins
+  latex: RQ ~= 0.8
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: RESPIRATION
+  subject: biology
+  concept_tags:
+  - proteins
+  - respiration
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_031
+  name: '- Monohybrid cross (F2)'
+  latex: 3:1 phenotype, 1:2:1 genotype
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --monohybrid-cross-(f2)
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_032
+  name: '- Dihybrid cross (F2)'
+  latex: 9:3:3:1 phenotype
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --dihybrid-cross-(f2)
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_033
+  name: '- Test cross'
+  latex: dominant phenotype x recessive -> 1:1 if heterozygous, all dominant if homozygous
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --test-cross
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_034
+  name: '- Males'
+  latex: XY (produce X and Y sperm, 50:50)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --males
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_035
+  name: '- Females'
+  latex: XX (produce X eggs only)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --females
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_036
+  name: '- Sex ratio'
+  latex: '50% male : 50% female'
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --sex-ratio
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_037
+  name: '- P(event)'
+  latex: favourable outcomes / total outcomes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --p(event)
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_038
+  name: '- Monohybrid F2'
+  latex: P(dominant) = 3/4, P(recessive) = 1/4
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --monohybrid-f2
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_039
+  name: '- Dihybrid F2'
+  latex: P(double dominant) = 9/16
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: GENETICS (C10)
+  subject: biology
+  concept_tags:
+  - --dihybrid-f2
+  - genetics-(c10)
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_040
+  name: '- Pyramid of numbers'
+  latex: count of organisms at each trophic level
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --pyramid-of-numbers
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_041
+  name: '- Pyramid of biomass'
+  latex: total dry weight at each level
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --pyramid-of-biomass
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_042
+  name: '- Pyramid of energy'
+  latex: energy at each level (always upright, decreases upward)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --pyramid-of-energy
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_043
+  name: '- Example'
+  latex: 10,000 kJ (plants) -> 1,000 kJ (herbivores) -> 100 kJ (carnivores)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --example
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_044
+  name: '- Exponential'
+  latex: N(t) = N_0 x e**(rt) (unlimited growth)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --exponential
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_045
+  name: '- Carrying capacity (K)'
+  latex: maximum population an environment can support
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --carrying-capacity-(k)
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_046
+  name: '- Species richness'
+  latex: number of species in an area
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --species-richness
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_047
+  name: '- Species evenness'
+  latex: relative abundance of each species
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: ECOLOGY
+  subject: biology
+  concept_tags:
+  - --species-evenness
+  - ecology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_048
+  name: '- Cardiac cycle'
+  latex: ~0.8 seconds per beat
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --cardiac-cycle
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_049
+  name: '- Heart rate'
+  latex: 72 beats/min (average adult)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --heart-rate
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_050
+  name: '- Cardiac output'
+  latex: stroke volume x heart rate
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --cardiac-output
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_051
+  name: '- Blood pressure'
+  latex: systolic (120 mmHg) / diastolic (80 mmHg)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --blood-pressure
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_052
+  name: '- Normal BP'
+  latex: 120/80 mmHg
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --normal-bp
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_053
+  name: '- RBC count'
+  latex: 4.5-5.5 million/muL (male), 4-5 million/muL (female)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --rbc-count
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_054
+  name: '- WBC count'
+  latex: 4,000-11,000/muL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --wbc-count
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_055
+  name: '- Platelet count'
+  latex: 150,000-400,000/muL
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --platelet-count
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_056
+  name: '- Blood groups'
+  latex: A, B, AB, O (AB = universal reci\pient, O = universal donor)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --blood-groups
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_057
+  name: '- Rh factor'
+  latex: Rh+ (85%), Rh- (15%)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --rh-factor
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_058
+  name: '- Nephron'
+  latex: basic unit of kidney (~1 million per kidney)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --nephron
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_059
+  name: '- Glomerular filtration rate (GFR)'
+  latex: ~125 mL/min
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --glomerular-filtration-rate-(
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_060
+  name: '- Urine formation'
+  latex: ultrafiltration -> selective reabsorption -> tubular secretion
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --urine-formation
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_061
+  name: '- Resting potential'
+  latex: -70 mV (inside negative)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --resting-potential
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_062
+  name: '- Action potential'
+  latex: +30 mV (depolarization)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --action-potential
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_063
+  name: '- Nerve impulse speed'
+  latex: 0.1-120 m/s (myelinated faster)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --nerve-impulse-speed
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_064
+  name: '- Synapse'
+  latex: gap between neurons (neurotransmitter crosses)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --synapse
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_065
+  name: '- Accommodation'
+  latex: ciliary muscles adjust lens for near/far vision
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --accommodation
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_066
+  name: '- Near vision'
+  latex: lens thickens, ciliary muscles contract
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --near-vision
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_067
+  name: '- Far vision'
+  latex: lens thins, ciliary muscles relax
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --far-vision
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_068
+  name: '- Normal vision'
+  latex: 20/20 (6/6 metric)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: HUMAN PHYSIOLOGY
+  subject: biology
+  concept_tags:
+  - --normal-vision
+  - human-physiology
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_069
+  name: '- Innate (non-specific)'
+  latex: skin, mucus, stomach acid, phagocytes
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: DISEASES AND HEALTH
+  subject: biology
+  concept_tags:
+  - --innate-(non-specific)
+  - diseases-and-health
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_070
+  name: '- Acquired (specific)'
+  latex: antibodies, B-cells, T-cells
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: DISEASES AND HEALTH
+  subject: biology
+  concept_tags:
+  - --acquired-(specific)
+  - diseases-and-health
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_071
+  name: '- Active'
+  latex: body produces own antibodies (infection or vaccine)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: DISEASES AND HEALTH
+  subject: biology
+  concept_tags:
+  - --active
+  - diseases-and-health
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_c9_c10_072
+  name: '- Passive'
+  latex: antibodies received from outside (mother to baby, antiserum)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  chapter: DISEASES AND HEALTH
+  subject: biology
+  concept_tags:
+  - --passive
+  - diseases-and-health
+  related_formulas: []
+  source: cisce/bio_formula_bank_c9_c10.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_001
+  name: Classes
+  latex: 1-8 (Primary and Middle School)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - classes
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_002
+  name: Content
+  latex: Key facts, definitions, plant/animal basics, human body systems, food chains,
+    photosynthesis word equation, res\piration equations, blood composition, heart
+    structure, nervous system, five-kingdom classification, tissues, endocrine glands,
+    ecosystem basics
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - content
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_003
+  name: Key items
+  latex: Photosynthesis word equation, res\piration (aerobic/anaerobic), blood components,
+    heart chambers, reflex arc, five kingdoms, tissue types
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - key-items
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_004
+  name: Classes
+  latex: 9-10 (ICSE Board)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - classes
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_005
+  name: Content
+  latex: Cell organelles, photosynthesis (balanced equation), res\piration (glycolysis/Krebs),
+    genetics (Mendel ratios, sex determination), ecology (10% law, pyramids), human
+    physiology (heart, blood, kidney, nervous system, eye), immunity, vaccines
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - content
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_006
+  name: Key items
+  latex: 6CO_2+6H_2O->C_6H_1_2O_6+6O_2, Mendel 3:1 and 9:3:3:1, 10% law, cardiac output,
+    blood groups, GFR, nerve impulse, RQ
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - key-items
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_007
+  name: Classes
+  latex: 11-12 (ISC Board)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - classes
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_008
+  name: Content
+  latex: Photosynthesis (light/dark reactions, C4, photores\piration), res\piration
+    (glycolysis, Krebs, ETS, 38 ATP), genetics (Hardy-Weinberg, chi-square, DNA structure,
+    genetic code), ecology (population models, diversity indices), human physiology
+    (cardiac output, GFR, nerve conduction, O_2/CO_2 transport), enzymes (Michaelis-Menten)
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - content
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_009
+  name: Key items
+  latex: Calvin cycle, 38 ATP, Hardy-Weinberg p**2+2pq+q**2=1, chi**2=\Sigma(O-E)**2/E,
+    Shannon index, logistic growth dN/dt=rN(1-N/K), Michaelis-Menten v=Vmax[S]/(Km+[S])
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FILE INDEX
+  subject: biology
+  concept_tags:
+  - key-items
+  - file-index
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_010
+  name: '- Plant parts'
+  latex: '- Plant parts -> c1_bio_006-009, c2_bio_002-004'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --plant-parts
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_011
+  name: '- Photosynthesis (intro)'
+  latex: '- Photosynthesis (intro) -> c4_bio_008, c7_bio_005'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --photosynthesis-(intro)
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_012
+  name: '- Respiration'
+  latex: '- Res\piration -> c6_bio_006-007, c7_bio_006'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --respiration
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_013
+  name: '- Blood'
+  latex: '- Blood -> c5_bio_001-003, c6_bio_009, c8_bio_005'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --blood
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_014
+  name: '- Heart'
+  latex: '- Heart -> c5_bio_001, c8_bio_005-006'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --heart
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_015
+  name: '- Nervous system'
+  latex: '- Nervous system -> c4_bio_013, c6_bio_018, c8_bio_008'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --nervous-system
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_016
+  name: '- Classification'
+  latex: '- Classification -> c7_bio_001-005, c7_bio_024-025'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --classification
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_017
+  name: '- Tissues'
+  latex: '- Tissues -> c7_bio_001, c7_bio_012-021'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --tissues
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_018
+  name: '- Endocrine'
+  latex: '- Endocrine -> c7_bio_019, c8_bio_003'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --endocrine
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_019
+  name: '- Cell biology'
+  latex: '- Cell biology -> c9_bio_001-002, c9_bio_023-024'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --cell-biology
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_020
+  name: '- Photosynthesis'
+  latex: '- Photosynthesis -> c9_bio_002'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --photosynthesis
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_021
+  name: '- Genetics'
+  latex: '- Genetics -> c10_bio (Mendel, sex determination)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --genetics
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_022
+  name: '- Ecology'
+  latex: '- Ecology -> c9_bio_017-018, c10_bio (ecosystem, biodiversity)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --ecology
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_023
+  name: '- Human physiology'
+  latex: '- Human physiology -> c9_bio (digestion, res\piration, circulation, excretion,
+    nervous)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --human-physiology
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_024
+  name: '- Immunity'
+  latex: '- Immunity -> c9_bio_014, c10_bio'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --immunity
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_025
+  name: '- Photosynthesis (detailed)'
+  latex: '- Photosynthesis (detailed) -> c11_bio (light/dark reactions, C4, factors)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --photosynthesis-(detailed)
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_026
+  name: '- Respiration (detailed)'
+  latex: '- Res\piration (detailed) -> c11_bio (glycolysis, Krebs, ETS)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --respiration-(detailed)
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_027
+  name: '- Genetics'
+  latex: '- Genetics -> c12_bio (Mendel, linkage, mutation, DNA, gene expression)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --genetics
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_028
+  name: '- Ecology'
+  latex: '- Ecology -> c12_bio (population, biodiversity, ecosystem)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --ecology
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_029
+  name: '- Enzymes'
+  latex: '- Enzymes -> c11_bio (biomolecules, enzymes)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --enzymes
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_030
+  name: '- Human physiology'
+  latex: '- Human physiology -> c11_bio (digestion, breathing, circulation, excretion,
+    locomotion, neural, endocrine)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: CROSS-REFERENCE TO ENRICHMENT NODES
+  subject: biology
+  concept_tags:
+  - --human-physiology
+  - cross-reference-to-enrichment-
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_031
+  name: '- srs_flashcards/bio_flashcards_c1_c8.tsv (C1-C8 items)'
+  latex: '- srs_flashcards/bio_flashcards_c1_c8.tsv (C1-C8 items)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FLASHCARD CROSS-CHECK
+  subject: biology
+  concept_tags:
+  - --srs_flashcards-bio_flashcard
+  - flashcard-cross-check
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_032
+  name: '- srs_flashcards/bio_flashcards_c9_c10.tsv (C9-C10 items)'
+  latex: '- srs_flashcards/bio_flashcards_c9_c10.tsv (C9-C10 items)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FLASHCARD CROSS-CHECK
+  subject: biology
+  concept_tags:
+  - --srs_flashcards-bio_flashcard
+  - flashcard-cross-check
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_033
+  name: '- srs_flashcards/bio_flashcards_c11_c12.tsv (C11-C12 items)'
+  latex: '- srs_flashcards/bio_flashcards_c11_c12.tsv (C11-C12 items)'
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FLASHCARD CROSS-CHECK
+  subject: biology
+  concept_tags:
+  - --srs_flashcards-bio_flashcard
+  - flashcard-cross-check
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE
+- formula_id: CISCE_BIOL_bio_formula_bank_index_034
+  name: Verify
+  latex: count formulas in each bank file, count matching flashcards, ensure 1:1 coverage.
+  variables: []
+  preconditions: []
+  grade_range:
+  - classAll
+  chapter: FLASHCARD CROSS-CHECK
+  subject: biology
+  concept_tags:
+  - verify
+  - flashcard-cross-check
+  related_formulas: []
+  source: cisce/bio_formula_bank_index.marker
+  board: CISCE

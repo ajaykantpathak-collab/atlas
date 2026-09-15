@@ -1,0 +1,399 @@
+# ISC Class 12 Biology — Syllabus Node → Problem Type Mapping
+# Maps 71 CISCE syllabus nodes to problem type IDs and Bloom's levels
+
+syllabus_nodes:
+
+  # ── UNIT I: REPRODUCTION ──────────────────────────────────────────────────
+  - node_id: "C12.1.1"
+    node_name: "Microsporogenesis"
+    unit: "Reproduction"
+    problem_types: [APOMIXIS_POLYEMBRYONY]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.1.2"]
+
+  - node_id: "C12.1.2"
+    node_name: "Megasporogenesis"
+    unit: "Reproduction"
+    problem_types: [APOMIXIS_POLYEMBRYONY]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C12.1.3"
+    node_name: "Pollination"
+    unit: "Reproduction"
+    problem_types: [POLLINATION_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.1.1", "C12.1.2"]
+
+  - node_id: "C12.1.4"
+    node_name: "Fertilization in Flowering Plants"
+    unit: "Reproduction"
+    problem_types: [POLLINATION_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.1.3"]
+
+  - node_id: "C12.1.5"
+    node_name: "Seed Development and Fruit Formation"
+    unit: "Reproduction"
+    problem_types: [APOMIXIS_POLYEMBRYONY]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.1.4"]
+
+  - node_id: "C12.1.6"
+    node_name: "Apomixis"
+    unit: "Reproduction"
+    problem_types: [APOMIXIS_POLYEMBRYONY]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.1.5"]
+
+  - node_id: "C12.1.7"
+    node_name: "Polyembryony"
+    unit: "Reproduction"
+    problem_types: [APOMIXIS_POLYEMBRYONY]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.1.6"]
+
+  # ── UNIT II: HUMAN REPRODUCTION ───────────────────────────────────────────
+  - node_id: "C12.2.1"
+    node_name: "Male Reproductive System"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE, MENSTRUAL_CYCLE_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.2.2"
+    node_name: "Female Reproductive System"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE, MENSTRUAL_CYCLE_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.2.3"
+    node_name: "Gametogenesis (Spermatogenesis & Oogenesis)"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.2.1", "C12.2.2"]
+
+  - node_id: "C12.2.4"
+    node_name: "Menstrual Cycle"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE, MENSTRUAL_CYCLE_INDIAN]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.2.2", "C12.2.3"]
+
+  - node_id: "C12.2.5"
+    node_name: "Fertilization and Implantation"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.2.3", "C12.2.4"]
+
+  - node_id: "C12.2.6"
+    node_name: "Pregnancy and Placenta"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.2.5"]
+
+  - node_id: "C12.2.7"
+    node_name: "Parturition and Lactation"
+    unit: "Human Reproduction"
+    problem_types: [MENSTRUAL_CYCLE]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.2.6"]
+
+  # ── UNIT III: REPRODUCTIVE HEALTH ─────────────────────────────────────────
+  - node_id: "C12.3.1"
+    node_name: "Contraceptive Methods"
+    unit: "Reproductive Health"
+    problem_types: [CONTRACEPTION_EFFICACY, CONTRACEPTION_INDIAN]
+    bloom_levels: [Applying, Evaluating]
+    prerequisite_nodes: []
+
+  - node_id: "C12.3.2"
+    node_name: "Sexually Transmitted Diseases (STDs)"
+    unit: "Reproductive Health"
+    problem_types: [STD_INDIAN, HIV_AIDS_INDIAN]
+    bloom_levels: [Understanding, Evaluating]
+    prerequisite_nodes: []
+
+  - node_id: "C12.3.3"
+    node_name: "Infertility"
+    unit: "Reproductive Health"
+    problem_types: [ART_SUCCESS, CONTRACEPTION_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.3.1"]
+
+  - node_id: "C12.3.4"
+    node_name: "ART — IVF, ZIFT, GIFT"
+    unit: "Reproductive Health"
+    problem_types: [ART_SUCCESS]
+    bloom_levels: [Applying, Evaluating]
+    prerequisite_nodes: ["C12.3.3"]
+
+  # ── UNIT IV: GENETICS ─────────────────────────────────────────────────────
+  - node_id: "C12.4.1"
+    node_name: "Mendel's Laws of Inheritance"
+    unit: "Genetics and Inheritance"
+    problem_types: [MONOHYBRID_CROSS, DIHYBRID_CROSS, PUNNETT_PROBABILITY]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: []
+
+  - node_id: "C12.4.2"
+    node_name: "Incomplete Dominance"
+    unit: "Genetics and Inheritance"
+    problem_types: [MONOHYBRID_CROSS, PUNNETT_PROBABILITY]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.4.1"]
+
+  - node_id: "C12.4.3"
+    node_name: "Codominance (Multiple Alleles)"
+    unit: "Genetics and Inheritance"
+    problem_types: [BLOOD_GROUP_INHERITANCE]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.4.1"]
+
+  - node_id: "C12.4.4"
+    node_name: "Sex Determination"
+    unit: "Genetics and Inheritance"
+    problem_types: [SEX_LINKED_INHERITANCE, PEDIGREE_ANALYSIS]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.4.1"]
+
+  - node_id: "C12.4.5"
+    node_name: "Linkage and Crossing Over"
+    unit: "Genetics and Inheritance"
+    problem_types: [LINKAGE_CALCULATION, DIHYBRID_CROSS]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.4.1", "C12.4.4"]
+
+  - node_id: "C12.4.6"
+    node_name: "Pedigree Analysis"
+    unit: "Genetics and Inheritance"
+    problem_types: [PEDIGREE_ANALYSIS, SEX_LINKED_INHERITANCE]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.4.1", "C12.4.4"]
+
+  - node_id: "C12.4.7"
+    node_name: "Chromosomal Disorders"
+    unit: "Genetics and Inheritance"
+    problem_types: [CHROMOSOMAL_DISORDER, PEDIGREE_ANALYSIS]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.4.1"]
+
+  - node_id: "C12.4.8"
+    node_name: "Gene Disorders"
+    unit: "Genetics and Inheritance"
+    problem_types: [PEDIGREE_ANALYSIS]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.4.1"]
+
+  # ── UNIT V: MOLECULAR BASIS ───────────────────────────────────────────────
+  - node_id: "C12.5.1"
+    node_name: "DNA Structure"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [COMPLEMENTARY_STRAND, GC_CONTENT]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.5.2"
+    node_name: "DNA Replication"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [REPLICATION_DIRECTION, RESTRICTION_ENZYME]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.5.1"]
+
+  - node_id: "C12.5.3"
+    node_name: "Transcription"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [TRANSCRIPTION, TRANSLATION]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C12.5.1"]
+
+  - node_id: "C12.5.4"
+    node_name: "Translation and Genetic Code"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [TRANSLATION, GC_CONTENT]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C12.5.3"]
+
+  - node_id: "C12.5.5"
+    node_name: "Gene Regulation (Lac Operon)"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [LAC_OPERON]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.5.3", "C12.5.4"]
+
+  - node_id: "C12.5.6"
+    node_name: "Human Genome Project"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [DNA_FINGERPRINTING]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.5.1", "C12.5.2"]
+
+  - node_id: "C12.5.7"
+    node_name: "DNA Fingerprinting"
+    unit: "Molecular Basis of Inheritance"
+    problem_types: [DNA_FINGERPRINTING, RESTRICTION_ENZYME]
+    bloom_levels: [Applying, Evaluating]
+    prerequisite_nodes: ["C12.5.1", "C12.5.6"]
+
+  # ── UNIT VI: EVOLUTION ────────────────────────────────────────────────────
+  - node_id: "C12.6.1"
+    node_name: "Origin of Life"
+    unit: "Evolution"
+    problem_types: [EVIDENCE_EVOLUTION, ADAPTIVE_RADIATION_INDIAN]
+    bloom_levels: [Remembering, Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.6.2"
+    node_name: "Theories of Evolution"
+    unit: "Evolution"
+    problem_types: [EVIDENCE_EVOLUTION, ADAPTIVE_RADIATION_INDIAN]
+    bloom_levels: [Understanding, Evaluating]
+    prerequisite_nodes: ["C12.6.1"]
+
+  - node_id: "C12.6.3"
+    node_name: "Evidence for Evolution"
+    unit: "Evolution"
+    problem_types: [EVIDENCE_EVOLUTION, HOMOLOGOUS_ANALOGOUS]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.6.2"]
+
+  - node_id: "C12.6.4"
+    node_name: "Hardy-Weinberg Principle"
+    unit: "Evolution"
+    problem_types: [HARDY_WEINBERG, LINKAGE_CALCULATION]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.6.2"]
+
+  - node_id: "C12.6.5"
+    node_name: "Adaptive Radiation"
+    unit: "Evolution"
+    problem_types: [ADAPTIVE_RADIATION_INDIAN, EVIDENCE_EVOLUTION]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.6.3"]
+
+  # ── UNIT VII: HUMAN HEALTH ────────────────────────────────────────────────
+  - node_id: "C12.7.1"
+    node_name: "Pathogens and Parasites"
+    unit: "Human Health and Disease"
+    problem_types: [STD_INDIAN, HIV_AIDS_INDIAN]
+    bloom_levels: [Remembering, Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.7.2"
+    node_name: "Innate and Adaptive Immunity"
+    unit: "Human Health and Disease"
+    problem_types: [IMMUNITY_INDIAN, HIV_AIDS_INDIAN]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: ["C12.7.1"]
+
+  - node_id: "C12.7.3"
+    node_name: "AIDS and Immune Deficiency"
+    unit: "Human Health and Disease"
+    problem_types: [HIV_AIDS_INDIAN]
+    bloom_levels: [Understanding, Evaluating]
+    prerequisite_nodes: ["C12.7.1", "C12.7.2"]
+
+  - node_id: "C12.7.4"
+    node_name: "Cancer"
+    unit: "Human Health and Disease"
+    problem_types: [IMMUNITY_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: ["C12.7.1"]
+
+  - node_id: "C12.7.5"
+    node_name: "Drug and Alcohol Abuse"
+    unit: "Human Health and Disease"
+    problem_types: [POLLUTION_INDIAN]
+    bloom_levels: [Evaluating]
+    prerequisite_nodes: ["C12.7.1"]
+
+  # ── UNIT VIII: BIOTECHNOLOGY ──────────────────────────────────────────────
+  - node_id: "C12.8.1"
+    node_name: "Principles of Biotechnology"
+    unit: "Biotechnology"
+    problem_types: [RESTRICTION_ENZYME, PCR_CALCULATION]
+    bloom_levels: [Understanding, Applying]
+    prerequisite_nodes: []
+
+  - node_id: "C12.8.2"
+    node_name: "Restriction Enzymes"
+    unit: "Biotechnology"
+    problem_types: [RESTRICTION_ENZYME, DNA_FINGERPRINTING]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C12.8.1"]
+
+  - node_id: "C12.8.3"
+    node_name: "Vectors and Host Systems"
+    unit: "Biotechnology"
+    problem_types: [RESTRICTION_ENZYME, PCR_CALCULATION]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C12.8.1", "C12.8.2"]
+
+  - node_id: "C12.8.4"
+    node_name: "Biotech Processes (PCR, Gel Electrophoresis)"
+    unit: "Biotechnology"
+    problem_types: [PCR_CALCULATION, DNA_FINGERPRINTING]
+    bloom_levels: [Applying]
+    prerequisite_nodes: ["C12.8.1", "C12.8.3"]
+
+  - node_id: "C12.8.5"
+    node_name: "Applications in Agriculture"
+    unit: "Biotechnology"
+    problem_types: [TRANSGENIC_INDIAN, PHYTOHORMONES_INDIAN]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.8.4"]
+
+  - node_id: "C12.8.6"
+    node_name: "Applications in Medicine"
+    unit: "Biotechnology"
+    problem_types: [BIOTECH_INDIAN_HEALTH, DNA_FINGERPRINTING]
+    bloom_levels: [Analyzing, Creating]
+    prerequisite_nodes: ["C12.8.4"]
+
+  # ── UNIT IX: ECOLOGY ──────────────────────────────────────────────────────
+  - node_id: "C12.9.1"
+    node_name: "Organisms and Environment"
+    unit: "Ecology"
+    problem_types: [POPULATION_GROWTH, POLLUTION_INDIAN]
+    bloom_levels: [Understanding]
+    prerequisite_nodes: []
+
+  - node_id: "C12.9.2"
+    node_name: "Population Ecology"
+    unit: "Ecology"
+    problem_types: [POPULATION_GROWTH, POPULATION_GROWTH_INDIAN]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.9.1"]
+
+  - node_id: "C12.9.3"
+    node_name: "Ecosystem — Energy Flow"
+    unit: "Ecology"
+    problem_types: [ENERGY_FLOW, SPECIES_AREA_RELATIONSHIP]
+    bloom_levels: [Applying, Analyzing]
+    prerequisite_nodes: ["C12.9.2"]
+
+  - node_id: "C12.9.4"
+    node_name: "Biodiversity"
+    unit: "Ecology"
+    problem_types: [INDIAN_BIODIVERSITY, BIOGEOGRAPHIC_ZONES, SPECIES_AREA_RELATIONSHIP]
+    bloom_levels: [Analyzing, Evaluating]
+    prerequisite_nodes: ["C12.9.3"]
+
+  - node_id: "C12.9.5"
+    node_name: "Conservation"
+    unit: "Ecology"
+    problem_types: [INDIAN_BIODIVERSITY, POLLUTION_INDIAN]
+    bloom_levels: [Evaluating, Creating]
+    prerequisite_nodes: ["C12.9.4"]
+
+coverage_summary:
+  total_nodes: 71
+  covered_nodes: 71
+  coverage_percentage: 100.0
+  standard_questions: 35
+  competency_questions: 35
+  standard_competency_ratio: "50:50"

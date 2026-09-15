@@ -1,0 +1,895 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Sequences and Series",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh101.txt",
+ "concepts": [
+  {
+   "id": "kemh108.SECTION.8.2.1",
+   "title": "Evaluating a Linear General Term of a Sequence",
+   "section": "8.2",
+   "definition": "Evaluating specific terms of a sequence by substituting the term index into the given algebraic formula for the general term.",
+   "formula": "term = coefficient * n + constant",
+   "key_idea": "Substitute the term index into the explicit formula.",
+   "textbook_ref": "kemh108.txt lines 120-140",
+   "question_patterns": [
+    "find the term of a sequence with general formula",
+    "calculate the nth term of a linear sequence",
+    "what is the term at index n for the sequence",
+    "determine the value of the term for a given formula",
+    "Explain the method of Evaluating a Linear General Term of a Sequence."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply coefficient by n",
+     "explain": "Multiply the coefficient of the linear term by the term index n.",
+     "compute": "coefficient * n"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "Add the constant term to the product to find the nth term.",
+     "compute": "term_product + constant"
+    },
+    {
+     "step": 3,
+     "action": "verify the term matches the sequence formula at index n",
+     "explain": "Confirm that substituting n into the general term formula yields the computed term value.",
+     "compute": "term_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving evaluating a linear general term of a sequence.",
+     "solution": "Step 1: multiply coefficient by n. Step 2: add the constant. Step 3: verify the term matches the sequence formula at index n. Working: coefficient * n, term_product + constant, term_value.",
+     "answer": "Evaluating a Linear General Term of a Sequence applied step by step gives the required result."
+    },
+    {
+     "question": "Apply evaluating a linear general term of a sequence to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply coefficient by n. Step 2: add the constant. Step 3: verify the term matches the sequence formula at index n. Working: coefficient * n, term_product + constant, term_value.",
+     "answer": "The method of evaluating a linear general term of a sequence leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.1",
+   "title": "General Term of a Geometric Progression",
+   "section": "8.4.1",
+   "definition": "The nth term of a geometric progression is found by multiplying the first term by the common ratio raised to the power of one less than the term index.",
+   "formula": "a_n = first_term * common_ratio ** (n - 1)",
+   "key_idea": "The general term of a G.P. is a_n = a * r^(n-1).",
+   "textbook_ref": "kemh108.txt lines 210-235",
+   "question_patterns": [
+    "find the nth term of a geometric progression",
+    "calculate the term of a GP given first term and ratio",
+    "what is the general term of the geometric sequence",
+    "determine the value of the nth term in a GP",
+    "Explain the method of General Term of a Geometric Progression."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the power of the common ratio",
+     "explain": "The power is n - 1.",
+     "compute": "n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise common ratio to the power",
+     "explain": "Calculate common_ratio raised to (n - 1).",
+     "compute": "common_ratio ** power"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the first term",
+     "explain": "Multiply the first term by the raised ratio to get the nth term.",
+     "compute": "first_term * ratio_power"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving general term of a geometric progression.",
+     "solution": "Step 1: calculate the power of the common ratio. Step 2: raise common ratio to the power. Step 3: multiply by the first term. Working: n - 1, common_ratio ** power, first_term * ratio_power.",
+     "answer": "General Term of a Geometric Progression applied step by step gives the required result."
+    },
+    {
+     "question": "Apply general term of a geometric progression to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the power of the common ratio. Step 2: raise common ratio to the power. Step 3: multiply by the first term. Working: n - 1, common_ratio ** power, first_term * ratio_power.",
+     "answer": "The method of general term of a geometric progression leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.2",
+   "title": "Sum of First n Terms of a Geometric Progression",
+   "section": "8.4.2",
+   "definition": "The sum of the first n terms of a geometric progression with a non-unity common ratio is calculated using the ratio of the difference of the nth power of the common ratio from one to the difference of the common ratio from one, multiplied by the first term.",
+   "formula": "S_n = first_term * (common_ratio ** n - 1) / (common_ratio - 1)",
+   "key_idea": "Summing a geometric series using the first term, common ratio, and number of terms.",
+   "textbook_ref": "kemh108.txt lines 236-255",
+   "question_patterns": [
+    "find the sum of the first n terms of a GP",
+    "calculate the sum of a geometric series",
+    "what is the sum of a geometric progression up to n terms",
+    "determine the total sum of a GP",
+    "Explain the method of Sum of First n Terms of a Geometric Progression."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the numerator of the ratio",
+     "explain": "Raise the common ratio to the power of n and subtract 1.",
+     "compute": "(common_ratio ** n) - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the denominator of the ratio",
+     "explain": "Subtract 1 from the common ratio.",
+     "compute": "common_ratio - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate the sum",
+     "explain": "Multiply the first term by the numerator divided by the denominator.",
+     "compute": "first_term * numerator / denominator"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving sum of first n terms of a geometric progression.",
+     "solution": "Step 1: calculate the numerator of the ratio. Step 2: calculate the denominator of the ratio. Step 3: calculate the sum. Working: (common_ratio ** n) - 1, common_ratio - 1, first_term * numerator / denominator.",
+     "answer": "Sum of First n Terms of a Geometric Progression applied step by step gives the required result."
+    },
+    {
+     "question": "Apply sum of first n terms of a geometric progression to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the numerator of the ratio. Step 2: calculate the denominator of the ratio. Step 3: calculate the sum. Working: (common_ratio ** n) - 1, common_ratio - 1, first_term * numerator / denominator.",
+     "answer": "The method of sum of first n terms of a geometric progression leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.3",
+   "title": "Geometric Mean of Two Positive Numbers",
+   "section": "8.4.3",
+   "definition": "The geometric mean of two positive numbers is the square root of their product, forming a three-term geometric progression.",
+   "formula": "G = sqrt(a * b)",
+   "key_idea": "Square root of the product of two positive numbers.",
+   "textbook_ref": "kemh108.txt lines 315-330",
+   "question_patterns": [
+    "find the geometric mean of two numbers",
+    "calculate the GM of a and b",
+    "what is the geometric mean between two positive values",
+    "determine the geometric mean of",
+    "Explain the method of Geometric Mean of Two Positive Numbers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "Find the product of the two positive numbers a and b.",
+     "compute": "a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root of the product",
+     "explain": "The geometric mean is the square root of the product.",
+     "compute": "sqrt(product)"
+    },
+    {
+     "step": 3,
+     "action": "verify the mean forms a three-term geometric progression",
+     "explain": "Confirm that a, G, b are in geometric progression with common ratio G / a equal to b / G.",
+     "compute": "geometric_mean"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving geometric mean of two positive numbers.",
+     "solution": "Step 1: multiply the two numbers. Step 2: take the square root of the product. Step 3: verify the mean forms a three-term geometric progression. Working: a * b, sqrt(product), geometric_mean.",
+     "answer": "Geometric Mean of Two Positive Numbers applied step by step gives the required result."
+    },
+    {
+     "question": "Apply geometric mean of two positive numbers to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply the two numbers. Step 2: take the square root of the product. Step 3: verify the mean forms a three-term geometric progression. Working: a * b, sqrt(product), geometric_mean.",
+     "answer": "The method of geometric mean of two positive numbers leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.5.1",
+   "title": "Arithmetic Mean of Two Positive Numbers",
+   "section": "8.5",
+   "definition": "The arithmetic mean of two numbers is half of their sum, representing their average value.",
+   "formula": "A = (a + b) / 2",
+   "key_idea": "Average of two numbers.",
+   "textbook_ref": "kemh108.txt lines 331-340",
+   "question_patterns": [
+    "find the arithmetic mean of two numbers",
+    "calculate the AM of a and b",
+    "what is the average of two positive numbers",
+    "determine the arithmetic mean between",
+    "Explain the method of Arithmetic Mean of Two Positive Numbers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two numbers",
+     "explain": "Find the sum of the two positive numbers a and b.",
+     "compute": "a + b"
+    },
+    {
+     "step": 2,
+     "action": "divide the sum by 2",
+     "explain": "The arithmetic mean is half of the sum.",
+     "compute": "sum_val / 2"
+    },
+    {
+     "step": 3,
+     "action": "verify the mean lies midway between a and b",
+     "explain": "Confirm that the arithmetic mean is equidistant from both a and b, satisfying the definition of an average.",
+     "compute": "arithmetic_mean"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving arithmetic mean of two positive numbers.",
+     "solution": "Step 1: add the two numbers. Step 2: divide the sum by 2. Step 3: verify the mean lies midway between a and b. Working: a + b, sum_val / 2, arithmetic_mean.",
+     "answer": "Arithmetic Mean of Two Positive Numbers applied step by step gives the required result."
+    },
+    {
+     "question": "Apply arithmetic mean of two positive numbers to a fresh example and interpret the result.",
+     "solution": "Step 1: add the two numbers. Step 2: divide the sum by 2. Step 3: verify the mean lies midway between a and b. Working: a + b, sum_val / 2, arithmetic_mean.",
+     "answer": "The method of arithmetic mean of two positive numbers leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.5.2",
+   "title": "Relationship Between A.M. and G.M.",
+   "section": "8.5",
+   "definition": "For any two positive real numbers, their arithmetic mean is always greater than or equal to their geometric mean.",
+   "formula": "A >= G",
+   "key_idea": "The arithmetic mean of positive numbers is never less than their geometric mean.",
+   "textbook_ref": "kemh108.txt lines 335-345",
+   "question_patterns": [
+    "verify that the AM is greater than or equal to the GM",
+    "show that the arithmetic mean exceeds or equals the geometric mean",
+    "prove the relationship between AM and GM for two numbers",
+    "is the arithmetic mean always larger than the geometric mean",
+    "Explain the method of Relationship Between A.M. and G.M."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the arithmetic mean",
+     "explain": "Find the arithmetic mean of the two numbers."
+    },
+    {
+     "step": 2,
+     "action": "calculate the geometric mean",
+     "explain": "Find the geometric mean of the two numbers."
+    },
+    {
+     "step": 3,
+     "action": "compare the two means",
+     "explain": "Verify that the arithmetic mean is greater than or equal to the geometric mean."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.4",
+   "title": "Common Ratio of a Geometric Progression",
+   "section": "8.4",
+   "definition": "The constant ratio obtained by dividing any term of a geometric progression by its immediately preceding term.",
+   "formula": "r = term_next / term_prev",
+   "key_idea": "Ratio of consecutive terms in a G.P.",
+   "textbook_ref": "kemh108.txt lines 195-209",
+   "question_patterns": [
+    "find the common ratio of a geometric progression",
+    "calculate the ratio of a GP given consecutive terms",
+    "what is the common ratio of the sequence",
+    "determine the common ratio between terms",
+    "Explain the method of Common Ratio of a Geometric Progression."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the next term by the previous term",
+     "explain": "The common ratio is the quotient of any term and its preceding term.",
+     "compute": "term_next / term_prev"
+    },
+    {
+     "step": 2,
+     "action": "verify the ratio is constant across consecutive term pairs",
+     "explain": "Check that dividing other consecutive terms yields the same common ratio, confirming a valid geometric progression.",
+     "compute": "term_next2 / term_next"
+    },
+    {
+     "step": 3,
+     "action": "confirm the ratio defines a valid geometric progression",
+     "explain": "Ensure the common ratio is consistent throughout the sequence so each term is obtained by multiplying the previous term by r.",
+     "compute": "common_ratio"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving common ratio of a geometric progression.",
+     "solution": "Step 1: divide the next term by the previous term. Step 2: verify the ratio is constant across consecutive term pairs. Step 3: confirm the ratio defines a valid geometric progression. Working: term_next / term_prev, term_next2 / term_next, common_ratio.",
+     "answer": "Common Ratio of a Geometric Progression applied step by step gives the required result."
+    },
+    {
+     "question": "Apply common ratio of a geometric progression to a fresh example and interpret the result.",
+     "solution": "Step 1: divide the next term by the previous term. Step 2: verify the ratio is constant across consecutive term pairs. Step 3: confirm the ratio defines a valid geometric progression. Working: term_next / term_prev, term_next2 / term_next, common_ratio.",
+     "answer": "The method of common ratio of a geometric progression leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh108.SECTION.8.4.5",
+   "title": "Common Ratio from Two Arbitrary Terms of a G.P.",
+   "section": "8.4.1",
+   "definition": "Finding the common ratio of a geometric progression when two arbitrary terms at different positions are known.",
+   "formula": "r = (term_q / term_p) ** (1 / (q - p))",
+   "key_idea": "The ratio of two terms a_q and a_p is r^(q-p).",
+   "textbook_ref": "kemh108.txt lines 261-275",
+   "question_patterns": [
+    "find the common ratio of a GP from two non-consecutive terms",
+    "calculate the common ratio given the pth and qth terms",
+    "what is the common ratio when we know two arbitrary terms",
+    "determine the ratio of a GP from two given terms",
+    "Explain the method of Common Ratio from Two Arbitrary Terms of a G.P."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the ratio of the two terms",
+     "explain": "Divide the term at position q by the term at position p.",
+     "compute": "term_q / term_p"
+    },
+    {
+     "step": 2,
+     "action": "find the difference in their positions",
+     "explain": "Subtract position p from position q.",
+     "compute": "q - p"
+    },
+    {
+     "step": 3,
+     "action": "calculate the reciprocal of the index difference",
+     "explain": "Find 1 divided by the index difference.",
+     "compute": "1 / index_diff"
+    },
+    {
+     "step": 4,
+     "action": "calculate the common ratio",
+     "explain": "Raise the term ratio to the power of the reciprocal of the index difference.",
+     "compute": "term_ratio ** power"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving common ratio from two arbitrary terms of a g.p..",
+     "solution": "Step 1: find the ratio of the two terms. Step 2: find the difference in their positions. Step 3: calculate the reciprocal of the index difference. Step 4: calculate the common ratio. Working: term_q / term_p, q - p, 1 / index_diff, term_ratio ** power.",
+     "answer": "Common Ratio from Two Arbitrary Terms of a G.P. applied step by step gives the required result."
+    },
+    {
+     "question": "Apply common ratio from two arbitrary terms of a g.p. to a fresh example and interpret the result.",
+     "solution": "Step 1: find the ratio of the two terms. Step 2: find the difference in their positions. Step 3: calculate the reciprocal of the index difference. Step 4: calculate the common ratio. Working: term_q / term_p, q - p, 1 / index_diff, term_ratio ** power.",
+     "answer": "The method of common ratio from two arbitrary terms of a g.p. leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh108.txt lines 145-155",
+   "concept": "kemh108.SECTION.8.2.1",
+   "question_type": "compute",
+   "question_pattern": "Write the first term of the sequence defined by a_n = {coefficient}n + {constant}",
+   "extracted_variables": {
+    "coefficient": "coefficient of n in the general term formula",
+    "n": "the index of the term to find",
+    "constant": "the constant term in the formula"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply coefficient by n",
+     "explain": "Multiply the coefficient of the linear term by the term index n.",
+     "compute": "term_product = coefficient * n"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "Add the constant term to the product to find the nth term.",
+     "compute": "term_value = term_product + constant"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh108.txt lines 250-260",
+   "concept": "kemh108.SECTION.8.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the {n}th term of the G.P. with first term {first_term} and common ratio {common_ratio}",
+   "extracted_variables": {
+    "first_term": "the first term of the geometric progression",
+    "common_ratio": "the common ratio of the geometric progression",
+    "n": "the position of the term to be found"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the power of the common ratio",
+     "explain": "The power is n - 1.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise common ratio to the power",
+     "explain": "Calculate common_ratio raised to (n - 1).",
+     "compute": "ratio_power = common_ratio ** power"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the first term",
+     "explain": "Multiply the first term by the raised ratio to get the nth term.",
+     "compute": "nth_term = first_term * ratio_power"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "kemh108.txt lines 280-295",
+   "concept": "kemh108.SECTION.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {n} terms of the geometric series with first term {first_term} and common ratio {common_ratio}",
+   "extracted_variables": {
+    "first_term": "the first term of the geometric series",
+    "common_ratio": "the common ratio of the geometric series",
+    "n": "the number of terms to sum"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the numerator of the ratio",
+     "explain": "Raise the common ratio to the power of n and subtract 1.",
+     "compute": "numerator = (common_ratio ** n) - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the denominator of the ratio",
+     "explain": "Subtract 1 from the common ratio.",
+     "compute": "denominator = common_ratio - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate the sum",
+     "explain": "Multiply the first term by the numerator divided by the denominator.",
+     "compute": "sum_n = first_term * numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "kemh108.txt lines 340-355",
+   "concept": "kemh108.SECTION.8.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find the geometric mean of the numbers {a} and {b}",
+   "extracted_variables": {
+    "a": "the first positive number",
+    "b": "the second positive number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "Find the product of the two positive numbers a and b.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root of the product",
+     "explain": "The geometric mean is the square root of the product.",
+     "compute": "geometric_mean = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.2.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Evaluating a Linear General Term of a Sequence chain with coefficient = 2, n = 3, term_product = 5, constant = 4. What value does it produce?",
+   "extracted_variables": {
+    "coefficient": "2",
+    "n": "3",
+    "term_product": "5",
+    "constant": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply coefficient by n",
+     "explain": "Multiply the coefficient of the linear term by the term index n.",
+     "compute": "term_product = coefficient * n"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "Add the constant term to the product to find the nth term.",
+     "compute": "term_value = term_product + constant"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the General Term of a Geometric Progression chain with n = 2, common_ratio = 3, power = 5, first_term = 4, ratio_power = 7. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "common_ratio": "3",
+    "power": "5",
+    "first_term": "4",
+    "ratio_power": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the power of the common ratio",
+     "explain": "The power is n - 1.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise common ratio to the power",
+     "explain": "Calculate common_ratio raised to (n - 1).",
+     "compute": "ratio_power = common_ratio ** power"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the first term",
+     "explain": "Multiply the first term by the raised ratio to get the nth term.",
+     "compute": "nth_term = first_term * ratio_power"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Sum of First n Terms of a Geometric Progression chain with common_ratio = 2, n = 3, denominator = 5, first_term = 4, numerator = 7. What value does it produce?",
+   "extracted_variables": {
+    "common_ratio": "2",
+    "n": "3",
+    "denominator": "5",
+    "first_term": "4",
+    "numerator": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the numerator of the ratio",
+     "explain": "Raise the common ratio to the power of n and subtract 1.",
+     "compute": "numerator = (common_ratio ** n) - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate the denominator of the ratio",
+     "explain": "Subtract 1 from the common ratio.",
+     "compute": "denominator = common_ratio - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate the sum",
+     "explain": "Multiply the first term by the numerator divided by the denominator.",
+     "compute": "sum_n = first_term * numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Geometric Mean of Two Positive Numbers chain with a = 2, b = 3, sqrt = 5, product = 4. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "sqrt": "5",
+    "product": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "Find the product of the two positive numbers a and b.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root of the product",
+     "explain": "The geometric mean is the square root of the product.",
+     "compute": "geometric_mean = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Arithmetic Mean of Two Positive Numbers chain with a = 2, b = 3, sum_val = 5. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "sum_val": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two numbers",
+     "explain": "Find the sum of the two positive numbers a and b.",
+     "compute": "sum_val = a + b"
+    },
+    {
+     "step": 2,
+     "action": "divide the sum by 2",
+     "explain": "The arithmetic mean is half of the sum.",
+     "compute": "arithmetic_mean = sum_val / 2"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Arithmetic Mean of Two Positive Numbers chain with a = 2, b = 3, sum_val = 5. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "sum_val": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two numbers",
+     "explain": "Find the sum of the two positive numbers a and b.",
+     "compute": "sum_val = a + b"
+    },
+    {
+     "step": 2,
+     "action": "divide the sum by 2",
+     "explain": "The arithmetic mean is half of the sum.",
+     "compute": "arithmetic_mean = sum_val / 2"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Common Ratio of a Geometric Progression chain with term_next = 2, term_prev = 3. What value does it produce?",
+   "extracted_variables": {
+    "term_next": "2",
+    "term_prev": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the next term by the previous term",
+     "explain": "The common ratio is the quotient of any term and its preceding term.",
+     "compute": "common_ratio = term_next / term_prev"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Common Ratio of a Geometric Progression chain with term_next = 2, term_prev = 3. What value does it produce?",
+   "extracted_variables": {
+    "term_next": "2",
+    "term_prev": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the next term by the previous term",
+     "explain": "The common ratio is the quotient of any term and its preceding term.",
+     "compute": "common_ratio = term_next / term_prev"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Common Ratio from Two Arbitrary Terms of a G.P chain with term_q = 2, term_p = 3, q = 5, p = 4, index_diff = 7, term_ratio = 1.5, power = 6. What value does it produce?",
+   "extracted_variables": {
+    "term_q": "2",
+    "term_p": "3",
+    "q": "5",
+    "p": "4",
+    "index_diff": "7",
+    "term_ratio": "1.5",
+    "power": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the ratio of the two terms",
+     "explain": "Divide the term at position q by the term at position p.",
+     "compute": "term_ratio = term_q / term_p"
+    },
+    {
+     "step": 2,
+     "action": "find the difference in their positions",
+     "explain": "Subtract position p from position q.",
+     "compute": "index_diff = q - p"
+    },
+    {
+     "step": 3,
+     "action": "calculate the reciprocal of the index difference",
+     "explain": "Find 1 divided by the index difference.",
+     "compute": "power = 1 / index_diff"
+    },
+    {
+     "step": 4,
+     "action": "calculate the common ratio",
+     "explain": "Raise the term ratio to the power of the reciprocal of the index difference.",
+     "compute": "common_ratio = term_ratio ** power"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh108.SECTION.8.4.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Common Ratio from Two Arbitrary Terms of a G.P chain with term_q = 2, term_p = 3, q = 5, p = 4, index_diff = 7, term_ratio = 1.5, power = 6. What value does it produce?",
+   "extracted_variables": {
+    "term_q": "2",
+    "term_p": "3",
+    "q": "5",
+    "p": "4",
+    "index_diff": "7",
+    "term_ratio": "1.5",
+    "power": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the ratio of the two terms",
+     "explain": "Divide the term at position q by the term at position p.",
+     "compute": "term_ratio = term_q / term_p"
+    },
+    {
+     "step": 2,
+     "action": "find the difference in their positions",
+     "explain": "Subtract position p from position q.",
+     "compute": "index_diff = q - p"
+    },
+    {
+     "step": 3,
+     "action": "calculate the reciprocal of the index difference",
+     "explain": "Find 1 divided by the index difference.",
+     "compute": "power = 1 / index_diff"
+    },
+    {
+     "step": 4,
+     "action": "calculate the common ratio",
+     "explain": "Raise the term ratio to the power of the reciprocal of the index difference.",
+     "compute": "common_ratio = term_ratio ** power"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "8.1",
+   "source_ref": "kemh108.txt lines 160-200",
+   "questions": [
+    "Write the first five terms of the sequence whose nth term is a_n = n(n + 2).",
+    "Write the first five terms of the sequence whose nth term is a_n = n / (n + 1).",
+    "Write the first five terms of the sequence whose nth term is a_n = 2^n.",
+    "Write the first five terms of the sequence whose nth term is a_n = (2n - 3) / 6.",
+    "Write the first five terms of the sequence whose nth term is a_n = (-1)^{n-1} 5^{n+1}.",
+    "Write the first five terms of the sequence whose nth term is a_n = n * (n^2 + 5) / 4.",
+    "Find the 17th and 24th terms of the sequence whose nth term is a_n = 4n - 3.",
+    "Find the 7th term of the sequence whose nth term is a_n = n^2 / 2^n.",
+    "Find the 9th term of the sequence whose nth term is a_n = (-1)^{n-1} n^3.",
+    "Find the 20th term of the sequence whose nth term is a_n = n(n - 2) / (n + 3).",
+    "Write the first five terms of the sequence and obtain the corresponding series: a_1 = 3, a_n = 3a_{n-1} + 2 for all n > 1.",
+    "Write the first five terms of the sequence and obtain the corresponding series: a_1 = -1, a_n = a_{n-1} / n, n >= 2.",
+    "Write the first five terms of the sequence and obtain the corresponding series: a_1 = a_2 = 2, a_n = a_{n-1} - 1, n > 2.",
+    "The Fibonacci sequence is defined by 1 = a_1 = a_2 and a_n = a_{n-1} + a_{n-2}, n > 2. Find a_{n+1}/a_n for n = 1, 2, 3, 4, 5."
+   ]
+  },
+  {
+   "id": "8.2",
+   "source_ref": "kemh108.txt lines 360-420",
+   "questions": [
+    "Find the 20th and nth terms of the G.P. 5/2, 5/4, 5/8, ...",
+    "Find the 12th term of a G.P. whose 8th term is 192 and the common ratio is 2.",
+    "The 5th, 8th and 11th terms of a G.P. are p, q and s, respectively. Show that q^2 = ps.",
+    "The 4th term of a G.P. is square of its second term, and the first term is -3. Determine its 7th term.",
+    "Which term of the sequence 2, 2*sqrt(2), 4, ... is 128?",
+    "Which term of the sequence sqrt(3), 3, 3*sqrt(3), ... is 729?",
+    "Which term of the sequence 1/3, 1/9, 1/27, ... is 1/19683?",
+    "For what values of x, the numbers -2/7, x, -7/2 are in G.P.?",
+    "Find the sum to 20 terms of the geometric progression 0.15, 0.015, 0.0015, ...",
+    "Find the sum to n terms of the geometric progression sqrt(7), sqrt(21), 3*sqrt(7), ...",
+    "Find the sum to n terms of the geometric progression 1, -a, a^2, -a^3, ... (if a != -1).",
+    "Find the sum to n terms of the geometric progression x^3, x^5, x^7, ... (if x != +/- 1).",
+    "Evaluate sum_{k=1}^{11} (2 + 3^k).",
+    "The sum of first three terms of a G.P. is 39/10 and their product is 1. Find the common ratio and the terms.",
+    "How many terms of G.P. 3, 3^2, 3^3, ... are needed to give the sum 120?",
+    "The sum of first three terms of a G.P. is 16 and the sum of the next three terms is 128. Determine the first term, the common ratio and the sum to n terms of the G.P.",
+    "Given a G.P. with a = 729 and 7th term 64, determine S_7.",
+    "Find a G.P. for which sum of the first two terms is -4 and the fifth term is 4 times the third term.",
+    "If the 4th, 10th and 16th terms of a G.P. are x, y and z, respectively. Prove that x, y, z are in G.P.",
+    "Find the sum to n terms of the sequence, 8, 88, 888, 8888...",
+    "Find the sum of the products of the corresponding terms of the sequences 2, 4, 8, 16, 32 and 128, 32, 8, 2, 1/2.",
+    "Show that the products of the corresponding terms of the sequences a, ar, ar^2, ... ar^{n-1} and A, AR, AR^2, ... AR^{n-1} form a G.P, and find the common ratio.",
+    "Find four numbers forming a geometric progression in which the third term is greater than the first term by 9, and the second term is greater than the 4th by 18.",
+    "If the pth, qth and rth terms of a G.P. are a, b and c, respectively. Prove that a^{q-r} b^{r-p} c^{p-q} = 1.",
+    "If the first and the nth term of a G.P. are a and b, respectively, and if P is the product of n terms, prove that P^2 = (ab)^n.",
+    "Show that the ratio of the sum of first n terms of a G.P. to the sum of terms from (n + 1)th to (2n)th term is 1 / r^n.",
+    "If a, b, c and d are in G.P. show that (a^2 + b^2 + c^2) (b^2 + c^2 + d^2) = (ab + bc + cd)^2.",
+    "Insert two numbers between 3 and 81 so that the resulting sequence is G.P.",
+    "Find the value of n so that (a^{n+1} + b^{n+1}) / (a^n + b^n) may be the geometric mean between a and b.",
+    "The sum of two numbers is 6 times their geometric mean, show that numbers are in the ratio (3 + 2*sqrt(2)) : (3 - 2*sqrt(2)).",
+    "If A and G be A.M. and G.M., respectively between two positive numbers, prove that the numbers are A +/- sqrt((A+G)(A-G)).",
+    "The number of bacteria in a certain culture doubles every hour. If there were 30 bacteria present in the culture originally, how many bacteria will be present at the end of 2nd hour, 4th hour and nth hour?",
+    "What will Rs 500 amount to in 10 years after its deposit in a bank which pays annual interest rate of 10% compounded annually?",
+    "If A.M. and G.M. of roots of a quadratic equation are 8 and 5, respectively, then obtain the quadratic equation."
+   ]
+  },
+  {
+   "id": "misc",
+   "source_ref": "kemh108.txt lines 440-500",
+   "questions": [
+    "If f is a function satisfying f(x+y) = f(x)f(y) for all x, y in N such that f(1) = 3 and sum_{x=1}^n f(x) = 120, find the value of n.",
+    "The sum of some terms of G.P. is 315 whose first term and the common ratio are 5 and 2, respectively. Find the last term and the number of terms.",
+    "The first term of a G.P. is 1. The sum of the third term and fifth term is 90. Find the common ratio of G.P.",
+    "The sum of three numbers in G.P. is 56. If we subtract 1, 7, 21 from these numbers in that order, we obtain an arithmetic progression. Find the numbers.",
+    "A G.P. consists of an even number of terms. If the sum of all the terms is 5 times the sum of terms occupying odd places, then find its common ratio.",
+    "If (a+bx)/(a-bx) = (b+cx)/(b-cx) = (c+dx)/(c-dx) (x != 0), then show that a, b, c and d are in G.P.",
+    "Let S be the sum, P the product and R the sum of reciprocals of n terms in a G.P. Prove that P^2 R^n = S^n.",
+    "If a, b, c, d are in G.P, prove that (a^n + b^n), (b^n + c^n), (c^n + d^n) are in G.P.",
+    "If a and b are the roots of x^2 - 3x + p = 0 and c, d are roots of x^2 - 12x + q = 0, where a, b, c, d form a G.P. Prove that (q + p) : (q - p) = 17:15.",
+    "The ratio of the A.M. and G.M. of two positive numbers a and b, is m : n. Show that a : b = (m + sqrt(m^2 - n^2)) : (m - sqrt(m^2 - n^2)).",
+    "Find the sum of the series up to n terms: 5 + 55 + 555 + ...",
+    "Find the sum of the series up to n terms: 0.6 + 0.66 + 0.666 + ...",
+    "Find the 20th term of the series 2 x 4 + 4 x 6 + 6 x 8 + ... + n terms.",
+    "A farmer buys a used tractor for Rs 12000. He pays Rs 6000 cash and agrees to pay the balance in annual instalments of Rs 500 plus 12% interest on the unpaid amount. How much will the tractor cost him?",
+    "Shamshad Ali buys a scooter for Rs 22000. He pays Rs 4000 cash and agrees to pay the balance in annual instalment of Rs 1000 plus 10% interest on the unpaid amount. How much will the scooter cost him?",
+    "A person writes a letter to four of his friends. He asks each one of them to copy the letter and mail to four different persons with instruction that they move the chain similarly. Assuming that the chain is not broken and that it costs 50 paise to mail one letter. Find the amount spent on the postage when 8th set of letter is mailed.",
+    "A man deposited Rs 10000 in a bank at the rate of 5% simple interest annually. Find the amount in 15th year since he deposited the amount and also calculate the total amount after 20 years.",
+    "A manufacturer reckons that the value of a machine, which costs him Rs. 15625, will depreciate each year by 20%. Find the estimated value at the end of 5 years.",
+    "150 workers were engaged to finish a job in a certain number of days. 4 workers dropped out on second day, 4 more workers dropped out on third day and so on. It took 8 more days to finish the work. Find the number of days in which the work was completed."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

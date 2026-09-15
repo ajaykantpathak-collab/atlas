@@ -1,0 +1,536 @@
+{
+ "catalog": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+ "concepts": [
+  {
+   "id": "c8m3.1.1",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 2"
+   ]
+  },
+  {
+   "id": "c8m3.1.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 62"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 85"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 42"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 52 - 81"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 75"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 121"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 62"
+   ]
+  },
+  {
+   "id": "c8m3.2.1",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 29"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 54"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 45"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 52 - 125"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 65"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m3.2.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 16"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 101"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 75"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 31 - 218"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 33"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 20"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m3.3.1",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 60"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (9 + 5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 14 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((12 / 2) ** 2 + (6 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 11 * 11)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 80 - 80"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "adj = 180 - 60"
+   ]
+  },
+  {
+   "id": "c8m3.3.2",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 130"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (10 + 8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 28 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((6 / 2) ** 2 + (4 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 11 * 11)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 80 - 80"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "adj = 180 - 130"
+   ]
+  },
+  {
+   "id": "c8m3.3.3",
+   "family": "perimeter",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "perim = 2 * (32 + 33)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 4 * 17"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "perim = 6 + 13 + 20"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "perim = 3 * 15"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "perim = 6 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "dist = 3 * 4 * 24"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m3.3.4",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 22"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 110"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 16"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 128 - 166"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 62"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 92"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m3.3.5",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 130"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (14 + 13)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 32 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((10 / 2) ** 2 + (16 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 7 * 7)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 80 - 80"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m3.4.1",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 84"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 49 * 49"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (49 * 49 - 7 * 7)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 180 / 360 * 2 * 22 / 7 * 70"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 120 / 360 * 22 / 7 * 56 * 56"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "circ = 2 * 22 / 7 * 84"
+   ]
+  },
+  {
+   "id": "c8m3.4.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 64"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 67"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 37 - 102"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 35"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 97"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 64"
+   ]
+  },
+  {
+   "id": "c8m3.4.3",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 29 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 41 * 41"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 5 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 85 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 8 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sq = 29 ** 2"
+   ]
+  }
+ ]
+}

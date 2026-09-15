@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_007",
+   "title": "c11_acc_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the exact point at which revenue is recognised for a credit sale of goods under the Revenue Recognition Concept.",
+     "a": "Revenue is recognised when the goods are sold (i.e., ownership transfers to the buyer), not when cash is received. A wrong answer (e.g., \"when cash is received\") reveals the student is confusing accrual accounting with cash basis accounting and has not grasped that the legal right to receive payment arises at the point of sale.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Matching Concept requires that rent paid in advance for the next accounting period be treated as a prepaid expense (asset) rather than an expense of the current period.",
+     "a": "The Matching Concept matches expenses to the period in which they help generate revenue. Rent paid in advance benefits the next period, so it should be expensed then. If a student says \"it's an expense because cash went out,\" they are applying cash basis thinking and fail to understand that expenses are recognised when the related asset or service is consumed, not when paid.",
+     "self_check": true
+    },
+    {
+     "q": "A firm receives ₹1,20,000 on 1st October 2023 as rent for 12 months. The accounting year ends 31st March 2024. Calculate the rent income to be recognised in 2023-24 and the amount to be carried forward. Show the journal entries for receipt and year-end adjustment.",
+     "a": "Rent for 6 months (Oct-Mar) = ₹60,000 recognised in 2023-24; ₹60,000 carried forward as advance rent (liability). Journal entries: (1) Bank A/c Dr. 1,20,000 to Rent Received A/c 1,20,000; (2) Rent Received A/c Dr. 60,000 to Advance Rent A/c 60,000. A wrong answer (e.g., recognising full ₹1,20,000) shows the student ignores the time-basis recognition for income and does not apply the accounting period concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of revenue recognition for a construction contract (long-term) versus a normal sale of goods. Why does the Revenue Recognition Concept allow an exception for long-term contracts?",
+     "a": "For normal sales, revenue is recognised at point of sale. For long-term construction contracts, revenue is recognised proportionately based on the percentage of completion (or as per contract milestones) because waiting until completion would misrepresent performance over multiple periods. The exception exists because the earnings process occurs continuously over years. A student who says \"revenue is recognised only when the contract is fully completed\" fails to understand the need for periodic performance measurement and the matching of costs incurred to date with revenue earned to date.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"The Matching Concept means every expense must be directly traced to a specific revenue item.\" Is this correct? Justify your answer.",
+     "a": "The statement is incorrect. Matching Concept has two types: direct matching (e.g., cost of goods sold to sales revenue) and period matching (e.g., rent, salaries, depreciation matched to the time period because they benefit the whole period). Not all expenses can be directly traced to a specific sale. A student who agrees with the statement confuses direct matching with the broader principle of period matching and overlooks indirect expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario involving at least three transactions where both Revenue Recognition and Matching Concepts must be applied simultaneously. Describe the transactions and state how each concept affects the recording.",
+     "a": "Example scenario: (1) A consultancy firm completes a project on 25th March 2024, bills ₹2,00,000, receives payment on 10th April 2024. (2) It pays ₹30,000 on 1st April 2023 for annual software licence (1st April 2023 to 31st March 2024). (3) It incurs ₹15,000 electricity expense for March 2024, paid on 5th April 2024. Revenue Recognition: (1) revenue in 2023-24 (service rendered). Matching: (2) software licence expense spread over 12 months, ₹30,000 fully in 2023-24; (3) electricity expense in 2023-24 (accrued). A poor answer would miss the accrual for electricity or treat the licence as expense only in the month paid, showing inability to integrate both concepts across multiple transactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

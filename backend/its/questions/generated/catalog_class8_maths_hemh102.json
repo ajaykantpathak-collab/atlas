@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class8_maths_hemh102.json",
+ "concepts": [
+  {
+   "id": "hemh.102.2.1",
+   "title": "Solving Equations with Variables on Both Sides",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 7 when x = 2.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 3x + 5 when x = 4.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 2x - 9x and give the coefficient of x.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (7 + 2) equals 7 x 7 + 7 x 2. Compute it.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5 + 8 x 9 (respect the order of operations).",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (7 + 2) x 9.",
+     "a": "81",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.2",
+   "title": "Solving Equations with Brackets",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
+     "compute": "val = 3 * 6 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 7 when x = 6.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 5x + 5 when x = 3.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 6x - 8x and give the coefficient of x.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 8 x (8 + 7) equals 8 x 8 + 8 x 7. Compute it.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8 + 9 x 3 (respect the order of operations).",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (7 + 4) x 3.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.3",
+   "title": "Equations Reducible to Linear Form",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (32 - 4) / 4 gives 7",
+     "compute": "x = (32 - 4) / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 4x + 4 = 32.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 6 = 27.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 19 = 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 52 = 4.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 9 = 1x + 33.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5(x + 3) = 40.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.102.2.4",
+   "title": "Word Problems with Linear Equations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (87 - 15) / 6 gives 12",
+     "compute": "x = (87 - 15) / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 15 = 87.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 10 = 35.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 70 = 2.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 29 = 3.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 8 = 1x + 26.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 5) = 12.",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

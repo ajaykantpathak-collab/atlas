@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_6",
+   "title": "c9_bio_ch1_6",
+   "questions": [
+    {
+     "q": "What is the composition of cytoplasm, and how does it differ from the nucleoplasm inside the nucleus?",
+     "a": "Cytoplasm is composed of cytosol (water, dissolved ions, soluble proteins), organelles, inclusions (stored nutrients, pigments), and the cytoskeleton; nucleoplasm is the similar gel-like matrix inside the nuclear envelope but contains chromatin, nucleolus, and nuclear proteins instead of cytoplasmic organelles. A wrong answer that says \"cytoplasm is just the fluid part\" reveals the misconception that cytoplasm excludes organelles and cytoskeleton, confusing it with cytosol alone.",
+     "self_check": true
+    },
+    {
+     "q": "Why are most metabolic pathways in eukaryotic cells confined to specific organelles rather than occurring freely in the cytosol?",
+     "a": "Organelles provide separate compartments with specialized enzymes, pH, and substrate concentrations, preventing interference between incompatible reactions (e.g., lysosomal hydrolytic enzymes would destroy cytosolic proteins) and allowing regulation of metabolic flux. A wrong answer that says \"organelles just store things\" shows the student does not understand compartmentalization as a functional strategy for metabolic efficiency and protection.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a plant cell under a microscope and sees a large central vacuole pushing the chloroplasts against the cell wall. Explain how the cytoplasm's physical properties allow this arrangement and what would happen if the cytoplasm were a true liquid.",
+     "a": "The cytoplasm is a viscoelastic gel (due to cytoskeletal filaments and high protein concentration) that can support organelles in fixed positions and resist deformation; if it were a true liquid, organelles would sediment by gravity (chloroplasts at bottom, nucleus floating) and the cell would lose its internal architecture. A wrong answer that ignores the gel nature reveals the misconception that cytoplasm is a simple aqueous solution where organelles float freely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cytoplasmic content of a mature mammalian red blood cell (which lacks a nucleus and most organelles) with that of a typical plant mesophyll cell. What does this comparison tell you about the relationship between cytoplasmic composition and cell function?",
+     "a": "Mammalian RBC cytoplasm is packed with hemoglobin and lacks organelles to maximize oxygen transport space, while plant mesophyll cytoplasm contains chloroplasts, large vacuole, and abundant ER for photosynthesis and storage. This shows cytoplasmic composition is tailored to the cell's specialized role: RBCs sacrifice metabolic versatility for a single function, whereas plant cells maintain diverse organelles for autotrophic metabolism. A wrong answer that says \"both have same cytoplasm\" fails to link structure to function.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a cell with a drug that depolymerizes microtubules. Predict the effect on organelle distribution and intracellular transport, and evaluate whether the cell can still perform glycolysis.",
+     "a": "Microtubules are tracks for motor proteins (kinesin, dynein) that move vesicles, mitochondria, and other organelles; their loss causes organelles to cluster near the nucleus and halts long-distance transport. However, glycolysis occurs in the cytosol and does not require microtubules, so it continues unaffected. A wrong answer claiming glycolysis stops reveals confusion between cytoskeleton-dependent transport and soluble metabolic pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion epidermal cells and a vital dye (e.g., neutral red) to demonstrate that the cytoplasm is a dynamic, living matrix and not a static gel. Describe the procedure, expected observation, and the conclusion.",
+     "a": "Place onion epidermal peel in neutral red solution; the dye enters living cells by active transport and accumulates in vacuoles and cytoplasmic vesicles, showing membrane-bound compartments are functional. Over time, observe cytoplasmic streaming (movement of granules) under microscope, proving cytoplasm is dynamic. A poor answer that only describes staining without noting movement or energy dependence misses the dynamic nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_009",
+   "title": "c11_ip_cbse_08_009",
+   "questions": [
+    {
+     "q": "What is the primary goal of a phishing attack? Provide one typical indicator of a phishing email.",
+     "a": "The primary goal of phishing is to deceive the recipient into revealing sensitive personal information (like passwords, OTPs, bank details) by masquerading as a trustworthy entity. A typical indicator is a generic greeting (e.g., \"Dear Customer\") combined with an urgent call to action (e.g., \"Verify your account within 24 hours or it will be closed\"). A wrong answer (e.g., \"phishing installs malware directly\") reveals confusion between phishing and malware delivery; phishing is primarily social engineering for credential harvesting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how identity theft can be a consequence of a successful phishing attack. Use an example involving an Indian student's leaked Aadhaar number.",
+     "a": "If a phishing attack tricks a student into submitting their Aadhaar number and date of birth on a fake scholarship portal, the attacker can use that data to impersonate the student — e.g., apply for a loan, buy a SIM card, or file a fraudulent tax return. This is identity theft: the misuse of personally identifiable information (PII) for fraud. A wrong answer that treats identity theft as merely \"stealing a password\" misses the broader scope of PII misuse and legal/financial consequences.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student receives an Instagram message from a classmate's account saying, \"You're so ugly, everyone hates you,\" followed by several peers liking the comment. The targeted student feels humiliated and stops attending school. Identify the cyber threat and list two immediate steps the victim should take.",
+     "a": "This is cyberbullying — repeated, intentional harassment via digital platforms causing psychological harm. Immediate steps: (1) Do not respond; take screenshots as evidence. (2) Report the content to Instagram using the \"Report\" feature and block the accounts. Inform a trusted adult (parent/teacher) and the school's anti-bullying committee. A wrong answer suggesting \"confront the bully online\" escalates the situation; \"ignore it completely\" neglects evidence collection and reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast phishing and cyberbullying in terms of (a) attacker's motive, (b) typical victim interaction, and (c) primary harm caused.",
+     "a": "(a) Phishing motive: financial gain or data theft; cyberbullying motive: psychological dominance, revenge, or entertainment. (b) Phishing: one-time deceptive interaction (victim clicks/submits); cyberbullying: repeated, public or private targeting over time. (c) Phishing harm: financial loss, identity compromise; cyberbullying harm: mental trauma, social isolation, academic decline. A wrong answer that conflates them as \"both are online harms\" fails to analyze distinct mechanisms and required interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the following advice for preventing identity theft: \"Never share your Aadhaar number with anyone.\" Justify your evaluation with two reasons.",
+     "a": "The advice is partially effective but insufficient. Reason 1: Aadhaar is often legitimately required (e.g., KYC for bank, SIM, exams); blanket refusal is impractical. Better advice: share only with verified entities, use masked Aadhaar (VID), and check authentication logs on UIDAI portal. Reason 2: Identity theft can also occur via leaked PAN, passport, or biometrics from data breaches — not just voluntary sharing. A wrong answer calling it \"fully effective\" ignores real-world necessities and multi-vector threats.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step awareness poster for your school's computer lab that teaches peers to spot a phishing link in a message. Each step must be actionable and use Indian context (e.g., bank names, UPI, Aadhaar).",
+     "a": "Step 1: \"Check the sender — Is it from a known contact or official short code (e.g., SBIINB for SBI)? Unknown numbers with urgent demands are red flags.\" Step 2: \"Inspect the link — Press and hold to preview URL. Does it show 'sbi.co.in' or 'upi.npci.org.in'? Fake links use misspellings (e.g., 'sbi-verification.xyz') or IP addresses.\" Step 3: \"Verify independently — Open the official app/website directly (not via link) or call the bank's toll-free number. Never enter OTP/Aadhaar on a page reached through a message.\" A poor answer gives generic steps like \"don't click links\" without Indian-specific examples or verification methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch05_007",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch05_007",
+   "title": "c7_geo_ch05_007",
+   "questions": [
+    {
+     "q": "What is the name given to the main stream of the Ganga river after it enters Bangladesh from India?",
+     "a": "The main stream of the Ganga after entering Bangladesh is called the Padma. A student who answers \"Yamuna\" or \"Meghna\" is confusing the tributaries and distributaries within the delta network or mixing up the Jamuna (which is the Brahmaputra in Bangladesh).",
+     "self_check": true
+    },
+    {
+     "q": "Why do heavy monsoon rains in the upper Himalayan catchments of India directly cause severe flooding downstream in Bangladesh?",
+     "a": "Because Bangladesh is located at the lowest part of the Ganga-Brahmaputra-Meghna basin right near the sea level, massive volumes of rainwater collected from vast upstream Indian and Himalayan slopes funnel down through a restricted network of rivers, overwhelming the low-lying delta capacity. A student who thinks floods are only caused by local rainfall misses the trans-boundary nature of river catchments and upstream-downstream geography.",
+     "self_check": true
+    },
+    {
+     "q": "If an upstream diversion project reduces dry-season water flow by 25% at a border-point measuring station that normally receives 1,200 cubic meters per second, what is the new dry-season discharge entering downstream regions?",
+     "a": "Steps:\n1. Identify the normal dry-season discharge: 1,200 cubic meters per second.\n2. Identify the percentage reduction: 25%.\n3. Calculate the reduction amount: $1,200 \\times 0.25 = 300$ cubic meters per second.\n4. Subtract the reduction from the normal flow: $1,200 - 300 = 900$ cubic meters per second.\nThe new discharge is 900 cubic meters per second. A student who adds 25% or calculates incorrectly misunderstands how proportional reductions apply to natural resource quotas.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the physical geography of the Ganga-Brahmaputra delta creates both high agricultural fertility and extreme vulnerability to tropical cyclones and floods.",
+     "a": "The delta's flat topography and dense network of distributaries allow annual river floods to deposit nutrient-rich alluvial silt, creating extremely fertile soil for crops like rice. However, this same low elevation and flat coastal proximity make the region highly vulnerable to storm surges from Bay of Bengal cyclones and prolonged riverine flooding during heavy monsoon seasons. A student who only sees the fertility misses the hazard component of deltaic geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Upstream countries have the absolute right to utilize all river water before it reaches downstream neighbours.\" Is this geographically sustainable?",
+     "a": "This statement is geographically unsustainable because rivers are continuous ecological and hydrological systems; total upstream extraction deprives downstream ecosystems, agriculture, and populations of essential freshwater, leading to severe ecological degradation, saltwater intrusion in deltas, and geopolitical conflict. A student who agrees with absolute upstream rights ignores the interconnected basin-wide nature of hydrological geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cooperative framework between two countries sharing a river basin that addresses both upstream irrigation needs and downstream flood warning requirements.",
+     "a": "A successful framework should include: (1) automated real-time telemetry stations sharing hydrological data upstream and downstream; (2) joint committees to regulate barrages during dry seasons to ensure minimum environmental flows; (3) synchronized flood forecasting models; and (4) joint management of deltaic erosion. A poor answer focuses only on unilateral control or ignores data sharing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

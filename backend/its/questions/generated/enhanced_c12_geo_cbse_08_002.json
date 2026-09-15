@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_002",
+   "title": "c12_geo_cbse_08_002",
+   "questions": [
+    {
+     "q": "A student sees \"NH-44\" on a map. What does the \"NH\" prefix indicate, and which authority is responsible for its construction and maintenance?",
+     "a": "Correct: NH = National Highway; constructed and maintained by the National Highways Authority of India (NHAI) under the Ministry of Road Transport and Highways (MoRTH). A wrong answer like \"State PWD\" or \"District Administration\" reveals the student confuses administrative hierarchy — they don't grasp that NHs are central government assets connecting state capitals, major ports, and industrial centres, while SHs are state assets. This confusion leads to errors in map-based questions asking \"which authority maintains this road?\"",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Golden Quadrilateral (GQ) follow a rectangular perimeter connecting Delhi-Mumbai-Chennai-Kolkata-Delhi instead of criss-crossing the interior? Explain using TWO geographical factors.",
+     "a": "Correct: (1) The four metropolitan cities generate the highest freight/passenger demand — connecting them captures ~40% of India's GDP on ~5,846 km. (2) The route largely follows the Peninsular Plateau's relatively flat terrain and existing broad-gauge railway alignment, minimizing construction cost and land acquisition. A wrong answer like \"it's the shortest route\" or \"it avoids mountains\" reveals the student misses the economic geography logic: transport networks follow economic gravity (agglomeration), not geometric minimalism. The GQ bypasses the Indo-Gangetic Plain's dense interior because radial corridors (NS-EW) serve that.",
+     "self_check": true
+    },
+    {
+     "q": "A freight consignment of 2,500 tonnes of coal must move from Jharsuguda (Odisha) to Tuticorin (Tamil Nadu). The shipper can choose: (A) Broad-gauge railway rake (58 wagons × 68 tonnes/wagon) or (B) 100 trucks (25 tonnes each). Calculate the number of rakes/trips needed for each mode. Which mode requires fewer trips? Show working.",
+     "a": "Step 1: Railway capacity per rake = 58 wagons × 68 t = 3,944 tonnes. Trips needed = 2,500 ÷ 3,944 = 0.63 → 1 rake (single trip).\nStep 2: Truck capacity per trip = 100 trucks × 25 t = 2,500 tonnes. Trips needed = 2,500 ÷ 2,500 = 1 trip (but 100 trucks).\nStep 3: Railway moves the load in ONE rake movement; road needs 100 truck trips simultaneously.\nAnswer: Railway requires fewer vehicle movements (1 rake vs 100 trucks). A wrong answer calculating \"2,500/68 = 37 wagons\" forgets wagons are coupled into a rake — revealing misunderstanding of railway operational unit. This matters for board questions on \"unit capacity\" and competitive exams on logistics optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Konkan Railway (Roha–Thokur) and the Himalayan Railway (Jammu–Baramulla–Srinagar) on THREE parameters: gauge, terrain challenge, and strategic significance. Why was Broad Gauge chosen for both despite extreme terrain?",
+     "a": "Correct:\n| Parameter | Konkan Railway | Himalayan Railway (USBRL) |\n|-----------|----------------|---------------------------|\n| Gauge | Broad Gauge (1676 mm) | Broad Gauge (1676 mm) |\n| Terrain | Western Ghats: 92 tunnels, 2,000+ bridges, steep gradients, high rainfall | Pir Panjal: 111 km tunnel (T-49), seismic zone V, permafrost, extreme cold |\n| Strategic | Civilian: connects Mumbai–Mangalore, reduces distance 1,100 km | Defence: all-weather link to Kashmir, troop mobility, border logistics |\nWhy BG for both? (1) Interoperability with national network — no transshipment. (2) Higher axle load (25 t vs 18 t on MG) → more freight per wagon. (3) Standardized rolling stock/maintenance. A wrong answer citing \"BG is faster\" or \"BG is cheaper to build\" reveals confusion: BG is costlier in mountains but chosen for network externalities. This is a classic board case-study trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Converting all Metre Gauge (MG) and Narrow Gauge (NG) lines to Broad Gauge (BG) under Project Unigauge is always economically justified.\" Use the concepts of traffic density, conversion cost, and alternative investment to justify your answer.",
+     "a": "Correct evaluation: NOT always justified. Justification requires: (1) Traffic density > 5 million gross tonnes/km/year (BG breakeven). Many MG/NG lines in Northeast, Rajasthan desert, or hilly sections have < 1 MGT/km — conversion cost (₹15–25 cr/km) never recovers. (2) Opportunity cost: Same capital could build new BG links on high-density corridors (e.g., DFC) or double existing BG lines. (3) Strategic exception: Lines like Siliguri–Alipurduar (chicken neck) or Jammu–Baramulla are converted for defence despite low traffic. A wrong answer saying \"yes, BG is better\" ignores cost-benefit analysis — a frequent error in 5-marker board questions on \"Project Unigauge critique.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a last-mile connectivity plan for a new industrial corridor node at Dholera (Gujarat). The node has: (a) BG railway siding, (b) NH-751 (4-lane), (c) 50 km to nearest port (Pipavav). Specify: (i) Road hierarchy for internal circulation, (ii) Railway siding design for 20 rakes/day, (iii) One multimodal transfer facility. Justify each choice geographically.",
+     "a": "Expected answer criteria:\n(i) Internal roads: Expressway (NH-751) → Arterial (4-lane SH) → Collector (2-lane MDR) → Local (VR). Justification: Hierarchy matches traffic generation — heavy freight on arterial, employees on collector.\n(ii) Siding: 3 reception lines (750 m each for full rake), 2 holding lines, 1 inspection pit, electronic interlocking. Justification: 20 rakes/day = 1 rake/72 min; 3 reception lines allow simultaneous arrival/departure/inspection without blocking main line.\n(iii) Multimodal facility: Rail-linked ICD (Inland Container Depot) with 4 RMQCs (rail-mounted quay cranes), 20,000 TEU yard, customs clearance. Justification: Pipavav is 50 km — rail shuttle (30 min) beats truck (90 min) for container volume > 500 TEU/day.\nPoor answer: \"Build more roads\" or \"Add trains\" without hierarchy, capacity math, or modal integration — reveals inability to synthesize transport geography into infrastructure planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

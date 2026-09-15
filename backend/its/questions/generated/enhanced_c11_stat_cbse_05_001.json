@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_001",
+   "title": "c11_stat_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define \"measure of central tendency\" in your own words and give one example from daily life where you would use it.",
+     "a": "A measure of central tendency is a single value that represents the centre of a data set, around which all other values tend to cluster. Example: The average temperature of a city in May summarises daily highs and lows into one number for travel planning. A wrong answer (e.g., \"it's the sum of all values\" or \"it's the most frequent value only\") reveals the student confuses the general concept with a specific average (mean or mode) or thinks it is a computation rather than a representative summary.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher says: \"The average mark of Class 11A is 72 and Class 11B is 68, so Class 11A performed better.\" Explain why this conclusion might be misleading even if the averages are correctly calculated.",
+     "a": "The average alone hides the spread and shape of the distribution. Class 11A could have a few toppers pulling the mean up while most students scored below 60; Class 11B could have all students clustered around 68. Without knowing variability (range, standard deviation) or the median/mode, the comparison is incomplete. A wrong answer that focuses only on calculation errors reveals the student thinks averages are always perfectly comparable and misses the core limitation: an average summarises but loses information about distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A shoe store owner wants to stock only one size of a new sneaker model to maximise sales. The sizes sold last month were: 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 10. Which average (mean, median, or mode) should she use and why? Show the calculation.",
+     "a": "Mode = 10 (appears 4 times). The owner should use the mode because she needs the size with maximum demand (most frequent), not the central tendency of sizes. Mean = 8.25 (not a valid shoe size), Median = 8.5 (not a valid size). A wrong answer choosing mean or median shows the student cannot match the average to the decision context: mode for \"most popular\", median for \"middle\", mean for \"balance point\".",
+     "self_check": true
+    },
+    {
+     "q": "Consider two data sets:  \nSet X: 10, 20, 30, 40, 50  \nSet Y: 10, 20, 30, 40, 500  \nBoth have 5 observations. Compare their arithmetic means and medians. What does this tell you about the sensitivity of each average to extreme values?",
+     "a": "Set X: Mean = 30, Median = 30. Set Y: Mean = 120, Median = 30. The mean changed drastically (30 → 120) due to the extreme value 500, while the median remained unchanged. This shows the mean is sensitive to extreme values (not robust), whereas the median is resistant. A wrong answer stating both change equally or that median also changes reveals the student has not internalised the positional nature of median vs. the computational nature of mean.",
+     "self_check": true
+    },
+    {
+     "q": "\"An average alone is not enough to compare two series.\" Evaluate this statement with a concrete example involving income distributions of two localities.",
+     "a": "True. Locality A: incomes 10, 10, 10, 10, 1000 (mean = 208). Locality B: 200, 200, 200, 200, 200 (mean = 200). Means are similar, but Locality A has extreme inequality (one rich, four poor) while B is perfectly equal. Comparing only averages hides this. A good evaluation must mention that measures of dispersion (range, quartile deviation) or shape (skewness) are needed alongside averages. A wrong answer that says \"averages are enough if calculated correctly\" shows the student treats averages as complete summaries rather than partial representations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where using the arithmetic mean would give a misleading picture, and explain which average would be better and why.",
+     "a": "Scenario: A company advertises \"Average salary ₹50,000/month\" but has 9 employees earning ₹20,000 and 1 CEO earning ₹2,90,000. Mean = ₹50,000, but 90% earn far less. Median = ₹20,000 (or mode = ₹20,000) better represents the typical employee. A poor answer gives a scenario where mean works fine (e.g., temperatures) or picks the wrong alternative average, showing inability to recognise skewed distributions and match average to data shape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

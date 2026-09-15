@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_25_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_25_012",
+   "title": "c11_eng_w_cbse_25_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal comprehension question asks for information directly stated in the text, while an inferential comprehension question requires the reader to deduce meaning not explicitly stated by using textual evidence and reasoning. A wrong answer (e.g., \"literal questions are easy, inferential are hard\") reveals the student confuses difficulty level with cognitive process.",
+     "self_check": true
+    },
+    {
+     "q": "In Ruskin's essay, he writes: \"The good book of the hour... is simply the useful or pleasant talk of some person whom you cannot otherwise converse with, printed for you.\" If a question asks: \"What does Ruskin mean by 'book of the hour'?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is an inferential question because the phrase \"book of the hour\" is defined metaphorically in the text; the reader must interpret Ruskin's description (useful/pleasant talk, printed, not a true book) to construct the meaning. A wrong answer (labeling it literal) shows the student thinks any question answerable from the text is literal, missing that inference is needed to unpack the metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Read the following question: \"According to Ruskin, what are the limitations of the good book of the hour?\" Using the text, write a 2-sentence literal comprehension answer with direct evidence.",
+     "a": "Ruskin states that books of the hour are not true books but merely letters or newspapers in good print. They are valuable for occasional reference but not for permanent reading because they are written for communication, not permanence. A wrong answer that adds interpretation (e.g., \"Ruskin hates newspapers\") reveals the student cannot separate explicit text from inference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cognitive demands of answering Question 1 (\"What, according to Ruskin, are the limitations of the good book of the hour?\") and Question 3 (\"Why does Ruskin feel that reading the work of a good author is a painstaking task?\") from the NCERT \"Understanding the Text\" section. Which requires more inference and why?",
+     "a": "Question 3 requires more inference because it asks for the reason behind Ruskin's view, which is explained through an extended analogy (mining for gold) across multiple paragraphs; the reader must synthesize the analogy's steps to explain the \"painstaking\" nature. Question 1 is largely literal as limitations are explicitly listed. A wrong answer that says both are literal shows inability to recognize synthesis across paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"Ruskin thinks we should read only old books because new books are just newspapers.\" Is this a valid inference? Justify using the text.",
+     "a": "No, it is an overgeneralization. Ruskin distinguishes between \"books of the hour\" (ephemeral) and true books (timeless), but he does not say we should read only old books; he says true books exist in all ages and we must choose wisely. The student ignores Ruskin's emphasis on the reader's effort and merit. A wrong evaluation (saying it's valid) reveals the student cannot distinguish supported inference from unsupported extrapolation.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential comprehension question based on the last paragraph of the essay (about accuracy of words) that requires the reader to connect Ruskin's view on word-accuracy to his broader argument about reading true books.",
+     "a": "Sample question: \"How does Ruskin's insistence on 'looking intensely at words... letter by letter' reflect his definition of a true book as something that preserves the author's best wisdom?\" A good answer connects the mining analogy (words as rock, meaning as metal) to the need for precise tools (accuracy) to extract meaning. A poor question (e.g., \"Why does Ruskin like accurate words?\") shows the student cannot design questions that demand synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

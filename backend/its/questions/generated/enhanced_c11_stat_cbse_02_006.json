@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_006",
+   "title": "c11_stat_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between primary data and secondary data in terms of who collects the data and for what purpose?",
+     "a": "Primary data is collected first-hand by the investigator for a specific research objective, while secondary data is collected by another agency for their own purpose and later reused by the investigator. A wrong answer that says \"secondary data is collected by the investigator from secondary sources\" reveals the misconception that the act of collection defines the data type, rather than the origin and original purpose of the data.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Data from a newspaper article reporting last year's Census findings is primary data because the newspaper published it recently.\" Identify the error in this reasoning and explain why this data is actually secondary.",
+     "a": "The error is confusing the publisher with the original collector. The newspaper is merely a dissemination channel; the Census of India originally collected and processed the data for demographic purposes. This data is secondary because the investigator (student) did not conduct the Census. A wrong answer focusing on \"recent publication\" shows the student thinks recency determines data type, not the chain of collection.",
+     "self_check": true
+    },
+    {
+     "q": "You are researching the impact of GST on small traders in your district. List two published and two unpublished secondary sources you could consult, and justify why each is relevant.",
+     "a": "Published: (1) GST Council reports on revenue collection by state—shows macro trends; (2) RBI bulletin articles on informal sector credit—contextualises trader finances. Unpublished: (1) District Industries Centre internal registration records—directly covers local traders; (2) Local trade association meeting minutes (confidential)—captures ground-level concerns. A wrong answer listing only generic sources like \"internet\" or \"books\" without specific agency names reveals inability to match sources to research context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reliability of data from the Census of India versus data from a private blog quoting \"government sources\" for the same indicator (e.g., state-wise poverty ratio). What specific criteria would you use to judge which is more trustworthy?",
+     "a": "Census data is more reliable because: (1) Authority—statutory backing under Census Act 1948; (2) Methodology transparency—detailed sampling design published; (3) Periodicity—consistent decadal collection since 1881; (4) Cross-verification—post-enumeration surveys check accuracy. The blog lacks all four. A wrong answer saying \"both are government data so equally reliable\" shows failure to distinguish primary publishing agency from secondary citation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since secondary data is cheaper and faster to obtain, researchers should always prefer it over primary data for any economic study.\" Provide three specific scenarios where this advice would fail.",
+     "a": "The statement is flawed because secondary data may not match the researcher's specific needs. Three failure scenarios: (1) Studying consumer preference for a new product variant—no existing data exists; (2) Analysing micro-level caste-wise occupation data in a specific village—Census aggregates at district level; (3) Researching real-time inflation expectations—NSSO rounds have 2-3 year lags. A wrong answer listing only \"data may be outdated\" misses the deeper issues of relevance, granularity, and definitional mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (described in text) that a Class 11 student could follow to choose between published government reports, unpublished organisational records, and primary survey for a given research problem. Include at least four decision nodes with yes/no branches.",
+     "a": "Flowchart: Start → Is the required data already collected by a government agency for the same population and time period? (Yes → Use published report like Census/NSSO; No → Does a relevant organisation hold unpublished records accessible with permission? Yes → Request access to internal data; No → Do definitions, coverage, and recency match your research variables exactly? Yes → Use secondary with caveats; No → Conduct primary survey). A poor answer with only \"check if data exists\" misses the layered evaluation of definitions, access permissions, and variable alignment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

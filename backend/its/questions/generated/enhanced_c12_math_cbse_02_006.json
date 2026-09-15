@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_02_006",
+   "title": "c12_math_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the exact domain of $x$ for which the identity $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ is valid, and write the principal value range of each side.",
+     "a": "The identity holds for $x \\in [-1, 1]$. The left-hand side $2\\tan^{-1}x$ has range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ because $\\tan^{-1}x \\in [-\\frac{\\pi}{4}, \\frac{\\pi}{4}]$ for $x \\in [-1, 1]$. The right-hand side $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ also has range $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ by definition of the principal value branch of $\\sin^{-1}$. A wrong answer (e.g., stating domain as $\\mathbb{R}$ or range as $[-\\pi, \\pi]$) reveals the student has not checked the principal value branch compatibility — a critical error that leads to incorrect solutions in JEE problems where domain restrictions determine the number of valid solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the identity $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ fails for $x = 2$, even though both sides are mathematically defined as real numbers.",
+     "a": "For $x = 2$, $\\tan^{-1}2 \\approx 1.107$ radians, so $2\\tan^{-1}2 \\approx 2.214$ radians, which lies in $(\\frac{\\pi}{2}, \\pi)$. However, $\\sin^{-1}\\left(\\frac{4}{5}\\right) \\approx 0.927$ radians, which lies in $[0, \\frac{\\pi}{2}]$. The two sides differ by $\\pi - 2\\sin^{-1}\\frac{4}{5}$ because $\\sin^{-1}$ returns the principal value in $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, while $2\\tan^{-1}x$ for $x > 1$ exceeds $\\frac{\\pi}{2}$. A student who says \"both sides are defined so the identity holds\" confuses algebraic equality with functional equality under principal value restrictions — this is the most common error in board exams (1-mark loss) and JEE (wrong answer in MCQ).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x = \\frac{1}{\\sqrt{3}}$ using the identity, and verify by direct computation of $\\sin^{-1}$.",
+     "a": "Using the identity: $2\\tan^{-1}\\frac{1}{\\sqrt{3}} = 2 \\times \\frac{\\pi}{6} = \\frac{\\pi}{3}$.\nDirect verification: $\\frac{2x}{1+x^2} = \\frac{2/\\sqrt{3}}{1 + 1/3} = \\frac{2/\\sqrt{3}}{4/3} = \\frac{\\sqrt{3}}{2}$. Then $\\sin^{-1}\\frac{\\sqrt{3}}{2} = \\frac{\\pi}{3}$. Both give $\\frac{\\pi}{3}$.\nA wrong answer (e.g., $\\frac{2\\pi}{3}$ or $\\frac{\\pi}{6}$) reveals the student either forgot the factor of 2 in $2\\tan^{-1}x$ or miscomputed $\\frac{2x}{1+x^2}$ — both are algebraic slips that cost marks in multi-step simplification problems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the domains of validity for the three identities: (i) $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$, (ii) $2\\tan^{-1}x = \\cos^{-1}\\left(\\frac{1-x^2}{1+x^2}\\right)$, (iii) $2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1-x^2}\\right)$. Explain the pattern in terms of the principal value ranges of $\\sin^{-1}$, $\\cos^{-1}$, and $\\tan^{-1}$.",
+     "a": "(i) Domain: $[-1, 1]$ because $2\\tan^{-1}x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ matches $\\sin^{-1}$ range.\n(ii) Domain: $[0, \\infty)$ because $2\\tan^{-1}x \\in [0, \\pi)$ matches $\\cos^{-1}$ range $[0, \\pi]$.\n(iii) Domain: $(-1, 1)$ because $2\\tan^{-1}x \\in (-\\frac{\\pi}{2}, \\frac{\\pi}{2})$ matches $\\tan^{-1}$ range.\nThe pattern: the domain of $x$ is exactly those values for which $2\\tan^{-1}x$ falls within the principal value range of the inverse function on the RHS. A student who lists domains without linking to principal value ranges is memorising, not understanding — this fails in JEE problems where a modified identity with shifted ranges is tested.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since $\\sin(2\\tan^{-1}x) = \\frac{2x}{1+x^2}$ for all real $x$, applying $\\sin^{-1}$ to both sides gives $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for all real $x$.\" Identify the logical flaw and give a counterexample.",
+     "a": "The flaw: $\\sin^{-1}(\\sin y) = y$ only when $y \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. For $x > 1$, $2\\tan^{-1}x \\in (\\frac{\\pi}{2}, \\pi)$, so $\\sin^{-1}(\\sin(2\\tan^{-1}x)) = \\pi - 2\\tan^{-1}x \\ne 2\\tan^{-1}x$.\nCounterexample: $x = \\sqrt{3}$. LHS $= 2\\tan^{-1}\\sqrt{3} = 2 \\times \\frac{\\pi}{3} = \\frac{2\\pi}{3}$. RHS $= \\sin^{-1}\\left(\\frac{2\\sqrt{3}}{4}\\right) = \\sin^{-1}\\frac{\\sqrt{3}}{2} = \\frac{\\pi}{3}$. LHS $\\ne$ RHS.\nA student who misses this confuses the functional equation $\\sin^{-1}(\\sin y) = y$ (true only on principal branch) with the algebraic identity $\\sin y = \\frac{2x}{1+x^2}$ — this is the single most expensive misconception in inverse trigonometry, causing 4-6 mark losses in board exams and wrong answers in JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where the identity $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ simplifies an expression that initially contains both $\\tan^{-1}$ and $\\sin^{-1}$, and solve it completely.",
+     "a": "Problem: Simplify $\\sin^{-1}\\left(\\frac{2\\tan\\frac{\\pi}{8}}{1+\\tan^2\\frac{\\pi}{8}}\\right) - \\tan^{-1}1$.\nSolution: Recognise $\\frac{2\\tan\\theta}{1+\\tan^2\\theta}$ with $\\theta = \\frac{\\pi}{8}$. By identity, $\\sin^{-1}\\left(\\frac{2\\tan\\frac{\\pi}{8}}{1+\\tan^2\\frac{\\pi}{8}}\\right) = 2\\tan^{-1}\\tan\\frac{\\pi}{8} = 2 \\times \\frac{\\pi}{8} = \\frac{\\pi}{4}$ (since $\\frac{\\pi}{8} \\in [-\\frac{\\pi}{4}, \\frac{\\pi}{4}]$). Then $\\frac{\\pi}{4} - \\frac{\\pi}{4} = 0$.\nA poor answer computes numerically or fails to recognise the pattern — this tests whether the student can \"see\" the identity embedded in a non-standard form, a key skill for JEE Advanced comprehension passages.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

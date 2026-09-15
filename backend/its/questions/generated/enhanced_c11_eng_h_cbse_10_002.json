@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_10_002",
+   "title": "c11_eng_h_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the primary narrative form of \"The Voice of the Rain,\" and who are the two speakers in the dialogue?",
+     "a": "The poem uses a **dialogue form** (a conversation between two voices). The two speakers are **the poet/narrator** (who asks the question in the opening lines) and **the rain personified** (who answers in the subsequent stanzas). A wrong answer — such as \"first-person narrative\" or \"third-person description\" — reveals the student cannot distinguish a dramatic dialogue from a monologue or descriptive poem, and misses the central structural device Whitman employs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the rain's response structures the water cycle as a narrative with a beginning, middle, and end.",
+     "a": "The rain's speech follows the **chronological stages of the water cycle**: (1) **Beginning/Origin** — \"I am the Poem of Earth,\" rising invisibly from land and sea; (2) **Middle/Ascent & Transformation** — ascending to heaven, forming clouds, changing shape yet remaining the same essence; (3) **End/Descent & Renewal** — falling back to wash the drought, atomize dust, and give life to seeds, completing the cycle. A wrong answer that lists stages randomly or omits the return to origin shows the student sees the cycle as a list, not a narrative arc with causal progression.",
+     "self_check": true
+    },
+    {
+     "q": "Map each stanza of the poem to the corresponding stage of the water cycle. Use the table format: Stanza | Speaker | Water Cycle Stage | Key Action.",
+     "a": "| Stanza | Speaker | Water Cycle Stage | Key Action |\n|--------|---------|-------------------|------------|\n| 1 (lines 1–2) | Poet | — | Asks identity of the rain |\n| 2 (lines 3–8) | Rain | Evaporation / Origin | Rises impalpable from land/sea |\n| 3 (lines 9–12) | Rain | Condensation / Transformation | Ascends, forms clouds, changes shape |\n| 4 (lines 13–16) | Rain | Precipitation / Descent | Falls as rain, washes, gives life |\n| 5 (lines 17–18) | Rain | Completion / Return | Returns to origin, \"forever\" cyclic |\n\nA wrong mapping (e.g., putting condensation before evaporation) reveals the student cannot sequence natural processes narratively.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poem's **cyclical structure** (ending where it begins) reinforces its central idea. Refer to specific structural choices: repetition, framing, and the final word.",
+     "a": "The poem enacts circularity through three structural moves: (1) **Framing** — the rain's first line (\"I am the Poem of Earth\") and last line (\"I am the Poem of Earth\") are identical, closing the loop; (2) **Repetition of \"rise/ascend\" and \"fall/descend\"** — verbs mirror the up-down motion; (3) **Final word \"forever\"** — placed at the very end, it extends the cycle beyond the poem's close. A wrong answer that only says \"it repeats\" without linking repetition to the *theme of eternal renewal* misses the structural-semantic fusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Is the dialogue form essential to this poem, or could the same content be delivered as a monologue by the rain? Justify with two structural reasons.",
+     "a": "The dialogue form **is essential** for two structural reasons: (1) **Epistemic framing** — the poet's question (\"Who art thou?\") positions the rain as a *mystery to be revealed*, creating narrative tension that a monologue would lack; (2) **Dual perspective** — the human voice (finite, curious) contrasts with the rain's voice (eternal, certain), structurally enacting the poem's theme: nature's cycles exceed human time. A monologue would collapse this tension. A wrong answer claiming \"either works\" reveals the student treats form as decorative, not constitutive of meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 6-line dialogue poem between a human and a natural element (wind, river, mountain) that uses a **cyclical structure** — the natural element's final line must echo its first line.",
+     "a": "**Example (Wind):**\nHuman: \"Whence do you come, invisible one?\"\nWind: \"I am the Breath of Earth, born of pressure's kiss.\"\nHuman: \"Where do you go when the air is still?\"\nWind: \"I circle the globe, shaping dune and sea.\"\nHuman: \"Will you return when the calm is done?\"\nWind: \"I am the Breath of Earth, forever.\"\n\n**Criteria for a good answer:** (1) Two clear speakers, (2) Natural element personified, (3) Cyclical content (origin → journey → return), (4) First and last line of element's speech identical or near-identical. A poor answer lacks the echo or has no clear cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

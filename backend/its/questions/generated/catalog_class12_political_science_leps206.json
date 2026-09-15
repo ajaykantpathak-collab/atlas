@@ -1,0 +1,191 @@
+{
+ "catalog": "catalog_class12_political_science_leps206",
+ "concepts": [
+  {
+   "id": "leps.206.1.1",
+   "title": "Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike",
+   "questions": [
+    {
+     "q": "Using the method 'Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike', work with: gujarat_and_bihar_agitations = 25, jp_total_revolution = 500, railway_strike = 100. Carry the chain through step by step and give the final value of mass_unrest_1974.",
+     "a": "625 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike' and work with: gujarat_and_bihar_agitations = 12, jp_total_revolution = 240, railway_strike = 15. Carry the chain through step by step and give the final value of mass_unrest_1974.",
+     "a": "267 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike' refers to.",
+     "a": "By the early 1970s price rise, food scarcity and unemployment boiled over into student-led agitations in Gujarat and Bihar; Jayaprakash Narayan took over the Bihar movement, demanded the dismissal of the state government and called for Total Revolution, marched to Parliament in 1975 with the backing of the non-Congress opposition, and in May 1974 railway workers under George Fernandes struck nationwide for twenty days until the government declared the strike illegal and broke it without settlement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike'.",
+     "a": "Agitation politics and a government that saw every protest as personal attack or law-and-order trouble locked horns, setting the stage for the Emergency.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike', in plain ASCII form.",
+     "a": "mass_unrest_1974 = gujarat_and_bihar_agitations + jp_total_revolution + railway_strike",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.206.2.1",
+   "title": "Conflict with the Judiciary and the Committed Judiciary Debate",
+   "questions": [
+    {
+     "q": "Using the method 'Conflict with the Judiciary and the Committed Judiciary Debate', work with: basic_structure_doctrine = 45, committed_judiciary_talk = 240, supersession_of_senior_judges = 300. Carry the chain through step by step and give the final value of judicial_executive_conflict.",
+     "a": "585 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Conflict with the Judiciary and the Committed Judiciary Debate' and work with: basic_structure_doctrine = 20, committed_judiciary_talk = 200, supersession_of_senior_judges = 20. Carry the chain through step by step and give the final value of judicial_executive_conflict.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Conflict with the Judiciary and the Committed Judiciary Debate' refers to.",
+     "a": "Parliament and the Supreme Court clashed over whether Fundamental Rights could be abridged or property curtailed by amendment; the Court answered no in the Kesavananda Bharati case, holding that the Constitution's basic features cannot be amended away, and when the government then superseded three senior judges to appoint Justice A. N. Ray as Chief Justice in 1973, talk of a judiciary committed to the executive's vision deepened the constitutional crisis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Conflict with the Judiciary and the Committed Judiciary Debate'.",
+     "a": "Constitutional interpretation and political ideology merged dangerously when the ruling party expected loyalty from judges and officials.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Conflict with the Judiciary and the Committed Judiciary Debate', in plain ASCII form.",
+     "a": "judicial_executive_conflict = basic_structure_doctrine + supersession_of_senior_judges + committed_judiciary_talk",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.206.3.1",
+   "title": "From the Allahabad Judgment to the Declaration of Emergency",
+   "questions": [
+    {
+     "q": "Using the method 'From the Allahabad Judgment to the Declaration of Emergency', work with: allahabad_verdict = 20, article_352_proclamation = 400, jp_rally_and_satyagraha = 120. Carry the chain through step by step and give the final value of emergency_sequence.",
+     "a": "540 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'From the Allahabad Judgment to the Declaration of Emergency' and work with: allahabad_verdict = 80, article_352_proclamation = 100, jp_rally_and_satyagraha = 25. Carry the chain through step by step and give the final value of emergency_sequence.",
+     "a": "205 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'From the Allahabad Judgment to the Declaration of Emergency' refers to.",
+     "a": "On 12 June 1975 Justice Jagmohan Lal Sinha of the Allahabad High Court voided Indira Gandhi's election on Raj Narain's petition for using government servants in her campaign; after a partial Supreme Court stay, JP's Ramlila Ground rally of 25 June demanded her resignation, and that very night the government recommended Emergency under Article 352 on the ground of internal disturbance -- electricity to newspaper offices was cut, opposition leaders were arrested, and the Cabinet was informed only at 6 a.m. the next morning.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'From the Allahabad Judgment to the Declaration of Emergency'.",
+     "a": "A court verdict on one election became the trigger for suspending the democratic order itself.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'From the Allahabad Judgment to the Declaration of Emergency', in plain ASCII form.",
+     "a": "emergency_sequence = allahabad_verdict + jp_rally_and_satyagraha + article_352_proclamation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.206.4.1",
+   "title": "Emergency in Operation: Censorship, Detention and the 42nd Amendment",
+   "questions": [
+    {
+     "q": "Using the method 'Emergency in Operation: Censorship, Detention and the 42nd Amendment', work with: forty_second_amendment = 120, press_censorship = 100, preventive_detention = 40, suspended_fundamental_rights = 45. Carry the chain through step by step and give the final value of emergency_apparatus.",
+     "a": "305 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Emergency in Operation: Censorship, Detention and the 42nd Amendment' and work with: forty_second_amendment = 75, press_censorship = 24, preventive_detention = 500, suspended_fundamental_rights = 24. Carry the chain through step by step and give the final value of emergency_apparatus.",
+     "a": "623 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Emergency in Operation: Censorship, Detention and the 42nd Amendment' refers to.",
+     "a": "With Emergency proclaimed, federal powers concentrated in the Union, Fundamental Rights including the right to move courts stood suspended, the press faced prior-approval censorship, the RSS and Jamaat-e-Islami were banned, and preventive detention let the state jail people for offences merely apprehended; High Courts upheld habeas corpus until an April 1976 constitution bench overruled them, and Parliament added the 42nd amendment, extended legislative terms from five to six years and shielded elections of the Prime Minister, President and Vice-President from court challenge.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Emergency in Operation: Censorship, Detention and the 42nd Amendment'.",
+     "a": "The Emergency ruled through the police and administration, and the courts' doors were formally shut to the citizen until the judges themselves capitulated.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Emergency in Operation: Censorship, Detention and the 42nd Amendment', in plain ASCII form.",
+     "a": "emergency_apparatus = press_censorship + preventive_detention + suspended_fundamental_rights + forty_second_amendment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.206.5.1",
+   "title": "Lessons of the Emergency",
+   "questions": [
+    {
+     "q": "Using the method 'Lessons of the Emergency', work with: civil_liberties_awareness = 8, constitutional_safeguards = 5, resilience_of_democracy = 15. Carry the chain through step by step and give the final value of emergency_lessons.",
+     "a": "28 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lessons of the Emergency' and work with: civil_liberties_awareness = 75, constitutional_safeguards = 40, resilience_of_democracy = 10. Carry the chain through step by step and give the final value of emergency_lessons.",
+     "a": "125 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lessons of the Emergency' refers to.",
+     "a": "The Emergency taught three durable lessons: democracy in India proved extremely hard to abolish since normal functioning resumed quickly; the Constitution's ambiguities were repaired so that internal Emergency now requires grounds of armed rebellion and written Cabinet advice to the President; and civil liberties moved to the centre of public concern, with courts more active afterwards and civil liberties organisations founded -- though the Shah Commission's finding that administration and police had bent to political pressure remained unhealed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lessons of the Emergency'.",
+     "a": "The episode acted like a vaccination -- painful while it lasted, but it strengthened democratic resistance afterwards.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lessons of the Emergency', in plain ASCII form.",
+     "a": "emergency_lessons = resilience_of_democracy + constitutional_safeguards + civil_liberties_awareness",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.206.6.1",
+   "title": "1977 Elections and the Janata Interlude",
+   "questions": [
+    {
+     "q": "Using the method '1977 Elections and the Janata Interlude', work with: early_collapse = 6, factional_leadership_rivalry = 400, save_democracy_wave = 18. Carry the chain through step by step and give the final value of janata_experiment.",
+     "a": "424 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for '1977 Elections and the Janata Interlude' and work with: early_collapse = 200, factional_leadership_rivalry = 40, save_democracy_wave = 240. Carry the chain through step by step and give the final value of janata_experiment.",
+     "a": "480 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what '1977 Elections and the Janata Interlude' refers to.",
+     "a": "The March 1977 election became a referendum on the Emergency: the newly fused Janata Party under JP's moral leadership, joined by Jagjivan Ram's Congress for Democracy, swept 330 of 542 seats with 295 its own, reducing the Congress to 154 seats and under 35 per cent of votes, ousting Indira Gandhi from Rae Bareli; but the first non-Congress government under Morarji Desai split along Desai-Charan Singh-Jagjivan Ram lines, and after Desai's fall Charan Singh headed a minority ministry from July 1979 to January 1980 without ever facing Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about '1977 Elections and the Janata Interlude'.",
+     "a": "Voters punish governments perceived as anti-democratic, but a coalition born only of opposition to one ruler cannot govern long.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for '1977 Elections and the Janata Interlude', in plain ASCII form.",
+     "a": "janata_experiment = save_democracy_wave + factional_leadership_rivalry + early_collapse",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

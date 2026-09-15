@@ -1,0 +1,771 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 6,
+  "chapter_title": "Open Economy Macroeconomics",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.106.1.1",
+      "title": "Open Economy and Its Three Linkages",
+      "section": "6",
+      "definition": "An economy is open when residents trade goods and services abroad, buy and sell foreign financial assets, and workers and firms can locate across borders; the first two channels matter most for macro analysis.",
+      "formula": "open_economy_linkages = output_market + financial_market + labour_market",
+      "key_idea": "Openness lets buyers choose between home and foreign goods and investors choose between home and foreign assets.",
+      "textbook_ref": "leec106.txt, chapter opening, three linkages list, page 85",
+      "question_patterns": [
+        "name the channels through which an economy connects with other countries",
+        "how does trade in goods and in assets open up a domestic economy",
+        "why do imports act as a leakage and exports as an injection in the circular flow",
+        "give the three linkages of an open economy and say which two are studied",
+        "how does foreign trade change aggregate demand for domestic goods",
+        "in what ways can labour and capital move between countries"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the cross-border channels",
+          "explain": "Goods and services flow through the output market, funds through the financial market, and people through the labour market."
+        },
+        {
+          "step": 2,
+          "action": "Trace the demand effects",
+          "explain": "Spending on imports leaks out of the domestic income circuit while exports inject foreign demand into it."
+        },
+        {
+          "step": 3,
+          "action": "Note the analytic focus",
+          "explain": "Migration is restricted by law, so macro models emphasise the goods and asset channels."
+        }
+      ]
+    },
+    {
+      "id": "leec.106.1.2",
+      "title": "Balance of Payments: Current Account and Capital Account",
+      "section": "6.1",
+      "definition": "The balance of payments is the annual record of a country's transactions with the rest of the world, split into a current account covering goods, services and transfers, and a capital account covering asset purchases and sales such as FDI, portfolio flows and borrowings.",
+      "formula": "balance_of_payments = current_account + capital_account + errors_and_omissions",
+      "key_idea": "One book keeps two ledgers: flows of goods, services and gifts, and flows of claims on wealth.",
+      "textbook_ref": "leec106.txt, section 6.1 to 6.1.2, pages 87-89",
+      "question_patterns": [
+        "separate the ledger of goods services and gifts from the ledger of asset trades in a country's external accounts",
+        "where do remittances gifts and grants enter the balance of payments",
+        "which items of foreign investment appear on the capital account",
+        "why does buying a foreign company register as a debit on the capital account",
+        "explain the place of errors and omissions in the BoP accounts",
+        "how are trade in services and trade in assets recorded differently in external accounts"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Separate flows by nature",
+          "explain": "Trade in goods and services and unilateral transfers belong to the current account; trades in assets belong to the capital account."
+        },
+        {
+          "step": 2,
+          "action": "Classify each item as credit or debit",
+          "explain": "Flows bringing foreign currency in are credits, flows sending currency out are debits."
+        },
+        {
+          "step": 3,
+          "action": "Allow for the recording gap",
+          "explain": "Missed or misrecorded deals are gathered under errors and omissions so the accounts square."
+        }
+      ]
+    },
+    {
+      "id": "leec.106.1.3",
+      "title": "Balance of Trade, Net Invisibles and Current Account Balance",
+      "section": "6.1.1",
+      "definition": "The trade balance nets merchandise exports against merchandise imports; adding net invisibles - services trade, factor income and transfers - gives the current account balance, whose surplus marks a lender nation and whose deficit a borrower.",
+      "formula": "current_account_balance = trade_balance + net_invisibles",
+      "key_idea": "Goods trade plus invisible flows together decide whether the current account lends or borrows.",
+      "textbook_ref": "leec106.txt, section 6.1.1, balance on current account and Table 6.1, pages 87-91",
+      "question_patterns": [
+        "compute the current account balance from the trade balance and net invisibles",
+        "find the trade balance when merchandise exports and imports are given",
+        "what items make up the invisibles of the current account",
+        "exports of goods 150 imports 240 and net invisibles 52, work out the current account",
+        "differentiate balance of trade from current account balance",
+        "when is a country called a lender on current account"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Net the merchandise flows",
+          "explain": "Exports of goods minus imports of goods gives the trade balance, credit minus debit.",
+          "compute": "trade_balance = exports_of_goods - imports_of_goods"
+        },
+        {
+          "step": 2,
+          "action": "Total the invisible flows",
+          "explain": "Services, factor income and transfers sum to net invisibles.",
+          "compute": "net_invisibles = services_balance + income_balance + transfers_balance"
+        },
+        {
+          "step": 3,
+          "action": "Complete the current account",
+          "explain": "Adding net invisibles to the trade balance yields the current account balance.",
+          "compute": "current_account_balance = trade_balance + net_invisibles"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Balance of Trade, Net Invisibles and Current Account Balance, compute the result for exports_of_goods = 3, imports_of_goods = 3, services_balance = 3, income_balance = 2, transfers_balance = 2.",
+          "solution": "Step 1: Net the merchandise flows: trade_balance = exports_of_goods - imports_of_goods = 0.0 Step 2: Total the invisible flows: net_invisibles = services_balance + income_balance + transfers_balance = 7.0 Step 3: Complete the current account: current_account_balance = trade_balance + net_invisibles = 7.0 Final result: 7.0",
+          "answer": "7.0"
+        },
+        {
+          "question": "Using Balance of Trade, Net Invisibles and Current Account Balance, compute the result for exports_of_goods = 4, imports_of_goods = 4, services_balance = 4, income_balance = 3, transfers_balance = 3.",
+          "solution": "Step 1: Net the merchandise flows: trade_balance = exports_of_goods - imports_of_goods = 0.0 Step 2: Total the invisible flows: net_invisibles = services_balance + income_balance + transfers_balance = 10.0 Step 3: Complete the current account: current_account_balance = trade_balance + net_invisibles = 10.0 Final result: 10.0",
+          "answer": "10.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.1.4",
+      "title": "BoP Balance, Official Reserves and Overall Balance",
+      "section": "6.1.3",
+      "definition": "A current account gap must be met by a capital account surplus or by the central bank selling foreign exchange; the overall balance sums the current account, capital account and errors and omissions, and the matching change in official reserves records the BoP deficit or surplus.",
+      "formula": "overall_balance = current_account_balance + capital_account_balance + errors_and_omissions",
+      "key_idea": "The monetary authority is the final financier: reserve falls mark a BoP deficit, reserve rise a BoP surplus.",
+      "textbook_ref": "leec106.txt, section 6.1.3, BoP surplus and deficit, Table 6.1, pages 89-91",
+      "question_patterns": [
+        "compute the overall balance of payments from its three parts",
+        "how are current account deficits financed in the balance of payments",
+        "what are official reserve transactions and when are they used",
+        "find the change in reserves implied by an overall BoP deficit",
+        "why must the current account and capital account mirror each other",
+        "current account minus 38 capital account plus 41.15 and errors 3.15, find the overall balance"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sum the account balances",
+          "explain": "Current account balance plus capital account balance plus errors and omissions gives the overall balance.",
+          "compute": "overall_balance = current_account_balance + capital_account_balance + errors_and_omissions"
+        },
+        {
+          "step": 2,
+          "action": "Read the reserve change",
+          "explain": "An overall balance below zero is met by official reserve sales (a BoP deficit); above zero reserves accumulate (a BoP surplus).",
+          "compute": "change_in_reserves = -overall_balance"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using BoP Balance, Official Reserves and Overall Balance, compute the result for current_account_balance = 3, capital_account_balance = 3, errors_and_omissions = 3.",
+          "solution": "Step 1: Sum the account balances: overall_balance = current_account_balance + capital_account_balance + errors_and_omissions = 9.0 Step 2: Read the reserve change: change_in_reserves = -overall_balance = -9.0 Final result: -9.0",
+          "answer": "-9.0"
+        },
+        {
+          "question": "Using BoP Balance, Official Reserves and Overall Balance, compute the result for current_account_balance = 4, capital_account_balance = 4, errors_and_omissions = 4.",
+          "solution": "Step 1: Sum the account balances: overall_balance = current_account_balance + capital_account_balance + errors_and_omissions = 12.0 Step 2: Read the reserve change: change_in_reserves = -overall_balance = -12.0 Final result: -12.0",
+          "answer": "-12.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.1.5",
+      "title": "Autonomous and Accommodating Transactions",
+      "section": "6.1.3",
+      "definition": "Transactions undertaken for their own sake - profit, consumption or investment motives - are autonomous and sit above the line; those undertaken to cover whatever gap the autonomous flows leave, chiefly official reserve moves, are accommodating and sit below the line.",
+      "formula": "BoP_gap = autonomous_receipts - autonomous_payments",
+      "key_idea": "Only above-the-line items reveal a true BoP surplus or deficit; below-the-line items simply finance it.",
+      "textbook_ref": "leec106.txt, section 6.1.3, autonomous and accommodating transactions, page 90",
+      "question_patterns": [
+        "separate autonomous from accommodating transactions in the BoP",
+        "why are official reserve transactions called accommodating",
+        "what are above the line and below the line items",
+        "when is the balance of payments said to be in deficit in terms of autonomous items",
+        "give examples of transactions made for profit rather than to cover a BoP gap",
+        "how does the state of the BoP itself determine accommodating flows"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ask about the motive",
+          "explain": "Flows driven by profit or consumption motives are autonomous, independent of the BoP position."
+        },
+        {
+          "step": 2,
+          "action": "Identify the gap fillers",
+          "explain": "Flows whose size depends on the BoP gap - reserve sales or purchases - are accommodating."
+        },
+        {
+          "step": 3,
+          "action": "Judge the BoP position",
+          "explain": "Autonomous receipts above payments signal a BoP surplus; below, a deficit that accommodating items must close."
+        }
+      ]
+    },
+    {
+      "id": "leec.106.2.1",
+      "title": "Foreign Exchange Rate and the Forex Market",
+      "section": "6.2.1",
+      "definition": "The foreign exchange rate is the price of one currency in terms of another, quoted in a worldwide market of banks, brokers and monetary authorities; residents demand forex to buy foreign goods, gifts and assets, while exports, remittances and asset sales supply it.",
+      "formula": "rupee_cost_of_import = foreign_price * exchange_rate_rupees_per_dollar",
+      "key_idea": "A dearer dollar makes imports costlier in rupees and Indian goods cheaper in dollars, moving both sides of the market.",
+      "textbook_ref": "leec106.txt, section 6.2 and 6.2.1, pages 91-92",
+      "question_patterns": [
+        "define the foreign exchange rate and name the market where currencies trade",
+        "why do residents demand foreign exchange",
+        "which flows supply foreign currency to the home country",
+        "how does a rise in the rupee price of the dollar affect imports and exports",
+        "convert a dollar price into rupees at a given exchange rate",
+        "who are the main participants in the foreign exchange market"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Translate the foreign price",
+          "explain": "Multiplying the foreign-currency price by the rupees-per-dollar rate gives the home-currency cost.",
+          "compute": "rupee_cost_of_import = foreign_price * exchange_rate_rupees_per_dollar"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Foreign Exchange Rate and the Forex Market, compute the result for foreign_price = 3, exchange_rate_rupees_per_dollar = 3.",
+          "solution": "Step 1: Translate the foreign price: rupee_cost_of_import = foreign_price * exchange_rate_rupees_per_dollar = 9.0 Final result: 9.0",
+          "answer": "9.0"
+        },
+        {
+          "question": "Using Foreign Exchange Rate and the Forex Market, compute the result for foreign_price = 4, exchange_rate_rupees_per_dollar = 4.",
+          "solution": "Step 1: Translate the foreign price: rupee_cost_of_import = foreign_price * exchange_rate_rupees_per_dollar = 16.0 Final result: 16.0",
+          "answer": "16.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.2.2",
+      "title": "Flexible Exchange Rates: Depreciation and Appreciation",
+      "section": "6.2.2",
+      "definition": "Under a floating regime the exchange rate settles where currency demand meets supply; when more rupees are needed per dollar the rupee has depreciated, when fewer are needed it has appreciated, and shifts in import demand, interest differentials, income growth and speculation move the rate.",
+      "formula": "currency_movement = direction_of(exchange_rate_rupees_per_dollar) (up = depreciation of rupee)",
+      "key_idea": "Market forces alone set the rate, and a higher rupee price of the dollar is precisely a weaker rupee.",
+      "textbook_ref": "leec106.txt, section 6.2.2, flexible rate, speculation, interest and income effects, pages 92-94",
+      "question_patterns": [
+        "how is the exchange rate determined under a flexible regime",
+        "what does depreciation of the domestic currency mean",
+        "when does the rupee appreciate against the dollar",
+        "how does a rise in home interest rates move the exchange rate",
+        "explain how speculation can be self-fulfilling in currency markets",
+        "why does faster domestic income growth tend to depreciate the currency"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the market outcome",
+          "explain": "Demand and supply of foreign currency intersect to fix the flexible exchange rate without central bank action."
+        },
+        {
+          "step": 2,
+          "action": "Read a rise in the rate",
+          "explain": "More rupees per dollar is rupee depreciation - foreign goods dearer at home, home goods cheaper abroad."
+        },
+        {
+          "step": 3,
+          "action": "Read a fall in the rate",
+          "explain": "Fewer rupees per dollar is rupee appreciation, the mirror image with imports cheaper and exports dearer abroad."
+        }
+      ]
+    },
+    {
+      "id": "leec.106.2.3",
+      "title": "Fixed Rates, Devaluation, Revaluation and Managed Floating",
+      "section": "6.2.2",
+      "definition": "A government may peg the exchange rate, buying or selling reserves to absorb any gap between market demand and supply; raising the peg cheapens the currency (devaluation), lowering it strengthens the peg (revaluation), and most countries now mix the two in a managed float, with inadequate reserves inviting speculative attacks.",
+      "formula": "peg_gap = supply_of_dollars - demand_for_dollars (absorbed by central bank intervention)",
+      "key_idea": "A peg is only as strong as the reserves behind it, and intermittent intervention describes today's dirty float.",
+      "textbook_ref": "leec106.txt, section 6.2.2 fixed rates, 6.2.3 merits and demerits, 6.2.4 managed floating, pages 94-96",
+      "question_patterns": [
+        "differentiate devaluation from depreciation of a currency",
+        "what must the central bank do to hold a fixed exchange rate",
+        "why are fixed rates prone to speculative attack",
+        "compare the merits of fixed and flexible exchange rate systems",
+        "what is managed floating and why is it called dirty floating",
+        "how does the government make the rupee cheaper to promote exports under a peg"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spot the peg and the gap",
+          "explain": "At a pegged rate the market does not clear; the excess supply or demand of dollars measures the intervention need."
+        },
+        {
+          "step": 2,
+          "action": "Classify official action",
+          "explain": "Buying dollars with rupees supports a cheaper currency and builds reserves; selling reserves defends an expensive peg."
+        },
+        {
+          "step": 3,
+          "action": "Name deliberate re-peggings",
+          "explain": "A government decision to raise the peg is devaluation, to lower it revaluation; today most regimes intervene only occasionally, the managed float."
+        }
+      ]
+    },
+    {
+      "id": "leec.106.2.4",
+      "title": "Purchasing Power Parity Theory",
+      "section": "6.2.2",
+      "definition": "In the long run, with trade barriers absent, exchange rates adjust until an identical product costs the same everywhere once converted, so the rupee-dollar rate should equal the ratio of the good's rupee price to its dollar price and then track relative inflation.",
+      "formula": "ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good",
+      "key_idea": "Equal purchasing power everywhere is the long-run anchor: the currency of the higher-inflation country depreciates.",
+      "textbook_ref": "leec106.txt, section 6.2.2, exchange rates in the long run and Example 6.1, pages 94-95",
+      "question_patterns": [
+        "find the exchange rate implied by purchasing power parity for a traded good",
+        "state the purchasing power parity theory of long-run exchange rates",
+        "a shirt costs 400 rupees in India and 8 dollars in the US, what rate does PPP predict",
+        "what happens to the exchange rate when home inflation runs faster than foreign inflation",
+        "why must a too-high or too-low rate send all trade to one country under PPP",
+        "recompute the PPP rate after prices rise differently in the two countries"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ratio the two national prices",
+          "explain": "The rupee price of the good divided by its dollar price is the PPP exchange rate in rupees per dollar.",
+          "compute": "ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Purchasing Power Parity Theory, compute the result for domestic_price_of_good = 3, foreign_price_of_good = 3.",
+          "solution": "Step 1: Ratio the two national prices: ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Purchasing Power Parity Theory, compute the result for domestic_price_of_good = 4, foreign_price_of_good = 4.",
+          "solution": "Step 1: Ratio the two national prices: ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.2.5",
+      "title": "Nominal versus Real Exchange Rate",
+      "section": "6.2",
+      "definition": "The nominal rate quotes currency for currency, while the real exchange rate multiplies the nominal rate by the foreign-to-domestic price level ratio, measuring how many domestic goods one foreign good costs - the figure that matters for buying decisions.",
+      "formula": "real_exchange_rate = nominal_exchange_rate * foreign_price_level / domestic_price_level",
+      "key_idea": "Only the real rate says whether foreign goods are actually dearer; nominal rates ignore price levels.",
+      "textbook_ref": "leec106.txt, key concepts list and exercise 4, pages 96-97",
+      "question_patterns": [
+        "distinguish the nominal exchange rate from the real exchange rate",
+        "calculate the real exchange rate from the nominal rate and both price levels",
+        "which rate matters when choosing between domestic and foreign goods",
+        "express the price of foreign goods in units of domestic goods",
+        "why can the real rate fall even while the nominal rate is unchanged",
+        "compute the real rupee-yen rate from a yen-per-rupee quote and two price levels"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Convert the nominal quote",
+          "explain": "If the quote is yen per rupee, its reciprocal gives rupees per yen for the nominal rate.",
+          "compute": "nominal_rate_rupees_per_yen = 1 / quoted_yen_per_rupee"
+        },
+        {
+          "step": 2,
+          "action": "Adjust for the two price levels",
+          "explain": "Multiplying the nominal rate by foreign prices over domestic prices gives the real exchange rate - foreign goods per domestic good.",
+          "compute": "real_exchange_rate = nominal_rate_rupees_per_yen * foreign_price_level / domestic_price_level"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Nominal versus Real Exchange Rate, compute the result for quoted_yen_per_rupee = 3, foreign_price_level = 3, domestic_price_level = 3.",
+          "solution": "Step 1: Convert the nominal quote: nominal_rate_rupees_per_yen = 1 / quoted_yen_per_rupee = 0.333333 Step 2: Adjust for the two price levels: real_exchange_rate = nominal_rate_rupees_per_yen * foreign_price_level / domestic_price_level = 0.333333 Final result: 0.333333",
+          "answer": "0.333333"
+        },
+        {
+          "question": "Using Nominal versus Real Exchange Rate, compute the result for quoted_yen_per_rupee = 4, foreign_price_level = 4, domestic_price_level = 4.",
+          "solution": "Step 1: Convert the nominal quote: nominal_rate_rupees_per_yen = 1 / quoted_yen_per_rupee = 0.25 Step 2: Adjust for the two price levels: real_exchange_rate = nominal_rate_rupees_per_yen * foreign_price_level / domestic_price_level = 0.25 Final result: 0.25",
+          "answer": "0.25"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.3.1",
+      "title": "National Income Identity for an Open Economy",
+      "section": "6.1 Appendix",
+      "definition": "With trade, domestic output absorbed at home equals consumption, investment and government spending minus the part falling on foreign goods, plus exports; net exports - exports minus imports - capture the trade surplus or deficit inside the identity.",
+      "formula": "gdp_open = consumption + investment + government_spending + net_exports",
+      "key_idea": "Exports add foreign demand for domestic goods while imports divert demand abroad, and their difference is net exports.",
+      "textbook_ref": "leec106.txt, Appendix 6.1, equations 6.1 to 6.4, pages 98-99",
+      "question_patterns": [
+        "write the national income identity for an open economy",
+        "compute net exports and say whether trade is in surplus or deficit",
+        "why are imports subtracted in the open economy demand identity",
+        "how does demand for domestic goods differ from domestic demand for goods",
+        "add exports and imports to the closed economy equation",
+        "positive net exports indicate which trade position"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Net the foreign trade flows",
+          "explain": "Exports minus imports leaves net exports, positive for a trade surplus and negative for a deficit.",
+          "compute": "net_exports = exports - imports"
+        },
+        {
+          "step": 2,
+          "action": "Fold trade into domestic demand",
+          "explain": "Adding net exports to consumption, investment and government spending gives open-economy output.",
+          "compute": "gdp_open = consumption + investment + government_spending + net_exports"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using National Income Identity for an Open Economy, compute the result for exports = 3, imports = 3, consumption = 3, investment = 2, government_spending = 2.",
+          "solution": "Step 1: Net the foreign trade flows: net_exports = exports - imports = 0.0 Step 2: Fold trade into domestic demand: gdp_open = consumption + investment + government_spending + net_exports = 7.0 Final result: 7.0",
+          "answer": "7.0"
+        },
+        {
+          "question": "Using National Income Identity for an Open Economy, compute the result for exports = 4, imports = 4, consumption = 4, investment = 3, government_spending = 3.",
+          "solution": "Step 1: Net the foreign trade flows: net_exports = exports - imports = 0.0 Step 2: Fold trade into domestic demand: gdp_open = consumption + investment + government_spending + net_exports = 10.0 Final result: 10.0",
+          "answer": "10.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.3.2",
+      "title": "Marginal Propensity to Import and Open Economy Equilibrium",
+      "section": "6.1 Appendix",
+      "definition": "Imports rise with income: the fraction of an extra rupee spent on foreign goods is the marginal propensity to import, an additional leakage that shrinks equilibrium income to autonomous spending divided by one minus the propensity to consume plus the propensity to import.",
+      "formula": "equilibrium_income_open = autonomous_expenditure / total_leakage_rate",
+      "key_idea": "Every round of induced spending now leaks partly abroad, so income settles at a lower multiple of autonomous demand.",
+      "textbook_ref": "leec106.txt, Appendix 6.1, equations 6.5 to 6.9, pages 98-99",
+      "question_patterns": [
+        "find the marginal propensity to import from the import function",
+        "compute equilibrium income in an open economy with a given import function",
+        "what is the relation between the marginal propensity to import and aggregate demand",
+        "income rises by 100 and imports rise by 6, what is the propensity to import",
+        "solve the open economy equilibrium with consumption taxes investment government exports and imports given",
+        "how does the import leakage change the demand line slope"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read the slope of the import function",
+          "explain": "In imports equal autonomous imports plus m times income, the coefficient m is the marginal propensity to import.",
+          "compute": "imports = autonomous_imports + marginal_propensity_to_import * income"
+        },
+        {
+          "step": 2,
+          "action": "Add up all income leakages",
+          "explain": "Saving plus imports taken out of each extra rupee form the total leakage that scales down the multiplier.",
+          "compute": "total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import"
+        },
+        {
+          "step": 3,
+          "action": "Solve for open-economy income",
+          "explain": "Autonomous expenditure divided by the total leakage rate gives equilibrium income in the open economy.",
+          "compute": "equilibrium_income_open = autonomous_expenditure / total_leakage_rate"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Marginal Propensity to Import and Open Economy Equilibrium, compute the result for autonomous_imports = 3, marginal_propensity_to_import = 3, income = 3, marginal_propensity_to_save = 2, autonomous_expenditure = 2.",
+          "solution": "Step 1: Read the slope of the import function: imports = autonomous_imports + marginal_propensity_to_import * income = 12.0 Step 2: Add up all income leakages: total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import = 5.0 Step 3: Solve for open-economy income: equilibrium_income_open = autonomous_expenditure / total_leakage_rate = 0.4 Final result: 0.4",
+          "answer": "0.4"
+        },
+        {
+          "question": "Using Marginal Propensity to Import and Open Economy Equilibrium, compute the result for autonomous_imports = 4, marginal_propensity_to_import = 4, income = 4, marginal_propensity_to_save = 3, autonomous_expenditure = 3.",
+          "solution": "Step 1: Read the slope of the import function: imports = autonomous_imports + marginal_propensity_to_import * income = 20.0 Step 2: Add up all income leakages: total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import = 7.0 Step 3: Solve for open-economy income: equilibrium_income_open = autonomous_expenditure / total_leakage_rate = 0.428571 Final result: 0.428571",
+          "answer": "0.428571"
+        }
+      ]
+    },
+    {
+      "id": "leec.106.3.3",
+      "title": "Open Economy Multiplier and the Net Export Balance",
+      "section": "6.1 Appendix",
+      "definition": "Because part of each round's spending leaks into imports, the open economy multiplier - one over the saving plus import leakages - is smaller than the closed economy one, and equilibrium net exports fall whenever domestic income rises through the import function.",
+      "formula": "open_economy_multiplier = 1 / total_leakage_rate",
+      "key_idea": "The import leakage mutes the multiplier, and export shocks help income while import shocks hurt it.",
+      "textbook_ref": "leec106.txt, Appendix 6.1, equations 6.10 to 6.14 and Example 6.2, pages 99-100",
+      "question_patterns": [
+        "calculate the open economy multiplier for given propensities to save and import",
+        "why is the open economy multiplier smaller than the closed economy one",
+        "compare income effects of a shock with c 0.8 and m 0.3 in open and closed settings",
+        "find the effect of an export rise on equilibrium income",
+        "compute the net export balance at equilibrium income",
+        "how does a rise in autonomous imports affect domestic output and trade balance"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sum the two leakages",
+          "explain": "The saving fraction and the import fraction together drain each round of spending.",
+          "compute": "total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import"
+        },
+        {
+          "step": 2,
+          "action": "Invert for the multiplier",
+          "explain": "One over the combined leakage gives the smaller open-economy multiplier - for c 0.8 and m 0.3 it is 2, not 5.",
+          "compute": "open_economy_multiplier = 1 / total_leakage_rate"
+        },
+        {
+          "step": 3,
+          "action": "Value net exports at the new income",
+          "explain": "Exports minus autonomous imports minus m times equilibrium income gives the trade balance at equilibrium.",
+          "compute": "net_export_balance = exports - autonomous_imports - marginal_propensity_to_import * equilibrium_income_open"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Open Economy Multiplier and the Net Export Balance, compute the result for marginal_propensity_to_save = 3, marginal_propensity_to_import = 3, exports = 3, autonomous_imports = 2, equilibrium_income_open = 2.",
+          "solution": "Step 1: Sum the two leakages: total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import = 6.0 Step 2: Invert for the multiplier: open_economy_multiplier = 1 / total_leakage_rate = 0.166667 Step 3: Value net exports at the new income: net_export_balance = exports - autonomous_imports - marginal_propensity_to_import * equilibrium_income_open = -5.0 Final result: -5.0",
+          "answer": "-5.0"
+        },
+        {
+          "question": "Using Open Economy Multiplier and the Net Export Balance, compute the result for marginal_propensity_to_save = 4, marginal_propensity_to_import = 4, exports = 4, autonomous_imports = 3, equilibrium_income_open = 3.",
+          "solution": "Step 1: Sum the two leakages: total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import = 8.0 Step 2: Invert for the multiplier: open_economy_multiplier = 1 / total_leakage_rate = 0.125 Step 3: Value net exports at the new income: net_export_balance = exports - autonomous_imports - marginal_propensity_to_import * equilibrium_income_open = -11.0 Final result: -11.0",
+          "answer": "-11.0"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec106.txt Table 6.1 balance of payments for India",
+      "concept": "leec.106.1.3",
+      "question_type": "compute",
+      "question_pattern": "Exports of goods are 150, imports of goods 240, and net invisibles 52, all in million USD. Find the trade balance and the current account balance.",
+      "extracted_variables": {
+        "exports_of_goods": 150,
+        "imports_of_goods": 240,
+        "services_balance": 30,
+        "income_balance": -10,
+        "transfers_balance": 32
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Trade balance",
+          "explain": "150 minus 240 leaves minus 90, a trade deficit.",
+          "compute": "trade_balance = exports_of_goods - imports_of_goods"
+        },
+        {
+          "step": 2,
+          "action": "Net invisibles",
+          "explain": "30 minus 10 plus 32 gives 52.",
+          "compute": "net_invisibles = services_balance + income_balance + transfers_balance"
+        },
+        {
+          "step": 3,
+          "action": "Current account balance",
+          "explain": "Minus 90 plus 52 gives minus 38, a current account deficit financed by capital inflows.",
+          "compute": "current_account_balance = trade_balance + net_invisibles"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec106.txt Example 6.1 PPP shirt prices",
+      "concept": "leec.106.2.4",
+      "question_type": "compute",
+      "question_pattern": "A shirt costs 8 dollars in the US and 400 rupees in India. What rupee-dollar rate does PPP imply, and what rate follows after Indian prices rise to 480 and US prices to 12 dollars?",
+      "extracted_variables": {
+        "domestic_price_of_good": 480,
+        "foreign_price_of_good": 12
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Initial PPP rate",
+          "explain": "400 over 8 gives 50 rupees per dollar.",
+          "compute": "initial_ppp_rate = 400 / 8"
+        },
+        {
+          "step": 2,
+          "action": "PPP rate after inflation",
+          "explain": "480 over 12 gives 40 rupees per dollar; because Indian inflation was slower, the dollar has depreciated.",
+          "compute": "ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec106.txt Appendix Example 6.2",
+      "concept": "leec.106.3.3",
+      "question_type": "compute",
+      "question_pattern": "With MPC 0.8 and marginal propensity to import 0.3, compare the closed and open economy multipliers for a 100 rise in autonomous demand.",
+      "extracted_variables": {
+        "marginal_propensity_to_save": 0.2,
+        "marginal_propensity_to_import": 0.3,
+        "change_in_autonomous_expenditure": 100
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Combined leakage",
+          "explain": "0.2 plus 0.3 gives 0.5.",
+          "compute": "total_leakage_rate = marginal_propensity_to_save + marginal_propensity_to_import"
+        },
+        {
+          "step": 2,
+          "action": "Open economy multiplier",
+          "explain": "One over 0.5 gives 2.",
+          "compute": "open_economy_multiplier = 1 / total_leakage_rate"
+        },
+        {
+          "step": 3,
+          "action": "Income change",
+          "explain": "2 times 100 gives 200, against 500 in the closed economy.",
+          "compute": "change_in_income = open_economy_multiplier * change_in_autonomous_expenditure"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec106-ex1",
+      "source_ref": "leec106.txt exercise 1",
+      "questions": [
+        "Set the balance of trade against the current account balance."
+      ]
+    },
+    {
+      "id": "leec106-ex2",
+      "source_ref": "leec106.txt exercise 2",
+      "questions": [
+        "What are official reserve transactions and why do they matter in the BoP?"
+      ]
+    },
+    {
+      "id": "leec106-ex3",
+      "source_ref": "leec106.txt exercise 3",
+      "questions": [
+        "Contrast nominal and real exchange rates and say which guides a choice between home and foreign goods."
+      ]
+    },
+    {
+      "id": "leec106-ex4",
+      "source_ref": "leec106.txt exercise 4",
+      "questions": [
+        "With 1.25 yen per rupee, Japan's price level 3 and India's 1.2, calculate the real exchange rate of Japanese goods in terms of Indian goods."
+      ]
+    },
+    {
+      "id": "leec106-ex5",
+      "source_ref": "leec106.txt exercise 5",
+      "questions": [
+        "Explain the automatic adjustment to BoP equilibrium under the gold standard."
+      ]
+    },
+    {
+      "id": "leec106-ex6",
+      "source_ref": "leec106.txt exercise 6",
+      "questions": [
+        "How is the exchange rate settled in a flexible exchange rate regime?"
+      ]
+    },
+    {
+      "id": "leec106-ex7",
+      "source_ref": "leec106.txt exercise 7",
+      "questions": [
+        "Tell devaluation and depreciation apart."
+      ]
+    },
+    {
+      "id": "leec106-ex8",
+      "source_ref": "leec106.txt exercise 8",
+      "questions": [
+        "Would a central bank still intervene under managed floating? Justify."
+      ]
+    },
+    {
+      "id": "leec106-ex9",
+      "source_ref": "leec106.txt exercise 9",
+      "questions": [
+        "Are demand for domestic goods and domestic demand for goods the same concept?"
+      ]
+    },
+    {
+      "id": "leec106-ex10",
+      "source_ref": "leec106.txt exercise 10",
+      "questions": [
+        "For imports given by 60 plus 0.06 times income, state the marginal propensity to import and its link with the aggregate demand function."
+      ]
+    },
+    {
+      "id": "leec106-ex11",
+      "source_ref": "leec106.txt exercise 11",
+      "questions": [
+        "Why does opening the economy shrink the autonomous expenditure multiplier?"
+      ]
+    },
+    {
+      "id": "leec106-ex12",
+      "source_ref": "leec106.txt exercise 12",
+      "questions": [
+        "Derive the open economy multiplier when taxes are proportional, T equals t times Y."
+      ]
+    },
+    {
+      "id": "leec106-ex13",
+      "source_ref": "leec106.txt exercise 13",
+      "questions": [
+        "For C 40 plus 0.8 times disposable income, T 50, I 60, G 40, X 90 and M 50 plus 0.05 times Y, find equilibrium income and the net export balance, then trace a rise in purchases from 40 to 50."
+      ]
+    },
+    {
+      "id": "leec106-ex14",
+      "source_ref": "leec106.txt exercise 14",
+      "questions": [
+        "If exports rise to 100 in the previous economy, find the new equilibrium income and net export balance."
+      ]
+    },
+    {
+      "id": "leec106-ex15",
+      "source_ref": "leec106.txt exercise 15",
+      "questions": [
+        "The rupee-dollar rate was 30 in 2010; Indian prices double by 2030 while US prices stay fixed. Apply purchasing power parity to predict the 2030 rate."
+      ]
+    },
+    {
+      "id": "leec106-ex16",
+      "source_ref": "leec106.txt exercise 16",
+      "questions": [
+        "With fixed exchange rates and inflation higher in country A than B, what should happen to their bilateral trade balance?"
+      ]
+    },
+    {
+      "id": "leec106-ex17",
+      "source_ref": "leec106.txt exercise 17",
+      "questions": [
+        "Should a current account deficit be a matter of alarm? Explain."
+      ]
+    },
+    {
+      "id": "leec106-ex18",
+      "source_ref": "leec106.txt exercise 18",
+      "questions": [
+        "For C 100 plus 0.75 times disposable income, I 500, G 750, taxes 20 percent of income, X 150 and M 100 plus 0.2 times Y, compute equilibrium income, the budget position and the trade position."
+      ]
+    },
+    {
+      "id": "leec106-ex19",
+      "source_ref": "leec106.txt exercise 19",
+      "questions": [
+        "Review the exchange rate arrangements countries have adopted to steady their external accounts."
+      ]
+    }
+  ]
+}

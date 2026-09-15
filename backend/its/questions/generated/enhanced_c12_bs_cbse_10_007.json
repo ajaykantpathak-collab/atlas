@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_007",
+   "title": "c12_bs_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the three statutory objectives of SEBI as per Section 11 of the SEBI Act, 1992.",
+     "a": "The three statutory objectives are: (1) Protection of interests of investors in securities, (2) Promotion of development of the securities market, (3) Regulation of the securities market. A wrong answer (e.g., \"controlling stock prices\" or \"managing mutual funds\") reveals the student confuses SEBI's role with operational market activities or other regulators (RBI, IRDAI). It shows lack of precision in legal terminology — \"investor protection\" is not \"consumer protection\" generally; \"market development\" is not \"market promotion\" in a commercial sense.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"SEBI's main job is to regulate stock exchanges.\" Explain why this statement is incomplete and misleading, using the three-objective framework.",
+     "a": "The statement reduces SEBI to only *one* of its three statutory objectives (regulation) and ignores investor protection and market development, which are equally mandated by law. It also confuses \"regulating stock exchanges\" (one regulatory function) with the broader \"regulation of the securities market\" (which includes intermediaries, issuers, insider trading, takeovers, etc.). A student giving this answer has memorised a fragment without understanding the legislative mandate's tripod structure. The correct framing: SEBI regulates stock exchanges *as a means* to achieve all three objectives — not as an end in itself.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following SEBI actions into Regulatory, Developmental, or Protective function. Justify each classification in one sentence.\n(a) Issuing the ICDR Regulations, 2018 for public issues\n(b) Launching the SCORES platform for investor complaints\n(c) Mandating T+1 settlement cycle\n(d) Prohibiting insider trading under PIT Regulations, 2015",
+     "a": "(a) Regulatory — ICDR prescribes mandatory disclosure and procedural rules for capital raising, directly regulating issuer behaviour. (b) Protective — SCORES provides a redressal mechanism for aggrieved investors, directly serving investor protection. (c) Developmental — T+1 settlement modernises market infrastructure, reduces settlement risk, and enhances market efficiency (development). (d) Protective (primarily) and Regulatory — PIT Regulations prohibit unfair trading practices to protect investors from information asymmetry, while also regulating market conduct. A wrong classification (e.g., calling ICDR \"developmental\" because it \"develops the primary market\") shows confusion between *regulating a process* vs *building market capacity*. The test: Does the action primarily *constrain/standardise behaviour* (regulatory), *build capacity/infrastructure/awareness* (developmental), or *shield investors from harm/redress grievances* (protective)?",
+     "self_check": true
+    },
+    {
+     "q": "Compare SEBI's approach to investor protection under the *Protective* function with the Consumer Protection Act, 2019 approach. Identify two fundamental differences in scope and mechanism.",
+     "a": "Difference 1: Scope — SEBI's investor protection is *ex-ante and market-structural* (preventing fraud via disclosure norms, fit-and-proper criteria for intermediaries, insider trading bans), while CPA is primarily *ex-post and transactional* (redressal after defective service/goods). Difference 2: Mechanism — SEBI uses *administrative enforcement* (orders, penalties, debarment, disgorgement) by a specialised regulator, while CPA uses *quasi-judicial consumer commissions* (district/state/national) with compensation focus. A student who says \"both protect consumers\" misses the *securities-specific preventive architecture* (e.g., prospectus liability, continuous disclosure) that has no parallel in general consumer law.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"SEBI's developmental functions are secondary to its regulatory functions because regulation ensures market integrity, which is the prerequisite for development.\" Argue for or against with two specific examples.",
+     "a": "The statement is **false** — the SEBI Act places all three objectives on equal statutory footing (Section 11), and developmental functions are not subordinate. Example 1: T+1 settlement (developmental) *enabled* better risk management, which *strengthened* regulation — they co-evolved. Example 2: Investor education programmes (developmental) reduce the *need* for enforcement by creating informed investors who don't fall for Ponzi schemes — prevention via development reduces regulatory burden. A student agreeing with the statement reveals a hierarchical mindset (\"regulation first, development later\") that contradicts the Act's integrated design. The correct view: the three functions are *simultaneous and mutually reinforcing* — e.g., the ICDR Regulations (regulatory) were *developed* through market consultation (developmental) to *protect* retail investors from misleading offers (protective).",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical SEBI regulatory response to a new market innovation: \"Social Trading Platforms\" where retail investors auto-copy trades of \"star traders\" in real-time. Specify: (a) Which objective(s) are primarily at risk? (b) One regulatory, one developmental, and one protective measure SEBI should introduce.",
+     "a": "(a) Primary risks: Investor protection (blind copying without suitability assessment), Market regulation (undisclosed conflicts of interest, front-running by star traders), Market development (if unchecked, erodes trust in innovation). (b) Regulatory: Require platforms to register as \"Investment Advisers\" or new category, with mandatory risk-profiling of followers and disclosure of star trader's track record, fees, and conflicts. Developmental: Create a \"Social Trading Framework\" with standardised performance metrics, API standards for integration, and investor education modules on copying risks. Protective: Mandate segregation of follower funds, cap on auto-copy exposure per follower (e.g., 10% of portfolio), and a dedicated SCORES category for social trading grievances. A weak answer lists generic measures (\"strict rules\") without mapping to the three-function framework or addressing the *specific* risks of algorithmic social copying (herding, latency arbitrage, unverified track records).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

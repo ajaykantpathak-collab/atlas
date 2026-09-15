@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_001",
+   "title": "c12_psy_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define stress according to the NCERT textbook, and explain why the definition \"stress is the non-specific response of the body to any demand\" (Selye) is considered incomplete by modern researchers.",
+     "a": "Correct answer: Stress is \"the pattern of responses an organism makes to stimulus event that disturbs the equilibrium and exceeds a person's ability to cope.\" Selye's definition is incomplete because it ignores cognitive appraisal — different individuals show different physiological and psychological response patterns to the same stressor, and the same person may respond differently to different stressors. Modern research emphasizes that stress is a transactional process involving perception and appraisal, not a uniform, non-specific reaction. A wrong answer that merely quotes Selye without the \"exceeds coping ability\" or \"transactional\" element reveals the misconception that stress is purely physiological and stimulus-driven.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Eustress is good stress and distress is bad stress, so we should try to eliminate all distress and only have eustress.\" Using the concept of the stress-performance relationship, explain why this statement is flawed.",
+     "a": "Correct answer: The statement is flawed because (a) eustress and distress are not fixed categories — the same stressor can shift from eustress to distress as intensity/duration increases (e.g., exam pressure that motivates study vs. causes burnout), (b) too little stress (hypostress) leads to listlessness and poor performance, so some arousal is necessary, and (c) distress cannot be entirely eliminated because life inevitably presents demands that exceed resources; the goal is management, not elimination. A wrong answer that treats eustress/distress as binary \"good/bad\" labels shows the misconception that stress valence is inherent in the event rather than determined by the person-environment transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul, a 17-year-old, hears a loud explosion nearby (stressor). His heart pounds, breathing quickens, and he freezes momentarily (strain). Two hours later, he learns it was a controlled demolition. His physiological arousal subsides, but he keeps replaying the sound and feels uneasy in crowded places. Using the terms stressor, strain, and the transactional view, analyse this scenario in 4-5 sentences.",
+     "a": "Correct analysis: The explosion is the external stressor; Rahul's immediate physiological freeze response and subsequent intrusive thoughts/avoidance are the strain. Crucially, the stress process did not end when the stressor was reappraised as \"safe\" — the initial appraisal of threat triggered a strain that persisted because the cognitive appraisal (danger, lack of control) and the physiological arousal became linked. The transactional view explains why the *same* physical event (controlled demolition) produced stress: Rahul's appraisal of it as life-threatening, combined with his perceived inability to cope in that moment, created the stress transaction. A wrong answer that says \"the explosion caused the stress\" or \"the stress ended when he knew it was safe\" reveals the stimulus-response misconception and ignores the ongoing cognitive-emotional transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the terms \"stressor\" and \"strain\" using Figure 3.1 (Psychological Meaning of Stress) as a reference. Give one example where the same stressor produces different strains in two individuals.",
+     "a": "Correct answer: A stressor is an external event or condition (e.g., noise, deadline, conflict) that *elicits* the stress response; strain is the *internal reaction* — physiological (e.g., cortisol surge), emotional (e.g., anxiety), cognitive (e.g., worry), or behavioural (e.g., withdrawal) — that occurs when the stressor is appraised as exceeding resources. Figure 3.1 shows stressors as input, strain as output, with the transactional appraisal process in between. Example: Two students face the same stressor (board exam). Student A (prepared, high self-efficacy) experiences eustress strain: alertness, structured study plan. Student B (unprepared, low self-efficacy) experiences distress strain: panic, avoidance, sleep disruption. A wrong answer that swaps the definitions or gives identical strains shows failure to grasp that strain depends on appraisal, not just the stressor.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Stress resides in the individual (personality) or the environment (events), so measuring either one tells us the stress level.\" Use the transactional model and at least two factors that moderate the stress experience (e.g., past experience, perceived control, social support).",
+     "a": "Correct critique: The statement is false because stress is *not* a property of the person or the environment alone; it is an emergent property of the transaction between them. The NCERT explicitly states: \"Stress is not a factor that resides in the individual or the environment, instead it is embedded in an ongoing process that involves individuals transacting with their social and cultural environments.\" Two moderators: (1) Past experience — someone who has successfully handled public speaking appraises it as a challenge; a novice appraises it as a threat. (2) Perceived control — a student who believes they can influence exam outcomes through study feels less stress than one who sees exams as luck-based. A wrong answer that attributes stress solely to \"personality traits\" or \"event severity\" reveals the dispositional/situational reductionism that the transactional model was designed to overcome.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic-strip description (text only) that illustrates the transactional nature of stress for a Class 10 student. Panel 1: The stressor event. Panel 2: The appraisal process (primary + secondary). Panel 3: The resulting strain (eustress or distress). Use a relatable Indian school context.",
+     "a": "Expected answer (criteria): Panel 1 shows a concrete stressor (e.g., \"Teacher announces surprise test in 5 minutes\"). Panel 2 shows two thought bubbles for the *same* student: Primary appraisal — \"This is a threat, I haven't studied this chapter!\" AND Secondary appraisal — \"But I have good notes from last week, I can quickly review key formulas, and I did well on the practice test.\" Panel 3 shows the resulting strain: \"Heart rate up slightly (eustress arousal), focuses on key formulas, feels challenged but capable.\" A poor answer that shows only one appraisal, or makes the stressor directly cause strain without appraisal, or shows identical strain for all students, reveals the misconception that stress is a direct stimulus-response chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

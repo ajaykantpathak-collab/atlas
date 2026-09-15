@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_010",
+   "title": "c10_phy_cbse_03_010",
+   "questions": [
+    {
+     "q": "State the primary reason why energy conservation is needed in India, and give the SI unit for measuring electrical energy consumption in households.",
+     "a": "Primary reason: India heavily depends on finite fossil fuels (coal, oil) for electricity generation, and their combustion causes air pollution and climate change; conserving energy reduces this dependence and environmental harm. SI unit for electrical energy consumption: joule (J), though households use kilowatt-hour (kWh) commercially. A wrong answer (e.g., \"to save money only\" or \"unit is watt\") reveals the student confuses energy with power or overlooks the environmental and resource-depletion aspects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why replacing a 60 W incandescent bulb with a 9 W LED bulb that gives the same brightness conserves energy, even though both are connected to the same 230 V supply.",
+     "a": "Both bulbs operate at the same voltage, so the current drawn by the LED is much lower (P = VI). The incandescent bulb wastes about 95% of electrical energy as heat, while the LED converts most into light. Thus, for the same light output, the LED uses far less electrical energy per second. A wrong answer (e.g., \"LED has higher resistance so it saves energy\") shows the student misunderstands the relationship between power, voltage, current, and efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A household uses a 1500 W electric geyser for 2 hours daily. If the electricity tariff is ₹6.50 per kWh, calculate the monthly cost (30 days) of running the geyser. Then calculate the cost if the geyser is replaced by a 5-star rated model that consumes 20% less power for the same heating output.",
+     "a": "Step 1: Energy used per day by old geyser = Power × time = 1500 W × 2 h = 3000 Wh = 3 kWh.\nStep 2: Monthly energy = 3 kWh/day × 30 days = 90 kWh.\nStep 3: Monthly cost = 90 kWh × ₹6.50/kWh = ₹585.\nStep 4: New geyser power = 1500 W × (1 – 0.20) = 1200 W.\nStep 5: New monthly energy = 1.2 kW × 2 h × 30 = 72 kWh.\nStep 6: New monthly cost = 72 × ₹6.50 = ₹468.\nSavings = ₹585 – ₹468 = ₹117 per month.\nA wrong answer (e.g., forgetting to convert watts to kilowatts, or using 1500 W directly in cost calculation) reveals unit conversion errors or confusion between power and energy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy conservation impact of two actions: (A) switching off a 10 W LED bulb for 5 extra hours daily, and (B) reducing the use of a 1200 W electric iron by 15 minutes daily. Which saves more energy in a month (30 days), and by how much?",
+     "a": "Action A savings: 10 W × 5 h/day × 30 days = 1500 Wh = 1.5 kWh.\nAction B savings: 1200 W × 0.25 h/day × 30 days = 9000 Wh = 9 kWh.\nAction B saves 9 – 1.5 = 7.5 kWh more per month.\nA wrong answer (e.g., choosing A because \"LED is efficient\" or miscalculating iron time as 15/60 = 0.15 h) shows the student focuses on device type rather than actual power × time, or makes time conversion errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Using public transport instead of a personal car does not conserve energy because the bus also burns fuel.\" Evaluate this statement and explain why it is incorrect, using the concept of energy per passenger-kilometre.",
+     "a": "The statement is incorrect. A bus carries 40–50 passengers while a car typically carries 1–2. Even if a bus consumes more fuel per kilometre, the fuel per passenger-kilometre is far lower. For example, a bus using 30 L diesel/100 km with 40 passengers gives 0.75 L/passenger/100 km; a car using 8 L/100 km with 1.5 passengers gives 5.3 L/passenger/100 km. Thus, public transport conserves energy overall. A wrong evaluation (e.g., agreeing with the student) reveals the student does not understand the difference between total energy and energy per unit service (passenger-km).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple one-week energy conservation challenge for your class. List three measurable actions each student can take at home, the data they should record daily, and how the class will calculate total energy saved in kWh.",
+     "a": "Actions: (1) Replace one incandescent/CFL bulb with LED and record hours used. (2) Reduce geyser/AC usage by 30 minutes daily and note actual usage time. (3) Use stairs instead of lift for up to 3 floors and count trips avoided. Data: daily hours of each device, power rating from label. Calculation: For each action, energy saved = (power rating in kW) × (time reduced in h) × 7 days. Sum across all students. A poor answer (e.g., vague actions like \"switch off lights\" without measurable time/power, or no calculation method) shows the student cannot translate conservation into quantifiable, data-driven practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

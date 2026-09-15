@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_007",
+   "title": "c12_phy_cbse_13_007",
+   "questions": [
+    {
+     "q": "State the SI unit of the decay constant λ and write the differential equation for radioactive decay. Explain the physical meaning of the negative sign.",
+     "a": "The SI unit of λ is s⁻¹ (per second). The differential equation is dN/dt = -λN. The negative sign indicates that the number of undecayed nuclei N decreases with time; dN/dt is negative because N is decreasing. A wrong answer (e.g., unit = s, or missing negative sign) reveals the student treats λ as a time rather than a rate, or thinks the number of nuclei increases.",
+     "self_check": true
+    },
+    {
+     "q": "A sample has a half-life of 10 days. After 30 days, what fraction of the original nuclei remains? A student answers 1/30. Explain why this is wrong and give the correct fraction.",
+     "a": "The student incorrectly assumes linear decay (subtracting a fixed amount each half-life). Radioactive decay is exponential: after each half-life, the remaining fraction halves. After 30 days (3 half-lives), fraction remaining = (1/2)³ = 1/8. The wrong answer shows the student does not grasp the multiplicative nature of half-life.",
+     "self_check": true
+    },
+    {
+     "q": "The decay constant of a radioactive isotope is λ = 0.0231 s⁻¹. Calculate its half-life and mean life. Show all steps with units.",
+     "a": "Given λ = 0.0231 s⁻¹.  \nHalf-life T₁/₂ = ln2 / λ = 0.693 / 0.0231 s⁻¹ = 30.0 s.  \nMean life τ = 1 / λ = 1 / 0.0231 s⁻¹ = 43.3 s.  \nCheck: τ = T₁/₂ / ln2 = 30.0 / 0.693 = 43.3 s. Consistent.  \nA wrong answer (e.g., T₁/₂ = λ/ln2) reveals confusion between λ and T₁/₂ formulas or unit inversion.",
+     "self_check": true
+    },
+    {
+     "q": "Two radioactive samples A and B have the same initial number of nuclei. Sample A has a half-life of 2 hours; sample B has a half-life of 6 hours. Compare their activities at t = 0 and at t = 6 hours. Which sample has higher activity at t = 6 h? Justify.",
+     "a": "At t=0: R_A = λ_A N₀, R_B = λ_B N₀. Since λ = ln2/T₁/₂, λ_A = ln2/2, λ_B = ln2/6 ⇒ λ_A = 3λ_B. So R_A(0) = 3 R_B(0).  \nAt t=6 h: N_A = N₀ (1/2)^{6/2} = N₀/8. N_B = N₀ (1/2)^{6/6} = N₀/2.  \nR_A(6) = λ_A N_A = (ln2/2)(N₀/8) = (ln2 N₀)/16.  \nR_B(6) = λ_B N_B = (ln2/6)(N₀/2) = (ln2 N₀)/12.  \nSince 1/12 > 1/16, R_B(6) > R_A(6). Sample B has higher activity at 6 h despite lower initial activity.  \nA wrong answer (e.g., A always higher) shows the student ignores that activity depends on both λ and remaining N.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a decay problem using N = N₀ e^{-λt} and gets N = 120 nuclei at t = 10 s for N₀ = 1000, λ = 0.1 s⁻¹. Another student uses the half-life method: T₁/₂ = ln2/0.1 = 6.93 s, then N = 1000 × (1/2)^{10/6.93} and gets N ≈ 125. The first student claims the second is wrong because answers differ. Evaluate this claim.",
+     "a": "The claim is incorrect. The difference (120 vs 125) is due to rounding in intermediate steps. The exact value from exponential: N = 1000 e^{-1} = 1000/e ≈ 367.9 (wait, λt = 0.1×10 = 1, so N = 1000/e ≈ 368). The half-life method: T₁/₂ = 6.93 s, t/T₁/₂ = 10/6.93 ≈ 1.443, (1/2)^{1.443} = e^{-1.443 ln2} = e^{-1} ≈ 0.3679. Both give 368. The student's numbers (120, 125) are wrong for the given λ and t; they likely used λ=0.2 or t=20. The real issue: both methods are mathematically equivalent; any discrepancy is computational, not conceptual. The first student's claim reveals a misunderstanding that the two methods are different physical laws.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to measure the half-life of a short-lived radioactive isotope (half-life ~ 1 minute) using a Geiger-Müller counter. List the key measurements, the graph you would plot, and how you would extract T₁/₂ from the graph.",
+     "a": "Measure count rate R (corrected for background) at regular time intervals (e.g., every 10 s) for ~5 minutes. Plot ln(R) vs t. The graph should be a straight line with slope = -λ. Half-life T₁/₂ = ln2 / |slope|. Alternatively, plot R vs t on semi-log paper; the time for R to drop to half its initial value directly gives T₁/₂. A poor answer (e.g., \"measure time until counter reads zero\") shows the student thinks decay completes in finite time or doesn't know how to handle background radiation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

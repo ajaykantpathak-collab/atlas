@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_9",
+   "title": "c8_geo_ch2_9",
+   "questions": [
+    {
+     "q": "Which of the following is a cold desert located in Central and East Asia, surrounded by high mountain ranges?\nA. Sahara Desert\nB. Atacama Desert\nC. Gobi Desert\nD. Kalahari Desert",
+     "a": "C. Gobi Desert.\nA student who selects Sahara, Atacama, or Kalahari fails to recall basic spatial locations and temperature classifications of major world deserts, confusing tropical/subtropical hot deserts with cold continental rain-shadow deserts.",
+     "self_check": true
+    },
+    {
+     "q": "The Atacama Desert in South America lies right along the coast of the Pacific Ocean, yet it is considered the driest non-polar place on Earth. What geographical factor primarily prevents precipitation in this region?\nA. High atmospheric humidity caused by tropical equatorial winds.\nB. The cold Humboldt (Peru) Ocean Current that cools the air, preventing it from holding moisture and rising to form rain clouds.\nC. Frequent volcanic eruptions along the Andes that dry out the atmosphere.\nD. The presence of dense tropical rainforests absorbing all ocean moisture before it reaches the coast.",
+     "a": "B. The cold Humboldt (Peru) Ocean Current that cools the air, preventing it from holding moisture and rising to form rain clouds.\nSelecting A, C, or D shows that the student misunderstands how ocean currents influence coastal atmospheric stability and cloud formation, erroneously assuming that proximity to sea water automatically guarantees rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station in Desert Region X records an annual precipitation of 120 mm. The station experiences winter temperatures dropping below -15°C and summer temperatures reaching 38°C. Based on this climatic profile, determine which desert this station represents and calculate its annual precipitation deficit compared to the 250 mm desert threshold.\nA. Sahara Desert; deficit of 130 mm\nB. Gobi Desert; deficit of 130 mm\nC. Kalahari Desert; deficit of 370 mm\nD. Atacama Desert; deficit of 250 mm",
+     "a": "B. Gobi Desert; deficit of 130 mm.\nWorking steps:\n1. Identify climatic type from temperature range: Winter temperatures down to -15°C indicate a cold continental desert.\n2. Match cold desert type: Gobi Desert (Sahara, Kalahari, and Atacama do not routinely record sustained winter drops to -15°C across large areas).\n3. Calculate threshold deficit: Maximum precipitation for a desert = 250 mm. Deficit = $250\\text{ mm} - 120\\text{ mm} = 130\\text{ mm}$.\nSelecting A reveals failure to recognize sub-zero winter temperatures as a hallmark of cold mid-latitude deserts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental formation of the Sahara Desert with that of the Gobi Desert. Which logical statement correctly contrasts their key geographic drivers?\nA. The Sahara is formed primarily by the rain-shadow of the Andes, whereas the Gobi is formed by hot ocean currents.\nB. The Sahara is created by atmospheric subsidence in the subtropical high-pressure belt, whereas the Gobi is formed by deep inland distance (continentality) combined with the rain-shadow of the Himalayas and Tibetan Plateau.\nC. The Sahara experiences extreme seasonal snow cover, whereas the Gobi remains humid year-round due to monsoon winds.\nD. Both deserts are formed purely by high human deforestation along equatorial coastal margins.",
+     "a": "B. The Sahara is created by atmospheric subsidence in the subtropical high-pressure belt, whereas the Gobi is formed by deep inland distance (continentality) combined with the rain-shadow of the Himalayas and Tibetan Plateau.\nChoosing A, C, or D shows an inability to compare regional physical drivers, confusing global atmospheric circulation belts with regional rain-shadow and continental effects.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal planner suggests building large-scale, open-water canal systems sourced from underground fossil aquifers to grow water-intensive crops (such as rice) across the Sahara Desert. Evaluate the geographical sustainability of this proposal.\nA. Highly sustainable, because desert sunshine will continuously recharge underground aquifers through rapid condensation.\nB. Unsustainable, because fossil aquifers in hyper-arid zones do not replenish rapidly, and open canals lead to massive water loss through evaporation due to extreme heat and low humidity.\nC. Highly sustainable, because the Sahara's high moisture index prevents open-water evaporation.\nD. Unsustainable, solely because cold winter frosts in the Sahara will freeze open canals year-round.",
+     "a": "B. Unsustainable, because fossil aquifers in hyper-arid zones do not replenish rapidly, and open canals lead to massive water loss through evaporation due to extreme heat and low humidity.\nSelecting A or C shows a failure to evaluate how high potential evapotranspiration and non-renewable groundwater resources limit large-scale open-water farming in hot deserts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a spatial flow diagram or written geographic profile showing how air originating over the Atlantic Ocean loses its moisture as it moves east across the Andes Mountains into the Atacama region, resulting in a rain-shadow desert. What three key environmental transformations must be highlighted in your profile?",
+     "a": "A complete answer must highlight:\n1. Moisture-laden wind rises up the eastern slope of the Andes, cooling down and dropping rain on the eastern side (windward side).\n2. The air cools, loses its moisture, and becomes dry as it crosses the high mountain crest.\n3. The dry air descends down the western slope (leeward side) toward the Atacama, warming adiabatically and absorbing surface moisture rather than creating rainfall, forming a hyper-arid rain-shadow desert.\nA poor answer fails to identify the difference between windward moisture release and leeward dry air descent across a mountain barrier.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

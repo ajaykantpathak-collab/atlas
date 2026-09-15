@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_007",
+   "title": "c11_math_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the condition for two lines with slopes m₁ and m₂ to be (i) parallel, (ii) perpendicular. What is the slope of a line parallel to the y-axis?",
+     "a": "(i) m₁ = m₂; (ii) m₁ × m₂ = -1 (provided neither is vertical). A line parallel to the y-axis has undefined slope. A wrong answer like \"m₁ = -m₂ for perpendicular\" reveals confusion with negative reciprocal; \"slope of y-axis is 0\" reveals mixing up x-axis and y-axis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product of slopes of two perpendicular lines is -1, using the concept of inclination angles. Why does this rule fail for a vertical and a horizontal line?",
+     "a": "If lines have inclinations θ₁ and θ₂, perpendicular means θ₂ = θ₁ + 90°. Then m₂ = tan(θ₁+90°) = -cot θ₁ = -1/tan θ₁ = -1/m₁, so m₁m₂ = -1. For vertical line θ₁ = 90°, tan 90° is undefined; horizontal line θ₂ = 0°, tan 0° = 0. The product is undefined, not -1. A wrong answer indicates lack of connection between trigonometric definition of slope and geometric perpendicularity.",
+     "self_check": true
+    },
+    {
+     "q": "Line L₁ passes through (2, 5) and (4, 9). Line L₂ passes through (1, 3) and (5, 11). Are L₁ and L₂ parallel, perpendicular, or neither? Show your calculations.",
+     "a": "Slope of L₁ = (9-5)/(4-2) = 4/2 = 2. Slope of L₂ = (11-3)/(5-1) = 8/4 = 2. Since m₁ = m₂ = 2, the lines are parallel. A wrong answer (e.g., perpendicular) suggests arithmetic error in slope calculation or misapplication of the condition.",
+     "self_check": true
+    },
+    {
+     "q": "Given line L: 3x - 4y + 7 = 0. Find the slope of a line perpendicular to L. Then write the equation of the line through (2, -3) that is perpendicular to L.",
+     "a": "Rewrite L as 4y = 3x + 7 → y = (3/4)x + 7/4, so m_L = 3/4. Perpendicular slope m = -4/3. Using point-slope form: y + 3 = (-4/3)(x - 2) → 3y + 9 = -4x + 8 → 4x + 3y + 1 = 0. A wrong answer like m = 4/3 (missing negative) or equation 3x - 4y = k (parallel form) shows confusion between parallel and perpendicular slope rules.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The lines 2x + 3y = 5 and 3x - 2y = 7 are perpendicular because the coefficients of x and y are swapped and one sign is changed.\" Evaluate this reasoning. Is it always valid? Provide a counterexample if not.",
+     "a": "The reasoning is valid for this specific pair: slopes are -2/3 and 3/2, product = -1. However, the pattern \"swap coefficients and change one sign\" works only when the equations are in general form Ax + By + C = 0 with A, B non-zero and the lines are not vertical/horizontal. Counterexample: x = 2 (vertical) and y = 3 (horizontal) are perpendicular but coefficients are not swapped. A wrong evaluation indicates overgeneralization of a pattern without understanding the slope condition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving parallel or perpendicular lines in coordinate geometry (e.g., roads, architecture, sports). Define the coordinate system, give one line's equation, and ask for the equation of a parallel or perpendicular line through a given point. Solve your own problem.",
+     "a": "Example: A straight road runs along the line y = 0.5x + 10 (in km). A crossing road must be perpendicular and pass through the point (4, 12). Find its equation. Solution: m = 0.5, perpendicular m = -2. Equation: y - 12 = -2(x - 4) → y = -2x + 20. A good answer includes clear context, correct slope, and correct equation. A poor answer uses wrong slope or ignores the point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

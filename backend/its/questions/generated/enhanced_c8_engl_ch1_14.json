@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch1_14",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch1_14",
+   "title": "c8_engl_ch1_14",
+   "questions": [
+    {
+     "q": "What letter notation represents a four-line stanza where the first line rhymes with the third line, and the second line rhymes with the fourth line?",
+     "a": "The correct letter notation is ABAB. If a student answers AABB or ABCB, it shows they understand that letters represent sound patterns, but they are confusing alternating rhymes (lines 1 & 3, 2 & 4) with rhyming couplets (lines 1 & 2, 3 & 4) or ballad rhyme (only lines 2 & 4 rhyming).",
+     "self_check": true
+    },
+    {
+     "q": "Read these four end-words from a court poem stanza: *bright*, *soar*, *light*, *more*. Why do we label the rhyme scheme as ABAB instead of AABB?",
+     "a": "We label it ABAB because *bright* (line 1) and *light* (line 3) share sound 'A', while *soar* (line 2) and *more* (line 4) share sound 'B', creating an alternating pattern. A wrong answer claiming it is AABB reveals the student is looking at pairs of lines consecutively without checking which specific line numbers actually pair up phonetically.",
+     "self_check": true
+    },
+    {
+     "q": "A poet writes two stanzas about a grand court procession. Stanza 1 has short, equal 6-syllable lines with an AABB scheme. Stanza 2 has irregular lines ranging from 4 to 14 syllables with no set rhyme. Which stanza creates a brisk, steady rhythm suitable for a marching royal parade, and why?",
+     "a": "Stanza 1 creates a brisk, steady rhythm because uniform line lengths (6 syllables each) paired with tight AABB rhyming couplets set a predictable, march-like beat that mimics stepping in unison. A wrong answer selecting Stanza 2 indicates the student mistakenly equates irregular, varying line lengths with structured order and rhythmic discipline.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the rhythm changes the reader's feeling in these two line descriptions: Line A uses long, drawn-out vowel sounds with slow beats (\"The monarch sits upon his marble throne\"), while Line B uses short, quick words (\"He spoke, he cheered, he smiled, he won!\"). What impact does this rhythmic contrast have on describing a king?",
+     "a": "Line A creates a slow, stately rhythm that builds an atmosphere of dignity, regal calm, and majesty. Line B uses rapid, monosyllabic beats that create swift momentum, reflecting energetic action, sharpness, and quick wit. A student who says both lines create the exact same mood fails to analyze how syllabic speed and beat distribution influence tone.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A poem without rhyming words cannot have any rhythm.\" Evaluate this statement with reasoning based on how poetic rhythm works.",
+     "a": "The statement is incorrect because rhythm depends on the pattern of stressed and unstressed syllables and line movement, not on end-rhymes. Even free verse or unrhymed poetry can possess a distinct rhythm through balanced syllable counts, pauses (caesura), and repetition of sounds. A student agreeing with the statement falsely conflates rhyme (matching end-sounds) with rhythm (beat and tempo).",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza (or line-end outline) about a wise court philosopher using an AABB rhyme scheme with a steady 8-syllable rhythm per line, and explain why your chosen pattern fits the subject.",
+     "a": "A good response provides 4 lines where lines 1 and 2 end with matching sound 'A', lines 3 and 4 end with matching sound 'B', each line contains 8 syllables, and the explanation notes that the regular 8-syllable beat mirrors the balanced, composed nature of a wise thinker. A poor answer fails to keep line lengths equal or breaks the AABB rhyme sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

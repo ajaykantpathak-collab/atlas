@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_12_001",
+   "title": "c12_phy_cbse_12_001",
+   "questions": [
+    {
+     "q": "State the two key experimental observations from the Geiger-Marsden alpha-scattering experiment that contradicted Thomson's plum pudding model.",
+     "a": "Correct answer: (1) Most α-particles passed through the gold foil with little or no deflection (indicating atoms are mostly empty space). (2) A very small fraction (~1 in 8000) were scattered at large angles >90°, some even backwards (indicating a concentrated, massive, positively charged nucleus).  \nA wrong answer (e.g., \"α-particles were absorbed\" or \"all particles deflected slightly\") reveals the student confuses Rutherford's experiment with Thomson's model predictions or misunderstands the rarity of large-angle scattering. The plum pudding model predicted only small deflections because positive charge was diffuse; the observation of rare but violent large-angle scattering is the smoking gun for a tiny nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the impact parameter *b* determines the scattering angle θ, and describe the relationship between *b* and θ for a given α-particle energy and target nucleus.",
+     "a": "Correct answer: The impact parameter *b* is the perpendicular distance from the nucleus to the initial velocity vector of the α-particle. A smaller *b* means the α-particle approaches closer to the nucleus, experiences a stronger Coulomb repulsion, and is deflected through a larger angle θ. For a head-on collision (*b* = 0), θ = 180° (backscattering). As *b* increases, θ decreases monotonically; for very large *b*, θ → 0.  \nA wrong answer (e.g., \"larger *b* gives larger θ\" or \"θ is independent of *b*\") reveals the student has not visualized the hyperbolic trajectory in a repulsive 1/r² force field. The inverse relationship is crucial: the experimental distribution of scattering angles directly maps the distribution of impact parameters, which in turn reveals the nuclear cross-section.",
+     "self_check": true
+    },
+    {
+     "q": "An α-particle with kinetic energy 7.7 MeV is fired directly at a gold nucleus (Z = 79). Calculate the distance of closest approach *d*. Use 1/(4πε₀) = 9.0 × 10⁹ N·m²/C² and e = 1.6 × 10⁻¹⁹ C. Express your answer in metres and in fermi (1 fm = 10⁻¹⁵ m).",
+     "a": "**Step 1:** Identify givens: K = 7.7 MeV = 7.7 × 10⁶ eV = 7.7 × 10⁶ × 1.6 × 10⁻¹⁹ J = 1.232 × 10⁻¹² J. Z = 79, charge of α-particle = 2e.  \n**Step 2:** Formula for head-on collision (conservation of energy): K = (1/4πε₀) × (2e)(Ze)/d → d = (1/4πε₀) × 2Ze²/K.  \n**Step 3:** Substitute: d = (9.0 × 10⁹) × 2 × 79 × (1.6 × 10⁻¹⁹)² / (1.232 × 10⁻¹²).  \n**Step 4:** Compute numerator: 9.0e9 × 2 × 79 × 2.56e-38 = 9.0 × 2 × 79 × 2.56 × 10⁻²⁹ = 3632.64 × 10⁻²⁹ = 3.63264 × 10⁻²⁶.  \n**Step 5:** Divide: d = 3.63264 × 10⁻²⁶ / 1.232 × 10⁻¹² = 2.948 × 10⁻¹⁴ m = 29.5 fm.  \nAnswer: d ≈ 2.95 × 10⁻¹⁴ m = 29.5 fm.  \nA wrong answer (e.g., forgetting the factor 2 for α-particle charge, or using Z=1 for gold, or unit errors in MeV→J) reveals the student is not tracking the charge product (2e)(Ze) or is careless with energy unit conversion — a frequent JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "The Geiger-Marsden experiment used a gold foil of thickness 2.1 × 10⁻⁷ m. Given that the atomic radius of gold is ~1.4 × 10⁻¹⁰ m, estimate how many atomic layers thick the foil was. Why is it important that the foil be thin enough for *single scattering* to dominate?",
+     "a": "**Step 1:** Atomic diameter ≈ 2 × 1.4 × 10⁻¹⁰ m = 2.8 × 10⁻¹⁰ m.  \n**Step 2:** Number of layers = foil thickness / atomic diameter = (2.1 × 10⁻⁷) / (2.8 × 10⁻¹⁰) = 750 layers (approx).  \n**Step 3:** Single scattering dominance means each α-particle encounters at most one nucleus. If the foil were thick, multiple scattering would blur the angular distribution, and the simple Rutherford formula (derived for one Coulomb encounter) would not match the data. The observed agreement between theory and experiment (Fig. 12.3) validates the single-scattering assumption.  \nAnswer: ~750 atomic layers; single scattering ensures the trajectory is a simple hyperbola from one nucleus, making the theoretical prediction clean and testable.  \nA wrong answer (e.g., \"thin foil reduces absorption\" or \"multiple scattering increases large-angle events\") reveals the student confuses scattering with absorption or misunderstands that multiple small-angle scatterings can mimic a single large-angle event, corrupting the nuclear size inference.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Rutherford's model explains why atoms are stable because the electrostatic attraction between the nucleus and electrons provides the centripetal force for circular orbits, just like gravity keeps planets in orbit.\" Evaluate this statement. Is the student correct? Why or why not?",
+     "a": "The student is **incorrect**. While it is true that the Coulomb force provides the centripetal force (Fe = Fc) for a *classical* circular orbit, Rutherford's model **fails to explain atomic stability**. According to classical electromagnetism, an accelerating charge (the electron in circular motion) must radiate electromagnetic waves, lose energy, and spiral into the nucleus in ~10⁻¹¹ s. The model predicts a continuous spectrum, not the observed line spectra. Stability and discrete spectra require Bohr's quantum postulates (node c12_phy_cbse_12_002).  \nA wrong evaluation (e.g., \"yes, it's stable like the solar system\") reveals the student has not grasped the fundamental difference between gravitational and electromagnetic forces: orbiting charges radiate; orbiting masses do not (in Newtonian gravity). This is the central dilemma that forced Bohr's quantum leap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you repeated the Geiger-Marsden experiment using a thin foil of solid hydrogen (Z = 1) at 14 K instead of gold (Z = 79), how would the scattering pattern change? Predict qualitatively the distance of closest approach for a 5.5 MeV α-particle and the fraction of particles scattered at >90°.",
+     "a": "**Expected answer:**  \n- Distance of closest approach *d* ∝ Z. For hydrogen (Z=1), *d* is 79× smaller than for gold: ~0.37 fm (vs 29.5 fm for gold). This is *smaller* than the proton radius (~0.84 fm), meaning the α-particle would penetrate the nucleus — nuclear forces would dominate, and Rutherford's pure Coulomb formula breaks down.  \n- Scattering cross-section ∝ Z². For hydrogen, the probability of large-angle scattering drops by 79² ≈ 6241×. The fraction scattered >90° would be ~1 in 8000 / 6241 ≈ 1 in 50 million — essentially unobservable.  \n- The α-particle (mass 4 u) is heavier than the target proton (1 u), so the target recoils significantly; the \"stationary nucleus\" assumption fails.  \nA poor answer (e.g., \"same pattern but weaker\" or \"no scattering because hydrogen is light\") reveals the student misses the Z² dependence of the cross-section, the breakdown of the point-nucleus Coulomb model at small *d*, and the recoil effect — all critical for JEE-level analysis of scattering experiments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

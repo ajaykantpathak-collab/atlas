@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_005",
+   "title": "c12_hist_cbse_08_005",
+   "questions": [
+    {
+     "q": "What were milkiyat lands, and how did they differ from the lands over which zamindars collected revenue for the state?",
+     "a": "Milkiyat lands were the zamindar's personal, heritable property cultivated for his private use with hired or servile labour; he could sell, bequeath, or mortgage them at will. Revenue-collection lands (zamindari rights) were not his property — he collected the state's share (malikana) from peasant holdings and retained a commission (nankar), but the cultivators retained occupancy rights. A wrong answer (e.g., \"zamindars owned all land in their territory\") reveals confusion between property rights and revenue-farming privileges, a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state confirm zamindari rights through an imperial sanad rather than allowing conquest alone to legitimise a zamindar's authority?",
+     "a": "The state needed to control military resources and revenue flows; a sanad bound the zamindar to imperial service (khidmat), fixed his revenue quota (jama), and made his military contingent (sawar/piyada) accountable to the centre. Conquest without sanction risked creating autonomous warlords. A wrong answer (e.g., \"the state respected traditional rights\") misses the fiscal-military logic of the mansabdari-zamindari nexus and ignores the Ain's emphasis on imperial regulation.",
+     "self_check": true
+    },
+    {
+     "q": "A zamindar in 1650 holds a sanad for a pargana assessed at 50 lakh dams jama. He maintains 200 sawar and 500 piyada. The Ain records his caste as Rajput. Using the Ain's data on combined zamindari military strength, explain whether this zamindar's contingent is typical, above average, or below average for a pargana of this size.",
+     "a": "The Ain lists total zamindari strength as 384,558 sawar and 4,277,057 piyada across the empire. With ~3,000 parganas (approx.), the average is ~128 sawar and ~1,425 piyada per pargana. This zamindar's 200 sawar is above average; 500 piyada is below average. The Rajput caste aligns with the Ain's note on \"Brahmana-Rajput combine\" dominance. A wrong answer that ignores the per-pargana calculation or treats the Ain's totals as exact for every region shows inability to handle quantitative historical data — a CUET/JEE-style analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zamindar's role in surplus extraction with that of the jagirdar (node 008). Identify two structural similarities and two critical differences in how each accessed agricultural surplus.",
+     "a": "Similarities: both acted as intermediaries between state and peasantry; both received a share of produce/revenue for military-administrative service. Differences: (1) zamindari rights were hereditary and tied to specific territory (milkiyat + nankar), while jagirs were transferable, non-hereditary revenue assignments; (2) zamindars maintained independent military forces (qilachas), whereas jagirdars' troops were notionally imperial (mansabdari quota). A wrong answer conflating the two reveals misunderstanding of the Mughal \"dual intermediary\" structure — a frequent board essay error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Zamindars were exploiters of the peasantry with no redeeming function.\" Use evidence from bhakti literature and seventeenth-century agrarian uprisings to support your judgment.",
+     "a": "The claim is partially true but incomplete. Bhakti saints (e.g., Kabir, Ravidas) targeted state revenue officials (amil-guzar), not zamindars, suggesting peasants saw zamindars as patrons. In 17th-century uprisings (e.g., Jat revolts, Satnami rebellion), zamindars often led peasants against excessive state demand (jama > hasil). However, zamindars did extract surplus via nankar, forced labour (begar), and high-interest loans. A balanced evaluation — \"exploitative yet reciprocal\" — earns full marks; a one-sided answer loses marks for lack of nuance (CBSE marking scheme: 2+2 for both sides).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-step causal chain showing how the monetisation of the countryside (silver influx, node 007) accelerated zamindari consolidation and altered zamindar-peasant relations in the late seventeenth century.",
+     "a": "Step 1: Silver rupya influx (1550–1700) monetised revenue collection (jama in cash). Step 2: Zamindars sold milkiyat produce and revenue rights (nankar) for cash, accumulating capital. Step 3: Cash enabled purchase of new zamindaris (Ain notes brisk zamindari sales) and hiring of larger military contingents. Step 4: Peasants, now needing cash for revenue, borrowed from zamindars at high interest, deepening dependency and converting reciprocal ties into debt bondage. A weak chain misses the feedback loop between monetisation and militarisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

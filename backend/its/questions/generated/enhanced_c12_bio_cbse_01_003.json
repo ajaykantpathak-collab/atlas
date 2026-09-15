@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_003",
+   "title": "c12_bio_cbse_01_003",
+   "questions": [
+    {
+     "q": "Name the type of vegetative propagule in each: (a) Offset of water hyacinth, (b) Bulbil of Dioscorea, (c) Runner of strawberry, (d) Tuber of potato. State the plant organ (root/stem/leaf) each represents.",
+     "a": "(a) Offset — short lateral stem branch with rosette of leaves and adventitious roots; stem. (b) Bulbil — modified axillary bud, fleshy and rounded; stem (bud). (c) Runner — slender prostrate stem branch rooting at nodes; stem. (d) Tuber — swollen tip of underground branch (stolon) with nodes (eyes) and internodes; stem. A wrong answer (e.g., calling potato tuber a root) reveals confusion between stem tubers (nodes present) and root tubers (no nodes, e.g., sweet potato), indicating failure to recognize morphological criteria (nodes, internodes, scale leaves) that distinguish stem from root modifications.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener takes a 15 cm stem cutting from a rose plant, dips the basal end in IBA (synthetic auxin), and plants it in moist sand. After 3 weeks, adventitious roots appear. Explain why the cutting does NOT immediately wilt and die despite having no roots initially, and why IBA application increases rooting percentage.",
+     "a": "The cutting survives initially because: (1) the stem has stored water and carbohydrates in parenchyma; (2) the cut end forms callus (parenchyma proliferation) sealing vascular tissue and preventing pathogen entry; (3) leaves continue limited photosynthesis if humidity is high, providing energy. IBA (auxin analog) increases rooting because auxin accumulates basipetally at the cut end, activating pericycle and cambial cells to divide and differentiate into root primordia — it mimics the natural auxin gradient that directs root formation. A wrong answer claiming \"IBA provides nutrients\" or \"cutting absorbs water through leaves\" reveals misunderstanding of auxin's role as a signaling molecule (not nutrient) and overestimation of foliar water uptake in non-adapted species.",
+     "self_check": true
+    },
+    {
+     "q": "In mango grafting, a scion (desired variety) is joined to a rootstock (hardy local variety). The graft union succeeds only if the vascular cambium of scion aligns with that of rootstock. Why is cambial alignment critical, and what would happen if only the phloem of scion connects to phloem of rootstock but xylem remains disconnected?",
+     "a": "Cambium is the lateral meristem producing secondary xylem (inward) and secondary phloem (outward). Alignment ensures continuous vascular cylinder formation: scion cambium → rootstock cambium → unified secondary growth. If only phloem connects: photosynthates move down but water/minerals cannot move up from rootstock to scion. The scion wilts and dies despite sugar supply because transpiration pull requires continuous xylem water column. This tests understanding that xylem transports water upward (cohesion-tension), phloem transports sugars bidirectionally — both needed for graft survival. A wrong answer (\"both transport food\") confuses xylem/phloem functions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare micropropagation (tissue culture) and traditional cutting propagation for commercial banana production. Analyze which method better ensures: (i) disease-free planting material, (ii) genetic uniformity, (iii) scalability, (iv) cost per plantlet. Justify with biological reasoning.",
+     "a": "Micropropagation wins on (i) disease-free: meristem-tip culture (0.1–0.5 mm) often excludes viruses (no vascular connection); cutting propagation transmits systemic pathogens. (ii) Genetic uniformity: both produce clones, but micropropagation risks somaclonal variation (epigenetic/mutation during callus phase); cutting is more stable. (iii) Scalability: micropropagation exponentially multiplies (1 explant → 10⁵ plantlets/year in vitro); cutting is linear (1 mother plant → 10–20 cuttings/season). (iv) Cost: micropropagation high capital (lab, sterile media, skilled labor) but low marginal cost at scale; cutting low capital but high land/labor per plantlet. A wrong answer claiming \"cutting is always cheaper\" ignores economies of scale for high-value crops like banana where virus-free stock commands premium.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Vegetative propagation is evolutionarily disadvantageous because it produces genetically identical offspring, eliminating variation needed for adaptation.\" Provide two counterarguments with examples where vegetative propagation offers selective advantage.",
+     "a": "Counterargument 1: **Rapid colonization of stable, favorable habitats** — strawberry runners quickly carpet an area, monopolizing light/soil before competitors establish; sexual reproduction (seed dispersal) is slower and riskier. Counterargument 2: **Preservation of superior genotype combinations** — a hybrid mango with excellent fruit quality + disease resistance is fixed vegetatively; sexual reproduction would segregate traits. Also, vegetative propagation bypasses seedling vulnerability (desiccation, predation) — a tuber or rhizome has stored reserves for immediate growth. A wrong answer agreeing entirely ignores that natural selection acts on *reproductive success*, not variation per se; many successful invasives (water hyacinth, Bermuda grass) spread primarily vegetatively.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether adventitious root formation in stem cuttings of *Coleus* is promoted more by (a) auxin application, (b) darkness at the base, or (c) both combined. Specify: control, treatments, measurable outcome, duration, and how you would isolate the effect of each factor.",
+     "a": "**Control**: *Coleus* cuttings (same node position, length, leaf area) in moist sand, base exposed to light. **Treatments**: (1) IBA 500 ppm dip + light at base; (2) no IBA + base wrapped in foil (darkness); (3) IBA 500 ppm + base wrapped in foil. **Outcome**: number and length of adventitious roots per cutting after 14 days. **Isolation**: Compare (1) vs control → auxin effect; (2) vs control → darkness effect (etiolation promotes rooting by reducing photosynthetic inhibition of root primordia); (3) vs (1) and (2) → synergy. A poor design uses different cutting ages or omits the darkness-only treatment, confounding auxin and etiolation effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

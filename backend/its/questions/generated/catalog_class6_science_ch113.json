@@ -1,0 +1,181 @@
+{
+ "catalog": "catalog_class6_science_ch113.json",
+ "concepts": [
+  {
+   "id": "fesc.113.1",
+   "title": "Natural Magnets and Magnetite",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What was the natural magnet known to ancients?",
+     "a": "Magnetite, a stone that attracts iron - legend of a shepherd Magnes whose stick stuck to a rock.",
+     "self_check": true
+    },
+    {
+     "q": "Where was magnetite discovered?",
+     "a": "In a region called Magnesia (in ancient Greece/Turkey); also in India long ago.",
+     "self_check": true
+    },
+    {
+     "q": "What is a natural magnet?",
+     "a": "A naturally occurring magnetic stone - magnetite, an iron ore.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.2",
+   "title": "Magnetic and Non-Magnetic Materials",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are magnetic materials? Give examples.",
+     "a": "Materials attracted by magnets - iron, nickel, cobalt (and steel).",
+     "self_check": true
+    },
+    {
+     "q": "Name three non-magnetic materials.",
+     "a": "Wood, plastic, glass (also paper, copper).",
+     "self_check": true
+    },
+    {
+     "q": "How can you find whether a material is magnetic?",
+     "a": "Bring a magnet near - attraction shows the material is magnetic.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.3",
+   "title": "Poles of a Magnet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the poles of a magnet?",
+     "a": "The two ends where magnetic strength is greatest - north and south poles.",
+     "self_check": true
+    },
+    {
+     "q": "Where is a magnet's pull strongest?",
+     "a": "At its poles - iron filings cluster there.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when a magnet is hung freely?",
+     "a": "It settles with one pole (north-seeking) toward the earth's north.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.4",
+   "title": "Directive Property of a Freely Suspended Magnet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when a bar magnet is suspended freely?",
+     "a": "It always comes to rest roughly in the north-south direction.",
+     "self_check": true
+    },
+    {
+     "q": "Which end of a freely hanging magnet points north?",
+     "a": "The north-seeking pole (north pole) of the magnet.",
+     "self_check": true
+    },
+    {
+     "q": "How did this property of magnets help sailors?",
+     "a": "It gave the compass - sailors found direction at sea.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.5",
+   "title": "The Magnetic Compass",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a magnetic compass?",
+     "a": "A small magnetic needle pivoted freely in a case, used to find directions.",
+     "self_check": true
+    },
+    {
+     "q": "How does a compass show direction?",
+     "a": "Its needle settles north-south; the marked north end points to the north.",
+     "self_check": true
+    },
+    {
+     "q": "What makes the compass needle turn?",
+     "a": "Any nearby magnet or magnetic material deflects the needle.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.6",
+   "title": "Making an Artificial Magnet (Single-Touch Method)",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is an artificial magnet made by single-touch method?",
+     "a": "Rubbing a steel bar repeatedly with one pole of a magnet in one direction makes the bar a magnet.",
+     "self_check": true
+    },
+    {
+     "q": "Name two other ways of making magnets.",
+     "a": "Double-touch rubbing and electrical method (current through a coil around iron).",
+     "self_check": true
+    },
+    {
+     "q": "Why do artificial magnets lose power over time?",
+     "a": "Heat, hammering and rough handling disturb their magnetism - proper storage keeps them strong.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.7",
+   "title": "Magnetic Attraction and Repulsion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when like poles of two magnets meet?",
+     "a": "They repel each other - push apart.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when unlike poles come near?",
+     "a": "They attract - pull together.",
+     "self_check": true
+    },
+    {
+     "q": "How can you identify two identical-looking iron bars, one magnetised?",
+     "a": "Bring one's end to the other's middle: the magnet attracts the middle of plain iron; if it repels anywhere, both ends show poles.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.8",
+   "title": "Care and Storage of Magnets",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How should magnets be stored?",
+     "a": "In pairs with opposite poles together, with soft iron keepers across the ends, away from heat.",
+     "self_check": true
+    },
+    {
+     "q": "Name two things that weaken a magnet.",
+     "a": "Heating and hammering (also rough storage near other magnets).",
+     "self_check": true
+    },
+    {
+     "q": "Why should magnets be kept away from mobiles and computers?",
+     "a": "Their magnetism can disturb electronic devices and screens.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_007",
+   "title": "c12_acc_cbse_01_007",
+   "questions": [
+    {
+     "q": "A partner draws ₹20,000 on 1st April, ₹15,000 on 1st July, and ₹10,000 on 1st October. The accounting year ends 31st March. Rate of interest on drawings is 10% p.a. Which method should be used and why?",
+     "a": "Product Method must be used because specific dates of drawings are given. The Average Period Method assumes regular intervals (monthly, quarterly) with consistent timing (beginning/middle/end), which is not the case here. A wrong answer choosing Average Period Method reveals the student cannot distinguish between irregular dated drawings (requiring Product Method) and regular pattern drawings (allowing Average Period Method).",
+     "self_check": true
+    },
+    {
+     "q": "A partner withdraws ₹5,000 at the beginning of each month for 12 months. The rate is 12% p.a. A student calculates average period as 6 months and gets interest = ₹60,000 × 12% × 6/12 = ₹3,600. Is this correct? Explain the error.",
+     "a": "Incorrect. For drawings at the beginning of each month, the average period is 6.5 months, not 6 months. The first drawing (1st April) is outstanding for 12 months, the last (1st March) for 1 month. Average = (12+1)/2 = 6.5 months. Correct interest = ₹60,000 × 12% × 6.5/12 = ₹3,900. The error reveals confusion between beginning-of-month (6.5), middle-of-month (6), and end-of-month (5.5) average periods — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate interest on drawings using Product Method: Partner draws ₹10,000 on 1st May, ₹15,000 on 31st August, and ₹5,000 on 31st December. Accounting year ends 31st March. Rate = 9% p.a. Show all products and final interest.",
+     "a": "Products: 1st May → 11 months outstanding (May to March) → 10,000 × 11 = 1,10,000. 31st August → 7 months outstanding (Sept to March) → 15,000 × 7 = 1,05,000. 31st December → 3 months outstanding (Jan to March) → 5,000 × 3 = 15,000. Sum of Products = 2,30,000. Interest = 2,30,000 × 9% × 1/12 = ₹1,725. A wrong answer using 10, 6, or 2 months reveals inability to count months correctly from drawing date to year-end — a frequent error in CUET/IPMAT questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Partner A draws ₹10,000 at the beginning of each quarter (4 drawings). Partner B draws ₹10,000 at the end of each quarter (4 drawings). Rate = 12% p.a. Who pays more interest and by how much? Explain without full calculation.",
+     "a": "Partner A pays more. Beginning-of-quarter average period = 7.5 months; end-of-quarter = 4.5 months. Difference = 3 months per drawing equivalent. Total drawings = ₹40,000 each. Interest difference = ₹40,000 × 12% × 3/12 = ₹1,200. Partner A pays ₹1,200 more. This tests conceptual understanding that earlier drawings stay outstanding longer, so beginning-of-period drawings always attract higher interest than end-of-period drawings for the same frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's partnership deed provides for interest on drawings @ 10% p.a. but is silent on the method. Partner X draws irregular amounts on random dates. Partner Y draws ₹20,000 at the beginning of every month. The accountant uses Product Method for both. Evaluate this decision.",
+     "a": "Correct for X (irregular dates require Product Method). For Y, Product Method would work but is inefficient; Average Period Method (6.5 months) is preferred and accepted in exams for regular patterns. The decision is technically acceptable but not optimal. A student saying \"Average Period Method is mandatory for Y\" is wrong — both methods yield identical results for regular drawings. The error reveals rigidity: methods are tools, not rules. Board exams accept either method if correctly applied, but Average Period is faster for regular patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where Product Method and Average Period Method give DIFFERENT answers for the same total drawings and rate. Explain why this happens and which answer is correct.",
+     "a": "Problem: Partner draws ₹10,000 on 1st April, ₹10,000 on 1st September, ₹10,000 on 1st January. Total = ₹30,000. Rate = 12% p.a. Year ends 31st March.\nProduct Method: (10,000×12) + (10,000×7) + (10,000×3) = 2,20,000. Interest = 2,20,000 × 12%/12 = ₹2,200.\nAverage Period Method (if incorrectly applied as monthly beginning): 30,000 × 12% × 6.5/12 = ₹1,950.\nDifference occurs because drawings are NOT monthly — they are irregular. Average Period Method assumes equal intervals; applying it here is wrong. Product Method is correct. This tests the boundary condition: Average Period Method is ONLY valid for equal, regular intervals. A student forcing Average Period on irregular drawings exposes a fundamental misunderstanding of method applicability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

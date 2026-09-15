@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_005",
+   "title": "c10_math_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the quadratic formula for the roots of \\(ax^2 + bx + c = 0\\) and the condition on \\(a\\).",
+     "a": "The quadratic formula is \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\) with the condition \\(a \\neq 0\\). A wrong answer (e.g., missing \\(\\pm\\), writing \\(2a\\) as \\(2\\) only, or forgetting the condition \\(a \\neq 0\\)) reveals that the student has memorised the formula without understanding its structure: the denominator \\(2a\\) comes from the coefficient of \\(x^2\\) after completing the square, and \\(a \\neq 0\\) is essential because division by \\(a\\) is the first step of the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "In the derivation, after dividing \\(ax^2 + bx + c = 0\\) by \\(a\\), we get \\(x^2 + \\frac{b}{a}x + \\frac{c}{a} = 0\\). Why do we add \\(\\left(\\frac{b}{2a}\\right)^2\\) to both sides? Explain the mathematical reason.",
+     "a": "We add \\(\\left(\\frac{b}{2a}\\right)^2\\) to complete the square: it turns \\(x^2 + \\frac{b}{a}x\\) into the perfect square \\(\\left(x + \\frac{b}{2a}\\right)^2\\). The term \\(\\frac{b}{2a}\\) is exactly half the coefficient of \\(x\\). A wrong answer (e.g., \"to cancel the \\(x\\) term\" or \"because the formula has \\(b^2\\)\") shows the student does not understand the algebraic identity \\((x + p)^2 = x^2 + 2px + p^2\\) and is mimicking steps without comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Derive the quadratic formula for the specific equation \\(2x^2 - 4x - 6 = 0\\) by completing the square. Show all steps and verify that the roots match the formula \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\).",
+     "a": "**Steps:**\n1. \\(2x^2 - 4x - 6 = 0\\)\n2. Divide by 2: \\(x^2 - 2x - 3 = 0\\)\n3. Move constant: \\(x^2 - 2x = 3\\)\n4. Half of \\(-2\\) is \\(-1\\), square is \\(1\\). Add 1 to both sides: \\(x^2 - 2x + 1 = 4\\)\n5. \\((x - 1)^2 = 4\\)\n6. \\(x - 1 = \\pm 2\\) → \\(x = 1 \\pm 2\\) → \\(x = 3, -1\\)\n**Verification using formula:** \\(a=2, b=-4, c=-6\\) → \\(x = \\frac{4 \\pm \\sqrt{16 + 48}}{4} = \\frac{4 \\pm 8}{4}\\) → \\(x = 3, -1\\).\nA wrong answer (e.g., adding \\((-2)^2=4\\) instead of \\(1\\) in step 4) reveals the common error of using half the original coefficient \\(b\\) instead of half of \\(\\frac{b}{a}\\) after division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the steps of completing the square for the general equation \\(ax^2+bx+c=0\\) and the specific equation \\(3x^2+6x-9=0\\). Identify which step in the general derivation corresponds to \"divide by 3\" in the specific case, and explain why the term added to complete the square becomes \\(\\frac{b^2}{4a^2}\\) in the general case but \\(1\\) in the specific case.",
+     "a": "Dividing the general equation by \\(a\\) corresponds to dividing the specific equation by 3. In the specific case, after division we have \\(x^2+2x-3=0\\); half of 2 is 1, square is 1. In the general case, after division the coefficient of \\(x\\) is \\(\\frac{b}{a}\\); half is \\(\\frac{b}{2a}\\), square is \\(\\frac{b^2}{4a^2}\\). A wrong answer (e.g., saying the added term is \\(\\frac{b^2}{2a}\\) or \\(b^2\\)) shows the student cannot generalise the arithmetic pattern to algebraic symbols and struggles with fraction algebra.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following derivation:\n\\(ax^2+bx+c=0\\)\n\\(x^2+bx+c=0\\) (divided by \\(a\\) but forgot to divide \\(bx\\) and \\(c\\))\n\\(x^2+bx = -c\\)\nAdd \\(\\left(\\frac{b}{2}\\right)^2\\): \\(x^2+bx+\\frac{b^2}{4} = \\frac{b^2}{4} - c\\)\n\\(\\left(x+\\frac{b}{2}\\right)^2 = \\frac{b^2-4c}{4}\\)\n\\(x = -\\frac{b}{2} \\pm \\frac{\\sqrt{b^2-4c}}{2}\\)\nIdentify the error, explain why it is wrong, and write the correct derivation from that step onward.",
+     "a": "**Error:** In step 2, the student divided only the \\(ax^2\\) term by \\(a\\), but did not divide \\(bx\\) and \\(c\\) by \\(a\\). The correct step is \\(x^2 + \\frac{b}{a}x + \\frac{c}{a} = 0\\). This error propagates: the coefficient of \\(x\\) becomes \\(b\\) instead of \\(\\frac{b}{a}\\), so the term added to complete the square becomes \\(\\left(\\frac{b}{2}\\right)^2\\) instead of \\(\\left(\\frac{b}{2a}\\right)^2\\), and the final formula misses \\(a\\) in the denominator and inside the square root. **Correct continuation from step 2:**\n\\(x^2 + \\frac{b}{a}x = -\\frac{c}{a}\\)\nAdd \\(\\left(\\frac{b}{2a}\\right)^2 = \\frac{b^2}{4a^2}\\) to both sides...\nA wrong answer (e.g., only correcting the final formula without fixing the algebraic steps) shows the student does not understand that every term must be divided by \\(a\\) to maintain equality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a quadratic equation with integer coefficients that *cannot* be solved by factorisation (i.e., its roots are irrational). Then, derive the quadratic formula specifically for your equation by completing the square, showing how the irrational roots appear naturally from the square root of a non-perfect square.",
+     "a": "**Example equation:** \\(x^2 - 4x - 1 = 0\\) (roots are \\(2 \\pm \\sqrt{5}\\), irrational). **Derivation:**\n1. \\(x^2 - 4x - 1 = 0\\)\n2. \\(x^2 - 4x = 1\\)\n3. Half of \\(-4\\) is \\(-2\\), square is 4. Add 4: \\(x^2 - 4x + 4 = 5\\)\n4. \\((x-2)^2 = 5\\)\n5. \\(x-2 = \\pm \\sqrt{5}\\) → \\(x = 2 \\pm \\sqrt{5}\\).\n**Criteria for a good answer:** The equation must have \\(b^2 - 4ac\\) not a perfect square. The derivation must correctly complete the square and show the square root of a non-perfect square. A poor answer (e.g., using an equation that factorises, or making arithmetic errors in completing the square) reveals the student cannot connect the discriminant to factorisability or cannot execute the completing-the-square steps independently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

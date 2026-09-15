@@ -1,0 +1,404 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 3,
+ "chapter_title": "Gene Cloning",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt103.1",
+   "title": "Isolation of Nucleic Acids from Cells",
+   "section": "3.2",
+   "definition": "Extracting DNA or RNA means rupturing the boundary, shielding the treasure and purifying it: lysozyme digests bacterial walls, SDS or CTAB dissolves membranes while CTAB's ionic strength swaps DNA for polysaccharides, EDTA starves nucleases of divalent ions at mild alkaline pH, chloroform-isoamyl deproteinisation splits phases, and chilled ethanol drops the nucleic acid out of solution - with GITC-phenol-chloroform preferentially pulling RNA into the aqueous phase.",
+   "formula": "-",
+   "key_idea": "Break the wall, block the nucleases, split the phases and precipitate - four moves that free intact nucleic acid from any cell.",
+   "textbook_ref": "lebt103.txt section 3.2, Figs. 3.1-3.2, Box 1",
+   "question_patterns": [
+    "describe the four steps involved in the extraction of nucleic acids",
+    "why is CTAB preferred over SDS for isolating DNA from plant cells",
+    "what role does the chelating agent EDTA play during DNA extraction",
+    "how does guanidinium isothiocyanate help isolate intact RNA from tissues",
+    "why are plant cells harder to lyse than animal cells during nucleic acid isolation",
+    "how are plasmid DNA and genomic DNA separated by boiling or by alkaline lysis",
+    "which solvent precipitates DNA from the aqueous phase and why does it work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "lyse appropriately",
+     "explain": "Choose lysis by boundary - detergent for animal membranes, lysozyme plus SDS for bacteria, grinding with CTAB for plants."
+    },
+    {
+     "step": 2,
+     "action": "protect from nucleases",
+     "explain": "EDTA chelates divalent cations and alkaline pH plus SDS inhibit DNases and RNases."
+    },
+    {
+     "step": 3,
+     "action": "separate and precipitate",
+     "explain": "Chloroform-isoamyl deproteinisation splits phases; ethanol or isopropanol precipitates the nucleic acid; RNase A clears RNA from DNA prep."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which enzyme digests bacterial cell walls during DNA extraction: lysozyme or ligase?",
+     "a": "lysozyme"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.2",
+   "title": "Restriction Enzymes Types and Cleavage Distances",
+   "section": "3.3",
+   "definition": "Restriction endonucleases cut DNA at specific 4-8 bp recognition sites, mostly palindromic, and fall into three classes: Type I cleaves randomly around a thousand bases away with SAM, magnesium and ATP, Type II cuts precisely within the site needing only magnesium - hence its starring role in cloning - and Type III cuts some twenty-four to twenty-six bases away; names encode the source microbe, genus, species, strain and discovery order as in EcoRI or HindIII.",
+   "formula": "distance_ratio = type1_distance / type3_distance",
+   "key_idea": "Only Type II cuts inside its recognition site; compare the cut distances of Types I and III to see how far off-target they work.",
+   "textbook_ref": "lebt103.txt section 3.3, Table 3.1-3.2, Fig. 3.4, Box 2",
+   "question_patterns": [
+    "Type I enzymes cut about 1000 bp from the site and Type III about 25 bp - how many times farther does Type I cut",
+    "why are Type II restriction enzymes the workhorses of rDNA technology",
+    "decode the nomenclature of EcoRI and HindIII from their source organisms",
+    "what are palindromic recognition sequences and why do most Type II enzymes recognise them",
+    "differentiate sticky ends from blunt ends with one enzyme example of each",
+    "which cofactors do Type I and Type III enzymes require that Type II does not",
+    "whose discovery of restriction enzymes won the 1978 Nobel Prize"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the cut offsets",
+     "explain": "Divide the Type I cleavage distance by the Type III distance.",
+     "compute": "distance_ratio = type1_distance / type3_distance"
+    },
+    {
+     "step": 2,
+     "action": "count the site length",
+     "explain": "Recognition sites run four to eight bases; six cutters such as EcoRI read six.",
+     "compute": "site_span = end_site - start_site"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which restriction type cuts precisely within its recognition site: Type II or Type I?",
+     "a": "Type II"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.3",
+   "title": "Enzyme Toolkit for DNA Manipulation",
+   "section": "3.3",
+   "definition": "Beyond the cutters, cloning borrows a whole enzyme bench: DNA ligase seals 5-phosphate to 3-hydroxyl using ATP or NAD, DNA polymerase extends only from a primer's free 3-OH end, alkaline phosphatase strips terminal phosphates while polynucleotide kinase restores them, terminal transferase adds template-free homopolymer tails, reverse transcriptase copies RNA into cDNA, and poly-A polymerase adenylates RNA ends.",
+   "formula": "-",
+   "key_idea": "Every joining, filling, tailing and copying job has a dedicated enzyme - match the chemistry to the tool.",
+   "textbook_ref": "lebt103.txt section 3.3 (iii)-(ix), Figs. 3.5-3.8",
+   "question_patterns": [
+    "write the roles of alkaline phosphatase DNA ligase and terminal transferase in rDNA technology",
+    "which energy source do E. coli and T4 DNA ligases each use to seal phosphodiester bonds",
+    "why cannot DNA polymerase begin synthesis without a primer",
+    "how does reverse transcriptase build cDNA from an RNA template",
+    "what are the opposing actions of alkaline phosphatase and polynucleotide kinase",
+    "which enzyme adds a homopolymer tail without a template and at which end",
+    "differentiate exonuclease from endonuclease action on a polynucleotide chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the chemistry",
+     "explain": "Joining needs ligase, filling needs polymerase, tailing needs transferase."
+    },
+    {
+     "step": 2,
+     "action": "check the ends",
+     "explain": "Ligase links a 5-prime phosphate to a 3-prime hydroxyl; phosphatase and kinase add or remove that phosphate."
+    },
+    {
+     "step": 3,
+     "action": "match template needs",
+     "explain": "Polymerases demand primers and templates; terminal transferase and poly-A polymerase work template-free."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which enzyme copies RNA into cDNA: reverse transcriptase or ligase?",
+     "a": "reverse transcriptase"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.4",
+   "title": "Modes of DNA Transfer into Hosts",
+   "section": "3.4",
+   "definition": "Nature moves DNA three ways - transformation by direct uptake, transduction by hitchhiking phage, and conjugation through an F-pilus bridging donor to recipient - and the laboratory extends the menu with calcium chloride heat shock, electric-pulse electroporation, liposome fusion, direct microinjection into the nucleus and gene-gun bombardment of DNA-coated gold particles.",
+   "formula": "-",
+   "key_idea": "Pick the delivery route by the host - chemical cocktails for bacteria, pores or bullets for stubborn walls and membranes.",
+   "textbook_ref": "lebt103.txt section 3.4, Figs. 3.9-3.12",
+   "question_patterns": [
+    "differentiate transformation transduction and conjugation as natural modes of DNA transfer",
+    "how does the calcium chloride method with heat shock introduce plasmids into bacteria",
+    "what creates the transient micropores used in electroporation",
+    "why can liposomes fuse with the cell membrane to deliver DNA",
+    "which transfer method shoots DNA-coated gold or tungsten particles into cells",
+    "what role does the F-factor and its pilus play in bacterial conjugation",
+    "name the recipients produced by transformation and by transduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the route",
+     "explain": "Free DNA uptake is transformation, virus-borne is transduction, cell-to-cell contact is conjugation."
+    },
+    {
+     "step": 2,
+     "action": "match lab methods",
+     "explain": "Chemical (CaCl2, lipofection) or physical (electroporation, microinjection, biolistic) delivery suits different hosts."
+    },
+    {
+     "step": 3,
+     "action": "track the outcome",
+     "explain": "Successfully altered recipients are called transformants or transductants."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "DNA transfer through an F-pilus bridge is called what: conjugation or transduction?",
+     "a": "conjugation"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.5",
+   "title": "Screening Recombinants by Insertional Inactivation",
+   "section": "3.5",
+   "definition": "Because only a lucky few cells receive the right construct, screening exploits lost functions: direct selection keeps antibiotic-resistant transformants alive, insertional inactivation knocks out a marker gene when the insert lands inside it - tetracycline plates keep all transformants while ampicillin replica plates expose those whose ampR was wrecked - and blue-white screening reads lacZ, where intact enzyme turns X-gal blue and disrupted lacZ leaves recombinant colonies white; GFP offers a fluorescent variant.",
+   "formula": "-",
+   "key_idea": "Whichever marker the insert breaks tells you which plate or colour hides the recombinant colony.",
+   "textbook_ref": "lebt103.txt section 3.5, Figs. 3.13-3.14",
+   "question_patterns": [
+    "explain insertional inactivation using a plasmid carrying both ampR and tetR genes",
+    "in blue-white screening why do recombinant colonies appear white on X-gal medium",
+    "what chromogenic substrate does beta-galactosidase cleave and what pigment results",
+    "compare master plate and replica plate colonies to identify recombinant plasmids",
+    "how does direct selection with an antibiotic differ from insertional inactivation",
+    "how does GFP serve as a screening marker alternative to lacZ"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "kill the non-transformants",
+     "explain": "Plate first on the antibiotic whose resistance stays intact - usually tetracycline."
+    },
+    {
+     "step": 2,
+     "action": "expose the disrupted marker",
+     "explain": "Replica-plate on the second antibiotic or X-gal medium; recombinants fail to grow or stay white."
+    },
+    {
+     "step": 3,
+     "action": "pick the differences",
+     "explain": "Colonies present on the master but absent or white on the replica carry the insert."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Blue-white screening reads the status of which gene: lacZ or tetR?",
+     "a": "lacZ"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.6",
+   "title": "Blotting Techniques Southern Northern Western",
+   "section": "3.6",
+   "definition": "Blotting pins molecules onto nitrocellulose, nylon or PVDF membranes for probing: Edwin Southern's capillary transfer finds DNA sequences with labelled probes; northern blotting of 1977 does the same for RNA on charged nylon with formamide buffer; and Burnette's 1981 western runs SDS-PAGE proteins onto membrane and flags the target with a specific antibody - together tracing a gene, its transcript and its protein, with the eastern blot spotting post-translational modifications.",
+   "formula": "-",
+   "key_idea": "Southern asks about DNA, northern about RNA, western about protein - same membrane logic, different probe.",
+   "textbook_ref": "lebt103.txt section 3.6, Figs. 3.15-3.17, Box 3",
+   "question_patterns": [
+    "differentiate the Southern northern and western blotting techniques by their target molecules and probes",
+    "describe the capillary setup that transfers DNA from gel to nitrocellulose membrane",
+    "why does northern blotting use formamide in the transfer buffer",
+    "which membrane type suits northern blotting and why does it favour nucleic acids",
+    "who coined the term western blot and in which year",
+    "how do the three blots together track a gene its transcript and its protein",
+    "what does the eastern blot detect and with which reagents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the molecules",
+     "explain": "Restriction-cut DNA, RNA or SDS-PAGE proteins resolve by size on gels."
+    },
+    {
+     "step": 2,
+     "action": "transfer and fix",
+     "explain": "Capillary flow, electro-transfer or vacuum moves them onto a membrane that is baked or UV-fixed."
+    },
+    {
+     "step": 3,
+     "action": "probe and visualise",
+     "explain": "Radioactive, fluorescent or chromogenic tags reveal the hybridised or antibody-bound band on film."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which blotting technique asks about RNA: northern or Southern?",
+     "a": "northern"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.7",
+   "title": "PCR Amplification Arithmetic",
+   "section": "3.7",
+   "definition": "Kary Mullis's polymerase chain reaction photocopies DNA exponentially through thermal cycling - strands separate near 95 degrees Celsius, primers anneal around 50-55, and Taq polymerase from Thermus aquaticus extends at 72 - so the copy count doubles every cycle toward two raised to the cycle number, with real-time qPCR trading gels for SYBR-green fluorescence and Ct values that fall as template rises.",
+   "formula": "copies = template_count * 2 ** cycles",
+   "key_idea": "Multiply the starting molecules by two raised to the cycle number; a low Ct betrays abundant template.",
+   "textbook_ref": "lebt103.txt section 3.7, Figs. 3.18-3.19, Boxes 4-5",
+   "question_patterns": [
+    "starting from 5 template molecules after 30 PCR cycles how many copies are expected",
+    "write the expression for the number of amplicons after n cycles of PCR beginning with one template",
+    "state the temperatures and purpose of denaturation annealing and extension steps",
+    "why is Taq polymerase suited to PCR while human polymerase is not",
+    "in real-time qPCR what does a lower Ct value reveal about the sample",
+    "how does RT-PCR convert an RNA sample such as SARS-CoV-2 RNA into an amplifiable target",
+    "how many cycles does a typical PCR reaction run and how many molecules does one template become"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double every cycle",
+     "explain": "Exponential amplification raises two to the cycle count.",
+     "compute": "copies = template_count * 2 ** cycles"
+    },
+    {
+     "step": 2,
+     "action": "discount the originals",
+     "explain": "Newly synthesised amplicons are the copies minus the starting templates.",
+     "compute": "net_new = copies - template_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Near what temperature do PCR strands separate: 95 degrees Celsius or 55?",
+     "a": "95"
+    }
+   ]
+  },
+  {
+   "id": "lebt103.8",
+   "title": "Candidate Genes and DNA Libraries",
+   "section": "3.1 and 3.8",
+   "definition": "Finding one 3000-3500 bp gene inside a 3.2 billion base haploid genome is a needle-in-haystack problem, solved by hunting candidate genes tied to disease or agronomic traits and by banking clones: a genomic library houses every fragment of the genome, while a cDNA library made through reverse transcriptase stores only the intron-free transcripts active in a chosen tissue, ready as probes or expression templates.",
+   "formula": "genome_fold = genome_bp / gene_bp",
+   "key_idea": "Divide genome size by gene size to measure the search problem, then let genomic or cDNA libraries shrink it to a shelf.",
+   "textbook_ref": "lebt103.txt sections 3.1 and 3.8, Figs. 3.20-3.21",
+   "question_patterns": [
+    "a 3500 bp gene sits in a 3.2 billion bp genome - how many times larger is the genome than the gene",
+    "express the diploid human genome size from the haploid value of 3.2 billion base pairs",
+    "differentiate a genomic library from a cDNA library with respect to the sequences each contains",
+    "why must mRNA be converted to cDNA before cloning",
+    "which enzyme makes the first cDNA strand and which builds the second",
+    "how can a cDNA library reveal which genes are active in pancreas beta cells",
+    "name two ways to shortlist a candidate gene before cloning"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the search space",
+     "explain": "Divide the genome by the gene size to see how many times bigger the haystack is.",
+     "compute": "genome_fold = genome_bp / gene_bp"
+    },
+    {
+     "step": 2,
+     "action": "double for the diploid set",
+     "explain": "Two haploid genomes make one diploid count.",
+     "compute": "diploid_bp = haploid_bp * 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which library houses every fragment of the genome: genomic or cDNA?",
+     "a": "genomic"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt103.txt section 3.7 (2 raised to n copies, 25-30 cycles)",
+   "concept": "lebt103.7",
+   "question_type": "compute",
+   "question_pattern": "A PCR reaction starts with {template_count} template molecules and runs {cycles} cycles. Find the total copies produced and the number of newly synthesised amplicons.",
+   "extracted_variables": {
+    "template_count": "starting number of template molecules",
+    "cycles": "number of PCR cycles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double per cycle",
+     "explain": "Two raised to the cycles scales the starting pool.",
+     "compute": "copies = template_count * 2 ** cycles"
+    },
+    {
+     "step": 2,
+     "action": "subtract the originals",
+     "explain": "The starting molecules are not new amplicons.",
+     "compute": "net_new = copies - template_count"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt103.txt section 3.1 (3.2 billion bp genome, 3500 bp gene)",
+   "concept": "lebt103.8",
+   "question_type": "compute",
+   "question_pattern": "A candidate gene of {gene_bp} bp hides in a haploid genome of {genome_bp} bp. Find how many times larger the genome is than the gene, and the diploid genome size.",
+   "extracted_variables": {
+    "gene_bp": "size of the candidate gene in bp",
+    "genome_bp": "haploid genome size in bp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide genome by gene",
+     "explain": "The quotient measures the search difficulty.",
+     "compute": "genome_fold = genome_bp / gene_bp"
+    },
+    {
+     "step": 2,
+     "action": "double for diploid",
+     "explain": "Somatic cells carry two genome copies.",
+     "compute": "diploid_bp = genome_bp * 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt103-ex1",
+   "source_ref": "lebt103.txt Exercises (questions 1-19)",
+   "questions": [
+    "Describe the methods used for isolation of DNA and the challenges faced during extraction.",
+    "How many types of restriction enzymes exist and can all be used in rDNA technology - justify.",
+    "Write the role of alkaline phosphatase, DNA ligase and terminal transferase in rDNA technology.",
+    "Briefly describe the modes of DNA transfer into the host including chemical and physical methods.",
+    "How are recombinants screened - describe direct selection, insertional inactivation and blue-white selection in detail.",
+    "Differentiate the Southern, Northern and Western blotting techniques.",
+    "What is PCR - describe its three steps and compute the copy number after a given number of cycles.",
+    "Write a comparative account of the genomic and cDNA libraries."
+   ]
+  }
+ ]
+}

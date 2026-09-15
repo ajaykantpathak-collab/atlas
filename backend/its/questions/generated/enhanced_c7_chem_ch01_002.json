@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_002",
+   "title": "c7_chem_ch01_002",
+   "questions": [
+    {
+     "q": "What term is used to describe the property of metals that allows them to be beaten into thin sheets?",
+     "a": "The property is called malleability. A student who answers \"ductility\" is confusing the ability to be beaten into sheets with the ability to be drawn into wires, which is a different mechanical property.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a piece of coal breaks into powder when struck with a hammer, whereas an iron nail flattens into a sheet.",
+     "a": "Iron is a metal and possesses malleability, meaning its structure allows layers of atoms to slide over each other under pressure without breaking the material. Coal is a non-metal and is brittle; when struck, internal bonds break abruptly, causing it to shatter rather than deform. A student who thinks coal flattens has not understood the fundamental difference in physical properties between metals and non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a lump of sulfur and beats it with a hammer to make a thin sheet for a science project. Predict what will happen and explain why based on material properties.",
+     "a": "Steps for prediction:\n1. Identify sulfur as a non-metal based on material classification.\n2. Recall that non-metals lack the property of malleability.\n3. Determine the response of a brittle substance to mechanical force (hammering).\n4. Predict the outcome: Sulfur will shatter into smaller fragments or powder.\nA student who predicts sulfur will form a sheet is confusing non-metals with metals.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following materials: Aluminium rod, Sulfur lump, Copper coin, Pencil lead (graphite). Group them into malleable and non-malleable categories and justify your grouping.",
+     "a": "Malleable group: Aluminium rod and Copper coin. Non-malleable group: Sulfur lump and Pencil lead (graphite). Justification: Aluminium and copper are metals that can withstand compressive forces and spread into thin sheets (malleability). Sulfur and graphite are non-metals that are brittle and fracture upon striking. A student who places graphite or sulfur in the malleable group fails to recognize that non-metals lack this physical property.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All solid materials found in nature can be beaten into thin sheets if enough force is applied.\" Is this scientifically correct? Justify your answer.",
+     "a": "The statement is incorrect. While metals are malleable and can be hammered into sheets (e.g., gold and silver can be beaten into extremely thin foils), many solid materials such as wood, glass, stone, and non-metals like coal and sulfur are brittle. Applying heavy force to brittle solids causes them to fracture, crack, or shatter rather than deform into sheets. A student who agrees with the statement fails to distinguish between hardness, strength, and malleability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, safe classroom demonstration to test whether a piece of copper wire is more malleable than a piece of chalk, and describe what observations would confirm your conclusion.",
+     "a": "To test malleability, place a copper wire and a piece of chalk on a hard wooden surface and gently strike each once with a small plastic mallet using equal force. Observation: The copper wire flattens slightly into a wider shape without breaking, while the chalk immediately crushes into powder. Conclusion: Copper demonstrates malleability, whereas chalk is brittle and non-malleable. A poor answer would suggest heating the materials or testing electrical conductivity instead of physical deformation under impact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

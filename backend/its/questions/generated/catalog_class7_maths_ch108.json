@@ -1,0 +1,317 @@
+{
+ "catalog": "catalog_class7_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "gegp.8.1.1",
+   "title": "Multiplication of a Whole Number and a Fraction",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 4 x 7/8.",
+     "a": "7/2",
+     "self_check": false
+    },
+    {
+     "q": "Find 2/4 of 16.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 8/7 and 4/2.",
+     "a": "16/7",
+     "self_check": false
+    },
+    {
+     "q": "Divide 5/3 by 1/6.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 10/13 and give it as a fraction.",
+     "a": "13/10",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 1/3 and 6/3 (same denominator).",
+     "a": "7/3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.2",
+   "title": "Multiplication of Two Fractions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 4 x 4/2.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find 7/2 of 6.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 1/9 and 2/6.",
+     "a": "1/27",
+     "self_check": false
+    },
+    {
+     "q": "Divide 8/4 by 6/5.",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 5/8 and give it as a fraction.",
+     "a": "8/5",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 4/4 and 3/4 (same denominator).",
+     "a": "7/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.3",
+   "title": "Area of a Rectangle with Fractional Sides",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 11 x 6/3.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find 7/6 of 12.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 8/2 and 4/6.",
+     "a": "8/3",
+     "self_check": false
+    },
+    {
+     "q": "Divide 1/6 by 8/3.",
+     "a": "1/16",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 4/7 and give it as a fraction.",
+     "a": "7/4",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 1/9 and 3/9 (same denominator).",
+     "a": "4/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.4",
+   "title": "Simplifying Fractions by Cancelling Common Factors",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 4 and 8 have HCF 2 with coprime multipliers 2 and 4. Verify by computing hcf = 2 x 1; then find the HCF value.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 4 and 8 given their HCF is 2 and HCF x LCM = product of the numbers.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 4 and 8 is 16. Use HCF x LCM = a x b to find their HCF.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 4 cm and 8 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 4 minutes and 8 minutes. After how many minutes will they next ring together?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 90?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.5",
+   "title": "Magnitude of Product",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5) gives 7.68115",
+     "compute": "mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector -3i + -5j + 5k (two decimal places).",
+     "a": "7.68",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (3, -3, 3) and (0, -2, -5).",
+     "a": "-9",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (3, -3, 3) and b = (0, -2, -5) have dot product -9. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "-0.32",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (3, -3, 3) on b = (1, 0, 0).",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(1, -3, -1) to Q(-1, 1, 3) and report the x-component.",
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (3, -3, 3) and (0, -2, -5) by computing all three components first (two decimal places).",
+     "a": "26.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.1",
+   "title": "Reciprocal of a Fraction",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 6 x 4/2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/3 of 12.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 4/3 and 7/6.",
+     "a": "14/9",
+     "self_check": false
+    },
+    {
+     "q": "Divide 6/7 by 8/3.",
+     "a": "9/28",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 7/10 and give it as a fraction.",
+     "a": "10/7",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 1/3 and 3/3 (same denominator).",
+     "a": "4/3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.2",
+   "title": "Division of Fractions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 12 x 4/3.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find 7/7 of 28.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 3/4 and 4/5.",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "Divide 2/7 by 7/9.",
+     "a": "18/49",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 8/11 and give it as a fraction.",
+     "a": "11/8",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 7/8 and 6/8 (same denominator).",
+     "a": "13/8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.3",
+   "title": "Magnitude of Quotient",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7) gives 8.83176",
+     "compute": "mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector -2i + 5j + 7k (two decimal places).",
+     "a": "8.83",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (-3, 3, 5) and (2, -2, 3).",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (-3, 3, 5) and b = (2, -2, 3) have dot product 3. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.11",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (-3, 3, 5) on b = (2, 0, 0).",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(2, -5, 1) to Q(-2, 3, 2) and report the x-component.",
+     "a": "-4",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (-3, 3, 5) and (2, -2, 3) by computing all three components first (two decimal places).",
+     "a": "26.87",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

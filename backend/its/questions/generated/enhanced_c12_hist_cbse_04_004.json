@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_04_004",
+   "title": "c12_hist_cbse_04_004",
+   "questions": [
+    {
+     "q": "List the five Mahavratas in the correct Sanskrit terms and give the one-sentence practical meaning of each for a Jain monk.",
+     "a": "The five Mahavratas are: 1) Ahimsa — non-violence in thought, word, and deed toward all living beings; 2) Satya — speaking truth that is also beneficial and non-hurtful; 3) Asteya — not taking anything not freely given; 4) Brahmacharya — complete celibacy in body, speech, and mind; 5) Aparigraha — total renunciation of possession and attachment. A wrong answer (e.g., listing only four, confusing with Buddhist precepts, or giving layperson versions) reveals confusion between monastic vows (mahavratas) and lay vows (anuvratas) or conflation with the Buddhist Five Precepts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Jainism insists that even unintentional killing (e.g., walking on insects) generates karma, whereas Buddhism distinguishes intentional from unintentional action. What metaphysical assumption about the soul (jiva) underlies this difference?",
+     "a": "Jainism holds that every jiva (soul) is inherently conscious and capable of suffering, and karma is a subtle material substance that adheres to the soul through any vibration caused by activity — intentional or not. Buddhism rejects a permanent soul; karma is volitional (cetana), so unintentional acts lack moral weight. A wrong answer that says \"both traditions treat intention the same\" or \"Jainism ignores intention\" misses the ontological divergence: Jainism's pluralistic, substantialist souls versus Buddhism's anatta (no-soul) and intentionality-based ethics.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 5th-century CE Jain inscription praising a merchant who \"observed the anuvratas while supporting monks who kept the mahavratas.\" Using the concept of Anekantavada, explain how this inscription reflects the Jain resolution of the tension between worldly life and liberation.",
+     "a": "Anekantavada (via nayavada) allows multiple valid perspectives: from the monk's viewpoint (naya), total renunciation (mahavratas) is the only path; from the layperson's viewpoint, limited vows (anuvratas) and supporting the sangha are meritorious steps. The inscription acknowledges both standpoints as conditionally true (syad asti) without absolutizing either. A wrong answer that claims \"the inscription shows hypocrisy\" or \"Jainism has double standards\" fails to grasp Anekantavada as an epistemological framework that legitimizes graded spiritual practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Jain doctrine of Anekantavada with the Buddhist doctrine of Dependent Origination (Pratityasamutpada) as responses to the problem of describing ultimate reality. Identify one similarity and one fundamental difference in their logical structure.",
+     "a": "Similarity: Both reject rigid metaphysical absolutism (eternalism and nihilism) and use conditional language. Difference: Anekantavada affirms a multifaceted, substantial reality (dravya with infinite gunas) knowable through sevenfold predication (saptabhangi); Pratityasamutpada denies inherent existence (svabhava) altogether, showing all phenomena as empty (shunya) of self-nature. A wrong answer that equates them as \"both say everything is relative\" overlooks Jain realism versus Buddhist anti-realism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Anekantavada is merely intellectual tolerance; it has no bearing on the strictness of the Mahavratas.\" Use textual evidence from the Uttaradhyayana Sutta (Source 4 in NCERT) and the concept of karma as material particles.",
+     "a": "The statement is false. Anekantavada's recognition that reality has infinite aspects (ananta-guna) means the soul's bondage is equally complex; only total observance of Mahavratas can block all channels of karmic influx (asrava). The Uttaradhyayana Sutta shows Queen Kamalavati arguing that worldly pleasures cannot save at death — only dhamma (here, the vows) does. Partial observance leaves karmic doors open. A wrong answer that agrees with the statement separates epistemology from soteriology, missing the Jain integration of knowledge (jnana), faith (darshana), and conduct (charitra) as the three jewels (ratnatraya).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 7-step syllogism (saptabhangi) for the proposition \"The soul (jiva) exists\" as a Jain logician would formulate it, using the seven conditional predications (syadvada). Then explain why the fourth predication (syad avaktavyam) is necessary.",
+     "a": "The seven predications: 1) Syad asti (in some sense, it exists — as a substance); 2) Syad nasti (in some sense, it does not exist — as non-soul/modification); 3) Syad asti nasti (in some sense, it both exists and does not exist — simultaneously from different standpoints); 4) Syad avaktavyam (in some sense, it is indescribable — because simultaneous predication transcends language); 5) Syad asti avaktavyam (in some sense, it exists and is indescribable); 6) Syad nasti avaktavyam (in some sense, it does not exist and is indescribable); 7) Syad asti nasti avaktavyam (in some sense, it exists, does not exist, and is indescribable). The fourth is necessary because the simultaneous affirmation and negation (3) cannot be captured in discursive language without loss — it marks the limit of conceptual thought. A poor answer lists the seven without explaining the logical necessity of avaktavyam, treating it as a mere rhetorical flourish.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

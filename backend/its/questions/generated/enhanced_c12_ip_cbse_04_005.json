@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_005",
+   "title": "c12_ip_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define cybercrime in one sentence using the \"tool, target, or both\" framework. Give one example for each case.",
+     "a": "Cybercrime is any illegal act where a computer/network is used as a tool (e.g., sending phishing emails), a target (e.g., hacking a government database), or both (e.g., ransomware encrypting victim's files for extortion). A wrong answer that only mentions \"crime using computers\" reveals the student misses the critical distinction between instrument and victim — this leads to misclassifying crimes and citing wrong IT Act sections in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Cybercrime and cyber attack mean the same thing.\" Is this correct? Explain why or why not using the concepts of intent and legality.",
+     "a": "Incorrect. A cyber attack is a technical action (e.g., port scanning, DDoS traffic) that may or may not be illegal — authorised penetration testing is a cyber attack but not a crime. Cybercrime requires criminal intent (mens rea) and violation of law (IT Act/IPC). Confusing the two causes students to label ethical hacking as cybercrime in board answers, losing marks for precision.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each scenario into the correct cybercrime category: (a) An attacker floods an e-commerce site with traffic so legitimate customers cannot access it during a sale. (b) A fake UPI payment screen is shown to a merchant, but no money is transferred. (c) Malicious software encrypts a hospital's patient records and demands ₹5 lakh in Bitcoin. (d) A former employee accesses the company's cloud storage without permission and downloads client lists.",
+     "a": "(a) DoS/DDoS attack — availability violation. (b) Financial fraud / payment fraud — deception for monetary gain. (c) Ransomware — malware + extortion (both tool and target). (d) Unauthorised access / data theft — hacking under IT Act Section 43/66. A wrong classification (e.g., calling (a) \"hacking\") shows the student confuses the *method* (flooding traffic) with the *category* (denial of service) — competitive exams like CUET test this distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"phishing\" and \"pharming\" as categories of cybercrime. Which is harder for an average user to detect, and why?",
+     "a": "Phishing uses social engineering (deceptive email/link) to trick the user into revealing credentials; pharming manipulates DNS or hosts file to redirect the user to a fake site even when they type the correct URL. Pharming is harder to detect because the browser address bar shows the legitimate URL — no user action (clicking a link) is required. Students who say \"phishing is worse because it's more common\" miss the technical stealth of pharming; board case-study questions often ask to identify the attack vector from a scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The IT Act 2000 (amended 2008) covers all types of cybercrimes in India, so no other law is needed.\" Support your answer with two specific examples where IPC sections apply alongside the IT Act.",
+     "a": "The statement is false. The IT Act is the primary legislation but not exhaustive. Example 1: Cyberstalking with threat to life — IT Act Section 67A (obscene material) + IPC Section 354D (stalking) + IPC Section 506 (criminal intimidation). Example 2: Online financial fraud — IT Act Section 66C (identity theft) + Section 66D (cheating by personation) + IPC Section 420 (cheating) + Section 468 (forgery for cheating). Students who cite only IT Act sections lose marks in board long-answer questions; competitive exams like UPSC/State PSC expect knowledge of concurrent applicability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Cybercrime Quick-Reference Card\" for your school's computer lab that lists 6 categories, the primary IT Act section for each, and one prevention tip per category. Use a table format.",
+     "a": "A good answer includes: (1) Hacking — Sec 66 — keep systems patched; (2) Malware/Virus — Sec 43/66 — use updated antivirus; (3) Phishing — Sec 66D — verify sender, don't click unsolicited links; (4) Identity Theft — Sec 66C — enable 2FA, monitor credit reports; (5) Ransomware — Sec 66/66F — offline backups, don't pay ransom; (6) Cyberstalking — Sec 67A/354D IPC — block/report, preserve evidence. A poor answer mixes categories (e.g., lists \"virus\" and \"trojan\" separately) or cites wrong sections (e.g., Sec 65 for phishing) — reveals rote memorisation without understanding the legal mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

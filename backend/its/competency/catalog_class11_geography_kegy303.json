@@ -1,0 +1,185 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 303,
+ "chapter_title": "Latitude, Longitude and Time",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy303.txt",
+ "concepts": [
+  {
+   "id": "kegy.303.1.1",
+   "title": "Latitude, Longitude and Their Grid",
+   "section": "",
+   "definition": "Latitude is the angular distance north or south of the equator measured in degrees up to 90, longitude is the angular distance east or west of the Prime Meridian at Greenwich up to 180, and the grid of parallels and meridians fixes every place on the earth.",
+   "formula": "local_time = gmt + longitude_degrees / 15",
+   "key_idea": "Parallels stay equally spaced while meridians converge at the poles, and one degree of latitude always spans about 111 km.",
+   "textbook_ref": "kegy303.txt latitude and longitude sections",
+   "question_patterns": [
+    "define latitude and longitude with their ranges",
+    "calculate the local time of a place from its longitude",
+    "what is the prime meridian and where is it located",
+    "differentiate parallels of latitude and meridians of longitude",
+    "why is the degree of longitude shortest at the poles",
+    "state the value of each degree of latitude in kilometres"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert longitude to local time offset",
+     "explain": "Divide the longitude in degrees by 15 to get the hours ahead of or behind Greenwich Mean Time",
+     "compute": "local_time = gmt + longitude_degrees / 15"
+    }
+   ]
+  },
+  {
+   "id": "kegy.303.2.1",
+   "title": "Time Difference, International Date Line and Standard Time",
+   "section": "",
+   "definition": "The earth rotates 360 degrees in 24 hours, so one degree of longitude equals four minutes of time, and places east of Greenwich are ahead while places west are behind; the International Date Line near the 180 degree meridian changes the date when crossed, and countries adopt standard time zones of their chosen meridians.",
+   "formula": "time_lag = longitude_difference * 4",
+   "key_idea": "The time lag between two places equals their longitude difference in degrees multiplied by four minutes, and India's single IST spans about 30 degrees of longitude.",
+   "textbook_ref": "kegy303.txt time and date line sections",
+   "question_patterns": [
+    "calculate the time difference between two longitudes",
+    "what is the international date line and its effect on dates",
+    "why is a standard time adopted by countries",
+    "compute the time lag in minutes from a given longitude difference",
+    "why does the date change on crossing the 180 degree meridian",
+    "explain the indian standard time meridian"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply four minutes per degree",
+     "explain": "Multiply the difference of longitudes in degrees by 4 to get the time lag in minutes",
+     "compute": "time_lag = longitude_difference * 4"
+    }
+   ]
+  },
+  {
+   "id": "kegy.303.3.1",
+   "title": "Meridians, Zones and the Grid Reference System",
+   "section": "Grid reference",
+   "definition": "The grid of parallels and meridians divides the globe into time and position zones, and on maps the grid reference of eastings and northings pinpoints any location to six figures, linking the spherical coordinate system to practical map reading.",
+   "formula": "",
+   "key_idea": "A six figure grid reference gives easting first and northing second, locating a point within 100 metres on a 1:50,000 sheet.",
+   "textbook_ref": "kegy303.txt grid reference sections",
+   "question_patterns": [
+    "define grid reference and state its use",
+    "how is a six figure grid reference read",
+    "which value comes first easting or northing",
+    "how do meridians create time zones of the world",
+    "explain the relation between the grid and map reading",
+    "what is the precision of a four figure and a six figure reference"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kegy303.txt time calculation section",
+   "concept": "kegy.303.2.1",
+   "question_type": "compute_time_lag",
+   "question_pattern": "Two cities differ in longitude by {longitude_difference} degrees. Calculate the time lag between them in minutes.",
+   "extracted_variables": {
+    "longitude_difference": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply four minutes per degree",
+     "explain": "Multiply the difference of longitudes in degrees by 4 to get the time lag in minutes",
+     "compute": "time_lag = longitude_difference * 4"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kegy303.txt time calculation section",
+   "concept": "kegy.303.2.1",
+   "question_type": "compute_time_lag",
+   "question_pattern": "A ship sails from a port to another port {longitude_difference} degrees of longitude away. Find the time difference the navigator must allow, in minutes.",
+   "extracted_variables": {
+    "longitude_difference": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply four minutes per degree",
+     "explain": "Multiply the difference of longitudes in degrees by 4 to get the time lag in minutes",
+     "compute": "time_lag = longitude_difference * 4"
+    }
+   ]
+  },
+  {
+   "id": "exA",
+   "source_ref": "kegy303.txt time calculation section",
+   "concept": "kegy.303.1.1",
+   "question_type": "compute_local_time",
+   "question_pattern": "A place lies at {longitude_degrees} degrees east of Greenwich. If it is {gmt} o'clock GMT, calculate the local time of the place.",
+   "extracted_variables": {
+    "longitude_degrees": 60,
+    "gmt": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert longitude to local time offset",
+     "explain": "Divide the longitude in degrees by 15 to get the hours ahead of or behind Greenwich Mean Time",
+     "compute": "local_time = gmt + longitude_degrees / 15"
+    }
+   ]
+  },
+  {
+   "id": "exB",
+   "source_ref": "kegy303.txt time calculation section",
+   "concept": "kegy.303.1.1",
+   "question_type": "compute_local_time",
+   "question_pattern": "A ship's position is {longitude_degrees} degrees west of the prime meridian where the time is {gmt} o'clock GMT. Find the local time of the ship.",
+   "extracted_variables": {
+    "longitude_degrees": 45,
+    "gmt": 16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert longitude to local time offset",
+     "explain": "Divide the longitude in degrees by 15 to get the hours ahead of or behind Greenwich Mean Time",
+     "compute": "local_time = gmt + longitude_degrees / 15"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy303.txt exercises",
+   "questions": [
+    "What is the latitudinal and longitudinal extent of India?",
+    "Calculate the local time of a place from its longitude.",
+    "Why is the International Date Line not a straight line?",
+    "Define parallels and meridians with diagrams.",
+    "How many minutes does the earth take to rotate through one degree?"
+   ]
+  }
+ ]
+}

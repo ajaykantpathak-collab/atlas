@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_002",
+   "title": "c12_math_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the order and type of each matrix: (i) A = [2  −5  0  7], (ii) B = [[3], [−1], [4]], (iii) C = [[1, 2], [3, 4]], (iv) D = [[5, 0], [0, −2]].",
+     "a": "(i) Order 1 × 4, row matrix. (ii) Order 3 × 1, column matrix. (iii) Order 2 × 2, square matrix (not diagonal because off-diagonals 2, 3 ≠ 0). (iv) Order 2 × 2, diagonal matrix (square with off-diagonals zero). A wrong answer like \"C is diagonal\" reveals the student confuses \"square\" with \"diagonal\" — they must check aᵢⱼ = 0 for i ≠ j.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Matrix M = [[0, 0], [0, 0]] is a diagonal matrix because all its diagonal elements are zero.\" Is this correct? Explain why or why not, referencing the definition.",
+     "a": "Yes, it is correct. The zero matrix of any square order satisfies the diagonal matrix condition: aᵢⱼ = 0 for all i ≠ j (vacuously true since all entries are zero). The definition does NOT require diagonal elements to be non-zero. A student who says \"no, diagonal elements must be non-zero\" has added an extra condition not in the definition — this is a common over-generalisation from seeing only non-zero diagonal examples.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3 × 3 diagonal matrix whose diagonal entries are the first three prime numbers. Then write its order and confirm it is diagonal by listing the (i, j) positions where the condition aᵢⱼ = 0 (i ≠ j) must hold.",
+     "a": "First three primes: 2, 3, 5. Matrix: [[2, 0, 0], [0, 3, 0], [0, 0, 5]]. Order = 3 × 3. Off-diagonal positions: (1,2), (1,3), (2,1), (2,3), (3,1), (3,2) — all six must be zero. A wrong construction like [[2, 0, 0], [3, 0, 0], [5, 0, 0]] reveals the student placed primes in the first column instead of the diagonal — they confuse \"diagonal entries\" with \"first column entries\".",
+     "self_check": true
+    },
+    {
+     "q": "Matrix P is 4 × 4. Matrix Q is 1 × 4. Matrix R is 4 × 1. Which of the following sums are defined? (i) P + Q, (ii) Q + R, (iii) P + (transpose of Q). Justify each using order compatibility and matrix types.",
+     "a": "(i) Not defined: P is 4 × 4 (square), Q is 1 × 4 (row) — different orders. (ii) Not defined: Q is 1 × 4 (row), R is 4 × 1 (column) — different orders. (iii) Defined: Qᵀ is 4 × 1 (column), but P is 4 × 4 — still different orders, so NOT defined. Wait: Qᵀ is 4 × 1, P is 4 × 4 → not same order. So none are defined. A student who says (iii) is defined because \"both have 4 rows\" misses that columns must also match (4 vs 1). This tests understanding that addition requires identical order, not just same row count.",
+     "self_check": true
+    },
+    {
+     "q": "A JEE-style question: \"Let A be a 3 × 3 diagonal matrix with diagonal entries 1, 2, 3. Let B be the matrix obtained by interchanging the first and third rows of A. Is B diagonal? Is B square? Explain.\"",
+     "a": "A = diag(1, 2, 3) = [[1,0,0],[0,2,0],[0,0,3]]. Interchanging rows 1 and 3 gives B = [[0,0,3],[0,2,0],[1,0,0]]. B is square (3 × 3) but NOT diagonal because off-diagonal entries (1,3)=3, (3,1)=1 are non-zero. A student who says \"B is diagonal because row operations preserve diagonal structure\" is wrong — row operations destroy diagonal structure unless it's a scalar matrix. This tests the distinction between \"square\" (shape) and \"diagonal\" (pattern).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context: marks, prices, distances) that can be represented by a row matrix, a column matrix, a square matrix, and a diagonal matrix — all in one situation. Describe the data and the matrix for each type.",
+     "a": "Scenario: A school canteen sells 3 items (samosa ₹15, chai ₹10, sandwich ₹30) over 3 days (Mon, Tue, Wed). \n- Row matrix (1 × 3): Prices of the 3 items on Monday = [15, 10, 30].\n- Column matrix (3 × 1): Number of samosas sold on Mon, Tue, Wed = [[20], [25], [18]].\n- Square matrix (3 × 3): Sales matrix where rows = items, columns = days, entry = quantity sold.\n- Diagonal matrix (3 × 3): Profit per item per day if only diagonal days have profit (e.g., special offer days) = diag(500, 600, 450).\nA poor answer uses the same matrix for all types or doesn't justify the structure — shows inability to map real data to matrix shapes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch2_5",
+   "title": "c8_civ_ch2_5",
+   "questions": [
+    {
+     "q": "What is another name for the Rajya Sabha as established by the Indian Constitution?",
+     "a": "The Rajya Sabha is also known as the Council of States. A wrong answer like \"House of the People\" reveals a confusion with the Lok Sabha, showing the student has not distinguished between the two houses of Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution mandate an indirect election process for the Rajya Sabha instead of letting all citizens vote directly?",
+     "a": "Indirect election by state legislators ensures that the Rajya Sabha represents the states as federated units rather than just the general population, maintaining the federal balance of power. A wrong answer assuming it is just to save time reveals a misunderstanding of the structural purpose of a bicameral federal legislature.",
+     "self_check": true
+    },
+    {
+     "q": "If a State Legislative Assembly (Vidhan Sabha) is dissolved or has a vacancy, how does it affect the election of members to the Rajya Sabha from that state?",
+     "a": "Vacancies in the State Legislative Assembly mean those specific MLAs cannot vote in the proportional representation system, which can alter the numerical balance of votes for Rajya Sabha seats from that state. A wrong answer claiming that citizen votes automatically fill the gap shows a lack of understanding of the indirect election mechanism where only elected MLAs vote.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between the electoral college that elects the Lok Sabha and the electoral college that elects the Rajya Sabha.",
+     "a": "The Lok Sabha is elected directly by all eligible adult citizens (universal adult suffrage under Article 326), whereas the Rajya Sabha is elected indirectly by the elected members of State Legislative Assemblies using proportional representation by means of a single transferable vote. A wrong answer stating that both are elected directly by citizens indicates a failure to differentiate between the two houses of Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because Rajya Sabha members are not directly elected by the public, the House lacks democratic legitimacy.\" Is this a valid critique?",
+     "a": "This is not a valid critique because indirect election is a deliberate constitutional design for a federal second chamber, providing states a direct constitutional voice in national lawmaking, which enhances rather than diminishes Indian democratic federalism. A wrong answer agreeing that it lacks legitimacy ignores the federal design principles of bicameralism in a diverse democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short guideline explaining how an MLA in a state assembly should decide whom to vote for in a Rajya Sabha election, keeping federal representation in mind.",
+     "a": "A good guideline should instruct the MLA to evaluate candidates based on their ability to voice state-specific developmental needs, protect federal rights, and contribute expert national legislation, rather than purely partisan interests. A poor guideline that suggests voting solely based on national party commands without regard for state welfare reveals a misunderstanding of the Rajya Sabha's role as the Council of States.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

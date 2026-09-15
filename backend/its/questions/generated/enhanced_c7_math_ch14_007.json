@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_007",
+   "title": "c7_math_ch14_007",
+   "questions": [
+    {
+     "q": "What is the measure of each interior angle of a regular octagon (8-sided polygon), and what is the sum of interior angles of a polygon with $n$ sides?",
+     "a": "The sum of interior angles is given by $(n - 2) \\times 180^\\circ$, so for an octagon ($n = 8$), it is $(8 - 2) \\times 180^\\circ = 6 \\times 180^\\circ = 1080^\\circ$. Each interior angle is $\\frac{1080^\\circ}{8} = 135^\\circ$. A wrong answer often shows confusion between exterior and interior angles, or incorrect substitution in the polygon angle sum formula, indicating the student needs to review polygon properties from Class 6 geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a regular octagon alone not form a regular tiling of the plane, even though it is a regular polygon?",
+     "a": "A regular octagon cannot form a regular tiling because each interior angle is $135^\\circ$, and $360^\\circ$ is not divisible by $135^\\circ$ ($360 \\div 135 = 2.66...$), meaning whole octagons cannot meet around a vertex to completely fill the $360^\\circ$ space without gaps or overlaps. A wrong answer assumes that any regular polygon can tile a plane, missing the crucial vertex angle condition of summing to exactly $360^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "A semi-regular tiling is formed around each vertex using two equilateral triangles and two regular hexagons. Verify if this vertex configuration is valid by calculating the total sum of angles at the vertex.",
+     "a": "The interior angle of an equilateral triangle is $60^\\circ$ and of a regular hexagon is $120^\\circ$. For two triangles and two hexagons, the sum is $(2 \\times 60^\\circ) + (2 \\times 120^\\circ) = 120^\\circ + 240^\\circ = 360^\\circ$. Since the sum equals $360^\\circ$, this vertex configuration is valid. A wrong answer usually stems from incorrect individual angle calculations or arithmetic errors in addition and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a regular tiling and a semi-regular tiling in terms of the types of polygons used and the vertex arrangement rules.",
+     "a": "A regular tiling uses only one single type of regular polygon throughout the entire plane, whereas a semi-regular tiling uses two or more different types of regular polygons. However, both share the strict rule that the arrangement of polygons around every single vertex must be identical, and all vertex angle sums must equal $360^\\circ$. A wrong answer treats semi-regular tilings as random mixtures of shapes, forgetting the requirement of a uniform vertex configuration.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims they have created a semi-regular tiling using squares (interior angle $90^\\circ$) and regular octagons (interior angle $135^\\circ$) with a vertex configuration of one square and two octagons. Evaluate this claim mathematically.",
+     "a": "The proposed configuration gives an angle sum of $(1 \\times 90^\\circ) + (2 \\times 135^\\circ) = 90^\\circ + 270^\\circ = 360^\\circ$. While the angle sum equals $360^\\circ$, this specific combination fails to form a valid semi-regular tiling because the geometric edge lengths and vertex arrangements cannot be extended uniformly across a plane without overlapping or leaving irregular gaps. A wrong answer evaluates only the angle sum while ignoring geometric compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new vertex configuration for a semi-regular tiling using equilateral triangles ($60^\\circ$) and squares ($90^\\circ$) such that the sum of angles around the vertex is exactly $360^\\circ$. State the number of each polygon used.",
+     "a": "One valid combination is three equilateral triangles and two squares, because $(3 \\times 60^\\circ) + (2 \\times 90^\\circ) = 180^\\circ + 180^\\circ = 360^\\circ$. A poor answer lists shapes whose angles do not add up to $360^\\circ$ or uses non-regular polygons, showing a failure to apply the fundamental vertex angle constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

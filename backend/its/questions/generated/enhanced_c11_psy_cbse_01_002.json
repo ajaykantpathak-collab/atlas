@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_002",
+   "title": "c11_psy_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define 'popular notion' in the context of psychology and give one example from the textbook.",
+     "a": "A popular notion is a common-sense explanation of human behaviour based on cultural sayings, hindsight, or anecdotal evidence, not systematic empirical study. Example: \"Out of sight, out of mind\" or \"Distance makes the heart grow fonder.\" A wrong answer reveals the student may confuse popular notions with scientific theories or think they are the same as hypotheses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why common-sense explanations are considered 'hindsight bias' using the two proverbs about distance and attraction.",
+     "a": "Common-sense explanations are hindsight bias because they are used after the behaviour occurs to justify it. If you find a new friend, you say \"out of sight, out of mind\"; if you don't, you say \"distance makes the heart grow fonder.\" The explanation changes to fit the outcome, so it cannot predict behaviour. A wrong answer reveals the student may think both proverbs are scientific hypotheses or that hindsight bias means looking back at history.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher believes that giving students only easy problems will build their confidence so they can later solve hard problems. Design a simple experiment based on Dweck (1975) to test this belief.",
+     "a": "Two groups: Group A gets only easy problems for 25 days; Group B gets mix of easy and hard problems with encouragement to attribute failure to effort. Then give both a new set of hard problems. Measure persistence. Scientific psychology predicts Group B will persist longer. A wrong answer reveals the student may not include a control group, or may not manipulate the independent variable (type of problems), or may not measure the dependent variable (persistence).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the goals of popular notions and scientific psychology in terms of prediction, explanation, and control of behaviour.",
+     "a": "Popular notions aim to explain behaviour after it occurs (post-hoc), lack predictive power, and cannot control behaviour. Scientific psychology seeks to predict behaviour before it occurs, explain through testable theories, and control behaviour through evidence-based interventions. A wrong answer reveals the student may think popular notions can predict, or that scientific psychology only explains.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: 'Scientific psychology is just common sense made complicated.' Use evidence from the Dweck study.",
+     "a": "The statement is false. Common sense would suggest easy problems build confidence; Dweck's study showed the opposite—students with only easy problems gave up faster when faced with failure. Scientific psychology often contradicts common sense because it tests assumptions empirically. A wrong answer reveals the student may agree with the statement or not use the Dweck study as evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (not from the textbook) where a popular notion and a scientific psychological prediction would differ. Describe both and explain how you would test them.",
+     "a": "Example: Popular notion: \"Opposites attract in relationships.\" Scientific prediction: \"Similarity in attitudes predicts attraction.\" Test: Survey couples on attitude similarity and relationship satisfaction. A good answer includes a clear popular notion, a testable scientific hypothesis, and a basic experimental design. A poor answer reveals the student may not differentiate between a notion and a hypothesis, or may not propose a feasible test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_002",
+   "title": "c11_ps_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define \"natural inequality\" and \"socially-produced inequality\" in your own words, giving one original example of each that does NOT appear in the textbook.",
+     "a": "**Correct answer:** Natural inequality = differences arising from inborn traits (e.g., one person born with perfect pitch, another tone-deaf). Socially-produced inequality = differences created by societal rules or resource allocation (e.g., a Dalit student denied access to a village well). A wrong answer that cites \"wealth difference\" as natural reveals confusion between outcome and origin; one that calls \"caste discrimination\" natural reveals internalized caste ideology.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Women were for long described as 'the weaker sex'... considered timid and of lesser intelligence... Therefore, it was felt that denying women equal rights could be justified.\" Explain why this historical justification is now considered a confusion between natural and social inequality.",
+     "a": "**Correct answer:** The justification mistook socially constructed gender roles (women confined to domestic sphere, denied education) for biological destiny. Observed differences in outcomes (e.g., fewer women in science) were caused by social barriers, not innate capacity. A wrong answer claiming \"women are biologically weaker\" repeats the very confusion the text warns against; one saying \"it was just culture\" misses that the *ideology* presented culture as nature.",
+     "self_check": true
+    },
+    {
+     "q": "Stephen Hawking had ALS and could barely move or speak, yet made major scientific contributions. The NCERT uses this to argue that \"some differences which could be considered natural need no longer be seen as unalterable.\" Apply this reasoning to a contemporary Indian context: Should the state provide screen-reader software to visually impaired students in government schools? Justify using the natural/social inequality framework.",
+     "a": "**Correct answer:** Yes. Visual impairment is a natural inequality, but denial of education due to lack of assistive technology is a socially-produced inequality. The state can alter the *effect* of the natural difference through technology (screen readers), converting an unalterable trait into a manageable condition. A wrong answer saying \"it's their natural disability, not the state's problem\" treats the social failure (inaccessible schools) as natural; one saying \"only if affordable\" confuses resource constraints with principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"natural vs. social inequality\" distinction with the modern \"choice vs. circumstance\" framework mentioned in the NCERT (\"inequality arising from our choices and inequalities operating on account of the family or circumstance in which a person is born\"). How does the second framework resolve ambiguities in the first?",
+     "a": "**Correct answer:** The natural/social binary is ambiguous because (a) \"natural\" traits can be socially amplified (e.g., height advantage in basketball becomes class advantage if only rich kids get coaching), and (b) technology blurs \"unalterable.\" The choice/circumstance framework cuts through: if inequality stems from factors beyond one's control (birth family, caste, disability), it is unjust regardless of whether the root trait is \"natural.\" A wrong answer equating the two frameworks misses that choice/circumstance is a *normative* filter, not just a descriptive one.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since natural inequalities cannot be eliminated, a just society should only address socially-produced inequalities.\" Use the NCERT's discussion of disability and technology to support your evaluation.",
+     "a": "**Correct answer:** The statement is flawed. Even if a natural trait (e.g., paralysis) cannot be \"eliminated,\" the *inequality it produces* (inaccess to buildings, employment) is socially produced and can be reduced via ramps, assistive tech, anti-discrimination law. The NCERT's Hawking example shows society can neutralize the disadvantage of a natural condition. A wrong answer agreeing with the statement confuses \"trait cannot be changed\" with \"disadvantage cannot be mitigated\" — a category error the text explicitly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-column table with three rows. In each row, describe a real Indian situation where an inequality *appears* natural but is actually socially produced. For each, name the social mechanism (e.g., caste endogamy, gendered schooling, colonial land revenue) that produces it.",
+     "a": "**Expected answer (criteria):** Three distinct Indian cases where surface \"natural\" difference masks social production. Example rows: (1) \"Lower Dalit literacy\" — appears like aptitude gap; mechanism: historic denial of education + current school segregation. (2) \"Women's lower workforce participation\" — appears like preference; mechanism: unpaid care burden + workplace discrimination + safety concerns. (3) \"Adivasi malnutrition\" — appears like geographic isolation; mechanism: forest rights denial + displacement + PDS exclusion. Poor answer lists only outcomes without naming mechanisms, or cites non-Indian examples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

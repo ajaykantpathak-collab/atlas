@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 101,
+  "chapter_title": "What is Psychology?",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy101.1.1",
+      "title": "Psychology as the Science of Mind and Behaviour",
+      "section": "1.1",
+      "definition": "Psychology is the scientific study of mental processes and behaviour: how we think, feel, perceive, remember and act. Its scientific character lies in method -- systematic observation and measurement -- rather than in white coats, and its subject matter includes both inner experience and outward action.",
+      "formula": "",
+      "key_idea": "A science of the inner and the outer -- mental processes and behaviour studied by systematic method.",
+      "textbook_ref": "kepy101.txt opening sections (nature and role of psychology, understanding mind and behaviour, psychology as science)",
+      "question_patterns": [
+        "define psychology in terms of mind and behaviour",
+        "in class 11 what is psychology: why is psychology called a science",
+        "what is the difference between mental processes and behaviour",
+        "give examples of behaviour that psychologists study",
+        "how does the study of mind differ from common sense about people",
+        "explain the term behaviour as used in psychology"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "separate the two subject matters",
+          "explain": "Mental processes are inner experiences -- thinking, feeling, remembering; behaviour is observable action."
+        },
+        {
+          "step": 2,
+          "action": "insist on method",
+          "explain": "Claims about either must rest on systematic observation and verifiable evidence."
+        },
+        {
+          "step": 3,
+          "action": "note the application",
+          "explain": "Understanding mind and behaviour lets psychology improve learning, work, relationships and health."
+        }
+      ]
+    },
+    {
+      "id": "kepy101.1.2",
+      "title": "Growth of the Discipline: From Philosophy to Modern Psychology",
+      "section": "1.2",
+      "definition": "Psychology's questions are ancient but its science is young: born from philosophy and physiology, it grew through schools such as structuralism, functionalism, behaviourism, Gestalt and psychoanalysis into today's cognitive and humanistic approaches, each adding a window on the person.",
+      "formula": "",
+      "key_idea": "Old questions, young science -- each historical school added one more window on the mind.",
+      "textbook_ref": "kepy101.txt growth sections (growth of the discipline, structuralism functionalism behaviourism gestalt psychoanalysis, cognitive and humanistic approaches)",
+      "question_patterns": [
+        "trace the growth of psychology as a discipline",
+        "in class 11 what is psychology: how did behaviourism change psychology",
+        "what did the psychoanalytic school contribute",
+        "distinguish structuralism from functionalism",
+        "what is the cognitive approach in psychology",
+        "which schools emphasised the whole and which emphasised parts"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the birth",
+          "explain": "Psychology separated from philosophy when it adopted experimental method for mental questions."
+        },
+        {
+          "step": 2,
+          "action": "survey the schools",
+          "explain": "Structuralists analysed elements of consciousness; behaviourists demanded observable action; psychoanalysts probed the unconscious; Gestalt stressed wholes; cognitive and humanistic views restored mind and growth."
+        },
+        {
+          "step": 3,
+          "action": "see the modern synthesis",
+          "explain": "Contemporary psychology borrows from all windows, studying persons across development, culture and situation."
+        }
+      ]
+    },
+    {
+      "id": "kepy101.1.3",
+      "title": "Fields and Applications of Psychology",
+      "section": "1.3",
+      "definition": "Psychology branches into fields of study and work: cognitive, developmental and social psychology, and applied streams -- clinical and counselling psychology, organisational and educational psychology, sports and health psychology -- each applying the science to human problems in its arena.",
+      "formula": "",
+      "key_idea": "One science, many arenas -- from clinic to classroom to playground, psychology applies wherever people act.",
+      "textbook_ref": "kepy101.txt fields sections (different fields of psychology, clinical counselling organisational educational sports health psychology, applications)",
+      "question_patterns": [
+        "name the major fields of psychology",
+        "in class 11 what is psychology: what does a clinical psychologist do",
+        "distinguish developmental from social psychology",
+        "how is psychology applied in education and organisations",
+        "what is the role of a counselling psychologist",
+        "match given problems to the fields of psychology that handle them"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the pure fields",
+          "explain": "Cognitive, developmental, social and biological psychology map basic processes across the life span and society."
+        },
+        {
+          "step": 2,
+          "action": "list the applied fields",
+          "explain": "Clinical and counselling psychology treat distress; organisational, educational, sports and health psychology improve performance and well-being in their settings."
+        },
+        {
+          "step": 3,
+          "action": "see the common base",
+          "explain": "All fields share the scientific study of mind and behaviour, differing mainly in application."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy101.txt opening sections",
+      "concept": "kepy101.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A friend says psychology can read anyone's mind at a glance. Use the definition of psychology as a science to correct him.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "reject mind-reading",
+          "explain": "Psychology infers mental processes from careful evidence, never by intuition at a glance."
+        },
+        {
+          "step": 2,
+          "action": "state the method",
+          "explain": "Its claims come from systematic observation, experiments and measurement open to checking."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Psychology is a science of mind and behaviour -- disciplined study, not a magic trick."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy101.txt fields sections",
+      "concept": "kepy101.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Sort these problems to the right field: exam anxiety, low factory productivity, a child not speaking yet, an athlete losing focus.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "assign the clinical-counselling case",
+          "explain": "Exam anxiety belongs to counselling or clinical psychology."
+        },
+        {
+          "step": 2,
+          "action": "assign the organisational and developmental cases",
+          "explain": "Factory productivity goes to organisational psychology; delayed speech to developmental psychology."
+        },
+        {
+          "step": 3,
+          "action": "assign the sports case",
+          "explain": "A distracted athlete is sports psychology's client -- one science, many arenas."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define psychology and explain its scope.",
+        "Trace the growth of psychology from philosophy to a modern science.",
+        "Describe any three fields of applied psychology.",
+        "Distinguish behaviour from mental processes with examples.",
+        "How does scientific psychology differ from everyday common sense about people?",
+        "Why is psychology useful in everyday life? Illustrate."
+      ]
+    }
+  ]
+}

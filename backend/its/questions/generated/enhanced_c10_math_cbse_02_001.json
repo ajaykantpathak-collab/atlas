@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_001",
+   "title": "c10_math_cbse_02_001",
+   "questions": [
+    {
+     "q": "What are the zeros of the polynomial p(x) = x² - 4, and how many times does the graph of y = x² - 4 intersect the x-axis?",
+     "a": "The zeros are x = 2 and x = -2 (since x² - 4 = (x-2)(x+2) = 0). The graph intersects the x-axis at TWO points: (2, 0) and (-2, 0). A wrong answer like \"zero is 4\" reveals the student confuses the constant term with zeros. An answer \"intersects once\" reveals the student doesn't understand that a quadratic with two distinct real zeros crosses the x-axis twice.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of a quadratic polynomial y = ax² + bx + c touches the x-axis at exactly one point but does not cross it. What can you say about its zeros and the discriminant? Explain why the graph \"touches\" instead of \"crosses\".",
+     "a": "The polynomial has exactly ONE real zero (a repeated zero, multiplicity 2). The discriminant D = b² - 4ac = 0. The graph touches because the zero is repeated — the factor (x - α)² means the graph just kisses the axis and turns back. A wrong answer saying \"two distinct zeros\" or \"D > 0\" shows the student doesn't connect discriminant to graph behaviour. Saying \"it crosses once\" reveals confusion between touching (tangent) and crossing (transversal intersection).",
+     "self_check": true
+    },
+    {
+     "q": "Plot the graph of p(x) = x² + 2x + 5 by calculating at least 5 points. How many real zeros does this polynomial have? What does the graph look like relative to the x-axis?",
+     "a": "Points: x = -3 → 8, x = -2 → 5, x = -1 → 4, x = 0 → 5, x = 1 → 8. The graph is a parabola opening upward with vertex at (-1, 4), entirely ABOVE the x-axis. It has ZERO real zeros (discriminant = 4 - 20 = -16 < 0). A student who says \"2 zeros\" is applying the degree rule blindly without checking discriminant. A student who plots points but says \"intersects at x = -1\" misreads the vertex y-coordinate as a zero.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of p(x) = (x - 1)(x - 3) and q(x) = -(x - 1)(x - 3). Both have the same zeros. How are their graphs different? What does the negative sign do geometrically?",
+     "a": "Both have zeros at x = 1 and x = 3. p(x) opens UPWARD (positive leading coefficient), q(x) opens DOWNWARD (negative leading coefficient). p(x) has a minimum between the zeros; q(x) has a maximum. The negative sign reflects the graph across the x-axis. A wrong answer saying \"graphs are identical\" shows the student thinks zeros alone determine the graph completely, ignoring the leading coefficient's role in orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The cubic polynomial p(x) = x³ - x has three zeros: -1, 0, 1. Therefore its graph must cross the x-axis three times.\" Is this statement fully correct? Evaluate and justify.",
+     "a": "The statement is correct FOR THIS polynomial — it has three DISTINCT real zeros, so the graph crosses at x = -1, 0, 1. However, the reasoning \"three zeros ⇒ crosses three times\" is flawed in general. A cubic with a repeated zero like (x-1)²(x+2) has three zeros (counting multiplicity) but crosses only twice (at x = -2 and touches at x = 1). A student who agrees without qualification doesn't understand multiplicity vs. distinct zeros. A student who says \"cubics always cross 3 times\" doesn't know about repeated roots.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic polynomial whose graph touches the x-axis at x = -3 and passes through the point (0, 9). Write the polynomial in standard form and verify your answer.",
+     "a": "\"Touching at x = -3\" means repeated zero at x = -3 → polynomial is k(x + 3)². Passes through (0, 9): 9 = k(0+3)² = 9k → k = 1. Polynomial: p(x) = (x + 3)² = x² + 6x + 9. Verification: p(-3) = 0, p(0) = 9. A poor answer like \"x² + 9\" shows the student doesn't understand \"touching\" implies a squared factor. An answer \"k = 9\" reveals arithmetic error in solving 9 = 9k.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

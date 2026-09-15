@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 105,
+ "chapter_title": "Emerging Modes of Business",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs105.txt",
+ "concepts": [
+  {
+   "id": "kebs.105.1.1",
+   "title": "e-business: Scope and Difference from Traditional Business",
+   "section": "e-business",
+   "definition": "e-business is the conduct of industry, trade and commerce using computer networks, covering e-purchasing, e-selling, e-production, e-finance, e-marketing and e-communication, and it differs from traditional business in ease of formation, cost, speed and global reach.",
+   "formula": "",
+   "key_idea": "e-business narrows the world into a click away, lowers transaction cost, and works round the clock, though personal touch is missing and technology requirements are high.",
+   "textbook_ref": "kebs105.txt e-business section",
+   "question_patterns": [
+    "define e-business and state its scope",
+    "differentiate e-business from traditional business",
+    "what are the benefits of e-business over conventional trade",
+    "list the limitations of e-business",
+    "name the types of e-commerce transactions b2b b2c and c2c",
+    "why is e-business said to work round the clock"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the network medium",
+     "explain": "Confirm the transaction runs on computer networks."
+    },
+    {
+     "step": 2,
+     "action": "compare with traditional mode",
+     "explain": "Contrast formation ease, cost, reach and speed."
+    },
+    {
+     "step": 3,
+     "action": "classify the transaction",
+     "explain": "Identify B2B, B2C or intra B transactions."
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.2.1",
+   "title": "Online Transaction and Payment Mechanism",
+   "section": "Online transaction",
+   "definition": "An online transaction proceeds through three stages of registration, placing an order and payment, where payment uses cash on delivery, cheque, net banking transfer, or credit and debit cards secured by encryption using SSL technology.",
+   "formula": "",
+   "key_idea": "Registration needs a shopping cart to collect items, and card details travel in encrypted form so that unauthorised persons cannot read them.",
+   "textbook_ref": "kebs105.txt online transaction section",
+   "question_patterns": [
+    "state the steps of an online transaction",
+    "what is a shopping cart in online purchasing",
+    "how does ssl encryption protect online payments",
+    "name the payment mechanisms used in online transactions",
+    "why is registration necessary before online buying",
+    "compare cash on delivery with card payment online"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the stages",
+     "explain": "Order registration, order placement and payment in sequence."
+    },
+    {
+     "step": 2,
+     "action": "check the payment mode",
+     "explain": "Identify COD, net banking or card payment."
+    },
+    {
+     "step": 3,
+     "action": "verify security",
+     "explain": "Confirm encryption protects the payment details."
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.3.1",
+   "title": "Security Concerns of e-business and Operating Resources",
+   "section": "Security concerns",
+   "definition": "e-business faces transaction risks of default and electronic payment problems, data storage risks from viruses and hacking, and risks of intrusion through copied or altered websites, requiring safeguards like passwords, encryption and cyber security measures.",
+   "formula": "",
+   "key_idea": "Outsourcing of information services and the choice between payment gateways and off the shelf shopping software are key operating requirements of e-business.",
+   "textbook_ref": "kebs105.txt security concerns section",
+   "question_patterns": [
+    "what are the transaction risks in e-business",
+    "how do viruses and hacking threaten online business",
+    "explain data storage and delivery risks of e-business",
+    "what safeguards protect an e-business website",
+    "what is meant by outsourcing of information services",
+    "define phishing and website spoofing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the risk",
+     "explain": "Separate transaction risk, data risk and intrusion risk."
+    },
+    {
+     "step": 2,
+     "action": "apply the safeguard",
+     "explain": "Match passwords, encryption and firewalls to the risk."
+    },
+    {
+     "step": 3,
+     "action": "verify operating needs",
+     "explain": "Note the technology and service resources needed."
+    }
+   ]
+  },
+  {
+   "id": "kebs.105.4.1",
+   "title": "Outsourcing: Concept, Scope and BPO KPO Services",
+   "section": "Outsourcing",
+   "definition": "Outsourcing is contracting out selected business processes to outside agencies so the firm can concentrate on core competence, and its scope covers production outsourcing, and business process outsourcing in finance, customer care and IT enabled services, including knowledge process outsourcing requiring specialised knowledge.",
+   "formula": "",
+   "key_idea": "BPO and KPO services like call centres, payroll and legal research have made India a favoured outsourcing destination because of skilled manpower and low cost advantage.",
+   "textbook_ref": "kebs105.txt outsourcing section",
+   "question_patterns": [
+    "define outsourcing and its need for business",
+    "differentiate bpo and kpo services with examples",
+    "why has india become an outsourcing destination",
+    "what is meant by core competence in outsourcing",
+    "state the scope of outsourcing in business functions",
+    "what concerns arise in outsourcing for employees and security"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the contracted process",
+     "explain": "Note which business activity is given to an outside agency."
+    },
+    {
+     "step": 2,
+     "action": "classify the service",
+     "explain": "Separate BPO from KPO by knowledge intensity."
+    },
+    {
+     "step": 3,
+     "action": "verify the rationale",
+     "explain": "Confirm the firm keeps core work and outsources the rest."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs105.txt exercises",
+   "questions": [
+    "Define e-business. State its scope.",
+    "Explain the steps involved in on-line transactions.",
+    "What are the security concerns of e-business?",
+    "Why are e-business enterprises required to move fast in taking decisions?",
+    "Explain the concept of outsourcing and its need."
+   ]
+  }
+ ]
+}

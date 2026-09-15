@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu102.json",
+ "concepts": [
+  {
+   "id": "fecu.2.1",
+   "title": "Diversity in the Living World",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why are there so many kinds of plants and animals?",
+     "a": "Each kind is adapted to its own food, climate and home - nature supports great variety.",
+     "self_check": true
+    },
+    {
+     "q": "Name two very different living things around you.",
+     "a": "A tiny ant and a huge banyan tree - both are living with different designs.",
+     "self_check": true
+    },
+    {
+     "q": "What makes each organism suited to its place?",
+     "a": "Its body features and habits - fins for fish, wings for birds.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.2",
+   "title": "Grouping by Features",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "On what features can we group living things?",
+     "a": "Where they live, what they eat, body coverings, and how they move or grow.",
+     "self_check": true
+    },
+    {
+     "q": "Group a rose plant, cow and crow in any way you like.",
+     "a": "By movement: cow and crow move about, rose is fixed. By food: cow and rose make/eat plants, crow eats both.",
+     "self_check": true
+    },
+    {
+     "q": "Why is grouping (classification) useful in science?",
+     "a": "It makes studying many things easy by putting similar ones together.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.3",
+   "title": "Habitats of Plants and Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a habitat? Give two examples.",
+     "a": "The place where an organism lives with air, water and food - pond, forest, desert.",
+     "self_check": true
+    },
+    {
+     "q": "Name two animals of the desert and their adaptation.",
+     "a": "Camel (stores fat, needs little water) and desert rat (burrows by day).",
+     "self_check": true
+    },
+    {
+     "q": "Why can a fish not live on land?",
+     "a": "It breathes through gills that take oxygen only from water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.4",
+   "title": "Comparing and Recording Observations",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why should observations be recorded?",
+     "a": "Written records can be compared, checked and used to draw conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Name two ways of recording observations.",
+     "a": "A science diary with drawings, and tables of measurements.",
+     "self_check": true
+    },
+    {
+     "q": "What makes a good observation?",
+     "a": "Careful use of senses, exact measurements, and honest notes without guessing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

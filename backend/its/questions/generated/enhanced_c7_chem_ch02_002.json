@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_002",
+   "title": "c7_chem_ch02_002",
+   "questions": [
+    {
+     "q": "What happens to the chemical identity of water when it boils and turns into steam?",
+     "a": "The chemical identity of water remains completely unchanged ($H_2O$) whether it is liquid water or water vapor (steam); only the distance and energy between the molecules have changed. A student who answers that steam is a new chemical substance has a misconception that any change of state creates a new material.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why dissolving common salt (sodium chloride) in water is classified as a physical change rather than a chemical change.",
+     "a": "Dissolving salt in water is a physical change because no new substance is formed; the salt particles simply disperse uniformly among the water molecules. You can recover the original solid salt by evaporating the water through heating. A student who thinks a chemical change occurred likely confuses the disappearance of the solid salt with its permanent destruction.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a glass bottle filled with water, caps it tightly, and leaves it in the freezer overnight. The next morning, the glass bottle cracks because the water freezes and expands. Is this a physical or chemical change, and why?",
+     "a": "This is a physical change. Step 1: Identify the process as freezing of water ($H_2O_{(l)} \\rightarrow H_2O_{(s)}$). Step 2: Note that the substance inside is still water, just in solid form. Step 3: Observe that no new chemical bonds are created or destroyed to form a different substance. Step 4: Conclude that changing shape, volume, or causing a container to break through thermal expansion or phase change is purely physical. A student who claims it is chemical is incorrectly assuming that any structural breakage or destruction of an object signifies a chemical reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the melting of wax with the burning of a candle wick. Which part represents a physical change, and how do you know?",
+     "a": "The melting of the wax is a physical change because the solid wax turns into liquid wax, which can solidify again upon cooling without changing its chemical composition. In contrast, the burning of the wick and wax vapor is a chemical change producing carbon dioxide and water vapor. A student who fails to distinguish between the melting wax and the burning wick misses the coexistence of physical and chemical processes in everyday phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that hammering an iron nail flat is a chemical change because the nail undergoes a permanent change in shape and cannot easily be hammered back into its exact original wire form without specialized tools. Evaluate this claim.",
+     "a": "The student's claim is incorrect. Hammering an iron nail changes its shape, size, and appearance (mechanical deformation), but the material remains pure iron ($Fe$). No new substance with different chemical properties is produced; therefore, it is a physical change, even if it is difficult to reverse manually. A student who relies solely on the difficulty of reversal to label a change as \"chemical\" misunderstands that reversibility is a helpful clue, but the ultimate test of a physical change is the absence of new chemical substances.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to prove that dissolving sugar in water is a reversible physical change, and explain what observations would confirm your conclusion.",
+     "a": "To prove this, dissolve two spoonfuls of sugar in a glass of warm water until clear. Pour the solution into a shallow pan and heat it gently on a stove until all the water evaporates completely. The white crystalline residue left at the bottom of the pan is sugar, proving that no new substance was formed and the process is reversible. A poor answer would suggest tasting the solution without recovering the solid, failing to demonstrate the recovery of the original substance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

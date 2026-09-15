@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_9",
+   "title": "c9_math_ch3_9",
+   "questions": [
+    {
+     "q": "Which of the following decimal expansions represents an irrational number? (A) 0.125 (B) 0.333... (C) 0.101001000100001... (D) 0.142857142857...",
+     "a": "Correct answer: (C) 0.101001000100001... \nReason: (A) terminates, (B) and (D) are recurring (repeating blocks '3' and '142857' respectively). Only (C) has a non-terminating, non-recurring pattern where the number of zeros between ones increases each time, so no block repeats. A wrong answer reveals the student confuses non-terminating with non-recurring, or thinks any infinite decimal is irrational.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 1/7 = 0.142857142857... has a repeating block, it is irrational because the decimals go on forever.\" Explain why this reasoning is incorrect.",
+     "a": "Correct answer: The student confuses \"non-terminating\" with \"non-recurring\". A rational number can have a non-terminating decimal expansion if it is recurring (repeating). 1/7 = 0.142857... is rational because it is a ratio of integers and its decimal repeats the block '142857'. Irrational numbers must be both non-terminating AND non-recurring. A wrong answer reveals the student thinks any infinite decimal is irrational, missing the crucial distinction between recurring and non-recurring.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the number 0.1234567891011121314... (formed by concatenating natural numbers) is rational or irrational. Justify your answer.",
+     "a": "Correct answer: Irrational. \nSteps: \n1. Observe the decimal expansion: 0.1234567891011121314... continues by writing 1,2,3,4,5,6,7,8,9,10,11,12,... \n2. Check for termination: It never ends because natural numbers are infinite. \n3. Check for recurrence: No finite block of digits can repeat forever because the sequence of natural numbers contains arbitrarily long strings of digits (e.g., 100, 1000, 10000) that never appeared before and never repeat periodically. \n4. Since it is non-terminating and non-recurring, it is irrational. \nA wrong answer reveals the student may think the pattern \"counting numbers\" constitutes a repeating block, or fails to recognize that a predictable pattern can still be non-recurring.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decimal expansions of √2 ≈ 1.41421356... and 1.41421356 (a terminating decimal). Explain why the first is irrational and the second is rational, even though they share the first 8 decimal digits.",
+     "a": "Correct answer: √2 is irrational because its decimal expansion continues infinitely without any repeating block — the digits 1.41421356... are just the beginning of an infinite non-recurring sequence. The terminating decimal 1.41421356 is exactly 141421356/100000000, a ratio of integers, hence rational. The key difference is that √2 has infinitely many non-repeating digits after the 8th place, while the terminating decimal has zeros (or nothing) after the 8th place. A wrong answer reveals the student thinks sharing initial digits implies same number type, or that a long finite decimal approximates an irrational closely enough to be irrational.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"π = 3.14159... is irrational because its decimal expansion is non-terminating. Therefore, any non-terminating decimal is irrational.\" Evaluate this statement and provide a counterexample if false.",
+     "a": "Correct answer: The statement is false. Non-terminating decimals can be rational if they are recurring (e.g., 1/3 = 0.333...). Irrational numbers require BOTH non-terminating AND non-recurring. The student's reasoning only checks one condition. Counterexample: 0.333... is non-terminating but rational. A wrong answer reveals the student does not understand the necessity of both conditions, or cannot produce a recurring decimal as counterexample.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a decimal number between 0.5 and 0.6 that is guaranteed to be irrational. Explain your construction method and prove it is irrational.",
+     "a": "Correct answer: Example: 0.501001000100001... (start with 0.5, then follow the non-recurring pattern of increasing zeros between ones). \nMethod: Take any terminating decimal in the interval (e.g., 0.5) and append a known non-recurring pattern (like 010010001...). The resulting decimal is non-terminating (infinite pattern) and non-recurring (no repeating block because zeros increase). It lies between 0.5 and 0.6 because it starts with 0.5 and all subsequent digits are less than 0.1. \nProof: If it were rational, its decimal would eventually repeat. But the appended pattern has blocks of zeros of increasing length (1,2,3,4,...), so no finite block can repeat forever. Hence irrational. \nA poor answer reveals the student cannot design a non-recurring pattern, or thinks any random digits work without ensuring non-recurrence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

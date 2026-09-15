@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_007",
+   "title": "c12_math_cbse_06_007",
+   "questions": [
+    {
+     "q": "A rectangular sheet of paper 30 cm by 20 cm has squares of side x cm cut from each corner to form an open box. Write the volume V(x) as a function of x and state its practical domain.",
+     "a": "V(x) = x(30-2x)(20-2x) = 4x³ - 100x² + 600x. Practical domain: 0 < x < 10 (since 2x < 20). A wrong answer like V(x) = x(30-x)(20-x) reveals the student forgot that cutting from both ends reduces each dimension by 2x, not x. A domain of 0 < x < 15 reveals confusion about which dimension limits the cut (the smaller side, 20 cm, limits x to < 10).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"Find two positive numbers whose sum is 20 and product is maximum.\" They write: let numbers be x and y, x+y=20, P=xy. Then P = x(20-x) = 20x - x². P' = 20 - 2x = 0 → x = 10. They conclude: \"Maximum product at x=10.\" Is this solution complete? Explain why or why not.",
+     "a": "No, the solution is incomplete. The student found a critical point but did not verify it gives a maximum (second derivative test: P'' = -2 < 0 confirms maximum) and did not check endpoints of the domain (0,20). While the answer is correct, the reasoning is incomplete for board exams where verification steps carry marks. A wrong conclusion like \"minimum at x=10\" would reveal confusion between P' = 0 giving max vs min without sign analysis of P''.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical can of fixed volume 500 cm³ is to be made. The cost of material for the top and bottom is ₹4/cm² and for the curved surface is ₹2/cm². Find the radius r that minimizes the total cost. Write the cost function C(r) in terms of r only (use π = 3.14).",
+     "a": "Volume V = πr²h = 500 → h = 500/(πr²). Top+bottom area = 2πr², cost = 4 × 2πr² = 8πr². Curved surface area = 2πrh = 2πr × 500/(πr²) = 1000/r, cost = 2 × 1000/r = 2000/r. Total cost C(r) = 8πr² + 2000/r = 25.12r² + 2000/r. Domain: r > 0. A common error: writing curved surface cost as 2πrh without substituting h, leaving two variables. Another error: using V = πr²h but forgetting the 2 in top+bottom area (using πr² instead of 2πr²).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two problems: (A) \"Find the maximum area of a rectangle inscribed in a semicircle of radius R\" and (B) \"Find the maximum area of a rectangle inscribed in a full circle of radius R.\" How does the objective function and domain differ? Which problem gives a larger maximum area for the same R?",
+     "a": "In (A), rectangle has base 2x and height y = √(R² - x²), area A = 2x√(R² - x²), domain 0 ≤ x ≤ R. In (B), rectangle has sides 2x and 2y with x² + y² = R², area A = 4xy = 4x√(R² - x²), domain 0 ≤ x ≤ R. The full circle allows double the height for same x, so objective function in (B) is exactly twice (A). Maximum area in (A) = R² (when x = R/√2), in (B) = 2R² (when x = y = R/√2). Problem (B) gives larger maximum area because the rectangle can use both upper and lower halves. A wrong answer claiming equal maxima reveals failure to account for the full height 2y vs y.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A wire of length 28 m is cut into two pieces. One forms a square, the other a circle. Minimize combined area.\" They write: let square side = x, circle radius = r. 4x + 2πr = 28. Area A = x² + πr². They substitute r = (28-4x)/(2π) and get A(x) = x² + (28-4x)²/(4π). They find A'(x) = 2x - 2(28-4x)/π = 0 → x = 56/(π+4). They claim this is the side of the square. Identify the error in their derivative calculation.",
+     "a": "The derivative is incorrect. A(x) = x² + (28-4x)²/(4π) = x² + (784 - 224x + 16x²)/(4π) = x² + 196/π - 56x/π + 4x²/π. Then A'(x) = 2x - 56/π + 8x/π = 2x(1 + 4/π) - 56/π. The student wrote A'(x) = 2x - 2(28-4x)/π which expands to 2x - 56/π + 8x/π — this is actually correct! But they simplified wrong: 2x + 8x/π = 2x(1 + 4/π), not 2x. The error is in the final step: setting 2x - 2(28-4x)/π = 0 gives 2x = 2(28-4x)/π → πx = 28 - 4x → x(π+4) = 28 → x = 28/(π+4), not 56/(π+4). The factor of 2 error comes from mishandling the 2 in 2(28-4x)/π. This reveals careless algebraic simplification under time pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world optimization problem from your daily life (school, home, sports) that can be modeled as a single-variable maxima/minima problem using derivatives. State the objective function, constraints, domain, and what the optimal value represents.",
+     "a": "Example: \"A student has 3 hours to study for Math and Physics. Math score = 20√x, Physics score = 15√(3-x), where x = hours for Math. Maximize total score.\" Objective: S(x) = 20√x + 15√(3-x). Constraint: 0 ≤ x ≤ 3. Domain: [0,3]. Optimal x gives hours allocation for maximum combined score. A good answer shows realistic constraints, a differentiable objective function, and clear interpretation. A poor answer uses non-differentiable functions (e.g., step functions), ignores domain bounds, or creates a problem where derivative test doesn't apply (e.g., linear objective). This tests whether the student understands the modeling requirements: continuous, differentiable function on a closed interval.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

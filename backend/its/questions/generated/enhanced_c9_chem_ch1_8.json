@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_8",
+   "title": "c9_chem_ch1_8",
+   "questions": [
+    {
+     "q": "Define sublimation and name two substances that sublime at room temperature. Write their chemical formulas.",
+     "a": "Sublimation is the direct transition of a solid to gas without becoming liquid. Examples: Ammonium chloride (NH₄Cl) and Camphor (C₁₀H₁₆O). A wrong answer (e.g., \"ice sublimes\" or \"sublimation is solid to liquid\") reveals the student confuses sublimation with melting or evaporation, or cannot recall specific examples beyond generic \"dry ice\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain why solid carbon dioxide (dry ice) sublimes at -78°C under 1 atm pressure, but water ice melts at 0°C under the same pressure. Use particle theory in your answer.",
+     "a": "Dry ice (CO₂) has weak van der Waals forces between molecules; at -78°C its vapour pressure reaches 1 atm, so particles escape directly to gas. Water ice has stronger hydrogen bonds; at 0°C it reaches the melting point where particles overcome forces to slide past each other (liquid) rather than escape entirely. A wrong answer focusing only on temperature values without discussing inter-particle forces shows a lack of particle-model understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A mixture contains 5 g of ammonium chloride (NH₄Cl) and 5 g of sodium chloride (NaCl). Describe the step-by-step laboratory procedure to separate them using sublimation. What mass of each component do you expect to recover if the process is 100% efficient?",
+     "a": "Procedure: (1) Place mixture in a china dish. (2) Cover with an inverted glass funnel plugged with cotton wool at the stem. (3) Heat gently on a wire gauze. (4) NH₄Cl vapours rise and deposit as white crystals on the funnel's inner walls (sublimate). (5) NaCl remains in the dish (residue). (6) Scrape off NH₄Cl crystals. Expected recovery: 5 g NH₄Cl (sublimate) and 5 g NaCl (residue). A wrong answer (e.g., heating in open dish, or expecting NaCl to sublime) reveals misunderstanding of apparatus setup or the property that only one component sublimes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare sublimation and evaporation as separation techniques. Under what conditions would you choose sublimation over evaporation to separate a solid from a mixture?",
+     "a": "Sublimation separates a sublimable solid from a non-sublimable solid (solid-solid mixture). Evaporation separates a soluble solid from a liquid (solid-liquid mixture). Choose sublimation when the mixture contains a volatile solid like NH₄Cl or I₂ mixed with a non-volatile solid like sand or NaCl. A wrong answer suggesting sublimation for salt-water separation shows confusion between mixture types and phase changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Iodine crystals sublime on heating, so the purple vapour produced is a new chemical substance.\" Evaluate this statement. Is it correct? Justify your answer using the definition of a physical change.",
+     "a": "The statement is incorrect. The purple vapour is iodine molecules (I₂) in the gaseous state. No new substance is formed; only the physical state changes. On cooling, the vapour deposits as solid iodine crystals (deposition). The chemical formula remains I₂ throughout. A wrong answer agreeing with the student reveals the misconception that a colour change or gas formation always indicates a chemical reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that the mass of a substance remains constant during sublimation. List the apparatus, procedure, and how you would record observations to verify the law of conservation of mass.",
+     "a": "Apparatus: Sealed conical flask with a small hole stopper, cotton wool, digital balance, ammonium chloride, burner. Procedure: (1) Weigh flask + cotton wool + 2 g NH₄Cl (initial mass). (2) Heat gently until all NH₄Cl sublimes and deposits on flask walls. (3) Cool to room temperature. (4) Weigh again (final mass). Observation: Initial mass = final mass (within experimental error). This proves mass conservation as no matter escapes the sealed system. A poor answer using an open dish shows failure to control the system boundary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_003",
+   "title": "c11_math_cbse_14_003",
+   "questions": [
+    {
+     "q": "What is the truth value of the compound statement \"2 + 2 = 4 and 3 × 3 = 10\"? Identify the component statements and explain your reasoning.",
+     "a": "The compound statement is FALSE. Component statements: p: \"2 + 2 = 4\" (TRUE), q: \"3 × 3 = 10\" (FALSE). Since p ∧ q requires both p and q to be true, and q is false, the conjunction is false. A wrong answer (e.g., saying it's true because the first part is true) reveals the student thinks \"and\" only needs one true component, confusing it with \"or\".",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"x > 5 or x < 3\". For which real values of x is this statement true? Explain why the inclusive \"or\" matters here.",
+     "a": "The statement is true for x ∈ (-∞, 3) ∪ (5, ∞). At x = 3 or x = 5, one component is false and the other is false, so the disjunction is false. There is NO x that makes both components true simultaneously (no x is both >5 and <3), so inclusive vs exclusive or gives the same result here. A wrong answer (e.g., saying \"all real numbers\" or \"x ≠ 3,5\") reveals the student doesn't understand how to combine solution sets with \"or\" (union) or thinks \"or\" means exactly one is true (exclusive or).",
+     "self_check": true
+    },
+    {
+     "q": "Let p: \"Triangle ABC is equilateral\", q: \"Triangle ABC is isosceles\". Write the compound statement p ∧ q in words and determine its truth value for: (i) an equilateral triangle, (ii) an isosceles but not equilateral triangle, (iii) a scalene triangle.",
+     "a": "p ∧ q: \"Triangle ABC is equilateral AND triangle ABC is isosceles.\"\n(i) Equilateral triangle: p=T, q=T (every equilateral is isosceles) → p ∧ q = TRUE\n(ii) Isosceles but not equilateral: p=F, q=T → p ∧ q = FALSE\n(iii) Scalene triangle: p=F, q=F → p ∧ q = FALSE\nA wrong answer for (i) (saying FALSE because \"equilateral and isosceles are different\") reveals the student doesn't know the mathematical hierarchy (equilateral ⊂ isosceles) and treats them as mutually exclusive categories.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of p ∧ q and p ∨ q. For which rows do they give the same truth value? What does this tell you about the relationship between \"and\" and \"or\"?",
+     "a": "Truth table rows (p, q): (T,T)→both T; (T,F)→∧=F, ∨=T; (F,T)→∧=F, ∨=T; (F,F)→both F. They match only when p and q have the SAME truth value (both T or both F). This reveals that p ∧ q and p ∨ q are equivalent exactly when p and q are logically equivalent (p ↔ q). A wrong answer (e.g., \"they never match\" or \"they match when one is true\") shows the student hasn't actually constructed both tables side-by-side or doesn't understand \"same truth value\" means identical output for identical input.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The negation of 'p and q' is 'not p and not q'.\" Is this correct? If not, give the correct negation and explain the error using a concrete example.",
+     "a": "Incorrect. The correct negation of p ∧ q is ¬p ∨ ¬q (De Morgan's Law). Example: p=\"It is raining\", q=\"It is cold\". \"It is raining and it is cold\" negated is \"It is NOT raining OR it is NOT cold\" (at least one fails). The student's version \"not raining AND not cold\" is stronger - it requires BOTH to fail, which is not the logical negation. This error reveals the student distributes negation incorrectly (like ¬(p∧q) = ¬p∧¬q) instead of flipping the connective, a classic algebraic misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) where the inclusive \"or\" and exclusive \"or\" give DIFFERENT practical outcomes. Write both compound statements symbolically and explain the difference.",
+     "a": "Good answer: \"You can pay by UPI or card\" at a shop. Inclusive: p ∨ q (accepts UPI, card, or both split payment). Exclusive: (p ∨ q) ∧ ¬(p ∧ q) (must choose exactly one). Difference: split payment allowed in inclusive, forbidden in exclusive. Poor answer: vague scenario without clear p, q definition or confusion between logical and practical exclusivity. Reveals student can't distinguish mathematical \"or\" (inclusive by default) from everyday \"or\" (often exclusive).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

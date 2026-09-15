@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_006",
+   "title": "c11_bio_cbse_18_006",
+   "questions": [
+    {
+     "q": "How many pairs of cranial nerves and spinal nerves are present in the human peripheral nervous system?",
+     "a": "There are 12 pairs of cranial nerves and 31 pairs of spinal nerves. A wrong answer (e.g., 31 cranial nerves or 12 spinal nerves) reveals confusion between the two categories and indicates the student has not memorised the basic numerical facts required for board exam questions that often ask \"How many pairs of ...?\"",
+     "self_check": true
+    },
+    {
+     "q": "Why are all spinal nerves described as \"mixed nerves\" while cranial nerves can be sensory, motor, or mixed?",
+     "a": "Each spinal nerve is formed by the union of a dorsal root (carrying only afferent/sensory fibres with a dorsal root ganglion) and a ventral root (carrying only efferent/motor fibres), making every spinal nerve mixed. Cranial nerves emerge directly from the brainstem or cerebrum; some carry only sensory fibres (e.g., olfactory I, optic II), some only motor fibres (e.g., oculomotor III, trochlear IV, abducens VI, accessory XI, hypoglossal XII), and some both (e.g., trigeminal V, facial VII, glossopharyngeal IX, vagus X). A wrong answer shows the student does not understand the structural basis (dorsal/ventral root fusion) for spinal nerves versus the direct brain origin for cranial nerves.",
+     "self_check": true
+    },
+    {
+     "q": "A patient cannot move the left side of their face (cannot smile, frown, or close the left eye) but has normal sensation on the face. Which cranial nerve is likely damaged, and what is its nature?",
+     "a": "The facial nerve (VII) is damaged. It is a mixed nerve, but its motor component supplies the muscles of facial expression. The sensory component carries taste from the anterior 2/3 of the tongue; since sensation on the face (touch/pain/temperature) is carried by the trigeminal nerve (V), facial sensation remains intact. A wrong answer (e.g., naming trigeminal nerve) reveals confusion between sensory supply to the face (V) and motor supply to facial muscles (VII), a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the origin and distribution of cranial nerves versus spinal nerves. How does this relate to their functions?",
+     "a": "Cranial nerves (12 pairs) originate from the brain (mostly brainstem) and innervate structures of the head, neck, and thoracic/abdominal viscera (especially vagus X). Spinal nerves (31 pairs: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal) originate segmentally from the spinal cord and innervate the rest of the body (limbs, trunk, body wall) in a segmental dermatomal/myotomal pattern. This segmental organisation of spinal nerves allows precise localisation of lesions (e.g., C6 dermatome = thumb), while cranial nerves have specific named functions. A wrong answer indicates the student cannot link embryonic segmentation (somites) to spinal nerve distribution or the specialisation of cranial nerves for head/neck senses and autonomic control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Damage to the vagus nerve (X) will cause loss of sensation from the skin of the external ear.\"",
+     "a": "The statement is false. The vagus nerve (X) has a small somatic sensory branch (Arnold's nerve) to the external auditory meatus and tympanic membrane, but the majority of the external ear skin is innervated by the great auricular nerve (C2, C3 – spinal nerves) and the auriculotemporal branch of the mandibular division of trigeminal nerve (V3). Vagus damage primarily affects parasympathetic supply to thoracic/abdominal viscera, laryngeal/pharyngeal muscles, and taste from epiglottis. A wrong evaluation shows the student overgeneralises the vast distribution of the vagus nerve without knowing the specific cutaneous innervation patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple clinical test to check the function of the hypoglossal nerve (XII) and explain the expected normal response.",
+     "a": "Ask the patient to protrude their tongue straight out. In a normal response, the tongue protrudes midline. If the right hypoglossal nerve is damaged, the tongue deviates to the right (towards the side of the lesion) because the left genioglossus muscle (which protrudes the tongue) is unopposed. A poor answer (e.g., \"ask them to taste sugar\") tests the facial/glossopharyngeal nerves, not hypoglossal, showing the student cannot design a test specific to the motor function of tongue movement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

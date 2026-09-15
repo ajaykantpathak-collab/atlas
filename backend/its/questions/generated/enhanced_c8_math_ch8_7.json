@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_7",
+   "title": "c8_math_ch8_7",
+   "questions": [
+    {
+     "q": "State the formula for calculating profit when Selling Price (SP) and Cost Price (CP) are given. Also define Cost Price.",
+     "a": "Profit = SP - CP (provided SP > CP). Cost Price (CP) is the price at which an article is purchased. A wrong answer (e.g., Profit = CP - SP) reveals the student confuses the order of subtraction and does not understand that profit means gaining extra money beyond the cost.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper buys a toy for ₹200 and sells it for ₹180. Explain why this results in a loss and not a profit, using the relationship between CP and SP.",
+     "a": "Since CP (₹200) > SP (₹180), the money received is less than the money spent, so the shopkeeper loses ₹20. A wrong answer (e.g., saying it's a profit because both numbers are positive) reveals the student does not grasp that profit/loss is determined by the relative magnitude of SP and CP, not their absolute values.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi bought a bicycle for ₹3,500 and sold it at a profit of ₹650. What was the selling price? Show your steps.",
+     "a": "Given CP = ₹3,500, Profit = ₹650. Using SP = CP + Profit = ₹3,500 + ₹650 = ₹4,150. A wrong answer (e.g., ₹2,850) reveals the student subtracted instead of added, confusing the formula for finding SP when profit is given with the formula for finding profit itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two transactions: (A) CP = ₹500, SP = ₹600; (B) CP = ₹1,000, SP = ₹1,050. Which transaction yields a higher absolute profit? Which yields a higher profit relative to the cost? Explain the difference.",
+     "a": "Transaction A: Profit = ₹100. Transaction B: Profit = ₹50. Absolute profit is higher in A (₹100 > ₹50). Relative profit (profit as fraction of CP): A = 100/500 = 1/5 = 20%; B = 50/1000 = 1/20 = 5%. So A has higher relative profit. A wrong answer (e.g., saying B has higher profit because SP is larger) reveals the student focuses on absolute numbers without comparing profit to the investment (CP), a prerequisite for understanding profit percentage later.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"CP = ₹400, Loss = ₹50, find SP\" by writing SP = CP + Loss = ₹450. Evaluate this solution and correct it.",
+     "a": "The solution is incorrect. Loss means SP < CP, so SP = CP - Loss = ₹400 - ₹50 = ₹350. The student added the loss instead of subtracting, treating loss like profit. This reveals the student memorizes \"SP = CP + Profit\" but does not understand that loss reduces the selling price, so the operation must be subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using rupees) where the Cost Price is ₹1,200, there is a loss, and the Selling Price is a multiple of 50. Provide the problem statement and the solution.",
+     "a": "Example problem: \"Meena bought a kurta for ₹1,200. Due to a stain, she sold it at a loss of ₹150. What was the selling price?\" Solution: CP = ₹1,200, Loss = ₹150, SP = CP - Loss = ₹1,050 (multiple of 50). A poor answer (e.g., giving a profit scenario or SP not a multiple of 50) reveals the student cannot construct a problem meeting multiple constraints, indicating shaky grasp of the definitions and relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

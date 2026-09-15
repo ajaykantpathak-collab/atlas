@@ -1,0 +1,193 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 104,
+ "chapter_title": "Chemical Bonding and Molecular Structure",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech104.txt",
+ "concepts": [
+  {
+   "id": "kech.104.1.1",
+   "title": "Octet Rule, Ionic and Electrovalent Bonding",
+   "section": "Chemical bonding",
+   "definition": "Atoms combine to complete their octet through ionic bonds where electrons transfer from metals to non-metals forming cations and anions held by electrostatic attraction, and lattice enthalpy decides the stability of ionic compounds.",
+   "formula": "",
+   "key_idea": "Ionic compounds are crystalline solids with high melting points, soluble in polar solvents and conductors in molten or solution state.",
+   "textbook_ref": "kech104.txt octet rule and ionic bonding sections",
+   "question_patterns": [
+    "state the octet rule and its limitations",
+    "explain the formation of an ionic bond with an example",
+    "define lattice enthalpy and its significance",
+    "list the properties of ionic compounds",
+    "which factors favour the formation of an ionic bond",
+    "define electron gain enthalpy and ionisation enthalpy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check electron transfer",
+     "explain": "Note the metal losing electrons and non-metal gaining them."
+    },
+    {
+     "step": 2,
+     "action": "confirm the ions formed",
+     "explain": "Write the cation and anion with their charges."
+    },
+    {
+     "step": 3,
+     "action": "verify lattice stability",
+     "explain": "Relate lattice enthalpy to the melting point and solubility."
+    }
+   ]
+  },
+  {
+   "id": "kech.104.2.1",
+   "title": "Covalent Bond, Lewis Structures and Valence Bond Approach",
+   "section": "Covalent bond",
+   "definition": "A covalent bond forms by sharing of electron pairs between atoms, Lewis structures show bonding and lone pairs, and the valence bond theory explains bond formation by overlap of half filled orbitals with directional character producing sigma and pi bonds.",
+   "formula": "",
+   "key_idea": "Sigma bonds arise from axial overlap while pi bonds come from sidewise overlap, and coordinate bonds form when both electrons come from one atom.",
+   "textbook_ref": "kech104.txt covalent bond sections",
+   "question_patterns": [
+    "draw lewis structures of simple molecules",
+    "differentiate sigma and pi bonds",
+    "explain covalent bond formation by orbital overlap",
+    "define coordinate bond with an example",
+    "state the features of valence bond theory",
+    "why are covalent compounds generally low melting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the valence electrons",
+     "explain": "Total the outer electrons of all atoms."
+    },
+    {
+     "step": 2,
+     "action": "draw the sharing pattern",
+     "explain": "Place shared pairs and lone pairs per octet rule."
+    },
+    {
+     "step": 3,
+     "action": "classify the overlaps",
+     "explain": "Mark sigma from axial overlap and pi from sidewise overlap."
+    }
+   ]
+  },
+  {
+   "id": "kech.104.3.1",
+   "title": "Hybridisation, VSEPR and Molecular Geometry",
+   "section": "Hybridisation and VSEPR",
+   "definition": "Hybridisation mixes atomic orbitals of comparable energy into equivalent hybrids like sp, sp2, sp3, and the VSEPR theory predicts molecular geometry from electron pair repulsions, with lone pair lone pair repulsion exceeding lone pair bond pair repulsion.",
+   "formula": "",
+   "key_idea": "Shapes follow from the number of electron domains: linear, trigonal planar, tetrahedral, trigonal bipyramidal and octahedral for two to six domains.",
+   "textbook_ref": "kech104.txt hybridisation and vsepr sections",
+   "question_patterns": [
+    "define hybridisation with sp sp2 and sp3 examples",
+    "state the postulates of vsepr theory",
+    "predict the shape of water and ammonia molecules",
+    "compare the repulsion order of lp lp lp bp and bp bp",
+    "explain the geometry of methane and beryllium chloride",
+    "what is the bond angle in sp2 hybridised carbon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count electron domains",
+     "explain": "Add bonding pairs and lone pairs around the central atom."
+    },
+    {
+     "step": 2,
+     "action": "identify the hybrid set",
+     "explain": "Match the domain count with sp, sp2 or sp3 hybridisation."
+    },
+    {
+     "step": 3,
+     "action": "predict the shape",
+     "explain": "Apply VSEPR repulsions to name the molecular geometry."
+    }
+   ]
+  },
+  {
+   "id": "kech.104.4.1",
+   "title": "Molecular Orbital Theory and Bond Order Computation",
+   "section": "Molecular orbital theory",
+   "definition": "Molecular orbital theory forms bonding and antibonding molecular orbitals by linear combination of atomic orbitals, electrons fill them in increasing energy, and the bond order equals half the difference between the number of electrons in bonding and antibonding orbitals, deciding stability and magnetic behaviour.",
+   "formula": "bond_order = (bonding_electrons - antibonding_electrons) / 2",
+   "key_idea": "A positive bond order means the molecule exists; paramagnetism appears when unpaired electrons occupy orbitals, as in dioxygen.",
+   "textbook_ref": "kech104.txt molecular orbital theory section",
+   "question_patterns": [
+    "state the basic ideas of molecular orbital theory",
+    "calculate bond order from bonding and antibonding electrons",
+    "why is the dioxygen molecule paramagnetic",
+    "compare the bonding and antibonding molecular orbitals",
+    "draw the molecular orbital configuration of nitrogen",
+    "relate bond order with bond length and stability"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count electrons in the two sets",
+     "explain": "Take the difference between bonding and antibonding electron counts and divide by 2",
+     "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech104.txt molecular orbital theory section",
+   "concept": "kech.104.4.1",
+   "question_type": "compute_bond_order",
+   "question_pattern": "A diatomic molecule has {bonding_electrons} electrons in bonding orbitals and {antibonding_electrons} electrons in antibonding orbitals. Calculate its bond order.",
+   "extracted_variables": {
+    "bonding_electrons": 10,
+    "antibonding_electrons": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count electrons in the two sets",
+     "explain": "Take the difference between bonding and antibonding electron counts and divide by 2",
+     "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech104.txt molecular orbital theory section",
+   "concept": "kech.104.4.1",
+   "question_type": "compute_bond_order",
+   "question_pattern": "The molecular orbital configuration of a species shows {bonding_electrons} bonding electrons and {antibonding_electrons} antibonding electrons. Find the bond order and say whether the species is stable.",
+   "extracted_variables": {
+    "bonding_electrons": 8,
+    "antibonding_electrons": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count electrons in the two sets",
+     "explain": "Take the difference between bonding and antibonding electron counts and divide by 2",
+     "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech104.txt exercises",
+   "questions": [
+    "Explain the formation of a chemical bond according to Lewis and Kossel.",
+    "Define octet rule and write its significance and limitations.",
+    "Predict the shapes of the given molecules using VSEPR theory.",
+    "Use molecular orbital theory to predict bond order and magnetic nature.",
+    "Define hybridisation and explain sp3 hybridisation with an example."
+   ]
+  }
+ ]
+}

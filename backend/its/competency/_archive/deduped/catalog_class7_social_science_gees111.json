@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 11,
+ "chapter_title": "From Barter to Money",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.11.1",
+   "title": "The Barter System",
+   "section": "Barter",
+   "definition": "Before money, people bartered, exchanging goods directly: grain for cloth, cattle for salt; exchange worked only when each trader wanted exactly what the other offered, the double coincidence of wants.",
+   "formula": "",
+   "key_idea": "Barter ties every trade to luck: without a matching want on both sides, no deal can close.",
+   "textbook_ref": "gees111.txt, Barter",
+   "question_patterns": [
+    "how did exchange take place before money",
+    "what is barter exchange",
+    "what is the double coincidence of wants",
+    "why is barter difficult for large trade",
+    "give an example of a barter exchange",
+    "which problems of barter does money solve"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.11.2",
+   "title": "Money as Medium of Exchange",
+   "section": "Money",
+   "definition": "Money steps in as a medium everyone accepts: sell your goods for money, buy what you need with it; it also serves as a common measure of value, a store of savings and a standard for future payments.",
+   "formula": "money = medium + measure + store + standard",
+   "key_idea": "Money untangles trade: the farmer need not find a cloth-maker who wants grain, only a buyer who has money.",
+   "textbook_ref": "gees111.txt, Money",
+   "question_patterns": [
+    "what are the functions of money",
+    "how does money act as a medium of exchange",
+    "how does money measure the value of goods",
+    "why is money called a store of value",
+    "how does money help payments across time",
+    "what does the quotation about money as a link between present and future mean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.11.3",
+   "title": "From Coins to Currency",
+   "section": "History of money",
+   "definition": "Metal coins stamped with kings' seals served trade for centuries, and paper currency backed by the state followed; India's rupee carries both a long history and the promise of the central bank.",
+   "formula": "",
+   "key_idea": "Money evolves with trade: from weighed metal to minted coin to printed note to digital transfer.",
+   "textbook_ref": "gees111.txt, History of money",
+   "question_patterns": [
+    "why were coins stamped with marks",
+    "what advantages did coinage have over weighed metal",
+    "why did paper money come into use",
+    "who issues currency in india today",
+    "what makes people trust a piece of paper as money",
+    "how is digital money changing payments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.11.4",
+   "title": "Exchange in a Market Economy",
+   "section": "Exchange today",
+   "definition": "With money, exchange grew into the market economy around us: prices express values, wages pay for work, and saving channels money to those who invest, linking present effort with future reward.",
+   "formula": "",
+   "key_idea": "Money made exchange so smooth that specialisation bloomed: do one thing well and trade for the rest.",
+   "textbook_ref": "gees111.txt, Exchange today",
+   "question_patterns": [
+    "why do people specialise in one work and trade for the rest",
+    "how do prices coordinate buyers and sellers",
+    "what happens to savings when people deposit money",
+    "how is earning connected to spending in a family",
+    "give examples of exchange you see around you",
+    "why is exchange easier today than in barter times"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees111.txt",
+   "concept": "gees.11.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does barter fail when the economy grows?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "test the match",
+     "explain": "Each barter needs both sides to want the other's exact good at the same time."
+    },
+    {
+     "step": 2,
+     "action": "scale the trouble",
+     "explain": "With hundreds of goods, hunting a matching want costs more than the trade itself, so money's common acceptance wins."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees111.txt",
+   "concept": "gees.11.2",
+   "question_type": "verify_property",
+   "question_pattern": "what is the double coincidence of wants?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees111.txt, Let us explore",
+   "questions": [
+    "How did exchange take place before money?",
+    "What is the double coincidence of wants?",
+    "What does the opening quotation say about money and the future?",
+    "Role-play a barter deal and show where it gets stuck.",
+    "Trace one day of your family's payments and name the forms of money used."
+   ]
+  }
+ ]
+}

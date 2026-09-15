@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_005",
+   "title": "c12_chem_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the hybridization and geometry of the complex [Ni(CN)₄]²⁻ according to VBT? State the oxidation state of Ni and the number of unpaired electrons.",
+     "a": "Oxidation state of Ni = +2 (d⁸). CN⁻ is a strong field ligand → pairing occurs in 3d orbitals → one 3d orbital empties → dsp² hybridization → square planar geometry → all electrons paired → 0 unpaired electrons → diamagnetic. A wrong answer (e.g., sp³ hybridization, tetrahedral, 2 unpaired electrons) reveals the student cannot distinguish strong vs weak field ligands or misapplies Hund's rule in the presence of strong field ligands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why [Co(NH₃)₆]³⁺ is diamagnetic while [CoF₆]³⁻ is paramagnetic, even though both have Co³⁺ (d⁶) and octahedral geometry.",
+     "a": "NH₃ is a strong field ligand → causes pairing of 3d⁶ electrons (t₂g⁶ eg⁰) → two 3d orbitals empty → d²sp³ hybridization (inner orbital) → no unpaired electrons → diamagnetic. F⁻ is a weak field ligand → no pairing → 3d⁶ remains with 4 unpaired electrons (t₂g⁴ eg²) → outer 4d orbitals used → sp³d² hybridization (outer orbital) → 4 unpaired electrons → paramagnetic. A wrong answer (e.g., both same hybridization, or both inner orbital) shows the student does not link ligand field strength to electron pairing and choice of d-orbitals (inner vs outer).",
+     "self_check": true
+    },
+    {
+     "q": "Predict the hybridization, geometry, and spin-only magnetic moment (in BM) for [Fe(CN)₆]⁴⁻. Show the d-orbital splitting and electron distribution.",
+     "a": "Fe²⁺ is d⁶. CN⁻ is strong field → pairing → t₂g⁶ eg⁰ → two 3d orbitals free → d²sp³ hybridization → octahedral → 0 unpaired electrons → μ = √[0(2)] = 0 BM (diamagnetic). Steps: (1) Oxidation state: Fe +2. (2) d⁶ configuration. (3) Strong field ligand CN⁻ → pairing. (4) Two 3d orbitals vacated for hybridization. (5) d²sp³, octahedral. (6) Unpaired e⁻ = 0. (7) μ = 0 BM. A wrong answer (e.g., sp³d², 4 unpaired electrons, μ = 4.90 BM) indicates the student treats CN⁻ as weak field or forgets that strong field ligands cause pairing in d⁴–d⁷ configurations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the VBT description of [NiCl₄]²⁻ and [Ni(CO)₄]. Both are tetrahedral. Why is [NiCl₄]²⁻ paramagnetic while [Ni(CO)₄] is diamagnetic?",
+     "a": "[NiCl₄]²⁻: Ni²⁺ (d⁸), Cl⁻ weak field → no pairing → sp³ hybridization using 4s and 4p orbitals (3d⁸ unchanged) → 2 unpaired electrons → paramagnetic (μ ≈ 2.83 BM). [Ni(CO)₄]: Ni⁰ (d¹⁰), CO strong field → but d¹⁰ already full → sp³ hybridization using 4s and 4p → all electrons paired → diamagnetic. The difference arises from oxidation state (Ni²⁺ vs Ni⁰) and d-electron count, not ligand field strength alone. A wrong answer (e.g., both dsp², or both same magnetism) shows confusion between oxidation state, dⁿ configuration, and the role of ligand field in tetrahedral complexes (where pairing is rare due to small Δt).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"[Co(NH₃)₆]³⁺ uses sp³d² hybridization because it is octahedral.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. [Co(NH₃)₆]³⁺ has Co³⁺ (d⁶). NH₃ is a strong field ligand → causes pairing of 3d electrons → two inner 3d orbitals become available → hybridization is d²sp³ (inner orbital complex), not sp³d² (which uses outer 4d orbitals). sp³d² would imply no pairing and 4 unpaired electrons (high spin), which contradicts the observed diamagnetism. The student's error: assuming all octahedral complexes use outer d-orbitals, ignoring ligand field strength and electron pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a VBT-based explanation for why square planar geometry is favored over tetrahedral for d⁸ metal ions (e.g., Pt²⁺, Pd²⁺, Ni²⁺ with strong field ligands). Include the hybridization scheme and the role of ligand field strength.",
+     "a": "For d⁸ ions (e.g., Ni²⁺, Pt²⁺), strong field ligands (CN⁻, CO, NH₃) cause pairing of the two unpaired electrons in the 3d orbitals (e.g., 3dₓ²₋ᵧ² and 3d_z² pair up? Actually in square planar, the dₓ²₋ᵧ² orbital is used in hybridization). More precisely: In square planar dsp² hybridization, one 3d orbital (dₓ²₋ᵧ²), one 4s, and two 4p orbitals hybridize. The strong field ligand forces pairing of the 8 d-electrons into the remaining four 3d orbitals (dxy, dyz, dxz, dz²), leaving dₓ²₋ᵧ² empty for hybridization. This yields a diamagnetic complex. In tetrahedral sp³, no d-orbital is used, so the two unpaired electrons remain → paramagnetic. Strong field ligands stabilize the square planar geometry by enabling pairing and utilizing the lower-energy inner d-orbital. A poor answer would omit the pairing step or confuse dsp² with sp³d².",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_007",
+   "title": "c11_bs_cbse_01_007",
+   "questions": [
+    {
+     "q": "A trader in Kolkata purchases 500 kg of tea from a plantation in Assam and sells it to a retailer in Mumbai. Classify this trade transaction and justify your classification using two distinct criteria.",
+     "a": "This is internal wholesale trade. Criterion 1 (geographical): both buyer and seller are within India, making it internal trade. Criterion 2 (volume/role): the trader buys in bulk from the producer and sells to another trader (retailer), not to the final consumer, making it wholesale trade. A wrong answer (e.g., calling it retail or external trade) reveals the student cannot apply both classification dimensions simultaneously — they may focus only on geography or only on volume, or confuse the trader's role with the retailer's role.",
+     "self_check": true
+    },
+    {
+     "q": "\"All trade is internal trade because goods ultimately reach consumers within a country.\" Evaluate this statement and explain the conceptual error it contains.",
+     "a": "The statement is false. It confuses the final destination of goods with the nature of the trade transaction. External trade (import/export) occurs when goods cross national borders during the transaction, regardless of where they are finally consumed. For example, when an Indian company imports crude oil from Saudi Arabia, that transaction is external trade even though the refined petrol is sold internally. The error reveals a misunderstanding that trade classification depends on the transaction's geography, not the goods' ultimate consumption location.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian company buys raw cotton from farmers in Gujarat, processes it into yarn, and sells the yarn to a textile mill in Bangladesh. Identify the type of trade for each transaction and explain why they are different.",
+     "a": "Transaction 1 (farmers to company): Internal trade — both parties in India. Transaction 2 (company to Bangladesh mill): Export trade — goods cross national border from India to Bangladesh. They differ because trade classification is determined per transaction, not per enterprise. A company can engage in both internal and external trade simultaneously. A wrong answer (e.g., calling both internal because the company is Indian) shows the student attributes trade type to the business entity rather than to each individual exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast wholesale trade and entrepôt trade on three parameters: (a) geographical scope, (b) role in distribution chain, (c) direction of goods flow.",
+     "a": "(a) Geographical scope: Wholesale is internal (within country); Entrepôt is external (involves at least two countries). (b) Role: Wholesale links producers to retailers within domestic chain; Entrepôt involves importing goods for re-export without substantial processing, acting as an intermediary between two foreign countries. (c) Direction: Wholesale moves goods from producer → retailer within one country; Entrepôt moves goods from Country A → Home Country → Country B. A poor answer conflates wholesale with entrepôt because both involve \"bulk\" or \"intermediary\" roles, missing that geographical scope is the fundamental differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "\"A country with a large entrepôt trade sector does not need a strong manufacturing base.\" Critically evaluate this claim with reference to the nature of entrepôt trade.",
+     "a": "The claim is flawed. Entrepôt trade (re-exporting imported goods with minimal value addition) generates service income (logistics, finance, warehousing) but does not substitute for manufacturing. It creates dependency on foreign goods and makes the economy vulnerable to trade policy changes. Singapore and Hong Kong developed entrepôt trade alongside, not instead of, manufacturing and high-value services. A student agreeing with the claim misunderstands that entrepôt trade is a commercial service activity, not a production activity, and confuses trade volume with industrial capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart that traces a single product (e.g., coffee beans) from an Ethiopian farmer to a consumer in Jaipur, labeling each trade transaction as internal wholesale, internal retail, import, export, or entrepôt. Include at least five transactions.",
+     "a": "A valid flowchart: 1. Ethiopian farmer → Ethiopian exporter (Internal wholesale in Ethiopia). 2. Ethiopian exporter → Indian importer (Export from Ethiopia / Import to India). 3. Indian importer → Mumbai wholesaler (Internal wholesale in India). 4. Mumbai wholesaler → Jaipur retailer (Internal wholesale in India). 5. Jaipur retailer → Consumer (Internal retail in India). If entrepôt is included: add a transaction where Indian importer re-exports to Nepal without processing (Entrepôt). A poor flowchart misses the distinction between import/export as a pair, labels all domestic transactions as \"retail,\" or treats the importer as a retailer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

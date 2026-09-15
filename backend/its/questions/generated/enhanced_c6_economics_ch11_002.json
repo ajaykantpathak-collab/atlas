@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch11_002",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch11_002",
+   "title": "c6_economics_ch11_002",
+   "questions": [
+    {
+     "q": "What is the \"double coincidence of wants\" in a barter system?",
+     "a": "It is when two people each have something the other person wants, allowing them to trade directly. A wrong answer suggests the student thinks it just means \"two people wanting to buy something,\" missing the requirement that they must also have something the other person desires.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer has rice and wants a pot, but the potter only wants cloth, why does the barter fail?",
+     "a": "The barter fails because there is no double coincidence of wants; the potter does not want the farmer's rice. A wrong answer indicates the student hasn't grasped that trade requires a mutual match of both the item offered and the item sought.",
+     "self_check": true
+    },
+    {
+     "q": "You have a bag of wheat and need a haircut. The barber needs wheat but doesn't have time to cut your hair today. Can you barter? Why or why not?",
+     "a": "No, you cannot barter because the \"want\" is not occurring at the same time (coincidence). A wrong answer suggests the student thinks having the item is enough, ignoring the \"coincidence\" (timing and willingness) aspect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a barter system with a modern market using money. Why is the double coincidence a \"flaw\"?",
+     "a": "It is a flaw because it forces people to spend hours searching for the right trading partner instead of focusing on their work. A wrong answer shows the student views barter as just as efficient as money, failing to see the search-cost barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a barter trade to happen if only one person wants what the other has? Justify your answer.",
+     "a": "No, it is not possible because trade is a two-way agreement; if one person refuses, the deal collapses. A wrong answer reveals a misunderstanding of the \"coincidence\" part of the concept, which implies a mutual (double) agreement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where three people (Farmer, Weaver, Potter) successfully complete a trade using indirect barter.",
+     "a": "The Farmer gives rice to the Weaver, the Weaver gives cloth to the Potter, and the Potter gives a pot to the Farmer. A poor answer fails to connect all three parties, suggesting the student is struggling to visualize the chain of trades required to overcome the lack of a double coincidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_030",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_030",
+   "title": "c6_physics_ch08_030",
+   "questions": [
+    {
+     "q": "If a toy train travels 5 cm every 1 second, how far will it travel in 4 seconds if it is in uniform motion?",
+     "a": "It will travel 20 cm. If a student answers differently, it reveals they do not understand that \"equal distances in equal intervals of time\" means the distance must be multiplied by the time elapsed.",
+     "self_check": true
+    },
+    {
+     "q": "A car’s distance-time graph is a perfectly straight, sloped line. What does this tell you about the car's speed?",
+     "a": "The speed is constant. If a student says the speed is increasing, they are confusing a straight line with a curved line, failing to grasp that a constant slope means a constant rate of change.",
+     "self_check": true
+    },
+    {
+     "q": "A bus travels 100 km in 2 hours. Calculate its speed.",
+     "a": "Speed = Distance / Time = 100 km / 2 h = 50 km/h. If a student multiplies instead of divides, they are misapplying the basic algebraic relationship between the three variables.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars, A and B, are moving in uniform motion. Car A has a steeper line on the graph than Car B. Which car is faster?",
+     "a": "Car A is faster. If a student guesses Car B, they do not understand that the \"steepness\" (slope) of the line represents how much distance is covered per unit of time.",
+     "self_check": true
+    },
+    {
+     "q": "If a cyclist covers 10m in the first second, 10m in the second, and 15m in the third, is this uniform motion? Why or why not?",
+     "a": "No, it is not uniform motion because the distance covered is not equal for every equal time interval. A wrong answer shows the student has not grasped the \"equal distance\" requirement of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove a rolling marble is in uniform motion. What would you look for in your data?",
+     "a": "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical. A poor answer fails to mention the necessity of consistent time intervals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

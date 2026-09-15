@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_005",
+   "title": "c11_geo_cbse_05_005",
+   "questions": [
+    {
+     "q": "Define intrusive and extrusive igneous rocks and state the primary factor that distinguishes their textures.",
+     "a": "Intrusive rocks form from magma cooling slowly beneath the surface (coarse-grained); extrusive rocks form from lava cooling rapidly on the surface (fine-grained). The primary distinguishing factor is **cooling rate**, controlled by depth of emplacement. A wrong answer (e.g., \"intrusive rocks are always darker\") reveals confusion between texture (grain size) and composition (mineralogy/colour), a common error where students conflate mafic/felsic chemistry with intrusive/extrusive mode.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a granitic batholith in the Peninsular Plateau have large visible crystals, while a basalt flow in the Deccan Traps has microscopic crystals, even though both originated from molten magma?",
+     "a": "The batholith cooled slowly at great depth (insulated by overlying rock), allowing ions time to migrate and form large crystals. The Deccan basalt erupted as lava flows, losing heat rapidly to the atmosphere/rain, forcing instant nucleation of countless tiny crystals. A wrong answer citing \"different chemical composition\" as the *sole* reason for grain size difference reveals the misconception that composition dictates texture, ignoring the dominant control of cooling history.",
+     "self_check": true
+    },
+    {
+     "q": "A student collects a rock sample from a road cutting near Pune (Deccan Traps). It is dark grey, very fine-grained, and contains numerous small, spherical cavities (vesicles) filled with white mineral (zeolite). Identify the rock type, its mode of formation, and explain the origin of the vesicles.",
+     "a": "**Rock:** Vesicular Basalt (Extrusive). **Formation:** Rapid cooling of low-viscosity mafic lava on the surface. **Vesicles:** Formed by dissolved gases (H₂O, CO₂) expanding and escaping as pressure dropped during eruption; trapped bubbles frozen in the solidifying rock. The white mineral is a secondary hydrothermal deposit (zeolite). A wrong answer identifying it as \"intrusive\" or \"gabbro\" ignores the vesicles (a surface feature) and fine grain size, showing inability to apply texture/structure criteria to field identification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological settings of the granitic intrusions of the Bundelkhand Craton (Central India) and the basaltic lava flows of the Deccan Traps (Western India). How do plate tectonic contexts differ for these two magmatic events?",
+     "a": "Bundelkhand granites: Archean cratonic setting, formed by partial melting of lower crust/mantle in a stable continental interior (intraplate), emplaced as deep batholiths. Deccan Traps: Cretaceous-Paleogene continental flood basalt province, linked to the Reunion hotspot as the Indian plate drifted northward; massive fissure eruptions (extrusive) through thinned lithosphere. A wrong answer attributing both to \"volcanoes\" or \"subduction\" fails to distinguish cratonic magmatism from hotspot-related flood basalt volcanism, missing the plate tectonic control on magma volume and eruption style.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Intrusive igneous rocks are always more resistant to weathering and erosion than extrusive igneous rocks, making them better construction materials.\" Use Indian examples.",
+     "a": "The statement is **partially false**. Resistance depends on **mineral composition and jointing**, not just mode. Granite (intrusive, felsic) is highly resistant due to quartz hardness and lack of cleavage, widely used for building stone (e.g., Karnataka, Tamil Nadu). However, basalt (extrusive, mafic) is also extremely hard and tough, forming the durable Deccan Traps plateau and used extensively as road metal/aggregate. Conversely, intrusive rocks like syenite or dunite may weather faster than basalt if they contain less stable minerals. A wrong answer agreeing fully reveals the misconception that \"intrusive = hard, extrusive = soft,\" ignoring mineralogical control on durability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 11 geography project to distinguish between an intrusive dyke and an extrusive lava flow exposed in a road cutting in the Deccan region. List 3 diagnostic features you would observe/measure and the equipment needed.",
+     "a": "**Plan:** (1) **Texture/Grain Size:** Use hand lens (10x) to measure average crystal size. Dyke = medium-grained (dolerite/gabbro); Lava flow = fine-grained/basalt. (2) **Contact Relationships:** Observe contacts with country rock. Dyke = sharp, discordant (cuts across bedding), baked margins (chilled + baked); Lava flow = conformable top/bottom, vesicular/amygdaloidal top, ropy (pahoehoe) surface. (3) **Jointing/Structure:** Measure joint spacing/orientation. Dyke = columnar joints perpendicular to walls; Lava flow = columnar joints perpendicular to base, flow banding. **Equipment:** Hand lens, compass clinometer, GPS, camera, dilute HCl (for carbonate amygdales). A poor plan listing only \"colour\" or \"hardness\" shows inability to select discriminating field criteria for mode of emplacement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

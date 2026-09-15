@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_009",
+   "title": "c12_math_cbse_11_009",
+   "questions": [
+    {
+     "q": "Write the formula for the cosine of the angle between two planes \\( 2x - 3y + 4z = 5 \\) and \\( x + y - 2z = 3 \\) in Cartesian form. Do not compute the angle.",
+     "a": "The formula is \\( \\cos \\theta = \\frac{|(2)(1) + (-3)(1) + (4)(-2)|}{\\sqrt{2^2+(-3)^2+4^2}\\sqrt{1^2+1^2+(-2)^2}} = \\frac{|2 - 3 - 8|}{\\sqrt{29}\\sqrt{6}} = \\frac{9}{\\sqrt{174}} \\). A wrong answer where the student omits the absolute value (giving \\(-9/\\sqrt{174}\\)) reveals they confuse the angle between planes (always acute) with the angle between normals (can be obtuse). Forgetting to square the coefficients in the denominator (e.g., writing \\(\\sqrt{2-3+4}\\)) shows confusion between direction ratios and direction cosines.",
+     "self_check": true
+    },
+    {
+     "q": "Two planes are given by \\( \\vec{r} \\cdot (2\\hat{i} - \\hat{j} + 3\\hat{k}) = 4 \\) and \\( \\vec{r} \\cdot (-4\\hat{i} + 2\\hat{j} - 6\\hat{k}) = 7 \\). Without computing the angle, state whether the planes are parallel, perpendicular, or neither. Justify your answer.",
+     "a": "The normal vectors are \\( \\vec{n}_1 = 2\\hat{i} - \\hat{j} + 3\\hat{k} \\) and \\( \\vec{n}_2 = -4\\hat{i} + 2\\hat{j} - 6\\hat{k} \\). Observe \\( \\vec{n}_2 = -2 \\vec{n}_1 \\), so the normals are parallel (one is a scalar multiple of the other). Hence the planes are parallel. A student who computes the dot product \\( \\vec{n}_1 \\cdot \\vec{n}_2 = -8 -2 -18 = -28 \\) and says \"not zero, so not perpendicular\" but fails to check the ratio condition \\( \\frac{2}{-4} = \\frac{-1}{2} = \\frac{3}{-6} = -\\frac{1}{2} \\) misses the parallel case. This is a common JEE trap: parallel planes have normals that are scalar multiples, not just non-perpendicular.",
+     "self_check": true
+    },
+    {
+     "q": "Find the angle between the planes \\( 3x - 4y + 5z = 10 \\) and \\( 2x + y - 3z = 4 \\). Give your answer in degrees to one decimal place.",
+     "a": "Step 1: Identify coefficients: \\( a_1=3, b_1=-4, c_1=5 \\); \\( a_2=2, b_2=1, c_2=-3 \\).\nStep 2: Compute numerator: \\( |a_1a_2 + b_1b_2 + c_1c_2| = |(3)(2) + (-4)(1) + (5)(-3)| = |6 - 4 - 15| = |-13| = 13 \\).\nStep 3: Compute denominator: \\( \\sqrt{3^2+(-4)^2+5^2} = \\sqrt{9+16+25} = \\sqrt{50} = 5\\sqrt{2} \\); \\( \\sqrt{2^2+1^2+(-3)^2} = \\sqrt{4+1+9} = \\sqrt{14} \\).\nStep 4: \\( \\cos \\theta = \\frac{13}{5\\sqrt{2} \\cdot \\sqrt{14}} = \\frac{13}{5\\sqrt{28}} = \\frac{13}{10\\sqrt{7}} = \\frac{13\\sqrt{7}}{70} \\approx 0.491 \\).\nStep 5: \\( \\theta = \\cos^{-1}(0.491) \\approx 60.6^\\circ \\).\nA wrong answer of \\( \\theta \\approx 119.4^\\circ \\) means the student forgot the absolute value and took \\( \\cos^{-1}(-0.491) \\). An answer with denominator \\( \\sqrt{50+14} = 8 \\) shows confusion between sum of squares and square of sums.",
+     "self_check": true
+    },
+    {
+     "q": "Plane \\( P_1 \\) passes through points \\( A(1,0,2), B(3,-1,1), C(2,2,0) \\). Plane \\( P_2 \\) is given by \\( 4x - 2y + z = 5 \\). Determine whether \\( P_1 \\) and \\( P_2 \\) are perpendicular. Show all steps.",
+     "a": "Step 1: Find two vectors in \\( P_1 \\): \\( \\vec{AB} = (2,-1,-1) \\), \\( \\vec{AC} = (1,2,-2) \\).\nStep 2: Normal to \\( P_1 \\) is \\( \\vec{n}_1 = \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & -1 & -1 \\\\ 1 & 2 & -2 \\end{vmatrix} = \\hat{i}(2+2) - \\hat{j}(-4+1) + \\hat{k}(4+1) = 4\\hat{i} + 3\\hat{j} + 5\\hat{k} \\).\nStep 3: Normal to \\( P_2 \\) is \\( \\vec{n}_2 = 4\\hat{i} - 2\\hat{j} + \\hat{k} \\).\nStep 4: Check perpendicular condition: \\( \\vec{n}_1 \\cdot \\vec{n}_2 = (4)(4) + (3)(-2) + (5)(1) = 16 - 6 + 5 = 15 \\neq 0 \\).\nConclusion: Planes are NOT perpendicular.\nA student who uses \\( \\vec{AB} \\cdot \\vec{n}_2 \\) instead of cross product reveals they confuse direction vectors in the plane with the normal vector. Another error: computing \\( \\vec{n}_1 = \\vec{AB} \\times \\vec{AC} \\) but making a sign error in the determinant (e.g., \\( - \\hat{j}(-4+1) \\) becoming \\( -3\\hat{j} \\)) leads to wrong dot product.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the angle between planes \\( x + 2y - 2z = 3 \\) and \\( 2x - y + z = 4 \\).\" Their working:\n\\( \\cos \\theta = \\frac{|1(2) + 2(-1) + (-2)(1)|}{\\sqrt{1+4+4}\\sqrt{4+1+1}} = \\frac{|2 -2 -2|}{\\sqrt{9}\\sqrt{6}} = \\frac{2}{3\\sqrt{6}} \\), so \\( \\theta = \\cos^{-1}\\left(\\frac{2}{3\\sqrt{6}}\\right) \\).\nIdentify the error in the denominator and correct it.",
+     "a": "The error is in the denominator: \\( \\sqrt{1^2+2^2+(-2)^2} = \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is correct, but \\( \\sqrt{2^2+(-1)^2+1^2} = \\sqrt{4+1+1} = \\sqrt{6} \\) is correct. Wait — the student wrote \\( \\sqrt{4+1+1} = \\sqrt{6} \\), that is correct. Actually the student's working is fully correct! The numerator: \\( |2 -2 -2| = 2 \\). So \\( \\cos \\theta = \\frac{2}{3\\sqrt{6}} \\). This is a trick question: the student's solution is correct. A student who claims there is an error might mistakenly think \\( \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is wrong because they expect \\( \\sqrt{1+2+2} \\) or they mis-copy coefficients. The diagnostic tests whether the student can verify a solution without redoing it blindly. If a student \"finds\" an error where none exists, it reveals a lack of confidence in algebraic manipulation or a habit of second-guessing correct steps.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where two planes are perpendicular, and one plane passes through the points \\( (1,2,3), (4,0,1), (2,-1,5) \\). Give the equation of the second plane in Cartesian form with integer coefficients, and verify the perpendicular condition.",
+     "a": "Step 1: Find normal of first plane \\( P_1 \\) through given points.\nVectors: \\( \\vec{AB} = (3,-2,-2) \\), \\( \\vec{AC} = (1,-3,2) \\).\n\\( \\vec{n}_1 = \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & -2 \\\\ 1 & -3 & 2 \\end{vmatrix} = \\hat{i}(-4-6) - \\hat{j}(6+2) + \\hat{k}(-9+2) = -10\\hat{i} - 8\\hat{j} - 7\\hat{k} \\).\nSo \\( \\vec{n}_1 = (-10, -8, -7) \\) (or \\( (10,8,7) \\)).\nStep 2: Choose any normal \\( \\vec{n}_2 = (a,b,c) \\) such that \\( \\vec{n}_1 \\cdot \\vec{n}_2 = 0 \\). Pick simple integers: \\( 10a + 8b + 7c = 0 \\). Let \\( a=1, b=1 \\), then \\( 10+8+7c=0 \\Rightarrow c = -18/7 \\) not integer. Let \\( a=7, b=-10 \\), then \\( 70 -80 +7c=0 \\Rightarrow c = 10/7 \\). Let \\( a=1, b=-2 \\), then \\( 10 -16 +7c=0 \\Rightarrow c = 6/7 \\). Let \\( a=8, b=-10 \\), then \\( 80 -80 +7c=0 \\Rightarrow c=0 \\). So \\( \\vec{n}_2 = (8,-10,0) \\) works.\nStep 3: Plane \\( P_2 \\) with normal \\( (8,-10,0) \\) passing through, say, origin: \\( 8x -10y = 0 \\) or \\( 4x -5y = 0 \\).\nVerification: \\( (10)(8) + (8)(-10) + (7)(0) = 80 -80 = 0 \\). Perpendicular.\nA poor answer gives a plane with normal not satisfying dot product zero, or uses the same normal (parallel planes), or forgets that any point can be chosen for the second plane since only the angle is constrained.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

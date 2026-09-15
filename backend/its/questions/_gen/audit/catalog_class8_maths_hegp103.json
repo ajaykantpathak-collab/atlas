@@ -1,0 +1,283 @@
+{
+ "catalog": "catalog_class8_maths_hegp103.json",
+ "concepts": [
+  {
+   "id": "hegp.103.3.1",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 32 / 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 1100 * 4 / (4 + 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 480 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 4 * 16 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 8 * 8 - 4 * 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 60 * 12 / 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 32 / 8"
+   ]
+  },
+  {
+   "id": "hegp.103.3.2",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 9 * 1000 + 5 * 100 + 5 * 10 + 1",
+      "small = 1 * 1000 + 5 * 100 + 5 * 10 + 9",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 2491 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 2 + 4 + 9 + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (2 + 4 + 9 + 1) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(81 - 18)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(8 - 1)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "big = 9 * 1000 + 5 * 100 + 5 * 10 + 1",
+    "small = 1 * 1000 + 5 * 100 + 5 * 10 + 9",
+    "diff = big - small"
+   ]
+  },
+  {
+   "id": "hegp.103.3.3",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 7 * 1000 + 7 * 100 + 4 * 10 + 1",
+      "small = 1 * 1000 + 4 * 100 + 7 * 10 + 7",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 4055 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 4 + 0 + 5 + 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (4 + 0 + 5 + 5) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(85 - 58)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(5 - 8)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.103.3.4",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 6 * 1000 + 5 * 100 + 4 * 10 + 3",
+      "small = 3 * 1000 + 4 * 100 + 5 * 10 + 6",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 5181 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 5 + 1 + 8 + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (5 + 1 + 8 + 1) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(32 - 23)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(2 - 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.103.3.5",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 7 * 1000 + 6 * 100 + 5 * 10 + 5",
+      "small = 5 * 1000 + 5 * 100 + 6 * 10 + 7",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 6879 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 6 + 8 + 7 + 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (6 + 8 + 7 + 9) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(74 - 47)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(7 - 4)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.103.3.6",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 8 * 1000 + 8 * 100 + 7 * 10 + 6",
+      "small = 6 * 1000 + 7 * 100 + 8 * 10 + 8",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 3759 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 3 + 7 + 5 + 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (3 + 7 + 5 + 9) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(94 - 49)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(4 - 9)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "big = 8 * 1000 + 8 * 100 + 7 * 10 + 6",
+    "small = 6 * 1000 + 7 * 100 + 8 * 10 + 8",
+    "diff = big - small"
+   ]
+  }
+ ]
+}

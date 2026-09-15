@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_004",
+   "title": "c7_math_ch10_004",
+   "questions": [
+    {
+     "q": "What is the product of $-7$ and $8$?",
+     "a": "The product is $-56$. A student who answers $+56$ has confused the rule for unlike signs with the rule for multiplying two negative integers, incorrectly thinking that any multiplication involving a negative sign results in a positive product.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying $-4$ by $-3$ results in a positive $12$ rather than a negative $12$.",
+     "a": "Using a number pattern, as the multiplier decreases by $1$ in products like $(-4) \\times 2 = -8$, $(-4) \\times 1 = -4$, $(-4) \\times 0 = 0$, the product increases by $4$ each time; continuing this pattern for $(-4) \\times (-1) = 4$, $(-4) \\times (-2) = 8$, and $(-4) \\times (-3) = 12$. A student who claims it is $-12$ incorrectly applies addition rules where negative numbers combine to make a larger negative sum.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $(-12) \\times (-5) \\times 3$.",
+     "a": "First, multiply the first two negative integers: $(-12) \\times (-5) = +60$ (since negative times negative is positive). Next, multiply this intermediate result by the third integer: $60 \\times 3 = 180$. A student who gets $-180$ likely forgot that the product of two negative numbers becomes positive before multiplying by the third number.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the result of multiplying four negative integers together versus multiplying five negative integers together. What can you conclude about the sign of the product?",
+     "a": "Multiplying an even number of negative integers (four) yields a positive product, while multiplying an odd number of negative integers (five) yields a negative product. A student who thinks the sign depends only on the magnitude fails to analyze how pairs of negative signs cancel each other out during sequential multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student's work: \"To find $(-6) \\times (-4)$, I first multiplied $6 \\times 4$ to get $24$. Since there is one negative sign, the answer is $-24$.\" Is this correct? Identify the error.",
+     "a": "The student's work is incorrect. The error lies in counting only one negative sign when there are actually *two* negative numbers being multiplied. Since both integers are negative (like signs), the correct product is $+24$.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multiplication expression involving one positive integer and two negative integers whose final product is $-90$. Explain your choice of numbers.",
+     "a": "An example is $5 \\times (-3) \\times (-6)$. The product of $(-3) \\times (-6)$ is $+18$ (positive because of two negative signs), and multiplying by the positive integer $5$ gives $5 \\times 18 = 90$, but wait, we need $-90$. Let us adjust: $(-5) \\times 3 \\times 6 = -90$, or $2 \\times (-9) \\times 5 = -90$ where there is one negative sign making the total product negative. A poor answer uses incorrect signs, resulting in a positive product instead of a negative one.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

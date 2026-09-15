@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_010",
+   "title": "c11_phy_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the SI unit of the coefficient of static friction and write the mathematical condition that static friction satisfies before motion begins.",
+     "a": "The coefficient of static friction μ_s is dimensionless (no SI unit). The condition is f_s ≤ μ_s N, where f_s is the actual static friction force and N is the normal reaction. A wrong answer (e.g., giving units of N or writing f_s = μ_s N always) reveals the student thinks μ_s has units or that static friction always takes its maximum value, ignoring its self-adjusting nature.",
+     "self_check": true
+    },
+    {
+     "q": "A block of mass 5 kg rests on a rough horizontal table. The coefficient of static friction is 0.4. A horizontal force of 15 N is applied. Explain why the block does not move, and state the magnitude and direction of the friction force acting on it. (Take g = 10 m/s²)",
+     "a": "Maximum static friction f_s_max = μ_s N = 0.4 × (5×10) = 20 N. Applied force (15 N) is less than f_s_max, so the block remains at rest. Static friction self-adjusts to exactly oppose the applied force: f_s = 15 N opposite to the 15 N push. If the student says friction is 20 N, they incorrectly assume static friction always equals μ_s N rather than adjusting up to that limit.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 kg block is placed on a rough inclined plane with θ = 30°. The coefficient of static friction is 0.5. Determine whether the block will slide down. If it slides, find its acceleration; if not, find the friction force. (g = 10 m/s²)",
+     "a": "Component down plane = mg sin30° = 10×10×0.5 = 50 N. Normal N = mg cos30° = 100×(√3/2) ≈ 86.6 N. Maximum static friction = μ_s N = 0.5 × 86.6 ≈ 43.3 N. Since 50 N > 43.3 N, the block slides. Kinetic friction f_k = μ_k N (μ_k not given; assume μ_k = 0.3 if needed). If μ_k = 0.3, f_k = 26 N. Net force = 50 - 26 = 24 N. Acceleration = 24/10 = 2.4 m/s² down the plane. If the student says it doesn't slide, they likely used tanθ = 0.577 < μ_s = 0.5 incorrectly (tan30° ≈ 0.577 > 0.5, so it should slide).",
+     "self_check": true
+    },
+    {
+     "q": "Two blocks of masses 2 kg and 3 kg are stacked on a horizontal table. The coefficient of static friction between the blocks is 0.2, and between the lower block and table is 0.3. A horizontal force F is applied to the lower block. Find the maximum F for which both blocks move together without slipping. (g = 10 m/s²)",
+     "a": "For no slipping, the 2 kg block accelerates with the 3 kg block due to friction between them. Maximum static friction on 2 kg block = μ_s m₁g = 0.2 × 2 × 10 = 4 N. This provides maximum acceleration a_max = 4/2 = 2 m/s² for the top block. For the system (5 kg) to accelerate at 2 m/s², net force = 5 × 2 = 10 N. Friction with table = μ_s_table × total weight = 0.3 × 50 = 15 N. Applied force F must overcome table friction and provide net force: F - 15 = 10 → F = 25 N. If the student gets 15 N, they forgot the force needed to accelerate the system.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since kinetic friction is constant, a block sliding down a rough inclined plane at constant velocity has μ_k = tanθ.\" Evaluate this claim and correct it if necessary.",
+     "a": "The claim is correct. For constant velocity, net force is zero: mg sinθ = f_k = μ_k N = μ_k mg cosθ → μ_k = tanθ. This is a valid method to measure μ_k experimentally. If the student says it's wrong because \"μ_s = tanθ for impending motion\", they confuse the static and kinetic cases; the same mathematical relation holds for kinetic friction when velocity is constant (zero acceleration).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone, a wooden plank, and a block to determine both μ_s and μ_k for the block-plank interface. Describe the procedure and the measurements needed.",
+     "a": "Place the block on the plank. Slowly raise one end of the plank (measure angle θ with smartphone inclinometer). The angle θ_s at which the block just starts to slide gives μ_s = tanθ_s. To find μ_k, give the block a gentle push at a fixed angle θ < θ_s and measure its acceleration a using the phone's accelerometer or video analysis. Then μ_k = tanθ - a/(g cosθ). Alternatively, set θ slightly above θ_s and measure constant velocity condition. A poor answer would omit the need for acceleration measurement or confuse the two angles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

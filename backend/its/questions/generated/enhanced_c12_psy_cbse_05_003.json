@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_003",
+   "title": "c12_psy_cbse_05_003",
+   "questions": [
+    {
+     "q": "Name the three broad groups of psychotherapies classified in the NCERT textbook and state the chronological order in which they emerged historically.",
+     "a": "The three broad groups are psychodynamic, behavioural, and existential (humanistic-existential) therapies. Chronologically: psychodynamic emerged first, followed by behavioural therapy, and existential therapies emerged last (called the \"third force\"). A wrong answer (e.g., listing CBT as a separate broad group, or reversing the order) reveals the student has not internalised the historical-developmental framework that structures the chapter's classification.",
+     "self_check": true
+    },
+    {
+     "q": "A client seeks therapy for social anxiety. The therapist focuses on \"faulty conditioning patterns\" and \"maladaptive thought patterns\" acquired through learning. Which classification does this therapist follow, and which parameter (1-6) directly supports your answer?",
+     "a": "This therapist follows behavioural therapy. Parameter 1 (cause of the problem) directly supports this: behavioural therapies view psychological problems as arising from \"faulty learning of behaviours and cognitions.\" A wrong answer (e.g., psychodynamic) reveals the student confuses \"intrapsychic conflicts from childhood\" (psychodynamic parameter 1) with \"faulty learning/conditioning\" (behavioural parameter 1) — a critical distinction because it determines the entire treatment logic.",
+     "self_check": true
+    },
+    {
+     "q": "A 25-year-old client reports persistent emptiness and questions \"What is the point of my life?\" The therapist provides a warm, non-judgmental space where the client explores these feelings without interpretation or direction. Identify the therapy classification and explain how parameters 3 (method) and 4 (relationship) differ from psychodynamic therapy.",
+     "a": "This is existential/humanistic therapy. Parameter 3: method is providing a \"positive, accepting, non-judgmental environment\" where the client finds solutions through personal growth (vs. psychodynamic's free association/dream interpretation with therapist interpretation). Parameter 4: therapist is a facilitator; client explores problems herself (vs. psychodynamic's therapist interpreting conflicts for the client). A wrong answer reveals the student cannot distinguish non-directive facilitation (existential) from interpretive authority (psychodynamic).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"chief benefit to the client\" (parameter 5) across all three therapy classifications. Why does psychodynamic therapy emphasise \"emotional insight\" while behavioural therapy emphasises \"changing faulty behaviour patterns\"?",
+     "a": "Psychodynamic: emotional insight (intellectual understanding + emotional acceptance + changed emotions toward conflicts). Behavioural: replacing maladaptive behaviours/thoughts with adaptive ones. Existential: personal growth (increasing self-understanding, aspirations, emotions, motives). The difference stems from parameter 1: psychodynamic sees root cause as unconscious conflicts requiring emotional resolution; behavioural sees root cause as learned patterns requiring re-learning. A wrong answer (e.g., saying both aim for \"insight\") reveals failure to link parameter 5 back to parameter 1's causal theory.",
+     "self_check": true
+    },
+    {
+     "q": "A therapist claims: \"My approach combines the best of all three — I explore childhood conflicts, use relaxation techniques, and help clients find meaning.\" Evaluate this claim using the classification framework. Is this an accurate description of an existing therapy or a category error?",
+     "a": "This describes Cognitive Behaviour Therapy (CBT), which integrates cognitive and behavioural techniques (not psychodynamic or existential). It is a category error to claim it \"combines all three\" because: (a) CBT explicitly rejects psychodynamic's unconscious conflict focus (parameter 1), (b) CBT is directive/structured (parameter 4), unlike existential's non-directive facilitation, and (c) CBT's chief benefit is symptom reduction via cognitive restructuring + behavioural change, not emotional insight or personal growth. The claim reveals a common student error: conflating \"eclectic practice\" with the theoretical classification framework.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief case vignette (3-4 sentences) for a client with depression that would be conceptualised DIFFERENTLY by each of the three therapy classifications. For each, state the presumed cause (parameter 1) in one sentence.",
+     "a": "Vignette: \"Arjun, 22, feels hopeless, sleeps excessively, and believes 'nothing I do matters' after failing his engineering entrance exam twice.\" Psychodynamic cause: unresolved childhood grief/loss reactivated by current failure, creating intrapsychic conflict. Behavioural cause: learned helplessness from repeated failure experiences + negatively reinforced withdrawal behaviours. Existential cause: confrontation with meaninglessness and blocked self-actualisation after perceived life-path collapse. A poor answer uses the same cause for all three or describes symptoms instead of causes, revealing the student hasn't grasped that classification is defined by causal theory, not symptom presentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

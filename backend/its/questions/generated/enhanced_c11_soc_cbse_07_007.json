@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_007",
+   "title": "c11_soc_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define 'contestation' as used in sociology and give one example each of cultural contestation and political contestation from contemporary India.",
+     "a": "Contestation is broad, insistent disagreement with prevailing social norms, not limited to competition or conflict. Cultural example: LGBTQ+ pride parades challenging heteronormative public space norms. Political example: Farmers' 2020-21 protest against three farm laws through sustained sit-ins and tractor rallies. A wrong answer (e.g., \"contestation means fighting\") reveals confusion with 'conflict' — contestation includes non-violent dissent, symbolic resistance, and institutional channels like elections, not just confrontation.",
+     "self_check": true
+    },
+    {
+     "q": "\"Mahatma Gandhi's Dandi March (1930) was a crime but not a violation of social order.\" Explain this paradox using the sociological distinction between crime and contestation.",
+     "a": "Gandhi deliberately broke the British salt law (making salt from seawater), which legally constituted a crime — an act violating existing law. However, sociologically it was *contestation*: a morally grounded challenge to an unjust colonial law, claiming higher legitimacy through civil disobedience. The paradox resolves because 'crime' is a legal category (law-breaking), while 'contestation' is a sociological category (norm-challenging with moral claim). A wrong answer (\"Gandhi wasn't a criminal\") misses that sociology *acknowledges* the legal crime while analyzing its *social meaning* as legitimate contestation against illegitimate authority.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat imposes a social boycott on a Dalit family for entering a temple. The family files an FIR under the Protection of Civil Rights Act. Analyze this situation using: (a) contestation, (b) crime, (c) violence, (d) state's monopoly on legitimate violence.",
+     "a": "(a) The Dalit family's temple entry is contestation — challenging the caste norm of untouchability. (b) The panchayat's boycott is a crime under PCR Act (untouchability offence) and also violence (social/economic coercion). (c) The boycott constitutes structural violence — harm through institutionalised power, not physical force. (d) The FIR invokes the state's monopoly: only police/courts can legitimately sanction the panchayat; the family cannot retaliate with counter-violence. A wrong answer focusing only on physical assault misses that sociology defines violence broadly — structural/symbolic violence (boycott) also challenges social order and state authority.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how 'gated communities' in Indian cities and 'dominant caste' control in villages both maintain social order through exclusion. Use the concepts of authority, legitimation, and space.",
+     "a": "Gated communities use *formal authority* (private security, resident welfare associations) backed by property law to exclude 'undesirables' — legitimation comes from legal ownership and middle-class norms of safety. Dominant castes use *traditional authority* (caste hierarchy, economic control over land/labour) to exclude lower castes from temples, wells, public paths — legitimation comes from religious tradition and numerical dominance. Both control *space* to enforce social order: gated communities privatize urban space; dominant castes monopolize village commons. A wrong answer treating them as \"same thing\" misses the *source of legitimation* (legal-rational vs. traditional) and *spatial logic* (privatization vs. hierarchical zoning).",
+     "self_check": true
+    },
+    {
+     "q": "\"Urban slums are 'natural breeding grounds for dadas and criminal gangs' (NCERT). Evaluate this statement: Does it explain the *cause* of crime or describe a *structural condition*? What sociological concepts does it ignore?\"",
+     "a": "The statement describes a *structural condition* (absence of settled property rights, state neglect, spatial marginalization) not the *cause* of crime. It ignores: (1) *Structural violence* — state failure to provide housing/sanitation creates the condition; (2) *Legitimation crisis* — residents turn to 'dadas' because formal law is inaccessible/unresponsive; (3) *Social disorganisation theory* (Shaw & McKay) — crime emerges from weakened informal control, not inherent criminality. A wrong answer agreeing (\"slums produce criminals\") commits *ecological fallacy* — confusing correlation with causation and blaming victims of structural exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to study how 'digital contestation' (e.g., hashtag activism, online petitions) differs from traditional street protest in challenging social order. Specify the concepts you would operationalize.",
+     "a": "Research question: \"How does the spatial-temporal compression of digital platforms alter the legitimation strategies of contestation compared to embodied street protests in India 2015-2025?\" Operationalize: (1) *Contestation form* — hashtag campaigns (#MeTooIndia, #FarmersProtest) vs. physical sit-ins; (2) *Legitimation claim* — constitutional rights discourse vs. moral authority of bodies on ground; (3) *State response* — IT Act Section 69A takedowns vs. Section 144 CrPC/protest policing; (4) *Social order impact* — policy change vs. narrative shift. A poor question (\"Does Twitter activism work?\") lacks conceptual precision — doesn't distinguish *contestation* from *mobilization*, *legitimation* from *visibility*, or *order* from *opinion*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

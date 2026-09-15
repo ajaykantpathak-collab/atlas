@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_008",
+   "title": "c10_math_cbse_05_008",
+   "questions": [
+    {
+     "q": "Write the sum of the first n terms of an AP with first term a and common difference d in expanded form (showing the first three terms and the last term) and then write the same sum in reverse order.",
+     "a": "Forward: S_n = a + (a+d) + (a+2d) + ... + [a+(n-1)d]. Reverse: S_n = [a+(n-1)d] + [a+(n-2)d] + ... + a. A wrong answer (e.g., writing the last term as a+nd or missing the first term in reverse) reveals the student does not correctly identify the nth term as a+(n-1)d or confuses the number of terms.",
+     "self_check": true
+    },
+    {
+     "q": "When adding the forward and reverse sums term by term, why does each pair sum to the same value 2a + (n-1)d? Explain using the terms from the two expansions.",
+     "a": "The kth term from the forward sum is a+(k-1)d. The kth term from the reverse sum is a+(n-k)d. Their sum is 2a + (n-1)d, independent of k. A wrong answer (e.g., saying it sums to 2a+nd or depending on k) reveals the student cannot see the cancellation of (k-1)d and (n-k)d to give (n-1)d.",
+     "self_check": true
+    },
+    {
+     "q": "Derive the formula for S_n by adding the forward and reverse sums for an AP with a = 7, d = 4, and n = 6. Show all steps and find S_6.",
+     "a": "Forward: S_6 = 7 + 11 + 15 + 19 + 23 + 27. Reverse: S_6 = 27 + 23 + 19 + 15 + 11 + 7. Adding: 2S_6 = 34 + 34 + 34 + 34 + 34 + 34 = 6 × 34 = 204. So S_6 = 102. A wrong answer (e.g., getting 34 for the pair sum but multiplying by 5 instead of 6, or miscalculating 2a+(n-1)d = 14+20=34) reveals computational errors or miscounting the number of terms.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the sum of an AP as S_n = n/2[2a + nd]. Identify the error by comparing with the correct derivation and give the correct formula.",
+     "a": "The error is using nd instead of (n-1)d. In the derivation, the last term is a+(n-1)d, so the pair sum is 2a+(n-1)d. The correct formula is S_n = n/2[2a + (n-1)d]. A wrong answer (e.g., saying the formula is correct or pointing to a different error) reveals the student does not track the index of the last term correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following derivation step is valid: \"2S_n = n × [a + (a+(n-1)d)] because there are n terms each summing to a + l.\" Justify your answer.",
+     "a": "Yes, it is valid. The forward sum has n terms, the reverse sum has n terms. Adding them gives n pairs, each summing to first term + last term = a + [a+(n-1)d] = 2a+(n-1)d. A wrong answer (e.g., saying there are n-1 pairs or the sum is a + (a+nd)) reveals confusion about the number of pairs or the expression for the last term.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the derivation method (forward-reverse pairing) is used to find the sum without directly using the formula S_n = n/2[2a+(n-1)d]. Provide the problem and the solution steps.",
+     "a": "Problem: A gardener plants 12 rose bushes in the first row, 15 in the second, 18 in the third, and so on, for 8 rows. Find the total number of bushes using the pairing method. Solution: Forward: 12+15+18+...+33. Reverse: 33+30+27+...+12. Each pair sums to 45. 8 pairs give 2S = 8×45 = 360, so S = 180. A poor answer (e.g., directly plugging into the formula without showing pairing, or getting the last term wrong as 36) reveals the student cannot apply the derivation logic independently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

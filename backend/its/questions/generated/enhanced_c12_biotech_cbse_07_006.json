@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_006",
+   "title": "c12_biotech_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define androgenesis in the context of plant tissue culture and state the ploidy level of the plants produced directly from anther culture before any chromosome doubling treatment.",
+     "a": "Androgenesis is the in vitro development of haploid plants from male gametophytic cells (microspores or immature pollen) without fertilization. Plants regenerated directly from anther culture are haploid (n), containing a single set of chromosomes. A wrong answer (e.g., \"diploid\" or \"polyploid\") reveals the student confuses the somatic tissue origin (anther wall is diploid) with the actual responsive cells (microspores are haploid). They may also confuse androgenesis with somatic embryogenesis from diploid explants.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In anther culture, any anther from a flowering plant can produce haploids because all anthers contain microspores.\" Explain why this statement is incorrect by identifying the TWO most critical developmental criteria for the donor anther and the microspore stage.",
+     "a": "The statement is incorrect because: (1) The donor plant must be at the correct developmental stage — typically the uninucleate microspore stage (late uninucleate to early binucleate), which corresponds to a specific anther size/flower bud length that varies by species. (2) The genotype of the donor plant strongly determines androgenic response; many cultivars are recalcitrant. A wrong answer indicates the student thinks mere presence of microspores is sufficient, ignoring the narrow developmental window and genotype dependency that are the primary reasons for protocol failure in competitive exams and real labs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pretreatment protocol for wheat anthers to maximize androgenic response. Specify: (a) the pretreatment type, (b) temperature and duration, (c) the physiological basis for why this pretreatment works, and (d) one consequence of skipping this step.",
+     "a": "(a) Cold pretreatment. (b) 4°C for 2-4 weeks (species-dependent). (c) Cold stress alters gene expression, suppresses pollen-specific developmental pathways, and induces sporophytic (embryogenic) division in microspores by modulating hormone balance and stress-responsive genes. (d) Without pretreatment, microspores follow their default gametophytic pathway, undergo pollen mitosis, and produce mature pollen grains instead of embryogenic structures, yielding zero haploid embryos. A wrong answer (e.g., heat shock for wheat, or no pretreatment) reveals ignorance of species-specific pretreatment optimization — a classic board exam trap where students memorize \"cold for wheat, heat for rice\" without understanding the physiological basis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare direct embryogenesis vs callus-mediated regeneration in anther culture. Which pathway is preferred for doubled haploid breeding programs and why? Include the risk of somaclonal variation in your analysis.",
+     "a": "Direct embryogenesis: microspores → embryo → plantlet without callus phase. Callus-mediated: microspores → callus → embryo/organ → plantlet. Direct embryogenesis is preferred for doubled haploid breeding because it minimizes somaclonal variation (genetic/epigenetic changes from prolonged callus culture), ensuring the doubled haploid is a true genetic copy of the original microspore's meiotic product. Callus-mediated regeneration introduces unwanted variability, complicating selection of stable lines. A wrong answer (e.g., \"callus is better because it gives more plants\") shows the student prioritizes quantity over genetic fidelity — a critical error in breeding applications where uniformity is paramount.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Colchicine treatment of haploid plants always produces completely homozygous doubled haploids suitable for immediate release as pure-line cultivars.\" Identify THREE biological or technical reasons why this may not hold true.",
+     "a": "The statement is false because: (1) Colchicine doubling is often incomplete, producing chimeric plants with mixed haploid/diploid sectors, requiring selfing to stabilize. (2) Spontaneous chromosome doubling can occur during culture, but may not be genome-wide, leading to aneuploids. (3) The original microspore may carry chromosomal aberrations from meiosis (e.g., nondisjunction) or culture-induced mutations, so the doubled haploid is not necessarily a perfect homozygous replica. A wrong answer reveals the student treats chromosome doubling as a perfect, deterministic step, ignoring the cytogenetic realities that competitive exams (NEET/JEE) frequently test via \"which is NOT true\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart decision-tree for a breeder deciding between anther culture and isolated microspore culture for a new Brassica napus (rapeseed) breeding program. Include decision nodes for: genotype responsiveness, facility/expertise availability, somaclonal variation tolerance, and throughput needs.",
+     "a": "Expected flowchart: START → Is genotype responsive to anther culture? (YES → Anther culture: lower cost, simpler, but higher somatic callus risk from anther wall; NO → Try isolated microspore culture) → Is high-throughput needed? (YES → Isolated microspore preferred for automation; NO → Anther culture acceptable) → Is somaclonal variation unacceptable? (YES → Isolated microspore with direct embryogenesis media; NO → Either) → Facility check: Has laminar flow, inverted microscope, micromanipulator? (YES → Isolated microspore; NO → Anther culture). A poor answer lists steps without decision logic, showing inability to integrate technical constraints with biological principles — a key competency for CUET/NEET case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

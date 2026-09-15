@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "India's Long Road to Independence",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.202.2.1",
+   "title": "The Indian National Congress and the National Movement",
+   "section": "2",
+   "definition": "The Indian National Congress, founded in Bombay in 1885, became the main platform of the freedom struggle, moving from early moderate petitions to mass agitation as leaders and people joined hands against colonial rule.",
+   "formula": "-",
+   "key_idea": "From petition to protest: the Congress turned elite demands into a people's movement.",
+   "textbook_ref": "hees202.txt lines 58-100 (Indian National Congress in Bombay), 452-520 (rise of the national movement)",
+   "question_patterns": [
+    "when and where was the Indian National Congress founded",
+    "how did the aims of the Congress change over time",
+    "distinguish moderates and extremists in the national movement",
+    "what role did the Congress play in the freedom struggle",
+    "name the early leaders of the Indian National Congress",
+    "why is 1885 a landmark year in Indian history"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the founding",
+     "explain": "Educated Indians met at Bombay in 1885 to form the Congress."},
+    {"step": 2, "action": "follow the change of tone",
+     "explain": "Moderate prayer-and-petition politics gave way to swadeshi and mass mobilisation."},
+    {"step": 3, "action": "see the mass base",
+     "explain": "Peasants, workers and women joined, making independence a national demand."}
+   ]
+  },
+  {
+   "id": "hees.202.2.2",
+   "title": "Purna Swaraj and the Mass Movements",
+   "section": "2",
+   "definition": "The demand crystallised as Purna Swaraj - complete independence - proclaimed in 1929-30; Gandhian movements of non-cooperation and civil disobedience, salt marches and boycotts drew millions into open defiance of British rule.",
+   "formula": "-",
+   "key_idea": "Purna Swaraj turned the goal from dominion status to complete independence, fought with non-violent mass action.",
+   "textbook_ref": "hees202.txt lines 95-150 (Purna Swaraj), 35-60 (Surat, moderates), 149-165 (navy mutiny)",
+   "question_patterns": [
+    "what is meant by Purna Swaraj",
+    "when and where was the Purna Swaraj resolution passed",
+    "describe the salt satyagraha and its importance",
+    "what methods did Gandhiji use in the freedom struggle",
+    "how did ordinary people participate in civil disobedience",
+    "what was the impact of the naval mutiny of 1946"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "declare the goal",
+     "explain": "The Lahore session of 1929 resolved that Purna Swaraj was the only aim."},
+    {"step": 2, "action": "mobilise the people",
+     "explain": "Salt law breaking, boycotts and non-cooperation brought the masses to the streets."},
+    {"step": 3, "action": "shake the empire",
+     "explain": "Repression failed; mutinies like the Royal Indian Navy rising showed the empire losing loyalty."}
+   ]
+  },
+  {
+   "id": "hees.202.2.3",
+   "title": "Revolutionaries, Azad Hind and the Armed Challenge",
+   "section": "2",
+   "definition": "Alongside non-violence ran the armed stream - revolutionaries who fought and sacrificed - and Subhas Chandra Bose's Azad Hind movement, which proclaimed a provisional government and led the Indian National Army against the British during the Second World War.",
+   "formula": "-",
+   "key_idea": "From underground revolutionaries to the Azad Hind Fauj, armed resistance complemented the mass movement.",
+   "textbook_ref": "hees202.txt lines 149-220 (navy mutiny, Azad Hind proclaimed, royal proclamation)",
+   "question_patterns": [
+    "who proclaimed Azad Hind and when",
+    "what was the Indian National Army",
+    "name two revolutionary freedom fighters and their actions",
+    "how did Subhas Chandra Bose challenge the British",
+    "what was the significance of the Royal Indian Navy mutiny",
+    "compare the armed and non-violent streams of the freedom struggle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the revolutionaries",
+     "explain": "Young militants resorted to arms against colonial officials and symbols."},
+    {"step": 2, "action": "follow Bose",
+     "explain": "Azad Hind government and the INA carried the fight to India's eastern frontier."},
+    {"step": 3, "action": "read the effect",
+     "explain": "INA trials and mutinies stirred even the armed forces against the Raj."}
+   ]
+  },
+  {
+   "id": "hees.202.2.4",
+   "title": "Social Reform and the Awakening: Roy, Bankim and Syed Ahmad Khan",
+   "section": "2",
+   "definition": "The nineteenth-century awakening ran through reformers - Raja Ram Mohan Roy against sati and for modern education, Bankim Chandra Chattopadhyay whose Vande Mataram stirred patriotism from the 1860s-70s, and Syed Ahmad Khan promoting education among Muslims - alongside movements like the Arya Samaj.",
+   "formula": "-",
+   "key_idea": "Reformers fought social evils and spread education, preparing the soil of nationalism.",
+   "textbook_ref": "hees202.txt lines 301-350 (Bankim Chandra, Syed Ahmad Khan, Raja Ram Mohan Roy, Arya Samaj)",
+   "question_patterns": [
+    "what reforms did Raja Ram Mohan Roy champion",
+    "how did Vande Mataram inspire nationalists",
+    "what was the contribution of Syed Ahmad Khan",
+    "what were the aims of the Arya Samaj",
+    "how did social reform movements prepare the ground for independence",
+    "name two nineteenth century reformers and their work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the reformers",
+     "explain": "Roy fought social evils; Bankim's song lit patriotic feeling; Syed Ahmad urged education."},
+    {"step": 2, "action": "note the movements",
+     "explain": "Brahmo Samaj and Arya Samaj attacked superstition and caste rigidity."},
+    {"step": 3, "action": "link to nationalism",
+     "explain": "Reform created pride, unity and modern ideas that fed the freedom struggle."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hees202.txt movement sections",
+   "questions": [
+     "Trace the rise of the Indian National Congress from 1885.",
+     "Explain the significance of the Purna Swaraj declaration.",
+     "Describe the role of the Azad Hind Fauj in the freedom struggle."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hees202.txt reform sections",
+   "questions": [
+     "Write short notes on Raja Ram Mohan Roy and the Arya Samaj.",
+     "How did literature like Vande Mataram inspire the national movement?"
+   ]
+  }
+ ]
+}

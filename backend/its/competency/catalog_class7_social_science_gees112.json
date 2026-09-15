@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 12,
+ "chapter_title": "Understanding Markets",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.12.1",
+   "title": "Understanding Markets",
+   "section": "Introduction",
+   "definition": "A market is any arrangement where buyers and sellers meet to exchange goods and services at agreed prices; Adam Smith saw prosperity flow from markets, since people can obtain what they cannot make themselves.",
+   "formula": "",
+   "key_idea": "Markets turn strangers into partners: price and exchange let each person's skill serve everyone.",
+   "textbook_ref": "gees112.txt, Introduction",
+   "question_patterns": [
+    "what is a market and why do markets matter",
+    "what did adam smith say about markets",
+    "who are buyers and sellers in a market",
+    "how does a price get decided in a market",
+    "name the markets your family visits in a month",
+    "why can we not produce everything we need ourselves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.12.2",
+   "title": "Many Kinds of Markets",
+   "section": "Types of markets",
+   "definition": "Markets come in many shapes: weekly haats, neighbourhood kirana shops, malls, online platforms, and wholesale mandis; each differs in scale, goods and the distance between producer and buyer.",
+   "formula": "",
+   "key_idea": "Same work, many forms: every kind of market matches buyers and sellers in its own way.",
+   "textbook_ref": "gees112.txt, Types of markets",
+   "question_patterns": [
+    "name the different kinds of markets you know",
+    "how is a weekly market different from a mall",
+    "what are the advantages of neighbourhood shops",
+    "how does online shopping work as a market",
+    "what is a wholesale market and who buys there",
+    "compare prices in a weekly market and a mall"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees.12.3",
+   "title": "The Chain of Markets",
+   "section": "Chain of markets",
+   "definition": "Goods travel through a chain of markets: the producer sells to a wholesaler, the wholesaler to retailers, and retailers to consumers, each link adding transport, storage and a margin to the price.",
+   "formula": "final_price = producer_price + costs + margins",
+   "key_idea": "Every hand in the chain earns and adds cost: knowing the chain explains why prices differ from farm-gate rates.",
+   "textbook_ref": "gees112.txt, Chain of markets",
+   "question_patterns": [
+    "trace the chain of markets for a product you use",
+    "what does a wholesaler do",
+    "why is the retail price higher than the producer price",
+    "what services does the chain of markets provide",
+    "who is a retailer and who a consumer",
+    "how can farmers earn more by shortening the chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.12.4",
+   "title": "Being a Smart Consumer",
+   "section": "Consumer awareness",
+   "definition": "Buyers must stay alert: check labels, dates and quality marks, compare prices, and use the BEE star ratings on electronic devices to weigh running cost, not just the sticker price.",
+   "formula": "",
+   "key_idea": "An informed buyer disciplines the market: careful comparison rewards fair sellers and squeezes out poor goods.",
+   "textbook_ref": "gees112.txt, Consumer awareness",
+   "question_patterns": [
+    "why should we check labels before buying",
+    "what does the bee star label on a device mean",
+    "how do we compare two products before buying",
+    "what must a consumer do on receiving a faulty product",
+    "why do shops display maximum retail price",
+    "list five checks a smart buyer makes before purchase"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees112.txt",
+   "concept": "gees.12.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the same soap cost less in a weekly market than in a mall?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare the shops",
+     "explain": "A weekly market is direct selling with little rent, storage or staff."
+    },
+    {
+     "step": 2,
+     "action": "add the costs",
+     "explain": "A mall adds rent, air-conditioning and service, and each cost rides on to the price tag."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees112.txt",
+   "concept": "gees.12.2",
+   "question_type": "verify_property",
+   "question_pattern": "name the kinds of markets described in the chapter.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees112.txt, Let us explore",
+   "questions": [
+    "What did Adam Smith say about markets and prosperity?",
+    "Name the kinds of markets described in the chapter.",
+    "What do the BEE star labels on devices tell you?",
+    "Visit a weekly market and list the goods and sellers you find.",
+    "Trace one product from producer to your home and note each price."
+   ]
+  }
+ ]
+}

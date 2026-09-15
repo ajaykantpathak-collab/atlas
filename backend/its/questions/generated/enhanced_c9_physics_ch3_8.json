@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_8",
+   "title": "c9_physics_ch3_8",
+   "questions": [
+    {
+     "q": "List three distinct advantages and three distinct disadvantages of friction in daily life. For each, name the specific type of friction involved (static, sliding, or rolling).",
+     "a": "Advantages: (1) Walking — static friction between shoe and ground provides forward reaction force (Third Law). (2) Vehicle braking — sliding/kinetic friction between brake pads and disc/drum opposes rotation. (3) Writing — sliding friction between pen tip and paper deposits ink. Disadvantages: (1) Engine overheating — sliding friction in pistons/cylinders dissipates fuel energy as heat. (2) Tyre wear — rolling + sliding friction gradually removes rubber. (3) Machine efficiency loss — sliding friction in bearings converts useful work to heat. A wrong answer (e.g., listing \"friction helps us stop\" without naming sliding friction, or saying \"friction helps us walk\" but calling it rolling friction) reveals the student cannot link the phenomenon to the correct friction type, a key Class 9 board requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Friction is a disadvantage for a car because it slows the car down.\" Explain why this statement is incomplete. Use Newton's Second Law (F_net = ma) and Third Law (action-reaction) to describe two different roles friction plays in a car's motion — one where it is essential for acceleration, and one where it opposes motion.",
+     "a": "The statement is incomplete because friction plays opposite roles at different contact points. At the tyre-road contact (driven wheels), static friction acts forward on the tyre (reaction to tyre pushing backward on road), providing the net force F_net = ma for acceleration — without it, wheels spin (Third Law pair missing). At the brake pads and in engine bearings, kinetic friction acts opposite to motion, reducing net force and dissipating energy. A wrong answer that only mentions \"friction slows the car\" or \"friction helps tyres grip\" without distinguishing the two contact points and the direction of friction forces shows the student treats friction as a single monolithic force rather than multiple interaction forces at different interfaces — a classic Class 9 board error.",
+     "self_check": true
+    },
+    {
+     "q": "A 1200 kg car accelerates from rest to 20 m/s in 10 s on a horizontal road. The engine delivers a constant forward force of 5000 N on the driven wheels. Calculate the average kinetic friction force (including air resistance and bearing friction) opposing the motion. Use g = 10 m/s².",
+     "a": "Step 1: Given: m = 1200 kg, u = 0, v = 20 m/s, t = 10 s, F_engine = 5000 N (forward). Find: F_friction (opposing).  \nStep 2: Acceleration a = (v - u)/t = (20 - 0)/10 = 2 m/s².  \nStep 3: Net force F_net = m × a = 1200 × 2 = 2400 N (forward).  \nStep 4: F_net = F_engine - F_friction → 2400 = 5000 - F_friction → F_friction = 5000 - 2400 = 2600 N.  \nStep 5: Units: kg·m/s² = N. Answer: 2600 N opposing motion.  \nA wrong answer (e.g., 2400 N or 5000 N) reveals the student either equates net force to engine force (ignoring friction) or subtracts incorrectly, showing they cannot apply F_net = ΣF to a system with multiple horizontal forces — a core Class 9 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a block sliding down a rough inclined plane (angle θ = 30°, μ_k = 0.2) with an identical block on a frictionless incline of the same angle. Both start from rest at the same height. Analyze: (a) Which block reaches the bottom first? (b) Which has greater kinetic energy at the bottom? (c) Where did the \"missing\" energy go for the rough incline block? Explain using work-energy concepts and Newton's Second Law.",
+     "a": "(a) Frictionless block reaches bottom first. On rough incline, net force down plane = mg sinθ - μ_k mg cosθ < mg sinθ, so acceleration is smaller (Second Law).  \n(b) Frictionless block has greater kinetic energy at bottom. On rough incline, friction does negative work W_fric = -f_k × d = -μ_k mg cosθ × d, reducing final KE.  \n(c) The \"missing\" energy is dissipated as heat (and sound) at the block-plane interface due to kinetic friction.  \nA wrong answer claiming both reach same speed or same time reveals the student thinks friction doesn't affect acceleration on inclines, or that energy is \"lost\" without identifying heat dissipation — both are board-level misconceptions.",
+     "self_check": true
+    },
+    {
+     "q": "A mechanic recommends replacing a car's brake pads with a harder material that has a lower coefficient of friction (μ = 0.3) compared to the original pads (μ = 0.4), claiming \"harder pads last longer, so they're better.\" Evaluate this claim for safety and stopping distance. Assume normal force on each pad is 4000 N and the car's mass is 1000 kg. Calculate the maximum deceleration for both pad types and comment.",
+     "a": "Original pads: f_max = μN = 0.4 × 4000 = 1600 N per pad. Total friction force (4 pads) = 6400 N. Deceleration a = F/m = 6400/1000 = 6.4 m/s².  \nNew pads: f_max = 0.3 × 4000 = 1200 N per pad. Total = 4800 N. Deceleration = 4.8 m/s².  \nThe claim is unsafe: stopping distance increases by factor (6.4/4.8)² ≈ 1.78 (since v² = u² + 2as, s ∝ 1/a for same u). Harder pads reduce wear (advantage) but critically increase stopping distance (disadvantage).  \nA wrong answer focusing only on pad life without calculating deceleration reveals the student cannot quantify the trade-off between durability and safety — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to demonstrate both an advantage and a disadvantage of friction using only a wooden block, a spring balance, a rough plank, a smooth plank, and a set of weights. Describe the procedure, what you measure, and how each measurement shows one advantage and one disadvantage.",
+     "a": "Procedure: (1) Place block on rough plank. Attach spring balance. Pull horizontally until block just moves. Record maximum reading = static friction limit (advantage: this force prevents unwanted sliding, e.g., furniture staying put). (2) Continue pulling at constant velocity. Record reading = kinetic friction (disadvantage: this force must be continuously overcome, wasting effort). (3) Repeat on smooth plank: lower static limit (disadvantage: block slips easily, e.g., unsafe flooring) and lower kinetic friction (advantage: less effort to keep moving).  \nGood answer identifies both static and kinetic friction roles, links measurements to real examples, and notes the trade-off. A poor answer only measures one friction type or cannot connect the force reading to a real-world advantage/disadvantage, showing lack of application thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

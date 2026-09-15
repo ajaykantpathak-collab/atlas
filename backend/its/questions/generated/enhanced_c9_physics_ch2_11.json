@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_11",
+   "title": "c9_physics_ch2_11",
+   "questions": [
+    {
+     "q": "State the three equations of motion for constant acceleration along a straight line, and write the SI unit of each variable appearing in them.",
+     "a": "The three equations are: (1) v = u + at, (2) s = ut + ½at², (3) v² = u² + 2as. Variables: u = initial velocity (m/s), v = final velocity (m/s), a = acceleration (m/s²), t = time (s), s = displacement (m). A wrong answer (e.g., missing the ½ in the second equation, or writing v = u + a/t) reveals the student has memorised formulas without understanding their structure or the meaning of each term.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes s = vt - ½at² for a problem where a car accelerates from rest. Explain why this equation is not appropriate for that situation, and state which equation should be used instead.",
+     "a": "The equation s = vt - ½at² is derived for constant acceleration but uses final velocity v as a known; it is valid only when v, a, and t are given. For a car starting from rest, u = 0 is known, not v. The correct choice is s = ut + ½at² (which becomes s = ½at²). A wrong answer shows the student does not match the known variables to the equation; they pick an equation that contains the desired unknown but ignores which quantities are actually given.",
+     "self_check": true
+    },
+    {
+     "q": "A scooter starts from rest and accelerates uniformly at 1.5 m/s² for 8.0 s. Calculate (a) the final velocity, (b) the displacement during this time. Show all steps with units.",
+     "a": "(a) v = u + at = 0 + (1.5 m/s²)(8.0 s) = 12 m/s. (b) s = ut + ½at² = 0 + ½(1.5 m/s²)(8.0 s)² = 0.75 × 64 m = 48 m. A wrong answer (e.g., forgetting the ½, or using v = s/t) reveals the student either misremembers the formula or confuses average velocity with instantaneous velocity. Unit analysis: (m/s²)×s² = m, correct.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"A train moving at 20 m/s brakes uniformly and stops in 40 s. Find the acceleration and the stopping distance.\" Student A uses v = u + at to find a, then s = ut + ½at². Student B uses v² = u² + 2as directly. Compare the two approaches: which is more efficient, and under what condition would Student B's method fail?",
+     "a": "Both methods yield the same correct answer if acceleration is constant. Student B's method is more efficient (one step for distance) because it avoids calculating acceleration first. However, Student B's method would fail if the problem asked for acceleration **and** distance, because v² = u² + 2as does not contain time; you would still need another equation to find acceleration. A wrong answer indicates the student does not recognize that equation choice depends on which quantities are known and which are asked.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A ball is thrown vertically upward at 15 m/s. Find maximum height.\" They write: u = 15 m/s, v = 0, a = 9.8 m/s², s = ? using v² = u² + 2as → 0 = 225 + 2(9.8)s → s = -11.5 m. They report height = 11.5 m. Evaluate this solution: is the magnitude correct? Is the sign handling correct? What conceptual error did they make?",
+     "a": "The magnitude 11.5 m is correct, but the sign handling is wrong. The student used a = +9.8 m/s² while taking upward as positive. Acceleration due to gravity is downward, so a = -9.8 m/s². The equation then gives 0 = 225 + 2(-9.8)s → s = +11.5 m (positive upward). The error is treating acceleration as a positive scalar without considering direction. This reveals a common misconception: \"gravity is always +9.8\" instead of \"acceleration due to gravity is -9.8 m/s² if upward is positive.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a toy car on a ramp to verify the equation s = ut + ½at². Describe the measurements you would take, how you would process the data, and what graph you would plot to confirm the quadratic relationship.",
+     "a": "Place the phone at the bottom of the ramp to record a video of the car rolling down. Mark positions every 0.2 s using video analysis (or use a sensor app). Measure displacement s from the start at each time t. Plot s versus t; the curve should be a parabola. To verify the equation, plot s versus t²: if s = ½a t² (since u=0), the graph should be a straight line through origin with slope = ½a. A poor answer would only say \"measure distance and time\" without specifying how to extract the quadratic dependence or how to handle initial velocity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

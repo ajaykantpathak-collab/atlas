@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_010",
+   "title": "c11_acc_cbse_07_010",
+   "questions": [
+    {
+     "q": "State the fundamental difference between a Provision and a Reserve in terms of their effect on the calculation of Net Profit.",
+     "a": "A Provision is a charge against profit (debited to Profit & Loss Account) and must be deducted *before* arriving at Net Profit; a Reserve is an appropriation of profit (debited to Profit & Loss *Appropriation* Account) and is created *after* Net Profit is ascertained. A wrong answer (e.g., \"both reduce net profit\") reveals the student confuses charges vs appropriations — a critical Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A company creates a \"Workmen Compensation Fund\" of ₹2,00,000 by debiting Profit & Loss Appropriation Account. Is this a General Reserve or Specific Reserve? Revenue or Capital Reserve? Justify both classifications.",
+     "a": "It is a **Specific Reserve** (created for a defined purpose: worker compensation claims) and a **Revenue Reserve** (created from revenue profits arising from normal operations, available for dividend if not used). A wrong answer (e.g., \"Capital Reserve because it's a fund\") shows the student misclassifies based on the word \"Fund\" rather than source of profit — a common terminology trap.",
+     "self_check": true
+    },
+    {
+     "q": "Pass the journal entry for transferring ₹5,00,000 from Net Profit to General Reserve. Then, show how this appears in the Balance Sheet if Share Capital is ₹50,00,000 and Profit & Loss Account (Cr.) balance before transfer is ₹8,00,000.",
+     "a": "**Journal:** Profit & Loss Appropriation A/c Dr. 5,00,000 → To General Reserve A/c 5,00,000.  \n**Balance Sheet (Liabilities side):**  \nShare Capital: ₹50,00,000  \nReserves & Surplus: General Reserve ₹5,00,000 + Surplus (P&L) ₹3,00,000 = ₹8,00,000.  \nA wrong entry (e.g., debiting P&L Account instead of Appropriation) or showing Reserve under Current Liabilities reveals the student doesn't grasp the appropriation route or Balance Sheet presentation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (a) Premium on issue of shares ₹10,00,000 transferred to Securities Premium Reserve, and (b) ₹10,00,000 retained from current year's profit to General Reserve. Which is Capital Reserve and which is Revenue Reserve? Explain why the *usage* restrictions differ.",
+     "a": "(a) Securities Premium = **Capital Reserve** (source: capital profit, not from operations; usage restricted by law — e.g., writing off capital losses, bonus shares).  \n(b) General Reserve = **Revenue Reserve** (source: revenue profit from operations; free for any purpose including dividend).  \nA wrong answer (e.g., \"both are reserves so both are revenue\") shows the student ignores the *source of profit* as the classifying criterion — the core of Revenue vs Capital distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"Creating a General Reserve reduces the company's tax liability for the current year.\" Evaluate this statement as True/False with reasoning referencing the Income Tax Act treatment.",
+     "a": "**False.** Reserves are created *after* tax (from Profit After Tax), so they do **not** reduce taxable profit. Only *Provisions* (charges against profit) reduce taxable profit. A student answering \"True\" confuses reserves with provisions — a fundamental error in understanding the tax implication difference highlighted in NCERT Figure 7.4.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company *must* create a Specific Reserve by law, and another where management *chooses* to create a General Reserve. Specify the accounts debited/credited in each case.",
+     "a": "**Mandatory (Legal):** Debenture Redemption Reserve (DRR) under Companies Act — Debit: P&L Appropriation A/c; Credit: DRR A/c.  \n**Discretionary:** General Reserve for future expansion — Debit: P&L Appropriation A/c; Credit: General Reserve A/c.  \nA poor answer (e.g., same accounts for both, or debiting P&L Account) reveals the student misses that *both* use Appropriation Account, but the *compulsion* differs — law vs management discretion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_041",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_041",
+   "title": "c6_math_ch03_041",
+   "questions": [
+    {
+     "q": "In the expression 2/3 + 1/4 × 3/5, which operation should you perform first?",
+     "a": "You must perform the multiplication (1/4 × 3/5) first. A wrong answer here suggests the student is trying to solve the problem strictly from left to right, ignoring the priority order of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we find a common denominator before adding or subtracting fractions like 1/3 and 1/4?",
+     "a": "We need a common denominator because fractions represent shares of different sizes; we can only add them if we express them as the same \"fractional unit\" (the same number of total parts). A wrong answer indicates the student thinks fractions are just numbers to be added like whole numbers (e.g., adding numerators and denominators separately).",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: 1/2 + (1/3 × 1/2). Show your steps.",
+     "a": "Step 1: Multiply 1/3 × 1/2 = 1/6. Step 2: Find common denominator for 1/2 and 1/6, which is 6. Step 3: Convert 1/2 to 3/6. Step 4: Add 3/6 + 1/6 = 4/6. Step 5: Simplify to 2/3. A wrong answer suggests a failure in either the order of operations or the process of finding equivalent fractions.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 1/2 of a cake and you subtract 1/3 of the total, why can't you just subtract 3 from 2?",
+     "a": "Subtracting 3 from 2 ignores the fact that the fractions represent different sizes of pieces; 1/2 is 3/6 and 1/3 is 2/6. A wrong answer reveals a deep-seated misunderstanding that fractions are just pairs of whole numbers rather than parts of a whole.",
+     "self_check": true
+    },
+    {
+     "q": "Is it easier to solve (1/2 + 1/4) × 1/3 or (1/2) + (1/4 × 1/3)? Which one results in a larger value?",
+     "a": "(1/2 + 1/4) × 1/3 = 1/4. (1/2) + (1/4 × 1/3) = 7/12. Since 7/12 is larger, the second expression is larger. A wrong answer suggests the student struggles to apply parentheses to change the priority of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multi-step problem using the fractions 1/5 and 2/3 that results in an answer greater than 1.",
+     "a": "An example would be (2/3 × 2) + 1/5. A poor answer indicates an inability to combine operations to reach a specific goal, showing a lack of fluency with fractional values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

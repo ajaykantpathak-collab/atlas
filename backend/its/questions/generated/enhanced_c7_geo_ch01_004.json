@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_004",
+   "title": "c7_geo_ch01_004",
+   "questions": [
+    {
+     "q": "What is the primary tectonic process responsible for the formation of the Himalayan mountain range along India's northern boundary?",
+     "a": "The Himalayas were formed by the collision of the Indian tectonic plate with the Eurasian tectonic plate, which folded and lifted up sedimentary rock from the ancient Tethys Sea. A student who answers that they were formed by volcanic eruptions or river erosion is confusing fold mountains with volcanic or plateau landforms, missing the core concept of plate tectonics.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the three parallel ranges of the Himalayas (Himadri, Himachal, and Shivaliks) experience drastically different climate and vegetation types as you move from north to south?",
+     "a": "The variation is due to differences in altitude (lapse rate) and latitude. The northernmost Himadri is permanently snow-bound and barren, the middle Himachal has temperate forests and hill stations, and the southernmost Shivaliks are lower foothills with dense subtropical forests. A student who thinks all three ranges have the same climate ignores the crucial principle that temperature drops sharply as elevation increases.",
+     "self_check": true
+    },
+    {
+     "q": "If a mountaineer starts from the foothills in the Shivalik range (altitude ~800 meters) and climbs up to the Greater Himalayas or Himadri (altitude ~6,000 meters), approximately how much will the ambient temperature drop, assuming a normal lapse rate of roughly 6.5°C per 1,000 meters?",
+     "a": "Step 1: Identify the starting elevation (800 m) and ending elevation (6,000 m).\nStep 2: Calculate the total elevation gain: $6000\\text{ m} - 800\\text{ m} = 5,200\\text{ m}$.\nStep 3: Apply the lapse rate formula: $\\text{Temperature Drop} = \\frac{5200}{1000} \\times 6.5^\\circ\\text{C} = 5.2 \\times 6.5 = 33.8^\\circ\\text{C}$.\nStep 4: Conclude that the temperature drops by about 33.8°C.\nA student who simply subtracts the altitudes without dividing by 1,000 or applying the lapse rate shows a lack of understanding of how altitude affects temperature gradients.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the orientation and sheer height of the Himalayan mountain range directly affect the rainfall pattern of the Northern Plains of India during the summer monsoon.",
+     "a": "The Himalayas act as an impenetrable physical barrier that blocks moisture-laden south-west monsoon winds from crossing over into Central Asia, forcing them to drop heavy orographic rainfall across the Northern Plains and foothills. A student who believes rainfall in the plains is caused entirely by local evaporation misses the critical orographic lifting mechanism driven by the northern mountain boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that removing the Himalayan mountain range through hypothetical erosion would benefit agriculture in northern India by making the region flatter and easier to travel across.",
+     "a": "This argument is false and ecologically disastrous. Without the Himalayas, the monsoon winds would pass straight through to Central Asia, turning northern India into a dry desert, while the perennial rivers fed by Himalayan glaciers would dry up into seasonal streams, destroying agriculture. A student who thinks flatness is the only requirement for good farming overlooks the vital role of mountains in water storage and climate regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field expedition plan for studying the ecological transition from the Shivalik range to the Himadri range, listing the key vegetation and climate changes you would record at three different altitude checkpoints.",
+     "a": "A successful plan must set three altitude zones: Checkpoint 1 (Shivaliks, ~1,000m) recording subtropical deciduous forests and warm weather; Checkpoint 2 (Himachal, ~3,000m) recording temperate pine/conifer forests and cooler weather; Checkpoint 3 (Himadri, ~5,000m+) recording alpine tundra, bare rock, and permanent snow/glaciers. A poor answer lists random animals or plants without linking them to altitude zones or climatic shifts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

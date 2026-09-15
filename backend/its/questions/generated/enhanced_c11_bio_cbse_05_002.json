@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_002",
+   "title": "c11_bio_cbse_05_002",
+   "questions": [
+    {
+     "q": "A student pulls out a grass plant and a young neem sapling. She says, \"Both have roots underground and stems above ground.\" Identify the error in her statement and name the correct stem type for grass.",
+     "a": "Error: Grass (a monocot) has a highly reduced, often underground stem (rhizome or stolon) — the visible green blades are leaves, not the main stem. The main stem in grass is typically a rhizome (underground stem) or a short aerial stem at ground level. Correct stem type: Grass typically possesses a **rhizome** (underground stem) or **stolon** (subaerial stem) as its main stem. A wrong answer reveals the student confuses \"green photosynthetic structure\" with \"stem\" and does not apply the nodal criterion (nodes/internodes/buds) to identify stem identity.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a potato tuber classified as a stem modification and not a root modification, even though both grow underground and store food?",
+     "a": "Potato tuber bears **nodes (eyes) with axillary buds and scale leaves**, lacks a root cap and root hairs, and originates from the tip of a stolon (a stem branch). Roots lack nodes, buds, and scale leaves, and possess a root cap. A wrong answer (e.g., \"because it stores starch\") shows the student relies on function/storage rather than structural criteria (nodes, buds, origin from plumule) to distinguish stem from root.",
+     "self_check": true
+    },
+    {
+     "q": "A plant in your school garden has weak, long stems that run horizontally on the soil surface. At every second node, it produces a tuft of roots downward and a rosette of leaves upward. When the internode breaks, each segment grows into an independent plant. Identify the stem modification and explain how it aids the plant.",
+     "a": "This is a **stolon** (a subaerial stem modification). The horizontal stem (stolon) grows aerially for a distance, then arches down to touch soil; at the contact node, adventitious roots and a leaf rosette form a new daughter plant. Fragmentation of internodes allows vegetative propagation and rapid clonal spread. A wrong answer (e.g., \"runner\" or \"offset\") reveals confusion between subaerial types: runners have longer internodes and form roots at every node (e.g., *Oxalis*), while stolons (e.g., *Mentha*, *Jasmine*) root at alternate nodes; offsets are short, thick, and found in aquatic plants (e.g., *Eichhornia*).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the adaptive significance of phylloclade in *Opuntia* and cladode in *Asparagus*. Both are flattened, green, photosynthetic stem modifications — what key structural difference alters their ecological role?",
+     "a": "**Phylloclade** (*Opuntia*): The entire stem is flattened and fleshy, performing photosynthesis **and** water storage; true leaves are reduced to spines (reducing transpiration) — adaptation to **xeric (arid) environments**. **Cladode** (*Asparagus*): Only one internode becomes flattened and leaf-like for photosynthesis; true leaves are reduced to scales; the main stem is woody and non-photosynthetic — adaptation to **mesic/shaded understory** where light capture is limiting but water is adequate. A wrong answer that treats them as identical ignores the difference in water-storage capacity and the degree of leaf reduction, missing the link to habitat-specific selection pressures.",
+     "self_check": true
+    },
+    {
+     "q": "A botanist claims: \"Bulbils in *Agave* and *Dioscorea* are homologous structures because both are modified vegetative buds that detach and grow into new plants.\" Evaluate this claim.",
+     "a": "The claim is **partially correct but imprecise**. Both are indeed **modified vegetative buds (axillary buds)** that function in vegetative propagation — so they are **analogous in function**. However, *Agave* bulbils develop from **floral buds in the inflorescence** (reproductive axis modification), while *Dioscorea* bulbils develop from **axillary buds on the aerial stem** (vegetative axis modification). They are **not homologous as structures** because they originate from different meristematic contexts (floral vs. vegetative). A wrong answer that calls them fully homologous reveals a misunderstanding of homology (common ancestry/origin) vs. analogy (common function).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation to distinguish between a rhizome and a stolon in two unknown grass species growing in your locality. List the steps and the deciding criterion.",
+     "a": "**Steps:** (1) Locate the main horizontal stem of each species. (2) Observe its position relative to soil surface: completely buried (rhizome) vs. running on surface/above ground (stolon). (3) Check internode length: short/thick (rhizome) vs. long/slender (stolon). (4) Note rooting pattern: roots at **every node** (stolon) vs. roots at **lower nodes only** (rhizome). (5) Check for scale leaves at nodes: both have them. **Deciding criterion:** Position (underground vs. aerial) and rooting at every node (stolon) vs. sporadic rooting (rhizome). A poor answer that only uses \"underground vs. above ground\" misses that some rhizomes (e.g., *Cynodon*) can emerge aerially, and the nodal rooting pattern is more reliable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

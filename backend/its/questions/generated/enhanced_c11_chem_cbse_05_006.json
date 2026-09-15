@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_006",
+   "title": "c11_chem_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the ideal gas equation and define each variable with its SI unit. Why is the gas constant R called \"universal\"?",
+     "a": "PV = nRT where P = pressure (Pa), V = volume (m³), n = amount of substance (mol), T = temperature (K), R = 8.314 J·K⁻¹·mol⁻¹. R is universal because it has the same value for all ideal gases regardless of chemical identity. A wrong answer (e.g., giving R = 0.0821 without units, or stating R changes for different gases) reveals confusion between numerical value and physical constant, or between ideal and real gas behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"At STP, 1 mole of any gas occupies 22.4 L. Therefore, at 273 K and 1 bar, 1 mole occupies 22.4 L.\" Identify the error and calculate the correct molar volume at 1 bar and 273 K.",
+     "a": "STP in IUPAC is 1 bar (not 1 atm) and 273.15 K. At 1 atm, Vₘ = 22.4 L; at 1 bar, Vₘ = (0.08314 L·bar·K⁻¹·mol⁻¹ × 273.15 K) / 1 bar = 22.71 L. The error is using the old 1 atm definition. A student who gives 22.4 L at 1 bar has not updated to current IUPAC standards and confuses the two pressure conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pressure exerted by 0.50 g of nitrogen gas (N₂) confined in a 250 mL vessel at 300 K. Use R = 0.0821 L·atm·K⁻¹·mol⁻¹.",
+     "a": "Step 1: n = mass / M = 0.50 g / 28 g·mol⁻¹ = 0.01786 mol. Step 2: V = 250 mL = 0.250 L. Step 3: P = nRT/V = (0.01786 mol × 0.0821 L·atm·K⁻¹·mol⁻¹ × 300 K) / 0.250 L = 1.76 atm. Wrong answers typically arise from: forgetting to convert mL to L (gives 0.00176 atm), using molar mass of N instead of N₂ (gives 3.52 atm), or using R = 8.314 with L·atm units (unit mismatch).",
+     "self_check": true
+    },
+    {
+     "q": "A gas occupies 500 mL at 27°C and 1.2 atm. If the gas is transferred to a 1.0 L vessel at 127°C, what is the new pressure? Which variables are constant and which change?",
+     "a": "Constant: n (amount of gas). Changing: P, V, T. Use combined gas law: P₁V₁/T₁ = P₂V₂/T₂. T₁ = 300 K, T₂ = 400 K. P₂ = P₁(V₁/V₂)(T₂/T₁) = 1.2 atm × (500/1000) × (400/300) = 0.80 atm. A wrong answer (e.g., 1.2 atm or 2.4 atm) reveals failure to identify constant n, incorrect temperature conversion to Kelvin, or misapplication of direct/inverse proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction 2KClO₃(s) → 2KCl(s) + 3O₂(g), a student heats 4.90 g of KClO₃ and collects oxygen over water at 300 K and 0.95 atm total pressure. The vapour pressure of water at 300 K is 0.031 atm. The student calculates n(O₂) = 0.060 mol using P = 0.95 atm. Evaluate this calculation.",
+     "a": "The calculation is incorrect. The student must use dry gas pressure: P(O₂) = P_total − P_H₂O = 0.95 − 0.031 = 0.919 atm. Moles KClO₃ = 4.90/122.5 = 0.040 mol → n(O₂) = (3/2)×0.040 = 0.060 mol (stoichiometry correct). But using PV = nRT with P = 0.95 atm overestimates volume or underestimates n. This error reveals ignorance of Dalton's law of partial pressures (node c11_chem_cbse_05_007) when collecting gases over water.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine the molar mass of a volatile liquid using the ideal gas equation. List measurements needed, the equation rearranged for M, and two assumptions made.",
+     "a": "Method: Vaporise known mass (m) of liquid in a flask of known volume (V) at known temperature (T) and pressure (P). Measure: m, V, T, P. Rearrange: M = mRT/PV. Assumptions: (1) Vapour behaves ideally (low P, high T), (2) No liquid remains (complete vaporisation), (3) Flask volume equals vapour volume. A poor answer omits vapour pressure correction, uses mass of liquid instead of vapour, or assumes STP without measuring T and P.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

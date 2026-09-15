@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_001",
+   "title": "c11_biotech_cbse_06_001",
+   "questions": [
+    {
+     "q": "State any four characteristics of garden pea (*Pisum sativum*) that made it an ideal model organism for Mendel's inheritance experiments.",
+     "a": "Correct answer: (1) Annual plant — completes life cycle in one season, allowing multiple generations per year. (2) Perfect bisexual flowers — enables both self-pollination (for pure lines) and controlled cross-pollination. (3) Naturally self-pollinating — flowers are cleistogamous, so pure lines can be maintained easily without isolation. (4) Several distinct, easily observable contrasting traits (e.g., round vs wrinkled seeds, tall vs dwarf stem) — allows clear phenotypic scoring. (5) Produces many seeds per cross — provides large sample sizes for statistical reliability. A wrong answer that lists vague reasons like \"easy to grow\" or \"common plant\" reveals the student has memorized \"pea plant\" without understanding the specific biological features that reduce experimental noise and enable quantitative analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Mendel spent two years developing pure lines (true-breeding varieties) before starting his actual hybridization experiments. What problem would arise if he had used plants from a natural population directly?",
+     "a": "Correct answer: Natural populations are genetically heterozygous for many traits; crossing them would produce progeny with mixed genotypes, making it impossible to track the inheritance of a single trait because multiple traits would segregate simultaneously. Pure lines (homozygous for the trait of interest) ensure that any variation in the offspring comes only from the controlled cross, not from hidden parental heterozygosity. A wrong answer like \"to make the plants healthy\" or \"to get more seeds\" shows the student confuses agricultural practice with genetic experimental design — they miss the core concept of controlling genetic background to isolate single-trait inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "Mendel used a small brush to transfer pollen from the anther of one plant to the stigma of another. Suppose he had simply planted seeds from a field where tall and dwarf peas grew together and relied on natural pollination. Identify two specific ways this would compromise his data, and explain how his brush method solved each.",
+     "a": "Correct answer: (1) Natural pollination in a mixed field would allow uncontrolled crosses (tall × tall, tall × dwarf, dwarf × dwarf, plus insect-mediated crosses) — the brush method enforces a single, known parental combination per experiment. (2) Pea flowers are cleistogamous (self-pollinate before opening); without emasculation and manual transfer, the female parent would mostly self-fertilize, contaminating the cross with self-progeny — Mendel removed anthers before maturity (emasculation) and then applied foreign pollen, guaranteeing the cross genotype. A wrong answer that only says \"natural pollination is random\" without specifying self-contamination and multiple cross types shows incomplete understanding of the specific biological constraints Mendel overcame.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mendel's approach of counting progeny phenotypes and calculating ratios with the qualitative \"like begets like\" observations of earlier breeders. Why was the quantitative approach essential for discovering the 3:1 and 9:3:3:1 ratios?",
+     "a": "Correct answer: Qualitative observations only note that traits reappear; they cannot reveal the *predictable numerical proportions* that indicate discrete particulate inheritance (genes/alleles). Mendel's large sample sizes (e.g., 7,324 seeds in one monohybrid cross) allowed the law of large numbers to smooth out random sampling fluctuations, making the underlying 3:1 ratio statistically visible. Earlier breeders used small numbers and descriptive records, so segregation ratios were masked by chance variation. A wrong answer that says \"Mendel used math\" without linking sample size to statistical reliability and the particulate nature of inheritance misses the conceptual bridge between counting and the gene concept.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Mendel could have used any flowering plant; he just got lucky with peas.\" Evaluate this claim by analyzing whether the same experimental logic would work with (a) maize (monoecious, separate male/female flowers) and (b) humans (long generation time, few offspring, ethical constraints). Justify your evaluation.",
+     "a": "Correct evaluation: The claim is false. Mendel's logic *required* a specific combination of features: (a) Maize has separate male (tassel) and female (ear) flowers, making controlled crosses easier in some ways, but it is wind-pollinated and produces massive pollen — contamination control is harder than with pea's cleistogamous flowers. Still, maize *was* later used successfully by geneticists (e.g., Barbara McClintock) because it meets key criteria (annual, many seeds, distinct traits). (b) Humans fail critically: generation time ~20 years (vs. pea's 1 year), few offspring per mating (vs. hundreds of seeds), and inability to perform controlled crosses. The quantitative, multi-generational design would be impossible. A poor evaluation that says \"maize works, humans don't\" without contrasting specific biological constraints (pollination biology, generation time, sample size, ethical control) shows superficial understanding of *why* each feature mattered for Mendel's specific method.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern classroom experiment that mimics Mendel's choice-of-organism reasoning. Choose a readily available organism (plant or animal), list the criteria you would use to evaluate its suitability, and create a decision table scoring it against each criterion. Explain which organism you would select and why.",
+     "a": "Expected answer: The student should propose an organism (e.g., *Arabidopsis thaliana*, fruit fly *Drosophila melanogaster*, or fast-cycling brassica), define 4–5 criteria (generation time, ease of culture, distinct heritable traits, fecundity, ability to control mating), score each criterion (e.g., 1–5 scale), and justify the final choice. A strong answer will explicitly link each criterion to a limitation in Mendel's pea system (e.g., *Arabidopsis* has a 6-week generation time vs. pea's 1 year; *Drosophila* allows easy crosses but requires handling tiny flies). A poor answer picks an organism without a decision table, uses vague criteria (\"cool to watch\"), or fails to connect the criteria to the *logic* of isolating single-trait inheritance — indicating they treat the topic as trivia rather than experimental design reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

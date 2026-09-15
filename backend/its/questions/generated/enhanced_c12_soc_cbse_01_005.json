@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_005",
+   "title": "c12_soc_cbse_01_005",
+   "questions": [
+    {
+     "q": "What is the fundamental epistemological difference between Indology and Social Anthropology in their approach to studying Indian society?",
+     "a": "Indology relies on textual analysis of classical scriptures (Vedas, Smritis, Dharmashastras) to reconstruct an idealized, pan-Indian civilizational structure, treating texts as authoritative representations of social reality. Social Anthropology relies on long-term ethnographic fieldwork (participant observation) in specific villages or tribes to document actual lived practices, treating texts as native interpretations rather than objective facts. A wrong answer that says \"both study Indian culture\" reveals the student cannot distinguish between book-view (textual) and field-view (empirical) epistemologies — a confusion that leads to conflating Ghurye's textual caste criteria with Srinivas's field-based concept of dominant caste.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how Edward Said's concept of \"Orientalism\" applies to the colonial construction of the Indian village as a \"self-sufficient, unchanging republic.\"",
+     "a": "Said's Orientalism argues that Western scholarship produced a systematic discourse representing the \"Orient\" as timeless, passive, and essentially different from the dynamic West to justify colonial rule. The \"unchanging village republic\" trope — found in Charles Metcalfe's 1830 report and Henry Maine's legal theory — served this function: it portrayed Indian society as static and therefore in need of British \"improvement,\" while erasing historical evidence of village mobility, market integration, and political resistance. A wrong answer that merely defines Orientalism as \"Western study of the East\" misses the power/knowledge nexus — the student fails to see that concepts like \"village republic\" were not neutral descriptions but political tools, a confusion that undermines critical analysis of colonial archives in later nodes.",
+     "self_check": true
+    },
+    {
+     "q": "G.S. Ghurye defined caste using six textual features from classical Hindu law books. M.N. Srinivas, studying Rampura village, found that the locally dominant caste (Okkaligas) did not match the textual varna hierarchy. How would each scholar explain this discrepancy, and what does it reveal about their respective intellectual traditions?",
+     "a": "Ghurye (Indological tradition) would treat the textual varna scheme as the normative ideal and dismiss the village reality as a \"distortion\" or \"degeneration\" from the pure model — his method privileges the book-view as the true structure. Srinivas (Social Anthropology tradition) would treat the village reality as the empirical fact and develop concepts like \"dominant caste\" and \"Sanskritisation\" to explain how local power configurations relate to, but are not determined by, textual norms — his method privileges the field-view as the site where social structure is actually enacted. A wrong answer that says \"both are right in their own way\" evades the epistemological conflict: the student fails to grasp that Ghurye and Srinivas represent opposing solutions to the book-view vs. field-view tension that defines Indian sociology's intellectual history.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the methodological assumptions of Louis Dumont's \"Homo Hierarchicus\" (Indological-structuralist) and André Béteille's \"The Backward Classes and the New Social Order\" (fieldwork-based class analysis). What does their disagreement reveal about the limits of each intellectual tradition?",
+     "a": "Dumont, working in the Indological-structuralist tradition, treats caste as a religious-ideological system (hierarchy/purity-pollution) derived from textual principles, arguing that economic/political dimensions are encompassed by the religious logic — his method assumes a coherent, pan-Indian cognitive structure. Béteille, working in the Social Anthropology tradition with extensive fieldwork in Tanjore, demonstrates that caste, class, and power are empirically distinct dimensions that can diverge — his method assumes social reality is fragmented, context-dependent, and must be mapped through comparative village studies. Their disagreement reveals that Indology tends toward ahistorical structural homogeneity, while Social Anthropology risks empirical particularism without a unifying framework. A wrong answer that merely lists their books shows the student cannot analyze methodological trade-offs — a skill needed for evaluating competing theories in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"Indian sociology is essentially applied Indology because its founding figures (Ghurye, Srinivas, Dumont) all relied on Sanskritic textual categories like varna, jati, and dharma as their primary analytical tools.\"",
+     "a": "The claim is partially true for Ghurye (who explicitly used textual criteria) and Dumont (who built a structuralist model on textual ideology), but false for Srinivas and later sociologists like A.R. Desai (Marxist) or D.P. Mukerji (who emphasized \"living tradition\" over texts). Srinivas's concepts of \"dominant caste\" and \"Sanskritisation\" emerged from fieldwork and explain mobility *within* the textual framework, not from it. Moreover, the claim ignores the \"colonial archive\" critique: even when Indian sociologists used textual categories, they often did so to challenge colonial Orientalist distortions (e.g., Ghurye debunking Risley's racial theory of caste using the same texts). A nuanced evaluation must distinguish between *uncritical borrowing* of textual categories and *strategic deployment* of indigenous categories for anti-colonial or analytical purposes. A wrong answer that simply agrees or disagrees reveals binary thinking — the student cannot hold the tension between continuity and rupture in intellectual traditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a village study that would simultaneously engage Indological, Orientalist, and Social Anthropological perspectives. Explain how each perspective would shape the hypothesis, method, and expected findings.",
+     "a": "Research question: \"How do Dalit communities in a North Indian village reinterpret the textual concept of 'purity-pollution' (Indological category) to resist both the colonial-era land revenue categories (Orientalist administrative legacy) and the dominant caste's current economic power (anthropological field reality)?\"\n\n- Indological perspective: Hypothesis = textual norms provide the symbolic grammar of resistance; Method = textual analysis of Dalit reinterpretation of Dharmashastra verses; Findings = identification of counter-narratives in oral traditions.\n- Orientalist perspective: Hypothesis = colonial land records (e.g., \"caste-wise\" tenure categories) fossilized fluid identities; Method = archival research on settlement reports; Findings = demonstration of how administrative categories became social realities.\n- Social Anthropological perspective: Hypothesis = everyday resistance operates through material practices (land occupation, labor withdrawal) not just discourse; Method = 18-month participant observation; Findings = ethnography of covert resistance invisible in texts and records.\n\nA poor answer that merely lists three separate questions shows the student cannot integrate perspectives into a single analytical framework — a higher-order skill required for research design in competitive exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

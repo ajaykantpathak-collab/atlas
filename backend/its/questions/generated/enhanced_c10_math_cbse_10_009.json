@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_009",
+   "title": "c10_math_cbse_10_009",
+   "questions": [
+    {
+     "q": "A triangle PQR circumscribes a circle with centre O. The circle touches sides QR, RP, PQ at points X, Y, Z respectively. If PX = 4 cm, QY = 5 cm, and RZ = 6 cm, what is the perimeter of triangle PQR?",
+     "a": "The perimeter is 30 cm. From the equal-tangent property: PX = PZ = 4 cm, QY = QX = 5 cm, RZ = RY = 6 cm. Then PQ = PZ + QZ = 4 + 5 = 9 cm, QR = QX + RX = 5 + 6 = 11 cm, RP = RY + PY = 6 + 4 = 10 cm. Perimeter = 9 + 11 + 10 = 30 cm. A wrong answer (e.g., 15 cm) reveals the student added only the three given tangent lengths instead of doubling them, misunderstanding that each given length is only half of a side.",
+     "self_check": true
+    },
+    {
+     "q": "In a quadrilateral ABCD circumscribing a circle, the sides touch the circle at points P, Q, R, S on AB, BC, CD, DA respectively. A student writes: AB + BC = CD + DA. Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. The correct condition for a quadrilateral to circumscribe a circle is AB + CD = BC + DA (sum of opposite sides are equal). The student has paired adjacent sides instead of opposite sides. This reveals the misconception that any pairing of sides works, rather than specifically opposite sides. The correct pairing comes from adding tangent segments: AB = AP + PB, BC = BQ + QC, CD = CR + RD, DA = DS + SA, and using AP = AS, PB = BQ, QC = CR, RD = DS gives AB + CD = AP + PB + CR + RD = AS + BQ + QC + DS = BC + DA.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle ABC circumscribes a circle of radius 3 cm. The segments BD and DC on side BC (where D is the point of contact) are 6 cm and 8 cm respectively. Find the lengths of sides AB and AC.",
+     "a": "AB = 14 cm, AC = 16 cm. Steps: (1) Let the circle touch AB at E and AC at F. (2) From equal tangents: BE = BD = 6 cm, CD = CF = 8 cm. (3) Let AE = AF = x cm. (4) Then AB = AE + EB = x + 6, AC = AF + FC = x + 8. (5) We need one more relation. The radius is given but not needed for side lengths — the problem has infinite solutions unless more data is given. Wait — the problem as stated is incomplete! Actually, with only BD and DC given, we cannot determine x uniquely. The correct answer: **Cannot be determined uniquely**; x can be any positive number. A student who computes specific numbers (e.g., assumes x = 8 from radius) reveals the misconception that the radius determines tangent lengths, or that BD and DC alone fix the triangle. The radius is a distractor here.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles ABC and DEF both circumscribe the same circle. Triangle ABC has tangent segments from A, B, C of lengths 4 cm, 5 cm, 6 cm respectively. Triangle DEF has tangent segments from D, E, F of lengths 4 cm, 5 cm, 7 cm respectively. Compare the perimeters of the two triangles. Which is larger and by how much?",
+     "a": "Perimeter of ABC = 2(4+5+6) = 30 cm. Perimeter of DEF = 2(4+5+7) = 32 cm. DEF has larger perimeter by 2 cm. The perimeter of a circumscribed triangle is always twice the sum of the three tangent segment lengths from the vertices. A wrong answer (e.g., \"same perimeter because two tangent lengths match\") shows the student does not generalise the perimeter formula P = 2(x + y + z) and instead tries to match sides individually.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Quadrilateral PQRS circumscribes a circle. PQ = 8 cm, QR = 7 cm, RS = 5 cm. Find SP.\" The student writes: SP = PQ + QR - RS = 8 + 7 - 5 = 10 cm. Is the student's method correct? Justify your answer.",
+     "a": "The student's answer (10 cm) is numerically correct but the method is wrong. The correct formula is PQ + RS = QR + SP, so SP = PQ + RS - QR = 8 + 5 - 7 = 6 cm. The student wrote SP = PQ + QR - RS which gives 10 cm — a different number. Wait, let me recalculate: PQ + RS = 8 + 5 = 13, QR + SP = 7 + SP. For equality, SP = 6 cm. The student's formula PQ + QR - RS = 8 + 7 - 5 = 10 cm is incorrect. If the student got 10 cm, they are wrong. If they accidentally wrote the wrong formula but computed correctly for the right formula, they'd get 6 cm. The error reveals confusion about which pairs are opposite sides. In quadrilateral PQRS, opposite sides are PQ & RS, and QR & SP. The student paired PQ with QR (adjacent) instead of PQ with RS (opposite).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem involving a circumscribed quadrilateral where the solver must first prove that a given quadrilateral can circumscribe a circle, then find an unknown side length. Provide the problem statement and the solution outline.",
+     "a": "**Problem:** A farmer has a quadrilateral field ABCD with sides AB = 12 m, BC = 9 m, CD = 7 m. He wants to build a circular water tank that touches all four sides. (a) What must be the length of side DA for this to be possible? (b) If DA = 10 m, can the tank be built? Explain. **Solution outline:** (a) For a circle to be inscribed, AB + CD = BC + DA ⇒ 12 + 7 = 9 + DA ⇒ DA = 10 m. (b) Yes, because 12 + 7 = 9 + 10 = 19, so the condition holds. A good answer shows the condition AB + CD = AD + BC, substitutes correctly, and interprets the result. A poor answer guesses DA or uses triangle perimeter logic, revealing they don't know the quadrilateral circumscription condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

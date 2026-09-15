@@ -1,0 +1,271 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Introduction to Linear Polynomials",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.102.2.1",
+   "title": "Linear Expressions and Their Values",
+   "section": "2.1",
+   "definition": "A linear polynomial in one variable has the form m x + c, where the power of x is at most one; putting any value of x gives the value of the expression, so the expression acts like a machine turning inputs into outputs.",
+   "formula": "value = m * x + c",
+   "key_idea": "One variable, power one: every input x produces one output value.",
+   "textbook_ref": "iemh102.txt sections 2.1-2.2 (introduction to linear polynomials)",
+   "question_patterns": [
+    "find the value of 3x + 5 at x = 2",
+    "evaluate the given linear polynomial at the given value",
+    "what is the degree of the given linear polynomial",
+    "check whether the given expression is a linear polynomial",
+    "find x when the value of the expression is given",
+    "make a table of values for the given linear expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply by the coefficient",
+     "explain": "Scale the input x by m.",
+     "compute": "scaled = m * x"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "Adding c completes the value.",
+     "compute": "value = scaled + c"
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.2.2",
+   "title": "Exploring Linear Patterns",
+   "section": "2.3",
+   "definition": "In a linear pattern successive values grow by one fixed step, so each term equals the previous term plus a constant difference; tables of such patterns show equal gaps, which is the signature of linearity.",
+   "formula": "next_term = term + step",
+   "key_idea": "Equal steps everywhere: constant difference means the pattern is linear.",
+   "textbook_ref": "iemh102.txt section 2.3 (exploring linear patterns)",
+   "question_patterns": [
+    "continue the given linear pattern for three more terms",
+    "find the constant step in the given table of values",
+    "which of the given patterns are linear - justify",
+    "find the missing term of the linear pattern",
+    "write the rule of the given growing pattern",
+    "does the given situation make a linear pattern - explain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the constant step",
+     "explain": "Every next term comes by adding the fixed difference.",
+     "compute": "next_term = term + step"
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.2.3",
+   "title": "Rate of Change in Linear Relations",
+   "section": "2.3",
+   "definition": "A linear relation changes at a constant rate: the change in output divided by the change in input stays the same for any two pairs of values, and this rate decides how steeply the values climb.",
+   "formula": "rate = change_out / change_in",
+   "key_idea": "One rate everywhere: equal input steps give equal output steps.",
+   "textbook_ref": "iemh102.txt sections on linear patterns and their rate of change",
+   "question_patterns": [
+    "find the rate of change from the given two pairs of values",
+    "the cost of x items is given for two quantities - find the rate per item",
+    "does the given relation have a constant rate - justify",
+    "compare the rates of the two given linear relations",
+    "find the output when the input increases by the given amount",
+    "interpret the rate of change in the given situation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the input gap",
+     "explain": "Subtract the two input values.",
+     "compute": "d_in = in2 - in1"
+    },
+    {
+     "step": 2,
+     "action": "divide the output gap",
+     "explain": "Output gap over input gap gives the constant rate.",
+     "compute": "rate = (out2 - out1) / d_in"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh102.txt section 2.1 value examples",
+   "concept": "iemh.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {m}x + {c} at x = {x}.",
+   "extracted_variables": {
+    "m": "coefficient of x",
+    "c": "constant term",
+    "x": "value of the variable"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by the coefficient",
+     "explain": "m times x.",
+     "compute": "scaled = m * x"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "Add c for the value.",
+     "compute": "value = scaled + c"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh102.txt value practice",
+   "concept": "iemh.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Evaluate the linear polynomial {m}x + {c} when x = {x}.",
+   "extracted_variables": {
+    "m": "coefficient of x",
+    "c": "constant",
+    "x": "input value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by the coefficient",
+     "explain": "Scale the input.",
+     "compute": "scaled = m * x"
+    },
+    {
+     "step": 2,
+     "action": "add the constant",
+     "explain": "The sum is the output value.",
+     "compute": "value = scaled + c"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh102.txt section 2.3 pattern practice",
+   "concept": "iemh.102.2.2",
+   "question_type": "compute",
+   "question_pattern": "The pattern grows by a step of {step}. Find the next term after {term}.",
+   "extracted_variables": {
+    "term": "a given term of the pattern",
+    "step": "constant difference of the pattern"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the step",
+     "explain": "Linear patterns grow by the fixed step.",
+     "compute": "next_term = term + step"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh102.txt pattern continuation practice",
+   "concept": "iemh.102.2.2",
+   "question_type": "compute",
+   "question_pattern": "Continue the linear pattern: the term {term} is followed by terms with difference {step}. What is the next-but-one term after adding once?",
+   "extracted_variables": {
+    "term": "known term",
+    "step": "constant difference"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the step once",
+     "explain": "First next term.",
+     "compute": "next_term = term + step"
+    },
+    {
+     "step": 2,
+     "action": "add the step again",
+     "explain": "The next-but-one term follows by one more step.",
+     "compute": "term_next2 = next_term + step"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh102.txt rate of change practice",
+   "concept": "iemh.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "The output is {out1} at input {in1} and {out2} at input {in2}. Find the rate of change.",
+   "extracted_variables": {
+    "in1": "first input value",
+    "in2": "second input value",
+    "out1": "output at first input",
+    "out2": "output at second input"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the input gap",
+     "explain": "Subtract the two inputs.",
+     "compute": "d_in = in2 - in1"
+    },
+    {
+     "step": 2,
+     "action": "divide the output gap",
+     "explain": "Output change over input change.",
+     "compute": "rate = (out2 - out1) / d_in"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iemh102.txt rate comparison practice",
+   "concept": "iemh.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "A plan charges {out1} units at {in1} items and {out2} units at {in2} items. Find the per-item rate.",
+   "extracted_variables": {
+    "in1": "first quantity",
+    "in2": "second quantity",
+    "out1": "total at first quantity",
+    "out2": "total at second quantity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the input gap",
+     "explain": "Difference of the quantities.",
+     "compute": "d_in = in2 - in1"
+    },
+    {
+     "step": 2,
+     "action": "divide the output gap",
+     "explain": "The quotient is the per-item rate.",
+     "compute": "rate = (out2 - out1) / d_in"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iemh102.txt exercises",
+   "questions": [
+    "Find the values of the given linear polynomials at the given points.",
+    "Complete the given table of a linear pattern.",
+    "State which of the given expressions are linear polynomials."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "iemh102.txt pattern exercises",
+   "questions": [
+    "Find the constant rate of change of the given relation.",
+    "Write the rule of the given linear pattern and continue it."
+   ]
+  }
+ ]
+}

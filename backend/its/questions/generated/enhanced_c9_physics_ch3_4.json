@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_4",
+   "title": "c9_physics_ch3_4",
+   "questions": [
+    {
+     "q": "State the mathematical form of Newton's Second Law for a constant mass system and give the SI unit of force with its definition in base units.",
+     "a": "The law is \\( F_{\\text{net}} = m a \\). The SI unit of force is the newton (N), defined as \\( 1 \\text{ N} = 1 \\text{ kg m/s}^2 \\). A wrong answer such as \"F = mv\" or \"unit is kg m/s\" reveals the student confuses force with momentum or does not understand the derived nature of the newton.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"If I push a box with a constant force of 10 N, it will move at a constant speed.\" Explain why this statement is incorrect using Newton's Second Law.",
+     "a": "According to \\( F_{\\text{net}} = m a \\), a constant net force produces a constant acceleration, not constant velocity. Constant velocity occurs only when the net force is zero (balanced forces). If the student's statement were true, a 10 N push on a frictionless surface would cause the box to accelerate continuously. The misconception arises from everyday experience where friction balances the applied force, making net force zero.",
+     "self_check": true
+    },
+    {
+     "q": "A 1200 kg car accelerates from rest to 20 m/s in 10 seconds on a level road. Calculate the average net force acting on the car. (Assume constant acceleration.)",
+     "a": "Given: \\( m = 1200 \\text{ kg} \\), \\( u = 0 \\text{ m/s} \\), \\( v = 20 \\text{ m/s} \\), \\( t = 10 \\text{ s} \\).\nStep 1: Find acceleration: \\( a = \\frac{v-u}{t} = \\frac{20-0}{10} = 2 \\text{ m/s}^2 \\).\nStep 2: Apply \\( F = m a \\): \\( F = 1200 \\times 2 = 2400 \\text{ N} \\).\nAnswer: 2400 N in the direction of motion.\nA wrong answer of 24000 N suggests the student used \\( v \\) instead of \\( a \\) (i.e., \\( F = m v \\)), a common confusion between velocity and acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical boxes are pushed across a frictionless floor. Box A is pushed with a force of 5 N; Box B is pushed with a force of 15 N. Compare their accelerations and the distances they travel in the first 4 seconds starting from rest.",
+     "a": "Since masses are identical, acceleration is directly proportional to net force: \\( a_B = 3 a_A \\). Using \\( s = ut + \\frac{1}{2}at^2 \\) with \\( u=0 \\), distance is proportional to acceleration. Thus Box B travels three times the distance of Box A in the same time. A wrong answer claiming equal distances reveals the student thinks force affects only final speed, not acceleration and displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 5 kg object experiences a net force of 20 N. Find its acceleration.\" The student writes: \\( a = \\frac{F}{m} = \\frac{20}{5} = 4 \\text{ m/s} \\). Evaluate the student's answer and identify the error.",
+     "a": "The numerical value 4 is correct, but the unit is wrong: acceleration must be in \\( \\text{m/s}^2 \\), not \\( \\text{m/s} \\). The student omitted the square on the time unit, indicating a lack of unit analysis. The correct answer is \\( 4 \\text{ m/s}^2 \\). This error often propagates into subsequent calculations involving kinematics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a toy car, a spring balance, and a ticker-timer (or smartphone video analysis) to verify that acceleration is directly proportional to net force for a constant mass. List the variables you would control, measure, and plot.",
+     "a": "Control: mass of the car (keep constant). Independent variable: applied force (vary using spring balance by stretching different amounts). Dependent variable: acceleration (measure from ticker-tape dots or video analysis). Plot force (y-axis) vs acceleration (x-axis); a straight line through origin confirms \\( F \\propto a \\). A poor answer that does not mention controlling mass or measuring acceleration shows the student does not understand experimental design for proportionality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

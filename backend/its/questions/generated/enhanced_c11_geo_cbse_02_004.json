@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_004",
+   "title": "c11_geo_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the approximate age of the solar system and name the two primary processes that caused the solar nebula to flatten into a protoplanetary disk.",
+     "a": "The solar system is ~4.6 billion years old. The nebula flattened due to (1) gravitational collapse pulling material inward and (2) conservation of angular momentum forcing rotation to speed up and flatten the cloud into a disk. A wrong answer (e.g., \"centrifugal force flung material outward\" or \"magnetic fields flattened it\") reveals confusion between cause (gravity + angular momentum) and effect (flattening), or misattribution to non-dominant forces.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the inner planets (Mercury, Venus, Earth, Mars) are rocky and dense while the outer planets (Jupiter, Saturn, Uranus, Neptune) are gas/ice giants, using the concept of the frost line.",
+     "a": "Inside the frost line (~2.7 AU from the young Sun), temperatures were too high for volatile compounds (water, methane, ammonia) to condense; only refractory metals and silicates solidified, forming small rocky planetesimals. Beyond the frost line, ices condensed, providing vastly more solid material to build massive cores that gravitationally captured H/He gas. A wrong answer (e.g., \"the Sun blew gas outward\" or \"inner planets lost their gas later\") indicates misunderstanding of condensation sequence versus atmospheric escape — the composition difference is primordial, not evolutionary.",
+     "self_check": true
+    },
+    {
+     "q": "A protoplanetary disk has a surface density profile Σ(r) = 1700 (r/1 AU)⁻¹·⁵ kg/m². Calculate the total mass of solids available between 0.5 AU and 1.5 AU (inside the frost line) if the dust-to-gas ratio is 1:100. Show steps.",
+     "a": "Step 1: Dust surface density Σ_dust = Σ_gas / 100 = 17 (r/1 AU)⁻¹·⁵ kg/m².  \nStep 2: Mass in annulus dM = Σ_dust × 2πr dr.  \nStep 3: Integrate from r₁=0.5 AU to r₂=1.5 AU: M = ∫ 17 (r)⁻¹·⁵ × 2πr dr = 34π ∫ r⁻⁰·⁵ dr.  \nStep 4: ∫ r⁻⁰·⁵ dr = 2 r⁰·⁵. Evaluate: 2(√1.5 - √0.5) = 2(1.225 - 0.707) = 1.036 AU⁰·⁵.  \nStep 5: Convert AU to meters: 1 AU = 1.496×10¹¹ m → AU⁰·⁵ = (1.496×10¹¹)⁰·⁵ = 3.868×10⁵ m⁰·⁵.  \nStep 6: M = 34π × 1.036 × 3.868×10⁵ ≈ 4.34×10⁷ kg.  \nA wrong answer (e.g., forgetting the 1:100 ratio, integrating Σ_gas directly, or missing the 2πr area factor) reveals inability to translate surface density to mass or confusion between gas and solid reservoirs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the angular momentum distribution in the solar system: the Sun has 99.8% of the mass but only ~0.5% of the angular momentum. Analyse two mechanisms proposed to explain this discrepancy and evaluate which is more consistent with observations of T Tauri stars.",
+     "a": "Mechanism 1: Magnetic braking — the young Sun's strong magnetic field coupled with the ionized disk, transferring angular momentum outward via Alfvén waves. Mechanism 2: Viscous spreading — disk viscosity transports angular momentum outward, allowing mass to accrete inward. Observations of T Tauri stars show strong magnetic fields, stellar winds, and disk locking periods matching magnetic braking predictions. Viscous timescales are too long. A wrong answer (e.g., \"planets stole the angular momentum\" or \"the Sun spun down by itself\") ignores the need for an external torque and misattributes the reservoir — the disk, not the planets, held the angular momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The nebular hypothesis cannot explain why Venus and Uranus have retrograde rotations; therefore, the solar system must have formed by a close stellar encounter (Chamberlain-Moulton hypothesis).\"",
+     "a": "The critique: Retrograde rotations are explained within the nebular hypothesis by late-stage giant impacts (stochastic accretion), not by the initial disk dynamics. Chamberlain-Moulton's tidal encounter model fails because (a) stellar encounters are extremely rare in the galactic disk, (b) it cannot produce the observed coplanar, low-eccentricity orbits, and (c) it predicts planets would be hot and gaseous, not differentiated. The nebular hypothesis remains the only model consistent with exoplanet demographics (coplanar systems are common). A poor answer accepts the false dichotomy or ignores exoplanet evidence, showing inability to evaluate theories against multiple constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual model (diagram + 150-word explanation) showing how a single molecular cloud fragment produces both a star and a planetary system with a frost line, incorporating: angular momentum conservation, temperature gradient, and planetesimal accretion timescales.",
+     "a": "A good model shows: (1) Spherical cloud → collapsing, spinning faster → flattened disk with central protostar. (2) Temperature profile T ∝ r⁻⁰·⁵ labeled with frost line at ~2.7 AU (150 K). (3) Inside: small rocky planetesimals (fast accretion, <1 Myr). Outside: large icy cores (slow accretion, few Myr) → gas capture. (4) Timescale arrows: dust settling (10³ yr), planetesimals (10⁵ yr), oligarchic growth (10⁶ yr), gas dissipation (10⁷ yr). A poor model omits the temperature gradient, shows planets forming before the star, or uses linear timescales, revealing failure to integrate thermal, dynamical, and chronological constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

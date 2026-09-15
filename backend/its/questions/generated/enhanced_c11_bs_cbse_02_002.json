@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_002",
+   "title": "c11_bs_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the legal statute governing Joint Hindu Family Business and the maximum number of generations that can hold coparcenary rights simultaneously.",
+     "a": "The Joint Hindu Family Business is governed by the Hindu Succession Act, 1956 (as amended in 2005). Coparcenary rights extend to three successive generations (great-grandfather, grandfather, father, son = four persons but three generational links). A wrong answer citing the Indian Partnership Act, 1932 or Companies Act, 2013 reveals confusion between JHF and other forms. Saying \"unlimited generations\" ignores the statutory limit of three generations for coparcenary.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a JHF business, all members including the Karta have limited liability because the business is a separate legal entity.\" Identify the two fundamental errors in this statement and correct them using precise terminology.",
+     "a": "Error 1: JHF business does NOT have a separate legal entity distinct from its members (unlike a company). Error 2: The Karta has UNLIMITED liability; only coparceners have liability limited to their share in ancestral property. A student making this error conflates JHF with a Joint Stock Company (separate entity, limited liability for all). They miss the core distinction: Karta's personal assets are at risk, which is the trade-off for his absolute control.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: The Karta of a JHF business (textile trading) enters into a contract to purchase cotton worth ₹50 lakh on credit without consulting coparceners. The business fails, assets are ₹30 lakh, debts ₹50 lakh. The coparceners refuse to pay the ₹20 lakh shortfall from personal funds. Can the creditor recover the shortfall? From whom? Explain the legal basis.",
+     "a": "Yes, the creditor can recover the full ₹20 lakh shortfall from the Karta's personal assets. The Karta has implied authority to bind the firm for business debts (mutual agency), and his liability is unlimited. Coparceners are NOT personally liable beyond their share in ancestral property. The creditor cannot touch coparceners' personal assets. A wrong answer saying \"creditor can recover from all members equally\" ignores the statutory distinction between Karta's unlimited liability and coparceners' limited liability under Hindu Law.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the continuity of a JHF business with that of a Sole Proprietorship and a Partnership firm. Use the concepts of \"survivorship\", \"separate legal entity\", and \"death of owner/partner\" to explain why JHF continuity is more stable than the other two but less stable than a Company.",
+     "a": "JHF continuity relies on survivorship: death of Karta passes leadership to next eldest coparcener automatically; business continues without fresh agreement. Sole Proprietorship ends on owner's death (no separate entity, no survivorship). Partnership dissolves on partner's death unless reconstituted by new agreement (no automatic survivorship). Company has perpetual succession (separate legal entity, unaffected by members' death). JHF is more stable than proprietorship/partnership due to survivorship but less than company because partition by mutual consent can end JHF, whereas company requires legal winding-up. A poor answer treats JHF continuity as identical to company's perpetual succession, ignoring partition risk.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Hindu Succession (Amendment) Act, 2005 made daughters coparceners by birth, but it did not change the rule that only the eldest male can become Karta.\" Is this statement true or false? Justify with the amended legal position.",
+     "a": "False. The 2005 Amendment explicitly states: \"The eldest member (male or female) of the Joint Hindu Family shall become Karta.\" Daughters are now coparceners by birth with equal rights, and the eldest coparcener (regardless of gender) becomes Karta. A student answering \"True\" relies on the pre-2005 position where only males were coparceners and only eldest male could be Karta. This misconception persists because many textbooks and teachers haven't updated from the old \"eldest male\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a JHF business would be the MOST suitable form over Sole Proprietorship, Partnership, and Company for a family wanting to: (a) preserve ancestral property, (b) ensure quick decisions in volatile commodity trading, (c) limit risk exposure for younger members, and (d) avoid registration costs. Specify the family structure, business type, and how each requirement is met.",
+     "a": "Scenario: A Rajasthani family (grandfather 70, father 45, mother 42, son 20, daughter 18) runs a hereditary gemstone export business using ancestral haveli as office. (a) Ancestral property stays intact as coparcenary property; no partition unless all agree. (b) Grandfather (Karta) takes instant buy/sell decisions in volatile markets without consulting others. (c) Son/daughter liability limited to their share in haveli; personal savings safe. (d) No registration, no deed, no ROC filings. A poor answer suggests Partnership (requires deed, unlimited liability for all) or Company (registration costs, slow board decisions). The key is matching JHF's unique combo: birth-based entry + Karta's speed + coparceners' limited liability + zero formalities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

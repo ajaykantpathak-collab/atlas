@@ -1,0 +1,988 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Continuity and Differentiability",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lemh105.txt",
+ "concepts": [
+  {
+   "id": "lemh.5.2.1",
+   "title": "Continuity of a Function at a Point",
+   "section": "5.2",
+   "definition": "A real-valued function is continuous at a specific point in its domain if the limit of the function as it approaches that point is equal to the function's value at that point.",
+   "formula": "lim_{x -> c} f(x) = f(c)",
+   "key_idea": "The left-hand limit, right-hand limit, and function value must all be equal at the point.",
+   "textbook_ref": "lemh105.txt lines 60-120",
+   "question_patterns": [
+    "Check the continuity of the function f(x) = {expr} at x = {c}",
+    "Is the function continuous at x = {c}?",
+    "Examine whether the function is continuous at {c}",
+    "Determine if the function is continuous at the given point",
+    "Explain the method of Continuity of a Function at a Point."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the value of the function at the point",
+     "explain": "Evaluate the function f(x) at x = c to find f(c)."
+    },
+    {
+     "step": 2,
+     "action": "Find the limit of the function as x approaches the point",
+     "explain": "Calculate the limit of f(x) as x approaches c from both the left and right sides."
+    },
+    {
+     "step": 3,
+     "action": "Compare the limit and the function value",
+     "explain": "If the limit exists and equals f(c), then the function is continuous at c; otherwise, it is discontinuous."
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.2.2",
+   "title": "Finding Unknown Parameters for Continuity",
+   "section": "5.2",
+   "definition": "Determining the value of unknown constants in a piecewise function such that the function is continuous at the boundary points.",
+   "formula": "lim_{x -> c^-} f(x) = lim_{x -> c^+} f(x) = f(c)",
+   "key_idea": "Equate the left-hand limit, right-hand limit, and function value at the transition point to solve for the unknown parameter.",
+   "textbook_ref": "lemh105.txt lines 350-400",
+   "question_patterns": [
+    "Find the value of k so that the function is continuous at x = {c}",
+    "Determine the relationship between a and b for continuity at x = {c}",
+    "Find the values of a and b such that the function is continuous",
+    "For what value of lambda is the function continuous at x = {c}?",
+    "Explain the method of Finding Unknown Parameters for Continuity."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the value of the function or limit from the right at the boundary point",
+     "explain": "Identify the target limit value from the continuous branch of the function.",
+     "compute": "right_val = target_limit"
+    },
+    {
+     "step": 2,
+     "action": "Express the left-hand limit in terms of the coefficient of the variable at the boundary point",
+     "explain": "Square the boundary point value to match the quadratic term coefficient.",
+     "compute": "c_sq = c ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Solve for the unknown constant k",
+     "explain": "Divide the target limit value by the squared boundary point value to find k.",
+     "compute": "k = right_val / c_sq"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Finding Unknown Parameters for Continuity, compute the result for target_limit = 3, c = 3.",
+     "solution": "Step 1: Find the value of the function or limit from the right at the boundary point: right_val = target_limit = 3.0 Step 2: Express the left-hand limit in terms of the coefficient of the variable at the boundary point: c_sq = c ** 2 = 9.0 Step 3: Solve for the unknown constant k: k = right_val / c_sq = 0.333333 Final result: 0.333333",
+     "answer": "0.333333"
+    },
+    {
+     "question": "Using Finding Unknown Parameters for Continuity, compute the result for target_limit = 4, c = 4.",
+     "solution": "Step 1: Find the value of the function or limit from the right at the boundary point: right_val = target_limit = 4.0 Step 2: Express the left-hand limit in terms of the coefficient of the variable at the boundary point: c_sq = c ** 2 = 16.0 Step 3: Solve for the unknown constant k: k = right_val / c_sq = 0.25 Final result: 0.25",
+     "answer": "0.25"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.3.1",
+   "title": "Differentiability at a Point",
+   "section": "5.3",
+   "definition": "A function is differentiable at a point if the limit of the difference quotient exists and is finite, meaning the left-hand and right-hand derivatives are equal.",
+   "formula": "f'(c) = lim_{h -> 0} (f(c+h) - f(c))/h",
+   "key_idea": "The slope of the tangent exists uniquely from both directions.",
+   "textbook_ref": "lemh105.txt lines 440-500",
+   "question_patterns": [
+    "Prove that the function is not differentiable at x = {c}",
+    "Examine the differentiability of the function at x = {c}",
+    "Is the function differentiable at the given point?",
+    "Check if the derivative exists at x = {c}",
+    "Explain the method of Differentiability at a Point."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the left-hand derivative",
+     "explain": "Find the limit of the difference quotient as h approaches 0 from the negative side."
+    },
+    {
+     "step": 2,
+     "action": "Compute the right-hand derivative",
+     "explain": "Find the limit of the difference quotient as h approaches 0 from the positive side."
+    },
+    {
+     "step": 3,
+     "action": "Compare the left-hand and right-hand derivatives",
+     "explain": "If both derivatives are finite and equal, the function is differentiable at c."
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.3.2",
+   "title": "Chain Rule for Composite Functions",
+   "section": "5.3.1",
+   "definition": "A rule to differentiate composite functions by taking the derivative of the outer function with respect to the inner function, multiplied by the derivative of the inner function.",
+   "formula": "dy/dx = (dy/du) * (du/dx)",
+   "key_idea": "Differentiate from the outside in, multiplying the derivatives of each layer.",
+   "textbook_ref": "lemh105.txt lines 510-560",
+   "question_patterns": [
+    "Differentiate {func} with respect to x",
+    "Find the derivative of sin(x^2)",
+    "Compute the derivative of sec(tan(sqrt(x)))",
+    "Find dy/dx for y = {composite_func}",
+    "Explain the method of Chain Rule for Composite Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the inner function",
+     "explain": "Differentiate the inner function u(x) with respect to x.",
+     "compute": "inner_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the derivative of the outer function with respect to the inner function",
+     "explain": "Differentiate the outer function v(u) with respect to u.",
+     "compute": "outer_deriv = cos_val"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the outer derivative by the inner derivative",
+     "explain": "Apply the chain rule by multiplying the two derivatives together.",
+     "compute": "dy_dx = outer_deriv * inner_deriv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Chain Rule for Composite Functions, compute the result for a = 3, cos_val = 3.",
+     "solution": "Step 1: Compute the derivative of the inner function: inner_deriv = a = 3.0 Step 2: Compute the derivative of the outer function with respect to the inner function: outer_deriv = cos_val = 3.0 Step 3: Multiply the outer derivative by the inner derivative: dy_dx = outer_deriv * inner_deriv = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Chain Rule for Composite Functions, compute the result for a = 4, cos_val = 4.",
+     "solution": "Step 1: Compute the derivative of the inner function: inner_deriv = a = 4.0 Step 2: Compute the derivative of the outer function with respect to the inner function: outer_deriv = cos_val = 4.0 Step 3: Multiply the outer derivative by the inner derivative: dy_dx = outer_deriv * inner_deriv = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.3.3",
+   "title": "Derivatives of Implicit Functions",
+   "section": "5.3.2",
+   "definition": "Differentiating an equation containing both independent and dependent variables with respect to the independent variable, then solving for the derivative of the dependent variable.",
+   "formula": "d/dx(f(x, y)) = 0",
+   "key_idea": "Treat y as a function of x and apply the chain rule whenever differentiating terms containing y.",
+   "textbook_ref": "lemh105.txt lines 570-620",
+   "question_patterns": [
+    "Find dy/dx if {equation}",
+    "Differentiate the implicit relation {equation} with respect to x",
+    "Calculate dy/dx for the curve {equation}",
+    "What is the derivative of y with respect to x in {equation}?",
+    "Explain the method of Derivatives of Implicit Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate the x-terms and RHS with respect to x",
+     "explain": "Differentiate all terms not involving dy/dx to find the independent derivative component.",
+     "compute": "diff_x = rhs_deriv - x_coeff_deriv"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the coefficient of dy/dx",
+     "explain": "Isolate dy/dx by dividing the independent terms by the coefficient of dy/dx.",
+     "compute": "dy_dx = diff_x / y_coeff"
+    },
+    {
+     "step": 3,
+     "action": "Report the implicit derivative",
+     "explain": "The resulting dy/dx expresses the rate of change of y with respect to x for the implicit relation.",
+     "compute": "result = dy_dx"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Derivatives of Implicit Functions, compute the result for rhs_deriv = 3, x_coeff_deriv = 3, y_coeff = 3.",
+     "solution": "Step 1: Differentiate the x-terms and RHS with respect to x: diff_x = rhs_deriv - x_coeff_deriv = 0.0 Step 2: Divide by the coefficient of dy/dx: dy_dx = diff_x / y_coeff = 0.0 Step 3: Report the implicit derivative: result = dy_dx = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Derivatives of Implicit Functions, compute the result for rhs_deriv = 4, x_coeff_deriv = 4, y_coeff = 4.",
+     "solution": "Step 1: Differentiate the x-terms and RHS with respect to x: diff_x = rhs_deriv - x_coeff_deriv = 0.0 Step 2: Divide by the coefficient of dy/dx: dy_dx = diff_x / y_coeff = 0.0 Step 3: Report the implicit derivative: result = dy_dx = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.3.4",
+   "title": "Derivatives of Inverse Trigonometric Functions",
+   "section": "5.3.3",
+   "definition": "Standard formulas for the derivatives of inverse trigonometric functions derived using implicit differentiation and trigonometric identities.",
+   "formula": "d/dx(sin^-1(x)) = 1 / sqrt(1 - x^2)",
+   "key_idea": "Relate the derivative of the inverse function to the derivative of the original trigonometric function.",
+   "textbook_ref": "lemh105.txt lines 630-680",
+   "question_patterns": [
+    "Find the derivative of sin^-1(x)",
+    "Differentiate tan^-1(x) with respect to x",
+    "Compute the derivative of cos^-1(x)",
+    "Find dy/dx for y = sec^-1(x)",
+    "Explain the method of Derivatives of Inverse Trigonometric Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the square of x",
+     "explain": "Square the input variable x.",
+     "compute": "x_sq = x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the square of x from 1",
+     "explain": "Find the difference between 1 and the squared value of x.",
+     "compute": "diff = 1 - x_sq"
+    },
+    {
+     "step": 3,
+     "action": "Take the square root of the difference",
+     "explain": "Calculate the square root of the difference term.",
+     "compute": "denom = sqrt(diff)"
+    },
+    {
+     "step": 4,
+     "action": "Take the reciprocal to find the derivative",
+     "explain": "Divide 1 by the square root term to obtain the final derivative value.",
+     "compute": "deriv = 1 / denom"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Derivatives of Inverse Trigonometric Functions, compute the result for x = 0.5.",
+     "solution": "Step 1: Compute the square of x: x_sq = x ** 2 = 0.25 Step 2: Subtract the square of x from 1: diff = 1 - x_sq = 0.75 Step 3: Take the square root of the difference: denom = sqrt(diff) = 0.866025 Step 4: Take the reciprocal to find the derivative: deriv = 1 / denom = 1.154701 Final result: 1.154701",
+     "answer": "1.154701"
+    },
+    {
+     "question": "Using Derivatives of Inverse Trigonometric Functions, compute the result for x = 0.25.",
+     "solution": "Step 1: Compute the square of x: x_sq = x ** 2 = 0.0625 Step 2: Subtract the square of x from 1: diff = 1 - x_sq = 0.9375 Step 3: Take the square root of the difference: denom = sqrt(diff) = 0.968246 Step 4: Take the reciprocal to find the derivative: deriv = 1 / denom = 1.032796 Final result: 1.032796",
+     "answer": "1.032796"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.4.1",
+   "title": "Derivatives of Exponential and Logarithmic Functions",
+   "section": "5.4",
+   "definition": "The derivative of the natural exponential function is itself, and the derivative of the natural logarithmic function is the reciprocal of its argument.",
+   "formula": "d/dx(e^x) = e^x",
+   "key_idea": "These functions have simple, fundamental derivatives that are crucial in calculus.",
+   "textbook_ref": "lemh105.txt lines 780-830",
+   "question_patterns": [
+    "Differentiate e^-x with respect to x",
+    "Find the derivative of log(sin x)",
+    "Calculate dy/dx for y = e^(cos x)",
+    "What is the derivative of log(log x)?",
+    "Explain the method of Derivatives of Exponential and Logarithmic Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the exponent",
+     "explain": "Find the derivative of the exponent function with respect to x.",
+     "compute": "exponent_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the value of the exponential function",
+     "explain": "Evaluate the exponential part of the function.",
+     "compute": "exp_val = e_to_ax"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the exponential function value by the derivative of the exponent",
+     "explain": "Apply the chain rule to find the final derivative.",
+     "compute": "dy_dx = exp_val * exponent_deriv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Derivatives of Exponential and Logarithmic Functions, compute the result for a = 3, e_to_ax = 3.",
+     "solution": "Step 1: Compute the derivative of the exponent: exponent_deriv = a = 3.0 Step 2: Compute the value of the exponential function: exp_val = e_to_ax = 3.0 Step 3: Multiply the exponential function value by the derivative of the exponent: dy_dx = exp_val * exponent_deriv = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Derivatives of Exponential and Logarithmic Functions, compute the result for a = 4, e_to_ax = 4.",
+     "solution": "Step 1: Compute the derivative of the exponent: exponent_deriv = a = 4.0 Step 2: Compute the value of the exponential function: exp_val = e_to_ax = 4.0 Step 3: Multiply the exponential function value by the derivative of the exponent: dy_dx = exp_val * exponent_deriv = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.5.1",
+   "title": "Logarithmic Differentiation",
+   "section": "5.5",
+   "definition": "A method of differentiation where the natural logarithm of both sides of an equation is taken first to simplify products, quotients, or variable exponents before differentiating.",
+   "formula": "d/dx(ln y) = (1/y) * dy/dx",
+   "key_idea": "Convert exponentiation and multiplication into addition and multiplication, making differentiation easier.",
+   "textbook_ref": "lemh105.txt lines 840-900",
+   "question_patterns": [
+    "Differentiate x^sin(x) with respect to x",
+    "Find the derivative of {func_power_func}",
+    "Apply logarithmic differentiation to find dy/dx of {expr}",
+    "Differentiate the function y = (log x)^cos(x)",
+    "Explain the method of Logarithmic Differentiation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the ratio of the exponent to the base variable",
+     "explain": "Find the ratio of the exponent parameter to the base value.",
+     "compute": "ratio = exponent / base_val"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by the function value to get the derivative",
+     "explain": "Multiply the calculated ratio by the function value y to find the derivative.",
+     "compute": "dy_dx = y_val * ratio"
+    },
+    {
+     "step": 3,
+     "action": "Report the logarithmic differentiation result",
+     "explain": "The final dy/dx is the product of the original function and the ratio of exponent to base.",
+     "compute": "result = dy_dx"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Logarithmic Differentiation, compute the result for exponent = 3, base_val = 3, y_val = 3.",
+     "solution": "Step 1: Compute the ratio of the exponent to the base variable: ratio = exponent / base_val = 1.0 Step 2: Multiply the ratio by the function value to get the derivative: dy_dx = y_val * ratio = 3.0 Step 3: Report the logarithmic differentiation result: result = dy_dx = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Logarithmic Differentiation, compute the result for exponent = 4, base_val = 4, y_val = 4.",
+     "solution": "Step 1: Compute the ratio of the exponent to the base variable: ratio = exponent / base_val = 1.0 Step 2: Multiply the ratio by the function value to get the derivative: dy_dx = y_val * ratio = 4.0 Step 3: Report the logarithmic differentiation result: result = dy_dx = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.6.1",
+   "title": "Derivatives of Functions in Parametric Forms",
+   "section": "5.6",
+   "definition": "Finding the derivative of a dependent variable with respect to an independent variable when both are expressed as functions of a third variable (parameter).",
+   "formula": "dy/dx = (dy/dt) / (dx/dt)",
+   "key_idea": "Divide the rate of change of y with respect to the parameter by the rate of change of x with respect to the parameter.",
+   "textbook_ref": "lemh105.txt lines 980-1030",
+   "question_patterns": [
+    "Find dy/dx if x = a cos(theta) and y = a sin(theta)",
+    "Calculate the derivative dy/dx for parametric equations x = {f(t)}, y = {g(t)}",
+    "Find dy/dx in terms of t for x = at^2, y = 2at",
+    "What is the derivative of y with respect to x for the parametric curve?",
+    "Explain the method of Derivatives of Functions in Parametric Forms."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Obtain the derivative of y with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for y with respect to t.",
+     "compute": "y_deriv = dy_dt"
+    },
+    {
+     "step": 2,
+     "action": "Obtain the derivative of x with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for x with respect to t.",
+     "compute": "x_deriv = dx_dt"
+    },
+    {
+     "step": 3,
+     "action": "Divide the y-derivative by the x-derivative",
+     "explain": "Divide dy/dt by dx/dt to find the derivative of y with respect to x.",
+     "compute": "dy_dx = y_deriv / x_deriv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Derivatives of Functions in Parametric Forms, compute the result for dy_dt = 3, dx_dt = 3.",
+     "solution": "Step 1: Obtain the derivative of y with respect to the parameter t: y_deriv = dy_dt = 3.0 Step 2: Obtain the derivative of x with respect to the parameter t: x_deriv = dx_dt = 3.0 Step 3: Divide the y-derivative by the x-derivative: dy_dx = y_deriv / x_deriv = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Derivatives of Functions in Parametric Forms, compute the result for dy_dt = 4, dx_dt = 4.",
+     "solution": "Step 1: Obtain the derivative of y with respect to the parameter t: y_deriv = dy_dt = 4.0 Step 2: Obtain the derivative of x with respect to the parameter t: x_deriv = dx_dt = 4.0 Step 3: Divide the y-derivative by the x-derivative: dy_dx = y_deriv / x_deriv = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.5.7.1",
+   "title": "Second Order Derivative",
+   "section": "5.7",
+   "definition": "The derivative of the first derivative of a function with respect to the independent variable.",
+   "formula": "d^2y/dx^2 = d/dx(dy/dx)",
+   "key_idea": "Differentiate the function twice successively.",
+   "textbook_ref": "lemh105.txt lines 1060-1110",
+   "question_patterns": [
+    "Find the second order derivative of x^3 + tan(x)",
+    "Calculate d^2y/dx^2 for y = {expr}",
+    "Find the second derivative of the function",
+    "Determine y'' for y = {expr}",
+    "Explain the method of Second Order Derivative."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the coefficient of the first derivative",
+     "explain": "Differentiate the function once to find the first derivative coefficient.",
+     "compute": "first_coeff = 2 * a"
+    },
+    {
+     "step": 2,
+     "action": "Find the second derivative",
+     "explain": "Differentiate the first derivative to obtain the second order derivative.",
+     "compute": "d2y_dx2 = first_coeff"
+    },
+    {
+     "step": 3,
+     "action": "Report the second order derivative",
+     "explain": "The value d2y_dx2 gives the rate of change of the first derivative with respect to x.",
+     "compute": "result = d2y_dx2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Second Order Derivative, compute the result for a = 3.",
+     "solution": "Step 1: Compute the coefficient of the first derivative: first_coeff = 2 * a = 6.0 Step 2: Find the second derivative: d2y_dx2 = first_coeff = 6.0 Step 3: Report the second order derivative: result = d2y_dx2 = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Second Order Derivative, compute the result for a = 4.",
+     "solution": "Step 1: Compute the coefficient of the first derivative: first_coeff = 2 * a = 8.0 Step 2: Find the second derivative: d2y_dx2 = first_coeff = 8.0 Step 3: Report the second order derivative: result = d2y_dx2 = 8.0 Final result: 8.0",
+     "answer": "8.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh105.txt lines 110-120",
+   "concept": "lemh.5.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Check the continuity of the function f(x) = 2x + 3 at x = 1",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value of the function at the point",
+     "explain": "Evaluate the function f(x) at x = 1 to find f(1) = 2(1) + 3 = 5."
+    },
+    {
+     "step": 2,
+     "action": "Find the limit of the function as x approaches the point",
+     "explain": "Calculate the limit of f(x) as x approaches 1, which is lim_{x->1} (2x + 3) = 5."
+    },
+    {
+     "step": 3,
+     "action": "Compare the limit and the function value",
+     "explain": "Since the limit as x approaches 1 equals f(1) = 5, the function is continuous at x = 1."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh105.txt lines 550-560",
+   "concept": "lemh.5.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find the derivative of the function given by f(x) = sin(x^2)",
+   "extracted_variables": {
+    "a": "2",
+    "cos_val": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the inner function",
+     "explain": "Differentiate the inner function u(x) = x^2 with respect to x to get 2x.",
+     "compute": "inner_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the derivative of the outer function with respect to the inner function",
+     "explain": "Differentiate the outer function v(u) = sin(u) to get cos(u).",
+     "compute": "outer_deriv = cos_val"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the outer derivative by the inner derivative",
+     "explain": "Apply the chain rule by multiplying the two derivatives together.",
+     "compute": "dy_dx = outer_deriv * inner_deriv"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh105.txt lines 590-605",
+   "concept": "lemh.5.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find dy/dx if x - y = pi",
+   "extracted_variables": {
+    "rhs_deriv": "0",
+    "x_coeff_deriv": "1",
+    "y_coeff": "-1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate the x-terms and RHS with respect to x",
+     "explain": "Differentiate all terms not involving dy/dx to find the independent derivative component.",
+     "compute": "diff_x = rhs_deriv - x_coeff_deriv"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the coefficient of dy/dx",
+     "explain": "Isolate dy/dx by dividing the independent terms by the coefficient of dy/dx.",
+     "compute": "dy_dx = diff_x / y_coeff"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Finding Unknown Parameters for Continuity chain with target_limit = 2, c = 3, right_val = 5, c_sq = 4. What value does it produce?",
+   "extracted_variables": {
+    "target_limit": "2",
+    "c": "3",
+    "right_val": "5",
+    "c_sq": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value of the function or limit from the right at the boundary point",
+     "explain": "Identify the target limit value from the continuous branch of the function.",
+     "compute": "right_val = target_limit"
+    },
+    {
+     "step": 2,
+     "action": "Express the left-hand limit in terms of the coefficient of the variable at the boundary point",
+     "explain": "Square the boundary point value to match the quadratic term coefficient.",
+     "compute": "c_sq = c ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Solve for the unknown constant k",
+     "explain": "Divide the target limit value by the squared boundary point value to find k.",
+     "compute": "k = right_val / c_sq"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Finding Unknown Parameters for Continuity chain with target_limit = 2, c = 3, right_val = 5, c_sq = 4. What value does it produce?",
+   "extracted_variables": {
+    "target_limit": "2",
+    "c": "3",
+    "right_val": "5",
+    "c_sq": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the value of the function or limit from the right at the boundary point",
+     "explain": "Identify the target limit value from the continuous branch of the function.",
+     "compute": "right_val = target_limit"
+    },
+    {
+     "step": 2,
+     "action": "Express the left-hand limit in terms of the coefficient of the variable at the boundary point",
+     "explain": "Square the boundary point value to match the quadratic term coefficient.",
+     "compute": "c_sq = c ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Solve for the unknown constant k",
+     "explain": "Divide the target limit value by the squared boundary point value to find k.",
+     "compute": "k = right_val / c_sq"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Chain Rule for Composite Functions chain with a = 2, cos_val = 3, outer_deriv = 5, inner_deriv = 4. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "cos_val": "3",
+    "outer_deriv": "5",
+    "inner_deriv": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the inner function",
+     "explain": "Differentiate the inner function u(x) with respect to x.",
+     "compute": "inner_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the derivative of the outer function with respect to the inner function",
+     "explain": "Differentiate the outer function v(u) with respect to u.",
+     "compute": "outer_deriv = cos_val"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the outer derivative by the inner derivative",
+     "explain": "Apply the chain rule by multiplying the two derivatives together.",
+     "compute": "dy_dx = outer_deriv * inner_deriv"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.3.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivatives of Implicit Functions chain with rhs_deriv = 2, x_coeff_deriv = 3, diff_x = 5, y_coeff = 4. What value does it produce?",
+   "extracted_variables": {
+    "rhs_deriv": "2",
+    "x_coeff_deriv": "3",
+    "diff_x": "5",
+    "y_coeff": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate the x-terms and RHS with respect to x",
+     "explain": "Differentiate all terms not involving dy/dx to find the independent derivative component.",
+     "compute": "diff_x = rhs_deriv - x_coeff_deriv"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the coefficient of dy/dx",
+     "explain": "Isolate dy/dx by dividing the independent terms by the coefficient of dy/dx.",
+     "compute": "dy_dx = diff_x / y_coeff"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivatives of Exponential and Logarithmic Functions chain with a = 2, e_to_ax = 3, exp_val = 5, exponent_deriv = 4. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "e_to_ax": "3",
+    "exp_val": "5",
+    "exponent_deriv": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the exponent",
+     "explain": "Find the derivative of the exponent function with respect to x.",
+     "compute": "exponent_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the value of the exponential function",
+     "explain": "Evaluate the exponential part of the function.",
+     "compute": "exp_val = e_to_ax"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the exponential function value by the derivative of the exponent",
+     "explain": "Apply the chain rule to find the final derivative.",
+     "compute": "dy_dx = exp_val * exponent_deriv"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivatives of Exponential and Logarithmic Functions chain with a = 2, e_to_ax = 3, exp_val = 5, exponent_deriv = 4. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "e_to_ax": "3",
+    "exp_val": "5",
+    "exponent_deriv": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the derivative of the exponent",
+     "explain": "Find the derivative of the exponent function with respect to x.",
+     "compute": "exponent_deriv = a"
+    },
+    {
+     "step": 2,
+     "action": "Compute the value of the exponential function",
+     "explain": "Evaluate the exponential part of the function.",
+     "compute": "exp_val = e_to_ax"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the exponential function value by the derivative of the exponent",
+     "explain": "Apply the chain rule to find the final derivative.",
+     "compute": "dy_dx = exp_val * exponent_deriv"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Logarithmic Differentiation chain with exponent = 2, base_val = 3, y_val = 5, ratio = 4. What value does it produce?",
+   "extracted_variables": {
+    "exponent": "2",
+    "base_val": "3",
+    "y_val": "5",
+    "ratio": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the ratio of the exponent to the base variable",
+     "explain": "Find the ratio of the exponent parameter to the base value.",
+     "compute": "ratio = exponent / base_val"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by the function value to get the derivative",
+     "explain": "Multiply the calculated ratio by the function value y to find the derivative.",
+     "compute": "dy_dx = y_val * ratio"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Logarithmic Differentiation chain with exponent = 2, base_val = 3, y_val = 5, ratio = 4. What value does it produce?",
+   "extracted_variables": {
+    "exponent": "2",
+    "base_val": "3",
+    "y_val": "5",
+    "ratio": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the ratio of the exponent to the base variable",
+     "explain": "Find the ratio of the exponent parameter to the base value.",
+     "compute": "ratio = exponent / base_val"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the ratio by the function value to get the derivative",
+     "explain": "Multiply the calculated ratio by the function value y to find the derivative.",
+     "compute": "dy_dx = y_val * ratio"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivatives of Functions in Parametric Forms chain with dy_dt = 2, dx_dt = 3, y_deriv = 5, x_deriv = 4. What value does it produce?",
+   "extracted_variables": {
+    "dy_dt": "2",
+    "dx_dt": "3",
+    "y_deriv": "5",
+    "x_deriv": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Obtain the derivative of y with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for y with respect to t.",
+     "compute": "y_deriv = dy_dt"
+    },
+    {
+     "step": 2,
+     "action": "Obtain the derivative of x with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for x with respect to t.",
+     "compute": "x_deriv = dx_dt"
+    },
+    {
+     "step": 3,
+     "action": "Divide the y-derivative by the x-derivative",
+     "explain": "Divide dy/dt by dx/dt to find the derivative of y with respect to x.",
+     "compute": "dy_dx = y_deriv / x_deriv"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Derivatives of Functions in Parametric Forms chain with dy_dt = 2, dx_dt = 3, y_deriv = 5, x_deriv = 4. What value does it produce?",
+   "extracted_variables": {
+    "dy_dt": "2",
+    "dx_dt": "3",
+    "y_deriv": "5",
+    "x_deriv": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Obtain the derivative of y with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for y with respect to t.",
+     "compute": "y_deriv = dy_dt"
+    },
+    {
+     "step": 2,
+     "action": "Obtain the derivative of x with respect to the parameter t",
+     "explain": "Differentiate the parametric equation for x with respect to t.",
+     "compute": "x_deriv = dx_dt"
+    },
+    {
+     "step": 3,
+     "action": "Divide the y-derivative by the x-derivative",
+     "explain": "Divide dy/dt by dx/dt to find the derivative of y with respect to x.",
+     "compute": "dy_dx = y_deriv / x_deriv"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.7.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Second Order Derivative chain with a = 2, first_coeff = 3. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "first_coeff": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the coefficient of the first derivative",
+     "explain": "Differentiate the function once to find the first derivative coefficient.",
+     "compute": "first_coeff = 2 * a"
+    },
+    {
+     "step": 2,
+     "action": "Find the second derivative",
+     "explain": "Differentiate the first derivative to obtain the second order derivative.",
+     "compute": "d2y_dx2 = first_coeff"
+    }
+   ]
+  },
+  {
+   "id": "drill15",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.5.7.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Second Order Derivative chain with a = 2, first_coeff = 3. What value does it produce?",
+   "extracted_variables": {
+    "a": "2",
+    "first_coeff": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the coefficient of the first derivative",
+     "explain": "Differentiate the function once to find the first derivative coefficient.",
+     "compute": "first_coeff = 2 * a"
+    },
+    {
+     "step": 2,
+     "action": "Find the second derivative",
+     "explain": "Differentiate the first derivative to obtain the second order derivative.",
+     "compute": "d2y_dx2 = first_coeff"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "lemh105.txt lines 410-435",
+   "questions": [
+    "1. Prove that the function f(x) = 5x - 3 is continuous at x = 0, at x = -3 and at x = 5.",
+    "2. Examine the continuity of the function f(x) = 2x^2 - 1 at x = 3.",
+    "17. Find the relationship between a and b so that the function f defined by f(x) = ax+1 if x <= 3, bx+3 if x > 3 is continuous at x = 3.",
+    "26. Find the values of k so that the function f is continuous at x = pi/2: f(x) = k cos x / (pi - 2x) if x != pi/2, and 3 if x = pi/2."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "lemh105.txt lines 561-569",
+   "questions": [
+    "1. sin(x^2 + 5)",
+    "2. cos(sin x)",
+    "3. sin(ax + b)",
+    "9. Prove that the function f given by f(x) = |x - 1|, x in R is not differentiable at x = 1."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "lemh105.txt lines 681-695",
+   "questions": [
+    "1. 2x + 3y = sin x",
+    "2. 2x + 3y = sin y",
+    "9. y = sin^-1(2x / (1 + x^2))"
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "lemh105.txt lines 831-839",
+   "questions": [
+    "1. e^x / sin x",
+    "2. e^(sin^-1 x)"
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "lemh105.txt lines 960-975",
+   "questions": [
+    "1. cos x . cos 2x . cos 3x",
+    "3. (log x)^cos x"
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "lemh105.txt lines 1040-1055",
+   "questions": [
+    "1. x = 2at^2, y = at^4",
+    "2. x = a cos theta, y = b cos theta"
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "lemh105.txt lines 1120-1135",
+   "questions": [
+    "1. x^2 + 3x + 2",
+    "2. x^20",
+    "11. If y = 5 cos x - 3 sin x, prove that d^2y/dx^2 + y = 0"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

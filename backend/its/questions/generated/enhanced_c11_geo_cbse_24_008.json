@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_008",
+   "title": "c11_geo_cbse_24_008",
+   "questions": [
+    {
+     "q": "What is the latitudinal and longitudinal extent of a single 1:250,000 scale Indian toposheet?",
+     "a": "A 1:250,000 scale toposheet covers exactly 1° of latitude × 1° of longitude. A wrong answer (e.g., 30'×30' or 4°×4°) reveals confusion between the three hierarchical levels: 1:1M (4°×4°), 1:250k (1°×1°), and 1:50k (30'×30').",
+     "self_check": true
+    },
+    {
+     "q": "In the SOI numbering system, the letters A through P are assigned to the sixteen 1:250k sheets within a 1:1M sheet. If letter 'A' represents the north-westernmost 1°×1° sheet, which letter represents the south-easternmost sheet and why?",
+     "a": "Letter 'P' represents the south-easternmost sheet. The letters run row-wise (left to right, top to bottom) across the 4×4 grid of the 1:1M sheet. A wrong answer (e.g., 'D' or 'M') shows the student memorised the sequence but not the spatial logic of row-wise assignment.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds a toposheet numbered \"55B/12NE\". Calculate the latitudinal and longitudinal extent (in degrees/minutes) of this specific 1:50k sheet, assuming the parent 1:1M sheet 55B covers 76°E–80°E and 20°N–24°N.",
+     "a": "Step 1: 1:1M sheet 55B spans 4°×4° (76°E–80°E, 20°N–24°N).  \nStep 2: Sheet 55B/12 is the 12th 1°×1° sheet in that 4×4 grid. Counting row-wise from NW: rows 1–4 are sheets 1–4, 5–8, 9–12, 13–16. Sheet 12 is row 3, column 4 → longitude 79°E–80°E, latitude 22°N–23°N.  \nStep 3: Suffix NE means north-eastern quadrant of that 1° square → 30'×30' covering 79°30'E–80°E, 22°30'N–23°N.  \nWrong extents indicate failure to map the 1–16 numbering to grid coordinates or to halve the degree square correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area covered by one 1:250,000 sheet and one 1:50,000 sheet at the equator versus at 30°N latitude. Why does the *ground area* differ even though the *sheet dimensions in degrees* are constant?",
+     "a": "At the equator, 1° longitude ≈ 111 km, so 1:250k sheet ≈ 111 km × 111 km = 12,321 km². At 30°N, 1° longitude = 111 km × cos(30°) ≈ 96 km, so area ≈ 111 km × 96 km = 10,656 km². The 1:50k sheet (30'×30') is exactly 1/4 of that. A wrong answer that claims constant ground area ignores the convergence of meridians; this is a critical map-scale concept.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher has a 1:50k sheet coded \"45D/10SW\" and needs the adjacent sheet to the east. Evaluate whether the next sheet is simply \"45D/10SE\" or if a different numbering logic applies. Justify your reasoning.",
+     "a": "The adjacent sheet to the east is NOT 45D/10SE (that is the sheet to the south). Quadrants within a 1:250k sheet are arranged: NW (top-left), NE (top-right), SW (bottom-left), SE (bottom-right). East of SW is SE only if moving within the same 1° square? Wait: SW is bottom-left, SE is bottom-right → they share a north-south boundary, so moving east from SW goes to SE. Yes, the east neighbour of SW is SE. However, if the question meant the sheet to the east of the *entire* 1:250k sheet 45D/10, that would be 45D/11 (or 45D/14 depending on row). A wrong answer reveals confusion between intra-sheet quadrant adjacency and inter-sheet adjacency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure (algorithm) that a GIS technician could use to automatically convert any SOI 1:50k sheet number (e.g., \"56H/3NE\") into a bounding box (minLat, maxLat, minLon, maxLon) in decimal degrees. Your procedure must handle the 1:1M sheet reference coordinates as input.",
+     "a": "A good algorithm:  \n1. Parse 1:1M sheet number (e.g., 56H) → look up its NW corner (lat0, lon0) from a reference table.  \n2. Parse 1:250k sheet number (1–16) → compute row = ceil(num/4), col = ((num-1)%4)+1.  \n3. Sheet NW corner = (lat0 - (row-1)×1°, lon0 + (col-1)×1°).  \n4. Parse quadrant suffix → apply 0.5° offsets: NW (0,0), NE (0,0.5), SW (0.5,0), SE (0.5,0.5) subtracted from lat, added to lon.  \n5. Bounding box = [lat - 0.5°, lat] × [lon, lon + 0.5°] for the quadrant.  \nPoor answers hard-code values for one sheet or ignore the row-wise numbering logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

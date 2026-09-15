@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_011",
+   "title": "c11_eng_w_cbse_21_011",
+   "questions": [
+    {
+     "q": "Define 'nominalization' and give one example from any English text where a verb or adjective has been turned into a noun phrase.",
+     "a": "Nominalization is the process of forming a noun from a verb or adjective, often by adding a suffix (e.g., 'investigation' from 'investigate', 'creativity' from 'creative'). Example: 'The committee made a decision' (nominalized verb 'decide'). A wrong answer that only gives a noun without showing the derivation reveals the student confuses nominalization with any noun usage.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The patterns of creativity in poetry and science are often contrasted, yet they share a common foundation,\" identify the cohesive device used and explain its logical function.",
+     "a": "The cohesive device is the coordinating conjunction 'yet' (adversative conjunction). It signals a contrast between the two clauses: the first clause states that the patterns are contrasted, the second introduces a counterpoint that they share a foundation. A wrong answer identifying 'and' or missing the adversative function shows the student cannot distinguish additive from contrastive cohesion.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from a hypothetical essay on creativity in the passive voice, then explain how the shift changes the focus: \"Scientists observe patterns in nature.\"",
+     "a": "Passive: \"Patterns in nature are observed by scientists.\" The shift moves the focus from the agent (scientists) to the object (patterns), making the patterns the topic and the agent optional/background. This is typical in scientific writing to emphasize objectivity. A wrong answer that only changes the verb form without explaining the rhetorical effect shows mechanical application without understanding register.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the modal verb choice in: \"Poetic creativity might arise from intuition, whereas scientific creativity must follow empirical validation.\" Compare the degree of certainty and obligation conveyed.",
+     "a": "'Might' expresses low certainty/possibility (epistemic modality), suggesting poetic creativity's origin is speculative. 'Must' expresses strong obligation/necessity (deontic modality), indicating scientific creativity is constrained by a rule. The contrast highlights the author's view of the two domains. A wrong answer that treats both as same modality or mislabels 'must' as epistemic reveals confusion between epistemic and deontic modality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the following sentence in an academic essay: \"Creativity is a thing that happens when you think differently and make new stuff.\" Justify your judgment with reference to register, precision, and nominalization.",
+     "a": "The sentence is ineffective for an academic essay. It uses colloquial phrasing ('a thing that happens', 'make new stuff'), lacks nominalization (verbs 'think', 'make' remain verbs), and has low lexical density. An academic version would nominalize: 'Creativity emerges from divergent thinking and the generation of novelty.' A wrong answer that calls it 'simple but clear' misses the register mismatch expected in senior secondary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a complex sentence about the relationship between poetic and scientific creativity that uses at least: one nominalized noun phrase, one passive construction, one adversative cohesive marker, and one modal verb expressing possibility.",
+     "a": "Example: \"While the cultivation of imagination is central to poetic creativity, the formulation of hypotheses in science may be constrained by empirical evidence, yet both domains require rigorous discipline.\" (Nominalization: 'cultivation', 'formulation'; Passive: 'is constrained'; Adversative: 'yet'; Modal: 'may'). A poor answer that produces a simple sentence or misses one required feature shows inability to synthesize multiple grammatical concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

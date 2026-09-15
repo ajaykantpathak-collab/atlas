@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_005",
+   "title": "c12_geo_cbse_20_005",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a line graph in geographical data representation, and which variable is conventionally placed on the X‑axis?",
+     "a": "The primary purpose of a line graph is to show how a variable changes continuously over time, making trends, cycles, and turning points visually apparent. Time (years, months, etc.) is always placed on the X‑axis because it is the independent variable. A wrong answer — such as putting the measured variable on the X‑axis or saying the purpose is to compare discrete categories — reveals that the student confuses line graphs with bar diagrams and does not grasp the time‑series nature of the data.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the Y‑axis scale be chosen to include negative values when plotting population growth rates that can be negative (e.g., -0.30% in 1921), and what would happen if you started the scale at zero?",
+     "a": "Negative growth rates are legitimate data points; if the scale starts at zero, negative values cannot be plotted and the graph would falsely show a gap or force the line to stop at zero, distorting the trend. A student who says “start at zero because it looks neater” misunderstands that the scale must accommodate the full range of data, including negative numbers, to preserve the true shape of the time series.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for average monthly rainfall (cm) in Mumbai: Jan 0.2, Feb 0.1, Mar 0.1, Apr 0.1, May 1.2, Jun 48.5, Jul 61.2, Aug 36.9, Sep 26.9, Oct 4.8, Nov 1.0, Dec 0.2. Construct a line graph on graph paper (1 cm = 1 month on X‑axis, 1 cm = 10 cm rainfall on Y‑axis). What is the approximate slope of the line segment between June and July, and what does it represent?",
+     "a": "Steps: (1) Draw axes, label X with months, Y with rainfall (0–70 cm). (2) Plot each month’s value using the scale (1 cm = 10 cm rainfall). (3) Join points. (4) June (48.5) to July (61.2): ΔY = 12.7 cm, ΔX = 1 month → slope = 12.7 cm/month. This slope represents the rate of increase of rainfall at the onset of the monsoon. A wrong slope (e.g., using raw numbers without scale conversion) shows the student cannot translate graph distance into real‑world rate of change.",
+     "self_check": true
+    },
+    {
+     "q": "A polygraph shows the sex ratio (females per 1000 males) for Delhi, Haryana, and Uttar Pradesh from 1961 to 2011. The lines for Delhi and Haryana cross between 1991 and 2001. What geographical inference can you draw from this crossing, and what additional data would you need to explain it?",
+     "a": "The crossing means that in 1991 Delhi’s sex ratio was lower than Haryana’s, but by 2001 it became higher. This suggests a relative improvement in Delhi’s sex ratio (or a decline in Haryana’s) during that decade. To explain it, you would need data on migration patterns, sex‑selective practices, or policy interventions in both states. A student who merely says “Delhi overtook Haryana” without asking for causal data is treating the graph as a picture rather than a tool for geographical inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: “A line graph of annual temperature should always have the Y‑axis starting at 0°C to avoid exaggerating fluctuations.” Is this good practice for geographical data? Justify.",
+     "a": "No. Starting at 0°C compresses the visible variation when temperatures range between, say, 10°C and 35°C, making it harder to see meaningful differences. Good practice is to choose a scale that spans the data range (e.g., 5°C to 40°C) so that fluctuations are clear. The statement reflects a rigid “zero‑origin” rule borrowed from bar diagrams; line graphs prioritise trend visibility over absolute baseline. A student who agrees shows they have not internalised the NCERT guideline: “The scale should neither be too large nor too small.”",
+     "self_check": true
+    },
+    {
+     "q": "Design a combined line‑and‑bar diagram (climate graph) for a station that receives most of its rainfall in June–September and has a temperature peak in May. Specify the scales you would use for the two Y‑axes, the order of plotting, and how you would label the diagram to avoid confusion.",
+     "a": "A good answer: (1) X‑axis: 12 months equally spaced. (2) Left Y‑axis: rainfall, scale 1 cm = 10 cm (max ~300 cm → 30 cm on paper). (3) Right Y‑axis: temperature, scale 1 cm = 5°C (range 10–40°C → 6 cm on paper). (4) Plot rainfall as vertical bars first, then temperature as a line with dots. (5) Title: “Monthly Temperature and Rainfall, Station X, Year Y”. Legend: blue bars = rainfall, red line = temperature. A poor answer uses a single scale for both, plots temperature as bars, or omits the legend — indicating the student cannot handle dual‑variable diagrams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

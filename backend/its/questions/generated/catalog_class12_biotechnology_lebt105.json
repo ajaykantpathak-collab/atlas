@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt105",
+ "concepts": [
+  {
+   "id": "lebt105.1",
+   "title": "Genetic Mapping and the Centimorgan",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Genetic Mapping and the Centimorgan' refers to.",
+     "a": "A genetic map orders loci by how often they recombine: crossover analysis of progeny phenotypes yields recombination frequencies, one percent of which defines one map unit, the centimorgan; because only well-known phenotypic loci can be tested, such maps stay coarse and call for the finer physical maps that follow.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Genetic Mapping and the Centimorgan'.",
+     "a": "Recombinant offspring as a percent of the total prices the distance - each percent is one centimorgan.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Genetic Mapping and the Centimorgan', in plain ASCII form.",
+     "a": "rec_pct = recombinants * 100 / offspring_total",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.2",
+   "title": "Physical Mapping with RFLP and STS",
+   "questions": [
+    {
+     "q": "Using the method 'Physical Mapping with RFLP and STS', work with: cuts = 75, cuts_open = 360, rest_cuts = 5. Carry the chain through step by step and give the final value of circular_frags.",
+     "a": "365 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Physical Mapping with RFLP and STS' and work with: cuts = 80, cuts_open = 20, rest_cuts = 8. Carry the chain through step by step and give the final value of circular_frags.",
+     "a": "28 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Physical Mapping with RFLP and STS' refers to.",
+     "a": "Physical maps anchor landmarks on real DNA: restriction sites whose cuts yield countable fragments (one cut in a circle gives one fragment, two cuts two; a linear molecule gives cuts plus one), length-variable microsatellite and minisatellite arrays read as SSLPs, and sequence tagged sites of 200-500 bp proven unique by PCR - Southern hybridisation taming the lakh of fragments a mammalian genome would otherwise shatter into.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Physical Mapping with RFLP and STS'.",
+     "a": "Each additional cut adds one linear fragment; circles only fragment from the first cut onward.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Physical Mapping with RFLP and STS', in plain ASCII form.",
+     "a": "linear_frags = cuts + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.3",
+   "title": "First-Generation Sequencing by Capillary",
+   "questions": [
+    {
+     "q": "Using the method 'First-Generation Sequencing by Capillary', work with: capillaries = 500, genome_bases = 120, read_len = 40. Carry the chain through step by step and give the final value of runs_needed.",
+     "a": "0.006 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'First-Generation Sequencing by Capillary' and work with: capillaries = 30, genome_bases = 30, read_len = 80. Carry the chain through step by step and give the final value of runs_needed.",
+     "a": "0.0125 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'First-Generation Sequencing by Capillary' refers to.",
+     "a": "First-generation sequencing builds clone-by-clone: pulse-field gels split chromosomes, BAC or YAC clones carry overlapping fragments, and chain-termination chemistry reads each plasmid subclone through a capillary that reports 800-1000 fluorescent bases per run - 96 capillaries working in parallel top out near 96,000 bases per machine per run, precise but slow and costly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'First-Generation Sequencing by Capillary'.",
+     "a": "Multiply the per-capillary read by the capillary count to size one machine run, then divide the genome by it for the workload.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'First-Generation Sequencing by Capillary', in plain ASCII form.",
+     "a": "machine_output = read_len * capillaries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.4",
+   "title": "Nanopore and Illumina Sequencing Reads",
+   "questions": [
+    {
+     "q": "Using the method 'Nanopore and Illumina Sequencing Reads', work with: illumina_len = 60, nanopore_len = 360. Carry the chain through step by step and give the final value of gap_bases.",
+     "a": "300 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nanopore and Illumina Sequencing Reads' and work with: illumina_len = 4, nanopore_len = 200. Carry the chain through step by step and give the final value of gap_bases.",
+     "a": "196 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nanopore and Illumina Sequencing Reads' refers to.",
+     "a": "Second-generation platforms such as Illumina amplify bridges on a flow cell and read fluorescent bases one at a time in millions of parallel reactions, but only 75-300 bases per read; third-generation nanopore sequencing instead threads a single strand through a porin pore with a helicase motor, translating each base's current disruption into sequence - real-time, field-deployable and reaching reads a megabase long.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nanopore and Illumina Sequencing Reads'.",
+     "a": "Divide the nanopore read length by the Illumina read length to price the long-read advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nanopore and Illumina Sequencing Reads', in plain ASCII form.",
+     "a": "length_fold = nanopore_len / illumina_len",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.5",
+   "title": "Whole Genome Targeted and Metagenomics Sequencing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Whole Genome Targeted and Metagenomics Sequencing' refers to.",
+     "a": "Sequencing projects come in flavours: whole genome sequencing - reference-guided or de novo - reads everything from Haemophilus influenzae onward including the 1990-2003 human effort; targeted and clinical exome sequencing PCR-amplify only disease-linked regions; RNASeq counts transcripts, ChipSeq maps regulator binding; and metagenomics sequences whole microbial communities straight from gut, spring or soil without culturing, hunting novel heat-stable enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Whole Genome Targeted and Metagenomics Sequencing'.",
+     "a": "Match the project to the question - everything, a panel, the transcriptome, binding sites or a whole community.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Whole Genome Targeted and Metagenomics Sequencing' taught, and from which source text?",
+     "a": "5.3 (source: lebt105.txt sections 5.3-5.3.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.6",
+   "title": "Genome Editing with Transposons and CRISPR-Cas9",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Genome Editing with Transposons and CRISPR-Cas9' refers to.",
+     "a": "Genome engineering rewrites DNA on purpose: engineered transposons - the cut-and-paste jumping genes - knock out genes by insertional disruption or knock in new sequences, while the CRISPR-Cas9 system pairs a guide RNA with Cas9 endonuclease to cut a chosen site, letting non-homologous end joining knock the gene out or homologous recombination with a supplied template knock in the corrected version - the bacterial immune memory repurposed by Charpentier and Doudna's 2020 Nobel work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Genome Editing with Transposons and CRISPR-Cas9'.",
+     "a": "Position the cut with a guide RNA, then let the cell's repair choice decide knockout or precise knock-in.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Genome Editing with Transposons and CRISPR-Cas9' taught, and from which source text?",
+     "a": "5.4 (source: lebt105.txt sections 5.4-5.4.2, Figs. 5.7-5.8, Box 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.7",
+   "title": "Structural Functional and Comparative Genomics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structural Functional and Comparative Genomics' refers to.",
+     "a": "Computational genomics turns sequence floods into biology on GPU-accelerated clusters, with three lenses: structural genomics solves or organises the 3D folds of every encoded protein and the physical layout of chromosomes; functional genomics asks what the genome does through RNASeq, ChipSeq and metagenomics; comparative genomics aligns species to find core and unique genes, annotate new genomes and root phylogenies - supported by India's three national genomics core facilities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structural Functional and Comparative Genomics'.",
+     "a": "One genome, three questions - what shape, what job, and what is shared or unique among relatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Structural Functional and Comparative Genomics' taught, and from which source text?",
+     "a": "5.5 (source: lebt105.txt sections 5.5-5.5.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt105.8",
+   "title": "Protein Engineering from Tags to Immunotoxins",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protein Engineering from Tags to Immunotoxins' refers to.",
+     "a": "Rational protein engineering rewrites codons for new tricks: a Met-to-Ala point mutation at position 222 makes the detergent enzyme subtilisin bleach-proof while its Ser221-His64-Asp32 triad keeps cutting; a fused six-histidine tag grabs nickel columns for one-step purification; a GFP fusion glows to reveal where a protein lives; single-chain variable fragments fused to Pseudomonas or diphtheria toxins build immunotoxins that hunt cancer cells; and mouse antibodies are humanised for therapy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protein Engineering from Tags to Immunotoxins'.",
+     "a": "Change the codon, change the property - stability, purification handles, location tags or targeted cell killers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Protein Engineering from Tags to Immunotoxins' taught, and from which source text?",
+     "a": "5.6 (source: lebt105.txt section 5.6, Figs. 5.9-5.12, Boxes 2-3)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,578 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 201,
+ "chapter_title": "Integrals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh201.txt",
+ "concepts": [
+  {
+   "id": "lemh.201.1",
+   "title": "Indefinite Integral as Anti-derivative",
+   "section": "7.2",
+   "definition": "The mathematical operation that determines the set of all antiderivatives for a given function, differing only by an additive constant.",
+   "formula": "integral(f(x) dx) = F(x) + C where F'(x) = f(x)",
+   "key_idea": "Integration acts as the mathematical reverse of differentiation.",
+   "textbook_ref": "lemh201.txt lines 40-100",
+   "question_patterns": [
+    "find the anti derivative of the function",
+    "write an anti derivative using the method of inspection",
+    "integrate the given function with respect to x",
+    "find the indefinite integral of the expression",
+    "Explain the method of Indefinite Integral as Anti-derivative."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given integrand function f(x)",
+     "explain": "Determine the function that needs to be integrated."
+    },
+    {
+     "step": 2,
+     "action": "Find a function F(x) whose derivative equals f(x)",
+     "explain": "Use standard differentiation formulas in reverse or inspection to find the primitive function."
+    },
+    {
+     "step": 3,
+     "action": "Add the constant of integration C",
+     "explain": "Since the derivative of any constant is zero, the general antiderivative is F(x) + C."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.2",
+   "title": "Integration by Substitution",
+   "section": "7.3.1",
+   "definition": "A technique that simplifies an integral by replacing a variable and its differential with a new variable, typically chosen because its derivative is present in the integrand.",
+   "formula": "integral(f(g(t)) * g'(t) dt) = F(g(t)) + C",
+   "key_idea": "Transform the variable of integration to match a standard formula.",
+   "textbook_ref": "lemh201.txt lines 340-380",
+   "question_patterns": [
+    "integrate the function by substitution",
+    "find the integral by changing the variable of integration",
+    "evaluate the integral using a suitable substitution",
+    "use substitution to simplify and integrate",
+    "Explain the method of Integration by Substitution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose a suitable substitution u = g(x)",
+     "explain": "Look for a part of the integrand whose derivative also appears in the integrand."
+    },
+    {
+     "step": 2,
+     "action": "Compute the differential du = g'(x) dx",
+     "explain": "Differentiate the substitution equation to relate dx to du."
+    },
+    {
+     "step": 3,
+     "action": "Rewrite the entire integral in terms of u and du",
+     "explain": "Substitute u and du into the original integral to obtain a simpler form."
+    },
+    {
+     "step": 4,
+     "action": "Integrate with respect to u and then substitute back",
+     "explain": "Find the antiderivative in terms of u, and then replace u with g(x) to get the final answer."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.3",
+   "title": "Integration using Trigonometric Identities",
+   "section": "7.3.2",
+   "definition": "The method of rewriting products or powers of sine, cosine, and other trigonometric functions into simpler linear terms using standard trig formulas.",
+   "formula": "cos^2(x) = (1 + cos(2x)) / 2",
+   "key_idea": "Convert higher powers of trigonometric functions into linear terms.",
+   "textbook_ref": "lemh201.txt lines 490-530",
+   "question_patterns": [
+    "integrate the trigonometric function",
+    "evaluate the integral using trigonometric identities",
+    "find the integral of powers of sine and cosine",
+    "simplify the trigonometric integrand and integrate",
+    "Explain the method of Integration using Trigonometric Identities."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the powers or products of trigonometric terms in the integrand",
+     "explain": "Determine which trigonometric functions are present and their powers."
+    },
+    {
+     "step": 2,
+     "action": "Apply standard trigonometric identities to reduce the powers",
+     "explain": "Use double-angle, half-angle, or product-to-sum formulas to rewrite the integrand as a sum of linear trigonometric terms."
+    },
+    {
+     "step": 3,
+     "action": "Integrate each term individually using standard formulas",
+     "explain": "Find the antiderivative of each simplified term and add the integration constant."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.4",
+   "title": "Standard Integrals of Particular Rational Functions",
+   "section": "7.4",
+   "definition": "A collection of pre-derived integration formulas for specific algebraic fractions, particularly those containing quadratic expressions in the denominator.",
+   "formula": "integral(1 / (x^2 - a^2) dx) = 1/(2*a) * log(abs((x-a)/(x+a))) + C",
+   "key_idea": "Match the quadratic denominator to one of the standard algebraic forms.",
+   "textbook_ref": "lemh201.txt lines 580-630",
+   "question_patterns": [
+    "integrate the rational function of quadratic form",
+    "find the integral of 1 over a quadratic expression",
+    "evaluate the integral using standard quadratic formulas",
+    "calculate the integral of the form dx over x^2 minus a^2",
+    "Explain the method of Standard Integrals of Particular Rational Functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the denominator in the standard form x^2 +/- a^2 or a^2 - x^2",
+     "explain": "If the denominator is a general quadratic, complete the square to write it in terms of a squared linear variable and a constant."
+    },
+    {
+     "step": 2,
+     "action": "Identify the matching standard formula",
+     "explain": "Compare the transformed integral with the list of standard integrals for quadratic denominators."
+    },
+    {
+     "step": 3,
+     "action": "Apply the formula and write the final expression",
+     "explain": "Substitute the variable and constant into the standard formula and add the constant of integration."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.5",
+   "title": "Integration by Partial Fractions",
+   "section": "7.5",
+   "definition": "An algebraic method used to break down a complex rational function into a sum of simpler fractions that can be integrated directly using standard rules.",
+   "formula": "(px + q) / ((x-a)*(x-b)) = A/(x-a) + B/(x-b)",
+   "key_idea": "Decompose rational expressions into simpler, integrable components.",
+   "textbook_ref": "lemh201.txt lines 830-880",
+   "question_patterns": [
+    "integrate using partial fractions",
+    "resolve the rational function into partial fractions and integrate",
+    "find the integral of the rational expression",
+    "evaluate the integral of a proper rational function",
+    "Explain the method of Integration by Partial Fractions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the rational function is proper",
+     "explain": "Ensure the degree of the numerator is less than the degree of the denominator. If not, perform polynomial long division first."
+    },
+    {
+     "step": 2,
+     "action": "Factor the denominator completely",
+     "explain": "Express the denominator as a product of linear and/or irreducible quadratic factors."
+    },
+    {
+     "step": 3,
+     "action": "Set up the partial fraction decomposition",
+     "explain": "Assign unknown constants (A, B, C, etc.) to each factor according to standard decomposition rules."
+    },
+    {
+     "step": 4,
+     "action": "Solve for the unknown constants",
+     "explain": "Multiply by the common denominator and equate coefficients or substitute specific values of x to find the constants."
+    },
+    {
+     "step": 5,
+     "action": "Integrate the resulting simpler fractions",
+     "explain": "Use standard logarithmic or inverse trigonometric formulas to integrate each term."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.6",
+   "title": "Integration by Parts",
+   "section": "7.6",
+   "definition": "An integration technique based on the product rule of differentiation, used to integrate the product of two functions by choosing one to differentiate and the other to integrate.",
+   "formula": "integral(u * v dx) = u * integral(v dx) - integral(u' * integral(v dx) dx)",
+   "key_idea": "Differentiate the simpler function and integrate the other.",
+   "textbook_ref": "lemh201.txt lines 1030-1080",
+   "question_patterns": [
+    "integrate the product of two functions",
+    "evaluate the integral using integration by parts",
+    "find the integral of x times a trigonometric function",
+    "calculate the integral of a logarithmic or inverse trigonometric function",
+    "Explain the method of Integration by Parts."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose the first function u and the second function v",
+     "explain": "Use the ILATE rule (Inverse trigonometric, Logarithmic, Algebraic, Trigonometric, Exponential) to select u."
+    },
+    {
+     "step": 2,
+     "action": "Find the derivative of u and the integral of v",
+     "explain": "Compute du/dx and find the antiderivative of v."
+    },
+    {
+     "step": 3,
+     "action": "Apply the integration by parts formula",
+     "explain": "Substitute the components into the formula: u * integral(v) - integral(u' * integral(v))."
+    },
+    {
+     "step": 4,
+     "action": "Evaluate the remaining integral",
+     "explain": "Complete the integration of the second term and add the constant of integration."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.7",
+   "title": "Special Exponential Integral",
+   "section": "7.6.1",
+   "definition": "A specific integration shortcut for integrands of the form e^x multiplied by the sum of a function and its derivative, yielding e^x times the function.",
+   "formula": "integral(e^x * (f(x) + f'(x)) dx) = e^x * f(x) + C",
+   "key_idea": "Identify the function and its derivative to write the solution directly.",
+   "textbook_ref": "lemh201.txt lines 1140-1170",
+   "question_patterns": [
+    "integrate e^x times a function and its derivative",
+    "find the integral of the form e^x (f(x) + f'(x))",
+    "evaluate the exponential product integral",
+    "use the special e^x integration rule",
+    "Explain the method of Special Exponential Integral."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the function f(x) and its derivative f'(x) in the integrand",
+     "explain": "Check if the expression inside the parentheses can be written as f(x) + f'(x)."
+    },
+    {
+     "step": 2,
+     "action": "Write the result directly using the standard theorem",
+     "explain": "The integral of e^x * (f(x) + f'(x)) is simply e^x * f(x) + C."
+    },
+    {
+     "step": 3,
+     "action": "Add the constant of integration and verify the result",
+     "explain": "Differentiate e^x * f(x) to confirm it returns the original integrand, confirming the antiderivative is correct."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.8",
+   "title": "Quadratic Square Root Types",
+   "section": "7.6.2",
+   "definition": "Standard formulas for integrating functions containing square roots of quadratic expressions, derived using integration by parts or trigonometric substitution.",
+   "formula": "integral(sqrt(a^2 - x^2) dx) = (x/2)*sqrt(a^2 - x^2) + (a^2/2)*sin^-1(x/a) + C",
+   "key_idea": "Use standard formulas for square roots of quadratic polynomials.",
+   "textbook_ref": "lemh201.txt lines 1220-1260",
+   "question_patterns": [
+    "integrate the square root of a quadratic expression",
+    "find the integral of sqrt(x^2 + a^2) dx",
+    "evaluate the integral of sqrt(a^2 - x^2) dx",
+    "calculate the integral of a quadratic square root form",
+    "Explain the method of Quadratic Square Root Types."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the quadratic expression inside the square root in standard form",
+     "explain": "Complete the square if necessary to write the expression as x^2 +/- a^2 or a^2 - x^2."
+    },
+    {
+     "step": 2,
+     "action": "Apply the corresponding standard square root integration formula",
+     "explain": "Substitute the variable and constant values into the pre-derived formula."
+    },
+    {
+     "step": 3,
+     "action": "Add the constant of integration to the result",
+     "explain": "Since this is an indefinite integral, append + C to the antiderivative expression."
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.9",
+   "title": "Definite Integral of a Linear Function",
+   "section": "7.8",
+   "definition": "Evaluating the net area under a straight-line function over a given interval by finding its antiderivative and calculating the difference between the upper and lower limits.",
+   "formula": "integral = p * (b^2 - a^2)/2 + q * (b - a)",
+   "key_idea": "Integrate the linear and constant terms separately and evaluate at limits.",
+   "textbook_ref": "lemh201.txt lines 1350-1400",
+   "question_patterns": [
+    "evaluate the definite integral of {p} x + {q} from {a} to {b}",
+    "find the value of integral of {p}*x + {q} with limits {a} and {b}",
+    "calculate the definite integral of {p}x + {q} dx between {a} and {b}",
+    "what is the definite integral of {p}x + {q} from {a} to {b}",
+    "Explain the method of Definite Integral of a Linear Function."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the integral of the linear term p*x",
+     "explain": "The antiderivative of p*x is p * x^2 / 2. Evaluating this from a to b gives p * (b^2 - a^2) / 2.",
+     "compute": "term1 = p * (b**2 - a**2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Compute the integral of the constant term q",
+     "explain": "The antiderivative of q is q * x. Evaluating this from a to b gives q * (b - a).",
+     "compute": "term2 = q * (b - a)"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two terms to find the total definite integral",
+     "explain": "Add the evaluated linear term and constant term to get the final value.",
+     "compute": "total = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.10",
+   "title": "Definite Integral of a Quadratic Power Function",
+   "section": "7.8",
+   "definition": "Calculating the definite integral of a quadratic term by applying the power rule of integration and evaluating the resulting cubic expression at the boundary limits.",
+   "formula": "integral = p * (b^3 - a^3)/3",
+   "key_idea": "Apply the power rule to the quadratic term and find the difference of cubes.",
+   "textbook_ref": "lemh201.txt lines 1410-1450",
+   "question_patterns": [
+    "evaluate the definite integral of {p} x^2 from {a} to {b}",
+    "find the value of integral of {p}*x^2 with limits {a} and {b}",
+    "calculate the definite integral of {p}x^2 dx between {a} and {b}",
+    "what is the definite integral of {p}x^2 from {a} to {b}",
+    "Explain the method of Definite Integral of a Quadratic Power Function."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the difference of cubes of the limits",
+     "explain": "The antiderivative of x^2 is x^3 / 3, so we first find b^3 - a^3.",
+     "compute": "diff_cubes = b**3 - a**3"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by coefficient p and divide by 3",
+     "explain": "Multiply the difference of cubes by p and divide by 3 to get the final definite integral.",
+     "compute": "integral = p * diff_cubes / 3"
+    },
+    {
+     "step": 3,
+     "action": "Report the definite integral value",
+     "explain": "The result is the net signed area under the curve p*x^2 between the limits a and b.",
+     "compute": "result = integral"
+    }
+   ]
+  },
+  {
+   "id": "lemh.201.11",
+   "title": "Properties of Definite Integrals",
+   "section": "7.10",
+   "definition": "A set of rules that simplify the evaluation of definite integrals, including interval splitting, change of variables, and symmetry properties for even and odd functions.",
+   "formula": "integral(a to b, f(x) dx) = -integral(b to a, f(x) dx)",
+   "key_idea": "Use interval splitting and symmetry to simplify definite integral calculations.",
+   "textbook_ref": "lemh201.txt lines 1520-1580",
+   "question_patterns": [
+    "evaluate the definite integral using properties",
+    "show that the definite integral is zero using symmetry",
+    "simplify the definite integral using properties of limits",
+    "find the integral using the property of even and odd functions",
+    "Explain the method of Properties of Definite Integrals."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the limits of integration and the integrand function",
+     "explain": "Check if the limits are symmetric [-a, a] or if the integrand has periodic properties."
+    },
+    {
+     "step": 2,
+     "action": "Apply the appropriate definite integral property",
+     "explain": "Use properties like splitting the interval, replacing x with (a+b-x), or checking if the function is even/odd to simplify the integral."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the simplified integral",
+     "explain": "Compute the final value of the simplified definite integral."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh201.txt line 1405",
+   "concept": "lemh.201.9",
+   "question_type": "compute",
+   "question_pattern": "evaluate the definite integral of {p} x + {q} from {a} to {b}",
+   "extracted_variables": {
+    "p": "coefficient of x",
+    "q": "constant term",
+    "a": "lower limit of integration",
+    "b": "upper limit of integration"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the integral of the linear term p*x",
+     "explain": "The antiderivative of p*x is p * x^2 / 2. Evaluating this from a to b gives p * (b^2 - a^2) / 2.",
+     "compute": "term1 = p * (b**2 - a**2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Compute the integral of the constant term q",
+     "explain": "The antiderivative of q is q * x. Evaluating this from a to b gives q * (b - a).",
+     "compute": "term2 = q * (b - a)"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two terms to find the total definite integral",
+     "explain": "Add the evaluated linear term and constant term to get the final value.",
+     "compute": "total = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh201.txt line 1415",
+   "concept": "lemh.201.10",
+   "question_type": "compute",
+   "question_pattern": "evaluate the definite integral of {p} x^2 from {a} to {b}",
+   "extracted_variables": {
+    "p": "coefficient of x^2",
+    "a": "lower limit of integration",
+    "b": "upper limit of integration"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the difference of cubes of the limits",
+     "explain": "The antiderivative of x^2 is x^3 / 3, so we first find b^3 - a^3.",
+     "compute": "diff_cubes = b**3 - a**3"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by coefficient p and divide by 3",
+     "explain": "Multiply the difference of cubes by p and divide by 3 to get the final definite integral.",
+     "compute": "integral = p * diff_cubes / 3"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.201.9",
+   "question_type": "compute",
+   "question_pattern": "Apply the Definite Integral of a Linear Function chain with p = 2, b = 3, a = 5, q = 4, term1 = 7, term2 = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "p": "2",
+    "b": "3",
+    "a": "5",
+    "q": "4",
+    "term1": "7",
+    "term2": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the integral of the linear term p*x",
+     "explain": "The antiderivative of p*x is p * x^2 / 2. Evaluating this from a to b gives p * (b^2 - a^2) / 2.",
+     "compute": "term1 = p * (b**2 - a**2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Compute the integral of the constant term q",
+     "explain": "The antiderivative of q is q * x. Evaluating this from a to b gives q * (b - a).",
+     "compute": "term2 = q * (b - a)"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two terms to find the total definite integral",
+     "explain": "Add the evaluated linear term and constant term to get the final value.",
+     "compute": "total = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.201.10",
+   "question_type": "compute",
+   "question_pattern": "Apply the Definite Integral of a Quadratic Power Function chain with b = 2, a = 3, p = 5, diff_cubes = 4. What value does it produce?",
+   "extracted_variables": {
+    "b": "2",
+    "a": "3",
+    "p": "5",
+    "diff_cubes": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the difference of cubes of the limits",
+     "explain": "The antiderivative of x^2 is x^3 / 3, so we first find b^3 - a^3.",
+     "compute": "diff_cubes = b**3 - a**3"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by coefficient p and divide by 3",
+     "explain": "Multiply the difference of cubes by p and divide by 3 to get the final definite integral.",
+     "compute": "integral = p * diff_cubes / 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "lemh201.txt lines 234-235",
+   "questions": [
+    "Find an anti derivative of sin 2x by the method of inspection.",
+    "Find an anti derivative of cos 3x by the method of inspection.",
+    "Find an anti derivative of e^(2x) by the method of inspection.",
+    "Find an anti derivative of (ax + b)^2 by the method of inspection.",
+    "Find an anti derivative of sin 2x - 4e^(3x) by the method of inspection.",
+    "Find the integral of (4e^(3x) + 1) dx.",
+    "Find the integral of x^2 * (1 - 1/x^2) dx.",
+    "Find the integral of (ax^2 + bx + c) dx."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "lemh201.txt lines 240-241",
+   "questions": [
+    "Integrate 2x / (1 + x^2) with respect to x.",
+    "Integrate (log x)^2 / x with respect to x.",
+    "Integrate 1 / (x + x * log x) with respect to x.",
+    "Integrate sin x * sin(cos x) with respect to x."
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "lemh201.txt line 243",
+   "questions": [
+    "Find the integral of sin^2(2x + 5) dx.",
+    "Find the integral of sin 3x * cos 4x dx.",
+    "Find the integral of cos 2x * cos 4x * cos 6x dx."
+   ]
+  },
+  {
+   "id": "ex7.4",
+   "source_ref": "lemh201.txt lines 251-252",
+   "questions": [
+    "Integrate 3x^2 / (x^6 + 1) with respect to x.",
+    "Integrate 1 / sqrt(1 + 4x^2) with respect to x.",
+    "Integrate 1 / sqrt((2-x)^2 + 1) with respect to x."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

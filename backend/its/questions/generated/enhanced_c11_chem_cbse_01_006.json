@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_006",
+   "title": "c11_chem_cbse_01_006",
+   "questions": [
+    {
+     "q": "State the exact definition of 1 unified atomic mass unit (1 u) and explain why carbon-12 was chosen as the reference standard instead of hydrogen or oxygen.",
+     "a": "1 u = 1/12 the mass of a carbon-12 atom = 1.660539 × 10⁻²⁴ g. Carbon-12 was chosen because: (i) it forms many stable compounds for mass spectrometry calibration, (ii) its mass is almost exactly 12 times the hydrogen atom mass, maintaining continuity with the old H=1 scale, (iii) oxygen-16 scale caused confusion between physical (O=16) and chemical (O=16 natural mix) scales. A wrong answer reveals the student memorizes the value but not the metrological reasoning behind the standard.",
+     "self_check": true
+    },
+    {
+     "q": "Chlorine exists as two isotopes: ³⁵Cl (75.77%, 34.9689 u) and ³⁷Cl (24.23%, 36.9659 u). Calculate the average atomic mass of chlorine. Why is the result closer to 35 than to 37?",
+     "a": "Average mass = (0.7577 × 34.9689) + (0.2423 × 36.9659) = 26.496 + 8.957 = 35.453 u. The result is closer to 35 because the lighter isotope (³⁵Cl) has nearly 3× greater natural abundance (75.77% vs 24.23%), pulling the weighted average toward its mass. A wrong answer (e.g., simple average 35.967 u) reveals the student treats isotopes as equally abundant, ignoring the percentage weights — a Class 9-level error.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molecular mass of sucrose (C₁₂H₂₂O₁₁) using atomic masses: C = 12.011 u, H = 1.008 u, O = 16.00 u. Show all steps with units.",
+     "a": "Step 1: Identify atoms: 12 C, 22 H, 11 O. Step 2: Multiply each by its atomic mass: 12 × 12.011 u = 144.132 u; 22 × 1.008 u = 22.176 u; 11 × 16.00 u = 176.00 u. Step 3: Sum = 144.132 + 22.176 + 176.00 = 342.308 u. Step 4: Round to 2 decimal places (least precise input is 16.00 u) → 342.31 u. A wrong answer with 342.0 u reveals the student used integer masses (C=12, H=1, O=16) from Class 9 instead of the precise C-12 scale values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formula mass of NaCl (ionic) and molecular mass of Cl₂ (covalent). Both contain chlorine. Why do we use \"formula mass\" for NaCl but \"molecular mass\" for Cl₂? What would be the error if you called NaCl's mass \"molecular mass\"?",
+     "a": "NaCl exists as a crystal lattice of Na⁺ and Cl⁻ ions in 1:1 ratio — no discrete NaCl molecules exist. \"Molecular mass\" implies a molecule (covalently bonded discrete unit). Formula mass = 23.0 + 35.5 = 58.5 u for the formula unit. Cl₂ exists as discrete diatomic molecules, so molecular mass = 2 × 35.5 = 71.0 u. Calling NaCl's mass \"molecular mass\" is conceptually wrong because it suggests molecular existence in the solid state, misunderstanding ionic bonding (c8_chem_ch3_8, c8_chem_ch3_9).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Atomic mass of oxygen = 16 u\" in a board exam answer. Evaluate this statement. Is it correct, partially correct, or incorrect? Justify with reference to the C-12 scale and natural isotopic composition.",
+     "a": "Partially correct but incomplete for Class 11. The exact atomic mass of oxygen on C-12 scale is 15.999 u (average of ¹⁶O 99.757%, ¹⁷O 0.038%, ¹⁸O 0.205%). Writing \"16 u\" uses the old chemical scale (O=16) or integer approximation. In Class 11, you must use 15.999 u or 16.00 u (4 significant figures) and specify \"average atomic mass\". The statement loses marks for: (i) not specifying \"average\", (ii) using integer value implying single isotope, (iii) not referencing the C-12 standard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you had a mass spectrometer that could measure absolute masses of single atoms, how would you determine the atomic mass of a new element X with three isotopes? Describe the data you'd collect and the calculation steps.",
+     "a": "Collect: (1) mass-to-charge ratio (m/z) peaks for each isotope → gives isotopic masses in u (relative to C-12), (2) peak intensities → gives relative abundances as percentages. Calculation: Convert % to fractional abundances (divide by 100). Multiply each isotopic mass by its fractional abundance. Sum the products. Example: if X has isotopes 50X (10%, 49.945 u), 52X (80%, 51.940 u), 53X (10%, 52.941 u), average mass = 0.10×49.945 + 0.80×51.940 + 0.10×52.941 = 51.86 u. A poor answer omits converting % to fractions or uses simple average.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

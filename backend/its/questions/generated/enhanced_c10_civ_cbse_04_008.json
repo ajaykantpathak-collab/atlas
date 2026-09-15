@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_008",
+   "title": "c10_civ_cbse_04_008",
+   "questions": [
+    {
+     "q": "Name the constitutional article or statutory provision that formally recognises the position of Leader of Opposition in the Lok Sabha and Rajya Sabha.",
+     "a": "The Leader of Opposition is recognised under the Salary and Allowances of Leaders of Opposition in Parliament Act, 1977 (not a constitutional article). A wrong answer citing \"Article 75\" or \"Article 93\" reveals confusion between the Council of Ministers/ Speaker and the statutory recognition of the Opposition leader — a common error because students assume all parliamentary offices are constitutional.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian parliamentary system require a minimum numerical threshold (10% of total seats) for a party to be recognised as the official Opposition? Explain the democratic rationale behind this threshold.",
+     "a": "The 10% threshold (Direction 121 of Lok Sabha Directions) ensures the Opposition has sufficient representation to meaningfully participate in parliamentary business (time allocation, committee chairs, questioning rights). A student who says \"to prevent too many small parties from claiming opposition status\" misses the positive rationale: it guarantees a viable alternative voice capable of sustained scrutiny, not just procedural obstruction.",
+     "self_check": true
+    },
+    {
+     "q": "During the 2023 Monsoon Session, the Opposition moved a No-Confidence Motion against the government despite knowing it would lose due to the ruling party's brute majority. Apply the concept of \"symbolic accountability\" to explain why oppositions still use such motions.",
+     "a": "A No-Confidence Motion forces the government to publicly defend its record, compels MPs to go on record, and creates a documented parliamentary debate for public scrutiny and electoral memory. A wrong answer focusing only on \"removing the government\" shows inability to distinguish between instrumental success (winning the vote) and institutional function (enforcing answerability).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Opposition in India's parliamentary system with the role of the minority party in the US Congress (presidential system). Identify two structural differences that affect how each holds the executive accountable.",
+     "a": "1) In India, the executive is drawn from and accountable to the legislature, so the Opposition uses Question Hour, adjournment motions, and committee oversight daily; in the US, the executive is separately elected, so minority oversight relies on congressional hearings and subpoena power. 2) India's anti-defection law (Tenth Schedule) binds ruling party MPs to the government whip, weakening intra-party dissent; US legislators can cross party lines more freely. A student conflating the two systems misses the fusion vs. separation of powers distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A strong Opposition is as essential for democracy as a strong government.\" Use the concepts of 'checks and balances' and 'legitimacy of dissent' in your assessment.",
+     "a": "The statement is valid: without a credible Opposition, the government faces no routine challenge, policy errors go uncorrected, and dissent gets delegitimised as \"anti-national\" — eroding the democratic compact that losing an election does not mean losing political voice. A student who agrees but cannot cite mechanisms (e.g., Public Accounts Committee chaired by Opposition, shadow cabinet practice) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a parliamentary reform proposal to strengthen the Opposition's effectiveness when the ruling party has an overwhelming majority (e.g., >75% seats). Your proposal must include at least one procedural change and one institutional safeguard.",
+     "a": "Procedural: Mandate minimum debate time (e.g., 4 hours) for every Bill, with guaranteed Opposition speaking slots proportional to vote share, not just seat share. Institutional: Create a statutory \"Opposition Research Bureau\" funded by Parliament (not the executive) to provide policy analysis, drafting support, and fact-checking. A poor proposal focuses only on increasing Opposition salaries or media time without addressing structural power asymmetry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

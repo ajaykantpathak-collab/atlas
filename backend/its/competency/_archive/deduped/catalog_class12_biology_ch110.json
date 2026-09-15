@@ -1,0 +1,232 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 110,
+ "chapter_title": "Biotechnology and its Applications",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo110.txt",
+ "concepts": [
+  {
+   "id": "lebo.10.1.1",
+   "title": "Micropropagation Efficiency",
+   "section": "10.1",
+   "definition": "A tissue culture technique to generate a large number of genetically identical plant clones from a single explant in a short time.",
+   "formula": "total_plants = explants * propagation_factor",
+   "key_idea": "Rapid asexual multiplication of plants using totipotency.",
+   "textbook_ref": "lebo110.txt lines 45-60",
+   "question_patterns": [
+    "calculate the number of plants produced",
+    "how many plants are obtained from explants",
+    "find total yield of micropropagation",
+    "what is the total number of clones",
+    "calculate micropropagation efficiency for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply initial explants by the propagation factor",
+     "explain": "Each explant generates a specific number of clones.",
+     "compute": "total_plants = explants * propagation_factor"
+    },
+    {
+     "step": 2,
+     "action": "Account for successive subculture cycles",
+     "explain": "Each round of tissue culture multiplies the output further, so repeat multiplication for each subculture.",
+     "compute": "total_plants = total_plants * subculture_cycles"
+    },
+    {
+     "step": 3,
+     "action": "Verify the final clone count against expected yield",
+     "explain": "Confirm the computed value matches the expected number of genetically identical clones."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Micropropagation Efficiency, compute the result for explants = 3, propagation_factor = 3, subculture_cycles = 3.",
+     "solution": "Step 1: Multiply initial explants by the propagation factor: total_plants = explants * propagation_factor = 9.0 Step 2: Account for successive subculture cycles: total_plants = total_plants * subculture_cycles = 27.0 Final result: 27.0",
+     "answer": "27.0"
+    },
+    {
+     "question": "Using Micropropagation Efficiency, compute the result for explants = 4, propagation_factor = 4, subculture_cycles = 4.",
+     "solution": "Step 1: Multiply initial explants by the propagation factor: total_plants = explants * propagation_factor = 16.0 Step 2: Account for successive subculture cycles: total_plants = total_plants * subculture_cycles = 64.0 Final result: 64.0",
+     "answer": "64.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.10.3.1",
+   "title": "Transgenic Protein Yield",
+   "section": "10.3",
+   "definition": "The production of specific human proteins in the milk or tissues of genetically modified animals.",
+   "formula": "total_protein = volume_litres * concentration_per_litre",
+   "key_idea": "Using transgenic animals as bioreactors for pharmaceutical production.",
+   "textbook_ref": "lebo110.txt lines 250-265",
+   "question_patterns": [
+    "calculate the total protein yield",
+    "how much protein is produced by the transgenic animal",
+    "find the yield of human protein",
+    "what is the total mass of protein",
+    "find the required value in a transgenic protein yield problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply volume by concentration",
+     "explain": "Total protein is the product of volume of milk and protein content per unit volume.",
+     "compute": "total_protein = volume_litres * concentration_per_litre"
+    },
+    {
+     "step": 2,
+     "action": "Account for purification recovery efficiency",
+     "explain": "Not all expressed protein is recovered during downstream purification, so apply the recovery factor.",
+     "compute": "recovered_protein = total_protein * recovery_efficiency"
+    },
+    {
+     "step": 3,
+     "action": "Verify the final protein yield meets the required target",
+     "explain": "Confirm the recovered protein mass satisfies the pharmaceutical production requirement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Transgenic Protein Yield, compute the result for volume_litres = 3, concentration_per_litre = 3, recovery_efficiency = 3.",
+     "solution": "Step 1: Multiply volume by concentration: total_protein = volume_litres * concentration_per_litre = 9.0 Step 2: Account for purification recovery efficiency: recovered_protein = total_protein * recovery_efficiency = 27.0 Final result: 27.0",
+     "answer": "27.0"
+    },
+    {
+     "question": "Using Transgenic Protein Yield, compute the result for volume_litres = 4, concentration_per_litre = 4, recovery_efficiency = 4.",
+     "solution": "Step 1: Multiply volume by concentration: total_protein = volume_litres * concentration_per_litre = 16.0 Step 2: Account for purification recovery efficiency: recovered_protein = total_protein * recovery_efficiency = 64.0 Final result: 64.0",
+     "answer": "64.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.10.2.1",
+   "title": "Principles of RNA Interference",
+   "section": "10.1",
+   "definition": "A biological defense mechanism where double-stranded RNA silences specific mRNA, preventing the translation of target genes.",
+   "formula": "silencing_status = (dsRNA_present == 1) ? \"active\" : \"inactive\"",
+   "key_idea": "Post-transcriptional gene silencing via complementary RNA binding.",
+   "textbook_ref": "lebo110.txt lines 140-160",
+   "question_patterns": [
+    "explain the mechanism of RNAi",
+    "how does dsRNA protect the plant",
+    "what is the role of sense and anti-sense RNA",
+    "describe the silencing process",
+    "describe principles of rna interference with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Introduce sense and anti-sense RNA",
+     "explain": "These strands hybridize to form dsRNA."
+    },
+    {
+     "step": 2,
+     "action": "Bind to target mRNA",
+     "explain": "The dsRNA prevents the translation of the nematode-specific mRNA."
+    },
+    {
+     "step": 3,
+     "action": "Confirm silencing of the target gene",
+     "explain": "Verify that the nematode-specific mRNA is degraded and the corresponding protein is no longer produced, establishing resistance."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo110.txt lines 255-260",
+   "concept": "lebo.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "If a transgenic cow produces {volume_litres} litres of milk with a protein concentration of {concentration_per_litre} grams per litre, find the total protein yield.",
+   "extracted_variables": {
+    "volume_litres": "volume of milk in litres",
+    "concentration_per_litre": "protein concentration in g/L"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total protein",
+     "explain": "Multiply volume by concentration.",
+     "compute": "total_protein = volume_litres * concentration_per_litre"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lebo110.txt lines 45-60",
+   "concept": "lebo.10.1.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute micropropagation efficiency step by step",
+   "extracted_variables": {
+    "explants": "value of explants",
+    "propagation_factor": "value of propagation_factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply initial explants by the propagation factor",
+     "explain": "Each explant generates a specific number of clones.",
+     "compute": "total_plants = explants * propagation_factor"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "lebo110.txt lines 250-265",
+   "concept": "lebo.10.3.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute transgenic protein yield step by step",
+   "extracted_variables": {
+    "volume_litres": "value of volume_litres",
+    "concentration_per_litre": "value of concentration_per_litre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply volume by concentration",
+     "explain": "Total protein is the product of volume of milk and protein content per unit volume.",
+     "compute": "total_protein = volume_litres * concentration_per_litre"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "lebo110.txt lines 45-60",
+   "concept": "lebo.10.1.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute micropropagation efficiency step by step",
+   "extracted_variables": {
+    "explants": "value of explants",
+    "propagation_factor": "value of propagation_factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply initial explants by the propagation factor",
+     "explain": "Each explant generates a specific number of clones.",
+     "compute": "total_plants = explants * propagation_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "lebo110.txt lines 330-340",
+   "questions": [
+    "Which part of the plant is best suited for making virus-free plants and why?",
+    "What is the major advantage of producing plants by micropropagation?",
+    "What are Cry proteins and how has man exploited them?",
+    "Explain the process of gene therapy using ADA deficiency as an example."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_011",
+   "title": "c12_biotech_cbse_11_011",
+   "questions": [
+    {
+     "q": "What is the specific target gene suppressed in Flavr Savr tomato, and what is the normal function of its protein product in fruit ripening?",
+     "a": "The target gene is polygalacturonase (PG), which encodes an enzyme that hydrolyzes α-1,4-glycosidic bonds in pectin, leading to cell wall degradation and fruit softening. A wrong answer (e.g., naming \"pectinase\" or \"cellulase\" or saying it affects color/flavor) reveals confusion between the specific enzyme and general cell-wall hydrolases, or misunderstanding that PG acts on pectin, not cellulose.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how antisense RNA technology reduces polygalacturonase protein levels in Flavr Savr tomato without changing the DNA sequence of the PG gene.",
+     "a": "An antisense copy of the PG gene is inserted in reverse orientation so it transcribes RNA complementary to the natural PG mRNA. This antisense RNA base-pairs with the sense mRNA, forming double-stranded RNA that cannot be translated by ribosomes and is targeted for degradation, thus reducing PG protein. A wrong answer (e.g., \"it cuts the DNA\" or \"it mutates the gene\") shows confusion with gene knockout or CRISPR; saying \"it degrades DNA\" reveals a fundamental misunderstanding of the central dogma.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to use antisense RNA to delay ripening in mango by targeting the mango polygalacturonase homolog. They clone the mango PG coding sequence in reverse orientation behind a fruit-specific promoter. What critical feature must the antisense transcript have to effectively block translation, and why might simply expressing the full-length antisense RNA not be sufficient?",
+     "a": "The antisense transcript must have sufficient complementarity to the target mRNA's translation start site (5' UTR and start codon) to block ribosome binding; full-length antisense RNA may form dsRNA that is processed into siRNAs, shifting the mechanism to RNAi rather than pure antisense blockade. A wrong answer (e.g., \"it just needs to be complementary anywhere\" or \"length doesn't matter\") ignores the importance of targeting the 5' region for translational arrest and the risk of triggering RNAi pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the molecular mechanism of antisense RNA technology (as used in Flavr Savr) with RNA interference (RNAi). Identify two key differences in the effector molecules and their cellular pathways.",
+     "a": "Antisense RNA is a single-stranded transcript that directly base-pairs with target mRNA to block translation or recruit RNase H for degradation; RNAi uses double-stranded siRNA/miRNA loaded into RISC, where the guide strand directs cleavage of perfectly complementary mRNA. Key differences: (1) Antisense acts as a single strand; RNAi requires Dicer processing of dsRNA into siRNAs. (2) Antisense typically blocks translation or recruits RNase H; RNAi uses Argonaute-mediated slicing. A wrong answer conflating the two (e.g., \"both use siRNA\") shows lack of distinction between direct hybridization and RISC-mediated cleavage.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Flavr Savr tomato failed commercially because the antisense RNA technology was scientifically flawed and did not delay ripening.\" Provide evidence-based reasoning.",
+     "a": "The statement is false. Flavr Savr tomato successfully delayed ripening and softening by reducing PG activity by >90%, as confirmed by molecular and phenotypic data. Commercial failure was due to high production costs, bruising during harvest/transport (since fruit were picked ripe), competition from conventionally bred long-shelf-life varieties, and public GM opposition — not scientific failure. A wrong answer accepting the statement reveals confusion between technical efficacy and market viability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment to test whether the antisense PG transcript in Flavr Savr tomato acts primarily by blocking translation or by triggering mRNA degradation via RNase H. Specify the key controls, the molecular assay, and the expected results for each mechanism.",
+     "a": "Extract polysomes from transgenic and wild-type tomato fruit, perform RT-qPCR for PG mRNA in polysome fractions vs total RNA. If translation blocked: PG mRNA levels similar in total RNA but depleted in polysomes. If RNase H degradation: PG mRNA reduced in both total RNA and polysomes. Controls: wild-type, empty vector transformant, and a known translation inhibitor (e.g., cycloheximide). A poor answer omits polysome fractionation or uses only total RNA qPCR, failing to distinguish the mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

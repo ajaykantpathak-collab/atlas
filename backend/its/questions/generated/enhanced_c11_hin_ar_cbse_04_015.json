@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_04_015",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_04_015",
+   "title": "c11_hin_ar_cbse_04_015",
+   "questions": [
+    {
+     "q": "Define \"academic register\" (शैक्षिक शैली) in the context of a Hindi literary discussion. How does it differ from casual conversation?",
+     "a": "Academic register uses formal vocabulary (तत्सम शब्द like 'शोषण', 'विडंबना', 'उपनिवेशवाद'), complete sentences with proper syntax, impersonal tone (avoiding 'मुझे लगता है', using 'पाठ से स्पष्ट होता है'), and structured argumentation (claim-evidence-reasoning). A wrong answer — \"just speaking properly\" — reveals the student confuses register with mere politeness, missing the disciplinary vocabulary and logical architecture required for literary discourse.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"This chapter is just about a British officer being rude.\" Explain why this interpretation fails to meet the analytical standard for Class 11 discussion.",
+     "a": "The interpretation reduces a complex satirical text to a single behavioral observation, ignoring: (1) the historical allegory (Curzon as colonialism personified), (2) the structural irony (the narrator's subversive mimicry), (3) the thematic depth (cultural erasure, economic exploitation, epistemic violence). A wrong answer reveals the student reads literally, missing allegory and authorial strategy — a Class 10 habit that must be unlearned for senior secondary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "During a discussion, a peer argues: \"Vaid's narrator is unrealistic — no Indian could speak so boldly to a Viceroy.\" Using textual evidence, formulate a spoken rebuttal that defends the text's artistic choice.",
+     "a": "Rebuttal structure: (1) Acknowledge the surface implausibility — \"सतही तौर पर यह अविश्वसनीय लगता है\" (2) Identify the device — \"लेकिन यह यथार्थवादी चित्रण नहीं, व्यंग्यात्मक कल्पना (satirical fantasy) है\" (3) Cite evidence — \"पाठ में वायसराय स्वयं स्वीकार करता है: 'तुम्हारी हिम्मत कैसे हुई...' जो दर्शाता है कि लेखक सत्ता के सामने प्रतिरोध की संभावना रच रहा है\" (4) Connect to theme — \"यह 'असंभव' संवाद ही उपनिवेशवाद की नैतिक खोखलेपन को उजागर करता है।\" A weak answer merely disagrees without naming the literary device or citing text.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two discussion approaches: (A) Listing all themes you remember from the chapter. (B) Tracing ONE theme (e.g., 'epistemic violence') through three specific textual moments with analysis. Which demonstrates higher-order thinking? Justify.",
+     "a": "Approach B demonstrates analysis (Bloom's Level 4) because it: (1) selects and narrows focus, (2) synthesizes evidence across the text, (3) explains HOW the theme operates (not just THAT it exists), (4) reveals authorial craft. Approach A is mere recall (Level 1). A student choosing A reveals they equate \"discussion\" with \"information dump\" — a fundamental misconception about academic dialogue.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this discussion contribution: \"I think the ending is hopeful because the narrator wins the argument.\" Provide a critique using textual evidence and suggest how to reframe it analytically.",
+     "a": "Critique: The claim misreads the ending's ambiguity — the Viceroy's departure is tactical, not defeat (\"अभी तो यह शुरुआत है\" implies ongoing struggle). The word \"wins\" imposes a binary victory narrative on a text that resists closure. Analytical reframe: \"The ending refuses resolution: the narrator's rhetorical victory (व्यंग्यात्मक विजय) coexists with historical reality (इतिहास की वास्तविकता) where Curzon's policies continued. This tension — between discursive triumph and material continuity — is precisely Vaid's critique of anti-colonial discourse.\" A poor evaluation accepts the surface reading without interrogating the text's complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 90-second opening statement for a formal discussion on: \"How does Vaid use the Viceroy's own language to expose colonial contradictions?\" Include: thesis, two textual anchors, and a bridging question for the group.",
+     "a": "Model opening: \"थीसिस: वैद वायसराय की भाषा को ही उसके विरुद्ध हथियार बनाते हैं — उसकी 'सभ्यता' की शब्दावली (vocabulary of civilization) उसके शोषण को ढकने का आवरण बन जाती है। पहला प्रमाण: वायसराय 'विकास' (development) शब्द का प्रयोग करता है, पर पाठ दिखाता है कि यह 'विकास' केवल ब्रिटिश हितों की पूर्ति करता है — 'रेलवे भारतीयों के लिए नहीं, कच्चे माल की ढुलाई के लिए'। दूसरा प्रमाण: 'कानून और व्यवस्था' (law and order) का नारा तब खोखला लगता है जब वायसराय स्वयं स्वीकार करता है कि 'न्याय केवल शासकों के लिए'। ब्रिजिंग प्रश्न: क्या आपको लगता है कि भाषा का यह आत्म-विरोधाभास (self-contradiction) केवल औपनिवेशिक संदर्भ में है, या समकालीन सत्ता-भाषा में भी दिखता है?\" A weak answer lacks thesis clarity, uses vague references, or omits the bridging question that invites dialogue.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

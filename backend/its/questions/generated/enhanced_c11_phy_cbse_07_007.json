@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_007",
+   "title": "c11_phy_cbse_07_007",
+   "questions": [
+    {
+     "q": "State the formula for effective acceleration due to gravity at latitude \\(\\lambda\\) and define each symbol with its SI unit.",
+     "a": "\\(g_{\\text{eff}} = g - \\omega^2 R \\cos^2\\lambda\\), where \\(g\\) = true gravitational acceleration (m/s²), \\(\\omega\\) = angular speed of Earth (rad/s), \\(R\\) = Earth's radius (m), \\(\\lambda\\) = latitude (rad or °). A wrong answer (e.g., missing \\(\\cos^2\\lambda\\) or using \\(\\sin\\lambda\\)) reveals confusion with the altitude/depth formulas or incorrect vector resolution of centrifugal acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the centrifugal acceleration due to Earth's rotation reduce the effective \\(g\\) at the equator but have zero radial effect at the poles? Explain using the direction of the centrifugal acceleration vector.",
+     "a": "At the equator (\\(\\lambda=0\\)), the centrifugal acceleration \\(\\omega^2 R\\) points exactly opposite to the true gravitational acceleration \\(g\\) (both along the radial line), so it directly subtracts from \\(g\\). At the poles (\\(\\lambda=90^\\circ\\)), the distance from the rotation axis is zero, so the centrifugal acceleration is zero; hence \\(g_{\\text{eff}} = g\\). A wrong answer indicates the student thinks centrifugal force always acts vertically upward everywhere, rather than perpendicular to the rotation axis.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the effective \\(g\\) at Mumbai (latitude \\(19^\\circ\\,\\text{N}\\)). Use \\(g = 9.80\\,\\text{m/s}^2\\), \\(R = 6400\\,\\text{km}\\), \\(\\omega = 7.29 \\times 10^{-5}\\,\\text{rad/s}\\). Give answer in m/s² to three significant figures.",
+     "a": "Step 1: \\(\\omega^2 R = (7.29 \\times 10^{-5})^2 \\times 6.4 \\times 10^6 = 0.0340\\,\\text{m/s}^2\\).  \nStep 2: \\(\\cos 19^\\circ = 0.9455\\), \\(\\cos^2 19^\\circ = 0.8940\\).  \nStep 3: Reduction = \\(0.0340 \\times 0.8940 = 0.0304\\,\\text{m/s}^2\\).  \nStep 4: \\(g_{\\text{eff}} = 9.80 - 0.0304 = 9.7696 \\approx 9.77\\,\\text{m/s}^2\\).  \nA wrong answer (e.g., 9.80 or 9.77 without correct reduction) shows unit conversion error (km to m) or forgetting the \\(\\cos^2\\lambda\\) factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If Earth's rotation speed doubles, the reduction in \\(g\\) at the equator becomes four times larger, but at \\(45^\\circ\\) latitude it only becomes twice as large.\" Is this correct? Justify using the formula.",
+     "a": "The claim is incorrect. The reduction is \\(\\omega^2 R \\cos^2\\lambda\\). If \\(\\omega\\) doubles, \\(\\omega^2\\) becomes 4 times larger at **all** latitudes. At the equator (\\(\\cos^2 0 = 1\\)), reduction quadruples. At \\(45^\\circ\\) (\\(\\cos^2 45^\\circ = 0.5\\)), reduction also quadruples (from \\(0.5\\omega^2 R\\) to \\(0.5 \\times 4\\omega^2 R = 2\\omega^2 R\\)). The student incorrectly treated the latitude factor as changing with \\(\\omega\\). This reveals a misunderstanding that the latitude dependence is independent of \\(\\omega\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical spring balances are calibrated at the poles. One is taken to the equator, the other to \\(45^\\circ\\) latitude. Both measure the same 100 kg mass. Which balance shows a larger reading? By what percentage (approximately) do the two readings differ? Use \\(\\omega^2 R \\approx 0.034\\,\\text{m/s}^2\\), \\(g \\approx 9.8\\,\\text{m/s}^2\\).",
+     "a": "At the equator: reduction = \\(0.034\\,\\text{m/s}^2\\) → \\(g_{\\text{eff}} = 9.766\\,\\text{m/s}^2\\) → reading = \\(976.6\\,\\text{N}\\).  \nAt \\(45^\\circ\\): \\(\\cos^2 45^\\circ = 0.5\\) → reduction = \\(0.017\\,\\text{m/s}^2\\) → \\(g_{\\text{eff}} = 9.783\\,\\text{m/s}^2\\) → reading = \\(978.3\\,\\text{N}\\).  \nThe \\(45^\\circ\\) balance shows a larger reading. Percentage difference = \\(\\frac{978.3 - 976.6}{978.3} \\times 100\\% \\approx 0.17\\%\\).  \nA wrong answer (e.g., equator reading larger) reveals confusion that centrifugal effect increases with latitude.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a rotating turntable, a small spring balance, and a mass to show that the apparent weight of an object decreases when the system rotates. Explain how the turntable models Earth's rotation and what the spring balance measures.",
+     "a": "Place the spring balance with a hanging mass at the centre of a rotating turntable (models pole: no centrifugal effect, reading = \\(mg\\)). Then move the balance to the edge of the turntable (models equator: maximum centrifugal effect). As the turntable rotates, the spring balance reading decreases because the mass requires a centripetal force provided partly by the spring tension. The reduction in tension equals \\(m\\omega^2 r\\). A poor answer describes only a qualitative idea without linking the turntable's centre/edge to poles/equator or the spring tension to apparent weight.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

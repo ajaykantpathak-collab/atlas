@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_11",
+   "title": "c9_geo_ch2_11",
+   "questions": [
+    {
+     "q": "Define 'radiative forcing' in the context of human-induced climate change and state its unit of measurement.",
+     "a": "Radiative forcing is the change in net irradiance (incoming minus outgoing radiation) at the tropopause due to a change in an external driver (e.g., CO₂ concentration), measured in watts per square meter (W/m²). A wrong answer (e.g., \"it's the same as temperature rise\" or \"measured in ppm\") reveals confusion between the *cause* (energy imbalance) and the *effect* (temperature change), or between concentration units and flux units.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why black carbon (soot) from biomass burning in Punjab has a stronger *regional* warming effect over the Himalayas than an equal mass of CO₂ emitted from a power plant in Tamil Nadu, even though CO₂ has a larger *global* forcing.",
+     "a": "Black carbon is a short-lived climate forcer that absorbs sunlight strongly and deposits on snow/ice, reducing albedo and accelerating melt — its effect is concentrated near emission sources (Indo-Gangetic Plain) and downwind (Himalayas). CO₂ is well-mixed globally; its forcing is uniform. A wrong answer (e.g., \"CO₂ is always stronger\") shows inability to distinguish between global vs. regional forcing, and between well-mixed greenhouse gases and short-lived aerosols with heterogeneous impacts.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'carbon intensity' (CO₂ emitted per unit GDP), calculate the approximate annual CO₂ emissions from India's coal-based electricity sector if: (a) coal generation = 1,100 TWh, (b) average emission factor = 0.95 tCO₂/MWh, (c) transmission losses = 7%. Show steps.",
+     "a": "Step 1: Convert TWh to MWh: 1,100 TWh = 1,100 × 10⁶ MWh.\nStep 2: Gross emissions = 1,100 × 10⁶ MWh × 0.95 tCO₂/MWh = 1.045 × 10⁹ tCO₂ = 1.045 GtCO₂.\nStep 3: Adjust for losses (emissions occur at plant, so losses don't reduce emissions): no adjustment needed for emissions calculation.\nAnswer: ~1.05 GtCO₂/year. A wrong answer (e.g., subtracting 7%) reveals misunderstanding that transmission losses affect *delivered* electricity, not *generated* emissions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of two land-use changes on local climate: (i) conversion of Western Ghats evergreen forest to areca nut plantation, (ii) conversion of Thar Desert scrub to solar park. Analyze which causes greater disruption to regional rainfall recycling and why.",
+     "a": "Western Ghats conversion disrupts rainfall recycling more severely. Evergreen forests sustain high evapotranspiration (ET) year-round, feeding moisture into the monsoon flow; replacement with shallow-rooted plantations reduces ET, weakening the 'biotic pump' that draws moist winds inland. Solar parks in Thar increase albedo but add minimal ET — desert contribution to recycling was already low. A wrong answer (e.g., \"solar parks are worse because they cover large areas\") indicates failure to link vegetation depth, root zone moisture access, and atmospheric moisture convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's per capita CO₂ emissions are low (~1.9 tCO₂), so it has no moral obligation to reduce emissions until developed nations reach the same level.\" Consider historical responsibility, carbon budget equity, and climate vulnerability.",
+     "a": "The statement is ethically incomplete. While India's per capita emissions are low, its *cumulative* emissions (1850-present) are ~3% of global total vs. 25% for USA. However, the remaining carbon budget for 1.5°C is ~500 GtCO₂; if India follows a high-emission pathway, it will consume a disproportionate share. Moreover, India's high vulnerability (Himalayan glaciers, monsoon dependence, coastal density) makes early mitigation a *self-interest* imperative. A wrong answer (e.g., \"India should emit freely because others did\") ignores carbon budget constraints and the non-linear risks of crossing tipping points that disproportionately harm the Global South.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step 'climate resilience audit' for a coastal city (e.g., Mumbai) that integrates: (a) observed sea-level rise trend, (b) land subsidence from groundwater extraction, (c) storm surge amplification from Arabian Sea warming. Specify one measurable indicator for each step.",
+     "a": "Step 1: Quantify relative sea-level rise (RSLR) = satellite altimetry trend (e.g., 3.3 mm/yr) + GPS-measured subsidence rate (e.g., 2 mm/yr from aquifer compaction). Indicator: RSLR in mm/yr.\nStep 2: Model 100-year storm surge height using CMIP6 projections of Arabian Sea SST + cyclone intensity. Indicator: Projected surge elevation (m above chart datum) for 2050.\nStep 3: Map critical infrastructure (power, hospitals, transport) below the Step 2 elevation + 0.5 m safety margin. Indicator: % of critical assets in inundation zone.\nA poor answer (e.g., only listing \"build walls\") shows inability to integrate physical drivers, observations, and exposure assessment into a decision-relevant framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

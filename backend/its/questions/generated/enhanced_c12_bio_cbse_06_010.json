@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_010",
+   "title": "c12_bio_cbse_06_010",
+   "questions": [
+    {
+     "q": "What type of DNA sequences are primarily targeted in classical DNA fingerprinting using Southern blotting, and why are they suitable for individual identification?",
+     "a": "Classical DNA fingerprinting targets Variable Number Tandem Repeats (VNTRs) — minisatellite regions with a core repeat unit of 10–100 bp repeated many times. They are suitable because the number of repeats varies greatly among unrelated individuals (high polymorphism) but is stably inherited, producing a unique band pattern for each person. A wrong answer (e.g., “coding genes” or “single nucleotide polymorphisms”) reveals confusion between polymorphic repetitive DNA and other types of genetic variation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Southern blotting followed by hybridisation with a labelled probe necessary after gel electrophoresis in VNTR‑based fingerprinting? Could we simply stain the gel with ethidium bromide and visualise the bands?",
+     "a": "Ethidium bromide stains all DNA fragments, producing a smear because the genome contains millions of fragments of varying sizes. The probe hybridises only to fragments containing the complementary repeat sequence, revealing a discrete set of bands specific to the VNTR loci. A wrong answer (e.g., “staining is enough”) shows the student does not understand the need for locus‑specific detection amid genomic complexity.",
+     "self_check": true
+    },
+    {
+     "q": "A forensic lab receives a degraded DNA sample from a 10‑year‑old bone. The scientist decides to use PCR‑based STR analysis instead of Southern blot VNTR analysis. Explain the biochemical and practical reasons for this choice.",
+     "a": "Degraded DNA is fragmented into small pieces. VNTR loci are large (0.5–20 kb) and require intact high‑molecular‑weight DNA for restriction digestion and Southern blotting. STR loci are short (100–500 bp), so even fragmented DNA can be amplified by PCR. PCR also needs only nanogram quantities, works with degraded samples, and allows automation. A wrong answer that misses the size difference or the sensitivity of PCR indicates a gap in understanding method limitations.",
+     "self_check": true
+    },
+    {
+     "q": "In a paternity dispute, the alleged father’s DNA fingerprint shows bands at 3.2 kb and 4.8 kb for a particular VNTR probe. The child shows bands at 3.2 kb and 5.5 kb. The mother shows bands at 4.8 kb and 5.5 kb. Is the alleged father excluded or included? Justify using Mendelian inheritance of VNTR alleles.",
+     "a": "The alleged father is **included** (not excluded). The child must inherit one allele from each parent. The child’s 3.2 kb band matches the father’s 3.2 kb band; the child’s 5.5 kb band matches the mother’s 5.5 kb band. The father’s other band (4.8 kb) is also present in the mother, but the child did not inherit it — that is permissible. Exclusion would occur if the child had a band not present in either parent. A wrong conclusion shows misunderstanding of allele inheritance or band‑matching logic.",
+     "self_check": true
+    },
+    {
+     "q": "A news report claims “DNA fingerprinting proves two individuals are identical because their band patterns match at 5 loci.” Critically evaluate this statement. What additional statistical concept is required to assess the weight of such a match?",
+     "a": "Matching at 5 loci does not “prove” identity; it provides a probability. The required concept is **match probability** (or random match probability) — the chance that a randomly selected unrelated individual would have the same profile at those loci, calculated using population allele frequencies (Hardy‑Weinberg equilibrium). Without this, the statement confuses a match with absolute proof. A wrong evaluation that treats a match as definitive shows ignorance of population genetics and statistical interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom simulation (using paper strips or coloured beads) to demonstrate how DNA fingerprinting distinguishes between three individuals. Describe the materials, steps, and how you would explain the concepts of polymorphism, probe hybridisation, and band pattern uniqueness.",
+     "a": "Materials: three long paper strips per student (representing homologous chromosomes), scissors, coloured markers for repeat units, a “probe” strip with a complementary colour pattern. Steps: (1) Each student draws a different number of repeat units (e.g., 5, 8, 12) on their strips — polymorphism. (2) Cut strips at “restriction sites” flanking the repeats. (3) Separate fragments by length on a “gel” (a ruler). (4) Place probe strip; it binds only to fragments with the repeat colour — hybridisation. (5) Visualise bound probes — each student sees a unique band position. A poor simulation that uses identical repeat numbers or omits the probe step fails to model the core principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_006",
+   "title": "c11_hist_cbse_02_006",
+   "questions": [
+    {
+     "q": "What was the primary container used for transporting Spanish olive oil during the peak years 140-160 CE, and what does its widespread distribution reveal about Roman economic integration?",
+     "a": "The primary container was the *Dressel 20* amphora, a globular vessel with thick handles stamped with producer marks. Its fragments found from Britain to India prove Spanish olive oil from Baetica captured Mediterranean markets by offering better quality at lower prices, demonstrating a competitive, integrated market where provincial producers displaced Italian ones. A wrong answer (e.g., \"Dressel 1\" or \"barrels\") reveals the student cannot link archaeological typology to economic history — a core Class 11 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Roman agricultural writers like Columella recommend keeping *twice* the necessary tools and organising slaves into squads of ten, and what does this reveal about labour economics on *latifundia*?",
+     "a": "Columella calculated that \"the loss in slave labour-time exceeds the cost of such items\" — idle time during harvest cost more than extra tools. Squads of ten made supervision efficient: a *vilicus* could spot shirkers instantly. This reveals slave labour was treated as a capital asset requiring minimisation of downtime, not mere brutality. A wrong answer focusing only on cruelty misses the economic rationality: slaves were expensive investments (3 million in Italy under Augustus), so owners optimised their deployment like modern factory managers.",
+     "self_check": true
+    },
+    {
+     "q": "A papyrus from 3rd-century Egypt records a village where peasants fled to avoid agricultural work, while a law of 398 CE brands workers to prevent escape. Using these sources, explain why \"free\" wage labourers often faced controls resembling slavery in the later Roman countryside.",
+     "a": "Both sources show the state and landowners coercing labour mobility because agriculture was disliked and seasonal. The 3rd-century edict mentions peasants deserting villages \"in order not to engage in agricultural work\"; the 398 law brands workers so they can be caught if they flee. Employers used debt contracts to bind \"free\" workers, and parents sold children into 25-year servitude (Augustine's letters). This reveals a spectrum of unfreedom: nominal freedom masked by economic compulsion and legal coercion. A wrong answer treating \"free\" and \"slave\" as binary categories misses the continuum of labour control central to Roman agrarian history.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Roman *latifundia* system (1st-3rd century CE) with the Mughal *zamindari* and *ryotwari* systems (16th-18th century CE) on three dimensions: (a) land ownership vs. control, (b) labour relation, (c) market orientation. Use specific terms (*coloni*, *vilicus*, *zamindar*, *ryot*) in your answer.",
+     "a": "(a) *Latifundia*: absentee senatorial/equite owners, managed by *vilicus*; Mughal: *zamindars* held revenue rights (*malikana*), not proprietary ownership, *ryots* held cultivation rights. (b) *Latifundia*: slave gangs → *coloni* (hereditary tenants bound to soil); Mughal: *ryots* paid revenue directly or via *zamindar*, could not be evicted arbitrarily but owed share of produce. (c) *Latifundia*: export-oriented (olive oil, wine via amphorae); Mughal: revenue-oriented (cash crops like cotton, indigo for state revenue). A weak answer generalises \"feudalism\" without distinguishing Roman market integration from Mughal revenue farming.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Roman agricultural slavery was declining by the 2nd century CE because Christianity promoted human dignity.\" Use evidence from the textbook on slave supply, economic calculation, and the *coloni* system.",
+     "a": "The claim is false. Slavery declined due to *economic* factors: end of major wars cut slave supply (no new captives), making slave breeding and purchase expensive. Columella advised against slaves in malaria zones or harvests — a cost calculation, not morality. Wage labour and *coloni* tenancy were cheaper: slaves needed year-round maintenance; hired workers were \"more easily dispensable.\" Christianity became state religion only in 4th century, long after the shift. A wrong answer conflates 4th-century Christian rhetoric with 2nd-century economic reality, ignoring the textbook's explicit statement: \"These considerations were not based on any sympathy for the slaves but on hard economic calculation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument using *only* amphorae evidence (types, stamps, distribution maps) to prove that the Roman countryside was not a subsistence backwater but a profit-driven, interregional production zone. Structure your answer as: Claim → Evidence 1 → Evidence 2 → Evidence 3 → Conclusion.",
+     "a": "Claim: Roman rural estates produced for long-distance markets, not local subsistence. Evidence 1: *Dressel 20* amphorae (Baetican olive oil) dominate Monte Testaccio (50+ million sherds in Rome) and appear across Mediterranean, proving mass export. Evidence 2: Stamps on amphorae name specific estates (*fundi*) and producers, showing branded, quality-controlled output — e.g., \"L. Iunius\" from Baetica. Evidence 3: Shift from Italian *Dressel 1* to Spanish *Dressel 20* to North African *African Red Slip* containers maps a competitive succession of regional specialisations, each capturing markets through price/quality. Conclusion: The countryside was a dynamic, market-responsive sector where elites invested in processing (oil presses, screw presses) and transport to maximise returns — \"big business\" in antiquity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

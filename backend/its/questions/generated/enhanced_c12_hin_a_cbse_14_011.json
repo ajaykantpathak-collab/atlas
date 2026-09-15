@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_14_011",
+   "title": "c12_hin_a_cbse_14_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the construction \"lhax fudyuk\" as used in the opening line of 'ksj. Explain its formation in one sentence.",
+     "a": "\"lhax fudyuk\" is a compound verb (संयुक्त क्रिया) formed by combining the adverbial/adjectival element \"lhax\" (secretly/hiddenly) with the verb \"fudyuk\" (to tremble/shake), functioning as a single predicate meaning \"to tremble secretly\". A wrong answer (e.g., calling it a simple verb or an idiom) reveals the student cannot distinguish between lexical compounds and grammatical compound verbs, a distinction critical for board exam \"shabd roop\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "In igpku, the king orders: \"yksxksa us ,slk gh fd;k vkSj mRiknu vk'p;Ztud rjhosQ ls c<+ x;k\". Explain why the author uses the passive construction \"mRiknu vk'p;Ztud rjhosQ ls c<+ x;k\" instead of an active voice equivalent. What effect does this create?",
+     "a": "The passive construction shifts agency from the people to the abstract \"administration\", emphasizing systemic collapse rather than individual action. It creates a tone of inevitability and dehumanization. A student who only identifies \"passive voice\" without linking to thematic effect misses the analytical depth required for 4-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from pkj gkFk using the causative verb form (प्रेरणार्थक क्रिया) while retaining the original meaning: \"fey ekfyd oSKkfudksa ls ukjk\"k gks x;k\". Show the morphological change.",
+     "a": "\"fey ekfyd ne oSKkfudksa dks ukjk\"k fd;k\" — the intransitive \"ukjk\"k\" (got angry) becomes transitive causative \"ukjk\"k fd;k\" (made [someone] angry) with the agent marked by \"ne\" and the causee by \"dks\". A student who simply changes the verb without adjusting case markers (ne/dks) demonstrates incomplete mastery of Hindi causative syntax, a frequent error in board transformation exercises.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of the imperative mood in the king's decrees (igpku) with the hortative/optative mood in the old man's plea in lk>k (\"vkvks] ge feydj xUus [kk,¡\"). How do these mood choices reflect the power relationship between speaker and listener in each story?",
+     "a": "The king's imperatives (can djrs, flyok ysa, dVokus) are direct commands backed by state power, leaving no room for negotiation. The old man's \"vkvks ... [kk,¡\" uses the optative particle \"vkvks\" (let us) + subjunctive \"kk,¡\", framing the action as a mutual, voluntary sharing between equals. A response that only labels moods without contrasting power dynamics fails to connect grammar to the chapter's core theme of authority vs. humanity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The phrase 'MqXxh ihVuk' in 'ksj is merely a lexical item meaning 'to warn'; its grammatical structure is irrelevant to the story's meaning.\" Defend your position with textual evidence.",
+     "a": "The claim is false. \"MqXxh ihVuk\" is a noun+verb compound (संज्ञा + क्रिया) where \"MqXxh\" (a loud sound/drumbeat) functions as an incorporated object. This structure evokes the historical practice of drum-beat announcements, embedding cultural memory into a single predicate. The grammatical fusion mirrors how the king's warning system fuses sound and authority. A student who treats it as a simple idiom misses the morphosyntactic encoding of tradition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence using the \"i^h i<+kuk\" (teaching forcefully/imposing education) construction that could fit into the narrative of pkj gkFk, showing the fey ekfyd's changed attitude after realizing the value of the four legs. Use the same grammatical pattern (causative + adverbial of manner).",
+     "a": "Example: \"fey ekfyd ne e\"knwjksa dks i^h i<+kuk ds fy, mudh ekfyd osQ mik; djks\" — uses causative \"i<+kuk\" (make learn) with adverbial \"i^h\" (forcefully) and instrumental \"mik;\" (through). A poor answer would use a simple verb like \"i<+kuk\" without the causative force or the adverbial, failing to replicate the text's grammatical texture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

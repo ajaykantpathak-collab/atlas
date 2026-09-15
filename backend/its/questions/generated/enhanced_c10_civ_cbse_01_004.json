@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_004",
+   "title": "c10_civ_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three organs of government in horizontal power sharing and cite one constitutional article range for each at the Union level.",
+     "a": "Legislature (Parliament) — Articles 79-122; Executive (President, PM, Council of Ministers) — Articles 52-78; Judiciary (Supreme Court) — Articles 124-147. A wrong answer like \"Prime Minister makes laws\" reveals confusion between Executive and Legislative roles, a common error where students think the head of government legislates.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Constitution separates law-making, law-implementing, and law-interpreting powers into three different organs instead of giving all powers to one body.",
+     "a": "Separation prevents concentration of power (tyranny), enables checks and balances (e.g., Judiciary can review Executive actions and Legislative laws), and ensures accountability — each organ monitors the others. A wrong answer like \"it makes government faster\" shows misunderstanding; separation actually slows decision-making deliberately to protect liberty.",
+     "self_check": true
+    },
+    {
+     "q": "A new law passed by Parliament requires all social media platforms to remove \"anti-national\" content within 24 hours without a court order. The Ministry of Electronics issues rules to enforce it. A citizen files a petition in the Supreme Court. Identify which organ performs which function in this scenario.",
+     "a": "Parliament (Legislature) made the law; Ministry/Executive implements it via rules; Supreme Court (Judiciary) will interpret whether the law violates Fundamental Rights (Article 19, 21). A wrong answer like \"the Ministry made the law\" confuses delegated legislation with primary legislation — students often miss that only Parliament can make laws, the Executive only makes subordinate rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the check that the Legislature has over the Executive with the check that the Judiciary has over the Legislature. How are they different in nature?",
+     "a": "Legislature checks Executive through no-confidence motions, question hour, budget approval — political accountability. Judiciary checks Legislature through judicial review (Article 13, 32, 136) — constitutional/legal accountability. The former is political (majority-based), the latter is legal (constitution-based). A wrong answer like \"both can remove the other\" shows confusion: Judiciary cannot remove Parliament, only strike down laws.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Horizontal power sharing is effective in India because the Judiciary is completely independent and can strike down any law.\" Consider the role of judicial appointments and parliamentary sovereignty.",
+     "a": "The statement is partially true but incomplete. Judiciary has independence (security of tenure, fixed salaries, appointment via collegium), but Parliament can amend the Constitution (Article 368) to override judicial interpretations (e.g., 24th, 25th Amendments). Also, judicial appointments involve Executive. Effectiveness depends on balance, not absolute power. A wrong answer like \"Judiciary is supreme\" ignores constitutional amendment power and basic structure doctrine limits.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart showing how a Bill becomes an Act and where each of the three organs exercises its power or check in the process. Include at least two checks by each organ.",
+     "a": "Flowchart: Bill introduced (Legislature initiates) → Debate/Vote in both Houses (Legislature exercises law-making) → President's assent (Executive check: can return once, pocket veto) → Becomes Act → Implementation by Executive (rules, orders) → Challenge in Court (Judiciary check: judicial review) → Court upholds/strikes down → If struck, Legislature may amend Constitution or re-legislate. A poor answer misses the President's role or thinks Judiciary approves laws before passage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

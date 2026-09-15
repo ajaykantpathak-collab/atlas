@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_10_011",
+   "title": "c12_hin_ar_cbse_10_011",
+   "questions": [
+    {
+     "q": "Identify the specific verb ending used by HkfDru in the text that replaces the standard Hindi 'है' (hai) or 'हैं' (hain), and give one example sentence from the chapter where it appears.",
+     "a": "The verb ending is 'थ' (th) used for both singular and plural present tense (e.g., \"गक; गस\" -> \"गक; गथ\", \"यथक\" -> \"यथथ\"). Example from text: \"गे ओक्ओक्झ फच्क्झ उ गक्स;¡] गेक्ज इक्ल्क्ब्ज रकस गे नवल्जक उसक त्क उ रकएग्ज इपस ध नकrh इस गक्सजग्क ह्क¡डत्स व्क्स्ज क्त द्जक] लेँकस ज्गकSA\" (Here 'गक्स;¡' and 'गक्सजग्क' show the 'थ' ending). A wrong answer (e.g., saying 'है' or 'हो') reveals the student has not noticed the consistent dialect marker that constructs HkfDru's authentic voice, treating her speech as standard Hindi.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author uses the word 'वकील' (vakeel) in the sentence \"रक्जर मÙक्ज फेर्क्मुङ्क ब्जे ब्जे रक्जा ह्की;क\" (context: HkfDru describing her cooking) instead of the standard Hindi 'बहुत' (bahut) or 'अत्यधिक' (atyadhik). What does this choice reveal about HkfDru's background?",
+     "a": "'वकील' (vakeel) here is a Braj/Avadhi dialect intensifier meaning 'very much' or 'extremely', not the standard Hindi 'lawyer'. Its use signals HkfDru's rural, non-formal linguistic environment and lack of standardized education. A wrong answer interpreting it as 'lawyer' shows the student is imposing standard dictionary meanings on dialect words, missing how vocabulary *localizes* the character and anchors her in a specific speech community.",
+     "self_check": true
+    },
+    {
+     "q": "Transform the following folk-language sentence from the text into standard Hindi, then explain what pragmatic force is lost: \"गेक्ज उसक रकस ज्क्र-फ्नु फ्द्र्फ्क;उ एक¡ ि्क¡ इमह ज्गकSA\" (Ge kj eu iqlkbZ rkS ge nwljk osQ tkc uk¯g r rqEgkj ipS dh Nkrh iS gksjgk Hk¡wtc vkSj jkt djc] leq>s jgkSA)",
+     "a": "Standard Hindi: \"यदि आपको पसंद है तो हम नई जगह के टिकट नहीं लेंगे, इसलिए आपकी सीट पक्की हो जाएगी, समझ लीजिए।\" Lost pragmatic force: The original uses 'गेक्ज' (gekj - Braj for 'if/when'), 'उसक' (usak - 'for him/her' but here 'for you' honorific), 'इमह' (imah - 'not' dialect), 'ज्गक' (jgk - 'understand' imperative). The dialect version carries intimacy, oral rhythm, and HkfDru's unselfconscious authority; the standard version sounds transactional and distant. A student who only translates vocabulary without commenting on *register shift* misses the stylistic analysis required at Class 12.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the compound word 'च्गुक्स्ब्ज़' (cguksbZ) used in the text. Break it into its constituents (समास विग्रह), identify the समास type, and explain why the author might choose this compound over a periphrastic phrase like 'च्गु क़ा व्क्स्ब्ज़' (cgu ka vksbZ).",
+     "a": "Vigrah: च्गु (cgu - L=kh) + व्क्स्ब्ज़ (vksbZ - izR;;) = च्गुक्स्ब्ज़ (cguksbZ). Samasa: तत्पुरुष (Tatpurusha) — specifically द्वितीया तत्पुरुष (Dvitiya Tatpurusha) where the first member is in instrumental sense (च्गु ने/से). The compound condenses 'L=kh's words' into a single lexical unit, making HkfDru's reference to her master's authority compact, habitual, and almost like a proper noun/title. A periphrastic phrase would sound analytical and distant; the compound shows how deeply internalized the master's authority is in her speech. A wrong answer identifying it as Karmadharaya or Dvandva reveals confusion in samasa classification; missing the *stylistic compression* point misses the literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The use of honorific plural (e.g., 'हम' for 'मैं', 'आप' for 'तुम') by HkfDru throughout the text is merely a reflection of her low social status and lack of education.\" Defend or refute with two textual evidences.",
+     "a": "Refute. Evidence 1: HkfDru uses 'हम' (hum) for herself even when asserting dignity (\"हम ओक्ओक्झ फच्क्झ उ गक्स;¡\" — \"We are not beggars\") — here honorific plural signals *self-respect*, not subservience. Evidence 2: She uses honorifics for the narrator (\"आप\", \"आपके\") but switches to intimate 'तू' (implied in verb endings) for her own children and in moments of raw emotion, showing *code-switching* based on relational intimacy, not fixed hierarchy. A student agreeing with the statement confuses honorific usage with powerlessness, ignoring how HkfDru weaponizes politeness as agency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 4-line dialogue snippet between HkfDru and the narrator where HkfDru uses at least three distinct dialect/grammar features from the text (e.g., 'थ' ending, 'वकील', 'हम' for 'मैं', a folk idiom). Write it in Devanagari and provide a gloss.",
+     "a": "Sample answer:\nहक्फ्द्रु: \"हम वकील थकक गे, आपक़े वासते फच्क्झ नहि बि थथ।\" (Hum vakeel thakke ge, aapke vaaste phachkj nahi ban thhe.) — \"I worked extremely hard for you, didn't even make a fuss.\"\nनैरेटर: \"हक्फ्द्रु, आप थक गइँ।\" (HkfDru, aap thak gayin.)\nहक्फ्द्रु: \"थकना हमक़ो नहि आथ, ब्बेटा। एकु उसक एकु हम रस्जक उसगेकु।\" (Thakna hamko nahi aath, beta. Eku usak eku ham rsjk useku.) — \"Tiredness doesn't come to me, child. One for the master, one for myself.\"\nग्लॉस: Uses 'थ' (th) in 'थकक/थथ/आथ', 'वकील' (vakeel) as intensifier, 'हम' (hum) for 'मैं', folk idiom 'एकु उसक एकु हम रस्जक उसगेकु'. A poor answer uses standard Hindi throughout or mixes features randomly without HkfDru's consistent voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

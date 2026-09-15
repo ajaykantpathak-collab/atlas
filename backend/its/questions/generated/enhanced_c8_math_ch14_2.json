@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_2",
+   "title": "c8_math_ch14_2",
+   "questions": [
+    {
+     "q": "What is the formula for the area of a triangle in terms of its base \\(b\\) and height \\(h\\)?",
+     "a": "The formula is \\(\\text{Area} = \\frac{1}{2} \\times b \\times h\\). A wrong answer (e.g., \\(b \\times h\\) or \\(\\frac{1}{2} \\times b \\times h \\times 2\\)) reveals the student has not internalised the \"half of rectangle\" concept and is likely guessing or confusing it with the rectangle formula.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangle has base 10 cm and height 6 cm. A diagonal divides it into two triangles. Why is the area of each triangle exactly half the rectangle's area, and not some other fraction?",
+     "a": "The diagonal splits the rectangle into two congruent right triangles (by RHS congruence: same hypotenuse, same legs). Since they are congruent, they have equal area, and together they sum to the rectangle's area, so each is exactly half. A wrong answer (e.g., \"because the formula says so\" or \"the diagonal cuts it in two\") shows the student cannot justify the geometric reason — they know the rule but not the proof.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of a triangle with base 14 cm and corresponding height 9 cm.",
+     "a": "Step 1: Write formula: \\(A = \\frac{1}{2} \\times b \\times h\\).  \nStep 2: Substitute \\(b = 14\\), \\(h = 9\\): \\(A = \\frac{1}{2} \\times 14 \\times 9\\).  \nStep 3: Simplify: \\(\\frac{1}{2} \\times 14 = 7\\), then \\(7 \\times 9 = 63\\).  \nStep 4: Area = 63 cm².  \nA wrong answer like 126 cm² (forgetting the half) or 23 cm² (adding instead of multiplying) reveals the student either ignores the \\(\\frac{1}{2}\\) factor or misapplies arithmetic operations.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have the same base 12 cm. Triangle A has height 8 cm. Triangle B has height 5 cm but is obtuse, with the height drawn outside the triangle. Compare their areas. Does the formula \\(\\frac{1}{2} \\times b \\times h\\) work for Triangle B? Explain.",
+     "a": "Triangle A area = \\(\\frac{1}{2} \\times 12 \\times 8 = 48\\) cm². Triangle B area = \\(\\frac{1}{2} \\times 12 \\times 5 = 30\\) cm². The formula works for Triangle B because the \"height\" is defined as the perpendicular distance from the base line to the opposite vertex, even if that perpendicular falls outside the triangle. The rectangle-area proof still holds by extending the base. A wrong answer claiming the formula fails for obtuse triangles shows the student thinks height must always lie inside the triangle.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the area of a triangle with base 10 m and height 4 m as follows: \\(10 \\times 4 = 40\\), then \\(40 \\div 2 = 20\\) m². Another student does: \\(\\frac{1}{2} \\times 10 = 5\\), then \\(5 \\times 4 = 20\\) m². Are both methods correct? Which is more efficient for mental math and why?",
+     "a": "Both methods are mathematically correct because multiplication is associative and commutative: \\(\\frac{1}{2} \\times b \\times h = (b \\times h) \\div 2 = (b \\div 2) \\times h\\). The second method (halve the base first) is often more efficient for mental math when the base is even, because it reduces the numbers early (5 × 4 is easier than 40 ÷ 2). A student who says only one method is correct misunderstands the flexibility of multiplication order.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context) where you need to find the area of a triangle, but the given measurements are the sides of a rectangle that the triangle fits into. Write the problem and solve it.",
+     "a": "Example problem: \"A rectangular garden plot is 15 m by 8 m. The owner wants to plant grass on a triangular section formed by one diagonal of the rectangle. Find the area to be planted.\" Solution: Rectangle area = 15 × 8 = 120 m². Triangle area = half = 60 m². A poor answer gives a problem that doesn't use the rectangle-triangle relationship (e.g., directly gives base and height) or solves incorrectly, showing the student cannot construct the conceptual link.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

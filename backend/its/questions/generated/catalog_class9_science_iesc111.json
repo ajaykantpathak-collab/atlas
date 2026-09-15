@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc111.json",
+ "concepts": [
+  {
+   "id": "iesc.111.11.1",
+   "title": "Why Organisms Reproduce",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do organisms reproduce?",
+     "a": "To continue their species by producing new individuals similar to themselves.",
+     "self_check": true
+    },
+    {
+     "q": "What is the difference between asexual and sexual reproduction?",
+     "a": "Asexual needs one parent and makes copies; sexual reproduction uses two parents and produces variation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is variation useful to a species?",
+     "a": "It helps populations survive changes like disease, heat or drought.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.11.2",
+   "title": "Asexual Reproduction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name three modes of asexual reproduction.",
+     "a": "Binary fission, budding, fragmentation and spore formation.",
+     "self_check": true
+    },
+    {
+     "q": "How does amoeba reproduce?",
+     "a": "By binary fission - the cell splits into two equal daughter cells.",
+     "self_check": true
+    },
+    {
+     "q": "Which organisms reproduce by spores?",
+     "a": "Fungi like Rhizopus (bread mould) and ferns and mosses among plants.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.11.3",
+   "title": "Sexual Reproduction in Plants and Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is pollination?",
+     "a": "Transfer of pollen from the anther to the stigma of a flower, by wind, water or insects.",
+     "self_check": true
+    },
+    {
+     "q": "What is fertilisation in animals?",
+     "a": "The fusion of a male gamete (sperm) with a female gamete (egg) to form a zygote.",
+     "self_check": true
+    },
+    {
+     "q": "How do flowering plants and animals differ in gamete transfer?",
+     "a": "Plants transfer pollen (male gamete carrier) to the stigma; animals move whole gametes or bodies together.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_010",
+   "title": "c12_math_cbse_11_010",
+   "questions": [
+    {
+     "q": "State the formula for the angle \\(\\theta\\) between a line \\(\\vec{r} = \\vec{a} + \\lambda\\vec{b}\\) and a plane \\(\\vec{r}\\cdot\\vec{n} = d\\) in vector form. What is the range of \\(\\theta\\)?",
+     "a": "\\(\\sin\\theta = \\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}\\), with \\(0 \\le \\theta \\le \\frac{\\pi}{2}\\). A wrong answer using \\(\\cos\\theta\\) instead of \\(\\sin\\theta\\) reveals the student confuses the angle with the normal for the angle with the plane. Forgetting the absolute value or the range indicates they don't realize the angle is always acute by definition.",
+     "self_check": true
+    },
+    {
+     "q": "A line has direction ratios \\(2, -1, 2\\) and a plane has equation \\(3x - 4y + 5z = 7\\). A student computes \\(\\cos\\theta = \\frac{2\\cdot3 + (-1)\\cdot(-4) + 2\\cdot5}{\\sqrt{2^2+(-1)^2+2^2}\\sqrt{3^2+(-4)^2+5^2}}\\) and gets \\(\\theta \\approx 37^\\circ\\). Is this correct? Explain why or why not.",
+     "a": "Incorrect. The student used the cosine formula (angle between line and normal) but the question asks for the angle between the line and the plane. The correct formula uses sine: \\(\\sin\\theta = \\frac{|6+4+10|}{\\sqrt{9}\\sqrt{50}} = \\frac{20}{3\\sqrt{50}} = \\frac{2\\sqrt{2}}{3}\\), giving \\(\\theta = \\sin^{-1}\\left(\\frac{2\\sqrt{2}}{3}\\right) \\approx 70.5^\\circ\\). The student's answer is the complement of the correct angle. This error shows confusion between angle with normal vs angle with plane.",
+     "self_check": true
+    },
+    {
+     "q": "Find the angle between the line \\(\\frac{x-1}{2} = \\frac{y+3}{-1} = \\frac{z-4}{2}\\) and the plane \\(2x - y + 2z = 9\\).",
+     "a": "Direction ratios of line: \\(a_1=2, b_1=-1, c_1=2\\). Normal to plane: \\(a_2=2, b_2=-1, c_2=2\\).\n\\(\\sin\\theta = \\frac{|2\\cdot2 + (-1)(-1) + 2\\cdot2|}{\\sqrt{4+1+4}\\sqrt{4+1+4}} = \\frac{|4+1+4|}{3\\cdot3} = \\frac{9}{9}=1\\).\n\\(\\theta = \\sin^{-1}(1) = 90^\\circ\\).\nThe line is perpendicular to the plane. A wrong answer of \\(0^\\circ\\) means the student used cosine formula or forgot absolute value. A computational error in dot product (e.g., missing sign) reveals carelessness with signs.",
+     "self_check": true
+    },
+    {
+     "q": "A line is parallel to the plane \\(x + 2y - 2z = 5\\). If the line's direction ratios are \\(a, b, c\\), what condition must they satisfy? If the line also passes through \\((1, -2, 3)\\), write its Cartesian equation in terms of \\(a, b, c\\).",
+     "a": "For parallelism, the line's direction vector must be perpendicular to the plane's normal: \\(a\\cdot1 + b\\cdot2 + c\\cdot(-2) = 0 \\Rightarrow a + 2b - 2c = 0\\). Cartesian equation: \\(\\frac{x-1}{a} = \\frac{y+2}{b} = \\frac{z-3}{c}\\) with \\(a+2b-2c=0\\). A wrong answer giving the normal's direction ratios as the line's direction ratios shows the student thinks parallel line has same direction as normal. Missing the condition \\(a+2b-2c=0\\) indicates they don't connect parallelism to dot product with normal being zero.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the angle between the line \\(\\vec{r} = (2\\hat{i} - \\hat{j} + 3\\hat{k}) + \\lambda(\\hat{i} + 2\\hat{j} - 2\\hat{k})\\) and the plane \\(\\vec{r}\\cdot(2\\hat{i} - \\hat{j} + \\hat{k}) = 4\\).\" Their steps:\n1. \\(\\vec{b} = \\hat{i} + 2\\hat{j} - 2\\hat{k}\\), \\(\\vec{n} = 2\\hat{i} - \\hat{j} + \\hat{k}\\)\n2. \\(\\vec{b}\\cdot\\vec{n} = 2 - 2 - 2 = -2\\)\n3. \\(|\\vec{b}| = \\sqrt{1+4+4}=3\\), \\(|\\vec{n}| = \\sqrt{4+1+1}=\\sqrt{6}\\)\n4. \\(\\cos\\theta = \\frac{-2}{3\\sqrt{6}} \\Rightarrow \\theta = \\cos^{-1}\\left(\\frac{-2}{3\\sqrt{6}}\\right) \\approx 105^\\circ\\)\nIdentify the errors and give the correct answer.",
+     "a": "Errors: (1) Used cosine instead of sine. (2) Did not take absolute value of dot product. (3) Gave obtuse angle, but angle between line and plane is acute.\nCorrect: \\(\\sin\\theta = \\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|} = \\frac{2}{3\\sqrt{6}} = \\frac{\\sqrt{6}}{9}\\). \\(\\theta = \\sin^{-1}\\left(\\frac{\\sqrt{6}}{9}\\right) \\approx 15.5^\\circ\\). This reveals the student doesn't understand the definition of angle with plane vs normal, and the convention of acute angle.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a line is given in vector form and a plane in Cartesian form, such that the angle between them is \\(30^\\circ\\). Provide the line and plane equations and verify the angle.",
+     "a": "Example: Line \\(\\vec{r} = \\hat{i} + 2\\hat{j} + 3\\hat{k} + \\lambda(2\\hat{i} + \\hat{j} + 2\\hat{k})\\). Plane \\(x - y + z = 5\\).\n\\(\\vec{b} = (2,1,2)\\), \\(\\vec{n} = (1,-1,1)\\).\n\\(\\vec{b}\\cdot\\vec{n} = 2 -1 + 2 = 3\\). \\(|\\vec{b}| = 3\\), \\(|\\vec{n}| = \\sqrt{3}\\).\n\\(\\sin\\theta = \\frac{3}{3\\sqrt{3}} = \\frac{1}{\\sqrt{3}} \\approx 0.577\\), \\(\\theta = \\sin^{-1}(1/\\sqrt{3}) \\approx 35.3^\\circ\\) (not 30).\nTo get exactly 30°, need \\(\\sin30^\\circ = 1/2\\). Choose \\(\\vec{b} = (1,0,0)\\), \\(\\vec{n} = (0,1,1)\\)? Then \\(\\vec{b}\\cdot\\vec{n}=0\\) gives 0°.\nBetter: \\(\\vec{b} = (2,1,0)\\), \\(\\vec{n} = (1,2,2)\\). \\(|\\vec{b}|=\\sqrt{5}\\), \\(|\\vec{n}|=3\\), dot=4. \\(\\sin\\theta=4/(3\\sqrt{5})\\approx 0.596\\).\nA good answer will show a valid construction with \\(\\sin\\theta = 1/2\\). A poor answer gives equations that don't satisfy the condition, showing the student cannot reverse-engineer the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

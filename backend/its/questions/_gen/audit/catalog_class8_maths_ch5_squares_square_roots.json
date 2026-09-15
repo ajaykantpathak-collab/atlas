@@ -1,0 +1,578 @@
+{
+ "catalog": "catalog_class8_maths_ch5_squares_square_roots.json",
+ "concepts": [
+  {
+   "id": "c8m5.1.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 26 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 37 * 37"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 5 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 35 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 15 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.2.1",
+   "family": "digit_reversal",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "diff = 9 * abs(4 - 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 11 * (4 + 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 111 * (4 + 9 + 6)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 70 * 7",
+      "units = prod % 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 563 * 1001",
+      "thousands = prod // 1000 % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n1 = 78",
+      "n2 = 87",
+      "e1 = (n1 + 1) % 2",
+      "e2 = (n2 + 1) % 2",
+      "count = e1 + e2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "diff = 9 * abs(4 - 2)"
+   ]
+  },
+  {
+   "id": "c8m5.3.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 17 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 42 * 42"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 4 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 41 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 14 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.3.2",
+   "family": "odd_sum_square",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 7 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sq = 8 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sq = 10 * 10"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 7 * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total = 4 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 8 * 8"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.3.3",
+   "family": "odd_sum_square",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 4 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sq = 9 * 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sq = 7 * 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total = 4 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sq = 6 * 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.3.4",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 16 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 48 * 48"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 12 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 86 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 13 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.4.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 12 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 22 * 22"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 10 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 70 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 13 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.4.2",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 22 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 31 * 31"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 11 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 79 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 9 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.5.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 31 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 31 * 31"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 6 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 66 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 8 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.5.2",
+   "family": "square_roots",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "root = sqrt(1600)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "root = sqrt(729)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "root = sqrt(25)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt(576)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rows = sqrt(784)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "root = sqrt(144)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.5.3",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 5 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 25 * 10 / 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 25 * 10 / 50"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 25 * 10 / 50"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 25 * 10 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 96 // 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.5.4",
+   "family": "square_roots",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "root = sqrt(64)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "root = sqrt(25)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "root = sqrt(1600)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt(144)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rows = sqrt(900)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "root = sqrt(1764)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m5.6.1",
+   "family": "square_roots",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "root = sqrt(961)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "root = sqrt(900)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "root = sqrt(361)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt(529)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rows = sqrt(484)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "root = sqrt(1600)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

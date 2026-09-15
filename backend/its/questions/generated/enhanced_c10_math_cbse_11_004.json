@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_004",
+   "title": "c10_math_cbse_11_004",
+   "questions": [
+    {
+     "q": "State the formula for the area of a sector of a circle with radius r and central angle θ (in degrees). What is the condition on θ for this formula to be valid?",
+     "a": "The formula is Area = (θ/360°) × πr², valid for 0° < θ ≤ 360°. A wrong answer like \"Area = θ × πr²\" or \"Area = (θ/180°) × πr²\" reveals the student does not understand the proportional relationship — they are treating θ as a direct multiplier rather than a fraction of 360°. Missing the condition θ ≤ 360° indicates the student cannot distinguish between a sector and the full circle (where θ = 360° gives the circle area formula).",
+     "self_check": true
+    },
+    {
+     "q": "A sector has radius 10 cm and area 52.33 cm² (using π = 3.14). A student calculates the angle as θ = (Area × 360°) / (πr²) = (52.33 × 360) / (3.14 × 100) = 60°. They then write: \"Area = (60/360) × 3.14 × 10² = 52.33 cm²\" and says the answer is verified. Is this verification correct? Explain why or why not.",
+     "a": "The verification is circular reasoning and therefore invalid. The student used the area to find θ, then used that θ to recalculate the same area — this proves nothing. A correct verification would use an independent method, such as checking if 60° is exactly 1/6 of 360°, so the sector area should be 1/6 of the circle area: (1/6) × 3.14 × 100 = 52.33 cm². If the student cannot explain why the recalculation is circular, they lack understanding of logical verification and inverse operations.",
+     "self_check": true
+    },
+    {
+     "q": "The minute hand of a clock is 14 cm long. Find the area swept by the minute hand between 9:00 AM and 9:35 AM. Use π = 22/7.",
+     "a": "Step 1: The minute hand moves 360° in 60 minutes → in 35 minutes, angle = (35/60) × 360° = 210°.\nStep 2: Radius r = 14 cm (length of minute hand).\nStep 3: Area = (θ/360°) × πr² = (210/360) × (22/7) × 14 × 14.\nStep 4: Simplify: 210/360 = 7/12. Area = (7/12) × (22/7) × 196 = (22 × 196)/12 = 4312/12 = 359.33 cm².\nA wrong answer of 1848 cm² (using θ = 360°) means the student ignored the time duration and calculated the full circle. An answer of 102.67 cm² (using θ = 60°) means they used 35° instead of converting minutes to degrees. Both reveal failure to convert time to angle correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A sector of radius 21 cm has area 462 cm² (π = 22/7). Another sector of the same circle has area 231 cm². Compare their central angles. What is the relationship between the two angles? Justify without calculating the exact angles.",
+     "a": "Since both sectors are from the same circle (same radius), area is directly proportional to θ. The first sector has area 462 cm², the second has 231 cm² — exactly half. Therefore, the second sector's angle is half the first sector's angle. A student who calculates both angles (θ₁ = 120°, θ₂ = 60°) and then compares has missed the proportional reasoning — they can compute but cannot analyse the structural relationship. A wrong claim like \"angles are equal\" reveals the student thinks area depends only on radius.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the radius of a sector with angle 90° and area 154 cm² (π = 22/7).\" Their working:\n154 = (90/360) × (22/7) × r²\n154 = (1/4) × (22/7) × r²\n154 = (22/28) × r²\n154 × 28 = 22 × r²\n4312 = 22r²\nr² = 196\nr = 14 cm\nThey conclude: \"Radius is 14 cm.\" Is the solution complete and correct? Identify any missing step or error.",
+     "a": "The algebraic steps are correct and r = 14 cm is mathematically valid. However, the solution is INCOMPLETE for a board exam because the student did not reject the negative root r = -14 cm. Since radius is a length, it must be positive. The final answer should state: \"r² = 196 ⇒ r = 14 cm (since radius > 0).\" Omitting this justification loses 1 mark in CBSE marking scheme. A student who misses this does not understand that geometric quantities have physical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires finding the area of a sector where the angle is NOT given directly but must be derived from a time duration or a fraction of the circle. The problem should involve a combined figure (sector + another shape). Provide the problem statement only — do not solve it.",
+     "a": "A good problem: \"A circular park of radius 20 m has a 90° sector reserved for a children's play area. The remaining part of the park is a jogging track of uniform width 3 m along the boundary. Find the area of the jogging track. Use π = 22/7.\" This requires: (1) finding area of full circle, (2) area of 90° sector, (3) area of remaining 270° sector, (4) subtracting inner circle area (radius 17 m) for the track portion, (5) combining sector and annular regions. A poor problem like \"Find area of sector with r=10, θ=60°\" is trivial direct application — it does not test derivation of angle or combination of shapes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

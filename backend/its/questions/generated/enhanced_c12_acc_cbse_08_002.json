@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_002",
+   "title": "c12_acc_cbse_08_002",
+   "questions": [
+    {
+     "q": "State any two limitations of financial statement analysis that arise directly from the use of historical cost accounting.",
+     "a": "Correct answer: (1) Financial statements ignore price-level changes (inflation), making inter-period comparisons misleading because assets purchased at different times are recorded at different purchasing-power rupees. (2) They ignore qualitative/non-monetary aspects such as management competence, brand reputation, or employee morale, which critically affect future performance. A wrong answer (e.g., \"ratios are hard to calculate\") reveals the student confuses computational difficulty with fundamental conceptual limitations of the underlying data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a current ratio of 2:1 for Company X and 2:1 for Company Y does not necessarily mean both companies have identical short-term solvency, even if they are in the same industry.",
+     "a": "Correct answer: The current ratio uses current assets and current liabilities from the balance sheet. If Company X values inventory at FIFO and Company Y at LIFO during inflation, their inventory figures (a major current asset) are not comparable. Similarly, differing revenue recognition policies or provisions for doubtful debts alter trade receivables. Thus, the same ratio can mask materially different liquidity positions. A wrong answer focusing only on \"different industries\" or \"different sizes\" misses the core issue: variations in accounting practices within the same industry make cross-sectional comparisons unreliable.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the debt-equity ratio for a firm using total liabilities (including current liabilities) as \"Debt\" and total assets minus total liabilities as \"Equity\". The ratio comes out to 1.5:1. Identify the limitation of ratio analysis this illustrates and explain why the computed ratio is misleading.",
+     "a": "Correct answer: This illustrates the limitation \"lack of standardised definitions\" — there is no universal agreement on what constitutes \"Debt\" (long-term only vs. total liabilities) and \"Equity\" (shareholders' funds vs. net assets). Using total liabilities inflates the debt figure, while using net assets as equity conflates capital structure with asset base. The resulting 1.5:1 cannot be compared to the standard 2:1 benchmark (which uses long-term debt / shareholders' funds). A wrong answer that says \"the formula is wrong\" without naming the specific limitation shows the student cannot link the error to the conceptual category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the limitations \"Ignores Price-level Changes\" and \"Variations in Accounting Practices\" in terms of their impact on (a) intra-firm (time-series) analysis and (b) inter-firm (cross-sectional) analysis.",
+     "a": "Correct answer: (a) Price-level changes primarily distort intra-firm analysis because the same firm's rupee amounts across years have different purchasing power; accounting policy variations affect intra-firm analysis only if the firm changes policies mid-period. (b) Variations in accounting practices primarily distort inter-firm analysis because different firms may legitimately use different policies (e.g., depreciation methods); price-level changes affect inter-firm analysis only if firms have different asset age profiles. A wrong answer that treats both limitations as equally affecting both types of comparison shows insufficient analytical granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since ratio analysis has so many limitations, management should stop using ratios and rely only on qualitative judgment for decision-making.\"",
+     "a": "Correct answer: The statement is flawed because it commits the \"either-or\" fallacy. Ratios are \"means to an end, not the end itself\" — they are whistle-blowers that flag areas needing investigation. Abandoning them removes an objective, quantifiable screening tool. The proper approach is to use ratios as a starting point, then supplement with qualitative assessment (management quality, industry trends, macroeconomic factors) and awareness of limitations. A wrong answer that agrees with the statement reveals the student misunderstands the NCERT emphasis on ratios as indicative tools, not definitive conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-case (3-4 sentences) where a financial analyst draws an incorrect conclusion because they used a ratio based on unrelated figures. Specify the ratio, the unrelated figures, and the correct analytical approach.",
+     "a": "Expected answer: Example: \"An analyst computes 'Furniture Turnover Ratio' = Revenue from Operations / Furniture (Fixed Asset) and concludes the firm uses its furniture efficiently because the ratio is high.\" The figures are unrelated — furniture is a fixed asset not directly tied to revenue generation. Correct approach: Use Fixed Assets Turnover Ratio = Revenue from Operations / Net Fixed Assets (including furniture, plant, etc.) to assess overall asset utilization. A poor answer would invent a ratio that is actually standard (e.g., inventory turnover) or fail to explain why the figures are unrelated, showing the student hasn't grasped the \"meaningful correlation\" requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

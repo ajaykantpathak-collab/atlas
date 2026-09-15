@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_10",
+   "title": "c9_chem_ch3_10",
+   "questions": [
+    {
+     "q": "What is the definition of formula unit mass and for which type of compounds is it used?",
+     "a": "Formula unit mass is the sum of atomic masses of all atoms in a formula unit of an ionic compound, measured in atomic mass units (u). It is used for ionic compounds (e.g., NaCl, MgO) which do not exist as discrete molecules. A wrong answer (e.g., saying it's for covalent compounds or confusing it with molecular mass) reveals the student hasn't grasped the fundamental distinction between ionic lattices and molecular structures taught in c9_chem_ch3_5 and c9_chem_ch3_4.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use the term \"formula unit mass\" instead of \"molecular mass\" for sodium chloride (NaCl)?",
+     "a": "Sodium chloride is an ionic compound that exists as a crystal lattice of Na⁺ and Cl⁻ ions, not as independent NaCl molecules. The formula NaCl represents the simplest whole-number ratio of ions (the formula unit), not a discrete molecule. Using \"molecular mass\" would incorrectly imply molecular existence. A wrong answer indicates the student memorizes the term without understanding the structural difference between ionic and covalent compounds (c9_chem_ch3_8).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the formula unit mass of magnesium chloride (MgCl₂). Atomic masses: Mg = 24 u, Cl = 35.5 u.",
+     "a": "Step 1: Identify the formula: MgCl₂. Step 2: Identify atoms and counts: 1 Mg, 2 Cl. Step 3: Multiply atomic masses: (1 × 24 u) + (2 × 35.5 u) = 24 u + 71 u = 95 u. Step 4: State answer with units: 95 u. A wrong answer (e.g., 59.5 u by adding only one Cl, or forgetting units) reveals the student cannot apply the subscript multiplication rule from chemical formulae (c9_chem_ch3_6) or ignores the stoichiometric ratio in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formula unit mass of Na₂O (Na=23, O=16) and MgO (Mg=24, O=16). Which is greater and by how much? Explain why the difference is not simply the difference between Na and Mg atomic masses.",
+     "a": "Na₂O = 2(23) + 16 = 62 u. MgO = 24 + 16 = 40 u. Na₂O is greater by 22 u. The difference is not (23-24) = -1 u because Na₂O has two sodium atoms per formula unit while MgO has one magnesium atom. The stoichiometry (subscripts) matters. A wrong answer (e.g., saying MgO is heavier because Mg > Na, or calculating difference as 1 u) shows the student ignores subscripts and treats formula unit mass as a simple atomic mass comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the formula unit mass of calcium phosphate Ca₃(PO₄)₂ as: Ca=40, P=31, O=16 → 3(40) + 31 + 4(16) = 120 + 31 + 64 = 215 u. Identify the error and give the correct calculation.",
+     "a": "The student ignored the parentheses: (PO₄)₂ means 2 phosphorus atoms and 8 oxygen atoms. Correct: 3(40) + 2(31) + 8(16) = 120 + 62 + 128 = 310 u. The error is failing to distribute the subscript outside the parentheses to all atoms inside. This reveals a gap in understanding chemical formula notation from c9_chem_ch3_6 and c9_chem_ch3_7, specifically handling polyatomic ions with brackets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple rule or checklist that a Class 9 student can use to decide whether to calculate \"molecular mass\" or \"formula unit mass\" for a given compound formula (e.g., CO₂, NaCl, H₂O, KBr, CH₄, MgO).",
+     "a": "Checklist: 1) Identify the elements: metal + non-metal → likely ionic → formula unit mass. 2) Non-metal + non-metal → likely covalent → molecular mass. 3) Check for polyatomic ions (NH₄⁺, SO₄²⁻, etc.) → ionic → formula unit mass. 4) If the compound is a known gas/liquid at room temp (CO₂, CH₄, H₂O) → molecular. A poor answer (e.g., \"calculate both the same way\" or \"use molecular mass for everything\") shows the student cannot apply the bonding classification (c9_chem_ch3_4, c9_chem_ch3_5) to choose terminology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

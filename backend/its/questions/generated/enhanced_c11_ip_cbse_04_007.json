@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_007",
+   "title": "c11_ip_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the correct syntax to create a single-element tuple containing only the integer 42, and why does the alternative without the comma fail?",
+     "a": "The correct syntax is `(42,)` — the trailing comma is mandatory. Without it, `(42)` is just an integer expression evaluating to 42, not a tuple. A wrong answer like `(42)` reveals the student doesn't understand that parentheses alone don't create a tuple; the comma is the actual tuple constructor for single elements, which is a unique Python syntax rule often missed.",
+     "self_check": true
+    },
+    {
+     "q": "Given `t = (10, 20, 30, 40, 50)`, predict the output of `t[1:4]` and `t[-4:-1]` and explain whether they produce the same result.",
+     "a": "Both `t[1:4]` and `t[-4:-1]` produce `(20, 30, 40)`. The first uses positive slicing (indices 1,2,3), the second uses negative slicing (indices -4,-3,-2 which correspond to 1,2,3). A wrong answer showing different results reveals confusion about how negative indices map to positive positions or misunderstanding that slice end-index is exclusive in both cases.",
+     "self_check": true
+    },
+    {
+     "q": "Write Python code to concatenate two tuples `coordinates = (10, 20)` and `dimensions = (100, 200)` into a new tuple `rect`, then repeat `rect` three times. What is the length of the final tuple?",
+     "a": "`rect = coordinates + dimensions` creates `(10, 20, 100, 200)` (length 4). `rect * 3` creates a tuple of length 12. A wrong answer of length 8 or 7 reveals the student thinks repetition applies before concatenation or doesn't understand that `*` repeats the entire sequence, not individual elements. This tests operator precedence and tuple operation semantics.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `t = (1, 2, 3); t[0] = 99` and gets a TypeError. They then try `t = t + (99,)` and it works. Analyze why the first fails and the second succeeds, referencing memory and object identity.",
+     "a": "The first fails because tuples are immutable — `t[0] = 99` attempts in-place modification of an existing tuple object, which Python forbids. The second succeeds because `t + (99,)` creates a brand new tuple object `(1, 2, 3, 99)` and rebinds the name `t` to it; the original tuple `(1, 2, 3)` remains unchanged in memory. A wrong answer claiming \"tuples can't be changed at all\" misses the distinction between mutation and rebinding — a critical senior-secondary concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since tuples are immutable, they are always more memory-efficient than lists for storing the same data.\" Defend or refute with technical reasoning.",
+     "a": "The claim is generally true but not absolute. Tuples have smaller memory overhead because they don't need over-allocation for growth (lists overallocate), and Python can intern small tuples. However, for very large sequences, the difference is negligible, and if you need to modify data, converting tuple→list→tuple creates temporary objects. A wrong answer stating \"always\" without qualification shows lack of nuanced understanding of Python's memory management — a board exam expects \"generally yes because...\" with caveats.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where using a tuple instead of a list prevents a logical bug, and write the tuple creation code with at least 3 elements of mixed types.",
+     "a": "Scenario: Storing database connection config `(host, port, database)` — if a junior developer accidentally does `config[1] = \"8080\"` thinking it's a list, the tuple raises TypeError immediately, preventing silent corruption. Code: `db_config = (\"localhost\", 5432, \"school_db\")`. A poor answer uses homogeneous data or trivial example, showing inability to connect immutability to real software safety — a key competency for Class 11.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

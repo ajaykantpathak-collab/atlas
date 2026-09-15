@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_002",
+   "title": "c12_acc_cbse_04_002",
+   "questions": [
+    {
+     "q": "What is the essential legal requirement for a partnership firm to be dissolved by mutual agreement of all partners?",
+     "a": "The essential requirement is that all partners must consent to the dissolution, either expressly through a written agreement or impliedly by their conduct. A wrong answer (e.g., \"majority consent is enough\") reveals the misconception that partnership decisions follow majority rule like a company; in a partnership, unanimous consent is required for fundamental changes such as dissolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a partner in a fixed-term partnership cannot unilaterally dissolve the firm by giving a notice under Section 43 of the Indian Partnership Act, 1932.",
+     "a": "Section 43 applies only to partnerships at will, where no fixed duration is agreed upon. In a fixed-term partnership, the partnership deed binds partners for the specified period, and unilateral notice would breach the contract. A wrong answer (e.g., \"notice can be given in any partnership\") shows the student has not distinguished between partnership at will and fixed-term partnership, a critical classification for determining dissolution rights.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm has no partnership deed. Partner A wants to retire and dissolve the firm, but Partner B wants to continue. Can Partner A dissolve the firm by giving a notice? Justify your answer.",
+     "a": "Yes, Partner A can dissolve the firm by giving a written notice to Partner B. In the absence of a deed, the partnership is deemed to be a partnership at will (Section 7). Under Section 43, any partner in a partnership at will may dissolve the firm by giving notice in writing to all other partners. A wrong answer (e.g., \"both must agree\") indicates the student assumes unanimous consent is always needed, ignoring the default rule for partnerships at will.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the grounds for dissolution by court under Section 44 with the grounds for dissolution by agreement. Why might a partner prefer court-ordered dissolution over mutual agreement?",
+     "a": "Dissolution by agreement requires unanimous consent of all partners and can be done for any reason. Dissolution by court (Section 44) can be sought by a partner on specific grounds such as insanity, permanent incapacity, misconduct, persistent breach of agreement, transfer of interest, or just and equitable grounds, without needing other partners' consent. A partner may prefer court dissolution when other partners refuse to agree despite serious issues like misconduct. A wrong answer that lists \"disagreement on business decisions\" as a court ground shows confusion between \"just and equitable\" (which requires a breakdown of trust, not mere disagreement) and ordinary commercial disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"A partnership firm can be dissolved by a partner giving notice even if the partnership deed specifies a fixed term of 5 years, provided the notice is given after 3 years.\" Is this statement correct? Provide legal reasoning.",
+     "a": "The statement is incorrect. A fixed-term partnership cannot be dissolved by notice under Section 43 before the expiry of the term unless all partners agree to dissolve earlier (Section 40). The deed creates a binding contract for the fixed duration; unilateral notice would be a breach. A wrong answer that says \"yes, after 3 years the notice becomes valid\" reveals the misconception that the passage of time converts a fixed-term partnership into a partnership at will, which is not true unless the partnership continues beyond the term without a new agreement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (3-4 sentences) where a partnership firm is dissolved by court order on the ground of \"just and equitable\" reasons, and explain why the court would grant dissolution in that scenario.",
+     "a": "Scenario: Partners X and Y run a manufacturing firm. Y is found to have secretly diverted firm's funds to a competing business he started, causing loss of trust. X files for dissolution. The court may grant dissolution on \"just and equitable\" grounds because the substratum of the partnership — mutual trust and confidence — is destroyed. A poor answer that cites \"Y is not working hard\" shows the student does not understand that \"just and equitable\" requires a fundamental breakdown, not mere dissatisfaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

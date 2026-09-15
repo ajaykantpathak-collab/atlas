@@ -1,0 +1,576 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_001_numbers_quantification.json",
+ "concepts": [
+  {
+   "id": "am11_001.1",
+   "title": "Prime Numbers and Divisor Counting",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 14 and 7 have HCF 7 with coprime multipliers 2 and 1. Verify by computing hcf = 7 x 1; then find the HCF value.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 14 and 7 given their HCF is 7 and HCF x LCM = product of the numbers.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 14 and 7 is 14. Use HCF x LCM = a x b to find their HCF.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 14 cm and 7 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 14 minutes and 7 minutes. After how many minutes will they next ring together?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 24 are there up to 96?",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.2",
+   "title": "GCD from Prime Factorizations",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 6 and 14 have HCF 2 with coprime multipliers 3 and 7. Verify by computing hcf = 2 x 1; then find the HCF value.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 6 and 14 given their HCF is 2 and HCF x LCM = product of the numbers.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 6 and 14 is 42. Use HCF x LCM = a x b to find their HCF.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 6 cm and 14 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 6 minutes and 14 minutes. After how many minutes will they next ring together?",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 12 are there up to 96?",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.3",
+   "title": "Euclid Division Algorithm for GCD",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 3 * 1 gives 3",
+     "compute": "hcf = 3 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 9 and 12 have HCF 3 with coprime multipliers 3 and 4. Verify by computing hcf = 3 x 1; then find the HCF value.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 9 and 12 given their HCF is 3 and HCF x LCM = product of the numbers.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 9 and 12 is 36. Use HCF x LCM = a x b to find their HCF.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 9 cm and 12 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 9 minutes and 12 minutes. After how many minutes will they next ring together?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 100?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.4",
+   "title": "Euler Totient and RSA Key Parameters",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "For a pentagonal pyramid, find the number of edges.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For a pentagonal pyramid, find the number of vertices.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Verify Euler's formula for a hexagonal prism by computing F + V - E.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has F = n + 2 faces. For n = 3, find F.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided prism has V = 2n vertices. For n = 3, find V.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "An n-sided pyramid has E = 2n edges. For n = 8, find E.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.5",
+   "title": "Modular Arithmetic and Remainder of Powers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^3 x 3^3.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 6^3 / 6^2.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^3)^3 using the power of a power law.",
+     "a": "262144",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "3375",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 8^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-2) and give the value as a fraction.",
+     "a": "1/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.6",
+   "title": "Binary to Decimal Conversion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the number with 4 units, 3 tenths and 4 hundredths as a decimal.",
+     "a": "4.34",
+     "self_check": false
+    },
+    {
+     "q": "Add the decimals 6.8 and 6.6.",
+     "a": "13.4",
+     "self_check": false
+    },
+    {
+     "q": "Subtract 1.09 from 7.01.",
+     "a": "5.92",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 3.3 by 5.",
+     "a": "16.5",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 5.6 by 7.5.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/10 of 4.2.",
+     "a": "0.42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.7",
+   "title": "Decimal to Binary by Repeated Halving",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 9 + 3 / 10 + 4 / 100 gives 9.34",
+     "compute": "val = 9 + 3 / 10 + 4 / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the number with 9 units, 3 tenths and 4 hundredths as a decimal.",
+     "a": "9.34",
+     "self_check": false
+    },
+    {
+     "q": "Add the decimals 5.0 and 8.6.",
+     "a": "13.6",
+     "self_check": false
+    },
+    {
+     "q": "Subtract 1.97 from 7.44.",
+     "a": "5.47",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 6.1 by 8.",
+     "a": "48.8",
+     "self_check": false
+    },
+    {
+     "q": "Multiply 4.8 by 4.1.",
+     "a": "19.68",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/10 of 6.1.",
+     "a": "0.61",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.8",
+   "title": "Multiplying Complex Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[7, 8], [-6, 7]].",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[2, 0, -4], [-4, -4, 8], [-2, 1, -5]] along the first row.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[2, 7], [1, 2]] and B = [[8], [-4]] (column), find the (1,1) entry of AB.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is -4.",
+     "a": "-8",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 2. Find det(4A) using det(kA) = k^n det A.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.9",
+   "title": "Conjugate and Modulus of a Complex Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-4, -5], [-5, 5]].",
+     "a": "-45",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-4, 6, -1], [0, 1, 0], [7, -1, -1]] along the first row.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-5, 7], [1, 2]] and B = [[4], [-3]] (column), find the (1,1) entry of AB.",
+     "a": "-41",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 1.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 4. Find det(3A) using det(kA) = k^n det A.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.10",
+   "title": "Powers of Iota on the Four Cycle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[8, 2], [5, 9]].",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-2, 7, -1], [-4, -5, 3], [0, 7, 3]] along the first row.",
+     "a": "184",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[2, 5], [1, 2]] and B = [[6], [-1]] (column), find the (1,1) entry of AB.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is -4.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 4. Find det(3A) using det(kA) = k^n det A.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.11",
+   "title": "Laws of Indices",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^3 x 6^2.",
+     "a": "7776",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^3 / 5^1.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^3 using the power of a power law.",
+     "a": "1953125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^3 x 4^3 using a^m x b^m = (ab)^m.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^(-2) and give the value as a fraction.",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.12",
+   "title": "Logarithm Product Rule with Given Values",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Compute 9 + 6 as a quick check exercise.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 6 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 9 as a quick check exercise.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 3 as a quick check exercise.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 2 as a quick check exercise.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Compute 3 + 2 as a quick check exercise.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.13",
+   "title": "Antilogarithm via Powers of Ten",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^2 x 5^3.",
+     "a": "3125",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^5 / 3^1.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^2)^3 using the power of a power law.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 3^3 using a^m x b^m = (ab)^m.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^(-2) and give the value as a fraction.",
+     "a": "1/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.14",
+   "title": "Richter Scale Amplitude Comparison",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 12 : 33 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1100 is divided between two friends in the ratio 3 : 8. Find the smaller share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 9 : 4 = 36 : ?  (give the fourth term).",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 9 : 4 :: 36 : 16 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 120, what will 15 notebooks cost at the same rate (direct proportion)?",
+     "a": "900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.15",
+   "title": "Exponential Growth Models",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^4.",
+     "a": "16384",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 6^3 / 6^1.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^2 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 4^3 using a^m x b^m = (ab)^m.",
+     "a": "1728",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9^(-3) and give the value as a fraction.",
+     "a": "1/729",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_009",
+   "title": "c11_cs_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the output of `colors = [\"red\", \"green\", \"blue\"]; print(colors[3])` and why does this error occur?",
+     "a": "**Answer:** `IndexError: list index out of range`. The list has 3 elements at indices 0,1,2. Index 3 is the 4th position which doesn't exist.  \n**Wrong answer reveals:** Student thinks indexing starts at 1 (1st=1, 2nd=2, 3rd=3) or confuses length (3) with last valid index (2). This is the classic off-by-one error from 1-based counting habits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `data = [10, 20, 30]; data[-1]` returns 30 but `data[-3]` returns 10. Use the concept of \"distance from end\" in your explanation.",
+     "a": "**Answer:** Negative indices count backward from the end: -1 is 1 step from end (last), -2 is 2 steps (second-last), -3 is 3 steps (third-last). Since there are 3 elements, -3 reaches the first element.  \n**Wrong answer reveals:** Student memorizes \"-1 means last\" without understanding the general rule `list[-k] == list[len(list)-k]`. They'll fail when asked for `data[-2]` in a 5-element list.",
+     "self_check": true
+    },
+    {
+     "q": "Write Python code to create a list `prices` containing the prices of 5 items: ₹45, ₹120, ₹30, ₹85, ₹200. Then write statements to: (a) print the price of the 3rd item, (b) print the price of the last item using negative indexing, (c) print the total number of items.",
+     "a": "**Answer:**  \n```python\nprices = [45, 120, 30, 85, 200]\nprint(prices[2])      # 3rd item → index 2 → 30\nprint(prices[-1])     # last item → 200\nprint(len(prices))    # 5\n```  \n**Wrong answer reveals:** Using `prices[3]` for 3rd item (off-by-one), `prices[4]` for last item (hardcoding length), or `prices.length()` (wrong method name). Shows inability to map ordinal positions to zero-based indices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two list creations: `list1 = [1, 2, 3]` and `list2 = list((1, 2, 3))`. Are they identical in structure and behavior? Justify your answer by explaining what `list()` constructor does with a tuple argument.",
+     "a": "**Answer:** Yes, both create identical lists `[1, 2, 3]`. `list()` constructor takes any iterable (tuple, string, range) and builds a new list with the same elements in order. `list((1,2,3))` iterates over the tuple and creates a list.  \n**Wrong answer reveals:** Student thinks `list()` only works with `range()` or strings, or that `list((1,2,3))` creates a nested list `[(1,2,3)]`. Indicates confusion between constructor argument and list literal syntax.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `scores = [90, 85, 95]; print(scores[3])` to print the 3rd score. Evaluate this code: will it work? If not, what is the minimal fix? Defend your correction using the definition of list indexing.",
+     "a": "**Answer:** No, it raises `IndexError`. The 3rd score is at index 2 (0-based). Minimal fix: `print(scores[2])`. Defense: By definition, index `i` accesses the (i+1)th element. For 3rd element, i=2. `len(scores)` is 3, so valid indices are 0,1,2.  \n**Wrong answer reveals:** Student suggests `print(scores[3-1])` without understanding why, or changes list to `[90,85,95,0]` to make index 3 work. Shows procedural patching without conceptual grasp of zero-based indexing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you need a list of 7 items, and you must access the 2nd, 5th, and last items using both positive and negative indices. Write the complete Python code with comments explaining each access.",
+     "a": "**Expected answer:**  \n```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

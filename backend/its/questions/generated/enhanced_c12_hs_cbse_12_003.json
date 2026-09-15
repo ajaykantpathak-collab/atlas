@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_003",
+   "title": "c12_hs_cbse_12_003",
+   "questions": [
+    {
+     "q": "In the SMCRE model applied to extension, which element is primarily responsible for ensuring the message is encoded in a language, format, and cultural context that the target farmers can decode without distortion?",
+     "a": "The **Message** element. A wrong answer (e.g., \"Channel\" or \"Receiver\") reveals the student confuses *transmission medium* with *message design* — they think choosing WhatsApp (channel) solves the problem of technical jargon (message encoding), ignoring that the message itself must be pre-tested for comprehension, cultural relevance, and literacy appropriateness before channel selection.",
+     "self_check": true
+    },
+    {
+     "q": "An extension officer uses a PowerPoint presentation on soil testing for a group of marginal farmers with 30% literacy rate. The farmers appear attentive but later cannot recall the sampling depth. Using SMCRE, explain why the *Channel* choice failed despite the *Source* being credible and the *Message* being scientifically accurate.",
+     "a": "The channel (PowerPoint) required visual literacy, electricity, and abstract symbol decoding — mismatched to the receivers' socio-cultural context. A wrong answer blames \"farmer ignorance\" (receiver deficit model) instead of recognising that channel must align with receiver's *access, habit, and cognitive style*. Effective extension uses participatory channels (demonstration plots, folk songs, field visits) where receivers co-construct meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step message strategy for promoting bio-fertiliser adoption among smallholders who distrust \"government schemes.\" Specify how you would modify the *Source*, *Message*, and *Channel* elements to overcome credibility and complexity barriers.",
+     "a": "**Step 1 (Source):** Deploy progressive farmers (peers) as co-trainers instead of only department staff — leverages homophily and trust. **Step 2 (Message):** Frame as \"reduce urea cost by ₹800/acre\" (economic gain) not \"improve soil health\" (abstract benefit); use before-after yield cards from their own village. **Step 3 (Channel):** On-farm demonstrations + WhatsApp voice notes in local dialect (low literacy access) + QR-coded video on mixing ratio. A wrong answer keeps government officer as sole source, uses technical brochures, and relies on meetings — repeating the credibility-complexity trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Effect* evaluation of two extension campaigns: Campaign A measures \"number of farmers attending training\"; Campaign B measures \"percentage of trained farmers adopting drip irrigation after 6 months.\" Which aligns with the SMCRE model's *Effect* element and why? What critical extension principle does Campaign A violate?",
+     "a": "Campaign B aligns with *Effect* — SMCRE defines effect as *behavioural change/adoption*, not exposure. Campaign A violates the **principle of result-orientation** in extension: it confuses *output* (attendance) with *outcome* (adoption). A wrong answer equates participation with impact, ignoring that SMCRE's feedback loop requires measuring whether the receiver *acted* on the message, not just received it.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"In extension, the Receiver is a passive target; if the Source is expert and the Channel is modern (smartphone app), communication will succeed.\" Use all five SMCRE elements to justify your evaluation.",
+     "a": "**Fundamentally flawed.** SMCRE positions Receiver as *active decoder* — their prior knowledge, beliefs, needs, and social norms filter every message. Even with expert Source and smartphone Channel: (1) Message may use technical terms Receiver cannot decode; (2) Receiver may lack data/phone access (Channel barrier); (3) Social norms may prohibit women from using phones (Receiver context); (4) No feedback mechanism exists to correct misinterpretation (Effect loop broken). Extension succeeds only when Receiver participates in message design and channel selection — *dialogue*, not dissemination.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel SMCRE-based diagnostic checklist (5 questions, one per element) that an extension worker can use *before* launching a nutrition garden campaign in a tribal block. Each question must reveal a specific, context-specific barrier.",
+     "a": "**Source:** \"Do local women's SHG leaders endorse me, or am I seen as an outsider imposing diets?\" **Message:** \"Are recipes using only wild/locally grown greens, or do they require purchased seeds/fertilisers?\" **Channel:** \"Will wall paintings at anganwadi centres reach women who don't attend meetings, or only those already motivated?\" **Receiver:** \"Have I mapped seasonal migration patterns so messaging aligns with when women are actually in the village?\" **Effect:** \"Will I track *dietary diversity scores* at 3/6 months, not just garden establishment?\" A poor checklist asks generic questions (\"Is the message clear?\") without context-specific operationalisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

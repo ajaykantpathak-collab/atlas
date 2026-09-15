@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_003",
+   "title": "c12_bs_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define organisational structure and state the two broad types of organisational structures discussed in NCERT Class 12 Business Studies Chapter 5.",
+     "a": "Organisational structure is the framework within which managerial and operating tasks are performed, specifying relationships between people, work, and resources. The two broad types are functional structure and divisional structure. A wrong answer (e.g., listing \"formal and informal\" or \"centralised and decentralised\") reveals the student is confusing organisational structure with types of organisation or delegation patterns — these are distinct concepts covered in later nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a functional structure leads to \"functional empires\" and how this harms organisational interests.",
+     "a": "In a functional structure, each department (marketing, production, finance) pursues its own goals under its functional head. The marketing head may prioritise advertising spend, while production wants cost minimisation. Since each head reports vertically to top management, horizontal coordination is weak. Departments become \"empires\" protecting their turf, leading to inter-departmental conflict and decisions that optimise the department but sub-optimise the organisation. A wrong answer that only says \"departments fight\" without linking to the reporting structure and goal misalignment shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A company manufactures three product lines: cosmetics, garments, and footwear. Each product line requires distinct production technology, marketing channels, and customer service. The company currently uses a functional structure. Apply the NCERT suitability criteria to recommend whether it should switch to a divisional structure. Justify using at least three comparative bases from the NCERT table.",
+     "a": "Yes, it should switch to divisional structure. (1) Formation basis: The company has diverse product lines (cosmetics, garments, footwear) — divisional structure forms on product lines, functional on functions. (2) Responsibility: In functional structure, profit responsibility is diffused; in divisional, each divisional head is accountable for profit/loss of their product line. (3) Coordination: Functional structure makes coordination difficult for multi-product companies because functions are separated; divisional integrates all functions for a product in one division. (4) Managerial development: Divisional heads gain multi-functional experience, preparing them for top roles. A wrong answer that only says \"divisional is better for large companies\" without using the specific comparative bases shows inability to apply the framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare functional and divisional structures on the basis of cost and coordination. Explain why the same factor (specialisation) is an advantage in one but a disadvantage in the other.",
+     "a": "Cost: Functional structure is economical — no duplication of functions (one HR, one Finance for whole firm). Divisional structure is costly — each division replicates functional departments (HR in cosmetics, HR in garments, HR in footwear). Coordination: Functional structure makes coordination difficult for multi-product firms because information must cross functional silos. Divisional structure eases coordination because all functions for a product are under one divisional head. Specialisation: Functional structure promotes deep functional specialisation (advantage: efficiency). Divisional structure promotes product specialisation (advantage: accountability), but functional specialists may feel isolated in divisions, losing peer learning. A wrong answer that treats specialisation as uniformly good or bad misses the contextual nature of the trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Divisional structure is always superior to functional structure for large organisations.\" Use the ONGC case from NCERT and the Wipro example to support your evaluation.",
+     "a": "The statement is false. Suitability depends on context, not size alone. ONGC initially used a functional structure (business groups) but faced delays and responsibility conflicts; it shifted to an asset-based divisional structure on McKinsey's advice. However, Wipro (IT services) restructured into product-line subsidiaries (telecom, engineering, financial services) — a divisional move — but each subsidiary still maintains functional depth. A large single-product company (e.g., a steel plant) may stay functional because product specialisation is irrelevant. The NCERT explicitly states: \"It is most suitable when the size of the organisation is large, has diversified activities and operations require a high degree of specialisation\" for functional structure too. A wrong answer that agrees with the statement shows inability to evaluate contingency factors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical business scenario (Indian context) where a functional structure would be MORE suitable than a divisional structure. Specify the industry, product range, size, and justify using three NCERT comparative bases.",
+     "a": "Scenario: A mid-sized pharmaceutical manufacturer in Hyderabad producing only generic antibiotics (single product category) with 500 employees. Industry: Pharma manufacturing. Product range: Narrow (antibiotics only). Size: Medium. Justification: (1) Formation: Single product line — no need for product-based divisions. (2) Cost: Functional structure avoids duplication of expensive R&D, quality control, regulatory affairs across divisions. (3) Specialisation: Deep functional expertise in regulatory compliance and quality assurance is critical in pharma; functional structure concentrates this expertise. A poor answer creates a diversified conglomerate and still argues for functional structure, ignoring the \"diversified activities\" suitability criterion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_008",
+   "title": "c7_math_ch07_008",
+   "questions": [
+    {
+     "q": "In triangle $PQR$, side $QR$ is produced to point $S$, forming the exterior angle $\\angle PRS$. If the two interior opposite angles are $\\angle P = 50^\\circ$ and $\\angle Q = 60^\\circ$, what is the measure of exterior angle $\\angle PRS$?",
+     "a": "The measure is $110^\\circ$. A student who answers $70^\\circ$ has incorrectly subtracted the angles or confused the exterior angle property with the interior angle sum (calculating $180^\\circ - 50^\\circ - 60^\\circ$), failing to recognize that the exterior angle equals the *sum* of the two opposite interior angles ($50^\\circ + 60^\\circ = 110^\\circ$).",
+     "self_check": true
+    },
+    {
+     "q": "Can an exterior angle of a triangle ever be smaller than one of its interior opposite angles? Explain why or why not using mathematical reasoning.",
+     "a": "No, an exterior angle can never be smaller than either of its interior opposite angles. Because the exterior angle is equal to the *sum* of both interior opposite angles, and angle measures in a standard triangle are positive values greater than zero, adding two positive numbers results in a value greater than or equal to each individual part. A student who thinks it can be smaller likely confuses interior adjacent angles with interior opposite angles.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle ABC$, side $BC$ is extended to point $D$ to form exterior angle $\\angle ACD$. If $\\angle A = (3x + 10)^\\circ$, $\\angle B = (2x + 20)^\\circ$, and exterior angle $\\angle ACD = 120^\\circ$, find the value of $x$.",
+     "a": "Step 1: Write down the exterior angle property equation: $\\text{Exterior Angle} = \\text{Interior Opposite } \\angle A + \\text{Interior Opposite } \\angle B$.\nStep 2: Substitute the given algebraic expressions: $120 = (3x + 10) + (2x + 20)$.\nStep 3: Combine like terms on the right side: $120 = 5x + 30$.\nStep 4: Subtract 30 from both sides using inverse operations: $120 - 30 = 5x \\implies 90 = 5x$.\nStep 5: Divide by 5 to solve for $x$: $x = \\frac{90}{5} = 18$.\nA student who gets $x = 14$ likely forgot to group like terms properly or made an arithmetic error when subtracting 30 from 120.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a triangle where all three exterior angles are formed by extending each side in one direction. What is the sum of these three exterior angles, and how does this relate to the exterior angle property?",
+     "a": "The sum of the three exterior angles of any triangle is always $360^\\circ$. This can be analyzed by noting that each exterior angle and its adjacent interior angle form a linear pair summing to $180^\\circ$; across all three vertices, the total is $3 \\times 180^\\circ = 540^\\circ$, and subtracting the interior angle sum ($180^\\circ$) leaves $360^\\circ$. A student who states the sum is $180^\\circ$ is confusing the interior angle sum property with the exterior angle sum.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for an exterior angle problem where the exterior angle is given as $70^\\circ$ and one interior opposite angle is $80^\\circ$, claiming the second interior opposite angle is $-10^\\circ$. Evaluate this claim and identify the conceptual error.",
+     "a": "The student's claim is mathematically impossible because angle measures in a triangle must be positive numbers greater than zero. The conceptual error is that the student attempted to add an interior angle that is already larger than the exterior angle; by the exterior angle property, the exterior angle must be strictly greater than either individual interior opposite angle. A student failing to spot this does not check for geometric feasibility.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem scenario involving a triangular garden plot in a village where the exterior angle property must be used to find an unknown angle of irrigation pipes, ensuring your numbers result in a clean integer solution for $x$.",
+     "a": "Expected criteria: A valid problem states that two paths meet at a corner, an extension is made, the exterior angle is given as an algebraic expression like $(7x)^\\circ$, and the two interior opposite angles are given as $40^\\circ$ and $30^\\circ$, leading to $7x = 70 \\implies x = 10$. A poor response uses random numbers that yield negative, fractional, or geometrically impossible angle measures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

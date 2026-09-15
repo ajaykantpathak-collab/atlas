@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_001",
+   "title": "c12_soc_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a handicraft artisan and a factory worker in terms of control over the labor process?",
+     "a": "A handicraft artisan owns/controls tools, decides the sequence and pace of work, and bears responsibility for the final product. A factory worker sells labor-power for a wage, follows machine-dictated pace and manager-assigned tasks, and is responsible only for a fragment of the product. A wrong answer (e.g., \"both use tools to make things\") reveals the student sees only the technical similarity, missing the social relation of production — the core sociological distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT text states that \"industrialisation involves a detailed division of labour\" and how this leads to alienation in Marx's sense.",
+     "a": "Detailed division of labour breaks production into microscopic, repetitive tasks so no single worker sees the whole product. The worker becomes an \"appendage of the machine,\" performing meaningless motions, losing creative satisfaction, and working only for survival wages — this is alienation: estrangement from the product, the process, one's species-being, and fellow workers. A wrong answer focusing only on \"efficiency increases\" shows the student understands the managerial logic but misses the human cost that sociology centers.",
+     "self_check": true
+    },
+    {
+     "q": "A 2018–19 Indian worker is employed in a small garment workshop with 8 employees, no written contract, paid piece-rate, and no provident fund. Using NCERT categories, classify this worker's employment status and sector. Justify each part of your classification.",
+     "a": "Employment status: casual wage labourer (not regular salaried, not self-employed — depends on contractor for work and pay). Sector: unorganised/informal (unit employs <10 workers, not registered for mandatory benefits). Justification: NCERT defines organised sector as units employing 10+ people year-round with registration; this workshop has 8. Piece-rate + no benefits = casual labour. A wrong classification as \"organised sector because it's a factory\" ignores the legal threshold and benefit criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"jobber/mistri\" system in Kanpur textile mills (described in NCERT) with modern contract labor in Maruti Udyog's outsourced parts suppliers. Identify two continuities and one critical change in the power relation between worker and employer.",
+     "a": "Continuities: (1) Intermediary contractor controls hiring, discipline, and wage advances; (2) Workers from same region/community, enabling social pressure. Critical change: The mistri was a fellow worker with community ties; modern contractor is a separate capital entity with no community obligation — purely commercial, making worker vulnerability greater. A wrong answer saying \"nothing changed\" misses the shift from patriarchal-community control to impersonal capital-labor contract.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Liberalisation since the 1990s has expanded secure employment in India's organised sector.\" Use NCERT data on employment trends (regular salaried share, public sector disinvestment, outsourcing) to support your judgment.",
+     "a": "The claim is false. NCERT shows: (1) Regular salaried employment stagnated at ~24% (1972–2019); (2) Public sector jobs — two-thirds of secure formal jobs — shrank via disinvestment (e.g., Modern Foods: 60% forced retirement); (3) Outsourcing and contract labor grew even in government firms, converting permanent jobs into insecure casual work. Liberalisation increased *total* jobs but *informalised* them. A wrong answer citing \"IT sector growth\" ignores that IT jobs are a tiny fraction and themselves becoming precarious (night-outs, bench-firing).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page research plan to study how home-based bidi rolling (described in NCERT) affects women's autonomy in a forested village in Madhya Pradesh. Specify: (a) one sociological concept to guide analysis, (b) two methods, (c) one ethical challenge, (d) how you would link findings to the \"industrialisation as social change\" framework.",
+     "a": "(a) Concept: \"Patriarchal bargain\" (Kandiyoti) or \"double burden\" — women gain cash income but remain subordinated by piece-rate dependency and domestic duties. (b) Methods: Participant observation in rolling sessions + in-depth interviews with women, contractors, forest officials. (c) Ethical challenge: Women may fear contractor retaliation if they speak critically; need anonymity and safe interview spaces. (d) Link: Shows how industrialisation penetrates pre-capitalist settings via merchant capital, creating \"industrial homeworkers\" who are neither artisans nor factory proletariat — a distinct Indian trajectory. A poor plan would treat it as only an income survey, missing power relations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

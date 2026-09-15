@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_006",
+   "title": "c11_bio_cbse_15_006",
+   "questions": [
+    {
+     "q": "What is the intrinsic firing rate of the human sino-atrial node, and why is the heart described as myogenic?",
+     "a": "The SA node intrinsically fires at 70–75 action potentials per minute (average 72 bpm) without any external neural or hormonal input. The heart is called myogenic because the impulse originates in specialised cardiac muscle fibres (nodal tissue) within the heart itself, not from external nerves. A wrong answer (e.g., \"heart needs nerves to beat\") reveals confusion between myogenic and neurogenic hearts — students often think the brain initiates every heartbeat, not realising the SA node is the primary pacemaker and nerves only modulate its rate.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why parasympathetic stimulation decreases heart rate but sympathetic stimulation increases both heart rate and force of ventricular contraction.",
+     "a": "Parasympathetic (vagus) fibres release acetylcholine onto muscarinic (M₂) receptors on SA and AV node cells, opening K⁺ channels (I_K,ACh) which hyperpolarises the membrane and reduces the slope of the pacemaker potential, slowing firing rate. Vagal fibres sparsely innervate ventricles, so contractility is minimally affected. Sympathetic fibres release noradrenaline onto β₁-adrenergic receptors on SA node, AV node, and ventricular myocardium, activating cAMP-PKA pathway: in SA node this increases funny current (I_f) and Ca²⁺ current, steepening pacemaker potential; in ventricles it enhances Ca²⁺ release from sarcoplasmic reticulum, increasing contractility. A wrong answer (e.g., \"both affect rate equally\") shows failure to distinguish receptor distribution and downstream effectors in nodal vs. contractile myocardium.",
+     "self_check": true
+    },
+    {
+     "q": "A student experiences sudden fear before an exam. Trace the sequence from the hypothalamus to the change in cardiac output, naming the neural and hormonal pathways involved.",
+     "a": "Step 1: Hypothalamus activates the sympathetic division of ANS. Step 2: Preganglionic sympathetic fibres from T1–T4 spinal segments synapse in cervical/stellate ganglia; postganglionic cardiac sympathetic nerves release noradrenaline onto SA node, AV node, and ventricular β₁-receptors. Step 3: Simultaneously, hypothalamus stimulates adrenal medulla via splanchnic nerves to secrete adrenaline (80%) and noradrenaline (20%) into bloodstream. Step 4: Adrenaline reaches heart via coronary circulation, binding β₁-receptors on SA node (↑ heart rate), AV node (↑ conduction velocity), and ventricles (↑ contractility). Step 5: Combined effect — heart rate rises from 72 to ~120 bpm, stroke volume increases from 70 mL to ~100 mL, cardiac output jumps from 5 L/min to ~12 L/min. A wrong sequence (e.g., adrenal medulla before neural activation) reveals misunderstanding of the speed difference: direct neural effects occur in <1 second; hormonal effects peak at 20–30 seconds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effects of acetylcholine and noradrenaline on the SA node action potential waveform, specifically referencing the pacemaker potential phase.",
+     "a": "Acetylcholine (parasympathetic) binds M₂ receptors → activates Gᵢ protein → opens GIRK K⁺ channels (I_K,ACh) → increases K⁺ efflux → hyperpolarises maximum diastolic potential (more negative) AND reduces the slope of the pacemaker potential (phase 4) by opposing the funny current (I_f) and T-type Ca²⁺ current → longer time to reach threshold → decreased firing rate. Noradrenaline (sympathetic) binds β₁ receptors → activates Gₛ protein → ↑ cAMP → PKA phosphorylates HCN channels (↑ I_f) and L-type Ca²⁺ channels (↑ I_Ca,L) → steepens phase 4 slope → threshold reached faster → increased firing rate. A wrong comparison (e.g., \"both change threshold potential\") shows confusion between threshold voltage (fixed) and the rate of approach to threshold (variable).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"During intense exercise, parasympathetic withdrawal is more important than sympathetic activation for the initial increase in heart rate.\" Provide physiological evidence.",
+     "a": "The statement is correct for the first 5–10 seconds of exercise. Evidence: (1) Vagal tone at rest maintains heart rate ~40 bpm below intrinsic SA node rate; withdrawal alone can raise HR to ~100 bpm within 1–2 seconds. (2) Sympathetic activation requires norepinephrine diffusion and cAMP cascade, peaking at 20–30 seconds. (3) Heart rate variability studies show immediate loss of high-frequency (vagal) component at exercise onset. (4) Pharmacological blockade: atropine (muscarinic antagonist) abolishes the rapid HR rise; β-blockers only blunt the later sustained increase. A wrong evaluation (e.g., \"sympathetic is always dominant\") ignores the temporal hierarchy: parasympathetic withdrawal = fast \"brake release\"; sympathetic activation = slower \"accelerator press.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a stethoscope, stopwatch, and a volunteer to demonstrate the relative contributions of neural vs. hormonal regulation to heart rate recovery after exercise.",
+     "a": "Protocol: (1) Record resting HR for 1 min. (2) Volunteer does 2 min of step-ups (standardised). (3) Immediately post-exercise, record HR every 15 sec for 3 min. (4) Plot HR recovery curve. Interpretation: The rapid drop in first 30–60 sec (fast phase) reflects parasympathetic reactivation (vagal tone restoration); the slower exponential decay over 2–3 min reflects sympathetic withdrawal and adrenaline clearance from blood. To isolate hormonal component, repeat after 24 hr with oral β-blocker (propranolol) under medical supervision — the slow phase will be attenuated. A poor design (e.g., measuring only at 1 min post-exercise) misses the biphasic recovery kinetics and cannot distinguish neural vs. hormonal contributions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

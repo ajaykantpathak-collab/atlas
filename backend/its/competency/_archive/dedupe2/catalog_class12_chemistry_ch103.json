@@ -1,0 +1,836 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 103,
+ "chapter_title": "Chemical Kinetics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech103.txt",
+ "concepts": [
+  {
+   "id": "lech.3.1.1",
+   "title": "Average Rate of Reaction",
+   "section": "3.1",
+   "definition": "The speed of a chemical process measured by evaluating the concentration change of a substance over a specified time duration.",
+   "formula": "r_av = (c1 - c2) / delta_t",
+   "key_idea": "Change in reactant or product concentration divided by the total time taken.",
+   "textbook_ref": "lech103.txt lines 45-75",
+   "question_patterns": [
+    "calculate the average rate of reaction between time intervals",
+    "find the average rate of disappearance of reactant",
+    "determine average rate of reaction when concentration changes from c1 to c2",
+    "what is the average rate of reaction in mol L-1 s-1",
+    "how much is the average rate over a time interval"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate concentration change",
+     "explain": "subtract final concentration c2 from initial concentration c1",
+     "compute": "conc_diff = c1 - c2"
+    },
+    {
+     "step": 2,
+     "action": "divide by time interval",
+     "explain": "divide concentration change by time interval delta_t to obtain average rate",
+     "compute": "r_av = conc_diff / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.1.2",
+   "title": "Stoichiometry and Rates of Formation or Disappearance",
+   "section": "3.1",
+   "definition": "The rate of change of individual chemical species related through their respective balancing coefficients in a chemical equation.",
+   "formula": "rate_prod = (coeff_prod / coeff_react) * rate_react",
+   "key_idea": "Divide species consumption or formation rate by its stoichiometric coefficient to equalize reaction rates.",
+   "textbook_ref": "lech103.txt lines 110-145",
+   "question_patterns": [
+    "calculate the rate of formation of product given rate of consumption of reactant",
+    "find the rate of production of NO2 from decomposition of N2O5",
+    "determine the rate of disappearance of reactant from product appearance rate",
+    "what is the rate of formation of species with stoichiometric coefficient",
+    "how much product is formed per unit time given reactant consumption rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale rate by stoichiometric ratio",
+     "explain": "multiply reactant rate by product coefficient and divide by reactant coefficient",
+     "compute": "rate_prod = (coeff_prod / coeff_react) * rate_react"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.2.1",
+   "title": "Overall Order of Reaction",
+   "section": "3.2.3",
+   "definition": "The total sum of exponents to which reactant concentration terms are raised in an experimental rate law expression.",
+   "formula": "order = order_a + order_b",
+   "key_idea": "Overall order equals the sum of individual reaction orders with respect to each reactant.",
+   "textbook_ref": "lech103.txt lines 195-220",
+   "question_patterns": [
+    "calculate the overall order of reaction from rate expression",
+    "find the order of reaction given rate = k [A]^x [B]^y",
+    "determine total order when individual orders are given",
+    "what is the overall order for a rate law",
+    "how to calculate reaction order from powers of concentration terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum exponents in rate law",
+     "explain": "add exponent of reactant A and exponent of reactant B",
+     "compute": "order = order_a + order_b"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.2.2",
+   "title": "Effect of Concentration Change on Reaction Rate",
+   "section": "3.2.3",
+   "definition": "The quantitative factor by which a reaction rate changes when reactant concentrations are scaled according to the reaction order.",
+   "formula": "rate_factor = conc_factor ** order",
+   "key_idea": "Scaling reactant concentration by a factor increases reaction rate by that factor raised to the order.",
+   "textbook_ref": "lech103.txt lines 230-245",
+   "question_patterns": [
+    "calculate how reaction rate changes when concentration is doubled",
+    "find the change in rate when concentration of reactant is increased n times",
+    "determine new rate when concentration of second order reactant is tripled",
+    "what is the factor by which rate increases on changing concentration",
+    "how much does rate increase when reactant concentration changes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise concentration scale factor to reaction order",
+     "explain": "compute conc_factor to the power of order",
+     "compute": "rate_factor = conc_factor ** order"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.2.3",
+   "title": "Molecularity of an Elementary Reaction",
+   "section": "3.2.4",
+   "definition": "The integer count of colliding chemical species that simultaneously interact in a single elementary reaction step.",
+   "formula": "molecularity = count_of_reacting_species",
+   "key_idea": "Molecularity is a theoretical integer property applicable only to single-step elementary steps.",
+   "textbook_ref": "lech103.txt lines 225-270",
+   "question_patterns": [
+    "distinguish between order and molecularity of a reaction",
+    "what is the molecularity of an elementary reaction",
+    "why complex reactions cannot have molecularity greater than three",
+    "identify molecularity for unimolecular and bimolecular steps",
+    "explain rate determining step in complex mechanism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify reacting species in elementary step",
+     "explain": "count total number of reactant molecules colliding simultaneously in the rate-determining elementary step"
+    },
+    {
+     "step": 2,
+     "action": "verify validity",
+     "explain": "ensure molecularity is a positive integer (1, 2, or 3) and apply only to elementary reactions"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.3.1",
+   "title": "Half-Life of Zero Order Reaction",
+   "section": "3.3.1",
+   "definition": "The time required for half the reactant to react in a zero-order process, which is directly proportional to initial concentration.",
+   "formula": "t_half = initial_conc / (2 * rate_constant)",
+   "key_idea": "Zero order half-life scales directly with initial concentration and inversely with the rate constant.",
+   "textbook_ref": "lech103.txt lines 275-320",
+   "question_patterns": [
+    "calculate half-life of a zero order reaction",
+    "find rate constant of zero order reaction given half-life",
+    "determine time for half completion of zero order reaction",
+    "what is the half-life for zero order process",
+    "how much time is required to reduce initial concentration by half in zero order"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply rate constant by two",
+     "explain": "double the value of rate constant k",
+     "compute": "denom = 2 * rate_constant"
+    },
+    {
+     "step": 2,
+     "action": "divide initial concentration by denominator",
+     "explain": "divide initial concentration by 2k to get half life",
+     "compute": "t_half = initial_conc / denom"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.3.2",
+   "title": "Half-Life of First Order Reaction",
+   "section": "3.3.2",
+   "definition": "The time needed for half of a reactant to decompose in a first-order process, independent of starting concentration.",
+   "formula": "t_half = 0.693 / rate_constant",
+   "key_idea": "First order half-life depends purely on the rate constant and is constant throughout the reaction.",
+   "textbook_ref": "lech103.txt lines 325-390",
+   "question_patterns": [
+    "calculate half-life of a first order reaction",
+    "find rate constant from half-life of first order process",
+    "determine half life period given k = 5.5e-14 s-1",
+    "what is the half-life of first order decay",
+    "how to compute half-life for radioactive disintegration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide ln(2) constant by rate constant",
+     "explain": "divide 0.693 by rate constant k to obtain half life",
+     "compute": "t_half = 0.693 / rate_constant"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.3.3",
+   "title": "Pseudo First Order Reaction",
+   "section": "3.3.3",
+   "definition": "A higher-order reaction that exhibits first-order kinetics because one reactant is present in huge excess.",
+   "formula": "rate = k_prime * [A]",
+   "key_idea": "Excess species concentration remains practically constant, simplifying the rate law to first order.",
+   "textbook_ref": "lech103.txt lines 400-430",
+   "question_patterns": [
+    "explain pseudo first order reaction with example",
+    "why hydrolysis of ethyl acetate is pseudo first order",
+    "what makes inversion of cane sugar a pseudo first order process",
+    "identify pseudo order conditions when water is in large excess",
+    "determine order when one reactant concentration is fixed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check excess reactant condition",
+     "explain": "verify if one reactant concentration is vastly greater than the other so its change is negligible"
+    },
+    {
+     "step": 2,
+     "action": "confirm pseudo rate expression",
+     "explain": "combine constant excess concentration with rate constant into pseudo first-order rate constant"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.4.1",
+   "title": "Temperature Dependence and Temperature Coefficient",
+   "section": "3.4",
+   "definition": "The exponential scaling of reaction rates when temperature increases in ten-degree increments.",
+   "formula": "rate_factor = 2 ** (temp_diff / 10)",
+   "key_idea": "Reaction rate approximately doubles for every ten kelvin increase in temperature.",
+   "textbook_ref": "lech103.txt lines 435-465",
+   "question_patterns": [
+    "calculate increase in rate of reaction when temperature rises by delta_T",
+    "find rate factor when temperature increases by 30 degrees",
+    "determine how many times rate increases for temperature rise",
+    "what is the effect of 10 K rise in temperature on rate constant",
+    "how much does reaction speed up when heated"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate number of ten-degree intervals",
+     "explain": "divide total temperature difference by 10",
+     "compute": "exponent = temp_diff / 10"
+    },
+    {
+     "step": 2,
+     "action": "compute rate factor",
+     "explain": "raise 2 to the calculated exponent",
+     "compute": "rate_factor = 2 ** exponent"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.4.2",
+   "title": "Role of Catalyst in Chemical Kinetics",
+   "section": "3.4.1",
+   "definition": "An added substance that speeds up a chemical reaction by providing an alternative pathway with reduced activation energy.",
+   "formula": "Ea_catalyzed < Ea_uncatalyzed",
+   "key_idea": "Catalysts lower the activation energy barrier without altering overall reaction enthalpy or equilibrium constant.",
+   "textbook_ref": "lech103.txt lines 510-540",
+   "question_patterns": [
+    "explain the effect of catalyst on activation energy",
+    "does catalyst change gibbs energy or equilibrium constant",
+    "how catalyst speeds up reaction rate",
+    "what is intermediate complex theory of catalysis",
+    "describe energy profile diagram with and without catalyst"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze activation energy reduction",
+     "explain": "catalyst lowers activation energy barrier providing lower energy intermediate path"
+    },
+    {
+     "step": 2,
+     "action": "verify thermodynamic invariance",
+     "explain": "confirm that enthalpy change, Gibbs free energy, and equilibrium constant remain unchanged"
+    }
+   ]
+  },
+  {
+   "id": "lech.3.5.1",
+   "title": "Collision Theory of Chemical Reactions",
+   "section": "3.5",
+   "definition": "A model asserting that chemical reactions occur when molecules collide with sufficient energy and correct orientation.",
+   "formula": "rate = P * Z_AB * fraction_e",
+   "key_idea": "Effective collisions require both threshold energy and favorable steric orientation.",
+   "textbook_ref": "lech103.txt lines 545-585",
+   "question_patterns": [
+    "explain collision theory of bimolecular reactions",
+    "what is steric factor or probability factor P",
+    "define collision frequency and effective collisions",
+    "what conditions must be met for a collision to produce products",
+    "why complex molecules deviate from simple collision theory predictions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify energetic requirement",
+     "explain": "colliding species must possess energy equal to or exceeding threshold energy"
+    },
+    {
+     "step": 2,
+     "action": "verify steric orientation requirement",
+     "explain": "molecules must be aligned with correct spatial orientation for effective bond breaking and formation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lech103.txt Example 3.1",
+   "concept": "lech.3.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the average rate of reaction when concentration changes from {c1} mol L-1 to {c2} mol L-1 in {delta_t} s.",
+   "extracted_variables": {
+    "c1": 0.1,
+    "c2": 0.0905,
+    "delta_t": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate concentration change",
+     "explain": "subtract final concentration c2 from initial concentration c1",
+     "compute": "conc_diff = c1 - c2"
+    },
+    {
+     "step": 2,
+     "action": "divide by time interval",
+     "explain": "divide concentration change by time interval delta_t to obtain average rate",
+     "compute": "r_av = conc_diff / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lech103.txt Intext 3.1",
+   "concept": "lech.3.1.1",
+   "question_type": "compute",
+   "question_pattern": "For reaction R -> P, concentration changes from {c1} M to {c2} M in {delta_t} minutes. Calculate average rate.",
+   "extracted_variables": {
+    "c1": 0.03,
+    "c2": 0.02,
+    "delta_t": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate concentration change",
+     "explain": "subtract final concentration c2 from initial concentration c1",
+     "compute": "conc_diff = c1 - c2"
+    },
+    {
+     "step": 2,
+     "action": "divide by time interval",
+     "explain": "divide concentration change by time interval delta_t to obtain average rate",
+     "compute": "r_av = conc_diff / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lech103.txt Example 3.2",
+   "concept": "lech.3.1.2",
+   "question_type": "compute",
+   "question_pattern": "In reaction 2 N2O5 -> 4 NO2 + O2, if rate of reaction with respect to N2O5 is {rate_react} mol L-1 min-1, calculate rate of formation of NO2 with coefficients {coeff_react} and {coeff_prod}.",
+   "extracted_variables": {
+    "rate_react": 0.000679,
+    "coeff_react": 1,
+    "coeff_prod": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale rate by stoichiometric ratio",
+     "explain": "multiply reactant rate by product coefficient and divide by reactant coefficient",
+     "compute": "rate_prod = (coeff_prod / coeff_react) * rate_react"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lech103.txt Exercise 3.3",
+   "concept": "lech.3.1.2",
+   "question_type": "compute",
+   "question_pattern": "Decomposition of NH3 on Pt gives N2 and H2. If rate constant for NH3 loss is {rate_react} mol L-1 s-1, find rate of production of H2 for reaction 2 NH3 -> N2 + 3 H2 with coefficients {coeff_react} and {coeff_prod}.",
+   "extracted_variables": {
+    "rate_react": 0.00025,
+    "coeff_react": 2,
+    "coeff_prod": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale rate by stoichiometric ratio",
+     "explain": "multiply reactant rate by product coefficient and divide by reactant coefficient",
+     "compute": "rate_prod = (coeff_prod / coeff_react) * rate_react"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lech103.txt Example 3.3a",
+   "concept": "lech.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate overall order of reaction with rate expression Rate = k [A]^{order_a} [B]^{order_b}.",
+   "extracted_variables": {
+    "order_a": 0.5,
+    "order_b": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum exponents in rate law",
+     "explain": "add exponent of reactant A and exponent of reactant B",
+     "compute": "order = order_a + order_b"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lech103.txt Example 3.3b",
+   "concept": "lech.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Determine overall order of reaction having rate expression Rate = k [A]^{order_a} [B]^{order_b}.",
+   "extracted_variables": {
+    "order_a": 1.5,
+    "order_b": -1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum exponents in rate law",
+     "explain": "add exponent of reactant A and exponent of reactant B",
+     "compute": "order = order_a + order_b"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lech103.txt Intext 3.4",
+   "concept": "lech.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "Conversion of X to Y follows reaction order {order}. If concentration of X is increased to {conc_factor} times, calculate rate factor increase.",
+   "extracted_variables": {
+    "order": 2,
+    "conc_factor": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise concentration scale factor to reaction order",
+     "explain": "compute conc_factor to the power of order",
+     "compute": "rate_factor = conc_factor ** order"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lech103.txt Exercise 3.6i",
+   "concept": "lech.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "A reaction is of order {order}. How is rate affected if concentration of reactant is increased {conc_factor} times?",
+   "extracted_variables": {
+    "order": 2,
+    "conc_factor": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise concentration scale factor to reaction order",
+     "explain": "compute conc_factor to the power of order",
+     "compute": "rate_factor = conc_factor ** order"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "lech103.txt Section 3.3.1",
+   "concept": "lech.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "A zero order reaction has initial concentration {initial_conc} mol L-1 and rate constant {rate_constant} mol L-1 s-1. Calculate its half-life.",
+   "extracted_variables": {
+    "initial_conc": 0.1,
+    "rate_constant": 0.005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply rate constant by two",
+     "explain": "double the value of rate constant k",
+     "compute": "denom = 2 * rate_constant"
+    },
+    {
+     "step": 2,
+     "action": "divide initial concentration by denominator",
+     "explain": "divide initial concentration by 2k to get half life",
+     "compute": "t_half = initial_conc / denom"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "lech103.txt Section 3.3.1",
+   "concept": "lech.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate half-life of zero order decomposition on catalyst with initial reactant concentration {initial_conc} M and rate constant {rate_constant} M s-1.",
+   "extracted_variables": {
+    "initial_conc": 0.5,
+    "rate_constant": 0.025
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply rate constant by two",
+     "explain": "double the value of rate constant k",
+     "compute": "denom = 2 * rate_constant"
+    },
+    {
+     "step": 2,
+     "action": "divide initial concentration by denominator",
+     "explain": "divide initial concentration by 2k to get half life",
+     "compute": "t_half = initial_conc / denom"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "lech103.txt Example 3.7",
+   "concept": "lech.3.3.2",
+   "question_type": "compute",
+   "question_pattern": "A first order reaction has rate constant k = {rate_constant} s-1. Find half-life of reaction.",
+   "extracted_variables": {
+    "rate_constant": 5.5e-14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide ln(2) constant by rate constant",
+     "explain": "divide 0.693 by rate constant k to obtain half life",
+     "compute": "t_half = 0.693 / rate_constant"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "lech103.txt Exercise 3.13i",
+   "concept": "lech.3.3.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate half-life of a first order reaction with rate constant k = {rate_constant} s-1.",
+   "extracted_variables": {
+    "rate_constant": 200.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide ln(2) constant by rate constant",
+     "explain": "divide 0.693 by rate constant k to obtain half life",
+     "compute": "t_half = 0.693 / rate_constant"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "lech103.txt Section 3.4",
+   "concept": "lech.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "If temperature of a reaction is increased by {temp_diff} K, calculate the factor by which reaction rate increases assuming 10 K doubling rule.",
+   "extracted_variables": {
+    "temp_diff": 30.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate number of ten-degree intervals",
+     "explain": "divide total temperature difference by 10",
+     "compute": "exponent = temp_diff / 10"
+    },
+    {
+     "step": 2,
+     "action": "compute rate factor",
+     "explain": "raise 2 to the calculated exponent",
+     "compute": "rate_factor = 2 ** exponent"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "lech103.txt Section 3.4",
+   "concept": "lech.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "Determine how many times reaction rate increases when temperature is raised by {temp_diff} degrees.",
+   "extracted_variables": {
+    "temp_diff": 20.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate number of ten-degree intervals",
+     "explain": "divide total temperature difference by 10",
+     "compute": "exponent = temp_diff / 10"
+    },
+    {
+     "step": 2,
+     "action": "compute rate factor",
+     "explain": "raise 2 to the calculated exponent",
+     "compute": "rate_factor = 2 ** exponent"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "lech103.txt line 590",
+   "questions": [
+    "From the rate expression for the following reactions, determine their order of reaction and the dimensions of the rate constants: (i) 3NO(g) -> N2O(g) Rate = k[NO]^2 (ii) H2O2(aq) + 3I-(aq) + 2H+ -> 2H2O(l) + I3- Rate = k[H2O2][I-] (iii) CH3CHO(g) -> CH4(g) + CO(g) Rate = k[CH3CHO]^(3/2) (iv) C2H5Cl(g) -> C2H4(g) + HCl(g) Rate = k[C2H5Cl]"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "lech103.txt line 600",
+   "questions": [
+    "For the reaction 2A + B -> A2B, rate = k[A][B]^2 with k = 2.0e-6 mol-2 L2 s-1. Calculate initial rate when [A]=0.1 M, [B]=0.2 M and rate after [A] is reduced to 0.06 M."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "lech103.txt line 605",
+   "questions": [
+    "The decomposition of NH3 on platinum surface is zero order reaction. What are the rates of production of N2 and H2 if k = 2.5e-4 mol-1 L s-1?"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "lech103.txt line 610",
+   "questions": [
+    "The decomposition of dimethyl ether leads to formation of CH4, H2 and CO with Rate = k (p_CH3OCH3)^(3/2). If pressure is in bar and time in minutes, what are units of rate and rate constant?"
+   ]
+  },
+  {
+   "id": "ex3.5",
+   "source_ref": "lech103.txt line 620",
+   "questions": [
+    "Mention the factors that affect the rate of a chemical reaction."
+   ]
+  },
+  {
+   "id": "ex3.6",
+   "source_ref": "lech103.txt line 622",
+   "questions": [
+    "A reaction is second order with respect to a reactant. How is the rate of reaction affected if the concentration of the reactant is (i) doubled (ii) reduced to half?"
+   ]
+  },
+  {
+   "id": "ex3.7",
+   "source_ref": "lech103.txt line 626",
+   "questions": [
+    "What is the effect of temperature on the rate constant of a reaction? How can this effect of temperature on rate constant be represented quantitatively?"
+   ]
+  },
+  {
+   "id": "ex3.8",
+   "source_ref": "lech103.txt line 630",
+   "questions": [
+    "In a pseudo first order reaction in water, [A] is 0.55 M at 0s, 0.31 M at 30s, 0.17 M at 60s, 0.085 M at 90s. Calculate average rate between 30 and 60 seconds."
+   ]
+  },
+  {
+   "id": "ex3.9",
+   "source_ref": "lech103.txt line 635",
+   "questions": [
+    "A reaction is first order in A and second order in B. (i) Write differential rate equation. (ii) How is rate affected on increasing [B] three times? (iii) How is rate affected when concentrations of both A and B are doubled?"
+   ]
+  },
+  {
+   "id": "ex3.10",
+   "source_ref": "lech103.txt line 640",
+   "questions": [
+    "In a reaction between A and B, calculate order with respect to A and B from initial rate data."
+   ]
+  },
+  {
+   "id": "ex3.11",
+   "source_ref": "lech103.txt line 646",
+   "questions": [
+    "Determine rate law and rate constant for reaction 2A + B -> C + D from given experimental data."
+   ]
+  },
+  {
+   "id": "ex3.12",
+   "source_ref": "lech103.txt line 655",
+   "questions": [
+    "The reaction between A and B is first order in A and zero order in B. Fill in missing values in experimental table."
+   ]
+  },
+  {
+   "id": "ex3.13",
+   "source_ref": "lech103.txt line 665",
+   "questions": [
+    "Calculate half-life of a first order reaction from their rate constants: (i) 200 s-1 (ii) 2 min-1 (iii) 4 years-1."
+   ]
+  },
+  {
+   "id": "ex3.14",
+   "source_ref": "lech103.txt line 668",
+   "questions": [
+    "The half-life for radioactive decay of 14C is 5730 years. An artifact had 80% of 14C found in living wood. Estimate age of sample."
+   ]
+  },
+  {
+   "id": "ex3.15",
+   "source_ref": "lech103.txt line 672",
+   "questions": [
+    "Experimental data for decomposition of N2O5 in gas phase at 318 K: Plot [N2O5] vs t, find half-life, plot log[N2O5] vs t, determine rate law and rate constant."
+   ]
+  },
+  {
+   "id": "ex3.16",
+   "source_ref": "lech103.txt line 682",
+   "questions": [
+    "The rate constant for a first order reaction is 60 s-1. How much time will it take to reduce initial concentration to 1/16th value?"
+   ]
+  },
+  {
+   "id": "ex3.17",
+   "source_ref": "lech103.txt line 685",
+   "questions": [
+    "90Sr has half-life 28.1 years. If 1 mg is absorbed in bones, how much remains after 10 years and 60 years?"
+   ]
+  },
+  {
+   "id": "ex3.18",
+   "source_ref": "lech103.txt line 690",
+   "questions": [
+    "For a first order reaction, show that time required for 99% completion is twice time required for 90% completion."
+   ]
+  },
+  {
+   "id": "ex3.19",
+   "source_ref": "lech103.txt line 693",
+   "questions": [
+    "A first order reaction takes 40 min for 30% decomposition. Calculate half-life."
+   ]
+  },
+  {
+   "id": "ex3.20",
+   "source_ref": "lech103.txt line 695",
+   "questions": [
+    "Calculate rate constant for decomposition of azoisopropane from total pressure vs time data at 543 K."
+   ]
+  },
+  {
+   "id": "ex3.21",
+   "source_ref": "lech103.txt line 700",
+   "questions": [
+    "For thermal decomposition of SO2Cl2 -> SO2 + Cl2, calculate reaction rate when total pressure is 0.65 atm."
+   ]
+  },
+  {
+   "id": "ex3.22",
+   "source_ref": "lech103.txt line 707",
+   "questions": [
+    "Draw graph between ln k and 1/T for N2O5 decomposition and calculate values of A and Ea."
+   ]
+  },
+  {
+   "id": "ex3.23",
+   "source_ref": "lech103.txt line 712",
+   "questions": [
+    "The rate constant for hydrocarbon decomposition is 2.418e-5 s-1 at 546 K with Ea = 179.9 kJ/mol. Calculate pre-exponential factor A."
+   ]
+  },
+  {
+   "id": "ex3.24",
+   "source_ref": "lech103.txt line 716",
+   "questions": [
+    "For reaction A -> Products with k = 2.0e-2 s-1, calculate concentration remaining after 100 s if initial concentration is 1.0 M."
+   ]
+  },
+  {
+   "id": "ex3.25",
+   "source_ref": "lech103.txt line 719",
+   "questions": [
+    "Sucrose decomposes by first order rate law with t1/2 = 3.00 hours. What fraction of sample remains after 8 hours?"
+   ]
+  },
+  {
+   "id": "ex3.26",
+   "source_ref": "lech103.txt line 722",
+   "questions": [
+    "The decomposition of hydrocarbon follows k = (4.5e11 s-1) exp(-28000 K / T). Calculate Ea."
+   ]
+  },
+  {
+   "id": "ex3.27",
+   "source_ref": "lech103.txt line 725",
+   "questions": [
+    "The rate constant for first order decomposition of H2O2 is log k = 14.34 - 1.25e4 K / T. Calculate Ea and temperature at which half-life is 256 min."
+   ]
+  },
+  {
+   "id": "ex3.28",
+   "source_ref": "lech103.txt line 730",
+   "questions": [
+    "Decomposition of A has k = 4.5e3 s-1 at 10 C and Ea = 60 kJ mol-1. At what temperature would k be 1.5e4 s-1?"
+   ]
+  },
+  {
+   "id": "ex3.29",
+   "source_ref": "lech103.txt line 734",
+   "questions": [
+    "Time required for 10% completion of first order reaction at 298 K equals time for 25% completion at 308 K. If A = 4e10 s-1, calculate k at 318 K and Ea."
+   ]
+  },
+  {
+   "id": "ex3.30",
+   "source_ref": "lech103.txt line 738",
+   "questions": [
+    "The rate of a reaction quadruples when temperature changes from 293 K to 313 K. Calculate energy of activation."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_001",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_001",
+   "title": "c7_chem_ch02_001",
+   "questions": [
+    {
+     "q": "Which of the following processes represents a change where no new substance is formed: dissolving sugar in water, burning paper, rusting of an iron nail, or souring of milk?",
+     "a": "Dissolving sugar in water is a change where no new substance is formed because the sugar molecules merely disperse among water molecules and can be recovered by evaporating the water. A student who incorrectly chooses \"rusting of an iron nail\" confuses a temporary physical mixing with a permanent chemical reaction that creates iron oxide.",
+     "self_check": true
+    },
+    {
+     "q": "Why does melting a candle wax block differ fundamentally from burning a candle wick during a demonstration in the science lab?",
+     "a": "Melting only changes the solid wax into a liquid state without altering its chemical composition, whereas burning the wick involves a chemical reaction with oxygen in the air to produce carbon dioxide gas, water vapor, and soot. A student who thinks both are identical physical changes fails to recognize that combustion creates entirely new chemical substances with different properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a magnesium ribbon, cleans it with sandpaper, and burns it in the air with a dazzling white light, leaving behind a white powdery ash (magnesium oxide). Calculate or identify the nature of this change and explain why it cannot be classified as a simple physical change.",
+     "a": "Step 1: Identify the starting material (magnesium ribbon, Mg) and the reactant in air (oxygen gas, $O_2$). Step 2: Recognize the product formed as a white powder, which is magnesium oxide ($MgO$). Step 3: Compare the properties of magnesium ($Mg$) and magnesium oxide ($MgO$); they have entirely different chemical properties, confirming a new substance is born. Step 4: Conclude that because the original metal is consumed and cannot be easily recovered by cooling or physical separation, it is a chemical change. A student who calls this a physical change because \"it just changed shape into powder\" misses the fundamental creation of a new chemical compound ($2Mg + O_2 \\rightarrow 2MgO$).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two changes observed in a household: cutting a fresh lemon into slices and squeezing the juice, versus leaving iron nails out in the monsoon humidity where they turn reddish-brown. Compare how these two changes differ in terms of substance identity and reversibility.",
+     "a": "Cutting a lemon alters only its size and shape while the juice retains its chemical makeup (citric acid), making it a physical change that is mechanically irreversible in form but chemically identical. Conversely, rusting of iron creates hydrated iron(III) oxide ($Fe_2O_3 \\cdot xH_2O$), a brand new chemical species that destroys the original metal property, rendering it an irreversible chemical change. A student who believes cutting a lemon is chemical because \"you can never put the slices back together\" confuses physical reversibility of shape with chemical composition permanence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All changes that involve a release of heat are chemical changes, and all changes that absorb heat are physical changes.\" Is this statement scientifically valid? Justify your answer.",
+     "a": "This statement is invalid because heat changes can occur in both physical and chemical processes. For example, dissolving certain salts like sodium hydroxide in water releases heat (an exothermic physical process), while melting ice absorbs heat (an endothermic physical change). A student who judges the statement as true relies on an oversimplified rule of thumb instead of checking whether chemical bonds are broken and new substances are formed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home observation log with four everyday household activities and explain the exact observable criteria you would use to prove whether each activity causes a physical or chemical change.",
+     "a": "A good response lists activities such as boiling water, ripening a banana, dissolving salt, and cooking an egg, assigning specific criteria like \"no new gas or color change = physical\" versus \"permanent color change, odor change, or new solid formed = chemical.\" A poor response merely guesses labels without giving concrete, observable sensory evidence or chemical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

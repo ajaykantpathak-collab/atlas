@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_003",
+   "title": "c10_eco_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the primary source of funds for a commercial bank's lending activities?",
+     "a": "The primary source of funds for a commercial bank's lending activities is deposits from the public (savings, current, fixed deposits). A wrong answer like \"RBI loans\" or \"government grants\" reveals the student confuses the central bank's role as lender of last resort with the commercial bank's core intermediation function, or misunderstands that banks primarily mobilise household savings rather than relying on external borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "Why do banks keep a fraction of deposits as reserves (CRR and SLR) instead of lending out 100% of deposits?",
+     "a": "Banks keep reserves to meet depositors' withdrawal demands (liquidity) and to comply with RBI regulations that ensure financial stability; lending 100% would leave the bank unable to honour withdrawals, causing a bank run. A wrong answer like \"to earn interest on reserves\" (CRR earns no interest) or \"because RBI forces them to keep money idle\" shows the student misses the dual purpose of liquidity management and systemic risk prevention, and may not know CRR balances earn zero interest while SLR assets earn market returns.",
+     "self_check": true
+    },
+    {
+     "q": "A bank receives a fresh deposit of ₹50,000. The CRR is 4% and SLR is 18%. Calculate the maximum amount this bank can lend from this deposit, assuming it holds no excess reserves.",
+     "a": "Step 1: Calculate CRR reserve = 4% of ₹50,000 = ₹2,000. Step 2: Calculate SLR reserve = 18% of ₹50,000 = ₹9,000. Step 3: Total reserves = ₹2,000 + ₹9,000 = ₹11,000. Step 4: Maximum lendable amount = Deposit - Total reserves = ₹50,000 - ₹11,000 = ₹39,000. A wrong answer like ₹48,000 (only CRR deducted) or ₹41,000 (only SLR deducted) reveals the student forgets that both CRR and SLR apply simultaneously on the same deposit base, a common error in board exam numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on money supply when the RBI reduces CRR from 4% to 3% versus when it reduces SLR from 18% to 17.5%. Which has a larger potential effect on credit creation and why?",
+     "a": "Reducing CRR from 4% to 3% releases 1% of total deposits as free reserves, while reducing SLR from 18% to 17.5% releases only 0.5% of deposits. Since the money multiplier = 1/CRR, a lower CRR directly increases the multiplier (from 25 to 33.33), whereas SLR reduction only frees funds but does not change the multiplier formula. Thus, CRR cut has a larger potential effect on credit creation. A wrong answer claiming SLR has larger effect because it's a bigger percentage reveals confusion between the statutory liquidity requirement (asset holding) and cash reserve requirement (multiplier determinant).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Banks create money out of thin air when they give loans.\" Is this an accurate description of credit creation? Justify your answer with reference to the deposit-lending cycle.",
+     "a": "The statement is partially true but misleading. Banks do create credit (demand deposits) when they lend, but not \"out of thin air\" — they create it against the backing of primary deposits and within the constraints of CRR/SLR. The loan amount becomes a new deposit in the borrower's account, expanding money supply. However, this creation is limited by the reserve requirements and the need for creditworthy borrowers. A wrong answer agreeing fully ignores the reserve constraints and the fact that banks are intermediaries, not creators of base money; a wrong answer denying any money creation misses the textbook concept of credit creation through the money multiplier.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart showing how an initial deposit of ₹10,000 moves through the banking system with CRR = 10% and zero SLR, assuming all loans are re-deposited in the same banking system. Show the first three rounds of lending and deposits, and calculate the total deposits created after these three rounds.",
+     "a": "Round 1: Initial deposit ₹10,000 → Reserves ₹1,000 (10%) → Loan ₹9,000 → New deposit ₹9,000.\nRound 2: Deposit ₹9,000 → Reserves ₹900 → Loan ₹8,100 → New deposit ₹8,100.\nRound 3: Deposit ₹8,100 → Reserves ₹810 → Loan ₹7,290 → New deposit ₹7,290.\nTotal deposits after 3 rounds = ₹10,000 + ₹9,000 + ₹8,100 + ₹7,290 = ₹34,390.\nA poor answer that stops at one round or adds incorrectly shows the student cannot trace the iterative credit creation process, a key board exam skill for case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

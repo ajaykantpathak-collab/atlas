@@ -1,0 +1,688 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 207,
+ "chapter_title": "Finding the Unknown",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp207.txt",
+ "concepts": [
+  {
+   "id": "gegp.7.1.1",
+   "title": "Algebraic Equation and Verification of Solution",
+   "section": "7.1",
+   "definition": "An algebraic equation expresses equality between two expressions, and a solution is a numerical value for the variable that renders LHS equal to RHS.",
+   "formula": "lhs = rhs",
+   "key_idea": "Substitution of a candidate solution must make both sides numerically identical.",
+   "textbook_ref": "gegp207.txt lines 30-55",
+   "question_patterns": [
+    "verify whether x = {val} is a solution to the equation {a}x + {b} = {c}",
+    "check if {val} satisfies the algebraic balance {a}x + {b} = {c}",
+    "determine if the given value satisfies LHS equal to RHS",
+    "evaluate LHS and RHS at x = {val} to test the solution",
+    "is {val} the root of the equation {a}x + {b} = {c}"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute candidate value into LHS",
+     "explain": "replace the variable slot with the target numerical value in LHS"
+    },
+    {
+     "step": 2,
+     "action": "evaluate numerical value of LHS",
+     "explain": "compute arithmetic operations on LHS"
+    },
+    {
+     "step": 3,
+     "action": "compare LHS result with RHS",
+     "explain": "if LHS matches RHS, the value is a valid solution, otherwise it is not"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.1",
+   "title": "Solving Two-Step Linear Equations (Ax + B = C)",
+   "section": "7.2",
+   "definition": "Linear equations in one unknown of the form Ax + B = C are solved by subtracting constant B from both sides and dividing by coefficient A.",
+   "formula": "x = (c - b) / a",
+   "key_idea": "Apply additive and multiplicative inverse operations sequentially to isolate the unknown.",
+   "textbook_ref": "gegp207.txt lines 85-115",
+   "question_patterns": [
+    "solve the equation {a}x + {b} = {c}",
+    "find the value of x in {a}x + {b} = {c}",
+    "calculate the unknown variable for {a}x + {b} = {c}",
+    "determine the solution to {a}x + {b} = {c}",
+    "what is the value of x that satisfies {a}x + {b} = {c}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract constant term B from C",
+     "explain": "apply additive inverse to move constant to RHS",
+     "compute": "rem = c - b"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by variable coefficient A",
+     "explain": "apply multiplicative inverse to isolate variable x",
+     "compute": "x = rem / a"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.2",
+   "title": "Solving Equations with Variables on Both Sides",
+   "section": "7.2",
+   "definition": "Equations structured as Ax + B = Cx + D are simplified by grouping variable terms on one side and numerical constants on the opposite side.",
+   "formula": "x = (d - b) / (a - c)",
+   "key_idea": "Subtract Cx from both sides and B from both sides to combine like terms.",
+   "textbook_ref": "gegp207.txt lines 120-145",
+   "question_patterns": [
+    "solve for x in {a}x + {b} = {c}x + {d}",
+    "find the value of y when {a}y + {b} = {c}y + {d}",
+    "calculate the unknown in {a}x + {b} = {c}x + {d}",
+    "determine the solution of {a}m + {b} = {c}m + {d}",
+    "what value of variable satisfies {a}x + {b} = {c}x + {d}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract constant B from D",
+     "explain": "gather constant terms on RHS",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract coefficient C from A",
+     "explain": "gather variable coefficients on LHS",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "isolate variable x",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.3",
+   "title": "Fixed Charge and Unit Cost Word Problems",
+   "section": "7.2",
+   "definition": "Problems involving a one-time fixed base charge and a constant fee per unit are modeled by linear relation base + rate * units = total.",
+   "formula": "units = (total_amount - fixed_charge) / unit_cost",
+   "key_idea": "Deduct the flat fee from the total budget before dividing by unit rate.",
+   "textbook_ref": "gegp207.txt lines 165-190",
+   "question_patterns": [
+    "find the number of units bought given total {total_amount}, fixed fee {fixed_charge}, and unit price {unit_cost}",
+    "calculate how many items can be purchased for total {total_amount} with delivery {fixed_charge} and price {unit_cost}",
+    "determine distance traveled if total bill is {total_amount}, fixed rate is {fixed_charge}, and per km rate is {unit_cost}",
+    "how many units are obtained from budget {total_amount} with fixed cost {fixed_charge} and per unit cost {unit_cost}",
+    "compute the variable quantity when total cost is {total_amount}, base charge is {fixed_charge}, and rate is {unit_cost}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract fixed charge from total budget",
+     "explain": "calculate net amount available for variable units",
+     "compute": "variable_amount = total_amount - fixed_charge"
+    },
+    {
+     "step": 2,
+     "action": "divide variable amount by rate per unit",
+     "explain": "find total number of units",
+     "compute": "units = variable_amount / unit_cost"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.4",
+   "title": "Finding Position in Linear Pattern Sequence",
+   "section": "7.1",
+   "definition": "The step number in a sequence where the count of elements follows formula m * n + c is found by solving for position n.",
+   "formula": "position = (total_items - intercept) / multiplier",
+   "key_idea": "Subtract base offset from total stick count and divide by stick increment per step.",
+   "textbook_ref": "gegp207.txt lines 150-164",
+   "question_patterns": [
+    "find position number in pattern with {total_items} sticks where nth term is {multiplier}n + {intercept}",
+    "calculate step number for {total_items} tiles following rule {multiplier}k + {intercept}",
+    "determine position n when formula is {multiplier}n + {intercept} = {total_items}",
+    "what step uses exactly {total_items} elements in rule {multiplier}n + {intercept}",
+    "which arrangement position contains {total_items} items under formula {multiplier}n + {intercept}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract intercept from total elements count",
+     "explain": "remove initial offset value",
+     "compute": "adjusted_items = total_items - intercept"
+    },
+    {
+     "step": 2,
+     "action": "divide adjusted items by step multiplier",
+     "explain": "obtain sequence position index",
+     "compute": "position = adjusted_items / multiplier"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.5",
+   "title": "Solving Linear Equations with Parentheses",
+   "section": "7.2",
+   "definition": "Equations containing grouped terms like A(x + B) + C = D are solved by clearing outer additions and dividing by multiplier A.",
+   "formula": "x = ((d - c) / a) - b",
+   "key_idea": "Undo operations outside the parentheses first before solving for the variable inside.",
+   "textbook_ref": "gegp207.txt lines 195-215",
+   "question_patterns": [
+    "solve the equation {a}(x + {b}) + {c} = {d}",
+    "find x in {a}(x + {b}) + {c} = {d}",
+    "calculate value of variable for {a}(x + {b}) + {c} = {d}",
+    "determine root of equation {a}(x + {b}) + {c} = {d}",
+    "what is x when {a}(x + {b}) + {c} = {d}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract outer constant C from total D",
+     "explain": "isolate term containing parentheses",
+     "compute": "rem1 = d - c"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by factor A",
+     "explain": "clear multiplier outside parentheses",
+     "compute": "rem2 = rem1 / a"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner offset B from rem2",
+     "explain": "isolate variable x",
+     "compute": "x = rem2 - b"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.3.1",
+   "title": "Identifying and Correcting Algebraic Errors",
+   "section": "7.3",
+   "definition": "Evaluating incorrect algebraic solution steps involves identifying violations of balance principles or sign mistakes.",
+   "formula": "lhs = rhs step checks",
+   "key_idea": "Check if operations were applied identically to both sides and if signs were transposed properly.",
+   "textbook_ref": "gegp207.txt lines 220-245",
+   "question_patterns": [
+    "identify the mistake in solving equation {a}x + {b} = {c}",
+    "spot and correct the error in step transformation of linear equation",
+    "find which step in equation resolution violates balance principles",
+    "evaluate solution steps and provide correct value of unknown",
+    "check if student derivation for {a}x + {b} = {c} is correct"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine step by step algebraic operations",
+     "explain": "check each line for proper application of balance laws"
+    },
+    {
+     "step": 2,
+     "action": "locate step where erroneous operation occurred",
+     "explain": "identify missing distribution, incorrect sign change, or unbalanced division"
+    },
+    {
+     "step": 3,
+     "action": "state correct transformation and solve",
+     "explain": "re-evaluate from error point to reach valid solution"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.4.1",
+   "title": "Brahmagupta Method for Ax + B = Cx + D",
+   "section": "7.4",
+   "definition": "Ancient Indian mathematician Brahmagupta formulated a direct solution rule for linear equations Ax + B = Cx + D by dividing net constant difference by net coefficient difference.",
+   "formula": "x = (d - b) / (a - c)",
+   "key_idea": "The root is computed as difference of constants divided by difference of unknown coefficients.",
+   "textbook_ref": "gegp207.txt lines 250-280",
+   "question_patterns": [
+    "use Brahmagupta formula to solve {a}x + {b} = {c}x + {d}",
+    "calculate price of single item using historical formula for {a}x + {b} = {c}x + {d}",
+    "apply ancient method x = (D - B)/(A - C) to find x when A={a}, B={b}, C={c}, D={d}",
+    "find unknown value by Brahmagupta rule for linear equation {a}x + {b} = {c}x + {d}",
+    "determine solution using ratio of constant difference to coefficient difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract initial constant B from final constant D",
+     "explain": "calculate net constant difference D - B",
+     "compute": "diff_const = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract initial coefficient C from final coefficient A",
+     "explain": "calculate net coefficient difference A - C",
+     "compute": "diff_coeff = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "apply Brahmagupta solution formula",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp207.txt Example 5",
+   "concept": "gegp.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "Solve the equation {a}y + {b} = {c}",
+   "extracted_variables": {
+    "a": 11,
+    "b": -5,
+    "c": 61
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant term B from C",
+     "explain": "apply additive inverse to move constant to RHS",
+     "compute": "rem = c - b"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by variable coefficient A",
+     "explain": "apply multiplicative inverse to isolate variable x",
+     "compute": "x = rem / a"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp207.txt Figure It Out 7.2 Q1a",
+   "concept": "gegp.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "Solve the equation {a}x + {b} = {c}",
+   "extracted_variables": {
+    "a": 3,
+    "b": -10,
+    "c": 35
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant term B from C",
+     "explain": "apply additive inverse to move constant to RHS",
+     "compute": "rem = c - b"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by variable coefficient A",
+     "explain": "apply multiplicative inverse to isolate variable x",
+     "compute": "x = rem / a"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp207.txt Example 6",
+   "concept": "gegp.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "Solve for y in {a}y + {b} = {c}y + {d}",
+   "extracted_variables": {
+    "a": 6,
+    "b": 7,
+    "c": 4,
+    "d": 21
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant B from D",
+     "explain": "gather constant terms on RHS",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract coefficient C from A",
+     "explain": "gather variable coefficients on LHS",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "isolate variable x",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gegp207.txt Example 9",
+   "concept": "gegp.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "After how many months will savings be equal when {a}m + {b} = {c}m + {d}",
+   "extracted_variables": {
+    "a": 650,
+    "b": 4000,
+    "c": 500,
+    "d": 5050
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract constant B from D",
+     "explain": "gather constant terms on RHS",
+     "compute": "num = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract coefficient C from A",
+     "explain": "gather variable coefficients on LHS",
+     "compute": "den = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "isolate variable x",
+     "compute": "x = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gegp207.txt Example 8",
+   "concept": "gegp.7.2.3",
+   "question_type": "compute",
+   "question_pattern": "Find the number of units bought given total {total_amount}, fixed fee {fixed_charge}, and unit price {unit_cost}",
+   "extracted_variables": {
+    "total_amount": 500,
+    "fixed_charge": 50,
+    "unit_cost": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract fixed charge from total budget",
+     "explain": "calculate net amount available for variable units",
+     "compute": "variable_amount = total_amount - fixed_charge"
+    },
+    {
+     "step": 2,
+     "action": "divide variable amount by rate per unit",
+     "explain": "find total number of units",
+     "compute": "units = variable_amount / unit_cost"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "gegp207.txt Figure It Out Q6 (p186)",
+   "concept": "gegp.7.2.3",
+   "question_type": "compute",
+   "question_pattern": "determine distance traveled if total bill is {total_amount}, fixed rate is {fixed_charge}, and per km rate is {unit_cost}",
+   "extracted_variables": {
+    "total_amount": 2200,
+    "fixed_charge": 800,
+    "unit_cost": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract fixed charge from total budget",
+     "explain": "calculate net amount available for variable units",
+     "compute": "variable_amount = total_amount - fixed_charge"
+    },
+    {
+     "step": 2,
+     "action": "divide variable amount by rate per unit",
+     "explain": "find total number of units",
+     "compute": "units = variable_amount / unit_cost"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "gegp207.txt Jasmine Matchstick Problem",
+   "concept": "gegp.7.2.4",
+   "question_type": "compute",
+   "question_pattern": "find position number in pattern with {total_items} sticks where nth term is {multiplier}n + {intercept}",
+   "extracted_variables": {
+    "total_items": 99,
+    "multiplier": 2,
+    "intercept": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract intercept from total elements count",
+     "explain": "remove initial offset value",
+     "compute": "adjusted_items = total_items - intercept"
+    },
+    {
+     "step": 2,
+     "action": "divide adjusted items by step multiplier",
+     "explain": "obtain sequence position index",
+     "compute": "position = adjusted_items / multiplier"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "gegp207.txt Example 7",
+   "concept": "gegp.7.2.4",
+   "question_type": "compute",
+   "question_pattern": "calculate step number for {total_items} tiles following rule {multiplier}k + {intercept}",
+   "extracted_variables": {
+    "total_items": 100,
+    "multiplier": 3,
+    "intercept": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract intercept from total elements count",
+     "explain": "remove initial offset value",
+     "compute": "adjusted_items = total_items - intercept"
+    },
+    {
+     "step": 2,
+     "action": "divide adjusted items by step multiplier",
+     "explain": "obtain sequence position index",
+     "compute": "position = adjusted_items / multiplier"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "gegp207.txt Example 10",
+   "concept": "gegp.7.2.5",
+   "question_type": "compute",
+   "question_pattern": "solve the equation {a}(x + {b}) + {c} = {d}",
+   "extracted_variables": {
+    "a": 28,
+    "b": 4,
+    "c": 300,
+    "d": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract outer constant C from total D",
+     "explain": "isolate term containing parentheses",
+     "compute": "rem1 = d - c"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by factor A",
+     "explain": "clear multiplier outside parentheses",
+     "compute": "rem2 = rem1 / a"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner offset B from rem2",
+     "explain": "isolate variable x",
+     "compute": "x = rem2 - b"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "gegp207.txt Example 11",
+   "concept": "gegp.7.2.5",
+   "question_type": "compute",
+   "question_pattern": "find x in {a}(x + {b}) + {c} = {d}",
+   "extracted_variables": {
+    "a": 4,
+    "b": -3,
+    "c": 8,
+    "d": 24
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract outer constant C from total D",
+     "explain": "isolate term containing parentheses",
+     "compute": "rem1 = d - c"
+    },
+    {
+     "step": 2,
+     "action": "divide remainder by factor A",
+     "explain": "clear multiplier outside parentheses",
+     "compute": "rem2 = rem1 / a"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner offset B from rem2",
+     "explain": "isolate variable x",
+     "compute": "x = rem2 - b"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "gegp207.txt Example 16 (Bhaskaracharya)",
+   "concept": "gegp.7.4.1",
+   "question_type": "compute",
+   "question_pattern": "calculate price of single item using historical formula for {a}x + {b} = {c}x + {d}",
+   "extracted_variables": {
+    "a": 6,
+    "b": 300,
+    "c": 10,
+    "d": -100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial constant B from final constant D",
+     "explain": "calculate net constant difference D - B",
+     "compute": "diff_const = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract initial coefficient C from final coefficient A",
+     "explain": "calculate net coefficient difference A - C",
+     "compute": "diff_coeff = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "apply Brahmagupta solution formula",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "gegp207.txt Section 7.4 Example",
+   "concept": "gegp.7.4.1",
+   "question_type": "compute",
+   "question_pattern": "use Brahmagupta formula to solve {a}x + {b} = {c}x + {d}",
+   "extracted_variables": {
+    "a": 5,
+    "b": 4,
+    "c": 3,
+    "d": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial constant B from final constant D",
+     "explain": "calculate net constant difference D - B",
+     "compute": "diff_const = d - b"
+    },
+    {
+     "step": 2,
+     "action": "subtract initial coefficient C from final coefficient A",
+     "explain": "calculate net coefficient difference A - C",
+     "compute": "diff_coeff = a - c"
+    },
+    {
+     "step": 3,
+     "action": "divide constant difference by coefficient difference",
+     "explain": "apply Brahmagupta solution formula",
+     "compute": "x = diff_const / diff_coeff"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "gegp207.txt Figure It Out 7.2",
+   "questions": [
+    "Solve 3x - 10 = 35",
+    "Solve 5s = 3s",
+    "Solve 3u - 7 = 2u + 3",
+    "Solve 4(m + 6) - 8 = 2m - 4",
+    "Solve u/15 = 6"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "gegp207.txt Figure It Out Page 181",
+   "questions": [
+    "Find the value of y for 2y = 60",
+    "Find x for -8 = 5x - 3",
+    "Find w for -53w = -15",
+    "Find z for 13 - z = 8",
+    "Find k for k + 8 = 12 - k",
+    "Find m for 7m = m - 3",
+    "Find n for 3n = 10 + n"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "gegp207.txt Section 7.3 Mind the Mistake",
+   "questions": [
+    "Identify and fix errors in solving 4x + 6 = 10",
+    "Identify and fix errors in solving 7 - 8z = 5",
+    "Identify and fix errors in solving 2v - 4 = 6",
+    "Identify and fix errors in solving 5z + 2 = 3z - 4",
+    "Identify and fix errors in solving 15w - 4w = 26"
+   ]
+  },
+  {
+   "id": "ex7.4",
+   "source_ref": "gegp207.txt Figure It Out Page 185-188",
+   "questions": [
+    "Ranju earns 750 rupees in equal number of 50 and 100 rupee notes. How many notes of each does she have?",
+    "A taxi driver charges a fixed fee of 800 plus 20 per km. If total cost is 2200, find kilometers traveled.",
+    "The sum of two numbers is 76. One number is three times the other. Find the numbers.",
+    "A number increased by 36 is equal to ten times itself. What is the number?",
+    "Solve 5(r + 2) = 10 and -3(u + 2) = 2(u - 1)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

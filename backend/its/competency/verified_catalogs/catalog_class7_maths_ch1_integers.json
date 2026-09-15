@@ -1,0 +1,682 @@
+{
+  "class": 7,
+  "subject": "maths",
+  "chapter": 1,
+  "chapter_title": "Integers",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh101.txt",
+  "concepts": [
+    {
+      "id": "c7m1.1.1",
+      "title": "Closure under Addition",
+      "section": "1.1.1",
+      "definition": "The sum of two integers is always an integer. For any two integers a and b, a + b is an integer.",
+      "formula": "a + b is an integer, for all integers a and b",
+      "key_idea": "Adding any two integers always gives an integer.",
+      "textbook_ref": "gemh101.txt lines 7-24",
+      "question_patterns": [
+        "is the sum of two integers always an integer",
+        "are integers closed under addition",
+        "find a pair of integers whose sum is",
+        "can you find a pair of integers whose sum is not an integer",
+        "write down a pair of integers whose sum is",
+        "write a pair of integers whose sum gives"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "pick two integers",
+          "explain": "Choose any two integers a and b"
+        },
+        {
+          "step": 2,
+          "action": "add them",
+          "explain": "Compute a + b"
+        },
+        {
+          "step": 3,
+          "action": "check result",
+          "explain": "Check if the result is an integer. If yes, closure holds."
+        }
+      ]
+    },
+    {
+      "id": "c7m1.1.2",
+      "title": "Closure under Subtraction",
+      "section": "1.1.2",
+      "definition": "The difference of two integers is always an integer. For any two integers a and b, a - b is an integer.",
+      "formula": "a - b is an integer, for all integers a and b",
+      "key_idea": "Subtracting any integer from any integer always gives an integer.",
+      "textbook_ref": "gemh101.txt lines 31-47",
+      "question_patterns": [
+        "are integers closed under subtraction",
+        "is there any pair of integers whose difference is not an integer",
+        "can we say integers are closed under subtraction",
+        "write a pair of negative integers whose difference gives",
+        "write a negative integer and a positive integer whose difference is",
+        "write down a pair of integers whose difference is"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "pick two integers",
+          "explain": "Choose any two integers a and b"
+        },
+        {
+          "step": 2,
+          "action": "subtract",
+          "explain": "Compute a - b"
+        },
+        {
+          "step": 3,
+          "action": "check result",
+          "explain": "Check if the result is an integer. If yes, closure holds."
+        }
+      ]
+    },
+    {
+      "id": "c7m1.1.3",
+      "title": "Commutative Property of Addition",
+      "section": "1.1.3",
+      "definition": "Addition is commutative for integers. For any two integers a and b, a + b = b + a.",
+      "formula": "a + b = b + a",
+      "key_idea": "You can add two integers in any order and get the same result.",
+      "textbook_ref": "gemh101.txt lines 48-65",
+      "question_patterns": [
+        "is addition commutative for integers",
+        "is a plus b equal to b plus a",
+        "fill in the blank a plus b equals b plus",
+        "verify commutative property of addition",
+        "fill in the blanks a plus b equals b plus",
+        "in a quiz team a scored and team b scored which team scored more",
+        "can we add integers in any order"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "compute a + b",
+          "explain": "Add the two integers in the given order"
+        },
+        {
+          "step": 2,
+          "action": "compute b + a",
+          "explain": "Add the two integers in reversed order"
+        },
+        {
+          "step": 3,
+          "action": "compare",
+          "explain": "Check if a + b equals b + a"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.1.4",
+      "title": "Associative Property of Addition",
+      "section": "1.1.4",
+      "definition": "Addition is associative for integers. For any integers a, b, and c, a + (b + c) = (a + b) + c.",
+      "formula": "a + (b + c) = (a + b) + c",
+      "key_idea": "When adding three integers, how you group them does not change the result.",
+      "textbook_ref": "gemh101.txt lines 73-89",
+      "question_patterns": [
+        "is addition associative for integers",
+        "verify associative property",
+        "fill in the blank grouping addition"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "compute a + (b + c)",
+          "explain": "Group b and c first, then add a"
+        },
+        {
+          "step": 2,
+          "action": "compute (a + b) + c",
+          "explain": "Group a and b first, then add c"
+        },
+        {
+          "step": 3,
+          "action": "compare",
+          "explain": "Check if both groupings give the same result"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.1.5",
+      "title": "Additive Identity",
+      "section": "1.1.5",
+      "definition": "Zero is the additive identity for integers. For any integer a, a + 0 = a = 0 + a.",
+      "formula": "a + 0 = a = 0 + a",
+      "key_idea": "Adding zero to any integer does not change it.",
+      "textbook_ref": "gemh101.txt lines 93-104",
+      "question_patterns": [
+        "what is the additive identity for integers",
+        "what happens when you add zero to an integer",
+        "fill in the blank a plus zero equals",
+        "identity under addition",
+        "fill in the blanks plus equals same number",
+        "fill in the blanks a plus zero equals a",
+        "fill in the blanks a plus equals zero",
+        "fill in the blanks 17 plus equals 0",
+        "fill in the blanks minus 53 plus equals minus 53"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "pick any integer a",
+          "explain": "Choose any integer"
+        },
+        {
+          "step": 2,
+          "action": "add zero",
+          "explain": "Compute a + 0"
+        },
+        {
+          "step": 3,
+          "action": "check result",
+          "explain": "The result equals a. Zero is the additive identity."
+        }
+      ]
+    },
+    {
+      "id": "c7m1.2.1",
+      "title": "Multiplication of Positive and Negative Integer",
+      "section": "1.2.1",
+      "definition": "When multiplying a positive and a negative integer, multiply them as whole numbers and put a minus sign. a x (-b) = -(a x b).",
+      "formula": "a x (-b) = (-a) x b = -(a x b)",
+      "key_idea": "Positive times negative equals negative.",
+      "textbook_ref": "gemh101.txt lines 145-215",
+      "question_patterns": [
+        "multiply a positive and a negative integer",
+        "find the product of positive and negative",
+        "what is a times negative b",
+        "compute product with one negative",
+        "find the product 3 x negative 1",
+        "find the product negative 1 x 225",
+        "find the product positive times negative"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply absolute values",
+          "explain": "Compute |a| x |b| as whole numbers"
+        },
+        {
+          "step": 2,
+          "action": "add minus sign",
+          "explain": "Put a negative sign before the product"
+        },
+        {
+          "step": 3,
+          "action": "result",
+          "explain": "The product is negative"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.2.2",
+      "title": "Multiplication of Two Negative Integers",
+      "section": "1.2.2",
+      "definition": "The product of two negative integers is a positive integer. (-a) x (-b) = a x b.",
+      "formula": "(-a) x (-b) = a x b",
+      "key_idea": "Negative times negative equals positive.",
+      "textbook_ref": "gemh101.txt lines 216-256",
+      "question_patterns": [
+        "multiply two negative integers",
+        "product of two negative numbers",
+        "what is negative a times negative b",
+        "compute product of two negatives",
+        "find the product negative 21 x negative 30",
+        "find the product negative times negative",
+        "product of two negative integers is positive"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply absolute values",
+          "explain": "Compute |a| x |b| as whole numbers"
+        },
+        {
+          "step": 2,
+          "action": "keep positive sign",
+          "explain": "The product of two negatives is positive"
+        },
+        {
+          "step": 3,
+          "action": "result",
+          "explain": "The product is positive"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.1",
+      "title": "Closure under Multiplication",
+      "section": "1.3.1",
+      "definition": "The product of two integers is always an integer. a x b is an integer for all integers a and b.",
+      "formula": "a x b is an integer, for all integers a and b",
+      "key_idea": "Multiplying any two integers always gives an integer.",
+      "textbook_ref": "gemh101.txt lines 296-310",
+      "question_patterns": [
+        "are integers closed under multiplication",
+        "is the product of two integers always an integer",
+        "can you find a pair whose product is not an integer"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "pick two integers",
+          "explain": "Choose any two integers a and b"
+        },
+        {
+          "step": 2,
+          "action": "multiply",
+          "explain": "Compute a x b"
+        },
+        {
+          "step": 3,
+          "action": "check result",
+          "explain": "Check if the result is an integer"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.2",
+      "title": "Commutativity of Multiplication",
+      "section": "1.3.2",
+      "definition": "Multiplication is commutative for integers. a x b = b x a.",
+      "formula": "a x b = b x a",
+      "key_idea": "You can multiply two integers in any order.",
+      "textbook_ref": "gemh101.txt lines 311-328",
+      "question_patterns": [
+        "is multiplication commutative for integers",
+        "is a times b equal to b times a",
+        "verify commutativity of multiplication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "compute a x b",
+          "explain": "Multiply in the given order"
+        },
+        {
+          "step": 2,
+          "action": "compute b x a",
+          "explain": "Multiply in reversed order"
+        },
+        {
+          "step": 3,
+          "action": "compare",
+          "explain": "Check if a x b equals b x a"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.3",
+      "title": "Multiplication by Zero",
+      "section": "1.3.3",
+      "definition": "The product of any integer and zero is zero. a x 0 = 0 x a = 0.",
+      "formula": "a x 0 = 0 x a = 0",
+      "key_idea": "Any integer multiplied by zero gives zero.",
+      "textbook_ref": "gemh101.txt lines 329-338",
+      "question_patterns": [
+        "what happens when you multiply an integer by zero",
+        "multiply by zero",
+        "product of integer and zero"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply by zero",
+          "explain": "Any number times zero is zero"
+        },
+        {
+          "step": 2,
+          "action": "result",
+          "explain": "The product is 0"
+        },
+        {
+          "step": 3,
+          "action": "verify with examples",
+          "explain": "Test with different integers: 5 x 0 = 0, -3 x 0 = 0, confirming the rule holds",
+          "compute": "a * 0"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.4",
+      "title": "Multiplicative Identity",
+      "section": "1.3.4",
+      "definition": "One is the multiplicative identity for integers. a x 1 = 1 x a = a. Multiplying by -1 gives a x (-1) = -a.",
+      "formula": "a x 1 = 1 x a = a; a x (-1) = -a",
+      "key_idea": "Multiplying by 1 does not change the integer. Multiplying by -1 gives the negative.",
+      "textbook_ref": "gemh101.txt lines 339-360",
+      "question_patterns": [
+        "what is the multiplicative identity for integers",
+        "what happens when you multiply by 1",
+        "what happens when you multiply by negative 1",
+        "multiplicative identity"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply by 1",
+          "explain": "a x 1 = a. The integer stays the same."
+        },
+        {
+          "step": 2,
+          "action": "multiply by -1",
+          "explain": "a x (-1) = -a. The sign changes."
+        },
+        {
+          "step": 3,
+          "action": "verify with examples",
+          "explain": "Test: 7 x 1 = 7 (identity), 7 x (-1) = -7 (sign change), confirming both rules",
+          "compute": "a * 1"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.5",
+      "title": "Associativity for Multiplication",
+      "section": "1.3.5",
+      "definition": "Multiplication is associative for integers. (a x b) x c = a x (b x c).",
+      "formula": "(a x b) x c = a x (b x c)",
+      "key_idea": "When multiplying three integers, grouping does not change the result.",
+      "textbook_ref": "gemh101.txt lines 364-383",
+      "question_patterns": [
+        "is multiplication associative for integers",
+        "verify associativity of multiplication",
+        "grouping in multiplication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "compute (a x b) x c",
+          "explain": "Group a and b first, then multiply by c"
+        },
+        {
+          "step": 2,
+          "action": "compute a x (b x c)",
+          "explain": "Group b and c first, then multiply by a"
+        },
+        {
+          "step": 3,
+          "action": "compare",
+          "explain": "Check if both groupings give the same result"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.3.6",
+      "title": "Distributive Property",
+      "section": "1.3.6",
+      "definition": "Multiplication distributes over addition and subtraction. a x (b + c) = a x b + a x c, and a x (b - c) = a x b - a x c.",
+      "formula": "a x (b + c) = a x b + a x c; a x (b - c) = a x b - a x c",
+      "key_idea": "Multiply a number by a sum by multiplying each term separately, then add.",
+      "textbook_ref": "gemh101.txt lines 384-429",
+      "question_patterns": [
+        "distributive property",
+        "verify distributivity",
+        "is a times b plus c equal to a times b plus a times c",
+        "distribute multiplication over addition",
+        "verify 18 x 7 plus negative 3 equals 18 x 7 plus 18 x negative 3",
+        "verify a times b plus c equals a times b plus a times c",
+        "distribute multiplication over subtraction"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "compute a x (b + c)",
+          "explain": "First add b and c, then multiply by a"
+        },
+        {
+          "step": 2,
+          "action": "compute a x b + a x c",
+          "explain": "Multiply a by each term separately, then add"
+        },
+        {
+          "step": 3,
+          "action": "compare",
+          "explain": "Check if both methods give the same result"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.4",
+      "title": "Division of Integers",
+      "section": "1.4",
+      "definition": "Division is the inverse of multiplication. Same signs give positive quotient, different signs give negative quotient. a / (-b) = (-a) / b = -(a/b), and (-a) / (-b) = a / b.",
+      "formula": "a / (-b) = (-a) / b = -(a/b); (-a) / (-b) = a / b",
+      "key_idea": "Same signs = positive, different signs = negative. Division is inverse of multiplication.",
+      "textbook_ref": "gemh101.txt lines 449-512",
+      "question_patterns": [
+        "divide integers",
+        "find the quotient of integers",
+        "evaluate division of integers",
+        "what is negative divided by negative",
+        "what is positive divided by negative",
+        "evaluate negative 30 divided by 10",
+        "evaluate 50 divided by negative 5",
+        "evaluate negative 36 divided by negative 9",
+        "in a class test plus marks for correct and minus marks for incorrect how many incorrect",
+        "temperature at noon decreases per hour when is it below zero",
+        "elevator descends at rate per minute how long to reach",
+        "shopkeeper earns profit and incurs loss how many sold",
+        "in a test plus marks for correct and minus marks for incorrect scored with correct how many incorrect"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "determine signs",
+          "explain": "Check the signs of dividend and divisor"
+        },
+        {
+          "step": 2,
+          "action": "divide absolute values",
+          "explain": "Divide the absolute values as whole numbers"
+        },
+        {
+          "step": 3,
+          "action": "apply sign rule",
+          "explain": "Same signs = positive, different signs = negative"
+        },
+        {
+          "step": 4,
+          "action": "result",
+          "explain": "Write the quotient with the correct sign"
+        }
+      ]
+    },
+    {
+      "id": "c7m1.5",
+      "title": "Properties of Division of Integers",
+      "section": "1.5",
+      "definition": "Integers are NOT closed under division. Division is NOT commutative. Division is NOT associative. a / 0 is not defined. 0 / a = 0 for a != 0. a / 1 = a. a / (-1) = -a.",
+      "formula": "a / 0 is undefined; 0 / a = 0; a / 1 = a; a / (-1) = -a",
+      "key_idea": "Division does not follow closure, commutativity, or associativity for integers.",
+      "textbook_ref": "gemh101.txt lines 516-566",
+      "question_patterns": [
+        "properties of division of integers",
+        "is division closed for integers",
+        "is division commutative",
+        "is division associative",
+        "divide by zero",
+        "divide by one",
+        "divide by negative one",
+        "verify that a divided by b plus c is not equal to a divided by b plus a divided by c",
+        "fill in the blanks 369 divided by equals 369",
+        "fill in the blanks divided by equals negative 1",
+        "fill in the blanks divided by 1 equals same number"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "identify the property to check",
+          "explain": "Determine if checking closure, commutativity, or associativity"
+        },
+        {
+          "step": 2,
+          "action": "test with examples",
+          "explain": "Pick integers and test the property"
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "State whether the property holds or not"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "gemh101.txt lines 115-122",
+      "concept": "c7m1.1.3",
+      "question_type": "write_pairs",
+      "question_pattern": "write down a pair of integers whose sum is {target} or difference is {target}",
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "choose two integers",
+          "explain": "Pick any two integers a and b such that a + b = target or a - b = target"
+        },
+        {
+          "step": 2,
+          "action": "verify",
+          "explain": "Check that the sum or difference equals the target"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "gemh101.txt lines 571-588",
+      "concept": "c7m1.4",
+      "question_type": "test_marks",
+      "question_pattern": "in a test plus {correct_marks} marks for correct answer and minus {incorrect_marks} for incorrect. {name} scored {total} with {num_correct} correct. how many incorrect?",
+      "extracted_variables": {
+        "correct_marks": "marks per correct answer",
+        "incorrect_marks": "marks deducted per incorrect answer",
+        "total_score": "total marks scored",
+        "num_correct": "number of correct answers"
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "compute marks from correct answers",
+          "explain": "marks_from_correct = correct_marks x num_correct",
+          "compute": "correct_marks * num_correct"
+        },
+        {
+          "step": 2,
+          "action": "find marks lost to incorrect answers",
+          "explain": "marks_from_incorrect = total_score - marks_from_correct",
+          "compute": "total_score - marks_from_correct"
+        },
+        {
+          "step": 3,
+          "action": "find number of incorrect answers",
+          "explain": "num_incorrect = marks_from_incorrect / incorrect_marks (both negative, quotient positive)",
+          "compute": "marks_from_incorrect / incorrect_marks"
+        },
+        {
+          "step": 4,
+          "action": "result",
+          "explain": "The number of incorrect answers"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "gemh101.txt lines 589-614",
+      "concept": "c7m1.4",
+      "question_type": "profit_loss_pencils",
+      "question_pattern": "shopkeeper earns profit of {profit_per_item} per {item1} and loss of {loss_per_item} per {item2}. total loss is {total_loss}. sold {num_item1} of {item1}. how many {item2} sold?",
+      "extracted_variables": {
+        "profit_per_item": "profit per item1",
+        "loss_per_item": "loss per item2",
+        "total_loss": "total loss or profit",
+        "num_item1": "number of item1 sold"
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "compute total profit from item1",
+          "explain": "total_profit = profit_per_item x num_item1",
+          "compute": "profit_per_item * num_item1"
+        },
+        {
+          "step": 2,
+          "action": "find total loss from item2",
+          "explain": "total_loss_from_item2 = total_loss - total_profit (convert units if needed)",
+          "compute": "total_loss - total_profit"
+        },
+        {
+          "step": 3,
+          "action": "find number of item2 sold",
+          "explain": "num_item2 = total_loss_from_item2 / loss_per_item (both negative, quotient positive)",
+          "compute": "total_loss_from_item2 / loss_per_item"
+        },
+        {
+          "step": 4,
+          "action": "result",
+          "explain": "The number of item2 sold"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1.1",
+      "source_ref": "gemh101.txt lines 126-141",
+      "questions": [
+        "Write down a pair of integers whose sum is -7",
+        "Write down a pair of integers whose difference is -10",
+        "Write a pair of negative integers whose difference gives 8",
+        "Write a negative integer and a positive integer whose sum is -5",
+        "In a quiz team A scored -40, 10, 0 and team B scored 10, 0, -40. Which team scored more?",
+        "Fill in the blanks: (-5) + (-8) = (-8) + (....)",
+        "Fill in the blanks: -53 + .... = -53",
+        "Fill in the blanks: 17 + .... = 0"
+      ]
+    },
+    {
+      "id": "ex1.2",
+      "source_ref": "gemh101.txt lines 433-448",
+      "questions": [
+        "Find the product: 3 x (-1)",
+        "Find the product: (-1) x 225",
+        "Find the product: (-21) x (-30)",
+        "Verify: 18 x [7 + (-3)] = [18 x 7] + [18 x (-3)]",
+        "For any integer a, what is (-1) x a equal to?"
+      ]
+    },
+    {
+      "id": "ex1.3",
+      "source_ref": "gemh101.txt lines 615-641",
+      "questions": [
+        "Evaluate: (-30) / 10",
+        "Evaluate: 50 / (-5)",
+        "Evaluate: (-36) / (-9)",
+        "Verify that a / (b + c) != (a / b) + (a / c)",
+        "Fill in the blanks: 369 / .... = 369",
+        "Fill in the blanks: (-75) / .... = -1",
+        "Temperature at 12 noon was 10C above zero. Decreases at 2C per hour. When is it 8C below zero?",
+        "In a class test +3 for correct and -2 for incorrect. Radhika scored 20 with 12 correct. How many incorrect?",
+        "Elevator descends at 6 m/min from 10m above ground. How long to reach -350m?"
+      ]
+    }
+  ]
+}

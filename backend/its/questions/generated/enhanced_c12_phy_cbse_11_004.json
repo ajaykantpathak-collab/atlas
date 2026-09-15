@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_004",
+   "title": "c12_phy_cbse_11_004",
+   "questions": [
+    {
+     "q": "State the de Broglie wavelength formula with all symbols defined and their SI units. What is the de Broglie wavelength of a 0.15 kg cricket ball moving at 30 m/s? (Use \\( h = 6.63 \\times 10^{-34} \\) J·s)",
+     "a": "Formula: \\( \\lambda = \\frac{h}{p} = \\frac{h}{mv} \\). \\( h = 6.63 \\times 10^{-34} \\) J·s, \\( m \\) in kg, \\( v \\) in m/s, \\( \\lambda \\) in m. For cricket ball: \\( p = 0.15 \\times 30 = 4.5 \\) kg·m/s. \\( \\lambda = \\frac{6.63 \\times 10^{-34}}{4.5} = 1.47 \\times 10^{-34} \\) m. A wrong answer (e.g., forgetting to multiply mass and velocity, or using wrong units for h) reveals the student cannot compute momentum or handle powers of ten correctly.",
+     "self_check": true
+    },
+    {
+     "q": "An electron and a proton have the same kinetic energy. Which has the larger de Broglie wavelength? Explain your reasoning without calculating numerical values.",
+     "a": "The electron has the larger de Broglie wavelength. For same kinetic energy \\( K = \\frac{p^2}{2m} \\), momentum \\( p = \\sqrt{2mK} \\). Since \\( \\lambda = h/p \\), \\( \\lambda \\propto 1/\\sqrt{m} \\). Electron mass is ~1/1836 of proton mass, so electron's momentum is smaller, giving larger wavelength. A wrong answer (e.g., saying proton has larger wavelength because it's heavier) reveals confusion between mass and momentum in the de Broglie relation.",
+     "self_check": true
+    },
+    {
+     "q": "An electron is accelerated through a potential difference of 100 V. Calculate its de Broglie wavelength. (Given: \\( m_e = 9.11 \\times 10^{-31} \\) kg, \\( e = 1.6 \\times 10^{-19} \\) C, \\( h = 6.63 \\times 10^{-34} \\) J·s)",
+     "a": "Step 1: Kinetic energy gained \\( K = eV = 1.6 \\times 10^{-19} \\times 100 = 1.6 \\times 10^{-17} \\) J.  \nStep 2: Momentum \\( p = \\sqrt{2m_e K} = \\sqrt{2 \\times 9.11 \\times 10^{-31} \\times 1.6 \\times 10^{-17}} = \\sqrt{2.9152 \\times 10^{-47}} = 5.40 \\times 10^{-24} \\) kg·m/s.  \nStep 3: \\( \\lambda = h/p = \\frac{6.63 \\times 10^{-34}}{5.40 \\times 10^{-24}} = 1.23 \\times 10^{-10} \\) m = 0.123 nm.  \nA wrong answer (e.g., using \\( \\lambda = h/(mv) \\) without finding v from K, or using V directly in formula) reveals inability to connect acceleration voltage to kinetic energy and momentum.",
+     "self_check": true
+    },
+    {
+     "q": "A graph of de Broglie wavelength \\( \\lambda \\) versus accelerating voltage \\( V \\) for electrons is plotted. What is the shape of this graph? Derive the relationship and state whether it is linear, parabolic, hyperbolic, or inverse square root.",
+     "a": "For non-relativistic electrons: \\( K = eV = p^2/(2m) \\Rightarrow p = \\sqrt{2meV} \\). Then \\( \\lambda = h/p = \\frac{h}{\\sqrt{2me}} \\cdot \\frac{1}{\\sqrt{V}} \\). So \\( \\lambda \\propto V^{-1/2} \\). The graph of \\( \\lambda \\) vs \\( V \\) is a rectangular hyperbola-like curve (inverse square root). A wrong answer (e.g., linear or \\( 1/V \\)) reveals the student does not know how to combine \\( K = eV \\) with \\( \\lambda = h/\\sqrt{2mK} \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"De Broglie wavelength depends on the charge of the particle because the formula uses momentum, and momentum depends on how the particle was accelerated.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is incorrect. De Broglie wavelength \\( \\lambda = h/p \\) depends only on momentum \\( p \\) (mass × velocity), not on charge. Charge determines how a particle can be accelerated (e.g., by electric fields), but once the particle has a certain momentum, its wavelength is fixed regardless of its charge. A neutron and electron with same momentum have same de Broglie wavelength. The student confuses the method of achieving momentum with the wavelength formula itself.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment to demonstrate that macroscopic objects (like a car) do not exhibit measurable wave properties, using the de Broglie formula. Specify the mass, speed, and calculate the wavelength. Compare it to a typical atomic spacing (~0.1 nm) and explain the implication.",
+     "a": "Take a car of mass 1000 kg moving at 10 m/s. \\( p = 10^4 \\) kg·m/s. \\( \\lambda = 6.63 \\times 10^{-34} / 10^4 = 6.63 \\times 10^{-38} \\) m. This is ~28 orders of magnitude smaller than atomic spacing (10^-10 m). Diffraction requires slit width comparable to wavelength — impossible to construct. A poor answer (e.g., not calculating, or saying \"car is too big\" without quantitative comparison) shows lack of understanding of the scale of Planck's constant and the condition for observable wave effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

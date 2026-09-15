@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_001",
+   "title": "c11_geo_cbse_19_001",
+   "questions": [
+    {
+     "q": "Name the three major mineral belts of India and state the dominant rock system associated with each belt.",
+     "a": "The three major mineral belts are: (1) North-Eastern Peninsular Belt (Chotanagpur Plateau) – Archaean rocks (gneiss, schist); (2) Central Belt (Central India) – Dharwar and Cuddapah systems; (3) Southern Belt (Karnataka, Tamil Nadu) – Dharwar and Archaean rocks. A wrong answer (e.g., naming states instead of belts, or confusing rock systems) reveals the student has memorised locations without linking mineralisation to geological age and structure.",
+     "self_check": true
+    },
+    {
+     "q": "Why are metallic minerals like iron ore, manganese, and copper predominantly concentrated in the Peninsular Plateau, while coal and petroleum are found in sedimentary basins?",
+     "a": "Metallic minerals originate from magmatic and metamorphic processes that occurred during the formation of the ancient crystalline basement (Archaean/Dharwar) of the Peninsular Plateau. Coal and petroleum require organic-rich sedimentary deposition in basins (like Gondwana basins) followed by burial and diagenesis. A wrong answer (e.g., \"peninsular plateau has more mining\") shows confusion between geological formation processes and human extraction activity.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label the following: (a) Bailadila iron ore mines, (b) Khetri copper mines, (c) Jharia coalfield, (d) Mumbai High petroleum field. Identify the mineral belt each belongs to.",
+     "a": "(a) Bailadila – North-Eastern Peninsular Belt (Chotanagpur); (b) Khetri – Central Belt (Aravalli range); (c) Jharia – North-Eastern Peninsular Belt (Damodar valley); (d) Mumbai High – Offshore sedimentary basin (Western Continental Shelf, not part of the three major land belts). Incorrect placement (e.g., putting Khetri in the Southern Belt) indicates poor mental map of mineral belts and their geological boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of occurrence of iron ore in the Bailadila range (Chhattisgarh) with that of placer gold in the Subarnarekha river (Jharkhand). How does the mode of occurrence influence the mining method used?",
+     "a": "Bailadila iron ore occurs as massive hematite lenses in banded iron formations (BIF) – a bed/layer mode within metamorphosed sedimentary rocks, requiring large-scale open-cast mining. Placer gold occurs as alluvial deposits in river sands – a placer mode formed by mechanical concentration, mined by panning/dredging. A wrong comparison (e.g., both are vein deposits) shows failure to distinguish between primary magmatic/metamorphic concentration and secondary mechanical concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's mineral wealth is evenly distributed across all states, ensuring balanced regional development.\" Use evidence from the three mineral belts to support your judgement.",
+     "a": "The statement is false. Over 90% of metallic minerals are concentrated in the North-Eastern Peninsular Belt (Jharkhand, Odisha, Chhattisgarh), while the Indo-Gangetic Plain and Himalayan region are mineral-poor. This extreme unevenness creates regional economic disparities and transport challenges. A student who agrees reveals a misconception that mineral distribution follows political boundaries rather than geological provinces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map for a Class 10 student that explains why the Chotanagpur Plateau is called the \"Mineral Heart of India\". Include at least three minerals, their modes of occurrence, and the geological reason for their concentration.",
+     "a": "A good answer includes: (1) Map showing Chotanagpur Plateau with labels for Bailadila (iron ore – bed/layer in BIF), Jharia (coal – bed in Gondwana sedimentary), and Koderma (mica – vein/pegmatite in metamorphic). (2) Annotation linking Archaean basement + Dharwar folding + Gondwana sedimentation to mineral diversity. (3) Simple legend and colour coding. A poor answer lists minerals without geological explanation or confuses modes of occurrence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

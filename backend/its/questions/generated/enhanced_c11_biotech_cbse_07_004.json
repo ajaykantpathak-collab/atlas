@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_004",
+   "title": "c11_biotech_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the chemical nature of the 5' cap structure added to eukaryotic pre-mRNA?",
+     "a": "The 5' cap is 7-methylguanosine linked to the first transcribed nucleotide via a 5'-5' triphosphate bridge (m⁷GpppN). A wrong answer (e.g., \"a methylated adenine\" or \"a simple GTP attached by 3'-5' phosphodiester bond\") reveals confusion about the unusual 5'-5' linkage and the specific base modification (N7-methylguanosine), which is critical for recognition by the cap-binding complex (CBC).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher observes that a mutant eukaryotic cell line produces mRNA that is rapidly degraded in the cytoplasm. The mRNA lacks a poly(A) tail but has a normal 5' cap. Explain why the absence of the poly(A) tail leads to rapid degradation even though the 5' cap is present.",
+     "a": "The poly(A) tail binds poly(A)-binding protein (PABP), which interacts with the cap-binding complex (eIF4E/eIF4G) to circularize the mRNA, protecting both ends from exonucleases (5'→3' Xrn1 and 3'→5' exosome). Without the tail, PABP cannot bind, the mRNA remains linear, and the 3' end is exposed to the exosome, leading to rapid 3'→5' degradation. A wrong answer focusing only on \"translation initiation failure\" misses the primary protective role against 3' exonucleases.",
+     "self_check": true
+    },
+    {
+     "q": "In an in vitro capping assay, you provide: (i) synthetic pre-mRNA with a 5' triphosphate end, (ii) GTP, (iii) S-adenosylmethionine (SAM), (iv) the three capping enzymes (RNA triphosphatase, guanylyltransferase, methyltransferase). Predict the final cap structure if the methyltransferase is omitted.",
+     "a": "The product will be GpppN (unmethylated cap, also called Cap 0). Steps: RNA triphosphatase removes γ-phosphate → diphosphate end; guanylyltransferase transfers GMP from GTP → GpppN; without methyltransferase, no methyl group is added to N7 of guanine. A wrong answer (e.g., \"no cap forms\" or \"m⁷GpppN still forms\") reveals misunderstanding of the sequential, independent enzymatic steps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the signal sequences required for 3' end cleavage/polyadenylation in mammalian pre-mRNA versus the signal for transcription termination in prokaryotes. How does this difference reflect the coupling of transcription and processing in eukaryotes?",
+     "a": "Mammalian pre-mRNA requires the hexamer AAUAAA (polyadenylation signal) ~10-30 nt upstream of the cleavage site, plus a GU-rich downstream element; prokaryotic termination uses a GC-rich hairpin followed by a U-rich tract (rho-independent) or rho protein binding (rho-dependent). The eukaryotic signal recruits processing factors (CPSF, CstF) that cleave the transcript *before* transcription termination, physically separating cleavage from polymerase release. A wrong answer stating \"both use hairpins\" or \"eukaryotes use rho\" shows failure to distinguish the distinct molecular mechanisms and the uncoupling of cleavage from termination in eukaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "A gene therapy vector uses a viral promoter to drive expression of a therapeutic protein in human hepatocytes. The vector lacks a polyadenylation signal. Evaluate the likely fate of the transcript and the therapeutic outcome.",
+     "a": "Without a polyadenylation signal (AAUAAA), the pre-mRNA will not be cleaved or polyadenylated. The transcript will be unstable (degraded by nuclear exosome), fail to export efficiently, and produce little to no protein, rendering the therapy ineffective. A wrong answer claiming \"translation will proceed normally because the cap is present\" ignores the essential role of the poly(A) tail in mRNA stability, nuclear export, and translation initiation via PABP-eIF4G interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a synthetic mRNA for a COVID-19 vaccine candidate that must be highly stable and efficiently translated in human cells. Specify the exact 5' and 3' modifications you would engineer, and justify each choice based on the molecular mechanisms of cap and poly(A) tail function.",
+     "a": "5' end: Incorporate a Cap 1 structure (m⁷GpppNm) where the first nucleotide (N) has 2'-O-methylation on the ribose, in addition to the N7-methylguanosine. This mimics the natural Cap 1 found in higher eukaryotes, enhancing translation and evading innate immune sensors (e.g., IFIT1). 3' end: Encode a poly(A) tail of ~120-150 adenosines (not the full 250) to balance stability with reduced risk of recombination; flank with a strong polyadenylation signal (AAUAAA) and a downstream GU-rich element for proper processing if delivered as DNA, or directly append the tail if delivered as RNA. Justification must link Cap 1 to eIF4E binding and IFIT1 avoidance, and poly(A) length to PABP coating and protection from deadenylation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

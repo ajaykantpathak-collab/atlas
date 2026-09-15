@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_3",
+   "title": "c9_bio_ch2_3",
+   "questions": [
+    {
+     "q": "Name the three types of simple permanent tissues in plants and state one distinguishing structural feature of each.",
+     "a": "The three types are parenchyma (thin primary walls, living, isodiametric), collenchyma (unevenly thickened primary walls at corners, living, elongated), and sclerenchyma (uniformly thick lignified secondary walls, dead at maturity, elongated or isodiametric). A wrong answer—such as listing \"xylem\" or \"epidermis\"—reveals the student cannot distinguish simple from complex tissues or confuses tissue categories with organ systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why parenchyma cells in the leaf mesophyll have large intercellular spaces and thin walls, while collenchyma cells in the stem cortex have thickened corners but no secondary walls.",
+     "a": "Parenchyma in mesophyll requires gas exchange (CO₂ in, O₂ out) for photosynthesis and rapid diffusion, so thin walls and air spaces maximize surface area; collenchyma provides flexible tensile support to growing organs—uneven corner thickening allows stretching while resisting bending, and the absence of lignin keeps the tissue living and extensible. A wrong answer focusing only on \"support\" for both shows the student misses the functional distinction between rigid and flexible support and the metabolic needs of photosynthetic tissue.",
+     "self_check": true
+    },
+    {
+     "q": "A student examines a transverse section of a maize stem and sees thick-walled, lignified, dead cells with narrow lumens surrounding the vascular bundles. Which simple permanent tissue is this, and what would happen to the stem's mechanical strength if these cells were replaced by collenchyma?",
+     "a": "This is sclerenchyma (specifically fibers). If replaced by collenchyma, the stem would lose rigid compressive strength—collenchyma lacks lignin and cannot resist buckling under the weight of the tall maize plant, leading to lodging (falling over). A wrong answer naming \"parenchyma\" or claiming \"no change\" reveals the student does not link lignin deposition to rigid support or understand that collenchyma is suited for young, growing regions, not mature load-bearing stems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare parenchyma, collenchyma, and sclerenchyma in a table with columns: Cell Wall Type, Living/Dead at Maturity, Typical Location, Primary Function. Use the table to explain why a single plant needs all three tissues.",
+     "a": "| Tissue | Wall Type | Living/Dead | Location | Function |\n|---|---|---|---|---|\n| Parenchyma | Thin primary | Living | Cortex, pith, mesophyll, fruit pulp | Photosynthesis, storage, secretion, healing |\n| Collenchyma | Uneven primary (corners) | Living | Periphery of young stems, petioles, leaf veins | Flexible tensile support during growth |\n| Sclerenchyma | Thick lignified secondary | Dead | Vascular bundles, seed coats, nutshells, fibers | Rigid support, protection, conduction aid |\nA plant needs all three because metabolic activities require living thin-walled cells (parenchyma), elongating organs need stretchable support (collenchyma), and mature structures need unyielding strength (sclerenchyma). A wrong table that merges collenchyma and sclerenchyma as \"thick-walled support\" shows the student cannot differentiate flexible vs. rigid mechanical roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Sclerenchyma is the most important simple permanent tissue because it provides the main structural support to the plant.\" Justify your evaluation with two biological arguments.",
+     "a": "The statement is **partially correct but incomplete**. Argument 1: Sclerenchyma provides rigid support in mature organs, but collenchyma is essential earlier—without flexible support, young stems would snap during rapid elongation. Argument 2: Parenchyma is metabolically indispensable—it performs photosynthesis, stores reserves, and retains totipotency for wound healing; without it, the plant cannot produce energy or regenerate. A wrong evaluation that simply agrees reveals the student prioritizes mechanical strength over metabolic and developmental necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using fresh plant material (no microscope) to demonstrate the difference in mechanical properties between collenchyma-rich and sclerenchyma-rich tissues. List materials, procedure, and expected observation.",
+     "a": "Materials: Celery petiole (collenchyma in ridges), dry coconut coir or jute fiber (sclerenchyma), forceps, water. Procedure: (1) Bend a fresh celery petiole—note it flexes and returns; (2) Try to bend a dry coir fiber—it snaps without bending; (3) Soak coir in water 24 hours—test again. Expected: Celery bends elastically (living, hydrated, uneven walls); dry coir is brittle (dead, lignified); soaked coir remains brittle (lignin irreversible). A poor design that only tests \"strength by hanging weights\" misses the key distinction: **elastic recovery vs. brittle fracture**—the hallmark of flexible vs. rigid support.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

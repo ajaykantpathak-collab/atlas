@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_7",
+   "title": "c9_chem_ch1_7",
+   "questions": [
+    {
+     "q": "What is the fundamental physical property that allows a separating funnel to separate two immiscible liquids?",
+     "a": "The fundamental property is the difference in densities of the two immiscible liquids, which causes them to form distinct layers with the denser liquid at the bottom. A wrong answer (e.g., \"difference in boiling points\" or \"difference in solubility\") reveals the student confuses separating funnel with distillation or thinks separation relies on chemical reactivity rather than physical layering.",
+     "self_check": true
+    },
+    {
+     "q": "A student pours a mixture of water (density 1.0 g/cm³) and carbon tetrachloride (density 1.6 g/cm³) into a separating funnel. After settling, which liquid will be in the lower layer and why?",
+     "a": "Carbon tetrachloride will form the lower layer because its density (1.6 g/cm³) is greater than water's density (1.0 g/cm³). A wrong answer (e.g., \"water will be lower because it's aqueous\") reveals the misconception that aqueous liquids always sink, ignoring actual density values — a common error when students assume water is always the reference without checking numbers.",
+     "self_check": true
+    },
+    {
+     "q": "You have a mixture of kerosene (density 0.81 g/cm³) and water (density 1.00 g/cm³). Draw a labelled diagram of the separating funnel after the layers have settled, showing the position of the stopcock, the two layers, and the direction of drainage for collecting the lower layer.",
+     "a": "Diagram should show: funnel shape with stopcock at bottom; upper layer labelled \"kerosene (0.81 g/cm³)\"; lower layer labelled \"water (1.00 g/cm³)\"; arrow from stopcock pointing downward into a beaker labelled \"water collected\". A wrong diagram (e.g., kerosene at bottom, or stopcock open with both layers draining) reveals the student cannot translate density values into spatial arrangement or doesn't understand the stopcock controls which layer is removed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the separation of oil and water using a separating funnel versus using a separating funnel for chloroform and water. What critical difference in procedure must be observed for chloroform-water, and why?",
+     "a": "For chloroform-water, chloroform (density 1.48 g/cm³) forms the lower layer while water forms the upper layer — opposite to oil-water. The critical difference: when draining, you must collect the lower layer (chloroform) first, not water. A wrong answer (e.g., \"no difference, always drain water first\") reveals the student memorizes \"water is always bottom layer\" instead of applying density comparison for each pair.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I shake the separating funnel vigorously for a long time, the layers will separate faster because mixing helps them separate.\" Evaluate this statement and explain the correct procedure.",
+     "a": "The statement is false. Vigorous shaking creates an emulsion (tiny droplets of one liquid dispersed in the other), which takes much longer to separate or may not separate at all. Correct procedure: invert the funnel gently 3-4 times with the stopcock closed, then vent by opening the stopcock while inverted to release pressure, then let stand undisturbed. A wrong evaluation reveals the student confuses mixing (which increases interfacial area for mass transfer in extraction) with the physical separation step, not understanding that emulsions hinder layer formation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure to separate a mixture of three immiscible liquids: water (1.00 g/cm³), chloroform (1.48 g/cm³), and hexane (0.66 g/cm³) using only a separating funnel. Explain how you would collect each pure liquid.",
+     "a": "Procedure: 1) Pour mixture into separating funnel, let settle — three layers form: top hexane (0.66), middle water (1.00), bottom chloroform (1.48). 2) Drain bottom chloroform layer into beaker A, close stopcock before water reaches tap. 3) Drain middle water layer into beaker B, close stopcock before hexane reaches tap. 4) Pour top hexane layer out from the top of funnel into beaker C. A poor answer (e.g., \"drain all at once\" or \"only two layers form\") reveals the student cannot extend the two-liquid principle to three layers or doesn't realize three immiscible liquids can form three distinct layers if density differences are sufficient.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

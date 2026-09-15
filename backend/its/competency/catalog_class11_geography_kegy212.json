@@ -1,0 +1,173 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 212,
+ "chapter_title": "Water (Oceans)",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy212.txt",
+ "concepts": [
+  {
+   "id": "kegy.212.1.1",
+   "title": "Ocean Floor Relief and Salinity of Ocean Water",
+   "section": "",
+   "definition": "The ocean floor shows continental shelf, slope, deep sea plain and trenches, and ocean water averages about 3.5 per cent or 35 parts per thousand salinity, varying with evaporation, precipitation, river influx and circulation from about 32 to 37 ppt in the open sea.",
+   "formula": "salinity = salt_mass / water_mass * 1000",
+   "key_idea": "Salinity is highest in subtropical seas of strong evaporation and lowest near river mouths and polar seas of melting ice and heavy rain.",
+   "textbook_ref": "kegy212.txt relief and salinity sections",
+   "question_patterns": [
+    "describe the relief divisions of the ocean floor",
+    "define salinity and its average value in per thousand",
+    "calculate the salinity from dissolved salt and water mass",
+    "why do landlocked seas show high salinity",
+    "compare the salinity of baltic and dead sea waters",
+    "state the factors controlling ocean salinity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide salt by water mass and scale to thousand",
+     "explain": "Divide the dissolved salt mass by the sea water mass and multiply by 1000 to get the salinity in parts per thousand",
+     "compute": "salinity = salt_mass / water_mass * 1000"
+    },
+    {
+     "step": 2,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 3,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 4,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.212.2.1",
+   "title": "Ocean Temperature and the Hydrological Cycle",
+   "section": "",
+   "definition": "Ocean water temperature falls with latitude and depth, and the oceans drive the hydrological cycle by evaporating water that returns as precipitation, while the heat capacity of the sea moderates the earth's climate.",
+   "formula": "",
+   "key_idea": "The upper warm layer, the thermocline of rapid temperature fall and the deep cold layer structure the ocean vertically.",
+   "textbook_ref": "kegy212.txt temperature and cycle sections",
+   "question_patterns": [
+    "describe the horizontal and vertical distribution of ocean temperature",
+    "what is the thermocline",
+    "explain the hydrological cycle with its stages",
+    "how do oceans moderate the climate of coastal areas",
+    "compare day night and seasonal temperature change of land and sea",
+    "state the sources of salts dissolved in ocean water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.212.3.1",
+   "title": "Ocean Resources and Their Importance",
+   "section": "Water oceans",
+   "definition": "Oceans provide food from fisheries, minerals like oil, natural gas and polymetallic nodules, energy from tides and waves, and the sea routes that carry most world trade, making ocean resources vital to the economy and future food security.",
+   "formula": "",
+   "key_idea": "The seabed beyond national jurisdiction is treated as the common heritage of mankind under the law of the sea.",
+   "textbook_ref": "kegy212.txt ocean resources sections",
+   "question_patterns": [
+    "name the resources obtained from the oceans",
+    "why are oceans important for world trade",
+    "what are polymetallic nodules and where do they occur",
+    "explain ocean energy resources like tidal and wave power",
+    "state the importance of fisheries for food supply",
+    "what does the common heritage of mankind mean for the seabed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kegy212.txt salinity section",
+   "concept": "kegy.212.1.1",
+   "question_type": "compute_salinity",
+   "question_pattern": "A sample of sea water of {water_mass} grams contains {salt_mass} grams of dissolved salts. Calculate its salinity in parts per thousand.",
+   "extracted_variables": {
+    "water_mass": 1000,
+    "salt_mass": 35
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide salt by water mass and scale to thousand",
+     "explain": "Divide the dissolved salt mass by the sea water mass and multiply by 1000 to get the salinity in parts per thousand",
+     "compute": "salinity = salt_mass / water_mass * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kegy212.txt salinity section",
+   "concept": "kegy.212.1.1",
+   "question_type": "compute_salinity",
+   "question_pattern": "An enclosed sea holds {salt_mass} grams of salts in {water_mass} grams of water. Work out its salinity in parts per thousand and compare it with the ocean average.",
+   "extracted_variables": {
+    "water_mass": 500,
+    "salt_mass": 19
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide salt by water mass and scale to thousand",
+     "explain": "Divide the dissolved salt mass by the sea water mass and multiply by 1000 to get the salinity in parts per thousand",
+     "compute": "salinity = salt_mass / water_mass * 1000"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy212.txt exercises",
+   "questions": [
+    "Multiple choice on oceans and their relief.",
+    "Describe the salinity distribution of ocean water.",
+    "Explain the relief of the ocean floors with a diagram.",
+    "What is the hydrological cycle? Explain its stages.",
+    "State the factors affecting the temperature of ocean water."
+   ]
+  }
+ ]
+}

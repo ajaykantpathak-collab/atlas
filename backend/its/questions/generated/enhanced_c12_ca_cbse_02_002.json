@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_02_002",
+   "title": "c12_ca_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the purpose of the fill handle in Excel, and how does it differ from using the Fill Series command on the Home tab?",
+     "a": "The fill handle (small black square at the bottom-right of a selected cell) allows quick dragging to auto-fill adjacent cells with a pattern (e.g., 1,2,3 or Jan,Feb,Mar). Fill Series (Home → Fill → Series) opens a dialog where you can precisely set step value, stop value, and direction (rows/columns) without dragging. A wrong answer (e.g., \"fill handle only copies values\") reveals the student confuses auto-fill with simple copy-paste and doesn't know the pattern detection feature.",
+     "self_check": true
+    },
+    {
+     "q": "A student imports a CSV file where the first row contains column headers \"Date,Product,Qty,Price\". After import, the Date column shows values like \"01-01-2024\" but are left-aligned. Why does this happen, and how can the student fix it without re-importing?",
+     "a": "Left alignment indicates Excel treated the dates as text, likely because the CSV used a date format (e.g., DD-MM-YYYY) that doesn't match the system's regional settings. The fix: select the column, use Data → Text to Columns → Finish (or apply Date format via Format Cells). A wrong answer (e.g., \"re-import with different settings\") shows the student doesn't know Excel's text-to-columns conversion or that alignment reveals data type.",
+     "self_check": true
+    },
+    {
+     "q": "You have product names in column A (A2:A100) and unit prices in column B (B2:B100). You want column C to display \"Product: <name> @ ₹ <price with 2 decimals>\". Write the formula for C2 using CONCATENATE and TEXT functions.",
+     "a": "=CONCATENATE(\"Product: \", A2, \" @ ₹ \", TEXT(B2, \"0.00\"))\nSteps: 1) TEXT(B2,\"0.00\") formats the number with two decimal places; 2) CONCATENATE joins the static text, cell A2, and formatted price. A wrong answer (e.g., missing TEXT or using & without formatting) reveals the student doesn't know TEXT is required to control decimal places or that CONCATENATE accepts multiple arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a drop-down list created via Data Validation → List with source =$G$3:$G$9 versus typing \"Sales,Finance,HR\" directly in the Source box. Which method is better for maintainability and why?",
+     "a": "Using a named range (or cell reference) is better because adding/removing departments only requires updating the source range; the validation automatically reflects changes. Typing a comma-separated list hardcodes values, requiring reopening Data Validation to edit. A wrong answer (e.g., \"both are same\") shows the student misses the dynamic link advantage of named ranges — a key exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "A data entry form is created for a table with headers in row 1 and data starting row 2. The user clicks \"New\" on the form, enters data, and clicks \"Close\". Later they reopen the form and see only the first 10 records. Why are newer records not visible, and how to fix?",
+     "a": "The form only shows records within the contiguous range Excel detects. If there are blank rows between row 2 and the new data, Excel stops at the first blank row. Fix: ensure no blank rows in the data range, or convert the range to an Excel Table (Ctrl+T) so the form always references the full table. A wrong answer (e.g., \"form is broken\") reveals ignorance of Excel's contiguous range requirement for data forms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a data validation rule that prevents duplicate employee IDs in column A (A2:A500) and shows a custom error message \"Employee ID already exists\". Write the custom formula and explain each part.",
+     "a": "Custom formula: =COUNTIF($A$2:$A$500, A2)=1\nExplanation: COUNTIF counts how many times the value in the current cell (A2) appears in the fixed range $A$2:$A$500. If count equals 1, entry is unique (TRUE); if >1, duplicate (FALSE) and error triggers. The absolute range ensures the same range is checked for every cell. A wrong answer (e.g., using relative range A2:A500) shows the student doesn't understand absolute references in validation formulas — a common board exam trap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

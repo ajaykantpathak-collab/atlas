@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_012",
+   "title": "c12_hs_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the full form of ICDS and which age group of children does it primarily cover?",
+     "a": "ICDS stands for Integrated Child Development Services. It primarily covers children in the age group 0-6 years, along with pregnant and lactating mothers. A wrong answer (e.g., \"ICDS covers school-age children 6-14 years\" or \"ICDS is only a feeding programme\") reveals that the student confuses ICDS with the Mid-Day Meal Scheme or does not know the comprehensive nature of ICDS (which includes health check-ups, immunization, pre-school education, and nutrition counselling besides supplementary nutrition).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between 'food-based strategies' and 'nutrient-based strategies' for tackling malnutrition. Give one example of each from Indian programmes.",
+     "a": "Food-based strategies use whole foods or diets to prevent deficiencies (e.g., dietary diversification, horticulture interventions, food fortification like iodised salt). They are sustainable, cost-effective, and carry no risk of overdose. Nutrient-based strategies provide specific nutrient supplements to at-risk groups (e.g., iron-folic acid tablets under the National Nutritional Anaemia Prophylaxis Programme, vitamin A doses under the National Prophylaxis Programme for Prevention of Blindness). They are short-term, curative, and can have coverage and cost challenges. A wrong answer that swaps the examples or claims food-based strategies are only for treatment shows misunderstanding of the preventive vs curative orientation and the sustainability aspect.",
+     "self_check": true
+    },
+    {
+     "q": "A public nutritionist is planning a supplementary food recipe for preschoolers at an Anganwadi with a cost limit of ₹5 per serving. The recipe must provide good sources of iron. List three locally available, low-cost iron-rich foods she could use, and explain why vitamin C-rich food should be included in the same recipe.",
+     "a": "Three low-cost iron-rich foods: (1) Bengal gram (chana) whole or roasted, (2) Amaranth leaves (chaulai), (3) Jaggery (gur). Vitamin C (e.g., from lemon juice, amla, guava) enhances non-heme iron absorption from plant sources by converting ferric iron to ferrous form and forming a soluble complex. A wrong answer that lists only animal sources (liver, meat) ignores cost and local availability constraints, or omits vitamin C, shows lack of application of nutrition science to programme planning.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the statement: \"POSHAN Abhiyaan is just a renaming of the ICDS programme.\" Use at least three points of difference to support your analysis.",
+     "a": "POSHAN Abhiyaan (PM's Overarching Scheme for Holistic Nutrition) is NOT a renaming of ICDS. Differences: (1) POSHAN Abhiyaan is a multi-ministerial convergence mission that monitors and reviews implementation of multiple schemes (including ICDS), whereas ICDS is a single outreach programme for early childhood care. (2) POSHAN Abhiyaan targets stunting, undernutrition, anaemia, and low birth weight across the life cycle with specific measurable targets, while ICDS focuses on children 0-6 years and pregnant/lactating mothers. (3) POSHAN Abhiyaan uses technology (ICDS-CAS) for real-time monitoring and community mobilization (Jan Andolan), which ICDS traditionally did not. A wrong answer that treats them as identical misses the strategic, convergent, and monitoring role of POSHAN Abhiyaan.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Public Distribution System (PDS) as a food security programme in addressing the double burden of malnutrition. Consider both undernutrition and overnutrition.",
+     "a": "PDS improves cereal access (calories) for the poor, directly combating undernutrition and hunger. However, it primarily provides rice/wheat (energy-dense, nutrient-poor), which does not address micronutrient deficiencies (hidden hunger) and may contribute to overnutrition if diets become cereal-heavy without diversity. The inclusion of fortified rice (iron, folic acid, vitamin B12) in PDS is a step toward addressing micronutrient gaps. A balanced evaluation acknowledges PDS as necessary but insufficient alone; it must be complemented by dietary diversification, nutrition education, and programmes like ICDS/Mid-Day Meal that provide protein and micronutrients. A wrong answer that calls PDS \"fully effective\" or \"completely ineffective\" fails to weigh its caloric security role against its nutritional quality limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page concept note for a new community-level intervention that integrates the food-based and nutrient-based approaches to reduce anaemia among adolescent girls in a rural block. Include: objective, target group, two food-based activities, two nutrient-based activities, and one convergence mechanism with an existing government scheme.",
+     "a": "**Concept Note: \"Anaemia-Mukt Kishori\" Intervention**\n**Objective:** Reduce prevalence of anaemia among adolescent girls (10-19 years) in Block X by 20% in 2 years.\n**Target Group:** Adolescent girls (10-19 years), both in-school and out-of-school.\n**Food-based activities:** (1) Weekly iron-rich recipe demonstrations using local foods (e.g., chana-methi paratha, jaggery-peanut laddoo) at Anganwadi/school with taste-testing; (2) Kitchen garden promotion in schools and households for dark green leafy vegetables (amaranth, spinach) and vitamin C sources (guava, lemon).\n**Nutrient-based activities:** (1) Weekly supervised Iron-Folic Acid (IFA) supplementation (blue tablet) under WIFS (Weekly Iron Folic Acid Supplementation) programme; (2) Bi-annual deworming (Albendazole) as per National Deworming Day.\n**Convergence:** Integrate with POSHAN Abhiyaan's Jan Andolan for community awareness, use ICDS platform for out-of-school girls, and leverage Mid-Day Meal kitchen for recipe trials. A poor answer would list only supplements, ignore food-based sustainability, or miss convergence with existing schemes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

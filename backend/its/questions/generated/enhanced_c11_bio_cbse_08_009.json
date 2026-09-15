@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_009",
+   "title": "c11_bio_cbse_08_009",
+   "questions": [
+    {
+     "q": "Name the protein subunit that polymerizes into the microtubule triplets of a centriole and state the exact arrangement (number of triplets and their angular spacing) in a mature centriole.",
+     "a": "The subunit is α/β-tubulin heterodimer; a mature centriole has nine microtubule triplets arranged at 40° intervals around a central cartwheel hub. A wrong answer (e.g., \"actin filaments\" or \"9 doublets\") reveals confusion between centriole (9×3) and axoneme (9+2) architecture, or between cytoskeletal systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Plant cells lack centrosomes because they have a cell wall that prevents spindle formation.\" Explain why this statement is incorrect by identifying the actual microtubule-organizing centres in higher plants and describing how spindle assembly occurs without centrioles.",
+     "a": "Higher plants lack centrioles but possess acentriolar microtubule-organizing centres (MTOCs) at the nuclear envelope and cortical microtubule arrays; spindle microtubules nucleate from these dispersed MTOCs and self-organize into a bipolar spindle via motor proteins (kinesin-5, dynein). The cell wall does not impede spindle formation — it only fixes cell geometry. A wrong answer indicates the misconception that centrosome = spindle, ignoring alternative nucleation pathways.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypotonic medium, a *Chlamydomonas* cell (with a contractile vacuole) and a mature plant mesophyll cell (with a large central vacuole) both experience water influx. Predict which cell will swell and burst first if the contractile vacuole is chemically inhibited, and justify using tonoplast transport energetics.",
+     "a": "The *Chlamydomonas* cell will burst first. Its contractile vacuole actively expels water using ATP-driven proton pumps (V-ATPase) that create an electrochemical gradient for ion/water efflux; inhibition stops this active osmoregulation. The plant cell's central vacuole accumulates solutes via tonoplast H⁺-pyrophosphatase and antiporters, generating high turgor that is mechanically resisted by the rigid cell wall — no active water expulsion needed. Wrong prediction reveals misunderstanding of active vs. passive osmotic management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biogenesis of a centriole (procentriole assembly) with the formation of a plant central vacuole from provacuoles. Identify two shared molecular principles and one fundamental difference in membrane involvement.",
+     "a": "Shared: (1) both require templated assembly — SAS-6 cartwheel for centriole, SNARE-mediated vesicle fusion for vacuole; (2) both depend on cell-cycle-regulated kinase activity (PLK4 for centriole, CDKA for vacuole biogenesis). Difference: centriole assembly is non-membranous (proteinaceous scaffold in cytoplasm), whereas vacuole formation is entirely membrane-driven (ER/Golgi-derived vesicles coalesce into a tonoplast-bound compartment). Confusing the two as \"both membranous\" or \"both protein-only\" shows failure to distinguish organellar biogenesis modes.",
+     "self_check": true
+    },
+    {
+     "q": "A research paper reports that RNAi knockdown of *SPAS-1* (a pericentriolar protein) in *C. elegans* causes monopolar spindles but normal cilia. Evaluate whether this result supports or contradicts the dual-function model of centrosomes (spindle + basal body). Propose a mechanistic explanation.",
+     "a": "The result *supports* functional modularity: SPAS-1 is specifically required for pericentriolar material (PCM) recruitment of γ-tubulin ring complexes (γ-TuRCs) for spindle nucleation, but dispensable for centriole-to-basal-body conversion and transition zone assembly that template cilia. This shows the same centriole cylinder can independently nucleate distinct microtubule arrays via separable protein modules. A wrong evaluation (e.g., \"contradicts because centrosome does both\") misses the concept of modular PCM composition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using *Rhoeo* leaf epidermal peels and solutions of varying solute concentrations to demonstrate tonoplast selectivity. Specify the observable parameter, control, and how you would distinguish tonoplast-mediated ion accumulation from passive diffusion.",
+     "a": "Incubate peels in 0.3 M mannitol (isotonic) vs. 0.3 M NaCl + fluorescent dye (e.g., BCECF for pH, or radiolabeled ²²Na⁺). Observable: vacuolar sap concentration (via plasmolysis gradient or fluorescence ratio). Control: heat-killed peels (denatured transporters). Active accumulation shows higher vacuolar [Na⁺] or lower pH than external medium despite isotonic mannitol; passive diffusion equilibrates. Poor design omits killed control or uses only plasmolysis (which reflects water potential, not ion selectivity).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

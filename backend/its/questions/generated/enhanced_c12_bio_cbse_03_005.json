@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_005",
+   "title": "c12_bio_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the approximate duration of a typical human menstrual cycle, and which phase marks its first day?",
+     "a": "A typical human menstrual cycle lasts about 28 days (range 21-35 days). The first day of menstrual bleeding marks day 1 of the cycle and the start of the menstrual phase. A wrong answer (e.g., \"cycle starts at ovulation\" or \"duration is 30 days exactly\") reveals confusion between cycle counting conventions and natural variation, or failure to recognize menstruation as the cycle's starting reference point.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the follicular phase is also called the proliferative phase with respect to the uterus.",
+     "a": "During the follicular phase, developing ovarian follicles secrete increasing amounts of estrogen. Estrogen stimulates the repair and thickening of the endometrium (proliferation of endometrial glands, stroma, and blood vessels) after menstruation. A wrong answer (e.g., \"progesterone causes proliferation\" or \"endometrium sheds during follicular phase\") indicates confusion between estrogen and progesterone roles or misalignment of ovarian and uterine events.",
+     "self_check": true
+    },
+    {
+     "q": "A woman has a regular 28-day cycle. On which day does ovulation most likely occur, and what hormonal event triggers it?",
+     "a": "Ovulation typically occurs on day 14 of a 28-day cycle. It is triggered by a surge of LH (luteinizing hormone) from the anterior pituitary, which is induced by high estrogen levels from the mature follicle exerting positive feedback on the hypothalamus and pituitary. A wrong answer (e.g., \"day 10\" or \"FSH surge\") shows misunderstanding of the mid-cycle timing or confusion between the LH surge and the earlier FSH rise.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hormonal environment and endometrial status in the late follicular phase versus the mid-luteal phase.",
+     "a": "Late follicular phase: high estrogen, low progesterone; endometrium is thick, vascular, and proliferative. Mid-luteal phase: high progesterone (and moderate estrogen) from corpus luteum; endometrium becomes secretory, rich in glycogen, and receptive for implantation. A wrong answer (e.g., \"progesterone high in follicular phase\" or \"endometrium thin in luteal phase\") reveals failure to associate hormone profiles with corresponding uterine changes.",
+     "self_check": true
+    },
+    {
+     "q": "If the corpus luteum degenerates prematurely (around day 20) in a 28-day cycle, predict the effect on the menstrual cycle and explain the hormonal basis.",
+     "a": "Premature corpus luteum degeneration causes a sharp drop in progesterone (and estrogen) around day 20. This removes hormonal support for the secretory endometrium, leading to early menstrual bleeding (shortened luteal phase, cycle length ~24 days). The student must reason that progesterone maintains the endometrium; its withdrawal triggers menstruation. A wrong answer (e.g., \"cycle lengthens\" or \"no effect\") indicates lack of cause-effect linking between corpus luteum lifespan, progesterone, and endometrial stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple calendar-based method to identify the fertile window for a woman with regular 30-day cycles. Explain the biological basis for each step.",
+     "a": "For a 30-day cycle, ovulation likely occurs around day 16 (30 - 14). The fertile window spans ~5 days before ovulation (sperm survival) to 1 day after (ovum viability), i.e., days 11-17. Steps: 1) Record cycle length for 6 months to confirm regularity. 2) Subtract 14 days from average cycle length to estimate ovulation day. 3) Mark 5 days before and 1 day after as fertile window. A poor answer (e.g., \"fertile window is days 1-5\" or \"ovulation always day 14\") shows ignorance of cycle-length variability, fixed luteal phase duration, or gamete survival times.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

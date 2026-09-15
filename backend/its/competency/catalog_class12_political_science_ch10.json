@@ -1,0 +1,578 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Politics of Planned Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps203.txt",
+ "concepts": [
+  {
+   "id": "c12ps.10.1",
+   "title": "The Planning Commission",
+   "section": "Politics of Planned Development",
+   "definition": "The Planning Commission was set up by a resolution of the Government of India in March 1950 as a non-statutory body headed by the Prime Minister, tasked with formulating five year plans, allocating resources, and guiding the process of planned economic development.",
+   "formula": "",
+   "key_idea": "The Planning Commission became the central institution of India's development strategy, embodying the consensus that the state should guide and direct economic development through planning, even though it was an executive body and not created by an Act of Parliament.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How and why was the Planning Commission established?",
+    "Explain the composition and functions of the Planning Commission.",
+    "Why was the Planning Commission described as an extra-constitutional body?",
+    "Discuss the relationship between the Planning Commission and the Parliament.",
+    "Evaluate the role of the Planning Commission in India's development strategy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founding of the Planning Commission.",
+     "explain": "Note that it was established by a Government of India resolution in March 1950, not by legislation, and was chaired by the Prime Minister."
+    },
+    {
+     "step": 2,
+     "action": "Explain its functions and powers.",
+     "explain": "Describe its role in formulating five year plans, assessing resources, determining priorities, and allocating funds to states and sectors."
+    },
+    {
+     "step": 3,
+     "action": "Verify its significance in the development strategy.",
+     "explain": "Confirm that the Planning Commission became the nodal institution for India's planned development, centralising decision-making over investment priorities and resource allocation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was the Planning Commission set up as an executive body rather than a statutory one?",
+     "solution": "The Planning Commission was created by a government resolution in 1950 to give the executive flexibility in formulating and revising plans without being constrained by parliamentary legislation. This also allowed the Prime Minister to directly chair it and ensure political direction of the planning process.",
+     "answer": "The Planning Commission was an executive body created by resolution to provide flexibility and direct prime-ministerial control over planning.",
+     "_n": 1
+    },
+    {
+     "question": "What was the relationship between the Planning Commission and the Finance Commission?",
+     "solution": "While the Finance Commission, a constitutional body, recommended the sharing of tax revenues between the Centre and the states, the Planning Commission allocated plan assistance to states for development projects. This created a dual channel of central transfers, with the Planning Commission becoming the more influential body for development funding.",
+     "answer": "The Planning Commission handled plan grants while the Finance Commission handled statutory tax devolution, creating a dual system of central transfers.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the establishment, composition, and functions of the Planning Commission.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why was the Planning Commission criticised as an extra-constitutional body?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.2",
+   "title": "Five Year Plans",
+   "section": "Politics of Planned Development",
+   "definition": "The Five Year Plans were the instruments through which the Planning Commission pursued planned development, beginning with the First Plan (1951-56) which focused on agriculture and irrigation, and the Second Plan (1956-61) which shifted emphasis to industry and the public sector.",
+   "formula": "",
+   "key_idea": "The Five Year Plans reflected shifting priorities -- from agriculture and community development in the First Plan to heavy industry and the public sector in the Second Plan -- and embodied the political debate over the appropriate strategy of development for India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare the priorities of the First and Second Five Year Plans.",
+    "Why did the Second Five Year Plan emphasise heavy industry?",
+    "Explain the debate between the Nehru-Mahalanobis model and alternative development models.",
+    "How did the Five Year Plans reflect the political consensus on development?",
+    "Discuss the shift from agriculture to industry in India's planning strategy."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the plan period and its total outlay.",
+     "explain": "Note the duration of the plan and the total planned expenditure, broken down by sector.",
+     "compute": "sector_outlay / total_outlay * 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute the share of each sector in the plan outlay.",
+     "explain": "Divide the outlay for agriculture, industry, and services by the total outlay and multiply by 100.",
+     "compute": "agriculture_outlay / total_outlay * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the shift in priorities between plans.",
+     "explain": "Compare the sectoral shares across two plans to identify the direction of the shift in development strategy.",
+     "compute": "industry_share_plan2 - industry_share_plan1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The First Five Year Plan had a total outlay of Rs 2,069 crore, of which Rs 510 crore was allocated to agriculture and irrigation. Calculate the share of agriculture.",
+     "solution": "Share = (510 / 2069) * 100 = 24.65 percent.",
+     "answer": "Agriculture and irrigation received approximately 24.7 percent of the First Plan outlay."
+    },
+    {
+     "question": "In the Second Five Year Plan, the total outlay was Rs 4,672 crore and industry received Rs 1,800 crore. Calculate the share of industry and compare it with the First Plan.",
+     "solution": "Second Plan industry share = (1800 / 4672) * 100 = 38.53 percent. First Plan agriculture share was 24.65 percent, so the Second Plan shifted the emphasis from agriculture to industry.",
+     "answer": "Industry received about 38.5 percent of the Second Plan outlay, reflecting a clear shift from the agriculture-focused First Plan."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If the Third Five Year Plan had a total outlay of Rs 8,577 crore and agriculture received Rs 1,755 crore, calculate the share of agriculture.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the Nehru-Mahalanobis model and its influence on the Second Five Year Plan.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compare the development priorities of the First and Second Five Year Plans.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.3",
+   "title": "Agriculture and Planning",
+   "section": "Politics of Planned Development",
+   "definition": "The First Five Year Plan gave priority to agriculture, irrigation, and community development, reflecting the urgent need to increase food production and address rural poverty, but the Second Plan shifted resources to industry, creating a tension between agricultural and industrial development that persisted throughout the planning era.",
+   "formula": "",
+   "key_idea": "The debate over the balance between agriculture and industry was a central political question in Indian planning, with some arguing that agricultural growth was a prerequisite for industrialisation and others prioritising heavy industry as the engine of long-term development.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why did the First Five Year Plan prioritise agriculture?",
+    "Explain the debate between agricultural and industrial priorities in Indian planning.",
+    "How did the community development programme fit into the planning strategy?",
+    "Discuss the consequences of neglecting agriculture in the Second Plan.",
+    "Evaluate the argument that agricultural growth should precede industrial development."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the agricultural priorities of the First Plan.",
+     "explain": "Note that the First Plan focused on irrigation, community development, and food production to address the food crisis of the early 1950s."
+    },
+    {
+     "step": 2,
+     "action": "Explain the shift towards industry in the Second Plan.",
+     "explain": "Describe how the Second Plan redirected resources to heavy industry, reducing the relative share of agriculture and creating a food deficit."
+    },
+    {
+     "step": 3,
+     "action": "Verify the political debate over the agriculture-industry balance.",
+     "explain": "Confirm that leaders like Charan Singh argued for agricultural priority while Nehru and the Planning Commission prioritised industry, and that this debate shaped the politics of planned development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the First Five Year Plan give priority to agriculture?",
+     "solution": "India faced a severe food shortage in the early 1950s and depended on food imports. The First Plan therefore prioritised irrigation, community development, and agricultural extension to increase food production, and the plan coincided with good monsoons, leading to a significant increase in agricultural output.",
+     "answer": "The First Plan prioritised agriculture to address food shortages and reduce dependence on imports."
+    },
+    {
+     "question": "What was Charan Singh's critique of the planning strategy?",
+     "solution": "Charan Singh, an advocate of agrarian interests, argued that India's development should begin with agriculture because the majority of the population depended on it. He criticised the Second Plan's emphasis on heavy industry, arguing that it neglected the rural economy and would not address poverty or unemployment in the countryside.",
+     "answer": "Charan Singh argued that agricultural development should take priority over heavy industry in India's planning strategy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the tension between agricultural and industrial priorities in Indian planning.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the role of the community development programme in the First Five Year Plan.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Evaluate the consequences of the shift from agriculture to industry in the Second Plan.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.4",
+   "title": "Green Revolution",
+   "section": "Politics of Planned Development",
+   "definition": "The Green Revolution, introduced in the late 1960s, involved the use of high-yielding variety (HYV) seeds, chemical fertilisers, pesticides, and assured irrigation to increase agricultural productivity, initially in wheat-growing regions like Punjab, Haryana, and western Uttar Pradesh.",
+   "formula": "",
+   "key_idea": "The Green Revolution represented a technological shift in Indian agriculture that dramatically increased food production and made India self-sufficient in food grains, but it also widened regional and class disparities because it benefited primarily the well-irrigated, wheat-growing regions and larger farmers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Green Revolution and why was it introduced?",
+    "Explain the components of the Green Revolution technology package.",
+    "Discuss the regional and social impact of the Green Revolution.",
+    "Evaluate the achievements and limitations of the Green Revolution.",
+    "How did the Green Revolution change India's food security situation?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base year and the target year for production data.",
+     "explain": "Note the food grain production before and after the introduction of HYV seeds to measure the impact.",
+     "compute": "production_after - production_before"
+    },
+    {
+     "step": 2,
+     "action": "Compute the percentage increase in food grain production.",
+     "explain": "Divide the increase in production by the base-year production and multiply by 100.",
+     "compute": "(production_after - production_before) / production_before * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the impact on food self-sufficiency and regional disparity.",
+     "explain": "Compare the production growth in Green Revolution regions with that in non-adopting regions to assess the unequal impact.",
+     "compute": "growth_adopting_region - growth_non_adopting_region"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "India's wheat production was approximately 11 million tonnes in 1965-66 and rose to about 23 million tonnes in 1970-71. Calculate the percentage increase.",
+     "solution": "Increase = 23 - 11 = 12 million tonnes. Percentage increase = (12 / 11) * 100 = 109.09 percent.",
+     "answer": "Wheat production increased by approximately 109 percent between 1965-66 and 1970-71."
+    },
+    {
+     "question": "If food grain production was 72 million tonnes in 1965-66 and 108 million tonnes in 1970-71, calculate the percentage increase.",
+     "solution": "Increase = 108 - 72 = 36 million tonnes. Percentage increase = (36 / 72) * 100 = 50 percent.",
+     "answer": "Total food grain production increased by 50 percent between 1965-66 and 1970-71."
+    },
+    {
+     "question": "Why was the Green Revolution initially confined to wheat-growing regions?",
+     "solution": "The HYV seeds were more effective for wheat than for rice in the early years, and the technology required assured irrigation, which was available in Punjab, Haryana, and western Uttar Pradesh. Regions dependent on rain-fed agriculture or growing crops for which HYV seeds were not yet developed could not benefit.",
+     "answer": "The Green Revolution was confined to irrigated wheat-growing regions because HYV seeds and the technology package required assured water and were most effective for wheat."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If wheat production was 23 million tonnes in 1970-71 and 43 million tonnes in 1980-81, calculate the percentage increase.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the components of the Green Revolution technology package.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the regional and social inequalities produced by the Green Revolution.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.5",
+   "title": "Industry and Planning",
+   "section": "Politics of Planned Development",
+   "definition": "The Second Five Year Plan, based on the Mahalanobis model, gave priority to the development of heavy and basic industries -- steel, coal, machinery, and power -- in the public sector, with the aim of building the industrial base for long-term self-reliant growth.",
+   "formula": "",
+   "key_idea": "The industrial strategy of the Second Plan reflected the belief that heavy industry in the public sector was the key to self-reliant development, but it also generated a political debate over the balance between heavy industry, consumer goods, and agriculture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the Mahalanobis model and its influence on the Second Plan.",
+    "Why did the Second Plan emphasise heavy industry in the public sector?",
+    "Discuss the debate over the industrial strategy of the Second Plan.",
+    "How did the Second Plan aim to achieve self-reliance through industry?",
+    "Evaluate the achievements and limitations of the industrial strategy of the 1950s."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Mahalanobis model and its logic.",
+     "explain": "Note that the model, developed by P. C. Mahalanobis, prioritised investment in heavy and capital goods industries to build the productive base for long-term growth."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of the public sector in the industrial strategy.",
+     "explain": "Describe how the plan assigned heavy and basic industries -- steel, coal, machinery, power -- to the public sector while reserving consumer goods for the private sector."
+    },
+    {
+     "step": 3,
+     "action": "Verify the political debate over the industrial strategy.",
+     "explain": "Confirm that the plan was criticised by advocates of agriculture and consumer goods, who argued that heavy industry would not address immediate needs of food and employment, and that this debate defined the politics of development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Mahalanobis model and how did it shape the Second Plan?",
+     "solution": "The Mahalanobis model argued that investment in heavy and capital goods industries would create the capacity to produce machinery for all sectors, leading to self-reliant growth. The Second Plan applied this by allocating the largest share of outlay to heavy industry in the public sector, including three steel plants at Bhilai, Durgapur, and Rourkela.",
+     "answer": "The Mahalanobis model prioritised heavy industry in the public sector to build self-reliant industrial capacity, as reflected in the Second Plan."
+    },
+    {
+     "question": "Why was the industrial strategy of the Second Plan criticised?",
+     "solution": "Critics argued that the emphasis on heavy industry neglected agriculture and consumer goods, which were more relevant to the immediate needs of the population. The strategy also required large imports of machinery in the short run, creating foreign exchange difficulties, and did not directly generate employment.",
+     "answer": "The Second Plan was criticised for neglecting agriculture and consumer goods, creating foreign exchange problems, and not generating immediate employment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the Mahalanobis model and its influence on the Second Five Year Plan.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the role of the public sector in the industrial strategy of the 1950s.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.6",
+   "title": "Mixed Economy Model",
+   "section": "Politics of Planned Development",
+   "definition": "The mixed economy model adopted by India combined public and private sectors in the development process, with the public sector dominating heavy and basic industries, infrastructure, and strategic sectors, while the private sector was allowed to operate in consumer goods, agriculture, and small industry, subject to regulation and licensing.",
+   "formula": "",
+   "key_idea": "The mixed economy was a compromise between capitalism and socialism, designed to combine the efficiency of private enterprise with the social objectives of the state, but it also created a complex system of licensing, controls, and permits that shaped the politics of business-government relations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a mixed economy and why did India adopt this model?",
+    "Explain the division of sectors between the public and private domains in India's mixed economy.",
+    "How did the mixed economy balance efficiency and social objectives?",
+    "Discuss the system of industrial licensing under the mixed economy model.",
+    "Evaluate the achievements and limitations of the mixed economy model."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the mixed economy model in the Indian context.",
+     "explain": "Explain that the model combined public ownership of heavy and strategic industries with private enterprise in other sectors, regulated through licensing and controls."
+    },
+    {
+     "step": 2,
+     "action": "Explain the rationale for the model.",
+     "explain": "Describe how the model was designed to mobilise resources for development, prevent concentration of economic power, and ensure that strategic sectors remained under state control."
+    },
+    {
+     "step": 3,
+     "action": "Verify the political and economic consequences of the model.",
+     "explain": "Confirm that the mixed economy created a system of permits and licences that generated both industrial growth and allegations of corruption and inefficiency, and that it became a subject of political debate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the mixed economy model divide industries between the public and private sectors?",
+     "solution": "Under the Industries (Development and Regulation) Act of 1951 and the Industrial Policy Resolutions, heavy and basic industries like steel, coal, power, and machinery were reserved for the public sector, while consumer goods, agriculture, and small industry were left to the private sector, subject to licensing and regulation.",
+     "answer": "The mixed economy reserved heavy and strategic industries for the public sector while allowing the private sector to operate in consumer goods and agriculture under regulation."
+    },
+    {
+     "question": "What were the criticisms of the mixed economy and the licensing system?",
+     "solution": "Critics argued that the licensing system created a 'permit-license-quota raj' that encouraged corruption, stifled competition, and protected inefficient firms. Defenders argued that regulation was necessary to prevent monopolies, ensure balanced regional development, and direct investment towards priority sectors.",
+     "answer": "The mixed economy was criticised for creating a corrupt and inefficient licensing regime, while its defenders argued that regulation was necessary for balanced development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the mixed economy model and the division of sectors between public and private domains.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the system of industrial licensing and its political consequences.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Evaluate the achievements and limitations of the mixed economy model.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.7",
+   "title": "Public Sector and Its Role",
+   "section": "Politics of Planned Development",
+   "definition": "The public sector was assigned a dominant role in the Indian economy through the nationalisation of key industries, the establishment of public-sector undertakings in steel, coal, power, and machinery, and the expansion of public investment in infrastructure, with the aim of building the industrial base and ensuring social control over strategic resources.",
+   "formula": "",
+   "key_idea": "The public sector was the instrument through which the state pursued self-reliant industrialisation, built infrastructure, and created employment, but it also faced criticism for inefficiency, losses, and bureaucratic management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why was the public sector given a dominant role in the Indian economy?",
+    "Explain the achievements of the public sector in building the industrial base.",
+    "Discuss the criticisms of the public sector and its performance.",
+    "How did public-sector undertakings contribute to employment and infrastructure?",
+    "Evaluate the role of the public sector in India's development strategy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the industries assigned to the public sector.",
+     "explain": "List steel, coal, power, heavy machinery, mining, transport, and banking as sectors reserved for or dominated by the public sector."
+    },
+    {
+     "step": 2,
+     "action": "Explain the rationale for public-sector dominance.",
+     "explain": "Describe how public ownership was justified by the need to build the industrial base, ensure social control over strategic resources, and prevent the concentration of economic power in private hands."
+    },
+    {
+     "step": 3,
+     "action": "Verify the achievements and limitations of the public sector.",
+     "explain": "Confirm that the public sector built the industrial base and infrastructure and generated employment, but that many undertakings incurred losses and were criticised for inefficiency and bureaucratic management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main achievements of the public sector in the planning era?",
+     "solution": "The public sector built major steel plants at Bhilai, Durgapur, and Rourkela, expanded coal and power production, created the infrastructure for transport and communication, and generated employment. It also contributed to self-reliance by producing machinery and capital goods that would otherwise have been imported.",
+     "answer": "The public sector built the industrial base, created infrastructure, and contributed to self-reliance through the production of capital goods."
+    },
+    {
+     "question": "Why was the public sector criticised?",
+     "solution": "Many public-sector undertakings incurred persistent losses, were managed by bureaucrats rather than professionals, and were seen as inefficient and overstaffed. Critics argued that political interference, lack of accountability, and protection from competition led to poor performance.",
+     "answer": "The public sector was criticised for losses, bureaucratic management, political interference, and lack of accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the rationale for assigning a dominant role to the public sector in the Indian economy.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the achievements and limitations of the public sector in the planning era.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.8",
+   "title": "Private Sector and Its Role",
+   "section": "Politics of Planned Development",
+   "definition": "The private sector in the mixed economy was allowed to operate in consumer goods, agriculture, small industry, and services, subject to industrial licensing, controls on prices and distribution, and restrictions on the concentration of economic power, as defined by the Industrial Policy Resolutions and the MRTP Act.",
+   "formula": "",
+   "key_idea": "The private sector was an important partner in the development process, contributing to industrial output, employment, and agricultural growth, but it operated within a framework of regulation designed to align private profit with social objectives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the role of the private sector in India's mixed economy?",
+    "How was the private sector regulated under the planning framework?",
+    "Explain the system of industrial licensing and its impact on the private sector.",
+    "Discuss the relationship between the state and private business in the planning era.",
+    "Evaluate the contribution of the private sector to India's development."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the areas reserved for the private sector.",
+     "explain": "Note that consumer goods, agriculture, small industry, trade, and services were left to the private sector, subject to licensing and regulation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the regulatory framework.",
+     "explain": "Describe the industrial licensing system, price controls, and restrictions on monopolies under the Industries Act and the MRTP Act that governed private enterprise."
+    },
+    {
+     "step": 3,
+     "action": "Verify the contribution and constraints of the private sector.",
+     "explain": "Confirm that the private sector contributed significantly to industrial output and employment but was constrained by licensing, controls, and restrictions on expansion and concentration."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was the private sector regulated under the planning framework?",
+     "solution": "Under the Industries (Development and Regulation) Act of 1951, private firms required a licence to establish a new factory, expand capacity, or change the location of production. The Monopolies and Restrictive Trade Practices Act of 1969 further restricted the growth of large business houses. Price and distribution controls were imposed on essential commodities.",
+     "answer": "The private sector was regulated through industrial licensing, the MRTP Act, and price and distribution controls."
+    },
+    {
+     "question": "What was the relationship between the state and private business in the planning era?",
+     "solution": "The state both supported and constrained private business. It provided infrastructure, credit through public-sector banks, and protection from foreign competition, but it also imposed licensing, price controls, and restrictions on expansion. Business houses like the Tatas and Birlas engaged with the state through the Federation of Indian Chambers of Commerce and Industry (FICCI).",
+     "answer": "The state supported the private sector with infrastructure and protection but constrained it through licensing and regulation, creating a relationship of cooperation and conflict."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of the private sector in India's mixed economy and the regulatory framework governing it.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the relationship between the state and private business in the planning era.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.9",
+   "title": "The Planning and Development Debate",
+   "section": "Politics of Planned Development",
+   "definition": "The planning and development debate in the 1950s and 1960s centred on the appropriate strategy of development for India, with competing visions emphasising heavy industry, agriculture, cottage industry, or market-oriented growth, and reflecting different political ideologies and social interests.",
+   "formula": "",
+   "key_idea": "The development debate was not merely a technical question of resource allocation but a deeply political one, reflecting competing visions of the kind of society India should become, and the debate involved leaders, planners, economists, and political parties with different priorities and constituencies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the competing visions of development in the planning debate.",
+    "How did the Nehru-Mahalanobis vision differ from the Gandhian and socialist alternatives?",
+    "Discuss the debate over the balance between heavy industry and agriculture.",
+    "What were the different positions on the role of the market versus the state in development?",
+    "Evaluate how political ideologies shaped the planning and development debate."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the major positions in the development debate.",
+     "explain": "List the Nehru-Mahalanobis vision of heavy industry, the Gandhian vision of cottage industry and self-reliant villages, the socialist emphasis on equity, and the liberal-market position of the Swatantra Party."
+    },
+    {
+     "step": 2,
+     "action": "Explain the political and social interests behind each position.",
+     "explain": "Describe how each vision reflected different constituencies -- industrialists, peasants, workers, and traders -- and different ideological commitments to socialism, liberalism, or Gandhism."
+    },
+    {
+     "step": 3,
+     "action": "Verify the outcome of the debate.",
+     "explain": "Confirm that the Nehru-Mahalanobis vision of a mixed economy with public-sector-led heavy industry prevailed in the first three plans, but that the debate continued and alternative visions remained influential in politics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Gandhian vision of development differ from the Nehru-Mahalanobis model?",
+     "solution": "The Gandhian vision, advocated by leaders like J. P. Narayan, emphasised cottage industry, self-reliant villages, decentralised production, and the promotion of khadi and village industries. It opposed the concentration of industry in cities and the displacement of artisans. The Nehru-Mahalanobis model, by contrast, prioritised heavy industry and urban industrialisation as the engine of growth.",
+     "answer": "The Gandhian vision emphasised cottage industry and village self-reliance, while the Nehru-Mahalanobis model prioritised heavy industry and urban industrialisation."
+    },
+    {
+     "question": "How did the Swatantra Party's position on development differ from the Congress's?",
+     "solution": "The Swatantra Party opposed the socialist and statist orientation of the Congress, criticising nationalisation, licensing, and heavy public investment. It advocated free enterprise, a reduced role for the state, lower taxes, and the promotion of private initiative, aligning with the interests of business and landed groups.",
+     "answer": "The Swatantra Party advocated free enterprise and a reduced state role, opposing the Congress's socialist and statist development strategy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the competing visions of development in the planning debate of the 1950s and 1960s.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss how political ideologies and social interests shaped the development debate.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Evaluate the outcome of the planning and development debate and its legacy.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps203.txt",
+   "concept": "c12ps.10.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why was the Planning Commission set up as an executive body rather than a statutory one?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The Planning Commission was created",
+     "explain": "The Planning Commission was created by a government resolution in 1950 to give the executive flexibility in formulating and revising plans without being constrained by parliamentary legislation. This also allowed the Prime Minister to directly chair it and ensure political direction of the planning process."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps203.txt",
+   "concept": "c12ps.10.1",
+   "question_type": "short_answer",
+   "question_pattern": "What was the relationship between the Planning Commission and the Finance Commission?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "While the Finance Commission, a",
+     "explain": "While the Finance Commission, a constitutional body, recommended the sharing of tax revenues between the Centre and the states, the Planning Commission allocated plan assistance to states for development projects. This created a dual channel of central transfers, with the Planning Commission becoming the more influential body for development funding."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

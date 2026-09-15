@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_004",
+   "title": "c12_psy_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define \"malfunctioning behaviour,\" \"antecedent factors,\" and \"maintaining factors\" in behavioural analysis. Give a one-sentence example for each.",
+     "a": "Malfunctioning behaviour: any overt or covert action causing distress to the client (e.g., smoking 20 cigarettes daily). Antecedent factors: environmental or internal events that precede and trigger the behaviour (e.g., exam anxiety before smoking). Maintaining factors: consequences that reinforce and sustain the behaviour (e.g., temporary anxiety relief after smoking). A wrong answer typically confuses antecedents with maintaining factors (e.g., saying \"anxiety relief\" is an antecedent) or labels the behaviour as a \"symptom\" rather than a measurable action.",
+     "self_check": true
+    },
+    {
+     "q": "A client bites nails when waiting for exam results. The therapist asks the client to wear a bitter-tasting nail polish. Identify whether this is an antecedent operation or a consequent operation, and explain the learning principle involved.",
+     "a": "This is an antecedent operation (specifically, an establishing operation that alters the sensory properties of the behaviour before it occurs). The bitter taste acts as a punisher contingent on the behaviour, but because it is applied beforehand to change the stimulus conditions, it is classified as antecedent manipulation. The principle is punishment (positive punishment) — adding an aversive stimulus to reduce the behaviour. A common error is calling it a consequent operation because the bitter taste follows the bite; however, the polish is applied *before* the behaviour, making it antecedent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a token economy for a 14-year-old who refuses to do homework. Specify: (a) target behaviour, (b) token type, (c) backup reinforcers (minimum 3), (d) exchange rate, and (e) one response-cost rule.",
+     "a": "(a) Target: completing homework within 60 minutes of returning from school, with ≥80% accuracy. (b) Tokens: coloured star stickers on a chart. (c) Backup reinforcers: 30 min extra video game time (5 tokens), choice of weekend dessert (10 tokens), trip to bookstore (20 tokens). (d) Exchange rate: 1 token per completed homework session; bonus 2 tokens for 5 consecutive days. (e) Response cost: lose 2 tokens if homework not attempted by 7 PM. A weak answer omits measurable criteria for target behaviour, uses vague reinforcers (\"praise\"), or sets exchange rates so high the student never accesses backup reinforcers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare systematic desensitisation and aversive conditioning on: (i) underlying principle, (ii) type of problem each treats, (iii) role of relaxation, (iv) ethical concern unique to each.",
+     "a": "(i) Systematic desensitisation uses reciprocal inhibition (relaxation inhibits anxiety); aversive conditioning uses classical conditioning (pairing unwanted behaviour with aversive stimulus). (ii) Desensitisation treats phobias/anxiety; aversive conditioning treats addictions/habits (alcohol, smoking). (iii) Relaxation is central to desensitisation (hierarchy + relaxation); in aversive conditioning, relaxation is not used — discomfort is intended. (iv) Ethical concern: desensitisation may cause temporary anxiety during hierarchy exposure; aversive conditioning inflicts pain/discomfort (electric shock, nausea) raising consent and human rights issues. A poor answer conflates the principles (e.g., says both use operant conditioning) or misses that relaxation is absent in aversive conditioning.",
+     "self_check": true
+    },
+    {
+     "q": "A therapist uses differential reinforcement of alternative behaviour (DRA) for a child who screams to get attention. The therapist instructs parents to ignore screaming and praise polite requests. Evaluate this plan: identify one strength and one limitation, and suggest a modification to address the limitation.",
+     "a": "Strength: combines positive reinforcement for adaptive behaviour (polite request) with extinction for maladaptive behaviour (screaming), reducing side effects of punishment. Limitation: extinction burst — screaming may initially increase in intensity/duration, causing parents to give in, which reinforces worse screaming. Modification: add a brief \"wait 10 seconds, then prompt polite request\" rule so the child learns the new response before extinction takes full effect, and warn parents about the burst so they persist. A weak evaluation only praises the plan without foreseeing extinction burst or suggests adding punishment (time-out) which contradicts DRA's non-aversive philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 5-step behavioural analysis and treatment plan for a college student who compulsively checks phone notifications during lectures, missing key content. Use the exact sequence: target behaviour → antecedents → maintaining consequences → antecedent operation → consequent operation.",
+     "a": "1. Target behaviour: unlocking phone and viewing notifications during lecture (count per 50-min class). 2. Antecedents: phone visible on desk, vibration/sound alerts, boredom during dense slides, social anxiety (fear of missing out). 3. Maintaining consequences: immediate relief from FOMO (negative reinforcement), dopamine from social validation (positive reinforcement), avoidance of difficult lecture material (negative reinforcement). 4. Antecedent operation: phone on silent + inside bag under seat (removes visual/tactile cues); pre-lecture 2-min \"notification check\" scheduled (satiates FOMO). 5. Consequent operation: self-monitoring log — each lecture with ≤1 check earns a point; 10 points = preferred coffee (positive reinforcement); if >3 checks, lose 2 points (response cost). A poor answer lists vague antecedents (\"stress\"), omits maintaining consequences, or proposes only punishment (e.g., \"give phone to friend\") without reinforcement for the alternative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

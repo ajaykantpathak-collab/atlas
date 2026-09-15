@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_008",
+   "title": "c11_eco_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the investment ceiling that defined a Small Scale Industry in 1950 and the revised ceiling by 1990. Why was this ceiling periodically raised?",
+     "a": "In 1950, the ceiling was ₹5 lakh; by 1990 it was ₹1 crore. The ceiling was raised to account for inflation and technological change — a fixed nominal limit would gradually exclude units that remained small in real terms. A wrong answer (e.g., \"ceiling was lowered\" or \"ceiling never changed\") reveals the student confuses nominal vs real investment limits or misses the indexation rationale.",
+     "self_check": true
+    },
+    {
+     "q": "The Karve Committee (1955) recommended promoting SSIs for rural development. Explain the economic mechanism linking SSI promotion to rural development using the concept of factor intensity.",
+     "a": "SSIs are labour-intensive (high labour-capital ratio). Rural areas have abundant labour but scarce capital. By reserving products and giving concessions to SSIs, production shifts to labour-intensive techniques, creating jobs in rural areas where capital-intensive large firms would not locate. A wrong answer focusing only on \"small size\" or \"low investment\" without linking to labour-capital ratio shows the student memorised features but not the factor-intensity mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A reserved product (handloom cloth) can be produced by an SSI using 10 workers and ₹20 lakh capital, or a large mill using 4 workers and ₹80 lakh capital. Calculate the labour-capital ratio (workers per ₹10 lakh) for each. If the economy has ₹200 lakh capital and 100 workers, which technique employs more workers?",
+     "a": "SSI: 10 workers / ₹20 lakh = 5 workers per ₹10 lakh. Large mill: 4 workers / ₹80 lakh = 0.5 workers per ₹10 lakh. With ₹200 lakh, SSI employs 200/20 × 10 = 100 workers (full employment). Large mill employs 200/80 × 4 = 10 workers. SSI technique absorbs all labour. A wrong answer (e.g., choosing large mill) reveals confusion between capital productivity and employment generation — a classic efficiency vs equity error.",
+     "self_check": true
+    },
+    {
+     "q": "The government reserved 800+ products for SSIs but also gave them lower excise duty and priority bank lending. Analyze whether these three instruments (reservation, tax concession, credit concession) are substitutes or complements in achieving the policy goal.",
+     "a": "They are complements. Reservation protects market access (demand side), lower excise duty reduces cost (supply side), priority lending eases capital constraint (financing side). Removing any one weakens the others — e.g., without reservation, large firms capture the market; without credit, SSIs can't utilise reserved capacity. A wrong answer calling them substitutes shows the student doesn't see the multi-constraint nature of SSI viability (market, cost, finance).",
+     "self_check": true
+    },
+    {
+     "q": "Critics argue SSI reservation reduced efficiency by preventing economies of scale. Evaluate this critique using the concept of dynamic efficiency vs static efficiency in the 1950-1990 context.",
+     "a": "Static efficiency (current output per unit input) favours large firms due to scale economies. But dynamic efficiency (long-term capability building) may favour SSIs: they nurture entrepreneurship, disperse industrial skills, and create a supplier base for large firms (e.g., auto components). In 1950-90, with scarce capital and surplus labour, the dynamic gains (employment, skill formation, regional dispersal) likely outweighed static losses. A wrong answer dismissing reservation entirely or defending it unconditionally shows inability to weigh trade-offs across time horizons.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified SSI policy for a hypothetical state with 40% urban unemployment and capital scarcity. Specify: (a) investment ceiling, (b) 3 products to reserve, (c) two concessions, and (d) one sunset clause. Justify each using economic reasoning.",
+     "a": "(a) ₹50 lakh (higher than 1990 ₹1 crore in real terms, adjusted for 2024 prices). (b) Readymade garments (labour-intensive, export potential), food processing (rural linkages, low capital), auto components (ancillarisation, skill building). (c) 50% credit guarantee on bank loans, 3-year excise holiday. (d) Sunset after 10 years or when unit crosses ₹5 crore turnover — forces graduation, prevents permanent dependency. A poor answer picks generic products, omits sunset clause, or ignores the state's specific unemployment/capital constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

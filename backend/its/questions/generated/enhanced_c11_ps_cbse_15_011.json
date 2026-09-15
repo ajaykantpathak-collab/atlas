@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_011",
+   "title": "c11_ps_cbse_15_011",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha)?",
+     "a": "**Article 75(3)**. A wrong answer (e.g., Article 74, Article 53, or Article 356) reveals the student confuses the **collective responsibility** provision with the President's executive power (Art. 53), the Council of Ministers' aid and advice (Art. 74), or President's Rule (Art. 356). This indicates a lack of precision in identifying the specific constitutional mechanism that makes the executive accountable to the legislature.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution **not** adopt a strict separation of powers like the USA, despite borrowing the concept from Montesquieu?",
+     "a": "India adopts a **parliamentary system** where the executive (Prime Minister and Council of Ministers) is drawn from and accountable to the legislature (Parliament). A strict separation would make the executive independent of the legislature (as in the US presidential system), defeating the principle of **responsible government** — the core of the Westminster model India adopted. A wrong answer (e.g., \"India forgot to include it\" or \"Judiciary is supreme\") shows the student does not understand the **structural link between the executive and legislature** in a parliamentary democracy and conflates separation of powers with judicial supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "The President promulgates an ordinance under Article 123 when Parliament is not in session. Which organ is checking which, and what is the **time limit** for this check to be ratified by the legislature?",
+     "a": "The **executive (President on Cabinet's advice)** is exercising legislative power (making law via ordinance), which is a **check by the executive on the legislature's law-making monopoly**. This ordinance **must be approved by Parliament within 6 weeks of its reassembly** (Art. 123(2)(a)), otherwise it lapses. A wrong answer (e.g., \"judiciary checks executive\" or \"no time limit\") reveals the student cannot identify **executive legislation as a check on legislative monopoly** and misses the **constitutional safeguard (6-week ratification)** that restores legislative supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **power of judicial review** (Articles 13, 32, 226) with the **legislature's power to amend the Constitution** (Article 368). How does the **basic structure doctrine** (Kesavananda Bharati, 1973) act as a check on *both*?",
+     "a": "Judicial review allows courts to strike down laws/amendments violating fundamental rights (Art. 13) or the Constitution's basic structure. Article 368 gives Parliament wide amendment power. The **basic structure doctrine** checks **Parliament** by declaring certain core features (democracy, federalism, secularism, judicial review itself) unamendable. It also checks the **judiciary** by limiting judicial review to *constitutional validity*, not *policy wisdom* (judicial restraint). A wrong answer (e.g., \"Parliament can amend anything\" or \"Judiciary can rewrite laws\") shows the student misses the **mutual limitation**: Parliament cannot destroy the Constitution's identity, and courts cannot become a \"super-legislature.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Collegium system (judges appointing judges) gives the judiciary **excessive power** over the executive and legislature, violating separation of powers.\" Is this a valid criticism? Justify using Articles 124(2) and 217(1).",
+     "a": "**Partially valid but incomplete.** Articles 124(2) and 217(1) require the President to appoint judges **after consultation with** the Chief Justice of India (and other judges). The Supreme Court (in *Second Judges Case*, 1993) interpreted \"consultation\" as **concurrence**, creating the Collegium. This **insulates judicial independence** (a basic structure feature) from executive interference. However, the **executive retains a role** (President formally appoints, can return names for reconsideration, and the NJAC Act, 2014 attempted to change this but was struck down). A one-sided answer (\"yes, judiciary is too powerful\" or \"no, it's perfect\") reveals the student fails to see the **tension between independence and accountability** and the **ongoing constitutional dialogue** between organs on appointments.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **one-paragraph constitutional provision** (like an Article) that would create a **new check** by the legislature on the judiciary, without violating judicial independence (a basic structure feature). Explain the principle behind it.",
+     "a": "**Sample provision:** *\"Article 124A: Parliament may, by law supported by a two-thirds majority of each House present and voting, establish a Judicial Performance Commission to review the *administrative functioning* (case management, delay reduction, transparency) of High Courts and the Supreme Court, excluding any review of *judicial decisions* or *judicial reasoning*.\"*  \n**Principle:** **Accountability without interference** — the legislature checks *administration* (executive-like function of courts) but not *adjudication* (core judicial function). A poor answer (e.g., \"Parliament can overturn judgments\" or \"Judges can be removed by majority vote\") violates **judicial independence** (basic structure) and shows the student cannot distinguish between **judicial decision-making** (protected) and **court administration** (accountable).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_10_012",
+   "title": "c12_hin_ar_cbse_10_012",
+   "questions": [
+    {
+     "q": "Define literal and inferential comprehension questions in your own words.",
+     "a": "Literal questions ask for facts explicitly stated in the text (e.g., \"What is HkfDru's age when she comes to work?\"). Inferential questions require reading between the lines using clues (e.g., \"Why does HkfDru refuse to tell her name?\"). A wrong answer that swaps the definitions shows the student cannot distinguish explicit from implicit information, leading to misdirected search strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Read the question: \"What work does HkfDru do in the narrator's house?\" Is this literal or inferential? Explain how you know.",
+     "a": "This is a literal question because the text explicitly lists her duties: cooking, cleaning, washing, and caring for the children. A student who labels it inferential likely confuses \"detail-rich\" with \"implicit\" — they think any long answer must be inferred. The fix: ask \"Can I point to a sentence that says this?\" If yes, it's literal.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question using the text: \"What name does the narrator's mother give HkfDru, and why does she choose it?\"",
+     "a": "Steps: 1) Identify keywords: \"mother\", \"give HkfDru\", \"name\". 2) Scan the text for the naming scene — it occurs when HkfDru first arrives. 3) Locate the line: the mother names her \"HkfDru\" because she looks like a \"HkfDru\" (a term for a sturdy, hardworking woman). 4) Verify: the text says the mother chose it based on her appearance. A wrong answer that invents a name or reason shows the student is not scanning for specific textual details.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this inferential question: \"Why does HkfDru never complain about her hard life?\" Provide an inference supported by two textual clues.",
+     "a": "Inference: HkfDru accepts her hardship as her destiny, shaped by lifelong conditioning. Clue 1: She says \"ge oqQoqQjh fcykjh u gks;¡\" — we are not queens — showing internalized hierarchy. Clue 2: She works silently even when ill, and the narrator notes she never asks for rest. A weak answer that says \"she is poor\" without textual support reveals the student is making real-world assumptions instead of text-based inferences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Which inference about HkfDru's silence on her name is better supported? (A) She forgot her name. (B) She protects her dignity by withholding it. Justify with evidence.",
+     "a": "(B) is better supported. Evidence 1: When the narrator presses, HkfDru says \"mUgsa viuk le`f¼&lwpd uke fdlh dks crkrh ugha\" — she never tells her original name to anyone. Evidence 2: The narrator reflects that her identity is tied to her self-respect (\"LoHkko\"). (A) has no textual support; the text shows she remembers her past vividly. Choosing (A) reveals the student ignores character consistency and narrator commentary.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about HkfDru's relationship with the narrator's children, and provide a sample answer with two textual supports.",
+     "a": "Sample question: \"How does HkfDru's care for the children reveal her maternal instincts despite her own lost motherhood?\" Good answer: She treats them as her own — Evidence 1: She sings lullabies (\"lksuk mNy&owQn osQ fy, ckgj tkus dks vkoqQy jgrh gS\"). Evidence 2: She prioritizes their needs over her health (\"nwljs gh fnu HkfDru dekbZ osQ fopkj ls 'kgj vk igq¡ph\"). A poor question would be literal (\"What songs does she sing?\") or an answer lacking textual anchors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

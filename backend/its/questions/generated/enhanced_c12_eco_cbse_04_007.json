@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_007",
+   "title": "c12_eco_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the long-run shutdown condition for a perfectly competitive firm?",
+     "a": "The firm shuts down (produces zero output) in the long run if the market price falls below the minimum point of its long-run average cost (LRAC) curve. A wrong answer (e.g., \"price below minimum long-run average variable cost\") reveals confusion between short-run and long-run shutdown conditions — in the long run, all costs are variable, so there is no separate average variable cost; the firm covers all costs including fixed costs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the long-run supply curve of a perfectly competitive firm the portion of its LRMC curve above the minimum LRAC, and not the entire LRMC curve?",
+     "a": "Below the minimum LRAC, price is less than the average cost of production, so the firm incurs economic losses and exits the industry, supplying zero output. A wrong answer (e.g., \"the firm still produces because it covers variable costs\") indicates the student is applying the short-run logic where fixed costs are sunk; in the long run, all costs are avoidable, so the firm exits if it cannot cover total costs.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's long-run total cost function is LRTC(q) = 2q^3 - 12q^2 + 36q + 100. Derive the firm's long-run supply curve. (Hint: Find LRMC and LRAC, then determine the minimum LRAC.)",
+     "a": "Step 1: LRMC = d(LRTC)/dq = 6q^2 - 24q + 36. Step 2: LRAC = LRTC/q = 2q^2 - 12q + 36 + 100/q. Step 3: Find minimum LRAC by setting derivative of LRAC to zero: d(LRAC)/dq = 4q - 12 - 100/q^2 = 0 → 4q^3 - 12q^2 - 100 = 0. Solve numerically: q ≈ 4.3 (approx). Minimum LRAC ≈ LRAC(4.3) ≈ 2(18.49) - 12(4.3) + 36 + 100/4.3 ≈ 36.98 - 51.6 + 36 + 23.26 ≈ 44.64. Step 4: Long-run supply curve: q = 0 for P < 44.64; for P ≥ 44.64, q solves P = 6q^2 - 24q + 36 with q ≥ 4.3. A wrong answer (e.g., using the entire LRMC without the min LRAC cutoff) shows the student missed the exit condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-run supply curve of a firm with its short-run supply curve. Under what circumstances will the long-run supply curve be more elastic than the short-run supply curve?",
+     "a": "The long-run supply curve is more elastic because the firm can adjust all inputs, making it easier to change output in response to price changes. In the short run, fixed inputs constrain adjustment. A wrong answer (e.g., \"short-run supply is more elastic because fixed costs are lower\") confuses elasticity with cost structure; elasticity depends on the ability to vary inputs, which is greater in the long run.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the long run, a perfectly competitive firm always produces at the minimum point of its LRAC curve.\"",
+     "a": "False. The firm produces at the minimum LRAC only in long-run equilibrium when price equals minimum LRAC. If market price is above minimum LRAC, the firm produces where P = LRMC > min LRAC, earning supernormal profit (which attracts entry). If price is below min LRAC, the firm exits. A wrong answer (e.g., \"true, because firms minimize cost\") confuses the long-run equilibrium outcome with the firm's supply behavior at any given price.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a firm's long-run supply curve has a gap (i.e., is not defined for a range of prices). Explain the economic reason.",
+     "a": "Suppose LRAC has a flat minimum at q=10 to q=20 with LRAC=50, and LRMC is below 50 for q<10, equals 50 for 10≤q≤20, and rises above 50 for q>20. Then for P=50, any q between 10 and 20 satisfies P=LRMC, but the supply curve is not a function (multiple quantities). Typically, we assume strictly convex costs to avoid this. The gap arises if LRMC is not strictly rising through the minimum LRAC. A poor answer would not recognize that the supply correspondence may be multi-valued at the minimum LRAC if LRMC is flat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

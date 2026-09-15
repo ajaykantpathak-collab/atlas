@@ -1,0 +1,190 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 11,
+ "chapter_title": "Direct and Inverse Proportions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.111.11.1",
+   "title": "Direct Proportion",
+   "section": "11.2",
+   "definition": "Two quantities are in direct proportion when they grow or shrink by the same factor, keeping their ratio constant: more sugar costs more money in the same per-kilo way, so x1 over y1 equals x2 over y2 for any two corresponding pairs.",
+   "formula": "y2 = y1 * x2 / x1",
+   "key_idea": "Same factor everywhere: double one, the other doubles; the ratio x over y never moves.",
+   "textbook_ref": "hemh111.txt sections 11.1-11.2 (direct proportion, examples)",
+   "question_patterns": [
+    "if 5 kg of sugar costs 200 rupees what do 8 kg cost",
+    "a car travels the given distance in the given litres - find the distance for more litres",
+    "the cost of the pens is in direct proportion - find the missing value",
+    "which of the given pairs are in direct proportion",
+    "use the unitary method to complete the proportional table",
+    "find the cost of the bigger order from the smaller one"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale by the new input",
+     "explain": "Multiply the known output by the new input value.",
+     "compute": "scaled = y1 * x2"},
+    {"step": 2, "action": "divide by the known input",
+     "explain": "Dividing by x1 keeps the constant ratio.",
+     "compute": "y2 = scaled / x1"}
+   ]
+  },
+  {
+   "id": "hemh.111.11.2",
+   "title": "Inverse Proportion",
+   "section": "11.3",
+   "definition": "Two quantities are in inverse proportion when one rises by a factor while the other falls by the same factor, keeping their product constant: more workers finish a job in fewer days, since workers times days stays fixed.",
+   "formula": "x2_y2 = x1 * y1",
+   "key_idea": "Product locked: x1 y1 equals x2 y2, so more of one means less of the other.",
+   "textbook_ref": "hemh111.txt section 11.3 (inverse proportion, examples)",
+   "question_patterns": [
+    "6 workers finish a job in 12 days - how long do 9 workers take",
+    "a car moving at the given speed takes the given time - find the time at a new speed",
+    "which of the given pairs are in inverse proportion",
+    "the food stocked for the given days runs out earlier - how many people joined",
+    "find the missing value in the inverse proportion table",
+    "explain why speed and time are inversely proportional for a fixed journey"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "lock the constant product",
+     "explain": "Multiply the known pair for the constant.",
+     "compute": "constant = x1 * y1"},
+    {"step": 2, "action": "divide by the new value",
+     "explain": "The partner value is the constant over the new input.",
+     "compute": "y2 = constant / x2"}
+   ]
+  },
+  {
+   "id": "hemh.111.11.3",
+   "title": "Telling Direct and Inverse Apart",
+   "section": "11.1",
+   "definition": "The test is the factor behaviour: if doubling one quantity doubles the other they are directly proportional, but if doubling one halves the other they are inversely proportional; stories of buying point direct, stories of sharing work point inverse.",
+   "formula": "-",
+   "key_idea": "Ask what doubling does: same direction means direct, opposite means inverse.",
+   "textbook_ref": "hemh111.txt introduction and mixed examples",
+   "question_patterns": [
+    "decide whether the given quantities are in direct or inverse proportion",
+    "are the number of workers and time in direct proportion - justify",
+    "what happens to the cost when the quantity doubles at the same rate",
+    "classify the given word problems as direct or inverse",
+    "give two daily life examples each of direct and inverse proportion",
+    "why is area of land and its cost in direct proportion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "double one quantity mentally",
+     "explain": "Watch what the story forces on the other quantity."},
+    {"step": 2, "action": "check the ratio or the product",
+     "explain": "Constant ratio means direct; constant product means inverse."},
+    {"step": 3, "action": "name the relation",
+     "explain": "Label the problem before applying the matching method."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh111.txt section 11.2 direct proportion example",
+   "concept": "hemh.111.11.1",
+   "question_type": "compute",
+   "question_pattern": "If {x1} kg of sugar costs {y1} rupees, what will {x2} kg cost?",
+   "extracted_variables": {
+    "x1": "known quantity in kg",
+    "y1": "known cost in rupees",
+    "x2": "new quantity in kg"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale by the new quantity",
+     "explain": "Cost grows with quantity.",
+     "compute": "scaled = y1 * x2"},
+    {"step": 2, "action": "divide by the known quantity",
+     "explain": "The quotient is the new cost.",
+     "compute": "y2 = scaled / x1"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh111.txt section 11.2 practice",
+   "concept": "hemh.111.11.1",
+   "question_type": "compute",
+   "question_pattern": "A machine prints {y1} pages in {x1} minutes. How many pages in {x2} minutes at the same rate?",
+   "extracted_variables": {
+    "x1": "known time in minutes",
+    "y1": "known page count",
+    "x2": "new time in minutes"
+   },
+   "solution_template": [
+    {"step": 1, "action": "scale by the new time",
+     "explain": "Pages grow with minutes in direct proportion.",
+     "compute": "scaled = y1 * x2"},
+    {"step": 2, "action": "divide by the known time",
+     "explain": "The quotient is the new page count.",
+     "compute": "y2 = scaled / x1"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh111.txt section 11.3 inverse proportion example",
+   "concept": "hemh.111.11.2",
+   "question_type": "compute",
+   "question_pattern": "{x1} workers finish a job in {y1} days. How many days will {x2} workers take?",
+   "extracted_variables": {
+    "x1": "known number of workers",
+    "y1": "known number of days",
+    "x2": "new number of workers"
+   },
+   "solution_template": [
+    {"step": 1, "action": "lock the worker-days",
+     "explain": "Workers times days stays constant.",
+     "compute": "constant = x1 * y1"},
+    {"step": 2, "action": "divide by the new workers",
+     "explain": "More workers need fewer days.",
+     "compute": "y2 = constant / x2"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh111.txt section 11.3 practice",
+   "concept": "hemh.111.11.2",
+   "question_type": "compute",
+   "question_pattern": "A car covers the journey in {y1} hours at {x1} km/h. Find the time at {x2} km/h.",
+   "extracted_variables": {
+    "x1": "known speed in km/h",
+    "y1": "known time in hours",
+    "x2": "new speed in km/h"
+   },
+   "solution_template": [
+    {"step": 1, "action": "lock the distance",
+     "explain": "Speed times time is the fixed distance.",
+     "compute": "constant = x1 * y1"},
+    {"step": 2, "action": "divide by the new speed",
+     "explain": "Faster speed shortens the time.",
+     "compute": "y2 = constant / x2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "hemh111.txt EXERCISE 11.1",
+   "questions": [
+     "Following the given table state whether the quantities are in direct proportion.",
+     "If the cost of the given metres of cloth is known find the cost of more cloth.",
+     "Rashmi has a road map with the given scale - find the actual distance."
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "hemh111.txt EXERCISE 11.2",
+   "questions": [
+     "Which of the given pairs are in inverse proportion?",
+     "In a hostel the food lasts the given days - how long with more students?",
+     "A factory requires the given machines to produce the items in the given days - how many machines for fewer days?"
+   ]
+  }
+ ]
+}

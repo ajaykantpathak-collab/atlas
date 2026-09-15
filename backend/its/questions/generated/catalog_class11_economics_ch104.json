@@ -1,0 +1,129 @@
+{
+ "catalog": "catalog_class11_economics_ch104",
+ "concepts": [
+  {
+   "id": "keks.104.1",
+   "title": "Six Limbs of Painting (Shadanga)",
+   "questions": [
+    {
+     "q": "Using the method 'Six Limbs of Painting (Shadanga)', work with: bhava = 150, lavanya_yojana = 400, pramana = 12, rupabheda = 200, sadrishyam = 360, varnikabhanga = 80. Carry the chain through step by step and give the final value of shadanga_score.",
+     "a": "1202 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Six Limbs of Painting (Shadanga)' and work with: bhava = 400, lavanya_yojana = 8, pramana = 100, rupabheda = 30, sadrishyam = 6, varnikabhanga = 15. Carry the chain through step by step and give the final value of shadanga_score.",
+     "a": "559 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Six Limbs of Painting (Shadanga)' refers to.",
+     "a": "The six essential elements of painting as defined in the Kamasutra, covering aspects from perception and proportion to color analysis and grace.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Six Limbs of Painting (Shadanga)'.",
+     "a": "A holistic framework for evaluating artistic quality and technique.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Six Limbs of Painting (Shadanga)', in plain ASCII form.",
+     "a": "shadanga_score = rupabheda + pramana + bhava + lavanya_yojana + sadrishyam + varnikabhanga",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keks.104.2",
+   "title": "Lost Wax Casting Technique",
+   "questions": [
+    {
+     "q": "Using the method 'Lost Wax Casting Technique', work with: copper = 100, mold_process = 360, tin = 200, zinc = 25. Carry the chain through step by step and give the final value of final_bronze.",
+     "a": "0.9028 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lost Wax Casting Technique' and work with: copper = 80, mold_process = 4, tin = 60, zinc = 6. Carry the chain through step by step and give the final value of final_bronze.",
+     "a": "36.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lost Wax Casting Technique' refers to.",
+     "a": "A metal casting process (cire-perdue) where a wax model is used to create a mold, allowing for intricate bronze sculptures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lost Wax Casting Technique'.",
+     "a": "An ancient, sophisticated method for creating detailed metal icons.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lost Wax Casting Technique', in plain ASCII form.",
+     "a": "final_bronze = (copper + zinc + tin) / mold_process",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keks.104.3",
+   "title": "Nagara Temple Architecture",
+   "questions": [
+    {
+     "q": "Using the method 'Nagara Temple Architecture', work with: garbhagriha = 24, platform = 45, shikhara = 25. Carry the chain through step by step and give the final value of nagara_structure.",
+     "a": "94 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nagara Temple Architecture' and work with: garbhagriha = 15, platform = 75, shikhara = 100. Carry the chain through step by step and give the final value of nagara_structure.",
+     "a": "190 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nagara Temple Architecture' refers to.",
+     "a": "A North Indian temple style characterized by a stone platform, a garbhagriha, and a towering shikhara.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nagara Temple Architecture'.",
+     "a": "Verticality and geometric progression are core to Nagara design.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nagara Temple Architecture', in plain ASCII form.",
+     "a": "nagara_structure = platform + garbhagriha + shikhara",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keks.104.4",
+   "title": "Dravida Temple Architecture",
+   "questions": [
+    {
+     "q": "Using the method 'Dravida Temple Architecture', work with: compound_wall = 80, gopuram = 60, stepped_vimana = 18. Carry the chain through step by step and give the final value of dravida_temple.",
+     "a": "158 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dravida Temple Architecture' and work with: compound_wall = 60, gopuram = 6, stepped_vimana = 20. Carry the chain through step by step and give the final value of dravida_temple.",
+     "a": "86 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dravida Temple Architecture' refers to.",
+     "a": "A South Indian temple style defined by a walled compound, a monumental gopuram entrance, and a stepped-pyramid vimana.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dravida Temple Architecture'.",
+     "a": "Emphasis on horizontal enclosure and pyramidal verticality.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dravida Temple Architecture', in plain ASCII form.",
+     "a": "dravida_temple = compound_wall + gopuram + stepped_vimana",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

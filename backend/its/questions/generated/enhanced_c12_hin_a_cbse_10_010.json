@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_10_010",
+   "title": "c12_hin_a_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is the primary strategy for determining the meaning of a word in context?",
+     "a": "The primary strategy is to examine the surrounding sentences — context clues such as synonyms, antonyms, examples, or grammatical structure — to infer the word's meaning in that specific usage. A wrong answer (e.g., \"look it up in a dictionary immediately\") reveals the student relies on external aids instead of developing independent inference skills, which is exactly what board exams test in unseen passages.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"pkSèkjh lkgc osQ O;fDrRo dks crkus osQ fy, ikB esa oqQN e”ksnkj okD; vk, gSa\", what does \"e”ksnkj\" likely mean, and which context clue helps you decide?",
+     "a": "\"e”ksnkj\" means \"descriptive\" or \"illustrative\". The clue is the phrase \"crkus osQ fy,\" (to describe) and \"okD; vk, gSa\" (sentences have come/are given) — the sentences serve to depict the personality. A wrong answer like \"difficult\" shows the student ignored the purpose clause and guessed from word shape alone.",
+     "self_check": true
+    },
+    {
+     "q": "The word \"fpÙkkd\"kZd\" appears in the sentence: \"jkr dks izk;% jkepfjrekul vkSj jkepafnzdk] ?kj osQ lc yksxksa dks ,d=k djosQ cM+s fpÙkkd\"kZd <ax ls i<+k djrs Fks\". Using context, explain what \"fpÙkkd\"kZd\" conveys here.",
+     "a": "\"fpÙkkd\"kZd\" means \"heart-touching\" or \"emotionally moving\". The context shows the father reading aloud to the family (\"?kj osQ lc yksxksa dks ... i<+k djrs Fks\") and the description \"cM+s fpÙkkd\"kZd <ax ls\" modifies the manner of reading — it evokes deep feeling. A student who answers \"loud\" or \"fast\" misses the emotional cue \"fpÙk\" (heart) embedded in the word.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of \"oØrk\" in the glossary (\"Vs<+kiu] oqQfVyrk\") with its likely contextual meaning in a sentence like \"mudh ckrphr dk <ax muosQ ys[kksa osQ <ax ls ,dne fujkyk gksrk Fkk\". How does context refine the dictionary definition?",
+     "a": "The glossary gives \"restlessness, instability\". In context, \"oØrk\" describes a quality of the conversation (\"ckrphr dk <ax\") that is \"fujkyk\" (unique/different) from the writing style — implying a spontaneous, flowing, perhaps slightly unstructured liveliness. Context narrows \"instability\" to \"natural spontaneity in speech\". A wrong answer that sticks only to \"restlessness\" fails to see the positive connotation added by \"fujkyk\" and the comparison to writing.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims \"viHkza'k\" and \"ukxj\" are synonyms because both relate to language. Evaluate this claim using the glossary definition and the sentence \"ukxj viHkza'k ls tks f'k\"V yksxksa dh Hkk\"kk fodflr gqbZ] ogh ukxjh dgykbZA\".",
+     "a": "The claim is false. \"viHkza'k\" is defined as \"the standard form of developed languages which is considered the origin of ancient Indian languages\" — a linguistic ancestor. \"ukxj\" means \"dialect\" or \"vernacular\". The sentence says the author wrote in the vernacular (\"ukxj\") that evolved from the standard (\"viHkza'k\"). They are in a source–derivative relationship, not synonyms. A student calling them synonyms confuses category with instance.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original Hindi sentence using \"yrk&izrku\" that shows you understand its contextual meaning of \"yearning for love / intense longing\". The sentence must reflect a situation different from the chapter.",
+     "a": "Example: \"dqN o\"kZ ckn] tc og vius fnol ij vk;k] mldk yrk&izrku os us mls ekurs ls vyx cgqr nksgjk fn;kA\" (Years later, when he returned on his birthday, his longing for love made him embrace his mother very tightly.) A poor answer would use the word as a simple noun (\"yrk&izrku gS\") without showing the emotional intensity or the \"yearning\" aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

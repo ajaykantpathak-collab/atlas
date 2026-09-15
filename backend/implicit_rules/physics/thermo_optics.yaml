@@ -1,0 +1,201 @@
+# Implicit Value Rules — Physics: Thermodynamics & Optics
+
+rules:
+  # ── Thermodynamics ──
+  - rule_id: "IMPL_THM_001"
+    priority: 8
+    patterns:
+      - "ideal gas"
+      - "perfect gas"
+    conditions:
+      - concept_tag in ["PHY_THM"]
+    bindings:
+      - symbol: "deviation"
+        value: 0.0
+        unit: ""
+        reason: "Ideal gas has no deviations from ideal gas law."
+    confidence: 1.0
+
+  - rule_id: "IMPL_THM_002"
+    priority: 10
+    patterns:
+      - "adiabatic process"
+      - "adiabatic"
+      - "thermally insulated"
+      - "no heat exchange"
+    conditions:
+      - concept_tag in ["PHY_THM"]
+      - not already_bound["q"]
+    bindings:
+      - symbol: "q"
+        value: 0.0
+        unit: "J"
+        reason: "Adiabatic process: no heat transfer (q = 0)."
+    confidence: 1.0
+
+  - rule_id: "IMPL_THM_003"
+    priority: 10
+    patterns:
+      - "isothermal process"
+      - "isothermal"
+      - "constant temperature"
+    conditions:
+      - concept_tag in ["PHY_THM"]
+      - not already_bound["delta_T"]
+    bindings:
+      - symbol: "delta_T"
+        value: 0.0
+        unit: "K"
+        reason: "Isothermal process: temperature change is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_THM_004"
+    priority: 9
+    patterns:
+      - "isobaric"
+      - "constant pressure"
+    conditions:
+      - concept_tag in ["PHY_THM"]
+    bindings:
+      - symbol: "delta_P"
+        value: 0.0
+        unit: "Pa"
+        reason: "Isobaric process: pressure change is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_THM_005"
+    priority: 9
+    patterns:
+      - "isochoric"
+      - "constant volume"
+      - "rigid container"
+    conditions:
+      - concept_tag in ["PHY_THM"]
+    bindings:
+      - symbol: "delta_V"
+        value: 0.0
+        unit: "m^3"
+        reason: "Isochoric process: volume change is zero."
+    confidence: 1.0
+
+  - rule_id: "IMPL_THM_010"
+    priority: 5
+    patterns:
+      - "gas"
+      - "molar"
+      - "moles"
+      - "PV"
+      - "pressure and volume"
+    conditions:
+      - not already_bound["R"]
+    bindings:
+      - symbol: "R"
+        value: 8.314
+        unit: "J/(mol*K)"
+        reason: "Universal gas constant R = 8.314 J/(mol⋅K)."
+    confidence: 0.85
+
+  # ── Optics ──
+  - rule_id: "IMPL_OPT_001"
+    priority: 8
+    patterns:
+      - "plane mirror"
+      - "flat mirror"
+    conditions:
+      - concept_tag in ["PHY_OPT"]
+    bindings:
+      - symbol: "f"
+        value: null
+        unit: "m"
+        reason: "Plane mirror has infinite focal length (f = ∞)."
+        relation: "f = oo"
+    confidence: 1.0
+
+  - rule_id: "IMPL_OPT_002"
+    priority: 7
+    patterns:
+      - "real image"
+      - "real"
+    conditions:
+      - concept_tag in ["PHY_OPT"]
+    bindings:
+      - symbol: "image_type"
+        value: 1.0
+        unit: ""
+        reason: "Real image: image distance v is positive."
+    confidence: 0.9
+
+  - rule_id: "IMPL_OPT_003"
+    priority: 7
+    patterns:
+      - "virtual image"
+      - "virtual"
+    conditions:
+      - concept_tag in ["PHY_OPT"]
+    bindings:
+      - symbol: "image_type"
+        value: -1.0
+        unit: ""
+        reason: "Virtual image: image distance v is negative."
+    confidence: 0.9
+
+  # ── Modern physics constants ──
+  - rule_id: "IMPL_MOD_001"
+    priority: 5
+    patterns:
+      - "photoelectric"
+      - "photon"
+      - "light energy"
+    conditions:
+      - not already_bound["h"]
+    bindings:
+      - symbol: "h"
+        value: 6.626e-34
+        unit: "J*s"
+        reason: "Planck's constant h = 6.626×10⁻³⁴ J⋅s."
+    confidence: 0.9
+
+  - rule_id: "IMPL_MOD_002"
+    priority: 5
+    patterns:
+      - "speed of light"
+      - "electromagnetic wave"
+      - "photon"
+    conditions:
+      - not already_bound["c"]
+    bindings:
+      - symbol: "c"
+        value: 3.0e8
+        unit: "m/s"
+        reason: "Speed of light c = 3×10⁸ m/s."
+    confidence: 0.95
+
+  - rule_id: "IMPL_MOD_003"
+    priority: 5
+    patterns:
+      - "electron"
+      - "de broglie"
+      - "bohr"
+    conditions:
+      - not already_bound["m_e"]
+    bindings:
+      - symbol: "m_e"
+        value: 9.109e-31
+        unit: "kg"
+        reason: "Electron mass m_e = 9.109×10⁻³¹ kg."
+    confidence: 0.9
+
+  - rule_id: "IMPL_MOD_004"
+    priority: 5
+    patterns:
+      - "electron charge"
+      - "elementary charge"
+      - "proton charge"
+    conditions:
+      - not already_bound["e_charge"]
+    bindings:
+      - symbol: "e_charge"
+        value: 1.602e-19
+        unit: "C"
+        reason: "Elementary charge e = 1.602×10⁻¹⁹ C."
+    confidence: 0.9

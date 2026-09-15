@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_003",
+   "title": "c12_biotech_cbse_09_003",
+   "questions": [
+    {
+     "q": "Define 'multipotent stem cell' and give one example from the human body.",
+     "a": "A multipotent stem cell can differentiate into multiple cell types but only within a closely related lineage or family (e.g., hematopoietic stem cells in bone marrow give rise to erythrocytes, leukocytes, and platelets — all blood cells). A wrong answer that says \"can differentiate into any cell type\" confuses multipotency with pluripotency; a wrong answer that says \"can form a complete organism\" confuses it with totipotency.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Pluripotent stem cells can form a complete organism because they can make all three germ layers.\" Explain why this statement is incorrect using the distinction between embryonic and extra-embryonic tissues.",
+     "a": "Pluripotent stem cells (e.g., inner cell mass of blastocyst) can form all three germ layers (ectoderm, mesoderm, endoderm) but CANNOT form extra-embryonic tissues like the placenta and yolk sac (trophectoderm derivatives). Since a complete organism requires both embryonic and extra-embryonic structures, only totipotent cells (zygote, early blastomeres) can form a complete organism. The student's error is equating \"all germ layers\" with \"all tissues needed for a whole organism.\"",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates stem cells from the umbilical cord blood of a newborn. These cells can differentiate into erythrocytes, monocytes, neutrophils, and lymphocytes but not into hepatocytes or cardiomyocytes. Classify the potency of these cells and justify your answer.",
+     "a": "These are multipotent stem cells (specifically hematopoietic stem cells). Justification: They produce multiple cell types (erythrocytes, monocytes, neutrophils, lymphocytes) but all belong to a single lineage — the blood/hematopoietic system. They cannot cross lineage boundaries to form hepatocytes (endoderm) or cardiomyocytes (mesoderm), which would require pluripotency. A wrong classification as \"pluripotent\" ignores the lineage restriction; \"unipotent\" would be wrong because they produce more than one cell type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the developmental origin and differentiation potential of totipotent vs. pluripotent stem cells using a zygote and the inner cell mass (ICM) of a blastocyst as examples.",
+     "a": "Totipotent (zygote, up to 8-cell stage): Can form BOTH embryonic tissues (all three germ layers) AND extra-embryonic tissues (placenta, yolk sac) → can generate a complete organism. Pluripotent (ICM of blastocyst): Can form all three germ layers (embryonic tissues) but NOT extra-embryonic tissues → cannot generate a complete organism. The transition occurs at compaction (~4 days post-fertilization) when the outer trophectoderm (placenta) separates from the ICM (embryo proper). A common error is thinking ICM is totipotent because it comes from the zygote; the error ignores the irreversible segregation of trophectoderm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For treating a patient with myocardial infarction (damaged heart muscle), unipotent cardiac stem cells would be a better choice than pluripotent embryonic stem cells because they are more specific and safer.\" Provide two arguments for and two against this claim.",
+     "a": "Arguments FOR: (1) Unipotent cardiac stem cells are already committed to the cardiomyocyte lineage, reducing risk of teratoma formation (a major safety concern with pluripotent cells). (2) No ethical issues (unlike ESCs derived from blastocysts). Arguments AGAINST: (1) Unipotent cells have limited expansion capacity in culture compared to pluripotent ESCs/iPSCs, making large-scale therapy difficult. (2) Unipotent cells may not integrate functionally with existing tissue as well as pluripotent-derived cardiomyocytes that can be pre-patterned. A poor evaluation only lists one side or confuses unipotent with multipotent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical stem cell-based therapy for a patient with Type 1 diabetes (loss of pancreatic β-cells, endoderm lineage). Specify: (a) which potency category of stem cell you would start with, (b) the differentiation steps needed, and (c) one major safety check you would perform before transplantation.",
+     "a": "(a) Start with pluripotent stem cells (ESCs or iPSCs) because they can generate endoderm lineage (pancreas). (b) Differentiation steps: Pluripotent stem cell → definitive endoderm (via Activin A) → pancreatic progenitor (via retinoic acid, FGF) → endocrine progenitor → β-like cell (via Notch inhibition, thyroid hormone). (c) Safety check: Karyotype analysis + teratoma assay in immunodeficient mice to ensure no residual pluripotent cells remain. A poor answer suggests using multipotent HSCs (wrong germ layer) or skips the teratoma check.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

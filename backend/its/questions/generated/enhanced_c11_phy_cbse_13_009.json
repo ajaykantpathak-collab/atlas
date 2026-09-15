@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_009",
+   "title": "c11_phy_cbse_13_009",
+   "questions": [
+    {
+     "q": "A particle executes SHM described by \\( x(t) = 5 \\cos(4\\pi t + \\pi/3) \\) where \\( x \\) is in cm and \\( t \\) in s. What is the phase of the motion at \\( t = 0.25 \\) s? Express your answer in radians.",
+     "a": "The phase is \\( \\omega t + \\phi = 4\\pi(0.25) + \\pi/3 = \\pi + \\pi/3 = 4\\pi/3 \\) rad. A wrong answer like \\( \\pi/3 \\) reveals the student confuses phase constant with instantaneous phase; an answer of \\( 120^\\circ \\) reveals failure to work in radians as required by the argument of trigonometric functions in physics formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Two SHMs are given by \\( x_1 = A \\cos(\\omega t) \\) and \\( x_2 = A \\cos(\\omega t + \\pi/2) \\). At \\( t = 0 \\), particle 1 is at \\( x = +A \\) and particle 2 is at \\( x = 0 \\) moving in the negative direction. Explain why the phase difference \\( \\pi/2 \\) does NOT mean particle 2 is \"ahead\" by a quarter period in the sense of reaching the extreme position first.",
+     "a": "Particle 2 at \\( t=0 \\) is at the mean position moving negatively; it reaches the negative extreme at \\( t = T/4 \\). Particle 1 starts at the positive extreme and reaches the mean position at \\( t = T/4 \\). They are in quadrature: when one is at extreme, the other is at mean position. A student who says \"particle 2 leads by \\( T/4 \\)\" misunderstands that phase lead means reaching a given phase value earlier; here particle 2 reaches zero displacement with negative velocity earlier, but particle 1 reaches maximum displacement earlier. The phase difference only indicates a constant offset in the argument, not a simple time lead for all events.",
+     "self_check": true
+    },
+    {
+     "q": "A block on a spring executes SHM with amplitude 10 cm and angular frequency \\( 2\\pi \\) rad/s. At \\( t = 0 \\), the block is at \\( x = 5 \\) cm and moving towards the positive extreme. Find the phase constant \\( \\phi \\) (in radians, \\( -\\pi < \\phi \\leq \\pi \\)) and write the displacement equation.",
+     "a": "Given: \\( A = 0.10 \\) m, \\( \\omega = 2\\pi \\) rad/s, \\( x_0 = 0.05 \\) m, \\( v_0 > 0 \\).  \n\\( \\cos \\phi = x_0/A = 0.5 \\Rightarrow \\phi = \\pm \\pi/3 \\).  \n\\( v_0 = -\\omega A \\sin \\phi > 0 \\Rightarrow \\sin \\phi < 0 \\Rightarrow \\phi = -\\pi/3 \\) (since \\( \\sin(-\\pi/3) = -\\sqrt{3}/2 < 0 \\)).  \nEquation: \\( x(t) = 0.10 \\cos(2\\pi t - \\pi/3) \\) m.  \nA wrong sign for \\( \\phi \\) (choosing \\( +\\pi/3 \\)) reveals the student forgot to use the velocity sign to resolve the quadrant ambiguity of the inverse cosine.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle is given by \\( x(t) = 3 \\sin(2t) + 4 \\cos(2t) \\) (SI units). Rewrite this in the standard form \\( x(t) = D \\cos(2t + \\phi) \\) and find \\( D \\) and \\( \\phi \\). Then determine the earliest time \\( t > 0 \\) when the particle first reaches the positive extreme position.",
+     "a": "\\( D = \\sqrt{3^2 + 4^2} = 5 \\) m.  \n\\( 3 \\sin 2t + 4 \\cos 2t = 5 \\left( \\frac{3}{5} \\sin 2t + \\frac{4}{5} \\cos 2t \\right) \\).  \nLet \\( \\cos \\phi = 4/5 \\), \\( \\sin \\phi = 3/5 \\Rightarrow \\phi = \\arctan(3/4) \\approx 0.6435 \\) rad.  \nThen \\( x = 5 \\cos(2t - \\phi) \\) (since \\( \\cos(A-B) = \\cos A \\cos B + \\sin A \\sin B \\)). Wait: \\( 5 \\cos(2t - \\phi) = 5(\\cos 2t \\cos \\phi + \\sin 2t \\sin \\phi) = 5(\\cos 2t \\cdot 4/5 + \\sin 2t \\cdot 3/5) = 4 \\cos 2t + 3 \\sin 2t \\). So \\( \\phi = -0.6435 \\) rad in the form \\( D \\cos(2t + \\phi) \\).  \nPositive extreme when \\( \\cos(2t + \\phi) = 1 \\Rightarrow 2t + \\phi = 0 \\Rightarrow t = -\\phi/2 = 0.32175 \\) s.  \nA student who writes \\( \\phi = +\\arctan(3/4) \\) misses the sign convention in the cosine addition formula; a student who sets \\( 2t + \\phi = 2\\pi \\) for the first extreme finds the second occurrence, not the earliest.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the SHM equation for a system starting from rest at \\( x = -A \\) as \\( x = A \\cos(\\omega t + \\pi/2) \\). Evaluate this answer. If incorrect, provide the correct phase constant and explain the error.",
+     "a": "Incorrect. At \\( t=0 \\), \\( x = A \\cos(\\pi/2) = 0 \\), not \\( -A \\). Starting from rest at \\( x = -A \\) means \\( x_0 = -A \\), \\( v_0 = 0 \\).  \n\\( \\cos \\phi = -1 \\Rightarrow \\phi = \\pi \\) (or \\( -\\pi \\)).  \n\\( v_0 = -\\omega A \\sin \\phi = 0 \\) satisfied.  \nCorrect equation: \\( x = A \\cos(\\omega t + \\pi) = -A \\cos(\\omega t) \\).  \nThe student likely confused \"starting from negative extreme\" with \"phase = \\( \\pi/2 \\)\" (which corresponds to starting from mean position). This reveals a lack of connection between the reference circle angle and the initial physical configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone's accelerometer (or a pendulum with a position sensor) to demonstrate that two identical oscillators started with different initial displacements but the same initial velocity (zero) have different phase constants. Describe the procedure, the data to record, and how to extract \\( \\phi \\) from the data.",
+     "a": "Procedure: Use two identical spring-mass systems (or one system tested twice). In trial 1, pull mass to \\( x = +A \\) and release from rest. In trial 2, pull to \\( x = +A/2 \\) and release from rest. Record \\( x(t) \\) using sensor. Fit data to \\( x = A \\cos(\\omega t + \\phi) \\) (known \\( A, \\omega \\)). For trial 1: \\( x_0 = A \\Rightarrow \\phi = 0 \\). For trial 2: \\( x_0 = A/2 \\Rightarrow \\phi = \\pm \\pi/3 \\); since \\( v_0 = 0 \\), \\( \\sin \\phi = 0 \\) — contradiction! Wait: releasing from rest at \\( x = A/2 \\) is NOT an extreme position, so \\( v_0 = 0 \\) but \\( x_0 \\neq \\pm A \\). This is impossible for SHM because at \\( v=0 \\), \\( x \\) must be \\( \\pm A \\). Correction: To have \\( v_0 = 0 \\) and different \\( x_0 \\), the amplitude must be different. Better: Same amplitude, different release points: trial 1 release from \\( +A \\) (\\( \\phi=0 \\)), trial 2 release from \\( -A \\) (\\( \\phi=\\pi \\)). Or same \\( x_0 \\) but different \\( v_0 \\): push from mean position with different speeds. A good answer recognizes that \\( v_0=0 \\) forces \\( x_0 = \\pm A \\), so phase constant can only be 0 or \\( \\pi \\) for zero initial velocity. This tests deep understanding of the \\( (x_0, v_0) \\) to \\( (A, \\phi) \\) mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

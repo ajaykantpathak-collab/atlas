@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_002",
+   "title": "c11_biotech_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the DNA content (C-value) and chromosome number (n-value) of a human somatic cell at the start of G1, at the end of S phase, and at the end of G2 phase.",
+     "a": "Start of G1: 2C DNA, 2n chromosomes (46 chromosomes, each with one chromatid). End of S: 4C DNA, 2n chromosomes (46 chromosomes, each with two sister chromatids). End of G2: 4C DNA, 2n chromosomes. A wrong answer (e.g., saying chromosome number becomes 4n after S phase) reveals the misconception that DNA replication doubles chromosome number, confusing chromatid count with chromosome count.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"During S phase, the chromosome number doubles from 46 to 92 because DNA replicates.\" Explain why this statement is incorrect using the definition of a chromosome.",
+     "a": "A chromosome is defined by its centromere; sister chromatids share one centromere until anaphase. DNA replication produces two sister chromatids per chromosome, but they remain attached at a single centromere, so chromosome number (centromere count) stays 2n. A wrong explanation indicates the student equates \"amount of DNA\" with \"number of chromosomes\" and has not internalized the centromere-based definition.",
+     "self_check": true
+    },
+    {
+     "q": "A cultured human fibroblast is treated with a drug that irreversibly inhibits DNA polymerase α at the start of S phase. Predict the cell's DNA content, chromosome morphology, and cell-cycle position after 24 hours. Justify.",
+     "a": "DNA content remains 2C (no replication). Chromosomes remain as single chromatids (unreplicated). The cell arrests in S phase (or at G1/S checkpoint) because the intra-S checkpoint detects incomplete replication. A wrong prediction (e.g., 4C DNA or entry into G2) shows the student does not grasp that S-phase completion is a prerequisite for G2 entry and that checkpoints enforce order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the macromolecular synthesis profiles of G1 and G2 phases. Why does G2 synthesize \"more proteins and organelles\" (NCERT) while G1 accumulates \"RNA, organelles, and other molecular building blocks\"?",
+     "a": "G1 builds mass and components (ribosomes, mitochondria, enzymes) needed for the upcoming S phase; G2 specifically produces mitotic machinery (tubulin for spindle, cyclins, condensins, histones for chromatin condensation) and repairs any replication errors. A superficial answer listing \"both make proteins\" misses the qualitative shift from general growth (G1) to division-specific preparation (G2).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A neuron in the adult brain is permanently stuck in G1 phase.\" Is this accurate? If not, correct it using the concept of G0.",
+     "a": "Inaccurate. Terminally differentiated neurons exit the cell cycle at the G1 restriction point and enter G0 (quiescent stage), which is distinct from G1 because they no longer respond to mitogenic signals and do not prepare for S phase. Saying \"stuck in G1\" implies they are still cycling but paused; G0 is a non-cycling, differentiated state. A wrong evaluation conflates reversible cell-cycle arrest (G1) with terminal differentiation (G0).",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow-cytometry experiment using propidium iodide staining to distinguish a population of cycling cells (G1, S, G2/M) from a population containing G0 cells. Sketch the expected DNA-content histograms and label peaks.",
+     "a": "Cycling population: three peaks—G1 at 2C, broad S-phase distribution between 2C–4C, G2/M at 4C. G0-containing population: G0 cells overlap G1 at 2C (same DNA content), so an additional marker (e.g., Ki-67 negative for G0, positive for cycling) is needed to resolve them. A poor design omits the need for a proliferation marker, showing the student thinks DNA content alone distinguishes G0 from G1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

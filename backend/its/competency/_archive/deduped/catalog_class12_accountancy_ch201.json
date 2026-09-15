@@ -1,0 +1,527 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 201,
+ "chapter_title": "Accounting for Share Capital",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac103.txt",
+ "concepts": [
+  {
+   "id": "leac.1.3.1",
+   "title": "Calculation of Paid-up Capital",
+   "section": "1.3.1",
+   "definition": "The actual portion of called-up share capital that has been received from shareholders after deducting any unpaid call amounts.",
+   "formula": "paid_up_capital = called_up_capital - calls_in_arrears",
+   "key_idea": "Paid-up capital is determined by subtracting calls in arrears from the total called-up capital.",
+   "textbook_ref": "leac201.txt lines 110-135",
+   "question_patterns": [
+    "calculate the paid up capital of the company",
+    "what is the paid up capital if called up capital is called_up_capital and calls in arrears is calls_in_arrears",
+    "find the paid up capital",
+    "determine the paid up capital given called up capital and unpaid calls",
+    "Numerical: apply Calculation of Paid-up Capital and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract calls in arrears from called up capital",
+     "explain": "The paid-up capital is the net amount received after accounting for unpaid calls.",
+     "compute": "paid_up_capital = called_up_capital - calls_in_arrears"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Calculation of Paid-up Capital, compute the result for called_up_capital = 3, calls_in_arrears = 3.",
+     "solution": "Step 1: Subtract calls in arrears from called up capital: paid_up_capital = called_up_capital - calls_in_arrears = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Calculation of Paid-up Capital, compute the result for called_up_capital = 4, calls_in_arrears = 4.",
+     "solution": "Step 1: Subtract calls in arrears from called up capital: paid_up_capital = called_up_capital - calls_in_arrears = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.5.1",
+   "title": "Minimum Subscription Requirement",
+   "section": "1.5",
+   "definition": "The minimum percentage of issued capital that must be subscribed by the public for a company to proceed with share allotment, legally set at 90%.",
+   "formula": "minimum_subscription = 0.90 * issued_capital",
+   "key_idea": "A company must receive subscriptions for at least 90% of the issued shares to proceed with allotment.",
+   "textbook_ref": "leac201.txt lines 220-245",
+   "question_patterns": [
+    "calculate the minimum subscription required for the issue",
+    "what is the minimum subscription for an issue of issued_capital shares",
+    "find the minimum subscription amount",
+    "determine the minimum subscription value",
+    "Numerical: apply Minimum Subscription Requirement and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply issued capital by 90 percent",
+     "explain": "The minimum subscription is 90% of the total issued capital.",
+     "compute": "minimum_subscription = 0.90 * issued_capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Minimum Subscription Requirement, compute the result for issued_capital = 3.",
+     "solution": "Step 1: Multiply issued capital by 90 percent: minimum_subscription = 0.90 * issued_capital = 2.7 Final result: 2.7",
+     "answer": "2.7"
+    },
+    {
+     "question": "Using Minimum Subscription Requirement, compute the result for issued_capital = 4.",
+     "solution": "Step 1: Multiply issued capital by 90 percent: minimum_subscription = 0.90 * issued_capital = 3.6 Final result: 3.6",
+     "answer": "3.6"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.1",
+   "title": "Refund on Rejected Applications",
+   "section": "1.6",
+   "definition": "The total money returned to applicants whose share applications were completely rejected by the company.",
+   "formula": "refund_amount = rejected_shares * application_rate",
+   "key_idea": "Multiply the number of rejected shares by the application rate per share.",
+   "textbook_ref": "leac201.txt lines 260-290",
+   "question_patterns": [
+    "calculate the amount to be refunded on rejected applications",
+    "how much money is returned to rejected applicants",
+    "find the refund amount for rejected_shares rejected shares at Rs application_rate per share",
+    "determine the total refund of application money",
+    "Numerical: apply Refund on Rejected Applications and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply rejected shares by application rate",
+     "explain": "The refund amount is the product of rejected shares and the application rate.",
+     "compute": "refund_amount = rejected_shares * application_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Refund on Rejected Applications, compute the result for rejected_shares = 3, application_rate = 3.",
+     "solution": "Step 1: Multiply rejected shares by application rate: refund_amount = rejected_shares * application_rate = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Refund on Rejected Applications, compute the result for rejected_shares = 4, application_rate = 4.",
+     "solution": "Step 1: Multiply rejected shares by application rate: refund_amount = rejected_shares * application_rate = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.2",
+   "title": "Calculation of Calls in Arrears",
+   "section": "1.6.1",
+   "definition": "The total amount of called-up capital that has not been paid by shareholders by the specified due date.",
+   "formula": "calls_in_arrears = unpaid_shares * call_rate",
+   "key_idea": "Unpaid shares multiplied by the rate of the call.",
+   "textbook_ref": "leac201.txt lines 440-470",
+   "question_patterns": [
+    "calculate the calls in arrears",
+    "what is the total unpaid call money",
+    "find the calls in arrears for unpaid_shares shares at Rs call_rate per share",
+    "determine the amount of calls in arrears",
+    "Numerical: apply Calculation of Calls in Arrears and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply unpaid shares by call rate",
+     "explain": "Calls in arrears is calculated by multiplying the number of unpaid shares by the call rate.",
+     "compute": "calls_in_arrears = unpaid_shares * call_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Calculation of Calls in Arrears, compute the result for unpaid_shares = 3, call_rate = 3.",
+     "solution": "Step 1: Multiply unpaid shares by call rate: calls_in_arrears = unpaid_shares * call_rate = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Calculation of Calls in Arrears, compute the result for unpaid_shares = 4, call_rate = 4.",
+     "solution": "Step 1: Multiply unpaid shares by call rate: calls_in_arrears = unpaid_shares * call_rate = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.3",
+   "title": "Calculation of Calls in Advance",
+   "section": "1.6.2",
+   "definition": "The amount received by a company from its shareholders in anticipation of future calls that have not yet been made.",
+   "formula": "calls_in_advance = advance_shares * advance_rate",
+   "key_idea": "Shares paying early multiplied by the future call rate.",
+   "textbook_ref": "leac201.txt lines 490-520",
+   "question_patterns": [
+    "calculate the calls in advance",
+    "how much is received as calls in advance",
+    "find the calls in advance for advance_shares shares at Rs advance_rate per share",
+    "determine the total calls in advance",
+    "Numerical: apply Calculation of Calls in Advance and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply advance shares by advance rate",
+     "explain": "Calls in advance is calculated by multiplying the number of shares paying in advance by the advance rate.",
+     "compute": "calls_in_advance = advance_shares * advance_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Calculation of Calls in Advance, compute the result for advance_shares = 3, advance_rate = 3.",
+     "solution": "Step 1: Multiply advance shares by advance rate: calls_in_advance = advance_shares * advance_rate = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Calculation of Calls in Advance, compute the result for advance_shares = 4, advance_rate = 4.",
+     "solution": "Step 1: Multiply advance shares by advance rate: calls_in_advance = advance_shares * advance_rate = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.4",
+   "title": "Excess Application Money on Pro-rata Allotment",
+   "section": "1.6.3",
+   "definition": "The surplus money received from applicants when they apply for more shares than are allotted to them under a pro-rata scheme.",
+   "formula": "excess_application_money = (applied_shares - allotted_shares) * application_rate",
+   "key_idea": "Difference between applied and allotted shares multiplied by the application rate.",
+   "textbook_ref": "leac201.txt lines 630-670",
+   "question_patterns": [
+    "calculate the excess application money to be adjusted",
+    "how much excess application money is received",
+    "find the excess application money for applied_shares applied and allotted_shares allotted shares",
+    "determine the surplus application money",
+    "Numerical: apply Excess Application Money on Pro-rata Allotment and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate excess shares",
+     "explain": "Subtract allotted shares from applied shares to find excess shares.",
+     "compute": "excess_shares = applied_shares - allotted_shares"
+    },
+    {
+     "step": 2,
+     "action": "Multiply excess shares by application rate",
+     "explain": "Multiply the excess shares by the application rate to get the excess application money.",
+     "compute": "excess_application_money = excess_shares * application_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Excess Application Money on Pro-rata Allotment, compute the result for applied_shares = 3, allotted_shares = 3, application_rate = 3.",
+     "solution": "Step 1: Calculate excess shares: excess_shares = applied_shares - allotted_shares = 0.0 Step 2: Multiply excess shares by application rate: excess_application_money = excess_shares * application_rate = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Excess Application Money on Pro-rata Allotment, compute the result for applied_shares = 4, allotted_shares = 4, application_rate = 4.",
+     "solution": "Step 1: Calculate excess shares: excess_shares = applied_shares - allotted_shares = 0.0 Step 2: Multiply excess shares by application rate: excess_application_money = excess_shares * application_rate = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.5",
+   "title": "Securities Premium Reserve Calculation",
+   "section": "1.6.5",
+   "definition": "The total premium amount collected by a company when it issues shares at a price higher than their nominal face value.",
+   "formula": "securities_premium = allotted_shares * premium_per_share",
+   "key_idea": "Allotted shares multiplied by the premium per share.",
+   "textbook_ref": "leac201.txt lines 800-830",
+   "question_patterns": [
+    "calculate the securities premium reserve",
+    "how much is credited to the securities premium account",
+    "find the total premium received on allotted_shares shares at Rs premium_per_share premium",
+    "determine the securities premium amount",
+    "Numerical: apply Securities Premium Reserve Calculation and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply allotted shares by premium per share",
+     "explain": "The securities premium is the product of allotted shares and the premium per share.",
+     "compute": "securities_premium = allotted_shares * premium_per_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Securities Premium Reserve Calculation, compute the result for allotted_shares = 3, premium_per_share = 3.",
+     "solution": "Step 1: Multiply allotted shares by premium per share: securities_premium = allotted_shares * premium_per_share = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Securities Premium Reserve Calculation, compute the result for allotted_shares = 4, premium_per_share = 4.",
+     "solution": "Step 1: Multiply allotted shares by premium per share: securities_premium = allotted_shares * premium_per_share = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.6.6",
+   "title": "Shares Issued for Consideration Other Than Cash",
+   "section": "1.6.7",
+   "definition": "Determining the number of shares to be issued to a vendor in exchange for assets purchased, based on the issue price.",
+   "formula": "shares_issued = amount_payable / (face_value + premium)",
+   "key_idea": "Divide the total amount payable to the vendor by the issue price per share.",
+   "textbook_ref": "leac201.txt lines 860-890",
+   "question_patterns": [
+    "calculate the number of shares to be issued to the vendor",
+    "how many shares are issued for purchase of assets",
+    "find the number of shares issued at a premium of premium",
+    "determine the shares to be issued to vendor",
+    "Numerical: apply Shares Issued for Consideration Other Than Cash and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate issue price",
+     "explain": "Add the premium to the face value to find the issue price per share.",
+     "compute": "issue_price = face_value + premium"
+    },
+    {
+     "step": 2,
+     "action": "Calculate shares to be issued",
+     "explain": "Divide the total amount payable by the issue price.",
+     "compute": "shares_issued = amount_payable / issue_price"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Shares Issued for Consideration Other Than Cash, compute the result for face_value = 3, premium = 3, amount_payable = 3.",
+     "solution": "Step 1: Calculate issue price: issue_price = face_value + premium = 6.0 Step 2: Calculate shares to be issued: shares_issued = amount_payable / issue_price = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    },
+    {
+     "question": "Using Shares Issued for Consideration Other Than Cash, compute the result for face_value = 4, premium = 4, amount_payable = 4.",
+     "solution": "Step 1: Calculate issue price: issue_price = face_value + premium = 8.0 Step 2: Calculate shares to be issued: shares_issued = amount_payable / issue_price = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.7.0",
+   "title": "Forfeiture of Shares",
+   "section": "1.7",
+   "definition": "The process where a company cancels the allotment of shares due to a shareholder's failure to pay required installments, retaining the amounts already paid.",
+   "formula": "share_capital_debit = called_up_amount",
+   "key_idea": "Reversal of accounting entries for forfeited shares, excluding received premium.",
+   "textbook_ref": "leac201.txt lines 1-60",
+   "question_patterns": [
+    "calculate the amount to be debited to share capital account",
+    "what is the accounting treatment for forfeiture of shares",
+    "how to record the forfeiture of shares issued at par",
+    "pass journal entry for forfeiture of shares",
+    "Numerical: apply Forfeiture of Shares and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Debit Share Capital",
+     "explain": "Debit with the total called-up value per share multiplied by the number of shares.",
+     "compute": "capital_debit = shares * called_up_per_share"
+    },
+    {
+     "step": 2,
+     "action": "Credit Unpaid Calls",
+     "explain": "Credit with the total amount due but not paid by the shareholder.",
+     "compute": "unpaid_credit = shares * unpaid_per_share"
+    },
+    {
+     "step": 3,
+     "action": "Credit Share Forfeiture",
+     "explain": "Credit with the amount actually received on the forfeited shares.",
+     "compute": "forfeiture_credit = capital_debit - unpaid_credit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Forfeiture of Shares, compute the result for shares = 3, called_up_per_share = 3, unpaid_per_share = 3.",
+     "solution": "Step 1: Debit Share Capital: capital_debit = shares * called_up_per_share = 9.0 Step 2: Credit Unpaid Calls: unpaid_credit = shares * unpaid_per_share = 9.0 Step 3: Credit Share Forfeiture: forfeiture_credit = capital_debit - unpaid_credit = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Forfeiture of Shares, compute the result for shares = 4, called_up_per_share = 4, unpaid_per_share = 4.",
+     "solution": "Step 1: Debit Share Capital: capital_debit = shares * called_up_per_share = 16.0 Step 2: Credit Unpaid Calls: unpaid_credit = shares * unpaid_per_share = 16.0 Step 3: Credit Share Forfeiture: forfeiture_credit = capital_debit - unpaid_credit = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.1.7.1",
+   "title": "Reissue of Forfeited Shares",
+   "section": "1.7.1",
+   "definition": "The act of selling shares that were previously forfeited, which can be done at par, premium, or discount, provided the discount does not exceed the amount already forfeited.",
+   "formula": "capital_reserve = (forfeited_amount_per_share - reissue_discount_per_share) * reissued_shares",
+   "key_idea": "Profit on reissued shares is transferred to Capital Reserve.",
+   "textbook_ref": "leac201.txt lines 380-450",
+   "question_patterns": [
+    "calculate the amount transferred to capital reserve",
+    "what is the journal entry for reissue of forfeited shares",
+    "how much discount can be allowed on reissue",
+    "determine the profit on reissue of shares",
+    "Numerical: apply Reissue of Forfeited Shares and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate gain per share",
+     "explain": "Determine the amount forfeited per share.",
+     "compute": "gain_per_share = total_forfeited / total_shares"
+    },
+    {
+     "step": 2,
+     "action": "Calculate net profit",
+     "explain": "Subtract the discount allowed on reissue from the gain on forfeited shares.",
+     "compute": "net_profit = (gain_per_share - discount_per_share) * reissued_shares"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Reissue of Forfeited Shares, compute the result for total_forfeited = 3, total_shares = 3, discount_per_share = 3, reissued_shares = 2.",
+     "solution": "Step 1: Calculate gain per share: gain_per_share = total_forfeited / total_shares = 1.0 Step 2: Calculate net profit: net_profit = (gain_per_share - discount_per_share) * reissued_shares = -4.0 Final result: -4.0",
+     "answer": "-4.0"
+    },
+    {
+     "question": "Using Reissue of Forfeited Shares, compute the result for total_forfeited = 4, total_shares = 4, discount_per_share = 4, reissued_shares = 3.",
+     "solution": "Step 1: Calculate gain per share: gain_per_share = total_forfeited / total_shares = 1.0 Step 2: Calculate net profit: net_profit = (gain_per_share - discount_per_share) * reissued_shares = -9.0 Final result: -9.0",
+     "answer": "-9.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac201.txt lines 875-895",
+   "concept": "leac.1.6.6",
+   "question_type": "compute",
+   "question_pattern": "Rahul Limited purchased building from Handa Limited for Rs. {amount_payable} and the payment is to be made by the issue of shares of Rs. {face_value} each at a premium of 20% (Rs. {premium}). Calculate the number of shares to be issued.",
+   "extracted_variables": {
+    "amount_payable": 540000,
+    "face_value": 100,
+    "premium": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate issue price",
+     "explain": "Add the premium to the face value to find the issue price per share.",
+     "compute": "issue_price = face_value + premium"
+    },
+    {
+     "step": 2,
+     "action": "Calculate shares to be issued",
+     "explain": "Divide the total amount payable by the issue price.",
+     "compute": "shares_issued = amount_payable / issue_price"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac201.txt lines 120-135",
+   "concept": "leac.1.3.1",
+   "question_type": "compute",
+   "question_pattern": "Sunrise Company Ltd. has a called up capital of Rs. {called_up_capital} and calls in arrears of Rs. {calls_in_arrears}. Calculate the paid up capital.",
+   "extracted_variables": {
+    "called_up_capital": 1600000,
+    "calls_in_arrears": 6000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract calls in arrears from called up capital",
+     "explain": "The paid-up capital is the net amount received after accounting for unpaid calls.",
+     "compute": "paid_up_capital = called_up_capital - calls_in_arrears"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "Illustration 10",
+   "concept": "leac.1.7.0",
+   "question_type": "journal_entry",
+   "question_pattern": "300 shares forfeited for non-payment of calls",
+   "extracted_variables": {
+    "shares": 300,
+    "called_up": 100,
+    "unpaid": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Debit Share Capital",
+     "compute": "300 * 100"
+    },
+    {
+     "step": 2,
+     "action": "Credit Unpaid Calls",
+     "compute": "300 * 50"
+    },
+    {
+     "step": 3,
+     "action": "Credit Share Forfeiture",
+     "compute": "300 * 50"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "diy1.1",
+   "source_ref": "leac201.txt lines 410-425",
+   "questions": [
+    "On April 01, 2019, a limited company was incorporated with an authorised capital of Rs. 40,000 divided into shares of Rs. 10 each. It offered to the public for subscription of 3,000 shares payable as follows: On Application Rs. 3 per share, On Allotment Rs. 2 per share, On First Call (One month after allotment) Rs. 2.50 per share, On Second and Final Call Rs. 2.50 per share. The shares were fully subscribed for by the public and application money duly received on April 15, 2019. The directors made the allotment on May 1, 2015. How will you record the share capital transactions in the books of a company if the amounts due have been duly received, and the company maintains the combined account for application and allotment."
+   ]
+  },
+  {
+   "id": "diy1.2",
+   "source_ref": "leac201.txt lines 426-435",
+   "questions": [
+    "Harsha Ltd., was registered with authorised capital of Rs. 25,00,000 divided into 2,50,000 Equity Shares of Rs. 10 each. Promoters of the company had undertaken to subscribe 25,000 Equity Shares of Rs. 10 each once the company was incorporated. The amount was paid by the subscribers and received by the company. The company later issued at par 2,00,000 shares to public for subscription. It received applications for 1,80,000 Equity Shares both through ASBA and physical mode. Shares were allotted to all the applicants. Determine the Authorised Share Capital, Issued Share Capital and Subscribed Share Capital of the Harsha Ltd."
+   ]
+  },
+  {
+   "id": "diy2.1",
+   "source_ref": "leac201.txt lines 580-595",
+   "questions": [
+    "A company issued 20,000 equity shares of Rs.10 each payable Rs.3 on application, Rs.3 on allotment, Rs.2 on first call and Rs.2 on second and the final call. The allotment money was payable on or before May 01, 2015; first call money on or before August Ist, 2015; and the second and final call on or before October Ist, 2015; ‘X’, whom 1,000 shares were allotted, did not pay the allotment and call money; ‘Y’, an allottee of 600 shares, did not pay the two calls; and ‘Z’, whom 400 shares were allotted, did not pay the final call. Pass journal entries and prepare the balance sheet of the company."
+   ]
+  },
+  {
+   "id": "diy2.2",
+   "source_ref": "leac201.txt lines 596-610",
+   "questions": [
+    "Alfa Company Ltd. issued 10,000 shares of Rs.10 each for cash payable Rs.3 on application, Rs.2 on allotment and the balance in two equal instalments. The allotment money was payable on or before March 31, 2015; the first call money on or before 30 June, 2015; and the final call money on or before August, 31. 2015. Mr. ‘A’, to whom 600 shares were allotted, paid the entire remaining face value of shares allotted to him on allotment. Record journal entries in company’s books and also exhibit the share capital in the balance sheet on the date."
+   ]
+  },
+  {
+   "id": "p2_exN.1",
+   "source_ref": "Numerical Questions 11-24",
+   "questions": [
+    "Journalise the forfeiture and reissue of shares for Naman Ltd.",
+    "Calculate the amount transferred to capital reserve for Kishna Ltd.",
+    "Record the journal entries for forfeiture of shares in Raunak Cotton Ltd."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

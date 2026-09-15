@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_5",
+   "title": "c8_math_ch14_5",
+   "questions": [
+    {
+     "q": "What is the formula for the area of a rhombus if its diagonals are 12 cm and 16 cm? Write the formula with the values substituted but do not calculate the final answer.",
+     "a": "Area = ½ × 12 × 16 cm². A wrong answer like \"Area = 12 × 16\" reveals the student forgot the half factor. An answer like \"Area = ½ × (12+16)\" shows confusion with the trapezium formula. An answer using side length instead of diagonals indicates the student does not recognise which measurements are the diagonals.",
+     "self_check": true
+    },
+    {
+     "q": "A rhombus has diagonals of length 10 cm and 24 cm. Ravi says the area is 240 cm² because \"10 × 24 = 240\". Priya says the area is 120 cm² because \"half of 10 × 24 = 120\". Who is correct? Explain why the other person's method gives the wrong answer.",
+     "a": "Priya is correct. The area is ½ × 10 × 24 = 120 cm². Ravi forgot the factor of ½. His method would give the area of a rectangle with sides 10 and 24, not a rhombus. The diagonals of a rhombus are not the length and breadth — they cross each other, so the rhombus occupies only half the area of the bounding rectangle formed by the diagonals.",
+     "self_check": true
+    },
+    {
+     "q": "The diagonals of a rhombus-shaped garden are 18 m and 14 m. Find the cost of levelling the garden at ₹50 per square metre. Show all steps.",
+     "a": "Step 1: Identify diagonals: d₁ = 18 m, d₂ = 14 m.\nStep 2: Use formula: Area = ½ × d₁ × d₂ = ½ × 18 × 14.\nStep 3: Compute: ½ × 18 = 9; 9 × 14 = 126 m².\nStep 4: Cost = Area × Rate = 126 × 50 = ₹6,300.\nA wrong answer of ₹12,600 means the student used 18 × 14 × 50 without the half. An answer of ₹630 means they divided by 10 instead of multiplying by 50. An answer with units \"m\" instead of \"m²\" shows confusion between perimeter and area.",
+     "self_check": true
+    },
+    {
+     "q": "A rhombus and a rectangle have the same area. The rectangle has length 20 cm and breadth 12 cm. The rhombus has one diagonal of 16 cm. Find the length of the other diagonal of the rhombus. Explain your reasoning.",
+     "a": "Rectangle area = 20 × 12 = 240 cm². Rhombus area = ½ × 16 × d₂ = 240. So 8 × d₂ = 240, giving d₂ = 30 cm. A student who answers 15 cm likely did 240 ÷ 16 = 15, forgetting the ½ factor. A student who answers 480 cm likely did 240 × 2 = 480 but then forgot to divide by 16. This question tests whether the student can work backwards from area and understands the formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "Look at this student's working for finding the area of a rhombus with diagonals 9 cm and 12 cm:\n\"Area = ½ × 9 × 12 = 4.5 × 12 = 54 cm²\"\nIs this correct? If not, identify the exact step where the error occurs and explain why it is wrong.",
+     "a": "The working is correct. ½ × 9 = 4.5, and 4.5 × 12 = 54 cm². A student who says it is wrong might think ½ × 9 should be done after multiplying 9 × 12, not understanding that multiplication is commutative and associative. A student who gets 108 cm² did 9 × 12 without the half. A student who gets 27 cm² did ½ × 9 × 6 (halving the wrong number). This evaluates order of operations understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem where a person needs to find the area of a rhombus using diagonals. The problem must involve two steps: first finding a missing diagonal using a given condition, then computing the area. Write the problem and solve it.",
+     "a": "Example problem: \"A rhombus-shaped floor tile has one diagonal of 20 cm. The other diagonal is 4 cm longer than the first. Find the area of the tile.\" Solution: d₁ = 20 cm, d₂ = 20 + 4 = 24 cm. Area = ½ × 20 × 24 = 240 cm². A poor problem would just give both diagonals directly (single step). A poor solution would add the diagonals instead of multiplying, or forget units. This tests the student's ability to construct a meaningful multi-step scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_006",
+   "title": "c11_hs_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the primary protein constituent of wool and silk respectively, and name the gland in the silkworm that secretes the silk filament.",
+     "a": "Wool is primarily keratin; silk is primarily fibroin. The silk filament is secreted by the salivary glands (modified labial glands) of the silkworm larva. A wrong answer (e.g., \"collagen for wool\" or \"spider gland for silk\") reveals confusion between structural proteins in animals and the specific protein polymers that form textile fibres, or confusion between silk-producing insects and arachnids.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why wool fibres are scoured with alkaline detergent at 50–60°C while silk is degummed with mild soap at 95–100°C, linking each condition to the fibre's chemical structure.",
+     "a": "Wool scouring uses alkaline detergent at 50–60°C to emulsify lanolin (wool grease) and remove suint (dried sweat) without hydrolyzing keratin's disulfide bonds, which would weaken the fibre. Silk degumming uses mild soap at near-boiling temperature to dissolve sericin (the gum coating fibroin) without attacking the fibroin crystalline regions; high alkalinity or prolonged boiling would hydrolyze peptide bonds in fibroin, reducing strength and lustre. A wrong answer that reverses the temperatures or ignores the protein sensitivity indicates failure to connect processing chemistry to the hierarchical structure of each protein.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric sample burns with a smell of burning hair, curls away from the flame, self-extinguishes when removed, and leaves a brittle, crushable black ash. Identify the fibre and justify your conclusion using the burning test table.",
+     "a": "The fibre is wool (or silk — both protein fibres show similar burning behaviour). Steps: (1) Observe approach to flame: curls away — characteristic of protein fibres. (2) In flame: burns slowly — protein fibres do not support rapid combustion. (3) Removed from flame: self-extinguishing — due to high nitrogen content and char formation. (4) Odour: burning hair — keratin/fibroin decomposition releases nitrogenous compounds. (5) Residue: brittle, crushable ash — protein chars to carbonaceous residue. A wrong identification as cotton (burning paper smell, afterglow) or nylon (melts, hard bead) shows inability to map observed sensory data to the standard burning test classification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the moisture regain of wool (16–18%) and silk (11%) at 65% RH, 20°C. Explain the structural basis for this difference and its impact on wear comfort in humid versus dry climates.",
+     "a": "Wool's higher moisture regain stems from its amorphous keratin matrix with abundant polar side chains (–COOH, –NH₂, –OH) accessible to water molecules, while silk's fibroin has a higher crystalline fraction (β-sheet structures) with tightly packed hydrogen-bonded chains, limiting water access. In humid climates, wool's superior absorption buffers skin moisture, reducing clamminess; in dry climates, silk's lower regain means less evaporative cooling, feeling warmer. A wrong answer attributing the difference solely to \"wool is hair, silk is filament\" misses the molecular-level explanation linking amino acid sequence, supramolecular order, and sorption isotherms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For a baby's winter blanket, a 70/30 wool/acrylic blend is superior to 100% wool.\" Consider thermal insulation, ease of care, allergenic potential, and cost.",
+     "a": "The claim is partially valid but context-dependent. 70/30 wool/acrylic retains wool's crimp-induced loft and insulation while acrylic reduces felting shrinkage (machine washable), lowers cost, and decreases weight. However, acrylic's lower moisture regain (1.5–2%) reduces the blend's ability to buffer humidity, potentially causing clamminess if the baby sweats. Pure wool is naturally flame-resistant (self-extinguishing), while acrylic melts and drips — a safety hazard. Allergenic potential: wool's scales can irritate sensitive skin; acrylic is hypoallergenic. A blanket for a newborn in a heated room may benefit from the blend's washability; for unheated conditions, pure wool's moisture management and fire safety are superior. A one-sided answer ignoring the flammability trade-off or moisture buffering shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to distinguish between mulberry silk (Bombyx mori) and tussar silk (Antheraea spp.) using only a microscope, water, and a light source. Describe the expected observations and the structural reason.",
+     "a": "Mount longitudinal and cross-sectional views of both fibres in water on a slide. Mulberry silk: uniform triangular cross-section with rounded corners, smooth longitudinal surface, high lustre (refractive index ~1.58). Tussar silk: broader, flatter cross-section with striations, longitudinal surface shows fine lines/fissures, lower lustre. Reason: Mulberry silkworms are reared on controlled diet (mulberry leaves) producing consistent, fine filaments; tussar silkworms feed on varied host plants in wild conditions, yielding coarser, irregular filaments with more sericin remnants. A poor design would rely only on colour (both off-white) or burning test (identical), missing the morphological distinction rooted in sericulture practices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

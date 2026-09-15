@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_008",
+   "title": "c10_math_cbse_08_008",
+   "questions": [
+    {
+     "q": "State the identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) and write the condition on \\(\\theta\\) for which this identity is valid.",
+     "a": "The identity is \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\), valid for all \\(\\theta\\) where \\(\\sin\\theta \\neq 0\\), i.e., \\(\\theta \\neq 0^\\circ, 180^\\circ, 360^\\circ, \\dots\\) or \\(\\theta \\neq n\\pi, n \\in \\mathbb{Z}\\). A wrong answer like \"valid for all \\(\\theta\\)\" reveals the student does not understand that \\(\\cot\\theta\\) and \\(\\cosec\\theta\\) are undefined when \\(\\sin\\theta = 0\\), a critical domain restriction tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why dividing \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) by \\(\\sin^2\\theta\\) gives \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\), and why we cannot divide by \\(\\cos^2\\theta\\) to get the same identity.",
+     "a": "Dividing by \\(\\sin^2\\theta\\) yields \\(\\frac{\\sin^2\\theta}{\\sin^2\\theta} + \\frac{\\cos^2\\theta}{\\sin^2\\theta} = \\frac{1}{\\sin^2\\theta}\\), which simplifies to \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) because \\(\\frac{\\cos\\theta}{\\sin\\theta} = \\cot\\theta\\) and \\(\\frac{1}{\\sin\\theta} = \\cosec\\theta\\). Dividing by \\(\\cos^2\\theta\\) gives \\(\\tan^2\\theta + 1 = \\sec^2\\theta\\) (the sibling identity in c10_math_cbse_08_007), a different identity. A student who says \"both give the same result\" confuses the two Pythagorean identities and does not recognise that the divisor determines which reciprocal functions appear.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(\\cot\\theta = \\frac{12}{5}\\) and \\(\\theta\\) is acute, find the value of \\(\\cosec\\theta\\) using the identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\).",
+     "a": "Given \\(\\cot\\theta = \\frac{12}{5}\\).\nStep 1: Write the identity: \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\).\nStep 2: Substitute \\(\\cot\\theta\\): \\(1 + \\left(\\frac{12}{5}\\right)^2 = \\cosec^2\\theta\\).\nStep 3: Compute \\(\\left(\\frac{12}{5}\\right)^2 = \\frac{144}{25}\\).\nStep 4: Add 1: \\(1 + \\frac{144}{25} = \\frac{25}{25} + \\frac{144}{25} = \\frac{169}{25}\\).\nStep 5: So \\(\\cosec^2\\theta = \\frac{169}{25}\\).\nStep 6: Take square root: \\(\\cosec\\theta = \\pm\\frac{13}{5}\\).\nStep 7: Since \\(\\theta\\) is acute, \\(\\sin\\theta > 0\\), so \\(\\cosec\\theta > 0\\). Thus \\(\\cosec\\theta = \\frac{13}{5}\\).\nA wrong answer of \\(\\cosec\\theta = \\pm\\frac{13}{5}\\) without selecting the positive root reveals the student ignores the quadrant sign rule, losing 1 mark in board marking scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two identities \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) and \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\). If \\(\\tan\\theta = \\frac{3}{4}\\), which identity would you use to find \\(\\cosec\\theta\\) most efficiently, and why?",
+     "a": "Given \\(\\tan\\theta = \\frac{3}{4}\\), we cannot directly use \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) because it requires \\(\\cot\\theta\\). First find \\(\\cot\\theta = \\frac{1}{\\tan\\theta} = \\frac{4}{3}\\). Then use \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\): \\(1 + \\left(\\frac{4}{3}\\right)^2 = 1 + \\frac{16}{9} = \\frac{25}{9}\\), so \\(\\cosec\\theta = \\frac{5}{3}\\) (positive for acute \\(\\theta\\)). Alternatively, use \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) to get \\(\\sec\\theta = \\frac{5}{4}\\), then \\(\\cos\\theta = \\frac{4}{5}\\), then \\(\\sin\\theta = \\frac{3}{5}\\), then \\(\\cosec\\theta = \\frac{5}{3}\\) — longer. The first method is more efficient because it directly connects \\(\\cot\\theta\\) to \\(\\cosec\\theta\\). A student who tries to use \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) directly to find \\(\\cosec\\theta\\) shows inability to choose the appropriate identity based on given data.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"If \\(\\cosec\\theta = \\frac{13}{12}\\), find \\(\\cot\\theta\\).\" Their working:\n\\(\\cosec^2\\theta = 1 + \\cot^2\\theta\\)\n\\(\\left(\\frac{13}{12}\\right)^2 = 1 + \\cot^2\\theta\\)\n\\(\\frac{169}{144} = 1 + \\cot^2\\theta\\)\n\\(\\cot^2\\theta = \\frac{169}{144} - 1 = \\frac{25}{144}\\)\n\\(\\cot\\theta = \\frac{5}{12}\\)\nIdentify the error in the final step and correct it.",
+     "a": "The error is in the final step: \\(\\cot^2\\theta = \\frac{25}{144}\\) implies \\(\\cot\\theta = \\pm\\frac{5}{12}\\), not just \\(\\frac{5}{12}\\). The student forgot the \\(\\pm\\) when taking the square root. Since the quadrant of \\(\\theta\\) is not specified, both positive and negative values are possible. The correct answer is \\(\\cot\\theta = \\pm\\frac{5}{12}\\). If the problem stated \\(\\theta\\) is acute, then \\(\\cot\\theta = \\frac{5}{12}\\) would be correct. A student who misses the \\(\\pm\\) loses marks for incomplete solution in board exams — this is a classic \"sign error\" trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a right triangle where the given information is the cotangent of an acute angle, and the question asks for the cosecant of that angle. The problem must use Indian context (e.g., construction, kite flying, ladder against wall) and require the identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\) to solve.",
+     "a": "Example problem: \"During Sankranti festival, Ravi flies a kite. The string makes an angle \\(\\theta\\) with the ground such that \\(\\cot\\theta = \\frac{4}{3}\\). If the kite is directly above a point 12 metres from Ravi, find the length of the string using the identity \\(1 + \\cot^2\\theta = \\cosec^2\\theta\\).\"\nSolution: \\(\\cot\\theta = \\frac{4}{3} \\Rightarrow \\cosec^2\\theta = 1 + \\frac{16}{9} = \\frac{25}{9} \\Rightarrow \\cosec\\theta = \\frac{5}{3}\\). Since \\(\\cosec\\theta = \\frac{\\text{hypotenuse}}{\\text{opposite}} = \\frac{\\text{string length}}{12}\\), string length = \\(12 \\times \\frac{5}{3} = 20\\) metres. A poor answer would give a problem solvable without the identity (e.g., using Pythagoras directly), showing the student doesn't understand when the identity is the efficient tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

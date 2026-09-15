@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_100",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_100",
+   "title": "c6_math_ch09_100",
+   "questions": [
+    {
+     "q": "What is the formula for calculating the mean of a set of numbers?",
+     "a": "The mean is the sum of all values divided by the number of values. A wrong answer here usually implies the student is confusing \"mean\" with \"total,\" which indicates they missed the division step.",
+     "self_check": true
+    },
+    {
+     "q": "If five students have 2, 4, 6, 8, and 10 rupees, is the mean 6? Why or why not?",
+     "a": "Yes, because (2+4+6+8+10) = 30, and 30 divided by 5 is 6. If a student says \"no,\" they might be struggling with the addition or the division, revealing a need to practice multi-step arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "A cricket player scores 0, 50, and 100 runs in three matches. Calculate the mean score.",
+     "a": "(0 + 50 + 100) = 150. Then 150 / 3 = 50 runs. A wrong answer might happen if the student ignores the '0' as a value, which is a common error in data handling.",
+     "self_check": true
+    },
+    {
+     "q": "If a student has a mean of 80 marks across 4 subjects, what is the total of their marks?",
+     "a": "Total = 320. The student multiplies the mean (80) by the count (4). An incorrect answer shows they do not understand the relationship between the mean and the sum.",
+     "self_check": true
+    },
+    {
+     "q": "Does adding a very large value (an outlier) to a data set always change the mean? Why?",
+     "a": "Yes, it increases the sum significantly, which raises the mean. If a student says \"no,\" they don't yet understand that the mean is sensitive to extreme values.",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of 4 numbers that has a mean of 10. Can you create a different set that also has a mean of 10?",
+     "a": "Any four numbers that add up to 40 (e.g., 5, 5, 15, 15 or 10, 10, 10, 10). A poor answer suggests the student hasn't grasped that multiple combinations can lead to the same \"fair share.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

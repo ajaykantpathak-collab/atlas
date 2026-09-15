@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_001",
+   "title": "c11_phy_cbse_01_001",
+   "questions": [
+    {
+     "q": "A student measures the length of a lab table and records it as \"2.5\". The teacher says the measurement is incomplete. Why is the measurement incomplete, and what must be added to make it complete?",
+     "a": "The measurement is incomplete because a physical quantity requires both a numerical magnitude and a unit for complete specification. The student must add the unit (e.g., \"2.5 m\" or \"250 cm\"). A wrong answer (e.g., \"the number is enough\" or \"add the instrument name\") reveals the student thinks measurement is just a number, ignoring that the unit defines the scale of comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we need a system of units like SI instead of using different units for every physical quantity? Explain using the relationship between physical quantities.",
+     "a": "Physical quantities are interrelated through physical laws (e.g., force = mass × acceleration, energy = force × distance). If each quantity had an independent unit, conversions would be chaotic and equations would need arbitrary constants. A system defines a few base units (7 in SI) and derives all others from them, ensuring coherence. A wrong answer (e.g., \"SI is just a convention\" or \"to make calculations easier\") misses the structural reason: derived units must be expressible as algebraic combinations of base units without numerical factors other than 1.",
+     "self_check": true
+    },
+    {
+     "q": "The speed of a car is 72 km/h. Express this speed in SI base units (m/s) and identify which of the two units (km/h or m/s) is an SI derived unit and which is not.",
+     "a": "72 km/h = 72 × (1000 m) / (3600 s) = 20 m/s. The unit m/s is an SI derived unit (metre per second, from base units m and s). The unit km/h is not an SI unit (kilometre is a decimal multiple of metre, hour is not an SI unit of time). A wrong answer (e.g., 72 × 1000/60 = 1200 m/s, or saying both are SI) reveals confusion about SI base units (second, not hour) and decimal prefixes.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the equation for kinetic energy: K = ½ mv². Using only the SI base units (kg, m, s), show that the unit of kinetic energy (joule) is equivalent to kg·m²·s⁻². Then explain why the factor ½ does not appear in the unit analysis.",
+     "a": "[K] = [M][L/T]² = kg·(m/s)² = kg·m²·s⁻². The factor ½ is a dimensionless numerical constant — it has no units and does not affect the dimensional form. A wrong answer (e.g., including ½ in the unit as \"½ kg·m²·s⁻²\" or saying joule = kg·m/s) reveals the student does not distinguish between numerical factors and dimensional structure, or confuses velocity (m/s) with velocity squared (m²/s²).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The SI unit of force is newton (N). Since force = mass × acceleration, we can also write the unit of force as kg·m/s. Is this correct? Evaluate and correct if necessary.\"",
+     "a": "Incorrect. Acceleration = velocity/time = (m/s)/s = m/s². So force unit = kg × m/s² = kg·m·s⁻² = N. The student wrote m/s (velocity) instead of m/s² (acceleration). A wrong evaluation (e.g., \"yes, because force = mass × velocity\") reveals confusion between velocity and acceleration, and between momentum (kg·m/s) and force (kg·m/s²).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale, a stopwatch, and a ball to determine the value of acceleration due to gravity (g). List the quantities you would measure, their SI units, and the formula you would use. Explain how you would express g in SI base units.",
+     "a": "Measure height of fall h (metre, m) and time of fall t (second, s). Use formula h = ½ g t² → g = 2h/t². SI base units of g: [g] = [L]/[T]² = m/s². A poor answer (e.g., measuring mass of ball, using cm and minutes without conversion, or giving g = h/t) reveals misunderstanding of the physical relation, unit consistency, or the role of base units in derived quantities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

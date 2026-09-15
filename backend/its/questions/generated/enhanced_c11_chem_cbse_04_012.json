@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_012",
+   "title": "c11_chem_cbse_04_012",
+   "questions": [
+    {
+     "q": "Define dipole moment and state its SI unit. Why is the crossed arrow representation used in chemistry instead of the conventional vector arrow?",
+     "a": "Dipole moment (μ) = charge (q) × distance of separation (r); SI unit = C·m. The crossed arrow (➤) points from δ+ to δ− with the cross on the δ+ end, opposite to the physics convention (vector from − to +). A wrong answer (e.g., stating unit as Debye only, or drawing arrow from negative to positive) reveals confusion between physics and chemistry conventions and ignorance of the 1 D = 3.336 × 10⁻³⁰ C·m conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why CO₂ has zero net dipole moment while H₂O has a net dipole moment of 1.85 D, even though both contain polar bonds. Use molecular geometry in your explanation.",
+     "a": "CO₂ is linear (O=C=O, 180°); the two equal C=O bond dipoles are opposite and cancel vectorially → μ_net = 0. H₂O is bent (∠HOH ≈ 104.5°); the two O−H bond dipoles add at an angle, giving a resultant along the bisector. A wrong answer (e.g., \"CO₂ has no polar bonds\" or \"H₂O is linear\") shows failure to connect VSEPR geometry to vector addition of dipoles.",
+     "self_check": true
+    },
+    {
+     "q": "The bond dipole moment of H−F is 1.91 D and the H−F bond length is 92 pm. Calculate the partial charge (δ) on each atom in units of elementary charge (e). (1 D = 3.336 × 10⁻³⁰ C·m; e = 1.602 × 10⁻¹⁹ C)",
+     "a": "μ = 1.91 D = 1.91 × 3.336 × 10⁻³⁰ = 6.372 × 10⁻³⁰ C·m. r = 92 pm = 92 × 10⁻¹² m. δ = μ/r = 6.372×10⁻³⁰ / 92×10⁻¹² = 6.926×10⁻²⁰ C. In units of e: δ/e = 6.926×10⁻²⁰ / 1.602×10⁻¹⁹ = 0.432 e. A wrong answer (e.g., forgetting unit conversion, using 1 D = 10⁻¹⁸ esu·cm incorrectly) reveals poor dimensional analysis and confusion between Debye and SI units.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dipole moments of NH₃ (1.47 D) and NF₃ (0.23 D). Both are pyramidal with a lone pair on nitrogen. Explain the large difference using the direction of the lone pair dipole relative to the bond dipoles.",
+     "a": "In NH₃, N is more electronegative than H; each N−H bond dipole points N←H. The lone pair dipole points in the same direction as the resultant of the three N−H dipoles (away from H atoms), adding constructively → large μ. In NF₃, F is more electronegative than N; each N−F dipole points N→F. The lone pair dipole points opposite to the resultant of the three N−F dipoles, partially cancelling → small μ. A wrong answer (e.g., attributing difference only to electronegativity difference) misses the vector opposition of lone pair dipole.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"BF₃ has polar B−F bonds, so it must have a net dipole moment.\" Evaluate this statement and correct the error.",
+     "a": "The statement is false. BF₃ is trigonal planar (sp², 120°). The three equal B−F bond dipoles are symmetrically arranged at 120°; their vector sum is zero. Polarity of individual bonds does not guarantee molecular polarity — geometry determines whether bond dipoles cancel. A wrong answer accepting the claim shows inability to apply symmetry arguments and vector addition to molecular shape.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that water is a polar molecule but carbon tetrachloride (CCl₄) is non-polar. Explain the expected observations.",
+     "a": "Charge a plastic ruler by rubbing with wool. Bring it near a thin stream of water from a tap — the stream bends toward the ruler. Repeat with CCl₄ (or cooking oil as proxy) — no bending. Water's net dipole aligns with the external field; CCl₄'s tetrahedral symmetry gives μ_net = 0, so no alignment. A poor answer (e.g., \"both bend\" or \"neither bends\") reveals no understanding of molecular polarity's macroscopic manifestation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

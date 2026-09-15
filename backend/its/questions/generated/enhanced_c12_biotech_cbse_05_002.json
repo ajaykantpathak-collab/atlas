@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_002",
+   "title": "c12_biotech_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define structural genomics from both the protein-structure perspective and the chromosome-organisation perspective in one sentence each.",
+     "a": "Protein-structure perspective: Structural genomics aims to determine the 3D structure of every protein encoded by a genome, prioritising novel folds. Chromosome-organisation perspective: Structural genomics studies the physical arrangement of DNA in chromosomes, including nucleosome positioning, chromatin states, and large-scale synteny changes between species. A wrong answer that only mentions \"sequencing the genome\" reveals the student confuses structural genomics with whole-genome sequencing (a method, not the goal) or with functional genomics (which studies expression, not structure).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"RFLP and STS are both physical mapping techniques, so they must use the same experimental principle.\" Explain why this claim is incorrect by describing the fundamental difference in how RFLP and STS detect variation.",
+     "a": "RFLP detects variation indirectly: restriction enzymes cut at specific sequences, and *changes in fragment length* (due to gain/loss of a restriction site) are visualised by gel electrophoresis — you infer the sequence change from the band pattern. STS detects variation directly: a unique 200–500 bp sequence is *amplified by PCR* using primers flanking the STS; presence/absence/size of the PCR product directly reveals the locus. A wrong answer stating \"both use PCR\" or \"both use restriction enzymes\" reveals the student memorised labels without grasping the detection chemistry: RFLP = restriction digestion + Southern hybridisation; STS = PCR-based landmark.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to construct a high-resolution physical map of a 2 Mb bacterial chromosome. She has a library of BAC clones (average insert 150 kb) and can perform restriction digestion with EcoRI (6-bp recognition site) and NotI (8-bp recognition site). Which enzyme would give fewer fragments and why? Calculate the expected number of fragments for each enzyme assuming random sequence distribution.",
+     "a": "NotI (8-bp cutter) yields fewer fragments. Expected frequency: 4^6 = 4096 bp for EcoRI → ~2,000,000 / 4096 ≈ 488 fragments. 4^8 = 65,536 bp for NotI → ~2,000,000 / 65,536 ≈ 31 fragments. NotI's longer recognition site occurs less frequently, producing larger, more manageable fragments for mapping. A wrong answer choosing EcoRI or miscalculating 4^6/4^8 reveals confusion about recognition-site frequency and its inverse relationship to fragment number — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *principle of base detection* in Illumina (second-generation) and Oxford Nanopore (third-generation) sequencing. Why does Nanopore produce much longer reads despite lower per-base accuracy?",
+     "a": "Illumina: sequencing-by-synthesis with reversible terminators — fluorescently labelled dNTPs are incorporated one at a time, imaged, then cleaved; detection is optical (photon counting). Nanopore: a DNA strand is threaded through a protein pore; each base disrupts the ionic current by a characteristic amount; detection is electrical (current blockade signature). Nanopore reads are longer because there is no synthesis step that can stall or terminate — the strand simply translocates. Lower accuracy arises because multiple bases occupy the pore simultaneously, creating overlapping current signals that require complex base-calling algorithms. A wrong answer citing \"Nanopore uses fluorescence\" or \"Illumina measures current\" reveals a fundamental confusion of detection modalities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Genetic maps (in centimorgans) and physical maps (in base pairs) are directly convertible using a fixed ratio, so once you have one you don't need the other.\" Provide two specific reasons why this is false, with examples.",
+     "a": "False. Reason 1: Recombination frequency (cM) is not uniform — centromeres suppress crossing over (1 cM ≈ millions of bp), while hotspots elevate it (1 cM ≈ few kb). Example: Human chromosome 19 has ~2.6 cM/Mb; chromosome 13 has ~0.8 cM/Mb. Reason 2: Genetic maps require polymorphic phenotypic markers; physical maps use sequence landmarks (STS, restriction sites) present in *every* individual. A genetic map cannot be built for an inbred strain with no phenotypic variation, but a physical map can. A wrong answer claiming \"1 cM = 1 Mb always\" reveals the student memorised a rule-of-thumb without understanding its biological limits — a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to identify the genomic region responsible for a novel heat-tolerance phenotype in a wild rice variety, using only structural genomics tools (no RNA-seq, no mutant library). Specify: (a) the mapping population you would create, (b) the physical landmarks you would genotype, (c) the sequencing approach for the candidate interval, and (d) how you would prioritise candidate genes from the sequence.",
+     "a": "(a) Create an F2 population from a cross between the heat-tolerant wild rice (donor) and a heat-sensitive cultivated variety (recurrent parent). (b) Genotype the F2 population with STS markers (PCR-based, co-dominant, genome-wide) spaced ~500 kb apart; supplement with SSLP markers in regions showing linkage. (c) For the linked interval (~1–2 Mb), perform *de novo* PacBio HiFi or Nanopore long-read sequencing of the tolerant parent to resolve structural variants and repetitive regions that short reads miss. (d) Prioritise genes by: (i) presence of non-synonymous SNPs/indels in coding sequence between parents, (ii) known heat-shock protein domains (Pfam annotation), (iii) synteny with known heat-tolerance QTL in sorghum/maize (comparative genomics). A poor answer that suggests \"sequence the whole genome of both parents with Illumina and run GWAS\" ignores the prompt's \"structural genomics tools only\" constraint and the power of long reads for structural variant detection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

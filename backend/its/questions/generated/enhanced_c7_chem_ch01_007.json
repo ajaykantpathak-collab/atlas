@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_007",
+   "title": "c7_chem_ch01_007",
+   "questions": [
+    {
+     "q": "What are the two absolute, non-negotiable environmental factors required for an iron nail to rust?",
+     "a": "Oxygen and water (moisture). \nIf a student answers \"only water\" or \"only air,\" it reveals a partial understanding of the environment and ignores the multi-reactant nature of chemical changes. They fail to recall that both substances must be present simultaneously for the reddish-brown oxide to form.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a polished iron gate rust much faster in coastal cities like Mumbai or Chennai compared to dry, inland cities like Bikaner?",
+     "a": "Coastal cities have higher atmospheric humidity, meaning much more moisture ($H_2O$) is suspended in the air alongside oxygen, which accelerates the chemical reaction. \nIf a student answers that \"salt in the ocean air burns the iron,\" they confuse corrosion acceleration with combustion or acid action, missing the core role of dissolved moisture facilitating electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "An iron nail is completely submerged in a tightly stoppered test tube filled with freshly boiled and cooled water (with a layer of oil on top to block air). Predict whether the nail will rust after one week, showing your reasoning.",
+     "a": "Steps:\n1. Identify the conditions provided: Water is present, but boiling removes dissolved oxygen, and the oil layer prevents atmospheric oxygen from entering.\n2. Recall the essential criteria for rusting: Both oxygen *and* water are required.\n3. Compare conditions to requirements: Since oxygen is missing from the system, both conditions are not met.\n4. Predict the result: The nail will not rust.\nAnswer: The nail will remain bright and unrusted. If a student predicts that it will rust because \"it is fully underwater,\" it reveals the misconception that water alone is sufficient to cause rust without oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a scenario where two identical iron nails are placed in separate test tubes: Tube A contains dry air with a drying agent, and Tube B contains water devoid of oxygen. Neither nail rusts after a week. What does this comparative result prove about the chemistry of rusting?",
+     "a": "This proves that neither oxygen alone (Tube A) nor water alone (Tube B) is sufficient to cause rusting; the reaction requires the simultaneous presence of both components. \nIf a student suggests that \"iron doesn't like water or air at all,\" they fail to analyze the isolated variables and misunderstand that pure oxygen or pure water individually cannot trigger the chemical change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement made by a student: \"Painting an iron window grill stops rusting by chemically changing the iron into a non-reactive metal.\" Is this statement scientifically accurate? Justify your evaluation.",
+     "a": "The statement is inaccurate. Paint does not change the chemical nature of iron; instead, it acts as a physical barrier that blocks oxygen and moisture from reaching the iron surface. \nIf a student agrees with the statement, it shows they confuse physical protection methods with chemical transmutation of elements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost home experiment using household items to prove that dissolved oxygen in water is necessary for iron to rust.",
+     "a": "Criteria for a good answer: The student should propose taking three clean glass jars, putting an iron nail in each: one dry, one with normal tap water exposed to air, and one with boiled water sealed with cooking oil. They must explain that observing the jars over several days will show only the nail in the tap water (air + water) rusting. A poor answer fails to control variables, such as omitting the oil layer or forgetting to boil the water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

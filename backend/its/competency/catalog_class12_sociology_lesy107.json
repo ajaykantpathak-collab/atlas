@@ -1,0 +1,308 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 7,
+ "chapter_title": "Suggestions for Project Work",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy107.1",
+   "title": "Choosing a Research Question and a Suitable Method",
+   "section": "Introduction - Suggestions for Project Work",
+   "definition": "Every research question needs an appropriate method: a given question may admit several methods, but no single method suits all questions, so after pinning down a specific question from a broad topic - comparing co-educational, boys-only and girls-only schools on happiness, say - the researcher selects a method on technical grounds of question-method compatibility and practical grounds of available time, people, materials and circumstances.",
+   "formula": "method_choice = question_method_compatibility + practical_constraints (time, people, materials, circumstances)",
+   "key_idea": "First narrow the broad topic into one specific question; only then can the limited menu of suitable methods be weighed against the time and resources at hand.",
+   "textbook_ref": "lesy107.txt, chapter introduction (school-type example, criteria for selecting a method)",
+   "question_patterns": [
+    "why must a broad topic be narrowed into a specific research question before choosing a method?",
+    "state the technical and practical criteria for selecting a research method",
+    "a student wants to compare happiness in single-sex and co-educational schools - which methods could serve and how?",
+    "why is the choice of research methods usually limited even when more than one is possible?",
+    "how do available time and resources restrict the design of a school project?",
+    "what practical difficulties might follow after distributing a questionnaire in classrooms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the question-first order",
+     "explain": "the question is specified first, then the method - the co-educational schooling example shows one topic yielding several sharper questions"
+    },
+    {
+     "step": 2,
+     "action": "check the two selection criteria",
+     "explain": "compatibility between question and method is technical; time, people, materials and circumstances are the practical filters"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Before choosing a method, a broad topic must be narrowed into one specific what?",
+     "a": "question"
+    }
+   ]
+  },
+  {
+   "id": "lesy107.2",
+   "title": "Survey Method: Coverage, Fixed Questions and Response Rates",
+   "section": "7.1 Variety of Methods - Survey Method",
+   "definition": "A survey asks a relatively large number of people - 30, 100 or 2000, depending on context - the same fixed set of questions, either read out by an investigator or handed over for self-filling; its strength is representative coverage of a population, while its weaknesses are the frozen question list, the impossibility of probing an interesting answer, and the snapshot quality that misses before and after. Distributed questionnaires rarely all come back complete, so the researcher must compute how many returned and how many of those are usable.",
+   "formula": "response_rate = returned_forms / distributed_forms * 100 ; usable_rate = complete_forms / returned_forms * 100",
+   "key_idea": "Multiply the returned share and the complete share to see how much of the survey actually speaks - and decide whether to chase incomplete forms or drop them.",
+   "textbook_ref": "lesy107.txt, introduction practical difficulties paragraph and 7.1 Survey Method (30, 100, 2000 respondents, snapshot limitation)",
+   "question_patterns": [
+    "out of 120 questionnaires distributed, 84 came back and 72 were complete - compute the response rate and the usable rate",
+    "what makes the survey method representative of a population, and what fixes its limits?",
+    "why can a misunderstood question produce misleading survey results?",
+    "how should a researcher treat incomplete questionnaires returned by respondents?",
+    "why is a questionnaire compared to a snapshot taken at one moment?",
+    "an equal number of forms must go to each of three school types - how many forms per school if 120 are printed?",
+    "why can an investigator not follow up an interesting survey answer with further questions?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the returned forms by the distributed forms and scale to a percentage",
+     "explain": "the quotient shows what fraction of the sampled respondents took part at all",
+     "compute": "response_rate = returned_forms / distributed_forms * 100"
+    },
+    {
+     "step": 2,
+     "action": "divide the fully completed forms by the returned forms",
+     "explain": "this second percentage shows how much of the returned material is actually usable for analysis",
+     "compute": "usable_rate = complete_forms / returned_forms * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A survey asks a large number of people the same what of questions: fixed set or changing set?",
+     "a": "fixed set"
+    }
+   ]
+  },
+  {
+   "id": "lesy107.3",
+   "title": "Interview Method: Few Respondents, Long Conversations",
+   "section": "7.1 Variety of Methods - Interviews",
+   "definition": "The interview is always conducted in person with far fewer people - as few as 5, 20 or 40 - and may be structured along a pre-decided question pattern or unstructured around a set of topics that grow into conversation; sessions may run two to three hours or repeat across visits for a really detailed story. Its flexibility lets promising topics be pursued, questions refined and clarifications sought, at the cost of covering only a select group's views.",
+   "formula": "field_hours = respondents_interviewed * visits_per_respondent * hours_per_visit",
+   "key_idea": "Multiply respondents by repeat visits and hours per visit to budget the fieldwork time an interview study demands.",
+   "textbook_ref": "lesy107.txt, 7.1 Interviews (5, 20, 40 respondents; structured vs unstructured; 2-3 hour intensive sessions)",
+   "question_patterns": [
+    "how does an interview differ from a survey in coverage and conduct?",
+    "distinguish structured from unstructured interviews with one use for each",
+    "a researcher interviews 8 people over 2 visits of 2.5 hours each - how many fieldwork hours does the study need?",
+    "what are the advantages of the interview method's flexibility in refining questions?",
+    "why can interview findings not claim to represent a large population?",
+    "when would a researcher plan repeated visits to the same respondent?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number of respondents by the visits each receives",
+     "explain": "repeated visits build the detailed version of each person's story",
+     "compute": "visits_total = respondents_interviewed * visits_per_respondent"
+    },
+    {
+     "step": 2,
+     "action": "multiply the total visits by the hours each session lasts",
+     "explain": "the product is the total fieldwork time the interview study will consume",
+     "compute": "field_hours = visits_total * hours_per_visit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An interview is always conducted in what way: in person or by post?",
+     "a": "in person"
+    }
+   ]
+  },
+  {
+   "id": "lesy107.4",
+   "title": "Observation Method: Watching Systematically",
+   "section": "7.1 Variety of Methods - Observation",
+   "definition": "Observation requires the researcher to watch and record systematically what happens in the chosen setting without pre-judging what counts as relevant - and sometimes what does not happen matters most, as when a class of people is simply never seen entering a public space. The method sounds simple but takes care in practice to log events fairly before any judgement about the study.",
+   "formula": "observation_rule = systematic_watch + record_without_prejudging ; non_happening = as_informative_as_events",
+   "key_idea": "The silence in the data - the group that never appears - can answer the research question as loudly as any visible act.",
+   "textbook_ref": "lesy107.txt, 7.1 Observation (open spaces example, absence of poor or middle class users)",
+   "question_patterns": [
+    "why is observation harder to do well than it sounds?",
+    "when can what does not happen be as important as what happens in an observation study?",
+    "how would you observe whether different classes of people use a public open space differently?",
+    "why must an observer avoid pre-judging what is relevant to the study?",
+    "which project topic in the chapter pairs best with observation of mobile phone use in public?",
+    "what does observing comparable open spaces in different localities reveal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the systematic recording rule",
+     "explain": "watching must be organised and continuous, not casual, with records kept of the chosen context"
+    },
+    {
+     "step": 2,
+     "action": "check the absence claim",
+     "explain": "the chapter's open-space example treats a group's non-entry as a significant finding in its own right"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Observation requires watching and recording how: systematically or casually?",
+     "a": "systematically"
+    }
+   ]
+  },
+  {
+   "id": "lesy107.5",
+   "title": "Combining Methods to Approach a Question",
+   "section": "7.1 Combinations of More Than One Method",
+   "definition": "Methods can be combined so the same research question is attacked from different angles - often highly recommended, as when the changing place of newspapers and television is studied by pairing a survey of what happens today with archival methods that show what the media were like in the past; each method covers the other's blind side.",
+   "formula": "combined_design = today_method (survey) + past_method (archival) -> fuller_answer",
+   "key_idea": "One method's snapshot plus another's history turns a single-angle answer into a rounded one.",
+   "textbook_ref": "lesy107.txt, 7.1 Combinations of More Than One Method (mass media example)",
+   "question_patterns": [
+    "why is combining more than one method highly recommended in sociological projects?",
+    "design a two-method study of the changing place of mass media in social life",
+    "what can archival methods tell a project that a survey cannot?",
+    "how would you pair observation with a survey in the media-use project?",
+    "give one research question for which a combination of survey and interviews works better than either alone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the angle-diversity claim",
+     "explain": "approaching one question from different angles is explicitly recommended for small projects"
+    },
+    {
+     "step": 2,
+     "action": "check the media example pairing",
+     "explain": "the survey captures the present situation while archival material reconstructs the past, so together they frame the change"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Studying today's media by survey and past media by archives combines methods by doing what: pairing them or dropping one?",
+     "a": "pairing them"
+    }
+   ]
+  },
+  {
+   "id": "lesy107.6",
+   "title": "Project Themes and Matching Topics to Methods",
+   "section": "7.2 Possible themes and subjects for small research projects",
+   "definition": "The chapter lists themes - public transport (including the Delhi Metro's imagined future), communication media in social life, household appliances and the domestic division of labour, use of public space, changing aspirations of age groups, and the biography of a commodity - and a matching table pairs each with methods: behaviour and etiquette at a bus station go to observation, opinions on appliance changes to surveys, history of change to archival sources, views of regular versus occasional users to interviews; aspiration studies skip observation as unsuitable, and interviewees should not come from the researcher's own school.",
+   "formula": "topic_method_pairs = transport_observation + appliance_surveys + history_archival + user_views_interviews ; aspirations -> observation_not_suitable",
+   "key_idea": "Topics are only starting points - the specific question chosen must suit the method, and familiar places make the best observation sites.",
+   "textbook_ref": "lesy107.txt, section 7.2 topics 1-6 and the method-topic matching table with comments",
+   "question_patterns": [
+    "which research methods does the chapter pair with a study of domestic appliances and the division of household labour?",
+    "why is observation marked not suitable for studying the changing aspirations of school children?",
+    "which sources serve the archival method in a project on the history of a transport mode like the tonga or rickshaw?",
+    "why should interviewees for the aspirations project not be drawn from the researcher's own school?",
+    "how would you write the autobiography of a commodity such as a television set or motorcycle?",
+    "which topics does the chapter suggest for studying the use of public space and its conflicts?",
+    "what caution does the matching table give about the appliance project becoming a girl's topic?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the table's pairings",
+     "explain": "each theme is matched with observation, survey, archival and interview options plus comments, from railway-station etiquette to letter-writing nostalgia"
+    },
+    {
+     "step": 2,
+     "action": "check the suitability caveat",
+     "explain": "most methods fit most topics, but the specific question must suit the method - aspiration studies bar observation and demand cross-school respondents"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Behaviour and etiquette at a bus station suit which method: observation or a census?",
+     "a": "observation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy107.we1",
+   "concept_id": "lesy107.2",
+   "problem": "You print 120 questionnaires and distribute an equal number across 3 kinds of schools. In all, 84 forms come back and 72 of them are complete. Find the forms per school, the response rate and the usable rate.",
+   "given": {
+    "distributed_forms": 120,
+    "school_count": 3,
+    "returned_forms": 84,
+    "complete_forms": 72
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide the printed forms by the number of school types",
+     "compute": "forms_per_school = 120 / 3"
+    },
+    {
+     "step": 2,
+     "action": "divide returned by distributed and scale to a percentage",
+     "compute": "response_rate = 84 / 120 * 100"
+    },
+    {
+     "step": 3,
+     "action": "divide complete forms by returned forms",
+     "compute": "usable_rate = 72 / 84 * 100"
+    }
+   ],
+   "answer": "forms_per_school = 40, response_rate = 70 per cent and usable_rate = 85.7 per cent - so 72 fully usable questionnaires remain for analysis"
+  },
+  {
+   "id": "lesy107.we2",
+   "concept_id": "lesy107.3",
+   "problem": "An interview study covers 8 respondents, meeting each twice with sessions of 2.5 hours. Budget the total fieldwork hours.",
+   "given": {
+    "respondents_interviewed": 8,
+    "visits_per_respondent": 2,
+    "hours_per_visit": 2.5
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply respondents by visits per respondent",
+     "compute": "visits_total = 8 * 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply total visits by hours per session",
+     "compute": "field_hours = visits_total * 2.5"
+    }
+   ],
+   "answer": "field_hours = 40 hours of interviewing across 16 visits - the price of the interview method's detailed flexibility"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy107.ex1",
+   "source_ref": "lesy107.txt chapter introduction and section 7.1",
+   "questions": [
+    "Turn the broad topic of school types into one specific researchable question and name two methods that could answer it.",
+    "List the practical difficulties a survey researcher faces after distributing a questionnaire, and how each may be handled.",
+    "Compare the survey and the interview on coverage, flexibility and representativeness.",
+    "Why may the absence of a group from a public space be a significant observation?",
+    "Design a combined-method project on the changing place of mass media in social life."
+   ]
+  },
+  {
+   "id": "lesy107.ex2",
+   "source_ref": "lesy107.txt section 7.2 topics and matching table",
+   "questions": [
+    "Choose any three themes from the chapter and frame one specific research question for each with a suitable method.",
+    "A survey hands 200 forms equally to 4 school types and gets 130 back, 104 complete - compute the forms per school, the response rate and the usable rate.",
+    "Plan the fieldwork hours for interviewing 10 respondents twice each at 3 hours per visit.",
+    "Draft three interview questions on how different age groups use mobile phones in public, taking care not to pre-judge the issue."
+   ]
+  }
+ ]
+}

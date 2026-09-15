@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_007",
+   "title": "c12_chem_cbse_10_007",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of denaturation that distinguishes it from hydrolysis of proteins?",
+     "a": "Denaturation disrupts only non-covalent interactions and disulfide bonds, destroying secondary, tertiary, and quaternary structures while leaving the primary structure (peptide bonds) intact. Hydrolysis breaks peptide bonds, destroying the primary structure. A wrong answer (e.g., \"denaturation breaks peptide bonds\") reveals confusion between conformational change and chemical degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does heating a protein solution often cause precipitation, whereas the native protein was soluble?",
+     "a": "Heating disrupts hydrophobic interactions and hydrogen bonds, unfolding the protein and exposing hydrophobic core residues to the aqueous solvent. These exposed hydrophobic patches aggregate to minimize contact with water, forming insoluble precipitates. A wrong answer (e.g., \"heat breaks peptide bonds\") indicates misunderstanding of which bonds are broken and the role of hydrophobic effect in solubility.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a globular enzyme with 8 M urea at pH 7.0 and 25°C. The enzyme loses activity. When the urea is removed by dialysis, activity partially returns. Explain these observations in terms of structural levels and reversibility.",
+     "a": "Urea disrupts hydrogen bonds and hydrophobic interactions, unfolding the enzyme (loss of secondary/tertiary structure) and inactivating it. Primary structure remains intact. Upon dialysis, urea concentration drops, allowing the polypeptide to refold spontaneously into its native conformation (renaturation), restoring some activity. A wrong answer (e.g., \"urea hydrolyzes peptide bonds\") shows failure to distinguish denaturation from hydrolysis and ignorance of Anfinsen's principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of pH 2.0 versus pH 7.0 on a protein with many ionizable side chains (Asp, Glu, Lys, Arg). Why does extreme pH cause denaturation?",
+     "a": "At pH 2.0, carboxyl groups (Asp, Glu) are protonated (neutral) and amino groups (Lys, Arg) are fully protonated (+1). This alters the net charge and charge distribution, disrupting electrostatic interactions (salt bridges) and hydrogen bonds that stabilize tertiary structure. Repulsion between like charges forces unfolding. At pH 7.0, the protein has its evolved charge distribution for stability. A wrong answer (e.g., \"pH breaks peptide bonds\") confuses protonation with hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Denaturation always destroys the primary structure of a protein.\" Justify your answer with chemical reasoning.",
+     "a": "The statement is false. Denaturation by definition leaves primary structure (covalent peptide bonds) intact; it disrupts only weaker non-covalent forces and disulfide bonds. Primary structure destruction requires hydrolysis (acid/base/enzymatic). A student who agrees reveals the misconception that loss of function implies backbone cleavage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate that denaturation by heat is often irreversible, while denaturation by a chaotropic agent like urea can be reversible.",
+     "a": "Take two samples of egg white. Heat one in a water bath at 80°C for 5 min — it coagulates irreversibly. Treat the other with 8 M urea at room temperature for 30 min — it becomes transparent/viscous. Then dialyze the urea-treated sample against water (using a semi-permeable membrane like a dialysis bag or even a porous cloth bag in large volume water with frequent changes). If the sample regains some viscosity/transparency, it indicates refolding. A poor answer (e.g., \"just boil both\") shows inability to design controlled comparison and misunderstanding of reversibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_004",
+   "title": "c7_physics_ch05_004",
+   "questions": [
+    {
+     "q": "Which of the following materials allows light to pass through it completely so that you can see clearly through it?\nA) Cardboard\nB) Oiled paper\nC) Clear glass window\nD) Wooden plank",
+     "a": "The correct answer is C. A clear glass window is a transparent material that permits nearly all light to pass through without scattering. A student who chooses B (oiled paper) is confusing transparent materials with translucent ones, likely because light passes through oiled paper, but not clearly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why you cannot see your friend standing on the other side of a thick wooden wall even when the room is brightly lit.",
+     "a": "A wooden wall is an opaque material, which means it completely blocks and absorbs or reflects light rays rather than transmitting them. A student who answers that \"the wall is too dark\" fails to understand that optical transmission, not color brightness, determines whether light can pass through a substance.",
+     "self_check": true
+    },
+    {
+     "q": "If a specific plastic sheet allows 45% of incident light to pass through while scattering it in all directions, how would you classify this plastic sheet and what would you see if you placed it over a printed book?",
+     "a": "Steps:\n1. Identify light transmission properties: allows only partial light and scatters it.\n2. Match properties to classification: partial transmission with scattering defines a translucent material.\n3. Apply to the context: placing it over a book will let some light through, but letters will appear blurred and unreadable.\n4. Conclude classification and visual outcome.\nReasoning: Translucent materials diffuse light rays coming from an object, which prevents forming a sharp image on the retina.\nAnswer: The plastic sheet is translucent; the letters of the book appear blurred.",
+     "self_check": true
+    },
+    {
+     "q": "An architect wants to design a meeting room in an office in New Delhi where people inside can receive natural sunlight during the day, but people walking outside in the corridor cannot see documents kept on the conference table. Which type of material should the architect choose for the lower half of the walls, and why?",
+     "a": "The architect should choose translucent materials (like frosted glass). Frosted glass lets light enter the room (addressing sunlight needs) but scatters the light rays so that shapes and text inside cannot be recognized from the outside. A student who chooses transparent glass fails to understand privacy requirements, while choosing opaque blocks sunlight completely.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if you make an opaque material thin enough—such as rolling a chapati or a metal foil to an extreme degree—it will eventually become transparent. Evaluate this claim based on the behavior of light.",
+     "a": "The claim is false because transparency depends on the internal atomic and molecular structure of the material (whether electrons absorb or scatter light of specific frequencies), not merely its macroscopic thickness. While reducing thickness might turn an opaque material into a translucent one by allowing a tiny fraction of scattered light through, true transparency requires a regular molecular structure that does not absorb or randomly scatter visible light.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple testing procedure using a single pocket torch to classify five unknown household objects (a plastic ruler, a steel spoon, butter paper, a clean water bottle, and a rubber eraser) into transparent, translucent, and opaque categories.",
+     "a": "The procedure should involve turning on the torch in a dimly lit room, holding each object directly against the light lens, and observing the opposite side or a white wall behind the object. If light passes clearly and lights up a spot brightly on the wall, the object is transparent; if light passes through as a diffused, hazy glow, it is translucent; if no light passes and a dark shadow forms, it is opaque. A poor answer lacks a controlled light source or fails to specify what observation determines the category.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

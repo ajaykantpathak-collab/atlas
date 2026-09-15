@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_006",
+   "title": "c11_chem_cbse_09_006",
+   "questions": [
+    {
+     "q": "What is the oxidation state of hydrogen in sodium hydride (NaH) and why does it differ from hydrogen's oxidation state in methane (CH₄)?",
+     "a": "In NaH, hydrogen has oxidation state -1 (hydride ion H⁻) because sodium (Group 1) is more electropositive (EN = 0.93) than hydrogen (EN = 2.20), so hydrogen gains electron density. In CH₄, hydrogen has oxidation state +1 because carbon (EN = 2.55) is slightly more electronegative than hydrogen, so hydrogen loses electron density. A wrong answer (e.g., saying H is +1 in both) reveals the student thinks hydrogen always has +1 oxidation state, ignoring the electronegativity principle that hydrogen shows -1 with metals more electropositive than itself.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why beryllium hydride (BeH₂) is covalent while magnesium hydride (MgH₂) is ionic, even though both are Group 2 elements.",
+     "a": "BeH₂ is covalent because beryllium has high charge density (small size, +2 charge) and relatively high electronegativity (1.57), leading to significant polarizing power that distorts the electron cloud of H⁻, causing covalent character (Fajans' rules). MgH₂ is ionic because magnesium is larger (lower charge density) and less electronegative (1.31), so the electronegativity difference with hydrogen (2.20) is larger (~0.89) favoring ionic bonding. A wrong answer (e.g., \"both are ionic because Group 2\") reveals the student memorizes group trends without applying Fajans' rules or electronegativity differences to explain anomalies.",
+     "self_check": true
+    },
+    {
+     "q": "Write balanced chemical equations for the reaction of (a) CaH₂ with water, (b) B₂H₆ with water, and (c) TiH₂ with water. Identify which reaction produces H₂ gas and which produces a basic solution.",
+     "a": "(a) CaH₂ + 2H₂O → Ca(OH)₂ + 2H₂↑ (produces H₂ gas and basic Ca(OH)₂ solution)\n(b) B₂H₆ + 6H₂O → 2B(OH)₃ + 6H₂↑ (produces H₂ gas and acidic B(OH)₃ solution)\n(c) TiH₂ + 2H₂O → TiO₂ + 2H₂↑ (slow reaction, produces H₂ gas; TiH₂ is stable and reacts only at high temperature)\nAll three produce H₂ gas, but only (a) gives a strongly basic solution. A wrong answer (e.g., writing CaH₂ + H₂O → CaO + 2H₂) reveals inability to balance redox reactions where H⁻ is oxidized to H₂ and H⁺ from water is reduced to H₂, or misunderstanding that ionic hydrides hydrolyze to give basic solutions while covalent hydrides like B₂H₆ give acidic products.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thermal stability of NH₃, H₂O, and HF (covalent hydrides of Period 2) with PH₃, H₂S, and HCl (Period 3 analogues). Explain the trend using bond enthalpy and orbital overlap concepts.",
+     "a": "Period 2 hydrides (NH₃, H₂O, HF) have higher thermal stability than Period 3 analogues (PH₃, H₂S, HCl) due to better orbital overlap between small 2p orbitals of N, O, F and 1s orbital of hydrogen, forming stronger E-H bonds. For example, N-H bond enthalpy ~391 kJ/mol vs P-H ~322 kJ/mol. Additionally, Period 2 elements have higher electronegativity, increasing bond polarity and strength. A wrong answer (e.g., \"Period 3 are more stable because larger atoms form stronger bonds\") reveals confusion between atomic size and bond strength - larger atoms have more diffuse orbitals, poorer overlap, and weaker bonds despite higher polarizability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All metallic hydrides are non-stoichiometric because hydrogen atoms randomly occupy interstitial sites in the metal lattice, so the composition can vary continuously.\" Evaluate this statement.",
+     "a": "The statement is partially correct but oversimplified. Metallic hydrides ARE typically non-stoichiometric (e.g., TiH₁.₈, ZrH₁.₉, VH₀.₅₆) because hydrogen occupies interstitial sites in the metal lattice (fcc/bcc) without disrupting the metallic bonding. However, the composition does NOT vary continuously - there are definite phase boundaries and stoichiometric limits (e.g., TiH₂ is the maximum for Ti). Some metallic hydrides like CuH, ZnH₂ are stoichiometric but unstable. The student's error is assuming continuous variability; in reality, distinct phases exist (α-phase, β-phase) with specific composition ranges. A wrong evaluation (e.g., \"fully correct\") reveals lack of understanding of phase diagrams and the fact that interstitial sites are quantized, not continuous.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between an unknown ionic hydride (e.g., NaH) and an unknown covalent hydride (e.g., SiH₄) using only water, litmus paper, and a gas collection setup. Write the expected observations.",
+     "a": "Add small amounts of each solid/liquid hydride to separate test tubes with water. For ionic hydride (NaH): vigorous reaction, H₂ gas evolves (collect over water, test with pop sound), solution turns red litmus blue (basic, NaOH formed). For covalent hydride (SiH₄): spontaneous ignition in air (pyrophoric), but with water: SiH₄ + 2H₂O → SiO₂ + 4H₂; H₂ evolves, solution remains neutral (SiO₂ insoluble) or slightly acidic if silicic acid forms - blue litmus stays blue/turns slightly red. Key distinction: ionic hydride gives strongly basic solution; covalent hydride gives neutral/acidic solution. A poor answer (e.g., \"both give H₂ so cannot distinguish\") reveals failure to recognize that hydrolysis products (metal hydroxide vs non-metal oxide/acid) determine solution pH, which is the diagnostic test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

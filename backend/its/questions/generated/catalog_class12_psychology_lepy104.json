@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class12_psychology_lepy104",
+ "concepts": [
+  {
+   "id": "lepy104.1",
+   "title": "Four Ds of Abnormality and Views of Abnormal Behaviour",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Four Ds of Abnormality and Views of Abnormal Behaviour' refers to.",
+     "a": "Psychological disorder is judged by four markers called the four Ds - deviance (extreme or unusual behaviour), distress (upsetting to self and others), dysfunction (blocking constructive daily activity) and danger; beyond these, one view equates abnormality with breaking social norms, while the better view labels behaviour abnormal when it is maladaptive, harming the well-being and growth of the person and group.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Four Ds of Abnormality and Views of Abnormal Behaviour'.",
+     "a": "Normality is not mere conformity: a conforming student who never asks questions out of fear can still be showing maladaptive behaviour; stigma keeps many people from seeking help.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Four Ds of Abnormality and Views of Abnormal Behaviour', in plain ASCII form.",
+     "a": "four_ds = deviance + distress + dysfunction + danger ; maladaptive -> abnormal even if socially accepted",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.2",
+   "title": "Historical Perspectives and Classification Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Historical Perspectives and Classification Systems' refers to.",
+     "a": "Explanations of disturbed behaviour have recurred as three perspectives - supernatural forces treated through exorcism or the shaman, the biological or organic approach locating trouble in body and brain, and the psychological approach blaming thought, feeling and perception; Galen extended Hippocrates' four humours much as Indian texts speak of vata, pitta and kapha. Today disorders are classified officially through the American Psychiatric Association's DSM-5 and the WHO's ICD-10, the scheme used in India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historical Perspectives and Classification Systems'.",
+     "a": "The reform movement and deinstitutionalisation grew from the eighteenth-century scientific attitude, and current thinking combines all three factors in the bio-psycho-social approach.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Historical Perspectives and Classification Systems', in plain ASCII form.",
+     "a": "perspectives = supernatural + biological_organic + psychological ; manuals = dsm_5 (APA) + icd_10 (WHO)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.3",
+   "title": "Models of Abnormal Behaviour and the Diathesis-Stress Model",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Models of Abnormal Behaviour and the Diathesis-Stress Model' refers to.",
+     "a": "Each model spotlights different causes: the biological model ties disorders to neurotransmitter problems - low GABA with anxiety disorders, excess dopamine with schizophrenia, low serotonin with depression; the psychodynamic model reads symptoms as symbolic expressions of unconscious conflict from early childhood; the behavioural model treats disorder as maladaptive learning that can be unlearned; the cognitive model blames irrational assumptions and overgeneralisation; the humanistic-existential model cites blocked self-actualisation or avoided responsibility; and the socio-cultural model points to enmeshed families, labelling and social isolation. The diathesis-stress model joins them: a predisposition turns into disorder only when pathogenic stressors trigger it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Models of Abnormal Behaviour and the Diathesis-Stress Model'.",
+     "a": "No single gene causes a disorder; many genes plus stress combine, which is why the interactional bio-psycho-social view is widely accepted.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Models of Abnormal Behaviour and the Diathesis-Stress Model', in plain ASCII form.",
+     "a": "gaba_low -> anxiety ; dopamine_excess -> schizophrenia ; serotonin_low -> depression ; disorder = diathesis (predisposition) triggered_by pathogenic_stressors",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.4",
+   "title": "Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety' refers to.",
+     "a": "Anxiety is a diffuse, vague, unpleasant feeling of fear and apprehension that becomes a disorder when it is intense enough to disturb effective functioning; its main forms are generalised anxiety disorder with objectless prolonged fear, hypervigilance and motor tension, panic disorder with recurrent surges of intense terror, phobias split into specific, social and agoraphobia, and separation anxiety disorder with developmentally inappropriate distress about leaving attachment figures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety'.",
+     "a": "Normal examination nerves motivate, but a disorder brings rapid heart rate, breathlessness, sweating and sleeplessness that block everyday activity; Deb's driving-panic case shows panic growing into agoraphobic withdrawal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety', in plain ASCII form.",
+     "a": "anxiety_disorders = generalised + panic + phobias (specific_social_agora) + separation_anxiety",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.5",
+   "title": "Obsessive-Compulsive and Trauma-Related Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Obsessive-Compulsive and Trauma-Related Disorders' refers to.",
+     "a": "In obsessive-compulsive disorder the person cannot stop thinking about an idea (obsession) or cannot resist repeating an act such as counting, checking or washing (compulsion); related conditions include hoarding, trichotillomania and excoriation. After disasters, blasts, accidents or war, survivors may develop post-traumatic stress disorder with recurrent dreams, flashbacks, impaired concentration and emotional numbing; adjustment disorder and acute stress disorder belong to the same trauma-related family.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Obsessive-Compulsive and Trauma-Related Disorders'.",
+     "a": "Obsessions are unwanted and often shameful thoughts, while compulsions are rituals performed over and over; PTSD symptoms can surface long after the traumatic event ends.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Obsessive-Compulsive and Trauma-Related Disorders', in plain ASCII form.",
+     "a": "ocd = obsession (intrusive idea) + compulsion (repeated act) ; ptsd = flashbacks + nightmares + numbing after trauma",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.6",
+   "title": "Somatic Symptom and Dissociative Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Somatic Symptom and Dissociative Disorders' refers to.",
+     "a": "Somatic symptom and related disorders produce physical complaints without a biological cause: somatic symptom disorder centres on persistent body symptoms and frequent doctor visits, illness anxiety disorder on constant worry about developing a serious disease, and conversion disorders on sudden loss of body function such as paralysis, blindness or deafness after stress. Dissociative disorders sever the links between ideas and emotions: dissociative amnesia brings selective memory loss with no organic basis, dissociative fugue adds unexpected travel and a new identity, dissociative identity disorder shows alternate personalities, and depersonalisation or derealisation brings a dreamlike split from self and reality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Somatic Symptom and Dissociative Disorders'.",
+     "a": "Both families respond to stress, but somatic disorders express trouble through the body while dissociative disorders express it through memory, identity and the sense of reality.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Somatic Symptom and Dissociative Disorders', in plain ASCII form.",
+     "a": "somatic_group = somatic_symptom + illness_anxiety + conversion ; dissociative_group = amnesia + fugue + identity + depersonalisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.7",
+   "title": "Depressive and Bipolar Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Depressive and Bipolar Disorders' refers to.",
+     "a": "Major depressive disorder is a period of depressed mood or loss of interest and pleasure in most activities, joined by weight and sleep changes, tiredness, unclear thinking, agitation, worthlessness, guilt and thoughts of death; women face the highest risk in young adulthood, men in early middle age, and negative life events with weak social support add risk. Bipolar I disorder alternates mania with depression, sometimes punctuated by normal mood, and bipolar II and cyclothymic disorder are related forms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Depressive and Bipolar Disorders'.",
+     "a": "A previous suicidal attempt is the strongest risk factor for suicide, and suicidal thoughts turn into action only when they seem the only way out - suicides are preventable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Depressive and Bipolar Disorders', in plain ASCII form.",
+     "a": "mdd = depressed_mood or loss_of_interest plus somatic_cognitive_symptoms ; bipolar = mania alternating with depression",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.8",
+   "title": "Schizophrenia: Positive, Negative and Psychomotor Symptoms",
+   "questions": [
+    {
+     "q": "Using the method 'Schizophrenia: Positive, Negative and Psychomotor Symptoms', work with: negative_deficits = 40, positive_excesses = 400, psychomotor_catatonia = 300. Carry the chain through step by step and give the final value of schizophrenia_symptoms.",
+     "a": "740 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Schizophrenia: Positive, Negative and Psychomotor Symptoms' and work with: negative_deficits = 360, positive_excesses = 4, psychomotor_catatonia = 30. Carry the chain through step by step and give the final value of schizophrenia_symptoms.",
+     "a": "394 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Schizophrenia: Positive, Negative and Psychomotor Symptoms' refers to.",
+     "a": "Schizophrenia is a group of psychotic disorders in which personal, social and occupational functioning deteriorates through disturbed thought, strange perception, unusual emotion and motor abnormality. Positive symptoms are pathological excesses - delusions of persecution, reference, grandeur and control, disorganised speech with loosening of associations, neologisms and perseveration, hallucinations most often auditory, and inappropriate affect. Negative symptoms are pathological deficits - poverty of speech (alogia), blunted or flat affect, loss of volition (avolition) and social withdrawal. Psychomotor symptoms can reach catatonic stupor, rigidity or posturing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Schizophrenia: Positive, Negative and Psychomotor Symptoms'.",
+     "a": "Shifting topics mid-speech is a positive symptom (formal thought disorder); hearing voices talking about the patient is a third-person auditory hallucination.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Schizophrenia: Positive, Negative and Psychomotor Symptoms', in plain ASCII form.",
+     "a": "schizophrenia_symptoms = positive_excesses + negative_deficits + psychomotor_catatonia",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.9",
+   "title": "Neurodevelopmental Disorders and the Autism-Disability Link",
+   "questions": [
+    {
+     "q": "Using the method 'Neurodevelopmental Disorders and the Autism-Disability Link', work with: autism_children = 400, id_percent = 25. Carry the chain through step by step and give the final value of autism_id_count.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Neurodevelopmental Disorders and the Autism-Disability Link' and work with: autism_children = 240, id_percent = 10. Carry the chain through step by step and give the final value of autism_id_count.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Neurodevelopmental Disorders and the Autism-Disability Link' refers to.",
+     "a": "Neurodevelopmental disorders show up early, before or during early schooling, as deficits, excesses or delays in age-appropriate behaviour: ADHD combines inattention with hyperactivity-impulsivity; autism spectrum disorder brings widespread impairment in social interaction and communication plus stereotyped, restricted behaviour; intellectual disability means IQ near 70 or below with adaptive deficits before age 18; and specific learning disorder hampers reading, writing or mathematics despite normal instruction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Neurodevelopmental Disorders and the Autism-Disability Link'.",
+     "a": "About seventy of every hundred children on the autism spectrum also have intellectual disabilities; a child described as driven by a motor shows the hyperactive face of ADHD.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Neurodevelopmental Disorders and the Autism-Disability Link', in plain ASCII form.",
+     "a": "autism_id_share = autism_children * id_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy104.10",
+   "title": "Eating Disorders and Substance-Related Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Eating Disorders and Substance-Related Disorders' refers to.",
+     "a": "Eating disorders revolve around food and body image: anorexia nervosa rests on a distorted body image that drives refusal to eat and compulsive exercise, bulimia nervosa alternates binges with purging through vomiting or laxatives, and binge eating brings frequent out-of-control eating past fullness. Substance-related and addictive disorders cover regular use of alcohol, heroin, cocaine and other substances that alter thinking, feeling and behaviour; repeated use builds tolerance and stopping brings withdrawal responses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Eating Disorders and Substance-Related Disorders'.",
+     "a": "Ethyl alcohol first depresses the brain areas governing judgment and inhibition, which is why drinkers feel overconfident before speech, memory and motor control fail.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Eating Disorders and Substance-Related Disorders', in plain ASCII form.",
+     "a": "eating_disorders = anorexia + bulimia + binge_eating ; dependence = tolerance + withdrawal",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

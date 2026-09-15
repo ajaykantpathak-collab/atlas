@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_12",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_12",
+   "title": "c8_physics_ch3_12",
+   "questions": [
+    {
+     "q": "State Newton's First Law of Motion in your own words. What physical quantity measures inertia, and what is its SI unit?",
+     "a": "Newton's First Law: An object at rest stays at rest, and an object in uniform motion stays in uniform motion unless acted upon by a net external force. Inertia is measured by mass, SI unit is kilogram (kg). A wrong answer (e.g., \"inertia is measured in newtons\" or \"force is needed to keep an object moving\") reveals confusion between force and inertia, or persistence of the Aristotelian misconception that motion requires a continuous force.",
+     "self_check": true
+    },
+    {
+     "q": "A hockey puck slides on ice at constant speed. A student says, \"A force must be acting on the puck to keep it moving.\" Is the student correct? Explain using Newton's First Law.",
+     "a": "The student is incorrect. The puck moves at constant speed because the net force on it is nearly zero (ice friction is very small). Newton's First Law says no net force is needed to maintain uniform motion; a net force would change the motion. A wrong answer shows the student still believes motion requires a sustaining force, confusing the need to overcome friction with a fundamental requirement for motion.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical boxes rest on a frictionless floor. Box A is empty (mass 2 kg). Box B is filled with books (mass 20 kg). If you push each with the same force for the same time, which box will have a greater change in velocity? Explain using inertia.",
+     "a": "Box A (empty) will have a greater change in velocity. Both experience the same impulse (force × time), but Box B has more mass, hence more inertia, so it resists the change in motion more. A wrong answer (e.g., \"both change equally\" or \"Box B changes more\") reveals misunderstanding that inertia depends on mass, not just the applied force.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this situation: A car travels at 60 km/h on a straight highway. The driver takes his foot off the accelerator. The car gradually slows down. Does this violate Newton's First Law? Draw a free-body diagram showing forces on the car and explain.",
+     "a": "No, it does not violate the law. The car slows down because of net external forces: friction (air resistance, rolling friction) and possibly braking force. The free-body diagram should show weight down, normal force up, friction backward, and no forward force after accelerator is released. Net force is backward, causing deceleration. A wrong answer (e.g., \"it violates the law because no push is given\") shows failure to identify friction as a force that changes motion.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Inertia is a force that keeps objects moving.\" Evaluate this statement. Is inertia a force? Justify your answer with an example.",
+     "a": "The statement is incorrect. Inertia is not a force; it is a property of matter (measured by mass) that describes resistance to change in motion. Forces cause changes in motion; inertia is the tendency to resist that change. Example: A book on a table stays at rest due to inertia, not because a force \"inertia\" acts on it. A wrong answer reveals the misconception that inertia is an active agent like a force, rather than a passive property.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that an object at rest tends to stay at rest (inertia of rest). List materials, steps, and what observation confirms the law.",
+     "a": "Materials: A smooth tablecloth, a heavy plate, a table. Steps: Place the cloth on the table with the plate on top near the edge. Grasp the cloth edge and pull it horizontally with a quick, sharp jerk. Observation: The plate remains nearly in its original position (or moves very little) while the cloth is pulled out. This shows the plate's inertia of rest. A poor answer (e.g., pulling slowly so the plate moves with the cloth) fails to minimize the friction force and time of application, so net impulse overcomes inertia.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

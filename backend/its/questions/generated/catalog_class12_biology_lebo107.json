@@ -1,0 +1,320 @@
+{
+ "catalog": "catalog_class12_biology_lebo107",
+ "concepts": [
+  {
+   "id": "lebo107.7.1.1",
+   "title": "Health, Disease and Pathogens",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Health, Disease and Pathogens' refers to.",
+     "a": "Health means well-being across body, mind and social life rather than mere freedom from illness, and it depends on genetics, infections and daily habits; disease marks failing organs with signs and symptoms, splitting into transmissible infections and non-infectious conditions, while the bacteria, viruses, fungi, protozoans and worms that cause infections are called pathogens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Health, Disease and Pathogens'.",
+     "a": "Balanced diet, hygiene, exercise and awareness keep the body defensible -- pathogens must additionally adapt to each body niche they invade, such as surviving stomach acid in the gut.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Health, Disease and Pathogens' taught, and from which source text?",
+     "a": "7.1 (source: lebo107.txt lines 42-118 (health definition, disease classification, pathogen concept))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.1.2",
+   "title": "Bacterial and Viral Diseases: Typhoid, Pneumonia, Common Cold",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bacterial and Viral Diseases: Typhoid, Pneumonia, Common Cold' refers to.",
+     "a": "Salmonella typhi swallowed with contaminated food or water brings typhoid -- steady fever near 39-40 degrees, weakness and appetite loss, confirmed by the widal test and infamously spread by the cook typhoid mary; streptococcus pneumoniae and haemophilus influenzae flood the lung alveoli with fluid to cause pneumonia, while rhinoviruses irritate nose and respiratory passage for the 3-7 day common cold.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bacterial and Viral Diseases: Typhoid, Pneumonia, Common Cold'.",
+     "a": "Transmission route decides the safeguard -- faecal contamination demands clean food and water, droplet infections demand distance from the infected and their belongings.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Bacterial and Viral Diseases: Typhoid, Pneumonia, Common Cold' taught, and from which source text?",
+     "a": "7.1 (source: lebo107.txt lines 119-153 (typhoid and Widal test, Typhoid Mary, pneumonia, common cold))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.1.3",
+   "title": "Malaria and the Plasmodium Life Cycle",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Malaria and the Plasmodium Life Cycle' refers to.",
+     "a": "The protozoan plasmodium needs two hosts to finish its cycle: the female anopheles mosquito injects sporozoites that multiply in liver cells and then burst red blood cells, freeing the toxin haemozoin that drives the recurring chills and high fever every three to four days; mosquitoes picking up parasites from an infected person restart the chain, with falciparum malaria the deadliest form.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Malaria and the Plasmodium Life Cycle'.",
+     "a": "The mosquito is both vector and second host -- killing its breeding grounds breaks the cycle where medicine alone cannot.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Malaria and the Plasmodium Life Cycle' taught, and from which source text?",
+     "a": "7.1 (source: lebo107.txt lines 154-175 (Plasmodium species, sporozoites, haemozoin, two-host cycle))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.1.4",
+   "title": "Amoebiasis, Ascariasis, Filariasis and Ringworm",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Amoebiasis, Ascariasis, Filariasis and Ringworm' refers to.",
+     "a": "Entamoeba histolytica colonising the large intestine causes amoebic dysentery spread by faecal contamination with houseflies as couriers; the round worm ascaris blocks and bleeds the gut, the filarial worms wuchereria inflame lymph vessels of the legs for years to produce elephantiasis via mosquito bites, and the fungi microsporum, trichophyton and epidermophyton raise dry, itchy, scaly ringworm lesions in warm moist skin folds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Amoebiasis, Ascariasis, Filariasis and Ringworm'.",
+     "a": "Sanitation defeats the faecal-orally spread parasites, mosquito control defeats filariasis, and shared towels or combs spread the skin fungi.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Amoebiasis, Ascariasis, Filariasis and Ringworm' taught, and from which source text?",
+     "a": "7.1 (source: lebo107.txt lines 179-230 (Entamoeba, Ascaris, Wuchereria/elephantiasis, ringworm fungi))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.1.5",
+   "title": "Prevention and Control of Infectious Diseases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prevention and Control of Infectious Diseases' refers to.",
+     "a": "Blocking transmission is the heart of control: personal and public hygiene for food- and water-borne infections, avoiding close contact for air-borne ones, and wiping out vector breeding -- stagnant water, unclean coolers, open ditches -- for mosquito-carried ones, helped by nets, wire mesh and larva-eating fishes like gambusia; vaccines have eradicated smallpox and tamed polio, diphtheria and tetanus, while antibiotics treat established infections.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prevention and Control of Infectious Diseases'.",
+     "a": "Match the measure to the route -- clean water for faecal diseases, masks and distance for droplets, drainage for vectors, immunisation where a vaccine exists.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Prevention and Control of Infectious Diseases' taught, and from which source text?",
+     "a": "7.1 (source: lebo107.txt lines 231-265 (hygiene measures, vector control, Gambusia, dengue/chikungunya, vaccines and antibiotics))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.2.1",
+   "title": "Innate Immunity: Four Barriers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Innate Immunity: Four Barriers' refers to.",
+     "a": "Immunity is the host's overall capacity to repel disease-causing organisms, and its inborn, non-specific half -- innate immunity -- stands guard from birth through four barrier types: physical covers like skin and mucus, physiological agents like stomach acid, saliva and tears, cellular squads of neutrophils, monocytes, natural killer cells and macrophages that swallow microbes, and cytokine barriers where infected cells release interferons to shield their neighbours.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Innate Immunity: Four Barriers'.",
+     "a": "None of these barriers recognises a particular pathogen -- they block everything foreign indiscriminately, which is exactly what makes them innate.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Innate Immunity: Four Barriers' taught, and from which source text?",
+     "a": "7.2.1 (source: lebo107.txt lines 266-308 (immunity definition, four innate barrier types))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.2.2",
+   "title": "Acquired Immunity: B Cells, T Cells and Antibodies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Acquired Immunity: B Cells, T Cells and Antibodies' refers to.",
+     "a": "Pathogen-specific and armed with memory, acquired immunity answers a first meeting with a weak primary response but a massive secondary (anamnestic) strike later; b-lymphocytes pour out antibodies -- h2l2 molecules of two light and two heavy chains, with iga, igm, ige and igg among the classes -- for the humoral response, while t-lymphocytes run the cell-mediated arm that also rejects mismatched grafts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Acquired Immunity: B Cells, T Cells and Antibodies'.",
+     "a": "Memory is the whole trick -- the immune system remembers every pathogen it has met, which is why the second encounter hurts it far less.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Acquired Immunity: B Cells, T Cells and Antibodies' taught, and from which source text?",
+     "a": "7.2.2 (source: lebo107.txt lines 309-366 (primary/secondary response, H2L2 antibody, humoral vs CMI, graft rejection))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.2.3",
+   "title": "Active versus Passive Immunity and Vaccination",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Active versus Passive Immunity and Vaccination' refers to.",
+     "a": "When a body makes its own antibodies after meeting live or dead microbes or their proteins, immunity is active -- slow to build but long-remembered; hand it ready-made antibodies instead and the cover is passive, as with the iga-rich colostrum a newborn drinks and the antibodies crossing the placenta; vaccination exploits memory by priming the body with antigenic proteins or weakened pathogens, while tetanus or snakebite demand instant preformed antitoxin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Active versus Passive Immunity and Vaccination'.",
+     "a": "Active immunity teaches, passive immunity lends -- vaccines buy time for the body to learn, antitoxins cover emergencies the body cannot learn fast enough.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Active versus Passive Immunity and Vaccination' taught, and from which source text?",
+     "a": "7.2.3, 7.2.4 (source: lebo107.txt lines 367-400 (active/passive immunity, colostrum, placenta, vaccines, antitoxin, hepatitis B from yeast))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.2.4",
+   "title": "Allergy and Autoimmunity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Allergy and Autoimmunity' refers to.",
+     "a": "When the immune system overreacts to harmless environmental antigens -- dust mites, pollen, animal dander -- the ige-driven surge releases histamine and serotonin from mast cells, producing sneezing, watery eyes and wheezing that anti-histamines and steroids calm down; sometimes the same system mistakes the body's own cells for enemies, and that self-attack, as in rheumatoid arthritis, is an auto-immune disease.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Allergy and Autoimmunity'.",
+     "a": "Both malfunctions are aimed wrongly -- outward at trivial particles in allergy, inward at self in autoimmunity -- yet both trace back to an immune system doing its job too zealously.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Allergy and Autoimmunity' taught, and from which source text?",
+     "a": "7.2.5, 7.2.6 (source: lebo107.txt lines 405-436 (allergens, IgE, histamine and serotonin, diagnosis, auto-immune disease))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.2.5",
+   "title": "Lymphoid Organs of the Immune System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lymphoid Organs of the Immune System' refers to.",
+     "a": "The immune system's hardware spans lymphoid organs, tissues, cells and antibodies: bone marrow makes all blood cells and, with the thymus, matures immature lymphocytes into antigen-sensitive ones; the mature cells then camp in the spleen, lymph nodes, tonsils, peyer's patches and appendix where antigens meet them, and mucosa-associated lymphoid tissue along the body's tracts holds about half of all lymphoid tissue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lymphoid Organs of the Immune System'.",
+     "a": "Primary organs train the soldiers; secondary organs host the battles -- and the spleen additionally filters blood while lymph nodes trap antigens in lymph.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Lymphoid Organs of the Immune System' taught, and from which source text?",
+     "a": "7.2.7 (source: lebo107.txt lines 437-478 (bone marrow, thymus, spleen, lymph nodes, MALT))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.3.1",
+   "title": "HIV and AIDS: Transmission and Attack on Immunity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'HIV and AIDS: Transmission and Attack on Immunity' refers to.",
+     "a": "Aids -- an immunodeficiency picked up during life, not inherited -- comes from hiv, an enveloped retrovirus whose rna genome is copied into dna by reverse transcriptase; the virus turns macrophages into virus factories and kills helper t-lymphocytes, so the patient drowns in otherwise beatable infections, with elisa as the standard test and body fluids -- sex, blood, needles, placenta -- as the only transmission routes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'HIV and AIDS: Transmission and Attack on Immunity'.",
+     "a": "Hiv never spreads by touch -- only body fluids carry it -- and because aids has no cure, prevention through safe practice and awareness is everything.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'HIV and AIDS: Transmission and Attack on Immunity' taught, and from which source text?",
+     "a": "7.3 (source: lebo107.txt lines 479-556 (AIDS definition, transmission routes, macrophage/T-cell attack, ELISA, NACO prevention))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.4.1",
+   "title": "Cancer Cells, Tumours and Metastasis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cancer Cells, Tumours and Metastasis' refers to.",
+     "a": "Normal cells stop dividing on touching their neighbours -- a restraint called contact inhibition -- and cancer begins when that control breaks; unrestrained division builds tumours, with benign masses staying home while malignant ones invade nearby tissue, out-compete normal cells for nutrients, and shed cells that ride the blood to seed new tumours elsewhere -- metastasis, the feared signature of malignancy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cancer Cells, Tumours and Metastasis'.",
+     "a": "The difference between a contained lump and a lethal cancer is spread -- loss of contact inhibition first, metastasis second.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cancer Cells, Tumours and Metastasis' taught, and from which source text?",
+     "a": "7.4 (source: lebo107.txt lines 557-583 (contact inhibition, benign vs malignant tumours, neoplastic cells, metastasis))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.4.2",
+   "title": "Cancer Causes, Detection and Treatment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cancer Causes, Detection and Treatment' refers to.",
+     "a": "Carcinogens -- ionising x- and gamma rays, ultraviolet light, tobacco-smoke chemicals, and oncogenic viruses carrying viral oncogenes -- push normal cells into cancer, often by waking the cell's own proto oncogenes; diagnosis leans on biopsy and histopathology, blood and marrow counts for leukemias, radiography, ct and mri imaging, and even cancer-specific antibodies, while treatment combines surgery, radiotherapy, chemotherapy and immune boosters like alpha-interferon.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cancer Causes, Detection and Treatment'.",
+     "a": "Early detection saves -- a biopsy read under the microscope remains the decisive test, and knowing one's inherited susceptibility says which carcinogens to shun.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cancer Causes, Detection and Treatment' taught, and from which source text?",
+     "a": "7.4 (source: lebo107.txt lines 584-631 (carcinogens, viral and cellular oncogenes, biopsy, CT/MRI, surgery/radio/chemo/immunotherapy))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.5.1",
+   "title": "Drugs of Abuse: Opioids, Cannabinoids, Cocaine and Tobacco",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Drugs of Abuse: Opioids, Cannabinoids, Cocaine and Tobacco' refers to.",
+     "a": "The commonly abused plant-derived drugs sort into three receptor families: opioids such as heroin (diacetylmorphine from poppy latex) that sedate by binding opioid receptors in the central nervous system and gut; cannabinoids from cannabis sativa inflorescences -- marijuana, hashish, charas, ganja -- acting on brain cannabinoid receptors; and cocaine from erythroxylum coca, which blocks dopamine transport and sparks euphoria or hallucinations, while tobacco's nicotine raises blood pressure and heart rate through adrenaline release.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Drugs of Abuse: Opioids, Cannabinoids, Cocaine and Tobacco'.",
+     "a": "Each drug class hooks a different receptor system -- sedation, cardiovascular distortion or stimulation -- and smoking doubles as a gateway to harder drugs and several cancers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Drugs of Abuse: Opioids, Cannabinoids, Cocaine and Tobacco' taught, and from which source text?",
+     "a": "7.5 (source: lebo107.txt lines 632-707 (opioids/heroin, cannabinoids, cocaine, barbiturates, morphine, nicotine effects))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo107.7.5.2",
+   "title": "Addiction, Dependence and Prevention among Adolescents",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Addiction, Dependence and Prevention among Adolescents' refers to.",
+     "a": "Adolescence, the bridge from childhood to adulthood around 12-18 years, is the vulnerable window where curiosity, exam stress and peer pressure pull youngsters toward drugs and alcohol; repeated use raises receptor tolerance so higher doses are needed (addiction), and abrupt stopping brings withdrawal -- anxiety, shakiness, nausea, sweating (dependence) -- so prevention leans on avoiding peer pressure, education, family support, watching for danger signs and professional de-addiction help.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Addiction, Dependence and Prevention among Adolescents'.",
+     "a": "Tolerance traps the user into escalation while withdrawal traps them into continuation -- breaking either needs counselling and medical support, not willpower alone.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Addiction, Dependence and Prevention among Adolescents' taught, and from which source text?",
+     "a": "7.5.1, 7.5.2, 7.5.3, 7.5.4 (source: lebo107.txt lines 708-872 (adolescence, addiction, tolerance, withdrawal syndrome, effects, prevention steps))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

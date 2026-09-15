@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_004",
+   "title": "c10_bio_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the three major divisions of the human brain and give one main function of each.",
+     "a": "The three divisions are: (1) Forebrain — centre for thinking, memory, and sensory integration; (2) Midbrain — relays sensory and motor signals between forebrain and hindbrain; (3) Hindbrain — controls posture, balance, and vital autonomic functions (breathing, heart rate). A wrong answer (e.g., saying \"cerebrum controls breathing\") reveals the student has memorized names but not matched structure to function, a common board exam error where marks are lost for imprecise mapping.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The cerebrum controls involuntary actions like heartbeat and breathing.\" Is this correct? Explain why or why not.",
+     "a": "Incorrect. The cerebrum (part of forebrain) controls voluntary actions, thinking, memory, and sensory processing. Involuntary vital functions like heartbeat and breathing are controlled by the medulla oblongata in the hindbrain. A wrong answer shows the student confuses voluntary vs. involuntary control centers — a classic board trap where \"cerebrum = main brain = everything\" oversimplification costs marks in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "While playing cricket, a fielder dives to catch a ball, lands awkwardly, and immediately gets up without losing balance. Which brain part is primarily responsible for this rapid balance correction? Justify your answer.",
+     "a": "The cerebellum (hindbrain) coordinates posture, balance, and fine motor adjustments. It receives sensory input from the inner ear (vestibular system) and muscles, then sends corrective motor commands within milliseconds. A wrong answer (e.g., \"cerebrum\" or \"medulla\") indicates the student cannot apply functional localization to a dynamic real-life scenario — board case-based questions often test this exact application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the thalamus and hypothalamus in the forebrain. How does a tumor in each region produce different symptom clusters?",
+     "a": "Thalamus: major sensory relay station (except smell) to cerebrum. Tumor → sensory deficits (numbness, vision/hearing loss). Hypothalamus: regulates homeostasis (temperature, hunger, thirst, endocrine via pituitary). Tumor → metabolic/endocrine disorders (diabetes insipidus, obesity, temperature dysregulation). A wrong answer that swaps these functions or gives vague \"brain dysfunction\" shows inability to analyze structure-function relationships — a skill needed for 3-mark \"differentiate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A head injury patient stops breathing but their heart continues beating for a few minutes. The doctor says the medulla is damaged but the pons is intact. Evaluate this statement using brainstem anatomy.",
+     "a": "The statement is partially correct but incomplete. The medulla contains the respiratory center (inspiratory/expiratory neurons) — damage causes apnea. The pons contains the pneumotaxic and apneustic centers that *modulate* breathing rhythm; if only the medulla is destroyed, breathing stops entirely regardless of pons status. Heartbeat continues because the cardiac center is also in the medulla but may have some redundancy or the heart's own pacemaker takes over temporarily. A wrong evaluation that says \"pons controls breathing\" reveals confusion between rhythm generation (medulla) and modulation (pons) — a nuance tested in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity (no equipment) to demonstrate that the cerebellum coordinates balance and not the cerebrum.",
+     "a": "Activity: Ask a volunteer to stand on one leg with eyes closed (cerebellum heavily engaged for balance). Then ask them to recite a poem (cerebrum engaged for language/memory). Observe increased swaying. Explanation: The cerebellum handles the motor coordination of balance; adding a cognitive task (cerebrum) competes for attention but does not take over balance control. A poor answer that suggests \"touch your nose\" (finger-nose test) without explaining the *why* or confusing it with a reflex shows lack of creative application of the concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

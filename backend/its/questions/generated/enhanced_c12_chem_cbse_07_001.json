@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_001",
+   "title": "c12_chem_cbse_07_001",
+   "questions": [
+    {
+     "q": "A student draws CH₃–CH₂–CH₂–OH and labels it as a secondary alcohol because \"it has two carbons in the chain.\" What specific error has the student made in applying the classification rule?",
+     "a": "The student counted total carbons in the chain instead of counting carbons directly attached to the carbinol carbon (the carbon bearing –OH). In CH₃–CH₂–CH₂–OH, the carbinol carbon is the terminal CH₂OH carbon; it is attached to only ONE carbon (the CH₂ of the ethyl group), making it a primary alcohol. This reveals the misconception that classification depends on chain length rather than substitution at the functionalised carbon.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the structure (CH₃)₃C–OH. Without drawing, explain why this must be a tertiary alcohol and why it cannot be oxidised by mild oxidising agents like PCC.",
+     "a": "The carbinol carbon is bonded to three methyl groups — three carbon atoms — so it is tertiary. Oxidation of alcohols requires cleavage of a C–H bond on the carbinol carbon (to form C=O); a tertiary carbinol carbon has no C–H bond (it has three C–C bonds and one C–O bond), so oxidation cannot occur under mild conditions. A wrong answer would claim it is secondary because \"there are three carbons total\" or suggest oxidation gives a ketone, revealing confusion between carbon count and substitution pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Draw all structural isomers of C₄H₁₀O that are alcohols. Classify each as primary, secondary, or tertiary. How many isomers of each class exist?",
+     "a": "Step 1: List all possible carbon skeletons for C₄ — butane (straight) and 2-methylpropane (branched).\nStep 2: Place –OH on each unique carbon.\nButane chain: OH on C1 → butan-1-ol (1°); OH on C2 → butan-2-ol (2°). (C3 same as C2, C4 same as C1 by symmetry).\n2-methylpropane: OH on central carbon → 2-methylpropan-2-ol (3°); OH on terminal CH₂ → 2-methylpropan-1-ol (1°).\nTotal: four isomers — two primary (butan-1-ol, 2-methylpropan-1-ol), one secondary (butan-2-ol), one tertiary (2-methylpropan-2-ol). A wrong count (e.g., five isomers) reveals failure to recognise symmetry-equivalent positions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All secondary alcohols have the general formula R–CH(OH)–R' where R and R' are different alkyl groups.\" Analyse this statement and correct it if necessary.",
+     "a": "The statement is partially correct but incomplete. A secondary alcohol has the carbinol carbon bonded to TWO carbon groups (R and R'), but R and R' can be identical (e.g., in butan-2-ol, R = CH₃, R' = CH₂CH₃ — different; in pentan-3-ol, R = R' = CH₂CH₃ — same). The definition only requires two carbon substituents, not that they be different. A student insisting they must be different confuses \"secondary\" with \"chiral\" or \"unsymmetrical.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"tert-Butyl alcohol (2-methylpropan-2-ol) is a tertiary alcohol, so it should give a positive Lucas test immediately, but it will also undergo acid-catalysed dehydration to give 2-methylpropene as the only alkene product.\" Is the claim fully correct? Justify.",
+     "a": "The claim is fully correct. Tertiary alcohols react instantly with Lucas reagent (conc. HCl/ZnCl₂) via SN1 forming a stable tertiary carbocation, giving immediate turbidity. Dehydration with conc. H₂SO₄ also proceeds via the same tertiary carbocation; elimination of a β-hydrogen from any of the three equivalent methyl groups yields only 2-methylpropene. A wrong evaluation might say \"it gives a mixture of alkenes\" (ignoring symmetry) or \"Lucas test is slow\" (confusing with primary alcohols).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test using only Lucas reagent (conc. HCl + ZnCl₂) and three unlabelled test tubes containing butan-1-ol, butan-2-ol, and 2-methylpropan-2-ol. Describe the observation sequence over 10 minutes that would let you identify each alcohol.",
+     "a": "Add Lucas reagent to each tube at room temperature. Tube showing immediate turbidity (within 1 minute) = 2-methylpropan-2-ol (tertiary, SN1 fast). Tube showing turbidity after 5–10 minutes = butan-2-ol (secondary, slower SN1). Tube remaining clear after 10 minutes = butan-1-ol (primary, no reaction at room temp). A poor design would not specify the time window or would confuse the order, revealing lack of understanding of carbocation stability trend: 3° > 2° > 1°.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

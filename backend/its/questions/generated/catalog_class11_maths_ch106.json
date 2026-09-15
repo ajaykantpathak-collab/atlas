@@ -1,0 +1,309 @@
+{
+ "catalog": "catalog_class11_maths_ch106.json",
+ "concepts": [
+  {
+   "id": "kemh.6.1",
+   "title": "Fundamental Principle of Counting",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 4 with a set of size 6?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 4 elements have?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 2 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 1 at a time.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.2",
+   "title": "Factorial Notation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 8 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 5 with a set of size 8?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 5 elements have?",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 1 at a time.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.3",
+   "title": "Permutations of Distinct Objects without Repetition",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 8 drinks and 9 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 7 with a set of size 5?",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 7 elements have?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 7 distinct objects taken 1 at a time.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 3 identical 'a's and 2 identical 'b's have? (total 5 letters)",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.4",
+   "title": "Permutations with Repetition Allowed",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 8 with a set of size 8?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 8 elements have?",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 7 distinct objects taken 4 at a time.",
+     "a": "840",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.5",
+   "title": "Permutations when Objects are Not All Distinct",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 7?",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 2 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 3 at a time.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.6",
+   "title": "Combinations of Distinct Objects",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 5 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 7 with a set of size 3?",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 7 elements have?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 2 at a time.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.7",
+   "title": "Properties and Identities of Combinations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 7 * 7 + 2 * 7 * 8 + 8 * 8 gives 225",
+     "compute": "val = 7 * 7 + 2 * 7 * 8 + 8 * 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 8 more than 7; report the value.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 17^2 - 2 x 17 x 7 + 7^2.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 14 x 6 where the numbers are a + b and a - b for a = 10, b = 4.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 5)(x + 6) using the identity x^2 + (a + b)x + ab and evaluate it at x = 5.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Compute 105^2 using (100 + 5)^2 = 10000 + 2 x 100 x 5 + 5^2.",
+     "a": "11025",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.8",
+   "title": "Restricted Permutations and Grouped Elements",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 2 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 4 with a set of size 8?",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 4 elements have?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 4 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "65536",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 1 at a time.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

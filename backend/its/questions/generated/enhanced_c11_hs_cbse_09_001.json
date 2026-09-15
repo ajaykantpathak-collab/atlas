@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_001",
+   "title": "c11_hs_cbse_09_001",
+   "questions": [
+    {
+     "q": "A student states: \"Modesty means covering the body completely, like wearing a burqa or a habit.\" Is this statement accurate? Explain why or why not in 2-3 sentences.",
+     "a": "The statement is inaccurate because modesty is culturally relative, not absolute. NCERT explicitly states: \"What is considered modest in one society might not be considered as modest in another. For example in some communities women not covering heads may be considered as a sign of immodesty, whereas in other communities women not covering their legs is thought to be immodest.\" A wrong answer reveals the student conflates modesty with a specific dress code rather than understanding it as a socially constructed norm that varies across communities, religions, and historical periods.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"Status function of clothing is outdated because everyone wears jeans and T-shirts now—clothes no longer show who is rich or poor.\" Using the NCERT concept of 'social class levellers,' evaluate this claim.",
+     "a": "The claim is partially true but incomplete. NCERT acknowledges that \"similar kinds of clothing (T-shirt, jeans, salwar-kurta) become available for all ages and economic levels, these also serve as social class levellers, a step towards social equity.\" However, status signalling persists through *brand*, *fabric quality*, *fit*, *accessories*, and *occasion-specific dressing* (e.g., a ₹2,000 polyester kurta vs. a ₹50,000 handwoven Benarasi silk kurta for the same wedding). A wrong answer reveals the student oversimplifies 'levelling' as elimination of status markers rather than their transformation from garment type to subtle qualitative distinctions.",
+     "self_check": true
+    },
+    {
+     "q": "A school in coastal Odisha is designing a uniform for Class 11 students. The region experiences high humidity (80%+), heavy monsoon rains (June–September), and intense summer heat (40°C+). The uniform must serve protection as its primary function. Specify *three* fabric/design choices with scientific justification for each.",
+     "a": "1. **Fabric: Lightweight cotton khaddar or cotton-linen blend (120–150 GSM)** – High moisture absorption (cotton absorbs 25% its weight in water) and rapid evaporation cool the body via latent heat loss; linen's hollow fibres enhance airflow. 2. **Design: Loose-fit, half-sleeve kurta with side vents and mandarin collar** – Loose fit creates microclimate air layer for convective cooling; side vents allow chimney-effect ventilation; mandarin collar protects neck from sun without trapping heat like a folded collar. 3. **Add-on: Quick-dry synthetic blend (polyester-nylon) rain cape with taped seams for monsoon** – Hydrophobic fibres shed water; taped seams prevent capillary leakage; lightweight (≤200g) avoids thermal burden. A wrong answer (e.g., \"polyester uniform for durability\") reveals confusion between *durability* and *thermoregulatory protection* in hot-humid climates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the adornment function in two contexts: (a) A Gond tribal woman in Chhattisgarh wearing traditional *godna* (tattoo) patterns on her arms and forehead, and (b) A Delhi-based corporate professional wearing a minimalist gold chain and a luxury watch. Analyze how *social determination of desirability* operates differently in each case.",
+     "a": "In (a), adornment desirability is *collectively prescribed* by tribal identity—*godna* patterns encode marital status, clan affiliation, and spiritual protection; deviation invites social sanction. In (b), desirability is *individually negotiated* within globalised professional norms—the watch signals punctuality/precision (corporate values), the chain signals understated wealth; deviation risks professional credibility but not community belonging. Both illustrate NCERT's principle: \"The desirability of each type of adornment is determined by the society,\" but 'society' operates at different scales (endogamous tribe vs. transnational professional class). A wrong answer treating both as 'personal choice' misses the sociological mechanism of norm enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this policy proposal: \"To promote equality, all Indian schools should mandate a single national uniform design—same fabric, cut, colour—for Classes 1–12, eliminating all clothing-based status distinctions.\" Use the concepts of modesty, protection, and status from NCERT.",
+     "a": "The proposal fails on three grounds. **Modesty**: A single design cannot accommodate diverse community norms (e.g., head-covering requirements for Sikh/Muslim students, sleeve-length preferences for conservative Hindu families), violating NCERT's principle that modesty ideas \"are shaped by the society in which we live.\" **Protection**: Identical fabric/cut cannot suit Ladakh's -20°C winters and Kerala's 35°C humid heat simultaneously—protection requires climate-responsive design. **Status**: As NCERT notes, status signalling shifts to *accessories, shoes, bags, grooming* when garments are uniformised; a national uniform merely displaces, not eliminates, status competition. A wrong answer endorsing the proposal reveals inability to apply functional analysis to policy design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual 'clothing function matrix' for a newly invented garment: a *smart-fabric sari* that changes colour via smartphone app, monitors body temperature, and has embedded UV-protective nanoparticles. Map each feature to the four functions (modesty, protection, status, adornment), noting overlaps. Justify why this garment challenges the traditional boundaries between functions.",
+     "a": "**Matrix**:\n- *Colour-change via app* → **Adornment** (aesthetic novelty) + **Status** (tech-savvy, affluent early adopter signal) + **Modesty** (can shift to conservative hues for temple visits).\n- *Body-temp monitoring* → **Protection** (real-time heat-stress alert for wearer in extreme climates).\n- *UV nanoparticles* → **Protection** (blocks 98% UVA/UVB, preventing photoaging/cancer).\n- *Sari silhouette* → **Modesty** (culturally recognised draped coverage) + **Adornment** (drape as canvas for colour display).\n\n**Boundary challenge**: Traditional theory treats functions as distinct categories; this garment *integrates* them dynamically—e.g., the same colour-change serves adornment *and* modesty *and* status *simultaneously*, and protection (UV) is embedded invisibly within the adornment substrate. A poor answer lists features without mapping overlaps, missing the conceptual shift from *discrete functions* to *multifunctional integration*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_5",
+   "title": "c9_civ_ch2_5",
+   "questions": [
+    {
+     "q": "What is the primary constitutional means by which political parties in India seek to capture political power?",
+     "a": "The primary constitutional means is contesting elections under the Representation of the People Act, 1951. A wrong answer (e.g., \"through protests,\" \"by appointing leaders,\" \"via military support\") reveals the student does not grasp that parties operate within the electoral framework and that capturing power legitimately requires winning votes, not extra-constitutional methods.",
+     "self_check": true
+    },
+    {
+     "q": "Why do political parties issue manifestos before elections, and how does this function relate to the principle of accountable governance?",
+     "a": "Manifestos declare a party's policies and promises, giving voters a clear basis for choice and creating a benchmark to judge performance after elections. A wrong answer (e.g., \"manifestos are just for publicity,\" \"they are legally binding contracts\") shows the student misses the link between electoral promises and democratic accountability: manifestos enable voters to reward or punish parties based on delivery, which is central to representative democracy.",
+     "self_check": true
+    },
+    {
+     "q": "In a state legislative assembly, the ruling party has 110 seats, the main opposition party has 80 seats, and three smaller parties hold the remaining 10 seats. The Speaker must decide whether to recognize the main opposition party as the \"Official Opposition.\" Apply the relevant convention to determine if the main opposition party qualifies, and explain why this recognition matters for democracy.",
+     "a": "Yes, the main opposition party qualifies because it holds the largest number of seats among opposition parties (80 > 10). Recognition matters because the Official Opposition gets specific privileges (e.g., front-row seating, time to speak, chairing key committees like PAC) that enable it to scrutinize the government effectively. A wrong answer (e.g., \"needs 10% of total seats,\" \"requires 50 seats\") reveals confusion between statutory thresholds for party recognition and the conventional norm for Official Opposition status, which is simply being the single largest opposition party.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of political parties in a first-past-the-post (FPTP) system like India's with their role in a proportional representation (PR) system. How does the electoral system shape the number and type of parties that emerge?",
+     "a": "FPTP tends to produce fewer, larger parties (often two dominant ones) because voters avoid \"wasting\" votes on small parties, leading to broad coalitions within parties. PR encourages many smaller parties since seats are allocated proportionally, making niche parties viable. A wrong answer (e.g., \"FPTP creates more parties,\" \"PR eliminates small parties\") shows the student cannot analyze how electoral rules incentivize party strategies and voter behavior, a key concept in comparative politics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Political parties in India have become mere election-winning machines, ignoring their function of political socialization and internal democracy.\" Support your judgment with two specific examples from recent Indian politics.",
+     "a": "The argument is partially valid. Parties do prioritize winnability (e.g., nominating candidates with criminal records or money power, as seen in ADR reports), and internal elections are often rubber-stamped. However, parties still socialize cadres through youth wings (e.g., BJP's ABVP, Congress's NSUI) and conduct membership drives, showing socialization persists. A poor evaluation either dismisses all party functions or ignores evidence of decline; a strong answer weighs both trends and cites concrete instances.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a reform that would strengthen internal democracy within Indian political parties, referencing a specific constitutional value or statutory provision.",
+     "a": "A strong proposal might mandate regular, transparent organizational elections supervised by the Election Commission under Article 324 (superintendence of elections), with mandatory representation of women and SC/ST/OBC in leadership positions, and public disclosure of party constitutions and audited accounts. A weak proposal is vague (\"parties should be more democratic\"), lacks a legal anchor, or suggests unrealistic measures (state funding without accountability).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

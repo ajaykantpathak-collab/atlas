@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_010",
+   "title": "c12_biotech_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the typical insert size capacity of a BAC vector and which natural plasmid is it derived from?",
+     "a": "A BAC vector typically accepts inserts of 100–300 kb (average ~150 kb) and is derived from the E. coli F-plasmid (fertility factor). A wrong answer (e.g., \"50 kb\" or \"derived from pBR322\") reveals the student confuses BACs with cosmids or standard plasmids, and does not know the F-plasmid origin that gives BACs their single-copy, stable replication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a YAC vector must contain three specific yeast chromosomal elements — ARS, CEN, and TEL — and what function each serves in the yeast host.",
+     "a": "ARS (Autonomously Replicating Sequence) acts as the origin of replication; CEN (Centromere) ensures proper segregation during mitosis; TEL (Telomere) protects linear ends from degradation and fusion. Missing any element leads to vector loss: no ARS → no replication; no CEN → mis-segregation; no TEL → exonuclease degradation or end-to-end fusion. A student who lists only \"origin and selectable marker\" shows they are applying plasmid logic to a eukaryotic chromosome mimic and miss the segregation/stability requirements unique to linear YACs.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to construct a genomic library for a 3 Gb mammalian genome. She can choose between a BAC library (average insert 150 kb) and a YAC library (average insert 500 kb). Calculate the minimum number of independent clones needed for each to achieve 99% probability of containing any given sequence (use the Clarke-Carbon formula: N = ln(1-P) / ln(1 - I/G), where P=0.99, I=insert size, G=genome size). Which vector requires fewer clones, and what practical drawback of YACs might still make BACs preferable?",
+     "a": "For BAC: N = ln(0.01) / ln(1 - 150,000/3,000,000,000) ≈ 207,000 clones. For YAC: N = ln(0.01) / ln(1 - 500,000/3,000,000,000) ≈ 62,000 clones. YACs need ~3.3× fewer clones. However, YACs frequently produce chimeric clones (two non-contiguous genomic fragments ligated together) and suffer from insert instability/rearrangement in yeast, making physical mapping and sequencing error-prone. BACs, despite needing more clones, give stable, non-chimeric inserts — critical for accurate assembly. A student who only compares clone numbers misses the quality/reliability trade-off central to genome project decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the copy number control mechanisms of BACs and standard high-copy plasmids (e.g., pUC19). Why is low copy number (1–2 per cell) actually advantageous for cloning very large DNA fragments?",
+     "a": "pUC19 uses a mutated pMB1 origin (rop deletion) giving 500–700 copies/cell; BACs use the F-plasmid origin with intact repE/par system giving 1–2 copies/cell. Low copy number reduces metabolic burden on the host, minimizes recombination between repeated sequences in large inserts, and prevents insert deletion/structural instability that plagues high-copy plasmids carrying large foreign DNA. A student who says \"high copy gives more DNA yield\" ignores that yield is irrelevant if the insert is rearranged or lost — stability trumps yield for genomic libraries.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"YACs are superior to BACs for all genomic library projects because they can clone larger inserts (up to 1 Mb) and propagate in a eukaryotic host that can process introns and perform post-translational modifications.\"",
+     "a": "The statement is flawed. While YACs accept larger inserts, their high chimerism rate (10–50%), frequent insert rearrangements, and instability in yeast make them unreliable for physical mapping and sequencing. Eukaryotic host propagation is irrelevant for genomic libraries — the goal is DNA propagation, not protein expression; introns and PTMs are not processed because the insert is not expressed (no promoter, wrong reading frame). BACs in E. coli provide stable, non-chimeric, faithfully replicated inserts, which is why the Human Genome Project and most modern genome projects use BACs. A student agreeing with the statement confuses expression-vector needs with cloning-vector needs and underestimates YAC artifacts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal BAC vector map for a 150 kb human genomic insert. Label: (1) F-plasmid origin (oriS), (2) parA/parB/parC partitioning genes, (3) chloramphenicol resistance gene (camR), (4) lacZα with multiple cloning site (MCS), (5) T7 and SP6 RNA polymerase promoters flanking MCS. Explain how you would screen for recombinant clones and verify insert size.",
+     "a": "A correct map shows a circular ~7.5 kb vector backbone with the above elements. Screening: transform into E. coli DH10B, plate on LB + chloramphenicol + X-gal/IPTG → white colonies = insert disrupts lacZα (blue/white screening). Verify insert size: isolate BAC DNA (alkaline lysis modified for low copy), digest with NotI (flanks MCS), run pulsed-field gel electrophoresis (PFGE) — vector band ~7.5 kb + insert band ~150 kb. A student who suggests standard agarose gel or blue/white only without PFGE verification misses that large inserts require PFGE for resolution and that low-copy BAC prep needs modified lysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

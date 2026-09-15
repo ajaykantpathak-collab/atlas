@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_01_011",
+   "title": "c11_eng_s_cbse_01_011",
+   "questions": [
+    {
+     "q": "Identify the primary narrative tense used in the story and quote one verb phrase from the first paragraph that illustrates it.",
+     "a": "The primary narrative tense is simple past (e.g., \"was,\" \"came,\" \"woke,\" \"looked\"). A wrong answer (e.g., \"present tense\" or \"past perfect\") reveals the student cannot distinguish the narrative frame from embedded earlier events, leading to confusion about time layers in retrospective narration.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the author uses past perfect tense in the phrases \"had been memories\" and \"had been longings\" (paragraph 2) instead of simple past \"were memories.\"",
+     "a": "Past perfect establishes a time further back than the narrative past (\"when I was nine\"), showing these memories/longings existed before the story's main timeline. A wrong answer (e.g., \"it's just formal style\") indicates the student misses the grammatical encoding of temporal depth, crucial for nostalgia.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the direct speech \"Leap out of the window, he said, if you want to ride\" into indirect speech, maintaining the original meaning and narrative tone.",
+     "a": "He told me to leap out of the window if I wanted to ride. Steps: (1) Change reporting verb \"said\" to \"told me,\" (2) Convert imperative \"Leap\" to infinitive \"to leap,\" (3) Adjust pronoun \"you\" to \"I,\" (4) Backshift \"want\" to \"wanted.\" A wrong answer (e.g., missing backshift or pronoun change) shows inability to apply reported speech rules in a literary context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure in the descriptive passage \"The air was new and lovely to breathe. The feel of the horse running was wonderful.\" with the dialogue-heavy argument \"Will you let me ride alone? ... That is up to the horse.\" How does syntax control pacing?",
+     "a": "Descriptive passages use longer declarative sentences with post-nominal modifiers (\"new and lovely to breathe,\" \"running was wonderful\") creating slow, immersive pacing. Dialogue uses short interrogatives and elliptical responses (\"That is up to the horse\") accelerating pace to mimic real-time tension. A wrong answer focusing only on content misses the syntactic pacing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the first-person past tense narrative voice in conveying the theme of innocence versus guilt. Support with two grammatical observations.",
+     "a": "Highly effective: (1) Past tense (\"I couldn't believe,\" \"I refused to believe\") locks the perspective in Aram's childhood ignorance, making his moral rationalization (\"maybe it wasn't stealing\") feel authentic. (2) Past perfect (\"had stolen\") in his internal monologue reveals the guilt he suppresses. A wrong answer giving only plot summary without grammatical evidence fails the \"how language works\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph continuing the story from John Byro's perspective the morning he finds his horse returned. Use first-person past tense, include one past perfect verb for an earlier event, and one direct speech imperative.",
+     "a": "Sample: \"I walked to my barn at dawn, my leg still aching from the ten-mile walk yesterday. The horse — my horse — stood there, stronger than ever. 'Quiet, man, quiet,' I whispered to the dogs, though they didn't bark. I had never believed a thief would return what he stole.\" Criteria: consistent past tense, past perfect \"had never believed,\" direct imperative \"Quiet, man, quiet.\" A poor answer mixes tenses, omits required features, or lapses into third person.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

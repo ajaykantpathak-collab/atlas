@@ -1,0 +1,136 @@
+{
+ "catalog": "catalog_class8_maths_hemh111.json",
+ "concepts": [
+  {
+   "id": "hemh.111.11.1",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 10 / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 200 * 2 / (2 + 8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 7 * 15 / 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 3 * 35 - 7 * 15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 40 * 4 / 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.111.11.2",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 6 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 540 * 3 / (3 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 600 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 4 * 35 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 7 * 20 - 4 * 35"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 120 * 20 / 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.111.11.3",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 24 / 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 600 * 1 / (1 + 9)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 6 * 20 / 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 5 * 24 - 6 * 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 60 * 12 / 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 24 / 8"
+   ]
+  }
+ ]
+}

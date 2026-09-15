@@ -1,0 +1,98 @@
+{
+ "catalog": "catalog_class8_social_science_ch301",
+ "concepts": [
+  {
+   "id": "hess.301.1.1",
+   "title": "Constitutive Rules",
+   "questions": [
+    {
+     "q": "Using the method 'Constitutive Rules', work with: rules = 1. Carry the chain through step by step and give the final value of identity.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Constitutive Rules' and work with: rules = 1. Carry the chain through step by step and give the final value of identity.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Constitutive Rules' refers to.",
+     "a": "Fundamental principles or regulations that define the nature of a system, such as a game or a society, and distinguish it from others.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Constitutive Rules'.",
+     "a": "Rules define the essence of a social or political structure.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Constitutive Rules', in plain ASCII form.",
+     "a": "system_identity = sum(constitutive_rules)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.301.2.1",
+   "title": "Federalism Tiers",
+   "questions": [
+    {
+     "q": "Calculate the total tiers of government in India. Use the method 'Federalism Tiers'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_governance.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "How many levels of governance are there? Use the method 'Federalism Tiers'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_governance.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Federalism Tiers' refers to.",
+     "a": "A system of government where authority is distributed across multiple levels, such as central, state, and local tiers, to ensure decentralized decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Federalism Tiers'.",
+     "a": "Multiple levels of government prevent centralized power concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Federalism Tiers', in plain ASCII form.",
+     "a": "total_governance = central_tier + state_tier + local_tier",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.301.3.1",
+   "title": "Separation of Powers",
+   "questions": [
+    {
+     "q": "How many organs of government are there? Use the method 'Separation of Powers'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of government_organs.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the sum of government organs. Use the method 'Separation of Powers'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of government_organs.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Separation of Powers' refers to.",
+     "a": "The division of government authority into three distinct branches to ensure checks and balances and prevent the abuse of power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Separation of Powers'.",
+     "a": "Dividing power ensures no single branch becomes absolute.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Separation of Powers', in plain ASCII form.",
+     "a": "government_organs = legislature + executive + judiciary",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

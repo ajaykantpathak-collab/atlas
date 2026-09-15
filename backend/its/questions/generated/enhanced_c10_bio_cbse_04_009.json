@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_009",
+   "title": "c10_bio_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define 'index fossil' and state two characteristics that make a species a good index fossil for relative dating.",
+     "a": "An index fossil is a fossil species used to define and identify a specific geological time period. Good index fossils: (1) existed for a short, well-defined geological time span (wide geographic distribution but narrow time range), and (2) are abundant and easily identifiable. A wrong answer (e.g., \"any common fossil\" or \"fossil found in many layers\") reveals the student confuses index fossils with general fossils and doesn't grasp the need for precise time correlation across locations.",
+     "self_check": true
+    },
+    {
+     "q": "A fossilized bone contains 12.5% of its original carbon-14. Given carbon-14 half-life is 5730 years, calculate the fossil's approximate age. Explain why carbon-14 dating cannot be used for a dinosaur bone dated to 65 million years ago.",
+     "a": "12.5% remaining means 3 half-lives passed (100% → 50% → 25% → 12.5%). Age = 3 × 5730 = 17,190 years. Carbon-14 dating fails for dinosaur bones because after ~50,000 years (≈9 half-lives), remaining C-14 is too minuscule to measure accurately; also, dinosaur fossils are mineralized (no original carbon). A wrong answer (e.g., \"dinosaur bones are too old\" without half-life reasoning) shows the student memorizes the limit but doesn't understand the exponential decay constraint.",
+     "self_check": true
+    },
+    {
+     "q": "The forelimb bones of a bat, whale, and human show similar arrangement (humerus, radius, ulna, carpals, metacarpals, phalanges) but different functions. A student claims this proves they evolved from a common ancestor *recently*. Evaluate this claim using the concept of homologous organs and divergent evolution.",
+     "a": "The claim is partially correct but misleading. Homologous organs indicate common ancestry, but *not* necessarily recent — the shared tetrapod limb pattern dates to ~360 million years ago (early amphibians). Divergent evolution modified the same structure for flying, swimming, and grasping over vast time. A wrong answer (\"yes, they are closely related\") reveals confusion between homology (shared ancestry) and recency; the student misses that homology reflects deep ancestry with subsequent divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the wings of a butterfly and a bat. Both are used for flight. A textbook labels them as 'analogous organs'. Explain why this classification supports *convergent evolution* and not common ancestry. Include the role of natural selection in your explanation.",
+     "a": "Butterfly wings (chitinous cuticle outgrowths) and bat wings (modified forelimbs with skin membrane) have fundamentally different anatomical origins and developmental pathways. Similar function (flight) arose independently because natural selection favored aerodynamic shapes in both lineages facing similar environmental pressures (predator escape, foraging). This is convergent evolution — different structures, same function. A wrong answer (\"they both fly so they are related\") shows the student confuses functional similarity with structural homology and doesn't grasp that natural selection can produce similar solutions from different starting points.",
+     "self_check": true
+    },
+    {
+     "q": "A sedimentary rock layer contains fossils of *Glossopteris* (a seed fern) and *Mesosaurus* (a freshwater reptile). The same fossils are found in South America, Africa, India, Australia, and Antarctica. Assess how this fossil distribution supports the theory of continental drift *and* evolution simultaneously.",
+     "a": "*Glossopteris* seeds are too heavy for wind dispersal across oceans; *Mesosaurus* couldn't swim across saltwater. Their identical fossils on now-separated continents mean these landmasses were once joined (Gondwana), allowing a continuous population. As continents drifted, populations isolated and evolved separately — providing evidence for both continental drift (geological) and allopatric speciation (evolutionary). A wrong answer (\"fossils prove evolution happened\") misses the dual evidence: the *distribution* proves drift; the *subsequent divergence* proves evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation a Class 10 student could do in a local sedimentary outcrop (e.g., road cut in the Deccan Traps or Siwalik Hills) to demonstrate relative dating using the law of superposition and fossil succession. List materials, steps, and how to record data.",
+     "a": "Materials: notebook, pencil, camera, hand lens, measuring tape. Steps: (1) Sketch the vertical rock face showing distinct layers. (2) Label layers from bottom (oldest) to top (youngest). (3) In each layer, identify and photograph 2-3 distinct fossils. (4) Note fossil types change systematically (e.g., marine shells in lower layers → plant fossils in upper layers). (5) Conclude: lower layer fossils are older; succession shows environmental change over time. A poor answer (just \"dig and find fossils\") lacks systematic layer recording and fails to link fossil change to relative age.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

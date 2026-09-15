@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_07_002",
+   "title": "c11_eng_w_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define \"circular narrative structure\" and identify the opening and closing lines in \"Glory at Twilight\" that create this circle.",
+     "a": "A circular narrative ends where it begins, often with a repeated motif or question. In the story, the opening \"What now?\" on the train reappears as the final words under the fig tree, framing the entire narrative. A wrong answer (e.g., \"the story goes in a circle because he visits his village\") confuses setting with structure—it misses that the *narrative question* circles, not just the geography.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the flashback to the forger episode is placed *during* the train journey rather than at the story's start.",
+     "a": "Placing the flashback mid-journey mimics Satyajit's involuntary memory—he doesn't choose to recall; the \"wheel of fortune\" pulls him. It also withholds the irony: we learn his success came from another man's desperation *after* we've seen his current ruin, making the fall sharper. A wrong answer (\"to give background\") treats flashback as mere exposition, missing its psychological and ironic function.",
+     "self_check": true
+    },
+    {
+     "q": "Map the story's events onto Freytag's pyramid (exposition, rising action, climax, falling action, resolution) using the *narrative order* (not chronological order).",
+     "a": "Exposition: train journey, \"What now?\" + village welcome. Rising action: flashback to forger/bank rise, wedding preparations, Srinath's Rs 2001 demand. Climax: Satyajit signs away house and pond. Falling action: wedding proceeds, Satyajit retreats to fig tree. Resolution: final \"What now?\" with last cigarette. A wrong answer places the forger episode in exposition—confusing chronological with narrative order.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the frame narrative (train journey → village → train memory → village climax → fig tree) controls the reader's sympathy for Satyajit.",
+     "a": "The frame traps us in Satyajit's consciousness: we see his humiliation (rationed cigarettes, sold ring) before his pride (village welcome), so we pity him even as he deceives. The return to the fig tree denies catharsis—he's alone again, the circle closes on uncertainty. A wrong answer (\"we sympathize because he lost money\") ignores how *structure* stages that sympathy through restricted perspective and delayed revelation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the story's non-linear structure strengthens or weakens its critique of social hypocrisy (villagers worshipping wealth they don't understand).",
+     "a": "It strengthens: the flashback reveals Satyajit's success was morally compromised (he despised the forger whose act launched him), while the village's worship is based on a lie he maintains. The structure layers irony—past irony (success from crime) mirrors present irony (worship of a bankrupt). A wrong answer (\"it's just a storytelling technique\") fails to link form to thematic argument.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word alternative ending that *breaks* the circular structure, then explain in 50 words how this changes the story's meaning.",
+     "a": "*Alternative ending:* Satyajit confesses to Srinath, who embraces him; villagers learn the truth but honor his honesty; he returns to Delhi to rebuild. *Explanation:* Breaking the circle replaces tragic irony with redemptive realism—suggesting truth liberates, whereas the original insists glory's twilight is inescapable. A poor answer writes a happy ending without analyzing structural consequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

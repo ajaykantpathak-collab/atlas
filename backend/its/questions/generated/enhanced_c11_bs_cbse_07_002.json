@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_002",
+   "title": "c11_bs_cbse_07_002",
+   "questions": [
+    {
+     "q": "According to Section 69 of the Companies Act, 2013, which of the following persons is NOT considered a promoter? (a) A person named in the prospectus, (b) A person who has control over the company's affairs, (c) A lawyer acting in professional capacity to draft the MoA, (d) A person whose advice the Board follows.",
+     "a": "Correct answer: (c) A lawyer acting in professional capacity. The Act explicitly excludes professionals acting in their professional capacity. If a student chooses (a), (b), or (d), they have not grasped the exclusion clause and may think any person involved in formation is a promoter.",
+     "self_check": true
+    },
+    {
+     "q": "\"Promoters are neither agents nor trustees of the company.\" Explain why this statement is true, and state the legal relationship that actually exists between promoters and the company.",
+     "a": "Correct answer: Promoters are not agents because the company does not exist at the time of promotion; they are not trustees because no trust is created. They stand in a fiduciary relationship with the company, meaning they must act in good faith, disclose all material facts, and not make secret profits. If a student says they are agents, they confuse pre-incorporation contracts with agency; if they say trustees, they misunderstand the fiduciary concept.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi conceives an idea for a solar panel manufacturing unit. He conducts a technical feasibility study and finds the required raw material is unavailable domestically. He abandons the idea. Which function of a promoter did Ravi perform, and what does this reveal about the promoter's role?",
+     "a": "Correct answer: Ravi performed the function of conducting feasibility studies (specifically technical feasibility). This reveals that a promoter's role includes investigating viability before committing resources; if feasibility fails, the promoter may drop the project, avoiding future losses. If a student says \"identification of business opportunity\" only, they miss the critical step of feasibility analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of a promoter with that of a director of an already incorporated company. Highlight two similarities and two differences in their legal duties and liabilities.",
+     "a": "Correct answer: Similarities: Both owe fiduciary duties; both can be liable for misrepresentation. Differences: Promoters are personally liable for pre-incorporation contracts unless ratified; directors act as agents of the company and are not personally liable for authorized acts. Promoters exist before incorporation; directors are appointed after. If a student cannot distinguish pre- and post-incorporation liability, they haven't analyzed the temporal aspect.",
+     "self_check": true
+    },
+    {
+     "q": "\"A promoter should be allowed to make secret profits as a reward for taking the risk of forming a company.\" Critically evaluate this statement with reference to the Companies Act, 2013 and the fiduciary position of promoters.",
+     "a": "Correct answer: The statement is incorrect. The fiduciary position prohibits secret profits; any profit must be disclosed. The company can rescind contracts and recover secret profits. The promoter may be remunerated only if disclosed and approved. If a student agrees, they misunderstand the strict fiduciary duty and the legal consequences of non-disclosure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where an \"occasional promoter\" and a \"financial promoter\" interact in the formation of a company. Describe their distinct roles and how their interests might align or conflict.",
+     "a": "Expected answer: An occasional promoter (e.g., a retired engineer with a technical idea) brings the concept and technical know-how; a financial promoter (e.g., a venture capital firm) provides capital and expects returns. They align on company success but may conflict on control, profit-sharing, or exit strategy. A good answer shows understanding of types and their motivations. A poor answer confuses types or ignores conflict.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

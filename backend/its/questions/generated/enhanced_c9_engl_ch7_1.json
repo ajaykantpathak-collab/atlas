@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch7_1",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch7_1",
+   "title": "c9_engl_ch7_1",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a text summary in an English examination?",
+     "a": "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution — and can restate it concisely in their own words. A wrong answer such as \"to give your opinion on the story\" or \"to copy important lines\" reveals the student confuses summary with personal response or quotation, indicating they do not grasp the objective, evidence-based nature of the task.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Khetaram is a very brave man who walks in the hot desert. I feel sad for him because the sandstorms are dangerous. The story teaches us to work hard.\" Identify two specific errors in this response that violate summary writing rules.",
+     "a": "The response includes (1) personal emotional reaction (\"I feel sad\") and (2) a moral judgment (\"teaches us to work hard\"), both of which are interpretations, not factual summary. A correct summary would state: \"Khetaram, a Gramin Dak Sewak, delivers mail across Thar Desert villages on foot and by camel, facing extreme heat and sandstorms, ensuring villagers receive letters, pensions, and government notices.\" The errors show the student cannot distinguish between narrating events and evaluating them — a common confusion between summary and theme analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Given this excerpt from the story: \"Every morning at 5 a.m., Khetaram loaded his leather bag with letters, money orders, and pension forms. He tied a wet cloth around his head, filled his water bottle, and set off on his bicycle. By noon, the sand was too hot for tyres, so he walked the last five kilometres to Dhani Maliyon.\" Write a three-sentence summary of this paragraph using only the information given.",
+     "a": "Khetaram begins his daily mail delivery at 5 a.m., carrying letters, money orders, and pension forms on his bicycle. When the desert sand becomes too hot for cycling by noon, he continues on foot for the final five kilometres to Dhani Maliyon. He protects himself with a wet cloth and water bottle against the extreme heat. A wrong answer that adds \"Khetaram is dedicated\" or omits the shift from bicycle to walking shows the student cannot select and sequence only the explicit actions from the text.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two summaries of the same story event. Which is better for a board exam and why?  \nSummary A: \"Khetaram delivered letters in the desert. It was very hot. He walked a lot. Finally he reached the village.\"  \nSummary B: \"Despite scorching noon temperatures that forced him to abandon his bicycle, Khetaram walked the final five kilometres to Dhani Maliyon, delivering pension forms and letters to the waiting villagers.\"",
+     "a": "Summary B is better because it combines cause (scorching heat) and effect (abandoned bicycle, walked five km) in one complex sentence, uses precise vocabulary (\"scorching,\" \"abandon,\" \"pension forms\"), and includes the specific destination and contents of the bag. Summary A uses choppy, simple sentences, vague descriptors (\"very hot,\" \"a lot\"), and omits key details. A student who chooses A reveals an inability to synthesize information and use cohesive devices — a skill explicitly tested in Class 9 board marking rubrics for \"organisation and coherence.\"",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"Since the story is called 'Khetaram, the Gramin Dak Sewak,' a good summary should start with his job title and then list every village he visits in order.\" Evaluate this claim with reference to board exam expectations.",
+     "a": "The claim is partially correct but flawed. Starting with his role (Gramin Dak Sewak) is good — it establishes identity and context. However, listing every village violates the principle of conciseness; a summary must select only the most representative or climactic stops (e.g., the farthest village, the one where a critical letter is delivered). Board exams reward \"judicious selection of details\" (CBSE marking scheme), not exhaustive enumeration. A student who insists on listing all villages misunderstands that a summary is a curated overview, not a travel log.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 40-word \"blurb\" (back-cover description) for \"Khetaram, the Gramin Dak Sewak\" that would make a Class 9 student want to read it, using only facts from the story — no invented events.",
+     "a": "In the blistering Thar Desert, one man on a bicycle carries more than letters — he carries hope. Khetaram battles sandstorms, 50°C heat, and endless dunes to deliver pensions, wedding cards, and government schemes to villages no road reaches. When the tyres melt, he walks. A true story of quiet heroism.  \nA poor answer would invent drama (\"fights bandits,\" \"saves a child\") or use vague praise (\"inspiring tale\"). This reveals the student cannot distinguish between factual summary and promotional writing, nor select the most compelling real details for a specific audience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

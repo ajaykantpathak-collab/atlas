@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_8",
+   "title": "c9_math_ch6_8",
+   "questions": [
+    {
+     "q": "State the formula for the area of a circle and define each variable.",
+     "a": "A = pi * r^2, where A is the area, r is the radius of the circle, and pi is approximately 3.14159. A wrong answer (e.g., A = 2*pi*r) confuses area with circumference — 2*pi*r is the circumference formula, not the area formula.",
+     "self_check": true
+    },
+    {
+     "q": "Derive the area formula A = pi * r^2 using the sector-rearrangement method.",
+     "a": "Divide the circle into many thin sectors. Rearrange them alternately to form a rectangle-like shape. The length of this shape is half the circumference = pi*r (since circumference = 2*pi*r). The width is the radius r. Area of rectangle = length * width = pi*r * r = pi * r^2. Therefore, area of circle = pi * r^2. A wrong answer (e.g., \"area = pi * diameter\") uses diameter instead of radius — the formula uses r, not d.",
+     "self_check": true
+    },
+    {
+     "q": "A circular pond has a diameter of 14 m. Calculate its area. (Use pi = 22/7.)",
+     "a": "Diameter = 14 m, so radius = 7 m. Area = pi * r^2 = (22/7) * (7)^2 = (22/7) * 49 = 22 * 7 = 154 m^2. A wrong answer (e.g., using diameter directly: A = pi*(14)^2 = 616 m^2) forgets to convert diameter to radius.",
+     "self_check": true
+    },
+    {
+     "q": "A circular pizza has an area of 154 cm^2. Find its radius. (Use pi = 22/7.)",
+     "a": "A = pi * r^2, so 154 = (22/7) * r^2. Multiply both sides by 7/22: r^2 = 154 * 7/22 = 49. Take square root: r = 7 cm. A wrong answer (e.g., r = 49 cm) confuses r^2 with r — r^2 = 49, so r = 7, not 49.",
+     "self_check": true
+    },
+    {
+     "q": "Two circles have radii in the ratio 1:3. What is the ratio of their areas?",
+     "a": "Area is proportional to r^2, so if the radii are in ratio 1:3, the areas are in ratio 1^2:3^2 = 1:9. The area ratio is the square of the radius ratio. A wrong answer (e.g., 1:3) confuses linear ratio with area ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A circular field has a radius of 10 m. A farmer wants to fence a circular strip of width 2 m around the outer edge. Calculate the area of the strip. (Use pi = 3.14.)",
+     "a": "Outer radius = 10 + 2 = 12 m. Inner radius = 10 m. Area of strip = Area of outer circle - Area of inner circle = pi*(12)^2 - pi*(10)^2 = pi*(144 - 100) = pi*44 = 3.14 * 44 = 138.16 m^2. A wrong answer (e.g., pi*(2)^2 = 12.56) treats the strip as a circle of radius 2, ignoring that it is an annular ring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

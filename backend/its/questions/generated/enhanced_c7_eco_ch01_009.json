@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_009",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_009",
+   "title": "c7_eco_ch01_009",
+   "questions": [
+    {
+     "q": "What is the primary feature that distinguishes an electronic digital transaction from a traditional cash transaction?",
+     "a": "An electronic transaction transfers funds digitally through networks without the physical movement of currency notes or coins, whereas a cash transaction requires the physical handing over of paper or metallic money. A wrong answer shows confusion between the medium of exchange and the physical object, often thinking that digital money is a completely separate currency rather than just an electronic representation of bank deposits.",
+     "self_check": true
+    },
+    {
+     "q": "Why do banks use a Two-Factor Authentication process, such as a One-Time Password (OTP) sent to your mobile phone, during a digital money transfer?",
+     "a": "OTP verification provides security by ensuring that the person initiating the transaction is the actual account holder, preventing unauthorized access even if someone knows the login password. A wrong answer reveals the misconception that digital security is automatic and that passwords alone are sufficient for safe online banking.",
+     "self_check": true
+    },
+    {
+     "q": "Aarav wants to transfer ₹50,000 urgently to a supplier for business materials. His bank app offers NEFT, RTGS, and UPI. If RTGS is used for high-value real-time gross settlement (minimum ₹2,00,000) and UPI is used for instant peer-to-peer transfers up to ₹1,00,000, which digital mode is most appropriate for Aarav's ₹50,000 transfer if he wants it settled instantly?",
+     "a": "Steps: 1. Identify the transfer amount: ₹50,000. 2. Check RTGS limit: minimum ₹2,00,000 (so RTGS cannot be used here). 3. Check UPI limit: supports instant transfers up to ₹1,00,000. 4. Conclude that UPI is the correct mode because the amount is within its limit and it settles instantly. A wrong answer indicates a failure to match transaction limits and settlement speeds with the correct payment channel.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the physical cash reserves of a bank when a large number of its customers switch from withdrawing cash at ATMs to using mobile banking apps for all purchases.",
+     "a": "When customers use mobile apps instead of cash, physical currency withdrawals drop, leading banks to hold lower physical cash reserves at branches, while digital ledger balances adjust electronically. A wrong answer suggests that money completely disappears or that banks stop handling money entirely, missing the fact that digital transactions are simply electronic book entries moving between bank deposits.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact on a small retail shop owner who adopts digital QR code payments compared to one who strictly accepts cash.",
+     "a": "Adopting digital payments benefits the shop owner by reducing the risk of counterfeit cash, eliminating the time and cost of visiting the bank to deposit physical money, and expanding the customer base to include buyers who do not carry cash. However, it requires a smartphone, internet connectivity, and may involve minor merchant processing fees. A wrong answer shows a narrow view of trade, ignoring transaction efficiency, security, and market access benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weekly expense budget for a student who receives ₹500 pocket money digitally, allocating funds across savings, transport, and stationery, and specify which digital tool they would use to track each category.",
+     "a": "A good response allocates ₹500 logically (e.g., ₹200 savings, ₹150 transport, ₹150 stationery) and assigns a specific digital tool like a bank app's passbook or a digital piggy-bank feature to monitor spending. A poor answer gives random numbers without balancing to ₹500 or fails to link categories to electronic tracking tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_007",
+   "title": "c11_geo_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the total coastline length of India including island territories, and which two water bodies border the mainland on the east and west?",
+     "a": "Total coastline: 7,516.6 km (mainland 6,100 km + islands 1,416.6 km). Mainland bordered by Arabian Sea (west) and Bay of Bengal (east). A wrong answer (e.g., 6,100 km total) reveals confusion between mainland-only and total coastline figures - a common error when students ignore Andaman & Nicobar and Lakshadweep contributions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the western coast of India have more natural harbours than the eastern coast despite having a shorter mainland coastline segment?",
+     "a": "Western coast is a submergent coastline with drowned river valleys (estuaries) forming deep natural harbours (Mumbai, Kochi), while eastern coast is emergent with deltaic deposits creating shallow approaches requiring artificial dredging (Chennai, Vishakhapatnam). A wrong answer citing \"western coast is longer\" reveals misunderstanding of coastline configuration versus length - the western coast is actually more indented but shorter in straight-line distance.",
+     "self_check": true
+    },
+    {
+     "q": "Using a 1:15,000,000 scale map of India, the mainland coastline measures 18.5 cm along the western coast and 22.3 cm along the eastern coast. Calculate the actual mainland coastline length in km and determine the percentage contributed by the western coast.",
+     "a": "Step 1: Convert map distances to actual: Western = 18.5 cm × 150 km/cm = 2,775 km; Eastern = 22.3 cm × 150 km/cm = 3,345 km. Step 2: Total mainland = 2,775 + 3,345 = 6,120 km (matches NCERT 6,100 km approx). Step 3: Western % = (2,775/6,120)×100 = 45.3%. Wrong calculation (e.g., using 1 cm = 15 km) reveals scale conversion error; ignoring that map measurement follows coastline indentations, not straight lines.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how India's coastline configuration creates differential cyclone vulnerability between the eastern and western coasts, incorporating the role of coastline shape and continental shelf width.",
+     "a": "Eastern coast's wide continental shelf (up to 100 km) and concave shape (Bay of Bengal) amplify storm surge and funnel cyclones (e.g., Odisha 1999, Amphan 2020). Western coast's narrow shelf (<50 km) and convex shape with Western Ghats barrier dissipate cyclones faster (e.g., Cyclone Tauktae 2021 weakened rapidly). Wrong analysis focusing only on \"Bay of Bengal has more cyclones\" misses the geomorphological amplification mechanism - the coastline shape itself modifies cyclone impact.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's Exclusive Economic Zone (EEZ) of 2.37 million sq km is more strategically valuable than its land area of 3.28 million sq km for future resource security.\"",
+     "a": "Partially valid: EEZ provides seabed minerals (polymetallic nodules), fisheries (4.5 million tonnes potential), and hydrocarbon reserves (Krishna-Godavari, Mumbai High). However, land area supports 1.4 billion people, agriculture, freshwater, and terrestrial minerals. EEZ requires expensive deep-sea technology; land resources are immediately accessible. Wrong evaluation treating EEZ as \"better\" ignores technological and economic constraints - both domains are complementary, not substitutable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coastal zone management plan for a 100 km stretch of the Konkan coast that balances port development, mangrove conservation, and tsunami preparedness, justifying each zone's width and location using coastline geometry principles.",
+     "a": "Good answer: Zone 1 (0-500m): Mangrove buffer (tsunami attenuation, cyclone protection) - width based on 2004 tsunami run-up data. Zone 2 (500m-2km): Regulated tourism/fisheries - follows estuarine geometry. Zone 3 (2-5km): Port/industrial cluster at natural harbour (e.g., Ratnagiri) - uses submergent coastline advantage. Zone 4 (5-10km): Inland evacuation corridor - aligned perpendicular to coast. Poor answer: uniform zoning ignoring coastline indentations, or placing port on exposed headland instead of estuary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

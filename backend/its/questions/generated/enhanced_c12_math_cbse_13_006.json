@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_006",
+   "title": "c12_math_cbse_13_006",
+   "questions": [
+    {
+     "q": "State the three conditions that a set of events {E₁, E₂, ..., Eₙ} must satisfy to be a partition of the sample space S.",
+     "a": "The three conditions are: (1) Eᵢ ∩ Eⱼ = ∅ for all i ≠ j (pairwise disjoint), (2) E₁ ∪ E₂ ∪ ... ∪ Eₙ = S (exhaustive), and (3) P(Eᵢ) > 0 for all i (non-zero probability). A wrong answer (e.g., missing the non-zero probability condition or confusing pairwise disjoint with mutually exclusive only for adjacent events) reveals the student does not grasp the precise definition of a partition, which is essential for the theorem's validity.",
+     "self_check": true
+    },
+    {
+     "q": "In the formula P(A) = Σ P(Eᵢ) P(A|Eᵢ), explain why we multiply P(Eᵢ) by P(A|Eᵢ) instead of simply adding P(A|Eᵢ) across all i.",
+     "a": "We multiply because P(A|Eᵢ) is the probability of A *given* that Eᵢ has already occurred. To get the unconditional probability of A occurring *through* Eᵢ, we need the joint probability P(Eᵢ ∩ A) = P(Eᵢ) P(A|Eᵢ) by the multiplication rule. Simply adding P(A|Eᵢ) would ignore the different likelihoods of the partitions themselves (e.g., a rare machine with high defect rate contributes less to overall defects than a common machine with moderate defect rate). A wrong answer indicates confusion between conditional and joint probability.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red and 6 black balls. A second bag contains 3 red and 7 black balls. One bag is chosen at random (each with probability 1/2) and a ball is drawn. Compute the probability that the ball drawn is red.",
+     "a": "Let E₁ = choose bag 1, E₂ = choose bag 2. P(E₁) = P(E₂) = 1/2. P(red|E₁) = 4/10 = 2/5. P(red|E₂) = 3/10. By total probability: P(red) = P(E₁)P(red|E₁) + P(E₂)P(red|E₂) = (1/2)(2/5) + (1/2)(3/10) = 1/5 + 3/20 = 4/20 + 3/20 = 7/20 = 0.35. A common error is to average the conditional probabilities directly: (2/5 + 3/10)/2 = 7/20 (coincidentally same here because priors are equal). If priors were unequal, this error would give a wrong answer, revealing the student thinks total probability is a simple average.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The events E₁ = {1,2}, E₂ = {2,3}, E₃ = {3,4} form a partition of S = {1,2,3,4} because their union is S.\" Is the student correct? Justify your answer.",
+     "a": "The student is incorrect. Although the union is S, the events are not pairwise disjoint: E₁ ∩ E₂ = {2} ≠ ∅ and E₂ ∩ E₃ = {3} ≠ ∅. A partition requires pairwise disjointness. This error shows the student only checks exhaustiveness and ignores the mutual exclusivity condition, which is critical because overlapping events would double-count probabilities in the sum.",
+     "self_check": true
+    },
+    {
+     "q": "A problem gives: P(E₁) = 0.3, P(E₂) = 0.7, P(A|E₁) = 0.4, P(A|E₂) = 0.2. A student computes P(A) = 0.3×0.4 + 0.7×0.2 = 0.12 + 0.14 = 0.26. Then they say: \"Since P(A|E₁) > P(A|E₂), event E₁ is more likely to have caused A.\" Evaluate this reasoning.",
+     "a": "The computation of P(A) = 0.26 is correct. However, the conclusion \"E₁ is more likely to have caused A\" is not justified by total probability alone; it requires Bayes' theorem to find P(E₁|A). P(E₁|A) = P(E₁)P(A|E₁)/P(A) = 0.12/0.26 ≈ 0.46, while P(E₂|A) = 0.14/0.26 ≈ 0.54. So actually E₂ is more likely the cause despite having a lower conditional probability, because its prior probability is much higher. The student confused P(A|Eᵢ) with P(Eᵢ|A) — a classic base-rate fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario (Indian context) with at least three partitions where the Total Probability Theorem is needed to find an overall probability. Define the events, give plausible numbers, and write the expression for the total probability (do not compute).",
+     "a": "Scenario: A student in Delhi takes the metro (probability 0.5), bus (0.3), or auto (0.2) to college. The probabilities of being late given each mode are: metro 0.05, bus 0.2, auto 0.15. Partitions: E₁ = metro, E₂ = bus, E₃ = auto. Event A = late. Expression: P(A) = P(E₁)P(A|E₁) + P(E₂)P(A|E₂) + P(E₃)P(A|E₃) = 0.5×0.05 + 0.3×0.2 + 0.2×0.15. A poor answer would use only two partitions, or give conditional probabilities that don't make sense (e.g., >1), or write an expression that adds instead of multiplies, showing inability to translate a multi-cause situation into the theorem's structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

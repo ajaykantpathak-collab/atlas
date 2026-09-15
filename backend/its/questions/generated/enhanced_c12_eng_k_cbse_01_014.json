@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_01_014",
+   "title": "c12_eng_k_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical paragraphs for literature?",
+     "a": "PEEL stands for **Point** (topic sentence stating the argument), **Evidence** (a quote or specific textual detail), **Explanation** (analysis of how the evidence supports the point), and **Link** (connecting back to the question/theme/next point). A wrong answer like \"Point, Example, Explain, Conclusion\" reveals the student confuses the final step — 'Link' requires thematic connection, not just summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Frau Frieda is a powerful woman because she controls the Viennese family with her dreams. She tells them what to do every morning at breakfast. The master of the house leaves her money in his will. This shows she has power.\" Identify the missing PEEL component and explain why the paragraph remains at a narrative level.",
+     "a": "The paragraph lacks **Explanation** (analysis). It strings together **Evidence** (breakfast control, will) but never interprets *how* the dreams function as a tool of psychological domination or *why* the family surrenders agency — it only narrates events. A correct analysis would explain: \"Her dreams replace the family's free will, turning superstition into a governance system, which is why the financier's will legally binds her prophetic role.\"",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak thesis statement into a strong, arguable Point sentence for an appreciation answer: \"The story has magical realism because strange things happen like the wave and the dreams coming true.\"",
+     "a": "Strong Point: \"Márquez uses magical realism not merely to depict fantastical events, but to blur the boundary between Frau Frieda's subjective dream-authority and objective reality, making the reader question whether her 'prophecies' are supernatural insight or a survival strategy.\" The original fails because it lists events without an analytical claim; the revision identifies the *function* of the technique.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative function of the **snake ring** in the Vienna section versus the Havana disaster section. How does the ring's meaning shift from a marker of eccentric identity to a symbol of anonymous erasure?",
+     "a": "In Vienna, the ring (\"Egyptian ring in the shape of a serpent... on her right forefinger\") marks Frau Frieda's performative exoticism and professional identity as a dream-seller — it is *seen* and *noted* by the narrator. In Havana, the ring is the *only* identifier on a obliterated body (\"Her face was destroyed... She wore a gold ring shaped like a serpent\"), reducing a once-commanding figure to a forensic detail. The shift underscores the story's irony: the woman who sold futures leaves no trace but a piece of jewelry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Pablo Neruda is portrayed as irrational because he believes in poetry's clairvoyance but mocks Frau Frieda's dreams.\" Is this a fair reading of the Barcelona encounter? Justify with textual reasoning.",
+     "a": "The claim is **partially fair but incomplete**. Neruda *does* assert \"Only poetry is clairvoyant,\" privileging artistic intuition over Frau Frieda's commercial prophecy. However, the story ironically undermines his rationality: he *senses* her stare (\"tuned his lobster's antennae\") without seeing her — a moment of unexplained perception mirroring the clairvoyance he denies. The student misses that Márquez satirizes *both* the poet's arrogance and the dream-seller's trade, suggesting all clairvoyance is constructed narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word diary entry from **Frau Frieda's perspective** on the night she tells the narrator to leave Vienna. Capture her voice: pragmatic, survival-driven, yet oddly maternal. Use at least one sensory detail from the tavern scene.",
+     "a": "*Sample criteria for a good answer:* First-person voice; references \"beery euphoria,\" \"straitened circumstances,\" the specific warning (\"five years\"); reveals she *chose* to warn him (not compelled by dream alone); ends with pragmatic resignation (\"surviving is the only prophecy that matters\"). A poor answer writes generic fear (\"I had a bad dream\") without the character's calculated pragmatism or the tavern's sensory texture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

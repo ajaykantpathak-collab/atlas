@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_008",
+   "title": "c12_eco_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define \"demand\" and \"quantity demanded\" and explain the difference between them using an example.",
+     "a": "Demand is the entire relationship between price and quantity demanded, represented by a schedule or curve showing how much consumers would buy at each possible price, ceteris paribus. Quantity demanded is the specific amount consumers are willing to buy at a particular price — a single point on the demand curve. Example: At ₹10 per ice cream, quantity demanded is 100 units; the demand curve shows quantities at ₹5, ₹10, ₹15, etc. A wrong answer that treats them as synonyms reveals confusion between a function and a point on that function — a critical error in board exams where \"change in demand\" vs \"change in quantity demanded\" carry different marks.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the demand curve slope downward? Explain using both the substitution effect and the income effect. Use the example of a student buying dosas in a college canteen.",
+     "a": "When the price of dosas falls from ₹50 to ₹40: (1) Substitution effect — dosas become relatively cheaper compared to idlis or sandwiches, so the student substitutes dosas for those alternatives, increasing quantity demanded. (2) Income effect — the student's real income (purchasing power) rises because the same ₹200 now buys more dosas; if dosas are a normal good, the student buys more. Both effects reinforce each other for normal goods. A wrong answer that only mentions \"people buy more when price is low\" without naming the two effects misses the theoretical depth required for 3-4 mark board questions and JEE-style assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer's demand function for good X is Qd = 100 - 5P. If the price of X falls from ₹12 to ₹8, calculate the change in quantity demanded. Is this a change in demand or a change in quantity demanded? Explain.",
+     "a": "At P=12: Qd = 100 - 5(12) = 40 units. At P=8: Qd = 100 - 5(8) = 60 units. Change in quantity demanded = 60 - 40 = +20 units. This is a change in quantity demanded (movement along the same demand curve) because only the own price of X changed; the demand function itself (the intercept and slope) did not change. A wrong answer calling it a \"change in demand\" confuses a movement along the curve with a shift of the curve — a classic board exam error that loses the 1-mark distinction and leads to wrong shift diagrams in 6-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "The price of petrol rises sharply. Analyse the effect on the demand curve for (a) cars (complementary good) and (b) electric scooters (substitute good). Draw rough diagrams for both.",
+     "a": "(a) Cars and petrol are complements. A rise in petrol price increases the cost of using cars, reducing the demand for cars at every price. The demand curve for cars shifts LEFT (decrease in demand). (b) Electric scooters are substitutes for petrol vehicles. Higher petrol prices make electric scooters relatively more attractive, increasing demand for them at every price. The demand curve for electric scooters shifts RIGHT (increase in demand). A wrong answer that draws movements along the curves instead of shifts, or reverses the shift directions, shows failure to apply the \"related goods\" determinant correctly — a frequent error in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"During Diwali, the demand for sweets increases even though prices remain the same.\" Evaluate this statement using the determinants of demand. Which specific determinant is at work? Could this be represented as a movement along the demand curve?",
+     "a": "The statement describes an increase in demand (rightward shift of the demand curve) due to a change in tastes/preferences (festive season) — a non-price determinant. Since price is unchanged, this cannot be a movement along the curve; it is a shift. At every price, consumers now want more sweets. A wrong answer that calls it a \"movement along the curve\" or attributes it to a price change ignores the ceteris paribus assumption and misidentifies the determinant — a common error in source-based questions where students must isolate the shifting factor.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a market demand schedule for a good from the following individual demand schedules at three prices. Then explain how market demand is derived and why it is horizontally summed.\n\n| Price (₹) | Consumer A Qd | Consumer B Qd | Consumer C Qd |\n|-----------|---------------|---------------|---------------|\n| 10        | 5             | 3             | 2             |\n| 8         | 8             | 5             | 4             |\n| 6         | 12            | 8             | 6             |",
+     "a": "Market demand schedule:\nPrice ₹10: 5+3+2 = 10 units\nPrice ₹8: 8+5+4 = 17 units\nPrice ₹6: 12+8+6 = 26 units\nMarket demand is the horizontal summation of individual demands because at each price, the total quantity demanded in the market is the sum of quantities each consumer is willing to buy. We sum horizontally (quantities at same price) not vertically because each consumer faces the same market price. A wrong answer that averages quantities or sums vertically reveals confusion between horizontal addition (market demand) and vertical addition (market supply of a public good) — a conceptual trap in CUET and board case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

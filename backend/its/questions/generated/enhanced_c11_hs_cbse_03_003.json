@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_003",
+   "title": "c11_hs_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the precise quantitative criterion (with units) used in NCERT to classify a nutrient as a macronutrient versus a micronutrient, and name the five macronutrients and two micronutrient categories listed in Figure 1 of the textbook.",
+     "a": "Correct answer: Macronutrients are required in gram (g) quantities per day; micronutrients are required in milligram (mg) or microgram (µg) quantities per day. The five macronutrients are carbohydrates, proteins, fats, water, and dietary fibre. The two micronutrient categories are minerals (e.g., iron, iodine, calcium) and vitamins. A wrong answer that lists \"carbohydrates, proteins, fats\" as the only macronutrients reveals the student has memorised a middle-school list and missed the NCERT Class 11 inclusion of water and fibre as macronutrients. A wrong answer giving \"large amount vs small amount\" without units reveals lack of precision needed for board exam definitions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Water is a micronutrient because it has no calories and does not provide energy.\" Using the NCERT classification rationale, explain why this claim is incorrect and identify the conceptual confusion the student holds.",
+     "a": "Correct answer: Water is classified as a macronutrient because the body requires it in large quantities (approximately 2–3 litres/day = 2000–3000 g/day), placing it firmly in the gram-per-day range. The student confuses \"energy-yielding\" with \"macronutrient\" — the classification criterion is strictly *quantity required*, not energy contribution. Fibre is another macronutrient that yields no energy. This misconception arises from middle-school oversimplification equating macronutrients with \"energy-giving nutrients\" only.",
+     "self_check": true
+    },
+    {
+     "q": "Given a 24-hour dietary recall of an adolescent: 300 g rice, 100 g wheat flour, 50 g dal, 200 ml milk, 10 g oil, 5 g salt, 200 g vegetables, 100 g fruit, 2 L water. Classify each food component's *predominant nutrient contribution* as macro- or micronutrient, and calculate the approximate total macronutrient mass (in grams) consumed. Show your reasoning.",
+     "a": "Correct classification and calculation:\n- Rice (300 g) → predominantly carbohydrate (macronutrient) ~240 g\n- Wheat flour (100 g) → predominantly carbohydrate (macronutrient) ~70 g\n- Dal (50 g) → predominantly protein (macronutrient) ~12 g\n- Milk (200 ml) → protein + fat + carbohydrate (macronutrients) ~12 g total macros\n- Oil (10 g) → fat (macronutrient) 10 g\n- Salt (5 g) → sodium/chloride (micronutrient minerals) — negligible macro mass\n- Vegetables (200 g) → fibre + water (macronutrients) + vitamins/minerals (micros) ~10 g fibre + 180 g water\n- Fruit (100 g) → fibre + water (macronutrients) + vitamins (micros) ~2 g fibre + 85 g water\n- Water (2 L) → water (macronutrient) 2000 g\nTotal macronutrient mass ≈ 240+70+12+12+10+10+180+2+85+2000 = **2621 g** (2.6 kg). A wrong answer that omits water and fibre from the macronutrient total reveals the persistent middle-school misconception that only CHO, protein, fat are macronutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the physiological consequences of a 50% deficit in carbohydrate intake versus a 50% deficit in iron intake for a Class 11 student. Your answer must reference: (a) the macronutrient/micronutrient classification, (b) the quantitative scale of requirement, (c) the metabolic role difference, and (d) the time course of symptom onset.",
+     "a": "Correct analysis: \n(a) Carbohydrate is a macronutrient (required ~130 g/day minimum for brain); iron is a micronutrient (required ~15–28 mg/day). \n(b) 50% carb deficit = ~65 g/day shortfall (gram scale); 50% iron deficit = ~7–14 mg/day shortfall (milligram scale). \n(c) Carbs are primary oxidative fuel for CNS and erythrocytes — deficit forces immediate gluconeogenesis, ketosis, cognitive impairment within hours. Iron is a cofactor for haemoglobin, cytochromes, myoglobin — deficit causes gradual depletion of stores (ferritin), leading to microcytic anaemia over weeks/months. \n(d) Carb deficit symptoms: acute (hours-days) — fatigue, irritability, poor concentration. Iron deficit symptoms: insidious (months) — pallor, exertional dyspnoea, reduced work capacity. \nA wrong answer focusing only on \"both cause weakness\" misses the analytical depth: the *mechanism*, *time scale*, and *reversibility* differ fundamentally because of the classification-driven quantitative and functional roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since micronutrients are needed in tiny amounts, they are less important for health than macronutrients.\" Provide a evidence-based judgment using at least three distinct arguments grounded in the NCERT framework and adolescent physiology.",
+     "a": "Correct judgment: The statement is **false and dangerous**. Three arguments:\n1. **Essentiality is binary, not quantitative**: Both categories are *essential* — the body cannot synthesise them in adequate amounts. Absence of *any* essential nutrient (macro or micro) causes pathology and eventually death. The classification reflects *quantity*, not *criticality*.\n2. **Adolescent vulnerability**: NCERT highlights that 56% of Indian adolescent girls are anaemic (iron deficiency — a micronutrient), causing reduced cognitive function, immune compromise, and adverse pregnancy outcomes later. This morbidity burden exceeds that of moderate macronutrient deficits in this age group.\n3. **Interdependence**: Micronutrients enable macronutrient metabolism — e.g., B-vitamins (micros) are coenzymes for carbohydrate/protein/fat (macros) oxidation; iron (micro) carries O₂ for aerobic macro-metabolism. Without micros, macros cannot be utilised.\nA wrong answer agreeing with the statement reveals a fundamental misunderstanding of \"essential nutrient\" and the catalytic/regulatory role of micronutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian meal plan for a 16-year-old girl that visibly demonstrates the macronutrient/micronutrient classification on the plate. Your plan must: (a) list each food item with its *primary* nutrient category (macro/micro), (b) ensure all 5 macronutrients and both micronutrient categories are represented, (c) include at least one food where the *same item* contributes significantly to both a macro- and a micronutrient, and (d) explain how this plan addresses the adolescent anaemia risk mentioned in NCERT.",
+     "a": "Sample answer (criteria for evaluation):\n**Breakfast**: Whole wheat roti (CHO-macro) + sprouted moong dal (protein-macro + iron-micro) + curd (protein-macro + calcium-micro) + guava (vit C-micro + fibre-macro + water-macro).  \n**Lunch**: Brown rice (CHO-macro) + rajma (protein-macro + iron-micro + fibre-macro) + spinach sabzi (iron-micro + folate-micro + fibre-macro + water-macro) + ghee (fat-macro).  \n**Snack**: Roasted chana (protein-macro + fibre-macro + iron-micro) + lemon water (vit C-micro + water-macro).  \n**Dinner**: Bajra roti (CHO-macro + fibre-macro) + paneer (protein-macro + calcium-micro) + salad (fibre-macro + water-macro + vit A-micro).  \n**Water**: 2.5 L (water-macro).  \n*Dual-contributor example*: Sprouted moong dal — significant protein (macro) AND iron (micro).  \n*Anaemia address*: Combines heme-free iron sources (dal, rajma, spinach, chana) with enhancers (vit C from guava, lemon) and avoids inhibitors (tea/coffee with meals). Includes folate (spinach) for erythropoiesis.  \nA poor answer lists foods without explicit macro/micro tagging, misses water or fibre as macros, omits the dual-contributor, or fails to link vit C to iron absorption for anaemia prevention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_001",
+   "title": "c11_geo_cbse_24_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a topographical map and a general reference map (like a political or road map) in terms of content and purpose?",
+     "a": "A topographical map shows both natural (relief via contours, drainage, vegetation) and cultural features at large scale (1:50,000 or 1:250,000) for precise local analysis, while a general reference map emphasizes political boundaries, transport routes, or thematic data at smaller scales for broad overview. A wrong answer (e.g., \"topographical maps only show mountains\") reveals confusion between \"topography\" (study of surface features) and \"relief\" (elevation only), and ignorance of the standardized symbol system for cultural features.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the SOI numbering system use a hierarchical alphanumeric code (e.g., 45D/10) instead of a simple sequential number (e.g., Sheet 1, Sheet 2, ...)?",
+     "a": "The hierarchical code embeds spatial relationships: '45' identifies the 1:1M parent sheet (4°×4°), 'D' the 1:250K sub-sheet (1°×1°), and '10' the 1:50K quadrant (15'×15'). This allows immediate geographic locating without a lookup table. A wrong answer (e.g., \"it's just a naming convention\") shows the student misses the GIS-ready spatial indexing logic — each character narrows the location by a factor of 4 or 16, enabling automated sheet adjacency queries.",
+     "self_check": true
+    },
+    {
+     "q": "A toposheet is numbered 56H/3. Calculate its latitudinal and longitudinal extent at 1:50,000 scale, and name the 1:1M sheet and 1:250K sheet it belongs to.",
+     "a": "Step 1: Decode 56H/3 → 1:1M sheet = 56, 1:250K sheet = H, 1:50K quadrant = 3.\nStep 2: 1:1M sheets cover 4°×4°. Sheet 56 lies in the grid: rows numbered 1-? from equator, columns lettered? Actually SOI 1:1M uses numbers 1-136 in a specific grid. But for extent: each 1:1M = 4° lat × 4° long. Each 1:250K = 1°×1° (16 per 1:1M). Each 1:50K = 15'×15' (4 per 1:250K).\nStep 3: Quadrant numbering in 1:250K: 1=NW, 2=NE, 3=SW, 4=SE (standard SOI convention).\nStep 4: Without the 1:1M grid reference, exact lat/long cannot be calculated — but the extent is 15'×15' (≈27km × 27km at equator, narrowing poleward).\nA wrong answer (e.g., \"1°×1°\") confuses 1:50K with 1:250K scale, revealing scale-hierarchy misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the SOI numbering system with the International Map of the World (IMW) numbering. What structural advantage does SOI's three-tier hierarchy offer for Indian topographical mapping that a single global system cannot?",
+     "a": "IMW uses a two-tier system: 1:1M sheets (4°×4°) identified by number-letter (e.g., NB-43), subdivided into 1:250K (1°×1°) with letters A-P. SOI adds a third tier (1:50K quadrants 1-4). Advantage: India's diverse terrain requires 1:50K for detailed planning (watershed, infrastructure, defense). The third tier provides a unique, computable ID for every 225 km² unit without ambiguity. A wrong answer focusing only on \"more detail\" misses the computational geometry aspect — the hierarchy enables recursive spatial queries (parent/child/neighbor) essential for digital map indexing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The SOI 1:50,000 toposheet numbering (1-4) follows a consistent NW→NE→SW→SE quadrant order across all 1:250K sheets, making it universally predictable.\" Is this true for all latitudes in India? Justify.",
+     "a": "True for the numbering convention (1=NW, 2=NE, 3=SW, 4=SE), but the *geographic shape* of each quadrant changes with latitude. At 8°N (southern India), 15'×15' ≈ 27.7km × 27.7km (near-square). At 35°N (Ladakh), 15' longitude ≈ 22.7km while 15' latitude ≈ 27.7km — quadrants become rectangular. The numbering order is consistent, but area and shape are not. A student answering \"yes, always identical\" ignores the convergence of meridians — a critical map projection concept from Class 9 (c9_geo_ch1_2) and Class 11 Map Projections chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a workflow for a disaster management team to quickly identify all 1:50,000 toposheets covering a flood-affected district spanning 3,600 km² in Assam, given only the district boundary coordinates. Specify the SOI numbering steps and any digital tools needed.",
+     "a": "Step 1: Obtain district boundary as polygon (lat/long). Step 2: Overlay SOI 1:50K grid (15'×15') using GIS (QGIS/ArcGIS) or SOI's online index. Step 3: Query grid cells intersecting polygon → list sheet numbers (e.g., 83C/1, 83C/2, 83D/3...). Step 4: Verify coverage by calculating each sheet's extent at that latitude (longitudinal km varies). Step 5: Cross-check with 1:250K index (83C, 83D) for adjacency. Step 6: Export sheet list for procurement. A poor answer omits the latitude-dependent longitudinal distance calculation or assumes a fixed km² per sheet, revealing ignorance of map projection distortions covered in the sibling chapter (c11_geo_cbse_24_008).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

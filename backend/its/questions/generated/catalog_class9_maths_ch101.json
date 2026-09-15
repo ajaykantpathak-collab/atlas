@@ -1,0 +1,397 @@
+{
+ "catalog": "catalog_class9_maths_ch101.json",
+ "concepts": [
+  {
+   "id": "iemh.101.1",
+   "title": "The Cartesian Coordinate System",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.2",
+   "title": "The Origin",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 10 - 1 gives 9",
+     "compute": "dx = 10 - 1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 14 - 2 gives 12",
+     "compute": "dy = 14 - 2"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (1, 2) and (10, 14).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (0, 6) from the origin.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-8, 8) and (-2, -2).",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 2 : 3. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (4, 2), (3, 5) and (5, 0) (two decimal places).",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (0, 2), (-3, 1) and (-1, -4).",
+     "a": "-1.33333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.3",
+   "title": "Coordinates of a Point",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular pentagon?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.4",
+   "title": "Quadrants of the Plane",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 16 - 7 gives 9",
+     "compute": "dx = 16 - 7"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 4 - -8 gives 12",
+     "compute": "dy = 4 - -8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (7, -8) and (16, 4).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (7, -4) from the origin.",
+     "a": "8.06",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (3, -6) and (-8, -7).",
+     "a": "-2.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 1 : 4. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (2, 5), (4, -5) and (1, 0) (two decimal places).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (1, -1), (2, 3) and (-5, -3).",
+     "a": "-0.666667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.5",
+   "title": "Points on the Axes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 24 - 4 gives 20",
+     "compute": "dx = 24 - 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 13 - -8 gives 21",
+     "compute": "dy = 13 - -8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 29",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (4, -8) and (24, 13).",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-2, -4) from the origin.",
+     "a": "4.47",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-3, 5) and (-4, -8).",
+     "a": "-3.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 1 : 4. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-5, -4), (3, 1) and (0, 0) (two decimal places).",
+     "a": "3.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (3, -5), (-5, 3) and (0, 3).",
+     "a": "-0.666667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.6",
+   "title": "Distance Between Two Points",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (6, 3) and (12, 11).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-2, -4) from the origin.",
+     "a": "4.47",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-3, 4) and (6, -6).",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 2 : 3. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-3, 5), (5, 0) and (2, 0) (two decimal places).",
+     "a": "7.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (4, 4), (-4, 1) and (0, 5).",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.7",
+   "title": "Midpoint of a Segment",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = -2 - -7 gives 5",
+     "compute": "dx = -2 - -7"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 18 - 6 gives 12",
+     "compute": "dy = 18 - 6"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 13",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-7, 6) and (-2, 18).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-1, 1) from the origin.",
+     "a": "1.41",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (5, 3) and (-3, 4).",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 2 : 1. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (3, 6), (-5, 0) and (-4, 0) (two decimal places).",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (1, 0), (-3, -4) and (5, -4).",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.101.8",
+   "title": "Distance between points on a line parallel to axes",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-8, -4) and (0, 11).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (9, -7) from the origin.",
+     "a": "11.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-6, 8) and (5, -3).",
+     "a": "-0.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (9, 0) internally in the ratio 4 : 5. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (4, -4), (-4, -5) and (-5, 0) (two decimal places).",
+     "a": "20.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-5, 1), (4, -5) and (-2, -1).",
+     "a": "-1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

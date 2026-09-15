@@ -1,0 +1,277 @@
+{
+ "catalog": "catalog_class9_social_science_ch301",
+ "concepts": [
+  {
+   "id": "iess.301.1.1",
+   "title": "Estates System and Privileges of Old Regime France",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Estates System and Privileges of Old Regime France' refers to.",
+     "a": "French society before 1789 was divided into three social classes where the nobility and clergy enjoyed inherited exemptions from state taxation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Estates System and Privileges of Old Regime France'.",
+     "a": "Feudal hierarchy exempted upper estates while burdening commoners with state taxes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Estates System and Privileges of Old Regime France' taught, and from which source text?",
+     "a": "1 (source: iess301.txt lines 85-125)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.2",
+   "title": "Calculation of Tithe Tax",
+   "questions": [
+    {
+     "q": "Calculate the tithe payable on an agricultural produce of {produce} quintals. Use the method 'Calculation of Tithe Tax'. Work with: produce = 360. Carry the chain through step by step and give the final value of tithe.",
+     "a": "36 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the church tax tithe when the total harvest is {produce} kg. Use the method 'Calculation of Tithe Tax'. Work with: produce = 240. Carry the chain through step by step and give the final value of tithe.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Tithe Tax' refers to.",
+     "a": "The church in Old Regime France levied an agricultural tax called tithe, which equaled one-tenth of the total crop harvested by peasants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Tithe Tax'.",
+     "a": "Tithe represents a direct 10 percent levy on agrarian yield collected by the clergy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Tithe Tax', in plain ASCII form.",
+     "a": "tithe = produce / 10",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.3",
+   "title": "Causes and Mechanism of Subsistence Crisis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Causes and Mechanism of Subsistence Crisis' refers to.",
+     "a": "An extreme economic situation in Old Regime France where rapid population growth outpaced grain production, leading to soaring bread prices and widespread starvation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Causes and Mechanism of Subsistence Crisis'.",
+     "a": "Mismatch between population growth and food supply triggers escalating scarcity and mortality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Causes and Mechanism of Subsistence Crisis' taught, and from which source text?",
+     "a": "1.1 (source: iess301.txt lines 140-165)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.4",
+   "title": "Influence of Enlightenment Philosophers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Influence of Enlightenment Philosophers' refers to.",
+     "a": "Ideas proposed by Locke, Rousseau, and Montesquieu challenged divine monarchical right, proposing social contracts and division of government powers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Influence of Enlightenment Philosophers'.",
+     "a": "Enlightenment philosophy articulated equality, popular sovereignty, and separation of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Influence of Enlightenment Philosophers' taught, and from which source text?",
+     "a": "1.3 (source: iess301.txt lines 170-220)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.2.1",
+   "title": "Convocation of Estates General and Voting Rights Conflict",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Convocation of Estates General and Voting Rights Conflict' refers to.",
+     "a": "The assembly representing all three estates called on 5 May 1789, where dispute over voting by order versus individual voting led to Third Estate walkout.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Convocation of Estates General and Voting Rights Conflict'.",
+     "a": "Refusal of individual voting rights sparked political rebellion by Third Estate representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Convocation of Estates General and Voting Rights Conflict' taught, and from which source text?",
+     "a": "2 (source: iess301.txt lines 225-265)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.2.2",
+   "title": "Tennis Court Oath and Outbreak of Revolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tennis Court Oath and Outbreak of Revolution' refers to.",
+     "a": "The Third Estate declared itself the National Assembly on 20 June 1789 at Versailles, swearing to draft a constitution limiting royal power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tennis Court Oath and Outbreak of Revolution'.",
+     "a": "Self-declaration as National Assembly and Tennis Court Oath marked the formal shift away from absolutism.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tennis Court Oath and Outbreak of Revolution' taught, and from which source text?",
+     "a": "2 (source: iess301.txt lines 260-310)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.3.1",
+   "title": "Active Citizen Voting Threshold Computation",
+   "questions": [
+    {
+     "q": "Calculate the minimum tax required to become an active citizen if the daily wage is {daily_wage} livres. Use the method 'Active Citizen Voting Threshold Computation'. Work with: daily_wage = 50. Carry the chain through step by step and give the final value of min_tax.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the tax threshold for voting rights when a labourer earns {daily_wage} livres per day. Use the method 'Active Citizen Voting Threshold Computation'. Work with: daily_wage = 50. Carry the chain through step by step and give the final value of min_tax.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Active Citizen Voting Threshold Computation' refers to.",
+     "a": "Under the 1791 Constitution, voting rights were granted only to men above 25 who paid direct tax equal to at least three days of a worker's wage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Active Citizen Voting Threshold Computation'.",
+     "a": "Financial threshold for active citizenship required tax equivalent to three days of manual labor wages.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Active Citizen Voting Threshold Computation', in plain ASCII form.",
+     "a": "min_tax = 3 * daily_wage",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.3.2",
+   "title": "Rights of Man and Political Symbolism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rights of Man and Political Symbolism' refers to.",
+     "a": "The 1791 Constitution incorporated natural inalienable rights alongside visual political symbols to convey revolutionary values to an illiterate populace.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rights of Man and Political Symbolism'.",
+     "a": "Declaration enshrined natural rights while allegorical symbols communicated liberty, equality, and unity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rights of Man and Political Symbolism' taught, and from which source text?",
+     "a": "2.1 (source: iess301.txt lines 340-410)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.4.1",
+   "title": "Jacobin Club, Sans-Culottes, and Establishment of Republic",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Jacobin Club, Sans-Culottes, and Establishment of Republic' refers to.",
+     "a": "Political radicalization led by Robespierre's Jacobins (sans-culottes) resulted in the storming of Tuileries, ending monarchy and creating the Republic in 1792.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Jacobin Club, Sans-Culottes, and Establishment of Republic'.",
+     "a": "Radical lower-class mobilization replaced constitutional monarchy with a elected republic.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Jacobin Club, Sans-Culottes, and Establishment of Republic' taught, and from which source text?",
+     "a": "3 (source: iess301.txt lines 415-485)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.4.2",
+   "title": "Reign of Terror under Robespierre",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reign of Terror under Robespierre' refers to.",
+     "a": "The period from 1793 to 1794 characterized by Robespierre's harsh policies of state control, price ceilings, rationing, and execution by guillotine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reign of Terror under Robespierre'.",
+     "a": "State control and violent suppression of perceived political enemies defined the Reign of Terror.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reign of Terror under Robespierre' taught, and from which source text?",
+     "a": "3.1 (source: iess301.txt lines 480-530)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.5.1",
+   "title": "Role and Demands of Women in the Revolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role and Demands of Women in the Revolution' refers to.",
+     "a": "Women actively participated in revolution through political clubs like the Society of Revolutionary and Republican Women, demanding equal voting and civil rights.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role and Demands of Women in the Revolution'.",
+     "a": "Women fought for civil and political rights, facing suppression under the Terror before securing suffrage in 1946.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role and Demands of Women in the Revolution' taught, and from which source text?",
+     "a": "4 (source: iess301.txt lines 550-630)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.301.6.1",
+   "title": "Triangular Slave Trade and Abolition in French Colonies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Triangular Slave Trade and Abolition in French Colonies' refers to.",
+     "a": "A maritime commercial network connecting Europe, Africa, and Americas to supply plantation commodities, abolished by Convention in 1794 and permanently in 1848.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Triangular Slave Trade and Abolition in French Colonies'.",
+     "a": "Port prosperity relied on forced labor until colonial slavery was legally eradicated.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Triangular Slave Trade and Abolition in French Colonies' taught, and from which source text?",
+     "a": "5 (source: iess301.txt lines 635-680)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_5",
+   "title": "c8_bio_ch1_5",
+   "questions": [
+    {
+     "q": "Which of the following cellular structures is found in plant cells but is completely absent in animal cells?\nA) Nucleus\nB) Cell membrane\nC) Cell wall\nD) Mitochondria",
+     "a": "The correct answer is C) Cell wall. The cell wall provides rigid structural support and protection to plant cells, a feature not needed by animal cells which rely on skeletal systems or flexible matrices. A student who chooses A, B, or D is confusing universal eukaryotic organelles with plant-specific features, revealing a misunderstanding of basic cell parts.",
+     "self_check": true
+    },
+    {
+     "q": "Why do plant cells typically have one large central vacuole, whereas animal cells have many small vacuoles or none at all?\nA) Plant cells need to store digestive enzymes exclusively.\nB) Plant cells need to maintain turgor pressure against their rigid cell walls for structural support.\nC) Animal cells make their own food and do not require water storage.\nD) Animal cells have cell walls that push inward, eliminating large storage spaces.",
+     "a": "The correct answer is B. The large central vacuole in plants fills with water and exerts turgor pressure against the cell wall, keeping the plant upright and firm. Selecting A or C shows a misconception about vacuole function or animal nutrition, while D incorrectly assigns a cell wall to animal cells.",
+     "self_check": true
+    },
+    {
+     "q": "If a laboratory technician places a red blood cell (animal cell) and an onion peel cell (plant cell) into distilled water, what will happen to each cell over time?\nA) Both cells will burst instantly due to high water entry.\nB) The red blood cell will burst, but the onion cell will become turgid without bursting.\nC) The onion cell will shrink, and the red blood cell will stay the same size.\nD) Both cells will remain completely unchanged because water cannot cross cell membranes.",
+     "a": "Steps: \n1. Identify that distilled water is hypotonic compared to the cell interiors, causing water to flow inward via osmosis. \n2. Recognize that animal cells lack a rigid cell wall and cannot withstand excessive internal pressure, causing them to lyse (burst). \n3. Recognize that plant cells possess a tough cell wall that resists expansion, allowing them to swell until turgor pressure stops further net water entry. \n4. Conclude that the red blood cell bursts while the onion cell becomes turgid. \nThe correct answer is B. Selecting A or D reveals a failure to account for the protective role of the plant cell wall and differential osmosis responses.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"All plant cells are green because they contain chloroplasts for photosynthesis.\" Is this statement scientifically accurate? Why or why not?\nA) Yes, because every single cell in a plant carries out photosynthesis.\nB) No, because underground roots and stem cells do not receive sunlight and lack chloroplasts, containing leucoplasts or chromoplasts instead.\nC) Yes, because chlorophyll is distributed evenly throughout all plant tissues including roots.\nD) No, because plants get their green color from animal waste in the soil.",
+     "a": "The correct answer is B. Chloroplasts are specialized plastids found only in green, light-exposed tissues like leaves and green stems; roots underground do not perform photosynthesis and lack chlorophyll. Choosing A or C shows a failure to realize that different parts of a multi-cellular organism perform specialized functions and do not all contain identical organelles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following hypothesis: \"An animal cell could survive and maintain its shape on land just as well as a plant cell if it were simply given a large central vacuole.\" Is this valid?\nA) Yes, a large vacuole alone provides all the rigidity a cell needs.\nB) No, because rigidity in plants requires a cellulose cell wall working together with turgor pressure from the large vacuole.\nC) Yes, because vacuoles produce cellulose automatically in any cell type.\nD) No, because vacuoles only store waste and have nothing to do with shape.",
+     "a": "The correct answer is B. A vacuole provides internal fluid pressure (turgor), but without a sturdy exterior cell wall (made of cellulose) to push against, that pressure would cause an animal cell to rupture instantly rather than stand upright. Choosing A or C demonstrates a misunderstanding of how the cell wall and vacuole work as a cooperative mechanical system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic investigation to determine whether an unknown slide sample taken from a household vegetable is a plant cell or an animal cell. What two specific structures would you look for under the microscope, and what would their presence indicate?\nA) Look for mitochondria and nucleus; presence indicates animal cell.\nB) Look for cell wall and chloroplasts; presence of a distinct rigid cell wall and green chloroplasts indicates a plant cell.\nC) Look for cell membrane only; presence indicates plant cell.\nD) Look for ribosomes only; presence indicates animal cell.",
+     "a": "The correct answer is B (criteria for a complete answer include identifying plant-specific diagnostic structures: cell wall and chloroplasts/vacuoles). A poor answer (like C or D) fails to mention structures that actually differentiate plant and animal cells, showing confusion over universal vs. unique organelles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

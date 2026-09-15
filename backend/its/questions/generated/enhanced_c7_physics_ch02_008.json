@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_008",
+   "title": "c7_physics_ch02_008",
+   "questions": [
+    {
+     "q": "What symbol is used to represent an electric cell in a standard circuit diagram, and how do the two lines differ?",
+     "a": "An electric cell is represented by two parallel lines where the longer, thinner line represents the positive terminal and the shorter, thicker line represents the negative terminal. A wrong answer usually confuses the cell symbol with a battery symbol or swaps the line sizes, which reveals a lack of recall regarding terminal polarity representation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do scientists and electricians use standardized circuit symbols instead of drawing realistic pictures of bulbs, wires, and batteries?",
+     "a": "Standard symbols provide a universal language that is quick to draw, unambiguous, and understood globally regardless of language or artistic skill. A wrong answer claiming \"it makes the electricity flow faster\" reveals a fundamental misconception that circuit diagrams affect physical electricity rather than serving purely as communication tools.",
+     "self_check": true
+    },
+    {
+     "q": "In a circuit diagram, if a student draws a straight line passing directly through the bulb symbol without connecting it properly to the terminals, what does this indicate about the circuit's function?",
+     "a": "Step 1: Identify that the bulb symbol requires two distinct connection points (terminals) for current to enter and exit. \nStep 2: Recognize that a line passing straight through creates a short-circuit bypass or a broken connection. \nStep 3: Conclude that the bulb will not light up because the current will not pass through the filament properly. \nStep 4: Verify that proper schematic drawing requires lines to terminate precisely at component connection points. \nA wrong answer stating the bulb will glow brighter reveals a failure to understand that electrical components must be intercepted in the path of current, not drawn as floating or bypassed decorations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the schematic representation of an open switch versus a closed switch in a circuit diagram. How does the visual gap in the open switch symbol stop the flow of current?",
+     "a": "A closed switch symbol shows a continuous conducting line bridging the gap, completing the loop for current, whereas an open switch symbol shows a physical break or lifted blade creating an air gap. A wrong answer suggests that an open switch symbol simply adds resistance without breaking the loop, showing a misunderstanding of how open gaps interrupt the continuous path required for charges to move.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a circuit diagram containing two cells, but draws both cell symbols facing the same direction with their positive terminals touching each other's negative terminals in series. Is this diagram physically valid, and what will happen to the lamp connected to it?",
+     "a": "The diagram is physically valid and represents a battery where voltages add up correctly because the terminals alternate (+ to -). A wrong answer claiming this is a short circuit reveals a confusion between alternating cell orientation (correct) and facing cells opposing each other (+ to + or - to -), which would cancel out the voltage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic circuit description for a corridor lighting system in an Indian home where a single lamp can be controlled by a switch, and explain how you would translate this into a standard circuit diagram.",
+     "a": "A complete response will specify a closed loop containing a battery/cell source, a standard open/closed switch symbol, and a lamp symbol connected by straight lines representing conducting wires. A poor answer fails to include a power source or draws disconnected components, revealing that the student does not understand the complete closed-loop requirement of schematic representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

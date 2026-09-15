@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_009",
+   "title": "c10_phy_cbse_04_009",
+   "questions": [
+    {
+     "q": "List the three standard rays used to construct ray diagrams for lenses and state what happens to each ray after refraction through a convex lens.",
+     "a": "The three standard rays are: (1) Ray parallel to principal axis → after refraction passes through the principal focus F on the other side. (2) Ray passing through optical centre O → continues undeviated. (3) Ray passing through principal focus F → after refraction emerges parallel to principal axis. A wrong answer (e.g., saying ray through focus emerges parallel for concave lens) reveals confusion between convex and concave lens ray rules, a common error when students memorize rules without understanding the converging/diverging nature of the lens.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a convex lens forms a real, inverted, and diminished image when the object is placed beyond 2F, but a virtual, erect, and magnified image when the object is placed between F and the optical centre. Use ray behaviour in your explanation.",
+     "a": "When the object is beyond 2F, rays from the top of the object converge on the opposite side between F and 2F after refraction, forming a real image that is inverted and smaller because the rays converge at a point closer to the lens than the object. When the object is between F and O, the refracted rays diverge on the other side; their backward extensions meet on the same side as the object, forming a virtual, erect, magnified image because the divergence makes the virtual image appear farther from the lens than the object. A wrong answer that only states the image characteristics without linking to ray convergence/divergence shows rote memorization without understanding the geometry of refraction.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4.0 cm is placed at a distance of 30 cm from a convex lens of focal length 10 cm. Using a scale of 1 cm = 5 cm, draw the ray diagram to locate the image. Measure and state the image distance and image height from your diagram. (You may describe the construction steps and expected measurements if drawing is not possible.)",
+     "a": "**Construction steps (scale 1 cm = 5 cm):**  \n1. Draw principal axis, mark O, F (2 cm on each side), 2F (4 cm on each side).  \n2. Draw object 6 cm (30 cm) to the left of O, height 0.8 cm (4 cm).  \n3. Ray 1: From object top, draw ray parallel to axis → after lens, passes through F on right.  \n4. Ray 2: From object top, draw ray through O → continues straight.  \n5. Ray 3: From object top, draw ray through F on left → after lens, emerges parallel to axis.  \n6. The three refracted rays converge at a point 3.75 cm (18.75 cm) to the right of O.  \n7. Image height measured ≈ 0.5 cm (2.5 cm), inverted.  \n**Answer:** Image distance ≈ 18.75 cm (real, on opposite side), image height ≈ 2.5 cm (diminished, inverted).  \nA wrong measurement (e.g., image distance 15 cm) reveals incorrect scaling or misplacement of focal points; stating image is erect shows confusion about ray convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for a convex lens and a concave lens when the object is placed at infinity. Identify two similarities and two differences in the ray paths and the resulting images.",
+     "a": "**Similarities:** (1) In both cases, the incident rays are parallel to the principal axis. (2) The refracted rays (or their extensions) meet at the principal focus.  \n**Differences:** (1) For convex lens, rays actually converge at the real focus on the opposite side, forming a real, inverted, point-sized image at F. For concave lens, rays diverge after refraction; their backward extensions meet at the virtual focus on the same side, forming a virtual, erect, point-sized image at F. (2) The convex lens ray diagram shows rays crossing the principal axis; the concave lens diagram shows rays bending away from the axis.  \nA wrong answer that says both form real images at the focus reveals the misconception that concave lenses can form real images.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for a convex lens with the object placed between F and 2F. The diagram shows the image formed between F and 2F on the other side, but the student labels the image as \"virtual and erect\". Evaluate the diagram and identify the error. What is the correct nature of the image?",
+     "a": "The error is in labeling the image as virtual and erect. When the object is between F and 2F, the refracted rays actually converge on the opposite side beyond 2F, forming a **real, inverted, and magnified** image. The student likely confused this case with the object between F and O (where the image is virtual and erect) or mistakenly thought that because the image is magnified it must be virtual. The correct nature: real, inverted, magnified, located beyond 2F on the opposite side. A wrong evaluation that agrees with the student shows inability to distinguish between real and virtual image formation based on ray convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a candle, a white screen, and a metre scale to determine the focal length of the lens by obtaining sharp images for at least three different object positions. Describe the procedure, the data to record, and how you would calculate the focal length from the data.",
+     "a": "**Procedure:**  \n1. Fix the convex lens on a stand. Place a candle at a distance > 2F (e.g., 50 cm) from the lens.  \n2. Move the screen on the other side until a sharp, inverted image of the candle flame is obtained. Record object distance u and image distance v.  \n3. Repeat for two more object positions: one between F and 2F (e.g., 20 cm), and one at approximately 2F (e.g., 30 cm). Each time adjust screen for sharp image and record u and v.  \n4. For each pair (u, v), compute focal length using the lens formula 1/f = 1/v - 1/u (sign convention: u negative, v positive for real image).  \n5. Average the three f values to get the focal length.  \n**Data table:** Columns for u (cm), v (cm), 1/u, 1/v, f (cm).  \n**Expected outcome:** f should be consistent across positions (e.g., ≈ 10 cm).  \nA poor answer that only uses one position or does not mention using the lens formula shows lack of understanding of experimental verification and the relationship between u, v, and f.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

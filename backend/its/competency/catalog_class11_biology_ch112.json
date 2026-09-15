@@ -1,0 +1,518 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 112,
+ "chapter_title": "Respiration in Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo112.txt",
+ "concepts": [
+  {
+   "id": "kebo.12.1",
+   "title": "Cellular Respiration and Substrates",
+   "section": "12.1",
+   "definition": "The biochemical process occurring within cells where chemical bonds of organic compounds are indeed oxidised to liberate energy stored as ATP.",
+   "formula": "C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy",
+   "key_idea": "Energy stored in organic nutrients is harvested through controlled enzymatic oxidation to synthesise ATP.",
+   "textbook_ref": "kebo112.txt lines 30-80",
+   "question_patterns": [
+    "what is cellular respiration and what are respiratory substrates",
+    "define respiratory substrates with examples",
+    "explain how plants manage gas exchange without dedicated respiratory organs",
+    "why is respiration considered an enzymatic stepwise oxidation process",
+    "state two key points about cellular respiration and substrates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify substrate",
+     "explain": "Carbohydrates, fats, or proteins act as substrates for intracellular enzymatic oxidation."
+    },
+    {
+     "step": 2,
+     "action": "verify release of energy",
+     "explain": "Oxidation converts bond energy step-by-step into high-energy phosphate bonds of ATP."
+    },
+    {
+     "step": 3,
+     "action": "verify gas exchange mechanism",
+     "explain": "Plants manage gas exchange through stomata and lenticels without dedicated respiratory organs since every cell is close to air spaces."
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.2",
+   "title": "Glycolysis (EMP Pathway)",
+   "section": "12.2",
+   "definition": "A ten-step anaerobic cytoplasmic pathway where one molecule of glucose is partially oxidised into two molecules of pyruvic acid.",
+   "formula": "net_atp = formed_atp - used_atp",
+   "key_idea": "Glucose splits into two pyruvic acid molecules in the cytoplasm without consuming molecular oxygen.",
+   "textbook_ref": "kebo112.txt lines 90-140",
+   "question_patterns": [
+    "calculate net ATP formed directly during glycolysis",
+    "find the direct ATP yield in glycolytic breakdown",
+    "determine the net gain of ATP in cytoplasm from glucose conversion to pyruvate",
+    "what is the net direct ATP output of glycolysis given total formed and consumed",
+    "find the required value in a glycolysis (emp pathway) problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net direct ATP",
+     "explain": "Subtract the ATP consumed in initial steps from the total ATP produced in substrate-level phosphorylation.",
+     "compute": "net_atp = formed_atp - used_atp"
+    },
+    {
+     "step": 2,
+     "action": "calculate pyruvate yield",
+     "explain": "One glucose molecule splits into two pyruvic acid molecules during glycolysis.",
+     "compute": "pyruvate_molecules = glucose_molecules * 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate NADH yield",
+     "explain": "Each triose phosphate oxidised produces one NADH, giving two NADH per glucose.",
+     "compute": "nadh_yield = glucose_molecules * 2"
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.3",
+   "title": "Fermentation",
+   "section": "12.3",
+   "definition": "An anaerobic metabolic breakdown of pyruvate into lactic acid or ethanol and carbon dioxide with low energy release.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Incomplete oxidation under anaerobic conditions yields metabolic byproducts and regenerates NAD+.",
+   "textbook_ref": "kebo112.txt lines 150-180",
+   "question_patterns": [
+    "explain alcoholic and lactic acid fermentation",
+    "what are the key enzymes involved in fermentation",
+    "compare energy release in anaerobic fermentation versus aerobic oxidation",
+    "why do yeast cells die when alcohol level reaches around 13 percent",
+    "justify why fermentation matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify pathway type",
+     "explain": "Decarboxylation and reduction turn pyruvate into ethanol or lactate."
+    },
+    {
+     "step": 2,
+     "action": "assess energy yield",
+     "explain": "Less than 7% of total chemical energy in glucose is liberated during fermentation."
+    },
+    {
+     "step": 3,
+     "action": "evaluate NAD+ regeneration",
+     "explain": "Reduction of pyruvate to ethanol or lactate regenerates NAD+ from NADH, allowing glycolysis to continue under anaerobic conditions."
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.4",
+   "title": "Link Reaction and Tricarboxylic Acid (TCA) Cycle",
+   "section": "12.4.1",
+   "definition": "A mitochondrial matrix pathway where acetyl-CoA condenses with oxaloacetate to undergo cyclic decarboxylation and oxidation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Pyruvate undergoes oxidative decarboxylation to form acetyl-CoA, which fuels the cyclic generation of reduced coenzymes.",
+   "textbook_ref": "kebo112.txt lines 190-240",
+   "question_patterns": [
+    "describe the steps of Krebs cycle starting from acetyl CoA",
+    "what is the link reaction connecting glycolysis to the TCA cycle",
+    "list the primary products synthesized per turn of the citric acid cycle",
+    "where does the tricarboxylic acid cycle take place within the cell",
+    "give one everyday example of link reaction and tricarboxylic acid (tca) cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace pyruvate oxidation",
+     "explain": "Pyruvate dehydrogenase converts pyruvate to acetyl-CoA in the mitochondrial matrix."
+    },
+    {
+     "step": 2,
+     "action": "trace TCA cycle steps",
+     "explain": "Acetyl-CoA condenses with oxaloacetic acid to yield citrate, generating CO2, NADH, FADH2, and GTP."
+    },
+    {
+     "step": 3,
+     "action": "account cycle products per turn",
+     "explain": "Each turn of the TCA cycle produces 3 NADH, 1 FADH2, 1 GTP (ATP), and releases 2 CO2 from one acetyl-CoA."
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.5",
+   "title": "Electron Transport System and Oxidative Phosphorylation",
+   "section": "12.4.2",
+   "definition": "A chain of inner mitochondrial membrane protein complexes that transfer electrons to oxygen while creating a proton gradient for ATP synthesis.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Flow of electrons through respiratory complexes drives proton pumping across the inner membrane to power ATP synthase.",
+   "textbook_ref": "kebo112.txt lines 250-310",
+   "question_patterns": [
+    "explain the electron transport system in mitochondria",
+    "how does oxidative phosphorylation synthesize ATP via proton gradient",
+    "what is the role of oxygen in the electron transport chain",
+    "describe the structural components and function of ATP synthase complex V",
+    "give one everyday example of electron transport system and oxidative phosphorylation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe electron transport",
+     "explain": "Electrons from NADH and FADH2 pass through complexes I-IV to terminal oxygen."
+    },
+    {
+     "step": 2,
+     "action": "describe ATP synthesis",
+     "explain": "Protons pass back into matrix through F0 channel driving F1 to synthesize ATP from ADP and Pi."
+    },
+    {
+     "step": 3,
+     "action": "verify role of oxygen",
+     "explain": "Oxygen acts as the final electron acceptor at Complex IV, combining with electrons and protons to form water and maintain the proton gradient."
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.6",
+   "title": "Respiratory Balance Sheet and ATP Calculation",
+   "section": "12.5",
+   "definition": "A quantitative accounting of total theoretical ATP produced from complete oxidation of one glucose molecule.",
+   "formula": "total_atp = (nadh * 3) + (fadh2 * 2) + direct_atp",
+   "key_idea": "Total theoretical yield is determined by summing direct ATP both synthesis and ATP generated from coenzyme oxidation.",
+   "textbook_ref": "kebo112.txt lines 320-350",
+   "question_patterns": [
+    "calculate total ATP generated given counts of NADH FADH2 and direct ATP",
+    "compute the net theoretical ATP yield from full oxidation of glucose",
+    "find overall ATP synthesis from given reduced coenzymes and substrate level phosphorylation",
+    "how much total ATP is obtained when given quantities of NADH and FADH2 pass through ETS",
+    "what is the result in this respiratory balance sheet and atp calculation problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate ATP from reduced NAD",
+     "explain": "Each NADH yields 3 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_nadh = nadh * 3"
+    },
+    {
+     "step": 2,
+     "action": "calculate ATP from reduced FAD",
+     "explain": "Each FADH2 yields 2 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_fadh2 = fadh2 * 2"
+    },
+    {
+     "step": 3,
+     "action": "sum all ATP contributions",
+     "explain": "Add ATP from NADH, FADH2, and direct substrate-level phosphorylation.",
+     "compute": "total_atp = atp_from_nadh + atp_from_fadh2 + direct_atp"
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.7",
+   "title": "Amphibolic Pathway",
+   "section": "12.6",
+   "definition": "A metabolic pathway that functions in both catabolic breaking-down operations and anabolic biosynthetic construction.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Respiratory intermediates act as precursor molecules for anabolic synthesis of lipids, proteins, and carbohydrates.",
+   "textbook_ref": "kebo112.txt lines 360-390",
+   "question_patterns": [
+    "why is the respiratory pathway referred to as an amphibolic pathway",
+    "explain how respiratory intermediates are involved in anabolic reactions",
+    "discuss the dual catabolic and anabolic roles of acetyl CoA and TCA cycle intermediates",
+    "justify calling respiration amphibolic rather than purely catabolic",
+    "state two key points about amphibolic pathway"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify catabolic breakdown",
+     "explain": "Carbohydrates, fats, and proteins break down into respiratory intermediates to generate energy."
+    },
+    {
+     "step": 2,
+     "action": "identify anabolic synthesis",
+     "explain": "Intermediates like acetyl-CoA or oxaloacetate are withdrawn from the pathway to synthesize fatty acids or amino acids."
+    },
+    {
+     "step": 3,
+     "action": "verify dual nature of pathway",
+     "explain": "Because the TCA cycle both breaks down substrates for energy and supplies intermediates for biosynthesis, respiration is termed amphibolic rather than purely catabolic."
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.8",
+   "title": "Respiratory Quotient (RQ)",
+   "section": "12.7",
+   "definition": "The numerical ratio of the volume of carbon dioxide given out to the volume of oxygen taken in during respiration.",
+   "formula": "rq = volume_co2 / volume_o2",
+   "key_idea": "The ratio of CO2 produced to O2 consumed depends directly on the chemical nature of the respired substrate.",
+   "textbook_ref": "kebo112.txt lines 400-435",
+   "question_patterns": [
+    "calculate the respiratory quotient given evolved carbon dioxide and consumed oxygen",
+    "find the RQ value when given volumes of CO2 evolved and O2 consumed",
+    "compute the respiratory ratio for a given substrate combustion",
+    "what is the value of respiratory quotient when volume of CO2 is divided by volume of O2",
+    "what is the result in this respiratory quotient (rq) problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate ratio of CO2 to O2",
+     "explain": "Divide the volume or molar quantity of carbon dioxide evolved by oxygen consumed.",
+     "compute": "rq = volume_co2 / volume_o2"
+    },
+    {
+     "step": 2,
+     "action": "interpret RQ value",
+     "explain": "An RQ of 1 indicates carbohydrates, less than 1 indicates fats, and greater than 1 indicates organic acids as the respired substrate."
+    },
+    {
+     "step": 3,
+     "action": "verify substrate identity",
+     "explain": "Compare the computed RQ against known reference values to confirm which type of respiratory substrate is being metabolised."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo112.txt lines 410-425",
+   "concept": "kebo.12.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the Respiratory Quotient (RQ) for the oxidation of tripalmitin when {volume_co2} moles of CO2 are released and {volume_o2} moles of O2 are consumed.",
+   "extracted_variables": {
+    "volume_co2": "102",
+    "volume_o2": "145"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ratio of CO2 to O2",
+     "explain": "Divide the volume or moles of carbon dioxide released by oxygen consumed.",
+     "compute": "rq = volume_co2 / volume_o2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo112.txt lines 330-350",
+   "concept": "kebo.12.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total theoretical net ATP output when a substrate yields {nadh} molecules of NADH, {fadh2} molecules of FADH2, and {direct_atp} molecules of direct ATP.",
+   "extracted_variables": {
+    "nadh": "10",
+    "fadh2": "2",
+    "direct_atp": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ATP from reduced NAD",
+     "explain": "Each NADH yields 3 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_nadh = nadh * 3"
+    },
+    {
+     "step": 2,
+     "action": "calculate ATP from reduced FAD",
+     "explain": "Each FADH2 yields 2 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_fadh2 = fadh2 * 2"
+    },
+    {
+     "step": 3,
+     "action": "sum all ATP contributions",
+     "explain": "Add ATP from NADH, FADH2, and direct substrate-level phosphorylation.",
+     "compute": "total_atp = atp_from_nadh + atp_from_fadh2 + direct_atp"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo112.txt lines 110-125",
+   "concept": "kebo.12.2",
+   "question_type": "compute",
+   "question_pattern": "In a glycolytic pathway, if {formed_atp} ATP molecules are formed directly through substrate level phosphorylation and {used_atp} ATP molecules are consumed during initial phosphorylation steps, find the net direct ATP gained.",
+   "extracted_variables": {
+    "formed_atp": "4",
+    "used_atp": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net direct ATP",
+     "explain": "Subtract the ATP consumed in initial steps from the total ATP produced in substrate-level phosphorylation.",
+     "compute": "net_atp = formed_atp - used_atp"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo112.txt lines 90-140",
+   "concept": "kebo.12.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute glycolysis (emp pathway) step by step",
+   "extracted_variables": {
+    "formed_atp": "value of formed_atp",
+    "used_atp": "value of used_atp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net direct ATP",
+     "explain": "Subtract the ATP consumed in initial steps from the total ATP produced in substrate-level phosphorylation.",
+     "compute": "net_atp = formed_atp - used_atp"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kebo112.txt lines 320-350",
+   "concept": "kebo.12.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute respiratory balance sheet and atp calculation step by step",
+   "extracted_variables": {
+    "nadh": "value of nadh",
+    "fadh2": "value of fadh2",
+    "direct_atp": "value of direct_atp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ATP from reduced NAD",
+     "explain": "Each NADH yields 3 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_nadh = nadh * 3"
+    },
+    {
+     "step": 2,
+     "action": "calculate ATP from reduced FAD",
+     "explain": "Each FADH2 yields 2 ATP molecules via oxidative phosphorylation.",
+     "compute": "atp_from_fadh2 = fadh2 * 2"
+    },
+    {
+     "step": 3,
+     "action": "sum all ATP contributions",
+     "explain": "Add ATP from NADH, FADH2, and direct substrate-level phosphorylation.",
+     "compute": "total_atp = atp_from_nadh + atp_from_fadh2 + direct_atp"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kebo112.txt lines 400-435",
+   "concept": "kebo.12.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute respiratory quotient (rq) step by step",
+   "extracted_variables": {
+    "volume_co2": "value of volume_co2",
+    "volume_o2": "value of volume_o2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate ratio of CO2 to O2",
+     "explain": "Divide the volume or molar quantity of carbon dioxide evolved by oxygen consumed.",
+     "compute": "rq = volume_co2 / volume_o2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "kebo112.txt lines 440-445",
+   "questions": [
+    "Differentiate between (a) Respiration and Combustion (b) Glycolysis and Krebs cycle (c) Aerobic respiration and Fermentation"
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "kebo112.txt lines 446-447",
+   "questions": [
+    "What are respiratory substrates? Name the most common respiratory substrate."
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "kebo112.txt line 448",
+   "questions": [
+    "Give the schematic representation of glycolysis?"
+   ]
+  },
+  {
+   "id": "ex12.4",
+   "source_ref": "kebo112.txt line 449",
+   "questions": [
+    "What are the main steps in aerobic respiration? Where does it take place?"
+   ]
+  },
+  {
+   "id": "ex12.5",
+   "source_ref": "kebo112.txt line 450",
+   "questions": [
+    "Give the schematic representation of an overall view of Krebs cycle."
+   ]
+  },
+  {
+   "id": "ex12.6",
+   "source_ref": "kebo112.txt line 451",
+   "questions": [
+    "Explain ETS."
+   ]
+  },
+  {
+   "id": "ex12.7",
+   "source_ref": "kebo112.txt lines 452-456",
+   "questions": [
+    "Distinguish between the following: (a) Aerobic respiration and Anaerobic respiration (b) Glycolysis and Fermentation (c) Glycolysis and Citric acid Cycle"
+   ]
+  },
+  {
+   "id": "ex12.8",
+   "source_ref": "kebo112.txt line 457",
+   "questions": [
+    "What are the assumptions made during the calculation of net gain of ATP?"
+   ]
+  },
+  {
+   "id": "ex12.9",
+   "source_ref": "kebo112.txt line 458",
+   "questions": [
+    "Discuss \"The respiratory pathway is an amphibolic pathway.\""
+   ]
+  },
+  {
+   "id": "ex12.10",
+   "source_ref": "kebo112.txt line 459",
+   "questions": [
+    "Define RQ. What is its value for fats?"
+   ]
+  },
+  {
+   "id": "ex12.11",
+   "source_ref": "kebo112.txt line 460",
+   "questions": [
+    "What is oxidative phosphorylation?"
+   ]
+  },
+  {
+   "id": "ex12.12",
+   "source_ref": "kebo112.txt line 461",
+   "questions": [
+    "What is the significance of step-wise release of energy in respiration?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

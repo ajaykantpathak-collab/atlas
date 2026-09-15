@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_005",
+   "title": "c7_math_ch14_005",
+   "questions": [
+    {
+     "q": "What geometric property is primarily used when constructing a parallel line to a given line using a compass to copy an angle at a transversal?",
+     "a": "The property of equal corresponding angles or equal alternate interior angles formed by a transversal. A wrong answer like \"using perpendicular bisectors\" shows confusion between making right angles and maintaining constant separation angles for parallelism.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the radius of the compass remain unchanged when you transfer the arc from the first intersection point to the exterior point during a parallel line construction?",
+     "a": "The radius must remain unchanged to ensure that the chord length and opening of the copied angle are identical, preserving angle equality. A wrong answer like \"to make the line longer\" reveals a fundamental misunderstanding of what a compass arc represents in geometric construction.",
+     "self_check": true
+    },
+    {
+     "q": "A student is constructing a line parallel to line $AB$ through an external point $P$. After drawing a transversal from $P$ to line $AB$ meeting it at point $Q$, the student sets the compass width to 4 cm from point $Q$ to make an arc. When moving the compass to point $P$ to draw a matching arc, what must the compass width be set to?",
+     "a": "The compass width must remain exactly 4 cm. \nSteps:\n1. Identify that the arc radius represents the distance from the vertex along the arms of the angle.\n2. Recognize that changing the compass width changes the arc radius, which changes the scale of the triangle/angle being copied.\n3. Keep the width fixed at 4 cm when swinging the arc from point $P$ to intersect the transversal.\n4. Measure and match the chord width between the transversal and the line to complete the congruent angle.\nA wrong answer like changing the radius indicates that the student does not understand that angle copying requires invariant arc radii.",
+     "self_check": true
+    },
+    {
+     "q": "How does the choice of the transversal's angle of inclination affect the final position of the constructed parallel line?",
+     "a": "The angle of the transversal does not change the final position of the parallel line; it only shifts where the auxiliary construction arcs are drawn along the line. A wrong answer suggests the student believes the parallel line's distance or orientation depends on how slanted the helper line is, rather than the copied angle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that they can construct a parallel line by simply opening their compass to any arbitrary width, drawing two random arcs above the given line, and connecting them with a ruler. Is this method correct? Why or why not?",
+     "a": "No, this method is incorrect because drawing random arcs without reference to a transversal and a copied angle does not guarantee a constant perpendicular distance or equal corresponding angles. A wrong answer shows a lack of understanding that geometric constructions require logical theorems, not just random marks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short set of instructions for a classmate on how to use a compass to construct a line parallel to line $L$, passing through point $M$ which is 5 cm away from line $L$.",
+     "a": "Criteria for a good answer: \n1. Draw a transversal line passing through point $M$ and intersecting line $L$ at point $N$. \n2. Place the compass pointer at $N$, open it to a convenient radius, and draw an arc intersecting line $L$ and the transversal. \n3. With the same radius, place the compass pointer at $M$ and draw a corresponding arc. \n4. Measure the chord length of the first arc using the compass and copy it onto the second arc. \n5. Draw a line through $M$ passing through this new intersection point. A poor answer lacks specific references to compass manipulation or angle replication steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

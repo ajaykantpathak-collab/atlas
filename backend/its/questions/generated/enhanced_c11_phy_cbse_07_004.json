@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_004",
+   "title": "c11_phy_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the formula for acceleration due to gravity at the Earth's surface in terms of G, M_E, and R_E. What is its SI unit?",
+     "a": "g = GM_E/R_E^2, SI unit: m/s². A wrong answer (e.g., g = GM_E/R_E or missing square) reveals the student has not understood the inverse-square law or the derivation from F = GM_Em/R_E^2 = mg.",
+     "self_check": true
+    },
+    {
+     "q": "Two balls of different masses (100 g and 500 g) are dropped from the same height in a vacuum. Which one has greater acceleration? Explain why using Newton's laws.",
+     "a": "Both have the same acceleration g. The gravitational force on the heavier ball is larger (F ∝ m), but its inertia is also larger (a = F/m). The m cancels exactly. A wrong answer (e.g., heavier ball accelerates faster) reveals the student thinks force alone determines acceleration, ignoring inertia, or confuses gravitational force with acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Given M_E = 5.97 × 10^24 kg, R_E = 6.37 × 10^6 m, and G = 6.67 × 10^{-11} N·m²/kg², calculate g. Show all steps with units.",
+     "a": "g = (6.67×10^{-11} × 5.97×10^24) / (6.37×10^6)^2 = (3.98×10^14) / (4.06×10^13) = 9.80 m/s². Unit analysis: (N·m²/kg² × kg) / m² = N/kg = (kg·m/s²)/kg = m/s². A wrong numerical answer usually comes from incorrect exponent handling or forgetting to square R_E.",
+     "self_check": true
+    },
+    {
+     "q": "If the Earth's radius were halved while its mass remained the same, how would g change? If the Earth's mass were doubled while its radius remained the same, how would g change? Compare the two scenarios.",
+     "a": "g ∝ M_E/R_E^2. Halving R_E quadruples g (factor 4). Doubling M_E doubles g (factor 2). Halving radius has a larger effect because of the inverse-square dependence. A wrong answer (e.g., both double g) reveals the student does not understand the square on R_E or the linear dependence on M_E.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates g using g = GM_E/R_E^2 but uses R_E = 6370 km without converting to meters. The result is 9.8 × 10^{-6} m/s². Identify the error and give the correct value.",
+     "a": "The student used R_E in km but G is in N·m²/kg², so R_E must be in meters. 6370 km = 6.37×10^6 m. The correct g is 9.8 m/s². The error is a unit mismatch. A wrong diagnosis (e.g., blaming G or M_E) shows the student does not track units in formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to measure g in a school lab using a simple pendulum. List the measurements needed, the formula to use, and one major source of error.",
+     "a": "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T². Major error: finite amplitude (small angle approximation) or air resistance. A poor answer uses free fall with a stopwatch (human reaction time too large) or forgets to square T.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

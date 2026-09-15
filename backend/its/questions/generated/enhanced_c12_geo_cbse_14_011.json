@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_011",
+   "title": "c12_geo_cbse_14_011",
+   "questions": [
+    {
+     "q": "Name the four types of industrial pollution identified in the NCERT Class 12 Geography textbook and give one specific pollutant example for each type from an Indian industry.",
+     "a": "The four types are: (1) Air pollution — e.g., Suspended Particulate Matter (SPM) from cement factories; (2) Water pollution — e.g., heavy metals (chromium) from tanneries in Kanpur; (3) Soil pollution — e.g., fly ash dumping from thermal power plants in Singrauli; (4) Noise pollution — e.g., >90 dB from textile looms in Surat. A wrong answer (e.g., listing \"plastic waste\" as a type instead of a pollutant within soil/water) reveals confusion between pollution *categories* (media) and specific *pollutants* (substances). Students often memorise examples but forget the classification basis — the receiving medium.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why water pollution from an industry located on a riverbank affects communities tens of kilometres downstream, while soil pollution from the same industry remains largely confined to the factory premises.",
+     "a": "Water pollution enters a flowing medium (river) that transports dissolved/suspended pollutants downstream via advection and dispersion, exposing downstream users (drinking water, irrigation, fisheries). Soil pollution lacks a mobile carrier; contaminants (heavy metals, persistent organics) bind to soil particles and move only via slow leaching or erosion, so the impact zone is local. A wrong answer that says \"water pollution spreads because water moves, soil doesn't\" is partially correct but misses the geochemical processes: adsorption, bioavailability, and the role of groundwater as a pathway for soil contaminants to reach water bodies. This misconception leads to underestimating long-term soil-to-water transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant burns 10,000 tonnes of coal per day with 35% ash content. The electrostatic precipitator (ESP) efficiency is 99.5%. Calculate the mass of fly ash emitted daily (in tonnes) and the mass captured. If the captured ash is dumped in a 50-hectare ash pond, what is the annual accumulation depth (cm) assuming ash density 1.2 g/cm³ and no reuse? (1 hectare = 10,000 m²)",
+     "a": "Step 1: Total ash produced = 10,000 t × 0.35 = 3,500 t/day.\nStep 2: ESP captures 99.5% → captured = 3,500 × 0.995 = 3,482.5 t/day; emitted = 3,500 - 3,482.5 = 17.5 t/day.\nStep 3: Annual captured = 3,482.5 × 365 = 1,271,112.5 t/yr = 1.271×10⁹ kg/yr.\nStep 4: Volume = mass/density = 1.271×10⁹ kg / 1200 kg/m³ = 1.059×10⁶ m³/yr.\nStep 5: Pond area = 50 ha = 500,000 m². Depth = volume/area = 1.059×10⁶ / 5×10⁵ = 2.12 m = 212 cm/yr.\nA wrong answer (e.g., forgetting to convert hectares to m², or using 99.5% as emitted fraction) reveals unit conversion errors and misunderstanding of efficiency definition. Competitive exams often trap students with \"efficiency\" vs \"penetration\" confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Air (Prevention and Control of Pollution) Act, 1981 and the Water (Prevention and Control of Pollution) Act, 1974 in terms of: (a) regulatory approach (command-and-control vs market-based), (b) enforcement agency structure (CPCB/SPCB roles), and (c) a key amendment that strengthened penalties. Why has the Water Act been more effective in regulating point-source industrial effluents than the Air Act in controlling fugitive emissions?",
+     "a": "Both Acts follow command-and-control: they set emission/effluent standards, require consent-to-establish/operate, and empower CPCB/SPCBs to inspect and prosecute. The 1987/1988 amendments (Water) and 1987 amendment (Air) enhanced penalties (imprisonment up to 7 years, fines). Water Act more effective because: (1) effluent discharge is a visible point source (pipe) — easy to monitor; (2) BOD/COD/TSS are cheap, standardised lab tests; (3) CETPs centralise treatment for clusters. Air Act struggles with fugitive emissions (dust from haul roads, storage piles) which are diffuse, intermittent, and hard to measure continuously; ambient air quality standards (NAAQS) reflect cumulative impact, not single-source compliance. A wrong answer that says \"Water Act is older so better enforced\" misses the technical monitoring asymmetry. Students often confuse ambient standards (air) with emission standards (water).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Common Effluent Treatment Plants (CETPs) are the most sustainable solution for industrial water pollution in India's small-scale industrial clusters.\" Consider technical, economic, and institutional dimensions.",
+     "a": "Technically: CETPs achieve economies of scale in treatment but struggle with heterogeneous influent (e.g., dyes + electroplating + food processing) — shock loads kill biological processes. Economically: capital/O&M costs shared, but small units often default on payments; government subsidies (up to 50% capex) create dependency. Institutionally: SPV (Special Purpose Vehicle) management often lacks technical capacity; enforcement of inlet standards is weak. Sustainability requires: (1) segregation of streams at source (separate high-toxicity lines), (2) zero-liquid-discharge (ZLD) mandates for water-scarce regions (e.g., Tamil Nadu textile clusters), (3) performance-linked subsidies. A simplistic \"yes\" ignores the failure of many CETPs (e.g., in Tiruppur pre-2011) to meet outlet norms. The nuanced evaluation must weigh cluster heterogeneity against individual ETP infeasibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pollution control strategy for a new integrated steel plant (5 MTPA) proposed in a water-stressed district of Odisha. Specify: (a) air pollution control devices for each major emission point (sinter plant, blast furnace, BOF, coke oven), (b) water management plan to achieve zero liquid discharge, (c) solid waste utilisation targets for slag and fly ash, (d) noise mitigation for nearby villages (500 m from boundary). Justify each choice with techno-economic reasoning.",
+     "a": "(a) Air: Sinter plant — ESP + alkaline scrubber (SO₂); Blast furnace — dry gas cleaning (cyclone + wet scrubber) for top gas recovery; BOF — doghouse with venturi scrubber (high temp, CO-rich); Coke oven — battery charging emission control (hood + bag filter), pushing emission control (quench car + scrubber). Justification: high dust loads, toxic organics (PAHs), SO₂ — need high-efficiency (>99.9%) devices; energy recovery offsets O&M.\n(b) Water: Cascade reuse — cooling tower blowdown → DM plant → process; effluent → primary (oil/scale removal) → secondary (activated sludge) → tertiary (RO + MEE) → permeate recycled, solids to secure landfill. ZLD capital intensive but mandatory in water-stressed zones (CGWA guideline).\n(c) Solid waste: Blast furnace slag → 100% granulated for cement (GGBS); BOF slag → road base, sinter flux after aging; fly ash → bricks, cement, mine backfill. Target: >95% utilisation (MoEFCC notification).\n(d) Noise: Green belt 50 m wide (3-row: evergreen + broadleaf + shrub) reduces 15-20 dB; acoustic enclosures for compressors/blowers; boundary wall 4 m high. Justification: low-cost, co-benefits (dust capture, aesthetics). A poor answer lists devices without matching to emission characteristics or ignores water stress context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

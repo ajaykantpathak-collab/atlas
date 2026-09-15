@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_007",
+   "title": "c12_hs_cbse_09_007",
+   "questions": [
+    {
+     "q": "A 14-year-old girl consumes 1800 kcal, 45 g protein, 400 mg calcium, and 12 mg iron daily. Using ICMR 2020 RDAs for girls 13-15 years, which single nutrient shows the LARGEST percentage deficit relative to her RDA?",
+     "a": "Correct answer: Calcium (60% deficit). ICMR 2020 RDA for girls 13-15 years: Energy 2050 kcal (12% deficit), Protein 43.2 g (she exceeds by 4%), Calcium 1000 mg (60% deficit), Iron 28 mg (57% deficit). Calcium has the largest gap. A wrong answer (e.g., picking iron) reveals the student memorized \"adolescents need iron\" but cannot quantify and compare deficits across nutrients — a critical skill for board case-study questions where multiple deficiencies coexist.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the RDA for iron nearly doubles for girls (from 16 mg/day at 10-12 years to 28 mg/day at 13-15 years) but increases only modestly for boys (from 16 mg/day to 19 mg/day) during the same age transition.",
+     "a": "Correct answer: Girls begin menstruation (menarche typically 12-13 years), losing 20-30 mg iron monthly (~1 mg/day), requiring higher absorption and intake to prevent anemia. Boys have no comparable obligatory loss; their increase supports expanded blood volume and muscle mass only. A wrong answer (e.g., \"girls grow faster\") reveals confusion between growth velocity (similar in both sexes) and sex-specific physiological losses — a classic board exam trap where students cite \"growth spurt\" generically without distinguishing menstrual iron loss.",
+     "self_check": true
+    },
+    {
+     "q": "A 15-year-old vegetarian boy (height 165 cm, weight 50 kg) wants to meet his calcium RDA (1000 mg/day) without supplements. Design a 3-meal plan using only: milk (120 mg/100ml), curd (150 mg/100g), ragi flour (344 mg/100g), amaranth leaves (330 mg/100g), and sesame seeds (975 mg/100g). Show calculations proving ≥1000 mg calcium.",
+     "a": "Sample solution: Breakfast — 200 ml milk (240 mg) + 30 g ragi porridge (103 mg) = 343 mg. Lunch — 100 g amaranth leaves sabzi (330 mg) + 50 g curd (75 mg) = 405 mg. Dinner — 15 g sesame chutney (146 mg) + 100 ml milk (120 mg) = 266 mg. Total = 1014 mg (101% RDA). Steps: (1) List RDA and food calcium densities. (2) Allocate across meals for variety. (3) Calculate per-item contribution. (4) Sum and verify ≥1000 mg. (5) Check feasibility — all foods are affordable, vegetarian, and culturally appropriate. A wrong answer (e.g., relying only on milk needing 833 ml) reveals inability to combine plant sources — a practical skill tested in CBSE \"plan a meal\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protein RDA per kg body weight for: (a) 10-year-old boy (ICMR 2020: 0.83 g/kg/day), (b) 14-year-old boy in peak height velocity (ICMR 2020: 0.83 g/kg/day), (c) 14-year-old girl in peak height velocity (ICMR 2020: 0.83 g/kg/day). Despite identical g/kg values, why does the 14-year-old boy need ~20 g MORE total protein daily than the 10-year-old boy?",
+     "a": "Correct answer: The g/kg RDA is constant (0.83 g/kg/day), but body weight increases from ~30 kg (10-year-old) to ~50 kg (14-year-old boy), so total protein = 0.83 × 30 = 25 g vs 0.83 × 50 = 41.5 g — a 16.5 g increase purely from weight gain. The 14-year-old girl weighs ~48 kg → 40 g protein. A wrong answer (e.g., \"boys need more protein for muscles\") reveals the misconception that RDA per kg changes during adolescence — it does not; the increase is driven by body mass accretion, not a higher per-kg requirement. This distinction is critical for NEET biology questions on nitrogen balance.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since adolescents need more calcium for bone growth, giving them 500 ml milk daily (600 mg calcium) ensures they meet their calcium RDA of 1000 mg/day.\"",
+     "a": "Critique: The statement is FALSE and dangerous. 500 ml milk provides only 600 mg calcium (60% of RDA). The remaining 400 mg MUST come from other sources (green leafy vegetables, ragi, sesame, curd, paneer). Relying solely on milk creates a false sense of adequacy; many Indian adolescents are lactose-intolerant or dislike milk, and milk displaces iron-rich foods (calcium inhibits iron absorption). A student who agrees reveals: (1) inability to calculate percentages, (2) ignorance of calcium-iron interaction, (3) lack of dietary diversity thinking — all three are tested in CBSE competency-based case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Nutrient Gap Alert\" poster for a rural Anganwadi targeting parents of 13-15 year old girls. It must: (a) show the top 3 nutrient gaps (with % deficit), (b) give 2 affordable local food sources per nutrient, (c) include one \"myth vs fact\" box. Use ICMR 2020 RDAs and typical rural intake data (energy 1600 kcal, protein 35 g, calcium 300 mg, iron 10 mg).",
+     "a": "Expected poster content: (a) Top gaps: Calcium 70% deficit (300/1000), Iron 64% deficit (10/28), Energy 22% deficit (1600/2050). (b) Calcium: Ragi (344 mg/100g), Amaranth leaves (330 mg/100g). Iron: Bengal gram roasted (9.5 mg/100g), Garden cress seeds (100 mg/100g — use 1 tsp/day). Energy: Peanut chikki, Jaggery-roasted gram. (c) Myth: \"Girls don't need as much food as boys.\" Fact: Girls 13-15 need MORE iron than boys (28 vs 19 mg) due to menstruation. A poor answer (generic \"eat healthy\") reveals inability to translate RDAs into actionable, context-specific guidance — the core competency of Home Science.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

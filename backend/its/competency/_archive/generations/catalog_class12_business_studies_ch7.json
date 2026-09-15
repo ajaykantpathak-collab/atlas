@@ -1,0 +1,597 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 7,
+ "chapter_title": "Directing",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0154.txt",
+ "concepts": [
+  {
+   "id": "c12bs.7.1",
+   "title": "Meaning and Importance of Directing",
+   "section": "7.1",
+   "definition": "Directing is the managerial function that guides, instructs, motivates and leads subordinates to achieve organisational goals by initiating action in the organisation.",
+   "formula": "",
+   "key_idea": "Directing initiates action by instructing, guiding and motivating people so that plans are converted into performance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is directing in management?",
+    "Why is directing considered an important function of management?",
+    "How does directing help in achieving organisational goals?",
+    "What is the role of directing in the management process?",
+    "Explain the meaning of directing with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define directing",
+     "explain": "Directing is the function of guiding, instructing, motivating and leading subordinates to initiate action toward organisational goals."
+    },
+    {
+     "step": 2,
+     "action": "Explain its position in management",
+     "explain": "Directing is the heart of the management process because planning and organising become effective only when action is initiated through directing."
+    },
+    {
+     "step": 3,
+     "action": "State its importance",
+     "explain": "Directing integrates efforts, motivates employees, facilitates change and ensures efficient use of resources to achieve goals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is directing in management?",
+     "solution": "Directing is the managerial function of instructing, guiding, motivating and leading subordinates so that planned work is actually performed.",
+     "answer": "Directing is guiding and motivating subordinates to initiate action for achieving goals."
+    },
+    {
+     "question": "Why is directing considered an important function of management?",
+     "solution": "Directing initiates action, integrates individual efforts, motivates employees and facilitates change, converting plans into results.",
+     "answer": "It converts plans into actual performance by initiating and guiding action."
+    },
+    {
+     "question": "How does directing help in achieving organisational goals?",
+     "solution": "By guiding and motivating employees, directing aligns individual efforts with organisational objectives so that goals are achieved efficiently.",
+     "answer": "It aligns individual efforts with organisational goals through guidance and motivation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the role of directing in the management process?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the meaning of directing with an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is directing called the heart of the management process?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.2",
+   "title": "Principles of Directing",
+   "section": "7.2",
+   "definition": "Principles of directing are guidelines that help managers direct subordinates effectively, including maximum individual contribution, harmony of objectives, unity of command, appropriateness of direction, managerial communication and use of informal organisation.",
+   "formula": "",
+   "key_idea": "Effective directing follows principles such as unity of command, harmony of objectives and appropriate communication to maximise contribution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the principles of directing?",
+    "Explain the principle of unity of command in directing.",
+    "What is meant by harmony of objectives in directing?",
+    "How does the principle of maximum individual contribution guide directing?",
+    "Why is managerial communication important in directing?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the principles of directing",
+     "explain": "The principles include maximum individual contribution, harmony of objectives, unity of command, appropriateness of direction, managerial communication and use of informal organisation."
+    },
+    {
+     "step": 2,
+     "action": "Explain key principles",
+     "explain": "Unity of command means each subordinate receives instructions from one superior; harmony of objectives aligns individual and organisational goals."
+    },
+    {
+     "step": 3,
+     "action": "Apply the principles",
+     "explain": "Managers use these principles to ensure clear instructions, motivated employees and coordinated action toward common goals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the principles of directing?",
+     "solution": "Principles of directing include maximum individual contribution, harmony of objectives, unity of command, appropriateness of direction, managerial communication and use of informal organisation.",
+     "answer": "Six guiding principles for effective directing."
+    },
+    {
+     "question": "Explain the principle of unity of command in directing.",
+     "solution": "Unity of command states that every subordinate should receive orders from and be accountable to only one superior to avoid confusion and conflict.",
+     "answer": "Each subordinate reports to only one superior."
+    },
+    {
+     "question": "What is meant by harmony of objectives in directing?",
+     "solution": "Harmony of objectives means aligning individual employee goals with organisational goals so that both are achieved together.",
+     "answer": "Aligning individual and organisational goals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does the principle of maximum individual contribution guide directing?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is managerial communication important in directing?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the principle of appropriateness of direction.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.3",
+   "title": "Supervision and Its Importance",
+   "section": "7.3",
+   "definition": "Supervision is the process of overseeing the work of subordinates by a supervisor at the operating level to ensure that work is performed according to plans and standards.",
+   "formula": "",
+   "key_idea": "Supervision ensures that work is carried out as planned by guiding, instructing and monitoring employees at the operational level.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is supervision in management?",
+    "Why is supervision important in an organisation?",
+    "What are the functions of a supervisor?",
+    "How does supervision differ from directing?",
+    "Explain the role of a supervisor at the operating level."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define supervision",
+     "explain": "Supervision is overseeing the work of subordinates at the operating level to ensure it is done according to plans and standards."
+    },
+    {
+     "step": 2,
+     "action": "State the functions of a supervisor",
+     "explain": "A supervisor assigns work, guides employees, maintains discipline, ensures quality and reports performance to higher management."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance",
+     "explain": "Supervision bridges management and workers, ensures timely completion of work, maintains discipline and helps resolve day-to-day problems."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is supervision in management?",
+     "solution": "Supervision is the process of overseeing the work of subordinates at the operating level to ensure it is performed according to plans and standards.",
+     "answer": "Overseeing subordinates' work at the operational level."
+    },
+    {
+     "question": "Why is supervision important in an organisation?",
+     "solution": "Supervision ensures work is done on time, maintains discipline, provides guidance to workers and links management with the workforce.",
+     "answer": "It ensures timely work, discipline and a link between management and workers."
+    },
+    {
+     "question": "Explain the role of a supervisor at the operating level.",
+     "solution": "A supervisor assigns tasks, guides workers, maintains discipline, ensures quality standards and reports performance to higher management.",
+     "answer": "A supervisor assigns tasks, guides workers and reports performance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the functions of a supervisor?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does supervision differ from directing?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is supervision called a link between management and workers?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.4",
+   "title": "Motivation and Its Importance",
+   "section": "7.4",
+   "definition": "Motivation is the process of stimulating people to act to accomplish desired goals by arousing their needs, desires and drives, and is essential for efficient and willing performance.",
+   "formula": "",
+   "key_idea": "Motivation inspires employees to work willingly and efficiently by satisfying their needs and aligning them with organisational goals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is motivation in management?",
+    "Why is motivation important for an organisation?",
+    "How does motivation improve performance?",
+    "What is the relationship between motivation and productivity?",
+    "Explain the concept of motivation with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define motivation",
+     "explain": "Motivation is the process of stimulating people to act to accomplish desired goals by arousing their needs and desires."
+    },
+    {
+     "step": 2,
+     "action": "Explain its features",
+     "explain": "Motivation is an internal feeling, goal-directed, complex and continuous; it can be positive or negative."
+    },
+    {
+     "step": 3,
+     "action": "State its importance",
+     "explain": "Motivation improves performance, reduces turnover and absenteeism, helps adapt to change and achieves organisational goals efficiently."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is motivation in management?",
+     "solution": "Motivation is the process of stimulating people to act to accomplish desired goals by arousing their needs, desires and drives.",
+     "answer": "Stimulating people to act to achieve goals."
+    },
+    {
+     "question": "Why is motivation important for an organisation?",
+     "solution": "Motivation improves performance, reduces absenteeism and turnover, helps employees adapt to change and ensures efficient achievement of goals.",
+     "answer": "It improves performance and reduces turnover and absenteeism."
+    },
+    {
+     "question": "How does motivation improve performance?",
+     "solution": "Motivated employees put in greater effort, work willingly and use resources efficiently, leading to higher productivity and better results.",
+     "answer": "It increases effort and efficiency, raising productivity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the relationship between motivation and productivity?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the concept of motivation with an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are the features of motivation?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.5",
+   "title": "Maslow's Hierarchy of Needs",
+   "section": "7.5",
+   "definition": "Maslow's hierarchy of needs is a motivational theory proposing that human needs are arranged in a hierarchy of five levels -- physiological, safety, social, esteem and self-actualisation -- where lower needs must be satisfied before higher needs motivate behaviour.",
+   "formula": "",
+   "key_idea": "Human needs follow a five-level hierarchy; lower-level needs must be substantially satisfied before higher-level needs become motivators.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Maslow's hierarchy of needs?",
+    "What are the five levels of needs in Maslow's theory?",
+    "How does Maslow's theory explain motivation?",
+    "Why must lower-level needs be satisfied before higher-level needs?",
+    "Explain self-actualisation in Maslow's hierarchy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the five levels of needs",
+     "explain": "The five levels are physiological needs, safety needs, social needs, esteem needs and self-actualisation needs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the hierarchical order",
+     "explain": "Needs are arranged in ascending order; a lower need must be substantially satisfied before the next higher need becomes active."
+    },
+    {
+     "step": 3,
+     "action": "Apply the theory to motivation",
+     "explain": "Managers identify which level of need is unsatisfied for employees and provide incentives that satisfy that level to motivate them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is Maslow's hierarchy of needs?",
+     "solution": "Maslow's hierarchy is a motivational theory that arranges human needs in five levels -- physiological, safety, social, esteem and self-actualisation -- with lower needs to be satisfied first.",
+     "answer": "A five-level hierarchy of human needs."
+    },
+    {
+     "question": "What are the five levels of needs in Maslow's theory?",
+     "solution": "The five levels are physiological needs, safety needs, social needs, esteem needs and self-actualisation needs.",
+     "answer": "Physiological, safety, social, esteem and self-actualisation needs."
+    },
+    {
+     "question": "Explain self-actualisation in Maslow's hierarchy.",
+     "solution": "Self-actualisation is the highest need, referring to the desire to fulfil one's potential and become what one is capable of becoming.",
+     "answer": "The need to fulfil one's full potential."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does Maslow's theory explain motivation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why must lower-level needs be satisfied before higher-level needs?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the role of esteem needs in motivation.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.6",
+   "title": "Financial and Non-Financial Incentives",
+   "section": "7.6",
+   "definition": "Financial incentives are monetary rewards such as pay, bonus and profit-sharing that satisfy physiological and safety needs, while non-financial incentives are non-monetary rewards such as recognition, career advancement and job enrichment that satisfy higher-level needs.",
+   "formula": "",
+   "key_idea": "Incentives motivate employees; financial incentives are monetary rewards satisfying lower needs, while non-financial incentives satisfy higher psychological and social needs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are financial incentives?",
+    "What are non-financial incentives?",
+    "Distinguish between financial and non-financial incentives.",
+    "Give examples of non-financial incentives used to motivate employees.",
+    "Why are non-financial incentives important even when financial incentives are provided?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define financial incentives",
+     "explain": "Financial incentives are monetary rewards such as salary, bonus, commission, profit-sharing and retirement benefits that satisfy physiological and safety needs."
+    },
+    {
+     "step": 2,
+     "action": "Define non-financial incentives",
+     "explain": "Non-financial incentives are non-monetary rewards such as recognition, status, career advancement, job enrichment and job security that satisfy social, esteem and self-actualisation needs."
+    },
+    {
+     "step": 3,
+     "action": "Compare and apply",
+     "explain": "Financial incentives satisfy lower-level needs directly through money, while non-financial incentives satisfy higher-level needs and are often more lasting; managers use a mix of both."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are financial incentives?",
+     "solution": "Financial incentives are monetary rewards such as pay, bonus, commission, profit-sharing and retirement benefits that satisfy physiological and safety needs.",
+     "answer": "Monetary rewards like pay and bonus."
+    },
+    {
+     "question": "What are non-financial incentives?",
+     "solution": "Non-financial incentives are non-monetary rewards such as recognition, career advancement, job enrichment and status that satisfy higher-level needs.",
+     "answer": "Non-monetary rewards like recognition and career advancement."
+    },
+    {
+     "question": "Distinguish between financial and non-financial incentives.",
+     "solution": "Financial incentives are monetary and satisfy lower needs; non-financial incentives are non-monetary and satisfy higher needs such as esteem and self-actualisation.",
+     "answer": "Financial are monetary for lower needs; non-financial are non-monetary for higher needs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give examples of non-financial incentives used to motivate employees.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are non-financial incentives important even when financial incentives are provided?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain profit-sharing as a financial incentive.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.7",
+   "title": "Leadership Styles: Autocratic, Democratic and Laissez-Faire",
+   "section": "7.7",
+   "definition": "Leadership style is the manner in which a leader directs, guides and influences subordinates; the three main styles are autocratic (centralised decisions), democratic (participative decisions) and laissez-faire (freedom to subordinates).",
+   "formula": "",
+   "key_idea": "Leadership styles differ in how decisions are made -- autocratic leaders decide alone, democratic leaders consult subordinates, and laissez-faire leaders give full freedom to subordinates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main styles of leadership?",
+    "Explain autocratic leadership with an example.",
+    "What is democratic leadership?",
+    "Describe laissez-faire leadership.",
+    "Compare autocratic, democratic and laissez-faire leadership styles."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three leadership styles",
+     "explain": "The three main leadership styles are autocratic, democratic and laissez-faire."
+    },
+    {
+     "step": 2,
+     "action": "Explain each style",
+     "explain": "Autocratic leaders centralise authority and decide alone; democratic leaders involve subordinates in decisions; laissez-faire leaders give subordinates full freedom with minimal interference."
+    },
+    {
+     "step": 3,
+     "action": "Compare the styles",
+     "explain": "Autocratic is fast but reduces motivation; democratic improves motivation and commitment; laissez-faire suits highly skilled and motivated teams but may cause lack of direction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main styles of leadership?",
+     "solution": "The three main styles of leadership are autocratic, democratic and laissez-faire.",
+     "answer": "Autocratic, democratic and laissez-faire."
+    },
+    {
+     "question": "Explain autocratic leadership with an example.",
+     "solution": "An autocratic leader centralises authority and takes all decisions alone; for example, a factory manager who fixes production targets without consulting workers.",
+     "answer": "A leader who decides alone without consulting subordinates."
+    },
+    {
+     "question": "What is democratic leadership?",
+     "solution": "Democratic leadership is a participative style where the leader consults subordinates and involves them in decision-making.",
+     "answer": "A participative style involving subordinates in decisions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe laissez-faire leadership.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compare autocratic, democratic and laissez-faire leadership styles.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which leadership style is most suitable for a skilled and motivated team?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.8",
+   "title": "Communication: Formal and Informal, Upward and Downward",
+   "section": "7.8",
+   "definition": "Communication is the process of exchanging information, ideas and feelings between two or more people; formal communication follows official channels while informal communication flows through social relations, and it can be upward (subordinate to superior) or downward (superior to subordinate).",
+   "formula": "",
+   "key_idea": "Communication is the exchange of information; it can be formal or informal, and flow upward from subordinates or downward from superiors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is communication in management?",
+    "Distinguish between formal and informal communication.",
+    "What is upward communication? Give an example.",
+    "What is downward communication? Give an example.",
+    "Why is both upward and downward communication necessary in an organisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define communication",
+     "explain": "Communication is the process of exchanging information, ideas and feelings between two or more people to create understanding."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish formal and informal communication",
+     "explain": "Formal communication follows officially prescribed channels and rules, while informal communication flows through social and personal relations among employees."
+    },
+    {
+     "step": 3,
+     "action": "Explain upward and downward communication",
+     "explain": "Upward communication flows from subordinates to superiors (e.g., reports, suggestions); downward communication flows from superiors to subordinates (e.g., orders, instructions)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is communication in management?",
+     "solution": "Communication is the process of exchanging information, ideas and feelings between two or more people to create mutual understanding.",
+     "answer": "Exchanging information and ideas between people."
+    },
+    {
+     "question": "Distinguish between formal and informal communication.",
+     "solution": "Formal communication follows official channels and rules, while informal communication flows through personal and social relations among employees.",
+     "answer": "Formal uses official channels; informal uses social relations."
+    },
+    {
+     "question": "What is upward communication? Give an example.",
+     "solution": "Upward communication flows from subordinates to superiors, such as a worker submitting a performance report to the manager.",
+     "answer": "Communication from subordinates to superiors, e.g., a performance report."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is downward communication? Give an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is both upward and downward communication necessary in an organisation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the importance of informal communication.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.7.9",
+   "title": "Barriers to Communication",
+   "section": "7.9",
+   "definition": "Barriers to communication are obstacles that hinder the effective flow of information between sender and receiver; they include semantic barriers (language, symbols), organisational barriers (rules, hierarchy) and psychological barriers (attitudes, perception).",
+   "formula": "",
+   "key_idea": "Communication barriers -- semantic, organisational and psychological -- obstruct the flow of information and reduce the effectiveness of communication.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are barriers to communication?",
+    "Explain semantic barriers to communication.",
+    "What are organisational barriers to communication?",
+    "How do psychological barriers affect communication?",
+    "How can barriers to communication be overcome?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define communication barriers",
+     "explain": "Barriers to communication are obstacles that prevent or distort the effective flow of information between sender and receiver."
+    },
+    {
+     "step": 2,
+     "action": "Classify the barriers",
+     "explain": "Barriers are classified as semantic (faulty translations, unclear symbols), organisational (rigid rules, long hierarchy) and psychological (prejudices, lack of attention)."
+    },
+    {
+     "step": 3,
+     "action": "Suggest remedies",
+     "explain": "Barriers can be overcome by using clear language, simplifying the organisational structure, encouraging feedback and improving listening."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are barriers to communication?",
+     "solution": "Barriers to communication are obstacles that hinder the effective flow of information between sender and receiver.",
+     "answer": "Obstacles that hinder effective information flow."
+    },
+    {
+     "question": "Explain semantic barriers to communication.",
+     "solution": "Semantic barriers arise from problems with language and symbols, such as unclear words, faulty translations or unfamiliar technical terms.",
+     "answer": "Barriers caused by unclear language and symbols."
+    },
+    {
+     "question": "How do psychological barriers affect communication?",
+     "solution": "Psychological barriers such as prejudice, lack of attention and closed-mindedness distort the understanding of the message.",
+     "answer": "They distort understanding through attitudes and perception."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are organisational barriers to communication?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can barriers to communication be overcome?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give an example of a semantic barrier.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

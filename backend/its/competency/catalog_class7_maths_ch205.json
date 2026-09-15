@@ -1,0 +1,412 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 205,
+ "chapter_title": "Connecting the Dots...",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp205.txt",
+ "concepts": [
+  {
+   "id": "gegp.5.1.1",
+   "title": "Statistical Questions",
+   "section": "5.1",
+   "definition": "A question that can be answered by gathering data where the responses are expected to vary rather than being a single, constant value.",
+   "formula": "none",
+   "key_idea": "Anticipates variability in the collected data rather than a single deterministic answer.",
+   "textbook_ref": "gegp205.txt lines 20-45",
+   "question_patterns": [
+    "Identify if the question is a statistical question",
+    "Which of the following are statistical questions",
+    "Is this a statistical question or not",
+    "Explain why a question is considered statistical",
+    "explain statistical questions with an example",
+    "short note on statistical questions",
+    "why is statistical questions important",
+    "give one everyday example of statistical questions",
+    "describe statistical questions in your own words",
+    "what do you understand by statistical questions",
+    "list the main points about statistical questions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the nature of the question",
+     "explain": "Check if answering the question requires collecting data that varies across different subjects or times."
+    },
+    {
+     "step": 2,
+     "action": "Determine if there is variability",
+     "explain": "If the responses can differ (e.g., heights of students, daily temperatures), it is a statistical question. If it has a single fixed answer, it is not."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.1",
+   "title": "Arithmetic Mean",
+   "section": "5.2",
+   "definition": "The representative value of a dataset calculated by dividing the sum of all the values by the total count of those values.",
+   "formula": "mean = sum_of_values / count_of_values",
+   "key_idea": "Represents the equal-share or fair-share value of a dataset.",
+   "textbook_ref": "gegp205.txt lines 80-110",
+   "question_patterns": [
+    "Find the average of the given numbers",
+    "Calculate the arithmetic mean of the dataset",
+    "What is the mean value of the observations",
+    "Find the average runs scored by the player",
+    "explain arithmetic mean with an example",
+    "short note on arithmetic mean",
+    "why is arithmetic mean important",
+    "give one everyday example of arithmetic mean",
+    "describe arithmetic mean in your own words",
+    "what do you understand by arithmetic mean",
+    "list the main points about arithmetic mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum all the values in the dataset",
+     "explain": "Add all the given numerical observations together."
+    },
+    {
+     "step": 2,
+     "action": "Divide the sum by the count of values",
+     "explain": "Divide the total sum by the number of observations to find the mean.",
+     "compute": "mean = total_sum / count_of_values"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.2",
+   "title": "Median of Odd-Sized Dataset",
+   "section": "5.2",
+   "definition": "The middle value of an ordered dataset containing an odd number of elements, dividing the data into two equal halves.",
+   "formula": "median = middle_value",
+   "key_idea": "The exact center value of sorted data when the count is odd.",
+   "textbook_ref": "gegp205.txt lines 210-225",
+   "question_patterns": [
+    "Find the median of the given odd-sized dataset",
+    "Calculate the median value for the odd number of observations",
+    "What is the middle value of the sorted data",
+    "Find the median height of the family",
+    "explain median of odd-sized dataset with an example",
+    "short note on median of odd-sized dataset",
+    "why is median of odd-sized dataset important",
+    "give one everyday example of median of odd-sized dataset",
+    "describe median of odd-sized dataset in your own words",
+    "what do you understand by median of odd-sized dataset",
+    "list the main points about median of odd-sized dataset"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the middle value of the sorted dataset",
+     "explain": "Since the dataset has an odd number of elements, the median is the single middle value."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.3",
+   "title": "Median of Even-Sized Dataset",
+   "section": "5.2",
+   "definition": "The average of the two middlemost values in an ordered dataset containing an even number of elements.",
+   "formula": "median = (middle_val_1 + middle_val_2) / 2",
+   "key_idea": "The average of the two central values when the dataset cannot be split by a single middle element.",
+   "textbook_ref": "gegp205.txt lines 225-240",
+   "question_patterns": [
+    "Find the median of the given even-sized dataset",
+    "Calculate the median value for the even number of observations",
+    "What is the average of the two middle values of the sorted data",
+    "Find the median height when there are an even number of students",
+    "explain median of even-sized dataset with an example",
+    "short note on median of even-sized dataset",
+    "why is median of even-sized dataset important",
+    "give one everyday example of median of even-sized dataset",
+    "describe median of even-sized dataset in your own words",
+    "what do you understand by median of even-sized dataset",
+    "list the main points about median of even-sized dataset"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two middle elements in the sorted dataset",
+     "explain": "Find the two central elements of the sorted even-sized dataset.",
+     "compute": "sum_of_middles = middle_val_1 + middle_val_2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate their average",
+     "explain": "Divide the sum of the two middle elements by 2 to find the median.",
+     "compute": "median = sum_of_middles / 2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.4",
+   "title": "Range of a Dataset",
+   "section": "5.2",
+   "definition": "The difference between the maximum and minimum values in a dataset, which measures the spread or variability of the data.",
+   "formula": "range = max_value - min_value",
+   "key_idea": "Measures the total spread between the extreme values of a dataset.",
+   "textbook_ref": "gegp205.txt lines 140-155",
+   "question_patterns": [
+    "Find the range of the given data",
+    "Calculate the difference between the maximum and minimum values",
+    "What is the spread of the dataset",
+    "Find the range of onion prices",
+    "explain range of a dataset with an example",
+    "short note on range of a dataset",
+    "why is range of a dataset important",
+    "give one everyday example of range of a dataset",
+    "describe range of a dataset in your own words",
+    "what do you understand by range of a dataset",
+    "list the main points about range of a dataset"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the minimum value from the maximum value",
+     "explain": "Identify the highest and lowest values in the dataset and find their difference.",
+     "compute": "range = max_value - min_value"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.5",
+   "title": "Outliers",
+   "section": "5.2",
+   "definition": "Values in a dataset that deviate significantly from the rest of the observations, which can heavily skew the mean but have little effect on the median.",
+   "formula": "none",
+   "key_idea": "Extreme values that distort the mean but leave the median relatively unaffected.",
+   "textbook_ref": "gegp205.txt lines 240-270",
+   "question_patterns": [
+    "Identify the outlier in the given dataset",
+    "Which value is significantly different from the others",
+    "Explain the effect of an outlier on the mean and median",
+    "How does the extreme value affect the average",
+    "explain outliers with an example",
+    "short note on outliers",
+    "why is outliers important",
+    "give one everyday example of outliers",
+    "describe outliers in your own words",
+    "what do you understand by outliers",
+    "list the main points about outliers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Look for extreme values",
+     "explain": "Examine the dataset for any values that are much larger or much smaller than the rest of the data points."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact on central tendencies",
+     "explain": "Observe how removing or adding this extreme value changes the mean and median."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.1",
+   "title": "Double Bar Graph",
+   "section": "5.3",
+   "definition": "A visual representation of data using pairs of adjacent bars of different colors or patterns to compare two different groups or categories side-by-side.",
+   "formula": "none",
+   "key_idea": "Enables direct visual comparison between two related groups of data across categories.",
+   "textbook_ref": "gegp205.txt lines 380-410",
+   "question_patterns": [
+    "Draw a double bar graph for the given data",
+    "Interpret the double bar graph",
+    "Compare the two groups using a clustered column graph",
+    "What does the double bar graph show",
+    "explain double bar graph with an example",
+    "short note on double bar graph",
+    "why is double bar graph important",
+    "give one everyday example of double bar graph",
+    "describe double bar graph in your own words",
+    "what do you understand by double bar graph",
+    "list the main points about double bar graph"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the axes and scale",
+     "explain": "Draw horizontal and vertical axes, choosing an appropriate scale for the numerical values."
+    },
+    {
+     "step": 2,
+     "action": "Plot paired bars for each category",
+     "explain": "Draw two adjacent bars of different colors/patterns for each category representing the two groups being compared."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.2",
+   "title": "Dot Plot",
+   "section": "5.2",
+   "definition": "A simple chart consisting of data points plotted as dots on a number line, showing the frequency and distribution of values.",
+   "formula": "none",
+   "key_idea": "Visualizes the frequency, clusters, and gaps in small datasets.",
+   "textbook_ref": "gegp205.txt lines 155-180",
+   "question_patterns": [
+    "Construct a dot plot for the given data",
+    "How to represent the data on a dot plot",
+    "Analyze the distribution of values using a dot plot",
+    "Mark the mean and median on the dot plot",
+    "explain dot plot with an example",
+    "short note on dot plot",
+    "why is dot plot important",
+    "give one everyday example of dot plot",
+    "describe dot plot in your own words",
+    "what do you understand by dot plot",
+    "list the main points about dot plot"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw a horizontal number line",
+     "explain": "Label the number line with equal intervals covering the range of the dataset."
+    },
+    {
+     "step": 2,
+     "action": "Place dots above the corresponding values",
+     "explain": "For each occurrence of a data value, place a dot vertically stacked above that number on the line."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp205.txt lines 95-110",
+   "concept": "gegp.5.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the average runs scored by Shubman if his scores in {count_of_values} matches are 23, 7, 10, 52, 18 with a total of {sum_of_values} runs.",
+   "extracted_variables": {
+    "sum_of_values": 110,
+    "count_of_values": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the sum of all data values.",
+     "explain": "The total runs scored is 110.",
+     "compute": "total_sum = sum_of_values"
+    },
+    {
+     "step": 2,
+     "action": "Divide the total sum by the number of data points.",
+     "explain": "Divide 110 by 5 to get the mean.",
+     "compute": "mean = total_sum / count_of_values"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp205.txt lines 210-225",
+   "concept": "gegp.5.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the median height of Poovizhi's family with sorted heights of 118, 165, 170, 173, 175 where the middle value is {middle_value}.",
+   "extracted_variables": {
+    "middle_value": 170
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the middle value of the sorted dataset",
+     "explain": "Since there are 5 elements, the middle element is the 3rd one, which is 170.",
+     "compute": "median = middle_value"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp205.txt lines 225-240",
+   "concept": "gegp.5.2.3",
+   "question_type": "compute",
+   "question_pattern": "Find the median height of Yaangba's family with sorted heights of 155, 160, 164, 165, 169, 173 where the two middle values are {middle_val_1} and {middle_val_2}.",
+   "extracted_variables": {
+    "middle_val_1": 164,
+    "middle_val_2": 165
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the two middle elements in the sorted dataset",
+     "explain": "The two middle elements are 164 and 165.",
+     "compute": "sum_of_middles = middle_val_1 + middle_val_2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate their average",
+     "explain": "Divide the sum of the middle elements by 2 to get the median.",
+     "compute": "median = sum_of_middles / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gegp205.txt lines 140-155",
+   "concept": "gegp.5.2.4",
+   "question_type": "compute",
+   "question_pattern": "Find the range of onion prices in Yahapur if the maximum price is {max_value} and the minimum price is {min_value}.",
+   "extracted_variables": {
+    "max_value": 59,
+    "min_value": 24
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the minimum value from the maximum value",
+     "explain": "Subtract the minimum price 24 from the maximum price 59.",
+     "compute": "range = max_value - min_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "fig1.1",
+   "source_ref": "gegp205.txt lines 115-135",
+   "questions": [
+    "Shreyas counts the number of times he can bounce the ball on the bat: 6, 2, 9, 5, 4, 6, 3, 5. Calculate the average number of bounces.",
+    "Two friends are training to run a 100 m race. Nikhil: 17, 18, 17, 16, 19, 17, 18; Sunil: 20, 18, 18, 17, 16, 16, 17. Who on average ran quicker?",
+    "The enrolment in a school during six consecutive years was as follows: 1555, 1670, 1750, 2013, 2040, 2126. Find the mean enrolment in the school during this period."
+   ]
+  },
+  {
+   "id": "fig2.1",
+   "source_ref": "gegp205.txt lines 310-340",
+   "questions": [
+    "Find the median of onion prices in Yahapur and Wahapur.",
+    "Sanskruti asked her class how many domestic animals and pets each had at home: 0, 1, 0, 4, 8, 0, 0, 2, 1, 1, 5, 3, 4, 0, 0, \u2014, 10, 25, 2, \u2014, 2, 4. Find the mean and median.",
+    "The daily water usage from a tap was measured: 5.6, 8, 3.09, 12.9, 6.5, 12.1, 11.3, 20.5, 7.4. Can the mean or median daily usage lie between 25 and 30? Can the mean or median be lesser than the minimum value or greater than the maximum value in a data?"
+   ]
+  },
+  {
+   "id": "fig3.1",
+   "source_ref": "gegp205.txt lines 480-510",
+   "questions": [
+    "Preyashi asked her students if they would choose to become aquatic, aerial, or spaceborne. Draw a double-bar graph comparing Grade 5 and Grade 9 choices.",
+    "The temperature variation over two days in different months in Jodhpur, Rajasthan, is given. Draw a double-bar graph using the scale 1 unit = 4\u00b0C."
+   ]
+  },
+  {
+   "id": "fig4.1",
+   "source_ref": "gegp205.txt lines 610-650",
+   "questions": [
+    "The points scored by each player in four games are given: Player A (14, 16, 10, 10), Player B (0, 8, 6, 4), Player C (8, 11, Did not play, 13). Find the average number of points scored per game by A. To find the mean number of points scored per game by C, would you divide the total points by 3 or by 4? Why? Who is the best performer?",
+    "The marks (out of 100) obtained by a group of students in a GK quiz are 85, 76, 90, 85, 39, 48, 56, 95, 81 and 75. Another group's scores are 68, 59, 73, 86, 47, 79, 90, 93 and 86. Compare and describe both groups' performance using mean and median.",
+    "There are two 7th grade sections at a school. Each section has 15 boys and 15 girls. In one section, the mean height of students is 154.2 cm. What must be true about the mean height of students in the other section?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

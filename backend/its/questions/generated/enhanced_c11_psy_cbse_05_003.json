@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_003",
+   "title": "c11_psy_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define extinction in classical conditioning and state one factor that increases resistance to extinction.",
+     "a": "Extinction is the gradual decrease and eventual disappearance of a conditioned response when the conditioned stimulus is repeatedly presented without the unconditioned stimulus. One factor that increases resistance to extinction is using partial (intermittent) reinforcement during acquisition instead of continuous reinforcement. A wrong answer (e.g., \"extinction means the animal forgets the association\") reveals the misconception that extinction erases the original memory, rather than creating a new inhibitory association that competes with the original excitatory one.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Spontaneous recovery proves that extinction permanently erases the conditioned response.\" Explain why this statement is incorrect using the concept of inhibitory learning.",
+     "a": "Spontaneous recovery demonstrates that the original excitatory association (CS–US) is not erased during extinction; instead, extinction creates a new inhibitory association (CS–no US) that temporarily suppresses the CR. After a rest period, the inhibitory association weakens more than the excitatory one, allowing the CR to reappear. If a student claims extinction permanently erases the CR, they confuse performance (behavioural output) with learning (underlying association), a classic misunderstanding of the difference between acquisition and extinction processes.",
+     "self_check": true
+    },
+    {
+     "q": "A child develops a fear of a white rat after it is paired with a loud noise (US). Later, the child also shows fear when seeing a white rabbit, a cotton ball, and a Santa Claus beard. Identify the phenomenon and explain why the fear generalises more to the rabbit than to the cotton ball.",
+     "a": "The phenomenon is stimulus generalisation. Fear generalises more to the rabbit because it shares more perceptual features (colour, texture, size, shape) with the original CS (white rat) than the cotton ball does. Generalisation gradients show that response strength decreases as the new stimulus deviates more from the original CS. A wrong answer (e.g., \"the child is just scared of everything white\") indicates the student does not understand that generalisation is a systematic function of stimulus similarity, not a random or all-or-none spread.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast extinction in classical conditioning with extinction in operant conditioning (from node c11_psy_cbse_05_004) in terms of (a) what is withheld, (b) the role of the organism, and (c) the typical shape of the extinction curve.",
+     "a": "(a) In classical extinction, the US is withheld while the CS is presented; in operant extinction, the reinforcer is withheld after the operant response. (b) In classical conditioning the organism is passive (respondent); in operant conditioning the organism must actively emit the response to discover it is no longer reinforced. (c) Both show a gradual decline, but operant extinction often produces an initial burst of responding (extinction burst) not typically seen in classical extinction. A wrong answer that treats them as identical reveals failure to distinguish between S–S learning (classical) and R–S learning (operant) and the different procedural definitions of extinction.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher uses a tone (CS) paired with a shock (US) to condition a fear response in rats. After acquisition, she gives 20 extinction trials (tone alone). One group is tested for spontaneous recovery after 1 hour; another after 24 hours. Predict which group will show greater spontaneous recovery and justify using the textbook principle.",
+     "a": "The 24-hour group will show greater spontaneous recovery. The textbook states: \"The longer the duration of time lapsed, the greater is the recovery of learned response.\" This is because the inhibitory association formed during extinction decays over time, while the original excitatory association remains relatively stable. A wrong prediction (e.g., \"1-hour group recovers more because memory is fresher\") shows the student is applying a simple decay-of-memory model rather than the dual-process (excitatory vs. inhibitory) account of spontaneous recovery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life classroom demonstration of stimulus generalisation that does not involve fear or aversion. Specify the CS, US, CR, and at least two generalisation stimuli with predicted relative response strengths.",
+     "a": "Example: CS = a specific ringtone on the teacher's phone; US = the teacher distributing chocolate; CR = students feeling happy/excited and looking at the teacher. Generalisation stimuli: (1) a similar ringtone (same melody, different pitch) – strong CR; (2) a completely different ringtone (different melody) – weak CR. A good answer includes clear operational definitions and a logical similarity gradient. A poor answer (e.g., using a painful US or vague stimuli) indicates the student cannot translate the abstract concept into a concrete, ethical, and measurable demonstration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

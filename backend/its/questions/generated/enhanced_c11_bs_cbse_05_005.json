@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_005",
+   "title": "c11_bs_cbse_05_005",
+   "questions": [
+    {
+     "q": "List the three operational stages of an online transaction in their correct sequence as per NCERT.",
+     "a": "The three stages in sequence are: (1) Pre-purchase/sale stage (advertising and information-seeking), (2) Purchase/sale stage (price negotiation, closing deal, payment), (3) Delivery stage. A wrong answer (e.g., placing delivery before payment or merging pre-purchase with purchase) reveals the student has not internalized the NCERT's process view and may confuse the information-heavy stages with the physical fulfillment stage.",
+     "self_check": true
+    },
+    {
+     "q": "A customer orders a laptop online and chooses \"Cash on Delivery\". The delivery agent arrives, but the customer refuses to pay, claiming they never placed the order. Identify the specific transaction risk category this represents and name the NCERT-recommended verification tool that could have prevented it.",
+     "a": "This represents \"default on order taking/giving\" (seller denies order placed or customer denies placing order). The recommended verification tool is \"cookies\" which verify customer details at registration (similar to caller ID). A wrong answer (e.g., calling it \"default on payment\" or suggesting SSL as the fix) shows the student cannot distinguish between the three default types (order, delivery, payment) and conflates identity verification with data encryption.",
+     "self_check": true
+    },
+    {
+     "q": "A small business owner wants to sell handmade crafts online. She has no technical staff, limited capital, and her target customers are in remote areas with poor internet but good postal service. Recommend the most suitable payment mechanism from the NCERT list and justify using two criteria: settlement timing and infrastructure requirement.",
+     "a": "Cash on Delivery (CoD) is most suitable. Settlement timing: payment occurs at physical delivery (no advance payment risk for buyer, no payment gateway needed for seller). Infrastructure requirement: zero digital infrastructure at seller's end; only postal/courier network needed. A wrong recommendation (e.g., net-banking or digital cash) reveals the student cannot match payment mechanism characteristics to business context constraints and ignores the \"digital divide\" limitation mentioned in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Net-banking Transfer (NEFT/RTGS/IMPS)\" and \"Digital Cash\" on the following dimensions: (a) need for pre-loading funds, (b) role of bank during transaction, (c) settlement finality. Present as a table.",
+     "a": "| Dimension | Net-banking Transfer | Digital Cash |\n|-----------|----------------------|--------------|\n| (a) Pre-loading funds | Not required; transfers directly from linked account | Required; user must first pay bank to issue digital cash |\n| (b) Bank's role during transaction | Real-time intermediary (verifies balance, transfers funds) | Passive issuer; transaction occurs via software without bank involvement |\n| (c) Settlement finality | Immediate (IMPS) or batch (NEFT/RTGS); reversible only via dispute | Instant and final; resembles physical cash handover |\nA poor answer (e.g., claiming both need pre-loading or both involve real-time bank mediation) indicates the student memorized mechanism names but not their operational logic.",
+     "self_check": true
+    },
+    {
+     "q": "\"SSL (Secure Sockets Layer) encryption is the only security measure needed for safe online transactions.\" Evaluate this statement using NCERT's three risk categories.",
+     "a": "The statement is false. SSL only addresses data transmission risks (interception/modification en route). It does not mitigate: (1) Transaction risks (default on order/delivery/payment) which require identity verification, cookies, and payment authorization systems; (2) Data storage risks (virus/hacking on servers) which need anti-virus, firewalls, and access controls; (3) Privacy/IP risks (data misuse, junk mail) which require legal frameworks (IT Act 2000) and privacy policies. A student agreeing with the statement shows a \"silver bullet\" misconception—believing one technical tool solves all e-business risks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step security protocol for a new B2C e-commerce startup that sells downloadable software. The protocol must address all three NCERT risk categories using only tools mentioned in the chapter. Explain the purpose of each step.",
+     "a": "Example protocol:\n1. **Registration with email/phone OTP + cookie storage** – mitigates transaction risk (default on order) by verifying identity/location at sign-up.\n2. **Mandatory SSL/TLS encryption for all payment pages** – mitigates data transmission risk (interception of card details).\n3. **Digital signature on license agreement + IT Act 2000 compliant electronic record retention** – mitigates transaction risk (default on payment/delivery) and gives legal enforceability.\n4. **Automated anti-virus scan of downloadable files + privacy policy opt-in** – mitigates data storage risk (virus) and privacy risk (unauthorized data use).\nA weak answer (e.g., only listing SSL and anti-virus) reveals inability to map tools to all three risk categories and omission of legal/organizational measures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

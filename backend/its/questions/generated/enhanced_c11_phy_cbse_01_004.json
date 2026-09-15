@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_004",
+   "title": "c11_phy_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the rule for determining the number of significant figures in the result of a multiplication or division involving measured quantities.",
+     "a": "In multiplication or division, the final result should retain as many significant figures as the original number with the least significant figures. A wrong answer (e.g., \"the result should have the same number of decimal places\") reveals confusion between the rules for multiplication/division and addition/subtraction, indicating the student has not distinguished the two distinct rule sets.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the rule for addition/subtraction depend on decimal places rather than significant figures? Explain using an example where two measurements have the same number of significant figures but different decimal places.",
+     "a": "In addition/subtraction, the uncertainty is in the last decimal place. Example: 12.1 cm (3 SF, 1 decimal) + 0.034 cm (2 SF, 3 decimals) = 12.134 cm. The least precise measurement (12.1 cm) has uncertainty in the tenths place, so the sum must be rounded to 12.1 cm. A student who says \"both have 3 and 2 SF so answer should have 2 SF\" misunderstands that alignment of decimal places, not SF count, governs precision in addition.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the density of a metal block with mass = 24.36 g (measured on a balance of least count 0.01 g) and volume = 8.2 cm³ (measured by water displacement with least count 0.1 cm³). Express the answer with correct significant figures and units.",
+     "a": "Step 1: Identify significant figures: mass = 24.36 g (4 SF), volume = 8.2 cm³ (2 SF). Step 2: Division rule → result limited to 2 SF. Step 3: Density = 24.36 / 8.2 = 2.9707... g/cm³. Step 4: Round to 2 SF → 3.0 g/cm³. Step 5: Check units: g/cm³ is correct for density. A wrong answer like 2.97 g/cm³ reveals the student used the SF of mass (4) instead of the least SF (2), or failed to round up the second digit because the third digit is 7 (>5).",
+     "self_check": true
+    },
+    {
+     "q": "A student adds three lengths: 436.32 m, 227.2 m, and 0.301 m. The calculator shows 663.821 m. The student writes the final answer as 663.8 m. Another student writes 664 m. Analyze both answers and determine which is correct, explaining the reasoning.",
+     "a": "The correct answer is 663.8 m. The term with the least decimal places is 227.2 m (1 decimal place). Therefore, the sum must be rounded to 1 decimal place: 663.821 → 663.8 m. The second student's answer (664 m) incorrectly applies the multiplication/division rule (3 SF from 227.2) or rounds to the nearest whole number, ignoring the decimal-place rule for addition. This reveals confusion between the two arithmetic rules.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"In a multi-step calculation involving both addition and multiplication, you should round off each intermediate result to the correct significant figures before proceeding to the next step.\" Is this correct? Justify your answer.",
+     "a": "The statement is incorrect. NCERT explicitly states: \"In any involved or complex multi-step calculation, you should retain, in intermediate steps, one digit more than the significant digits and round off to proper significant figures at the end of the calculation.\" Rounding intermediate steps introduces rounding errors that accumulate. A student who agrees with the statement has not read the caution about rounding errors building up (Example: reciprocal of 9.58).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale (least count 0.1 cm) and a stopwatch (least count 0.1 s) to determine the average speed of a toy car. List the measurements you would take, the formula you would use, and explain how you would apply significant figure rules to report the final speed.",
+     "a": "Measure distance (e.g., 200.0 cm, 4 SF) and time for 5 trials (e.g., 4.2 s, 4.3 s, 4.1 s, 4.4 s, 4.2 s — each 2 SF). Average time = (sum)/5 = 21.2/5 = 4.24 s (retain 3 SF in intermediate). Speed = distance/time = 200.0/4.24 = 47.169... cm/s. Distance has 4 SF, time has 2 SF (least precise measurement is 2 SF), so final speed = 47 cm/s (2 SF). A poor answer would ignore the least count of instruments, use only one time trial, or round intermediate average to 4.2 s prematurely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

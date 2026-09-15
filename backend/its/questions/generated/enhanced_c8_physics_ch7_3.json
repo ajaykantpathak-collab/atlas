@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_3",
+   "title": "c8_physics_ch7_3",
+   "questions": [
+    {
+     "q": "What is the name of the Moon phase when the entire sunlit side of the Moon faces Earth, making the Moon appear as a complete bright circle?",
+     "a": "Full Moon. A wrong answer (e.g., \"New Moon\" or \"Quarter Moon\") reveals the student cannot match the phase name to the fraction of the visible illuminated hemisphere, indicating a basic recall gap.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a Quarter Moon appear as a half-circle even though the Sun illuminates exactly half of the Moon's sphere at that moment?",
+     "a": "At Quarter phase, the Sun-Earth-Moon angle is 90°, so we see exactly half of the Moon's near side lit—one quarter of the whole sphere. A wrong answer (e.g., \"Earth's shadow covers half\") shows the student confuses phases with eclipses and does not understand that phases result from viewing geometry, not shadowing.",
+     "self_check": true
+    },
+    {
+     "q": "If you observe the Moon in the evening sky and it looks like a thick, convex shape more than half but not fully illuminated, which phase name applies? Explain how you decided.",
+     "a": "Waxing Gibbous (or simply Gibbous). The student must recognize \"more than half but not full\" as the definition of gibbous. A wrong answer (e.g., \"Crescent\" or \"Quarter\") indicates the student cannot map the visual appearance to the correct phase vocabulary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geometry of a Crescent Moon and a Gibbous Moon. What is the same and what is different about the Sun-Earth-Moon angles in these two phases?",
+     "a": "Both have the Moon on the same side of Earth as the Sun (for waxing phases) or opposite (for waning), but the angle differs: Crescent occurs when the angle is small (<90°), showing a thin lit sliver; Gibbous occurs when the angle is large (>90°), showing most of the near side lit. A wrong answer that says \"Earth's shadow is smaller for Gibbous\" again reveals the eclipse misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"During New Moon, the Moon is between Earth and the Sun, so Earth's shadow falls on the Moon and makes it dark.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. New Moon occurs because the Moon's near side is completely unlit from our view—the Sun illuminates the far side. Earth's shadow does not cause phases; it causes a lunar eclipse only when the alignment is exact. A wrong evaluation that agrees with the student shows the persistent misconception that phases are caused by Earth's shadow.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple month-long observation project that would let a Class 8 student distinguish between waxing and waning phases using only naked-eye sketches and the phase names learned here.",
+     "a": "A good project: sketch the Moon every clear night at the same time, label each sketch with the date and phase name (New, Crescent, Quarter, Gibbous, Full), and note whether the illuminated portion is growing (waxing) or shrinking (waning) from night to night. A poor answer that only lists phases without a systematic recording method shows the student cannot translate knowledge into a practical investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

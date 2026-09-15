@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_003",
+   "title": "c12_geo_cbse_02_003",
+   "questions": [
+    {
+     "q": "Name the four geographical factors that influence population distribution according to NCERT Class 12 Geography.",
+     "a": "The four factors are: (1) Availability of water, (2) Landforms, (3) Climate, (4) Soils. A wrong answer (e.g., listing minerals or urbanisation) reveals confusion between geographical and economic factors — the student has not distinguished the NCERT's two separate categories (Geographical vs Economic factors).",
+     "self_check": true
+    },
+    {
+     "q": "Why do river valleys like the Ganga-Brahmaputra delta support very high population densities while the Himalayan mountain zones are sparsely populated? Explain using two geographical factors.",
+     "a": "River valleys provide (1) abundant fresh water for drinking, irrigation, industry, and navigation, and (2) flat, fertile alluvial plains (landform + soil) ideal for intensive agriculture and transport networks. Himalayan zones lack these: steep slopes hinder farming/transport, soils are thin/immature, and extreme cold limits habitability. A wrong answer focusing only on \"water\" or only on \"flat land\" shows incomplete understanding of factor interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Region A has 500 mm annual rainfall, sandy soil, summer temperatures of 45°C, and flat terrain. Region B has 1500 mm rainfall, deep loamy soil, moderate temperatures (15–30°C), and gentle slopes. Which region would have higher population density? Justify using all four geographical factors.",
+     "a": "Region B. Water: 1500 mm vs 500 mm (adequate vs scarce). Climate: moderate vs extreme heat. Soil: fertile loam vs infertile sand. Landform: gentle slopes vs flat but harsh. All four factors favor Region B. A wrong choice of Region A (e.g., because it's flat) reveals overemphasis on a single factor and ignoring limiting factors like water and climate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population distribution patterns of the Nile Valley (Egypt) and the Amazon Basin (Brazil). Both have abundant water and flat landforms. Why is the Nile Valley densely populated while the Amazon Basin is sparsely populated? Analyze using climate and soil factors.",
+     "a": "Nile Valley: arid climate but predictable flooding deposits fertile silt (renewed soil fertility), enabling intensive irrigation agriculture. Amazon Basin: equatorial climate with heavy leaching creates infertile lateritic soils (poor nutrient retention), and dense rainforest hinders settlement/agriculture. A wrong answer attributing Amazon's low density only to \"dense forest\" misses the soil infertility caused by climate-driven leaching — a key geographical process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Technological advancements (e.g., desalination, air conditioning, greenhouses) have made geographical factors irrelevant for modern population distribution.\" Support your judgment with two examples.",
+     "a": "Statement is false. Technology modifies but does not eliminate geographical constraints. Example 1: Dubai uses desalination and AC but still has low *indigenous* population density — expatriate workers cluster in artificial environments; water/energy costs limit scalability. Example 2: Greenland has technology but remains sparse due to permafrost, short growing season, and isolation — soil and climate still dominate. A \"true\" answer reveals technological determinism misconception, ignoring carrying capacity and economic viability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a settlement plan for a hypothetical 10,000 km² region with: (a) a perennial river along the northern edge, (b) a central plateau at 1500 m with thin soil, (c) southern coastal plain with 2000 mm rainfall and alluvial soil, (d) western rain-shadow zone with 300 mm rainfall. Annotate where you would place high-density towns, low-density villages, and no-settlement zones. Explain each using geographical factors.",
+     "a": "High-density: southern coastal plain (water + fertile soil + moderate climate + flat land). Low-density: northern river edge (water but limited arable land if steep banks). No-settlement: central plateau (thin soil, cooler, difficult transport) and western rain-shadow (water scarcity). A poor plan placing towns on the plateau or rain-shadow zone shows failure to weigh limiting factors (soil, water) over single advantages (flat land).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

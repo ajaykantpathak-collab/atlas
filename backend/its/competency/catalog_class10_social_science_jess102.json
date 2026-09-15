@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Forest and Wildlife Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jess.102.2.1",
+   "title": "Biodiversity and Its Loss",
+   "section": "2",
+   "definition": "We share the planet with millions of living beings from micro-organisms and lichens to banyan trees, elephants and blue whales; this biodiversity is threatened as species vanish fastest today - through habitat destruction, hunting, poaching, over-exploitation, environmental pollution and forest fires.",
+   "formula": "-",
+   "key_idea": "Species vanish faster now than ever before - and the causes are human.",
+   "textbook_ref": "jess102.txt opening sections on biodiversity and its loss",
+   "question_patterns": [
+    "what is biodiversity - why does it matter for human survival",
+    "list the causes of depletion of forest and wildlife resources",
+    "how does habitat destruction endanger species - explain",
+    "name the communities that depend on forests and how they are affected",
+    "why are tigers and other large mammals hunted - discuss poaching",
+    "explain how environmental pollution threatens biodiversity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "measure the variety",
+     "explain": "Biodiversity ranges from microbes to whales across every habitat."},
+    {"step": 2, "action": "list the pressures",
+     "explain": "Habitat loss, poaching, pollution and fires drive species to extinction."},
+    {"step": 3, "action": "trace the injustice",
+     "explain": "Forest-dwelling communities often bear the cost of conservation."}
+   ]
+  },
+  {
+   "id": "jess.102.2.2",
+   "title": "Conservation of Forests and Wildlife",
+   "section": "2",
+   "definition": "Conservation safeguards the dwindling variety: the Indian Wildlife Protection Act of 1972 created schedules of protected species, national parks and sanctuaries, and projects like Project Tiger - while newer approaches involve local communities in Joint Forest Management so that protection and livelihoods go together.",
+   "formula": "-",
+   "key_idea": "Protect by law, involve by livelihood: acts, parks and Joint Forest Management together.",
+   "textbook_ref": "jess102.txt sections on conservation of forests and wildlife",
+   "question_patterns": [
+    "what is the Indian Wildlife Protection Act - state its provisions",
+    "describe Project Tiger and its purpose",
+    "what is Joint Forest Management - how do communities participate",
+    "how do national parks and sanctuaries protect wildlife",
+    "compare government-led and community-led conservation",
+    "give an example of successful community conservation from the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the legal shield",
+     "explain": "Acts and schedules place species and habitats under protection."},
+    {"step": 2, "action": "note the areas",
+     "explain": "Parks and sanctuaries reserve entire ecosystems."},
+    {"step": 3, "action": "note the people",
+     "explain": "Joint Forest Management shares protection duties and benefits with villagers."}
+   ]
+  },
+  {
+   "id": "jess.102.2.3",
+   "title": "Types and Distribution of Forests",
+   "section": "2",
+   "definition": "Forests are classified by management into reserved forests, protected forests and unclassed forests; India's forest cover is judged against the target of one-third of land area, and distribution varies sharply across states and regions.",
+   "formula": "-",
+   "key_idea": "Reserved, protected, unclassed: management status decides how safely a forest lives.",
+   "textbook_ref": "jess102.txt sections on types and distribution of forests",
+   "question_patterns": [
+    "differentiate reserved, protected and unclassed forests",
+    "what proportion of land should be under forest according to the national policy",
+    "which states have the largest forest cover - explain the reasons",
+    "why are reserved forests important for conservation",
+    "compare the forest cover of the given states",
+    "how does classification of forests help in their management"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "rank the protection",
+     "explain": "Reserved forests get the strongest protection, unclassed the least."},
+    {"step": 2, "action": "compare with the target",
+     "explain": "The national goal is one-third forest area; many regions fall short."},
+    {"step": 3, "action": "map the spread",
+     "explain": "Forest wealth concentrates unevenly across states and districts."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "jess102.txt exercises",
+   "questions": [
+     "Discuss the causes of depletion of forest resources.",
+     "Describe the role of communities in forest conservation with examples.",
+     "Distinguish reserved, protected and unclassed forests."
+   ]
+  }
+ ]
+}

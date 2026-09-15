@@ -1,0 +1,25 @@
+{
+  "class": 2,
+  "subject": "EVS",
+  "board": "CISCE",
+  "seed": 3199135104,
+  "count": 1,
+  "questions": [
+    {
+      "id": "c2evs_q001",
+      "type": "fill_blank",
+      "question": "We use the Living room for ________ in our home.",
+      "options": [],
+      "answer": "sitting and talking with family / watching TV",
+      "explanation": "The Living room is used for sitting and talking with family / watching TV. This is an important room in every home.",
+      "difficulty": "Easy",
+      "topic": "c2_evs_001",
+      "category": "standard",
+      "keywords": [
+        "living room",
+        "home"
+      ],
+      "steps": []
+    }
+  ]
+}

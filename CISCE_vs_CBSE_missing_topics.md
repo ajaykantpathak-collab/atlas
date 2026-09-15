@@ -1,0 +1,3577 @@
+=== CISCE TOPICS MISSING FROM CBSE (by subject, C6-12) ===
+=== Excluding English and Hindi ===
+
+=== physics (413 missing topics) ===
+  C6 (36):
+    - Physical quantities and units (length, mass, time, temperature)
+    - Measurement of length (ruler, measuring tape, curved line)
+    - Measurement of mass (beam balance, electronic balance)
+    - Measurement of time (clock, watch, stopwatch)
+    - Measurement of temperature (thermometer)
+    - Measurement of area (regular and irregular shapes using graph paper)
+    - Motion as change in position with time
+    - Rectilinear motion
+    - Circular motion
+    - Periodic motion
+    - Uniform and non-uniform motion
+    - Speed and average speed
+    - Force as a push or pull that changes state of motion
+    - Types of forces (contact and non-contact)
+    - Weight as the force of gravity on an object
+    - Pressure as force per unit area
+    - Energy as the capacity to do work
+    - Kinetic energy (energy of motion)
+    - Potential energy (energy of position)
+    - Light as a form of energy
+    - Rectilinear propagation of light
+    - Reflection of light (plane mirror)
+    - Image formation by plane mirror
+    - Heat as a form of energy
+    - Temperature and its measurement
+    - Thermal expansion due to heat
+    - Change of state due to heat
+    - Sound as a form of energy produced by vibration
+    - Propagation of sound through mediums
+    - Loudness of sound and amplitude
+    - Pitch of sound and frequency
+    - Electric circuit (cell, bulb, switch, wires)
+    - Open and closed circuits
+    - Magnet and its poles
+    - Attraction and repulsion between magnets
+    - Magnetic compass and finding directions
+  C7 (29):
+    - Particle nature of matter
+    - Solid state - properties and particle arrangement
+    - Liquid state - properties and particle arrangement
+    - Gaseous state - properties and particle arrangement
+    - Interconversion of states of matter
+    - Density as mass per unit volume
+    - Relative density and floating/sinking
+    - Friction and factors affecting friction
+    - Increasing and reducing friction
+    - Pressure in fluids (liquids and gases)
+    - Atmospheric pressure
+    - Law of conservation of energy
+    - Energy conversion between forms
+    - Concave mirror and its properties
+    - Convex mirror and its properties
+    - Image formation by concave mirror
+    - Image formation by convex mirror
+    - Convex lens and its properties
+    - Concave lens and its properties
+    - Reflection of sound
+    - Absorption of sound
+    - Echo
+    - Reverberation
+    - Circuit components (ammeter, voltmeter)
+    - Potential difference and voltage
+    - Ohm's law
+    - Machines and mechanical advantage - introduction to MA concept
+    - Levers - mechanical advantage and classes (I, II, III)
+    - Buoyancy and flotation - upthrust and floating/sinking
+  C8 (35):
+    - Kinetic theory of matter
+    - Three states of matter in terms of particle movement
+    - Energy content in the three states of matter
+    - Melting and fusion (solid to liquid)
+    - Boiling and vaporization (liquid to gas)
+    - Evaporation (surface phenomenon)
+    - Condensation (gas to liquid)
+    - Sublimation (solid directly to gas)
+    - Measurement of density of irregular solids (Eureka can, measuring cylinder)
+    - Floatation and sinking related to density
+    - Turning effect of force (moment of force)
+    - Pressure (definition, unit, calculation)
+    - Concept of work and its unit (joule)
+    - Kinetic energy (calculation)
+    - Potential energy (calculation, gravitational PE)
+    - Energy transformation in daily life
+    - Difference between energy and power
+    - Refraction of light
+    - Curved mirrors (concave and convex, terms, ray diagrams)
+    - Dispersion of white light into constituent colours
+    - Boiling and evaporation (differences)
+    - Linear expansion of solids
+    - Superficial (area) expansion of solids
+    - Volume (cubical) expansion of solids and liquids
+    - Pitch and frequency in musical instruments
+    - Loudness and amplitude (decibels)
+    - Static electricity and charge by friction
+    - Charging by conduction
+    - Charging by induction
+    - Electroscope
+    - Lightning conductor
+    - Household electrical energy (kWh)
+    - Household wiring (live, neutral, earth wires)
+    - Fuses and circuit breakers
+    - Dangers of electricity and safety measures
+  C9 (46):
+    - International System of Units (SI, cgs, fps)
+    - Least count of measuring instruments
+    - Vernier callipers
+    - Screw gauge
+    - Simple pendulum and measurement of time
+    - Scalar and vector quantities
+    - Distance and displacement
+    - Speed and velocity
+    - Acceleration and retardation
+    - Distance-time and velocity-time graphs
+    - Equations of uniformly accelerated motion
+    - Contact forces (frictional, normal, tension)
+    - Non-contact forces (gravitational, electric, magnetic)
+    - Newton's First Law of Motion (inertia)
+    - Newton's Second Law of Motion (F = ma)
+    - Linear momentum (p = mv)
+    - Rate of change of momentum (F = Deltap/Deltat)
+    - Newton's Third Law of Motion (action-reaction)
+    - Universal Law of Gravitation
+    - Acceleration due to gravity (free fall)
+    - Weight and mass comparison
+    - Pressure in fluids (p = hrhog)
+    - Pascal's law (transmission of pressure)
+    - Buoyancy and upthrust
+    - Archimedes' principle
+    - Floatation and relative density
+    - Heat as energy and its relationship to temperature
+    - Anomalous expansion of water
+    - Global warming and greenhouse effect
+    - Reflection of light and multiple images
+    - Spherical mirrors - terms and ray diagrams
+    - Spherical mirrors - mirror formula and sign convention
+    - Wave motion and types of mechanical waves
+    - Infrasonic frequencies
+    - Sonic (audible) frequencies
+    - Ultrasonic frequencies
+    - Electric charge and its quantisation
+    - Electric current as rate of flow of charge
+    - Potential difference (V = W/Q)
+    - Ohm's law and resistance
+    - Electric circuits (symbols, cells, circuit diagrams)
+    - Induced magnetism
+    - Earth's magnetic field and neutral points
+    - Levers - torque, equilibrium, and VR
+    - Elasticity and deformation of solids - stress and strain (introduction)
+    - Surface tension and capillary action - introduction (qualitative)
+  C10 (41):
+    - Turning effect of force and principle of moments
+    - Centre of gravity
+    - Types of equilibrium (stable, unstable, neutral)
+    - Work done (W = FS costheta)
+    - Power and its relation to work
+    - Conservation of energy (U + K = constant)
+    - Different forms of energy
+    - Energy conversion between forms
+    - Mechanical advantage (MA = L/E)
+    - Velocity ratio (VR = dE/dL)
+    - Efficiency of machines (eta = MA/VR)
+    - Levers (classes I, II, III with MA and VR)
+    - Pulley systems (single fixed, single movable, block and tackle)
+    - Refraction of light through glass block
+    - Refractive index and its relationship to speed, wavelength, frequency
+    - Total internal reflection and critical angle
+    - Lenses (convex and concave, ray diagrams, lens formula)
+    - Power of a lens and magnifying glass
+    - Dispersion and the visible spectrum
+    - Electromagnetic spectrum
+    - Scattering of light
+    - Reflection of sound waves and echoes
+    - Natural and damped vibrations
+    - Forced vibrations and resonance
+    - Loudness of sound
+    - Pitch of sound
+    - Quality (timbre) of sound
+    - Ohm's law, emf, and internal resistance
+    - Resistances in series and parallel
+    - Electrical power and energy
+    - House wiring and power distribution
+    - Electromagnetic induction
+    - Transformer
+    - Calorimetry and specific heat capacity
+    - Latent heat and change of state
+    - Radioactivity and nuclear structure
+    - Alpha, beta, and gamma decay
+    - Uses and hazards of radioisotopes
+    - Nuclear fission
+    - Nuclear fusion
+    - Electrostatics - Coulomb's law and charge interactions (introduction)
+  C11 (92):
+    - Systems of units (CGS, FPS, MKS, MKSA, SI)
+    - Significant figures and errors in measurement
+    - Dimensional formulae and dimensional analysis
+    - Applications and limitations of dimensional analysis
+    - Differentiation and integration for describing motion
+    - Kinematic equations using calculus
+    - Motion under gravity (one dimension)
+    - Scalars and vectors (general vectors, unit vectors)
+    - Vector addition (triangle law, parallelogram law)
+    - Resolution of vectors and rectangular components
+    - Scalar (dot) product
+    - Vector (cross) product
+    - Projectile motion
+    - Uniform circular motion
+    - Newton's First Law (inertia, force, mass)
+    - Newton's Second Law (F = dp/dt, F = ma)
+    - Linear momentum (p = mv)
+    - Impulse of a force (J = FDeltat = Deltap)
+    - Newton's Third Law and conservation of momentum
+    - Equilibrium of concurrent forces
+    - Static friction
+    - Kinetic and rolling friction
+    - Centripetal force and banking of roads
+    - Work done by a constant force (W = FS costheta)
+    - Work done by a variable force (integration)
+    - Potential energy and conservative forces
+    - Potential energy of a spring (U = 1/2kx^2)
+    - Conservation of mechanical energy
+    - Elastic collisions
+    - Inelastic collisions
+    - Power (P = W/t, P = Fxv)
+    - Centre of mass of a two-particle system
+    - Centre of mass of a rigid body
+    - Torque (tau = r x F)
+    - Angular momentum (L = r x p)
+    - Conservation of angular momentum
+    - Moment of inertia and radius of gyration
+    - Parallel and perpendicular axes theorems
+    - Variation of g with altitude, depth, and latitude
+    - Escape velocity
+    - Orbital velocity and satellites
+    - Geostationary satellites
+    - Polar satellites
+    - Elastic behaviour, stress and strain
+    - Hooke's law and Young's modulus
+    - Bulk modulus and shear modulus
+    - Pressure due to a fluid column (p = hrhog)
+    - Pascal's law and hydraulic machines
+    - Viscosity and coefficient of viscosity
+    - Stokes' law and terminal velocity
+    - Streamline and turbulent flow, Reynolds number
+    - Bernoulli's theorem
+    - Surface tension
+    - Surface energy
+    - Capillary rise
+    - Excess pressure across curved surfaces
+    - Thermal expansion of solids (linear, superficial, volume)
+    - Specific heat capacity and calorimetry
+    - Change of state and latent heat
+    - Heat transfer - conduction
+    - Heat transfer - convection
+    - Heat transfer - radiation
+    - Thermal conductivity and its measurement
+    - Blackbody radiation and Stefan's law
+    - Wien's displacement law
+    - Newton's law of cooling
+    - Thermal equilibrium and zeroth law
+    - Isothermal process
+    - Adiabatic process
+    - Work done in isothermal process
+    - Work done in adiabatic process
+    - Carnot cycle and efficiency
+    - Kinetic interpretation of temperature
+    - Degrees of freedom and equipartition of energy
+    - Mean free path and Avogadro's number
+    - Differential equation of SHM and its solution
+    - Energy in SHM (kinetic and potential)
+    - Simple pendulum
+    - Spring oscillator
+    - Transverse and longitudinal waves
+    - Principle of superposition and interference
+    - Standing waves in strings
+    - Standing waves in organ pipes
+    - Beats
+    - Doppler effect
+    - Refrigerator and coefficient of performance
+    - SHM of spring-mass systems (horizontal, vertical, pulley)
+    - Rolling motion (pure rolling, rolling with slipping)
+    - Two-dimensional collisions (oblique impact)
+    - Torricelli's theorem and velocity of efflux
+    - Non-inertial frames and pseudo force
+    - Law of limiting factors (Blackman's law)
+  C12 (134):
+    - Conservation and quantisation of charge
+    - Coulomb's law (vector form)
+    - Superposition principle for electric forces
+    - Continuous charge distribution (line, surface, volume)
+    - Electric field (concept, E = F/q_0)
+    - Electric field due to a point charge
+    - Electric dipole (concept and dipole moment)
+    - Electric field due to a dipole (axial and equatorial)
+    - Torque on a dipole in a uniform electric field
+    - Electric flux
+    - Gauss's theorem
+    - Field due to infinite line charge (Gauss)
+    - Field due to infinite plane sheet (Gauss)
+    - Field due to spherical shell (Gauss)
+    - Electric potential due to a dipole
+    - Equipotential surfaces
+    - Electrostatic PE of a point charge (U = qV)
+    - Electrostatic PE of a system of charges
+    - Capacitance (C = Q/V)
+    - Parallel plate capacitor (C = epsilon_0A/d)
+    - Combination of capacitors (series and parallel)
+    - Dielectrics and polarization
+    - Energy stored in a capacitor (U = 1/2CV^2)
+    - Drift velocity and mobility
+    - Ohm's law (microscopic derivation)
+    - Resistivity and conductivity
+    - Temperature dependence of resistance
+    - Emf and internal resistance
+    - Terminal voltage and lost volts
+    - Kirchhoff's laws
+    - Wheatstone bridge
+    - Metre bridge
+    - Potentiometer
+    - Magnetic field and Oersted's experiment
+    - Biot-Savart law
+    - Magnetic field due to circular loop
+    - Magnetic field due to solenoid
+    - Ampere's circuital law
+    - Force on a moving charge in a magnetic field (F = qv x B)
+    - Lorentz force (combined E and B fields)
+    - Force on a current-carrying conductor in a magnetic field
+    - Force between two parallel current-carrying conductors
+    - Torque on a current loop
+    - Moving coil galvanometer
+    - Galvanometer to ammeter
+    - Galvanometer to voltmeter
+    - Bar magnet as equivalent solenoid
+    - Magnetic field lines and properties
+    - Diamagnetic substances
+    - Paramagnetic substances
+    - Ferromagnetic substances
+    - Electromagnets and permanent magnets
+    - Magnetic flux
+    - Lenz's law
+    - Eddy currents
+    - Motional emf (epsilon = Blv)
+    - Self-induction and self-inductance
+    - Mutual induction and mutual inductance
+    - Transformer
+    - AC quantities (peak, mean, RMS values)
+    - AC through resistor (V and I in phase)
+    - AC through inductor (I lags V by 90 deg )
+    - AC through capacitor (I leads V by 90 deg )
+    - LCR series circuit (impedance, phase)
+    - Resonance in LCR circuit
+    - Power in AC circuits and power factor
+    - AC generator
+    - Displacement current
+    - EM wave equation and transverse nature
+    - Electromagnetic spectrum
+    - Reflection by spherical mirrors
+    - Mirror formula and magnification
+    - Refraction at plane surfaces (Snell's law)
+    - Total internal reflection and critical angle
+    - Refraction through a prism
+    - Dispersion through a prism
+    - Refraction at spherical surfaces
+    - Lens maker's formula
+    - Combination of thin lenses
+    - Power of a lens
+    - Compound microscope
+    - Astronomical telescope
+    - Huygens' principle and wavefronts
+    - Interference of light (principle)
+    - Young's double slit experiment
+    - Single slit diffraction
+    - Photoelectric effect (observations)
+    - Einstein's photoelectric equation
+    - Photon and photon momentum (p = h/lambda)
+    - de Broglie hypothesis and matter waves
+    - Davisson-Germer experiment
+    - Alpha-particle scattering experiment
+    - Rutherford's nuclear model
+    - Bohr's postulates and atomic model
+    - Energy levels in hydrogen atom
+    - Hydrogen spectrum and Rydberg constant
+    - Nuclear composition (protons, neutrons)
+    - Isotopes and atomic mass unit
+    - Mass-energy relation (E = mc^2)
+    - Mass defect and binding energy
+    - Binding energy per nucleon and nuclear stability
+    - Nuclear fission
+    - Chain reaction and critical mass
+    - Radioactive decay (alpha, beta, gamma)
+    - Half-life and decay law
+    - Nuclear fusion and stellar energy
+    - Energy bands in solids (conductors, insulators, semiconductors)
+    - Intrinsic semiconductors
+    - Extrinsic semiconductors (p-type and n-type)
+    - p-n junction and depletion region
+    - Junction diode V-I characteristics (forward and reverse bias)
+    - Half-wave rectifier
+    - Full-wave rectifier
+    - LED (light-emitting diode)
+    - Photodiode
+    - Solar cell
+    - Zener diode
+    - Zener diode as voltage regulator
+    - Junction transistor (n-p-n and p-n-p)
+    - Transistor characteristics and amplifier (common emitter)
+    - Logic gates (AND, OR, NOT, NAND, NOR)
+    - Combination of logic gates
+    - Communication systems (elements and modulation)
+    - Malus's law and polarization of light
+    - Brewster's law and polarization by reflection
+    - Radioactive decay constant and mean life
+    - Soddy-Fajans displacement laws
+    - Energy density in electric field
+    - RC circuit (charging and discharging)
+    - LC oscillations and energy transfer
+    - Rotating coil EMF (epsilon = NBAomegasin(omegat))
+    - X-rays (characteristic and continuous spectra)
+    - Transistor as oscillator and feedback
+    - Amplitude modulation (sidebands, bandwidth)
+
+=== chemistry (395 missing topics) ===
+  C6 (19):
+    - Matter and its composition
+    - Particle nature of matter
+    - Physical changes
+    - Chemical changes
+    - Elements
+    - Compounds
+    - Mixtures
+    - Separation of mixtures - experimental techniques
+    - Atomic structure - subatomic particles
+    - Atomic number and mass number
+    - Language of chemistry - symbols of elements
+    - Language of chemistry - formulae of compounds
+    - Metals - properties
+    - Non-metals - properties
+    - Air and its composition
+    - Oxygen and its role
+    - Carbon dioxide and nitrogen in air
+    - Water - physical properties
+    - Water - chemical properties
+  C7 (20):
+    - Matter - classification revisited
+    - Kinetic theory of matter
+    - Physical changes - reversible and irreversible
+    - Chemical changes - characteristics
+    - Chemical reactions in daily life
+    - Elements - metals and non-metals revisited
+    - Compounds - types and formation
+    - Mixtures - types (homogeneous and heterogeneous)
+    - Atomic structure - electrons, protons, neutrons
+    - Electronic configuration (basic)
+    - Valency
+    - Language of chemistry - chemical equations
+    - Chemical reactions - types (combination, decomposition)
+    - Chemical reactions - displacement and double displacement
+    - Hydrogen - preparation from metals and acids
+    - Hydrogen - properties and uses
+    - Water - a universal solvent
+    - Water - hard and soft water
+    - Carbon - occurrence and allotropes
+    - Carbon compounds - basics
+  C8 (20):
+    - Matter - states and interconversion revisited
+    - Physical and chemical changes - advanced
+    - Elements and compounds - atomic perspective
+    - Mixtures and separation techniques
+    - Atomic structure - models (Thomson, Rutherford)
+    - Bohr's model of the atom
+    - Electronic configuration and valency
+    - Language of chemistry - valency and formulae
+    - Chemical equations - balancing
+    - Chemical reactions - types revisited
+    - Combination reactions
+    - Decomposition reactions
+    - Displacement reactions
+    - Double displacement reactions
+    - Reactivity series of metals
+    - Hydrogen - preparation and properties
+    - Water - properties and composition
+    - Water - treatment and pollution
+    - Carbon and its compounds - bonding
+    - Carbon dioxide - preparation and properties
+  C9 (54):
+    - Symbols of elements
+    - Valency and radicals
+    - Formulae of compounds
+    - Balancing chemical equations
+    - Relative atomic and molecular masses
+    - Percentage composition of compounds
+    - Direct combination reactions
+    - Decomposition reactions
+    - Displacement reactions
+    - Double displacement reactions
+    - Energy changes in chemical reactions
+    - Exothermic and endothermic reactions
+    - Water as a universal solvent
+    - Solutions, colloids and suspensions
+    - Saturated, unsaturated and supersaturated solutions
+    - Solubility curves
+    - Water of crystallisation
+    - Hydrated and anhydrous substances
+    - Efflorescence, deliquescence and hygroscopy
+    - Drying and dehydrating agents
+    - Soft water and hard water
+    - Types and causes of hardness
+    - Removal of hardness
+    - Making water potable
+    - Atomic structure - discovery of nucleus
+    - Rutherford's model and its limitations
+    - Bohr's model of the atom
+    - Electron distribution and octet rule
+    - Isotopes
+    - Electrovalent (ionic) bonding
+    - Covalent bonding
+    - Dobereiner's triads
+    - Newlands' law of octaves
+    - Mendeleev's periodic law
+    - Modern periodic law and table
+    - Periodic table - groups and periods
+    - Hydrogen - position in periodic table
+    - Hydrogen from water
+    - Hydrogen from dilute acids
+    - Hydrogen from alkalis
+    - Laboratory preparation of hydrogen
+    - Industrial manufacture of hydrogen (Bosch process)
+    - Oxidation and reduction (oxygen/hydrogen concept)
+    - Oxidation and reduction (electronic concept)
+    - Oxidising and reducing agents
+    - Behaviour of gases - molecular motion
+    - Boyle's law
+    - Charles's law
+    - Gas equation and absolute zero
+    - Kelvin and Celsius scale conversion
+    - Acid rain - composition and causes
+    - Global warming and greenhouse gases
+    - Ozone depletion
+    - Water pollution
+  C10 (120):
+    - Periodic properties - atomic size
+    - Periodic properties - metallic and non-metallic character
+    - Periodic properties - ionisation potential
+    - Periodic properties - electron affinity
+    - Periodic properties - electronegativity
+    - Periodicity on the basis of atomic number
+    - Detailed study of Period 4
+    - Electrovalent bonding - electron dot structure
+    - Properties of electrovalent compounds
+    - Covalent bonding - electron dot structure
+    - Polar and non-polar covalent compounds
+    - Properties of covalent compounds
+    - Coordinate bonding
+    - Acids - definitions and properties
+    - Bases - definitions and properties
+    - pH scale and indicators
+    - Ions in acids, bases and salts
+    - Salts - types and formation
+    - Neutralisation and types of salts
+    - Classification of acids
+    - Classification of bases
+    - Action of dilute acids on salts
+    - Methods of preparation of salts
+    - Action of NH4OH on salt solutions
+    - Action of NaOH on salt solutions
+    - Action of alkalis on metals, oxides and hydroxides
+    - Gay Lussac's law of combining volumes
+    - Avogadro's law
+    - Molar volume
+    - Atomicity of gases
+    - Vapour density and molecular mass
+    - Empirical and molecular formula
+    - Mole concept
+    - Mole and mass relationship
+    - Stoichiometric calculations
+    - Electrolytes and non-electrolytes
+    - Strong and weak electrolytes
+    - Electrolysis - definition and mechanism
+    - Metallic vs electrolytic conduction
+    - Selective discharge of ions
+    - Electrolysis of specific compounds
+    - Electrolysis of specific compounds
+    - Applications of electrolysis
+    - Applications of electrolysis
+    - Occurrence of metals
+    - Occurrence of metals
+    - Mineral, ore, gangue, flux and slag
+    - Mineral, ore, gangue, flux and slag
+    - Stages of metal extraction
+    - Stages of metal extraction
+    - Concentration of ore
+    - Concentration of ore
+    - Roasting and calcination
+    - Roasting and calcination
+    - Reduction of metallic oxides
+    - Reduction of metallic oxides
+    - Electrorefining of metals
+    - Electrorefining of metals
+    - Extraction of aluminium
+    - Extraction of aluminium
+    - Alloys and amalgams
+    - Alloys and amalgams
+    - Hydrogen chloride - preparation
+    - Hydrogen chloride - preparation
+    - Hydrogen chloride - properties and reactions
+    - Hydrogen chloride - properties and reactions
+    - Hydrochloric acid and chloride ion tests
+    - Hydrochloric acid and chloride ion tests
+    - Ammonia - laboratory preparation
+    - Ammonia - laboratory preparation
+    - Ammonia - properties and reactions
+    - Ammonia - properties and reactions
+    - Ammonia - uses and tests
+    - Ammonia - uses and tests
+    - Nitric acid - preparation
+    - Nitric acid - preparation
+    - Nitric acid as oxidising agent
+    - Nitric acid as oxidising agent
+    - Nitric acid - properties and tests
+    - Nitric acid - properties and tests
+    - Sulphuric acid - Contact process
+    - Sulphuric acid - Contact process
+    - Sulphuric acid - acid properties
+    - Sulphuric acid - acid properties
+    - Sulphuric acid - oxidising and dehydrating agent
+    - Sulphuric acid - oxidising and dehydrating agent
+    - Sulphuric acid - tests
+    - Sulphuric acid - tests
+    - Carbon atom - unique nature (tetravalency, catenation)
+    - Carbon atom - unique nature (tetravalency, catenation)
+    - Types of carbon bonds (single, double, triple)
+    - Types of carbon bonds (single, double, triple)
+    - Straight chain, branched chain and cyclic compounds
+    - Straight chain, branched chain and cyclic compounds
+    - Structural isomerism
+    - Structural isomerism
+    - Homologous series
+    - Homologous series
+    - IUPAC nomenclature
+    - IUPAC nomenclature
+    - Alkanes - general formula and preparation
+    - Alkanes - general formula and preparation
+    - Alkanes - properties (combustion, substitution)
+    - Alkanes - properties (combustion, substitution)
+    - Alkenes - structure and preparation
+    - Alkenes - structure and preparation
+    - Alkenes - properties (addition reactions)
+    - Alkenes - properties (addition reactions)
+    - Alkynes - structure and preparation
+    - Alkynes - structure and preparation
+    - Alkynes - properties
+    - Alkynes - properties
+    - Ethanol - preparation and properties
+    - Ethanol - preparation and properties
+    - Ethanol - uses and reactions
+    - Ethanol - uses and reactions
+    - Acetic acid - structure and properties
+    - Acetic acid - structure and properties
+    - Acetic acid - uses
+    - Acetic acid - uses
+  C11 (81):
+    - Importance and scope of chemistry
+    - Laws of chemical combination
+    - Dalton's atomic theory
+    - Atomic and molecular masses
+    - Mole concept and molar mass
+    - Empirical and molecular formula
+    - Stoichiometry and limiting reagent
+    - Significant figures and dimensional analysis
+    - Equivalent weight and normality
+    - Volumetric calculations
+    - Discovery of subatomic particles
+    - Rutherford's scattering experiment
+    - Electromagnetic wave theory and Planck's quantum theory
+    - Types of spectra
+    - Bohr's atomic model
+    - Bohr's model - limitations and hydrogen spectra
+    - de Broglie's equation and Heisenberg's uncertainty principle
+    - Quantum mechanical model - Schrodinger equation
+    - Quantum numbers
+    - Shapes of s, p and d orbitals
+    - Aufbau, Pauli and Hund's rules
+    - Electronic configuration of elements
+    - Mendeleev's periodic law - limitations
+    - Modern periodic law
+    - Long form of periodic table
+    - Periodic trends - atomic and ionic radii
+    - Periodic trends - ionisation enthalpy
+    - Periodic trends - electron gain enthalpy
+    - Periodic trends - electronegativity
+    - Periodic trends - chemical properties
+    - Kossel-Lewis approach to bonding
+    - Ionic bond and lattice enthalpy
+    - Covalent bond - sigma and pi bonds
+    - Polar and non-polar covalent bonds
+    - Fajan's rules and deviation from octet
+    - VSEPR theory
+    - Hybridisation
+    - Molecular orbital theory
+    - Coordinate (dative) bond
+    - Resonance
+    - Hydrogen bonding
+    - Enthalpy and heat changes
+    - Hess's law
+    - Types of enthalpy changes
+    - Entropy
+    - Gibbs free energy
+    - Kp and Kc relationship
+    - Le Chatelier's principle
+    - Acid-base theories (Arrhenius, Bronsted-Lowry, Lewis)
+    - pH and ionic product of water
+    - Buffer solutions
+    - Common ion effect and salt hydrolysis
+    - Solubility product
+    - Oxidation number
+    - Organic chemistry - introduction and vital force theory
+    - Classification of organic compounds
+    - IUPAC nomenclature
+    - Structural isomerism
+    - Stereoisomerism
+    - Qualitative analysis (Lassaigne's test)
+    - Quantitative analysis
+    - Reaction mechanisms - bond fission
+    - Free radicals, carbocations, carbanions
+    - Electrophiles and nucleophiles
+    - Inductive, electromeric and mesomeric effects
+    - Hyperconjugation
+    - SN1 and SN2 mechanisms
+    - E1 and E2 mechanisms
+    - Alkanes - preparation and conformation
+    - Alkanes - physical and chemical properties
+    - Alkenes - preparation and structure
+    - Alkenes - properties and Markownikoff's rule
+    - Alkynes - preparation and properties
+    - Benzene - electrophilic substitution reactions
+    - Benzene - directive influence
+    - Markovnikov's rule mechanism (carbocation stability)
+    - Anti-Markovnikov addition (peroxide effect, Kharasch effect)
+    - Ozonolysis of alkenes and alkynes
+    - Wurtz reaction and Wurtz-Fittig reaction
+    - Friedel-Crafts alkylation and acylation
+    - Bond enthalpy and mean bond energy
+  C12 (81):
+    - Solid state - characteristics
+    - Crystal lattice and unit cell
+    - Types of unit cells
+    - Packing efficiency
+    - Close packing in solids
+    - Defects in solids
+    - Electrical and magnetic properties of solids
+    - Solubility and factors affecting it
+    - Raoult's law
+    - Colligative properties
+    - Van't Hoff factor
+    - Electrolytic and metallic conduction
+    - Molar conductivity and Kohlrausch's law
+    - Electrochemical cells
+    - Electrode potential and standard electrode potential
+    - Nernst equation
+    - Gibbs energy and cell
+    - Batteries and fuel cells
+    - Corrosion
+    - Rate law and order of reaction
+    - Molecularity and order
+    - Integrated rate equations
+    - Half-life of reactions
+    - Collision theory
+    - Arrhenius equation
+    - Surface chemistry - adsorption
+    - Adsorption isotherms
+    - Catalysis
+    - Colloids and emulsions
+    - Properties of colloids
+    - Emulsions and applications
+    - Isolation of elements - principles
+    - Occurrence of metals and concentration
+    - Extraction of crude metal
+    - Thermodynamic principles of extraction
+    - Refining of metals
+    - Uses of metals and alloys
+    - Nitrogen and its compounds
+    - Phosphorus and its compounds
+    - Oxygen, sulphur and compounds
+    - Chlorine and its compounds
+    - Transition metals - trends
+    - Potassium dichromate
+    - Potassium permanganate
+    - Valence bond theory
+    - Crystal field theory
+    - Colour and magnetic properties of complexes
+    - Bonding in metal carbonyls
+    - Haloalkanes - classification and nomenclature
+    - Haloalkanes - preparation
+    - SN1 and SN2 reactions
+    - Elimination reactions
+    - Alcohols - preparation
+    - Alcohols - physical properties
+    - Alcohols - chemical reactions
+    - Aldol and Cannizzaro reactions
+    - Acid derivatives
+    - Amines - classification and preparation
+    - Amines - properties
+    - Proteins and amino acids
+    - Nucleic acids
+    - Vitamins and hormones
+    - Polymers - classification
+    - Polymerisation methods
+    - Specific polymers
+    - Biodegradable polymers
+    - Chemistry in everyday life - drugs
+    - Drug-target interaction
+    - Chemicals in food
+    - Cleansing agents
+    - Pseudo first order reaction
+    - Soddy-Fajans displacement laws and group shifts
+    - Hardy-Schulze rule and coagulation value
+    - Kolbe's electrolysis and electrochemical synthesis
+    - Haloform reaction and iodoform test
+    - Carbylamine reaction (isocyanide test)
+    - Hoffmann bromamide degradation
+    - Williamson ether synthesis
+    - Interhalogen compounds and polyhalides
+    - Zwitterion, isoelectric point, and peptide bond
+    - Addition polymerisation mechanisms (free radical, cationic)
+
+=== biology (259 missing topics) ===
+  C6 (27):
+    - Leaf structure and types
+    - Functions of leaf
+    - Leaf modifications
+    - Flower structure (4 whorls)
+    - Pollination and agents
+    - Fertilization and fruit formation
+    - Fruit structure and types
+    - Seed structure and types
+    - Seed germination
+    - The cell and cell organelles
+    - Plant vs animal cell differences
+    - Unicellular and multicellular organisms
+    - Digestive system (detailed)
+    - Respiratory system (detailed)
+    - Respiration vs breathing
+    - Common respiratory diseases
+    - Circulatory system (detailed)
+    - Components of blood
+    - Keeping the heart healthy
+    - Types of diseases (communicable and non-communicable)
+    - Modes of disease transmission
+    - Hygiene and sanitation
+    - Habitat and adaptation concept
+    - Adaptations in specific habitats
+    - Skin and its functions - protection, sensation, temperature regulation
+    - Nervous system - neurons, nerve types, and reflex actions
+    - Transpiration - mechanism, factors, and measurement
+  C7 (26):
+    - Tissue concept and plant meristematic tissue
+    - Plant permanent tissues (parenchyma, collenchyma, sclerenchyma)
+    - Complex permanent tissues (xylem and phloem)
+    - Animal epithelial tissue
+    - Animal connective tissue
+    - Animal muscular tissue
+    - Nerve tissue
+    - Classification concept and 5-kingdom system
+    - Kingdom Monera (bacteria)
+    - Kingdom Protista (Amoeba)
+    - Kingdom Fungi
+    - Kingdom Plantae and Animalia
+    - Photosynthesis (detailed process)
+    - Respiration in plants
+    - Photosynthesis vs respiration
+    - Excretory system
+    - Nervous system parts
+    - Allergy concept and allergens
+    - Types of allergies and precautions
+    - Food chemistry - carbohydrates, proteins, and fats at molecular level
+    - Air pollution and its effects on the environment
+    - Animal classification and behaviour - vertebrates and invertebrates
+    - Pollution and waste management - types and simple solutions
+    - Agriculture and crop production - improved practices and crop protection
+    - Skeletal system and joints - detailed structure and movement
+    - Endocrine system - glands, hormones, and basic functions
+  C8 (26):
+    - Diffusion and osmosis
+    - Xylem and phloem transport (detailed)
+    - Transpiration and its role
+    - Plant mineral nutrition
+    - Asexual reproduction methods
+    - Sexual reproduction in plants (review and detail)
+    - Human reproductive system organs
+    - Ecosystem concept and components
+    - Food webs and pyramid of numbers
+    - Interdependence: symbiosis, parasitism, predation
+    - Endocrine system and hormones
+    - Adolescence and physical/emotional changes
+    - Heart structure (detailed)
+    - Double circulation
+    - Lymphatic system
+    - Nervous system (detailed) and reflex action
+    - Communicable diseases (detailed)
+    - Vaccination and immunization
+    - Harmful effects of tobacco, alcohol, drugs
+    - First aid
+    - Microbes in food production
+    - Agriculture and crop types
+    - Animal husbandry
+    - Plant morphology - vegetative parts (root, stem, leaf structure)
+    - Decomposition in ecosystems - role of decomposers in nutrient cycling
+    - Nutrition and deficiency diseases - macro and micronutrients
+  C9 (28):
+    - Cell theory and cell organelles (detailed)
+    - Prokaryotic vs eukaryotic cells
+    - Plant vs animal cell (detailed)
+    - Tissues (plant and animal, detailed)
+    - Flower structure (complete/incomplete, essential/non-essential whorls)
+    - Pollination (self vs cross, agents, characteristics)
+    - Fertilization and double fertilization
+    - Seed structure (monocot and dicot)
+    - Seed germination types (hypogeal and epigeal)
+    - Respiration in plants (glycolysis, Krebs cycle)
+    - Animal kingdom classification (non-chordates and chordates)
+    - Economic importance of bacteria
+    - Economic importance of fungi
+    - Digestive system (organs, glands, absorption, assimilation)
+    - Skeleton - axial and appendicular
+    - Types of joints
+    - Skin structure and functions
+    - Disease types and transmission modes
+    - Bacterial, viral, protozoan, helminthic diseases
+    - Aids to health (vaccination, immunization, antitoxins, antibiotics)
+    - Health organizations (WHO, Red Cross)
+    - Biomolecules - introduction (monomers, polymers, and biochemical bonds)
+    - Greenhouse effect and global warming - causes and consequences
+    - Ecosystems and biodiversity - levels of organisation
+    - Environmental pollution - types, sources, and measurement
+    - Biotechnology fundamentals - cells, genes, and microorganisms
+    - Immune system - antigens, antibodies, and immunity types
+    - Plant cell biology and tissue culture - introduction
+  C10 (31):
+    - Chromosome structure (chromatin, chromatid, gene, DNA, centromere)
+    - Cell cycle (interphase and mitotic phase)
+    - Mitosis (stages in plant and animal cells)
+    - Meiosis (reduction division)
+    - Absorption by roots (imbibition, osmosis, tonicity)
+    - Ascent of sap (cohesion, adhesion, transpirational pull)
+    - Transpiration (mechanism, factors, experiments)
+    - Photosynthesis (light and dark reactions)
+    - Chemical coordination in plants (plant hormones)
+    - Respiratory system (detailed structure and mechanism)
+    - Circulatory system (detailed heart, blood, vessels)
+    - Excretory system (nephron, urine formation)
+    - Nervous system (detailed, sense organs)
+    - Endocrine system (detailed hormones)
+    - Reproductive system (organs, fertilization, menstrual cycle)
+    - Genetics terms (gene, allele, genotype, phenotype)
+    - Mendel's laws (monohybrid and dihybrid crosses)
+    - Sex determination and sex-linked inheritance
+    - Population - demography and problems
+    - Population control methods
+    - Pollution types and sources
+    - Biodegradable and non-biodegradable waste
+    - Climate effects (greenhouse, global warming, acid rain, ozone)
+    - Natural selection and industrial melanism
+    - Human evolution (Australopithecus to Homo sapiens)
+    - Vestigial organs as evidence of evolution
+    - Ecosystem and food chains
+    - Microorganisms in decomposition - bacteria, fungi, and enzymatic processes
+    - Biodiversity and conservation - strategies and protected areas
+    - Vitamins and minerals - biochemical functions and RDAs
+    - Agricultural biotechnology and GM crops - introduction
+  C11 (56):
+    - Taxonomy and classification (species, hierarchy, nomenclature)
+    - Three domains and five kingdoms (detailed)
+    - Kingdom Monera (bacteria detailed)
+    - Kingdom Protista (subgroups)
+    - Kingdom Fungi (classification and reproduction)
+    - Viruses, viroids, and prions
+    - Morphology of root (types and modifications)
+    - Morphology of stem (modifications)
+    - Morphology of leaf (types, phyllotaxy, modifications)
+    - Morphology of flower (detailed, inflorescence)
+    - Plant tissues (meristematic and permanent)
+    - Tissue systems and plant anatomy
+    - Frog morphology and anatomy
+    - Cell wall and plasmodesmata
+    - Endomembrane system (ER, Golgi, lysosomes, vacuoles)
+    - Mitochondria and plastids
+    - Nucleus and chromosome types
+    - Cytoskeleton, cilia, and flagella
+    - Enzymes (properties, classification, factors)
+    - Mitosis (detailed stages with diagrams)
+    - Meiosis (detailed stages, prophase I sub-stages)
+    - Photosynthetic pigments and photosystems
+    - Light reactions (cyclic and non-cyclic photophosphorylation)
+    - Dark reactions (C3 Calvin cycle)
+    - C4 pathway and Kranz anatomy
+    - Photorespiration and factors affecting photosynthesis
+    - Glycolysis
+    - Fermentation (anaerobic respiration)
+    - Electron transport system and oxidative phosphorylation
+    - Seed germination types
+    - Human respiratory system (mechanism and gas exchange)
+    - Gas transport (oxygen and carbon dioxide)
+    - Respiratory disorders
+    - Blood composition and blood groups
+    - Heart structure and cardiac cycle
+    - Blood vessels and lymphatic system
+    - Circulatory disorders
+    - Excretory system and nephron structure
+    - Urine formation (ultrafiltration, reabsorption, secretion)
+    - Regulation of kidney function
+    - Excretory disorders and dialysis
+    - Muscle structure and sliding filament theory
+    - Skeletal system and joints (detailed)
+    - Muscular and skeletal disorders
+    - Nerve impulse generation (resting and action potential)
+    - Brain and spinal cord (detailed structure)
+    - Endocrine glands and their hormones
+    - Mechanism of hormone action
+    - Endocrine disorders
+    - Digestion and absorption (alimentary canal, enzymes)
+    - Reflex action and reflex arc
+    - Eye structure and mechanism of vision
+    - Ear structure and mechanism of hearing
+    - Law of limiting factors (Blackman's law)
+    - Amphibolic nature of respiration (RQ)
+    - Enzyme inhibition (competitive and non-competitive)
+  C12 (65):
+    - Microsporogenesis and pollen grain development
+    - Megasporogenesis and female gametophyte
+    - Pollination types and outbreeding devices
+    - Pollen-pistil interaction and artificial hybridisation
+    - Double fertilization and triple fusion
+    - Post-fertilization: endosperm and embryo development
+    - Seed formation and structure
+    - Fruit formation and seed dispersal
+    - Special modes (apomixis, parthenocarpy, polyembryony)
+    - Human reproductive system (microscopic anatomy)
+    - Spermatogenesis
+    - Oogenesis
+    - Menstrual cycle
+    - Fertilization, implantation, and pregnancy
+    - Parturition and lactation
+    - Mendel's laws (monohybrid and dihybrid crosses)
+    - Deviations from Mendelism (incomplete dominance, co-dominance, multiple alleles)
+    - Polygenic inheritance and pleiotropy
+    - Pedigree analysis
+    - Chromosomal theory and sex determination
+    - Linkage and crossing over
+    - Mutation and sex-linked inheritance
+    - Genetic disorders (Mendelian and chromosomal)
+    - DNA as genetic material (experimental evidence)
+    - DNA structure (Watson-Crick double helix)
+    - DNA packaging and replication
+    - Transcription and RNA processing
+    - Genetic code and translation
+    - Gene regulation (lac operon)
+    - Human Genome Project and DNA fingerprinting
+    - Evidences of evolution
+    - Darwinism and natural selection
+    - Neo-Darwinism (modern synthetic theory)
+    - Hardy-Weinberg principle
+    - Human evolution
+    - Pathogens, viral and bacterial diseases
+    - Protozoal, helminthic, and fungal diseases
+    - Immunity (innate and acquired)
+    - Antibodies and vaccination
+    - AIDS and HIV
+    - Cancer
+    - Drug and alcohol abuse
+    - Microbes in household products
+    - Microbes in industrial products
+    - Microbes in sewage treatment and biogas
+    - Microbes as biocontrol agents and biofertilisers
+    - Cloning vectors
+    - Gene transfer, selection, and PCR
+    - Bioreactors and downstream processing
+    - Biotechnology in agriculture (GM crops)
+    - Biotechnology in medicine (insulin, vaccines, diagnostics)
+    - Gene therapy and stem cell technology
+    - Biosafety, biopiracy, and biopatents
+    - Population attributes
+    - Population growth models
+    - Population interactions
+    - Energy flow and ecological pyramids
+    - Decomposition and nutrient cycling
+    - Biodiversity types, patterns, and importance
+    - Loss of biodiversity
+    - Environmental pollution and ozone depletion
+    - Ecological succession
+    - Animal husbandry and poultry farming
+    - Life span and reproductive strategies
+    - Biodiversity patterns (latitudinal gradients, species-area)
+
+=== maths (450 missing topics) ===
+  C6 (79):
+    - Consolidating the sense of numberness up to 5 digits, size, estimation of numbers, identifying smaller, larger ---
+    - Place value (recapitulation and extension) ---
+    - Operations on large numbers ---
+    - Word problems on number operations involving large numbers (with unit conversions of length and mass) ---
+    - Estimation of outcome of number operations ---
+    - Large numbers up to 8 digits and approximation ---
+    - Numbers in Indian and International Systems and their comparison ---
+    - Natural numbers ---
+    - Whole numbers ---
+    - Properties of numbers (commutative, associative, distributive, additive identity, multiplicative identity) ---
+    - Number line - seeing patterns, identifying and formulating rules for operations on numbers ---
+    - Need for negative numbers and connection in daily life ---
+    - Representation of negative numbers on number line ---
+    - Ordering of negative numbers and integers ---
+    - Identification of integers on the number line ---
+    - Addition and subtraction of integers (including on number line) ---
+    - Comparison of integers ---
+    - Idea of sets ---
+    - Representation of sets ---
+    - Types of sets - Finite/infinite and empty ---
+    - Cardinality of a set ---
+    - Revision of fractions and fraction as part of whole ---
+    - Representation of fractions (pictorially and on number line) and fraction as division ---
+    - Proper, improper and mixed fractions ---
+    - Equivalent fractions ---
+    - Comparison of fractions ---
+    - Operations on fractions (moving towards abstraction) ---
+    - Review of decimal fraction and place value in context of decimals ---
+    - Inter conversion of fractions and decimal fractions ---
+    - Word problems involving addition and subtraction of decimals (money, mass, length, temperature) ---
+    - Simplification of brackets ---
+    - Divisibility rules of 2, 3, 4, 5, 6, 8, 9, 10, 11 (through observing patterns) ---
+    - Even/odd, prime/composite, co-prime numbers, prime factorisation ---
+    - HCF and LCM, prime factorization and division method, LCM x HCF = product of two numbers ---
+    - Difference between fraction and ratio ---
+    - Concept of Ratio ---
+    - Proportion as equality of two ratios ---
+    - Unitary method (with only direct variation implied) ---
+    - Word problems on ratio and proportions ---
+    - Idea of percent as fraction with 100 as denominator ---
+    - Idea of speed and simple daily life problems related to speed, time and distance ---
+    - Introduction to constants, variable and unknown through patterns and generalisations ---
+    - Generate patterns with more examples and generalisation ---
+    - Introduction to unknowns through examples with simple contexts (single operations) ---
+    - Terminology associated with algebra (literal numbers, terms, expressions, factor, coefficient, polynomials, degree, like and unlike terms) ---
+    - Framing algebraic expressions ---
+    - Evaluation of algebraic expressions by substituting a value for the variable ---
+    - Introduction to linear equation in one variable ---
+    - Basic geometrical ideas (2-D) - Introduction to geometry ---
+    - Line, line segment, ray ---
+    - Open and closed figures ---
+    - Interior and exterior of closed figures ---
+    - Curvilinear and linear boundaries ---
+    - Angle - Vertex, arm, interior and exterior ---
+    - Triangle - vertices, sides, angles, altitude and median ---
+    - Quadrilateral - Sides, vertices, angles, diagonals, adjacent and opposite sides ---
+    - Circle - Centre, radius, diameter, arc, sector, chord, segment, semicircle, circumference ---
+    - Measure of line segment ---
+    - Measure of angles ---
+    - Types of angles - acute, obtuse, right, straight, reflex, complete and zero angle ---
+    - Classification of triangles (on the basis of sides and angles) ---
+    - Types of quadrilaterals - Trapezium, parallelogram, rectangle, square, rhombus ---
+    - Simple polygons (introduction, up to octagons, regular and non-regular) ---
+    - Identification of 3-D shapes - Cubes, Cuboids, cylinder, sphere, cone, prism, pyramid ---
+    - Elements of 3-D figures (Faces, Edges and vertices) ---
+    - Nets for cube, cuboids, cylinders, cones and tetrahedrons ---
+    - Constructions - Drawing of line segment and perpendicular bisector ---
+    - Construction of angles using protractor and compasses (60, 120) ---
+    - Angle bisector and angle equal to a given angle (using compasses) ---
+    - Drawing a line perpendicular to a given line from a point on/outside the line and construction of circle ---
+    - Concept of perimeter and general understanding using many shapes ---
+    - Shapes of different kinds with the same perimeter and counter examples ---
+    - Perimeter of a rectangle and square - deducing formula through pattern and generalisation ---
+    - Conversion of units (Mass, time, money, and capacity) from smaller to larger and vice-versa ---
+    - Collection of data to examine a hypothesis ---
+    - Collection and organisation of data - tally bars and table ---
+    - Pictograph - Need for scaling, interpretation and construction ---
+    - Construction of bar graphs for given data and interpreting bar graphs ---
+    - Mean and median of data (not more than ten observations) ---
+  C7 (31):
+    - Fraction as an operator ---
+    - Reciprocal of a fraction ---
+    - Exponents (natural numbers only) ---
+    - Laws of exponents (through observing patterns to arrive at generalisation) ---
+    - Application of laws of exponents in simple daily life problems ---
+    - Revision of idea of sets ---
+    - Equal, equivalent, universal sets ---
+    - Cardinal property of sets ---
+    - Ratio and proportion (revision) ---
+    - Unitary method continued, consolidation, general expression ---
+    - Percentage - an introduction ---
+    - Understanding percentage as a fraction with denominator 100 ---
+    - Application to profit and loss (single transaction only) ---
+    - Application to simple interest (time period in complete years) ---
+    - Speed, distance, time ---
+    - Terms related to algebra (constants, variable, terms, coefficient, like and unlike terms) ---
+    - Inequalities and solution of simple inequalities in one variable ---
+    - Understanding shapes - Pairs of angles (linear, supplementary, complementary, adjacent, vertically opposite) ---
+    - Properties of triangles - Angle sum property ---
+    - Properties of triangles - Exterior angle property ---
+    - Properties of triangles - Pythagoras Theorem (Verification only) ---
+    - Representing 3-D in 2-D - Identification and counting of vertices, edges, faces, nets ---
+    - Representing 3-D in 2-D - Mapping the space around approximately through visual estimation ---
+    - Congruence through superimposition ---
+    - Criteria of congruence ---
+    - Construction of a line parallel to a given line from a point outside it ---
+    - Construction of simple triangles ---
+    - Revision of perimeter and Idea of Circumference of Circle ---
+    - Mean, median and mode of ungrouped data - understanding what they represent ---
+    - Constructing and interpreting bar graphs ---
+    - Feel of probability using data through experiments (coins, dice, chance, randomness) ---
+  C8 (39):
+    - Properties of rational numbers (including identities), using general form of expression ---
+    - Representation of rational numbers on the number line ---
+    - Between any two rational numbers there lies another rational number ---
+    - Word problem (higher logic, two operations, including ideas like area) ---
+    - Laws of exponents with integral powers ---
+    - Square and Square roots using factor method and division method (up to 4 digits, 2 decimal places) ---
+    - Cubes and cubes roots (factor method, at most 3 digits) ---
+    - Writing numbers in generalized form (100a + 10b + c) and puzzles ---
+    - Deducing divisibility test rules of 2, 3, 5, 9, 10 from general form ---
+    - Union and intersection of sets ---
+    - Disjoint set ---
+    - Complement of a set ---
+    - Advanced problems on percentages, profit and loss, overhead expenses, discount, tax ---
+    - Difference between simple and compound interest (compounded yearly up to 3 years or half-yearly up to 3 steps) ---
+    - Direct and inverse variations - Simple and direct word problems ---
+    - Time and work problems - Simple and direct word problems ---
+    - Arriving at the formula for compound interest through patterns and using it for simple problems ---
+    - Multiplication and division of algebraic expressions (integral coefficients) ---
+    - Identities (a+b)^2 = a^2 + 2ab + b^2, (a-b)^2 = a^2 - 2ab + b^2, a^2 - b^2 = (a-b)(a+b) ---
+    - Properties of inequalities ---
+    - Factorisation (simple cases) - a(x+y), (x+y)^2, a^2-b^2, (x+a)(x+b) ---
+    - Solving linear equations in one variable in contextual problems involving multiplication and division ---
+    - Properties of quadrilaterals - Angle Sum property ---
+    - Properties of parallelogram (by verification) ---
+    - Representing 3-D in 2-D - identification, matching, and drawing ---
+    - Counting vertices, edges, faces and verifying Euler's relation for 3-D figures ---
+    - Construction of Quadrilaterals (given various elements) ---
+    - Idea of reflection symmetry and symmetrical shapes ---
+    - Circle - centre, radius/diameter, arc, chord, sector and segment ---
+    - Cartesian plane, plotting points, reading linear graphs ---
+    - Area of a trapezium, a polygon and semi-circle ---
+    - Surface area of a cube, cuboid, cylinder ---
+    - Idea of Total surface area and curved surface areas of 3-D figures ---
+    - Concept of volume, measurement of volume using a basic unit, volume of a cube, cuboid and cylinder ---
+    - Volume and capacity (measurement of capacity) ---
+    - Arranging ungrouped data into groups, representation of grouped data through bar-graphs ---
+    - Simple Pie charts with reasonable data numbers ---
+    - Consolidating and generalising the notion of chance in events (coins, dice, probability) ---
+    - Sets and Venn diagrams - operations and applications
+  C9 (64):
+    - Rational numbers as real numbers, place in the number system ---
+    - Irrational numbers as real numbers, place in the number system ---
+    - Representation of rational and irrational numbers on the number line ---
+    - Surds - introduction and simplification ---
+    - Rationalization of surds (rationalizing the denominator) ---
+    - Proofs of irrationality of sqrt2, sqrt3, sqrt5 ---
+    - Compound interest as repeated simple interest with growing principal ---
+    - Compound interest formula A = P(1 + r/100)^n ---
+    - Interest compounded half-yearly ---
+    - Finding one quantity given combinations of A, P, r, n, CI, SI ---
+    - Rate of growth and depreciation using CI ---
+    - Expansion of (a +/- b)^2 ---
+    - Expansion of (a +/- b)^3 ---
+    - Expansion of (x +/- a)(x +/- b) ---
+    - Expansion of (a +/- b +/- c)^2 ---
+    - Factorisation of a^2 - b^2 ---
+    - Factorisation of a^3 +/- b^3 ---
+    - Factorisation of ax^2 + bx + c by splitting the middle term ---
+    - Solving simultaneous linear equations by elimination ---
+    - Solving simultaneous linear equations by substitution ---
+    - Solving simultaneous linear equations by cross multiplication ---
+    - Word problems by framing simultaneous linear equations ---
+    - Laws of exponents (positive, fractional, negative, zero indices) ---
+    - Simplification of expressions involving various exponents ---
+    - Logarithmic form vs exponential form (interchanging) ---
+    - Laws of logarithms and their uses ---
+    - Expansion of expressions using laws of logarithms ---
+    - Congruency of triangles (SSS, SAS, AAS, RHS) ---
+    - Angles opposite equal sides are equal (and converse) ---
+    - Greater angle opposite greater side (and converse) ---
+    - Sum of any two sides of a triangle is greater than the third side ---
+    - Perpendicular is the shortest from a point to a line ---
+    - Mid-Point Theorem and its converse ---
+    - Equal intercept theorem ---
+    - Pythagoras Theorem (area-based proof and applications) ---
+    - Parallelogram theorems (opposite sides equal, opposite angles equal) ---
+    - Parallelogram theorems (one pair equal and parallel, diagonals bisect) ---
+    - Rhombus and rectangle diagonal properties ---
+    - Construction of quadrilaterals (parallelogram, rhombus) ---
+    - Construction of regular hexagon ---
+    - Area theorems on parallelograms (same base, same parallels) ---
+    - Area theorems - triangle vs parallelogram on same base ---
+    - Chord property - line from centre bisecting chord at right angles ---
+    - Chord properties - perpendicular from centre bisects chord, equal chords equidistant ---
+    - Arc properties - equal arcs subtend equal angles at centre (and converse) ---
+    - Equal chords cut off equal arcs (and converse) ---
+    - Raw, arrayed and grouped data ---
+    - Tabulation of raw data using tally marks ---
+    - Discrete and continuous variables ---
+    - Mean of ungrouped data ---
+    - Median of ungrouped data ---
+    - Class intervals, class boundaries, limits, frequency ---
+    - Grouped frequency distributions (discontinuous to continuous intervals) ---
+    - Drawing a frequency polygon ---
+    - Surface area and volume of cube ---
+    - Surface area and volume of cuboid ---
+    - Trigonometric ratios (sin, cos, tan and reciprocals) ---
+    - Trigonometric ratios of standard angles (0, 30, 45, 60, 90) ---
+    - Simple 2-D problems involving one right-angled triangle ---
+    - Trigonometric ratios of complementary angles ---
+    - Dependent and independent variables ---
+    - Ordered pairs and plotting in the Cartesian plane ---
+    - Solution of simultaneous linear equations graphically ---
+    - Distance formula ---
+  C10 (77):
+    - GST - computation of tax on basic/cost price ---
+    - GST - SGST and CGST, price paid by consumer ---
+    - GST - inverse cases (finding original price given final price) ---
+    - Banking - Recurring Deposit Accounts (concept and formula) ---
+    - Banking - maturity value of recurring deposit ---
+    - Shares - Face Value, Market Value, Premium ---
+    - Shares - Dividend and Rate of Dividend ---
+    - Shares - Income and Return formulae ---
+    - Linear inequations in one unknown (algebraic solution) ---
+    - Linear inequations - solution in set notation and number line ---
+    - Nature of roots (discriminant b^2 - 4ac) ---
+    - Quadratic equation word problems ---
+    - Ratio and proportion - continued and mean proportion ---
+    - Ratio and proportion - componendo, dividendo, alternendo, invertendo ---
+    - Ratio and proportion - combined applications ---
+    - Remainder Theorem ---
+    - Factor Theorem ---
+    - Factorising a polynomial completely (degree up to 3) ---
+    - Matrices - order, row and column matrices ---
+    - Matrices - compatibility for addition and multiplication ---
+    - Matrices - null and identity matrices ---
+    - Matrices - addition and subtraction of 2x2 matrices ---
+    - Matrices - multiplication by a scalar ---
+    - Matrices - multiplication of 2x2 matrices ---
+    - Arithmetic Progression - general term ---
+    - Arithmetic Progression - sum of first n terms ---
+    - Geometric Progression - general term ---
+    - Geometric Progression - sum of first n terms ---
+    - AP and GP - simple applications ---
+    - Reflection of a point in a line (x=0, y=0, x=a, y=a) ---
+    - Reflection of a point in the origin ---
+    - Invariant points under reflection ---
+    - Section formula (internal section) and midpoint formula ---
+    - Centroid of a triangle ---
+    - Slope of a line (gradient, tan theta) ---
+    - Equation of a line - slope-intercept form (y = mx + c) ---
+    - Equation of a line - two-point form ---
+    - Conditions for parallel and perpendicular lines ---
+    - Similarity - as a size transformation ---
+    - Similarity - comparison with congruency ---
+    - Similarity conditions (SSS, SAS, AA) ---
+    - Basic Proportionality Theorem and applications ---
+    - Areas of similar triangles (proportional to squares of sides) ---
+    - Applications of similarity to maps and models ---
+    - Loci - definition and meaning ---
+    - Locus at fixed distance from fixed point (circle) ---
+    - Locus equidistant from two intersecting lines (angle bisector) ---
+    - Locus equidistant from two given points (perpendicular bisector) ---
+    - Angle at centre is double angle at circumference ---
+    - Angles in the same segment are equal ---
+    - Angle in a semi-circle is a right angle ---
+    - Cyclic quadrilateral - opposite angles supplementary ---
+    - Cyclic quadrilateral - exterior angle equals opposite interior angle ---
+    - Tangent and radius are perpendicular ---
+    - Two tangents from external point are equal ---
+    - Chord-tangent intersection (product of segments) ---
+    - Alternate segment theorem (tangent-chord angles) ---
+    - Construction of tangents to a circle from external point ---
+    - Construction - circumscribing and inscribing circle on triangle ---
+    - Construction - circumscribing and inscribing circle on regular hexagon ---
+    - Cylinder - curved and total surface area ---
+    - Cylinder - volume ---
+    - Cone - curved and total surface area ---
+    - Cone - volume ---
+    - Sphere - surface area ---
+    - Sphere - volume ---
+    - Combination of solids - surface area and volume ---
+    - Trigonometric identities (sin^2A + cos^2A = 1) ---
+    - Trigonometric identities - proving expressions ---
+    - Heights and distances - angles of elevation ---
+    - Heights and distances - angles of depression ---
+    - Mean of grouped data - direct method ---
+    - Mean of grouped data - short-cut and step-deviation methods ---
+    - Median and mode for raw and grouped data ---
+    - Histogram and finding mode from histogram ---
+    - Ogive (less than) and finding quartiles/median ---
+    - Probability - random experiments, sample space, events ---
+  C11 (78):
+    - Sets - representations, empty set, finite and infinite sets ---
+    - Sets - equal sets, subsets, intervals ---
+    - Sets - power set and universal set ---
+    - Sets - Venn diagrams ---
+    - Sets - union and intersection ---
+    - Sets - difference of sets and complement ---
+    - Ordered pairs and Cartesian product of sets ---
+    - Relations - definition, domain, co-domain, range ---
+    - Function as a special type of relation ---
+    - Function as a mapping, domain, co-domain, range ---
+    - Real valued functions - constant, identity, polynomial ---
+    - Real valued functions - rational, modulus, signum ---
+    - Real valued functions - exponential, logarithmic, greatest integer ---
+    - Graphs of standard real valued functions ---
+    - Sum, difference, product of functions ---
+    - Quotient of functions ---
+    - Positive and negative angles, radians and degrees ---
+    - Relation S = rtheta and area of sector ---
+    - Identity sin^2x + cos^2x = 1 ---
+    - Compound angles - sin(x +/- y) and cos(x +/- y) ---
+    - Compound angles - tan(x +/- y) ---
+    - Sum and difference as products (sin C + sin D, etc.) ---
+    - Product to sum or difference (2sinAcosB = sin(A+B) + sin(A-B)) ---
+    - Double angle formulas (sin 2x, cos 2x, tan 2x) ---
+    - Triple angle formulas (sin 3x, cos 3x, tan 3x) ---
+    - Half angle and one-third angle formulas ---
+    - Proving simple trigonometric identities ---
+    - Argand plane and polar representation ---
+    - Square root of a complex number ---
+    - Cube roots of unity and their properties ---
+    - Nature of roots - sum and product, types of roots ---
+    - Sign of quadratic expression ---
+    - Graph of quadratic function, maximum/minimum value ---
+    - Inequalities involving rational expressions ---
+    - Fundamental principle of counting ---
+    - Factorial notation n! ---
+    - Permutations - things together, things never occur ---
+    - Permutations - alike things and repeated things ---
+    - Circular permutations ---
+    - Combinations (nCr) and properties ---
+    - Pascal's triangle ---
+    - General and middle term in binomial expansion ---
+    - Arithmetic Progression - general term and sum (recap) ---
+    - Arithmetic Mean and inserting arithmetic means ---
+    - Geometric Progression - general term and sum ---
+    - Infinite GP and its sum ---
+    - Geometric Mean and AM-GM relation ---
+    - Special sums (Sigman, Sigman^2, Sigman^3) and method of differences ---
+    - Slope of a line and angle between two lines ---
+    - Conditions for parallel and perpendicular lines ---
+    - Various forms of equation of a line ---
+    - General equation of a line ---
+    - Distance of a point from a line ---
+    - Distance between parallel lines and angle bisectors ---
+    - Family of lines and locus ---
+    - Section formula (internal/external), incentre, collinearity ---
+    - Circles - standard, diameter, general, and parametric forms ---
+    - Finding centre, radius, and equation of circle ---
+    - Conic sections - introduction, foci, directrix, eccentricity ---
+    - Parabola - standard equations and properties ---
+    - Ellipse - standard equation and properties ---
+    - Hyperbola - standard equation and properties ---
+    - 3D Geometry - coordinate axes, planes, coordinates of a point ---
+    - 3D Geometry - distance and section formula ---
+    - Limits - notion, meaning, fundamental theorems ---
+    - Left hand limit, right hand limit, existence of limit ---
+    - Derivative - meaning and geometrical interpretation ---
+    - Differentiation using first principles ---
+    - Derivatives of sum, difference, product, quotient ---
+    - AM-GM inequality and applications
+    - Cauchy-Schwarz inequality
+    - Derangements (formula and applications)
+    - Symmetric functions of roots (Vieta's formulas)
+    - Transformation of roots (reciprocal, squared)
+    - Tangent and normal to parabola
+    - Tangent and normal to ellipse and hyperbola
+    - Chord properties and polar equations of conics
+    - General solution of trigonometric equations
+  C12 (82):
+    - Types of relations - reflexive, symmetric, transitive ---
+    - Equivalence relations ---
+    - Identity, empty, and universal relations ---
+    - One-to-one and onto functions ---
+    - Composite functions ---
+    - Inverse of a function and conditions of invertibility ---
+    - Sketching graph of a function and its inverse ---
+    - Inverse trig properties - sin^-^1x + cos^-^1x = pi/2 ---
+    - Inverse trig properties - sin^-^1x +/- sin^-^1y ---
+    - Inverse trig properties - tan^-^1x +/- tan^-^1y ---
+    - Inverse trig - multiple angle formulas (2sin^-^1x, 2cos^-^1x, 2tan^-^1x) ---
+    - Inverse trig - 3tan^-^1x and applications ---
+    - Transpose of a matrix ---
+    - Matrix addition and scalar multiplication ---
+    - Matrix multiplication ---
+    - Non-commutativity and zero product property ---
+    - Minors and cofactors ---
+    - Properties of determinants ---
+    - Area of triangle using determinants ---
+    - Adjoint of a square matrix ---
+    - Inverse of a matrix using adjoint ---
+    - Solving linear equations using inverse of matrix (Martin's Rule) ---
+    - Consistency and inconsistency of systems of equations ---
+    - Continuity of a function at a point ---
+    - Continuity in an interval and algebra of continuous functions ---
+    - Removable discontinuity ---
+    - Derivatives of composite functions (chain rule) ---
+    - Derivatives of exponential and logarithmic functions ---
+    - Implicit differentiation ---
+    - Logarithmic differentiation ---
+    - Derivatives of parametric functions ---
+    - Differentiation of one function w.r.t. another ---
+    - Second order derivatives ---
+    - Applications - rate of change of quantities ---
+    - Increasing and decreasing functions ---
+    - Tangent and normal, angle between curves ---
+    - Maxima and minima - critical points, first derivative test ---
+    - Maxima and minima - second derivative test and applications ---
+    - Integration as inverse of differentiation ---
+    - Integration of trigonometric powers (sin^2x, sin^3x, cos^4x) ---
+    - Integration by substitution ---
+    - Integration of tan x, cot x, sec x, cosec x ---
+    - Integration of special forms (1/(x^2+/-a^2), 1/sqrt(x^2+/-a^2), etc.) ---
+    - Integration of forms (px+q)/(ax^2+bx+c) and (px+q)/sqrt(ax^2+bx+c) ---
+    - Integration of trigonometric forms (1/(a+b cos x), etc.) ---
+    - Integration by partial fractions ---
+    - Integration by parts ---
+    - Definite integral and Fundamental Theorem of Calculus ---
+    - Area under simple curves ---
+    - Area between two curves ---
+    - Area bounded by curves, lines, and coordinate axes ---
+    - Solution by separation of variables ---
+    - Vectors - scalars vs vectors, magnitude and direction ---
+    - Types of vectors (equal, unit, zero, parallel, collinear) ---
+    - Vector addition and scalar multiplication ---
+    - Section formula in vectors ---
+    - Scalar (dot) product of vectors ---
+    - Vector (cross) product of vectors ---
+    - Direction cosines and direction ratios ---
+    - 3D Geometry - equation of a line (Cartesian and vector) ---
+    - 3D Geometry - coplanar and skew lines, shortest distance ---
+    - 3D Geometry - equation of a plane ---
+    - 3D Geometry - forms of plane equation (normal, intercept, one-point) ---
+    - 3D Geometry - distance of a point from a plane ---
+    - 3D Geometry - angle between lines, planes, line and plane ---
+    - 3D Geometry - intersection of line and plane ---
+    - Multiplication theorem and independent events ---
+    - Bayes' theorem ---
+    - Mean of random variable ---
+    - L'Hopital's rule for limits
+    - Rolle's theorem and its applications
+    - Lagrange's Mean Value Theorem
+    - Scalar triple product and volume of parallelepiped
+    - Vector triple product (a x (b x c))
+    - Wallis' formula and reduction formulas
+    - Bernoulli's differential equation
+    - Area under parametric curves and polar curves
+    - Binomial distribution and mean/variance
+    - Elementary row operations and rank of matrix
+    - Product of determinants and solving linear systems
+    - Image of point in plane and foot of perpendicular
+    - Bisector planes of two planes
+
+=== geography (147 missing topics) ===
+  C6 (18):
+    - Maps — introduction
+    - Map vs sketch vs plan vs globe
+    - Importance of maps
+    - Direction — eight cardinal points
+    - Scale on maps
+    - Landforms — mountains
+    - Formation of mountains — folding
+    - Formation of mountains — faulting
+    - Volcanic mountains
+    - Valleys — formation and types
+    - Water bodies — oceans
+    - Water bodies — rivers
+    - Agriculture — introduction
+    - Minerals — introduction
+    - North America — location and boundaries
+    - North America — physical features
+    - South America — location and boundaries
+    - South America — physical features
+  C7 (19):
+    - Topographical maps — introduction
+    - Use of colours on topographical maps
+    - Scale types — RF and linear
+    - Atmosphere — composition
+    - Atmosphere — layers
+    - Ozone layer
+    - Weather — elements
+    - Weather instruments
+    - Weather vs climate
+    - Weathering — introduction
+    - Soil formation
+    - Industries — agro-based
+    - Industries — iron and steel
+    - Energy resources — conventional
+    - Energy resources — non-conventional
+    - Europe — location and physical features
+    - Africa — location and physical features
+    - Australia — location and physical features
+    - Antarctica
+  C8 (12):
+    - Representation of geographical features — revision
+    - Population dynamics
+    - Migration
+    - Urbanisation
+    - Natural disasters
+    - Man-made disasters
+    - Asia — location and boundaries
+    - Asia — physical features
+    - Asia — climate
+    - Asia — natural vegetation and wildlife
+    - India — geographical features
+    - India — human resources
+  C9 (30):
+    - Earth as a planet
+    - Latitudes
+    - Longitudes
+    - Time calculation
+    - Great circles
+    - Rotation of Earth
+    - Revolution of Earth
+    - Equinoxes and solstices
+    - Earth's structure — core, mantle, crust
+    - Landforms — mountains (fold, block, residual)
+    - Landforms — plateaus
+    - Landforms — plains
+    - Rocks — igneous
+    - Rocks — sedimentary
+    - Rocks — metamorphic
+    - Rock cycle
+    - Volcanoes
+    - Earthquakes
+    - Weathering — types
+    - Denudation — river work
+    - Denudation — wind work
+    - Hydrosphere — tides
+    - Ocean currents
+    - Atmosphere — composition and structure
+    - Insolation
+    - Atmospheric pressure and winds
+    - Humidity and precipitation
+    - Pollution — types and sources
+    - Natural regions of the world
+    - Map work — world
+  C10 (21):
+    - Topographical maps — interpretation
+    - Contours and landform identification
+    - Map of India — locating features
+    - India — location and extent
+    - Physical features of India
+    - Climate of India
+    - Soil resources of India
+    - Natural vegetation of India
+    - Water resources
+    - Mineral resources — iron, manganese, copper, bauxite
+    - Energy resources — conventional
+    - Energy resources — non-conventional
+    - Agriculture — importance and types
+    - Agriculture — food crops
+    - Agriculture — cash crops
+    - Industries — agro-based
+    - Industries — mineral-based
+    - Transport in India
+    - Waste management — impact
+    - Waste management — safe disposal
+    - Waste management — reduce, reuse, recycle
+  C11 (19):
+    - Branches of geography
+    - Formation of Earth — theories
+    - Rocks — classification and distribution
+    - Plate tectonics
+    - Folding and faulting
+    - Landforms — mountains, plateaus, plains
+    - Weathering — types
+    - Fluvial processes and landforms
+    - Aeolian processes and landforms
+    - Glacial processes and landforms
+    - Groundwater processes and karst landforms
+    - Marine processes and coastal landforms
+    - Atmospheric temperature
+    - Atmospheric pressure
+    - Atmospheric moisture
+    - Ocean relief
+    - Ocean currents and tides
+    - Biosphere — concept of ecosystems
+    - Map work — physical geography
+  C12 (28):
+    - India — locational setting
+    - Geological evolution of India
+    - Himalayan mountain complex
+    - Indo-Ganga-Brahmaputra plains
+    - Peninsular plateau
+    - Coastal plains and islands
+    - Drainage systems
+    - Climate — factors affecting
+    - Monsoon mechanism
+    - Seasons of India
+    - Droughts and floods
+    - Natural vegetation
+    - Migration trends
+    - Demographic attributes
+    - Rural settlements
+    - Urban settlements
+    - Environmental management
+    - Agriculture — types and development
+    - Agriculture — food crops
+    - Agriculture — commercial crops
+    - Fisheries
+    - Conventional energy sources
+    - Non-conventional energy sources
+    - Industries — agro-based
+    - Industries — mineral-based
+    - Tourism industry
+    - Regional economic development
+    - Map work — India
+
+=== history_civics (426 missing topics) ===
+  C6 (65):
+    - Local Self-Government — Meaning and Significance
+    - Three-Tier Panchayati Raj System — Gram Panchayat, Block Samiti, Zila Parishad
+    - Gram Sabha — Village Assembly, Membership and Powers
+    - Gram Panchayat — Composition (Sarpanch, Panchs), Features and Functions
+    - Nyaya Panchayat — Village-Level Dispute Resolution
+    - Block Samiti (Panchayat Samiti) — Composition and Functions at Block Level
+    - Zila Parishad — Composition and Functions at District Level
+    - Meaning of 'Metropolitan' and the Four Major Indian Metropolitan Cities
+    - Composition of Municipal Corporation — Mayor, Municipal Commissioner, Councillors, Aldermen
+    - Seven Core Functions of Municipal Corporation
+    - How Municipal Corporation Works — Elected Wing vs Appointed Wing
+    - Municipalities (Municipal Councils/Nagar Palikas) for Smaller Towns
+    - Citizen Participation in Urban Governance — Swachh Bharat, Grievance Redressal, Community Problems
+    - History — Meaning, Definition and Importance of Studying History
+    - Sources of History and the BC/AD Timeline
+    - Historians and Archaeologists — Their Role in Reconstructing the Past
+    - Early Man — Origin, Evolution and the Paleolithic (Old Stone Age)
+    - Mesolithic (Middle Stone Age) and Neolithic (New Stone Age)
+    - Discovery of Fire and Its Impact — Tools and Weapons of Stone, Bone and Wood
+    - Beginning of Agriculture and Domestication of Animals — Transition from Nomadic to Settled Life
+    - Cave Paintings and Rock Art as Sources — Bhimbetka and Lascaux; Chalcolithic Age and the Use of Copper
+    - Civilization — Meaning and Reasons for River Valley Settlement; Indus Valley Civilisation — Origin, Location and Rivers
+    - Indus Valley Town Planning, Architecture, Great Bath, Granary and Streets
+    - Indus Valley Society, Social Life, Occupations, Trade, Art, Craft and Religious Beliefs
+    - Decline of the Indus Valley Civilisation and its Contributions to the Modern World
+    - Egyptian Civilisation — The Nile, Pyramids, Mummies and Hieroglyphics
+    - Mesopotamian Civilisation — Tigris-Euphrates, Ziggurats and Cuneiform
+    - Chinese Civilisation — The Hwang Ho, the Great Wall and Society
+    - Comparative Study of the Four River Valley Civilisations and Their Contributions
+    - The Aryans — Migration into Sapta Sindhu and Expansion to the Gangetic Valley
+    - The Four Vedas — Rig, Sama, Yajur, and Atharva
+    - Upanishads and Puranas — Philosophical and Mythological Extensions of Vedic Literature
+    - Ramayana and Mahabharata — The Great Epics and Their Cultural Role
+    - Early Vedic Political Organisation — Jana, Vis, Gram, and Rajan
+    - Early Vedic Social Life — Family, Community, and Women's Status
+    - Early Vedic Economy — Cattle Wealth, Agriculture, and Trade
+    - Later Vedic Transformation — Kingdoms, Varna, and the Decline of Assemblies
+    - Later Vedic Education (Gurukul), Iron Age Agriculture, and Expanding Trade
+    - Comparison of Early and Later Vedic Periods — Political, Social, Economic, and Religious Transformations
+    - Social Conditions of Later Vedic Period — Causes of Jainism and Buddhism
+    - Mahavira and Jainism — Life, Teachings, and the Five Vows
+    - Gautama Buddha and Buddhism — Life, Four Noble Truths, and the Eight-Fold Path
+    - Sub-Sects of Jainism and Buddhism — Digambara, Svetambara, Hinayana, and Mahayana
+    - Spread and Decline of Jainism and Buddhism — A Comparative Study
+    - Janapadas and Mahajanapadas — From Tribes to Territorial Kingdoms
+    - Four Powerful Mahajanapadas — Vatsa, Avanti, Kosala, Magadha
+    - Magadha's Rise — Bimbisara, Ajatashatru, and the Nandas
+    - Alexander's Invasion of North-Western India and the Battle of Hydaspes
+    - Sources of the Mauryan Empire — Indica and Arthashastra
+    - Chandragupta Maurya — Founding the Empire and the Role of Chanakya
+    - Bindusara — Consolidation Between Chandragupta and Ashoka
+    - Ashoka's Ascend to the Throne and the Extent of His Empire
+    - The Kalinga War 261 BCE — Causes and Effects
+    - Ashoka's Conversion to Buddhism and Public Welfare Activities
+    - Ashoka's Dhamma — Principles and Purpose as a Moral Code
+    - Ashokan Edicts — Rock Edicts, Pillar Edicts, and the Brahmi Script
+    - Mauryan Administration — Pataliputra as Capital, Provinces, and City Officials
+    - Mauryan Art, Economy, and the Decline After Ashoka
+    - Sources of the Gupta Empire — Allahabad Pillar Inscription, Fa Hien, and Gupta Coins
+    - Chandragupta I — Real Founder of the Gupta Empire and the Gupta Era (319 CE)
+    - Samudragupta — Military Conquests and the Allahabad Prasasti
+    - Chandragupta II Vikramaditya — Height of the Empire and Defeat of the Western Kshatrapas
+    - Why the Gupta Period is Termed the Golden Age — Features and the Debate
+    - Scientific Progress in the Gupta Period — Aryabhatta, the Decimal System, Zero, and Varahamihira
+    - Art, Architecture, Literature, and Education in the Gupta Period — Kalidasa, Dashavatara Temple, Ajanta, and Nalanda
+  C7 (58):
+    - Meaning of 'Medieval' and the Beginning of the Medieval Period
+    - Birth of Christianity in Roman-Occupied Palestine — Birth of Jesus in Bethlehem
+    - Main Teachings of Jesus — Love, Compassion, Forgiveness, and the Kingdom of God
+    - Jesus's Opposition with Jewish Leaders, Crucifixion, and the Spread of Early Christianity
+    - Role of Emperor Constantine in Spreading Christianity and the Rise of Constantinople
+    - Decline of the Ancient Roman Empire — Barbarian Invasions by Goths, Vandals, and Franks
+    - Byzantium, the Emergence of the Turks, and the Crusades
+    - Monasteries and Their Impact on Medieval European Life
+    - Pre-Islamic Arabia — Tribal Society and Socio-Political Conditions
+    - Birth and Early Life of Prophet Muhammad (570 CE, Mecca, Quraysh Tribe)
+    - Five Pillars of Islam — Shahada, Salat, Zakat, Sawm, Hajj
+    - The Hijrat — Migration to Medina 622 CE, Beginning of the Islamic Calendar
+    - Prophet Muhammad's Return to Mecca — Significance of Mecca and Medina as Holy Cities
+    - Death of Prophet Muhammad (632 CE) and Beginning of Caliphate under Rashidun
+    - Spread of Islam under Umayyad and Abbasid Dynasties — Founding of Baghdad 750 CE
+    - Turkish Invasions — Mahmud of Ghazni and Muhammad of Ghor
+    - The Five Dynasties of the Delhi Sultanate
+    - Mamluk (Slave) Dynasty — Aibak, Iltutmish, Razia, Balban
+    - Khalji Dynasty and Alauddin Khalji's Empire
+    - Tughlaq Dynasty and the Experiments of Muhammad bin Tughlaq
+    - Comparative Study of the Khaljis and the Tughlaqs
+    - Art and Architecture of the Delhi Sultanate
+    - Decline of the Delhi Sultanate — Sayyid, Lodi Dynasties and the First Battle of Panipat 1526
+    - Disintegration of the Tughlaq Empire and Rise of Independent Southern Kingdoms
+    - Vijayanagar Empire — Founding by Harihara and Bukka (1336 CE), Location and Administration
+    - Krishnadeva Raya of the Tuluva Dynasty (1509-1529 CE) — Reign, Achievements, and Domingo Paes
+    - Bahamani Kingdom — Founding by Ala-ud-Din Hasan Bahman Shah (1347 CE) and Mahmud Gawan's Reforms
+    - Art and Architecture of the Vijayanagar and Bahamani Kingdoms — Hampi and Gol Gumbaz
+    - Comparative Study of the Vijayanagar and Bahamani Kingdoms
+    - First Battle of Panipat (1526) — Establishment of the Mughal Empire
+    - Babur and Humayun — Founding and Early Struggles
+    - Sher Shah Suri — The Great Administrator
+    - Akbar — Consolidation, Rajput Policy and Expansion
+    - Akbar's Religious Policy — Din-i-Ilahi and Sulh-i-Kul
+    - Akbar's Revenue System — Todar Mal and the Zabt System
+    - Jahangir and Nur Jahan — Politics, Patronage, and European Traders
+    - Shah Jahan's Architecture and Aurangzeb's Deccan Policy
+    - Decline of the Mughal Empire — Regional Powers, 1707, and Legacy
+    - Causes and Significant Features of the Bhakti Movement
+    - Shankara's Advaita Vedanta and Jnaneshwara's Marathi Bhakti
+    - Alwars and Nayanars — Vaishnava and Shaiva Tamil Bhakti
+    - Kabir (1440-1518) — Devotional Poet and Religious Critic
+    - Guru Nanak (1469-1539) — Teachings and Foundation of Sikhism
+    - Sufi Movement — Chishti Order and Major Sufi Saints
+    - Impact of Bhakti and Sufi Movements on Making of Composite Culture
+    - Meaning of a Constitution — What It Is and Why a Country Needs One
+    - The Constituent Assembly — First Met 9 December 1946, 389 Members
+    - Contribution of Great Thinkers — Dr B.R. Ambedkar, Nehru, Patel, Rajendra Prasad
+    - The Preamble — Structure and Purpose
+    - Nature of the State — Sovereign, Socialist, Secular, Democratic, Republic (42nd Amendment 1976)
+    - Objectives — Justice, Liberty, Equality, Fraternity
+    - Constitution in Practice — Amendments and Republic Day 26 January 1950
+    - The Welfare State — Meaning and Features
+    - Directive Principles of State Policy — Meaning, Purpose, and Articles 36-51 (Part IV)
+    - General Principles Promoting Economic Equality — Articles 38, 39, 41, 42, 43
+    - Gandhian Principles — Articles 40, 43, 46, 47, 48
+    - Difference Between Fundamental Rights and Directive Principles
+    - Welfare Activities — Historical (Ashoka's Dhamma) vs Modern (MNREGA 2005, RTE Act 2009, Swachh Bharat 2014)
+  C8 (68):
+    - Aims and Principles of the United Nations
+    - Organs of the UN — General Assembly and Security Council
+    - International Court of Justice — Composition and Functions
+    - UN Agencies — UNESCO and UNICEF (Functions)
+    - UN Agency — WHO (Functions)
+    - The Period of Transition — Meaning and Primary vs Secondary Sources
+    - Transition from Medieval to Modern Age — Renaissance, Reformation, Voyages
+    - The Industrial Revolution — Meaning, Why England, Major Inventions
+    - Impacts of the Industrial Revolution on Society and Economy
+    - Imperialism — Meaning and Causes
+    - Impact of Imperialism on South Asian Countries
+    - The French Revolution — Social, Political and Economic Causes
+    - The French Revolution — Outbreak and Impact
+    - Post-Revolution Period and Napoleon Bonaparte (Brief Study)
+    - American War of Independence — The Thirteen Colonies and Causes
+    - American War of Independence — Beginning and Birth of the United States of America
+    - American Civil War — Background and Causes
+    - Role of Abraham Lincoln and the Gettysburg Address
+    - Impact of the American Civil War
+    - Decline of the Mughal Empire — Major Factors and Causes
+    - Later Mughals and the Vacuum of Power
+    - Rise of Independent Regional Kingdoms — Hyderabad, Awadh, Bengal
+    - Rise of the Rajputs, Sikhs, and Mysore
+    - Battle of Plassey (1757) — Causes and Results
+    - Battle of Buxar (1764) — Causes and Results
+    - Dual Government in Bengal (1765-1772) — System and Drawbacks
+    - Doctrine of Lapse — Meaning and Examples (Satara, Jhansi, Nagpur)
+    - Subsidiary Alliance and Annexation of Awadh (Pretext)
+    - Economic Policy Under the Company — Overview of British Economic Aims in India
+    - Permanent Settlement (1793) — Cornwallis and the Zamindars
+    - Mahalwari and Ryotwari Systems — Revenue Settlements Outside Bengal
+    - Exploitation of Artisans and Weavers — Deindustrialisation of Indian Crafts
+    - Drain of Wealth — Dadabhai Naoroji's "Poverty and Un-British Rule in India"
+    - Wood's Despatch (1854) and the Introduction of Modern Education in India
+    - Political Causes of the 1857 Uprising — Doctrine of Lapse and Annexations
+    - Socio-Religious and Economic Causes of the 1857 Uprising
+    - Military Causes and Immediate Cause of the 1857 Uprising — Greased Cartridges
+    - Leaders and Spread of the 1857 Uprising — Mangal Pandey, Rani Lakshmibai, Nana Saheb, Tantia Tope
+    - Consequences of the 1857 Uprising — Changes in Administration and Queen Victoria's Proclamation 1858
+    - Nature of the 1857 Uprising — Debate: Mutiny vs War of Independence
+    - Raja Ram Mohan Roy — Brahmo Samaj and the Abolition of Sati
+    - Ishwar Chand Vidyasagar — Widow Remarriage and Women's Education
+    - Swami Dayanand Saraswati — Arya Samaj and "Back to the Vedas"
+    - Swami Vivekananda — Ramakrishna Mission and the Chicago Address (1893)
+    - Jyotiba Phule — Satyashodhak Samaj and Caste Reform
+    - Sir Syed Ahmad Khan — Aligarh Movement and Muslim Educational Reform
+    - Annie Besant, Veerasalingam, Narayana Guru and Singh Sabhas — Brief Contributions
+    - Rise of Nationalism — Factors (Economic Exploitation, Western Education, Press, Lytton's Repression)
+    - Early Political Associations and Formation of the Indian National Congress (1885)
+    - The Moderates — Leaders, Methods, and Demands (Dadabhai Naoroji, Gokhale)
+    - Partition of Bengal (1905) — Anti-Partition Movement, Swadeshi and Boycott
+    - Surat Split (1907) and the Assertive Nationalists (Tilak, Bipin Chandra Pal, Lajpat Rai)
+    - Home Rule Movement (1916) — Annie Besant and Tilak
+    - Lucknow Pact (1916) — Unity Pact between INC and Muslim League
+    - Gandhian Era — Early Campaigns (Champaran, Kheda, Ahmedabad Mill Strike)
+    - Non-Cooperation Movement (1920) — Causes (Rowlatt Act, Jallianwala Bagh, Khilafat), Chauri-Chaura, and Impact
+    - Civil Disobedience Movement (1930) — Causes (Simon Commission, Lahore Session 1929), Dandi March, Gandhi-Irwin Pact
+    - Quit India Movement (1942) and Forward Bloc and INA (Objectives)
+    - Independence and Partition — Cabinet Mission, Mountbatten Plan, Indian Independence Act (Clauses)
+    - Lok Sabha — Composition, Term, Election and Qualifications
+    - Rajya Sabha — Composition, Term, Qualifications and Presiding Officer
+    - Powers and Functions of the Union Parliament
+    - The President — Qualifications, Election Method, Term and Powers
+    - The Vice-President — Qualifications, Election and Powers
+    - Prime Minister and Council of Ministers — Appointment and Functions
+    - The Supreme Court — Composition, Qualifications and Appointment of Judges
+    - Supreme Court — Jurisdiction, Judicial Review, Court of Record and Writs
+    - The High Court — Composition, Jurisdiction and Writs
+  C9 (69):
+    - The Cholas — Sources (Inscriptions and Brihadishwara Temple)
+    - The Cholas — Kings, Administration, and Local Self-Government
+    - The Cholas — Art and Architecture
+    - The Delhi Sultanate — Sources and Dynasties in Chronological Order
+    - Alauddin Khalji — Market Regulations, Deccan Expedition, and Reforms
+    - Muhammad bin Tughlaq — Transfer of Capital, Token Currency, and Taxation in the Doab
+    - The Mughal Empire — Sources (Ain-i-Akbari, Taj Mahal, Jama Masjid, Red Fort)
+    - Mughal Kings in Chronological Order and Babur's Three Battles
+    - Akbar — Rajput Policy, Integration, Social and Educational Reforms, and the Mansabdari System
+    - Composite Culture — Factors, Bhakti and Sufi Principles, and Impact
+    - Renaissance — Definition and Causes (Capture of Constantinople, Decline of Feudalism, New Trade Routes, Printing Press)
+    - Renaissance — Impact on Art (Leonardo da Vinci), Literature (Shakespeare), Science (Copernicus)
+    - Consequences of the Renaissance
+    - Reformation — Meaning and Causes (Dissatisfaction with the Catholic Church, New Learning)
+    - Martin Luther's Contribution to the Reformation
+    - Counter Reformation
+    - Industrial Revolution — Definition, Causes, and the Rise of Capitalism
+    - Rise of Socialism
+    - Definition of a Constitution and Its Significance
+    - Date of Adoption (26 November 1949) and Date of Enforcement (26 January 1950) and Their Significance
+    - Single Citizenship and Universal Adult Franchise
+    - Fundamental Rights and Fundamental Duties
+    - Directive Principles of State Policy and Their Difference from Fundamental Rights
+    - Meaning of a Welfare State
+    - Meaning of Elections and Electoral Democracy
+    - Composition and Functions of the Election Commission of India
+    - Direct and Indirect Election
+    - General Election
+    - Mid-term Election and By-election
+    - Legislative Assembly and Legislative Council — Composition
+    - Unicameral and Bicameral Legislatures
+    - Term, Composition, and Qualifications for Membership of State Legislatures
+    - Powers and Functions of State Legislatures
+    - Harappan Sources — Great Bath, Citadel and Seals
+    - Harappan Sources — Bearded Man, Dancing Girl, Dockyard, Granaries and Script
+    - Harappan Urban Planning — Grid System and Drainage
+    - Harappan Trade — Internal and External (Mesopotamia)
+    - Harappan Art and Craft
+    - Decline of the Harappan Civilisation — Theories
+    - Sources of the Vedic Period — The Four Vedas and the Epics
+    - Early Vedic Social Organisation — Family and the Position of the King
+    - Rig Vedic Assemblies — Sabha, Samiti, and Vidhatha
+    - Position of Women in Early vs Later Vedic Society
+    - Economy of the Early vs Later Vedic Period — A Comparison
+    - The Four Class Divisions — Varna System in Vedic Society
+    - The Four Ashramas — Stages of Life in Vedic Society
+    - The Vedic Education System — Gurukula and Brahmacharya
+    - Sources of Jainism and Buddhism — Angas, Tripitikas and Jatakas
+    - Causes for the Rise of Jainism and Buddhism in the 6th Century BCE
+    - Doctrines of Jainism — Tri-ratnas, Karma, Equality and Moksha
+    - Doctrines of Buddhism — The Four Noble Truths and the Eight-fold Path
+    - Nirvana and the Comparison of Jainism and Buddhism
+    - Sources of the Mauryan Empire — Arthashastra, Indika, Ashokan Edicts, Sanchi Stupa
+    - Mauryan Kings in Chronological Order — Chandragupta, Bindusara, Ashoka
+    - Administration of the Mauryan Empire — Centralised Bureaucracy and Provincial Government
+    - Ashoka's Dhamma — Principles and Their Philosophical Basis
+    - Impact of Ashoka's Dhamma — Social, Political, and International Consequences
+    - Mauryan Art and Architecture — Sanchi Stupa, Pillars, and Rock-Cut Caves
+    - Sources of the Sangam Age — Tirukkural and Megaliths
+    - Society in the Sangam Age — Position of Women
+    - Economy of the Sangam Age — Agriculture
+    - Economy of the Sangam Age — Trade and Maritime Contacts
+    - Sources of the Gupta Age — Fa-hien's Account and the Allahabad Pillar Inscription
+    - Gupta Kings in Chronological Order — Chandragupta I to Kumaragupta
+    - Administration of the Gupta Empire
+    - Nalanda University — Centre of Higher Education Under the Guptas
+    - Aryabhatta — Gupta Contribution to Science and Mathematics
+    - Sushrutha — Gupta Contribution to Medicine and Surgery
+    - Gupta Contribution to Culture — Kalidasa's Works and the Deogarh Temple
+  C10 (48):
+    - Meaning of Federal Setup in India
+    - Lok Sabha — Term, Composition, Qualifications for Membership
+    - Parliamentary Procedures — Sessions, Quorum, Question Hour
+    - Types of Questions, Zero Hour, Adjournment, No-Confidence Motion, Anti-Defection Law
+    - Passing of Ordinary and Money Bills
+    - Speaker — Election, Removal, and Functions
+    - Rajya Sabha — Composition, Qualifications, Election, Term, Presiding Officer
+    - Powers and Functions of Union Parliament and Exclusive Powers of Each House
+    - The President — Qualifications, Electoral College, and Rationale for Indirect Election
+    - The President — Term of Office and Impeachment Procedure
+    - The President — Executive, Legislative, Financial, Judicial, Discretionary and Emergency Powers
+    - The Vice-President — Qualifications, Removal, Term, and Powers
+    - Prime Minister — Appointment and Formation of Council of Ministers
+    - Council of Ministers — Tenure and Functions (Policy, Administrative, Legislative, Financial, Emergency)
+    - Collective and Individual Responsibility — Distinction Between Council of Ministers and Cabinet
+    - Supreme Court — Composition, Qualifications and Appointment of Judges
+    - Independence of the Judiciary from Executive and Legislature
+    - Supreme Court — Jurisdiction and Functions (Original, Appellate, Advisory, Revisory, Judicial Review, Court of Record, Writs)
+    - High Courts — Composition, Qualifications, Appointment and Jurisdiction
+    - Subordinate Courts — District Judge vs Sessions Court
+    - Lok Adalats — Meaning and Advantages
+    - First War of Independence 1857 — Political, Socio-Religious, Economic and Military Causes
+    - Consequences of 1857 — End of Company Rule, Queen Victoria's Proclamation, Princely States and Army Reorganisation
+    - Factors Leading to Growth of Nationalism — Economic Exploitation, Repressive Policies, Socio-Religious Reforms and the Press
+    - Foundation of the Indian National Congress 1885 — Year, Founder, Objectives, First Two Sessions and Presidents
+    - First Phase (1885-1907) — Early Nationalists, Objectives, Methods and Contributions of Naoroji, Banerjee and Gokhale
+    - Second Phase (1905-1916) — Partition of Bengal and the Assertive Nationalists
+    - Surat Split 1907 and Contributions of Tilak, Pal and Lajpat Rai
+    - Muslim League Formation 1906 and Lucknow Pact 1916
+    - Non-Cooperation Movement — Causes (Khilafat, Rowlatt Act, Jallianwala Bagh)
+    - Non-Cooperation — Programme, Chauri Chaura, Suspension and Impact
+    - Civil Disobedience Movement — Causes (Simon Commission, Lahore Session 1929, Poorna Swaraj)
+    - Dandi March and Civil Disobedience — Programme and Impact
+    - Gandhi-Irwin Pact, Second Round Table Conference, and Renewal of Civil Disobedience
+    - Quit India Movement 1942 — Causes (Cripps Mission Failure, Japanese Threat) and Significance
+    - Forward Bloc and INA — Objectives and Subhas Chandra Bose
+    - Independence and Partition — Cabinet Mission Plan and Mountbatten Plan
+    - Indian Independence Act 1947 — Clauses
+    - First World War — Causes (Nationalism, Imperialism, Arms Race, Sarajevo Crisis)
+    - Results of WWI — Treaty of Versailles (1919) and Formation of the League of Nations
+    - Rise of Dictatorships — Causes of Fascism in Italy and Nazism in Germany
+    - Similarity Between the Ideologies of Fascism and Nazism
+    - Second World War — Causes (Versailles, Appeasement, Japanese Invasion of China, League Failure, Hitler's Invasion of Poland)
+    - WWII — Attack on Pearl Harbour and Bombing of Hiroshima and Nagasaki
+    - Consequences of WWII — Defeat of Axis Powers, Formation of the United Nations, and the Cold War
+    - United Nations — Objectives, General Assembly, Security Council, and International Court of Justice
+    - UN Agencies — UNICEF, WHO, UNESCO; and the Universal Declaration of Human Rights
+    - Non-Aligned Movement — Meaning, Objectives, Panchsheel, Nehru's Role, and Architects of NAM
+  C11 (57):
+    - Post-War Discontent and Conditions Giving Rise to Fascism in Italy (1919-22)
+    - From the Election of 1921 to the March on Rome (October 1922)
+    - Main Features of Mussolini's Domestic Policy (1922-39)
+    - Critical Appraisal of Mussolini's Economic Policy (1922-39)
+    - Weaknesses of the Weimar Republic (1919-1932)
+    - Events from 1932 to Hitler's Appointment as Chancellor (30 January 1933)
+    - Reasons for Nazi Popularity Among Different Social Groups
+    - The Nazi State — Government, Culture, Education, and the Night of the Long Knives
+    - Escalation of the Anti-Jewish Campaign to the Final Solution and Reasons for Acceptance
+    - Economic and Political Causes of Japanese Militarism in the 1930s
+    - Role of the Military in Japanese Government and Society
+    - Impact of Japanese Militarism on Foreign Policy and Asia
+    - Development of Railways and Communications under the British (1853 onwards)
+    - British Revenue Policy — Impact on Peasants and Artisans and Disruption of the Traditional Economy
+    - Growth of Large-Scale Machine-Based Industries in Western India (1854-1914)
+    - Economic Impact of Modern Industries under Colonial Rule
+    - Colonial Forest Policy of the 19th Century and Its Impact on Local Communities
+    - Jyotirao Phule — Satyashodhak Samaj and the Struggle Against Caste
+    - Narayana Guru and Kandukuri Veerasalingam — Caste Reform in South and East India
+    - Women's Condition in 19th-Century India — Sati, Child Marriage, Purdah, Widowhood
+    - Abolition of Sati (1829) and the Hindu Widows' Remarriage Act (1856)
+    - Female Infanticide Prevention Act (1870), Age of Consent Act (1891) and the Impact of Reform on Indian Women
+    - Circumstances Leading to Protest Movements Against Colonial Rule
+    - Indigo Uprising (1859) — Causes, Course, Impact
+    - Deccan Riots (1875) — Causes, Course, Impact
+    - Munda Uprising (1899-1900) — Birsa Munda, Causes, Impact
+    - Impact of Protest Movements on Colonial Policies
+    - Partition of Bengal 1905 and the Anti-Partition Movement
+    - Swadeshi and Boycott Movement — Causes and Impact
+    - Circumstances Leading to the Foundation of the Muslim League
+    - Objectives of the Muslim League
+    - Rowlatt Act (1919) — Reasons and Main Terms
+    - Satyagraha Against the Rowlatt Act (1919)
+    - Jallianwala Bagh Massacre (13 April 1919)
+    - Launching of the Khilafat Movement (1919-1920)
+    - Non-Cooperation Movement (1920-1922) — Chronological Account and Suspension
+    - Simon Commission (1927) and the All-India Boycott
+    - Nehru Report (1928) and the Demand for Dominion Status by 1929
+    - Lahore Session (1929) and the Poorna Swaraj Resolution
+    - Civil Disobedience Movement (1930-1934) — Dandi March, Gandhi-Irwin Pact, Round Table Conferences
+    - Poona Pact (1932) and Resumption of the Civil Disobedience Movement
+    - Government of India Act 1935 — Features, Election of 1937, and Congress Ministries
+    - Long-Term Causes of WWI — Alliance System, Imperialism, Militarism and Nationalism
+    - Short-Term Causes of WWI — Balkan Crises (1908-1913) and the Sarajevo Assassination (1914)
+    - Course of World War I — Key Events from 1914 to 1918
+    - Paris Peace Settlements — Changes in the Map of Europe (1919-1920)
+    - Critical Evaluation of the Treaty of Versailles (1919)
+    - Causes Leading to the Wall Street Crash of 1929
+    - Impact of the Great Depression on the Economy of the USA
+    - Impact of the Great Depression on the Economies of Germany and Japan
+    - Roosevelt and the New Deal — Aims and Measures
+    - Causes of the March Revolution (1917) and Its Immediate Results
+    - Weaknesses of the Provisional Government Leading to the November Revolution (1917)
+    - Lenin's New Economic Policy (NEP) 1921 — Reasons and Impact
+    - Rise of Stalin — Factors Assisting His Rise to Power (1922-1929)
+    - Stalin's Domestic Policy — Collectivisation of Agriculture and the Five Year Plans (1928-1937)
+    - The Great Purges of 1937-1938
+  C12 (61):
+    - Civil Rights Movement in USA — Racial Problems of the 1950s-1970s and Dr. Martin Luther King's Role
+    - Civil Rights Movement — Campaign for Equal Rights and Change in Government Attitude
+    - Anti-Apartheid Movement in South Africa (1948-1994) — Main Features and Nelson Mandela's Role
+    - Anti-Apartheid — Transition to Black Majority Rule
+    - Second Wave Feminist Movement in USA (1960s-1980s) — Betty Friedan, NOW and the ERA
+    - Arab Nationalism and Zionism — Aims and Ideological Roots
+    - Conflicting British Promises — Husain-MacMahon, Sykes-Picot, and Balfour Declaration
+    - Formation of Israel and First Arab-Israeli War (1948-1949)
+    - Suez Crisis, Six Day War, Yom Kippur War, and Camp David Accord (1956-1979)
+    - Origin and Formation of the PLO
+    - Intifada and Oslo Peace Accords I and II (1993, 1995) — Features and Failure
+    - August Offer (1940) and Cripps Mission (1942) — Reasons and Rejection
+    - Quit India Resolution (1942) — Proposals, Movement, Suppression, Significance
+    - Subhash Chandra Bose and the INA — Organisation, Operations, Defeat, Significance
+    - Reasons for Change in British Government Attitude After WWII
+    - Cabinet Mission (1946) — Aims and Major Provisions
+    - Attlee's Declaration (20 February 1947) and Mountbatten Plan
+    - Indian Independence Act (1947) — Modifications to the Mountbatten Plan
+    - Reorganisation and Integration of Princely States — Sardar Patel's Role
+    - Integration of Junagarh and Hyderabad — Accession by Plebiscite and Police Action
+    - Integration of Kashmir — Accession, War and Special Status
+    - First General Election 1952 — Preparation, Process, Result and Impact
+    - Linguistic Reorganisation of States — States Reorganisation Act 1956
+    - Lal Bahadur Shastri — Contributions as Prime Minister (1964-1966)
+    - Election of 1967 — Importance and Outcome
+    - Opposition Political Parties — SP, CPI, CPI(M), Jana Sangh, Akali Dal
+    - Naxal Movement — Factors, Leaders, Areas, and Government Response
+    - Naxal Movement — Decline in the 1970s and Long-term Impact
+    - JP Movement (1974-75) — Origin, Features, and Significance
+    - Emergency (1975-77) — Reasons, Suspension of Democratic Rights, and Impact
+    - Janata Government (1977-1979) — Elections, Establishment, Policies and Downfall
+    - Punjab Crisis — Akali Dal Demands, Anandpur Sahib Resolution, Bhindranwale and Operation Bluestar (1981-1984)
+    - Assam Agitation (1979-1985) — Reasons, Course and Assam Accord
+    - Nagaland — Separatist Demands, Birth of Nagaland State and Shillong Accord 1975
+    - Mizoram Movement (1959-1986) — Course and Resolution
+    - Indo-Pak War 1947-49 — Kashmir Accession, Tribal Invasion and the First Ceasefire
+    - Indo-Pak War 1965 — Operation Gibraltar, the Tank Battles and the Tashkent Declaration
+    - Indo-Pak War 1971 — Bangladesh Liberation, Operation Searchlight and the Shimla Agreement
+    - Sino-Indian War 1962 — Tibet, Panchsheel and the Dalai Lama's Asylum
+    - Sino-Indian War 1962 — Aksai Chin, McMahon Line, Forward Policy and Consequences
+    - Towards Equality Report (1974) — Committee on Status of Women in India
+    - Anti-Dowry Movement (1970s) — Saheli, Manushi and the Struggle Against Dowry Deaths
+    - Struggle Against Domestic Violence (1970s-1980s) — From Private Matter to Public Crime
+    - Government Measures in Response to Women's Movements (1975-1986)
+    - Aggressive Foreign Policies of Germany, Italy and Japan as Causes of WWII
+    - Anglo-French Appeasement Policies — Reasons and Methods
+    - Axis Invasions in Europe and Asia (1939-1941)
+    - Course of the War in Europe, Africa and the Far East (1942-1945)
+    - Reasons for the Defeat of the Axis Powers
+    - China (1949) — Communist Problems, Land Reform, First Five Year Plan and Soviet Aid
+    - China — Great Leap Forward (1958-1962), Communes and Assessment
+    - Ghana (1957-1966) — Background to Independence, Nkrumah's Role and Reasons for Overthrow
+    - Kenya (1947-1964) — Conflict with White Settlers and the Role of Kenyatta
+    - Comparative Analysis of De-colonisation Processes in Asia and Africa
+    - End of Wartime Unity — Yalta and Potsdam Conferences (1945)
+    - Truman Doctrine and Marshall Plan (1947)
+    - Molotov Plan, COMECON and Cominform
+    - Soviet Expansion in Eastern Europe and the Czechoslovak Coup (1945-1948)
+    - Berlin Blockade, NATO, and the Division of Germany (1948-1949)
+    - Cuban Missile Crisis — Causes and Effects (1962)
+    - Détente, the End of Communism, and the Breakup of the USSR (1970s-1991)
+
+=== computer_science (322 missing topics) ===
+  C6 (26):
+    - Categories of computers - micro, mini, mainframe, supercomputer
+    - Computer languages - machine, assembly, high-level languages
+    - Translators - compiler, interpreter, assembler
+    - Hardware components overview - input, output, storage, processing devices
+    - File management - organisation of data, file types and extensions
+    - File properties - size, type, location, date modified, attributes
+    - Compressing files and folders - zip files, reducing size
+    - Word tables - creating, inserting rows and columns, formatting tables
+    - Word mail merge - creating form letters and mailing labels
+    - PowerPoint visual effects - animations, transitions, multimedia
+    - PowerPoint - importing data, hyperlinks, action buttons
+    - Scratch control blocks - forever, if-then, wait, broadcast
+    - Scratch variables and operators - data, sensing, operators blocks
+    - Creating a simple game in Scratch - movement, collision, scoring
+    - HTML introduction - structure, tags, elements, creating a web page
+    - HTML text formatting tags - headings, paragraphs, bold, italic, line break
+    - HTML lists, images, and links - ul, ol, li, img, a href
+    - HTML attributes and background - bgcolor, text color, font
+    - Internet safety and online surfing - safe browsing, evaluating websites
+    - Social media and online communication - chat, forums, video calls
+    - Algorithms - definition, properties, and examples
+    - Flowcharts - symbols, and drawing flowcharts for simple problems
+    - Introduction to spreadsheet - Excel interface, rows, columns, cells
+    - Excel data entry and basic calculations - SUM, AVERAGE, formulas
+    - Excel formatting and saving workbooks
+    - Networking concepts and protocols - LAN, WAN, and data transfer
+  C7 (25):
+    - Internal hardware - motherboard, CPU, RAM, ROM, GPU
+    - External hardware - input, output, and storage devices in detail
+    - Ports and connectors - USB, HDMI, VGA, Ethernet, audio
+    - Binary number system and computer arithmetic
+    - Decimal, octal, and hexadecimal number systems
+    - Number system conversions - decimal to binary, binary to decimal
+    - Computer virus - definition, types (boot, file, macro, polymorphic)
+    - Virus symptoms, entry methods, and prevention
+    - Antivirus software - functions, types, regular updates
+    - Internet advantages and disadvantages
+    - Computer ethics and unethical practices
+    - Digital footprints and safety measures online
+    - Excel 2016 interface - ribbon, formula bar, name box, worksheet tabs
+    - Excel data types and entering data - text, numbers, dates
+    - Excel calculations - formulas, SUM, AVERAGE, MAX, MIN
+    - Excel cell selection, modifying, inserting, and deleting cells
+    - Database introduction - definition, structure, and types
+    - DBMS and MS Access - components, creating a database
+    - Access tables - data types, primary key, naming fields
+    - Access queries - creating and running simple queries
+    - HTML tables - table, tr, td, th tags
+    - HTML forms - form, input, text, radio, checkbox, submit
+    - Scratch custom blocks and clones - procedures and duplication
+    - Scratch lists and string operations - data structures
+    - Cyber ethics capstone - responsible digital citizenship
+  C8 (31):
+    - Software types - system software, application software, utility software
+    - Operating system - definition, need, and functions
+    - Types of operating systems - batch, real-time, distributed, embedded
+    - Graphical User Interface - features, elements, advantages over CLI
+    - Excel operators - arithmetic, comparison, text concatenation
+    - Excel cell referencing - relative, absolute, mixed references
+    - Excel functions - IF, COUNTIF, SUMIF, ROUND, UPPER, LOWER
+    - Excel error values and managing worksheets
+    - Excel charts - types (column, bar, line, pie), creating charts
+    - Excel chart formatting - titles, labels, legend, resizing, printing
+    - Algorithms - advanced properties and problem-solving methodology
+    - Flowcharts - advanced symbols and complex flowchart drawing
+    - Problem-solving methodology - analyse, design, code, test, document
+    - Java introduction - history, features, object-oriented programming concepts
+    - BlueJ IDE - features, starting BlueJ, creating classes and objects
+    - Java program structure - class declaration, main method, statements
+    - Java data types and operators - primitive types, arithmetic operators
+    - Java selection control - if, if-else, nested if, switch
+    - Java looping control - for, while, do-while loops
+    - Java simple programs - sum of numbers, factorial, Fibonacci series
+    - App development introduction - types of apps, uses, commonly used apps
+    - Installing apps on phone - app stores, permissions, updates
+    - Designing and developing an app - process, UI design, testing
+    - Computer networks - definition, components, types (LAN, MAN, WAN)
+    - Networking media - twisted pair, coaxial, fiber optic, wireless
+    - Networking devices - hub, switch, router, modem, gateway
+    - Networking terminology and protocols - IP address, URL, HTTP, TCP/IP
+    - Cloud computing - definition, characteristics, types of clouds
+    - Cloud services - SaaS, PaaS, IaaS with examples
+    - Cloud advantages, disadvantages, and Google Drive practical use
+    - CSS and web page styling - selectors, properties, and layout
+  C9 (36):
+    - Computer architecture - CPU, ALU, CU, registers, bus
+    - Memory hierarchy - registers, cache, RAM, ROM, secondary storage
+    - Input and output devices - detailed classification and examples
+    - System software - operating system, language translators, device drivers
+    - Application software - general purpose and specific purpose
+    - Binary number system - bits, bytes, nibbles, word size
+    - Octal and hexadecimal number systems - conversions
+    - Data representation - signed numbers, 1s and 2s complement
+    - Character representation - ASCII, Unicode, BCD, EBCDIC
+    - Boolean algebra - variables, operations, truth values
+    - Basic logic gates - AND, OR, NOT gates and truth tables
+    - Derived logic gates - NAND, NOR, XOR, XNOR gates
+    - Boolean expressions and De Morgan's laws
+    - Algorithm design - methodology, pseudocode, trace tables
+    - Flowcharts for complex problems - loops, decisions, multiple branches
+    - Programming languages - generations and paradigms
+    - Compiler, interpreter, and assembler - detailed comparison
+    - Programming methodology - top-down design, modular approach
+    - Java history and features - James Gosling, Sun Microsystems, JDK, JRE, JVM
+    - Java program structure - class, main method, compilation and execution
+    - BlueJ IDE - creating projects, classes, compiling and running programs
+    - Java variables and primitive data types - int, float, double, char, boolean
+    - Java type casting and expressions - implicit and explicit casting
+    - Java operators - arithmetic, relational, logical, assignment
+    - Java increment/decrement and shorthand operators
+    - Java input - Scanner class, nextInt, nextDouble, nextLine
+    - Java output - System.out.print, println, printf, formatting
+    - Java if-else and nested if - conditional constructs in detail
+    - Java switch-case - multi-way branching, fall-through, default
+    - Java ternary operator and conditional expressions
+    - Java for loop - syntax, flow, examples
+    - Java while and do-while loops - syntax, differences, examples
+    - Java break and continue - loop control statements
+    - Java one-dimensional arrays - declaration, initialization, traversal
+    - Java array operations - searching, sorting, finding max/min/sum
+    - Internet safety and cyber ethics - online risks and responsible use
+  C10 (42):
+    - OOP principles - encapsulation, data hiding, abstraction
+    - OOP principles - inheritance and polymorphism (introduction)
+    - Objects vs classes - state, behaviour, identity, instantiation
+    - Java class definition - fields, methods, access modifiers
+    - Java object creation and using objects - new, dot operator
+    - Java instance variables vs local variables vs class variables
+    - Java methods - definition, parameters, return type, calling
+    - Java method overloading - same name, different parameters
+    - Java static methods and main method - static keyword
+    - Java constructors - default, parameterized, copy, overloading
+    - Java data types review - primitive types, type conversion, autoboxing
+    - Java operators review - all operators, precedence, associativity
+    - Java conditional constructs review - if-else, switch, nested conditions
+    - Java iterative constructs review - nested loops, patterns, series
+    - Java 1D arrays review - declaration, initialization, advanced operations
+    - Java 2D arrays - declaration, matrix operations, traversal
+    - Java array programs - finding max/min, reversing, duplicate elements
+    - Java String class - creation, methods, immutability
+    - Java String methods - compareTo, substring, indexOf, toUpperCase
+    - Java String programs - palindrome, anagram, word count, vowel count
+    - Java Math class - abs, max, min, pow, sqrt, random
+    - Java Integer and Double wrapper classes - parseInt, parseDouble, toString
+    - Java Scanner class - advanced input methods, hasNext, useDelimiter
+    - Java System class and output formatting - printf, format specifiers
+    - Computer ethics - intellectual property, copyright, plagiarism, software piracy
+    - Internet security - viruses, worms, trojans, spyware, phishing
+    - Cyber safety measures - firewalls, encryption, strong passwords, backups
+    - HTML review and advanced - frames, framesets, internal linking
+    - HTML CSS introduction - inline, internal, external styles
+    - Web page design project - combining HTML, CSS, and content
+    - Java program - factorial using loops and recursion (introduction)
+    - Java program - prime number check and prime series
+    - Java program - Armstrong number, perfect number, Fibonacci series
+    - Java program - pattern printing, star patterns, number patterns
+    - Network topologies - star, bus, ring, mesh, tree
+    - Network protocols and security - TCP/IP, HTTP, HTTPS, firewall, encryption
+    - Database and SQL introduction - DDL, DML, basic queries
+    - SQL queries - WHERE clause, ORDER BY, aggregate functions
+    - Java capstone project - student management system using OOP
+    - ICSE board exam preparation - revision, paper pattern, programming practice
+    - Cloud services and deployment models - IaaS, PaaS, SaaS
+    - Java debugging and runtime errors - types, diagnosis, and basic techniques
+  C11 (81):
+    - Computer architecture - von Neumann model, components, bus architecture
+    - Memory organisation - RAM types, ROM types, cache, virtual memory
+    - Number systems - binary, octal, hexadecimal, all conversions
+    - Binary arithmetic - addition, subtraction, multiplication, division
+    - Data representation - fixed point, floating point, BCD, Gray code
+    - Boolean algebra theorems - commutative, associative, distributive, identity
+    - Karnaugh maps - 2-variable, 3-variable, 4-variable K-maps
+    - Combinational circuits - half adder, full adder, multiplexer, demultiplexer
+    - Sequential circuits - flip-flops, registers, counters (introduction)
+    - Java class - member variables, methods, access specifiers, packages
+    - Java constructors - this keyword, constructor chaining, overloading
+    - Java inheritance - extends, super, single and multilevel inheritance
+    - Java method overriding - runtime polymorphism, dynamic dispatch
+    - Java abstract classes and methods - abstract keyword, partial implementation
+    - Java interfaces - interface keyword, implements, multiple inheritance
+    - Java final keyword - final variable, final method, final class
+    - Java static keyword review - static blocks, static import, static nested classes
+    - Java wrapper classes - Integer, Double, Character, autoboxing, unboxing
+    - Java type casting - upcasting, downcasting, instanceof operator
+    - Java 1D arrays advanced - array of objects, enhanced for loop
+    - Java 2D arrays advanced - matrix addition, multiplication, transpose
+    - Java array sorting - bubble sort, selection sort, insertion sort
+    - Java array searching - linear search and binary search
+    - Java String and StringBuffer - methods, comparison, conversion
+    - Java String programs - tokenizing, formatting, pattern matching
+    - Java Math class advanced - round, ceil, floor, log, exp, trigonometric
+    - Java exception handling - try, catch, finally, throw, throws
+    - Java user-defined exceptions - creating custom exception classes
+    - Java recursion - base case, recursive case, recursive methods
+    - Data structures introduction - types, linear vs non-linear, operations
+    - Stack data structure - LIFO, push, pop, peek, implementation with array
+    - Stack applications - expression evaluation, infix to postfix, balanced parentheses
+    - Queue data structure - FIFO, enqueue, dequeue, implementation with array
+    - Linked list - nodes, singly linked list, traversal, insertion, deletion
+    - Linked list vs array - advantages, disadvantages, when to use each
+    - Algorithms - complexity, Big O notation, time and space complexity
+    - Sorting algorithms comparison - bubble, selection, insertion, merge sort (intro)
+    - Relational database - tables, keys (primary, foreign, candidate), constraints
+    - SQL DDL and DML - CREATE, ALTER, DROP, INSERT, UPDATE, DELETE
+    - SQL DQL - SELECT, WHERE, ORDER BY, GROUP BY, HAVING, JOIN
+    - SQL subqueries and views - nested queries, creating views
+    - Java file I/O - File class, FileReader, FileWriter, BufferedReader
+    - Java serialization - Serializable interface, ObjectOutputStream, ObjectInputStream
+    - Java Scanner for files - reading from files using Scanner
+    - Java random access files - RandomAccessFile class, seek, getFilePointer
+    - Java command-line arguments - args array, parsing arguments
+    - Java varargs and enhanced for loop - variable arguments, for-each
+    - Java complex program - bank account class with deposit, withdraw, balance
+    - Java complex program - library management with inheritance
+    - Java complex program - employee management with polymorphism
+    - Java complex program - calculator using switch-case and methods
+    - Java complex program - matrix operations using 2D arrays
+    - Java GUI introduction - Swing, JFrame, JButton, JTextField, JLabel
+    - Java event handling - ActionListener, event sources, event objects
+    - Java layout managers - FlowLayout, BorderLayout, GridLayout
+    - Java GUI program - simple calculator with buttons and display
+    - Network architecture - client-server, peer-to-peer, OSI model
+    - Network protocols in detail - TCP, UDP, IP, HTTP, FTP, SMTP, DNS
+    - IP addressing - IPv4, IPv6, subnet mask, classes, private vs public
+    - Web technologies - HTML, CSS, JavaScript, server-side scripting
+    - Cloud computing advanced - IaaS, PaaS, SaaS, deployment models
+    - Mobile app development - Android, iOS, app lifecycle, APIs
+    - Computer ethics and cyber crime - hacking, cracking, cyber law introduction
+    - Software development lifecycle - waterfall, agile, prototyping
+    - Java inner classes - member, local, anonymous, static nested classes
+    - Java generics introduction - generic classes, methods, type parameters
+    - Java collections framework - List, Set, Map, ArrayList, HashSet, HashMap
+    - Java iterators and ListIterator - traversing collections
+    - Stack using collections and linked list implementation
+    - Queue using collections and circular queue implementation
+    - Algorithm design techniques - brute force, divide and conquer, greedy
+    - Merge sort algorithm - divide, conquer, merge, O(n log n)
+    - Tree data structure - binary tree, BST, traversal (inorder, preorder, postorder)
+    - Java capstone - school management system with OOP and collections
+    - Java capstone - inventory management with inheritance and polymorphism
+    - Data structures capstone - expression evaluator using stacks
+    - ISC exam preparation - paper pattern, important topics, programming practice
+    - Revision - Boolean algebra and logic gates comprehensive review
+    - Revision - Java OOP comprehensive review with programs
+    - Revision - data structures and algorithms comprehensive review
+    - ISC C11 final revision - computer architecture, networks, ethics, DBMS
+  C12 (81):
+    - Advanced Boolean algebra - consensus theorem, absorption, redundancy
+    - Quine-McCluskey method - tabular minimisation, prime implicants
+    - Adders and subtractors - half adder, full adder, ripple carry, look-ahead carry
+    - Sequential circuits advanced - counters, shift registers, state machines
+    - Encoders, decoders, and multiplexers - detailed design and applications
+    - Computer architecture advanced - pipelining, RISC vs CISC, parallel processing
+    - Memory management - paging, segmentation, virtual memory, cache mapping
+    - Operating system advanced - scheduling algorithms, deadlocks, process states
+    - Java advanced OOP - design patterns introduction (singleton, factory, observer)
+    - Java lambda expressions and functional interfaces - Java 8 features
+    - Binary search tree - insertion, deletion, search, BST operations
+    - AVL trees - self-balancing BST, rotations, balance factor
+    - Heap data structure - min heap, max heap, heap operations, heap sort
+    - Graph data structure - vertices, edges, directed, undirected, weighted
+    - Graph traversals - BFS and DFS algorithms
+    - Hash table - hash function, collision resolution, chaining, open addressing
+    - Dynamic programming - memoization, tabulation, optimal substructure
+    - Greedy algorithms - activity selection, fractional knapsack, Huffman coding
+    - Backtracking - N-Queens, maze solving, subset sum
+    - Graph algorithms - Dijkstra shortest path, Prim's MST, Kruskal's MST
+    - Java Stream API - filter, map, reduce, collect, forEach
+    - Java JDBC - connecting to databases, DriverManager, Connection, Statement, ResultSet
+    - Java PreparedStatement - parameterized queries, preventing SQL injection
+    - Java multithreading - Thread class, Runnable, thread lifecycle, synchronization
+    - Java NIO - Path, Files, Channels, Buffers, file operations
+    - Java annotations - built-in annotations, custom annotations, reflection intro
+    - Java networking - Socket, ServerSocket, URL, URLConnection
+    - Java GUI advanced - JavaFX, scenes, stages, FXML, CSS styling
+    - Java functional programming - Optional, Supplier, Consumer, Predicate, Function
+    - Database normalization - 1NF, 2NF, 3NF, BCNF with examples
+    - ER diagram - entities, attributes, relationships, cardinality
+    - SQL joins advanced - inner, left, right, full, cross, self join
+    - SQL aggregate functions and GROUP BY - COUNT, SUM, AVG, MAX, MIN
+    - SQL subqueries - correlated, non-correlated, EXISTS, IN, ANY, ALL
+    - SQL transactions - COMMIT, ROLLBACK, SAVEPOINT, ACID properties
+    - SQL indexes and constraints - CREATE INDEX, UNIQUE, CHECK, FOREIGN KEY
+    - SQL stored procedures and functions - CREATE PROCEDURE, CREATE FUNCTION
+    - SQL triggers - BEFORE, AFTER, INSERT, UPDATE, DELETE triggers
+    - NoSQL databases - document, key-value, column, graph databases
+    - Network security - cryptography, symmetric, asymmetric, PKI, digital signatures
+    - Network threats and defenses - firewalls, IDS, malware, phishing, DDoS
+    - Web development advanced - HTML5, CSS3, responsive design, JavaScript frameworks
+    - Server-side programming - PHP, JSP, servlets, REST APIs, JSON
+    - Cloud computing advanced - virtualization, containers, AWS, Azure, DevOps
+    - AI and machine learning introduction - ML types, neural networks, applications
+    - IoT and embedded systems - sensors, actuators, Arduino, Raspberry Pi
+    - Blockchain and cryptocurrency - distributed ledger, mining, smart contracts
+    - Cyber law and IT Act - IT Act 2000, data protection, intellectual property
+    - Java project - banking system with JDBC, transactions, GUI
+    - Java project - library management with database, search, GUI
+    - Java project - student grade management with statistics and charts
+    - Java project - chat application using sockets and multithreading
+    - Java project - e-commerce simulation with cart, checkout, inventory
+    - Java project - hospital management with appointments, patients, doctors
+    - Java project - payroll system with inheritance, polymorphism, database
+    - Java project - weather app with API integration, JSON parsing
+    - Java project - task manager with CRUD, priority, reminders
+    - Software engineering principles - modularity, coupling, cohesion, abstraction
+    - Software testing - unit testing, integration testing, JUnit, test-driven development
+    - Version control with Git - repositories, commits, branches, merging
+    - Agile and Scrum - sprints, user stories, standups, retrospectives
+    - Software documentation - README, API docs, UML diagrams, comments
+    - DevOps and CI/CD - Jenkins, automated builds, deployment pipelines
+    - Code quality and refactoring - clean code, code smells, refactoring techniques
+    - Project management - estimation, risk management, team collaboration
+    - Open source and licensing - GPL, MIT, Apache, contributing to projects
+    - Computer graphics introduction - pixels, coordinates, drawing algorithms
+    - Compiler design introduction - lexical, syntax, semantic analysis, code generation
+    - Operating system internals - kernel, system calls, interrupts, system programs
+    - Theory of computation - automata, languages, grammars, Turing machines
+    - Higher education in CS - B.Tech, BCA, B.Sc, entrance exams, specialisations
+    - ISC Class 12 exam preparation - paper pattern, programming practice, theory revision
+    - ISC revision - advanced Java, DSA, and DBMS comprehensive review
+    - ISC revision - Boolean algebra, digital logic, networks, ethics review
+    - Final capstone - full-stack student portal with Java, JDBC, GUI, database
+    - Final capstone - data structure visualizer with GUI showing BST, stack, queue operations
+    - ISC final revision - complete syllabus review with practice questions
+    - ISC programming practice - common exam programs with solutions
+    - ISC theory practice - Boolean algebra, logic circuits, networks questions
+    - ISC exam day strategy - time allocation, question selection, presentation tips
+    - Beyond ISC - bridge to college CS, competitive programming, and lifelong learning
+
+=== science (120 missing topics) ===
+  C6 (14):
+    - Environment - biotic and abiotic components
+    - Ecosystems - producers, consumers, decomposers and food chains
+    - Biodiversity - variety of life on Earth
+    - Natural resources - renewable and non-renewable
+    - Water - sources, uses and conservation
+    - Air - composition, importance and pollution
+    - Soil - formation, types and conservation
+    - Forests - types, importance and conservation
+    - Wildlife - sanctuaries, national parks and conservation
+    - Agriculture - types and importance for food security
+    - Human impact on environment - types of pollution
+    - Waste management - reduce, reuse, recycle
+    - Climate change - greenhouse effect and global warming
+    - Sustainable development - needs, wants and conservation
+  C9 (35):
+    - Earth and its environment - biotic and abiotic components
+    - Earth's components - hydrosphere, lithosphere, atmosphere, cryosphere, biosphere
+    - Human-environment interconnection - two-way relationship
+    - Biological processes - photosynthesis, decomposition, adaptation
+    - Biogeochemical cycles - carbon, oxygen, nitrogen, water
+    - Biodiversity - definition, classification (genetic, species, ecosystem)
+    - Species diversity - indicator species, keystone species
+    - Interdependence of species - trophic levels, food chains, food webs
+    - Species interactions - predation, competition, parasitism, mutualism
+    - Hierarchy of ecology - organisms to biosphere
+    - Forest ecosystems - tropical, temperate, taiga
+    - Grassland ecosystems - savannas, prairies, steppes
+    - Desert and tundra ecosystems
+    - Freshwater ecosystems - lakes, ponds, rivers
+    - Coastal and marine ecosystems - estuaries, mangroves, coral reefs
+    - Ecosystem functions - primary production, nutrient cycling, decomposition
+    - Ecosystem services - provisioning, regulating, supporting, cultural
+    - Carrying capacity and threshold level
+    - Biodiversity hotspots of India - flagship species
+    - Cultural connections with climate and biodiversity
+    - Domesticated biodiversity - native crops, livestock
+    - Traditional agricultural practices in India
+    - Ayurveda, yoga, medicinal plants, traditional crops
+    - Industrial revolution and consumerist lifestyles
+    - Urbanisation - causes, challenges, land use change
+    - Intensive agriculture - pesticides, chemical fertilisers
+    - Disappearance of traditional crop varieties and practices
+    - Consequences on ecosystem - deforestation, habitat loss
+    - Consequences on natural resources - pollution, depletion
+    - Social consequences - inequality, displacement, health hazards
+    - Biodiversity loss - causes and key issues
+    - Climate change - causes and key issues
+    - Pollution - causes and key issues
+    - Transition to a sustainable society - SDGs
+    - Sustainable handprint actions - individual and community
+  C10 (21):
+    - Cause and effect relations, feedback loops in environment
+    - Impact on flora and fauna from triple planetary crisis
+    - Impact on ecosystem resilience and human wellbeing
+    - Right to a healthy environment - Article 21
+    - Policy implementation and regulatory bodies
+    - Role of communities in pollution prevention
+    - Conservation of genetic resources - in-situ and ex-situ
+    - Community actions for controlling biodiversity loss
+    - Climate change mitigation - renewable energy, energy efficiency
+    - Climate change adaptation and resilience
+    - Role of industries, institutions, communities in climate action
+    - Green building concept and green infrastructure
+    - Sustainable mobility - bike lanes, public transport, EVs
+    - Nature-based Solutions (NbS) approach
+    - Environmental applications of GIS and remote sensing
+    - AI and IoT in environmental monitoring
+    - Biotechnology innovations - bioplastic, enzyme-based solutions
+    - 5Rs of sustainability - rethink, reduce, reuse, repurpose, recycle
+    - Green skills and green jobs - skill council initiatives
+    - Eco-clubs and green initiatives in schools
+    - Sustainable lifestyle choices - eco-transport, eco-fashion, local food
+  C11 (28):
+    - Environmental Science - scope and applications
+    - Modes of existence - hunting-gathering, pastoral, agricultural, industrial
+    - Impact on natural resource base - energy, materials, scale
+    - Ecological impact - land transformation, habitat, biodiversity
+    - Social organisation - group size, kinship, division of labour
+    - Ideology and man-nature relationship - case studies
+    - Ecological conflicts from coexistence of modes
+    - Ecosystem concept - structure, biotic and abiotic components
+    - Trophic relationships - food chains, food webs, biomagnification
+    - Relationships between organisms - competition, predation, mutualism, parasitism
+    - Habitats and niches - Gause's competitive exclusion principle
+    - Flow of energy - photosynthetic, trophic, assimilation efficiencies
+    - Nutrient cycles - carbon and nitrogen cycles
+    - Biomes - terrestrial, freshwater, marine, Indian biomes
+    - Disruption of nutrient cycles and habitats
+    - Pollution control approaches - prevention and control
+    - Air pollution - sources, effects, control
+    - Water pollution - surface, ground, ocean, industrial
+    - Soil and noise pollution - sources and control
+    - National legislative frameworks for environment protection
+    - International legal regimes - trade and environment
+    - Technological evolution - hi-tech, low-tech, intermediate, appropriate
+    - Renewable energy - limitations of conventional, renewable sources
+    - Health and environment - disease as indicator, prevention
+    - Traditional systems of medicine - Ayurveda, Unani
+    - Ecosystem analysis - complex systems, critical variables
+    - Human-environment interactions - quantity vs quality
+    - Design of solutions - generating options, lateral thinking
+  C12 (22):
+    - Modern schools of ecological thought
+    - Social ecology, ecofeminism, green politics
+    - Sustainable development - concept and evolution
+    - Population dynamics - factors causing population change
+    - Human populations - Malthusian model, demographic transition
+    - Population regulation - exponential and logistic growth
+    - Human population control - family planning, education, status of women
+    - Threats to ecosystem - habitat destruction, genetic erosion
+    - Conservation - importance, Indian forests, conflicts
+    - Pollution monitoring - techniques and standards
+    - Monitoring the atmosphere - air quality techniques
+    - Water testing - indicators of water quality
+    - Soil testing - indicators of soil type and quality
+    - Urban-rural divide - push and pull factors, consequences
+    - Conventional paradigm of development - sustainability appraisal
+    - Urban environmental planning and management
+    - Traditional agriculture in India - irrigation, crop varieties
+    - Post-harvest practices - food processing and preservation
+    - Natural resource economics - resources, scarcity, accounting
+    - GNP vs other measures - net economic welfare, natural capital
+    - Externalities and cost-benefit analysis
+    - International trade and environment - Amazonia, wildlife trade
+
+=== biotech (105 missing topics) ===
+  C11 (55):
+    - Biotechnology - definition (OECD and EFB) and historical background
+    - Contributions of key scientists (Hooke, Leeuwenhoek, Mendel, Fleming, Pasteur, Watson-Crick, Arber-Smith, Boyer-Cohen)
+    - Kitchen as first biotechnological laboratory - curd production
+    - Fermentation - lactic acid, alcoholic, and beer production
+    - Good Laboratory Practices (GLP) and Good Manufacturing Practices (GMP)
+    - Branches of biotechnology (agricultural, medical, industrial, microbial, environmental, nanobiotechnology, immunology)
+    - Intellectual Property Rights (IPR) - patents, trademark, trade secrets, copyright, geographical indications, PPV and FR Act
+    - Ethical, legal and social issues (ELSI) - IVF, Stem Cell Therapy
+    - Biosafety, GMOs, and GEAC
+    - Indian and global biotechnology institutes (NCBI, EMBL, NBTB, CCMB, ICGEB, DBT, CDFD, NIPGR, NBRC, Serum Institute, Biocon)
+    - Lowry-Bronsted theory of acid and base, concept of pH, Henderson-Hasselbalch equation
+    - Buffers - definition, properties, types (acetate, phosphate, borate), buffering capacity, application in biotechnology lab
+    - Probability and its types (theoretical and experimental)
+    - Data and its types (primary and secondary)
+    - Prokaryotic vs eukaryotic cells (nucleus, chromosomes, plasmids, ribosomes 70S and 80S)
+    - Bacterial cell structure - cell wall, Gram+ vs Gram- bacteria, flagella, antibiotic resistance
+    - Cell organelles (nucleus, mitochondria, chloroplast, ER, Golgi, ribosomes) and their roles in biotechnology
+    - Cell cycle regulation by cyclin-CdKs
+    - Mitosis - process and diagrams
+    - Meiosis - process, Prophase I, crossing over
+    - Significance of mitosis and meiosis, Mitotic Index
+    - Stem cells - properties and potency (totipotent, multipotent)
+    - Signal transduction - direct (steroid) and indirect (protein hormones)
+    - Apoptosis / Programmed Cell Death (PCD)
+    - Microscopy (light and electron) and karyotyping
+    - Carbohydrates - structure, functions, classification (mono, di, polysaccharides)
+    - Proteins - structure, functions, classification, amino acids
+    - Lipids - fatty acids, glycerol, types (simple, conjugated, derived)
+    - Vitamins - fat-soluble and water-soluble, co-enzymes
+    - Enzymes - classification, mechanism (lock and key, induced fit), kinetics, inhibition, factors affecting activity
+    - Chromatography - ion exchange and paper chromatography, Rf value
+    - Centrifugation - principle and applications
+    - Isoelectric focusing - principle and applications
+    - Antigen and antibody - structure and function
+    - Types of immunity - innate and acquired
+    - Human immune system - humoral and cell-mediated
+    - Plasmids in bacteria for resistance against antibiotics and chemicals
+    - ELISA (Enzyme Linked Immunosorbent Assay) - process to diagnose diseases
+    - HLA, Major Histocompatibility Complex (MHC) and hypersensitivity in humans
+    - Defence strategies in plants - secondary metabolites (alkaloids, phenolics, phytoalexins, terpenoids)
+    - Mendel's experiments and laws of inheritance
+    - Genetic terminology - trait, gene, allele, phenotype, genotype, homozygosity, heterozygosity, hemizygosity
+    - Mutation types - point, chromosomal aberrations, aneuploidy, polyploidy
+    - Syndromes - Turner's, Klinefelter's, Down's
+    - Inborn metabolic errors - albinism, sickle cell anaemia, PKU, alkaptonuria
+    - Gene mapping - linkage, recombination, COV, and cancer genetics (TSG, oncogenes)
+    - Cancer diagnosis and treatment
+    - Instruments and their uses (LAF, pH meter, autoclave, vortex mixer, hot air oven, haemocytometer, colony counter, magnetic stirrer, micro filtration unit, incubator, inverted microscope, T flasks)
+    - Sterilisation methods for explants, instruments, glassware, transfer area, media, vitamins, and enzymes
+    - Cell sorting by FACS, cell counting by haemocytometer, cell viability by Trypan blue exclusion
+    - Nutrient media - LB, MS, White, RPMI, DMEM, and FBS
+    - Preparation of culture medium - macronutrients, micronutrients, antibiotics, antimycotics, growth regulators (auxins and cytokinins)
+    - Cryopreservation using liquid nitrogen
+    - Cell culture applications - overview and aseptic technique
+    - Practical cell culture - inoculation, incubation, and observation
+  C12 (50):
+    - Nucleotides and nucleosides - structure and difference
+    - DNA structure (Watson and Crick), Chargaff rule, Hershey-Chase experiment
+    - RNA types - mRNA, tRNA (clover leaf model), rRNA
+    - DNA replication - Messelson-Stahl, Taylor experiments, leading/lagging strands, enzymes
+    - DNA proofreading and repair by DNA Polymerase I and II
+    - Estimation of nucleic acids - UV-visible spectrophotometry and colorimetry
+    - Central dogma of molecular biology
+    - Transcription - promoter, structural, terminator regions, split genes (exons/introns), hnRNA
+    - Post-transcriptional changes - polyadenylation, capping, RNA splicing, role of snRNA
+    - Genetic code - properties, start and stop codons
+    - Translation - initiation, elongation, termination
+    - Post-translational modification - glycosylation, protein folding, proteolytic degradation, intein splicing
+    - Reverse transcription - process and exception to central dogma
+    - Gene regulation in prokaryotes - inducible and repressible operons
+    - Lac operon and trp operon - structure and working
+    - Restriction endonucleases - Type I, II, III and other tools (DNA ligase, alkaline phosphatase, Taq Polymerase)
+    - DNA isolation from bacterial, plant and animal cells (CTAB method)
+    - Vectors - plasmids (pBR322, pUC), phages (M13, lambda), phagemids, cosmids, YACs, BACs
+    - Identification of recombinants - GFP, insertional inactivation, blue-white selection
+    - Genomic DNA and cDNA libraries
+    - GM crops - Flavr Savr tomatoes, Bt-crops, Golden rice
+    - Humulin and recombinant interferons
+    - Recombinant Hepatitis B vaccine, mRNA vaccine against Covid-19, stem cell therapy
+    - Transgenic animals - Dolly Sheep, Rosie cow, ATryn goat, artificial meat
+    - Bioremediation - oil-eating bacteria (Super Bug), mycoremediation, phycoremediation
+    - Industrial enzymes - Rennet, Subtilisin, Amylase, Papain (sources and applications)
+    - DNA probes - definition and use
+    - Gel electrophoresis, Southern blotting, Western and Northern blotting
+    - DNA sequencing - Sanger's chain termination and automated methods
+    - Site directed mutagenesis (human insulin example)
+    - Polymerase chain reaction (PCR), RT-PCR, DNA finger printing
+    - Fermentation process and growth kinetics - batch, fed batch, continuous cultures
+    - Turbidostat and chemostat - forms of open continuous culture
+    - Bioreactor designing - components and downstream processing (antibiotic production)
+    - Subtilisin and SCP production (mycoprotein using yeast) by fermentation
+    - Cell isolation, synchronisation, and totipotency (differentiation, de-differentiation, re-differentiation)
+    - Haploid production (androgenesis, gynogenesis) and Triploid production (endosperm culture)
+    - In-vitro pollination, embryo rescue, and embryo culture
+    - Somatic hybridisation (Pomato) and Micropropagation
+    - Virus resistant plants by RNAi, synthetic seeds, PHB (bioplastics)
+    - Scale up using Roller bottle culture technique
+    - CAR-T therapy - genetically engineered T-cells for cancer
+    - Bioinformatics - definition, need, and databases (EMBL, NCBI, DDBJ, SWISSPROT, GenBank)
+    - Data retrieval tools - ENTREZ and Taxonomy Browser
+    - Genomics - definition, types (Structural, Functional, Metagenomics), sequences (cDNA, ESTs, STSs)
+    - BLAST and FASTA tools; global, local, pairwise and multiple sequence alignments
+    - DNA microarray - definition and application, concept of SNPs
+    - Proteomics - types (Structural, Functional, Expression), databases (PDB, PIR, SWISSPROT)
+    - Protein Engineering - definition, principle and application
+    - AI powered Drug Designing and Drug Targeting (AlphaFold2, Covid-19 vaccine, cancer therapy)
+
+=== applied_maths (133 missing topics) ===
+  C10 (1):
+    - Logic and reasoning - propositions, connectives, and truth tables
+  C11 (71):
+    - Sets - representations, empty, finite, infinite, equal, subsets ---
+    - Sets - intervals, power set, universal set ---
+    - Sets - Venn diagrams and practical applications ---
+    - Sets - union, intersection, difference, symmetric difference ---
+    - Ordered pairs and Cartesian product ---
+    - Relations - definition, domain, co-domain, range ---
+    - Function as a special relation and mapping ---
+    - Real valued functions - types (constant, identity, polynomial, rational) ---
+    - Real valued functions - modulus, signum, exponential, logarithmic, greatest integer ---
+    - Graphs of standard real valued functions ---
+    - Sum, difference, product, quotient of functions ---
+    - Angles, radians, degrees, S = rθ ---
+    - Trigonometric functions using unit circle ---
+    - Signs, domain, range, graphs, periods of trigonometric functions ---
+    - Compound angles - sin(x±y), cos(x±y), tan(x±y) ---
+    - Sum-to-product and product-to-sum formulas ---
+    - Double, triple, half angle formulas ---
+    - Logarithm - introduction, definition, anti-logarithm ---
+    - Logarithm - properties and problems ---
+    - Complex numbers - introduction and representation ---
+    - Complex numbers - conjugate, modulus, argument ---
+    - Complex numbers - Argand plane and polar representation ---
+    - Complex numbers - operations and inverses ---
+    - Quadratic equations - Fundamental Theorem and formula ---
+    - Equations reducible to quadratic form ---
+    - Nature of roots - sum, product, types ---
+    - Framing quadratic equations with given roots ---
+    - Quadratic equations with common roots ---
+    - Sign of quadratic expression ---
+    - Graph of quadratic function, max/min value ---
+    - Linear inequalities in one variable ---
+    - Quadratic inequalities (method of intervals) ---
+    - Permutations - nPr, restricted permutations ---
+    - Permutations - alike things, circular permutations ---
+    - Combinations - nCr and properties ---
+    - Combinations - division, distribution into groups ---
+    - Mixed problems on permutations and combinations ---
+    - Binomial Theorem - statement and Pascal's triangle ---
+    - Binomial Theorem - general and middle term ---
+    - AP - general term, sum, arithmetic mean ---
+    - GP - general term, sum, infinite GP, geometric mean ---
+    - Special sums (Σn, Σn², Σn³) and method of differences ---
+    - Straight lines - recall, shifting of origin, slope ---
+    - Straight lines - various forms, general equation, distance ---
+    - Straight lines - family of lines, locus ---
+    - Section formula (internal/external), incentre, collinearity ---
+    - Circles - standard, diameter, general, parametric forms ---
+    - Parabola - standard equations and properties ---
+    - Limits - notion, LHL, RHL, existence ---
+    - Derivative - meaning, geometrical interpretation, first principles ---
+    - Derivatives of sum, difference, product, quotient ---
+    - Statistics - range, quartiles, interquartile range ---
+    - Statistics - mean deviation about mean and median ---
+    - Statistics - standard deviation, variance, coefficient of variance ---
+    - Statistics - combined mean and standard deviation, mode ---
+    - Skewness and Kurtosis - definition and graphical representation ---
+    - Skewness - Karl Pearson's and Bowley's coefficients ---
+    - Correlation - covariance and Karl Pearson's coefficient ---
+    - Correlation - Spearman's rank correlation ---
+    - Linear regression - lines of regression and least squares ---
+    - Linear regression - regression coefficients and estimation ---
+    - Probability - random experiments, sample space, events ---
+    - Probability - addition theorem ---
+    - Mathematical Reasoning - statements, connecting words, truth tables ---
+    - Mathematical Reasoning - contradiction, converse, contrapositive ---
+    - Mathematical Reasoning - logical problems (odd man out, syllogism, blood relations, coding) ---
+    - Financial Mathematics - interest rates (simple, compound, nominal, effective, real) ---
+    - Financial Mathematics - present value, net present value, future value ---
+    - Financial Mathematics - annuities (immediate, due, deferred) ---
+    - Financial Mathematics - GST, SGST, CGST ---
+    - Financial Mathematics - bills, tariff rates, surcharge, service charge ---
+  C12 (61):
+    - Types of relations - reflexive, symmetric, transitive, equivalence ---
+    - Identity, empty, universal relations ---
+    - One-to-one and onto functions ---
+    - Composite functions ---
+    - Inverse of a function and conditions of invertibility ---
+    - Sketching graph of a function and its inverse ---
+    - Inverse trigonometric functions - definition, domain, range ---
+    - Principal value branch and graphs of inverse trig functions ---
+    - Inverse trig properties (sin⁻¹x + cos⁻¹x = π/2, etc.) ---
+    - Inverse trig - compound and multiple angle formulas ---
+    - Matrices - concept, notation, order, equality ---
+    - Types of matrices (zero, identity, diagonal, scalar, triangular) ---
+    - Transpose, symmetric and skew-symmetric matrices ---
+    - Matrix addition and scalar multiplication ---
+    - Matrix multiplication ---
+    - Non-commutativity and zero product property ---
+    - Invertible matrices and uniqueness of inverse ---
+    - Determinants of square matrices (up to 3×3) ---
+    - Minors, cofactors, and properties of determinants ---
+    - Area of triangle using determinants ---
+    - Adjoint and inverse of a matrix ---
+    - Solving linear equations using inverse and Cramer's Rule ---
+    - Consistency and inconsistency of systems ---
+    - Differentiation - chain rule and composite functions ---
+    - Derivatives of inverse trigonometric functions ---
+    - Derivatives of exponential and logarithmic functions ---
+    - Implicit differentiation ---
+    - Logarithmic differentiation ---
+    - Derivatives of parametric functions and w.r.t. another function ---
+    - Second order derivatives ---
+    - Rate of change of quantities ---
+    - Increasing and decreasing functions ---
+    - Maxima and minima - first and second derivative tests ---
+    - Integration as inverse of differentiation ---
+    - Standard integrals and integration by substitution ---
+    - Integration by partial fractions and by parts ---
+    - Definite integral and Fundamental Theorem of Calculus ---
+    - Properties of definite integrals ---
+    - Application of calculus in commerce - cost, revenue, profit functions ---
+    - Application of calculus - marginal cost, marginal revenue, breakeven ---
+    - Application of calculus - sketching AR, MR, R, C, AC, MC curves ---
+    - Consumer surplus and producer surplus ---
+    - Differential equations - definition, order, degree ---
+    - Formation of differential equations by eliminating constants ---
+    - Solution by separation of variables ---
+    - Homogeneous differential equations ---
+    - Linear differential equations (dy/dx + Py = Q) ---
+    - Bayes' theorem ---
+    - Mean and variance of random variable ---
+    - Binomial distribution ---
+    - Poisson distribution ---
+    - Normal distribution ---
+    - Financial Mathematics - perpetuity and sinking funds ---
+    - Financial Mathematics - EMI calculation (flat rate and reducing balance) ---
+    - Financial Mathematics - rate of return and compound annual growth rate ---
+    - Financial Mathematics - linear method of depreciation ---
+    - Index numbers - price relative and simple average ---
+    - Index numbers - weighted average and cost of living index ---
+    - Index numbers - weighted aggregate methods ---
+    - Moving averages - meaning and calculation ---
+    - Moving averages - centered moving average for even period ---
+
+=== accounts (125 missing topics) ===
+  C11 (65):
+    - Computerised Accounting System — Advantages and Limitations
+    - Accounting Information System
+    - Background, History and Types of Accounts
+    - Basic Terms — Event, Transaction, Vouchers and Assets Classification
+    - Basic Terms — Liabilities (Internal, External, Current, Long-term, Contingent)
+    - Basic Terms — Debtors, Creditors, Purchases, Sales, Stock, Profit, Gain, Loss, Expense, Revenue, Drawings
+    - Book-keeping vs Accounting vs Accountancy — Meaning and Differences
+    - Accounting Cycle
+    - GAAP — Revenue Recognition, Verifiable Objective, Matching, Historical Cost, Accrual, Dual Aspect
+    - Basis of Accounting — Cash Basis vs Accrual Basis
+    - Accounting Standards — Meaning and Utility
+    - IFRS — Brief Introduction
+    - Accounting Equation — Meaning, Usefulness and Practical Problems
+    - Journal — Recording Entries with Narration and Classification of Accounts
+    - Double Entry System — Meaning and Rules of Journalizing
+    - Simple and Compound Journal Entries; Opening Journal Entry
+    - GST — Brief Theoretical Introduction (Transactions with GST Excluded)
+    - Ledger — Meaning, Format and Mechanics of Posting from Journal
+    - Ledger — Closing and Balancing of Accounts
+    - Adjusting and Closing Journal Entries
+    - Cash Book — Simple Cash Book
+    - Cash Book — Triple Column Cash Book with Contra Entries
+    - Petty Cash Book — Analytical and Imprest System
+    - Sales Day Book and Purchases Day Book — Simple and Columnar
+    - Sales Return and Purchases Return Day Books; Journal Proper; Posting from Subsidiary Books
+    - Causes of Differences Between Bank Balance as per Cash Book and Pass Book
+    - BRS from Given Cash Book Balance or Overdraft
+    - BRS from Given Pass Book Balance or Overdraft
+    - BRS from Extract of Both Cash Book and Pass Book
+    - Amended Cash Book and BRS Preparation
+    - Depreciation — Meaning, Need, Causes, Objectives, Characteristics
+    - Straight Line Method — Meaning, Advantages, Limitations
+    - Written Down Value Method — Meaning, Advantages, Limitations
+    - Differences between Straight Line Method and Written Down Value Method
+    - Recording Depreciation — Charging to Asset Account
+    - Negotiable Instruments — Meaning, Bills of Exchange, Promissory Note, Cheque (Specimen and Distinction)
+    - Advantages and Disadvantages of Bills of Exchange
+    - Basic Terms — Drawer, Drawee, Payee, Endorser, Endorsee, Bill on Demand/Sight, Bill after Date/Sight
+    - Tenure, Days of Grace, Due Date, Holder of a Bill
+    - Endorsement and Discounting of Bills
+    - Bill Sent for Collection, Dishonour of a Bill, Noting Charges, Notary Public
+    - Renewal and Retirement of a Bill
+    - Insolvency of Drawee/Acceptor — Journal Entries and Ledger Accounts in Books of Drawer, Drawee, Endorsee
+    - Capital vs Revenue Expenditure — Meaning and Difference
+    - Capital vs Revenue Receipts, Profits and Losses
+    - Deferred Revenue Expenditure — Meaning and Examples
+    - Trading Account — Meaning, Objectives and Preparation (No Adjustments)
+    - Profit and Loss Account — Meaning, Objectives and Preparation (No Adjustments)
+    - Balance Sheet — Meaning and Marshalling (Order of Permanence and Liquidity)
+    - Adjustments — Closing Stock, Outstanding Expenses and Prepaid Expenses
+    - Adjustments — Accrued Income and Income Received in Advance
+    - Adjustments — Depreciation and Bad Debts
+    - Adjustments — Provision for Doubtful Debts and Provision for Discount on Debtors
+    - Adjusted Purchases and Cost of Goods Sold Calculation
+    - Operating Profit Calculation
+    - Adjusting, Closing and Transfer Entries
+    - Types of Errors — Omission, Commission, Principle, Compensating
+    - Rectification After Final Accounts Through P/L Adjustment A/c
+    - Preparation of Suspense Account
+    - NPO — Meaning, Objectives, Necessity and Treatment of Specific Items
+    - NPO — Accounting Books Maintained and Differences Among Them
+    - Receipts and Payments Account — Meaning, Features, Difference from Cash Book
+    - Income and Expenditure Account — Meaning, Features, Difference from P&L
+    - Preparation of Income and Expenditure Account and Closing Balance Sheet from R&P and Other Info
+    - Capitalisation of Entrance, Admission, Life Membership Fees, Legacies, Special Grants/Donations; Revenue Treatment of General Donations and Subscriptions
+  C12 (60):
+    - Definition, Meaning and Features of Partnership
+    - Profit and Loss Appropriation Account — Preparation
+    - Partners' Capital Accounts — Fixed vs Fluctuating Method
+    - Partners' Current Accounts — Fixed Capital Method
+    - Interest on Capital and Interest on Drawings
+    - Interest on Current Accounts (Debit and Credit)
+    - Salary, Commission to Partners and Managers
+    - Transfer to Reserves and Division of Profit
+    - Guarantee of Profits to a Partner
+    - Past Adjustments after Closing the Accounts
+    - Goodwill — Meaning, Nature and Features
+    - Factors Affecting the Value of Goodwill
+    - Goodwill Valuation — Average Profit Method (Simple and Weighted)
+    - Goodwill Valuation — Super Profit Method
+    - Goodwill Valuation — Capitalization Method (Average Profit and Super Profit)
+    - Capital Employed / Net Assets Calculation for Goodwill
+    - Admission of a Partner — New, Sacrificing and Gaining Ratio
+    - Admission — Goodwill Treatment under AS-26
+    - Admission — Revaluation of Assets and Liabilities and Adjustment of Accumulated Profits/Losses
+    - Retirement of a Partner — New and Gaining Ratio, Goodwill Adjustment Including Hidden Goodwill
+    - Dissolution — Realisation Account and Settlement of Partners' Loan, Capital, and Cash/Bank
+    - Issue of Shares at Par and Premium under Companies Act 2013
+    - Issue of Shares for Consideration Other than Cash
+    - Calls in Arrears, Calls in Advance and Interest Thereon
+    - Over and Undersubscription — Pro-rata Allotment and Excess Application Money Adjustment
+    - Forfeiture of Shares
+    - Reissue of Forfeited Shares at Par, Premium or Discount
+    - Preparation of Journal, Cash Book, Journal Proper and Ledger Accounts for Share Issues
+    - Disclosure of Debentures in Balance Sheet and Writing Off Capital Losses
+    - Preparation of Company Balance Sheet as per Schedule III Part I
+    - AS-4 Amendment — Proposed Dividend Not a Liability Till Approved
+    - Schedule III Amendments 2 and 3 — PPE and Intangible Assets; Current Maturities of Long-Term Borrowings
+    - Amendment 4 — Securities Premium; Schedule III Part II Not Required
+    - Comparative Statements — Meaning, Significance and Limitations
+    - Common Size Balance Sheet — As Percentage of Total Assets and Total Liabilities
+    - Common Size Statement of Profit and Loss — As Percentage of Revenue from Operations
+    - Operating Activities — Indirect Method and Adjustments
+    - Investing Activities — PPE, Intangible Assets, Investments and Loans
+    - Treatment of Proposed Dividend — Previous Year Outflow, Current Year No Effect
+    - Current Ratio = Current Assets / Current Liabilities
+    - Quick Ratio = Quick Assets / Current Liabilities
+    - Debt to Equity Ratio = Debt / Equity
+    - Proprietary Ratio = Shareholders' Funds / Total Assets
+    - Debt to Total Assets Ratio = Debt / Total Assets
+    - Interest Coverage Ratio = NP before Interest and Tax / Fixed Interest Charges
+    - Trade Receivables Turnover Ratio = Credit Revenue / Average Trade Receivables
+    - Trade Payables Turnover Ratio = Net Credit Purchases / Average Trade Payables
+    - Inventory Turnover Ratio = Cost of Revenue from Operations / Average Inventory
+    - Gross Profit Ratio = Gross Profit / Revenue from Operations x 100
+    - Net Profit Ratio = Net Profit after Tax / Revenue from Operations x 100
+    - Operating Ratio = (Cost of Revenue from Operations + Operating Expenses) / Revenue from Operations x 100
+    - Operating Profit Ratio = Net Operating Profit / Revenue from Operations x 100
+    - Earning per Share = (Net Profit after Tax - Preference Dividend) / Number of Equity Shares
+    - Return on Investment = Net Profit before Interest and Tax / Capital Employed x 100
+    - Electronic Spreadsheet — Concept, Features, Utility, Merits and Demerits
+    - Creating Worksheets and Entering Data in Excel for Accounting
+    - Introduction to DBMS — Meaning and Advantages over Manual/Spreadsheet Systems
+    - Components of DBMS and RDBMS Concepts (Tables, Records, Fields, Keys)
+    - SQL DDL Commands — CREATE, ALTER, DROP
+    - SQL DML Commands — INSERT, UPDATE, DELETE, SELECT with WHERE
+
+=== business_studies (62 missing topics) ===
+  C11 (28):
+    - Meaning and Features of Business
+    - Business Objectives — Economic, Social and Role of Profit
+    - Industry — Primary, Secondary, Tertiary and Size Classification
+    - Sole Proprietorship — Meaning, Features, Merits and Demerits
+    - Partnership — Meaning, Features, Merits, Demerits, Registration and Partnership Deed
+    - Types of Partners and Types of Partnerships
+    - Joint Stock Company — Meaning, Features, Merits and Demerits
+    - Incorporation of a Company — Steps, Filing of Documents and Certificate of Incorporation
+    - Memorandum of Association and Articles of Association — Meaning, Contents and Distinction
+    - Commencement of Business, Prospectus and Statement in Lieu of Prospectus
+    - Cooperative Organisations — Meaning, Features, Merits, Demerits and Multistate Cooperative Society
+    - e-Business — Scope, Benefits, Resources and Online Transactions
+    - Blockchain — Application in Supply Chain Management and Crypto-Assets
+    - e-Banking — Online Services: RTGS, NEFT, IMPS, UPI, E-wallet, Digital Rupee
+    - e-Banking — Advantages and Disadvantages
+    - Mobile Banking — SMS Alerts, Fund Transfer, Payments
+    - Debit Cards vs Credit Cards, ATM and Online Demand Draft
+    - Wholesale Trade — Meaning, Features and Services
+    - Retail Trade — Meaning, Features and Distinction from Wholesale
+    - Itinerant and Small-Scale Fixed Shop Retailers
+    - Departmental Stores, Chain Stores and Dark Stores
+    - Digital Retailing and Omnichannel Retailing
+    - Risks in Business — Insurable and Non-Insurable
+    - Insurance — Meaning and Features
+    - Principles of Insurance — Utmost Good Faith, Insurable Interest, Indemnity, Contribution
+    - Principles of Insurance — Subrogation, Causa Proxima, Mitigation of Loss
+    - Re-insurance, Double Insurance, and Assurance vs Insurance
+    - Types of Insurance — Life, Health, Fire, Marine, Motor, Social, Fidelity
+  C12 (34):
+    - Environmental Scanning — Meaning and Importance
+    - SWOT Analysis — Strength, Weakness, Opportunity, Threat
+    - Management — Meaning (Activity, Group, Discipline, Process), Features, Importance
+    - Levels of Management — Top, Middle, Lower
+    - Taylor's 5 Scientific Principles
+    - Comparison of Taylor and Fayol — Relevance Today
+    - Formal vs Informal Organisation
+    - Recruitment — Sources; Selection — Steps; Difference
+    - Training — On-the-Job Methods
+    - Training — Off-the-Job Methods
+    - Motivation (Maslow's Theory) and Leadership (Styles)
+    - Coordination — Meaning and Coordination as Essence of Management
+    - Business Finance — Meaning and IFDL Functions
+    - Factors Affecting Capital Structure and Fixed Capital
+    - Working Capital — Meaning, Types, Factors and Comparison with Fixed Capital
+    - Equity Shares — Meaning, Features, Advantages and Disadvantages
+    - Preference Shares — Meaning, Features, Types and Distinction from Equity
+    - Bonus, Rights Issue, ESOP, Sweat Equity and QIP
+    - Retained Earnings — Meaning, Merits and Demerits
+    - Debentures — Meaning, Features, Types and Distinction from Shares
+    - Loans from Financial Institutions
+    - Short-Term Bank Assistance — Cash Credit, Bill Discounting and Overdraft
+    - Other Short-Term Sources — Public Deposits, Trade Credit, Factoring and ICD
+    - Stock Exchange — Meaning, Importance, SEBI and Stock Broker
+    - Market Terms — SENSEX, NIFTY, IPO, Bull/Bear, ETF, FII and Demat
+    - Markets — Meaning and Types
+    - Product Mix — Goods, Services, and Their Difference
+    - Product Mix — Branding, Labeling, and Packaging
+    - Price Mix — Meaning, Factors, and Pricing Strategies
+    - Place Mix — Channels of Distribution and Types
+    - Place Mix — Physical Distribution Elements
+    - Promotion Mix — Advertising, Sales Promotion, Personal Selling, and Public Relations
+    - Product Life Cycle — Stages and Extension Strategies
+    - Redressal Mechanism — District, State, and National Commissions with Pecuniary Jurisdiction
+
+=== economics (217 missing topics) ===
+  C9 (46):
+    - Definition of Economics — Adam Smith (Wealth Definition)
+    - Definition of Economics — Alfred Marshall (Welfare Definition)
+    - Definition of Economics — Lionel Robbins (Scarcity Definition)
+    - Definition of Economics — Paul Samuelson (Growth-Based Definition)
+    - Micro and Macro Economics — Meaning, Difference, Examples
+    - Economic and Non-Economic Activities — Meaning, Examples, Difference
+    - Basic Economic Terms — Wants, Goods, Services
+    - Basic Economic Terms — Wealth, Utility, Production, Consumption
+    - Basic Economic Terms — Factors of Production, Market, Price
+    - Basic Economic Terms — Value, Income, Saving
+    - Basic Economic Terms — Welfare, Economy, Sustainable Consumption
+    - Entities — Government Sector and Firms
+    - Entities — Households and Foreign Sector
+    - Role of Economic Entities in an Economy
+    - Capitalist Economy — Meaning and Features
+    - Socialist Economy — Meaning and Features
+    - Mixed Economy — With Reference to India
+    - Developed Economy vs Developing Economy — Meaning and Differences
+    - Economic Growth vs Economic Development — Meaning and Differences
+    - Limited Availability of Resources — Meaning and Types
+    - The Basic Economic Problem — Unlimited Wants vs Limited Resources with Alternative Uses
+    - Need for Efficient Use of Resources
+    - Central Problems of an Economy — What to Produce? and How to Produce?
+    - Central Problem of an Economy — For Whom to Produce?
+    - Primary Sector — Agriculture and Allied Activities: Contribution to the Indian Economy
+    - Problems of Indian Agriculture — Technology, Fragmentation, Monsoon, Credit, Storage
+    - Government Measures to Increase Agricultural Production — HYV Seeds, Fertilisers, Irrigation, Technology, Research
+    - Green Revolution — Meaning and Positive Impacts on Indian Agriculture
+    - Food Security — Meaning and the Role of the Food Corporation of India (FCI)
+    - Secondary Sector — Industry: Meaning, Types (Large, Medium, Cottage, Small-Scale) and Significance
+    - Interdependence of Agriculture and Industry
+    - Adverse Impacts of Industrialisation — Pollution and Deforestation; Measures to Overcome
+    - Tertiary Sector — Meaning and Social Services: Education and Healthcare
+    - Tertiary Sector — Economic Infrastructure Services: Transport, Banking, Insurance, Communication, Storage and Warehousing
+    - Role of the Tertiary Sector in Economic Development of India
+    - Poverty — Meaning and the Poverty Line (Calorie Intake Basis)
+    - Relative and Absolute Poverty — Meaning and Distinction
+    - Causes of Poverty in India (Five Key Causes)
+    - Unemployment — Meaning and Types (Seasonal, Structural, Technological)
+    - Causes of Unemployment in India (Five Key Causes)
+    - Government Schemes to Remove Poverty and Unemployment — IRDP, JRY, MGNREGA, PKVY, HRIDAY
+    - Liberalisation — Meaning and Positive Impact on the Indian Economy
+    - Privatisation — Meaning and Positive Impact on the Indian Economy
+    - Globalisation — Meaning and Positive Impact on the Indian Economy
+    - Smart City — Concept and Case Study
+    - Digital India and Skill India — Case Studies
+  C10 (42):
+    - Land — Meaning, Characteristics and Productivity
+    - Factors Affecting Productivity of Land
+    - Labour — Meaning, Characteristics, Division of Labour (Types and Advantages)
+    - Efficiency of Labour — Meaning and Reasons for Low Efficiency of Indian Labour
+    - Capital — Meaning, Characteristics and Types (Physical and Financial)
+    - Capital Formation — Meaning, Process and Need
+    - Entrepreneur — Meaning, Functions and Role in Economic Development
+    - Meaning and Concept of Demand — Types of Demand
+    - Law of Demand — Demand Schedule and Curve (Individual and Market)
+    - Movement Along vs Shift of the Demand Curve
+    - Determinants of Demand — Non-Price Factors That Shift the Demand Curve
+    - Exceptions to the Law of Demand — Giffen Goods, Veblen Goods, and Expectations
+    - Meaning and Concept of Supply
+    - Law of Supply — Supply Schedule and Curve (Individual and Market)
+    - Movement Along vs Shift of the Supply Curve
+    - Determinants of Supply — Non-Price Factors That Shift the Supply Curve
+    - Exceptions to the Law of Supply — Perishable Goods, Antiques, and Fixed Supply
+    - Elasticity of Demand — Meaning, Types, Percentage Method, Factors
+    - Elasticity of Supply — Meaning, Percentage Method, Factors
+    - Meaning of Market
+    - Perfect Competition — Meaning and Features
+    - Monopoly — Meaning and Features
+    - Monopolistic Competition and Oligopoly — Meaning, Features, Examples
+    - Money — Barter System, Evolution, Legal Definition and Functions
+    - Commercial Banks — Meaning and Functions (Deposits and Loans)
+    - Central Bank (RBI) — Meaning and Functions
+    - Monetary Policy — Qualitative Credit Control Measures
+    - Monetary Policy — Quantitative Credit Control Measures (Bank Rate, OMO, CRR, SLR)
+    - Demonetisation — Brief Understanding
+    - Public Finance — Meaning and Sources of Public Revenue (Direct Tax, Indirect Tax, GST)
+    - Public Expenditure — Revenue and Capital Expenditure and Reasons for Growth in India
+    - Public Debt — Meaning and Types
+    - Meaning of Inflation
+    - Stages of Inflation — Creeping, Walking, Running, Hyper
+    - Cost-Push Inflation — Meaning and Causes
+    - Demand-Pull Inflation — Meaning and Causes
+    - Effects of Inflation — on Production and Distribution
+    - Consumer Exploitation — Meaning and Forms
+    - Reasons for Consumer Exploitation in India
+    - Consumer Rights and Duties — COPRA 2019 and RTI
+    - Food Adulteration — Meaning and Harmful Effects
+    - Consumer Protection Measures — PDS, BIS, AGMARK, ECOMARK
+  C11 (48):
+    - Definition of Economics — Adam Smith (Wealth Definition)
+    - Definition of Economics — Alfred Marshall (Welfare Definition)
+    - Definition of Economics — Lionel Robbins (Scarcity Definition)
+    - Definition of Economics — Paul Samuelson (Growth-Based Definition)
+    - Concept of Scarcity and Allocation of Resources
+    - Micro and Macro Economics — Meaning and Difference
+    - Basic Concepts — Utility, Price, Value (Real vs Nominal)
+    - Basic Concepts — Wealth, Welfare, Money
+    - Basic Concepts — Market, Capital, Investment, Income
+    - Basic Concepts — Production, Consumption, Saving, Business Cycle, Aggregate Demand and Supply
+    - Human Wants — Classification
+    - Factors of Production
+    - Utility — Types, Total Utility, Marginal Utility
+    - Law of Diminishing Marginal Utility — Schedule, Diagram, Assumptions
+    - Basic Problems of an Economy — What to Produce
+    - Basic Problems of an Economy — How to Produce and For Whom to Produce
+    - Efficient Use of Resources and the Universal Problem of Scarcity and Choice
+    - Production Possibility Curve — Assumptions and Features
+    - Production Possibility Curve — Role of Technology in Shift and Rotation
+    - Types of Economies — Capitalism (Features, Merits, Demerits)
+    - Types of Economies — Socialism (Features, Merits, Demerits)
+    - Types of Economies — Mixed Economy (Features, Merits, Demerits)
+    - Regional and Global Economic Grouping — SAARC, EU, ASEAN, G-8, G-20
+    - Price Mechanism as a Tool to Solve Economic Problems
+    - Per Capita Income — Definition and Limitations
+    - Human Development Index (HDI) — Meaning and Construction
+    - India and HDI as per UNDP Report
+    - Planning and Economic Development in India — Meaning and Need
+    - Major Objectives of All Five-Year Plans
+    - NITI Aayog — Objectives and Role
+    - Statistics — Definition, Scope and Limitations
+    - Importance of Statistics in Economics
+    - Sources of Data — Primary and Secondary
+    - Methods of Collecting Primary Data
+    - Important Sources of Collecting Secondary Data
+    - Organization of Data — Meaning and Types of Variables
+    - Organization of Data — Frequency and Frequency Distribution
+    - Arithmetic Mean — Weighted Mean and Grouped Data
+    - Median — Ungrouped and Grouped Data
+    - Mode — Ungrouped and Grouped Data
+    - Relationship Between Mean, Median and Mode
+    - Skewed Distributions — Symmetrical, Positively and Negatively Skewed
+    - Measures of Dispersion — Definition and Range
+    - Measures of Dispersion — Standard Deviation
+    - Measures of Dispersion — Quartile Deviation
+    - Measures of Dispersion — Mean Deviation
+    - Coefficient of Variation
+    - WPI, CPI, IIP — Uses, Problems, and Mathematical Tools
+  C12 (81):
+    - Demand — Meaning and Types of Demand
+    - Demand Function — Incorporating Determinants of Demand
+    - Law of Demand — Diagrams and Reasons for Downward Slope
+    - Law of Demand — Derivation Using Demand Schedule
+    - Derivation of Market Demand Curve from Individual Demand Curve
+    - Movement and Shift of Demand Curve
+    - Exceptions to Law of Demand
+    - Cardinal Utility Analysis — Utility, Total Utility, Marginal Utility, TU-MU Relationship
+    - Law of Diminishing Marginal Utility — Schedule, Diagram, Assumptions
+    - Consumer's Equilibrium — One Commodity (Schedule and Diagram)
+    - Law of Equimarginal Utility — Statement and Schedule
+    - Conditions of Consumer's Equilibrium Using Marginal Utility
+    - Ordinal Utility Analysis — Indifference Curve Meaning and Properties
+    - Indifference Curve — MRS and Diminishing MRS
+    - Indifference Map and Consumer's Budget Line
+    - Consumer's Equilibrium Condition (Indifference Curve Approach, with Diagram)
+    - Elasticity of Demand — Meaning and Types
+    - Measurement of Elasticity — Point Method (Percentage Method)
+    - Measurement of Elasticity — Expenditure Method
+    - Measurement of Elasticity — Geometric Method
+    - Cross Elasticity of Demand
+    - Income Elasticity of Demand
+    - Degrees of Elasticity of Demand
+    - Factors Affecting Elasticity of Demand
+    - Supply — Meaning; Difference Between Stock and Supply
+    - Supply Function; Law of Supply — Meaning, Supply Schedule, Supply Curve
+    - Derivation of Market Supply Curve; Movement and Shift of Supply Curve
+    - Exceptions to Law of Supply
+    - Elasticity of Supply — Meaning and Degrees
+    - Elasticity of Supply — Measurement by Percentage Method and Geometric Method
+    - Effects of Changes in Demand and Supply — Along the Curves
+    - Effects of Changes in Demand and Supply — Shift of Curves
+    - Simple Applications — Price Control and Rationing
+    - Simple Applications — Price Ceiling and Floor Price
+    - Production Function — Short Run and Long Run; Returns to a Factor and Returns to Scale
+    - Total, Average and Marginal Physical Products
+    - Law of Variable Proportions — Statement, Assumptions, Schedule, Diagram, Three Stages
+    - Basic Cost Concepts — Private, Economic, Social, Money, Real, Explicit, Implicit Cost
+    - Fixed, Variable, Total, Marginal and Average Cost; AC-MC-TC Relationships; Long-Run and Short-Run Cost Curves; Opportunity Cost; Revenue Concepts; Producer's Equilibrium
+    - Exante (Planned) Demand and Expost (Effective) Demand
+    - Aggregate Demand and Its Components (C, I, G, NX)
+    - Propensity to Consume — Average and Marginal (APC, MPC)
+    - Propensity to Save — Average and Marginal (APS, MPS)
+    - Equilibrium Output (Keynesian Cross / 45° Line Approach)
+    - Investment Multiplier — Meaning, Mechanism and Diagram
+    - Numericals on Aggregate Demand, Propensity and Multiplier
+    - Full Employment and Its Meaning in Keynesian Theory
+    - Excess Demand and Deficient Demand — Inflationary and Deflationary Gaps
+    - Measures to Correct Excess Demand and Deficient Demand
+    - Functions of Money — Primary, Secondary and Contingent
+    - Supply of Money — M0 and M1 Aggregates
+    - Supply of Money — M2, M3 and M4 Aggregates
+    - Inflation — Meaning and Measurement
+    - Inflation — Demand-Pull and Cost-Push Mechanisms
+    - Functions of Commercial Banks
+    - Credit Creation by Commercial Banks — Process and Limitations
+    - Central Bank (RBI) — Regulatory Role and Functions
+    - Quantitative Methods of Credit Control — CRR, SLR, Bank Rate, Repo, Reverse Repo, OMO
+    - Qualitative Methods of Credit Control
+    - Balance of Payment — Meaning and Structure
+    - Balance of Payment — Components (Current, Capital, and Reserve Accounts)
+    - Causes of Disequilibrium in Balance of Payment
+    - Correction of Disequilibrium in Balance of Payment
+    - Foreign Exchange — Meaning, Fixed and Flexible Exchange Rates, and Market Determination
+    - Depreciation and Appreciation of Currency
+    - Devaluation and Revaluation of Currency under a Fixed Exchange Rate
+    - Fiscal Policy — Meaning and Instruments
+    - Public Revenue — Meaning and Taxes (Meaning and Types)
+    - Difference Between Direct and Indirect Taxes
+    - Public Expenditure — Meaning and Importance
+    - Public Debt — Meaning
+    - Public Debt — Redemption Methods
+    - Deficit Financing — Meaning
+    - Concept of Deficit Budget — Revenue Deficit, Fiscal Deficit, Primary Deficit
+    - Circular Flow of Income — Two Sector Model
+    - Circular Flow of Income — Three Sector Model with Leakages and Injections
+    - Circular Flow of Income — Four Sector Model (with Foreign Sector)
+    - GNP and NNP at Factor Cost and Market Prices
+    - Real GDP and Nominal GDP
+    - GDP and Welfare — GDP as an Indicator of Economic Welfare
+    - Relationship Between the Income Concepts
+
+=== political_science (55 missing topics) ===
+  C11 (24):
+    - Regional Cooperation — ASEAN and European Union
+    - Regional Cooperation — SAARC, BRICS, QUAD
+    - India-Pakistan Relations (1965, 1971, Shimla, Kargil)
+    - India-Bangladesh and India-China Relations
+    - Meaning of Political Science (Classical vs Modern)
+    - Scope of Political Science (Five Branches)
+    - State and Its Four Elements
+    - State vs Government vs Nation
+    - Divine Origin Theory of the State
+    - Social Contract Theory — Hobbes (State of Nature, Leviathan)
+    - Evolutionary Theory of the State (kinship, religion, economy, war)
+    - Liberalism
+    - Communism
+    - Sovereignty - Meaning and Characteristics
+    - Kinds of Sovereignty
+    - Austin's Theory and Pluralistic View of Sovereignty
+    - Law — Meaning and Sources
+    - Law — Kinds (Municipal, National, Constitutional, International, Statute, Ordinances)
+    - Liberty — Meaning and Dimensions (negative vs positive)
+    - Liberty — Kinds (Civil, Political, Economic)
+    - Justice — Meaning
+    - Theories of Justice — John Rawls and Amartya Sen
+    - Disintegration of the Soviet Union — Causes
+    - Impact of Soviet Disintegration — End of Cold War and New States
+  C12 (31):
+    - Communalism
+    - Regionalism
+    - Political Violence
+    - Strengthening Indian Democracy
+    - Totalitarian and Authoritarian States
+    - Liberal Democratic State
+    - Unitary and Federal States
+    - Parliamentary and Presidential Forms of Government
+    - Meaning and Kinds of Constitution - Written and Unwritten
+    - Rigid and Flexible Constitutions
+    - Amending Procedures - UK, USA and India
+    - Universal Adult Franchise
+    - Representation Methods - FPTP and PR
+    - Political Parties and Party Systems
+    - Meaning and Functions of Legislature
+    - Legislature in India - Lok Sabha and Rajya Sabha
+    - Legislature in USA - House of Representatives and Senate
+    - Comparative Study - India and USA Legislatures
+    - Meaning of Executive and Political vs Permanent Executive
+    - Political Executive in India and USA - Comparative Study
+    - Meaning of Judiciary and Conditions of Independence
+    - Judiciary in India and USA - Comparative Study
+    - Judicial Review
+    - Preamble of the Indian Constitution
+    - Salient Features of the Indian Constitution
+    - Fundamental Rights in India
+    - Directive Principles of State Policy
+    - Difference between Fundamental Rights and Directive Principles
+    - 73rd Constitutional Amendment Act
+    - 74th Constitutional Amendment Act
+    - Zila Parishad and Municipal Corporation
+
+=== psychology (68 missing topics) ===
+  C11 (29):
+    - Definition of Psychology and Basic Terms
+    - Schools of Thought in Psychology
+    - Modern Eclectic Approaches in Psychology
+    - Psychology and Other Disciplines
+    - Fields of Psychology
+    - Heredity - Chromosomes, Genes and Mechanisms
+    - Environment and Heredity-Environment Interaction
+    - Scientific Methods - Observation and Case Study
+    - Surveys and Experimentation
+    - Psychological Tests and Ethical Issues
+    - Statistics in Psychology - Descriptive and Inferential
+    - Central Tendency and Dispersion
+    - Nature of Attention - Inner and Outer Determinants
+    - Sensation vs Perception and Perceptual Organization
+    - Perceptual Constancies and Depth Perception
+    - Colour Perception and After-images
+    - Errors in Perception - Illusions
+    - What is Emotion and Basic Emotions
+    - Theories of Emotion
+    - Motives, Needs and Instincts
+    - Theories of Motivation
+    - Social Motives
+    - Frustration and Conflict Among Motives
+    - Memory Models
+    - Why and How Forgetting Occurs
+    - How Memory Can Be Improved
+    - Concepts and How They Are Formed
+    - Reasoning and Common Errors
+    - Decision Making and Problem Solving
+  C12 (39):
+    - Definition of Intelligence and Factor Theories
+    - Sternberg's Triarchic Theory and Gardner's Multiple Intelligence
+    - Measurement of Intelligence - IQ and Intelligence Tests
+    - Levels of Intelligence and Associated Characteristics
+    - Emotional Intelligence and EQ
+    - Aptitude, Achievement and Interest
+    - Definition of Personality and Related Terms
+    - Type Theories of Personality
+    - Psychoanalytic Theory - Freud's Structure of Personality
+    - Psychosexual Stages and Post-Freudians
+    - Humanistic and Trait Theories of Personality
+    - Social Cognitive Theory of Bandura
+    - Personality Assessment
+    - Meaning of Development, Growth and Maturation
+    - Infancy - Motor Development and Reflexes
+    - Infancy - Cognitive and Socio-emotional Development
+    - Childhood - Motor and Cognitive Development
+    - Childhood - Socio-emotional and Moral Development
+    - Adolescence - Physical Changes and Cognitive Development
+    - Adolescence - Socio-emotional Development and Major Concerns
+    - Meaning of Stress - Nature, Types and GAS
+    - Cognitive Appraisal and Common Causes of Stress
+    - Effects of Stress on Health and Performance
+    - Stress Management - Ineffective Strategies (Defence Mechanisms)
+    - Stress Management - Effective Strategies and Positive Health
+    - Abnormal Behaviour - Perspectives and DSM-IV
+    - Anxiety Disorders
+    - Neurodevelopmental Disorders and Childhood Anxiety
+    - Schizophrenia - Meaning, Types and Characteristics
+    - Psychotherapy - Psychoanalysis and Client-Centred Therapy
+    - Psychotherapy - Behavioural, CBT and Psychosocial Rehabilitation
+    - Social Perception - Attribution Theory and Biases
+    - Obedience - Milgram's Experiment and Factors
+    - Meaning of Attitude - Components, Formation and Change
+    - Prejudice and Discrimination - Origins and Combating
+    - Counselling - Meaning, Nature and Counsellor Characteristics
+    - Environmental Effects on Human Behaviour
+    - Promoting Pro-environmental Behaviour
+    - Adverse Effects of Poverty and Deprivation
+
+=== sociology (55 missing topics) ===
+  C11 (27):
+    - Emergence of Sociology and Anthropology as Disciplines
+    - Nature and Scope of Sociology
+    - Auguste Comte and Positivism
+    - Herbert Spencer and Theory of Evolution
+    - Emile Durkheim and Structural Functionalism
+    - Max Weber and Interpretive Sociology
+    - Karl Marx and Conflict Theory
+    - Sociology and Other Social Sciences
+    - Definition and Importance of Social Research
+    - Tools of Data Collection
+    - Definition and Characteristics of Society
+    - Socialization – Definition, Characteristics and Agencies
+    - Nature vs Nurture and Feral Cases
+    - Culture – Definition, Characteristics and Norms
+    - Social Groups – Community, Association and Primary/Secondary Groups
+    - Organized, Unorganized Groups and Reference/In/Out Groups
+    - Status – Definition, Types and Determinants
+    - Role, Role Conflict and Role Stereotype
+    - Social Processes – Cooperation, Competition and Conflict
+    - Overpopulation, Poverty, Unemployment and Illiteracy
+    - Child Labour and Juvenile Delinquency
+    - Problems of the Aged and Differently Abled
+    - Radha Kamal Mukherjee – Social Ecology
+    - G.S. Ghurye – Theories of Origin of the Caste System
+    - N.K. Bose – Hindu Method of Tribal Absorption
+    - Irawati Karve – Kinship and the Family
+    - M.N. Srinivas – Brahminization and Sanskritization
+  C12 (28):
+    - Kinship – Meaning and Types
+    - Degree of Kinship, Descent and Residence
+    - Kinship Usages
+    - Marriage – Definition, Functions and Rules
+    - Forms of Marriage
+    - Family – Definition, Features and Functions
+    - Types of Family and Comparisons
+    - Changes in Family – Structural, Functional and Small Family Norm
+    - Religion and Science – Definitions, Differences and Similarities
+    - Beliefs, Rituals, Superstitions and Taboo
+    - Theories of Religion – Animism, Naturism and Totemism
+    - Functional Theories of Religion
+    - Functions, Dysfunctions of Religion and Morality/Social Control
+    - Political Organization and Panchayati Raj
+    - Definition of Economic Organization
+    - Economies of Indian Tribes – Food Gathering, Agriculture and Shifting Cultivation
+    - Tribal Economies – Handicrafts, Pastoralism and Industrial Labour
+    - Agrarian Economy, Jajmani System and MGNREGA
+    - Traditional Markets
+    - Definition and Features of Tribe
+    - Dormitories in Tribal India
+    - Present Conditions and Problems of Tribes
+    - Government Policies for Tribal Upliftment
+    - The Class System
+    - The Caste System
+    - Caste vs Class Comparison and Social Mobility
+    - Gender – Sex vs Gender, Patriarchal Ideology and Women's Status
+    - Aspects of Development
+
+=== legal_studies (48 missing topics) ===
+  C11 (30):
+    - Law in Ancient India - Hindu Law and Dharma
+    - Judiciary in Ancient India
+    - Islamic Legal System in Medieval India
+    - British Legal System and Constitution Framing
+    - Meaning of Law and Jurisprudence
+    - Civil Law vs Criminal Law
+    - Constitution and Constitutionalism
+    - International Law and Sovereignty
+    - Natural Person and Legal Personality
+    - Partnership - Meaning and Relations
+    - Partnership - Registration and Dissolution
+    - Company Law - Memorandum, Articles and Characteristics
+    - Substantive vs Procedural Law and Criminal Justice Systems
+    - Hierarchy of Criminal Courts and Theories of Punishment
+    - Offences against Women under IPC
+    - Offences against Property under IPC
+    - Juvenile Justice Act
+    - Codified vs Uncodified Law and Law of Torts
+    - Law of Contract and Specific Relief Act
+    - Civil Procedure - Jurisdiction and Injunctions
+    - Civil Suit - Orders, Decrees and Hierarchy
+    - Institution of a Civil Suit
+    - Hindu Marriage Act - Marriage, Void and Voidable
+    - Maintenance in Husband-Wife Relationship
+    - Adoption under Hindu Law
+    - Domestic Violence Act 2005
+    - Classification of Fundamental Rights and Article 12
+    - Article 13(2) and Doctrines of Judicial Review
+    - Extended Horizons of Article 21
+    - Right to Constitutional Remedies and Restrictions
+  C12 (18):
+    - Five Categories of Crimes
+    - Offences against Human Body under IPC
+    - Offences against Property under IPC
+    - Judicial and Quasi-Judicial Bodies and Tribunals
+    - Arbitration
+    - Mediation, Conciliation and Lok Adalat
+    - Legal Services Authorities Act, 1987
+    - Essentials of a Valid Contract
+    - Void Agreements and Key Distinctions
+    - Nature and Definition of Tort
+    - Vicarious Liability
+    - Property and Modes of Transfer
+    - Fundamental Rights and Constitutional Remedies (C12)
+    - Directive Principles and Fundamental Duties
+    - Lokpal and Lokayukta Act 2013
+    - Legal Maxims - Group 1 (A-D)
+    - Legal Maxims - Group 2 (E-N)
+    - Legal Maxims - Group 3 (O-U)
+
+=== home_science (60 missing topics) ===
+  C11 (30):
+    - Introduction to Streams in Home Science
+    - Importance and Relevance of Home Science
+    - Career Options in Home Science
+    - Classification and Functions of Food
+    - Balanced Diet and Food Groups
+    - Macronutrients — Sources, Functions, RDA and Deficiency
+    - Micronutrients — Minerals and Vitamins
+    - Water, Fibre and Basal Metabolic Rate (BMR)
+    - Causes of Food Spoilage
+    - Storage of Foods — Perishable, Semi-perishable and Non-perishable
+    - Convenience Foods — Merits and Demerits
+    - Principles of Food Preservation
+    - Methods of Food Preservation — Bactericidal and Bacteriostatic
+    - Resources — Human, Non-human and Shared
+    - Conservation of Shared Resources
+    - Time and Energy Management
+    - Work Simplification — Meaning and Methods
+    - Concept of Growth and Development
+    - Periods of Development During Childhood (0-12 years)
+    - Milestones of Development from Birth to Late Childhood
+    - Perspectives of Human Development
+    - Personality Development — Concept, Factors, Types and Traits
+    - Competencies for Effectiveness and Personal Grooming
+    - Laundering of Cotton and Linen
+    - Laundering of Wool, Silk and Rayon
+    - Finishing and Storage of Clothes
+    - Household Methods of Stain Removal
+    - Individual Communication — Verbal and Non-verbal
+    - Group Communication — Discussions, Demonstrations, Field Trips
+    - Social Media — Meaning, Types, Advantages and Disadvantages
+  C12 (30):
+    - Principles and Methods of Cooking
+    - Preliminary Treatment of Foods Before Cooking
+    - Culinary Terms
+    - Effects of Cooking on Food Components
+    - Methods of Increasing Nutritive Value of Foods
+    - Objectives of Meal Planning and Nutritional Adequacy
+    - Factors Affecting Food Selection
+    - Meal Planning for Various Age Groups
+    - Eating Disorders — Anorexia, Bulimia, Binge Eating
+    - Special Diets — Fever, Diarrhoea, Diabetes, Obesity, Hypertension
+    - Savings and Investments — Importance
+    - Avenues and Schemes for Savings and Investments
+    - Consumer Aids — Standard Marks, Labels, Advertisements
+    - Problems Faced by Consumers
+    - Food Adulteration — Definition and Common Adulterants
+    - Physical Development During Puberty and Adolescence
+    - Cognitive Development — Stages
+    - Social and Emotional Development in Adolescents
+    - Issues and Concerns of Adolescents — Peer Pressure, Substance Abuse, Sexual Abuse
+    - Adolescent Mental Health — Anger Management, Depression, Suicidal Tendencies
+    - Career Preparation and Influence of Social Media on Adolescents
+    - Perspectives on Adulthood — Stages and Dimensions
+    - Classification of Traditional Textiles
+    - Embroidered Textiles — Chikankari, Phulkari, Kashidakari, Kantha, Kasuti, Kutch
+    - Woven Textiles — Baluchari, Chanderi, Kanjeevaram, Banarasi, Jamdani, Kani
+    - Dyed Textiles — Bandhini, Patola, Ikat
+    - Printed and Painted Textiles — Kalamkari, Madhubani, Bagh, Dabu
+    - Water Safety — Importance and Methods of Purification
+    - Swachh Bharat Abhiyan — Scope and Salient Features
+    - Integrated Child Development Scheme (ICDS) — Scope and Salient Features
+
+=== TOTAL MISSING TOPICS: 3460 ===

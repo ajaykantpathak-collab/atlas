@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_001",
+   "title": "c11_cs_cbse_01_001",
+   "questions": [
+    {
+     "q": "List the four main hardware components of a computer system and state the primary function of each component in one sentence.",
+     "a": "The four main hardware components are: (1) CPU - processes data and executes instructions; (2) Primary Memory - temporarily stores data and programs during execution; (3) Input Devices - convert external data into digital form for the computer; (4) Output Devices - convert digital data into human-readable form. A wrong answer (e.g., listing \"monitor\" and \"keyboard\" as separate components without grouping them as I/O, or confusing secondary storage with primary memory) reveals the student cannot distinguish between the core architectural components and peripheral examples.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a computer with only RAM but no secondary storage cannot have software permanently installed, even if the RAM is large enough to hold the operating system and applications.",
+     "a": "RAM is volatile memory - its contents are lost when power is turned off. Without secondary storage (non-volatile), there is no place to keep the software when the computer is shut down, so the OS and applications would need to be reloaded from an external source every time the computer starts. A wrong answer (e.g., \"RAM is too slow\" or \"secondary storage is faster\") reveals confusion about volatility vs speed, and the distinct roles of primary vs secondary memory.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The abacus, Pascaline, and Analytical Engine are all examples of early computers because they could perform calculations.\" Evaluate this statement by identifying which of these devices had the key feature that distinguishes a computer from a calculator.",
+     "a": "The Analytical Engine is the only one that qualifies as a computer precursor because it was programmable (using punched cards) and had the four components of modern computers: input (punched cards), memory (store), processing (mill), and output (printing). The abacus and Pascaline were calculators - they could only perform arithmetic operations but lacked programmability and automatic sequencing. A wrong answer (e.g., accepting all three as computers) reveals the student doesn't understand the critical distinction: programmability and stored-program concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the data bus and address bus in terms of directionality and purpose. Why is the data bus bidirectional while the address bus is unidirectional?",
+     "a": "The data bus is bidirectional because data flows both ways: CPU reads data from memory (memory → CPU) and writes data to memory (CPU → memory). The address bus is unidirectional because only the CPU specifies memory addresses (CPU → memory); memory never sends addresses to the CPU. A wrong answer (e.g., \"both are bidirectional\" or \"address bus carries data\") reveals misunderstanding of the distinct roles: address bus carries location identifiers, data bus carries actual content.",
+     "self_check": true
+    },
+    {
+     "q": "A school stores student attendance records in three formats: (A) a spreadsheet with columns Roll No, Name, Month, Attendance%, (B) a PDF report card with school logo and signatures, (C) an HTML page with tags like <Name>Mohan</Name><Month>July</Month>. Classify each as structured, unstructured, or semi-structured data and justify your classification.",
+     "a": "(A) Structured data - follows strict tabular format with predefined columns, easily sortable and queryable. (B) Unstructured data - contains mixed text, graphics, logos without a fixed record format. (C) Semi-structured data - no rigid schema but uses self-describing tags (Name, Month) to give meaning to values. A wrong classification (e.g., calling HTML \"structured\" because it has tags) reveals confusion between rigid schema (structured) and flexible tagging (semi-structured).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple computer system for a vending machine that accepts coins, allows item selection, and dispenses the product. Draw a block diagram showing all four hardware components, label the input/output devices specific to this context, and explain what type of memory (RAM/ROM) would store the vending machine's control program and why.",
+     "a": "Block diagram: Input devices = coin sensor, keypad; CPU = microcontroller; Memory = ROM (for control program) + small RAM (for temporary state like coin count); Output devices = display screen, product dispenser motor. The control program goes in ROM because it's non-volatile (survives power loss) and rarely changed. A poor answer (e.g., using RAM for the control program, missing coin sensor as input, or not justifying ROM choice) reveals inability to apply computer architecture concepts to an embedded system context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_005",
+   "title": "c11_phy_cbse_14_005",
+   "questions": [
+    {
+     "q": "State the principle of superposition of waves in one sentence and give the mathematical expression for the resultant displacement when n waves overlap.",
+     "a": "The principle states that the net displacement of a medium particle is the algebraic sum of displacements due to each individual wave: y(x,t) = Σ y_i(x,t) for i=1 to n. A wrong answer (e.g., \"waves cancel each other\" or \"amplitudes multiply\") reveals the student thinks superposition is about energy cancellation or non-linear combination, not linear algebraic addition of displacements.",
+     "self_check": true
+    },
+    {
+     "q": "Two harmonic waves traveling along a string are given by y₁ = 0.02 sin(2x - 4t) and y₂ = 0.02 sin(2x - 4t + π/3), where x is in meters and t in seconds. Without calculating the exact resultant, explain whether the resultant amplitude will be greater than, equal to, or less than 0.04 m, and justify using the phase difference.",
+     "a": "The resultant amplitude will be less than 0.04 m. The phase difference φ = π/3 (60°). Using A = 2a cos(φ/2) = 2(0.02) cos(π/6) = 0.04 × (√3/2) ≈ 0.0346 m. A student answering \"0.04 m\" thinks amplitudes always add directly (confusing with φ=0 case). Answering \"0\" confuses π/3 with π. This tests understanding that amplitude depends on cos(φ/2), not just φ.",
+     "self_check": true
+    },
+    {
+     "q": "A wave pulse described by y₁ = 5/(1 + (x - 2t)²) cm and another by y₂ = -5/(1 + (x + 2t)²) cm travel on a long string. Calculate the net displacement at x = 1 m, t = 0.5 s. (All quantities in SI units).",
+     "a": "Step 1: Identify given: y₁ = 5/(1 + (x - 2t)²) cm, y₂ = -5/(1 + (x + 2t)²) cm. Find y at x=1 m, t=0.5 s.\nStep 2: Convert to meters: y₁ = 0.05/(1 + (x - 2t)²) m, y₂ = -0.05/(1 + (x + 2t)²) m.\nStep 3: Compute arguments: For y₁: x - 2t = 1 - 2(0.5) = 0. For y₂: x + 2t = 1 + 2(0.5) = 2.\nStep 4: Evaluate: y₁ = 0.05/(1 + 0²) = 0.05 m. y₂ = -0.05/(1 + 2²) = -0.05/5 = -0.01 m.\nStep 5: Superpose: y = y₁ + y₂ = 0.05 + (-0.01) = 0.04 m = 4 cm.\nWrong answer (e.g., 0.06 m) indicates student added magnitudes ignoring sign of y₂, missing that superposition is algebraic sum with signs.",
+     "self_check": true
+    },
+    {
+     "q": "Two coherent sources S₁ and S₂ emit harmonic waves of wavelength λ = 0.5 m. At point P, the path difference is Δx = 0.75 m. Determine the phase difference at P and state whether interference is constructive, destructive, or partial. Explain your reasoning.",
+     "a": "Phase difference φ = (2π/λ) × Δx = (2π/0.5) × 0.75 = 4π × 0.75 = 3π rad. Since φ = 3π = π (mod 2π), the waves are out of phase. Resultant amplitude A = 2a cos(3π/2) = 0. Interference is destructive. A student saying \"constructive\" might have used Δx/λ = 1.5 and thought half-integer means constructive (confusing with standing wave nodes/antinodes). Saying \"partial\" indicates not recognizing 3π is equivalent to π modulo 2π.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"When two identical waves superimpose, the resultant intensity is always four times the individual intensity because amplitude doubles.\" Evaluate this statement. Is it always true? If not, give the condition when it is true and when it is false.",
+     "a": "The statement is FALSE. Intensity ∝ (amplitude)². Resultant amplitude A = 2a cos(φ/2). Resultant intensity I ∝ 4a² cos²(φ/2). This equals 4I₀ (where I₀ ∝ a²) only when cos²(φ/2) = 1, i.e., φ = 0, 2π, 4π... (constructive interference). For φ = π, I = 0 (destructive). For other φ, I is between 0 and 4I₀. The student's error is assuming φ=0 always, ignoring phase difference. This tests ability to evaluate a claim using the φ-dependent amplitude formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two tuning forks of slightly different frequencies (e.g., 512 Hz and 516 Hz) and a resonance column to demonstrate superposition leading to beats. Describe what you would observe and how it relates to the superposition principle.",
+     "a": "Strike both forks simultaneously and hold them near the open end of a resonance column. Observe the sound intensity: it will wax and wane periodically (beats). The beat frequency = |516 - 512| = 4 Hz. This occurs because superposition of two waves of slightly different frequencies produces a resultant with time-varying amplitude: y = 2a cos(2π×2×t) sin(2π×514×t). The amplitude modulation at 4 Hz is heard as beats. A poor answer would just say \"beats are heard\" without linking to superposition of two waves with different ω, or would confuse with interference of same-frequency waves.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

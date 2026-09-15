@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_009",
+   "title": "c12_biotech_cbse_07_009",
+   "questions": [
+    {
+     "q": "A student writes: \"Secondary metabolites are produced during the exponential growth phase of plant cell cultures because cells are dividing rapidly and need these compounds for defence.\" Is this statement correct? Explain why or why not in two sentences.",
+     "a": "**Correct answer:** The statement is **incorrect**. Secondary metabolites are typically **non-growth-associated** (idiophasic) — they accumulate predominantly in the **stationary phase** when primary metabolism slows and carbon flux is redirected to specialized pathways. Rapid division in exponential phase favors primary metabolites (amino acids, nucleotides).  \n**What a wrong answer reveals:** If the student agrees, they confuse primary vs. secondary metabolism timing — a classic board/NEET trap. They likely memorized \"secondary metabolites = defence\" but missed the **phase-dependence** taught in Class 11 metabolism (c11_bio_cbse_12_008 Amphibolic Pathway).",
+     "self_check": true
+    },
+    {
+     "q": "In a 10 L stirred-tank bioreactor running a *Catharanthus roseus* suspension culture for vincristine, the dissolved oxygen (DO) drops below 10% air saturation during late exponential phase. The student suggests increasing impeller speed from 80 rpm to 200 rpm. Why is this likely to **reduce** vincristine yield despite improving oxygen transfer? (Hint: consider shear sensitivity and metabolic shift.)",
+     "a": "**Correct answer:** Plant cells lack cell walls (or have thin walls in suspension) and are **extremely shear-sensitive**. Raising impeller speed increases **tip speed** (v = πND), causing **hydrodynamic damage** → cell lysis, reduced viability, and metabolic shift toward repair (primary metabolism) instead of secondary pathways. Vincristine yield drops because viable biomass and metabolic capacity for the terpenoid indole alkaloid pathway are lost.  \n**What a wrong answer reveals:** If the student only sees \"more rpm = more O₂ = better growth,\" they ignore **shear stress** — a core concept in plant cell bioreactor design (unlike microbial fermenters). They haven't connected Class 11 fluid dynamics (c11_chem_cbse_05_013 Surface Tension/Viscosity) to cell physiology.",
+     "self_check": true
+    },
+    {
+     "q": "A 5 L hairy-root bioreactor for *Lithospermum erythrorhizon* (shikonin) gives 3.2 g L⁻¹ dry weight (DW) after 21 days with 1.8 mg g⁻¹ DW shikonin content. Calculate: (a) volumetric productivity (mg L⁻¹ day⁻¹); (b) specific productivity (mg g⁻¹ DW day⁻¹). Show all steps with units.",
+     "a": "**Step 1:** Total shikonin = 3.2 g DW L⁻¹ × 1.8 mg g⁻¹ DW = **5.76 mg L⁻¹**  \n**Step 2:** Volumetric productivity = 5.76 mg L⁻¹ ÷ 21 days = **0.274 mg L⁻¹ day⁻¹**  \n**Step 3:** Specific productivity = 1.8 mg g⁻¹ DW ÷ 21 days = **0.0857 mg g⁻¹ DW day⁻¹**  \n**What a wrong answer reveals:** If the student forgets to divide by time, they confuse **titer** (mg L⁻¹) with **productivity** (rate). If they invert DW and volume, they lack dimensional analysis — a skill from Class 11 stoichiometry (c11_chem_cbse_01_011 Stoichiometry). NEET often asks for *both* productivities in the same question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **elicitation** (e.g., methyl jasmonate) vs. **precursor feeding** (e.g., phenylalanine for rosmarinic acid) as yield-enhancement strategies. Create a table with four rows: (i) mechanism of action, (ii) timing relative to growth curve, (iii) risk of metabolic burden/toxicity, (iv) typical fold-increase reported in literature.",
+     "a": "**Correct answer:**  \n| Criterion | Elicitation (MeJA, chitosan, yeast extract) | Precursor Feeding (phenylalanine, tryptophan) |\n|-----------|---------------------------------------------|-----------------------------------------------|\n| Mechanism | Signal transduction → transcription of pathway genes (PAL, CHS, etc.) | Substrate supplementation → pushes flux through rate-limiting step |\n| Timing | Late exponential / early stationary (competence window) | Stationary phase (when pathway enzymes are expressed) |\n| Risk | Oxidative burst may kill cells if dose too high | Feedback inhibition, toxicity, or diversion to shunt products |\n| Fold-increase | 2–10× (sometimes >20× for jasmonates) | 1.5–5× (limited by uptake & downstream capacity) |  \n**What a wrong answer reveals:** If the student says \"both work anytime,\" they miss the **competence window** — elicitors only work when cells have the enzymatic machinery (stationary phase). If they claim precursors always give higher yields, they ignore **transport limitations** and **feedback regulation** (Class 11 enzyme kinetics: c11_biotech_cbse_04_004 Michaelis-Menten, c11_biotech_cbse_04_008 Allosteric Regulation).",
+     "self_check": true
+    },
+    {
+     "q": "A company scales up *Taxus* cell culture from 100 L to 10,000 L for taxol production. They keep **impeller tip speed constant** (geometric similarity). The student argues: \"Since tip speed is constant, shear stress is identical, so taxol yield per gram dry weight will be unchanged.\" Evaluate this claim. Identify **two** scale-up factors that *will* change and explain their impact on secondary metabolism.",
+     "a": "**Claim is false.** Constant tip speed preserves **shear** but **not** mixing time, oxygen gradients, or power number. Two critical changes:  \n1. **Mixing time (tₘ) increases** ∝ (Dᵢ)²/³ (Dᵢ = impeller diameter). In 10,000 L, nutrient/elicitor gradients form → subpopulations experience different environments → heterogeneous secondary metabolism → lower *average* specific productivity.  \n2. **kLa (volumetric mass transfer coefficient) decreases** at constant tip speed because gas holdup and bubble breakup are less efficient in large tanks. Lower DO → shifts metabolism to anaerobic/fermentative pathways, draining carbon from the taxol (terpenoid) pathway which requires NADPH and ATP from oxidative phosphorylation.  \n**What a wrong answer reveals:** If the student thinks geometric similarity = identical performance, they confuse **hydrodynamic similarity** with **mass-transfer similarity** — a standard chemical engineering trap in JEE Advanced biotechnology questions. They need Class 11 gas laws (c11_chem_cbse_05_006 Ideal Gas Equation) and diffusion concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **two-stage bioreactor strategy** for *Artemisia annua* hairy-root cultures to maximize artemisinin yield. Specify: (i) Stage 1 conditions (medium, duration, goal), (ii) Stage 2 trigger (elicitor type, concentration, timing), (iii) one downstream processing step unique to hairy roots vs. suspension cells. Justify each choice in one sentence.",
+     "a": "**Expected answer (criteria for full marks):**  \n- **Stage 1:** Hormone-free B5 or MS medium, 2–3 weeks, **biomass accumulation** (no elicitor — jasmonates inhibit growth).  \n- **Stage 2:** Add **methyl jasmonate (100 μM)** at day 14–18 (onset of stationary phase) for 48–72 h → activates *ADS*, *CYP71AV1* genes via JAZ-MYC cascade.  \n- **Downstream:** **In situ product removal (ISPR)** using adsorbent resin (XAD-16) in the bioreactor loop — hairy roots secrete artemisinin into medium, unlike suspension cells which store it intracellularly; ISPR avoids feedback inhibition and simplifies extraction.  \n**What a poor answer reveals:** If they add elicitor from day 0, they don't understand **growth-defence trade-off** (Class 11 Plant Hormones: c11_bio_cbse_13_005 ABA/Ethylene). If they suggest centrifugation for hairy roots, they ignore the **filamentous morphology** that clogs centrifuges — requiring filtration or ISPR instead.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

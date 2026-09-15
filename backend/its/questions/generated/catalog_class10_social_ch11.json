@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class10_social_ch11",
+ "concepts": [
+  {
+   "id": "c10ss.11.1",
+   "title": "Importance of Manufacturing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance of Manufacturing' refers to.",
+     "a": "Manufacturing is the processing of raw materials into more valuable products; industries that process agricultural, mineral or forest raw materials are called secondary activities, and the economic strength of a country is measured by the development of its manufacturing industries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance of Manufacturing'.",
+     "a": "Manufacturing industries expand trade and commerce, earn foreign exchange, generate employment and reduce dependence on agriculture, thereby modernising the economy and raising national income.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Importance of Manufacturing' taught, and from which source text?",
+     "a": "Importance of Manufacturing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.2",
+   "title": "Industrial Location Factors",
+   "questions": [
+    {
+     "q": "Using the method 'Industrial Location Factors', work with: site_a_score = 45, site_b_score = 18. Carry the chain through step by step and give the final value of best_site.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Industrial Location Factors' and work with: site_a_score = 200, site_b_score = 100. Carry the chain through step by step and give the final value of best_site.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Industrial Location Factors' refers to.",
+     "a": "Industrial location is influenced by the availability of raw material, labour, capital, power, market and transport; the aim is to minimise the cost of production and deliver goods efficiently to consumers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Location Factors'.",
+     "a": "An ideal industrial site minimises production and distribution costs by balancing access to raw materials, power, labour, capital and market; sometimes government policies provide the key incentive.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Location Factors' taught, and from which source text?",
+     "a": "Industrial Location",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.3",
+   "title": "Agro-based Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Agro-based Industries' refers to.",
+     "a": "Agro-based industries process agricultural raw materials; the main examples are textile (cotton, jute, silk), sugar and vegetable oil industries, which depend on farm output and are widely spread across India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agro-based Industries'.",
+     "a": "Agro-based industries add value to farm produce, generate rural employment and are located close to the source of their raw material to minimise transport of bulky inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Agro-based Industries' taught, and from which source text?",
+     "a": "Agro-based Industries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.4",
+   "title": "Mineral-based Industries: Iron and Steel",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mineral-based Industries: Iron and Steel' refers to.",
+     "a": "Iron and steel is the basic industry since it provides the base for all other industries; steel is needed for machinery, tools and infrastructure, and the industry uses iron ore, coking coal, limestone and manganese as raw materials.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mineral-based Industries: Iron and Steel'.",
+     "a": "The iron and steel industry is a heavy, basic industry whose location is governed by the availability of raw materials (iron ore, coal, limestone) and which forms the backbone of industrial development.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mineral-based Industries: Iron and Steel' taught, and from which source text?",
+     "a": "Mineral-based Industries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.5",
+   "title": "Mineral-based Industries: Aluminium, Cement and Chemicals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mineral-based Industries: Aluminium, Cement and Chemicals' refers to.",
+     "a": "Other mineral-based industries include aluminium smelting (the second most important metallurgical industry), cement production (needed for construction), and chemical industries (producing inorganic and organic chemicals, fertilisers and pharmaceuticals).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mineral-based Industries: Aluminium, Cement and Chemicals'.",
+     "a": "Aluminium smelting, cement and chemical industries are mineral-based industries that support construction, transport and agriculture; their location depends on the availability of bauxite, limestone and raw chemicals respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mineral-based Industries: Aluminium, Cement and Chemicals' taught, and from which source text?",
+     "a": "Mineral-based Industries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.6",
+   "title": "Public Sector Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Sector Industries' refers to.",
+     "a": "Public sector industries are owned and operated by the government; in India they were set up to provide infrastructure, create employment and reduce regional disparities, while the private sector operates for profit and the joint sector combines both.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Sector Industries'.",
+     "a": "Public sector industries are established in areas where private investment is unlikely because returns are slow, to build infrastructure, ensure equitable development and prevent concentration of economic power.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Sector Industries' taught, and from which source text?",
+     "a": "Public Sector Industries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.7",
+   "title": "Industrial Pollution and Environmental Degradation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrial Pollution and Environmental Degradation' refers to.",
+     "a": "Industries cause four types of pollution -- air, water, land and noise -- through emissions, effluents, solid waste and machinery, leading to environmental degradation and health hazards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Pollution and Environmental Degradation'.",
+     "a": "Industrial pollution arises because factories emit gases, discharge toxic effluents, dump solid waste and generate noise; the concentration of industries in a few regions worsens the environmental impact.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Pollution and Environmental Degradation' taught, and from which source text?",
+     "a": "Industrial Pollution and Environmental Degradation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.8",
+   "title": "Control of Environmental Degradation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Control of Environmental Degradation' refers to.",
+     "a": "Environmental degradation caused by industries can be controlled by treating hot water and effluents before discharge, using smokestacks and electrostatic precipitators, recycling waste, and following pollution-control norms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Control of Environmental Degradation'.",
+     "a": "Pollution can be reduced by treating industrial waste, using cleaner technology, fitting particulate-control devices, planting trees and relocating or redesigning factories to minimise emissions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Control of Environmental Degradation' taught, and from which source text?",
+     "a": "Control of Environmental Degradation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.9",
+   "title": "Industrial Disasters",
+   "questions": [
+    {
+     "q": "Using the method 'Industrial Disasters', work with: present_year = 2600. Carry the chain through step by step and give the final value of years_since.",
+     "a": "616 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Industrial Disasters' and work with: present_year = 2600. Carry the chain through step by step and give the final value of years_since.",
+     "a": "616 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Industrial Disasters' refers to.",
+     "a": "Industrial disasters are major accidents in factories causing death, injury and long-term damage; the Bhopal gas tragedy (1984) is the worst, caused by a methyl isocyanate leak, and led to stricter safety and disaster-management norms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Disasters'.",
+     "a": "Industrial disasters result from negligence, poor safety standards and hazardous chemicals; the Bhopal tragedy highlighted the need for on-site disaster management plans and strict regulation of hazardous industries.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Disasters' taught, and from which source text?",
+     "a": "Industrial Disasters",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.10",
+   "title": "Contribution of Industries to the National Economy",
+   "questions": [
+    {
+     "q": "Using the method 'Contribution of Industries to the National Economy', work with: gdp = 8000, gdp_share_pct = 0.25. Carry the chain through step by step and give the final value of contribution.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Contribution of Industries to the National Economy' and work with: gdp = 12000, gdp_share_pct = 0.45. Carry the chain through step by step and give the final value of contribution.",
+     "a": "54 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Contribution of Industries to the National Economy' refers to.",
+     "a": "Industries contribute to the national economy by generating employment, producing goods, earning foreign exchange and raising GDP; the share of manufacturing in GDP and the growth rate of output indicate industrial development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Contribution of Industries to the National Economy'.",
+     "a": "The contribution of manufacturing to GDP and its annual growth rate measure industrial progress; a strong industrial sector reduces dependence on agriculture and raises national income and employment.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Contribution of Industries to the National Economy' taught, and from which source text?",
+     "a": "Contribution of Industries to National Economy",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

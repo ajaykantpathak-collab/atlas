@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_011",
+   "title": "c12_soc_cbse_05_011",
+   "questions": [
+    {
+     "q": "Define \"child sex ratio\" as used in the Indian Census and state the formula for calculating it.",
+     "a": "Child Sex Ratio (CSR) = (Number of females aged 0-6 years / Number of males aged 0-6 years) × 1000. A wrong answer (e.g., using total population or reversing numerator/denominator) reveals confusion between overall sex ratio and child sex ratio, and ignorance of the specific age group that captures recent son-preference-driven elimination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why patriarchy is described as a \"structural system\" rather than merely a collection of individual sexist attitudes. Use the concepts of patrilineal inheritance and patrilocal residence in your answer.",
+     "a": "Patriarchy is structural because it is embedded in institutions: patrilineal inheritance (property/name pass through sons) and patrilocal residence (bride moves to husband's home) make daughters economic \"outflows\" and sons \"inflows.\" Individual attitudes derive from these material incentives. A wrong answer focusing only on \"mindset\" or \"culture\" misses the material basis that makes son preference rational within the system, and thus fails to explain why laws alone don't change behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A district has 12,500 male children and 10,000 female children aged 0-6. Calculate the child sex ratio. If the district implements a successful intervention and the number of female children rises to 11,250 while males remain constant, what is the new CSR? By how many points did it improve?",
+     "a": "Step 1: Initial CSR = (10,000 / 12,500) × 1000 = 800. Step 2: New CSR = (11,250 / 12,500) × 1000 = 900. Step 3: Improvement = 900 - 800 = 100 points. A wrong calculation (e.g., using percentages or forgetting ×1000) shows inability to handle demographic rates; missing the improvement step shows inability to evaluate intervention impact quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the child sex ratio trends in Kerala (CSR 964) and Haryana (CSR 834) from Census 2011. Analyze why a state with high female literacy and matrilineal traces (Kerala) has a near-normal CSR while a prosperous agrarian state (Haryana) has a severely skewed CSR, despite both having patriarchal elements.",
+     "a": "Kerala's matrilineal history (among Nairs), high female literacy, late marriage, and low son-preference culture reduce daughter aversion. Haryana's strong patrilineal/patrilocal system, land inheritance pressure, and access to sex-selection technology amplify son preference. A wrong answer attributing it solely to \"literacy\" or \"poverty\" ignores the interaction of kinship structure, technology, and state enforcement — and misses that prosperity can worsen sex ratios by enabling access to prenatal diagnostics.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Pre-Conception and Pre-Natal Diagnostic Techniques (PCPNDT) Act, 1994 (amended 2003) has failed because the child sex ratio continued to decline after its enactment.\" Use evidence on implementation gaps and the distinction between supply-side and demand-side factors.",
+     "a": "The critique is flawed: the Act targets the *supply* of sex-selection technology (clinics, doctors), but *demand* stems from patriarchal valuation of sons. Implementation gaps (poor monitoring, corruption, mobile ultrasound units) limit supply-side impact. The CSR decline slowed in some states after strict enforcement (e.g., Maharashtra), proving the law has effect when implemented. A wrong answer that blames the law alone ignores the deeper demand-side drivers and the time lag between legal change and demographic reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level intervention to address son preference in a hypothetical village in Punjab with a CSR of 850. Your plan must integrate (a) economic incentives for daughters, (b) cultural reframing of lineage, and (c) monitoring of prenatal clinics. Justify each component using sociological reasoning.",
+     "a": "A strong answer proposes: (a) Direct cash transfers at daughter's birth, graduation, marriage (e.g., Ladli scheme) to offset perceived economic burden; (b) Community rituals celebrating daughters' births, involving religious leaders to redefine \"lineage\" as inclusive; (c) Village health committee with women's groups auditing ultrasound clinics monthly. Justification: (a) alters material calculus; (b) attacks symbolic devaluation; (c) enforces supply-side regulation locally. A weak answer focuses only on awareness campaigns or penalties, missing the structural economic and cultural roots.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

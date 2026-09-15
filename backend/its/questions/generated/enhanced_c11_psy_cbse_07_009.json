@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_009",
+   "title": "c11_psy_cbse_07_009",
+   "questions": [
+    {
+     "q": "What are the three major barriers to effective problem solving identified in the NCERT textbook?",
+     "a": "The three major barriers are mental set, functional fixedness, and lack of motivation. A wrong answer (e.g., listing \"confirmation bias\" or \"availability heuristic\") reveals the student is confusing problem-solving barriers with decision-making biases from node 07_006, indicating they haven't distinguished between the two topics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why mental set can sometimes help problem solving but at other times hinder it. Use the water bottle problem (Activity 7.2) as your example.",
+     "a": "Mental set helps when prior strategies work for similar problems (Problems 1-5 in the water bottle activity all used B-A-2C sequence). It hinders when a novel problem requires a different approach (Problem 7 required A→C directly, but mental set forced the longer B-A-2C sequence). A wrong answer that says mental set only helps or only hinders shows the student hasn't grasped the dual nature of this barrier.",
+     "self_check": true
+    },
+    {
+     "q": "A student needs to hang a poster but has no thumbtacks. She has a spoon, a heavy textbook, and a hair dryer. She tries the spoon (bends), then the textbook (works). Identify which barrier she overcame and which she initially displayed.",
+     "a": "She initially displayed functional fixedness (seeing spoon only as eating utensil, textbook only as reading material). She overcame it by using the textbook as a hammer substitute. A wrong answer identifying \"mental set\" reveals confusion between mental set (repeating a solution strategy) and functional fixedness (fixed perception of object function).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast mental set and functional fixedness. How are their cognitive mechanisms similar and different? Provide one original example for each that is NOT from the textbook.",
+     "a": "Similarity: Both involve cognitive rigidity—sticking to familiar patterns. Difference: Mental set is about solution strategies (procedural rigidity); functional fixedness is about object representation (perceptual/conceptual rigidity). Example of mental set: Always starting math word problems by finding the formula, even when logical reasoning is faster. Example of functional fixedness: Not using a phone flashlight during a power cut because \"phones are for calling.\" A wrong answer that treats them as identical shows failure to analyze the level of cognition each affects.",
+     "self_check": true
+    },
+    {
+     "q": "\"Lack of motivation is the most fundamental barrier because without it, mental set and functional fixedness don't matter.\" Defend or critique this statement using the problem-solving stages from Table 7.1.",
+     "a": "Critique: Lack of motivation prevents initiation and persistence (Stages 1, 3, 6), but mental set and functional fixedness operate during active problem solving (Stages 2, 3, 4, 5). A motivated person can still fail due to cognitive barriers. The barriers operate at different stages—motivation is necessary but not sufficient. A wrong answer that agrees without qualification shows inability to evaluate the distinct roles of motivational vs. cognitive barriers across problem-solving stages.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute classroom activity that would help Class 11 students recognize their own mental set in real time. Describe the setup, instructions, and the specific \"aha\" moment you want them to experience.",
+     "a": "Activity: Give students 5 matchstick arithmetic puzzles where the first 4 follow the same move-one-matchstick rule, but the 5th requires moving two matchsticks or reinterpreting the equation. Setup: Worksheet with 5 puzzles, 30 seconds each. Instructions: \"Solve each by moving matchsticks to make the equation true.\" Aha moment: After puzzle 4, ask \"What strategy did you use?\" Then reveal puzzle 5 breaks that pattern. Students experience mental set forming and blocking the novel solution. Poor answer: Activity that doesn't create a strong mental set first, or doesn't have a clear pattern break.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

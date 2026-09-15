@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_008",
+   "title": "c12_geo_cbse_11_008",
+   "questions": [
+    {
+     "q": "Name the three distinct cotton-growing zones of India and the dominant cotton type (short staple vs. long staple) in each zone.",
+     "a": "Correct answer: (1) North-west zone (Punjab, Haryana, northern Rajasthan) — long staple 'narma' (American cotton) under irrigation; (2) Central-west zone (Gujarat, Maharashtra) — mix of short and long staple, largely rainfed; (3) Southern plateau zone (Telangana, Andhra Pradesh, Karnataka, Tamil Nadu) — both types, irrigated and rainfed. A wrong answer that lists states without zoning (e.g., \"Gujarat, Maharashtra, Punjab\") reveals the student memorised a list but missed the agro-climatic logic (irrigated vs. rainfed, staple length adaptation) that creates the three zones.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sugarcane yield per hectare significantly higher in southern states (Tamil Nadu, Karnataka, Andhra Pradesh, Telangana) than in northern India (Uttar Pradesh, Bihar) despite Uttar Pradesh producing the largest total quantity?",
+     "a": "Correct answer: Southern states cultivate sugarcane almost entirely under assured irrigation with longer crushing seasons, higher sucrose content due to tropical climate without winter dormancy, and better ratoon management; northern India faces shorter crushing season (winter frost), lower irrigation coverage in parts, and lower sucrose recovery. A wrong answer attributing it only to \"better soil\" or \"more rain\" shows the student overlooks the critical role of irrigation assurance, crushing season length, and sucrose physiology — confusing total production (area-driven) with yield (productivity-driven).",
+     "self_check": true
+    },
+    {
+     "q": "Given: Uttar Pradesh has 22% of India's net sown area but produces ~40% of the country's sugarcane. Maharashtra has 9% of net sown area but produces ~20% of sugarcane. Calculate the relative concentration index (state's share of crop / state's share of net sown area) for each and interpret which state has more specialised sugarcane cultivation.",
+     "a": "Step 1: UP concentration index = 40 / 22 = 1.82. Step 2: Maharashtra concentration index = 20 / 9 = 2.22. Step 3: Maharashtra's index > UP's index, so Maharashtra's agriculture is more specialised towards sugarcane relative to its total cultivated area, even though UP produces more in absolute terms. A wrong answer that only compares absolute production (UP > Maharashtra) misses the concept of agricultural specialisation and concentration indices used in geographical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the soil-water-crop relationship for cotton in the black soil region (Maharashtra) versus the alluvial soil region (Punjab). Why does the same crop require different water management strategies in these two regions?",
+     "a": "Correct answer: Black soils (regur) have high clay content, high water-holding capacity, and develop deep cracks on drying — allowing rainfed cotton to survive dry spells by tapping stored moisture; alluvial soils of Punjab are light-textured, low water-holding, and require frequent irrigation — so cotton there is grown with assured canal/tube-well irrigation. A wrong answer stating \"cotton needs irrigation everywhere\" or \"black soil doesn't need water\" shows the student doesn't understand soil physical properties (field capacity, wilting point) and their interaction with crop water requirement — a core concept linking Class 11 soils to Class 12 crop geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Jute cultivation in India has declined because synthetic fibres replaced it globally, so geographical factors no longer matter.\" Use evidence from the crop's agro-climatic requirements and industrial linkage.",
+     "a": "Correct evaluation: The statement is partially true but geographically incomplete. Synthetic substitution reduced demand, but jute remains confined to the Ganga-Brahmaputra delta because (a) it requires 150-250 cm rainfall, high humidity, and standing water for retting — only this delta provides that combination; (b) jute mills are historically located here (Kolkata-Hooghly belt) due to water transport, coal, and labour; (c) farmers cannot shift to jute elsewhere even if prices rise because the agro-climatic envelope is non-negotiable. A wrong answer that blames only policy or synthetics ignores the geographical determinism that locks jute to this specific hydro-climatic niche — a classic error in resource geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a crop-shift proposal for a farmer in western Uttar Pradesh (alluvial soil, 80 cm rainfall, canal-irrigated) who currently grows sugarcane but faces declining groundwater. Suggest an alternative commercial crop with justification using geographical criteria (water need, season, soil, market).",
+     "a": "Good answer: Shift to cotton (long staple 'narma') — reasons: (1) cotton requires 50-80 cm rainfall (matches 80 cm), (2) grows in kharif like sugarcane but matures in 6-7 months vs. 10-12 months, reducing water footprint, (3) alluvial soil with irrigation suits long staple cotton, (4) existing textile industry in nearby Delhi-NCR and Punjab provides market, (5) Government MSP and procurement support for cotton. Poor answer: Suggesting jute (needs 150+ cm rainfall and retting water — impossible here) or tea (needs hill slopes, acid soil) shows the student cannot match crop agro-climatic envelopes to a specific location's physical geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_002",
+   "title": "c11_math_cbse_07_002",
+   "questions": [
+    {
+     "q": "Write the value of \\(6!\\) and explain in one sentence what the notation means.",
+     "a": "\\(6! = 720\\). The notation \\(6!\\) means the product of all positive integers from 1 to 6. A wrong answer like \\(6! = 6 \\times 5 = 30\\) reveals the student thinks factorial stops at 2 or multiplies only two numbers. An answer of \\(6! = 6 \\times 5 \\times 4 \\times 3 \\times 2\\) (missing 1) shows they forget the identity factor 1, which matters for algebraic simplification later.",
+     "self_check": true
+    },
+    {
+     "q": "Why is \\(0!\\) defined as 1? Use the arrangement interpretation to justify.",
+     "a": "There is exactly 1 way to arrange zero objects: do nothing (the empty arrangement). A wrong answer like \"\\(0! = 0\\) because zero times anything is zero\" reveals the student is applying multiplication rules incorrectly to an empty product. Another wrong answer \"\\(0!\\) is undefined\" shows they haven't grasped the combinatorial basis that makes the recursive formula \\(n! = n \\times (n-1)!\\) work for \\(n=1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression \\(\\frac{10!}{8!}\\) without calculating the full factorials.",
+     "a": "\\(\\frac{10!}{8!} = \\frac{10 \\times 9 \\times 8!}{8!} = 10 \\times 9 = 90\\). A wrong answer like \\(10! / 8! = (10/8)! = 1.25!\\) reveals the misconception that factorial distributes over division. Another error: expanding both fully as \\(3628800 / 40320\\) and then dividing shows they miss the cancellation shortcut, leading to arithmetic mistakes with large numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of \\(n!\\) and \\(2^n\\) for \\(n = 1, 2, 3, 4, 5\\). At which \\(n\\) does \\(n!\\) first exceed \\(2^n\\), and why does factorial eventually grow faster?",
+     "a": "\\(1! = 1, 2^1 = 2\\); \\(2! = 2, 2^2 = 4\\); \\(3! = 6, 2^3 = 8\\); \\(4! = 24, 2^4 = 16\\). So \\(n=4\\) is the first where \\(n! > 2^n\\). Factorial grows faster because each step multiplies by an increasing integer \\(n\\), while \\(2^n\\) always multiplies by 2. A wrong answer claiming \\(2^n\\) always grows faster reveals the student thinks exponential with base >1 always dominates, not recognizing that the multiplying factor in \\(n!\\) itself increases.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes \\(\\frac{(n+2)!}{n!} = (n+2)(n+1)n! / n! = (n+2)(n+1)\\). Another student writes \\(\\frac{(n+2)!}{n!} = (n+2)! / n! = (n+2)/n \\times (n-1)!\\)? Wait, the second student simplifies to \\(\\frac{n+2}{n} \\times (n-1)!\\). Identify the error in the second student's work and correct it.",
+     "a": "The second student incorrectly \"cancels\" the factorial symbol as if it were a variable, treating \\((n+2)! / n!\\) like \\(\\frac{n+2}{n}\\). The correct simplification uses \\((n+2)! = (n+2)(n+1)n!\\), giving \\((n+2)(n+1)\\). The error reveals the misconception that factorial is a multiplicative factor that can be partially cancelled, rather than a function notation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, items, people) that requires calculating \\(7!\\) and explain why the answer is \\(7!\\) and not \\(7^7\\) or \\(7 \\times 6\\).",
+     "a": "Example: \"In how many ways can 7 different books be arranged on a shelf?\" Answer: \\(7! = 5040\\). The first book has 7 choices, second 6, etc., down to 1. Using \\(7^7\\) would imply each position has 7 independent choices (repetition allowed), and \\(7 \\times 6\\) only counts ways to fill the first two positions. A poor problem might ask \"How many ways to choose 2 books from 7?\" which uses combinations, not factorial directly, showing confusion between permutations and combinations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

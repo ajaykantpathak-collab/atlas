@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_004",
+   "title": "c11_math_cbse_11_004",
+   "questions": [
+    {
+     "q": "Write the standard equation of a parabola with vertex at origin, focus at (3,0), and directrix x = -3. Identify the axis and the length of latus rectum.",
+     "a": "The equation is y² = 12x. Axis is the x-axis (y = 0). Length of latus rectum = 4a = 12 units. A wrong answer like y² = 3x reveals the student thinks 'a' is the coefficient directly rather than 4a. Writing x² = 12y shows confusion between x² and y² forms - the student doesn't connect focus position to which variable is squared.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation y² = -8x represents a parabola opening to the left, and describe how the negative sign affects the focus and directrix compared to y² = 8x.",
+     "a": "For y² = -8x, we have 4a = -8 so a = -2. The negative 'a' means focus is at (-2,0) and directrix is x = 2 - both shifted left of the vertex. The parabola opens toward the focus (left). A student who says \"negative means it opens down\" confuses x² and y² forms. One who says \"focus is at (2,0)\" misses that a = -2, not 2. The sign of 'a' determines direction along the axis of symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "A parabola has vertex at (0,0) and passes through the point (2,4). If its axis is the x-axis, find its equation and the coordinates of its focus.",
+     "a": "Since axis is x-axis, equation is y² = 4ax. Substitute (2,4): 16 = 4a(2) → 16 = 8a → a = 2. Equation: y² = 8x. Focus: (2,0). A student getting a = 1/2 likely substituted x=4, y=2 (swapped coordinates). One writing x² = 8y used the wrong standard form - they didn't connect \"axis is x-axis\" to \"y² = 4ax form\". Forgetting to multiply by 4 gives y² = 2x.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parabolas y² = 4x and x² = 4y. How are their foci, directrices, and axes related? What single transformation maps one graph onto the other?",
+     "a": "y² = 4x: focus (1,0), directrix x = -1, axis y = 0 (x-axis). x² = 4y: focus (0,1), directrix y = -1, axis x = 0 (y-axis). The foci are symmetric about y = x, directrices are symmetric about y = x, axes are perpendicular. Reflection across line y = x maps y² = 4x to x² = 4y. A student saying \"they're the same shape just rotated\" misses that reflection across y=x is not a rotation (it's an improper rotation). One who says \"focus of second is (1,0)\" didn't swap coordinates correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the parabola x² = -12y, the focus is at (0,-3) and the directrix is y = 3. The latus rectum length is -12.\" Evaluate this claim and correct all errors.",
+     "a": "The focus (0,-3) and directrix y = 3 are correct (a = -3). But latus rectum length is |4a| = 12, NOT -12. Length is always positive. The student incorrectly treats the signed value 4a = -12 as the length. Also, the endpoints of latus rectum are (±6, -3), not (±6, 3). A student who says \"length is 12 units\" but writes endpoints as (±6, 3) confuses the y-coordinate sign - they used |a| instead of a for the focus y-coordinate.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem involving a parabolic arch (like a bridge or gateway) where the span is 20 metres and the maximum height is 5 metres. Set up a coordinate system, derive the equation of the parabola, and find the height of the arch 3 metres from the centre.",
+     "a": "Place vertex at (0,5) with axis vertical downward: x² = -4a(y-5). Arch passes through (10,0): 100 = -4a(-5) → 100 = 20a → a = 5. Equation: x² = -20(y-5). At x = 3: 9 = -20(y-5) → y-5 = -9/20 → y = 5 - 0.45 = 4.55 metres. A good answer includes coordinate system justification. A poor answer puts vertex at (0,0) and gets wrong equation, or uses y² = 4ax form incorrectly for a vertical arch.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

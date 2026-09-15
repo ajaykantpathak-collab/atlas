@@ -1,0 +1,480 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 303,
+ "chapter_title": "The Making of a Global World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess303.txt",
+ "concepts": [
+  {
+   "id": "jess.303.1.1",
+   "title": "Pre-Modern Global Interconnectedness and Silk Routes",
+   "section": "1.1",
+   "definition": "Ancient overland and maritime trade networks that linked Asia, Europe, and northern Africa, facilitating trade in silk, pottery, spices, and precious metals.",
+   "formula": "none",
+   "key_idea": "Trade networks facilitated dual exchange of physical commodities and cultural traditions across continents.",
+   "textbook_ref": "jess303.txt lines 25-50",
+   "question_patterns": [
+    "explain how the silk routes linked distant parts of the world",
+    "what items were exchanged along the ancient silk routes",
+    "describe the role of silk routes in pre-modern trade and cultural exchange",
+    "how did religion and ideas travel along overland trade routes",
+    "examine the significance of silk routes in connecting Asia and Europe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify trade routes",
+     "explain": "Silk routes connected vast regions of Asia with Europe and North Africa across land and sea."
+    },
+    {
+     "step": 2,
+     "action": "analyse goods and cultural movement",
+     "explain": "Chinese silk, pottery, and Indian spices flowed west while gold and silver flowed east, accompanied by Christian, Islamic, and Buddhist teachings."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.1.2",
+   "title": "Long-Distance Cultural and Food Exchange",
+   "section": "1.2",
+   "definition": "The process through which agricultural crops, culinary practices, and dietary staples traveled between geographic regions through traders and explorers.",
+   "formula": "none",
+   "key_idea": "Introduction of American and Asian crops transformed global diets and demographic survival rates.",
+   "textbook_ref": "jess303.txt lines 51-75",
+   "question_patterns": [
+    "explain how food items migrated across continents in the pre-modern era",
+    "what was the impact of the introduction of potato in Europe",
+    "how did long-distance trade alter dietary habits historically",
+    "describe the role of Christopher Columbus in transferring crops to Asia and Europe",
+    "examine how food offers evidence of pre-modern cultural contact"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify crop movement",
+     "explain": "Foods like potatoes, maize, tomatoes, and chillies were introduced to Europe and Asia from the Americas after Columbus."
+    },
+    {
+     "step": 2,
+     "action": "explain socio-economic impact",
+     "explain": "The humble potato improved European diets and life expectancy, while crop failure caused severe starvation like the Irish Potato Famine."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.1.3",
+   "title": "Biological Warfare and Colonial Conquest",
+   "section": "1.3",
+   "definition": "The unintentional or strategic spread of deadly infectious pathogens to isolated native populations who lacked biological immunity, enabling rapid territorial conquest.",
+   "formula": "none",
+   "key_idea": "Infectious pathogens like smallpox served as more effective conquest tools than conventional weaponry.",
+   "textbook_ref": "jess303.txt lines 76-110",
+   "question_patterns": [
+    "explain how smallpox helped European conquerors in colonising the Americas",
+    "why were military weapons less decisive than diseases in the conquest of America",
+    "how did biological immunity shape colonial outcomes in the sixteenth century",
+    "describe the role of disease in paving the way for Spanish conquest",
+    "what is meant by biological warfare in the context of American colonization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the biological factor",
+     "explain": "America was isolated for millions of years, so indigenous peoples lacked natural immunity against European diseases like smallpox."
+    },
+    {
+     "step": 2,
+     "action": "explain the conquest impact",
+     "explain": "Smallpox spread rapidly ahead of troops, decimating native populations and enabling Spanish and Portuguese colonisation."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.1",
+   "title": "Corn Laws and the Global Agricultural Economy",
+   "section": "2.1",
+   "definition": "British legislative restrictions on foreign grain imports whose repeal led to cheap food imports, decline in domestic farming, and mass rural-to-urban migration.",
+   "formula": "none",
+   "key_idea": "Scrapping import tariffs shifted food supply chains globally and triggered international migration.",
+   "textbook_ref": "jess303.txt lines 115-160",
+   "question_patterns": [
+    "what were the Corn Laws and why were they abolished",
+    "explain the effects of the abolition of Corn Laws on British economy",
+    "how did the repeal of Corn Laws spur global agricultural trade",
+    "describe the impact of grain imports on British farmers and employment",
+    "examine how British food policies reshaped worldwide land clearing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain origin and abolition",
+     "explain": "Corn Laws restricted grain imports to protect British landlords, but urban agitation forced their abolition due to high food prices."
+    },
+    {
+     "step": 2,
+     "action": "explain international outcome",
+     "explain": "Abolishing tariffs allowed cheap imports, prompting Eastern Europe, Russia, America, and Australia to clear lands and supply food."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.2",
+   "title": "Trade Balance and Surplus Calculation",
+   "section": "2.6",
+   "definition": "The net financial difference resulting when a country's total value of exported goods is compared against its total imported goods value.",
+   "formula": "trade_balance = exports - imports",
+   "key_idea": "A positive difference indicates a trade surplus used to settle deficits with other trading partners.",
+   "textbook_ref": "jess303.txt lines 350-380",
+   "question_patterns": [
+    "calculate the trade balance when exports are exports and imports are imports",
+    "find the trade surplus for a nation exporting exports and importing imports",
+    "what is the trade surplus if total export value is exports and import value is imports",
+    "determine the net trade balance given exports and imports",
+    "compute the trade surplus value from export and import numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net trade balance",
+     "explain": "subtract total imports from total exports to determine surplus or deficit",
+     "compute": "trade_balance = exports - imports"
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.3",
+   "title": "Technology and Long-Distance Meat Trade",
+   "section": "2.2",
+   "definition": "Technological advancements like refrigerated ocean vessels that allowed perishable livestock products to be transported across long distances efficiently.",
+   "formula": "none",
+   "key_idea": "Refrigeration reduced shipping costs, expanded meat availability, and lowered living costs in Europe.",
+   "textbook_ref": "jess303.txt lines 165-195",
+   "question_patterns": [
+    "explain how refrigerated ships changed the transatlantic trade in meat",
+    "what role did technology play in making food available to European poor",
+    "describe the shift from live animal transport to frozen meat transport",
+    "how did technological developments in transport lower commodity prices",
+    "examine the social impact of refrigerated transport on European diets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify technological bottleneck",
+     "explain": "Prior to 1870s, live animals occupied excessive ship space and often died or fell ill during voyages."
+    },
+    {
+     "step": 2,
+     "action": "explain effect of refrigeration",
+     "explain": "Slaughtering animals at source and shipping frozen meat reduced costs and enabled European working classes to afford meat."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.4",
+   "title": "Late Nineteenth-Century Colonial Scramble and Rinderpest",
+   "section": "2.3",
+   "definition": "The aggressive partition of African territories by European powers alongside an epidemic livestock plague that decimated local economies and coerced wage labor.",
+   "formula": "none",
+   "key_idea": "Destruction of livestock wealth forced self-sufficient local populations into colonial wage labor markets.",
+   "textbook_ref": "jess303.txt lines 200-265",
+   "question_patterns": [
+    "explain how the arrival of rinderpest affected African livelihoods",
+    "how did European powers carve up Africa in the late nineteenth century",
+    "describe the methods used by colonisers to force Africans into wage labour",
+    "what was the impact of the 1890s cattle plague on African communities",
+    "examine the link between disease outbreaks and colonial conquest in Africa"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe introduction of rinderpest",
+     "explain": "Infected imported Asian cattle brought rinderpest to East Africa in late 1880s, killing 90 percent of African cattle."
+    },
+    {
+     "step": 2,
+     "action": "explain socio-economic consequence",
+     "explain": "Loss of livestock ruined pastoral livelihoods, enabling colonisers to monopolise remaining cattle and force Africans into wage labour."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.5",
+   "title": "Indentured Labour System and Cultural Blending",
+   "section": "2.4",
+   "definition": "A system of bonded contractual labor migration that forced workers into harsh plantation environments, prompting creative cultural synthesis as a survival mechanism.",
+   "formula": "none",
+   "key_idea": "Systemic labor coercion gave rise to unique hybrid cultural, religious, and musical expressions globally.",
+   "textbook_ref": "jess303.txt lines 270-330",
+   "question_patterns": [
+    "why was nineteenth-century indentured labour referred to as a new system of slavery",
+    "explain how Indian indentured workers created new forms of cultural expression",
+    "what were the destinations and conditions of Indian indentured migrants",
+    "describe how events like Hosay reflected cultural fusion among migrants",
+    "how did Indian indentured labour migration come to an end in 1921"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain working conditions",
+     "explain": "Recruited through misleading agents, indentured migrants faced severe laws and poor living conditions on plantations."
+    },
+    {
+     "step": 2,
+     "action": "explain cultural blending",
+     "explain": "Workers resisted through synthetic cultural forms like Trinidad's Hosay carnival, Rastafarianism, and Chutney music."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.2.6",
+   "title": "De-industrialisation, Colonial Trade, and Multilateral Settlement",
+   "section": "2.6",
+   "definition": "The colonial trade structure where British tariffs stifled Indian textile exports, shifting India to raw material exporter while maintaining trade surpluses to offset British global deficits.",
+   "formula": "none",
+   "key_idea": "Colonial tariffs transformed India from a manufactured textile exporter to a primary raw material supplier.",
+   "textbook_ref": "jess303.txt lines 335-390",
+   "question_patterns": [
+    "explain how British trade policies led to the decline of Indian textile exports",
+    "what is meant by a multilateral settlement system in international trade",
+    "describe how Britain used its trade surplus with India to clear foreign deficits",
+    "what role did raw material exports like cotton and opium play in colonial trade",
+    "examine how home charges were financed through British trade operations in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain structural trade shift",
+     "explain": "Tariffs excluded Indian cotton textiles from Britain, reducing export share from 30 percent in 1800 to under 3 percent by 1870s."
+    },
+    {
+     "step": 2,
+     "action": "explain multilateral balance",
+     "explain": "Britain used its trade surplus from selling manufactures to India to settle deficits with other nations and pay administrative home charges."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.3.1",
+   "title": "First World War and Industrial Transformations",
+   "section": "3.1",
+   "definition": "The first modern industrial war that mobilized mechanical armaments, caused severe working-age demographic losses, and altered global financial leadership from Britain to the US.",
+   "formula": "none",
+   "key_idea": "War-induced industrial restructuring turned the United States from an international debtor into a creditor.",
+   "textbook_ref": "jess303.txt lines 395-445",
+   "question_patterns": [
+    "why is the First World War described as the first modern industrial war",
+    "explain the economic and demographic impacts of World War I on Europe",
+    "how did World War I transform the United States from a debtor to a creditor nation",
+    "describe how war needs altered industrial production and household labor roles",
+    "what post-war recovery problems faced Britain after 1918"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify industrial warfare features",
+     "explain": "Mass production of tanks, aircraft, and chemical weapons led to 9 million deaths and reduced Europe's working workforce."
+    },
+    {
+     "step": 2,
+     "action": "explain global financial shift",
+     "explain": "Britain borrowed heavily from US lenders, turning the US into the leading global economic creditor nation."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.3.2",
+   "title": "Assembly Line, Mass Production, and Fordism",
+   "section": "3.3",
+   "definition": "A standardized manufacturing method pioneered by Henry Ford using conveyor belts to accelerate worker output, lower unit costs, and expand consumer access to durable goods.",
+   "formula": "none",
+   "key_idea": "Mechanized assembly lines increased output efficiency and created mass consumer markets through hire-purchase credit.",
+   "textbook_ref": "jess303.txt lines 450-500",
+   "question_patterns": [
+    "explain the feature of assembly line production introduced by Henry Ford",
+    "how did mass production affect the cost and supply of manufactured goods",
+    "describe how hire purchase helped fuel consumer spending in 1920s America",
+    "why did Henry Ford increase daily wages to five dollars in 1914",
+    "examine how Fordist methods spread across industrial manufacturing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain assembly line technique",
+     "explain": "Conveyor belts forced workers to perform repetitive tasks at a constant speed, dramatically speeding vehicle production."
+    },
+    {
+     "step": 2,
+     "action": "explain economic multiplier",
+     "explain": "Higher wages and lowered costs enabled workers to buy cars and home appliances via hire-purchase loans."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.3.3",
+   "title": "The Great Depression and Global Economic Crisis",
+   "section": "3.4",
+   "definition": "A severe worldwide economic slump triggered by agricultural overproduction, crash in farm prices, and sudden withdrawal of US financial capital loans.",
+   "formula": "none",
+   "key_idea": "Overproduction and credit collapse created systemic farm failure, mass unemployment, and banking crashes.",
+   "textbook_ref": "jess303.txt lines 505-575",
+   "question_patterns": [
+    "what were the main causes of the Great Depression of 1929",
+    "explain the impact of the Great Depression on agricultural economies",
+    "how did the collapse of US overseas lending spread economic crisis globally",
+    "describe the impact of the Great Depression on Indian peasants and jute growers",
+    "why did Indian gold exports increase during the Great Depression years"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify primary causes",
+     "explain": "Agricultural overproduction drove down crop prices, while US banks curtailed domestic and foreign loans sharply."
+    },
+    {
+     "step": 2,
+     "action": "explain consequences in India",
+     "explain": "Indian agricultural prices halved, Bengal jute prices crashed 60 percent, and indebted peasants exported gold reserves to survive."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.4.1",
+   "title": "Bretton Woods System and International Financial Institutions",
+   "section": "4.1",
+   "definition": "The post-WWII monetary framework establishing the IMF and World Bank to maintain global financial stability, full employment, and fixed foreign exchange rates.",
+   "formula": "none",
+   "key_idea": "Post-war financial architecture pegged global currencies to the US dollar to stabilize economic growth.",
+   "textbook_ref": "jess303.txt lines 580-640",
+   "question_patterns": [
+    "what was the Bretton Woods Agreement and what institutions did it create",
+    "explain the main objectives of the Bretton Woods twins",
+    "how did the fixed exchange rate system function under Bretton Woods",
+    "describe the role of government intervention in post-war economic stability",
+    "examine why the IMF and World Bank were dominated by Western industrial powers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify founding structure",
+     "explain": "The 1944 UN conference established the IMF to manage external balances and World Bank to fund post-war recovery."
+    },
+    {
+     "step": 2,
+     "action": "explain currency mechanism",
+     "explain": "Currencies were pegged to the US dollar at fixed exchange rates, with the dollar fixed at 35 dollars per gold ounce."
+    }
+   ]
+  },
+  {
+   "id": "jess.303.4.2",
+   "title": "Decolonisation, G-77, and Floating Exchange Rates",
+   "section": "4.4",
+   "definition": "The post-colonial era where developing nations formed G-77 to demand a New International Economic Order, coinciding with the shift to flexible floating exchange rates.",
+   "formula": "none",
+   "key_idea": "Developing countries organized collectively to claim sovereign control over resources amidst shifting global currency systems.",
+   "textbook_ref": "jess303.txt lines 645-710",
+   "question_patterns": [
+    "what is meant by G-77 and what were its primary demands",
+    "explain the term New International Economic Order or NIEO",
+    "why did the system of fixed exchange rates collapse in the 1970s",
+    "describe the difference between fixed exchange rates and floating exchange rates",
+    "how did the relocation of MNC production to low-wage Asian countries transform world economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain G-77 formation",
+     "explain": "Developing nations formed G-77 to advocate for NIEO, demanding resource sovereignty, fairer raw material prices, and market access."
+    },
+    {
+     "step": 2,
+     "action": "explain monetary system evolution",
+     "explain": "US financial strain ended fixed exchange rates, ushering in floating exchange rates and MNC relocation to low-wage Asian nations."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess303.txt section 2.6",
+   "concept": "jess.303.2.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the trade balance when exports are {exports} million dollars and imports are {imports} million dollars",
+   "extracted_variables": {
+    "exports": 150,
+    "imports": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net trade balance",
+     "explain": "subtract total imports from total exports to determine surplus or deficit",
+     "compute": "trade_balance = exports - imports"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess303.txt section 2.6",
+   "concept": "jess.303.2.2",
+   "question_type": "compute",
+   "question_pattern": "find the trade surplus for a nation exporting {exports} million pounds and importing {imports} million pounds",
+   "extracted_variables": {
+    "exports": 420,
+    "imports": 280
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net trade balance",
+     "explain": "subtract total imports from total exports to determine surplus or deficit",
+     "compute": "trade_balance = exports - imports"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "Write in brief Q1-Q5",
+   "questions": [
+    "Give two examples of different types of global exchanges which took place before the seventeenth century, choosing one example from Asia and one from the Americas.",
+    "Explain how the global transfer of disease in the pre-modern world helped in the colonisation of the Americas.",
+    "Write a note to explain the effects of the British government's decision to abolish the Corn Laws.",
+    "Write a note to explain the effects of the coming of rinderpest to Africa.",
+    "Write a note to explain the effects of the death of men of working-age in Europe because of the World War.",
+    "Write a note to explain the effects of the Great Depression on the Indian economy.",
+    "Write a note to explain the effects of the decision of MNCs to relocate production to Asian countries.",
+    "Give two examples from history to show the impact of technology on food availability.",
+    "What is meant by the Bretton Woods Agreement?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Discuss Q6-Q9",
+   "questions": [
+    "Imagine that you are an indentured Indian labourer in the Caribbean. Drawing from the details in this chapter, write a letter to your family describing your life and feelings.",
+    "Explain the three types of movements or flows within international economic exchange. Find one example of each type of flow which involved India and Indians, and write a short account of it.",
+    "Explain the causes of the Great Depression.",
+    "Explain what is referred to as the G-77 countries. In what ways can G-77 be seen as a reaction to the activities of the Bretton Woods twins?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

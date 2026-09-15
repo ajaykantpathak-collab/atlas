@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_009",
+   "title": "c12_geo_cbse_01_009",
+   "questions": [
+    {
+     "q": "List any three sub-fields of human geography from NCERT Table 1.2 and name the sister discipline each interfaces with.",
+     "a": "Correct answer: (1) Behavioural Geography → Psychology; (2) Geography of Agriculture → Agricultural Sciences; (3) Electoral Geography → Psephology. (Other valid pairs: Cultural Geography ↔ Anthropology, Medical Geography ↔ Epidemiology, Urban Geography ↔ Urban Studies/Planning, Political Geography ↔ Political Science, Population Geography ↔ Demography, etc.)  \nA wrong answer (e.g., \"Urban Geography ↔ Sociology\" or \"Medical Geography ↔ Economics\") reveals the student has memorised sub-field names but not their *specific* disciplinary interfaces. This confusion leads to errors in board exam matching questions and in competitive exams where precise interdisciplinary mapping is tested (e.g., CUET Geography, UPSC optional).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Behavioural Geography specifically interfaces with Psychology rather than Sociology, using the concepts of \"perception of space\" and \"spatial decision-making\".",
+     "a": "Correct answer: Behavioural Geography focuses on *individual* or *group* cognitive processes — how people perceive, cognate, and make decisions about space (e.g., mental maps, activity spaces, residential choice). Psychology provides the theoretical framework for perception, cognition, learning, and decision-making at the micro-level. Sociology, in contrast, studies *macro-level* social structures, institutions, and collective behaviour.  \nA wrong answer that conflates the two (e.g., \"both study human behaviour\") misses the critical distinction between *micro-cognitive* (psychology) and *macro-structural* (sociology) explanations. This error appears in JEE/NEET-style assertion-reason questions where the reason incorrectly attributes mental mapping to social norms.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies the 2024 Lok Sabha election results in Uttar Pradesh to analyse how caste composition of constituencies correlates with voting patterns. Identify the sub-field of human geography, its sister discipline, and the specific method from that discipline used for spatial analysis of voting data.",
+     "a": "Correct answer:  \nStep 1: Phenomenon = voting patterns → sub-field = **Electoral Geography** (sub-field of Political Geography).  \nStep 2: Sister discipline = **Psephology** (statistical study of elections).  \nStep 3: Method = **Ecological Inference / Spatial Regression / Constituency-level mapping** of vote share vs. demographic variables (caste, religion, class).  \nStep 4: Psephology provides the statistical tools (swing analysis, vote-share decomposition) which Electoral Geography maps spatially.  \nA wrong answer naming \"Political Geography ↔ Political Science\" is partially correct but insufficiently precise; the NCERT table explicitly separates Electoral Geography with Psephology. Competitive exams (CUET, UPSC) test this granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interface of Cultural Geography with Anthropology versus Gender Geography with Women's Studies. How do their focal questions and methodologies differ?",
+     "a": "Correct answer:  \n- **Cultural Geography ↔ Anthropology**: Focuses on *shared meanings, symbols, rituals, and material culture* of groups (e.g., diffusion of folk housing styles, sacred landscapes). Method: Ethnography, participant observation, cultural landscape interpretation.  \n- **Gender Geography ↔ Women's Studies**: Focuses on *power relations, patriarchy, and gendered spatial inequalities* (e.g., gendered access to public space, feminisation of agricultural labour, safety audits). Method: Feminist standpoint theory, gender-disaggregated spatial data, qualitative narratives of lived experience.  \nA wrong answer that treats both as \"study of culture\" misses the distinct *critical/emancipatory* agenda of Gender Geography/Women's Studies versus the *interpretive/holistic* agenda of Cultural Geography/Anthropology. This distinction is crucial for board exam 5-marker \"differentiate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The interface between Economic Geography and Economics is more important for understanding industrial location than the interface between Social Geography and Sociology.\" Justify with two concrete examples.",
+     "a": "Correct evaluation: **The statement is false; both interfaces are necessary but answer different questions.**  \nExample 1 (Economic Geography + Economics): Explains *where* a steel plant locates using Weber's least-cost theory (transport, labour, agglomeration economies) — answers efficiency/profit maximisation.  \nExample 2 (Social Geography + Sociology): Explains *why* the same plant's workforce is segregated by caste in company housing, or why tribal land acquisition triggers protests — answers social reproduction, power, and justice.  \nA wrong answer that privileges economics reflects \"economic determinism\" — a Class 12 misconception (see c12_geo_cbse_01_004). Board exams increasingly ask for \"multi-dimensional analysis\" (NEP competency); ignoring the social interface loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research framework to study the impact of the Mumbai Metro Line 3 (Colaba-Bandra-SEEPZ) on surrounding neighbourhoods. Specify at least three human geography sub-fields, their sister disciplines, and the specific research question each would address.",
+     "a": "Expected framework (illustrative):  \n1. **Urban Geography ↔ Urban Studies/Planning**: \"How has land-use density and built-form changed within 500m of stations?\" (Method: GIS-based land-use change detection, FAR analysis).  \n2. **Social Geography ↔ Sociology**: \"How has residential segregation by income/class shifted due to transit-induced gentrification?\" (Method: Census tract analysis, household surveys, segregation indices).  \n3. **Economic Geography ↔ Economics**: \"What is the impact on property values and informal sector livelihoods near stations?\" (Method: Hedonic pricing models, difference-in-differences estimation).  \n4. (Optional) **Population Geography ↔ Demography**: \"How has commuter population flow altered day-time vs. night-time population distribution?\" (Method: Mobile phone data, origin-destination surveys).  \nA poor answer lists sub-fields without *specific research questions* or *methods* from the sister discipline, showing superficial interdisciplinary thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

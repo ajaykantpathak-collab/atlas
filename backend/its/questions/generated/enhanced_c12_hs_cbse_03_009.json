@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_009",
+   "title": "c12_hs_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define \"adolescence\" according to the World Health Organization and state the age range. How does this definition differ from the traditional Indian concept of \"puberty\" (प्यूबर्टी)?",
+     "a": "WHO defines adolescence as the period between 10 and 19 years of age, encompassing both puberty (biological maturation) and the psychosocial transition to adulthood. The traditional Indian concept of \"puberty\" often refers only to the onset of menarche/spermarche and associated rituals, ignoring the extended psychosocial process. A wrong answer that equates adolescence solely with puberty reveals a misunderstanding that adolescence is a multi-year psychosocial transition, not just a biological event.",
+     "self_check": true
+    },
+    {
+     "q": "A 13-year-old girl shows sudden mood swings, argues with parents about clothing choices, and insists on privacy. Her parents label her \"disrespectful.\" Using Erikson's and Marcia's frameworks, explain why this behavior is developmentally normative and not merely \"bad manners.\"",
+     "a": "Erikson's stage \"identity vs. role confusion\" requires adolescents to explore values, beliefs, and roles to form a coherent identity. Marcia's \"identity moratorium\" status describes active exploration without commitment — exactly what the girl is doing through clothing choices and boundary-testing. Labeling this as disrespect ignores the developmental task of autonomy-seeking. A wrong answer that focuses only on obedience or cultural norms misses the psychosocial necessity of this exploration for healthy identity formation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-session school-based module to reduce risky sexual behavior among 15-year-olds in an urban Indian school. Each session must target a specific cognitive or social factor (e.g., perceived invulnerability, peer norms, negotiation skills, future orientation). Justify each session's focus with developmental theory.",
+     "a": "Session 1: \"My Brain on Risk\" — uses neurodevelopmental evidence (prefrontal cortex immaturity vs. heightened limbic sensitivity) to explain perceived invulnerability (Elkind's personal fable). Session 2: \"Norms vs. Reality\" — presents anonymous school survey data correcting pluralistic ignorance about peer sexual activity (social norms theory). Session 3: \"Saying No, Staying Cool\" — role-plays refusal skills using cognitive-behavioral techniques (self-efficacy, Bandura). Session 4: \"My Future Self\" — guided visualization of 10-year goals linked to present choices (future time perspective, Zimbardo). A poor answer would list generic topics without theoretical justification or developmental appropriateness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of authoritative vs. authoritarian parenting on adolescent mental health in collectivist Indian families. Cite at least two Indian research findings and explain why the \"authoritative advantage\" found in Western studies may be nuanced in India.",
+     "a": "Western meta-analyses show authoritative parenting (high warmth, high control) predicts best outcomes. However, Indian studies (e.g., Smetana et al., 2015; Sharma & Sandhu, 2016) find that \"authoritative\" practices perceived as \"psychological control\" (guilt induction, shaming) increase anxiety. In collectivist contexts, behavioral control (monitoring, rules) combined with emotional warmth is adaptive, but autonomy-granting may be interpreted as parental neglect. A wrong answer would uncritically apply Western findings without cultural mediation analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the CBSE Adolescence Education Programme (AEP) for its handling of LGBTQ+ identity issues. Use the UN Convention on the Rights of the Child (Article 12, 13) and Indian constitutional provisions (Article 14, 15, 21) to evaluate whether the current curriculum meets legal and ethical standards for non-discrimination and participation.",
+     "a": "The AEP's focus on \"reproductive health\" and \"gender sensitivity\" largely excludes sexual orientation and gender identity diversity, violating CRC Article 12 (right to be heard) and Article 13 (freedom of expression) for LGBTQ+ adolescents. Indian constitutional jurisprudence (NALSA v. Union of India, 2014; Navtej Singh Johar, 2018) recognizes gender identity and sexual orientation under Articles 14, 15, 21. A curriculum that renders LGBTQ+ adolescents invisible fails the non-discrimination mandate. A weak answer would describe AEP content without rights-based evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Digital Well-being Charter\" co-designed by adolescents for adolescents that addresses cyberbullying, screen-time displacement of sleep/exercise, and algorithmic radicalization. The charter must include 3 measurable commitments, 2 peer-enforcement mechanisms, and 1 adult-ally role. Explain how each element leverages developmental needs for autonomy, peer belonging, and mentorship.",
+     "a": "Example charter: Commitments — (1) \"No devices 1 hour before sleep\" (tracked via shared screen-time app), (2) \"Call out cyberbullying within 24 hrs\" (anonymous reporting bot), (3) \"Weekly 30-min offline hobby meetup\" (attendance log). Peer enforcement — (a) rotating \"digital wellness ambassadors\" per class, (b) monthly \"algorithm audit\" where peers review each other's feed diversity. Adult ally — school counselor facilitates monthly charter review without surveillance. Leverages autonomy (self-set rules), peer belonging (collective ownership), mentorship (guided reflection). A poor answer would impose adult rules without adolescent agency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

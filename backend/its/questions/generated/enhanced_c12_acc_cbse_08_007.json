@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_007",
+   "title": "c12_acc_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the base (100%) used when preparing a Common Size Statement of Profit and Loss, and why is that specific item chosen as the base?",
+     "a": "The base is Revenue from Operations (Net Sales) because it represents the primary income generated from the core business activity, and all other incomes, expenses, and profits are derived from or related to this revenue stream. A wrong answer (e.g., using Total Assets or Total Expenses as base) reveals the student does not understand that vertical analysis of the income statement anchors everything to the top-line revenue to show how each rupee of sales is allocated.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a Common Size Statement of Profit and Loss and finds that the sum of all expense percentages equals 85%. They conclude that the Net Profit percentage must be 15%. Is this conclusion always correct? Explain why or why not.",
+     "a": "Not always. The conclusion holds only if there are no other incomes (e.g., Other Income) and no exceptional/extraordinary items, and if the expense list includes all items from Cost of Materials Consumed through Other Expenses, Finance Costs, and Depreciation. If Other Income exists, Net Profit % = 100% - Total Expense % + Other Income %. A wrong answer shows the student treats the Profit and Loss as a closed system ignoring non-operating items, a common error when mechanically applying \"100% minus expenses\" without checking the statement structure.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for a company for the year ended 31st March 2024, prepare a Common Size Statement of Profit and Loss (show percentages to two decimal places):\nRevenue from Operations: ₹50,00,000\nOther Income: ₹2,00,000\nCost of Materials Consumed: ₹20,00,000\nPurchases of Stock-in-Trade: ₹5,00,000\nChanges in Inventories: (₹1,00,000) (i.e., decrease)\nEmployee Benefits Expense: ₹8,00,000\nFinance Costs: ₹1,50,000\nDepreciation and Amortisation: ₹2,00,000\nOther Expenses: ₹6,50,000\nTax Expense: ₹2,00,000",
+     "a": "**Step 1:** Base = Revenue from Operations = ₹50,00,000 (100%).  \n**Step 2:** Compute each item as (Item Amount / ₹50,00,000) × 100.  \n**Step 3:** Percentages:  \nRevenue from Operations = 100.00%  \nOther Income = (2,00,000/50,00,000)×100 = 4.00%  \nCost of Materials Consumed = (20,00,000/50,00,000)×100 = 40.00%  \nPurchases of Stock-in-Trade = 10.00%  \nChanges in Inventories = -2.00% (negative because decrease in inventory is added to cost)  \nEmployee Benefits Expense = 16.00%  \nFinance Costs = 3.00%  \nDepreciation = 4.00%  \nOther Expenses = 13.00%  \nTotal Expenses = 40+10-2+16+3+4+13 = 84.00%  \nProfit Before Tax = 100 + 4 - 84 = 20.00%  \nTax Expense = 4.00%  \nProfit After Tax = 16.00%  \n**Verification:** Sum of all percentages (with signs) should reconcile: 100 + 4 - 84 - 4 = 16.  \nA wrong answer (e.g., using Total Revenue including Other Income as base, or mis-treating Changes in Inventories sign) reveals misunderstanding of the base definition and the treatment of inventory changes.",
+     "self_check": true
+    },
+    {
+     "q": "Two companies, A and B, have the following common size percentages for Cost of Materials Consumed: Company A = 55%, Company B = 45%. Company A argues it is less efficient because its material cost percentage is higher. Critically evaluate this argument. What additional information would you need to make a valid comparison?",
+     "a": "The argument is not necessarily valid. A higher material cost percentage could result from: (1) different product mix (A sells low-margin products), (2) different accounting policies (A includes freight inwards in material cost while B treats it as other expense), (3) different stages of vertical integration (A buys raw materials, B manufactures them), or (4) revenue recognition differences. To compare validly, we need: (a) industry benchmarks, (b) notes on accounting policies for cost classification, (c) product-wise margin analysis, and (d) trend over 3-5 years. A student who agrees with Company A without questioning comparability shows lack of analytical depth — a common trap in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Common Size Statement of Profit and Loss shows Employee Benefits Expense at 12% for Year 1 and 15% for Year 2. The management claims \"wage costs have increased by 3%\". Identify the error in this statement and explain the correct interpretation.",
+     "a": "The error is confusing percentage points with percent change. The expense increased by 3 **percentage points** (from 12% to 15%), but the **percent increase** relative to Year 1 is (15-12)/12 × 100 = 25%. Moreover, the percentage is relative to Revenue from Operations; if revenue fell, the same absolute wage bill would show a higher percentage. Correct interpretation: \"Employee Benefits Expense as a percentage of revenue increased by 3 percentage points, which represents a 25% increase in the ratio. We must check whether absolute wages rose, revenue fell, or both.\" A student who repeats the management's phrasing demonstrates a classic confusion between absolute, relative, and ratio changes — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: Invent a company with three years of data where Revenue from Operations grows 20% each year, but the Gross Profit % (Revenue minus Cost of Materials Consumed) declines from 45% to 40% to 35%. Provide the absolute figures for Year 1 (choose any base revenue) and show the common size percentages for all three years. Explain what this pattern suggests about the company's pricing or procurement strategy.",
+     "a": "**Year 1:** Revenue = ₹1,00,00,000; Cost of Materials = ₹55,00,000 → GP% = 45%.  \n**Year 2:** Revenue = ₹1,20,00,000 (20% growth); Cost of Materials = ₹72,00,000 → GP% = 40%.  \n**Year 3:** Revenue = ₹1,44,00,000 (20% growth); Cost of Materials = ₹93,60,000 → GP% = 35%.  \n**Common Size:**  \nYear 1: Rev 100%, COGS 55%, GP 45%  \nYear 2: Rev 100%, COGS 60%, GP 40%  \nYear 3: Rev 100%, COGS 65%, GP 35%  \n**Interpretation:** Despite revenue growing steadily, material costs are rising faster than revenue (COGS % up 5 pp each year). This suggests either (a) the company is cutting prices to drive volume without proportional cost reduction, (b) input prices are rising and the company cannot pass them on, or (c) product mix is shifting to lower-margin items. A good answer must link the percentage trend to strategic implications, not just state the numbers. A poor answer merely recalculates percentages without diagnosis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

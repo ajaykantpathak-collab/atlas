@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_01_010",
+   "title": "c12_ps_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define \"proxy war\" in the Cold War context and name two specific proxy wars where the USA and USSR supported opposite sides without their own forces directly engaging each other.",
+     "a": "A proxy war is a conflict where two major powers avoid direct combat by supporting opposing third parties (states or non-state actors) with money, weapons, training, and diplomacy. Examples: Korean War (1950–53) where US/UN backed South Korea and USSR/China backed North Korea; Vietnam War (1955–75) where US backed South Vietnam and USSR/China backed North Vietnam. A wrong answer (e.g., \"USA vs USSR fighting in Korea\") reveals the student confuses proxy war with direct war and misses the defining feature: superpower forces do not directly clash.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Cuban Missile Crisis (1962) is considered the \"closest the world came to nuclear war\" yet still ended without direct USA-USSR combat. What structural factor prevented escalation?",
+     "a": "The crisis brought US and Soviet forces into direct confrontation (US blockade vs Soviet missiles in Cuba), but both sides stepped back because Mutually Assured Destruction (MAD) made any nuclear exchange suicidal. The structural factor is nuclear deterrence: each side's second-strike capability guaranteed unacceptable retaliation, creating a \"nuclear threshold\" that neither dared cross. A wrong answer focusing only on \"Kennedy's leadership\" or \"Khrushchev blinked\" misses the systemic, structural constraint (MAD) that operated regardless of leaders' personalities.",
+     "self_check": true
+    },
+    {
+     "q": "The Soviet invasion of Afghanistan (1979) is often called \"the Soviet Union's Vietnam.\" Apply the arena/proxy-war framework to compare the two conflicts: identify the superpower intervener, the local proxy it supported, the external backer of the opposing side, and the outcome for the intervener.",
+     "a": "Afghanistan: USSR intervened directly (Red Army) to prop up the communist PDPA regime; USA/Pakistan/Saudi Arabia backed the mujahideen rebels. Vietnam: USA intervened directly (US troops) to prop up South Vietnam; USSR/China backed North Vietnam/Viet Cong. In both, the intervener faced protracted guerrilla war, domestic opposition, and eventual withdrawal (USSR 1989, USA 1973/75) without achieving objectives. A wrong answer that treats them as completely different \"because one was communist expansion and the other was containment\" misses the structural symmetry: both are classic proxy arenas where a superpower's direct military intervention in a peripheral arena led to quagmire.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the \"Space Race\" and \"Olympic Games\" functioned as non-military Cold War arenas. What did the superpowers compete for in these arenas, and how did the competition reflect the broader ideological confrontation?",
+     "a": "Space Race (Sputnik 1957, Apollo 1969) and Olympics (medal counts, boycotts 1980/1984) were arenas for demonstrating technological superiority, organizational capacity, and ideological legitimacy (\"our system produces better scientists/athletes\"). They reflected the broader confrontation by translating military-industrial competition into peaceful but highly symbolic contests — \"war by other means.\" A wrong answer listing only \"prestige\" or \"propaganda\" misses the deeper linkage: space technology had direct military applications (ICBMs), and Olympic success was used to validate the socialist vs capitalist model of human development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Cold War remained 'cold' only in Europe; in the Global South it was very 'hot'.\" Use at least three specific arenas to support your evaluation.",
+     "a": "The argument is largely accurate. In Europe, the front line was frozen (NATO vs Warsaw Pact, Berlin Wall) with no direct combat after 1945. In the Global South, proxy wars caused millions of deaths: Korea (2.5–3M), Vietnam (1.3–3.8M), Afghanistan (1–2M), Angola (500K+), Congo, Nicaragua, etc. The nuclear umbrella protected Europe (both sides feared escalation to nuclear war on their home soil), while the periphery lacked such protection, becoming \"permissible\" arenas for hot war. A wrong answer claiming \"Cold War was cold everywhere because no nukes were used\" ignores the massive conventional bloodshed in proxy arenas and the distinction between direct superpower war and proxy war.",
+     "self_check": true
+    },
+    {
+     "q": "Create a comparative table with four columns: Arena, Superpower Protagonists, Local Proxies, Outcome for Superpower Relations. Fill it for any three Cold War arenas (one must be non-military). Write one sentence synthesizing what the table reveals about the logic of arena competition.",
+     "a": "Example table:\n| Arena | Superpower Protagonists | Local Proxies | Outcome for Superpower Relations |\n|-------|-------------------------|---------------|----------------------------------|\n| Korea (1950–53) | USA vs USSR/China | ROK vs DPRK | Solidified bloc division; no direct clash |\n| Space Race (1957–69) | USA vs USSR | NASA vs Soviet space program | Spurred tech competition; led to cooperation (Apollo-Soyuz 1975) |\n| Afghanistan (1979–89) | USSR vs USA | PDPA govt vs Mujahideen | Ended détente; accelerated Soviet decline |\n\nSynthesis: Arenas allowed calibrated competition — military proxies raised costs but stayed below nuclear threshold; non-military arenas channeled rivalry into symbolic/technological domains that could later enable cooperation. A poor answer fills the table mechanically without the synthesis sentence, showing inability to extract the structural pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

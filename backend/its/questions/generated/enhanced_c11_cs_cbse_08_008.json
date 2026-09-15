@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_008",
+   "title": "c11_cs_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nx = 10\ndef show():\n    print(x)\nshow()\nprint(x)\n```",
+     "a": "Output: `10` then `10`. The function `show()` reads the global variable `x` because no local `x` exists. A wrong answer (e.g., thinking `x` is not accessible inside the function) reveals the misconception that functions cannot see global variables at all — they can read them, just not write to them without `global`.",
+     "self_check": true
+    },
+    {
+     "q": "What is the output of the following code?\n```python\ncount = 5\ndef increment():\n    count = count + 1\n    print(\"Inside:\", count)\nincrement()\nprint(\"Outside:\", count)\n```",
+     "a": "It raises `UnboundLocalError: local variable 'count' referenced before assignment`. The assignment `count = count + 1` makes `count` local to the function, so the right-hand side `count` refers to the uninitialized local variable. A wrong answer (e.g., \"Inside: 6, Outside: 5\") reveals the misconception that Python automatically uses the global variable on the right-hand side — it doesn't; the presence of assignment anywhere in the function makes the name local for the entire function.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output of this code:\n```python\nvalue = 100\ndef outer():\n    value = 50\n    def inner():\n        print(value)\n    inner()\nouter()\nprint(value)\n```",
+     "a": "Output: `50` then `100`. The `inner` function accesses `value` from the enclosing scope (outer's local variable), not the global. A wrong answer (e.g., `100` then `100`) reveals confusion about the LEGB rule — students often think \"global\" means \"any outer scope\" but Python distinguishes between global (module-level) and enclosing (function-level) scopes.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this code:\n```python\ndata = [1, 2, 3]\ndef modify_list():\n    data.append(4)\nmodify_list()\nprint(data)\n```\nNow consider:\n```python\ndata = [1, 2, 3]\ndef reassign_list():\n    data = [4, 5, 6]\nreassign_list()\nprint(data)\n```\nExplain why the first prints `[1, 2, 3, 4]` but the second prints `[1, 2, 3]`.",
+     "a": "In the first, `data.append(4)` mutates the global list object — no assignment to the name `data` occurs, so Python uses the global `data`. In the second, `data = [4, 5, 6]` assigns to the name `data`, creating a new local variable that shadows the global. A wrong explanation reveals the misconception that \"modifying a global variable\" and \"reassigning a global variable\" are the same — they are not; mutation does not require `global`, reassignment does.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this function to count how many times it's called:\n```python\ncalls = 0\ndef counter():\n    calls = calls + 1\n    return calls\nprint(counter())\nprint(counter())\n```\nThey expect `1` then `2`. Evaluate why this fails and propose the minimal fix (without using `global` keyword).",
+     "a": "It fails with `UnboundLocalError` because `calls = calls + 1` makes `calls` local. Minimal fix without `global`: use a mutable object like a list: `calls = [0]` and inside function `calls[0] += 1; return calls[0]`. This works because we mutate the list, not reassign the name. A wrong fix (e.g., just adding `global calls`) misses the point of the constraint — the question tests understanding of mutation vs reassignment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a code snippet where a function reads a global variable, creates a local variable with the same name, and then calls another function that also reads that variable name. Show the output and explain which variable each function sees.",
+     "a": "Example:\n```python\nx = \"global\"\ndef first():\n    x = \"local to first\"\n    def second():\n        print(x)\n    second()\nfirst()\n```\nOutput: `local to first`. The `second` function sees `x` from the enclosing scope (first's local), not the global. A poor answer might show `global` or an error, revealing misunderstanding of nested scope lookup order (LEGB).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

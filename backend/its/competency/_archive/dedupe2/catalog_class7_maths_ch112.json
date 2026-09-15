@@ -1,0 +1,221 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Symmetry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh112.txt",
+ "concepts": [
+  {
+   "id": "gemh.12.1",
+   "title": "Line Symmetry in Regular Polygons",
+   "section": "12.2",
+   "definition": "A regular polygon having equal side lengths and equal internal angles possesses as many fold lines of symmetry as its count of sides.",
+   "formula": "lines_of_symmetry = sides",
+   "key_idea": "The total number of axes of symmetry in any regular polygon is identical to its number of sides.",
+   "textbook_ref": "gemh112.txt lines 35-55",
+   "question_patterns": [
+    "find the number of lines of symmetry for a regular polygon with n sides",
+    "how many lines of symmetry does a regular hexagon have",
+    "calculate the axes of symmetry for an equilateral triangle",
+    "state the number of lines of symmetry in a square"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate the count of lines of symmetry to the side count",
+     "explain": "For a regular polygon, the number of lines of symmetry equals the number of sides.",
+     "compute": "lines_of_symmetry = sides"
+    }
+   ]
+  },
+  {
+   "id": "gemh.12.2",
+   "title": "Order of Rotational Symmetry",
+   "section": "12.3",
+   "definition": "The order of rotational symmetry is the total number of distinct positions during a full 360-degree spin in which a shape appears identical to its original position.",
+   "formula": "order = 360 / angle_of_rotation",
+   "key_idea": "Dividing 360 degrees by the minimum rotation angle yields the order of rotational symmetry.",
+   "textbook_ref": "gemh112.txt lines 120-150",
+   "question_patterns": [
+    "find the order of rotational symmetry if the angle of rotation is given",
+    "calculate the order of rotational symmetry for an angle of rotation of x degrees",
+    "what is the order of rotational symmetry for a shape rotating by a given angle",
+    "determine the rotational symmetry order from the angle of rotation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide 360 degrees by the smallest angle of rotation",
+     "explain": "Order is determined by dividing a complete turn of 360 degrees by the fundamental angle of rotation.",
+     "compute": "order = 360 / angle_of_rotation"
+    }
+   ]
+  },
+  {
+   "id": "gemh.12.3",
+   "title": "Angle of Rotation",
+   "section": "12.3",
+   "definition": "The angle of rotation is the smallest degree measure through which an object must be rotated about its center to match its starting appearance.",
+   "formula": "angle_of_rotation = 360 / order",
+   "key_idea": "Dividing a full turn of 360 degrees by the order of rotational symmetry gives the fundamental angle of rotation.",
+   "textbook_ref": "gemh112.txt lines 110-140",
+   "question_patterns": [
+    "find the angle of rotation for a shape with order of rotational symmetry n",
+    "calculate the minimum angle of rotation given the order",
+    "what is the angle of rotation for a regular polygon of order n",
+    "determine the angle of rotation when rotational symmetry order is known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide 360 degrees by the rotational symmetry order",
+     "explain": "The minimum rotation angle is calculated by dividing 360 degrees by the given order.",
+     "compute": "angle_of_rotation = 360 / order"
+    }
+   ]
+  },
+  {
+   "id": "gemh.12.4",
+   "title": "Successive Angles of Rotational Symmetry",
+   "section": "12.4",
+   "definition": "A figure exhibiting rotational symmetry repeats its original appearance at integer multiples of its minimal rotation angle up to a complete 360-degree rotation.",
+   "formula": "angle_k = k * base_angle",
+   "key_idea": "Multiplying the fundamental angle of rotation by step integers gives all intermediate positions of symmetry.",
+   "textbook_ref": "gemh112.txt lines 190-210",
+   "question_patterns": [
+    "a figure looks identical after rotating by x degrees at what other angles does this happen",
+    "find all angles of rotation for a shape with base angle x",
+    "calculate the next angle at which the figure looks the same",
+    "list the angles of rotational symmetry up to 360 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the base angle by the step multiplier",
+     "explain": "Subsequent symmetrical angles are integer multiples of the fundamental angle of rotation.",
+     "compute": "angle_k = k * base_angle"
+    }
+   ]
+  },
+  {
+   "id": "gemh.12.5",
+   "title": "Line and Rotational Symmetry in Geometric Figures",
+   "section": "12.4",
+   "definition": "Geometric figures can possess line symmetry, rotational symmetry, both, or neither, depending on their sides, angles, and overall structural uniformity.",
+   "formula": "none",
+   "key_idea": "Shapes like circles and regular polygons exhibit both reflectional and rotational symmetry, while asymmetric shapes possess neither.",
+   "textbook_ref": "gemh112.txt lines 160-190",
+   "question_patterns": [
+    "identify figures that have both line symmetry and rotational symmetry",
+    "name quadrilaterals with both line and rotational symmetry of order greater than 1",
+    "give examples of shapes with no line symmetry",
+    "check if a figure has both reflectional and rotational symmetry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine line symmetry",
+     "explain": "Check whether the shape can be folded along a straight line into two overlapping halves."
+    },
+    {
+     "step": 2,
+     "action": "Examine rotational symmetry",
+     "explain": "Check whether rotating the figure around a central point by an angle less than 360 degrees recreates its initial appearance."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh112.txt lines 195-200",
+   "concept": "gemh.12.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the order of rotational symmetry for a figure whose smallest angle of rotation is {angle_of_rotation} degrees.",
+   "extracted_variables": {
+    "angle_of_rotation": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide 360 degrees by the given angle of rotation",
+     "explain": "Order equals 360 divided by the angle of rotation.",
+     "compute": "order = 360 / angle_of_rotation"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh112.txt lines 195-205",
+   "concept": "gemh.12.3",
+   "question_type": "compute",
+   "question_pattern": "Find the angle of rotation for a regular shape that has a rotational symmetry order of {order}.",
+   "extracted_variables": {
+    "order": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide 360 degrees by the order",
+     "explain": "Angle of rotation is 360 divided by order.",
+     "compute": "angle_of_rotation = 360 / order"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gemh112.txt lines 40-60",
+   "concept": "gemh.12.1",
+   "question_type": "compute",
+   "question_pattern": "Determine the number of lines of symmetry for a regular octagon having {sides} sides.",
+   "extracted_variables": {
+    "sides": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Equate lines of symmetry to number of sides",
+     "explain": "For a regular polygon, lines of symmetry equal the side count.",
+     "compute": "lines_of_symmetry = sides"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "gemh112.txt lines 75-105",
+   "questions": [
+    "State the number of lines of symmetry for an equilateral triangle, an isosceles triangle, a scalene triangle, a square, a rectangle, a rhombus, a parallelogram, a quadrilateral, a regular hexagon, and a circle.",
+    "What letters of the English alphabet have reflectional symmetry about a vertical mirror, a horizontal mirror, and both horizontal and vertical mirrors?",
+    "Give three examples of shapes with no line of symmetry.",
+    "What other name can you give to the line of symmetry of an isosceles triangle and a circle?"
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "gemh112.txt lines 150-160",
+   "questions": [
+    "Which of the given figures have rotational symmetry of order more than 1?",
+    "Give the order of rotational symmetry for each given figure."
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "gemh112.txt lines 170-205",
+   "questions": [
+    "Name any two figures that have both line symmetry and rotational symmetry.",
+    "Name the quadrilaterals which have both line and rotational symmetry of order more than 1.",
+    "After rotating by 60° about a centre, a figure looks exactly the same as its original position. At what other angles will this happen for the figure?",
+    "Can we have a rotational symmetry of order more than 1 whose angle of rotation is 45° or 17°?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

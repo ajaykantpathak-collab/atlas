@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_002",
+   "title": "c12_cs_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the exact syntax to define a function named `calculate_gst` that takes no parameters and has a docstring \"Calculate GST at 18%\"?",
+     "a": "Correct answer:\n```python\ndef calculate_gst():\n    \"\"\"Calculate GST at 18%\"\"\"\n    # function body here\n```\nA wrong answer like `function calculate_gst():` or `def calculate_gst` (missing parentheses and colon) reveals the student confuses Python syntax with other languages (e.g., JavaScript's `function` keyword) or doesn't understand that `def` is a statement requiring `()` and `:`. Missing the docstring shows they don't know docstrings are string literals placed immediately after the `def` line, not comments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when Python executes the line `def greet():` versus when it executes the line `greet()` later in the code.",
+     "a": "Correct explanation: `def greet():` is an executable statement that runs at definition time — it creates a function object and binds the name `greet` to it in the current namespace. The indented body is NOT executed at this point; it's stored for later. When `greet()` is executed later, Python jumps to the function body, runs each statement sequentially, then returns control to the caller. A wrong answer like \"both run the code inside\" or \"def just declares it, the call runs it\" (vague) reveals the student doesn't grasp that `def` is a runtime binding operation, not a mere declaration, and that the body is completely skipped until the call.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python program that defines a function `print_invoice_header()` which prints \"=== INVOICE ===\" and \"Date: 2024-01-15\" on separate lines, then calls it twice. Show the exact output.",
+     "a": "Correct program and output:\n```python\ndef print_invoice_header():\n    print(\"=== INVOICE ===\")\n    print(\"Date: 2024-01-15\")\n\nprint_invoice_header()\nprint_invoice_header()\n```\nOutput:\n```\n=== INVOICE ===\nDate: 2024-01-15\n=== INVOICE ===\nDate: 2024-01-15\n```\nA wrong answer where the student writes the print statements outside the function, or calls the function only once, or forgets the parentheses in the call (`print_invoice_header` without `()`), reveals they don't understand that the function body must be indented under `def`, and that calling requires `()` — without them, Python just references the function object without executing it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two code snippets. What is the difference in behavior, and why?\n```python",
+     "a": "Correct analysis: Snippet A prints \"Hello\" because `show_message()` is called after definition. Snippet B prints nothing because the function is defined but never called. The `def` statement only creates the function object; the body executes only on explicit call. A wrong answer like \"both print Hello\" or \"Snippet B gives an error\" reveals the fundamental misconception that defining a function automatically runs it, or that Python implicitly calls functions. This is the #1 beginner error — writing the function and wondering why output doesn't appear.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to calculate the area of a rectangle:\n```python\ndef area():\n    length = 10\n    width = 5\n    print(length * width)\n\narea\n```\nThey run it and see no output. Evaluate the code: identify the exact error, explain why it produces no error message but also no output, and provide the corrected code.",
+     "a": "Correct evaluation: The error is `area` (missing parentheses) on the last line. This is a valid expression that evaluates to the function object itself but does not call it. Python executes `def area():` (binding the name), then evaluates `area` (which does nothing visible), and exits. No syntax error, no runtime error — just silent failure. Corrected code: `area()` with parentheses. A wrong answer like \"indentation error\" or \"missing return\" shows the student doesn't distinguish between a function reference and a function call, and doesn't realize that missing `()` is syntactically legal but semantically wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (different from invoices or GST) where defining and calling a function with `def` is useful. Write the complete function definition and two calls with different contexts. Explain why a function is better than copy-pasting the code.",
+     "a": "Example scenario: A school library system needs to print book checkout receipts.\n```python\ndef print_checkout_receipt(book_title, student_name):\n    print(\"--- LIBRARY CHECKOUT ---\")\n    print(f\"Book: {book_title}\")\n    print(f\"Student: {student_name}\")\n    print(\"Due in 14 days\")\n    print(\"-----------------------\")\n\nprint_checkout_receipt(\"Python Programming\", \"Aarav\")\nprint_checkout_receipt(\"Data Structures\", \"Meera\")\n```\nOutput shows two formatted receipts. Functions are better than copy-paste because: (1) single point of change — if format changes, fix one place; (2) avoids duplication errors; (3) readable and reusable. A poor answer copies the same lines twice without a function, or uses a function but doesn't explain the maintenance advantage, revealing they see functions as syntax practice rather than a design tool for reducing redundancy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

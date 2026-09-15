@@ -1,0 +1,267 @@
+{
+ "catalog": "catalog_class8_social_science_ch404",
+ "concepts": [
+  {
+   "id": "hess.404.1",
+   "title": "Secondary Activities and Concept of Industry",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secondary Activities and Concept of Industry' refers to.",
+     "a": "Economic operations that convert raw resources into finished items with higher utility and market value, covering production, mining, and service provision.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secondary Activities and Concept of Industry'.",
+     "a": "Manufacturing adds value to basic resources, creating goods and services of greater utility.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Secondary Activities and Concept of Industry' taught, and from which source text?",
+     "a": "Industries (source: hess404.txt lines 10-30)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.2",
+   "title": "Classification of Industries by Raw Material",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Industries by Raw Material' refers to.",
+     "a": "Grouping of manufacturing units based on whether their essential inputs derive from agriculture, minerals, marine life, or forest resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Industries by Raw Material'.",
+     "a": "Industries are categorized as agro-based, mineral-based, marine-based, or forest-based depending on input origins.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Industries by Raw Material' taught, and from which source text?",
+     "a": "Classification of Industries (source: hess404.txt lines 31-50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.3",
+   "title": "Classification of Industries by Size",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Industries by Size' refers to.",
+     "a": "Categorization of industrial units according to capital invested, labor force size, and quantum of production into small-scale and large-scale enterprises.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Industries by Size'.",
+     "a": "Industrial size reflects financial investment, employment scale, and production volume.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Industries by Size' taught, and from which source text?",
+     "a": "Classification of Industries (source: hess404.txt lines 51-68)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.4",
+   "title": "Classification of Industries by Ownership",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Industries by Ownership' refers to.",
+     "a": "Division of enterprises based on entity control and equity into private, public, joint, and cooperative sector categories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Industries by Ownership'.",
+     "a": "Ownership reflects who invests in, manages, and operates the enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Industries by Ownership' taught, and from which source text?",
+     "a": "Classification of Industries (source: hess404.txt lines 69-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.5",
+   "title": "Factors Affecting Location of Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Affecting Location of Industries' refers to.",
+     "a": "Geographical and socio-economic variables including raw materials, land, water, labor, power, capital, transport, and market that determine factory siting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Affecting Location of Industries'.",
+     "a": "Industries locate where essential production inputs and logistical facilities are optimal and affordable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Affecting Location of Industries' taught, and from which source text?",
+     "a": "Factors Affecting Location of Industries (source: hess404.txt lines 86-98)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.6",
+   "title": "Industrial System Framework",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrial System Framework' refers to.",
+     "a": "Operational structure of manufacturing comprising inputs, transformation processes, and finished output products with economic value.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial System Framework'.",
+     "a": "Raw materials and labor (inputs) are converted through manufacturing operations (processes) into final goods (outputs).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Industrial System Framework', in plain ASCII form.",
+     "a": "outputs = processes(inputs)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.7",
+   "title": "Global and Indian Industrial Regions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Global and Indian Industrial Regions' refers to.",
+     "a": "Geographical clusters where multiple manufacturing units locate closely to share infrastructural and economic benefits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global and Indian Industrial Regions'.",
+     "a": "Agglomeration benefits encourage dense grouping of factories near ports, coalfields, and urban corridors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Global and Indian Industrial Regions' taught, and from which source text?",
+     "a": "Industrial Regions (source: hess404.txt lines 116-130)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.8",
+   "title": "Industrial Disasters and Risk Reduction Measures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrial Disasters and Risk Reduction Measures' refers to.",
+     "a": "Catastrophic workplace accidents stemming from technical malfunctions or hazardous chemical releases, requiring strict spatial zoning and safety protocols.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Disasters and Risk Reduction Measures'.",
+     "a": "Hazard mitigation demands separating residential areas, limiting chemical storage, and installing early warning systems.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Disasters and Risk Reduction Measures' taught, and from which source text?",
+     "a": "Industrial Disaster (source: hess404.txt lines 131-160)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.9",
+   "title": "Major World Industries and Sunrise Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Major World Industries and Sunrise Industries' refers to.",
+     "a": "Global distribution of established heavy sectors like steel and textiles alongside rapidly expanding contemporary domains known as sunrise industries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Major World Industries and Sunrise Industries'.",
+     "a": "Traditional sectors anchor heavy manufacturing while sunrise sectors like IT and biotechnology drive modern expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Major World Industries and Sunrise Industries' taught, and from which source text?",
+     "a": "Distribution of Major Industries (source: hess404.txt lines 161-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.10",
+   "title": "Steel Production Raw Material Input Ratios",
+   "questions": [
+    {
+     "q": "Calculate total coal needed to produce steel_tonnes of steel. Use the method 'Steel Production Raw Material Input Ratios'. Work with: steel_tonnes = 15. Carry the chain through step by step and give the final value of total_inputs.",
+     "a": "195 units",
+     "self_check": false
+    },
+    {
+     "q": "How much raw material input is required for steel_tonnes tonnes of finished steel? Use the method 'Steel Production Raw Material Input Ratios'. Work with: steel_tonnes = 100. Carry the chain through step by step and give the final value of total_inputs.",
+     "a": "1300 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Steel Production Raw Material Input Ratios' refers to.",
+     "a": "Quantitative proportional requirement of coal, iron ore, and limestone inputs required to manufacture crude steel in a blast furnace.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steel Production Raw Material Input Ratios'.",
+     "a": "Producing one unit mass of steel requires eight units of coal, four units of iron ore, and one unit of limestone.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Steel Production Raw Material Input Ratios', in plain ASCII form.",
+     "a": "coal = 8 x steel, iron_ore = 4 x steel, limestone = 1 x steel",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.11",
+   "title": "Case Study - Jamshedpur Iron and Steel Center",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Case Study - Jamshedpur Iron and Steel Center' refers to.",
+     "a": "Historical development of India's premier integrated steel hub (TISCO) at Sakchi due to optimal natural resource proximity and transport access.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Case Study - Jamshedpur Iron and Steel Center'.",
+     "a": "Jamshedpur offers ideal industrial location near coalfields, ore deposits, river water, and railway connections.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Case Study - Jamshedpur Iron and Steel Center' taught, and from which source text?",
+     "a": "Jamshedpur (source: hess404.txt lines 210-245)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.404.12",
+   "title": "Case Study - Pittsburgh Steel Region",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Case Study - Pittsburgh Steel Region' refers to.",
+     "a": "Major industrial steel center in the United States leveraging local coal, Minnesota iron ore transported via Great Lakes, and river network water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Case Study - Pittsburgh Steel Region'.",
+     "a": "Pittsburgh's success stems from cheap inland waterway transportation and proximity to raw material zones.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Case Study - Pittsburgh Steel Region' taught, and from which source text?",
+     "a": "Pittsburgh (source: hess404.txt lines 246-270)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

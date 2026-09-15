@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_004",
+   "title": "c11_geo_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define weathering in one sentence and state the single criterion that distinguishes it from erosion.",
+     "a": "Correct answer: Weathering is the in-situ mechanical disintegration and chemical decomposition of rocks at or near the Earth's surface without significant movement of the weathered material; the distinguishing criterion is the absence of transport — erosion involves removal and transportation of weathered debris by agents like water, wind, or ice. A wrong answer that includes \"transport\" or \"movement\" reveals the student conflates weathering with erosion, a fundamental category error that will cascade into misunderstanding regolith formation, soil profiles, and the sediment budget of drainage basins.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Weathering and erosion are the same thing — both break down rocks.\" Explain why this is incorrect using the concept of the sediment cascade, and identify which process is the rate-limiting step in landscape lowering.",
+     "a": "Correct explanation: Weathering prepares sediment by breaking rock in place (production), while erosion removes and transports that sediment (transfer). In the sediment cascade, weathering is the rate-limiting step because erosion cannot operate faster than weathering supplies material — a landscape lowers only as fast as bedrock converts to transportable regolith. A wrong answer that treats them as interchangeable reveals the student misses the supply-limited nature of geomorphic systems and cannot explain why bare rock outcrops persist in arid regions despite high erosive potential of wind.",
+     "self_check": true
+    },
+    {
+     "q": "Given two locations — (A) Bangalore (granite bedrock, tropical savanna climate, 900 mm rainfall) and (B) Leh (granite bedrock, cold desert climate, 100 mm rainfall) — predict which will have deeper regolith and explain the climatic controls using the weathering intensity concept.",
+     "a": "Correct answer with steps:\nStep 1: Identify rock type is same (granite) — controls are climate and vegetation.\nStep 2: Recall chemical weathering rates double per 10°C rise (Arrhenius-type relationship) and require moisture.\nStep 3: Bangalore has higher mean annual temperature (~24°C vs ~5°C) and 9× rainfall → vastly higher chemical weathering intensity.\nStep 4: Biological activity (roots, microbes) is year-round in Bangalore vs minimal in Leh.\nStep 5: Physical weathering (thermal stress) occurs in both but is more effective with moisture-assisted processes in Bangalore.\nStep 6: Conclusion: Bangalore develops deep lateritic regolith (10-30 m); Leh has thin, discontinuous regolith with abundant fresh outcrops.\nA wrong answer predicting deeper regolith in Leh reveals the student overemphasizes physical weathering (frost action) and ignores the dominant role of chemical weathering in regolith production at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse why the Deccan Traps develop spherical boulder topography (tors) while the same basalt in the Western Ghats forms deep laterite profiles. Integrate climate, jointing, and weathering front propagation in your answer.",
+     "a": "Correct analysis: In the Deccan rain shadow (semi-arid, 600-800 mm), low moisture limits chemical weathering penetration along joints; physical weathering (thermal cycling, salt crystallization) dominates, widening joints isotropically and isolating core-stones as tors. In the Western Ghats (2000-4000 mm, humid tropical), abundant water and CO₂ drive deep chemical weathering (hydrolysis, oxidation) along the same joint network, converting basalt to laterite; the weathering front propagates tens of metres downward. The joint pattern is identical — climate controls which weathering process dominates and how deep the weathering front advances. A wrong answer attributing the difference solely to rock type or ignoring jointing reveals the student cannot synthesize structure-process-climate interactions, a core competency for geomorphological analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Weathering is a destructive process that only degrades landforms.\" Provide a counter-argument using the concept of constructive landforms and soil as a resource.",
+     "a": "Correct evaluation: The statement is incomplete — weathering is destructive to bedrock but constructive for soils and specific landforms. Weathering produces: (1) Soil — the medium for biomass and agriculture (constructive for biosphere); (2) In-situ landforms like tors, inselbergs, etched plains, and karst towers that exist ONLY because weathering selectively removes weaker material; (3) Concentrated ore deposits (bauxite, lateritic nickel) via supergene enrichment. Without weathering, there would be no soil mantle, no nutrient cycling, and no distinctive weathering landforms. A wrong answer agreeing with the statement reveals a purely geomorphic (not Earth-system) perspective and misses the biogeochemical significance tested in competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to determine whether physical or chemical weathering dominates on a given sandstone outcrop near your school. Specify three measurable indicators, the tools needed, and how you would interpret conflicting results.",
+     "a": "Good answer criteria:\n- Indicator 1: Surface texture analysis (hand lens) — granular disintegration (physical) vs. pitting/etching (chemical).\n- Indicator 2: Schmidt hammer rebound values — lower values indicate chemical alteration weakening cement.\n- Indicator 3: Soluble salt content of surface washings (conductivity meter) — high salts suggest chemical dissolution.\n- Tools: Hand lens (10×), Schmidt hammer, portable conductivity meter, GPS for aspect/moisture logging.\n- Interpretation: If Indicators 1 and 2 conflict (e.g., granular surface but low rebound), chemical weakening precedes physical detachment — chemical dominates the rate-limiting step. Aspect and moisture data resolve ambiguity.\nA poor answer listing only visual observation or ignoring quantitative tools reveals the student cannot design a rigorous geographical investigation, a skill required for practical exams and project work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

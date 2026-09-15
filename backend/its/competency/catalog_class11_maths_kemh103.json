@@ -1,0 +1,121 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Trigonometric Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh103.txt",
+ "concepts": [
+  {
+   "id": "kemh.103.1.1",
+   "title": "Angles, Radian Measure and Degree Conversion",
+   "section": "",
+   "definition": "An angle is formed by rotating a ray from an initial position, measured in degrees where one full rotation is 360 degrees or in radians where one full rotation is two pi, and the relation pi radians equals 180 degrees converts between the measures.",
+   "formula": "",
+   "key_idea": "radians = degrees * pi / 180",
+   "textbook_ref": "Radian measure makes arc length equal to radius times the angle, which simplifies formulas of trigonometry and calculus.",
+   "question_patterns": "kemh103.txt angles and radian measure sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.103.2.1",
+   "title": "Trigonometric Functions, Identities and Their Signs",
+   "section": "",
+   "definition": "Trigonometric functions of sine, cosine, tangent, cosecant, secant and cotangent are defined on the unit circle, with signs decided by the quadrant through the ASTC rule, fundamental identities like sin squared plus cos squared equal to one, and periodicity of two pi for sine cosine and secant cosecant and pi for tangent cotangent.",
+   "formula": "",
+   "key_idea": "Identities such as sin squared x plus cos squared x equals one, and complementary angle relations like sin of ninety minus x equal cos x, run through all trigonometric work.",
+   "textbook_ref": "kemh103.txt trigonometric functions sections",
+   "question_patterns": [
+    "define the trigonometric functions on the unit circle",
+    "state the signs of trigonometric functions in the four quadrants",
+    "prove the identity sin squared x plus cos squared x equals one",
+    "define periodicity of trigonometric functions",
+    "write the values of trigonometric functions at standard angles",
+    "state complementary angle identities of trigonometry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.103.3.1",
+   "title": "Compound Angles, Sum-Difference Formulas and General Solutions",
+   "section": "",
+   "definition": "Trigonometry develops sum and difference formulas like sin of A plus B, double angle formulas, and solutions of trigonometric equations given as general solutions such as x equals n pi plus alpha for equations of the sine type, with the principal solution in the first circle.",
+   "formula": "",
+   "key_idea": "The sum and difference formulas convert compound angles into products, and general solutions list every angle satisfying a trigonometric equation.",
+   "textbook_ref": "kemh103.txt sum difference and equations sections",
+   "question_patterns": [
+    "state the formula for sin of a plus b and cos of a plus b",
+    "derive the double angle formulas from sum formulas",
+    "solve a trigonometric equation and write its general solution",
+    "define principal solution of a trigonometric equation",
+    "find the value of sin fifteen degrees using formulas",
+    "explain the general solution of sin x equals zero"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kemh103.txt exercises",
+   "questions": [
+    "Convert the given degree measures into radian measures.",
+    "Convert the given radian measures into degree measures.",
+    "Find the values of trigonometric functions at the given angles.",
+    "Prove the standard trigonometric identities.",
+    "Find the general solutions of the given trigonometric equations."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_004",
+   "title": "c12_psy_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the fundamental statistical technique Charles Spearman used to propose his two-factor theory of intelligence, and what does the 'g-factor' represent in this theory?",
+     "a": "Spearman used **factor analysis** on correlation matrices of test scores. The g-factor represents a **general mental energy/ability** that influences performance on *all* cognitive tasks, while s-factors are task-specific abilities. A wrong answer (e.g., \"Spearman used regression analysis\" or \"g-factor is just vocabulary skill\") reveals confusion between factor analysis and other statistical methods, or misunderstanding g as a specific ability rather than a general one.",
+     "self_check": true
+    },
+    {
+     "q": "A student scores high on Verbal Comprehension and Word Fluency but low on Spatial Relations and Numerical Ability. How would Thurstone's theory interpret this profile differently from Spearman's theory?",
+     "a": "Thurstone would say the student has **high primary abilities in verbal domains and low primary abilities in spatial/numerical domains** — these are relatively independent. Spearman would say the student has a **moderate g-factor** (since overall performance is mixed) but **high verbal s-factors and low spatial/numerical s-factors**. A wrong answer that claims \"Thurstone would say the student has low g\" confuses Thurstone's rejection of g with Spearman's framework. A wrong answer that says \"Both theories predict the same profile\" misses the independence vs. generality distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Given a correlation matrix of 5 cognitive tests where all inter-correlations are positive and moderate (r ≈ 0.4–0.6), a researcher extracts one general factor explaining 45% of total variance. Which theory does this evidence support more strongly, and why?",
+     "a": "This supports **Spearman's theory** because a single general factor accounting for substantial shared variance across diverse tests is the hallmark of g. Thurstone's theory expects multiple independent primary abilities, which would yield a more complex factor structure with several factors each explaining unique variance clusters. A wrong answer choosing Thurstone reveals failure to link positive manifold (all tests correlate positively) to g-factor. A wrong answer saying \"both equally\" ignores that Thurstone specifically argued against a dominant general factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the predictive utility of Spearman's g-factor vs. Thurstone's primary mental abilities for (a) overall academic success and (b) specific career placement (e.g., pilot vs. editor). Justify with theoretical reasoning.",
+     "a": "(a) **Spearman's g** better predicts overall academic success because g captures the common variance across all academic subjects (positive manifold). (b) **Thurstone's primary abilities** better predict specific career placement: pilots need high Spatial Relations and Perceptual Speed; editors need high Verbal Comprehension and Word Fluency. Since these primary abilities are relatively independent, a profile of strengths/weaknesses gives finer-grained prediction. A wrong answer reversing these shows confusion about generality vs. specificity. A wrong answer saying \"g predicts everything equally well\" ignores Thurstone's contribution to differential aptitude testing.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Thurstone proved Spearman wrong because he found seven independent factors instead of one general factor.\" Use the concept of factor rotation and hierarchical models in your evaluation.",
+     "a": "The statement is **oversimplified and historically inaccurate**. Thurstone used **oblique rotation** which forces factors to be uncorrelated, *by design* minimizing g. Later hierarchical models (e.g., Carroll) showed that when Thurstone's primary abilities are factor-analyzed at a higher level, a general factor (g) emerges. Thus, the two theories operate at different levels of analysis: Thurstone identified broad group factors; Spearman identified a higher-order general factor. They are complementary, not mutually exclusive. A wrong answer accepting the statement uncritically shows lack of knowledge about factor rotation methods and hierarchical factor structures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini research study to test whether a new cognitive training program improves g-factor (Spearman) or specific primary mental abilities (Thurstone). Specify: (1) test battery, (2) factor analytic strategy, (3) criteria for deciding which theory the results support.",
+     "a": "(1) **Test battery**: 12 tests — 2 each for Verbal Comprehension, Numerical Ability, Spatial Relations, Perceptual Speed, Word Fluency, Memory, Inductive Reasoning (covering all 7 Thurstone abilities). (2) **Factor analytic strategy**: Pre- and post-training, run exploratory factor analysis (EFA) with oblique rotation to extract primary abilities, then higher-order factor analysis on primary ability correlations to extract g. (3) **Decision criteria**: If training gains load predominantly on *one* higher-order factor (g increases across all tests), Spearman is supported. If gains are *selective* to trained primary abilities (e.g., only Spatial Relations improves), Thurstone is supported. A poor answer uses only one test per ability or ignores higher-order analysis, failing to test both theories simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

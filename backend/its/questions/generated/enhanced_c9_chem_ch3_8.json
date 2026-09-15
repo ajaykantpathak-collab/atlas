@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_8",
+   "title": "c9_chem_ch3_8",
+   "questions": [
+    {
+     "q": "Name two ionic compounds and two covalent compounds you encounter daily, and state their chemical formulas.",
+     "a": "Correct answer: Ionic – Sodium chloride (NaCl), Calcium carbonate (CaCO₃); Covalent – Water (H₂O), Carbon dioxide (CO₂). A wrong answer (e.g., listing HCl as covalent without noting it ionizes in water, or listing CO₂ as ionic) reveals the student cannot distinguish bonding type from formula or confuses acid behavior with bonding classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why solid NaCl does not conduct electricity but molten NaCl does, using the terms \"ions\", \"lattice\", and \"mobile charge carriers\".",
+     "a": "Correct answer: In solid NaCl, Na⁺ and Cl⁻ ions are fixed in a rigid crystal lattice and cannot move; hence no mobile charge carriers exist. On melting, the lattice breaks down, ions become free to move, and these mobile ions carry current. A wrong answer (e.g., \"electrons move in molten state\") reveals the student thinks conduction is electronic like in metals, not ionic, and does not understand the role of the lattice.",
+     "self_check": true
+    },
+    {
+     "q": "A white crystalline solid X has a high melting point (801°C), dissolves in water to give a conducting solution, but does not conduct in solid state. Predict whether X is ionic or covalent. Write the likely formula if X is formed from a Group 1 metal and a Group 17 non-metal.",
+     "a": "Correct answer: Ionic. Likely formula MX (e.g., NaCl, KCl). Steps: (1) High melting point suggests strong forces – ionic lattice. (2) Conducts in solution but not solid – mobile ions only when lattice broken. (3) Group 1 metal forms +1 cation, Group 17 non-metal forms -1 anion → 1:1 ratio MX. A wrong answer (e.g., \"covalent because it dissolves\") reveals the student associates solubility only with covalent compounds and misses the conductivity clue.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solubility of NaCl (ionic) and CCl₄ (covalent) in water and in benzene (organic solvent). Explain the pattern using the \"like dissolves like\" principle and the nature of solute-solvent interactions.",
+     "a": "Correct answer: NaCl dissolves in water (polar) because water molecules hydrate Na⁺ and Cl⁻ ions, overcoming lattice energy; it does not dissolve in benzene (non-polar) because benzene cannot stabilize ions. CCl₄ dissolves in benzene (both non-polar) via London dispersion forces; it does not dissolve in water because water's hydrogen bonding network is too strong to accommodate non-polar molecules. A wrong answer (e.g., \"both dissolve in water\") reveals the student thinks all compounds dissolve in water and does not link polarity to solubility.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All ionic compounds are soluble in water and all covalent compounds are insoluble.\" Evaluate this statement with two counter-examples, one for each part.",
+     "a": "Correct answer: The statement is false. Counter-example for ionic: BaSO₄ (barium sulfate) is ionic but insoluble in water. Counter-example for covalent: C₂H₅OH (ethanol) is covalent but miscible with water. A wrong answer (e.g., giving no counter-example or giving HCl as covalent insoluble) reveals the student has overgeneralized from limited examples (NaCl, sugar) and does not know exceptions like insoluble ionic salts or polar covalent molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory activity (using only school-lab equipment: test tubes, Bunsen burner, conductivity tester, spatula, water, ethanol) to distinguish between an unknown ionic solid and an unknown covalent solid. List the steps, observations, and conclusions.",
+     "a": "Expected answer: (1) Test solubility in water and ethanol – ionic dissolves in water, not ethanol; covalent may dissolve in ethanol, not water. (2) Heat small amount – ionic does not melt (high MP), covalent melts/burns easily. (3) Test conductivity of aqueous solution – ionic conducts, covalent does not. Conclusion: combine results to classify. A poor answer (e.g., only one test, or confusing melting with burning) reveals the student cannot design a multi-property investigation and relies on a single property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_015",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_015",
+   "title": "c11_chem_cbse_07_015",
+   "questions": [
+    {
+     "q": "A student dissolves 0.1 M solutions of four salts: NaCl, NH₄Cl, CH₃COONa, and NH₄CN. Without calculation, predict the pH order (from lowest to highest) and justify each prediction based solely on the nature of the parent acid and base.",
+     "a": "Correct order: NH₄Cl (pH < 7) < NaCl (pH = 7) < NH₄CN (pH ≈ 7 but slightly > or < depending on Ka/Kb) < CH₃COONa (pH > 7). NH₄Cl: strong acid (HCl) + weak base (NH₃) → cationic hydrolysis, acidic. NaCl: strong acid + strong base → no hydrolysis, neutral. CH₃COONa: weak acid (CH₃COOH) + strong base (NaOH) → anionic hydrolysis, basic. NH₄CN: weak acid (HCN) + weak base (NH₃) → both hydrolyse; pH depends on relative Ka (HCN = 4.9×10⁻¹⁰) and Kb (NH₃ = 1.8×10⁻⁵); since Kb > Ka, solution is slightly basic. A wrong answer (e.g., placing NH₄CN as most basic) reveals confusion between salt hydrolysis categories and inability to compare Ka vs Kb for weak-weak salts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the hydrolysis constant Kh for CH₃COONa is Kw/Ka(CH₃COOH) and not Kw/Kb(CH₃COO⁻). Write the hydrolysis equilibrium and derive Kh from Ka and Kw.",
+     "a": "CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. Kh = [CH₃COOH][OH⁻]/[CH₃COO⁻]. Multiply numerator and denominator by [H⁺]: Kh = ([CH₃COOH][H⁺][OH⁻])/([CH₃COO⁻][H⁺]) = Kw/Ka. Ka = [CH₃COO⁻][H⁺]/[CH₃COOH] is the acid dissociation constant of the parent acid CH₃COOH. Kb of CH₃COO⁻ is not a standard tabulated value; we always use Ka of the conjugate acid. A wrong answer using \"Kb of acetate\" reveals the misconception that anions have independent Kb values rather than being conjugate bases characterised by Ka of their conjugate acids.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pH of 0.05 M NH₄Cl solution at 298 K. Given: Kb(NH₃) = 1.8 × 10⁻⁵, Kw = 1.0 × 10⁻¹⁴. Show all steps including the approximation check.",
+     "a": "Step 1: NH₄Cl → NH₄⁺ + Cl⁻. NH₄⁺ hydrolyses: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺. Step 2: Kh = Kw/Kb = 10⁻¹⁴/1.8×10⁻⁵ = 5.56×10⁻¹⁰. Step 3: Kh = [NH₃][H₃O⁺]/[NH₄⁺] ≈ x²/(0.05 - x) ≈ x²/0.05 (since Kh is small). Step 4: x = √(Kh × 0.05) = √(5.56×10⁻¹⁰ × 0.05) = √(2.78×10⁻¹¹) = 5.27×10⁻⁶ M = [H₃O⁺]. Step 5: pH = -log(5.27×10⁻⁶) = 5.28. Step 6: Check approximation: x/0.05 = 1.05×10⁻⁴ << 5%, valid. A wrong answer (e.g., pH = 7 or using Ka directly) reveals failure to identify cationic hydrolysis and incorrect Kh formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pH of 0.1 M NaCN and 0.1 M CH₃COONa. Both are salts of weak acid-strong base. Given: Ka(HCN) = 4.9×10⁻¹⁰, Ka(CH₃COOH) = 1.8×10⁻⁵. Which solution is more basic and why? Calculate the exact pH difference.",
+     "a": "For weak acid-strong base salts: pH = 7 + ½pKa + ½log C. Lower Ka → higher pKa → more basic. HCN has smaller Ka (4.9×10⁻¹⁰) than CH₃COOH (1.8×10⁻⁵), so NaCN is more basic. pH(NaCN) = 7 + ½(9.31) + ½(-1) = 7 + 4.655 - 0.5 = 11.155. pH(CH₃COONa) = 7 + ½(4.74) + ½(-1) = 7 + 2.37 - 0.5 = 8.87. Difference = 2.285 pH units. A wrong answer claiming equal pH or CH₃COONa more basic reveals misunderstanding that weaker acid (smaller Ka) produces stronger conjugate base and more hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a salt of weak acid and weak base like NH₄CN, the pH is always 7 because both ions hydrolyse equally.\" Evaluate this statement. Derive the exact pH formula for such salts and show why the student is wrong using Ka(HCN) = 4.9×10⁻¹⁰ and Kb(NH₃) = 1.8×10⁻⁵.",
+     "a": "The statement is false. For weak acid (HA) - weak base (B) salt: cation B⁺ hydrolyses: B⁺ + H₂O ⇌ B + H₃O⁺ (Kh1 = Kw/Kb); anion A⁻ hydrolyses: A⁻ + H₂O ⇌ HA + OH⁻ (Kh2 = Kw/Ka). Net [H₃O⁺] ≈ √(Kw × Ka/Kb). pH = 7 + ½pKa - ½pKb. For NH₄CN: pKa(HCN) = 9.31, pKb(NH₃) = 4.74. pH = 7 + 4.655 - 2.37 = 9.285 (basic, not 7). Equal hydrolysis only if Ka = Kb. The student's error: assuming \"both hydrolyse\" means \"equal extent\" without comparing Ka and Kb magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to experimentally determine whether an unknown salt solution is acidic, basic, or neutral due to hydrolysis, using only pH paper, conductivity tester, and 0.1 M standard solutions of HCl and NaOH. Explain how you would distinguish between a salt of strong acid-strong base vs a salt of weak acid-weak base that happens to give pH ≈ 7.",
+     "a": "Step 1: Measure pH of 0.1 M unknown salt with pH paper. If pH ≠ 7, classify directly. If pH ≈ 7, proceed. Step 2: Add few drops of 0.1 M HCl to one portion and 0.1 M NaOH to another. A strong-strong salt (e.g., NaCl) shows no buffering - pH changes drastically. A weak-weak salt (e.g., NH₄CN near pH 7) shows resistance due to conjugate acid/base pairs present (NH₄⁺/NH₃ and HCN/CN⁻). Step 3: Conductivity test - both conduct, but weak-weak salt has slightly lower molar conductivity due to partial hydrolysis reducing free ion concentration. A poor answer that only uses pH paper reveals inability to design confirmation tests and confusion between \"neutral salt\" and \"neutral pH from competing hydrolysis\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

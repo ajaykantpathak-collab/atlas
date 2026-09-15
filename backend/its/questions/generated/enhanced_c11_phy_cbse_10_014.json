@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_014",
+   "title": "c11_phy_cbse_10_014",
+   "questions": [
+    {
+     "q": "State the Stefan-Boltzmann law for a perfect blackbody and give the SI unit and value of the Stefan-Boltzmann constant σ.",
+     "a": "H = AσT⁴ where H is radiated power (W), A is surface area (m²), T is absolute temperature (K), σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴. A wrong answer (e.g., H ∝ T² or σ in J instead of W) reveals confusion between energy and power, or misunderstanding that radiation depends on the fourth power of absolute temperature, not Celsius.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the Celsius temperature of a hot plate from 100 °C to 200 °C, its radiative power increases by 2⁴ = 16 times.\" Identify the error and calculate the actual factor using absolute temperatures.",
+     "a": "The error is using Celsius instead of Kelvin. T₁ = 100 °C = 373 K, T₂ = 200 °C = 473 K. Actual factor = (473/373)⁴ ≈ 2.4, not 16. A wrong answer shows the student has not internalized that Stefan's law requires absolute temperature (Kelvin), a critical Class 11 distinction from earlier qualitative radiation concepts.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical clay pot (emissivity e = 0.9, radius 0.15 m) at 400 °C is kept in a room at 27 °C. Calculate the net radiative heat loss rate. Use σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴.",
+     "a": "Step 1: Convert temperatures to Kelvin: T = 400 + 273 = 673 K, Tₛ = 27 + 273 = 300 K.\nStep 2: Surface area A = 4πr² = 4π(0.15)² = 0.2827 m².\nStep 3: Net power H = eσA(T⁴ − Tₛ⁴) = 0.9 × 5.67×10⁻⁸ × 0.2827 × (673⁴ − 300⁴).\nStep 4: 673⁴ ≈ 2.05×10¹¹, 300⁴ = 8.1×10⁹, difference ≈ 1.97×10¹¹.\nStep 5: H ≈ 0.9 × 5.67×10⁻⁸ × 0.2827 × 1.97×10¹¹ ≈ 285 W.\nA wrong answer (e.g., using Celsius in T⁴, forgetting area of sphere, or omitting Tₛ⁴) reveals computational or conceptual gaps in applying the net radiation formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical metal spheres, one polished (e = 0.1) and one painted black (e = 0.9), are heated to the same temperature and left to cool in a vacuum chamber. Sketch qualitative cooling curves (temperature vs time) for both and explain the difference using Stefan's law.",
+     "a": "The black sphere (higher e) radiates more power at any given temperature, so its cooling curve drops faster initially. Both curves approach room temperature asymptotically, but the black sphere reaches a given lower temperature sooner. A wrong answer (e.g., identical curves because \"same temperature\") shows the student thinks emissivity only affects absorption, not emission, or confuses thermal equilibrium rate with equilibrium temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A 100 W incandescent bulb filament (T ≈ 2800 K, e ≈ 0.3) has surface area 2.5 × 10⁻⁵ m². Verify if the radiated power matches the electrical input using Stefan's law. Comment on the result.",
+     "a": "H = eσAT⁴ = 0.3 × 5.67×10⁻⁸ × 2.5×10⁻⁵ × (2800)⁴.\n(2800)⁴ = (2.8×10³)⁴ = 6.15×10¹³.\nH ≈ 0.3 × 5.67×10⁻⁸ × 2.5×10⁻⁵ × 6.15×10¹³ ≈ 26 W.\nOnly ~26 W is radiated as visible+IR; the rest (74 W) is lost by conduction/convection through the bulb's gas and leads, or the filament temperature/emissivity assumptions are approximate. A student who gets exactly 100 W and says \"matches perfectly\" has ignored other heat loss modes or used incorrect T/e values, showing lack of critical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a Leslie cube (a metal cube with four differently finished vertical faces) and a radiation detector to demonstrate that emissivity equals absorptivity at a given temperature (Kirchhoff's law). Outline the procedure and expected observations.",
+     "a": "Heat the Leslie cube uniformly (e.g., with hot water inside). Measure radiated power from each face with a detector at same distance. Faces with higher emissivity (dull black) show higher reading. Then shine a known radiant source (e.g., IR lamp) on each face and measure reflected radiation; absorptivity = 1 − reflectivity. The face with highest emission also shows highest absorption. A poor answer (e.g., \"measure temperature with thermometer\") misses the need for radiative detection and comparison of emission vs absorption, confusing thermal equilibrium with radiative properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 109,
+ "chapter_title": "MSME and Business Entrepreneurship",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs109.txt",
+ "concepts": [
+  {
+   "id": "kebs.109.9.1",
+   "title": "Overview and Economic Significance of MSMEs",
+   "section": "9.1",
+   "definition": "Small-scale enterprise sector that forms a critical backbone of industrial production, generating employment opportunities and driving regional balance through local resource usage.",
+   "formula": "none",
+   "key_idea": "MSMEs contribute significantly to national production, exports, and employment creation.",
+   "textbook_ref": "kebs109.txt lines 30-70",
+   "question_patterns": [
+    "what is the economic significance of MSMEs in India",
+    "explain the contribution of small enterprises to exports and GDP",
+    "how do MSMEs support inclusive growth in the economy",
+    "describe the role of small industrial units in generating employment",
+    "assess the importance of local raw material usage by small scale units"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify key economic indicators",
+     "explain": "Examine the contribution of MSMEs to national GDP, total export volume, and employment stats."
+    },
+    {
+     "step": 2,
+     "action": "evaluate broader socio-economic impacts",
+     "explain": "Analyze how regional industrialization and utilization of indigenous skills foster balanced growth."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.2.1",
+   "title": "MSME Categorization Criteria",
+   "section": "9.2",
+   "definition": "Statutory classification system classifying business entities as micro, small, or medium based on dual thresholds of equipment investment and yearly revenue.",
+   "formula": "turnover_limit = 5 * investment_limit",
+   "key_idea": "The ceiling for allowable annual revenue is scaled at five times the plant investment threshold.",
+   "textbook_ref": "kebs109.txt lines 75-105",
+   "question_patterns": [
+    "calculate maximum turnover limit for a given investment ceiling",
+    "find allowable turnover limit for small enterprise with known plant investment",
+    "what is the permissible annual turnover for a micro unit",
+    "determine turnover limit for medium enterprise based on investment ceiling",
+    "how much annual turnover is allowed for an enterprise with specified investment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply plant investment limit by 5",
+     "explain": "The maximum permissible turnover is calculated as five times the statutory investment ceiling.",
+     "compute": "5 * investment_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving msme categorization criteria.",
+     "solution": "Step 1: multiply plant investment limit by 5. Working: 5 * investment_limit.",
+     "answer": "MSME Categorization Criteria applied step by step gives the required result."
+    },
+    {
+     "question": "Apply msme categorization criteria to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply plant investment limit by 5. Working: 5 * investment_limit.",
+     "answer": "The method of msme categorization criteria leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.2.2",
+   "title": "Village and Cottage Industries",
+   "section": "9.2",
+   "definition": "Traditional rural manufacturing entities that operate primarily through manual labor, indigenous craftsmanship, and family effort without reliance on capital-intensive machinery.",
+   "formula": "none",
+   "key_idea": "Traditional rural units focus on self-employment and preserving local heritage using minimal capital.",
+   "textbook_ref": "kebs109.txt lines 110-125",
+   "question_patterns": [
+    "what is meant by village industries",
+    "explain the defining characteristics of cottage industries",
+    "how do rural industries differ from modern small scale units",
+    "identify key features of traditional village units",
+    "distinguish between cottage industries and small scale enterprises"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine capital investment criteria",
+     "explain": "Note that cottage industries are defined by reliance on family labor and local tools rather than fixed capital limits."
+    },
+    {
+     "step": 2,
+     "action": "highlight rural employment role",
+     "explain": "Detail how village industries generate localized non-agricultural employment using regional skills."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.3",
+   "title": "Socio-Economic Role of MSMEs",
+   "section": "9.3",
+   "definition": "The multi-faceted contribution of small enterprises toward job generation, regional dispersal of industrial activity, and equitable income distribution.",
+   "formula": "none",
+   "key_idea": "Small business expansion prevents rural migration and fosters decentralized economic development.",
+   "textbook_ref": "kebs109.txt lines 130-180",
+   "question_patterns": [
+    "explain the role of MSMEs in balanced regional development",
+    "how do small scale businesses reduce income inequalities",
+    "why are small enterprises considered labor intensive",
+    "what are the competitive strengths of small manufacturing units",
+    "discuss how small scale industries prevent rural to urban migration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze employment per unit of capital",
+     "explain": "Small enterprises require less capital per job created compared to large corporate entities."
+    },
+    {
+     "step": 2,
+     "action": "assess geographic distribution",
+     "explain": "Because they depend on locally available resources, small units can be established across diverse rural regions."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.5",
+   "title": "Operational and Structural Challenges of MSMEs",
+   "section": "9.5",
+   "definition": "Institutional, administrative, and market hurdles including capital scarcity, raw material shortages, and limited technological expertise that hinder small enterprise growth.",
+   "formula": "none",
+   "key_idea": "Inadequate access to formal credit and professional management severely restricts small enterprise performance.",
+   "textbook_ref": "kebs109.txt lines 185-235",
+   "question_patterns": [
+    "what are the major financial problems faced by MSMEs",
+    "explain the raw material procurement issues of small businesses",
+    "why do small units struggle with quality control and marketing",
+    "identify operational bottlenecks leading to sickness in small industries",
+    "how does global competition impact micro and small enterprises"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify internal constraints",
+     "explain": "Highlight single-owner management limitations, inadequate working capital, and reliance on outdated technology."
+    },
+    {
+     "step": 2,
+     "action": "examine external challenges",
+     "explain": "Analyze high raw material procurement costs, reliance on middleman marketing channels, and strict quality demands."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.7",
+   "title": "Entrepreneurship Development and Characteristics",
+   "section": "9.7",
+   "definition": "A systematic and purposeful process of combining resources, bearing calculated risks, and introducing innovations to establish a viable business enterprise.",
+   "formula": "none",
+   "key_idea": "Entrepreneurship is a learnable skill involving structured planning, creative value addition, and calculated risk management.",
+   "textbook_ref": "kebs109.txt lines 240-290",
+   "question_patterns": [
+    "what are the core characteristics of entrepreneurship",
+    "explain why entrepreneurship is called a systematic activity",
+    "how does an entrepreneur organize factors of production",
+    "discuss the role of calculated risk taking in business creation",
+    "distinguish between an entrepreneur, entrepreneurship, and an enterprise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define structural triad",
+     "explain": "The entrepreneur is the person, entrepreneurship is the process, and enterprise is the outcome."
+    },
+    {
+     "step": 2,
+     "action": "outline key characteristics",
+     "explain": "Include systematic learning, adherence to lawful purposes, innovative combinations of production factors, and calculated risk taking."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.9.1",
+   "title": "Intellectual Property Rights Framework",
+   "section": "9.9",
+   "definition": "Legal protections conferred on original creations of human intellect, granting exclusive commercial rights to inventors and original creators.",
+   "formula": "none",
+   "key_idea": "IPRs safeguard intangible assets, incentivize innovation, and prevent unauthorized exploitation.",
+   "textbook_ref": "kebs109.txt lines 295-340",
+   "question_patterns": [
+    "what is intellectual property and why is it important for entrepreneurs",
+    "explain the difference between tangible property and intellectual property",
+    "how do IPRs help creators protect their business income",
+    "what is traditional knowledge and how is it protected in India",
+    "describe the role of Startup India in fostering intellectual property creation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define intangible legal protection",
+     "explain": "Recognize that IP covers products of the mind that lack physical boundaries."
+    },
+    {
+     "step": 2,
+     "action": "evaluate economic benefits",
+     "explain": "Explain how commercial exclusivity encourages research investment and prevents market infringement."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.9.2",
+   "title": "Forms of Intellectual Property Protection",
+   "section": "9.9.2",
+   "definition": "Specific statutory mechanisms such as patents, copyrights, trademarks, and geographical indications designed to protect distinct categories of intellectual output.",
+   "formula": "none",
+   "key_idea": "Different intellectual assets require distinct legal mechanisms based on whether they are inventions, artistic works, brand marks, or regional products.",
+   "textbook_ref": "kebs109.txt lines 345-420",
+   "question_patterns": [
+    "distinguish between a patent and a trademark",
+    "what is a geographical indication and give two Indian examples",
+    "explain what works are protected under copyright law",
+    "what criteria must an invention meet to be patentable",
+    "how does a trade secret differ from a registered design"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize the intellectual output",
+     "explain": "Match original artistic/literary works to Copyright, brand logos to Trademark, technical inventions to Patent, and regional crafts to Geographical Indication."
+    },
+    {
+     "step": 2,
+     "action": "verify statutory conditions",
+     "explain": "Check specific rules such as novelty, non-obviousness, and industrial application for patents, or visual distinctiveness for trademarks."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs109.txt Section 9.2",
+   "concept": "kebs.109.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "If a small enterprise has an investment ceiling in plant and machinery of {investment_limit} crore rupees, calculate its maximum permissible annual turnover limit according to the MSME classification rule.",
+   "extracted_variables": {
+    "investment_limit": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply plant investment limit by 5",
+     "explain": "The turnover limit is set at five times the investment limit.",
+     "compute": "turnover_limit = 5 * investment_limit"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs109.txt Section 9.2",
+   "concept": "kebs.109.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "For a medium enterprise with an upper limit of {investment_limit} crore rupees on plant and machinery investment, find the maximum allowed turnover.",
+   "extracted_variables": {
+    "investment_limit": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply plant investment limit by 5",
+     "explain": "The turnover limit is set at five times the investment limit.",
+     "compute": "turnover_limit = 5 * investment_limit"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs109.txt Very Short Answer Questions",
+   "questions": [
+    "Which year the MSMED Act passed?",
+    "What is the micro enterprise?",
+    "What is a cottage industry?",
+    "What is meant by Village and Khadi Industry?",
+    "Give any two characteristics of entrepreneurship development."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs109.txt Short Answer Questions",
+   "questions": [
+    "What is MSME?",
+    "State the meaning of entrepreneurship.",
+    "MSME and Entrepreneurship are connected. Do you agree? Give two reasons.",
+    "State the role of MSME in development of a country.",
+    "What are the different parameters used to measure the size of MSME?",
+    "State the meaning of Village and Khadi industries.",
+    "State any three major problems faced by MSMEs."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebs109.txt Long Answer Questions",
+   "questions": [
+    "How do small scale industries contribute to the socio-economic development of india? Discuss.",
+    "Describe the role of small business in rural India.",
+    "Discuss the problems faced by small scale industries.",
+    "What measures has the government taken to solve the problem of finance and marketing in the small scale sector?",
+    "Innovation is integral to MSME. Discuss giving reasons to your answer.",
+    "Creativity and Innovation is the key to MSME. Justify the statement."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

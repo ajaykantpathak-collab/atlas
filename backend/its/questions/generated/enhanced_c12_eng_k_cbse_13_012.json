@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_13_012",
+   "title": "c12_eng_k_cbse_13_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question when answering from a poem?",
+     "a": "A literal comprehension question asks for information directly stated in the poem (e.g., \"How old was the great-grandmother when she died?\"), while an inferential question requires the reader to deduce meaning not explicitly written (e.g., \"What does the phrase 'oldest blood in the world' suggest about the family's self-perception?\"). A wrong answer that confuses the two — such as quoting a line for an inferential question without explaining its implication — reveals the student cannot distinguish between retrieval and reasoning, leading to incomplete answers in board exams where inferential questions carry higher marks.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the great-grandmother says, \"For I love this house, it hurts me much / To watch it die.\" Is the house literally dying? Explain what the poet implies through this personification.",
+     "a": "No, the house is not literally dying; it is an inanimate structure decaying over time. The personification implies the great-grandmother's deep emotional attachment and her sense of the house as a living embodiment of family history. A wrong answer that treats the house as biologically alive shows the student misses the figurative layer — a critical error because board examiners expect recognition of personification as a device conveying emotional weight, not a factual statement.",
+     "self_check": true
+    },
+    {
+     "q": "Using the poem, answer this literal question: \"What specific promise does the child speaker make to the great-grandmother about the house?\" Then rewrite the answer as an inferential response to: \"What does this promise reveal about the child's understanding of her family's status?\"",
+     "a": "Literal answer: The child promises, \"When I grow old... I shall rebuild the fallen walls / And make new this ancient house.\" Inferential answer: The promise reveals the child's innocent belief that wealth can restore lost grandeur and her unawareness of the impossibility of reviving a feudal past; it also shows she internalizes the great-grandmother's pride in their \"oldest blood.\" A wrong answer that merely repeats the promise for the inferential part fails to interpret the child's mindset — a common mistake where students treat inference as paraphrase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the great-grandmother's description of her blood (\"thin and clear and fine\") with the blood of \"the always poor\" and \"new-rich men\" (\"thick as gruel / And muddy as a ditch\"). Analyze how this contrast functions as a literal description versus an inferential critique of class distinctions.",
+     "a": "Literally, the great-grandmother claims her lineage has physically superior blood — a factual assertion within the poem's narrative. Inferentially, the metaphor critiques aristocratic delusion: \"thin, clear, fine\" suggests purity but also fragility and lack of substance, while \"thick as gruel, muddy as a ditch\" dehumanizes the poor and newly wealthy, exposing the speaker's internalized class prejudice. A wrong answer that only lists the metaphors without analyzing their social commentary misses the poem's ironic undermine of the very pride it presents — a frequent board-exam trap where students describe imagery but not its thematic function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's final confession: \"I have let you down / Old house, I seek forgiveness... Call me callous / Call me selfish / But do not blame my blood.\" Is this a genuine apology or a self-justification? Defend your judgment with textual evidence.",
+     "a": "It is primarily a self-justification disguised as an apology. The poet admits fault (\"I have let you down\") but immediately deflects blame to her \"oldest blood\" that \"remembers as it flows / All the gems and all the gold,\" implying her aristocratic heritage compels her to abandon the house for \"other towns.\" Evidence: she never returns to rebuild; she flees to cities; the house decays further (\"white ants have reached my home\"). A wrong answer that accepts the apology at face value ignores the poem's ironic tone — the poet uses the language of guilt to romanticize her escape, a nuance JEE/CUET comprehension passages often test.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question based on the last stanza of the poem that requires the examinee to connect the \"elephant ride\" memory to the poet's present alienation. Provide a model answer.",
+     "a": "Question: \"The poem ends with the great-grandmother's memory of the elephant ride to the Siva shrine. How does this recollection contrast with the poet's current life in 'every town I live in'?\" Model answer: The elephant ride symbolizes rootedness, ritual, and a singular, sacred geography — one town, one shrine, a cyclical return. The poet's multiple towns (\"every town I live in\") reflect fragmentation, displacement, and loss of that rooted identity. The memory haunts her because it represents the world she has irrevocably left behind. A poor answer would merely summarize the elephant ride without linking it to the poet's urban nomadism, showing inability to synthesize across stanzas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

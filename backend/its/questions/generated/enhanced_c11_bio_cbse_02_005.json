@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_005",
+   "title": "c11_bio_cbse_02_005",
+   "questions": [
+    {
+     "q": "Name the polysaccharide that forms the cell wall of fungi and state how it differs chemically from the cell wall polysaccharide of plants.",
+     "a": "The fungal cell wall is composed of chitin, a nitrogen-containing polysaccharide (polymer of N-acetylglucosamine), whereas plant cell walls are composed of cellulose, a polymer of glucose lacking nitrogen. A wrong answer (e.g., \"cellulose\" or \"peptidoglycan\") reveals confusion between fungal, plant, and bacterial cell wall composition – a fundamental classification criterion in Whittaker's system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why aseptate, coenocytic hyphae are considered a primitive characteristic in fungi, and name the class where this feature is predominant.",
+     "a": "Aseptate coenocytic hyphae lack cross-walls (septa), resulting in a continuous cytoplasmic tube with multiple nuclei – this resembles the ancestral fungal condition before septation evolved for compartmentalization and damage control. Phycomycetes (e.g., Mucor, Rhizopus) predominantly show this feature. A wrong answer (e.g., \"Ascomycetes\" or \"septate hyphae are primitive\") indicates failure to link hyphal structure to evolutionary progression within Kingdom Fungi.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a fungus producing non-motile asexual spores externally on specialised hyphae called conidiophores, and sexual spores formed internally in sac-like structures. Identify the class and give one example.",
+     "a": "The description matches Ascomycetes: asexual conidia produced exogenously on conidiophores; sexual ascospores produced endogenously within asci (sac-like structures) arranged in ascocarps. Example: Aspergillus or Penicillium. A wrong answer (e.g., \"Basidiomycetes\" or \"Phycomycetes\") shows inability to distinguish spore production modes – exogenous vs endogenous, conidia vs sporangiospores vs basidiospores.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sexual reproduction process in Phycomycetes and Basidiomycetes with respect to: (a) gamete fusion, (b) dikaryotic stage, (c) site of karyogamy and meiosis.",
+     "a": "In Phycomycetes: (a) fusion of similar (isogamous) or dissimilar (anisogamous/oogamous) gametes directly forms a diploid zygospore; (b) no dikaryotic stage – karyogamy follows plasmogamy immediately; (c) karyogamy and meiosis occur in the zygospore. In Basidiomycetes: (a) no distinct gametes – plasmogamy occurs between compatible somatic hyphae; (b) prominent dikaryotic stage (n+n) forms secondary mycelium and basidiocarp; (c) karyogamy and meiosis occur in the basidium, producing four basidiospores. A wrong answer conflating these reveals poor grasp of the fungal sexual cycle progression from primitive (Phycomycetes) to advanced (Basidiomycetes).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Deuteromycetes are a natural taxonomic group defined by the absence of sexual reproduction.\" Justify your answer.",
+     "a": "The statement is false. Deuteromycetes (Fungi Imperfecti) is an artificial, temporary grouping for fungi whose sexual stage is unknown. When sexual reproduction is discovered, they are reclassified into Ascomycetes or Basidiomycetes. It is not a natural phylogenetic group but a \"holding category.\" A student agreeing with the statement misunderstands that Deuteromycetes is defined by human ignorance, not biological reality – a key concept in fungal taxonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory observation to distinguish between aseptate coenocytic hyphae (Phycomycetes) and septate hyphae (Ascomycetes/Basidiomycetes) using a compound microscope and common materials.",
+     "a": "Mount a small piece of bread mould (Rhizopus) and a mould from citrus fruit (Penicillium/Aspergillus) in lactophenol cotton blue on separate slides. Observe under 40x: Rhizopus shows wide, non-septate hyphae with many nuclei in common cytoplasm; Penicillium shows regular cross-walls (septa) dividing hyphae into cellular compartments. A poor design (e.g., using only one sample, no staining, or confusing yeast budding with hyphal structure) reveals inability to plan a comparative microscopic investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

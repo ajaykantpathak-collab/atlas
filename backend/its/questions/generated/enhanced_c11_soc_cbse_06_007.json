@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_007",
+   "title": "c11_soc_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define 'enforced cooperation' in one sentence using sociological terminology.",
+     "a": "Enforced cooperation occurs when individuals or groups participate in joint activity not by free choice but because structural constraints (e.g., economic dependence, normative sanctions, unequal power) make non-cooperation excessively costly or impossible. A wrong answer that equates enforced cooperation with mere 'teamwork under pressure' misses the structural compulsion and the role of stratification in limiting agency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Durkheim argues that altruism and solidarity are fundamental to human cooperation, contrasting this with a 'naturalist' view that humans are inherently selfish.",
+     "a": "Durkheim posits that society exercises a moderating moral influence (solidarity) that tempers brute self-interest; altruism arises from collective conscience (mechanical solidarity) or interdependence (organic solidarity), not from innate biology. A wrong answer that cites 'human nature' or 'instinct' confuses sociological explanation with psychological/naturalistic reductionism, which the textbook explicitly rejects.",
+     "self_check": true
+    },
+    {
+     "q": "A village replaces its traditional charas (requiring 4 men + 4 bullocks) with a rehat (1 man + 1 bullock pair). Using the NCERT framework, analyze how this technological change alters the *necessity* and *form* of cooperation among peasants.",
+     "a": "Step 1: Identify the baseline – charas requires pooling labor and capital across households (kin/neighbors), creating reciprocal cooperation. Step 2: Note the change – rehat reduces labor/capital needs, allowing a single household to operate independently. Step 3: Conclude – the *necessity* for inter-household cooperation declines; cooperation shifts from enforced (by material constraint) to more voluntary (if it persists). A wrong answer that only mentions 'less cooperation' misses the shift in the *structural basis* of cooperation (from material interdependence to optional choice).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Marx's and Durkheim's views on whether cooperation in modern industrial society is voluntary. Identify the core theoretical divergence.",
+     "a": "Durkheim sees organic solidarity as voluntary cooperation arising from functional interdependence in a complex division of labour. Marx argues cooperation under capitalism is *enforced* because workers lack control over labour process and product (alienation), making cooperation a condition of survival imposed by class structure. The divergence: Durkheim emphasizes normative integration; Marx emphasizes structural coercion rooted in property relations. A wrong answer that claims both see cooperation as voluntary ignores Marx's concept of alienation as loss of control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Women's refusal to claim natal property rights in patrilineal societies is an example of voluntary cooperation maintaining family harmony.\" Use the NCERT study on women's property attitudes to support your judgment.",
+     "a": "The statement is sociologically inadequate. The NCERT study shows 41.7% of women cite fear of souring relations with brothers/brothers' wives and losing natal home access – this is *enforced cooperation* via normative sanctions and material vulnerability, not voluntary harmony. Women's 'acquiescence' is a strategic response to patriarchal risk (son preference as old-age insurance). A wrong answer that accepts the 'harmony' narrative fails to distinguish between overt cooperation and covert conflict, missing the power asymmetry that makes refusal costly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario (3-4 sentences) illustrating 'covert conflict and overt cooperation' in a contemporary Indian workplace, drawing on the concept of enforced cooperation.",
+     "a": "A junior Dalit employee in a corporate team publicly agrees with a manager's casteist joke during a meeting (overt cooperation) but later anonymously reports it to the internal complaints committee and deliberately slows work on the manager's pet project (covert conflict). The employee cooperates overtly because open confrontation risks job loss in a precarious labour market; resistance is covert due to structural vulnerability. A poor answer would depict open rebellion, ignoring how stratification (caste + class) enforces surface cooperation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_004",
+   "title": "c12_bio_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the main purpose of primary treatment in a sewage treatment plant?",
+     "a": "Primary treatment physically removes large floating debris (by screening), grit (by grit chambers), and settleable solids (by primary sedimentation tanks). It does not involve biological degradation. A wrong answer (e.g., \"primary treatment uses bacteria to break down waste\") reveals confusion between physical and biological stages.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the aeration tank a critical component of secondary treatment?",
+     "a": "The aeration tank provides oxygen for aerobic microbes (bacteria, fungi, protozoa) to form flocs and rapidly consume organic matter, drastically reducing BOD. A wrong answer (e.g., \"aeration tank removes bad smell\") shows misunderstanding of the biological oxidation process.",
+     "self_check": true
+    },
+    {
+     "q": "A sewage sample has a high BOD. After secondary treatment, the BOD drops significantly. Explain the biological mechanism behind this reduction.",
+     "a": "Aerobic microbes in the aeration tank metabolize organic pollutants as food, converting them into CO2, water, and microbial biomass (flocs). This microbial respiration consumes oxygen, and the removal of organic matter lowers BOD. A wrong answer (e.g., \"chemicals are added to neutralize BOD\") indicates lack of understanding of microbial role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microbial processes in the aeration tank and the anaerobic sludge digester. What are the key differences in conditions and products?",
+     "a": "Aeration tank: aerobic conditions, microbes oxidize organic matter to CO2 and water, produce activated sludge. Anaerobic sludge digester: anaerobic conditions, anaerobic bacteria (methanogens) digest sludge producing methane, CO2, and H2S. A wrong answer (e.g., both produce methane) confuses aerobic and anaerobic processes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Secondary treatment completely purifies sewage water, making it potable.\" Is this correct? Justify.",
+     "a": "Incorrect. Secondary treatment reduces BOD and removes most organic matter, but effluent still contains dissolved salts, nutrients (nitrogen, phosphorus), and pathogens. It is not potable; tertiary treatment is needed for further purification. A wrong answer (agreeing) shows overestimation of secondary treatment efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate the role of microbes in reducing BOD in a sample of wastewater.",
+     "a": "Set up two bottles with equal wastewater samples. Aerate one (to promote aerobic microbes) and keep the other anaerobic (sealed). Measure BOD initially and after 5 days. The aerated sample should show greater BOD reduction due to microbial activity. A poor answer (no control, no BOD measurement) reveals lack of experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

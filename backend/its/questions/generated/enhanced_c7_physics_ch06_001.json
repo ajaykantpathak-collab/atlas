@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_001",
+   "title": "c7_physics_ch06_001",
+   "questions": [
+    {
+     "q": "What is the primary cause of the day and night cycle on Earth, and approximately how long does one complete cycle take?",
+     "a": "The day and night cycle is primarily caused by the rotation of the Earth on its imaginary axis, taking approximately 24 hours to complete one full rotation. A wrong answer like \"the Sun moving around the Earth\" reveals that the student is relying on ancient geocentric assumptions rather than modern heliocentric physics, confusing apparent motion with actual planetary rotation.",
+     "self_check": true
+    },
+    {
+     "q": "If you are standing in India and it is currently noon (bright sunlight), what is happening on the exact opposite side of the Earth (the other hemisphere/longitude), and why?",
+     "a": "It is currently midnight on the exact opposite side of the Earth because that region is facing directly away from the Sun, wrapped in the Earth's own shadow. A wrong answer stating that it is also daytime or twilight reveals a misconception that the entire Earth receives sunlight simultaneously, ignoring the spherical geometry of the planet and how an opaque sphere blocks light.",
+     "self_check": true
+    },
+    {
+     "q": "A weather satellite in geostationary orbit stays above the same point on Earth while the Earth rotates. If the Earth completes one full rotation of 360 degrees in 24 hours, calculate the average angular speed of the Earth's rotation in degrees per hour.",
+     "a": "Steps:\n1. Identify total angle rotated = 360 degrees.\n2. Identify total time taken = 24 hours.\n3. Use formula: Angular speed = Total Angle / Total Time.\n4. Compute: 360 degrees / 24 hours = 15 degrees per hour.\n5. Verify: 15 * 24 = 360, which is physically reasonable and correct.\nFinal Answer: 15 degrees/hour. A wrong computation like 36 degrees per hour reveals a basic division error or unfamiliarity with dividing a full circle by the hours in a day.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what would happen to our day and night cycle if the Earth suddenly stopped rotating on its axis while continuing to orbit the Sun. How would life on Earth be affected?",
+     "a": "One half of the Earth would experience perpetual daylight (scorching heat), while the other half would experience perpetual darkness and freezing cold, destroying the current 24-hour rhythm essential for life. A wrong answer indicating that day and night would continue normally shows a failure to link the spinning motion of the planet directly to the alternating exposure to sunlight.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that during the night, the Sun travels underneath the Earth to the other side. Evaluate this statement using your knowledge of the Earth's rotation and light propagation.",
+     "a": "The student's statement is incorrect because the Sun is stationary relative to the Earth's rotation; it is the Earth that spins on its axis, carrying the observer away from the Sun's direct line of sight. A wrong answer agreeing with the student reveals a fundamental confusion between apparent daily motion (caused by rotation) and actual orbital mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a table lamp, a small globe, and a sticker to demonstrate to a younger student how time zones work between India and the USA during the rotation of the Earth.",
+     "a": "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe, and slowly rotate the globe counter-clockwise (west to east). Show that when India faces the lamp (day), the USA is facing away (night), demonstrating that different longitudes experience different local times as the Earth rotates. A poor answer fails to show the west-to-east direction of rotation or incorrectly places both countries on the same illuminated side.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

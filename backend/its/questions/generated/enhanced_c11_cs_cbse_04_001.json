@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_001",
+   "title": "c11_cs_cbse_04_001",
+   "questions": [
+    {
+     "q": "What is the primary characteristic that distinguishes an interpreted language like Python from a compiled language like C++?",
+     "a": "An interpreted language executes code line by line at runtime without a separate compilation step, while a compiled language translates the entire source code into machine code before execution. A wrong answer (e.g., \"Python is faster\") reveals confusion between interpretation and compilation, and a misunderstanding of the trade-offs (ease of debugging vs. execution speed).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what \"dynamic typing\" means in Python and give a one-line code example that demonstrates it.",
+     "a": "Dynamic typing means the type of a variable is determined at runtime and can change during execution; e.g., `x = 10` then `x = \"hello\"` is valid. A wrong answer (e.g., \"variables must be declared with types\") indicates the student is applying static typing concepts from languages like Java or C to Python.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a Python script to calculate the area of a circle. They run it and get an error. Which feature of Python allows them to fix the error and re-run immediately without a separate compilation step?",
+     "a": "Python's interpreted nature allows immediate execution after editing; the interpreter reads and executes the script line by line. A wrong answer (e.g., \"dynamic typing\") confuses the feature that enables quick edit-run cycles with the feature that handles variable types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Python's memory management with that of C. How does Python's approach affect the programmer's responsibility?",
+     "a": "Python uses automatic garbage collection, freeing the programmer from manual memory allocation/deallocation (like malloc/free in C). This reduces memory leaks but gives less control over memory layout. A wrong answer (e.g., \"Python requires manual memory management\") shows a fundamental misunderstanding of Python's runtime environment.",
+     "self_check": true
+    },
+    {
+     "q": "A team is choosing between Python and C for a high-frequency trading system where microseconds matter. Evaluate whether Python's features make it suitable or unsuitable, justifying your answer with at least two specific features.",
+     "a": "Python is generally unsuitable due to its interpreted execution (slower than compiled C) and Global Interpreter Lock (limits true parallelism). However, its rapid development and rich libraries (e.g., NumPy) can be leveraged for prototyping. A wrong answer that ignores performance implications or claims Python is always faster reveals an inability to evaluate trade-offs in real-world contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple Python program that showcases at least three distinct features of Python (e.g., dynamic typing, interpreted execution, high-level data structures). Write the code and annotate each feature demonstrated.",
+     "a": "Example: \n```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

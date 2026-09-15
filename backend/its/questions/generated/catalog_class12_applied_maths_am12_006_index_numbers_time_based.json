@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_006_index_numbers_time_based.json",
+ "concepts": [
+  {
+   "id": "am12_006.1",
+   "title": "Index Number Meaning and Uses",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 34, 2, 21, 10, 6.",
+     "a": "14.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 7, 21, 25, 41, 50 (already in increasing order).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 14, 31. A seventh value 51 is added, making 7 values. Find the median of the 7 values.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 10 and 55. Find the median.",
+     "a": "32.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 2 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 52, 46, 13, 30.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_006.2",
+   "title": "Simple Aggregative Price Index",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 143, find the index number.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 20, 9, 16 and the base-year prices are 17, 11, 9. Find the simple aggregative price index (two decimal places).",
+     "a": "121.62",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 121.62 and the corresponding Paasche price index is 121.62. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "1.48",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 38 + 6 x. Find the fitted value at x = 5.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 5 per kg (8 kg) and Rs 2 per kg (2 kg). Find the mean price by alligation (two decimal places).",
+     "a": "4.4",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 80 litres; 20 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_006.3",
+   "title": "Laspeyres Price Index",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 159, find the index number.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 8, 7, 10 and the base-year prices are 10, 15, 6. Find the simple aggregative price index (two decimal places).",
+     "a": "80.65",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 80.65 and the corresponding Paasche price index is 80.65. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.65",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 67 + 3 x. Find the fitted value at x = 5.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 2 per kg (4 kg) and Rs 8 per kg (3 kg). Find the mean price by alligation (two decimal places).",
+     "a": "4.57",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 16 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_006.4",
+   "title": "Paasche Price Index",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 76 and 43 degrees; the third angle is what? (The third angles must match.)",
+     "a": "61",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 3 cm, 15 cm and 9 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 96 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_006.5",
+   "title": "Tests of Adequacy Unit and Time Reversal",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 148, find the index number.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 6, 10, 7 and the base-year prices are 12, 4, 16. Find the simple aggregative price index (two decimal places).",
+     "a": "71.88",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 71.88 and the corresponding Paasche price index is 71.88. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.52",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 62 + 2 x. Find the fitted value at x = 5.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 8 per kg (5 kg) and Rs 9 per kg (8 kg). Find the mean price by alligation (two decimal places).",
+     "a": "8.62",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 80 litres; 16 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_006.6",
+   "title": "Time Series and Linear Trend",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 5th term of the AP with first term 5 and common difference 9.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 12 terms of the AP 9, 13, 17, ... .",
+     "a": "372",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 3 and last term 75 with 13 terms. Find its sum.",
+     "a": "507",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 8 and 14. Find the common difference.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 13, 20, 27, ... up to and including 27?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 36 and the 7th term is 31. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

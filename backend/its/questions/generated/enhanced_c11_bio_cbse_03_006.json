@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_006",
+   "title": "c11_bio_cbse_03_006",
+   "questions": [
+    {
+     "q": "Name the two types of spores produced by gymnosperms and state the structure in which each is produced.",
+     "a": "Gymnosperms produce haploid microspores in microsporangia (on microsporophylls in male cones) and haploid megaspores in megasporangia (ovules on megasporophylls in female cones). A wrong answer like \"spores are produced in sporangia on leaves\" reveals confusion with pteridophyte sporophyll arrangement and failure to distinguish the cone (strobilus) as the reproductive structure unique to gymnosperms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the male gametophyte of a gymnosperm is described as \"highly reduced and non-free-living\" whereas the male gametophyte of a fern (pteridophyte) is free-living.",
+     "a": "In gymnosperms, the microspore germinates within the microsporangium to form a pollen grain (few-celled male gametophyte) that is released only at the pollen stage; it never exists as an independent photosynthetic organism. In ferns, the microspore germinates into a free-living, photosynthetic prothallus bearing antheridia. A wrong answer stating \"both are reduced\" shows inability to apply the concept of gametophyte retention within sporangia – a key gymnosperm innovation.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a Cycas plant with coralloid roots and a Pinus plant with mycorrhizal roots. Predict which plant benefits from nitrogen fixation and which from enhanced phosphorus absorption, and justify using the microbial partners involved.",
+     "a": "Cycas coralloid roots host N₂-fixing cyanobacteria (e.g., Nostoc, Anabaena) → nitrogen fixation benefit. Pinus mycorrhizal roots host fungi → enhanced phosphorus (and water) absorption benefit. A wrong answer swapping the benefits reveals confusion between the two distinct symbiotic associations and failure to link microbial physiology (cyanobacteria = nitrogen fixation; fungi = phosphate solubilisation) to the host plant's nutritional gain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of the megaspore mother cell in a gymnosperm versus an angiosperm. Identify the step where their developmental pathways diverge after meiosis.",
+     "a": "In both, the megaspore mother cell undergoes meiosis to produce four megaspores. In gymnosperms, typically one functional megaspore develops into a multicellular female gametophyte (nucellar tissue) bearing archegonia, all retained within the megasporangium (ovule). In angiosperms, the functional megaspore undergoes mitotic divisions to form the 7-celled, 8-nucleate embryo sac (with egg apparatus, central cell, antipodals) – a structurally distinct female gametophyte. Divergence occurs at the pattern of mitotic divisions and final gametophyte organisation. A wrong answer claiming \"both form embryo sacs\" conflates the two distinct female gametophyte architectures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Gymnosperms are more advanced than pteridophytes because they have seeds, but less advanced than angiosperms because they lack fruits.\" Is this a valid evolutionary assessment? Justify.",
+     "a": "The statement is partially valid but oversimplified. \"Advanced\" is not a scientific evolutionary term; gymnosperms and angiosperms represent divergent lineages from a common seed-plant ancestor. Gymnosperms possess key innovations over pteridophytes: heterospory, pollen tube (siphonogamy), seed (embryo + nutritive tissue + integument), and reduced gametophytes. Angiosperms add double fertilisation, ovary-enclosed ovules, fruit, and vessel elements. The assessment ignores that gymnosperms like Gnetum have vessel elements and angiosperm-like features, showing mosaic evolution. A wrong answer accepting the linear \"ladder\" view reveals teleological misunderstanding of evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation to distinguish between a male cone and a female cone of Pinus roxburghii in early spring, without using a microscope. List the macroscopic features you would record.",
+     "a": "Observe: (1) Size and position – male cones are small (1-2 cm), clustered at the base of new shoots; female cones are larger (3-5 cm initially), solitary or in pairs, higher on the shoot. (2) Colour – male cones yellowish (pollen-laden); female cones greenish/reddish. (3) Texture – male cones soft, powdery when tapped (pollen release); female cones firm, woody scales tightly closed. (4) Duration – male cones wither and fall after pollen shed; female cones persist and enlarge. A poor answer listing only \"male cones have pollen\" misses the structural and positional differences that are diagnostically reliable in the field.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

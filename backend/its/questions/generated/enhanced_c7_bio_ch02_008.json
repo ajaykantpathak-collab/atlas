@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_008",
+   "title": "c7_bio_ch02_008",
+   "questions": [
+    {
+     "q": "What is the primary reason why herbivores like cows have a much longer small intestine and alimentary canal compared to carnivores like lions?",
+     "a": "Herbivores have longer alimentary canals because plant matter contains tough cellulose that requires more time and space for microbial fermentation and nutrient absorption. A wrong answer usually reveals the misconception that all animals digest food at the same speed regardless of its chemical complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Why do ruminant herbivores like cows need to chew their cud (regurgitated partially digested food) repeatedly, whereas carnivores swallow chunks of meat directly without re-chewing?",
+     "a": "Ruminants regurgitate and re-chew their food (cud) to mechanically break down tough plant cell walls, increasing the surface area for bacteria and enzymes to digest cellulose. A wrong answer indicates the student thinks chewing is just for swallowing rather than breaking open plant cell walls.",
+     "self_check": true
+    },
+    {
+     "q": "If a scientist discovers a newly identified mammal with a very short small intestine, a simple stomach, and a rudimentary cecum, what can you predict about its natural diet based on digestive adaptation principles?",
+     "a": "Steps: 1) Identify that a short alimentary canal indicates rapid digestion of easily broken-down nutrients; 2) Recognize that simple stomachs and small ceca cannot ferment tough plant cellulose; 3) Conclude that the animal is a carnivore feeding on protein-rich meat. A wrong answer shows confusion between the structural needs of processing cellulose versus meat.",
+     "self_check": true
+    },
+    {
+     "q": "How does the presence of a specialized pouch called the cecum in rabbits help them digest grass, and why is this structure less developed in humans?",
+     "a": "The cecum houses cellulose-digesting bacteria that break down plant walls in herbivores like rabbits, whereas humans have a vestigial appendix because our diet contains less raw fibrous cellulose and relies on cooked foods. A wrong answer indicates a failure to connect gut organ size with specialized dietary substrate requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the biological statement: \"All animals use the exact same stomach acid strength and digestive enzymes because digestion is fundamentally the same process.\" Is this accurate?",
+     "a": "This statement is false because stomach acidity and enzyme composition vary widely depending on diet; for example, scavengers have extremely high stomach acidity to kill harmful bacteria in decaying meat, while plant-eaters rely on microbial fermentation rather than strong internal acid alone. A wrong answer shows an oversimplification of digestive physiology across species.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical digestive tract adaptation for an animal that feeds exclusively on tough, woody tree bark, explaining how its stomach and intestine length would differ from a human's.",
+     "a": "A good answer would propose a multi-chambered stomach (like a ruminant) or an enlarged cecum packed with specialized cellulose-fermenting bacteria, along with an extremely long intestine to maximize absorption time. A poor answer simply suggests a human-like stomach, ignoring the chemical resistance of wood and cellulose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

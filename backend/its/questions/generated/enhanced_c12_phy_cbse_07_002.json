@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_002",
+   "title": "c12_phy_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the phase relationship between voltage and current in a purely resistive AC circuit. What is the phase angle φ? Write the expression for instantaneous current if the applied voltage is v = 300 sin(100πt) volt and resistance is 50 Ω.",
+     "a": "In a purely resistive AC circuit, voltage and current are in phase, meaning the phase angle φ = 0. For v = 300 sin(100πt) V and R = 50 Ω, im = vm/R = 300/50 = 6 A, so i = 6 sin(100πt) A. A wrong answer (e.g., φ = π/2 or i = 6 cos(100πt)) reveals the student confuses resistive circuits with inductive/capacitive circuits where phase shifts occur, or misapplies the derivative/integral relationship that appears in those cases.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the average current over a complete cycle is zero in an AC resistive circuit, yet the average power dissipated is not zero. Use the mathematical expressions for instantaneous current and power to justify your answer.",
+     "a": "The instantaneous current i = im sin(ωt) is positive for half the cycle and negative for the other half, symmetric about zero, so its average over a full period is zero. However, instantaneous power p = i²R = im²R sin²(ωt) is always positive (since sin² ≥ 0), so its average is positive. Specifically, <sin²(ωt)> = 1/2, giving P_avg = ½ im²R. A student who says \"average current is zero so no power\" confuses the average of a quantity with the average of its square — a critical error that also appears in JEE/NEET questions about wattless current in pure L or C circuits.",
+     "self_check": true
+    },
+    {
+     "q": "An electric heater rated at 1500 W, 240 V (RMS) is connected to a 240 V, 50 Hz AC mains supply. Calculate: (a) the resistance of the heater element, (b) the peak voltage across it, (c) the RMS current through it, and (d) the peak current through it.",
+     "a": "Given: P = 1500 W, Vrms = 240 V, f = 50 Hz.\n(a) R = Vrms² / P = (240)² / 1500 = 57600 / 1500 = 38.4 Ω.\n(b) Vm = √2 × Vrms = 1.414 × 240 = 339.36 V ≈ 339 V.\n(c) Irms = P / Vrms = 1500 / 240 = 6.25 A.\n(d) im = √2 × Irms = 1.414 × 6.25 = 8.8375 A ≈ 8.84 A.\nA wrong answer in (a) using Vm instead of Vrms (R = Vm²/P) gives 76.8 Ω — a factor of 2 error. In (c), using P = VmIm leads to Im = 4.42 A, then forgetting to convert to RMS. These reveal confusion between peak and RMS values, a very common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "The voltage across a pure resistor is given by v = 200 sin(314t) V. The average power dissipated is measured to be 50 W. Determine the resistance R and the RMS current Irms. Sketch the phasor diagram showing V and I phasors at an instant when ωt = π/4.",
+     "a": "Given: v = 200 sin(314t) → vm = 200 V, ω = 314 rad/s. P_avg = 50 W.\nVrms = vm/√2 = 200/1.414 = 141.42 V.\nP = Vrms² / R → R = Vrms² / P = (141.42)² / 50 = 20000 / 50 = 400 Ω.\nIrms = Vrms / R = 141.42 / 400 = 0.3536 A.\nPhasor diagram: V and I phasors of lengths proportional to vm and im (or Vrms and Irms) both making angle π/4 with horizontal axis, pointing in exactly the same direction (φ = 0). A student drawing I lagging or leading V by π/2 shows they are applying inductor/capacitor phasor rules to a resistor — a fundamental category error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a pure resistive AC circuit, since the average current is zero, the bulb should not glow because no net charge flows.\" Evaluate this statement. Is the student correct? Explain the flaw in the reasoning and state what actually causes the bulb to glow.",
+     "a": "The student is incorrect. The flaw is equating \"average current = zero\" with \"no energy transfer.\" In AC, current alternates direction, so net charge flow over a cycle is zero, but power depends on i², which is always positive. Joule heating p = i²R dissipates energy in both half-cycles. The bulb glows because the filament heats up due to this continuous positive power dissipation. The student's reasoning would also imply a DC circuit with zero average current (e.g., symmetric square wave) produces no heat — which is false. This misconception is exactly what JEE/NEET questions on \"wattless current\" test: distinguishing between zero average current (true for any pure AC) and zero average power (true only for pure L or C).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a signal generator, a resistor, and an oscilloscope to demonstrate that voltage and current are in phase in a purely resistive AC circuit. Describe the connections, what you would measure, and what the oscilloscope display would show for in-phase signals. How would you verify the phase difference is zero?",
+     "a": "Connect the signal generator across the resistor. Use Channel 1 of the oscilloscope to measure voltage across the resistor (v). Use Channel 2 to measure voltage across a small known series resistor (Rsense ≪ R) to get current waveform (i ∝ v_Rsense). Set the oscilloscope to dual-trace mode. For in-phase signals, both sine waves will cross zero at the same time, reach positive peaks together, and negative peaks together. Measure the time difference Δt between corresponding zero-crossings; phase difference φ = ωΔt. If Δt ≈ 0, φ ≈ 0. Alternatively, use XY mode: in-phase signals produce a straight line with positive slope (y = kx). A poor answer would suggest measuring voltage across the resistor for both channels (giving identical traces but not proving current phase) or using an inductor/capacitor instead of a resistor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

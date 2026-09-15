@@ -1,0 +1,475 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Power Play",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.102.2.1",
+   "title": "Exponential Notation",
+   "section": "2.2",
+   "definition": "Repeated multiplication of the same factor is written in shorthand as base raised to an exponent: n multiplied by itself a times is n to the power a; the base is the repeated factor and the exponent counts how many times it appears.",
+   "formula": "value = base ** exponent",
+   "key_idea": "5 x 5 x 5 x 5 = 5 to the 4th power = 625; exponent counts the self-multiplications.",
+   "textbook_ref": "hegp102.txt lines 173-239 (exponential notation), 278-299",
+   "question_patterns": [
+    "express 6 x 6 x 6 x 6 in exponential form and find the value",
+    "evaluate 5 to the power 4",
+    "what is the value of 2 raised to the power 10",
+    "write a x a x a x b x b using exponents",
+    "find the numerical value of 7 squared times 2 cubed",
+    "express 32400 as a product of prime factors in exponential form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "raise the base to the exponent",
+     "explain": "The value of the notation is the base multiplied by itself exponent times.",
+     "compute": "value = base ** exponent"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.2",
+   "title": "Multiplying Powers with the Same Base",
+   "section": "2.2",
+   "definition": "When two powers of the same base are multiplied, the result is the base raised to the sum of the exponents, because the repeated factors simply pool together.",
+   "formula": "product = base ** (exp_a + exp_b)",
+   "key_idea": "n to a times n to b equals n to a plus b: 3 to 4 times 3 to 3 is 3 to 7.",
+   "textbook_ref": "hegp102.txt lines 330-344 (na x nb), 385-427 (power of a power, ma x na)",
+   "question_patterns": [
+    "simplify 3 to the power 4 times 3 to the power 3 in exponential form",
+    "write the product p to the 4th times p to the 6th as a single power",
+    "evaluate 2 to the power 9 using the product rule",
+    "find 2 to the 4th times 3 to the 4th as a power of 6",
+    "what is 5 squared times 5 cubed - give the value",
+    "simplify 2 to the minus 4 times 2 to the 7th"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the two exponents",
+     "explain": "Multiplying powers of the same base pools the factors, so exponents add.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "raise the base to the summed exponent",
+     "explain": "The single power is the base with the combined exponent.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.3",
+   "title": "Dividing Powers and the Zero Exponent",
+   "section": "2.3",
+   "definition": "Dividing two powers of the same base cancels matching factors, leaving the base raised to the difference of the exponents; when the exponents are equal every factor cancels and the result is 1, which fixes the value of any nonzero base raised to 0.",
+   "formula": "quotient = base ** (exp_a - exp_b); base ** 0 = 1",
+   "key_idea": "Halving a line of 2 to the 4th units three times is 2 to the 4th divided by 2 to the 3rd = 2.",
+   "textbook_ref": "hegp102.txt lines 496-555 (other side of powers, zero exponent)",
+   "question_patterns": [
+    "simplify 2 to the 100th divided by 2 to the 25th",
+    "what is 10 to the 5th divided by 10 to the 3rd - give the value",
+    "evaluate 4 to the 8th divided by 4 to the 3rd",
+    "why does any nonzero number raised to the power 0 equal 1 - justify",
+    "find 24 divided by 2 to the 4th using exponents",
+    "simplify 3 to the 2nd times 3 to the minus 5th times 3 to the 6th"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract the divisor exponent",
+     "explain": "Cancelling common factors removes exp_b copies of the base.",
+     "compute": "diff_exp = exp_a - exp_b"},
+    {"step": 2, "action": "raise the base to the difference",
+     "explain": "The quotient is the base with the reduced exponent; difference zero gives 1.",
+     "compute": "quotient = base ** diff_exp"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.4",
+   "title": "Negative Exponents",
+   "section": "2.3",
+   "definition": "Halving more times than the starting power needs forces exponents below zero, and a negative exponent means the reciprocal: n to the minus a equals 1 over n to the a, so 10 to the minus 3 is one thousandth.",
+   "formula": "neg_power = 1 / base ** exp",
+   "key_idea": "2 to the minus 6 = 1 over 64: negative powers sit on the other side of 1 on the power line.",
+   "textbook_ref": "hegp102.txt lines 556-599 (when zero is in power, negative exponents), 620-686 (power lines)",
+   "question_patterns": [
+    "write 2 to the power minus 6 as a fraction",
+    "find the value of 10 to the minus 3",
+    "what is 7 to the minus 2 - give the value",
+    "express 1 over 16 as a power of 4",
+    "evaluate 10 to the minus 100 - say whether it is positive or negative",
+    "write the equivalent form of 2 to the minus 4"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the positive power first",
+     "explain": "Compute base raised to the positive exponent size.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "A negative exponent flips the positive power into its reciprocal.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.5",
+   "title": "Powers of 10 and Scientific Notation",
+   "section": "2.4",
+   "definition": "Any number can be split into place-value powers of ten, and very large or small numbers are best written in scientific notation as a coefficient between 1 and 10 times a power of 10; the exponent carries the size of the number, which is what matters most for big facts like planet distances.",
+   "formula": "value = coeff * 10 ** exp",
+   "key_idea": "1433500000000 m = 1.4335 x 10 to the 12 m: the exponent 12 tells the number of digits.",
+   "textbook_ref": "hegp102.txt lines 687-789 (powers of 10, scientific notation)",
+   "question_patterns": [
+    "write 5900 in scientific notation and verify its value",
+    "express the distance 1.439 x 10 to the 12 m as a full number of metres",
+    "write 8000000 in standard form and give the exponent",
+    "expand 561.903 using powers of 10 including negative exponents",
+    "what does the exponent in 2 x 10 to the 7 tell about the population of Mumbai",
+    "convert 20800 to scientific notation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "10 raised to the exponent gives the place-value scale.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "Scaling the coefficient gives the ordinary number.",
+     "compute": "value = coeff * scale"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.6",
+   "title": "Exponential Growth by Doubling",
+   "section": "2.1",
+   "definition": "When a quantity doubles at every step - folded paper thickness, pond lotuses - its size after n steps is the starting amount times 2 to the n; this multiplicative growth explodes so fast that 46 folds of a 0.001 cm sheet cross the distance to the Moon.",
+   "formula": "amount = initial * 2 ** steps",
+   "key_idea": "Every 10 extra folds make the thickness 1024 times bigger.",
+   "textbook_ref": "hegp102.txt lines 3-46 (paper folding), 108-172 (growth analysis), 394-419 (magical pond)",
+   "question_patterns": [
+    "find the thickness of a 0.001 cm sheet after 46 folds",
+    "what is the thickness of folded paper after 10 folds if it doubles each fold",
+    "the lotus count doubles every day - how many lotuses after 30 days from one lotus",
+    "on which day was the doubling pond half full - explain",
+    "after how many folds does the sheet thickness cross 1 cm",
+    "calculate the folded thickness after 30 folds and compare with the Mariana Trench depth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the doubling factor",
+     "explain": "n doublings multiply the amount by 2 to the n.",
+     "compute": "growth = 2 ** steps"},
+    {"step": 2, "action": "scale the starting amount",
+     "explain": "Multiply the initial value by the growth factor.",
+     "compute": "amount = initial * growth"}
+   ]
+  },
+  {
+   "id": "hegp.102.2.7",
+   "title": "Counting Password Combinations",
+   "section": "2.2",
+   "definition": "If every slot of a lock admits the same number of choices, the total number of passwords is that choice count raised to the number of slots; a 5-digit lock has 10 to the 5th passwords and a 6-letter lock from A to Z has 26 to the 6th.",
+   "formula": "combos = choices ** slots",
+   "key_idea": "Each extra slot multiplies the count by the choices per slot.",
+   "textbook_ref": "hegp102.txt lines 440-495 (combinations, locks), 457-487",
+   "question_patterns": [
+    "how many passwords can a 5-digit lock have",
+    "find the number of possible passwords for a lock with 6 slots of letters A to Z",
+    "how many 3-digit passwords are possible with digits 0 to 9",
+    "calculate the combinations of 7 dresses, 2 hats and 3 pairs of shoes",
+    "how many 2-digit lock combinations exist",
+    "compare the password counts of a 5-digit lock and a 6-letter lock"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "raise choices to the slot count",
+     "explain": "Every slot multiplies the total by the per-slot choices.",
+     "compute": "combos = choices ** slots"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp102.txt lines 291-299, numerical value practice",
+   "concept": "hegp.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the numerical value of {base} raised to the power {exponent}.",
+   "extracted_variables": {
+    "base": "the repeated factor",
+    "exponent": "how many times the factor repeats"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise the base to the exponent",
+     "explain": "Multiply the base by itself exponent times.",
+     "compute": "value = base ** exponent"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp102.txt lines 227-234, exponential notation examples",
+   "concept": "hegp.102.2.1",
+   "question_type": "compute",
+   "question_pattern": "Express {base} x {base} x {base} in exponential form and compute it using exponent {exponent}.",
+   "extracted_variables": {
+    "base": "the repeated factor",
+    "exponent": "count of repetitions"
+   },
+   "solution_template": [
+    {"step": 1, "action": "read the notation and evaluate",
+     "explain": "Three equal factors mean exponent 3, so the value is base to the 3rd.",
+     "compute": "value = base ** exponent"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp102.txt lines 330-337, 3 to the 7 via 3 to the 4 times 3 to the 3",
+   "concept": "hegp.102.2.2",
+   "question_type": "compute",
+   "question_pattern": "Simplify {base} to the power {exp_a} times {base} to the power {exp_b} and give its value.",
+   "extracted_variables": {
+    "base": "common base of the two powers",
+    "exp_a": "first exponent",
+    "exp_b": "second exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the exponents",
+     "explain": "Same-base multiplication adds exponents.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "evaluate the combined power",
+     "explain": "Base raised to the summed exponent gives the value.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp102.txt lines 341-344, p4 x p6 practice",
+   "concept": "hegp.102.2.2",
+   "question_type": "compute",
+   "question_pattern": "Write the product {base} to the {exp_a} times {base} to the {exp_b} in exponential form.",
+   "extracted_variables": {
+    "base": "letter-number base",
+    "exp_a": "first exponent",
+    "exp_b": "second exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the exponents",
+     "explain": "Pooling factors of the same base adds exponents.",
+     "compute": "sum_exp = exp_a + exp_b"},
+    {"step": 2, "action": "write the single power",
+     "explain": "The product is base to the summed exponent.",
+     "compute": "product = base ** sum_exp"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp102.txt lines 510-513, 2 to 100 divided by 2 to 25",
+   "concept": "hegp.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "Simplify {base} to the power {exp_a} divided by {base} to the power {exp_b}.",
+   "extracted_variables": {
+    "base": "common base",
+    "exp_a": "exponent of the dividend",
+    "exp_b": "exponent of the divisor"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the exponents",
+     "explain": "Division cancels common factors, so exponents subtract.",
+     "compute": "diff_exp = exp_a - exp_b"},
+    {"step": 2, "action": "evaluate the reduced power",
+     "explain": "Base to the difference is the quotient.",
+     "compute": "quotient = base ** diff_exp"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp102.txt lines 547-555, zero exponent reasoning",
+   "concept": "hegp.102.2.3",
+   "question_type": "compute",
+   "question_pattern": "Evaluate {base} to the {exp_a} divided by {base} to the {exp_a} and state the zero power rule value.",
+   "extracted_variables": {
+    "base": "nonzero base",
+    "exp_a": "the equal exponent in numerator and denominator"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract equal exponents",
+     "explain": "exp_a minus exp_a leaves exponent 0.",
+     "compute": "zero_exp = exp_a - exp_a"},
+    {"step": 2, "action": "evaluate the zero power",
+     "explain": "Any nonzero base to the 0 is 1.",
+     "compute": "quotient = base ** zero_exp"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp102.txt lines 565-572, 2 to minus 6 = 1/64",
+   "concept": "hegp.102.2.4",
+   "question_type": "compute",
+   "question_pattern": "Write {base} to the power minus {exp} as a fraction and give its decimal value.",
+   "extracted_variables": {
+    "base": "base of the negative power",
+    "exp": "size of the negative exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the positive power",
+     "explain": "Compute base to the exp first.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "The negative power is 1 over that positive power.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp102.txt lines 579-581, 10 to minus 3",
+   "concept": "hegp.102.2.4",
+   "question_type": "compute",
+   "question_pattern": "Find the value of 10 to the minus {exp}.",
+   "extracted_variables": {
+    "base": "base 10",
+    "exp": "size of the negative exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the positive power",
+     "explain": "10 to the exp gives the denominator.",
+     "compute": "pos = base ** exp"},
+    {"step": 2, "action": "take the reciprocal",
+     "explain": "Negative exponent means reciprocal of the positive power.",
+     "compute": "neg_power = 1 / pos"}
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp102.txt lines 786-789, Saturn-Uranus distance",
+   "concept": "hegp.102.2.5",
+   "question_type": "compute",
+   "question_pattern": "The distance between Saturn and Uranus is {coeff} x 10 to the {exp} m. Write it as a full number of metres.",
+   "extracted_variables": {
+    "coeff": "coefficient between 1 and 10",
+    "exp": "power of ten exponent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "10 to the exp is the scale factor.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "Coeff times scale gives the ordinary number of metres.",
+     "compute": "value = coeff * scale"}
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp102.txt lines 747-758, 5900 = 5.9 x 10 cubed",
+   "concept": "hegp.102.2.5",
+   "question_type": "compute",
+   "question_pattern": "Verify that {coeff} x 10 to the {exp} equals {check} by computing the value.",
+   "extracted_variables": {
+    "coeff": "scientific coefficient",
+    "exp": "exponent of ten",
+    "check": "ordinary form of the number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the power of ten",
+     "explain": "Compute 10 to the exp.",
+     "compute": "scale = 10 ** exp"},
+    {"step": 2, "action": "multiply by the coefficient",
+     "explain": "The result should match the ordinary number.",
+     "compute": "value = coeff * scale"}
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "hegp102.txt lines 26-32, 46 folds reach the Moon",
+   "concept": "hegp.102.2.6",
+   "question_type": "compute",
+   "question_pattern": "A sheet of thickness {initial} cm is folded {steps} times, doubling each time. Find its thickness in cm.",
+   "extracted_variables": {
+    "initial": "starting thickness in cm",
+    "steps": "number of folds"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the doubling factor",
+     "explain": "steps doublings multiply by 2 to the steps.",
+     "compute": "growth = 2 ** steps"},
+    {"step": 2, "action": "scale the starting thickness",
+     "explain": "Initial thickness times the growth factor is the final thickness.",
+     "compute": "amount = initial * growth"}
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "hegp102.txt lines 394-415, magical pond lotuses",
+   "concept": "hegp.102.2.6",
+   "question_type": "compute",
+   "question_pattern": "One lotus in a pond doubles every day. How many lotuses are there after {steps} days?",
+   "extracted_variables": {
+    "initial": "starting lotus count",
+    "steps": "number of days of doubling"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the doubling factor",
+     "explain": "days of doubling multiply the count by 2 to the days.",
+     "compute": "growth = 2 ** steps"},
+    {"step": 2, "action": "scale the starting count",
+     "explain": "Starting lotuses times the growth factor.",
+     "compute": "amount = initial * growth"}
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hegp102.txt lines 474-478, 5-digit lock",
+   "concept": "hegp.102.2.7",
+   "question_type": "compute",
+   "question_pattern": "How many passwords can a lock with {slots} digit slots have, each digit 0 to 9 ({choices} choices)?",
+   "extracted_variables": {
+    "choices": "options per slot",
+    "slots": "number of slots"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise choices to the slots",
+     "explain": "Each slot multiplies the total by the per-slot choices.",
+     "compute": "combos = choices ** slots"}
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "hegp102.txt lines 484-487, A to Z letter lock",
+   "concept": "hegp.102.2.7",
+   "question_type": "compute",
+   "question_pattern": "A lock has {slots} slots with letters A to Z ({choices} letters). How many passwords are possible?",
+   "extracted_variables": {
+    "choices": "letters available per slot",
+    "slots": "number of slots"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise choices to the slots",
+     "explain": "Total combinations = choices to the slots.",
+     "compute": "combos = choices ** slots"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hegp102.txt Figure it Out lines 242-299",
+   "questions": [
+    "Express in exponential form: 6 x 6 x 6 x 6; y x y; b x b x b x b; 5 x 5 x 7 x 7 x 7.",
+    "Express 648, 405, 540 and 3600 as products of powers of their prime factors.",
+    "Write the numerical value of: 2 x 10 to the 3rd; 7 squared times 2 cubed; 3 x 4 to the 4th.",
+    "What is 0 to the power 2, 0 to the power 5, 0 to the power n?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hegp102.txt lines 603-619",
+   "questions": [
+    "Write equivalent forms of 2 to the minus 4, 10 to the minus 5, minus 7 to the minus 2.",
+    "Simplify and write in exponential form: 2 to the minus 4 times 2 to the 7; p cubed times p to the minus 10."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "hegp102.txt lines 693-703, 745-789",
+   "questions": [
+    "Write 172, 5642 and 6374 in expanded powers of 10.",
+    "Write 561.903 using powers of 10 with negative exponents.",
+    "Write the Sun-galaxy distance and the Earth mass facts in scientific notation."
+   ]
+  }
+ ]
+}

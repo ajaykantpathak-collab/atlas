@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_005",
+   "title": "c11_soc_cbse_10_005",
+   "questions": [
+    {
+     "q": "State Ghurye's six features of caste in the correct order as presented in *Caste and Race in India*, using the exact terminology from the NCERT text (e.g., \"segmental division,\" \"hierarchical division,\" etc.).",
+     "a": "The six features in order: (i) Segmental division — caste divided into closed, mutually exclusive compartments determined by birth; (ii) Hierarchical division — each caste strictly unequal to every other, theoretically no two castes equal; (iii) Restrictions on social interaction — rules on food sharing governed by purity/pollution, including untouchability; (iv) Differential rights and duties — religious and secular privileges/obligations varying by caste; (v) Hereditary occupation — caste as rigid division of labour with birth-ascribed occupations; (vi) Endogamy with exogamy rules — marriage within caste combined with prohibitions (sapinda, sagotra, village exogamy). A wrong answer (e.g., missing \"segmental\" or confusing \"endogamy\" with \"exogamy\") reveals the student has memorised a simplified list without the precise sociological terminology required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Ghurye argued that Risley's racial theory of caste origin was \"broadly true only for northern India\" and what this implies about the relationship between endogamy and racial purity in the rest of the subcontinent.",
+     "a": "Ghurye accepted Risley's anthropometric data showing upper castes approximating Indo-Aryan traits and lower castes showing non-Aryan/Mongoloid traits — but only in the Indo-Gangetic plain (\"Hindustan proper\"). In the rest of India, inter-group differences in cranial/nasal measurements were neither large nor systematic, indicating long-term racial mixing. Ghurye concluded that endogamy preserved racial purity *only* where it was imposed on already-distinct groups (North India); elsewhere, endogamy was introduced *after* groups had already mixed racially. A wrong answer (e.g., \"Ghurye rejected Risley completely\" or \"Ghurye agreed everywhere\") shows the student misses Ghurye's nuanced regional qualification — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A sociologist studies a contemporary urban housing society where residents claim \"caste doesn't matter\" but the managing committee unanimously rejects a Dalit family's application citing \"cultural incompatibility.\" Using Ghurye's six features, identify which features are still operating and which appear weakened. Justify each identification with evidence from the scenario.",
+     "a": "Operating: (i) Segmental division — Dalit family excluded from the \"compartment\" of the housing society; (iii) Restrictions on social interaction — \"cultural incompatibility\" masks purity-pollution logic; (iv) Differential rights/duties — Dalit family denied the right to reside that others enjoy; (vi) Endogamy — residential segregation reinforces marriage boundaries. Weakened: (ii) Hierarchy — not explicitly articulated as ritual ranking; (v) Hereditary occupation — residents likely have diverse modern jobs. A wrong answer that claims \"caste is absent\" misses how Ghurye's features mutate rather than disappear — a key analytical skill for senior secondary sociology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Ghurye's and Risley's positions on the origin of caste. Then evaluate: does Ghurye's regional qualification (North India vs. rest of India) strengthen or weaken the racial theory of caste as a *general* explanation for the Indian subcontinent? Defend your judgment with two specific arguments.",
+     "a": "Risley: Caste originated in race — distinct racial types (Aryan vs. non-Aryan) mapped onto caste hierarchy; endogamy preserved this racial purity for centuries. Ghurye: Partially correct but only for North India; elsewhere racial mixing preceded endogamy, so caste cannot be explained by racial origin universally. Evaluation: Ghurye's qualification *fatally weakens* the racial theory as a general explanation because (1) it confines the theory's validity to one region (Indo-Gangetic plain), making it inapplicable to peninsular, eastern, or central India where most castes exist; (2) it shows endogamy and racial purity are historically contingent, not structurally necessary — if caste existed without racial purity in most of India, race cannot be caste's *origin*. A wrong answer that calls Ghurye a \"supporter\" of Risley fails to see that Ghurye used Risley's own data to demolish the theory's universality.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following student statement: \"Ghurye's six features are just a textbook definition — real caste today is about politics and economics, not purity and pollution.\" Your critique must reference at least three of Ghurye's features and explain why they remain analytically useful for understanding contemporary caste.",
+     "a": "The statement commits a category error: Ghurye's features are *analytical tools*, not a claim that caste hasn't changed. Three features remain indispensable: (1) Segmental division explains why caste-based political mobilisation (vote banks) works — castes still act as closed compartments; (2) Endogamy/exogamy persists — 95%+ marriages in India are intra-caste (NSSO data), reproducing boundaries that politics exploits; (3) Differential rights/duties maps onto contemporary affirmative action — reserved categories vs. general category is a modern legal encoding of Ghurye's \"religious and secular\" differential privileges. Purity-pollution (feature iii) mutates into \"cultural difference\" discourse (as in the housing society example). A weak critique treats \"textbook definition\" and \"reality\" as opposites rather than seeing definitions as lenses to decode reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question survey that a researcher could use in a village to test whether Ghurye's six features are still empirically observable. Each question must target a *specific* feature (name it) and yield measurable data (yes/no, frequency, ranking). Provide the feature name and the exact survey question for each.",
+     "a": "1. Segmental division: \"Is your caste membership determined solely by birth, with no possibility of change?\" (Yes/No)\n2. Hierarchical division: \"Rank these five local castes from highest to lowest ritual status.\" (Ordinal ranking)\n3. Restrictions on social interaction: \"In the past year, have you shared a cooked meal in the home of someone from a different caste?\" (Yes/No + frequency)\n4. Differential rights/duties: \"Are there temple rituals or village council decisions in which your caste cannot participate?\" (Yes/No + specify)\n5. Hereditary occupation: \"Is your current occupation the same as your father's/grandfather's traditional caste occupation?\" (Yes/No)\n6. Endogamy/exogamy: \"Was your spouse from the same caste? Were they from the same gotra or village?\" (Same caste: Yes/No; Same gotra/village: Yes/No)\nA poor answer uses vague questions like \"Do you believe in caste?\" which measure attitudes, not structural features — missing Ghurye's insistence on *institutional* observability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

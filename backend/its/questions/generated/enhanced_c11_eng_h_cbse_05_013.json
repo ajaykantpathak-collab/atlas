@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_013",
+   "title": "c11_eng_h_cbse_05_013",
+   "questions": [
+    {
+     "q": "What is the specific historical event that serves as the bifurcation point between the two worlds in \"The Adventure,\" and what are the two contrasting outcomes described in the torn Bakhar page versus Professor Gaitonde's own copy?",
+     "a": "The bifurcation point is the Battle of Panipat. In the torn Bakhar page (alternate world), Vishwasrao narrowly escapes a bullet (\"a shot brushed past his ear\"), the Marathas win, and the East India Company's expansion is halted. In Gaitonde's original copy (our world), Vishwasrao is killed (\"He was hit by the bullet\"), the Marathas lose morale and the battle, leading to British dominance. A wrong answer (e.g., naming the 1857 revolt or the Independence movement) reveals the student cannot locate the precise catastrophic moment that the entire narrative hinges on.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Rajendra Deshpande says Professor Gaitonde experienced a \"catastrophic experience\" rather than a \"fantastic experience.\" What does the term \"catastrophe\" mean in the scientific sense used in the story?",
+     "a": "Rajendra uses \"catastrophe\" in the technical sense of catastrophe theory: a sudden, qualitative shift in a system's behavior caused by a tiny change in parameters (here, a bullet missing by a \"til\"). It is not a synonym for \"disaster\" but a mathematical concept describing bifurcations between equilibria. A wrong answer that treats \"catastrophic\" as merely \"shocking\" or \"imaginative\" shows the student misses the central scientific metaphor that structures the story's logic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"lack of determinism in quantum theory\" (as explained by Rajendra) to the following scenario: In World A, an electron is in a high-energy state; in World B, it is in a low-energy state. If Professor Gaitonde's neurons acted as the \"observer,\" what determined which world he experienced, and why could he not experience both simultaneously?",
+     "a": "In quantum theory, a system exists in a superposition of states until measured. The \"observer\" (Gaitonde's neurons at the moment of collision) collapses the wavefunction into one definite state — he experiences only the world corresponding to that outcome. He cannot experience both because macroscopic observation forces a single reality (the measurement problem). A wrong answer suggesting he \"chose\" or \"dreamt\" one world reveals a misunderstanding of the story's use of quantum indeterminacy as a mechanism for world-transition, not wish-fulfillment.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the significance of the empty presidential chair at the Azad Maidan lecture. How does this symbol function at three levels: (a) literal plot device, (b) thematic representation of the alternate India's democratic culture, and (c) meta-commentary on Gaitonde's identity as a historian?",
+     "a": "(a) Literally, the empty chair triggers Gaitonde's compulsive need to preside, leading to his ejection and return to his world. (b) Thematically, the abolished chair symbolizes an India that rejected hierarchical colonial customs (\"We abolished the old customs long ago\"), showing a confident, self-respecting democracy. (c) Meta-commentarily, the chair represents the historian's authoritative voice — Gaitonde's desperate grasp for it mirrors his professional obsession with \"presiding\" over historical narrative, which the alternate world rejects. A partial answer addressing only one level shows fragmented analytical thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Rajendra's rationalization of Gaitonde's experience using catastrophe theory and quantum mechanics is scientifically plausible within the story's internal logic.\" Defend your position with two arguments from the text and one limitation.",
+     "a": "Plausible because: (1) The story grounds the transition in a specific physical trigger (the truck collision + Gaitonde's focused thoughts on catastrophe theory), satisfying the \"interaction\" requirement Rajendra mentions. (2) The torn Bakhar page provides empirical evidence that the alternate history exists as a tangible artifact, not just a hallucination. Limitation: The story never explains how a macroscopic human (not an electron) undergoes quantum tunneling between worlds — Rajendra admits this is a \"guess.\" A weak evaluation either accepts the science uncritically or dismisses it as \"magic\" without engaging the text's internal consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"bifurcation scenario\" for an alternate history of India by changing ONE specific pre-1947 event. Write a 100-word snapshot of the resulting present-day India (political, cultural, or technological), modeled on Narlikar's description of the Maratha-victory India (e.g., \"The East India Company was reduced to pockets of influence...\").",
+     "a": "Example: If the 1857 Revolt had succeeded in uniting Indian princely states under a federal coalition, India might have become a confederation of autonomous regions with a weak central council. British influence would be limited to treaty ports. Indigenous industrialization, funded by preserved textile wealth, could have made India a major manufacturing power by 1900. A poor answer merely lists changes without showing systemic ripple effects (political, economic, cultural) or mimicking Narlikar's analytical tone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

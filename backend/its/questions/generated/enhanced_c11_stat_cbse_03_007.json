@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_007",
+   "title": "c11_stat_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the formula for class width and calculate it for the class interval 150–200.",
+     "a": "Class width = Upper Class Limit − Lower Class Limit = 200 − 150 = 50. A wrong answer like 200/150 or (200+150)/2 reveals confusion between class width, ratio, and class mark calculations. Students who add the limits are confusing class width with the numerator of the class mark formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I make the class width smaller, I get more classes and therefore more accurate statistical results.\" Explain why this statement is partially correct but potentially misleading.",
+     "a": "Smaller class width increases the number of classes and reduces grouping error (loss of information), but excessively small widths create many sparsely populated classes, making patterns harder to discern and increasing computational burden. The statement ignores the trade-off between detail and interpretability. A wrong answer that agrees completely shows the student hasn't grasped the concept of optimal class width or the NCERT guideline of 6–15 classes.",
+     "self_check": true
+    },
+    {
+     "q": "The daily wages (in ₹) of 30 workers range from 180 to 540. Construct a frequency distribution with 6 classes of equal width. Show the class intervals and verify the class width.",
+     "a": "Range = 540 − 180 = 360. Class width = 360/6 = 60. Class intervals: 180–240, 240–300, 300–360, 360–420, 420–480, 480–540. Verification: 240−180=60, 300−240=60, etc. A wrong answer with width 59 or 61, or intervals like 180–239, reveals misunderstanding of exclusive vs inclusive limits or incorrect range calculation (e.g., using 539 as max).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the class widths in this frequency distribution: 0–10 (f=5), 10–20 (f=12), 20–30 (f=20), 30–40 (f=15), 40–50 (f=8). Then analyse what happens to the class marks if we merge the first two classes into 0–20.",
+     "a": "All original classes have equal width 10. Class marks: 5, 15, 25, 35, 45. After merging 0–10 and 10–20 into 0–20, new class width = 20, new class mark = 10. The merged class mark (10) no longer represents the concentration of the original two classes (which had marks 5 and 15 with different frequencies). This shows unequal widths distort representation. A wrong answer that says \"class mark becomes average of 5 and 15 = 10, so it's fine\" misses that frequencies were unequal (5 vs 12), so the true concentration was nearer 15.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher collects household income data ranging from ₹5,000 to ₹5,00,000 per month. She proposes 10 classes of equal width ₹49,500. Evaluate this choice and suggest a better approach with justification.",
+     "a": "Equal width is inappropriate here because income data is highly skewed—most households cluster at the lower end. With width ₹49,500, the first class (5,000–54,500) would contain the vast majority of observations, while higher classes would be nearly empty, wasting classes and obscuring lower-end detail. Better: use unequal class intervals (e.g., smaller widths at lower incomes, larger at higher) or open-ended classes at extremes. This follows NCERT guidance for variables with very high range and concentration. A wrong answer defending equal width ignores the \"concentration of values\" principle from the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where unequal class intervals are necessary, specify the variable, range, and proposed class intervals with widths, and explain why equal widths would fail.",
+     "a": "Scenario: Land holding sizes (in hectares) of 100 farmers in a district. Range: 0.1 to 50 hectares. 80% farmers have <2 hectares. Proposed intervals: 0–0.5 (w=0.5), 0.5–1 (0.5), 1–2 (1), 2–5 (3), 5–10 (5), 10–20 (10), 20–50 (30). Equal width (e.g., 6.25) would put 80 farmers in first class (0–6.25) and leave most classes empty. A poor answer uses a symmetric variable like height or marks where equal width works, showing failure to recognise skewness as the driver for unequal intervals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

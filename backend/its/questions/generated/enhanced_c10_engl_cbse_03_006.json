@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_03_006",
+   "title": "c10_engl_cbse_03_006",
+   "questions": [
+    {
+     "q": "What is the defining grammatical feature of first-person narration, and which pronoun does the pilot in \"The Black Aeroplane\" primarily use to refer to himself?",
+     "a": "The defining feature is the use of first-person pronouns, primarily \"I\" (and \"my,\" \"me\"). The pilot consistently uses \"I\" — e.g., \"I was flying my old Dakota,\" \"I saw the clouds,\" \"I turned the plane.\" A wrong answer (e.g., \"he\" or \"the pilot\") reveals the student confuses first-person with third-person limited, missing that the narrator *is* the protagonist, not an observer.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening paragraph, the narrator says, \"The moon was coming up in the east, behind me, and stars were shining in the clear sky above me.\" Explain why this description could *only* come from a first-person narrator, not a third-person narrator.",
+     "a": "The phrases \"behind me\" and \"above me\" anchor the spatial description to the narrator's body — a third-person narrator would write \"behind him\" or \"above the plane.\" A wrong answer (e.g., \"it shows the setting\") misses the embodied perspective: first-person ties sensory details to the narrator's physical orientation, making the reader share the cockpit view.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator writes, \"I was happy to be alone high up above the sleeping countryside.\" Later, he says, \"Inside the clouds, everything was suddenly black.\" Apply the concept of *limited perspective* to explain how the shift from \"happy\" to \"black\" is experienced differently in first-person than it would be in third-person omniscient.",
+     "a": "In first-person, we feel the emotional whiplash *with* the narrator — the contrast is subjective and immediate. In third-person omniscient, the narrator could simultaneously describe the storm's meteorological scale (e.g., \"a cumulonimbus cell spanning 50 km\") while the pilot feels fear, creating dramatic irony. A wrong answer that only notes \"the mood changes\" fails to apply the structural constraint: first-person *cannot* show what the character doesn't perceive.",
+     "self_check": true
+    },
+    {
+     "q": "When the black aeroplane appears, the narrator thinks, \"He knows I am lost... He is trying to help me.\" Analyze how the first-person perspective *forces* this interpretation on the reader, and what alternative interpretations are excluded.",
+     "a": "Because we only access the narrator's thoughts, his assumption (\"He is trying to help\") becomes our only explanation — we cannot see the other pilot's face, hear radio contact, or know the black plane's origin. Third-person could show the other pilot's hesitation, a military insignia, or a radar blip. The excluded alternatives: the black plane could be a hallucination, an enemy aircraft, or a natural phenomenon. A wrong answer listing \"the narrator is grateful\" misses the *narrative constraint*: first-person *eliminates* competing readings by design.",
+     "self_check": true
+    },
+    {
+     "q": "At the end, the control centre woman says, \"No other plane was flying tonight... yours was the only one on radar.\" Evaluate whether this ending *validates* or *undermines* the first-person narrative's reliability, and justify your judgment.",
+     "a": "It *undermines* the narrator's *interpretation* (that a real pilot guided him) but *validates* his *perception* (he genuinely saw a plane). The first-person frame makes the narrator reliable on sensory data (\"I saw lights\") but unreliable on causal inference (\"he came to rescue me\"). The twist works *because* first-person locked us into his inference. A wrong answer calling the narrator \"a liar\" or \"unreliable\" confuses mistaken inference with deliberate deception — the narrator reports honestly what he experienced.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph from the *control centre woman's* first-person perspective describing the same moment the narrator lands, using \"I\" and including one sensory detail she would notice that the pilot could not.",
+     "a": "Example: \"I watched the Dakota materialize from the storm, its wings level as if guided by an invisible hand, and my radar screen stayed stubbornly empty except for his blip. When he taxied in, I saw his hands trembling on the yoke — he looked like he'd seen a ghost. I checked the log twice: no other aircraft in a hundred kilometres. The coffee in my mug had gone cold while I waited for a second signal that never came.\" A poor answer writes in third-person (\"she saw\") or omits the exclusive sensory detail (radar screen, cold coffee), showing the student cannot shift the embodied perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

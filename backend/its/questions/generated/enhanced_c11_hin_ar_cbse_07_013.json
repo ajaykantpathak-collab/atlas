@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_07_013",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_07_013",
+   "title": "c11_hin_ar_cbse_07_013",
+   "questions": [
+    {
+     "q": "Identify the specific literary device Renu employs when the Executive Engineer (कार्यपालक अभियंता) writes in his official note: \"वक़्त है... जब हम पेड़ काटने के अभियान पर निकले हैं... एक बूढ़े पेड़ को काटने का साहस नहीं जुटा पा रहे हैं\" (We are on a mission to cut trees... yet cannot muster courage to cut one old tree).",
+     "a": "**Correct Answer:** Verbal Irony (व्यंग्यात्मक विडंबना). The Engineer uses \"साहस\" (courage) — a positive virtue — to describe the act of destroying a heritage tree, while the real courage (saving the tree/life) is absent.  \n**Wrong Answer Reveals:** If a student identifies this as \"sarcasm\" or \"metaphor,\" they confuse *tone* (sarcasm is spoken, bitter) with *structural device* (irony is situational/verbal contrast). If they say \"imagery,\" they are stuck at literal language level (Node 008) and cannot detect the gap between stated intent and actual meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the revelation that the old man is a poet (कवि) comes *after* the bureaucratic machinery has already decided to cut the tree, not before. What does this sequencing achieve?",
+     "a": "**Correct Answer:** The delayed revelation structures the satire as a *bureaucratic farce*. If the system knew he was a poet *first*, it might have acted differently (or hypocritically honored him). By revealing it *last*, Renu proves the system was ready to kill a nameless citizen; the \"poet\" label only saves him because of *external* pressure (national reputation), not internal justice.  \n**Wrong Answer Reveals:** If the student says \"to create suspense\" or \"surprise ending,\" they read for plot (Node 002) not theme. They miss that the *structure itself* is the argument: the system's logic is indifferent to identity until forced by publicity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"Kafkaesque bureaucracy\" to the scene where the file moves from Executive Engineer → Horticulture Superintendent → Forest Ranger → Agriculture Officer → Revenue Officer. List the exact reason *each* officer gives for *not* taking responsibility, and identify the pattern.",
+     "a": "**Correct Answer:**  \n1. Engineer: \"Tree is in Horticulture jurisdiction.\"  \n2. Horticulture: \"Tree is a forest tree, go to Forest Dept.\"  \n3. Forest Ranger: \"Tree is on revenue land, not forest land.\"  \n4. Agriculture: \"We only deal with crops, not trees.\"  \n5. Revenue: \"We only deal with land records, not trees.\"  \n**Pattern:** Circular buck-passing (चक्रीय टालमटोल) using technical definitions to evade moral responsibility.  \n**Wrong Answer Reveals:** If the student lists only 2-3 departments or misses the *technical excuse* pattern, they cannot synthesize across the text (Node 002/003) to prove the systemic critique. They treat episodes as isolated events.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two \"crowd scenes\" (भीड़ के दृश्य): (a) villagers pushing the old man under the tree to save the tree, and (b) the same villagers later gathering to hear the poet's verses. Compare the *mob psychology* in both using specific dialogues.",
+     "a": "**Correct Answer:**  \nScene (a): \"बूढ़े को पेड़ के नीचे धकेल दो\" (Push the old man under the tree) — Mob acts as *instrument of the state*, dehumanizing the individual for \"development.\"  \nScene (b): \"कविजी, एक कविता सुनाइए\" (Poetji, recite a poem) — Mob acts as *consumer of culture*, celebrating the same man they tried to kill.  \n**Analysis:** The mob has no agency; it mirrors the state's valuation. When the state wants the tree cut, the mob kills the man. When the state honors the poet, the mob applauds.  \n**Wrong Answer Reveals:** If the student only describes \"villagers were cruel then nice,\" they miss the *structural parallel* (Node 009: Irony). They fail to see the mob as a reflection of state power, not independent actors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the story's ending: The tree is saved, the poet lives, the road is widened *around* the tree. Is this a \"happy ending\"? Justify using the concept of \"Pyrrhic victory\" (पायरस विजय) and the final image of the poet's \"frightened eyes\" (डरी हुई आँखें).",
+     "a": "**Correct Answer:** No, it is a *tragic irony*, not a happy ending. The tree survives because the *system* fears bad press (the poet's national award), not because it values life. The poet's \"frightened eyes\" show he knows his survival is accidental, conditional on his label. The system remains unreformed — the road still widens, the file closes. Victory is Pyrrhic: the individual survives, but the *injustice* is validated.  \n**Wrong Answer Reveals:** If the student says \"Yes, justice prevailed\" or \"The tree was saved,\" they read for plot resolution (Node 002) not thematic depth. They confuse *outcome* with *meaning* and miss the open-ended critique (Node 006/007).",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line diary entry *from the perspective of the Executive Engineer* on the night the file is returned \"unresolved.\" Use bureaucratic language (सरकारी भाषा) to reveal his private guilt.",
+     "a": "**Criteria for Good Answer:**  \n- Uses formal Hindi bureaucratic register (e.g., \"उक्त प्रकरण,\" \"सक्षम अधिकारी,\" \"जनहित में\").  \n- Reveals contradiction: official language masks moral failure.  \n- Example: \"दिनांक १५/१०: उक्त वृक्ष प्रकरण में वन/उद्यान/राजस्व विभागों से अनापत्ति प्राप्त न होने पर पत्रावली वापस। जनहित में सड़क चौड़ीकरण अनिवार्य, किन्तु एक वृद्ध कवि की मृत्यु का दायित्व इस कार्यालय पर? निर्णय स्थगित।\"  \n**Poor Answer Reveals:** If the student writes emotional language (\"I feel sad,\" \"It was wrong\"), they cannot sustain the *persona* or use *register* as evidence (Node 011: Grammar/Language Usage). They fail to show how language *constructs* the bureaucracy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

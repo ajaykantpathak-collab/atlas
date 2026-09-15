@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_001",
+   "title": "c10_civ_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define federalism in one sentence using the exact constitutional basis from the Indian Constitution.",
+     "a": "Federalism is a system where the Constitution (Articles 1, 246, Seventh Schedule) divides legislative, executive, and financial powers between the Union and States, making both coordinate and independent in their spheres. A wrong answer like \"Central government gives powers to states\" reveals the misconception that states derive power from the Centre (unitary feature), not the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a written constitution considered an essential feature of federalism? Explain with reference to the Indian context.",
+     "a": "A written constitution rigidly entrenches the division of powers, preventing unilateral change by either level. In India, Amendment under Article 368 requires special majority + state ratification for federal provisions, protecting state autonomy. A wrong answer like \"It just records the laws\" misses the *entrenched, supreme* nature that binds both Centre and States — a key distinction from the UK's unwritten unitary constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: The Parliament passes a law on \"Public Health\" (a State List subject) without a Rajya Sabha resolution under Article 249 or a national emergency. A state challenges it in the Supreme Court. Apply the principle of division of powers to determine the likely outcome.",
+     "a": "The law will be struck down as ultra vires. Under Article 246(3), \"Public Health\" is exclusively in the State List (Entry 6). Parliament can legislate on State List subjects *only* under Articles 249 (Rajya Sabha resolution), 250 (Emergency), 252 (State consent), or 253 (Treaties). Since none apply, the Centre encroached on state jurisdiction. A wrong answer like \"Parliament is supreme, so law stands\" confuses parliamentary sovereignty (UK) with constitutional supremacy (India).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the judiciary in a federal system vs. a unitary system. Why is an independent judiciary *more critical* in a federation?",
+     "a": "In a federation, the judiciary (Supreme Court under Article 131) acts as the *umpire* of the federal balance — resolving Centre-State disputes and interpreting the division of powers. In a unitary system, courts review legality but not *constitutional division of sovereignty* because none exists. A wrong answer like \"Judiciary interprets laws in both\" misses the unique *arbitration* role in federations — without it, the Centre would dominate (as seen in pre-1967 Centre-State tensions).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India is a federal country with strong unitary features.\" Is this an accurate description of the *design* of Indian federalism? Justify using two constitutional provisions.",
+     "a": "Yes, it accurately describes the *design* (not a flaw). The Constitution *intentionally* includes unitary features for unity/integrity: Article 256 (Centre's executive directions to States), Article 356 (President's Rule), Article 248 (Residuary powers to Centre), and single citizenship (Article 5). These are not bugs but features for a \"holding together\" federation (c10_civ_cbse_02_003). A wrong answer like \"India is not truly federal\" confuses *quasi-federal* design with *non-federal* — India *is* federal (Keshavananda Bharati, S.R. Bommai cases) but with a strong Centre.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example of a \"federal feature\" not explicitly listed in the textbook but logically derived from the principle of constitutional division of powers. Explain which feature it supports.",
+     "a": "Example: **Dual audit institutions** — Comptroller and Auditor General (CAG) audits Union accounts; State Accountants General audit State accounts — both constitutionally independent (Articles 148, 151). This supports *fiscal federalism* and *independent spheres of operation*. A poor answer like \"Two police forces\" is weak because police is a State subject (Entry 2, List II) — not a *structural* federal feature. Good answers identify *institutional duplication* mirroring the dual polity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

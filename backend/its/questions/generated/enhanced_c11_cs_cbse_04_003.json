@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_003",
+   "title": "c11_cs_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the primary visual indicator that you are in Python's interactive mode inside IDLE?",
+     "a": "The primary visual indicator is the `>>>` prompt (three greater-than signs) displayed in the IDLE Shell window, showing the interpreter is ready to accept a single statement. A wrong answer such as \"a blank file window\" or \"a `.py` extension\" reveals the student confuses the script-mode editor with the interactive shell.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a variable defined in one interactive session is not available in a new interactive session after closing and reopening IDLE.",
+     "a": "Interactive mode stores variables only in the current session's memory (RAM); when the shell closes, the process terminates and all namespaces are destroyed. A wrong answer like \"variables are saved in the `.py` file\" shows the student mistakenly believes interactive mode persists data like script mode does.",
+     "self_check": true
+    },
+    {
+     "q": "You have written a 15-line program to compute the average of numbers entered by the user. Which execution mode should you use, and what specific steps must you follow in IDLE to run it?",
+     "a": "Use script mode. Steps: (1) Open IDLE → File → New File. (2) Type the 15 lines of code. (3) Save the file with a `.py` extension (e.g., `average.py`). (4) Press F5 or choose Run → Run Module. A wrong answer suggesting \"type all lines at the `>>>` prompt\" indicates the student does not grasp that script mode handles multi-line programs efficiently while interactive mode is cumbersome for more than a few lines.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the error feedback you receive when a syntax error exists in a single line typed at the `>>>` prompt versus the same error inside a `.py` file run with F5.",
+     "a": "In interactive mode, the error is reported immediately after pressing Enter, pointing to the exact line just typed. In script mode, the error appears in a separate traceback window only after pressing F5, showing the file name, line number, and the offending line. A wrong answer claiming \"both show errors in the same way\" reveals the student has not observed the different error-reporting interfaces.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that interactive mode is always better because it gives instant results. Evaluate this claim with two concrete scenarios where script mode is clearly superior.",
+     "a": "The claim is false. Scenario 1: A 200-line payroll program — interactive mode would require re-typing or copy-pasting every line each run. Scenario 2: A team project where multiple programmers edit the same code — script mode enables version control and collaboration, while interactive mode has no sharing mechanism. A weak evaluation that only mentions \"script mode saves files\" misses the collaboration and maintenance aspects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short Python activity (3-4 lines) that demonstrates a clear advantage of script mode over interactive mode, and explain why your example works better as a script.",
+     "a": "Example: A script that reads a file, processes each line, and writes results to another file. In interactive mode, file handles and loops spanning multiple lines are awkward and error-prone; in script mode, the entire flow is saved, editable, and rerunnable. A poor answer might give a single arithmetic expression, which offers no advantage in script mode.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

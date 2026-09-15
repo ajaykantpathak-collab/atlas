@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_unknown_kest101",
+ "concepts": [
+  {
+   "id": "kest101.1.1",
+   "title": "What Economics Studies: The Ordinary Business of Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'What Economics Studies: The Ordinary Business of Life' refers to.",
+     "a": "Economics, as Alfred Marshall put it, studies man in the ordinary business of life -- how people earn, spend, save and choose among scarce means. Scarcity and choice form its core: unlimited wants chasing limited resources force every household, firm and government to economise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What Economics Studies: The Ordinary Business of Life'.",
+     "a": "Unlimited wants, limited resources -- every economic act is a choice about scarcity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'What Economics Studies: The Ordinary Business of Life' taught, and from which source text?",
+     "a": "1.1 (source: kest101.txt opening sections (alfred marshall definition, ordinary business of life, scarcity and choice, consumers and producers))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest101.1.2",
+   "title": "Why Economics Needs Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why Economics Needs Statistics' refers to.",
+     "a": "Economic facts come as numbers -- prices, incomes, output, employment -- and statistics is the tool-set that collects, organises, presents, analyses and interprets them. Without statistical methods, the economist's statements would remain vague impressions instead of tested conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why Economics Needs Statistics'.",
+     "a": "Economics thinks in numbers -- statistics turns those numbers into evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why Economics Needs Statistics' taught, and from which source text?",
+     "a": "1.2 (source: kest101.txt statistics sections (role of statistics in economics, statistical tools, data as numerical statements, use in policy))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest101.1.3",
+   "title": "The Three Central Problems of an Economy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Three Central Problems of an Economy' refers to.",
+     "a": "Every economy, rich or poor, must answer three questions: what to produce, how to produce, and for whom to produce. Market economies answer through prices; centrally planned economies through state decisions; mixed economies blend both -- and statistics measures how well each answer works.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Three Central Problems of an Economy'.",
+     "a": "What, how, for whom -- three questions every economy must answer, by market or by plan.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Three Central Problems of an Economy' taught, and from which source text?",
+     "a": "1.3 (source: kest101.txt problems sections (what how and for whom, market economy, planned economy, mixed economy))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

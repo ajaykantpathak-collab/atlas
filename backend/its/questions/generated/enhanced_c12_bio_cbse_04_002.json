@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_002",
+   "title": "c12_bio_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define periodic abstinence (rhythm method) and state the physiological basis for identifying the fertile window in a typical 28-day menstrual cycle.",
+     "a": "Periodic abstinence is a natural contraceptive method where couples avoid sexual intercourse during the fertile window of the menstrual cycle (approximately days 10–17 in a 28-day cycle) when ovulation is most likely to occur. The physiological basis is that the ovum survives for about 24 hours after ovulation (around day 14) and sperm can survive in the female reproductive tract for up to 5 days, creating a fertile window of roughly 6 days. A wrong answer that states the fertile window is only the day of ovulation reveals a misunderstanding of sperm survival duration and the need for a buffer period.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the withdrawal method (coitus interruptus) has a high failure rate despite being a natural method that prevents sperm deposition in the vagina.",
+     "a": "The withdrawal method fails frequently because pre-ejaculatory fluid (Cowper's gland secretion) may contain viable sperm, and it requires immense self-control and perfect timing during every act of intercourse. Additionally, sperm deposited near the vaginal introitus can still swim into the vagina. A wrong answer that claims \"withdrawal is 100% effective if done correctly\" ignores the biological reality of pre-ejaculate sperm and the practical difficulty of consistent execution, a common misconception that costs marks in board exams and NEET.",
+     "self_check": true
+    },
+    {
+     "q": "A couple uses the lactational amenorrhea method (LAM) for contraception. The mother is exclusively breastfeeding her 4-month-old infant, has not resumed menstruation, and feeds the baby on demand day and night. Predict whether this method is likely to be effective and justify your answer using the hormonal mechanism.",
+     "a": "Yes, LAM is likely effective (up to 98% if all three criteria are met). The mechanism is that frequent suckling elevates prolactin, which suppresses GnRH and consequently LH/FSH, preventing follicular development and ovulation. The absence of menstruation indicates anovulation. A wrong answer that says \"breastfeeding always prevents pregnancy\" fails to specify the strict criteria: exclusive breastfeeding, infant <6 months, and amenorrhea — missing any one increases failure risk significantly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the male condom and the diaphragm in terms of (a) site of action, (b) user control, (c) protection against STIs, and (d) requirement for professional fitting.",
+     "a": "(a) Male condom acts on the penis (covers erect penis), diaphragm acts on the cervix (covers cervical os). (b) Male condom is male-controlled, diaphragm is female-controlled. (c) Male condom provides significant STI protection (latex/polyurethane barrier), diaphragm offers limited STI protection (does not cover vaginal walls/penis). (d) Male condom requires no fitting, diaphragm requires professional fitting for correct size. A wrong answer that equates their STI protection or claims both need fitting reveals confusion about barrier coverage and clinical requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Spermicidal creams/jellies/foams used alone are highly effective contraceptives with a Pearl Index <5.\" Is this true or false? Justify with the mechanism and typical-use failure rate.",
+     "a": "False. Spermicides alone have a high typical-use failure rate (Pearl Index ~15–28) because they only immobilize/kill sperm chemically (surfactants disrupt sperm membranes) but do not provide a physical barrier; sperm can bypass the chemical film. They are recommended only as adjuncts to barrier methods (condom, diaphragm) to improve efficacy. A wrong answer that accepts the statement confuses spermicides with combined hormonal methods and ignores the critical distinction between perfect-use and typical-use effectiveness — a frequent trap in NEET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a counseling plan for a 25-year-old woman with irregular menstrual cycles (25–35 days) who wants a hormone-free, user-controlled contraceptive method and is at risk of STIs. Specify which natural and/or barrier methods you would recommend, which you would advise against, and why.",
+     "a": "Recommend: Male condom (STI protection, no hormones, user-controlled by partner but she can negotiate use) and/or female condom (female-controlled, STI protection). Advise against: Periodic abstinence (unreliable with irregular cycles), withdrawal (high failure, no STI protection), LAM (not breastfeeding), diaphragm/cervical cap (require fitting, no STI protection, less convenient). Spermicides alone are insufficient. A poor answer that suggests rhythm method for irregular cycles shows failure to apply the physiological basis of natural methods to a clinical scenario — a key competency for board case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

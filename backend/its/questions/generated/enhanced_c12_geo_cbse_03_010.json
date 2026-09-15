@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_010",
+   "title": "c12_geo_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define sustainable development in the specific context of human development as used in the UN Human Development Reports.",
+     "a": "Sustainable development in human development means expanding people's capabilities (health, education, income) today while preserving the natural and social resource base so that future generations can enjoy at least the same range of choices. A wrong answer that equates it only with environmental conservation (e.g., \"planting trees\") misses the human capabilities core; a wrong answer that equates it with GDP growth misses the intergenerational equity and distribution dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the four pillars — equity, sustainability, productivity, and empowerment — are described as interdependent rather than independent conditions for human development.",
+     "a": "They are interdependent because a deficit in one pillar undermines the others: without equity, productivity gains concentrate in elite groups (e.g., Green Revolution benefits bypassing landless labourers); without sustainability, today's productivity depletes groundwater, reducing future productivity; without empowerment, marginalised groups cannot claim equitable access or demand sustainable practices. A wrong answer listing them as separate checkboxes fails to see the systemic feedback loops that geography emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "A district in Maharashtra has 78% literacy, life expectancy 72 years, and per capita income ₹1.8 lakh. Its groundwater extraction is 145% of recharge. Using the four pillars, assess whether this district's current human development trajectory is sustainable. Show your reasoning.",
+     "a": "Step 1: High literacy and life expectancy indicate strong health/education capabilities (productivity pillar). Step 2: Per capita income above national average suggests income capability. Step 3: Groundwater extraction >100% recharge violates sustainability pillar — future agricultural productivity and drinking water security are compromised. Step 4: If extraction benefits only large farmers, equity pillar fails. Conclusion: Current HDI-like achievements are not sustainable; the district is borrowing from future generations. A wrong answer focusing only on the high indicators ignores the biophysical threshold breach.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Capability Approach (Amartya Sen) and the Basic Needs Approach (ILO) in terms of how each addresses sustainability and empowerment. Which aligns better with the SDG principle of \"leaving no one behind\"? Justify.",
+     "a": "Capability Approach focuses on expanding freedoms and agency (empowerment) so people define their own well-being, inherently requiring sustainable resource use to preserve future freedoms. Basic Needs Approach delivers a fixed package (top-down), risking dependency and ignoring ecological limits. Capability Approach aligns with \"leaving no one behind\" because it demands removal of structural barriers (caste, gender) that Basic Needs treats as delivery gaps. A wrong answer saying both are similar because they target poverty misses the agency vs. provision distinction central to SDG 10 and 16.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's improvement in HDI rank from 133 to 130 (2022-23) proves sustainable development is being achieved.\" Use at least two pillars and one SDG target in your evaluation.",
+     "a": "HDI measures attainment, not sustainability. Rank improvement could come from income growth driven by groundwater mining (violating SDG 6.4 on water-use efficiency) or coal expansion (violating SDG 13). If inequality widens (SDG 10.1), equity pillar fails. Without disaggregated data by caste/gender/region, we cannot verify empowerment (SDG 5.5, 16.7). A wrong answer accepting the statement confuses a snapshot indicator with a dynamic, distributional process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level monitoring framework for SDG 4 (Quality Education) and SDG 6 (Clean Water) that operationalizes all four pillars. Specify one indicator per pillar per goal.",
+     "a": "SDG 4: Equity — gender parity in secondary enrolment; Sustainability — % schools with functional rainwater harvesting (water for sanitation); Productivity — learning outcomes (ASER reading/math); Empowerment — % SMC meetings with women participation. SDG 6: Equity — piped water access for SC/ST hamlets; Sustainability — groundwater recharge vs extraction ratio; Productivity — reduction in water-borne disease days; Empowerment — women in water user committee decisions. A poor answer gives generic targets without pillar-specific, locally measurable indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

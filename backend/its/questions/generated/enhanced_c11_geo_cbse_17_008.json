@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_008",
+   "title": "c11_geo_cbse_17_008",
+   "questions": [
+    {
+     "q": "Name the three types of area-based development models permitted under the Smart Cities Mission and give the typical area range (in acres) for each.",
+     "a": "The three models are: (1) Retrofitting (50–500 acres) — upgrading existing built-up areas with smart infrastructure; (2) Redevelopment (5–50 acres) — replacing existing built environment with new layout; (3) Greenfield (50–250 acres) — developing new areas on vacant land. A wrong answer (e.g., confusing retrofitting with redevelopment, or giving area in sq km) reveals the student has not internalised the Mission's spatial design flexibility and the scalability logic behind acreage thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Smart Cities Mission uses a \"Challenge Method\" (competitive selection) instead of allocating funds to all ULBs based on population or backwardness.",
+     "a": "The Challenge Method ensures competitive federalism: cities must demonstrate institutional readiness (SPV formation, revenue capacity), citizen engagement (MyGov consultations), and a credible Smart City Proposal (SCP) with cross-sectoral convergence. It shifts from entitlement to performance-based funding. A wrong answer (e.g., \"to save money\" or \"only developed cities win\") reveals misunderstanding of the Mission's theory of change — that competition catalyses reform (e.g., municipal cadre, GIS mapping, financial transparency) even in non-winning cities.",
+     "self_check": true
+    },
+    {
+     "q": "A Tier-2 city (population 8 lakh) is selected in Round 2. Its SCP allocates ₹2,000 crore: 70% for area-based development (ABD) in a 120-acre retrofitting zone, 20% for pan-city ICT, 10% for O&M. Calculate the per-acre investment in the ABD zone and evaluate whether this aligns with the Mission's \"lighthouse\" principle.",
+     "a": "Step 1: ABD allocation = 70% of ₹2,000 crore = ₹1,400 crore. Step 2: Area = 120 acres. Step 3: Per-acre investment = ₹1,400 crore / 120 = ₹11.67 crore/acre. Step 4: Mission guideline suggests ₹10–15 crore/acre for retrofitting — this falls within range. Step 5: The \"lighthouse\" principle requires the ABD to be a replicable model; high per-acre spend creates a visible showcase but risks inequity if pan-city gets only 20%. A wrong calculation or missing the equity critique shows inability to link financial planning to spatial justice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the governance structure of a Smart City SPV with a traditional Municipal Corporation. Identify two advantages and two risks of the SPV model for democratic accountability.",
+     "a": "SPV is a private limited company (Companies Act 2013) with 50:50 Centre-State equity, CEO as functional head, and board including municipal commissioner, state reps, and independent experts. Advantages: (1) Faster decision-making (bypasses council deliberations), (2) Ring-fenced funds and professional management. Risks: (1) Elected councillors lose control over ₹1,000+ crore projects, (2) Parallel accountability lines weaken 74th Amendment's devolution. A wrong answer missing the 74th Amendment conflict reveals ignorance of constitutional urban governance framework.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Smart Cities Mission solves urban problems by importing Western technology; Indian cities just need better apps and sensors.\" Use evidence from at least two Mission components.",
+     "a": "The statement is flawed. Evidence: (1) Area-based development prioritises *physical* retrofitting (24×7 water, sewerage, non-motorised transport, public spaces) — not just apps. Example: Bhubaneswar's ABD includes 50 km cycle tracks and 100% sewage treatment. (2) Convergence mandates integration with AMRUT (water supply), Swachh Bharat (solid waste), PMAY (housing) — these are basic infrastructure, not \"Western tech\". (3) Citizen participation via MyGov, ward committees, and SPV board includes local voices. A wrong answer accepting the statement reveals technological determinism misconception — ignoring the Mission's \"people-first, technology-last\" design philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step framework for a non-selected city to adopt \"smart\" practices without Central funding, leveraging its existing Master Plan, 15th Finance Commission grants, and local university partnerships.",
+     "a": "Good answer criteria: (1) Map Master Plan proposals to smart components (e.g., zoning → GIS-based land use monitoring). (2) Use 15th FC tied grants (water, sanitation) for sensor-based SCADA in water supply. (3) Partner with local engineering college for low-cost IoT air quality/traffic sensors (student projects). (4) Create a \"City Data Officer\" post in ULB using existing staff + interns. (5) Pilot one ward as \"lighthouse\" using convergent funding, document for state replication. Poor answer: lists generic \"use technology\" without linking to statutory planning, finance, or local institutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

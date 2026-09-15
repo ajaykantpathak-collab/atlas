@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_007",
+   "title": "c12_geo_cbse_06_007",
+   "questions": [
+    {
+     "q": "Name the three factors affecting industrial location covered in this node and give one one-sentence definition for each.",
+     "a": "Correct answer: Market — the demand for finished goods and purchasing power of consumers; Transport — the network and cost of moving raw materials and finished products; Capital — the financial investment required for establishment and operation. A wrong answer (e.g., listing raw material or labour) reveals the student has not distinguished this node's scope from the previous node (raw materials) or other factors.",
+     "self_check": true
+    },
+    {
+     "q": "Why do perishable-goods industries (e.g., dairy, bakery) almost always locate very close to urban markets, whereas heavy machinery industries may locate farther away? Explain using the concept of transport cost per unit value.",
+     "a": "Correct answer: Perishable goods have high spoilage risk and low value-to-weight ratio, so transport cost per unit value escalates rapidly with distance; they must be near consumers. Heavy machinery has high value-to-weight ratio, so transport cost per unit is low, allowing greater distance from market. A wrong answer that ignores value-to-weight ratio or perishability shows the student cannot apply the transport-cost principle to different product types.",
+     "self_check": true
+    },
+    {
+     "q": "A furniture manufacturer is deciding between two sites: Site A is 20 km from a metropolitan market (population 5 million) but has poor road connectivity; Site B is 80 km from the same market but lies on a four-lane highway and a freight rail line. Using the concept of **cost distance**, which site is likely more profitable for a high-value, low-weight product (e.g., modular kitchen units)? Show your reasoning in 3 steps.",
+     "a": "Step 1: Define cost distance = monetary expense of moving one unit of product from factory to market. Step 2: For high-value, low-weight goods, transport cost per unit is low; time reliability matters more than absolute distance. Step 3: Site B's highway/rail link ensures faster, predictable, cheaper per-unit transport despite greater km distance, while Site A's poor roads cause delays, damage, and higher per-trip costs. Answer: Site B. A wrong choice of Site A reveals the student equates \"km distance\" with \"cost distance\" and ignores transport quality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of capital in the location of (a) a large integrated steel plant and (b) a small-scale readymade garment unit. How does the **source and scale of capital** differ, and what locational consequences follow?",
+     "a": "(a) Steel plant: requires massive fixed capital (thousands of crores), sourced from public sector banks, government equity, or foreign direct investment; location often dictated by state-level negotiations, leading to plants in backward regions for regional development (e.g., Bhilai, Rourkela). (b) Garment unit: needs modest working capital (lakhs to few crores), sourced from personal savings, informal credit, or microfinance; locates where skilled labour and market access exist (e.g., Tiruppur, Okhla). A wrong answer that treats capital as homogeneous shows inability to differentiate capital intensity and its spatial implications.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"With modern containerized shipping and air freight, transport is no longer a significant factor in industrial location; markets are globally accessible.\" Use the concepts of **transport cost share in final price** and **just-in-time manufacturing** to justify your evaluation.",
+     "a": "The statement is partially true for high-value, low-weight goods (electronics, pharmaceuticals) where transport cost share is <2% and air freight enables global just-in-time chains. However, for bulk, low-value goods (cement, bricks, aggregates), transport cost share can exceed 30%; even containerization doesn't overcome the physics of weight and volume. Just-in-time requires reliability — ports, highways, rail — which are unevenly distributed. Industries still cluster near transport nodes (e.g., automotive around Chennai's port). A student agreeing fully reveals a \"death of distance\" misconception ignoring commodity-specific transport economics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new electric two-wheeler assembly plant in India. Choose 5 criteria (including market, transport, capital) and assign weights (sum = 100). Score three hypothetical sites (Site X: near Delhi; Site Y: near Pune; Site Z: near Hyderabad) on a 1-10 scale for each criterion. Show the weighted total and recommend the best site.",
+     "a": "Criteria & weights: Market access (30), Transport connectivity (25), Capital incentives (20), Skilled labour (15), Supplier ecosystem (10). Scoring (example): Site X: 9, 8, 6, 7, 8 → 7.95; Site Y: 8, 9, 8, 9, 9 → 8.45; Site Z: 7, 7, 9, 8, 7 → 7.55. Recommendation: Site Y (Pune) — strong in all, especially transport, capital incentives, and supplier base. A poor answer uses equal weights or ignores supplier ecosystem, showing inability to synthesize multiple locational factors quantitatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_012",
+   "title": "c11_cs_cbse_02_012",
+   "questions": [
+    {
+     "q": "State the truth table of a 2-input NAND gate and write its Boolean expression.",
+     "a": "Truth table: A=0,B=0→Y=1; A=0,B=1→Y=1; A=1,B=0→Y=1; A=1,B=1→Y=0. Boolean expression: Y = (A·B)' or Y = \\overline{A·B}. A wrong answer (e.g., swapping 0/1 outputs) reveals confusion between NAND and AND truth tables or misunderstanding of the overbar notation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a single NAND gate with its inputs shorted together acts as a NOT gate.",
+     "a": "When both inputs are the same (A=A), the NAND output is (A·A)' = A' by idempotent law, which is exactly the NOT operation. A wrong explanation (e.g., \"it inverts because NAND is opposite of AND\") shows the student relies on vague intuition instead of Boolean algebra proof.",
+     "self_check": true
+    },
+    {
+     "q": "Using only 2-input NAND gates, draw the circuit that implements the Boolean function F = A + B (OR operation). Label all gate outputs.",
+     "a": "Step 1: Generate A' and B' using two NAND gates with tied inputs. Step 2: Feed A' and B' into a third NAND gate. Output = (A'·B')' = A + B by De Morgan. A wrong circuit (e.g., using only two NANDs or connecting A,B directly to the final NAND) reveals inability to apply De Morgan's theorem for gate conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of NAND gates required to implement (i) NOT, (ii) AND, (iii) OR. Then argue which basic gate is most \"expensive\" in terms of NAND gate count and why.",
+     "a": "NOT: 1 NAND; AND: 2 NANDs (NAND + NOT); OR: 3 NANDs (two NOTs + one NAND). OR is most expensive because it requires both inputs to be complemented before the final NAND, whereas AND needs only one inversion after a NAND. A wrong comparison (e.g., saying AND uses 3) shows misunderstanding of the construction steps.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since NAND is universal, any circuit built with AND, OR, NOT can be replaced by a NAND-only circuit with the same number of gates.\" Evaluate this claim.",
+     "a": "The claim is false. Universality guarantees functional equivalence, not gate-count equivalence. Converting AND/OR/NOT to NAND-only often increases gate count (e.g., OR needs 3 NANDs vs 1 OR gate). A student agreeing with the claim confuses logical completeness with physical optimality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new logic gate symbol (with a distinct shape) that represents a 3-input NOR gate. Write its truth table and Boolean expression, then show how to build a 2-input AND gate using only two of your 3-input NOR gates (you may leave one input unused or tie it appropriately).",
+     "a": "Symbol: triangle with a bubble at output, three input lines. Truth table: output 1 only when all three inputs are 0. Expression: Y = (A+B+C)'. To make 2-input AND: Gate1: tie two inputs to A, third to 0 → output A'. Gate2: tie two inputs to B, third to 0 → output B'. Then feed A' and B' into a third NOR with third input 0? Wait, we are allowed only two 3-input NOR gates. Actually, with two 3-input NOR gates we can make AND by using De Morgan: (A+B)' = A'B'? Let's think: First NOR: inputs A, B, 0 → (A+B+0)' = (A+B)'. Second NOR: tie all three inputs to (A+B)' → ((A+B)')' = A+B. That gives OR, not AND. To get AND with two 3-input NORs: First NOR: A, A, 0 → A'. Second NOR: B, B, 0 → B'. But we need a third gate to combine A' and B'. So two 3-input NORs are insufficient for AND. A good answer recognises the constraint and explains why two are not enough or proposes a correct 3-gate construction. A poor answer forces an incorrect 2-gate circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

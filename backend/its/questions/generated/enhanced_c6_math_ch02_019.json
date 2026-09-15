@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_019",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_019",
+   "title": "c6_math_ch02_019",
+   "questions": [
+    {
+     "q": "What is the result of adding (-3) + (-4) on a number line?",
+     "a": "The result is -7. A wrong answer like +7 or +1 reveals that the student is ignoring the negative signs and treating them as regular addition or failing to move in the correct direction on the number line.",
+     "self_check": true
+    },
+    {
+     "q": "If you are at Floor +2 and you press the \"-3\" button in the lift, explain why you end up at Floor -1.",
+     "a": "Starting at +2, moving down 3 floors takes you past 0 (the ground) to -1. A student who says the answer is +1 or -5 has not grasped that negative movement from a positive starting point crosses the zero barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: (+5) + (-8). Show your steps using the token method.",
+     "a": "Place 5 green (positive) tokens and 8 red (negative) tokens. Pair each green with a red to form 5 \"zero pairs\" (which equal 0). You are left with 3 red tokens, so the answer is -3. A common error is to just subtract the numbers and guess the sign; the token method proves the sign must be negative because more negatives exist.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the addition of (+3) + (+5) and (+3) + (-5). How does the \"direction\" of the second number change the final result?",
+     "a": "Adding +5 moves you further away from zero in the positive direction (reaching +8), while adding -5 moves you backward, crossing zero and landing in the negative side (reaching -2). A wrong answer suggests the student thinks the sign of the second number doesn't matter for the final direction.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the sum of a positive integer and a negative integer to be zero? Provide an example.",
+     "a": "Yes, when the numbers are additive inverses, such as (+4) + (-4) = 0. Students who say \"no\" do not yet understand that positive and negative quantities can perfectly cancel each other out.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem that results in the expression (-10) + (+15).",
+     "a": "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15). What is my new balance?\" A poor answer would be a problem that doesn't involve a starting debt or negative state.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

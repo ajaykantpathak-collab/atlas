@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_001",
+   "title": "c11_geo_cbse_25_001",
+   "questions": [
+    {
+     "q": "Define aerial photography and state the geometric principle on which it is based.",
+     "a": "Aerial photography is the acquisition of photographs of the Earth's surface from an airborne platform using a precision metric camera. It is based on the principle of **central projection** (perspective projection), where light rays from ground points pass through a single point (the perspective centre / lens nodal point) and intersect the image plane (focal plane) to form an inverted image. A wrong answer (e.g., \"parallel projection\" or \"orthographic projection\") reveals the student confuses aerial photographs with satellite scanner imagery or map projections — they have not grasped that every aerial photograph is a perspective view with scale variation due to relief and tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a vertical aerial photograph show scale variation across the image even when the camera is perfectly level, whereas a topographical map maintains constant scale?",
+     "a": "A vertical aerial photograph is a **central projection** — scale at any point = focal length / (flying height – ground elevation). Since ground elevation varies (hills, valleys), the denominator changes, causing scale to vary: larger scale on hilltops (closer to camera), smaller scale in valleys. A topographical map uses an **orthographic projection** (parallel rays) with a mathematically defined projection surface, enforcing constant scale by design. A student who answers \"because the photo is distorted\" without mentioning relief displacement and the focal length / (H–h) relationship shows they memorise the symptom but not the geometric cause.",
+     "self_check": true
+    },
+    {
+     "q": "A Survey of India aircraft flies at 3000 m above mean sea level (AMSL) with a 152 mm focal length camera. Calculate the photo scale at a hilltop (elevation 800 m AMSL) and in a valley (elevation 200 m AMSL). Express both as representative fractions (RF).",
+     "a": "**Step 1:** Identify formula: Scale (RF) = f / (H – h), where f = focal length, H = flying height AMSL, h = ground elevation AMSL.  \n**Step 2:** Convert units: f = 152 mm = 0.152 m.  \n**Step 3:** Hilltop: H – h = 3000 – 800 = 2200 m. Scale = 0.152 / 2200 = 1 / 14,474 ≈ **1:14,474**.  \n**Step 4:** Valley: H – h = 3000 – 200 = 2800 m. Scale = 0.152 / 2800 = 1 / 18,421 ≈ **1:18,421**.  \n**Step 5:** Verify — hilltop scale is larger (denominator smaller) because ground is closer to camera.  \nA wrong answer using H only (ignoring h) yields 1:19,737 for both — this reveals the student treats aerial photos like maps with uniform scale, missing the core concept of relief-dependent scale variation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a low oblique and a high oblique aerial photograph in terms of: (a) horizon visibility, (b) scale variation pattern, (c) suitability for mapping hilly terrain like the Himalayas.",
+     "a": "(a) Low oblique: horizon **not** visible (camera tilted < 30° from vertical). High oblique: horizon **visible** (tilt 30°–60°).  \n(b) Low oblique: scale decreases **gradually** from near (larger scale) to far edge. High oblique: scale drops **sharply** — foreground is very large scale, background extremely small scale.  \n(c) For Himalayan mapping: **Low oblique** is preferred for reconnaissance — it covers more ground with less extreme scale distortion. High oblique is useful for visualising mountain profiles (like a side view) but unusable for measurement. A student who says \"high oblique shows more area\" confuses angular coverage with usable mapping area — they miss that the far-edge scale in high obliques becomes too small for reliable interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"With modern high-resolution satellites (e.g., Cartosat-3 at 0.25 m resolution), aerial photography is obsolete for topographical mapping in India.\" Provide three arguments with Indian examples.",
+     "a": "**Argument 1 (Cloud cover):** Satellites cannot penetrate monsoon clouds over the Western Ghats or Northeast India for months. Aerial platforms fly **below** cloud base — Survey of India conducts aerial surveys in post-monsoon (Oct–Dec) for cloud-free windows.  \n**Argument 2 (Resolution on demand):** Aerial photography delivers **sub-5 cm** resolution for cadastral mapping (e.g., urban property surveys in Delhi, Mumbai) — satellites max out at 25 cm (Cartosat-3).  \n**Argument 3 (Temporal flexibility):** Aerial missions can be flown **any day** for disaster response (e.g., 2013 Uttarakhand floods, 2018 Kerala floods) — satellites have fixed revisit cycles (5–10 days).  \nA student who agrees with the statement overlooks operational constraints — they know specifications but not field realities of Indian geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a photo-specification table for a new aerial survey of the Sundarbans mangrove delta (tidal, low-relief, cloudy) at 1:10,000 scale for tidal creek mapping. Specify: camera type, flying height, film/sensor, overlap, season, and platform. Justify each choice.",
+     "a": "| Parameter | Specification | Justification |\n|-----------|---------------|---------------|\n| Camera | Metric digital (e.g., Vexcel UltraCam) | High dynamic range for water/vegetation contrast; no film processing delay |\n| Focal length | 100 mm | Standard for large-scale mapping; balances coverage and resolution |\n| Flying height AMSL | 1000 m (H–h ≈ 1000 m, h ≈ 0 m) | Scale = f/(H–h) = 100mm/1000m = 1:10,000. Low relief → minimal scale variation |\n| Overlap | 60% forward, 30% lateral | Standard for stereo; extra forward overlap compensates for featureless water |\n| Season | Dec–Jan (post-monsoon, low tide) | Minimum cloud, maximum creek exposure at low tide |\n| Platform | Twin-engine aircraft (e.g., Cessna 404) | Endurance for large area; stable for low-tide window; operates from Kolkata airport |\nA poor answer copies generic specs without adapting to **tidal dynamics** (low tide timing), **cloud climatology** (post-monsoon), or **near-zero relief** (simplified height calculation) — showing they cannot transfer principles to a specific Indian environment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

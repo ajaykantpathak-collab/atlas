@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_005",
+   "title": "c11_ps_cbse_10_005",
+   "questions": [
+    {
+     "q": "What was the total strength of the Constituent Assembly as per the Cabinet Mission Plan, and how were seats allocated between British Indian provinces and princely states?",
+     "a": "The Cabinet Mission Plan allocated 389 seats: 296 to British Indian provinces (11 Governor's provinces + 4 Chief Commissioners' provinces) and 93 to princely states. Seats in provinces were distributed on a population basis (roughly 1 seat per million) and divided among General, Muslim, and Sikh communities proportionally. A wrong answer (e.g., \"300 members directly elected by people\") reveals the student confuses the Constituent Assembly with the first Lok Sabha or assumes universal adult franchise existed in 1946.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Cabinet Mission choose indirect election by provincial legislative assemblies rather than direct election by adult franchise for the Constituent Assembly?",
+     "a": "The 1935 Act franchise covered only ~11% of adults (property/tax/education qualifications). Direct elections would have excluded the vast majority, undermining the Assembly's claim to represent \"the people of India.\" Indirect election through recently elected provincial legislatures (1946 elections) provided a practical, legally valid method under the existing constitutional framework. A wrong answer (\"British didn't want democracy\") reveals a simplistic anti-colonial narrative that ignores the constitutional-legal constraints and the Congress's own acceptance of this method in the Cabinet Mission Plan.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the seat allocation formula to a hypothetical province with a population of 12 million in 1946, where Muslims constituted 30% and Sikhs 5%. Calculate the number of General, Muslim, and Sikh seats this province would receive in the Constituent Assembly.",
+     "a": "Total seats = 12 (1 per million). Muslim seats = 30% of 12 = 3.6 → 4 seats (rounded). Sikh seats = 5% of 12 = 0.6 → 1 seat (minimum representation). General seats = 12 - 4 - 1 = 7 seats. A wrong answer (e.g., equal division or ignoring rounding rules) reveals the student does not understand the proportional representation principle or the separate electorate logic inherited from the 1935 Act, which the Cabinet Mission retained for the Assembly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nominal composition (389 members) and actual working composition (299 members) of the Constituent Assembly after Partition. Analyze how Partition altered the Assembly's communal balance and princely state representation.",
+     "a": "After Partition, Muslim League members from Pakistan areas (West Punjab, East Bengal, Sind, NWFP, Baluchistan) withdrew, reducing Muslim representation from ~73 to ~28. Princely state representatives (93 seats) largely stayed away initially, joining only after integration (1947-49). The Assembly shrank from 389 to 299, becoming predominantly Congress and General category. This shifted the Assembly from a negotiated multi-communal body to a Congress-dominated one, affecting the legitimacy of provisions on minority rights. A wrong answer focusing only on numbers without analyzing the qualitative shift in deliberative balance reveals a superficial understanding of representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Constituent Assembly was unrepresentative because it was elected on a limited franchise and dominated by the Congress party, so the Constitution lacks democratic legitimacy.\"",
+     "a": "This argument has partial validity but overlooks three counterpoints: (1) The 1946 provincial elections were the most extensive franchise yet (~30% of adults), and the Congress won ~70% of General seats, reflecting its mass support. (2) The Assembly included diverse voices—Ambedkar (Scheduled Castes), K.M. Munshi (Gujarat), Alladi Krishnaswami Ayyar (Madras), women members (15), and eventual princely state representatives. (3) The Constitution was ratified implicitly by the first universal adult franchise elections (1951-52) where the Constitution itself was the mandate. A purely negative evaluation reveals a presentist fallacy—judging 1946 by 2024 standards without contextualizing historical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph justification for a museum exhibit plaque explaining why the Constituent Assembly's composition, despite its limitations, was the most legitimate possible option for 1946 India.",
+     "a": "A strong answer will reference: (a) the Cabinet Mission Plan as a tripartite agreement (British, Congress, League), (b) indirect election as the only constitutionally legal method under the 1935 Act, (c) inclusion of princely states through nomination (later ratification), (d) the Assembly's transformation into a sovereign body after the Indian Independence Act 1947, and (e) subsequent democratic validation through the 1951-52 elections. A weak answer that merely lists members or calls it \"perfectly democratic\" reveals an inability to synthesize historical constraints with normative legitimacy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

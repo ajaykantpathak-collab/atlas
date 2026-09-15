@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch10_002",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch10_002",
+   "title": "c6_biology_ch10_002",
+   "questions": [
+    {
+     "q": "What are the three main things a plant needs to carry out the process of photosynthesis?",
+     "a": "A plant needs sunlight, water, and carbon dioxide. A wrong answer (like \"soil\" or \"fertilizer\") reveals a misunderstanding that plants \"eat\" nutrients like humans, rather than synthesizing their own food from environmental elements.",
+     "self_check": true
+    },
+    {
+     "q": "If a plant is kept in a completely dark room for a long time, why does it struggle to survive?",
+     "a": "The plant cannot perform photosynthesis because it lacks the sunlight needed to provide the energy for the chemical reaction. A wrong answer suggests the student thinks the plant is merely \"thirsty\" or \"needs space,\" missing the essential role of light energy.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener wants to help a plant grow faster. If they provide extra water and plenty of carbon dioxide but keep the plant in a dark shed, will the plant make more food? Why or why not?",
+     "a": "No, the plant will not make more food because it lacks the necessary energy source (sunlight) to drive the process. This tests if the student understands that all ingredients must be present for the \"factory\" to work.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a plant to a human in terms of how they obtain energy.",
+     "a": "Humans must consume other living things (plants or animals) to get energy, while plants use photosynthesis to manufacture their own energy-rich sugar. This shows the student can categorize living organisms based on their life processes.",
+     "self_check": true
+    },
+    {
+     "q": "Is it correct to say that plants \"breathe in\" sunlight? Defend your answer.",
+     "a": "No, it is incorrect; plants \"capture\" or \"absorb\" sunlight using their green pigment, chlorophyll, to trigger a reaction. \"Breathing\" implies gas exchange, whereas photosynthesis is an energy-capturing process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a potted plant to show that light is necessary for plant survival.",
+     "a": "The student should suggest placing one plant in the sun and one in a dark cupboard for a week, then comparing their health. A poor answer focuses on things irrelevant to photosynthesis, like the pot's color or the plant's height, rather than the input of light.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

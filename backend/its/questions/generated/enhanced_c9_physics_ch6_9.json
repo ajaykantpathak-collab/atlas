@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_9",
+   "title": "c9_physics_ch6_9",
+   "questions": [
+    {
+     "q": "What is the equivalent resistance of three resistors (2, 3, 5 ohms) connected in series?",
+     "a": "R_eq = R1 + R2 + R3 = 2 + 3 + 5 = 10 ohms. The equivalent resistance is 10 ohms. A wrong answer (e.g., 1 ohm from using the parallel formula) uses the wrong formula — series adds resistances, it does not take the reciprocal sum.",
+     "self_check": true
+    },
+    {
+     "q": "In a series circuit, what is the relationship between the current through each resistor?",
+     "a": "The current is the same through all resistors: I = I1 = I2 = I3 = ... This is because there is only one path for the current — it must flow through each resistor in sequence. A wrong answer (e.g., \"current divides among resistors\") describes parallel circuits, not series — in series, current is the same, not divided.",
+     "self_check": true
+    },
+    {
+     "q": "A 12 V battery is connected to two resistors in series: R1 = 4 ohms, R2 = 8 ohms. Find the current and the voltage across each resistor.",
+     "a": "R_eq = 4 + 8 = 12 ohms. I = V/R_eq = 12/12 = 1 A. V1 = I * R1 = 1 * 4 = 4 V. V2 = I * R2 = 1 * 8 = 8 V. Check: V1 + V2 = 4 + 8 = 12 V = V. A wrong answer (e.g., V1 = V2 = 6 V) assumes equal voltage division — voltage divides proportionally to resistance (V1:V2 = R1:R2 = 4:8 = 1:2), not equally.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the total resistance in series increase when more resistors are added?",
+     "a": "In series, R_eq = R1 + R2 + ... + Rn. Adding a resistor adds its resistance to the total. Each resistor adds opposition, and the current must pass through all of them. The total opposition is the sum of individual oppositions, so more resistors mean more total resistance. A wrong answer (e.g., \"adding resistors gives more paths\") describes parallel circuits — in series, there is only one path, so adding resistors increases resistance, not provides alternative paths.",
+     "self_check": true
+    },
+    {
+     "q": "Three resistors (3, 6, 9 ohms) are in series with a 18 V battery. Calculate the current and the voltage across the 6 ohm resistor.",
+     "a": "R_eq = 3 + 6 + 9 = 18 ohms. I = 18/18 = 1 A. V_6ohm = I * 6 = 1 * 6 = 6 V. The voltage across the 6 ohm resistor is 6 V. A wrong answer (e.g., 18 V across each) assumes the full battery voltage across each resistor — voltage divides proportionally, so each resistor gets I * R_i.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In a series circuit, the voltage is the same across all resistors.\" Evaluate this statement.",
+     "a": "The statement is incorrect. In a series circuit, the current is the same through all resistors, but the voltage divides: V = V1 + V2 + ... + Vn, where V_i = I * R_i. Each resistor gets a voltage proportional to its resistance (larger R = larger V). The voltage is the same across all resistors only in a parallel circuit, not series. A wrong evaluation (agreeing with the student) confuses series (current same, voltage divides) with parallel (voltage same, current divides).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

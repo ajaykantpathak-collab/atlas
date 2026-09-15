@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_009",
+   "title": "c12_hs_cbse_10_009",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 RDA for calcium for an elderly woman (60+ years) and explain why it is higher than that for an adult woman (18-59 years).",
+     "a": "The ICMR 2020 RDA for calcium for an elderly woman (60+ years) is 1000 mg/day, while for an adult woman (18-59 years) it is 800 mg/day. The increase accounts for age-related bone loss, reduced intestinal calcium absorption, and higher risk of osteoporosis. A wrong answer (e.g., stating the same value or lower) reveals the student does not know the specific RDA revision for elderly or misunderstands the physiological basis for increased calcium needs.",
+     "self_check": true
+    },
+    {
+     "q": "An elderly man with hypertension is advised to restrict sodium to 2000 mg/day. He consumes 2 g of table salt (NaCl) in cooking and 1 g of salt from processed foods daily. Calculate his total sodium intake in mg and state whether he exceeds the limit. (Atomic masses: Na=23, Cl=35.5)",
+     "a": "Total salt = 3 g = 3000 mg. Sodium fraction in NaCl = 23/(23+35.5) = 23/58.5 ≈ 0.393. Sodium intake = 3000 × 0.393 ≈ 1179 mg. This is within the 2000 mg limit. A wrong answer (e.g., using 40% without calculation, or forgetting to convert g to mg) reveals confusion between salt and sodium, or unit conversion errors.",
+     "self_check": true
+    },
+    {
+     "q": "Plan a one-day menu for a 70-year-old sedentary woman (RDA: Energy 1660 kcal, Protein 46 g, Calcium 1000 mg, Iron 17 mg) using food exchange lists. The menu must include at least 3 servings of milk/milk products and 2 servings of green leafy vegetables. Show the exchanges and verify protein and calcium.",
+     "a": "Sample menu: Breakfast: 1 milk exchange (150 ml milk) + 2 cereal exchanges (30 g wheat flour roti) + 1 fruit exchange (100 g papaya). Mid-morning: 1 milk exchange (100 g curd). Lunch: 2 cereal exchanges (60 g cooked rice) + 1 pulse exchange (30 g raw dal) + 1 GLV exchange (100 g spinach) + 1 fat exchange (5 g oil). Evening: 1 milk exchange (150 ml milk) + 1 cereal exchange (20 g murmura). Dinner: 2 cereal exchanges (2 rotis) + 1 pulse exchange (30 g raw dal) + 1 other vegetable exchange (100 g bottle gourd) + 1 fat exchange (5 g oil). Total milk exchanges = 3 (450 ml milk + 100 g curd ≈ 550 ml equivalent). Protein: cereals (5×6=30g) + pulses (2×6=12g) + milk (3×4=12g) ≈ 54g (meets 46g). Calcium: milk (3×120=360mg from 150ml each? Actually 150ml milk gives ~180mg, 100g curd ~120mg, total milk exchanges ~500mg) + GLV (100g spinach ~100mg) + cereals/pulses ~200mg = ~800mg, slightly short of 1000mg. Need to add 1 more milk exchange or ragi. A wrong answer reveals inability to use exchange lists, miscalculation of nutrient totals, or ignoring the milk/GLV serving constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient density requirements of an elderly person with a sedentary adult. Explain why nutrient density becomes more critical with age, using the concept of energy requirement reduction versus micronutrient requirement maintenance.",
+     "a": "Energy requirement decreases by ~200-300 kcal/day due to lower BMR and activity, but micronutrient needs (calcium, vitamin D, B12, fibre) stay same or increase. Therefore, each kcal must deliver more micronutrients — i.e., higher nutrient density. Choosing whole grains over refined, milk over tea, vegetables over sweets. A wrong answer that only says \"elderly need more nutrients\" without linking to energy reduction shows lack of understanding of nutrient density concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since elderly people eat less, giving them concentrated sweets and fried snacks is a good way to ensure they get enough calories.\" Provide two physiological reasons why this is harmful.",
+     "a": "The statement is harmful. Reason 1: Elderly have impaired glucose tolerance and higher diabetes risk; concentrated sweets cause blood sugar spikes. Reason 2: Fried snacks provide empty calories and saturated/trans fats, worsening lipid profile and cardiovascular risk, while displacing nutrient-dense foods needed for protein, calcium, fibre. A wrong answer that agrees or gives only one reason shows failure to evaluate dietary quality vs quantity and ignorance of metabolic changes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a weekly meal planning checklist for a low-income elderly couple (both 70+, one with arthritis, one with early dementia) that addresses: (a) budget-friendly nutrient-dense foods, (b) texture modifications for chewing difficulty, (c) meal frequency and hydration reminders, (d) use of community resources (e.g., Annapurna scheme, mid-day meals for elderly). Present as a bullet-point checklist.",
+     "a": "Checklist: \n- Staples: Buy whole wheat, rice, millets (ragi, jowar) in bulk from PDS; include ragi for calcium.\n- Protein: Daily dal (rotate moong, masoor, chana), weekly egg (if non-veg), soya nuggets, roasted chana as snack.\n- Milk: 300 ml/day each via curd, buttermilk, milk in tea/porridge; use double-toned milk to save cost.\n- Vegetables: Seasonal GLV (spinach, amaranth) 3-4 times/week; pressure-cook and mash for soft texture.\n- Fruits: Banana, guava, papaya (soft, cheap, high fibre/vit C); stew apple/pear if chewing hard.\n- Fats: 15-20 g/day visible fat (mustard oil, ghee); limit fried foods.\n- Texture: All vegetables pressure-cooked and mashed; rotis softened with dal/curd; khichdi, dalia, upma, idli preferred.\n- Meals: 6 small meals (breakfast, mid-morning, lunch, evening, dinner, bedtime milk); water/buttermilk offered every 2 hours.\n- Hydration: 1.5-2 L fluids/day; include soups, rasam, buttermilk.\n- Community: Enroll in nearest Annapurna/old age meal programme; use Anganwadi for supplementary nutrition; coordinate with ASHA worker for health check-ups.\n- Budget: Plan weekly menu, buy weekly, cook in batches, use leftovers creatively (e.g., leftover dal -> paratha stuffing).\nA poor answer misses texture, hydration, community resources, or gives generic advice not tailored to arthritis/dementia.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

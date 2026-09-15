@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_066",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_066",
+   "title": "c6_math_ch06_066",
+   "questions": [
+    {
+     "q": "If 5 workers take 10 days to finish a wall, what is the product of the number of workers and the number of days?",
+     "a": "The product is 50. A student answering \"15\" or \"2\" is likely confusing inverse proportion with addition or direct division, failing to recognize that the relationship relies on multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the time taken to complete a task decrease when more workers are added?",
+     "a": "Because the total amount of work is fixed; adding more hands to the job means each person does a smaller share of the work, finishing the project faster. An answer stating \"it just happens\" shows a lack of conceptual understanding of the \"fixed total\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels at 40 km/h and reaches a destination in 6 hours. If the speed is increased to 80 km/h, how long will the journey take?",
+     "a": "Step 1: Product = 40 × 6 = 240. Step 2: New speed = 80. Step 3: Time = 240 / 80 = 3 hours. A student who guesses \"12 hours\" is incorrectly applying direct proportion (thinking more speed means more time).",
+     "self_check": true
+    },
+    {
+     "q": "If a machine produces 100 items in 2 hours, and a faster machine produces 200 items in the same 2 hours, is this an inverse proportion? Why?",
+     "a": "No, this is not inverse proportion. In inverse proportion, one variable must decrease as the other increases, whereas here, the number of items increased while the time stayed the same.",
+     "self_check": true
+    },
+    {
+     "q": "Two friends are packing books. If they take 4 hours, would 4 friends take 2 hours or 8 hours? Justify your choice.",
+     "a": "They would take 2 hours. Since the number of workers doubled (from 2 to 4), the time must be halved (from 4 to 2) to keep the total work product constant at 8.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving inverse proportion that is NOT about workers or time.",
+     "a": "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases.\" A poor answer would be \"Buying more apples costs more money,\" which is direct, not inverse, proportion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

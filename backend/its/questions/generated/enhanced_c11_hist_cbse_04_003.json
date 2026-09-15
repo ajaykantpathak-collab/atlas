@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_04_003",
+   "title": "c11_hist_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the exact Arabic term for the declaration of faith that constitutes the first pillar of Islam, and what are its two essential components?",
+     "a": "The Arabic term is **Shahada** (الشهادة). Its two components are: (1) *La ilaha illa Allah* — \"There is no deity but Allah\" (absolute monotheism), and (2) *Muhammadun rasul Allah* — \"Muhammad is the Messenger of Allah\" (acceptance of prophethood). A wrong answer (e.g., naming \"Kalima\" without the two parts, or confusing it with the adhan) reveals the student memorized a label without grasping the theological duality: rejection of polytheism AND acceptance of Muhammad's specific prophetic authority — both essential for conversion and daily reaffirmation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Salah (ritual prayer) require facing the Kaaba in Mecca (qibla) rather than any direction, and how did this requirement change historically?",
+     "a": "Initially, Muslims prayed facing Jerusalem (the first qibla, 610–624 CE), aligning with Jewish and Christian traditions. In 624 CE (2 AH), Quran 2:144 redirected the qibla to the Kaaba in Mecca, symbolizing Islam's distinct Abrahamic identity — the Kaaba was built by Ibrahim (Abraham) and Ismail (Ishmael). A wrong answer (e.g., \"Mecca is the Prophet's birthplace\" or \"it's just tradition\") misses the theological shift: the qibla change marked the Muslim community's (ummah) separation from earlier \"People of the Book\" and centered worship on the pre-Islamic monotheistic sanctuary purified by Muhammad. This spatial orientation physically unites Muslims globally five times daily.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant in 8th century Baghdad calculates his zakat obligation. He has 200 dinars in gold, 500 dirhams in silver, trade goods worth 1,000 dirhams, and owes 300 dirhams in debts. The nisab (minimum threshold) is 20 dinars or 200 dirhams. Calculate his zakat due at 2.5%, showing how you determine the taxable base.",
+     "a": "**Step 1:** Convert all assets to a common standard (silver dirhams). Gold: 200 dinars × 10 dirhams/dinar (approx. rate) = 2,000 dirhams. Trade goods = 1,000 dirhams. Total assets = 3,000 dirhams.\n**Step 2:** Subtract debts: 3,000 − 300 = 2,700 dirhams (net surplus).\n**Step 3:** Check nisab: 2,700 > 200 dirhams → zakat obligatory.\n**Step 4:** Calculate 2.5%: 2,700 × 0.025 = **67.5 dirhams**.\nA wrong answer (e.g., forgetting to deduct debts, using only gold, or ignoring nisab) reveals misunderstanding that zakat is a **wealth tax on net surplus above subsistence**, not income tax — it redistributes accumulated capital, reflecting early Islam's economic ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social function of Sawm (Ramadan fasting) in early Medinan society with the function of the Christian Lenten fast in medieval Europe. Identify two structural similarities and one key difference in communal impact.",
+     "a": "**Similarities:** (1) Both synchronize the community's biological rhythms — shared hunger creates collective empathy and temporal unity. (2) Both link bodily discipline to spiritual purification, reinforcing clerical/scholarly authority over lay practice.\n**Key difference:** Sawm is **universally obligatory** for all adult Muslims (with limited exemptions), making the entire ummah participate simultaneously across social strata. Lent in medieval Europe had **differentiated rules** — clergy fasted strictly, laity often commuted fasts via payments or substitutions — reinforcing social hierarchy. A wrong answer focusing only on \"both are fasting\" misses how Sawm's uniformity cemented the ummah's egalitarian ideal, while Lent's variability mirrored feudal stratification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Hajj was primarily a political tool for the early Caliphs to legitimize their rule, not a genuine religious obligation.\" Use evidence from the Rashidun and Umayyad periods.",
+     "a": "The argument is **partially valid but reductionist**. Evidence for political use: Caliphs (e.g., Umar, Uthman, Muawiya) personally led Hajj caravans, controlled the Kaaba's kiswa (covering), and used the pilgrimage to display imperial power and redistribute patronage. However, counter-evidence: (1) Hajj's Quranic mandate (3:97, 22:27) predates the Caliphate; (2) Ordinary Muslims undertook hazardous journeys long before state-sponsored caravans; (3) The rituals (tawaf, sa'i, standing at Arafat) reenact Ibrahim/Hajar/Ismail narratives — theological continuity independent of rulers. A wrong answer taking either extreme (\"purely spiritual\" or \"purely political\") fails to see that in early Islam, **religious ritual and political authority were co-constitutive** — the Caliph's legitimacy *derived* from upholding the pillars, not vice versa.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The Five Pillars enabled Islam's expansion from a tribal Arabian movement to a trans-regional civilization by 750 CE.\" Structure your answer using three mechanisms: ritual standardization, economic redistribution, and spatial integration.",
+     "a": "**Strong answer criteria:**\n- **Ritual standardization:** Shahada/Salah created a portable, language-independent \"entry code\" — converts from Persia to Spain performed identical prayers, enabling instant communal recognition.\n- **Economic redistribution:** Zakat institutionalized wealth transfer from merchants to poor, funding madrasas, hospitals, and travel — creating a self-sustaining welfare infrastructure that attracted converts and stabilized frontiers.\n- **Spatial integration:** Hajj linked distant provinces to Mecca annually; qibla oriented every mosque toward a single center; Ramadan synchronized time across time zones. Together, they produced a **unified \"imagined community\"** (Anderson) before print capitalism.\nA poor answer lists pillars descriptively without explaining **how each mechanism solved a specific expansion challenge** (e.g., linguistic diversity, resource mobility, geographic fragmentation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_006",
+   "title": "c11_bs_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the NCERT definition of 'Business Ethics' and list the five elements of business ethics as per the textbook.",
+     "a": "Correct Answer: Business ethics refers to the socially determined moral principles which should govern business activities. The five elements are: (i) Top management commitment, (ii) Publication of a 'Code', (iii) Establishment of compliance mechanisms, (iv) Involving employees at all levels, (v) Measuring results.\nA wrong answer (e.g., defining ethics as \"following the law\" or listing CSR activities as elements) reveals the student is conflating *legal compliance* with *ethical behaviour* or confusing *elements of ethics* with *types of social responsibility* (economic, legal, ethical, discretionary).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NCERT text states \"Ethics and profits go together in the long run.\" Use the concept of 'reputation capital' to support your explanation.",
+     "a": "Correct Answer: Unethical shortcuts (adulteration, tax evasion, pollution) may boost short-term profit but erode trust among customers, investors, regulators, and employees. This loss of 'reputation capital' leads to boycotts, higher borrowing costs, talent drain, and legal penalties, destroying long-term value. Ethical conduct builds a reservoir of goodwill that acts as a buffer during crises and attracts premium stakeholders.\nA wrong answer focusing only on \"avoiding fines\" or \"feeling good\" shows the student views ethics as a compliance cost rather than a strategic asset that generates future cash flows through stakeholder loyalty.",
+     "self_check": true
+    },
+    {
+     "q": "A mid-sized textile firm in Tiruppur discharges untreated dye effluents into the Noyyal river to save ₹50 lakh/year on an Effluent Treatment Plant (ETP). The Tamil Nadu Pollution Control Board (TNPCB) issues a closure notice. The firm installs the ETP but faces 3 months of lost production (₹3 crore revenue loss) and ₹20 lakh legal fees. Calculate the *total financial impact* of the unethical decision vs. the *hypothetical cost* of proactive ethical compliance. What non-financial consequence is ignored in this calculation?",
+     "a": "Correct Answer:\nStep 1: Identify proactive compliance cost = ₹50 lakh/year (ETP operating cost).\nStep 2: Identify reactive costs = ₹3 crore (lost revenue) + ₹20 lakh (legal) + ₹50 lakh (ETP install) = ₹3.7 crore.\nStep 3: Compare: Reactive cost (₹3.7 cr) is 7.4x the annual proactive cost (₹50 lakh).\nStep 4: Non-financial consequence ignored: Irreversible damage to brand reputation among global buyers (e.g., H&M, C&A) leading to permanent loss of export orders, and community health externalities (cancer clusters) creating long-term social licence risk.\nA wrong answer calculating only the ₹3.7 crore vs ₹50 lakh misses the *strategic* consequence: the firm may never regain \"approved vendor\" status with international brands that mandate zero-discharge supply chains.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement using the 'Arguments FOR Social Responsibility' (node 002) and 'Elements of Business Ethics' (node 005): \"A company that publishes a Code of Ethics but lacks a compliance mechanism is more dangerous than a company with no code at all.\" Identify which specific element is missing and which argument for social responsibility is violated.",
+     "a": "Correct Answer:\nMissing Element: (iii) Establishment of compliance mechanisms (audits, whistleblower channels, ethics training).\nViolated Argument: (iii) Avoidance of government regulation — a sham code invites stricter statutory mandates (e.g., SEBI mandating Business Responsibility & Sustainability Reporting).\nViolated Argument: (viii) Holding business responsible for social problems — a fake code becomes a tool for \"ethics washing,\" perpetuating the very problems (pollution, labour abuse) the firm claims to oppose.\nA wrong answer identifying only \"top management commitment\" as missing fails to see that *commitment without verification* is performative; the textbook explicitly lists compliance mechanisms as a separate, operational element.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In a developing economy like India, strict business ethics is a luxury that reduces competitiveness against unethical rivals. Therefore, the government should dilute ethical standards (e.g., lower ESG disclosure thresholds) to help MSMEs survive.\" Judge this using the 'Reality of Social Responsibility' forces (node 003) and the 'Need for Pollution Control' reasons (node 006.6.2).",
+     "a": "Correct Answer: The claim is flawed.\n1. Force (iii) Impact of consumer consciousness: Indian consumers (esp. Gen Z) and B2B buyers (global supply chains) increasingly demand ethical proof; dilution makes MSMEs *ineligible* for export markets.\n2. Force (vi) Relationship between social interest and business interest: Long-term competitiveness comes from resource efficiency (pollution control = cost savings per node 006.6.2(iii)), not regulatory arbitrage.\n3. Need for Pollution Control (ii) Reduced risk of liability: Diluting standards increases exposure to NGT penalties and criminal liability under Bharatiya Nyaya Sanhita.\n4. Global reality: India's CBAM (Carbon Border Adjustment Mechanism) readiness requires *higher* ethical/environmental standards, not lower.\nA wrong answer agreeing with the claim ignores that \"race to the bottom\" ethics destroys the very market access (EU, US) that Indian MSMEs need for scale.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini 'Code of Ethics' for a Class 11 student-run tuck shop (selling stationery, snacks) that operationalizes all five Elements of Business Ethics (node 005). Your code must include: (a) A specific commitment statement from the student-manager (Top Management), (b) Three written rules (Publication of Code), (c) A peer-audit mechanism (Compliance), (d) A monthly 'ethics huddle' agenda (Employee Involvement), (e) A simple KPI dashboard (Measuring Results).",
+     "a": "Expected Answer Criteria:\n(a) Commitment: \"I, [Name], as Manager, pledge to source only FSSAI-licensed snacks, use honest weights, and reinvest 10% profit in school library books.\"\n(b) Three Rules: 1. No sale of expired goods. 2. Fixed MRP — no dynamic pricing during exams. 3. Zero single-use plastic packaging.\n(c) Compliance: Weekly surprise stock-check by two rotating class representatives; anonymous Google Form for complaints.\n(d) Involvement: Monthly 10-min huddle: \"Any supplier pressure to sell near-expiry stock?\" \"Customer feedback on pricing fairness?\" \"Ideas to reduce waste?\"\n(e) KPIs: % expired waste (target 0), Customer complaint count (target <2/month), Plastic pieces avoided (count), Library fund contribution (₹).\nA poor answer lists generic values (\"be honest\") without *operationalising* the five elements — showing the student cannot translate abstract framework into actionable governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

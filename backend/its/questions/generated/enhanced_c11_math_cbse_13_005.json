@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_005",
+   "title": "c11_math_cbse_13_005",
+   "questions": [
+    {
+     "q": "State the formal definition of lim_{x→∞} f(x) = L using ε and M. What does M represent geometrically?",
+     "a": "For every ε > 0, there exists M > 0 such that |f(x) - L| < ε whenever x > M. Geometrically, M is the x-coordinate beyond which the graph of f(x) stays within the horizontal strip (L - ε, L + ε). A wrong answer (e.g., confusing M with δ from finite limits, or stating |x - ∞| < M) reveals the student hasn't grasped that infinity is not a number — we cannot measure distance from infinity, only \"largeness\" of x.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why lim_{x→∞} sin(x) does not exist, but lim_{x→∞} (sin x)/x = 0. What property of sin x makes the first limit fail?",
+     "a": "sin x oscillates between -1 and 1 forever, never settling near a single value L — for any candidate L, we can find x arbitrarily large where sin x is far from L. However, (sin x)/x is bounded between -1/x and 1/x, both of which → 0 as x→∞, so by Squeeze Theorem the limit is 0. A wrong answer (e.g., \"sin x has no limit because it's periodic\" without mentioning oscillation, or claiming (sin x)/x → 0 because \"sin x is bounded\") reveals confusion between boundedness and convergence — boundedness alone doesn't guarantee a limit, but bounded numerator over unbounded denominator does.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: lim_{x→∞} (3x² - 5x + 2) / (2x² + 7x - 4). Show all steps including the algebraic manipulation.",
+     "a": "Step 1: Identify highest power in denominator: x².\nStep 2: Divide numerator and denominator by x²:\n= lim_{x→∞} (3 - 5/x + 2/x²) / (2 + 7/x - 4/x²)\nStep 3: Apply limit laws: lim 5/x = 0, lim 2/x² = 0, etc.\n= (3 - 0 + 0) / (2 + 0 - 0) = 3/2.\nA wrong answer (e.g., 3/2 but obtained by \"cancelling x²\" without dividing each term, or claiming limit is ∞ because \"degrees are equal so it goes to infinity\") reveals the student treats infinity as a number that cancels, rather than understanding that 1/x → 0 is the rigorous justification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two limits: lim_{x→∞} (x³ + 2x) / (x² + 1) and lim_{x→∞} (x² + 1) / (x³ + 2x). Without computing, predict the results and explain the pattern using degree comparison.",
+     "a": "First limit: numerator degree 3 > denominator degree 2 → limit = ∞ (specifically +∞ since leading coefficients positive). Second limit: numerator degree 2 < denominator degree 3 → limit = 0. Pattern: For rational functions P(x)/Q(x), if deg(P) > deg(Q) → ±∞; if deg(P) = deg(Q) → ratio of leading coefficients; if deg(P) < deg(Q) → 0. A wrong answer (e.g., both are ∞, or both are 0, or \"need to compute to know\") reveals the student hasn't internalized the degree comparison rule as a quick diagnostic tool before algebra.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates lim_{x→∞} √(x² + 5x) - x as follows: \"As x→∞, √(x²+5x) ≈ √(x²) = x, so limit = x - x = 0.\" Identify the error and find the correct limit.",
+     "a": "Error: The student replaced √(x²+5x) with x, ignoring the +5x term which is significant relative to x when subtracted from x. This is an indeterminate form ∞ - ∞. Correct method: Rationalize by multiplying by conjugate:\nlim_{x→∞} (√(x²+5x) - x) × (√(x²+5x) + x)/(√(x²+5x) + x)\n= lim_{x→∞} (x²+5x - x²) / (√(x²+5x) + x)\n= lim_{x→∞} 5x / (x√(1+5/x) + x)\n= lim_{x→∞} 5 / (√(1+5/x) + 1) = 5/2.\nA wrong answer of 0 reveals the student treats \"≈\" as equality inside a limit, not understanding that small relative errors become large in differences (catastrophic cancellation).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a rational function f(x) = P(x)/Q(x) such that: (a) lim_{x→∞} f(x) = 3, (b) lim_{x→-∞} f(x) = -2, and (c) f(x) has a vertical asymptote at x = 1. Explain your construction.",
+     "a": "One solution: f(x) = (3x² - 5x + 2) / (x² - x) for x→∞ limit 3 (equal degrees, leading coeff 3/1=3). But this gives same limit at -∞. To get different limits at ±∞, we need an odd-degree term dominance. Try f(x) = (3x³ + ...)/(x³ + ...) but that gives same ratio. Actually, for rational functions, limits at +∞ and -∞ are equal if degrees are equal (ratio of leading coefficients) or both 0 if denom degree higher, or both ±∞ with same sign if num degree higher by even number, opposite signs if num degree higher by odd number. So to get 3 and -2, we need different horizontal asymptotes — impossible for rational functions! The student must realize rational functions have at most one horizontal asymptote (same limit at ±∞ unless odd-degree dominance with sign change). A good answer recognizes this impossibility and explains why. A poor answer provides a function without checking both limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

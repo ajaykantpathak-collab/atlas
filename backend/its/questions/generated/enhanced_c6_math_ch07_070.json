@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_070",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_070",
+   "title": "c6_math_ch07_070",
+   "questions": [
+    {
+     "q": "What are the two defining features of a line segment that make it different from a line?",
+     "a": "A line segment has two fixed endpoints and a definite length. A wrong answer like \"it is a line\" shows the student hasn't grasped that a line segment is finite while a line is infinite.",
+     "self_check": true
+    },
+    {
+     "q": "If I draw two dots on a page, how many lines can I draw that pass through both of them?",
+     "a": "Exactly one. A student who says \"many\" is confusing a single point (through which infinite lines pass) with two points (which determine one unique line).",
+     "self_check": true
+    },
+    {
+     "q": "Draw a line segment AB and then extend it in both directions. What is the new name for your figure?",
+     "a": "It is now called Line AB or line $l$. If a student just labels it AB, they miss the concept that the name changes once it extends infinitely.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say a line has no width, even though when we draw it with a pencil, it clearly has thickness?",
+     "a": "In geometry, we define a line as an ideal concept with length but no width; the pencil mark is just a model. Students who argue about the pencil thickness are focusing on the physical tool rather than the mathematical concept.",
+     "self_check": true
+    },
+    {
+     "q": "Can a line be named using only one point? Justify your answer.",
+     "a": "No, a line requires two points to be uniquely defined, or a single letter like $l$. A student saying \"yes\" hasn't understood that one point is not enough to show the direction or position of an infinite line.",
+     "self_check": true
+    },
+    {
+     "q": "Create a drawing with three points (A, B, and C) that are not on the same line, and connect them to form three different line segments.",
+     "a": "The student should draw a triangle-like shape with segments AB, BC, and CA. An incorrect drawing shows a failure to connect specific points to form segments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

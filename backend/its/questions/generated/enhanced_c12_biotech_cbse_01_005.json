@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_005",
+   "title": "c12_biotech_cbse_01_005",
+   "questions": [
+    {
+     "q": "Name the two most widely used mammalian cell lines for recombinant therapeutic protein production and state the tissue of origin for each.",
+     "a": "CHO (Chinese Hamster Ovary) – derived from ovary of Chinese hamster; HEK293 (Human Embryonic Kidney 293) – derived from human embryonic kidney cells transformed with sheared adenovirus 5 DNA. A wrong answer (e.g., “HeLa and CHO” or “HEK293 from liver”) reveals the student cannot recall the specific lines approved for biologics manufacturing and their origins, which are standard board‑exam facts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why CHO cells are preferred over HEK293 for large‑scale commercial production of monoclonal antibodies, even though both can perform human‑like glycosylation.",
+     "a": "CHO cells grow robustly in chemically defined, serum‑free suspension culture, reach higher cell densities (>20 × 10⁶ cells/mL), have a well‑characterized safety profile (no human pathogens), and are amenable to gene amplification systems (e.g., DHFR, GS) for stable high‑yield clones. HEK293 grows adherently or in suspension but is less robust at very large scale, has a higher risk of human adventitious agents, and is mainly used for transient expression or difficult‑to‑express proteins. A wrong answer that only mentions “glycosylation” shows the student misses the bioprocess and regulatory dimensions that drive host selection.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to express a recombinant human erythropoietin (EPO) that requires three N‑linked and one O‑linked glycosylation sites for in‑vivo activity. The protein is poorly expressed in CHO cells due to low transcription. Propose a strategy using HEK293 cells and justify each step.",
+     "a": "Step 1: Clone the EPO gene into a HEK293‑compatible expression vector with a strong promoter (e.g., CMV) and signal peptide for secretion. Step 2: Use transient transfection (PEI or lipid‑based) in HEK293‑F suspension culture for rapid milligram‑scale production. Step 3: Harvest supernatant at 72–96 h, purify by affinity chromatography. Step 4: Analyze glycosylation by LC‑MS to confirm sialylation pattern. Justification: HEK293 provides human‑type glycosylation (α2,6‑sialylation) and high transient titers for difficult proteins; CHO may have lower transcription from the same promoter. A wrong answer that suggests stable CHO line development ignores the time constraint and the specific advantage of HEK293 for transient, high‑quality glycosylation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the glycosylation profiles of CHO and HEK293 cells and analyze how these differences impact the effector function (ADCC, CDC) of a therapeutic IgG1 antibody.",
+     "a": "CHO cells produce predominantly G0F, G1F, G2F N‑glycans with core fucose and limited α2,6‑sialylation; they lack β1,4‑galactosyltransferase activity for full galactosylation and have low sialyltransferase expression. HEK293 cells produce more fully galactosylated and sialylated (α2,6) glycans, and can be engineered to reduce fucosylation (e.g., FUT8 knockout) to enhance ADCC. For IgG1, CHO‑derived antibodies show moderate ADCC (due to core fucose) and lower CDC (due to low galactose); HEK293‑derived antibodies can have higher CDC (more galactose) and, if afucosylated, dramatically higher ADCC. A wrong answer that claims “CHO and HEK293 glycosylation are identical” misses the critical impact on clinical efficacy and regulatory comparability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “HEK293 cells are superior to CHO cells for all recombinant therapeutic proteins because they are of human origin.” Provide a balanced judgment with evidence.",
+     "a": "The statement is false. While HEK293 offers human‑like glycosylation and high transient titers, CHO cells dominate commercial manufacturing due to: (1) superior scalability in serum‑free suspension culture to 20,000 L; (2) extensive regulatory history (dozens of approved biologics); (3) robust gene amplification systems for stable high‑yield clones; (4) lower risk of human‑specific adventitious viruses; (5) cost‑effectiveness for large‑dose products (e.g., antibodies at g/L titers). HEK293 is superior only for proteins requiring specific human glycosylation (e.g., α2,6‑sialylation), difficult‑to‑express proteins, or rapid transient production. A wrong answer that agrees without nuance shows inability to weigh multiple criteria (safety, scalability, cost, product quality) – a key competency in board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text‑based) that a bioprocess engineer would use to select between CHO and HEK293 for a new recombinant glycoprotein project. Include at least five decision nodes with criteria.",
+     "a": "Flowchart:\n1. Is the protein required at >100 kg/year? → Yes → CHO (scalability); No → go to 2.\n2. Does the protein require human‑specific glycosylation (α2,6‑sialylation, no core fucose)? → Yes → HEK293; No → go to 3.\n3. Is rapid material needed for pre‑clinical studies (<3 months)? → Yes → HEK293 transient; No → go to 4.\n4. Is the protein difficult to express (low titer in CHO)? → Yes → Test HEK293 transient/stable; No → go to 5.\n5. Is there a regulatory preference or existing platform? → Use established platform (usually CHO).\nA poor answer lists only one criterion (e.g., “glycosylation”) indicating the student cannot integrate multiple project constraints into a systematic decision process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

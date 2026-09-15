@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_001",
+   "title": "c12_soc_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define \"cultural diversity\" in sociological terms and explain how it differs from \"social inequality.\" Use the NCERT distinction between differences and inequalities in your answer.",
+     "a": "Cultural diversity refers to the presence of multiple communities distinguished by cultural markers (language, religion, caste, ethnicity, region) where differences are understood as variations, not hierarchies. Social inequality, by contrast, involves systematic unequal access to resources, power, and status. The NCERT states: \"The term 'diversity' emphasises differences rather than inequalities.\" A wrong answer that equates diversity with inequality reveals the student has not grasped the foundational conceptual distinction — they are conflating *variation* with *hierarchy*, which undermines all subsequent analysis of why diversity is a \"challenge\" (it becomes one only when differences map onto inequalities).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Community identity is just like professional identity — both give you a sense of belonging.\" Using the concept of *ascriptive identity*, explain why this comparison is sociologically flawed. Give one concrete example.",
+     "a": "Community identity is *ascriptive* — determined by birth, unchosen, unconditional, and nearly inescapable (e.g., being born into a Tamil-speaking Hindu family in Chennai). Professional identity is *achieved* — requires qualifications, exams, demonstrated competence (e.g., becoming a chartered accountant). The student's error is treating unconditional belonging as equivalent to conditional membership. This misconception matters because it obscures why threats to community identity provoke intense emotional/violent reactions: you cannot \"resign\" from your mother tongue or caste the way you can quit a profession. A wrong answer that misses the ascriptive/achieved distinction fails to explain the *power* of community identities to mobilise people.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"nation vs. nation-state\" distinction to explain why the Soviet Union recognised 100+ internal nationalities but was a single state, while the Kurds are a nation without a state. Use the NCERT criteria: \"community that has succeeded in acquiring a state of its own.\"",
+     "a": "A *nation* is a community sharing desire for political unity (common culture, history, ethnicity, language); a *nation-state* is a nation that has its own sovereign state. The USSR was a *state* containing multiple *nations* (Ukrainians, Uzbeks, Armenians, etc.) — it recognised their nationhood but did not grant them separate states. The Kurds are a *nation* (shared language, culture, history, territory across Turkey, Iran, Iraq, Syria) but lack a *state* of their own. The student must show that nation and state are analytically separable: one state can encompass many nations; one nation can be split across states. A wrong answer that treats \"nation\" and \"state\" as synonyms cannot explain either case.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse Box 6.1 (UNDP report) in the NCERT: List three specific assimilationist policies and three integrationist policies. Then explain why *both* assume a \"singular national identity\" and why this is problematic in a culturally diverse society.",
+     "a": "**Assimilationist:** (1) Centralising power in forums where dominant group is majority; (2) Imposing unified legal system based on dominant group's traditions; (3) Adopting dominant group's language as sole official language. **Integrationist:** (1) Restricting public culture to a common national pattern; (2) Relegating non-national cultures to private sphere; (3) Promoting dominant group's history/heroes as national symbols. Both assume a *singular national identity* because they treat the dominant group's culture as *the* national culture. In a diverse society, this erases minority identities, provokes alienation, and can intensify the very communal/regional conflicts the state seeks to avoid. A wrong answer that lists policies but misses the \"singular national identity\" assumption fails to grasp the *structural* critique — it's not about specific policies but the *logic* of homogenisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's linguistic reorganisation of states (1956) weakened national unity.\" Use evidence from Box 6.3 (Ramachandra Guha) and the Sri Lanka/Pakistan counterfactuals cited in the NCERT to defend your position.",
+     "a": "The claim is **false**. Guha argues linguistic states *strengthened* unity: \"Far from undermining Indian unity, linguistic states have helped strengthen it. It has proved perfectly consistent to be Kannadiga and Indian, Bengali and Indian...\" The counterfactuals prove it: Sri Lanka's imposition of Sinhala-only (1956) led to civil war (\"One language, two nations\"); Pakistan's denial of Bengali rights led to 1971 partition. India's *recognition* of linguistic aspirations prevented \"One language, fourteen or fifteen nations.\" A wrong answer that agrees with the claim reveals a majoritarian/assimilationist bias — it assumes unity requires homogeneity, ignoring the NCERT's core thesis: **accommodation builds unity; suppression fractures it.**",
+     "self_check": true
+    },
+    {
+     "q": "Create a comparative table showing how the \"nation-state\" model (assimilationist/integrationist) and the \"state-nation\" model (India's constitutional design) differ on: (a) treatment of minority languages, (b) public vs. private sphere for cultural expression, (c) basis of political legitimacy, (d) response to regional demands for autonomy. Invent a hypothetical 5th row showing a policy area of your choice.",
+     "a": "| Dimension | Nation-State (Assimilationist/Integrationist) | State-Nation (India) |\n|-----------|-----------------------------------------------|----------------------|\n| Minority languages | Suppressed or relegated to private sphere | Constitutionally protected (8th Schedule), used in education/admin |\n| Public vs. private culture | Single national culture in public; minorities confined to private | Multiple cultures in public sphere (holidays, media, education) |\n| Political legitimacy | Derived from homogeneous national identity | Derived from democratic accommodation of diversity |\n| Regional autonomy demands | Treated as secessionist threats | Addressed via federalism, state creation (e.g., 2000: Chhattisgarh, Uttarakhand, Jharkhand) |\n| **5. Religious personal law** | **Uniform civil code imposed** | **Different personal laws permitted (Art. 25-28), though debated** |\n\nA poor answer that leaves cells blank or copies NCERT verbatim without synthesis shows inability to *apply* the conceptual framework to new dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

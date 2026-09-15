@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_010",
+   "title": "c11_hs_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define the principle of 'Grouping' in space planning and give one correct example of room grouping in a residential house.",
+     "a": "Grouping means arranging rooms in relation to each other based on functional affinity so that frequently used spaces are adjacent and incompatible functions are separated. Correct example: placing the dining area next to the kitchen for easy serving, while keeping the kitchen away from the toilet to prevent cross-contamination and odor transfer. A wrong answer (e.g., \"grouping means putting all bedrooms together\") reveals the student confuses grouping with mere clustering and misses the functional logic of activity flow and hygiene separation.",
+     "self_check": true
+    },
+    {
+     "q": "A family complains that their living room feels cramped despite being 4 m × 5 m. They use dark brown curtains, a large sectional sofa against the long wall, and a floor-to-ceiling bookshelf on the opposite wall. Explain, using the principle of Roominess, why the room feels small and suggest two specific changes.",
+     "a": "Roominess is the perceived spaciousness created by proportion, furniture placement, storage integration, and color. The dark curtains absorb light, the bulky sofa blocks the long sightline, and the tall bookshelf visually divides the room. Two changes: replace dark curtains with light sheer ones to reflect light, and replace the floor-to-ceiling bookshelf with built-in wall niches or low storage to free floor area and maintain visual continuity. A wrong answer focusing only on \"buying smaller furniture\" misses the principle’s emphasis on built-in storage, proportion (rectangular rooms feel larger than square), and color psychology.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the principles of Aspect and Prospect to evaluate this scenario: A house has its only large window on the west wall facing a busy, noisy street. The main entrance is on the same wall but hidden behind a high boundary wall with no landscaping. The family wants morning sunshine and a welcoming entrance. Propose two modifications for Aspect and two for Prospect.",
+     "a": "Aspect modifications: (1) Add a window or skylight on the east/north-east wall to capture morning sun; (2) Install a ventilator on the opposite (east) wall for cross-breeze. Prospect modifications: (1) Lower the boundary wall near the entrance and add a pergola with creepers to frame the entry; (2) Place potted plants and a pathway leading to the door to create visual appeal. A wrong answer suggesting \"paint the entrance door bright red\" addresses only superficial aesthetics, not the structural arrangement of doors/windows (Aspect) or the external impression shaped by landscaping and visibility (Prospect).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the principles of Sanitation (light, ventilation, cleanliness) and Circulation in a house where the only bathroom is accessed through the kitchen, and the kitchen has no window—only an exhaust fan. Identify two health/hygiene risks and explain how violating both principles compounds the risk.",
+     "a": "Risk 1: Moisture and odors from the bathroom flow directly into the cooking area because circulation forces air movement through the kitchen, and the exhaust fan cannot fully remove bathroom humidity. Risk 2: Users carrying food/waste through the bathroom zone increase cross-contamination. The compounding effect: poor ventilation (sanitation) traps pollutants, while forced circulation through the kitchen spreads them to food-prep surfaces. A wrong answer listing \"bad smell\" without linking the directional airflow (circulation) to the lack of natural light/ventilation (sanitation) shows incomplete systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a small low-income urban house, the principle of Elegance should be sacrificed to maximize Practical Considerations like structural strength and future expansion.\" Defend or refute with two arguments grounded in the NCERT definition of Elegance.",
+     "a": "Refute. Argument 1: NCERT defines Elegance as \"the effect produced by the general layout of the plan\" without compromising economy—meaning a well-proportioned, harmonious layout is achievable within low-cost materials (e.g., aligned openings, balanced room ratios). Argument 2: Sacrificing elegance often creates awkward residual spaces that waste area, reduce roominess, and hinder circulation, ultimately undermining practical considerations. A wrong answer agreeing with the statement treats elegance as ornamental decoration rather than the geometric coherence that makes a plan buildable, maintainable, and livable within constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a revised zoning diagram (describe in words) for a 2-room rural house (one multipurpose room, one kitchen) that currently has: no internal privacy (toilet opens into multipurpose room), no external privacy (main door faces neighbor’s window), poor aspect (only window on west), and no grouping (kitchen far from water source). Your design must address all four violations using only relocation of openings/partitions—no new construction.",
+     "a": "Revised zoning: (1) Shift the toilet entrance from the multipurpose room to the rear exterior wall with a small lobby—restores internal privacy and separates sanitation from living. (2) Move the main door to the side wall facing the courtyard/street, add a bamboo screen—restores external privacy. (3) Cut a new window on the east wall of the multipurpose room, close the west window—improves aspect for morning light/breeze. (4) Relocate the kitchen to adjoin the new toilet wall (shared plumbing wall) and place the water tap between them—achieves grouping of wet zones. A poor answer that only lists \"add curtains\" or \"build a new room\" fails to work within the constraint of no new construction and misses the systems-level re-zoning logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

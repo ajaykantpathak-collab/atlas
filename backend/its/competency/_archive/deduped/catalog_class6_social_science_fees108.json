@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 8,
+ "chapter_title": "Unity in Diversity, or Many in the One",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.8.1",
+   "title": "Unity in Diversity: Many in the One",
+   "section": "Introduction",
+   "definition": "India holds many languages, dresses, foods and customs within one civilisation; thinkers call this unity in diversity, or the Many in the One, the deep pattern of Indian life.",
+   "formula": "india = many peoples + one civilisation",
+   "key_idea": "Difference does not divide here: the many forms share one inner culture, as Tagore and Sri Aurobindo describe.",
+   "textbook_ref": "fees108.txt, Introduction",
+   "question_patterns": [
+    "what is meant by unity in diversity in the indian scenario",
+    "what does the phrase many in the one mean",
+    "what did rabindranath tagore pray for in his verse",
+    "which aspects of india's diversity are most striking",
+    "how do we make out the unity underlying the diversity",
+    "why is unity in diversity called normal to india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.8.2",
+   "title": "Diversity of Languages, Dress and Food",
+   "section": "A rich diversity",
+   "definition": "A train journey across India shows the diversity at once: landscapes change, languages and scripts shift, dresses and dishes differ from station to station, yet travellers remain at home in one country.",
+   "formula": "",
+   "key_idea": "Diversity meets you at every mile, and every mile still speaks of India.",
+   "textbook_ref": "fees108.txt, A rich diversity",
+   "question_patterns": [
+    "what do you notice on a long train journey across india",
+    "how do languages and scripts change across regions",
+    "give examples of regional dresses and foods",
+    "why do visitors find india's diversity striking",
+    "how does diversity appear even within one region",
+    "why do so many languages survive in india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.8.3",
+   "title": "Epics and Shared Stories",
+   "section": "Shared traditions",
+   "definition": "The same epics and tales, the Mahabharata and Ramayana, bhakti songs and folk retellings, travel across India in every language, joining regions that never met into one story-loving family.",
+   "formula": "",
+   "key_idea": "Shared stories are shared values: when millions know the same heroes, they feel one people.",
+   "textbook_ref": "fees108.txt, Shared traditions",
+   "question_patterns": [
+    "which epics are known across india",
+    "how do the same stories change from region to region",
+    "what do shared tales do for unity",
+    "name a folk retelling of an epic you know",
+    "why do epics travel across languages so easily",
+    "how do songs and festivals carry shared stories"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.8.4",
+   "title": "Many Expressions of Diversity",
+   "section": "Conclusion",
+   "definition": "Diversity becomes strength when the many forms are honoured: festivals, foods, arts and faiths are different expressions of one human search, and respecting them keeps the country's fabric whole.",
+   "formula": "",
+   "key_idea": "The one appears in the many: honouring another's way of worship or dress strengthens, not weakens, the nation.",
+   "textbook_ref": "fees108.txt, Conclusion",
+   "question_patterns": [
+    "how does diversity become a strength for india",
+    "what happens when we respect customs different from our own",
+    "give one example of unity seen in a festival",
+    "how do food and music show both variety and unity",
+    "what did india's first prime minister say about unity",
+    "why must unity be renewed by each generation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees108.txt",
+   "concept": "fees.8.1",
+   "question_type": "verify_property",
+   "question_pattern": "How do the epics unite people who speak different languages?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the tales",
+     "explain": "The Ramayana and Mahabharata are known in every Indian language."
+    },
+    {
+     "step": 2,
+     "action": "draw the thread",
+     "explain": "One set of heroes and values retold in many tongues makes listeners feel one family."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees108.txt",
+   "concept": "fees.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why is the phrase Many in the One fitting for India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the many",
+     "explain": "Languages, dresses, foods and customs change at every few hundred kilometres."
+    },
+    {
+     "step": 2,
+     "action": "find the one",
+     "explain": "Under the variety runs one civilisation of shared stories, values and ways of living together."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees108.txt, Let us discuss",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "What did Rabindranath Tagore pray for in the opening verse?",
+    "What do you notice about dresses and food while travelling by train?",
+    "Discuss the quotation by India's first prime minister.",
+    "Collect examples of diversity from your own neighbourhood."
+   ]
+  }
+ ]
+}

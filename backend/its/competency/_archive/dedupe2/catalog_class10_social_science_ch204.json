@@ -1,0 +1,416 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 204,
+ "chapter_title": "Globalisation and the Indian Economy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess204.txt",
+ "concepts": [
+  {
+   "id": "jess.204.1",
+   "title": "Multinational Corporation (MNC)",
+   "section": "PRODUCTION ACROSS COUNTRIES",
+   "definition": "A corporate enterprise that owns, manages, or regulates production activities in multiple countries rather than just its home country.",
+   "formula": "None",
+   "key_idea": "Spreading production globally to secure cheap resources and minimize operational costs.",
+   "textbook_ref": "jess204.txt lines 45-65",
+   "question_patterns": [
+    "What is a multinational corporation?",
+    "Define an MNC and explain its primary objective.",
+    "How do multinational corporations organize their production globally?",
+    "Why do MNCs set up offices and factories in developing countries?",
+    "Explain how an MNC differs from a national company."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the geographical scope of the company",
+     "explain": "An MNC must own or control production facilities in more than one nation."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the cost-saving strategy",
+     "explain": "MNCs locate factories where cheap labor, raw materials, and favorable policies are available."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.2",
+   "title": "Foreign Investment",
+   "section": "INTERLINKING PRODUCTION ACROSS COUNTRIES",
+   "definition": "Capital expenditure made by a multinational corporation to purchase assets such as land, buildings, and machinery in another country.",
+   "formula": "None",
+   "key_idea": "Capital flows across borders with the expectation of earning profits from foreign assets.",
+   "textbook_ref": "jess204.txt lines 75-90",
+   "question_patterns": [
+    "What do you understand by foreign investment?",
+    "How is foreign investment different from regular domestic investment?",
+    "Why do multinational corporations make foreign investments?",
+    "In what ways do MNCs invest capital in local companies?",
+    "Explain the relationship between foreign investment and corporate profits."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of the capital",
+     "explain": "The investment must originate from an overseas entity, typically an MNC."
+    },
+    {
+     "step": 2,
+     "action": "Identify the target assets",
+     "explain": "The funds are used to acquire productive assets like factories, land, or local businesses."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.3",
+   "title": "Total Production of a Multinational Plant",
+   "section": "INTERLINKING PRODUCTION ACROSS COUNTRIES",
+   "definition": "The aggregate volume of goods manufactured by a multinational subsidiary, calculated by summing local market sales and export sales.",
+   "formula": "total_production = domestic_sales + export_sales",
+   "key_idea": "Combining domestic and foreign market distributions to determine the total manufacturing output.",
+   "textbook_ref": "jess204.txt lines 115-130",
+   "question_patterns": [
+    "Calculate the total production of the factory given domestic and export sales.",
+    "What is the total output of a plant that sells some units locally and exports the rest?",
+    "Find the total number of units manufactured by adding local sales and exports.",
+    "Determine the total production volume of an MNC subsidiary.",
+    "How much total goods did the plant produce if exports were ... and domestic sales were ...?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify domestic sales and export sales",
+     "explain": "Extract the values of domestic sales and export sales from the given problem.",
+     "compute": "total_production = domestic_sales + export_sales"
+    }
+   ]
+  },
+  {
+   "id": "jess.204.4",
+   "title": "Foreign Trade and Market Integration",
+   "section": "FOREIGN TRADE AND INTEGRATION OF MARKETS",
+   "definition": "The exchange of commodities and services across international borders, which connects distinct national markets and aligns product prices.",
+   "formula": "None",
+   "key_idea": "Expanding consumer choice and enabling direct competition between producers located in different nations.",
+   "textbook_ref": "jess204.txt lines 140-165",
+   "question_patterns": [
+    "How does foreign trade lead to the integration of markets?",
+    "Explain the basic function of foreign trade.",
+    "What is the impact of foreign trade on choice and prices of goods?",
+    "How do producers in different countries compete through foreign trade?",
+    "Describe how import of goods connects markets across nations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the movement of goods",
+     "explain": "With trade, goods travel from one national market to another, increasing consumer choices."
+    },
+    {
+     "step": 2,
+     "action": "Analyze price and competition effects",
+     "explain": "Prices of similar goods tend to equalize, and distant producers compete directly."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.5",
+   "title": "Globalisation",
+   "section": "WHAT IS GLOBALISATION?",
+   "definition": "The rapid process of economic, cultural, and social integration and interconnection among countries worldwide.",
+   "formula": "None",
+   "key_idea": "Increased cross-border movement of goods, services, technology, capital, and people.",
+   "textbook_ref": "jess204.txt lines 180-205",
+   "question_patterns": [
+    "What is globalisation?",
+    "Explain the process of rapid integration between countries.",
+    "What role do MNCs play in the globalisation process?",
+    "How are countries connected besides the movement of goods and services?",
+    "What are the key dimensions of globalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the drivers of integration",
+     "explain": "MNCs drive integration through foreign trade and foreign investments."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the flows across borders",
+     "explain": "Goods, services, technology, capital, and labor move more freely between nations."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.6",
+   "title": "Information and Communication Technology (ICT) in Globalisation",
+   "section": "FACTORS THAT HAVE ENABLED GLOBALISATION",
+   "definition": "The application of telecommunications, computers, and internet services to transmit information instantly and coordinate global production.",
+   "formula": "None",
+   "key_idea": "Enabling real-time communication and remote management of business operations across long distances.",
+   "textbook_ref": "jess204.txt lines 220-245",
+   "question_patterns": [
+    "How has technology stimulated the globalisation process?",
+    "What role does information technology play in spreading production of services?",
+    "Explain how the internet has facilitated global business operations.",
+    "Would globalisation have been possible without the expansion of IT?",
+    "Describe the link between telecommunications and global integration."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the technological medium used",
+     "explain": "Computers, internet, and satellite communication devices are used to share data."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the operational impact",
+     "explain": "Designs, orders, and payments are sent instantly across continents, reducing transaction costs."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.7",
+   "title": "Liberalisation and Trade Barriers",
+   "section": "Liberalisation of foreign trade and foreign investment policy",
+   "definition": "The removal of government-imposed restrictions, tariffs, or quotas on imports and exports to facilitate free trade.",
+   "formula": "None",
+   "key_idea": "Allowing businesses to make independent import-export decisions with minimal state intervention.",
+   "textbook_ref": "jess204.txt lines 250-280",
+   "question_patterns": [
+    "What do you understand by liberalisation of foreign trade?",
+    "What is a trade barrier and why do governments use them?",
+    "Why did the Indian government put barriers to foreign trade after Independence?",
+    "What changes in trade policy were made in India starting around 1991?",
+    "How does the removal of trade barriers benefit foreign companies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define trade barriers",
+     "explain": "Trade barriers are restrictions like import taxes or quotas used to regulate foreign trade."
+    },
+    {
+     "step": 2,
+     "action": "Explain the process of liberalisation",
+     "explain": "Liberalisation removes these barriers, allowing free entry and exit of goods and investments."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.8",
+   "title": "World Trade Organisation (WTO)",
+   "section": "WORLD TRADE ORGANISATION",
+   "definition": "An international body established to formulate rules for global commerce and promote the liberalisation of trade among member nations.",
+   "formula": "None",
+   "key_idea": "Ensuring free and fair trade globally, though often criticized for power imbalances.",
+   "textbook_ref": "jess204.txt lines 285-310",
+   "question_patterns": [
+    "What is the main aim of the World Trade Organisation?",
+    "How does the WTO establish rules for international trade?",
+    "Why is the WTO criticized by developing countries?",
+    "Discuss the debate on trade practices in the agricultural sector under WTO rules.",
+    "What is the role of the WTO in global trade liberalisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mandate of the WTO",
+     "explain": "The WTO aims to liberalize international trade by removing barriers and enforcing common rules."
+    },
+    {
+     "step": 2,
+     "action": "Examine the implementation challenges",
+     "explain": "Developed countries sometimes retain barriers while forcing developing nations to remove theirs."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.9",
+   "title": "Special Economic Zones (SEZs)",
+   "section": "IMPACT OF GLOBALISATION IN INDIA",
+   "definition": "Designated industrial areas equipped with world-class infrastructure and tax exemptions designed to attract foreign direct investment.",
+   "formula": "None",
+   "key_idea": "Creating highly favorable localized environments to encourage multinational investments.",
+   "textbook_ref": "jess204.txt lines 330-345",
+   "question_patterns": [
+    "What are Special Economic Zones (SEZs)?",
+    "Why are central and state governments setting up SEZs in India?",
+    "What facilities are provided to companies in Special Economic Zones?",
+    "How do SEZs help in attracting foreign investment?",
+    "Why has the setting up of SEZs been opposed by some people?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the features of an SEZ",
+     "explain": "SEZs offer world-class infrastructure (electricity, water, roads) and tax holidays for initial years."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the policy objective",
+     "explain": "The primary goal is to attract foreign multinational corporations to set up manufacturing units."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.10",
+   "title": "Fair Globalisation",
+   "section": "THE STRUGGLE FOR A FAIR GLOBALISATION",
+   "definition": "An inclusive approach to global economic integration that ensures opportunities and benefits are shared equitably among all sections of society.",
+   "formula": "None",
+   "key_idea": "Balancing market efficiency with social justice and labor rights protection.",
+   "textbook_ref": "jess204.txt lines 390-415",
+   "question_patterns": [
+    "What is fair globalisation?",
+    "How can the government play a role in ensuring fair globalisation?",
+    "Why is there a need for a struggle for fair globalisation?",
+    "What steps can be taken to protect small producers and workers in a globalised economy?",
+    "How can developing countries negotiate for fairer rules at the WTO?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the gaps in current globalisation",
+     "explain": "Not everyone has benefited; small producers and workers often face job insecurity and losses."
+    },
+    {
+     "step": 2,
+     "action": "Determine corrective policy measures",
+     "explain": "Governments must enforce labor laws, support small producers, and use trade barriers if necessary."
+    }
+   ]
+  },
+  {
+   "id": "jess.204.11",
+   "title": "Export Ratio of a Multinational Plant",
+   "section": "PRODUCTION ACROSS COUNTRIES",
+   "definition": "The proportion of total production that is exported to foreign markets, expressed as a percentage.",
+   "formula": "export_ratio = (export_sales * 100) / total_production",
+   "key_idea": "Determining the export orientation of a manufacturing facility relative to its total output.",
+   "textbook_ref": "jess204.txt lines 115-130",
+   "question_patterns": [
+    "Calculate the export ratio of the plant given exports and total production.",
+    "What percentage of total production was exported by the company?",
+    "Find the export percentage of a factory that produces ... units and exports ... units.",
+    "Determine the export ratio of an automobile plant.",
+    "Calculate how much of the total output is shipped abroad as a percentage."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the export ratio",
+     "explain": "Divide the export sales by the total production and multiply by 100 to get the percentage.",
+     "compute": "export_ratio = (export_sales * 100) / total_production"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess204.txt lines 115-125",
+   "concept": "jess.204.3",
+   "question_type": "compute",
+   "question_pattern": "Ford Motors in India sells {domestic_sales} cars in the domestic market and exports {export_sales} cars to other countries. What is the total production of cars by the plant?",
+   "extracted_variables": {
+    "domestic_sales": 88000,
+    "export_sales": 181000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum domestic sales and export sales",
+     "explain": "To find the total production, we add the number of cars sold domestically to the number of cars exported.",
+     "compute": "total_production = domestic_sales + export_sales"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess204.txt lines 115-125",
+   "concept": "jess.204.3",
+   "question_type": "compute",
+   "question_pattern": "A garment manufacturing unit in Ludhiana sells {domestic_sales} footballs locally and exports {export_sales} footballs to European MNCs. Calculate the total production of footballs.",
+   "extracted_variables": {
+    "domestic_sales": 15000,
+    "export_sales": 45000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum domestic sales and export sales",
+     "explain": "To find the total production, we add the domestic sales volume to the export sales volume.",
+     "compute": "total_production = domestic_sales + export_sales"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess204.txt lines 115-125",
+   "concept": "jess.204.11",
+   "question_type": "compute",
+   "question_pattern": "A manufacturing plant has a total production of {total_production} units and exports {export_sales} units. Find its export ratio as a percentage.",
+   "extracted_variables": {
+    "total_production": 250000,
+    "export_sales": 150000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the export ratio",
+     "explain": "Divide the export sales by the total production and multiply by 100 to get the percentage.",
+     "compute": "export_ratio = (export_sales * 100) / total_production"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess204.txt lines 115-125",
+   "concept": "jess.204.11",
+   "question_type": "compute",
+   "question_pattern": "An electronics factory has a total output of {total_production} mobile phones, out of which {export_sales} are exported. Calculate the export ratio of the factory.",
+   "extracted_variables": {
+    "total_production": 500000,
+    "export_sales": 400000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the export ratio",
+     "explain": "Divide the export sales by the total production and multiply by 100 to get the percentage.",
+     "compute": "export_ratio = (export_sales * 100) / total_production"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "jess204.txt lines 420-440",
+   "questions": [
+    "What do you understand by globalisation? Explain in your own words.",
+    "What were the reasons for putting barriers to foreign trade and foreign investment by the Indian government? Why did it wish to remove these barriers?",
+    "How would flexibility in labour laws help companies?",
+    "What are the various ways in which MNCs set up, control or produce in other countries?",
+    "Why do developed countries want developing countries to liberalise their trade and investment? What do you think should the developing countries demand in return?",
+    "The impact of globalisation has not been uniform. Explain this statement.",
+    "How has liberalisation of trade and investment policies helped the globalisation process?",
+    "How does foreign trade lead to integration of markets across countries? Explain with an example other than those given here."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class8_social_ch5",
+ "concepts": [
+  {
+   "id": "c8ss.5.1",
+   "title": "Meaning of Universal Adult Franchise",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Universal Adult Franchise' refers to.",
+     "a": "Universal adult franchise is the principle that all adult citizens of a country, irrespective of wealth, caste, religion, or gender, have the right to vote in elections.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Universal Adult Franchise'.",
+     "a": "Every adult citizen has an equal vote, making the principle 'one person, one vote, one value' the foundation of democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning of Universal Adult Franchise' taught, and from which source text?",
+     "a": "Universal Adult Franchise",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.2",
+   "title": "Right to Vote and Voter Eligibility",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Right to Vote and Voter Eligibility' refers to.",
+     "a": "The right to vote is the legal entitlement of every Indian citizen aged 18 years or above, whose name is registered in the electoral roll, to cast a vote in elections.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right to Vote and Voter Eligibility'.",
+     "a": "Voting is both a right and a duty; eligibility requires Indian citizenship, a minimum age of 18, and registration in the voters' list.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Right to Vote and Voter Eligibility' taught, and from which source text?",
+     "a": "Right to Vote",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.3",
+   "title": "Election Commission of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Election Commission of India' refers to.",
+     "a": "The Election Commission of India is an independent constitutional body that conducts, directs, and controls the preparation of electoral rolls and the conduct of elections to Parliament, state legislatures, and the offices of the President and Vice-President.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Election Commission of India'.",
+     "a": "The Election Commission ensures free and fair elections by supervising the entire electoral process impartially.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Election Commission of India' taught, and from which source text?",
+     "a": "Election Commission of India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.4",
+   "title": "Electoral Process in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Electoral Process in India' refers to.",
+     "a": "The electoral process is the sequence of steps from the announcement of elections and filing of nominations to voting, counting of votes, and declaration of results.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electoral Process in India'.",
+     "a": "The electoral process follows a fixed schedule of nomination, scrutiny, withdrawal, campaigning, polling, counting, and result declaration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Electoral Process in India' taught, and from which source text?",
+     "a": "Electoral Process",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.5",
+   "title": "Lok Sabha Elections and Seat Calculation",
+   "questions": [
+    {
+     "q": "Using the method 'Lok Sabha Elections and Seat Calculation', work with: total_seats = 543. Carry the chain through step by step and give the final value of majority.",
+     "a": "272 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lok Sabha Elections and Seat Calculation' and work with: total_seats = 543. Carry the chain through step by step and give the final value of majority.",
+     "a": "272 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lok Sabha Elections and Seat Calculation' refers to.",
+     "a": "Lok Sabha elections are direct elections in which the candidate who wins the most votes in a constituency is elected; the Lok Sabha has a maximum of 552 members, of which 530 represent states and 20 represent union territories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lok Sabha Elections and Seat Calculation'.",
+     "a": "The party or coalition winning more than half the Lok Sabha seats (273 or more) can form the government.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lok Sabha Elections and Seat Calculation', in plain ASCII form.",
+     "a": "seats_won = constituencies_won; majority = total_seats / 2 + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.6",
+   "title": "Rajya Sabha Elections",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rajya Sabha Elections' refers to.",
+     "a": "Rajya Sabha elections are indirect elections in which members are elected by the elected members of the state legislative assemblies; the Rajya Sabha is a permanent house with a maximum of 250 members.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rajya Sabha Elections'.",
+     "a": "The Rajya Sabha represents the states and is not subject to dissolution; one-third of its members retire every two years.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rajya Sabha Elections' taught, and from which source text?",
+     "a": "Lok Sabha and Rajya Sabha Elections",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.7",
+   "title": "Role of Political Parties",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of Political Parties' refers to.",
+     "a": "Political parties are organised groups of people who share common political views and seek to win elections in order to form the government and implement their policies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of Political Parties'.",
+     "a": "Political parties contest elections, form governments, shape public opinion, and provide a choice of policies to voters.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of Political Parties' taught, and from which source text?",
+     "a": "Role of Political Parties",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.8",
+   "title": "Free and Fair Elections",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Free and Fair Elections' refers to.",
+     "a": "Free and fair elections are elections in which voters can freely choose among candidates without pressure, and the process is conducted impartially according to established rules.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Free and Fair Elections'.",
+     "a": "Free and fair elections require an independent election authority, a neutral voters' list, secret ballot, and equal opportunity for all candidates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Free and Fair Elections' taught, and from which source text?",
+     "a": "Free and Fair Elections",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.9",
+   "title": "Challenges in the Indian Electoral System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Challenges in the Indian Electoral System' refers to.",
+     "a": "The Indian electoral system faces challenges such as misuse of money and muscle power, criminalisation of politics, booth capturing, and the influence of caste and religion on voting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Challenges in the Indian Electoral System'.",
+     "a": "Despite free and fair principles, elections in India are affected by money power, criminal candidates, and identity-based voting that weaken democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Challenges in the Indian Electoral System' taught, and from which source text?",
+     "a": "Challenges in Indian Electoral System",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

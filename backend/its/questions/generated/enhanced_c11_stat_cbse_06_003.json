@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_003",
+   "title": "c11_stat_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define Range and Coefficient of Range. Write their formulas and state the condition when Coefficient of Range is undefined.",
+     "a": "Range = L − S, where L is the largest value and S is the smallest value in the dataset. Coefficient of Range = (L − S) / (L + S). It is undefined when L + S = 0 (i.e., when the maximum and minimum are equal in magnitude but opposite in sign, or both zero). A wrong answer (e.g., saying Coefficient = (L − S)/L or forgetting the undefined condition) reveals the student has memorised the formula without understanding its derivation as a relative measure or its mathematical domain restrictions.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates Range for a continuous series using mid-values of the highest and lowest classes instead of class boundaries. Is this correct? Explain why or why not with an example.",
+     "a": "Using mid-values is acceptable only if the class intervals are equal and the mid-values accurately represent the spread; however, the standard NCERT method uses class boundaries (upper limit of highest class, lower limit of lowest class) because Range should reflect the actual extremes of the data range. For example, classes 0-10, 10-20: mid-values give 5 and 15 (Range=10), but boundaries give 0 and 20 (Range=20). The latter is correct because data can go up to 20. A wrong answer shows the student confuses representative values with actual limits and doesn't grasp that Range measures the total spread of observed values.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Range and Coefficient of Range for the following daily profits (in ₹) of a shop over 7 days: 120, 150, 90, 200, 180, 110, 160.",
+     "a": "Step 1: Identify L = 200, S = 90. Step 2: Range = 200 − 90 = 110. Step 3: Coefficient = (200 − 90) / (200 + 90) = 110 / 290 = 0.3793. Step 4: Interpret: profits vary by ₹110, and the relative spread is about 38%. A wrong answer (e.g., using mean instead of extremes, or miscalculating sum) reveals the student cannot distinguish Range from other dispersion measures or makes arithmetic errors in basic operations.",
+     "self_check": true
+    },
+    {
+     "q": "Two datasets have the same Range = 50. Dataset A: values between 100 and 150. Dataset B: values between 10 and 60. Compare their Coefficients of Range and explain which dataset has greater relative dispersion.",
+     "a": "Coefficient A = (150−100)/(150+100) = 50/250 = 0.2. Coefficient B = (60−10)/(60+10) = 50/70 ≈ 0.714. Dataset B has higher relative dispersion because its spread is large compared to its magnitude. A wrong answer (e.g., saying both coefficients are equal because Range is same) shows the student doesn't understand that Coefficient of Range normalises by the sum of extremes, making it sensitive to the scale of data — a critical concept for comparing variability across different contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Range is the best measure of dispersion because it is easiest to calculate.\" Provide two statistical reasons why this is misleading for serious analysis.",
+     "a": "The statement is misleading because: (1) Range depends only on two extreme values and ignores all other data points, so it is highly unstable — a single outlier drastically changes it. (2) It cannot be calculated for open-ended distributions (e.g., \"50 and above\"). A poor critique (e.g., \"it's not accurate\" without specifics) shows the student lacks deeper understanding of the properties of a good measure of dispersion (rigidity, stability, using all observations) taught in c11_stat_cbse_06_001 and c11_stat_cbse_06_002.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (5-7 values) where Range = 20 but Coefficient of Range = 0.5. Show your work and explain what this coefficient value tells you about the data's spread relative to its magnitude.",
+     "a": "We need (L−S)=20 and (L−S)/(L+S)=0.5 → 20/(L+S)=0.5 → L+S=40. Solving L−S=20 and L+S=40 gives L=30, S=10. Dataset example: 10, 15, 20, 25, 30. Coefficient=0.5 means the spread is half the sum of extremes, indicating moderate relative variability. A poor answer (e.g., random numbers not satisfying equations) reveals the student cannot work backwards from measures to data, indicating a lack of conceptual flexibility needed for higher-order problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

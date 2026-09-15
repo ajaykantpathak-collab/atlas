@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_008",
+   "title": "c11_eng_h_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" and \"metaphor\" precisely as literary devices, and give one example of each from the first two paragraphs of \"Discovering Tut\".",
+     "a": "Imagery: sensory language creating mental pictures/sensations (e.g., \"Dark-bellied clouds had scudded across the desert sky\" — visual/kinesthetic). Metaphor: implicit direct comparison (e.g., \"veiling the stars in casket grey\" — the sky's colour is a coffin lid). A wrong answer that gives a simile (\"like a hammer\") or a vague \"description\" reveals the student cannot distinguish metaphor from simile or imagery from mere adjectives.",
+     "self_check": true
+    },
+    {
+     "q": "The text says: \"The ritual resins had hardened, cementing Tut to the bottom of his solid gold coffin.\" Identify the metaphor here, name its tenor and vehicle, and explain the *ground* (the shared quality) that makes this metaphor scientifically accurate as well as vivid.",
+     "a": "Metaphor: \"cementing\". Tenor: the hardened resin holding the body. Vehicle: cement/concrete. Ground: both become rigid, adhesive, and permanent binding agents under heat. A student who says \"the resin is like cement\" has missed the *implicit* nature of metaphor; one who cannot name the ground shows they don't understand how metaphor compresses scientific fact into image.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"thermal imagery\" to the passage: \"For several hours he set the mummy outside in blazing sunshine that heated it to 149 degrees Fahrenheit.\" Rewrite this sentence to *increase* its thermal imagery without changing the factual content, and explain which sensory receptor the reader's imagination activates.",
+     "a": "Rewrite: \"The relentless Egyptian sun hammered the mummy for hours, driving its core temperature to a searing 149°F — the heat you feel when you open an oven door.\" Activates cutaneous thermoreceptors (skin heat sense). A weak answer merely adds adjectives (\"very hot\") without creating a *relatable* sensory anchor (oven door), showing the student treats imagery as decoration rather than sensory simulation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the extended metaphor in the CT scan description: \"hundreds of X-rays in cross section are put together like slices of bread to create a three-dimensional virtual body.\" Why is \"slices of bread\" a more effective vehicle for a general reader than \"tomographic reconstruction algorithm\"? What does the metaphor *conceal* about the actual computational process?",
+     "a": "\"Bread slices\" maps a familiar, tangible, manual stacking process onto an invisible, mathematical, automated volumetric rendering. It conceals: (1) the complex back-projection algorithms, (2) the 0.62mm slice thickness precision, (3) the digital interpolation between slices. A student who only praises the metaphor's clarity misses the critical analysis of what scientific detail is lost — a key Class 11 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to end the chapter with this metaphor: \"Just above the entrance to Tut’s tomb stood Orion — the constellation that the ancient Egyptians knew as the soul of Osiris, the god of the afterlife — watching over the boy king.\" Does this metaphor enhance or undermine the scientific objectivity established earlier? Justify with two textual reasons.",
+     "a": "It *enhances* by providing cultural closure without contradicting science. Reason 1: The metaphor is attributed to the *ancient Egyptians' belief* (\"knew as\"), not the author's fact. Reason 2: It mirrors the opening's \"ghostly dust devils\" and \"casket grey\", framing the scientific intrusion (CT scan) within the same mythic landscape the pharaohs inhabited. A student who calls it \"unscientific\" fails to see the narrative strategy of *bracketing* science with cultural context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new metaphor for the *sound* of the CT scanner operating inside the trailer, using a vehicle from the ancient Egyptian context (e.g., a scarab, the Nile, a scribe's reed pen). Write one sentence embedding this metaphor, then explain the ground.",
+     "a": "Sentence: \"The scanner's rhythmic whir rose like a scarab's wings beating against the darkness of the trailer, each rotation inscribing Tut's secrets on digital papyrus.\" Ground: cyclical motion (rotation/wingbeat), revelation (inscribing/secrets), fragility (papyrus/data). A poor answer uses a modern vehicle (jet engine) or states a simile (\"sounded like\"), showing inability to transfer across domains or maintain metaphor form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

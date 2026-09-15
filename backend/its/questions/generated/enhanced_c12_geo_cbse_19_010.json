@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_010",
+   "title": "c12_geo_cbse_19_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the data requirement for Karl Pearson's coefficient of correlation and Spearman's rank correlation coefficient?",
+     "a": "Karl Pearson's coefficient requires quantitative (interval/ratio) data and assumes a linear relationship with normal distribution; Spearman's rank correlation works with ordinal (ranked) data or quantitative data converted to ranks, and only assumes a monotonic relationship. A wrong answer (e.g., \"both require quantitative data\") reveals the student does not understand that Spearman's method is non-parametric and can be applied to ranked data like \"high/medium/low\" or when normality/linearity assumptions are violated.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we assign the average rank to tied values in Spearman's method, and what would be the consequence of assigning them sequential ranks (e.g., 3, 4, 5 for three tied values)?",
+     "a": "Average ranks preserve the sum of ranks (which must equal n(n+1)/2) and ensure each tied value gets equal representation. Assigning sequential ranks artificially inflates the sum of ranks and distorts the differences d, leading to a biased ρ that underestimates the true correlation. A wrong answer indicates the student treats ranking as mere labeling rather than a mathematical transformation that must conserve rank-sum properties.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for 5 districts: District A (Rainfall rank=1, Yield rank=2), B (2,1), C (3,4), D (4,3), E (5,5). Compute Spearman's ρ and interpret its geographical meaning.",
+     "a": "Step 1: List ranks: (1,2), (2,1), (3,4), (4,3), (5,5).\nStep 2: Compute d = R₁ - R₂: -1, +1, -1, +1, 0.\nStep 3: d²: 1, 1, 1, 1, 0 → Σd² = 4.\nStep 4: n = 5. ρ = 1 - [6×4 / 5(25-1)] = 1 - 24/120 = 1 - 0.2 = 0.8.\nInterpretation: Strong positive monotonic relationship — districts with higher rainfall ranks tend to have higher crop yield ranks. A wrong answer (e.g., ρ=0.6) usually comes from miscalculating Σd² or using n(n²-1) incorrectly; it reveals poor algebraic care.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes Spearman's ρ for 10 villages' distance from market (km) and vegetable price (₹/kg) and gets ρ = -0.85. The same data gives Karl Pearson's r = -0.62. Explain why the two coefficients differ in magnitude and which is more appropriate here.",
+     "a": "Spearman's ρ = -0.85 captures the strong monotonic (consistently decreasing) trend: as distance increases, price decreases. Pearson's r = -0.62 is lower because the relationship is non-linear (e.g., price drops sharply at first then levels off). Spearman is more appropriate because it does not assume linearity. A wrong answer (e.g., \"Pearson is always better\") shows the student cannot match method to data structure.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since Spearman's ρ = 0.95 for state-wise forest cover rank and tribal population rank, increasing tribal population will increase forest cover.\"",
+     "a": "The statement confuses correlation with causation. ρ = 0.95 indicates a strong positive monotonic association — states with higher tribal population ranks tend to have higher forest cover ranks. It does not imply that increasing tribal population causes forest cover to increase; both may be driven by a third factor (e.g., hilly terrain, historical protection). A wrong answer that accepts the causal claim reveals the classic \"correlation implies causation\" fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical study using Spearman's rank correlation to investigate the relationship between groundwater depletion and cropping intensity in a semi-arid region. Specify the variables, data source, ranking method, and how you would handle tied ranks.",
+     "a": "Variables: (1) Groundwater depletion (m/yr) from CGWB block-level data, (2) Cropping intensity (%) from district agricultural statistics. Rank each variable across blocks (1 = highest depletion, 1 = highest intensity). Compute d and ρ. For tied depletion values, assign average ranks and apply the correction factor Σ(m³-m)/12 for each tied group in the denominator. A poor answer would use raw values without ranking, ignore ties, or choose Pearson's method — showing failure to operationalise Spearman's method in a real geographical inquiry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

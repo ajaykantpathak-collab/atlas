@@ -1,0 +1,304 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 106,
+ "chapter_title": "Reproduction in Animals",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc106.txt",
+ "concepts": [
+  {
+   "id": "hesc.6.1.1",
+   "title": "Modes of Reproduction",
+   "section": "6.1",
+   "definition": "Reproduction is indeed the biological process ensuring the continuation of a species by producing new individuals, occurring via sexual or asexual methods.",
+   "formula": "none",
+   "key_idea": "Necessary for species survival and continuity.",
+   "textbook_ref": "hesc106.txt lines 1-20",
+   "question_patterns": [
+    "what is the importance of reproduction",
+    "why do organisms reproduce",
+    "name the two modes of reproduction",
+    "how do animals reproduce",
+    "why is modes of reproduction important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define reproduction",
+     "explain": "Reproduction is the biological process by which living organisms produce new individuals of their own kind, ensuring the continuation of their species."
+    },
+    {
+     "step": 2,
+     "action": "Identify the two modes of reproduction",
+     "explain": "Reproduction occurs through two main modes: sexual reproduction involving two parents and gamete fusion, and asexual reproduction involving a single parent without gamete fusion."
+    },
+    {
+     "step": 3,
+     "action": "Explain the importance of reproduction",
+     "explain": "Reproduction is essential for species survival and continuity, as it prevents extinction by replacing individuals that die and maintains the population over generations."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.2.1",
+   "title": "Sexual Reproduction",
+   "section": "6.2",
+   "definition": "Male and female gametes meet and fuse; the zygote so formed grows into a new individual.",
+   "formula": "zygote = male_gamete + female_gamete",
+   "key_idea": "Fusion of gametes gives a new individual.",
+   "textbook_ref": "hesc106.txt lines 30-50",
+   "question_patterns": [
+    "define sexual reproduction",
+    "what is a zygote",
+    "how is a zygote formed",
+    "what are the reproductive parts in humans",
+    "compute the answer step by step for sexual reproduction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Combine gametes",
+     "explain": "Fusion of male and female cells creates the zygote",
+     "compute": "zygote = male_gamete + female_gamete"
+    },
+    {
+     "step": 2,
+     "action": "Identify the zygote as the starting cell",
+     "explain": "The zygote is the single fertilised cell formed after gamete fusion, containing genetic material from both parents.",
+     "compute": "zygote = male_gamete + female_gamete"
+    },
+    {
+     "step": 3,
+     "action": "Describe development into a new individual",
+     "explain": "The zygote undergoes repeated cell division and differentiation to grow into an embryo and eventually a new individual with traits from both parents."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.2.2",
+   "title": "Fertilisation Types",
+   "section": "6.2",
+   "definition": "Fertilisation is indeed the fusion of sperm and egg; it is internal when occurring inside the female both body and external when occurring outside.",
+   "formula": "none",
+   "key_idea": "Location of gamete fusion differentiates internal from external fertilisation.",
+   "textbook_ref": "hesc106.txt lines 80-120",
+   "question_patterns": [
+    "distinguish between internal and external fertilisation",
+    "where does fertilisation occur in humans",
+    "give examples of animals with external fertilisation",
+    "what is IVF",
+    "short note on fertilisation types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define fertilisation",
+     "explain": "Fertilisation is the fusion of a male sperm and a female egg to form a zygote, initiating the development of a new organism."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish internal fertilisation",
+     "explain": "Internal fertilisation occurs inside the female body, as seen in humans, dogs, and cows, where the sperm meets the egg within the female reproductive tract."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish external fertilisation",
+     "explain": "External fertilisation occurs outside the female body, as seen in frogs and fish, where eggs and sperm are released into water and fusion happens in the open environment."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.2.3",
+   "title": "Embryo Development",
+   "section": "6.2",
+   "definition": "The process where a zygote divides into a ball of cells and embeds in the uterus to develop into a foetus.",
+   "formula": "none",
+   "key_idea": "Zygote to embryo to foetus transition.",
+   "textbook_ref": "hesc106.txt lines 130-150",
+   "question_patterns": [
+    "what is an embryo",
+    "define foetus",
+    "where does the embryo get embedded",
+    "how does a zygote develop",
+    "justify why embryo development matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe zygote formation and division",
+     "explain": "After fertilisation, the zygote begins to divide repeatedly to form a ball of cells called the embryo."
+    },
+    {
+     "step": 2,
+     "action": "Explain implantation in the uterus",
+     "explain": "The embryo embeds itself into the thickened lining of the uterus, where it receives nourishment to continue developing."
+    },
+    {
+     "step": 3,
+     "action": "Define foetus stage",
+     "explain": "Once the embryo's body parts such as limbs and head become distinguishable, it is called a foetus, which continues to grow until birth."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.2.4",
+   "title": "Viviparous vs Oviparous",
+   "section": "6.2",
+   "definition": "Viviparous animals give birth to live young, while oviparous animals lay eggs that hatch later.",
+   "formula": "none",
+   "key_idea": "Method of birth distinguishes these two animal groups.",
+   "textbook_ref": "hesc106.txt lines 160-180",
+   "question_patterns": [
+    "differentiate between viviparous and oviparous",
+    "are humans viviparous",
+    "give examples of oviparous animals",
+    "how do hens reproduce",
+    "describe viviparous vs oviparous with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define viviparous animals",
+     "explain": "Viviparous animals give birth to live young ones that develop inside the mother's body, such as humans, dogs, and cows."
+    },
+    {
+     "step": 2,
+     "action": "Define oviparous animals",
+     "explain": "Oviparous animals lay eggs that hatch outside the body, and the young ones develop inside the egg, such as hens, frogs, and lizards."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two groups",
+     "explain": "The key difference is the method of birth: viviparous animals nourish the embryo internally until birth, while oviparous animals provide nourishment through the egg yolk after laying."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.2.5",
+   "title": "Metamorphosis",
+   "section": "6.2",
+   "definition": "The biological process of transformation from a larval stage to an adult through drastic physical changes.",
+   "formula": "none",
+   "key_idea": "Drastic change from larva to adult.",
+   "textbook_ref": "hesc106.txt lines 190-200",
+   "question_patterns": [
+    "what is metamorphosis",
+    "describe the life cycle of a frog",
+    "do humans undergo metamorphosis",
+    "define larva",
+    "describe metamorphosis with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define metamorphosis",
+     "explain": "Metamorphosis is the biological process in which an organism undergoes drastic physical transformation from a larval stage to an adult form."
+    },
+    {
+     "step": 2,
+     "action": "Describe the life cycle of a frog",
+     "explain": "A frog's life cycle goes from egg to tadpole (larva) and then to adult frog, with the tadpole gradually losing its tail and developing limbs."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish from direct development",
+     "explain": "Unlike humans who develop gradually without a larval stage, animals like frogs and butterflies undergo metamorphosis with distinctly different larval and adult forms."
+    }
+   ]
+  },
+  {
+   "id": "hesc.6.3.1",
+   "title": "Asexual Reproduction",
+   "section": "6.3",
+   "definition": "A mode of reproduction involving only a single parent, resulting in offspring without gamete fusion.",
+   "formula": "none",
+   "key_idea": "Single parent involvement.",
+   "textbook_ref": "hesc106.txt lines 210-230",
+   "question_patterns": [
+    "what is asexual reproduction",
+    "name two methods of asexual reproduction",
+    "how does hydra reproduce",
+    "what is binary fission",
+    "explain asexual reproduction in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define asexual reproduction",
+     "explain": "Asexual reproduction is a mode of reproduction in which a single parent produces offspring without the fusion of gametes."
+    },
+    {
+     "step": 2,
+     "action": "Describe binary fission",
+     "explain": "In binary fission, a single parent cell divides into two equal daughter cells, as seen in Amoeba where the nucleus splits first followed by the cytoplasm."
+    },
+    {
+     "step": 3,
+     "action": "Describe budding",
+     "explain": "In budding, a small outgrowth called a bud develops on the parent body, grows, and eventually detaches to form a new individual, as seen in Hydra."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc106.txt",
+   "concept": "hesc.6.2.1",
+   "question_type": "conceptual",
+   "question_pattern": "If a zygote is formed by {male_gamete} and {female_gamete}, what is the result?",
+   "extracted_variables": {
+    "male_gamete": "sperm",
+    "female_gamete": "ovum"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify fusion",
+     "explain": "Fusion of sperm and ovum creates a zygote",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc106.txt lines 30-50",
+   "concept": "hesc.6.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sexual reproduction step by step",
+   "extracted_variables": {
+    "male_gamete": "value of male_gamete",
+    "female_gamete": "value of female_gamete"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Combine gametes",
+     "explain": "Fusion of male and female cells creates the zygote",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "hesc106.txt",
+   "questions": [
+    "Explain reproduction in your own words and add one example of your own.",
+    "Differentiate between internal and external fertilisation.",
+    "Define metamorphosis with examples.",
+    "Describe binary fission in Amoeba."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

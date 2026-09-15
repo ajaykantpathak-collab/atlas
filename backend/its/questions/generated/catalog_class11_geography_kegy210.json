@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy210",
+  "concepts": [
+    {
+      "id": "kegy.210.1.1",
+      "questions": [
+        {"q": "Air at 20 degrees holds 10 grams of vapour but could hold 20 grams. What is the relative humidity in per cent? (give the per cent)", "a": "50"},
+        {"q": "Actual vapour is 12 grams and saturation vapour is 20 grams. Relative humidity equals 12 divided by 20 times 100. What is it? (give the per cent)", "a": "60"},
+        {"q": "What is the ratio of actual vapour to saturation vapour, in per cent, called? (two words)", "a": "relative humidity"},
+        {"q": "Cooling air to which temperature saturates it and starts condensation? (two words)", "a": "dew point"},
+        {"q": "Which humidity measure weighs vapour per unit mass of air? (one word)", "a": "specific"},
+        {"q": "If actual vapour equals saturation vapour, relative humidity is what per cent? (give the per cent)", "a": "100"},
+        {"q": "Actual vapour is 9 grams and saturation is 30 grams. What is the relative humidity in per cent? (give the per cent)", "a": "30"}
+      ]
+    },
+    {
+      "id": "kegy.210.2.1",
+      "questions": [
+        {"q": "Which night-time condensation forms dewdrops on grass? (one word)", "a": "dew"},
+        {"q": "Which condensation forms ice crystals on surfaces below freezing? (one word)", "a": "frost"},
+        {"q": "Which condensation at ground level cuts visibility in the morning? (one word)", "a": "fog"},
+        {"q": "Which lifting mechanism forces air up over mountains? (one word)", "a": "orographic"},
+        {"q": "Which precipitation type mixes rain and snow? (one word)", "a": "sleet"},
+        {"q": "Which precipitation falls as balls of ice? (one word)", "a": "hail"},
+        {"q": "Name one process by which droplets grow heavy enough to fall, besides collision-coalescence. (one word)", "a": "Bergeron"}
+      ]
+    },
+    {
+      "id": "kegy.210.3.1",
+      "questions": [
+        {"q": "Evaporation from oceans and precipitation over land together form the water what? (one word)", "a": "balance"},
+        {"q": "Atmospheric moisture feeds rivers, lakes and what underground store? (one word)", "a": "groundwater"},
+        {"q": "Which human activity depends most directly on the timing of moisture delivery? (one word)", "a": "agriculture"},
+        {"q": "Too much moisture at once creates what hazard? (one word)", "a": "floods"},
+        {"q": "Moisture evaporates chiefly from oceans and what else? (one word)", "a": "lands"},
+        {"q": "Does the water balance link evaporation with precipitation? (yes or no)", "a": "yes"},
+        {"q": "Which supply system does late or failed moisture delivery threaten? (two words)", "a": "water supply"}
+      ]
+    }
+  ]
+}

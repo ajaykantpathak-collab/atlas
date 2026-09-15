@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Light: Mirrors and Lenses",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.110.10.1",
+   "title": "Spherical Mirrors: Concave and Convex",
+   "section": "10.1",
+   "definition": "A spherical mirror is a curved slice of a hollow sphere: the inward-bulging reflecting face is concave and converges light, while the outward face is convex and spreads light out; pole, centre of curvature, focus and aperture are the standard points that describe either mirror.",
+   "formula": "-",
+   "key_idea": "Concave mirrors gather rays to a focus; convex mirrors scatter them as if from behind.",
+   "textbook_ref": "hecu110.txt lines 43-137 (what are spherical mirrors)",
+   "question_patterns": [
+    "define concave and convex mirrors",
+    "name the terms used to describe a spherical mirror",
+    "which mirror is used as a dentist's mirror and why",
+    "what is the pole of a spherical mirror",
+    "why is a convex mirror used in vehicle rear views",
+    "how can you identify a concave mirror by touch or trial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "inspect the reflecting face",
+     "explain": "Bulging inward marks concave; bulging outward marks convex."},
+    {"step": 2, "action": "trace the geometry",
+     "explain": "The mirror is part of a sphere, so its pole, centre and radius follow from the sphere."},
+    {"step": 3, "action": "test with parallel rays",
+     "explain": "Concave brings parallel rays to the focus; convex makes them diverge from the focus."}
+   ]
+  },
+  {
+   "id": "hecu.110.10.2",
+   "title": "Images Formed by Spherical Mirrors",
+   "section": "10.2",
+   "definition": "A concave mirror gives different images as the object moves: real and inverted when the object is beyond the focus, magnified when close, and a virtual upright enlarged image inside the focus; a convex mirror always gives a small, upright virtual image - useful for a wide rear view.",
+   "formula": "-",
+   "key_idea": "Move the object, change the image: position decides real-inverted or virtual-erect.",
+   "textbook_ref": "hecu110.txt lines 137-240 (characteristics of images formed by spherical mirrors)",
+   "question_patterns": [
+    "what kind of image forms when an object is very close to a concave mirror",
+    "why does a convex mirror always form an upright diminished image",
+    "distinguish real and virtual images",
+    "where should an object be placed to get a real image with a concave mirror",
+    "which mirror shows your face enlarged - why",
+    "state the uses of concave and convex mirrors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the object position",
+     "explain": "Compare the object distance with the focal length of the mirror."},
+    {"step": 2, "action": "predict the image type",
+     "explain": "Beyond focus gives real inverted images; inside focus gives virtual erect magnified ones."},
+    {"step": 3, "action": "verify on screen and eye",
+     "explain": "Real images can be caught on a screen; virtual ones only appear in the mirror."}
+   ]
+  },
+  {
+   "id": "hecu.110.10.3",
+   "title": "Laws of Reflection",
+   "section": "10.3",
+   "definition": "Reflection follows two rules: the incident ray, the reflected ray and the normal at the point of incidence all lie in one plane, and the angle of reflection equals the angle of incidence - both measured from the normal.",
+   "formula": "angle of reflection = angle of incidence",
+   "key_idea": "Equal angles about the normal, with all three rays in one plane.",
+   "textbook_ref": "hecu110.txt lines 240-518 (what are the laws of reflection)",
+   "question_patterns": [
+    "state the two laws of reflection",
+    "a ray strikes a mirror at 40 degrees to the normal - find the angle of reflection",
+    "what is the normal in reflection of light",
+    "verify the second law of reflection with a plane mirror activity",
+    "if the angle of incidence is 0 degrees what happens to the ray",
+    "why are the angles measured from the normal and not the surface"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "draw the normal",
+     "explain": "The normal stands perpendicular to the mirror at the point where the ray strikes."},
+    {"step": 2, "action": "check the plane",
+     "explain": "Incident ray, normal and reflected ray must share one plane - the first law."},
+    {"step": 3, "action": "match the angles",
+     "explain": "Measure both angles from the normal; they come out equal - the second law."}
+   ]
+  },
+  {
+   "id": "hecu.110.10.4",
+   "title": "Lenses: Convex and Concave",
+   "section": "10.4",
+   "definition": "A lens is a transparent piece of glass bounded by curved surfaces that refracts light: a convex lens is thicker in the middle and can converge rays to a real focus to act as a magnifier, while a concave lens is thinner in the middle and spreads rays as if from a virtual focus.",
+   "formula": "-",
+   "key_idea": "Lens bends light by refraction: bulging middle gathers, hollow middle spreads.",
+   "textbook_ref": "hecu110.txt lines 518-600 (what is a lens)",
+   "question_patterns": [
+    "what is a lens - name its two types",
+    "how does a convex lens behave like a magnifying glass",
+    "what is the focus of a convex lens",
+    "why is a concave lens called a diverging lens",
+    "distinguish a lens from a mirror in what it does to light",
+    "give two uses of lenses in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the thickness pattern",
+     "explain": "Middle thick means convex; middle thin means concave."},
+    {"step": 2, "action": "trace the rays",
+     "explain": "Convex lenses converge parallel rays to the focus; concave lenses diverge them."},
+    {"step": 3, "action": "link to uses",
+     "explain": "Magnifiers, cameras and spectacles exploit these converging or diverging actions."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "hecu110.txt sections 10.1-10.2",
+   "questions": [
+     "Define pole, centre of curvature and focus of a spherical mirror.",
+     "Why do dentists use concave mirrors?",
+     "Describe the images formed by a convex mirror."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "hecu110.txt sections 10.3-10.4",
+   "questions": [
+     "State the laws of reflection and verify them with an activity.",
+     "A ray makes 35 degrees with the normal - find the angle of reflection.",
+     "How does a convex lens act as a magnifier?"
+   ]
+  }
+ ]
+}

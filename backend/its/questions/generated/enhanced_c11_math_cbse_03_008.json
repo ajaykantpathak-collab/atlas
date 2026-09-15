@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_008",
+   "title": "c11_math_cbse_03_008",
+   "questions": [
+    {
+     "q": "Write the three Pythagorean identities and state the domain restrictions for each (i.e., for which angles they are valid).",
+     "a": "The three identities are:\n1. \\(\\sin^2 x + \\cos^2 x = 1\\) — valid for all real \\(x\\).\n2. \\(1 + \\tan^2 x = \\sec^2 x\\) — valid for all \\(x\\) where \\(\\cos x \\neq 0\\), i.e., \\(x \\neq (2n+1)\\frac{\\pi}{2}, n \\in \\mathbb{Z}\\).\n3. \\(1 + \\cot^2 x = \\cosec^2 x\\) — valid for all \\(x\\) where \\(\\sin x \\neq 0\\), i.e., \\(x \\neq n\\pi, n \\in \\mathbb{Z}\\).\nA wrong answer (e.g., missing domain restrictions or writing \\(\\tan^2 x + 1 = \\sec^2 x\\) without noting \\(\\cos x \\neq 0\\)) reveals the student is memorising formulas without understanding their derivation from division by \\(\\cos^2 x\\) or \\(\\sin^2 x\\), which fails when those denominators are zero.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\sin^2 x + \\cos^2 x = 1\\) is true for an angle of \\(210^\\circ\\) (third quadrant) even though the right-triangle definition of sine and cosine only applies to acute angles.",
+     "a": "On the unit circle, an angle of \\(210^\\circ\\) has terminal side in the third quadrant. The coordinates of the intersection point are \\((\\cos 210^\\circ, \\sin 210^\\circ) = (-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2})\\). The distance from the origin is \\(\\sqrt{(-\\frac{\\sqrt{3}}{2})^2 + (-\\frac{1}{2})^2} = \\sqrt{\\frac{3}{4} + \\frac{1}{4}} = 1\\). Since the radius is always 1, \\(x^2 + y^2 = 1\\) holds for every point on the circle, regardless of quadrant. The right-triangle definition is a special case; the unit circle definition extends it to all angles. A wrong answer (e.g., \"it works because the formula is universal\" without geometric reasoning) shows the student hasn't connected the algebraic identity to its geometric foundation.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\(\\cos x = -\\frac{12}{13}\\) and \\(x\\) lies in the second quadrant, find the exact values of \\(\\sin x\\), \\(\\tan x\\), \\(\\cosec x\\), \\(\\sec x\\), and \\(\\cot x\\) using Pythagorean identities.",
+     "a": "**Step 1:** Use \\(\\sin^2 x + \\cos^2 x = 1\\). \\(\\sin^2 x = 1 - \\cos^2 x = 1 - \\frac{144}{169} = \\frac{25}{169}\\).  \n**Step 2:** \\(\\sin x = \\pm \\frac{5}{13}\\). Since \\(x\\) is in QII, \\(\\sin x > 0\\), so \\(\\sin x = \\frac{5}{13}\\).  \n**Step 3:** \\(\\tan x = \\frac{\\sin x}{\\cos x} = \\frac{5/13}{-12/13} = -\\frac{5}{12}\\).  \n**Step 4:** \\(\\cosec x = \\frac{1}{\\sin x} = \\frac{13}{5}\\).  \n**Step 5:** \\(\\sec x = \\frac{1}{\\cos x} = -\\frac{13}{12}\\).  \n**Step 6:** \\(\\cot x = \\frac{1}{\\tan x} = -\\frac{12}{5}\\).  \nA wrong sign for \\(\\sin x\\) (choosing \\(-\\frac{5}{13}\\)) reveals the student applies the identity algebraically but ignores quadrant sign rules from node c11_math_cbse_03_006.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions \\(\\sqrt{1 - \\cos^2 x}\\) and \\(\\sin x\\). Are they equivalent for all \\(x\\)? If not, give a specific counterexample and explain the relationship between them.",
+     "a": "They are NOT equivalent for all \\(x\\). \\(\\sqrt{1 - \\cos^2 x} = \\sqrt{\\sin^2 x} = |\\sin x|\\), which is always non-negative. But \\(\\sin x\\) can be negative (e.g., in QIII and QIV). Counterexample: \\(x = 210^\\circ\\). \\(\\cos 210^\\circ = -\\frac{\\sqrt{3}}{2}\\), so \\(\\sqrt{1 - \\cos^2 210^\\circ} = \\sqrt{1 - \\frac{3}{4}} = \\frac{1}{2}\\). But \\(\\sin 210^\\circ = -\\frac{1}{2}\\). The correct relationship is \\(\\sin x = \\pm \\sqrt{1 - \\cos^2 x}\\), where the sign depends on the quadrant of \\(x\\). A student who says \"yes, they are equal because \\(\\sin^2 x = 1 - \\cos^2 x\\)\" is ignoring the principal square root convention and quadrant signs.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies \\(\\frac{\\sec^2 x - 1}{\\tan x}\\) as follows: \\(\\frac{\\sec^2 x - 1}{\\tan x} = \\frac{\\tan^2 x}{\\tan x} = \\tan x\\). Is this simplification correct for all \\(x\\) in the domain of the original expression? Justify your answer.",
+     "a": "The algebraic manipulation uses the identity \\(1 + \\tan^2 x = \\sec^2 x \\implies \\sec^2 x - 1 = \\tan^2 x\\), which is valid where \\(\\cos x \\neq 0\\). However, the original expression \\(\\frac{\\sec^2 x - 1}{\\tan x}\\) has domain restrictions: \\(\\cos x \\neq 0\\) (for \\(\\sec x\\)) AND \\(\\tan x \\neq 0\\) (denominator). \\(\\tan x = 0\\) when \\(x = n\\pi\\). At these points, the original expression is undefined (division by zero), but the simplified expression \\(\\tan x\\) equals 0. Therefore, the simplification \\(\\tan x\\) is NOT equivalent to the original expression at \\(x = n\\pi\\). The correct simplified form is \\(\\tan x\\) with the condition \\(x \\neq n\\pi\\). A student who says \"yes, it's correct\" fails to consider domain equivalence, a critical concept for trigonometric identities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (in an Indian context) where a surveyor or architect must use the Pythagorean identity \\(\\sin^2 x + \\cos^2 x = 1\\) to find an unknown trigonometric ratio, given one ratio and quadrant information. Provide the problem statement and the complete solution.",
+     "a": "**Problem:** An architect designing a ramp for a metro station in Bengaluru knows the ramp makes an angle \\(x\\) with the horizontal where \\(\\cos x = \\frac{4}{5}\\) and the ramp slopes upward (angle between \\(0^\\circ\\) and \\(90^\\circ\\)). The vertical rise per metre of ramp length is \\(\\sin x\\). Find the exact value of \\(\\sin x\\) and the slope (rise/run) of the ramp.  \n**Solution:** Since the ramp slopes upward, \\(x\\) is in QI, so \\(\\sin x > 0\\). Using \\(\\sin^2 x + \\cos^2 x = 1\\): \\(\\sin^2 x = 1 - (\\frac{4}{5})^2 = 1 - \\frac{16}{25} = \\frac{9}{25}\\). \\(\\sin x = \\sqrt{\\frac{9}{25}} = \\frac{3}{5}\\) (positive because QI). Slope = \\(\\frac{\\text{rise}}{\\text{run}} = \\frac{\\sin x}{\\cos x} = \\frac{3/5}{4/5} = \\frac{3}{4}\\).  \nA poor answer would give \\(\\sin x = \\pm \\frac{3}{5}\\) without justifying the positive sign, or would compute slope as \\(\\frac{4}{3}\\) (confusing rise/run), showing lack of connection between trigonometric ratios and physical meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

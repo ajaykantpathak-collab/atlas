@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_003",
+   "title": "c11_bio_cbse_07_003",
+   "questions": [
+    {
+     "q": "Name the three types of muscular tissue and give one location in the human body for each.",
+     "a": "The three types are: (1) Skeletal muscle — attached to bones (e.g., biceps brachii); (2) Smooth muscle — walls of hollow viscera (e.g., intestine, blood vessels); (3) Cardiac muscle — heart wall (myocardium). A wrong answer (e.g., listing \"voluntary/involuntary\" as types, or placing cardiac muscle in stomach) reveals the student is confusing classification criteria (control vs. structure) or has not memorized the basic classification from Class 9.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the A-band remains constant in length during skeletal muscle contraction while the I-band and H-zone shorten.",
+     "a": "The A-band length equals the length of thick (myosin) filaments, which do not change during contraction. The I-band and H-zone represent regions where only thin (actin) filaments are present; they shorten because actin filaments slide deeper into the A-band, increasing overlap. A wrong answer (e.g., \"A-band shortens because the whole sarcomere shortens\") reveals the student thinks filaments themselves contract, not slide — a fundamental misconception of the sliding filament theory.",
+     "self_check": true
+    },
+    {
+     "q": "A muscle fiber is stimulated but fails to contract because the sarcoplasmic reticulum cannot release Ca²⁺. Which specific step of excitation-contraction coupling is blocked, and what would be the immediate effect on the thin filament?",
+     "a": "The blocked step is Ca²⁺ release from the sarcoplasmic reticulum (SR) via ryanodine receptors (RyR) triggered by depolarization of the T-tubule. Without Ca²⁺, troponin C cannot bind calcium, so tropomyosin remains covering the myosin-binding sites on actin. The thin filament stays in the \"off\" state, preventing cross-bridge formation. A wrong answer (e.g., \"myosin cannot bind ATP\") reveals confusion between the roles of Ca²⁺ (exposes binding sites) and ATP (powers cross-bridge cycling and detachment).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microscopic structure of cardiac and skeletal muscle with respect to: (a) branching, (b) nuclei, (c) intercalated discs, (d) sarcoplasmic reticulum development.",
+     "a": "(a) Cardiac muscle fibers are branched; skeletal muscle fibers are unbranched cylinders. (b) Cardiac muscle has one (occasionally two) centrally placed nucleus per cell; skeletal muscle is multinucleate with peripheral nuclei. (c) Intercalated discs (with gap junctions and desmosomes) are unique to cardiac muscle; absent in skeletal. (d) Skeletal muscle has a highly developed SR with large terminal cisternae forming triads; cardiac muscle has a less extensive SR with no triads, relying more on extracellular Ca²⁺. A wrong answer (e.g., \"both have intercalated discs\") reveals failure to distinguish the structural basis of synchronized cardiac contraction vs. independent skeletal fiber control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Smooth muscle contraction is slower than skeletal muscle because smooth muscle lacks actin and myosin filaments.\" Is it correct? Justify.",
+     "a": "The statement is incorrect. Smooth muscle *does* have actin and myosin filaments (in a 15:1 ratio, higher than skeletal), but they are not organized into sarcomeres. Contraction is slower due to: (1) lower myosin ATPase activity, (2) dependence on Ca²⁺-calmodulin-MLCK pathway (not troponin), (3) lack of T-tubules and sparse SR, so Ca²⁺ diffusion is slower, (4) latch mechanism allows sustained contraction with low energy. A wrong evaluation (agreeing with the statement) reveals the student thinks sarcomeres are the only way to organize contractile proteins and confuses \"non-striated\" with \"no filaments.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a frog gastrocnemius muscle (skeletal) to demonstrate that muscle contraction requires ATP. List materials, procedure, and expected observation.",
+     "a": "**Materials:** Frog gastrocnemius muscle-sciatic nerve preparation, Ringer's solution, ATP solution, ATP-depleting agent (e.g., iodoacetate + iodoacetamide to inhibit glycolysis, or apyrase to degrade ATP), kymograph or force transducer. **Procedure:** (1) Mount muscle in oxygenated Ringer's; record normal twitches on nerve stimulation. (2) Perfuse with ATP-depleting agent; stimulate repeatedly until contraction fails. (3) Wash and perfuse with ATP-supplemented Ringer's; stimulate again. **Expected observation:** Contraction force declines to zero in step 2 (rigor develops), and recovers in step 3. A poor answer (e.g., \"add ATP and see contraction\") reveals lack of understanding of controls, rigor mortis concept, or that ATP is needed for *both* cross-bridge cycling *and* detachment (Ca²⁺ pumping).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

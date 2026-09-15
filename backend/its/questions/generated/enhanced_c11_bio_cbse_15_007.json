@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_007",
+   "title": "c11_bio_cbse_15_007",
+   "questions": [
+    {
+     "q": "State the diagnostic threshold values for hypertension according to NCERT Class 11 and define systolic and diastolic pressure in one sentence each.",
+     "a": "Hypertension is diagnosed when repeated blood pressure readings are ≥140/90 mmHg. Systolic pressure (120 mmHg normal) is the peak pressure during ventricular contraction; diastolic pressure (80 mmHg normal) is the minimum pressure during ventricular relaxation. A wrong answer (e.g., 120/80 as hypertension threshold) reveals confusion between normal and pathological values, indicating the student hasn't memorized the clinical cut-off.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why hypertension is called a 'silent killer' despite often having no symptoms, using the concept of target organ damage.",
+     "a": "Hypertension damages organs silently because chronically elevated pressure causes hypertensive arteriolosclerosis (hyaline thickening of arterioles) in kidneys, brain, and retina, leading to nephrosclerosis, lacunar infarcts, and retinopathy before symptoms appear. A wrong answer focusing only on heart failure misses the multi-organ pathophysiology and shows incomplete understanding of systemic vascular damage.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old male has BP 150/95 mmHg, LDL 160 mg/dL, HDL 35 mg/dL, and smokes 10 cigarettes/day. Calculate his 10-year cardiovascular risk category using the concept of risk factor clustering and explain which single modifiable factor contributes most to atherosclerotic progression.",
+     "a": "Step 1: Identify major risk factors — hypertension (stage 1), dyslipidemia (high LDL, low HDL), smoking, male sex, age >45. Step 2: Recognize risk factor clustering multiplies risk synergistically (not additive). Step 3: Smoking causes maximum endothelial dysfunction via oxidative stress, reduced NO bioavailability, and increased platelet adhesiveness. Step 4: Conclude he falls in high-risk category requiring aggressive lifestyle and pharmacotherapy. Wrong answer attributing most risk to LDL alone ignores the multiplicative effect of smoking on plaque rupture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hemodynamic consequences of chronic hypertension versus acute coronary occlusion on left ventricular workload using the concepts of afterload and preload.",
+     "a": "Chronic hypertension increases afterload (pressure against which LV must eject), causing concentric hypertrophy (wall thickening) to normalize wall stress (Laplace's law). Acute coronary occlusion reduces contractility → decreased stroke volume → decreased cardiac output → compensatory increased preload (ventricular filling pressure) via Frank-Starling mechanism, leading to pulmonary congestion. Wrong answer confusing afterload/preload changes reveals poor grasp of ventricular-vascular coupling.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Atherosclerosis is solely a lipid storage disease; lowering LDL-cholesterol alone will completely prevent coronary events.\" Use evidence from plaque biology.",
+     "a": "The statement is false. Atherosclerosis is a chronic inflammatory disease: LDL retention initiates but inflammation (macrophages, T-cells, cytokines) drives progression. Plaque stability depends on fibrous cap thickness (collagen synthesis by smooth muscle cells) vs. cap degradation (matrix metalloproteinases from macrophages). Lowering LDL reduces events by ~30% but residual risk persists due to inflammation, thrombosis, and plaque erosion. Wrong agreement shows reductionist view ignoring immuno-metabolic crosstalk.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based screening protocol for early detection of hypertension and atherosclerotic risk in a rural Indian population, specifying measurement techniques, frequency, and referral criteria.",
+     "a": "Protocol: 1) Train ASHA workers in automated oscillometric BP measurement (validated device, correct cuff, 3 readings, average last two). 2) Screen all adults ≥30 years annually at village health camps. 3) Refer if BP ≥140/90 on two separate visits OR if BP 130-139/85-89 with diabetes/CKD. 4) Collect fasting lipid profile for referred individuals. 5) Use WHO/ISH risk charts for South Asia to stratify 10-year CVD risk. 6) Refer high-risk (>20%) to PHC for ECG and physician evaluation. Poor answer using only single BP reading or ignoring risk stratification shows lack of public health perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_011",
+   "title": "c12_acc_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the formula to compute the total capitalised value of the firm when a new partner's capital and profit share are given?",
+     "a": "Total capitalised value = New partner's capital × (1 / New partner's profit share). A wrong answer (e.g., adding new partner's capital to old capitals) reveals the student does not understand that the new partner's capital represents only their share of the total firm value, not an addition to existing capital.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why hidden goodwill arises at the time of admission of a partner.",
+     "a": "Hidden goodwill arises because the new partner's capital contribution values the firm at a higher amount than the net adjusted assets (capitals) of the old partners plus the new partner's capital. The difference represents the unrecorded goodwill earned by the old partners' efforts. If a student says hidden goodwill is the goodwill brought in by the new partner, they confuse hidden goodwill with purchased goodwill; hidden goodwill is not brought in cash but is implied by the valuation.",
+     "self_check": true
+    },
+    {
+     "q": "A and B are partners sharing profits 3:2. Their adjusted capitals are ₹6,00,000 and ₹4,00,000. C is admitted for 1/4th share and brings ₹3,00,000 as capital. Compute the hidden goodwill.",
+     "a": "Step 1: Total capitalised value = ₹3,00,000 × (1 / 1/4) = ₹12,00,000.\nStep 2: Combined adjusted capitals of old partners = ₹6,00,000 + ₹4,00,000 = ₹10,00,000.\nStep 3: Add new partner's capital = ₹10,00,000 + ₹3,00,000 = ₹13,00,000.\nStep 4: Hidden goodwill = Total capitalised value – Combined capitals after admission = ₹12,00,000 – ₹13,00,000 = -₹1,00,000 (negative implies no hidden goodwill; actually the firm is overcapitalised). A wrong answer (e.g., ₹2,00,000) reveals the student forgot to add the new partner's capital to the combined capitals before subtracting, or used old profit share instead of new partner's share.",
+     "self_check": true
+    },
+    {
+     "q": "Compare hidden goodwill on admission with hidden goodwill on retirement of a partner. Identify two similarities and two differences in computation and accounting treatment.",
+     "a": "Similarities: (1) Both arise when the agreed settlement amount exceeds the adjusted capital balance. (2) Both are credited to the outgoing/incoming partner's capital account and debited to continuing partners in their gaining/sacrificing ratio. Differences: (1) On admission, hidden goodwill is credited to old partners (sacrificing ratio); on retirement, it is debited to continuing partners (gaining ratio) and credited to retiring partner. (2) On admission, total capitalised value is based on new partner's capital; on retirement, it is based on the lump sum paid to retiring partner. A student who says the treatment is identical misses the direction of debits/credits and the ratio used.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Hidden goodwill should always be recorded in the books by opening a Goodwill Account.\" Justify your answer with reference to accounting standards and partnership practice.",
+     "a": "The statement is false. As per AS-26 and partnership accounting practice, internally generated goodwill (including hidden goodwill) should NOT be recognised as an asset in the balance sheet. Instead, the adjustment is made directly through partners' capital accounts: gaining/sacrificing partners' capital accounts are debited/credited without opening a Goodwill Account. A student who agrees reveals a misconception that all goodwill must appear as an asset; they confuse purchased goodwill (which is recorded) with self-generated/hidden goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "Create a numerical problem on hidden goodwill where the new partner's capital is given, the old partners' adjusted capitals are given, and the new profit sharing ratio is such that the sacrificing ratio is not the same as the old ratio. Provide the full solution with journal entries.",
+     "a": "A good problem: X and Y share profits 5:3. Adjusted capitals: X ₹5,00,000, Y ₹3,00,000. Z admitted for 1/5th share, brings ₹2,00,000 capital. New ratio: X 3/5, Y 1/5, Z 1/5. Compute hidden goodwill and pass entries.\nSolution: Total capitalised value = ₹2,00,000 × 5 = ₹10,00,000. Combined capitals after admission = ₹5,00,000+₹3,00,000+₹2,00,000 = ₹10,00,000. Hidden goodwill = ₹0. But if Z brought ₹3,00,000, hidden goodwill = ₹5,00,000. Sacrificing ratio = old - new: X sacrifices 5/8 - 3/5 = 1/40, Y sacrifices 3/8 - 1/5 = 7/40 → ratio 1:7. Journal: Z's Capital A/c Dr. 3,00,000 (if goodwill brought) or X's Capital Dr. 50,000, Y's Capital Dr. 3,50,000 to Z's Capital? Wait, hidden goodwill is credited to old partners. Actually, if hidden goodwill exists, it is credited to old partners in sacrificing ratio. A poor answer would use old ratio instead of sacrificing ratio, or miscompute total capitalised value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

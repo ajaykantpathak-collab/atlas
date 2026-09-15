@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_2",
+   "title": "c9_physics_ch4_2",
+   "questions": [
+    {
+     "q": "A coolie carries a 50 kg load on his head and walks horizontally at constant speed for 100 m. What is the work done by the coolie's upward force on the load? State the angle between force and displacement.",
+     "a": "Work done = 0 J. The upward force (normal reaction) is perpendicular to horizontal displacement, so θ = 90° and cos90° = 0. A wrong answer (e.g., calculating W = mg × s = 49,000 J) reveals the student thinks any exerted force does work, ignoring the vector nature of work and the cosine factor.",
+     "self_check": true
+    },
+    {
+     "q": "A planet moves in a circular orbit around the Sun. The gravitational force is always directed toward the Sun. Explain why the work done by gravity is zero even though the planet is accelerating toward the Sun.",
+     "a": "Work done is zero because gravitational force (radial) is perpendicular to instantaneous displacement (tangential) at every point, so θ = 90° and cos90° = 0. Acceleration changes the direction of velocity, not its magnitude; zero work means kinetic energy is constant. A wrong answer claiming \"gravity does work because it pulls the planet\" reveals confusion between force causing acceleration and force doing work — the student doesn't distinguish between changing velocity vector and changing speed.",
+     "self_check": true
+    },
+    {
+     "q": "A block of mass 2 kg slides on a frictionless horizontal table. A constant force of 10 N acts at 60° to the horizontal. The block moves 5 m horizontally. Calculate the work done by: (a) the applied force, (b) the normal force, (c) the weight of the block.",
+     "a": "(a) W = F·s·cosθ = 10 N × 5 m × cos60° = 10 × 5 × 0.5 = 25 J. (b) Normal force is vertical, displacement horizontal → θ = 90° → W = 0 J. (c) Weight is vertical, displacement horizontal → θ = 90° → W = 0 J. A wrong answer giving non-zero for (b) or (c) shows the student doesn't apply the perpendicular condition; a wrong answer for (a) using cos90° or sin60° shows angle confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A charged particle enters a uniform magnetic field perpendicular to its velocity. It moves in a circular path of radius r. Compare the work done by the magnetic force in half a revolution versus a full revolution. Explain your reasoning using the angle between force and displacement at each instant.",
+     "a": "Work done is zero in both half and full revolutions. At every instant, magnetic force (centripetal) is perpendicular to velocity (tangential), so θ = 90° and dW = F·ds·cos90° = 0. Integrating over any path length gives zero. A wrong answer claiming non-zero work for half revolution reveals the student thinks \"net displacement matters\" (confusing work with displacement) rather than understanding work is path-integral of F·ds at each infinitesimal step.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In uniform circular motion, the centripetal force changes the direction of velocity, so it must be doing work because work is needed to change velocity.\" Evaluate this statement and identify the error in reasoning.",
+     "a": "The statement is false. Work depends on change in kinetic energy (speed), not velocity vector. Centripetal force is perpendicular to displacement, so W = 0, and kinetic energy remains constant. The error is confusing \"change in velocity vector\" (acceleration) with \"change in speed\" (work-energy connection). The student incorrectly assumes any force that causes acceleration does work, not recognizing that perpendicular forces only change direction, not magnitude of velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a ball on a string or a toy car on a circular track to show that centripetal force does zero work. List the measurements you would take and how you would prove the speed remains constant.",
+     "a": "Use a conical pendulum (ball on string) or a toy car on a frictionless circular track. Measure time for 10 revolutions and radius to calculate speed v = 2πr/T. Repeat for different radii by changing string length. If speed is constant (within measurement error), kinetic energy is constant, proving zero work by tension/normal force. A poor answer that measures only radius or time without connecting to speed constancy, or suggests measuring force, reveals the student doesn't link zero work to constant kinetic energy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

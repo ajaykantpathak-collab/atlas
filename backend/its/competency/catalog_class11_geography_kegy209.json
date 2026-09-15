@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 209,
+ "chapter_title": "Atmospheric Circulation and Weather Systems",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy209.txt",
+ "concepts": [
+  {
+   "id": "kegy.209.1.1",
+   "title": "Pressure Belts and Winds: Planetary Circulation",
+   "section": "",
+   "definition": "Atmospheric circulation begins with the equatorial low, subtropical highs, subpolar lows and polar highs, and the surface winds of trade winds, westerlies and polar easterlies, with the Coriolis force deflecting winds and the ferrel cell and polar cells completing the tricellular model.",
+   "formula": "",
+   "key_idea": "The intertropical convergence zone shifts with the overhead sun, bringing seasonal wind reversals that underlie the monsoon circulation.",
+   "textbook_ref": "kegy209.txt pressure and winds sections",
+   "question_patterns": [
+    "describe the pressure belts of the world",
+    "name the planetary winds and their directions",
+    "what is the coriolis force and its effect on winds",
+    "explain the tricellular model of atmospheric circulation",
+    "why are the subtropical high belts called horse latitudes",
+    "how does the itcz shift with seasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.209.2.1",
+   "title": "Air Masses, Fronts, Cyclones and Anticyclones",
+   "section": "",
+   "definition": "Air masses acquire the character of their source regions, meet at fronts of warm, cold, stationary and occluded types, and give birth to mid-latitude cyclones with rain belts, while tropical cyclones form over warm seas with spiral rain bands and a calm eye, and anticyclones bring clear settled weather.",
+   "formula": "",
+   "key_idea": "Tropical cyclones need sea temperature above 27 degrees, coriolis force and low level convergence, and they die over land or cold water.",
+   "textbook_ref": "kegy209.txt fronts and cyclones sections",
+   "question_patterns": [
+    "define air mass and name its types",
+    "explain the formation of mid latitude cyclones with fronts",
+    "describe the structure of a tropical cyclone",
+    "what conditions favour the birth of tropical cyclones",
+    "differentiate warm front cold front and occluded front",
+    "compare cyclones and anticyclones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.209.3.1",
+   "title": "Monsoon Circulation and Seasonal Wind Reversal",
+   "section": "Atmospheric circulation",
+   "definition": "The monsoon is a seasonal reversal of winds caused by differential heating of land and sea and the shift of the ITCZ, bringing rain-bearing winds to Asia in summer and dry offshore winds in winter, and it is the most important regional weather system on the earth.",
+   "formula": "",
+   "key_idea": "Summer heating of Asia draws moist equatorial air inland giving heavy rains, while winter high pressure over the continent reverses the flow.",
+   "textbook_ref": "kegy209.txt monsoon sections",
+   "question_patterns": [
+    "define monsoon and explain its mechanism",
+    "why do monsoon winds reverse direction seasonally",
+    "state the role of the itcz in the asian monsoon",
+    "compare summer and winter monsoon circulation",
+    "how does differential heating of land and sea cause monsoons",
+    "name the regions of the world with monsoon climate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy209.txt exercises",
+   "questions": [
+    "Multiple choice on pressure belts and winds.",
+    "Describe the planetary wind system of the world.",
+    "Explain the formation of tropical cyclones and their structure.",
+    "What are fronts? Name their types.",
+    "Discuss the role of the coriolis force in wind circulation."
+   ]
+  }
+ ]
+}

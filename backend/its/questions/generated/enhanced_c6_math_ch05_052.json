@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_052",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_052",
+   "title": "c6_math_ch05_052",
+   "questions": [
+    {
+     "q": "In the expression 5y + 8, which parts are constants and which is the variable?",
+     "a": "The constants are 5 and 8, and the variable is y. A wrong answer suggests the student confuses coefficients (like 5) with variables; remind them that letters are the placeholders for unknown values.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a box of toffees and you add 3 more, the total is t + 3. Why is 't' called a variable here?",
+     "a": "'t' is a variable because the number of toffees in the box is not fixed and could be any number. If the student says it is a fixed number, they have not yet grasped that letters in algebra represent unknown or changing quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A rickshaw driver charges ₹20 for the ride plus ₹5 for every kilometer traveled. The total cost is 20 + 5k. If the distance 'k' changes, which part of the expression changes?",
+     "a": "The part 5k changes as 'k' changes. Steps: 1. Identify k as the variable. 2. Recognize that multiplying 5 by a changing 'k' makes the result change. 3. Conclude 5k is the changing part. If the student identifies 20 as changing, they misunderstand the nature of a constant.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 7x and 7. How does the presence of 'x' change the meaning of 7?",
+     "a": "In '7', the value is fixed at seven. In '7x', the value depends on 'x' and can be 7, 14, 21, etc. A wrong answer shows failure to see that variables scale or define the scope of a constant.",
+     "self_check": true
+    },
+    {
+     "q": "Can a letter ever be a constant? (e.g., if we say 'p' is always 5).",
+     "a": "No, by definition, a variable is for changing/unknown values. If 'p' is always 5, it is a constant, not a variable. Students often think letters *always* mean variables, ignoring the rule that the definition depends on behavior, not appearance.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression to represent the total weight of a school bag containing 2 kg of books and 'b' number of notebooks, each weighing 250 grams (0.25 kg).",
+     "a": "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight. Poor answers confuse the constant (2 kg) with the variable part.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_005",
+   "title": "c12_acc_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the rate of TDS to be deducted on interest paid to a resident debenture holder who has furnished their PAN, and the rate if PAN is not furnished.",
+     "a": "Correct answer: 10% if PAN is furnished, 20% if PAN is not furnished (as per Section 193 of Income Tax Act). A wrong answer (e.g., 5% or 15%) reveals the student is confusing debenture TDS with other TDS sections (like 194A for interest on loans) or has not memorised the specific rate for debentures.",
+     "self_check": true
+    },
+    {
+     "q": "A company has issued 5,000 12% debentures of ₹100 each. Interest is payable half-yearly. The company deducted TDS @ 10% and paid the net amount to debenture holders. A student records the payment entry as: Bank A/c Dr. → To Debenture Interest A/c. Explain why this entry is incorrect and what the correct entry should be.",
+     "a": "The entry is wrong because it credits the full gross interest to Debenture Interest A/c, but the company only pays the net amount after TDS. The correct entry when paying: Debentureholders A/c Dr. (net amount) → To Bank A/c. The TDS portion was already credited to TDS Payable A/c when interest became due. A wrong answer shows the student does not understand that TDS is a liability of the company to the government, not a reduction of interest expense.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. has 20,000 8% debentures of ₹100 each outstanding. Interest is paid annually on 31st March. On 31st March 2024, the company deducted TDS @ 10% (PAN available) and paid the balance. Calculate: (a) Gross interest for the year, (b) TDS amount, (c) Net interest paid, and (d) Write the journal entry for interest due on 31st March 2024.",
+     "a": "(a) Gross interest = 20,000 × ₹100 × 8% = ₹1,60,000. (b) TDS = 10% of ₹1,60,000 = ₹16,000. (c) Net interest paid = ₹1,60,000 – ₹16,000 = ₹1,44,000. (d) Journal entry: Debenture Interest A/c Dr. ₹1,60,000 → To Debentureholders A/c ₹1,44,000, To TDS Payable A/c ₹16,000. A wrong calculation (e.g., using 9% or forgetting TDS) reveals inability to apply the rate on face value or confusion between gross and net interest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet disclosure of \"Interest Accrued and Due on Debentures\" and \"TDS Payable on Debenture Interest\" as on 31st March 2024 for a company that has not yet paid the interest due on that date. Under which major head and sub-head will each appear as per Schedule III?",
+     "a": "Both appear under **Current Liabilities**. \"Interest Accrued and Due on Debentures\" → Sub-head: **Other Current Liabilities** (or sometimes shown separately as \"Interest Accrued and Due\"). \"TDS Payable on Debenture Interest\" → Sub-head: **Other Current Liabilities** (as a statutory liability). A student placing TDS Payable under \"Short-term Provisions\" or \"Trade Payables\" reveals misunderstanding of the nature of TDS as a statutory deduction, not a provision or trade payable.",
+     "self_check": true
+    },
+    {
+     "q": "A company issued 10% debentures on 1st October 2023. The financial year ends 31st March 2024. The accountant debited \"Debenture Interest A/c\" for 6 months' interest (Oct–Mar) and credited \"Debentureholders A/c\" with the full gross amount, ignoring TDS. Evaluate the impact of this error on (i) Profit before Tax, (ii) Current Liabilities, and (iii) TDS compliance.",
+     "a": "(i) Profit before Tax is **correct** because gross interest is fully expensed. (ii) Current Liabilities are **overstated** for Debentureholders (should be net of TDS) and **understated** for TDS Payable (missing entirely). (iii) TDS compliance is **violated** — the company failed to deduct and deposit TDS, attracting interest/penalty under Income Tax Act. A student saying \"Profit is understated\" reveals confusion: TDS is not an expense, so not deducting it doesn't change the expense amount.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues debentures at a discount and pays half-yearly interest. The TDS rate is 10% (PAN given). Write the journal entries for the first interest due date, including the transfer of interest to Statement of Profit and Loss. Assume face value ₹1,00,000, coupon rate 9%, issued at 5% discount.",
+     "a": "Expected answer: Gross interest = ₹1,00,000 × 9% × 6/12 = ₹4,500. TDS = ₹450. Net payable = ₹4,050. Entries: (1) Debenture Interest A/c Dr. ₹4,500 → To Debentureholders A/c ₹4,050, To TDS Payable A/c ₹450. (2) Debentureholders A/c Dr. ₹4,050 → To Bank A/c ₹4,050. (3) TDS Payable A/c Dr. ₹450 → To Bank A/c ₹450. (4) Statement of Profit and Loss Dr. ₹4,500 → To Debenture Interest A/c ₹4,500. A poor answer omits the transfer entry or calculates interest on issue price (₹95,000) instead of face value — revealing the misconception that interest is paid on issue proceeds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

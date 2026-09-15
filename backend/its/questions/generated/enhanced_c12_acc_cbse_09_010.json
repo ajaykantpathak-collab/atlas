@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_010",
+   "title": "c12_acc_cbse_09_010",
+   "questions": [
+    {
+     "q": "A student prepares a Cash Flow Statement and starts the operating activities section with \"Net Profit after Tax\" from the Statement of Profit & Loss. Is this correct as per AS-3 indirect method? If not, what should be the starting point and why?",
+     "a": "Incorrect. As per AS-3 (Indirect Method), the starting point is **Net Profit before Tax and Extraordinary Items**, not profit after tax. The standard requires this because income tax paid is shown as a separate deduction at the end of operating activities to arrive at net cash from operations. Starting with profit after tax would double-count tax (once in profit, once as deduction) and obscure the operating cash generation before tax obligations. A wrong answer reveals the student confuses the profit figure in the Statement of Profit & Loss with the required starting figure for the reconciliation.",
+     "self_check": true
+    },
+    {
+     "q": "In the indirect method, depreciation of ₹2,00,000 is added back to net profit before tax. A student argues: \"Depreciation is an expense, so it reduced profit; adding it back means we are treating it as income.\" Explain why this reasoning is flawed and what the correct logic is.",
+     "a": "The student's reasoning is flawed because they confuse \"adding back\" with \"treating as income.\" Depreciation is a **non-cash charge** — it reduced accounting profit but involved **zero cash outflow** during the year. Adding it back **neutralizes** its effect on profit to arrive at cash generated from operations; it does not imply cash inflow. The correct logic: Profit before tax = (Cash revenues – Cash expenses) – Non-cash expenses (depreciation). To get (Cash revenues – Cash expenses), we add back the non-cash expense. A wrong answer shows the student memorizes \"add depreciation\" without understanding the cash vs. accrual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Trade Receivables increased from ₹10,00,000 to ₹14,00,000 during the year. Revenue from operations (credit sales) was ₹50,00,000. Calculate cash collected from customers and explain whether this change increases or decreases operating cash flow.",
+     "a": "Cash collected from customers = Revenue from operations + Opening Trade Receivables – Closing Trade Receivables = ₹50,00,000 + ₹10,00,000 – ₹14,00,000 = **₹46,00,000**. The increase in Trade Receivables (₹4,00,000) means credit sales exceeded cash collections — cash flow from operations is **reduced** by ₹4,00,000. In the indirect method, this appears as a deduction from operating profit before working capital changes. A wrong answer (e.g., adding the increase) reveals the student doesn't grasp that an increase in a current asset consumes cash.",
+     "self_check": true
+    },
+    {
+     "q": "While preparing the Cash Flow Statement, a student finds that the Provision for Taxation account shows: Opening balance ₹80,000, Closing balance ₹1,00,000, and Statement of Profit & Loss shows \"Provision for Taxation\" expense of ₹50,000. The student records \"Income Tax Paid\" as ₹50,000 in operating activities. Is this correct? If not, calculate the correct tax paid and explain the error.",
+     "a": "Incorrect. The correct tax paid is **₹30,000**.  \nWorking: Provision for Taxation Account  \nDr. side: Bank (Tax Paid) = ? ; Cr. side: Balance b/d ₹80,000 + Profit & Loss (Provision made) ₹50,000 = ₹1,30,000.  \nBalance c/d = ₹1,00,000. So Bank (Tax Paid) = ₹1,30,000 – ₹1,00,000 = **₹30,000**.  \nThe student erroneously equated \"Provision for Taxation expense\" (P&L charge) with \"Tax Paid\" (cash outflow). Provision is an accrual; tax paid is the actual cash settlement, which requires reconciling the provision account. A wrong answer shows the student ignores the movement in the provision balance and confuses accrual expense with cash payment.",
+     "self_check": true
+    },
+    {
+     "q": "A company sold machinery (original cost ₹5,00,000, accumulated depreciation ₹3,00,000) for ₹2,50,000. The student records the entire ₹2,50,000 as investing cash inflow and does not adjust operating activities. Evaluate this treatment and state the correct adjustments needed in both operating and investing sections.",
+     "a": "The treatment is **incorrect**.  \n**Operating Activities**: The profit on sale = Sale proceeds ₹2,50,000 – Book value (₹5,00,000 – ₹3,00,000) = **₹50,000**. This ₹50,000 is included in net profit before tax but is **not an operating cash flow** — it must be **deducted** from operating profit.  \n**Investing Activities**: The **total cash inflow** from sale is ₹2,50,000 (not just the profit). This entire amount is shown as \"Proceeds from sale of machinery\" under investing activities.  \nThe student's error: (1) Not removing the non-operating profit from operating activities, inflating operating cash flow; (2) Potentially missing the full proceeds in investing. A wrong answer reveals the student doesn't separate the **gain/loss** (operating adjustment) from the **total proceeds** (investing inflow).",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: A company's Balance Sheet shows \"Cash and Cash Equivalents\" of ₹5,00,000 (2023) and ₹7,00,000 (2024). The student prepares a Cash Flow Statement and gets a net increase of ₹3,00,000 but the closing cash figure in the statement is ₹8,00,000. Identify two possible errors in the student's statement that could cause this mismatch, and explain how to fix each.",
+     "a": "Two possible errors:  \n1. **Misclassification of cash equivalents**: The student included short-term investments (e.g., marketable securities ₹1,00,000) in \"Cash and Cash Equivalents\" for 2024 but not for 2023, or vice versa. Fix: Ensure consistent definition per AS-3 — only items with ≤3 months maturity, readily convertible, insignificant risk. Recalculate opening/closing cash & cash equivalents using identical criteria.  \n2. **Omission of non-cash transaction effect**: The student omitted a non-cash investing/financing transaction (e.g., machinery acquired by issuing shares ₹2,00,000) from the statement entirely. While non-cash transactions are excluded from the main statement, they must be disclosed in notes. If the student incorrectly included the share issue as financing inflow (₹2,00,000) but didn't record the asset purchase, the net increase would be overstated. Fix: Exclude non-cash transactions from the three activities; disclose separately.  \nA poor answer indicates the student doesn't verify the fundamental identity: Opening Cash + Net Increase = Closing Cash, and doesn't understand the boundary of \"cash and cash equivalents.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

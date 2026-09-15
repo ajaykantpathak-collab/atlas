@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_007",
+   "title": "c11_geo_cbse_09_007",
+   "questions": [
+    {
+     "q": "Name the four subdivisions of the Western Coastal Plain from north to south and state the approximate width range of this plain.",
+     "a": "Correct answer: Kachchh & Kathiawar, Konkan, Kanara (or Karnataka), Malabar; width 50-60 km on average. A wrong answer (e.g., listing Coromandel or stating width >100 km) reveals confusion between east and west coasts or failure to grasp the constraining role of the Western Ghats.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Eastern Coastal Plain have extensive deltas while the Western Coastal Plain has estuaries and lagoons instead?",
+     "a": "Correct answer: East-flowing peninsular rivers (Mahanadi, Godavari, Krishna, Kaveri) carry large sediment loads and have low gradients near the coast, building deltas in the relatively calm Bay of Bengal. West-flowing rivers (Narmada, Tapi, Sabarmati) are short, swift, and flow through rift valleys, meeting the high-energy Arabian Sea where tidal action prevents delta formation, creating estuaries and lagoons (e.g., Chilika is on east coast but formed by different process; Kerala backwaters are lagoons). A wrong answer citing \"east coast rivers are longer\" misses the critical factors of gradient, sediment load, and wave energy.",
+     "self_check": true
+    },
+    {
+     "q": "Using the map of India, identify which coastal plain segment would be most suitable for a natural deep-water port and justify with two geographical reasons.",
+     "a": "Correct answer: The Malabar coast (especially Kochi) or Konkan coast (Mumbai). Steps: 1) Locate the Western Coastal Plain — narrow continental shelf, submerged coast (ria coast) provides natural harbours. 2) Note the Western Ghats proximity ensures sufficient depth close to shore. 3) Contrast with Eastern Coast: broad continental shelf, shallow waters, deltaic deposition requires constant dredging (e.g., Chennai, Paradip are artificial). A wrong choice like \"Coromandel coast\" indicates misunderstanding of submerged vs. emergent coastlines.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural potential of the two coastal plains considering soil type, irrigation, and cyclone risk.",
+     "a": "Correct answer: Eastern plain: deep alluvial soils, extensive canal irrigation from perennial rivers, double/triple cropping of rice — but high cyclone/storm surge risk (Oct-Nov). Western plain: lateritic soils (leached, acidic), dependence on monsoon rainfall and wells, plantation crops (coconut, spices, rubber) — lower cyclone frequency but intense rainfall causes erosion. A one-sided answer focusing only on \"east is more fertile\" fails to analyze trade-offs and crop suitability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Western Coastal Plain is more strategically important for India's maritime trade than the Eastern Coastal Plain.\"",
+     "a": "Correct answer: Partially true historically (Mumbai, Kochi, Goa were ancient trade gateways with natural harbours), but currently both are vital. Eastern coast handles bulk exports (iron ore from Paradip, coal from Visakhapatnam, petroleum products from Chennai) and has dedicated freight corridors. Western coast dominates container traffic (JNPT, Mundra). A simplistic \"yes\" ignores the east coast's role in mineral/energy trade and the development of deep-water ports like Gangavaram.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coastal zone management plan for a 100 km stretch of the Coromandel Coast that balances aquaculture, cyclone shelter, and olive ridley turtle nesting sites.",
+     "a": "Expected criteria: 1) Zoning map with core nesting beaches (no development), buffer zones (regulated aquaculture with effluent treatment), and cyclone shelter belts (casuarina plantations 500m wide). 2) Integration of traditional knowledge (e.g., community-managed fish ponds). 3) Setback lines based on CRZ notifications. 4) Early warning system linked to IMD. A poor answer lists generic measures without spatial zoning or species-specific nesting requirements (e.g., dark beaches, no artificial lighting).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

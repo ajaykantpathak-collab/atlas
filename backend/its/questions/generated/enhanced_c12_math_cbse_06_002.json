@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_002",
+   "title": "c12_math_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the precise condition on the derivative \\( f'(x) \\) that guarantees a function \\( f \\) is strictly increasing on an interval \\( I \\).",
+     "a": "**Correct answer:** \\( f'(x) > 0 \\) for all \\( x \\) in the interior of \\( I \\) (and \\( f \\) continuous on \\( I \\)).  \n**What a wrong answer reveals:** If a student writes \\( f'(x) \\ge 0 \\), they confuse “strictly increasing” with “non‑decreasing”. If they omit the continuity requirement, they miss a subtle but important hypothesis (e.g., \\( f(x) = 1/x \\) has \\( f'(x) > 0 \\) on \\( (-\\infty,0) \\cup (0,\\infty) \\) but is not increasing across the whole real line because it’s not continuous at 0).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( f'(x) > 0 \\) on an interval implies the function is strictly increasing there. Use the Mean Value Theorem in your reasoning.",
+     "a": "**Correct explanation:** Take any \\( x_1 < x_2 \\) in the interval. By the Mean Value Theorem, there exists \\( c \\in (x_1, x_2) \\) such that \\( f(x_2) - f(x_1) = f'(c)(x_2 - x_1) \\). Since \\( f'(c) > 0 \\) and \\( x_2 - x_1 > 0 \\), the product is positive, so \\( f(x_2) > f(x_1) \\). Hence \\( f \\) is strictly increasing.  \n**What a wrong answer reveals:** A student who only says “positive slope means going up” is relying on geometric intuition, not the rigorous link via MVT. If they cannot invoke MVT, they haven’t connected the derivative definition to the function’s global behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Find the intervals on which the function \\( f(x) = 2x^3 - 9x^2 + 12x + 1 \\) is strictly increasing and strictly decreasing.",
+     "a": "**Working:**\n1. \\( f'(x) = 6x^2 - 18x + 12 = 6(x^2 - 3x + 2) = 6(x-1)(x-2) \\).\n2. Critical points: \\( x = 1, 2 \\).\n3. Sign chart:\n   - \\( x < 1 \\): test \\( x=0 \\) → \\( f'(0) = 12 > 0 \\) ⇒ increasing on \\( (-\\infty, 1) \\).\n   - \\( 1 < x < 2 \\): test \\( x=1.5 \\) → \\( f'(1.5) = 6(0.5)(-0.5) = -1.5 < 0 \\) ⇒ decreasing on \\( (1, 2) \\).\n   - \\( x > 2 \\): test \\( x=3 \\) → \\( f'(3) = 6(2)(1) = 12 > 0 \\) ⇒ increasing on \\( (2, \\infty) \\).\n**Answer:** Strictly increasing on \\( (-\\infty, 1] \\) and \\( [2, \\infty) \\); strictly decreasing on \\( [1, 2] \\). (Endpoints included because \\( f \\) is continuous.)  \n**What a wrong answer reveals:** Common errors: forgetting to factor fully, mis‑placing signs in the chart, or writing open intervals \\( (1,2) \\) instead of closed \\( [1,2] \\) when the function is continuous at the critical points.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the monotonicity of \\( g(x) = x^3 \\) and \\( h(x) = x^3 - 3x \\) on \\( \\mathbb{R} \\). Why does one have no intervals of decrease while the other does?",
+     "a": "**Correct analysis:**  \n\\( g'(x) = 3x^2 \\ge 0 \\) for all \\( x \\), and \\( g'(x) = 0 \\) only at \\( x=0 \\) (isolated point). Since the derivative is non‑negative and zero only at a single point, \\( g \\) is strictly increasing on \\( \\mathbb{R} \\).  \n\\( h'(x) = 3x^2 - 3 = 3(x-1)(x+1) \\). This is negative on \\( (-1, 1) \\), so \\( h \\) decreases there.  \nThe difference: \\( g' \\) never changes sign (it touches zero but stays non‑negative), while \\( h' \\) changes sign from positive to negative to positive.  \n**What a wrong answer reveals:** If a student claims \\( g \\) is not strictly increasing because \\( g'(0)=0 \\), they misunderstand that a derivative can be zero at isolated points without destroying strict monotonicity (the function still satisfies \\( x_1 < x_2 \\implies g(x_1) < g(x_2) \\)).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\( f(x) = \\sin x + \\cos x \\) on \\( [0, 2\\pi] \\) and writes: “\\( f'(x) = \\cos x - \\sin x \\). Setting \\( f'(x)=0 \\) gives \\( x = \\pi/4, 5\\pi/4 \\). Since \\( f'(0) = 1 > 0 \\), \\( f \\) is increasing on \\( [0, \\pi/4) \\) and decreasing on \\( (\\pi/4, 2\\pi] \\).” Identify the error and give the correct intervals.",
+     "a": "**Error:** The student only tested one point (\\( x=0 \\)) and assumed the sign stays the same until the next critical point, but there are **two** critical points in \\( [0, 2\\pi] \\). The sign of \\( f' \\) changes at each critical point.  \n**Correct intervals:**  \n- \\( [0, \\pi/4] \\): \\( f' > 0 \\) (increasing)  \n- \\( [\\pi/4, 5\\pi/4] \\): \\( f' < 0 \\) (decreasing)  \n- \\( [5\\pi/4, 2\\pi] \\): \\( f' > 0 \\) (increasing)  \n**What a wrong answer reveals:** The student treats critical points as mere boundaries without checking the sign in **every** sub‑interval. This is a classic “missing interval” mistake that costs marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f(x) \\) that is strictly increasing on \\( (-\\infty, 0) \\) and strictly decreasing on \\( (0, \\infty) \\), and has a maximum value of 5 at \\( x=0 \\). Write its derivative and verify the monotonicity.",
+     "a": "**Example answer:** \\( f(x) = -x^2 + 5 \\).  \n\\( f'(x) = -2x \\).  \n- For \\( x < 0 \\), \\( f'(x) = -2x > 0 \\) ⇒ increasing.  \n- For \\( x > 0 \\), \\( f'(x) = -2x < 0 \\) ⇒ decreasing.  \n\\( f(0)=5 \\) is the maximum.  \n**What a poor answer reveals:** If a student gives a piecewise function like \\( f(x) = x \\) for \\( x<0 \\) and \\( f(x) = -x \\) for \\( x>0 \\), it’s not differentiable at 0, so the derivative test doesn’t apply smoothly. A good answer uses a simple polynomial whose derivative changes sign exactly once.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 119,
+ "chapter_title": "Chemical Coordination and Integration",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo119.txt",
+ "concepts": [
+  {
+   "id": "kebo.119.1.1",
+   "title": "Endocrine Glands and Hypothalamus-Pituitary Axis",
+   "section": "19.2 Human Endocrine System",
+   "definition": "The human endocrine system includes the hypothalamus controlling the pituitary through releasing and inhibiting hormones, and the pituitary with its anterior lobe secreting growth hormone, prolactin, thyroid stimulating hormone, adrenocorticotropic hormone, luteinising hormone and follicle stimulating hormone, and posterior lobe storing oxytocin and vasopressin.",
+   "formula": "",
+   "key_idea": "The hypothalamus acts as the master control linking neural and endocrine systems, while the anterior pituitary hormones regulate other endocrine glands, making it the master gland.",
+   "textbook_ref": "kebo119.txt section 19.2",
+   "question_patterns": [
+    "describe the relation between hypothalamus and pituitary gland",
+    "name the hormones of the anterior pituitary and their functions",
+    "which hormones are stored in the posterior pituitary",
+    "what are releasing hormones and where are they produced",
+    "why is the pituitary called the master gland",
+    "state the functions of oxytocin and vasopressin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the gland",
+     "explain": "Identify the endocrine gland from the hormone named."
+    },
+    {
+     "step": 2,
+     "action": "check the controlling link",
+     "explain": "Note hypothalamic releasing hormones driving pituitary secretion."
+    },
+    {
+     "step": 3,
+     "action": "state the target action",
+     "explain": "Describe the hormone's target organ and effect."
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.2.1",
+   "title": "Thyroid, Parathyroid, Thymus, Adrenal and Pineal Hormones",
+   "section": "19.2 Human Endocrine System",
+   "definition": "The thyroid secretes tetraiodothyronine and triiodothyronine with iodine for basal metabolic rate and the calcium lowering hormone calcitonin, the parathyroid secretes parathyroid hormone raising blood calcium, the thymus secretes thymosins for immunity, the adrenal cortex releases glucocorticoids and mineralocorticoids with the medulla releasing adrenaline and noradrenaline, and the pineal secretes melatonin for the sleep wake cycle.",
+   "formula": "",
+   "key_idea": "Calcitonin and parathyroid hormone act antagonistically on blood calcium, and adrenal medullary hormones prepare the body for emergency reactions.",
+   "textbook_ref": "kebo119.txt section 19.2",
+   "question_patterns": [
+    "which hormones does the thyroid gland secrete and what do they do",
+    "compare the actions of calcitonin and parathyroid hormone",
+    "name the hormones of the adrenal cortex and medulla",
+    "what is the role of thymosins in the body",
+    "which gland secretes melatonin and what is its function",
+    "why is iodine essential in the diet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match gland to hormone",
+     "explain": "Connect each hormone with its secreting gland."
+    },
+    {
+     "step": 2,
+     "action": "note antagonistic pairs",
+     "explain": "Identify hormones with opposing effects like calcitonin and PTH."
+    },
+    {
+     "step": 3,
+     "action": "state the physiological role",
+     "explain": "Describe metabolism, calcium balance, immunity or rhythm effects."
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.3.1",
+   "title": "Pancreatic and Gonadal Hormones",
+   "section": "19.2 Human Endocrine System",
+   "definition": "The islets of Langerhans in the pancreas secrete glucagon from alpha cells raising blood glucose by glycogenolysis and insulin from beta cells lowering blood glucose by cellular uptake, while the testes secrete androgens like testosterone and the ovaries secrete estrogens and progesterone for reproduction and secondary sexual characters.",
+   "formula": "",
+   "key_idea": "Insulin and glucagon act antagonistically to maintain glucose homeostasis, and disorders of this balance produce diabetes mellitus with hyperglycemia and loss of glucose through urine.",
+   "textbook_ref": "kebo119.txt section 19.2",
+   "question_patterns": [
+    "compare the actions of insulin and glucagon",
+    "which cells of the pancreas secrete insulin",
+    "name the hormones of testes and ovaries with functions",
+    "what happens when insulin secretion falls below normal",
+    "define gluconeogenesis and glycogenolysis",
+    "how do estrogens and progesterone differ in function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the hormone and cell",
+     "explain": "Note the secreting cell type and its hormone."
+    },
+    {
+     "step": 2,
+     "action": "state the blood glucose effect",
+     "explain": "Mark whether the hormone raises or lowers blood glucose."
+    },
+    {
+     "step": 3,
+     "action": "relate to disorders",
+     "explain": "Connect insulin deficiency to diabetes mellitus."
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.4.1",
+   "title": "Mechanism of Hormone Action and Hormone Disorders",
+   "section": "19.3 Mechanism of Hormone Action, 19.4 Disorders",
+   "definition": "Water soluble hormones bind surface receptors and act through second messengers like cyclic AMP, while steroid hormones enter cells and bind intracellular receptors regulating gene expression; hormonal disorders include gigantism and acromegaly from excess growth hormone, dwarfism from its deficiency, diabetes insipidus from vasopressin deficiency, simple goitre from iodine deficiency and Cushing's disease from cortisol excess.",
+   "formula": "",
+   "key_idea": "Hormones act in very low concentrations through specific receptors, and hypo or hyper secretion of the same hormone produces opposite disorders such as dwarfism and gigantism.",
+   "textbook_ref": "kebo119.txt sections 19.3, 19.4",
+   "question_patterns": [
+    "differentiate the action of water soluble and steroid hormones",
+    "what is the role of cyclic amp as a second messenger",
+    "what causes gigantism and acromegaly",
+    "differentiate diabetes mellitus and diabetes insipidus",
+    "why does iodine deficiency cause simple goitre",
+    "match each endocrine disorder with its hormone imbalance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the hormone",
+     "explain": "Note whether the hormone acts through surface or intracellular receptors."
+    },
+    {
+     "step": 2,
+     "action": "trace the pathway",
+     "explain": "Follow second messenger cascades or gene regulation."
+    },
+    {
+     "step": 3,
+     "action": "link to the disorder",
+     "explain": "Connect hyper or hypo secretion to the named disease."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo119.txt exercises section",
+   "questions": [
+    "Define the endocrine system and name the endocrine glands of humans.",
+    "Diagrammatically represent the mechanism of hormone action through a second messenger.",
+    "Hypothalamus is a supra-endocrine gland - justify.",
+    "Give the name of the hormone secreted by the pineal gland and its function.",
+    "Compare the disorders caused by hyper and hyposecretion of growth hormone.",
+    "Where are the islets of Langerhans located and what do they secrete?"
+   ]
+  }
+ ]
+}

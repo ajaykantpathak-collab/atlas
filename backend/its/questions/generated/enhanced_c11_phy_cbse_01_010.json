@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_010",
+   "title": "c11_phy_cbse_01_010",
+   "questions": [
+    {
+     "q": "A student measures the diameter of a wire using a screw gauge. The main scale reading is 3 mm and the circular scale reading is 45 divisions. The pitch of the screw gauge is 0.5 mm and it has 50 divisions on the circular scale. What is the least count of this screw gauge?",
+     "a": "Least Count = Pitch / Number of divisions on circular scale = 0.5 mm / 50 = 0.01 mm. A wrong answer like 0.5 mm or 0.02 mm reveals the student either confuses pitch with least count or incorrectly divides the number of divisions by pitch instead of pitch by divisions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a vernier calipers with 20 divisions on the vernier scale matching 19 divisions on the main scale (1 MSD = 1 mm) have a smaller least count than one with 10 divisions matching 9 main scale divisions?",
+     "a": "For 20 VSD = 19 MSD: 1 VSD = 0.95 mm, LC = 1 - 0.95 = 0.05 mm. For 10 VSD = 9 MSD: 1 VSD = 0.9 mm, LC = 1 - 0.9 = 0.1 mm. The first has smaller LC because more vernier divisions are packed into the same main scale length, making each VSD closer to 1 MSD. A wrong answer stating both have same LC reveals the student memorises the formula LC = 1 MSD / N without understanding the vernier principle of (N-1) MSD = N VSD.",
+     "self_check": true
+    },
+    {
+     "q": "A vernier calipers has zero error of +0.03 cm. The main scale reading for a rod is 2.4 cm and the 8th vernier division coincides with a main scale division. If 10 vernier divisions match 9 main scale divisions (1 MSD = 0.1 cm), what is the corrected length of the rod?",
+     "a": "Step 1: LC = 1 MSD - 1 VSD = 0.1 cm - 0.09 cm = 0.01 cm.\nStep 2: Vernier scale reading = 8 × LC = 8 × 0.01 = 0.08 cm.\nStep 3: Observed reading = MSR + VSR = 2.4 + 0.08 = 2.48 cm.\nStep 4: Corrected reading = Observed - Zero error = 2.48 - (+0.03) = 2.45 cm.\nA wrong answer of 2.51 cm reveals the student adds zero error instead of subtracting positive zero error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the measurement of a thin wire's diameter using a metre scale (least count 1 mm), vernier calipers (LC 0.01 cm), and screw gauge (LC 0.001 cm). If the true diameter is 0.25 mm, which instrument gives the most reliable result and why? Explain in terms of relative error.",
+     "a": "Metre scale: reading 0.2 or 0.3 mm, absolute error ±0.5 mm, relative error = 0.5/0.25 = 200%. Vernier calipers: reading 0.25 cm = 2.5 mm, absolute error ±0.01 cm = 0.1 mm, relative error = 0.1/0.25 = 40%. Screw gauge: reading 0.025 cm = 0.25 mm, absolute error ±0.001 cm = 0.01 mm, relative error = 0.01/0.25 = 4%. Screw gauge is most reliable because its least count is smallest compared to the measured quantity, giving the smallest relative error. A wrong choice of vernier calipers reveals the student doesn't understand that relative error depends on the ratio of least count to measured value.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To measure the distance to the Moon, we can use a very long tape measure if we make it strong enough.\" Evaluate this statement and explain why the parallax method is used instead.",
+     "a": "The statement is physically impossible. A tape measure to the Moon (3.84×10⁸ m) would have enormous mass, would collapse under its own weight, and cannot be deployed in vacuum. Parallax method uses the Earth's diameter as baseline (1.27×10⁷ m) and measures the angular shift of the Moon against distant stars from two points on Earth. This is an indirect geometric method requiring no physical contact. A student who agrees with the tape measure idea reveals a fundamental misunderstanding that all measurements require direct contact and doesn't grasp the concept of indirect measurement through geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a laser pointer, a ruler, and a wall to estimate the wavelength of laser light (order of magnitude) using the principle of diffraction. Describe the setup, measurements needed, and the formula you would use.",
+     "a": "Setup: Shine laser through a single slit (made by two razor blades close together) onto a wall 2-3 m away. Measure distance D from slit to wall, and distance y from central maximum to first minimum. Formula: a sinθ = λ for first minimum, where a is slit width (estimated from blade thickness ~0.1 mm), sinθ ≈ y/D. Calculate λ = a(y/D). Expected λ ~ 600 nm. A poor answer using double-slit formula or measuring fringe spacing without knowing slit separation reveals the student confuses interference and diffraction or doesn't understand the geometry of the experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

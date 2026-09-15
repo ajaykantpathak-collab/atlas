@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_16_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_16_005",
+   "title": "c11_bio_cbse_16_005",
+   "questions": [
+    {
+     "q": "Name the hormone released by the neurohypophysis in response to increased blood osmolarity and state its primary action on the nephron.",
+     "a": "Antidiuretic hormone (ADH) or vasopressin is released; it increases water permeability of the late distal tubule and collecting duct by inserting aquaporin-2 channels, promoting water reabsorption and concentrated urine. A wrong answer (e.g., naming aldosterone or saying ADH causes diuresis) reveals confusion between water-conserving and sodium-conserving hormones, or misunderstanding of ADH's anti-diuretic effect.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a fall in glomerular blood pressure triggers renin release from JG cells, and describe the two major effects of angiotensin II on kidney function.",
+     "a": "JG cells are modified smooth muscle cells of the afferent arteriole that act as baroreceptors; decreased stretch stimulates renin secretion. Angiotensin II (1) constricts efferent arterioles > afferent arterioles, raising glomerular hydrostatic pressure and GFR, and (2) stimulates adrenal cortex to secrete aldosterone, which enhances Na⁺ reabsorption in DCT/collecting duct. An incorrect answer that omits the efferent arteriole constriction or attributes aldosterone release directly to renin shows incomplete understanding of the RAAS cascade.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with severe hemorrhage shows increased ADH and aldosterone levels. Predict the combined effect on urine volume, urine osmolarity, and blood pressure, and justify your prediction.",
+     "a": "Urine volume decreases sharply (both hormones promote water retention), urine osmolarity increases (ADH allows water reabsorption in medullary gradient), and blood pressure rises (aldosterone expands ECF volume via Na⁺ retention; ADH also causes vasoconstriction). A wrong prediction (e.g., urine volume increases) indicates failure to integrate the synergistic actions of both hormones during hypovolemia.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the triggers, sources, and renal targets of ADH and ANF. Why is ANF considered a physiological antagonist of RAAS?",
+     "a": "ADH: triggered by high plasma osmolarity/low volume; source = neurohypophysis; target = collecting duct principal cells (aquaporin insertion). ANF: triggered by atrial stretch from high blood volume; source = cardiac atrial myocytes; target = afferent arteriole (vasodilation), collecting duct (inhibits Na⁺ reabsorption), and suppresses renin/aldosterone. ANF opposes RAAS by lowering glomerular pressure, promoting natriuresis, and inhibiting renin release. An answer that only lists differences without explaining the antagonism misses the systems-level regulatory logic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"ADH and aldosterone both increase water reabsorption, so they are functionally redundant.\" Provide two distinct reasons why this is incorrect.",
+     "a": "The statement is false. (1) ADH directly increases water permeability via aquaporins, allowing osmotic water flow; aldosterone primarily increases Na⁺ reabsorption (ENaC channels), and water follows passively only if the tubule is water-permeable (ADH-dependent). (2) ADH responds to osmolarity changes; aldosterone responds to angiotensin II and K⁺ levels. They have different triggers, molecular mechanisms, and can be regulated independently. A student calling them redundant overlooks the conditional nature of aldosterone's water effect and the distinct physiological stimuli.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a human volunteer to demonstrate the effect of ADH on urine output and osmolarity. Specify the control condition, experimental intervention, measurements, and expected results.",
+     "a": "Control: volunteer drinks 500 mL water after overnight fast; collect urine for 2 hours. Experimental: same volunteer receives intravenous hypertonic saline (raises plasma osmolarity) then drinks 500 mL water; collect urine for 2 hours. Measure urine volume and osmolarity. Expected: experimental condition shows lower urine volume and higher urine osmolarity due to ADH release. A poor design (e.g., no control, measuring only volume) fails to isolate ADH's specific role.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_004",
+   "title": "c11_math_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the formula for the number of permutations of n distinct objects taken r at a time, and specify the condition on r.",
+     "a": "The formula is \\(^nP_r = \\frac{n!}{(n-r)!}\\) with the condition \\(0 \\le r \\le n\\). A wrong answer like \\(^nP_r = n!\\) or \\(^nP_r = \\frac{n!}{r!}\\) reveals confusion between permutations and combinations or misunderstanding of the factorial division's role in stopping the product at (n-r+1).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of ways to arrange 4 different books on a shelf from a collection of 7 distinct books is \\(^7P_4 = 7 \\times 6 \\times 5 \\times 4\\) and not \\(^7C_4 \\times 4!\\) (though they are numerically equal). What does each factor represent in the multiplication principle?",
+     "a": "The multiplication principle directly gives 7 choices for the first spot, 6 for the second, 5 for the third, 4 for the fourth. \\(^7C_4 \\times 4!\\) first chooses 4 books (order ignored) then arranges them, which is a two-step process. The direct product \\(7 \\times 6 \\times 5 \\times 4\\) reflects the sequential decision-making without an intermediate combination step. A student who cannot articulate the sequential choice per position lacks conceptual understanding of the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "A 4-digit PIN code is created using digits 1–9 without repetition. How many such PINs are possible? If the PIN must be even, how many are possible?",
+     "a": "Total PINs: \\(^9P_4 = \\frac{9!}{5!} = 9 \\times 8 \\times 7 \\times 6 = 3024\\). For even PINs, the last digit must be even (2,4,6,8 → 4 choices). After fixing the last digit, choose the first three from the remaining 8 digits: \\(4 \\times ^8P_3 = 4 \\times 8 \\times 7 \\times 6 = 1344\\). A wrong answer like \\(^9P_4 / 2\\) assumes symmetry that doesn't hold because the even digits are not half the available digits in a way that preserves equal distribution across positions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of permutations of 6 distinct objects taken 4 at a time (\\(^6P_4\\)) with the number of permutations of 6 distinct objects taken 2 at a time (\\(^6P_2\\)). Is there a relationship? Generalize: for a fixed n, how are \\(^nP_r\\) and \\(^nP_{n-r}\\) related?",
+     "a": "\\(^6P_4 = 6 \\times 5 \\times 4 \\times 3 = 360\\). \\(^6P_2 = 6 \\times 5 = 30\\). They are not equal. However, \\(^nP_r = \\frac{n!}{(n-r)!}\\) and \\(^nP_{n-r} = \\frac{n!}{r!}\\). They are equal only when r = n-r (i.e., r = n/2). The relationship is \\(^nP_r \\times r! = ^nP_{n-r} \\times (n-r)! = n!\\). A student who claims they are always equal confuses permutations with combinations symmetry (\\(^nC_r = ^nC_{n-r}\\)).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Arrange 5 different mathematics books and 3 different physics books on a shelf so that all physics books are together.\" Their working: \"Treat the 3 physics books as 1 block. Total items = 6. Arrangements = 6! = 720.\" Evaluate this solution.",
+     "a": "The solution is incomplete. Treating the 3 physics books as a block gives 6! arrangements of the block and the 5 math books. However, the 3 physics books within the block can be arranged among themselves in 3! ways. Total = 6! × 3! = 720 × 6 = 4320. The student forgot the internal permutation of the block, a common error when moving from distinct objects to constrained arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires computing \\(^nP_r\\) with n=10, r=3, and explain why order matters in your scenario.",
+     "a": "Example: \"A school has 10 candidates for the posts of Head Boy, Head Girl, and Sports Captain. Each candidate can hold at most one post. In how many ways can the posts be filled?\" Order matters because Head Boy ≠ Head Girl ≠ Sports Captain (distinct positions). Number of ways = \\(^{10}P_3 = 720\\). A poor answer might describe a scenario where order doesn't matter (e.g., selecting a 3-member committee) or uses repetition allowed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

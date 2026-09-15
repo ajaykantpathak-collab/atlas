@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_006",
+   "title": "c11_hs_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the ICMR definition of a balanced diet and list its six defining characteristics as per the NCERT textbook.",
+     "a": "A balanced diet includes a variety of foods in adequate amounts and correct proportions to meet daily requirements of all essential nutrients (proteins, carbohydrates, fats, vitamins, minerals, water, fibre), provides a safety margin, promotes health, and maintains acceptable body weight. The six characteristics are: 1) Includes variety of food items, 2) Meets RDA for all nutrients, 3) Includes nutrients in correct proportions, 4) Provides safety margin, 5) Promotes/preserves good health, 6) Maintains acceptable body weight for height. A wrong answer (e.g., listing only \"eating all food groups\" or confusing RDA with requirement) reveals the student has memorised a simplified version without the precision needed for board exam definitions where each characteristic carries separate marks.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I eat one item from each of the five food groups every day, my diet is automatically balanced.\" Evaluate this statement using the concepts of 'adequacy' and 'correct proportions'.",
+     "a": "The statement is false. Merely including one item from each group satisfies *variety* but not *adequacy* (quantity may be insufficient to meet RDA) or *correct proportions* (e.g., 300g cereal + 10g pulse + 50ml milk + 50g vegetable + 20g fat violates the 75% cereal calorie limit and protein quality). A wrong answer accepting the statement reveals the misconception that \"variety = balance,\" ignoring the quantitative dimensions of adequacy and proportion which are separately tested in board exams (e.g., \"Explain why variety alone is insufficient\").",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old vegetarian girl's lunch consists of: 200g cooked rice, 50g cooked dal (red gram), 100g aloo-gobi sabzi (potato-cauliflower), and 100g curd. Using the Five Food Group system, identify which group is missing, which group is over-represented, and suggest one specific modification to improve protein quality without adding non-vegetarian food.",
+     "a": "Missing group: Fruits (Group IV - protective nutrients like Vitamin C, carotenoids). Over-represented: Cereals (Group I) - rice and potato both contribute to cereal/starchy base, risking >75% calories from cereals. Modification: Replace 50g rice with 30g soy nuggets (Group II - pulses/legumes) or add 30g roasted chana. This improves protein quality via cereal-pulse complementation (methionine from cereal + lysine from pulse) and reduces cereal proportion. A wrong answer (e.g., suggesting egg or chicken) ignores the vegetarian constraint; suggesting only \"add more dal\" misses the cereal proportion issue.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'safety margin' in a balanced diet with the 'margin of safety' in Recommended Dietary Allowances (RDA). Are they the same concept applied at different levels? Justify.",
+     "a": "They are related but distinct. RDA's margin of safety is a *statistical buffer* added to the *average physiological requirement* to cover 97-98% of the healthy population (RDA = Requirement + 2SD). The balanced diet's safety margin is a *practical dietary buffer* achieved by consuming nutrient-dense foods in excess of immediate need, allowing the body to store reserves (e.g., liver glycogen, adipose vitamins, bone calcium) to withstand short-term deprivation (fasting, illness). A balanced diet *meeting* RDA inherently includes the RDA's statistical safety margin; the diet's safety margin is the *physiological outcome* of consistently meeting RDA. A wrong answer equating them confuses a population-level statistical construct with an individual-level physiological resilience mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following meal plan for a sedentary adult male using the 'Cereals should not supply >75% total kcal' guideline: Breakfast: 4 bread slices (120g) + butter; Lunch: 300g rice + 100g dal + 50g vegetable; Dinner: 4 chapatis (120g wheat) + 100g sabzi. Assume: Bread/Chapatis/Rice = 340 kcal/100g; Dal = 330 kcal/100g; Vegetable = 80 kcal/100g; Butter = 720 kcal/100g. Show calculations.",
+     "a": "Cereal kcal: Breakfast (120g bread = 408 kcal) + Lunch (300g rice = 1020 kcal) + Dinner (120g wheat = 408 kcal) = 1836 kcal. Total kcal: Cereals (1836) + Butter~10g (72) + Dal 100g (330) + Veg 150g (120) = 2358 kcal. Cereal % = (1836/2358)×100 = 77.9% > 75%. The plan violates the guideline. Critique: Excessive cereal dependence displaces protective foods (fruits, milk) and quality protein. To fix: Reduce rice to 200g, add 150ml milk (Group III) and 100g fruit (Group IV). A wrong answer calculating only total calories without the proportion check misses the specific ICMR guideline tested in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day balanced vegetarian menu for a 15-year-old adolescent girl (heavy activity) that explicitly satisfies all six characteristics of a balanced diet. Annotate each meal with the food groups included and the specific characteristic(s) it addresses.",
+     "a": "A good answer provides a menu (e.g., Breakfast: Milk + Besan chilla + Orange; Lunch: Rice + Rajma + Spinach sabzi + Curd + Salad; Snack: Roasted chana + Guava; Dinner: Chapati + Soy nugget curry + Carrot-beans + Curd) with annotations like: \"Breakfast: Groups I, II, III, IV → Variety, Adequacy (protein/calcium), Proportion (cereal <75%). Lunch: Groups I, II, III, IV → RDA compliance (iron/folate from rajma+spinach), Safety margin (multiple nutrient sources).\" A poor answer lists foods without mapping to the six characteristics or misses Group IV (fruits) in main meals, showing inability to operationalise the definition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

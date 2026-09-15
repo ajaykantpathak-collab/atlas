@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_003",
+   "title": "c11_math_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the precise definition of equal sets and equivalent sets for finite sets. Use mathematical notation (∈, n(A), etc.).",
+     "a": "Equal sets: A = B ⇔ (∀x)(x ∈ A ⇔ x ∈ B). Equivalent sets: A ~ B ⇔ n(A) = n(B). A wrong answer (e.g., \"equivalent means same elements\" or \"equal means same number of elements\") reveals confusion between the two concepts — the student is likely memorising terms without understanding the element-wise vs. cardinality distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why every pair of equal sets is equivalent, but not every pair of equivalent sets is equal. Give a concrete counterexample for the converse.",
+     "a": "If A = B, they have identical elements, so n(A) = n(B) ⇒ A ~ B. Counterexample: A = {1,2,3}, B = {a,b,c} have n(A)=n(B)=3 ⇒ A ~ B, but 1 ∉ B ⇒ A ≠ B. A wrong explanation (e.g., \"equal sets have same size so they are equivalent\" without mentioning element identity) shows the student doesn't grasp that equality is a stronger condition requiring element-by-element matching.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {x : x is a letter in the word \"BANANA\"} and B = {x : x is a letter in the word \"ANANAB\"}. Are A and B equal? Are they equivalent? Show your working.",
+     "a": "A = {B, A, N} (distinct letters), B = {A, N, B} = {A, B, N}. Elements are identical ⇒ A = B. n(A)=3, n(B)=3 ⇒ A ~ B. Both equal and equivalent. A student who writes A = {B,A,N,A,N,A} and B = {A,N,A,N,A,B} and says they are not equal because order/repetition differs has not internalised that sets ignore order and repetition.",
+     "self_check": true
+    },
+    {
+     "q": "Let P = {x ∈ ℕ : x² < 20} and Q = {x ∈ ℕ : x is a prime factor of 30}. Determine whether P and Q are equal, equivalent, both, or neither. Justify.",
+     "a": "P = {1,2,3,4} (since 4²=16<20, 5²=25>20). Q = {2,3,5}. n(P)=4, n(Q)=3 ⇒ not equivalent ⇒ not equal. Neither. A student who miscalculates P as {1,2,3} (forgetting 4) or Q as {2,3,5,6} (including composite factors) makes arithmetic errors in set construction, not conceptual errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If n(A) = n(B) = 5, then A = B because both have 5 elements.\" Evaluate this claim and provide a correct statement with a counterexample.",
+     "a": "The claim is false. Equal sets require identical elements, not just equal cardinality. Counterexample: A = {1,2,3,4,5}, B = {a,b,c,d,e}. n(A)=n(B)=5 but A ≠ B. Correct statement: \"If A = B then n(A) = n(B), but the converse is not true.\" A student who agrees with the claim fundamentally confuses equivalence with equality.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two sets C and D, each with exactly 4 elements, such that C ~ D but C ≠ D. Use letters from the words \"SCHOOL\" and \"COLLEGE\" respectively. Write both sets in roster form.",
+     "a": "C = {S, C, H, O, L} from \"SCHOOL\" has 5 distinct letters. Need 4 elements. Choose C = {S, C, H, O} (any 4). D from \"COLLEGE\": distinct letters {C, O, L, E, G} = 5. Choose D = {C, O, L, E}. Then n(C)=4, n(D)=4 ⇒ C ~ D, but S ∈ C, S ∉ D ⇒ C ≠ D. A poor answer might use repeated letters or fail to ensure exactly 4 distinct elements, showing weak roster-form construction skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_011",
+   "title": "c11_chem_cbse_05_011",
+   "questions": [
+    {
+     "q": "State the van der Waals equation for 1 mole of a real gas and define each term with its SI units.",
+     "a": "The van der Waals equation for 1 mole is \\(\\left(P + \\frac{a}{V_m^2}\\right)(V_m - b) = RT\\), where \\(P\\) is pressure in Pa, \\(V_m\\) is molar volume in m³/mol, \\(T\\) is temperature in K, \\(R = 8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}\\), \\(a\\) is in Pa·m⁶·mol⁻² (or atm·L²·mol⁻²), and \\(b\\) is in m³/mol (or L/mol). A wrong answer reveals the student cannot distinguish between the extensive form (with \\(n\\)) and intensive molar form, or confuses the units of \\(a\\) (pressure × volume²/mol²) with \\(b\\) (volume/mol), indicating a lack of dimensional analysis practice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pressure correction term is added to the measured pressure \\(P\\) while the volume correction term is subtracted from the container volume \\(V\\) in the van der Waals equation.",
+     "a": "The measured pressure \\(P\\) is lower than the ideal pressure because intermolecular attractions pull molecules inward, reducing wall collisions; thus we add \\(\\frac{an^2}{V^2}\\) to recover the ideal pressure. The container volume \\(V\\) overestimates the free space available for molecular motion because molecules themselves occupy volume \\(nb\\); thus we subtract \\(nb\\) to get the effective free volume. A wrong answer (e.g., subtracting the pressure correction) reveals the student memorizes the equation without understanding the physical origin of each term from kinetic molecular theory.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pressure exerted by 2.00 moles of CO₂ gas confined in a 1.00 L vessel at 300 K using the van der Waals equation. Given: \\(a = 3.59\\ \\text{atm·L}^2\\text{·mol}^{-2}\\), \\(b = 0.0427\\ \\text{L·mol}^{-1}\\), \\(R = 0.0821\\ \\text{atm·L·mol}^{-1}\\text{·K}^{-1}\\). Compare with the ideal gas pressure.",
+     "a": "**Step 1:** Identify given: \\(n = 2.00\\ \\text{mol}\\), \\(V = 1.00\\ \\text{L}\\), \\(T = 300\\ \\text{K}\\), \\(a = 3.59\\ \\text{atm·L}^2\\text{·mol}^{-2}\\), \\(b = 0.0427\\ \\text{L·mol}^{-1}\\), \\(R = 0.0821\\ \\text{atm·L·mol}^{-1}\\text{·K}^{-1}\\).\n**Step 2:** Write van der Waals equation: \\(\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT\\).\n**Step 3:** Calculate correction terms: \\(\\frac{an^2}{V^2} = \\frac{3.59 \\times (2.00)^2}{(1.00)^2} = 14.36\\ \\text{atm}\\); \\(nb = 2.00 \\times 0.0427 = 0.0854\\ \\text{L}\\); \\(V - nb = 1.00 - 0.0854 = 0.9146\\ \\text{L}\\).\n**Step 4:** Calculate \\(nRT = 2.00 \\times 0.0821 \\times 300 = 49.26\\ \\text{atm·L}\\).\n**Step 5:** Solve for \\(P\\): \\(P = \\frac{nRT}{V - nb} - \\frac{an^2}{V^2} = \\frac{49.26}{0.9146} - 14.36 = 53.86 - 14.36 = 39.50\\ \\text{atm}\\).\n**Step 6:** Ideal gas pressure: \\(P_{\\text{ideal}} = \\frac{nRT}{V} = \\frac{49.26}{1.00} = 49.26\\ \\text{atm}\\).\n**Answer:** \\(P_{\\text{vdW}} = 39.5\\ \\text{atm}\\), \\(P_{\\text{ideal}} = 49.3\\ \\text{atm}\\). Deviation = 9.8 atm (20% lower). A wrong answer reveals errors in substitution order, unit inconsistency, or forgetting to square \\(n\\) in the pressure correction term.",
+     "self_check": true
+    },
+    {
+     "q": "Two gases X and Y have van der Waals constants: \\(a_X = 1.39\\ \\text{atm·L}^2\\text{·mol}^{-2}\\), \\(b_X = 0.0391\\ \\text{L·mol}^{-1}\\); \\(a_Y = 4.17\\ \\text{atm·L}^2\\text{·mol}^{-2}\\), \\(b_Y = 0.0371\\ \\text{L·mol}^{-1}\\). Which gas has stronger intermolecular forces? Which has larger molecular size? Predict which gas will show greater deviation from ideal behaviour at 50 atm and 300 K.",
+     "a": "Gas Y has stronger intermolecular forces because \\(a_Y > a_X\\) (4.17 > 1.39). Gas X has slightly larger molecular size because \\(b_X > b_Y\\) (0.0391 > 0.0371). At 50 atm and 300 K, gas Y will show greater deviation because the pressure correction term \\(\\frac{an^2}{V^2}\\) dominates at moderate pressures for gases with large \\(a\\), and Y's \\(a\\) is 3× larger. A wrong answer reveals the student cannot connect the magnitude of \\(a\\) to intermolecular force strength (from c11_chem_cbse_05_001/002) or misinterprets \\(b\\) as the dominant factor at all conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the pressure of 1 mole of N₂ at 400 K in 0.5 L using the van der Waals equation and gets a negative pressure. The constants are \\(a = 1.39\\ \\text{atm·L}^2\\text{·mol}^{-2}\\), \\(b = 0.0391\\ \\text{L·mol}^{-1}\\). Identify the error in the student's approach and explain the physical limitation of the van der Waals equation exposed here.",
+     "a": "The student likely used the equation correctly but the conditions (high density: \\(V_m = 0.5\\ \\text{L/mol}\\) close to \\(b = 0.0391\\ \\text{L/mol}\\)) push the equation beyond its validity. At such high pressures, the volume correction \\(V - nb\\) becomes very small, making \\(\\frac{nRT}{V-nb}\\) huge, but the pressure correction \\(\\frac{an^2}{V^2}\\) also becomes large. If \\(V\\) approaches \\(nb\\), the denominator \\(V-nb \\to 0\\) causing \\(P \\to \\infty\\) mathematically, but the simple \\(a/V^2\\) attraction term cannot balance the strong repulsion at very short distances. The van der Waals equation fails at very high pressures because it assumes a constant \\(b\\) and a mean-field attraction term, ignoring molecular shape and repulsive forces at close contact. A wrong answer reveals the student treats the equation as universally valid without recognizing its domain of applicability.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to determine the van der Waals constants \\(a\\) and \\(b\\) for an unknown gas using only P-V-T measurements at constant temperature. Outline the graphical method and the calculations needed.",
+     "a": "**Procedure:** Measure pressure \\(P\\) at several volumes \\(V\\) for a fixed amount \\(n\\) of gas at constant \\(T\\). **Graphical method:** Rearrange van der Waals equation to \\(PV_m = RT + \\left(b - \\frac{a}{RT}\\right)P + \\cdots\\) (virial expansion) or better: plot \\(PV_m\\) vs \\(P\\). At low pressures, \\(PV_m = RT + \\left(b - \\frac{a}{RT}\\right)P\\). The intercept gives \\(RT\\), slope gives \\(\\left(b - \\frac{a}{RT}\\right)\\). Repeat at 2-3 temperatures to get two equations for \\(a\\) and \\(b\\). Alternatively, use the critical constants method if critical point data is available: \\(a = \\frac{27R^2T_c^2}{64P_c}\\), \\(b = \\frac{RT_c}{8P_c}\\). **Criteria for good answer:** Recognizes need for multiple isotherms, uses virial expansion or critical constants, identifies that single isotherm cannot uniquely determine both constants. A poor answer suggests using only one P-V curve or ignores temperature dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

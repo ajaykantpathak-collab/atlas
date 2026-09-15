@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_12_003",
+   "title": "c12_phy_cbse_12_003",
+   "questions": [
+    {
+     "q": "State the formula for the energy of an electron in the \\(n\\)-th stationary orbit of a hydrogen atom. Give the value of the ground state energy in both eV and joules.",
+     "a": "\\(E_n = -\\frac{13.6 \\text{ eV}}{n^2} = -\\frac{2.18 \\times 10^{-18} \\text{ J}}{n^2}\\). Ground state (\\(n=1\\)): \\(E_1 = -13.6 \\text{ eV} = -2.18 \\times 10^{-18} \\text{ J}\\). A wrong answer (e.g., missing the negative sign, writing \\(E_n = +13.6/n^2\\), or using 13.6 J) reveals the student has memorized the magnitude but not the physical meaning of the bound state or the unit conversion between eV and J.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the energy of the electron in a hydrogen atom negative? What does \\(E_n \\to 0\\) as \\(n \\to \\infty\\) physically represent?",
+     "a": "The negative sign arises because the zero of potential energy is defined at infinite separation (\\(r \\to \\infty\\)). A bound electron has total energy \\(E = K + U\\); since \\(|U| > K\\) for a Coulomb potential, \\(E < 0\\). \\(E_n \\to 0^-\\) as \\(n \\to \\infty\\) means the electron is barely bound — it can be freed with infinitesimal energy. A wrong answer (e.g., \"negative energy means the electron has lost energy\" or \"zero energy means the electron is at rest at the nucleus\") shows confusion between the arbitrary zero of potential and the binding condition.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the energy (in eV and joules) required to excite a hydrogen atom from the ground state (\\(n=1\\)) to the \\(n=3\\) level. Use \\(1 \\text{ eV} = 1.60 \\times 10^{-19} \\text{ J}\\).",
+     "a": "Step 1: \\(E_1 = -13.6 \\text{ eV}\\). Step 2: \\(E_3 = -13.6/9 = -1.511 \\text{ eV}\\). Step 3: \\(\\Delta E = E_3 - E_1 = (-1.511) - (-13.6) = 12.089 \\text{ eV}\\). Step 4: \\(\\Delta E = 12.089 \\times 1.60 \\times 10^{-19} = 1.934 \\times 10^{-18} \\text{ J}\\). A wrong answer (e.g., \\(13.6 - 1.51 = 12.09\\) but forgetting to convert to joules, or using \\(E_1 - E_3\\) and getting negative) indicates sign errors in energy difference or unit conversion slips.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy spacing between \\(n=1\\) and \\(n=2\\) with that between \\(n=2\\) and \\(n=3\\). Which is larger? Explain why the spacing decreases as \\(n\\) increases, using the functional form of \\(E_n\\).",
+     "a": "\\(\\Delta E_{12} = E_2 - E_1 = (-3.4) - (-13.6) = 10.2 \\text{ eV}\\). \\(\\Delta E_{23} = E_3 - E_2 = (-1.51) - (-3.4) = 1.89 \\text{ eV}\\). \\(\\Delta E_{12} > \\Delta E_{23}\\). Because \\(E_n \\propto -1/n^2\\), the difference \\(\\Delta E = 13.6(1/n_f^2 - 1/n_i^2)\\) shrinks as \\(n\\) grows. For large \\(n\\), \\(\\Delta E \\approx \\frac{27.2}{n^3} \\Delta n\\), showing \\(1/n^3\\) dependence. A wrong answer claiming equal spacing reveals the student thinks energy levels are like a harmonic oscillator (linear in \\(n\\)) rather than an inverse-square sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The ionization energy of hydrogen from the \\(n=2\\) state is 13.6 eV because ionization always requires 13.6 eV.\" Evaluate this statement and give the correct ionization energy from \\(n=2\\).",
+     "a": "The statement is incorrect. Ionization energy is the energy needed to go from a given state to \\(E=0\\) (free electron at rest). For \\(n=2\\), \\(E_2 = -3.4 \\text{ eV}\\), so ionization energy \\(= 0 - E_2 = 3.4 \\text{ eV}\\). The 13.6 eV value applies only to the ground state (\\(n=1\\)). The error shows the student confuses \"ionization energy of hydrogen\" (usually quoted for ground state) with the state-dependent ionization threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have a container of hydrogen gas at room temperature (300 K). Estimate the fraction of atoms in the \\(n=2\\) state versus the ground state using the Boltzmann factor \\(e^{-\\Delta E/k_B T}\\) (with \\(k_B = 8.62 \\times 10^{-5} \\text{ eV/K}\\)). What does this imply for observing absorption lines at room temperature?",
+     "a": "\\(\\Delta E = 10.2 \\text{ eV}\\), \\(k_B T \\approx 0.0259 \\text{ eV}\\). Boltzmann factor \\(= e^{-10.2/0.0259} \\approx e^{-394} \\approx 10^{-171}\\). Essentially zero atoms in \\(n=2\\) at 300 K. Thus, almost all atoms are in ground state; absorption spectra will show only Lyman series (transitions from \\(n=1\\)). A poor answer (e.g., \"about half are in n=2\") reveals ignorance of thermal equilibrium statistics and the huge gap between atomic energy scales (eV) and thermal energy (meV).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

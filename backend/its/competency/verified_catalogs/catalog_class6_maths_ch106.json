@@ -1,0 +1,997 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Perimeter and Area",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp106.txt",
+ "concepts": [
+  {
+   "id": "fegp.6.1.1",
+   "title": "Perimeter of a Polygon",
+   "section": "6.1",
+   "definition": "Distance all the way around the outside edge of a straight-sided closed shape.",
+   "formula": "perimeter = sum_of_sides",
+   "key_idea": "The total distance covered when going around a polygon once.",
+   "textbook_ref": "fegp106.txt lines 10-25",
+   "question_patterns": [
+    "find the perimeter of a polygon with sides",
+    "what is the boundary length of a figure with sides",
+    "calculate the perimeter of a polygon having side lengths",
+    "how much distance is covered in walking along the boundary of a polygon",
+    "How far do you walk around a five-sided field of given sides?",
+    "Add the boundary measures of the figure shown."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the lengths of all sides",
+     "explain": "Add the lengths of all sides of the polygon to find the perimeter.",
+     "compute": "perimeter = sum_of_sides"
+    },
+    {
+     "step": 2,
+     "action": "verify all sides are included",
+     "explain": "Ensure every side of the polygon has been added exactly once to avoid missing or double-counting a side."
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter",
+     "explain": "The total sum of all side lengths gives the distance around the polygon.",
+     "compute": "perimeter = sum_of_sides"
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.2",
+   "title": "Perimeter of a Rectangle",
+   "section": "6.1",
+   "definition": "Distance around a rectangle: double the added-up long and short sides.",
+   "formula": "perimeter = 2 * (length + breadth)",
+   "key_idea": "Matching sides sit across from each other, so add the two different measures and double.",
+   "textbook_ref": "fegp106.txt lines 26-60",
+   "question_patterns": [
+    "find the perimeter of a rectangle with length and breadth",
+    "calculate the perimeter of a rectangular park of dimensions",
+    "what is the length of lace required to border a rectangular table",
+    "find the perimeter of a rectangular field",
+    "How much lace borders a scarf 80 cm by 30 cm?",
+    "Find the distance around a rectangular garden plot."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add length and breadth",
+     "explain": "Find the sum of the length and breadth of the rectangle.",
+     "compute": "sum_lb = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "Double the sum of length and breadth to get the perimeter.",
+     "compute": "perimeter = 2 * sum_lb"
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter with correct units",
+     "explain": "State the perimeter in the same length units as the given length and breadth."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.3",
+   "title": "Perimeter of a Square",
+   "section": "6.1",
+   "definition": "Distance around a square: one side measure taken four times.",
+   "formula": "perimeter = 4 * side",
+   "key_idea": "Every side matches every other, so four copies of one side give the perimeter.",
+   "textbook_ref": "fegp106.txt lines 61-85",
+   "question_patterns": [
+    "find the perimeter of a square of side",
+    "calculate the perimeter of a square photo frame of side",
+    "what is the length of tape needed to border a square of side",
+    "How much wood trims a square photo frame of side 25 cm?",
+    "What is the perimeter when each side is 7.5 cm?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply side by 4",
+     "explain": "Multiply the side length of the square by 4 to get the perimeter.",
+     "compute": "perimeter = 4 * side"
+    },
+    {
+     "step": 2,
+     "action": "verify all four sides are equal",
+     "explain": "Confirm the shape is a square so that multiplying one side by 4 is valid."
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter with correct units",
+     "explain": "State the perimeter in the same length units as the given side."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.4",
+   "title": "Perimeter of a Triangle",
+   "section": "6.1",
+   "definition": "Distance around a three-sided closed shape: the three side measures added.",
+   "formula": "perimeter = side_a + side_b + side_c",
+   "key_idea": "Add the measures of the three sides.",
+   "textbook_ref": "fegp106.txt lines 86-100",
+   "question_patterns": [
+    "find the perimeter of a triangle with sides",
+    "calculate the perimeter of a triangle having side lengths",
+    "what is the perimeter of a triangle whose sides are",
+    "Find the perimeter of a triangle with sides 6, 8 and 10 cm.",
+    "How much wire closes a triangular kite frame?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the three sides",
+     "explain": "Add the lengths of all three sides of the triangle.",
+     "compute": "perimeter = side_a + side_b + side_c"
+    },
+    {
+     "step": 2,
+     "action": "verify all three sides are included",
+     "explain": "Ensure each of the three sides has been added exactly once."
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter with correct units",
+     "explain": "State the perimeter in the same length units as the given sides."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.5",
+   "title": "Perimeter of an Equilateral Triangle",
+   "section": "6.1",
+   "definition": "Distance around a triangle whose sides all match: one side measure taken three times.",
+   "formula": "perimeter = 3 * side",
+   "key_idea": "All three sides match, so three copies of one side give the perimeter.",
+   "textbook_ref": "fegp106.txt lines 210-230",
+   "question_patterns": [
+    "find the perimeter of an equilateral triangle of side",
+    "calculate the perimeter of a triangle with all sides equal",
+    "what is the perimeter of a regular three-sided polygon",
+    "How far around is a three-equal-sided triangle of side 9 cm?",
+    "Calculate the perimeter when all sides measure 12 m."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply side by 3",
+     "explain": "Multiply the side length of the equilateral triangle by 3.",
+     "compute": "perimeter = 3 * side"
+    },
+    {
+     "step": 2,
+     "action": "verify all three sides are equal",
+     "explain": "Confirm the triangle is equilateral so that multiplying one side by 3 is valid."
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter with correct units",
+     "explain": "State the perimeter in the same length units as the given side."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.6",
+   "title": "Perimeter of a Regular Polygon",
+   "section": "6.1",
+   "definition": "Distance around a straight-sided closed shape with matching sides: the side count times one side measure.",
+   "formula": "perimeter = number_of_sides * side_length",
+   "key_idea": "Matching sides let you multiply: side count x one side gives the distance around.",
+   "textbook_ref": "fegp106.txt lines 200-240",
+   "question_patterns": [
+    "find the perimeter of a regular hexagon of side",
+    "calculate the perimeter of a regular pentagon of side",
+    "what is the perimeter of a regular polygon with sides of length",
+    "How far around is a regular hexagon of side 5 cm?",
+    "Find the perimeter of a regular octagon with 6 cm sides."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply number of sides by side length",
+     "explain": "Multiply the number of sides of the regular polygon by the length of one side.",
+     "compute": "perimeter = number_of_sides * side_length"
+    },
+    {
+     "step": 2,
+     "action": "verify the polygon is regular",
+     "explain": "Confirm all sides are equal so that multiplying one side by the side count is valid."
+    },
+    {
+     "step": 3,
+     "action": "report the perimeter with correct units",
+     "explain": "State the perimeter in the same length units as the given side length."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.7",
+   "title": "Distance Covered in Multiple Rounds of a Square",
+   "section": "6.1",
+   "definition": "How far you travel when you circle a square park again and again.",
+   "formula": "total_distance = rounds * 4 * side",
+   "key_idea": "One lap costs the perimeter; laps times perimeter gives the whole trip.",
+   "textbook_ref": "fegp106.txt lines 110-125",
+   "question_patterns": [
+    "find the distance travelled if someone takes rounds of a square park of side",
+    "calculate the total distance covered in rounds of a square track",
+    "what is the total distance covered after running times around a square park",
+    "How far do you go taking 4 laps of a square park of side 60 m?",
+    "Calculate the distance for 10 rounds of a square track."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate perimeter of the square",
+     "explain": "First, calculate the perimeter of the square by multiplying the side length by 4.",
+     "compute": "perimeter = 4 * side"
+    },
+    {
+     "step": 2,
+     "action": "multiply by rounds",
+     "explain": "Multiply the perimeter of the square by the number of rounds completed.",
+     "compute": "total_distance = rounds * perimeter"
+    },
+    {
+     "step": 3,
+     "action": "report the total distance with correct units",
+     "explain": "State the total distance travelled in the same length units as the given side."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.8",
+   "title": "Cost of Fencing a Rectangle",
+   "section": "6.1",
+   "definition": "What a fence costs when it runs along every side of a rectangle: perimeter times the rate charged for each unit of length.",
+   "formula": "total_cost = perimeter * rate",
+   "key_idea": "Fencing is done along the perimeter, so the cost is the perimeter times the rate per unit length.",
+   "textbook_ref": "fegp106.txt lines 140-150",
+   "question_patterns": [
+    "find the cost of fencing a rectangular park of length and breadth at the rate of",
+    "calculate the cost of fencing a rectangular field if the fence costs per metre",
+    "what is the total cost to fence a rectangular plot at Rs per metre",
+    "What does fencing a 25 m by 15 m field at 12 per metre cost?",
+    "Find the fencing bill for a rectangular plot at a given rate."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate perimeter",
+     "explain": "First, calculate the perimeter of the rectangle using 2 * (length + breadth).",
+     "compute": "perimeter = 2 * (length + breadth)"
+    },
+    {
+     "step": 2,
+     "action": "multiply perimeter by rate",
+     "explain": "Multiply the total perimeter by the fencing cost per metre to find the total cost.",
+     "compute": "total_cost = perimeter * rate"
+    },
+    {
+     "step": 3,
+     "action": "report the total cost with correct currency units",
+     "explain": "State the total fencing cost in the same currency units as the given rate."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.1",
+   "title": "Area of a Rectangle",
+   "section": "6.2",
+   "definition": "How much flat surface a rectangle covers: the two adjacent side measures multiplied.",
+   "formula": "area = length * width",
+   "key_idea": "Cover it with unit squares: rows of length-squares stacked breadth-ways.",
+   "textbook_ref": "fegp106.txt lines 250-280",
+   "question_patterns": [
+    "find the area of a rectangle with length and width",
+    "calculate the area of a rectangular plot of dimensions",
+    "what is the area of a rectangular garden long and wide",
+    "How much floor does a 5 m by 4 m room have?",
+    "Calculate the surface of a rectangular poster 60 cm by 40 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply length by width",
+     "explain": "Multiply the length of the rectangle by its width to find the area.",
+     "compute": "area = length * width"
+    },
+    {
+     "step": 2,
+     "action": "verify both dimensions use the same units",
+     "explain": "Ensure length and width are in the same units before multiplying to keep the area consistent."
+    },
+    {
+     "step": 3,
+     "action": "report the area in square units",
+     "explain": "State the area in square units corresponding to the length units of the given dimensions."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.2",
+   "title": "Area of a Square",
+   "section": "6.2",
+   "definition": "How much flat surface a square covers: one side measure taken twice by multiplication.",
+   "formula": "area = side * side",
+   "key_idea": "Side times side, since both directions match.",
+   "textbook_ref": "fegp106.txt lines 250-280",
+   "question_patterns": [
+    "find the area of a square of side",
+    "calculate the area of a square carpet of side",
+    "what is the area of a square plot having side length",
+    "How much paper covers a square of side 12 cm?",
+    "Find the surface of a square tile of side 30 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply side by side",
+     "explain": "Multiply the side length of the square by itself to find the area.",
+     "compute": "area = side * side"
+    },
+    {
+     "step": 2,
+     "action": "verify all sides are equal",
+     "explain": "Confirm the shape is a square so that squaring one side gives the correct area."
+    },
+    {
+     "step": 3,
+     "action": "report the area in square units",
+     "explain": "State the area in square units corresponding to the length units of the given side."
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.3",
+   "title": "Area of Remaining Region",
+   "section": "6.2",
+   "definition": "Surface left over when inner pieces are taken away from a bigger outer surface.",
+   "formula": "remaining_area = total_area - inner_area",
+   "key_idea": "Subtract the area of the inner shapes from the total area of the outer shape.",
+   "textbook_ref": "fegp106.txt lines 281-310",
+   "question_patterns": [
+    "find the area of the floor that is not carpeted",
+    "calculate the area of the remaining part of the land after flower beds are removed",
+    "what is the area of the remaining region",
+    "A 10 m by 8 m room has a 3 m by 2 m carpet -- find the bare floor.",
+    "How much grass is left when a path cuts across a lawn?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total area",
+     "explain": "Find the area of the outer rectangular region.",
+     "compute": "total_area = outer_length * outer_width"
+    },
+    {
+     "step": 2,
+     "action": "calculate inner area",
+     "explain": "Find the area of the inner rectangular region.",
+     "compute": "inner_area = inner_length * inner_width"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner area from total area",
+     "explain": "Subtract the inner area from the total area to find the remaining area.",
+     "compute": "remaining_area = total_area - inner_area"
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.3.1",
+   "title": "Area of a Triangle",
+   "section": "6.3",
+   "definition": "Cut a rectangle along its diagonal: each piece shows a triangle covers half the rectangle sharing its base and height.",
+   "formula": "area = (1/2) * base * height",
+   "key_idea": "A triangle can be seen as half of a rectangle of the same base and height.",
+   "textbook_ref": "fegp106.txt lines 320-370",
+   "question_patterns": [
+    "find the area of a triangle with base and height",
+    "calculate the area of a triangle that is half of a rectangle",
+    "what is the area of a triangle having base and height",
+    "Find the surface of a triangle with base 10 cm and height 6 cm.",
+    "How much cloth for a triangular flag of given base and height?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base and height",
+     "explain": "Find the product of the base and height of the triangle.",
+     "compute": "prod = base * height"
+    },
+    {
+     "step": 2,
+     "action": "divide by 2",
+     "explain": "Divide the product by 2 to get the area.",
+     "compute": "area = prod / 2"
+    },
+    {
+     "step": 3,
+     "action": "report the area in square units",
+     "explain": "State the area in square units corresponding to the length units of the given base and height."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp106.txt lines 101-109",
+   "concept": "fegp.6.1.2",
+   "question_type": "compute",
+   "question_pattern": "Akshi wants to put lace all around a rectangular tablecloth that is {length} m long and {breadth} m wide. Find the length of the lace required.",
+   "extracted_variables": {
+    "length": 3,
+    "breadth": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add length and breadth",
+     "explain": "Find the sum of the length and breadth of the rectangle.",
+     "compute": "sum_lb = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "Double the sum of length and breadth to get the perimeter.",
+     "compute": "perimeter = 2 * sum_lb"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp106.txt lines 110-117",
+   "concept": "fegp.6.1.7",
+   "question_type": "compute",
+   "question_pattern": "Find the distance travelled by Usha if she takes {rounds} rounds of a square park of side {side} m.",
+   "extracted_variables": {
+    "rounds": 3,
+    "side": 75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate perimeter of the square",
+     "explain": "First, calculate the perimeter of the square by multiplying the side length by 4.",
+     "compute": "perimeter = 4 * side"
+    },
+    {
+     "step": 2,
+     "action": "multiply by rounds",
+     "explain": "Multiply the perimeter of the square by the number of rounds completed.",
+     "compute": "total_distance = rounds * perimeter"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp106.txt lines 281-295",
+   "concept": "fegp.6.2.3",
+   "question_type": "compute",
+   "question_pattern": "A floor is {outer_length} m long and {outer_width} m wide. A square carpet of sides {inner_length} m is laid on the floor. Find the area of the floor that is not carpeted.",
+   "extracted_variables": {
+    "outer_length": 5,
+    "outer_width": 4,
+    "inner_length": 3,
+    "inner_width": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total area",
+     "explain": "Find the area of the outer rectangular region.",
+     "compute": "total_area = outer_length * outer_width"
+    },
+    {
+     "step": 2,
+     "action": "calculate inner area",
+     "explain": "Find the area of the inner rectangular region.",
+     "compute": "inner_area = inner_length * inner_width"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner area from total area",
+     "explain": "Subtract the inner area from the total area to find the remaining area.",
+     "compute": "remaining_area = total_area - inner_area"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.6.1.1",
+   "question_pattern": "Find the perimeter of a pentagon with sides {s1}, {s2}, {s3}, {s4} and {s5} cm.",
+   "extracted_variables": {
+    "s1": "3",
+    "s2": "4",
+    "s3": "5",
+    "s4": "6",
+    "s5": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add every side",
+     "explain": "3 + 4 + 5 + 6 + 7 = 25",
+     "compute": "perimeter = side1 + side2 + side3 + side4 + side5"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.1",
+   "question_pattern": "Walk the boundary of a quadrilateral {s1} by {s2} by {s3} by {s4} m.",
+   "extracted_variables": {
+    "s1": "8",
+    "s2": "6",
+    "s3": "8",
+    "s4": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add every side",
+     "explain": "8 + 6 + 8 + 6 = 28",
+     "compute": "perimeter = side1 + side2 + side3 + side4"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.2",
+   "question_pattern": "How much lace borders a scarf {length} cm by {breadth} cm?",
+   "extracted_variables": {
+    "length": "80",
+    "breadth": "30"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the sides, then double",
+     "explain": "2 x (80 + 30) = 220",
+     "compute": "perimeter = 2 * (length + breadth)"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.3",
+   "question_pattern": "How much trim for a square frame of side {side} cm?",
+   "extracted_variables": {
+    "side": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the side four times",
+     "explain": "4 x 25 = 100",
+     "compute": "perimeter = 4 * side"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.3",
+   "question_pattern": "Find the perimeter of a square of side {side} cm.",
+   "extracted_variables": {
+    "side": "7.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the side four times",
+     "explain": "4 x 7.5 = 30",
+     "compute": "perimeter = 4 * side"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.4",
+   "question_pattern": "Perimeter of a triangle with sides {a}, {b} and {c} cm?",
+   "extracted_variables": {
+    "a": "6",
+    "b": "8",
+    "c": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the three sides",
+     "explain": "6 + 8 + 10 = 24",
+     "compute": "perimeter = side_a + side_b + side_c"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.4",
+   "question_pattern": "How much wire closes a triangle of sides {a}, {b}, {c} m?",
+   "extracted_variables": {
+    "a": "7",
+    "b": "9",
+    "c": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the three sides",
+     "explain": "7 + 9 + 12 = 28",
+     "compute": "perimeter = side_a + side_b + side_c"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.5",
+   "question_pattern": "How far around a triangle with three equal sides of {side} cm?",
+   "extracted_variables": {
+    "side": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take one side three times",
+     "explain": "3 x 9 = 27",
+     "compute": "perimeter = 3 * side"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.5",
+   "question_pattern": "All sides measure {side} m -- find the perimeter.",
+   "extracted_variables": {
+    "side": "12.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take one side three times",
+     "explain": "3 x 12.5 = 37.5",
+     "compute": "perimeter = 3 * side"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.6",
+   "question_pattern": "Regular hexagon of side {side} cm: find the perimeter.",
+   "extracted_variables": {
+    "side": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply sides by one side",
+     "explain": "6 x 5 = 30",
+     "compute": "perimeter = number_of_sides * side_length"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.6",
+   "question_pattern": "Find the distance around a regular {n}-sided figure of side {side} cm.",
+   "extracted_variables": {
+    "n": "8",
+    "side": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply sides by one side",
+     "explain": "8 x 6 = 48",
+     "compute": "perimeter = number_of_sides * side_length"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.7",
+   "question_pattern": "How far in {rounds} laps of a square park of side {side} m?",
+   "extracted_variables": {
+    "rounds": "4",
+    "side": "60"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "one lap is four sides",
+     "explain": "4 x 60 = 240 per lap",
+     "compute": "lap = 4 * side"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the laps",
+     "explain": "4 x 240 = 960",
+     "compute": "total_distance = rounds * 4 * side"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.8",
+   "question_pattern": "Fencing a {length} m by {breadth} m field at {rate} per metre costs?",
+   "extracted_variables": {
+    "length": "25",
+    "breadth": "15",
+    "rate": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the perimeter",
+     "explain": "2 x (25 + 15) = 80 m",
+     "compute": "perimeter = 2 * (length + breadth)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the rate",
+     "explain": "80 x 12 = 960",
+     "compute": "total_cost = perimeter * rate"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.2.1",
+   "question_pattern": "How much floor does a {length} m by {width} m room have?",
+   "extracted_variables": {
+    "length": "5",
+    "width": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the adjacent sides",
+     "explain": "5 x 4 = 20",
+     "compute": "area = length * width"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.2.1",
+   "question_pattern": "Surface of a rectangular poster {length} cm by {width} cm?",
+   "extracted_variables": {
+    "length": "60",
+    "width": "40"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the adjacent sides",
+     "explain": "60 x 40 = 2400",
+     "compute": "area = length * width"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.2.2",
+   "question_pattern": "How much paper covers a square of side {side} cm?",
+   "extracted_variables": {
+    "side": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take side times side",
+     "explain": "12 x 12 = 144",
+     "compute": "area = side * side"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.2.2",
+   "question_pattern": "Surface of a square tile of side {side} cm?",
+   "extracted_variables": {
+    "side": "30"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take side times side",
+     "explain": "30 x 30 = 900",
+     "compute": "area = side * side"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.2.3",
+   "question_pattern": "A {L} by {W} room holds a {l} by {w} carpet -- find the bare floor.",
+   "extracted_variables": {
+    "L": "10",
+    "W": "8",
+    "l": "3",
+    "w": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cover the whole room",
+     "explain": "10 x 8 = 80",
+     "compute": "total_area = length * width"
+    },
+    {
+     "step": 2,
+     "action": "cover the carpet",
+     "explain": "3 x 2 = 6",
+     "compute": "inner_area = carpet_l * carpet_w"
+    },
+    {
+     "step": 3,
+     "action": "subtract",
+     "explain": "80 - 6 = 74",
+     "compute": "remaining_area = total_area - inner_area"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.3.1",
+   "question_pattern": "Triangle with base {base} cm and height {height} cm -- find the surface.",
+   "extracted_variables": {
+    "base": "10",
+    "height": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve base x height",
+     "explain": "(1/2) x 10 x 6 = 30",
+     "compute": "area = (1/2) * base * height"
+    }
+   ],
+   "id": "ex22",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.3.1",
+   "question_pattern": "Cloth for a flag of base {base} m and height {height} m?",
+   "extracted_variables": {
+    "base": "14",
+    "height": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve base x height",
+     "explain": "(1/2) x 14 x 8 = 56",
+     "compute": "area = (1/2) * base * height"
+    }
+   ],
+   "id": "ex23",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.6.1.8",
+   "question_pattern": "A {length} m by {breadth} m plot is fenced at {rate} per metre -- find the bill.",
+   "extracted_variables": {
+    "length": "40",
+    "breadth": "30",
+    "rate": "15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the perimeter",
+     "explain": "2 x (40 + 30) = 140 m",
+     "compute": "perimeter = 2 * (length + breadth)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the rate",
+     "explain": "140 x 15 = 2100",
+     "compute": "total_cost = perimeter * rate"
+    }
+   ],
+   "id": "ex24",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "6.1",
+   "source_ref": "fegp106.txt lines 130-155",
+   "questions": [
+    "Find the missing terms: (a) Perimeter of a rectangle = 14 cm; breadth = 2 cm; length = ?, (b) Perimeter of a square = 20 cm; side of a length = ?, (c) Perimeter of a rectangle = 12 m; length = 3 m; breadth = ?",
+    "A rectangle having sidelengths 5 cm and 3 cm is made using a piece of wire. If the wire is straightened and then bent to form a square, what will be the length of a side of the square?",
+    "Find the length of the third side of a triangle having a perimeter of 55 cm and having two sides of length 20 cm and 14 cm, respectively.",
+    "What would be the cost of fencing a rectangular park whose length is 150 m and breadth is 120 m, if the fence costs Rs 40 per metre?",
+    "A piece of string is 36 cm long. What will be the length of each side, if it is used to form: (a) A square, (b) A triangle with all sides of equal length, and (c) A hexagon (a six sided closed figure) with sides of equal length?",
+    "A farmer has a rectangular field having length 230 m and breadth 160 m. He wants to fence it with 3 rounds of rope as shown. What is the total length of rope needed?"
+   ]
+  },
+  {
+   "id": "6.2",
+   "source_ref": "fegp106.txt lines 285-315",
+   "questions": [
+    "The area of a rectangular garden 25 m long is 300 sq m. What is the width of the garden?",
+    "What is the cost of tiling a rectangular plot of land 500 m long and 200 m wide at the rate of Rs 8 per hundred sq m?",
+    "A rectangular coconut grove is 100 m long and 50 m wide. If each coconut tree requires 25 sq m, what is the maximum number of trees that can be planted in this grove?",
+    "By splitting the following figures into rectangles, find their areas (all measures are given in metres)."
+   ]
+  },
+  {
+   "id": "6.3",
+   "source_ref": "fegp106.txt lines 480-515",
+   "questions": [
+    "Give the dimensions of a rectangle whose area is the sum of the areas of these two rectangles having measurements: 5 m x 10 m and 2 m x 7 m.",
+    "The area of a rectangular garden that is 50 m long is 1000 sq m. Find the width of the garden.",
+    "The floor of a room is 5 m long and 4 m wide. A square carpet whose sides are 3 m in length is laid on the floor. Find the area that is not carpeted.",
+    "Four flower beds having sides 2 m long and 1 m wide are dug at the four corners of a garden that is 15 m long and 12 m wide. How much area is now available for laying down a lawn.",
+    "Shape A has an area of 18 square units and Shape B has an area of 20 square units. Shape A has a longer perimeter than Shape B. Draw two such shapes satisfying the given conditions.",
+    "On a page in your book, draw a rectangular border that is 1 cm from the top and bottom and 1.5 cm from the left and right sides. What is the perimeter of the border?",
+    "Draw a rectangle of size 12 units x 8 units. Draw another rectangle inside it, without touching the outer rectangle that occupies exactly half the area.",
+    "A square piece of paper is folded in half. The square is then cut into two rectangles along the fold. Regardless of the size of the square, one of the following statements is always true. Which statement is true here?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

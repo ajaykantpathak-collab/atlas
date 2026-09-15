@@ -1,0 +1,90 @@
+# ── Atlas CI ────────────────────────────────────────────────────
+# The honest pipeline: both jobs run the exact commands the team runs
+# locally (backend/scripts/run_checks.bat) and FAIL the build.
+#
+# Jobs:
+#   1. backend  — python -m pytest its/tests -q   (~20 min; heavy deps:
+#                 requirements.txt pulls sentence-transformers/torch)
+#   2. frontend — npx tsc --noEmit behind the pinned baseline gate
+#                 (frontend/scripts/check_types_baseline.mjs). Optional
+#                 `npm run build` via workflow_dispatch. (Build was
+#                 known-red while the sim-corpus type baseline existed;
+#                 that baseline reached 0 on 2026-09-14 — build is
+#                 opt-in until proven green on CI.)
+#
+# NOTE: .github/workflows/ci-cd.yml is the older deploy pipeline with
+# stale paths (./platform, ./dream_app/frontend) and continue-on-error
+# checks; it does not gate this repo. This file is the quality gate.
+
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_frontend_build:
+        description: "Also run `npm run build` (was known-red; sim-corpus type baseline reached 0 on 2026-09-14 — see frontend/components/sims_v2/ARCHITECTURE.md)"
+        type: boolean
+        default: false
+
+env:
+  PYTHON_VERSION: "3.13"
+  NODE_VERSION: "20"
+
+jobs:
+  backend:
+    name: Backend — pytest its/tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ../requirements.txt
+
+      - name: Test (its/tests)
+        run: python -m pytest its/tests -q
+
+  frontend:
+    name: Frontend — tsc (baseline gate)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck (baseline gate — see scripts/check_types_baseline.mjs)
+        run: node scripts/check_types_baseline.mjs
+
+      - name: Build (optional, opt-in via workflow_dispatch)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_frontend_build }}
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"

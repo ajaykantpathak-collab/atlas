@@ -1,0 +1,473 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 205,
+ "chapter_title": "Biomolecules",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lech205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech205.10.1.1",
+   "title": "Classifying Carbohydrates and Sugars",
+   "section": "10.1.1",
+   "definition": "Carbohydrates are optically active polyhydroxy aldehydes or ketones, or anything that hydrolyses into such units; they sort by hydrolysis behaviour into monosaccharides, oligosaccharides and polysaccharides, and by reactivity into reducing sugars (free aldehyde or keto group, Tollens and Fehling positive) versus non-reducing ones with those groups locked up.",
+   "formula": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides",
+   "key_idea": "The Cx(H2O)y formula is only a rough guide: acetic acid fits it without being a carbohydrate, and rhamnose is one without fitting it.",
+   "textbook_ref": "lech205.txt sections 10.1.1-10.1.2 with Table 10.1 (lines ~51-146)",
+   "question_patterns": [
+    "classify ribose, maltose, galactose, fructose and lactose as monosaccharides or disaccharides",
+    "define carbohydrates in terms of their functional groups rather than the hydrate formula",
+    "what distinguishes a reducing sugar from a non-reducing one",
+    "why is sucrose called a non-sugar while glucose is a sugar",
+    "name the monosaccharides released when sucrose and maltose each hydrolyse",
+    "sort starch, cellulose and glycogen into the right carbohydrate class"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the hydrolysis outcome",
+     "explain": "no further hydrolysis means monosaccharide; two to ten units oligosaccharide; many units polysaccharide"},
+    {"step": 2, "action": "look for a free carbonyl",
+     "explain": "a free aldehydic or ketonic group reduces Tollens and Fehling reagents, tagging the sugar as reducing"}
+   ]
+  },
+  {
+   "id": "lech205.10.1.2",
+   "title": "Open-Chain Structure Evidence for Glucose",
+   "section": "10.1.2.1",
+   "definition": "Five reactions pin glucose as a straight-chain aldohexose: heating with HI unrolls it to n-hexane, oxime and cyanohydrin formation exposes a carbonyl, bromine water stops at gluconic acid proving the carbonyl is an aldehyde, acetic anhydride delivers a pentaacetate counting five OH groups, and nitric acid drags both glucose and gluconic acid to saccharic acid revealing a terminal primary alcohol.",
+   "formula": "glucose_pentaacetate_oh_count = 5",
+   "key_idea": "Each reagent interrogates one structural claim, and together they build the CHO-CHOH chain without any instrument at all.",
+   "textbook_ref": "lech205.txt section 10.1.2.1, structure evidences 1-6 (lines ~201-269)",
+   "question_patterns": [
+    "what does glucose form on prolonged heating with HI and what does it prove",
+    "which reagent shows the carbonyl group of glucose is aldehydic rather than ketonic",
+    "explain how the pentaacetate derivative fixes the number of OH groups in glucose",
+    "predict the product when D-glucose is oxidised with nitric acid",
+    "why does bromine water convert glucose to gluconic acid",
+    "list the reactions that establish glucose as an aldohexose with a straight chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match reagent to structural claim",
+     "explain": "HI tests the carbon skeleton, hydroxylamine and HCN the carbonyl, bromine water the aldehyde choice"},
+    {"step": 2, "action": "read the derivative formulas",
+     "explain": "pentaacetate counts OH groups and saccharic acid exposes the CH2OH at carbon one"}
+   ]
+  },
+  {
+   "id": "lech205.10.1.3",
+   "title": "Cyclic Hemiacetal Forms, Anomers and Furanose Fructose",
+   "section": "10.1.2.2",
+   "definition": "Glucose refuses Schiff's test, skips the bisulphite adduct and crystallises in two forms, so the CHO of C1 must cyclise with the C5 hydroxyl into a six-membered pyranose hemiacetal; the two configurations at the new anomeric carbon are the alpha and beta anomers, while fructose builds a five-membered furanose ring the same way from its C2 keto group.",
+   "formula": "anomeric_carbon = c1_of_cyclic_glucose",
+   "key_idea": "Open-chain and both cyclic forms sit in equilibrium in solution, which is why glucose misses some aldehyde reactions yet still reduces Tollens reagent.",
+   "textbook_ref": "lech205.txt sections 10.1.2.1 (cyclic structure) and 10.1.2.2 fructose (lines ~355-409)",
+   "question_patterns": [
+    "why does glucose fail to give Schiff's test despite carrying an aldehyde group",
+    "explain the two crystalline forms of glucose and the ring size of each",
+    "define the anomeric carbon and name the pair of isomers it creates",
+    "which hydroxyl group closes the pyranose ring of glucose",
+    "how does fructose build its five-membered furanose ring",
+    "why does the pentaacetate of glucose ignore hydroxylamine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "cyclise the chain internally",
+     "explain": "the C5 OH adds to the C1 aldehyde forming a hemiacetal, hiding the free CHO"},
+    {"step": 2, "action": "compare configurations at C1",
+     "explain": "the two arrangements of the new OH define the alpha and beta anomers in pyranose or furanose rings"}
+   ]
+  },
+  {
+   "id": "lech205.10.1.4",
+   "title": "Glycosidic Linkage in Disaccharides",
+   "section": "10.1.3",
+   "definition": "Two monosaccharides weld together through an oxygen bridge left when water departs, the glycosidic linkage; sucrose locks C1 of alpha-glucose to C2 of beta-fructose and so cannot reduce, while maltose (C1-C4 of two glucoses) and lactose (C1 of galactose to C4 of glucose) keep a free aldehyde available and reduce.",
+   "formula": "sucrose_hydrolysis_products = glucose + fructose",
+   "key_idea": "Whether the reducing groups take part in the linkage decides the sugar class: tied carbonyl means non-reducing, free carbonyl means reducing.",
+   "textbook_ref": "lech205.txt section 10.1.3 disaccharides (lines ~413-452)",
+   "question_patterns": [
+    "define the glycosidic linkage and name the atoms it joins",
+    "why is sucrose a non-reducing sugar while maltose reduces",
+    "state the hydrolysis products of lactose",
+    "which carbons of which units does the sucrose linkage connect",
+    "predict the expected products when lactose is hydrolysed",
+    "how does maltose expose a free aldehyde group in solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate the oxygen bridge",
+     "explain": "the glycosidic bond names the two anomeric or carrier carbons it spans"},
+    {"step": 2, "action": "check the leftover carbonyl",
+     "explain": "an unbound aldehydic or ketonic group keeps the sugar reducing"}
+   ]
+  },
+  {
+   "id": "lech205.10.1.5",
+   "title": "Invert Sugar Net Rotation after Sucrose Hydrolysis",
+   "section": "10.1.3",
+   "definition": "Sucrose rotates light dextrorotatory but its hydrolysis frees dextro glucose and laevo fructose, and since the fructose twist outweighs the glucose one the mixture ends laevorotatory; adding the two signed rotations gives the net reading, and the sign flip from plus to minus is why the product is called invert sugar.",
+   "formula": "net_rot = glucose_rot + fructose_rot",
+   "key_idea": "Fructose at about -92.4 degrees beats glucose at about +52.5 degrees, so hydrolysis turns the sign of rotation negative.",
+   "textbook_ref": "lech205.txt section 10.1.3(i), invert sugar (lines ~425-438)",
+   "question_patterns": [
+    "glucose contributes +52.5 degrees and fructose -92.4 degrees; find the net rotation of the hydrolysis mixture",
+    "calculate the overall rotation after complete hydrolysis of sucrose from the two monosaccharide rotations",
+    "what net optical rotation does invert sugar show given the rotations of its glucose and fructose parts",
+    "determine whether the sucrose hydrolysis mixture is dextro or laevo from the signed component rotations",
+    "compute the summed rotation when equal moles of glucose and fructose are released from cane sugar",
+    "find the signed rotation change that gives invert sugar its name"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the two signed rotations",
+     "explain": "equal moles of the two monosaccharides contribute their rotations algebraically",
+     "compute": "net_rot = glucose_rot + fructose_rot"}
+   ]
+  },
+  {
+   "id": "lech205.10.1.6",
+   "title": "Storage and Structural Polysaccharides",
+   "section": "10.1.4",
+   "definition": "Starch stores energy in plants as a mix of water-soluble unbranched amylose (about 15-20 percent) and insoluble branched amylopectin (about 80-85 percent) both built from alpha-glucose, cellulose stretches as a straight beta-glucose chain in plant cell walls, and glycogen plays the animal starch role in liver and muscle with even heavier branching.",
+   "formula": "starch_components = amylose + amylopectin",
+   "key_idea": "The alpha versus beta glucose choice decides everything: alpha builds digestible starch and glycogen, beta builds cellulose that humans cannot digest.",
+   "textbook_ref": "lech205.txt sections 10.1.4-10.1.5 (lines ~453-504)",
+   "question_patterns": [
+    "compare the structures of amylose and amylopectin",
+    "what is glycogen and how does it differ from starch",
+    "state the basic structural difference between starch and cellulose",
+    "which linkage joins glucose units in cellulose and which branches amylopectin",
+    "why is cellulose called the most abundant organic substance of the plant kingdom",
+    "where does the animal body park its carbohydrate reserve"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the glucose stereochemistry",
+     "explain": "alpha-glucose polymers store fuel while beta-glucose chains build walls"},
+    {"step": 2, "action": "note the branching pattern",
+     "explain": "C1-C4 links extend chains and C1-C6 links throw branches in amylopectin and glycogen"}
+   ]
+  },
+  {
+   "id": "lech205.10.2.1",
+   "title": "Amino Acids: Zwitter Ions and Classification",
+   "section": "10.2.1",
+   "definition": "Alpha amino acids carry NH2 and COOH on the same carbon, and in water the acid end donates its proton to the basic end, building a dipolar zwitter ion that reacts with both acids and bases; equal group counts make them neutral, extra amino groups basic, extra carboxyl groups acidic, and the ten the body cannot build are the essential dietary ones.",
+   "formula": "zwitter_ion = nh3_plus_and_cooh_minus_on_one_carbon",
+   "key_idea": "Except glycine every natural alpha amino acid is optically active, and the L form with NH2 drawn on the left dominates nature.",
+   "textbook_ref": "lech205.txt sections 10.2.1-10.2.2 with Table 10.2 (lines ~519-698)",
+   "question_patterns": [
+    "explain the amphoteric behaviour of amino acids in aqueous solution",
+    "what is a zwitter ion and why do amino acids melt far higher than halo acids",
+    "classify lysine, aspartic acid and alanine as acidic, basic or neutral amino acids",
+    "distinguish essential from non-essential amino acids with two examples each",
+    "why is glycine the only optically inactive natural alpha amino acid",
+    "which ionic form of an amino acid dominates in pure water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "let the groups talk to each other",
+     "explain": "intramolecular proton transfer from COOH to NH2 gives the dipolar ion"},
+    {"step": 2, "action": "count amino versus carboxyl groups",
+     "explain": "the balance sorts the acid as neutral, basic or acidic; diet sorts it as essential or not"}
+   ]
+  },
+  {
+   "id": "lech205.10.2.2",
+   "title": "Peptide Bonds and the Four Protein Structure Levels",
+   "section": "10.2.3",
+   "definition": "The COOH of one amino acid condenses with the NH2 of the next, shedding water and forming the amide-like peptide bond -CO-NH-; chains fold first into alpha-helix or beta-pleated sheets (secondary), then into the overall fibrous or globular shape (tertiary), and several chains pack as sub-units (quaternary), all held by hydrogen bonds, disulphide links, van der Waals and electrostatic forces.",
+   "formula": "peptide_linkage = amide_between_cooh_and_nh2",
+   "key_idea": "Heat or pH change denatures a protein by uncoiling secondary and tertiary structure while the primary sequence survives, as when egg white sets on boiling.",
+   "textbook_ref": "lech205.txt sections 10.2.3-10.2.4 with Figs 10.1-10.4 (lines ~699-818)",
+   "question_patterns": [
+    "define the peptide linkage and name the small molecule lost when it forms",
+    "which bonding stabilises the alpha-helix of proteins",
+    "differentiate fibrous from globular proteins with one example each",
+    "what changes and what survives when a protein denatures",
+    "describe the beta-pleated sheet arrangement of polypeptide chains",
+    "distinguish the four levels of protein structure in one line each"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "condense the acid end with the amine end",
+     "explain": "each peptide bond is an amide built by eliminating one water molecule"},
+    {"step": 2, "action": "stack the folding levels",
+     "explain": "sequence, then helix or sheet, then overall shape, then sub-unit assembly"}
+   ]
+  },
+  {
+   "id": "lech205.10.2.3",
+   "title": "Peptide Bonds in a Polypeptide Chain",
+   "section": "10.2.3",
+   "definition": "Each new amino acid added to a chain costs exactly one peptide linkage, so a chain of n residues holds n minus 1 peptide bonds; the tripeptide case states it directly with three residues joined by two linkages.",
+   "formula": "peptide_bonds = residue_count - 1",
+   "key_idea": "Insulin with 51 residues therefore hides 50 peptide bonds, and the polypeptide-versus-protein boundary near a hundred residues is a soft one.",
+   "textbook_ref": "lech205.txt section 10.2.3, dipeptide to protein chain counting (lines ~707-722)",
+   "question_patterns": [
+    "insulin carries 51 amino acid residues; how many peptide linkages hold the chain",
+    "a tripeptide contains 3 residues; count its peptide bonds",
+    "how many peptide linkages does a decapeptide contain",
+    "a polypeptide is built from 24 residues; determine the number of peptide bonds in it",
+    "count the peptide bonds formed when 6 amino acids link into a hexapeptide",
+    "how many peptide linkages join 100 residues of a typical protein chain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract one from the residue count",
+     "explain": "every extra residue beyond the first adds exactly one peptide bond",
+     "compute": "peptide_bonds = residue_count - 1"}
+   ]
+  },
+  {
+   "id": "lech205.10.3.1",
+   "title": "Enzymes as Specific Biocatalysts",
+   "section": "10.3",
+   "definition": "Enzymes are mostly globular proteins that run body chemistry under mild conditions, name themselves after their substrate or reaction with an -ase ending, accept only fitting substrates, and work by cutting the activation energy barrier the way chemical catalysts do.",
+   "formula": "enzyme_naming_rule = substrate_or_reaction + ase",
+   "key_idea": "Maltase hydrolysing maltose to glucose shows both habits: substrate-derived name and single-reaction specificity.",
+   "textbook_ref": "lech205.txt section 10.3 with mechanism of enzyme action (lines ~829-862)",
+   "question_patterns": [
+    "what does the ending -ase signal in an enzyme name",
+    "why are enzymes called biocatalysts and how do they speed reactions",
+    "write the reaction that maltase catalyses",
+    "explain the specificity of an enzyme for its substrate",
+    "which enzyme class oxidises one substrate while reducing another",
+    "name the enzyme that hydrolyses sucrose and give its products"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the name for the job",
+     "explain": "substrate plus -ase (maltase) or reaction class plus -ase (oxidoreductase) tells the catalytic task"},
+    {"step": 2, "action": "connect the barrier lowering",
+     "explain": "the enzyme offers a surface that needs far less activation energy than the uncatalysed route"}
+   ]
+  },
+  {
+   "id": "lech205.10.3.2",
+   "title": "Enzyme Catalysis Activation Energy Saving",
+   "section": "10.3.1",
+   "definition": "Sucrose hydrolyses with acid behind a 6.22 kJ per mol barrier but sucrase drops the barrier to 2.15 kJ per mol, so the enzyme's saving is the difference of the two barriers expressed as a percentage of the uncatalysed one.",
+   "formula": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100",
+   "key_idea": "Even a small absolute drop in activation energy accelerates a reaction enormously, which is how tiny enzyme quantities suffice.",
+   "textbook_ref": "lech205.txt section 10.3.1, sucrose activation energy figures (lines ~857-862)",
+   "question_patterns": [
+    "acid hydrolysis of sucrose needs 6.22 kJ per mol and sucrase needs 2.15; calculate the percent drop in activation energy",
+    "an enzyme lowers an activation barrier from 80 kJ per mol to 8; compute the percentage reduction",
+    "find the fractional saving when catalysis cuts an activation energy from 48 to 12 kJ per mol",
+    "determine the percent decrease in activation energy achieved by a biocatalyst given both barrier values",
+    "the uncatalysed barrier is 96 kJ per mol and the enzyme one 24; what percentage does the enzyme remove",
+    "compute the activation energy percentage saved by sucrase relative to acid hydrolysis of sucrose"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract the two barriers",
+     "explain": "the absolute saving is the uncatalysed barrier minus the enzyme barrier",
+     "compute": "saved = acid_ea - enzyme_ea"},
+    {"step": 2, "action": "scale by the uncatalysed barrier",
+     "explain": "dividing by the original barrier and multiplying by 100 gives the percent drop",
+     "compute": "pct_drop = (saved / acid_ea) * 100"}
+   ]
+  },
+  {
+   "id": "lech205.10.4.1",
+   "title": "Fat-Soluble versus Water-Soluble Vitamins",
+   "section": "10.4",
+   "definition": "Vitamins A, D, E and K dissolve in fats, lodge in liver and adipose tissue and so build up, while the B group plus vitamin C dissolve in water, wash out in urine and need regular refills (B12 excepted); shortfalls bring signature diseases such as xerophthalmia for A, beri-beri for B1, scurvy for C, rickets for D and slow clotting for K.",
+   "formula": "fat_soluble_set = vitamins_a_d_e_k",
+   "key_idea": "Vitamin C cannot be stored because water carries it away, which is why citrus fruit must keep arriving in the diet.",
+   "textbook_ref": "lech205.txt section 10.4 with Table 10.3 (lines ~863-996)",
+   "question_patterns": [
+    "which vitamins dissolve in fat and where does the body store them",
+    "name the deficiency diseases behind beri-beri, scurvy and rickets",
+    "why cannot vitamin C be stored in our body",
+    "which vitamin keeps blood clotting on schedule and where is it found",
+    "sort vitamins A, B6, C and D into their solubility classes",
+    "which vitamin deficiency hardens the cornea and causes night blindness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort by solvent",
+     "explain": "fat-soluble A, D, E, K store; water-soluble B group and C flush out"},
+    {"step": 2, "action": "match disease to missing letter",
+     "explain": "each deficiency paints its own clinical picture from Table 10.3"}
+   ]
+  },
+  {
+   "id": "lech205.10.5.1",
+   "title": "Nucleosides, Nucleotides and the Nucleic Acid Backbone",
+   "section": "10.5.1",
+   "definition": "Full hydrolysis of DNA or RNA frees a pentose sugar, phosphoric acid and nitrogen bases; a base clipped onto the 1-prime carbon of the sugar is a nucleoside, phosphorylation at the 5-prime carbon upgrades it to a nucleotide, and phosphodiester links between 5-prime and 3-prime carbons chain the nucleotides into the polynucleotide.",
+   "formula": "nucleotide = nucleoside + phosphate_group",
+   "key_idea": "DNA carries the sugar 2-deoxyribose while RNA carries ribose, and thymine appears only in DNA as uracil does only in RNA.",
+   "textbook_ref": "lech205.txt sections 10.5.1-10.5.2 with Figs 10.5-10.6 (lines ~1026-1061)",
+   "question_patterns": [
+    "what three products does complete hydrolysis of DNA give",
+    "which carbons of the sugar take part in the phosphodiester linkage",
+    "attachment of a base at the one-prime carbon of the sugar forms which unit, and what does phosphorylation at the five-prime carbon form",
+    "differentiate a nucleoside from a nucleotide in the backbone of a nucleic acid",
+    "name the four bases of DNA and the odd one out in RNA",
+    "what products form when a DNA nucleotide bearing thymine is hydrolysed",
+    "which sugar distinguishes RNA from DNA structurally"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "build up the unit",
+     "explain": "base plus sugar makes the nucleoside; adding phosphate at 5-prime makes the nucleotide"},
+    {"step": 2, "action": "chain the units",
+     "explain": "the phosphodiester bridge alternates sugar and phosphate down the strand with bases hanging off"}
+   ]
+  },
+  {
+   "id": "lech205.10.5.2",
+   "title": "DNA versus RNA: Strands, Pairing and Roles",
+   "section": "10.5.3",
+   "definition": "Watson and Crick's DNA is a double helix whose strands pair adenine with thymine and cytosine with guanine through hydrogen bonds, making the strands complementary rather than identical; RNA runs single-stranded, sometimes folding back on itself, and splits its labour among messenger, ribosomal and transfer RNAs that execute the protein synthesis DNA encodes.",
+   "formula": "base_pairs = a_with_t_and_c_with_g",
+   "key_idea": "DNA stores and duplicates heredity while the three RNA species translate that store into proteins, and base-sequence uniqueness makes DNA fingerprinting possible.",
+   "textbook_ref": "lech205.txt sections 10.5.2-10.5.3 with Fig 10.7 (lines ~1063-1110)",
+   "question_patterns": [
+    "why are the two strands of DNA called complementary rather than identical",
+    "which base pairs with adenine in DNA and which in RNA",
+    "state three structural differences between DNA and RNA",
+    "name the three RNA types and the job of each",
+    "what holds the two DNA strands together in the double helix",
+    "why does RNA hydrolysis yield bases in unrelated amounts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the pairing partners",
+     "explain": "A-T and C-G hydrogen bonding locks the double helix while RNA pairs A-U when it folds"},
+    {"step": 2, "action": "divide the duties",
+     "explain": "DNA archives the message; mRNA carries it, rRNA builds the site, tRNA ferries amino acids"}
+   ]
+  },
+  {
+   "id": "lech205.10.6.1",
+   "title": "Hormones as Intercellular Messengers",
+   "section": "10.6",
+   "definition": "Endocrine glands pour hormones straight into the blood to steer distant targets; they arrive as steroids such as oestrogens and androgens, polypeptides such as insulin, or amino-acid derivatives such as epinephrine, and pairs like insulin with glucagon hold blood glucose inside narrow limits while thyroxine, an iodinated tyrosine derivative, sets the metabolic pace.",
+   "formula": "glucose_regulators = insulin + glucagon",
+   "key_idea": "Dietary iodine shortage swells the thyroid as hypothyroidism sets in, which is why table salt gets iodised.",
+   "textbook_ref": "lech205.txt section 10.6 hormones (lines ~1111-1175)",
+   "question_patterns": [
+    "how do insulin and glucagon cooperate to hold blood sugar steady",
+    "classify hormones by chemical nature with one example of each class",
+    "what happens when thyroxine levels fall below normal",
+    "why is table salt fortified with sodium iodide",
+    "name the hormone that readies the uterus for a fertilised egg",
+    "which glands release steroid hormones and what do glucocorticoids manage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the messenger route",
+     "explain": "gland to blood to target cell defines a hormone, whatever its chemistry"},
+    {"step": 2, "action": "pair the opposers",
+     "explain": "insulin lowers and glucagon raises blood glucose; excess or deficit of thyroxine flips the metabolic state"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lech205_1",
+   "source_ref": "lech205.txt section 10.1.3(i), invert sugar rotations",
+   "concept": "lech205.10.1.5",
+   "question_type": "invert_sugar_rotation",
+   "question_pattern": "On hydrolysis, sucrose releases glucose rotating +52.5 degrees and fructose rotating -92.4 degrees. Find the net rotation of the mixture.",
+   "extracted_variables": {"glucose_rot": 52.5, "fructose_rot": -92.4},
+   "solution_template": [
+    {"step": 1, "action": "add the two signed rotations", "explain": "equal moles contribute algebraically", "compute": "net_rot = glucose_rot + fructose_rot"}
+   ]
+  },
+  {
+   "id": "we_lech205_2",
+   "source_ref": "lech205.txt section 10.1.3(i), sign change on hydrolysis",
+   "concept": "lech205.10.1.5",
+   "question_type": "invert_sugar_rotation",
+   "question_pattern": "An equimolar glucose-fructose mixture shows component rotations of +48.0 and -96.0 degrees. Determine whether the mixture is dextro or laevo and by how much.",
+   "extracted_variables": {"glucose_rot": 48.0, "fructose_rot": -96.0},
+   "solution_template": [
+    {"step": 1, "action": "add the two signed rotations", "explain": "the negative total flags laevorotation", "compute": "net_rot = glucose_rot + fructose_rot"}
+   ]
+  },
+  {
+   "id": "we_lech205_3",
+   "source_ref": "lech205.txt section 10.2.3, insulin residue count",
+   "concept": "lech205.10.2.3",
+   "question_type": "peptide_bond_count",
+   "question_pattern": "Insulin contains 51 amino acid residues. How many peptide linkages hold its chain together?",
+   "extracted_variables": {"residue_count": 51},
+   "solution_template": [
+    {"step": 1, "action": "subtract one from the residue count", "explain": "each joint between neighbours is one peptide bond", "compute": "peptide_bonds = residue_count - 1"}
+   ]
+  },
+  {
+   "id": "we_lech205_4",
+   "source_ref": "lech205.txt section 10.2.3, tripeptide linkages",
+   "concept": "lech205.10.2.3",
+   "question_type": "peptide_bond_count",
+   "question_pattern": "A tripeptide is assembled from 3 amino acids. Count the peptide bonds it contains.",
+   "extracted_variables": {"residue_count": 3},
+   "solution_template": [
+    {"step": 1, "action": "subtract one from the residue count", "explain": "three residues join through two linkages", "compute": "peptide_bonds = residue_count - 1"}
+   ]
+  },
+  {
+   "id": "we_lech205_5",
+   "source_ref": "lech205.txt section 10.3.1, sucrose hydrolysis barriers",
+   "concept": "lech205.10.3.2",
+   "question_type": "activation_energy_percent_drop",
+   "question_pattern": "Acid hydrolysis of sucrose faces a barrier of 6.22 kJ per mol while sucrase lowers it to 2.15 kJ per mol. Calculate the percentage drop in activation energy.",
+   "extracted_variables": {"acid_ea": 6.22, "enzyme_ea": 2.15},
+   "solution_template": [
+    {"step": 1, "action": "subtract the two barriers", "explain": "the enzyme saves the difference", "compute": "saved = acid_ea - enzyme_ea"},
+    {"step": 2, "action": "scale by the uncatalysed barrier", "explain": "percentage relative to the acid route", "compute": "pct_drop = (saved / acid_ea) * 100"}
+   ]
+  },
+  {
+   "id": "we_lech205_6",
+   "source_ref": "lech205.txt section 10.3.1, enzyme barrier lowering",
+   "concept": "lech205.10.3.2",
+   "question_type": "activation_energy_percent_drop",
+   "question_pattern": "A reaction needs 80 kJ per mol uncatalysed but only 8 kJ per mol on the enzyme surface. Compute the percent reduction in activation energy.",
+   "extracted_variables": {"acid_ea": 80.0, "enzyme_ea": 8.0},
+   "solution_template": [
+    {"step": 1, "action": "subtract the two barriers", "explain": "72 kJ per mol is the absolute saving", "compute": "saved = acid_ea - enzyme_ea"},
+    {"step": 2, "action": "scale by the uncatalysed barrier", "explain": "convert the fraction to percent", "compute": "pct_drop = (saved / acid_ea) * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lech205_10_1_to_10_9",
+   "source_ref": "lech205.txt end-of-chapter exercises 10.1-10.9",
+   "questions": [
+    "Define monosaccharides and reducing sugars, and give two functions of carbohydrates in plants.",
+    "Sort ribose, 2-deoxyribose, maltose, galactose, fructose and lactose into monosaccharides and disaccharides.",
+    "Explain the glycosidic linkage and state how glycogen differs from starch.",
+    "Predict what D-glucose gives with HI, bromine water and nitric acid respectively."
+   ]
+  },
+  {
+   "id": "ex_lech205_10_10_to_10_18",
+   "source_ref": "lech205.txt end-of-chapter exercises 10.10-10.18",
+   "questions": [
+    "Enumerate the reactions of D-glucose its open-chain structure cannot explain.",
+    "Define essential and non-essential amino acids with two examples of each.",
+    "Define peptide linkage, primary structure and denaturation as used for proteins.",
+    "Explain the amphoteric behaviour of amino acids and the effect of denaturation on protein structure."
+   ]
+  },
+  {
+   "id": "ex_lech205_10_19_to_10_25",
+   "source_ref": "lech205.txt end-of-chapter exercises 10.19-10.25",
+   "questions": [
+    "Classify the vitamins and name the one governing blood coagulation.",
+    "State why vitamins A and C are essential and list their important sources.",
+    "Define nucleic acids, give their two key functions, and contrast a nucleoside with a nucleotide.",
+    "Explain why DNA strands are complementary rather than identical and list the RNA types found in the cell."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_004",
+   "title": "c11_bio_cbse_17_004",
+   "questions": [
+    {
+     "q": "Name the specific protein complex on the thin filament that binds calcium ions during excitation-contraction coupling, and state the immediate conformational consequence of this binding.",
+     "a": "The troponin complex (specifically the troponin-C subunit) binds Ca²⁺. This binding causes a conformational change in the troponin-tropomyosin complex, shifting tropomyosin away from the myosin-binding sites on actin (G-actin monomers), thereby exposing them for cross-bridge formation. A wrong answer (e.g., \"tropomyosin binds calcium\" or \"myosin binds calcium\") reveals the student confuses the regulatory proteins (troponin/tropomyosin) with the contractile proteins (actin/myosin) or misattributes the calcium sensor role.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the A-band length remains constant while the I-band and H-zone shorten during skeletal muscle contraction, according to the sliding filament theory.",
+     "a": "The A-band corresponds to the length of the thick (myosin) filaments, which do not change length during contraction. The I-band and H-zone represent the regions of only thin (actin) filaments and the overlap zone of thick/thin filaments, respectively. As thin filaments slide *over* thick filaments toward the M-line, the overlap increases, reducing the I-band (less actin-only region) and H-zone (less thick-only region), while the thick filament length (A-band) is unchanged. A wrong answer (e.g., \"filaments shorten\") indicates the student still holds the outdated \"contracting filament\" misconception instead of the sliding filament mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A patient is diagnosed with a genetic mutation causing troponin-T to have a 100-fold lower affinity for tropomyosin. Predict the effect on skeletal muscle contraction and relaxation, and justify your prediction using the cross-bridge cycle.",
+     "a": "**Prediction:** The muscle will exhibit **constitutive (unregulated) contraction** or severe weakness with impaired relaxation. **Reasoning:** Troponin-T anchors the troponin complex to tropomyosin. If this anchor is weak, the troponin complex cannot effectively position tropomyosin to block myosin-binding sites in the *absence* of calcium (relaxed state). Consequently, binding sites remain partially exposed even at low cytosolic [Ca²⁺], allowing spontaneous cross-bridge cycling → sustained contraction/contracture. Relaxation fails because tropomyosin cannot reliably re-block sites even after Ca²⁺ is pumped back into the SR. A wrong answer (e.g., \"no effect\" or \"no contraction possible\") reveals the student does not understand the structural linkage between troponin subunits and tropomyosin's blocking function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of ATP in the **cross-bridge cycle** (contraction) versus its role in **muscle relaxation**. Why is ATP required for *both* processes?",
+     "a": "**Contraction (Cross-bridge cycle):** ATP binds to the myosin head (ATP-binding site), causing **detachment** of the cross-bridge from actin. Subsequent ATP hydrolysis (by myosin ATPase) **re-cocks** the myosin head to its high-energy \"pre-power stroke\" conformation, ready to bind actin again. **Relaxation:** ATP is hydrolyzed by the **Ca²⁺-ATPase (SERCA) pumps** on the sarcoplasmic reticulum membrane to actively transport Ca²⁺ *back* into the SR lumen against its concentration gradient. This lowers cytosolic [Ca²⁺], allowing troponin-tropomyosin to re-block actin sites. **Why both?** Without ATP for detachment, cross-bridges remain locked (rigor mortis). Without ATP for SERCA, cytosolic [Ca²⁺] stays high, sites stay exposed, and contraction cannot cease. A wrong answer (e.g., \"ATP only provides energy for the power stroke\") reveals the critical misconception that ATP *drives* the power stroke, rather than enabling detachment and re-cocking.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"In rigor mortis, muscles are permanently contracted because ATP depletion prevents the power stroke.\" Identify the error and correct the mechanism.",
+     "a": "**Error:** The statement incorrectly claims ATP depletion prevents the *power stroke*. In reality, the power stroke (ADP/Pi release causing head rotation) occurs *without* ATP. **Correction:** Rigor mortis occurs because **ATP is required for cross-bridge *detachment***. After death, cellular respiration ceases → ATP production stops → existing ATP is depleted. Myosin heads remain tightly bound to actin (rigor complex) because no ATP is available to bind the myosin head and induce the conformational change that weakens actin affinity. The muscle is stiff (fixed cross-bridges), not actively shortening. A wrong evaluation (agreeing with the statement) reveals the student confuses the energy-requiring step (detachment/re-cocking) with the force-generating step (power stroke).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple *in vitro* experiment using isolated myofibrils, fluorescent calcium indicators, and ATP analogs to distinguish whether a new drug inhibits the **ryanodine receptor (RyR)** or the **SERCA pump**. Describe the expected fluorescence trace for each case.",
+     "a": "**Experiment:** Load isolated myofibrils with a fluorescent Ca²⁺ indicator (e.g., Fluo-4). Stimulate electrically to trigger an action potential. Perfuse with: (1) Control (normal ATP), (2) Drug + ATP, (3) Drug + non-hydrolyzable ATP analog (e.g., AMP-PNP). Measure fluorescence (proportional to [Ca²⁺]cyt) over time.\n*   **RyR Inhibitor:** Upon stimulation, **no rapid fluorescence rise** (no Ca²⁺ release from SR). Baseline stays low. Adding AMP-PNP doesn't change this (release is blocked upstream).\n*   **SERCA Inhibitor:** Upon stimulation, **rapid fluorescence rise** (normal release via RyR), but **no decay phase** (fluorescence stays high) because Ca²⁺ cannot be pumped back. With AMP-PNP (no ATP hydrolysis), even control shows no decay.\n**Criteria for good answer:** Correctly identifies the distinct kinetic signatures (release vs. reuptake) and the role of ATP hydrolysis in SERCA function. A poor answer (e.g., \"both show no contraction\") reveals the student cannot decouple the release and reuptake steps or understand the ATP-dependence of SERCA vs. the voltage-dependence of RyR.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

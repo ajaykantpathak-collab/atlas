@@ -1,0 +1,255 @@
+{
+ "catalog": "catalog_class8_maths_hegp101.json",
+ "concepts": [
+  {
+   "id": "hegp.101.1.1",
+   "title": "Locker Puzzle and Factor Parity",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.2",
+   "title": "Square Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 39.",
+     "a": "1521",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 38 m. What is the number of square metres in its area?",
+     "a": "1444",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 10 x 8.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 73?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 18. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.3",
+   "title": "Squares as Sums of Consecutive Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 6 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 5 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 5 odd numbers and report the result as a perfect square value.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 3 odd numbers and report the result as a perfect square value.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 7 odd numbers and report the result as a perfect square value.",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.4",
+   "title": "Square Roots",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square root of 841.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 529.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 784.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "The area of a square field is 169 m^2. Find the length of one side.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "In a hall with 361 seats arranged as a perfect square, how many rows are there?",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 1521 is a perfect square by taking its square root; report the root if it is a whole number.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.5",
+   "title": "Cubic Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the cube of 8.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "The volume of a cubical box is 64 cubic units. Find the length of one edge.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the cube root of 27.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The number 72 has the prime factorisation 2^3 x 3^2. Find the smallest number by which it must be multiplied so that the product is a perfect cube.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The number 48 has the prime factorisation 2^4 x 3. Find the smallest number by which it must be divided so that the quotient is a perfect cube.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A cube pattern adds consecutive odd numbers: 9^3 - 8^3 equals which odd number?",
+     "a": "217",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.101.1.6",
+   "title": "Taxicab Numbers (Hardy-Ramanujan Number)",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

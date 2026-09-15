@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs105",
+ "concepts": [
+  {
+   "id": "kecs105.1",
+   "title": "Splitting Numbers with Floor Division and Modulus",
+   "questions": [
+    {
+     "q": "Using the method 'Splitting Numbers with Floor Division and Modulus', work with: number = 2048. Carry the chain through step by step and give the final value of two_digit_total.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Splitting Numbers with Floor Division and Modulus' and work with: number = 8192. Carry the chain through step by step and give the final value of two_digit_total.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Splitting Numbers with Floor Division and Modulus' refers to.",
+     "a": "Floor division (//) keeps only the whole part of a quotient, while modulus (%) keeps only the remainder; together they split a number into its digits, since the last digit is the remainder on division by 10 and the rest is the floor quotient.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Splitting Numbers with Floor Division and Modulus'.",
+     "a": "Dividing by 10 with // drops the final digit, and taking % 10 keeps it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Splitting Numbers with Floor Division and Modulus', in plain ASCII form.",
+     "a": "last_digit = number % 10",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.2",
+   "title": "Operator Precedence in Expressions",
+   "questions": [
+    {
+     "q": "Evaluate 20 + 30 * 40 the way Python does, showing each step.. Use the method 'Operator Precedence in Expressions'. Work with: a = 200, b = 24, c = 500. Carry the chain through step by step and give the final value of value.",
+     "a": "12200 units",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 15.0 / 4 + (8 + 3.0) step by step.. Use the method 'Operator Precedence in Expressions'. Work with: a = 15, b = 5, c = 100. Carry the chain through step by step and give the final value of value.",
+     "a": "515 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Operator Precedence in Expressions' refers to.",
+     "a": "Python evaluates an expression by applying operators in order of precedence: exponentiation first, then unary signs, then multiply-divide-modulus, then add-subtract, with equal-precedence operators working left to right and parentheses overriding everything.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operator Precedence in Expressions'.",
+     "a": "Parentheses beat every rule, so adding them is how you force a different evaluation order.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Operator Precedence in Expressions', in plain ASCII form.",
+     "a": "value = a + b * c",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.3",
+   "title": "Logical Errors and Debugging",
+   "questions": [
+    {
+     "q": "Using the method 'Logical Errors and Debugging', work with: first = 60, second = 6. Carry the chain through step by step and give the final value of gap.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Logical Errors and Debugging' and work with: first = 400, second = 3. Carry the chain through step by step and give the final value of gap.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Logical Errors and Debugging' refers to.",
+     "a": "A logical (semantic) error lets a program run to completion but prints wrong results, unlike a syntax error which stops execution and a runtime error which aborts a running program, for example division by zero.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Logical Errors and Debugging'.",
+     "a": "The only clue to a logical error is output that looks plausible but is wrong, so work backwards from the result.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Logical Errors and Debugging', in plain ASCII form.",
+     "a": "right_avg = (first + second) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.4",
+   "title": "Simple Interest and Amount Payable",
+   "questions": [
+    {
+     "q": "Using the method 'Simple Interest and Amount Payable', work with: principal = 5000, rate = 10, years = 1500. Carry the chain through step by step and give the final value of amount.",
+     "a": "755000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Simple Interest and Amount Payable' and work with: principal = 1200, rate = 12, years = 200. Carry the chain through step by step and give the final value of amount.",
+     "a": "30000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Simple Interest and Amount Payable' refers to.",
+     "a": "Money lent at simple interest grows by principal times rate times years divided by 100, and the amount to repay is the principal plus that interest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Simple Interest and Amount Payable'.",
+     "a": "Simple interest accrues on the original principal alone, never on accumulated interest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Simple Interest and Amount Payable', in plain ASCII form.",
+     "a": "amount = principal + principal * rate * years / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.5",
+   "title": "Celsius to Fahrenheit Conversion",
+   "questions": [
+    {
+     "q": "Using the method 'Celsius to Fahrenheit Conversion', work with: celsius = 30. Carry the chain through step by step and give the final value of fahrenheit.",
+     "a": "86 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Celsius to Fahrenheit Conversion' and work with: celsius = 30. Carry the chain through step by step and give the final value of fahrenheit.",
+     "a": "86 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Celsius to Fahrenheit Conversion' refers to.",
+     "a": "A Celsius temperature converts to Fahrenheit by scaling it by nine-fifths and shifting by 32 degrees; water boils at 100 C, which maps to 212 F, and freezes at 0 C, mapping to 32 F.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Celsius to Fahrenheit Conversion'.",
+     "a": "Multiply by 9/5 first, then add 32; reversing the order gives a wrong scale.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Celsius to Fahrenheit Conversion', in plain ASCII form.",
+     "a": "fahrenheit = celsius * 9 / 5 + 32",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.6",
+   "title": "Volume of a Sphere",
+   "questions": [
+    {
+     "q": "Compute the volume of a sphere of radius 7 cm using 4/3 pi r cubed.. Use the method 'Volume of a Sphere'. Work with: radius = 40. Carry the chain through step by step and give the final value of volume.",
+     "a": "268082.5731 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of spheres with radii 12 cm and 16 cm.. Use the method 'Volume of a Sphere'. Work with: radius = 60. Carry the chain through step by step and give the final value of volume.",
+     "a": "904778.6842 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Volume of a Sphere' refers to.",
+     "a": "A sphere of radius r fills four-thirds of pi times the cube of its radius, so the volume program cubes the radius with the ** operator and multiplies by 4/3 and pi.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Volume of a Sphere'.",
+     "a": "Exponentiation has the highest precedence, so radius ** 3 is evaluated before any multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Volume of a Sphere', in plain ASCII form.",
+     "a": "volume = 4 / 3 * pi * radius ** 3",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.7",
+   "title": "The String Trap of the input Function",
+   "questions": [
+    {
+     "q": "Using the method 'The String Trap of the input Function', work with: digit = 5. Carry the chain through step by step and give the final value of true_double.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The String Trap of the input Function' and work with: digit = 75. Carry the chain through step by step and give the final value of true_double.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The String Trap of the input Function' refers to.",
+     "a": "The input() function always hands back a string, so doubling a captured '2' with * repeats the text instead of doubling the number; explicit conversion with int() before multiplying gives the numeric answer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The String Trap of the input Function'.",
+     "a": "Everything typed at the keyboard arrives as text, so cast it with int() or float() before arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The String Trap of the input Function', in plain ASCII form.",
+     "a": "true_double = int_value * 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs105.8",
+   "title": "Identifier Naming Rules and Keywords",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Identifier Naming Rules and Keywords' refers to.",
+     "a": "An identifier names a variable or function: it must start with a letter or underscore, may continue with letters, digits or underscores, cannot contain special symbols or spaces, and must never clash with a reserved keyword such as True or class.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Identifier Naming Rules and Keywords'.",
+     "a": "Python is case-sensitive, so Total, total and TOTAL name three different variables.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Identifier Naming Rules and Keywords', in plain ASCII form.",
+     "a": "valid(name) = starts with letter or _ and no keyword",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

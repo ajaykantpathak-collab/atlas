@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Patterns in Life: Diversity and Classification",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.112.12.1",
+   "title": "Biodiversity - The Variety of Life",
+   "section": "12",
+   "definition": "The earth is home to an enormous variety of life forms, from microscopic organisms invisible to the naked eye to giant trees; this biodiversity includes plants that survive long droughts and insects that protect or damage crops, and India is one of the world's megadiverse countries.",
+   "formula": "-",
+   "key_idea": "Life's variety spans sizes and habitats - biodiversity is the planet's living library.",
+   "textbook_ref": "iesc112.txt opening sections on biodiversity",
+   "question_patterns": [
+    "what is biodiversity - define with examples",
+    "why do different organisms live in different habitats",
+    "name two factors that make an area biodiverse",
+    "why is India called a megadiverse country",
+    "give examples of useful and harmful insects from the chapter",
+    "how does loss of biodiversity affect us"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the variety",
+     "explain": "Biodiversity covers the range of organisms from microbes to trees."},
+    {"step": 2, "action": "note the habitats",
+     "explain": "Different climates and landscapes host different life forms."},
+    {"step": 3, "action": "value the diversity",
+     "explain": "Each species plays a role in ecosystems and human welfare."}
+   ]
+  },
+  {
+   "id": "iesc.112.12.2",
+   "title": "Classification - Grouping by Characteristics",
+   "section": "12",
+   "definition": "The study of biological diversity becomes possible through classification - a systematic framework that groups organisms by shared characteristics, from ancient traditions like the Sangam Tinai classification of landscapes to modern scientific taxonomy.",
+   "formula": "-",
+   "key_idea": "Group by traits: classification turns a crowd of species into an ordered library.",
+   "textbook_ref": "iesc112.txt sections on classification and its history",
+   "question_patterns": [
+    "what is classification - why is it needed",
+    "on what basis are plants and animals classified",
+    "how did ancient traditions classify landscapes - mention the Sangam Tinai",
+    "what characteristics help group the given organisms",
+    "how does classification help address farming problems",
+    "arrange the given organisms into groups by their features"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pick the defining traits",
+     "explain": "Body design, cell structure and habitat guide grouping."},
+    {"step": 2, "action": "form the hierarchy",
+     "explain": "Broad groups split into finer ones as traits accumulate."},
+    {"step": 3, "action": "name the groups",
+     "explain": "Each organism finds one place in the scheme."}
+   ]
+  },
+  {
+   "id": "iesc.112.12.3",
+   "title": "Hierarchy of Classification: Kingdom to Species",
+   "section": "12",
+   "definition": "Modern classification arranges organisms in ranks - kingdom, phylum, class, order, family, genus and species - narrowing from broad body plans to closely related groups; the two-kingdom scheme of plants and animals has grown into five kingdoms covering monera, protista, fungi, plantae and animalia.",
+   "formula": "-",
+   "key_idea": "Kingdom to species: each rank narrows the circle of relatives.",
+   "textbook_ref": "iesc112.txt sections on hierarchy, kingdoms and organ systems",
+   "question_patterns": [
+    "list the ranks of classification in the correct order",
+    "name the five kingdoms of life with one example each",
+    "what is a species - why is it the basic unit of classification",
+    "which characters decide the placing of an organism in a kingdom",
+    "compare the two-kingdom and five-kingdom schemes",
+    "place the given organism in its ranks from kingdom to species"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall the ranks",
+     "explain": "Kingdom down to species forms a narrowing ladder."},
+    {"step": 2, "action": "apply the characters",
+     "explain": "Cell type, body organisation and organ systems decide each level."},
+    {"step": 3, "action": "place the organism",
+     "explain": "Walk the ladder to reach the species name."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "iesc112.txt exercises",
+   "questions": [
+     "Define biodiversity and explain its importance.",
+     "List the ranks of classification with an example organism.",
+     "Compare the five kingdoms with one character each."
+   ]
+  }
+ ]
+}

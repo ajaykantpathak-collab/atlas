@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Exploring Mixtures and their Separation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.105.5.1",
+   "title": "Mixtures: Types and Properties",
+   "section": "5",
+   "definition": "A mixture holds two or more substances that keep their own properties; homogeneous mixtures like salt solution look uniform throughout, while heterogeneous mixtures like sugar in sand show visible parts - and since no new substance forms, physical methods can undo the mixing.",
+   "formula": "-",
+   "key_idea": "Mixed but unchanged: the parts of a mixture can always be separated physically.",
+   "textbook_ref": "iesc105.txt sections on types and properties of mixtures",
+   "question_patterns": [
+    "define a mixture and classify the given examples as homogeneous or heterogeneous",
+    "why can mixtures be separated by physical methods",
+    "differentiate a mixture from a compound",
+    "is air a homogeneous mixture - justify",
+    "list the properties that substances retain in a mixture",
+    "identify the type of mixture in the given situation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check uniformity",
+     "explain": "Same composition throughout means homogeneous; visible parts mean heterogeneous."},
+    {"step": 2, "action": "check the chemistry",
+     "explain": "No new substance forms and properties stay unchanged in a mixture."},
+    {"step": 3, "action": "plan the separation",
+     "explain": "Physical differences like size, solubility or boiling point drive the method."}
+   ]
+  },
+  {
+   "id": "iesc.105.5.2",
+   "title": "Separation by Filtration, Evaporation and Decantation",
+   "section": "5",
+   "definition": "Insoluble solids leave liquids by filtration or by settling and decantation; dissolved solids return when the solvent evaporates - the path from sugarcane field to sugar crystals is exactly this craft at scale.",
+   "formula": "-",
+   "key_idea": "Match the difference to the method: size filters, solubility evaporates.",
+   "textbook_ref": "iesc105.txt sections on filtration, evaporation, decantation",
+   "question_patterns": [
+    "how will you separate sand from water - name the method",
+    "how are sugar crystals obtained from sugarcane juice",
+    "when is decantation better than filtration",
+    "explain evaporation with a daily life example",
+    "which method separates the given mixture - justify",
+    "describe the steps of filtering a muddy water sample"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check solubility and size",
+     "explain": "Insoluble solids filter out; dissolved solids need evaporation."},
+    {"step": 2, "action": "choose the apparatus",
+     "explain": "Filter paper, funnel or a dish for evaporation matches the mixture."},
+    {"step": 3, "action": "collect the components",
+     "explain": "Residue and filtrate or crystals and vapour hold the separated parts."}
+   ]
+  },
+  {
+   "id": "iesc.105.5.3",
+   "title": "Advanced Separation: Distillation, Chromatography and More",
+   "section": "5",
+   "definition": "Two miscible liquids separate by distillation when their boiling points differ; dyes in ink travel different distances on paper in chromatography; winnowing, threshing, magnetic separation and sublimation each exploit one physical difference of the mixture at hand.",
+   "formula": "-",
+   "key_idea": "Every separation trick rides on one physical difference - boiling point, adhesion, magnetism or sublimation.",
+   "textbook_ref": "iesc105.txt sections on distillation, chromatography and other methods",
+   "question_patterns": [
+    "how will you separate two miscible liquids with different boiling points",
+    "explain chromatography with the example of ink",
+    "which method separates iron filings from sand - why",
+    "what is sublimation - give one example of separation by it",
+    "compare distillation and evaporation as separation methods",
+    "choose and justify a method to separate the given mixture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the physical differences",
+     "explain": "Boiling point, solubility, magnetic nature or volatility of the components."},
+    {"step": 2, "action": "match the method",
+     "explain": "Distillation for boiling points, chromatography for adhesion, magnets for iron."},
+    {"step": 3, "action": "verify the separation",
+     "explain": "Check that each component is recovered without chemical change."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iesc105.txt exercises",
+   "questions": [
+     "Name the method to separate each given mixture with reasons.",
+     "Explain how sugar is obtained from sugarcane.",
+     "Draw and label the setup for distillation."
+   ]
+  }
+ ]
+}

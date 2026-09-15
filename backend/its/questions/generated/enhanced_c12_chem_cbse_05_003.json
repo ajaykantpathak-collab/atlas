@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_003",
+   "title": "c12_chem_cbse_05_003",
+   "questions": [
+    {
+     "q": "Write the formulas of the two linkage isomers formed when the ambidentate ligand SCN⁻ binds to a metal centre M. Identify the donor atom in each isomer.",
+     "a": "The two linkage isomers are M–SCN (thiocyanato, S-donor) and M–NCS (isothiocyanato, N-donor). A wrong answer (e.g., writing both as M–SCN or confusing the donor atom) reveals the student does not recognise that ambidentate ligands have two different donor atoms and that the connectivity change defines linkage isomerism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why [Co(NH₃)₅(SO₄)]Br and [Co(NH₃)₅Br]SO₄ are ionisation isomers. What experimental test would distinguish them?",
+     "a": "They are ionisation isomers because the counter ion (Br⁻) and a ligand (SO₄²⁻) exchange positions between the coordination sphere and the ionisation sphere. Adding AgNO₃: the first gives no AgBr precipitate (Br⁻ is outside? Wait, correction: first has Br⁻ outside, so gives AgBr; second has SO₄²⁻ outside, gives BaSO₄ with Ba²⁺). A wrong answer that says both give the same precipitate shows confusion about which ion is free in solution versus bound to the metal.",
+     "self_check": true
+    },
+    {
+     "q": "A compound with empirical formula Pt(NH₃)₂Cl₂ exists in two forms. One form precipitates 2 mol AgCl per mol with AgNO₃; the other precipitates none. Are these structural isomers? If yes, name the type. If no, explain why.",
+     "a": "No, these are NOT structural isomers. Both have the same connectivity (Pt bonded to 2 NH₃ and 2 Cl). The difference in AgCl precipitation arises from ionisation behaviour: one is a neutral molecule [Pt(NH₃)₂Cl₂] (no counter ions), the other is an ionic compound [Pt(NH₃)₂Cl₂]Cl₂? Wait, empirical formula Pt(NH₃)₂Cl₂ cannot have two Cl⁻ outside. Actually, the second form must be [Pt(NH₃)₄]Cl₂? No, empirical formula is fixed. This is a trick: Pt(NH₃)₂Cl₂ as a neutral complex gives 0 AgCl; but to give 2 AgCl, the formula would need to be [Pt(NH₃)₂Cl₂]Cl₂ which has empirical Pt(NH₃)₂Cl₄. So the premise is flawed — they cannot have the same empirical formula. A student who says \"yes, ionisation isomerism\" reveals they don't check empirical formula consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coordination isomers [Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆]. Do they have the same overall chemical formula? Will they have the same colour and magnetic properties? Justify.",
+     "a": "Yes, same overall formula (Co, Cr, 6 NH₃, 6 CN). No, they will NOT have the same colour or magnetic properties because the metal centres are swapped: in the first, Co(III) is in an ammine environment (low spin d⁶, diamagnetic) and Cr(III) in cyano (low spin d³, paramagnetic); in the second, Cr(III) is in ammine and Co(III) in cyano. The d-electron configuration and ligand field splitting differ, so spectral and magnetic properties differ. A student who says properties are identical reveals they think only the overall formula matters, not the local coordination environment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Hydrate isomerism is a special case of ionisation isomerism where water is the solvent.\" Is this correct? Provide a counterexample or confirmation.",
+     "a": "The statement is essentially correct: hydrate isomerism is solvate isomerism with water, and it arises from exchange of a water ligand with a water molecule in the crystal lattice (or a counter ion like Cl⁻). However, the mechanism is slightly different: in ionisation isomerism, the counter ion is a potential ligand that displaces a ligand; in hydrate isomerism, the solvent water itself can be inside or outside. Example: [Cr(H₂O)₆]Cl₃ (violet) vs [Cr(H₂O)₅Cl]Cl₂·H₂O (grey-green). A student who says \"they are exactly the same\" misses the nuance that hydrate isomerism specifically involves solvent molecules and often does not change the counter ion type, just its number.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to distinguish between the linkage isomers [Co(NH₃)₅(NO₂)]²⁺ (nitro, N-bound) and [Co(NH₃)₅(ONO)]²⁺ (nitrito, O-bound). You have access to IR spectroscopy, UV-Vis spectroscopy, and a conductivity meter. Which technique(s) would work and why?",
+     "a": "IR spectroscopy works best: the N–O stretching frequencies differ significantly for N-bound (ν(NO₂) ~1300-1450 cm⁻¹, asymmetric) vs O-bound (ν(ONO) ~1000-1100 cm⁻¹). UV-Vis may show different d-d transitions due to different ligand field strengths, but IR is more direct. Conductivity will be identical (both are 2+ cations with same counter ions). A student who picks conductivity reveals they don't understand that linkage isomers have the same charge and counter ions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

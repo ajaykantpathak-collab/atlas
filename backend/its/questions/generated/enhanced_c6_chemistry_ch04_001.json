@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_001",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_001",
+   "title": "c6_chemistry_ch04_001",
+   "questions": [
+    {
+     "q": "What are the two essential characteristics that define anything as \"matter\"?",
+     "a": "Matter must occupy space (volume) and have mass. A wrong answer—such as \"it must be solid\"—reveals a misunderstanding that matter exists only in one state, ignoring that liquids and gases are also matter.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a steel spoon and a wooden spoon, why might you classify them differently in a \"shiny vs. dull\" test?",
+     "a": "Steel is lustrous (shiny), whereas wood is non-lustrous (dull). A wrong answer suggests the student hasn't linked \"appearance\" to the category of \"lustre,\" perhaps confusing shine with color or texture.",
+     "self_check": true
+    },
+    {
+     "q": "You need to make a window. Why would you choose glass instead of cardboard?",
+     "a": "Steps: 1. Identify the purpose (to see outside). 2. Evaluate property of glass (transparent). 3. Evaluate property of cardboard (opaque). 4. Conclude that transparency is required. A wrong answer shows the student is not applying the concept of light transmission to real-world utility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a sponge and a stone. If you press them, how do you classify them?",
+     "a": "The sponge is soft (easily compressed) and the stone is hard (difficult to compress). A wrong answer indicates the student is not using the \"hardness\" property correctly as a relative measure of resistance to pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to say \"all shiny things are metals\"? Why or why not?",
+     "a": "No, because some non-metals can be polished or coated with plastic/wax to look shiny. A wrong answer suggests the student relies on surface appearance alone rather than recognizing that manufacturing processes can alter the appearance of non-lustrous materials.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test if a new material is soluble in water.",
+     "a": "Steps: 1. Fill a glass with water. 2. Add the material. 3. Stir well. 4. Observe if it disappears or leaves a residue. A poor answer fails to include the \"stirring\" or \"observation\" steps, showing a lack of understanding of the process of dissolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

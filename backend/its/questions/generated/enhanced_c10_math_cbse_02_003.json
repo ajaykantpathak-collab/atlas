@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_003",
+   "title": "c10_math_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the maximum number of distinct real zeros a quadratic polynomial can have? State the condition on the discriminant for this to happen.",
+     "a": "A quadratic polynomial can have at most 2 distinct real zeros. This happens when the discriminant \\(D = b^2 - 4ac > 0\\). If a student answers \"1\" or \"3\", they confuse the degree with the number of zeros or forget that a quadratic can have two distinct intersections with the x-axis. If they cannot state the discriminant condition, they have not linked the algebraic criterion to the geometric fact.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of \\(y = x^2 - 4x + 4\\) touches the x-axis at exactly one point. Without solving, explain why this happens and give the zero.",
+     "a": "The polynomial is a perfect square: \\((x-2)^2\\). The discriminant is \\((-4)^2 - 4(1)(4) = 0\\), so the parabola touches the x-axis at its vertex. The zero is \\(x = 2\\) (repeated). A wrong answer like \"two zeros at 2 and -2\" shows the student does not understand the meaning of a repeated root geometrically (touching vs crossing) or misapplies factorization.",
+     "self_check": true
+    },
+    {
+     "q": "Find the zeros of the quadratic polynomial \\(p(x) = 6x^2 - 7x - 3\\) by factorization. Verify the relationship between the zeros and the coefficients.",
+     "a": "Step 1: Split the middle term: \\(6x^2 - 9x + 2x - 3 = 0\\).  \nStep 2: Factor by grouping: \\(3x(2x - 3) + 1(2x - 3) = (3x + 1)(2x - 3) = 0\\).  \nStep 3: Zeros are \\(x = -\\frac{1}{3}\\) and \\(x = \\frac{3}{2}\\).  \nStep 4: Sum of zeros = \\(-\\frac{1}{3} + \\frac{3}{2} = \\frac{7}{6} = -\\frac{-7}{6} = -\\frac{b}{a}\\). Product = \\(-\\frac{1}{3} \\times \\frac{3}{2} = -\\frac{1}{2} = \\frac{c}{a}\\).  \nA wrong factorization (e.g., splitting as -6x and -1x) reveals the student cannot find two numbers with product \\(ac = -18\\) and sum \\(-7\\). Not verifying the relationship shows they treat it as a separate ritual rather than a check.",
+     "self_check": true
+    },
+    {
+     "q": "A quadratic polynomial \\(p(x) = ax^2 + bx + c\\) has zeros \\(\\alpha\\) and \\(\\beta\\). The graph of \\(y = p(x)\\) is a parabola opening downward and intersects the x-axis at two distinct points. What can you conclude about the signs of \\(a\\), \\(b^2 - 4ac\\), and the product \\(\\alpha\\beta\\)?",
+     "a": "Since the parabola opens downward, \\(a < 0\\). Two distinct intersections imply discriminant \\(b^2 - 4ac > 0\\). The product of zeros \\(\\alpha\\beta = \\frac{c}{a}\\). Since \\(a < 0\\), the sign of \\(\\alpha\\beta\\) is opposite to the sign of \\(c\\). Without knowing \\(c\\), we cannot fix the sign of \\(\\alpha\\beta\\), but we know \\(\\alpha\\beta = \\frac{c}{a}\\). A student who says \\(\\alpha\\beta > 0\\) assumes \\(c < 0\\) without justification. This tests if they can combine graphical info (opening direction, number of intercepts) with algebraic relations.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(2x^2 - 5x + 2 = 0\\) and writes: \\(2x^2 - 4x - x + 2 = 0 \\Rightarrow 2x(x-2) - 1(x-2) = 0 \\Rightarrow (2x-1)(x-2)=0\\). Zeros: \\(x = \\frac{1}{2}, 2\\). Is the factorization correct? If not, identify the error and correct it.",
+     "a": "The factorization is **incorrect**. The step \\(2x^2 - 4x - x + 2\\) splits the middle term as \\(-4x - x = -5x\\), which is correct, but the grouping \\(2x(x-2) - 1(x-2)\\) gives \\(2x^2 - 4x - x + 2\\) which matches. Wait — let's check the product: \\((2x-1)(x-2) = 2x^2 -4x -x +2 = 2x^2 -5x +2\\). It IS correct. The zeros are \\(\\frac{1}{2}\\) and \\(2\\). A student who says \"incorrect\" might mistakenly think the factors should be \\((x-2)(2x-1)\\) and not recognize commutativity, or might miscalculate the product. The real test is whether they verify by expanding. If they claim an error where there is none, they lack confidence in their algebraic manipulation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic polynomial whose zeros are \\(3 + \\sqrt{2}\\) and \\(3 - \\sqrt{2}\\). Write the polynomial in standard form with integer coefficients. Explain why the coefficients must be integers if the zeros are conjugates.",
+     "a": "Sum of zeros = \\((3+\\sqrt{2}) + (3-\\sqrt{2}) = 6\\). Product = \\((3+\\sqrt{2})(3-\\sqrt{2}) = 9 - 2 = 7\\).  \nPolynomial: \\(x^2 - (\\text{sum})x + \\text{product} = x^2 - 6x + 7\\).  \nThe coefficients are integers because the irrational parts cancel in the sum and product due to conjugate pairing. A poor answer would give \\(x^2 - 6x + 7\\) without explanation, or write \\((x - (3+\\sqrt{2}))(x - (3-\\sqrt{2}))\\) without expanding, showing they don't understand why integer coefficients emerge from conjugate surds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

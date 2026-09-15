@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_010",
+   "title": "c12_psy_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define social loafing in one sentence using the exact NCERT phrasing for \"collective task\" and \"outputs are pooled.\"",
+     "a": "Correct: \"Social loafing is a reduction in individual effort when working on a collective task, i.e. one in which outputs are pooled with those of other group members.\" A wrong answer that says \"working less hard in a group\" misses the critical condition: outputs must be pooled so individual contributions cannot be identified. This reveals the student thinks any group work causes loafing, but NCERT specifies it occurs only when individual efforts are combined into a single group product.",
+     "self_check": true
+    },
+    {
+     "q": "In Latane's experiment, participants clapped/cheered alone, in pairs, in groups of four, and in groups of six. The dependent variable was \"amount of noise per participant.\" If a student claims \"total noise decreased as group size increased,\" what specific experimental finding are they misremembering, and what does the correct data show?",
+     "a": "The student has reversed the finding. Correct result: total noise *increased* with group size (more people = more total sound), but noise *per participant* *decreased* (each person exerted less effort). This error reveals confusion between group-level output and individual-level effort — a classic board exam trap where students conflate \"group performance\" with \"individual contribution.\"",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 teacher assigns a group poster-making project. The poster will get one group grade. Student A thinks: \"If I work hard, my effort gets diluted; if I slack, others cover for me.\" Which TWO of the five NCERT causes best explain Student A's reasoning? Write the exact textbook phrases.",
+     "a": "Correct causes: (1) \"Group members feel less responsible for the overall task being performed and therefore exert less effort\" (diffusion of responsibility) AND (2) \"Motivation of members decreases because they realise that their contributions will not be evaluated on individual basis\" (non-evaluation of individual contribution). A wrong answer listing \"improper coordination\" or \"group not important\" misses the motivational/cognitive mechanisms Student A explicitly describes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare social loafing and social facilitation on THREE dimensions: (a) task type (coactive vs. collective), (b) evaluation potential (individual vs. pooled), (c) typical effect on performance. Use a 2x3 table in your answer.",
+     "a": "Correct table:\n| Dimension | Social Facilitation | Social Loafing |\n|---|---|---|\n| Task type | Coactive (individuals work side-by-side on same task) | Collective (outputs pooled into single group product) |\n| Evaluation | Individual performance identifiable | Individual performance NOT identifiable |\n| Effect on performance | Enhances dominant response (better on simple, worse on complex) | Reduces individual effort regardless of task complexity |\nA wrong answer that says \"both happen in groups\" fails to distinguish the structural conditions. This tests whether the student can analytically separate two \"presence of others\" phenomena — a frequent 4-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "\"Making individual efforts identifiable eliminates social loafing completely.\" Evaluate this statement using NCERT reduction strategies. Is it true, false, or partially true? Justify with at least two other strategies that address different causes.",
+     "a": "Partially true. Identifiability addresses *only* the \"non-evaluation\" cause. It does not address: (1) diffusion of responsibility (solved by \"increasing pressure to work hard / commitment to task success\"), (2) low task value (solved by \"increasing apparent importance/value of task\"), (3) poor coordination (solved by \"proper coordination among members\"), or (4) low group cohesion (solved by \"strengthening group cohesiveness\"). A \"true\" answer shows the student thinks one strategy fixes all causes — a reductionist error. NCERT lists five distinct strategies targeting five distinct causes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity for 30 Class 12 students that demonstrates social loafing AND lets students test one reduction strategy. Specify: (a) the collective task, (b) how you pool outputs, (c) the reduction strategy manipulated, (d) the measurable outcome, (e) how you debrief linking to Latane's findings.",
+     "a": "Good answer example: (a) Task: Each student writes as many uses for a brick as possible in 2 mins. (b) Pooling: All papers collected, total unique uses counted as group score — no names on papers. (c) Strategy: Identifiability — half the class does Round 1 anonymous; Round 2 they write names and are told top 3 contributors get recognition. (d) Outcome: Mean unique uses per student in Round 1 vs Round 2. (e) Debrief: Compare drop in Round 1 (loafing) to Latane's per-person noise drop; show Round 2 increase mirrors identifiability strategy. A poor answer uses a coactive task (e.g., \"solve math problems alone\") where outputs aren't pooled, missing the collective-task requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

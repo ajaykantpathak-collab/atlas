@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_008",
+   "title": "c11_biotech_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define bioremediation and name one microorganism and one plant used for it, specifying the pollutant each targets.",
+     "a": "Bioremediation is the use of living organisms to degrade/detoxify pollutants. Example: *Pseudomonas putida* degrades petroleum hydrocarbons; *Brassica juncea* (Indian mustard) phytoextracts lead/cadmium. A wrong answer (e.g., \"using chemicals to clean waste\" or naming *E. coli* for heavy metals) reveals confusion between chemical/physical remediation and biological remediation, or lack of specific organism-pollutant pairing knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Bioremediation and biodegradation are the same thing because both use microbes to break down waste.\" Explain why this is incorrect using the concepts of *human intervention* and *intent*.",
+     "a": "Biodegradation is a natural, spontaneous process where microbes break down organic matter for carbon/energy without human design. Bioremediation is a *human-managed* technology that optimizes conditions (nutrients, aeration, pH) or introduces specific strains (bioaugmentation) to accelerate cleanup at a polluted site. The student's error conflates a natural ecological process with an applied biotechnological strategy; they miss the *engineering/management* aspect central to the definition of biotechnology.",
+     "self_check": true
+    },
+    {
+     "q": "A site is contaminated with polychlorinated biphenyls (PCBs), which are persistent organic pollutants resistant to natural degradation. *Pseudomonas* sp. strain LB400 can degrade PCBs but grows slowly at the site's low temperature (10°C). Propose a two-step genetic engineering strategy to create a more effective bioremediation agent for this specific site.",
+     "a": "Step 1: Identify and isolate the *bph* (biphenyl dioxygenase) operon from *Pseudomonas* LB400 responsible for PCB degradation. Step 2: Clone this operon into a cold-shock inducible expression vector and transform it into a fast-growing, cold-tolerant host (e.g., *Psychrobacter* or engineered *E. coli* with cold-shock proteins). This combines the *degradative capability* with *environmental fitness*. A wrong answer suggesting only \"add nutrients\" (biostimulation) ignores the recalcitrance of PCBs; suggesting \"use any bacteria\" ignores substrate specificity of degradation pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast microbial bioremediation vs phytoremediation for heavy metal (Pb, Hg, Cd) contamination in terms of: (a) mechanism of action, (b) fate of the contaminant, (c) time frame, and (d) biomass disposal.",
+     "a": "(a) Microbial: biosorption/bioaccumulation/biotransformation (e.g., Hg²⁺ → Hg⁰ volatilization); Phyto: phytoextraction (uptake into shoots), phytostabilization (root sequestration). (b) Microbial: transformation to less toxic species or immobilization; Phyto: concentration in harvestable biomass. (c) Microbial: faster (days-weeks); Phyto: slower (growing seasons). (d) Microbial: biomass often treated as hazardous waste; Phyto: biomass can be incinerated for metal recovery (phytomining) or safe disposal. A poor answer treats both as \"absorption\" and misses the critical difference: microbes *transform* metals chemically, plants *concentrate* them physically for removal.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Genetically engineered microorganisms (GEMs) for bioremediation should be released freely into the environment because they solve pollution faster than natural strains.\" Consider ecological risk, horizontal gene transfer, and regulatory frameworks (Cartagena Protocol).",
+     "a": "The statement is flawed. While GEMs (e.g., *E. coli* with *bph* genes for PCB) offer enhanced degradation, *uncontrolled release* risks: (1) Horizontal gene transfer of antibiotic markers or degradation genes to pathogens/environmental strains; (2) Unpredictable ecosystem disruption if GEM outcompetes natives; (3) Violation of biosafety guidelines (DBT 1989, Cartagena Protocol) requiring containment/trials. Responsible use mandates *suicide genes*, *auxotrophy*, or *physical containment (bioreactors)*. A student agreeing reveals ignorance of biosafety ethics (c11_biotech_cbse_01_010) and the precautionary principle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monitoring strategy using a whole-cell biosensor for early detection of arsenic contamination in groundwater used for irrigation. Specify the genetic construct, reporter system, and deployment method.",
+     "a": "Construct: *arsR* promoter (arsenic-responsive) fused to *gfp* (green fluorescent protein) or *luxCDABE* (bioluminescence) in a non-pathogenic host (e.g., *E. coli* DH5α or *Pseudomonas putida*). In absence of As(III), ArsR repressor binds promoter → no reporter. With As(III), ArsR releases → reporter expressed. Deployment: Immobilize cells in alginate beads in a flow-through chamber with optical detector; calibrate fluorescence/luminescence vs [As]. Alert threshold: >10 µg/L (WHO limit). A weak answer proposes chemical test strips (not biotech) or uses a pathogenic host, ignoring safety and the *genetic circuit* logic central to environmental biotechnology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

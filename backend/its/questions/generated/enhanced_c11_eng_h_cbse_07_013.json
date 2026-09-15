@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_013",
+   "title": "c11_eng_h_cbse_07_013",
+   "questions": [
+    {
+     "q": "Define \"alternate history\" as a narrative mode and distinguish it from \"counterfactual history\" as a historical methodology, using \"The Adventure\" as your reference.",
+     "a": "Alternate history is a fictional narrative mode that constructs a self-consistent imaginary world diverging from recorded history at a specific \"point of departure\" (here, the Third Battle of Panipat) to explore \"what if\" scenarios *within the story's internal logic*. Counterfactual history is a scholarly methodology where historians rigorously assess the plausibility of alternate outcomes using evidentiary constraints. In \"The Adventure,\" Narlikar uses alternate history *as fiction* — the Maratha victory is a narrative given, not a historically argued probability — and then layers quantum theory to *explain* the protagonist's access to that world, a move no historian would make. A wrong answer conflates the two, treating the Maratha victory as a serious historical hypothesis rather than a fictional premise enabling the story's philosophical inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the catastrophe theory explanation (given by Rajendra Deshpande in the latter half of the story) cannot be removed without collapsing the story's thematic architecture, even though it appears as a \"scientific infodump.\"",
+     "a": "The catastrophe theory passage functions as the story's *hermeneutic key*: it retroactively converts Gaitonde's experience from a hallucination/dream into a physically plausible (within the story's logic) quantum transition, thereby forcing the reader to treat both historical timelines as ontologically equal \"worlds.\" Without it, the story defaults to \"it was all a dream,\" rendering the alternate history a mere psychological projection and nullifying the central theme — that reality may be observer-dependent and multiple histories can coexist in superposition. A wrong answer treats the theory as decorative science jargon; the correct answer recognizes it as the structural device that elevates the story from historical fantasy to speculative philosophical fiction.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"narrative focalization\" to analyze the shift in Chapter 7 when the narrative moves from describing Gaitonde's external actions in the alternate Bombay (e.g., entering the library, reading the history books) to presenting his internal realization (\"But the book did not contain...\"). Identify the focalization type in each segment and explain the interpretive effect.",
+     "a": "Segment 1 (external actions): **Zero focalization / external focalization** — the narrator reports only observable behavior (Gaitonde walks, requests books, turns pages) without access to his thoughts. Segment 2 (internal realization): **Internal focalization (fixed, through Gaitonde)** — the narrative filters the world through Gaitonde's consciousness (\"He could not believe his eyes,\" \"The book did not contain...\"). The shift *enacts* the epistemological rupture: the reader is first positioned as an objective observer of a strange world, then abruptly plunged into the protagonist's cognitive dissonance, mimicking the collapse of the wave function the story later theorizes. A wrong answer merely labels both as \"third-person narration\" without distinguishing focalization depth, missing how the technique performs the story's quantum metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two depictions of the Azad Maidan lecture (the \"real\" one where Gaitonde is ejected, and the alternate one where he presides). Analyze how the *same physical setting* and *same character* produce diametrically opposite power dynamics, and argue what this structural parallelism reveals about the story's view of historical agency.",
+     "a": "In the \"real\" lecture, Gaitonde is a marginalized scholar forcibly removed by a hostile audience — history is imposed *on* him by dominant narratives. In the alternate lecture, he occupies the presidential chair, guides the discourse, and the audience accepts the Maratha-centric narrative — history is shaped *by* him. The parallelism demonstrates that historical agency is not an intrinsic property of individuals but a function of which timeline's power structures prevail. The story suggests agency is contingent on the \"world-line\" one inhabits, undermining great-man history and aligning with the quantum theme: the observer (Gaitonde) does not merely witness history but participates in collapsing its possibilities. A wrong answer describes the two scenes separately without linking their structural mirroring to the theme of contingent agency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The ending of 'The Adventure' — where Gaitonde returns to his original timeline but retains the torn page from the alternate history book — resolves the quantum superposition by privileging the 'real' timeline as the only true reality.\" Defend or refute with textual evidence.",
+     "a": "**Refute.** The torn page (from *Bhausahebanchi Bakhar*) is a *physical artifact* from the alternate timeline that persists in the \"real\" world, violating the principle that only one timeline can be actual. Its existence proves the alternate world had ontological weight — it was not a mere hallucination. The story ends with Gaitonde *holding evidence of a history that never happened*, forcing the reader to accept that both timelines are \"real\" in a multiverse sense. The superposition is not collapsed; it is *materialized* in the protagonist's pocket. A wrong answer treats the return to the original timeline as a narrative reset, ignoring the page's function as a \"quantum souvenir\" that refuses erasure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 150-word \"missing scene\" set immediately after Gaitonde's return, where he confronts Rajendra Deshpande with the torn page. The dialogue must demonstrate that Gaitonde has internalized the story's central philosophical insight: that *every* historical narrative is a collapse of multiple possibilities, not a discovery of a single truth.",
+     "a": "A strong response will: (1) Use the torn page as a physical prop anchoring the dialogue; (2) Have Gaitonde articulate that the \"real\" history he teaches is just one collapsed branch; (3) Show Rajendra not as the explainer but as the listener, reversing their earlier roles; (4) Avoid scientific jargon in favor of historical/epistemological language (\"evidence,\" \"narrative,\" \"archive\"); (5) End on an open question about the historian's responsibility. A weak response treats the page as a plot device to prove the alternate world \"existed,\" misses the role reversal, or has Gaitonde demand scientific explanations rather than grappling with the interpretive implication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

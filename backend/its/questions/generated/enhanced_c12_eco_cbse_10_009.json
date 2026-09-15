@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_009",
+   "title": "c12_eco_cbse_10_009",
+   "questions": [
+    {
+     "q": "State the formula for the investment multiplier (k) in terms of MPC and MPS. What is the value of k if MPC = 0.75?",
+     "a": "k = 1/(1-MPC) = 1/MPS. If MPC = 0.75, then MPS = 0.25, so k = 1/0.25 = 4. A wrong answer (e.g., k = 1/MPC = 1.33) reveals confusion between the multiplier and the reciprocal of MPC, or forgetting that MPC + MPS = 1.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a higher MPC lead to a larger investment multiplier? Explain the economic intuition using the income-expenditure circular flow.",
+     "a": "A higher MPC means households spend a larger fraction of each additional rupee of income on consumption. This creates stronger induced consumption spending in each round, so the initial investment injection circulates more times before leaking out as savings. A wrong answer (e.g., \"higher MPC means more saving\") confuses MPC with MPS or misunderstands the leakage concept.",
+     "self_check": true
+    },
+    {
+     "q": "In a two-sector economy, the consumption function is C = 200 + 0.8Y and autonomous investment is I = 500. Calculate the equilibrium income and the investment multiplier. If investment increases by 100, what is the new equilibrium income?",
+     "a": "Equilibrium: Y = C + I = 200 + 0.8Y + 500 → 0.2Y = 700 → Y = 3,500. Multiplier k = 1/(1-0.8) = 5. ΔI = 100 → ΔY = 5 × 100 = 500. New Y = 4,000. A wrong answer (e.g., forgetting autonomous consumption 200, or using MPC instead of 1-MPC in multiplier) shows algebraic slip or formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Economy A has MPC = 0.9, Economy B has MPC = 0.6. Both receive an autonomous investment boost of ₹1,000 crore. Which economy experiences a larger total increase in income, and by how much more? Explain the policy implication for fiscal stimulus design.",
+     "a": "Economy A: k = 1/(1-0.9) = 10 → ΔY = 10,000 crore. Economy B: k = 1/(1-0.6) = 2.5 → ΔY = 2,500 crore. Economy A's income rises by 7,500 crore more. Policy implication: stimulus is more powerful in high-MPC economies (often developing economies with larger subsistence consumption). A wrong answer (e.g., saying B has larger multiplier) inverts the MPC-multiplier relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The investment multiplier formula k = 1/(1-MPC) holds even when the economy is at full employment.\" What assumptions break down?",
+     "a": "The formula assumes unused capacity so that output can expand to meet induced demand. At full employment, extra spending raises prices, not real output; the real multiplier is zero. Also assumes constant MPC, no supply constraints, no crowding out. A wrong answer (e.g., \"it still works because formula is mathematical\") ignores the Keynesian assumption of idle resources and fixed prices.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example showing the round-by-round working of the multiplier for MPC = 0.5 and ΔI = 1,000. Show the first four rounds of induced consumption and cumulative income change. What fraction of the total multiplier effect is realized after four rounds?",
+     "a": "Round 1: ΔI = 1,000 → ΔY₁ = 1,000. Round 2: ΔC = 0.5×1,000 = 500 → ΔY₂ = 500. Round 3: ΔC = 0.5×500 = 250 → ΔY₃ = 250. Round 4: ΔC = 0.5×250 = 125 → ΔY₄ = 125. Cumulative ΔY = 1,875. Total multiplier k = 1/(1-0.5) = 2 → total ΔY = 2,000. Fraction after 4 rounds = 1,875/2,000 = 93.75%. A poor answer (e.g., stopping at round 1 or miscomputing induced consumption) shows inability to trace the geometric series.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

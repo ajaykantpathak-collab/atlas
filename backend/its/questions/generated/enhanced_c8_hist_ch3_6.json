@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch3_6",
+   "title": "c8_hist_ch3_6",
+   "questions": [
+    {
+     "q": "In which year was the Battle of Plassey fought, and who was the Nawab of Bengal at that time?",
+     "a": "The Battle of Plassey was fought on 23 June 1757, and the Nawab of Bengal was Siraj-ud-Daulah. A wrong answer (e.g., 1764 or naming Mir Jafar as the Nawab at the time of battle) reveals confusion between Plassey and the later Battle of Buxar, or mixing up the Nawab before and after the conspiracy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Siraj-ud-Daulah attack the British factory at Calcutta in 1756, and how did the British respond?",
+     "a": "Siraj-ud-Daulah attacked Calcutta because the British fortified Fort William without permission and gave asylum to his fugitive officials (like Krishna Das). The British responded by sending Robert Clive with a force from Madras to retake Calcutta and then conspire to replace Siraj. A wrong answer focusing only on \"trade disputes\" misses the political sovereignty issue — the Nawab saw fortification as a challenge to his authority, which connects to the Mughal administrative tradition studied in c6_history_ch09_035.",
+     "self_check": true
+    },
+    {
+     "q": "The Jagat Seths (wealthy Bengali bankers) financed the conspiracy against Siraj-ud-Daulah. Apply your understanding of 18th-century Indian merchant-politics to explain WHY they supported the British over their own Nawab.",
+     "a": "The Jagat Seths backed the British because Siraj-ud-Daulah threatened their financial interests — he demanded large loans, interfered with their banking operations, and favored rival merchants. They calculated that a pliant Nawab (Mir Jafar) under British influence would protect their wealth better than an assertive Siraj. A wrong answer saying \"they hated Indians\" or \"they were pro-British ideologically\" reveals a failure to apply the economic self-interest lens that explains most merchant-political alliances in this period.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Battle of Plassey as a military engagement: compare the troop numbers, composition, and actual fighting on both sides. What does this comparison reveal about the nature of the British victory?",
+     "a": "Siraj-ud-Daulah had ~50,000 troops (cavalry, infantry, artillery with French advisors); Clive had ~3,000 (British and Indian sepoys). Crucially, Mir Jafar's contingent (~16,000) and Rai Durlabh's forces did not engage. The actual fighting involved only a fraction of the Nawab's army. This reveals the victory was political — bought through the conspiracy — not military. A wrong answer claiming \"British discipline and firepower won the day\" ignores the evidence that the battle was decided before it began, a pattern repeated in later expansions (c8_hist_ch3_7).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Battle of Plassey was the moment Britain conquered India.\" Use evidence from the battle's immediate outcomes to support or refute this.",
+     "a": "The claim is an exaggeration. Plassey gave the British a puppet Nawab (Mir Jafar) and huge indemnities (₹2.2 crore), but Bengal remained nominally Mughal territory, the British did not administer directly, and they still faced rivals (French, Marathas, Mughals). Real territorial control came after Buxar (1764) and the Diwani (1765). A wrong answer accepting the claim uncritically shows inability to distinguish between a decisive battle and the gradual process of conquest — a key distinction for Class 8 historical thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Create a historical argument: \"The Battle of Plassey was more a revolution in Bengal's financial system than a military conquest.\" Construct a 4-point argument using specific evidence from 1757-1760.",
+     "a": "A strong argument would cite: (1) The ₹2.2 crore indemnity drained Bengal's treasury; (2) Mir Jafar's dependency on British military support made him a revenue-farming agent for the Company; (3) The Jagat Seths' decline began as British agents took over revenue collection; (4) The \"dual government\" roots started here — British power without administrative responsibility. A poor argument focuses only on troop movements or treats the battle as an isolated event, missing the structural financial transformation that defines the colonial transition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

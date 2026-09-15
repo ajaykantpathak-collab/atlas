@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_010",
+   "title": "c7_physics_ch04_010",
+   "questions": [
+    {
+     "q": "What is the SI unit of speed, and which standard unit is commonly used for long-distance vehicle travel in India?",
+     "a": "The SI unit of speed is metres per second ($\\text{m/s}$), while kilometres per hour ($\\text{km/h}$) is commonly used for vehicle travel. A wrong answer shows confusion between fundamental physical quantities or mistaking practical units for official SI standards.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we multiply a speed given in $\\text{km/h}$ by $\\frac{5}{18}$ to convert it into $\\text{m/s}$? Explain the origin of this fraction.",
+     "a": "We multiply by $\\frac{5}{18}$ because $1\\text{ km} = 1000\\text{ m}$ and $1\\text{ hour} = 3600\\text{ s}$, so $\\frac{1000}{3600}$ simplifies by dividing numerator and denominator by $200$ to get $\\frac{5}{18}$. A wrong answer indicates rote memorization of the trick without understanding dimensional scaling of units.",
+     "self_check": true
+    },
+    {
+     "q": "Convert a speed of $72\\text{ km/h}$ into metres per second ($\\text{m/s}$).",
+     "a": "$20\\text{ m/s}$. Working: Multiply $72$ by $\\frac{5}{18}$. We get $72 \\times \\frac{5}{18} = 4 \\times 5 = 20\\text{ m/s}$. A wrong answer reveals an error in simplifying fractions or mistakenly multiplying by $\\frac{18}{5}$ instead.",
+     "self_check": true
+    },
+    {
+     "q": "A student states that $36\\text{ km/h}$ is equivalent to $36\\text{ m/s}$ because the numerical value remains the same. Evaluate this statement and point out the error.",
+     "a": "The statement is incorrect because units change the magnitude relationship. $36\\text{ km/h}$ equals $36 \\times \\frac{5}{18} = 10\\text{ m/s}$, not $36\\text{ m/s}$. A wrong answer indicates a lack of conceptual understanding of what units represent in physical measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short word problem involving an Indian express train where converting units is essential to determine if it beats a highway bus travelling at $60\\text{ km/h}$.",
+     "a": "A good problem states the train's speed in $\\text{m/s}$ (e.g., $20\\text{ m/s}$) and asks students to convert it to $\\text{km/h}$ ($72\\text{ km/h}$) to compare with the bus ($60\\text{ km/h}$) and conclude the train is faster. A poor problem lacks realistic numbers or fails to require unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "[Question needed - generate a create level question]",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

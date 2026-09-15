@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_010",
+   "title": "c12_bs_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define leadership and management in one sentence each, using precise NCERT terminology.",
+     "a": "Leadership: \"Leadership is the process of influencing the behaviour of people by making them strive voluntarily towards achievement of organisational goals.\" Management: \"Management is the process of planning, organising, staffing, directing and controlling the organisational resources to achieve organisational goals effectively and efficiently.\" A wrong answer typically conflates the two (e.g., \"leadership is managing people\") or omits the voluntary/voluntary aspect of leadership and the systematic/functional aspect of management. This reveals the student hasn't internalised the core distinction: influence vs authority, voluntary vs contractual.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"a manager may not be a leader, and a leader may not be a manager.\" Give a concrete workplace example for each case.",
+     "a": "A manager derives influence from formal position (legitimate power); a leader derives influence from personal qualities (referent/expert power). Example of manager-not-leader: a supervisor who ensures attendance records are perfect but cannot inspire the team during a crisis — subordinates comply out of fear, not commitment. Example of leader-not-manager: a senior developer with no formal title who guides the team through a technical crisis because of expertise and trust — the team follows voluntarily. A wrong answer confuses formal authority with influence or assumes hierarchy automatically creates leadership. This reveals the misconception that title = leadership.",
+     "self_check": true
+    },
+    {
+     "q": "A factory supervisor, Mr. Sharma, notices production delays. He (a) reorganises the shift schedule to minimise machine idle time, (b) calls a team meeting, shares a vision of \"zero defects by Diwali,\" and personally mentors two struggling workers. Classify each action as leadership, management, or both. Justify each classification.",
+     "a": "(a) Reorganising shift schedule → Management (planning/organising function, uses formal authority to restructure resources for efficiency). (b) Sharing vision and mentoring → Leadership (influencing behaviour voluntarily, inspiring beyond compliance, building capability). A wrong answer labels both as management because a supervisor did them, or both as leadership because they sound \"good.\" This reveals inability to distinguish based on *mechanism of influence* (authority vs inspiration) rather than *who performs the action*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare leadership and management on the following dimensions: (i) Source of power, (ii) Primary focus, (iii) Approach to risk, (iv) Relationship with followers/subordinates, (v) Time horizon. Present as a 5-row table.",
+     "a": "| Dimension | Leadership | Management |\n|---|---|---|\n| Source of power | Personal qualities (referent, expert power) | Formal position (legitimate, reward, coercive power) |\n| Primary focus | Effectiveness (doing the right things), vision, change | Efficiency (doing things right), stability, systems |\n| Approach to risk | Takes calculated risks, embraces uncertainty | Minimises risk, seeks predictability, controls variance |\n| Relationship | Voluntary followership, trust-based, emotional bond | Contractual subordination, authority-based, transactional |\n| Time horizon | Long-term, strategic, future-oriented | Short-to-medium term, operational, present-oriented |\n\nA wrong answer swaps rows (e.g., assigns risk-taking to management) or gives vague overlaps (\"both deal with people\"). This reveals superficial memorisation without conceptual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "\"Management ensures the ladder is leaning against the right wall; leadership decides which wall to lean it on.\" Critique this statement using the distinction between efficiency and effectiveness. Is it always true that leaders set direction and managers execute? Defend your position with a counter-example.",
+     "a": "The statement captures a useful heuristic: leadership ≈ effectiveness (choosing the right goal), management ≈ efficiency (optimising the path). However, it is an oversimplification. In modern organisations, the distinction is fluid: (1) Top managers (CEOs) must provide strategic leadership — they decide *which* wall. (2) Front-line leaders (team leads) often execute *how* to climb — they manage the climb. Counter-example: A project manager (formal management role) identifies a new market opportunity (leadership: setting direction) and then creates the project plan (management: execution). The statement wrongly implies rigid role segregation. A wrong answer accepts the quote uncritically or rejects it without nuance. This reveals inability to evaluate conceptual models against organisational reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column table: Column A = 5 distinct workplace situations (e.g., \"CEO announces new 5-year sustainability vision\"), Column B = whether it primarily reflects leadership, management, or both, Column C = the specific dimension from Diagnostic Q4 that justifies your classification. Ensure at least one situation is \"both\" and justify why.",
+     "a": "Example answer (student may create different situations):\n| Situation | Classification | Justifying Dimension |\n|---|---|---|\n| CEO announces 5-year sustainability vision | Leadership | Primary focus (vision/change) |\n| Supervisor approves overtime pay for weekend work | Management | Source of power (formal authority) |\n| Team lead stays late to help junior debug code, inspiring others | Leadership | Relationship (voluntary followership/trust) |\n| HR designs new performance appraisal system | Management | Time horizon (system/process design) |\n| Plant manager rallies workers during a safety crisis, then restructures shifts | Both | Approach to risk (crisis leadership) + Primary focus (stability restoration via management) |\n\nA poor answer uses vague justifications (\"it feels like leadership\") or misclassifies routine authority as leadership. This reveals inability to operationalise abstract dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 103,
+ "chapter_title": "Liberalisation, Privatisation and Globalisation: An Appraisal",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec103.txt",
+ "concepts": [
+  {
+   "id": "keec.103.1",
+   "title": "Gross Value Added (GVA) Calculation",
+   "section": "3.6",
+   "definition": "A measure of economic output that calculates the value of goods and services produced in an economy after adjusting GDP for subsidies and indirect taxes.",
+   "formula": "gva = gdp + subsidies - indirect_taxes",
+   "key_idea": "GVA represents the actual value added by producers, obtained by adding subsidies to GDP and subtracting indirect taxes.",
+   "textbook_ref": "keec103.txt Table 3.1 footnote",
+   "question_patterns": [
+    "calculate the Gross Value Added",
+    "what is the GVA if GDP is ... and subsidies are ... and indirect taxes are ...",
+    "find the GVA from the given GDP, production subsidies, and indirect taxes",
+    "how much is the GVA when GDP is ... with indirect taxes of ... and subsidies of ...",
+    "Explain gross value added (gva) calculation in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the production subsidies to the Gross Domestic Product",
+     "explain": "Subsidies increase the value added at producer prices, so they are added to GDP.",
+     "compute": "gdp + subsidies"
+    },
+    {
+     "step": 2,
+     "action": "Subtract indirect taxes from the sum of GDP and subsidies",
+     "explain": "Indirect taxes are deducted to convert market price valuation to value added at basic prices.",
+     "compute": "gdp_with_subsidies - indirect_taxes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving gross value added (gva) calculation.",
+     "solution": "Step 1: Add the production subsidies to the Gross Domestic Product. Step 2: Subtract indirect taxes from the sum of GDP and subsidies. Working: gdp + subsidies, gdp_with_subsidies - indirect_taxes.",
+     "answer": "Gross Value Added (GVA) Calculation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply gross value added (gva) calculation to a fresh example and interpret the result.",
+     "solution": "Step 1: Add the production subsidies to the Gross Domestic Product. Step 2: Subtract indirect taxes from the sum of GDP and subsidies. Working: gdp + subsidies, gdp_with_subsidies - indirect_taxes.",
+     "answer": "The method of gross value added (gva) calculation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.2",
+   "title": "Disinvestment Target Achievement",
+   "section": "3.6",
+   "definition": "The quantitative measure of whether the government met, exceeded, or fell short of its annual target for mobilizing capital through selling public sector equity.",
+   "formula": "disinvestment_surplus = actual_mobilised - target_disinvestment",
+   "key_idea": "Subtracting the target disinvestment from the actual amount mobilized to evaluate fiscal performance.",
+   "textbook_ref": "keec103.txt Section 3.6 (Disinvestment)",
+   "question_patterns": [
+    "calculate the disinvestment surplus or deficit",
+    "find the difference between actual disinvestment mobilization and the target",
+    "did the government meet its disinvestment target of ... if it mobilized ...",
+    "how much more or less did the government mobilize compared to its target of ...",
+    "Explain disinvestment target achievement in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the target disinvestment from the actual mobilized amount",
+     "explain": "A positive value indicates a surplus (exceeded target), while a negative value indicates a deficit (shortfall).",
+     "compute": "actual_mobilised - target_disinvestment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving disinvestment target achievement.",
+     "solution": "Step 1: Subtract the target disinvestment from the actual mobilized amount. Working: actual_mobilised - target_disinvestment.",
+     "answer": "Disinvestment Target Achievement applied step by step gives the required result."
+    },
+    {
+     "question": "Apply disinvestment target achievement to a fresh example and interpret the result.",
+     "solution": "Step 1: Subtract the target disinvestment from the actual mobilized amount. Working: actual_mobilised - target_disinvestment.",
+     "answer": "The method of disinvestment target achievement leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.3",
+   "title": "Stabilisation vs Structural Reforms",
+   "section": "3.2",
+   "definition": "The classification of economic reforms into short-term stabilization policies to handle immediate balance of payments and inflation crises, and long-term structural reforms to improve overall economic efficiency.",
+   "formula": "",
+   "key_idea": "Stabilisation manages immediate financial crises, while structural reforms restructure the economy for long-term growth.",
+   "textbook_ref": "keec103.txt Section 3.2",
+   "question_patterns": [
+    "distinguish between stabilisation and structural reform measures",
+    "what are short-term stabilisation measures in NEP",
+    "explain the difference between short-term and long-term economic reforms of 1991",
+    "classify the reform measures of 1991 into stabilisation and structural",
+    "Explain stabilisation vs structural reforms in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define stabilisation measures as short-term policies focusing on inflation control and foreign exchange reserve maintenance.",
+     "explain": "These measures aim to correct immediate crises in the balance of payments."
+    },
+    {
+     "step": 2,
+     "action": "Define structural reforms as long-term policies aimed at improving efficiency and removing rigidities.",
+     "explain": "These include liberalisation, privatisation, and globalisation to enhance competitiveness."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.4",
+   "title": "Deregulation of Industrial Sector",
+   "section": "3.3",
+   "definition": "The dismantling of regulatory barriers such as industrial licensing, public sector monopoly reservations, and price controls to allow free entry and operation of private firms.",
+   "formula": "",
+   "key_idea": "Abolishing licensing and opening up reserved sectors to allow market forces to determine production and pricing.",
+   "textbook_ref": "keec103.txt Section 3.3 (Deregulation of Industrial Sector)",
+   "question_patterns": [
+    "what were the key steps taken to deregulate the industrial sector in 1991",
+    "how did the 1991 reforms change industrial licensing",
+    "which industries remained reserved for the public sector after 1991",
+    "explain the deregulation of the industrial sector under liberalisation",
+    "Explain deregulation of industrial sector in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if licensing was abolished for all except a few specified hazardous or strategic industries.",
+     "explain": "Licensing was retained only for alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs."
+    },
+    {
+     "step": 2,
+     "action": "Verify that public sector reservation was restricted to atomic energy and core railway transport.",
+     "explain": "Most other industries were opened to the private sector, and many goods reserved for small-scale industries were dereserved."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.5",
+   "title": "Financial Sector Reforms",
+   "section": "3.3",
+   "definition": "Policy measures designed to transition the role of the central bank from a rigid regulator to a facilitator, encouraging competition through private and foreign bank participation.",
+   "formula": "",
+   "key_idea": "Reducing central bank control over interest rates, branch expansion, and lending to encourage private and foreign investment.",
+   "textbook_ref": "keec103.txt Section 3.3 (Financial Sector Reforms)",
+   "question_patterns": [
+    "what was the major aim of financial sector reforms in 1991",
+    "how did the role of RBI change after the 1991 reforms",
+    "explain the changes in foreign investment limits in the banking sector",
+    "describe the financial sector reforms introduced under liberalisation",
+    "Explain financial sector reforms in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain how RBI's role transitioned from a strict regulator to a facilitator.",
+     "explain": "This allowed banks to make many decisions regarding interest rates and branch expansion without prior RBI approval."
+    },
+    {
+     "step": 2,
+     "action": "Note the rise in foreign investment limits and the entry of private and foreign banks.",
+     "explain": "Foreign investment limits in banks were raised to 74%, and FIIs were allowed to invest in Indian financial markets."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.6",
+   "title": "Tax Reforms and Fiscal Policy",
+   "section": "3.3",
+   "definition": "Reforms concerning government taxation and public expenditure policies, aimed at lowering tax rates, simplifying procedures, and introducing unified taxes like GST to improve compliance.",
+   "formula": "",
+   "key_idea": "Lowering direct tax rates to encourage voluntary disclosure and compliance, and simplifying indirect taxes (like introducing GST).",
+   "textbook_ref": "keec103.txt Section 3.3 (Tax Reforms)",
+   "question_patterns": [
+    "what are tax reforms and how do they relate to fiscal policy",
+    "why were income and corporation tax rates reduced after 1991",
+    "explain the significance of the Goods and Services Tax (GST) introduced in 2016",
+    "how did tax reforms aim to reduce tax evasion",
+    "Explain tax reforms and fiscal policy in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the continuous reduction in individual income tax and corporation tax rates.",
+     "explain": "Moderate tax rates discourage tax evasion and encourage voluntary compliance and savings."
+    },
+    {
+     "step": 2,
+     "action": "Describe the simplification of indirect taxes leading up to the Goods and Services Tax (GST) in 2016.",
+     "explain": "GST aims to create a unified national market under the principle of 'one nation, one tax, one market'."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.7",
+   "title": "Foreign Exchange Reforms and Devaluation",
+   "section": "3.3",
+   "definition": "The deliberate reduction in the value of the domestic currency relative to foreign currencies to stimulate exports and transition to a market-determined exchange rate system.",
+   "formula": "",
+   "key_idea": "Devaluation of the rupee in 1991 to boost exports and foreign exchange inflows, followed by freeing the exchange rate to market forces.",
+   "textbook_ref": "keec103.txt Section 3.3 (Foreign Exchange Reforms)",
+   "question_patterns": [
+    "what is devaluation of the rupee and why was it done in 1991",
+    "how did foreign exchange reforms resolve the balance of payments crisis",
+    "explain how the exchange rate of the rupee is determined post-1991",
+    "what was the immediate measure taken in the external sector in 1991",
+    "Explain foreign exchange reforms and devaluation in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain that the rupee was devalued against foreign currencies in 1991.",
+     "explain": "This immediate measure was taken to encourage exports and increase the inflow of foreign exchange."
+    },
+    {
+     "step": 2,
+     "action": "Describe the shift from government-controlled exchange rates to market-determined rates.",
+     "explain": "The value of the rupee is now primarily determined by the demand and supply of foreign exchange in the market."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.8",
+   "title": "Trade and Investment Policy Reforms",
+   "section": "3.3",
+   "definition": "The removal of quantitative restrictions on imports and exports, reduction of import tariffs, and dismantling of import licensing to enhance domestic industrial competitiveness.",
+   "formula": "",
+   "key_idea": "Removing protectionist trade barriers to increase local industrial efficiency and competitiveness.",
+   "textbook_ref": "keec103.txt Section 3.3 (Trade and Investment Policy Reforms)",
+   "question_patterns": [
+    "what were the main objectives of trade and investment policy reforms in 1991",
+    "how did the government reform import licensing and quantitative restrictions",
+    "why were export duties removed during the 1991 reforms",
+    "explain the trade liberalisation measures introduced in India",
+    "Explain trade and investment policy reforms in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the abolition of import licensing (except for hazardous/sensitive goods) and quantitative restrictions.",
+     "explain": "Quantitative restrictions on consumer goods and agricultural products were fully removed by April 2001."
+    },
+    {
+     "step": 2,
+     "action": "Explain the reduction of import tariffs and removal of export duties.",
+     "explain": "This was done to make domestic industries competitive and boost Indian exports in global markets."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.9",
+   "title": "Privatisation and Disinvestment",
+   "section": "3.4",
+   "definition": "The process of reducing government ownership or management in public sector enterprises, either by outright sale or by selling a portion of equity to the public (disinvestment).",
+   "formula": "",
+   "key_idea": "Shedding government ownership in public enterprises to improve financial discipline, modernize management, and attract private capital.",
+   "textbook_ref": "keec103.txt Section 3.4",
+   "question_patterns": [
+    "what is disinvestment and how does it relate to privatisation",
+    "explain the two ways in which government companies are converted into private companies",
+    "what was the purpose of selling equity of public sector enterprises",
+    "distinguish between privatisation and disinvestment",
+    "Explain privatisation and disinvestment in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain privatisation as the withdrawal of government ownership/management or outright sale of public companies.",
+     "explain": "This can be done by selling government equity to the public or private firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain disinvestment as selling a part of the equity of public sector enterprises (PSEs) to the public.",
+     "explain": "The primary goals are to improve financial discipline, facilitate modernization, and utilize private managerial capabilities."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.10",
+   "title": "Globalisation and Outsourcing",
+   "section": "3.5",
+   "definition": "The integration of a country's economy with the global economy, characterized by outsourcing business operations to external nations where skilled labor is available at lower costs.",
+   "formula": "",
+   "key_idea": "Creating a borderless world through communication technology, where companies hire external services (like BPOs) from other nations.",
+   "textbook_ref": "keec103.txt Section 3.5",
+   "question_patterns": [
+    "what is globalisation and how does it create a borderless world",
+    "explain the concept of outsourcing as an outcome of globalisation",
+    "why has India become a favorite destination for global outsourcing",
+    "what services are commonly outsourced to India",
+    "Explain globalisation and outsourcing in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain globalisation as the integration of a country's economy with the world economy through networks transcending geographical boundaries.",
+     "explain": "It aims to increase interdependence and create a borderless world."
+    },
+    {
+     "step": 2,
+     "action": "Explain outsourcing as hiring regular services from external foreign sources.",
+     "explain": "India is a major outsourcing hub due to low wage rates and a large pool of skilled, English-speaking IT professionals."
+    }
+   ]
+  },
+  {
+   "id": "keec.103.11",
+   "title": "World Trade Organisation (WTO) Role",
+   "section": "3.5",
+   "definition": "An international trade organization established in 1995 to succeed GATT, aiming to establish a rule-based, non-discriminatory global trading regime by reducing tariffs and trade barriers.",
+   "formula": "",
+   "key_idea": "Promoting free trade by removing tariff and non-tariff barriers and providing equal opportunities to all member nations.",
+   "textbook_ref": "keec103.txt Section 3.5 (World Trade Organisation)",
+   "question_patterns": [
+    "what is the WTO and what are its main objectives",
+    "how does the WTO differ from GATT",
+    "explain India's role and commitments as a member of the WTO",
+    "why do some scholars criticize India's membership in the WTO",
+    "Explain world trade organisation (wto) role in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain that WTO was founded in 1995 to succeed GATT (established in 1948).",
+     "explain": "It administers multilateral trade agreements and aims to establish a rule-based trading regime."
+    },
+    {
+     "step": 2,
+     "action": "Detail the goals of reducing tariffs, removing non-tariff barriers, and expanding trade in goods and services.",
+     "explain": "Critics argue that developed nations dominate trade and maintain protectionist policies while forcing developing nations to open markets."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keec103.txt Table 3.1 footnote",
+   "concept": "keec.103.1",
+   "question_type": "compute",
+   "question_pattern": "In a given fiscal year, India's Gross Domestic Product (GDP) is estimated at {gdp} crore rupees. The government provided production subsidies worth {subsidies} crore rupees and collected indirect taxes amounting to {indirect_taxes} crore rupees. Calculate the Gross Value Added (GVA) for the economy.",
+   "extracted_variables": {
+    "gdp": "Gross Domestic Product of the economy",
+    "subsidies": "Total production subsidies provided by the government",
+    "indirect_taxes": "Total indirect taxes collected"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the production subsidies to the Gross Domestic Product",
+     "explain": "Subsidies increase the value added at producer prices, so they are added to GDP.",
+     "compute": "gdp_with_subsidies = gdp + subsidies"
+    },
+    {
+     "step": 2,
+     "action": "Subtract indirect taxes from the sum of GDP and subsidies",
+     "explain": "Indirect taxes are deducted to convert market price valuation to value added at basic prices.",
+     "compute": "gva = gdp_with_subsidies - indirect_taxes"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keec103.txt Section 3.6 (Disinvestment)",
+   "concept": "keec.103.2",
+   "question_type": "compute",
+   "question_pattern": "In the fiscal year 1991-92, the Indian government set a target to mobilize {target_disinvestment} crore rupees through the disinvestment of public sector enterprises (PSEs). However, the government was actually able to mobilize {actual_mobilised} crore rupees. Determine the disinvestment surplus or deficit.",
+   "extracted_variables": {
+    "target_disinvestment": "The target set by the government for disinvestment",
+    "actual_mobilised": "The actual capital mobilized through disinvestment"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the target disinvestment from the actual mobilized amount",
+     "explain": "A positive value indicates a surplus (exceeded target), while a negative value indicates a deficit (shortfall).",
+     "compute": "disinvestment_surplus = actual_mobilised - target_disinvestment"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "keec103.txt Exercises Q1-Q5",
+   "questions": [
+    "Why were reforms introduced in India?",
+    "Why is it necessary to became a member of WTO?",
+    "Why did RBI have to change its role from controller to facilitator of financial sector in India?",
+    "How is RBI controlling the commercial banks?",
+    "What do you understand by devaluation of rupee?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "keec103.txt Exercises Q6-Q10",
+   "questions": [
+    "Distinguish between strategic and minority sale, bilateral and multi-lateral trade, and tariff and non-tariff barriers.",
+    "Why are tariffs imposed?",
+    "What is the meaning of quantitative restrictions?",
+    "Those public sector undertakings which are making profits should be privatised. Do you agree with this view? Why?",
+    "Do you think outsourcing is good for India? Why are developed countries opposing it?"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "keec103.txt Exercises Q11-Q16",
+   "questions": [
+    "India has certain advantages which makes it a favourite outsourcing destination. What are these advantages?",
+    "Do you think the navaratna policy of the government helps in improving the performance of public sector undertakings in India? How?",
+    "What are the major factors responsible for the high growth of the service sector?",
+    "Agriculture sector appears to be adversely affected by the reform process. Why?",
+    "Why has the industrial sector performed poorly in the reform period?",
+    "Discuss economic reforms in India in the light of social justice and welfare."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

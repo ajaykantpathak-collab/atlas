@@ -1,0 +1,236 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 11,
+ "chapter_title": "Organisms and Populations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo.111.1",
+   "title": "Habitat and Abiotic Factors",
+   "section": "Organism and Its Environment",
+   "definition": "Every organism lives in a habitat that supplies food, shelter and mates, and the habitat is shaped by four major abiotic components: temperature, water, light and soil, together with the physico-chemical features of the substratum and atmosphere.",
+   "formula": "",
+   "key_idea": "Ecology at the organism level is basically the study of how an organism meets the stresses these abiotic factors impose.",
+   "textbook_ref": "lebo111.txt unit introduction, habitat definition and abiotic factor sections",
+   "question_patterns": [
+    "name the four major abiotic factors that shape a habitat",
+    "how does temperature act as the most ecologically relevant factor",
+    "why is water availability decisive for organisms in deserts",
+    "what does light determine for plants and for animals",
+    "how does soil differ from other abiotic factors",
+    "define habitat in ecological terms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the components",
+     "explain": "temperature, water, light and soil are identified as the major abiotic components"
+    },
+    {
+     "step": 2,
+     "action": "link to ecology",
+     "explain": "the organism's response to these factors defines its distribution on earth"
+    },
+    {
+     "step": 3,
+     "action": "close with habitat",
+     "explain": "habitat is the place with a particular set of biotic and abiotic components an organism lives in"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.2",
+   "title": "Responses to Abiotic Stress",
+   "section": "Responses to Abiotic Factors",
+   "definition": "Organisms cope with unfavourable temperature and water conditions in four ways: regulate internal conditions (homeostasis like mammals and birds), simply conform to the ambient conditions, migrate temporarily to more suitable habitats, or suspend activity (diapause, hibernation, aestivation).",
+   "formula": "",
+   "key_idea": "Only a small fraction of animals are true regulators; most are conformers because thermoregulation is energetically expensive.",
+   "textbook_ref": "lebo111.txt regulate-conform-migrate-suspend section and desert lizard example",
+   "question_patterns": [
+    "distinguish between regulators and conformers with examples",
+    "why is thermoregulation energetically expensive for small animals",
+    "what is migration and give an example from the chapter",
+    "define diapause, hibernation and aestivation as suspension strategies",
+    "how does the desert lizard illustrate a conformer",
+    "why do some birds migrate to warmer areas in winter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the strategies",
+     "explain": "regulate, conform, migrate and suspend are the four textbook responses"
+    },
+    {
+     "step": 2,
+     "action": "test with the lizard",
+     "explain": "the desert lizard's body temperature drifts with ambient temperature, so it conforms"
+    },
+    {
+     "step": 3,
+     "action": "close with cost",
+     "explain": "regulators like mammals spend energy to keep constants inside, which explains why conformers dominate"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.3",
+   "title": "Population Growth Models",
+   "section": "Population Growth",
+   "definition": "Population density changes through natality, mortality, immigration and emigration; under unlimited resources growth is exponential (dN/dt = rN) while under the carrying capacity K of real habitats growth is logistic (dN/dt = rN(K-N)/K), giving a sigmoid curve.",
+   "formula": "logistic_fraction = (k_cap - n_pop) / k_cap",
+   "key_idea": "The term (K-N)/K weights growth down as N approaches carrying capacity, so computing it tells how much room a population still has to grow.",
+   "textbook_ref": "lebo111.txt population growth equations and sigmoid curve section",
+   "question_patterns": [
+    "write the exponential and logistic growth equations",
+    "what does carrying capacity K signify in the logistic model",
+    "compare the curves of exponential and logistic growth",
+    "define r in terms of birth and death rates",
+    "which growth model does nature support more often and why",
+    "how do natality, mortality, immigration and emigration change density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the logistic slow-down term",
+     "explain": "the fraction (K-N)/K equals 1 at tiny N and 0 at N = K",
+     "compute": "logistic_fraction = (k_cap - n_pop) / k_cap"
+    },
+    {
+     "step": 2,
+     "action": "compute instantaneous growth",
+     "explain": "exponential growth dN/dt equals r times N",
+     "compute": "instantaneous_growth = r_rate * n_pop"
+    }
+   ]
+  },
+  {
+   "id": "lebo.111.4",
+   "title": "Population Interactions",
+   "section": "Population Interactions",
+   "definition": "Populations of different species interact as mutualism (both benefit), competition (both harmed), predation and parasitism (one benefits, other harmed), commensalism (one benefits, other unaffected) and amensalism (one harmed, other unaffected).",
+   "formula": "",
+   "key_idea": "Competition is best defined as a minus-minus interaction and its outcome may be competitive exclusion or resource partitioning (like the five closely related species of warblers on a single tree).",
+   "textbook_ref": "lebo111.txt interaction table and warbler resource-partitioning example",
+   "question_patterns": [
+    "define mutualism, competition, predation and commensalism",
+    "what are the plus and minus signs assigned to each interaction",
+    "explain competitive exclusion with Gause's experiment",
+    "how did the five warbler species avoid competition on one tree",
+    "why is predation important for energy transfer in nature",
+    "differentiate parasitism from commensalism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the sign table",
+     "explain": "each interaction is scored as + (benefit), - (harm) or 0 (neutral)"
+    },
+    {
+     "step": 2,
+     "action": "apply to warblers",
+     "explain": "sharing different parts of the same tree is resource partitioning, not exclusion"
+    },
+    {
+     "step": 3,
+     "action": "close with Gause",
+     "explain": "two Paramecium species with one resource end with one eliminated, the classic competitive exclusion"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo111_1",
+   "source_ref": "lebo111.txt logistic growth equation section",
+   "concept": "lebo.111.3",
+   "question_type": "compute",
+   "question_pattern": "A population of N = 100 individuals lives in a habitat with carrying capacity K = 400. Using the logistic model, what fraction of the carrying capacity is still available for growth?",
+   "extracted_variables": {
+    "n_pop": 100,
+    "k_cap": 400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the logistic slow-down term",
+     "explain": "available fraction = (K - N) / K",
+     "compute": "logistic_fraction = (k_cap - n_pop) / k_cap"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo111_2",
+   "source_ref": "lebo111.txt exponential growth equation section",
+   "concept": "lebo.111.3",
+   "question_type": "compute",
+   "question_pattern": "A population with size N = 100 and intrinsic rate of natural increase r = 0.5 grows exponentially (dN/dt = rN). What is its instantaneous growth dN/dt?",
+   "extracted_variables": {
+    "n_pop": 100,
+    "r_rate": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the exponential equation",
+     "explain": "dN/dt = r x N",
+     "compute": "instantaneous_growth = r_rate * n_pop"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo111_3",
+   "source_ref": "lebo111.txt responses section",
+   "concept": "lebo.111.2",
+   "question_type": "short_answer",
+   "question_pattern": "Classify the desert lizard, migrating birds and hibernating bears into the four response categories with one line of reason each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "lizard",
+     "explain": "body temperature follows ambient temperature, so it is a conformer"
+    },
+    {
+     "step": 2,
+     "action": "migrating birds",
+     "explain": "temporary movement to a favourable habitat makes them migrants"
+    },
+    {
+     "step": 3,
+     "action": "hibernating bears",
+     "explain": "suspending metabolism in winter is hibernation, a suspension strategy"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo111_1",
+   "source_ref": "lebo111.txt end-of-chapter exercises 1-6, reworded",
+   "questions": [
+    "how is diapause different from hibernation as a stress response",
+    "explain why the polar bear is a regulator while most fishes are conformers",
+    "list the population attributes used to characterise a population",
+    "compare exponential and logistic growth with curves and equations",
+    "give one example each of mutualism and amensalism from the chapter"
+   ]
+  },
+  {
+   "id": "ex_lebo111_2",
+   "source_ref": "lebo111.txt exercises 7-13, reworded",
+   "questions": [
+    "explain resource partitioning with the warbler example",
+    "describe the role of predation in maintaining species diversity",
+    "how do ecologists define carrying capacity of a habitat",
+    "compute the logistic slow-down term for a given N and K",
+    "relate migration of zooplankton to diapause in temperate lakes"
+   ]
+  }
+ ]
+}

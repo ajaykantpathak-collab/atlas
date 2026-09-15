@@ -1,0 +1,343 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 10,
+ "chapter_title": "Computer Networks",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs110.1",
+   "title": "Cabling a Mesh Topology",
+   "section": "10.5.1",
+   "definition": "In a mesh topology every communicating device links to every other one, which makes the network reliable and secure but expensive, because n nodes need n times n minus 1 over 2 separate cables.",
+   "formula": "cables = n * (n - 1) / 2",
+   "key_idea": "Five nodes in a full mesh already need ten wires, and the count grows quadratically.",
+   "textbook_ref": "lecs110.txt, section 10.5.1 and Figure 10.15",
+   "question_patterns": [
+    "How many cables are needed to build a fully connected mesh of 5 nodes?",
+    "A mesh network must serve 10 nodes. Compute the number of wires required.",
+    "Why does mesh topology handle heavy traffic and node failures better than others?",
+    "State two drawbacks of the mesh topology.",
+    "How many new cables are added when a sixth node joins a five-node mesh?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count ordered pairings",
+     "explain": "Each of n nodes could link to n minus 1 others.",
+     "compute": "pairings = n * (n - 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve for duplicate pairs",
+     "explain": "A to B and B to A share one cable.",
+     "compute": "cables = pairings / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many cables does a full mesh of 5 nodes need?",
+     "a": "10"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.2",
+   "title": "File Transfer over a Gigabit LAN",
+   "section": "10.3.2",
+   "definition": "A LAN transfers data at rates from 10 Mbps (Ethernet) up to 1000 Mbps (Gigabit Ethernet); the time to move a file is its size in megabits divided by the transfer rate in megabits per second.",
+   "formula": "time_s = file_mb * 8 / speed_mbps",
+   "key_idea": "A 700 MB file crosses a Gigabit Ethernet in about 5.6 seconds, but needs 560 seconds on plain 10 Mbps Ethernet.",
+   "textbook_ref": "lecs110.txt, section 10.3.2",
+   "question_patterns": [
+    "How long does a 700 MB file take to move across a Gigabit Ethernet running at 1000 Mbps?",
+    "The same file travels over 10 Mbps Ethernet. Compute the transfer time in seconds.",
+    "Expand the abbreviation Mbps and state the LAN speed range it appears in.",
+    "Up to what distance can a LAN be extended, and which areas does it cover?",
+    "Why is a LAN considered comparatively secure?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the file to megabits",
+     "explain": "Each byte carries 8 bits.",
+     "compute": "mbit = file_mb * 8"
+    },
+    {
+     "step": 2,
+     "action": "divide by the rate",
+     "explain": "Seconds equal megabits split by megabits per second.",
+     "compute": "time_s = mbit / speed_mbps"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 700 MB file crosses a Gigabit Ethernet rated at 1000 Mbps. About how many seconds does it take?",
+     "a": "5.6"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.3",
+   "title": "Bit Structure of a MAC Address",
+   "section": "10.6.1",
+   "definition": "A MAC address is the permanent hardware address engraved on a NIC: it has 12 hexadecimal digits equal to 48 bits, split evenly into a 24-bit manufacturer identifier called the OUI and a 24-bit serial number.",
+   "formula": "oui_bits = hex_digits * 4 / 2",
+   "key_idea": "The first six hex digits name the manufacturer and the last six identify the individual card.",
+   "textbook_ref": "lecs110.txt, section 10.6.1",
+   "question_patterns": [
+    "How many bits long is a MAC address, and how many hexadecimal digits does it use?",
+    "How many bits carry the Organisational Unique Identifier, and what does OUI stand for?",
+    "Why can a MAC address never be changed?",
+    "How does a MAC address differ from an IP address in permanence?",
+    "Split a 48-bit MAC address into its two 24-bit halves and name each part."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand hex digits into bits",
+     "explain": "Every hexadecimal digit stores 4 bits.",
+     "compute": "bits = hex_digits * 4"
+    },
+    {
+     "step": 2,
+     "action": "split into the OUI half",
+     "explain": "The manufacturer identifier takes the first half of the bits.",
+     "compute": "oui_bits = bits / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bits long is a MAC address?",
+     "a": "48 bits"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.4",
+   "title": "Address Space of IPv4",
+   "section": "10.6.2",
+   "definition": "An IPv4 address is a 32-bit number written as four decimal numbers from 0 to 255 separated by dots; 32 bits allow just under 4.3 billion distinct addresses, which is why the 128-bit IPv6 with eight hexadecimal groups was proposed.",
+   "formula": "addresses = 2 ** bits",
+   "key_idea": "Two raised to 32 gives about 4.29 billion addresses, too few for today's connected devices.",
+   "textbook_ref": "lecs110.txt, section 10.6.2",
+   "question_patterns": [
+    "How many unique addresses does the 32-bit IPv4 scheme offer, approximately?",
+    "Write the sample IPv4 address given in the chapter and describe its four parts.",
+    "How is an IPv6 address written, and how many bits does it use?",
+    "Why was IPv6 proposed when IPv4 already existed?",
+    "Which address can change when a device moves to another network: MAC or IP, and why?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the addresses",
+     "explain": "Each bit doubles the combinations.",
+     "compute": "addresses = 2 ** bits"
+    },
+    {
+     "step": 2,
+     "action": "express in billions",
+     "explain": "Divide by one billion to compare with the chapter's figure.",
+     "compute": "billions = addresses / 1000000000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bits does an IPv4 address carry?",
+     "a": "32 bits"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.5",
+   "title": "Network Types: PAN, LAN, MAN and WAN",
+   "section": "10.3",
+   "definition": "Networks are classified by the area they cover: PAN links personal devices within about 10 metres, LAN covers a room to a campus up to 1 km at 10 to 1000 Mbps, MAN spans a city of 30 to 40 km, and WAN connects cities, countries and continents, with the Internet as the largest WAN.",
+   "formula": "PAN 10 m -> LAN 1 km -> MAN 40 km -> WAN global",
+   "key_idea": "Cable TV networks illustrate a MAN, while two phones on Bluetooth form a wireless PAN.",
+   "textbook_ref": "lecs110.txt, sections 10.3.1 to 10.3.4 and Figures 10.4-10.7",
+   "question_patterns": [
+    "Which network type connects devices within a 10 metre range, and give one wired and one wireless example.",
+    "Two universities in different states want to share information. Which network type do they need?",
+    "Differentiate LAN and WAN on coverage and data rate.",
+    "Name two examples of a Metropolitan Area Network.",
+    "Why is the Internet called the largest WAN?",
+    "Which network category covers a school campus, and which cable speeds does it usually run at?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the area to the type",
+     "explain": "Place the coverage and speed of the situation against the four categories; the smallest personal range is PAN and the globe-spanning one is WAN."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which network type links personal devices within about 10 metres?",
+     "a": "PAN"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.6",
+   "title": "Devices: Modem, Hub, Switch, Router and Gateway",
+   "section": "10.4",
+   "definition": "Each network device has a distinct job: a modem converts between digital bits and analog signals, a repeater regenerates weak signals, a hub broadcasts incoming data to all lines, a switch forwards packets only to the addressed device, a router connects and routes between networks, and a gateway is the entry and exit point of a network.",
+   "formula": "modem: digital <-> analog; switch: selective; router: between networks",
+   "key_idea": "Unlike a hub, a switch reads the destination address in the packet and drops corrupted signals instead of passing them on.",
+   "textbook_ref": "lecs110.txt, sections 10.4.1 to 10.4.8",
+   "question_patterns": [
+    "What does the word modem stand for, and what conversion does it perform?",
+    "How does a switch differ from a hub in forwarding data?",
+    "Explain the working of a repeater and state the usual cable distance it serves.",
+    "Why is a router considered more capable than a hub or a switch?",
+    "What is a gateway, and which device is usually configured to act as one at home?",
+    "Name the connector used with Ethernet cables and the card it plugs into."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the job to the device",
+     "explain": "Identify what the situation needs, signal conversion, regeneration, broadcasting, selective forwarding, inter-network routing, or the network boundary, and pick the device built for it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which device converts between digital bits and analog signals?",
+     "a": "modem"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.7",
+   "title": "Comparing Ring, Bus, Star and Tree Topologies",
+   "section": "10.5.2 to 10.5.5",
+   "definition": "Ring connects each node to two neighbours so data travels one way around the loop; bus shares one backbone wire among all nodes; star wires every node to a central hub or switch; and tree or hybrid joins several basic topologies under a hierarchy.",
+   "formula": "ring: 2 links per node; bus: 1 shared wire; star: 1 link to centre",
+   "key_idea": "A failed central device brings down a whole star network, while a bus failure splits the line.",
+   "textbook_ref": "lecs110.txt, sections 10.5.2 to 10.5.5 and Figures 10.16-10.19",
+   "question_patterns": [
+    "Identify the topology: one single cable shared by all nodes; each node wired to a central switching device.",
+    "How is tree topology different from bus topology?",
+    "Why are bus and ring considered less secure and less reliable than star?",
+    "What happens in a star network when the central hub fails?",
+    "In which direction can data move in a ring topology?",
+    "Which topology joins several star networks over a bus, and where is it usually realised?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the wiring pattern",
+     "explain": "Count how many ways each node connects, one shared wire, two neighbours, one centre, or many branches, and that decides the topology name."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which topology wires every node to a central hub or switch?",
+     "a": "star"
+    }
+   ]
+  },
+  {
+   "id": "lecs110.8",
+   "title": "Internet, Web and Domain Name System",
+   "section": "10.7 and 10.8",
+   "definition": "The Internet is the global network of devices, while the World Wide Web is the collection of interlinked pages served over it using HTML, URL and HTTP; because numeric addresses are hard to remember, a DNS server resolves each domain name to its IP address.",
+   "formula": "domain name -> DNS server -> IP address",
+   "key_idea": "Entering www.ncert.nic.in makes the browser ask a DNS server, which answers with 164.100.60.233.",
+   "textbook_ref": "lecs110.txt, sections 10.7, 10.7.1, 10.8 and Table 10.1",
+   "question_patterns": [
+    "Distinguish the World Wide Web from the Internet with one example of each.",
+    "Name the three technologies through which Tim Berners-Lee created the web.",
+    "What is a URL and how does it differ from a domain name?",
+    "What is a DNS server, and what is domain name resolution?",
+    "Which protocol fetches a web page, and which is its more secure version?",
+    "Expand ARPANET, MAC, ISP and URI.",
+    "From Table 10.1, which IP address belongs to wikipedia.org?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow a URL through the resolver",
+     "explain": "The browser hands the domain name to a DNS server, receives the matching IP address, and then HTTP retrieves the page from that server."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which server resolves a domain name into its IP address?",
+     "a": "DNS"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs110.we1",
+   "title": "Wires for a six-node mesh",
+   "concept_id": "lecs110.1",
+   "problem": "A laboratory wants a full mesh of 6 computers. Compute the number of cables needed.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count ordered pairings",
+     "explain": "6 nodes each linking to 5 others.",
+     "compute": "pairings = 6 * 5"
+    },
+    {
+     "step": 2,
+     "action": "halve the duplicates",
+     "explain": "Each unordered pair shares one cable.",
+     "compute": "cables = pairings / 2"
+    }
+   ],
+   "answer_note": "The mesh needs 15 cables, matching the formula n(n-1)/2."
+  },
+  {
+   "id": "lecs110.we2",
+   "title": "Moving a 700 MB backup over Gigabit Ethernet",
+   "concept_id": "lecs110.2",
+   "problem": "A 700 MB backup must travel across a campus LAN running Gigabit Ethernet at 1000 Mbps. Compute the transfer time.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "convert to megabits",
+     "explain": "700 megabytes times 8 bits per byte.",
+     "compute": "mbit = 700 * 8"
+    },
+    {
+     "step": 2,
+     "action": "divide by the rate",
+     "explain": "5600 megabits over 1000 Mbps.",
+     "compute": "time_s = mbit / 1000"
+    }
+   ],
+   "answer_note": "The transfer takes about 5.6 seconds."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs110.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 10 Exercise (items reworded)",
+   "questions": [
+    "Expand: ARPANET, MAC, ISP and URI.",
+    "Define a network and state two main advantages of connecting computing devices.",
+    "Differentiate LAN and WAN with one example of each.",
+    "Two universities in different states must exchange information. Which network type fits, and why?",
+    "Define topology and name the popular network topologies.",
+    "Identify the topology: all nodes share a single cable; every node connects to a central switch by its own cable.",
+    "Compute the cables needed for a mesh of 8 nodes, and the time to send a 350 MB file over 100 Mbps LAN.",
+    "How does an IP address differ from a MAC address, and what role does a DNS server play when a URL is typed?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_008",
+   "title": "c12_biotech_cbse_07_008",
+   "questions": [
+    {
+     "q": "Define cybrid and state the key genomic difference between a cybrid and a somatic hybrid produced from the same two parental species.",
+     "a": "A cybrid is a cytoplasmic hybrid containing the nuclear genome of one parent and the mitochondrial/chloroplast genome(s) of the other parent. A somatic hybrid contains nuclear genomes from BOTH parents (usually fused/recombined) plus cytoplasmic genomes from both. The key difference: cybrids have ONE nuclear genome + foreign cytoplasmic genome(s); somatic hybrids have COMBINED nuclear genomes. A wrong answer (e.g., \"cybrids have mixed nuclear DNA\") reveals confusion between nuclear fusion (somatic hybridization) and nuclear elimination (cybridization).",
+     "self_check": true
+    },
+    {
+     "q": "In sexual reproduction of angiosperms, mitochondrial and chloroplast genomes are predominantly inherited from the female parent. Explain WHY this maternal inheritance creates a limitation for plant breeders who want to introgress a desirable cytoplasmic trait (e.g., CMS) into an elite nuclear line, and how cybridization overcomes this limitation.",
+     "a": "Maternal inheritance means cytoplasmic traits (CMS, photosynthetic efficiency) can only move through the female line. To put a CMS mitochondrion into an elite nuclear background, the elite line must be the female parent — but elite lines are often selected as male parents for their pollen quality, or the CMS donor may be a wild relative that cannot be crossed sexually. Cybridization bypasses sexual barriers: protoplasts from the CMS donor (female) and elite line (male) are fused, then the elite line's nucleus is retained while the CMS donor's nucleus is eliminated, yielding the desired nuclear-cytoplasmic combination. A wrong answer focusing only on \"sexual incompatibility\" misses the specific maternal inheritance mechanism that cybridization circumvents.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher fuses protoplasts from Species X (nuclear genome Nx, mitochondrial genome Mx, chloroplast genome Cx) and Species Y (Ny, My, Cy). After fusion and regeneration, the plant shows nuclear genome Ny, mitochondrial genome Mx, and chloroplast genome Cy. Is this a somatic hybrid or a cybrid? Justify your classification and propose ONE experimental method to confirm the nuclear genome composition.",
+     "a": "This is a cybrid. It possesses the nuclear genome of Species Y (Ny) but the mitochondrial genome of Species X (Mx) — a non-parental nuclear-cytoplasmic combination. The chloroplast genome (Cy) matches the nuclear donor, which is common if chloroplasts are not selectively retained. Somatic hybrids would show combined/recombined nuclear genomes (Nx + Ny). To confirm nuclear composition: use species-specific nuclear DNA markers (e.g., SSR, SNP, or RFLP) via PCR or Southern blotting. A wrong answer calling it a somatic hybrid ignores the defining feature — selective nuclear elimination — and fails to identify a nuclear-specific verification method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two breeding strategies for transferring cytoplasmic male sterility (CMS) into an elite cultivar: (A) Repeated backcrossing using the CMS line as female parent, and (B) Cybridization via protoplast fusion. Analyze the time, genetic precision, and species barrier limitations of each strategy.",
+     "a": "Strategy A (backcrossing): Takes 6–8 generations (~3–4 years), transfers the ENTIRE CMS donor cytoplasm (including undesirable chloroplast traits), and FAILS if the CMS donor is sexually incompatible (interspecific/intergeneric barrier). Strategy B (cybridization): Achieved in one fusion-regeneration cycle (~6–12 months), allows SELECTIVE retention of mitochondria only (chloroplasts can be from elite line), and WORKS across sexual barriers since protoplast fusion is not limited by species compatibility. However, cybridization requires tissue culture regeneration competence and may cause somaclonal variation. A wrong answer equating the two methods misses the fundamental difference: backcrossing is Mendelian/sexual; cybridization is somatic/asexual with nuclear-cytoplasmic decoupling.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Cybrids are always superior to somatic hybrids for crop improvement because they avoid nuclear genome instability from wide crosses.\" Provide two specific scenarios where a somatic hybrid would be preferred over a cybrid.",
+     "a": "The statement is flawed. Cybrids are NOT universally superior. Scenario 1: When the target trait is nuclear-encoded (e.g., disease resistance gene from wild relative) — somatic hybrid retains BOTH nuclear genomes, enabling recombination/selection for the nuclear trait; cybrid discards the donor nucleus entirely. Scenario 2: When organelle-nuclear incompatibility causes cybrid instability (e.g., chloroplast-nuclear mismatch leading to variegation or lethality) — somatic hybrids with balanced nuclear-cytoplasmic coadaptation may be more stable. Cybrids also face higher regeneration failure due to nuclear-cytoplasmic conflict. A wrong answer agreeing with the statement shows failure to evaluate context-dependent trade-offs between nuclear trait transfer (somatic hybrid) vs cytoplasmic trait transfer (cybrid).",
+     "self_check": true
+    },
+    {
+     "q": "Design a cybrid production protocol to transfer salt-tolerance-associated mitochondrial genes from a wild halophyte (Species W) into a salt-sensitive cultivated crop (Species C). Specify: (i) protoplast source tissues, (ii) fusion method, (iii) nuclear elimination strategy, (iv) selection/screening method for cybrids, and (v) one critical validation step before field testing.",
+     "a": "(i) Protoplasts: mesophyll cells from young leaves of both species (high division capacity). (ii) Fusion: 40% PEG 4000 + 0.1 M CaCl₂, 45 min at 25°C, followed by gradual dilution. (iii) Nuclear elimination: irradiate Species W protoplasts with 100–200 Gy gamma rays before fusion to fragment its nucleus; Species C protoplasts unirradiated. (iv) Screening: PCR with Species C-specific nuclear SSR markers + Species W-specific mitochondrial markers (e.g., nad9, cob). Select plants with C-nuclear + W-mitochondrial profile. (v) Critical validation: Reciprocal grafting test — graft cybrid scion onto C rootstock and vice versa; confirm salt tolerance is scion-transmissible (nuclear-independent) and not due to somaclonal mutation. A poor answer omits irradiation-based nuclear elimination or uses only phenotypic screening without molecular confirmation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

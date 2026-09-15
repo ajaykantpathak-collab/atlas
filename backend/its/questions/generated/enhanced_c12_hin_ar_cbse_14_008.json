@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_008",
+   "title": "c12_hin_ar_cbse_14_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" (बिंब) and \"metaphor\" (रूपक) in your own words, and give one example of each from daily life (not from the textbook).",
+     "a": "Imagery: Language appealing to senses (e.g., \"The aroma of frying pakoras drifted through the lane\" — olfactory). Metaphor: Direct equation (e.g., \"Time is a thief\" — time = thief, stealing moments). A wrong answer that confuses metaphor with simile (\"Time is like a thief\") reveals the student cannot distinguish direct equation from comparison using \"like/as\". A wrong answer listing only visual imagery (\"The hut was small\") reveals the student thinks imagery = only sight, missing auditory/tactile/olfactory dimensions critical for this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter \"फकीर\", the author describes the hut's walls as \"गीली मिट्टी की दीवारें\" (walls of wet mud) and later writes \"झोंपड़ी साँस ले रही है\" (the hut is breathing). Identify the sensory appeal of the first and the tenor-vehicle of the second. Explain why the author chooses *breathing* specifically, not \"standing\" or \"existing\".",
+     "a": "First: tactile (wetness, coolness, texture) + visual (dark damp patches). Second: tenor = hut (झोंपड़ी), vehicle = living being (implied by \"breathing\"). The author chooses \"breathing\" because it transfers *life, vulnerability, rhythm, and persistence* — the hut endures like a living organism despite neglect. A wrong answer identifying only \"visual\" for wet mud misses the tactile immediacy central to Muktibodh's style. A wrong answer saying \"breathing shows the hut is old\" misses the metaphorical transfer of *agency and vitality* — the hut is not passive; it *survives*.",
+     "self_check": true
+    },
+    {
+     "q": "Read this new sentence: \"The fakir's blanket was a shredded cloud clinging to his bones.\" Identify the metaphor, name its tenor and vehicle, list two qualities transferred, and rewrite it as a simile without changing meaning.",
+     "a": "Metaphor: \"blanket was a shredded cloud\". Tenor = blanket, vehicle = shredded cloud. Qualities transferred: (1) thinness/tattered texture, (2) grey-white color suggesting age and exposure. Simile rewrite: \"The fakir's blanket was *like* a shredded cloud clinging to his bones.\" A wrong answer identifying \"cloud\" as tenor reveals confusion about which term is the subject being described. A wrong answer listing \"softness\" as a transferred quality misses that \"shredded\" implies roughness, not softness — the student must analyze the *modifier* (shredded) not just the noun (cloud).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the imagery used for the fakir's hut in the opening paragraph (damp, cramped, smoke-filled) with the imagery used for the \"कोठरी\" (cell-like room) where the fakir sits later. How does the shift in sensory details reflect the fakir's internal state? Support with two specific textual references (describe, don't quote).",
+     "a": "Opening: olfactory (smoke, damp earth), tactile (cold mud, rough texture), auditory (crackling fire, distant sounds) — creates *oppressive enclosure*. Later cell: visual (single shaft of light, dust motes), tactile (hard floor), silence — creates *isolated stillness*. The shift mirrors the fakir's movement from *struggle against external elements* to *inward retreat into dignity*. A wrong answer listing only \"both are dark\" misses the sensory *contrast* (noise vs silence, damp vs dry) that maps onto the emotional arc. A wrong answer claiming \"the second is happier\" misreads the austerity — the silence is not peace but *endurance*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student statement: \"Muktibodh uses the metaphor 'झोंपड़ी एक बूढ़ा भिखारी है' (the hut is an old beggar) to show the hut is poor.\" Is this interpretation sufficient for a 3-mark board answer? Why or why not?",
+     "a": "No, insufficient. A 3-mark answer requires: (1) identification of tenor/vehicle, (2) *at least two* transferred qualities with textual anchoring, (3) connection to theme. \"Poverty\" is only one quality. The metaphor also transfers *worn-out resilience, invisibility to society, dignity in suffering, time-etched wisdom*. The student must explain *how* \"old beggar\" evokes these — e.g., \"बूढ़ा\" suggests survival through decades; \"भिखारी\" suggests society's neglect yet the beggar *persists*. A wrong answer accepting \"shows poverty\" as complete reveals the student treats metaphor as decoration, not as a compressed thematic argument — the core Class 12 analytical gap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line free-verse stanza describing a street vendor's cart at noon using: (a) two distinct sensory images (not both visual), (b) one metaphor equating the cart to a non-human entity, (c) one transferred quality that reflects the vendor's life. Do not use \"like\" or \"as\".",
+     "a": "Example:\n*Steel wheels sing on tar, noon-hot* (auditory + tactile)  \n*Smoke curls — cumin, chili, hope* (olfactory)  \n*The cart is a bronze turtle* (metaphor: cart = turtle)  \n*Carrying its slow world home* (transferred quality: patient endurance)  \nA poor answer using two visual images (\"red cart, yellow sun\") shows the student defaults to sight. A poor answer writing \"cart is like a turtle\" reveals persistent simile confusion. A poor answer transferring \"slowness\" without linking to vendor's life (\"carrying its load\") misses the thematic bridge — the metaphor must *mean* something about the human.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_012",
+   "title": "c12_eco_cbse_02_012",
+   "questions": [
+    {
+     "q": "State the six factors that affect price elasticity of demand as per NCERT Class 12.",
+     "a": "The six factors are: (1) Nature of the commodity (necessity vs luxury), (2) Availability of close substitutes, (3) Proportion of income spent on the good, (4) Time period (short-run vs long-run), (5) Habit formation, (6) Number of alternative uses. A wrong answer (e.g., listing \"price of the good\" or \"consumer's income\" as factors) reveals confusion between *determinants of demand* (which shift the curve) and *determinants of elasticity* (which change the slope/responsiveness at a point).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the demand for electricity generally more price-elastic than the demand for salt, even though both are necessities?",
+     "a": "Electricity has many alternative uses (lighting, cooling, heating, industrial machines), so when its price falls, consumers increase usage across multiple applications — this is the \"alternative uses\" factor. Salt has virtually no alternative uses beyond cooking/preservation. A wrong answer focusing only on \"both are necessities\" misses that *within* necessities, elasticity varies due to other factors like alternative uses and substitutes. This tests whether the student understands that necessity/luxury is just ONE factor, not the sole determinant.",
+     "self_check": true
+    },
+    {
+     "q": "The price of Brand X tea rises from ₹200/kg to ₹240/kg. Quantity demanded falls from 1000 kg to 700 kg per month. Calculate PED using the percentage method. Then explain whether Brand X tea is likely to have elastic or inelastic demand based on the *availability of substitutes* factor.",
+     "a": "Step 1: %ΔP = (240-200)/200 × 100 = 20%. Step 2: %ΔQ = (700-1000)/1000 × 100 = -30%. Step 3: PED = -30%/20% = -1.5 (|PED| = 1.5 > 1 → elastic). Step 4: Brand X tea has many close substitutes (Brand Y, Z, loose tea, coffee), so consumers easily switch when price rises — this makes demand elastic. A wrong PED calculation (e.g., using initial vs midpoint formula incorrectly) or claiming \"tea is a necessity so inelastic\" reveals misunderstanding: *brand-level* demand is elastic even if *category-level* (tea overall) is inelastic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the short-run and long-run price elasticity of demand for petrol in India. Explain why they differ using the *time period* factor.",
+     "a": "Short-run PED for petrol is low (inelastic, ~0.2-0.3) because consumers cannot quickly change vehicles, commute distance, or switch to EVs. Long-run PED is higher (more elastic, ~0.6-0.8) because over years, people buy fuel-efficient cars, shift to public transport, or adopt EVs. The time period factor works because **adjustment takes time** — habits, contracts, and capital stock (vehicles) are fixed in the short run but variable in the long run. A wrong answer stating \"long-run is always more elastic\" without the mechanism (adjustment lags) shows rote memorization without economic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A government imposes a 50% tax on cigarettes, raising the price from ₹100 to ₹150 per pack. The Finance Minister claims this will \"significantly reduce smoking and raise substantial revenue.\" Evaluate this claim using the *habit formation* factor and PED concepts.",
+     "a": "The claim is partially flawed. Due to habit formation (addiction), cigarette demand is highly inelastic (|PED| ≈ 0.3-0.5). A 50% price rise reduces quantity demanded by only 15-25% (since %ΔQ = PED × %ΔP). Revenue = P × Q will *increase* because the % price rise (50%) > % quantity fall (15-25%). So revenue rises, but smoking reduction is *not* \"significant\" — it's modest. A wrong evaluation saying \"demand is elastic so revenue falls\" or \"demand is inelastic so smoking drops sharply\" confuses the direction: inelastic demand → revenue rises, quantity falls slightly. The Minister's \"significantly reduce\" is the error.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world example of a good that would have HIGH price elasticity of demand (|PED| > 2) by specifying values for all six factors. Justify each factor choice.",
+     "a": "Example: **Designer handbags (e.g., Gucci)**. (1) Nature: Luxury (not necessity) → elastic. (2) Substitutes: Many (other luxury brands, non-luxury bags, second-hand) → elastic. (3) Proportion of income: High (₹2 lakh for middle-income) → elastic. (4) Time: Long-run more elastic (can delay purchase, save, buy pre-owned) → elastic. (5) Habits: No addiction/habit → elastic. (6) Alternative uses: Only one (fashion/status) → this factor alone would make it *less* elastic, but the other five dominate. A poor answer picks a good like \"rice\" and forces elastic justifications, showing failure to match factors to actual good characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

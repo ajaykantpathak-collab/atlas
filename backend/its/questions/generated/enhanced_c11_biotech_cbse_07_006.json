@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_006",
+   "title": "c11_biotech_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define a codon and state how many codons exist in the standard genetic code.",
+     "a": "A codon is a sequence of three consecutive nucleotides in mRNA that specifies an amino acid or a stop signal; there are 64 codons in total (4³ = 64). A wrong answer (e.g., \"a codon is a pair of nucleotides\" or \"there are 20 codons\") reveals that the student has not grasped the triplet nature or the combinatorial basis of the code.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the genetic code is described as \"degenerate\" but not \"ambiguous\", and give an example.",
+     "a": "Degenerate means multiple codons can specify the same amino acid (e.g., UUU and UUC both code for phenylalanine), whereas ambiguous would mean a single codon specifies more than one amino acid, which does not happen. If a student says \"degenerate means the code is broken\" or \"ambiguous means the same as degenerate\", they confuse the terminology and the functional consequence for translation fidelity.",
+     "self_check": true
+    },
+    {
+     "q": "An mRNA sequence reads 5'-AUG GCU UAA-3'. Translate it into the amino acid sequence, indicating the start and stop signals.",
+     "a": "AUG → Methionine (Start), GCU → Alanine, UAA → Stop. The polypeptide is Met-Ala. A wrong answer (e.g., missing the start, misreading GCU as Glycine, or not stopping at UAA) shows the student cannot apply the codon table correctly or misunderstands the role of AUG and stop codons.",
+     "self_check": true
+    },
+    {
+     "q": "A point mutation changes the DNA template strand from 3'-TAC-5' to 3'-TAA-5'. Predict the effect on the resulting polypeptide, assuming this codon is within the coding region and not the start codon.",
+     "a": "Original mRNA codon: AUG (Met). Mutated mRNA codon: AUU (Ile). This is a missense mutation changing Met to Ile. If the student says \"no effect because code is degenerate\" or \"it becomes a stop codon\", they fail to analyze the specific base change and its consequence on the amino acid.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The genetic code is completely universal, so a human gene inserted into bacteria will always produce the exact same protein.\"",
+     "a": "The statement is false because of exceptions in mitochondrial genomes and some protozoans where certain codons are reassigned (e.g., UGA codes for Trp in mitochondria). Also, differences in tRNA pools and post-translational modifications can affect protein folding/function. A student who agrees without qualification ignores known exceptions and the difference between code universality and expression system compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short mRNA sequence (12 nucleotides) that codes for a dipeptide with two different amino acids, includes a start codon, and ends with a stop codon. Write the corresponding DNA template strand sequence.",
+     "a": "Example: mRNA 5'-AUG UUU UAA-3' (Met-Phe-Stop). DNA template: 3'-TAC AAA ATT-5'. Any valid sequence meeting the criteria is acceptable. A poor answer (e.g., missing start/stop, overlapping codons, wrong base pairing) reveals inability to synthesize a correct coding sequence from the code's rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

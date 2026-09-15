@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_007",
+   "title": "c11_ps_cbse_06_007",
+   "questions": [
+    {
+     "q": "List the five modes of acquiring Indian citizenship as per the Citizenship Act, 1955.",
+     "a": "The five modes are: (1) Citizenship by Birth (Section 3), (2) Citizenship by Descent (Section 4), (3) Citizenship by Registration (Section 5), (4) Citizenship by Naturalisation (Section 6), and (5) Citizenship by Incorporation of Territory (Section 7). A wrong answer (e.g., listing \"marriage\" as a separate mode, or missing \"incorporation of territory\") reveals the student is confusing the general categories with India's specific statutory framework, or relying on generic political theory rather than the Citizenship Act 1955.",
+     "self_check": true
+    },
+    {
+     "q": "A child is born in India on 15 January 2004 to parents who are Indian citizens. Under which mode and specific condition does this child acquire citizenship? Explain why the year 2004 matters.",
+     "a": "The child acquires citizenship by Birth under Section 3(1)(b) of the Citizenship Act 1955 (as amended in 2003). The year 2004 matters because the 2003 Amendment (effective 3 December 2004) changed the rule: for births between 26 January 1950 and 1 July 1987, citizenship by birth was unconditional (jus soli); for births between 1 July 1987 and 3 December 2004, at least one parent must be an Indian citizen; for births on or after 3 December 2004, both parents must be Indian citizens OR one parent is a citizen and the other is not an illegal migrant. A wrong answer (e.g., saying \"anyone born in India is a citizen\") reveals the student does not know the phased restrictions India imposed on jus soli over time.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul was born in London on 10 March 2010 to an Indian mother and a British father. His birth was registered at the Indian Consulate in London within one year. Can Rahul claim Indian citizenship by descent? If yes, under which provision? If no, why not?",
+     "a": "Yes, Rahul can claim citizenship by descent under Section 4(1)(b) of the Citizenship Act 1955 (as amended in 2003). For births outside India on or after 3 December 2004, citizenship by descent requires: (i) either parent is an Indian citizen at the time of birth, AND (ii) the birth is registered at an Indian consulate within one year (or with Central Government permission after one year). Since Rahul's mother is an Indian citizen and registration occurred within one year, he qualifies. A wrong answer (e.g., saying \"no, because father is not Indian\" or \"registration not needed\") reveals misunderstanding of the 2003 Amendment which made descent gender-neutral (either parent) and made registration mandatory for post-2004 births.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Citizenship by Registration (Section 5) and Citizenship by Naturalisation (Section 6) in terms of: (a) eligibility categories, (b) residence requirement, and (c) discretion of the government.",
+     "a": "(a) Registration applies to specific categories: persons of Indian origin ordinarily resident in India for 7 years; persons of Indian origin ordinarily resident outside undivided India; spouses of Indian citizens (7 years residence); minor children of Indian citizens; etc. Naturalisation applies to ANY foreigner not covered by registration who meets criteria. (b) Registration: 7 years ordinary residence (12 months immediately preceding + 6 years in preceding 8 years). Naturalisation: 12 years residence (12 months immediately preceding + 11 years in preceding 14 years) — reduced to 6 years for certain minorities from Afghanistan, Bangladesh, Pakistan under 2019 Amendment. (c) Registration: government has limited discretion (mostly ministerial if conditions met). Naturalisation: government has WIDE discretion — can waive conditions, and must be satisfied applicant is of good character, knows a language in the 8th Schedule, intends to reside in India, etc. A wrong answer (e.g., saying both have same residence requirement or both are discretionary) reveals confusion between the two distinct pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Citizenship (Amendment) Act, 2019 fundamentally alters the principle of secular citizenship by introducing religion as a criterion for naturalisation.\" Support your evaluation with specific provisions of the Act.",
+     "a": "The statement is partially correct but requires nuance. The 2019 Amendment inserts a proviso to Section 6B: Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians from Afghanistan, Bangladesh, and Pakistan who entered India on or before 31 December 2014 are exempted from being treated as \"illegal migrants\" and are eligible for naturalisation with a reduced residence requirement of 6 years (instead of 12). This introduces religion and country-of-origin as criteria for a FAST-TRACK naturalisation pathway, but does NOT alter the general naturalisation criteria under Section 6(1) which remain religion-neutral. The Amendment creates a differentiated pathway, not a wholesale replacement of secular criteria. A wrong answer (e.g., \"it makes India a Hindu state\" or \"it has no religious criterion at all\") reveals either an ideological reading without legal analysis or ignorance of the specific proviso's scope.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario involving a person who might qualify for citizenship by \"incorporation of territory\" (Section 7). Specify the territory, the event, and the legal mechanism by which residents become citizens.",
+     "a": "Scenario: In 2026, India and Bangladesh sign a Land Boundary Agreement exchanging enclaves. The territory of \"Dahagram-Angarpota\" (previously a Bangladeshi enclave in India) is formally incorporated into India via a Constitutional Amendment Act under Article 368. The Government of India issues a notification under Section 7 of the Citizenship Act 1955 specifying that all persons ordinarily resident in Dahagram-Angarpota on the appointed date become Indian citizens. Key elements: (1) Territory becomes part of India through constitutional process, (2) Government notification under Section 7, (3) Residents become citizens automatically by operation of law. A poor answer (e.g., \"Sikkim joined India so people became citizens\" without mentioning Section 7 notification) reveals the student does not understand that incorporation of territory requires a specific executive notification under the Act, not just the political merger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

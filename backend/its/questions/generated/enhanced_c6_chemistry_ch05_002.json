@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_002",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_002",
+   "title": "c6_chemistry_ch05_002",
+   "questions": [
+    {
+     "q": "What is the most important sign that a chemical change has occurred?",
+     "a": "The formation of a new substance with different properties is the key sign. If a student says \"a change in shape,\" they are likely confusing physical changes with chemical changes.",
+     "self_check": true
+    },
+    {
+     "q": "If you melt an ice cube into water, is this a chemical change? Why or why not?",
+     "a": "No, it is not a chemical change because the water is still water (H2O), just in a different state. If the student says \"yes,\" they are failing to recognize that no new substance was created.",
+     "self_check": true
+    },
+    {
+     "q": "A baker heats sugar until it turns into a brown, sweet-smelling liquid called caramel. Can this be reversed to get the original white sugar crystals back?",
+     "a": "No, it cannot be reversed because the heat caused a chemical change, creating a new substance (caramel). If the student thinks it can be reversed by cooling, they misunderstand that chemical changes are usually permanent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare burning a candle wick to melting the candle wax. Which one is more likely to be a chemical change?",
+     "a": "Burning the wick is a chemical change because it reacts with oxygen to produce smoke and ash, whereas melting the wax is a physical change. Students often struggle to see that a single object can undergo both types of changes at once.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a chemical change to occur without heat? Provide an example.",
+     "a": "Yes, rusting of iron occurs at room temperature when iron reacts with oxygen and moisture. If a student answers \"no,\" they believe that chemical changes always require fire or high heat.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a kitchen activity. Describe a process where you mix two things and a chemical change happens.",
+     "a": "Baking a cake is a great example, as the batter (flour, eggs, sugar) changes into a solid, spongy structure through heat. A poor answer would be \"mixing salt and water,\" because that is just a mixture, not a chemical change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

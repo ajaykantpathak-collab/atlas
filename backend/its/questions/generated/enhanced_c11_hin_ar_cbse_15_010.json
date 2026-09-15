@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_15_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_15_010",
+   "title": "c11_hin_ar_cbse_15_010",
+   "questions": [
+    {
+     "q": "Define \"contextual meaning\" of a word in a poem and give one example from \"सबसे कठिन\" where the contextual meaning sharply diverges from the dictionary meaning.",
+     "a": "Contextual meaning is the specific semantic and emotional value a word acquires from its surrounding imagery, syntax, and thematic role in the poem. In \"सबसे कठिन\", \"रम्य\" literally means \"pleasant/beautiful\" but contextually signifies \"a deceptive tranquility that masks impending loss\"—the village's beauty makes the departure more painful. A wrong answer (e.g., \"रम्य means beautiful\") reveals the student is treating poetry vocabulary as static dictionary entries rather than dynamic, context-dependent signifiers.",
+     "self_check": true
+    },
+    {
+     "q": "The poem repeats \"सबसे कठिन नहीं\" (not the most difficult) four times before revealing what *is* most difficult. Explain how this syntactic repetition controls the contextual meaning of the key word \"कठिन\" across the poem.",
+     "a": "The anaphoric repetition creates a semantic funnel: each negation strips away a conventional definition of \"difficult\" (physical pain, social failure, material loss), forcing \"कठिन\" to accumulate a purely existential, internal meaning—irreversible emotional severance. By the final stanza, \"कठिन\" no longer denotes \"hard to do\" but \"impossible to endure without fragmentation of self.\" A wrong answer (e.g., \"it emphasizes the word\") shows the student sees repetition as mere emphasis, not as a meaning-construction mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"रम्य रम्य ग्राम छोड़कर\" (leaving the pleasant, pleasant village), the adjective \"रम्य\" is reduplicated. Apply the concept of contextual modulation to explain why reduplication here intensifies grief rather than beauty.",
+     "a": "Reduplication (\"रम्य रम्य\") typically intensifies the quality (very beautiful), but the following verb \"छोड़कर\" (leaving) reverses the valence: the more \"रम्य\" the village, the sharper the rupture. Context turns the intensifier into a grief-multiplier—the beauty becomes the measure of loss. Steps: (1) Identify literal effect of reduplication (intensification). (2) Note syntactic governance by \"छोड़कर\". (3) Trace thematic arc: attachment → separation. (4) Conclude: context inverts the emotional vector. A wrong answer (e.g., \"it shows the village was very beautiful\") misses the contextual inversion caused by the governing verb.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contextual meanings of \"ओझल\" (vanishing) in \"ओझल होती आँखें\" (vanishing eyes) and \"व्योम\" (sky) in \"व्योम तक पहुँचती पुकार\" (call reaching the sky). How does each word's context reshape its core spatial meaning into an emotional one?",
+     "a": "\"ओझल\" literally means \"disappearing from sight\"; in \"ओझल होती आँखें\" it contextualizes as \"the slow extinction of witnessing capacity\"—eyes that once saw love now fade into blindness/grief. \"व्योम\" literally means \"sky/space\"; in \"व्योम तक पहुँचती पुकार\" it becomes \"the infinite, indifferent receiver of a cry that finds no human answer\"—spatial vastness mirrors emotional abandonment. Both undergo semantic transposition: spatial → existential. A wrong answer treating them as mere spatial descriptors reveals inability to track semantic shift across syntactic frames.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The word 'एजफल' (epitaph) in the poem is merely a metaphor for death.\" Defend or refute using contextual evidence from the poem's treatment of memory and voice.",
+     "a": "Refute. \"एजफल\" contextually functions as a *performative speech act*: the poem *becomes* the epitaph the speaker writes for their own living self while watching their world vanish. The context (\"अपनी ही एजफल पढ़ते हुए\" – reading one's own epitaph) makes it a meta-poetic device about the poet's role as chronicler of collective erasure, not just a death metaphor. It carries the weight of \"testimony before silence.\" A wrong answer accepting the claim shows confusion between metaphor (comparison) and metonymic enactment (the text *doing* the thing it names).",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-stanza poem (4 lines each) titled \"सबसे सरल\" (The Simplest) that mirrors the structure of \"सबसे कठिन\" but inverts its logic: use contextual vocabulary to show that the \"simplest\" things are actually the most profound. Underline 4 key words whose contextual meaning you will explain in a margin note.",
+     "a": "Expected: A poem using anaphora (\"सबसे सरल नहीं...\") negating superficial simplicities (breathing, walking, speaking) to arrive at a profound simplicity (e.g., \"सबसे सरल है / माँ के हाथ की रोटी खाना / जब भूख न हो / सिर्फ प्रेम से\"). Underlined words (e.g., \"भूख\", \"प्रेम\", \"रोटी\", \"हाथ\") must have margin notes explaining contextual shift (e.g., \"भूख: not physiological need but spiritual receptivity\"). A poor answer lists dictionary synonyms or writes a generic poem without structural mirroring or contextual vocabulary control—revealing the student cannot *produce* context-dependent meaning, only (sometimes) recognize it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

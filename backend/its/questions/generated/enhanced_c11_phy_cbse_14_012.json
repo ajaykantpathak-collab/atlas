@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_012",
+   "title": "c11_phy_cbse_14_012",
+   "questions": [
+    {
+     "q": "A transverse pulse on a string is incident on a rigidly fixed end. The incident pulse has a displacement of +3 cm (upward) at its peak. What is the displacement of the reflected pulse at the corresponding point, and what is the phase change in radians?",
+     "a": "The reflected pulse displacement is -3 cm (downward, inverted) and the phase change is π rad. A wrong answer (e.g., +3 cm or 0 rad) reveals the student thinks the pulse reflects without inversion at a fixed end, confusing rigid boundary with free boundary behavior. This is the most common error: forgetting that a fixed end forces zero net displacement, requiring destructive interference at the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reflected wave at a rigid boundary as y_r = a sin(kx + ωt) for an incident wave y_i = a sin(kx - ωt). Identify the error and write the correct expression. Explain physically why the error violates the boundary condition.",
+     "a": "The error is missing the phase change of π. The correct reflected wave is y_r = -a sin(kx + ωt) = a sin(kx + ωt + π). Without the minus sign, at x=0 the total displacement y_i + y_r = a sin(-ωt) + a sin(ωt) = 0? Wait: sin(-ωt) = -sin(ωt), so sum = -a sin(ωt) + a sin(ωt) = 0. Actually that works? Let's check: y_i = a sin(kx - ωt), at x=0: y_i = -a sin(ωt). y_r = a sin(kx + ωt), at x=0: y_r = a sin(ωt). Sum = 0. So that gives zero displacement at boundary. But the standard convention is that the reflected wave at rigid boundary is inverted relative to incident. If incident is a sin(kx - ωt), the reflected should be -a sin(kx + ωt) to represent inversion. The student's expression y_r = a sin(kx + ωt) gives zero displacement at x=0 but does not represent inversion of the pulse shape. Actually, a pulse shape inversion means if incident is a upward hump, reflected is a downward hump. The mathematical representation of a reflected wave traveling in negative x direction with inversion is y_r = -a sin(kx + ωt). The student's expression lacks the inversion. A wrong answer shows the student does not connect the mathematical sign to the physical inversion of the pulse shape.",
+     "self_check": true
+    },
+    {
+     "q": "An incident longitudinal wave in a closed pipe is described by s_i(x,t) = 0.02 sin(50x - 2000t) (SI units). Write the equation of the reflected wave at the closed end (x = 0). Calculate the displacement of the air particle at x = 0.1 m and t = 0.001 s for the resultant wave (incident + reflected).",
+     "a": "Closed end = rigid boundary → phase change π. Reflected wave: s_r(x,t) = -0.02 sin(50x + 2000t) = 0.02 sin(50x + 2000t + π). At x=0.1 m, t=0.001 s:\ns_i = 0.02 sin(50*0.1 - 2000*0.001) = 0.02 sin(5 - 2) = 0.02 sin(3 rad) ≈ 0.02 * 0.141 = 0.00282 m.\ns_r = -0.02 sin(50*0.1 + 2000*0.001) = -0.02 sin(5 + 2) = -0.02 sin(7 rad) ≈ -0.02 * 0.657 = -0.01314 m.\nResultant s = s_i + s_r ≈ -0.0103 m.\nA wrong answer (e.g., forgetting the minus sign in s_r) would give a resultant that does not satisfy the node condition at x=0, revealing the student cannot apply the phase change to the longitudinal displacement equation.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical strings are fixed at both ends. String A is plucked at the centre, String B is plucked at 1/4 of its length from one end. Both produce standing waves. Compare the phase of the reflected waves at the fixed ends for the two cases. Does the plucking position affect the phase change upon reflection?",
+     "a": "The phase change upon reflection at a fixed end is always π rad (180°) regardless of where the string is plucked. The plucking position determines which harmonics are excited (amplitude of each mode), but the boundary condition (zero displacement at fixed ends) is the same for both strings. A student who says the phase change differs reveals a misunderstanding that the phase change is a property of the boundary, not the excitation. The reflected wave at each fixed end always suffers a π phase reversal.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a standing wave on a string fixed at both ends, the nodes are formed because the incident and reflected waves always have a phase difference of π at those points.\" Evaluate this statement. Is it correct? If not, correct it.",
+     "a": "The statement is incorrect. Nodes are points where the amplitude of the standing wave is permanently zero. This happens because the incident and reflected waves have a phase difference of π *at the node positions* due to the spatial variation of their phases, not because they always have a phase difference of π everywhere. At antinodes, the phase difference is 0 (or 2π). The π phase change upon reflection at the boundary is a constant offset, but the total phase difference between the two waves at any point x is Δφ = 2kx + π. Nodes occur where Δφ = π, 3π, ... (destructive interference). A wrong evaluation indicates the student confuses the constant reflection phase shift with the position-dependent interference condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rubber tube and a water surface to demonstrate the difference in phase change between reflection at a rigid boundary and a free boundary. Describe the setup, what you would observe, and how it proves the phase change rule.",
+     "a": "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod, or simply hold it loosely so it can move vertically. Send a sharp transverse pulse from the middle. Observation: At the fixed end, the pulse returns inverted (crest becomes trough). At the free end, the pulse returns upright (crest remains crest). This directly shows π phase change at rigid boundary and 0 at free boundary. A poor answer might use a water surface (which is a free boundary for transverse waves on water? Actually water surface is a free boundary for transverse waves on a string? No, a string on water is complicated). Using water surface for sound reflection is for longitudinal waves. The key is to clearly distinguish the two boundary types and link observation to inversion/non-inversion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

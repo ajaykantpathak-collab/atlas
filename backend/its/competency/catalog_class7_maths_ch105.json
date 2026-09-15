@@ -1,0 +1,297 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Parallel and Intersecting Lines",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp105.txt",
+ "concepts": [
+  {
+   "id": "gegp.5.1.1",
+   "title": "Linear Pairs of Angles",
+   "section": "5.1",
+   "definition": "A pair of adjacent angles formed by two intersecting lines that lie on a straight line and sum up to 180 degrees.",
+   "formula": "angle_b = 180 - angle_a",
+   "key_idea": "Adjacent angles on a straight line are supplementary.",
+   "textbook_ref": "gegp105.txt lines 50-70",
+   "question_patterns": [
+    "find the linear pair partner of an angle of {angle_a} degrees",
+    "if one angle of a linear pair is {angle_a} degrees, calculate the other angle",
+    "what is the measure of the adjacent angle forming a linear pair with {angle_a} degrees",
+    "calculate the remaining angle of a linear pair when one angle is {angle_a} degrees",
+    "explain linear pairs of angles with an example",
+    "short note on linear pairs of angles",
+    "why is linear pairs of angles important",
+    "give one everyday example of linear pairs of angles",
+    "describe linear pairs of angles in your own words",
+    "what do you understand by linear pairs of angles",
+    "list the main points about linear pairs of angles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the given angle from 180",
+     "explain": "Since linear pairs sum to 180 degrees, the other angle is found by subtracting the given angle from 180.",
+     "compute": "angle_b = 180 - angle_a"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.1.2",
+   "title": "Vertically Opposite Angles",
+   "section": "5.1",
+   "definition": "The non-adjacent angles formed directly opposite each other when two straight lines intersect, which are always equal in measure.",
+   "formula": "angle_opposite = angle_given",
+   "key_idea": "Intersecting lines produce equal opposite angles.",
+   "textbook_ref": "gegp105.txt lines 70-85",
+   "question_patterns": [
+    "find the vertically opposite angle to {angle_given} degrees",
+    "if two lines intersect and one angle is {angle_given} degrees, what is its opposite angle",
+    "calculate the measure of the vertically opposite angle when one angle is {angle_given} degrees",
+    "what is the value of the angle opposite to {angle_given} degrees",
+    "explain vertically opposite angles with an example",
+    "short note on vertically opposite angles",
+    "why is vertically opposite angles important",
+    "give one everyday example of vertically opposite angles",
+    "describe vertically opposite angles in your own words",
+    "what do you understand by vertically opposite angles",
+    "list the main points about vertically opposite angles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate the opposite angle to the given angle",
+     "explain": "Vertically opposite angles are equal, so the opposite angle has the same measure."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.1",
+   "title": "Perpendicular Lines",
+   "section": "5.2",
+   "definition": "A pair of intersecting lines that meet at a right angle, making all four angles equal to 90 degrees.",
+   "formula": "angle = 90",
+   "key_idea": "Perpendicular lines intersect at exactly 90 degrees.",
+   "textbook_ref": "gegp105.txt lines 90-105",
+   "question_patterns": [
+    "what is the angle between two perpendicular lines",
+    "if line l is perpendicular to line m, find the measure of the angle between them",
+    "calculate the angle of intersection for perpendicular lines",
+    "explain perpendicular lines with an example",
+    "short note on perpendicular lines",
+    "why is perpendicular lines important",
+    "give one everyday example of perpendicular lines",
+    "describe perpendicular lines in your own words",
+    "what do you understand by perpendicular lines",
+    "list the main points about perpendicular lines"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set the angle to 90 degrees",
+     "explain": "Perpendicular lines always intersect at 90 degrees.",
+     "compute": "angle = 90"
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.1",
+   "title": "Parallel Lines",
+   "section": "5.3",
+   "definition": "Lines on the same plane that never meet or intersect, regardless of how far they are extended in either direction.",
+   "formula": "distance = constant",
+   "key_idea": "Coplanar lines that never intersect are parallel.",
+   "textbook_ref": "gegp105.txt lines 110-130",
+   "question_patterns": [
+    "do parallel lines ever intersect",
+    "verify if two lines that never meet are parallel",
+    "explain why parallel lines do not cross",
+    "explain parallel lines with an example",
+    "short note on parallel lines",
+    "why is parallel lines important",
+    "give one everyday example of parallel lines",
+    "describe parallel lines in your own words",
+    "what do you understand by parallel lines",
+    "list the main points about parallel lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if lines lie in the same plane and do not intersect",
+     "explain": "Parallel lines must be coplanar and never meet."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.6.1",
+   "title": "Corresponding Angles of Parallel Lines",
+   "section": "5.6",
+   "definition": "Angles in matching relative positions at each intersection where a transversal crosses two parallel lines, which are equal to each other.",
+   "formula": "angle_corresponding = angle_given",
+   "key_idea": "Corresponding angles are equal when lines are parallel.",
+   "textbook_ref": "gegp105.txt lines 145-175",
+   "question_patterns": [
+    "find the corresponding angle to {angle_given} degrees on parallel lines",
+    "if two parallel lines are cut by a transversal and one corresponding angle is {angle_given} degrees, find the other",
+    "calculate the corresponding angle given {angle_given} degrees",
+    "what is the measure of the corresponding angle when the given angle is {angle_given} degrees",
+    "explain corresponding angles of parallel lines with an example",
+    "short note on corresponding angles of parallel lines",
+    "why is corresponding angles of parallel lines important",
+    "give one everyday example of corresponding angles of parallel lines",
+    "describe corresponding angles of parallel lines in your own words",
+    "what do you understand by corresponding angles of parallel lines",
+    "list the main points about corresponding angles of parallel lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate the corresponding angle to the given angle",
+     "explain": "When lines are parallel, corresponding angles are equal."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.8.1",
+   "title": "Alternate Interior Angles",
+   "section": "5.8",
+   "definition": "Pairs of angles on opposite sides of a transversal and between the two parallel lines, which are always equal.",
+   "formula": "angle_alternate = angle_given",
+   "key_idea": "Alternate interior angles are equal for parallel lines.",
+   "textbook_ref": "gegp105.txt lines 215-240",
+   "question_patterns": [
+    "find the alternate interior angle to {angle_given} degrees",
+    "if two parallel lines are cut by a transversal and one alternate angle is {angle_given} degrees, calculate the other",
+    "what is the measure of the alternate interior angle when the given angle is {angle_given} degrees",
+    "calculate the alternate angle for {angle_given} degrees on parallel lines",
+    "explain alternate interior angles with an example",
+    "short note on alternate interior angles",
+    "why is alternate interior angles important",
+    "give one everyday example of alternate interior angles",
+    "describe alternate interior angles in your own words",
+    "what do you understand by alternate interior angles",
+    "list the main points about alternate interior angles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate the alternate angle to the given angle",
+     "explain": "Alternate interior angles are equal when lines are parallel."
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.8.2",
+   "title": "Consecutive Interior Angles",
+   "section": "5.8",
+   "definition": "The interior angles that lie on the same side of the transversal line, which add up to 180 degrees when the lines are parallel.",
+   "formula": "angle_interior_2 = 180 - angle_interior_1",
+   "key_idea": "Interior angles on the same side of a transversal are supplementary.",
+   "textbook_ref": "gegp105.txt lines 255-270",
+   "question_patterns": [
+    "find the consecutive interior angle to {angle_interior_1} degrees",
+    "if the interior angle on the same side of the transversal is {angle_interior_1} degrees, calculate the other interior angle",
+    "what is the measure of the interior angle on the same side of the transversal when one is {angle_interior_1} degrees",
+    "calculate the consecutive interior angle given {angle_interior_1} degrees",
+    "explain consecutive interior angles with an example",
+    "short note on consecutive interior angles",
+    "why is consecutive interior angles important",
+    "give one everyday example of consecutive interior angles",
+    "describe consecutive interior angles in your own words",
+    "what do you understand by consecutive interior angles",
+    "list the main points about consecutive interior angles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the given interior angle from 180",
+     "explain": "Interior angles on the same side of the transversal sum to 180 degrees.",
+     "compute": "angle_interior_2 = 180 - angle_interior_1"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp105.txt lines 255-270",
+   "concept": "gegp.5.8.2",
+   "question_type": "compute",
+   "question_pattern": "In a pair of parallel lines cut by a transversal, if one interior angle is {angle_interior_1} degrees, what is the measure of the consecutive interior angle on the same side?",
+   "extracted_variables": {
+    "angle_interior_1": "the given interior angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the given interior angle from 180",
+     "explain": "Interior angles on the same side of the transversal sum to 180 degrees.",
+     "compute": "angle_interior_2 = 180 - angle_interior_1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp105.txt lines 50-70",
+   "concept": "gegp.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "If two lines intersect and one angle is {angle_a} degrees, find the measure of the adjacent angle forming a linear pair.",
+   "extracted_variables": {
+    "angle_a": "the given angle of the linear pair"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the given angle from 180",
+     "explain": "Since linear pairs sum to 180 degrees, the other angle is 180 minus the given angle.",
+     "compute": "angle_b = 180 - angle_a"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "fig_out_108",
+   "source_ref": "gegp105.txt lines 75-85",
+   "questions": [
+    "List all the linear pairs and vertically opposite angles you observe in Fig. 5.3."
+   ]
+  },
+  {
+   "id": "fig_out_110",
+   "source_ref": "gegp105.txt lines 125-135",
+   "questions": [
+    "Which pairs of lines appear to be parallel in Fig. 5.6?"
+   ]
+  },
+  {
+   "id": "fig_out_113",
+   "source_ref": "gegp105.txt lines 175-210",
+   "questions": [
+    "In Fig. 5.11, mark the parallel lines using the notation given (single arrow, double arrow etc.). Mark the angle between perpendicular lines with a square symbol.",
+    "In Fig. 5.13, which line is parallel to line a \u2014 line b or line c? How do you decide this?"
+   ]
+  },
+  {
+   "id": "fig_out_123",
+   "source_ref": "gegp105.txt lines 275-320",
+   "questions": [
+    "Find the angles marked a, b, c, d, e, f, g, h, i, j in Fig. 5.30.",
+    "Find the angle represented by a in Fig. 5.31.",
+    "In the figures in Fig. 5.32, what angles do x and y stand for?",
+    "In Fig. 5.33, angle ABC = 45 degrees and angle IKJ = 78 degrees. Find angles GEH, HEF, FED.",
+    "In Fig. 5.34, AB is parallel to CD and CD is parallel to EF. Also, EA is perpendicular to AB. If angle BEF = 55 degrees, find the values of x and y.",
+    "What is the measure of angle NOP in Fig. 5.35?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

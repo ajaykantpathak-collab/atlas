@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_04_012",
+   "title": "c11_hin_ar_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"What year did Mr. Young serve?\"). An inferential question's answer is implied and must be deduced using textual clues (e.g., \"Why does the narrator call Mr. Young a 'lawyer'?\"). A wrong answer (e.g., \"Inferential questions are just opinions\") reveals the student confuses inference with unsupported guessing, missing the requirement for textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the narrator says: \"आपके देश के कानून तो बड़े न्यायप्रिय हैं।\" Is the question \"What is the narrator's attitude toward British law?\" literal or inferential? Explain your reasoning.",
+     "a": "It is inferential. The text never directly states \"the narrator is sarcastic.\" The student must analyze the word \"न्यायप्रिय\" (justice-loving) in context: the narrator lists injustices (land revenue, forest laws) immediately after, creating irony. A wrong answer (\"literal, because the word 'न्यायप्रिय' is in the text\") shows the student matches keywords without analyzing tone or context — a surface-reading error.",
+     "self_check": true
+    },
+    {
+     "q": "Given the passage: \"अंग्रेज़ी राज में... कानून का राज था।\" A question asks: \"List two specific laws mentioned by the narrator that exploited Indians.\" Demonstrate how to answer this literal question using the text.",
+     "a": "Step 1: Scan for keywords \"कानून\", \"नियम\", \"लगान\". Step 2: Locate explicit mentions: \"लगान\", \"वन कानून\", \"नमक कर\". Step 3: Quote exact phrases: \"लगान के नाम पर...\", \"वन कानून...\", \"नमक कर...\". Step 4: Present as a list. A wrong answer (e.g., \"The British made unfair laws\") shows the student summarized instead of extracting explicit textual details — failing the literal requirement of verbatim or near-verbatim retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator describes Mr. Young: \"आपके शासन में... एक वकील का बेटा वकील बनता है।\" Compare the literal meaning of this statement with its inferential implication about British colonial administration.",
+     "a": "Literal: The narrator states a factual pattern — sons of lawyers become lawyers under British rule. Inferential: This implies nepotism, exclusion of Indians from power, and a self-perpetuating colonial bureaucracy. A wrong answer that only gives the literal meaning misses the satirical critique; one that only gives the inference without citing the specific textual pattern fails to ground the deduction. Both halves are required.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"The narrator hates Mr. Young because he is British.\" The question was: \"Why does the narrator mock Mr. Young's departure?\" Is this answer acceptable? Justify.",
+     "a": "Unacceptable. The answer substitutes a vague emotion (\"hate\") and a simplistic identity reason (\"because he is British\") for textual evidence. The text shows mockery rooted in specific grievances: economic exploitation (\"लगान\"), legal hypocrisy (\"न्यायप्रिय\"), and personal insult (\"वकील का बेटा\"). A correct evaluation would note: the answer ignores the narrator's rhetorical strategy (irony), lacks textual citations, and reduces a political critique to personal prejudice — a common senior-secondary error of conflating tone with motive.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the last paragraph of the chapter (the Indian prince's speech at Ujjain) that requires analyzing the shift from irony to direct appeal. Provide the question and a model answer structure.",
+     "a": "Question: \"How does the prince's final appeal to 'future generations' transform the narrator's earlier ironic tone into a moral challenge to Mr. Young?\" Model structure: (1) Identify the shift: irony → direct address. (2) Cite evidence: \"पीछे आने वालों को...\" vs earlier \"न्यायप्रिय\". (3) Explain effect: universalizes the critique beyond one official. A poor question would be literal (\"What did the prince say?\"). A poor answer would miss the tonal shift or fail to link \"future generations\" to the narrator's opening historical framing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

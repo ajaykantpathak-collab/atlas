@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_006",
+   "title": "c12_bio_cbse_04_006",
+   "questions": [
+    {
+     "q": "A couple has been trying to conceive for 10 months with regular unprotected intercourse. The female partner is 28 years old with regular menstrual cycles. According to the standard clinical definition used in India (ICMR/WHO), should this couple be investigated for infertility now? State the definition precisely.",
+     "a": "No. The standard definition requires 12 months of regular unprotected intercourse without conception. Since only 10 months have elapsed, the couple does not yet meet the clinical criteria for infertility investigation unless the female partner is ≥35 years old (where evaluation begins at 6 months). A wrong answer (saying \"yes, investigate now\") reveals the student does not know the precise time threshold or the age-based exception — a common error in board exams where definitions must be quoted exactly.",
+     "self_check": true
+    },
+    {
+     "q": "A 30-year-old male has a semen analysis showing: volume 2.5 mL, concentration 8 million/mL, progressive motility 25%, normal morphology 3% (strict Kruger criteria). Explain why this semen profile causes infertility by linking each abnormal parameter to a specific step in the fertilization process from ejaculation to zygote formation.",
+     "a": "Low concentration (8 million/mL < 15 million/mL WHO lower reference limit) reduces the number of sperm reaching the fallopian tube — the \"critical threshold\" for fertilization. Low progressive motility (25% < 32%) impairs sperm migration through cervical mucus and uterine cavity to the ampulla. Low normal morphology (3% < 4%) indicates defective sperm-zona pellucida binding and acrosome reaction capability. A wrong answer listing parameters without linking to fertilization steps (e.g., \"low count means less sperm\") shows superficial memorization without understanding the physiological sequence from ejaculation to syngamy.",
+     "self_check": true
+    },
+    {
+     "q": "A couple presents with 2 years of infertility. Female: regular 28-day cycles, normal hysterosalpingography (both tubes patent), normal Day 21 progesterone. Male: semen analysis normal. They have failed 3 cycles of timed intercourse. Which ART procedure is the FIRST-LINE recommendation for this \"unexplained infertility\" scenario, and why is it preferred over IVF as initial treatment?",
+     "a": "Intrauterine insemination (IUI) with ovarian stimulation is first-line. IUI places washed, capacitated sperm directly into the uterine cavity near the time of ovulation, increasing sperm density at the fertilization site without bypassing the fallopian tube (where natural fertilization occurs). It is less invasive, less expensive, and preserves the physiological sperm-oviduct interaction. IVF is reserved for IUI failure or tubal factor. A wrong answer choosing IVF directly reveals inability to apply the stepwise treatment algorithm — a frequent NEET trap where students jump to the most advanced technology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fertilization site and the developmental stage transferred in IVF, ZIFT, and GIFT. A patient has bilateral tubal blockage but normal ovarian response. Which procedure is CONTRAINDICATED and why?",
+     "a": "IVF: fertilization in vitro (petri dish), cleavage-stage embryo (Day 2-3) or blastocyst (Day 5) transferred to uterus. ZIFT: fertilization in vitro, zygote (Day 1) transferred to fallopian tube. GIFT: gametes (sperm + oocytes) transferred to fallopian tube, fertilization occurs in vivo. GIFT is contraindicated in bilateral tubal blockage because it requires functional fallopian tubes for fertilization and early embryo transport. A wrong answer selecting GIFT or not identifying the tubal requirement shows confusion between where fertilization occurs in each procedure — a classic board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"ICSI completely overcomes male factor infertility because it injects a single sperm directly into the oocyte, so even men with zero sperm count (azoospermia) can father biological children.\" Is this fully correct? Justify with two specific limitations of ICSI.",
+     "a": "The statement is partially incorrect. Limitation 1: ICSI requires retrievable sperm — in non-obstructive azoospermia (testicular failure), testicular sperm extraction (TESE) may yield no sperm, making ICSI impossible. Limitation 2: ICSI bypasses natural sperm selection mechanisms (motility, morphology, DNA integrity), potentially transmitting genetic defects (e.g., Y-chromosome microdeletions, chromosomal aneuploidies) to offspring. A wrong answer accepting the statement uncritically shows failure to evaluate biological trade-offs — a key competency for NEET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a diagnostic algorithm (flowchart logic) for a couple presenting with primary infertility. Include decision points for: female age, semen analysis, ovulation confirmation, tubal patency, and the resulting first-line ART recommendation at each branch. Use only procedures covered in NCERT Class 12.",
+     "a": "Expected logic: \n1. Semen analysis → if abnormal → treat male factor / IUI (mild) / ICSI (severe) \n2. Confirm ovulation (Day 21 progesterone / follicular monitoring) → if anovulatory → ovulation induction + timed intercourse/IUI \n3. Tubal patency (HSG/laparoscopy) → if bilateral block → IVF (not GIFT/ZIFT) \n4. If all normal → unexplained infertility → IUI × 3-6 cycles → then IVF \n5. Female age ≥35 → accelerate timeline (IVF earlier). \nA poor answer listing tests without decision logic or recommending GIFT for tubal block reveals inability to synthesize a clinical pathway — the essence of competency-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

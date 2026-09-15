@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_001",
+   "title": "c11_ip_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a function in programming?",
+     "a": "A function is a named block of code that performs a specific task and can be reused multiple times. A wrong answer (e.g., \"functions are used to store data\" or \"functions make programs run faster\") reveals that the student confuses functions with variables or performance optimization, missing the core idea of **task encapsulation and reuse**.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why modular programming is considered better than writing all code in a single `main()` block.",
+     "a": "Modular programming divides a program into independent functions, each handling a single responsibility. This improves readability, allows code reuse, makes debugging easier (errors are isolated), enables team collaboration (different people work on different modules), and simplifies maintenance (changes in one module don’t break others). A wrong answer that only mentions \"less code\" or \"easier to read\" shows a surface-level understanding; the student misses critical advantages like **isolation of faults**, **parallel development**, and **separation of concerns**.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a Python program to compute the area of a circle, rectangle, and triangle. They copy-paste the formula for each shape inside a long `if-elif` chain. Identify two specific problems this approach will cause when the program grows to 20 shapes.",
+     "a": "1. **Code duplication**: Each shape’s formula is repeated, so fixing a bug (e.g., using `3.14` instead of `math.pi`) requires editing 20 places. 2. **No reusability**: The area logic cannot be used in another program without copying the entire chain. A wrong answer focusing only on \"code becomes long\" misses the **maintenance** and **reusability** consequences that modular design directly solves.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a function and a module in Python. Give one example of when you would create a module instead of just a function.",
+     "a": "A **function** is a single reusable block of code within a file; a **module** is a `.py` file containing multiple related functions (and variables) that can be imported into other programs. You would create a module (e.g., `geometry.py`) when you have a **collection of related functions** (area, perimeter, volume) that belong together logically and need to be shared across multiple projects. A wrong answer that says \"modules are just bigger functions\" shows confusion between **physical organization** (files) and **logical units** (functions).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Using functions always makes a program run faster because the code is reused.\" Defend your position with reasoning.",
+     "a": "The statement is **false**. Functions may introduce a tiny overhead due to function call stack operations (pushing arguments, return address). Their primary benefits are **code organization, maintainability, and reduced development time**, not execution speed. In fact, excessive function calls in tight loops can slightly slow down a program. A student who agrees reveals a misconception that **reuse equals performance gain**, confusing **developer efficiency** with **runtime efficiency**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modular structure (list the functions/modules) for a \"Library Management System\" that handles book issue, return, fine calculation, and member registration. Justify why each is a separate function.",
+     "a": "Good answer includes at least 4 functions: `register_member()`, `issue_book()`, `return_book()`, `calculate_fine()`. Each has a **single responsibility**: member data handling, book status update, fine logic (which depends on days overdue), and returning book status. Justification should mention **separation of concerns**, **independent testing**, and **reuse** (e.g., `calculate_fine()` can be called from both `return_book()` and a separate \"view fine\" feature). A poor answer lumps everything into one `manage_library()` function, showing inability to **decompose a problem** into cohesive units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

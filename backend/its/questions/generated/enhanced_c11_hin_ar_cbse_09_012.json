@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_09_012",
+   "title": "c11_hin_ar_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"What does the poet say about the world?\"), while an inferential question requires combining textual clues to reach a conclusion not explicitly written (e.g., \"Why does the poet call the world a fleeting spectacle?\"). A wrong answer that merely says \"literal is easy, inferential is hard\" reveals the student confuses difficulty with the actual cognitive process; they have not grasped that inference is evidence-based reasoning, not guessing.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, Dadu says \"ge rkS ,d ,d dfj tkaukaA\" (We are all travelers on a journey). Is the question \"What does the poet compare human life to?\" literal or inferential? Explain your reasoning.",
+     "a": "It is a literal question because the metaphor \"dfj tkauka\" (travelers on a journey) is explicitly stated in the first line. A student who labels it inferential likely mistakes any figurative language for inference; they need to understand that identifying a directly quoted metaphor is retrieval, not deduction.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states: \"tSls ck<+h dk\"V gh dkVS vfxfu u dkVS dksbZA\" (Like a bubble of water, it bursts and is no more). Using this line, answer the inferential question: \"What does the bubble imagery suggest about the poet's view of worldly attachments?\" Show your evidence-reasoning chain.",
+     "a": "Evidence: The bubble is fragile, bursts instantly, and leaves nothing behind. Reasoning: The poet equates worldly life (dk\"V) to a bubble to convey its impermanence and insubstantiality; therefore, attachments to such a fleeting existence are futile. A wrong answer that says \"it means life is beautiful\" ignores the bursting action and shows the student is importing personal optimism instead of following the text's logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two questions from the textbook: (1) \"dchj dh n`f\"V esa bZ'oj ,d gSA blosQ leFkZu esa mUgksaus D;k roZQ fn, gSa\\\" and (2) \"ekuo 'kjhj dk fuekZ.k fdu iap rRoksa ls gqvk gS\\\"? Classify each and justify why the second demands a higher-order reading skill.",
+     "a": "Question 1 is literal — it asks for the poet's stated description of the world (bZ'oj) and the reasons he gives, which are listed in the poem. Question 2 is inferential — \"ekuo 'kjhj\" (human suffering) is not a phrase used in the poem; the student must synthesize multiple stanzas (the journey, the bubble, the thorn, the unfulfilled desires) to construct the causes. A student who treats both as literal will simply copy lines for Q2 without synthesizing, missing the analytical demand.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers Question 3 (\"blosQ vkèkkj ij crkb, fd dchj dh n`f\"V esa bZ'oj dk D;k Lo:i gS\\\") by writing: \"The poet says the world is false because it is like a bubble.\" Evaluate this answer: is it sufficient for an inferential question? Why or why not?",
+     "a": "The answer is insufficient. It states the metaphor (literal) but does not explain the *Lo:i* (nature/essence) — i.e., *why* the bubble comparison leads to the conclusion of falsity. A complete inferential answer must articulate the logical bridge: the bubble's instantaneous bursting proves the world lacks enduring substance, which is the definition of 'false' in the poet's vocabulary. A student who thinks this is sufficient confuses quoting evidence with explaining its implication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question based on the last two lines of the poem (\"fujHkS Hk;k dNw ufga C;kiS dgS dchj fnokaukaA\") that forces the examinee to connect the poet's personal resolve with the broader philosophical message. Provide the ideal answer structure.",
+     "a": "Question: \"Dadu declares he will not abandon his path even if his body perishes. What does this reveal about the relationship between spiritual conviction and mortal existence in his philosophy?\" Ideal structure: (1) Claim: Spiritual conviction transcends physical mortality. (2) Evidence: \"fujHkS Hk;k dNw ufga C;kiS\" (body may perish, but the resolve remains). (3) Reasoning: The poet separates the eternal pursuit (nhokuk) from the temporary vessel, asserting that truth-seeking is not contingent on bodily survival. A poor answer merely paraphrases the line without extracting the philosophical relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

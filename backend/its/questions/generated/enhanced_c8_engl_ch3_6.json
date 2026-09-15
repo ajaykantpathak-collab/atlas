@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_6",
+   "title": "c8_engl_ch3_6",
+   "questions": [
+    {
+     "q": "What is the central theme of \"The Case of the Fifth Word\" as discussed in this node?",
+     "a": "The central theme is that observation and logical reasoning are essential for solving mysteries. A wrong answer like \"the theme is about friendship\" reveals the student is confusing plot elements (Encyclopedia’s friendship with Sally) with the thematic focus, indicating they haven’t distinguished between what happens in the story and what the story is fundamentally saying about problem-solving.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how Encyclopedia Brown’s observation of a suspect’s wet shoe solves part of the mystery in the story, using your own words.",
+     "a": "He notices the suspect’s shoe is wet despite no rain, reasons that the suspect must have recently walked through a wet area (like near the stolen jewellery’s location), and uses this to challenge the suspect’s alibi. A wrong answer like \"he saw the shoe and knew the suspect was guilty\" shows the student misses the reasoning step—they recall observation but not how logical deduction turns the clue into evidence, indicating superficial comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, a character claims they were reading in the library at 2:45 PM. Encyclopedia knows the library clock stopped at 2:30 PM. How does he use logical reasoning to determine if this alibi is reliable? Show your steps.",
+     "a": "Step 1: Identify the given information—character’s alibi (library at 2:45 PM) and fact (library clock stopped at 2:30 PM).  \nStep 2: Recognize the concept—logical reasoning requires checking consistency between statements and known facts.  \nStep 3: Apply reasoning—if the clock stopped at 2:30, it cannot show 2:45; any time after 2:30 on that clock is impossible.  \nStep 4: Analyze—the character’s claim of being there at 2:45 contradicts the broken clock, so the alibi is fabricated.  \nStep 5: Verify—this reveals the character was likely elsewhere (e.g., at the crime scene), advancing the solution.  \nA wrong answer stopping at \"the clock is broken\" fails to apply reasoning to the alibi, showing the student can recall facts but not use them deductively to evaluate claims.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Encyclopedia uses observation in the jewellery store scene versus logical reasoning in the confrontation scene. How do these uses together develop the theme?",
+     "a": "In the jewellery store, he observes details like the position of broken glass and shoe prints; in the confrontation, he reasons that the prints match the suspect’s shoes and the glass direction indicates an inside job. Together, they show observation gathers evidence while reasoning interprets it—both are indispensable for solving the mystery. A wrong answer focusing only on \"he saw clues and thought hard\" misses the complementary roles, revealing the student doesn’t grasp how observation and reasoning function as a combined process in theme development.",
+     "self_check": true
+    },
+    {
+     "q": "Some readers think the mystery’s solution is too obvious after it’s revealed. Evaluate whether the story effectively uses observation and logical reasoning to make the solution fair and satisfying, using evidence from the text.",
+     "a": "The solution is fair because all clues (e.g., the mismatched watch time, the direction of footprints) are observable by attentive readers before the reveal, and Encyclopedia’s reasoning follows logical steps anyone could replicate. For example, when he notes the suspect claimed to be indoors during rain but had dry hair, readers can similarly reason this indicates lying. A wrong answer claiming \"it’s obvious only after he explains it\" ignores that the text plants observable evidence throughout, showing the student misunderstands how detective fiction invites reader participation in reasoning—evaluating requires judging if the process was transparent, not just if the outcome seemed simple.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence mystery scenario where observing a specific detail (not a person’s action) and applying logical reasoning are crucial to solving it. Briefly explain why both elements are necessary.",
+     "a": "Example: \"The library’s rare book was missing, but the window was latched and the dust on the sill undisturbed. Maya reasoned the thief must have used the spare key kept under the mat, since only someone with access could enter without disturbing the dust.\" A poor answer like \"Someone stole the book because they wanted it\" lacks both a specific observable detail (dust, latch) and reasoning steps, revealing the student doesn’t understand that mysteries require concrete evidence and deductive links—not just motive speculation—to be solvable through observation and reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

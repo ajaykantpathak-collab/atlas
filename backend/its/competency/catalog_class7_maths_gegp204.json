@@ -1,0 +1,234 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Another Peek Beyond the Point",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.4.1",
+   "title": "Decimals: Beyond the Point, Again",
+   "section": "Another Peek Beyond the Point",
+   "definition": "A second peek beyond the point extends the story to longer decimals: place values continue through tenths, hundredths and thousandths, and everyday measures like 2.75 litres get exact decimal homes.",
+   "formula": "",
+   "key_idea": "The point opens an endless street of places: each step right divides by ten again.",
+   "textbook_ref": "gegp204.txt, Another Peek Beyond the Point",
+   "question_patterns": [
+    "write the place value of each digit in 23.456",
+    "read 5.07 in words using tenths and hundredths",
+    "which is greater 6.105 or 6.15",
+    "write 4 thousandths as a decimal",
+    "expand 12.304 using place values",
+    "give a daily life measure written as a decimal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.4.2",
+   "title": "Multiplying Decimals by Powers of Ten",
+   "section": "Multiplying by 10 and 100",
+   "definition": "Multiplying a decimal by 10, 100 or 1000 simply shifts the point one, two or three places to the right, because each shift multiplies every place value by ten.",
+   "formula": "result = d * k",
+   "key_idea": "Powers of ten move the point without touching the digits: the digits stay, the point travels.",
+   "textbook_ref": "gegp204.txt, Multiplying by 10 and 100",
+   "question_patterns": [
+    "multiply 2.45 by 10",
+    "find 0.6 x 100",
+    "what happens to the point when we multiply by 1000",
+    "multiply 3.075 by 10 and read the answer",
+    "convert 4.5 metres into centimetres by shifting the point",
+    "why does multiplying by 10 shift the point one place"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the shift rule",
+     "explain": "Each power of ten shifts the point one more place to the right.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "shift the point",
+     "explain": "Move the point by as many places as the power of ten.",
+     "compute": "result = d * k"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.4.3",
+   "title": "Adding and Subtracting Decimals",
+   "section": "Addition and subtraction of decimals",
+   "definition": "Decimal sums and differences are safe when the points are aligned: tenths fall under tenths and hundredths under hundredths, and empty places are filled with zeros before adding or subtracting.",
+   "formula": "result = a + b",
+   "key_idea": "Aligned points align places: once columns match, decimal addition is ordinary column addition.",
+   "textbook_ref": "gegp204.txt, Addition and subtraction of decimals",
+   "question_patterns": [
+    "add 4.75 and 2.5",
+    "subtract 3.8 from 9.2",
+    "add 0.75, 2.6 and 1.305",
+    "why do we fill zeros while adding decimals",
+    "find the change from 50 rupees after buying items of 21.5 and 18.75",
+    "check a decimal subtraction by adding back"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "align the points",
+     "explain": "Write both numbers with points in one column, filling zeros where needed.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the columns",
+     "explain": "Add place by place from the right; the point stays in its column.",
+     "compute": "result = a + b"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.4.4",
+   "title": "Comparing and Ordering Decimals",
+   "section": "Comparing decimals",
+   "definition": "Decimals are compared place by place from the left: equal whole parts are decided by tenths, then hundredths, and trailing zeros like 4.50 and 4.5 name the same number.",
+   "formula": "",
+   "key_idea": "Longer is not bigger: a decimal with more digits may still be smaller, so places decide, not lengths.",
+   "textbook_ref": "gegp204.txt, Comparing decimals",
+   "question_patterns": [
+    "arrange 3.5 3.05 and 3.55 in increasing order",
+    "which is bigger 7.2 or 7.09",
+    "is 4.50 equal to 4.5 explain",
+    "compare 0.6 and 0.58 place by place",
+    "place these decimals on a number line 1.2 1.25 1.1",
+    "why is the length of a decimal not a measure of its size"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp204.txt",
+   "concept": "gegp2.4.1",
+   "question_type": "compute",
+   "question_pattern": "Multiply 2.45 by 10 by shifting the point.",
+   "extracted_variables": {
+    "d": "the decimal number",
+    "k": "the multiplying power of ten"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the shift rule",
+     "explain": "Multiplying by 10 moves the point one place right; by 100, two places.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "shift the point",
+     "explain": "Move the point as many places as the power of ten.",
+     "compute": "result = d * k"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp204.txt",
+   "concept": "gegp2.4.1",
+   "question_type": "compute",
+   "question_pattern": "Multiply 0.6 by 100 by shifting the point.",
+   "extracted_variables": {
+    "d": "the decimal number",
+    "k": "the multiplying power of ten"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the shift rule",
+     "explain": "Multiplying by 100 shifts the point two places to the right.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "shift the point",
+     "explain": "0.6 becomes 60 after the two-place shift.",
+     "compute": "result = d * k"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp204.txt",
+   "concept": "gegp2.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "add 4.75 and 2.5.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp204.txt, Figure it Out",
+   "questions": [
+    "Multiply 2.45 by 10.",
+    "Add 4.75 and 2.5.",
+    "Arrange 3.5, 3.05 and 3.55 in increasing order.",
+    "Is 4.50 equal to 4.5? Explain.",
+    "Write the place value of each digit in 23.456."
+   ]
+  }
+ ]
+}

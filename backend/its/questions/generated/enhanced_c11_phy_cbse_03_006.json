@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_006",
+   "title": "c11_phy_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the magnitude and direction of the vector –3**A** if **A** has magnitude 4 units and points north.",
+     "a": "Magnitude = 12 units, direction = south. A wrong answer (e.g., magnitude 12 units but direction north) reveals the student thinks a negative scalar only changes magnitude, not direction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying a velocity vector (m/s) by a time scalar (s) yields a displacement vector (m), and why the direction of the displacement is the same as the velocity.",
+     "a": "The product’s dimensions are (m/s)×s = m, which is length. Since time is a positive scalar (λ > 0), the direction of λ**v** is exactly the direction of **v**. A wrong answer that says direction changes or dimensions are m/s² shows confusion between scalar multiplication and differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A force vector **F** = (3î + 4ĵ) N is multiplied by a scalar λ = –2. Find the magnitude and direction of the resultant vector.",
+     "a": "**F** magnitude = 5 N. λ**F** = –6î – 8ĵ N. Magnitude = |λ|×|**F**| = 2×5 = 10 N. Direction: opposite to **F** (angle with +x axis = 180° + tan⁻¹(4/3) ≈ 233°). A wrong magnitude of 10 N but direction same as **F** indicates the student ignored the sign of λ.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **A** and **B** satisfy **A** + **B** = **0**. If **A** is multiplied by 3 and **B** by –2, what is the magnitude of the resultant vector 3**A** – 2**B** in terms of |**A**|?",
+     "a": "From **A** + **B** = **0**, **B** = –**A**. Then 3**A** – 2**B** = 3**A** – 2(–**A**) = 5**A**. Magnitude = 5|**A**|. A wrong answer like |**A**| or 3|**A**| shows the student did not substitute **B** = –**A** correctly or mishandled the negative scalar.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Multiplying any vector by zero gives a vector of magnitude zero but with the same direction as the original vector.” Evaluate this statement.",
+     "a": "False. 0**A** = **0** (null vector) whose magnitude is zero and direction is undefined. The student incorrectly assigns a direction to the null vector. This reveals a misunderstanding of the definition of the null vector.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple real‑world scenario (using an Indian context) where a vector is multiplied by a negative scalar, and describe the physical meaning of the result.",
+     "a": "Example: A train moving north at 30 m/s applies emergency brakes and reverses direction at 10 m/s south. The velocity vector **v** = 30ĵ m/s is multiplied by λ = –1/3 to give **v'** = –10ĵ m/s. The negative scalar represents reversal of direction. A poor answer would omit the physical interpretation of the sign change or use a scalar without units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_006",
+   "title": "c10_math_cbse_12_006",
+   "questions": [
+    {
+     "q": "A solid is formed by cutting a right circular cone of height 12 cm and base radius 6 cm with a plane parallel to the base at a distance of 4 cm from the base. The top smaller cone is removed. What is the name of the remaining solid, and how many circular faces does it have?",
+     "a": "The remaining solid is called a frustum of a right circular cone. It has exactly two circular faces: the original base (radius 6 cm) and the newly cut top face (radius 2 cm, by similarity). A wrong answer like \"truncated cone\" or \"one circular face\" reveals the student does not know the precise mathematical term \"frustum\" or misunderstands that the cut creates a second circular face. Some students incorrectly say \"three faces\" counting the curved surface as a face.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the cutting plane MUST be parallel to the base of the original cone for the resulting solid to be called a frustum of a right circular cone. What happens to the top face if the plane is tilted?",
+     "a": "The plane must be parallel to the base so that the cross-section is a circle concentric with the base (sharing the same axis), ensuring the solid has two parallel circular faces and a uniform slant height. If the plane is tilted, the cross-section is an ellipse, not a circle — the resulting solid is a truncated cone but NOT a frustum of a right circular cone. A wrong answer like \"it doesn't matter\" or \"the top face becomes a smaller circle\" reveals the student does not understand that parallel cutting preserves circular cross-sections and the definition requires two parallel circular bases.",
+     "self_check": true
+    },
+    {
+     "q": "In a frustum of a cone, the larger base radius is R = 10 cm, the smaller top radius is r = 4 cm, and the vertical height is h = 6 cm. The original cone had height H. Using similar triangles, find H and the height of the removed small cone.",
+     "a": "Let H be the original cone height. The removed cone has height (H - 6). By similarity of the original cone and removed cone: R/H = r/(H-6) → 10/H = 4/(H-6) → 10(H-6) = 4H → 10H - 60 = 4H → 6H = 60 → H = 10 cm. Removed cone height = H - h = 10 - 6 = 4 cm. A wrong answer like H = 15 cm or using R/r = h/(H-h) incorrectly reveals the student cannot set up the correct proportion from similar triangles — they confuse which heights correspond to which radii.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a frustum and labels the slant height as the straight-line distance between the outer edges of the two circular rims measured along the curved surface. Another student says the slant height is the straight-line distance in 3D space between a point on the top rim and the corresponding point on the bottom rim (through the interior). Which is correct? Justify using the net of the frustum.",
+     "a": "The first student is correct. The slant height l of a frustum is the distance along the lateral (curved) surface between corresponding points on the two circular rims — it is a generator of the original cone. When the lateral surface is cut and flattened, it forms a sector of an annulus, and l becomes the radial width of that annulus. The straight-line 3D distance through the interior is shorter and is NOT the slant height. A wrong answer choosing the interior distance reveals the student confuses slant height with a chord or spatial diagonal and has not visualized the net of the frustum.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher shows a solid with two circular faces of radii 5 cm and 3 cm, height 8 cm, but the centres of the two circles are offset by 2 cm (not aligned on the same axis). The teacher calls it a frustum of a cone. Evaluate this statement and identify the error.",
+     "a": "The statement is incorrect. A frustum of a right circular cone requires the two circular faces to be parallel AND coaxial (their centres lie on the same straight line, the axis of the original cone). Offset centres mean the cutting plane was parallel to the base but the original cone was oblique, OR the cut was not parallel to the base. In either case, it is not a frustum of a RIGHT circular cone — it's a frustum of an oblique cone or a general truncated cone. The error is assuming \"two circular faces\" alone defines a frustum; coaxiality is essential.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life object (not a bucket, glass, or lampshade) that is shaped like a frustum of a cone. Specify its approximate dimensions (R, r, h) and explain why the frustum shape is functionally better than a cylinder or a full cone for this object.",
+     "a": "Example: A flower pot with R = 15 cm (top), r = 10 cm (bottom), h = 20 cm. The frustum shape allows: (1) wider top for plant growth and soil volume, (2) narrower bottom for stability and less soil weight, (3) stackability for storage (frustums nest inside each other, cylinders don't), (4) drainage hole at the smaller bottom centre. A cylinder would waste soil at the bottom; a full cone would be unstable and hold less soil. A poor answer gives dimensions but no functional justification, or suggests a cylinder would work equally well, showing lack of applied geometric reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_003",
+   "title": "c12_cs_cbse_13_003",
+   "questions": [
+    {
+     "q": "A student writes: \"E-waste is any broken electronic device.\" Is this definition complete? If not, what critical element is missing that determines whether a device legally qualifies as e-waste under the E-Waste (Management) Rules, 2016?",
+     "a": "No, the definition is incomplete. The missing critical element is **\"end of life\" / \"discarded by the consumer\"** — the device must be *waste*, i.e., the owner has intentionally disposed of it or it is no longer fit for its original purpose. A broken device under repair or a functional device donated for reuse is *not* e-waste. Wrong answers reveal the student conflates \"broken\" with \"waste,\" ignoring the legal and lifecycle distinction central to the Rules' scope (Schedule I lists specific equipment *when they become waste*).",
+     "self_check": true
+    },
+    {
+     "q": "Why is burning insulated copper wires in the informal sector to recover copper considered more hazardous than the copper itself? Explain the specific chemical reaction and the primary toxic byproduct formed.",
+     "a": "Burning polyvinyl chloride (PVC) insulation at low temperatures (200–400°C) in open air causes incomplete combustion, producing **dioxins and furans** (polychlorinated dibenzo-p-dioxins/dibenzofurans) — persistent organic pollutants (POPs) that are carcinogenic, bioaccumulative, and endocrine disruptors. Copper metal itself is relatively low-toxicity; the hazard comes from the *process* liberating chlorinated organics. Wrong answers typically cite \"copper fumes\" or \"lead,\" missing the PVC → dioxin pathway, which is the hallmark of informal wire recycling.",
+     "self_check": true
+    },
+    {
+     "q": "A school collects 200 kg of mixed e-waste (CRT monitors, laptops, mobile chargers, UPS batteries) for a recycling drive. They hand it to a vendor who claims \"100% recycling.\" List **three specific questions** the school must ask to verify the vendor is an authorized recycler complying with the 2016 Rules, and state the documentary proof required for each.",
+     "a": "1. **\"Do you have a valid Authorization from the State Pollution Control Board (SPCB) under Rule 13?\"** → Proof: Copy of Authorization certificate (Form 1(a)) with validity date.  \n2. **\"Will you issue a Certificate of Destruction/Recycling for each batch?\"** → Proof: Signed Certificate (Form 6) with batch weight, date, and recycler's authorization number.  \n3. **\"How do you handle the leaded glass from CRTs and the electrolyte from UPS batteries?\"** → Proof: Manifest (Form 7) showing transfer to a *separately authorized* downstream facility (e.g., lead smelter for glass, battery recycler for electrolyte).  \nWrong answers ask only for \"license\" or \"GST number,\" missing the e-waste-specific SPCB authorization and downstream traceability requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of **landfilling** vs **incineration** for the plastic fraction of e-waste (ABS, HIPS, PC). Which is worse under Indian conditions and why? Consider leachate, air emissions, and resource loss.",
+     "a": "**Incineration is worse** under typical Indian conditions.  \n- **Landfilling**: Plastics are inert; they occupy volume but do not readily leach toxins *unless* brominated flame retardants (BFRs) migrate over decades. Modern lined landfills (rare in India) contain leachate.  \n- **Incineration**: Open/low-temperature burning (common in informal sector) releases **brominated dioxins/furans** (from BFRs like deca-BDE) and **polycyclic aromatic hydrocarbons (PAHs)**. Even \"controlled\" incinerators without advanced flue-gas cleaning (activated carbon, SCR) emit POPs.  \n- **Resource loss**: Both lose the calorific value and polymer recyclability, but incineration destroys the material entirely while landfilling theoretically allows future mining.  \nWrong answers claim \"landfilling is worse because plastics don't degrade,\" ignoring the acute toxicity of combustion byproducts from BFRs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Extended Producer Responsibility (EPR) under the 2016 Rules makes manufacturers solely responsible for e-waste, so consumers have no role.\" Is it true, false, or partially true? Justify with specific Rules references.",
+     "a": "**Partially true / False.** EPR (Rule 4) places *primary* responsibility on producers for **collection, channelization, and financing** of end-of-life management **but** Rule 9 explicitly assigns duties to **consumers/bulk consumers**: (a) channelize e-waste only to authorized recyclers/dismantlers, (b) maintain records (Form 2), (c) file annual returns. Consumers are *not* financially liable, but they are legally obligated to *not* dump e-waste in municipal bins or give it to informal collectors. Wrong answers say \"true\" (ignoring consumer duties) or \"false\" (ignoring producer's primary financial/operational burden), missing the shared-responsibility architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **school-level e-waste collection campaign** that complies with the 2016 Rules and maximizes diversion from the informal sector. Your plan must specify: (a) collection categories (Schedule I codes), (b) authorized partner selection criteria, (c) data tracking method, and (d) one awareness activity that addresses a specific behavioral barrier.",
+     "a": "**Sample Plan:**  \n(a) **Categories**: ITEW1 (PCs/laptops), ITEW2 (mobile phones), ITEW3 (chargers/cables), CEEW5 (TVs/monitors) — only Schedule I items.  \n(b) **Partner**: Must hold valid SPCB Authorization (Form 1(a)), provide GPS-tracked vehicle for pickup, issue Form 6 certificates per batch, and show downstream vendor list for CRT glass/batteries.  \n(c) **Tracking**: Digital log (Google Form/Excel) with fields: Date, Item Code, Weight (kg), Serial No. (if any), Collector ID, Form 6 Ref. No. — uploaded to school website monthly.  \n(d) **Awareness Activity**: \"Exchange Week\" — students deposit old chargers/earphones (ITEW3) and receive a **repaired/refurbished accessory** (collected from previous drives, tested by IT club). Addresses barrier: *\"My old charger works fine, why give it away?\"* by demonstrating **reuse > recycle** and giving immediate tangible value.  \nPoor answers list generic \"posters\" or \"talks\" without linking to a specific behavioral barrier or Rules-compliant documentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

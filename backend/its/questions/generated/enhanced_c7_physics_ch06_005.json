@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_005",
+   "title": "c7_physics_ch06_005",
+   "questions": [
+    {
+     "q": "What is the angle of Earth's axial tilt relative to the plane of its orbit around the Sun?",
+     "a": "Earth's axis is tilted at an angle of $23.5^\\circ$. A student who answers $90^\\circ$ is confusing the axial tilt with the angle between Earth's orbital plane and its axis, while a student who answers $0^\\circ$ believes Earth stands straight up and down, missing the primary reason we have seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why direct sunlight feels hotter than slanted sunlight, even though the Sun is the same distance away.",
+     "a": "Direct sunlight concentrates its energy over a smaller surface area, delivering more thermal energy per square meter ($\\text{W/m}^2$), whereas slanted sunlight spreads the exact same energy over a much larger area. A student who thinks the Earth gets closer to the Sun in summer is confusing Earth's elliptical orbit distance with the effect of the axial tilt.",
+     "self_check": true
+    },
+    {
+     "q": "If the Northern Hemisphere is tilted away from the Sun in December, calculate the approximate angle of incidence of sunlight at noon in New Delhi ($28.6^\\circ\\text{ N}$) compared to a location on the Equator, assuming the Sun's direct rays are at the Tropic of Capricorn ($23.5^\\circ\\text{ S}$).",
+     "a": "Step 1: Identify latitudes: New Delhi is $28.6^\\circ\\text{ N}$, Equator is $0^\\circ$, Tropic of Capricorn is $23.5^\\circ\\text{ S}$.\nStep 2: Find the total angular distance from the direct ray position ($23.5^\\circ\\text{ S}$) to New Delhi: $28.6^\\circ + 23.5^\\circ = 52.1^\\circ$ away from the vertical.\nStep 3: Subtract from the maximum overhead angle ($90^\\circ$): $90^\\circ - 52.1^\\circ = 37.9^\\circ$ above the southern horizon at noon.\nStep 4: For the Equator: angular distance is $23.5^\\circ$, so noon angle is $90^\\circ - 23.5^\\circ = 66.5^\\circ$.\nStep 5: Compare: New Delhi receives much more slanted rays ($37.9^\\circ$ altitude) than the Equator ($66.5^\\circ$ altitude), resulting in winter conditions. A student who forgets to add the latitudes together will miscalculate the solar altitude and fail to see why winter temperatures drop.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what would happen to the seasons on Earth if its axis were not tilted at all ($0^\\circ$ tilt) while it still revolved around the Sun.",
+     "a": "Without an axial tilt, every latitude on Earth would receive the exact same angle of sunlight and day length throughout the entire year, resulting in no seasonal changes anywhere on the planet, though daily temperature cycles would remain. A student who answers that seasons would still occur because of the distance from the Sun ignores the scientific fact that Earth's orbit is nearly circular and distance plays a negligible role in seasons compared to tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India experiences summer in May because Earth's elliptical orbit brings it closest to the Sun during that month.\" Is this correct, and why?",
+     "a": "The statement is incorrect. Earth is actually closest to the Sun (perihelion) in early January, which is winter in India, and farthest (aphelion) in July, which is summer in India. This proves that Earth's distance from the Sun does not cause seasons; rather, the 23.5-degree axial tilt determines which hemisphere receives direct, concentrated sunlight. A student who agrees with the statement fails to understand that Earth's orbit has minimal eccentricity and that seasons are opposites in the Northern and Southern Hemispheres.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom model using a globe and a table lamp to demonstrate why the North Pole experiences six months of continuous darkness while the South Pole experiences six months of continuous daylight.",
+     "a": "To design this model, place a stationary lamp representing the Sun in the center of a table. Hold the globe at a fixed $23.5^\\circ$ tilt and walk it in a circle around the lamp while keeping the axis pointing in the exact same direction in space. When the North Pole is tilted away from the lamp, observe that it remains completely in shadow even as the globe spins on its axis (representing rotation), demonstrating 24 hours of darkness. A poor answer would involve rotating the globe without keeping the axis parallel, or moving the lamp instead of the globe, which breaks the physical laws of Earth's orbital mechanics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

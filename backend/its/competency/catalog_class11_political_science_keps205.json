@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 205,
+  "chapter_title": "Legislature",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps205.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps205.1.1",
+      "title": "Why Do We Need a Parliament?",
+      "section": "1.1",
+      "definition": "A legislature concentrates the people's representatives in one chamber where laws are debated, governments are questioned and public grievances get a hearing. It institutionalises disagreement: instead of settling conflicts in the street, a democracy argues them out on the floor of the house and decides by voting.",
+      "formula": "",
+      "key_idea": "Parliament is the debating floor of the nation -- where conflict becomes law through argument and vote.",
+      "textbook_ref": "keps205.txt lines 15-110 (introduction, why do we need a parliament, legislative function, deliberation and representation, institutional expression of differences)",
+      "question_patterns": [
+        "why does a democracy need a parliament",
+        "in class 11 legislature chapter: what functions does a parliament perform besides law making",
+        "how does parliament provide a platform for debating national issues",
+        "explain why legislatures are called representative institutions",
+        "how does parliament control the executive",
+        "can a country function without a legislature"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "locate the law power", "explain": "Only parliament may make, amend and repeal ordinary law, making it the central law-making organ."},
+        {"step": 2, "action": "locate the control power", "explain": "Questions, motions, committees and budget votes keep the executive continuously answerable."},
+        {"step": 3, "action": "locate the deliberative role", "explain": "As the elected microcosm of society, parliament publicly debates grievances and alternatives, legitimising whatever is decided."}
+      ]
+    },
+    {
+      "id": "keps205.1.2",
+      "title": "Two Houses of Parliament: Lok Sabha and Rajya Sabha",
+      "section": "1.2",
+      "definition": "India's Parliament has two chambers. The Lok Sabha is directly elected for five years and holds the purse and confidence powers. The Rajya Sabha represents the states, with members elected indirectly by state legislatures for six-year staggered terms; it can delay and revise ordinary legislation and alone can authorise Parliament to legislate on state subjects.",
+      "formula": "",
+      "key_idea": "One house answers to the people now; the other guards the states and continuity -- bicameralism balances both.",
+      "textbook_ref": "keps205.txt lines 110-230 (two houses of parliament, lok sabha composition and term, rajya sabha composition election and permanence, special powers)",
+      "question_patterns": [
+        "compare the composition and powers of the lok sabha and rajya sabha",
+        "in class 11 legislature chapter: why is the rajya sabha called a permanent house",
+        "which house controls money bills and how",
+        "how are members of the rajya sabha elected",
+        "what special power does the rajya sabha have over state list subjects",
+        "what happens when the two houses disagree over a bill"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "contrast the bases", "explain": "Lok Sabha: direct election, five-year term, population-based seats. Rajya Sabha: indirect election by MLAs, six-year terms, one-third retiring, never dissolved."},
+        {"step": 2, "action": "contrast the powers", "explain": "Money bills and confidence of the house belong to the Lok Sabha; the Rajya Sabha adds state-interest review and the Article 249 power over state subjects."},
+        {"step": 3, "action": "resolve deadlocks", "explain": "A joint sitting, where Lok Sabha numbers dominate, settles ordinary bills the two houses cannot agree on."}
+      ]
+    },
+    {
+      "id": "keps205.1.3",
+      "title": "Powers of Parliament: Law-Making and Control over Executive",
+      "section": "1.3",
+      "definition": "Parliament legislates on union and concurrent lists and, under special conditions, state subjects; it alone sanctions taxation and spending through the budget. Its control weapons include question hour, zero hour, censure and no-confidence motions, adjournment motions, and standing committees that scrutinise ministry working in detail.",
+      "formula": "",
+      "key_idea": "Purse, laws and question time -- parliament's levers over government run from budgets to no-confidence.",
+      "textbook_ref": "keps205.txt lines 230-360 (legislative powers, control over executive, question hour, zero hour, motions, parliamentary committees, budget and money bill)",
+      "question_patterns": [
+        "explain how parliament controls the executive",
+        "in class 11 legislature chapter: what is question hour and zero hour",
+        "describe the stages of passing an ordinary bill in parliament",
+        "how does parliament exercise control over public finance",
+        "what is a no confidence motion and what does it lead to",
+        "what role do parliamentary committees play in scrutinising government"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "follow a bill", "explain": "Introduction, committee scrutiny, three readings in each house, presidential assent -- the pipeline of ordinary legislation."},
+        {"step": 2, "action": "follow the money", "explain": "No tax or expenditure without parliamentary sanction; money bills originate only in the Lok Sabha."},
+        {"step": 3, "action": "watch the daily checks", "explain": "Question hour demands answers, zero hour raises urgent matters, and motions can censure or topple the government."}
+      ]
+    },
+    {
+      "id": "keps205.1.4",
+      "title": "Declining Effectiveness of Parliament: Debates and Debates",
+      "section": "1.4",
+      "definition": "Critics note a gap between Parliament's design and its practice: declining deliberation, disruptions, anti-defection squeezing individual MPs' judgement, and the executive's dominance over the calendar and business. Defenders answer that committees still work, and accountability survives through scrutiny and elections -- the debate over parliamentary effectiveness remains open.",
+      "formula": "",
+      "key_idea": "Designed as the master, often reduced to a rubber stamp -- the health of parliament decides the health of democracy.",
+      "textbook_ref": "keps205.txt lines 360-470 (parliamentary procedures, decline of parliament thesis, anti defection law, dominance of executive, defence of parliamentary working)",
+      "question_patterns": [
+        "why is the effectiveness of parliament said to be declining",
+        "in class 11 legislature chapter: how does the anti defection law affect parliamentary debate",
+        "does the executive dominate parliament in practice",
+        "what role do parliamentary committees play in maintaining effectiveness",
+        "compare the debating role of parliament with its law making record",
+        "suggest measures to strengthen the working of parliament"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the symptoms", "explain": "Shorter sittings, disrupted debates, rushed bills and party-line voting mark the decline case."},
+        {"step": 2, "action": "list the defences", "explain": "Committee scrutiny, question hour records, and the electoral connection keep parliament consequential."},
+        {"step": 3, "action": "evaluate the balance", "explain": "Institutional design matters less when convention weakens; restoring deliberation needs both procedural reform and political will."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps205.txt lines 110-230 (two houses)",
+      "concept": "keps205.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "An ordinary bill passes the Lok Sabha but is repeatedly amended and delayed by the Rajya Sabha. What constitutional mechanisms resolve this standoff?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the deadlock provision", "explain": "For ordinary bills, the President may summon a joint sitting of both houses."},
+        {"step": 2, "action": "predict the outcome", "explain": "Decisions at the joint sitting go by majority of total members present, where the directly elected Lok Sabha's larger numbers prevail."},
+        {"step": 3, "action": "note the limits", "explain": "Money bills need no such remedy -- the Rajya Sabha can only recommend changes the Lok Sabha may reject."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps205.txt lines 230-360 (control over executive)",
+      "concept": "keps205.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A minister gives an evasive answer about a scandal in question hour. What further parliamentary tools can members use to hold the government to account?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "escalate within the floor", "explain": "Members may raise the matter in zero hour, move adjournment or censure motions, and seek debate under calling attention."},
+        {"step": 2, "action": "use institutional scrutiny", "explain": "Committees can summon papers and officials, examining the ministry beyond the glare of the house."},
+        {"step": 3, "action": "note the ultimate weapon", "explain": "If the house loses confidence, a no-confidence motion removes the government itself."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps205.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Explain why a democracy needs a legislature.",
+        "Compare the powers of the Lok Sabha and the Rajya Sabha with special reference to money bills.",
+        "Describe the stages through which an ordinary bill becomes law in Parliament.",
+        "Explain the devices through which Parliament controls the executive.",
+        "Is the Rajya Sabha a useless second chamber? Present arguments on both sides.",
+        "Discuss the statement that the role of Parliament has declined in recent decades."
+      ]
+    }
+  ]
+}

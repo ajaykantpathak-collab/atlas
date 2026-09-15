@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_082",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_082",
+   "title": "c6_math_ch07_082",
+   "questions": [
+    {
+     "q": "If a transversal cuts two parallel lines, how do we describe angles that are on the same side of the transversal and in the same relative position at each intersection?",
+     "a": "These are called corresponding angles. A wrong answer (like \"alternate\") suggests the student is mixing up the visual pattern; they likely need to re-draw the intersections and color-code the \"top-left\" or \"bottom-right\" positions to see the match.",
+     "self_check": true
+    },
+    {
+     "q": "If you have two parallel lines and a transversal, and you know one angle is 60°, how can you determine the measure of its co-interior angle?",
+     "a": "You subtract 60° from 180° to get 120°. A wrong answer suggests the student thinks all angles created by a transversal are equal; they need to practice distinguishing between equal pairs (corresponding/alternate) and supplementary pairs (co-interior).",
+     "self_check": true
+    },
+    {
+     "q": "A transversal crosses two parallel lines. One angle is 110°. What is the measure of its vertically opposite angle, and what is its alternate interior angle?",
+     "a": "Both are 110°. A wrong answer indicates the student is not yet comfortable with the \"equal\" property of vertically opposite or alternate angles; they should review the \"Z-pattern\" for alternate angles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare corresponding angles and co-interior angles. Which pair is always equal, and which pair always adds up to 180 degrees?",
+     "a": "Corresponding angles are always equal, while co-interior angles add up to 180°. A wrong answer shows confusion between the two properties, often caused by trying to memorize definitions instead of visualizing the \"opening\" of the angles.",
+     "self_check": true
+    },
+    {
+     "q": "If a line crosses two lines and the alternate interior angles are NOT equal, what can you conclude about the two lines?",
+     "a": "The lines are not parallel. A student answering \"they are still parallel\" is missing the core logic that the properties of angles only hold true when the lines are parallel.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a diagram with two parallel lines and a transversal. Label an acute angle as 50°. Can you create a puzzle for a friend using this angle to find all other 7 angles?",
+     "a": "The student should label the 50° angle and correctly identify that the other angles must be either 50° or 130° (180-50). A poor answer fails to identify the supplementary nature of adjacent angles on a line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

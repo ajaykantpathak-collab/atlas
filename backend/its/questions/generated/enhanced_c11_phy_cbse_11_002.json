@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_002",
+   "title": "c11_phy_cbse_11_002",
+   "questions": [
+    {
+     "q": "State the Zeroth Law of Thermodynamics in your own words and name the thermodynamic variable it allows us to define.",
+     "a": "The Zeroth Law: If system A is in thermal equilibrium with system C, and system B is also in thermal equilibrium with system C, then A and B are in thermal equilibrium with each other. This law permits the definition of temperature (T) as the macroscopic variable that has the same value for systems in thermal equilibrium. A wrong answer (e.g., citing the First Law or saying \"heat becomes equal\") reveals confusion between energy conservation and the logical foundation of temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical gas cylinders A and B are connected by a thin copper tube (diathermic). Initially, cylinder A is at 300 K and 2 atm, while cylinder B is at 400 K and 1 atm. Describe qualitatively how the pressures and temperatures evolve with time and what the final equilibrium condition will be.",
+     "a": "Heat flows from B (hotter) to A (colder) through the copper tube. Temperatures change until both cylinders reach a common final temperature T_f (between 300 K and 400 K). Pressures also adjust (since volumes are fixed) until both cylinders attain the same final pressure P_f. The final state is thermal equilibrium: T_A = T_B = T_f and P_A = P_B = P_f. A wrong answer claiming pressures equalize first or that temperatures remain different indicates misunderstanding that thermal equilibrium requires equality of temperature, not pressure, and that the process is driven by temperature difference.",
+     "self_check": true
+    },
+    {
+     "q": "Three systems X, Y, Z are prepared such that X and Y are separated by an adiabatic wall, while Y and Z are separated by a diathermic wall. Initially, T_X = 350 K, T_Y = 300 K, T_Z = 300 K. The adiabatic wall between X and Y is suddenly replaced by a diathermic wall while Y-Z remain diathermic. Predict the final temperatures of X, Y, Z after a long time.",
+     "a": "Initially Y and Z are in thermal equilibrium (both 300 K). After the wall change, all three are in mutual diathermic contact. Heat flows from X (350 K) to Y and Z until a common final temperature T_f is reached. By energy conservation (First Law preview), T_f will be between 300 K and 350 K, weighted by heat capacities. The final condition: T_X = T_Y = T_Z = T_f. A student answering T_X = 350 K, T_Y = T_Z = 300 K fails to recognize that the new diathermic contact allows heat flow and that thermal equilibrium is transitive.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"Two systems at the same pressure are always in thermal equilibrium.\" Is it true or false? Justify using the definitions of thermal equilibrium and the Zeroth Law.",
+     "a": "False. Thermal equilibrium is defined by the absence of net heat flow when systems are connected by a diathermic wall, which occurs only when their temperatures are equal. Pressure equality does not guarantee temperature equality (e.g., two different gases at same P and V can have different T if their amounts differ). The Zeroth Law identifies temperature, not pressure, as the equilibrium tag. A student saying \"true\" confuses mechanical equilibrium (equal pressure) with thermal equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Zeroth Law is obvious and doesn't need to be stated as a law because transitivity is a mathematical property of equality.\" Evaluate this claim in the context of physics.",
+     "a": "The claim is incorrect. Transitivity of equality is a mathematical axiom, but thermal equilibrium is a physical relation defined by experimental observation (no heat flow via diathermic contact). The Zeroth Law asserts that this physical relation *is* transitive, which is not logically necessary – it is an empirical fact about nature. Without it, temperature could not be consistently defined as a single-valued state function. A student accepting the claim misses the distinction between mathematical logic and physical law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only three metal blocks (A, B, C), a thermometer, and insulating stands to verify the Zeroth Law. Outline the procedure, measurements, and the criterion for confirmation.",
+     "a": "Procedure: (1) Place A and B on insulating stands, bring them into good thermal contact via a copper plate; wait until thermometer readings stabilize – record T_A = T_B. (2) Separate A and B. (3) Bring B and C into similar contact; wait and record T_B = T_C. (4) Now bring A and C into contact (without B); measure their temperatures. Criterion: If T_A = T_C within experimental uncertainty, the Zeroth Law holds. A poor design (e.g., not waiting for equilibrium, using poor thermal contact) reveals misunderstanding of the operational meaning of \"thermal equilibrium.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

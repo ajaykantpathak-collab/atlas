@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_13_012",
+   "title": "c12_eng_f_cbse_13_012",
+   "questions": [
+    {
+     "q": "Define a literal comprehension question and give one example from the poem \"Aunt Jennifer's Tigers\".",
+     "a": "A literal comprehension question asks for information directly stated in the text. Example: \"What is the colour of the tigers?\" Answer: Bright topaz (yellow-gold). A wrong answer (e.g., \"The tigers are orange\") reveals the student is importing outside knowledge instead of reading the text. A wrong answer like \"They are denizens\" shows confusion between a vocabulary word and a factual detail.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a literal and an inferential question using the line: \"The massive weight of Uncle's wedding band / Sits heavily upon Aunt Jennifer's hand.\"",
+     "a": "Literal question: \"What sits heavily on Aunt Jennifer's hand?\" Answer: Uncle's wedding band. Inferential question: \"Why does the poet describe the wedding band as having 'massive weight'?\" Answer: It symbolises the oppressive burden of patriarchal marriage, not physical heaviness. A wrong answer that says \"The ring is made of heavy gold\" treats a metaphor literally, missing the symbolic inference. A wrong answer that says \"Aunt Jennifer is unhappy\" without citing the \"massive weight\" phrase makes an unsupported claim.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following question as literal or inferential and answer it using textual evidence: \"What will happen to the tigers after Aunt Jennifer dies?\"",
+     "a": "This is an **inferential** question. The text explicitly states: \"The tigers in the panel that she made / Will go on prancing, proud and unafraid.\" The inference is that art outlives the artist; the tigers represent eternal freedom unlike Aunt Jennifer's constrained life. Steps: 1) Locate the last two lines. 2) Note the future tense \"will go on\". 3) Connect \"panel\" to the tapestry she created. 4) Conclude the tigers' immortality in art. A wrong answer like \"They will die too\" ignores the textual clue \"will go on\". A wrong answer like \"They will be happy\" states an emotion not in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer the inferential question: \"Why are Aunt Jennifer's fingers 'fluttering'?\" Student A: \"Because she is old and weak.\" Student B: \"Because she is terrified of her husband, suggested by the 'massive weight of Uncle's wedding band' in the next line.\" Evaluate which answer demonstrates correct inferential reasoning.",
+     "a": "Student B demonstrates correct inferential reasoning. They use the \"Evidence → Inference\" chain: Evidence = \"massive weight of Uncle's wedding band\" (next line) + \"terrified hands\" (stanza 3); Inference = fear/oppression causes the fluttering. Student A makes a plausible real-world assumption (old age) but uses **zero textual evidence** — this is a common error called \"world knowledge substitution\". The poem never states her age; \"fluttering\" could also indicate nervousness. A wrong evaluation would praise Student A for \"common sense\", missing that board exams require text-bound inferences.",
+     "self_check": true
+    },
+    {
+     "q": "Judge whether the following answer would receive full marks in a CBSE 2-mark inferential question: \"Aunt Jennifer created tigers that are proud and unafraid because she wants to be like them.\" Justify your judgment using the marking scheme expectation of \"textual evidence + logical explanation\".",
+     "a": "This answer would receive **1 out of 2 marks** (partial credit). It states a valid inference (projection of desired self) but lacks **specific textual evidence**. The marking scheme requires: (1) Identification of contrast: \"They do not fear the men\" vs \"terrified hands\". (2) Explicit link: \"prancing, proud and unafraid\" vs \"mastered by ordeals\". (3) Key phrase: \"animals that are so different from her own character\" (from Think it out Q6). A full-mark answer: \"Aunt Jennifer embroiders tigers that are 'chivalric', 'proud and unafraid' — qualities she lacks because her 'terrified hands' are 'ringed with ordeals' of marriage; the tigers represent her unfulfilled desire for freedom.\" A wrong judgment would give full marks for a \"correct idea\", ignoring the CBSE requirement of textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on Stanza 2 of the poem. Provide the expected answer for each with textual evidence.",
+     "a": "**Literal:** \"What does Aunt Jennifer find hard to pull?\" Expected: \"The ivory needle\" (direct quote). **Inferential:** \"Why does the poet use the word 'ivory' for the needle?\" Expected: \"Ivory suggests something precious, hard, and cold — contrasting with the soft wool and highlighting the difficulty of her domestic labour; it also hints at elephant tusks, linking to the tiger imagery of wild strength she cannot access.\" A poor answer would ask \"Is the needle made of ivory?\" (literal but trivial) or \"Why is she sewing?\" (inferential but unanswerable from text). A poor inferential answer would say \"Because ivory is expensive\" without connecting to the poem's themes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Life Processes in Animals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.9.1",
+   "title": "Nutrition in Animals",
+   "section": "Nutrition in animals",
+   "definition": "Food's journey runs mouth to anus: chewed by teeth, moistened by saliva, pushed down the foodpipe, churned in the stomach, digested by intestinal juices, and absorbed by the small intestine's tiny finger-like villi.",
+   "formula": "digestion = ingestion + digestion + absorption + assimilation + egestion",
+   "key_idea": "Digestion breaks food into molecules small enough to pass into blood: each organ plays its part on the assembly line.",
+   "textbook_ref": "gecu109.txt, Nutrition in animals",
+   "question_patterns": [
+    "trace the journey of food through the alimentary canal",
+    "what does saliva do to food in the mouth",
+    "what happens to food in the stomach",
+    "why are villi important in the small intestine",
+    "name the steps of nutrition in animals",
+    "compare digestion in humans and in ruminants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.2",
+   "title": "Respiration in Animals",
+   "section": "Respiration in animals",
+   "definition": "Every animal releases energy from food by respiration: lungs draw in oxygen and give out carbon dioxide in land animals, gills filter dissolved oxygen in fish, and skin helps in earthworms and frogs.",
+   "formula": "food + oxygen = energy + carbon dioxide + water",
+   "key_idea": "Respiration is combustion under control: oxygen burns food gently to release usable energy.",
+   "textbook_ref": "gecu109.txt, Respiration in animals",
+   "question_patterns": [
+    "what is respiration and why is it needed",
+    "how do fish breathe underwater",
+    "make a model of the mechanism of breathing",
+    "what changes happen to air inside the lungs",
+    "how does an earthworm respire",
+    "compare breathing and respiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.3",
+   "title": "Breathing Mechanism and the Lungs",
+   "section": "Breathing model",
+   "definition": "Breathing runs on pressure: the diaphragm flattens and ribs rise to draw air in, then relax to push air out; the balloon-in-bottle model of the chapter shows the lungs inflating and deflating with each stroke.",
+   "formula": "",
+   "key_idea": "Breathing is pumping by pressure: chest space grows, air rushes in; chest space shrinks, air leaves.",
+   "textbook_ref": "gecu109.txt, Breathing model",
+   "question_patterns": [
+    "how does the diaphragm help in breathing",
+    "explain the balloon and bottle model of breathing",
+    "what is the difference between inhalation and exhalation",
+    "count your breathing rate before and after running",
+    "why does breathing rate rise during exercise",
+    "which muscles help the ribs move while breathing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gecu.9.4",
+   "title": "Excretion and Circulation",
+   "section": "Excretion and transport",
+   "definition": "Blood carries digested food and oxygen to every cell and returns with wastes; the kidneys filter this blood, removing urea and extra water as urine, keeping the body's inner sea clean and steady.",
+   "formula": "",
+   "key_idea": "Transport and cleaning run together: circulation delivers, kidneys discard, and the body stays fit inside.",
+   "textbook_ref": "gecu109.txt, Excretion and transport",
+   "question_patterns": [
+    "why is excretion necessary for the body",
+    "how do kidneys clean the blood",
+    "what does blood transport in the body",
+    "name the wastes removed by the excretory system",
+    "how does the heart help circulation",
+    "draw the excretory system and label its parts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu109.txt",
+   "concept": "gecu.9.1",
+   "question_type": "verify_property",
+   "question_pattern": "trace the journey of food inside the human body.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu109.txt",
+   "concept": "gecu.9.2",
+   "question_type": "verify_property",
+   "question_pattern": "how does the breathing mechanism work in humans?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu109.txt, Let us enhance our learning",
+   "questions": [
+    "Trace the journey of food inside the human body.",
+    "How does the breathing mechanism work in humans?",
+    "Which life processes keep animals alive and how?",
+    "Make the balloon-in-bottle model of breathing and explain its parts.",
+    "Record your pulse and breathing rate at rest and after exercise."
+   ]
+  }
+ ]
+}

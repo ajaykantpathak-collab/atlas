@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_010",
+   "title": "c11_eco_cbse_01_010",
+   "questions": [
+    {
+     "q": "What was the approximate infant mortality rate (IMR) in British India on the eve of independence, and how does it compare to the present IMR in India?",
+     "a": "The IMR in British India was approximately 218 per thousand live births, compared to about 28 per thousand in present-day India. A wrong answer (e.g., stating IMR was low or confusing it with crude death rate) reveals the student cannot distinguish between different mortality indicators or recall the specific quantitative magnitude of colonial-era demographic distress.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the infant mortality rate in colonial India was so high despite the fact that birth rates were also high. What does this combination imply about the demographic transition stage?",
+     "a": "High IMR resulted from malnutrition (due to poverty and commercialisation of food crops), lack of sanitation and medical facilities, and frequent famines — not from low fertility. High birth rate + high death rate = Stage 1 of demographic transition (high stationary). A wrong answer attributing high IMR to \"lack of family planning\" reveals confusion between mortality and fertility determinants and misunderstanding of demographic transition theory.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data: Life expectancy at birth = 32 years; IMR = 218/1000; Female literacy = 7%. Calculate the approximate probability that a female child born in 1940 would survive to age 15 AND be literate. Assume independence for this calculation.",
+     "a": "Step 1: Probability of surviving infancy = 1 - 0.218 = 0.782. Step 2: Approximate survival to age 15 given life expectancy 32 — using model life tables, roughly 65% of infants survive to 15. Step 3: Joint probability = 0.782 × 0.65 × 0.07 ≈ 0.0355 or 3.55%. A wrong answer (e.g., multiplying 0.07 × 0.32) reveals inability to work with demographic probabilities and confusion between life expectancy and survival probabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demographic profile of colonial India (CDR > 40, CBR > 40, Life Expectancy 32, Literacy < 16%) with a modern developed economy (CDR ~8, CBR ~10, Life Expectancy 80+, Literacy 99%). Identify THREE structural economic differences that explain this divergence, linking each to a specific colonial policy.",
+     "a": "1) Public health expenditure: Colonial government spent <1% of revenue on health vs 5-8% today — linked to revenue extraction for \"Home Charges\". 2) Food security: Commercialisation of agriculture (indigo, cotton, opium) reduced food grain availability — linked to land revenue systems forcing cash crops. 3) Female education: Neglect of social infrastructure — linked to Macaulay's filtration theory limiting mass education. A wrong answer listing only \"poverty\" without policy links shows inability to connect demographic outcomes to institutional causes.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The high mortality in colonial India was primarily due to natural factors like climate and disease environment, not British policies.\" Use quantitative evidence from the demographic data.",
+     "a": "The statement is false. Evidence: (a) IMR of 218 is far higher than in pre-colonial accounts (Bernier's 17th century Bengal description shows prosperity); (b) Life expectancy of 32 vs 70 today — same geography, different institutions; (c) Famine mortality spikes (1876-78, 1896-97, 1943) coincided with grain exports continuing during shortages — policy choice, not nature. A wrong answer accepting the statement reveals failure to distinguish between proximate (disease) and ultimate (policy-induced malnutrition, lack of healthcare) causes.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a demographic profile table for British India in 1941 using these indicators: CBR, CDR, IMR, Life Expectancy, Total Literacy, Female Literacy, Urbanisation Rate. Then write a 3-sentence policy brief for the 1947 Interim Government identifying the TOP priority demographic intervention with justification.",
+     "a": "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting infant and maternal mortality. Justification: IMR of 218 implies 1 in 5 infants die — the single largest welfare loss. Reducing IMR breaks the high-fertility trap (demographic transition theory) and builds human capital. Fiscal space: Redirect 'Home Charges' and military expenditure.\" A poor answer listing \"education\" as top priority without linking to mortality reduction shows inability to sequence policy by demographic impact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

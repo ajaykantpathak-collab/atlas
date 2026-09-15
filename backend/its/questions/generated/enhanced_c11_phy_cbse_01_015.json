@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_015",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_015",
+   "title": "c11_phy_cbse_01_015",
+   "questions": [
+    {
+     "q": "State the rule for the absolute error in a quantity Z = A + B, where A and B are measured quantities with absolute errors ΔA and ΔB respectively.",
+     "a": "The absolute error in Z is ΔZ = ΔA + ΔB. A wrong answer (e.g., ΔZ = √(ΔA²+ΔB²) or ΔZ = ΔA - ΔB) reveals the student is confusing the simple propagation rule for sums with the statistical \"adding in quadrature\" rule used for independent random errors in advanced contexts, or they misunderstand that errors always increase the uncertainty range.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the side of a cube as L = 5.0 ± 0.1 cm. They calculate the volume V = L³ and claim the absolute error in volume is ΔV = 3 × 0.1 = 0.3 cm³. Explain why this reasoning is incorrect and state the correct method.",
+     "a": "The student incorrectly applied the rule for sums (absolute errors add) to a power relationship. For V = L³, the relative error in V is three times the relative error in L: ΔV/V = 3(ΔL/L). The correct absolute error is ΔV = 3V(ΔL/L) = 3×(125 cm³)×(0.1/5.0) = 7.5 cm³. A wrong answer shows the student does not distinguish between operations on measured quantities (addition vs. exponentiation) and their corresponding error propagation rules.",
+     "self_check": true
+    },
+    {
+     "q": "The mass of a metal block is measured as m = (250 ± 2) g and its volume as V = (40.0 ± 0.5) cm³. Calculate the density ρ = m/V and its absolute uncertainty Δρ. Express the final result as ρ ± Δρ with correct significant figures.",
+     "a": "Step 1: ρ = 250 g / 40.0 cm³ = 6.25 g/cm³.\nStep 2: Relative error in m: Δm/m = 2/250 = 0.008. Relative error in V: ΔV/V = 0.5/40.0 = 0.0125.\nStep 3: Relative error in ρ: Δρ/ρ = 0.008 + 0.0125 = 0.0205.\nStep 4: Absolute error Δρ = 0.0205 × 6.25 g/cm³ = 0.128 g/cm³ ≈ 0.1 g/cm³ (rounded to 1 significant figure in error).\nStep 5: ρ = 6.25 g/cm³, but error has 1 sig fig (0.1), so ρ rounds to 6.3 g/cm³. Final: (6.3 ± 0.1) g/cm³. A wrong answer (e.g., forgetting to add relative errors, or keeping too many decimal places) reveals confusion between absolute/relative error rules or significant figure rounding conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Two students calculate the error in kinetic energy K = ½mv². Student A uses the formula ΔK/K = Δm/m + 2Δv/v. Student B uses ΔK = ½v²Δm + mvΔv. Compare these approaches. Which is correct for propagation of errors? Justify.",
+     "a": "Student A is correct. The formula K = ½mv² involves multiplication and a power. The constant ½ has zero error. The relative error rule for product/power gives ΔK/K = Δm/m + 2Δv/v. Student B's expression is the differential dK (from calculus), not the error propagation rule. In error propagation, we add relative errors (assuming independent, worst-case), not the differential terms. A wrong choice indicates the student confuses differential calculus with the algebraic error combination rules prescribed at this level.",
+     "self_check": true
+    },
+    {
+     "q": "A lab report states: \"The resistance R = V/I = (10.0 ± 0.1) V / (2.0 ± 0.1) A = 5.0 ± 0.0 Ω\". Evaluate this claim. Is the error in R correctly calculated? If not, find the correct error.",
+     "a": "The claim is incorrect. The student likely subtracted relative errors or ignored the current's error. For division, relative errors add: ΔR/R = ΔV/V + ΔI/I = 0.1/10.0 + 0.1/2.0 = 0.01 + 0.05 = 0.06. Absolute error ΔR = 0.06 × 5.0 Ω = 0.3 Ω. Correct result: (5.0 ± 0.3) Ω. The student's zero error reveals a misconception that errors cancel in division or that only the numerator's error matters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, a rectangular block, and a balance to verify the error propagation rule for the product (area = length × breadth). Outline the measurements, calculations, and how you would compare the predicted error with the observed spread.",
+     "a": "Measure length l and breadth b of the block 10 times each with the metre scale (least count 0.1 cm). Compute mean l̄, b̄ and standard deviations σ_l, σ_b (or use least count as error). Predict area error: ΔA_pred = Ā(σ_l/l̄ + σ_b/b̄). Compute the 10 area values A_i = l_i × b_i. Find the standard deviation σ_A_obs of these 10 areas. Compare σ_A_obs with ΔA_pred. They should be of similar order. A poor design (e.g., single measurement, ignoring least count, not repeating) reveals inability to translate the algebraic rule into an empirical verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

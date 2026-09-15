@@ -1,0 +1,397 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 402,
+ "chapter_title": "Land, Soil, Water, Natural Vegetation and Wildlife Resources",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kegy201.txt",
+ "concepts": [
+  {
+   "id": "hess.402.1",
+   "title": "Land Resource and Ownership Classification",
+   "section": "Land and Land Use",
+   "definition": "Land constitutes the terrestrial surface utilized for farming, forestry, industry, and settlements, categorized into individual holdings and community property based on ownership.",
+   "formula": "",
+   "key_idea": "Physical factors and human needs govern land usage while ownership delineates private versus collective access rights.",
+   "textbook_ref": "hess402.txt lines 25-75",
+   "question_patterns": [
+    "explain the classification of land based on ownership rights",
+    "what are the main factors determining land use patterns",
+    "differentiate between private land and common property resources",
+    "how do population growth and urban expansion affect land resources",
+    "describe common methods used to conserve land resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify land ownership types",
+     "explain": "classify into private land owned by individuals and community land owned by society for common goods"
+    },
+    {
+     "step": 2,
+     "action": "analyze determinants of land use",
+     "explain": "examine physical traits like topography and soil along with human factors like population and technology"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.2",
+   "title": "Landslides and Hazard Mitigation",
+   "section": "Landslides",
+   "definition": "A sudden down-slope movement of rock, soil, or earth debris, commonly triggered by heavy rain, seismic activity, volcanic eruptions, or slope excavation.",
+   "formula": "",
+   "key_idea": "Hazard mapping, retention walls, vegetation cover, and drainage management prevent and control landslide damage.",
+   "textbook_ref": "hess402.txt lines 90-130",
+   "question_patterns": [
+    "what is a landslide and what factors trigger its occurrence",
+    "explain major mitigation strategies used to control landslides",
+    "how does a retention wall prevent slope failure on hillsides",
+    "analyze the impact of heavy rainfall and rock blasting on mountain slopes",
+    "identify hazard mapping techniques used in landslide management"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define landslide triggers",
+     "explain": "identify natural causes like prolonged rainfall and earthquakes alongside human activities like blasting"
+    },
+    {
+     "step": 2,
+     "action": "list mitigation mechanisms",
+     "explain": "apply hazard mapping, build retention structures, increase afforestation, and regulate surface drainage"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.3",
+   "title": "Soil Profile and Horizons",
+   "section": "Soil",
+   "definition": "The thin layer of weathered mineral particles and decomposed organic material covering the Earth, organized in distinct vertical layers from topsoil to parent bedrock.",
+   "formula": "",
+   "key_idea": "The balanced mixture of minerals and organic content dictates topsoil fertility across profile layers.",
+   "textbook_ref": "hess402.txt lines 135-165",
+   "question_patterns": [
+    "describe the main layers present in a standard soil profile",
+    "what is soil and how does weathering contribute to its formation",
+    "explain the function of humus in topsoil fertility",
+    "which layer of soil contains sand, silt, and clay beneath topsoil",
+    "state how parent rock influences the mineral composition of soil"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify layers of soil profile",
+     "explain": "topsoil with humus, subsoil with sand and clay, weathered rock, and parent bedrock"
+    },
+    {
+     "step": 2,
+     "action": "explain weathering process",
+     "explain": "temperature variation, frost, and biological activity break rocks into fine soil particles"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.4",
+   "title": "Factors Governing Soil Formation",
+   "section": "Factors of Soil Formation",
+   "definition": "The characteristics and rate of soil development shaped by parent rock properties, local climate, terrain slope, organic activity, and duration of weathering.",
+   "formula": "",
+   "key_idea": "Parent rock and regional climatic conditions act as the dominant factors in determining soil characteristics.",
+   "textbook_ref": "hess402.txt lines 166-190",
+   "question_patterns": [
+    "list the major factors that influence soil formation",
+    "how does climate affect the rate of weathering and humus formation",
+    "what role does parent rock play in determining soil texture and colour",
+    "explain how relief and altitude influence soil accumulation",
+    "how does time affect the thickness of a soil profile"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify primary soil forming factors",
+     "explain": "parent rock determines texture and minerals while climate dictates weathering rate and humus content"
+    },
+    {
+     "step": 2,
+     "action": "examine secondary soil factors",
+     "explain": "relief affects soil accumulation while living organisms influence humus rate and time determines profile thickness"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.5",
+   "title": "Soil Degradation and Conservation Methods",
+   "section": "Degradation of Soil and Conservation Measures",
+   "definition": "The reduction in soil quality and removal of topsoil caused by wind or water erosion, mitigated through physical barriers and sustainable agricultural practices.",
+   "formula": "",
+   "key_idea": "Combining slope modification, vegetation barriers, and crop rotation protects vulnerable topsoil from erosion.",
+   "textbook_ref": "hess402.txt lines 191-235",
+   "question_patterns": [
+    "explain different methods used for soil conservation on farmland",
+    "what is contour ploughing and how does it prevent surface run-off",
+    "differentiate between terrace farming and shelter belts",
+    "how does mulching retain soil moisture in agricultural fields",
+    "describe the role of rock dams and intercropping in controlling soil erosion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify causes of soil degradation",
+     "explain": "deforestation, overgrazing, chemical overuse, rain wash, floods, and landslides deplete topsoil"
+    },
+    {
+     "step": 2,
+     "action": "describe key conservation techniques",
+     "explain": "apply mulching, contour barriers, rock dams, terrace farming, intercropping, contour ploughing, and shelter belts"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.6",
+   "title": "Freshwater Distribution and Household Volume Calculation",
+   "section": "Water",
+   "definition": "The estimation of aggregate freshwater volume consumed by a population over a given period based on per capita daily consumption rate.",
+   "formula": "total_water = per_capita_litres * family_members * days",
+   "key_idea": "Total water requirement scales directly with individual daily allowance, family size, and duration.",
+   "textbook_ref": "hess402.txt lines 250-295",
+   "question_patterns": [
+    "calculate the total water requirement for a family over a given number of days",
+    "find the volume of water used by a household given daily per person consumption",
+    "how much water is consumed by a population over a given time period",
+    "determine total freshwater volume needed for a family in a month",
+    "compute total household water demand given daily individual usage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute daily household usage",
+     "explain": "multiply per capita daily requirement by number of family members",
+     "compute": "daily_household_usage = per_capita_litres * family_members"
+    },
+    {
+     "step": 2,
+     "action": "compute total consumption over period",
+     "explain": "multiply daily household usage by the number of days",
+     "compute": "total_water = daily_household_usage * days"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.7",
+   "title": "Water Pollution and Conservation Techniques",
+   "section": "Conservation of Water Resources",
+   "definition": "Methods aimed at protecting water quality and maintaining supply through effluent treatment, lined canals, drip irrigation, and rainwater collection.",
+   "formula": "",
+   "key_idea": "Efficient irrigation, wastewater treatment, and rainwater harvesting protect scarce freshwater resources.",
+   "textbook_ref": "hess402.txt lines 296-340",
+   "question_patterns": [
+    "suggest effective measures to conserve freshwater resources",
+    "how do sprinklers and drip irrigation reduce water loss in farming",
+    "explain the process and advantages of rainwater harvesting",
+    "what are the principal sources of chemical pollution in rivers",
+    "how does treating industrial effluents protect freshwater quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify main water pollutants",
+     "explain": "untreated sewage, agricultural chemicals, and industrial effluents discharge nitrates, heavy metals, and pesticides"
+    },
+    {
+     "step": 2,
+     "action": "outline conservation techniques",
+     "explain": "treat effluents before disposal, adopt drip or sprinkler irrigation, line canals, and harvest rainwater"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.8",
+   "title": "Biosphere and Ecosystem Interdependence",
+   "section": "Natural Vegetation and Wildlife",
+   "definition": "The life-supporting environmental zone comprising lithosphere, hydrosphere, and atmosphere where organisms interact and depend on each other for survival.",
+   "formula": "",
+   "key_idea": "Plants, animals, and microorganisms maintain ecological stability through food chains and habitat support.",
+   "textbook_ref": "hess402.txt lines 341-385",
+   "question_patterns": [
+    "define biosphere and explain how ecosystems function",
+    "what role do decomposers and scavengers play in maintaining environmental balance",
+    "how do plants contribute to oxygen production and soil stabilization",
+    "explain why all animal species are vital to ecosystem stability",
+    "describe how living organisms interact within the biosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define biosphere and ecosystem",
+     "explain": "biosphere is the narrow contact zone of life, and ecosystem is the interdependent network of living beings within it"
+    },
+    {
+     "step": 2,
+     "action": "explain ecological functions",
+     "explain": "plants generate oxygen and shelter while insects, birds, and scavengers decompose waste and pollinate flora"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.9",
+   "title": "Global Biomes and Vegetation Types",
+   "section": "Distribution of Natural Vegetation",
+   "definition": "The grouping of world plant communities into forests, grasslands, scrubs, and tundra based on regional temperature and moisture levels.",
+   "formula": "",
+   "key_idea": "Precipitation and thermal conditions dictate plant size, canopy density, and evolutionary adaptations.",
+   "textbook_ref": "hess402.txt lines 386-420",
+   "question_patterns": [
+    "how are global vegetation types classified based on climate and rainfall",
+    "describe the characteristics of plants growing in low rainfall dry regions",
+    "differentiate between forest cover, grasslands, scrubs, and tundra vegetation",
+    "why do dry area plants develop thick waxy leaves and long roots",
+    "explain how moisture availability influences tree height and forest density"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify vegetation types",
+     "explain": "heavy rainfall creates forests, moderate rainfall produces grasslands, low rainfall yields scrubs, and polar climates support tundra"
+    },
+    {
+     "step": 2,
+     "action": "describe plant adaptations",
+     "explain": "dryland plants adopt deep roots and waxy or thorny leaves to minimize transpiration losses"
+    }
+   ]
+  },
+  {
+   "id": "hess.402.10",
+   "title": "Wildlife Protection and Conservation Frameworks",
+   "section": "Conservation of Natural Vegetation and Wildlife",
+   "definition": "Legal regulations, protected reserves, and international agreements established to protect species from habitat destruction and illegal poaching.",
+   "formula": "",
+   "key_idea": "National parks, biosphere reserves, and global conventions like CITES protect biodiversity from human threats.",
+   "textbook_ref": "hess402.txt lines 421-485",
+   "question_patterns": [
+    "what measures are taken to conserve natural vegetation and wildlife",
+    "explain the purpose and function of national parks and biosphere reserves",
+    "what is CITES and how does it protect endangered species from trade",
+    "list major natural and human causes responsible for animal extinction",
+    "how do awareness programs like Vanamahotsava promote forest conservation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify threats to wildlife",
+     "explain": "poaching for hides, horns, and feathers alongside habitat destruction accelerates species extinction"
+    },
+    {
+     "step": 2,
+     "action": "describe conservation initiatives",
+     "explain": "establish national parks and biosphere reserves, enforce wildlife protection laws, and implement CITES treaty guidelines"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess402.txt line 270",
+   "concept": "hess.402.6",
+   "question_type": "compute",
+   "question_pattern": "If an urban resident uses {per_capita_litres} litres of water daily, calculate the total consumption for a family of {family_members} members over {days} days.",
+   "extracted_variables": {
+    "per_capita_litres": 150,
+    "family_members": 5,
+    "days": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute daily household usage",
+     "explain": "multiply per capita daily requirement by number of family members",
+     "compute": "daily_household_usage = per_capita_litres * family_members"
+    },
+    {
+     "step": 2,
+     "action": "compute total consumption over period",
+     "explain": "multiply daily household usage by the number of days",
+     "compute": "total_water = daily_household_usage * days"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess402.txt line 270",
+   "concept": "hess.402.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the volume of water needed for a household of {family_members} members for {days} days if per person daily usage is {per_capita_litres} litres.",
+   "extracted_variables": {
+    "per_capita_litres": 135,
+    "family_members": 4,
+    "days": 7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute daily household usage",
+     "explain": "multiply per capita daily requirement by number of family members",
+     "compute": "daily_household_usage = per_capita_litres * family_members"
+    },
+    {
+     "step": 2,
+     "action": "compute total consumption over period",
+     "explain": "multiply daily household usage by the number of days",
+     "compute": "total_water = daily_household_usage * days"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hess402.txt lines 488-500",
+   "questions": [
+    "Which are the two main climatic factors responsible for soil formation?",
+    "Write any two reasons for land degradation today.",
+    "Why is land considered an important resource?",
+    "Name any two steps that government has taken to conserve plants and animals.",
+    "Suggest three ways to conserve water."
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "hess402.txt lines 501-512",
+   "questions": [
+    "Which one of the following is NOT a factor of soil formation? (a) time (b) soil texture (c) organic matter",
+    "Which one of the following methods is most appropriate to check soil erosion on steep slopes? (a) shelter belts (b) mulching (c) terrace cultivation",
+    "Which one of the following is NOT in favour of the conservation of nature? (a) switch off the bulb when not in use (b) close the tap immediately after using (c) dispose polypacks after shopping"
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "hess402.txt lines 513-520",
+   "questions": [
+    "Match the following: (i) Land use - (c) productive use of land, (ii) Humus - (d) organic matter deposited on top soil, (iii) Rock dams - (a) prevent soil erosion, (iv) Biosphere - (b) narrow zone of contact between the lithosphere, hydrosphere and atmosphere."
+   ]
+  },
+  {
+   "id": "ex4.1",
+   "source_ref": "hess402.txt lines 521-528",
+   "questions": [
+    "State whether True or False: Ganga-Brahmaputra plain of India is an overpopulated region.",
+    "State whether True or False: Water availability per person in India is declining.",
+    "State whether True or False: Rows of trees planted in the coastal areas to check the wind movement is called intercropping.",
+    "State whether True or False: Human interference and changes of climate can maintain the ecosystem."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

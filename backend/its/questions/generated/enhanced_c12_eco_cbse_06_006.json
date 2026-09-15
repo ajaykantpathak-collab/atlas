@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_006",
+   "title": "c12_eco_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the five defining features of monopolistic competition as per NCERT Class 12 Microeconomics.",
+     "a": "The five features are: (1) Large number of buyers and sellers, (2) Product differentiation, (3) Free entry and exit of firms, (4) Selling costs (advertising, marketing), (5) Non-price competition. A wrong answer that omits \"selling costs\" or \"non-price competition\" reveals the student is conflating monopolistic competition with perfect competition plus differentiation only, missing the strategic behavior dimension that distinguishes it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand curve facing a firm in monopolistic competition is downward sloping but more elastic than a monopolist's demand curve. Use the concept of close substitutes.",
+     "a": "The demand curve slopes downward because product differentiation gives each firm a unique variant — buyers have brand loyalty, so a price increase doesn't lose all customers. However, it is more elastic than monopoly because many close substitutes exist: if a firm raises price, customers can easily switch to rival brands. A wrong answer that says \"demand is perfectly elastic\" confuses it with perfect competition; one that says \"demand is inelastic\" ignores the presence of close substitutes.",
+     "self_check": true
+    },
+    {
+     "q": "A firm selling \"HerbalShine\" shampoo in monopolistic competition spends ₹2 crore annually on advertising. Its demand function is estimated as Q = 5000 - 50P + 0.01A, where Q is quantity (units), P is price (₹), and A is advertising expenditure (₹). If the firm currently charges P = ₹200 and A = ₹2,00,00,000, calculate the quantity demanded. Then explain what happens to quantity demanded if advertising doubles to ₹4 crore, holding price constant.",
+     "a": "Step 1: Substitute P=200, A=2,00,00,000 into Q = 5000 - 50(200) + 0.01(2,00,00,000) = 5000 - 10,000 + 2,00,000 = 1,95,000 units.\nStep 2: Double A to 4,00,00,000: Q = 5000 - 10,000 + 0.01(4,00,00,000) = 5000 - 10,000 + 4,00,000 = 3,95,000 units.\nStep 3: Quantity increases by 2,00,000 units. This shows advertising shifts the demand curve rightward (non-price competition). A wrong answer that calculates only the price effect or ignores the advertising coefficient reveals misunderstanding of selling costs as a demand shifter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"real differentiation\" and \"perceived differentiation\" in monopolistic competition. Give one Indian market example of each and explain how each affects the elasticity of demand.",
+     "a": "Real differentiation: tangible differences in quality, features, ingredients (e.g., Dettol vs. Savlon antiseptic liquids — different chemical formulations). Perceived differentiation: differences created by branding, packaging, advertising despite similar physical attributes (e.g., Pepsi vs. Coca-Cola — similar colas, brand image drives choice). Real differentiation tends to make demand less elastic (loyalty based on actual preference); perceived differentiation makes demand more elastic because switching costs are lower — if a consumer realizes the products are similar, a small price change can trigger switching. A wrong answer that claims both have identical elasticity effects misses the nuance that real differentiation creates deeper brand loyalty.",
+     "self_check": true
+    },
+    {
+     "q": "\"In monopolistic competition, firms spend heavily on advertising even though it raises average total cost. Evaluate whether this is socially wasteful or welfare-enhancing, considering both informational and persuasive roles of advertising.\"",
+     "a": "Advertising can be welfare-enhancing if it provides information (e.g., new product features, price comparisons) that reduces search costs and helps consumers make better choices — this improves allocative efficiency. It can be wasteful if purely persuasive/manipulative (e.g., celebrity endorsements for near-identical products) creating artificial brand loyalty without real quality differences, leading to higher prices and excess capacity. The net effect is ambiguous and context-dependent. A wrong answer that says \"always wasteful\" ignores the informational role; one that says \"always beneficial\" ignores persuasive manipulation and the deadweight loss from markup pricing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical monopolistically competitive market for \"online tutoring platforms\" in India. Specify: (a) number of firms, (b) two dimensions of real differentiation, (c) two dimensions of perceived differentiation, (d) one selling cost strategy, and (e) why free entry/exit matters for long-run outcomes.",
+     "a": "(a) 50+ platforms (e.g., Vedantu, BYJU'S, Unacademy, Physics Wallah, local startups). (b) Real: (i) faculty qualifications (IITians vs. regular teachers), (ii) technology stack (AI-driven adaptive tests vs. recorded videos). (c) Perceived: (i) brand ambassadors (celebrity endorsements), (ii) \"guaranteed results\" marketing slogans. (d) Selling cost: heavy digital marketing (YouTube ads, influencer partnerships, free demo classes). (e) Free entry/exit ensures that if incumbents earn supernormal profits, new platforms enter, eroding demand for each until only normal profits remain — preventing long-run monopoly power. A poor answer that lists identical features for real/perceived or omits the long-run role of free entry shows incomplete grasp of the dynamic adjustment process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

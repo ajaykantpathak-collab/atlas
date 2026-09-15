@@ -1,0 +1,420 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 1,
+  "chapter_title": "Introduction",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.201.1.1",
+      "title": "Scarcity, Choice and Basic Economic Activities",
+      "section": "1.1",
+      "definition": "Every decision-making unit - a family, a weaver, a teacher - holds only a little of what it needs, so limited means force a selection among competing wants; production, exchange and consumption are the everyday activities through which people cope with this squeeze.",
+      "formula": "available_means < wanted_goods_and_services",
+      "key_idea": "Because no one owns endless resources, having more of one thing always means having less of another.",
+      "textbook_ref": "leec201.txt, section 1.1, family farm and weaver examples, pages 1-3",
+      "question_patterns": [
+        "why does limited means force a choice between competing wants for every household",
+        "how do families and workers cope when their resources fall short of their needs",
+        "name the basic economic activities people perform in daily life",
+        "what is the economic problem that every decision-making unit faces",
+        "explain with an example how obtaining one good means giving up another",
+        "why can no individual possess everything she wishes to consume"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compare holdings with wants",
+          "explain": "Each unit possesses only a few of the many things it needs, so wants outrun means by definition."
+        },
+        {
+          "step": 2,
+          "action": "Recognise the forced selection",
+          "explain": "With capped resources, gaining more of one good requires surrendering some of another - a trade-off."
+        },
+        {
+          "step": 3,
+          "action": "Trace the coping activities",
+          "explain": "Units produce with what they hold, exchange the surplus for the rest, and consume the result - the loop of basic economic life."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.1.2",
+      "title": "Central Problems: What, How and For Whom to Produce",
+      "section": "1.2",
+      "definition": "Scarce resources with rival uses oblige every society to settle which goods to make and in what amounts, which techniques and resource mixes to employ, and how the finished output is shared among its members.",
+      "formula": "central_problems = what_to_produce + how_to_produce + for_whom_to_produce",
+      "key_idea": "Scarcity breeds choice, and choice splits into three decisions every economy must make.",
+      "textbook_ref": "leec201.txt, section 1.2, pages 3-4",
+      "question_patterns": [
+        "which three decisions about output techniques and sharing must every society settle",
+        "why does scarcity give rise to the problem of choice among rival uses",
+        "give examples of choices involved in deciding the composition of output",
+        "what does choosing a production technique mean in practice",
+        "how is the question of output sharing a problem of distribution",
+        "should basic education and health be free for all - which central problem does this raise"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Frame the composition choice",
+          "explain": "Decide quantities of food, clothing, defence, education and investment goods to be produced."
+        },
+        {
+          "step": 2,
+          "action": "Frame the technique choice",
+          "explain": "Decide how much labour versus machinery, and which technology, goes into each good."
+        },
+        {
+          "step": 3,
+          "action": "Frame the distribution choice",
+          "explain": "Decide who receives how much of the output, including whether minimum consumption is guaranteed to all."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.1.3",
+      "title": "Production Possibility Set and the Frontier",
+      "section": "1.2",
+      "definition": "With fixed resources and known technology an economy can turn out many mixes of two goods; the set of all attainable mixes is the production possibility set, and the boundary curve through the fully-employed mixes is the production possibility frontier.",
+      "formula": "frontier = maximum_mixes_of(good_a, good_b) under full resource employment",
+      "key_idea": "Points on the curve exhaust resources; points inside signal idle or wasted capacity.",
+      "textbook_ref": "leec201.txt, section 1.2, corn-cotton Table 1.1 and figure, pages 4-5",
+      "question_patterns": [
+        "define the collection of attainable output mixes of an economy",
+        "what does the curve of maximum output combinations show",
+        "corn and cotton possibilities are tabulated, draw the frontier",
+        "why does a point below the curve mean underemployment or waste",
+        "can an economy operate beyond its frontier with given resources",
+        "what information fixes the shape of the attainable-output curve"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fix resources and technology",
+          "explain": "Given the total resource stock and current knowledge, list every mix of the two goods that can be produced."
+        },
+        {
+          "step": 2,
+          "action": "Identify the boundary",
+          "explain": "Mixes produced when all resources are employed form the frontier; each point is a maximum of one good for the other held."
+        },
+        {
+          "step": 3,
+          "action": "Interpret positions",
+          "explain": "On the curve means efficient full employment, inside means slack or waste, outside is unattainable with present means."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.1.4",
+      "title": "Opportunity Cost along the Frontier",
+      "section": "1.2",
+      "definition": "Moving along the frontier to gain a unit of one good obliges the economy to give up some of the other; the amount of the second good sacrificed per unit gained is the opportunity cost, also called the economic cost.",
+      "formula": "opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good",
+      "key_idea": "Every extra unit has a price in forgone alternatives, and that price is the sacrifice ratio along the frontier.",
+      "textbook_ref": "leec201.txt, section 1.2, opportunity cost paragraph after Table 1.1, page 5",
+      "question_patterns": [
+        "compute the sacrifice ratio when output shifts from one frontier point to another",
+        "moving from 2 units of corn and 7 of cotton to 3 corn and 4 cotton, what is given up per corn gained",
+        "define opportunity cost and explain why it is called the economic cost",
+        "why does producing more of one good force the economy to give up another",
+        "find what society sacrifices for an extra unit chosen from a possibilities table",
+        "how does the idea of forgone alternatives apply to a single person as well"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Measure the sacrifice",
+          "explain": "Subtract the new quantity of the other good from its old quantity to find how much was surrendered.",
+          "compute": "quantity_lost_of_other_good = initial_output_of_other_good - final_output_of_other_good"
+        },
+        {
+          "step": 2,
+          "action": "Divide by the gain",
+          "explain": "The surrendered amount per extra unit of the chosen good is the opportunity cost of that move.",
+          "compute": "opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Opportunity Cost along the Frontier, compute the result for initial_output_of_other_good = 3, final_output_of_other_good = 3, extra_units_of_chosen_good = 3.",
+          "solution": "Step 1: Measure the sacrifice: quantity_lost_of_other_good = initial_output_of_other_good - final_output_of_other_good = 0.0 Step 2: Divide by the gain: opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Opportunity Cost along the Frontier, compute the result for initial_output_of_other_good = 4, final_output_of_other_good = 4, extra_units_of_chosen_good = 4.",
+          "solution": "Step 1: Measure the sacrifice: quantity_lost_of_other_good = initial_output_of_other_good - final_output_of_other_good = 0.0 Step 2: Divide by the gain: opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.201.2.1",
+      "title": "Centrally Planned Economy",
+      "section": "1.3.1",
+      "definition": "In a centrally planned economy a central authority - the government - takes all major decisions about production, exchange and consumption, steering resources toward goals it judges good for society, such as adequate schooling or an equitable output share.",
+      "formula": "decision_authority = central_government (all major economic decisions)",
+      "key_idea": "One planner replaces the market: the state decides the allocation and the distribution directly.",
+      "textbook_ref": "leec201.txt, section 1.3.1, pages 5-6",
+      "question_patterns": [
+        "who settles the major economic questions in a centrally planned system",
+        "how does a central authority correct an unequal share of output",
+        "when would the state itself start producing a good like health service",
+        "describe how production and exchange are organised without markets",
+        "give an instance of planning decisions aimed at social welfare",
+        "what powers does the government hold in a planned economy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the decision maker",
+          "explain": "The government or central authority owns the choices of what, how and for whom."
+        },
+        {
+          "step": 2,
+          "action": "Note the social aims",
+          "explain": "Planning pursues allocations and distributions regarded as desirable for society, not private profit."
+        },
+        {
+          "step": 3,
+          "action": "Describe the corrective tools",
+          "explain": "The state may induce or itself produce under-supplied goods and redistribute output where survival is at stake."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.2.2",
+      "title": "Market Economy and Coordination by Prices",
+      "section": "1.3.2",
+      "definition": "A market is the set of arrangements letting buyers and sellers deal freely, whether face to face or over distance; when buyers want more of a good its price rises, signalling producers to expand, so prices alone coordinate the plans of millions of dispersed agents.",
+      "formula": "production_response = direction_of(price_signal) (higher price, larger output)",
+      "key_idea": "Prices carry information about society's valuation, and chasing them quietly solves what and how much to produce.",
+      "textbook_ref": "leec201.txt, section 1.3.2, pages 6",
+      "question_patterns": [
+        "how do rising and falling prices coordinate decisions in a market system",
+        "define a market as economists use the term",
+        "must buyers and sellers meet in one place for a market to exist",
+        "explain the signal a price increase sends to producers",
+        "through what arrangement do free exchanges between agents take place",
+        "who answers the question of how much to produce in a market system"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the exchange arrangement",
+          "explain": "A market is the institutional space - physical or virtual - where agents freely trade endowments and products."
+        },
+        {
+          "step": 2,
+          "action": "Trace the price signal",
+          "explain": "Excess demand lifts the price, telling producers society wants more; excess supply does the reverse."
+        },
+        {
+          "step": 3,
+          "action": "Conclude the coordination",
+          "explain": "Responding to prices, independent agents end up producing roughly what society values, without any central command."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.2.3",
+      "title": "Mixed Economy in Practice",
+      "section": "1.3.2",
+      "definition": "Real-world economies blend the two poles: markets conduct most activity while the government takes important decisions, and systems differ only in how large the state's role is - minimal in the United States, sweeping in twentieth-century China, historically large in India.",
+      "formula": "real_economies = market_activity + government_decisions (degree varies)",
+      "key_idea": "Between laissez-faire and full planning lies a spectrum, and every actual economy sits somewhere on it.",
+      "textbook_ref": "leec201.txt, section 1.3.2 closing paragraph, pages 6-7",
+      "question_patterns": [
+        "why are all actual economies called mixed",
+        "how do countries differ in the share of decisions left to government",
+        "compare the government's economic role in the United States China and India",
+        "give examples of decisions a state takes even in a market-led economy",
+        "what determines where an economy sits between market and plan",
+        "has the government's role in the Indian economy grown or shrunk recently"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Blend the two mechanisms",
+          "explain": "Markets handle most production and exchange; the government still takes key allocation and distribution decisions."
+        },
+        {
+          "step": 2,
+          "action": "Place countries on the spectrum",
+          "explain": "The state's weight ranges from minimal in the USA to dominant in Mao-era China, with India historically state-heavy."
+        },
+        {
+          "step": 3,
+          "action": "Note the drift over time",
+          "explain": "India has pared down the government's economic role considerably in recent decades."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.3.1",
+      "title": "Positive versus Normative Economic Analysis",
+      "section": "1.4",
+      "definition": "Positive analysis describes how an economic mechanism actually works and what outcomes it yields, while normative analysis passes judgement on whether those outcomes are desirable; the two strands interlock, since judging requires understanding.",
+      "formula": "economic_analysis = positive_how_it_works + normative_whether_desirable",
+      "key_idea": "Description comes before evaluation, but sound evaluation feeds back into what we choose to describe.",
+      "textbook_ref": "leec201.txt, section 1.4, pages 7",
+      "question_patterns": [
+        "separate statements of fact from statements of value in economics",
+        "what does positive economic analysis try to establish",
+        "what question does normative economics set out to answer",
+        "classify a claim about a mechanism's working versus its desirability",
+        "why can the two kinds of analysis not be fully separated",
+        "give one positive and one normative statement about a market outcome"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test the claim's type",
+          "explain": "A claim about how a mechanism functions is positive; a claim about whether the result is good is normative."
+        },
+        {
+          "step": 2,
+          "action": "Order the inquiry",
+          "explain": "Analysis of functioning precedes evaluation of desirability for each alternative mechanism."
+        },
+        {
+          "step": 3,
+          "action": "Admit the entanglement",
+          "explain": "Valuing outcomes needs understanding of mechanisms and vice versa, so the boundary stays blurred."
+        }
+      ]
+    },
+    {
+      "id": "leec.201.4.1",
+      "title": "Microeconomics and Macroeconomics as Branches",
+      "section": "1.5",
+      "definition": "Microeconomics follows individual agents in single markets to see how each good's price and quantity emerge, while macroeconomics steps back to aggregate totals - output, employment and the general price level - and how they are set and how they move.",
+      "formula": "branches_of_economics = individual_markets_study + aggregate_totals_study",
+      "key_idea": "One branch zooms to a market, the other zooms out to the whole economy's totals.",
+      "textbook_ref": "leec201.txt, section 1.5, pages 7",
+      "question_patterns": [
+        "contrast the study of single markets with the study of economy-wide totals",
+        "which questions about total output and jobs belong to the aggregate branch",
+        "what does the individual-agent branch try to determine",
+        "sort topics like a good's price and the general price level into their branches",
+        "why are output employment and the price level called aggregate measures",
+        "state the subject matter of each broad branch of economics"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fix the unit of study",
+          "explain": "Micro looks at consumers and producers in one commodity market; macro looks at economy-wide aggregates."
+        },
+        {
+          "step": 2,
+          "action": "List the core questions",
+          "explain": "Micro asks how a good's price and quantity form; macro asks how total output, employment and prices are determined and why they change."
+        },
+        {
+          "step": 3,
+          "action": "Sort a given question",
+          "explain": "Questions naming totals or the whole economy go to macro; those naming one good or agent go to micro."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec201.txt Example 1 Table 1.1 combinations C to D",
+      "concept": "leec.201.1.4",
+      "question_type": "compute",
+      "question_pattern": "Along a frontier the economy moves from 2 units of corn with 7 of cotton to 3 of corn with 4 of cotton. What is the opportunity cost of the extra corn?",
+      "extracted_variables": {
+        "initial_output_of_other_good": 7,
+        "final_output_of_other_good": 4,
+        "extra_units_of_chosen_good": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Sacrificed cotton",
+          "explain": "7 minus 4 leaves 3 units of cotton given up.",
+          "compute": "quantity_lost_of_other_good = initial_output_of_other_good - final_output_of_other_good"
+        },
+        {
+          "step": 2,
+          "action": "Cost per extra corn",
+          "explain": "3 cotton surrendered for 1 extra corn gives an opportunity cost of 3.",
+          "compute": "opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec201-ex1",
+      "source_ref": "leec201.txt exercise 1",
+      "questions": [
+        "Discuss the central problems every economy must tackle."
+      ]
+    },
+    {
+      "id": "leec201-ex2",
+      "source_ref": "leec201.txt exercise 2",
+      "questions": [
+        "What are the production possibilities of an economy meant to convey?"
+      ]
+    },
+    {
+      "id": "leec201-ex3",
+      "source_ref": "leec201.txt exercise 3",
+      "questions": [
+        "Define the frontier of production possibilities."
+      ]
+    },
+    {
+      "id": "leec201-ex4",
+      "source_ref": "leec201.txt exercise 4",
+      "questions": [
+        "Outline the subject matter of economics."
+      ]
+    },
+    {
+      "id": "leec201-ex5",
+      "source_ref": "leec201.txt exercise 5",
+      "questions": [
+        "Contrast a centrally planned economy with a market economy."
+      ]
+    },
+    {
+      "id": "leec201-ex6",
+      "source_ref": "leec201.txt exercise 6",
+      "questions": [
+        "What is meant by positive economic analysis?"
+      ]
+    },
+    {
+      "id": "leec201-ex7",
+      "source_ref": "leec201.txt exercise 7",
+      "questions": [
+        "What is meant by normative economic analysis?"
+      ]
+    },
+    {
+      "id": "leec201-ex8",
+      "source_ref": "leec201.txt exercise 8",
+      "questions": [
+        "Draw the distinction between microeconomics and macroeconomics."
+      ]
+    }
+  ]
+}

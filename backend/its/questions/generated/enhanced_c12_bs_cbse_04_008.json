@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_008",
+   "title": "c12_bs_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define forecasting in the context of the planning process. At which specific step of planning does forecasting primarily operate?",
+     "a": "Forecasting is the technique of estimating future events/conditions (demand, prices, policy) using past/present data to create assumptions (premises) for planning. It operates primarily at Step 2: \"Developing Premises.\" A wrong answer (e.g., \"forecasting is the same as planning\" or \"forecasting happens at the implementation stage\") reveals the student conflates the predictive tool with the entire decision-making function, or misplaces it in the process sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Our marketing manager forecasted sales of 10,000 units for next year. That's our production plan.\" Explain why this statement is incorrect using the distinction between forecasting and planning.",
+     "a": "The forecast (10,000 units) is only a *premise* — an assumption about future demand. A production plan must also include: production capacity assessment, inventory policy, labor scheduling, raw material procurement strategy, and contingency buffers. The forecast answers \"what might we sell?\"; the plan answers \"how will we produce, resource, and control to meet that?\" A wrong answer indicates the student treats a single numerical prediction as a complete action-oriented plan, missing the decision-making, alternative-evaluation, and resource-allocation components.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: An FMCG company uses three forecasting methods (moving average, exponential smoothing, Delphi) to predict next quarter's detergent demand. The three forecasts differ by ±12%. As the planning head, describe the next two steps you must take *before* finalizing the production plan.",
+     "a": "Step 1: Develop a consensus premise — reconcile the three forecasts into a single agreed-upon demand assumption (e.g., weighted average, expert judgment) that all departments will use. Step 2: Identify alternative courses of action for that demand level (e.g., overtime shifts vs. outsourcing vs. inventory build-up) and evaluate them on cost, flexibility, and risk. A wrong answer (e.g., \"pick the middle forecast and start production\") shows the student skips the critical planning steps of premise agreement and alternative generation/evaluation, jumping straight from data to action.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the *output* of forecasting vs. the *output* of planning. Why is the planning output actionable while the forecasting output is not, by itself?",
+     "a": "Forecasting output: a probabilistic statement about a future variable (e.g., \"Sales will be 9,500–10,500 units with 80% confidence\"). Planning output: a committed course of action with allocated resources, timelines, responsibilities, and control standards (e.g., \"Produce 10,000 units in Q1 using Line A, hire 20 temps by March 15, budget ₹50 lakh, review weekly\"). The forecast describes a possible future; the plan creates a desired future through deliberate choices. A wrong answer suggests the student sees both as \"reports about the future\" and misses the volitional, resource-committing nature of planning.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"With AI-powered forecasting tools becoming 95% accurate, the need for human planning will disappear.\" Use the features of planning (pervasiveness, decision-making, mental exercise) to justify your answer.",
+     "a": "The statement is false. Even perfect forecasts only provide *premises* (Step 2). Planning still requires: (i) *Pervasiveness* — every department (HR, Finance, Ops) must align their sub-plans to the forecast, which requires human coordination; (ii) *Decision-making* — choosing among alternatives (e.g., build vs. buy capacity) involves strategic judgment, not just data; (iii) *Mental exercise* — setting objectives, evaluating trade-offs, and anticipating second-order effects (competitor reactions, regulatory shifts) requires foresight and values that algorithms lack. A wrong answer reveals the student equates \"accurate prediction\" with \"strategic choice,\" ignoring the normative, multi-stakeholder, and creative dimensions of planning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (3-4 sentences) showing a situation where a company had an accurate forecast but failed due to poor planning. Explicitly label the forecasting element and the missing planning elements.",
+     "a": "Example: \"AutoComp Ltd. accurately forecasted a 20% surge in EV demand (Forecasting: predictive premise). However, they failed to (Planning) secure battery supply contracts (alternative identification), train assembly line workers for EV modules (implementation), or set up charging-infrastructure partnerships (strategy). When demand surged, they lost market share to rivals who had planned these elements.\" A poor answer would describe a forecast error rather than a planning failure, showing the student cannot separate the quality of the premise from the quality of the action framework built on it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

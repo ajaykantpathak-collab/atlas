@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_006",
+   "title": "c12_cs_cbse_03_006",
+   "questions": [
+    {
+     "q": "What is the purpose of the `name` attribute in an `<input>` element inside a form, and what happens if you omit it?",
+     "a": "The `name` attribute assigns a unique identifier to the input field so that when the form is submitted, the server can associate the submitted value with that field (e.g., `name=\"email\"` sends `email=user@example.com`). If omitted, the input's value is not sent with the form data at all — the server receives nothing for that field. A wrong answer (e.g., \"it's just a label for the user\") reveals confusion between the visible label (`<label>`) and the programmatic name used in data submission.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `method=\"GET\"` and `method=\"POST\"` in a form. Give one situation where you would choose POST over GET.",
+     "a": "GET appends form data to the URL as query parameters (visible, bookmarkable, length-limited), while POST sends data in the HTTP request body (not visible in URL, no practical length limit, more secure for sensitive data). Choose POST for login forms, payment details, or any submission that changes server state (e.g., inserting a database record). A wrong answer (e.g., \"POST is always better\") shows lack of understanding of idempotency and caching — GET is appropriate for search forms where bookmarking/sharing the query is desired.",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML code for a form that collects a user's age (number, 18-100), email (with validation), and a \"Subscribe to newsletter\" checkbox. The form should submit to `/register` using POST. Include appropriate labels and required validation.",
+     "a": "```html\n<form action=\"/register\" method=\"POST\">\n  <label for=\"age\">Age (18-100):</label>\n  <input type=\"number\" id=\"age\" name=\"age\" min=\"18\" max=\"100\" required><br><br>\n  \n  <label for=\"email\">Email:</label>\n  <input type=\"email\" id=\"email\" name=\"email\" required><br><br>\n  \n  <label for=\"newsletter\">Subscribe to newsletter:</label>\n  <input type=\"checkbox\" id=\"newsletter\" name=\"newsletter\" value=\"yes\"><br><br>\n  \n  <input type=\"submit\" value=\"Register\">\n</form>\n```\nSteps: (1) `<form>` with action/method. (2) Each input has matching `id` (for label `for`) and `name` (for submission). (3) `type=\"number\"` with `min`/`max` enforces range. (4) `type=\"email\"` triggers browser validation. (5) Checkbox uses `value=\"yes\"` so submitted data is `newsletter=yes` when checked; if unchecked, nothing is sent. A wrong answer missing `name` attributes or using `type=\"text\"` for email reveals misunderstanding of built-in validation and data submission mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare radio buttons and checkboxes. When would you use each? If you have three radio buttons with the same `name` but different `value`s, what data is sent when the second one is selected?",
+     "a": "Radio buttons (`type=\"radio\"`) allow exactly one choice from a group (same `name`); checkboxes (`type=\"checkbox\"`) allow zero or more independent choices. Use radio for mutually exclusive options (gender, payment method); checkboxes for multiple selections (hobbies, toppings). If three radios share `name=\"color\"` with values `red`, `green`, `blue`, and the second (green) is selected, the form submits `color=green`. A wrong answer (e.g., \"all three values are sent\") shows confusion about radio group behavior — only the selected radio's value is submitted.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a form with two submit buttons: `<input type=\"submit\" name=\"action\" value=\"Save\">` and `<input type=\"submit\" name=\"action\" value=\"Delete\">`. The form's action is `/process`. When the user clicks \"Delete\", what data is sent to the server? Is this a good design? Justify.",
+     "a": "Clicking \"Delete\" sends `action=Delete` (only the clicked submit button's name/value pair is included). The server can check `$_POST['action']` (or equivalent) to decide whether to save or delete. This is a valid and common pattern for multi-action forms. However, it has a usability risk: if the user presses Enter in a text field, the browser may submit the first submit button (\"Save\") unintentionally. A better design might use separate forms or JavaScript to confirm destructive actions. A wrong answer (e.g., \"both buttons' values are sent\") shows ignorance of the rule that only the activated submit button contributes to form data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a form for a \"Library Book Issue\" system. It must collect: Student ID (text, exactly 8 digits), Book ISBN (text, 13 digits), Issue Date (date, default today), and a dropdown for \"Loan Period\" (7, 14, 21 days). The form should prevent submission if any field is invalid. Write the complete HTML code using only HTML5 attributes (no JavaScript). Explain how each validation works.",
+     "a": "```html\n<form action=\"/issue-book\" method=\"POST\">\n  <label for=\"studentId\">Student ID (8 digits):</label>\n  <input type=\"text\" id=\"studentId\" name=\"studentId\" pattern=\"\\d{8}\" title=\"Exactly 8 digits\" required><br><br>\n  \n  <label for=\"isbn\">Book ISBN (13 digits):</label>\n  <input type=\"text\" id=\"isbn\" name=\"isbn\" pattern=\"\\d{13}\" title=\"Exactly 13 digits\" required><br><br>\n  \n  <label for=\"issueDate\">Issue Date:</label>\n  <input type=\"date\" id=\"issueDate\" name=\"issueDate\" required><br><br>\n  \n  <label for=\"loanPeriod\">Loan Period (days):</label>\n  <select id=\"loanPeriod\" name=\"loanPeriod\" required>\n    <option value=\"\">--Select--</option>\n    <option value=\"7\">7 days</option>\n    <option value=\"14\">14 days</option>\n    <option value=\"21\">21 days</option>\n  </select><br><br>\n  \n  <input type=\"submit\" value=\"Issue Book\">\n</form>\n```\nValidation: (1) `pattern=\"\\d{8}\"` uses regex to enforce exactly 8 digits; `title` shows tooltip on failure. (2) `pattern=\"\\d{13}\"` for ISBN. (3) `type=\"date\"` gives a date picker and ensures valid date format; browser may not set default to today without JS, but `required` forces selection. (4) `<select>` with first empty `option value=\"\"` and `required` forces user to pick a real option. A poor answer might use `type=\"number\"` for IDs (loses leading zeros) or omit `pattern`, showing lack of awareness of HTML5 client-side validation capabilities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

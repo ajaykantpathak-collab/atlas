@@ -1,0 +1,585 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 107,
+  "chapter_title": "Directing",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.107.1.1",
+      "title": "Meaning, Features and Importance of Directing",
+      "section": "1.1",
+      "definition": "The managerial function that steers people at work through instructions, guidance, counselling, motivation and leadership so that the organisation's objectives are actually pursued; it is the spark that puts plans to work and runs at every level for as long as the organisation lives.",
+      "formula": "",
+      "key_idea": "Four marks: it initiates action, exists wherever superior-subordinate relations exist, never stops, and flows down the hierarchy; its worth lies in starting action, joining individual efforts, drawing out potential, easing change and keeping the organisation balanced.",
+      "textbook_ref": "lebs107.txt lines 84-254 (Meaning; characteristics i-iv; importance i-v)",
+      "question_patterns": [
+        "what is meant by directing as a function of management",
+        "state the characteristics of directing",
+        "why does directing flow from top to bottom and never stop at any level",
+        "why is directing called a continuous process at every level of management",
+        "explain the importance of directing for an organisation",
+        "how does directing help in introducing changes smoothly",
+        "which function of management initiates action in an organisation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the function",
+          "explain": "Directing covers instructing, guiding, counselling, motivating and leading employees toward the objectives."
+        },
+        {
+          "step": 2,
+          "action": "List its characteristics",
+          "explain": "It initiates action, occurs at every level, continues throughout the organisation's life, and moves from top to bottom."
+        },
+        {
+          "step": 3,
+          "action": "State the importance points",
+          "explain": "It starts effort toward goals, integrates individual contributions, develops potential, lowers resistance to change, and brings stability."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.2.1",
+      "title": "Principles of Directing",
+      "section": "2.1",
+      "definition": "Eight guides for effective direction: draw the maximum contribution from each person, harmonise individual and organisational aims, keep one boss per person, pick techniques that fit the subordinate, communicate clearly with feedback, use informal groups wisely, lead well, and always follow up on orders given.",
+      "formula": "",
+      "key_idea": "Match the principle to the case -- rewards suiting each worker show appropriateness of technique; a manager reviewing orders shows follow through.",
+      "textbook_ref": "lebs107.txt lines 255-368 (Principles i-viii)",
+      "question_patterns": [
+        "explain any three principles of directing",
+        "which principle of directing insists on one boss for one person",
+        "what does the principle of harmony of objectives require",
+        "why should direction techniques suit the needs of subordinates",
+        "what is meant by follow through in directing",
+        "how does maximum individual contribution guide a manager"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the principle in question",
+          "explain": "Recall the eight principles of directing and select the one the case or statement refers to."
+        },
+        {
+          "step": 2,
+          "action": "Explain its meaning",
+          "explain": "For instance, unity of command here means instructions reach a person from one superior only, avoiding confusion."
+        },
+        {
+          "step": 3,
+          "action": "Attach an example",
+          "explain": "Money motivates some workers, promotion others -- so techniques must be chosen to fit the person."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.3.1",
+      "title": "Supervision as an Element of Directing",
+      "section": "3.1",
+      "definition": "The overseeing of subordinates' work with guidance and instruction so that resources are used well and targets are met; it is both an element every manager performs and the job title of the operative-level manager standing directly above the workers.",
+      "formula": "",
+      "key_idea": "The supervisor is the workers' guide, friend and philosopher and the link carrying management's ideas down and workers' problems up.",
+      "textbook_ref": "lebs107.txt lines 400-537 (Supervision, two meanings; importance i-vii)",
+      "question_patterns": [
+        "what is meant by supervision in directing",
+        "why is the supervisor called a link between workers and management",
+        "state the importance of supervision in an organisation",
+        "how does a supervisor maintain group unity among workers",
+        "in what sense is a supervisor a guide friend and philosopher to workers"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Give the two senses of supervision",
+          "explain": "As an element of directing it means overseeing and guiding effort; as a position it means the lowest managerial rank above workers."
+        },
+        {
+          "step": 2,
+          "action": "List the supervisor's roles",
+          "explain": "Day-to-day contact, link between workers and management, group unity, meeting targets, on-the-job training, morale, feedback."
+        },
+        {
+          "step": 3,
+          "action": "Note why the role is vital",
+          "explain": "No other manager touches the workers directly, so quality, discipline and grievances all pass through the supervisor."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.4.1",
+      "title": "Motivation -- Concept, Features and Process",
+      "section": "4.1",
+      "definition": "The process of stirring subordinates to act in the desired way so that organisational goals are served; it begins with an inner state called a motive, works through stimulation called motivation, and applies tools called motivators such as pay, praise or promotion.",
+      "formula": "",
+      "key_idea": "It is an internal feeling producing goal-directed behaviour, may be positive or negative, and affects different people differently; the chain runs from unsatisfied need to tension, drives, search behaviour, satisfaction and relief of tension.",
+      "textbook_ref": "lebs107.txt lines 538-707 (motive, motivation, motivators; features i-iv; motivation process and Ramu example)",
+      "question_patterns": [
+        "what is meant by motivation",
+        "distinguish between motive motivation and motivator",
+        "explain the process of motivation with the help of a diagram",
+        "state the features of motivation",
+        "how does an unsatisfied need generate behaviour explain the motivation cycle",
+        "can motivation be negative give examples"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the three linked terms",
+          "explain": "Motive: the inner state that moves behaviour. Motivation: the process of stimulating action toward goals. Motivator: the technique used, like bonus or recognition."
+        },
+        {
+          "step": 2,
+          "action": "List the features",
+          "explain": "Internal feeling, goal-directed behaviour, positive or negative forms, complex and uneven across people."
+        },
+        {
+          "step": 3,
+          "action": "Trace the need-satisfaction chain",
+          "explain": "Unsatisfied need creates tension, tension drives search behaviour, satisfying the need ends the tension -- as hunger drove Ramu to search for food."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.4.2",
+      "title": "Maslow's Need Hierarchy Theory",
+      "section": "4.2",
+      "definition": "Abraham Maslow's ladder of five human needs, rising from basic physiological needs such as food and shelter, through safety, belonging and esteem, to self-actualisation, the drive to become all one is capable of becoming.",
+      "formula": "",
+      "key_idea": "Assumptions to cite: behaviour flows from needs, needs stand in a hierarchy, a satisfied need no longer motivates, and the next level pulls only after the lower one is met -- basic salary serves the bottom rung, pension plans the second, friendship the third, status the fourth, growth the top.",
+      "textbook_ref": "lebs107.txt lines 828-940 (Maslow's theory: five needs i-v, assumptions i-iv, criticism)",
+      "question_patterns": [
+        "discuss maslow's need hierarchy theory of motivation",
+        "name the five levels of needs in maslow's hierarchy with examples",
+        "which level of maslow's hierarchy does job security belong to",
+        "state the assumptions on which maslow's theory rests",
+        "why can a satisfied need no longer motivate a person",
+        "which organisational incentives satisfy the esteem needs of employees"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Draw the five-step ladder",
+          "explain": "Physiological, safety and security, affiliation and belonging, esteem, self-actualisation -- from bottom to top."
+        },
+        {
+          "step": 2,
+          "action": "Give individual and organisational examples",
+          "explain": "Hunger maps to basic salary; stability of income to pension plans; friendship to cordial colleagues; status to job title; growth to achievement of goals."
+        },
+        {
+          "step": 3,
+          "action": "State the assumptions",
+          "explain": "Needs drive behaviour; they follow a hierarchy; a met need stops motivating; the next level attracts only after the lower is satisfied."
+        },
+        {
+          "step": 4,
+          "action": "Note the managerial lesson",
+          "explain": "Identify the employee's current need level before choosing the incentive."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.4.3",
+      "title": "Financial Incentives",
+      "section": "4.3",
+      "definition": "Motivators payable in money or measurable in money: pay and allowances, productivity-linked wages, bonus, a share in profits, stock options that make employees co-owners, retirement benefits such as provident fund and pension, and perquisites like housing, car allowance or medical aid.",
+      "formula": "",
+      "key_idea": "Money buys daily needs plus social standing, so it stays the most direct incentive; stock options go further by creating a feeling of ownership.",
+      "textbook_ref": "lebs107.txt lines 941-1094 (Financial incentives i-vii)",
+      "question_patterns": [
+        "explain any four financial incentives used to motivate employees",
+        "which incentive gives employees shares at a price below the market rate",
+        "how does profit sharing motivate workers",
+        "name the retirement benefits that act as financial incentives",
+        "a firm grants car allowance and housing to managers name the incentive",
+        "what is meant by productivity linked wage incentives"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the category",
+          "explain": "Financial incentives are direct monetary rewards or benefits measurable in money."
+        },
+        {
+          "step": 2,
+          "action": "List the seven instruments",
+          "explain": "Pay and allowances, productivity-linked wages, bonus, profit sharing, co-partnership and stock options, retirement benefits, perquisites."
+        },
+        {
+          "step": 3,
+          "action": "Explain the one asked",
+          "explain": "For example, stock options allot shares below market price, breeding ownership feelings and loyalty."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.4.4",
+      "title": "Non-Financial Incentives",
+      "section": "4.4",
+      "definition": "Motivators aimed at psychological, social and emotional needs rather than the purse: status, a supportive organisational climate, career advancement opportunities, enriched jobs with autonomy and challenge, recognition programmes, job security, employee participation in decisions, and empowerment with greater autonomy.",
+      "formula": "",
+      "key_idea": "Money alone cannot satisfy every need; a promotion may raise pay but its real pull is elevation, status and authority -- the psychological over the monetary.",
+      "textbook_ref": "lebs107.txt lines 1095-1251 (Non-financial incentives i-viii)",
+      "question_patterns": [
+        "explain any four non financial incentives for employees",
+        "free medical aid and education for employees children which incentive is highlighted",
+        "how does job enrichment act as a motivator",
+        "what is meant by employee empowerment and participation",
+        "which incentives satisfy the esteem needs of workers",
+        "why is status called a non financial incentive"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the category",
+          "explain": "These incentives target psychological and social needs, sometimes touching money but never resting on it."
+        },
+        {
+          "step": 2,
+          "action": "List the eight instruments",
+          "explain": "Status, organisational climate, career advancement, job enrichment, recognition, job security, participation, empowerment."
+        },
+        {
+          "step": 3,
+          "action": "Classify the case incentive",
+          "explain": "Medical aid and education for employees' children fall under perquisites within financial incentives -- but recognition or status cases belong here; classify with care."
+        },
+        {
+          "step": 4,
+          "action": "Explain the mechanism",
+          "explain": "Each instrument feeds esteem, belonging or growth needs that wages alone cannot reach."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.5.1",
+      "title": "Leadership -- Meaning, Features and Importance",
+      "section": "5.1",
+      "definition": "The art of influencing people so that they strive willingly toward group goals; it rests on the ability to build good interpersonal relations with followers and to draw their best contribution without coercion.",
+      "formula": "",
+      "key_idea": "Its features: the power to influence, a change agent for behaviour, interpersonal between leader and followers, aimed at common goals, and continuous; its worth shows in positive contribution, need fulfilment, smoother change, conflict handling and successor building -- and followers, by accepting leadership, co-create the leader.",
+      "textbook_ref": "lebs107.txt lines 1252-1387 (definitions box; features i-v; importance i-v)",
+      "question_patterns": [
+        "what is meant by leadership",
+        "state the features of leadership",
+        "why is leadership important for the success of an organisation",
+        "how does a leader help in introducing changes",
+        "leaders indicate the ability to influence others explain",
+        "how do followers make a person a good leader"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define leadership",
+          "explain": "It is influencing people to strive voluntarily for organisational objectives."
+        },
+        {
+          "step": 2,
+          "action": "List the features",
+          "explain": "Influence, behavioural change, interpersonal relations, common goals, continuous process."
+        },
+        {
+          "step": 3,
+          "action": "Give the benefits",
+          "explain": "Positive contribution of energies, personal support to followers, acceptance of change, conflict resolution, training of successors."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.5.2",
+      "title": "Leadership Styles",
+      "section": "5.2",
+      "definition": "Three patterns of using authority: the autocratic leader commands and expects obedience with one-way communication, the democratic leader consults subordinates before deciding, and the laissez-faire leader leaves followers free to set their own objectives, stepping in only to support and supply information.",
+      "formula": "",
+      "key_idea": "Autocracy buys speed and discipline on the shop floor; democracy buys commitment through participation; free-rein buys creativity from capable teams -- a leader may blend styles as the situation demands.",
+      "textbook_ref": "lebs107.txt lines 1388-1487 (Autocratic, Democratic, Laissez faire styles)",
+      "question_patterns": [
+        "explain the different styles of leadership",
+        "which style of leadership does not believe in use of power unless absolutely essential",
+        "a manager who never likes to be contradicted which style does he follow",
+        "compare autocratic and democratic leadership styles",
+        "which leadership style suits a team of experts working on their own",
+        "what are the merits of participative leadership"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Classify the leader from the case",
+          "explain": "Orders and obedience point to autocratic; consultation to democratic; full freedom to laissez-faire."
+        },
+        {
+          "step": 2,
+          "action": "Explain that style",
+          "explain": "One line on how authority and communication flow under it."
+        },
+        {
+          "step": 3,
+          "action": "State its strengths and risks",
+          "explain": "For instance, autocratic style speeds decisions but breeds stress and suppresses initiative."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.6.1",
+      "title": "Communication Process and Its Elements",
+      "section": "6.1",
+      "definition": "The exchange of ideas, facts and feelings between people so that a common understanding emerges; the chain runs from sender through encoding, media of transmission and decoding to receiver, with feedback closing the loop and noise threatening every link.",
+      "formula": "",
+      "key_idea": "Encoding turns ideas into words or gestures, decoding reverses the process at the receiver; noise is any obstruction -- bad phone lines, ambiguous symbols, an inattentive listener, prejudices, mismatched body language.",
+      "textbook_ref": "lebs107.txt lines 1488-1601 (definitions; elements of communication process i-viii; noise examples)",
+      "question_patterns": [
+        "explain the elements of the communication process",
+        "which element involves converting the message into words symbols and gestures",
+        "what is meant by noise in communication with examples",
+        "what role does feedback play in communication",
+        "draw and explain the communication process diagram",
+        "distinguish between encoding and decoding in communication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define communication",
+          "explain": "It is the two-way process of sharing information until sender and receiver reach common understanding."
+        },
+        {
+          "step": 2,
+          "action": "Walk the element chain",
+          "explain": "Sender, message, encoding, media, decoding, receiver, feedback -- with noise able to strike any stage."
+        },
+        {
+          "step": 3,
+          "action": "Explain noise",
+          "explain": "Obstructions range from faulty encoding and poor phone lines to inattention, prejudices and distorting gestures."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.6.2",
+      "title": "Importance of Communication",
+      "section": "6.2",
+      "definition": "The reasons the function is central to managing: it underpins coordination, keeps the enterprise working smoothly, supplies the information behind decisions, raises managerial efficiency, builds cooperation and industrial peace, grounds leadership, and lifts morale and motivation.",
+      "formula": "",
+      "key_idea": "A manager spends most of the working day communicating; when communication stops, organised activity itself ceases.",
+      "textbook_ref": "lebs107.txt lines 1573-1725 (Importance of Communication i-vii)",
+      "question_patterns": [
+        "explain the importance of communication in management",
+        "how does communication act as the basis of coordination",
+        "why is communication called the basis of decision making",
+        "how does communication boost the morale of employees",
+        "what happens to an enterprise when communication stops"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the seven benefits",
+          "explain": "Coordination, smooth working, decision making, managerial efficiency, cooperation and peace, leadership, morale and motivation."
+        },
+        {
+          "step": 2,
+          "action": "Explain the one asked",
+          "explain": "For decisions, relevant information must travel to the manager; without it no meaningful choice can be made."
+        },
+        {
+          "step": 3,
+          "action": "Close with the lubricant image",
+          "explain": "Communication oils the whole management process and keeps the organisation at work."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.6.3",
+      "title": "Formal and Informal Communication",
+      "section": "6.3",
+      "definition": "Official messages move through the channels drawn on the organisation chart -- vertical, upward or downward, and horizontal between sister divisions -- over networks like the single chain, wheel, circular, free flow and inverted V; unofficial exchange, the grapevine, ignores these lines entirely and spreads in single strand, gossip, probability or cluster patterns.",
+      "formula": "",
+      "key_idea": "Grapevine talk travels fast, distorts easily and hides its source, yet a wise manager taps it to sound out reactions -- the cluster network is the most common.",
+      "textbook_ref": "lebs107.txt lines 1726-1907 (Formal and informal communication; networks; grapevine networks)",
+      "question_patterns": [
+        "what is informal communication",
+        "state the different networks of grapevine communication",
+        "which grapevine network is most popular in organisations",
+        "distinguish between formal and informal communication",
+        "a leave application moving up to the boss is which type of communication",
+        "explain the wheel and circular networks of formal communication"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Classify the communication",
+          "explain": "Recorded messages on official channels are formal; canteen chatter and transfer rumours are informal grapevine."
+        },
+        {
+          "step": 2,
+          "action": "Name the network if asked",
+          "explain": "Formal: single chain, wheel, circular, free flow, inverted V. Grapevine: single strand, gossip, probability, cluster."
+        },
+        {
+          "step": 3,
+          "action": "Weigh the grapevine",
+          "explain": "It gives speed and honest reactions but breeds distortion and rumour; manage it, do not abolish it."
+        }
+      ]
+    },
+    {
+      "id": "lebs.107.6.4",
+      "title": "Barriers to Communication and Their Remedies",
+      "section": "6.4",
+      "definition": "Four families of obstruction: semantic barriers of badly expressed or wrongly translated words, technical jargon and ambiguous symbols; psychological barriers like premature evaluation, inattention, loss in transmission and distrust; organisational barriers from rigid rules, status distance and layered structures; and personal barriers such as fear of challenge or unwillingness to speak up.",
+      "formula": "",
+      "key_idea": "Remedies mirror the barriers -- clarify ideas first, suit the receiver's level, consult before sending, watch language and tone, convey useful content, ensure feedback, think of the future, follow up, and listen well.",
+      "textbook_ref": "lebs107.txt lines 1893-2375 (Barriers: semantic, psychological, organisational, personal; improving communication effectiveness i-ix)",
+      "question_patterns": [
+        "what are the common barriers to effective communication",
+        "explain the semantic barriers to communication",
+        "a boss instructs take care of our guest and misunderstandings follow which barrier is this",
+        "suggest measures to overcome the barriers to communication",
+        "which psychological barrier operates when a receiver judges the message before it ends",
+        "how does status of superiors obstruct communication in an organisation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sort the barrier into its family",
+          "explain": "Meaning troubles are semantic, state-of-mind troubles psychological, structure troubles organisational, and individual habits personal."
+        },
+        {
+          "step": 2,
+          "action": "Explain the specific barrier",
+          "explain": "For example, unclarified assumptions leave the receiver guessing what take care of our guest really covers."
+        },
+        {
+          "step": 3,
+          "action": "Prescribe the matching remedy",
+          "explain": "Clarify ideas before sending, match the receiver's understanding level, seek feedback, and follow up on instructions."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs107.txt lines 2470-2480 (GyanPradan hostel exercise)",
+      "concept": "lebs.107.4.4",
+      "question_type": "verify_property",
+      "question_pattern": "A reputed hostel provides medical aid and free education to the children of its employees. Name the incentive, its category, and two more incentives of the same category.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Name the incentive",
+          "explain": "This is a perquisite -- a fringe benefit over and above salary."
+        },
+        {
+          "step": 2,
+          "action": "State its category",
+          "explain": "Perquisites belong to the financial incentives category, being benefits measurable in money."
+        },
+        {
+          "step": 3,
+          "action": "Give two more of the same kind",
+          "explain": "Pay and allowances, and retirement benefits such as provident fund or pension, sit in the same financial category."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs107.txt lines 2470-2475 (inflexible departmental manager exercise)",
+      "concept": "lebs.107.5.2",
+      "question_type": "verify_property",
+      "question_pattern": "A departmental manager is inflexible: once he decides, he refuses contradiction, so staff feel stressed, take little initiative and fear speaking up. Which leadership style is he using and what should change?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Identify the style",
+          "explain": "Orders without contradiction mark the autocratic or authoritarian style."
+        },
+        {
+          "step": 2,
+          "action": "Explain its effects",
+          "explain": "One-way communication breeds stress, suppresses initiative and silences opinions -- exactly the case symptoms."
+        },
+        {
+          "step": 3,
+          "action": "Recommend the shift",
+          "explain": "A democratic style that consults subordinates would lift participation, initiative and morale."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs107.txt lines 2453-2459 (unwilling workers exercise)",
+      "concept": "lebs.107.4.1",
+      "question_type": "verify_property",
+      "question_pattern": "Workers always plead inability when new work arrives and the supervisor cannot cope with rising demand. Which element of directing can help him handle the problem?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Diagnose the behaviour",
+          "explain": "Unwillingness despite ability is a motivation problem, not a skill problem."
+        },
+        {
+          "step": 2,
+          "action": "Name the element",
+          "explain": "Motivation -- stimulating people to act willingly toward the goals."
+        },
+        {
+          "step": 3,
+          "action": "Suggest the levers",
+          "explain": "Suitable financial and non-financial incentives, plus praise and recognition, can turn reluctance into willing effort."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex107_vsa",
+      "source_ref": "lebs107.txt lines 2440-2459 (Very Short Answer Type)",
+      "questions": [
+        "What is informal communication?",
+        "Which style of leadership does not believe in use of power unless it is absolutely essential?",
+        "Which element in the communication process involves converting the message into words, symbols, gestures etc.?",
+        "Workers always show inability when new work is given and the supervisor cannot cope with a sudden rise in demand. State the element of directing that can help him."
+      ]
+    },
+    {
+      "id": "ex107_sa",
+      "source_ref": "lebs107.txt lines 2460-2480 (Short Answer Type)",
+      "questions": [
+        "What are the semantic barriers of communication?",
+        "Explain the process of motivation with the help of a diagram.",
+        "State the different networks of grapevine communications.",
+        "Explain any three principles of directing.",
+        "An inflexible departmental manager never tolerates contradiction; employees feel stressed and hide their problems. What is the problem in the way authority is being used?",
+        "A reputed hostel provides medical aid and free education to employees' children. Which incentive is highlighted? State its category and name two more of the same category."
+      ]
+    },
+    {
+      "id": "ex107_la",
+      "source_ref": "lebs107.txt lines 2481-2498 (Long Answer Type)",
+      "questions": [
+        "Discuss Maslow's Need Hierarchy theory of motivation.",
+        "What are the common barriers to effective communication? Suggest measures to overcome them.",
+        "Explain the different financial and non-financial incentives used to motivate employees of a company.",
+        "Employees take things easy, approach anyone for minor queries, and confidential information leaks out. What system should the manager adopt to improve communication?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_001",
+   "title": "c11_biotech_cbse_12_001",
+   "questions": [
+    {
+     "q": "Define magnification and resolution of a microscope. A student uses a compound microscope with a 40× objective and a 10× eyepiece. What is the total magnification? If the image of a cell appears 8 mm wide, what is the actual width of the cell in micrometers?",
+     "a": "Magnification (M) = Size of retinal image with microscope / Size of retinal image without microscope; for a compound microscope, M = Mo × Me. Resolution is the minimum distance between two points that can be distinguished as separate. Total magnification = 40 × 10 = 400×. Actual width = Image width / Magnification = 8 mm / 400 = 0.02 mm = 20 μm. A wrong answer (e.g., adding magnifications to get 50×, or forgetting unit conversion) reveals the student confuses additive vs. multiplicative combination of lens powers and/or struggles with metric unit conversion (mm → μm), a common Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an electron microscope can resolve much smaller structures than a light microscope, even if both have the same numerical aperture. Use the concept of wavelength in your answer.",
+     "a": "Resolution (d) is fundamentally limited by the wavelength (λ) of the illuminating radiation (Abbe limit: d ≈ λ/2NA). Light microscopes use visible light (λ ≈ 400–700 nm), giving a best-case resolution ~200 nm. Electron microscopes use accelerated electrons with de Broglie wavelength ~0.005 nm (at 100 kV), theoretically allowing sub-nanometer resolution. A wrong answer citing \"higher magnification\" or \"better lenses\" reveals the misconception that magnification determines detail, ignoring the diffraction limit imposed by wavelength—a critical senior-secondary conceptual error.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to observe the dynamic movement of mitochondria in a living mammalian cell in real time. Which microscopy technique is most suitable: bright field, TEM, SEM, or fluorescence confocal? Justify your choice by comparing sample preparation requirements and imaging capabilities.",
+     "a": "Fluorescence confocal microscopy is most suitable. Bright field lacks contrast for transparent organelles in live cells. TEM and SEM require fixation, dehydration, heavy metal staining, and high vacuum—killing the cell and preventing live imaging. Fluorescence confocal allows specific labeling of mitochondria (e.g., MitoTracker), optical sectioning to reduce out-of-focus blur, and live-cell compatibility with appropriate environmental control. A wrong choice of TEM/SEM indicates the student does not grasp that electron microscopy is inherently destructive and static, a major board-exam misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast TEM and SEM in terms of: (a) Principle of image formation (transmitted vs. scattered electrons), (b) Sample thickness requirement, (c) Type of information obtained (internal ultrastructure vs. 3D surface topography), and (d) Typical resolution. Present as a structured table.",
+     "a": "| Feature | TEM | SEM |\n|---|---|---|\n| Principle | Electrons transmitted through ultra-thin specimen; image from differential scattering/absorption | Electrons scanned across surface; image from backscattered/secondary electrons emitted from surface |\n| Sample Thickness | Ultra-thin sections (~50–100 nm) | Bulk specimens (can be thick), coated with conductive layer (Au/Pd) |\n| Information | 2D projection of internal structure (organelles, membranes, viruses) | 3D-like surface topography (cell surface, tissue architecture, pollen) |\n| Resolution | < 0.5 nm (theoretical), ~0.2 nm practical | ~1–5 nm (limited by beam spot size and interaction volume) |\n\nA wrong answer swapping thickness requirements or claiming TEM gives 3D surface views reveals confusion between transmission (looking *through*) and scanning (looking *at*) geometries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Confocal microscopy is always superior to widefield fluorescence microscopy for imaging fixed tissue sections.\" Provide two scenarios where widefield might be preferred, and one where confocal is essential.",
+     "a": "The statement is false. Widefield is preferred when: (1) Imaging very thin specimens (e.g., monolayer cells, <5 μm) where out-of-focus light is negligible, because widefield is faster, uses lower light intensity (less photobleaching), and simpler. (2) High-throughput screening of many slides where speed and field of view matter more than optical sectioning. Confocal is essential for: (1) Thick specimens (e.g., 50 μm brain slice, spheroids) where optical sectioning is required to reject out-of-focus haze and reconstruct 3D structure. A wrong evaluation treating confocal as universally \"better\" ignores trade-offs in speed, phototoxicity, cost, and complexity—showing lack of critical evaluation skill expected at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fluorescence microscopy experiment to determine whether Protein X localizes to the nucleus or the mitochondria in HeLa cells. Specify: (a) The type of fluorescent probe (direct antibody vs. fluorescent protein tag), (b) The necessary controls, (c) The microscopy modality (widefield vs. confocal), and (d) How you would quantitatively analyze co-localization with a known organelle marker.",
+     "a": "(a) Use a fluorescent protein tag (e.g., Protein X-GFP) expressed via transfection for live-cell dynamics, or fixed-cell immunofluorescence with a validated primary antibody against Protein X and a fluorophore-conjugated secondary antibody (e.g., Alexa Fluor 488). (b) Controls: (i) Secondary-only control (no primary) to check non-specific binding, (ii) Untransfected cells for autofluorescence baseline, (iii) Known nuclear (DAPI/Hoechst) and mitochondrial (MitoTracker Red or anti-TOM20) markers. (c) Confocal preferred for optical sectioning to avoid false co-localization from overlapping structures in different z-planes. (d) Acquire z-stacks, deconvolve, then calculate Pearson's correlation coefficient (PCC) and Manders' overlap coefficient between Protein X channel and organelle marker channel using software (e.g., ImageJ/Fiji Coloc 2). A poor answer omits controls, suggests widefield for thick cells, or proposes visual \"yellow overlap\" as quantification—revealing lack of rigor in experimental design and quantitative image analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

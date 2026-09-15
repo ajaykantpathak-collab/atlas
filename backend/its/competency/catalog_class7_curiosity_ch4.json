@@ -1,0 +1,544 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "The World of Metals and Non-Metals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu104.txt",
+ "concepts": [
+  {
+   "id": "c7cu.4.1",
+   "title": "Physical Properties of Metals -- Lustre, Hardness, Malleability",
+   "section": "4.1",
+   "definition": "Metals are elements that have a shiny appearance (lustre), are generally hard, and can be beaten into thin sheets (malleable) or drawn into wires (ductile); they are good conductors of heat and electricity.",
+   "formula": "",
+   "key_idea": "Metals share characteristic physical properties -- lustre, hardness, malleability, ductility, sonority and good conductivity -- that distinguish them from non-metals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the physical properties of metals?",
+    "What is malleability? Give an example.",
+    "Why do metals have a shiny appearance?",
+    "Which metal is the best conductor of electricity?",
+    "What is ductility in metals?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the appearance and hardness",
+     "explain": "Metals have a shiny surface (lustre) when freshly cut or polished and are generally hard (except sodium and potassium which are soft)."
+    },
+    {
+     "step": 2,
+     "action": "Test malleability and ductility",
+     "explain": "Metals can be hammered into thin sheets (malleability, e.g., gold and silver) and drawn into thin wires (ductility, e.g., copper)."
+    },
+    {
+     "step": 3,
+     "action": "Test conductivity and sonority",
+     "explain": "Metals are good conductors of heat and electricity and produce a ringing sound when struck (sonorous)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is gold used for making thin foils for decorating sweets?",
+     "solution": "Gold is highly malleable; it can be beaten into extremely thin sheets (foils) without breaking, which is why it is used to decorate sweets.",
+     "answer": "Gold is highly malleable, so it can be beaten into very thin foils."
+    },
+    {
+     "question": "Why are copper and aluminium wires used for electrical transmission?",
+     "solution": "Copper and aluminium are good conductors of electricity and are ductile, so they can be drawn into long wires that carry current efficiently.",
+     "answer": "They are good conductors and ductile, making them ideal for wires."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List five physical properties of metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define malleability and ductility with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are metals good conductors of electricity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.2",
+   "title": "Physical Properties of Non-Metals",
+   "section": "4.2",
+   "definition": "Non-metals are elements that are generally dull in appearance, brittle, non-malleable and non-ductile, and are poor conductors of heat and electricity; they exist as solids, liquids or gases at room temperature.",
+   "formula": "",
+   "key_idea": "Non-metals lack the properties of metals -- they are dull, brittle, non-conductors -- and can be solids (sulphur, carbon), liquids (bromine) or gases (oxygen, nitrogen).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the physical properties of non-metals?",
+    "Why are non-metals called brittle?",
+    "Name a non-metal that is a liquid at room temperature.",
+    "Are non-metals good conductors of electricity?",
+    "Give two examples each of solid, liquid and gaseous non-metals."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the appearance",
+     "explain": "Most non-metals (except iodine and diamond) have a dull, non-lustrous appearance."
+    },
+    {
+     "step": 2,
+     "action": "Test malleability and conductivity",
+     "explain": "Non-metals are brittle -- they break into pieces when hammered -- and are poor conductors of heat and electricity."
+    },
+    {
+     "step": 3,
+     "action": "Classify by physical state",
+     "explain": "Non-metals can be solids (sulphur, phosphorus, carbon), liquids (bromine) or gases (oxygen, nitrogen, hydrogen) at room temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A piece of sulphur is hammered. What happens and why?",
+     "solution": "Sulphur is a non-metal and is brittle, so it breaks into a powdery substance when hammered; it cannot be drawn into sheets like a metal.",
+     "answer": "Sulphur breaks into powder because it is brittle."
+    },
+    {
+     "question": "Why is diamond classified as a non-metal even though it is hard and lustrous?",
+     "solution": "Diamond is a form of carbon, a non-metal. Although it is exceptionally hard and can be lustrous, it is a non-conductor of electricity and is chemically a non-metal, so it is classified as a non-metal.",
+     "answer": "Diamond is carbon (a non-metal); it is a non-conductor despite being hard."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the physical properties of non-metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name a non-metal that exists as a liquid at room temperature.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are non-metals poor conductors of electricity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.3",
+   "title": "Chemical Properties of Metals -- Reaction with Oxygen, Water and Acids",
+   "section": "4.3",
+   "definition": "Metals react with oxygen to form basic oxides, with water to form hydroxides and hydrogen gas, and with dilute acids to produce salt and hydrogen gas; the reactivity varies from metal to metal.",
+   "formula": "metal + oxygen -> metal oxide; metal + acid -> salt + hydrogen",
+   "key_idea": "Metals are reactive elements that form basic oxides with oxygen, hydroxides with water, and salts with acids, releasing hydrogen gas in the latter two reactions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What happens when metals react with oxygen?",
+    "Write the reaction of magnesium with oxygen.",
+    "How do metals react with dilute acids?",
+    "Which gas is produced when a metal reacts with an acid?",
+    "Why does sodium react violently with water?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the metal and the reactant",
+     "explain": "Note the metal (e.g., magnesium, zinc, sodium) and whether it reacts with oxygen, water or an acid."
+    },
+    {
+     "step": 2,
+     "action": "Write the balanced chemical equation",
+     "explain": "Metal + O2 -> metal oxide (basic); Metal + water -> metal hydroxide + H2; Metal + dilute acid -> salt + H2."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products and their nature",
+     "explain": "Metal oxides are basic, hydroxides are alkaline, and hydrogen gas burns with a pop sound; the salt formed depends on the acid used."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the balanced equation for the reaction of magnesium with oxygen.",
+     "solution": "2Mg + O2 -> 2MgO. Magnesium burns in air with a dazzling white flame to form magnesium oxide, a basic oxide.",
+     "answer": "2Mg + O2 -> 2MgO"
+    },
+    {
+     "question": "What happens when zinc reacts with dilute hydrochloric acid?",
+     "solution": "Zn + 2HCl -> ZnCl2 + H2. Zinc displaces hydrogen from the acid, forming zinc chloride and releasing hydrogen gas which burns with a pop sound.",
+     "answer": "Zn + 2HCl -> ZnCl2 + H2 (hydrogen gas is released)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the word equation for the reaction of a metal with oxygen.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Balance the equation: Mg + O2 -> MgO.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why do sodium and potassium catch fire when dropped in water?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.4",
+   "title": "Chemical Properties of Non-Metals -- Reaction with Oxygen and Acids",
+   "section": "4.4",
+   "definition": "Non-metals react with oxygen to form acidic or neutral oxides; most non-metals do not react with dilute acids to displace hydrogen, unlike metals.",
+   "formula": "non-metal + oxygen -> non-metal oxide (acidic)",
+   "key_idea": "Non-metal oxides are acidic in nature and turn blue litmus red; non-metals generally do not displace hydrogen from dilute acids.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What happens when non-metals react with oxygen?",
+    "Write the reaction of carbon with oxygen.",
+    "Are non-metal oxides acidic or basic?",
+    "Do non-metals react with dilute acids? Explain.",
+    "How does sulphur dioxide affect litmus paper?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the non-metal and the reactant",
+     "explain": "Note the non-metal (e.g., carbon, sulphur) and whether it reacts with oxygen or an acid."
+    },
+    {
+     "step": 2,
+     "action": "Write the reaction with oxygen",
+     "explain": "Non-metal + O2 -> non-metal oxide; the oxide is acidic (e.g., CO2, SO2) and turns blue litmus red."
+    },
+    {
+     "step": 3,
+     "action": "Check reaction with acids",
+     "explain": "Most non-metals do not react with dilute acids to produce hydrogen because they cannot donate electrons easily like metals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the nature of the oxide formed when sulphur burns in air?",
+     "solution": "Sulphur burns in air to form sulphur dioxide (SO2), which is an acidic oxide. When dissolved in water it forms sulphurous acid, turning blue litmus red.",
+     "answer": "SO2 is an acidic oxide that turns blue litmus red."
+    },
+    {
+     "question": "Why does carbon not react with dilute hydrochloric acid to produce hydrogen?",
+     "solution": "Carbon is a non-metal and cannot donate electrons to the hydrogen ions in the acid, so it cannot displace hydrogen; hence no reaction occurs.",
+     "answer": "Carbon is a non-metal and cannot displace hydrogen from dilute acids."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the word equation for the reaction of carbon with oxygen.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State whether non-metal oxides are acidic or basic.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do non-metals not displace hydrogen from dilute acids?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.5",
+   "title": "Reactivity Series of Metals",
+   "section": "4.5",
+   "definition": "The reactivity series is a list of metals arranged in decreasing order of their reactivity, with potassium being the most reactive and gold the least reactive metal.",
+   "formula": "k > na > ca > mg > al > zn > fe > pb > cu > hg > ag > au",
+   "key_idea": "The higher a metal is in the reactivity series, the more readily it reacts with oxygen, water and acids; a more reactive metal can displace a less reactive metal from its salt solution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the reactivity series of metals?",
+    "Which is the most reactive metal?",
+    "Why is gold found in the free state in nature?",
+    "Can zinc displace copper from copper sulphate solution? Explain.",
+    "Arrange sodium, iron, copper and gold in decreasing order of reactivity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate both metals in the reactivity series",
+     "explain": "Find the positions of the two metals in the series K > Na > Ca > Mg > Al > Zn > Fe > Pb > Cu > Hg > Ag > Au."
+    },
+    {
+     "step": 2,
+     "action": "Compare their positions",
+     "explain": "The metal placed higher in the series is more reactive than the one placed lower."
+    },
+    {
+     "step": 3,
+     "action": "Predict the displacement reaction",
+     "explain": "A more reactive metal displaces a less reactive metal from its salt solution; if the metal is lower, no reaction occurs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can iron displace copper from copper sulphate solution?",
+     "solution": "Iron is above copper in the reactivity series (Fe > Cu), so iron is more reactive and can displace copper from copper sulphate solution: Fe + CuSO4 -> FeSO4 + Cu.",
+     "answer": "Yes, iron displaces copper because Fe is more reactive than Cu."
+    },
+    {
+     "question": "Why is gold found in nature in the free (native) state?",
+     "solution": "Gold is the least reactive metal (at the bottom of the reactivity series), so it does not react with oxygen, water or acids and remains uncombined in nature.",
+     "answer": "Gold is least reactive, so it does not combine with other elements and is found free."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the reactivity series of metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Will copper displace zinc from zinc sulphate solution? Give reason.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the most reactive and the least reactive metal.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.6",
+   "title": "Uses of Metals and Non-Metals",
+   "section": "4.6",
+   "definition": "Metals are used for making tools, machinery, wires, jewellery and construction materials due to their strength and conductivity; non-metals are used in fertilizers, water purification, medicines and as essential elements for life.",
+   "formula": "",
+   "key_idea": "The uses of metals and non-metals depend on their characteristic physical and chemical properties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List five uses of metals in daily life.",
+    "How is copper used in electrical appliances?",
+    "What are the uses of non-metals?",
+    "Why is oxygen important for living beings?",
+    "How is chlorine used in water treatment?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the property that makes the element useful",
+     "explain": "Determine the relevant property -- e.g., conductivity of copper, malleability of gold, reactivity of chlorine."
+    },
+    {
+     "step": 2,
+     "action": "Match the property to an application",
+     "explain": "Relate the property to a use, e.g., copper's conductivity makes it ideal for wires; chlorine's reactivity makes it a disinfectant."
+    },
+    {
+     "step": 3,
+     "action": "State the practical use",
+     "explain": "Describe how the element is applied in daily life, industry or biology."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is iron used in the construction of bridges and buildings?",
+     "solution": "Iron is hard, strong and malleable; when mixed with small amounts of carbon to form steel, it becomes even stronger, making it ideal for construction.",
+     "answer": "Iron is strong and malleable; as steel it is used in construction."
+    },
+    {
+     "question": "How is chlorine used in everyday life?",
+     "solution": "Chlorine is a reactive non-metal used to disinfect drinking water and swimming pools by killing harmful microorganisms; it is also used in the manufacture of bleaching powder.",
+     "answer": "Chlorine disinfects water and is used to make bleaching powder."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three uses of metals and three uses of non-metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is aluminium used for making cooking utensils?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two uses of non-metals in agriculture.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.7",
+   "title": "Corrosion of Metals",
+   "section": "4.7",
+   "definition": "Corrosion is the slow destruction of metals by the action of air, moisture or acids on their surface, forming oxides, carbonates or sulphides; rusting of iron is the most common example.",
+   "formula": "4Fe + 3O2 + 6H2O -> 4Fe(oh)3 (rust)",
+   "key_idea": "Corrosion occurs when metals react with oxygen and water over time; it can be prevented by painting, oiling, galvanising or alloying.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is corrosion of metals?",
+    "Why does iron rust?",
+    "What are the conditions necessary for rusting?",
+    "How can corrosion be prevented?",
+    "Why does copper turn green on exposure to air?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the metal and the corroding agents",
+     "explain": "Note the metal (e.g., iron, copper, silver) and the agents -- oxygen, water vapour, carbon dioxide or sulphur compounds."
+    },
+    {
+     "step": 2,
+     "action": "Explain the chemical change",
+     "explain": "The metal reacts with air and moisture to form a new compound on its surface, e.g., iron forms hydrated iron oxide (rust), copper forms basic copper carbonate (green layer)."
+    },
+    {
+     "step": 3,
+     "action": "Suggest prevention methods",
+     "explain": "Corrosion can be prevented by painting, greasing, galvanising (coating with zinc), tinning or alloying to keep air and moisture away from the metal surface."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does an iron gate kept in the open rust faster than one kept indoors?",
+     "solution": "In the open, the iron gate is exposed to both oxygen and moisture (rain, humidity), which are the two conditions needed for rusting; indoors, it is protected from moisture, so it rusts slowly.",
+     "answer": "Open exposure to oxygen and moisture speeds up rusting."
+    },
+    {
+     "question": "Why is galvanisation an effective method of preventing rusting?",
+     "solution": "In galvanisation, iron is coated with a layer of zinc. Zinc is more reactive than iron, so it reacts with air first and forms a protective oxide layer, preventing iron from coming into contact with oxygen and water.",
+     "answer": "Zinc coating protects iron by sacrificial protection and a barrier layer."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define corrosion and give one example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two conditions necessary for the rusting of iron.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List three methods to prevent corrosion of metals.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.4.8",
+   "title": "Alloys and Their Uses",
+   "section": "4.8",
+   "definition": "An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal, prepared to enhance properties such as hardness, strength, corrosion resistance and low melting point.",
+   "formula": "",
+   "key_idea": "Alloys combine the desirable properties of their components to produce materials that are stronger, more durable or more corrosion-resistant than pure metals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an alloy?",
+    "What is brass and what is it used for?",
+    "Why is stainless steel used for making utensils?",
+    "What is solder and why is it used?",
+    "How is an alloy different from a pure metal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of the alloy",
+     "explain": "Note the metals (or metal and non-metal) that make up the alloy, e.g., brass is copper and zinc, steel is iron and carbon."
+    },
+    {
+     "step": 2,
+     "action": "Explain the enhanced property",
+     "explain": "Describe how the alloy is superior to its components, e.g., harder, more corrosion-resistant, or lower melting point."
+    },
+    {
+     "step": 3,
+     "action": "State the application",
+     "explain": "Relate the enhanced property to a practical use, e.g., stainless steel resists corrosion so it is used for utensils and surgical instruments."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is stainless steel and why is it used for making cutlery and surgical instruments?",
+     "solution": "Stainless steel is an alloy of iron with carbon, chromium and nickel. It is hard, corrosion-resistant and does not rust, making it ideal for cutlery and surgical instruments that need to be hygienic and durable.",
+     "answer": "Stainless steel is corrosion-resistant and hard, ideal for hygienic uses."
+    },
+    {
+     "question": "Why is solder used for joining electrical wires?",
+     "solution": "Solder is an alloy of lead and tin with a low melting point, so it melts easily when heated and solidifies to form a strong joint, making it ideal for joining electrical wires without damaging the components.",
+     "answer": "Solder has a low melting point, so it joins wires easily without damage."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an alloy and give two examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is brass preferred over pure copper for making decorative items?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two advantages of using alloys over pure metals.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.4.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain physical properties of metals -- lustre, hardness, malleability with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Observe the appearance and hardness",
+     "explain": "Metals have a shiny surface (lustre) when freshly cut or polished and are generally hard (except sodium and potassium which are soft)."
+    },
+    {
+     "step": 2,
+     "action": "Test malleability and ductility",
+     "explain": "Metals can be hammered into thin sheets (malleability, e.g., gold and silver) and drawn into thin wires (ductility, e.g., copper)."
+    },
+    {
+     "step": 3,
+     "action": "Test conductivity and sonority",
+     "explain": "Metals are good conductors of heat and electricity and produce a ringing sound when struck (sonorous)."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.4.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain physical properties of non-metals with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Observe the appearance",
+     "explain": "Most non-metals (except iodine and diamond) have a dull, non-lustrous appearance."
+    },
+    {
+     "step": 2,
+     "action": "Test malleability and conductivity",
+     "explain": "Non-metals are brittle -- they break into pieces when hammered -- and are poor conductors of heat and electricity."
+    },
+    {
+     "step": 3,
+     "action": "Classify by physical state",
+     "explain": "Non-metals can be solids (sulphur, phosphorus, carbon), liquids (bromine) or gases (oxygen, nitrogen, hydrogen) at room temperature."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

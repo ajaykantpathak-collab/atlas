@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_004",
+   "title": "c12_phy_cbse_13_004",
+   "questions": [
+    {
+     "q": "State the typical energy released per fission of a U-235 nucleus and the average number of neutrons emitted per fission.",
+     "a": "~200 MeV per fission; 2–3 neutrons (average ~2.4). A wrong answer (e.g., 200 keV or 1 neutron) reveals the student confuses nuclear energy scales with chemical/atomic scales (eV vs MeV) or overlooks that multiple neutrons are essential for chain reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a chain reaction does not occur spontaneously in a small piece of natural uranium, even though U-235 is fissile.",
+     "a": "Natural uranium is only 0.7% U-235 (rest U-238); U-238 absorbs fast neutrons without fission. In a small piece, most neutrons escape before causing fission (k<1). A wrong answer (e.g., \"neutrons are too fast\") without mentioning enrichment, critical mass, or neutron leakage shows incomplete understanding of neutron economy.",
+     "self_check": true
+    },
+    {
+     "q": "A 1000 MW nuclear power plant operates at 33% thermal efficiency. If each U-235 fission releases 200 MeV, calculate the mass of U-235 consumed per day. (1 eV = 1.6×10⁻¹⁹ J; Avogadro's number = 6.02×10²³ mol⁻¹; molar mass of U-235 = 0.235 kg/mol)",
+     "a": "Step 1: Electrical power P_elec = 1000 MW = 10⁹ W. Thermal power P_th = P_elec / 0.33 = 3.03×10⁹ W.  \nStep 2: Energy per day E = P_th × 86400 s = 2.62×10¹⁴ J.  \nStep 3: Energy per fission = 200 MeV = 200×10⁶ × 1.6×10⁻¹⁹ = 3.2×10⁻¹¹ J.  \nStep 4: Number of fissions N = E / (3.2×10⁻¹¹) = 8.19×10²⁴.  \nStep 5: Moles of U-235 = N / N_A = 1.36×10¹ mol. Mass = moles × 0.235 kg/mol = 3.2 kg/day.  \nA wrong answer often results from forgetting efficiency (using 1000 MW directly), unit errors (MeV to J), or using atomic mass instead of molar mass.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the neutron multiplication factor k in three scenarios: (a) subcritical assembly, (b) steady-state reactor, (c) nuclear weapon. For each, state whether the neutron population grows, decays, or remains constant, and explain the physical reason.",
+     "a": "(a) k<1: neutron population decays exponentially — losses (leakage, non-fission capture) exceed production. (b) k=1: population constant — exactly one neutron per fission causes another fission; control rods absorb excess neutrons. (c) k>1: population grows exponentially — supercritical assembly, no neutron absorption control. A wrong answer (e.g., k=1 for weapon) shows confusion between controlled and uncontrolled chain reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a nuclear reactor, the moderator speeds up neutrons so they can cause more fissions.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. Moderators (water, heavy water, graphite) **slow down** fast neutrons (2 MeV) to thermal energies (~0.025 eV) because U-235 fission cross-section is much larger for thermal neutrons. Fast neutrons are more likely to be captured by U-238 without fission. A student who agrees reveals the misconception that higher neutron energy always increases reaction probability, ignoring resonance absorption and cross-section energy dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment to demonstrate the concept of critical mass using a cubical block of pure U-235. Describe how the neutron leakage fraction changes as the cube size increases, and why a sphere has the smallest critical mass for a given material.",
+     "a": "As cube side length L increases, volume ∝ L³ (fission ∝ volume) while surface area ∝ L² (leakage ∝ surface). Leakage fraction ∝ (surface/volume) ∝ 1/L. For a sphere, surface-to-volume ratio is minimal (3/R), so leakage is minimized for a given mass, giving the smallest critical mass. A poor answer treats critical mass as fixed property of material alone, ignoring geometry and leakage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

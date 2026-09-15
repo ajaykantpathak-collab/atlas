@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy209",
+  "concepts": [
+    {
+      "id": "kegy.209.1.1",
+      "questions": [
+        {"q": "Which pressure belt lies along the equator? (two words)", "a": "equatorial low"},
+        {"q": "Which pressure belt lies near the tropics at about 30 degrees? (two words)", "a": "subtropical highs"},
+        {"q": "Which steady winds blow from the subtropical highs towards the equator? (two words)", "a": "trade winds"},
+        {"q": "Which winds blow from west to east in the mid-latitudes? (one word)", "a": "westerlies"},
+        {"q": "Which force deflects winds to the right in the northern hemisphere? (two words)", "a": "Coriolis force"},
+        {"q": "How many cells make up the tricellular model of atmospheric circulation? (number)", "a": "3"},
+        {"q": "Which winds blow cold air off the poles? (two words)", "a": "polar easterlies"}
+      ]
+    },
+    {
+      "id": "kegy.209.2.1",
+      "questions": [
+        {"q": "What are large bodies of air with uniform temperature and moisture called? (two words)", "a": "air masses"},
+        {"q": "What are the boundary zones where unlike air masses meet called? (one word)", "a": "fronts"},
+        {"q": "Which front forms when a fast cold front overtakes a warm front? (one word)", "a": "occluded"},
+        {"q": "Which storms of the mid-latitudes are born at fronts? (two words)", "a": "mid-latitude cyclones"},
+        {"q": "What is the calm centre of a tropical cyclone called? (one word)", "a": "eye"},
+        {"q": "Which pressure systems bring clear, settled weather? (one word)", "a": "anticyclones"},
+        {"q": "Tropical cyclones form over what kind of seas? (two words)", "a": "warm seas"}
+      ]
+    },
+    {
+      "id": "kegy.209.3.1",
+      "questions": [
+        {"q": "What is the seasonal reversal of winds called? (one word)", "a": "monsoon"},
+        {"q": "Which zone of converging winds shifts to bring summer monsoon rains? (short form)", "a": "ITCZ"},
+        {"q": "What fundamental difference between land and sea drives the monsoon? (two words)", "a": "differential heating"},
+        {"q": "Winter monsoon winds blow from land towards what? (one word)", "a": "sea"},
+        {"q": "Summer monsoon winds blow from sea towards what? (one word)", "a": "land"},
+        {"q": "On which continent is the monsoon the most important regional weather system? (one word)", "a": "Asia"},
+        {"q": "Are winter monsoon winds rain-bearing or dry? (one word)", "a": "dry"}
+      ]
+    }
+  ]
+}

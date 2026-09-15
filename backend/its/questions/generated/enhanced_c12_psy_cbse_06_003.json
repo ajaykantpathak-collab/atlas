@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_003",
+   "title": "c12_psy_cbse_06_003",
+   "questions": [
+    {
+     "q": "A student develops a positive attitude towards a subject because the teacher who teaches it is warm and encouraging. The student associates the teacher's positive qualities with the subject itself. Which attitude formation mechanism does this illustrate?",
+     "a": "This illustrates learning by association (classical conditioning). The neutral stimulus (subject) becomes positively evaluated through repeated pairing with the unconditioned stimulus (warm teacher). A wrong answer like \"reward/punishment\" reveals confusion between association (pairing) and reinforcement (consequence following behaviour).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how learning attitudes through group or cultural norms differs from learning through modelling, even though both involve observing others.",
+     "a": "Modelling involves observing a specific individual being rewarded/punished for a behaviour toward an attitude object, leading to imitation. Group/cultural norms involve internalising unwritten rules shared by a collective, where the behaviour is expected of everyone and approved by the group, not just one model. A wrong answer that equates the two misses the distinction between individual observation and collective normative pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A teenager starts volunteering at an animal shelter after seeing her older sister receive praise from their parents for doing the same. The teenager herself has never been directly rewarded for volunteering. Identify the attitude formation mechanism and explain why it is NOT learning by reward/punishment.",
+     "a": "This is learning through modelling (observational learning). The teenager observes the sister (model) being rewarded (praised) and imitates the behaviour. It is not direct reward/punishment because the teenager herself has not received any reinforcement; the reinforcement was vicarious. A wrong answer claiming \"reward/punishment\" confuses direct and vicarious reinforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how the cognitive (C), affective (A), and behavioural (B) components of an attitude might develop differently when formed through (a) association versus (b) exposure to information. Use a concrete example.",
+     "a": "In association (e.g., liking a brand because a liked celebrity endorses it), the affective component may form first (positive feeling transfers), followed by behavioural (buying), with cognitive rationalisation later. In information exposure (e.g., reading research on climate change), the cognitive component forms first (facts), then affective (concern), then behavioural (recycling). A wrong answer that claims all components develop simultaneously or in the same order for both mechanisms shows lack of analytical differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Attitudes formed through group norms are more resistant to change than attitudes formed through association.\" Support your evaluation with reasoning from attitude properties (valence, extremeness, centrality).",
+     "a": "The claim is generally valid. Group norm-based attitudes often have high centrality (core to identity), high extremeness (strong valence), and are embedded in a complex attitude system (multiplexity), making them resistant to change. Association-based attitudes may be more peripheral, less extreme, and simpler. However, if an association-based attitude becomes central (e.g., phobia), it can also be highly resistant. A wrong answer that simply agrees/disagrees without using attitude properties shows evaluative deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a Class 12 student where ALL FOUR attitude formation mechanisms (association, reward/punishment, modelling, group norms) operate simultaneously to shape their attitude toward a single attitude object (e.g., a career choice, a political issue, a lifestyle habit). Label each mechanism in your scenario.",
+     "a": "Example: A student develops a positive attitude toward pursuing Medicine. (1) Association: Parents are doctors; the student associates medicine with parental warmth. (2) Reward/punishment: Student gets praised for high Biology scores, reinforcing the attitude. (3) Modelling: Student observes a respected senior succeed in NEET and emulate their study habits. (4) Group norms: Peer group values \"secure professional careers\"; deviating invites social exclusion. A poor answer lists mechanisms without integration or uses vague/generic examples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_002",
+   "title": "c7_physics_ch03_002",
+   "questions": [
+    {
+     "q": "What is the primary method of heat transfer through solid iron rods?",
+     "a": "Conduction. A student who answers convection or radiation is confusing the methods of heat transfer and misunderstanding that solids cannot support bulk fluid movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a wooden spoon feel cooler to the touch than a metal spoon at room temperature, even though both are at the exact same temperature?",
+     "a": "Metal is a good conductor of heat, so it rapidly conducts heat away from your hand (or to your hand if hot), whereas wood is a poor conductor and restricts heat flow. A wrong answer shows a misconception that different materials in the same room can spontaneously have different temperatures without an external heat source.",
+     "self_check": true
+    },
+    {
+     "q": "A copper rod of length 0.5 m has one end placed in a flame at 100 °C, while the other end is at 25 °C. If heat flows through the cross-section at a rate of 50 J per second, calculate the total thermal energy transferred in 10 seconds.",
+     "a": "Step 1: Identify given values: Rate of heat flow ($Q/t$ or power $P$) = 50 J/s, time ($t$) = 10 s.\nStep 2: Identify formula: Total Heat ($Q$) = Rate of heat flow $\\times$ time ($P \\times t$).\nStep 3: Substitute values: $Q = 50\\text{ J/s} \\times 10\\text{ s}$.\nStep 4: Compute and cancel units: $Q = 500\\text{ J}$.\nStep 5: Verify answer: 500 Joules is physically reasonable for 10 seconds of heat transfer.\nAnswer: 500 J. A wrong answer indicates an error in multiplying rate by time or mishandling the units of seconds and Joules.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical rods, one made of aluminum and one of glass, are heated at one end with identical candles. Why does the wax melt faster on the aluminum rod?",
+     "a": "Aluminum has a much higher thermal conductivity than glass, meaning its particles transfer vibrational energy much more efficiently across the solid lattice. A wrong answer assumes all solid materials conduct heat at identical rates regardless of their atomic structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that conduction can occur efficiently across a vacuum gap between two metal plates. Is this claim valid, and why?",
+     "a": "The claim is invalid because conduction requires direct physical contact and particles (atoms/molecules) to transfer vibrational energy; a vacuum contains no particles. A wrong answer reveals a fundamental confusion between conduction and radiation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, safe classroom test to rank three unknown solid strips (brass, plastic, and rubber) by their thermal conduction ability using ice cubes and warm water.",
+     "a": "Criteria for a good answer: Place identical ice cubes on one end of each strip while dipping the opposite ends into a container of warm water, then measure which ice cube melts first. A poor answer fails to control variables (like strip length or water temperature) or omits how heat transfer is measured (ice melting speed).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

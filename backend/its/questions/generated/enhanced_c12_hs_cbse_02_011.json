@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_011",
+   "title": "c12_hs_cbse_02_011",
+   "questions": [
+    {
+     "q": "A student sees \"INS 220\" on a dried apricot pack and writes: \"This is a preservative added to prevent microbial spoilage.\" Is this statement fully correct? Explain what INS 220 actually is and its primary function in dried fruits.",
+     "a": "INS 220 is sulfur dioxide (SO₂), which functions primarily as an antioxidant and antimicrobial agent — it prevents enzymatic browning (non-microbial) and microbial growth. The statement is partially correct but incomplete: SO₂'s main role in dried fruits is preventing oxidative browning (antioxidant function), not just microbial preservation. A wrong answer reveals the student conflates all additives in the \"preservative\" category (INS 200–299) with only antimicrobial action, ignoring that many serve dual functions (antioxidant + antimicrobial) and that INS 220's primary technological need in dried fruits is color retention via enzyme inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "Two students debate: \"All emulsifiers are stabilizers, but not all stabilizers are emulsifiers.\" Evaluate this claim using FSSAI functional categories (INS 322 lecithin vs INS 412 guar gum) and explain the technological distinction between emulsification and stabilization.",
+     "a": "The claim is correct. Emulsifiers (e.g., INS 322 lecithin) reduce interfacial tension between immiscible phases (oil-water) to form stable emulsions — their primary function is emulsion formation. Stabilizers (e.g., INS 412 guar gum) increase viscosity or gel structure to prevent phase separation, settling, or crystallization — they stabilize existing structures. Some additives (e.g., INS 471 mono- and diglycerides) perform both, but FSSAI lists them in separate categories (emulsifiers: INS 322, 471; stabilizers: INS 412, 415, 466). A wrong answer reveals confusion between \"forming an emulsion\" (emulsifier) and \"maintaining physical stability\" (stabilizer) — distinct technological purposes.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer wants to use aspartame (INS 951) in a carbonated beverage at 600 mg/L. The FSSAI limit for aspartame in carbonated water-based flavored drinks is 700 mg/kg (max). The beverage density is 1.02 g/mL. Calculate whether 600 mg/L complies with the regulation. Show unit conversion steps.",
+     "a": "Step 1: Convert limit to mg/L: 700 mg/kg × 1.02 kg/L = 714 mg/L.\nStep 2: Compare: 600 mg/L < 714 mg/L → compliant.\nStep 3: Verify ADI exposure: ADI for aspartame = 40 mg/kg bw/day (JECFA). For 60 kg adult drinking 1 L: 600 mg / 60 kg = 10 mg/kg bw/day < 40 mg/kg bw/day → within ADI.\nA wrong answer (e.g., ignoring density, comparing 600 mg/L directly to 700 mg/kg) reveals failure to handle unit mismatch (mass/mass vs mass/volume) — a common board exam trap where limits are in mg/kg but formulations use mg/L.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the safety assessment paradigm for food additives (ADI based on NOAEL ÷ 100) with that for pesticide residues (MRL based on supervised field trials + dietary risk assessment). Identify two fundamental differences in the toxicological endpoints and exposure assumptions.",
+     "a": "Difference 1: Additives use NOAEL from chronic animal studies (lifetime exposure) with 100× safety factor (10× interspecies × 10× intraspecies); pesticides use MRLs derived from supervised residue trials reflecting Good Agricultural Practice (GAP), then checked against ADI/ARfD via dietary intake models (NEDI/IESTI) — different exposure scenarios (intentional addition vs incidental residue).\nDifference 2: Additives assume daily lifetime consumption of the treated food at max permitted level; pesticides assume variable residues across commodities, seasonal consumption, and processing effects. A wrong answer conflates \"intentional ingredient\" with \"unavoidable residue\" and misses that additive ADI protects against the additive itself, while pesticide MRL enforces good practice and checks aggregate exposure.",
+     "self_check": true
+    },
+    {
+     "q": "A product label lists: \"Preservative (INS 211), Acidity Regulator (INS 330), Thickener (INS 415)\". The manufacturer claims \"No artificial preservatives\" because INS 211 (sodium benzoate) occurs naturally in cranberries. Evaluate this claim under FSSAI (Advertising and Claims) Regulations, 2018 and Codex guidelines for \"natural\" claims.",
+     "a": "The claim is misleading and non-compliant. FSSAI regulations prohibit \"no artificial preservatives\" if any preservative (regardless of natural occurrence) is added as a technological additive — INS 211 is listed in the preservative category and added for preservation function. Codex guidelines state \"natural\" claims cannot be used if the substance is synthesized or isolated for additive use, even if nature-identical. A wrong answer (accepting the claim) reveals confusion between \"source of substance\" (natural vs synthetic) and \"regulatory function\" (added as preservative) — the claim violates the principle that additive classification depends on technological purpose, not chemical origin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-ingredient clean-label alternative for a commercial salad dressing that currently uses: INS 415 (xanthan gum, thickener), INS 331 (sodium citrate, emulsifier/acidity regulator), INS 202 (potassium sorbate, preservative). Specify the whole-food ingredients, their functional replacements, and one limitation of your clean-label version compared to the additive version.",
+     "a": "Alternative: (1) Mustard (contains lecithin → emulsifier replaces INS 331), (2) Chia seeds (mucilage → thickener replaces INS 415), (3) Lemon juice/vinegar (acetic/citric acid → pH < 4.0 inhibits microbes replaces INS 202). Limitation: Shorter shelf life (microbial stability less robust), potential texture separation over time (chia mucilage less stable than xanthan at low pH), and variable performance (natural ingredient composition varies). A poor answer suggests single-ingredient swaps without addressing multi-functionality (e.g., \"use gum arabic\" — still an additive) or ignores that clean-label requires whole foods, not isolated hydrocolloids.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

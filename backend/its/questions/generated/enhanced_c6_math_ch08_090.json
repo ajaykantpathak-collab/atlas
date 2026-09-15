@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_090",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_090",
+   "title": "c6_math_ch08_090",
+   "questions": [
+    {
+     "q": "What is the difference between the perimeter and the area of a composite shape?",
+     "a": "Perimeter is the total length of the outer boundary, while area is the total space enclosed inside the shape. A wrong answer here suggests the student confuses \"distance around\" with \"space inside,\" which is a foundational error in spatial reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "If you split an L-shaped figure into two rectangles, does the sum of their perimeters equal the perimeter of the L-shape? Why or why not?",
+     "a": "No, it does not, because the inner sides where the shapes are joined are no longer part of the outer boundary. A wrong answer shows the student does not realize that \"perimeter\" only counts the outside edges, not the internal lines used for measurement.",
+     "self_check": true
+    },
+    {
+     "q": "A composite shape is made of a 4m × 3m rectangle joined to a 2m × 2m square. What is the total area?",
+     "a": "The area is (4 × 3) + (2 × 2) = 12 + 4 = 16 sq metres. A wrong answer suggests the student failed to calculate the areas of the parts individually before summing them.",
+     "self_check": true
+    },
+    {
+     "q": "If a composite shape has two rectangles joined, how do you find the length of a missing side?",
+     "a": "You look at the parallel sides; if the total length is 10m and one part is 6m, the missing part must be 10 - 6 = 4m. A wrong answer indicates difficulty in visualizing the geometry of parallel line segments.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two different composite shapes to have the same area but different perimeters? Give a reason.",
+     "a": "Yes. You can rearrange the same pieces (like two rectangles) into a long thin shape or a compact square-like shape; the area stays the same, but the outer boundary length changes. A wrong answer reveals a lack of understanding of how shape configuration affects boundary length.",
+     "self_check": true
+    },
+    {
+     "q": "Draw an L-shape and explain how you would calculate its area.",
+     "a": "The student should describe splitting it into two rectangles, measuring the length and breadth of each, finding both areas, and adding them. A poor answer fails to mention the \"split\" strategy or tries to use a single formula for the whole irregular shape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

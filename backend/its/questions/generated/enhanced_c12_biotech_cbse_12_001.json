@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_001",
+   "title": "c12_biotech_cbse_12_001",
+   "questions": [
+    {
+     "q": "Name the five major innovation sectors of biotechnology discussed in NCERT Class 12 Chapter 12, and give the one-line definition of \"synthetic biology\" as stated in the textbook.",
+     "a": "The five sectors are: (1) Environmental Biotechnology, (2) Plant Biotechnology, (3) Regenerative Medicine, (4) Nanobiotechnology, (5) Synthetic Biology. Synthetic biology is defined in the textbook as \"a rational design approach of constructing biological components leading to certain functions.\" A wrong answer (e.g., listing \"medical biotechnology\" as a separate sector, or defining synthetic biology as \"making artificial life\") reveals the student is conflating Class 11 broad categories (red/green/white/blue biotech) with the Chapter 12 innovation-sector framework, or is using a non-NCERT definition.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Biodiesel and bioalcohol are both biofuels, so they are produced by the same biochemical process.\" Using specific process names and raw materials from the textbook, explain why this statement is incorrect.",
+     "a": "Biodiesel is produced by **trans-esterification** of triglycerides (vegetable oils, animal fats, waste cooking oil, algal lipids) with methanol/ethanol using a catalyst, yielding fatty acid methyl esters (FAME) and glycerol. Bioalcohol (e.g., bioethanol) is produced by **fermentation** of sugars (from starch in corn/wheat or cellulose in biomass) by yeast/bacteria, followed by distillation. The student's error comes from grouping by *product category* (biofuel) instead of *biochemical pathway* (esterification vs. fermentation). This confusion leads to mistakes in board questions asking for \"process name\" or \"enzyme/microorganism involved.\"",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup wants to produce a high-value therapeutic protein using a plant-based expression system (molecular pharming). They are deciding between using transgenic tobacco chloroplasts vs. transgenic maize seeds. List **three** factors from the NCERT chapter (Plant Biotechnology and Future Prospects sections) that should guide this decision, and explain how each factor impacts cost or scalability.",
+     "a": "1. **Protein yield and stability**: Chloroplast expression (in tobacco) gives very high protein accumulation (up to 70% of total soluble protein) and the protein is protected from proteolysis — lowers downstream purification cost. 2. **Containment and regulatory ease**: Maize seed expression risks pollen-mediated gene flow to food crops; tobacco is non-food, non-feed, and can be grown in greenhouses — reduces biosafety compliance cost. 3. **Scalability and storage**: Maize seeds are stable at room temperature for years and existing agricultural infrastructure allows massive scale-up; tobacco biomass requires fresh processing or freeze-drying — affects capital expenditure and cold-chain logistics. A weak answer lists generic factors (e.g., \"cost, time, yield\") without linking to specific NCERT content (chloroplast transformation, gene flow concerns, seed storage advantage).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **organoids** and **spheroids** as 3D culture models for drug screening. Your answer must include: (a) the cellular origin of each, (b) the role of extracellular matrix (Matrigel), (c) self-organisation capacity, and (d) one specific application mentioned in the textbook for organoids.",
+     "a": "(a) Organoids derive from **pluripotent stem cells (PSCs) or adult stem cells (ASCs)**; spheroids derive from **cancer cell lines or tumor tissue dissociation**. (b) Organoids **require Matrigel (or similar hydrogel)** for structured self-assembly; spheroids can form on non-adherent surfaces or by hanging-drop **without mandatory matrix**. (c) Organoids show **ordered, lineage-specific self-organisation** mimicking tissue architecture (crypt-villus, cortical layers); spheroids show **random aggregation** without intrinsic patterning. (d) Textbook application: organoids used for **drug penetration studies in tumor mass, toxicity testing, and disease modeling**. A wrong answer conflates the two (e.g., \"both need Matrigel\" or \"both come from stem cells\"), missing the fundamental distinction: organoids **recapitulate development**; spheroids **aggregate cells**.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Gold nanoparticles of 10 nm diameter are always ruby red, so colour can be used as a reliable quality-control metric for nanoparticle synthesis.\" Use the size-dependent optical property data from the textbook (Figure 12.4) to justify your evaluation.",
+     "a": "The claim is **partially true but dangerous as a sole QC metric**. The textbook states: nanoparticles <30 nm are ruby red, up to 100 nm are pink, larger appear darker. So 10 nm particles *should* be ruby red. However, colour also depends on **shape** (rods, stars, shells have different plasmon resonances), **aggregation state** (aggregated particles shift colour dramatically), **surface coating** (citrate vs. PEG vs. protein corona), and **refractive index of medium**. Relying only on colour misses polydispersity, aggregation, or shape impurities. Proper QC requires **UV-Vis spectroscopy (peak position, FWHM), TEM (size/shape distribution), DLS (hydrodynamic size), and zeta potential**. A student who says \"yes, colour is reliable\" ignores the textbook's own emphasis on \"properties depend on size, shape, surface charge, and composition\" (Table 12.2).",
+     "self_check": true
+    },
+    {
+     "q": "Design a **hypothetical synthetic biology project** that addresses a local Indian problem (e.g., crop residue burning, water contamination, vaccine cold-chain). Your design must specify: (i) the chassis organism, (ii) 2–3 standard biological parts (promoter, gene, terminator) with their function, (iii) the engineered metabolic pathway or circuit, and (iv) one biosafety concern specific to your design.",
+     "a": "**Example design: \"Pusa-Detox\" — a soil bacterium engineered to degrade pesticide residues in Punjab wheat fields.** (i) Chassis: *Pseudomonas putida* KT2440 (native soil coloniser, GRAS status). (ii) Parts: (a) **P<sub>tac</sub> promoter** (IPTG-inducible, strong expression), (b) **opd gene** (organophosphorus hydrolase from *Flavobacterium* — hydrolyzes parathion/methyl parathion), (c) **T<sub>rrnB</sub> terminator** (strong transcription termination). (iii) Circuit: P<sub>tac</sub> → opd → T<sub>rrnB</sub> on a low-copy plasmid with arabinose-inducible kill-switch (ccdB toxin/antitoxin) for biocontainment. (iv) Biosafety concern: **Horizontal gene transfer of opd to native soil microbes** could create uncontrolled degradation of beneficial pesticides or disrupt microbial ecology; mitigation: chromosomal integration + auxotrophy for non-natural amino acid. A poor answer uses vague parts (\"a promoter, a gene\") or ignores Indian context (e.g., designing for a problem not relevant to India).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

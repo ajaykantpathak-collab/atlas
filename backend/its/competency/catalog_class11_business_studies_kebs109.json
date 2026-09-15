@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 109,
+ "chapter_title": "MSME and Business Entrepreneurship",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs109.txt",
+ "concepts": [
+  {
+   "id": "kebs.109.1.1",
+   "title": "MSME: Meaning, Nature and Classification",
+   "section": "MSME",
+   "definition": "Micro, small and medium enterprises are classified on the basis of investment in plant and machinery or equipment and annual turnover, and their nature includes flexibility, local resources, import substitution and export promotion in both manufacturing and services.",
+   "formula": "",
+   "key_idea": "The MSME definition on composite criteria of investment and turnover places micro, small and medium units in graded categories for policy support.",
+   "textbook_ref": "kebs109.txt msme meaning section",
+   "question_patterns": [
+    "define msme and state its classification",
+    "on what criteria are enterprises classified as micro small and medium",
+    "state the nature of small scale enterprises",
+    "how do msmes help import substitution and exports",
+    "compare micro small and medium enterprises on investment",
+    "which sectors are covered under msme classification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the investment and turnover",
+     "explain": "Note the two criteria used for classification."
+    },
+    {
+     "step": 2,
+     "action": "assign the category",
+     "explain": "Place the unit as micro, small or medium."
+    },
+    {
+     "step": 3,
+     "action": "verify the sector",
+     "explain": "Separate manufacturing from service enterprises."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.2.1",
+   "title": "Role of MSME in India's Economic Development",
+   "section": "Role of MSME",
+   "definition": "MSMEs contribute to balanced regional development, employment generation, use of local resources, mobilisation of entrepreneurial skill, export earnings and equitable distribution of income, acting as ancillary units feeding large industries.",
+   "formula": "",
+   "key_idea": "Small units reach remote areas with lower capital per job, so they promote balanced regional development where large industry cannot reach.",
+   "textbook_ref": "kebs109.txt role of msme section",
+   "question_patterns": [
+    "explain the role of msme in employment generation",
+    "how do small enterprises promote balanced regional development",
+    "what is the ancillary role of small units for large industry",
+    "how do msmes contribute to exports",
+    "state the contribution of msme to equitable income distribution",
+    "why are msmes called nurseries of entrepreneurship"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the contribution",
+     "explain": "Pick the development outcome attributed to MSMEs."
+    },
+    {
+     "step": 2,
+     "action": "link to the economy",
+     "explain": "Connect the outcome with employment, exports or regions."
+    },
+    {
+     "step": 3,
+     "action": "verify with policy aims",
+     "explain": "Check the fit with national development goals."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.3.1",
+   "title": "Problems of MSMEs and Government Support",
+   "section": "Problems and support",
+   "definition": "MSMEs face problems of finance, raw material, outdated technology, marketing and competition, while government support flows through schemes of credit, delayed payment protection, marketing assistance, technology upgradation and incubation under the MSME policy framework.",
+   "formula": "",
+   "key_idea": "Delayed payments by large buyers and competition from cheap imports are chronic problems that policy answers with credit guarantees and marketing platforms.",
+   "textbook_ref": "kebs109.txt problems and support sections",
+   "question_patterns": [
+    "what are the major problems faced by msmes",
+    "how does the government support msme finance",
+    "explain the marketing assistance schemes for small units",
+    "why do delayed payments hurt small enterprises",
+    "state the technology upgradation measures for msmes",
+    "what support exists for msme exports"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the problem",
+     "explain": "Identify finance, marketing, technology or competition issues."
+    },
+    {
+     "step": 2,
+     "action": "match the scheme",
+     "explain": "Pair the problem with the government support measure."
+    },
+    {
+     "step": 3,
+     "action": "verify the benefit",
+     "explain": "State how the scheme relieves the problem."
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.4.1",
+   "title": "Entrepreneurship: Concept, Functions and Process",
+   "section": "Entrepreneurship",
+   "definition": "Entrepreneurship is the process of setting up a new venture by an entrepreneur who perceives opportunity, arranges resources and bears risk for profit, performing functions of idea generation, opportunity scanning, feasibility study, business plan preparation and mobilising funds and manpower.",
+   "formula": "",
+   "key_idea": "An entrepreneur combines innovation, risk bearing and organisation, and entrepreneurship development programmes build the capacity that converts ideas into enterprises.",
+   "textbook_ref": "kebs109.txt entrepreneurship sections",
+   "question_patterns": [
+    "define entrepreneurship and the entrepreneur's functions",
+    "state the steps of the entrepreneurship process",
+    "what is a business plan and why is it prepared",
+    "how does an entrepreneur scan and select an opportunity",
+    "explain the role of entrepreneurship development programmes",
+    "differentiate entrepreneur and manager"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stage",
+     "explain": "Place the activity in the entrepreneurship process."
+    },
+    {
+     "step": 2,
+     "action": "note the functions",
+     "explain": "Check idea generation, feasibility and resource mobilisation."
+    },
+    {
+     "step": 3,
+     "action": "confirm the risk bearing",
+     "explain": "State the entrepreneur's responsibility for outcomes."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs109.txt exercises",
+   "questions": [
+    "State the meaning of MSME and its classification.",
+    "Explain the role of small business in rural India.",
+    "What are the problems faced by MSMEs?",
+    "Describe the functions of an entrepreneur.",
+    "What is a business plan? State its components."
+   ]
+  }
+ ]
+}

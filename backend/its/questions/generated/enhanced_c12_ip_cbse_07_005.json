@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_005",
+   "title": "c12_ip_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the defining characteristic that distinguishes phishing from other malware attacks like viruses or ransomware?",
+     "a": "Phishing is a social engineering attack that deceives the user into voluntarily surrendering credentials or data by impersonating a trusted entity, whereas viruses/ransomware are malicious code that executes without user consent to damage or encrypt systems. A wrong answer (e.g., \"phishing installs malware\") reveals confusion between the delivery mechanism (phishing email) and the payload (malware), and misses the core concept: phishing exploits human psychology, not software vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a message claiming \"Your PAN card is expired. Click here to renew: https://pan-gov-renewal.com\" is suspicious, even if the website shows a padlock icon (HTTPS).",
+     "a": "HTTPS only encrypts traffic between you and the server; it does not verify the server's legitimacy. Attackers easily obtain SSL certificates for lookalike domains (pan-gov-renewal.com vs official incometax.gov.in). The real Income Tax Department uses .gov.in domain and never sends renewal links via unsolicited SMS/email. A wrong answer focusing only on \"HTTPS means safe\" reveals the dangerous misconception that encryption equals authenticity — a classic trap in board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "You receive a WhatsApp message from \"HR Department\" with a PDF attachment \"Salary_Revision_2024.pdf\". The message says \"Confidential — do not forward\". What three specific checks would you perform before opening the attachment?",
+     "a": "1. Verify sender: Is the number saved as official HR contact? Does your company use WhatsApp for confidential docs? (Usually they use official email/portal). 2. Check file extension: PDFs can embed malicious scripts; ensure it's not .exe/.scr disguised as .pdf (show file extensions in OS settings). 3. Cross-verify via independent channel: Call HR on the official landline or check the company intranet. A wrong answer like \"scan with antivirus\" misses that zero-day malware evades signatures; the primary defense is verifying the *source and context* before interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare spear phishing and whaling. Give one Indian-context example for each where the attacker's research would differ.",
+     "a": "Spear phishing targets a specific group/role (e.g., \"All TCS employees: Update your Ultimatix password via this link\") using generic but role-relevant bait. Whaling targets a high-value individual (e.g., CEO of a Mumbai startup) using deeply personalized details — recent funding news, board member names, writing style mimicked from leaked emails. Research for whaling involves OSINT on the specific person (LinkedIn, news, social media); spear phishing uses group-level info (company portal name, common tools). A wrong answer that swaps the definitions or gives generic examples shows inability to analyze the *scale of personalization* — a key differentiator in CBSE case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"I don't need to worry about phishing because I have antivirus and firewall installed.\" Evaluate this statement and identify the fundamental security principle it violates.",
+     "a": "The statement is false. Antivirus/firewall operate at the *technical* layer (malware signatures, network traffic rules) but phishing exploits the *human* layer — the user voluntarily enters credentials on a fake site that looks legitimate. No technical control can prevent a user from typing their password into a convincing replica of HDFC Bank's login page. This violates the principle of \"defense in depth\" and specifically the recognition that humans are the weakest link. A wrong answer that agrees reveals the misconception that security tools alone suffice — a frequent board exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step \"Phishing Verification Checklist\" that a Class 12 student can teach their grandparents for any unsolicited message asking for OTP/bank details. Each step must be actionable without technical jargon.",
+     "a": "Step 1: **STOP** — Do not click any link or call any number in the message. Take a screenshot instead. Step 2: **VERIFY** — Open the official app (bank, Aadhaar, EPFO) or visit the official website by *typing the address yourself* (e.g., hdfcbank.com). Check notifications there. Step 3: **REPORT & DELETE** — Forward the suspicious SMS to 1930 (National Cyber Crime Reporting Portal) or report via the bank's official helpline (on the back of your debit card). Delete the message. A poor answer includes technical steps like \"check SSL certificate\" or \"inspect email headers\" — inappropriate for the target audience and missing the pedagogical goal of simplicity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

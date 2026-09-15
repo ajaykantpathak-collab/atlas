@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_007",
+   "title": "c12_biotech_cbse_06_007",
+   "questions": [
+    {
+     "q": "What is the primary physical parameter that distinguishes a cell suspension culture from a callus culture, and what is its typical operational range in rpm?",
+     "a": "The primary distinguishing parameter is **continuous agitation on an orbital shaker**, typically maintained at **80–150 rpm**. A wrong answer (e.g., \"liquid medium alone\" or \"absence of agar\") reveals the student confuses the *medium state* with the *culture system* — callus can also be grown in liquid without agitation (stationary liquid culture), but it remains aggregated. Agitation is what physically disperses cells into a suspension.",
+     "self_check": true
+    },
+    {
+     "q": "A student transfers friable callus to liquid MS medium but forgets to place the flask on the shaker. After one week, they observe a single large clump at the bottom with no dispersed cells. Explain why this happened, linking to the role of agitation in suspension culture establishment.",
+     "a": "Without agitation, there is **no mechanical force to break cell-cell adhesion** (pectin-rich middle lamella) and no turbulence to prevent gravitational settling. Cells divide but remain attached, forming a sedimented mass — essentially a callus in liquid. The student's error reveals a misunderstanding that \"liquid medium = suspension culture\"; agitation is not optional — it is the *defining operational requirement* that converts a callus into a suspension.",
+     "self_check": true
+    },
+    {
+     "q": "You establish a suspension culture of *Daucus carota* (carrot) in 100 mL liquid MS + 2,4-D (2 mg/L) + kinetin (0.5 mg/L) at 100 rpm. On Day 0, PCV = 2 mL. On Day 3, PCV = 16 mL. Assuming exponential growth, calculate the specific growth rate (µ) in day⁻¹ and doubling time (td) in hours. Show all steps.",
+     "a": "**Given:** PCV₀ = 2 mL, PCVₜ = 16 mL, t = 3 days.  \n**Step 1:** Use µ = (ln Xₜ – ln X₀) / t (natural log form) or µ = 2.303(log Xₜ – log X₀)/t.  \n**Step 2:** µ = (ln 16 – ln 2) / 3 = (2.7726 – 0.6931) / 3 = 2.0795 / 3 = **0.693 day⁻¹**.  \n**Step 3:** td = ln 2 / µ = 0.693 / 0.693 = **1 day = 24 hours**.  \n**Verification:** 2 → 4 → 8 → 16 mL in 3 doublings over 3 days → 1 doubling/day.  \nA wrong µ (e.g., using log₁₀ without 2.303 factor) reveals confusion between log₁₀ and ln forms — a common JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the growth measurement techniques: (a) Direct cell count using haemocytometer, (b) Packed Cell Volume (PCV), and (c) Fresh/Dry weight. Which method is most suitable for daily monitoring of a suspension culture without sacrificing the culture, and why?",
+     "a": "| Method | Principle | Destructive? | Speed | Best For |\n|--------|-----------|--------------|-------|----------|\n| Haemocytometer | Direct microscopic count | Yes (aliquot removed) | Slow | Viability + exact cell number |\n| **PCV** | **Centrifuge 10 mL culture, measure settled volume** | **Yes (but small aliquot)** | **Fast (5 min)** | **Daily growth curve, non-viable cells included** |\n| Fresh/Dry weight | Filtration + weighing | Yes (entire flask usually) | Slow (drying 24 h) | Final biomass yield, metabolite correlation |\n\n**PCV is most suitable for daily monitoring** because it requires only 10 mL, takes minutes, correlates well with cell number in exponential phase, and allows the main culture to continue. A student choosing dry weight for daily monitoring reveals ignorance of its destructiveness and time lag.",
+     "self_check": true
+    },
+    {
+     "q": "Assertion: \"Synchronization of cell suspension cultures is essential for studying cell cycle events but reduces overall biomass yield.\"  \nReason: \"Synchronization agents (e.g., hydroxyurea, aphidicolin) arrest cells in specific phases, temporarily halting division.\"  \nEvaluate: Is the assertion true? Is the reason true? Does the reason correctly explain the assertion?",
+     "a": "**Assertion: True.** Synchronization is indeed used for cell cycle studies (e.g., mitotic index peaks) but synchronized cultures show **reduced cumulative biomass** because a fraction of cells are arrested or die during release.  \n**Reason: True.** Hydroxyurea inhibits ribonucleotide reductase → S-phase arrest; aphidicolin inhibits DNA polymerase α → S/G₂ arrest.  \n**Reason correctly explains Assertion:** Yes — the arrest *causes* the temporary growth halt, lowering total divisions per unit time.  \n**Correct option: (a) Both true, reason correctly explains assertion.**  \nA student selecting (b) fails to see the causal link: arrest → fewer divisions → lower yield.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 7-day subculture protocol for a newly established *Taxus baccata* (yew) suspension culture to maximize paclitaxel (Taxol) precursor (baccatin III) production. Specify: (i) inoculum density (PCV/mL), (ii) medium modifications from standard MS, (iii) harvest day based on growth phase, and (iv) one elicitor addition strategy. Justify each choice.",
+     "a": "**Expected criteria for a good answer:**  \n1. **Inoculum density:** 10–15% PCV (e.g., 10 mL settled cells into 90 mL fresh medium) — too low → long lag; too high → early stationary.  \n2. **Medium modifications:** Reduce NH₄⁺ (use nitrate-only), add 5% sucrose (carbon sink for terpenoids), supplement with 0.1 mg/L NAA + 0.05 mg/L BA (maintains dedifferentiation), add 100 mg/L casein hydrolysate (nitrogen/organic).  \n3. **Harvest day:** Day 5–6 (late exponential/early stationary) — secondary metabolites peak when growth slows (idiophase).  \n4. **Elicitor:** Add 100 µM methyl jasmonate (MeJA) on Day 3 (mid-exponential) for 48 h — induces terpenoid pathway genes.  \n**Poor answer:** \"Use MS medium, harvest Day 7, no elicitor\" — reveals no understanding of metabolic shift from primary to secondary metabolism or elicitation timing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

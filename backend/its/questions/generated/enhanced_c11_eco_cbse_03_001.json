@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_001",
+   "title": "c11_eco_cbse_03_001",
+   "questions": [
+    {
+     "q": "What was the approximate level of India's foreign exchange reserves in January 1991, and how many weeks of imports could they finance?",
+     "a": "India's foreign exchange reserves stood at approximately US$1.2 billion in January 1991, sufficient to finance only about two weeks of imports. A wrong answer (e.g., \"reserves were adequate\" or \"reserves covered 6 months of imports\") reveals the student does not grasp the severity of the reserve depletion — the crisis was defined precisely by this critically low import cover, which triggered loss of creditor confidence and the IMF approach.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a persistent fiscal deficit (government expenditure > revenue) in the 1980s led to a current account deficit and reserve loss, even though the fiscal deficit was financed domestically.",
+     "a": "Government borrowing to finance the fiscal deficit raised domestic interest rates and aggregate demand. Higher demand increased imports (petroleum, capital goods, raw materials), while higher interest rates attracted some capital inflows but not enough to offset the import surge. The resulting current account deficit was financed by drawing down reserves and external borrowing. A wrong answer focusing only on \"government spent foreign exchange directly\" misses the transmission mechanism: fiscal expansion → higher domestic absorption → higher imports → current account deficit → reserve depletion, which is the standard twin-deficit hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "In 1990-91, India's monthly import bill averaged US$1.5 billion while foreign exchange reserves were US$1.2 billion. Calculate the import cover in weeks. If the government had compressed imports by 20% through demand-side measures, what would the new import cover be (assuming reserves unchanged)?",
+     "a": "Step 1: Import cover = Reserves / Monthly imports = $1.2bn / $1.5bn = 0.8 months = 3.47 weeks (≈ 2 weeks as per textbook).\nStep 2: New monthly imports after 20% compression = $1.5bn × 0.8 = $1.2bn.\nStep 3: New import cover = $1.2bn / $1.2bn = 1 month = 4.33 weeks.\nStep 4: Interpretation: Even a 20% import compression only doubles cover from ~2 to ~4 weeks — still critically low, showing why structural export-oriented reforms were essential beyond mere demand compression. A wrong calculation (e.g., dividing months by weeks incorrectly) reveals confusion between stock (reserves) and flow (monthly imports) variables.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of (a) rising oil prices after the 1990 Gulf War and (b) structural decline in export competitiveness due to an overvalued rupee in causing the 1991 crisis. Which was the proximate trigger and which the structural cause?",
+     "a": "The Gulf War oil price spike (crude doubled from $15 to $30/barrel in 1990) was the proximate trigger — it suddenly widened the trade deficit by ~$2 billion annually. The structural cause was the overvalued rupee (maintained by RBI intervention) combined with high domestic inflation, which eroded export competitiveness over the 1980s; exports grew at only 4.5% annually while imports grew at 8.5%. A wrong answer attributing the crisis solely to the oil shock misses that India's export stagnation and import dependence were decades in the making; the oil shock merely exposed the underlying fragility. The distinction matters: stabilisation addressed the oil shock impact; structural reforms addressed the competitiveness problem.",
+     "self_check": true
+    },
+    {
+     "q": "The IMF standby loan of $2.2 billion (1991) and World Bank structural adjustment loan of $1.5 billion came with conditionalities: devaluation, fiscal deficit reduction, trade liberalisation, and industrial deregulation. Evaluate whether these conditionalities addressed the root causes of the crisis or merely treated symptoms.",
+     "a": "The conditionalities addressed both: devaluation (18-19% in July 1991) corrected the overvalued exchange rate — a structural cause; fiscal deficit reduction (from 8.4% to 5.7% of GDP by 1992-93) addressed the demand-side driver of imports; trade liberalisation and industrial deregulation targeted the supply-side inefficiencies that kept exports uncompetitive. However, critics argue the pace of fiscal compression hurt social sector spending (health/education), and devaluation raised oil import costs initially. A wrong answer claiming \"conditionalities only treated symptoms\" ignores that the twin-deficit identity required simultaneous action on both fiscal and exchange rate fronts; treating only reserves (symptom) without fixing the exchange rate misalignment (cause) would have led to repeated crises.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy package for a hypothetical country facing a similar crisis today (reserves = 3 weeks of imports, fiscal deficit = 9% of GDP, current account deficit = 4% of GDP, overvalued currency by 20%). Your package must include: (i) one immediate stabilisation measure, (ii) one structural reform, (iii) one social protection element, and (iv) a sequencing argument.",
+     "a": "Good answer: (i) Immediate: 15-20% nominal devaluation + temporary import surcharge on non-essential goods to compress demand and stem reserve loss. (ii) Structural: Remove export restrictions, simplify tariff structure (max 15%), allow full current account convertibility over 3 years to lock in competitiveness. (iii) Social: Targeted cash transfers to bottom 40% households financed by redirecting inefficient subsidies (fertiliser, fuel) — protects vulnerable from devaluation-induced inflation. (iv) Sequencing: Devaluation first (restores external balance), then fiscal consolidation (avoids contractionary spiral), then structural reforms (need stable macro environment). A poor answer proposes only \"cut spending\" or \"devalue\" without sequencing or social protection, revealing failure to understand the political economy constraints and the need for a coherent, credible reform narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

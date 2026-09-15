@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_5",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_5",
+   "title": "c9_physics_ch6_5",
+   "questions": [
+    {
+     "q": "Define electric current and state its unit.",
+     "a": "Electric current is the rate of flow of electric charge: I = Q/t, where I is current, Q is charge, and t is time. Its unit is the ampere (A). One ampere = one coulomb per second. A wrong answer (e.g., \"current is electricity\") is too vague — it must give the formula I = Q/t and the unit ampere.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the current if 15 coulombs of charge flow through a wire in 3 seconds.",
+     "a": "I = Q/t = 15/3 = 5 A. The current is 5 amperes. A wrong answer (e.g., 45 A from multiplying) uses the wrong operation — current is charge divided by time, not multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "A current of 2 A flows for 10 seconds. How much charge passes through the circuit?",
+     "a": "Q = I * t = 2 * 10 = 20 C. The charge is 20 coulombs. A wrong answer (e.g., 5 C from dividing) inverts the formula — Q = I * t, not Q = I/t.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between conventional current direction and electron flow direction.",
+     "a": "Conventional current flows from positive to negative terminal (the direction positive charge would move). Electron flow is from negative to positive terminal (electrons are negative, so they move opposite to conventional current). In metal wires, electrons are the actual charge carriers, so they flow from negative to positive, while conventional current is described as flowing from positive to negative. The two directions are opposite. A wrong answer (e.g., \"they are the same\") misses that conventional current and electron flow are in opposite directions.",
+     "self_check": true
+    },
+    {
+     "q": "How is an ammeter connected in a circuit, and why?",
+     "a": "An ammeter is connected in series with the component whose current is being measured. It must be in series so that the same current flows through the ammeter as through the component. If connected in parallel, it would not measure the component's current correctly and could be damaged (low resistance in parallel creates a short circuit). A wrong answer (e.g., \"in parallel\") is incorrect — ammeters are in series; voltmeters are in parallel.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Current is the amount of electricity in a wire.\" Evaluate this statement and refine it.",
+     "a": "The statement is imprecise. \"Amount of electricity\" is vague — it could mean charge or current. Current is the rate of flow of charge (I = Q/t), not the amount of charge. A wire can have a lot of charge but no current (if the charge is not moving), or a small charge with high current (if it flows quickly). The refinement: \"Current is the rate at which electric charge flows through a wire, measured in amperes (coulombs per second).\" A wrong evaluation (agreeing with the student) confuses charge (amount) with current (rate of flow).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

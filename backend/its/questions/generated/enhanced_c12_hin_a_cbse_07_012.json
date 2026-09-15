@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_07_012",
+   "title": "c12_hin_a_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question in the CBSE Hindi exam context?",
+     "a": "A literal question asks for information explicitly written in the text (e.g., \"What does the fog-woman shake?\" → \"her hair\" from the prose). An inferential question asks for meaning derived by reading between the lines (e.g., \"Why does the poet call the fog 'ukxerh'?\" → requires connecting \"ukxerh\" to the feminine imagery of hair and breath). **Wrong answer reveals:** Student thinks both question types are answered by copying lines; they don't grasp that inferential answers require *synthesis* of multiple textual clues.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"ckjgeklk\" (first stanza), the line \"vxgu nsol ?kVk fufl ck<+hA\" appears. A student writes: \"The poet says the morning sun makes the dew dry.\" Is this a literal or inferential response? Justify using the text.",
+     "a": "This is a **literal** response because \"vxgu nsol\" = morning sun, \"?kVk\" = dew, \"fufl ck<+h\" = dries up — all directly translated from the words. **Wrong answer reveals:** Student labels it \"inferential\" because they think \"dew drying\" is an interpretation; they confuse *translation* with *inference*. Literal answers can still require vocabulary knowledge (from node 010) but don't require logical leaps.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 3-step CBSE answer structure (Point → Evidence → Explanation) to answer this inferential question: \"Why does the poet use the image 'fi; lkSa dgsgq l¡nslM+k] ,s Hk¡ojk ,s dkx' in the first poem?\" (The poet signals with fingers, saying 'look at the clouds and the sky').",
+     "a": "**Point:** The poet personifies the fog-woman as a communicator directing attention to nature's drama. **Evidence:** \"fi; lkSa dgsgq l¡nslM+k\" (she signals with fingers) and \"lks èkfu fcjgsa tfj eqbZ] rsfgd èkqvk¡ ge ykx\" (if the clouds become yours, the nights become yours). **Explanation:** The gesture \"l¡nslM+k\" (inviting/pointing) transforms fog from passive weather into an active guide, suggesting humans must *choose* to engage with nature's cycles. **Wrong answer reveals:** Student gives only Evidence (\"she points at clouds\") without Explanation — they treat inference as quotation, missing the \"why\" that earns the third mark.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the two poems in the chapter. How does the shift from \"ckjgeklk\" (monsoon arrival) to \"iQkxqu iou >¡dksjS cgkA\" (winter sun) change the *type* of inferential questions a student must prepare for?",
+     "a": "\"ckjgeklk\" invites inferences about **anticipation and renewal** (e.g., \"Why does the fog-woman shake her hair?\" → to herald rain). \"iQkxqu iou >¡dksjS cgkA\" invites inferences about **endurance and transience** (e.g., \"Why do birds sit with feathers fluffed?\" → to conserve heat). The shift requires students to track **seasonal progression** (monsoon → winter) and **emotional arc** (joy → quiet resilience). **Wrong answer reveals:** Student treats poems in isolation, missing the chapter's structural design (covered in node 002) where tk;lh contrasts seasons to show life's cyclical nature — a classic CBSE \"theme across texts\" inferential trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to Question 3 (iz'u&vH;kl): \"ek?k eghus esa fojfg.kh dks vuqHkwfr gksrh gS fd o\"kkZ dk gksuk rFkk iou dk cguk Hkh fojg rki dks c<+k jgk gSA\" (In Ashadh, the fog-woman experiences the heat becoming intense and the sun's scorching rays troubling the fog). Is this answer sufficient for 3 marks? Why or why not?",
+     "a": "**Insufficient — 1/3 marks.** The answer copies the prose line \"o\"kkZ dk gksuk rFkk iou dk cguk Hkh fojg rki dks c<+k jgk gSA\" verbatim but fails to **interpret** the *experience* (vuqHkwfr). A 3-mark answer must add: \"This shows the fog-woman's vulnerability — her cooling presence is threatened by summer's violence, foreshadowing her transformation into monsoon clouds.\" **Wrong answer reveals:** Student confuses *quoting* with *answering*. CBSE marking scheme (from node 014) awards marks for *insight*, not reproduction. This is the #1 mark-loser in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question based on the last stanza of \"iQkxqu iou >¡dksjS cgkA\" (\"eoqQ rsfg ekjx gksb ijkSa] oaQr èkjSa tg¡ ikmA\") that tests a classmate's ability to connect imagery to the poem's central theme of resilience. Provide the ideal 3-mark answer.",
+     "a": "**Question:** \"The line 'eoqQ rsfg ekjx gksb ijkSa] oaQr èkjSa tg¡ ikmA' (when the sun rises, the fog disappears, but the cold stays where it was) seems contradictory. What does this paradox reveal about the poem's message?\"  \n**Ideal Answer:** **Point:** The paradox highlights that **external conditions change but inner resilience remains**. **Evidence:** \"ekjx gksb ijkSa\" (fog vanishes with sun) vs \"oaQr èkjSa tg¡ ikmA\" (cold stays in its place). **Explanation:** The fog (temporary) yields to the sun, but the cold (enduring essence) persists — mirroring how rural life (tk;lh's theme) endures seasonal hardships. The cold \"ikmA\" (stays put) like the farmer's steadfastness.  \n**Poor answer reveals:** Student asks a literal question (\"Where does the cold stay?\") or gives a literal answer (\"In the fields\") — they haven't learned to *design* questions that probe theme, a skill needed for node 013 (Critical Thinking).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

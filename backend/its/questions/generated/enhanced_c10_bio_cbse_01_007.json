@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_007",
+   "title": "c10_bio_cbse_01_007",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for anaerobic respiration in human skeletal muscle cells and state the net ATP yield per glucose molecule.",
+     "a": "C₆H₁₂O₆ → 2 C₃H₆O₃ (lactic acid) + 2 ATP. A wrong equation such as C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP reveals the student is confusing human anaerobic respiration with yeast fermentation; writing 36–38 ATP indicates they have not grasped that anaerobic respiration yields only the 2 ATP from glycolysis because the Krebs cycle and ETC are non-functional without oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why pyruvate enters the mitochondria for aerobic respiration but remains in the cytoplasm for anaerobic respiration.",
+     "a": "Pyruvate enters mitochondria only when oxygen is available because the mitochondrial enzymes of the link reaction, Krebs cycle, and electron transport chain require oxygen as the final electron acceptor; without oxygen, these pathways cannot operate, so pyruvate is reduced in the cytoplasm to lactate (animals) or ethanol + CO₂ (yeast) to regenerate NAD⁺ for glycolysis to continue. A wrong answer stating \"pyruvate is too large to enter mitochondria without oxygen\" shows confusion between membrane permeability and metabolic regulation; saying \"pyruvate chooses its path\" reveals anthropomorphic reasoning instead of understanding enzyme-substrate availability.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs a 100 m sprint and then jogs slowly for 5 minutes. Compare the predominant respiration pathway in their leg muscles during the sprint versus the jog, and explain the metabolic reason for the switch.",
+     "a": "During the sprint: anaerobic respiration predominates (glycolysis → lactate) because ATP demand exceeds oxygen delivery rate; during the jog: aerobic respiration predominates (glycolysis → Krebs cycle → ETC) because oxygen supply meets demand. The switch occurs because lactate accumulation lowers muscle pH, inhibiting glycolytic enzymes, while improved oxygen delivery allows pyruvate to enter mitochondria for complete oxidation. A wrong answer claiming \"the body chooses aerobic because it is more efficient\" misses the physiological constraint of oxygen delivery rate; stating \"lactic acid is removed by breathing\" confuses gas exchange with metabolic clearance (lactate is oxidized in situ or sent to liver via blood).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"Yeast cells produce ethanol and CO₂ during anaerobic respiration, so they must have a different glycolysis pathway than human cells.\" Identify the error and correct it.",
+     "a": "The error is assuming different end products imply different glycolysis; glycolysis is identical in yeast and humans (glucose → 2 pyruvate + 2 ATP + 2 NADH). The difference lies only in the fate of pyruvate: in yeast, pyruvate → acetaldehyde + CO₂ (pyruvate decarboxylase) then acetaldehyde → ethanol (alcohol dehydrogenase); in humans, pyruvate → lactate (lactate dehydrogenase). Both pathways regenerate NAD⁺. A student who says \"yeast has a special glycolysis\" reveals they have not understood that glycolysis is a universal, conserved pathway; the variation is post-glycolytic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim made by a Class 10 student: \"Since anaerobic respiration gives only 2 ATP, it is useless for the organism and should be considered a malfunction.\" Provide a biological justification for your evaluation.",
+     "a": "The claim is incorrect. Anaerobic respiration is a vital survival mechanism: (1) it provides rapid ATP when oxygen is temporarily insufficient (e.g., intense exercise, ischaemia); (2) it allows microorganisms like yeast to thrive in anaerobic niches (fermentation); (3) it maintains NAD⁺/NADH balance so glycolysis can continue. Calling it a \"malfunction\" ignores its evolutionary conservation and physiological role. A student agreeing with the claim reveals a teleological misconception — judging biological processes by \"efficiency\" alone rather than fitness value under varying conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using yeast, sugar, and water at different temperatures to demonstrate the effect of temperature on the rate of anaerobic respiration. State the independent, dependent, and two controlled variables, and predict the graph shape of CO₂ volume vs time at 30°C versus 45°C.",
+     "a": "Independent variable: temperature (e.g., 30°C, 45°C). Dependent variable: volume of CO₂ produced per minute (measured by water displacement or gas syringe). Controlled variables: yeast concentration, sugar concentration, volume of water, pH. Predicted graph: at 30°C, steady linear increase in CO₂ (optimal enzyme activity); at 45°C, initial rapid rise then sharp decline as enzymes denature. A poor design that omits temperature control or uses boiling water shows lack of understanding that enzymes have optimal temperatures; predicting a straight line at 45°C reveals ignorance of thermal denaturation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_010",
+   "title": "c11_eco_cbse_03_010",
+   "questions": [
+    {
+     "q": "State the GDP growth rate of the services sector during 2007-12 and 2021-22 from Table 3.1, and identify which sector had the lowest growth in 2021-22.",
+     "a": "Services sector grew at 10% (2007-12) and 9.2% (2021-22). Agriculture had the lowest growth at 4.8% in 2021-22. A wrong answer (e.g., citing industry as lowest or misreading 12.7%* as services) reveals the student cannot distinguish between GVA sectors or misinterprets the asterisk notation for GVA vs GDP data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rise in aggregate GDP growth from 5.6% (1980-91) to 9.4% (2021-22) does not necessarily mean proportional improvement in living standards for agricultural households.",
+     "a": "Aggregate GDP growth is a weighted average; services (55% weight) growing at 9-10% pulls up the average while agriculture (15% weight, 42% workforce) growing at 2-4% drags it down. Agricultural households depend on sectoral income, not national average. A wrong answer focusing only on \"trickle-down\" or \"overall growth benefits all\" reveals the composition fallacy — ignoring sectoral weights and employment-share mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the compound annual growth rate (CAGR) of FDI inflows from US$100 million (1990-91) to US$23 billion (2022-23) over 32 years. Show steps.",
+     "a": "Step 1: Convert to same units: 100 million = 0.1 billion. Step 2: CAGR = (Ending/Beginning)^(1/n) - 1 = (23/0.1)^(1/32) - 1 = 230^(0.03125) - 1. Step 3: ln(230) ≈ 5.438, divided by 32 ≈ 0.1699. Step 4: e^0.1699 ≈ 1.185. Step 5: CAGR ≈ 18.5% per annum. A wrong answer using simple average (23-0.1)/32 reveals confusion between linear and exponential growth — a Class 8 math error (c8_math_ch2_2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the industrial sector growth trajectory across four periods: 1980-91 (7.1%), 1992-2001 (6.5%), 2002-07 (9.4%), 2021-22 (12.7%*). Analyze why the 2021-22 figure (GVA) is not directly comparable to earlier GDP-based figures.",
+     "a": "GVA (Gross Value Added) = GDP + Subsidies - Indirect Taxes. The 12.7%* is GVA growth, not GDP growth. Earlier periods use GDP at factor cost. GVA excludes net indirect taxes, so growth rates differ structurally. A wrong answer treating all columns as directly comparable reveals ignorance of national accounting changes (2011-12 base year revision) — a senior-secondary specific error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"LPG reforms succeeded because forex reserves rose from US$6 billion to US$646 billion and FDI increased 230-fold.\" Provide two counter-arguments using sectoral growth data.",
+     "a": "Counter-argument 1: External sector strength (reserves, FDI) co-existed with agricultural growth deceleration (3.6% → 4.8%* but volatile: 1.5% in 2012-13) and industrial fluctuation (7.1% → 12.7%* but 3.6% in 2012-13). Counter-argument 2: Growth concentration in services (telecom, IT, finance) benefits urban, skilled workers — widening rural-urban and skill-wage inequality. A wrong answer accepting the claim uncritically reveals \"headline indicator bias\" — ignoring distributional and sectoral dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3-indicator dashboard (choose from: sectoral growth rates, FDI, forex reserves, employment share, public investment in agriculture) to monitor whether growth is becoming more inclusive. Justify each indicator.",
+     "a": "Indicator 1: Agriculture GVA growth rate (directly tracks livelihood of 42% workforce). Indicator 2: Employment elasticity of services vs manufacturing (measures job creation per unit growth). Indicator 3: Ratio of public investment in agriculture to GDP (tracks policy priority). Good answer links each to inclusivity. Poor answer picks only FDI/forex reserves — revealing \"external sector myopia\" (confusing capital flows with domestic welfare).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

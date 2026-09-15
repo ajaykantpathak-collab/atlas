@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_002",
+   "title": "c11_chem_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define London dispersion forces and state the fundamental origin of the instantaneous dipole in a nonpolar atom or molecule.",
+     "a": "London dispersion forces are weak, short-range attractive forces between nonpolar atoms/molecules caused by temporary fluctuations in electron cloud distribution creating instantaneous dipoles that induce complementary dipoles in adjacent species. A WRONG answer stating \"London forces occur only in large molecules\" reveals confusion between magnitude (which increases with size) and existence (present in all atoms/molecules, even He). A WRONG answer attributing them to \"permanent dipoles\" confuses them with dipole-dipole forces.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the boiling point of Cl₂ (−34°C) is higher than that of F₂ (−188°C) despite both being nonpolar diatomic molecules with zero dipole moment.",
+     "a": "Cl₂ has more electrons (34 vs 18) and a larger, more diffuse electron cloud, making it more polarizable. Greater polarizability leads to stronger instantaneous dipoles and thus stronger London dispersion forces, requiring more thermal energy (higher temperature) to overcome. A WRONG answer citing \"Cl₂ has a permanent dipole\" shows confusion about molecular polarity. A WRONG answer saying \"Cl₂ is heavier so gravity holds it tighter\" confuses intermolecular forces with gravitational force.",
+     "self_check": true
+    },
+    {
+     "q": "Given the substances: CH₄ (molar mass 16 g/mol), SiH₄ (32 g/mol), GeH₄ (77 g/mol), SnH₄ (123 g/mol) — all tetrahedral and nonpolar. Predict the order of boiling points and justify using the concept of polarizability.",
+     "a": "Boiling point order: CH₄ < SiH₄ < GeH₄ < SnH₄. As we go down Group 14, number of electrons increases (10, 18, 32, 50), electron clouds become larger and more diffuse, polarizability increases, London forces strengthen, so more heat energy needed to separate molecules. A WRONG answer reversing the order reveals misunderstanding that larger molar mass always means lower volatility. A WRONG answer claiming \"all have same boiling point because all are nonpolar\" ignores the polarizability trend.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the boiling points of CO (bp −191.5°C) and N₂ (bp −195.8°C). Both have similar molar mass (28 vs 28 g/mol) and similar number of electrons (14 vs 14). CO has a small dipole moment (0.11 D), N₂ has zero. Analyze why CO has a slightly higher boiling point.",
+     "a": "CO has a permanent dipole moment (0.11 D) due to electronegativity difference (C=2.55, O=3.44), enabling weak dipole-dipole interactions in addition to London forces. N₂ is nonpolar with only London forces. The dipole-dipole contribution in CO, though small, adds to the total intermolecular attraction, raising its boiling point slightly above N₂. A WRONG answer stating \"CO has higher molar mass\" is factually incorrect (both 28 g/mol). A WRONG answer saying \"N₂ has triple bond so stronger forces\" confuses intramolecular bond strength with intermolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"HCl has a higher boiling point than F₂ because HCl has dipole-dipole forces while F₂ only has London forces. Therefore, dipole-dipole forces are always stronger than London forces.\" Evaluate this statement with a counterexample.",
+     "a": "The statement is FALSE. While HCl (bp −85°C) > F₂ (bp −188°C), consider I₂ (bp 184°C, nonpolar, only London forces) vs HCl (bp −85°C, polar, dipole-dipole + London). I₂'s London forces are stronger than HCl's dipole-dipole + London combined because I₂ has 106 electrons (highly polarizable) vs HCl's 18 electrons. London forces can exceed dipole-dipole forces when polarizability is large enough. A WRONG answer agreeing with the student shows inability to compare magnitude across different molecular sizes. A WRONG answer citing \"HCl has hydrogen bonding\" is incorrect (H-bonding requires H bonded to N, O, or F).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have two unknown colourless liquids A and B at room temperature. Both have molar mass ~44 g/mol. Liquid A boils at −24°C, Liquid B boils at 78°C. Propose molecular structures for A and B consistent with intermolecular force theory, and explain how you would experimentally distinguish them without spectroscopy.",
+     "a": "Liquid A (bp −24°C): Likely nonpolar CO₂ (44 g/mol, linear, μ=0) or C₃H₈ (44 g/mol, nonpolar) — only London forces. Liquid B (bp 78°C): Likely polar CH₃CHO (acetaldehyde, 44 g/mol, μ≈2.7 D) or CH₃CH₂OH (ethanol, 46 g/mol, but H-bonding) — dipole-dipole (+ H-bonding for ethanol). Experimental distinction: (1) Test solubility in water — polar B dissolves, nonpolar A does not. (2) Test deflection of liquid stream by charged rod — polar B deflects, nonpolar A does not. (3) Measure surface tension — B has higher surface tension. A poor answer proposing same structure for both or ignoring polarity shows failure to connect boiling point to intermolecular force type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_15_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_15_010",
+   "title": "c12_soc_cbse_15_010",
+   "questions": [
+    {
+     "q": "What was the first trade union established in India, who founded it, and in which year?",
+     "a": "The first trade union in India was established in April 1918 in Madras by B.P. Wadia, a social worker and member of the Theosophical Society. A wrong answer (e.g., naming AITUC as the first union, or attributing it to Gandhi) reveals the student conflates the first union with the first *national* federation, or confuses the Textile Labour Association (founded by Gandhi in 1918) with Wadia's Madras Labour Union.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the All India Trade Union Congress (AITUC) split in 1947 and what new organisation was formed as a result.",
+     "a": "The AITUC split in 1947 because the Indian National Congress, uncomfortable with growing communist control over AITUC (led by S.A. Dange and M.N. Roy), formed a rival federation — the Indian National Trade Union Congress (INTUC) — in May 1947. A wrong answer (e.g., attributing the split to ideological differences alone, or saying INTUC was formed by communists) shows the student misses the political-party-driven nature of Indian trade unionism: unions have historically been extensions of political parties, not autonomous worker organisations.",
+     "self_check": true
+    },
+    {
+     "q": "The Bombay Textile Strike of 1981-82 involved approximately 2.5 lakh workers and lasted over 18 months. Apply the concept of 'political-party-driven unionism' to explain why the strike failed despite massive participation.",
+     "a": "The strike failed because: (1) The Rashtriya Mill Mazdoor Sangh (RMMS), the recognised union affiliated to Congress/INTUC, was seen as colluding with mill owners; (2) Rival unions (communist-affiliated, socialist-affiliated) fragmented worker unity; (3) The state used the Essential Services Maintenance Act (ESMA) and police repression; (4) Mill owners, facing structural unviability, used the strike as pretext for permanent closure. A wrong answer focusing only on \"worker disunity\" or \"state repression\" misses the structural shift: the strike marked the end of the post-Independence social compact where the state mediated labour-capital relations through recognised unions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the colonial-era worker protests (pre-1920) with the post-1947 institutionalised trade union phase on THREE dimensions: organisation, ideology, and relationship with the nationalist movement.",
+     "a": "| Dimension | Colonial-era (pre-1920) | Post-1947 Institutionalised Phase |\n|-----------|------------------------|-----------------------------------|\n| Organisation | Spontaneous, localised, no formal structure | Formal federations (AITUC, INTUC, HMS, UTUC), recognised unions, collective bargaining |\n| Ideology | Economic grievances (wages, conditions), no coherent ideology | Explicitly ideological: communist, socialist, nationalist, Gandhian — each tied to a political party |\n| Nationalist movement | Nationalist leaders (Gandhi, Tilak) *drew workers in* (e.g., 1917 Bombay strikes, Ahmedabad 1918) | Unions *became arms of political parties*; INTUC = Congress, AITUC = CPI, HMS = Socialists — worker autonomy subordinated to party politics |\n\nA wrong answer that treats both phases as \"same but bigger\" misses the qualitative shift from *moral economy* protests to *political-party-controlled* interest-group politics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The 1974 railway strike was the last major offensive by the organised working class in India; after that, the workers' movement entered a defensive, fragmented phase.\" Support your evaluation with evidence from the trajectory of trade unionism.",
+     "a": "The claim is largely accurate. The 1974 railway strike (led by George Fernandes, 1.7 million workers) was a high-water mark of organised labour's offensive capacity — it challenged the state directly during the Emergency prelude. After 1974: (1) The 1981-82 Bombay Textile Strike ended in catastrophic defeat and deindustrialisation; (2) Liberalisation (1991) accelerated informalisation — today >90% workforce is informal, outside union coverage; (3) Unions fragmented further along party lines, unable to organise contract/casual workers; (4) New labour struggles (e.g., Maruti Suzuki 2011-12, gig worker protests) are spontaneous, leaderless, and lack legal recognition. A wrong answer that says \"unions are still strong\" ignores the structural decline in union density, collective bargaining coverage, and the shift from 'class-based' to 'identity/fragmented' struggles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a conceptual map showing how the Bombay Textile Strike (1981-82) connects to THREE contemporary 'new labour struggles' in India. For each connection, name the struggle, the structural cause linking them, and the new form of organisation (if any).",
+     "a": "A strong answer maps:\n1. **Maruti Suzuki Workers' Struggle (2011-12, Manesar)** — Structural cause: *Contractualisation replacing permanent jobs* (same as Bombay's 'badli' system); New organisation: *Worker-led committees bypassing recognised unions*.\n2. **Gig Workers' Protests (2021-24, Swiggy/Zomato/Ola/Uber)** — Structural cause: *Platform capitalism creating 'algorithmically managed' informal labour*; New organisation: *App-based collectives (IFAT, TWU) using digital mobilisation*.\n3. **Scheme Workers' Movements (ASHA, Anganwadi, Mid-day Meal workers)** — Structural cause: *State outsourcing core welfare functions to 'volunteers' at honorariums*; New organisation: *Federations demanding 'worker' status and minimum wage*.\nA poor answer lists random strikes without identifying the *structural continuity* (informalisation, state withdrawal, contractualisation) or the *organisational innovation* (bypassing traditional unions).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

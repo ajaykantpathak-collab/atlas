@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_001",
+   "title": "c11_geo_cbse_18_001",
+   "questions": [
+    {
+     "q": "Define Net Sown Area and distinguish it from Gross Cropped Area using the concept of cropping intensity. Provide the formula linking all three.",
+     "a": "Net Sown Area (NSA) is the total area sown with crops at least once in an agricultural year (July-June), counted only once regardless of multiple cropping. Gross Cropped Area (GCA) is the total area sown counting all crops in all seasons (so double-cropped land is counted twice). Cropping Intensity (CI) = (GCA / NSA) × 100. A wrong answer confusing NSA with GCA reveals the student doesn't understand that the same physical land can produce multiple harvests per year - a critical concept for assessing agricultural productivity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the category \"Culturable Waste Land\" differ from \"Current Fallow\" and \"Other Fallow\" in the nine-fold classification? Explain the land revenue and agricultural significance of this distinction.",
+     "a": "Culturable Waste Land is land available for cultivation but not cultivated for 5+ years (often due to salinity, alkalinity, erosion, or abandonment), whereas Current Fallow is left uncultivated for just one agricultural year (voluntary rest) and Other Fallow for 1-5 years (temporary). Revenue records treat culturable waste as potentially taxable if brought under cultivation, while fallow land remains under regular assessment. A wrong answer conflating these reveals misunderstanding of the time-threshold criteria that determine land revenue classification and rehabilitation priority.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below for State X (2020-21), calculate Cropping Intensity and the percentage of Net Sown Area that is irrigated. Then interpret what this implies about agricultural risk.\n- Geographical Area: 150 lakh ha\n- Net Sown Area: 90 lakh ha\n- Gross Cropped Area: 135 lakh ha\n- Net Irrigated Area: 54 lakh ha",
+     "a": "Step 1: CI = (GCA/NSA) × 100 = (135/90) × 100 = 150%. Step 2: % NSA irrigated = (Net Irrigated Area / NSA) × 100 = (54/90) × 100 = 60%. Interpretation: CI of 150% indicates widespread double cropping (one extra crop per year on half the NSA). 60% irrigation coverage means 40% of NSA is rainfed - high risk during monsoon failure. A student calculating CI as 67% (NSA/GCA) has inverted the formula, showing they don't grasp that intensity measures how many times land is used, not the fraction used once.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land use patterns of Punjab (NSA 84%, Forest 1.6%, Fallow 2%) and Arunachal Pradesh (NSA 3%, Forest 80%, Fallow 3%). Analyse how relief, climate, and population density explain this contrast, and evaluate which state faces greater long-term sustainability challenges.",
+     "a": "Punjab's flat alluvial plains, assured irrigation (canals/tubewells), and high population density (550/km²) drive intensive cultivation (high NSA, high CI=190%). Arunachal's mountainous terrain (Himalayan foothills), high rainfall but steep slopes, and low density (17/km²) limit cultivation to valleys (low NSA, CI~130%). Punjab's sustainability challenge is severe: groundwater depletion (over 70% blocks over-exploited), soil salinity, and loss of crop diversity. Arunachal's challenge is different - forest degradation from shifting cultivation (jhum) and infrastructure projects. A student citing only \"Punjab has more farming\" misses the structural drivers and sustainability trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's fallow land (current + other) at ~25 million hectares represents a massive reserve for agricultural expansion to meet future food demand.\" Use evidence on soil quality, water availability, and opportunity costs.",
+     "a": "The statement is flawed. Much fallow land is in rainfed, marginal areas (Rajasthan, Maharashtra, Karnataka) with poor soils (shallow, saline, eroded) and unreliable rainfall - bringing it under cultivation requires massive irrigation investment (often unviable). Current fallow (15 Mha) is largely voluntary rotation; other fallow (10 Mha) includes degraded land. Opportunity cost: converting fallow may reduce grazing land, biodiversity, and carbon sequestration. Better strategy: raise cropping intensity on existing NSA (current CI=150%, potential >200% with irrigation) and reclaim culturable waste (12 Mha) with soil amendment. A student agreeing uncritically ignores the physical and economic geography constraints that made this land fallow in the first place.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land use optimisation plan for a hypothetical district with: Geographical Area 5000 km², Forest 30%, NSA 40%, Current Fallow 10%, Other Fallow 8%, Culturable Waste 5%, Barren 7%. The district has medium rainfall (800 mm), alluvial soil in 60% area, and canal irrigation covering 35% of NSA. Specify target changes for each category over 10 years with justification.",
+     "a": "A strong plan: (1) Reduce Current Fallow from 10%→5% by promoting short-duration pulses in rabi on rainfed land using residual moisture (low cost, improves soil N). (2) Reclaim 50% of Culturable Waste (5%→2.5%) via gypsum application for salinity and bunding for erosion - convert to agroforestry/horticulture. (3) Afforest 2% of Barren/unculturable waste for ecological balance. (4) Increase NSA from 40%→43% via (1)+(2). (5) Raise CI from ~140%→170% by extending canal command (last mile) and drip in horticulture. (6) Maintain Forest at 30% (legal minimum). Poor answer: \"convert all fallow to crops\" - ignores soil-water constraints and ecological functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

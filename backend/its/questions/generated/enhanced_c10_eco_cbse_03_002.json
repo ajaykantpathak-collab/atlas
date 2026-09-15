@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_002",
+   "title": "c10_eco_cbse_03_002",
+   "questions": [
+    {
+     "q": "What is the legal status of a ₹200 banknote issued by the Reserve Bank of India, and who guarantees its value?",
+     "a": "Correct answer: The ₹200 banknote is **legal tender** in India, meaning it cannot be refused in settlement of any transaction. Its value is **guaranteed by the Central Government** (as printed on the note: \"Guaranteed by the Central Government\"). A wrong answer (e.g., \"guaranteed by RBI gold reserves\" or \"backed by the bank's assets\") reveals the student confuses fiat money with commodity-backed money or misunderstands the sovereign guarantee.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a cheque or UPI payment settle a transaction even though no physical currency changes hands?",
+     "a": "Correct answer: A cheque/UPI payment transfers **ownership of a demand deposit** from the payer’s bank account to the payee’s account. The payee accepts it because (a) the banking system guarantees the transfer, (b) the deposit can be withdrawn as currency anytime, and (c) it is legally recognized as a payment instrument. A wrong answer (e.g., \"the bank moves cash from one vault to another\" or \"UPI is just a message, not real money\") shows the student does not grasp that bank deposits **are** money – they are claims on banks that function as a medium of exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Riya has ₹50,000 in her savings account. She writes a cheque for ₹12,000 to Rohan. Rohan deposits the cheque in his current account. After the cheque clears, what is the change in (a) Riya’s demand deposit, (b) Rohan’s demand deposit, and (c) the total demand deposits in the banking system?",
+     "a": "Step 1: Identify initial demand deposits – Riya: ₹50,000; Rohan: unknown (say ₹X). Total = ₹50,000 + X.\nStep 2: Cheque of ₹12,000 is a transfer instruction. When cleared, Riya’s balance falls by ₹12,000 → ₹38,000. Rohan’s balance rises by ₹12,000 → X + ₹12,000.\nStep 3: Total demand deposits = (₹38,000) + (X + ₹12,000) = ₹50,000 + X (unchanged).\nAnswer: (a) –₹12,000; (b) +₹12,000; (c) No change. A wrong answer (e.g., total increases) reveals the student thinks cheque payments create new money, confusing transfer with credit creation (covered later).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is correct and why:\nStatement A: \"Currency notes are money because they are made of special paper and have security features.\"\nStatement B: \"Currency notes are money because the Government of India declares them as legal tender and the RBI issues them.\"",
+     "a": "Correct answer: Statement B is correct. Money in modern economies is **fiat money** – its value derives from legal decree (legal tender status) and sovereign guarantee, not from the material (paper/polymer) or security features. Security features prevent counterfeiting; they do not confer value. A student choosing A confuses **anti-counterfeiting measures** with the **source of value**, a common error when they focus on physical attributes rather than institutional trust.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper refuses to accept a ₹2,000 banknote (which is legal tender) for a ₹1,500 purchase, saying he has no change. He insists on UPI payment. Is the shopkeeper legally allowed to refuse the banknote? Evaluate with reference to the concept of legal tender.",
+     "a": "Correct evaluation: **No, the shopkeeper cannot legally refuse the ₹2,000 note.** Legal tender means the currency **must be accepted** for any transaction amount in India. The shopkeeper’s lack of change is not a valid ground for refusal. However, in practice, parties can agree to alternative modes (UPI) – but the shopkeeper cannot *insist* on UPI and reject legal tender. A wrong answer (e.g., \"he can refuse because it's inconvenient\") shows the student misunderstands **legal tender** as optional or conditional, which is a critical board exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart showing how a UPI payment of ₹500 from Person A (Bank X) to Person B (Bank Y) moves through the banking system. Label the role of NPCI, the two banks, and the demand deposit accounts.",
+     "a": "Expected flowchart (text description):\n1. Person A initiates UPI payment (₹500) via app → request goes to **NPCI (National Payments Corporation of India)**.\n2. NPCI routes request to **Bank X** (A’s bank) → Bank X verifies balance & debits A’s **demand deposit (savings) account** by ₹500.\n3. NPCI sends credit instruction to **Bank Y** (B’s bank) → Bank Y credits B’s **demand deposit (savings/current) account** by ₹500.\n4. NPCI sends confirmation to both apps. Settlement between Bank X and Bank Y occurs via their accounts with **RBI** (inter-bank settlement).\nA poor answer (missing NPCI, showing cash movement, or omitting demand deposit debit/credit) reveals the student views UPI as a \"wallet\" rather than a **bank-account-to-bank-account transfer system**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

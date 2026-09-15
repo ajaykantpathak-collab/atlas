@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_008",
+   "title": "c10_hist_cbse_04_008",
+   "questions": [
+    {
+     "q": "What was the primary role of a 'jobber' (or *mistri*) in recruiting workers for early Indian factories?",
+     "a": "The jobber was a trusted worker (often from the same region/caste) who recruited villagers, provided loans/advances, and acted as a supervisor and intermediary between factory management and workers. A wrong answer (e.g., \"jobber was a British manager\" or \"jobber was a trade union leader\") reveals the student confuses the indigenous recruitment hierarchy with colonial management or later labour organisation, missing the informal, kinship-based control mechanism that defined early Indian factory labour.",
+     "self_check": true
+    },
+    {
+     "q": "Why did industrial workers in colonial India maintain strong ties to their villages and return seasonally, unlike the permanent urban proletariat in Britain?",
+     "a": "Workers treated factory wages as supplementary income; their primary subsistence came from village land/family, allowing employers to pay below-subsistence wages. Seasonal return for sowing/harvesting was built into the labour cycle. A wrong answer (e.g., \"workers preferred village life\" or \"factories closed in monsoon\") reveals a cultural or technical misunderstanding instead of the structural economic reason: the colonial wage-rent nexus that externalised reproduction costs to the countryside.",
+     "self_check": true
+    },
+    {
+     "q": "A factory owner in 1900s Bombay pays workers ₹12/month for 14-hour days, six days a week. Workers live in chawls with one room per family, no sanitation, and return to villages for 3 months annually. Analyze how this arrangement benefits the factory owner using the concept of 'social reproduction'.",
+     "a": "The owner pays only for the worker's individual labour power, not the family's survival; the village household (women, elders, land) feeds, shelters, and cares for the worker during off-seasons and old age. This subsidises the wage bill. A wrong answer focusing only on \"low wages\" or \"bad conditions\" misses the systemic transfer of reproductive costs from capital to the peasant household — the core peculiarity of colonial industrial labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'peculiarities of industrial labour' in India (c. 1900) with the factory labour experience in Britain (c. 1830s) on THREE dimensions: recruitment, settlement pattern, and state regulation. Present as a structured comparison.",
+     "a": "**Recruitment**: India — jobber/kin networks; Britain — direct hiring/labour exchanges. **Settlement**: India — circular migration, rural base retained; Britain — permanent urban settlement, family migration. **State regulation**: India — minimal Factory Acts (1881, 1891) excluding most workers; Britain — Factory Acts (1833 onwards) progressively regulating hours, children, safety. A wrong answer listing only \"India was worse\" shows descriptive thinking without analytical categories; the student must identify the structural divergence: colonial labour was 'informalised' by design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The peculiarities of Indian industrial labour (seasonality, jobber system, rural ties) were obstacles to the formation of a unified working-class consciousness before 1920.\"",
+     "a": "The claim is largely valid: fragmentation by region/caste/language via jobbers, temporary urban presence, and primary loyalty to village hindered class solidarity. However, shared grievances (wages, hours, fines) in chawls *did* spark spontaneous strikes (e.g., 1890s Bombay). A wrong answer saying \"no consciousness existed\" ignores early militancy; saying \"consciousness was strong\" ignores structural barriers. The nuanced evaluation — obstacles existed but were not absolute — is the board-exam standard.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-panel storyboard (describe each panel in 1-2 sentences) showing the life cycle of a migrant worker from Ratnagiri district working in a Bombay cotton mill, 1905. Include: recruitment, journey, factory work, chawl life, village return, and re-recruitment.",
+     "a": "**Panel 1**: Jobber from worker's village offers ₹10 advance; worker signs thumbprint. **Panel 2**: Steamer to Bombay; worker sees mill chimneys for first time. **Panel 3**: 14-hour shift, noise, heat, fines for talking; jobber watches. **Panel 4**: Dark 10x10 ft chawl room shared with 3 others; common tap, queue for latrine. **Panel 5**: Monsoon break — worker returns to Ratnagiri, helps transplant rice, repays advance. **Panel 6**: Post-harvest, jobber reappears; cycle repeats. A poor answer lists events without showing the *circular* structure or the jobber's recurring role — missing the systemic peculiarity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

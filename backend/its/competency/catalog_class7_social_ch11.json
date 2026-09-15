@@ -1,0 +1,557 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 11,
+ "chapter_title": "From Barter to Money",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees111.txt",
+ "concepts": [
+  {
+   "id": "c7ss.11.1",
+   "title": "Barter System and Its Limitations",
+   "section": "The Barter System",
+   "definition": "A direct exchange system where goods and services are traded for other goods and services without using money.",
+   "formula": "",
+   "key_idea": "Barter requires a double coincidence of wants, which is hard to achieve and limits trade.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the barter system and how did it work",
+    "explain the meaning of double coincidence of wants in barter",
+    "list the main limitations of the barter system",
+    "why is it difficult to store wealth in a barter economy",
+    "how does the lack of a common measure of value affect barter trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define barter exchange",
+     "explain": "Barter is the direct exchange of one good or service for another without any medium of money."
+    },
+    {
+     "step": 2,
+     "action": "identify the double coincidence of wants",
+     "explain": "Both traders must want exactly what the other offers, which is rare and restricts trade."
+    },
+    {
+     "step": 3,
+     "action": "list the limitations",
+     "explain": "Barter suffers from lack of common measure of value, indivisibility of goods, difficulty in storing wealth, and difficulty in deferred payments."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer needs cloth but the weaver needs rice. Explain whether barter can occur and what condition must be met.",
+     "solution": "Barter can occur only if the farmer wants cloth and the weaver wants rice at the same time -- the double coincidence of wants.",
+     "answer": "Barter is possible only when both parties want what the other has (double coincidence of wants)."
+    },
+    {
+     "question": "Why is it difficult to buy a large item like a cow using small quantities of vegetables in a barter system?",
+     "solution": "Vegetables are indivisible in large enough quantity and perishable, making it hard to match the value of a cow.",
+     "answer": "Indivisibility and lack of a common measure of value make such exchanges impractical."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define the barter system in your own words.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any three limitations of the barter system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the term double coincidence of wants with a suitable example.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.2",
+   "title": "Evolution of Money",
+   "section": "Evolution of Money",
+   "definition": "The gradual replacement of barter with commonly accepted media of exchange, from commodity money like grains and cattle to metallic coins, paper currency, and digital money.",
+   "formula": "",
+   "key_idea": "Money evolved to remove the limitations of barter by providing a generally accepted medium of exchange.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "trace the evolution of money from barter to modern currency",
+    "what were the early forms of commodity money used in India",
+    "why did metals replace grains and cattle as money",
+    "how did paper currency come into use",
+    "explain how digital money is the latest stage in the evolution of money"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace early commodity money",
+     "explain": "People first used grains, cattle, and salt as money, but these were perishable and non-uniform."
+    },
+    {
+     "step": 2,
+     "action": "explain the shift to metallic money",
+     "explain": "Metals like gold, silver, and copper were durable, divisible, and uniform, so they became coins."
+    },
+    {
+     "step": 3,
+     "action": "describe paper and digital money",
+     "explain": "Heavy coins were replaced by paper currency issued by authorities, and today digital or electronic money enables cashless transactions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Arrange in order: paper currency, commodity money, metallic coins, digital money.",
+     "solution": "Commodity money came first, then metallic coins, then paper currency, and finally digital money.",
+     "answer": "Commodity money -> metallic coins -> paper currency -> digital money."
+    },
+    {
+     "question": "Why were grains and cattle not ideal forms of money?",
+     "solution": "Grains and cattle are perishable, non-uniform in quality, and hard to divide, making them poor stores of value.",
+     "answer": "They are perishable and non-uniform, so they cannot serve as a reliable medium of exchange."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the stages in the evolution of money.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did metallic coins become more popular than commodity money?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write a short note on digital money.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.3",
+   "title": "Functions of Money",
+   "section": "Functions of Money",
+   "definition": "Money acts as a medium of exchange, a measure of value, a store of value, and a standard for deferred payments in an economy.",
+   "formula": "",
+   "key_idea": "Money solves the problems of barter by serving as a universally accepted medium and measure of value.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list the main functions of money",
+    "explain money as a medium of exchange",
+    "how does money act as a measure or unit of value",
+    "why is money called a store of value",
+    "explain the role of money as a standard for deferred payments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify medium of exchange",
+     "explain": "Money is accepted by all in exchange for goods and services, removing the need for double coincidence of wants."
+    },
+    {
+     "step": 2,
+     "action": "identify measure and store of value",
+     "explain": "Money measures the value of all goods in a common unit and can be saved for future use without perishing."
+    },
+    {
+     "step": 3,
+     "action": "identify standard for deferred payments",
+     "explain": "Money allows debts and future payments to be expressed and settled in a stable unit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A shopkeeper sells rice for money instead of exchanging it for other goods. Which function of money is this?",
+     "solution": "Accepting money for goods shows money acting as a medium of exchange.",
+     "answer": "Medium of exchange."
+    },
+    {
+     "question": "A worker saves part of his salary in a bank for future use. Which function of money does this illustrate?",
+     "solution": "Saving money for later use shows money as a store of value.",
+     "answer": "Store of value."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the four main functions of money.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how money acts as a measure of value.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe with an example how money is used as a standard for deferred payments.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.4",
+   "title": "Types of Money: Coins, Paper and Digital",
+   "section": "Types of Money",
+   "definition": "Money exists in different forms such as metallic coins, paper currency notes, and digital or electronic money used in modern transactions.",
+   "formula": "",
+   "key_idea": "Different forms of money serve the same basic purpose of exchange but differ in convenience and technology.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the different types of money used today",
+    "distinguish between coins and paper currency",
+    "what is digital money and how is it used",
+    "explain the difference between cash and digital money",
+    "give examples of digital payment methods in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe metallic coins",
+     "explain": "Coins are made of metal for small-value transactions and are durable and long-lasting."
+    },
+    {
+     "step": 2,
+     "action": "describe paper currency",
+     "explain": "Paper notes carry higher value, are light to carry, and are issued and regulated by the government or central bank."
+    },
+    {
+     "step": 3,
+     "action": "describe digital money",
+     "explain": "Digital money exists electronically and is transferred through cards, UPI, and net banking without physical cash."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify each as coin, paper currency, or digital money: a 5 rupee coin, a 500 rupee note, a UPI payment.",
+     "solution": "A 5 rupee coin is metallic coin, a 500 rupee note is paper currency, and a UPI payment is digital money.",
+     "answer": "Coin, paper currency, digital money respectively."
+    },
+    {
+     "question": "Why are paper notes preferred over coins for large payments?",
+     "solution": "Paper notes are lighter and easier to carry for large values compared to heavy coins.",
+     "answer": "Paper notes are lighter and more convenient for large-value payments."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three types of money with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is digital money? Give two examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare coins and paper currency in terms of convenience.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.5",
+   "title": "Properties of Good Money",
+   "section": "Properties of Good Money",
+   "definition": "Good money should be generally acceptable, durable, portable, divisible, uniform in quality, and stable in value.",
+   "formula": "",
+   "key_idea": "The qualities of good money ensure it can function efficiently as a medium of exchange and store of value.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list the qualities of good money",
+    "why should money be generally acceptable",
+    "explain why divisibility is an important property of money",
+    "why is portability important for money",
+    "how does stability of value affect the usefulness of money"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list acceptability and durability",
+     "explain": "Money must be accepted by everyone and last long without wearing out quickly."
+    },
+    {
+     "step": 2,
+     "action": "list portability and divisibility",
+     "explain": "Money should be easy to carry and divisible into smaller units for transactions of different sizes."
+    },
+    {
+     "step": 3,
+     "action": "list uniformity and stability",
+     "explain": "All units of money should be uniform in quality and its value should remain stable over time."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is gold considered good money compared to perishable grains?",
+     "solution": "Gold is durable, divisible, uniform, portable, and generally acceptable, unlike perishable grains.",
+     "answer": "Gold has durability, divisibility, uniformity, portability, and acceptability."
+    },
+    {
+     "question": "A currency note loses value rapidly due to inflation. Which property of good money is violated?",
+     "solution": "Rapid loss of value violates the stability of value property.",
+     "answer": "Stability of value."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any five qualities of good money.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why divisibility is important for money.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss why general acceptability is the most important quality of money.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.6",
+   "title": "Role of Money in Modern Economy",
+   "section": "Money in the Modern Economy",
+   "definition": "Money enables large-scale trade, specialization of labour, saving and investment, and economic growth in a modern economy.",
+   "formula": "",
+   "key_idea": "Money facilitates specialization and exchange, which are the foundations of a modern economy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the role of money in a modern economy",
+    "how does money help in specialization of labour",
+    "how does money facilitate saving and investment",
+    "why is money important for large-scale trade",
+    "how does money contribute to economic growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain money and specialization",
+     "explain": "Money lets people specialize in one job and buy other goods, increasing productivity."
+    },
+    {
+     "step": 2,
+     "action": "explain saving and investment",
+     "explain": "Money can be saved and invested in production, which drives economic growth."
+    },
+    {
+     "step": 3,
+     "action": "explain large-scale trade",
+     "explain": "Money enables trade across regions and countries by providing a common medium of exchange."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer sells crops for money and buys tools, clothes, and food. How does money help here?",
+     "solution": "Money allows the farmer to specialize in farming and buy other goods he needs.",
+     "answer": "Money enables specialization and exchange of goods."
+    },
+    {
+     "question": "How does money help a factory owner expand production?",
+     "solution": "The owner can save money and invest it in new machines and workers.",
+     "answer": "Money enables saving and investment for expansion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does money help in specialization of labour?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how money facilitates saving and investment.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the role of money in promoting economic growth.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.7",
+   "title": "Banking and Money",
+   "section": "Banking and Money",
+   "definition": "Banks accept deposits, lend money, and provide services like cheques, ATMs, and digital transfers that expand the use of money beyond cash.",
+   "formula": "",
+   "key_idea": "Banks make money safer and more useful by storing deposits and enabling payments without physical cash.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main functions of a bank",
+    "how do banks help in safekeeping of money",
+    "explain how banks lend money to people",
+    "what is the role of banks in digital payments",
+    "how do banks support the modern money system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe deposit function",
+     "explain": "Banks accept deposits from people and keep their money safe while paying interest."
+    },
+    {
+     "step": 2,
+     "action": "describe lending function",
+     "explain": "Banks lend deposited money to borrowers who need funds for business or personal use."
+    },
+    {
+     "step": 3,
+     "action": "describe payment services",
+     "explain": "Banks enable cheques, ATMs, and digital transfers that reduce the need to carry cash."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student deposits 1000 rupees in a bank account. What benefit does the bank provide?",
+     "solution": "The bank keeps the money safe and pays interest, and the student can withdraw it anytime.",
+     "answer": "Safekeeping of money with interest and easy withdrawal."
+    },
+    {
+     "question": "A shopkeeper receives payment through a bank transfer instead of cash. Which banking service is used?",
+     "solution": "This uses the digital payment or fund transfer service of the bank.",
+     "answer": "Digital fund transfer service of the bank."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any three functions of a bank.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do banks help people keep money safe?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of banks in supporting digital payments.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.8",
+   "title": "Comparison of Barter and Money Systems",
+   "section": "Barter vs Money",
+   "definition": "A comparison showing that money overcomes the limitations of barter such as double coincidence of wants, lack of common measure, and difficulty in storing wealth.",
+   "formula": "",
+   "key_idea": "Money is a more efficient system than barter because it provides a common medium, measure, and store of value.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compare barter system and money system",
+    "state two differences between barter and money exchange",
+    "why is money exchange better than barter exchange",
+    "how does money remove the problem of double coincidence of wants",
+    "compare the storage of wealth in barter and money economies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare medium of exchange",
+     "explain": "Barter needs direct exchange of goods while money provides a common medium accepted by all."
+    },
+    {
+     "step": 2,
+     "action": "compare measure of value",
+     "explain": "Barter has no common measure of value, while money gives a uniform unit to price all goods."
+    },
+    {
+     "step": 3,
+     "action": "compare storage and deferred payment",
+     "explain": "Money can be stored without perishing and used for future payments, unlike perishable barter goods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a barter system a farmer must find a weaver who wants rice. How does money solve this?",
+     "solution": "The farmer sells rice for money and uses the money to buy cloth from any weaver.",
+     "answer": "Money removes the need for double coincidence of wants."
+    },
+    {
+     "question": "State one way money is better than barter for storing wealth.",
+     "solution": "Money does not perish and can be saved for a long time, unlike goods in barter.",
+     "answer": "Money is a better store of value because it does not perish."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write two differences between barter and money systems.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does money solve the problem of double coincidence of wants?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare barter and money systems in terms of storage of wealth and deferred payments.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.11.9",
+   "title": "Computing Value of Goods in Terms of Money",
+   "section": "Money as a Measure of Value",
+   "definition": "Using money as a common unit, the value of different goods can be expressed and compared, and the total value of a set of goods can be computed.",
+   "formula": "total_value = sum(price_i x quantity_i)",
+   "key_idea": "Money allows us to add the value of different goods by multiplying price by quantity and summing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the total value of goods given their prices and quantities",
+    "find the total money needed to buy a list of items",
+    "compute the total cost of a basket of goods using money",
+    "determine the money value of a set of products",
+    "add up the value of different goods using their unit prices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply price by quantity for each good",
+     "explain": "For each good, multiply its unit price by the quantity purchased to get its value."
+    },
+    {
+     "step": 2,
+     "action": "sum the values of all goods",
+     "explain": "Add the value of each good to get the total money value of the basket."
+    },
+    {
+     "step": 3,
+     "action": "state the total in the currency unit",
+     "explain": "Express the final total as the amount of money required to buy all the goods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person buys 2 kg rice at 50 rupees per kg and 3 kg wheat at 40 rupees per kg. Find the total money spent.",
+     "solution": "Rice value = 2 x 50 = 100; wheat value = 3 x 40 = 120; total = 100 + 120 = 220 rupees.",
+     "answer": "220 rupees"
+    },
+    {
+     "question": "Find the total value of 4 notebooks at 30 rupees each and 2 pens at 15 rupees each.",
+     "solution": "Notebooks = 4 x 30 = 120; pens = 2 x 15 = 30; total = 120 + 30 = 150 rupees.",
+     "answer": "150 rupees"
+    },
+    {
+     "question": "A basket has 5 litres of milk at 60 rupees per litre and 1 kg sugar at 45 rupees. Compute the total cost.",
+     "solution": "Milk = 5 x 60 = 300; sugar = 1 x 45 = 45; total = 300 + 45 = 345 rupees.",
+     "answer": "345 rupees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the total cost of 3 kg apples at 80 rupees per kg and 2 kg grapes at 60 rupees per kg.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the total money needed to buy 5 pens at 20 rupees each and 4 notebooks at 25 rupees each.",
+     "type": "compute"
+    },
+    {
+     "question": "Compute the total value of 6 litres of oil at 120 rupees per litre and 3 kg rice at 50 rupees per kg.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_009",
+   "title": "c11_acc_cbse_06_009",
+   "questions": [
+    {
+     "q": "A student states: \"All errors are rectified by passing a journal entry through Suspense Account.\" Is this statement correct? Explain why or why not in one sentence.",
+     "a": "The statement is incorrect. Only one-sided errors (affecting trial balance agreement) require Suspense Account for rectification; two-sided errors (not affecting trial balance) are rectified by a direct journal entry between the two affected accounts without involving Suspense Account. A wrong answer reveals the student cannot distinguish between errors that disturb the trial balance equality and those that do not.",
+     "self_check": true
+    },
+    {
+     "q": "Credit sales to Mohan ₹10,000 were recorded in the Sales Book as ₹1,000. The student writes the rectification entry as: Mohan's A/c Dr. ₹9,000 To Sales A/c ₹9,000. However, the trial balance has already been prepared and a Suspense Account exists. Identify the flaw in this entry and write the correct rectification entry.",
+     "a": "The flaw is using a direct two-sided entry when the trial balance is already prepared and a Suspense Account exists for the difference caused by this one-sided error. The correct entry is: Mohan's A/c Dr. ₹9,000 To Suspense A/c ₹9,000. A wrong answer indicates the student does not understand that once a Suspense Account is opened, all one-sided error rectifications must route through it to eventually close the Suspense Account.",
+     "self_check": true
+    },
+    {
+     "q": "A bookkeeper debited Wages Account ₹5,000 for wages paid for installation of new machinery. The trial balance is already prepared and tallied (no Suspense Account). Pass the rectification entry and explain why this error did not affect the trial balance.",
+     "a": "Rectification entry: Machinery A/c Dr. ₹5,000 To Wages A/c ₹5,000. This is an error of principle (capital expenditure treated as revenue) affecting two accounts (Machinery and Wages) with equal and opposite wrong effects, so debits still equal credits. The trial balance remains tallied. A wrong answer (e.g., using Suspense Account) shows the student confuses errors of principle with one-sided errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rectification entries for the following two errors when the trial balance has been prepared and a Suspense Account exists:\n(a) Purchases Book overcast by ₹2,000.\n(b) Credit purchases from Rohan ₹5,000 recorded in Sales Book.\nExplain why the Suspense Account appears in one entry but not the other.",
+     "a": "(a) Suspense A/c Dr. ₹2,000 To Purchases A/c ₹2,000 (one-sided error: only Purchases account affected).\n(b) Purchases A/c Dr. ₹5,000; Sales A/c Dr. ₹5,000 To Rohan's A/c ₹10,000 (two-sided error: two accounts wrongly affected, Suspense not needed).\nSuspense Account appears only for one-sided errors because they create the imbalance that Suspense was opened to absorb; two-sided errors maintain debit-credit equality and are corrected directly. A wrong answer reveals inability to classify errors by their effect on trial balance agreement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If the Suspense Account balance is ₹10,000 (debit) after rectifying all detected errors, it means there are no more errors in the books.\" Defend or refute with reasoning.",
+     "a": "The statement is false. A remaining balance in Suspense Account indicates undetected one-sided errors still exist. The Suspense Account will only close (balance to zero) when ALL one-sided errors are located and rectified. Two-sided errors (like errors of principle or complete omission) do not affect Suspense Account at all and can remain undetected even if Suspense Account is zero. A wrong answer shows the student thinks Suspense Account balance is a comprehensive error detector.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario involving three distinct errors: one error of principle, one error of commission (one-sided), and one error of complete omission. Write the rectification entries assuming the trial balance has already been prepared and a Suspense Account exists with a credit balance of ₹8,000.",
+     "a": "Scenario: (1) Furniture purchased ₹20,000 debited to Purchases Account (error of principle). (2) Sales Book overcast by ₹3,000 (one-sided commission). (3) Credit sales to Meena ₹7,000 completely omitted (complete omission).\nRectification entries:\n(1) Furniture A/c Dr. ₹20,000 To Purchases A/c ₹20,000 (no Suspense).\n(2) Suspense A/c Dr. ₹3,000 To Sales A/c ₹3,000 (one-sided).\n(3) Meena's A/c Dr. ₹7,000 To Sales A/c ₹7,000 (two-sided).\nA poor answer would incorrectly route the principle error or omission through Suspense Account, or miscalculate the one-sided error amount.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

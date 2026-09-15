@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_003",
+   "title": "c10_geo_cbse_02_003",
+   "questions": [
+    {
+     "q": "List four major human activities that directly cause forest depletion in India, as identified in the NCERT textbook.",
+     "a": "The four major human activities are: (1) Agricultural expansion (including shifting cultivation), (2) Mining and quarrying, (3) Large-scale development projects (dams, highways, railways), and (4) Overgrazing by livestock. A wrong answer that lists only 'deforestation' or 'cutting trees' reveals the student cannot distinguish between the underlying drivers (why trees are cut) and the act itself — a common board exam error where students describe the symptom rather than the cause.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why shifting cultivation (jhum) in Northeastern India leads to forest depletion today, whereas it was sustainable historically. Identify the specific change that turned it into a depletion driver.",
+     "a": "Historically, jhum had a long fallow cycle (15–20 years) allowing forest regeneration; today, population pressure has shortened the cycle to 2–3 years, preventing soil recovery and forest regrowth, leading to permanent degradation. A wrong answer that blames shifting cultivation outright without mentioning the reduced fallow period reveals the student misses the critical nuance: it is not the practice itself but the intensified frequency driven by demographic pressure that causes depletion — a distinction CBSE marking schemes explicitly reward.",
+     "self_check": true
+    },
+    {
+     "q": "A mining lease is granted in a forested area of Chhattisgarh. The Environmental Impact Assessment (EIA) report states that 120 hectares of dense forest will be diverted. If the compensatory afforestation policy requires planting trees on double the degraded area, how many hectares of non-forest land must be identified for afforestation? Show the calculation and name the policy.",
+     "a": "Step 1: Identify the forest area diverted = 120 hectares. Step 2: Recall the Compensatory Afforestation Fund Act (CAF Act), 2016 mandates afforestation on double the diverted area. Step 3: Calculate 120 × 2 = 240 hectares. Step 4: The land must be non-forest or degraded forest land. Answer: 240 hectares of non-forest land. A wrong answer of 120 hectares reveals the student doesn't know the 'double the area' rule — a specific policy detail tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of railway expansion in the colonial period (e.g., sleepers for tracks) with modern highway projects (e.g., NH-7 widening through Kanha-Pench corridor) on forest fragmentation. Which causes more long-term ecological damage and why?",
+     "a": "Modern highways cause more long-term damage because they create permanent linear barriers that fragment habitats, disrupt animal movement corridors (like the Kanha-Pench tiger corridor), and enable ongoing human access (poaching, settlements), whereas colonial railways, while extracting timber, did not create the same persistent barrier effect or corridor fragmentation. A wrong answer equating both reveals the student cannot analyze the difference between resource extraction (colonial) and landscape fragmentation (modern) — a key analytical distinction in CBSE competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Poaching is the primary cause of wildlife depletion in India.\" Use evidence from at least two species (e.g., tiger, rhino, elephant) to support or refute.",
+     "a": "The statement is partially true but incomplete. Poaching is the primary direct cause for species with high commercial value (tiger for bones/skin, rhino for horn), but for elephants, habitat loss and human-elephant conflict (from agricultural expansion and fragmentation) are equally or more significant drivers. A wrong answer that agrees without qualification reveals the student generalizes across species — CBSE expects species-specific reasoning linking cause to conservation status (c10_geo_cbse_02_002).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map of India showing three depletion hotspots: one for mining (Central India), one for shifting cultivation (Northeast), and one for infrastructure fragmentation (Central Indian tiger corridors). For each, write a one-sentence cause-effect annotation linking the driver to a specific species impact.",
+     "a": "A good answer includes: (1) Central India (Chhattisgarh/Jharkhand) — \"Iron ore mining in Bailadila destroys sal forests → fragments habitat of wild buffalo (Endangered).\" (2) Northeast (Nagaland/Mizoram) — \"Shortened jhum cycles on steep slopes → soil erosion and loss of bamboo cover → decline of hoolock gibbon (Endangered).\" (3) Central Indian corridor (Madhya Pradesh/Maharashtra) — \"NH-7 widening severs Kanha-Pench corridor → isolates tiger populations → genetic bottleneck risk.\" A poor answer uses generic labels like \"deforestation\" without linking driver-species-mechanism — failing the CBSE requirement for geographical reasoning in map work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

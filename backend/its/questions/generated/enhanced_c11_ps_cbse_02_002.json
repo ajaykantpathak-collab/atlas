@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_002",
+   "title": "c11_ps_cbse_02_002",
+   "questions": [
+    {
+     "q": "According to Isaiah Berlin's concept of negative liberty, what constitutes the core criterion for an individual to be considered 'free' in the negative sense?",
+     "a": "The core criterion is the absence of external constraints or interference by other agents (individuals, groups, or the state) within a defined minimum area of non-interference. A wrong answer (e.g., \"freedom to achieve one's potential\" or \"freedom from internal fears\") reveals confusion with positive liberty (self-mastery) or Aung San Suu Kyi's 'freedom from fear', indicating the student has not grasped the strictly external, structural nature of negative liberty.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the negative liberty tradition insist on a 'minimum area of non-interference' that is 'sacred' and inviolable, rather than simply maximizing the total area of freedom?",
+     "a": "Because human nature and dignity require a guaranteed sphere where the individual can act unobstructed to 'do, be, or become' without which autonomy collapses; maximizing total area without a protected floor risks tyranny of the majority eroding core liberties. A wrong answer (e.g., \"to maximize happiness\" or \"to allow the state to control the rest\") reveals a utilitarian or authoritarian misunderstanding, missing the deontological foundation that dignity precedes utility.",
+     "self_check": true
+    },
+    {
+     "q": "A state passes a law banning all religious symbols in public schools to promote secular equality. Using negative liberty framework, analyze whether this law violates the student's negative liberty. Identify the specific condition under which such a ban might be justifiable per the harm principle.",
+     "a": "Yes, it violates negative liberty because it imposes an external constraint on self-regarding action (choice of dress/expression) within the minimum area. It is only justifiable if the symbol causes 'serious harm' to others (e.g., inciting violence), not merely offense or abstract equality goals. A wrong answer (e.g., \"it's justified because equality is more important\" or \"it's never justified\") reveals either a confusion with positive liberty's egalitarian goals or an absolutist libertarian stance ignoring Mill's 'serious harm' threshold for other-regarding actions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constraint imposed by a traffic signal (red light) with a state ban on a book. Using negative liberty, explain why the former is typically accepted as a justifiable constraint while the latter is viewed as a violation of the 'minimum area'.",
+     "a": "The traffic signal regulates other-regarding actions (driving) where non-compliance causes direct, serious physical harm to definite others; the book ban targets self-regarding expression (reading/writing) where harm is speculative, indirect, or ideological. A wrong answer (e.g., \"both are state constraints so both violate negative liberty\" or \"both are justified for order\") reveals failure to apply the self-regarding vs other-regarding distinction and the 'serious harm' criterion, treating all constraints as equal.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Negative liberty is sufficient for a free society because if the state simply stops interfering, individuals will automatically flourish.\" Use the NCERT's discussion of social/economic constraints (caste, poverty) to critique this claim.",
+     "a": "The claim is insufficient; negative liberty only removes external coercion but ignores structural constraints (caste hierarchy, extreme poverty) that internally limit the capacity to choose. The NCERT notes constraints can arise from social inequality, not just state force. A wrong answer (e.g., \"yes, state non-interference is enough\" or \"no, the state must provide everything\") reveals either a libertarian blind spot to structural unfreedom or a conflation with positive liberty's enabling conditions, missing the nuanced distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving a modern digital constraint (e.g., algorithmic censorship, mandatory biometric ID for internet access) and apply the negative liberty framework to determine if it constitutes a violation of the 'minimum area of non-interference'. Justify your boundary drawing.",
+     "a": "Scenario: A government mandates real-name registration for all social media to curb anonymity. Violation? Yes, if it chills self-regarding political dissent (core minimum area) without proving 'serious harm' from anonymity itself. No, if narrowly targeted at verified impersonation fraud (other-regarding harm). A poor answer (e.g., \"it's fine for security\" or \"any ID is tyranny\") reveals inability to apply the harm principle contextually or to distinguish the 'minimum area' (political speech) from regulated commercial activity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

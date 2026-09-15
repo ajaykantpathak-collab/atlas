@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_002",
+   "title": "c7_math_ch13_002",
+   "questions": [
+    {
+     "q": "What is the primary purpose of using tally marks in a frequency table when organizing a large dataset?",
+     "a": "The correct answer is to keep an accurate, organized count of each individual data value as you scan through a messy list without missing or double-counting items. A student who answers that tally marks are used to calculate the final mean or average shows a confusion between data organization and representative values. A student who says they are used to draw bar graphs skips the intermediate counting step.",
+     "self_check": true
+    },
+    {
+     "q": "When recording tally marks for a count of 7, how should the vertical strokes be grouped according to standard convention?",
+     "a": "The correct answer is that the first 5 strokes should be grouped together with the fifth stroke crossing the previous four diagonally (HI), followed by 2 separate vertical strokes (I I), making it HI I I. A student who draws 7 straight vertical lines side-by-side (IIIIIII) fails to use standard grouping, which makes it very difficult to count large frequencies quickly. Misinterpreting tally groupings leads directly to counting errors in the frequency column.",
+     "self_check": true
+    },
+    {
+     "q": "A student records the shoe sizes of 15 classmates as: 5, 6, 5, 7, 6, 6, 5, 8, 7, 6, 5, 6, 7, 5, 6. Construct the frequency for shoe size 6. What is the frequency?",
+     "a": "The correct answer is a frequency of 6. Working steps: 1) Scan the dataset specifically for the number 6. 2) Count each occurrence: first occurrence at position 2, second at position 5, third at position 6, fourth at position 10, fifth at position 12. Wait, let's recount carefully: 5, 6(1), 5, 7, 6(2), 6(3), 5, 8, 7, 6(4), 5, 6(5), 7, 5, 6(6). Total occurrences of 6 equal 6. A student who writes 5 likely miscounted or skipped one of the sixes due to messy scanning of the raw list.",
+     "self_check": true
+    },
+    {
+     "q": "If a dataset contains 25 total entries, what mathematical check must you always perform on the sum of the frequency column in your frequency table to ensure your work is correct?",
+     "a": "The correct answer is that the sum of all individual frequencies must equal the total number of data entries (25 in this case). A student who checks whether the frequency numbers are in ascending order demonstrates a misunderstanding, because frequencies do not need to be ordered sequentially. Failing to check $\\sum f = N$ means counting errors will go unnoticed.",
+     "self_check": true
+    },
+    {
+     "q": "Look at this frequency table for pet types owned by students: Dog (Tally: HI III, Frequency: 8), Cat (Tally: HI I, Frequency: 6), Bird (Tally: III, Frequency: 3). The total number of students surveyed is stated as 20. Is this frequency table consistent with the total? Justify your answer.",
+     "a": "The correct answer is NO, the table is inconsistent because the sum of the frequencies is $8 + 6 + 3 = 17$, whereas the total number of students surveyed is 20. A student who answers YES without adding the frequencies fails to verify consistency between the raw data count and the tabulated entries. This error highlights a failure to cross-check subtotals against the grand total.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small frequency table for a dataset of 12 test scores ranging between 10 and 13 marks, ensuring that one score has a frequency of exactly 5. Write out both the raw data and the resulting frequency table.",
+     "a": "The expected answer consists of a raw dataset of 12 numbers where a specific score (e.g., 12) appears 5 times, and a neatly formatted table with columns: Score, Tally, and Frequency, where the sum of frequencies equals 12. A poor answer would provide a dataset whose numbers do not match the frequencies or whose total frequency does not equal 12, showing a lack of structural understanding of frequency distribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

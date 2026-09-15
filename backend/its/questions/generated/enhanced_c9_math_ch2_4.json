@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_4",
+   "title": "c9_math_ch2_4",
+   "questions": [
+    {
+     "q": "What is the general form of a linear equation that models growth or decay? State the meaning of each term in the equation.",
+     "a": "The general form is \\(y = mx + c\\), where \\(m\\) is the constant rate of change (growth if \\(m > 0\\), decay if \\(m < 0\\)) and \\(c\\) is the initial value when \\(x = 0\\). A wrong answer such as \\(y = mx^2 + c\\) or \\(y = a \\cdot b^x\\) reveals confusion between linear, quadratic, and exponential relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a situation where a car's value decreases by ₹10,000 every year is a linear decay, but a situation where it decreases by 10% every year is not.",
+     "a": "Linear decay means a constant absolute decrease per year (₹10,000), so the graph is a straight line with slope \\(-10,000\\). A 10% decrease means the amount lost each year shrinks (10% of a smaller value), which is exponential decay; the graph is a curve. A wrong answer indicates the student confuses constant absolute change with constant relative change.",
+     "self_check": true
+    },
+    {
+     "q": "A water tank initially contains 500 litres. Water leaks out at a constant rate of 12 litres per hour. Write the linear equation for the volume \\(V\\) after \\(t\\) hours. Find the volume after 15 hours and the time when the tank becomes empty.",
+     "a": "Equation: \\(V = 500 - 12t\\). After 15 hours: \\(V = 500 - 12 \\times 15 = 500 - 180 = 320\\) litres. Empty when \\(V = 0\\): \\(0 = 500 - 12t \\Rightarrow 12t = 500 \\Rightarrow t = \\frac{500}{12} \\approx 41.67\\) hours. A wrong answer like \\(V = 500 - 12t^2\\) reveals misunderstanding of constant rate as a linear (not quadratic) term.",
+     "self_check": true
+    },
+    {
+     "q": "Two plants grow linearly. Plant A: height = \\(10 + 2t\\) cm. Plant B: height = \\(5 + 3t\\) cm (\\(t\\) in weeks). After how many weeks will they be the same height? Which plant grows faster? Explain.",
+     "a": "Set \\(10 + 2t = 5 + 3t \\Rightarrow t = 5\\) weeks. Plant B grows faster because its slope (3 cm/week) is greater than Plant A's slope (2 cm/week). A wrong answer (e.g., adding slopes or equating intercepts) reveals inability to interpret slope as rate of change and to solve simultaneous linear equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student models the growth of a bacterial culture as linear: \"Population = 100 + 50t\" where \\(t\\) is in hours. The teacher says this model is only valid for a short time. Why? Is the student's equation correct for linear growth? Evaluate.",
+     "a": "Bacterial growth is typically exponential, not linear, so a linear model is only an approximation for a very short period. The equation is correctly structured for linear growth (constant increase of 50 per hour), but the assumption of linear growth is biologically unrealistic for long periods. A wrong evaluation (e.g., saying the equation is wrong because the slope should be negative) shows confusion between model structure and model appropriateness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that involves linear decay. Write the linear equation, define variables, and ask two questions that require using the equation.",
+     "a": "Example: \"A scooter's value depreciates by ₹3,000 per year. Initial value ₹45,000. Equation: \\(V = 45000 - 3000t\\), where \\(V\\) is value in rupees and \\(t\\) is time in years. Questions: (1) Value after 5 years? (2) After how many years will value be ₹15,000?\" A poor answer might give an exponential decay problem, not define variables clearly, or use a percentage decrease instead of a constant amount.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,710 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 5,
+  "chapter_title": "Government Budget and the Economy",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.105.1.1",
+      "title": "Objectives of the Government Budget: Allocation, Redistribution, Stabilisation",
+      "section": "5.1.1",
+      "definition": "Through its budget the government directs resources toward goods markets fail to supply, reshapes the income distribution via taxes and transfers, and leans against booms and slumps by managing aggregate demand.",
+      "formula": "budget_functions = allocation + redistribution + stabilisation",
+      "key_idea": "The budget is the state's instrument for supplying public goods, evening out incomes and steadying the economy.",
+      "textbook_ref": "leec105.txt, section 5.1.1, pages 67-68",
+      "question_patterns": [
+        "name the three functions a government budget performs",
+        "how does the budget redistribute income among households",
+        "explain the stabilisation role of government spending and taxation",
+        "why must the state allocate resources to some goods itself",
+        "show how taxes and transfers change personal disposable income",
+        "when would the government act to raise or restrain aggregate demand"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spot the allocation task",
+          "explain": "Defence, roads and administration would be undersupplied by markets, so budgetary finance must provide them."
+        },
+        {
+          "step": 2,
+          "action": "Spot the redistribution task",
+          "explain": "Progressive taxation and transfer payments shift purchasing power toward groups society judges to need it."
+        },
+        {
+          "step": 3,
+          "action": "Spot the stabilisation task",
+          "explain": "Because wages and prices adjust slowly, the government expands demand in slumps and restrains it in inflationary booms."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.1.2",
+      "title": "Public Goods versus Private Goods and the Free-Rider Problem",
+      "section": "5.1.1",
+      "definition": "A public good is consumed jointly - one person's enjoyment does not diminish another's, and nobody can be barred from its benefits - so non-payers ride free and private firms will not supply it, leaving provision to the government budget.",
+      "formula": "public_good = non_rivalrous + non_excludable",
+      "key_idea": "Non-rivalry and non-excludability break the payment link, so markets starve public goods and the state must step in.",
+      "textbook_ref": "leec105.txt, section 5.1.1, public goods discussion and free riders, page 67",
+      "question_patterns": [
+        "why must public goods be provided by the government rather than private firms",
+        "state the two features that set public goods apart from private goods",
+        "explain the free rider problem with an example",
+        "why can no one be excluded from the benefits of a public park or clean air",
+        "contrast rivalry and excludability for a shirt and for street lighting",
+        "distinguish public provision of a good from public production of it"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test for rivalry",
+          "explain": "If one person's use leaves less for others, the good is a private one; shared benefits at full availability mark a public good."
+        },
+        {
+          "step": 2,
+          "action": "Test for excludability",
+          "explain": "Where collecting fees from every beneficiary is impossible, non-payers cannot be kept out."
+        },
+        {
+          "step": 3,
+          "action": "Draw the supply conclusion",
+          "explain": "Free riders break the producer-consumer payment link, so the budget finances the good even though private agents may help produce it."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.1.3",
+      "title": "Revenue Receipts: Tax and Non-Tax Revenue",
+      "section": "5.1.2",
+      "definition": "Receipts that create no claim on the government are revenue receipts; they comprise tax revenue - direct taxes on incomes and profits plus indirect taxes on goods and services - and non-tax items such as interest, dividends, fees and grants received.",
+      "formula": "revenue_receipts = tax_revenue + non_tax_revenue",
+      "key_idea": "If a receipt neither borrows nor sells assets, it is revenue, whether taxed or earned.",
+      "textbook_ref": "leec105.txt, section 5.1.2, revenue receipts classification, pages 68-69",
+      "question_patterns": [
+        "classify government receipts into tax and non-tax revenue with examples",
+        "how do direct taxes differ from indirect taxes",
+        "why are revenue receipts called non-redeemable",
+        "list the sources of non-tax revenue of the central government",
+        "place excise duty customs duty and corporation tax in the right category",
+        "which receipts of the government create no liability and reduce no assets"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Apply the non-redeemable test",
+          "explain": "A receipt that neither creates a repayment obligation nor lowers an asset is a revenue receipt."
+        },
+        {
+          "step": 2,
+          "action": "Split the tax stream",
+          "explain": "Direct taxes fall on incomes and firm profits; indirect taxes such as GST, excise and customs ride on goods and services."
+        },
+        {
+          "step": 3,
+          "action": "Collect the non-tax stream",
+          "explain": "Interest on government loans, dividends, fees, fines and foreign grants complete revenue receipts."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.1.4",
+      "title": "Capital Receipts: Debt-Creating and Non-Debt-Creating",
+      "section": "5.1.2",
+      "definition": "Receipts that either build a repayment obligation or shrink the government's assets are capital receipts: borrowings create future liability, while recovery of loans and sale of PSU shares merely reduce financial assets without borrowing.",
+      "formula": "capital_receipts = borrowings + recovery_of_loans + disinvestment_proceeds",
+      "key_idea": "Any receipt that raises a liability or sells off an asset is capital, and only the borrowing part creates debt.",
+      "textbook_ref": "leec105.txt, section 5.1.2, capital receipts paragraph, page 69",
+      "question_patterns": [
+        "what makes a receipt a capital receipt",
+        "why does borrowing create a liability while disinvestment does not",
+        "classify recovery of loans and sale of PSU shares as capital receipts",
+        "which capital receipts add to government debt and which do not",
+        "give examples of non-debt creating capital receipts",
+        "how does selling a government asset affect future earnings"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test for liability creation",
+          "explain": "Fresh borrowing must be repaid with interest, so it is a debt-creating capital receipt."
+        },
+        {
+          "step": 2,
+          "action": "Test for asset reduction",
+          "explain": "Loan recoveries and PSU disinvestment bring in cash by shrinking financial assets, not by borrowing."
+        },
+        {
+          "step": 3,
+          "action": "Separate the two kinds",
+          "explain": "Capital receipts split into debt-creating (borrowings) and non-debt-creating (recoveries, disinvestment) - a split that matters for the fiscal deficit."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.1.5",
+      "title": "Revenue Expenditure versus Capital Expenditure",
+      "section": "5.1.3",
+      "definition": "Spending that neither builds any asset nor cuts a liability - salaries, subsidies, interest, grants - is revenue expenditure, while outlays that create assets such as land, buildings and machinery or that repay liabilities are capital expenditure.",
+      "formula": "total_expenditure = revenue_expenditure + capital_expenditure",
+      "key_idea": "Ask whether the outlay leaves behind an asset or removes a liability; if not, it is revenue spending.",
+      "textbook_ref": "leec105.txt, section 5.1.3, expenditure classification, pages 69-70",
+      "question_patterns": [
+        "separate revenue expenditure from capital expenditure with examples",
+        "why are interest payments counted as revenue expenditure",
+        "is a loan given to a state government revenue or capital spending",
+        "which expenditure builds assets for the government",
+        "classify salaries subsidies and land purchase into the two heads",
+        "how does the asset-creation test sort government spending"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Apply the asset test",
+          "explain": "Outlays on land, buildings, machinery, shares and loans advanced create assets, so they are capital expenditure."
+        },
+        {
+          "step": 2,
+          "action": "Apply the liability-reduction test",
+          "explain": "Repaying past loans lowers liabilities and therefore also counts as capital expenditure."
+        },
+        {
+          "step": 3,
+          "action": "Sweep the rest into revenue",
+          "explain": "Day-to-day running costs, interest due, subsidies and most grants create no asset, so they are revenue expenditure."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.2.1",
+      "title": "Balanced, Surplus and Deficit Budget",
+      "section": "5.2",
+      "definition": "Matching total spending with total receipts balances the budget; receipts above spending leave a surplus, and the common case of spending above receipts is a deficit that must be met by borrowing.",
+      "formula": "budget_balance = total_receipts - total_expenditure",
+      "key_idea": "The sign of receipts minus spending labels the budget as balanced, surplus or deficit.",
+      "textbook_ref": "leec105.txt, section 5.2, page 71",
+      "question_patterns": [
+        "define balanced surplus and deficit budgets",
+        "find whether a budget is in surplus or deficit from receipts and spending",
+        "what does a zero budget balance signify",
+        "compute the budget balance when revenue and capital figures are given",
+        "which budget situation forces the government to borrow",
+        "why is the deficit the most common budgetary position"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Net receipts against spending",
+          "explain": "Subtracting total expenditure from total receipts gives the budget balance.",
+          "compute": "budget_balance = total_receipts - total_expenditure"
+        },
+        {
+          "step": 2,
+          "action": "Read the sign",
+          "explain": "A positive balance is a surplus, zero is balanced, and a negative balance is a deficit equal to the borrowing need."
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Balanced, Surplus and Deficit Budget, compute the result for total_receipts = 3, total_expenditure = 3.",
+          "solution": "Step 1: Net receipts against spending: budget_balance = total_receipts - total_expenditure = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Balanced, Surplus and Deficit Budget, compute the result for total_receipts = 4, total_expenditure = 4.",
+          "solution": "Step 1: Net receipts against spending: budget_balance = total_receipts - total_expenditure = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.2.2",
+      "title": "Revenue Deficit",
+      "section": "5.2.1",
+      "definition": "The gap by which revenue expenditure outruns revenue receipts is the revenue deficit; it shows the government is dissaving and borrowing to fund everyday consumption rather than asset creation.",
+      "formula": "revenue_deficit = revenue_expenditure - revenue_receipts",
+      "key_idea": "A revenue deficit means borrowed money is financing consumption, a warning about expenditure quality.",
+      "textbook_ref": "leec105.txt, section 5.2.1, revenue deficit and Table 5.1, pages 71-72",
+      "question_patterns": [
+        "compute the revenue deficit from revenue receipts and revenue expenditure",
+        "what does a rising revenue deficit indicate about government borrowing",
+        "why is a revenue deficit a sign of government dissaving",
+        "revenue expenditure is 11.8 and receipts 9.2 percent of GDP, find the revenue deficit",
+        "how does the revenue deficit differ from the fiscal deficit",
+        "which deficit shows borrowing used for consumption rather than investment"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Subtract current receipts from current spending",
+          "explain": "Revenue expenditure minus revenue receipts isolates the shortfall on the current account of the budget.",
+          "compute": "revenue_deficit = revenue_expenditure - revenue_receipts"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Revenue Deficit, compute the result for revenue_expenditure = 3, revenue_receipts = 3.",
+          "solution": "Step 1: Subtract current receipts from current spending: revenue_deficit = revenue_expenditure - revenue_receipts = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Revenue Deficit, compute the result for revenue_expenditure = 4, revenue_receipts = 4.",
+          "solution": "Step 1: Subtract current receipts from current spending: revenue_deficit = revenue_expenditure - revenue_receipts = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.2.3",
+      "title": "Fiscal Deficit as the Borrowing Requirement",
+      "section": "5.2.1",
+      "definition": "Total expenditure minus all receipts other than borrowings is the fiscal deficit, which measures exactly how much the government must borrow from all sources - the public, the RBI and abroad.",
+      "formula": "fiscal_deficit = total_expenditure - (revenue_receipts + non_debt_capital_receipts)",
+      "key_idea": "Strip out borrowings from receipts and the residual gap is precisely the borrowing requirement.",
+      "textbook_ref": "leec105.txt, section 5.2.1, fiscal deficit and financing side, page 72",
+      "question_patterns": [
+        "calculate the fiscal deficit from total expenditure and non-borrowed receipts",
+        "why does the fiscal defect equal the government's borrowing requirement",
+        "which receipts are excluded while measuring the fiscal deficit",
+        "find the financing-side composition of the fiscal deficit from home and foreign borrowing",
+        "total spending is 15, revenue receipts 9.2 and non-debt capital receipts 0.2, compute the fiscal deficit",
+        "how does the fiscal deficit relate to the revenue deficit and capital spending"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add up receipts that create no debt",
+          "explain": "Revenue receipts plus recoveries of loans and disinvestment proceeds form non-borrowed receipts.",
+          "compute": "non_borrowed_receipts = revenue_receipts + recovery_of_loans + disinvestment_proceeds"
+        },
+        {
+          "step": 2,
+          "action": "Gap total spending against them",
+          "explain": "Total expenditure minus non-borrowed receipts is the fiscal deficit, financed by net home borrowing, RBI borrowing and foreign borrowing.",
+          "compute": "fiscal_deficit = total_expenditure - non_borrowed_receipts"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Fiscal Deficit as the Borrowing Requirement, compute the result for revenue_receipts = 3, recovery_of_loans = 3, disinvestment_proceeds = 3, total_expenditure = 2.",
+          "solution": "Step 1: Add up receipts that create no debt: non_borrowed_receipts = revenue_receipts + recovery_of_loans + disinvestment_proceeds = 9.0 Step 2: Gap total spending against them: fiscal_deficit = total_expenditure - non_borrowed_receipts = -7.0 Final result: -7.0",
+          "answer": "-7.0"
+        },
+        {
+          "question": "Using Fiscal Deficit as the Borrowing Requirement, compute the result for revenue_receipts = 4, recovery_of_loans = 4, disinvestment_proceeds = 4, total_expenditure = 3.",
+          "solution": "Step 1: Add up receipts that create no debt: non_borrowed_receipts = revenue_receipts + recovery_of_loans + disinvestment_proceeds = 12.0 Step 2: Gap total spending against them: fiscal_deficit = total_expenditure - non_borrowed_receipts = -9.0 Final result: -9.0",
+          "answer": "-9.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.2.4",
+      "title": "Primary Deficit",
+      "section": "5.2.1",
+      "definition": "Removing interest obligations on past debt from the fiscal deficit leaves the primary deficit, which isolates the borrowing caused by this year's spending decisions alone.",
+      "formula": "primary_deficit = fiscal_deficit - interest_payments",
+      "key_idea": "The primary deficit separates today's fiscal imbalance from the legacy cost of yesterday's debt.",
+      "textbook_ref": "leec105.txt, section 5.2.1, primary deficit paragraph, page 73",
+      "question_patterns": [
+        "work out the primary deficit from the fiscal deficit and interest payments",
+        "why do we deduct interest to obtain the primary deficit",
+        "what does a zero primary deficit indicate",
+        "fiscal deficit is 5.6 and interest payments 3.6 percent of GDP, find the primary deficit",
+        "which deficit best shows the current fiscal stance",
+        "how are past debts kept out of the primary deficit measure"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Remove the legacy interest burden",
+          "explain": "Subtracting interest payments from the fiscal deficit leaves borrowing attributable to current spending alone.",
+          "compute": "primary_deficit = fiscal_deficit - interest_payments"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Primary Deficit, compute the result for fiscal_deficit = 3, interest_payments = 3.",
+          "solution": "Step 1: Remove the legacy interest burden: primary_deficit = fiscal_deficit - interest_payments = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Primary Deficit, compute the result for fiscal_deficit = 4, interest_payments = 4.",
+          "solution": "Step 1: Remove the legacy interest burden: primary_deficit = fiscal_deficit - interest_payments = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.3.1",
+      "title": "Government Spending, Tax and Transfer Multipliers",
+      "section": "5.2.1",
+      "definition": "A rupee of public spending enters demand directly and multiplies through the MPC chain, while a rupee of tax change enters only through disposable income, so the tax multiplier is smaller in size and negative, and transfers work like taxes in reverse with a multiplier of c over one minus c.",
+      "formula": "government_spending_multiplier = 1 / marginal_propensity_to_save",
+      "key_idea": "Spending hits demand at full strength, taxes and transfers only through the spending fraction, so their multipliers are one rung weaker.",
+      "textbook_ref": "leec105.txt, Box 5.1 fiscal policy, equations 5.5 to 5.8 and 5.21, pages 73-79",
+      "question_patterns": [
+        "derive the government expenditure multiplier for a given marginal propensity to consume",
+        "compute the tax multiplier and explain its negative sign",
+        "why is the tax multiplier smaller in absolute size than the spending multiplier",
+        "find the income effect of a transfer payment change",
+        "government spending rises by 100 with MPC 0.8, find the change in equilibrium income",
+        "compare the income effects of a tax cut and an equal spending rise"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Convert MPC into the saving leak",
+          "explain": "The share of each extra rupee that leaks into saving governs every multiplier.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        },
+        {
+          "step": 2,
+          "action": "Invert the leak for the spending multiplier",
+          "explain": "One over the saving fraction gives the government expenditure multiplier.",
+          "compute": "government_spending_multiplier = 1 / marginal_propensity_to_save"
+        },
+        {
+          "step": 3,
+          "action": "Weaken and flip for the tax multiplier",
+          "explain": "Taxes act only through consumption, so the tax multiplier is minus the MPC over the MPS.",
+          "compute": "tax_multiplier = -marginal_propensity_to_consume / marginal_propensity_to_save"
+        },
+        {
+          "step": 4,
+          "action": "Scale transfers by the spending fraction",
+          "explain": "A transfer change raises income by the MPC over the MPS times the transfer change, since part of any transfer is saved.",
+          "compute": "transfer_multiplier = marginal_propensity_to_consume / marginal_propensity_to_save"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Government Spending, Tax and Transfer Multipliers, compute the result for marginal_propensity_to_consume = 3.",
+          "solution": "Step 1: Convert MPC into the saving leak: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = -2.0 Step 2: Invert the leak for the spending multiplier: government_spending_multiplier = 1 / marginal_propensity_to_save = -0.5 Step 3: Weaken and flip for the tax multiplier: tax_multiplier = -marginal_propensity_to_consume / marginal_propensity_to_save = 1.5 Step 4: Scale transfers by the spending fraction: transfer_multiplier = marginal_propensity_to_consume / marginal_propensity_to_save = -1.5 Final result: -1.5",
+          "answer": "-1.5"
+        },
+        {
+          "question": "Using Government Spending, Tax and Transfer Multipliers, compute the result for marginal_propensity_to_consume = 4.",
+          "solution": "Step 1: Convert MPC into the saving leak: marginal_propensity_to_save = 1 - marginal_propensity_to_consume = -3.0 Step 2: Invert the leak for the spending multiplier: government_spending_multiplier = 1 / marginal_propensity_to_save = -0.333333 Step 3: Weaken and flip for the tax multiplier: tax_multiplier = -marginal_propensity_to_consume / marginal_propensity_to_save = 1.333333 Step 4: Scale transfers by the spending fraction: transfer_multiplier = marginal_propensity_to_consume / marginal_propensity_to_save = -1.333333 Final result: -1.333333",
+          "answer": "-1.333333"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.3.2",
+      "title": "Balanced Budget Multiplier",
+      "section": "5.2.1",
+      "definition": "When an increase in government spending is financed by an equal rise in taxes, the spending and tax effects combine so that equilibrium income grows by exactly the extra spending - the balanced budget multiplier equals one.",
+      "formula": "balanced_budget_multiplier = spending_multiplier + tax_multiplier = 1",
+      "key_idea": "Equal rises in G and T lift income one-for-one, because the first-round tax leak skips the initial spending injection.",
+      "textbook_ref": "leec105.txt, Box 5.1, balanced budget multiplier, equations 5.9 to 5.13, pages 75-76",
+      "question_patterns": [
+        "show that a balanced budget increase in G and T raises income by the same amount",
+        "why does the balanced budget multiplier equal unity",
+        "compute the combined income effect of equal rises in spending and taxes",
+        "government spending and taxes both rise by 100 with MPC 0.8, find the income change",
+        "add the two policy multipliers to obtain the balanced budget result",
+        "explain the first-round difference that leaves a net multiplier of one"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the two multiplier effects",
+          "explain": "One over one minus c plus minus c over one minus c simplifies to exactly one."
+        },
+        {
+          "step": 2,
+          "action": "Trace the rounds to see why",
+          "explain": "Spending raises income from round one, while the tax rise bites only from round two through reduced consumption, so the chains differ by the initial injection."
+        },
+        {
+          "step": 3,
+          "action": "State the policy meaning",
+          "explain": "A financed expansion is never neutral: output grows by the size of the extra spending even though the budget stays balanced."
+        }
+      ]
+    },
+    {
+      "id": "leec.105.3.3",
+      "title": "Proportional Taxes and Automatic Stabilisers",
+      "section": "5.2.1",
+      "definition": "A proportional income tax of rate t trims the effective propensity to consume to c times one minus t, flattening aggregate demand and shrinking the multiplier; because collections rise in booms and fall in slumps, the tax acts as a built-in shock absorber without any policy decision.",
+      "formula": "effective_mpc = marginal_propensity_to_consume * (1 - tax_rate)",
+      "key_idea": "Proportional taxes dampen every upswing and cushion every downswing automatically.",
+      "textbook_ref": "leec105.txt, Box 5.1, proportional taxes, equations 5.14 to 5.20, automatic stabiliser discussion, pages 76-78",
+      "question_patterns": [
+        "how does a proportional income tax change the size of the multiplier",
+        "compute the effective marginal propensity to consume under a tax rate",
+        "why is the proportional tax called an automatic stabiliser",
+        "find the spending multiplier when MPC is 0.8 and the tax rate is 0.25",
+        "distinguish automatic stabilisation from discretionary fiscal policy",
+        "what happens to disposable income in a recession with a proportional tax"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Trim the spending fraction by the tax rate",
+          "explain": "Of each extra rupee of income, the tax office takes t first, so consumption responds only to c times one minus t.",
+          "compute": "effective_mpc = marginal_propensity_to_consume * (1 - tax_rate)"
+        },
+        {
+          "step": 2,
+          "action": "Recognise the flattened multiplier",
+          "explain": "With a smaller effective slope the aggregate demand line is flatter and the multiplier falls - for MPC 0.8 and t 0.25 it drops from 5 to 2.5 - which is what steadies the cycle automatically."
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Proportional Taxes and Automatic Stabilisers, compute the result for marginal_propensity_to_consume = 3, tax_rate = 3.",
+          "solution": "Step 1: Trim the spending fraction by the tax rate: effective_mpc = marginal_propensity_to_consume * (1 - tax_rate) = -6.0 Final result: -6.0",
+          "answer": "-6.0"
+        },
+        {
+          "question": "Using Proportional Taxes and Automatic Stabilisers, compute the result for marginal_propensity_to_consume = 4, tax_rate = 4.",
+          "solution": "Step 1: Trim the spending fraction by the tax rate: effective_mpc = marginal_propensity_to_consume * (1 - tax_rate) = -12.0 Final result: -12.0",
+          "answer": "-12.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.105.4.1",
+      "title": "Government Debt, Ricardian Equivalence and Crowding Out",
+      "section": "5.2.1",
+      "definition": "Year after year of deficits accumulate into a debt stock whose interest itself adds to future deficits; whether debt is a burden turns on growth effects - Ricardian equivalence claims far-sighted savers offset public borrowing, while crowding out warns that government bonds soak up private savings.",
+      "formula": "debt_stock = accumulated_deficits + accumulated_interest",
+      "key_idea": "Deficits are flows feeding a debt stock, and the debate is whether that stock taxes future growth or rides on it.",
+      "textbook_ref": "leec105.txt, Debt section, Ricardian equivalence and crowding out, pages 79-81",
+      "question_patterns": [
+        "explain how deficits accumulate into government debt",
+        "what is Ricardian equivalence and why does it matter for debt policy",
+        "how does government borrowing crowd out private investment",
+        "does public debt always burden future generations",
+        "why is external debt treated as more burdensome than internal debt",
+        "when can deficit-financed growth make debt painless to carry"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Connect flow to stock",
+          "explain": "Each year's deficit borrows, and unpaid interest joins the principal, so the debt stock compounds."
+        },
+        {
+          "step": 2,
+          "action": "Weigh the burden arguments",
+          "explain": "Borrowing can shift today's consumption onto future taxpayers and squeeze private capital formation, though growth financed by public investment can repay the debt."
+        },
+        {
+          "step": 3,
+          "action": "Set the two counter-views",
+          "explain": "Ricardian equivalence says far-sighted households save against future taxes, neutralising borrowing, while crowding out says bond sales compete away private funds - unless higher income enlarges the savings pool."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec105.txt Box 5.1 Example 5.1",
+      "concept": "leec.105.3.1",
+      "question_type": "compute",
+      "question_pattern": "With MPC equal to 0.8, the government raises spending by 100. Find the spending multiplier, the tax multiplier, and the income effect of a transfer rise of 100.",
+      "extracted_variables": {
+        "marginal_propensity_to_consume": 0.8,
+        "change_in_government_spending": 100,
+        "change_in_transfers": 100
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Saving fraction",
+          "explain": "One minus 0.8 leaves 0.2.",
+          "compute": "marginal_propensity_to_save = 1 - marginal_propensity_to_consume"
+        },
+        {
+          "step": 2,
+          "action": "Spending multiplier and its effect",
+          "explain": "One over 0.2 is 5, so income rises by 5 times 100, that is 500.",
+          "compute": "government_spending_multiplier = 1 / marginal_propensity_to_save"
+        },
+        {
+          "step": 3,
+          "action": "Tax multiplier",
+          "explain": "Minus 0.8 over 0.2 gives minus 4, so a 100 tax cut would raise income by 400.",
+          "compute": "tax_multiplier = -marginal_propensity_to_consume / marginal_propensity_to_save"
+        },
+        {
+          "step": 4,
+          "action": "Transfer multiplier",
+          "explain": "0.8 over 0.2 gives 4, so a 100 transfer rise lifts income by 400.",
+          "compute": "transfer_multiplier = marginal_propensity_to_consume / marginal_propensity_to_save"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec105.txt Table 5.1 central government 2024-25",
+      "concept": "leec.105.2.3",
+      "question_type": "compute",
+      "question_pattern": "Total expenditure is 15 percent of GDP, revenue receipts 9.2, recovery of loans 0.1 and disinvestment 0.1. Find the fiscal deficit as a percent of GDP.",
+      "extracted_variables": {
+        "total_expenditure": 15,
+        "revenue_receipts": 9.2,
+        "recovery_of_loans": 0.1,
+        "disinvestment_proceeds": 0.1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Non-borrowed receipts",
+          "explain": "9.2 plus 0.1 plus 0.1 gives 9.4 percent of GDP.",
+          "compute": "non_borrowed_receipts = revenue_receipts + recovery_of_loans + disinvestment_proceeds"
+        },
+        {
+          "step": 2,
+          "action": "Fiscal deficit",
+          "explain": "15 minus 9.4 leaves 5.6 percent of GDP, the borrowing requirement.",
+          "compute": "fiscal_deficit = total_expenditure - non_borrowed_receipts"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec105.txt Box 5.1 Example 5.2",
+      "concept": "leec.105.3.3",
+      "question_type": "compute",
+      "question_pattern": "MPC is 0.8 and a proportional income tax of 0.25 is imposed. Find the effective propensity to consume out of income.",
+      "extracted_variables": {
+        "marginal_propensity_to_consume": 0.8,
+        "tax_rate": 0.25
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Effective slope of consumption",
+          "explain": "0.8 times one minus 0.25 gives 0.6, so the AD line flattens and the multiplier falls to one over one minus 0.6, that is 2.5.",
+          "compute": "effective_mpc = marginal_propensity_to_consume * (1 - tax_rate)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec105-ex1",
+      "source_ref": "leec105.txt exercise 1",
+      "questions": [
+        "Argue why the provision of public goods must fall to the government."
+      ]
+    },
+    {
+      "id": "leec105-ex2",
+      "source_ref": "leec105.txt exercise 2",
+      "questions": [
+        "Draw the line between revenue expenditure and capital expenditure."
+      ]
+    },
+    {
+      "id": "leec105-ex3",
+      "source_ref": "leec105.txt exercise 3",
+      "questions": [
+        "Elucidate the claim that the fiscal deficit measures the government's borrowing requirement."
+      ]
+    },
+    {
+      "id": "leec105-ex4",
+      "source_ref": "leec105.txt exercise 4",
+      "questions": [
+        "State how the revenue deficit and the fiscal deficit are related."
+      ]
+    },
+    {
+      "id": "leec105-ex5",
+      "source_ref": "leec105.txt exercise 5",
+      "questions": [
+        "For investment 200, government purchases 150, net taxes 100 and consumption 100 plus 0.75 times income, find equilibrium income, the spending and tax multipliers, and the income change when purchases rise by 200."
+      ]
+    },
+    {
+      "id": "leec105-ex6",
+      "source_ref": "leec105.txt exercise 6",
+      "questions": [
+        "For C 20 plus 0.80 times Y, I 30, G 50 and TR 100, find equilibrium income and the multiplier; then trace the effects of a 30 rise in purchases and of the same rise financed by a lump-sum tax."
+      ]
+    },
+    {
+      "id": "leec105-ex7",
+      "source_ref": "leec105.txt exercise 7",
+      "questions": [
+        "Compare the output effects of a ten percent rise in transfers and a ten percent rise in lump-sum taxes in the previous economy."
+      ]
+    },
+    {
+      "id": "leec105-ex8",
+      "source_ref": "leec105.txt exercise 8",
+      "questions": [
+        "For C 70 plus 0.70 times disposable income, I 90, G 100 and T 0.10 times Y, find equilibrium income, tax revenue at equilibrium, and whether the budget balances."
+      ]
+    },
+    {
+      "id": "leec105-ex9",
+      "source_ref": "leec105.txt exercise 9",
+      "questions": [
+        "With MPC 0.75 and a 20 percent proportional income tax, find the income effect of a 20 rise in purchases and of a 20 fall in transfers."
+      ]
+    },
+    {
+      "id": "leec105-ex10",
+      "source_ref": "leec105.txt exercise 10",
+      "questions": [
+        "Account for the tax multiplier being smaller in absolute value than the government expenditure multiplier."
+      ]
+    },
+    {
+      "id": "leec105-ex11",
+      "source_ref": "leec105.txt exercise 11",
+      "questions": [
+        "Explain how government deficit and government debt are connected."
+      ]
+    },
+    {
+      "id": "leec105-ex12",
+      "source_ref": "leec105.txt exercise 12",
+      "questions": [
+        "Does public debt impose a burden? Discuss."
+      ]
+    },
+    {
+      "id": "leec105-ex13",
+      "source_ref": "leec105.txt exercise 13",
+      "questions": [
+        "Are fiscal deficits necessarily inflationary? Examine."
+      ]
+    },
+    {
+      "id": "leec105-ex14",
+      "source_ref": "leec105.txt exercise 14",
+      "questions": [
+        "Discuss the routes available for reducing the government deficit."
+      ]
+    },
+    {
+      "id": "leec105-ex15",
+      "source_ref": "leec105.txt exercise 15",
+      "questions": [
+        "Explain the GST system, assess it against the earlier tax structure, and name its categories."
+      ]
+    }
+  ]
+}

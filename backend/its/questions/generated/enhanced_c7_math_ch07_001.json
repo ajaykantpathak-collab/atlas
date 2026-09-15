@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_001",
+   "title": "c7_math_ch07_001",
+   "questions": [
+    {
+     "q": "How many vertices, sides, and angles does a triangle have?",
+     "a": "A triangle has 3 vertices, 3 sides, and 3 angles. A student who answers 4 is confusing a triangle with a quadrilateral, likely counting the four corners of a notebook page or a rectangle instead of a three-sided polygon.",
+     "self_check": true
+    },
+    {
+     "q": "Can a closed geometric figure be formed using only two straight line segments? Explain why or why not in the context of a triangle.",
+     "a": "No, a closed figure cannot be formed with just two straight line segments because two intersecting or connected lines will only make an angle or a single broken path, leaving an open space. A minimum of three straight line segments is required to close a flat space, which is why a triangle has three sides. A student who thinks two lines can form a triangle does not understand the requirement for a \"closed\" boundary.",
+     "self_check": true
+    },
+    {
+     "q": "In triangle PQR, list all its constituent parts: its vertices, its sides, and its angles using standard geometric notation.",
+     "a": "Steps:\n1. Identify the vertices as the points where the sides meet, which are P, Q, and R.\n2. Identify the line segments forming the boundary, which are side PQ, side QR, and side RP.\n3. Identify the interior angles formed at the corners, which are $\\angle PQR$ (or $\\angle Q$), $\\angle QRP$ (or $\\angle R$), and $\\angle RPQ$ (or $\\angle P$).\n4. Combine all components to state the complete list: Vertices: P, Q, R; Sides: PQ, QR, RP; Angles: $\\angle P$, $\\angle Q$, $\\angle R$.\nA student who lists side lengths with numbers instead of vertex letters misunderstands geometric naming conventions for line segments.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a shape with three straight sides and one curved side not classified as a standard triangle?",
+     "a": "A standard triangle must be formed strictly by three *straight* line segments. If one side is curved, the boundary does not consist of line segments, meaning it fails the strict geometric definition of a polygon and a triangle. A student who considers it a triangle is confusing general closed curves with polygons.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that in triangle ABC, side AB is completely identical to side BA, and angle $\\angle ABC$ is the same as angle $\\angle CBA$. Evaluate this claim.",
+     "a": "The student's claim is completely correct. The line segment joining point A to point B is the exact same geometric path as the line segment joining B to A, so side AB = side BA. Similarly, the angle formed at vertex B by rays BA and BC is the same as the angle formed by rays BC and BA, so $\\angle ABC = \\angle CBA$. A student who disagrees does not understand that line segments and angles have bilateral symmetry in their notation.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a rough sketch of a triangle named XYZ, and write down a real-world scenario from your daily life in India where this exact triangular shape and its three vertices are visible.",
+     "a": "The student should sketch a triangle with vertices labeled X, Y, and Z. A valid real-world scenario would be the triangular metal frame of a traffic warning sign on an Indian road, or a triangular slice of a paratha on a plate, where the three corners represent the vertices and the crusts represent the three sides. A poor answer gives a non-triangular object like a cricket bat or a circular roti.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

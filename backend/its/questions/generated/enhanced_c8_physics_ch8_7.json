@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_7",
+   "title": "c8_physics_ch8_7",
+   "questions": [
+    {
+     "q": "What is meant by 'dynamic equilibrium' in the context of balance in nature?",
+     "a": "Dynamic equilibrium means populations fluctuate around a stable average due to interdependent interactions (predation, competition, resource availability), not that they remain perfectly constant. A wrong answer (e.g., 'populations never change') reveals the misconception that balance is static and unchanging, ignoring the continuous adjustments in real ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "Why does removing a top predator from a forest ecosystem often lead to an increase in herbivore population followed by a decline in plant biomass?",
+     "a": "Removing the top predator releases herbivores from predation pressure, so their numbers grow. The larger herbivore population consumes more plants, reducing plant biomass. A wrong answer (e.g., 'plants increase because herbivores have more food') reveals a misunderstanding of trophic cascades and the direction of energy flow — students may think more herbivores means more food for plants, confusing the role of consumers and producers.",
+     "self_check": true
+    },
+    {
+     "q": "In a pond food web, algae are eaten by zooplankton, which are eaten by small fish, which are eaten by large fish. If a disease kills most large fish, predict the short-term change in algae population and explain the reasoning in three steps.",
+     "a": "Step 1: Large fish decline → less predation on small fish. Step 2: Small fish population increases → more predation on zooplankton. Step 3: Zooplankton population decreases → less grazing on algae → algae population increases (algal bloom). A wrong answer (e.g., algae decrease) shows the student cannot trace indirect effects through multiple trophic levels and may think only direct predator-prey pairs matter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two ecosystems: a diverse tropical rainforest and a simple Arctic tundra. Which is likely to be more resilient to the loss of a single species? Justify using the concept of interdependence and food web complexity.",
+     "a": "The tropical rainforest is more resilient because its complex food web provides multiple alternative pathways for energy flow; if one species is lost, others can fill its role. The tundra's simple food web has fewer connections, so loss of a key species (e.g., lemmings) disrupts the whole system. A wrong answer (e.g., tundra is more resilient because it's simpler) reveals confusion between stability and resilience, and a lack of understanding that complexity provides buffers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: 'Decomposers are not important for balance because they don't eat living organisms.' Evaluate this statement and explain why decomposers are essential for maintaining dynamic equilibrium.",
+     "a": "The statement is incorrect. Decomposers break down dead organic matter, recycling nutrients (carbon, nitrogen, phosphorus) back to producers. Without them, nutrients would lock up in dead bodies, producers would starve, and the entire food web would collapse. A wrong evaluation (e.g., agreeing with the student) shows the student views balance only through direct feeding links and misses the cyclic nature of matter versus the one-way flow of energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using two jars, pond water, algae, and snails to demonstrate interdependence and balance. Describe the setup, what you would observe over two weeks, and how it shows dynamic equilibrium.",
+     "a": "Setup: Jar A: pond water + algae only. Jar B: pond water + algae + snails. Place both in sunlight. Observe: In Jar A, algae grow rapidly then die off as nutrients deplete (boom-bust). In Jar B, snails eat algae, release nutrients through waste, algae regrow — populations oscillate but persist. This shows dynamic equilibrium: consumers regulate producers, decomposers (bacteria in water) recycle nutrients, and the system self-adjusts. A poor answer (e.g., only describing one jar, or expecting constant populations) reveals inability to design a controlled comparison and confusion between static and dynamic balance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

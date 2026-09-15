@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_002",
+   "title": "c11_geo_cbse_18_002",
+   "questions": [
+    {
+     "q": "Name all nine land use categories in the official Indian classification and state the approximate percentage of total geographical area occupied by the largest three categories as per the latest Land Use Statistics.",
+     "a": "The nine categories are: (1) Forests, (2) Barren and Unculturable Land, (3) Land Put to Non-Agricultural Uses, (4) Permanent Pastures and Grazing Land, (5) Land Under Miscellaneous Tree Crops and Groves, (6) Culturable Waste Land, (7) Fallow Lands (Current Fallow + Fallow Other Than Current Fallow), (8) Net Sown Area. The largest three are Net Sown Area (~43%), Forests (~23%), and Non-Agricultural Uses (~9%). A wrong answer (e.g., listing \"agricultural land\" as one category or missing \"miscellaneous tree crops\") reveals the student is still using the Class 10 three-fold simplification and has not memorized the official nine-fold schema required for board-level data interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"Forest\" category in land use statistics has remained nearly constant at 22-23% of geographical area since 1980-81 despite the Forest Conservation Act (1980), afforestation programs, and the National Forest Policy target of 33%.",
+     "a": "The \"Forest\" category in land use statistics records *legal/administrative* forest area (notified under Indian Forest Act), not actual tree cover. The Forest Conservation Act 1980 halted diversion of forest land for non-forest purposes, freezing the *recorded* forest area. Meanwhile, actual tree cover outside recorded forests (agroforestry, plantations, urban trees) is captured in \"Miscellaneous Tree Crops\" or \"Non-Agricultural Uses,\" not in the Forest column. A student who says \"forest area increased due to plantations\" confuses *forest cover* (satellite-measured canopy) with *recorded forest area* (legal category) — a critical distinction for Class 11 board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below (hypothetical but realistic), calculate the percentage point change in Net Sown Area and Culturable Waste Land between 1990-91 and 2018-19, and determine how much of the Net Sown Area expansion was offset by Culturable Waste reduction.\n| Category | 1990-91 (Mha) | 2018-19 (Mha) |\n|---|---|---|\n| Net Sown Area | 143 | 140 |\n| Culturable Waste | 15 | 12 |\n| Total Geographical Area | 328.73 | 328.73 |",
+     "a": "Step 1: Calculate % for 1990-91: NSA = (143/328.73)×100 = 43.5%; CW = (15/328.73)×100 = 4.56%.\nStep 2: Calculate % for 2018-19: NSA = (140/328.73)×100 = 42.6%; CW = (12/328.73)×100 = 3.65%.\nStep 3: Percentage point change: NSA = -0.9 pp (decline); CW = -0.91 pp (decline).\nStep 4: Both declined — this hypothetical shows NSA *did not* expand at CW's expense in this period; instead, both shrank, likely due to urbanization (Non-Agricultural Uses growing) and fallow increase. A student who assumes NSA always expands misses the post-1990s stagnation/decline due to land degradation, water scarcity, and non-farm diversion — a key trend for \"analyze\" level questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land use trajectory of Punjab (high irrigation, intensive agriculture) and Rajasthan (arid, extensive grazing) for the categories: Net Sown Area, Culturable Waste, Permanent Pastures, and Non-Agricultural Uses. Explain the physical and policy drivers creating the divergence.",
+     "a": "Punjab: NSA >80% (high due to 99% irrigation), Culturable Waste ~1% (almost fully utilized), Pastures <0.5% (grazing displaced by crops), Non-Ag Uses ~8% (urban/industrial). Rajasthan: NSA ~35% (limited by water), Culturable Waste ~10% (degraded sandy land), Pastures ~5% (livestock economy), Non-Ag Uses ~5% (solar parks, mining, cities). Drivers: Punjab's Green Revolution + assured irrigation (canals/tubewells) converted every cultivable hectare to NSA; Rajasthan's aridity (Thar Desert) and fragile soils keep land in waste/pasture. Policy: Punjab's land consolidation acts enabled intensive use; Rajasthan's Desert Development Programme and recent solar policies shift waste to non-ag use. A student attributing differences only to \"rainfall\" misses the institutional drivers (irrigation institutions, land tenancy laws, energy subsidies).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of the observed trend: \"Net Sown Area plateaued at ~140 Mha since 1990, while Non-Agricultural Uses grew from 16 to 27 Mha (1990-2019), largely at the expense of Culturable Waste and Fallow Lands.\" Consider food security, ecological function, and equity.",
+     "a": "Unsustainable on three counts: (1) Food security: NSA stagnation + population growth = declining per capita arable land (0.12 ha in 2019 vs 0.32 ha in 1951), forcing yield intensification (fertilizer/groundwater overuse) with diminishing returns. (2) Ecological: Culturable waste and fallows are not \"empty\" — they provide groundwater recharge, biodiversity corridors, pastoral livelihoods, and carbon sequestration; their conversion to built-up/industrial use fragments ecosystems. (3) Equity: Land conversion benefits urban/industrial elites; marginal farmers and pastoralists lose common property resources (pastures, waste) without compensation. A student calling this \"development\" fails to apply the \"sustainable development\" lens from Class 10 (c10_geo_cbse_01_004) — board exams require evaluating trade-offs, not just describing trends.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level land use reallocation plan for a hypothetical state (Geographical Area: 50,000 km²) that currently has: NSA 40%, Forests 15%, Culturable Waste 12%, Fallow 8%, Pastures 5%, Non-Ag Uses 7%, Barren 8%, Misc Tree Crops 3%, Other Fallow 2%. Target: Achieve 33% forest cover (policy goal) and 50% NSA (food security) in 20 years without reducing pastures below 4%. Specify which categories will donate area, by how much, and the policy instruments for each transfer.",
+     "a": "Current area (km²): NSA 20,000; Forest 7,500; CW 6,000; Fallow 4,000; Pasture 2,500; Non-Ag 3,500; Barren 4,000; Misc 1,500; Other Fallow 1,000. Target: Forest 16,500 (+9,000); NSA 25,000 (+5,000); Pasture ≥2,000 (allow -500). Total needed: +14,000 km². Donors: Culturable Waste -6,000 (full conversion via watershed development + irrigation); Fallow -4,000 (recultivation via credit/insurance); Barren -2,000 (afforestation on treatable wasteland); Non-Ag Uses -1,000 (densification, vertical growth); Pasture -500 (silvipasture integration). Policy instruments: Forest Rights Act (community forest management), PMKSY (irrigation for fallow recultivation), CAMPA funds (afforestation on barren), Urban Land Ceiling Reform (densification), Wasteland Atlas-guided reclamation. A poor answer treats categories as fungible without physical feasibility (e.g., converting barren rocky land to NSA) or ignores social safeguards for pastoralists.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_005",
+   "title": "c12_geo_cbse_10_005",
+   "questions": [
+    {
+     "q": "According to the Census of India 2011, what was the percentage of urban population to total population, and how many times had the total urban population increased during the twentieth century?",
+     "a": "The level of urbanisation in 2011 was 31.16%, and total urban population increased eleven-fold during the twentieth century. A wrong answer (e.g., stating 27.78% which is the 2001 figure, or \"ten-fold\") reveals the student is confusing census years or not reading the NCERT text precisely — a common error in board exams where data-specific recall is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the decadal growth rate of urbanisation decline from 46.14% (1971–81) to 31.08% (2001–11) despite the absolute urban population continuing to rise? Explain using the concept of base effect and changing migration patterns.",
+     "a": "The decline is due to the base effect: as the urban population base becomes larger, the same absolute increase yields a lower percentage growth. Additionally, migration slowed due to saturation in traditional magnets (e.g., Kolkata, Mumbai) and emergence of counter-urbanisation trends. A wrong answer attributing the decline solely to \"less migration\" without mentioning base effect shows incomplete understanding of demographic rates — a trap in both board and CUET analytical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 2.1, calculate the average annual exponential growth rate (AEGR) of urban population for the decade 1991–2001. Formula: AEGR = (1/10) × ln(P₂₀₀₁/P₁₉₉₁) × 100. Urban population: 1991 = 217,611 thousand; 2001 = 285,355 thousand.",
+     "a": "Step 1: Ratio = 285,355 / 217,611 = 1.3113. Step 2: ln(1.3113) = 0.2712. Step 3: AEGR = (0.2712 / 10) × 100 = 2.712% per annum. A wrong answer using simple percentage growth (31.13%/10 = 3.11%) ignores compounding — a frequent error in competitive exams like JEE Main where exponential vs linear growth distinction is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urbanisation trends of the pre-independence period (1901–1951) with the post-independence period (1951–2011). Identify two structural differences in the drivers of urban growth.",
+     "a": "Pre-independence: low urbanisation (10.84% → 17.29%), driven by colonial port cities (Mumbai, Kolkata, Chennai) and administrative centres; growth rate volatile (0.35% to 41.42%). Post-independence: rapid acceleration (17.29% → 31.16%), driven by planned industrial townships (Bhilai, Durgapur), administrative capitals (Chandigarh, Gandhinagar), and refugee rehabilitation towns; growth rate consistently high (26–46%). A wrong answer listing only \"industrialisation\" for both periods misses the shift from colonial export-oriented ports to planned inland industrialisation — a key NCERT distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The slowing decadal growth rate of urbanisation since 1981 indicates that India's urban transition is nearing completion.\" Use evidence from Census data and the concept of \"urbanisation tempo\" to justify your answer.",
+     "a": "The statement is false. Slowing growth rate reflects base effect and temporary migration slowdown, not transition completion. India's urbanisation level (31.16% in 2011) is far below the 50%+ threshold marking transition completion. Moreover, Census 2011 shows 6,171 towns — many new census towns emerged from reclassification, indicating ongoing rural-to-urban shift. A wrong answer accepting the statement confuses rate deceleration with absolute stagnation — a classic misinterpretation in demographic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard to monitor sustainable urbanisation in a rapidly growing Indian city (e.g., Bengaluru). Indicators must capture demographic, economic, and environmental dimensions. Justify each choice.",
+     "a": "1. Demographic: Annual growth rate of slum population (% of total urban pop) — captures inclusivity. 2. Economic: Share of informal sector employment in urban workforce — captures livelihood quality. 3. Environmental: Per capita green space (m²) and PM2.5 annual mean — captures livability. A poor answer lists generic indicators (e.g., \"total population\") without linking to sustainability or the specific city's context (e.g., Bengaluru's lake depletion, IT-driven migration).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

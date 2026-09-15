@@ -1,0 +1,378 @@
+{
+ "catalog": "catalog_class10_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "jemh.8.1",
+   "title": "Trigonometric Ratios Definition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 10 and 24, and the hypotenuse is 26. Find sin of the angle opposite the side 10. (give the fraction)",
+     "a": "5/13",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 10 and 24, hypotenuse 26), find cos of the angle opposite the side 24. (give the fraction)",
+     "a": "12/13",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 10 and 24 and hypotenuse 26, find tan of the angle opposite the side 10. (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 10/26, find cosec(A). (give the fraction)",
+     "a": "13/5",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 24/26, find sec(A). (give the fraction)",
+     "a": "13/12",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 10/26 and cos(A) = 24/26, find tan(A). (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.2",
+   "title": "Reciprocal Relations of Trigonometric Ratios",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 20 and 21, and the hypotenuse is 29. Find sin of the angle opposite the side 20. (give the fraction)",
+     "a": "20/29",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 20 and 21, hypotenuse 29), find cos of the angle opposite the side 21. (give the fraction)",
+     "a": "21/29",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 20 and 21 and hypotenuse 29, find tan of the angle opposite the side 20. (give the fraction)",
+     "a": "20/21",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 20/29, find cosec(A). (give the fraction)",
+     "a": "29/20",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 21/29, find sec(A). (give the fraction)",
+     "a": "29/21",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 20/29 and cos(A) = 21/29, find tan(A). (give the fraction)",
+     "a": "20/21",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.3",
+   "title": "Quotient Relations of Trigonometric Ratios",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 12 and 16, and the hypotenuse is 20. Find sin of the angle opposite the side 12. (give the fraction)",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 12 and 16, hypotenuse 20), find cos of the angle opposite the side 16. (give the fraction)",
+     "a": "4/5",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 12 and 16 and hypotenuse 20, find tan of the angle opposite the side 12. (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 12/20, find cosec(A). (give the fraction)",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 16/20, find sec(A). (give the fraction)",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4",
+   "title": "Trigonometric Ratios of Specific Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 6 / 10 gives 0.6",
+     "compute": "s = 6 / 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 6 and 8, and the hypotenuse is 10. Find sin of the angle opposite the side 6. (give the fraction)",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 6 and 8, hypotenuse 10), find cos of the angle opposite the side 8. (give the fraction)",
+     "a": "4/5",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 6 and 8 and hypotenuse 10, find tan of the angle opposite the side 6. (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 6/10, find cosec(A). (give the fraction)",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 8/10, find sec(A). (give the fraction)",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 6/10 and cos(A) = 8/10, find tan(A). (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.5",
+   "title": "Trigonometric Ratios of Complementary Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 7 / 25 gives 0.28",
+     "compute": "s = 7 / 25"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 7 and 24, and the hypotenuse is 25. Find sin of the angle opposite the side 7. (give the fraction)",
+     "a": "7/25",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 7 and 24, hypotenuse 25), find cos of the angle opposite the side 24. (give the fraction)",
+     "a": "24/25",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 7 and 24 and hypotenuse 25, find tan of the angle opposite the side 7. (give the fraction)",
+     "a": "7/24",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 7/25, find cosec(A). (give the fraction)",
+     "a": "25/7",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 24/25, find sec(A). (give the fraction)",
+     "a": "25/24",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 7/25 and cos(A) = 24/25, find tan(A). (give the fraction)",
+     "a": "7/24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.6",
+   "title": "Fundamental Trigonometric Identity",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 9, 12 and hypotenuse 15 by computing (9/15)^2 + (12/15)^2.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + tan^2 A = sec^2 A with tan A = 9/12, find sec A as a fraction.",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + cot^2 A = cosec^2 A with cot A = 12/9, find cosec A as a fraction.",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If sin A = 9/15 and cos A = 12/15 (same right triangle), compute sin 2A = 2 sin A cos A as a fraction.",
+     "a": "24/25",
+     "self_check": false
+    },
+    {
+     "q": "Compound angle: with sin A = 3/5, cos A = 4/5, sin B = 5/13, cos B = 12/13, find sin(A + B) = sinA cosB + cosA sinB as a fraction.",
+     "a": "56/65",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/25. (give the fraction)",
+     "a": "24/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.7",
+   "title": "Related Trigonometric Identities",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 12, 16 and hypotenuse 20 by computing (12/20)^2 + (16/20)^2.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + tan^2 A = sec^2 A with tan A = 12/16, find sec A as a fraction.",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Using 1 + cot^2 A = cosec^2 A with cot A = 16/12, find cosec A as a fraction.",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If sin A = 12/20 and cos A = 16/20 (same right triangle), compute sin 2A = 2 sin A cos A as a fraction.",
+     "a": "24/25",
+     "self_check": false
+    },
+    {
+     "q": "Compound angle: with sin A = 3/5, cos A = 4/5, sin B = 5/13, cos B = 12/13, find sin(A + B) = sinA cosB + cosA sinB as a fraction.",
+     "a": "56/65",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/25. (give the fraction)",
+     "a": "24/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.8",
+   "title": "Evaluating Trigonometric Expressions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
+     "compute": "s = 12 / 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 12 and 16, and the hypotenuse is 20. Find sin of the angle opposite the side 12. (give the fraction)",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 12 and 16, hypotenuse 20), find cos of the angle opposite the side 16. (give the fraction)",
+     "a": "4/5",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 12 and 16 and hypotenuse 20, find tan of the angle opposite the side 12. (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 12/20, find cosec(A). (give the fraction)",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 16/20, find sec(A). (give the fraction)",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.9",
+   "title": "Relationship Between Trigonometric Ratios",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 10 and 24, and the hypotenuse is 26. Find sin of the angle opposite the side 10. (give the fraction)",
+     "a": "5/13",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 10 and 24, hypotenuse 26), find cos of the angle opposite the side 24. (give the fraction)",
+     "a": "12/13",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 10 and 24 and hypotenuse 26, find tan of the angle opposite the side 10. (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 10/26, find cosec(A). (give the fraction)",
+     "a": "13/5",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 24/26, find sec(A). (give the fraction)",
+     "a": "13/12",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 10/26 and cos(A) = 24/26, find tan(A). (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_004",
+   "title": "c7_math_ch15_004",
+   "questions": [
+    {
+     "q": "What is the inverse operation used to solve the equation $x + 15 = 42$?",
+     "a": "Subtraction (specifically, subtracting 15 from both sides). A wrong answer like addition or multiplication shows the student confuses the operation present in the equation with its inverse, failing to recognize that to undo adding 15, one must remove it by subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "When solving the equation $4x = 36$ using inverse operations, why do we divide both sides by 4 instead of subtracting 4?",
+     "a": "We divide by 4 because $4x$ means 4 multiplied by $x$, and division is the inverse operation of multiplication. Subtracting 4 would change the expression to $4x - 4$, which does not isolate $x$. A wrong answer indicates the student does not distinguish between additive relationships and multiplicative relationships within algebraic terms.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the equation $5x - 7 = 38$ using inverse operations. What is the value of $x$?",
+     "a": "Step 1: Add 7 to both sides to undo the subtraction: $5x - 7 + 7 = 38 + 7$, which simplifies to $5x = 45$. Step 2: Divide both sides by 5 to undo the multiplication: $\\frac{5x}{5} = \\frac{45}{5}$, which gives $x = 9$. A wrong answer often stems from dividing by 5 before undoing the subtraction, or performing incorrect integer arithmetic during transposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare solving $x + 8 = 20$ with solving $8x = 20$. Explain why the first uses subtraction while the second uses division, even though both equations involve the number 8.",
+     "a": "In $x + 8 = 20$, 8 is added to the variable, so its inverse is subtraction. In $8x = 20$, 8 is multiplied by the variable, so its inverse is division. The operation used depends on how the number is connected to the variable, not the number itself. A wrong answer shows a misunderstanding of how terms are structured algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $3x + 5 = 20$ by writing the following steps:\nStep 1: $3x = 20 + 5$\nStep 2: $3x = 25$\nStep 3: $x = \\frac{25}{3}$\nIdentify the error in the student's work and state the correct solution.",
+     "a": "The student made an error in Step 1 by adding 5 instead of subtracting it when moving it across or applying the inverse operation; moving $+5$ to the other side requires subtracting 5, giving $3x = 20 - 5 = 15$, and thus $x = 5$. A wrong answer shows the student does not check the sign change required when applying inverse operations across the equals sign.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-step linear equation in variable $y$ whose solution is exactly $y = 7$. Show the inverse operations required to solve your equation.",
+     "a": "A valid equation is $4y - 6 = 22$. To solve it: Step 1, add 6 to both sides to get $4y = 28$. Step 2, divide both sides by 4 to get $y = 7$. A poor answer creates an expression that does not evaluate to 7 or uses incorrect inverse steps that fail to isolate the variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

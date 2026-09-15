@@ -1,0 +1,308 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 11,
+ "chapter_title": "Exponents and Powers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh111.txt",
+ "concepts": [
+  {
+   "id": "gemh.11.2.1",
+   "title": "Exponential Notation",
+   "section": "11.2",
+   "definition": "A shorthand way to represent the repeated multiplication of a number by itself using a base and an exponent.",
+   "formula": "value = base ** exponent",
+   "key_idea": "The exponent indicates how many times the base is used as a factor.",
+   "textbook_ref": "gemh111.txt lines 15-45",
+   "question_patterns": [
+    "Find the value of {base} raised to the power {exponent}",
+    "Express {number} in exponential form",
+    "What is the base and exponent in {expression}?",
+    "Calculate the value of {base} to the power of {exponent}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base and exponent",
+     "explain": "The base is the number being multiplied, and the exponent is the number of repetitions.",
+     "compute": "result = base ** exponent"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.1",
+   "title": "Multiplying Powers with the Same Base",
+   "section": "11.3.1",
+   "definition": "When multiplying two powers that share the same base, the exponents are added together while the base remains unchanged.",
+   "formula": "a**m * a**n = a**(m + n)",
+   "key_idea": "Addition of exponents for products of identical bases.",
+   "textbook_ref": "gemh111.txt lines 145-165",
+   "question_patterns": [
+    "Simplify {base}^{m} multiplied by {base}^{n}",
+    "Express the product of {base}^{m} and {base}^{n} as a single power",
+    "Find the resulting exponent when multiplying {base}^{m} and {base}^{n}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the exponents",
+     "explain": "Since the bases are the same, the product's exponent is the sum of the individual exponents.",
+     "compute": "new_exponent = m + n"
+    },
+    {
+     "step": 2,
+     "action": "Express as power",
+     "explain": "The result is the base raised to the new sum of exponents.",
+     "compute": "result = base ** new_exponent"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.2",
+   "title": "Dividing Powers with the Same Base",
+   "section": "11.3.2",
+   "definition": "When dividing powers with the same base, the exponent of the divisor is subtracted from the exponent of the dividend.",
+   "formula": "a**m / a**n = a**(m - n)",
+   "key_idea": "Subtraction of exponents for quotients of identical bases.",
+   "textbook_ref": "gemh111.txt lines 175-195",
+   "question_patterns": [
+    "Simplify {base}^{m} divided by {base}^{n}",
+    "What is the value of {base}^{m} / {base}^{n} in exponential form?",
+    "Subtract exponents to divide {base}^{m} by {base}^{n}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the exponents",
+     "explain": "The exponent of the result is the difference between the dividend exponent and the divisor exponent.",
+     "compute": "new_exponent = m - n"
+    },
+    {
+     "step": 2,
+     "action": "Express as power",
+     "explain": "The result is the base raised to the calculated difference.",
+     "compute": "result = base ** new_exponent"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.3",
+   "title": "Power of a Power Rule",
+   "section": "11.3.3",
+   "definition": "To find the power of a power, multiply the internal exponent by the external exponent.",
+   "formula": "(a**m)**n = a**(m * n)",
+   "key_idea": "Multiplication of exponents when a power is raised to another power.",
+   "textbook_ref": "gemh111.txt lines 205-225",
+   "question_patterns": [
+    "Simplify ({base}^{m})^{n}",
+    "What is the power of {base}^{m} raised to {n}?",
+    "Calculate the final exponent for ({base}^{m})^{n}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the exponents",
+     "explain": "The resulting exponent is the product of the inner and outer exponents.",
+     "compute": "new_exponent = m * n"
+    },
+    {
+     "step": 2,
+     "action": "Express as power",
+     "explain": "The base is raised to the product of the exponents.",
+     "compute": "result = base ** new_exponent"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.4",
+   "title": "Multiplying Powers with Different Bases but Same Exponents",
+   "section": "11.3.4",
+   "definition": "If two different bases are raised to the same exponent, their product is equal to the product of the bases raised to that exponent.",
+   "formula": "a**m * b**m = (a * b)**m",
+   "key_idea": "Bases multiply while the common exponent remains the same.",
+   "textbook_ref": "gemh111.txt lines 235-255",
+   "question_patterns": [
+    "Simplify {a}^{m} * {b}^{m}",
+    "Express the product of {a}^{m} and {b}^{m} as a single power",
+    "Multiply {a} and {b} then raise to power {m}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the bases",
+     "explain": "Since the exponents are identical, we multiply the different bases first.",
+     "compute": "new_base = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Apply the exponent",
+     "explain": "The product of the bases is raised to the common exponent.",
+     "compute": "result = new_base ** m"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.6",
+   "title": "Zero Exponent Rule",
+   "section": "11.3.5",
+   "definition": "Any non-zero number raised to the power of zero is always equal to one.",
+   "formula": "a**0 = 1",
+   "key_idea": "Zero power of any non-zero base is unity.",
+   "textbook_ref": "gemh111.txt lines 285-305",
+   "question_patterns": [
+    "What is the value of {base} raised to 0?",
+    "Simplify {base}^{0}",
+    "Evaluate the expression where the exponent is zero"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply zero power rule",
+     "explain": "Any non-zero base raised to the power 0 results in 1.",
+     "compute": "result = 1"
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.3.7",
+   "title": "Powers of Negative One",
+   "section": "11.2",
+   "definition": "Negative one raised to an even power is positive one, and raised to an odd power is negative one.",
+   "formula": "(-1)**n = 1 if n%2==0 else -1",
+   "key_idea": "Parity of the exponent determines the sign of the power of -1.",
+   "textbook_ref": "gemh111.txt lines 125-135",
+   "question_patterns": [
+    "Evaluate (-1) to the power {n}",
+    "Is (-1)^{n} positive or negative?",
+    "Find the value of (-1)^{n}"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if exponent is even or odd",
+     "explain": "If n is even, result is 1. If n is odd, result is -1."
+    }
+   ]
+  },
+  {
+   "id": "gemh.11.6.1",
+   "title": "Standard Form (Scientific Notation)",
+   "section": "11.6",
+   "definition": "A way to write very large numbers as a decimal between 1.0 and 10.0 multiplied by a power of 10.",
+   "formula": "number = k * 10**n",
+   "key_idea": "The exponent n is one less than the number of digits to the left of the decimal point.",
+   "textbook_ref": "gemh111.txt lines 360-400",
+   "question_patterns": [
+    "Express {number} in standard form",
+    "Write {number} in scientific notation",
+    "Convert the large number {number} to standard form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the exponent n",
+     "explain": "Count the number of places the decimal must move to the left to leave one non-zero digit.",
+     "compute": "n = digit_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "Find the decimal factor k",
+     "explain": "Divide the original number by 10 raised to the power n.",
+     "compute": "k = number / (10 ** n)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh111.txt lines 85-90",
+   "concept": "gemh.11.2.1",
+   "question_type": "compute",
+   "question_pattern": "Express {number} as a power of {base}",
+   "extracted_variables": {
+    "number": 256,
+    "base": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the exponent",
+     "explain": "Determine how many times 2 must be multiplied to get 256.",
+     "compute": "exponent = 8"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh111.txt lines 92-96",
+   "concept": "gemh.11.2.1",
+   "question_type": "compute",
+   "question_pattern": "Which one is greater {b1}^{e1} or {b2}^{e2}?",
+   "extracted_variables": {
+    "b1": 2,
+    "e1": 3,
+    "b2": 3,
+    "e2": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate first value",
+     "explain": "Find the value of the first exponential expression.",
+     "compute": "val1 = b1 ** e1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate second value",
+     "explain": "Find the value of the second exponential expression.",
+     "compute": "val2 = b2 ** e2"
+    },
+    {
+     "step": 3,
+     "action": "Compare",
+     "explain": "Compare val1 and val2 to see which is larger.",
+     "compute": "difference = val1 - val2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "gemh111.txt lines 136-144",
+   "questions": [
+    "Find the value of: (i) 2^6 (ii) 9^3 (iii) 11^2 (iv) 5^4",
+    "Express the following in exponential form: (i) 6 × 6 × 6 × 6 (ii) t × t",
+    "Identify the greater number: (i) 4^3 or 3^4 (ii) 5^3 or 3^5"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "gemh111.txt lines 330-345",
+   "questions": [
+    "Using laws of exponents, simplify: (i) 3^2 × 3^4 × 3^8 (ii) 6^15 ÷ 6^10",
+    "Simplify and express in exponential form: ((5^2)^3 × 5^4) ÷ 5^7",
+    "Say true or false: (i) 10 × 10^11 = 100^11"
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "gemh111.txt lines 405-420",
+   "questions": [
+    "Write the following numbers in the expanded forms: 279404, 3006194",
+    "Express the following numbers in standard form: (i) 5,00,00,000 (ii) 70,00,000",
+    "Express the distance between Earth and Moon (384,000,000 m) in standard form."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

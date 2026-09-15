@@ -1,0 +1,512 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 301,
+ "chapter_title": "The Rise of Nationalism in Europe",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess301.txt",
+ "concepts": [
+  {
+   "id": "jess.301.1.1",
+   "title": "French Revolutionary Collective Identity",
+   "section": "1",
+   "definition": "Strategies and symbols introduced by French rebels to foster a shared sense of belonging and national unity among the population.",
+   "formula": "none",
+   "key_idea": "The revolution shifted sovereignty from the crown to a collective body of citizens.",
+   "textbook_ref": "jess301.txt lines 45-65",
+   "question_patterns": [
+    "What measures did French revolutionaries take to create a sense of collective identity?",
+    "How did the ideas of la patrie and le citoyen contribute to national unity?",
+    "Describe the changes in the French flag and the Estates General after 1789.",
+    "List the practices used to build a common identity in revolutionary France.",
+    "Explain the role of language and hymns in the French nation-building process."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify ideological symbols",
+     "explain": "The revolutionaries introduced 'la patrie' (fatherland) and 'le citoyen' (citizen) to emphasize a community with equal rights."
+    },
+    {
+     "step": 2,
+     "action": "Identify political changes",
+     "explain": "The Estates General was replaced by the National Assembly, and a new tricolour flag was adopted."
+    },
+    {
+     "step": 3,
+     "action": "Identify administrative and cultural measures",
+     "explain": "Centralized laws were established, internal customs were removed, and French was promoted as the national language."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.1.2",
+   "title": "The Napoleonic Code of 1804",
+   "section": "1",
+   "definition": "A comprehensive set of legal reforms that standardized laws, protected property rights, and removed birth-based social hierarchies.",
+   "formula": "none",
+   "key_idea": "Administrative rationalization and legal equality were exported to French-occupied territories.",
+   "textbook_ref": "jess301.txt lines 85-105",
+   "question_patterns": [
+    "What were the main features of the Civil Code of 1804?",
+    "How did Napoleon simplify administrative divisions in Europe?",
+    "Explain the impact of the Napoleonic Code on the peasantry and businessmen.",
+    "Which privileges were abolished by the Napoleonic Code?",
+    "Describe the administrative reforms introduced by Napoleon in conquered territories."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List legal equalities",
+     "explain": "The code established equality before the law and secured the right to private property."
+    },
+    {
+     "step": 2,
+     "action": "Identify social removals",
+     "explain": "It abolished all privileges based on birth and the feudal system of serfdom."
+    },
+    {
+     "step": 3,
+     "action": "Note economic improvements",
+     "explain": "Guild restrictions were removed, and transport and communication systems were upgraded."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.1",
+   "title": "Liberal Nationalism",
+   "section": "2.2",
+   "definition": "A 19th-century ideology advocating for individual freedom, equality under the law, and the removal of state-imposed economic restrictions.",
+   "formula": "none",
+   "key_idea": "Liberalism linked political freedom with the creation of a unified national market.",
+   "textbook_ref": "jess301.txt lines 145-165",
+   "question_patterns": [
+    "What did liberalism mean for the new middle classes in the 19th century?",
+    "Explain the political and economic aspects of liberal nationalism.",
+    "How did the middle class define freedom and equality?",
+    "What were the economic demands of liberal nationalists?",
+    "Describe the concept of government by consent in liberal ideology."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define political liberalism",
+     "explain": "It stood for representative government, a constitution, and the end of clerical privileges."
+    },
+    {
+     "step": 2,
+     "action": "Define economic liberalism",
+     "explain": "It demanded the freedom of markets and the abolition of state restrictions on the movement of capital."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.2",
+   "title": "Customs Duty Calculation",
+   "section": "2.2",
+   "definition": "The calculation of total taxes paid by merchants passing through multiple internal customs barriers within the German Confederation.",
+   "formula": "total_tax = (item_value * tax_rate_percent / 100) * number_of_barriers",
+   "key_idea": "Standardized economic unions like the Zollverein aimed to eliminate these repetitive costs.",
+   "textbook_ref": "jess301.txt lines 175-185",
+   "question_patterns": [
+    "Calculate the total duty for a merchant passing through {number_of_barriers} barriers.",
+    "If a merchant pays {tax_rate_percent} percent at each of {number_of_barriers} stops, find the total tax on goods worth {item_value}.",
+    "What is the total customs duty for a shipment valued at {item_value} across {number_of_barriers} checkpoints?",
+    "Find the cumulative tax for {number_of_barriers} barriers at a rate of {tax_rate_percent} percent.",
+    "How much total duty is paid on an item of value {item_value} if the rate is {tax_rate_percent} percent per barrier?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate tax per barrier",
+     "explain": "Multiply the item value by the tax rate percentage divided by 100.",
+     "compute": "unit_tax = item_value * tax_rate_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total duty",
+     "explain": "Multiply the tax per barrier by the total number of barriers passed.",
+     "compute": "total_tax = unit_tax * number_of_barriers"
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.3",
+   "title": "Treaty of Vienna 1815",
+   "section": "2.3",
+   "definition": "A diplomatic agreement by European powers to restore monarchies and redraw borders to prevent future French expansion after Napoleon's defeat.",
+   "formula": "none",
+   "key_idea": "The settlement aimed to establish a new conservative order in Europe.",
+   "textbook_ref": "jess301.txt lines 200-225",
+   "question_patterns": [
+    "What were the main objectives of the Treaty of Vienna?",
+    "How did the Congress of Vienna redraw the map of Europe?",
+    "Which dynasties were restored to power after the 1815 settlement?",
+    "Describe the territorial changes imposed on France in 1815.",
+    "Who hosted the Congress of Vienna and what was its purpose?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the host and powers",
+     "explain": "The Congress was hosted by Duke Metternich and included Britain, Russia, Prussia, and Austria."
+    },
+    {
+     "step": 2,
+     "action": "List territorial adjustments",
+     "explain": "France lost annexed lands; the Netherlands gained Belgium; Prussia and Austria gained new territories."
+    },
+    {
+     "step": 3,
+     "action": "Identify political restoration",
+     "explain": "The Bourbon dynasty was restored to the French throne."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.2.4",
+   "title": "Mazzini and Secret Societies",
+   "section": "2.4",
+   "definition": "The formation of underground political groups by revolutionaries like Giuseppe Mazzini to fight for liberty and unified nation-states.",
+   "formula": "none",
+   "key_idea": "Secret societies were the primary vehicles for spreading nationalist ideals under autocratic repression.",
+   "textbook_ref": "jess301.txt lines 235-255",
+   "question_patterns": [
+    "Who was Giuseppe Mazzini and what were his goals?",
+    "Describe the secret societies founded by Mazzini.",
+    "Why did Metternich describe Mazzini as a dangerous enemy?",
+    "What was the role of Young Italy and Young Europe?",
+    "How did Mazzini envision the future of the Italian peninsula?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the individual",
+     "explain": "Giuseppe Mazzini was an Italian revolutionary and member of the Carbonari."
+    },
+    {
+     "step": 2,
+     "action": "List founded organizations",
+     "explain": "He founded 'Young Italy' in Marseilles and 'Young Europe' in Berne."
+    },
+    {
+     "step": 3,
+     "action": "State the core vision",
+     "explain": "He believed in a unified, democratic Italian republic as the basis of liberty."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.3.1",
+   "title": "Greek War of Independence",
+   "section": "3",
+   "definition": "A successful nationalist struggle by the Greeks to gain independence from the Ottoman Empire, supported by European intellectuals.",
+   "formula": "none",
+   "key_idea": "The struggle mobilized nationalist sentiment across the European educated elite.",
+   "textbook_ref": "jess301.txt lines 275-295",
+   "question_patterns": [
+    "Explain the significance of the Greek war of independence.",
+    "Which treaty recognized Greece as an independent nation?",
+    "How did poets and artists support the Greek struggle?",
+    "When did the Greek struggle for independence begin?",
+    "Why was Greece called the cradle of European civilization?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the start and opponent",
+     "explain": "The struggle began in 1821 against the Ottoman Empire."
+    },
+    {
+     "step": 2,
+     "action": "Note external support",
+     "explain": "West Europeans and poets like Lord Byron provided funds and cultural support."
+    },
+    {
+     "step": 3,
+     "action": "Identify the outcome",
+     "explain": "The Treaty of Constantinople of 1832 recognized Greek independence."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.3.2",
+   "title": "Romantic Nationalism",
+   "section": "3.1",
+   "definition": "A cultural movement that used art, poetry, and folk traditions to create a sense of shared national heritage and identity.",
+   "formula": "none",
+   "key_idea": "Culture, rather than just war, was vital in shaping the idea of the nation.",
+   "textbook_ref": "jess301.txt lines 300-325",
+   "question_patterns": [
+    "What was Romanticism in the context of European nationalism?",
+    "How did Johann Gottfried Herder define true German culture?",
+    "Explain the role of folk songs and dances in nation-building.",
+    "How did language act as a weapon of national resistance in Poland?",
+    "Describe the contribution of Karol Kurpinski to Polish nationalism."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the focus",
+     "explain": "Romantics focused on emotions, intuition, and mystical feelings over reason."
+    },
+    {
+     "step": 2,
+     "action": "Identify cultural tools",
+     "explain": "Folk songs (das volk), vernacular language, and local folklore were used to reach the masses."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.4.1",
+   "title": "Unification of Germany",
+   "section": "4.1",
+   "definition": "The process of merging various German states into a single empire under Prussian leadership and military strength.",
+   "formula": "none",
+   "key_idea": "Otto von Bismarck used the army and bureaucracy to achieve unification through three wars.",
+   "textbook_ref": "jess301.txt lines 415-440",
+   "question_patterns": [
+    "Briefly trace the process of German unification.",
+    "Who was the architect of German unification?",
+    "What was the role of Prussia in the making of Germany?",
+    "When and where was William I proclaimed German Emperor?",
+    "Describe the three wars that led to the unification of Germany."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the leader",
+     "explain": "Otto von Bismarck, the Prussian Chief Minister, was the primary architect."
+    },
+    {
+     "step": 2,
+     "action": "List the conflicts",
+     "explain": "Three wars were fought over seven years with Austria, Denmark, and France."
+    },
+    {
+     "step": 3,
+     "action": "Identify the proclamation",
+     "explain": "Kaiser William I was proclaimed Emperor at Versailles in January 1871."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.4.2",
+   "title": "Unification of Italy",
+   "section": "4.2",
+   "definition": "The political and military movement to unite the fragmented states of the Italian peninsula into a single kingdom.",
+   "formula": "none",
+   "key_idea": "Unification was achieved through a mix of elite diplomacy and popular revolutionary action.",
+   "textbook_ref": "jess301.txt lines 450-480",
+   "question_patterns": [
+    "How was Italy unified in the 19th century?",
+    "What was the role of Cavour in Italian unification?",
+    "Describe Giuseppe Garibaldi's contribution to the making of Italy.",
+    "Which state led the movement for Italian unification?",
+    "Who was proclaimed the king of united Italy in 1861?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the leading state",
+     "explain": "Sardinia-Piedmont, under King Victor Emmanuel II, led the process."
+    },
+    {
+     "step": 2,
+     "action": "Note diplomatic efforts",
+     "explain": "Chief Minister Cavour secured a strategic alliance with France to defeat Austria."
+    },
+    {
+     "step": 3,
+     "action": "Note military efforts",
+     "explain": "Garibaldi and his 'Red Shirts' conquered the southern regions with peasant support."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.4.3",
+   "title": "Formation of the British Nation-State",
+   "section": "4.3",
+   "definition": "The long-term political process by which England established dominance over Scotland and Ireland to form the United Kingdom.",
+   "formula": "none",
+   "key_idea": "The British nation-state was forged through parliamentary acts rather than a sudden revolution.",
+   "textbook_ref": "jess301.txt lines 490-515",
+   "question_patterns": [
+    "How was the history of nationalism in Britain different from the rest of Europe?",
+    "What was the significance of the Act of Union (1707)?",
+    "How did the English parliament seize power from the monarchy?",
+    "Describe the incorporation of Ireland into the United Kingdom.",
+    "What symbols were used to promote a new British identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central power",
+     "explain": "The English Parliament, after 1688, became the instrument for nation-building."
+    },
+    {
+     "step": 2,
+     "action": "Identify legal mergers",
+     "explain": "The Act of Union (1707) joined England and Scotland; Ireland was added in 1801."
+    },
+    {
+     "step": 3,
+     "action": "Note cultural imposition",
+     "explain": "English language and symbols like the Union Jack were promoted over local cultures."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.5.1",
+   "title": "National Allegories",
+   "section": "5",
+   "definition": "The artistic personification of a nation using female figures to give concrete form to abstract political ideas.",
+   "formula": "none",
+   "key_idea": "Figures like Marianne and Germania served as visual symbols of national unity and heroism.",
+   "textbook_ref": "jess301.txt lines 525-550",
+   "question_patterns": [
+    "Who were Marianne and Germania?",
+    "What was the importance of the way national allegories were portrayed?",
+    "Explain the symbolism of the crown of oak leaves in Germania's image.",
+    "How did artists personify the nation in the 19th century?",
+    "What did the broken chain and the sword signify in national imagery?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the allegories",
+     "explain": "Marianne represented the French Republic; Germania represented the German nation."
+    },
+    {
+     "step": 2,
+     "action": "Interpret symbols",
+     "explain": "Attributes like the red cap (liberty) and oak leaves (heroism) conveyed specific national values."
+    }
+   ]
+  },
+  {
+   "id": "jess.301.6.1",
+   "title": "Balkan Nationalist Tensions",
+   "section": "6",
+   "definition": "The intense ethnic and political conflict in Southeast Europe caused by the decline of the Ottoman Empire and competing imperial interests.",
+   "formula": "none",
+   "key_idea": "The Balkans became a 'powder keg' that eventually triggered the First World War.",
+   "textbook_ref": "jess301.txt lines 570-595",
+   "question_patterns": [
+    "Why did nationalist tensions emerge in the Balkans?",
+    "Describe the ethnic composition of the Balkan region.",
+    "How did the disintegration of the Ottoman Empire affect the Balkans?",
+    "Explain the role of big power rivalry in the Balkan conflict.",
+    "Why did the Balkan area become an area of intense conflict after 1871?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the region",
+     "explain": "The Balkans included modern-day Romania, Bulgaria, Greece, and other Slavic regions."
+    },
+    {
+     "step": 2,
+     "action": "Identify the cause of unrest",
+     "explain": "Subject nationalities broke away from the weakening Ottoman Empire to claim independence."
+    },
+    {
+     "step": 3,
+     "action": "Identify external factors",
+     "explain": "Rivalries between Russia, Germany, and Britain for control over the region led to war."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2.2.1",
+   "source_ref": "jess301.txt lines 175-180",
+   "concept": "jess.301.2.2",
+   "question_type": "compute",
+   "question_pattern": "A merchant travels from Hamburg to Nuremberg with goods worth {item_value} florins. He passes through {number_of_barriers} customs barriers, paying a {tax_rate_percent} percent duty at each. Calculate the total duty paid.",
+   "extracted_variables": {
+    "item_value": 1000,
+    "number_of_barriers": 11,
+    "tax_rate_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate tax per barrier",
+     "explain": "Multiply 1000 by 5/100 to get the tax at one stop.",
+     "compute": "unit_tax = item_value * tax_rate_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total duty",
+     "explain": "Multiply the unit tax by 11 barriers.",
+     "compute": "total_tax = unit_tax * number_of_barriers"
+    }
+   ]
+  },
+  {
+   "id": "ex2.2.2",
+   "source_ref": "jess301.txt lines 175-180",
+   "concept": "jess.301.2.2",
+   "question_type": "compute",
+   "question_pattern": "What is the total customs duty for a shipment valued at {item_value} units passing through {number_of_barriers} barriers at a {tax_rate_percent} percent rate?",
+   "extracted_variables": {
+    "item_value": 500,
+    "number_of_barriers": 5,
+    "tax_rate_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate tax per barrier",
+     "explain": "Multiply 500 by 5/100.",
+     "compute": "unit_tax = item_value * tax_rate_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total duty",
+     "explain": "Multiply the unit tax by 5 barriers.",
+     "compute": "total_tax = unit_tax * number_of_barriers"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess301.txt lines 620-630",
+   "questions": [
+    "Write a note on Giuseppe Mazzini.",
+    "Write a note on Count Camillo de Cavour.",
+    "Write a note on the Greek war of independence.",
+    "Write a note on the Frankfurt parliament.",
+    "Write a note on the role of women in nationalist struggles."
+   ]
+  },
+  {
+   "id": "ex2.0",
+   "source_ref": "jess301.txt lines 631-635",
+   "questions": [
+    "What steps did the French revolutionaries take to create a sense of collective identity among the French people?",
+    "Who were Marianne and Germania? What was the importance of the way in which they were portrayed?",
+    "Briefly trace the process of German unification.",
+    "What changes did Napoleon introduce to make the administrative system more efficient in the territories ruled by him?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

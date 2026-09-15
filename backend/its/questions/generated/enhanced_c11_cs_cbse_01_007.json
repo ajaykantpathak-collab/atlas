@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_007",
+   "title": "c11_cs_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the five secondary storage devices covered in the Class 11 NCERT textbook and state whether each uses magnetic, optical, or solid-state technology.",
+     "a": "The five devices are: HDD (magnetic), SSD (solid-state), CD (optical), DVD (optical), Pen Drive (solid-state). A wrong answer (e.g., listing “cloud storage” or classifying CD as magnetic) reveals the student is either recalling devices outside the prescribed syllabus or confusing the underlying storage technology — a common error because CDs/DVDs look similar to magnetic disks but use laser pits/lands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the CPU cannot directly execute a program stored on a pen drive without first copying it to RAM.",
+     "a": "The CPU connects to primary memory (RAM) via the system bus (address, data, control buses); secondary storage devices are connected through I/O controllers (e.g., USB controller) and are not on the memory address map the CPU uses for instruction fetch. A wrong answer (e.g., “pen drive is too slow” or “CPU doesn’t have a USB port”) shows the student misunderstands the Von Neumann architecture: the CPU fetches instructions only from addresses in primary memory; secondary storage is memory-mapped only after the OS loads its driver and mounts the filesystem, but the actual instruction fetch still occurs from RAM.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to install the operating system on a laptop that currently has only a 1 TB HDD. They have the option to replace it with a 512 GB SSD. List three specific advantages of choosing the SSD for the OS drive, and one disadvantage.",
+     "a": "Advantages: (1) Much faster boot and application load times due to no mechanical seek/rotational latency; (2) Higher durability — no moving parts, resistant to shock/vibration (critical for laptops); (3) Lower power consumption, extending battery life. Disadvantage: Higher cost per GB (512 GB SSD costs more than 1 TB HDD). A wrong answer that only says “SSD is faster” without linking to mechanical vs electronic access, or misses the durability/power aspects, indicates superficial understanding of solid-state vs magnetic technology trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare CD-R and DVD-R in terms of (a) storage capacity, (b) laser wavelength used, and (c) typical use case today. Why is a DVD-R more suitable than a CD-R for distributing a 3.5 GB software installer?",
+     "a": "(a) CD-R ≈ 700 MB; DVD-R ≈ 4.7 GB (single layer). (b) CD uses 780 nm infrared laser; DVD uses 650 nm red laser (shorter wavelength → smaller pits → higher density). (c) CD-R: audio CDs, small documents; DVD-R: video, larger software, backups. A 3.5 GB installer exceeds CD-R capacity but fits on DVD-R. A wrong answer that states CD-R holds 4.7 GB or confuses laser wavelengths reveals the student has memorised capacities without understanding the physical reason (pit size, track pitch, laser wavelength) for the capacity difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “For long-term archival of family photos (10+ years), a pen drive is better than an external HDD because it has no moving parts.” Provide a reasoned judgment with two supporting arguments and one counter-argument.",
+     "a": "Judgment: The statement is generally FALSE for 10+ year archival. Supporting arguments for HDD: (1) Magnetic media (HDD) retains data without power for decades if stored properly; flash memory (pen drive) suffers from charge leakage over years, leading to bit rot. (2) HDDs give SMART warnings before catastrophic failure; pen drives often fail suddenly with no warning. Counter-argument for pen drive: No moving parts makes it more resistant to physical shock during transport. A wrong answer that agrees with the statement shows the student equates “no moving parts” with “long-term reliability” without knowing flash memory’s data retention physics (electron leakage from floating gate).",
+     "self_check": true
+    },
+    {
+     "q": "Design a backup strategy for a school computer lab with 30 PCs, each having 256 GB SSD. The lab generates 50 GB of new student project data per week that must be retained for 3 years. Specify: (a) primary backup medium, (b) secondary (off-site) medium, (c) backup frequency, and (d) one reason to avoid using only pen drives for this task.",
+     "a": "(a) Primary: External HDD array (e.g., 4 TB USB HDD) — high capacity, low cost/GB, fast enough for weekly incremental backups. (b) Off-site: Cloud storage (or rotated HDD taken off-site) — protects against fire/theft. (c) Frequency: Weekly full + daily incremental (or weekly full if daily is impractical). (d) Pen drives: Too small capacity (would need dozens), easy to lose, no central management, and flash wear-out from frequent writes. A poor answer that chooses pen drives for primary backup shows the student ignores scalability, management overhead, and endurance limits of flash memory for institutional backup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

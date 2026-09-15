@@ -1,0 +1,130 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "How Forces Affect Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.106.6.1",
+   "title": "Balanced and Unbalanced Forces",
+   "section": "6",
+   "definition": "Forces acting on a body may cancel or combine: equal and opposite forces balance to leave motion unchanged, while an unbalanced net force is needed to start motion, stop it, or change its speed or direction.",
+   "formula": "-",
+   "key_idea": "No change without imbalance: motion changes only under a net force.",
+   "textbook_ref": "iesc106.txt sections on balanced and unbalanced forces",
+   "question_patterns": [
+    "differentiate balanced and unbalanced forces with examples",
+    "why does a box need unbalanced force to start moving",
+    "find the net force when two forces act in opposite directions",
+    "can an object move with balanced forces acting on it - explain",
+    "what happens to the motion when forces become unbalanced",
+    "identify the forces acting on the given situation and their result"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the forces",
+     "explain": "Identify every push or pull with its direction."},
+    {"step": 2, "action": "add them vectorially",
+     "explain": "Opposite forces subtract; same-side forces add."},
+    {"step": 3, "action": "read the result",
+     "explain": "Zero net force keeps motion unchanged; nonzero net force changes it."}
+   ]
+  },
+  {
+   "id": "iesc.106.6.2",
+   "title": "Newton's Laws of Motion and Inertia",
+   "section": "6",
+   "definition": "Newton's first law states that a body stays at rest or in uniform motion unless an unbalanced force acts - the property of inertia, which depends on mass; the second law links force to the rate of change of momentum, giving force equals mass times acceleration.",
+   "formula": "force = mass * acceleration",
+   "key_idea": "Inertia resists change; the second law measures the push needed as mass times acceleration.",
+   "textbook_ref": "iesc106.txt sections on Newton's laws and inertia",
+   "question_patterns": [
+    "state Newton's first law of motion with an example of inertia",
+    "why do passengers fall forward when a bus stops suddenly",
+    "find the force needed to accelerate the given mass at the given acceleration",
+    "define inertia and say what it depends on",
+    "state Newton's second law and write its formula",
+    "which has more inertia - the given pair of objects and why"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply mass by acceleration",
+     "explain": "The net force is the product of mass and acceleration.",
+     "compute": "force = mass * acceleration"}
+   ]
+  },
+  {
+   "id": "iesc.106.6.3",
+   "title": "Action-Reaction and Conservation of Momentum",
+   "section": "6",
+   "definition": "Forces come in pairs - every action has an equal and opposite reaction; in a system with no external force the total momentum stays conserved, which is why a gun recoils and rockets push forward by throwing gas backward.",
+   "formula": "-",
+   "key_idea": "Push the world and it pushes back: paired forces and conserved momentum run the show.",
+   "textbook_ref": "iesc106.txt sections on third law, momentum conservation, recoils",
+   "question_patterns": [
+    "state Newton's third law with two everyday examples",
+    "explain the recoil of a gun using momentum conservation",
+    "why does a rocket move upward - explain with action and reaction",
+    "if action is always equal to reaction why do they not cancel - explain",
+    "find the recoil velocity using conservation of momentum",
+    "define momentum and state its conservation law"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the pair",
+     "explain": "Name the two bodies exchanging the action-reaction forces."},
+    {"step": 2, "action": "apply conservation",
+     "explain": "Total momentum before equals total momentum after."},
+    {"step": 3, "action": "explain the effect",
+     "explain": "The recoil, rocket or swimmer moves as momentum balances."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc106.txt force-acceleration example",
+   "concept": "iesc.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the force needed to accelerate a {mass} kg object at {acceleration} m/s squared.",
+   "extracted_variables": {
+    "mass": "mass of the object in kg",
+    "acceleration": "acceleration in m/s squared"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply mass by acceleration",
+     "explain": "Force equals mass times acceleration.",
+     "compute": "force = mass * acceleration"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc106.txt second law practice",
+   "concept": "iesc.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "A {mass} kg cart accelerates at {acceleration} m/s squared. Calculate the net force on it.",
+   "extracted_variables": {
+    "mass": "mass of the cart in kg",
+    "acceleration": "acceleration in m/s squared"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply mass by acceleration",
+     "explain": "Newton's second law gives the net force.",
+     "compute": "force = mass * acceleration"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iesc106.txt exercises",
+   "questions": [
+     "Find the net force in the given situations.",
+     "State and explain Newton's laws with examples.",
+     "Solve the given force-acceleration numericals."
+   ]
+  }
+ ]
+}

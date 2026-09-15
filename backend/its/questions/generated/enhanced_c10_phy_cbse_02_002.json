@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_002",
+   "title": "c10_phy_cbse_02_002",
+   "questions": [
+    {
+     "q": "A student connects a thick copper wire vertically between a battery and a switch. The current flows upward. A small compass is placed 5 cm east of the wire. When the switch is closed, which direction will the compass needle's north pole point? (Assume no other magnetic fields.)",
+     "a": "The compass needle's north pole will point **south** (into the page if current is upward and compass is east). Using the right-hand thumb rule: thumb up (current), fingers curl from east to west on the east side — so field direction at the compass is southward. A wrong answer (e.g., north) reveals the student either reverses the right-hand rule (uses left hand) or misapplies the rule by thinking field lines point radially outward like electric field from a positive charge.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical long straight wires carry currents of 2 A and 4 A respectively. At a distance of 10 cm from each wire, what is the ratio of the magnetic field magnitudes B₁:B₂? Explain why this ratio does NOT depend on the distance value (as long as it's the same for both).",
+     "a": "Ratio B₁:B₂ = 2:4 = **1:2**. From B = μ₀I/(2πr), at fixed r, B ∝ I. Since both wires are measured at the same distance r = 10 cm, the (2πr) factor cancels in the ratio, leaving only the current ratio. A wrong answer (e.g., 1:4 or involving distance) reveals the student thinks B ∝ I² or B ∝ 1/r², confusing magnetic field with electric field of a point charge or gravitational field, or they incorrectly believe the distance dependence changes the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A long straight wire carries a current of 5.0 A. Calculate the magnitude of the magnetic field at a point 2.0 cm from the wire. Use μ₀ = 4π × 10⁻⁷ T·m/A. Express your answer in tesla (T) and also in gauss (1 G = 10⁻⁴ T).",
+     "a": "**Step 1:** Identify given: I = 5.0 A, r = 2.0 cm = 0.020 m, μ₀ = 4π × 10⁻⁷ T·m/A. Find: B.\n**Step 2:** Formula: B = μ₀I/(2πr).\n**Step 3:** Substitute: B = (4π × 10⁻⁷ × 5.0) / (2π × 0.020) = (20π × 10⁻⁷) / (0.04π) = (20/0.04) × 10⁻⁷ = 500 × 10⁻⁷ = 5.0 × 10⁻⁵ T.\n**Step 4:** Convert to gauss: 5.0 × 10⁻⁵ T × (1 G / 10⁻⁴ T) = **0.50 G**.\n**Step 5:** Check: 5 A at 2 cm gives ~0.5 G — reasonable (Earth's field ~0.5 G). A wrong answer (e.g., 5 × 10⁻⁴ T) reveals unit conversion error (forgetting cm → m) or π cancellation mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Two long parallel wires are separated by 10 cm. Wire 1 carries 3 A upward, Wire 2 carries 3 A downward. Point P is midway between them. (a) What is the direction of the net magnetic field at P? (b) If both currents are reversed, how does the net field at P change?",
+     "a": "**(a)** At midpoint P, distance from each wire = 5 cm. Wire 1 (current up): right-hand rule gives field into page at P (since P is east of wire 1). Wire 2 (current down): right-hand rule gives field into page at P (since P is west of wire 2). Both fields are **into the page**, so net field is into the page, magnitude = 2 × (μ₀×3)/(2π×0.05). **(b)** Reversing both currents reverses each field direction (now both out of page), so net field direction reverses but magnitude stays same. A wrong answer (e.g., fields cancel) reveals the student thinks opposite currents always produce opposite fields at midpoint, ignoring that the observation point is on opposite sides of the two wires.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The magnetic field due to a straight current-carrying wire is B = μ₀I/(2πr). This means if I double the distance, the field becomes one-fourth.\" Evaluate this statement. Is it correct? If not, correct it and explain the student's error.",
+     "a": "The statement is **incorrect**. The formula shows B ∝ 1/r, not 1/r². Doubling distance **halves** the field (B becomes B/2), not one-fourth. The student's error: confusing magnetic field of a long straight wire (1/r dependence) with electric field of a point charge or gravitational field (1/r² dependence), or misremembering the formula as B = μ₀I/(4πr²) which resembles Coulomb's law. This is a critical board exam trap — CBSE often asks to distinguish 1/r vs 1/r² field dependencies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a battery, a long straight wire, a variable resistor (rheostat), a compass, and a ruler to verify that B ∝ I and B ∝ 1/r. Describe the procedure, what you would measure, and how you would analyze the data to confirm both relationships.",
+     "a": "**Procedure:** (1) Fix wire vertically, place compass at fixed distance r₁ (e.g., 5 cm). (2) Vary current I using rheostat, measure I with ammeter (or calculate from V/R). For each I, record compass deflection angle θ from geographic north. Since B_wire ∝ tan θ (for small θ, B_wire = B_earth tan θ), plot tan θ vs I — should be straight line through origin, confirming B ∝ I. (3) Fix I at a constant value. Move compass to different distances r (2, 4, 6, 8, 10 cm), record θ at each r. Plot tan θ vs 1/r — should be straight line through origin, confirming B ∝ 1/r. A poor answer (e.g., just \"measure deflection at different currents\") reveals the student doesn't know how to isolate variables or use the tangent law to convert deflection to field strength.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

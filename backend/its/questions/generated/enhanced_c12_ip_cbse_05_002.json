@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_002",
+   "title": "c12_ip_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is a packet in the context of computer networks, and why is data divided into packets before transmission?",
+     "a": "A packet is a small, fixed-size unit of data that includes a header (with source/destination IP addresses, sequence number, etc.) and a payload. Data is divided into packets to enable efficient sharing of network links (statistical multiplexing), allow error detection/retransmission of only lost pieces, and support routing around congestion or failures. A wrong answer (e.g., \"packets are just small files\" or \"packets travel in a fixed path\") reveals the student thinks of packets as static chunks rather than dynamic, independently routed units with headers for forwarding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how a router decides where to forward a packet. What information does it use, and what happens if the next link has a smaller MTU?",
+     "a": "A router examines the destination IP address in the packet header, consults its routing table (built via routing protocols like OSPF/BGP) to find the best next-hop interface, and forwards the packet out that interface. If the outgoing link's MTU is smaller than the packet size and the \"Don't Fragment\" bit is not set, the router fragments the packet into smaller pieces, each with its own header, and sends them separately. A wrong answer (e.g., \"router knows the full path\" or \"router sends to the destination directly\") shows the student confuses routing with circuit switching or assumes global topology knowledge at every hop.",
+     "self_check": true
+    },
+    {
+     "q": "A 4000-byte IP packet (including 20-byte header) arrives at a router whose outgoing link has an MTU of 1500 bytes. The \"Don't Fragment\" bit is 0. How many fragments will be created, and what will be the size of each fragment's payload? Show the calculation.",
+     "a": "Original payload = 4000 - 20 = 3980 bytes. MTU = 1500 bytes, so max payload per fragment = 1500 - 20 = 1480 bytes. Number of fragments = ceil(3980 / 1480) = 3 fragments. Fragment 1: payload 1480 bytes, total 1500 bytes. Fragment 2: payload 1480 bytes, total 1500 bytes. Fragment 3: payload 3980 - 2960 = 1020 bytes, total 1040 bytes. A wrong answer (e.g., 2 fragments of 1500 bytes) reveals the student forgot to subtract the header from MTU or miscalculated the remainder.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of a switch, a router, and a gateway in a typical home network that connects to the Internet. Which device performs NAT, and which device holds the public IP address?",
+     "a": "A switch forwards frames within the LAN using MAC addresses (Layer 2). A router connects the LAN to the ISP's network, forwards packets based on IP addresses (Layer 3), and typically performs NAT (Network Address Translation) so multiple private IPs share one public IP. The gateway is the router's LAN interface IP (e.g., 192.168.1.1) that hosts use as the default route. The router's WAN interface holds the public IP assigned by the ISP. A wrong answer (e.g., \"switch does NAT\" or \"gateway is the ISP's router\") confuses Layer 2 vs Layer 3 functions and misidentifies the gateway.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Tier-1 ISPs peer with each other without payment because they have roughly equal traffic volumes; Tier-2 ISPs pay Tier-1 ISPs for transit.\" Is this always true? Justify with a real-world scenario where it might not hold.",
+     "a": "The statement is generally true but not absolute. Tier-1 ISPs (e.g., AT&T, NTT) peer settlement-free when traffic ratios are balanced. However, if one Tier-1 sends significantly more traffic than it receives, the other may demand payment (paid peering). Also, some large content providers (Google, Netflix) build their own backbone and peer directly with Tier-1s, bypassing Tier-2s. A wrong answer (e.g., \"always true\" or \"Tier-2 never peers\") shows the student lacks awareness of peering disputes, traffic ratios, and the evolving role of content networks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple simulation (pseudocode or flowchart) for a router's forwarding logic: receive packet → check destination IP → lookup routing table → if MTU < packet size and DF=0 → fragment → forward each fragment out appropriate interface. Include handling for TTL decrement and checksum recalculation.",
+     "a": "A good answer includes: (1) decrement TTL, if 0 drop and send ICMP Time Exceeded; (2) recalculate header checksum; (3) longest-prefix match in routing table; (4) if outgoing MTU < packet length and DF=0, fragment into pieces with MF flag and fragment offset; (5) forward each fragment. A poor answer misses TTL/checksum, uses exact-match instead of longest-prefix, or forgets to copy headers to fragments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

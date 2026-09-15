@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_007",
+   "title": "c12_ps_cbse_06_007",
+   "questions": [
+    {
+     "q": "What is the primary difference between the lending window of the IMF and that of the World Bank in terms of time horizon and purpose?",
+     "a": "Correct answer: The IMF provides short-to-medium-term financing (typically 1–5 years) to address balance-of-payments crises and stabilise macroeconomic conditions, while the World Bank provides long-term loans (15–30 years) for specific development projects (infrastructure, education, health) and structural reforms. A wrong answer that swaps the time horizons or purposes reveals confusion between crisis firefighting (IMF) and developmental lending (World Bank) — a fundamental distinction tested in both board and CUET questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the IMF's quota-based voting system lead to accusations of \"democratic deficit\"? Explain with reference to the distribution of voting power.",
+     "a": "Correct answer: Quotas are based on a country's economic size (GDP, openness, reserves, variability), so wealthy countries hold a majority of votes. The G7 alone controls ~45% of IMF votes; the US has de facto veto (16.5% > 15% threshold for major decisions). Developing countries, despite representing most of the world's population, hold a minority share. A wrong answer that claims \"one country one vote\" or ignores the 15% veto threshold shows misunderstanding of the weighted voting mechanism that underpins North-South governance critiques.",
+     "self_check": true
+    },
+    {
+     "q": "A country experiencing a sudden capital flight and currency collapse approaches the IMF. The IMF approves a Stand-By Arrangement with conditions: reduce fiscal deficit from 8% to 3% of GDP in two years, float the exchange rate, and remove fuel subsidies. Identify the specific IMF lending instrument and explain the rationale behind each condition.",
+     "a": "Correct answer: Instrument = Stand-By Arrangement (SBA), the IMF's workhorse crisis-lending tool. Rationale: (1) Fiscal consolidation restores investor confidence and reduces need for monetary financing; (2) Floating the exchange rate stops reserve bleed and corrects misalignment; (3) Removing fuel subsidies targets inefficient spending that benefits the rich disproportionately. A wrong answer that names \"Structural Adjustment Facility\" (concessional, for low-income countries) or omits the macroeconomic logic behind each condition shows inability to apply IMF conditionality framework to real cases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the governance structure of the IMF and World Bank. Why has the \"gentlemen's agreement\" on leadership (European IMF MD, American World Bank President) survived despite demands for merit-based selection?",
+     "a": "Correct answer: Both have a Board of Governors (ministerial level), Executive Board (24 Directors), and professional staff led by Managing Director (IMF) / President (World Bank). The informal agreement persists because: (1) US holds veto power in both; (2) Europe collectively holds enough votes to block alternatives; (3) emerging economies (China, India, Brazil) are divided on a single candidate; (4) major shareholders fear losing influence if selection becomes truly open. A wrong answer that describes formal election procedures without addressing the political economy of the informal bargain misses the core governance critique.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"IMF conditionality during the 1997 Asian Financial Crisis deepened the recession and violated national sovereignty.\" Use evidence from at least two affected countries.",
+     "a": "Correct evaluation: Partially valid. In Thailand and Indonesia, IMF insisted on premature fiscal tightening (surplus targets) and high interest rates while corporate sectors were collapsing, turning a currency crisis into a deep recession. Closure of insolvent banks without deposit insurance triggered panic. However, Korea's faster recovery followed adoption of IMF-recommended financial restructuring. The sovereignty critique holds because conditionality intrudes on domestic policy space (tax, spending, labour laws) without democratic accountability. A wrong answer that either fully endorses or fully rejects conditionality without country-specific nuance fails the evaluative requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a reform proposal for IMF quota redistribution that would increase developing-country voice while preserving the institution's financial credibility. Specify the formula variables and transition mechanism.",
+     "a": "Good answer includes: (1) Formula: blend of GDP (PPP 50%, market 30%), trade openness (10%), reserves (5%), population (5%) to weight emerging economies higher; (2) Transition: ad hoc quota increases for dynamic economies (China, India, Brazil) funded by voluntary reductions from over-represented Europeans; (3) Safeguard: maintain 85% supermajority for key decisions so US veto remains; (4) Review every 5 years. Poor answer proposes \"one country one vote\" (destroys financial backing) or ignores the need for US/Europe buy-in, showing lack of practical reform design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

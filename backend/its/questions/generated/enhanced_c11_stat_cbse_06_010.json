@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_010",
+   "title": "c11_stat_cbse_06_010",
+   "questions": [
+    {
+     "q": "What are the two variables plotted on the X-axis and Y-axis of a Lorenz Curve, and what does the 45-degree line represent?",
+     "a": "The X-axis plots the cumulative percentage of population (or observation units) and the Y-axis plots the cumulative percentage of the variable (e.g., income, wealth). The 45-degree line represents perfect equality where each percentage of population earns exactly the same percentage of total income. A wrong answer—such as plotting raw income on Y-axis or saying the 45-degree line represents perfect inequality—reveals the student confuses the Lorenz Curve with a simple frequency polygon or misinterprets the equality benchmark.",
+     "self_check": true
+    },
+    {
+     "q": "If Lorenz Curve A lies everywhere closer to the line of equality than Lorenz Curve B, can we definitively say distribution A has lower inequality than distribution B? Explain why or why not.",
+     "a": "Yes, if Curve A lies everywhere closer to (or on) the line of equality than Curve B, then distribution A has unambiguously lower inequality (Lorenz dominance). This is because the area between the curve and the line of equality—which is the basis for the Gini coefficient—is strictly smaller for A. A wrong answer claiming \"not necessarily\" or \"need to calculate Gini\" reveals the student does not understand Lorenz dominance as a sufficient condition for inequality ranking and over-relies on scalar indices.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following income data for 5 households: ₹10,000, ₹20,000, ₹30,000, ₹40,000, ₹100,000. Construct the cumulative percentage table required to plot the Lorenz Curve (show all intermediate steps).",
+     "a": "Step 1: Sort incomes ascending: 10k, 20k, 30k, 40k, 100k. Total = 200k. Step 2: Cumulative households: 1,2,3,4,5 → cumulative %: 20%,40%,60%,80%,100%. Step 3: Cumulative income: 10k,30k,60k,100k,200k → cumulative %: 5%,15%,30%,50%,100%. Step 4: Table rows: (20,5), (40,15), (60,30), (80,50), (100,100). A wrong answer with unsorted data, missing the (0,0) origin point, or incorrect percentages reveals the student skips the ordering step or misunderstands cumulative percentage calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Lorenz Curve for a discrete series with 10 observations to one for a continuous grouped frequency distribution with 10 class intervals. Identify two procedural differences in construction and explain why they arise.",
+     "a": "Difference 1: For discrete data, cumulative percentages are computed at each distinct observation; for grouped data, we assume uniform distribution within classes and use upper class boundaries for cumulative percentages. Difference 2: Grouped data requires interpolation (or assumption of even spread) to estimate cumulative variable values at class boundaries, while discrete data uses exact running totals. These arise because grouped data loses individual observation information. A wrong answer stating \"no difference\" or \"grouped data uses midpoints\" reveals the student treats grouped data as discrete and ignores the continuity assumption.",
+     "self_check": true
+    },
+    {
+     "q": "A policymaker claims: \"The Gini coefficient for Country X is 0.35 and for Country Y is 0.40, so Country X has less inequality.\" Critique this statement using Lorenz Curve concepts. Under what condition could this comparison be misleading?",
+     "a": "The statement is valid only if the Lorenz Curves do not intersect. If they cross, the Gini coefficient (a single aggregate measure) can rank distributions opposite to Lorenz dominance at specific population segments. For example, Country X might have lower overall Gini but higher inequality among the poorest 20%. A wrong answer accepting the Gini comparison unconditionally reveals the student treats Gini as a complete ordering without understanding its limitation when Lorenz Curves intersect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where two states have identical mean income but different Lorenz Curves. Sketch the expected curves and explain what policy conclusion follows.",
+     "a": "Scenario: State A (Kerala-like) has broad-based development; State B (high inequality state) has same mean income but concentrated in top 10%. Curve A bows gently; Curve B bows sharply near the top. Policy: State B needs targeted redistribution (progressive taxation, direct transfers) while State A needs growth-oriented policies. A poor answer giving identical curves or ignoring the mean-income constraint reveals the student confuses central tendency with distributional shape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

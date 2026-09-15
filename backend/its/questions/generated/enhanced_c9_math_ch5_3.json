@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_3",
+   "title": "c9_math_ch5_3",
+   "questions": [
+    {
+     "q": "Define a chord of a circle. How is a diameter different from a chord? Is every diameter a chord? Is every chord a diameter?",
+     "a": "A chord is a line segment with both endpoints on the circle. A diameter is a chord that passes through the centre; it is the longest chord. Every diameter is a chord, but not every chord is a diameter (only those passing through the centre). A wrong answer (e.g., saying a chord must pass through the centre, or that a diameter is not a chord) reveals confusion between the definitions of chord, diameter, and radius, or a failure to understand the subset relationship.",
+     "self_check": true
+    },
+    {
+     "q": "In a circle of radius 10 cm, a chord is at a distance of 6 cm from the centre. A student calculates the chord length as √(10² − 6²) = 8 cm. Is this correct? Explain why or why not.",
+     "a": "The student's answer is incorrect. The perpendicular from the centre to the chord bisects the chord, so √(r² − d²) gives only half the chord length. The full chord length is 2 × √(10² − 6²) = 2 × 8 = 16 cm. A wrong answer reveals the misconception that the distance from the centre to the chord directly gives the half-chord length without doubling, or that the student forgot the perpendicular bisects the chord.",
+     "self_check": true
+    },
+    {
+     "q": "A circular garden has a radius of 13 m. A straight path (chord) is 10 m from the centre. Find the length of the path. Show all steps.",
+     "a": "Given: r = 13 m, d = 10 m. Half-chord length = √(r² − d²) = √(169 − 100) = √69 ≈ 8.3066 m. Full chord length = 2 × 8.3066 ≈ 16.61 m. Steps: 1) Draw right triangle with hypotenuse = radius, one leg = perpendicular distance, other leg = half-chord. 2) Apply Pythagoras: (half-chord)² = r² − d². 3) Compute half-chord. 4) Double it for full chord. A wrong answer (e.g., 8.3 m) indicates the student forgot to double the half-chord; an answer like 23 m indicates they added instead of subtracting squares.",
+     "self_check": true
+    },
+    {
+     "q": "Two chords AB and CD in the same circle have lengths 12 cm and 16 cm respectively. The perpendicular distances from the centre to these chords are 5 cm and 3 cm. Without calculating the radius, can you determine which chord is closer to the centre? Justify your reasoning using the relationship between chord length and distance from centre.",
+     "a": "The longer chord (16 cm) is closer to the centre (distance 3 cm) than the shorter chord (12 cm at distance 5 cm). In a given circle, for a fixed radius, as the perpendicular distance from the centre to a chord increases, the chord length decreases (since half-chord = √(r² − d²)). Therefore, the chord with smaller distance (3 cm) must be the longer one (16 cm). A wrong answer (e.g., saying the 12 cm chord is closer because 5 < 3 is false, or no justification) reveals a lack of understanding of the inverse relationship between chord length and distance from centre.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a circle, if you draw a line from the centre to the midpoint of a chord, that line is always perpendicular to the chord.\" Evaluate this statement. Is it always true, sometimes true, or never true? Provide a geometric reason.",
+     "a": "The statement is always true. This is a theorem (converse of the perpendicular bisector property): the line joining the centre of a circle to the midpoint of a chord is perpendicular to the chord. It can be proved by SSS congruence of the two triangles formed by the radii to the endpoints and the line to the midpoint. A wrong evaluation (e.g., \"sometimes true\" or \"only for diameters\") reveals confusion between the theorem and its converse, or not recognizing that the centre, midpoint, and perpendicular are uniquely linked.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a circular object (e.g., a round table, a wheel, a pizza) where you need to find the length of a chord given the radius and the distance from the centre. Write the problem, draw a labelled diagram, and solve it completely.",
+     "a": "Example problem: \"A circular pizza of radius 15 cm has a straight cut (chord) made 9 cm from the centre. How long is the cut?\" Diagram: circle with centre O, chord AB, perpendicular OM = 9 cm, OA = 15 cm. Solution: AM = √(15² − 9²) = √(225 − 81) = √144 = 12 cm. AB = 2 × 12 = 24 cm. A good answer includes a clear diagram, correct use of Pythagoras, doubling the half-chord, and correct units. A poor answer (e.g., missing diagram, forgetting to double, wrong units) reveals gaps in geometric visualization or procedural fluency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

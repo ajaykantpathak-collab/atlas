@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_006",
+   "title": "c7_math_ch13_006",
+   "questions": [
+    {
+     "q": "What is the mode of the following data set representing daily pocket money amounts (in rupees): 10, 20, 10, 30, 10, 40, 20?",
+     "a": "The mode is 10 rupees because it appears 3 times, which is more frequently than any other number in the set. A student who answers 20 or 40 has confused the mode with the maximum value or picked a number that appeared second-most often, failing to count frequencies correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Can a data set consisting of five different numbers (e.g., 2, 5, 8, 12, 19) have a mode? Explain why or why not.",
+     "a": "No, this data set does not have a mode because every number appears with a frequency of exactly 1. For a mode to exist, at least one value must appear more frequently than the others. A student who selects one of the numbers (like 19) believes that the largest number in any set is automatically the mode.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mode of the following set of test scores out of 25: 14, 18, 14, 22, 18, 18, 20, 14, 18, 25. Show your frequency count.",
+     "a": "Step 1: List distinct scores: 14, 18, 20, 22, 25. Step 2: Count frequencies for each: Score 14 appears 3 times; Score 18 appears 4 times; Score 20 appears 1 time; Score 22 appears 1 time; Score 25 appears 1 time. Step 3: Compare frequencies to find the maximum: 4 is the highest frequency. Step 4: Identify the corresponding value, which is 18. The mode is 18. A student who answers 14 likely stopped counting after the first few numbers or miscounted the frequencies of 14 and 18.",
+     "self_check": true
+    },
+    {
+     "q": "A shoe shop records the daily shoe sizes sold: 6, 7, 6, 8, 7, 8, 6, 8. Compare the frequencies of 6, 7, and 8, and explain why this data set is special compared to a unimodal data set.",
+     "a": "Size 6 appears 3 times, size 7 appears 2 times, and size 8 appears 3 times. Both 6 and 8 share the highest frequency of 3. This makes the data set bimodal (having two modes: 6 and 8), whereas a standard unimodal data set has only one most frequent value. A student who picks only 6 or only 8 ignores the fact that two values tie for the maximum frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Arun says that if you add 5 to every single number in a data set, the mode of the new data set will also increase by 5. Evaluate Arun's statement and explain your reasoning.",
+     "a": "Arun's statement is correct. Adding 5 to every data point shifts all values up equally on the number line, preserving their relative frequencies and relative order. Therefore, the value that occurred most frequently originally will still occur most frequently, but its numerical value will be increased by 5. A student who disagrees might think that shifting all values destroys the frequency relationships or changes which value is most popular.",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of six integers where the mode is 15, the median is 12, and no number is greater than 25.",
+     "a": "An acceptable data set is: 8, 10, 15, 15, 15, 20 (or any set where 15 appears at least three times, the two middle numbers average to 12 when ordered, and all values are <= 25). A poor answer provides a set where 15 is not the most frequent value, or where the median does not equal 12, showing a lack of understanding of how mode and median constraints interact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

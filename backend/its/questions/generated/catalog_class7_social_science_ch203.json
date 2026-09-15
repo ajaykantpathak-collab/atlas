@@ -1,0 +1,194 @@
+{
+ "catalog": "catalog_class7_social_science_ch203",
+ "concepts": [
+  {
+   "id": "gess.203.1",
+   "title": "Lithospheric Plates and Earth Movements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lithospheric Plates and Earth Movements' refers to.",
+     "a": "Slabs of the Earth's crust move extremely slowly driven by thermal convection currents within mantle magma, dividing tectonic activity into endogenic and exogenic forces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lithospheric Plates and Earth Movements'.",
+     "a": "Internal mantle convection propels crustal plate movement and drives endogenic and exogenic geological processes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Lithospheric Plates and Earth Movements' taught, and from which source text?",
+     "a": "Earth Movements (source: gess203.txt lines 1-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.2",
+   "title": "Volcanoes and Volcanic Eruptions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Volcanoes and Volcanic Eruptions' refers to.",
+     "a": "A vent or opening in the earth's crust through which subterranean magma, molten rock, hot gases, and ash erupt suddenly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Volcanoes and Volcanic Eruptions'.",
+     "a": "Deep subterranean pressure forces molten rock through crustal vents to form volcanic structures.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Volcanoes and Volcanic Eruptions' taught, and from which source text?",
+     "a": "Volcanoes (source: gess203.txt lines 36-50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.3",
+   "title": "Earthquakes and Seismic Energy Transmission",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Earthquakes and Seismic Energy Transmission' refers to.",
+     "a": "Sudden vibrations propagating through the earth caused by tectonic plate adjustments, originating at an underground focus and spreading outward from the surface epicentre.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Earthquakes and Seismic Energy Transmission'.",
+     "a": "Tectonic vibrations radiate outward from the surface epicentre located directly above the subterranean origin focus.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Earthquakes and Seismic Energy Transmission' taught, and from which source text?",
+     "a": "Earthquakes (source: gess203.txt lines 51-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.4",
+   "title": "Earthquake Measurement and Disaster Preparedness",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Earthquake Measurement and Disaster Preparedness' refers to.",
+     "a": "Quantification of seismic magnitude using a seismograph on the Richter scale, alongside practical safety measures to mitigate disaster impacts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Earthquake Measurement and Disaster Preparedness'.",
+     "a": "Richter scale rating measures earthquake magnitude while structural shelter precautions minimise human impact.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Earthquake Measurement and Disaster Preparedness' taught, and from which source text?",
+     "a": "Earthquake Preparedness (source: gess203.txt lines 86-140)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.5",
+   "title": "Weathering and Erosion Processes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weathering and Erosion Processes' refers to.",
+     "a": "Degradation of surface geology split into static rock disintegration (weathering) and dynamic removal and transport of material by water, wind, or ice (erosion).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weathering and Erosion Processes'.",
+     "a": "Weathering breaks down surface rocks while natural agents erode, transport, and deposit rock particles to shape landforms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Weathering and Erosion Processes' taught, and from which source text?",
+     "a": "Major Landforms (source: gess203.txt lines 141-155)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.6",
+   "title": "Fluvial Landforms and River Processes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fluvial Landforms and River Processes' refers to.",
+     "a": "Geological structures created across river courses, including erosion features like waterfalls and meanders, and deposition features like ox-bow lakes, floodplains, levees, and deltas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fluvial Landforms and River Processes'.",
+     "a": "Running water shapes landscapes through upper-course erosion and lower-course deposition.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fluvial Landforms and River Processes' taught, and from which source text?",
+     "a": "Work of a River (source: gess203.txt lines 156-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.7",
+   "title": "Coastal Landforms and Sea Wave Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coastal Landforms and Sea Wave Action' refers to.",
+     "a": "Shoreline structures produced by marine hydraulic action and abrasion, progressing from sea caves to arches and isolated stacks, along with sea cliffs and beaches.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coastal Landforms and Sea Wave Action'.",
+     "a": "Continuous wave action erodes coastal rock from caves to arches and stacks, while sediment deposition creates beaches.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Coastal Landforms and Sea Wave Action' taught, and from which source text?",
+     "a": "Work of Sea Waves (source: gess203.txt lines 201-225)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.8",
+   "title": "Glacial Landforms and Ice Erosion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Glacial Landforms and Ice Erosion' refers to.",
+     "a": "Features crafted by moving ice sheets that scrape bedrock hollows which fill into glacial lakes, while dumping mixed rock sediment as glacial moraines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glacial Landforms and Ice Erosion'.",
+     "a": "Moving glaciers carve deep bedrock hollows and deposit unsorted rock debris known as moraines.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Glacial Landforms and Ice Erosion' taught, and from which source text?",
+     "a": "Work of Ice (source: gess203.txt lines 226-245)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.203.9",
+   "title": "Aeolian Landforms and Wind Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Aeolian Landforms and Wind Action' refers to.",
+     "a": "Arid features shaped by wind erosion and transport, producing narrow-based mushroom rocks, shifting sand dunes, and extensive fine silt loess deposits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aeolian Landforms and Wind Action'.",
+     "a": "Desert winds selectively erode rock bases and deposit sand as dunes or fine dust as extensive loess fields.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Aeolian Landforms and Wind Action' taught, and from which source text?",
+     "a": "Work of Wind (source: gess203.txt lines 246-270)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_006",
+   "title": "c12_ip_cbse_02_006",
+   "questions": [
+    {
+     "q": "What does `df.isnull().sum()` return when applied to a DataFrame with 3 columns and 5 rows where column 'A' has 2 NaN, column 'B' has 0 NaN, and column 'C' has 5 NaN?",
+     "a": "It returns a Series with index ['A', 'B', 'C'] and values [2, 0, 5] — the count of missing values per column. A wrong answer like \"7\" (total NaN count) reveals the student thinks `sum()` aggregates across the entire DataFrame rather than column-wise (default `axis=0`). A wrong answer like \"True/False\" reveals confusion between `isnull()` (boolean mask) and `isnull().sum()` (integer counts).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df.dropna()` on a DataFrame with 10 rows and 4 columns where only 1 row has a single NaN in column 'C'. The student expects 9 rows in the result but gets 10 rows. Explain why this happens and what parameter fixes it.",
+     "a": "`dropna()` defaults to `how='any'` and `axis=0`, so it drops rows with **any** NaN. If the student got 10 rows, the NaN must be in a column not considered — but the real issue is likely that `dropna()` returns a **new** DataFrame by default (`inplace=False`). The student probably didn't assign the result: `df = df.dropna()`. The fix is either `df.dropna(inplace=True)` or `df = df.dropna()`. A wrong answer citing `how='all'` reveals confusion between \"drop if all values are NaN\" vs \"drop if any value is NaN\".",
+     "self_check": true
+    },
+    {
+     "q": "Given a DataFrame `marks` with columns ['Physics', 'Chemistry', 'Maths'] where 'Maths' has 3 NaN values out of 20 rows. Write code to fill only the 'Maths' NaN with the median of 'Maths' without affecting other columns. Then explain why using the global `df.median()` would be wrong.",
+     "a": "```python\nmarks['Maths'] = marks['Maths'].fillna(marks['Maths'].median())\n```\nUsing `df.fillna(df.median())` computes the median **per column** and fills each column's NaN with its own median — which seems correct but fails if other columns have no NaN (wasted computation) or if you only want to impute one column. More critically, if 'Physics' has NaN and you use `df.median()`, it fills 'Physics' with Physics median — but the question asks to fill **only Maths**. A wrong answer using `df.fillna(marks['Maths'].median())` broadcasts a scalar to all columns, filling Physics/Chemistry NaN with Maths median — a catastrophic domain error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `df.dropna(thresh=3)` and `df.dropna(axis=1, thresh=3)` on a DataFrame with 5 rows and 4 columns. Under what data condition would both produce the same result?",
+     "a": "`thresh=3` with default `axis=0` keeps rows having **at least 3 non-NaN values**. `axis=1, thresh=3` keeps columns having **at least 3 non-NaN values**. They produce the same result only when the DataFrame is **square (n_rows = n_cols) and the missing pattern is symmetric** — e.g., a 4×4 DataFrame where the exact same positions are NaN across rows and columns. In general, they operate on orthogonal axes and yield different shapes. A student who says \"they always give same output\" confuses `axis` parameter semantics.",
+     "self_check": true
+    },
+    {
+     "q": "A dataset records daily temperature (in °C) for 30 days. Day 15 and 16 are missing due to sensor failure. Evaluate whether `fillna(method='ffill')` is appropriate. If not, propose a better strategy and justify.",
+     "a": "`ffill` (forward fill) propagates Day 14's temperature to Day 15 and 16 — assuming temperature is constant, which is physically unrealistic for daily weather. Better: `fillna(method='interpolate', limit_direction='both')` for linear interpolation between Day 14 and Day 17, or `fillna(df['temp'].rolling(3, center=True).mean())` for local smoothing. `ffill` is only appropriate for **time-series with persistent state** (e.g., last known stock price, inventory count). A student who says \"ffill is fine because it's time-series\" misses the distinction between **state persistence** vs **continuous measurement**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where using `fillna(0)` for a numeric column would produce a misleading analysis, and write the correct `fillna` code with justification.",
+     "a": "**Scenario**: A DataFrame `upi_txns` has column `amount` (₹) for UPI transactions. Failed/pending transactions have `NaN` (not ₹0). Filling with 0 makes failed transactions look like ₹0 payments, inflating transaction count and deflating average ticket size. **Correct code**: `upi_txns['amount'] = upi_txns['amount'].fillna(upi_txns['amount'].median())` — median is robust to outliers (large transfers). **Justification**: ₹0 is a valid transaction amount (e.g., mandate registration), so 0 conflates \"no transaction\" with \"zero-value transaction\". A poor answer uses `mean()` without checking skew, or drops rows losing failed-transaction metadata.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

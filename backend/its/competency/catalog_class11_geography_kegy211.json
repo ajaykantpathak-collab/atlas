@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 211,
+ "chapter_title": "World Climate and Climate Change",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy211.txt",
+ "concepts": [
+  {
+   "id": "kegy.211.1.1",
+   "title": "Climate Classification by Koeppen",
+   "section": "",
+   "definition": "Vladimir Koeppen classified world climates by monthly temperature and precipitation into tropical rainy A, dry B, warm temperate rainy C, cold snowy D and polar E groups with letter subtypes for rainfall seasonality and heat, giving the most widely used empirical climate scheme.",
+   "formula": "",
+   "key_idea": "Koeppen's capital letters denote major groups, small letters like f, w and s denote rainfall regimes and capitals like S, W, T and F refine dry and cold types.",
+   "textbook_ref": "kegy211.txt koeppen scheme sections",
+   "question_patterns": [
+    "explain the koeppen scheme of climate classification",
+    "name the five major climatic groups of koeppen with letters",
+    "how do the small letters f w and s modify koeppen groups",
+    "describe the tropical rainy group a climates",
+    "which koeppen climates occur in india",
+    "compare dry group b climates of hot desert and steppe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.211.2.1",
+   "title": "Climate Change, Global Warming and Its Causes and Impacts",
+   "section": "",
+   "definition": "Climate change shows in rising global temperatures of about 0.6 degrees over the century, retreating glaciers, rising sea levels and shifting rainfall belts, driven by greenhouse gases from burning fossil fuels, deforestation and land use change, alongside natural volcanic and orbital factors.",
+   "formula": "",
+   "key_idea": "The Kyoto Protocol and UNFCCC negotiations seek emission cuts, and the impacts threaten agriculture, sea coasts and water supplies worldwide.",
+   "textbook_ref": "kegy211.txt climate change sections",
+   "question_patterns": [
+    "what evidence shows that world climate is changing",
+    "name the greenhouse gases responsible for global warming",
+    "state the impacts of climate change on sea level and agriculture",
+    "what do unfccc and kyoto protocol aim at",
+    "how do human activities change the climate",
+    "differentiate natural and human causes of climate change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.211.3.1",
+   "title": "Climate Regions of India in the World Pattern",
+   "section": "World climate",
+   "definition": "India spans several Koeppen climates from the Am tropical monsoon of the west coast, Aw savanna of the interior, BWhw hot desert of the northwest, Cwg humid subtropical of the north and the highland climates of the Himalayas, so the world climate pattern is reproduced within one country.",
+   "formula": "",
+   "key_idea": "This climatic variety explains India's range of crops, forests and settlement patterns from the equatorial coast to alpine heights.",
+   "textbook_ref": "kegy211.txt indian climates discussion",
+   "question_patterns": [
+    "which koeppen climate types occur in india",
+    "describe the tropical monsoon climate of the west coast",
+    "where does the hot desert climate occur in india",
+    "compare the climate of the northern plains and the deccan",
+    "what are highland climates and where are they found in india",
+    "relate india's climate variety to its crop diversity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy211.txt exercises",
+   "questions": [
+    "Multiple choice on world climate groups.",
+    "Describe the Koeppen classification of world climates.",
+    "What are the causes of climate change?",
+    "Explain the greenhouse effect and global warming.",
+    "Write a note on the Kyoto Protocol."
+   ]
+  }
+ ]
+}

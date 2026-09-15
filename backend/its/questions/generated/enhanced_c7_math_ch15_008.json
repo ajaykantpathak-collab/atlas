@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_008",
+   "title": "c7_math_ch15_008",
+   "questions": [
+    {
+     "q": "What does it mean to \"verify\" the solution $x = 4$ for the equation $2x + 3 = 11$?",
+     "a": "To verify means to substitute $4$ in place of $x$ in the equation to check if the left side equals the right side. A student who answers that \"it means to solve the equation\" confuses the process of finding an unknown with the process of checking a given answer.",
+     "self_check": true
+    },
+    {
+     "q": "When checking if $x = -2$ is a solution to the equation $5x - 3 = -13$, a student calculates the Left-Hand Side and gets $5(-2) - 3 = -7$. Since $-7 \\neq -13$, they conclude $x = -2$ is a solution. What fundamental concept of equations did this student misunderstand?",
+     "a": "The student misunderstood the definition of an equality and the substitution process. A wrong answer reveals that the student either made an arithmetic error with integer multiplication ($5 \\times -2 = -10$) or failed to recognize that LHS must equal RHS for a value to be a valid solution.",
+     "self_check": true
+    },
+    {
+     "q": "Verify whether $x = 6$ is a solution for the equation $4x - 7 = 2x + 5$. Show the values of LHS and RHS separately.",
+     "a": "LHS = $4(6) - 7 = 24 - 7 = 17$. RHS = $2(6) + 5 = 12 + 5 = 17$. Since LHS = RHS ($17 = 17$), $x = 6$ is a valid solution. A wrong answer usually indicates an arithmetic calculation error during substitution or failing to evaluate both sides independently.",
+     "self_check": true
+    },
+    {
+     "q": "If $x = 3$ makes the Left-Hand Side of an equation equal to 25, but makes the Right-Hand Side equal to 19, what can you conclude about $x = 3$ for that equation?",
+     "a": "We can conclude that $x = 3$ is NOT a solution to the equation because the two sides are unbalanced ($25 \\neq 19$). A wrong answer shows confusion about what constitutes an equation balance, mistakenly thinking any evaluated number can work.",
+     "self_check": true
+    },
+    {
+     "q": "Ananya checks if $y = -4$ is a solution to $3(y + 2) = -6$. Her working is: LHS = $3(-4 + 2) = 3(-2) = -6$, RHS = $-6$. She concludes it is correct. Is Ananya's verification correct, and why?",
+     "a": "Ananya's verification is completely correct because she substituted $y = -4$, used integer addition inside the bracket correctly, multiplied to get $-6$, and matched the RHS. A wrong answer reveals a lack of understanding of order of operations (brackets first) or integer arithmetic rules.",
+     "self_check": true
+    },
+    {
+     "q": "Create an equation in one variable where $x = 5$ is a guaranteed solution, and write down the two-step verification process to prove it.",
+     "a": "An acceptable answer should propose an equation like $2x + 1 = 11$. The verification shows LHS = $2(5) + 1 = 11$ and RHS = $11$, proving LHS = RHS. A poor answer gives an equation where $x = 5$ fails, showing a lack of understanding of how equations are constructed from solutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

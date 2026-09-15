@@ -1,0 +1,768 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 201,
+ "chapter_title": "Fractions in Disguise",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp201.txt",
+ "concepts": [
+  {
+   "id": "hegp.201.1",
+   "title": "Understanding Percentages",
+   "section": "1.1",
+   "definition": "A percentage is a specific way of representing a part of a whole where the total is always considered to be 100.",
+   "formula": "percentage = (part / whole) * 100",
+   "key_idea": "A percent always measures against a whole of 100.",
+   "textbook_ref": "hegp201.txt lines 5-15",
+   "question_patterns": [
+    "explain what the word percent tells us about a whole of 100",
+    "what does 25 percent mean",
+    "express 25 out of 100 as a percentage",
+    "calculate the percentage of a quantity given its value out of 100",
+    "What does 40 percent of a class mean?",
+    "If 35 of 100 students walk, state it as a percent."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the part by the total whole",
+     "explain": "Find the ratio of the given quantity to the total.",
+     "compute": "ratio = part / whole"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100",
+     "explain": "Convert the ratio to a per-hundred value.",
+     "compute": "result = ratio * 100"
+    },
+    {
+     "step": 3,
+     "action": "recover the part from the percentage to verify",
+     "explain": "part = percentage x whole / 100, confirming the round-trip",
+     "compute": "result * whole / 100"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.2",
+   "title": "Converting Fractions to Percentages",
+   "section": "1.1",
+   "definition": "Scale any fraction so its bottom count reads 100 -- or shift it by a factor of 100 -- to state it as a percent.",
+   "formula": "percentage = (numerator / denominator) * 100",
+   "key_idea": "Multiplying a fraction by 100 converts it to its percentage form.",
+   "textbook_ref": "hegp201.txt lines 25-45",
+   "question_patterns": [
+    "write the paint-mix fraction 3/4 as a percentage",
+    "express the fraction 3/4 as a percentage",
+    "convert 2/5 to percentage",
+    "what percentage of the mixture is red paint if it is 3/4 of the total",
+    "Write 7/20 as a percent.",
+    "Turn 0.45 into a percentage."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the fraction by 100",
+     "explain": "Multiply the numerator by 100 and divide by the denominator.",
+     "compute": "percentage = (numerator * 100) / denominator"
+    },
+    {
+     "step": 2,
+     "action": "for a decimal, multiply directly by 100",
+     "explain": "A decimal like 0.45 becomes 45 percent by shifting the decimal point two places right",
+     "compute": "decimal * 100"
+    },
+    {
+     "step": 3,
+     "action": "verify by converting back to a fraction",
+     "explain": "Divide the percentage by 100 to recover the original fraction",
+     "compute": "percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.3",
+   "title": "Finding the Value of a Percentage",
+   "section": "1.2",
+   "definition": "Calculating the actual numerical value that represents a given percentage of a total quantity.",
+   "formula": "value = (percent / 100) * total_quantity",
+   "key_idea": "The word 'of' in percentage problems indicates multiplication.",
+   "textbook_ref": "hegp201.txt lines 135-145",
+   "question_patterns": [
+    "calculate 25 percent of 120 marks",
+    "find 25% of 120",
+    "calculate 80% of 75 marks",
+    "what is 15% of 60",
+    "how much is 40% of 50",
+    "How much is 60 percent of 400?",
+    "Calculate 5 percent of 2500."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert percentage to decimal or fraction",
+     "explain": "Divide the percentage by 100.",
+     "compute": "fraction = percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the total quantity",
+     "explain": "Multiply the fraction by the whole amount to find the part.",
+     "compute": "result = fraction * total_quantity"
+    },
+    {
+     "step": 3,
+     "action": "to find the total from a known percentage value",
+     "explain": "total = value x 100 / percent",
+     "compute": "result * 100 / percent"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.4",
+   "title": "Ratios to Percentages",
+   "section": "1.2",
+   "definition": "Turn each part of a ratio into its slice of the whole, stated per 100.",
+   "formula": "part_percentage = (part_ratio / sum_of_ratios) * 100",
+   "key_idea": "Add the ratio parts first; that sum becomes the whole.",
+   "textbook_ref": "hegp201.txt lines 185-200",
+   "question_patterns": [
+    "the ratio of millet to water is 2:7, find the percentage of millet",
+    "convert the ratio 10:80:10 into percentages",
+    "what percentage does each part of the ratio 2:3 represent",
+    "Divide 700 between two people in ratio 3:4 -- what percent gets each?",
+    "Two chemicals mix 5:3 -- percent of each in the blend?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total parts",
+     "explain": "Add all the components of the ratio together.",
+     "compute": "total_parts = part_a + part_b"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage of the specific part",
+     "explain": "Divide the specific part by total parts and multiply by 100.",
+     "compute": "percentage = (part_a / total_parts) * 100"
+    },
+    {
+     "step": 3,
+     "action": "find the actual quantity for each part",
+     "explain": "quantity = (part_ratio / total_parts) x total_amount",
+     "compute": "(part_a / total_parts) * total_amount"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.5",
+   "title": "Percentage Increase or Decrease",
+   "section": "1.3",
+   "definition": "Compare a change against the starting figure, stated per 100.",
+   "formula": "percentage_change = (change_amount / original_value) * 100",
+   "key_idea": "Always use the original (initial) value as the base for calculation.",
+   "textbook_ref": "hegp201.txt lines 305-320",
+   "question_patterns": [
+    "find the percentage increase in price from 30 to 42",
+    "calculate the percentage decrease in footfall from 160 to 100",
+    "what is the rate of inflation if price rose from 38 to 42",
+    "Price rose from 80 to 100 -- percent rise?",
+    "A crowd fell from 2000 to 1500 -- percent fall?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the absolute change",
+     "explain": "Subtract the smaller value from the larger value.",
+     "compute": "change = abs(new_value - original_value)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage change",
+     "explain": "Divide the change by the original value and multiply by 100.",
+     "compute": "perc_change = (change / original_value) * 100"
+    },
+    {
+     "step": 3,
+     "action": "find the new value from a percentage change",
+     "explain": "new_value = original_value x (1 + percent_change / 100) for increase, or (1 - percent_change / 100) for decrease",
+     "compute": "original_value * (1 + perc_change / 100)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.6",
+   "title": "Profit and Loss Percentage",
+   "section": "1.3",
+   "definition": "State the gain or shortfall per 100 of what you paid.",
+   "formula": "profit_percent = ((sp - cp) / cp) * 100",
+   "key_idea": "Work the percent on the buying price, never the selling price.",
+   "textbook_ref": "hegp201.txt lines 345-360",
+   "question_patterns": [
+    "find the profit percentage if CP is 300 and SP is 430",
+    "calculate loss percentage if rice bought at 35 is sold at 30",
+    "what is the profit margin on a geometry box bought for 75 and sold for 110",
+    "Bought at 250, sold at 300 -- percent gain?",
+    "CP 400, SP 360 -- percent shortfall?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate profit or loss amount",
+     "explain": "Subtract CP from SP for profit, or SP from CP for loss.",
+     "compute": "diff = sp - cp"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage",
+     "explain": "Divide the difference by the cost price and multiply by 100.",
+     "compute": "result = (diff / cp) * 100"
+    },
+    {
+     "step": 3,
+     "action": "find the selling price from a desired profit percentage",
+     "explain": "sp = cp x (1 + profit_percent / 100)",
+     "compute": "cp * (1 + result / 100)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.7",
+   "title": "Simple Interest (No Compounding)",
+   "section": "1.4",
+   "definition": "The charge grows only on the sum first deposited, flat for the whole term.",
+   "formula": "amount = principal * (1 + (rate * time / 100))",
+   "key_idea": "The principal remains constant throughout the time period.",
+   "textbook_ref": "hegp201.txt lines 510-525",
+   "question_patterns": [
+    "find the amount after 3 years on 6000 at 10% interest without compounding",
+    "calculate simple interest on 50000 for 3 years at 7% p.a.",
+    "how much interest is earned on a deposit of p for t years at r%",
+    "Find the charge on 9000 at 6 percent for 4 years, flat.",
+    "A deposit of p at r percent for t years -- how much accumulates?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total interest",
+     "explain": "Multiply principal, rate, and time, then divide by 100.",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total amount",
+     "explain": "Add the interest to the original principal.",
+     "compute": "total_amount = principal + interest"
+    },
+    {
+     "step": 3,
+     "action": "find the principal from the total amount",
+     "explain": "principal = total_amount / (1 + rate x time / 100)",
+     "compute": "total_amount / (1 + rate * time / 100)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.8",
+   "title": "Compound Interest (Annual)",
+   "section": "1.4",
+   "definition": "Interest calculated on the initial principal and also on the accumulated interest of previous periods.",
+   "formula": "amount = principal * (1 + rate/100)**time",
+   "key_idea": "Each year's charge joins the balance before the next year is worked out.",
+   "textbook_ref": "hegp201.txt lines 530-550",
+   "question_patterns": [
+    "calculate amount for 6000 at 10% p.a. compounded annually for 3 years",
+    "find the population after 3 years if it grows at 3% annually",
+    "what is the final value of 20000 after 2 years at 10% compounded",
+    "What does 12000 become after 2 years at 8 percent, compounded yearly?",
+    "Find the compounded value of p at r percent for t years."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate growth factor",
+     "explain": "Add 1 to the decimal rate of interest.",
+     "compute": "factor = 1 + (rate / 100)"
+    },
+    {
+     "step": 2,
+     "action": "Apply compounding over time",
+     "explain": "Multiply principal by the growth factor raised to the power of time.",
+     "compute": "total_amount = principal * (factor ** time)"
+    },
+    {
+     "step": 3,
+     "action": "calculate the compound interest earned",
+     "explain": "compound interest = total amount minus principal",
+     "compute": "total_amount - principal"
+    }
+   ]
+  },
+  {
+   "id": "hegp.201.9",
+   "title": "Depreciation",
+   "section": "1.4",
+   "definition": "An asset sheds value year by year, usually quoted per 100 per year.",
+   "formula": "final_value = initial_value * (1 - rate/100)**time",
+   "key_idea": "Depreciation is like negative compound growth.",
+   "textbook_ref": "hegp201.txt lines 585-605",
+   "question_patterns": [
+    "a TV bought for 21000 depreciates by 5% in one year, find its value",
+    "population reduces by 10% every decade, find population after 3 decades",
+    "calculate the value of a bike after 2 years if it loses 10% value annually",
+    "A machine worth 50000 loses 10 percent yearly -- value after 2 years?",
+    "Quote the rule for yearly shrinking value."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate reduction factor",
+     "explain": "Subtract the decimal rate from 1.",
+     "compute": "factor = 1 - (rate / 100)"
+    },
+    {
+     "step": 2,
+     "action": "Apply depreciation over time",
+     "explain": "Multiply initial value by the reduction factor raised to the power of time.",
+     "compute": "final_value = initial_value * (factor ** time)"
+    },
+    {
+     "step": 3,
+     "action": "calculate the total depreciation amount",
+     "explain": "depreciation = initial value minus final value",
+     "compute": "initial_value - final_value"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp201.txt lines 30-40",
+   "concept": "hegp.201.2",
+   "question_type": "compute",
+   "question_pattern": "The red paint makes up {numerator}/{denominator} of this mixture. What percentage is red?",
+   "extracted_variables": {
+    "numerator": 3,
+    "denominator": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply fraction by 100",
+     "explain": "3/4 * 100",
+     "compute": "percentage = (numerator * 100) / denominator"
+    }
+   ]
+  },
+  {
+   "id": "ex3_marks",
+   "source_ref": "hegp201.txt lines 175-180",
+   "concept": "hegp.201.3",
+   "question_type": "compute",
+   "question_pattern": "Maximum marks are {total_quantity}. Zubin needs {percent}% to get an A. How much should he score?",
+   "extracted_variables": {
+    "total_quantity": 75,
+    "percent": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate value",
+     "explain": "80/100 * 75",
+     "compute": "result = (percent / 100) * total_quantity"
+    }
+   ]
+  },
+  {
+   "id": "ex_profit",
+   "source_ref": "hegp201.txt lines 345-355",
+   "concept": "hegp.201.6",
+   "question_type": "compute",
+   "question_pattern": "Retailer buys sweater at {cp} and sells at {sp}. Find profit percentage.",
+   "extracted_variables": {
+    "cp": 300,
+    "sp": 430
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find profit",
+     "compute": "diff = sp - cp"
+    },
+    {
+     "step": 2,
+     "action": "Find percentage",
+     "compute": "result = (diff / cp) * 100"
+    }
+   ]
+  },
+  {
+   "concept": "hegp.201.1",
+   "question_pattern": "{part} of {whole} marbles are blue -- what percent?",
+   "extracted_variables": {
+    "part": "30",
+    "whole": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "part over whole, per 100",
+     "explain": "30/100 x 100 = 30",
+     "compute": "percentage = (part / whole) * 100"
+    }
+   ],
+   "id": "ex2",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.1",
+   "question_pattern": "{part} of {whole} students cycle -- state it as a percent.",
+   "extracted_variables": {
+    "part": "48",
+    "whole": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "part over whole, per 100",
+     "explain": "48/100 x 100 = 48",
+     "compute": "percentage = (part / whole) * 100"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.2",
+   "question_pattern": "Write {numerator}/{denominator} as a percent.",
+   "extracted_variables": {
+    "numerator": "3",
+    "denominator": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale by 100",
+     "explain": "3/4 x 100 = 75",
+     "compute": "percentage = (numerator / denominator) * 100"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.3",
+   "question_pattern": "How much is {percent} percent of {total_quantity}?",
+   "extracted_variables": {
+    "percent": "25",
+    "total_quantity": "120"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "percent to a fraction, then multiply",
+     "explain": "25/100 x 120 = 30",
+     "compute": "value = (percent / 100) * total_quantity"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.4",
+   "question_pattern": "Split {total} in ratio {a}:{b} -- percent of each part.",
+   "extracted_variables": {
+    "total": "700",
+    "a": "3",
+    "b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the parts",
+     "explain": "3 + 4 = 7",
+     "compute": "sum_of_ratios = part_ratio + other_ratio"
+    },
+    {
+     "step": 2,
+     "action": "scale each part",
+     "explain": "3/7 x 100 = 42.86, 4/7 x 100 = 57.14",
+     "compute": "part_percentage = (part_ratio / sum_of_ratios) * 100"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.4",
+   "question_pattern": "A blend mixes chemicals {a}:{b} -- percent of each.",
+   "extracted_variables": {
+    "a": "5",
+    "b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the parts",
+     "explain": "5 + 3 = 8",
+     "compute": "sum_of_ratios = part_ratio + other_ratio"
+    },
+    {
+     "step": 2,
+     "action": "scale each part",
+     "explain": "5/8 x 100 = 62.5, 3/8 x 100 = 37.5",
+     "compute": "part_percentage = (part_ratio / sum_of_ratios) * 100"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.5",
+   "question_pattern": "Price rose from {old} to {new} -- percent rise?",
+   "extracted_variables": {
+    "old": "80",
+    "new": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the change",
+     "explain": "100 - 80 = 20",
+     "compute": "change_amount = new - old"
+    },
+    {
+     "step": 2,
+     "action": "compare with the start",
+     "explain": "20/80 x 100 = 25",
+     "compute": "percentage_change = (change_amount / original_value) * 100"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.5",
+   "question_pattern": "A crowd fell from {old} to {new} -- percent fall?",
+   "extracted_variables": {
+    "old": "2000",
+    "new": "1500"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the change",
+     "explain": "2000 - 1500 = 500",
+     "compute": "change_amount = old - new"
+    },
+    {
+     "step": 2,
+     "action": "compare with the start",
+     "explain": "500/2000 x 100 = 25",
+     "compute": "percentage_change = (change_amount / original_value) * 100"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.6",
+   "question_pattern": "Bought at {cp}, sold at {sp} -- percent gain?",
+   "extracted_variables": {
+    "cp": "250",
+    "sp": "300"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the gain",
+     "explain": "300 - 250 = 50",
+     "compute": "gain = sp - cp"
+    },
+    {
+     "step": 2,
+     "action": "percent on the buying price",
+     "explain": "50/250 x 100 = 20",
+     "compute": "profit_percent = ((sp - cp) / cp) * 100"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.7",
+   "question_pattern": "Charge on {principal} at {rate} percent for {time} years, flat.",
+   "extracted_variables": {
+    "principal": "9000",
+    "rate": "6",
+    "time": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "grow on the first sum only",
+     "explain": "9000 x (1 + 24/100) = 11160",
+     "compute": "amount = principal * (1 + (rate * time / 100))"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.7",
+   "question_pattern": "Flat charge: {principal} at {rate} percent for {time} years -- total to repay?",
+   "extracted_variables": {
+    "principal": "5000",
+    "rate": "9",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "grow on the first sum only",
+     "explain": "5000 x (1 + 18/100) = 5900",
+     "compute": "amount = principal * (1 + (rate * time / 100))"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.8",
+   "question_pattern": "{principal} at {rate} percent compounded yearly for {time} years -- final value?",
+   "extracted_variables": {
+    "principal": "12000",
+    "rate": "8",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound each year",
+     "explain": "12000 x (1.08)^2 = 13996.8",
+     "compute": "amount = principal * (1 + rate/100)**time"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.9",
+   "question_pattern": "A machine worth {initial_value} sheds {rate} percent yearly -- value after {time} years?",
+   "extracted_variables": {
+    "initial_value": "50000",
+    "rate": "10",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shrink each year",
+     "explain": "50000 x (0.9)^2 = 40500",
+     "compute": "final_value = initial_value * (1 - rate/100)**time"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.8",
+   "question_pattern": "{principal} at {rate} percent compounded yearly for {time} years -- what accumulates?",
+   "extracted_variables": {
+    "principal": "6000",
+    "rate": "10",
+    "time": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound each year",
+     "explain": "6000 x (1.1)^3 = 7986",
+     "compute": "amount = principal * (1 + rate/100)**time"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.201.9",
+   "question_pattern": "A bike worth {initial_value} loses {rate} percent yearly -- value after {time} years?",
+   "extracted_variables": {
+    "initial_value": "60000",
+    "rate": "5",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shrink each year",
+     "explain": "60000 x (0.95)^2 = 54150",
+     "compute": "final_value = initial_value * (1 - rate/100)**time"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hegp201.txt lines 85-95",
+   "questions": [
+    "Express 3/5 as a percentage.",
+    "Express 7/14 as a percentage.",
+    "Express 9/20 as a percentage.",
+    "Express 72/150 as a percentage.",
+    "Express 1/3 as a percentage.",
+    "Express 5/11 as a percentage."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hegp201.txt lines 245-255",
+   "questions": [
+    "Find 25% of 160",
+    "Find 16% of 250",
+    "Find 62% of 360",
+    "Find 140% of 40",
+    "Find 1% of 1 hour",
+    "Find 7% of 10 kg"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "hegp201.txt lines 430-445",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about shopkeeper.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about clothing.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about percentage."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

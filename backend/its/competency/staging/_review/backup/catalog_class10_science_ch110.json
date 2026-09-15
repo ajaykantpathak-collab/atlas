@@ -1,0 +1,428 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 110,
+ "chapter_title": "The Human Eye and the Colourful World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc110.txt",
+ "concepts": [
+  {
+   "id": "jesc.10.1",
+   "title": "Structure and Functions of the Human Eye",
+   "section": "10.1",
+   "definition": "The human eye is a biological sensory organ that functions like a camera, focusing incoming light onto the retina to form real and inverted images.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Light enters through the cornea, is regulated by the pupil and iris, and forms a real, inverted image on the retina.",
+   "textbook_ref": "jesc110.txt lines 15-55",
+   "question_patterns": [
+    "describe the function of the retina in the human eye",
+    "what is the role of the iris and pupil in controlling light",
+    "where is the image formed in the human eye",
+    "explain the function of the cornea and crystalline lens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the eye component mentioned in the question",
+     "explain": "The key components are cornea, iris, pupil, crystalline lens, and retina."
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.2",
+   "title": "Power of Accommodation and Limits of Vision",
+   "section": "10.1.1",
+   "definition": "The capacity of the eye's crystalline lens to alter its focal length via ciliary muscle movement, enabling clear vision of objects at various distances.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The normal range of vision is from 25 cm (near point) to infinity (far point).",
+   "textbook_ref": "jesc110.txt lines 56-95",
+   "question_patterns": [
+    "what is meant by power of accommodation of the eye",
+    "what is the near point and far point of a normal human eye",
+    "how do ciliary muscles help in focusing distant and nearby objects",
+    "why can we not see objects clearly closer than 25 cm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the definition of accommodation or limits of vision",
+     "explain": "Explain how ciliary muscles contract or relax to change the lens curvature, and state the normal limits (25 cm to infinity)."
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.3",
+   "title": "Focal Length and Power Relation",
+   "section": "10.2",
+   "definition": "The quantitative measure of a lens's converging or diverging strength, equal to one divided by its focal length in meters.",
+   "formula": "focal_length = 1 / power",
+   "key_idea": "In brief, Power in dioptres is the inverse of focal length in meters; negative power indicates a concave lens, positive indicates a convex lens.",
+   "textbook_ref": "jesc110.txt lines 100-120",
+   "question_patterns": [
+    "calculate the focal length of a lens of power",
+    "find the focal length of a lens with power of ... dioptres",
+    "what is the focal length of a corrective lens of power",
+    "determine the focal length of a lens having power"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate focal length in meters",
+     "explain": "Divide 1 by the given power of the lens.",
+     "compute": "focal_length = 1 / power"
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.4",
+   "title": "Myopia and its Lens Correction",
+   "section": "10.2(a)",
+   "definition": "A visual impairment where close objects are seen clearly but distant ones are blurry, corrected using a diverging lens whose focal length matches the far's negative point.",
+   "formula": "power = -100 / far_point",
+   "key_idea": "In brief, To correct myopia, the concave's focal length lens must equal the negative of the person's far point.",
+   "textbook_ref": "jesc110.txt lines 121-145",
+   "question_patterns": [
+    "the far point of a myopic person is ... cm find the power of the corrective lens",
+    "calculate the power of lens needed for a myopic eye with far point",
+    "what is the nature and power of lens required to correct a myopic eye with far point",
+    "determine the power of corrective lens for a short-sighted person with far point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the focal length of the corrective lens in meters",
+     "explain": "For a myopic eye, the focal length is the negative of the far point in meters.",
+     "compute": "focal_length = -far_point / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the power of the corrective lens",
+     "explain": "Power is the reciprocal of the focal length in meters.",
+     "compute": "power = 1 / focal_length"
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.5",
+   "title": "Hypermetropia and its Lens Correction",
+   "section": "10.2(b)",
+   "definition": "In brief, In brief, a vision defect where distant objects are clearly visible but nearby objects appear blurry, corrected using a converging lens to shift the near point back to 25 cm.",
+   "formula": "power = 4 - (100 / near_point)",
+   "key_idea": "The corrective convex lens must create a virtual image of an object at 25 cm at the person's defective near point.",
+   "textbook_ref": "jesc110.txt lines 146-170",
+   "question_patterns": [
+    "the near point of a hypermetropic eye is ... cm find the power of the lens",
+    "calculate the power of the lens required to correct hypermetropia with near point",
+    "what power of convex lens is needed for a near point of",
+    "determine the power of corrective lens for a far-sighted person with near point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the power of the lens",
+     "explain": "Using 1/f = 1/v - 1/u where u = -25 cm and v = -near_point, the power is 4 - 100/near_point.",
+     "compute": "power = 4 - 100 / near_point"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the focal length in meters",
+     "explain": "Focal length is the reciprocal of power.",
+     "compute": "focal_length = 1 / power"
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.6",
+   "title": "Presbyopia",
+   "section": "10.2(c)",
+   "definition": "An age-related vision defect characterized by a gradual decrease in accommodation power, often requiring bifocal lenses to assist both near and far vision.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, In brief, Presbyopia is indeed corrected using bifocal lenses where the upper half is concave for distant both vision and the lower half is convex for near vision.",
+   "textbook_ref": "jesc110.txt lines 171-190",
+   "question_patterns": [
+    "what is presbyopia and how is it corrected",
+    "why do old people need bifocal lenses",
+    "explain the cause of presbyopia"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the cause and correction of presbyopia",
+     "explain": "Describe the weakening of ciliary muscles and the use of bifocal lenses."
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.7",
+   "title": "Refraction of Light through a Prism",
+   "section": "10.3",
+   "definition": "The phenomenon where light deviates from its original path when passing through a triangular refracting medium with non-parallel faces.",
+   "formula": "angle_deviation = angle_incidence + angle_emergence - angle_prism",
+   "key_idea": "In brief, In brief, In brief, In brief, the angle of deviation varies with the angle of incidence, the prism's angle, and the material's refractive index.",
+   "textbook_ref": "jesc110.txt lines 215-265",
+   "question_patterns": [
+    "calculate the angle of deviation of a prism",
+    "find the angle of deviation given angle of incidence ... angle of emergence ... and angle of prism",
+    "what is the relation between angle of incidence, emergence, prism and deviation",
+    "determine the angle of deviation for a prism with"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the angle of deviation",
+     "explain": "Using the relation D = i + e - A, add the angle of incidence and emergence, then subtract the angle of the prism.",
+     "compute": "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.8",
+   "title": "Dispersion of White Light",
+   "section": "10.4",
+   "definition": "The separation of a composite light beam into its constituent spectral colours when passing through a refracting medium like a triangular prism.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Different wavelengths of light bend by different angles; red bends the least, while violet bends the most.",
+   "textbook_ref": "jesc110.txt lines 266-320",
+   "question_patterns": [
+    "what is dispersion of light",
+    "explain how a rainbow is formed in the sky",
+    "describe Isaac Newton's recombination experiment with two prisms",
+    "which colour of light bends the most and least in a prism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the dispersion of light",
+     "explain": "Explain that different colours have different speeds in glass, causing them to bend at different angles, forming a spectrum."
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.9",
+   "title": "Atmospheric Refraction",
+   "section": "10.5",
+   "definition": "In brief, In brief, In brief, In brief, the refraction of light rays as they travel through different atmospheric layers of varying temperature and density.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Atmospheric refraction causes the twinkling of stars, early sunrise, and delayed sunset.",
+   "textbook_ref": "jesc110.txt lines 321-365",
+   "question_patterns": [
+    "why do stars twinkle but planets do not",
+    "explain why the sun is visible before actual sunrise",
+    "what is atmospheric refraction",
+    "why does the apparent position of a star differ from its actual position"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the atmospheric refraction effect",
+     "explain": "Describe how light bends continuously as it passes through layers of varying refractive index in the atmosphere."
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.10",
+   "title": "Scattering of Light and Tyndall Effect",
+   "section": "10.6",
+   "definition": "The phenomenon where light rays are redirected in multiple directions upon striking microscopic particles, dust, or gas molecules in the atmosphere.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, Tyndall effect is indeed the scattering of light by colloidal particles; the blue sky and red sunset are brought about by selective scattering of shorter wavelengths.",
+   "textbook_ref": "jesc110.txt lines 366-415",
+   "question_patterns": [
+    "why is the clear sky blue",
+    "what is Tyndall effect",
+    "why are danger signals red",
+    "why does the sky appear dark to an astronaut"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the scattering of light",
+     "explain": "Relate the size of the scattering particles to the wavelength of light being scattered (fine particles scatter blue light, larger particles scatter longer wavelengths or appear white)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex_distant_vision",
+   "source_ref": "jesc110.txt Exercise 5 (i)",
+   "concept": "jesc.10.3",
+   "question_type": "compute",
+   "question_pattern": "A person needs a lens of power {power} dioptres for correcting his distant vision. What is the focal length of the lens required?",
+   "extracted_variables": {
+    "power": -5.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate focal length in meters",
+     "explain": "Divide 1 by the given power of the lens.",
+     "compute": "focal_length = 1 / power"
+    }
+   ]
+  },
+  {
+   "id": "ex_near_vision",
+   "source_ref": "jesc110.txt Exercise 5 (ii)",
+   "concept": "jesc.10.3",
+   "question_type": "compute",
+   "question_pattern": "For correcting his near vision he needs a lens of power {power} dioptre. What is the focal length of the lens required?",
+   "extracted_variables": {
+    "power": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate focal length in meters",
+     "explain": "Divide 1 by the given power of the lens.",
+     "compute": "focal_length = 1 / power"
+    }
+   ]
+  },
+  {
+   "id": "ex_myopia_correction",
+   "source_ref": "jesc110.txt Exercise 6",
+   "concept": "jesc.10.4",
+   "question_type": "compute",
+   "question_pattern": "The far point of a myopic person is {far_point} cm in front of the eye. What is the power of the lens required to correct the problem?",
+   "extracted_variables": {
+    "far_point": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the focal length of the corrective lens in meters",
+     "explain": "For a myopic eye, the focal length is the negative of the far point in meters.",
+     "compute": "focal_length = -far_point / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the power of the corrective lens",
+     "explain": "Power is the reciprocal of the focal length in meters.",
+     "compute": "power = 1 / focal_length"
+    }
+   ]
+  },
+  {
+   "id": "ex_hypermetropia_correction",
+   "source_ref": "jesc110.txt Exercise 7",
+   "concept": "jesc.10.5",
+   "question_type": "compute",
+   "question_pattern": "The near point of a hypermetropic eye is {near_point} cm. What is the power of the lens required to correct this defect? Assume that the near point of the normal eye is 25 cm.",
+   "extracted_variables": {
+    "near_point": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the power of the lens",
+     "explain": "Using 1/f = 1/v - 1/u where u = -25 cm and v = -near_point, the power is 4 - 100/near_point.",
+     "compute": "power = 4 - 100 / near_point"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the focal length in meters",
+     "explain": "Focal length is the reciprocal of power.",
+     "compute": "focal_length = 1 / power"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "jesc110.txt Exercise 1",
+   "questions": [
+    "The human eye can focus on objects at different distances by adjusting the focal length of the eye lens. This is due to (a) presbyopia. (b) accommodation. (c) near-sightedness. (d) far-sightedness."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "jesc110.txt Exercise 2",
+   "questions": [
+    "The human eye forms the image of an object at its (a) cornea. (b) iris. (c) pupil. (d) retina."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "jesc110.txt Exercise 3",
+   "questions": [
+    "The least distance of distinct vision for a young adult with normal vision is about (a) 25 m. (b) 2.5 cm. (c) 25 cm. (d) 2.5 m."
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "jesc110.txt Exercise 4",
+   "questions": [
+    "The change in focal length of an eye lens is caused by the action of the (a) pupil. (b) retina. (c) ciliary muscles. (d) iris."
+   ]
+  },
+  {
+   "id": "ex10.5",
+   "source_ref": "jesc110.txt Exercise 5",
+   "questions": [
+    "A person needs a lens of power -5.5 dioptres for correcting his distant vision. For correcting his near vision he needs a lens of power +1.5 dioptre. What is the focal length of the lens required for correcting (i) distant vision, and (ii) near vision?"
+   ]
+  },
+  {
+   "id": "ex10.6",
+   "source_ref": "jesc110.txt Exercise 6",
+   "questions": [
+    "The far point of a myopic person is 80 cm in front of the eye. What is the nature and power of the lens required to correct the problem?"
+   ]
+  },
+  {
+   "id": "ex10.7",
+   "source_ref": "jesc110.txt Exercise 7",
+   "questions": [
+    "Make a diagram to show how hypermetropia is corrected. The near point of a hypermetropic eye is 1 m. What is the power of the lens required to correct this defect? Assume that the near point of the normal eye is 25 cm."
+   ]
+  },
+  {
+   "id": "ex10.8",
+   "source_ref": "jesc110.txt Exercise 8",
+   "questions": [
+    "Why is a normal eye not able to see clearly the objects placed closer than 25 cm?"
+   ]
+  },
+  {
+   "id": "ex10.9",
+   "source_ref": "jesc110.txt Exercise 9",
+   "questions": [
+    "What happens to the image distance in the eye when we increase the distance of an object from the eye?"
+   ]
+  },
+  {
+   "id": "ex10.10",
+   "source_ref": "jesc110.txt Exercise 10",
+   "questions": [
+    "Why do stars twinkle?"
+   ]
+  },
+  {
+   "id": "ex10.11",
+   "source_ref": "jesc110.txt Exercise 11",
+   "questions": [
+    "Explain why the planets do not twinkle."
+   ]
+  },
+  {
+   "id": "ex10.12",
+   "source_ref": "jesc110.txt Exercise 12",
+   "questions": [
+    "Why does the sky appear dark instead of blue to an astronaut?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

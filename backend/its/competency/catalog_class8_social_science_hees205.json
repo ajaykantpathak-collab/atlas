@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "Citizenship: Rights and Duties",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.205.5.1",
+   "title": "Who Is a Citizen",
+   "section": "5",
+   "definition": "A citizen is a full member of the political community - bound to the country by law and allegiance, enjoying civil, political and social rights, and owing duties in return; citizenship links individual freedom with shared responsibility for the nation.",
+   "formula": "-",
+   "key_idea": "Citizenship is a two-way bond: rights flow to the citizen, duties flow back to the community.",
+   "textbook_ref": "hees205.txt lines 5-62 (rights and duties, meaning of citizenship)",
+   "question_patterns": [
+    "who is a citizen of India",
+    "what does citizenship mean beyond legal status",
+    "how is a citizen different from an alien",
+    "what rights and duties come with citizenship",
+    "how can citizenship of India be acquired",
+    "why is citizenship called a relationship of mutual obligation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define membership",
+     "explain": "Citizenship grants full civil and political membership of the state."},
+    {"step": 2, "action": "list the entitlements",
+     "explain": "Rights to equality, freedom, vote and protection belong to citizens."},
+    {"step": 3, "action": "list the obligations",
+     "explain": "Obedience to law, civic sense and service balance the rights."}
+   ]
+  },
+  {
+   "id": "hees.205.5.2",
+   "title": "Fundamental Rights in the Indian Constitution",
+   "section": "5",
+   "definition": "The Constitution guarantees fundamental rights - equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies - protected by courts, so no government or person may trample them.",
+   "formula": "-",
+   "key_idea": "Six families of fundamental rights, enforceable in court, shield every citizen.",
+   "textbook_ref": "hees205.txt lines 153-227 (fundamental rights in the Indian Constitution), 421-460 (key articles)",
+   "question_patterns": [
+    "name the fundamental rights given by the Indian Constitution",
+    "which article provides equality before law",
+    "how can a citizen enforce fundamental rights",
+    "why are fundamental rights called fundamental",
+    "what does the right against exploitation prohibit",
+    "explain the right to constitutional remedies with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the rights",
+     "explain": "Recall the six groups from equality to constitutional remedies."},
+    {"step": 2, "action": "note their reach",
+     "explain": "They bind the state and, in some cases, private persons too."},
+    {"step": 3, "action": "note the guard",
+     "explain": "Writ jurisdiction of courts makes these rights enforceable."}
+   ]
+  },
+  {
+   "id": "hees.205.5.3",
+   "title": "Duties: The True Source of Rights",
+   "section": "5",
+   "definition": "As the chapter's epigraph says, the true source of rights is duty: fundamental duties - respecting the constitution and flag, protecting the environment, striving for excellence and renouncing practices derogatory to women - are what citizens owe so that everyone's rights can flourish.",
+   "formula": "-",
+   "key_idea": "Rights and duties are two sides of one coin - my duty secures your right.",
+   "textbook_ref": "hees205.txt lines 1-15 (epigraph on duty), 300-420 (fundamental duties)",
+   "question_patterns": [
+    "list the fundamental duties of Indian citizens",
+    "how are rights and duties related",
+    "why are duties called the true source of rights",
+    "what duty do citizens owe to the environment",
+    "explain the duty to strive towards excellence",
+    "give two examples where performing a duty protects others' rights"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the bond",
+     "explain": "Every right implies a matching duty in others and in oneself."},
+    {"step": 2, "action": "list the duties",
+     "explain": "Respect for law and symbols, environment protection, harmony and excellence head the list."},
+    {"step": 3, "action": "apply the balance",
+     "explain": "A citizen demanding rights must first perform the duties that sustain them."}
+   ]
+  },
+  {
+   "id": "hees.205.5.4",
+   "title": "Equality and the Fight Against Discrimination",
+   "section": "5",
+   "definition": "Discrimination - unfair treatment on grounds of caste, religion, gender or birth - violates the constitutional promise of equality; abolishing untouchability and reserving opportunities for the disadvantaged are constitutional tools to convert formal equality into real equality.",
+   "formula": "-",
+   "key_idea": "The constitution not only bans unfair treatment but actively lifts the historically excluded.",
+   "textbook_ref": "hees205.txt lines 76-150 (discrimination: unfair treatment), 200-260",
+   "question_patterns": [
+    "what is discrimination - define with an example",
+    "how does the constitution fight caste discrimination",
+    "what is untouchability and what does the constitution say about it",
+    "how do reservations promote equality",
+    "distinguish formal and substantive equality",
+    "suggest ways students can fight discrimination in school"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the unfairness",
+     "explain": "Treating people unequally by birth or belief is discrimination."},
+    {"step": 2, "action": "read the constitutional tools",
+     "explain": "Abolition of untouchability, equality clauses and reservations attack it."},
+    {"step": 3, "action": "live the value",
+     "explain": "Equal behaviour in daily life completes legal equality."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hees205.txt rights sections",
+   "questions": [
+     "List the six fundamental rights with one example each.",
+     "Which article can a citizen use when their right is violated?",
+     "Why does the constitution prohibit untouchability?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hees205.txt duties sections",
+   "questions": [
+     "Explain the epigraph: the true source of rights is duty.",
+     "List five fundamental duties.",
+     "How can a student practise equality in daily life?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_012",
+   "title": "c10_chem_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the chemical formula of rust, and what are the two essential conditions required for rusting of iron?",
+     "a": "Rust is hydrated iron(III) oxide, Fe₂O₃·xH₂O (commonly written as Fe₂O₃·3H₂O). The two essential conditions are presence of oxygen (air) and water (moisture). A wrong answer (e.g., giving FeO or Fe₃O₄, or saying only water is needed) reveals the student confuses rust with other iron oxides or does not recall the necessity of both oxygen and water.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rusting is considered an electrochemical process. What happens at the anode and cathode during rusting?",
+     "a": "Rusting is electrochemical because it involves oxidation of iron at anodic sites (Fe → Fe²⁺ + 2e⁻) and reduction of oxygen at cathodic sites (O₂ + 2H₂O + 4e⁻ → 4OH⁻). The electrons flow through the metal from anode to cathode. A wrong answer (e.g., saying it's just a chemical reaction without electron transfer) shows the student has not grasped the electrochemical cell concept introduced in Class 10.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced overall chemical equation for the formation of rust from iron, oxygen, and water. Then calculate the mass of rust formed from 56 g of iron (assuming complete conversion to Fe₂O₃·3H₂O). (Atomic masses: Fe=56, O=16, H=1)",
+     "a": "Step 1: Write half-reactions: Anode: 2Fe → 2Fe²⁺ + 4e⁻; Cathode: O₂ + 2H₂O + 4e⁻ → 4OH⁻.\nStep 2: Combine: 2Fe + O₂ + 2H₂O → 2Fe(OH)₂. Further oxidation: 4Fe(OH)₂ + O₂ + 2H₂O → 4Fe(OH)₃. Dehydration: 2Fe(OH)₃ → Fe₂O₃·3H₂O.\nOverall: 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃ → 2Fe₂O₃·3H₂O.\nStep 3: Molar mass of Fe = 56 g/mol, so 56 g = 1 mol Fe. From equation, 4 mol Fe give 2 mol Fe₂O₃·3H₂O, so 1 mol Fe gives 0.5 mol rust.\nMolar mass of Fe₂O₃·3H₂O = 2×56 + 3×16 + 3×18 = 112 + 48 + 54 = 214 g/mol.\nMass of rust = 0.5 × 214 = 107 g.\nA wrong answer (e.g., unbalanced equation, wrong stoichiometry) reveals the student cannot balance redox reactions or apply mole concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare galvanization and painting as methods to prevent rusting. Which method provides sacrificial protection and why?",
+     "a": "Galvanization coats iron with zinc. Zinc is more reactive than iron (higher in reactivity series), so it acts as a sacrificial anode: it oxidizes preferentially (Zn → Zn²⁺ + 2e⁻), protecting iron even if the coating is scratched. Painting only provides a barrier; if scratched, iron rusts. A wrong answer (e.g., saying painting is sacrificial) shows confusion between barrier and sacrificial protection.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that applying oil on iron tools prevents rusting because oil reacts with oxygen to form a protective layer. Evaluate this statement and correct the misconception.",
+     "a": "The statement is incorrect. Oil does not react with oxygen to form a protective layer; it acts as a physical barrier that excludes air and moisture from the iron surface. The protection is due to prevention of contact, not a chemical reaction. A wrong evaluation (agreeing with the student) reveals the student does not understand the mechanism of barrier protection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that both oxygen and water are necessary for rusting. List the materials, setup, observations, and conclusion.",
+     "a": "Materials: three test tubes, iron nails, water, boiled water, oil, anhydrous calcium chloride, cotton wool.\nSetup: Tube 1: nail in tap water (air + water). Tube 2: nail in boiled water with oil layer (water but no air). Tube 3: nail with anhydrous CaCl₂ and cotton wool (air but no water).\nObservation after few days: Rust only in Tube 1.\nConclusion: Both oxygen and water are necessary.\nA poor answer (missing control, not removing air properly) shows the student cannot design a controlled experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

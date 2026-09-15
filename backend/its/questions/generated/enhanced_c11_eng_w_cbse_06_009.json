@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_06_009",
+   "title": "c11_eng_w_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define situational irony and give one example from \"The Third and Final Continent\" where the outcome of a situation is the opposite of what the narrator or reader expects.",
+     "a": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected. In the story, the narrator expects Mrs. Croft to be frail and dependent due to her age (103), yet she exerts absolute authority over him, commanding him to say \"Splendid!\" and locking the door herself — she controls the household despite her apparent vulnerability. A wrong answer would confuse this with mere surprise or coincidence (e.g., \"it's ironic that she is old\") without identifying the reversal of power dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between dramatic irony and verbal irony. Identify an instance of dramatic irony in the story where the reader knows something a character does not.",
+     "a": "Dramatic irony occurs when the audience/reader possesses knowledge that a character lacks; verbal irony occurs when a speaker says the opposite of what they mean (sarcasm or understatement). An instance of dramatic irony: the narrator knows the astronauts removed the flag from the moon before returning to Earth, but he never tells Mrs. Croft, allowing her to believe the flag remains planted — the reader shares the narrator's secret. A wrong answer would mislabel the narrator's forced \"Splendid!\" as dramatic irony (it is verbal irony/situational compliance) or claim Mrs. Croft's ignorance is situational irony.",
+     "self_check": true
+    },
+    {
+     "q": "Apply your understanding of symbolism: The piano in Mrs. Croft's parlour is described as having its \"top down, piled with papers\" and its bench missing (used by Mrs. Croft). What does the piano symbolize, and how does its physical state reinforce that meaning?",
+     "a": "The piano symbolizes Mrs. Croft's former identity as a piano teacher (her livelihood for 40 years) and her lost autonomy. Its current state — closed, covered in papers, bench repurposed as her seat — mirrors her life: the music has stopped, her professional tools are buried under clutter, and she herself has been reduced to sitting on the bench that once belonged to her students. A weak answer would only note \"it shows she is old\" or \"it represents music\" without connecting the specific physical details (papers, missing bench, silence) to her personal history revealed by Helen.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the recurring \"flag on the moon\" ritual functions as both situational irony and a symbol. What thematic tension does it embody?",
+     "a": "The ritual is situationally ironic because Mrs. Croft, a woman born in 1866 who has never left her house, demands celebration of a cosmic achievement she cannot comprehend, while the narrator — who has crossed three continents — finds it trivial. Simultaneously, the moon flag becomes a symbol of shared wonder imposed on a mundane routine: it transforms a boarding-house transaction into a nightly human connection. The tension embodied is between grand historical narratives (moon landing, immigration, diaspora) and the quiet, ordinary rituals that actually sustain people. A partial answer would treat irony and symbolism separately without showing how the same ritual operates as both.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the ending: the narrator's son is astonished not by Mrs. Croft's age but by the low rent (\"nearly inconceivable amount to him as a flag on the moon was to a woman born in 1866\"). Is this final comparison an instance of irony, symbolism, or both? Justify.",
+     "a": "It is primarily a symbolic comparison that encapsulates the story's central irony. The rent ($8/week) symbolizes the narrator's past struggle and the vast economic/cultural distance he has traveled; the moon flag symbolizes the unimaginable progress of the 20th century. The son's astonishment at the rent mirrors Mrs. Croft's at the moon landing — both are generational incomprehensions. The irony is that the narrator, who once found the moon flag ritual absurd, now uses it as a metaphor for his own past, acknowledging that his \"ordinary\" survival across three continents is as inconceivable to his son as the moon landing was to Mrs. Croft. A weak evaluation would call it \"just a comparison\" without recognizing the recursive structure linking the three generations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new symbolic object for a short scene where an elderly immigrant and a young relative interact. The object must represent both the elder's past and the generational gap. Write 3-4 sentences describing the object and its significance.",
+     "a": "A strong response: \"The brass spice box (masala dabba) sits on the kitchen shelf, its seven compartments still labeled in fading Gujarati script. The granddaughter uses it to store paper clips and rubber bands; the grandfather still reaches for it when cooking, his fingers finding turmeric by muscle memory. The box holds both the flavors of a life left behind and the mundane repurposing of a new world — each compartment a continent he crossed, now holding the debris of her American desk.\" A poor answer would describe a generic object (e.g., \"a photograph\") without specific sensory details or dual significance tied to both characters' perspectives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

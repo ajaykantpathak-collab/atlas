@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_014",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_014",
+   "title": "c6_physics_ch03_014",
+   "questions": [
+    {
+     "q": "Name two materials that are good electrical conductors and two materials that are good electrical insulators.",
+     "a": "Copper and iron are conductors; rubber and plastic are insulators. A wrong answer here shows the student has not yet distinguished between metals and non-metals in the context of electrical flow.",
+     "self_check": true
+    },
+    {
+     "q": "If you were building a simple circuit with a battery and a bulb, why would you choose a copper wire instead of a cotton thread to connect them?",
+     "a": "Copper is a conductor and allows the current to flow, while cotton thread is an insulator and will stop the current. A wrong answer suggests the student does not understand that materials have different properties regarding electrical flow.",
+     "self_check": true
+    },
+    {
+     "q": "You have a metal spoon and a wooden spoon. If you touch an electric wire with the metal spoon, it is dangerous. Why is it safe to touch the wooden handle of a toaster?",
+     "a": "The metal spoon conducts electricity from the wire to you, causing a shock, while the wood acts as an insulator, blocking the current from reaching your hand. This requires identifying the material property (conductor vs. insulator) and applying it to a safety situation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a standard electrical plug. It has metal pins and a plastic body. Explain why both materials are necessary for it to function safely.",
+     "a": "The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the user from touching the live current. A failure here indicates an inability to analyze how components serve different functional roles.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"All solid materials are conductors.\" Is this true or false, and why?",
+     "a": "This is false; while metals are conductors, many solids like wood, glass, and plastic are insulators. A wrong answer shows the student is over-generalizing based on the state of matter rather than the material's internal property.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are stranded and need to fix a broken wire in a toy. You have a piece of dry wood, a steel nail, and a thick piece of rubber. Which would you use to bridge the gap in the wire, and why?",
+     "a": "You would use the steel nail because it is a metal conductor. A poor answer would suggest using rubber or wood, showing a lack of understanding of which material facilitates current flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

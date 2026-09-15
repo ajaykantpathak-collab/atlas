@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_005",
+   "title": "c11_ps_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the \"Greatest Happiness Principle\" as formulated by Jeremy Bentham and identify the two key variables it seeks to maximise.",
+     "a": "Correct answer: \"The Greatest Happiness Principle holds that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness. The two key variables are the intensity and duration of pleasure (or utility) summed across all affected individuals.\" A wrong answer that omits \"summed across all individuals\" reveals the student thinks utilitarianism is about individual happiness maximisation rather than social welfare aggregation — a category error that conflates ethical egoism with utilitarianism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why classical utilitarianism treats the distribution of welfare as instrumentally valuable only, and give a concrete example where this leads to a counter-intuitive verdict about justice.",
+     "a": "Correct answer: \"Utilitarianism cares only about the sum total of utility; any distribution that yields the same sum is equally just. Example: Society A gives 100 utils to each of 10 people (total 1000). Society B gives 990 utils to one person and 10 utils to the other nine (total 1000). Utilitarianism judges them equally just, but most people find Society B deeply unjust because it concentrates welfare.\" A wrong answer that claims utilitarianism values equality intrinsically shows the student has imported a Rawlsian or egalitarian commitment into utilitarianism, missing the theory's purely aggregative structure.",
+     "self_check": true
+    },
+    {
+     "q": "The Union Budget allocates ₹10,000 crore for rural employment guarantee (MGNREGA) and ₹2,000 crore for a high-speed rail corridor. A utilitarian defender of the rail corridor argues it will generate ₹50,000 crore in long-term GDP growth, while MGNREGA generates only ₹15,000 crore in immediate consumption. Apply the utilitarian calculus to this policy choice and state the utilitarian verdict.",
+     "a": "Correct answer: \"The utilitarian verdict favours the high-speed rail corridor because its estimated long-term welfare gain (₹50,000 crore equivalent utils) exceeds MGNREGA's (₹15,000 crore), assuming utils are proportional to monetary value and discount rates are equal. The utilitarian ignores that MGNREGA beneficiaries are poorer and have higher marginal utility of income — unless the analyst explicitly weights utils by marginal utility, which classical utilitarianism does not require.\" A wrong answer that chooses MGNREGA because \"it helps the poor\" reveals the student is smuggling in a prioritarian or Rawlsian intuition rather than following the utilitarian instruction to maximise the unweighted sum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the utilitarian and Rawlsian evaluations of a policy that slightly reduces the welfare of the worst-off group (e.g., cutting a targeted food subsidy) to finance a large infrastructure project that significantly increases the welfare of the middle class. Identify the precise theoretical disagreement.",
+     "a": "Correct answer: \"Utilitarianism approves the policy if the middle-class gain (in utils) exceeds the worst-off loss, because only the aggregate sum matters. Rawls' difference principle rejects it because it makes the worst-off absolutely worse off, violating lexical priority of the least advantaged. The disagreement is not about empirical facts but about the normative weight of distribution: utilitarianism uses a sum-ranking social welfare function; Rawls uses a maximin (lexical) function.\" A wrong answer that says \"both would reject it because it hurts the poor\" shows the student cannot distinguish the aggregative logic of utilitarianism from the distributive logic of contractarianism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Utilitarianism provides the most rational basis for public policy in India because it forces policymakers to quantify benefits and costs using a common metric, avoiding arbitrary value judgments.\"",
+     "a": "Correct answer: \"The claim is partially true but incomplete. Utilitarianism does impose a common metric (utils/QALYs/cost-benefit ratios) which disciplines policy analysis — e.g., NITI Aayog's use of DALYs in health prioritisation. However, it smuggles in its own value judgments: (1) interpersonal comparability of utility is assumed but philosophically contested; (2) it treats rights violations as mere utility costs (e.g., displacing tribals for a dam is justified if aggregate gain is high); (3) it ignores procedural justice and democratic legitimacy. A rational policy framework must supplement utilitarian calculus with constitutional rights constraints.\" A wrong answer that fully endorses the claim reveals uncritical acceptance of technocratic rationality without recognizing the normative exclusions built into the utilitarian metric.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph utilitarian justification for India's National Food Security Act (NFSA) that explicitly references the diminishing marginal utility of income and the aggregation rule, and then write a one-sentence non-utilitarian objection from a rights-based perspective.",
+     "a": "Expected answer: \"Utilitarian justification: The NFSA transfers food grains to roughly 800 million beneficiaries. Because the marginal utility of food is extremely high for the poor (near subsistence) and low for taxpayers financing the subsidy, the aggregate utility gain from redistribution is large. Summing across all individuals, the total welfare increase outweighs the deadweight loss of taxation, making the NFSA utility-maximising. Rights-based objection: The NFSA treats food as a welfare concession subject to fiscal calculus rather than as an enforceable entitlement grounded in the right to life under Article 21.\" A poor answer that omits diminishing marginal utility or the summation step shows the student cannot operationalise the utilitarian formula in a real policy context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

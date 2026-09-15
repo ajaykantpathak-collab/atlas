@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_008",
+   "title": "c10_chem_cbse_03_008",
+   "questions": [
+    {
+     "q": "Write the electron-dot structure (Lewis structure) for the formation of magnesium oxide (MgO) from magnesium and oxygen atoms. Show only valence electrons.",
+     "a": "Magnesium (2,8,2) has 2 valence electrons; oxygen (2,6) has 6 valence electrons. Mg loses 2 electrons to form Mg²⁺ (2,8). Each O atom gains 2 electrons to form O²⁻ (2,8). The electron-dot structure shows Mg with two dots, O with six dots (two pairs and two singles). Two dots from Mg transfer to O, resulting in Mg²⁺ (no dots, bracket with 2+ charge) and O²⁻ (eight dots, bracket with 2- charge).\nA wrong answer where the student shows sharing of electrons (covalent) instead of transfer reveals confusion between ionic and covalent bonding. If the student shows Mg losing only one electron, they have not applied the octet rule correctly for Group 2 metals.",
+     "self_check": true
+    },
+    {
+     "q": "Why does calcium chloride have the formula CaCl₂ and not CaCl or CaCl₃? Explain using the concept of electron transfer and charge neutrality.",
+     "a": "Calcium (Group 2) loses 2 electrons to form Ca²⁺. Chlorine (Group 17) gains 1 electron to form Cl⁻. For the compound to be electrically neutral, the total positive charge must equal total negative charge. One Ca²⁺ (+2) requires two Cl⁻ (2 × -1 = -2). Hence CaCl₂.\nA wrong answer like \"CaCl because both have valency 1\" shows the student hasn't grasped that valency for ionic compounds equals the charge on the ion, not just group number. Writing CaCl₃ indicates the student thinks chlorine can accept 3 electrons, violating the octet rule.",
+     "self_check": true
+    },
+    {
+     "q": "Aluminium (atomic number 13) reacts with nitrogen (atomic number 7) to form aluminium nitride. Write the balanced chemical equation for this reaction and draw the electron-dot structure for the formation of one formula unit of the product.",
+     "a": "Step 1: Identify ions. Al (2,8,3) → Al³⁺ + 3e⁻. N (2,5) + 3e⁻ → N³⁻.\nStep 2: Formula: Al³⁺ and N³⁻ combine in 1:1 ratio → AlN.\nStep 3: Balanced equation: 2Al(s) + N₂(g) → 2AlN(s).\nStep 4: Electron-dot: Al with 3 dots, N with 5 dots (one pair + three singles). Three electrons transfer from Al to N. Result: Al³⁺ (no dots, 3+ charge), N³⁻ (8 dots, 3- charge).\nA wrong equation like Al + N₂ → AlN (unbalanced) or Al + N → AlN (nitrogen as atom) shows inability to handle diatomic gases. Drawing electron-dot with shared electrons reveals covalent misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation of sodium chloride (NaCl) and magnesium chloride (MgCl₂). Identify two similarities and two differences in the electron-transfer process and the resulting ionic lattice.",
+     "a": "Similarities: (1) Both involve metal losing electrons and non-metal gaining electrons to achieve noble gas configurations. (2) Both form giant 3D ionic lattices with alternating cations and anions held by electrostatic forces.\nDifferences: (1) Na loses 1 e⁻ forming Na⁺; Mg loses 2 e⁻ forming Mg²⁺. (2) NaCl has 1:1 stoichiometry (coordination number 6:6); MgCl₂ has 1:2 stoichiometry, so each Mg²⁺ is surrounded by 6 Cl⁻ but each Cl⁻ is surrounded by 3 Mg²⁺ (different lattice geometry).\nA wrong answer stating \"both form molecules\" indicates failure to understand giant ionic lattice vs discrete molecules. Saying Mg loses 1 electron shows ignorance of Group 2 chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formation of potassium oxide as: K + O → K⁺ + O²⁻ → KO. Evaluate this answer. Identify all errors and write the correct representation.",
+     "a": "Errors: (1) Potassium is Group 1, forms K⁺; oxygen is Group 16, forms O²⁻. Charge neutrality requires 2 K⁺ for each O²⁻, so formula is K₂O, not KO. (2) Oxygen exists as O₂ molecule, not O atom. (3) The equation must be balanced: 4K(s) + O₂(g) → 2K₂O(s). (4) Electron transfer: each K loses 1 e⁻ (total 4 e⁻), O₂ gains 4 e⁻ (2 per O atom).\nA student who only corrects the formula to K₂O but writes K + O → K₂O still misses the diatomic nature of oxygen and balancing. This reveals a pattern of treating elements as monatomic atoms in equations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using readily available materials (no hazardous chemicals) to demonstrate that ionic compounds conduct electricity in molten state but not in solid state. List materials, procedure, observation, and conclusion.",
+     "a": "Materials: Table salt (NaCl), two graphite pencils (as electrodes), 9V battery, LED, connecting wires, metal spoon, gas stove (adult supervision).\nProcedure: (1) Set up circuit: battery → LED → wires → two pencil leads. (2) Place solid NaCl on spoon, touch pencil leads to it — LED stays off. (3) Heat spoon gently until NaCl melts (mp 801°C — may need bunsen burner; alternative: use aqueous solution for Class 10 lab demo). (4) Dip leads in molten salt — LED glows.\nObservation: Solid NaCl does not conduct; molten NaCl conducts.\nConclusion: In solid state, ions are fixed in lattice; in molten state, ions are mobile and carry current.\nA poor answer using sugar (covalent) or testing only aqueous solution misses the specific solid vs molten comparison. Using a metal spoon as electrode causes short circuit — shows lack of understanding of inert electrodes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

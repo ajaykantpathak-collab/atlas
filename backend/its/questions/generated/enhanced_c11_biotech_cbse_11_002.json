@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_002",
+   "title": "c11_biotech_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the primary reason Python is preferred over Perl for modern bioinformatics workflows, according to the NCERT textbook?",
+     "a": "The NCERT highlights three reasons: (i) clear meaning of terms and statement structure, (ii) expressivity and alignment with object-oriented programming, and (iii) availability of libraries and third-party toolkits. A wrong answer (e.g., \"Python is faster than Perl\") reveals the student is relying on general programming hearsay instead of the textbook's specific justification for biologists.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a biologist with no prior coding experience would find Python's indentation-based syntax advantageous compared to languages that use braces `{}` for block delimiting.",
+     "a": "Indentation forces consistent visual structure, making code readable and reducing \"brace mismatch\" errors; it aligns with how biologists naturally outline protocols (step 1, step 1.1, step 1.2). If a student says \"indentation is just a style choice,\" they miss the pedagogical point that Python's design intentionally lowers cognitive load for non-programmers.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `gc_content(seq: str) -> float` that returns the GC percentage of a DNA sequence string (e.g., \"ATGCGC\"). Assume the sequence contains only A, T, G, C.",
+     "a": "```python\ndef gc_content(seq: str) -> float:\n    seq = seq.upper()\n    gc = seq.count('G') + seq.count('C')\n    return round(gc / len(seq) * 100, 2)\n```\nSteps: 1) normalize case, 2) count G and C, 3) divide by length, 4) multiply by 100 and round. A wrong answer that uses a manual loop (`for base in seq:`) shows the student hasn't internalized Python's built-in string methods (`count`), which are faster and more idiomatic for bioinformatics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the use of a Python `list` versus a `dict` for storing a collection of gene IDs and their corresponding GC percentages. Which is more appropriate for rapid lookup by gene ID and why?",
+     "a": "A `dict` (e.g., `{\"gene1\": 52.3, \"gene2\": 48.7}`) provides O(1) average-case lookup by key (gene ID), while a `list` of tuples requires O(n) linear search. For rapid retrieval—common when cross-referencing annotation files—a dictionary is superior. If a student chooses `list` because \"it's simpler,\" they ignore the performance implications for datasets with thousands of genes.",
+     "self_check": true
+    },
+    {
+     "q": "A colleague claims: \"Since Biopython's `Seq` object behaves like a string, we can always replace `Seq` with plain `str` in our scripts to avoid the import overhead.\" Evaluate this claim with a concrete counterexample.",
+     "a": "The claim is false. `Seq` objects provide biological methods like `.transcribe()`, `.translate()`, `.reverse_complement()`, and alphabet-aware operations that plain strings lack. Example: `Seq(\"ATG\").translate()` returns `Seq('M')`, while `\"ATG\".translate()` raises `AttributeError`. A student who agrees overlooks the domain-specific functionality that justifies using Biopython in the first place.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python script (≤15 lines) that reads a multi-FASTA file `sequences.fasta`, computes the length and GC% of each record, and writes a CSV file `summary.csv` with columns: `id,length,gc_percent`. Use only Biopython and the standard library.",
+     "a": "```python\nfrom Bio import SeqIO\nfrom Bio.SeqUtils import GC\nimport csv\n\nwith open(\"sequences.fasta\") as inp, open(\"summary.csv\", \"w\", newline=\"\") as out:\n    writer = csv.writer(out)\n    writer.writerow([\"id\", \"length\", \"gc_percent\"])\n    for record in SeqIO.parse(inp, \"fasta\"):\n        writer.writerow([record.id, len(record.seq), round(GC(record.seq), 2)])\n```\nA poor answer might omit `newline=\"\"` (causing blank rows on Windows), use manual string splitting instead of `csv.writer`, or forget to handle file closing—indicating gaps in practical file I/O robustness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

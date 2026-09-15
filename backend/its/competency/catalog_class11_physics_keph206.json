@@ -1,0 +1,421 @@
+{
+  "class": 11,
+  "subject": "physics",
+  "chapter": 206,
+  "chapter_title": "Oscillations",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph206.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keph206.13.2.1",
+      "title": "Periodic and Oscillatory Motion",
+      "section": "13.2",
+      "definition": "A motion that repeats itself at fixed intervals is periodic, and when the repetition happens back and forth about a mean position it is oscillatory. One full cycle takes the period T, its reciprocal is the frequency in hertz, and circular motion projected on a diameter furnishes the standard picture of such vibration.",
+      "formula": "",
+      "key_idea": "Repetition defines periodicity; the back-and-forth flavour about a centre defines oscillation.",
+      "textbook_ref": "keph206.txt lines 20-110 (sections 13.1, 13.2 periodic and oscillatory motions, period, frequency, displacement as function of time)",
+      "question_patterns": [
+        "define periodic motion and give two examples",
+        "in class 11 oscillations: relate frequency to the time period",
+        "what makes an oscillatory motion different from other periodic motions",
+        "find the frequency of a motion with the given period",
+        "is the motion of a bouncing ball periodic in the strict sense",
+        "how does uniform circular motion illustrate oscillation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "test for repetition",
+          "explain": "A motion is periodic when its state repeats after a fixed, definite interval -- the period."
+        },
+        {
+          "step": 2,
+          "action": "check for the mean position",
+          "explain": "Oscillatory motion is periodic motion swinging either side of an equilibrium point."
+        },
+        {
+          "step": 3,
+          "action": "convert period to frequency",
+          "explain": "Frequency counts cycles per second, the reciprocal of the period in seconds."
+        }
+      ]
+    },
+    {
+      "id": "keph206.13.4.1",
+      "title": "Simple Harmonic Motion: Displacement and Phase",
+      "section": "13.4",
+      "definition": "Simple harmonic motion is the ideal oscillation whose displacement varies sinusoidally with time: x equals A sin of (omega t plus phi). Here A is the amplitude -- the largest swing -- omega the angular frequency, and the phase inside tells exactly where in the cycle the oscillator sits at t = 0.",
+      "formula": "x_of_t = amplitude * sin(omega * t + phase)",
+      "key_idea": "Displacement rides a sine wave -- amplitude sets the swing size, phase sets the head start.",
+      "textbook_ref": "keph206.txt lines 111-220 (sections 13.3, 13.4 simple harmonic motion and uniform circular motion, amplitude, phase, reference circle)",
+      "question_patterns": [
+        "write the displacement equation of a simple harmonic oscillator",
+        "in class 11 oscillations: define amplitude and phase of an oscillation",
+        "what is the reference circle and how does it generate SHM",
+        "the oscillator starts from the extreme position, which phase is this",
+        "find when the particle first passes through the mean position",
+        "how does the projection of circular motion become simple harmonic"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "project circular motion",
+          "explain": "A point circling uniformly casts on a diameter a shadow that moves sinusoidally -- the reference circle picture of SHM."
+        },
+        {
+          "step": 2,
+          "action": "name the parameters",
+          "explain": "The circle's radius is the amplitude, the angular speed becomes omega, and the starting angle is the initial phase."
+        },
+        {
+          "step": 3,
+          "action": "read special positions",
+          "explain": "Phase multiples of pi over two mark the mean and extreme positions, fixing when the oscillator passes them."
+        }
+      ]
+    },
+    {
+      "id": "keph206.13.5.1",
+      "title": "Velocity and Acceleration in SHM",
+      "section": "13.5, 13.6",
+      "definition": "Differentiating the sinusoidal displacement gives the SHM velocity, omega times the square root of amplitude squared minus displacement squared, peaking at the mean position and dying at the extremes. Acceleration always points back toward the mean with size omega squared times displacement -- the defining property of simple harmonic motion.",
+      "formula": "accel_mag = omega ** 2 * displacement",
+      "key_idea": "Acceleration proportional to displacement and opposite in sign -- that feedback loop is SHM's signature.",
+      "textbook_ref": "keph206.txt lines 221-330 (sections 13.5 velocity and acceleration in simple harmonic motion, 13.6 force law, maxima at mean and extreme positions)",
+      "question_patterns": [
+        "find the speed of an SHM oscillator at the given displacement",
+        "in class 11 oscillations: show that acceleration in SHM is proportional to displacement",
+        "where are the velocity and acceleration of SHM maximum",
+        "compute the restoring acceleration at the given position",
+        "derive the velocity displacement relation of simple harmonic motion",
+        "why does the oscillator slow down near the extremes"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "apply the acceleration rule",
+          "explain": "The magnitude of the restoring acceleration is omega squared times the displacement.",
+          "compute": "accel_mag = omega ** 2 * displacement"
+        },
+        {
+          "step": 2,
+          "action": "form the speed from energy geometry",
+          "explain": "The speed is omega times the root of amplitude squared minus displacement squared.",
+          "compute": "speed_sq = omega ** 2 * (amplitude ** 2 - displacement ** 2)"
+        }
+      ]
+    },
+    {
+      "id": "keph206.13.6.1",
+      "title": "Period of a Spring-Block Oscillator",
+      "section": "13.6",
+      "definition": "A mass on a spring obeys Hooke's restoring force exactly, so its motion is simple harmonic with period two pi times the square root of mass over spring constant. A stiffer spring shortens the period; a heavier block lengthens it -- and neither depends on how far the mass is pulled.",
+      "formula": "period = 2 * pi * sqrt(mass / spring_const)",
+      "key_idea": "Mass over stiffness under a square root times two pi -- the isochronous clock of the spring.",
+      "textbook_ref": "keph206.txt lines 300-420 (section 13.6 force law and period of oscillation of a spring, restoring force F = -kx)",
+      "question_patterns": [
+        "find the time period of a mass attached to a given spring",
+        "in class 11 oscillations: show that spring-block motion is simple harmonic",
+        "how does the period change when the spring constant doubles",
+        "a block of the given mass oscillates on the given spring, compute its period",
+        "why is the period of a spring oscillator independent of amplitude",
+        "find the spring constant from the measured period and mass"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "form the mass to stiffness ratio",
+          "explain": "The period depends on the square root of mass divided by the spring constant.",
+          "compute": "ratio = mass / spring_const"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "Multiplying the root by two pi gives the period in seconds.",
+          "compute": "period = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    },
+    {
+      "id": "keph206.13.7.1",
+      "title": "Energy in Simple Harmonic Motion",
+      "section": "13.7",
+      "definition": "An SHM oscillator shuttles energy between kinetic form at the mean position and potential form at the extremes, while the total stays fixed at half the spring constant times amplitude squared -- or equivalently half mass times omega squared times amplitude squared. The share between the forms depends only on where the oscillator is in its swing.",
+      "formula": "total_energy = 0.5 * spring_const * amplitude ** 2",
+      "key_idea": "Kinetic plus potential stays constant in SHM -- the amplitude alone fixes the total energy.",
+      "textbook_ref": "keph206.txt lines 421-540 (section 13.7 energy in simple harmonic motion, kinetic and potential energies, energy vs displacement graphs)",
+      "question_patterns": [
+        "find the total energy of the given oscillator",
+        "in class 11 oscillations: show that the total energy of SHM is proportional to the square of amplitude",
+        "where in the cycle is the energy entirely kinetic",
+        "compute the kinetic energy at the given displacement",
+        "plot the kinetic and potential energies against displacement",
+        "at which displacement are kinetic and potential energies equal"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "square the amplitude",
+          "explain": "The total energy grows with the square of the amplitude.",
+          "compute": "amp_sq = amplitude ** 2"
+        },
+        {
+          "step": 2,
+          "action": "scale by half the stiffness",
+          "explain": "Half the spring constant times the squared amplitude is the constant total energy.",
+          "compute": "total_energy = 0.5 * spring_const * amp_sq"
+        }
+      ]
+    },
+    {
+      "id": "keph206.13.8.1",
+      "title": "The Simple Pendulum",
+      "section": "13.8",
+      "definition": "A bob on a light string swinging through small angles is the classic oscillator: the restoring push grows from gravity's tangential component, and the motion is simple harmonic with period two pi times the square root of length over gravity. The period ignores the bob's mass and, for small swings, the amplitude too.",
+      "formula": "period_p = 2 * pi * sqrt(pend_length / gravity)",
+      "key_idea": "Small-angle pendulum clocks depend only on length and g -- lengthen the string, slow the tick.",
+      "textbook_ref": "keph206.txt lines 541-640 (section 13.8 the simple pendulum, small angle approximation, time period expression, seconds pendulum)",
+      "question_patterns": [
+        "find the period of a simple pendulum of the given length",
+        "in class 11 oscillations: why must the pendulum swing through small angles",
+        "how does the pendulum period respond to moving to the moon",
+        "a pendulum of the given length ticks at the given place, compute its period",
+        "determine the length of a seconds pendulum at the given g",
+        "why does the bob's mass not enter the pendulum period"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "form the length to gravity ratio",
+          "explain": "The pendulum period uses the square root of string length over g.",
+          "compute": "ratio = pend_length / gravity"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "Two pi times that root is the swing period.",
+          "compute": "period_p = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keph206.txt lines 221-330 (velocity and acceleration in SHM)",
+      "concept": "keph206.13.5.1",
+      "question_type": "compute",
+      "question_pattern": "An oscillator with angular frequency {omega} rad/s passes the point {displacement} m; find the magnitude of its acceleration.",
+      "extracted_variables": {
+        "omega": 2,
+        "displacement": 0.05
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "apply the acceleration rule",
+          "explain": "accel_mag = 4 * 0.05 = 0.2 m/s^2, pointing back toward the mean position.",
+          "compute": "accel_mag = omega ** 2 * displacement"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keph206.txt lines 221-330 (velocity and acceleration in SHM)",
+      "concept": "keph206.13.5.1",
+      "question_type": "compute",
+      "question_pattern": "For angular frequency {omega}, amplitude {amplitude} and displacement {displacement}, compute the oscillator's speed.",
+      "extracted_variables": {
+        "omega": 5,
+        "amplitude": 0.1,
+        "displacement": 0.06
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "apply the acceleration rule",
+          "explain": "accel_mag = 25 * 0.06 = 1.5 m/s^2 at this point.",
+          "compute": "accel_mag = omega ** 2 * displacement"
+        },
+        {
+          "step": 2,
+          "action": "form the speed from energy geometry",
+          "explain": "speed_sq = 25 * (0.01 - 0.0036) = 0.16, so the speed is 0.4 m/s.",
+          "compute": "speed_sq = omega ** 2 * (amplitude ** 2 - displacement ** 2)"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "keph206.txt lines 300-420 (spring oscillator period)",
+      "concept": "keph206.13.6.1",
+      "question_type": "compute",
+      "question_pattern": "A {mass} kg block hangs from a spring of stiffness {spring_const} N/m; find its oscillation period.",
+      "extracted_variables": {
+        "mass": 0.5,
+        "spring_const": 200
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the mass to stiffness ratio",
+          "explain": "ratio = 0.5 / 200 = 0.0025.",
+          "compute": "ratio = mass / spring_const"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "period = 2 * pi * 0.05, about 0.314 s.",
+          "compute": "period = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "keph206.txt lines 300-420 (spring oscillator period)",
+      "concept": "keph206.13.6.1",
+      "question_type": "compute",
+      "question_pattern": "A {mass} kg cart is attached to a spring with k = {spring_const} N/m; compute how long one oscillation takes.",
+      "extracted_variables": {
+        "mass": 2,
+        "spring_const": 8
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the mass to stiffness ratio",
+          "explain": "ratio = 2 / 8 = 0.25.",
+          "compute": "ratio = mass / spring_const"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "period = 2 * pi * 0.5, about 3.14 s.",
+          "compute": "period = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "keph206.txt lines 421-540 (energy in SHM)",
+      "concept": "keph206.13.7.1",
+      "question_type": "compute",
+      "question_pattern": "A spring of stiffness {spring_const} N/m carries an oscillator of amplitude {amplitude} m; find its total energy.",
+      "extracted_variables": {
+        "spring_const": 200,
+        "amplitude": 0.05
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the amplitude",
+          "explain": "amp_sq = 0.0025.",
+          "compute": "amp_sq = amplitude ** 2"
+        },
+        {
+          "step": 2,
+          "action": "scale by half the stiffness",
+          "explain": "total_energy = 0.5 * 200 * 0.0025 = 0.25 J.",
+          "compute": "total_energy = 0.5 * spring_const * amp_sq"
+        }
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "keph206.txt lines 541-640 (simple pendulum)",
+      "concept": "keph206.13.8.1",
+      "question_type": "compute",
+      "question_pattern": "Find the period of a pendulum of length {pend_length} m where g = {gravity}.",
+      "extracted_variables": {
+        "pend_length": 1,
+        "gravity": 9.8
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the length to gravity ratio",
+          "explain": "ratio = 1 / 9.8, about 0.102.",
+          "compute": "ratio = pend_length / gravity"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "period_p = 2 * pi * 0.319, about 2.01 s.",
+          "compute": "period_p = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "keph206.txt lines 541-640 (simple pendulum)",
+      "concept": "keph206.13.8.1",
+      "question_type": "compute",
+      "question_pattern": "A pendulum {pend_length} m long swings where g = {gravity}; compute the time of one swing.",
+      "extracted_variables": {
+        "pend_length": 0.25,
+        "gravity": 9.8
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the length to gravity ratio",
+          "explain": "ratio = 0.25 / 9.8, about 0.0255.",
+          "compute": "ratio = pend_length / gravity"
+        },
+        {
+          "step": 2,
+          "action": "scale by two pi",
+          "explain": "period_p = 2 * pi * 0.1597, about 1.00 s.",
+          "compute": "period_p = 2 * pi * sqrt(ratio)"
+        }
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "keph206.txt lines 421-540 (energy in SHM)",
+      "concept": "keph206.13.7.1",
+      "question_type": "compute",
+      "question_pattern": "An oscillator on a {spring_const} N/m spring swings with amplitude {amplitude} m; compute its energy total.",
+      "extracted_variables": {
+        "spring_const": 8,
+        "amplitude": 0.1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the amplitude",
+          "explain": "amp_sq = 0.01.",
+          "compute": "amp_sq = amplitude ** 2"
+        },
+        {
+          "step": 2,
+          "action": "scale by half the stiffness",
+          "explain": "total_energy = 0.5 * 8 * 0.01 = 0.04 J.",
+          "compute": "total_energy = 0.5 * spring_const * amp_sq"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keph206.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Which of the described motions are periodic and which are simple harmonic?",
+        "A particle executes SHM with the given amplitude and period; find its maximum speed and acceleration.",
+        "The acceleration of a particle in SHM at a given displacement is known; find the frequency.",
+        "A spring of given stiffness with a given mass oscillates; find the period, frequency and energy.",
+        "A pendulum's period is measured at two places; find the ratio of the local g values.",
+        "Plot the displacement velocity and acceleration of SHM against time and mark the phase relations.",
+        "A cylinder floats in a liquid; show that small vertical displacements lead to SHM and find the period.",
+        "For an oscillator with given total energy and amplitude, find the displacement where kinetic energy equals potential energy."
+      ]
+    }
+  ]
+}

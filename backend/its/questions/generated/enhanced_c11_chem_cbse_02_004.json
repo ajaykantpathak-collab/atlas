@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_004",
+   "title": "c11_chem_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define atomic number (Z) and mass number (A) using the standard notation \\(^{A}_{Z}\\text{X}\\). State the relationship between Z, A, and the number of neutrons (n).",
+     "a": "Atomic number (Z) = number of protons in the nucleus = number of electrons in a neutral atom. Mass number (A) = total number of nucleons = number of protons + number of neutrons. Relationship: A = Z + n, so n = A – Z. In notation \\(^{A}_{Z}\\text{X}\\), A is the left superscript, Z is the left subscript. A wrong answer (e.g., swapping Z and A, or saying Z = neutrons) reveals the student confuses the two definitions or misremembers the notation layout — a critical error for writing nuclear symbols in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A neutral atom has 17 protons and 18 neutrons. Write its complete symbol \\(^{A}_{Z}\\text{X}\\) and name the element. Then write the symbol for the ion formed when this atom gains one electron.",
+     "a": "Protons = 17 → Z = 17 (chlorine, Cl). Neutrons = 18 → A = 17 + 18 = 35. Neutral atom: \\(^{35}_{17}\\text{Cl}\\). After gaining one electron, it has 18 electrons and 17 protons → charge = –1. Ion symbol: \\(^{35}_{17}\\text{Cl}^-\\). A wrong answer (e.g., writing \\(^{17}_{35}\\text{Cl}\\) or \\(^{35}_{17}\\text{Cl}^+\\)) reveals the student either reverses the superscript/subscript positions or misunderstands that gaining electrons creates a negative charge — both are common board-exam mistakes.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the number of protons, neutrons, and electrons in \\(^{80}_{35}\\text{Br}^-\\). Show all steps.",
+     "a": "Step 1: Identify Z = 35 (subscript) → protons = 35. Step 2: Identify A = 80 (superscript) → mass number = 80. Step 3: Neutrons = A – Z = 80 – 35 = 45. Step 4: Charge is –1 → electrons = protons + 1 = 35 + 1 = 36. Final answer: protons = 35, neutrons = 45, electrons = 36. A wrong answer (e.g., electrons = 35 or neutrons = 35) reveals the student either ignores the ion charge when counting electrons or confuses Z with neutron number — indicating they haven't internalised that Z always equals protons, never neutrons.",
+     "self_check": true
+    },
+    {
+     "q": "Two species are given: \\(^{14}_{6}\\text{C}\\) and \\(^{14}_{7}\\text{N}\\). Are they isotopes, isobars, or neither? Justify your answer using the definitions of Z and A.",
+     "a": "They are isobars. \\(^{14}_{6}\\text{C}\\) has Z = 6, A = 14. \\(^{14}_{7}\\text{N}\\) has Z = 7, A = 14. Same mass number (A = 14) but different atomic numbers (Z = 6 vs 7) → isobars by definition. Isotopes would require same Z, different A. A wrong answer (e.g., calling them isotopes) reveals the student memorised \"same mass number = isotopes\" without understanding that isotopes share Z (same element) while isobars share A (different elements) — a conceptual confusion that undermines nuclear chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the symbol for a magnesium ion with 12 protons, 12 neutrons, and 10 electrons as \\(^{24}_{12}\\text{Mg}^{2-}\\). Evaluate this symbol and correct it if necessary.",
+     "a": "The symbol is incorrect. Protons = 12 → Z = 12 (Mg). Neutrons = 12 → A = 12 + 12 = 24. Electrons = 10, protons = 12 → net charge = +2 (cation), not –2. Correct symbol: \\(^{24}_{12}\\text{Mg}^{2+}\\). The student's error shows they think \"fewer electrons = negative charge\" — a sign-reversal misconception. In board exams, such charge errors lose full marks even if A and Z are correct.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of three nuclear symbols \\(^{A}_{Z}\\text{X}\\) that represent: (i) an isotope of carbon-12, (ii) an isobar of carbon-12, and (iii) a different element with the same neutron number as carbon-12. Explain your reasoning for each.",
+     "a": "(i) Isotope of \\(^{12}_{6}\\text{C}\\): same Z = 6, different A. Example: \\(^{13}_{6}\\text{C}\\) (7 neutrons) or \\(^{14}_{6}\\text{C}\\) (8 neutrons). (ii) Isobar of \\(^{12}_{6}\\text{C}\\): same A = 12, different Z. Example: \\(^{12}_{5}\\text{B}\\) or \\(^{12}_{7}\\text{N}\\). (iii) Same neutron number as \\(^{12}_{6}\\text{C}\\) (which has n = 12 – 6 = 6): choose any element with n = 6. Example: \\(^{13}_{7}\\text{N}\\) (Z=7, n=6) or \\(^{14}_{8}\\text{O}\\) (Z=8, n=6). A poor answer (e.g., giving \\(^{12}_{6}\\text{C}\\) itself for (i) or confusing the categories) reveals the student cannot independently manipulate Z, A, and n — they only recognise definitions passively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class7_science_ch104.json",
+ "concepts": [
+  {
+   "id": "gesc.4.1.1",
+   "title": "Properties of Acids and Bases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we prefer woollen clothes in winter?",
+     "a": "Wool traps air, a poor conductor, so body heat cannot escape and we feel warm.",
+     "self_check": true
+    },
+    {
+     "q": "Name three effects of heat that we observe.",
+     "a": "Rise in temperature, expansion of substances, and change of state (ice to water).",
+     "self_check": true
+    },
+    {
+     "q": "What is the normal temperature of the human body?",
+     "a": "37 deg C (about 98.6 deg F), measured with a clinical thermometer.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.2.1",
+   "title": "Indicators",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a clinical thermometer and its range?",
+     "a": "A thermometer to measure body temperature, reading 35 deg C to 42 deg C.",
+     "self_check": true
+    },
+    {
+     "q": "Why should a clinical thermometer not be washed with hot water?",
+     "a": "Hot water would heat the mercury beyond its range and burst the thermometer.",
+     "self_check": true
+    },
+    {
+     "q": "Which thermometer measures the temperature of boiling water?",
+     "a": "A laboratory thermometer (-10 deg C to 110 deg C), never a clinical one.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.3.1",
+   "title": "Neutralisation Reaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a neutralisation reaction?",
+     "a": "Acid + base react to form salt and water, cancelling each other's effect.",
+     "self_check": true
+    },
+    {
+     "q": "Give one daily-life use of neutralisation.",
+     "a": "Antacids neutralise excess stomach acid; lime neutralises acidic soil.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to litmus when an acid exactly neutralises a base?",
+     "a": "The solution turns neutral - red litmus stays red and blue stays blue (no colour change).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

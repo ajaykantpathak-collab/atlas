@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_3",
+   "title": "c8_physics_ch1_3",
+   "questions": [
+    {
+     "q": "A student wants to investigate \"Does the thickness of a wire affect the brightness of a bulb in a simple circuit?\" What is the **independent variable** in this experiment?",
+     "a": "The independent variable is the **thickness of the wire** (e.g., measured in mm² or SWG gauge).  \nA wrong answer (e.g., \"brightness of the bulb\" or \"type of battery\") reveals the student confuses the independent variable (what we change) with the dependent variable (what we measure) or a controlled variable (what we keep constant). This confusion leads to flawed experimental designs where multiple factors change simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Riya sets up an experiment to test how the angle of a ramp affects the speed of a toy car. She uses the same car and ramp surface but changes the ramp angle. She measures the time taken to travel 1 meter. Her friend says, \"You must also keep the mass of the car constant.\" Riya replies, \"The car is the same, so its mass is automatically constant.\" Is Riya's reasoning correct? Explain why or why not.",
+     "a": "Yes, Riya is correct. Using the **same car** ensures its mass stays constant without extra effort — this is an inherent control.  \nA wrong answer (e.g., \"No, she must add weights to keep mass constant\") reveals the student does not understand that using identical equipment across trials automatically controls many variables. They may overcomplicate designs by trying to control factors that are already fixed by the setup.",
+     "self_check": true
+    },
+    {
+     "q": "Aman designs an experiment: \"How does the temperature of water affect the time taken for a sugar cube to dissolve?\" He lists these variables:  \n- Independent: Water temperature (°C)  \n- Dependent: Time for sugar to dissolve (seconds)  \n- Controlled: Volume of water, size of sugar cube, stirring rate  \nHe plans to test at 20°C, 40°C, and 60°C using 100 mL water each time.  \n**Identify one major flaw in his controlled variables and explain how it would affect his results.**",
+     "a": "The flaw: **Stirring rate is not controlled precisely** — \"stirring rate\" is subjective (e.g., \"slow\" vs \"fast\"). Without a standardized method (e.g., \"10 revolutions per second with a magnetic stirrer\"), the stirring intensity will vary between trials, introducing a second changing variable. This would make it impossible to know if differences in dissolving time are due to temperature or uneven stirring.  \nA wrong answer (e.g., \"Volume of water should be 200 mL\") reveals the student focuses on arbitrary values rather than the **measurability and consistency** of controlled variables.",
+     "self_check": true
+    },
+    {
+     "q": "Two students investigate \"Does the number of batteries in series affect the speed of a motor?\"  \n- **Student A** uses 1, 2, 3 batteries and measures motor speed (rotations per minute).  \n- **Student B** uses 1, 2, 3 batteries but changes the motor each time (different brand).  \nCompare the two designs. Which student's data can reliably answer the question? Why?",
+     "a": "**Student A's design is reliable; Student B's is not.**  \nStudent A keeps the motor constant (controlled variable), so any speed change is due to the number of batteries (independent variable). Student B changes **both** the number of batteries **and** the motor — two independent variables change simultaneously. If speed increases, we cannot tell if it was due to more batteries or a more efficient motor.  \nA wrong answer (e.g., \"Both are fine because they test the same question\") reveals the student fails to recognize that **changing multiple variables at once destroys causal inference** — a core principle of fair testing.",
+     "self_check": true
+    },
+    {
+     "q": "Priya conducts the ramp-angle experiment (Diagnostic Question 2) and gets the following data:  \n| Ramp Angle | Trial 1 Time (s) | Trial 2 Time (s) | Trial 3 Time (s) |  \n|------------|------------------|------------------|------------------|  \n| 10°        | 4.2              | 4.1              | 4.3              |  \n| 20°        | 2.8              | 2.9              | 2.7              |  \n| 30°        | 1.9              | 2.0              | 1.8              |  \nShe concludes: \"As angle increases, time decreases, so speed increases.\"  \n**Evaluate her conclusion.** Is it fully supported by her data? What additional step should she take before finalizing?",
+     "a": "Her conclusion is **partially supported but incomplete**. The data shows a clear trend (time decreases with angle), but she **has not calculated speed** (distance/time) or **averaged her trials** to reduce random error. She should:  \n1. Compute average time for each angle.  \n2. Calculate speed = 1 m / average time.  \n3. Check if the trend holds for speed values.  \nA wrong answer (e.g., \"The conclusion is perfect because the pattern is obvious\") reveals the student confuses **raw data patterns** with **processed evidence** and neglects the need for replication and calculation to support quantitative claims.",
+     "self_check": true
+    },
+    {
+     "q": "**Design a simple experiment** to answer: \"How does the surface material (e.g., sandpaper, cloth, plastic) affect the distance a toy car travels after rolling down a fixed ramp?\"  \nProvide:  \n- Aim  \n- Independent, dependent, and **three** controlled variables  \n- Materials list  \n- 5-step procedure  \n- How you will ensure fairness",
+     "a": "**Aim:** Investigate how surface material affects the stopping distance of a toy car after rolling down a ramp.  \n**Independent variable:** Surface material (sandpaper, cloth, plastic sheet).  \n**Dependent variable:** Stopping distance from bottom of ramp (cm).  \n**Controlled variables:** (1) Ramp angle and length, (2) Same toy car (mass, wheels), (3) Release method (no push, just let go), (4) Starting position on ramp.  \n**Materials:** Ramp (wooden board), 3 surface sheets (sandpaper, cloth, plastic), toy car, meter scale, protractor, tape.  \n**Procedure:**  \n1. Fix ramp at 20° using protractor.  \n2. Attach sandpaper to floor at ramp base.  \n3. Place car at top mark, release without push.  \n4. Measure stopping distance from ramp end. Repeat 3×.  \n5. Replace sandpaper with cloth, then plastic; repeat steps 3–4.  \n**Fairness:** Same ramp, car, release method, and starting point for all trials; only surface changes.  \nA poor answer (e.g., missing controlled variables, no repetition, vague procedure) reveals the student cannot translate a question into a structured, controlled investigation — they may list materials but miss the logic of variable control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_006",
+   "title": "c11_chem_cbse_08_006",
+   "questions": [
+    {
+     "q": "Write the balanced half-reactions for the anode and cathode during rusting of iron in neutral aqueous medium, and give the overall reaction for formation of Fe₂O₃·xH₂O.",
+     "a": "Anode: Fe(s) → Fe²⁺(aq) + 2e⁻; Cathode: O₂(g) + 2H₂O(l) + 4e⁻ → 4OH⁻(aq); Overall: 4Fe(s) + 3O₂(g) + 6H₂O(l) → 4Fe(OH)₃(s) → 2Fe₂O₃·3H₂O(s). A wrong answer (e.g., Fe → Fe³⁺ + 3e⁻ at anode, or H⁺ reduction at cathode) reveals confusion between acidic vs neutral mechanisms and ignorance that rust forms via Fe(OH)₃ dehydration, not direct Fe₂O₃ formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rusting accelerates when iron is in contact with copper, but slows down when in contact with zinc, using the electrochemical series and galvanic cell concept.",
+     "a": "Cu²⁺/Cu (+0.34 V) is less negative than Fe²⁺/Fe (−0.44 V), so iron becomes anode and corrodes faster; Zn²⁺/Zn (−0.76 V) is more negative, so zinc becomes sacrificial anode protecting iron. A wrong answer (e.g., \"copper protects iron because it's less reactive\") reveals misunderstanding that the MORE reactive metal (lower reduction potential) oxidises preferentially in a galvanic couple.",
+     "self_check": true
+    },
+    {
+     "q": "A 2.5 kg iron gate loses 12 g mass due to rusting over 6 months. Assuming uniform corrosion to Fe₂O₃, calculate the average corrosion current in mA. (F = 96500 C/mol, M_Fe = 56 g/mol)",
+     "a": "Mass loss = 12 g Fe → moles Fe = 12/56 = 0.214 mol. Each Fe loses 2e⁻ → moles e⁻ = 0.428 mol. Charge = 0.428 × 96500 = 41302 C. Time = 6 × 30 × 24 × 3600 = 1.555×10⁷ s. Current = 41302 / 1.555×10⁷ = 0.00266 A = 2.66 mA. A wrong answer using 3e⁻ per Fe (Fe→Fe³⁺) or forgetting time conversion reveals errors in oxidation state assignment or unit handling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the initiation step of rancidity in linoleic acid (C18:2) vs oleic acid (C18:1). Why does linoleic acid oxidise faster? Use bond dissociation energies.",
+     "a": "Linoleic has −CH=CH−CH₂−CH=CH− (bis-allylic) with C−H BDE ≈ 335 kJ/mol; oleic has only allylic −CH=CH−CH₂− with BDE ≈ 360 kJ/mol. Lower BDE at bis-allylic position means easier H-abstraction by initiators (RO•, •OH), so linoleic acid oxidises ~40× faster. A wrong answer citing only \"more double bonds\" without bis-allylic distinction reveals superficial understanding of radical stability.",
+     "self_check": true
+    },
+    {
+     "q": "A food manufacturer claims their chips \"contain no added antioxidants\" but use nitrogen flushing and opaque packaging. Evaluate whether this prevents rancidity completely. Justify with reaction mechanism.",
+     "a": "No — nitrogen flushing removes O₂ (slowing propagation) and opaque packaging blocks UV (slowing initiation), but trace O₂ permeates packaging and thermal initiation still occurs at storage temperature. Without chain-breaking antioxidants (e.g., BHT), propagation continues until termination by radical-radical coupling. A \"yes\" answer reveals ignorance that rancidity is a radical chain reaction requiring only ppm O₂ and thermal energy to sustain.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that rusting is an electrochemical process requiring both anodic and cathodic sites. List materials, procedure, and expected observations with half-reactions.",
+     "a": "Materials: Two iron nails, agar-agar gel, K₃[Fe(CN)₆] (ferricyanide), phenolphthalein, NaCl. Procedure: Embed nails in gel with indicators; one nail straight, one bent sharply. Add NaCl droplets. Expected: Blue colour (Prussian blue, Fe³⁺ + [Fe(CN)₆]³⁻) at bent regions (anode, Fe→Fe²⁺); pink colour (phenolphthalein, OH⁻) at straight regions (cathode, O₂+2H₂O+4e⁻→4OH⁻). Half-reactions as in Q1. A poor answer omitting spatial separation of colours or half-reactions reveals failure to grasp electrochemical cell nature of corrosion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_001",
+   "title": "c12_math_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the order of the matrix A = [a_ij] where i = 1, 2, 3 and j = 1, 2, 3, 4? How many elements does it contain?",
+     "a": "The order is 3 × 4 (3 rows, 4 columns) and it contains 3 × 4 = 12 elements. A wrong answer like 4 × 3 or 7 elements reveals confusion between row/column indexing — the student is reading i as columns and j as rows, or adding m + n instead of multiplying.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The matrix B = [5] is a row matrix because it has one row.\" Is this correct? Explain why or why not.",
+     "a": "The statement is incorrect. The matrix [5] has order 1 × 1 — it is BOTH a row matrix (1 × n with n=1) AND a column matrix (m × 1 with m=1). It is also a square matrix, a diagonal matrix, a scalar matrix, and an identity matrix (since the single element is 1 if we consider [1]). A student who says it is \"only a row matrix\" does not understand that matrix types are not mutually exclusive; a 1 × 1 matrix satisfies all definitions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2 × 3 matrix A = [a_ij] where a_ij = (i - 2j)^2. Write the complete matrix with all elements calculated.",
+     "a": "For i=1,2 and j=1,2,3:\na_11 = (1-2)^2 = 1, a_12 = (1-4)^2 = 9, a_13 = (1-6)^2 = 25\na_21 = (2-2)^2 = 0, a_22 = (2-4)^2 = 4, a_23 = (2-6)^2 = 16\nMatrix A = [[1, 9, 25], [0, 4, 16]]. A wrong answer with elements like (1-2)^2 = -1 reveals sign error in squaring; an answer with 3 rows reveals order confusion (thinking 2×3 means 3 rows).",
+     "self_check": true
+    },
+    {
+     "q": "Given matrices P = [[2, 0], [0, 2]] and Q = [[2, 0], [0, 3]], classify each as: diagonal, scalar, identity, or none. Justify your classification for each.",
+     "a": "P is diagonal (non-diagonal elements zero) AND scalar (diagonal elements equal, k=2) but NOT identity (diagonal elements not 1). Q is diagonal (non-diagonal elements zero) but NOT scalar (diagonal elements 2 and 3 are unequal) and NOT identity. A student who calls Q a scalar matrix is applying the \"diagonal elements non-zero\" condition but missing the \"all diagonal elements equal\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If A = [[1, 2], [3, 4]] and B = [[1, 2], [3, 4]], then A = B because they look the same.\" Is this reasoning sufficient for board exam marks? What must be explicitly stated?",
+     "a": "The reasoning is insufficient. For full marks, the student MUST explicitly state: (1) Both matrices have the same order (2 × 2), AND (2) each corresponding element is equal: a_11 = b_11 = 1, a_12 = b_12 = 2, a_21 = b_21 = 3, a_22 = b_22 = 4. Just saying \"they look the same\" gets 0 marks in CBSE. This tests whether the student knows the formal two-part definition of matrix equality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from marks or inventory) where a 3 × 2 matrix naturally arises. Define what the rows and columns represent, and give a plausible numerical example.",
+     "a": "Example: A small café sells 3 items (coffee, tea, sandwich) over 2 days (Monday, Tuesday). Rows = items, Columns = days. Matrix = [[50, 60], [40, 45], [30, 35]] where entry (i,j) = quantity of item i sold on day j. A poor answer uses rows/columns interchangeably without definition, or creates a scenario that forces a 2×3 matrix instead (e.g., 2 items over 3 days), showing the student cannot distinguish row vs column meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

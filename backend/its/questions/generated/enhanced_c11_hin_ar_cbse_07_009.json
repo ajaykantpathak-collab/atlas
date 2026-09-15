@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_07_009",
+   "title": "c11_hin_ar_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define situational irony and give one example from the story where the outcome of the tree-cutting request is the opposite of what the characters initially expect.",
+     "a": "Situational irony occurs when events unfold in a way that is opposite to what is expected or appropriate. In the story, the mother expects the tree to be cut quickly when she requests it, but instead the request triggers a chain of bureaucratic referrals (Patwari → Patel → Tehsildar → Naib Tehsildar → Kanungo → Forest Department → Revenue Department) that takes days, while the dead body beneath the tree decomposes. A wrong answer (e.g., \"irony is when someone lies\") reveals confusion between verbal irony and situational irony, or inability to distinguish irony from mere coincidence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the tree (इस्माइल का पेड़) functions as a symbol in this story, and identify what abstract idea it represents beyond being a physical tree.",
+     "a": "The tree symbolizes the absurdity of colonial-era bureaucratic legacy that outlives its purpose: it was planted by a former ruler (इहतफूज सरकार) as a memorial, but now its removal requires permission from multiple departments that no longer serve the people. It represents how administrative systems become self-perpetuating obstacles. A wrong answer (e.g., \"the tree symbolizes nature\") shows the student identifies a surface-level association but misses the specific socio-political critique Renu embeds — the tree is not just nature, it is a monument to red tape.",
+     "self_check": true
+    },
+    {
+     "q": "Apply your understanding of dramatic irony: At what point in the story does the reader know something that the officials do not, and how does this affect the reader's judgment of the officials' actions?",
+     "a": "The reader learns early (through the mother's observation and the poet's verses) that the dead body is a poet, while the officials treat it as an unidentified corpse and prioritize procedure over humanity. This dramatic irony peaks when the Forest Department officer writes a report about cutting the \"precious tree\" while a dead poet lies beneath it. The reader judges the officials as morally bankrupt because we know the human cost they ignore. A wrong answer (e.g., \"the officials know he is a poet but don't care\") misses the dramatic irony structure — the power comes from the reader's superior knowledge, not the officials' malice.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how verbal irony operates in the Tehsildar's statement: \"यह वन विभाग का मामला है, राजस्व विभाग का नहीं\" (This is Forest Department's matter, not Revenue Department's) when both departments later claim jurisdiction. What does this contradiction reveal about bureaucratic language?",
+     "a": "The Tehsildar's statement is verbally ironic because his words (\"not our department\") are contradicted by subsequent actions where Revenue Department officials actively intervene. This reveals bureaucratic language as performative — officials use formal categorizations to deflect responsibility rather than solve problems. The contradiction between departmental claims exposes how administrative boundaries serve evasion, not governance. A wrong answer (e.g., \"he was mistaken\") treats it as error rather than systemic pattern, missing Renu's critique of institutionalized buck-passing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poet's identity revelation as a symbolic climax. Does the discovery that the dead man is a poet strengthen or weaken the story's critique of bureaucracy? Justify your judgment.",
+     "a": "The revelation strengthens the critique because it transforms the dead body from an anonymous \"problem\" into a specific human being whose art (poetry) survives the bureaucracy that failed him. The poet's verses — which the officials dismiss as \"कागज़ के टुकड़े\" — ultimately outlast the procedural reports. This symbolizes art's endurance against institutional indifference. A weak evaluation (e.g., \"it makes the story sad\") focuses on emotion without analyzing how the symbol functions structurally to contrast human creativity with bureaucratic sterility.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new symbolic object for a modern version of this story set in a contemporary Indian government office (e.g., Aadhaar center, passport office, municipal corporation). Describe the object, what it would symbolize, and one ironic situation involving it.",
+     "a": "Example: A malfunctioning biometric scanner at an Aadhaar center that repeatedly fails to read the fingerprints of an elderly farmer. The scanner symbolizes technology that excludes the very citizens it claims to serve. Irony: The farmer has worked the land for 60 years (his fingerprints worn by labor), but the machine designed to verify his identity rejects him because his hands bear the marks of that labor. A poor answer creates a symbol without irony (e.g., \"a broken chair symbolizes broken system\") or an irony without symbolic depth (e.g., \"the officer is late\"), missing the integration of device and meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

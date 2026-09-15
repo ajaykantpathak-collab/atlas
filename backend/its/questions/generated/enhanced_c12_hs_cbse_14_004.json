@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_004",
+   "title": "c12_hs_cbse_14_004",
+   "questions": [
+    {
+     "q": "A student sorts laundry into two piles: \"whites\" and \"colors.\" They wash the white cotton bedsheets at 60°C with detergent and the colored synthetic shirts at 30°C with the same detergent. Identify two critical sorting criteria they have ignored that could damage fabrics or cause poor cleaning.",
+     "a": "The student ignored fibre type and fabric construction. Cotton tolerates 60°C but synthetics (polyester/nylon) can deform or pill at high temperatures; wool/silk would felt or lose lustre. Construction matters: loose knits need gentle agitation to prevent stretching, while tight weaves withstand friction. Ignoring these causes irreversible damage (shrinkage, felting, pilling) and poor soil removal from delicate items. A correct sort would create at minimum four categories: white cottons/linens (hot), colored cottons (warm), synthetics/blends (cool), delicates-wool/silk (cold/hand wash).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why steeping heavily soiled cotton garments in cold water for 30 minutes before washing is less effective than steeping in warm water (40°C) for the same duration, referencing the physical chemistry of soil removal.",
+     "a": "Warm water (40°C) increases molecular kinetic energy, accelerating detergent surfactant diffusion into fibre interstices and reducing interfacial tension more effectively than cold water. It also softens oily/greasy soils (melting point ~30-40°C for body oils), converting them from semi-solid to liquid phase for easier emulsification. Cold water fails to activate many builders (e.g., sodium carbonate solubility increases with temperature) and slows enzymatic action in biological detergents. Result: particulate soil remains trapped; oily soil redeposits. Steeping time alone cannot compensate for suboptimal temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A silk dupatta with food stains is steeped in warm water (40°C) with biological detergent for 2 hours, then washed by vigorous rubbing on a washboard. Predict the specific damage to the fabric and explain why each step (steeping temperature, duration, mechanical action) is inappropriate for silk.",
+     "a": "Damage: loss of lustre, color bleeding, weakened tensile strength, possible felting-like surface distortion. (1) 40°C steeping: silk is protein fibre; heat + water + alkali (detergent) hydrolyzes peptide bonds, weakening polymer chains. (2) 2-hour duration: prolonged alkali exposure accelerates hydrolysis. (3) Vigorous rubbing: mechanical friction breaks fragile wet silk fibres (wet strength ~80% dry) and disrupts the smooth filament surface causing permanent dullness. Correct: cold water, neutral pH detergent, 10-15 min steep, gentle kneading/squeezing only.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the soil removal mechanisms in friction washing (rubbing on washboard/scrubbing) versus suction washing (kneading/squeezing in solution). For which fabric-soil combinations is each method preferred? Justify with fibre mechanical properties.",
+     "a": "Friction washing: mechanical abrasion dislodges particulate soil (mud, dust) from surface of strong, rigid fibres (cotton, linen) by overcoming adhesive forces. Suction washing: repeated compression/expansion creates pressure gradients that flush surfactant-soil solution through open fabric structure; ideal for loose, absorbent constructions (wool knits, silk) and oily soils where penetration matters. Friction damages weak/elastic fibres (wool felts, silk abrades, synthetics pill); suction preserves structure but less effective on tightly woven heavy soils. Choose friction for cotton workwear with mud; suction for wool sweater with body oils.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds starch to the final rinse of a polyester-cotton blend shirt to \"make it crisp.\" Evaluate this decision: will it achieve the desired finish? What are the risks? Propose a better finishing agent for this blend.",
+     "a": "Decision is poor. Starch (amylose/amylopectin) forms hydrogen bonds with cellulose -OH groups; polyester has no -OH groups, so starch deposits unevenly, creating stiff patches on cotton portions only, leading to inconsistent handle and white powdery residue on polyester. Risks: starch attracts microorganisms (mildew), scorches at ironing temperatures safe for polyester, and builds up in fibre interstices reducing breathability. Better: use a synthetic finish (e.g., polyvinyl acetate or acrylic copolymer) that deposits uniformly on both fibres, provides crispness without microbial food, and is heat-stable at polyester ironing temps (150°C). Alternatively, skip finish—blends often need no stiffening.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete laundry protocol for a mixed load containing: (a) white cotton chef's coat with protein stains (blood, egg), (b) navy blue cotton kurta, (c) beige wool sweater, (d) printed polyester scarf. Specify sorting groups, steeping conditions, washing method, detergent type, rinse steps, and finishing for each group. Justify every parameter choice.",
+     "a": "Sort into 4 groups (no mixing possible):\nGroup 1 (chef's coat): White cotton, protein stains. Steep 30 min cold water + enzymatic pre-soak (protease breaks proteins; heat coagulates proteins). Wash hot (60-70°C) with heavy-duty alkaline detergent + oxygen bleach. Friction wash. Rinse 3× hot→warm→cold. Finish: none (starch attracts soil).\nGroup 2 (navy kurta): Colored cotton. Steep 15 min warm (40°C) with color-safe detergent. Wash warm (40°C) gentle machine cycle. Rinse 2× warm→cold. Finish: optical brightener (no blue on dark colors).\nGroup 3 (wool sweater): Wool. Steep 10 min cold (30°C max) with wool-safe neutral detergent. Wash by suction/kneading only. Rinse 3× cold (temp shock causes felting). Finish: fabric conditioner (cationic surfactant lubricates scales).\nGroup 4 (polyester scarf): Synthetic. Steep 10 min cold with mild detergent. Wash gentle machine cold. Rinse 2× cold. Finish: anti-static agent (polyester builds static). Justifications tie each parameter to fibre thermal stability, chemical sensitivity, wet strength, and soil type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

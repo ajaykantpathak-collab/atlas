@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_008",
+   "title": "c12_psy_cbse_03_008",
+   "questions": [
+    {
+     "q": "**REMEMBER level:** List the three stages of Biofeedback training as described in the NCERT textbook, in correct sequence.",
+     "a": "Correct answer: (1) Developing awareness of the particular physiological response (e.g., heart rate), (2) Learning ways of controlling that physiological response in quiet conditions, (3) Transferring that control into the conditions of everyday life.  \nA wrong answer (e.g., listing \"relaxation, meditation, visualisation\" or reversing the order) reveals the student has memorised the term \"biofeedback\" but not its procedural structure, confusing it with a list of techniques rather than a staged training protocol.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND level:** Explain why Creative Visualisation requires the person to have a \"quiet mind, relaxed body, and closed eyes\" before beginning the imagery process. Use the NCERT concepts of \"unbidden thoughts\" and \"creative energy.\"",
+     "a": "Correct answer: A quiet mind and relaxed body minimise physiological arousal and cognitive interference (unbidden thoughts) that would compete for limited attentional resources. Closed eyes reduce external sensory input. This frees up \"creative energy\" (attentional capacity) to construct and maintain vivid, goal-directed imagery, which the NCERT states is necessary for \"turning an imagined scene into reality.\"  \nA wrong answer that merely says \"to concentrate better\" without linking to interference from unbidden thoughts or the resource-allocation rationale shows superficial understanding—the student knows the *what* but not the *why*.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY level:** A 17-year-old student, Rohan, experiences severe tension headaches and jaw clenching during study sessions. He cannot identify when his muscles tense up. Which single technique from this node is MOST appropriate as a first intervention, and why? Justify using the mechanism of that technique.",
+     "a": "Correct answer: **Biofeedback** (specifically EMG biofeedback for muscle tension).  \nReasoning: Rohan’s problem is *lack of awareness* of his physiological response (muscle tension) until it becomes painful. Biofeedback’s first stage—“developing an awareness of the particular physiological response”—directly addresses this deficit by making the covert tension overt via auditory/visual signals. Once aware, he can learn voluntary control (stage 2) and generalise it (stage 3). Relaxation or meditation alone would not give him the real-time feedback needed to recognise the onset of tension.  \nA wrong answer choosing \"Relaxation Techniques\" reveals the student overlooks the *awareness deficit* and assumes relaxation can be applied without first detecting the tension.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE level:** Compare and contrast the mechanism of **Meditation** and **Creative Visualisation** in terms of (a) attentional focus, (b) role of imagery, and (c) intended altered state. Use NCERT descriptions.",
+     "a": "Correct answer:  \n(a) **Attentional focus**: Meditation uses *concentrative* focus (e.g., breath, mantra) to exclude *all* external stimulation, leading to an altered state of consciousness. Creative Visualisation uses *guided imagery* focused on a *specific goal-directed scene*, not exclusion of all stimulation.  \n(b) **Role of imagery**: In Meditation, imagery is typically absent or minimal; the focus is on a neutral anchor. In Creative Visualisation, imagery is the *core vehicle*—the person actively constructs a desired future scenario.  \n(c) **Intended altered state**: Meditation aims for a state of \"unawareness of outside stimulation\" (a quiescent, self-transcendent state). Creative Visualisation aims for a state of *focused expectation* where the imagined scene feels real, building confidence and reducing threat appraisal.  \nA wrong answer that says \"both use imagery to relax\" conflates the two, missing the critical distinction: meditation *quiets* the mind, visualisation *directs* it.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE level:** A school counsellor proposes using **only** Progressive Muscle Relaxation (PMR) for a group of students with examination anxiety. Critique this plan using the NCERT’s view on the multidimensional nature of stress responses (physiological, cognitive, emotional, behavioural).",
+     "a": "Correct answer: The plan is **insufficient**. PMR primarily targets the *physiological* component (muscle tension, autonomic arousal). Examination anxiety, however, also involves *cognitive* components (catastrophic thoughts, \"mind going blank\"), *emotional* components (fear, helplessness), and *behavioural* components (avoidance, poor time management). The NCERT explicitly states stress responses are \"physiological, behavioural, emotional, and cognitive.\" A single technique cannot address all four. A multimodal approach (e.g., adding Cognitive Behavioural Techniques from node c12_psy_cbse_03_009 for cognitive restructuring, and Creative Visualisation for mastery imagery) is needed.  \nA wrong answer that says \"PMR is enough because it relaxes the body\" reveals a reductionist view that ignores the NCERT’s multidimensional model of stress.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE level:** Design a 4-week stress management module for Class 12 students preparing for board exams. Integrate **all four techniques** from this node in a progressive sequence (Week 1–4). Specify the primary target (physiological/cognitive/emotional) for each week and the rationale for the ordering.",
+     "a": "Expected answer (criteria for a good answer):  \n- **Week 1: Relaxation (PMR + Deep Breathing)** → Target: *Physiological arousal*. Rationale: Establishes baseline bodily control; reduces somatic anxiety so students can sit still for later techniques.  \n- **Week 2: Meditation (Breath Awareness)** → Target: *Attentional control / Cognitive interference*. Rationale: Builds on relaxed body; trains meta-awareness to detect wandering thoughts (unbidden thoughts) before they escalate.  \n- **Week 3: Biofeedback (HRV or Thermal)** → Target: *Physiological self-regulation + Awareness*. Rationale: Makes subtle autonomic changes visible; students apply Week 1–2 skills with objective feedback, accelerating mastery.  \n- **Week 4: Creative Visualisation (Exam Success Script)** → Target: *Cognitive appraisal / Emotional confidence*. Rationale: Uses the calm, focused state from Weeks 1–3 to rehearse mastery imagery, directly replacing threat appraisals with challenge appraisals (Lazarus).  \nA poor answer lists techniques randomly without progressive scaffolding or fails to link each week to a specific stress-response component.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

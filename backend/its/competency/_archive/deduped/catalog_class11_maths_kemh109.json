@@ -1,0 +1,316 @@
+{
+  "class": 11,
+  "subject": "maths",
+  "chapter": 109,
+  "chapter_title": "Straight Lines",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh109.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kemh109.9.2.1",
+      "title": "Slope of a Line Through Two Points",
+      "section": "9.2.1",
+      "definition": "The slope measures the tilt of a line: it is the rise divided by the run when moving between any two of its points, and it stays the same no matter which pair of points on that line you pick. A horizontal line has slope 0; as the line steepens toward vertical the slope grows without bound and is left undefined at exactly vertical.",
+      "formula": "slope = (y2 - y1) / (x2 - x1)",
+      "key_idea": "One pair of points fixes the tilt for the whole line -- the quotient of rises over runs is constant along a straight line.",
+      "textbook_ref": "kemh109.txt lines 60-130 (section 9.2 and 9.2.1, slope as tan of angle with positive x-axis, slope from coordinates, vertical line undefined)",
+      "question_patterns": [
+        "find the slope of the line joining the two given points",
+        "calculate the slope from the coordinates of P and Q",
+        "in class 11 straight lines: what is the slope of a line making an angle with the x-axis",
+        "why is the slope of a vertical line not defined",
+        "what is the slope of the x-axis and of any line parallel to it",
+        "the rise and run between two points are known, determine the tilt"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "subtract the y-coordinates", "explain": "The rise measures how far the line climbs between the two chosen points.",
+         "compute": "rise = y2 - y1"},
+        {"step": 2, "action": "subtract the x-coordinates", "explain": "The run is the matching horizontal change.",
+         "compute": "run = x2 - x1"},
+        {"step": 3, "action": "divide rise by run", "explain": "Rise over run is the slope.",
+         "compute": "slope = rise / run"}
+      ]
+    },
+    {
+      "id": "kemh109.9.2.2",
+      "title": "Parallel and Perpendicular Conditions",
+      "section": "9.2.2",
+      "definition": "Two non-vertical lines run parallel exactly when their slopes match, and they meet at a right angle exactly when the product of their slopes is -1; each condition lets you turn a geometric statement about lines into a quick algebraic check.",
+      "formula": "m1 = m2 for parallel, m1 * m2 = -1 for perpendicular",
+      "key_idea": "Parallel means equal slopes; perpendicular means slopes are negative reciprocals of each other.",
+      "textbook_ref": "kemh109.txt lines 131-190 (section 9.2.2, conditions for parallelism and perpendicularity in terms of slopes)",
+      "question_patterns": [
+        "how do the slopes of two parallel lines compare",
+        "what relation between slopes makes two lines perpendicular",
+        "in class 11 straight lines: check whether the given lines are parallel or perpendicular",
+        "a line perpendicular to a given line is wanted, find its slope",
+        "why does slope product -1 correspond to a 90 degree angle",
+        "decide if the two lines with given slopes can ever meet at right angles"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "compute both slopes", "explain": "Reduce each line to its tilt value, using the two-point formula or the coefficient of x."},
+        {"step": 2, "action": "test parallelism", "explain": "Equal slopes with different intercepts give parallel lines that never meet."},
+        {"step": 3, "action": "test perpendicularity", "explain": "Multiply the slopes; a product of -1 certifies a right angle between the lines, since tan 90 would force the denominator 1 + m1*m2 to vanish."}
+      ]
+    },
+    {
+      "id": "kemh109.9.2.3",
+      "title": "Angle Between Two Lines",
+      "section": "9.2.3",
+      "definition": "When two lines with slopes m1 and m2 cross, each of the two angles between them has a tangent given by the difference of slopes over one plus their product; the denominator hitting zero signals a perfect right angle.",
+      "formula": "tan_theta = (m2 - m1) / (1 + m1 * m2)",
+      "key_idea": "The two crossing angles are supplementary, and one tangent formula with a sign flip covers both choices.",
+      "textbook_ref": "kemh109.txt lines 191-240 (section 9.2.3 angle between two lines, tan theta derivation, perpendicular case)",
+      "question_patterns": [
+        "find the angle between two lines whose slopes are given",
+        "calculate the tangent of the angle between the given lines",
+        "in class 11 straight lines: what happens to the angle formula when the lines are perpendicular",
+        "the slopes are 1 and 2, find the acute angle between the lines",
+        "why does the formula fail for vertical lines",
+        "determine whether the angle between the lines is acute or obtuse"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "subtract the slopes", "explain": "The numerator m2 - m1 fixes which of the two crossing angles you are measuring.",
+         "compute": "slope_gap = m2 - m1"},
+        {"step": 2, "action": "divide by one plus the product", "explain": "Dividing by 1 + m1*m2 gives the tangent of that angle; a zero denominator means the angle is 90 degrees.",
+         "compute": "tan_theta = slope_gap / (1 + m1 * m2)"}
+      ]
+    },
+    {
+      "id": "kemh109.9.2.4",
+      "title": "Collinearity of Three Points via Slopes",
+      "section": "9.2.4",
+      "definition": "Three points lie on one single straight line precisely when the slope joining two of them equals the slope joining a different pair; a mismatch of slopes proves the points form a triangle instead.",
+      "formula": "",
+      "key_idea": "Collinearity is a slope comparison: if A, B, C are on one line then slope AB = slope BC.",
+      "textbook_ref": "kemh109.txt lines 241-265 (section 9.2.4 collinearity of three points using slopes)",
+      "question_patterns": [
+        "use slopes to test whether three given points are collinear",
+        "show that the points A, B and C lie on the same line",
+        "in class 11 straight lines: what slope equality certifies collinearity",
+        "do the three points form a triangle or a straight line",
+        "compare the slope of AB with the slope of BC and conclude",
+        "given four points, check which three of them are collinear"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "pick two pairs sharing a point", "explain": "Join A to B and B to C; both segments must carry the same tilt if all three points sit on one line."},
+        {"step": 2, "action": "compute each slope", "explain": "Apply the two-point slope formula to AB and to BC."},
+        {"step": 3, "action": "compare and conclude", "explain": "Equal slopes mean collinear; unequal slopes mean the points bend at B."}
+      ]
+    },
+    {
+      "id": "kemh109.9.3.1",
+      "title": "Point-Slope, Two-Point and Slope-Intercept Forms",
+      "section": "9.3.2, 9.3.3, 9.3.4",
+      "definition": "A line is pinned down by a tilt plus one anchor: knowing slope m and a point (x1, y1) gives y - y1 = m (x - x1), while two known points determine both the slope and the anchor; when the anchor is where the line cuts the y-axis at (0, c) the equation shortens to y = m x + c.",
+      "formula": "y - y1 = m * (x - x1)",
+      "key_idea": "All the standard forms are rearrangements of one idea -- slope times horizontal travel equals vertical travel.",
+      "textbook_ref": "kemh109.txt lines 300-420 (sections 9.3.2 point-slope, 9.3.3 two-point, 9.3.4 slope-intercept forms of the equation of a line)",
+      "question_patterns": [
+        "find the equation of the line through a given point with a given slope",
+        "write the equation of the line joining two given points",
+        "in class 11 straight lines: express a line in slope-intercept form",
+        "what does the constant c represent in y = m x + c",
+        "convert a point-slope equation into slope-intercept form",
+        "determine the y-intercept of the given line"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "anchor with the known point", "explain": "Point-slope form substitutes the known coordinates and slope straight into y - y1 = m (x - x1)."},
+        {"step": 2, "action": "supply the slope from data", "explain": "When two points are given instead, first compute m from them and then reuse the same template."},
+        {"step": 3, "action": "read the intercept", "explain": "Expanding to y = m x + c exposes c, the height where the line crosses the y-axis."}
+      ]
+    },
+    {
+      "id": "kemh109.9.3.2",
+      "title": "Intercept Form of a Line",
+      "section": "9.3.5",
+      "definition": "If a line cuts the x-axis at a and the y-axis at b (both non-zero), its equation can be written with those two intercepts as x/a + y/b = 1; the triangle formed with the axes then has legs of lengths a and b.",
+      "formula": "x / a + y / b = 1",
+      "key_idea": "Intercept form trades slope information for the two crossing points on the axes.",
+      "textbook_ref": "kemh109.txt lines 421-455 (section 9.3.5 intercept form, x-intercept a and y-intercept b)",
+      "question_patterns": [
+        "write the equation of a line with given x-intercept and y-intercept",
+        "find the intercepts made by the line on the coordinate axes",
+        "in class 11 straight lines: reduce the given equation to intercept form",
+        "what area does the line enclose with the axes when intercepts are known",
+        "why must both intercepts be non zero for intercept form",
+        "convert the intercept form back into slope-intercept form"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "mark the axis crossings", "explain": "Set y = 0 to read the x-intercept a, and x = 0 to read the y-intercept b."},
+        {"step": 2, "action": "assemble the equation", "explain": "Dividing the general equation through so the right side is 1 produces x/a + y/b = 1."},
+        {"step": 3, "action": "interpret geometrically", "explain": "The intercepts are the legs of the right triangle cut off from the origin by the line."}
+      ]
+    },
+    {
+      "id": "kemh109.9.4.1",
+      "title": "Distance of a Point from a Line",
+      "section": "9.4",
+      "definition": "The shortest gap between a point (x0, y0) and the line A x + B y + C = 0 is found by substituting the point into the left side, taking the absolute value, and dividing by the square root of A squared plus B squared.",
+      "formula": "dist = abs(a_coef * x0 + b_coef * y0 + c_coef) / sqrt(a_coef ** 2 + b_coef ** 2)",
+      "key_idea": "Substitute, take absolute value, normalise by the length of the normal vector -- three moves that give perpendicular distance.",
+      "textbook_ref": "kemh109.txt lines 480-560 (section 9.4 distance of a point from a line, derivation by areas or projection)",
+      "question_patterns": [
+        "find the distance of the given point from the given line",
+        "calculate how far the point (x0, y0) sits from the line",
+        "in class 11 straight lines: state the perpendicular distance formula for a point and a line",
+        "is the point above or below the line and how far",
+        "which point on the line is nearest to the given point",
+        "find the distance from the origin to the given line"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "substitute the point into the line expression", "explain": "The value a_coef*x0 + b_coef*y0 + c_coef measures signed displacement from the line.",
+         "compute": "raw = a_coef * x0 + b_coef * y0 + c_coef"},
+        {"step": 2, "action": "normalise by the normal length", "explain": "Dividing the absolute displacement by sqrt(a_coef**2 + b_coef**2) converts it to true perpendicular distance.",
+         "compute": "dist = abs(raw) / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    },
+    {
+      "id": "kemh109.9.4.2",
+      "title": "Distance Between Two Parallel Lines",
+      "section": "9.4.1",
+      "definition": "For parallel lines written with the same A, B coefficients, the gap between them is the absolute difference of their constant terms divided by the square root of A squared plus B squared; the shared denominator is the length of the common normal direction.",
+      "formula": "gap = abs(c1 - c2) / sqrt(a_coef ** 2 + b_coef ** 2)",
+      "key_idea": "Slide along the common normal: only the constants differ, so their difference scaled by the normal length is the gap.",
+      "textbook_ref": "kemh109.txt lines 561-600 (section 9.4.1 distance between two parallel lines)",
+      "question_patterns": [
+        "find the distance between the two given parallel lines",
+        "calculate the gap between the parallel lines",
+        "in class 11 straight lines: why must the equations share the same A and B before applying the formula",
+        "how close can a parallel shift of a line come to a fixed point",
+        "the gap between two parallels is given, find the missing constant",
+        "determine the separation of the lines 3x + 4y + 5 = 0 and 3x + 4y + 10 = 0"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "take the constant difference", "explain": "Rewrite both lines with identical x and y coefficients; the constants c1 and c2 then encode the offsets.",
+         "compute": "const_gap = abs(c1 - c2)"},
+        {"step": 2, "action": "scale by the normal length", "explain": "Dividing by sqrt(a_coef**2 + b_coef**2) turns the offset difference into perpendicular distance.",
+         "compute": "gap = const_gap / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kemh109.txt lines 90-130 (slope from coordinates)",
+      "concept": "kemh109.9.2.1",
+      "question_type": "compute",
+      "question_pattern": "Find the slope of the line through ({x1}, {y1}) and ({x2}, {y2}).",
+      "extracted_variables": {"x1": 3, "y1": -2, "x2": -7, "y2": 4},
+      "solution_template": [
+        {"step": 1, "action": "subtract the y-coordinates", "explain": "rise = 4 - (-2) = 6.", "compute": "rise = y2 - y1"},
+        {"step": 2, "action": "subtract the x-coordinates", "explain": "run = -7 - 3 = -10.", "compute": "run = x2 - x1"},
+        {"step": 3, "action": "divide rise by run", "explain": "slope = 6 / (-10) = -0.6.", "compute": "slope = rise / run"}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kemh109.txt lines 90-130 (slope from coordinates)",
+      "concept": "kemh109.9.2.1",
+      "question_type": "compute",
+      "question_pattern": "Points P = ({x1}, {y1}) and Q = ({x2}, {y2}) are given; compute the tilt of line PQ.",
+      "extracted_variables": {"x1": 2, "y1": 5, "x2": 6, "y2": 13},
+      "solution_template": [
+        {"step": 1, "action": "subtract the y-coordinates", "explain": "rise = 13 - 5 = 8.", "compute": "rise = y2 - y1"},
+        {"step": 2, "action": "subtract the x-coordinates", "explain": "run = 6 - 2 = 4.", "compute": "run = x2 - x1"},
+        {"step": 3, "action": "divide rise by run", "explain": "slope = 8 / 4 = 2.", "compute": "slope = rise / run"}
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "kemh109.txt lines 191-240 (angle between two lines)",
+      "concept": "kemh109.9.2.3",
+      "question_type": "compute",
+      "question_pattern": "Two lines have slopes {m1} and {m2}; find the tangent of the angle between them.",
+      "extracted_variables": {"m1": 1, "m2": 2},
+      "solution_template": [
+        {"step": 1, "action": "subtract the slopes", "explain": "slope_gap = 2 - 1 = 1.", "compute": "slope_gap = m2 - m1"},
+        {"step": 2, "action": "divide by one plus the product", "explain": "tan_theta = 1 / (1 + 1*2) = 1/3, about 0.3333.", "compute": "tan_theta = slope_gap / (1 + m1 * m2)"}
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "kemh109.txt lines 191-240 (angle between two lines)",
+      "concept": "kemh109.9.2.3",
+      "question_type": "compute",
+      "question_pattern": "Slopes {m1} and {m2} are known; compute tan of the angle the lines make.",
+      "extracted_variables": {"m1": 2, "m2": 3},
+      "solution_template": [
+        {"step": 1, "action": "subtract the slopes", "explain": "slope_gap = 3 - 2 = 1.", "compute": "slope_gap = m2 - m1"},
+        {"step": 2, "action": "divide by one plus the product", "explain": "tan_theta = 1 / (1 + 6) = 0.142857.", "compute": "tan_theta = slope_gap / (1 + m1 * m2)"}
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "kemh109.txt lines 480-560 (distance of a point from a line)",
+      "concept": "kemh109.9.4.1",
+      "question_type": "compute",
+      "question_pattern": "Find the distance of the point ({x0}, {y0}) from the line with coefficients a = {a_coef}, b = {b_coef}, c = {c_coef}.",
+      "extracted_variables": {"x0": 2, "y0": 3, "a_coef": 3, "b_coef": -4, "c_coef": 5},
+      "solution_template": [
+        {"step": 1, "action": "substitute the point into the line expression", "explain": "raw = 3*2 + (-4)*3 + 5 = -1.", "compute": "raw = a_coef * x0 + b_coef * y0 + c_coef"},
+        {"step": 2, "action": "normalise by the normal length", "explain": "dist = abs(-1) / sqrt(9 + 16) = 1/5 = 0.2.", "compute": "dist = abs(raw) / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "kemh109.txt lines 480-560 (distance of a point from a line)",
+      "concept": "kemh109.9.4.1",
+      "question_type": "compute",
+      "question_pattern": "How far is ({x0}, {y0}) from the line a = {a_coef}, b = {b_coef}, c = {c_coef}?",
+      "extracted_variables": {"x0": 1, "y0": 1, "a_coef": 1, "b_coef": -2, "c_coef": 3},
+      "solution_template": [
+        {"step": 1, "action": "substitute the point into the line expression", "explain": "raw = 1*1 + (-2)*1 + 3 = 2.", "compute": "raw = a_coef * x0 + b_coef * y0 + c_coef"},
+        {"step": 2, "action": "normalise by the normal length", "explain": "dist = 2 / sqrt(1 + 4) = 2/sqrt(5), about 0.8944.", "compute": "dist = abs(raw) / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "kemh109.txt lines 561-600 (distance between parallel lines)",
+      "concept": "kemh109.9.4.2",
+      "question_type": "compute",
+      "question_pattern": "Find the distance between the parallels 3x + 4y + {c1} = 0 and 3x + 4y + {c2} = 0 (a = {a_coef}, b = {b_coef}).",
+      "extracted_variables": {"c1": 5, "c2": 10, "a_coef": 3, "b_coef": 4},
+      "solution_template": [
+        {"step": 1, "action": "take the constant difference", "explain": "const_gap = abs(5 - 10) = 5.", "compute": "const_gap = abs(c1 - c2)"},
+        {"step": 2, "action": "scale by the normal length", "explain": "gap = 5 / sqrt(9 + 16) = 5/5 = 1.", "compute": "gap = const_gap / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "kemh109.txt lines 561-600 (distance between parallel lines)",
+      "concept": "kemh109.9.4.2",
+      "question_type": "compute",
+      "question_pattern": "Two parallels share a = {a_coef}, b = {b_coef} with constants {c1} and {c2}; compute their separation.",
+      "extracted_variables": {"c1": -3, "c2": -7, "a_coef": -2, "b_coef": 1},
+      "solution_template": [
+        {"step": 1, "action": "take the constant difference", "explain": "const_gap = abs(-3 - (-7)) = 4.", "compute": "const_gap = abs(c1 - c2)"},
+        {"step": 2, "action": "scale by the normal length", "explain": "gap = 4 / sqrt(4 + 1) = 4/sqrt(5), about 1.7889.", "compute": "gap = const_gap / sqrt(a_coef ** 2 + b_coef ** 2)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kemh109.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Find the slope of the line making an angle of 60 degrees with the positive x-axis.",
+        "Determine k so that the line through (2, k) and (4, 6) has slope 3.",
+        "Show that the line through (3, -2) and (-1, 4) is perpendicular to the line through (6, 5) and (2, 1) after checking slopes.",
+        "Find the equation of the line that cuts off intercepts 3 and -4 on the axes.",
+        "Reduce the line 2x - 3y + 6 = 0 to slope-intercept form and read off the intercept.",
+        "Find the equation of the perpendicular bisector of the segment joining the given points.",
+        "Find the distance of the point (-1, 2) from the line 3x + 4y - 5 = 0.",
+        "Find the distance between the parallel lines 5x - 12y + 7 = 0 and 5x - 12y - 13 = 0."
+      ]
+    }
+  ]
+}

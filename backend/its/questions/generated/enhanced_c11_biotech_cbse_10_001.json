@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_001",
+   "title": "c11_biotech_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the primary experimental source of structures deposited in the Protein Data Bank (PDB)?",
+     "a": "The primary experimental sources are X-ray crystallography, NMR spectroscopy, and cryo-electron microscopy. A wrong answer (e.g., \"mass spectrometry\" or \"computational prediction only\") reveals the student confuses experimental structure determination with predictive methods or other analytical techniques.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a protein structure file in PDB format (.pdb) is more useful for computational analysis than a static image of the same protein.",
+     "a": "A PDB file contains atomic coordinates (x, y, z), occupancy, temperature factors, and metadata (experimental method, resolution, authors) in a machine-readable text format, enabling precise calculations of distances, angles, surface areas, and docking. An image is only a visual representation and cannot be computationally processed. A wrong answer indicates the student does not grasp the difference between human-readable visualization and machine-readable data.",
+     "self_check": true
+    },
+    {
+     "q": "A student downloads the PDB entry 1CRN (crambin) and sees the header line \"EXPDTA X-RAY DIFFRACTION\" and \"RESOLUTION 1.50 ANGSTROMS\". They want to use this structure as a template for homology modelling of a target protein with 35% sequence identity. Is this a suitable template? Justify using two criteria from the header.",
+     "a": "Yes, it is suitable. First, the experimental method is X-ray crystallography, which provides high-resolution atomic coordinates. Second, the resolution of 1.50 Å is well below the typical 2.5–3.0 Å cutoff for reliable homology modelling templates. A wrong answer (e.g., focusing only on sequence identity or ignoring resolution) shows the student cannot evaluate template quality from PDB metadata.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the classification philosophies of CATH and SCOP (Structural Classification of Proteins). Why might a researcher choose CATH over SCOP for automated domain assignment in a high-throughput pipeline?",
+     "a": "CATH uses a semi-automated protocol (structure comparison algorithms followed by manual curation) while SCOP is primarily manual. CATH's hierarchical levels (Class, Architecture, Topology, Homology) are more explicitly defined by structural geometry at the Architecture level, making it easier to parse programmatically. A researcher would choose CATH for high-throughput because its domain definitions and hierarchy are more algorithmically accessible. A wrong answer suggests the student thinks both databases are identical in curation method or cannot distinguish manual vs. automated classification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since PDB contains all known protein structures, CATH is redundant because one can simply search PDB for structural similarity using tools like DALI or TM-align.\"",
+     "a": "The statement is flawed. PDB is a primary archive of *individual* structures; it does not provide pre-computed, hierarchical *classification* of domains. CATH groups domains into evolutionary/structural families (Homology level) and abstract fold groups (Topology), enabling rapid identification of remote homologs and fold-level relationships without running pairwise comparisons against the entire PDB. CATH also provides curated domain boundaries, which PDB entries often lack for multi-domain proteins. A wrong evaluation indicates the student confuses a primary database with a derived, value-added classification resource.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project workflow for a Class 11 student to explore the relationship between protein fold (CATH topology) and enzyme function (EC number) using only freely accessible web resources. List the steps, databases/tools used at each step, and the expected output.",
+     "a": "A good answer includes: (1) Pick an EC class (e.g., EC 3.4.11 - aminopeptidases) from BRENDA or UniProt. (2) Retrieve representative UniProt IDs. (3) Map each to PDB structures via UniProt's \"Structure\" section. (4) For each PDB ID, fetch its CATH classification via the CATH website or PDBe. (5) Tabulate CATH Topology (T-level) vs. EC sub-subclass. (6) Analyse if same topology hosts multiple EC numbers or same EC number appears in different topologies. Expected output: a table showing fold-function mapping and a brief conclusion. A poor answer lists tools without a logical sequence or ignores domain-level mapping (using whole-chain instead of CATH domains).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_008",
+   "title": "c12_bio_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define dichogamy and give one example each of protandry and protogyny from flowering plants.",
+     "a": "Dichogamy is the temporal separation of anther dehiscence (pollen release) and stigma receptivity in a flower to prevent self-pollination. Protandry: anthers mature before stigma (e.g., maize, sunflower). Protogyny: stigma becomes receptive before anthers mature (e.g., custard apple, fig). A wrong answer that swaps the examples or defines dichogamy as spatial separation reveals confusion between dichogamy and herkogamy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why herkogamy alone may not completely prevent self-pollination in a species with large, showy flowers visited by many pollinators.",
+     "a": "Herkogamy places anthers and stigma at different positions (e.g., pin and thrum flowers in primrose), but if pollinators move randomly between flowers on the same plant (geitonogamy), self-pollen can still reach the stigma. Complete prevention requires additional mechanisms like dichogamy or self-incompatibility. A student who claims herkogamy always ensures cross-pollination overlooks geitonogamy and the behavior of pollinators.",
+     "self_check": true
+    },
+    {
+     "q": "A plant breeder working with Brassica napus (rapeseed) finds that self-pollination fails to set seeds even though pollen is viable and stigma is receptive. Propose the most likely outbreeding device operating and describe its genetic basis.",
+     "a": "The device is sporophytic self-incompatibility (SSI). In SSI, the pollen phenotype is determined by the diploid genotype of the parent plant (sporophyte). The S-locus encodes a receptor kinase in the stigma and a ligand in the pollen coat; matching S-alleles trigger a signaling cascade that inhibits pollen germination or tube growth. A wrong answer citing gametophytic self-incompatibility (where pollen phenotype depends on its own haploid genotype) or male sterility (where pollen is non-viable) shows inability to match the mechanism to the Brassicaceae family.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the evolutionary advantages of dichogamy versus self-incompatibility as outbreeding devices. Under what ecological conditions might each be favored?",
+     "a": "Dichogamy is a \"low-cost\" temporal barrier that works even with few pollinators but can be broken by environmental shifts (temperature, humidity) that alter flowering synchrony. Self-incompatibility is a \"high-specificity\" biochemical barrier that absolutely prevents self-fertilization but requires maintenance of multiple S-alleles in the population; it can fail in small populations due to S-allele loss (Allee effect). Dichogamy is favored in large, dense populations with reliable pollinators; self-incompatibility is favored in outcrossing species with variable pollinator service. A student who claims one is universally superior misses the trade-off between robustness and flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Male sterility is the most effective outbreeding device because it completely eliminates the possibility of self-pollination.\" Provide two reasons why this statement is biologically inaccurate.",
+     "a": "First, male sterility only prevents the plant from acting as a male parent; it can still self-pollinate if it receives pollen from another plant (geitonogamy) or if the female function remains fertile. Second, male sterility is often cytoplasmically inherited and can be restored by nuclear restorer genes, making it unstable as a permanent barrier. A student who agrees with the statement confuses male sterility (lack of functional pollen) with a complete block to self-fertilization and ignores the female role in selfing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment to test whether a newly discovered flowering plant species relies primarily on dichogamy or herkogamy for outbreeding. Specify the observations you would record and the expected outcomes for each mechanism.",
+     "a": "Tag 20 flowers at bud stage. Record daily: (a) time of anther dehiscence, (b) time of stigma receptivity (using H2O2 test for peroxidase activity), (c) spatial distance between anthers and stigma. If anther dehiscence and stigma receptivity occur at different times but spatial distance is minimal → dichogamy. If they overlap in time but anthers and stigma are physically separated (e.g., stigma above anthers) → herkogamy. A poor design that only measures seed set after bagging vs. open pollination cannot distinguish between the two mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

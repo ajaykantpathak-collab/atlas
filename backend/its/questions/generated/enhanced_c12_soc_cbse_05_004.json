@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_004",
+   "title": "c12_soc_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the literal meaning of the term 'Dalit' and why did Dalit communities adopt this term instead of 'Harijan'?",
+     "a": "'Dalit' literally means 'downtrodden' or 'oppressed' in Indian languages, conveying a sense of collective struggle against oppression. Communities adopted it to reject the paternalistic 'Harijan' (children of God) coined by Gandhi, which they felt obscured the structural violence of caste. A wrong answer (e.g., 'Dalit means scheduled caste' or 'it was coined by Ambedkar') reveals confusion between legal/administrative categories and self-chosen political identity, and ignorance of the term's emergence during the 1970s Dalit Panthers movement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the 'purity-pollution' ideology justifies the three dimensions of untouchability: exclusion, humiliation-subordination, and exploitation. Give one concrete example of each dimension from the NCERT text or your observation.",
+     "a": "Purity-pollution positions Dalits as permanently polluting, so their touch/presence contaminates 'higher' castes. Exclusion: barred from temples, wells, cremation grounds. Humiliation-subordination: forced to remove footwear, use separate utensils, perform degrading tasks like manual scavenging. Exploitation: forced unpaid labour (begar), land confiscation, wage theft. A wrong answer that merges all three into 'discrimination' or gives only economic examples misses the *ritual-symbolic* logic that makes untouchability distinct from class oppression.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 1 (Percentage of Population Below Poverty Line, 2011-12), calculate how many times higher the rural poverty rate is for Scheduled Tribes compared to 'Upper Castes' (FC). Then explain why this disparity persists despite legal protections and reservations.",
+     "a": "ST poverty = 45.3%, FC poverty = 15.5%. Ratio = 45.3/15.5 ≈ 2.92 times higher. Persistence reasons: (1) Caste-class correlation remains stable at macro level; (2) Reservations cover public sector jobs/education but not private sector or land ownership; (3) Social networks (social capital) and cultural capital remain caste-monopolized; (4) Atrocities and social boycotts undermine economic mobility. A wrong answer that cites only 'lack of education' or 'corruption' ignores the structural reproduction of caste advantage/disadvantage through endogamy, social capital, and ideological legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the caste system's purity-pollution hierarchy with South African apartheid (Box 5.1b). Identify two structural similarities and one fundamental difference in how each system legitimizes inequality.",
+     "a": "Similarities: (1) Both are birth-based, rigid hierarchies enforced by law/custom; (2) Both use ideology (purity-pollution / racial superiority) to justify material exploitation and political disenfranchisement. Difference: Caste is justified by *religious-ritual* texts (dharma, karma) making it 'sacred' and internalized across castes, whereas apartheid was a *secular-legal* construct imposed by a minority state, lacking religious legitimacy for the oppressed. A wrong answer that says 'both are based on race' or 'both ended legally' misses the distinct *ideological engines* and the fact that caste persists informally despite legal abolition.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: 'Reservations have failed to eliminate caste inequality because they only benefit the creamy layer within Dalits and OBCs.' Use evidence from the NCERT text and your understanding of the three dimensions of untouchability.",
+     "a": "The statement is partially true but incomplete. Reservations *have* created a Dalit/OBC middle class (creamy layer), but they address only *economic/educational* exclusion, not the *ritual humiliation* (e.g., temple entry denial, manual scavenging) or *exploitation* (forced labour, land grab) dimensions. Moreover, Table 2 shows Dalit affluence remains <2% vs 8-31% for upper castes. The creamy layer argument ignores that reservations were never designed to dismantle purity-pollution ideology — they are compensatory, not transformative. A wrong answer that simply agrees/disagrees without distinguishing the three dimensions fails to analyze *why* reservations have limited impact on untouchability's non-economic facets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research study to investigate whether 'distance pollution' (shadow/presence pollution) still operates in a contemporary urban setting (e.g., housing societies, workplaces). Specify your hypothesis, method, and two ethical safeguards.",
+     "a": "Hypothesis: Distance pollution persists in subtle forms (e.g., Dalit tenants rejected on 'vegetarian-only' pretexts, separate cutlery in shared kitchens). Method: Mixed-methods — audit study (sending identical rental applications with caste-signaling names) + in-depth interviews with Dalit professionals. Ethical safeguards: (1) Informed consent with right to withdraw; (2) Anonymize all data to prevent retaliation. A poor answer would propose a survey asking 'Do you practice untouchability?' (social desirability bias) or ignore the power imbalance between researcher and Dalit respondents.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

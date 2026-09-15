@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_15_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_15_011",
+   "title": "c12_eng_k_cbse_15_011",
+   "questions": [
+    {
+     "q": "Define content words and function words. Give one example of each from the sentence: \"Ants carry a blade of straw so feverishly, and then leave it.\"",
+     "a": "Content words: carry (verb), blade (noun), straw (noun), feverishly (adverb) — they carry lexical meaning. Function words: ants (pronoun, though noun-like, it's a closed-class pronoun here), a (determiner), of (preposition), so (intensifier), and (conjunction), then (adverb functioning as connector), leave (verb? Wait — leave is a verb, so content), it (pronoun). Common error: students label \"ants\" as a noun (content) but in this context it's a pronoun substituting for a noun phrase; pronouns are function words. Also \"then\" is often mislabelled as content; it's a conjunctive adverb functioning as a connector.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NCERT says prepositions \"do not have a single answer\" regarding their classification. Use the phrase \"closed set\" in your explanation.",
+     "a": "Prepositions like \"on, upon, up\" have semantic meaning (spatial relations) which suggests content words, but they belong to a fixed, small inventory (closed set) like pronouns — you cannot invent new prepositions easily. This dual nature makes their classification ambiguous. A wrong answer would state prepositions are definitely content words because they have meaning, ignoring the closed-set criterion.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"They wanted to leave this house because they wanted to change their style of furniture,\" identify all function words and state the grammatical function of each (e.g., pronoun, conjunction, determiner, preposition, intensifier).",
+     "a": "Function words: They (pronoun), to (infinitival particle, function), this (determiner), because (conjunction), they (pronoun), to (infinitival particle), their (determiner), of (preposition). \"Wanted\" (verb), \"leave\" (verb), \"house\" (noun), \"change\" (verb), \"style\" (noun), \"furniture\" (noun) are content. Error: treating \"to\" as preposition; here it's an infinitival marker (function). \"Because\" is a subordinating conjunction, not a preposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two sentences: (a) \"How readily our thoughts swarm upon a new object!\" (b) \"Our thoughts swarm upon a new object so readily!\" Identify the grammatical role of \"how\" and \"so\" and explain why \"how\" replaces \"so\" in the exclamatory structure.",
+     "a": "In (b), \"so\" is an intensifier modifying \"readily\". In (a), \"how\" is an exclamatory intensifier that fronts the adverb \"readily\" to the sentence-initial position, triggering subject-verb inversion (if any) and changing the clause type to exclamative. \"How\" is a wh-word functioning as an intensifier here, not a question word. A common mistake is to call \"how\" a question word even though the sentence is an exclamation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In telegraphic language, all function words are omitted and all content words are retained.\" Use the example \"...saw mark on wall\" from the NCERT to support or refute.",
+     "a": "The claim is largely true but with exceptions. In \"...saw mark on wall\", \"saw\" (verb), \"mark\" (noun), \"wall\" (noun) are retained; \"I\", \"the\", \"the\" (determiners), \"up\", \"and\" are omitted. However, \"on\" (preposition) is retained in the telegram, showing prepositions sometimes survive because they carry crucial spatial meaning. Also, pronouns like \"I\" are omitted even though they are arguments. So the claim is an oversimplification — prepositions straddle the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence of at least 12 words from the vocabulary of \"The Mark on the Wall\" that contains at least 3 content words and 3 function words of different categories. Then annotate each word as C (content) or F (function) and name its part of speech.",
+     "a": "Example: \"The small round mark on the white wall seemed mysterious.\" Annotation: The (F, determiner), small (C, adjective), round (C, adjective), mark (C, noun), on (F, preposition), the (F, determiner), white (C, adjective), wall (C, noun), seemed (C, verb), mysterious (C, adjective). Contains 6 content, 3 function. A poor answer would mislabel \"on\" as content or miss \"the\" as function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

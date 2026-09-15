@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_010",
+   "title": "c12_bs_cbse_10_010",
+   "questions": [
+    {
+     "q": "State the maximum maturity period for instruments traded in the money market as per RBI guidelines, and name one instrument that operates at this maximum limit.",
+     "a": "The maximum maturity is 364 days (Treasury Bills). Commercial Paper can go up to 1 year (365 days) but typically 7 days to 1 year. A wrong answer like \"91 days\" or \"5 years\" reveals the student confuses T-bill tenors (91, 182, 364 days) with the overall market ceiling, or confuses money market with capital market maturity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a commercial bank would simultaneously hold Treasury Bills (money market) and government bonds (capital market) in its investment portfolio, despite both being issued by the government.",
+     "a": "T-bills (91/182/364 days) satisfy SLR requirements and provide immediate liquidity for daily reserve management; government bonds (5-40 years) provide higher yield and match long-term liability profiles (e.g., fixed deposits). A wrong answer focusing only on \"safety\" or \"return\" misses the asset-liability maturity matching logic central to banking.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company issues Commercial Paper of ₹100 crore at 7.5% for 180 days. Simultaneously, it issues Non-Convertible Debentures of ₹200 crore at 8.2% for 5 years. Calculate the total annualised interest cost for both instruments and explain why the NCD rate is higher despite the same issuer.",
+     "a": "CP annualised cost = ₹100 cr × 7.5% = ₹7.5 cr. NCD annualised cost = ₹200 cr × 8.2% = ₹16.4 cr. Total = ₹23.9 cr/year. NCD rate is higher due to: (1) maturity risk premium (5 years vs 6 months), (2) liquidity risk premium (NCDs less liquid than CP), (3) reinvestment risk for investors. A student who only calculates without explaining the risk premiums misses the core distinction logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the participant structure of money market vs capital market. Why are retail investors largely absent from the primary money market but dominant in the primary capital market (IPOs)?",
+     "a": "Money market: RBI, banks, FIs, corporates, MFs — wholesale, high denominations (₹5 lakh+ for CP, ₹25,000 for T-bills). Capital market: adds retail investors, HNIs, FPIs, insurance companies — denominations as low as ₹10-15k for IPO lots. Retail absence in money market is due to high ticket size, short tenure requiring active reinvestment, and lack of secondary market access. Wrong answers citing \"risk\" or \"knowledge\" miss the structural barriers (denomination, access, reinvestment burden).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Money market is safer than capital market because instruments mature within a year.\" Use the concepts of default risk, interest rate risk, and reinvestment risk in your evaluation.",
+     "a": "The statement is partially true but misleading. Money market has lower interest rate risk (short duration) and lower default risk (high-rated issuers, RBI backstop), BUT higher reinvestment risk (frequent rollover at uncertain rates). Capital market has higher interest rate risk (duration effect), higher default risk (longer horizon), but lower reinvestment risk (locked-in coupons). A student calling money market \"risk-free\" ignores reinvestment risk and occasional defaults (e.g., IL&FS CP 2018).",
+     "self_check": true
+    },
+    {
+     "q": "Design a financing strategy for a mid-sized textile company (annual revenue ₹500 cr) that needs: (a) ₹20 cr for 60-day cotton procurement, (b) ₹50 cr for 3-year loom modernization, (c) ₹10 cr for 90-day export receivables gap. Specify exact instruments, markets, and justification for each.",
+     "a": "(a) Commercial Paper (money market) — 60 days, matches operating cycle, low cost. (b) NCDs or Term Loan (capital market) — 3 years, matches asset life, fixed rate locks cost. (c) Bill Discounting/Factoring (money market) — 90 days, self-liquidating from export bills. Good answer links each need's tenure, purpose, and self-liquidation to the correct market. Poor answer uses same instrument for all or ignores export-specific instruments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_008",
+   "title": "c12_cs_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the difference between a class selector and an ID selector in CSS, and how do you write each in a stylesheet?",
+     "a": "A class selector starts with a dot (`.classname`) and can be applied to multiple elements; an ID selector starts with a hash (`#idname`) and must be unique to a single element per page. A wrong answer (e.g., swapping the symbols or saying both can be reused) reveals the student confuses the syntax and the uniqueness constraint, which leads to invalid HTML/CSS and specificity bugs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the rule `div p { color: red; }` makes the text red in `<div><span><p>Hello</p></span></div>` but `div > p { color: red; }` does not.",
+     "a": "The descendant combinator (space) selects any `<p>` anywhere inside the `<div>`, while the child combinator (`>`) selects only a `<p>` that is a direct child of the `<div>`. In the example, the `<p>` is a grandchild (inside a `<span>`), so the child combinator fails. A wrong answer indicates the student does not distinguish between descendant and direct-child relationships, a common source of \"why isn't my CSS working?\" errors.",
+     "self_check": true
+    },
+    {
+     "q": "Write a CSS rule that gives a 2px solid blue border and 10px padding to every `<input>` element that has `type=\"text\"` and is inside a `<form>` with class `login-form`.",
+     "a": "```css\nform.login-form input[type=\"text\"] {\n  border: 2px solid blue;\n  padding: 10px;\n}\n```\nA wrong answer (e.g., missing the attribute selector, using the wrong combinator, or omitting the class on the form) shows the student cannot combine class, descendant, and attribute selectors — a skill needed for real-world form styling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the specificity of the following three selectors for the same element: (1) `#main-content`, (2) `.article .highlight`, (3) `div p span`. Which one wins if all three apply conflicting `color` values? Justify using the specificity calculation.",
+     "a": "Specificity is calculated as (ID count, class/attribute/pseudo-class count, element/pseudo-element count). (1) = (1,0,0); (2) = (0,2,0); (3) = (0,0,3). The ID selector (1) wins because its first component (1) is higher than the others' first component (0). A wrong answer (e.g., thinking more classes beat an ID, or counting elements first) reveals a misunderstanding of the specificity hierarchy, which causes unpredictable styling in larger projects.",
+     "self_check": true
+    },
+    {
+     "q": "A developer writes `button:active { background: red; }` and `button:hover { background: blue; }`. When the user clicks and holds a button, which color appears? Is this the intended behavior for a \"press\" effect? Evaluate and suggest a fix if needed.",
+     "a": "During the click (mouse down), both `:hover` and `:active` match. Because `:active` appears later in the stylesheet (or has equal specificity but later order), its red background wins. However, if the stylesheet order is reversed, blue would win — making the press effect unreliable. The fix is to ensure `:active` rules come after `:hover` rules, or increase `:active` specificity. A wrong answer shows the student does not understand pseudo-class interaction and cascade order, leading to buggy interactive states.",
+     "self_check": true
+    },
+    {
+     "q": "Design a CSS-only tooltip that appears when hovering over a `<span class=\"tooltip\">Hover me</span>`. The tooltip text should be in a `::after` pseudo-element, initially hidden, and positioned absolutely above the span. Write the complete CSS rule set.",
+     "a": "```css\n.tooltip {\n  position: relative;\n  display: inline-block;\n}\n.tooltip::after {\n  content: attr(data-tip);\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #333;\n  color: white;\n  padding: 4px 8px;\n  border-radius: 4px;\n  white-space: nowrap;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.2s;\n}\n.tooltip:hover::after {\n  opacity: 1;\n}\n```\nA poor answer (e.g., missing `position: relative` on the parent, using `display: none` instead of opacity, or forgetting `content`) reveals the student cannot synthesize positioning, pseudo-elements, and hover state — a hallmark of moving from copying CSS to engineering it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

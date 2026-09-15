@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_002",
+   "title": "c11_math_cbse_11_002",
+   "questions": [
+    {
+     "q": "Write the standard equation of a circle with centre at (-4, 7) and radius 3 units.",
+     "a": "The correct equation is (x + 4)² + (y - 7)² = 9. A wrong answer like (x - 4)² + (y + 7)² = 9 reveals the student is not careful with the sign of the centre coordinates in the standard form (x - h)² + (y - k)² = r². They substitute h = -4 as (x - (-4)) = (x - 4) instead of (x + 4), showing a sign error in handling negative coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A circle has equation (x - 2)² + (y + 5)² = 16. Without calculating, explain why the point (2, -1) lies on this circle.",
+     "a": "Substituting x = 2, y = -1 gives (2 - 2)² + (-1 + 5)² = 0 + 16 = 16, which equals the right-hand side. A student who says \"the point is 4 units away from the centre\" without showing the substitution demonstrates only geometric intuition, not algebraic verification. The misconception is treating the equation as a description rather than a condition that coordinates must satisfy exactly.",
+     "self_check": true
+    },
+    {
+     "q": "Find the centre and radius of the circle: x² + y² - 6x + 8y = 0. (Hint: Complete the square.)",
+     "a": "Group x and y terms: (x² - 6x) + (y² + 8y) = 0. Complete squares: (x² - 6x + 9) + (y² + 8y + 16) = 9 + 16 → (x - 3)² + (y + 4)² = 25. Centre = (3, -4), radius = 5. A wrong answer like centre = (-3, 4) comes from misreading (x - 3)² as (x + 3)², or radius = 25 from forgetting to take the square root. This exposes incomplete completion-of-square skills from Class 10 quadratics.",
+     "self_check": true
+    },
+    {
+     "q": "Two circles have equations (x - 1)² + (y - 2)² = 9 and (x + 3)² + (y - 2)² = 4. Determine whether they intersect, touch, or are separate. Justify without graphing.",
+     "a": "Centres: C₁(1, 2), C₂(-3, 2). Radii: r₁ = 3, r₂ = 2. Distance between centres = √[(1 + 3)² + (2 - 2)²] = 4. Sum of radii = 5, difference = 1. Since 1 < 4 < 5, the circles intersect at two distinct points. A student who only compares x-coordinates and says \"they overlap because 1 and -3 are close\" ignores the distance formula and radius magnitudes, showing inability to translate algebraic data into geometric relations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the equation (x - h)² + (y - k)² = r² represents a circle for all real values of h, k, r. Evaluate this claim and correct it if necessary.",
+     "a": "The claim is false. For the equation to represent a real circle, we need r > 0. If r = 0, it represents a single point (h, k) (a point circle). If r < 0, the equation has no real solutions because the left side is non-negative while the right side is negative. A student who says \"it's always a circle\" misses the condition r > 0 and the degenerate cases, which are frequently tested in board exams as \"find the condition for the equation to represent a real circle\".",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem where the standard equation of a circle is needed to find the radius, given that the circle passes through two points on the x-axis symmetric about the y-axis and has its centre on the y-axis.",
+     "a": "Example: A satellite dish has a parabolic cross-section, but its rim is circular. The rim passes through points (-6, 0) and (6, 0) on the ground (x-axis) and its centre is on the vertical pole (y-axis) at height 8 metres. Find the radius of the rim. A good answer sets centre as (0, 8), uses point (6, 0) in (x - 0)² + (y - 8)² = r² → 36 + 64 = r² → r = 10. A poor answer assumes centre at origin or uses distance formula without recognising the symmetry, showing inability to model geometric constraints algebraically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

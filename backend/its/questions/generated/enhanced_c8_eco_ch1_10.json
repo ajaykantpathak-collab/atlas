@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_10",
+   "title": "c8_eco_ch1_10",
+   "questions": [
+    {
+     "q": "Which of the following is classified strictly as an economic service rather than a physical good in daily life?\nA) A packet of Amul milk bought from a grocery store\nB) A haircut received from a local barber at a salon\nC) A textbook purchased for Class 8 economics\nD) A bicycle used to commute to school",
+     "a": "B) A haircut received from a local barber at a salon.\nA haircut is an intangible economic activity performed for a consumer, making it a service. Choosing A, C, or D reveals a misunderstanding of tangibility, as milk, textbooks, and bicycles are physical objects you can touch and store, which defines them as goods.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a computer software developer's program be considered a good, whereas a software support helpline call is considered a service?",
+     "a": "A computer program can be saved, stored on a physical drive or cloud, and transferred as a distinct, tangible digital product (a digital good), whereas a helpline call involves real-time intangible human interaction and advice that cannot be stored as an inventory. A wrong answer shows confusion between the medium of delivery and the economic nature of the output, failing to recognize that digital files function like physical goods because of their storability and transferability.",
+     "self_check": true
+    },
+    {
+     "q": "A local bakery in Chennai produces 200 loaves of bread using flour, yeast, and an oven (valued at ₹4,000 total input cost) and sells them all to households for ₹6,000 total. Calculate the value added by the bakery and classify whether bread sold to households is a consumer good or a producer good.",
+     "a": "Steps:\n1. Identify input cost (₹4,000) and total revenue from sale (₹6,000).\n2. Calculate value added: Value Added = Total Revenue - Input Cost = ₹6,000 - ₹4,000 = ₹2,000.\n3. Analyze the final buyer: Households buy the bread for final consumption, not for resale or further commercial production.\n4. Conclude classification: Bread sold to households is a final consumer good.\nFinal Answer: Value added is ₹2,000; it is classified as a consumer good.\nA wrong answer indicates the student is confusing intermediate inputs with final goods, or failing to subtract the cost of production inputs from total output value.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic difference between a sewing machine bought by a tailor to stitch school uniforms and a sewing machine bought by a household for personal tailoring at home. Why does this classification matter in production economics?",
+     "a": "When bought by a tailor for business, the sewing machine is a producer (or capital) good because it is used as an input to produce other goods and services for sale. When bought by a household for personal use, it is a consumer good because it satisfies personal wants directly without further commercial exchange. This classification matters because producer goods drive investment, business expansion, and economic growth, whereas consumer goods measure direct standard of living and immediate satisfaction. A wrong answer reveals a failure to understand that the classification of a good depends on its *use* rather than its physical characteristics alone.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Digital streaming platforms like Netflix or YouTube provide pure services, therefore no physical infrastructure is required for them to function.\" Do you agree or disagree?",
+     "a": "I disagree. While the content streamed (entertainment videos) is an intangible service or digital experience, it requires massive physical infrastructure—such as undersea cables, massive data server farms, cell towers, and electricity generation plants—to transmit data. A wrong answer demonstrates a superficial view of \"intangible\" services, ignoring the heavy physical capital goods (infrastructure) required behind the scenes to deliver modern digital services.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a classification scheme for a local school canteen that sells both samosas (food items) and photocopying services to students. Categorize each offering into goods or services and identify one capital input required for each.",
+     "a": "The samosas are tangible consumer goods, requiring an oven or frying pan as a capital input. The photocopying is an intangible service, requiring a commercial photocopy machine as a capital input. A poor answer fails to correctly separate the physical product from the intangible activity or incorrectly identifies non-capital items (like raw potatoes) as capital inputs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_005",
+   "title": "c12_biotech_cbse_12_005",
+   "questions": [
+    {
+     "q": "What are the three core pillars of the TRIPS Agreement that every WTO member must implement in national law?",
+     "a": "The three pillars are: (1) Minimum Standards — substantive IP protection norms (e.g., 20-year patent term, patentable subject matter); (2) Enforcement — civil/administrative procedures, provisional measures, criminal penalties for commercial-scale infringement; (3) Dispute Settlement — WTO's binding dispute resolution mechanism (DSU) for inter-state conflicts. A wrong answer (e.g., listing \"patents, copyrights, trademarks\" as pillars) reveals confusion between IP categories and the structural pillars of the treaty — a common error that loses marks in board \"explain\" questions and leads to flawed analysis in competitive exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Article 27.3(b) of TRIPS allows members to exclude from patentability \"plants and animals other than microorganisms, and essentially biological processes for the production of plants or animals other than non-biological and microbiological processes.\" How does India's Patents Act implement this flexibility, and what is the exact statutory provision?",
+     "a": "India implements this via Section 3(j) of the Patents Act, 1970 (as amended), which excludes \"plants and animals in whole or any part thereof other than microorganisms but including seeds, varieties and species and essentially biological processes for production or propagation of plants and animals.\" A wrong answer citing \"Section 3(d)\" or \"Section 3(i)\" shows inability to distinguish between the evergreening provision (3(d)) and the plant/animal exclusion (3(j)) — a frequent board exam trap where students conflate TRIPS flexibilities. This also leads to errors in NEET-style questions on patentable subject matter in biotech.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian generic company wants to export a patented anti-cancer drug to a least-developed country (LDC) with no manufacturing capacity under the TRIPS \"Paragraph 6 System\" (2003 Waiver). The Indian patent holder opposes, claiming the waiver only applies to domestic use. Using TRIPS Article 31 and the 2003 Waiver, explain whether the export is permitted and what procedural steps the generic company must follow.",
+     "a": "Yes, export is permitted. The 2003 Waiver (later incorporated as Article 31bis via the 2005 Protocol) allows compulsory licenses for export to eligible importing members (LDCs and countries with insufficient manufacturing capacity). The generic company must: (1) Apply for a compulsory license under Section 84/92A of the Patents Act; (2) Notify the WTO TRIPS Council with details (quantities, destinations); (3) Ensure the drug is clearly marked and packaged differently; (4) Pay adequate remuneration to the patent holder. A wrong answer stating \"only domestic use allowed\" ignores the 2003 Waiver/Article 31bis — a critical gap for competitive exams testing TRIPS flexibilities in public health scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"mailbox\" mechanism (1999 amendment) and the \"exclusive marketing rights\" (EMR) provision with the post-2005 product patent regime in India. Which TRIPS Articles drove each, and how did they differently affect an Indian biotech firm developing a biosimilar?",
+     "a": "Mailbox/EMR (1999): Driven by TRIPS Article 70.8 (transition period for product patents in pharma/agro-chemicals). Allowed filing of product patent applications (mailbox) from 1995, with EMR granted if: (a) patent granted in another WTO member, (b) marketing approval there, (c) marketing approval in India. EMR lasted 5 years or until patent grant/rejection. Post-2005: Driven by TRIPS Article 27.1 (patents for all fields of technology) and Article 33 (20-year term). Full product patents granted, no EMR. Impact on biosimilar firm: Under EMR, the firm could not market a biosimilar if EMR existed; post-2005, it faces full patent infringement risk but can challenge validity (e.g., Section 3(d)) or seek compulsory license. A wrong answer conflating EMR with patent grant shows misunderstanding of the transitional vs. permanent regimes — a common error in board \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Section 3(d) of the Indian Patents Act violates TRIPS Article 27.1 because it discriminates against pharmaceutical inventions by setting a higher patentability threshold (enhanced efficacy) not required for other technologies.\"",
+     "a": "The statement is incorrect. Section 3(d) does not violate Article 27.1 because: (1) Article 27.1 permits members to define \"inventive step\" and \"industrial application\" nationally; (2) The enhanced efficacy requirement targets evergreening (new forms of known substances) — not all pharmaceutical inventions; (3) The Novartis/Glivec case (Supreme Court 2013) upheld Section 3(d) as TRIPS-compliant, noting it prevents \"evergreening\" without denying patents for genuine innovations; (4) TRIPS Article 8 allows measures to protect public health. A wrong answer agreeing with the statement reflects a fundamental misreading of TRIPS flexibility — confusing \"non-discrimination\" with \"identical treatment\" — and fails to cite the Novartis precedent, costing marks in both board \"evaluate\" and JEE/NEET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a TRIPS-compliant strategy for an Indian agricultural biotech startup that has developed a drought-tolerant transgenic rice variety. The startup wants to: (a) secure patent protection in India and key export markets; (b) avoid biopiracy allegations for using a traditional landrace trait; (c) ensure freedom-to-operate for smallholder farmers. Specify the IP tools (patents, plant variety protection, trade secrets), relevant Indian statutes, and TRIPS Articles used at each step.",
+     "a": "A strong answer includes: (a) Patent: File in India under Patents Act (process claims for transformation method, gene construct — product claims for gene/construct allowed post-2005; trait claims may face Section 3(j) exclusion). Use PCT route for export markets (TRIPS Art. 27.1). (b) Plant Variety Protection: Register under PPV&FR Act, 2001 (sui generis system per TRIPS Art. 27.3(b)) — protects the variety, not the gene. (c) Biopiracy prevention: Disclose source/geographical origin of genetic material in patent application (TRIPS Art. 29, CBD Nagoya Protocol); obtain prior informed consent (PIC) and benefit-sharing agreement with local communities under Biological Diversity Act, 2002. (d) Farmers' rights: PPV&FR Act allows farmers to save, use, exchange, sell farm-saved seed (except branded seed) — a TRIPS Art. 27.3(b) flexibility. (e) Trade secret: Keep transformation protocol/optimization data secret (TRIPS Art. 39). A poor answer omits PPV&FR/sui generis, ignores Biological Diversity Act, or suggests patenting the plant variety itself (excluded by Section 3(j)/Art. 27.3(b)) — showing fragmented understanding of the IP ecosystem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

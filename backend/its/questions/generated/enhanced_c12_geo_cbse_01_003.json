@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_003",
+   "title": "c12_geo_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define 'naturalisation of humans' and 'humanisation of nature' in one sentence each, using the NCERT terminology.",
+     "a": "Naturalisation of humans: the stage of low technological development when human societies directly depend on, adapt to, and often worship nature (e.g., Benda's shifting cultivation in Abujh Maad). Humanisation of nature: the stage where technology enables humans to modify the environment, creating cultural landscapes (e.g., Trondheim's heated glass dome, imported tropical fruits). A wrong answer that swaps the definitions or omits the role of technology reveals confusion about the historical sequence and the central concept of technology as the lever that shifts the balance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Physical geography and human geography are two separate disciplines\" is geographically incorrect, referencing the concept of 'synthesis' from Ratzel's definition.",
+     "a": "Geography is integrative: Ratzel defines human geography as the \"synthetic study of relationship between human societies and earth's surface.\" Physical processes (monsoon, soil formation) create the resource base for human activities (agriculture, settlement), while human actions (deforestation, irrigation, urbanization) alter physical processes (runoff, microclimate, groundwater). Treating them separately ignores feedback loops — e.g., the Thar Desert's physical aridity shapes pastoral nomadism, but overgrazing by humans accelerates desertification. A wrong answer that lists topics of each branch without describing their interaction shows a compartmentalized (dualistic) understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for two Indian regions, identify which region exemplifies 'naturalisation of humans' and which exemplifies 'humanisation of nature', and justify using the technology–environment relationship:\nRegion A: Tribal community in Nicobar Islands using outrigger canoes for inter-island fishing, housing on stilts, no electricity.\nRegion B: Urban agglomeration of Mumbai with reclaimed land, desalination plants, metro rail, and air-conditioned high-rises.",
+     "a": "Region A = naturalisation of humans: low technology (canoes, stilts) means direct adaptation to marine environment, dependence on natural resources, minimal modification. Region B = humanisation of nature: high technology (reclamation, desalination, metro, AC) allows overcoming physical constraints (sea, water scarcity, congestion, heat), creating a heavily modified cultural landscape. Justification must link technology level to degree of environmental modification. A wrong answer that focuses only on \"modern vs traditional\" without referencing technology as the mediator misses the core NCERT argument.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the neo-determinism (stop-and-go determinism) concept using the traffic light analogy. Why is \"absolute freedom\" (possibilism) dangerous, and why is \"absolute necessity\" (determinism) inaccurate for contemporary societies? Provide one Indian example of a \"red light\" (environmental limit) that we must obey.",
+     "a": "Neo-determinism: humans can create possibilities (green light) but must respect environmental limits (red light) to avoid irreversible damage. Absolute freedom (possibilism) ignores carrying capacity — e.g., unchecked groundwater extraction in Punjab led to \"red light\" of aquifer depletion and soil salinity. Absolute necessity (determinism) ignores human agency — e.g., Rajasthan's traditional water harvesting (johads) turned a \"red light\" (aridity) into \"green light\" (agriculture). A wrong answer that says \"technology solves everything\" or \"we are helpless before nature\" fails to grasp the middle path. The Indian \"red light\" example must be a biophysical limit (e.g., Himalayan seismic zone, coastal regulation zone, forest conservation act) not just a policy rule.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of the following human–environment interaction: Conversion of the Sundarbans mangrove forest (physical geography: tidal delta, cyclone buffer, biodiversity hotspot) into intensive aquaculture ponds (human geography: export-oriented shrimp farming, local livelihood). Use the concepts of 'humanisation of nature' and 'neo-determinism' in your judgment.",
+     "a": "Unsustainable. Humanisation of nature here crossed the red light: mangrove removal eliminated the cyclone buffer (Amphan 2020 damage amplified), reduced fish nurseries, increased saline intrusion into farmland, and released stored carbon. Neo-determinism demands we stop (red light) when modification degrades the very systems that support human life. Sustainable alternative: integrated mangrove-aquaculture (silvofishery) that keeps the buffer (green light) while allowing livelihood. A wrong answer that calls it \"development\" or \"necessary for economy\" without addressing the violated environmental limit shows a possibilist bias.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual map (describe in words) showing the two-way interaction between physical geography and human geography for the Indo-Gangetic Plain. Include at least four physical factors and four human responses, and two feedback loops where human action alters the physical factor.",
+     "a": "Physical factors: 1) Perennial rivers (Ganga, Yamuna) → Human: irrigation canals, agriculture. 2) Alluvial soil → Human: intensive cropping (rice-wheat). 3) Flat terrain → Human: dense settlement, transport network. 4) Monsoon rainfall → Human: kharif/rabi scheduling. Feedback loop 1: Groundwater over-extraction for irrigation → falling water table → soil subsidence & arsenic mobilization → threatens future agriculture. Feedback loop 2: Crop residue burning → air pollution (smog) → reduced solar radiation & altered rainfall pattern → affects crop yield. A poor answer lists factors without feedback loops or treats the relationship as one-way.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_008",
+   "title": "c12_chem_cbse_03_008",
+   "questions": [
+    {
+     "q": "State the Arrhenius equation and define each term with its SI units.",
+     "a": "Arrhenius equation: k = A e^(-Ea/RT). k = rate constant (units depend on reaction order, e.g., s⁻¹ for first order), A = pre-exponential factor (same units as k), Ea = activation energy (J mol⁻¹), R = 8.314 J mol⁻¹ K⁻¹, T = absolute temperature (K). A wrong answer (e.g., writing k = A e^(Ea/RT) with positive exponent, or using Ea in kJ mol⁻¹ without converting to J mol⁻¹) reveals confusion about the exponential decrease of the Boltzmann factor with increasing energy barrier, or unit inconsistency that leads to calculation errors in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the rate constant of a reaction increases exponentially with temperature, even though the average kinetic energy of molecules increases only linearly with temperature (⟨KE⟩ ∝ T).",
+     "a": "The rate constant depends on the *fraction* of molecules with energy ≥ Ea, not the average energy. The Maxwell-Boltzmann distribution shows this fraction is proportional to e^(-Ea/RT). As T increases, the distribution broadens and shifts right, causing the high-energy tail (area under curve beyond Ea) to grow exponentially. A wrong answer focusing only on average kinetic energy or collision frequency (which increases as √T) misses the crucial role of the energy barrier and the exponential sensitivity of the Boltzmann factor — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "The rate constant for a first-order reaction is 2.5 × 10⁻³ s⁻¹ at 300 K and 1.2 × 10⁻² s⁻¹ at 320 K. Calculate the activation energy Ea in kJ mol⁻¹. (R = 8.314 J mol⁻¹ K⁻¹)",
+     "a": "Using two-point form: ln(k₂/k₁) = (Ea/R)(1/T₁ - 1/T₂).\nStep 1: k₂/k₁ = (1.2 × 10⁻²)/(2.5 × 10⁻³) = 4.8.\nStep 2: ln(4.8) = 1.5686.\nStep 3: 1/T₁ - 1/T₂ = 1/300 - 1/320 = (320 - 300)/(300×320) = 20/96000 = 2.0833 × 10⁻⁴ K⁻¹.\nStep 4: Ea = (1.5686 × 8.314) / (2.0833 × 10⁻⁴) = 62,640 J mol⁻¹ = 62.6 kJ mol⁻¹.\nA wrong answer (e.g., 6.26 kJ mol⁻¹) reveals forgetting to convert J to kJ, or using log₁₀ instead of ln without the 2.303 factor, or swapping T₁ and T₂ signs — all common board exam errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots ln k vs 1/T for a reaction and obtains a straight line with slope = -5.2 × 10³ K and intercept = 28.5. Determine Ea and A. If the same reaction is catalyzed and the new Ea is 40% lower, by what factor does the rate constant increase at 300 K? Assume A remains unchanged.",
+     "a": "From slope: -Ea/R = -5.2 × 10³ → Ea = 5.2 × 10³ × 8.314 = 43,233 J mol⁻¹ = 43.2 kJ mol⁻¹.\nFrom intercept: ln A = 28.5 → A = e²⁸·⁵ = 2.39 × 10¹² (units same as k).\nCatalyzed Ea' = 0.6 × 43.2 = 25.9 kJ mol⁻¹.\nFactor = k_cat/k_uncat = e^(-Ea'/RT) / e^(-Ea/RT) = e^((Ea - Ea')/RT) = e^((43.2 - 25.9)×10³ / (8.314×300)) = e^(17.3×10³/2494.2) = e^6.936 = 1030.\nA wrong answer (e.g., factor = 1.4) reveals using the ratio of Ea values directly instead of the exponential difference, or forgetting that the rate constant ratio depends on ΔEa/RT, not ΔEa/Ea. This tests deep understanding of the exponential dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a reaction with Ea = 50 kJ mol⁻¹, increasing the temperature from 300 K to 310 K doubles the rate constant.\" Is this always true? Justify mathematically.",
+     "a": "Not always true. The \"rate doubles per 10 K rise\" is an approximate rule of thumb near room temperature for Ea ≈ 50–55 kJ mol⁻¹. Let's check: ln(k₂/k₁) = (Ea/R)(1/T₁ - 1/T₂) = (50,000/8.314)(1/300 - 1/310) = 6014 × (10/93000) = 0.6466. k₂/k₁ = e^0.6466 = 1.91 ≈ 2. So it holds *for this specific Ea at these temperatures*. But if Ea = 100 kJ mol⁻¹, factor = e^1.293 = 3.64; if Ea = 25 kJ mol⁻¹, factor = e^0.323 = 1.38. The factor depends on Ea and the absolute temperatures. A wrong answer saying \"always true\" reveals overgeneralization of a thumb rule without understanding the Arrhenius equation's functional form — a common error in competitive exams where they test this exact concept.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to determine the activation energy of the reaction between sodium thiosulfate and hydrochloric acid (which produces a sulfur precipitate that clouds the solution) using only a stopwatch, a thermometer, and basic lab glassware. Outline the procedure, measurements, and how you would calculate Ea from the data.",
+     "a": "Procedure: (1) Prepare fixed concentrations of Na₂S₂O₃ and HCl. (2) At 5 different temperatures (e.g., 15°C, 25°C, 35°C, 45°C, 55°C), mix equal volumes in a conical flask, start stopwatch, and measure time t for the cross mark under the flask to disappear (fixed extent of reaction). (3) Since rate ∝ 1/t for fixed conversion, k ∝ 1/t. (4) Plot ln(1/t) vs 1/T (in K). Slope = -Ea/R. (5) Calculate Ea = -slope × R. A poor answer (e.g., \"measure rate at different temperatures\" without specifying how to quantify rate for this reaction, or plotting t vs T instead of ln(1/t) vs 1/T) reveals inability to translate the Arrhenius equation into an experimental protocol — a key competency for board practicals and JEE lab-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

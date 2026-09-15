@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_003",
+   "title": "c7_math_ch10_003",
+   "questions": [
+    {
+     "q": "What is the result of evaluating the expression $-7 - (-4)$?",
+     "a": "The correct answer is $-3$. A student who answers $-11$ has incorrectly added the absolute values together or treated the double negative as a single negative sign, failing to apply the rule that subtracting a negative number is equivalent to adding its positive opposite $(-7 + 4 = -3)$.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why subtracting a positive integer, such as $8 - 12$, moves us to the left on the number line, whereas subtracting a negative integer, such as $8 - (-12)$, moves us to the right.",
+     "a": "Subtracting a positive integer means removing value or moving in the negative direction (left), resulting in $-4$. Conversely, subtracting a negative integer is mathematically equivalent to adding its positive opposite ($8 + 12 = 20$), which moves us to the right on the number line because taking away a deficit is the same as gaining a credit. A student who thinks both operations move left does not understand the sign transformation rule for double negatives.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $-15 - 8 - (-25)$ step by step.",
+     "a": "The correct answer is $2$. Step 1: Rewrite subtraction of a negative as addition: $-15 - 8 + 25$. Step 2: Combine the first two terms: $-15 - 8 = -23$. Step 3: Add the remaining positive integer: $-23 + 25 = 2$. A student who gets $-32$ has incorrectly combined $-15$ and $-8$ as a positive number or added $8$ and $25$ before handling the signs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions $a - b$ and $b - a$ when $a = -5$ and $b = 12$. What mathematical property of integer subtraction does this relationship illustrate?",
+     "a": "Evaluating $a - b$ gives $-5 - 12 = -17$, while evaluating $b - a$ gives $12 - (-5) = 12 + 5 = 17$. They are additive inverses of each other ($a - b = -(b - a)$), which proves that integer subtraction is not commutative. A student who states that they are equal is confusing subtraction with addition or multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates $-24 - (-15)$ and writes down the working: $-24 - (-15) = -24 - 15 = -39$. Judge whether this work is correct and identify the exact error.",
+     "a": "The student's work is incorrect. The error occurs when changing the signs: the student dropped the negative sign of $15$ but kept a subtraction sign instead of changing it to addition ($-\\,(-15)$ becomes $+15$). The correct working is $-24 + 15 = -9$. A student who agrees with the original work does not understand that subtracting a negative number adds its positive value.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an integer subtraction expression involving at least one negative integer and one set of parentheses that results in a final answer of $-10$. Explain your reasoning.",
+     "a": "An acceptable response is $-4 - (6) = -10$ or $-15 - (-5) = -10$. A good answer shows clear understanding of how integer sign rules generate a specific target value. A poor answer uses only whole numbers or ignores the integer rules, revealing a lack of comprehension regarding negative values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

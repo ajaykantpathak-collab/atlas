@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_10_008",
+   "title": "c12_hist_cbse_10_008",
+   "questions": [
+    {
+     "q": "What were the three main categories of British \"symbols of power\" attacked by rebels in the countryside, as described in the NCERT chapter?",
+     "a": "The three main categories were: (1) communication infrastructure — telegraph lines and offices; (2) administrative records — revenue ledgers, court documents, and account books of moneylenders; (3) physical symbols of authority — government buildings (treasury, jail, court, post office), bungalows of British officers, and bridges/metalled roads. A wrong answer (e.g., \"only military targets\" or \"only religious sites\") reveals the student conflates the sepoy mutiny's military focus with the countryside rebellion's broader assault on colonial governance structures.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the destruction of revenue records and moneylenders' account books represent more than just looting? Explain using the concept of \"documentary power.\"",
+     "a": "Destroying records was a calculated political act: revenue ledgers and debt registers were the documentary instruments through which the colonial state and its allies (moneylenders, taluqdars under British settlement) enforced land alienation and revenue extraction. By burning them, rebels erased the legal proof of their dispossession — a direct challenge to the \"paper raj\" that legitimized British revenue demands. A wrong answer focusing only on \"anger\" or \"greed\" misses the strategic intent to dismantle the evidentiary basis of colonial land control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Shah Mal's mobilisation in Barout (pargana Barout, UP) with Maulvi Ahmadullah Shah's movement in Awadh. Identify two similarities and two differences in their leadership base, methods, and goals.",
+     "a": "Similarities: (1) Both used existing kinship/religious networks — Shah Mal through Jat clan ties across chaurasee des (84 villages), Ahmadullah through Muslim preaching circuits and drumbeaters (danka). (2) Both targeted British infrastructure (bridges, roads, telegraph) and local oppressors (moneylenders). Differences: (1) Shah Mal was a cultivator-turned-leader dispensing justice from a captured bungalow (\"hall of justice\"), while Ahmadullah was a religious figure (maulvi) claiming prophetic authority and magical invincibility. (2) Shah Mal's base was primarily Hindu Jat peasants and displaced proprietors; Ahmadullah's crossed religious lines but drew heavily on Muslim jehad rhetoric, though he was elected by the 22nd Native Infantry (mixed faith). A wrong answer treating them as identical \"local leaders\" ignores how caste, religion, and military affiliation shaped distinct mobilisation logics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Azamgarh Proclamation (Source 5) as a historical source. What does its sectional structure (Sections I–V addressing zemindars, merchants, public servants, artisans, pundits/fakirs) reveal about the rebels' political imagination?",
+     "a": "The sectional structure reveals a deliberate attempt to construct a cross-class, cross-community coalition under a restored Mughal sovereignty (\"Badshahi Government\"). Each section addresses specific grievances: zemindars (exorbitant jumas, court humiliations), merchants (trade monopolies, tolls), public servants (racial exclusion from high posts), artisans (deindustrialization by English goods), and religious leaders (defense of faith). This mirrors the 18th-century Mughal polity where the emperor mediated between diverse interest groups. A wrong answer seeing it as \"just a list of complaints\" misses its constitutional ambition — it outlines a fiscal, judicial, and social order to replace Company rule.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian's challenge: \"We know the 1857 countryside revolt primarily through British sources — official reports, military dispatches, and visual images. How does this shape our understanding of rebel motives?\" Use the Shah Mal and Azamgarh Proclamation examples.",
+     "a": "British sources overemphasize \"lawlessness,\" \"fanaticism,\" and \"mob violence\" while underreporting the rebels' administrative experiments (Shah Mal's \"hall of justice,\" intelligence network, panchayat decisions) and ideological coherence (Azamgarh Proclamation's detailed governance blueprint). The British \"performance of terror\" (blowing from guns, public hangings) was designed to erase rebel legitimacy, so their records systematically silence the rebel voice. Historians must read against the grain: e.g., Forsyth's estimate that \"three-fourths of adult male population in Awadh was in rebellion\" inadvertently confirms mass support, not criminality. A wrong answer claiming \"British sources are biased so we can't know anything\" surrenders historical agency; the task is critical triangulation, not dismissal.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain linking the following in the Awadh countryside: (a) Annexation (1856) → (b) Summary Settlement → (c) Taluqdar dispossession → (d) Peasant overassessment → (e) Sepoy recruitment from Awadh villages → (f) Revolt outbreak (1857). Identify where the chain could have been broken.",
+     "a": "Chain: Annexation dissolved the Nawab's court → Summary Settlement treated taluqdars as \"interlopers,\" reducing their villages from 67% to 38% → Taluqdars lost armed retainers and patronage capacity → Peasants faced 30–70% revenue hikes with no remission in famine/festivity → Sepoys (recruited from these villages) received letters about family distress → Mutiny became revolt. The chain could have been broken at (b) if the British had retained taluqdars as revenue intermediaries (as in Bengal's Permanent Settlement) or at (e) if sepoys' grievances (pay, leave, racial abuse) had been addressed. A wrong answer listing events without causal links (e.g., \"annexation happened, then revolt\") fails to show how land policy, military recruitment, and rural society intersected.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

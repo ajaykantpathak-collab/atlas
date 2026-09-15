@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_12_006",
+   "title": "c11_math_cbse_12_006",
+   "questions": [
+    {
+     "q": "Write the distance formula between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in 3D space, and state the condition for three points A, B, C to be collinear using the distance formula.",
+     "a": "The distance formula is PQ = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]. Three points A, B, C are collinear if the sum of distances between two pairs equals the distance of the third pair (e.g., AB + BC = AC, with B lying between A and C). A wrong answer (e.g., omitting the z-term or using 2D formula) reveals the student has not internalised the extension from 2D to 3D and will likely drop the z-coordinate in application problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the section formula for internal division in 3D, P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n), (mz₂ + nz₁)/(m+n)), uses the same ratio m:n for all three coordinates, and what would go wrong if you used different ratios for x, y, and z.",
+     "a": "The ratio m:n is a scalar property of the division point along the line segment; since the point lies on the straight line joining the two points, its coordinates must vary linearly with the same parameter. Using different ratios would place the point off the line, breaking collinearity. A wrong explanation (e.g., \"it's just the formula\") shows the student memorises without understanding the geometric meaning of parameterisation, leading to errors in problems where the ratio must be derived from one coordinate and applied to others.",
+     "self_check": true
+    },
+    {
+     "q": "A point R divides the line segment joining A(1, -2, 3) and B(4, 6, -3) internally in the ratio 2:3. Find the coordinates of R. Then find the distance AR.",
+     "a": "Using section formula: x = (2×4 + 3×1)/5 = 11/5 = 2.2; y = (2×6 + 3×(-2))/5 = 6/5 = 1.2; z = (2×(-3) + 3×3)/5 = 3/5 = 0.6. So R = (2.2, 1.2, 0.6). Distance AR = √[(2.2-1)² + (1.2-(-2))² + (0.6-3)²] = √[1.44 + 10.24 + 5.76] = √17.44 ≈ 4.176. A wrong answer with sign errors in y or z (e.g., using -2 instead of +6) reveals careless substitution; a wrong distance (e.g., forgetting to square differences) reveals algebraic gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Three vertices of a parallelogram ABCD are A(1, 2, 3), B(4, 5, 6), C(7, 8, 9). Without plotting, determine whether these points can form a parallelogram, and if so, find the coordinates of D. Explain your reasoning.",
+     "a": "Check if vectors AB and DC are equal, or diagonals bisect each other. AB = (3, 3, 3). If ABCD is a parallelogram, midpoint of AC = midpoint of BD. Midpoint of AC = (4, 5, 6) = B. This means B is the midpoint of AC, so A, B, C are collinear. Three collinear points cannot be vertices of a parallelogram. A student who blindly computes D = A + C - B = (1+7-4, 2+8-5, 3+9-6) = (4, 5, 6) = B without checking collinearity reveals they apply formulas without geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the point on the z-axis equidistant from A(1, 2, 3) and B(4, 5, 6).\" Their working: Let P(0, 0, z). PA² = (1)² + (2)² + (z-3)² = 5 + (z-3)². PB² = (4)² + (5)² + (z-6)² = 41 + (z-6)². Equating: 5 + (z-3)² = 41 + (z-6)² → 5 + z² - 6z + 9 = 41 + z² - 12z + 36 → 6z = 63 → z = 10.5. Is this correct? Identify any error.",
+     "a": "The solution is correct. PA² = (0-1)² + (0-2)² + (z-3)² = 1 + 4 + (z-3)² = 5 + (z-3)². PB² = (0-4)² + (0-5)² + (z-6)² = 16 + 25 + (z-6)² = 41 + (z-6)². Equating gives z = 10.5. A student who says \"incorrect because z-axis points have x=0, y=0\" is right but that's what the student used. A student who claims an error in squaring (e.g., (z-3)² = z² - 9) reveals a basic algebraic misconception that will cause repeated mistakes in distance calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires using both the distance formula and section formula in 3D. The problem must involve at least three points and a ratio that is not 1:1. Provide the full problem statement and the solution outline.",
+     "a": "Example: \"A metro tunnel is being drilled from Station A(100, 200, -10) to Station B(400, 500, -30) (coordinates in metres). A ventilation shaft must be placed at a point P that divides the tunnel internally in the ratio 3:2 from A. Find the coordinates of P and the length of the tunnel from A to P.\" Solution outline: 1) Use section formula for P. 2) Use distance formula for AP. 3) Verify AP:PB = 3:2. A poor problem (e.g., only 2D, or ratio 1:1) reveals the student cannot synthesise the two formulas or design non-trivial ratios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

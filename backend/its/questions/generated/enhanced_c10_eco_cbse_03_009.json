@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_009",
+   "title": "c10_eco_cbse_03_009",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the specific section of the RBI Act, 1934 that grants RBI the sole right to issue banknotes in India, and mention the exception to this monopoly.",
+     "a": "**Correct Answer**: Section 22 of the RBI Act, 1934 grants RBI the sole right to issue banknotes. The exception is one-rupee notes and all coins, which are issued by the Government of India (Ministry of Finance) under the Coinage Act, 2011.  \n**Wrong Answer Reveals**: If a student says \"RBI prints all money including coins\" or \"Government prints notes\", they confuse the division of authority between RBI (banknotes ≥ ₹2) and Government (₹1 notes + coins). This is a factual error that costs 1 mark in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: Explain why RBI requires commercial banks to maintain a Cash Reserve Ratio (CRR) with itself, and what would happen to the banking system if CRR were 0%.",
+     "a": "**Correct Answer**: CRR ensures two things: (1) **Liquidity safety** — banks always have a risk-free reserve to meet sudden withdrawal demands, preventing bank runs; (2) **Monetary control** — by changing CRR, RBI directly controls the lendable funds of banks, influencing money supply. If CRR = 0%, banks could lend 100% of deposits, maximising profit but creating extreme fragility — any panic withdrawal would cause immediate insolvency, destroying public confidence and collapsing the payment system.  \n**Wrong Answer Reveals**: If a student says \"CRR is a tax on banks\" or \"RBI uses CRR money for its expenses\", they misunderstand CRR as a revenue tool rather than a prudential/liquidity tool. They miss the systemic stability rationale.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A commercial bank has total Net Demand and Time Liabilities (NDTL) of ₹500 crore. The current CRR is 4.5% and SLR is 18%. Calculate the maximum amount this bank can lend out if it maintains exactly the required reserves. Show steps.",
+     "a": "**Correct Answer with Steps**:  \nStep 1: CRR amount = 4.5% of ₹500 crore = ₹22.5 crore (kept as cash with RBI, earns no interest).  \nStep 2: SLR amount = 18% of ₹500 crore = ₹90 crore (invested in approved govt securities, earns interest).  \nStep 3: Total statutory reserves = ₹22.5 cr + ₹90 cr = ₹112.5 crore.  \nStep 4: Maximum lendable funds = NDTL − Total reserves = ₹500 cr − ₹112.5 cr = **₹387.5 crore**.  \n**Wrong Answer Reveals**: If a student subtracts only CRR (₹500 − ₹22.5 = ₹477.5 cr) they ignore SLR — a common error because they confuse CRR (cash with RBI) with SLR (securities). If they add CRR and SLR percentages (22.5%) and apply to lendable funds instead of NDTL, they misapply the base.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYSE**: Compare the impact on money supply when RBI (a) increases CRR from 4% to 5% vs (b) increases SLR from 18% to 19%. Which tool has a stronger immediate contractionary effect on bank lending? Justify.",
+     "a": "**Correct Answer**: Increasing CRR has a stronger **immediate** contractionary effect. CRR is held as **non-interest-bearing cash** with RBI — banks must instantly park additional liquidity, directly reducing lendable funds. SLR increase requires banks to buy **interest-bearing government securities** — they can often meet this by reallocating existing portfolio or borrowing short-term, so the immediate lending squeeze is less severe. However, SLR ties up more total funds (18-19% vs 4-5%), so its **stock effect** is larger.  \n**Wrong Answer Reveals**: If a student says \"SLR is stronger because percentage is higher\", they ignore the *nature* of the reserve (cash vs securities) and the *opportunity cost*. They treat both as identical percentage drains, missing the liquidity vs profitability distinction.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"RBI should stop regulating interest rates on savings accounts and let banks compete freely.\" Assess this statement from the perspective of financial stability and depositor protection.",
+     "a": "**Correct Answer**: **Disagree — deregulation carries systemic risks.** Until 2011, RBI fixed savings deposit rate (3.5%); post-deregulation, banks *can* set rates but RBI still monitors. Complete deregulation could trigger: (1) **Rate wars** — banks offer unsustainably high rates to attract deposits, then lend recklessly to high-risk borrowers to cover costs (moral hazard); (2) **Exclusion of small depositors** — banks may impose high minimum balances or fees, hurting financial inclusion; (3) **Contagion risk** — failure of one aggressive bank spreads panic. RBI's regulatory oversight (not necessarily rate-setting) ensures **prudential norms** protect the payment system's integrity.  \n**Wrong Answer Reveals**: If a student says \"Free competition always benefits customers\", they apply perfect-market logic to banking, ignoring **asymmetric information** (depositors can't assess bank risk) and **systemic externalities** (one bank's failure hurts all). This is a classic \"market fundamentalism\" error in banking economics.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a simple flowchart (text-based) showing the journey of a ₹500 note from RBI printing press to a farmer's hand in a village, labeling the institutions involved at each stage and the RBI function exercised.",
+     "a": "**Expected Answer Criteria**: Flowchart must include:  \n1. **RBI Printing Press** (Nasik/Dewas/Mysore/Salboni) → *Function: Currency Issuance (Sec 22)*  \n2. **RBI Issue Offices** (19 regional offices) → *Function: Distribution & Storage*  \n3. **Currency Chests** (at select commercial bank branches, managed by RBI) → *Function: Safe Custody & Distribution to Banks*  \n4. **Commercial Bank Branch** (rural/semi-urban) → *Function: RBI Licensee, follows RBI cash-handling norms*  \n5. **Business Correspondent / ATM / Branch Counter** → *Function: Last-mile delivery under RBI's Financial Inclusion guidelines*  \n6. **Farmer withdraws ₹500**  \n**Poor Answer Reveals**: Missing \"Currency Chests\" (critical infrastructure), confusing RBI Issue Offices with bank branches, or omitting RBI's regulatory role in licensing the bank/BC. Shows lack of systemic view of currency circulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_008",
+   "title": "c10_eco_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define 'fair globalisation' in one sentence as per the NCERT Class 10 Economics textbook.",
+     "a": "Fair globalisation is the process of ensuring that the benefits of globalisation are shared more equally among all countries and people, and that the costs are not borne disproportionately by the poor and vulnerable. A wrong answer that only mentions 'equal benefits' without acknowledging the need for policy intervention reveals a misunderstanding that fairness happens automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it argued that simply removing trade barriers (liberalisation) does not automatically lead to fair globalisation? Use the example of Indian small-scale industries competing with MNCs.",
+     "a": "Liberalisation removes barriers but does not address existing inequalities in capital, technology, and scale. Indian small industries lack the resources to compete with MNCs, leading to closures and job losses. A wrong answer that says 'liberalisation always benefits everyone' shows a misconception that free markets are inherently fair.",
+     "self_check": true
+    },
+    {
+     "q": "The Indian government imposes an anti-dumping duty of 20% on imported steel from Country X, which was selling steel at ₹40,000 per tonne (below its domestic price of ₹50,000). Calculate the new landed price per tonne after duty and explain how this protects domestic steel producers who produce at ₹48,000 per tonne.",
+     "a": "Step 1: Identify dumping price = ₹40,000/tonne. Step 2: Anti-dumping duty = 20% of ₹40,000 = ₹8,000. Step 3: Landed price = ₹40,000 + ₹8,000 = ₹48,000/tonne. Step 4: Domestic producers' cost = ₹48,000/tonne, so they can now compete. A wrong calculation (e.g., duty on domestic price) reveals confusion about the base for anti-dumping duty.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of (a) government subsidies to small farmers and (b) international agreements limiting rich countries' agricultural subsidies in making globalisation fair for Indian farmers. Which addresses the root cause more directly?",
+     "a": "International agreements limiting rich countries' subsidies address the root cause (distorted global prices) but are hard to enforce. Government subsidies to Indian farmers provide immediate relief but strain fiscal resources. A student who picks only one without acknowledging the trade-off shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "\"Strong labour laws in India protect workers but discourage foreign investment.\" Evaluate this statement in the context of fair globalisation. Should India dilute labour laws to attract more MNCs?",
+     "a": "Diluting labour laws may attract investment but violates the principle of fair globalisation by exploiting workers. Fair globalisation requires enforcing core labour standards (ILO conventions) while improving productivity through skill development. A student who agrees with dilution ignores the ethical dimension and long-term social costs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point policy package for the Indian government to make globalisation fairer for the informal sector workers (e.g., street vendors, home-based workers). Each point must be a specific, actionable measure.",
+     "a": "A good answer includes: (1) Extend social security (health insurance, pension) to informal workers via a portable benefits scheme. (2) Simplify registration and provide access to formal credit for micro-enterprises. (3) Ensure urban planning allocates vending zones and protects against arbitrary eviction. A poor answer gives vague suggestions like 'help them more' without concrete policy instruments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

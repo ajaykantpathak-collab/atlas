@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_001",
+   "title": "c10_eco_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define \"consumer movement\" in the Indian context and state the year the Consumer Protection Act (COPRA) was enacted.",
+     "a": "The consumer movement in India is the organised effort by consumers and civil society groups to protect buyers from unfair trade practices, exploitation, and information asymmetry, leading to the enactment of the Consumer Protection Act (COPRA) in 1986. A wrong answer (e.g., stating COPRA was passed in 1991 or confusing it with the RTI Act) reveals the student cannot anchor the movement to its legislative milestone, a common 1-mark board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why individual consumers in the 1970s found it practically impossible to seek redressal against a large manufacturer selling adulterated goods, using the concepts of transaction costs and information asymmetry.",
+     "a": "Individual consumers faced high transaction costs (legal fees, travel, time) that exceeded the value of the defective product, while information asymmetry prevented them from proving adulteration without laboratory testing. A wrong answer focusing only on \"corruption\" or \"lack of awareness\" misses the structural economic reasoning (transaction costs > stake) that CBSE expects in 3-mark \"explain why\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys a 1 kg packet of turmeric powder priced at ₹200. Lab testing reveals 30% adulteration with metanil yellow. The consumer spends ₹1,500 on lab test fees and ₹500 on legal notice drafting. Calculate the total transaction cost as a percentage of the product price. What does this ratio imply about the feasibility of individual legal action?",
+     "a": "Total transaction cost = ₹1,500 + ₹500 = ₹2,000. Percentage = (2,000 / 200) × 100 = 1,000%. The transaction cost is 10 times the product price, making individual legal action economically irrational. A student who calculates 10% or forgets to add both cost components reveals inability to apply transaction-cost reasoning to real data — a frequent board exam application error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the market situation for a consumer buying penicillin (a life-saving drug) in 1975 versus buying a smartphone in 2024. Analyse how information asymmetry and market power differ in these two scenarios and why the need for consumer protection was more acute in 1975.",
+     "a": "In 1975, penicillin buyers faced extreme information asymmetry (no ingredient disclosure, no independent testing labs) and monopoly power (few licensed manufacturers, government-controlled pricing), making exploitation life-threatening. In 2024, smartphone buyers access online reviews, benchmark scores, warranty laws, and competitive markets with 20+ brands. The 1975 scenario had higher information asymmetry and seller market power, creating acute need for collective consumer action. A wrong answer claiming \"both are same because both are products\" fails to analyse structural market differences — a key analytical skill for case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The consumer movement in India would have succeeded even without COPRA 1986 because voluntary organisations like CGSI and VOICE were already effective.\" Provide two arguments for and two against, then give a reasoned judgment.",
+     "a": "For: (1) CGSI (1966) and VOICE (1983) achieved product testing, awareness campaigns, and some corporate concessions without law. (2) Voluntary pressure forced ISI mark adoption on many goods pre-1986. Against: (1) Voluntary bodies lacked legal enforcement power — companies could ignore findings. (2) Coverage was urban, elite, and limited to a few products; rural consumers had zero access. Judgment: Voluntary efforts were necessary but insufficient; COPRA provided statutory teeth (redressal forums, penalties) that scaled protection nationwide. A student answering only \"yes\" or \"no\" without structured evaluation loses the 4-mark \"evaluate\" question format.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step consumer awareness campaign for a rural village in 1980 targeting adulteration in mustard oil. Each step must address a specific barrier: (a) inability to detect adulteration, (b) fear of confronting powerful local trader, (c) lack of knowledge about collective complaint.",
+     "a": "Step 1 (Detection): Demonstrate simple home test — Baudouin test (adding nitric acid; red-brown ring indicates argemone oil adulteration) using low-cost kits distributed by panchayat. Step 2 (Fear): Form a village consumer collective (sangathan) to file joint complaint — reduces individual retaliation risk. Step 3 (Knowledge): Use folk theatre (nukkad natak) in local dialect to explain the new district-level consumer forum (once COPRA passes) and how to file a ₹10 complaint. A poor answer lists generic \"awareness\" without linking each step to a specific barrier, showing inability to design context-specific solutions — a creative competency gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

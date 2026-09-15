@@ -1,0 +1,731 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 204,
+ "chapter_title": "Exploring Some Geometric Themes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fecu101.txt",
+ "concepts": [
+  {
+   "id": "hegp.204.1",
+   "title": "Sierpinski Carpet: Remaining Squares",
+   "section": "4.1",
+   "definition": "Split a square into 9 equal parts, blank the centre one, and repeat the split-and-blank inside every survivor.",
+   "formula": "Rn = 8**n",
+   "key_idea": "The number of squares grows exponentially by a factor of 8 at each iteration.",
+   "textbook_ref": "hegp204.txt lines 30-50",
+   "question_patterns": [
+    "How many squares remain in the Sierpinski Carpet at step n?",
+    "Calculate the number of remaining squares after 3 iterations.",
+    "Find the value of Rn for the nth step of a Sierpinski Carpet.",
+    "How many squares remain after 2 rounds?",
+    "Survivor count at step 4 of the carpet?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the step number",
+     "explain": "The step number n represents the iteration of the fractal process.",
+     "compute": "n = n"
+    },
+    {
+     "step": 2,
+     "action": "Apply the power formula",
+     "explain": "Since each square splits into 8 remaining squares, we raise 8 to the power of n.",
+     "compute": "remaining_squares = 8 ** n"
+    },
+    {
+     "step": 3,
+     "action": "State the final count of remaining squares",
+     "explain": "The value of 8^n gives the exact number of survivor squares after n iterations of the split-and-blank process.",
+     "compute": "Rn = 8 ** n"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.2",
+   "title": "Sierpinski Carpet: Total Holes",
+   "section": "4.1",
+   "definition": "Count every blank pocket dug into the carpet so far.",
+   "formula": "Hn = (8**n - 1) / 7",
+   "key_idea": "Each round digs 8^n new pockets; pockets total (8^n - 1)/7.",
+   "textbook_ref": "hegp204.txt lines 51-65",
+   "question_patterns": [
+    "Find the number of holes in the Sierpinski Carpet at step n.",
+    "How many square holes are formed after n steps?",
+    "Calculate Hn for the Sierpinski Carpet.",
+    "How many pockets after 2 rounds?",
+    "Total holes after 3 rounds?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the numerator",
+     "explain": "Subtract 1 from 8 raised to the power of n.",
+     "compute": "num = 8 ** n - 1"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the constant",
+     "explain": "Divide the result by 7 to get the total number of holes.",
+     "compute": "holes = num / 7"
+    },
+    {
+     "step": 3,
+     "action": "State the final count of total holes",
+     "explain": "The geometric sum (8^n - 1)/7 accumulates every blank pocket dug across all n rounds of the carpet process.",
+     "compute": "Hn = (8 ** n - 1) / 7"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.3",
+   "title": "Sierpinski Gasket: Remaining Triangles",
+   "section": "4.1",
+   "definition": "Split a triangle into 4 equal parts, take out the centre one, and repeat on every survivor.",
+   "formula": "Tn = 3**n",
+   "key_idea": "Every round triples the survivors: 3^n after n rounds.",
+   "textbook_ref": "hegp204.txt lines 72-85",
+   "question_patterns": [
+    "How many triangles remain in the Sierpinski Gasket at step n?",
+    "Calculate the number of small triangles after n iterations.",
+    "Find the count of triangles in the nth step of the Sierpinski Triangle.",
+    "Triangles after 3 rounds?",
+    "Survivor triangles at step 2?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the power of 3",
+     "explain": "Each step keeps 3 out of 4 triangles from the previous step.",
+     "compute": "remaining_triangles = 3 ** n"
+    },
+    {
+     "step": 2,
+     "action": "Interpret the iteration count",
+     "explain": "The step number n counts how many rounds of split-and-remove-centre have been performed on the starting triangle.",
+     "compute": "n = n"
+    },
+    {
+     "step": 3,
+     "action": "State the final count of remaining triangles",
+     "explain": "The value of 3^n gives the exact number of survivor triangles after n rounds of the gasket process.",
+     "compute": "Tn = 3 ** n"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.4",
+   "title": "Koch Snowflake: Number of Sides",
+   "section": "4.1",
+   "definition": "Count the straight pieces edging the snowflake curve after n rounds.",
+   "formula": "Sn = 3 * (4**n)",
+   "key_idea": "Every single side is replaced by four smaller segments in each subsequent step.",
+   "textbook_ref": "hegp204.txt lines 86-105",
+   "question_patterns": [
+    "Find the number of sides in the nth step of the Koch Snowflake.",
+    "How many segments make up the Koch Snowflake at step n?",
+    "Calculate the side count for a Koch fractal after n iterations.",
+    "Edge pieces after 2 rounds?",
+    "How many segments at step 3?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate sides per original side",
+     "explain": "Each original side becomes 4 sides in one step, so for n steps it is 4^n.",
+     "compute": "multiplier = 4 ** n"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by initial sides",
+     "explain": "The snowflake starts with an equilateral triangle (3 sides).",
+     "compute": "total_sides = 3 * multiplier"
+    },
+    {
+     "step": 3,
+     "action": "State the final side count",
+     "explain": "The product 3 x 4^n gives the exact number of straight segments edging the snowflake after n rounds.",
+     "compute": "Sn = 3 * (4 ** n)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.5",
+   "title": "Koch Snowflake: Perimeter",
+   "section": "4.1",
+   "definition": "The total length of the outer boundary of the Koch Snowflake, assuming the initial triangle side length is 1.",
+   "formula": "Pn = 3 * (4/3)**n",
+   "key_idea": "The perimeter increases by a factor of 4/3 at every step, leading to an infinite length in the limit.",
+   "textbook_ref": "hegp204.txt lines 106-110",
+   "question_patterns": [
+    "What is the perimeter of the Koch Snowflake at step n?",
+    "Find the total boundary length of the snowflake after n steps.",
+    "Calculate the perimeter if the starting side length is 1 unit.",
+    "Perimeter after 2 rounds starting from side 1?",
+    "Boundary length at step 3, start side 1?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate growth factor",
+     "explain": "The perimeter grows by 4/3 each step.",
+     "compute": "growth = (4 / 3) ** n"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by initial perimeter",
+     "explain": "The initial perimeter of a triangle with side 1 is 3.",
+     "compute": "perimeter = 3 * growth"
+    },
+    {
+     "step": 3,
+     "action": "State the final perimeter",
+     "explain": "The product 3 x (4/3)^n gives the total boundary length of the snowflake after n rounds, starting from side length 1.",
+     "compute": "Pn = 3 * (4 / 3) ** n"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.6",
+   "title": "Properties of Prisms",
+   "section": "4.2",
+   "definition": "A solid with two identical polygonal bases and rectangular or parallelogram lateral faces.",
+   "formula": "F = n + 2; V = 2*n; E = 3*n",
+   "key_idea": "Base decides all: F = n + 2, V = 2n, E = 3n.",
+   "textbook_ref": "hegp204.txt lines 180-205",
+   "question_patterns": [
+    "How many faces does a prism with an n-sided base have?",
+    "Calculate the number of edges and vertices for a pentagonal prism.",
+    "Find F, V, and E for a prism where the base has n sides.",
+    "Faces of a pentagonal prism?",
+    "Count F, V, E of a hexagonal prism."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate faces",
+     "explain": "Two bases plus n side faces.",
+     "compute": "faces = n + 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate vertices",
+     "explain": "n vertices on the top base and n on the bottom.",
+     "compute": "vertices = 2 * n"
+    },
+    {
+     "step": 3,
+     "action": "Calculate edges",
+     "explain": "n edges on each base and n connecting edges.",
+     "compute": "edges = 3 * n"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.7",
+   "title": "Properties of Pyramids",
+   "section": "4.2",
+   "definition": "One polygonal floor with triangular walls rising to a single point.",
+   "formula": "F = n + 1; V = n + 1; E = 2*n",
+   "key_idea": "The number of faces and vertices are equal in any pyramid.",
+   "textbook_ref": "hegp204.txt lines 206-215",
+   "question_patterns": [
+    "Find the number of vertices in a pyramid with an n-sided base.",
+    "How many edges does a hexagonal pyramid have?",
+    "Calculate F, V, and E for a pyramid with base sides n.",
+    "Vertices of a hexagonal pyramid?",
+    "Edges of a pentagonal pyramid?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate faces and vertices",
+     "explain": "One base plus n triangles (faces) or n base points plus one apex (vertices).",
+     "compute": "faces_or_vertices = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate edges",
+     "explain": "n base edges plus n edges connecting to the apex.",
+     "compute": "edges = 2 * n"
+    },
+    {
+     "step": 3,
+     "action": "Verify the Euler relation",
+     "explain": "Check that F + V - E = 2 holds for the pyramid, confirming the counts are consistent.",
+     "compute": "check = faces + (n + 1) - edges"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.8",
+   "title": "Shortest Path on Cuboid Surface",
+   "section": "4.2",
+   "definition": "Flatten the box faces into a plane; the straight line there is the shortest trip over the surface.",
+   "formula": "distance = sqrt(horizontal_dist**2 + vertical_dist**2)",
+   "key_idea": "Unfold, draw straight, then measure -- the flat shortcut is the surface shortcut.",
+   "textbook_ref": "hegp204.txt lines 250-290",
+   "question_patterns": [
+    "What is the shortest path for an ant to travel on a box?",
+    "Find the minimum distance between two points on a cuboid surface.",
+    "Calculate the shortest surface distance using the Baudhayana theorem.",
+    "Ant on a 3x2x1 box, corner to opposite corner -- shortest walk?",
+    "Shortest surface trip on a 4x2x1 box, corner to corner?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine net dimensions",
+     "explain": "Identify the total horizontal and vertical displacement on the unfolded net.",
+     "compute": "h_sq = horizontal_dist ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate vertical square",
+     "explain": "Square the vertical distance.",
+     "compute": "v_sq = vertical_dist ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Apply Pythagoras",
+     "explain": "The shortest path is the square root of the sum of squares.",
+     "compute": "distance = sqrt(h_sq + v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.204.9",
+   "title": "Solid Projections: Front, Top, and Side Views",
+   "section": "4.2",
+   "definition": "Picture the object from straight ahead, above, and the side; draw each flat outline.",
+   "formula": "none",
+   "key_idea": "Each viewpoint gives one flat profile; together they pin the solid down.",
+   "textbook_ref": "hegp204.txt lines 310-340",
+   "question_patterns": [
+    "Identify the top view of the given solid.",
+    "Draw the front, side, and top views of a cylinder.",
+    "Match the solid with its projections.",
+    "Sketch the top view of a brick.",
+    "Which view shows the circular face of a can?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe from the front",
+     "explain": "Look at the object directly at eye level to find the front profile."
+    },
+    {
+     "step": 2,
+     "action": "Observe from above",
+     "explain": "Look at the object from a bird's-eye view to find the top profile."
+    },
+    {
+     "step": 3,
+     "action": "Observe from the side",
+     "explain": "Look at the object from the left or right to find the side profile."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp204.txt lines 285-290",
+   "concept": "hegp.204.8",
+   "question_type": "compute",
+   "question_pattern": "Find the shortest path distance d between two points on a net where the horizontal distance is {horizontal_dist} and vertical distance is {vertical_dist}.",
+   "extracted_variables": {
+    "horizontal_dist": "horizontal displacement on net",
+    "vertical_dist": "vertical displacement on net"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the horizontal distance",
+     "explain": "Square the value of {horizontal_dist}.",
+     "compute": "h_sq = horizontal_dist ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Square the vertical distance",
+     "explain": "Square the value of {vertical_dist}.",
+     "compute": "v_sq = vertical_dist ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Find the square root of the sum",
+     "explain": "Calculate the square root of the sum of the squares.",
+     "compute": "distance = sqrt(h_sq + v_sq)"
+    }
+   ]
+  },
+  {
+   "concept": "hegp.204.1",
+   "question_pattern": "How many squares remain after {n} rounds?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "eight survive per survivor",
+     "explain": "8^2 = 64",
+     "compute": "Rn = 8 ** n"
+    }
+   ],
+   "id": "ex2",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.1",
+   "question_pattern": "Survivor count at step {n} of the carpet?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "eight survive per survivor",
+     "explain": "8^3 = 512",
+     "compute": "Rn = 8 ** n"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.2",
+   "question_pattern": "How many pockets after {n} rounds?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "holes total the geometric sum",
+     "explain": "(64 - 1)/7 = 9",
+     "compute": "Hn = (8 ** n - 1) / 7"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.2",
+   "question_pattern": "Total holes after {n} rounds?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "holes total the geometric sum",
+     "explain": "(512 - 1)/7 = 73",
+     "compute": "Hn = (8 ** n - 1) / 7"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.3",
+   "question_pattern": "Triangles after {n} rounds?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "triple the survivors",
+     "explain": "3^3 = 27",
+     "compute": "Tn = 3 ** n"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.3",
+   "question_pattern": "Survivor triangles at step {n}?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "triple the survivors",
+     "explain": "3^2 = 9",
+     "compute": "Tn = 3 ** n"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.4",
+   "question_pattern": "Edge pieces after {n} rounds?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "each piece quarters each round",
+     "explain": "3 x 4^2 = 48",
+     "compute": "Sn = 3 * (4 ** n)"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.4",
+   "question_pattern": "How many segments at step {n}?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "each piece quarters each round",
+     "explain": "3 x 4^3 = 192",
+     "compute": "Sn = 3 * (4 ** n)"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.5",
+   "question_pattern": "Perimeter after {n} rounds starting from side 1?",
+   "extracted_variables": {
+    "n": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "each round scales by 4/3",
+     "explain": "3 x (4/3)^2 = 5.333",
+     "compute": "Pn = 3 * (4/3) ** n"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.5",
+   "question_pattern": "Boundary length at step {n}, start side 1?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "each round scales by 4/3",
+     "explain": "3 x (4/3)^3 = 7.111",
+     "compute": "Pn = 3 * (4/3) ** n"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.6",
+   "question_pattern": "Faces of a prism with an {n}-sided base?",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "two bases plus walls",
+     "explain": "5 + 2 = 7",
+     "compute": "F = n + 2"
+    },
+    {
+     "step": 2,
+     "action": "vertices and edges too",
+     "explain": "V = 10, E = 15",
+     "compute": "V = 2 * n"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.6",
+   "question_pattern": "Count F, V, E for a prism with an {n}-sided base.",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "two bases plus walls",
+     "explain": "6 + 2 = 8",
+     "compute": "F = n + 2"
+    },
+    {
+     "step": 2,
+     "action": "vertices and edges too",
+     "explain": "V = 12, E = 18",
+     "compute": "V = 2 * n"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.7",
+   "question_pattern": "Vertices of a pyramid with an {n}-sided base?",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "base corners plus the apex",
+     "explain": "6 + 1 = 7",
+     "compute": "V = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "edges too",
+     "explain": "12",
+     "compute": "E = 2 * n"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.7",
+   "question_pattern": "Edges of a pyramid with an {n}-sided base?",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "base edges plus slant edges",
+     "explain": "5 + 5 = 10",
+     "compute": "E = 2 * n"
+    },
+    {
+     "step": 2,
+     "action": "vertices too",
+     "explain": "6",
+     "compute": "V = n + 1"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.8",
+   "question_pattern": "Ant on an {a}x{b}x{c} box, corner to opposite corner -- shortest walk?",
+   "extracted_variables": {
+    "a": "3",
+    "b": "2",
+    "c": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flatten 3 x (2+1)",
+     "explain": "one rectangle 3 by 3",
+     "compute": "flat_w = a"
+    },
+    {
+     "step": 2,
+     "action": "straight over the flat",
+     "explain": "sqrt(9 + 9) = 4.243",
+     "compute": "distance = sqrt(horizontal_dist ** 2 + vertical_dist ** 2)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.204.8",
+   "question_pattern": "Shortest surface trip on an {a}x{b}x{c} box, corner to corner?",
+   "extracted_variables": {
+    "a": "4",
+    "b": "2",
+    "c": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flatten 4 x (2+1)",
+     "explain": "one rectangle 4 by 3",
+     "compute": "flat_w = a"
+    },
+    {
+     "step": 2,
+     "action": "straight over the flat",
+     "explain": "sqrt(16 + 9) = 5",
+     "compute": "distance = sqrt(horizontal_dist ** 2 + vertical_dist ** 2)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hegp204.txt lines 79-85",
+   "questions": [
+    "Draw the initial few steps of the shape sequence that leads to the Sierpinski Triangle.",
+    "Find the number of holes, and the triangles that remain at each step of the Sierpinski Triangle.",
+    "Find the area of the region remaining at the nth step in each of the shape sequences that lead to the Sierpinski fractals."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hegp204.txt lines 106-110",
+   "questions": [
+    "Find the number of sides in the nth step of the shape sequence that leads to the Koch Snowflake.",
+    "Find the perimeter of the shape at the nth step of the sequence."
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "hegp204.txt lines 345-360",
+   "questions": [
+    "Draw the top view, front view and the side view of combinations of identical cubes.",
+    "Which solid corresponds to the given top view, front view, and side view?",
+    "Find the number of cubes in this stack of identical cubes."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_003",
+   "title": "c12_bio_cbse_11_003",
+   "questions": [
+    {
+     "q": "What is the correct sequential order of steps in recombinant DNA technology starting from the source organism?",
+     "a": "Correct order: (1) Isolation of DNA from source organism → (2) Fragmentation using restriction endonucleases → (3) Isolation of desired gene fragment (gel electrophoresis) → (4) Ligation into vector using DNA ligase → (5) Transformation into competent host cells → (6) Selection/screening of recombinant clones → (7) Expression and scale-up. A wrong answer (e.g., ligation before fragmentation, or transformation before ligation) reveals the student does not understand the dependency chain: you cannot ligate uncut DNA, and you cannot transform a vector that hasn't been constructed.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to use the SAME restriction enzyme to cut both the vector and the insert DNA fragment?",
+     "a": "Using the same restriction enzyme (or enzymes producing compatible ends) ensures that the sticky ends of the vector and insert are complementary, allowing specific base-pairing and efficient ligation by DNA ligase. If different enzymes with incompatible ends are used, the fragments will not anneal correctly, ligation efficiency drops drastically, and the recombinant plasmid may not form or may have frameshifts. A student who says \"any enzyme works\" or \"blunt ends are fine\" misunderstands the specificity of sticky-end ligation and the importance of directional cloning.",
+     "self_check": true
+    },
+    {
+     "q": "A student digests a plasmid vector with EcoRI and a human DNA fragment with BamHI. Both produce sticky ends. They mix the two, add DNA ligase, and transform E. coli. No recombinant colonies grow on ampicillin plates. Explain why this failed.",
+     "a": "EcoRI (5'-GAATTC-3') and BamHI (5'-GGATCC-3') produce different sticky-end sequences (AATT vs GATC). These ends are NOT complementary, so they cannot base-pair. DNA ligase requires properly base-paired 5'-phosphate and 3'-OH ends; it cannot join mismatched overhangs. The vector likely re-ligated to itself (empty vector) or the insert ligated to itself, but no recombinant plasmid formed. The student who misses this fails to recognize that sticky-end compatibility is sequence-specific, not just \"sticky vs blunt.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the purpose of antibiotic resistance markers vs. insertional inactivation (e.g., lacZ α-complementation) in identifying recombinant clones.",
+     "a": "Antibiotic resistance (e.g., ampicillin^R) selects for ANY cell that took up a plasmid (recombinant or empty vector) — it is a SELECTION marker. Insertional inactivation (e.g., lacZ α-fragment disruption) allows visual SCREENING: recombinants form white colonies (no functional β-galactosidase → no X-gal hydrolysis), while non-recombinants form blue colonies. Both are needed: selection eliminates non-transformed cells; screening distinguishes recombinant from empty-vector transformants. A student who conflates them (e.g., \"ampicillin selects recombinants\") misunderstands that selection ≠ screening.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"If we use a restriction enzyme that cuts the vector at two sites within the multiple cloning site (MCS), we will get higher cloning efficiency because there are more sticky ends available for ligation.\"",
+     "a": "The claim is FALSE. Cutting a vector at two sites in the MCS linearizes it but REMOVES the DNA fragment between the two sites (often a stuffer fragment or part of the MCS itself). This can delete essential sequences (promoter, ribosome binding site, or lacZ α-fragment) and produce a vector that cannot express the insert or cannot be screened. Proper cloning uses a SINGLE restriction site (or two DIFFERENT sites for directional cloning) to open the vector without deleting functional elements. A student agreeing with the claim shows poor understanding of vector architecture and the consequences of double digestion within the MCS.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to clone a human gene (with known sequence) into an E. coli expression vector so that: (a) the gene is inserted in the correct orientation, (b) only recombinant plasmids are selected, and (c) protein expression can be induced. Specify the enzymes, vector features, and host strain needed.",
+     "a": "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance. (2) Select TWO different restriction sites in MCS flanking the cloning site (e.g., NdeI at start codon, XhoI after stop codon) for directional cloning. (3) PCR-amplify human gene with primers adding NdeI and XhoI sites (ensuring reading frame). (4) Digest vector and insert with NdeI + XhoI, gel-purify both. (5) Ligate (3:1 insert:vector molar ratio). (6) Transform into E. coli BL21(DE3) (has T7 RNA polymerase under lacUV5 control). (7) Plate on ampicillin + X-gal + IPTG: white colonies = recombinants. (8) Induce with IPTG for expression. Poor answer omits directional cloning, uses single enzyme (random orientation), forgets host strain compatibility, or misses induction step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

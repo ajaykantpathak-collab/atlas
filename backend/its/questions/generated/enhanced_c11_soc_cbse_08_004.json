@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_004",
+   "title": "c11_soc_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define \"differential access to environmental resources\" in the context of social stratification. Provide one concrete example from the NCERT text.",
+     "a": "Differential access to environmental resources means that different social groups have systematically unequal abilities to obtain, control, and benefit from natural resources like water, land, forests, and clean air due to their position in social hierarchies. NCERT example: In Kutch, Gujarat, richer farmers invest in deep bore tubewells to irrigate cash crops while poorer villagers' earthen wells run dry, leaving them without drinking water. A wrong answer that defines this only as \"some people have more resources than others\" reveals the student misses the structural, systemic nature of the inequality rooted in property relations and power, not just individual differences.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"How environmental problems affect different groups is a function of social inequality.\" Explain this statement in your own words using the Kutch water scarcity example. Why is it incorrect to say water scarcity in Kutch is purely a natural phenomenon?",
+     "a": "The statement means that social inequality (class, power, technology access) determines who suffers from environmental stress and who can insulate themselves. In Kutch, the same rainfall deficit affects rich and poor farmers differently because rich farmers have capital to drill deep borewells, electricity connections, and political clout to secure water rights, while poor farmers depend on shallow wells that dry up first. Saying scarcity is \"purely natural\" ignores how social structures — credit systems, technology access, property rights — mediate the impact of ecological conditions. A wrong answer focusing only on rainfall data reveals the student treats environmental problems as technical/natural rather than socially mediated.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"property relations\" to explain why women in rural India experience resource scarcity more acutely than men, even within the same household. Use the NCERT's specific examples of fuel and water gathering.",
+     "a": "Property relations determine who has legal control and decision-making authority over resources. In rural India, women are primarily responsible for gathering fuelwood and fetching water (use rights), but they rarely hold title to land, forests, or water sources (control rights). This means they bear the labor burden of resource scarcity — walking farther as forests shrink, waiting longer at depleted water sources — but lack authority to decide on resource management, conservation investments, or allocation priorities. For example, if a household decides to sell land for a borewell, women's domestic water needs may be overridden by male decisions favoring irrigation for cash crops. A wrong answer that says \"women work harder\" misses the structural property rights dimension that makes their access insecure and dependent on male household heads.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how a Forest Department geared to revenue maximization and a tribal artisan harvesting bamboo would view and use the same forest. What does this comparison reveal about the social ecology perspective?",
+     "a": "The Forest Department views the forest as a revenue-generating asset — prioritizing high-volume bamboo extraction for paper industry contracts, leading to monoculture plantations, clear-felling, and exclusion of local users. The tribal artisan views the forest as a livelihood source — harvesting selectively for basket-making, maintaining species diversity, and depending on long-term forest health. The social ecology perspective reveals that these are not just \"different opinions\" but structurally determined positions: the Department's bureaucratic-organizational role in a capitalist state economy shapes its ecological perception toward commodification, while the artisan's subsistence production relations shape a conservationist perception. Environmental conflicts arise from these structurally rooted, incompatible resource imaginaries. A wrong answer listing only \"different uses\" without linking to property relations and production systems misses the core social ecology argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Farmer suicides in Vidarbha are primarily an agricultural crisis caused by pest attacks and rainfall failure.\" Use the NCERT's analysis of the fusion of environmental and economic factors to support your evaluation.",
+     "a": "The claim is incomplete and misleading. NCERT (citing P. Sainath) shows farmer suicides result from a fusion of environmental volatility (pest resistance requiring new pesticides, groundwater depletion requiring deeper drilling) AND economic restructuring (liberalisation reducing state support, dependence on high-interest private credit, exposure to global cotton price fluctuations). The environmental stressors (pests, water scarcity) are mediated by social structures: smallholders lack capital for adaptive investments, are trapped in debt cycles with moneylenders, and face social ruin (inability to marry off children) when crops fail. Attributing suicides solely to \"agricultural crisis\" naturalizes what is fundamentally a crisis of social reproduction under specific property and credit relations. A wrong answer accepting the claim reveals failure to see how social stratification (class position, credit access) transforms environmental risk into differential mortality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example (not from NCERT) of an urban environmental conflict in an Indian city that illustrates differential access to environmental resources based on social stratification. Explain the property relations and power dynamics involved.",
+     "a": "Example: In Delhi, the Yamuna floodplains are contested between Yamuna Pushta slum dwellers (mostly Dalit and migrant workers) who lived there for decades accessing river water for washing, fishing, and livelihood, and the DDA/master plan that evicted them for the Commonwealth Games village, Akshardham temple, and metro infrastructure serving middle-class residents. Property relations: slum dwellers had \"possession\" but not legal title; the state exercised eminent domain for \"public purpose\" defined by elite urban imagination. Power dynamics: slum dwellers lacked political representation, legal resources, and media access to contest eviction; elite residents' associations and real estate developers shaped the master plan. Post-eviction, the same floodplain hosts elite recreational spaces while displaced families relocated to Bhalaswa (near a landfill) face toxic air and contaminated groundwater. A poor answer would describe only the eviction without analyzing how property law, planning institutions, and class power produced differential environmental outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_005",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_005",
+   "title": "c6_english_u1_005",
+   "questions": [
+    {
+     "q": "What is a rhyme scheme, and how do we label it?",
+     "a": "A rhyme scheme is the pattern of sounds at the ends of lines in a poem, labeled using letters (like AABB). If a student says \"it’s just the last word,\" they are missing the pattern aspect—the labels show which lines match, not just the existence of the word.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a direct description (e.g., \"The field was green\") and a metaphor (e.g., \"The field was a velvet blanket\").",
+     "a": "A direct description states a fact, but a metaphor creates a deeper meaning by saying the field *is* the blanket, suggesting softness and comfort. A wrong answer usually confuses metaphors with similes (which use \"like\" or \"as\"), showing the student doesn't realize metaphors drop those comparison words.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the imagery in this line: \"The golden sun kissed the cold morning dew on the banana leaves.\"",
+     "a": "The imagery is \"golden sun,\" \"cold morning dew,\" and \"banana leaves.\" To identify this, look for words that trigger sight (golden), touch (cold), or nature (banana leaves). If a student picks only one word, they aren't capturing the full sensory scene.",
+     "self_check": true
+    },
+    {
+     "q": "If a stanza has four lines ending in: Cat (A), Hat (A), Dog (B), Log (B), what is the rhyme scheme?",
+     "a": "The scheme is AABB. If a student says \"ABAB,\" they are failing to see that the first two lines rhyme together, proving they are ignoring the sequence of the sounds.",
+     "self_check": true
+    },
+    {
+     "q": "\"Life is a rollercoaster.\" Is this a metaphor? Why or why not?",
+     "a": "Yes, it is a metaphor because it compares life to a rollercoaster to suggest it has ups and downs, without using \"like\" or \"as.\" If a student says no, they might be looking for a literal, physical machine, missing the symbolic comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Create a line of imagery that describes a rainy day in a village.",
+     "a": "A good answer would include sensory details like \"the smell of wet earth\" or \"the rhythmic tapping of rain on tin roofs.\" A poor answer simply says \"it was raining,\" which lacks the sensory detail required for imagery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

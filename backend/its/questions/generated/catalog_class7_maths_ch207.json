@@ -1,0 +1,317 @@
+{
+ "catalog": "catalog_class7_maths_ch207.json",
+ "concepts": [
+  {
+   "id": "gegp.7.1.1",
+   "title": "Algebraic Equation and Verification of Solution",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 64 - 31 gives 85",
+     "compute": "third = 180 - 64 - 31"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 64 and 31 degrees; the third angle is what? (The third angles must match.)",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 11 cm, 4 cm and 5 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 68 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "56",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.1",
+   "title": "Solving Two-Step Linear Equations (Ax + B = C)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 4x + 5 = 49.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 14 = 70.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 4 = 8.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 15 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 7 = 2x + 19.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 5) = 20.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.2",
+   "title": "Solving Equations with Variables on Both Sides",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 4 when x = 2.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 5x + 5 when x = 6.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 7x - 8x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (7 + 5) equals 7 x 7 + 7 x 5. Compute it.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 5 x 3 (respect the order of operations).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3 + 8) x 8.",
+     "a": "88",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.3",
+   "title": "Fixed Charge and Unit Cost Word Problems",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 1 = 15.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 5 = 75.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 14 = 6.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 0 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 2 = 1x + 5.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 2) = 32.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.4",
+   "title": "Finding Position in Linear Pattern Sequence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 5th term of the AP with first term 7 and common difference 2.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 6 terms of the AP 5, 8, 11, ... .",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 93 with 14 terms. Find its sum.",
+     "a": "665",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 20 and 22. Find the common difference.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 7, 15, 23, ... up to and including 31?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 25 and the 4th term is 13. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2.5",
+   "title": "Solving Linear Equations with Parentheses",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 5x + 13 = 73.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 6 = 0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 5 = 7.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 25 = 5.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 5 = 1x + 10.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3(x + 4) = 18.",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.3.1",
+   "title": "Identifying and Correcting Algebraic Errors",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 53 - 40 gives 87",
+     "compute": "third = 180 - 53 - 40"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 53 and 40 degrees; the third angle is what? (The third angles must match.)",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 9 cm, 10 cm and 10 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 50 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "65",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.4.1",
+   "title": "Brahmagupta Method for Ax + B = Cx + D",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers -2 and -7.",
+     "a": "-9",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 2 on a number line and moves 25 steps (negative means left). Where does it finish?",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 5 and -5.",
+     "a": "-25",
+     "self_check": false
+    },
+    {
+     "q": "Divide 131 by -4.",
+     "a": "-32.75",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -1 and return it.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 9 x 4 + 9 x 4 as 9 x (4 + 4).",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

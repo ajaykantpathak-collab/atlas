@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_006",
+   "title": "c11_geo_cbse_10_006",
+   "questions": [
+    {
+     "q": "Name the five major types of natural vegetation in India and state the approximate annual rainfall range (in cm) that characterises each type.",
+     "a": "The five types and their rainfall ranges: (1) Tropical Evergreen Forests — >200 cm; (2) Tropical Moist Deciduous Forests — 100-200 cm; (3) Tropical Dry Deciduous Forests — 75-100 cm; (4) Tropical Thorn Forests and Scrubs — 50-75 cm; (5) Montane Forests — variable with altitude (typically 100-250 cm at lower elevations); (6) Mangrove Forests — coastal tidal zones (rainfall 100-300 cm but salinity is the controlling factor). A wrong answer (e.g., swapping Deciduous ranges, omitting Thorn forests, or giving temperature instead of rainfall) reveals the student is memorising names without grasping the moisture-gradient logic that structures Indian vegetation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do Tropical Dry Deciduous forests occupy the rain-shadow region of the Western Ghats while Tropical Evergreen forests occupy the windward side, despite both regions receiving rainfall from the same Southwest Monsoon?",
+     "a": "The Southwest Monsoon winds strike the windward slopes of the Western Ghats, causing orographic uplift and heavy rainfall (250-400 cm). After crossing the crest, the winds descend on the leeward side, warming adiabatically and losing moisture, creating a rain-shadow zone with only 60-100 cm rainfall. Tropical Evergreen forests require >200 cm with no distinct dry season (or very short); Dry Deciduous forests are adapted to 75-100 cm with a pronounced 4-6 month dry season when they shed leaves. A wrong answer focusing only on \"less rainfall\" without explaining the orographic mechanism and the physiological adaptation (leaf-shedding to survive drought) shows the student cannot link physical geography processes to ecological outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following climate data for three stations, identify the natural vegetation type for each and justify using quantitative thresholds:\nStation A: Annual rainfall 220 cm, mean annual temperature 26°C, dry months (<5 cm rain) = 2\nStation B: Annual rainfall 85 cm, mean annual temperature 27°C, dry months = 5\nStation C: Annual rainfall 150 cm, mean annual temperature 18°C, dry months = 3, altitude = 1800 m",
+     "a": "Station A: Tropical Evergreen Forest — rainfall >200 cm, temperature >24°C, dry months ≤3 (short dry season). Station B: Tropical Dry Deciduous Forest — rainfall 75-100 cm, temperature >24°C, dry months 4-6 (prolonged dry season triggers leaf fall). Station C: Subtropical Montane Forest (part of Montane type) — altitude 1800 m places it in the 1500-3000 m belt where mean annual temperature 13-18°C supports subtropical broadleaf/coniferous mix; rainfall 150 cm is adequate. A wrong answer (e.g., assigning Station B to Moist Deciduous, or Station C to Tropical Evergreen based only on rainfall) reveals inability to integrate altitude-induced temperature drop and dry-season length as co-determinants alongside total rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the floristic composition and structural adaptations of Tropical Moist Deciduous and Tropical Dry Deciduous forests. Explain how the difference in dry-season length (2-3 months vs. 4-6 months) selects for different survival strategies in dominant species like Teak (Tectona grandis) and Sal (Shorea robusta).",
+     "a": "Moist Deciduous (100-200 cm, 2-3 dry months): Dominated by Sal (Shorea robusta), Teak, Bamboo; taller canopy (30-45 m), denser understorey; species are drought-avoiders — they shed leaves briefly but maintain deep root systems and rapid regrowth with pre-monsoon showers. Dry Deciduous (75-100 cm, 4-6 dry months): Dominated by Teak, Anogeissus, Terminalia; shorter canopy (15-25 m), open understorey, thick bark; species are drought-tolerators — Teak develops thick corky bark, deep taproots, and complete leaf abscission for 4-6 months to minimise transpiration. A wrong answer listing species without explaining the physiological mechanism (leaf phenology, root architecture, bark thickness as adaptations to water stress duration) shows superficial memorisation without ecological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Mangrove forests in the Sundarbans are primarily determined by high rainfall (180 cm) rather than tidal salinity.\" Use evidence from species adaptations (e.g., pneumatophores, vivipary, salt excretion) and the ecology of the Ganga-Brahmaputra delta to support your judgment.",
+     "a": "The statement is incorrect. While the Sundarbans receive ~180 cm rainfall, mangroves occupy the intertidal zone where daily tidal inundation brings saline water (15-35 ppt). Key adaptations prove salinity is the primary filter: (1) Pneumatophores (aerial roots of Avicennia, Sonneratia) for gas exchange in anaerobic, waterlogged mud; (2) Vivipary (seeds germinate on mother plant in Rhizophora, Bruguiera) ensuring rapid establishment in shifting, saline substrate; (3) Salt-excreting glands on leaves (Avicennia, Aegiceras) and ultrafiltration at roots (Rhizophora). Rainfall actually reduces salinity seasonally, allowing freshwater-loving species (Heritiera fomes — Sundari) to dominate upper delta zones. A wrong answer accepting the statement reveals confusion between climatic vegetation (rainfall-driven) and azonal vegetation (edaphic/hydrologic-driven), a critical distinction in vegetation geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a vegetation transect map annotation for a north-south cross-section from Jaisalmer (Rajasthan) to Thiruvananthapuram (Kerala) at 77°E longitude. Mark the vegetation transitions, label the approximate latitude of each boundary, and write the climatic reason (rainfall/temperature/altitude) for each transition.",
+     "a": "A good answer shows: (1) ~26°N Jaisalmer — Tropical Thorn Forest (rainfall <50 cm, arid); (2) ~24°N — transition to Tropical Dry Deciduous as rainfall crosses 75 cm (Aravalli foothills); (3) ~21°N — transition to Tropical Moist Deciduous near 100 cm isohyet (central India plateau); (4) ~16°N — Western Ghats windward ascent begins — Tropical Evergreen above 200 cm (Agumbe); (5) ~13°N — Western Ghats crest — Montane Shola grasslands above 1800 m (temperature drop); (6) ~8.5°N Thiruvananthapuram — Coastal Tropical Evergreen/Mangrove fringe. Each boundary must be labelled with the controlling factor: rainfall isohyet (75, 100, 200 cm) or altitude isotherm. A poor answer draws a smooth gradient without sharp boundaries, omits latitude/rainfall labels, or misplaces the Western Ghats evergreen zone, showing inability to translate climatic data into spatial vegetation patterns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

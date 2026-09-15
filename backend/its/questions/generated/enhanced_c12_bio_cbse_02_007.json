@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_007",
+   "title": "c12_bio_cbse_02_007",
+   "questions": [
+    {
+     "q": "Name the three major agents of pollination covered in the NCERT Class 12 syllabus and give the technical term for each.",
+     "a": "Wind – anemophily; Water – hydrophily; Insects – entomophily. A wrong answer (e.g., listing birds or bats) shows the student has not distinguished syllabus scope from general knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Why are anemophilous flowers typically small, inconspicuous, and lacking nectar or scent?",
+     "a": "Wind is a non-directional, non-selective agent; investing energy in petals, nectar, or scent would not increase pollen capture. Instead, selection favours exposed stamens, versatile anthers, and feathery stigmas to maximise airborne pollen interception. A student who says “wind cannot see colour” misses the evolutionary trade-off between attraction and pollen production.",
+     "self_check": true
+    },
+    {
+     "q": "A student examines a flower with long, sticky stigmas, mucilaginous pollen grains, and no nectar. Predict the pollination agent and justify with two structural reasons.",
+     "a": "Water (hydrophily). Reason 1: mucilaginous pollen protects grains from water damage and aids flotation. Reason 2: long, sticky stigmas increase surface area for capturing pollen from the water surface. If the student guesses insect, they confuse sticky stigma (insect landing platform) with water-capture adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pollen grain characteristics of anemophilous and entomophilous flowers in terms of size, weight, surface texture, and production quantity.",
+     "a": "Anemophilous: small (20–50 µm), light, smooth/exine thin, produced in huge numbers (e.g., maize ~ 18 million per tassel). Entomophilous: larger (>50 µm), heavier, sculptured/spiny/sticky exine, produced in moderate numbers. A wrong comparison (e.g., “insect pollen is lighter”) reveals confusion about aerodynamic vs. adhesive requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Hydrophily is always an inefficient mode of pollination because water currents are unpredictable.” Provide two counter-arguments from floral adaptations.",
+     "a": "Counter-argument 1: In epihydrophily (e.g., Vallisneria), male flowers detach and float to female flowers at the surface – a directed mechanism, not random drift. Counter-argument 2: Hypohydrophily (e.g., Zostera) releases pollen underwater as long, needle-like grains that move in slow currents toward stigmas; the pollen’s specific gravity matches water, reducing loss. Calling it “inefficient” ignores these targeted adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation to distinguish whether a common roadside weed (e.g., Parthenium) is wind- or insect-pollinated. List the steps and the decisive evidence you would record.",
+     "a": "Steps: (1) Watch the plant for 15 min during peak flowering; note visitor frequency. (2) Gently tap anthers onto a dark paper – observe pollen quantity and dispersal. (3) Check for nectar with a micro-capillary tube. (4) Examine stigma shape under a hand lens. Decisive evidence: abundant light pollen + no visitors + no nectar + feathery stigma = anemophily; moderate sticky pollen + regular insect visits + nectar present + lobed stigma = entomophily. A poor design omits quantitative pollen observation or stigma examination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

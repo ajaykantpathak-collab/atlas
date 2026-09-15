@@ -1,0 +1,663 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 109,
+ "chapter_title": "Atomic Foundations of Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc109.txt",
+ "concepts": [
+  {
+   "id": "iesc.9.1",
+   "title": "Law of Conservation of Mass",
+   "section": "9.1",
+   "definition": "A fundamental chemical principle stating that the total mass of substances participating in a chemical reaction remains constant, meaning matter is neither created nor destroyed.",
+   "formula": "mass_reactants = mass_products",
+   "key_idea": "In brief, In brief, the total mass before a chemical reaction equals the total mass after the reaction.",
+   "textbook_ref": "iesc109.txt lines 110-140",
+   "question_patterns": [
+    "verify whether the Law of Conservation of Mass is obeyed",
+    "calculate the mass of product formed when reactants of known masses combine",
+    "find the missing mass of a reactant or product in a closed system",
+    "how much water is formed according to the Law of Conservation of Mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the total mass of the reactants",
+     "explain": "Sum the masses of all starting substances (reactants).",
+     "compute": "total_reactants = mass_reactant_1 + mass_reactant_2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the total mass of the known products",
+     "explain": "Sum the masses of all known products formed in the reaction.",
+     "compute": "total_known_products = mass_product_1 + mass_product_2"
+    },
+    {
+     "step": 3,
+     "action": "Determine the mass of the missing product or reactant",
+     "explain": "Subtract the total known products from the total reactants to find the missing mass.",
+     "compute": "missing_mass = total_reactants - total_known_products"
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.2",
+   "title": "Law of Constant Proportions",
+   "section": "9.2",
+   "definition": "A chemical law stating that a given chemical compound always contains its component elements in a fixed and definite ratio by mass, regardless of its source or preparation method.",
+   "formula": "mass_b = (ratio_b / ratio_a) * mass_a",
+   "key_idea": "Elements in a pure chemical compound are always combined in a constant mass ratio.",
+   "textbook_ref": "iesc109.txt lines 180-210",
+   "question_patterns": [
+    "how much of element B is needed to react completely with a given mass of element A",
+    "find the mass of compound produced from a given mass of element",
+    "what mass of oxygen must be present to satisfy the Law of Constant Proportions",
+    "calculate the mass of chlorine required to react with sodium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the mass of the second element required",
+     "explain": "Multiply the given mass of the first element by the ratio of the second element to the first.",
+     "compute": "mass_b = (ratio_b / ratio_a) * mass_a"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the total mass of the compound formed",
+     "explain": "Sum the masses of both combining elements to get the total compound mass.",
+     "compute": "mass_compound = mass_a + mass_b"
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.3",
+   "title": "Dalton's Atomic Theory",
+   "section": "9.3",
+   "definition": "A set of postulates proposing that all matter is made up of small, indivisible particles called atoms, which are identical for a given element and combine in simple whole-number ratios to form compounds.",
+   "formula": "None",
+   "key_idea": "Matter is made up of indivisible atoms that rearrange during chemical reactions without being created or destroyed.",
+   "textbook_ref": "iesc109.txt lines 220-250",
+   "question_patterns": [
+    "what are the postulates of Dalton's atomic theory",
+    "which postulate of Dalton's atomic theory is the result of the law of conservation of mass",
+    "explain how Dalton's theory explains the law of definite proportions",
+    "state Dalton's assumptions about atoms of different elements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the relevant postulate of Dalton's Atomic Theory",
+     "explain": "Match the observed chemical behavior (e.g., mass conservation or constant proportions) to the corresponding postulate."
+    },
+    {
+     "step": 2,
+     "action": "Verify the property or law",
+     "explain": "Explain how the indivisibility of atoms or their combination in simple whole-number ratios justifies the chemical law."
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.4",
+   "title": "Covalent Bonding",
+   "section": "9.4.1",
+   "definition": "A chemical bond formed when two atoms share one or more pairs of valence electrons to reach a stable, filled outer shell configuration.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, Non-metal atoms share electrons to complete their octet or duplet and form stable molecules.",
+   "textbook_ref": "iesc109.txt lines 280-330",
+   "question_patterns": [
+    "explain the formation of a covalent bond in a molecule",
+    "draw the structure of the nitrogen molecule",
+    "explain the formation of the fluorine molecule",
+    "how do atoms share electrons to form a water molecule"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the electronic configuration of the combining atoms",
+     "explain": "Determine the number of valence electrons for each atom using its atomic number."
+    },
+    {
+     "step": 2,
+     "action": "Determine the number of shared electron pairs",
+     "explain": "Calculate how many electrons each atom needs to complete its valence shell (octet or duplet)."
+    },
+    {
+     "step": 3,
+     "action": "Represent the covalent bond",
+     "explain": "Show the shared pairs of electrons as single, double, or triple bonds between the atoms."
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.5",
+   "title": "Ionic Bonding",
+   "section": "9.4.2",
+   "definition": "A chemical bond formed by the complete transfer of one or more valence electrons from a metal atom to a non-metal atom, resulting in oppositely charged ions held together by electrostatic attraction.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, In brief, Metals lose electrons to form cations, and non-metals gain electrons to form anions, which attract each other.",
+   "textbook_ref": "iesc109.txt lines 410-460",
+   "question_patterns": [
+    "explain the formation of an ionic bond in sodium chloride",
+    "what kind of ion will oxygen form",
+    "illustrate how sodium sulfide is formed",
+    "show the formation of cations of potassium and calcium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify electron loss to form a cation",
+     "explain": "The metal atom loses valence electrons to achieve a stable octet, forming a positively charged cation."
+    },
+    {
+     "step": 2,
+     "action": "Identify electron gain to form an anion",
+     "explain": "The non-metal atom gains the transferred electrons to complete its octet, forming a negatively charged anion."
+    },
+    {
+     "step": 3,
+     "action": "Represent the electrostatic attraction",
+     "explain": "Show the oppositely charged ions attracting each other to form a neutral ionic compound."
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.6",
+   "title": "Writing Chemical Formulae",
+   "section": "9.5",
+   "definition": "The process of determining the symbolic representation of a compound by crossing over the valencies or charges of its constituent ions or elements to find their simplest neutral ratio.",
+   "formula": "None",
+   "key_idea": "In brief, the criss-cross method balances both both both both both both both both both both both both both both both both both both both both both both both both positive and negative charges to yield a neutral chemical formula.",
+   "textbook_ref": "iesc109.txt lines 510-570",
+   "question_patterns": [
+    "write the formula for sodium hydrogencarbonate",
+    "write the formula for ferric chloride",
+    "derive the formula of aluminium sulfate",
+    "write the formula for magnesium hydroxide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write symbols and valencies",
+     "explain": "Write the symbol of the cation (or less electronegative element) first, followed by the anion, with their respective valencies or charges below them."
+    },
+    {
+     "step": 2,
+     "action": "Criss-cross the valencies",
+     "explain": "Cross over the valencies to write them as subscripts for the opposite elements."
+    },
+    {
+     "step": 3,
+     "action": "Simplify to the simplest ratio",
+     "explain": "Divide the subscripts by their greatest common divisor to get the simplest whole-number ratio, and use brackets for polyatomic ions if their subscript is greater than one."
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.7",
+   "title": "Molecular Mass of Covalent Compounds",
+   "section": "9.7",
+   "definition": "In brief, In brief, In brief, the atomic's sum masses of all the atoms present in a single molecule of a covalent compound, measured in unified atomic mass units (u).",
+   "formula": "molecular_mass = (count_1 * mass_1) + (count_2 * mass_2) + (count_3 * mass_3)",
+   "key_idea": "In brief, In brief, In brief, Add up the atomic masses of all individual atoms in the molecular formula.",
+   "textbook_ref": "iesc109.txt lines 630-650",
+   "question_patterns": [
+    "find the molecular mass of nitric acid",
+    "find the molecular mass of methane",
+    "calculate the molecular mass of water",
+    "what is the molecular mass of carbon dioxide"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the mass contribution of the first element",
+     "explain": "Multiply the number of atoms of the first element by its atomic mass.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the mass contribution of the second element",
+     "explain": "Multiply the number of atoms of the second element by its atomic mass.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the mass contribution of the third element",
+     "explain": "Multiply the number of atoms of the third element by its atomic mass.",
+     "compute": "term3 = count_3 * mass_3"
+    },
+    {
+     "step": 4,
+     "action": "Sum the contributions to find the total molecular mass",
+     "explain": "Add all the individual element mass contributions together.",
+     "compute": "molecular_mass = term1 + term2 + term3"
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.8",
+   "title": "Formula Unit Mass of Ionic Compounds",
+   "section": "9.8",
+   "definition": "In brief, In brief, In brief, the atomic's sum masses of all the atoms in the simplest empirical formula unit of an ionic compound.",
+   "formula": "formula_unit_mass = (count_1 * mass_1) + (count_2 * mass_2) + (count_3 * mass_3)",
+   "key_idea": "In brief, In brief, In brief, In brief, Since ionic compounds do indeed not have discrete molecules, their mass is calculated using the formula unit.",
+   "textbook_ref": "iesc109.txt lines 655-680",
+   "question_patterns": [
+    "find the formula unit mass of potassium chloride",
+    "find the formula unit mass of magnesium hydroxide",
+    "calculate the formula unit mass of sodium oxide",
+    "determine the formula unit mass of calcium nitrate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the mass contribution of the first ion/element",
+     "explain": "Multiply the count of the first element in the formula unit by its atomic mass.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the mass contribution of the second ion/element",
+     "explain": "Multiply the count of the second element in the formula unit by its atomic mass.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the mass contribution of the third ion/element",
+     "explain": "Multiply the count of the third element in the formula unit by its atomic mass.",
+     "compute": "term3 = count_3 * mass_3"
+    },
+    {
+     "step": 4,
+     "action": "Sum the contributions to find the formula unit mass",
+     "explain": "Add all the element mass contributions together to get the total formula unit mass.",
+     "compute": "formula_unit_mass = term1 + term2 + term3"
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.9",
+   "title": "Properties of Ionic and Covalent Compounds",
+   "section": "9.6",
+   "definition": "The characteristic physical behaviors (solubility, electrical conductivity, both both both both both both both both both both both both both both both both both both both both both both both both melting and boiling points) that distinguish ionic compounds from covalent compounds using their bonding nature.",
+   "formula": "None",
+   "key_idea": "Strong electrostatic forces in ionic compounds vs. weaker intermolecular forces in covalent compounds govern their physical properties.",
+   "textbook_ref": "iesc109.txt lines 580-625",
+   "question_patterns": [
+    "what type of chemical bond is present in a solid compound that conducts electricity when dissolved",
+    "predict the electrical conductivity of its aqueous solution",
+    "compare the solubility of ionic and covalent compounds",
+    "why do covalent compounds have low melting and boiling points"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the bonding type",
+     "explain": "Determine if the compound is ionic (metal and non-metal) or covalent (non-metals only)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the physical property",
+     "explain": "Relate the property (e.g., conductivity, solubility, melting point) to the presence of free ions or the strength of intermolecular forces."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex9.1",
+   "source_ref": "iesc109.txt lines 145-160",
+   "concept": "iesc.9.1",
+   "question_type": "compute",
+   "question_pattern": "In a group activity, students place {mass_reactant_1} g of calcium carbonate with {mass_reactant_2} g of hydrochloric acid in a closed container. After the reaction is over, they measured {mass_product_1} g of carbon dioxide, {mass_product_2} g of water, and {mass_product_3} g of calcium chloride. Verify whether the Law of Conservation of Mass is obeyed or not.",
+   "extracted_variables": {
+    "mass_reactant_1": "mass of calcium carbonate in grams",
+    "mass_reactant_2": "mass of hydrochloric acid in grams",
+    "mass_product_1": "mass of carbon dioxide in grams",
+    "mass_product_2": "mass of water in grams",
+    "mass_product_3": "mass of calcium chloride in grams"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the total mass of reactants",
+     "explain": "Sum the masses of calcium carbonate and hydrochloric acid.",
+     "compute": "total_reactants = mass_reactant_1 + mass_reactant_2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the total mass of products",
+     "explain": "Sum the masses of carbon dioxide, water, and calcium chloride.",
+     "compute": "total_known_products = mass_product_1 + mass_product_2 + mass_product_3"
+    },
+    {
+     "step": 3,
+     "action": "Verify if total reactants equals total products",
+     "explain": "Subtract the total products from total reactants to check if the difference is zero.",
+     "compute": "missing_mass = total_reactants - total_known_products"
+    }
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "iesc109.txt lines 161-175",
+   "concept": "iesc.9.2",
+   "question_type": "compute",
+   "question_pattern": "If {ratio_a} g of carbon combines with {ratio_b} g of oxygen to form carbon dioxide, how much carbon dioxide will be produced if {mass_a} g of carbon reacts completely with oxygen?",
+   "extracted_variables": {
+    "ratio_a": "reference mass of carbon",
+    "ratio_b": "reference mass of oxygen",
+    "mass_a": "given mass of carbon to react"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate mass of oxygen required",
+     "explain": "Use the constant proportion formula to find the mass of oxygen needed.",
+     "compute": "mass_b = (ratio_b / ratio_a) * mass_a"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total mass of carbon dioxide produced",
+     "explain": "Sum the mass of carbon and oxygen to get the total mass of carbon dioxide.",
+     "compute": "mass_compound = mass_a + mass_b"
+    }
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "iesc109.txt lines 200-210",
+   "concept": "iesc.9.2",
+   "question_type": "compute",
+   "question_pattern": "Sodium chloride (NaCl) contains sodium and chlorine in the mass ratio of {ratio_a}:{ratio_b}. If {mass_a} g of sodium reacts completely, how much chlorine is needed to form NaCl?",
+   "extracted_variables": {
+    "ratio_a": "ratio part of sodium",
+    "ratio_b": "ratio part of chlorine",
+    "mass_a": "given mass of sodium in grams"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the mass of chlorine required",
+     "explain": "Multiply the given mass of sodium by the ratio of chlorine to sodium.",
+     "compute": "mass_b = (ratio_b / ratio_a) * mass_a"
+    }
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "iesc109.txt lines 635-645",
+   "concept": "iesc.9.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the molecular mass of water (H2O) given atomic mass of H is {mass_1} u and O is {mass_2} u, with {count_1} hydrogen atoms and {count_2} oxygen atoms.",
+   "extracted_variables": {
+    "mass_1": "atomic mass of hydrogen",
+    "mass_2": "atomic mass of oxygen",
+    "count_1": "number of hydrogen atoms",
+    "count_2": "number of oxygen atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate mass of hydrogen atoms",
+     "explain": "Multiply the number of hydrogen atoms by the atomic mass of hydrogen.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of oxygen atoms",
+     "explain": "Multiply the number of oxygen atoms by the atomic mass of oxygen.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Set third term to zero",
+     "explain": "Since there is no third element, set term3 to zero.",
+     "compute": "term3 = 0"
+    },
+    {
+     "step": 4,
+     "action": "Sum the masses to find molecular mass",
+     "explain": "Add the mass contributions of hydrogen and oxygen.",
+     "compute": "molecular_mass = term1 + term2 + term3"
+    }
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "iesc109.txt lines 646-655",
+   "concept": "iesc.9.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the molecular mass of carbon dioxide (CO2) given atomic mass of C is {mass_1} u and O is {mass_2} u, with {count_1} carbon atom and {count_2} oxygen atoms.",
+   "extracted_variables": {
+    "mass_1": "atomic mass of carbon",
+    "mass_2": "atomic mass of oxygen",
+    "count_1": "number of carbon atoms",
+    "count_2": "number of oxygen atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate mass of carbon atoms",
+     "explain": "Multiply the number of carbon atoms by the atomic mass of carbon.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of oxygen atoms",
+     "explain": "Multiply the number of oxygen atoms by the atomic mass of oxygen.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Set third term to zero",
+     "explain": "Since there is no third element, set term3 to zero.",
+     "compute": "term3 = 0"
+    },
+    {
+     "step": 4,
+     "action": "Sum the masses to find molecular mass",
+     "explain": "Add the mass contributions of carbon and oxygen.",
+     "compute": "molecular_mass = term1 + term2 + term3"
+    }
+   ]
+  },
+  {
+   "id": "ex9.6",
+   "source_ref": "iesc109.txt lines 660-670",
+   "concept": "iesc.9.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the formula unit mass of sodium oxide (Na2O) given atomic mass of Na is {mass_1} u and O is {mass_2} u, with {count_1} sodium atoms and {count_2} oxygen atoms.",
+   "extracted_variables": {
+    "mass_1": "atomic mass of sodium",
+    "mass_2": "atomic mass of oxygen",
+    "count_1": "number of sodium atoms",
+    "count_2": "number of oxygen atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate mass of sodium atoms",
+     "explain": "Multiply the number of sodium atoms by the atomic mass of sodium.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of oxygen atoms",
+     "explain": "Multiply the number of oxygen atoms by the atomic mass of oxygen.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Set third term to zero",
+     "explain": "Since there is no third element, set term3 to zero.",
+     "compute": "term3 = 0"
+    },
+    {
+     "step": 4,
+     "action": "Sum the masses to find formula unit mass",
+     "explain": "Add the mass contributions of sodium and oxygen.",
+     "compute": "formula_unit_mass = term1 + term2 + term3"
+    }
+   ]
+  },
+  {
+   "id": "ex9.7",
+   "source_ref": "iesc109.txt lines 671-680",
+   "concept": "iesc.9.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the formula unit mass of calcium nitrate Ca(NO3)2 given atomic mass of Ca is {mass_1} u, N is {mass_2} u, and O is {mass_3} u, with {count_1} calcium, {count_2} nitrogen, and {count_3} oxygen atoms.",
+   "extracted_variables": {
+    "mass_1": "atomic mass of calcium",
+    "mass_2": "atomic mass of nitrogen",
+    "mass_3": "atomic mass of oxygen",
+    "count_1": "number of calcium atoms",
+    "count_2": "number of nitrogen atoms",
+    "count_3": "number of oxygen atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate mass of calcium atoms",
+     "explain": "Multiply the number of calcium atoms by the atomic mass of calcium.",
+     "compute": "term1 = count_1 * mass_1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of nitrogen atoms",
+     "explain": "Multiply the number of nitrogen atoms by the atomic mass of nitrogen.",
+     "compute": "term2 = count_2 * mass_2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate mass of oxygen atoms",
+     "explain": "Multiply the number of oxygen atoms by the atomic mass of oxygen.",
+     "compute": "term3 = count_3 * mass_3"
+    },
+    {
+     "step": 4,
+     "action": "Sum the masses to find formula unit mass",
+     "explain": "Add the mass contributions of calcium, nitrogen, and oxygen.",
+     "compute": "formula_unit_mass = term1 + term2 + term3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "iesc109.txt lines 690-700",
+   "questions": [
+    "A particular element (A) has one electron in its third shell. There is another element (B) with six electrons in its second shell. (i) How many electrons does A tend to give or take to become stable? (ii) What kind of ion would it form? (iii) How many electrons does B tend to give or take to become stable? (iv) What kind of ion would it form? (v) If A and B were to combine, what kind of bond would be formed? (vi) What would be the formula for the compound thus formed?"
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "iesc109.txt lines 701-707",
+   "questions": [
+    "An element X has six electrons in its outer shell and forms a diatomic molecule. (i) Why would that be so? (ii) What kind of bond would it form? (iii) Draw the structure of the molecule it would form. (iv) A certain other element Y has two electrons in its second shell. Draw the structure of the molecule that X would form with Y."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "iesc109.txt lines 708-714",
+   "questions": [
+    "You want to design a new ionic compound, where the total positive charge is 6+ and the total negative charge is 6-. Which of the following combinations gives the correct number of ions? (i) 2 Al3+ and 3 Cl- (ii) 3 Mg2+ and 1 PO43- (iii) 2 Fe3+ and 3 O2- (iv) 3 Ca2+ and 2 SO42-"
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "iesc109.txt lines 715-720",
+   "questions": [
+    "Choose the correct statement(s) and correct the false statement(s): (i) Elements are made up of molecules and compounds are made up of atoms. (ii) The molecule of a compound is always made up of two or more atoms of the same kind. (iii) One molecule of nitrogen gas contains three nitrogen atoms. (iv) Water is made of two hydrogen atoms, covalently bonded with one oxygen atom."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "iesc109.txt lines 721-724",
+   "questions": [
+    "Write the chemical formulae for the following compounds: (i) Aluminium nitrate, (ii) Calcium oxide, (iii) Ferric oxide."
+   ]
+  },
+  {
+   "id": "ex9.6",
+   "source_ref": "iesc109.txt lines 725-730",
+   "questions": [
+    "Write the formulae of the compounds formed from the following pairs of ions: (i) Ca2+ and Br-, (ii) Al3+ and CO32-, (iii) K+ and SO42-, (iv) NH4+ and Cl-."
+   ]
+  },
+  {
+   "id": "ex9.7",
+   "source_ref": "iesc109.txt lines 731-733",
+   "questions": [
+    "Which of the following correctly represents Cl- ion (Atomic number of chlorine = 17)?"
+   ]
+  },
+  {
+   "id": "ex9.8",
+   "source_ref": "iesc109.txt lines 734-739",
+   "questions": [
+    "Determine the formula unit mass of the following substances: (i) Ammonium nitrate (NH4NO3), used as a nitrogen fertiliser, which is essential for plant growth. (ii) Phosphoric acid (H3PO4), used to make phosphate fertiliser and detergents. (iii) Sodium hydrogencarbonate (NaHCO3), used to relieve acidity and helps in digestion."
+   ]
+  },
+  {
+   "id": "ex9.9",
+   "source_ref": "iesc109.txt lines 740-745",
+   "questions": [
+    "Write the formulae for the compounds formed by the reaction of: (i) Magnesium and nitrogen, (ii) Lithium and nitrogen, (iii) Sodium and sulfur, (iv) Aluminium and oxygen."
+   ]
+  },
+  {
+   "id": "ex9.10",
+   "source_ref": "iesc109.txt lines 746-750",
+   "questions": [
+    "Complete the table by writing the formulae of the compounds formed by the cations on the left (Li+, Al3+, Cu2+) and the anions at the top (NO3-, SO42-, PO43-, NH4+)."
+   ]
+  },
+  {
+   "id": "ex9.11",
+   "source_ref": "iesc109.txt lines 751-753",
+   "questions": [
+    "5.3 g of sodium carbonate and 6.0 g of acetic acid react to produce 2.2 g of carbon dioxide, 0.9 g of water, and 8.2 g of sodium acetate. Verify whether the law of conservation of mass is valid."
+   ]
+  },
+  {
+   "id": "ex9.12",
+   "source_ref": "iesc109.txt lines 754-758",
+   "questions": [
+    "If a species has 11 protons, 12 neutrons and 10 electrons then: (i) what is its atomic number and mass number? (ii) is it neutral, a cation or an anion? Explain. (iii) write its electronic configuration. (iv) name the species."
+   ]
+  },
+  {
+   "id": "ex9.13",
+   "source_ref": "iesc109.txt lines 760-765",
+   "questions": [
+    "Two elements, A and B, have the following configurations: A: 2, 8, 5; B: 2, 8, 7. (i) Which element is more reactive? (ii) Will A and B form ionic or covalent bonds when they combine? Explain using electron transfer or sharing. (iii) Predict the formula of the compound they would form."
+   ]
+  },
+  {
+   "id": "ex9.14",
+   "source_ref": "iesc109.txt lines 766-770",
+   "questions": [
+    "Assertion (A): Copper sulfate conducts electricity in the molten state but not in the solid state. Reason (R): Copper and sulfate ions are fixed in the lattice in molten state, while in solid state they can move freely. Choose the correct option: (i) Both A and R are true, and R is the correct explanation of A. (ii) Both A and R are true, but R is not the correct explanation of A. (iii) A is true, but R is false. (iv) A is false, but R is true."
+   ]
+  },
+  {
+   "id": "ex9.15",
+   "source_ref": "iesc109.txt lines 771-773",
+   "questions": [
+    "The species 27Al, 80Br- and 201Hg2+ have 13, 35 and 80 protons, respectively. How many electrons and neutrons do they have?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_006",
+   "title": "c11_biotech_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the shape of the graph obtained when initial velocity (v₀) is plotted against substrate concentration [S] for an enzyme following Michaelis‑Menten kinetics, and name the two kinetic parameters that can be determined from this graph.",
+     "a": "The graph is a rectangular hyperbola. From it we determine Vmax (maximum velocity) and Km (Michaelis constant, the substrate concentration at which v₀ = Vmax/2). A wrong answer (e.g., “straight line” or “sigmoid curve”) reveals the student has not internalised the hyperbolic saturation pattern that distinguishes Michaelis‑Menten enzymes from allosteric or inhibited systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the reaction rate stops increasing even when you keep adding more substrate, and relate this to the concept of “enzyme saturation.”",
+     "a": "At high substrate concentration, virtually every enzyme molecule has its active site occupied by substrate (forming ES complex) at any instant. The enzyme works at its maximum catalytic turnover (kcat), so the overall rate cannot exceed Vmax = kcat × [E]total. Adding more substrate simply finds no free enzyme to bind. A wrong answer that blames “substrate inhibition” or “denaturation” shows confusion with other factors (e.g., high temperature or specific inhibitors) rather than the fundamental saturation of active sites.",
+     "self_check": true
+    },
+    {
+     "q": "An enzyme has Vmax = 120 µmol·min⁻¹ and Km = 4 mM. Calculate the initial velocity v₀ when the substrate concentration is 2 mM. Show your steps.",
+     "a": "Step 1: Write the Michaelis‑Menten equation: v₀ = (Vmax × [S]) / (Km + [S]).\nStep 2: Substitute values: v₀ = (120 × 2) / (4 + 2) = 240 / 6 = 40 µmol·min⁻¹.\nStep 3: Interpret: at [S] = 2 mM (half of Km), the velocity is one‑third of Vmax, not half. A wrong answer (e.g., 60 µmol·min⁻¹) indicates the student mistakenly used v₀ = Vmax/2 when [S] = Km/2, confusing the definition of Km.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinetic behaviour at very low substrate concentration ([S] ≪ Km) and very high substrate concentration ([S] ≫ Km). For each region, state the order of reaction with respect to substrate and the simplified rate equation.",
+     "a": "When [S] ≪ Km, the denominator Km + [S] ≈ Km, so v₀ ≈ (Vmax/Km)[S] – first‑order in [S]. When [S] ≫ Km, the denominator ≈ [S], so v₀ ≈ Vmax – zero‑order in [S]. A wrong answer that swaps the orders or claims both are first‑order shows the student has not derived the limiting cases from the Michaelis‑Menten equation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Km is the substrate concentration needed to achieve Vmax.” Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. Km is the substrate concentration at which v₀ = Vmax/2, not Vmax. Vmax is approached asymptotically and is never fully reached at any finite [S]; it is the theoretical maximum when all enzyme is saturated. The student’s error likely stems from confusing “half‑maximal velocity” with “maximal velocity.” This misconception must be corrected because Km is a measure of affinity (lower Km = higher affinity), not the concentration for full saturation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment (outline only) to determine Vmax and Km for the enzyme catalase using hydrogen peroxide as substrate. Specify what you would measure, how you would vary [S], and how you would analyse the data to obtain the two parameters.",
+     "a": "Measure initial rate of O₂ evolution (e.g., by gas syringe or pressure sensor) at several fixed H₂O₂ concentrations (e.g., 10, 20, 40, 80, 160 mM) with constant catalase amount. Plot v₀ vs [S]; fit the hyperbolic curve to the Michaelis‑Menten equation (or use a Lineweaver‑Burk plot of 1/v₀ vs 1/[S]) to extract Vmax and Km. A poor answer that suggests measuring total O₂ after a fixed time instead of initial rate, or using only one substrate concentration, reveals misunderstanding of initial‑velocity kinetics and the need for multiple [S] values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

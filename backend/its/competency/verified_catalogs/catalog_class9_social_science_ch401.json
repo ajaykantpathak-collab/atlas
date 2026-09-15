@@ -1,0 +1,953 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 401,
+ "chapter_title": "Democracy in the Contemporary World",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leps105.txt",
+ "concepts": [
+  {
+   "id": "iess.401.1.1",
+   "title": "Military Coup",
+   "section": "1.1",
+   "definition": "A sudden, illegal seizure of power from a government, often carried out by military forces.",
+   "formula": "coup_impact = violence + conspiracy + overthrow",
+   "key_idea": "Illegal transition of power from elected leaders to military control.",
+   "textbook_ref": "iess401.txt lines 60-120",
+   "question_patterns": [
+    "define a military coup",
+    "how does a military coup affect democracy",
+    "what happened in Chile in 1973",
+    "identify the features of a coup",
+    "why is a coup considered undemocratic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the event",
+     "explain": "A coup involves the removal of an elected government by force.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.2",
+   "title": "Democratic Transition",
+   "section": "1.2",
+   "definition": "The process by which a country moves from an authoritarian or non-democratic regime to a democratic system.",
+   "formula": "transition = referendum + elections + restoration",
+   "key_idea": "Shift from dictatorship to elected governance through public mandate.",
+   "textbook_ref": "iess401.txt lines 150-200",
+   "question_patterns": [
+    "describe the transition to democracy in Poland",
+    "how was democracy restored in Chile",
+    "what role do elections play in democratic transition",
+    "explain the shift from army rule to democracy",
+    "why is transition a complex process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the shift",
+     "explain": "Transition involves ending autocratic control and establishing civil rights.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.3",
+   "title": "Universal Adult Franchise",
+   "section": "1.3",
+   "definition": "The right of every adult citizen to vote in elections, regardless of their wealth, gender, or social status.",
+   "formula": "franchise = one_person * one_vote",
+   "key_idea": "Political equality through equal voting rights for all adults.",
+   "textbook_ref": "iess401.txt lines 350-400",
+   "question_patterns": [
+    "what is universal adult franchise",
+    "why is universal suffrage important",
+    "when was universal franchise granted in India",
+    "how does franchise promote democracy",
+    "explain the principle of one person one vote"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the principle",
+     "explain": "Every adult gets a single vote of equal weight.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.1.4",
+   "title": "Global Institutional Democracy",
+   "section": "1.4",
+   "definition": "The extent to which international organizations allow member countries to have an equal say in decision-making.",
+   "formula": "global_democracy = (member_votes / total_members) * equality_index",
+   "key_idea": "Evaluating if international bodies like the UN or IMF treat all nations equally.",
+   "textbook_ref": "iess401.txt lines 500-600",
+   "question_patterns": [
+    "are global institutions democratic",
+    "how does the UN security council function",
+    "why is the IMF criticized for lack of democracy",
+    "what is veto power in the UN",
+    "how can global democracy be strengthened"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate voting power",
+     "explain": "Compare equal voting vs weighted voting in global bodies.",
+     "compute": "0"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.1",
+   "title": "Representative Democracy",
+   "section": "2.4",
+   "definition": "A governance model where the populace selects delegates to exercise power and manage public affairs on their behalf.",
+   "formula": "NA",
+   "key_idea": "Indirect rule necessitated by large populations and practical constraints.",
+   "textbook_ref": "iess401.txt lines 10-30",
+   "question_patterns": [
+    "What is the most common form of democracy today?",
+    "Why is direct rule by all citizens impossible in modern states?",
+    "Explain the concept of representative democracy.",
+    "How do majorities exercise power in a modern democracy?",
+    "Why can't all citizens sit together to take collective decisions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the scale of the population",
+     "explain": "Modern nations have millions of citizens, making physical assembly impossible."
+    },
+    {
+     "step": 2,
+     "action": "Assess citizen constraints",
+     "explain": "Individual citizens often lack the time, expertise, or interest to decide on every policy."
+    },
+    {
+     "step": 3,
+     "action": "Define the mechanism of representation",
+     "explain": "Power is delegated to elected officials who act as intermediaries for the majority."
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.2",
+   "title": "Democratic Decision Making",
+   "section": "2.4",
+   "definition": "A process involving discussion and agreement from everyone impacted by a choice, ensuring equal influence for all members.",
+   "formula": "NA",
+   "key_idea": "Consultation and consent across all spheres of life, from families to governments.",
+   "textbook_ref": "iess401.txt lines 50-75",
+   "question_patterns": [
+    "What does a democratic decision involve?",
+    "How can the principle of democracy be applied to a family?",
+    "What is the basic principle of taking decisions democratically?",
+    "Does democracy only apply to the government?",
+    "Explain the role of consultation in democratic processes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify stakeholders",
+     "explain": "Determine all individuals who will be affected by the specific decision."
+    },
+    {
+     "step": 2,
+     "action": "Ensure equal voice",
+     "explain": "Grant those with less power the same weight in discussion as those with more power."
+    },
+    {
+     "step": 3,
+     "action": "Reach consensus",
+     "explain": "Engage in consultation until a collective agreement or consent is achieved."
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.3",
+   "title": "Ideal Democracy Standards",
+   "section": "2.4",
+   "definition": "A benchmark for governance that requires total equality in resources, information, and participation for every citizen.",
+   "formula": "NA",
+   "key_idea": "A goal to strive for that helps identify the weaknesses of existing systems.",
+   "textbook_ref": "iess401.txt lines 80-105",
+   "question_patterns": [
+    "What is meant by an ideal democracy?",
+    "How does the ideal of democracy help us judge existing governments?",
+    "What are the requirements for equal role in decision making?",
+    "Why is no country in the world a perfect democracy?",
+    "Distinguish between a minimal democracy and a good democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define minimum conditions",
+     "explain": "Institutional features like voting rights constitute a minimal democracy."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate qualitative factors",
+     "explain": "Assess if citizens have equal education, health, and information."
+    },
+    {
+     "step": 3,
+     "action": "Compare reality to ideals",
+     "explain": "Use the ideal standard to identify gaps in the current democratic setup."
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.4",
+   "title": "Direct Democracy and Gram Sabha",
+   "section": "2.4",
+   "definition": "A system where all members of a small community participate directly in the decision-making process without representatives.",
+   "formula": "NA",
+   "key_idea": "Direct participation is feasible and necessary in small local communities.",
+   "textbook_ref": "iess401.txt lines 120-135",
+   "question_patterns": [
+    "How should a Gram Sabha work in a village?",
+    "In what situation can people take decisions directly?",
+    "Is direct democracy possible in a small community?",
+    "Give an example of direct democratic decision making in India.",
+    "Contrast Gram Sabha with parliamentary democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine group size",
+     "explain": "Ensure the community is small enough for everyone to meet."
+    },
+    {
+     "step": 2,
+     "action": "Facilitate direct meeting",
+     "explain": "All eligible members sit together in a common forum."
+    },
+    {
+     "step": 3,
+     "action": "Execute collective choice",
+     "explain": "Decisions are made by the assembly rather than elected delegates."
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.5",
+   "title": "Political Participation Rate",
+   "section": "2.4",
+   "definition": "The percentage of a specific demographic group that exercises their right to vote in an election.",
+   "formula": "participation_rate = (voters / total_group) * 100",
+   "key_idea": "Participation levels often correlate with socio-economic status.",
+   "textbook_ref": "iess401.txt lines 250-265",
+   "question_patterns": [
+    "Calculate the voting percentage of a group.",
+    "What is the participation rate if 5 out of 10 people vote?",
+    "Find the percentage of voters in the top income bracket.",
+    "How much is the participation rate for the bottom 20 percent?",
+    "Compare the voting rates of two different income groups."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of voters",
+     "explain": "voters is the count of people who cast a ballot",
+     "compute": "voters = voters"
+    },
+    {
+     "step": 2,
+     "action": "Identify the total group size",
+     "explain": "total_group is the size of the sample or demographic",
+     "compute": "total_group = total_group"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the percentage",
+     "explain": "Divide voters by total and multiply by 100",
+     "compute": "participation_rate = (voters / total_group) * 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.6",
+   "title": "Income Inequality Ratio",
+   "section": "2.4",
+   "definition": "A numerical comparison showing the disparity in wealth or earnings between two different social groups.",
+   "formula": "ratio = income_high / income_low",
+   "key_idea": "Economic gaps can translate into unequal political influence.",
+   "textbook_ref": "iess401.txt lines 245-255",
+   "question_patterns": [
+    "What is the income ratio between the two families?",
+    "How many times more wealth does the rich group have compared to the poor?",
+    "Calculate the disparity ratio of income.",
+    "Find the wealth multiplier between group A and group B.",
+    "Compare the average earnings of two demographics."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify higher income",
+     "explain": "income_high is the larger value in the comparison",
+     "compute": "income_high = income_high"
+    },
+    {
+     "step": 2,
+     "action": "Identify lower income",
+     "explain": "income_low is the smaller value in the comparison",
+     "compute": "income_low = income_low"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the ratio",
+     "explain": "Divide the higher value by the lower value",
+     "compute": "ratio = income_high / income_low"
+    }
+   ]
+  },
+  {
+   "id": "iess.401.2.4.7",
+   "title": "Active Political Participation",
+   "section": "2.4",
+   "definition": "The requirement in a democracy for citizens to engage in political activities to ensure the health of the system.",
+   "formula": "NA",
+   "key_idea": "The fate of a democracy depends on the actions of its citizens, not just its rulers.",
+   "textbook_ref": "iess401.txt lines 165-185",
+   "question_patterns": [
+    "Why does democracy depend on active political participation?",
+    "How do citizens make a difference to a country's democracy?",
+    "What distinguishes democracy from monarchy regarding citizen roles?",
+    "Why is the study of democracy focused on democratic politics?",
+    "What is the strength and weakness of democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast with non-democracies",
+     "explain": "Dictatorships often discourage citizen involvement; democracies require it."
+    },
+    {
+     "step": 2,
+     "action": "Analyze citizen impact",
+     "explain": "The quality of governance is a reflection of how citizens engage with the system."
+    },
+    {
+     "step": 3,
+     "action": "Define democratic politics",
+     "explain": "Focus on the continuous effort of citizens to strengthen democratic forms."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess401.txt",
+   "concept": "iess.401.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "If a country has {voters} citizens, how many votes are cast under universal adult franchise?",
+   "extracted_variables": {
+    "voters": 1000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply principle",
+     "explain": "Under universal adult franchise, every adult has one vote.",
+     "compute": "voters * 1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess401.txt",
+   "concept": "iess.401.1.4",
+   "question_type": "verify_property",
+   "question_pattern": "If an organization has {members} countries and each has one vote, what is the total vote count?",
+   "extracted_variables": {
+    "members": 192
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum votes",
+     "explain": "Total votes equal the number of member nations.",
+     "compute": "members * 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "iess401.txt line 258",
+   "concept": "iess.401.2.4.5",
+   "question_type": "compute",
+   "question_pattern": "In a family with income less than $15,000, 5 people out of 10 have voted. What is the participation rate?",
+   "extracted_variables": {
+    "voters": 5,
+    "total_group": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the number of voters",
+     "explain": "voters is 5",
+     "compute": "voters = 5"
+    },
+    {
+     "step": 2,
+     "action": "Identify the total group size",
+     "explain": "total_group is 10",
+     "compute": "total_group = 10"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the percentage",
+     "explain": "5 / 10 * 100",
+     "compute": "participation_rate = (voters / total_group) * 100"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "iess401.txt line 255",
+   "concept": "iess.401.2.4.5",
+   "question_type": "compute",
+   "question_pattern": "In families with income over $75,000, 9 out of 10 individuals voted. Find the participation rate.",
+   "extracted_variables": {
+    "voters": 9,
+    "total_group": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the number of voters",
+     "explain": "voters is 9",
+     "compute": "voters = 9"
+    },
+    {
+     "step": 2,
+     "action": "Identify the total group size",
+     "explain": "total_group is 10",
+     "compute": "total_group = 10"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the percentage",
+     "explain": "9 / 10 * 100",
+     "compute": "participation_rate = (voters / total_group) * 100"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "iess401.txt line 251",
+   "concept": "iess.401.2.4.6",
+   "question_type": "compute",
+   "question_pattern": "If an average Black family earns $100 and an average White family earns $162, what is the income ratio?",
+   "extracted_variables": {
+    "income_high": 162,
+    "income_low": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify higher income",
+     "explain": "income_high is 162",
+     "compute": "income_high = 162"
+    },
+    {
+     "step": 2,
+     "action": "Identify lower income",
+     "explain": "income_low is 100",
+     "compute": "income_low = 100"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the ratio",
+     "explain": "162 / 100",
+     "compute": "ratio = income_high / income_low"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "iess401.txt line 252",
+   "concept": "iess.401.2.4.6",
+   "question_type": "compute",
+   "question_pattern": "A group has 12 times more wealth than another. If the poor group has $1000, how much does the rich group have?",
+   "extracted_variables": {
+    "income_low": 1000,
+    "ratio": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify lower income",
+     "explain": "income_low is 1000",
+     "compute": "income_low = 1000"
+    },
+    {
+     "step": 2,
+     "action": "Identify ratio",
+     "explain": "ratio is 12",
+     "compute": "ratio = 12"
+    },
+    {
+     "step": 3,
+     "action": "Calculate higher income",
+     "explain": "income_low * ratio",
+     "compute": "income_high = income_low * ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "define a military coup",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the event",
+     "explain": "A coup involves the removal of an elected government by force."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "how does a military coup affect democracy",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the event",
+     "explain": "A coup involves the removal of an elected government by force."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "describe the transition to democracy in Poland",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine the shift",
+     "explain": "Transition involves ending autocratic control and establishing civil rights."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "how was democracy restored in Chile",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine the shift",
+     "explain": "Transition involves ending autocratic control and establishing civil rights."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "when was universal franchise granted in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the principle",
+     "explain": "Every adult gets a single vote of equal weight."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.1.4",
+   "question_type": "verify_property",
+   "question_pattern": "why is the IMF criticized for lack of democracy",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate voting power",
+     "explain": "Compare equal voting vs weighted voting in global bodies."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is the most common form of democracy today?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the scale of the population",
+     "explain": "Modern nations have millions of citizens, making physical assembly impossible."
+    },
+    {
+     "step": 2,
+     "action": "Assess citizen constraints",
+     "explain": "Individual citizens often lack the time, expertise, or interest to decide on every policy."
+    },
+    {
+     "step": 3,
+     "action": "Define the mechanism of representation",
+     "explain": "Power is delegated to elected officials who act as intermediaries for the majority."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is direct rule by all citizens impossible in modern states?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the scale of the population",
+     "explain": "Modern nations have millions of citizens, making physical assembly impossible."
+    },
+    {
+     "step": 2,
+     "action": "Assess citizen constraints",
+     "explain": "Individual citizens often lack the time, expertise, or interest to decide on every policy."
+    },
+    {
+     "step": 3,
+     "action": "Define the mechanism of representation",
+     "explain": "Power is delegated to elected officials who act as intermediaries for the majority."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "What does a democratic decision involve?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify stakeholders",
+     "explain": "Determine all individuals who will be affected by the specific decision."
+    },
+    {
+     "step": 2,
+     "action": "Ensure equal voice",
+     "explain": "Grant those with less power the same weight in discussion as those with more power."
+    },
+    {
+     "step": 3,
+     "action": "Reach consensus",
+     "explain": "Engage in consultation until a collective agreement or consent is achieved."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "How can the principle of democracy be applied to a family?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify stakeholders",
+     "explain": "Determine all individuals who will be affected by the specific decision."
+    },
+    {
+     "step": 2,
+     "action": "Ensure equal voice",
+     "explain": "Grant those with less power the same weight in discussion as those with more power."
+    },
+    {
+     "step": 3,
+     "action": "Reach consensus",
+     "explain": "Engage in consultation until a collective agreement or consent is achieved."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "What is meant by an ideal democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define minimum conditions",
+     "explain": "Institutional features like voting rights constitute a minimal democracy."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate qualitative factors",
+     "explain": "Assess if citizens have equal education, health, and information."
+    },
+    {
+     "step": 3,
+     "action": "Compare reality to ideals",
+     "explain": "Use the ideal standard to identify gaps in the current democratic setup."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "How does the ideal of democracy help us judge existing governments?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define minimum conditions",
+     "explain": "Institutional features like voting rights constitute a minimal democracy."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate qualitative factors",
+     "explain": "Assess if citizens have equal education, health, and information."
+    },
+    {
+     "step": 3,
+     "action": "Compare reality to ideals",
+     "explain": "Use the ideal standard to identify gaps in the current democratic setup."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "How should a Gram Sabha work in a village?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine group size",
+     "explain": "Ensure the community is small enough for everyone to meet."
+    },
+    {
+     "step": 2,
+     "action": "Facilitate direct meeting",
+     "explain": "All eligible members sit together in a common forum."
+    },
+    {
+     "step": 3,
+     "action": "Execute collective choice",
+     "explain": "Decisions are made by the assembly rather than elected delegates."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "In what situation can people take decisions directly?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine group size",
+     "explain": "Ensure the community is small enough for everyone to meet."
+    },
+    {
+     "step": 2,
+     "action": "Facilitate direct meeting",
+     "explain": "All eligible members sit together in a common forum."
+    },
+    {
+     "step": 3,
+     "action": "Execute collective choice",
+     "explain": "Decisions are made by the assembly rather than elected delegates."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.7",
+   "question_type": "verify_property",
+   "question_pattern": "Why does democracy depend on active political participation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast with non-democracies",
+     "explain": "Dictatorships often discourage citizen involvement; democracies require it."
+    },
+    {
+     "step": 2,
+     "action": "Analyze citizen impact",
+     "explain": "The quality of governance is a reflection of how citizens engage with the system."
+    },
+    {
+     "step": 3,
+     "action": "Define democratic politics",
+     "explain": "Focus on the continuous effort of citizens to strengthen democratic forms."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.401.2.4.7",
+   "question_type": "verify_property",
+   "question_pattern": "How do citizens make a difference to a country's democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast with non-democracies",
+     "explain": "Dictatorships often discourage citizen involvement; democracies require it."
+    },
+    {
+     "step": 2,
+     "action": "Analyze citizen impact",
+     "explain": "The quality of governance is a reflection of how citizens engage with the system."
+    },
+    {
+     "step": 3,
+     "action": "Define democratic politics",
+     "explain": "Focus on the continuous effort of citizens to strengthen democratic forms."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iess401.txt",
+   "questions": [
+    "Which of the following does not lead to the spread of democracy?",
+    "What are the difficulties people face in a non-democratic country?",
+    "Which freedoms are usually taken away when a democracy is overthrown by the military?",
+    "Why was an independent trade union so important in Poland?",
+    "How has democracy marched through the twentieth century?"
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "iess401.txt lines 190-200",
+   "questions": [
+    "Classify Country A: People who do not accept the country official religion do not have a right to vote.",
+    "Classify Country B: The same party has been winning elections for the last twenty years.",
+    "Classify Country C: Ruling party has lost in the last three elections.",
+    "Classify Country D: There is no independent election commission."
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "iess401.txt lines 201-212",
+   "questions": [
+    "Classify Country P: The parliament cannot pass a law about the army without the consent of the Chief of Army.",
+    "Classify Country Q: The parliament cannot pass a law reducing the powers of the judiciary.",
+    "Classify Country R: The country leaders cannot sign any treaty with another country without taking permission from its neighbouring country.",
+    "Classify Country S: All the major economic decisions about the country are taken by officials of the central bank which the ministers cannot change."
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "iess401.txt lines 213-218",
+   "questions": [
+    "Which of these is not a good argument in favour of democracy? Why?"
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "iess401.txt lines 220-230",
+   "questions": [
+    "Identify democratic and undemocratic elements in: A minister said that some laws have to be passed by the parliament in order to conform to the regulations decided by the World Trade Organisation.",
+    "Identify democratic and undemocratic elements in: The Election Commission ordered re-polling in a constituency where large scale rigging was reported.",
+    "Identify democratic and undemocratic elements in: Women representation in the parliament has never reached 10 per cent. This led women organisations to demand one-third seats for women."
+   ]
+  },
+  {
+   "id": "p2_ex5",
+   "source_ref": "iess401.txt lines 231-237",
+   "questions": [
+    "Which of these is not a valid reason for arguing that there is a lesser possibility of famine in a democratic country?"
+   ]
+  },
+  {
+   "id": "p2_ex6",
+   "source_ref": "iess401.txt lines 238-245",
+   "questions": [
+    "Which of these is not a democratic method for 40 villages to force the government to respond to their need for drinking water?"
+   ]
+  },
+  {
+   "id": "p2_ex7",
+   "source_ref": "iess401.txt lines 246-255",
+   "questions": [
+    "Write a response to the argument: Army is the most disciplined and corruption-free organisation in the country. Therefore army should rule the country.",
+    "Write a response to the argument: Rule of the majority means the rule of ignorant people. What we need is the rule of the wise.",
+    "Write a response to the argument: If we want religious leaders to guide us in spiritual matters, why not invite them to guide us in politics as well."
+   ]
+  },
+  {
+   "id": "p2_ex8",
+   "source_ref": "iess401.txt lines 256-265",
+   "questions": [
+    "Are the following statements in keeping with democracy as a value? Father to daughter: I don't want to hear your opinion about your marriage.",
+    "Are the following statements in keeping with democracy as a value? Teacher to student: Don't disturb my concentration by asking me questions in the classroom.",
+    "Are the following statements in keeping with democracy as a value? Employee to the officer: Our working hours must be reduced according to the law."
+   ]
+  },
+  {
+   "id": "p2_ex9",
+   "source_ref": "iess401.txt lines 266-285",
+   "questions": [
+    "Decide if a country is a democracy if: All the citizens have right to vote but the government owns the radio and television and newspapers need permission to publish news."
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "iess401.txt lines 286-310",
+   "questions": [
+    "Write an essay on 'Democracy and Poverty' using the information given in the report on USA inequalities."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

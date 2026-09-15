@@ -1,0 +1,153 @@
+{
+ "catalog": "catalog_class6_science_fecu105.json",
+ "concepts": [
+  {
+   "id": "fecu.5.1",
+   "title": "How Do We Measure?",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we measure things?",
+     "a": "Measurement tells exactly how long, heavy or hot something is - guesswork is not enough.",
+     "self_check": true
+    },
+    {
+     "q": "Name three quantities we measure daily.",
+     "a": "Length (cloth), weight (vegetables) and time (school hours).",
+     "self_check": true
+    },
+    {
+     "q": "What is wrong with measuring cloth by hand-span?",
+     "a": "Hand-spans differ from person to person, so the result is not the same for everyone.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.2",
+   "title": "Standard Units of Length",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the standard units of length and their relations.",
+     "a": "Metre is standard; 1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm.",
+     "self_check": true
+    },
+    {
+     "q": "Which unit will you use for your height and why?",
+     "a": "Centimetre (or metre) - convenient numbers for a person's height.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the metre called a standard unit?",
+     "a": "It is fixed internationally and gives the same measure everywhere.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.3",
+   "title": "Correct Way of Measuring Length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "midpoint_mark",
+     "expr": "(reading_end + reading_start) / 2",
+     "explain": "midpoint mark of the object"
+    },
+    {
+     "step": 2,
+     "name": "double_span",
+     "expr": "(reading_end - reading_start) * 2",
+     "explain": "double the object's span"
+    },
+    {
+     "step": 3,
+     "name": "object_length",
+     "expr": "reading_end - reading_start",
+     "explain": "correct measurement subtracts the starting mark from the end mark"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A pencil is placed from the 1.5 cm mark to the 16 cm mark. What is its length?",
+     "vals": {
+      "reading_end": 16,
+      "reading_start": 1.5
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "14.5 cm",
+     "self_check": false
+    },
+    {
+     "q": "A paper clip stretches from the 2 cm mark to the 5.8 cm mark. Find its length.",
+     "vals": {
+      "reading_end": 5.8,
+      "reading_start": 2
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "3.8 cm",
+     "self_check": false
+    },
+    {
+     "q": "Using a broken ruler, a bottle cap edge runs from 3 cm to 6.4 cm. How wide is it?",
+     "vals": {
+      "reading_end": 6.4,
+      "reading_start": 3
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "3.4 cm",
+     "self_check": false
+    },
+    {
+     "q": "A ribbon starts at the 10 cm mark and ends at 42.5 cm. What is its length?",
+     "vals": {
+      "reading_end": 42.5,
+      "reading_start": 10
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "32.5 cm",
+     "self_check": false
+    },
+    {
+     "q": "A matchbox lies from the 0.8 cm mark to the 5.8 cm mark. Find its length.",
+     "vals": {
+      "reading_end": 5.8,
+      "reading_start": 0.8
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "5 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.4",
+   "title": "Describing Position and Types of Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is position and how do we describe it?",
+     "a": "Position is the location of an object compared to a reference point, with distance and direction.",
+     "self_check": true
+    },
+    {
+     "q": "Name three types of motion with examples.",
+     "a": "Straight-line (car on road), circular (fan blade), periodic (pendulum).",
+     "self_check": true
+    },
+    {
+     "q": "When do we say an object is at rest?",
+     "a": "When its position does not change with time relative to its surroundings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

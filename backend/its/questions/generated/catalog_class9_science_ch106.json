@@ -1,0 +1,621 @@
+{
+ "catalog": "catalog_class9_science_ch106.json",
+ "concepts": [
+  {
+   "id": "iesc.106.1",
+   "title": "Net Force on an Object",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "difference",
+     "expr": "force_1 - force_2",
+     "explain": "difference of the two opposing forces"
+    },
+    {
+     "step": 2,
+     "name": "sum_if_aiding",
+     "expr": "force_1 + force_2",
+     "explain": "force if the two pushed together"
+    },
+    {
+     "step": 3,
+     "name": "net_force",
+     "expr": "abs(difference)",
+     "explain": "net force is the magnitude of the difference"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two boys pull a rope with 30 N and 20 N in opposite directions. Find the net force.",
+     "vals": {
+      "force_1": 30,
+      "force_2": 20
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "10 N",
+     "self_check": false
+    },
+    {
+     "q": "Forces of 50 N and 35 N act on a box in opposite directions. Calculate the net force.",
+     "vals": {
+      "force_1": 50,
+      "force_2": 35
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "15 N",
+     "self_check": false
+    },
+    {
+     "q": "A tug of war has teams pulling with 400 N and 350 N. Find the net force on the rope.",
+     "vals": {
+      "force_1": 400,
+      "force_2": 350
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "50 N",
+     "self_check": false
+    },
+    {
+     "q": "Forces 12 N and 12 N oppose each other on a trolley. What is the net force?",
+     "vals": {
+      "force_1": 12,
+      "force_2": 12
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "0 N",
+     "self_check": false
+    },
+    {
+     "q": "A kite is pulled up by 80 N and down by 65 N. Compute the net force.",
+     "vals": {
+      "force_1": 80,
+      "force_2": 65
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "15 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.2",
+   "title": "Force of Friction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "applied_half",
+     "expr": "f_applied / 2",
+     "explain": "applied force cut to half"
+    },
+    {
+     "step": 2,
+     "name": "useful_fraction",
+     "expr": "f_net / f_applied",
+     "explain": "fraction of the push that accelerates the body"
+    },
+    {
+     "step": 3,
+     "name": "f_friction",
+     "expr": "f_applied - f_net",
+     "explain": "friction equals the part of the applied force used up against rubbing"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A box is pushed with 25 N and moves steadily (net force 0). Find the friction force.",
+     "vals": {
+      "f_applied": 25,
+      "f_net": 0
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "25 N",
+     "self_check": false
+    },
+    {
+     "q": "Pushing a crate with 40 N gives it 15 N of net force. How large is the friction?",
+     "vals": {
+      "f_applied": 40,
+      "f_net": 15
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "25 N",
+     "self_check": false
+    },
+    {
+     "q": "A 60 N push accelerates a sack with net 18 N. Calculate friction acting on it.",
+     "vals": {
+      "f_applied": 60,
+      "f_net": 18
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "42 N",
+     "self_check": false
+    },
+    {
+     "q": "A trolley pushed with 90 N has a net force of 30 N. Find the frictional force.",
+     "vals": {
+      "f_applied": 90,
+      "f_net": 30
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "60 N",
+     "self_check": false
+    },
+    {
+     "q": "A scooter engine applies 500 N and the net force is 420 N. What friction opposes it?",
+     "vals": {
+      "f_applied": 500,
+      "f_net": 420
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "80 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.3",
+   "title": "Newton's First Law of Motion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State Newton's first law of motion.",
+     "a": "A body stays at rest or in uniform straight-line motion unless an unbalanced external force acts on it.",
+     "self_check": true
+    },
+    {
+     "q": "Why do passengers jerk forward when a bus stops suddenly?",
+     "a": "Their bodies tend to keep moving (inertia of motion) even though the bus stops.",
+     "self_check": true
+    },
+    {
+     "q": "What is inertia and on what does it depend?",
+     "a": "The reluctance of a body to change its state of rest or motion; it depends on mass.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.4",
+   "title": "Newton's Second Law of Motion",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_g",
+     "expr": "mass * 1000",
+     "explain": "mass in grams"
+    },
+    {
+     "step": 2,
+     "name": "half_acceleration",
+     "expr": "acceleration / 2",
+     "explain": "acceleration at half the force"
+    },
+    {
+     "step": 3,
+     "name": "force",
+     "expr": "mass * acceleration",
+     "explain": "F = ma"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the force needed to speed a 1000 kg car at 2 m/s2.",
+     "vals": {
+      "mass": 1000,
+      "acceleration": 2
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "2000 N",
+     "self_check": false
+    },
+    {
+     "q": "What force gives a 5 kg mass an acceleration of 4 m/s2?",
+     "vals": {
+      "mass": 5,
+      "acceleration": 4
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "20 N",
+     "self_check": false
+    },
+    {
+     "q": "A force acts on 20 kg to accelerate it at 0.5 m/s2. Calculate the force.",
+     "vals": {
+      "mass": 20,
+      "acceleration": 0.5
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "10 N",
+     "self_check": false
+    },
+    {
+     "q": "A 1500 kg bus brakes at -3 m/s2. Find the braking force.",
+     "vals": {
+      "mass": 1500,
+      "acceleration": -3
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "-4500 N",
+     "self_check": false
+    },
+    {
+     "q": "A cricket ball of 0.15 kg accelerates at 200 m/s2 when hit. Compute the force.",
+     "vals": {
+      "mass": 0.15,
+      "acceleration": 200
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "30 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.5",
+   "title": "Gravitational Force and Weight",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "weight",
+     "expr": "mass * g",
+     "explain": "weight = mg; g is the free-fall acceleration"
+    },
+    {
+     "step": 2,
+     "name": "weight_on_mars",
+     "expr": "weight * 0.38",
+     "explain": "weight if the body were on Mars"
+    },
+    {
+     "step": 3,
+     "name": "weight_on_moon",
+     "expr": "weight * moon_g_ratio",
+     "explain": "moon's gravity is about one-sixth of earth's"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the weight of a 10 kg object on earth (g = 9.8 m/s2), and hence its weight on the moon.",
+     "vals": {
+      "mass": 10,
+      "g": 9.8,
+      "moon_g_ratio": 0.1667
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "16.3366 N",
+     "self_check": false
+    },
+    {
+     "q": "What does a 60 kg astronaut weigh on the moon, given the earth weight is mg (g = 9.8)?",
+     "vals": {
+      "mass": 60,
+      "g": 9.8,
+      "moon_g_ratio": 0.1667
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "98.0196 N",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the weight of a 0.5 kg packet on the moon (earth g = 9.8 m/s2).",
+     "vals": {
+      "mass": 0.5,
+      "g": 9.8,
+      "moon_g_ratio": 0.1667
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "0.81683 N",
+     "self_check": false
+    },
+    {
+     "q": "A machine part of 250 kg: find its moon weight (earth g = 9.8 m/s2).",
+     "vals": {
+      "mass": 250,
+      "g": 9.8,
+      "moon_g_ratio": 0.1667
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "408.415 N",
+     "self_check": false
+    },
+    {
+     "q": "A school bag of 4 kg: compute its weight on the moon.",
+     "vals": {
+      "mass": 4,
+      "g": 9.8,
+      "moon_g_ratio": 0.1667
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "6.53464 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.6",
+   "title": "Force and Kinematic Equations",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "velocity_change",
+     "expr": "final_velocity - initial_velocity",
+     "explain": "change in velocity"
+    },
+    {
+     "step": 2,
+     "name": "acceleration",
+     "expr": "velocity_change / time",
+     "explain": "a = (v-u)/t"
+    },
+    {
+     "step": 3,
+     "name": "force",
+     "expr": "mass * acceleration",
+     "explain": "then F = ma"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 1500 kg car speeds up from 5 m/s to 15 m/s in 10 s. Find the force exerted.",
+     "vals": {
+      "mass": 1500,
+      "initial_velocity": 5,
+      "final_velocity": 15,
+      "time": 10
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "1500 N",
+     "self_check": false
+    },
+    {
+     "q": "A 2 kg ball is hit from rest to 20 m/s in 0.1 s. Calculate the force.",
+     "vals": {
+      "mass": 2,
+      "initial_velocity": 0,
+      "final_velocity": 20,
+      "time": 0.1
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "400 N",
+     "self_check": false
+    },
+    {
+     "q": "A 500 kg cart slows from 8 m/s to 2 m/s in 3 s. Find the retarding force.",
+     "vals": {
+      "mass": 500,
+      "initial_velocity": 8,
+      "final_velocity": 2,
+      "time": 3
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "-1000 N",
+     "self_check": false
+    },
+    {
+     "q": "A 60 kg skater speeds from 0 to 6 m/s in 4 s. What force does she apply?",
+     "vals": {
+      "mass": 60,
+      "initial_velocity": 0,
+      "final_velocity": 6,
+      "time": 4
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "90 N",
+     "self_check": false
+    },
+    {
+     "q": "A 0.5 kg arrow leaves a bow at 40 m/s after 0.2 s of push. Compute the average force.",
+     "vals": {
+      "mass": 0.5,
+      "initial_velocity": 0,
+      "final_velocity": 40,
+      "time": 0.2
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "100 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.7",
+   "title": "Newton's Third Law and Recoil Motion",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "v_after_one_second",
+     "expr": "force / recoil_mass",
+     "explain": "recoil speed gained in one second"
+    },
+    {
+     "step": 2,
+     "name": "double_mass_acc",
+     "expr": "force / (recoil_mass * 2)",
+     "explain": "acceleration if the recoiling mass doubled"
+    },
+    {
+     "step": 3,
+     "name": "recoil_acceleration",
+     "expr": "force / recoil_mass",
+     "explain": "the same force acts on the recoiling body: a = F/m"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 0.02 kg bullet experiences 10 N when fired. What acceleration does the bullet get?",
+     "vals": {
+      "force": 10,
+      "recoil_mass": 0.02
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "500 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A 40 kg rocket part is pushed by 200 N of expelled gas. Find its acceleration.",
+     "vals": {
+      "force": 200,
+      "recoil_mass": 40
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "5 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A swimmer of 50 kg pushes a floating log of 25 kg with 75 N. Find the log's acceleration.",
+     "vals": {
+      "force": 75,
+      "recoil_mass": 25
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "3 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "Exhaust gas pushes a 500 kg boat with 100 N. Calculate the boat's acceleration.",
+     "vals": {
+      "force": 100,
+      "recoil_mass": 500
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "0.2 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A skater of 30 kg throws a 2 kg ball with 8 N. What acceleration does the skater feel?",
+     "vals": {
+      "force": 8,
+      "recoil_mass": 30
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "0.266667 m/s2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.8",
+   "title": "Acceleration of Connected Mass Systems",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "combined_mass",
+     "expr": "mass_1 + mass_2",
+     "explain": "the linked bodies move as one mass"
+    },
+    {
+     "step": 2,
+     "name": "half_force_acc",
+     "expr": "(force / 2) / combined_mass",
+     "explain": "acceleration at half the force"
+    },
+    {
+     "step": 3,
+     "name": "acceleration",
+     "expr": "force / combined_mass",
+     "explain": "a = F/(m1 + m2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 3 kg block drags a 2 kg block with 15 N. Find the acceleration of the system.",
+     "vals": {
+      "force": 15,
+      "mass_1": 3,
+      "mass_2": 2
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "3 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "An engine pulls wagons of 500 kg and 300 kg with 800 N. Calculate the acceleration.",
+     "vals": {
+      "force": 800,
+      "mass_1": 500,
+      "mass_2": 300
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "1 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "Two trolleys of 10 kg and 5 kg are pulled with 45 N. What is the acceleration?",
+     "vals": {
+      "force": 45,
+      "mass_1": 10,
+      "mass_2": 5
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "3 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A 20 kg sledge carries a 30 kg load, pulled with 100 N. Find the acceleration.",
+     "vals": {
+      "force": 100,
+      "mass_1": 20,
+      "mass_2": 30
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "2 m/s2",
+     "self_check": false
+    },
+    {
+     "q": "A horse pulls a 400 kg cart with a 100 kg rider using 250 N. Compute the acceleration.",
+     "vals": {
+      "force": 250,
+      "mass_1": 400,
+      "mass_2": 100
+     },
+     "unit": "m/s2",
+     "steps": null,
+     "a": "0.5 m/s2",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

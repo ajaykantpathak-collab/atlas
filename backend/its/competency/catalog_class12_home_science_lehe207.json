@@ -1,0 +1,625 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 14,
+ "chapter_title": "Corporate Communication and Public Relations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe207.1",
+   "title": "Corporate Communication: Meaning and Significance",
+   "section": "Introduction and Significance",
+   "definition": "Corporate communication is the coordinated handling of every message an organisation sends inside and outside its walls, run by specialists and generalists. Its primary aim is to shape how stakeholders -- public, competitors, employees, investors -- perceive the organisation, because perception, not just events, decides respectability, standing and success; in a crisis, reactions follow the audience's reading of events.",
+   "formula": "corporate_image = internal_messages plus external_messages plus stakeholder_perception",
+   "key_idea": "Controlling how the world sees you -- perception of stakeholders, more than events, decides an organisation's fate.",
+   "textbook_ref": "lehe207.txt, Introduction and Significance (approx lines 16-64)",
+   "question_patterns": [
+    "what is the significance of corporate communication in today's times",
+    "define corporate communication and state its primary objective",
+    "why does stakeholder perception decide an organisation's success",
+    "how should a company communicate during a crisis",
+    "list four things corporate communication creates for an organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the meaning",
+     "explain": "all internal and external messaging managed together as a management tool by specialists and generalists"
+    },
+    {
+     "step": 2,
+     "action": "explain the significance",
+     "explain": "public perception defines respectability and position, so communication must establish the desired view even in crisis"
+    },
+    {
+     "step": 3,
+     "action": "list what it creates",
+     "explain": "favourable public perception, efficient communication avenues, strong corporate culture and identity, genuine corporate citizenship"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Coordinated handling of every message an organisation sends is called what communication: corporate or casual?",
+     "a": "corporate"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.2",
+   "title": "Functions of Corporate Communication",
+   "section": "Functions of Corporate Communication",
+   "definition": "The function spreads information to employees, stockholders, media and customers; creates and maintains the brand; guards the organisation's reputation; liaises with outside bodies; handles crisis control; and manages sophisticated global communication tools. With rising competition and a media explosion, reputation management has become a priority that professional corporate communicators handle.",
+   "formula": "corporate_function = information_flow plus brand_building plus reputation_management plus crisis_control",
+   "key_idea": "Beyond sharing news, corporate communication builds the brand, guards reputation and steers crisis response.",
+   "textbook_ref": "lehe207.txt, Functions of Corporate Communication (approx lines 130-151)",
+   "question_patterns": [
+    "enumerate the functions of corporate communication",
+    "why has reputation management become a priority for organisations",
+    "how does corporate communication maintain the brand of a company",
+    "explain the liaison role of corporate communication with outside bodies",
+    "what role does corporate communication play in crisis control"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the information roles",
+     "explain": "dissemination to employees, stockholders, media and customers; projecting new products and achievements"
+    },
+    {
+     "step": 2,
+     "action": "list the image roles",
+     "explain": "creating and maintaining the brand, sustaining a positive corporate image, managing reputation"
+    },
+    {
+     "step": 3,
+     "action": "list the relational roles",
+     "explain": "liaison with outside bodies, crisis control, handling global communications and complex technologies"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Guarding how the world sees the organisation is called what management: reputation or time?",
+     "a": "reputation"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.3",
+   "title": "Functions of Public Relations Departments",
+   "section": "Functions of PR",
+   "definition": "Corporate PR departments and agencies share five common functions: developing and recommending public relations policy to top management; drafting corporate statements, executive speeches and press releases; publicity through announcements and planned promotional campaigns; maintaining liaison with government units, community, shareholders and investors, including annual and quarterly reports; and preparing in-house publications.",
+   "formula": "pr_work = policy plus statements plus publicity plus relations plus publications",
+   "key_idea": "Policy, press releases, publicity, stakeholder liaison and publications form the shared core of PR work.",
+   "textbook_ref": "lehe207.txt, Functions of PR (approx lines 156-182)",
+   "question_patterns": [
+    "enumerate the common functions performed by corporate PR departments and agencies",
+    "what does preparing statements and press releases involve for PR personnel",
+    "how do PR personnel maintain relations with government units and shareholders",
+    "why is publicity planning a vital PR function",
+    "name the publication work a PR agency may handle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cover policy and statements",
+     "explain": "developing PR policy for management and drafting corporate statements, speeches and press releases"
+    },
+    {
+     "step": 2,
+     "action": "cover publicity and relations",
+     "explain": "issuing announcements, planning promotional campaigns, handling inquiries, and liaison with government, community and investors"
+    },
+    {
+     "step": 3,
+     "action": "cover publications",
+     "explain": "preparing in-house magazines and reports such as annual or quarterly stockholder documents"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "PR drafts corporate statements, speeches and what releases: press or postal?",
+     "a": "press"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.4",
+   "title": "Major Areas of PR Activity",
+   "section": "Major Areas of PR Activity",
+   "definition": "Five activity areas: press relations, where PR and journalists depend on each other for news and publicity; advertising, where the PR person decides budget and media; publications such as brochures, folders, pamphlets and house journals; coordination of other media like films, exhibitions, hoardings, puppetry and folk songs; and PR with constituents -- community, bankers, financial analysts, shareholders and employees.",
+   "formula": "pr_areas = press_relations plus advertising plus publications plus media_coordination plus constituent_liaison",
+   "key_idea": "PR and the press feed each other -- news for publicity -- while advertising, publications and media coordination spread the message.",
+   "textbook_ref": "lehe207.txt, Major Areas of PR Activity (approx lines 183-223)",
+   "question_patterns": [
+    "what are the two major areas of PR work and why are they important",
+    "explain the interdependence of press relations and public relations",
+    "who decides the advertising budget and choice of media in an organisation",
+    "list the print materials a PR publications programme brings out",
+    "which constituents require liaison work from PR persons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair press and PR",
+     "explain": "journalists need news, PR needs publicity, so well-timed releases and accessibility sustain the exchange"
+    },
+    {
+     "step": 2,
+     "action": "cover advertising and publications",
+     "explain": "the PR person fixes budget and media; brochures, folders, pamphlets, circular letters and house journals carry the message"
+    },
+    {
+     "step": 3,
+     "action": "cover other media and constituents",
+     "explain": "films, exhibitions, hoardings, puppetry and folk songs plus liaison with community, bankers, analysts, shareholders and employees"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "PR and which professionals depend on each other for news and publicity: journalists or judges?",
+     "a": "journalists"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.5",
+   "title": "Arthur W. Page's Seven Principles of Public Relations",
+   "section": "Seven Principles of Public Relations",
+   "definition": "Arthur W. Page managed public relations through seven principles: tell the truth with an accurate picture of the company; prove it with action, since perception is set far more by deeds than words; listen to the customer and keep decision makers informed; manage for tomorrow by anticipating reaction and building goodwill; treat PR as a management function the whole company depends on; remember the company's true character is expressed by its people, each an ambassador; and stay calm, patient and good-humoured, for cool heads communicate best.",
+   "formula": "page_principles = truth plus action plus listening plus tomorrow plus management_function plus people plus calm",
+   "key_idea": "Truth plus action beats words -- perception is roughly ninety per cent deeds and ten per cent statements.",
+   "textbook_ref": "lehe207.txt, Seven Principles of Public Relations (approx lines 224-272)",
+   "question_patterns": [
+    "what are the seven principles of public relations practised by Arthur W Page",
+    "explain the principle that public perception is determined mostly by what an organisation does",
+    "why should every employee be treated as a public relations ambassador",
+    "how does the principle of managing for tomorrow guide a company",
+    "why do cool heads communicate best during a crisis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the seven principles",
+     "explain": "truth, proof by action, listening to the customer, managing for tomorrow, PR as a management function, people as ambassadors, calm patience"
+    },
+    {
+     "step": 2,
+     "action": "explain the action weight",
+     "explain": "perception of an organisation is determined about ninety per cent by deeds and ten per cent by words"
+    },
+    {
+     "step": 3,
+     "action": "explain the people principle",
+     "explain": "employee words and deeds shape the strongest opinions, so corporate communication must support each employee as an honest ambassador"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who managed public relations through seven principles: Arthur W. Page or Arthur Miller?",
+     "a": "Arthur W. Page"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.6",
+   "title": "Internal and External Communication",
+   "section": "Internal and External Communication",
+   "definition": "Internal communication flows among employer and employees -- vertical, horizontal and diagonal, formal or informal -- binding the organisation, lifting morale and promoting transparency; ineffective communication is the root of most internal problems. External communication links members with government, customers, dealers, corporate bodies and the public, building goodwill, brand preservation and marketing reach. Both use written and oral media, from memos and house journals to letters and annual reports.",
+   "formula": "org_communication = internal_flows plus external_flows",
+   "key_idea": "Messages inside the organisation bind it; messages outside build goodwill and markets.",
+   "textbook_ref": "lehe207.txt, Internal and External Communication (approx lines 274-305)",
+   "question_patterns": [
+    "compare internal and external communication in an organisation",
+    "in which directions does internal communication flow",
+    "why is internal communication called a vital tool for binding an organisation",
+    "list the written media used for external communication",
+    "how does external communication help marketing in a global society"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define internal flows",
+     "explain": "employer-employee messaging in vertical, horizontal and diagonal directions, formal or informal, aiding planning and motivation"
+    },
+    {
+     "step": 2,
+     "action": "define external flows",
+     "explain": "messages to government, customers, dealers, inter-corporate bodies and public, creating image and goodwill"
+    },
+    {
+     "step": 3,
+     "action": "compare the media",
+     "explain": "written media like instructions, memos, house journals, bulletins and reports plus oral channels serve both directions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Communication flowing among employer and employees is what communication: internal or external?",
+     "a": "internal"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.7",
+   "title": "The 7 Cs of Composing Messages",
+   "section": "The 7 Cs of communication",
+   "definition": "While composing any message seven qualities matter: conciseness so attention is caught quickly; concreteness with all meaning but short length; clarity that never confuses the reader; completeness giving sufficient information; courtesy in tone with compliments to the reader; correctness free of grammatical errors; and consideration, stressing a you-attitude rather than I and we wording.",
+   "formula": "message_quality = conciseness plus concreteness plus clarity plus completeness plus courtesy plus correctness plus consideration",
+   "key_idea": "A well-composed message is brief, concrete, clear, complete, courteous, correct and reader-centred.",
+   "textbook_ref": "lehe207.txt, 7 Cs of communication (approx lines 311-329)",
+   "question_patterns": [
+    "list the seven Cs that guide composing a message",
+    "why should a message be concise and concrete at the same time",
+    "what does consideration mean in the 7 Cs of communication",
+    "how does courtesy improve a business message",
+    "which of the 7 Cs demands freedom from grammatical errors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the seven Cs",
+     "explain": "conciseness, concreteness, clarity, completeness, courtesy, correctness, consideration"
+    },
+    {
+     "step": 2,
+     "action": "pair the C with its demand",
+     "explain": "each C answers one failure mode: length, vagueness, confusion, missing detail, rudeness, errors, self-centred wording"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many Cs guide composing messages: seven or seventy?",
+     "a": "seven"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.8",
+   "title": "Survey Percentage Reading in Communication Studies",
+   "section": "Basic Concepts: workplace studies",
+   "definition": "Corporate communication research is reported as percentages of surveyed groups, and each figure converts to head counts by taking that percent of the sample. In the classic workplace studies cited here, most industrial engineers blamed weak communication and cooperation for reduced productivity, and most chief executives held that communicating with employees lifts job satisfaction and the bottom line, yet few managed weekly contact.",
+   "formula": "respondent_count = sample_size * agreement_pct / 100",
+   "key_idea": "A survey percent converts to people by multiplying the sample by the percentage over 100.",
+   "textbook_ref": "lehe207.txt, 1990 P and Q Survey and Higgins study (approx lines 77-90)",
+   "question_patterns": [
+    "in a survey of 200 engineers, 88 per cent strongly agreed; how many engineers agreed",
+    "97 per cent of 300 surveyed chief executives favoured employee communication; find the number of executives",
+    "calculate how many respondents in a sample of 250 chose a given survey option at 79 per cent",
+    "a study reports 22 per cent of 400 firms communicate weekly; compute the number of firms",
+    "how many of 500 engineers rated cooperation concerns strongest when the share is 88 per cent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the percent to the sample",
+     "explain": "multiplying the surveyed group by the reported percentage over 100 converts the share to a head count",
+     "compute": "respondent_count = sample_size * agreement_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A survey percent converts to head counts by multiplying the what by the percentage: sample or rumour?",
+     "a": "sample"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.9",
+   "title": "Perception Split: Deeds versus Words",
+   "section": "Seven Principles: prove it with action",
+   "definition": "Under Arthur W. Page's second principle, the public judges an organisation overwhelmingly by conduct: about ninety per cent of perception comes from what the organisation does and only ten per cent from what it says. Any perception score can therefore be split into an action share and a statement share.",
+   "formula": "perception_from_action = perception_points * action_pct / 100",
+   "key_idea": "Perception is earned by deeds roughly nine times more than by declarations.",
+   "textbook_ref": "lehe207.txt, Page principle 'prove it with action' (approx lines 233-234)",
+   "question_patterns": [
+    "a company's public standing is scored at 60 points; using the page principle, how many points come from action rather than words",
+    "perception is 90 per cent deeds; find the deed-driven share of an 80 point perception score",
+    "calculate the words-based portion of a 50 point public perception rating",
+    "how many points of a 75 point perception total reflect what the organisation does",
+    "using the ninety-ten split, compute the action component of a 40 point image score"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the action share",
+     "explain": "multiply the perception total by the deed percentage over 100 to isolate the action-driven part",
+     "compute": "perception_from_action = perception_points * action_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what percent of perception comes from deeds: ninety or ten?",
+     "a": "ninety"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.10",
+   "title": "Rapport: Analogue versus Digital Message Weight",
+   "section": "Rapport Establishment",
+   "definition": "Rapport is the trust and harmony in a relationship, and it hinges on how a message travels: roughly 93 per cent is carried by body language and manner of speaking (analogue communication, mostly unconscious) while only 7 per cent rides on the words themselves (digital communication). A master communicator works at both conscious and unconscious levels to build rapport with a wide range of people.",
+   "formula": "analogue_weight = message_points * analogue_pct / 100",
+   "key_idea": "About 93 per cent of a message travels through body language and voice; the words carry only 7 per cent.",
+   "textbook_ref": "lehe207.txt, Rapport Establishment (approx lines 400-411)",
+   "question_patterns": [
+    "of a 40 point message, how much is transmitted by body language and voice",
+    "93 per cent of communication is analogue; compute its share of a 60 point message",
+    "calculate the word-based digital portion of a 100 point message",
+    "a speaker conveys 50 message points; how many ride on manner of speaking rather than words",
+    "using the 93-7 split, find the body language weight of a 25 point message"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the analogue share",
+     "explain": "multiply the message total by the analogue percentage over 100 to get the body-language and voice weight",
+     "compute": "analogue_weight = message_points * analogue_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what percent of a message rides on body language and voice: 93 or 7?",
+     "a": "93"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.11",
+   "title": "Listening and Core Communicator Skills",
+   "section": "Knowledge and Skills required",
+   "definition": "Listening is active and has three parts -- hearing as the body receives sound, understanding as the brain derives meaning in context, and responding to show the message landed. Around it sit interpersonal skill in social interaction, negotiation that trades concessions so both sides exit satisfied, presentation with content, structure, packaging and human element, rapport establishment, decision making, telephone etiquette, writing, public speaking, accent neutralisation, and time and stress management.",
+   "formula": "listening = hearing plus understanding plus responding",
+   "key_idea": "Hearing alone is not listening -- meaning and a response complete the active process.",
+   "textbook_ref": "lehe207.txt, Knowledge and Skills required (approx lines 336-438)",
+   "question_patterns": [
+    "explain the three parts of active listening",
+    "how is listening different from merely hearing",
+    "why do good negotiation skills let both sides leave a deal satisfied",
+    "list the four parts of a good presentation",
+    "which skills fall under telephone etiquette and basic writing for a corporate communicator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the listening chain",
+     "explain": "hearing receives sound, understanding processes meaning in context, responding confirms receipt and intent"
+    },
+    {
+     "step": 2,
+     "action": "place the companion skills",
+     "explain": "interpersonal, negotiation, presentation, rapport, decision making, telephone, writing, public speaking, accent neutralisation, time and stress management complete the toolkit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Listening has three parts: hearing, understanding and which third: responding or sleeping?",
+     "a": "responding"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.12",
+   "title": "Time and Stress Management for Communicators",
+   "section": "Time Management and Stress Management",
+   "definition": "Time is a matchless resource; managing it means running principles, practices, tools and systems together so work yields more value, greater efficiency and less stress. Stress is the physical, mental and emotional response when life's demands exceed the ability to cope; managing it means taking charge of thoughts, emotions, schedule and environment so that work, relationships, relaxation and fun stay balanced under pressure.",
+   "formula": "balance = demands handled within coping capacity",
+   "key_idea": "Good time habits cut stress; managing stress keeps work, relationships and relaxation in balance.",
+   "textbook_ref": "lehe207.txt, Time Management and Stress Management (approx lines 450-483)",
+   "question_patterns": [
+    "what is stress and when do its symptoms begin to appear",
+    "how does time management lead to less stress",
+    "explain stress as a response to demands, changes and events",
+    "what is the ultimate goal of managing stress",
+    "why is time called a matchless and valuable resource"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define stress",
+     "explain": "pressure or strain felt as physical, mental and emotional response when demands outstrip coping ability"
+    },
+    {
+     "step": 2,
+     "action": "link time management",
+     "explain": "principles, practices, tools and systems raise the value gained from time, improving quality of life and lowering stress"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which matchless resource do communicators manage: time or trouble?",
+     "a": "time"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.13",
+   "title": "ICT in Corporate Communication and the PR Scope",
+   "section": "Use of Technology to Communicate; Scope",
+   "definition": "Information and Communication Technology is the umbrella term for every technical means of processing and communicating information -- today mostly digital techniques for transmission, storage and processing, popularised by the union of information technology and telecom. PR scope follows the technology: covering employer-employee communication, extending it to stockholders, media, NGOs, government and customers, and innovating with new media.",
+   "formula": "ict_scope = processing plus transmission plus storage of information",
+   "key_idea": "Digital technology widened PR's reach from internal messaging to every outside audience.",
+   "textbook_ref": "lehe207.txt, Use of Technology to Communicate; Scope (approx lines 488-513)",
+   "question_patterns": [
+    "describe the single most important factor that revolutionised the scope of communication",
+    "what does the umbrella term ICT cover",
+    "how did the union of IT and telecom technology popularise ICT",
+    "state the scope of public relations in corporate offices",
+    "which outside audiences does a PR officer extend communication to"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the umbrella",
+     "explain": "ICT covers all technical means of processing and communicating information, chiefly digital transmission, equipment and storage"
+    },
+    {
+     "step": 2,
+     "action": "map the scope",
+     "explain": "internal employer-employee coverage, external extension to stockholders, media, NGOs, government and customers, and media innovation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "ICT is the umbrella term for processing, transmitting and storing what: information or furniture?",
+     "a": "information"
+    }
+   ]
+  },
+  {
+   "id": "lehe207.14",
+   "title": "Event Budget Balance",
+   "section": "Appendix Project 6: Planning and executing an event",
+   "definition": "Planning a school event ends with an account of money: record every receipt -- tickets, contributions, sales -- and every expense -- refreshments, decoration, transport, invitations. Subtracting total expenses from total income leaves the balance, which tells whether the event finished with a surplus or a deficit.",
+   "formula": "event_balance = total_income - total_expenses",
+   "key_idea": "Income minus expenses gives the event's balance -- positive means surplus, negative means deficit.",
+   "textbook_ref": "lehe207.txt, Appendix Project 6 procedure and record of income and expenses (approx lines 999-1065)",
+   "question_patterns": [
+    "a class event earns Rs 5000 in receipts and spends Rs 4200; find the event balance",
+    "calculate the surplus when total income of Rs 8000 exceeds expenses of Rs 6500",
+    "record of income and expenses shows Rs 3500 collected and Rs 3900 spent; compute the balance",
+    "how much remains after an event with Rs 12000 income and Rs 9500 expenses",
+    "find whether the school show made a surplus using its income of Rs 6000 and expenses of Rs 6000"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the receipts",
+     "explain": "add all money collected before, during and after the event",
+     "compute": "total_income = ticket_sales + contributions"
+    },
+    {
+     "step": 2,
+     "action": "total the expenses",
+     "explain": "add spending on refreshments, decorations, transport and invitations",
+     "compute": "total_expenses = refreshment_cost + decoration_cost"
+    },
+    {
+     "step": 3,
+     "action": "subtract expenses from income",
+     "explain": "a positive result is a surplus, a negative one a deficit",
+     "compute": "event_balance = total_income - total_expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Event balance equals total income minus total what: expenses or guests?",
+     "a": "expenses"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe207.txt Page principle 'prove it with action'",
+   "concept": "lehe207.9",
+   "question_type": "numeric",
+   "question_pattern": "A firm's public perception is rated at {perception_points} points. Using the ninety-ten split between deeds and words, how many points come from action?",
+   "extracted_variables": {
+    "perception_points": 60,
+    "action_pct": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the action share",
+     "explain": "60 x 90 / 100 = 54 points are earned by deeds; the remaining 6 come from words",
+     "compute": "perception_from_action = perception_points * action_pct / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe207.txt P and Q Survey 1990",
+   "concept": "lehe207.8",
+   "question_type": "numeric",
+   "question_pattern": "In a productivity survey {sample_size} engineers were questioned and {agreement_pct} per cent strongly agreed that poor coordination cuts output. How many engineers strongly agreed?",
+   "extracted_variables": {
+    "sample_size": 200,
+    "agreement_pct": 88
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the percent to the sample",
+     "explain": "200 x 88 / 100 = 176 engineers strongly agreed",
+     "compute": "respondent_count = sample_size * agreement_pct / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe207.txt Appendix Project 6 income and expense record",
+   "concept": "lehe207.14",
+   "question_type": "numeric",
+   "question_pattern": "A school event collects {ticket_sales} from tickets and {contributions} in donations while spending {refreshment_cost} on refreshments and {decoration_cost} on decorations. Find the event balance.",
+   "extracted_variables": {
+    "ticket_sales": 4000,
+    "contributions": 1500,
+    "refreshment_cost": 2800,
+    "decoration_cost": 900
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the receipts",
+     "explain": "4000 + 1500 = 5500 collected in all",
+     "compute": "total_income = ticket_sales + contributions"
+    },
+    {
+     "step": 2,
+     "action": "total the expenses",
+     "explain": "2800 + 900 = 3700 spent in all",
+     "compute": "total_expenses = refreshment_cost + decoration_cost"
+    },
+    {
+     "step": 3,
+     "action": "subtract expenses from income",
+     "explain": "5500 - 3700 = 1800, so the event closed with a surplus of Rs 1800",
+     "compute": "event_balance = total_income - total_expenses"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-lehe207-review",
+   "source_ref": "lehe207.txt Review Questions 1-9",
+   "questions": [
+    "What is the significance of corporate communication in today's times?",
+    "Enumerate the functions of corporate communication.",
+    "Compare internal and external communication.",
+    "Describe the single most important factor that has revolutionised the scope of communication.",
+    "Enlist verbal and non-verbal skills and explain any three from each category with examples.",
+    "Explain the meaning and significance of public relations today.",
+    "What are the major areas of PR work and why are they important?",
+    "What are the principles of public relations?",
+    "Explain the relationship between corporate communication, public relations and media."
+   ]
+  },
+  {
+   "id": "ex-lehe207-assignment",
+   "source_ref": "lehe207.txt Assignment: PR agency case-study",
+   "questions": [
+    "Prepare a case-study of a PR agency: describe the client's situation, formulate objectives, study the plan of action covering target group, message, media, creativity, resources and manpower, and report implementation and results.",
+    "Plan and execute a school event and evaluate it on relevance, resource mobilisation, planning, financial implications, stakeholder feedback and future modifications."
+   ]
+  }
+ ]
+}

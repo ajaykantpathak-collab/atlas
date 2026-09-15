@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "Primary Activities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.104.1",
+   "title": "Food Gathering and Hunting",
+   "section": "Food Gathering and Hunting",
+   "definition": "The earliest primary activities are food gathering and hunting, practised today by small groups like the Bushmen of Kalahari, Pygmies of Congo and the Chukchis, whose tools are simple and whose survival depends on the natural availability of plants and animals.",
+   "formula": "",
+   "key_idea": "These economies neither cultivate nor herd: they live directly on what nature offers, which keeps them mobile and small in number.",
+   "textbook_ref": "legy104.txt food gathering and hunting sections with tribal examples",
+   "question_patterns": [
+    "name present-day hunter-gatherer groups and their regions",
+    "why are hunting-gathering economies always small in numbers",
+    "what tools characterise gatherer-hunter groups",
+    "how does mobility suit a gathering economy",
+    "compare hunting with gathering as livelihoods",
+    "why is this activity called a primary activity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the groups",
+     "explain": "Bushmen, Pygmies and Chukchis are the chapter's surviving examples"
+    },
+    {
+     "step": 2,
+     "action": "note the logic",
+     "explain": "dependence on wild produce caps population density and forces movement"
+    },
+    {
+     "step": 3,
+     "action": "close with definition",
+     "explain": "extracting food directly from nature makes it primary in the strictest sense"
+    }
+   ]
+  },
+  {
+   "id": "legy.104.2",
+   "title": "Pastoral Nomadism and Transhumance",
+   "section": "Pastoralism",
+   "definition": "Pastoral nomadism is a subsistence herding system in which nomads move with camels, yaks, sheep and goats across arid lands of Sahara, Central Asia and Tibet following fodder; in mountain regions like the Alps the seasonal movement of herders between high pastures and valleys is called transhumance.",
+   "formula": "",
+   "key_idea": "Nomadism is horizontal mobility across drylands while transhumance is vertical mobility across mountains, both timed by seasons.",
+   "textbook_ref": "legy104.txt pastoral nomadism and transhumance passages",
+   "question_patterns": [
+    "define pastoral nomadism with regions and animals",
+    "what is transhumance and where is it practised",
+    "distinguish nomadism from transhumance",
+    "how do nomads decide their movement routes",
+    "why do herdsmen prefer camels and goats in deserts",
+    "compare ranching with pastoral nomadism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the systems",
+     "explain": "nomads roam drylands; transhumant herders climb Alps pastures seasonally"
+    },
+    {
+     "step": 2,
+     "action": "match animals to climate",
+     "explain": "camels, goats and sheep survive aridity; yaks suit high altitude cold"
+    },
+    {
+     "step": 3,
+     "action": "close with seasons",
+     "explain": "both movements follow the calendar of fodder availability"
+    }
+   ]
+  },
+  {
+   "id": "legy.104.3",
+   "title": "Types of Agriculture",
+   "section": "Agriculture",
+   "definition": "Agriculture ranges from intensive subsistence farming of dense monsoon Asia, plantation agriculture of tropical estates (tea, coffee, rubber), extensive commercial grain farming of North American prairies, mixed farming and dairy of western Europe, Mediterranean agriculture with viticulture, to co-operative, collective and state farms of the socialist tradition.",
+   "formula": "",
+   "key_idea": "Farm types answer market and environment together: subsistence feeds the household, plantations and grain farms feed the world market.",
+   "textbook_ref": "legy104.txt agriculture classification sections",
+   "question_patterns": [
+    "distinguish intensive subsistence from extensive commercial farming",
+    "what crops characterise plantation agriculture",
+    "define viticulture and its region",
+    "how do dairy and mixed farming differ",
+    "describe collective and state farms of the former USSR",
+    "why is Mediterranean agriculture specialised in horticulture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort by purpose",
+     "explain": "subsistence types sell little; commercial types organise for the market"
+    },
+    {
+     "step": 2,
+     "action": "map the examples",
+     "explain": "tea estates, prairie wheat farms and Danish dairies typify distinct systems"
+    },
+    {
+     "step": 3,
+     "action": "close with institutions",
+     "explain": "co-operative, collective and state farms differ by who owns and manages them"
+    }
+   ]
+  },
+  {
+   "id": "legy.104.4",
+   "title": "Mining and Fishing",
+   "section": "Mining and Fishing",
+   "definition": "Mining extracts minerals through surface or shaft methods, its location fixed by geological occurrence but profitability decided by transport and market factors; fishing, an age-old primary activity, divides into inland and deep-sea fishing with modern vessels using sonar and freezing technology.",
+   "formula": "",
+   "key_idea": "Both activities depend on nature's endowment but their scale is set by technology and demand.",
+   "textbook_ref": "legy104.txt mining factors and fishing methods sections",
+   "question_patterns": [
+    "list the physical and economic factors affecting mining",
+    "compare surface and shaft mining",
+    "distinguish inland from deep-sea fishing",
+    "what technologies raised the fish catch in modern times",
+    "why is fishing concentrated on continental shelves",
+    "relate primary activities to resource depletion risks"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the determinants",
+     "explain": "geology decides where minerals lie; economics decides whether mining pays"
+    },
+    {
+     "step": 2,
+     "action": "note fishing geography",
+     "explain": "shallow warm shelves teem with plankton and so with fish"
+    },
+    {
+     "step": 3,
+     "action": "close with technology",
+     "explain": "sonar, refrigeration and factory ships industrialised the catch"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy104_1",
+   "source_ref": "legy104.txt pastoralism passages",
+   "concept": "legy.104.2",
+   "question_type": "short_answer",
+   "question_pattern": "Differentiate pastoral nomadism from transhumance with regions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "nomadism",
+     "explain": "dryland herders of Sahara and Central Asia move long distances for fodder"
+    },
+    {
+     "step": 2,
+     "action": "transhumance",
+     "explain": "Alpine herders shift vertically between valley winter homes and summer pastures"
+    },
+    {
+     "step": 3,
+     "action": "contrast",
+     "explain": "the first is wide horizontal roaming, the second a fixed seasonal climb"
+    }
+   ]
+  },
+  {
+   "id": "we_legy104_2",
+   "source_ref": "legy104.txt agriculture sections",
+   "concept": "legy.104.3",
+   "question_type": "short_answer",
+   "question_pattern": "Classify prairie grain farming, Assam tea estates and Danish dairy farming into the chapter's farm types.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "prairies",
+     "explain": "extensive commercial grain farming with machinery and export orientation"
+    },
+    {
+     "step": 2,
+     "action": "tea estates",
+     "explain": "plantation agriculture with hired labour and a single crop"
+    },
+    {
+     "step": 3,
+     "action": "Denmark",
+     "explain": "dairy farming linked to mixed farming and market cooperatives"
+    }
+   ]
+  },
+  {
+   "id": "we_legy104_3",
+   "source_ref": "legy104.txt mining section",
+   "concept": "legy.104.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain why a rich mineral deposit may still remain unexploited.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "geology is fixed",
+     "explain": "deposits occur where nature put them, not where demand is"
+    },
+    {
+     "step": 2,
+     "action": "economics decides",
+     "explain": "distance from market and transport costs can erase profits"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "exploitation waits until price and infrastructure turn the deposit viable"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy104_1",
+   "source_ref": "legy104.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe food gathering and hunting with present-day examples",
+    "differentiate pastoral nomadism and transhumance",
+    "explain plantation agriculture with crop and region examples",
+    "compare co-operative, collective and state farming",
+    "list factors affecting the location of mining activity"
+   ]
+  },
+  {
+   "id": "ex_legy104_2",
+   "source_ref": "legy104.txt applied questions, reworded",
+   "questions": [
+    "argue why primary activities remain relevant in modern economies",
+    "evaluate fishing technology and the risk of over-fishing",
+    "explain Mediterranean agriculture with viticulture",
+    "match farm types with their regions and products",
+    "discuss sustainability limits of mining-based economies"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Living Creatures: Exploring their Characteristics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.10.1",
+   "title": "Characteristics of Living Beings",
+   "section": "Characteristics",
+   "definition": "Living beings grow, breathe, take in food, respond to their surroundings, excrete waste and reproduce; a shell that seems still may hold a snail busy doing all of these.",
+   "formula": "life = growth + respiration + nutrition + response + excretion + reproduction",
+   "key_idea": "Life is a bundle of processes: any creature showing them, even inside a shell, is alive.",
+   "textbook_ref": "fecu110.txt, Characteristics",
+   "question_patterns": [
+    "list the characteristics of living beings",
+    "how do living things respond to their surroundings",
+    "why is growth a sign of life",
+    "what is respiration in simple words",
+    "why do living beings excrete",
+    "is a snail inside its shell living how do we know"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.2",
+   "title": "Germination of a Seed",
+   "section": "Seed germination",
+   "definition": "A seed looks lifeless, yet given air, water and warmth it wakes: the root pushes down, the shoot rises, and germination turns a stored little plant into a growing one.",
+   "formula": "germination = seed + air + water + warmth",
+   "key_idea": "A seed is life waiting for conditions: supply the three needs and growth begins at once.",
+   "textbook_ref": "fecu110.txt, Seed germination",
+   "question_patterns": [
+    "what conditions does a seed need to germinate",
+    "what comes out first from a germinating seed",
+    "why does a seed fail to sprout without water",
+    "design an activity to study germination",
+    "where is the food stored in a seed",
+    "why is warmth needed for germination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.3",
+   "title": "Life Cycles of Plants and Animals",
+   "section": "Life cycle",
+   "definition": "Living beings pass through stages: a seed becomes a seedling, a plant, then flowers and seeds again; insects hatch, grow, transform and lay eggs, each life cycle turning in its own rhythm.",
+   "formula": "cycle = birth + growth + reproduction",
+   "key_idea": "Life repeats itself in stages: every cycle links one generation to the next without a break.",
+   "textbook_ref": "fecu110.txt, Life cycle",
+   "question_patterns": [
+    "draw the life cycle of a plant",
+    "describe the stages in the life cycle of a butterfly",
+    "how does the life cycle of a plant begin and end",
+    "which stage of an insect's life differs most from the adult",
+    "compare the life cycles of a plant and a frog",
+    "what would happen if living beings did not reproduce"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.4",
+   "title": "Living and Non-living: The Puzzle",
+   "section": "Living or non-living",
+   "definition": "A car moves but does not grow or reproduce; a cloud grows but does not breathe or respond; the puzzle of the chapter is settled by checking the full list of life processes, not any single one.",
+   "formula": "",
+   "key_idea": "One sign is not enough: life is declared only when the whole set of processes holds.",
+   "textbook_ref": "fecu110.txt, Living or non-living",
+   "question_patterns": [
+    "is a moving car living why or why not",
+    "a cloud grows but is not living explain",
+    "which characteristics settle whether something is living",
+    "is a river living give reasons",
+    "why is one characteristic not enough to decide life",
+    "sort ten things around you into living and non living"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu110.txt",
+   "concept": "fecu.10.1",
+   "question_type": "verify_property",
+   "question_pattern": "why is the shell avadhi noticed said to be part of a living body?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu110.txt",
+   "concept": "fecu.10.2",
+   "question_type": "verify_property",
+   "question_pattern": "what conditions help a seed to germinate?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu110.txt, Let us enhance our learning",
+   "questions": [
+    "Why is the shell Avadhi noticed said to be part of a living body?",
+    "What conditions help a seed to germinate?",
+    "Learn the stages in the life cycle discussed in the chapter.",
+    "Observe a germinating seed daily for a week and record each change.",
+    "Solve the living or non-living puzzle with reasons for each item."
+   ]
+  }
+ ]
+}

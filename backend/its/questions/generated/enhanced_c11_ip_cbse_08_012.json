@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_012",
+   "title": "c11_ip_cbse_08_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between copyright infringement and plagiarism in the context of using a photograph found on a website in a school project?",
+     "a": "Copyright infringement is a legal violation of the photographer's exclusive rights (reproduction, distribution) regardless of attribution; plagiarism is an ethical violation of presenting the photo as your own creation. A wrong answer that conflates the two (e.g., \"plagiarism is illegal copyright violation\") reveals the misconception that plagiarism is solely a legal issue rather than an ethical/academic one, and that giving credit always makes unauthorized use legal (it doesn't — copyright requires permission unless fair use applies).",
+     "self_check": true
+    },
+    {
+     "q": "A student copies three paragraphs from a Wikipedia article into their assignment, cites Wikipedia in the bibliography, but does not use quotation marks or in-text citations. Is this plagiarism, copyright infringement, both, or neither? Explain your reasoning.",
+     "a": "This is plagiarism (specifically mosaic plagiarism) because the student presents the exact wording as their own prose without quotation marks, even with a bibliography entry. It is NOT copyright infringement because Wikipedia content is licensed under CC-BY-SA, which permits reuse with attribution. A wrong answer claiming \"it's not plagiarism because they cited it\" reveals the misconception that a bibliography alone suffices; proper attribution requires in-text citation AND quotation marks for verbatim text. A wrong answer claiming \"it's copyright infringement\" reveals ignorance of open licenses.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend has written an original poem and posted it on their private Instagram account (visible only to followers). You download it, print it on a greeting card, and sell the cards at a school fair without asking. Which IPR concepts are violated, and what remedies might the friend have under Indian law?",
+     "a": "Copyright is violated: the friend owns copyright automatically upon creation (no registration needed). The exclusive rights of reproduction, distribution, and commercial exploitation are infringed. Plagiarism is also involved if you don't credit the author. Remedies under the Copyright Act, 1957: civil (injunction, damages, account of profits) and criminal (imprisonment up to 3 years, fine). A wrong answer focusing only on plagiarism misses the legal dimension; a wrong answer saying \"private account means no copyright\" reveals the misconception that copyright requires public registration or publication.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) A patent for a new algorithm, (b) Copyright for the Python code implementing that algorithm, (c) A trademark for the software's name. Give one example of what each protects that the others do not.",
+     "a": "(a) Patent protects the *functional idea* (the algorithm's logic/steps) — e.g., a novel sorting method — for 20 years, but requires registration and disclosure. (b) Copyright protects the *specific expression* (the actual Python code, comments, structure) automatically, but not the underlying algorithm — e.g., someone rewriting the algorithm in Java doesn't infringe copyright. (c) Trademark protects the *brand identifier* (name/logo) — e.g., \"QuickSort Pro\" — preventing consumer confusion, indefinitely with renewal. A wrong answer that says \"copyright protects the algorithm\" reveals the common misconception that copyright covers ideas/functionality (it covers expression only).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Fair use in India allows students to copy any copyrighted material for educational purposes without permission.\" Is it true, false, or partially true? Justify with specific provisions of the Indian Copyright Act, 1957.",
+     "a": "False. Section 52(1)(a)–(h) of the Copyright Act lists specific \"fair dealing\" exceptions (not the broad US \"fair use\"): private/personal use, criticism/review, reporting current events, judicial proceedings, etc. Educational use is limited: teachers/students can perform/display works *in the classroom* (Section 52(1)(i)), but *reproducing* entire textbooks or substantial parts for distribution is not permitted. A wrong answer claiming \"true\" reveals the dangerous misconception that Indian law has a blanket educational exception like US fair use; it does not.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (describe in text) that a student should follow before using any digital resource (image, code, text, video) in their IP project. The flowchart must distinguish between legal requirements (copyright) and ethical requirements (plagiarism), and include at least four decision nodes.",
+     "a": "A good flowchart: START → Is the work in public domain (copyright expired)? → YES: Use freely, but cite to avoid plagiarism. NO → Is there a license (Creative Commons, GPL, etc.)? → YES: Check license terms (attribution? non-commercial? share-alike?). Comply fully. NO → Is your use covered by fair dealing (Section 52)? → YES: Use within limits, cite source. NO → Seek permission from copyright holder. → If granted: Use per terms, cite. If denied: Do not use. → At every use: Provide proper citation (author, title, source, date, URL) to avoid plagiarism. A poor flowchart that omits the license check or conflates legal/ethical steps reveals inability to separate the two frameworks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

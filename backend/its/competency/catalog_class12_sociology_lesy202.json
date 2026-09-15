@@ -1,0 +1,334 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 2,
+ "chapter_title": "Cultural Change",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy202.1",
+   "title": "Nineteenth Century Reform: The Modern Context and the Mix of Ideas",
+   "section": "2.1 Social Reform Movements in the 19th and Early 20th Century",
+   "definition": "The reform movements against sati, child marriage, the widow remarriage ban and caste discrimination were new in one respect: they ran on a modern infrastructure. Satish Saberwal names its three faces - faster communication, new kinds of organisation, and a changed nature of ideas - and reformers combined western liberalism with a fresh reading of traditional texts rather than rejecting tradition outright.",
+   "formula": "modern_context = communication + organisation + ideas ; reform_argument = western_liberalism + traditional_texts",
+   "key_idea": "Printing press, railways, newspapers and associations like the brahmo samaj and arya samaj let reformers from punjab, bengal, madras and maharashtra campaign together.",
+   "textbook_ref": "lesy202.txt, section 2.1 (Saberwal's three aspects, Box 2.1)",
+   "question_patterns": [
+    "which three aspects of the modern framework of change does satish saberwal sketch for colonial india?",
+    "how did new technologies of communication help nineteenth century reformers coordinate across regions?",
+    "raja ram mohun roy attacked sati using which two kinds of appeal simultaneously?",
+    "give two examples of modern social organisations founded during the reform period",
+    "how did reformers justify female education by drawing on both modern and traditional ideas?",
+    "why is the mix of western liberalism and traditional literature called a creative combination?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three aspects of the modern framework",
+     "explain": "printing press, telegraph, steamship and railways sped ideas; brahmo samaj, arya samaj and the 1914 all-india muslim ladies conference gave durable organisation; newspapers and translations carried the debate"
+    },
+    {
+     "step": 2,
+     "action": "check the mixed argument form",
+     "explain": "roy argued against sati from humanitarian rights and from hindu shastras; ranade cited vedic authority for widow remarriage; syed ahmed khan read the quran alongside modern science"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name Satish Saberwal's three faces of the modern context: communication, organisation and what else?",
+     "a": "ideas"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.2",
+   "title": "Debate and Opposition: Reformers versus Orthodoxy",
+   "section": "2.1 Social Reform Movements in the 19th and Early 20th Century",
+   "definition": "Reform proposals split the very communities they addressed. Orthodox groups answered with organised resistance - dharma sabha in bengal petitioned the british claiming reformers had no right to interpret sacred texts - while reforming women such as jahanara shah nawas pushed anti-polygamy resolutions inside their own community, and women's journals took sides.",
+   "formula": "debate = reformers + orthodoxy ; outcome = petition + press_argument + resolutions",
+   "key_idea": "Change was argued out inside communities: the brahmo samaj opposed sati, orthodox bengalis formed dharma sabha, and tahsib-e-niswan backed the anti-polygamy resolve while other journals objected.",
+   "textbook_ref": "lesy202.txt, section 2.1 closing (Chaudhuri 1993: 111), Dharma Sabha passage",
+   "question_patterns": [
+    "what was the dharma sabha and what did it argue in its petition to the british?",
+    "which resolution did jahanara shah nawas move at the all india muslim ladies conference, and on what grounds?",
+    "how did muslim women's journals differ over the resolution condemning polygamy?",
+    "give one instance showing that debates over social reform happened within, not just between, communities",
+    "who opposed sati and how did orthodox hindus in bengal respond?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the parties and their claims",
+     "explain": "reformers cited scripture and rights; orthodox members denied the reformers any authority to interpret sacred texts and petitioned the colonial state"
+    },
+    {
+     "step": 2,
+     "action": "check the press evidence",
+     "explain": "tahsib-e-niswan of punjab supported the anti-polygamy resolution while other journals disapproved, showing the debate ran inside the community"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Bengali body petitioned the British against the reformers: the Dharma Sabha or the Brahmo Samaj?",
+     "a": "the Dharma Sabha"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.3",
+   "title": "Sanskritisation: The Process M N Srinivas Named",
+   "section": "2.3 Different Kinds of Social Change - Sanskritisation",
+   "definition": "Sanskritisation, a term minted by m n srinivas, names the route by which a low placed caste or tribe takes over the ritual, beliefs, customs and life style of a high, twice-born caste, hoping to rise in the local hierarchy. It mostly works inside the hindu space, usually presupposes some economic or political gain or contact with a great tradition centre, and meets punishment from the dominant caste when the ambitious group is bold.",
+   "formula": "sanskritisation = low_group_adopts + high_caste_customs ; precondition = economic_or_political_gain + great_tradition_contact",
+   "key_idea": "Where a sanskritised caste dominates a region its culture spreads, but where non-sanskritic castes dominate the reverse pull, de-sanskritisation, operates - punjab long felt persian influence instead.",
+   "textbook_ref": "lesy202.txt, section 2.3 Sanskritisation (Srinivas quote), Kumud Pawade box",
+   "question_patterns": [
+    "who coined the term sanskritisation and what does the process involve?",
+    "what does sanskritisation normally presuppose about the position of the aspiring group?",
+    "how did the dominant caste traditionally treat low castes that tried to take over higher customs?",
+    "explain de-sanskritisation with the regional example the chapter offers",
+    "why is punjab cited as a region where sanskritic influence stayed weak for centuries?",
+    "how does kumud pawade's experience as a dalit woman studying sanskrit illustrate the limits of sanskritisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the definition against srinivas's term",
+     "explain": "a low caste or tribe adopts the customs, ritual, beliefs and style of life of a high, preferably twice-born, caste, which tends to lift its place in the local caste hierarchy"
+    },
+    {
+     "step": 2,
+     "action": "check the regional variation claim",
+     "explain": "where highly sanskritised castes dominated, whole regions followed; elsewhere de-sanskritisation set the tone, and punjab remained under persian cultural influence until the late nineteenth century"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who minted the term sanskritisation: M.N. Srinivas or Ghurye?",
+     "a": "M.N. Srinivas"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.4",
+   "title": "Five Criticisms of Sanskritisation",
+   "section": "2.3 Sanskritisation - Criticisms",
+   "definition": "The concept draws five attacks: it inflates how far low castes can actually rise, since only positions shift while the unequal structure stays put; it treats upper caste ways as superior and imitation as natural; it quietly justifies purity-pollution thinking; its rewards push women backwards through seclusion and dowry in place of bride-price; and it erodes dalit culture by branding the labour and crafts of lower castes as shameful.",
+   "formula": "criticisms = positional_not_structural + superiority_assumed + pollution_justified + gender_backlash + dalit_culture_eroded",
+   "key_idea": "Positional change moves a few individuals; structural change would alter the ladder itself, and sanskritisation leaves the ladder standing.",
+   "textbook_ref": "lesy202.txt, Sanskritisation criticisms passage (five numbered points)",
+   "question_patterns": [
+    "distinguish positional change from structural change in the critique of sanskritisation",
+    "list any three criticisms levelled against the concept of sanskritisation",
+    "how does sanskritisation affect the position of women through dowry and seclusion?",
+    "why does the spread of sanskritised practices erode dalit culture and the worth of labour?",
+    "which movement shifted the emphasis to secular factors in the upward mobility of caste groups?",
+    "why do recent dalit assertions reject the sanskritisation model altogether?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the mobility claim",
+     "explain": "sanskritisation produces positional change of some individuals within an unchanged unequal structure, so the criticism that it exaggerates mobility stands"
+    },
+    {
+     "step": 2,
+     "action": "test the cultural cost claim",
+     "explain": "adopting upper caste rites brings seclusion of women, dowry replacing bride-price, and the degradation of the labour, crafts and knowledge of lower castes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sanskritisation produces positional change, not what kind of change: structural or seasonal?",
+     "a": "structural"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.5",
+   "title": "Westernisation: Levels and Limits of a Colonial Imprint",
+   "section": "2.3 Westernisation",
+   "definition": "Srinivas uses westernisation for the changes british rule produced in indian society and culture across technology, institutions, ideology and values. It splits into a narrow sub-cultural kind - the intellectuals who first met western culture and spread its ways - and the broad diffusion of traits like new machines, dress and food. Crucially, copying outside forms does not force anyone to internalise democratic or egalitarian values.",
+   "formula": "westernisation = technology + institutions + ideology + values ; kinds = subcultural_elite + general_trait_diffusion",
+   "key_idea": "A household can fill its living room with a television, fridge and dining table and still hold conservative views - the chapter's example is female foeticide using modern technology.",
+   "textbook_ref": "lesy202.txt, Westernisation section (Srinivas definition), Activities 2.4-2.5, Box 2.2",
+   "question_patterns": [
+    "state srinivas's definition of westernisation and the levels at which it operates",
+    "distinguish the two kinds of westernisation described in the chapter",
+    "why does westernisation not necessarily carry modern values of democracy and equality? illustrate",
+    "how does the chapter use female foeticide to show modern technology paired with discriminatory attitudes?",
+    "which kerala community is cited to challenge the claim that only upper castes westernise?",
+    "how did ravi varma's portraits mix western technique with indigenous subject matter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two kinds of westernisation",
+     "explain": "a minority sub-culture of intellectuals adopted western thinking and spread it, while new technology, dress and food diffused widely through middle class homes"
+    },
+    {
+     "step": 2,
+     "action": "check the limits claim with the counter example",
+     "explain": "elite thiyyas, by no means upper caste, consciously westernised as a cosmopolitan move against caste, breaking the simple rule that lower castes sanskritise and upper castes westernise"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Westernisation names changes British rule produced across technology, institutions, ideology and what else?",
+     "a": "values"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.6",
+   "title": "Modernisation: From Machines to a Whole Path of Development",
+   "section": "2.3 Modernisation and Secularisation",
+   "definition": "Modernisation began as a word for better technology and production processes and widened into the claim that every society should follow the west european or north american route of development. Rudolph and rudolph list its marks: universal commitments replacing parochial ties, calculation and science over the sacred and non-rational, the individual as the basic unit, associations joined by choice not birth, and identity achieved rather than ascribed.",
+   "formula": "modernisation = universal_over_parochial + science_over_sacred + choice_over_birth + achieved_identity",
+   "key_idea": "In india the process started inside colonialism, so it arrived tangled with humiliation and pride - the english educated middle class dreamt of a progressive india while asserting traditional learning.",
+   "textbook_ref": "lesy202.txt, Modernisation and Secularisation section (Rudolph and Rudolph 1967), Box 2.4",
+   "question_patterns": [
+    "how did the meaning of modernisation widen from the nineteenth to the twentieth century?",
+    "which features of modernity do rudolph and rudolph enumerate in the chapter?",
+    "what does it mean to say that in modern societies work is based on choice rather than birth?",
+    "why is the indian story of modernisation described as distinct from its growth in the west?",
+    "how did english education open communication between naga tribes whose languages differ?",
+    "give one paradox of colonial modernity from the example of the western educated middle class"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the widening of the term",
+     "explain": "early usage pointed at technology and production; later usage named the development path of west europe and north america that other societies were told to follow"
+    },
+    {
+     "step": 2,
+     "action": "check the markers on the naga case",
+     "explain": "box 2.4 shows english schooling acting as a chosen route to mobility and as a bridge across tribes, with identity reshaped by achievement rather than birth"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Modernisation widened into the claim that every society should follow which route of development: the West European or the African?",
+     "a": "the West European"
+    }
+   ]
+  },
+  {
+   "id": "lesy202.7",
+   "title": "Secularisation and the Secularisation of Caste",
+   "section": "2.3 Modernisation and Secularisation",
+   "definition": "In the modern west secularisation meant the fading of religion's hold, read off indicators like involvement with religious bodies and the holding of beliefs. India complicates the line: modern communication and organisation actually bred new religious reform bodies, ritual still pursues secular ends such as status display, and caste itself has turned secular as caste associations and caste based parties press demands on the state.",
+   "formula": "secularisation = religion_declining ; indian_twist = ritual_secular_ends + caste_as_pressure_group",
+   "key_idea": "Kothari's point: the useful question is not whether caste vanishes but what form caste takes under modern politics and what form politics takes in a caste oriented society.",
+   "textbook_ref": "lesy202.txt, Secularisation passages and Box 2.5 (Kothari 1977: 57-70)",
+   "question_patterns": [
+    "which indicators have been used to measure secularisation in western societies?",
+    "what is meant by the secularisation of caste, and how do caste associations show it?",
+    "how do rituals carry secular dimensions and serve secular ends, according to the chapter?",
+    "why has the assumption that modern ways always shrink religion proved unreliable?",
+    "what does kothari mean by asking what form caste takes under modern politics?",
+    "what can a matrimonial column reveal about the changed role of caste today?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the standard meaning and its indicators",
+     "explain": "secularisation names declining religious influence, tracked through involvement with religious organisations, their social and material weight, and the holding of beliefs"
+    },
+    {
+     "step": 2,
+     "action": "check the indian qualifications",
+     "explain": "modern forms spawned reform organisations, ritual now indexes status through wedding display, and caste functions as political pressure groups - the secularisation of caste"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the modern west, secularisation meant the fading hold of what?",
+     "a": "religion"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy202.we1",
+   "concept_id": "lesy202.3",
+   "problem": "A formerly low ranking caste in a region stops eating beef, engages brahmin priests for its weddings, and replaces bride-price with dowry. Which process is at work, what does it presuppose, and what does the shift from bride-price to dowry cost its women?",
+   "given": {
+    "markers": [
+     "ritual_imitation",
+     "priest_engagement",
+     "dowry_adoption"
+    ]
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "match the markers to the process",
+     "explain": "taking over the ritual and life style of a twice-born caste is exactly what srinivas called sanskritisation"
+    },
+    {
+     "step": 2,
+     "action": "state the precondition",
+     "explain": "the process normally presupposes an improvement in the group's economic or political position, or contact with a great tradition source such as a pilgrim centre"
+    },
+    {
+     "step": 3,
+     "action": "apply the gender criticism",
+     "explain": "among the five criticisms, adopting upper caste rites leads to secluding women and to dowry displacing bride-price, so women bear the cost of the group's rise"
+    }
+   ],
+   "answer": "the process is sanskritisation; it presupposes improved economic or political standing or great tradition contact; the women lose, since dowry replaces bride-price and seclusion can follow"
+  },
+  {
+   "id": "lesy202.we2",
+   "concept_id": "lesy202.5",
+   "problem": "A family outfits its home with a television, fridge and sofa set, yet arranges marriages within the caste and prays for a son. A neighbour calls them thoroughly westernised. Using the chapter's distinction, assess the claim.",
+   "given": {
+    "evidence": [
+     "consumer_goods",
+     "caste_endogamy",
+     "son_preference"
+    ]
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "sort the evidence by level",
+     "explain": "the goods belong to the general spread of western cultural traits - technology, furniture, habits - which is the surface level of westernisation"
+    },
+    {
+     "step": 2,
+     "action": "apply the values test",
+     "explain": "westernisation imitates external forms; it does not oblige anyone to adopt democracy, equality or a scientific temper, and caste endogamy with son preference shows conservative values intact"
+    },
+    {
+     "step": 3,
+     "action": "state the verdict",
+     "explain": "the family is westernised only in external traits; their practices are not modern in the sense of equality or choice based association"
+    }
+   ],
+   "answer": "the claim is only partly right: consumer goods mark trait-level westernisation, but without the values of democracy and equality the household is not modernised - the chapter's own example is modern technology serving female foeticide"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy202.ex1",
+   "source_ref": "lesy202.txt chapter-end Questions 1-3",
+   "questions": [
+    "Write a critical essay on sanskritisation.",
+    "Westernisation is often just about adoption of western attire and lifestyle. Are there other aspects to being westernised? Or is that about modernisation? Discuss.",
+    "Write short notes on: rites and secularisation; caste and secularisation; gender and sanskritisation."
+   ]
+  }
+ ]
+}

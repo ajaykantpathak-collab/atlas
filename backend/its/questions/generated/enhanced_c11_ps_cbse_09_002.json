@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_002",
+   "title": "c11_ps_cbse_09_002",
+   "questions": [
+    {
+     "q": "Define negative peace and positive peace in Johan Galtung's framework. What is the fundamental difference between them?",
+     "a": "Negative peace is the absence of direct violence (war, physical harm); positive peace is the presence of social justice, equity, and the absence of structural and cultural violence. The fundamental difference: negative peace is a *negative* condition (what is not there), while positive peace is a *positive* condition (what must be actively built). A wrong answer (e.g., \"negative peace is bad peace, positive peace is good peace\") reveals the student has not grasped the technical, non-normative meaning of \"negative\" and \"positive\" in Galtung's terminology.",
+     "self_check": true
+    },
+    {
+     "q": "A country signs a ceasefire agreement ending a decade-long insurgency. The government claims \"peace has been restored.\" Using Galtung's framework, explain why this claim may be premature. Identify the specific form of violence that a ceasefire alone does not address.",
+     "a": "A ceasefire ends direct violence (negative peace) but does not automatically address structural violence (unequal resource distribution, discriminatory laws, exclusion from political power) or cultural violence (ideologies justifying domination). The claim is premature because positive peace requires transforming these underlying structures. A wrong answer focusing only on \"trust deficit\" or \"psychological trauma\" misses the structural/cultural dimension and treats peace as merely interpersonal rather than systemic.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: Post-conflict Country Y holds elections (procedural democracy) but the former rebel group is barred from participating, the constitution retains emergency laws allowing detention without trial, and land reform promised in the peace accord is stalled. Analyze whether Country Y has achieved negative peace, positive peace, or neither. Justify using all three vertices of Galtung's violence triangle.",
+     "a": "Country Y has achieved negative peace (direct violence has ceased) but not positive peace. Structural violence persists: exclusion from political participation, denial of land reform, and emergency laws maintaining state impunity. Cultural violence persists: the narrative that former rebels are \"terrorists\" unworthy of rights justifies their exclusion. A wrong answer saying \"elections mean positive peace\" confuses procedural democracy with substantive justice and ignores how institutions can reproduce structural violence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Galtung's concept of positive peace with the Indian Constitution's Directive Principles of State Policy (Part IV). Identify two specific Directive Principles that operationalize positive peace and explain how they address structural violence.",
+     "a": "Article 38 (social order promoting welfare) and Article 39 (equitable distribution of resources, equal pay, protection against exploitation) operationalize positive peace by mandating the state to dismantle structural violence — economic inequality, concentration of wealth, labor exploitation. A wrong answer citing only Fundamental Rights (Part III) misses that positive peace requires *positive state action* (enabling provisions), not just negative restraints on state power. This confusion reveals a misunderstanding of the distinction between negative and positive obligations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Negative peace is a necessary but insufficient condition for positive peace.\" Provide a real-world example where negative peace existed for decades without progressing to positive peace, and explain the structural mechanism that blocked the transition.",
+     "a": "The statement is correct. Example: Cold War Europe (1945–1989) — no direct war between NATO/Warsaw Pact (negative peace), but structural violence persisted: authoritarian regimes in Eastern Europe, nuclear threat, ideological cultural violence. The mechanism blocking transition: bipolar power structure incentivized stability over justice; security dilemmas prioritized deterrence over disarmament and human rights. A wrong answer citing \"lack of economic development\" without linking to power structures misses the political economy of peace.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Positive Peace Index\" for a post-conflict district in India with three measurable indicators — one each for the absence of direct violence, structural violence, and cultural violence. Explain how each indicator captures a distinct vertex of Galtung's triangle.",
+     "a": "Sample index: (1) Direct violence: \"Incidents of communal clashes per 10,000 population per year\" — measures physical harm. (2) Structural violence: \"Percentage of ST/SC households with land titles vs. dominant caste households\" — measures resource inequality embedded in law/custom. (3) Cultural violence: \"Frequency of hate speech in local media/social media per month\" — measures legitimizing narratives. A poor answer uses only crime rates or literacy, collapsing all three vertices into one dimension and failing to operationalize the theoretical distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_072",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_072",
+   "title": "c6_math_ch07_072",
+   "questions": [
+    {
+     "q": "What do we call the common starting point where two rays meet to form an angle?",
+     "a": "It is called the vertex. A wrong answer (like \"corner\" or \"point\") shows the student is not using the correct geometric vocabulary needed for formal construction.",
+     "self_check": true
+    },
+    {
+     "q": "If two different angles have the same degree measure, but one has very long arms and the other has very short arms, which angle is larger?",
+     "a": "They are equal. A wrong answer reveals the common misconception that longer arms make an angle \"bigger\" because the student is confusing physical length with the measure of rotation.",
+     "self_check": true
+    },
+    {
+     "q": "If an angle measures 95°, how would you classify it: acute, right, or obtuse?",
+     "a": "It is an obtuse angle. A wrong answer suggests the student hasn't memorized the ranges (Acute < 90°, Right = 90°, Obtuse > 90° and < 180°).",
+     "self_check": true
+    },
+    {
+     "q": "Why do we have two sets of numbers (scales) on a standard protractor?",
+     "a": "To measure angles opening in either direction (left or right). A wrong answer shows the student doesn't understand how to align the protractor with the base ray.",
+     "self_check": true
+    },
+    {
+     "q": "Can a reflex angle be measured using a standard semi-circle protractor? If so, how?",
+     "a": "Yes, by measuring the interior angle and subtracting it from 360°, or by measuring the \"gap\" and adding 180°. A wrong answer indicates difficulty in visualizing the full 360° rotation.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a rough sketch of an angle that is exactly 45°. How would you explain to a friend that this is half of a right angle?",
+     "a": "The answer should describe that since a right angle is 90°, and 45° is 90° divided by 2, they represent the same \"turn.\" An answer that focuses only on drawing without explaining the relationship lacks conceptual depth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

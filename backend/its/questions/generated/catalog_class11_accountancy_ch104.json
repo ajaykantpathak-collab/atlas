@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class11_accountancy_ch104",
+ "concepts": [
+  {
+   "id": "keac.4.1.1",
+   "title": "Single Column Cash Book",
+   "questions": [
+    {
+     "q": "Calculate the closing balance of single column cash book. Use the method 'Single Column Cash Book'. Work with: opening_cash = 75, total_cash_payments = 18, total_cash_receipts = 100. Carry the chain through step by step and give the final value of closing_cash.",
+     "a": "157 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the cash in hand at the end of the month. Use the method 'Single Column Cash Book'. Work with: opening_cash = 60, total_cash_payments = 6, total_cash_receipts = 4. Carry the chain through step by step and give the final value of closing_cash.",
+     "a": "58 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Single Column Cash Book' refers to.",
+     "a": "A primary financial record containing a single amount column on each side that documents all incoming and outgoing cash chronologically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Single Column Cash Book'.",
+     "a": "Cash receipts are recorded on the debit side and cash payments on the credit side.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Single Column Cash Book', in plain ASCII form.",
+     "a": "closing_cash = opening_cash + total_cash_receipts - total_cash_payments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.1.2",
+   "title": "Double Column Cash Book and Bank Balance",
+   "questions": [
+    {
+     "q": "Calculate closing bank balance in double column cash book. Use the method 'Double Column Cash Book and Bank Balance'. Work with: opening_bank = 8, total_bank_deposits = 25, total_bank_withdrawals = 30. Carry the chain through step by step and give the final value of closing_bank.",
+     "a": "3 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the bank balance c/d after recording deposits and payments. Use the method 'Double Column Cash Book and Bank Balance'. Work with: opening_bank = 4, total_bank_deposits = 240, total_bank_withdrawals = 45. Carry the chain through step by step and give the final value of closing_bank.",
+     "a": "199 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Double Column Cash Book and Bank Balance' refers to.",
+     "a": "A subsidiary book equipped with distinct cash and bank columns on both debit and credit sides to register physical cash and banking activities simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Double Column Cash Book and Bank Balance'.",
+     "a": "Contra entries record mutual fund movements between cash and bank on both sides of the book.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Double Column Cash Book and Bank Balance', in plain ASCII form.",
+     "a": "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.1.3",
+   "title": "Petty Cash Book and Imprest System",
+   "questions": [
+    {
+     "q": "Calculate petty cash balance in hand at the end of the period. Use the method 'Petty Cash Book and Imprest System'. Work with: conveyance = 100, imprest_amount = 80000, miscellaneous = 360, postage = 1500, stationery = 80. Carry the chain through step by step and give the final value of closing_petty_balance.",
+     "a": "77960 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the reimbursement amount needed under imprest system. Use the method 'Petty Cash Book and Imprest System'. Work with: conveyance = 45, imprest_amount = 20000, miscellaneous = 6, postage = 150, stationery = 500. Carry the chain through step by step and give the final value of closing_petty_balance.",
+     "a": "19299 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Petty Cash Book and Imprest System' refers to.",
+     "a": "A secondary ledger maintained by a petty cashier to account for frequent low-value disbursements funded by a predetermined float called the imprest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Petty Cash Book and Imprest System'.",
+     "a": "The head cashier reimburses the exact sum of verified small expenditures to restore the original imprest float.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Petty Cash Book and Imprest System', in plain ASCII form.",
+     "a": "reimbursement_amount = total_petty_expenses; closing_petty_balance = imprest_amount - total_petty_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.2",
+   "title": "Purchases Journal and Trade Discount",
+   "questions": [
+    {
+     "q": "Calculate net amount to be entered in purchases book. Use the method 'Purchases Journal and Trade Discount'. Work with: gross_amount = 5000, trade_discount_rate = 20. Carry the chain through step by step and give the final value of net_purchases.",
+     "a": "4000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the total of purchases journal after trade discount. Use the method 'Purchases Journal and Trade Discount'. Work with: gross_amount = 2500, trade_discount_rate = 10. Carry the chain through step by step and give the final value of net_purchases.",
+     "a": "2250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Purchases Journal and Trade Discount' refers to.",
+     "a": "A dedicated subsidiary journal used exclusively to chronicle credit purchases of trading merchandise at net invoice price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Purchases Journal and Trade Discount'.",
+     "a": "Only credit purchases of goods meant for resale are entered, excluding cash purchases and asset purchases.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Purchases Journal and Trade Discount', in plain ASCII form.",
+     "a": "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.3",
+   "title": "Purchases Return Journal",
+   "questions": [
+    {
+     "q": "Calculate the net value of goods returned to supplier. Use the method 'Purchases Return Journal'. Work with: gross_return_amount = 8000, trade_discount_rate = 15. Carry the chain through step by step and give the final value of net_return_amount.",
+     "a": "6800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount to be recorded in purchases return book. Use the method 'Purchases Return Journal'. Work with: gross_return_amount = 20000, trade_discount_rate = 5. Carry the chain through step by step and give the final value of net_return_amount.",
+     "a": "19000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Purchases Return Journal' refers to.",
+     "a": "A special daybook that records items of trading goods returned to suppliers along with debit note references.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Purchases Return Journal'.",
+     "a": "Supported by debit notes issued to creditors for defective or non-compliant merchandise returned.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Purchases Return Journal', in plain ASCII form.",
+     "a": "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.4",
+   "title": "Sales Journal",
+   "questions": [
+    {
+     "q": "Calculate net sales to be entered in the sales book. Use the method 'Sales Journal'. Work with: gross_sales_amount = 120000, trade_discount_rate = 5. Carry the chain through step by step and give the final value of net_sales.",
+     "a": "114000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the total credit sales value after trade discount. Use the method 'Sales Journal'. Work with: gross_sales_amount = 2500, trade_discount_rate = 15. Carry the chain through step by step and give the final value of net_sales.",
+     "a": "2125 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sales Journal' refers to.",
+     "a": "A subsidiary record maintained to log all credit sales of merchandise to customers based on outgoing sales invoices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sales Journal'.",
+     "a": "Cash sales and sales of non-inventory assets are omitted from the sales journal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sales Journal', in plain ASCII form.",
+     "a": "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.5",
+   "title": "Sales Return Journal",
+   "questions": [
+    {
+     "q": "Calculate the net value of sales return. Use the method 'Sales Return Journal'. Work with: gross_sales_return = 120000, trade_discount_rate = 5. Carry the chain through step by step and give the final value of net_sales_return.",
+     "a": "114000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount to be recorded in sales return book. Use the method 'Sales Return Journal'. Work with: gross_sales_return = 20000, trade_discount_rate = 8. Carry the chain through step by step and give the final value of net_sales_return.",
+     "a": "18400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sales Return Journal' refers to.",
+     "a": "A designated daybook used to record returns of goods previously sold on credit, supported by credit notes issued to customers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sales Return Journal'.",
+     "a": "A credit note is issued to the customer acknowledging the reduction in their payable balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sales Return Journal', in plain ASCII form.",
+     "a": "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.6",
+   "title": "Journal Proper Entries Classification",
+   "questions": [
+    {
+     "q": "Using the method 'Journal Proper Entries Classification', work with: total_journal_credit = 25. Carry the chain through step by step and give the final value of total_journal_debit.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Journal Proper Entries Classification' and work with: total_journal_credit = 4. Carry the chain through step by step and give the final value of total_journal_debit.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Journal Proper Entries Classification' refers to.",
+     "a": "A residual book of original entry utilized for transactions that cannot be accommodated within any of the specialized subsidiary journals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Journal Proper Entries Classification'.",
+     "a": "Records opening, adjustment, rectification, transfer, and miscellaneous non-cash or non-trading entries.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Journal Proper Entries Classification', in plain ASCII form.",
+     "a": "total_journal_debit = total_journal_credit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.4.7",
+   "title": "Balancing of Ledger Accounts",
+   "questions": [
+    {
+     "q": "Calculate the balance of ledger account. Use the method 'Balancing of Ledger Accounts'. Work with: total_credit = 400, total_debit = 500. Carry the chain through step by step and give the final value of account_balance.",
+     "a": "100 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the balance c/d in ledger account. Use the method 'Balancing of Ledger Accounts'. Work with: total_credit = 240, total_debit = 300. Carry the chain through step by step and give the final value of account_balance.",
+     "a": "60 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balancing of Ledger Accounts' refers to.",
+     "a": "The periodic accounting routine of computing the total difference between debit and credit sides of an account to determine its net closing balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balancing of Ledger Accounts'.",
+     "a": "A debit balance arises when debit total exceeds credit total; a credit balance occurs when credit exceeds debit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balancing of Ledger Accounts', in plain ASCII form.",
+     "a": "account_balance = abs(total_debit - total_credit)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

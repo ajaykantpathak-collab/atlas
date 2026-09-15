@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_012",
+   "title": "c11_ps_cbse_15_012",
+   "questions": [
+    {
+     "q": "Under which Article of the Constitution is a High Court established for each State, and what is the constitutional status of a High Court as a \"court of record\"?",
+     "a": "Article 214 establishes a High Court for each State (or common High Court for two or more States under Article 231). Article 215 declares every High Court a \"court of record\" — meaning its judgments are preserved as legal precedents, it has power to punish for contempt of itself, and its records have evidentiary value. A wrong answer (e.g., citing Article 124 which establishes the Supreme Court, or saying High Courts are not courts of record) reveals confusion between the Supreme Court and High Court constitutional schemes, or misunderstanding of what \"court of record\" entails.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the Supreme Court has writ jurisdiction under Article 32 for fundamental rights, High Court writ jurisdiction under Article 226 is redundant.\" Explain why this argument is constitutionally incorrect, citing the textual and functional differences between Articles 32 and 226.",
+     "a": "Article 32 is a fundamental right itself (right to constitutional remedies) — the Supreme Court *must* entertain writ petitions for fundamental rights violations. Article 226 is discretionary — High Courts *may* issue writs for fundamental rights **and** \"for any other purpose\" (e.g., statutory rights, administrative law violations). Article 226 has wider scope; Article 32 is narrower but mandatory. A wrong answer (e.g., saying both are identical, or that Article 226 is only for fundamental rights) reveals failure to grasp the deliberate constitutional design: High Courts are the first line of defense for rights, with broader remedial power, reducing Supreme Court burden.",
+     "self_check": true
+    },
+    {
+     "q": "The State of Karnataka passes a law regulating agricultural produce marketing. A traders' association challenges it in the Karnataka High Court, claiming it violates Article 301 (freedom of trade). The State argues the High Court lacks jurisdiction because agriculture is a State List subject. Analyze: Does the High Court have jurisdiction? Under which Article? What standard of review applies?",
+     "a": "Yes, the Karnataka High Court has jurisdiction. Article 226 empowers High Courts to issue writs for enforcement of fundamental rights **and** \"for any other purpose\" — including examining whether a State law violates constitutional provisions like Article 301. Agriculture being a State List subject (Entry 14, List II) does not oust judicial review; the Constitution is supreme. The High Court applies the \"reasonableness\" test for Article 301 restrictions (per *Atiabari Tea Co.* and *Automobile Transport* cases). A wrong answer (saying no jurisdiction because it's a State subject, or that only Supreme Court can hear Article 301 cases) reveals misunderstanding of the supremacy of the Constitution over legislative lists and the expansive scope of Article 226.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the superintendence power of the High Court under Article 227 with the appellate jurisdiction under Articles 225 and 226. How does Article 227 strengthen the High Court's role in maintaining a unified judicial hierarchy within the State?",
+     "a": "Article 227 (superintendence) is **administrative and judicial** — the High Court oversees *all* courts and tribunals in the State (calling for returns, making rules, prescribing forms, settling fees), ensuring uniformity and discipline. Articles 225/226 (appellate/writ) are **case-specific adjudicatory** powers. Article 227 is broader: it covers tribunals not subject to appeal, enables *suo motu* intervention, and secures the High Court's position as head of the State judiciary. A wrong answer (equating superintendence with appeal, or saying it only applies to civil/criminal courts) reveals failure to see Article 227 as the structural linchpin integrating the subordinate judiciary into a coherent State-level judicial system — essential for federalism's \"dual polity\" to function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The creation of common High Courts for two or more States (Article 231) weakens federalism by diluting State-level judicial autonomy.\" Support your evaluation with constitutional provisions and at least one real example.",
+     "a": "The statement is **partially valid but constitutionally settled**. Article 231 permits Parliament (by law) to establish a common High Court for two or more States/UTs *with the consent of the concerned State legislatures*. This consent requirement preserves federal autonomy. Examples: Punjab & Haryana High Court (Chandigarh) serves both States; Guwahati High Court serves Assam, Arunachal, Nagaland, Mizoram. Common High Courts promote judicial efficiency and uniformity but can raise concerns about accessibility and State-specific legal culture. The Constitution balances efficiency (Article 231) with autonomy (legislative consent). A poor evaluation ignores the consent mechanism or treats efficiency and autonomy as zero-sum.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional argument that a High Court could use to assert its jurisdiction over a State government's executive order that bypasses the State legislature to allocate mining licenses, citing the specific Articles and constitutional principles involved.",
+     "a": "A strong answer cites: Article 226 (writ jurisdiction — \"any other purpose\" includes checking executive overreach), Article 213 (ordinance-making power limited to when legislature is not in session), Article 200 (Governor's assent required for laws), and the principle of **legislative supremacy** in law-making (Entry 23, State List — regulation of mines). The argument: The executive order constitutes *de facto* legislation without legislative sanction, violating the separation of powers within the State (a basic structure principle per *Keshavananda Bharati* as applied to States). The High Court, as guardian of the State Constitution (Article 227 superintendence + Article 226), must strike it down. A weak answer cites only Article 226 without connecting to legislative power distribution or separation of powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

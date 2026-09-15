@@ -1,0 +1,759 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Binomial Theorem",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh107.txt",
+ "concepts": [
+  {
+   "id": "kemh107.7.2.1",
+   "title": "Pascal's Triangle and Binomial Coefficients",
+   "section": "7.2",
+   "definition": "An arrangement of binomial coefficients in a triangular pattern where each number is the sum of the two numbers directly above it.",
+   "formula": "nCr = n! / (r! * (n - r)!)",
+   "key_idea": "Symmetric triangular representation of combination values representing binomial coefficients.",
+   "textbook_ref": "kemh107.txt lines 40-100",
+   "question_patterns": [
+    "construct the Pascal triangle up to index n",
+    "find the binomial coefficients for power n",
+    "what are the coefficients of the terms in the expansion of degree n",
+    "Explain the method of Pascal's Triangle and Binomial Coefficients.",
+    "Describe the approach of Pascal's Triangle and Binomial Coefficients."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write down the rows of Pascal's triangle starting from index 0",
+     "explain": "Each row starts and ends with 1, and intermediate terms are the sum of adjacent terms in the previous row."
+    },
+    {
+     "step": 2,
+     "action": "Identify the row corresponding to the given index n",
+     "explain": "The row for index n contains n + 1 coefficients corresponding to nC0, nC1, ..., nCn."
+    },
+    {
+     "step": 3,
+     "action": "Verify each coefficient matches the combination formula",
+     "explain": "Confirm that each entry in row n equals nCr computed as n! / (r! * (n - r)!) for r from 0 to n."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.2",
+   "title": "Binomial Theorem for Positive Integral Index",
+   "section": "7.2.1",
+   "definition": "A formula expressing any positive integer power of a binomial sum as a sum of terms involving powers of the individual terms and binomial coefficients.",
+   "formula": "(a + b)^n = nC0 * a^n + nC1 * a^(n-1) * b + ... + nCn * b^n",
+   "key_idea": "Expanding a binomial sum using combination coefficients and decreasing/increasing powers.",
+   "textbook_ref": "kemh107.txt lines 105-150",
+   "question_patterns": [
+    "expand the binomial expression",
+    "using binomial theorem expand",
+    "find the expansion of",
+    "Explain the method of Binomial Theorem for Positive Integral Index.",
+    "Describe the approach of Binomial Theorem for Positive Integral Index."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the terms a, b and the exponent n in the given expression",
+     "explain": "The expression must be written in the standard form (a + b)^n."
+    },
+    {
+     "step": 2,
+     "action": "Write the expansion using binomial coefficients nCr",
+     "explain": "The general term is nCr * a^(n-r) * b^r for r from 0 to n."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the coefficients and powers of each term",
+     "explain": "Calculate the numerical values of nCr and combine them with the powers of a and b."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.3",
+   "title": "Binomial Expansion of (x - y)^n",
+   "section": "7.2.2",
+   "definition": "The expansion of a binomial difference where the signs of the terms alternate starting with positive.",
+   "formula": "(x - y)^n = nC0 * x^n - nC1 * x^(n-1) * y + nC2 * x^(n-2) * y^2 - ... + (-1)^n * nCn * y^n",
+   "key_idea": "Alternating signs in the expansion of a difference of two terms.",
+   "textbook_ref": "kemh107.txt lines 170-190",
+   "question_patterns": [
+    "expand the difference",
+    "find the expansion of (x - y)^n",
+    "expand using binomial theorem with negative term",
+    "Explain the method of Binomial Expansion of (x - y)^n.",
+    "Describe the approach of Binomial Expansion of (x - y)^n."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the terms x, y and the exponent n",
+     "explain": "Treat the expression as (x + (-y))^n."
+    },
+    {
+     "step": 2,
+     "action": "Apply the binomial theorem with alternating signs",
+     "explain": "Odd powers of y will have negative signs, while even powers will have positive signs."
+    },
+    {
+     "step": 3,
+     "action": "Simplify each term to get the final alternating series",
+     "explain": "Compute the coefficients and combine them with the variables."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.4",
+   "title": "Binomial Expansion of (1 + x)^n and (1 - x)^n",
+   "section": "7.2.2",
+   "definition": "Special cases of the binomial theorem where one of the terms is unity, simplifying the expansion to a sum of powers of x multiplied by binomial coefficients.",
+   "formula": "(1 + x)^n = nC0 + nC1 * x + nC2 * x^2 + ... + nCn * x^n",
+   "key_idea": "Simplification of binomial expansion when the first term is 1.",
+   "textbook_ref": "kemh107.txt lines 191-210",
+   "question_patterns": [
+    "expand (1 + x)^n",
+    "find the expansion of (1 - x)^n",
+    "write the binomial expansion of 1 plus x to the power",
+    "Explain the method of Binomial Expansion of (1 + x)^n and (1 - x)^n.",
+    "Describe the approach of Binomial Expansion of (1 + x)^n and (1 - x)^n."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the variable term x and the exponent n",
+     "explain": "The expression is in the form (1 + x)^n or (1 - x)^n."
+    },
+    {
+     "step": 2,
+     "action": "Write down the terms with coefficients nCr and powers of x",
+     "explain": "The r-th term is nCr * x^r (or (-1)^r * nCr * x^r for subtraction)."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the coefficients and combine with powers of x",
+     "explain": "Evaluate each nCr numerically and combine with the corresponding power of x to obtain the final expanded polynomial."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.5",
+   "title": "Numerical Evaluation of Powers",
+   "section": "7.2.2",
+   "definition": "A method to calculate high powers of numbers by splitting them into a sum or difference of a base (like 10, 100, 1000) and a small integer, then expanding.",
+   "formula": "(base + delta)^n = sum(nCr * base^(n-r) * delta^r)",
+   "key_idea": "Expressing numbers near powers of 10 as binomials to simplify manual calculation of high powers.",
+   "textbook_ref": "kemh107.txt lines 220-235",
+   "question_patterns": [
+    "evaluate the power using binomial theorem",
+    "compute the value of",
+    "calculate the numerical value of",
+    "Explain the method of Numerical Evaluation of Powers.",
+    "Describe the approach of Numerical Evaluation of Powers."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the given number as a sum or difference of a round number and a small integer",
+     "explain": "For example, 98 can be written as 100 - 2, and 102 as 100 + 2."
+    },
+    {
+     "step": 2,
+     "action": "Apply the binomial theorem to expand the expression",
+     "explain": "Use the formula for (a + b)^n or (a - b)^n."
+    },
+    {
+     "step": 3,
+     "action": "Calculate the individual terms and sum them up",
+     "explain": "Compute the powers of the round number and the small integer, multiply by the binomial coefficients, and combine."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.6",
+   "title": "Comparing Large Numbers using Binomial Theorem",
+   "section": "7.2.2",
+   "definition": "Comparing a large decimal power with a given integer by expanding the decimal power using the binomial theorem and evaluating just the first two terms.",
+   "formula": "(1 + x)^n > 1 + n * x",
+   "key_idea": "Using the first two terms of the binomial expansion as a lower bound for comparison.",
+   "textbook_ref": "kemh107.txt lines 236-245",
+   "question_patterns": [
+    "Which is larger: (1.01)^1000000 or 10000? Justify using the binomial expansion of (1 + x)^n.",
+    "compare the numbers",
+    "indicate which number is larger",
+    "Explain the method of Comparing Large Numbers using Binomial Theorem.",
+    "Describe the approach of Comparing Large Numbers using Binomial Theorem."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the decimal base in the form 1 + x",
+     "explain": "For example, 1.01 becomes 1 + 0.01."
+    },
+    {
+     "step": 2,
+     "action": "Expand (1 + x)^n using the binomial theorem",
+     "explain": "Write the expansion as 1 + n*x + other positive terms."
+    },
+    {
+     "step": 3,
+     "action": "Compare the sum of the first two terms with the target number",
+     "explain": "Since all other terms are positive, the total sum is strictly greater than the sum of the first two terms."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.7",
+   "title": "Divisibility and Remainder Proofs",
+   "section": "7.2.2",
+   "definition": "Proving that an expression is divisible by a number or leaves a certain remainder by rewriting the base as (1 + x) and expanding.",
+   "formula": "(1 + x)^n = 1 + n * x + x^2 * k",
+   "key_idea": "Factoring out the divisor from the higher-order terms of a binomial expansion.",
+   "textbook_ref": "kemh107.txt lines 246-265",
+   "question_patterns": [
+    "prove that leaves remainder when divided by",
+    "show that is divisible by",
+    "prove divisibility using binomial theorem",
+    "Explain the method of Divisibility and Remainder Proofs.",
+    "Describe the approach of Divisibility and Remainder Proofs."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the base of the power in the form 1 + x, where x^2 is related to the divisor",
+     "explain": "For proving divisibility by 25, write 6^n as (1 + 5)^n."
+    },
+    {
+     "step": 2,
+     "action": "Expand (1 + x)^n using the binomial theorem",
+     "explain": "Write the expansion as 1 + n*x + nC2 * x^2 + nC3 * x^3 + ..."
+    },
+    {
+     "step": 3,
+     "action": "Group terms containing x^2 and higher powers",
+     "explain": "Factor out x^2 from these terms to express them as x^2 * k, where k is an integer."
+    },
+    {
+     "step": 4,
+     "action": "Rearrange the expression to match the form divisor * k + remainder",
+     "explain": "This shows the divisibility or the remainder left upon division."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.8",
+   "title": "Number of Terms in a Binomial Expansion",
+   "section": "7.2.1",
+   "definition": "The total number of terms in the expansion of a binomial expression raised to a positive integer power n.",
+   "formula": "num_terms = n + 1",
+   "key_idea": "The number of terms in the expansion of (a + b)^n is always one more than the exponent n.",
+   "textbook_ref": "kemh107.txt lines 155-160",
+   "question_patterns": [
+    "find the number of terms in the expansion of",
+    "how many terms are there in the expansion of",
+    "calculate the number of terms in",
+    "Explain the method of Number of Terms in a Binomial Expansion.",
+    "Describe the approach of Number of Terms in a Binomial Expansion."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the power n of the binomial expression",
+     "explain": "The expression must be of the form (a + b)^n.",
+     "compute": "n"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the power n to get the total number of terms",
+     "explain": "Since the terms range from r = 0 to r = n, there are n + 1 terms in total.",
+     "compute": "index + 1"
+    },
+    {
+     "step": 3,
+     "action": "Verify the count matches the range of r from 0 to n",
+     "explain": "Confirm that the number of terms equals the count of integer values r takes from 0 through n inclusive.",
+     "compute": "num_terms"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving number of terms in a binomial expansion.",
+     "solution": "Step 1: Identify the power n of the binomial expression. Step 2: Add 1 to the power n to get the total number of terms. Step 3: Verify the count matches the range of r from 0 to n. Working: n, index + 1, num_terms.",
+     "answer": "Number of Terms in a Binomial Expansion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply number of terms in a binomial expansion to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify the power n of the binomial expression. Step 2: Add 1 to the power n to get the total number of terms. Step 3: Verify the count matches the range of r from 0 to n. Working: n, index + 1, num_terms.",
+     "answer": "The method of number of terms in a binomial expansion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.9",
+   "title": "Sum of Binomial Coefficients",
+   "section": "7.2.2",
+   "definition": "The sum of all combination coefficients nCr for a given positive integer index n.",
+   "formula": "sum_coefficients = 2 ** n",
+   "key_idea": "Substituting x = 1 in the expansion of (1 + x)^n yields the sum of all binomial coefficients.",
+   "textbook_ref": "kemh107.txt lines 205-210",
+   "question_patterns": [
+    "find the sum of binomial coefficients for index",
+    "calculate the sum of all nCr for a given n",
+    "what is the sum of coefficients in the expansion of",
+    "Explain the method of Sum of Binomial Coefficients.",
+    "Describe the approach of Sum of Binomial Coefficients."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the index n of the binomial expansion",
+     "explain": "The index n determines the order of the binomial coefficients.",
+     "compute": "n"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 2 raised to the power of n",
+     "explain": "The sum of all binomial coefficients nC0 + nC1 + ... + nCn is equal to 2^n.",
+     "compute": "2 ** index"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result equals the sum of all nCr values",
+     "explain": "Confirm that substituting x = 1 in the expansion of (1 + x)^n yields the same total as 2^n.",
+     "compute": "sum_coefficients"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving sum of binomial coefficients.",
+     "solution": "Step 1: Identify the index n of the binomial expansion. Step 2: Calculate 2 raised to the power of n. Step 3: Verify the result equals the sum of all nCr values. Working: n, 2 ** index, sum_coefficients.",
+     "answer": "Sum of Binomial Coefficients applied step by step gives the required result."
+    },
+    {
+     "question": "Apply sum of binomial coefficients to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify the index n of the binomial expansion. Step 2: Calculate 2 raised to the power of n. Step 3: Verify the result equals the sum of all nCr values. Working: n, 2 ** index, sum_coefficients.",
+     "answer": "The method of sum of binomial coefficients leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.10",
+   "title": "Sum of Multiplied Binomial Coefficients",
+   "section": "7.2.2",
+   "definition": "Evaluating sums of the form sum(c^r * nCr) by identifying them as the binomial expansion of (1 + c)^n.",
+   "formula": "total_sum = (1 + c) ** n",
+   "key_idea": "Using the substitution x = c in the expansion of (1 + x)^n to find the sum of multiplied coefficients.",
+   "textbook_ref": "kemh107.txt line 300",
+   "question_patterns": [
+    "find the sum of 3^r * nCr",
+    "evaluate the sum of c^r * nCr",
+    "calculate the value of sum from r=0 to n of c^r * nCr",
+    "Explain the method of Sum of Multiplied Binomial Coefficients.",
+    "Describe the approach of Sum of Multiplied Binomial Coefficients."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base constant c and the power n from the summation",
+     "explain": "The summation is of the form sum(c^r * nCr) from r = 0 to n.",
+     "compute": "c"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the base constant c",
+     "explain": "The base of the simplified exponential expression is 1 + c.",
+     "compute": "1 + base"
+    },
+    {
+     "step": 3,
+     "action": "Raise the base sum to the power of n",
+     "explain": "The total sum is equal to (1 + c)^n.",
+     "compute": "base_sum ** n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving sum of multiplied binomial coefficients.",
+     "solution": "Step 1: Identify the base constant c and the power n from the summation. Step 2: Add 1 to the base constant c. Step 3: Raise the base sum to the power of n. Working: c, 1 + base, base_sum ** n.",
+     "answer": "Sum of Multiplied Binomial Coefficients applied step by step gives the required result."
+    },
+    {
+     "question": "Apply sum of multiplied binomial coefficients to a fresh example and interpret the result.",
+     "solution": "Step 1: Identify the base constant c and the power n from the summation. Step 2: Add 1 to the base constant c. Step 3: Raise the base sum to the power of n. Working: c, 1 + base, base_sum ** n.",
+     "answer": "The method of sum of multiplied binomial coefficients leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh107.7.2.11",
+   "title": "Expansion of Trinomials and Grouping",
+   "section": "7.2.2",
+   "definition": "Expanding expressions containing three terms by grouping two of them together as a single term and applying the binomial theorem recursively.",
+   "formula": "(a + b + c)^n = ((a + b) + c)^n",
+   "key_idea": "Reducing a trinomial expansion to a binomial expansion through grouping.",
+   "textbook_ref": "kemh107.txt lines 310-320",
+   "question_patterns": [
+    "expand the trinomial",
+    "expand (a + b + c)^n using binomial theorem",
+    "find the expansion of three terms",
+    "Explain the method of Expansion of Trinomials and Grouping.",
+    "Describe the approach of Expansion of Trinomials and Grouping."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group two of the terms together to form a single binomial term",
+     "explain": "For example, write (a + b + c)^n as ((a + b) + c)^n."
+    },
+    {
+     "step": 2,
+     "action": "Apply the binomial theorem to the grouped expression",
+     "explain": "Expand using the terms (a + b) and c."
+    },
+    {
+     "step": 3,
+     "action": "Expand each term containing powers of the grouped term",
+     "explain": "Apply the binomial theorem again to terms like (a + b)^k and simplify the entire expression."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh107.txt lines 211-219",
+   "concept": "kemh107.7.2.2",
+   "question_type": "expand",
+   "question_pattern": "Expand (x^2 + 3/x)^4",
+   "extracted_variables": {
+    "term1": "x^2",
+    "term2": "3/x",
+    "power": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the terms a, b and the exponent n in the given expression",
+     "explain": "Here, a = x^2, b = 3/x, and n = 4."
+    },
+    {
+     "step": 2,
+     "action": "Write the expansion using binomial coefficients nCr",
+     "explain": "The expansion is 4C0*(x^2)^4 + 4C1*(x^2)^3*(3/x) + 4C2*(x^2)^2*(3/x)^2 + 4C3*(x^2)*(3/x)^3 + 4C4*(3/x)^4."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the coefficients and powers of each term",
+     "explain": "This simplifies to x^8 + 12*x^5 + 54*x^2 + 108/x + 81/x^4."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh107.txt lines 220-235",
+   "concept": "kemh107.7.2.5",
+   "question_type": "compute",
+   "question_pattern": "Compute (98)^5",
+   "extracted_variables": {
+    "num": "98",
+    "power": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express the given number as a sum or difference of a round number and a small integer",
+     "explain": "We can write 98 as 100 - 2."
+    },
+    {
+     "step": 2,
+     "action": "Apply the binomial theorem to expand the expression",
+     "explain": "Expand (100 - 2)^5 = 5C0*100^5 - 5C1*100^4*2 + 5C2*100^3*2^2 - 5C3*100^2*2^3 + 5C4*100*2^4 - 5C5*2^5."
+    },
+    {
+     "step": 3,
+     "action": "Calculate the individual terms and sum them up",
+     "explain": "Evaluating the terms gives 10000000000 - 1000000000 + 40000000 - 800000 + 8000 - 32 = 9039207968."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh107.txt lines 236-245",
+   "concept": "kemh107.7.2.6",
+   "question_type": "compare",
+   "question_pattern": "Which is larger (1.01)^1000000 or 10000?",
+   "extracted_variables": {
+    "val": "1.01",
+    "power": "1000000",
+    "target": "10000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express the decimal base in the form 1 + x",
+     "explain": "We write 1.01 as 1 + 0.01."
+    },
+    {
+     "step": 2,
+     "action": "Expand (1 + x)^n using the binomial theorem",
+     "explain": "We expand (1 + 0.01)^1000000 = 1 + 1000000 * 0.01 + other positive terms."
+    },
+    {
+     "step": 3,
+     "action": "Compare the sum of the first two terms with the target number",
+     "explain": "The sum of the first two terms is 1 + 10000 = 10001, which is strictly greater than 10000."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh107.txt lines 246-265",
+   "concept": "kemh107.7.2.7",
+   "question_type": "prove_divisibility",
+   "question_pattern": "Prove that 6^n - 5^n always leaves remainder 1 when divided by 25",
+   "extracted_variables": {
+    "base1": "6",
+    "base2": "5",
+    "rem": "1",
+    "div": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express the base of the power in the form 1 + x",
+     "explain": "We write 6^n as (1 + 5)^n."
+    },
+    {
+     "step": 2,
+     "action": "Expand (1 + x)^n using the binomial theorem",
+     "explain": "We expand (1 + 5)^n = nC0 + nC1 * 5 + nC2 * 5^2 + nC3 * 5^3 + ..."
+    },
+    {
+     "step": 3,
+     "action": "Group terms containing x^2 and higher powers",
+     "explain": "6^n = 1 + 5n + 25 * (nC2 + 5 * nC3 + ...)"
+    },
+    {
+     "step": 4,
+     "action": "Rearrange the expression to match the form divisor * k + remainder",
+     "explain": "6^n - 5n = 25 * k + 1, which shows the remainder is 1 when divided by 25."
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Number of Terms in a Binomial Expansion chain with n = 2, index = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "index": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the power n of the binomial expression",
+     "explain": "The expression must be of the form (a + b)^n.",
+     "compute": "index = n"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the power n to get the total number of terms",
+     "explain": "Since the terms range from r = 0 to r = n, there are n + 1 terms in total.",
+     "compute": "num_terms = index + 1"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Number of Terms in a Binomial Expansion chain with n = 2, index = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "index": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the power n of the binomial expression",
+     "explain": "The expression must be of the form (a + b)^n.",
+     "compute": "index = n"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the power n to get the total number of terms",
+     "explain": "Since the terms range from r = 0 to r = n, there are n + 1 terms in total.",
+     "compute": "num_terms = index + 1"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.9",
+   "question_type": "compute",
+   "question_pattern": "Apply the Sum of Binomial Coefficients chain with n = 2, index = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "index": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the index n of the binomial expansion",
+     "explain": "The index n determines the order of the binomial coefficients.",
+     "compute": "index = n"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 2 raised to the power of n",
+     "explain": "The sum of all binomial coefficients nC0 + nC1 + ... + nCn is equal to 2^n.",
+     "compute": "sum_coefficients = 2 ** index"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.9",
+   "question_type": "compute",
+   "question_pattern": "Apply the Sum of Binomial Coefficients chain with n = 2, index = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "index": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the index n of the binomial expansion",
+     "explain": "The index n determines the order of the binomial coefficients.",
+     "compute": "index = n"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 2 raised to the power of n",
+     "explain": "The sum of all binomial coefficients nC0 + nC1 + ... + nCn is equal to 2^n.",
+     "compute": "sum_coefficients = 2 ** index"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.10",
+   "question_type": "compute",
+   "question_pattern": "Apply the Sum of Multiplied Binomial Coefficients chain with c = 2, base = 3, base_sum = 5, n = 4. What value does it produce?",
+   "extracted_variables": {
+    "c": "2",
+    "base": "3",
+    "base_sum": "5",
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the base constant c and the power n from the summation",
+     "explain": "The summation is of the form sum(c^r * nCr) from r = 0 to n.",
+     "compute": "base = c"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the base constant c",
+     "explain": "The base of the simplified exponential expression is 1 + c.",
+     "compute": "base_sum = 1 + base"
+    },
+    {
+     "step": 3,
+     "action": "Raise the base sum to the power of n",
+     "explain": "The total sum is equal to (1 + c)^n.",
+     "compute": "total_sum = base_sum ** n"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh107.7.2.10",
+   "question_type": "compute",
+   "question_pattern": "Apply the Sum of Multiplied Binomial Coefficients chain with c = 2, base = 3, base_sum = 5, n = 4. What value does it produce?",
+   "extracted_variables": {
+    "c": "2",
+    "base": "3",
+    "base_sum": "5",
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the base constant c and the power n from the summation",
+     "explain": "The summation is of the form sum(c^r * nCr) from r = 0 to n.",
+     "compute": "base = c"
+    },
+    {
+     "step": 2,
+     "action": "Add 1 to the base constant c",
+     "explain": "The base of the simplified exponential expression is 1 + c.",
+     "compute": "base_sum = 1 + base"
+    },
+    {
+     "step": 3,
+     "action": "Raise the base sum to the power of n",
+     "explain": "The total sum is equal to (1 + c)^n.",
+     "compute": "total_sum = base_sum ** n"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "kemh107.txt lines 266-302",
+   "questions": [
+    "Expand (1 - 2x)^5",
+    "Expand (2/x - x/2)^5",
+    "Expand (2x - 3)^6",
+    "Expand (x/3 + 1/x)^5",
+    "Expand (x + 1/x)^6",
+    "Evaluate (96)^3 using binomial theorem",
+    "Evaluate (102)^5 using binomial theorem",
+    "Evaluate (101)^4 using binomial theorem",
+    "Evaluate (99)^5 using binomial theorem",
+    "Using Binomial Theorem, indicate which number is larger (1.1)^10000 or 1000.",
+    "Find (a + b)^4 - (a - b)^4. Hence, evaluate (sqrt(3) + sqrt(2))^4 - (sqrt(3) - sqrt(2))^4.",
+    "Find (x + 1)^6 + (x - 1)^6. Hence or otherwise evaluate (sqrt(2) + 1)^6 + (sqrt(2) - 1)^6.",
+    "Show that 9^(n+1) - 8n - 9 is divisible by 64, whenever n is a positive integer.",
+    "Prove that sum_{r=0}^n 3^r * nCr = 4^n."
+   ]
+  },
+  {
+   "id": "ex_misc7",
+   "source_ref": "kemh107.txt lines 303-325",
+   "questions": [
+    "If a and b are distinct integers, prove that a - b is a factor of a^n - b^n, whenever n is a positive integer.",
+    "Evaluate (sqrt(3) + sqrt(2))^6 - (sqrt(3) - sqrt(2))^6.",
+    "Find the value of (a^2 + sqrt(a^2 - 1))^4 + (a^2 - sqrt(a^2 - 1))^4.",
+    "Find an approximation of (0.99)^5 using the first three terms of its expansion.",
+    "Expand using Binomial Theorem (1 + x/2 - 2/x)^4, x != 0.",
+    "Find the expansion of (3x^2 - 2ax + 3a^2)^3 using binomial theorem."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

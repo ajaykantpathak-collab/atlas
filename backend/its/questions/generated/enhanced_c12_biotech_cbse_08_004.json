@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_004",
+   "title": "c12_biotech_cbse_08_004",
+   "questions": [
+    {
+     "q": "A researcher is culturing primary human fibroblasts for a wound-healing study. She uses DMEM supplemented with 10% fetal bovine serum (FBS). Classify this medium according to the NCERT classification scheme (natural vs synthetic; if synthetic, which sub-category?) and justify your classification in one sentence.",
+     "a": "Correct answer: Synthetic medium, serum-containing sub-category. Justification: DMEM is a chemically defined basal medium (synthetic), and the addition of FBS (an undefined biological supplement) makes it a serum-containing synthetic medium. A wrong answer such as \"natural medium because serum is natural\" reveals the misconception that any biological component makes the whole medium natural; NCERT explicitly defines synthetic media as \"basal medium with supplements such as hormones, growth factors, serum\" (Box 3). The basal medium defines the category, not the supplement.",
+     "self_check": true
+    },
+    {
+     "q": "Two media formulations are compared: Medium A = RPMI-1640 + 10% FBS + 1% penicillin-streptomycin; Medium B = Chemically defined, protein-free, serum-free medium with recombinant human insulin, transferrin, and selenium (ITS supplement). A student claims: \"Medium B is better because it has no serum, so it eliminates all variability.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Explain the specific advantage and the hidden limitation of Medium B for regulatory filing.",
+     "a": "Correct evaluation: Partially correct. Medium B eliminates serum-derived batch variability and reduces adventitious agent risk (viruses, prions, mycoplasma) — a major advantage for GMP/compliance. However, the claim \"eliminates all variability\" is false: recombinant supplements (insulin, transferrin) also have batch-to-batch variability, and protein-free media often require extensive optimisation for each cell line, introducing process variability. A student saying \"fully correct\" misses the nuance that serum-free ≠ variability-free; a student saying \"incorrect\" fails to acknowledge the genuine regulatory advantage. NCERT notes serum-free media \"make a medium selective for a particular cell type, since each cell type appears to require a different recipe\" (Box 3), implying new variability sources.",
+     "self_check": true
+    },
+    {
+     "q": "A lab switches from a bicarbonate/CO₂ buffering system (5% CO₂ incubator) to a HEPES-buffered medium for a field-deployable diagnostic assay where CO₂ incubators are unavailable. The cells show reduced viability after 48 hours. Propose two distinct mechanistic reasons for this failure, each linked to a specific property of HEPES mentioned in NCERT.",
+     "a": "Correct reasons: (1) HEPES is \"relatively expensive and toxic at a higher concentration for some cell types\" (NCERT) — the concentration required for adequate buffering (typically 10–25 mM) may exceed the toxicity threshold for sensitive primary cells. (2) HEPES buffering does not involve CO₂/HCO₃⁻ equilibrium, so cells lose the metabolic coupling where \"the presence of pyruvate in the medium results in the increased endogenous production of CO₂ by the cells\" (NCERT) — this disrupts pH homeostasis linked to cellular metabolism. A student citing only \"HEPES is toxic\" misses the metabolic coupling aspect; a student citing only \"no CO₂\" misses the explicit toxicity warning in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the osmolality contribution of glucose vs inorganic salts in a typical commercial medium (e.g., DMEM: 4.5 g/L glucose, ~6.8 g/L NaCl). Calculate the approximate molar contribution of each to osmolality (assume glucose MW = 180 g/mol, NaCl MW = 58.5 g/mol, NaCl → 2 particles). Which contributes more particles per litre? Relate this to the NCERT statement: \"Both, glucose and salt are the major donors to the osmolality of the medium, even though amino acids also contribute significantly.\"",
+     "a": "Correct calculation: Glucose = 4.5 g/L ÷ 180 g/mol = 25 mmol/L = 25 mOsmol/L (non-dissociating). NaCl = 6.8 g/L ÷ 58.5 g/mol = 116 mmol/L × 2 particles = 232 mOsmol/L. Inorganic salts (primarily NaCl) contribute ~9× more osmolality than glucose. However, NCERT says both are \"major donors\" because: (a) glucose concentration varies across media (e.g., low-glucose DMEM has 1 g/L → 5.5 mOsmol/L), making its relative contribution formulation-dependent; (b) amino acids collectively contribute 20–40 mOsmol/L, comparable to glucose in high-glucose media. A student concluding \"salts dominate, so glucose is minor\" misreads \"major donors\" as \"equal donors\" — NCERT means both are significant enough to require formulation control, not that they are equal.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company is developing a process for recombinant Factor VIII (for Hemophilia A) in CHO cells. They must choose between: Option X — DMEM + 10% FBS (serum-containing); Option Y — Commercial serum-free, protein-free, chemically defined medium. Defend Option Y with three specific arguments tied to: (i) product purification, (ii) regulatory safety, (iii) process consistency. Then identify one scenario where Option X might still be preferred during early development.",
+     "a": "Correct defence: (i) Purification: Serum contains abundant proteins (albumin, immunoglobulins, transferrin) that co-purify with Factor VIII, increasing downstream processing steps and cost; serum-free media eliminate this. (ii) Regulatory safety: FBS carries risk of adventitious agents (viruses, prions, mycoplasma) — NCERT lists \"high risk of contaminants, like various virus, fungi and mycoplasma\" — requiring extensive viral clearance validation; serum-free media reduce this burden. (iii) Consistency: FBS batch variability affects glycosylation patterns of Factor VIII, altering efficacy/half-life; chemically defined media provide lot-to-lot consistency. Scenario for Option X: Early clone screening / proof-of-concept where speed and cost matter more than regulatory compliance — FBS often supports higher initial growth rates for difficult-to-adapt clones. A student omitting glycosylation impact misses a critical quality attribute for glycoproteins like Factor VIII.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal serum-free medium formulation for a hypothetical anchorage-dependent epithelial cell line that requires epidermal growth factor (EGF) and insulin for proliferation. List exactly 8 components with categories (basal salt, energy source, amino acid, vitamin, buffer, supplement, attachment factor, osmolality adjuster) and explain why each is included. Your formulation must be xeno-free.",
+     "a": "Expected answer (example):\n1. Basal salt: DPBS (inorganic ions: Na⁺, K⁺, Mg²⁺, Ca²⁺, Cl⁻, HCO₃⁻, PO₄³⁻) — maintains membrane potential and osmolality.\n2. Energy source: D-glucose (4.5 g/L) — primary carbon/energy source for glycolysis.\n3. Amino acids: L-glutamine (2 mM) + essential amino acid mix — protein synthesis; glutamine also nitrogen donor.\n4. Vitamins: B-complex (thiamine, riboflavin, pyridoxine, B12) + ascorbic acid — enzyme cofactors, antioxidant.\n5. Buffer: HEPES (10 mM) + NaHCO₃ (1.2 g/L) — dual buffering for CO₂-independent and incubator use.\n6. Supplement: Recombinant human insulin (5 μg/mL) + recombinant human EGF (10 ng/mL) — mitogenic signalling (xeno-free).\n7. Attachment factor: Human recombinant fibronectin (coating) or synthetic RGD peptide — replaces serum adhesion factors.\n8. Osmolality adjuster: NaCl or mannitol to target 300 mOsmol/kg — fine-tunes after all components added.\nA poor answer lists \"FBS\" (not xeno-free), omits attachment factor (epithelial cells need it), or misses osmolality adjustment (critical per NCERT). The design must show understanding that each category serves a non-redundant function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

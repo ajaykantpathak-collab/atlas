@@ -1,0 +1,288 @@
+{
+ "catalog": "catalog_class6_maths_ch104.json",
+ "concepts": [
+  {
+   "id": "fegp.4.1.1",
+   "title": "Data",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 4 + 8 gives 19",
+     "compute": "total = 7 + 4 + 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 7, 4 and 8. Find the total frequency.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 2 units. If a row shows 3 symbols, what value does it represent?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 2 units, how many symbols represent 16 units?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 20 books. A bar is 6 units tall. How many books does it show?",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 15 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 75 out of 300 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.1.2",
+   "title": "Tally Marks and Frequency",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 2, 7 and 7. Find the total frequency.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 25 units. If a row shows 5 symbols, what value does it represent?",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 25 units, how many symbols represent 225 units?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 6 units tall. How many books does it show?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 100 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 30 out of 120 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.2.1",
+   "title": "Pictographs",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 90 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 780 is divided between two friends in the ratio 5 : 8. Find the smaller share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Rs 300 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 6 = 15 : ?  (give the fourth term).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 6 :: 15 : 18 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 8 notebooks cost Rs 100, what will 15 notebooks cost at the same rate (direct proportion)?",
+     "a": "187.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.3.1",
+   "title": "Bar Graphs",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 32 : 96 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is divided between two friends in the ratio 4 : 6. Find the smaller share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Rs 300 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 2 = 15 : ?  (give the fourth term).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 2 :: 15 : 6 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 40, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.4.1",
+   "title": "Drawing a Bar Graph (Scale Selection)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 20 : 40 in its simplest form and give the first term of the simplest form.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is divided between two friends in the ratio 1 : 9. Find the smaller share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 5 = 28 : ?  (give the fourth term).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 5 :: 28 : 20 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 30, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.5.1",
+   "title": "Column Graphs and Horizontal Bars",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 9 + 2 + 7 gives 18",
+     "compute": "total = 9 + 2 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 9, 2 and 7. Find the total frequency.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 2 units. If a row shows 3 symbols, what value does it represent?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 2 units, how many symbols represent 18 units?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 8 units tall. How many books does it show?",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 10 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.5.2",
+   "title": "Infographics",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 5 + 9 gives 21",
+     "compute": "total = 7 + 5 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 7, 5 and 9. Find the total frequency.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 25 units. If a row shows 6 symbols, what value does it represent?",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 25 units, how many symbols represent 150 units?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 5 units tall. How many books does it show?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 25 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 75 out of 300 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

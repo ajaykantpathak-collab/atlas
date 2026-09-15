@@ -1,0 +1,381 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Linear Equations in One Variable",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh102.txt",
+ "concepts": [
+  {
+   "id": "hemh.2.1.1",
+   "title": "Concept and Verification of Linear Equation Solutions",
+   "section": "2.1",
+   "definition": "An algebraic statement of equality where a single variable appears with an exponent of at most one, whose solution is the specific numerical value making both sides equal.",
+   "formula": "LHS = RHS when variable = solution",
+   "key_idea": "Substituting the correct value into an equation balances the values of both expressions.",
+   "textbook_ref": "hemh102.txt lines 15-55",
+   "question_patterns": [
+    "check if the given value is a solution of the equation",
+    "verify whether the value satisfies the linear equation",
+    "test if the equation is satisfied by the given variable value",
+    "is the given number a root of the equation",
+    "Is x = 4 a solution of 3x - 5 = 7?",
+    "Check whether t = 0 satisfies 2t + 1 = 1."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate left hand side",
+     "explain": "Substitute the candidate value for the variable in the LHS expression."
+    },
+    {
+     "step": 2,
+     "action": "evaluate right hand side",
+     "explain": "Substitute the candidate value for the variable in the RHS expression."
+    },
+    {
+     "step": 3,
+     "action": "compare expressions",
+     "explain": "If LHS equals RHS, the candidate value is a valid solution."
+    }
+   ]
+  },
+  {
+   "id": "hemh.2.2.1",
+   "title": "Solving Linear Equations with Variables on Both Sides",
+   "section": "2.2",
+   "definition": "Technique of solving equations of the form ax + b = cx + d by transposing all variable terms to one side and all constant terms to the other.",
+   "formula": "x = (const_rhs - const_lhs) / (coeff_lhs - coeff_rhs)",
+   "key_idea": "Transposing a term across the equals sign inverts its operational sign.",
+   "textbook_ref": "hemh102.txt lines 56-85",
+   "question_patterns": [
+    "solve 7x + 2 = 5x + 8 with the variable on both sides",
+    "solve the equation with variables on both sides",
+    "find the value of the unknown variable in the given equation",
+    "calculate the solution for the linear equation",
+    "what is the value of the variable satisfying the equation",
+    "Solve 5x + 3 = 3x + 11.",
+    "Find x when 7m - 4 = 3m + 12."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group variable coefficients",
+     "explain": "Subtract the RHS variable coefficient from the LHS variable coefficient.",
+     "compute": "net_coeff = coeff_lhs - coeff_rhs"
+    },
+    {
+     "step": 2,
+     "action": "group constant terms",
+     "explain": "Subtract the LHS constant from the RHS constant.",
+     "compute": "net_const = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "isolate the variable",
+     "explain": "Divide the combined constant by the combined coefficient.",
+     "compute": "solution = net_const / net_coeff"
+    }
+   ]
+  },
+  {
+   "id": "hemh.2.3.1",
+   "title": "Solving Linear Equations by Clearing Denominators",
+   "section": "2.3",
+   "definition": "Method of simplifying rational linear equations by multiplying every term by the least common multiple of all denominators present.",
+   "formula": "LHS * lcm = RHS * lcm",
+   "key_idea": "Multiplying the entire equation by the common denominator removes all fractional terms.",
+   "textbook_ref": "hemh102.txt lines 106-135",
+   "question_patterns": [
+    "solve the linear equation involving fractions",
+    "reduce the fractional equation to simpler form and solve",
+    "find the solution of the equation with fractional coefficients",
+    "simplify and calculate the value of the variable",
+    "Solve (2x + 3)/5 = 7.",
+    "Clear denominators and solve t/3 - 1/4 = 1/2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find effective coefficient",
+     "explain": "Compute net coefficient after combining fractions on both sides.",
+     "compute": "net_coeff = coeff_lhs - coeff_rhs"
+    },
+    {
+     "step": 2,
+     "action": "find effective constant",
+     "explain": "Compute net constant after transposing constant fractions.",
+     "compute": "net_const = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "solve for variable",
+     "explain": "Divide net constant by net coefficient to obtain the root.",
+     "compute": "solution = net_const / net_coeff"
+    }
+   ]
+  },
+  {
+   "id": "hemh.2.3.2",
+   "title": "Solving Linear Equations Involving Parentheses",
+   "section": "2.3",
+   "definition": "Process of removing brackets using the distributive property, gathering like terms together, and solving the resulting standard linear equation.",
+   "formula": "a(bx + c) = a*b*x + a*c",
+   "key_idea": "Distribute multiplying factors across parentheses before transposing terms.",
+   "textbook_ref": "hemh102.txt lines 136-175",
+   "question_patterns": [
+    "simplify and solve the linear equation with brackets",
+    "expand parentheses and find the value of the variable",
+    "solve the equation by opening brackets",
+    "determine the variable value after removing grouping symbols",
+    "Solve 3(x - 2) = 12.",
+    "Open the brackets and solve 2(4 - y) = 10."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine net variable coefficient",
+     "explain": "Expand all brackets and combine variable terms across both sides.",
+     "compute": "net_coeff = coeff_lhs - coeff_rhs"
+    },
+    {
+     "step": 2,
+     "action": "determine net constant term",
+     "explain": "Expand all brackets and combine constant terms across both sides.",
+     "compute": "net_const = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "calculate variable value",
+     "explain": "Divide the net constant by the net coefficient.",
+     "compute": "solution = net_const / net_coeff"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh102.txt lines 66-77",
+   "concept": "hemh.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "Solve {coeff_lhs}x - {abs_const_lhs} = {coeff_rhs}x + {const_rhs}",
+   "extracted_variables": {
+    "coeff_lhs": 2,
+    "const_lhs": -3,
+    "coeff_rhs": 1,
+    "const_rhs": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "group variable coefficients",
+     "explain": "Subtract RHS coefficient from LHS coefficient.",
+     "compute": "net_coeff = coeff_lhs - coeff_rhs"
+    },
+    {
+     "step": 2,
+     "action": "group constant terms",
+     "explain": "Subtract LHS constant from RHS constant.",
+     "compute": "net_const = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "isolate the variable",
+     "explain": "Divide net constant by net coefficient.",
+     "compute": "solution = net_const / net_coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh102.txt lines 78-98",
+   "concept": "hemh.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "Solve {coeff_lhs}x + {const_lhs} = {coeff_rhs}x + {const_rhs}",
+   "extracted_variables": {
+    "coeff_lhs": 5,
+    "const_lhs": 3.5,
+    "coeff_rhs": 1.5,
+    "const_rhs": -14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "group variable coefficients",
+     "explain": "Subtract RHS coefficient from LHS coefficient.",
+     "compute": "net_coeff = coeff_lhs - coeff_rhs"
+    },
+    {
+     "step": 2,
+     "action": "group constant terms",
+     "explain": "Subtract LHS constant from RHS constant.",
+     "compute": "net_const = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "isolate the variable",
+     "explain": "Divide net constant by net coefficient.",
+     "compute": "solution = net_const / net_coeff"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.2.3.1",
+   "question_pattern": "Solve ({a}x + {c})/{lcm} = {d}.",
+   "extracted_variables": {
+    "a": "2",
+    "c": "3",
+    "lcm": "5",
+    "d": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "clear the denominator",
+     "explain": "2x + 3 = 35",
+     "compute": "lhs_clear = lhs * lcm"
+    },
+    {
+     "step": 2,
+     "action": "move constants across",
+     "explain": "2x = 32",
+     "compute": "moved = const_rhs - const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "divide by the coefficient of x",
+     "explain": "32 / 2 = 16",
+     "compute": "x = moved / x_coeff"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.2.3.1",
+   "question_pattern": "Solve {x1}/{lcm} - {c} = {d}.",
+   "extracted_variables": {
+    "x1": "t",
+    "lcm": "3",
+    "c": "0.25",
+    "d": "0.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "clear the denominator",
+     "explain": "t - 0.75 = 1.5",
+     "compute": "lhs_clear = lhs * lcm"
+    },
+    {
+     "step": 2,
+     "action": "move constants across",
+     "explain": "t = 2.25",
+     "compute": "moved = const_rhs + const_lhs"
+    },
+    {
+     "step": 3,
+     "action": "divide by the coefficient of x",
+     "explain": "2.25 / 1 = 2.25",
+     "compute": "x = moved / x_coeff"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.2.3.2",
+   "question_pattern": "Solve {a}(x - {c}) = {d}.",
+   "extracted_variables": {
+    "a": "3",
+    "c": "2",
+    "d": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "open the brackets",
+     "explain": "3x - 6 = 12",
+     "compute": "expanded = a * (x - c)"
+    },
+    {
+     "step": 2,
+     "action": "solve",
+     "explain": "3x = 18, x = 6",
+     "compute": "x = (const_rhs + a * c) / (a * b)"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.2.3.2",
+   "question_pattern": "Solve {a}({c} - x) = {d}.",
+   "extracted_variables": {
+    "a": "2",
+    "c": "4",
+    "d": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "open the brackets",
+     "explain": "8 - 2x = 10",
+     "compute": "expanded = a * (c - x)"
+    },
+    {
+     "step": 2,
+     "action": "solve",
+     "explain": "-2x = 2, x = -1",
+     "compute": "x = (const_rhs - a * c) / (0 - a)"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hemh102.txt lines 99-105",
+   "questions": [
+    "3x = 2x + 18",
+    "5t - 3 = 3t - 5",
+    "5x + 9 = 5 + 3x",
+    "4z + 3 = 6 + 2z",
+    "2x - 1 = 14 - x",
+    "8x + 4 = 3(x - 1) + 7",
+    "x = (4/5)(x + 10)",
+    "(2x/3) + 1 = (7x/15) + 3",
+    "2y + (5/3) = (26/3) - y",
+    "3m = 5m - (8/5)"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hemh102.txt lines 176-189",
+   "questions": [
+    "(x/2) - (1/5) = (x/3) + (1/4)",
+    "(n/2) - (3n/4) + (5n/6) = 21",
+    "x + 7 - (8x/3) = (17/6) - (5x/2)",
+    "(x - 5)/3 = (x - 3)/5",
+    "(3t - 2)/4 - (2t + 3)/3 = (2/3) - t",
+    "m - (m - 1)/2 = 1 - (m - 2)/3",
+    "3(t - 3) = 5(2t + 1)",
+    "15(y - 4) - 2(y - 9) + 5(y + 6) = 0",
+    "3(5z - 7) - 2(9z - 11) = 4(8z - 13) - 17",
+    "0.25(4f - 3) = 0.05(10f - 9)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_05_012",
+   "title": "c12_eng_f_cbse_05_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the sharecropping arrangement in Champaran regarding indigo cultivation?\"",
+     "a": "This is a **literal** question because the answer is explicitly stated in the text: \"The landlords compelled all tenants to plant three twentieths or 15 per cent of their holdings with indigo and surrender the entire indigo harvest as rent.\" A wrong answer (labeling it inferential) reveals the student cannot distinguish between directly stated facts and implied meanings, leading to over-complicated answers for simple recall questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the servants at Rajendra Prasad's house thought Gandhi was another peasant.",
+     "a": "The servants knew Shukla as a poor yeoman who pestered their master; they saw Gandhi accompanying Shukla, dressed simply, and assumed he was also a peasant. A wrong answer (e.g., \"because Gandhi was poor\") reveals the student misses the textual clue that the servants' perception was based on Gandhi's *association with Shukla* and his *simple attire*, not his actual status — a classic inferential trap where students substitute general knowledge for text-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this inferential question: \"Why did Gandhi chide the lawyers for collecting big fees from the sharecroppers?\" Use evidence from the text.",
+     "a": "**Point:** Gandhi chided the lawyers because he believed legal courts were useless for fear-stricken peasants. **Evidence:** Text states, \"Taking such cases to the courts does little good. Where the peasants are so crushed and fear-stricken, law courts are useless. The real relief for them is to be free from fear.\" **Explanation:** Gandhi connects high fees to a flawed strategy — lawyers profit from a system that cannot deliver justice to terrified peasants. **Link:** Thus, his criticism targets both the lawyers' exploitation and the systemic failure of colonial courts. A wrong answer that only quotes the text without explaining the *connection* between fees and fear shows the student cannot build the logical bridge required for inferential questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the synthetic indigo development and the landlords' demand for compensation. How does this reveal the power dynamic?",
+     "a": "The landlords, learning synthetic indigo would make natural indigo unprofitable, forced sharecroppers to sign agreements paying compensation to be released from the 15% arrangement. This reveals the landlords held all power: they unilaterally changed terms when the market shifted, exploiting the peasants' illiteracy and desperation. A wrong answer that merely states \"landlords wanted money\" misses the *causal chain* (synthetic indigo → lost profit → compensation demand) and the *asymmetry* (peasants who resisted faced thugs; those who signed later wanted refunds). This error shows inability to trace cause-effect across paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's purpose in including the detail: \"Gandhi signed a receipt for the notice and wrote on it that he would disobey the order.\" How does this moment define Gandhi's method?",
+     "a": "The author includes this to illustrate Gandhi's *satyagraha* in action: respectful defiance. Signing the receipt shows respect for procedure; writing disobedience asserts moral authority over colonial law. This defines his method as non-violent non-cooperation grounded in conscience, not lawlessness. A wrong answer that calls it \"rebellion\" or \"stubbornness\" reveals the student imposes external judgment instead of analyzing the author's portrayal of Gandhi's principled strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the episode where Gandhi refuses Charles Freer Andrews' help, and provide a model answer using PEEL.",
+     "a": "**Question:** \"Why did Gandhi vehemently oppose Andrews staying in Champaran, despite the lawyers thinking it would help?\"  \n**Model PEEL Answer:**  \n**Point:** Gandhi opposed Andrews' help because he believed self-reliance was essential to the peasants' liberation.  \n**Evidence:** He told the lawyers, \"The cause is just and you must rely upon yourselves to win the battle. You should not seek a prop in Mr. Andrews because he happens to be an Englishman.\"  \n**Explanation:** Gandhi saw dependence on an Englishman as psychological weakness that would undermine the peasants' emerging courage and the moral purity of their struggle.  \n**Link:** This refusal was not ingratitude but a deliberate lesson in self-reliance, tying political freedom to inner freedom. A poor created question would be literal (e.g., \"What did Gandhi say?\") showing the student cannot generate higher-order questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

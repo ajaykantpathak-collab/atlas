@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_004",
+   "title": "c12_bio_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three sequential phases of sexual reproduction and state the defining event of each phase.",
+     "a": "The three phases are: (1) Pre-fertilization — defining event is gametogenesis (meiotic formation of haploid gametes) and gamete transfer; (2) Fertilization — defining event is syngamy (fusion of male and female gametes to form a diploid zygote); (3) Post-fertilization — defining event is zygote development through mitotic divisions into an embryo. A wrong answer such as \"pollination, fertilization, seed formation\" reveals confusion between plant-specific events and the universal phases; another common error is listing \"meiosis\" as a separate phase instead of recognizing it occurs within pre-fertilization during gametogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Why must meiosis occur during gametogenesis in the pre-fertilization phase, and what would happen if gametes were formed by mitosis instead?",
+     "a": "Meiosis halves the chromosome number (2n → n) so that fusion of two gametes during fertilization restores the diploid number (n + n = 2n) in the zygote, maintaining species chromosome constancy across generations. If gametes formed by mitosis, they would be diploid (2n), and fertilization would produce a tetraploid (4n) zygote, doubling the chromosome number each generation — this would be lethal or cause severe genomic instability. A wrong answer like \"meiosis creates variation\" is true but incomplete; it misses the primary structural reason (chromosome number maintenance). Another error is stating \"meiosis occurs after fertilization\" — this confuses the timing; meiosis must precede fertilization to produce haploid gametes.",
+     "self_check": true
+    },
+    {
+     "q": "A biology student observes that in a certain frog species, the female lays eggs in water and the male releases sperm over them, while in a lizard species, mating occurs and the female later lays shelled eggs. Classify the fertilization type in each case and explain the adaptive significance of the difference.",
+     "a": "The frog exhibits external fertilization (syngamy occurs in the external aquatic medium); the lizard exhibits internal fertilization (syngamy occurs inside the female reproductive tract). External fertilization requires an aquatic medium for sperm motility and produces large numbers of gametes to compensate for low fertilization efficiency; internal fertilization evolved for terrestrial life, protecting gametes from desiccation, allowing selective sperm transfer, and enabling greater parental investment per offspring. A wrong answer such as \"frog = internal because male deposits sperm on eggs\" shows misunderstanding of the definition — internal fertilization requires sperm deposition *inside* the female tract, not on eggs in the environment. Another error is claiming \"internal fertilization always means live birth\" — many internally fertilizing animals (birds, reptiles, monotremes) are oviparous.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the post-fertilization fate of the zygote in three reproductive modes: ovipary, vivipary, and ovovivipary. Give one animal example for each.",
+     "a": "In ovipary (e.g., hen, most reptiles), the zygote develops outside the mother's body inside a shelled egg with yolk as nutrition; in vivipary (e.g., human, dog), the zygote develops inside the mother's uterus, receiving nutrition via a placenta; in ovovivipary (e.g., some sharks, guppies), the zygote develops inside eggs retained in the mother's body, hatching internally so live young are born, but nutrition comes from yolk, not a placenta. A wrong answer like \"ovovivipary is the same as vivipary because both give live birth\" misses the critical distinction in nutritive source. Another error is classifying all egg-laying animals as oviparous without noting that monotremes (platypus, echidna) are oviparous mammals — the mode is defined by zygote location and nutrition, not taxonomic group.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Pre-fertilization events in flowering plants and humans are fundamentally different because plants are sessile and humans are mobile.\" Is this correct? Justify your answer with two specific similarities and two differences.",
+     "a": "The statement is partially correct but oversimplified. Two similarities: (1) Both involve meiosis during gametogenesis to produce haploid gametes (microsporogenesis in anthers / spermatogenesis in testes; megasporogenesis in ovules / oogenesis in ovaries). (2) Both require gamete transfer to bring male and female gametes together (pollination in plants / copulation in humans). Two differences: (1) Plants use abiotic/biotic agents (wind, insects) for gamete transfer; humans use internal copulation. (2) Plant male gametes are non-motile (carried by pollen tube); human sperm are motile (flagellated). The fundamental similarity is the meiotic origin of gametes and the need for their fusion; the difference lies in transfer mechanism, not the core biological logic. A wrong answer claiming \"no similarities\" ignores the universal role of meiosis; an answer claiming \"plants don't have pre-fertilization phase\" confuses the phase with its specific mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation-based activity to demonstrate that pre-fertilization, fertilization, and post-fertilization are sequential and interdependent phases in a flowering plant. Specify the plant, the observable stages, and what failure at each phase would look like.",
+     "a": "Use a hibiscus plant in your garden. Observe and record over 2 weeks: (Pre-fertilization) Check anthers for pollen release (tap anther on dark paper — yellow dust = viable pollen); if anthers are shriveled or empty, gametogenesis failed. (Fertilization) Hand-pollinate some flowers, leave others unpollinated; after 24 hours, check stigma for pollen germination (use magnifying glass); no pollen tubes = fertilization failure. (Post-fertilization) Track pollinated flowers: ovary should swell within 3–5 days; if ovary withers and falls off, post-fertilization development failed. A poor answer like \"watch the plant grow\" lacks phase-specific checkpoints; another weak answer uses only one flower and cannot distinguish which phase failed. The activity must isolate each phase with a visible indicator.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

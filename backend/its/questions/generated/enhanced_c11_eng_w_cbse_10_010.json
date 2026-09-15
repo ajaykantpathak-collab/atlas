@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_010",
+   "title": "c11_eng_w_cbse_10_010",
+   "questions": [
+    {
+     "q": "Define \"vocabulary in context\" as a literary analysis skill and explain why it is particularly important when reading Shakespearean sonnets.",
+     "a": "Vocabulary in context is the skill of determining a word's meaning from its specific textual surroundings rather than its dictionary definition. In Shakespearean sonnets, this is critical because the compressed form (14 lines) forces each word to carry multiple layers of meaning—legal, navigational, astronomical—and the poem's argument depends on the precise tension between the common and contextual meanings. A wrong answer (e.g., \"it means looking up words in a dictionary\") reveals the student treats vocabulary as a pre-reading task rather than an analytical tool for interpreting the text's logic.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"It is the star to every wandering bark,\" the word \"bark\" does not mean the sound a dog makes or tree covering. Explain its contextual meaning and identify the specific metaphor it activates in the poem.",
+     "a": "\"Bark\" here means a ship or vessel (archaic nautical term), activating the extended metaphor of love as a fixed star (Polaris) guiding lost ships through storms. The metaphor transforms love from an emotion into a navigational instrument. A wrong answer (e.g., \"it means a small boat\" without connecting to the star/navigation metaphor) shows the student can decode the archaic term but misses how the word choice structures the poem's central analogy between love and celestial navigation.",
+     "self_check": true
+    },
+    {
+     "q": "The word \"compass\" appears twice in the sonnet: \"his bending sickle's compass\" and \"ever-fixed mark.\" Apply your understanding of contextual meaning to explain how \"compass\" functions differently in each occurrence.",
+     "a": "In \"ever-fixed mark / That looks on tempests,\" \"compass\" is implied in the navigational sense (the range or scope of the star's guidance). In \"his bending sickle's compass,\" it means the circular sweep or reach of Time's sickle—the area within which Time can harvest beauty. The first suggests infinite, protective range; the second suggests a limited, destructive boundary. A wrong answer that gives the same definition for both (e.g., \"a navigational instrument\") reveals the student misses how Shakespeare pivots the word from love's infinite protection to Time's finite threat.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the word \"impediments\" in the opening line (\"Let me not to the marriage of true minds / Admit impediments\") establishes the poem's legal/rhetorical frame and connects to the marriage service of the Book of Common Prayer.",
+     "a": "\"Impediments\" is a technical legal/ecclesiastical term from the marriage liturgy (\"If any of you know cause or just impediment why these two persons should not be joined...\"). By using it, Shakespeare frames the sonnet as a formal legal declaration: the speaker refuses to acknowledge any legal objection to the union of true minds. This legal vocabulary sets up the poem's argument as a binding testimony rather than a mere sentiment. A wrong answer treating \"impediments\" as a general synonym for \"obstacles\" misses the performative speech act—the poem *enacts* the marriage ceremony it describes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Shakespeare's use of 'fool' in 'Love's not Time's fool' is merely a personification of Time as a jester.\" Defend or refute using contextual evidence from the sonnet.",
+     "a": "Refute. \"Fool\" in Elizabethan usage means both \"jester\" and \"one who is deceived/subject to another's power.\" The context \"though rosy lips and cheeks / Within his bending sickle's compass come\" shows Time as the Grim Reaper (sickle), not a jester. Love refuses to be Time's \"fool\"—meaning Love refuses to be victimized or controlled by Time's destructive power. The word carries the legal sense of \"one lacking capacity\" (a ward), implying Time has no jurisdiction over love. A wrong answer accepting the jester interpretation shows the student reads the metaphor at surface level without tracing the word's semantic range in the poem's legal/mortal framework.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence explanation for a Class 9 student of how the word \"doom\" in \"edge of doom\" shifts meaning from its modern sense (\"inevitable disaster\") to its theological sense in the sonnet, and why that shift matters for the poem's final couplet.",
+     "a": "In the sonnet, \"doom\" means the Last Judgment (Doomsday), not merely a bad ending. This matters because the couplet (\"If this be error... I never writ, nor no man ever loved\") stakes the poet's eternal salvation on love's constancy—he's willing to be judged wrong at the Final Judgment if love proves changeable. A poor answer that treats \"doom\" as \"tragic ending\" misses the eschatological stakes that make the couplet a theological wager, not just a poetic flourish.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,466 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 3,
+ "chapter_title": "Human Reproduction",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc106.txt",
+ "concepts": [
+  {
+   "id": "jebh.3.1",
+   "title": "Male Reproductive System",
+   "section": "Male Reproductive System",
+   "definition": "The male reproductive system is located in the pelvis region and includes a pair of testes, accessory ducts, glands and the external genitalia. Testes are situated outside the abdominal cavity in a pouch called scrotum which helps in maintaining the low temperature (2-2.5 degrees C lower than normal internal body temperature) required for spermatogenesis.",
+   "formula": "",
+   "key_idea": "Testes in scrotum, seminiferous tubules produce sperm, Leydig cells produce testosterone, accessory glands (seminal vesicle, prostate, bulbourethral) add secretions to form semen.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the components of the male reproductive system and state their functions.",
+    "What is the role of the scrotum in the male reproductive system?",
+    "Describe the structure of a testis and the function of Leydig cells.",
+    "List the male accessory glands and the contribution of each to semen.",
+    "Explain the path of sperm from testis to urethra through the accessory ducts."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organ or structure asked about in the question.",
+     "explain": "Locate whether the query concerns testes, ducts, glands or external genitalia."
+    },
+    {
+     "step": 2,
+     "action": "State the structural location and key components of that organ.",
+     "explain": "For testes mention scrotum, seminiferous tubules and Leydig cells; for ducts mention rete testis, vasa efferentia, epididymis, vas deferens."
+    },
+    {
+     "step": 3,
+     "action": "Connect the structure to its functional role in reproduction.",
+     "explain": "Sperm production, transport, nourishment and lubrication are the core functions to verify."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where are the testes located and why?",
+     "solution": "Testes are located outside the abdominal cavity in the scrotum. The scrotum maintains a temperature 2-2.5 degrees C lower than body temperature, which is essential for spermatogenesis.",
+     "answer": "Testes are in the scrotum to maintain a low temperature for sperm production."
+    },
+    {
+     "question": "What is the function of Leydig cells?",
+     "solution": "Leydig cells (interstitial cells) lie outside the seminiferous tubules and synthesise and secrete testicular hormones called androgens, mainly testosterone.",
+     "answer": "Leydig cells secrete androgens (testosterone)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a labelled diagram of the male reproductive system.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Name the male accessory glands and state the function of their secretions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.2",
+   "title": "Female Reproductive System",
+   "section": "Female Reproductive System",
+   "definition": "The female reproductive system consists of a pair of ovaries, a pair of oviducts (fallopian tubes), uterus, cervix, vagina and the external genitalia. Ovaries are the primary female gonads that produce ova and secrete ovarian hormones (estrogen, progesterone).",
+   "formula": "",
+   "key_idea": "Ovaries produce ova and hormones; fallopian tubes carry ovum and are the site of fertilisation; uterus supports implantation and gestation; vagina is the birth canal.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the components of the female reproductive system and their functions.",
+    "Describe the structure of an ovary and the process of ovulation.",
+    "What is the role of the fallopian tube in fertilisation?",
+    "Explain the structure of the uterus and its role in pregnancy.",
+    "Differentiate between the functions of the cervix and the vagina."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the female organ or structure being asked about.",
+     "explain": "Determine whether the question targets ovaries, oviducts, uterus, cervix, vagina or external genitalia."
+    },
+    {
+     "step": 2,
+     "action": "State the structural features and location of that organ.",
+     "explain": "Mention anatomical position, layers and associated structures (e.g., ovarian stroma, endometrium, myometrium)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the functional role in reproduction.",
+     "explain": "Link structure to gamete production, fertilisation, implantation or parturition as relevant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which part of the female reproductive tract is the site of fertilisation?",
+     "solution": "Fertilisation occurs in the ampullary-isthmic junction of the fallopian tube (oviduct), where the sperm meets the ovum.",
+     "answer": "Ampullary-isthmic junction of the oviduct."
+    },
+    {
+     "question": "State the functions of the uterus.",
+     "solution": "The uterus supports the implantation of the embryo, nourishes the developing foetus through the placenta, and undergoes contractions during parturition. It has three layers - perimetrium, myometrium and endometrium.",
+     "answer": "Implantation, gestation and parturition."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a labelled diagram of the female reproductive system.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Describe the structure of the ovary.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.3",
+   "title": "Spermatogenesis",
+   "section": "Spermatogenesis",
+   "definition": "Spermatogenesis is the process of formation of spermatozoa (sperms) from the immature male germ cells (spermatogonia) in the seminiferous tubules of the testes. It begins at puberty under the influence of gonadotropins (LH and FSH).",
+   "formula": "",
+   "key_idea": "Spermatogonia (2n) undergo mitosis to form primary spermatocytes (2n), which undergo meiosis I to form secondary spermatocytes (n), then meiosis II to form spermatids (n), which differentiate into spermatozoa (n) via spermiogenesis.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the process of spermatogenesis with a schematic representation.",
+    "Differentiate between spermatogenesis and spermiogenesis.",
+    "What is the chromosomal number of a primary spermatocyte and a spermatid?",
+    "Explain the role of Sertoli cells in spermatogenesis.",
+    "How many sperms are produced from one primary spermatocyte?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the starting cell and its ploidy.",
+     "explain": "Spermatogonium is diploid (2n=46).",
+     "compute": "starting_ploidy = 46"
+    },
+    {
+     "step": 2,
+     "action": "Apply meiosis I and meiosis II divisions.",
+     "explain": "One primary spermatocyte (2n) gives 2 secondary spermatocytes (n), which give 4 spermatids (n).",
+     "compute": "spermatids = 4"
+    },
+    {
+     "step": 3,
+     "action": "Apply spermiogenesis to get spermatozoa count.",
+     "explain": "Each spermatid differentiates into one spermatozoan without further division.",
+     "compute": "sperms = 4"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many spermatozoa are formed from 100 primary spermatocytes?",
+     "solution": "Each primary spermatocyte undergoes meiosis I to form 2 secondary spermatocytes and meiosis II to form 4 spermatids, which become 4 spermatozoa. For 100 primary spermatocytes: 100 x 4 = 400 spermatozoa.",
+     "answer": "400 spermatozoa"
+    },
+    {
+     "question": "What is the ploidy of a secondary spermatocyte?",
+     "solution": "After meiosis I, the primary spermatocyte (2n=46) divides into two secondary spermatocytes, each with haploid number n=23.",
+     "answer": "Haploid (n=23)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a flow chart showing the stages of spermatogenesis.",
+     "type": "descriptive"
+    },
+    {
+     "question": "How many spermatids are produced from one spermatogonium?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.4",
+   "title": "Oogenesis",
+   "section": "Oogenesis",
+   "definition": "Oogenesis is the process of formation of a mature female gamete (ovum) from the oogonia in the ovary. It is initiated during embryonic development when millions of oogonia form within each foetal ovary, but is completed only at puberty and after fertilisation.",
+   "formula": "",
+   "key_idea": "Oogonia (2n) form primary oocytes (2n) before birth; primary oocytes start meiosis I but arrest at prophase I; at puberty one primary oocyte completes meiosis I to form a secondary oocyte (n) and a first polar body; meiosis II is completed only if fertilisation occurs, forming the ovum (n) and second polar body.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the process of oogenesis with a diagram.",
+    "Why is oogenesis considered discontinuous?",
+    "What is the difference between a primary oocyte and a secondary oocyte?",
+    "Explain the formation of polar bodies in oogenesis.",
+    "When does meiosis II of the oocyte complete?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the starting cell and its ploidy.",
+     "explain": "Oogonium is diploid (2n=46).",
+     "compute": "starting_ploidy = 46"
+    },
+    {
+     "step": 2,
+     "action": "Apply meiosis I division.",
+     "explain": "One primary oocyte (2n) gives one secondary oocyte (n) and one first polar body (n).",
+     "compute": "secondary_oocyte = 1, polar_body_1 = 1"
+    },
+    {
+     "step": 3,
+     "action": "Apply meiosis II on fertilisation.",
+     "explain": "The secondary oocyte completes meiosis II to form one ovum (n) and one second polar body (n).",
+     "compute": "ovum = 1, polar_body_2 = 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many polar bodies are formed during complete oogenesis of one ovum?",
+     "solution": "Meiosis I produces one first polar body; meiosis II produces one second polar body. Total polar bodies = 2.",
+     "answer": "2 polar bodies"
+    },
+    {
+     "question": "What is the ploidy of the secondary oocyte?",
+     "solution": "After meiosis I, the primary oocyte (2n=46) divides unequally to form a secondary oocyte with haploid number n=23 and a first polar body with n=23.",
+     "answer": "Haploid (n=23)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between spermatogenesis and oogenesis.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain why the ovum retains most of the cytoplasm.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.5",
+   "title": "Menstrual Cycle",
+   "section": "Menstrual Cycle",
+   "definition": "The menstrual cycle is the cyclic reproductive cycle in primate females (monkeys, apes, humans) averaging 28 days, during which the endometrium undergoes changes in response to ovarian hormones. It consists of menstrual, follicular (proliferative) and luteal (secretory) phases.",
+   "formula": "",
+   "key_idea": "FSH stimulates follicular growth and estrogen secretion; LH surge triggers ovulation around day 14; ruptured follicle forms corpus luteum secreting progesterone; if no fertilisation, corpus luteum regresses and menstruation begins.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the phases of the menstrual cycle with hormonal changes.",
+    "What is the role of LH and FSH in the menstrual cycle?",
+    "Explain the changes in the endometrium during the menstrual cycle.",
+    "What happens during the luteal phase of the menstrual cycle?",
+    "Why does menstruation occur if fertilisation does not take place?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the phase of the menstrual cycle asked about.",
+     "explain": "The cycle has three phases: menstrual (days 1-5), follicular/proliferative (days 6-14) and luteal/secretory (days 15-28)."
+    },
+    {
+     "step": 2,
+     "action": "State the dominant hormone and ovarian event in that phase.",
+     "explain": "Follicular phase: FSH and estrogen; ovulation: LH surge; luteal phase: progesterone from corpus luteum."
+    },
+    {
+     "step": 3,
+     "action": "Verify the endometrial change and outcome.",
+     "explain": "Check whether the endometrium regenerates, thickens or sheds, and whether the cycle continues or pregnancy is supported."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On which day of a 28-day cycle does ovulation occur?",
+     "solution": "Ovulation occurs around the 14th day of a typical 28-day menstrual cycle, triggered by the LH surge.",
+     "answer": "Around day 14"
+    },
+    {
+     "question": "Which hormone is responsible for the maintenance of the endometrium during the luteal phase?",
+     "solution": "The corpus luteum secretes progesterone, which maintains the endometrium and supports possible implantation during the luteal phase.",
+     "answer": "Progesterone"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a graph showing the hormonal changes during the menstrual cycle.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Explain the role of the corpus luteum in the menstrual cycle.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.6",
+   "title": "Fertilisation and Implantation",
+   "section": "Fertilisation and Implantation",
+   "definition": "Fertilisation is the fusion of the male and female gametes (sperm and ovum) to form a diploid zygote, occurring in the ampullary-isthmic junction of the fallopian tube. Implantation is the embedding of the blastocyst into the endometrium of the uterus, leading to pregnancy.",
+   "formula": "",
+   "key_idea": "Sperm capacitation allows penetration; acrosomal enzymes help sperm enter the ovum; cortical reaction blocks polyspermy; zygote undergoes cleavage forming morula then blastocyst; blastocyst implants in endometrium.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the process of fertilisation in humans.",
+    "What is the significance of the zona pellucida in fertilisation?",
+    "Explain the events from zygote formation to implantation.",
+    "What is the role of acrosomal enzymes during fertilisation?",
+    "How does the block to polyspermy occur?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stage asked (fertilisation or implantation).",
+     "explain": "Determine whether the question concerns gamete fusion, zygote cleavage, blastocyst formation or embedding."
+    },
+    {
+     "step": 2,
+     "action": "State the site and key events of that stage.",
+     "explain": "Fertilisation site is ampullary-isthmic junction; cleavage forms morula then blastocyst; implantation occurs in endometrium."
+    },
+    {
+     "step": 3,
+     "action": "Verify the biological significance of the stage.",
+     "explain": "Confirm restoration of diploidy, prevention of polyspermy, or establishment of pregnancy as relevant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where does fertilisation occur in humans?",
+     "solution": "Fertilisation occurs at the ampullary-isthmic junction of the fallopian tube (oviduct), where the sperm meets the secondary oocyte.",
+     "answer": "Ampullary-isthmic junction of the oviduct"
+    },
+    {
+     "question": "What is the cortical reaction and why is it important?",
+     "solution": "The cortical reaction releases cortical enzymes from the ovum that harden the zona pellucida, preventing the entry of additional sperms. This block to polyspermy ensures the zygote remains diploid.",
+     "answer": "Cortical reaction blocks polyspermy by hardening the zona pellucida."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the events of cleavage and blastocyst formation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of the trophoblast in implantation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.7",
+   "title": "Pregnancy and Embryonic Development",
+   "section": "Pregnancy and Embryonic Development",
+   "definition": "Pregnancy is the period from implantation of the blastocyst to the birth of the child, supported by the placenta. Embryonic development involves the formation of three germ layers (ectoderm, mesoderm, endoderm) from which all tissues and organs develop.",
+   "formula": "",
+   "key_idea": "Placenta connects foetus to uterine wall for nutrient and gas exchange and produces hCG, hPL, estrogen, progesterone; foetus is protected by amniotic fluid; germ layers give rise to organs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the structure and function of the placenta.",
+    "List the hormones secreted by the placenta.",
+    "Explain the role of the amniotic fluid during pregnancy.",
+    "Describe the formation of the three germ layers.",
+    "What is the significance of hCG in pregnancy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the structure or event asked about.",
+     "explain": "Determine whether the question concerns placenta, germ layers, amniotic fluid or pregnancy hormones."
+    },
+    {
+     "step": 2,
+     "action": "State the structure and its components.",
+     "explain": "Placenta has chorionic villi and maternal tissue; embryo has three germ layers; amnion encloses amniotic fluid."
+    },
+    {
+     "step": 3,
+     "action": "Verify the functional role in supporting development.",
+     "explain": "Confirm nutrient/gas exchange, hormone production, protection or organ formation as relevant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the hormones produced by the placenta.",
+     "solution": "The placenta produces human chorionic gonadotropin (hCG), human placental lactogen (hPL), estrogen, progesterone and relaxin during pregnancy.",
+     "answer": "hCG, hPL, estrogen, progesterone, relaxin"
+    },
+    {
+     "question": "What are the functions of the placenta?",
+     "solution": "The placenta facilitates the supply of oxygen and nutrients to the foetus and removal of carbon dioxide and excretory wastes. It also acts as an endocrine gland producing hormones required for pregnancy.",
+     "answer": "Nutrient and gas exchange, waste removal, and hormone production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a labelled diagram showing the placenta and foetus.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Explain the derivatives of the three germ layers.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.3.8",
+   "title": "Parturition and Lactation",
+   "section": "Parturition and Lactation",
+   "definition": "Parturition is the process of delivery of the foetus (childbirth) triggered by foetal and maternal signals, especially oxytocin causing strong uterine contractions. Lactation is the production and secretion of milk by the mammary glands, stimulated by prolactin and oxytocin.",
+   "formula": "",
+   "key_idea": "Foetal corticosteroids trigger oxytocin release; oxytocin causes uterine contractions (positive feedback); after birth prolactin stimulates milk synthesis and oxytocin causes milk ejection (let-down reflex); colostrum provides antibodies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the process of parturition in humans.",
+    "What is the role of oxytocin in parturition and lactation?",
+    "Describe the hormonal control of lactation.",
+    "What is colostrum and why is it important for the newborn?",
+    "Explain the positive feedback mechanism involved in childbirth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the question concerns parturition or lactation.",
+     "explain": "Parturition is childbirth; lactation is milk production and ejection."
+    },
+    {
+     "step": 2,
+     "action": "State the key hormone and its source for the process.",
+     "explain": "Oxytocin from posterior pituitary causes uterine contractions and milk ejection; prolactin from anterior pituitary stimulates milk synthesis."
+    },
+    {
+     "step": 3,
+     "action": "Verify the physiological outcome.",
+     "explain": "Confirm foetal expulsion for parturition or milk secretion and nourishment of newborn for lactation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which hormone is responsible for the let-down reflex?",
+     "solution": "Oxytocin, released from the posterior pituitary, causes contraction of the myoepithelial cells of the mammary glands, resulting in the ejection of milk (let-down reflex).",
+     "answer": "Oxytocin"
+    },
+    {
+     "question": "Why is colostrum important for the newborn?",
+     "solution": "Colostrum is the first milk produced during the initial days of lactation. It contains several antibodies (IgA) that are essential to develop resistance for the new-born baby.",
+     "answer": "Colostrum provides antibodies (IgA) for newborn immunity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the neuroendocrine control of parturition.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between the roles of prolactin and oxytocin in lactation.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

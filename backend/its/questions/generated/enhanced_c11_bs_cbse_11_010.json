@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_010",
+   "title": "c11_bs_cbse_11_010",
+   "questions": [
+    {
+     "q": "What are the top three merchandise export commodities from India by value (HS 2-digit level) as per the latest Annual Report of the Department of Commerce?",
+     "a": "The top three are typically Mineral fuels (HS 27), Pearls/precious stones (HS 71), and Electrical machinery (HS 85) — though the order shifts yearly. A wrong answer like \"textiles, tea, jute\" reveals the student is relying on outdated 1990s trade patterns and hasn't updated to India's current engineering/chemicals/services-led export basket.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India's merchandise trade deficit widened sharply in FY2022-23 despite record-high exports.",
+     "a": "Imports grew faster than exports due to surging crude oil, coal, gold, and electronics imports (driven by post-COVID demand and global price spikes), while export growth slowed from base effects and global demand slowdown. A wrong answer blaming \"lack of competitiveness\" ignores the structural import dependence on energy and critical inputs — the deficit is largely *terms-of-trade* driven, not volume-driven.",
+     "self_check": true
+    },
+    {
+     "q": "A Gujarat-based SME exports ceramic tiles (HS 6907) to the UAE. Using the DGFT's Trade Analytics portal, they find India's RCA (Revealed Comparative Advantage) for this product is 3.2. The UAE's applied MFN tariff is 5%. The SME can access the RoDTEP scheme. Calculate the effective cost advantage per container (28 tons, FOB value ₹45 lakh) if RoDTEP rate is 2.5% and freight/insurance is ₹3.5 lakh. Should they quote CIF or FOB?",
+     "a": "RoDTEP benefit = 2.5% × ₹45 lakh = ₹1.125 lakh. CIF value = ₹45 + 3.5 = ₹48.5 lakh. UAE tariff = 5% × ₹48.5 lakh = ₹2.425 lakh. If quoted FOB, importer pays tariff on ₹45 lakh = ₹2.25 lakh. Quoting FOB saves importer ₹0.175 lakh in tariff. The SME should quote FOB to make the landed cost lower for the buyer, leveraging India's RCA. A wrong answer quoting CIF without tariff calculation shows inability to apply trade policy tools to pricing decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare India's services export basket (FY2023) with its merchandise export basket. Why does India run a services trade surplus but a merchandise trade deficit? Analyse using factor endowment theory.",
+     "a": "Services exports (software, business services, travel) are skill-intensive, leveraging India's abundant English-speaking STEM graduates — a comparative advantage. Merchandise imports (crude, electronics, gold) are resource/technology-intensive, where India lacks endowments. The deficit reflects optimal specialization: India *should* import capital goods to produce services. A wrong answer calling the deficit \"bad\" fails to distinguish between *consumption* imports (gold) and *production* imports (machinery for export sectors).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's PLI schemes for electronics manufacturing will eliminate the need for mobile phone imports within 5 years.\" Use trade data trends and global value chain (GVC) concepts.",
+     "a": "Unlikely. PLI has boosted *assembly* (final assembly share rose from 0% to 97% in 2023), but component imports (chips, displays, PCBs) remain >65% of value. GVC integration means \"making in India\" ≠ \"making *all* in India\". Eliminating imports requires semiconductor fabs (10+ year horizon) and display ecosystems. A good critique acknowledges assembly success but identifies the *smiling curve* trap — low value capture without upstream control. A weak answer treats PLI as a binary import-substitution tool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Market Entry Brief\" for an Indian Ayurvedic nutraceutical firm (HS 3004) targeting the US market. Include: top 3 US import sources for this HS code, India's market share trend (5 years), US FDA regulatory hurdles, and two actionable recommendations using MAI (Market Access Initiative) scheme.",
+     "a": "A strong brief uses UN Comtrade data: US imports HS 3004 mainly from Ireland, Switzerland, Germany (pharma majors); India's share ~2.5% but growing 12% CAGR. Hurdles: FDA cGMP, NDI notifications, DSHEA compliance. Recommendations: (1) Use MAI funds for US FDA consulting + clinical trials; (2) Partner with a US contract manufacturer for \"private label\" entry to bypass brand-building costs. A poor brief lists generic \"quality issues\" without citing specific regulatory pathways or scheme mechanics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

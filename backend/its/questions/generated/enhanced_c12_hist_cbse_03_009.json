@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_009",
+   "title": "c12_hist_cbse_03_009",
+   "questions": [
+    {
+     "q": "What are the two types of inter-varna marriages recognized in the Dharmashastras that produce mixed castes (varna-samkara), and which one is considered ritually superior?",
+     "a": "The two types are anuloma (man of higher varna, woman of lower varna) and pratiloma (man of lower varna, woman of higher varna). Anuloma is considered ritually superior and relatively acceptable; pratiloma is condemned and produces the lowest-status groups (e.g., Chandalas). A wrong answer that reverses the definitions or claims both are equally accepted reveals confusion about the hierarchy embedded in the theory — the direction of varna difference determines the child's status, not just the fact of mixing.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Brahmanical authors develop the theory of varna-samkara? Explain using the tension between the four-varna model and the existence of numerous jatis.",
+     "a": "The four-varna model was a rigid theoretical scheme with only four categories, but early Indian society contained hundreds of jatis (endogamous groups) based on occupation, region, or tribe. Varna-samkara resolved this tension by classifying all jatis as products of inter-varna unions, thus preserving the purity of the four-varna ideal while accounting for diversity. A wrong answer that says the theory was created to promote social equality or that it accurately recorded historical intermarriages misses its prescriptive, hierarchy-maintaining purpose.",
+     "self_check": true
+    },
+    {
+     "q": "The Mandasor inscription (5th century CE) describes a guild of silk weavers who migrated from Lata to Mandasor, collectively built a temple, and included members who adopted other occupations. Does this group fit the varna-samkara theory? Apply the theory to analyze their social identity.",
+     "a": "The silk weavers formed a jati based on craft specialization and migration, functioning as a shreni (guild) with collective economic agency and mobility. The varna-samkara theory would struggle to categorize them because their identity was occupational and regional, not derived from varna parentage. Forcing them into an anuloma/pratiloma scheme would ignore the inscription's evidence of group cohesion through shared craft, not birth. A wrong answer that assigns them a varna-samkara origin (e.g., \"they must be Vaishya-Shudra mixture\") imposes theory on evidence instead of letting the source speak.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Satavahana rulers' use of metronymics (e.g., Gotami-puta) and endogamy with the Brahmanical prescription of patriliny and exogamy. What does this reveal about the relationship between prescriptive texts and political practice?",
+     "a": "Satavahana rulers claimed Brahmana status (eka bamhana) and upheld varna order in inscriptions, yet practiced endogamy (marrying within kin/gotra) and traced lineage through mothers — directly violating Brahmanical patriliny and gotra exogamy. This reveals that prescriptive texts like Dharmashastras were ideological tools; powerful groups could selectively adopt Brahmanical identities for legitimacy while retaining indigenous kinship practices. A wrong answer claiming Satavahanas \"followed the texts perfectly\" or \"ignored Brahmanical norms entirely\" fails to see the strategic negotiation between text and power.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the Buddhist critique in the Majjhima Nikaya (Avantiputta-Kachchana dialogue) as a challenge to the varna-samkara theory. Which is more effective in explaining social hierarchy: birth-based varna or wealth-based status?",
+     "a": "The Buddhist dialogue argues that a wealthy Shudra can command Brahmanas and Kshatriyas as servants, proving status derives from wealth/power, not birth. This directly undermines varna-samkara, which fixes hierarchy through ritual parentage. The Buddhist view better explains observed mobility (e.g., silk weavers gaining respect through wealth), but varna-samkara persisted because it served ritual and political legitimation. A wrong answer that dismisses the Buddhist critique as \"just religious bias\" or claims varna-samkara \"matches reality\" ignores the empirical evidence of economic mobility in inscriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The theory of varna-samkara was more a tool for social control than a description of social reality.\" Support your argument with at least three pieces of evidence from the chapter.",
+     "a": "A strong argument uses: (1) Satavahana inscriptions showing endogamy and metronymics contradicting Brahmanical exogamy/patriliny, yet rulers claimed Brahmana status — proving the theory accommodated power. (2) Mandasor silk weavers' occupational jati and collective mobility are invisible in varna-samkara, which has no category for guild-based status. (3) Buddhist texts (Majjhima Nikaya, Matanga Jataka) explicitly reject birth-based hierarchy and depict Chandalas resisting degradation. (4) Manusmriti itself condemns pratiloma but lists its products, acknowledging the gap between norm and practice. A poor answer merely repeats definitions without contrasting text and evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

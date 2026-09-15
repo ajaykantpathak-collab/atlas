@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_001",
+   "title": "c12_hist_cbse_03_001",
+   "questions": [
+    {
+     "q": "In which year did the BORI Critical Edition project begin, who was its first general editor, and approximately how many manuscripts were consulted?",
+     "a": "The project began in 1919 under General Editor V.S. Sukthankar; the team consulted over 1,200 manuscripts. A wrong answer (e.g., naming Bhandarkar as editor, or dating it to 1947) reveals confusion between the institute's founder (R.G. Bhandarkar) and the project leader, or ignorance of the project's pre-Independence origins — a common error because textbooks often mention \"Bhandarkar\" in the institute's name but not Sukthankar's role.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Critical Edition team publish the \"common verses\" as the main text and relegate variations to footnotes/appendices? What does this editorial choice assume about textual transmission?",
+     "a": "The team assumed that verses appearing in most manuscripts across regions represent the earliest common ancestor (the \"archetype\"), while variations are later interpolations or local adaptations. This applies stemmatic philology — reconstructing a family tree of manuscripts. A wrong answer (e.g., \"they chose the most popular version\" or \"they voted on the best verses\") shows the student misses the rigorous comparative method and treats the edition as subjective selection rather than historical reconstruction.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds that a particular Mahabharata episode appears in 90% of northern manuscripts but only 40% of southern manuscripts, with the southern versions containing a distinct local deity. Using Critical Edition methodology, how should the historian interpret this distribution?",
+     "a": "The episode likely entered the northern tradition earlier or was more strongly preserved there; the southern variants with a local deity suggest regional appropriation — a dialogue between the pan-Indian epic and local cults. The historian should not dismiss the southern versions as \"corrupt\" but study them as evidence of cultural negotiation. A wrong answer (e.g., \"the northern version is authentic, southern is wrong\") reveals the persistent misconception that the Critical Edition declares one version \"true\" and others \"false,\" whereas it actually maps transmission history.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"More than half the 13,000 pages are devoted to these variations.\" What does this quantitative fact imply about the nature of the Mahabharata as a historical source, and how should it change a historian's approach compared to pre-1919 scholarship?",
+     "a": "It implies the Mahabharata was not a single authored text but a fluid, multi-vocal tradition with massive regional diversity. Pre-1919 historians (like early Indologists) often used a single manuscript (e.g., the Bombay or Calcutta edition) as \"the text,\" treating it as authoritative and fixed. The Critical Edition forces historians to ask: \"Which manuscript? From which region? What do the variations tell us about local society?\" A wrong answer focusing only on \"accuracy of the main text\" misses the epistemological shift: the variations ARE the data for social history.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Critical Edition gives us the original Mahabharata as Vyasa composed it.\" Use evidence from the project's methodology and findings.",
+     "a": "The statement is false. The Critical Edition reconstructs the earliest *recoverable* text (c. 4th–5th century CE manuscript tradition), not Vyasa's composition (which is mythical and dated variously from 500 BCE–400 CE). The project found no single archetype; the \"constituted text\" is a scholarly construct based on manuscript consensus. Moreover, the epic grew over ~1,000 years (c. 500 BCE–400 CE) — there is no single \"original.\" A student agreeing with the statement confuses the edition's scientific achievement with a romantic recovery of authorship, missing the NCERT's explicit point about the text's long compositional history.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a Class 12 project that uses the Critical Edition's apparatus (footnotes/appendices) to investigate a social history question about early India. Specify the manuscript evidence you would compare.",
+     "a": "Example: \"How did the gotra exogamy rule (Source 3, NCERT p. 58) vary in Mahabharata manuscripts from Kashmir vs. Kerala, and what does this reveal about the spread of Brahmanical marriage norms?\" Compare footnotes on Adi Parvan verses governing marriage rules across northern (Sharada script) and southern (Grantha/Malayalam script) manuscripts. A poor question (e.g., \"Which version is correct?\") shows the student hasn't grasped that the apparatus enables social history, not textual correctness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

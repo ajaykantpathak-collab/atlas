@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_07_002",
+   "title": "c12_ps_cbse_07_002",
+   "questions": [
+    {
+     "q": "What are the three essential components of a credible nuclear deterrent according to classical deterrence theory?",
+     "a": "The three components are: (1) Capability — possession of nuclear weapons and delivery systems that can reach the adversary's valued targets; (2) Credibility — the adversary's belief that the state has the political will to actually use those weapons in retaliation; (3) Communication — clear signalling of red lines and commitment so the adversary knows exactly what actions will trigger a nuclear response. A wrong answer (e.g., listing only \"having nuclear bombs\") reveals the student confuses mere possession with a functional deterrent, ignoring the psychological and communicative dimensions that make deterrence work.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a secure second-strike capability considered the cornerstone of Mutually Assured Destruction (MAD), and how does it differ from a first-strike capability?",
+     "a": "A secure second-strike capability means a state can absorb a full-scale nuclear first strike and still retain enough surviving warheads to inflict unacceptable damage on the attacker in retaliation. This makes a disarming first strike irrational because the attacker cannot escape devastating retaliation. A first-strike capability, by contrast, aims to destroy the adversary's nuclear forces before they can be launched. A wrong answer (e.g., \"second-strike means striking second in a war\") reveals the student misses the strategic point: second-strike capability is about survivability and assured retaliation, not merely temporal order. It is the foundation of crisis stability because neither side can gain by striking first.",
+     "self_check": true
+    },
+    {
+     "q": "During the 1999 Kargil conflict, India and Pakistan were both nuclear-armed. Pakistan occupied strategic heights, and India responded with conventional military force but deliberately avoided crossing the Line of Control into Pakistani territory. Using deterrence theory, explain why India's restraint can be interpreted as a rational response to nuclear deterrence.",
+     "a": "India's restraint demonstrates the stability-instability paradox: nuclear deterrence at the strategic level (MAD) creates space for limited conventional conflict below the nuclear threshold. India calculated that crossing the LoC could be perceived by Pakistan as an existential threat, potentially triggering nuclear escalation. By limiting operations to its own side of the LoC, India signalled its objectives were limited (evicting intruders) not regime-threatening, thereby avoiding crossing Pakistan's presumed nuclear red lines. A wrong answer (e.g., \"India was afraid of conventional defeat\") reveals the student fails to apply the concept of nuclear threshold and signalling, missing how deterrence shapes conventional war-fighting choices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Cold War US-Soviet MAD relationship with the India-Pakistan nuclear dyad. Identify two structural differences that make the South Asian deterrence relationship less stable.",
+     "a": "Two key differences: (1) Geography and warning time — India and Pakistan share a contiguous border with flight times of 5-10 minutes for missiles, leaving almost no time for decision-making or crisis de-escalation, unlike the 30-minute ICBM flight times between US and USSR. (2) Command and control maturity — the Cold War superpowers developed sophisticated early warning, survivable command systems, and hotlines over decades; South Asia lacks equivalent institutional safeguards, increasing risks of accidental or unauthorized launch. A wrong answer (e.g., \"both have nuclear weapons so it's the same\") reveals the student overlooks how geography, technology, and institutional depth critically affect deterrence stability.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument that India's \"No First Use\" (NFU) doctrine strengthens deterrence by raising the nuclear threshold, versus the counter-argument that it weakens credibility by tying India's hands.",
+     "a": "NFU strengthens deterrence by: (a) reducing first-strike incentives for the adversary (Pakistan knows India won't strike first, so it need not fear a disarming attack), enhancing crisis stability; (b) garnering international legitimacy and support for India's nuclear status. However, it may weaken credibility if the adversary doubts India's resolve to retaliate massively after absorbing a first strike, or if tactical nuclear weapons (which Pakistan has developed) create a \"gap\" below the massive retaliation threshold. A balanced evaluation acknowledges NFU is a political choice reflecting India's defensive posture, but its credibility depends on demonstrating an assured, survivable second-strike capability (e.g., nuclear triad). A wrong answer (e.g., \"NFU is good because it's peaceful\") reveals the student treats doctrine as a moral stance rather than a strategic calculation of credibility and stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical nuclear doctrine for a newly nuclear-armed state X that faces a conventionally superior adversary Y. Your doctrine must address: (a) declaratory policy (NFU or first-use ambiguity), (b) force posture (minimum vs. robust arsenal), (c) command and control principles. Justify each choice using deterrence theory.",
+     "a": "A strong answer would propose: (a) Ambiguous first-use posture — because state X cannot match Y's conventional strength, it needs to threaten nuclear escalation to deter a major conventional attack (like NATO's Cold War \"flexible response\"). (b) Minimum but survivable arsenal — focused on assured second-strike via mobile land-based missiles and submarine-based deterrent (if coastline permits), avoiding costly parity. (c) Negative control (preventing unauthorized use) prioritized over positive control (ensuring authorized use) — because a new nuclear state faces higher risks of accidental/rogue launch; civilian political control must be absolute with technical safeguards (PALs). Justification must link each choice to deterrence requirements: credibility for (a), survivability for (b), safety for (c). A poor answer copies India's or Pakistan's doctrine without adapting to X's specific asymmetry, showing inability to apply theory to a novel case.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

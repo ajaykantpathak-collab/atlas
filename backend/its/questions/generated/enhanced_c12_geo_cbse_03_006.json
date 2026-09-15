@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_006",
+   "title": "c12_geo_cbse_03_006",
+   "questions": [
+    {
+     "q": "A country reports an HDI value of 0.742 in the 2025 Human Development Report. Into which classification tier does it fall, and what is the exact threshold range for that tier?",
+     "a": "The country falls in the **High human development** tier (0.700–0.799). A wrong answer—e.g., placing it in Very High (≥0.800) or Medium (0.550–0.699)—reveals the student has memorized tier names but not the precise numerical boundaries used by UNDP since the 2010 methodological revision. This error costs 1-mark recall questions in Board exams and leads to misclassification in case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Two countries, A and B, have identical GNI per capita (PPP $12,000). Country A has HDI 0.78 (High); Country B has HDI 0.62 (Medium). Explain, using the capability approach, why identical income yields different HDI tiers.",
+     "a": "HDI weights health (life expectancy) and education (schooling) equally with income (1/3 each). Country A likely invests GNI in public health and secondary education, raising life expectancy and mean years of schooling; Country B may spend disproportionately on defense or elite consumption, leaving health/education capabilities low. A wrong answer citing \"culture\" or \"geography\" as the sole cause misses the policy-choice mechanism central to the capability approach (Amartya Sen) and fails Board's \"explain the disparity\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the 2025 HDR data: Very High = 74 countries, High = 50, Medium = 53, Low = 26. Calculate the percentage of the 193 UN member states in each tier. Then interpret: which tier contains the largest share, and what does this imply about global development distribution?",
+     "a": "**Calculation**: Very High = 74/193 ≈ 38.3%; High = 50/193 ≈ 25.9%; Medium = 53/193 ≈ 27.5%; Low = 26/193 ≈ 13.5%. **Interpretation**: Very High is the largest single tier (38%), but Medium + Low together (41%) still exceed it, showing a polarized world. A student who only identifies \"Medium is largest\" (misreading 53 > 74) or forgets to use 193 as denominator commits a data-handling error common in CUET data-interpretation sets.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical governance and social-sector spending patterns of Very High HDI countries (e.g., Norway, Switzerland) versus Low HDI countries (e.g., Niger, Chad). Identify two structural differences that explain the HDI gap beyond current income levels.",
+     "a": "**Difference 1**: Very High countries allocate 15–25% of GDP to public health and education combined (universal coverage, low out-of-pocket expenditure); Low countries often spend <5% combined, with high reliance on external aid. **Difference 2**: Very High countries have stable, accountable institutions enabling long-term human capital contracts (e.g., 12-year free schooling guaranteed by law); Low countries face frequent political instability, disrupting school calendars and health supply chains. A wrong answer focusing only on \"corruption\" without linking to *institutional continuity* and *fiscal priority* misses the structural political-economy explanation Board expects in 5-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A country moving from Low to Medium HDI has achieved meaningful development because its HDI score increased by 0.15 points.\" Use the concepts of *threshold effects* and *distribution-insensitivity of HDI* in your evaluation.",
+     "a": "The statement is **partially valid but incomplete**. Threshold effect: crossing 0.550 signals baseline capabilities (e.g., life expectancy >60, primary completion >80%), which *is* meaningful. However, HDI is distribution-insensitive: the 0.15 gain could come entirely from elite urban gains while rural populations stagnate. True \"meaningful development\" requires *equitable* capability expansion (equity pillar). A student calling it \"fully true\" ignores the HDR's own caveat that HDI masks inequality; a student calling it \"false\" ignores the real threshold significance. Board marking rewards nuanced \"yes, but...\" answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator \"Early Warning Dashboard\" for a Medium HDI country (HDI 0.60) to detect risk of slipping back to Low HDI. Justify each indicator's threshold and frequency of monitoring.",
+     "a": "**Indicator 1**: *Under-5 mortality rate* — threshold: >60/1000 live births (signals health system collapse); monitor **quarterly** via HMIS. **Indicator 2**: *Lower secondary completion rate (girls)* — threshold: <65% (gendered education reversal predicts intergenerational capability loss); monitor **annually** via UDISE+. **Indicator 3**: *Public social-sector expenditure as % of GDP* — threshold: <6% (fiscal deprioritization precedes HDI decline); monitor **annually** via budget documents. A poor answer lists generic indicators (e.g., \"GDP growth\") without *tier-specific thresholds* or *lead-lag justification*, showing inability to translate HDI structure into policy monitoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

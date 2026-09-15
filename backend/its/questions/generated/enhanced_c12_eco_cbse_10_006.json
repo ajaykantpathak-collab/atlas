@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_006",
+   "title": "c12_eco_cbse_10_006",
+   "questions": [
+    {
+     "q": "Define ex-ante investment and ex-post investment. Give one example of each in the context of a firm deciding to build a new factory.",
+     "a": "Ex-ante investment is the **planned** addition to capital stock (e.g., the firm *intends* to spend ₹10 crore on a new factory this year). Ex-post investment is the **actual** addition to capital stock that materialises (e.g., due to delays, the firm *actually* spends only ₹7 crore this year). A wrong answer (e.g., saying both are the same or confusing with savings) reveals the student has not grasped the temporal distinction between intention and outcome, which is foundational for understanding why the economy can be in disequilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "In a simple two-sector economy, the consumption function is C = 100 + 0.8Y and planned investment is I = 200 (autonomous). At an income level of Y = 1200, calculate ex-ante aggregate demand (AD), ex-ante saving (S), and state whether the economy is in equilibrium. Explain why ex-post saving must equal ex-post investment at this income level even if the economy is not in equilibrium.",
+     "a": "Ex-ante AD = C + I = (100 + 0.8×1200) + 200 = 100 + 960 + 200 = **1260**. Ex-ante S = Y - C = 1200 - 1060 = **140**. Since ex-ante AD (1260) ≠ Y (1200) and ex-ante S (140) ≠ ex-ante I (200), the economy is **not in equilibrium**. Ex-post S = ex-post I always holds as an **accounting identity** (Y ≡ C + S and Y ≡ C + I ⇒ S ≡ I) because actual output *is* actual income, and every rupee of output not consumed is saved, while every rupee of output not consumed is investment (including unplanned inventory accumulation). A wrong answer (e.g., saying ex-post S ≠ ex-post I in disequilibrium) reveals confusion between behavioural plans (ex-ante) and accounting identities (ex-post).",
+     "self_check": true
+    },
+    {
+     "q": "A firm plans to produce 1000 units and expects to sell all at ₹50/unit. It actually sells 900 units. The unsold 100 units are added to inventory. Calculate: (a) Ex-ante revenue, (b) Ex-post revenue, (c) Unplanned inventory investment, (d) Ex-post investment if planned investment was ₹20,000.",
+     "a": "(a) Ex-ante revenue = 1000 × 50 = **₹50,000**. (b) Ex-post revenue = 900 × 50 = **₹45,000**. (c) Unplanned inventory investment = 100 × 50 = **₹5,000** (positive, since unsold stock rises). (d) Ex-post investment = Planned investment + Unplanned inventory investment = 20,000 + 5,000 = **₹25,000**. A wrong answer (e.g., ignoring unplanned inventory in ex-post investment) reveals the student misses the crucial link: **ex-post investment = ex-ante investment + unplanned inventory change**, which is the mechanism that pushes the economy toward equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "\"Ex-ante saving and ex-ante investment are equal only at the equilibrium level of income. Ex-post saving and ex-post investment are always equal at *any* level of income.\" Analyse this statement and explain the economic significance of the difference for the adjustment process toward equilibrium.",
+     "a": "The statement is **correct**. Ex-ante S and ex-ante I are behavioural plans; they differ when AD ≠ Y, creating unplanned inventory changes. Ex-post S and ex-post I are *realised* outcomes recorded in national income accounts; they are identically equal because every unit of output generates equal income, and income not consumed is saved, while output not consumed is investment (including inventory). The significance: **When ex-ante S > ex-ante I, firms accumulate unplanned inventories (ex-post I > ex-ante I), so they cut production → Y falls. When ex-ante S < ex-ante I, firms run down inventories (ex-post I < ex-ante I), so they raise production → Y rises.** This inventory-adjustment mechanism drives the economy to equilibrium where ex-ante S = ex-ante I. A wrong analysis (e.g., saying ex-post equality implies equilibrium) confuses an accounting identity with a behavioural equilibrium condition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following policy claim: \"Since ex-post saving always equals ex-post investment, the government does not need to worry about the gap between planned saving and planned investment; the economy will automatically adjust.\" Is this claim valid? Justify your answer using the concept of the paradox of thrift.",
+     "a": "The claim is **invalid**. While ex-post S ≡ ex-post I is an accounting identity, the *adjustment process* that enforces this identity works through **changes in income (Y)**, not through interest rates (in the simple Keynesian model). If households try to save more (ex-ante S rises) at a given income, ex-ante S > ex-ante I → unplanned inventory accumulation → firms cut output → Y falls → income falls → *actual* saving may not rise (or may even fall) because Y has fallen. This is the **paradox of thrift**: an attempt to increase saving at the aggregate level can lead to lower income and *no increase* (or a decrease) in actual saving. The government *must* worry about the ex-ante gap because it determines the equilibrium level of income and employment. A wrong evaluation (agreeing with the claim) ignores the output-adjustment mechanism and the possibility of an underemployment equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (with a consumption function and autonomous investment) where the economy is initially in equilibrium. Then show what happens to ex-ante AD, ex-post output, and unplanned inventories if households *suddenly* decide to save more (MPS increases) while planned investment remains unchanged. Present the data in a table for the initial equilibrium and the new disequilibrium situation.",
+     "a": "*Initial equilibrium:* C = 100 + 0.8Y, I = 200. Equilibrium Y = 1500 (since Y = 100 + 0.8Y + 200 → 0.2Y = 300). Ex-ante AD = 1500, Ex-post Y = 1500, Unplanned inv. = 0.\n*New situation:* MPS increases to 0.3 (MPC = 0.7), so C = 100 + 0.7Y. At the *old* income Y=1500: Ex-ante C = 100 + 1050 = 1150. Ex-ante AD = 1150 + 200 = **1350**. Ex-post Y (initially) = 1500. Unplanned inventory accumulation = Y - AD = **150**. Firms will cut production. A poor answer (e.g., showing ex-ante AD = ex-post Y immediately) fails to capture the *disequilibrium dynamics* — the very reason the distinction matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

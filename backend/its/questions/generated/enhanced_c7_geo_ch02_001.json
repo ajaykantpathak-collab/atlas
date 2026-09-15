@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_001",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_001",
+   "title": "c7_geo_ch02_001",
+   "questions": [
+    {
+     "q": "What is the primary difference between weather and climate when observing an Indian state over different time frames?",
+     "a": "Weather refers to short-term, day-to-day atmospheric conditions, whereas climate represents long-term weather patterns observed over 30 years or more. A wrong answer usually shows that the student is confusing a single rainy day in Mumbai with the city's overall tropical monsoon climate zone.",
+     "self_check": true
+    },
+    {
+     "q": "Why can two neighboring cities in Uttar Pradesh experience completely different weather conditions on the exact same afternoon?",
+     "a": "Because weather elements like local wind direction, cloud cover, and localized precipitation can vary dramatically over short horizontal distances due to local topography and surface heating. A wrong answer reveals the misconception that weather conditions must be uniform across an entire state or region.",
+     "self_check": true
+    },
+    {
+     "q": "If a weather station in Chennai records a sudden drop in temperature accompanied by a sharp increase in wind speed and heavy downpours, which specific geographical aspect of weather is being demonstrated?",
+     "a": "Steps: 1. Identify the recorded variables: temperature drop, wind speed increase, heavy precipitation. 2. Recognize that these are active atmospheric elements. 3. Conclude that weather is dynamic and changes rapidly over hours. A wrong answer suggests the student thinks weather is a static condition that only changes across seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a sudden change in cloud cover during a sunny day in Rajasthan affects the surface temperature of the desert.",
+     "a": "Clouds act as a blanket that blocks incoming solar radiation during the day, causing a sudden drop in surface temperature, and traps outgoing terrestrial radiation at night. A wrong answer indicates the student does not understand how individual weather elements interactively influence each other in real time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Weather is entirely unpredictable, so studying its elements has no practical value for farmers in rural India.\"",
+     "a": "The statement is false because while weather changes daily, monitoring its elements (like rainfall and temperature) helps farmers make critical short-term decisions regarding irrigation and harvesting. A wrong answer reveals a failure to connect daily atmospheric observations to practical human geography and agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple local observation chart for a school in Kolkata that tracks all four major weather elements during the onset of the monsoon season.",
+     "a": "A successful chart should include columns for date/time, temperature (using a thermometer), wind direction (using a wind vane), humidity feel, and precipitation type/amount, recorded twice daily. A poor answer fails to list the core elements of weather or lacks a systematic tracking method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

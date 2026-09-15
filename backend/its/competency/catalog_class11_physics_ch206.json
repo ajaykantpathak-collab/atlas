@@ -1,0 +1,1092 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 206,
+ "chapter_title": "Oscillations",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph206.txt",
+ "concepts": [
+  {
+   "id": "keph.206.1",
+   "title": "Frequency and Period of Periodic Motion",
+   "section": "13.2.1",
+   "definition": "Periodic motion repeats at fixed time intervals. The duration of one complete cycle is the period, and the rate of repetitions per unit time is the frequency.",
+   "formula": "frequency = count / duration, period = 1 / frequency",
+   "key_idea": "Frequency and time period are inverse quantities measuring the speed of repetition.",
+   "textbook_ref": "keph206.txt lines 70-110",
+   "question_patterns": [
+    "in Class 11 physics oscillations: find the frequency and time period when a body completes {count} cycles in {duration} seconds",
+    "calculate the oscillation frequency and period for {count} beats per {duration} seconds",
+    "what is the frequency and period of a cyclic motion executing {count} repetitions in {duration} seconds",
+    "determine the time period and frequency given {count} complete vibrations in {duration} seconds",
+    "how much is the time period and frequency if an object oscillates {count} times during {duration} seconds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate frequency",
+     "explain": "frequency is total oscillations divided by time taken",
+     "compute": "count / duration"
+    },
+    {
+     "step": 2,
+     "action": "calculate time period",
+     "explain": "period is reciprocal of frequency",
+     "compute": "1 / frequency"
+    },
+    {
+     "step": 3,
+     "action": "verify the inverse relationship between frequency and period",
+     "explain": "confirm that frequency times period equals unity, ensuring consistency of the computed values"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving frequency and period of periodic motion.",
+     "solution": "Step 1: calculate frequency. Step 2: calculate time period. Step 3: verify the inverse relationship between frequency and period. Working: count / duration, 1 / frequency.",
+     "answer": "Frequency and Period of Periodic Motion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply frequency and period of periodic motion to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate frequency. Step 2: calculate time period. Step 3: verify the inverse relationship between frequency and period. Working: count / duration, 1 / frequency.",
+     "answer": "The method of frequency and period of periodic motion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.2",
+   "title": "Angular Frequency of Oscillatory Motion",
+   "section": "13.2.2",
+   "definition": "Angular frequency measures the rate of change of phase angle in simple harmonic motion expressed in radians per second.",
+   "formula": "omega = (2 * pi) / T",
+   "key_idea": "Angular frequency connects the physical time period to phase rotation speed.",
+   "textbook_ref": "keph206.txt lines 130-150",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period {T} seconds",
+    "find angular frequency omega when period is {T} s",
+    "what is the angular frequency of a simple harmonic oscillator having time period {T} seconds",
+    "determine angular speed omega given period {T} s",
+    "how much is angular frequency for a pendulum with period {T} seconds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate angular frequency",
+     "explain": "angular frequency is 2 pi divided by period T",
+     "compute": "(2 * pi) / period"
+    },
+    {
+     "step": 2,
+     "action": "compute the frequency from the angular frequency",
+     "explain": "frequency equals angular frequency divided by 2 pi, providing the cyclic rate in hertz",
+     "compute": "omega / (2 * pi)"
+    },
+    {
+     "step": 3,
+     "action": "verify consistency between angular frequency and period",
+     "explain": "confirm that omega times period equals 2 pi, ensuring the phase completes one full cycle per period"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving angular frequency of oscillatory motion.",
+     "solution": "Step 1: calculate angular frequency. Step 2: compute the frequency from the angular frequency. Step 3: verify consistency between angular frequency and period. Working: (2 * pi) / period, omega / (2 * pi).",
+     "answer": "Angular Frequency of Oscillatory Motion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply angular frequency of oscillatory motion to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate angular frequency. Step 2: compute the frequency from the angular frequency. Step 3: verify consistency between angular frequency and period. Working: (2 * pi) / period, omega / (2 * pi).",
+     "answer": "The method of angular frequency of oscillatory motion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.3",
+   "title": "Maximum Velocity in Simple Harmonic Motion",
+   "section": "13.5",
+   "definition": "Peak speed in simple harmonic motion occurs as the particle passes through its central equilibrium position.",
+   "formula": "v_max = omega * amplitude",
+   "key_idea": "Maximum speed equals angular frequency multiplied by motion amplitude.",
+   "textbook_ref": "keph206.txt lines 260-290",
+   "question_patterns": [
+    "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude {amplitude} and angular frequency {omega}",
+    "calculate the peak velocity in simple harmonic motion with amplitude {amplitude} m and angular frequency {omega} rad/s",
+    "what is the maximum velocity when amplitude is {amplitude} metres and angular frequency is {omega} radians per second",
+    "determine maximum speed given amplitude {amplitude} and angular frequency {omega}",
+    "how much is the highest speed achieved in SHM of amplitude {amplitude} and angular frequency {omega}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate maximum speed",
+     "explain": "peak speed is product of angular frequency and amplitude",
+     "compute": "omega * amplitude"
+    },
+    {
+     "step": 2,
+     "action": "compute the maximum kinetic energy of the oscillating particle",
+     "explain": "peak kinetic energy equals half mass times v_max squared, representing total energy at equilibrium",
+     "compute": "0.5 * mass * (v_max ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "verify that maximum speed occurs at the equilibrium position",
+     "explain": "at equilibrium displacement is zero so all energy is kinetic, confirming v_max is the peak speed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving maximum velocity in simple harmonic motion.",
+     "solution": "Step 1: calculate maximum speed. Step 2: compute the maximum kinetic energy of the oscillating particle. Step 3: verify that maximum speed occurs at the equilibrium position. Working: omega * amplitude, 0.5 * mass * (v_max ** 2).",
+     "answer": "Maximum Velocity in Simple Harmonic Motion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply maximum velocity in simple harmonic motion to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate maximum speed. Step 2: compute the maximum kinetic energy of the oscillating particle. Step 3: verify that maximum speed occurs at the equilibrium position. Working: omega * amplitude, 0.5 * mass * (v_max ** 2).",
+     "answer": "The method of maximum velocity in simple harmonic motion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.4",
+   "title": "Maximum Acceleration in Simple Harmonic Motion",
+   "section": "13.5",
+   "definition": "Maximum acceleration magnitude occurs at extreme displacement points where restoring force is largest.",
+   "formula": "a_max = (omega ** 2) * amplitude",
+   "key_idea": "Peak acceleration is directly proportional to displacement amplitude and square of angular frequency.",
+   "textbook_ref": "keph206.txt lines 280-310",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency {omega} and amplitude {amplitude}",
+    "find peak acceleration in simple harmonic motion given angular frequency {omega} rad/s and amplitude {amplitude} m",
+    "what is the maximum acceleration when angular frequency is {omega} and amplitude is {amplitude}",
+    "determine peak acceleration for an oscillator with amplitude {amplitude} m and angular speed {omega} rad/s",
+    "how much is the peak magnitude of acceleration in SHM of amplitude {amplitude} and angular frequency {omega}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the angular frequency",
+     "explain": "acceleration formula depends on square of omega",
+     "compute": "omega ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by amplitude",
+     "explain": "peak acceleration is omega squared times amplitude",
+     "compute": "omega_sq * amplitude"
+    },
+    {
+     "step": 3,
+     "action": "verify that maximum acceleration occurs at the extreme displacement",
+     "explain": "at maximum displacement the restoring force is largest, so acceleration peaks at the amplitude position"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving maximum acceleration in simple harmonic motion.",
+     "solution": "Step 1: square the angular frequency. Step 2: multiply by amplitude. Step 3: verify that maximum acceleration occurs at the extreme displacement. Working: omega ** 2, omega_sq * amplitude.",
+     "answer": "Maximum Acceleration in Simple Harmonic Motion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply maximum acceleration in simple harmonic motion to a fresh example and interpret the result.",
+     "solution": "Step 1: square the angular frequency. Step 2: multiply by amplitude. Step 3: verify that maximum acceleration occurs at the extreme displacement. Working: omega ** 2, omega_sq * amplitude.",
+     "answer": "The method of maximum acceleration in simple harmonic motion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.5",
+   "title": "Oscillation Period of Spring Mass System",
+   "section": "13.6",
+   "definition": "A block connected to a spring executes simple harmonic motion under a linear restoring force with period depending on mass and spring stiffness.",
+   "formula": "T = 2 * pi * sqrt(mass / spring_constant)",
+   "key_idea": "Time period increases with inertia mass and decreases with spring stiffness.",
+   "textbook_ref": "keph206.txt lines 320-360",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate the time period of oscillation for mass {mass} attached to spring with constant {spring_constant}",
+    "find time period of a mass spring oscillator given mass {mass} kg and spring constant {spring_constant} N/m",
+    "what is the period of SHM for a block of mass {mass} on a spring of stiffness {spring_constant}",
+    "determine time period of simple harmonic motion for mass {mass} kg and stiffness {spring_constant} N/m",
+    "how much time does one oscillation take for mass {mass} connected to spring constant {spring_constant}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide mass by spring constant",
+     "explain": "ratio gives inertia over stiffness",
+     "compute": "mass / spring_constant"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "frequency factor depends on square root of ratio",
+     "compute": "sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "time period is 2 pi times root ratio",
+     "compute": "2 * pi * root_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving oscillation period of spring mass system.",
+     "solution": "Step 1: divide mass by spring constant. Step 2: take square root. Step 3: multiply by 2 pi. Working: mass / spring_constant, sqrt(ratio), 2 * pi * root_val.",
+     "answer": "Oscillation Period of Spring Mass System applied step by step gives the required result."
+    },
+    {
+     "question": "Apply oscillation period of spring mass system to a fresh example and interpret the result.",
+     "solution": "Step 1: divide mass by spring constant. Step 2: take square root. Step 3: multiply by 2 pi. Working: mass / spring_constant, sqrt(ratio), 2 * pi * root_val.",
+     "answer": "The method of oscillation period of spring mass system leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.6",
+   "title": "Total Mechanical Energy in SHM",
+   "section": "13.7",
+   "definition": "Total mechanical energy in frictionless simple harmonic motion is conserved and proportional to the square of amplitude.",
+   "formula": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)",
+   "key_idea": "Total energy remains constant throughout oscillation and equals peak potential energy.",
+   "textbook_ref": "keph206.txt lines 370-420",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant {spring_constant} and amplitude {amplitude}",
+    "find total energy of harmonic oscillator having stiffness {spring_constant} N/m and amplitude {amplitude} m",
+    "what is the total energy in simple harmonic motion for spring constant {spring_constant} and amplitude {amplitude}",
+    "determine total mechanical energy given spring constant {spring_constant} and amplitude {amplitude}",
+    "how much energy is stored in SHM with force constant {spring_constant} and amplitude {amplitude}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square amplitude",
+     "explain": "energy depends on square of amplitude",
+     "compute": "amplitude ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate total energy",
+     "explain": "total energy is half times spring constant times amplitude squared",
+     "compute": "0.5 * spring_constant * amp_sq"
+    },
+    {
+     "step": 3,
+     "action": "verify energy conservation by comparing total energy to peak potential energy",
+     "explain": "at maximum displacement all energy is potential, so total energy equals the peak PE value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving total mechanical energy in shm.",
+     "solution": "Step 1: square amplitude. Step 2: calculate total energy. Step 3: verify energy conservation by comparing total energy to peak potential energy. Working: amplitude ** 2, 0.5 * spring_constant * amp_sq.",
+     "answer": "Total Mechanical Energy in SHM applied step by step gives the required result."
+    },
+    {
+     "question": "Apply total mechanical energy in shm to a fresh example and interpret the result.",
+     "solution": "Step 1: square amplitude. Step 2: calculate total energy. Step 3: verify energy conservation by comparing total energy to peak potential energy. Working: amplitude ** 2, 0.5 * spring_constant * amp_sq.",
+     "answer": "The method of total mechanical energy in shm leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.7",
+   "title": "Potential Energy at Displacement in SHM",
+   "section": "13.7",
+   "definition": "Potential energy of a linear harmonic oscillator at any displacement from equilibrium depends on displacement squared.",
+   "formula": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)",
+   "key_idea": "Potential energy varies quadratically with displacement and peaks at extreme positions.",
+   "textbook_ref": "keph206.txt lines 380-410",
+   "question_patterns": [
+    "in Class 11 physics oscillations: find potential energy in SHM at displacement {displacement} for spring constant {spring_constant}",
+    "calculate potential energy when displacement is {displacement} m and spring constant is {spring_constant} N/m",
+    "what is the potential energy of harmonic oscillator at displacement {displacement} metres with force constant {spring_constant}",
+    "determine potential energy given displacement {displacement} and stiffness {spring_constant}",
+    "how much potential energy exists at position {displacement} m with spring constant {spring_constant} N/m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square displacement",
+     "explain": "potential energy varies with square of displacement",
+     "compute": "displacement ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate potential energy",
+     "explain": "PE is half spring constant times displacement squared",
+     "compute": "0.5 * spring_constant * disp_sq"
+    },
+    {
+     "step": 3,
+     "action": "compute the corresponding kinetic energy at the given displacement",
+     "explain": "kinetic energy equals total energy minus potential energy, ensuring energy conservation at any displacement",
+     "compute": "total_energy - potential_energy"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving potential energy at displacement in shm.",
+     "solution": "Step 1: square displacement. Step 2: calculate potential energy. Step 3: compute the corresponding kinetic energy at the given displacement. Working: displacement ** 2, 0.5 * spring_constant * disp_sq, total_energy - potential_energy.",
+     "answer": "Potential Energy at Displacement in SHM applied step by step gives the required result."
+    },
+    {
+     "question": "Apply potential energy at displacement in shm to a fresh example and interpret the result.",
+     "solution": "Step 1: square displacement. Step 2: calculate potential energy. Step 3: compute the corresponding kinetic energy at the given displacement. Working: displacement ** 2, 0.5 * spring_constant * disp_sq, total_energy - potential_energy.",
+     "answer": "The method of potential energy at displacement in shm leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.8",
+   "title": "Time Period of Simple Pendulum",
+   "section": "13.8",
+   "definition": "For small angular swings, a simple pendulum executes simple harmonic motion with time period depending on string length and gravitational acceleration.",
+   "formula": "period = 2 * pi * sqrt(length / g)",
+   "key_idea": "Simple pendulum period is independent of bob mass and amplitude for small angular displacements.",
+   "textbook_ref": "keph206.txt lines 430-480",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate time period of a simple pendulum of length {length} m where gravitational acceleration is {g}",
+    "find period of pendulum given length {length} metres and acceleration due to gravity {g} m/s^2",
+    "what is the oscillation period for a pendulum of length {length} under gravity {g}",
+    "determine period of simple pendulum with length {length} m and g equal to {g}",
+    "how much is the time period of simple pendulum having length {length} metres on a planet with g = {g}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide length by acceleration due to gravity",
+     "explain": "ratio of length to g determines square of angular time factor",
+     "compute": "length / g"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "time period depends on square root of length to g ratio",
+     "compute": "sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "period equals 2 pi times root value",
+     "compute": "2 * pi * root_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving time period of simple pendulum.",
+     "solution": "Step 1: divide length by acceleration due to gravity. Step 2: take square root. Step 3: multiply by 2 pi. Working: length / g, sqrt(ratio), 2 * pi * root_val.",
+     "answer": "Time Period of Simple Pendulum applied step by step gives the required result."
+    },
+    {
+     "question": "Apply time period of simple pendulum to a fresh example and interpret the result.",
+     "solution": "Step 1: divide length by acceleration due to gravity. Step 2: take square root. Step 3: multiply by 2 pi. Working: length / g, sqrt(ratio), 2 * pi * root_val.",
+     "answer": "The method of time period of simple pendulum leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.9",
+   "title": "Length of Simple Pendulum for Given Period",
+   "section": "13.8",
+   "definition": "The required length of a simple pendulum to achieve a specific time period can be computed from gravitational acceleration.",
+   "formula": "length = (g * (period ** 2)) / (4 * (pi ** 2))",
+   "key_idea": "Length of simple pendulum scales directly as square of time period.",
+   "textbook_ref": "keph206.txt lines 470-500",
+   "question_patterns": [
+    "in Class 11 physics oscillations: calculate the length of a simple pendulum having time period {period} seconds where g is {g}",
+    "find required pendulum length for time period {period} s with gravitational acceleration {g}",
+    "what length of simple pendulum gives a time period of {period} seconds at g = {g}",
+    "determine length of seconds pendulum given period {period} seconds and g = {g}",
+    "how long must a pendulum string be to oscillate with period {period} seconds when g is {g}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square period",
+     "explain": "length varies with square of period",
+     "compute": "period ** 2"
+    },
+    {
+     "step": 2,
+     "action": "square pi",
+     "explain": "denominator contains pi squared",
+     "compute": "pi ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate denominator",
+     "explain": "4 times pi squared is denominator factor",
+     "compute": "4 * pi_sq"
+    },
+    {
+     "step": 4,
+     "action": "calculate length",
+     "explain": "length equals g times period squared divided by 4 pi squared",
+     "compute": "(g * period_sq) / denom"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving length of simple pendulum for given period.",
+     "solution": "Step 1: square period. Step 2: square pi. Step 3: calculate denominator. Step 4: calculate length. Working: period ** 2, pi ** 2, 4 * pi_sq, (g * period_sq) / denom.",
+     "answer": "Length of Simple Pendulum for Given Period applied step by step gives the required result."
+    },
+    {
+     "question": "Apply length of simple pendulum for given period to a fresh example and interpret the result.",
+     "solution": "Step 1: square period. Step 2: square pi. Step 3: calculate denominator. Step 4: calculate length. Working: period ** 2, pi ** 2, 4 * pi_sq, (g * period_sq) / denom.",
+     "answer": "The method of length of simple pendulum for given period leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.206.10",
+   "title": "Verification of Simple Harmonic Motion Conditions",
+   "section": "13.3",
+   "definition": "A motion is simple harmonic if restoring force or acceleration is directly proportional to displacement and directed towards the mean position.",
+   "formula": "a = - (omega ** 2) * x",
+   "key_idea": "Linear dependence of acceleration on negative displacement characterizes simple harmonic motion.",
+   "textbook_ref": "keph206.txt lines 160-200",
+   "question_patterns": [
+    "in Class 11 physics oscillations: verify whether acceleration expression represents simple harmonic motion",
+    "check if given linear motion relation satisfies SHM force condition",
+    "determine which acceleration relations represent simple harmonic motion",
+    "identify whether displacement function describes simple harmonic oscillation",
+    "evaluate whether a restoring force proportional to displacement gives SHM"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine functional dependence",
+     "explain": "check if acceleration is proportional to first power of displacement x"
+    },
+    {
+     "step": 2,
+     "action": "check sign condition",
+     "explain": "confirm that acceleration vector opposes displacement vector (negative sign)"
+    },
+    {
+     "step": 3,
+     "action": "extract the angular frequency squared from the proportionality constant",
+     "explain": "the coefficient of x in the acceleration expression equals omega squared, confirming SHM with a well-defined period"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "NCERT Example 13.1",
+   "concept": "keph.206.1",
+   "question_type": "compute",
+   "question_pattern": "On an average, a human heart beats {count} times in {duration} seconds. Calculate its frequency and period.",
+   "extracted_variables": {
+    "count": 75,
+    "duration": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate frequency",
+     "explain": "frequency is total oscillations divided by time taken",
+     "compute": "frequency = count / duration"
+    },
+    {
+     "step": 2,
+     "action": "calculate time period",
+     "explain": "period is reciprocal of frequency",
+     "compute": "period = 1 / frequency"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "NCERT Chapter 13 Self-Test 1",
+   "concept": "keph.206.1",
+   "question_type": "compute",
+   "question_pattern": "A motor vibrates {count} times in {duration} seconds. Determine the frequency and time period.",
+   "extracted_variables": {
+    "count": 120,
+    "duration": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate frequency",
+     "explain": "frequency is total oscillations divided by time taken",
+     "compute": "frequency = count / duration"
+    },
+    {
+     "step": 2,
+     "action": "calculate time period",
+     "explain": "period is reciprocal of frequency",
+     "compute": "period = 1 / frequency"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "NCERT Example 13.5 variant",
+   "concept": "keph.206.2",
+   "question_type": "compute",
+   "question_pattern": "A body completes one oscillation in {T} seconds. Calculate its angular frequency.",
+   "extracted_variables": {
+    "T": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angular frequency",
+     "explain": "angular frequency is 2 pi divided by period T",
+     "compute": "omega = (2 * pi) / period"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "NCERT Exercise 13.14 context",
+   "concept": "keph.206.2",
+   "question_type": "compute",
+   "question_pattern": "An engine piston has a period of {T} seconds. Compute its angular frequency.",
+   "extracted_variables": {
+    "T": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angular frequency",
+     "explain": "angular frequency is 2 pi divided by period T",
+     "compute": "omega = (2 * pi) / period"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "NCERT Exercise 13.14",
+   "concept": "keph.206.3",
+   "question_type": "compute",
+   "question_pattern": "A piston in simple harmonic motion has amplitude {amplitude} m and angular frequency {omega} rad/s. Calculate its maximum speed.",
+   "extracted_variables": {
+    "amplitude": 0.5,
+    "omega": 3.3333333333333335
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate maximum speed",
+     "explain": "peak speed is product of angular frequency and amplitude",
+     "compute": "v_max = omega * amplitude"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "NCERT Exercise 13.9 Part (iii)",
+   "concept": "keph.206.3",
+   "question_type": "compute",
+   "question_pattern": "A mass on a spring oscillates with amplitude {amplitude} m and angular frequency {omega} rad/s. Find maximum speed.",
+   "extracted_variables": {
+    "amplitude": 0.02,
+    "omega": 20.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate maximum speed",
+     "explain": "peak speed is product of angular frequency and amplitude",
+     "compute": "v_max = omega * amplitude"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "NCERT Exercise 13.9 Part (ii)",
+   "concept": "keph.206.4",
+   "question_type": "compute",
+   "question_pattern": "A mass-spring system oscillates with angular frequency {omega} rad/s and amplitude {amplitude} m. Calculate maximum acceleration.",
+   "extracted_variables": {
+    "omega": 20.0,
+    "amplitude": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the angular frequency",
+     "explain": "acceleration formula depends on square of omega",
+     "compute": "omega_sq = omega ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by amplitude",
+     "explain": "peak acceleration is omega squared times amplitude",
+     "compute": "a_max = omega_sq * amplitude"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "NCERT Example 13.5 Part (c) variant",
+   "concept": "keph.206.4",
+   "question_type": "compute",
+   "question_pattern": "An oscillator has angular frequency {omega} rad/s and amplitude {amplitude} m. Determine peak acceleration.",
+   "extracted_variables": {
+    "omega": 6.2831853,
+    "amplitude": 5.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the angular frequency",
+     "explain": "acceleration formula depends on square of omega",
+     "compute": "omega_sq = omega ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by amplitude",
+     "explain": "peak acceleration is omega squared times amplitude",
+     "compute": "a_max = omega_sq * amplitude"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "NCERT Exercise 13.9 context",
+   "concept": "keph.206.5",
+   "question_type": "compute",
+   "question_pattern": "A block of mass {mass} kg is attached to a spring of spring constant {spring_constant} N/m. Calculate period of oscillation.",
+   "extracted_variables": {
+    "mass": 3.0,
+    "spring_constant": 1200.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by spring constant",
+     "explain": "ratio gives inertia over stiffness",
+     "compute": "ratio = mass / spring_constant"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "frequency factor depends on square root of ratio",
+     "compute": "root_val = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "time period is 2 pi times root ratio",
+     "compute": "period = 2 * pi * root_val"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "NCERT Example 13.7 context",
+   "concept": "keph.206.5",
+   "question_type": "compute",
+   "question_pattern": "A block of mass {mass} kg is fastened to a spring with stiffness {spring_constant} N/m. Find period of oscillation.",
+   "extracted_variables": {
+    "mass": 1.0,
+    "spring_constant": 50.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by spring constant",
+     "explain": "ratio gives inertia over stiffness",
+     "compute": "ratio = mass / spring_constant"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "frequency factor depends on square root of ratio",
+     "compute": "root_val = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "time period is 2 pi times root ratio",
+     "compute": "period = 2 * pi * root_val"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "NCERT Example 13.7",
+   "concept": "keph.206.6",
+   "question_type": "compute",
+   "question_pattern": "A block attached to a spring with stiffness {spring_constant} N/m is pulled to amplitude {amplitude} m. Calculate total energy.",
+   "extracted_variables": {
+    "spring_constant": 50.0,
+    "amplitude": 0.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square amplitude",
+     "explain": "energy depends on square of amplitude",
+     "compute": "amp_sq = amplitude ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate total energy",
+     "explain": "total energy is half times spring constant times amplitude squared",
+     "compute": "total_energy = 0.5 * spring_constant * amp_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "NCERT Exercise 13.9 Energy variant",
+   "concept": "keph.206.6",
+   "question_type": "compute",
+   "question_pattern": "A system with spring constant {spring_constant} N/m oscillates with amplitude {amplitude} m. Compute total energy.",
+   "extracted_variables": {
+    "spring_constant": 1200.0,
+    "amplitude": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square amplitude",
+     "explain": "energy depends on square of amplitude",
+     "compute": "amp_sq = amplitude ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate total energy",
+     "explain": "total energy is half times spring constant times amplitude squared",
+     "compute": "total_energy = 0.5 * spring_constant * amp_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "NCERT Example 13.7 PE part",
+   "concept": "keph.206.7",
+   "question_type": "compute",
+   "question_pattern": "A spring with constant {spring_constant} N/m is at displacement {displacement} m. Calculate potential energy.",
+   "extracted_variables": {
+    "spring_constant": 50.0,
+    "displacement": 0.05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square displacement",
+     "explain": "potential energy varies with square of displacement",
+     "compute": "disp_sq = displacement ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate potential energy",
+     "explain": "PE is half spring constant times displacement squared",
+     "compute": "potential_energy = 0.5 * spring_constant * disp_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "NCERT Exercise self-test PE",
+   "concept": "keph.206.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate potential energy at displacement {displacement} m for a spring of stiffness {spring_constant} N/m.",
+   "extracted_variables": {
+    "spring_constant": 200.0,
+    "displacement": 0.03
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square displacement",
+     "explain": "potential energy varies with square of displacement",
+     "compute": "disp_sq = displacement ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate potential energy",
+     "explain": "PE is half spring constant times displacement squared",
+     "compute": "potential_energy = 0.5 * spring_constant * disp_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "NCERT Exercise 13.15",
+   "concept": "keph.206.8",
+   "question_type": "compute",
+   "question_pattern": "A simple pendulum of length {length} m is taken to Moon surface where g is {g} m/s^2. Calculate its time period.",
+   "extracted_variables": {
+    "length": 0.992,
+    "g": 1.7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide length by acceleration due to gravity",
+     "explain": "ratio of length to g determines square of angular time factor",
+     "compute": "ratio = length / g"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "time period depends on square root of length to g ratio",
+     "compute": "root_val = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "period equals 2 pi times root value",
+     "compute": "period = 2 * pi * root_val"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "NCERT Chapter 13 Pendulum Standard",
+   "concept": "keph.206.8",
+   "question_type": "compute",
+   "question_pattern": "Find time period of a pendulum with length {length} m where g is {g} m/s^2.",
+   "extracted_variables": {
+    "length": 1.0,
+    "g": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide length by acceleration due to gravity",
+     "explain": "ratio of length to g determines square of angular time factor",
+     "compute": "ratio = length / g"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "time period depends on square root of length to g ratio",
+     "compute": "root_val = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by 2 pi",
+     "explain": "period equals 2 pi times root value",
+     "compute": "period = 2 * pi * root_val"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "NCERT Example 13.8",
+   "concept": "keph.206.9",
+   "question_type": "compute",
+   "question_pattern": "What is the length of a simple pendulum which ticks seconds having period {period} s where g is {g} m/s^2?",
+   "extracted_variables": {
+    "period": 2.0,
+    "g": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square period",
+     "explain": "length varies with square of period",
+     "compute": "period_sq = period ** 2"
+    },
+    {
+     "step": 2,
+     "action": "square pi",
+     "explain": "denominator contains pi squared",
+     "compute": "pi_sq = pi ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate denominator",
+     "explain": "4 times pi squared is denominator factor",
+     "compute": "denom = 4 * pi_sq"
+    },
+    {
+     "step": 4,
+     "action": "calculate length",
+     "explain": "length equals g times period squared divided by 4 pi squared",
+     "compute": "length = (g * period_sq) / denom"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "NCERT Example 13.8 variant",
+   "concept": "keph.206.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the length of a simple pendulum having period {period} s where g is {g} m/s^2.",
+   "extracted_variables": {
+    "period": 1.0,
+    "g": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square period",
+     "explain": "length varies with square of period",
+     "compute": "period_sq = period ** 2"
+    },
+    {
+     "step": 2,
+     "action": "square pi",
+     "explain": "denominator contains pi squared",
+     "compute": "pi_sq = pi ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate denominator",
+     "explain": "4 times pi squared is denominator factor",
+     "compute": "denom = 4 * pi_sq"
+    },
+    {
+     "step": 4,
+     "action": "calculate length",
+     "explain": "length equals g times period squared divided by 4 pi squared",
+     "compute": "length = (g * period_sq) / denom"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "keph206.txt line 530",
+   "questions": [
+    "Which of the following examples represent periodic motion? (a) A swimmer completing one return trip from one bank of a river to the other and back. (b) A freely suspended bar magnet displaced from its N-S direction and released. (c) A hydrogen molecule rotating about its centre of mass. (d) An arrow released from a bow."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "keph206.txt line 537",
+   "questions": [
+    "Which of the following examples represent nearly simple harmonic motion and which represent periodic but not simple harmonic motion? (a) the rotation of earth about its axis. (b) motion of an oscillating mercury column in a U-tube. (c) motion of a ball bearing inside a smooth curved bowl, when released from a point slightly above the lower most point. (d) general vibrations of a polyatomic molecule about its equilibrium position."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "keph206.txt line 545",
+   "questions": [
+    "Which of the x-t plots represent periodic motion? What is the period of motion in case of periodic motion?"
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "keph206.txt line 548",
+   "questions": [
+    "Which of the following functions of time represent (a) simple harmonic, (b) periodic but not simple harmonic, and (c) non-periodic motion? Give period for each case of periodic motion: (a) sin omega t - cos omega t, (b) sin^3 omega t, (c) 3 cos (pi/4 - 2 omega t), (d) cos omega t + cos 3 omega t + cos 5 omega t, (e) exp(- omega^2 t^2), (f) 1 + omega t + omega^2 t^2"
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "keph206.txt line 557",
+   "questions": [
+    "A particle is in linear simple harmonic motion between two points, A and B, 10 cm apart. Take the direction from A to B as the positive direction and give the signs of velocity, acceleration and force on the particle when it is at various positions."
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "keph206.txt line 566",
+   "questions": [
+    "Which of the following relationships between the acceleration a and the displacement x of a particle involve simple harmonic motion? (a) a = 0.7x, (b) a = -200x^2, (c) a = -10x, (d) a = 100x^3"
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "keph206.txt line 572",
+   "questions": [
+    "The motion of a particle executing simple harmonic motion is described by x(t) = A cos (omega t + phi). If the initial position is 1 cm and initial velocity is omega cm/s, what are its amplitude and initial phase angle?"
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "keph206.txt line 579",
+   "questions": [
+    "A spring balance has a scale that reads from 0 to 50 kg. The length of the scale is 20 cm. A body suspended from this balance, when displaced and released, oscillates with a period of 0.6 s. What is the weight of the body?"
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "keph206.txt line 583",
+   "questions": [
+    "A spring with a spring constant 1200 N m^-1 is mounted on a horizontal table. A mass of 3 kg is attached to the free end of the spring. The mass is pulled sideways to a distance of 2.0 cm and released. Determine (i) frequency of oscillations, (ii) maximum acceleration, (iii) maximum speed."
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "keph206.txt line 590",
+   "questions": [
+    "In Exercise 13.9, give x as a function of time t for the oscillating mass if at t = 0 the mass is at (a) mean position, (b) maximum stretched position, (c) maximum compressed position."
+   ]
+  },
+  {
+   "id": "ex13.11",
+   "source_ref": "keph206.txt line 598",
+   "questions": [
+    "Obtain the corresponding simple harmonic motions of the x-projection of the radius vector of the revolving particle P for given circular motions."
+   ]
+  },
+  {
+   "id": "ex13.12",
+   "source_ref": "keph206.txt line 603",
+   "questions": [
+    "Plot the corresponding reference circle for each simple harmonic motion: (a) x = -2 sin (3t + pi/3), (b) x = cos (pi/6 - t), (c) x = 3 sin (2 pi t + pi/4), (d) x = 2 cos pi t."
+   ]
+  },
+  {
+   "id": "ex13.13",
+   "source_ref": "keph206.txt line 610",
+   "questions": [
+    "For a spring clamped at one end vs both ends free with masses attached, find maximum extension and period of oscillation in each case."
+   ]
+  },
+  {
+   "id": "ex13.14",
+   "source_ref": "keph206.txt line 617",
+   "questions": [
+    "The piston in the cylinder head of a locomotive has a stroke of 1.0 m. If the piston moves with simple harmonic motion with angular frequency 200 rad/min, what is its maximum speed?"
+   ]
+  },
+  {
+   "id": "ex13.15",
+   "source_ref": "keph206.txt line 621",
+   "questions": [
+    "The acceleration due to gravity on Moon surface is 1.7 m s^-2. What is the time period of a simple pendulum on Moon if its time period on Earth is 3.5 s?"
+   ]
+  },
+  {
+   "id": "ex13.16",
+   "source_ref": "keph206.txt line 625",
+   "questions": [
+    "A simple pendulum of length l and bob mass M is suspended in a car moving on a circular track of radius R with speed v. What will be its time period for small oscillations?"
+   ]
+  },
+  {
+   "id": "ex13.17",
+   "source_ref": "keph206.txt line 630",
+   "questions": [
+    "Show that a cylindrical piece of cork floating in a liquid executes simple harmonic motion when depressed slightly and released."
+   ]
+  },
+  {
+   "id": "ex13.18",
+   "source_ref": "keph206.txt line 637",
+   "questions": [
+    "Show that when pressure difference in a U-tube containing mercury is removed, the column executes simple harmonic motion."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file",
+  "keph.206.2: bad compute '(2 * pi) / T' (unknown symbol: T)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

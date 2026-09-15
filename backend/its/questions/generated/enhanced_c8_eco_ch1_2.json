@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_2",
+   "title": "c8_eco_ch1_2",
+   "questions": [
+    {
+     "q": "What are the four primary factors of production recognized in economics?",
+     "a": "The four primary factors of production are land, labour, capital, and entrepreneurship. A student who misses one or lists financial instruments instead of entrepreneurship is confusing general business assets with fundamental economic factors.",
+     "self_check": true
+    },
+    {
+     "q": "Why is an office building considered 'land' in economics even though it was built by humans?",
+     "a": "In economics, 'land' includes all natural resources and the fixed geographical location upon which economic activity takes place. While the building is a human-made structure, the underlying plot of earth and natural site are classified as land. A wrong answer shows a confusion between man-made capital improvements and the natural factor of land itself.",
+     "self_check": true
+    },
+    {
+     "q": "A local textile factory in Surat employs 50 workers, uses 10 electric looms, sits on a 2000 sq meter plot, and is managed by Mr. Sharma who takes financial risks. Categorize each item into its respective factor of production.",
+     "a": "Step 1: Identify the inputs mentioned in the scenario. \nStep 2: Assign the 50 workers to Labour (human effort). \nStep 3: Assign the 10 electric looms to Capital (man-made tools/machinery). \nStep 4: Assign the 2000 sq meter plot to Land (natural space/site). \nStep 5: Assign Mr. Sharma's risk-taking and business organization to Entrepreneurship. \nAnswer: Workers = Labour, Looms = Capital, Plot = Land, Mr. Sharma = Entrepreneurship. A wrong answer reveals a mix-up between physical capital (machines) and human resources (labour or entrepreneurship).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why financial money kept in a bank account is not considered 'capital' as a factor of production by economists.",
+     "a": "Money sitting idle in a bank account is just a medium of exchange or store of value, not physical capital used directly in the production of goods and services. Capital in economics refers to productive physical assets like machinery, tools, and factories that help generate output. A student who thinks money itself is capital fails to distinguish between financial liquidity and real economic capital.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Labour is just physical muscle power used in a factory; office workers or teachers do not provide labour.\" Is this correct?",
+     "a": "This statement is incorrect. In economics, labour includes any physical or mental human effort exerted in the production of goods and services. Teachers, software engineers, and accountants provide mental labour, which is just as vital as manual labour. A wrong answer shows a narrow, outdated definition of labour that ignores human capital and mental effort.",
+     "self_check": true
+    },
+    {
+     "q": "Create a quick inventory of factors of production for running a school canteen that sells samosas and juice. List at least one item for each of the four categories.",
+     "a": "A complete answer must list: Land (the physical canteen stall space), Labour (the person frying samosas and serving), Capital (the frying pan, stove, and refrigerator), and Entrepreneurship (the canteen owner who decides the menu, buys ingredients, and takes the profit/loss risk). A poor answer misses one or more categories or confuses capital with money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

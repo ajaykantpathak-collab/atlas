@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_008",
+   "title": "c11_psy_cbse_08_008",
+   "questions": [
+    {
+     "q": "Name the six basic emotions identified by Paul Ekman as universal across cultures, and state the key methodological evidence he used to support this claim.",
+     "a": "The six basic emotions are anger, disgust, fear, happiness, sadness, and surprise. Ekman's key evidence came from studies with the Fore people of Papua New Guinea, who had minimal Western contact; they accurately matched facial expressions to emotion stories at above-chance levels, and their posed expressions were correctly identified by Western observers. A wrong answer (e.g., listing \"love, jealousy, pride\" or citing only Western college student data) reveals the student confuses basic emotions with complex social emotions or ignores the critical cross-cultural methodological control.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the concept of \"display rules\" in your own words, and give one Indian cultural example where a display rule modifies the expression of a universal emotion.",
+     "a": "Display rules are culturally learned prescriptions that govern who can express which emotion, to whom, when, where, and with what intensity — they manage the behavioral output of universal emotions without changing the underlying feeling. Indian example: In many traditional households, a daughter-in-law (*bahu*) suppresses overt anger (*krodh*) toward her mother-in-law despite feeling it, expressing instead *lajja* (modesty/restraint) or silence, because the display rule values family hierarchy and harmony over individual emotional authenticity. A wrong answer (e.g., \"display rules mean cultures have different emotions\" or giving a biological example like \"Indians blush less\") reveals confusion between emotion *generation* and emotion *regulation/expression*, or a category error conflating physiology with culture.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher shows standardized fear-face photographs to two groups: Group A (urban Indian adolescents) and Group B (rural Japanese adolescents). Both groups label the face \"fear\" at 85% accuracy in a forced-choice format. However, in a free-labeling task, Group A produces 12 distinct labels (including *bhay*, *dar*, *atr*, *trasa*) while Group B produces 5 labels (primarily *kowai*, *osoroshii*). Apply the concept of emotion lexicon elaboration to interpret these results.",
+     "a": "Step 1: Forced-choice equivalence (85% both) confirms the universal facial configuration for fear is recognized panculturally — supporting Ekman's universality thesis. Step 2: Free-labeling divergence shows cultural elaboration: Group A's 12 labels indicate Hindi/regional languages differentiate fear by intensity (*bhay* vs. *atr*), source (*dar* for supernatural, *trasa* for immediate threat), and social context. Step 3: Group B's fewer labels reflect Japanese lexical consolidation where *kowai* covers both fear and scariness, and *osoroshii* adds dread/awfulness. Step 4: Conclusion — universality operates at the perception/recognition level; variation operates at the semantic/conceptual level. A wrong answer (e.g., \"Group A feels more fear\" or \"Japanese don't understand fear\") commits the lexical fallacy — equating label granularity with experience intensity or capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the gaze behavior norms during emotional conversations in (a) Latin American/Southern European cultures and (b) South Asian (Indian/Pakistani) cultures. Analyze how these norms reflect divergent cultural models of self (independent vs. interdependent).",
+     "a": "Latin American/Southern European norm: Direct eye contact maintained with the interactant's eyes — signals engagement, honesty, and individual agency (independent self: \"I see you, I assert my perspective\"). South Asian norm: Peripheral gaze (looking away, downward, or at the nose/forehead) — signals respect, deference, and avoidance of confrontation (interdependent self: \"I honor your status, I modulate my impact on the collective\"). Analysis: Direct gaze in high-contact cultures affirms the bounded, expressive self; peripheral gaze in hierarchical, collectivistic cultures protects relational harmony and face. A wrong answer (e.g., \"Indians avoid eye contact because they are shy\" or \"Latin Americans stare because they are aggressive\") commits the dispositional attribution error — ignoring the cultural logic that makes each norm adaptive in its context.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Because Ekman found universal facial expressions, culture does not shape emotional experience — it only shapes expression.\" Defend your position using evidence from emotion lexicon studies and appraisal theory.",
+     "a": "The statement is partially correct but incomplete. Evidence against \"only shapes expression\": (1) Lexicon studies (Tahitian 46 anger terms, Japanese *amae* — no English equivalent) show culture *constitutes* emotional experience by providing categories that focus attention on specific appraisals (e.g., *amae* = pleasant dependence on another's indulgence). (2) Appraisal theory: Cultural models shape *what* triggers an emotion (e.g., Indian *lajja* triggered by social impropriety vs. Western guilt triggered by internal moral violation). (3) Neuroimaging: Cultural differences in amygdala response to fear faces depend on cultural familiarity. However, the statement correctly notes that the *facial motor program* for basic emotions is pancultural. Verdict: Culture shapes experience *through* appraisal and categorization, not just expression. A wrong answer (e.g., \"Ekman proved culture doesn't matter\" or \"All emotions are culturally constructed\") fails to integrate the interactionist consensus: biology constrains, culture constructs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-cultural study to test whether the Indian emotion *karuna* (compassion) is a distinct basic emotion or a cultural elaboration of sadness/love. Specify: (a) participant groups, (b) stimulus materials, (c) dependent measures, (d) predicted outcomes for each hypothesis.",
+     "a": "(a) Groups: Urban Indian Hindus (high *karuna* exposure), Indian Christians (moderate), White Americans (low/no lexical equivalent). (b) Stimuli: 30 silent video clips — 10 *karuna*-eliciting (suffering other + urge to help), 10 sadness (loss, no helping urge), 10 love (intimacy, no suffering). (c) Measures: Forced-choice labeling (basic emotions + *karuna*), free labeling, intensity ratings (0-10), action tendency checklist (help, comfort, withdraw), physiological (HR, skin conductance). (d) Predictions: If *karuna* is basic — all groups show distinct facial signature (AU1+4+15?), unique physiology, high forced-choice agreement. If cultural elaboration — only Indian Hindus label *karuna* reliably; others subsume under sadness/love; physiology overlaps with sadness; action tendency \"help\" distinguishes it. A poor design (e.g., only forced-choice, only one culture, no physiology) cannot disentangle perception from conception.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

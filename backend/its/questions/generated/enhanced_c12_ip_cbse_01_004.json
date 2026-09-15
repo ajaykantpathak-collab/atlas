@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_004",
+   "title": "c12_ip_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the exact syntax to display only the CarName and Model columns from the INVENTORY table without showing any other columns?",
+     "a": "Correct answer: `SELECT CarName, Model FROM INVENTORY;`\nA wrong answer like `SELECT * FROM INVENTORY;` reveals the student doesn't understand explicit column selection — they think SELECT * is equivalent to naming columns, but it retrieves ALL columns which wastes resources and fails exam questions asking for specific columns. Another wrong answer: `SELECT CarName Model FROM INVENTORY;` (missing comma) shows syntax confusion between column separation and aliasing.",
+     "self_check": true
+    },
+    {
+     "q": "The INVENTORY table has 8 rows. The Model column contains: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE, LXI, VXI. How many rows will `SELECT DISTINCT Model FROM INVENTORY;` return? Explain why.",
+     "a": "Correct answer: 6 rows. The unique models are: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE. LXI and VXI each appear twice in the table but DISTINCT collapses duplicates into single rows.\nA wrong answer of 8 reveals the student thinks DISTINCT does nothing or doesn't understand it operates on the RESULT SET after column selection. A wrong answer of 7 suggests they miscounted unique values or think one duplicate pair isn't actually duplicate (e.g., case sensitivity confusion — but SQL is case-insensitive for values by default).",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display all unique combinations of CarName and FuelType from the INVENTORY table. The table has CarName values: Car1, Car1, Car2, Car2, Car3, Car3, Car4, Car4 and FuelType: Petrol, Petrol, Petrol, Petrol, CNG, CNG, Petrol, Petrol respectively.",
+     "a": "Correct answer: `SELECT DISTINCT CarName, FuelType FROM INVENTORY;`\nThis returns 5 rows: (Car1, Petrol), (Car2, Petrol), (Car3, CNG), (Car4, Petrol). Note Car1 appears twice but both have Petrol — so only ONE row for that combination.\nA wrong answer using `SELECT DISTINCT CarName, DISTINCT FuelType` (syntax error — DISTINCT applies to entire row, not per column) or `SELECT CarName, FuelType FROM INVENTORY` (returns 8 rows with duplicates) shows misunderstanding that DISTINCT operates on the COMBINATION of selected columns, not individually per column.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of these two queries on the INVENTORY table:\nQuery A: `SELECT Model FROM INVENTORY;`\nQuery B: `SELECT DISTINCT Model FROM INVENTORY;`\nIf Query A returns 8 rows and Query B returns 6 rows, what does this tell you about the data? Can you determine exactly which models are duplicated?",
+     "a": "Correct answer: The difference of 2 rows (8 - 6 = 2) means exactly 2 duplicate rows exist in the Model column. Since there are 8 total rows and 6 unique values, two values appear twice each (or one value appears three times). From the NCERT data: LXI appears twice, VXI appears twice — that's 2 extra rows beyond the 6 unique models. You CAN determine which models are duplicated by running: `SELECT Model, COUNT(*) FROM INVENTORY GROUP BY Model HAVING COUNT(*) > 1;` (though GROUP BY is a later node).\nA wrong answer like \"we can't know which models without seeing data\" misses that the COUNT difference reveals the NUMBER of duplicate occurrences. A wrong answer claiming \"one model appears 3 times\" would be incorrect because 8-6=2 extra rows means two models appear twice (2×2=4 rows for those two models, plus 4 other unique models = 8 total).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `SELECT DISTINCT * FROM INVENTORY;` to \"get unique rows.\" Is this valid SQL? Will it work as intended? Critique this approach for a board exam answer.",
+     "a": "Correct answer: Yes, `SELECT DISTINCT *` is valid SQL and returns unique rows based on ALL columns. However, in a board exam, this is poor practice because: (1) * is discouraged — explicit columns show understanding, (2) if the table has a primary key (CarId), every row is already unique so DISTINCT does nothing but adds processing overhead, (3) exam questions ask for specific columns, not \"all unique rows.\" The student should write `SELECT DISTINCT CarName, Model, FuelType FROM INVENTORY;` if those are the relevant columns.\nA wrong defense like \"it works so it's fine\" reveals lack of exam awareness — CBSE marking schemes penalize * usage when specific columns are asked for, and DISTINCT * on a keyed table shows conceptual confusion about what makes rows unique.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario using the CARSHOWROOM database where using DISTINCT would give misleading results if applied to the wrong column combination. Write the problematic query and the corrected query.",
+     "a": "Correct answer: Scenario: \"List all customers who bought cars.\" Problematic query: `SELECT DISTINCT CustName FROM SALE;` — This returns only 3 rows (AmitSaha, Rehnuma, CharviNayyar, Gurpreet) but C0001 (AmitSaha) bought 2 cars. If the boss asks \"how many customers bought cars?\" the answer 4 is correct, but if they ask \"show each purchase with customer name,\" DISTINCT on CustName alone loses the fact that AmitSaha made two separate purchases.\nCorrected query: `SELECT DISTINCT InvoiceNo, CustName FROM SALE;` — This preserves each sale (6 rows) while still eliminating any true duplicate rows (if data entry errors created identical InvoiceNo-CustName pairs).\nA poor answer that says \"DISTINCT is always good\" misses that DISTINCT on non-key columns can hide business-relevant multiplicity. The key insight: DISTINCT removes duplicate ROWS, not duplicate VALUES in a single column — the combination matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

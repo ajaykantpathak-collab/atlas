@@ -1,0 +1,455 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 4,
+ "chapter_title": "Psychological Disorders",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy104.1",
+   "title": "Four Ds of Abnormality and Views of Abnormal Behaviour",
+   "section": "Concepts of Abnormality and Psychological Disorders",
+   "definition": "Psychological disorder is judged by four markers called the four Ds - deviance (extreme or unusual behaviour), distress (upsetting to self and others), dysfunction (blocking constructive daily activity) and danger; beyond these, one view equates abnormality with breaking social norms, while the better view labels behaviour abnormal when it is maladaptive, harming the well-being and growth of the person and group.",
+   "formula": "four_ds = deviance + distress + dysfunction + danger ; maladaptive -> abnormal even if socially accepted",
+   "key_idea": "Normality is not mere conformity: a conforming student who never asks questions out of fear can still be showing maladaptive behaviour; stigma keeps many people from seeking help.",
+   "textbook_ref": "lepy104.txt, Concepts of Abnormality (four Ds, norms-based vs maladaptive views, Activity 4.1, stigma discussion)",
+   "question_patterns": [
+    "state the four Ds used to identify psychological disorder and explain each briefly",
+    "can socially accepted behaviour still be abnormal? answer with the maladaptive criterion",
+    "why does defining abnormality as deviation from social norms raise serious questions?",
+    "how does the stigma around mental illness stop people from consulting a doctor or psychologist?",
+    "distinguish deviant behaviour from dysfunctional behaviour with an example",
+    "in Class 12 psychology what does maladaptive behaviour mean?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four markers",
+     "explain": "a disorder tends to be deviant, distressing, dysfunctional and possibly dangerous - all four Ds point to failure of adaptation"
+    },
+    {
+     "step": 2,
+     "action": "check the maladaptive criterion",
+     "explain": "behaviour is abnormal when it blocks optimal functioning and growth, so even conforming behaviour can qualify"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Behaviour that blocks constructive daily activity shows which D of abnormality: dysfunction or deviance?",
+     "a": "dysfunction"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.2",
+   "title": "Historical Perspectives and Classification Systems",
+   "section": "Historical Background / Classification of Psychological Disorders",
+   "definition": "Explanations of disturbed behaviour have recurred as three perspectives - supernatural forces treated through exorcism or the shaman, the biological or organic approach locating trouble in body and brain, and the psychological approach blaming thought, feeling and perception; Galen extended Hippocrates' four humours much as Indian texts speak of vata, pitta and kapha. Today disorders are classified officially through the American Psychiatric Association's DSM-5 and the WHO's ICD-10, the scheme used in India.",
+   "formula": "perspectives = supernatural + biological_organic + psychological ; manuals = dsm_5 (APA) + icd_10 (WHO)",
+   "key_idea": "The reform movement and deinstitutionalisation grew from the eighteenth-century scientific attitude, and current thinking combines all three factors in the bio-psycho-social approach.",
+   "textbook_ref": "lepy104.txt, Historical Background (exorcism, four humours, witch-hunts, Weyer, Reform Movement) and Classification (DSM-5, ICD-10)",
+   "question_patterns": [
+    "which three perspectives recur through the history of abnormal psychology?",
+    "name the two manuals that classify psychological disorders and the bodies that publish them",
+    "which classification scheme is officially used in India for behavioural and mental disorders?",
+    "how did Galen's four humours explain disorders, and what parallels exist in Indian texts?",
+    "what role did the exorcist or shaman play in supernatural explanations of abnormality?",
+    "how did Johann Weyer argue for treating accused witches as mentally disturbed patients?",
+    "what is deinstitutionalisation in the history of mental health care?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three recurring perspectives",
+     "explain": "supernatural, biological or organic, and psychological explanations appear again and again from ancient Greece to the present"
+    },
+    {
+     "step": 2,
+     "action": "check the modern manuals",
+     "explain": "DSM-5 gives discrete clinical criteria per disorder while ICD-10, prepared by WHO, provides clinical features and diagnostic guidelines and serves officially in India"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which perspective treated abnormality with exorcism or the shaman: supernatural, biological or psychological?",
+     "a": "supernatural"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.3",
+   "title": "Models of Abnormal Behaviour and the Diathesis-Stress Model",
+   "section": "Factors Underlying Abnormal Behaviour",
+   "definition": "Each model spotlights different causes: the biological model ties disorders to neurotransmitter problems - low GABA with anxiety disorders, excess dopamine with schizophrenia, low serotonin with depression; the psychodynamic model reads symptoms as symbolic expressions of unconscious conflict from early childhood; the behavioural model treats disorder as maladaptive learning that can be unlearned; the cognitive model blames irrational assumptions and overgeneralisation; the humanistic-existential model cites blocked self-actualisation or avoided responsibility; and the socio-cultural model points to enmeshed families, labelling and social isolation. The diathesis-stress model joins them: a predisposition turns into disorder only when pathogenic stressors trigger it.",
+   "formula": "gaba_low -> anxiety ; dopamine_excess -> schizophrenia ; serotonin_low -> depression ; disorder = diathesis (predisposition) triggered_by pathogenic_stressors",
+   "key_idea": "No single gene causes a disorder; many genes plus stress combine, which is why the interactional bio-psycho-social view is widely accepted.",
+   "textbook_ref": "lepy104.txt, Factors Underlying Abnormal Behaviour (biological, psychodynamic, behavioural, cognitive, humanistic-existential, socio-cultural, diathesis-stress models)",
+   "question_patterns": [
+    "link each of GABA, dopamine and serotonin to the psychological disorder named in the chapter",
+    "explain the three components of the diathesis-stress model of psychological disorders",
+    "how does the behavioural model justify the claim that what is learned can be unlearned?",
+    "what is an overgeneralisation in the cognitive model of abnormal behaviour?",
+    "how do societal labels and roles push a troubled person into playing the sick role?",
+    "what is an enmeshed family structure and what difficulty does it create for children?",
+    "why do psychologists accept no single-gene account of mental disorder?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the neurotransmitter mapping",
+     "explain": "anxiety goes with low GABA activity, schizophrenia with excess dopamine, and depression with low serotonin"
+    },
+    {
+     "step": 2,
+     "action": "check the diathesis-stress chain",
+     "explain": "an inherited biological aberration carries vulnerability; only exposure to pathogenic stressors converts the at-risk state into the actual disorder"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Low levels of which neurotransmitter accompany anxiety disorders: GABA or dopamine?",
+     "a": "GABA"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.4",
+   "title": "Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety",
+   "section": "Major Psychological Disorders - Anxiety Disorders",
+   "definition": "Anxiety is a diffuse, vague, unpleasant feeling of fear and apprehension that becomes a disorder when it is intense enough to disturb effective functioning; its main forms are generalised anxiety disorder with objectless prolonged fear, hypervigilance and motor tension, panic disorder with recurrent surges of intense terror, phobias split into specific, social and agoraphobia, and separation anxiety disorder with developmentally inappropriate distress about leaving attachment figures.",
+   "formula": "anxiety_disorders = generalised + panic + phobias (specific_social_agora) + separation_anxiety",
+   "key_idea": "Normal examination nerves motivate, but a disorder brings rapid heart rate, breathlessness, sweating and sleeplessness that block everyday activity; Deb's driving-panic case shows panic growing into agoraphobic withdrawal.",
+   "textbook_ref": "lepy104.txt, Anxiety Disorders (Table 4.1, Deb's case, three phobia types, SAD in children)",
+   "question_patterns": [
+    "at what stage does ordinary anxiety become an anxiety disorder? name its types",
+    "describe the symptoms of generalised anxiety disorder including hypervigilance and motor tension",
+    "what is a panic attack and which clinical features accompany it?",
+    "classify the fear of leaving one's home into its phobia type and justify",
+    "how does separation anxiety disorder show itself in children?",
+    "distinguish a specific phobia from a social phobia with one example of each",
+    "why has anxiety been called the butterflies in the stomach feeling?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the disorder threshold",
+     "explain": "anxiety counts as disordered when its level is high, distressing, and interfering with effective functioning rather than motivating"
+    },
+    {
+     "step": 2,
+     "action": "check the phobia division",
+     "explain": "specific phobias target objects or situations, social phobia brings incapacitating fear before others, and agoraphobia is fear of unfamiliar situations that can trap people indoors"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Objectless prolonged fear with hypervigilance marks which anxiety disorder: generalised or panic?",
+     "a": "generalised anxiety disorder"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.5",
+   "title": "Obsessive-Compulsive and Trauma-Related Disorders",
+   "section": "Obsessive-Compulsive and Related Disorders / Trauma- and Stressor-Related Disorders",
+   "definition": "In obsessive-compulsive disorder the person cannot stop thinking about an idea (obsession) or cannot resist repeating an act such as counting, checking or washing (compulsion); related conditions include hoarding, trichotillomania and excoriation. After disasters, blasts, accidents or war, survivors may develop post-traumatic stress disorder with recurrent dreams, flashbacks, impaired concentration and emotional numbing; adjustment disorder and acute stress disorder belong to the same trauma-related family.",
+   "formula": "ocd = obsession (intrusive idea) + compulsion (repeated act) ; ptsd = flashbacks + nightmares + numbing after trauma",
+   "key_idea": "Obsessions are unwanted and often shameful thoughts, while compulsions are rituals performed over and over; PTSD symptoms can surface long after the traumatic event ends.",
+   "textbook_ref": "lepy104.txt, Obsessive-Compulsive and Related Disorders (hand-washing example), Trauma- and Stressor-Related Disorders (tsunami, bomb blasts, PTSD symptoms)",
+   "question_patterns": [
+    "distinguish between obsessions and compulsions with one example of each",
+    "name two disorders that sit alongside OCD in its category",
+    "which symptoms mark post-traumatic stress disorder after a disaster or accident?",
+    "why might a person wash hands every time she touches an object - name the disorder",
+    "which disorders are grouped as trauma- and stressor-related in the chapter?",
+    "how do recurrent dreams and flashbacks differ as PTSD symptoms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the obsession-compulsion pair",
+     "explain": "the obsession is the inability to stop thinking about a particular idea, and the compulsion is the need to perform certain behaviours repeatedly"
+    },
+    {
+     "step": 2,
+     "action": "check the PTSD symptom set",
+     "explain": "recurrent dreams, flashbacks, impaired concentration and emotional numbing follow extreme events such as earthquakes, accidents or war exposure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In OCD, the intrusive unwanted idea is the what: obsession or compulsion?",
+     "a": "obsession"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.6",
+   "title": "Somatic Symptom and Dissociative Disorders",
+   "section": "Somatic Symptom and Related Disorders / Dissociative Disorders",
+   "definition": "Somatic symptom and related disorders produce physical complaints without a biological cause: somatic symptom disorder centres on persistent body symptoms and frequent doctor visits, illness anxiety disorder on constant worry about developing a serious disease, and conversion disorders on sudden loss of body function such as paralysis, blindness or deafness after stress. Dissociative disorders sever the links between ideas and emotions: dissociative amnesia brings selective memory loss with no organic basis, dissociative fugue adds unexpected travel and a new identity, dissociative identity disorder shows alternate personalities, and depersonalisation or derealisation brings a dreamlike split from self and reality.",
+   "formula": "somatic_group = somatic_symptom + illness_anxiety + conversion ; dissociative_group = amnesia + fugue + identity + depersonalisation",
+   "key_idea": "Both families respond to stress, but somatic disorders express trouble through the body while dissociative disorders express it through memory, identity and the sense of reality.",
+   "textbook_ref": "lepy104.txt, Somatic Symptom and Related Disorders, Dissociative Disorders, Box 4.1 salient features",
+   "question_patterns": [
+    "differentiate somatic symptom disorder from illness anxiety disorder",
+    "what is a conversion disorder and after what kind of experience do its symptoms appear?",
+    "define dissociation and name its disorder forms",
+    "what marks dissociative fugue apart from simple dissociative amnesia?",
+    "why is dissociative identity disorder also called multiple personality disorder?",
+    "describe the dreamlike state in depersonalisation and derealisation disorder",
+    "what do you understand by the term dissociation as used in Class 12 psychology?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the expression contrast",
+     "explain": "somatic symptom disorder speaks through physical complaints, while illness anxiety disorder speaks through the anxiety itself - both fixate on medical illness"
+    },
+    {
+     "step": 2,
+     "action": "check the dissociative features",
+     "explain": "sudden temporary alterations of consciousness that blot out painful experience define the family, with fugue ending in wakefulness that forgets the fugue itself"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sudden paralysis or blindness after stress with no biological cause is which disorder: conversion or illness anxiety?",
+     "a": "conversion disorder"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.7",
+   "title": "Depressive and Bipolar Disorders",
+   "section": "Depressive Disorders / Bipolar and Related Disorders",
+   "definition": "Major depressive disorder is a period of depressed mood or loss of interest and pleasure in most activities, joined by weight and sleep changes, tiredness, unclear thinking, agitation, worthlessness, guilt and thoughts of death; women face the highest risk in young adulthood, men in early middle age, and negative life events with weak social support add risk. Bipolar I disorder alternates mania with depression, sometimes punctuated by normal mood, and bipolar II and cyclothymic disorder are related forms.",
+   "formula": "mdd = depressed_mood or loss_of_interest plus somatic_cognitive_symptoms ; bipolar = mania alternating with depression",
+   "key_idea": "A previous suicidal attempt is the strongest risk factor for suicide, and suicidal thoughts turn into action only when they seem the only way out - suicides are preventable.",
+   "textbook_ref": "lepy104.txt, Depressive Disorders (risk factors: heredity, age, gender), Bipolar and Related Disorders, suicide risk factors and WHO measures",
+   "question_patterns": [
+    "identify the symptoms associated with depression and with mania",
+    "which age periods carry the highest depression risk for women and for men?",
+    "list the risk factors for suicide and name the strongest one",
+    "how do bipolar I and bipolar II disorders differ from cyclothymic disorder in mood pattern?",
+    "what did bipolar mood disorders used to be called?",
+    "name any WHO-suggested measures for preventing suicide",
+    "how do lack of social support and negative life events feed depressive disorder?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the depression symptom cluster",
+     "explain": "depressed mood or lost interest must come with symptoms such as sleep and weight change, fatigue, slowed behaviour, guilt and death thoughts"
+    },
+    {
+     "step": 2,
+     "action": "check the bipolar alternation",
+     "explain": "mania rarely stands alone; it usually alternates with depression, with stretches of normal mood possible in between"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Alternating mania and depression mark which disorder: bipolar or major depression?",
+     "a": "bipolar disorder"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.8",
+   "title": "Schizophrenia: Positive, Negative and Psychomotor Symptoms",
+   "section": "Schizophrenia Spectrum and Other Psychotic Disorders",
+   "definition": "Schizophrenia is a group of psychotic disorders in which personal, social and occupational functioning deteriorates through disturbed thought, strange perception, unusual emotion and motor abnormality. Positive symptoms are pathological excesses - delusions of persecution, reference, grandeur and control, disorganised speech with loosening of associations, neologisms and perseveration, hallucinations most often auditory, and inappropriate affect. Negative symptoms are pathological deficits - poverty of speech (alogia), blunted or flat affect, loss of volition (avolition) and social withdrawal. Psychomotor symptoms can reach catatonic stupor, rigidity or posturing.",
+   "formula": "schizophrenia_symptoms = positive_excesses + negative_deficits + psychomotor_catatonia",
+   "key_idea": "Shifting topics mid-speech is a positive symptom (formal thought disorder); hearing voices talking about the patient is a third-person auditory hallucination.",
+   "textbook_ref": "lepy104.txt, Symptoms of Schizophrenia (delusion types, thought disorder signs, hallucination senses, alogia, avolition, catatonia)",
+   "question_patterns": [
+    "while speaking in public a patient changes topics frequently - is this a positive or negative symptom of schizophrenia?",
+    "distinguish delusions of persecution, reference, grandeur and control with one example of each",
+    "name the senses through which hallucinations can occur and state which is most common in schizophrenia",
+    "differentiate blunted affect from flat affect and from inappropriate affect",
+    "what are neologisms and perseveration in formal thought disorders?",
+    "describe catatonic stupor, rigidity and posturing as psychomotor symptoms",
+    "define alogia and avolition as negative symptoms of schizophrenia"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the excess-deficit split",
+     "explain": "positive symptoms add bizarre behaviours such as delusions and hallucinations, negative symptoms take away speech, emotion, will and social contact"
+    },
+    {
+     "step": 2,
+     "action": "check the psychomotor extremes",
+     "explain": "catatonia appears as long motionless silence, rigid upright posture, or awkward bizarre positions held for long periods"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Delusions and hallucinations are which kind of schizophrenic symptom: positive or negative?",
+     "a": "positive"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.9",
+   "title": "Neurodevelopmental Disorders and the Autism-Disability Link",
+   "section": "Neurodevelopmental Disorders",
+   "definition": "Neurodevelopmental disorders show up early, before or during early schooling, as deficits, excesses or delays in age-appropriate behaviour: ADHD combines inattention with hyperactivity-impulsivity; autism spectrum disorder brings widespread impairment in social interaction and communication plus stereotyped, restricted behaviour; intellectual disability means IQ near 70 or below with adaptive deficits before age 18; and specific learning disorder hampers reading, writing or mathematics despite normal instruction.",
+   "formula": "autism_id_share = autism_children * id_percent / 100",
+   "key_idea": "About seventy of every hundred children on the autism spectrum also have intellectual disabilities; a child described as driven by a motor shows the hyperactive face of ADHD.",
+   "textbook_ref": "lepy104.txt, Neurodevelopmental Disorders (ADHD two features, autism spectrum disorder with about 70 per cent intellectual disability, Table 4.2 levels of intellectual disability, specific learning disorder)",
+   "question_patterns": [
+    "out of 120 children with autism spectrum disorder, how many are expected to also have intellectual disability?",
+    "name the two main features of ADHD and describe one behaviour of each",
+    "what percentage of children with autism spectrum disorder have intellectual disabilities?",
+    "which IQ threshold and age limit define intellectual disability in the chapter?",
+    "how does specific learning disorder show itself in early school years?",
+    "what stereotyped behaviours and speech patterns mark autism spectrum disorder?",
+    "a class of 40 children with autism spectrum disorder - estimate the number with intellectual disability"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number of children with autism spectrum disorder by the co-occurring disability percentage",
+     "explain": "the chapter states about seventy per cent of these children also have intellectual disabilities",
+     "compute": "id_raw = autism_children * id_percent"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to obtain the expected head count",
+     "explain": "the quotient is the number of children expected to show both conditions",
+     "compute": "autism_id_count = id_raw / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About how many of every hundred children on the autism spectrum also have intellectual disabilities?",
+     "a": "70"
+    }
+   ]
+  },
+  {
+   "id": "lepy104.10",
+   "title": "Eating Disorders and Substance-Related Disorders",
+   "section": "Feeding and Eating Disorders / Substance-Related and Addictive Disorders",
+   "definition": "Eating disorders revolve around food and body image: anorexia nervosa rests on a distorted body image that drives refusal to eat and compulsive exercise, bulimia nervosa alternates binges with purging through vomiting or laxatives, and binge eating brings frequent out-of-control eating past fullness. Substance-related and addictive disorders cover regular use of alcohol, heroin, cocaine and other substances that alter thinking, feeling and behaviour; repeated use builds tolerance and stopping brings withdrawal responses.",
+   "formula": "eating_disorders = anorexia + bulimia + binge_eating ; dependence = tolerance + withdrawal",
+   "key_idea": "Ethyl alcohol first depresses the brain areas governing judgment and inhibition, which is why drinkers feel overconfident before speech, memory and motor control fail.",
+   "textbook_ref": "lepy104.txt, Feeding and Eating Disorders, Substance-Related and Addictive Disorders, Box 4.2 effects of alcohol, Box 4.3 commonly abused substances",
+   "question_patterns": [
+    "can a distorted body image lead to eating disorders? classify the various forms",
+    "how does bulimia nervosa differ from binge eating in the pattern of purging?",
+    "what are the consequences of alcohol addiction for family, work and road safety?",
+    "why do regular drinkers need ever larger amounts to feel the effect? name the process",
+    "which danger does a heroin overdose pose to the respiratory centres of the brain?",
+    "list the groups of commonly abused substances under the DSM-5 classification",
+    "how does cocaine abuse damage short-term memory, attention and mood?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three eating-disorder profiles",
+     "explain": "anorexia starves through fear of being overweight, bulimia cancels binges with purging, and binge eating keeps out-of-control episodes without the purge"
+    },
+    {
+     "step": 2,
+     "action": "check the dependence pair",
+     "explain": "tolerance means the body needs greater amounts for the same effect, and withdrawal is the reaction that appears when intake stops"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which eating disorder rests on a distorted body image with refusal to eat: anorexia nervosa or bulimia nervosa?",
+     "a": "anorexia nervosa"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy104.we1",
+   "concept_id": "lepy104.9",
+   "problem": "A school identifies 120 children with autism spectrum disorder. Using the chapter's co-occurrence figure, how many of them are expected to have intellectual disabilities as well?",
+   "given": {
+    "autism_children": 120,
+    "id_percent": 70
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the group size by the co-occurrence percentage",
+     "compute": "id_raw = 120 * 70"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert into a count of children",
+     "compute": "autism_id_count = id_raw / 100"
+    }
+   ],
+   "answer": "autism_id_count = 84 children expected to have both autism spectrum disorder and intellectual disability"
+  },
+  {
+   "id": "lepy104.we2",
+   "concept_id": "lepy104.9",
+   "problem": "A district screening registers 40 children with autism spectrum disorder. Estimate how many of them will also show intellectual disability.",
+   "given": {
+    "autism_children": 40,
+    "id_percent": 70
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the registered children by the percentage",
+     "compute": "id_raw = 40 * 70"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 for the head count",
+     "compute": "autism_id_count = id_raw / 100"
+    }
+   ],
+   "answer": "autism_id_count = 28 children with both conditions"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy104.ex1",
+   "source_ref": "lepy104.txt Review Questions (chapter-end)",
+   "questions": [
+    "Identify the symptoms associated with depression and with mania.",
+    "Describe the characteristics of children with hyperactivity.",
+    "What are the consequences of alcohol substance addiction?",
+    "Can a distorted body image lead to eating disorders? Classify the various forms.",
+    "How are psychological disorders diagnosed, the way physicians diagnose from physical symptoms?",
+    "Distinguish between obsessions and compulsions.",
+    "Can a long-standing pattern of deviant behaviour be considered abnormal? Elaborate.",
+    "Is frequently changing topics in public speech a positive or negative symptom of schizophrenia? Describe its other symptoms.",
+    "What do you understand by dissociation? Discuss its various forms.",
+    "What are phobias? Could a fear of snakes result from faulty learning? Analyse how it might develop.",
+    "At what stage does anxiety become a disorder? Discuss its types."
+   ]
+  },
+  {
+   "id": "lepy104.ex2",
+   "source_ref": "lepy104.txt Activity 4.5 (identifying delusions)",
+   "questions": [
+    "A person believes she is about to become the next President of India - name the delusion type.",
+    "A person believes intelligence agencies are conspiring to trap him in a spy scandal - name the delusion type.",
+    "A person believes her actions are steered through a chip implanted by extraterrestrial beings - name the delusion type.",
+    "Sort the classroom bodily symptoms recorded before the Class X board examination into mild, moderate and severe anxiety."
+   ]
+  }
+ ]
+}

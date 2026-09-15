@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_9",
+   "title": "c9_math_ch6_9",
+   "questions": [
+    {
+     "q": "State the formula for the area of a sector of a circle with radius r and central angle θ (in degrees).",
+     "a": "The formula is Area = (θ/360) × πr². A wrong answer such as Area = (θ/360) × 2πr reveals the student is confusing sector area with arc length. Another error, Area = (θ/180) × πr², shows the student thinks the full angle is 180° (like a semicircle) instead of 360°.",
+     "self_check": true
+    },
+    {
+     "q": "A sector has a central angle of 90°. Explain why its area is exactly one-quarter of the area of the whole circle, using the formula.",
+     "a": "Substituting θ = 90° into (θ/360) gives 90/360 = 1/4. Thus the sector area = (1/4) × πr², which is one-quarter of the full circle area πr². If a student says \"because 90° is a right angle\", they are relying on geometric intuition without connecting to the fractional relationship in the formula. If they say \"the formula gives 1/4\" but cannot explain why 90/360 simplifies to 1/4, they lack fractional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of a sector of a circle of radius 14 cm with a central angle of 45°. Use π = 22/7.",
+     "a": "Step 1: Write given values: r = 14 cm, θ = 45°. Step 2: Formula: Area = (θ/360) × πr². Step 3: Substitute: Area = (45/360) × (22/7) × 14². Step 4: Simplify: 45/360 = 1/8; 14² = 196. So Area = (1/8) × (22/7) × 196 = (1/8) × 22 × 28 = (1/8) × 616 = 77 cm². Step 5: Answer: 77 cm². A wrong answer like 154 cm² suggests the student used θ = 90° (maybe misreading 45° as 90°) or forgot to divide by 360. An answer of 308 cm² suggests they used diameter (28) instead of radius (14) in r².",
+     "self_check": true
+    },
+    {
+     "q": "Two sectors have the same radius. The first has angle 30° and area A₁. The second has angle 120° and area A₂. Compare A₁ and A₂ without calculating numerical values. What is the ratio A₁ : A₂?",
+     "a": "Since radius is the same, area is directly proportional to θ. A₁/A₂ = 30/120 = 1/4, so A₁ : A₂ = 1 : 4. A wrong answer of 1 : 2 indicates the student thinks the ratio of angles is 30:60 (maybe confusing 120 with 60) or they are using arc length logic incorrectly. An answer of 1 : 16 suggests they squared the angle ratio (30/120)², mistakenly thinking area scales with the square of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Area of sector with r=10 cm, θ=60°\" as follows: Area = (60/360) × π × 10 = (1/6) × 31.4 = 5.23 cm². Identify the error and give the correct area (use π=3.14).",
+     "a": "The error: the student used r instead of r². They computed (1/6) × π × 10 instead of (1/6) × π × 100. Correct area = (60/360) × 3.14 × 10² = (1/6) × 3.14 × 100 = 52.33 cm². If the student says the error is \"wrong value of π\", they are not examining the algebraic structure. If they say \"forgot to square the radius\" but then write 314 cm² (using 10²=100 but forgetting the 1/6), they have multiple errors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires finding the area of a sector where the radius is not given directly but must be derived from the circumference. Provide the problem statement and the solution steps.",
+     "a": "Example problem: \"A circular track has a circumference of 440 m. A sector of this track is marked for a 45° relay zone. Find the area of this zone. (Use π=22/7).\" Solution steps: 1) Find radius from circumference: 2πr = 440 → r = 70 m. 2) Use sector area formula: (45/360) × π × 70² = (1/8) × (22/7) × 4900 = 1925 m². A poor answer would give a problem where the radius is directly given, or the solution uses the circumference value directly in the area formula without finding r, showing they don't understand the dependency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

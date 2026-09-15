@@ -1,0 +1,675 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Exponents and Powers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh110.txt",
+ "concepts": [
+  {
+   "id": "hemh.110.1",
+   "title": "Powers with Negative Exponents",
+   "section": "10.2",
+   "definition": "A non-zero integer raised to a negative power is equivalent to the reciprocal of that integer raised to the same positive power.",
+   "formula": "a**(-m) = 1 / (a**m)",
+   "key_idea": "A minus exponent hands you the reciprocal: flip the base to the matching plus power.",
+   "textbook_ref": "hemh110.txt lines 16-45",
+   "question_patterns": [
+    "evaluate the value of 3 raised to -2",
+    "find the value of 2**(-3)",
+    "calculate the numerical value for a negative power",
+    "what is the value of 10**(-5)",
+    "Evaluate 5 to the power -2.",
+    "Write 10 to the power -3 as a fraction."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base and the negative exponent",
+     "explain": "The base is a and the exponent is -m.",
+     "compute": "positive_exponent = abs(exponent)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the power with the positive exponent",
+     "explain": "Find the value of the base raised to the positive version of the exponent.",
+     "compute": "denominator = base ** positive_exponent"
+    },
+    {
+     "step": 3,
+     "action": "Take the reciprocal",
+     "explain": "The final result is 1 divided by the calculated power.",
+     "compute": "result = 1 / denominator"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.2",
+   "title": "Multiplicative Inverse in Exponential Form",
+   "section": "10.2",
+   "definition": "Swap the exponent's sign and you hold the reciprocal in exponential dress.",
+   "formula": "inverse of a**m = a**(-m)",
+   "key_idea": "Multiplying a number by its inverse results in one.",
+   "textbook_ref": "hemh110.txt lines 46-52",
+   "question_patterns": [
+    "find the multiplicative inverse of 2**(-4)",
+    "what is the multiplicative inverse of 7**2",
+    "write the inverse of 10**(-100)",
+    "determine the reciprocal of 5**3",
+    "Find the reciprocal of 3^4 in exponential form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Negate the exponent",
+     "explain": "To find the inverse, multiply the current exponent by -1.",
+     "compute": "new_exponent = exponent * -1"
+    },
+    {
+     "step": 2,
+     "action": "Express with same base",
+     "explain": "The inverse has the same base but the negated exponent.",
+     "compute": "inverse = base ** new_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3",
+   "title": "Product Law of Exponents",
+   "section": "10.3",
+   "definition": "When multiplying two powers with the same base, the exponents are added together.",
+   "formula": "a**m * a**n = a**(m + n)",
+   "key_idea": "Bases must be identical to add the exponents during multiplication.",
+   "textbook_ref": "hemh110.txt lines 65-85",
+   "question_patterns": [
+    "simplify (-2)**(-3) multiplied by (-2)**(-4)",
+    "find the product of p**3 and p**(-10)",
+    "calculate 5**(-2) * 5**4",
+    "simplify the expression using product law",
+    "Combine 2^(-3) x 2^(-2) into one power."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the exponents",
+     "explain": "Since the bases are the same, the resulting exponent is the sum of m and n.",
+     "compute": "sum_exponent = m + n"
+    },
+    {
+     "step": 2,
+     "action": "Write the final exponential form",
+     "explain": "The result is the common base raised to the sum of the exponents.",
+     "compute": "result = base ** sum_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.4",
+   "title": "Quotient Law of Exponents",
+   "section": "10.3",
+   "definition": "When dividing two powers with the same base, the exponent of the divisor is subtracted from the exponent of the dividend.",
+   "formula": "a**m / a**n = a**(m - n)",
+   "key_idea": "Subtraction of exponents is used for division of like bases.",
+   "textbook_ref": "hemh110.txt lines 86-95",
+   "question_patterns": [
+    "divide 2**5 by 2**(-6)",
+    "simplify 3**(-7) divided by 3**(-10)",
+    "calculate the quotient of a**m and a**n",
+    "find the value of 5**m / 5**(-3)",
+    "Simplify 7^8 divided by 7^5."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the exponents",
+     "explain": "The new exponent is the difference between the numerator exponent and the denominator exponent.",
+     "compute": "diff_exponent = m - n"
+    },
+    {
+     "step": 2,
+     "action": "Express as a single power",
+     "explain": "The base remains the same with the new calculated exponent.",
+     "compute": "result = base ** diff_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.5",
+   "title": "Power of a Power Law",
+   "section": "10.3",
+   "definition": "A power raised to another exponent is simplified by multiplying the exponents together.",
+   "formula": "(a**m)**n = a**(m * n)",
+   "key_idea": "Exponents are multiplied when a power is itself raised to a power.",
+   "textbook_ref": "hemh110.txt lines 96-100",
+   "question_patterns": [
+    "simplify (2**2)**(-3)",
+    "evaluate the power of a power expression",
+    "what is ((-2)**(-2))**2",
+    "calculate the result of a power raised to an exponent",
+    "Simplify (5^2)^3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the exponents",
+     "explain": "The resulting exponent is the product of the internal and external exponents.",
+     "compute": "prod_exponent = m * n"
+    },
+    {
+     "step": 2,
+     "action": "Apply to the base",
+     "explain": "The base is raised to the product of the exponents.",
+     "compute": "result = base ** prod_exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.6",
+   "title": "Power of a Product Law",
+   "section": "10.3",
+   "definition": "The product of two different bases raised to the same exponent is equal to the product of the bases raised to that exponent.",
+   "formula": "(a**m) * (b**m) = (a * b)**m",
+   "key_idea": "Matching exponents let the bases merge under one roof.",
+   "textbook_ref": "hemh110.txt lines 96-100",
+   "question_patterns": [
+    "simplify 2**(-3) * 3**(-3)",
+    "calculate (-4)**(-3) * 5**(-3)",
+    "express as a single power: a**m times b**m",
+    "evaluate the product of different bases with same power",
+    "Write 3^4 x 4^4 as one power."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the bases",
+     "explain": "The new base is the product of the original bases a and b.",
+     "compute": "new_base = base_a * base_b"
+    },
+    {
+     "step": 2,
+     "action": "Apply the common exponent",
+     "explain": "The product of the bases is raised to the shared exponent m.",
+     "compute": "result = new_base ** exponent"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.7",
+   "title": "Zero Exponent Law",
+   "section": "10.3",
+   "definition": "Any non-zero quantity taken to power zero equals one.",
+   "formula": "a**0 = 1",
+   "key_idea": "The value is always unity regardless of the base, provided the base is not zero.",
+   "textbook_ref": "hemh110.txt lines 98-100",
+   "question_patterns": [
+    "what is the value of 3**0",
+    "evaluate (3**-1 + 4**-1 + 5**-1)**0",
+    "find the result of any number to the power zero",
+    "simplify an expression with zero exponent",
+    "What is (99^5)^0?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exponent",
+     "explain": "Check if the exponent is zero."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law",
+     "explain": "Since a**0 is always 1 for non-zero a, the result is 1."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.8",
+   "title": "Standard Form for Small Numbers",
+   "section": "10.4",
+   "definition": "Very small numbers are expressed as a product of a number between 1 and 10 and a negative power of 10.",
+   "formula": "k * 10**(-n)",
+   "key_idea": "Negative powers of 10 represent the number of decimal places the point moves to the right.",
+   "textbook_ref": "hemh110.txt lines 160-185",
+   "question_patterns": [
+    "express 0.000007 in standard form",
+    "write 0.0000000000085 in scientific notation",
+    "convert the thickness 0.0016 cm to standard form",
+    "what is the standard form of a very small decimal",
+    "Express 0.0000021 in standard form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the multiplier k",
+     "explain": "Move the decimal point to the right until there is one non-zero digit to the left. This is k.",
+     "compute": "k = value * (10 ** n)"
+    },
+    {
+     "step": 2,
+     "action": "Count the decimal shifts",
+     "explain": "The number of places the decimal moved is n. The exponent is -n.",
+     "compute": "exponent = -1 * n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.9",
+   "title": "Comparing Numbers in Standard Form",
+   "section": "10.4.1",
+   "definition": "To compare or combine values dressed as k x 10^n, first match their powers of ten.",
+   "formula": "ratio = (k1 * 10**n1) / (k2 * 10**n2)",
+   "key_idea": "Standardizing exponents allows for direct comparison of the decimal multipliers.",
+   "textbook_ref": "hemh110.txt lines 190-215",
+   "question_patterns": [
+    "compare the diameter of the Sun and Earth",
+    "find the total mass of Earth and Moon",
+    "how many times larger is the Sun than the Earth",
+    "subtract distances given in standard form",
+    "Compare 2.5 x 10^7 with 3 x 10^6."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the decimal parts",
+     "explain": "Divide k1 by k2.",
+     "compute": "k_ratio = k1 / k2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the exponents",
+     "explain": "Subtract the power of the second number from the first.",
+     "compute": "exp_diff = n1 - n2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the final ratio",
+     "explain": "Multiply the decimal ratio by 10 raised to the difference of exponents.",
+     "compute": "final_ratio = k_ratio * (10 ** exp_diff)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh110.txt lines 105-110",
+   "concept": "hemh.110.1",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {base}**{exponent}",
+   "extracted_variables": {
+    "base": "the integer base",
+    "exponent": "the negative integer power"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify base and exponent",
+     "explain": "Base is 2, exponent is -3",
+     "compute": "pos_exp = abs(-3)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate positive power",
+     "explain": "2 cubed is 8",
+     "compute": "den = 2 ** pos_exp"
+    },
+    {
+     "step": 3,
+     "action": "Final result",
+     "explain": "Take reciprocal",
+     "compute": "ans = 1 / den"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh110.txt lines 135-145",
+   "concept": "hemh.110.3",
+   "question_type": "compute",
+   "question_pattern": "Find m so that (-3)**(m + 1) * (-3)**5 = (-3)**7",
+   "extracted_variables": {
+    "lhs_exp1": "m + 1",
+    "lhs_exp2": "5",
+    "rhs_exp": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply product law to LHS",
+     "explain": "Add exponents: (m + 1) + 5",
+     "compute": "lhs_total_exp = m + 6"
+    },
+    {
+     "step": 2,
+     "action": "Equate exponents",
+     "explain": "Since bases are same, m + 6 = 7",
+     "compute": "m = 7 - 6"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.110.1",
+   "question_pattern": "Evaluate {a} to the power -{m}.",
+   "extracted_variables": {
+    "a": "5",
+    "m": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip to the reciprocal",
+     "explain": "1 / 25 = 0.04",
+     "compute": "value = 1 / (a ** m)"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.1",
+   "question_pattern": "Write 10 to the power -{m} as an ordinary decimal.",
+   "extracted_variables": {
+    "m": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip to the reciprocal",
+     "explain": "1/1000 = 0.001",
+     "compute": "value = 1 / (10 ** m)"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.2",
+   "question_pattern": "Find the reciprocal of {a}^{m} in exponential form.",
+   "extracted_variables": {
+    "a": "3",
+    "m": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "swap the exponent sign",
+     "explain": "3^(-4)",
+     "compute": "inverse = a ** (0 - m)"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.3",
+   "question_pattern": "Combine {a}^{m1} x {a}^{m2} into one power.",
+   "extracted_variables": {
+    "a": "2",
+    "m1": "-3",
+    "m2": "-2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the exponents",
+     "explain": "-3 + (-2) = -5",
+     "compute": "value = a ** (m1 + m2)"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.4",
+   "question_pattern": "Simplify {a}^{m1} divided by {a}^{m2}.",
+   "extracted_variables": {
+    "a": "7",
+    "m1": "8",
+    "m2": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the exponents",
+     "explain": "8 - 5 = 3",
+     "compute": "value = a ** (m1 - m2)"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.5",
+   "question_pattern": "Simplify ({a}^{m1})^{m2}.",
+   "extracted_variables": {
+    "a": "5",
+    "m1": "2",
+    "m2": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the exponents",
+     "explain": "2 x 3 = 6",
+     "compute": "value = a ** (m1 * m2)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.6",
+   "question_pattern": "Write {a}^{m} x {b}^{m} as one power.",
+   "extracted_variables": {
+    "a": "3",
+    "b": "4",
+    "m": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "merge the bases",
+     "explain": "(3 x 4)^4 = 12^4",
+     "compute": "value = (a * b) ** m"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.8",
+   "question_pattern": "Express {number} in standard form.",
+   "extracted_variables": {
+    "number": "0.0000021"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the shifts",
+     "explain": "2.1 x 10^(-6)",
+     "compute": "value = 2.1 * 10 ** (-6)"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.9",
+   "question_pattern": "How many times is {k1} x 10^{n1} bigger than {k2} x 10^{n2}?",
+   "extracted_variables": {
+    "k1": "2.5",
+    "n1": "7",
+    "k2": "3",
+    "n2": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the ratio",
+     "explain": "(2.5 x 10^7)/(3 x 10^6) = 8.33",
+     "compute": "ratio = (k1 * 10 ** n1) / (k2 * 10 ** n2)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.2",
+   "question_pattern": "Write the reciprocal of {a}^{m} with a positive exponent.",
+   "extracted_variables": {
+    "a": "2",
+    "m": "-4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "swap the exponent sign",
+     "explain": "2^4",
+     "compute": "inverse = a ** (0 - m)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.4",
+   "question_pattern": "Simplify {a}^{m1} / {a}^{m2}.",
+   "extracted_variables": {
+    "a": "3",
+    "m1": "-7",
+    "m2": "-10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the exponents",
+     "explain": "-7 - (-10) = 3",
+     "compute": "value = a ** (m1 - m2)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.5",
+   "question_pattern": "Evaluate (({a})^{m1})^{m2}.",
+   "extracted_variables": {
+    "a": "2",
+    "m1": "-2",
+    "m2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the exponents",
+     "explain": "-2 x 2 = -4",
+     "compute": "value = a ** (m1 * m2)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.6",
+   "question_pattern": "Merge {a}^{m} x {b}^{m} into a single power.",
+   "extracted_variables": {
+    "a": "2",
+    "b": "5",
+    "m": "-3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "merge the bases",
+     "explain": "(2 x 5)^(-3) = 10^(-3)",
+     "compute": "value = (a * b) ** m"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.8",
+   "question_pattern": "Put {number} into standard form.",
+   "extracted_variables": {
+    "number": "0.0016"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the shifts",
+     "explain": "1.6 x 10^(-3)",
+     "compute": "value = 1.6 * 10 ** (-3)"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.110.9",
+   "question_pattern": "Which is larger: {k1} x 10^{n1} or {k2} x 10^{n2}?",
+   "extracted_variables": {
+    "k1": "8.5",
+    "n1": "-11",
+    "k2": "8.5",
+    "n2": "-9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "match the powers",
+     "explain": "10^(-11) is 100 times smaller than 10^(-9)",
+     "compute": "ratio = (k1 * 10 ** n1) / (k2 * 10 ** n2)"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "hemh110.txt lines 150-159",
+   "questions": [
+    "Evaluate 3**-2",
+    "Simplify (-4)**5 / (-4)**8",
+    "Find the value of (3**0 + 4**-1) * 2**2",
+    "Find m for 5**m / 5**-3 = 5**5"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "hemh110.txt lines 230-245",
+   "questions": [
+    "Express 0.0000000000085 in standard form",
+    "Express 3.02 * 10**-6 in usual form",
+    "Express the charge of an electron in standard form",
+    "Calculate total thickness of a stack of 5 books and 5 paper sheets"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

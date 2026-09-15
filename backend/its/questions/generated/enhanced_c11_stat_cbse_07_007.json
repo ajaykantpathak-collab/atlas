@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_007",
+   "title": "c11_stat_cbse_07_007",
+   "questions": [
+    {
+     "q": "Write the formula for Spearman's rank correlation coefficient when there are no tied ranks. Define each symbol used in the formula.",
+     "a": "The formula is rₛ = 1 - (6 Σ dᵢ²) / [n(n² - 1)], where dᵢ = R₁ᵢ - R₂ᵢ (difference between the ranks of the i-th observation in the two variables) and n = number of paired observations. A wrong answer (e.g., using raw data values instead of ranks, or writing the Pearson formula) reveals the student has not memorized the specific rank-based formula or confuses it with Karl Pearson's coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Spearman's rank correlation is preferred over Karl Pearson's correlation when the data are not normally distributed or when the relationship is monotonic but not linear.",
+     "a": "Spearman's coefficient uses ranks, making it distribution-free (non-parametric) and robust to outliers and non-normality. It captures any monotonic trend (consistently increasing or decreasing), whereas Pearson's coefficient only measures linear relationships. A wrong answer (e.g., \"Spearman's is always better\" or \"Pearson's works for curves too\") shows the student does not understand the distinction between linear and monotonic relationships or the parametric assumptions of Pearson's method.",
+     "self_check": true
+    },
+    {
+     "q": "Given the ranks of 5 students in two subjects: Subject A: 1, 2, 3, 4, 5; Subject B: 5, 4, 3, 2, 1. Calculate Spearman's rank correlation coefficient and interpret the result.",
+     "a": "Step 1: Compute dᵢ = Rank A - Rank B: (1-5)=-4, (2-4)=-2, (3-3)=0, (4-2)=2, (5-1)=4.\nStep 2: Square dᵢ: 16, 4, 0, 4, 16. Sum Σdᵢ² = 40.\nStep 3: n=5. Apply formula: rₛ = 1 - (6×40) / [5(25-1)] = 1 - 240/120 = 1 - 2 = -1.\nInterpretation: Perfect negative monotonic relationship; as rank in Subject A increases, rank in Subject B decreases perfectly. A wrong answer (e.g., positive value, or calculation error in Σdᵢ²) indicates procedural mistakes in ranking differences or formula substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the values of Spearman's rank correlation and Karl Pearson's correlation for the same dataset. When would they be equal? When would they differ significantly?",
+     "a": "They are equal when the relationship is perfectly linear and the data are bivariate normal (or at least the ranks are a linear transformation of the raw data). They differ significantly when the relationship is non-linear but monotonic (e.g., exponential, logarithmic) or when outliers distort Pearson's coefficient but not the ranks. A wrong answer (e.g., \"they are always equal\" or \"Spearman's is always higher\") reveals a lack of analytical understanding of how ranking transforms data and the geometric meaning of each coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates Spearman's rank correlation for data with tied ranks using the formula rₛ = 1 - (6 Σ d²)/[n(n²-1)] without any adjustment. Is this correct? Justify your answer.",
+     "a": "No, it is incorrect. The formula rₛ = 1 - (6 Σ d²)/[n(n²-1)] assumes all ranks are distinct (no ties). When ties exist, the standard formula underestimates the correlation because tied ranks reduce the variability of ranks. The correct approach is to either use the Pearson formula on the ranks (with averaged ranks for ties) or apply a correction factor to Σd². A wrong answer (e.g., \"the formula works for any data\") shows the student has not recognized the critical assumption of no tied ranks, a common oversight in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small real-world problem (with at least 6 pairs) where Spearman's rank correlation would be more appropriate than Pearson's correlation. Provide the data and ask a question that requires calculating and interpreting Spearman's coefficient.",
+     "a": "A good answer might describe: \"Ranking of 8 cities by Air Quality Index (AQI) and Respiratory Illness Rate. AQI is skewed with extreme outliers; the relationship is monotonic but not linear.\" Data: City AQI ranks (1-8) and Illness Rate ranks (1-8). Question: \"Calculate Spearman's coefficient and interpret.\" A poor answer (e.g., using raw AQI values, or a linear relationship like height-weight) reveals the student cannot identify situations where ranking is necessary or where monotonic non-linear relationships exist.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

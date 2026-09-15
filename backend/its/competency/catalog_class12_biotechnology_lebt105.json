@@ -1,0 +1,399 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 5,
+ "chapter_title": "Genome Technology and Engineering",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt105.1",
+   "title": "Genetic Mapping and the Centimorgan",
+   "section": "5.1.1",
+   "definition": "A genetic map orders loci by how often they recombine: crossover analysis of progeny phenotypes yields recombination frequencies, one percent of which defines one map unit, the centimorgan; because only well-known phenotypic loci can be tested, such maps stay coarse and call for the finer physical maps that follow.",
+   "formula": "rec_pct = recombinants * 100 / offspring_total",
+   "key_idea": "Recombinant offspring as a percent of the total prices the distance - each percent is one centimorgan.",
+   "textbook_ref": "lebt105.txt section 5.1.1, Fig. 5.2",
+   "question_patterns": [
+    "a testcross yields 18 recombinant offspring among 200 progeny - find the recombination frequency and the map distance in centimorgan",
+    "define the map unit and state what one centimorgan represents in crossover terms",
+    "why is a genetic map described as coarsely grained or sparsely populated",
+    "how does the recombination frequency relate to the distance between two loci",
+    "what phenotype data are needed to construct a genetic map",
+    "two loci recombine at 5 percent - what does that suggest about their linkage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "percent the recombinants",
+     "explain": "Divide recombinant progeny by the total and scale to percent.",
+     "compute": "rec_pct = recombinants * 100 / offspring_total"
+    },
+    {
+     "step": 2,
+     "action": "note the complement",
+     "explain": "Parental offspring make up the rest of the progeny.",
+     "compute": "parental_pct = 100 - rec_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One percent recombination defines what map unit: the centimorgan or the metre?",
+     "a": "the centimorgan"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.2",
+   "title": "Physical Mapping with RFLP and STS",
+   "section": "5.1.2",
+   "definition": "Physical maps anchor landmarks on real DNA: restriction sites whose cuts yield countable fragments (one cut in a circle gives one fragment, two cuts two; a linear molecule gives cuts plus one), length-variable microsatellite and minisatellite arrays read as SSLPs, and sequence tagged sites of 200-500 bp proven unique by PCR - Southern hybridisation taming the lakh of fragments a mammalian genome would otherwise shatter into.",
+   "formula": "linear_frags = cuts + 1",
+   "key_idea": "Each additional cut adds one linear fragment; circles only fragment from the first cut onward.",
+   "textbook_ref": "lebt105.txt section 5.1.2, Figs. 5.3-5.4",
+   "question_patterns": [
+    "a linear DNA molecule is cut at 4 sites by BamHI - how many fragments result",
+    "how many fragments does a single cut make in a circular plasmid and in a linear chromosome",
+    "what is a sequence tagged site and why does PCR confirm its presence",
+    "how do microsatellites and minisatellites serve as SSLP map features",
+    "why must Southern hybridisation accompany RFLP analysis of large mammalian genomes",
+    "compare the resolution of genetic maps with physical maps and say why both are needed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the linear fragments",
+     "explain": "Every cut in a linear molecule adds one fragment to the pieces.",
+     "compute": "linear_frags = cuts + 1"
+    },
+    {
+     "step": 2,
+     "action": "count the circular fragments",
+     "explain": "A circle needs its first cut just to open, then each further cut adds one fragment.",
+     "compute": "circular_frags = cuts_open + rest_cuts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two cuts in a circular DNA yield how many fragments?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.3",
+   "title": "First-Generation Sequencing by Capillary",
+   "section": "5.2-5.2.1",
+   "definition": "First-generation sequencing builds clone-by-clone: pulse-field gels split chromosomes, BAC or YAC clones carry overlapping fragments, and chain-termination chemistry reads each plasmid subclone through a capillary that reports 800-1000 fluorescent bases per run - 96 capillaries working in parallel top out near 96,000 bases per machine per run, precise but slow and costly.",
+   "formula": "machine_output = read_len * capillaries",
+   "key_idea": "Multiply the per-capillary read by the capillary count to size one machine run, then divide the genome by it for the workload.",
+   "textbook_ref": "lebt105.txt sections 5.2-5.2.1",
+   "question_patterns": [
+    "a capillary reads 1000 bases and a machine runs 96 capillaries - compute the bases sequenced per run",
+    "describe the clone-by-clone workflow from pulse field gel electrophoresis to subcloning",
+    "how does chain termination sequencing reveal each base position in the chromatogram",
+    "why did first-generation sequencing make whole genomes prohibitively expensive",
+    "which high-capacity vectors carry the overlapping fragments of the first-generation workflow",
+    "what does the colour of each chromatogram peak represent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply read by capillaries",
+     "explain": "Parallel capillaries each deliver one read per run.",
+     "compute": "machine_output = read_len * capillaries"
+    },
+    {
+     "step": 2,
+     "action": "size the genome job",
+     "explain": "Genome bases divided by the per-run output gives runs needed.",
+     "compute": "runs_needed = genome_bases / machine_output"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A capillary run reports about how many bases: 800-1000 or 8?",
+     "a": "800"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.4",
+   "title": "Nanopore and Illumina Sequencing Reads",
+   "section": "5.2.2-5.2.3",
+   "definition": "Second-generation platforms such as Illumina amplify bridges on a flow cell and read fluorescent bases one at a time in millions of parallel reactions, but only 75-300 bases per read; third-generation nanopore sequencing instead threads a single strand through a porin pore with a helicase motor, translating each base's current disruption into sequence - real-time, field-deployable and reaching reads a megabase long.",
+   "formula": "length_fold = nanopore_len / illumina_len",
+   "key_idea": "Divide the nanopore read length by the Illumina read length to price the long-read advantage.",
+   "textbook_ref": "lebt105.txt sections 5.2.2-5.2.3, Figs. 5.5-5.6",
+   "question_patterns": [
+    "an Illumina read covers 150 bases while a nanopore read spans 1 megabase - compute the fold difference in read length",
+    "how does bridge amplification build clusters on the Illumina flow cell",
+    "why do fluorescently tagged dNTPs reveal one base at a time in second-generation sequencing",
+    "what current change does each DNA base cause while passing through a nanopore",
+    "why is nanopore sequencing useful for field genotyping",
+    "list the advantages next-generation methods hold over chain-termination sequencing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the read lengths",
+     "explain": "The quotient measures the long-read advantage.",
+     "compute": "length_fold = nanopore_len / illumina_len"
+    },
+    {
+     "step": 2,
+     "action": "measure the gap",
+     "explain": "Subtracting the short read from the long read shows the extra span covered.",
+     "compute": "gap_bases = nanopore_len - illumina_len"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which platform threads single strands through a protein pore: nanopore or Illumina?",
+     "a": "nanopore"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.5",
+   "title": "Whole Genome Targeted and Metagenomics Sequencing",
+   "section": "5.3",
+   "definition": "Sequencing projects come in flavours: whole genome sequencing - reference-guided or de novo - reads everything from Haemophilus influenzae onward including the 1990-2003 human effort; targeted and clinical exome sequencing PCR-amplify only disease-linked regions; RNASeq counts transcripts, ChipSeq maps regulator binding; and metagenomics sequences whole microbial communities straight from gut, spring or soil without culturing, hunting novel heat-stable enzymes.",
+   "formula": "-",
+   "key_idea": "Match the project to the question - everything, a panel, the transcriptome, binding sites or a whole community.",
+   "textbook_ref": "lebt105.txt sections 5.3-5.3.3",
+   "question_patterns": [
+    "differentiate reference based from de novo whole genome sequencing",
+    "why is clinical exome sequencing cheaper than whole genome sequencing for diagnostics",
+    "what does an RNASeq read count reveal about gene expression",
+    "what does a ChipSeq project map across the genome",
+    "why does metagenomics skip culturing and what challenge does it pose for data analysis",
+    "which genome was the first whole genome sequenced and when was the human sequence published",
+    "how can metagenomics of hot springs yield industrially useful enzymes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the scope",
+     "explain": "Whole genome, targeted panel, transcriptome, binding sites or community metagenome."
+    },
+    {
+     "step": 2,
+     "action": "prepare the library",
+     "explain": "Genomic DNA, PCR-amplified regions or cDNA from RNA feeds the sequencer."
+    },
+    {
+     "step": 3,
+     "action": "interpret the reads",
+     "explain": "Assemble or align, then count, map or bin sequences into biological insight."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sequencing a whole microbial community straight from the gut is called what: metagenomics or genomics?",
+     "a": "metagenomics"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.6",
+   "title": "Genome Editing with Transposons and CRISPR-Cas9",
+   "section": "5.4",
+   "definition": "Genome engineering rewrites DNA on purpose: engineered transposons - the cut-and-paste jumping genes - knock out genes by insertional disruption or knock in new sequences, while the CRISPR-Cas9 system pairs a guide RNA with Cas9 endonuclease to cut a chosen site, letting non-homologous end joining knock the gene out or homologous recombination with a supplied template knock in the corrected version - the bacterial immune memory repurposed by Charpentier and Doudna's 2020 Nobel work.",
+   "formula": "-",
+   "key_idea": "Position the cut with a guide RNA, then let the cell's repair choice decide knockout or precise knock-in.",
+   "textbook_ref": "lebt105.txt sections 5.4-5.4.2, Figs. 5.7-5.8, Box 1",
+   "question_patterns": [
+    "how does transposon insertion knock out an existing gene",
+    "explain the roles of guide RNA and Cas9 endonuclease in genome editing",
+    "differentiate the repair outcomes of non-homologous end joining and homologous recombination after a double strand break",
+    "what natural bacterial function did CRISPR-Cas9 evolve from",
+    "who won the 2020 Nobel Prize in Chemistry for genetic scissors and for what discovery",
+    "what is a knock-in and how does a supplied template guide the edit",
+    "why are knock-out and knock-in models valuable for drug development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "target the site",
+     "explain": "Guide RNA base-pairs the locus and recruits Cas9 to cut both strands."
+    },
+    {
+     "step": 2,
+     "action": "let repair decide",
+     "explain": "Error-prone joining disrupts the gene; template-guided recombination writes the desired edit."
+    },
+    {
+     "step": 3,
+     "action": "validate the phenotype",
+     "explain": "Knock-out or knock-in models confirm the gene's function."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which endonuclease pairs with a guide RNA to cut DNA: Cas9 or ligase?",
+     "a": "Cas9"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.7",
+   "title": "Structural Functional and Comparative Genomics",
+   "section": "5.5",
+   "definition": "Computational genomics turns sequence floods into biology on GPU-accelerated clusters, with three lenses: structural genomics solves or organises the 3D folds of every encoded protein and the physical layout of chromosomes; functional genomics asks what the genome does through RNASeq, ChipSeq and metagenomics; comparative genomics aligns species to find core and unique genes, annotate new genomes and root phylogenies - supported by India's three national genomics core facilities.",
+   "formula": "-",
+   "key_idea": "One genome, three questions - what shape, what job, and what is shared or unique among relatives.",
+   "textbook_ref": "lebt105.txt sections 5.5-5.5.3",
+   "question_patterns": [
+    "differentiate the two meanings of structural genomics held by protein and chromosome researchers",
+    "which tools and projects drive functional genomics studies of a cell state",
+    "how does comparative genomics annotate a newly sequenced genome",
+    "what are core genome genes and species-unique genes in a comparative analysis",
+    "name the three national genomics core facilities established in India and their hosts",
+    "how do BLAST ClustalW and Phylip support evolutionary comparison of genomes",
+    "what role do GPU and CUDA programming play in computational genomics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the lens",
+     "explain": "Structure, function or comparison frames the analysis."
+    },
+    {
+     "step": 2,
+     "action": "run the computation",
+     "explain": "Homology search, annotation and multi-sequence alignment on high-performance clusters."
+    },
+    {
+     "step": 3,
+     "action": "read the biology",
+     "explain": "Folds, functions, core and unique genes, and phylogenetic lineages emerge."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which genomics lens asks what the genome does: functional or structural?",
+     "a": "functional"
+    }
+   ]
+  },
+  {
+   "id": "lebt105.8",
+   "title": "Protein Engineering from Tags to Immunotoxins",
+   "section": "5.6",
+   "definition": "Rational protein engineering rewrites codons for new tricks: a Met-to-Ala point mutation at position 222 makes the detergent enzyme subtilisin bleach-proof while its Ser221-His64-Asp32 triad keeps cutting; a fused six-histidine tag grabs nickel columns for one-step purification; a GFP fusion glows to reveal where a protein lives; single-chain variable fragments fused to Pseudomonas or diphtheria toxins build immunotoxins that hunt cancer cells; and mouse antibodies are humanised for therapy.",
+   "formula": "-",
+   "key_idea": "Change the codon, change the property - stability, purification handles, location tags or targeted cell killers.",
+   "textbook_ref": "lebt105.txt section 5.6, Figs. 5.9-5.12, Boxes 2-3",
+   "question_patterns": [
+    "why does replacing Met 222 with alanine make subtilisin stable in bleach",
+    "name the catalytic triad residues of subtilisin and their positions",
+    "how does a 6-His-tag enable purification of a recombinant protein on a nickel column",
+    "how does a GFP fusion reveal the cellular localisation of a protein",
+    "describe the construction of a recombinant immunotoxin from scFv and a toxin fragment",
+    "why must mouse monoclonal antibodies be humanised before therapeutic use in humans",
+    "what is site directed mutagenesis and how does it introduce a point mutation at a chosen codon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the residue",
+     "explain": "Identify the amino acid whose chemistry limits or enables the desired property."
+    },
+    {
+     "step": 2,
+     "action": "mutate or fuse",
+     "explain": "Point-mutate its codon or fuse tag, GFP, toxin or human antibody segments by rDNA methods."
+    },
+    {
+     "step": 3,
+     "action": "apply the product",
+     "explain": "Bleach-stable detergents, His-tag purification, localisation imaging or targeted cancer killing follow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which tag grabs nickel columns for one-step purification: six-histidine or green fluorescent?",
+     "a": "six-histidine"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt105.txt section 5.2.1 (800-1000 bases per capillary, 96 capillaries)",
+   "concept": "lebt105.3",
+   "question_type": "compute",
+   "question_pattern": "A first-generation sequencer reads {read_len} bases per capillary with {capillaries} capillaries per run. Find the bases sequenced per machine run and the runs needed to sequence a genome of {genome_bases} bases.",
+   "extracted_variables": {
+    "read_len": "bases read per capillary per run",
+    "capillaries": "capillaries operating in parallel",
+    "genome_bases": "total bases in the target genome"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply read by capillaries",
+     "explain": "All capillaries deliver their reads in the same run.",
+     "compute": "machine_output = read_len * capillaries"
+    },
+    {
+     "step": 2,
+     "action": "divide the genome",
+     "explain": "Genome size over the per-run output gives the number of runs.",
+     "compute": "runs_needed = genome_bases / machine_output"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt105.txt sections 5.2.2-5.2.3 (75-300 base reads versus megabase nanopore reads)",
+   "concept": "lebt105.4",
+   "question_type": "compute",
+   "question_pattern": "An Illumina read covers {illumina_len} bases while a nanopore read spans {nanopore_len} bases. Find the fold length advantage of the nanopore read and the extra bases it covers in one read.",
+   "extracted_variables": {
+    "illumina_len": "bases per Illumina read",
+    "nanopore_len": "bases per nanopore read"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the lengths",
+     "explain": "The quotient prices the long-read advantage.",
+     "compute": "length_fold = nanopore_len / illumina_len"
+    },
+    {
+     "step": 2,
+     "action": "subtract for the gap",
+     "explain": "The difference is the extra span one nanopore read covers.",
+     "compute": "gap_bases = nanopore_len - illumina_len"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt105-ex1",
+   "source_ref": "lebt105.txt Exercises (questions 1-21)",
+   "questions": [
+    "What is a genome and how does the prokaryotic genome differ from the eukaryotic one?",
+    "What are the types of genome mapping - explain genetic and physical mapping comparatively.",
+    "A DNA sample digested with BamHI supports which type of mapping - state its application.",
+    "What is STS and what role does it play in genome mapping?",
+    "Discuss how next-generation sequencing overcame the drawbacks of first-generation technology, and the methodology of third-generation sequencing.",
+    "What are the goals of genome engineering - explain knock-out knock-in and CRISPR-Cas9 editing in detail.",
+    "What are structural functional and comparative genomics - differentiate them.",
+    "Explain the applications of protein engineering for 6-His-tag purification, GFP localisation and recombinant immunotoxins."
+   ]
+  }
+ ]
+}

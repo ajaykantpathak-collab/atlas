@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_119",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_119",
+   "title": "c6_math_ch11_119",
+   "questions": [
+    {
+     "q": "In an ASA construction, what does the \"included side\" refer to?\nA) Any side of the triangle.\nB) The side lying between the two given angles.\nC) The longest side of the triangle.\nD) The side opposite the largest angle.",
+     "a": "B) The side lying between the two given angles. A wrong answer suggests the student confuses \"included\" with \"any,\" which prevents them from correctly placing the angles at the endpoints of the base.",
+     "self_check": true
+    },
+    {
+     "q": "Why do you need a compass to finish an RHS construction after drawing the right angle?\nA) To measure the 90-degree angle.\nB) To find the exact point on the vertical line where the hypotenuse ends.\nC) To draw the base side.\nD) Because the ruler isn't long enough.",
+     "a": "B) To find the exact point where the hypotenuse meets the vertical side. A wrong answer indicates the student doesn't understand that the compass is used to set the fixed length of the hypotenuse from the non-right-angled vertex.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given two angles of 50° and 60° and a side of 7 cm, but the side is NOT between the angles, can you perform an ASA construction?\nA) Yes, immediately.\nB) No, you would need to calculate the third angle first.",
+     "a": "B) No, you must find the third angle (180° - 110° = 70°) so you can identify the side included between a known angle and the new 70° angle. A wrong answer reveals a failure to recognize the strict requirement of the \"included\" side in ASA.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the protractor in ASA and RHS constructions.\nA) It is used in both to draw angles.\nB) It is used only in ASA.\nC) It is used only in RHS.\nD) It is not needed for either.",
+     "a": "A) It is used in both (for the 60°/45° angles in ASA and the 90° angle in RHS). A wrong answer suggests the student thinks RHS is done purely with a ruler and compass, missing the primary tool for creating the right angle.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"I can construct any triangle if I have two sides and one angle.\"\nA) True, because two sides and an angle define a triangle.\nB) False, because the angle must be between the sides (SAS) or it might result in the ambiguous SSA case.",
+     "a": "B) False. This demonstrates an understanding of construction criteria, noting that SSA is excluded because it does not guarantee a unique triangle. A wrong answer shows a lack of awareness regarding triangle congruence/construction constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a step-by-step plan to construct a triangle with a side of 8 cm and two angles of 40° and 50° at its ends.\nA) Expect steps involving drawing the 8 cm base, using a protractor at both ends, and labeling the intersection.",
+     "a": "The plan should start with drawing the 8 cm base, followed by placing the protractor at one endpoint for 40° and the other for 50°, then drawing the rays. A poor answer lacks the order of operations or the correct use of the \"included\" side.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

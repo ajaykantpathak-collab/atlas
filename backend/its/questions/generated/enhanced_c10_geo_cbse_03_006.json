@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_006",
+   "title": "c10_geo_cbse_03_006",
+   "questions": [
+    {
+     "q": "A household of four in Bengaluru receives 135 lpcd (litres per capita per day) from Cauvery supply but supplements with a borewell. If they reduce shower time from 12 to 5 minutes (flow rate 8 L/min), fix one leaking tap (drip rate 1 drop/sec = 4 L/hr), and reuse 30 L/day of RO reject water for mopping, what is their new approximate daily per-capita consumption? Show your calculation steps.",
+     "a": "Original shower use: 12 min × 8 L/min = 96 L/day total → 24 lpcd. New shower use: 5 min × 8 L/min = 40 L/day total → 10 lpcd. Saving = 14 lpcd. Leaking tap: 4 L/hr × 24 hr = 96 L/day total → 24 lpcd saved. RO reuse: 30 L/day total → 7.5 lpcd saved. Total saving = 14 + 24 + 7.5 = 45.5 lpcd. New consumption ≈ 135 - 45.5 = 89.5 lpcd. A wrong answer (e.g., only calculating shower saving) reveals the student cannot aggregate multiple conservation actions or convert total household savings to per-capita terms — a common error in CBSE case-study questions where partial credit is given for each correct step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why replacing a single-flush toilet (10 L/flush) with a dual-flush toilet (3 L/6 L) in a household of five saves more water annually than fixing a dripping tap, even though the tap drips 24/7. Use quantitative reasoning with standard usage assumptions.",
+     "a": "Assume 5 flushes/person/day. Single-flush: 5 × 10 L × 5 people = 250 L/day. Dual-flush (70% liquid/30% solid): 0.7×3 + 0.3×6 = 3.9 L/flush average. New use: 5 × 3.9 × 5 = 97.5 L/day. Saving = 152.5 L/day = 55,662 L/year. Dripping tap at 1 drop/sec = 4 L/hr = 96 L/day = 35,040 L/year. Toilet saving > tap saving. A wrong answer (claiming tap saves more) reveals the student underestimates high-volume intermittent uses versus low-volume continuous losses — a conceptual error CBSE tests via \"compare and justify\" questions in the 3-mark category.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra's Marathwada region grows sugarcane (water requirement 2,000 mm) on 2 hectares using flood irrigation (efficiency 40%). He switches to drip irrigation (efficiency 90%) and reduces area to 1.5 hectares due to cost. Calculate the absolute water saving in cubic metres per season. (1 ha = 10,000 m²; 1 mm over 1 ha = 10 m³).",
+     "a": "Step 1: Water needed by crop (evapotranspiration) = 2,000 mm × 2 ha × 10 m³/ha/mm = 40,000 m³. Step 2: Flood irrigation applied water = 40,000 / 0.40 = 100,000 m³. Step 3: New crop water need = 2,000 mm × 1.5 ha × 10 = 30,000 m³. Step 4: Drip applied water = 30,000 / 0.90 = 33,333 m³. Step 5: Saving = 100,000 - 33,333 = 66,667 m³/season. A wrong answer (e.g., using area only, ignoring efficiency) shows the student confuses crop water requirement with irrigation water applied — a critical distinction CBSE emphasizes in competency-based questions linking c10_geo_cbse_03_008 (drip/sprinkler) with this node.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the water conservation impact of (a) a housing society in Chennai installing rooftop rainwater harvesting (c10_geo_cbse_03_005) on 500 m² roof area with 1,200 mm annual rainfall and 80% collection efficiency, versus (b) the same society mandating 5-minute showers for 200 residents (flow 8 L/min). Which yields greater annual water security? Assume 365 shower days.",
+     "a": "(a) RWH yield = 500 m² × 1,200 mm × 0.80 = 500 × 1.2 m × 0.80 = 480 m³ = 480,000 L/year. (b) Shower saving: assume original 12 min → 5 min saves 7 min × 8 L/min = 56 L/person/day. For 200 residents × 365 days = 4,088,000 L/year. Shower reduction saves ~8.5× more water annually. However, RWH augments supply (source-side) while showers reduce demand (demand-side). A wrong answer picking RWH because \"it creates new water\" reveals the student cannot quantify demand-side savings at scale — CBSE case studies often require comparing supply augmentation vs demand reduction quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In water-scarce Rajasthan, promoting water-intensive crops like rice through MSP procurement undermines the water conservation efforts of farmers who adopt drip irrigation for horticulture.\" Use the concepts of virtual water, cropping pattern distortion, and aquifer depletion.",
+     "a": "The statement is valid. Rice requires ~1,500-2,500 mm water vs horticulture (300-600 mm). MSP guarantees procurement, incentivizing rice in semi-arid zones (virtual water export). A farmer switching to drip for pomegranate saves ~60% irrigation water per hectare, but if neighbouring area expands rice by 10 hectares, the aquifer depletion outweighs individual savings. Conservation requires coordinated policy (cropping alignment with agro-climatic zones) not just farm-level technology. A weak answer focusing only on \"drip saves water\" misses the systems perspective CBSE expects in 5-mark \"analyse and evaluate\" questions linking agriculture (c6_geography_ch04_025) with water resources.",
+     "self_check": true
+    },
+    {
+     "q": "Design a water conservation action plan for your school (1,200 students, 50 staff) that achieves at least 30% reduction in municipal water demand within one year. Include: (i) three measurable interventions with estimated savings, (ii) a monitoring mechanism, (iii) a student-led awareness component. Justify each intervention with water-saving principles.",
+     "a": "Good answer criteria: (i) Interventions: a) Dual-flush retrofits (15 toilets × 50 uses/day × 6 L saved = 4,500 L/day), b) Aerator taps on 40 washbasins (60% flow reduction × 2 L/min × 200 uses = 9,600 L/day), c) RWH on 1,000 m² roof (local rainfall 800 mm × 0.8 = 640 m³/year = 1,753 L/day avg). Total ~15,853 L/day saving. Baseline: 1,250 persons × 40 lpcd (school norm) = 50,000 L/day → 31.7% reduction. (ii) Monthly meter reading + student water audit team. (iii) \"Water Ambassador\" per class tracking savings, poster campaigns using school data. Poor answers list generic tips (\"turn off taps\") without quantification or confuse school norms with domestic lpcd — CBSE project work marking rubric requires measurable, context-specific plans.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

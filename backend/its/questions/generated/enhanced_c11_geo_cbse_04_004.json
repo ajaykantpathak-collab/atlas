@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_004",
+   "title": "c11_geo_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the four key fossil genera used as evidence for continental drift and specify which modern continents each is found on.",
+     "a": "The four key fossil genera are: (1) *Mesosaurus* — found in Brazil (South America) and South Africa (Africa); (2) *Glossopteris* — found in India, South America, Africa, Australia, Antarctica; (3) *Lystrosaurus* — found in India, South Africa, Antarctica; (4) *Cynognathus* — found in South America, Africa, Antarctica. A wrong answer (e.g., listing dinosaurs or placing *Mesosaurus* in Australia) reveals the student has memorised names without understanding their palaeogeographic significance — specifically that *Mesosaurus* was a freshwater reptile incapable of crossing oceans, making its distribution the strongest single proof.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the distribution of *Mesosaurus* fossils provide stronger evidence for continental drift than the distribution of *Glossopteris* fossils?",
+     "a": "*Mesosaurus* was a small, freshwater reptile that could not survive in salt water, making transoceanic dispersal impossible; its fossils occur only in non-marine sedimentary basins (Paraná and Karoo) on either side of the South Atlantic. *Glossopteris* was a seed fern whose seeds *could* potentially be wind-dispersed over shorter distances, though the vast ocean gaps still make this unlikely. A wrong answer (e.g., \"*Glossopteris* is better because it's found on more continents\") reveals the student misunderstands the biological constraints — they are counting continents rather than evaluating dispersal capability, a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of the southern continents, the *Glossopteris* fossil localities form a continuous arc when the continents are reconstructed into Gondwana. If a student plots the *in-situ* fossil coordinates (without reconstruction) on a modern world map, what pattern will they observe, and what does this pattern imply about the Atlantic and Indian Oceans?",
+     "a": "On a modern map, *Glossopteris* localities appear as disconnected clusters: Damodar Valley (India), Paraná Basin (Brazil), Karoo Basin (South Africa), Sydney Basin (Australia), Transantarctic Mountains (Antarctica). The pattern implies these now-separated landmasses were once contiguous, and the Atlantic and Indian Oceans opened later, fragmenting the continuous *Glossopteris* flora. A wrong answer (e.g., \"the fossils are randomly scattered\") shows the student cannot visualise the reconstruction — they treat modern geography as fixed, missing the core concept of continental mobility.",
+     "self_check": true
+    },
+    {
+     "q": "The Gondwana rock sequence (tillite → coal with *Glossopteris* → *Lystrosaurus* beds) appears in five southern continents. Explain why the *basal tillite* layer is the most diagnostic for correlating these basins, and how its presence constrains the palaeolatitude of Gondwana during the Permo-Carboniferous.",
+     "a": "The basal tillite is a glacial deposit (diamictite with striated clasts) indicating continental glaciation. Its presence at the *base* of the sequence in all five basins (Paraná, Karoo, Damodar, Sydney, Transantarctic) proves they shared the same glacial event. Since glaciers form only at high latitudes, this constrains Gondwana's position over the South Pole during the Late Carboniferous–Early Permian. A wrong answer (e.g., \"the coal is most diagnostic because it has fossils\") reveals the student prioritises biostratigraphy over lithostratigraphy and misses the palaeoclimatic implication — a critical error for board-level \"explain with evidence\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the \"land bridge\" hypothesis (proposed by early 20th-century geologists like Eduard Suess) as an alternative explanation for the fossil distribution. Use *Mesosaurus* biology and the geometry of the Atlantic Ocean to justify your evaluation.",
+     "a": "The land bridge hypothesis fails because: (1) *Mesosaurus* was a freshwater reptile — a land bridge would require a continuous freshwater corridor across thousands of kilometres, which is hydrologically implausible; (2) the Atlantic Ocean is 2,800 km wide at its narrowest — a submerged land bridge of this scale would leave a topographic trace (a aseismic ridge) on the seafloor, which does not exist; (3) isostatic equilibrium dictates that a continental land bridge cannot simply \"sink\" without leaving evidence. A weak answer (e.g., \"land bridges are outdated\") shows the student knows the conclusion but cannot articulate the *geophysical* and *biological* reasoning — exactly what board examiners look for in \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom activity using only a world map, scissors, and fossil locality data (provided as latitude/longitude coordinates for *Mesosaurus*, *Glossopteris*, *Lystrosaurus*, *Cynognathus*) that demonstrates continental drift to a Class 9 student. Specify the steps and the \"aha!\" moment.",
+     "a": "Steps: (1) Plot each fossil genus as coloured dots on a modern world map. (2) Cut out the continental shapes along the *continental shelf edge* (not coastline). (3) Reassemble continents to minimise fossil separation — *Mesosaurus* dots from Brazil and South Africa should touch; *Glossopteris* dots should form a continuous band. (4) Observe that the fit aligns *all four* fossil distributions simultaneously. The \"aha!\" moment: no single land bridge can explain all four distributions at once — only a unified Gondwana does. A poor activity (e.g., using coastlines instead of shelf edges, or plotting only one fossil) misses the multi-evidence convergence that makes the case incontrovertible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

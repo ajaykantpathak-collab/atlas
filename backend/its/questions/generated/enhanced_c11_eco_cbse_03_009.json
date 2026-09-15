@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_009",
+   "title": "c11_eco_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define Foreign Direct Investment (FDI) and distinguish it from Foreign Institutional Investment (FII) in one sentence each.",
+     "a": "FDI is investment by a foreign entity to acquire a lasting interest (typically ≥10% equity) and significant influence in an enterprise operating in another economy. FII is portfolio investment by foreign institutions (mutual funds, pension funds) in domestic financial assets (stocks, bonds) without management control. A wrong answer that equates FDI with any foreign purchase of shares reveals confusion between direct investment (control-oriented, long-term) and portfolio investment (return-oriented, short-term).",
+     "self_check": true
+    },
+    {
+     "q": "Why is FDI considered more stable than FII? Explain using the concepts of 'control' and 'time horizon'.",
+     "a": "FDI involves acquiring management control and physical assets (factories, technology), making exit costly and time-consuming; investors therefore have a long-term horizon. FII involves buying liquid financial securities that can be sold instantly on stock exchanges, leading to short-term, volatile flows. A wrong answer focusing only on \"FDI is larger in amount\" misses the structural difference: stability comes from illiquidity and control, not size.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the Compound Annual Growth Rate (CAGR) of FDI inflows from 1990-91 to 2022-23. Show steps.\n| Year | FDI Inflows (US$ billion) |\n|------|---------------------------|\n| 1990-91 | 0.1 |\n| 2022-23 | 23.0 |",
+     "a": "Step 1: Identify formula: CAGR = (Ending Value / Beginning Value)^(1/n) - 1.\nStep 2: n = 2022-23 - 1990-91 = 32 years.\nStep 3: Ratio = 23.0 / 0.1 = 230.\nStep 4: CAGR = 230^(1/32) - 1 ≈ 1.185 - 1 = 0.185 or 18.5% per annum.\nStep 5: Interpretation: FDI grew at ~18.5% annually, reflecting sustained policy liberalisation. A wrong answer using simple average growth ((23-0.1)/0.1)/32 = 7.15% ignores compounding, severely underestimating the pace.",
+     "self_check": true
+    },
+    {
+     "q": "In 2020, India raised the FDI cap in defence manufacturing from 49% (automatic route up to 49%, government route beyond) to 74% under automatic route. Analyze the likely impact on (a) capital inflows, (b) domestic defence firms, and (c) technology transfer.",
+     "a": "(a) Capital inflows: Automatic route removes case-by-case government approval, reducing uncertainty and time-to-invest, likely boosting FDI. (b) Domestic firms: Face stiffer competition but gain access to global supply chains and joint-venture opportunities; survival depends on upgrading capabilities. (c) Technology transfer: Higher equity stake incentivises foreign partners to share proprietary technology, but 74% cap still reserves 26% for Indian partners, balancing control. A wrong answer claiming \"100% FDI is now allowed\" misreads the cap; \"automatic route for 74%\" ≠ \"no limit\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A surge in FII inflows always leads to rupee appreciation, which benefits the economy by lowering import costs.\" Provide two arguments for and two against.",
+     "a": "For: (1) Appreciation reduces rupee cost of oil/fertiliser imports, easing inflation. (2) Cheaper capital goods imports boost investment. Against: (1) Appreciation hurts export competitiveness (IT, pharma, textiles), widening current account deficit. (2) FII is volatile (\"hot money\"); sudden reversal causes sharp depreciation, destabilising markets. A one-sided answer ignoring the volatility of FII or the export-side impact shows incomplete understanding of exchange rate trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy proposal to attract FDI into India's renewable energy manufacturing (solar cells, batteries) while ensuring technology absorption. Justify each point.",
+     "a": "Good answer: (1) Extend automatic route to 100% for greenfield renewable manufacturing with a sunset clause — reduces entry barrier. (2) Mandate minimum 20% domestic value addition within 5 years for fiscal incentives — forces technology absorption. (3) Create a fast-track single-window clearance for land, environment, and power — addresses operational bottlenecks. Poor answer: \"Give tax holidays\" without linking to technology transfer or domestic capacity building reveals a fiscal-only view, missing the structural goal of building domestic capability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_006",
+   "title": "c11_ps_cbse_14_006",
+   "questions": [
+    {
+     "q": "A Bill proposes to establish a new All India Service for public health. It provides for recruitment, training, and service conditions, and also creates a fund for its expenses charged on the Consolidated Fund of India. Under which category does this Bill fall?",
+     "a": "This is a Financial Bill under Article 117(1), NOT a Money Bill. While it involves expenditure from the Consolidated Fund, it also contains substantial non-financial provisions (recruitment, training, service conditions). Article 110 defines Money Bills EXCLUSIVELY - if a bill contains ANY matter beyond the seven specified financial matters, it cannot be a Money Bill. A wrong answer (classifying as Money Bill) reveals the student misunderstands the \"exclusively\" requirement in Article 110 and the distinction between \"only financial matters\" (Money Bill) vs \"includes financial matters\" (Financial Bill).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution deny Rajya Sabha the power to reject or amend a Money Bill, while giving it equal power over Ordinary Bills and Constitutional Amendment Bills?",
+     "a": "The directly elected Lok Sabha represents the people's mandate on financial matters - taxation and spending directly affect citizens' pockets. The Constitution makers (following the British model) ensured financial accountability flows from the House answerable to voters. Rajya Sabha, representing states, has equal say in Ordinary Bills (general legislation) and Constitutional Amendments (federal structure changes) because these affect state powers and federal balance. A wrong answer (e.g., \"Rajya Sabha is weaker\") reveals confusion between institutional design and institutional weakness - it's a deliberate CHECK, not a deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill to amend Article 54 (President's election) is passed by Lok Sabha with 300 votes in favour, 50 against (total strength 543). Rajya Sabha passes it with 150 votes in favour, 30 against (total strength 245). The Bill is sent to states for ratification. 12 out of 28 state legislatures ratify it. Is the Amendment valid? Explain step by step.",
+     "a": "NO, the amendment is INVALID. Step 1: Article 54 amendment affects federal structure (President's election involves states) - requires Article 368(2) special majority + state ratification. Step 2: Lok Sabha special majority = 2/3 of members present and voting (300/350 = 85.7% ✓) AND majority of total strength (300/543 = 55.2% ✓). Step 3: Rajya Sabha special majority = 2/3 present and voting (150/180 = 83.3% ✓) AND majority of total strength (150/245 = 61.2% ✓). Step 4: State ratification requires HALF of states (14 out of 28). Only 12 ratified ✗. Step 5: Failure at any stage kills the bill. Wrong answer reveals misunderstanding of the dual special majority requirement AND the fixed \"half the states\" threshold (not half of those voting).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the President's assent options for: (a) Ordinary Bill, (b) Money Bill, (c) Constitutional Amendment Bill. What does this pattern reveal about constitutional design?",
+     "a": "(a) Ordinary Bill: President can assent, withhold assent, or return for reconsideration (Article 111). If Parliament repasses, President MUST assent. (b) Money Bill: President can ONLY assent or withhold assent - CANNOT return for reconsideration (Article 111 proviso). (c) Constitutional Amendment Bill: President MUST assent - no discretion (Article 368(2) \"shall give assent\"). Pattern: Directly elected House's financial supremacy (Money Bill) > Parliamentary sovereignty (Ordinary Bill) > Constitutional rigidity (Amendment Bill). Wrong answer (e.g., \"President has same powers for all\") reveals failure to see how assent powers calibrate democratic accountability vs constitutional stability.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Speaker's decision to certify a Bill as a Money Bill is final and cannot be challenged in court - this makes the Speaker a 'super-legislator' undermining Rajya Sabha's federal role.\"",
+     "a": "The critique is PARTIALLY valid but constitutionally incomplete. Article 110(3) makes Speaker's certificate \"final\" - this prevents judicial review of classification (Kihoto Hollohan principle: procedural finality). However, the Speaker acts on constitutional criteria (Article 110's seven matters), not discretion. If a bill clearly falls outside Article 110, certification could be challenged as unconstitutional (not as incorrect classification). The \"super-legislator\" fear is checked by: (1) political accountability of Speaker, (2) Convention that Speaker consults, (3) Judicial review of constitutional validity (not classification per se). Wrong answer (fully agreeing or fully rejecting) reveals binary thinking - missing the nuanced balance between procedural finality and substantive constitutional limits.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Bill title and one-line subject description for EACH of the four bill types that would TEST the boundary of classification. Explain why each is a borderline case.",
+     "a": "(1) Ordinary Bill borderline: \"The Regulation of Online Content and Digital Taxation Bill, 2024\" - mixes general regulation (ordinary) with taxation (money). Tests whether \"incidental\" taxation makes it Money Bill. (2) Money Bill borderline: \"The Consolidated Fund Charged Expenditure (Salaries of Constitutional Authorities) Bill, 2024\" - only charges salaries on Consolidated Fund. Tests whether \"charged expenditure alone\" without appropriation qualifies under Article 110(1)(e). (3) Financial Bill borderline: \"The National Infrastructure Development and Funding Bill, 2024\" - creates infrastructure fund (financial) but also sets technical standards (ordinary). Tests Article 117(1) vs 117(3) distinction. (4) Amendment Bill borderline: \"The Constitution (Amendment of Preamble) Bill, 2024\" - amends Preamble only. Tests whether Preamble amendment requires state ratification (Basic Structure doctrine). Good answer shows understanding of classification boundaries; poor answer gives clear-cut examples missing the \"test the boundary\" requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

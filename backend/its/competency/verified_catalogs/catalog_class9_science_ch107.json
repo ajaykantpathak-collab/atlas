@@ -1,0 +1,873 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 107,
+ "chapter_title": "Work, Energy, and Simple Machines",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc107.txt",
+ "concepts": [
+  {
+   "id": "iesc.107.1",
+   "title": "Work Done by a Constant Force",
+   "section": "7.1",
+   "definition": "The measure of energy transfer that occurs when an object is moved over a distance by an outside force applied in the direction of its displacement.",
+   "formula": "work = force * displacement",
+   "key_idea": "Work is indeed the result of multiplying the force applied and the distance moved in the direction of that force.",
+   "textbook_ref": "iesc107.txt lines 40-70",
+   "question_patterns": [
+    "calculate the work done when a force of {force} N displaces an object by {displacement} m",
+    "how much work is done by a force of {force} N in moving a body through {displacement} m",
+    "find the work done if a constant force of {force} N causes a displacement of {displacement} m",
+    "what is the work done by a force of {force} N acting on an object displaced by {displacement} m",
+    "work out the value using work done by a constant force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "Work is calculated by multiplying the applied force by the displacement in the direction of the force.",
+     "compute": "work = force * displacement"
+    },
+    {
+     "step": 2,
+     "action": "check the direction of force relative to displacement",
+     "explain": "Only the component of force along the displacement contributes to work; if the angle is zero, the full force is used."
+    },
+    {
+     "step": 3,
+     "action": "state the result in joules",
+     "explain": "The SI unit of work is the joule (J), equal to one newton-metre, so the final value is expressed in joules.",
+     "compute": "work_joules = work"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.2",
+   "title": "Negative Work Done by a Retarding Force",
+   "section": "7.1.2",
+   "definition": "Work done when the applied force acts in a direction opposite to the object's displacement, resulting in energy being removed from the object.",
+   "formula": "work = -1 * force * displacement",
+   "key_idea": "Opposing forces like friction or braking do indeed negative work on a moving object.",
+   "textbook_ref": "iesc107.txt lines 105-135",
+   "question_patterns": [
+    "calculate the work done by a braking force of {force} N that stops a vehicle over a distance of {displacement} m",
+    "find the work done by a goalkeeper applying {force} N to stop a ball, moving her hands back by {displacement} m",
+    "how much work is done by friction of {force} N opposing a displacement of {displacement} m",
+    "what is the work done when a force of {force} N acts opposite to a displacement of {displacement} m",
+    "find the required value in a negative work done by a retarding force problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate negative work",
+     "explain": "Since the force opposes the displacement, the work done is negative.",
+     "compute": "work = -1 * force * displacement"
+    },
+    {
+     "step": 2,
+     "action": "confirm the force direction is opposite to displacement",
+     "explain": "A retarding force such as friction or braking acts against motion, so the angle between force and displacement is 180 degrees, making cosine of the angle equal to -1."
+    },
+    {
+     "step": 3,
+     "action": "report the negative work value in joules",
+     "explain": "The negative sign indicates energy is removed from the object by the opposing force, and the magnitude is expressed in joules.",
+     "compute": "work_joules = work"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.3",
+   "title": "Kinetic Energy",
+   "section": "7.4.1",
+   "definition": "The form of mechanical energy carried by an object because of its motion, depending on its mass and the second power of its speed.",
+   "formula": "kinetic_energy = 0.5 * mass * (velocity ** 2)",
+   "key_idea": "Kinetic energy scales linearly with mass and quadratically with velocity.",
+   "textbook_ref": "iesc107.txt lines 210-245",
+   "question_patterns": [
+    "calculate the kinetic energy of an object of mass {mass} kg moving with a velocity of {velocity} m/s",
+    "what is the kinetic energy of a {mass} kg ball moving at {velocity} m/s",
+    "find the kinetic energy of a vehicle of mass {mass} kg travelling at {velocity} m/s",
+    "how much kinetic energy does a {mass} kg projectile have at a speed of {velocity} m/s",
+    "compute the answer step by step for kinetic energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The kinetic energy depends on the square of the velocity.",
+     "compute": "v_sq = velocity ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply half the mass by the squared velocity",
+     "explain": "Kinetic energy is half of the product of mass and squared velocity.",
+     "compute": "kinetic_energy = 0.5 * mass * v_sq"
+    },
+    {
+     "step": 3,
+     "action": "express the kinetic energy in joules",
+     "explain": "The SI unit of kinetic energy is the joule, so the final computed value is reported in joules for a mass in kg and velocity in m/s.",
+     "compute": "kinetic_energy_joules = kinetic_energy"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.4",
+   "title": "Gravitational Potential Energy",
+   "section": "7.4.2",
+   "definition": "The energy stored in an object because of its vertical position or height above a reference level, relative to the gravitational pull of the Earth.",
+   "formula": "potential_energy = mass * g * height",
+   "key_idea": "Potential energy is directly proportional to mass, height, and local gravitational acceleration.",
+   "textbook_ref": "iesc107.txt lines 300-340",
+   "question_patterns": [
+    "calculate the potential energy of an object of mass {mass} kg raised to a height of {height} m",
+    "find the gravitational potential energy of a {mass} kg body at a height of {height} m",
+    "what is the potential energy of a {mass} kg mass lifted {height} m above the ground",
+    "how much potential energy does a {mass} kg object gain when raised by {height} m",
+    "solve a numerical on gravitational potential energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass, gravity, and height",
+     "explain": "Potential energy is the product of mass, acceleration due to gravity, and height.",
+     "compute": "potential_energy = mass * g * height"
+    },
+    {
+     "step": 2,
+     "action": "use the standard value of gravitational acceleration",
+     "explain": "Near the Earth's surface, g is taken as approximately 9.8 m/s^2 (or 10 m/s^2 for simplified calculations), unless a different value is given.",
+     "compute": "g_value = 9.8"
+    },
+    {
+     "step": 3,
+     "action": "report the potential energy in joules",
+     "explain": "The SI unit of potential energy is the joule, so the final value is expressed in joules for mass in kg, g in m/s^2, and height in m.",
+     "compute": "potential_energy_joules = potential_energy"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.5",
+   "title": "Conservation of Mechanical Energy in Free Fall",
+   "section": "7.4.3",
+   "definition": "The principle stating that the total mechanical energy (sum of kinetic and potential energies) remains constant in a system where only conservative forces act.",
+   "formula": "velocity = sqrt(2 * g * height)",
+   "key_idea": "In the absence of friction, potential energy at the top is completely converted to kinetic energy at the bottom.",
+   "textbook_ref": "iesc107.txt lines 350-400",
+   "question_patterns": [
+    "find the velocity of an object of mass {mass} kg at the bottom of a slide of height {height} m",
+    "calculate the speed of a freely falling body just before hitting the ground from a height of {height} m",
+    "what is the velocity of a child sliding down a frictionless ramp of height {height} m",
+    "with what speed does an object hit the ground when dropped from {height} m",
+    "compute the answer step by step for conservation of mechanical energy in free fall"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the term 2 * g * height",
+     "explain": "Equating potential energy lost to kinetic energy gained gives v^2 = 2 * g * h.",
+     "compute": "two_gh = 2 * g * height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The velocity is the square root of 2 * g * h.",
+     "compute": "velocity = sqrt(two_gh)"
+    },
+    {
+     "step": 3,
+     "action": "report the velocity in m/s",
+     "explain": "Since g is in m/s^2 and height is in m, the resulting velocity is in m/s, confirming the units are consistent.",
+     "compute": "velocity_mps = velocity"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.6",
+   "title": "Power as Rate of Doing Work",
+   "section": "7.5",
+   "definition": "The speed with which work is performed or energy is moved over a given duration of time.",
+   "formula": "power = work / time",
+   "key_idea": "Power measures how quickly work is done, expressed in watts (Joules per second).",
+   "textbook_ref": "iesc107.txt lines 430-460",
+   "question_patterns": [
+    "calculate the power of an engine that does {work} J of work in {time} s",
+    "find the power required to do {work} J of work in {time} seconds",
+    "what is the power of a machine performing {work} J of work over {time} s",
+    "how much power is developed when {work} J of energy is spent in {time} s",
+    "work out the value using power as rate of doing work"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "Power is calculated as work done divided by the time taken.",
+     "compute": "power = work / time"
+    },
+    {
+     "step": 2,
+     "action": "ensure time is in seconds",
+     "explain": "Since the SI unit of power is the watt (J/s), the time must be expressed in seconds before dividing to keep units consistent.",
+     "compute": "time_seconds = time"
+    },
+    {
+     "step": 3,
+     "action": "report the power in watts",
+     "explain": "The final value of power is expressed in watts, where one watt equals one joule of work done per second.",
+     "compute": "power_watts = power"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.7",
+   "title": "Mechanical Advantage",
+   "section": "7.6",
+   "definition": "The factor by which a simple machine multiplies the input force (effort) to overcome an output force (load).",
+   "formula": "mechanical_advantage = load / effort",
+   "key_idea": "A mechanical advantage greater than one means less effort is needed to lift a heavier load.",
+   "textbook_ref": "iesc107.txt lines 470-495",
+   "question_patterns": [
+    "calculate the mechanical advantage of a machine that lifts a load of {load} N with an effort of {effort} N",
+    "find the mechanical advantage when a {load} N load is overcome by an effort of {effort} N",
+    "what is the mechanical advantage if the effort is {effort} N and the load is {load} N",
+    "how much mechanical advantage is gained by using {effort} N of effort to move a {load} N load",
+    "compute the answer step by step for mechanical advantage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide load by effort",
+     "explain": "Mechanical advantage is the ratio of load to effort.",
+     "compute": "mechanical_advantage = load / effort"
+    },
+    {
+     "step": 2,
+     "action": "confirm both quantities are in the same unit",
+     "explain": "Load and effort are both forces measured in newtons, so the ratio is dimensionless and the units cancel out.",
+     "compute": "unit_check = newton / newton"
+    },
+    {
+     "step": 3,
+     "action": "interpret the mechanical advantage value",
+     "explain": "A mechanical advantage greater than one means the machine multiplies force, while a value less than one means more effort is needed than the load.",
+     "compute": "interpretation = mechanical_advantage"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.8",
+   "title": "Mechanical Advantage of an Inclined Plane",
+   "section": "7.6.2",
+   "definition": "The mechanical advantage of a ramp equals the length of the incline divided by its vertical height.",
+   "formula": "mechanical_advantage = length / height",
+   "key_idea": "A longer, gentler slope reduces the force needed to lift an object to a given height.",
+   "textbook_ref": "iesc107.txt lines 510-565",
+   "question_patterns": [
+    "calculate the mechanical advantage of an inclined plane of length {length} m and height {height} m",
+    "find the mechanical advantage of a ramp that is {length} m long and rises to a height of {height} m",
+    "what is the mechanical advantage of a slide with length {length} m and height {height} m",
+    "how much mechanical advantage does a ramp of length {length} m and height {height} m provide",
+    "work out the value using mechanical advantage of an inclined plane"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide length by height",
+     "explain": "The mechanical advantage of an inclined plane is the ratio of its length to its height.",
+     "compute": "mechanical_advantage = length / height"
+    },
+    {
+     "step": 2,
+     "action": "confirm both length and height are in the same unit",
+     "explain": "Since length and height are both distances measured in metres, the ratio is dimensionless and the units cancel out.",
+     "compute": "unit_check = metre / metre"
+    },
+    {
+     "step": 3,
+     "action": "interpret the mechanical advantage value",
+     "explain": "A longer incline relative to its height gives a greater mechanical advantage, meaning less effort is needed to raise the load.",
+     "compute": "interpretation = mechanical_advantage"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.9",
+   "title": "Principle of Levers",
+   "section": "7.6.3",
+   "definition": "The equilibrium condition for a lever where the result of multiplying the both effort and the effort arm equals the result of multiplying the load and the load arm.",
+   "formula": "effort = (load * load_arm) / effort_arm",
+   "key_idea": "Increasing the effort arm length reduces the effort force required to balance or lift a load.",
+   "textbook_ref": "iesc107.txt lines 570-620",
+   "question_patterns": [
+    "calculate the effort required to lift a load of {load} N if the load arm is {load_arm} m and the effort arm is {effort_arm} m",
+    "find the effort force needed for a lever with effort arm {effort_arm} m to balance a load of {load} N at a distance of {load_arm} m",
+    "what effort is needed to balance a {load} N load when the load arm is {load_arm} m and the effort arm is {effort_arm} m",
+    "how much effort must be applied at a distance of {effort_arm} m to lift a {load} N weight placed {load_arm} m from the fulcrum",
+    "calculate principle of levers for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate load torque",
+     "explain": "Multiply the load by the load arm distance.",
+     "compute": "load_torque = load * load_arm"
+    },
+    {
+     "step": 2,
+     "action": "divide by effort arm",
+     "explain": "Divide the load torque by the effort arm to find the required effort.",
+     "compute": "effort = load_torque / effort_arm"
+    },
+    {
+     "step": 3,
+     "action": "report the effort in newtons",
+     "explain": "Since load is in newtons and the arm lengths are in metres, the resulting effort is in newtons, confirming the lever is in equilibrium.",
+     "compute": "effort_newtons = effort"
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.10",
+   "title": "Mechanical Advantage of a Lever",
+   "section": "7.6.3",
+   "definition": "The ratio of the effort arm length to the load arm length, which tells how much force a lever multiplies.",
+   "formula": "mechanical_advantage = effort_arm / load_arm",
+   "key_idea": "A lever multiplies force when the effort arm is longer than the load arm.",
+   "textbook_ref": "iesc107.txt lines 610-630",
+   "question_patterns": [
+    "calculate the mechanical advantage of a lever with an effort arm of {effort_arm} m and a load arm of {load_arm} m",
+    "find the mechanical advantage of a lever if the effort arm is {effort_arm} m and the load arm is {load_arm} m",
+    "what is the mechanical advantage of a lever when the distance from fulcrum to effort is {effort_arm} m and to load is {load_arm} m",
+    "how much mechanical advantage does a lever provide if its effort arm is {effort_arm} m and its load arm is {load_arm} m",
+    "what is the result in this mechanical advantage of a lever problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide effort arm by load arm",
+     "explain": "The mechanical advantage of a lever is the ratio of the effort arm to the load arm.",
+     "compute": "mechanical_advantage = effort_arm / load_arm"
+    },
+    {
+     "step": 2,
+     "action": "confirm both arm lengths are in the same unit",
+     "explain": "Since the effort arm and load arm are both distances measured in metres, the ratio is dimensionless and the units cancel out.",
+     "compute": "unit_check = metre / metre"
+    },
+    {
+     "step": 3,
+     "action": "interpret the mechanical advantage value",
+     "explain": "A mechanical advantage greater than one means the effort arm is longer than the load arm, so the lever multiplies force and less effort is needed to lift the load.",
+     "compute": "interpretation = mechanical_advantage"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex7.2",
+   "source_ref": "iesc107.txt lines 120-135",
+   "concept": "iesc.107.2",
+   "question_type": "compute",
+   "question_pattern": "While saving a goal, a goalkeeper's hand moved back by {displacement} m as she stopped a ball while applying a force of {force} N. How much work did the goalkeeper do on the ball in stopping it?",
+   "extracted_variables": {
+    "force": "200",
+    "displacement": "0.15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate negative work",
+     "explain": "Since the force opposes the displacement, the work done is negative.",
+     "compute": "work = -1 * force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "ex7.5",
+   "source_ref": "iesc107.txt lines 240-255",
+   "concept": "iesc.107.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the kinetic energy of a cricket ball of mass {mass} kg delivered at a velocity of {velocity} m/s.",
+   "extracted_variables": {
+    "mass": "0.2",
+    "velocity": "43"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The kinetic energy depends on the square of the velocity.",
+     "compute": "v_sq = velocity ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply half the mass by the squared velocity",
+     "explain": "Kinetic energy is half of the product of mass and squared velocity.",
+     "compute": "kinetic_energy = 0.5 * mass * v_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex7.7",
+   "source_ref": "iesc107.txt lines 330-345",
+   "concept": "iesc.107.4",
+   "question_type": "compute",
+   "question_pattern": "How much potential energy does a ball of mass {mass} kg have when it reaches a height of {height} m? Assume g = {g} m/s^2.",
+   "extracted_variables": {
+    "mass": "0.2",
+    "height": "10",
+    "g": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass, gravity, and height",
+     "explain": "Potential energy is the product of mass, acceleration due to gravity, and height.",
+     "compute": "potential_energy = mass * g * height"
+    }
+   ]
+  },
+  {
+   "id": "ex7.12",
+   "source_ref": "iesc107.txt lines 550-565",
+   "concept": "iesc.107.8",
+   "question_type": "compute",
+   "question_pattern": "A person uses an inclined ramp to raise an object over a step of height {height} m. The ramp has a length of {length} m. What is the mechanical advantage of the ramp?",
+   "extracted_variables": {
+    "length": "0.5",
+    "height": "0.3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide length by height",
+     "explain": "The mechanical advantage of an inclined plane is the ratio of its length to its height.",
+     "compute": "mechanical_advantage = length / height"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "iesc107.txt lines 40-70",
+   "concept": "iesc.107.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute work done by a constant force step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "displacement": "value of displacement"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "Work is calculated by multiplying the applied force by the displacement in the direction of the force.",
+     "compute": "work = force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "iesc107.txt lines 105-135",
+   "concept": "iesc.107.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute negative work done by a retarding force step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "displacement": "value of displacement"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate negative work",
+     "explain": "Since the force opposes the displacement, the work done is negative.",
+     "compute": "work = -1 * force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "iesc107.txt lines 210-245",
+   "concept": "iesc.107.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinetic energy step by step",
+   "extracted_variables": {
+    "velocity": "value of velocity",
+    "mass": "value of mass"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The kinetic energy depends on the square of the velocity.",
+     "compute": "v_sq = velocity ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply half the mass by the squared velocity",
+     "explain": "Kinetic energy is half of the product of mass and squared velocity.",
+     "compute": "kinetic_energy = 0.5 * mass * v_sq"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "iesc107.txt lines 300-340",
+   "concept": "iesc.107.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute gravitational potential energy step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "g": "value of g",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass, gravity, and height",
+     "explain": "Potential energy is the product of mass, acceleration due to gravity, and height.",
+     "compute": "potential_energy = mass * g * height"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "iesc107.txt lines 350-400",
+   "concept": "iesc.107.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute conservation of mechanical energy in free fall step by step",
+   "extracted_variables": {
+    "g": "value of g",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the term 2 * g * height",
+     "explain": "Equating potential energy lost to kinetic energy gained gives v^2 = 2 * g * h.",
+     "compute": "two_gh = 2 * g * height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The velocity is the square root of 2 * g * h.",
+     "compute": "velocity = sqrt(two_gh)"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "iesc107.txt lines 430-460",
+   "concept": "iesc.107.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute power as rate of doing work step by step",
+   "extracted_variables": {
+    "work": "value of work",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "Power is calculated as work done divided by the time taken.",
+     "compute": "power = work / time"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "iesc107.txt lines 470-495",
+   "concept": "iesc.107.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute mechanical advantage step by step",
+   "extracted_variables": {
+    "load": "value of load",
+    "effort": "value of effort"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide load by effort",
+     "explain": "Mechanical advantage is the ratio of load to effort.",
+     "compute": "mechanical_advantage = load / effort"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "iesc107.txt lines 510-565",
+   "concept": "iesc.107.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute mechanical advantage of an inclined plane step by step",
+   "extracted_variables": {
+    "length": "value of length",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide length by height",
+     "explain": "The mechanical advantage of an inclined plane is the ratio of its length to its height.",
+     "compute": "mechanical_advantage = length / height"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "iesc107.txt lines 570-620",
+   "concept": "iesc.107.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute principle of levers step by step",
+   "extracted_variables": {
+    "load": "value of load",
+    "load_arm": "value of load_arm",
+    "effort_arm": "value of effort_arm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate load torque",
+     "explain": "Multiply the load by the load arm distance.",
+     "compute": "load_torque = load * load_arm"
+    },
+    {
+     "step": 2,
+     "action": "divide by effort arm",
+     "explain": "Divide the load torque by the effort arm to find the required effort.",
+     "compute": "effort = load_torque / effort_arm"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "iesc107.txt lines 610-630",
+   "concept": "iesc.107.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute mechanical advantage of a lever step by step",
+   "extracted_variables": {
+    "effort_arm": "value of effort_arm",
+    "load_arm": "value of load_arm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide effort arm by load arm",
+     "explain": "The mechanical advantage of a lever is the ratio of the effort arm to the load arm.",
+     "compute": "mechanical_advantage = effort_arm / load_arm"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "iesc107.txt lines 40-70",
+   "concept": "iesc.107.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute work done by a constant force step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "displacement": "value of displacement"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "Work is calculated by multiplying the applied force by the displacement in the direction of the force.",
+     "compute": "work = force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "exauto12",
+   "source_ref": "iesc107.txt lines 350-400",
+   "concept": "iesc.107.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute conservation of mechanical energy in free fall step by step",
+   "extracted_variables": {
+    "g": "value of g",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the term 2 * g * height",
+     "explain": "Equating potential energy lost to kinetic energy gained gives v^2 = 2 * g * h.",
+     "compute": "two_gh = 2 * g * height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The velocity is the square root of 2 * g * h.",
+     "compute": "velocity = sqrt(two_gh)"
+    }
+   ]
+  },
+  {
+   "id": "exauto13",
+   "source_ref": "iesc107.txt lines 430-460",
+   "concept": "iesc.107.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute power as rate of doing work step by step",
+   "extracted_variables": {
+    "work": "value of work",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "Power is calculated as work done divided by the time taken.",
+     "compute": "power = work / time"
+    }
+   ]
+  },
+  {
+   "id": "exauto14",
+   "source_ref": "iesc107.txt lines 470-495",
+   "concept": "iesc.107.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute mechanical advantage step by step",
+   "extracted_variables": {
+    "load": "value of load",
+    "effort": "value of effort"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide load by effort",
+     "explain": "Mechanical advantage is the ratio of load to effort.",
+     "compute": "mechanical_advantage = load / effort"
+    }
+   ]
+  },
+  {
+   "id": "exauto15",
+   "source_ref": "iesc107.txt lines 570-620",
+   "concept": "iesc.107.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute principle of levers step by step",
+   "extracted_variables": {
+    "load": "value of load",
+    "load_arm": "value of load_arm",
+    "effort_arm": "value of effort_arm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate load torque",
+     "explain": "Multiply the load by the load arm distance.",
+     "compute": "load_torque = load * load_arm"
+    },
+    {
+     "step": 2,
+     "action": "divide by effort arm",
+     "explain": "Divide the load torque by the effort arm to find the required effort.",
+     "compute": "effort = load_torque / effort_arm"
+    }
+   ]
+  },
+  {
+   "id": "exauto16",
+   "source_ref": "iesc107.txt lines 610-630",
+   "concept": "iesc.107.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute mechanical advantage of a lever step by step",
+   "extracted_variables": {
+    "effort_arm": "value of effort_arm",
+    "load_arm": "value of load_arm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide effort arm by load arm",
+     "explain": "The mechanical advantage of a lever is the ratio of the effort arm to the load arm.",
+     "compute": "mechanical_advantage = effort_arm / load_arm"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc107.txt lines 650-660",
+   "questions": [
+    "State whether True or False: (i) Work is said to be done when a force is applied, even if the object does not move. (ii) Lifting a bucket vertically upward results in positive work done on the bucket. (iii) The SI unit for both work and energy is joule (J). (iv) A motionless stretched rubber band has kinetic energy. (v) Energy can change from one form to another."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc107.txt lines 675-685",
+   "questions": [
+    "Fill in the blanks: (i) Work done = ______ * ______ (in the direction of force). (ii) 1 joule of work is done when a force of ______ newton displaces an object by 1 metre in the direction of the force. (iii) The expression for kinetic energy of a body of mass m and velocity v is ______. (iv) The potential energy of an object of mass m at a small height h from the Earth's surface is ______. (v) Power is defined as the ______ at which work is done."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iesc107.txt lines 686-692",
+   "questions": [
+    "When a ball thrown upwards reaches its highest point, tick which of the following statement(s) are correct? (i) The force acting on the ball is zero. (ii) The acceleration of the ball is zero. (iii) Its kinetic energy is zero. (iv) Its potential energy is maximum."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iesc107.txt lines 693-700",
+   "questions": [
+    "For each of the following situations, identify the energy transformation that takes place: (i) a truck moving uphill, (ii) unwinding of a watch spring, (iii) photosynthesis in green leaves, (iv) water flowing from a dam, (v) burning of a matchstick, (vi) explosion of a fire cracker, (vii) speaking into a microphone, (viii) a glowing electric bulb, and (ix) a solar panel."
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iesc107.txt lines 701-710",
+   "questions": [
+    "A student is slowly lifted straight up in an elevator from the ground level to the top floor of a building. Later, the same student climbs the staircase, all the way to the top. Given that the height of the building is h = 72.5 m, acceleration due to gravity is g = 10 m s-2, and student's mass is m = 50 kg. (i) Find the gain in the potential energy if the student is lifted straight up to the top. (ii) Find the gain in the potential energy when the student climbs the stairs to the same top. (iii) What do you conclude about the dependence of the potential energy on the path taken?"
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iesc107.txt lines 711-715",
+   "questions": [
+    "A crane lifts a mass m to the 10th floor of a building in a certain time. It then raises the same mass to the 20th floor of the same building in double the time. How much more energy and power are required? Assume that the height of all floors is equal."
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iesc107.txt lines 721-727",
+   "questions": [
+    "A man of mass 60 kg rides a scooter of mass 100 kg. He accelerates the scooter to a velocity v. The next day, his son with a mass of 40 kg joins him as a passenger. If the scooter reaches the same speed on both days in the same time interval, what is the ratio of the fuel of the tank used on the two days? Assume that the energy transfer to the scooter happens entirely due to fuel, and no other losses occur due to air resistance and friction."
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "iesc107.txt lines 731-736",
+   "questions": [
+    "A ball of mass 2 kg is thrown up with a velocity of 20 m s-1. (i) Identify the sign of the work done by gravity on the ball during its upward motion and its downward motion. (ii) If the ball reaches a height of 19.4 m, how much work was done by air resistance (assume g = 10 m s-2)."
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "iesc107.txt lines 742-746",
+   "questions": [
+    "The gravitational attraction on the surface of the Moon (lunar surface) is about 1/6th of that on the surface of the Earth. An astronaut can throw a ball up to a height of 8 m from the surface of the Earth. How far up will the ball thrown with the same upward velocity travel from the surface of the Moon?"
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "iesc107.txt lines 760-766",
+   "questions": [
+    "A coconut of mass 1.5 kg falls from the top of a coconut tree onto the wet sand on a beach. The height of the tree is 10 m. On impact, the coconut comes to rest by making a depression in the sand. (i) Calculate the velocity of the coconut just before it hits the sand. (ii) Assume that the average resistive force of sand is 3000 N and all of the coconut's energy is used to create the depression in the sand. Calculate the depth of the depression the coconut makes in the sand. Assume g = 10 m s-2."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_002",
+   "title": "c12_eco_cbse_10_002",
+   "questions": [
+    {
+     "q": "State the consumption function equation and define each term. What is the value of MPC if consumption increases by ₹8,000 when income increases by ₹10,000?",
+     "a": "C = C̅ + cY, where C = consumption, C̅ = autonomous consumption, c = MPC, Y = income. MPC = ΔC/ΔY = 8,000/10,000 = 0.8. A wrong answer (e.g., MPC = 1.25 or MPC = 8,000) reveals confusion between MPC and APC, or treating MPC as absolute change rather than ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the consumption function curve does not start from the origin. What does the vertical intercept represent economically?",
+     "a": "The curve starts at C̅ > 0 on the vertical axis because households consume even at zero current income using past savings, borrowing, or asset sales. This intercept is autonomous consumption. A student who says \"it starts from origin because zero income means zero consumption\" confuses consumption with a proportional relationship and ignores dissaving.",
+     "self_check": true
+    },
+    {
+     "q": "Given C = 40 + 0.75Y, calculate consumption, APC, and MPC at Y = 200, 400, and 600. Show how APC changes as Y rises.",
+     "a": "At Y=200: C=40+150=190, APC=190/200=0.95, MPC=0.75. At Y=400: C=40+300=340, APC=340/400=0.85, MPC=0.75. At Y=600: C=40+450=490, APC=490/600=0.817, MPC=0.75. APC falls as Y rises because C̅/Y shrinks. A wrong answer with constant APC or rising APC indicates misunderstanding that APC = C̅/Y + c.",
+     "self_check": true
+    },
+    {
+     "q": "Two economies have consumption functions C₁ = 50 + 0.8Y and C₂ = 100 + 0.6Y. At what income level will both have the same consumption? Which economy has higher APC at Y = 500?",
+     "a": "Set 50 + 0.8Y = 100 + 0.6Y → 0.2Y = 50 → Y = 250. At Y=500: C₁=450, APC₁=0.9; C₂=400, APC₂=0.8. Economy 1 has higher APC. A student who picks Economy 2 because \"MPC is lower so they save more\" confuses MPC with APC and ignores the autonomous consumption difference.",
+     "self_check": true
+    },
+    {
+     "q": "\"An increase in MPC always leads to higher consumption at every income level.\" Evaluate this statement with a counterexample if false.",
+     "a": "False. Compare C = 100 + 0.6Y and C = 50 + 0.8Y. At Y=100: first gives C=160, second gives C=130. Higher MPC (0.8 > 0.6) but lower consumption because autonomous consumption fell from 100 to 50. A student who agrees confuses slope (MPC) with level (autonomous consumption) — a critical error for multiplier analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a consumption schedule for an economy where autonomous consumption is ₹30 crore and MPC = 0.6, for income levels 0, 50, 100, 150, 200 crore. Plot the consumption function and indicate the break-even income (where C = Y).",
+     "a": "Schedule: Y=0, C=30; Y=50, C=60; Y=100, C=90; Y=150, C=120; Y=200, C=150. Break-even: 30 + 0.6Y = Y → 0.4Y = 30 → Y = 75 crore. A student who cannot find break-even or plots a line through origin misses that C = Y is a 45° line reference, not the consumption function itself.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_007",
+   "title": "c11_acc_cbse_05_007",
+   "questions": [
+    {
+     "q": "A cheque of ₹5,000 issued to a supplier was recorded in the cash book as ₹500. The bank correctly debited ₹5,000. If the cash book balance is taken as the starting point for BRS, how should this error be treated?",
+     "a": "Correct answer: Add ₹4,500 to the cash book balance. Reasoning: The cash book shows only ₹500 deduction instead of ₹5,000, so it overstates the balance by ₹4,500. To reconcile with pass book (which correctly shows ₹5,000 deduction), we must add back the under-deduction. A wrong answer (e.g., deduct ₹4,500) reveals the student confuses the direction of adjustment - they think \"error means subtract\" without analyzing whether the cash book balance is higher or lower than the true balance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an error of \"cheque deposited but recorded in cash column instead of bank column of cash book\" causes a difference between cash book and pass book balances, and state whether the cash book balance will be higher or lower than pass book balance.",
+     "a": "Correct answer: The cash book balance will be lower than pass book balance. When a cheque is deposited, the bank credits the account immediately (increasing pass book balance), but recording it in the cash column means the bank column shows no increase. Thus, cash book bank balance is understated. A wrong answer (cash book higher) reveals the student doesn't visualize the dual effect: the transaction increases actual bank balance but the recording error prevents this increase from appearing in the bank column.",
+     "self_check": true
+    },
+    {
+     "q": "The pass book shows a credit balance of ₹1,00,000. On comparison, you find: (a) Bank wrongly credited ₹5,000 deposited by another customer; (b) A cheque of ₹12,000 issued was recorded twice in the pass book; (c) Bank charges of ₹300 were not entered in cash book. Prepare the BRS starting from pass book balance to arrive at cash book balance.",
+     "a": "Correct answer: Cash book balance = ₹1,08,800. Steps: Start with pass book credit balance ₹1,00,000. (a) Wrong credit by bank: pass book is overstated by ₹5,000 → deduct ₹5,000. (b) Cheque recorded twice: pass book shows extra ₹12,000 debit → add back ₹12,000. (c) Bank charges not in cash book: pass book correctly debited ₹300, cash book missed it → deduct ₹300. Net: 1,00,000 - 5,000 + 12,000 - 300 = ₹1,06,700. Wait - if pass book shows credit balance ₹1,00,000, and we want cash book balance, the answer is ₹1,06,700. A wrong answer reveals confusion in reversing the adjustment logic when starting from pass book instead of cash book.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the treatment of \"wrong totalling of receipts side of cash book\" versus \"wrong totalling of deposits column in pass book\" in a BRS when cash book balance is the starting point. Why are the adjustments opposite in direction?",
+     "a": "Correct answer: If receipts side of cash book is overcast by ₹1,000, cash book balance is overstated → deduct ₹1,000 in BRS. If deposits column of pass book is overcast by ₹1,000, pass book balance is overstated → add ₹1,000 in BRS (to bring pass book down to cash book). They are opposite because the first error inflates the starting figure (cash book), while the second inflates the target figure (pass book). A wrong answer reveals the student memorizes \"overcast means deduct\" without understanding which book's balance is being inflated.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the bank made the error in the pass book, we should always contact the bank to correct it before preparing BRS. There's no need to adjust in the BRS.\" Evaluate this statement with reference to the principles of bank reconciliation.",
+     "a": "Correct evaluation: The statement is incorrect. BRS is prepared as on a specific date to explain the difference *as on that date*. Even if the bank will correct the error later, the pass book *as on the reconciliation date* contains the error. The BRS must adjust for it to arrive at the correct cash book balance *as on that date*. The correction entry in cash book (for bank errors) is not passed; only the BRS adjustment is made. A wrong evaluation reveals the student confuses the purpose of BRS (explanation of difference on a date) with rectification of errors (which happens later).",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving at least three different types of errors (one cash book omission, one cash book commission, one pass book error) that would cause a ₹15,000 difference between cash book and pass book. Show the BRS starting from cash book debit balance of ₹50,000.",
+     "a": "Good answer example: Cash book debit balance ₹50,000. Errors: (1) Cheque issued ₹8,000 not recorded in cash book (omission) → cash book overstated by ₹8,000 → deduct ₹8,000. (2) Cheque deposited ₹10,000 recorded as ₹1,000 in cash book (commission) → cash book understated by ₹9,000 → add ₹9,000. (3) Bank wrongly debited ₹2,000 for another customer's charges (pass book error) → pass book understated by ₹2,000 → add ₹2,000. Net adjustment: -8,000 + 9,000 + 2,000 = +₹3,000. Pass book balance = ₹53,000. Difference explained = ₹3,000 (not ₹15,000 - student must adjust amounts to hit target). A poor answer uses only timing differences or creates errors that don't combine to the required difference, revealing inability to reverse-engineer error effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

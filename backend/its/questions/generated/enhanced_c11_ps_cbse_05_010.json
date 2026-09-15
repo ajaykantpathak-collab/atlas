@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_010",
+   "title": "c11_ps_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the central communitarian concept of the \"unencumbered self,\" and which liberal theorist is most associated with this conception?",
+     "a": "The \"unencumbered self\" is the liberal idea that individuals stand prior to their ends, values, and communal attachments — they can choose and revise their commitments freely. John Rawls (A Theory of Justice) is the primary target; communitarians like Michael Sandel argue this self is a fiction because our identities are constituted by community. A wrong answer (e.g., \"the self that has no rights\" or \"the selfish individual\") reveals confusion between metaphysical priority and moral selfishness.",
+     "self_check": true
+    },
+    {
+     "q": "Why do communitarians argue that a rights-based framework cannot adequately resolve conflicts between individual claims and community practices (e.g., a minority group's religious exemption from a neutral law)?",
+     "a": "Communitarians contend that rights-talk frames every conflict as a clash of trump cards, forcing courts to abstract individuals from their constitutive communities. In a religious exemption case, the liberal asks \"does this burden the individual's autonomy?\" while the communitarian asks \"what shared understanding of the good does this practice express, and can the community sustain itself without it?\" A wrong answer focusing only on \"majority tyranny\" misses the communitarian claim that the community's self-understanding is itself a moral fact, not merely a preference.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the communitarian critique to the Supreme Court of India's Sabarimala judgment (2018) allowing women of menstruating age into the Ayyappa temple. Identify the communal value the critique would say the rights-based approach ignores.",
+     "a": "The rights-based approach (Articles 14, 25) treats the claim as individual non-discrimination vs. religious freedom. A communitarian would argue the temple's centuries-old practice constitutes a \"shared understanding of the good\" — the deity's celibate character (naishtika brahmachari) is a communal narrative that structures devotees' identity. Ignoring this treats religion as a bundle of individual beliefs rather than a lived tradition. A wrong answer that only cites \"patriarchy\" fails to engage the communitarian distinction between oppressive customs and identity-constituting practices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the communitarian critique of rights with the conservative critique of rights. On what specific philosophical ground do they diverge?",
+     "a": "Both criticize abstract individualism, but conservatives defend tradition/hierarchy as inherently valuable, while communitarians (e.g., Walzer, Taylor) defend community as the site of shared meaning and democratic self-determination. Communitarians support transformative politics (e.g., civic republicanism) — they want thicker citizenship, not preservation of privilege. A wrong answer conflating them misses that communitarians accept modernity and democracy but reject the liberal ontology of the self.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the communitarian critique strengthens or weakens the case for group-differentiated rights (e.g., Article 29-30 cultural/educational rights for minorities in India). Justify your position.",
+     "a": "Strengthens: communitarians argue minority cultures provide the \"context of choice\" for members; protecting them (via Article 29-30) preserves the communal conditions for autonomy. But it risks reifying \"community\" as monolithic, silencing internal dissenters (e.g., women, lower castes within the minority). A nuanced evaluation must weigh the constitutive role of culture against intra-group power. A wrong answer that simply says \"supports group rights\" ignores the communitarian insistence on democratic dialogue within communities, not just external protection.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph communitarian objection to a proposed \"Right to Digital Disconnection\" law that lets employees ignore work emails after hours. Frame it as a critique of the law's underlying liberal ontology.",
+     "a": "A strong answer: \"The law assumes the worker is an atomized rights-bearer who can sever ties with the workplace community at will. But workplaces are practices with internal goods (craft pride, collegial trust) that require responsiveness beyond contract. A 'right to disconnect' codifies exit over voice, treating solidarity as optional. Better: mandatory collective bargaining on digital norms, so the community shapes its own boundaries.\" A weak answer focuses only on \"employer flexibility\" or \"productivity\" — those are liberal/economic, not communitarian, concerns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

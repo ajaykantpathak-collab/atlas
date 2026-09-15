@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_004",
+   "title": "c12_eco_cbse_07_004",
+   "questions": [
+    {
+     "q": "In the three-sector circular flow model, which of the following represents a leakage from the circular flow? (a) Government purchases (G) (b) Transfer payments (c) Taxes (T) (d) Subsidies",
+     "a": "Correct answer: (c) Taxes (T). Taxes are a withdrawal of income from households and firms, reducing the flow of spending. Government purchases (G) and transfer payments are injections; subsidies are also injections (negative taxes). A student who picks (a) or (b) confuses government spending with leakage. A student who picks (d) misunderstands that subsidies add to firms' revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why imports (M) are treated as a leakage in the four-sector circular flow model, while exports (X) are an injection. Use the flow of money and goods in your answer.",
+     "a": "Imports represent domestic income spent on foreign-produced goods — money flows out of the domestic circular flow to the rest of the world, reducing domestic demand. Exports represent foreign spending on domestic goods — money flows into the domestic circular flow from the rest of the world, increasing domestic demand. A wrong answer that says \"imports bring goods in, so they are an injection\" confuses real flow (goods) with monetary flow (payment). The circular flow model tracks money payments; goods flow opposite to money.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has the following data (in ₹ crore): C = 5,000, I = 1,200, G = 1,500, X = 800, M = 600. Calculate (i) GDP using the expenditure method, (ii) total leakages, (iii) total injections, and (iv) verify the equilibrium condition.",
+     "a": "(i) GDP = C + I + G + (X - M) = 5,000 + 1,200 + 1,500 + (800 - 600) = ₹7,900 crore. (ii) Leakages = S + T + M. We don't have S and T directly, but in equilibrium leakages = injections. (iii) Injections = I + G + X = 1,200 + 1,500 + 800 = ₹3,500 crore. (iv) Equilibrium requires S + T + M = I + G + X. Since M = 600, we need S + T = 2,900. A student who forgets to subtract M in GDP or adds M to injections makes a sign error. A student who uses C + I + G + X + M double-counts imports.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equilibrium condition in the two-sector model (S = I) with the four-sector model (S + T + M = I + G + X). If the government runs a budget deficit (G > T) and the economy has a trade deficit (M > X), what must be true about private saving (S) relative to private investment (I) for equilibrium to hold?",
+     "a": "From S + T + M = I + G + X, rearrange: S - I = (G - T) + (X - M). If G > T (budget deficit) and M > X (trade deficit, so X - M < 0), then (G - T) + (X - M) could be positive, negative, or zero depending on magnitudes. For equilibrium, S - I must equal that sum. A common error is to assume S > I always; actually S could be less than I if the trade deficit outweighs the budget deficit. The student must algebraically manipulate the identity, not guess.",
+     "self_check": true
+    },
+    {
+     "q": "\"In a four-sector economy, a rise in the marginal propensity to import (MPM) reduces the size of the multiplier.\" Evaluate this statement. Does it hold in the simple circular flow model without multiplier analysis? Explain.",
+     "a": "The statement is about the multiplier (a Keynesian cross concept), not the circular flow identity itself. The circular flow model only shows the accounting identity S + T + M = I + G + X at equilibrium; it does not contain behavioural parameters like MPM or the multiplier. In the circular flow framework, a higher MPM means more leakage per unit of income, so for a given level of injections, equilibrium income will be lower — but the model doesn't quantify \"by how much\" without a consumption function and multiplier derivation. A student who says \"yes, because MPM is a leakage\" confuses the static identity with the dynamic multiplier process.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a four-sector circular flow diagram for an economy where households save ₹200 crore, pay ₹300 crore in taxes, and spend ₹150 crore on imports. Firms invest ₹250 crore. The government spends ₹400 crore. Exports are ₹100 crore. Label all flows, show the equilibrium condition numerically, and state whether the economy is in equilibrium. If not, which direction will income adjust?",
+     "a": "Leakages = S + T + M = 200 + 300 + 150 = ₹650 crore. Injections = I + G + X = 250 + 400 + 100 = ₹750 crore. Since leakages (650) < injections (750), the economy is not in equilibrium; there is excess demand. Income will rise (firms experience unplanned inventory depletion, increase output). A good diagram shows households → firms (C), firms → households (factor payments), government ↔ households/firms (T, G, transfers), foreign sector ↔ domestic (X, M). A poor answer draws only three sectors or mislabels M as injection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_005",
+   "title": "c10_math_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the sum and product of zeros for the quadratic polynomial \\(3x^2 - 5x + 2\\). Do not find the zeros.",
+     "a": "Sum of zeros = \\(-(-5)/3 = 5/3\\). Product of zeros = \\(2/3\\). A wrong answer where the student writes sum = \\(-5/3\\) (forgetting the negative sign in the formula) or product = \\(-2/3\\) (sign error) reveals they have memorised the formula without understanding the derivation from \\(a(x-\\alpha)(x-\\beta)\\). If they write sum = \\(5/3\\) but product = \\(2\\), they are confusing the formula with the constant term directly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of zeros of \\(ax^2+bx+c\\) is \\(-b/a\\) and not \\(b/a\\). Use the factorised form \\(a(x-\\alpha)(x-\\beta)\\) in your explanation.",
+     "a": "Expanding \\(a(x-\\alpha)(x-\\beta) = a[x^2 - (\\alpha+\\beta)x + \\alpha\\beta] = ax^2 - a(\\alpha+\\beta)x + a\\alpha\\beta\\). Comparing with \\(ax^2+bx+c\\), the coefficient of \\(x\\) is \\(b = -a(\\alpha+\\beta)\\). Therefore \\(\\alpha+\\beta = -b/a\\). The negative sign appears because the factorised form has \\(-(\\alpha+\\beta)\\) as the coefficient of \\(x\\). A student who says \"it's just the formula\" or \"because the sum is negative of coefficient\" without showing the expansion does not understand the algebraic origin. A wrong answer that writes \\(b = a(\\alpha+\\beta)\\) misses the minus sign from \\((x-\\alpha)(x-\\beta) = x^2 - (\\alpha+\\beta)x + \\alpha\\beta\\).",
+     "self_check": true
+    },
+    {
+     "q": "If \\(\\alpha\\) and \\(\\beta\\) are the zeros of the polynomial \\(2x^2 - 4x + 1\\), find the value of \\(\\alpha^2 + \\beta^2\\) without finding \\(\\alpha\\) and \\(\\beta\\) individually.",
+     "a": "Given \\(2x^2 - 4x + 1\\), \\(a=2, b=-4, c=1\\). Sum \\(\\alpha+\\beta = -(-4)/2 = 2\\). Product \\(\\alpha\\beta = 1/2\\). We know \\(\\alpha^2+\\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta = (2)^2 - 2(1/2) = 4 - 1 = 3\\). A wrong answer of \\(5\\) comes from forgetting the factor 2 in \\(2\\alpha\\beta\\) and doing \\(4 - 1/2 = 3.5\\) or \\(4 - 1 = 3\\)? Wait, if they do \\((\\alpha+\\beta)^2 - \\alpha\\beta = 4 - 0.5 = 3.5\\), that's a common error. If they do \\(4 - 2 = 2\\), they might have used product = 1. The correct steps: 1) Identify coefficients. 2) Compute sum and product. 3) Use identity \\(\\alpha^2+\\beta^2 = (\\alpha+\\beta)^2 - 2\\alpha\\beta\\). 4) Substitute and simplify.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zeros of \\(x^2 - 5x + 6\\) and \\(2x^2 - 10x + 12\\). How are the zeros related? How are the coefficients related? What does this tell you about the relationship between zeros and coefficients when the polynomial is multiplied by a constant?",
+     "a": "First polynomial: \\(x^2-5x+6 = (x-2)(x-3)\\), zeros 2 and 3. Sum=5, product=6. Second polynomial: \\(2x^2-10x+12 = 2(x^2-5x+6) = 2(x-2)(x-3)\\), zeros also 2 and 3. Sum=5, product=6. The coefficients of the second are twice the first, but the zeros are unchanged. The sum of zeros \\(-b/a = -(-10)/2 = 5\\) and product \\(c/a = 12/2 = 6\\) remain the same. This shows that multiplying a polynomial by a non-zero constant does not change its zeros, and the ratios \\(-b/a\\) and \\(c/a\\) are invariant under scaling. A student who says the zeros become double (4 and 6) or half does not understand that zeros are solutions to \\(p(x)=0\\) and scaling doesn't change solutions. A student who only compares coefficients without computing zeros misses the invariance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for the polynomial \\(4x^2 + 8x + 3\\), the sum of zeros is \\(8/4 = 2\\) and the product is \\(3/4\\). Evaluate this claim and correct any errors.",
+     "a": "The claim is incorrect. For \\(4x^2 + 8x + 3\\), \\(a=4, b=8, c=3\\). Sum of zeros = \\(-b/a = -8/4 = -2\\), not \\(2\\). The student forgot the negative sign in the formula. Product of zeros = \\(c/a = 3/4\\) is correct. The correct sum is \\(-2\\). This error is the most common sign mistake in board exams. The student must remember the expansion \\(a(x-\\alpha)(x-\\beta) = ax^2 - a(\\alpha+\\beta)x + a\\alpha\\beta\\) gives \\(b = -a(\\alpha+\\beta)\\), hence the negative sign.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic polynomial whose zeros are \\(\\frac{1}{2}\\) and \\(-3\\). Write the polynomial with integer coefficients. Then verify the relationship between zeros and coefficients for your polynomial.",
+     "a": "Zeros: \\(\\alpha = 1/2, \\beta = -3\\). Sum = \\(1/2 - 3 = -5/2\\). Product = \\(-3/2\\). A polynomial with these zeros is \\(x^2 - (\\text{sum})x + \\text{product} = x^2 - (-5/2)x + (-3/2) = x^2 + \\frac{5}{2}x - \\frac{3}{2}\\). Multiply by 2 to get integer coefficients: \\(2x^2 + 5x - 3\\). Verification: For \\(2x^2+5x-3\\), \\(a=2, b=5, c=-3\\). Sum = \\(-b/a = -5/2\\) (matches). Product = \\(c/a = -3/2\\) (matches). A good answer shows the construction step by step and verifies. A poor answer might give \\(x^2 + 5x - 3\\) (forgetting to multiply the \\(x^2\\) coefficient) or \\(2x^2 + 5x - 6\\) (wrong product). The verification step is crucial for board exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

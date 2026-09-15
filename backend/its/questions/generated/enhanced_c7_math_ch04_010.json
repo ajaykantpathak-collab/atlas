@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_010",
+   "title": "c7_math_ch04_010",
+   "questions": [
+    {
+     "q": "In a dot pattern forming a growing square grid, the number of dots for step $n$ is given by the expression $n^2 + 2n$. What does the variable $n$ represent in this geometric context?",
+     "a": "The variable $n$ represents the step number or the figure number in the sequence of geometric patterns. A wrong answer—such as thinking $n$ is the total number of dots or the perimeter—reveals that the student confuses the input variable (which position we are looking at) with the output value (the total count resulting from that position).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the expression $4n$ for the perimeter of a growing sequence of squares where each step adds a square to a straight line. If Step 1 has a perimeter of 6 units, Step 2 has 10 units, and Step 3 has 14 units, why is the student's expression $4n$ incorrect, and what is the correct expression?",
+     "a": "The expression $4n$ is incorrect because substituting $n=1$ gives $4(1) = 4$, whereas the actual perimeter is 6. The correct expression is $4n + 2$ because the perimeter increases by 4 units with each new square ($4n$), but starts with a base offset of 2 extra units. A wrong answer indicates the student assumes every geometric pattern must start at zero or fail to account for the constant fixed offset.",
+     "self_check": true
+    },
+    {
+     "q": "A triangular dot pattern has 3 dots in Step 1, 6 dots in Step 2, and 10 dots in Step 3. The rule for the number of dots is given by the algebraic expression $\\frac{n(n + 1)}{2}$. Calculate the exact number of dots in Step 15.",
+     "a": "To find the number of dots in Step 15, substitute $n = 15$ into the expression $\\frac{n(n + 1)}{2}$. Step 1: Identify that $n = 15$. Step 2: Substitute $15$ into $(n + 1)$ to get $15 + 1 = 16$. Step 3: Multiply $15$ by $16$ to get $240$. Step 4: Divide $240$ by $2$ to get $120$. Answer: 120 dots. A wrong answer usually stems from calculation errors during multiplication or division, or failing to evaluate the numerator completely before dividing by 2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two algebraic expressions $3n + 1$ and $4n - 1$ representing two different matchstick polygon patterns. For which step number $n$ will both patterns use the exact same number of matchsticks?",
+     "a": "To find when both patterns use the same number of matchsticks, set the two expressions equal to each other: $3n + 1 = 4n - 1$. Subtract $3n$ from both sides to get $1 = n - 1$, then add 1 to both sides to get $n = 2$. At Step 2, both expressions evaluate to $3(2) + 1 = 7$ and $4(2) - 1 = 7$ matchsticks. A wrong answer shows a struggle with solving linear equations derived from comparing geometric growth rates.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims that for a geometric pattern of growing rectangles where the area is given by $n(n + 3)$, the area of Step 4 is $4 + 3 = 7$ square units. Evaluate Rahul's claim and identify his error.",
+     "a": "Rahul's claim is incorrect. He made the error of treating the algebraic expression as $n + 3$ instead of evaluating the multiplication $n \\times (n + 3)$ when $n = 4$. The correct evaluation for Step 4 is $4 \\times (4 + 3) = 4 \\times 7 = 28$ square units. A wrong answer reveals a fundamental misunderstanding of implicit multiplication and substitution in algebraic expressions involving parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Design an algebraic expression for the total perimeter of a train of $n$ identical regular pentagons placed side by side in a straight line, where each shared side reduces the outer perimeter. Explain how you constructed your expression.",
+     "a": "The expected expression is $3n + 2$. Explanation: A single regular pentagon has 5 sides. When $n$ pentagons are joined in a line, $(n - 1)$ sides are shared (counted twice in isolation). Thus, the perimeter is $5n - 2(n - 1) = 5n - 2n + 2 = 3n + 2$. A poor answer merely guesses a linear formula like $5n$ without accounting for the overlapping sides between adjacent pentagons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class6_social_science_fees113",
+ "concepts": [
+  {
+   "id": "fees.13.1",
+   "title": "Economic and Non-Economic Activities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Economic and Non-Economic Activities' refers to.",
+     "a": "Activities that create monetary value, like making furniture or flying planes, are economic activities; work done out of love or duty without payment, like teaching neighbourhood kids for free, is non-economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic and Non-Economic Activities'.",
+     "a": "Money is the dividing line: the same skill, paid or unpaid, moves from market to service.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Economic and Non-Economic Activities', in plain ASCII form.",
+     "a": "economic = work + payment; non_economic = work without payment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.13.2",
+   "title": "The Value of Work: Dignity in Every Task",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Value of Work: Dignity in Every Task' refers to.",
+     "a": "Every kind of honest work has worth, paid or unpaid; Swami Vivekananda's advice to do one's work as worship, and the respect owed to farmers, drivers, homema-kers and soldiers alike, ground this value.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Value of Work: Dignity in Every Task'.",
+     "a": "Work's worth is not measured by salary alone: effort, skill and service give every task dignity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Value of Work: Dignity in Every Task' taught, and from which source text?",
+     "a": "Value of work (source: fees113.txt, Value of work)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.13.3",
+   "title": "Adding Value: Rajesh the Carpenter",
+   "questions": [
+    {
+     "q": "Using the method 'Adding Value: Rajesh the Carpenter', work with: material_cost = 5000, selling_price = 5000. Carry the chain through step by step and give the final value of value_added.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Adding Value: Rajesh the Carpenter' and work with: material_cost = 8000, selling_price = 80000. Carry the chain through step by step and give the final value of value_added.",
+     "a": "72000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Adding Value: Rajesh the Carpenter' refers to.",
+     "a": "Rajesh buys wood for 600 rupees and sells each chair for 1,000; the extra 400 rupees is the monetary value his skill, time and effort added, which is exactly what makes his work an economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adding Value: Rajesh the Carpenter'.",
+     "a": "Value added is the measure of work: raw material in, a more valuable product out.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adding Value: Rajesh the Carpenter', in plain ASCII form.",
+     "a": "value_added = selling_price - material_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.13.4",
+   "title": "Work beyond Money",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Work beyond Money' refers to.",
+     "a": "The chapter honours work that payment cannot measure: a retired BSF grandfather teaching free geography classes, tending the vegetable garden, running errands, and homema-kers' daily care that holds a family together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Work beyond Money'.",
+     "a": "A society runs on unpriced work too: care, teaching and service build the same wealth of trust.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Work beyond Money' taught, and from which source text?",
+     "a": "Non-economic work (source: fees113.txt, Non-economic work)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

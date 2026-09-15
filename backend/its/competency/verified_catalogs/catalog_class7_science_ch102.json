@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 102,
+ "chapter_title": "Nutrition in Animals",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu109.txt",
+ "concepts": [
+  {
+   "id": "gesc.102.1",
+   "title": "Stages of Animal Nutrition",
+   "section": "2.2",
+   "definition": "The biological process of obtaining and utilizing nutrients, consisting of ingestion, digestion, absorption, assimilation, and egestion.",
+   "formula": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion",
+   "key_idea": "Nutrition is a multi-step sequence from food intake to waste removal.",
+   "textbook_ref": "gesc102.txt lines 180-200",
+   "question_patterns": [
+    "what are the main steps of nutrition",
+    "list the sequence of animal nutrition",
+    "define the process of nutrition in animals",
+    "how does an animal utilize food",
+    "justify why stages of animal nutrition matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stages",
+     "explain": "Nutrition proceeds as ingestion, digestion, absorption, assimilation, and egestion"
+    },
+    {
+     "step": 2,
+     "action": "order the stages",
+     "explain": "Each stage follows the previous one in a fixed sequence from food intake to waste removal"
+    },
+    {
+     "step": 3,
+     "action": "verify the sequence",
+     "explain": "Confirm that ingestion begins the process and egestion ends it, with absorption and assimilation occurring in between"
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.2",
+   "title": "Role of Villi in Absorption",
+   "section": "2.2",
+   "definition": "Millions of microscopic finger-shaped folds lining the small intestine from inside; they widen the absorbing surface so nutrients pass into the blood more easily.",
+   "formula": "absorption_capacity = surface_area * efficiency_factor",
+   "key_idea": "Increased surface area leads to higher nutrient absorption rates.",
+   "textbook_ref": "gesc102.txt lines 350-365",
+   "question_patterns": [
+    "what is the function of villi",
+    "where are villi located",
+    "how do villi help in digestion",
+    "why is the small intestine wall folded",
+    "solve a numerical on role of villi in absorption"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate effective area",
+     "explain": "villi increase the base surface area by a factor",
+     "compute": "effective_area = base_area * villi_factor"
+    },
+    {
+     "step": 2,
+     "action": "determine total absorption",
+     "explain": "absorption is proportional to the effective surface area",
+     "compute": "total_absorption = effective_area * absorption_rate"
+    },
+    {
+     "step": 3,
+     "action": "verify against base absorption",
+     "explain": "Compare total_absorption with the base_area absorption to confirm villi increase nutrient uptake",
+     "compute": "absorption_gain = total_absorption - (base_area * absorption_rate)"
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.3",
+   "title": "Rumination Process",
+   "section": "2.3",
+   "definition": "A unique digestive mechanism in grass-eating animals where food is stored in the rumen, partially digested, and later returned to the mouth for thorough chewing.",
+   "formula": "rumination = (ingestion + storage) + (regurgitation + re_chewing)",
+   "key_idea": "Ruminants digest tough cellulose by cycling food between the rumen and the mouth.",
+   "textbook_ref": "gesc102.txt lines 410-430",
+   "question_patterns": [
+    "what is rumination",
+    "why do cows chew continuously",
+    "define ruminants",
+    "how do grass-eating animals digest cellulose",
+    "state two key points about rumination process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the rumen storage stage",
+     "explain": "Grass-eating animals first swallow food quickly into the rumen for partial digestion"
+    },
+    {
+     "step": 2,
+     "action": "identify the regurgitation stage",
+     "explain": "Partially digested food (cud) is returned to the mouth for thorough chewing"
+    },
+    {
+     "step": 3,
+     "action": "verify the cycle",
+     "explain": "Confirm the food cycles between rumen storage and mouth re-chewing to break down tough cellulose"
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.4",
+   "title": "Amoeba Feeding Mechanism",
+   "section": "2.4",
+   "definition": "Amoeba captures microscopic prey by extending pseudopodia to engulf food into a vacuole where digestive juices break it down.",
+   "formula": "ingestion = pseudopodia_extension + engulfment",
+   "key_idea": "Amoeba uses temporary false feet to trap food and internal vacuoles to digest it.",
+   "textbook_ref": "gesc102.txt lines 460-480",
+   "question_patterns": [
+    "how does amoeba ingest food",
+    "what are pseudopodia",
+    "where does digestion occur in amoeba",
+    "describe the feeding process of amoeba",
+    "why is amoeba feeding mechanism important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify pseudopodia extension",
+     "explain": "Amoeba extends temporary false feet (pseudopodia) around the food particle"
+    },
+    {
+     "step": 2,
+     "action": "identify engulfment into vacuole",
+     "explain": "Pseudopodia fuse to trap the food inside a food vacuole"
+    },
+    {
+     "step": 3,
+     "action": "verify digestion in vacuole",
+     "explain": "Digestive juices act on the food inside the vacuole, breaking it down for absorption"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc102.txt line 360",
+   "concept": "gesc.102.2",
+   "question_type": "compute",
+   "question_pattern": "If the base surface area of the intestine is {base_area} and villi increase it by a factor of {villi_factor}, what is the effective area?",
+   "extracted_variables": {
+    "base_area": "initial surface area",
+    "villi_factor": "multiplier for surface area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base area by factor",
+     "explain": "villi expand the surface area",
+     "compute": "effective_area = base_area * villi_factor"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "gesc102.txt lines 350-365",
+   "concept": "gesc.102.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute role of villi in absorption step by step",
+   "extracted_variables": {
+    "base_area": "value of base_area",
+    "villi_factor": "value of villi_factor",
+    "absorption_rate": "value of absorption_rate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate effective area",
+     "explain": "villi increase the base surface area by a factor",
+     "compute": "effective_area = base_area * villi_factor"
+    },
+    {
+     "step": 2,
+     "action": "determine total absorption",
+     "explain": "absorption is proportional to the effective surface area",
+     "compute": "total_absorption = effective_area * absorption_rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "gesc102.txt lines 520-550",
+   "questions": [
+    "List the five main steps of human nutrition.",
+    "Explain why the small intestine is the site of complete digestion.",
+    "Compare the nutrition process in Amoeba and humans.",
+    "What is the role of the liver and pancreas in digestion?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

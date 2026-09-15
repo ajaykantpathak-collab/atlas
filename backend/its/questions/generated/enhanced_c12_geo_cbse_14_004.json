@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_004",
+   "title": "c12_geo_cbse_14_004",
+   "questions": [
+    {
+     "q": "Name the three states that account for over 80% of India's jute production and the primary river basin where jute mills are concentrated.",
+     "a": "Correct answer: West Bengal, Bihar, and Assam produce over 80% of jute; mills are concentrated in the Hugli river basin (West Bengal). A wrong answer (e.g., naming Punjab or the Ganga main stem) reveals the student confuses jute with wheat or rice cultivation zones and does not understand the specific agro-climatic requirement of jute (high temperature, high humidity, alluvial soil) and the industrial need for slow-moving water for retting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sugar industry has shifted significantly from the northern belt (Uttar Pradesh, Bihar) to the peninsular belt (Maharashtra, Karnataka, Tamil Nadu) since the 1990s, even though the northern belt has larger cane area.",
+     "a": "Correct answer: Peninsular India offers higher sucrose content (12-14% vs 10-11%), longer crushing season (7-8 months vs 4-5 months due to tropical climate without severe winter), widespread cooperative ownership ensuring better farmer-mill linkage, and modern mills with higher efficiency. A wrong answer focusing only on \"better climate\" or \"government subsidies\" reveals the student misses the interplay of agro-climatic factors (sucrose recovery, season length) and institutional factors (cooperatives) that together drive locational shift.",
+     "self_check": true
+    },
+    {
+     "q": "A sugar mill in western Uttar Pradesh crushes 5,000 tonnes of cane per day at 10.5% sucrose recovery. If the mill operates for 150 days a season, calculate the total sugar production in tonnes. Then explain why a similar-sized mill in Maharashtra crushing for 220 days at 12.5% recovery would produce more sugar even with the same daily capacity.",
+     "a": "Step 1: Sugar per day = 5,000 tonnes × 10.5% = 525 tonnes. Step 2: Seasonal production = 525 × 150 = 78,750 tonnes. Maharashtra mill: 5,000 × 12.5% = 625 tonnes/day; 625 × 220 = 137,500 tonnes. The Maharashtra mill produces 74% more sugar due to higher recovery and longer season. A wrong calculation (e.g., ignoring recovery percentage or season length) reveals the student treats all cane as equal and does not grasp that sucrose content and crushing duration are decisive for output and profitability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational factors of the jute industry (Hugli basin) and the sugar industry (two belts) in a table with four rows: Raw Material, Weight Loss / Perishability, Key Infrastructure, and Labour.",
+     "a": "Correct comparison: Jute — raw material is jute fibre (weight-losing but not highly perishable), needs retting water so tied to Hugli, requires coal and port (Kolkata), employs large low-skilled workforce. Sugar — raw material is sugarcane (highly perishable, loses sucrose daily), so mill must be in field; needs no special water for processing; power from bagasse (self-sufficient); labour is seasonal and skilled for cooperative management. A wrong table that puts \"port access\" for sugar or \"bagasse\" for jute reveals the student memorises factors without understanding the process-specific requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Jute Packaging Materials Act (1987) in reviving the jute industry. Consider both the mandatory packaging quota and the competition from synthetic substitutes.",
+     "a": "The Act mandated 100% foodgrains and 20% sugar packaging in jute bags, creating captive demand. However, effectiveness is limited because: (1) synthetic substitutes (polypropylene) are cheaper and lighter; (2) jute mills use obsolete machinery, raising costs; (3) raw jute supply fluctuates with monsoon, causing price volatility. A one-sided answer claiming \"the Act saved the industry\" or \"the Act failed completely\" reveals the student cannot weigh policy intent against structural constraints like technology gap and global competition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point revival plan for a sick jute mill in the Hugli basin that addresses technology, product diversification, and raw material security. Justify each point geographically.",
+     "a": "Good answer: (1) Modernise spinning/weaving with automatic looms to reduce cost per metre — uses existing skilled labour pool in Hugli. (2) Diversify into geo-textiles, composites, and shopping bags — leverages Kolkata port for export and growing domestic eco-market. (3) Contract farming in West Bengal/Bihar/Assam with assured price — secures raw material in the traditional growing zone, reduces middlemen. A poor answer suggesting \"move the mill to Andhra Pradesh\" or \"switch to sugar\" reveals the student ignores the fixed locational advantages (water for retting, port, labour) that make the Hugli basin irreplaceable for jute.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_001",
+   "title": "c12_psy_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define individual differences in psychological terms. How do they differ from physical differences?",
+     "a": "Individual differences refer to distinctiveness and variations in people's psychological characteristics (intelligence, personality, aptitude, interests, values) and behavior patterns. Physical differences are variations in bodily attributes (height, weight, hair color). A wrong answer might confuse psychological attributes with physical traits or fail to mention that individual differences encompass both characteristics and behavior patterns. This reveals a lack of clarity on the scope of psychological attributes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the concept of situationism with an example. How does it challenge the trait perspective?",
+     "a": "Situationism is the view that behavior is influenced more by situational factors than by personal traits. Example: A generally aggressive person behaves submissively in front of their boss. This challenges the trait perspective which claims behavior is consistent across situations due to stable traits. A wrong answer might say situationism denies traits entirely, or give an example where the situation doesn't override the trait. This reveals misunderstanding of the interaction between traits and situations.",
+     "self_check": true
+    },
+    {
+     "q": "A student, Rohan, is usually very talkative and outgoing with friends but becomes quiet and reserved during a formal school assembly. Using the trait-situation debate, explain Rohan's behavior.",
+     "a": "Rohan's behavior illustrates situationism: the formal assembly situation (presence of teachers, large audience, norms of silence) overrides his trait of talkativeness. The trait perspective would predict he remains talkative across situations. The correct analysis acknowledges that both traits and situations matter; the situation triggers a different behavioral response. A wrong answer might attribute it solely to his trait changing or ignore the situational influence. This reveals inability to apply the interactionist perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the trait perspective and situationism in explaining human behavior. Which perspective is more supported by modern psychology?",
+     "a": "Trait perspective: behavior is consistent across situations due to stable internal dispositions (traits). Situationism: behavior varies across situations because external factors (norms, roles, pressures) are more powerful. Modern psychology supports an interactionist approach: behavior results from the interaction of traits and situations. A wrong answer might pick one perspective as entirely correct or miss the interactionist synthesis. This reveals a dichotomous thinking error common in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Individual differences are solely determined by heredity.\" Use the concept of nature-nurture interplay.",
+     "a": "The statement is false. Individual differences arise from the complex interaction of heredity (nature) and environment (nurture). Heredity sets a range of potential (reaction range), while environment determines where within that range an individual falls. Evidence from twin and adoption studies (covered later for intelligence) shows both factors contribute. A wrong answer might agree with the statement or say environment alone determines differences. This reveals a deterministic misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario that demonstrates how both heredity and environment contribute to individual differences in a psychological attribute (e.g., intelligence, personality). Explain the interaction.",
+     "a": "Example: Two siblings inherit genes for high musical aptitude (heredity). One receives music training and encouragement (enriched environment) and becomes a skilled musician; the other receives no training (deprived environment) and does not develop the skill. Both had the genetic potential, but environment shaped the outcome. A good answer specifies the attribute, the hereditary potential, the environmental variation, and the resulting difference. A poor answer might not distinguish the two sources or describe a scenario where only one factor operates. This reveals inability to conceptualize interaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

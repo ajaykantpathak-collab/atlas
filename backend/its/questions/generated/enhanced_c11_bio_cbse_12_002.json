@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_002",
+   "title": "c11_bio_cbse_12_002",
+   "questions": [
+    {
+     "q": "Name the enzyme that catalyzes the committed step of glycolysis and the allosteric activator that signals high energy demand in the cell.",
+     "a": "The committed step is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate. Its major allosteric activator is AMP (or ADP), which accumulates when ATP is depleted, signaling low energy status. A wrong answer (e.g., naming hexokinase or pyruvate kinase) reveals confusion between the first irreversible step (hexokinase) and the committed step (PFK-1), or ignorance of energy-charge regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why glycolysis occurs in the cytoplasm rather than in the mitochondria, even in eukaryotic cells that possess mitochondria.",
+     "a": "Glycolysis is an ancient pathway that evolved before mitochondria existed; it occurs in the cytoplasm because all its enzymes are soluble cytosolic proteins. Mitochondria lack the enzyme machinery for glycolysis — they only receive pyruvate via a specific transporter. A student who says \"because mitochondria are for aerobic respiration\" shows a teleological misconception (confusing evolutionary history with current function) rather than understanding compartmentalization of enzyme systems.",
+     "self_check": true
+    },
+    {
+     "q": "A plant cell is supplied with glucose labeled with ¹⁴C at carbon-1 (C-1). After one round of glycolysis, in which carbon position(s) of pyruvate will the label appear? Justify your answer.",
+     "a": "The label will appear at the carboxyl carbon (C-1) of pyruvate. In the aldolase step, fructose-1,6-bisphosphate splits into glyceraldehyde-3-phosphate (G3P) and dihydroxyacetone phosphate (DHAP). The original C-1 of glucose becomes C-3 of G3P (which is the aldehyde carbon). Through triose phosphate isomerase, DHAP equilibrates with G3P, but the label from glucose C-1 ends up specifically at the aldehyde carbon of G3P. This carbon becomes the carboxyl carbon of 1,3-bisphosphoglycerate and finally the carboxyl carbon (C-1) of pyruvate. A wrong answer (e.g., methyl carbon) indicates failure to track carbon rearrangement at the aldolase and triose phosphate isomerase steps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ATP yield per glucose in glycolysis versus the complete aerobic respiration of glucose. What percentage of total ATP is produced directly in glycolysis (substrate-level only), and why is this proportion significant for cells without mitochondria?",
+     "a": "Glycolysis yields 2 ATP (substrate-level) per glucose. Complete aerobic respiration yields ~38 ATP (theoretical maximum), so glycolysis contributes only ~5% of total ATP directly. However, glycolysis is the ONLY ATP source for mature mammalian erythrocytes (no mitochondria) and for parasitic worms in anaerobic environments. A student who calculates 2/38 ≈ 5% but misses the physiological significance shows inability to connect quantitative biochemistry to cell-type-specific adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In glycolysis, the conversion of 1,3-bisphosphoglycerate (1,3-BPG) to 3-phosphoglycerate (3-PG) produces ATP because 1,3-BPG is a high-energy compound.\" Is the reasoning complete? If not, what is missing?",
+     "a": "The reasoning is incomplete. While 1,3-BPG does have a high phosphoryl transfer potential (ΔG°' = -49.3 kJ/mol), ATP synthesis occurs because the enzyme phosphoglycerate kinase couples the exergonic hydrolysis of the acyl-phosphate bond in 1,3-BPG to the endergonic phosphorylation of ADP. The \"high-energy bond\" concept alone is insufficient — the enzyme's active site geometry and the near-equilibrium nature of the reaction (ΔG ≈ 0 in vivo) are essential. A student who accepts the statement as fully correct reveals a textbook-level oversimplification common in middle school but inadequate for Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using yeast to demonstrate that glycolysis can proceed anaerobically and produces CO₂. Specify the control, the measurable variable, and how you would confirm the CO₂ originates from glucose carbon (not bicarbonate buffer).",
+     "a": "Setup: Two test tubes with glucose solution + yeast suspension. Tube A: sealed with a one-way gas valve leading to lime water (Ca(OH)₂). Tube B (control): same but heat-killed yeast. Measure: time for lime water to turn milky (CO₂ detection). To confirm carbon source: use ¹⁴C-labeled glucose at C-3/C-4 (which becomes CO₂ in pyruvate decarboxylase step of fermentation) and detect ¹⁴CO₂ in the gas phase via scintillation counting. A poor design (e.g., no control, or assuming all CO₂ comes from glycolysis) shows inability to isolate variables and trace carbon fate — a key skill for board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

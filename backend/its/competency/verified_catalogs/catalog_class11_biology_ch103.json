@@ -1,0 +1,476 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 103,
+ "chapter_title": "Plant Kingdom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo103.txt",
+ "concepts": [
+  {
+   "id": "kebo.103.1",
+   "title": "Classification Systems in Botany",
+   "section": "3.1",
+   "definition": "The evolution of plant categorization from simple physical traits to complex internal and genetic relationships.",
+   "formula": "Phylogeny = Evolutionary History + Common Ancestry",
+   "key_idea": "Classification shifted from artificial morphological traits to natural affinities and evolutionary lineages.",
+   "textbook_ref": "kebo103.txt lines 10-35",
+   "question_patterns": [
+    "distinguish between artificial and natural classification systems",
+    "what are the features of phylogenetic classification",
+    "who proposed the natural classification for flowering plants",
+    "why were artificial systems considered unacceptable",
+    "explain classification systems in botany in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis of classification",
+     "explain": "Determine if the system uses only external traits (artificial) or internal features like anatomy and embryology (natural)."
+    },
+    {
+     "step": 2,
+     "action": "Check for evolutionary context",
+     "explain": "Phylogenetic systems assume organisms in the same taxa share a common ancestor."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the limitations of each system",
+     "explain": "Artificial systems were considered unacceptable because they separated closely related species based on superficial traits, while natural and phylogenetic systems group organisms by true affinities and evolutionary relationships."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.2",
+   "title": "Modern Taxonomic Methods",
+   "section": "3.1",
+   "definition": "Advanced techniques using computational data, cellular structures, and chemical profiles to resolve plant classification.",
+   "formula": "Numerical Taxonomy = sum(observable_characters) / total_traits",
+   "key_idea": "Using computers and chemical data to provide objective weightage to multiple plant characteristics.",
+   "textbook_ref": "kebo103.txt lines 36-44",
+   "question_patterns": [
+    "define numerical taxonomy",
+    "what is the basis of cytotaxonomy",
+    "how does chemotaxonomy help in classification",
+    "explain the role of computers in modern taxonomy",
+    "justify why modern taxonomic methods matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize the data source",
+     "explain": "Identify if the data is numerical (observable traits), cytological (chromosomes), or chemical (phytochemistry)."
+    },
+    {
+     "step": 2,
+     "action": "Apply the specific taxonomic rule",
+     "explain": "Assign codes for numerical or analyze chemical constituents to resolve taxonomic confusion."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the contribution to classification",
+     "explain": "Numerical taxonomy uses computers to evaluate observable characters objectively, cytotaxonomy uses chromosome data, and chemotaxonomy uses chemical constituents to resolve relationships."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.3",
+   "title": "Algal Sexual Reproduction Modes",
+   "section": "3.1",
+   "definition": "Classification of algal reproduction by the relative size and motility of the fusing gametes.",
+   "formula": "Isogamy: G1 = G2; Anisogamy: G1 != G2; Oogamy: Large_Static_Female + Small_Motile_Male",
+   "key_idea": "Reproductive diversity in algae ranges from identical gamete fusion to specialized egg-sperm interaction.",
+   "textbook_ref": "kebo103.txt lines 58-68",
+   "question_patterns": [
+    "compare isogamous and anisogamous reproduction",
+    "define oogamy with examples",
+    "what type of sexual reproduction is found in Spirogyra",
+    "describe the gametes in Volvox",
+    "describe algal sexual reproduction modes with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe gamete morphology",
+     "explain": "Check if gametes are identical in size (isogamous) or different (anisogamous/oogamous)."
+    },
+    {
+     "step": 2,
+     "action": "Check for motility",
+     "explain": "Determine if both are motile or if one is large and static (oogamous)."
+    },
+    {
+     "step": 3,
+     "action": "Classify the reproduction mode with an example",
+     "explain": "Isogamy occurs in Spirogyra (identical motile gametes), anisogamy in some algae (dissimilar gametes), and oogamy in Volvox (large non-motile egg and small motile sperm)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.4",
+   "title": "Chlorophyceae (Green Algae)",
+   "section": "3.1.1",
+   "definition": "A group of algae characterized by the presence of chlorophyll a and b, storing food as starch in pyrenoids.",
+   "formula": "Cell Wall = Inner Cellulose + Outer Pectose",
+   "key_idea": "Green algae share primary pigments and storage products with higher plants.",
+   "textbook_ref": "kebo103.txt lines 85-100",
+   "question_patterns": [
+    "list the characteristics of Chlorophyceae",
+    "where are pyrenoids located and what do they contain",
+    "describe the cell wall structure of green algae",
+    "name common examples of green algae",
+    "what do you understand by chlorophyceae (green algae)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify pigments",
+     "explain": "Confirm dominance of chlorophyll a and b."
+    },
+    {
+     "step": 2,
+     "action": "Verify storage and wall composition",
+     "explain": "Check for starch in pyrenoids and a cellulose-pectose cell wall."
+    },
+    {
+     "step": 3,
+     "action": "Provide examples of Chlorophyceae",
+     "explain": "Common examples include Volvox, Spirogyra, Chlamydomonas, and Ulothrix, all of which share the green pigment and starch storage characteristics of this group."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.5",
+   "title": "Phaeophyceae (Brown Algae)",
+   "section": "3.1.2",
+   "definition": "Marine algae containing fucoxanthin and storing energy as complex carbohydrates like laminarin or mannitol.",
+   "formula": "Brown Pigment = Fucoxanthin",
+   "key_idea": "Brown algae possess specialized structures like holdfasts and produce hydrocolloids like algin.",
+   "textbook_ref": "kebo103.txt lines 101-120",
+   "question_patterns": [
+    "what are the major pigments in brown algae",
+    "describe the plant body of a kelp",
+    "what is the function of the holdfast and frond",
+    "how do brown algae store their food",
+    "what do you understand by phaeophyceae (brown algae)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify xanthophyll concentration",
+     "explain": "The shade of brown depends on the amount of fucoxanthin."
+    },
+    {
+     "step": 2,
+     "action": "Examine flagellation",
+     "explain": "Zoospores are biflagellate with unequal lateral attachment."
+    },
+    {
+     "step": 3,
+     "action": "Identify storage products and structural features",
+     "explain": "Brown algae store food as laminarin or mannitol, possess holdfasts for anchorage, and produce hydrocolloids like algin. Common examples include Fucus, Sargassum, and kelps."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.6",
+   "title": "Bryophyte Life Cycle and Structure",
+   "section": "3.2",
+   "definition": "Non-vascular plants where the haploid gametophyte is indeed the dominant phase, requiring water for fertilization.",
+   "formula": "Bryophyte = Gametophyte(n) + Dependent Sporophyte(2n)",
+   "key_idea": "Often called the plant kingdom's amphibians, since water is essential for their sexual reproduction.",
+   "textbook_ref": "kebo103.txt lines 140-165",
+   "question_patterns": [
+    "why are bryophytes called amphibians of the plant kingdom",
+    "describe the main plant body of a bryophyte",
+    "what is the role of rhizoids",
+    "explain the relationship between the sporophyte and gametophyte in mosses",
+    "give one everyday example of bryophyte life cycle and structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the dominant phase",
+     "explain": "The main plant body is a haploid gametophyte."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the sporophyte",
+     "explain": "The sporophyte is physically attached to and dependent on the gametophyte for nutrition."
+    },
+    {
+     "step": 3,
+     "action": "Explain the dependence on water for fertilization",
+     "explain": "Bryophytes are called the amphibians of the plant kingdom because water is essential for the motile male gametes to reach the female gametes for fertilization."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.7",
+   "title": "Liverwort Reproduction (Gemmae)",
+   "section": "3.2.1",
+   "definition": "Asexual reproduction in liverworts via specialized multicellular green buds called gemmae.",
+   "formula": "New Thallus = Germinated Gemma",
+   "key_idea": "Gemmae develop in gemma cups and detach to form independent clones of the parent.",
+   "textbook_ref": "kebo103.txt lines 185-195",
+   "question_patterns": [
+    "what are gemmae",
+    "where are gemma cups located",
+    "how do liverworts reproduce asexually",
+    "describe the structure of Marchantia thallus",
+    "how does liverwort reproduction (gemmae) work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate gemma cups",
+     "explain": "Identify the small receptacles on the dorsal surface of the thallus."
+    },
+    {
+     "step": 2,
+     "action": "Describe the germination process",
+     "explain": "Gemmae detach from the parent and grow into new individuals."
+    },
+    {
+     "step": 3,
+     "action": "Explain the nature of gemmae reproduction",
+     "explain": "Gemmae are specialized multicellular green buds that develop in gemma cups on the dorsal surface of the thallus (e.g., Marchantia) and upon detachment germinate to form new independent thalli, functioning as asexual clones."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.8",
+   "title": "Pteridophyte Characteristics and Vascularity",
+   "section": "3.3",
+   "definition": "The first terrestrial plants to evolve vascular tissues (both xylem and phloem) with a dominant sporophyte stage.",
+   "formula": "Pteridophyte = Sporophyte (Root + Stem + Leaves) + Vascular Tissue",
+   "key_idea": "Transition to sporophyte dominance and the development of true conducting tissues.",
+   "textbook_ref": "kebo103.txt lines 220-240",
+   "question_patterns": [
+    "which are the first terrestrial plants to possess vascular tissues",
+    "differentiate between microphylls and macrophylls",
+    "what is a prothallus",
+    "why is the distribution of pteridophytes limited",
+    "how does pteridophyte characteristics and vascularity work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the main plant body",
+     "explain": "Confirm the presence of true roots, stems, and leaves (sporophyte)."
+    },
+    {
+     "step": 2,
+     "action": "Check for vascular bundles",
+     "explain": "Verify the presence of xylem and phloem for transport."
+    },
+    {
+     "step": 3,
+     "action": "Explain the limitations of pteridophyte distribution",
+     "explain": "Pteridophytes require water for fertilization of the male and female gametes produced by the prothallus, which limits their distribution to cool, damp, and shady places."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.9",
+   "title": "Heterospory and Seed Habit Precursor",
+   "section": "3.3",
+   "definition": "The production of two different sizes of spores (macro and micro) which lead to distinct both male and female gametophytes.",
+   "formula": "Heterospory = Megaspores + Microspores",
+   "key_idea": "Retention of the female gametophyte on the parent sporophyte is a critical evolutionary step toward seeds.",
+   "textbook_ref": "kebo103.txt lines 250-260",
+   "question_patterns": [
+    "define heterospory with examples",
+    "what is the evolutionary significance of heterospory",
+    "which pteridophytes are heterosporous",
+    "how does heterospory lead to the seed habit",
+    "what do you understand by heterospory and seed habit precursor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify spore types",
+     "explain": "Check if the plant produces spores of different sizes (Selaginella, Salvinia)."
+    },
+    {
+     "step": 2,
+     "action": "Trace gametophyte development",
+     "explain": "Observe if the female gametophyte is retained on the parent sporophyte."
+    },
+    {
+     "step": 3,
+     "action": "Explain the evolutionary significance toward seed habit",
+     "explain": "Retention of the female gametophyte on the parent sporophyte is a critical precursor to seed formation, as seen in Selaginella and Salvinia, which represent an evolutionary step toward the seed habit of gymnosperms."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.10",
+   "title": "Gymnosperm Seed and Ovule Structure",
+   "section": "3.4",
+   "definition": "Plants where ovules and resulting seeds are indeed not enclosed within an ovary wall, remaining 'naked'.",
+   "formula": "Gymnosperm = Naked Ovule + No Fruit",
+   "key_idea": "Seeds develop directly on the surface of megasporophylls, usually in cones.",
+   "textbook_ref": "kebo103.txt lines 261-280",
+   "question_patterns": [
+    "why are gymnosperms called naked-seeded plants",
+    "describe the roots of Cycas and Pinus",
+    "how do gymnosperms adapt to water loss",
+    "what are coralloid roots",
+    "what do you understand by gymnosperm seed and ovule structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the ovule position",
+     "explain": "Verify that ovules are exposed on megasporophylls before and after fertilization."
+    },
+    {
+     "step": 2,
+     "action": "Identify xerophytic adaptations",
+     "explain": "Check for needle-like leaves, thick cuticles, and sunken stomata."
+    },
+    {
+     "step": 3,
+     "action": "Describe root variations in gymnosperms",
+     "explain": "Cycas has coralloid roots associated with nitrogen-fixing cyanobacteria, while Pinus has a taproot system with mycorrhizal associations, both adaptations for nutrient acquisition."
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.11",
+   "title": "Ploidy Calculation in Plant Cycles",
+   "section": "3.2",
+   "definition": "Calculating the chromosome count of different life stages based on the alternation of generations.",
+   "formula": "sporophyte = 2 * gametophyte",
+   "key_idea": "Meiosis reduces ploidy to haploid (n) in spores, while fertilization restores diploidy (2n) in the zygote.",
+   "textbook_ref": "kebo103.txt lines 155-165",
+   "question_patterns": [
+    "if the gametophyte has n chromosomes, find the sporophyte count",
+    "calculate the ploidy of a zygote given the spore count",
+    "what is the chromosome number in a moss capsule if the leaf has 12",
+    "how many chromosomes are in a fern prothallus if the rhizome has 40",
+    "solve a numerical on ploidy calculation in plant cycles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base ploidy",
+     "explain": "Determine if the given part is haploid (n) or diploid (2n).",
+     "compute": "n_value = input_chromosomes"
+    },
+    {
+     "step": 2,
+     "action": "Apply the generation multiplier",
+     "explain": "Multiply by 2 for sporophytic tissue or divide by 2 for gametophytic tissue.",
+     "compute": "result = n_value * 2"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result against the life cycle stage",
+     "explain": "Confirm the computed value matches the expected ploidy: sporophyte stages (zygote, capsule, rhizome) are diploid (2n), while gametophyte stages (protonema, prothallus) are haploid (n).",
+     "compute": "final_answer = result"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo103.txt lines 155-165",
+   "concept": "kebo.103.11",
+   "question_type": "compute",
+   "question_pattern": "A moss plant has {n_value} chromosomes in its protonema. Calculate the number of chromosomes in its zygote.",
+   "extracted_variables": {
+    "n_value": "chromosomes in haploid stage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify protonema ploidy",
+     "explain": "Protonema is part of the gametophyte stage, which is haploid (n).",
+     "compute": "n = n_value"
+    },
+    {
+     "step": 2,
+     "action": "Calculate zygote ploidy",
+     "explain": "The zygote is the first cell of the sporophyte generation and is diploid (2n).",
+     "compute": "zygote = n * 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo103.txt Table 3.1",
+   "concept": "kebo.103.5",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the class of an alga that contains Chlorophyll a, c and Fucoxanthin.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Match pigments to class",
+     "explain": "Chlorophyll a and c combined with Fucoxanthin are characteristic of Phaeophyceae (Brown algae)."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo103.txt lines 155-165",
+   "concept": "kebo.103.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute ploidy calculation in plant cycles step by step",
+   "extracted_variables": {
+    "input_chromosomes": "value of input_chromosomes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the base ploidy",
+     "explain": "Determine if the given part is haploid (n) or diploid (2n).",
+     "compute": "n_value = input_chromosomes"
+    },
+    {
+     "step": 2,
+     "action": "Apply the generation multiplier",
+     "explain": "Multiply by 2 for sporophytic tissue or divide by 2 for gametophytic tissue.",
+     "compute": "result = n_value * 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "kebo103.txt lines 350-351",
+   "questions": [
+    "What is the basis of classification of algae?"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "kebo103.txt lines 355-358",
+   "questions": [
+    "Mention the ploidy of the following: protonemal cell of a moss; primary endosperm nucleus in dicot; leaf cell of a moss; prothallus cell of a fern; gemma cell in Marchantia; meristem cell of monocot; ovum of a liverwort; and zygote of a fern."
+   ]
+  },
+  {
+   "id": "ex3.7",
+   "source_ref": "kebo103.txt lines 362-363",
+   "questions": [
+    "What is heterospory? Briefly comment on its significance. Give two examples."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

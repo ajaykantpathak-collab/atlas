@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_003",
+   "title": "c12_biotech_cbse_11_003",
+   "questions": [
+    {
+     "q": "What is the primary physical principle behind the biolistics (gene gun) method for plant transformation?",
+     "a": "The primary principle is the acceleration of microscopic metal particles (microprojectiles) coated with DNA to high velocities using a force (helium pressure, electric discharge, or centrifugal force) so they penetrate plant cell walls and membranes, delivering the DNA into the cell. A wrong answer like 'DNA is injected using a needle' reveals confusion with microinjection; 'Agrobacterium transfers DNA' confuses it with biological transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why gold particles are preferred over tungsten particles in modern biolistics experiments.",
+     "a": "Gold is preferred because it is biologically inert, less toxic to cells, uniform in size, and does not oxidize, whereas tungsten can be toxic, oxidizes easily, and may cause cellular damage. A wrong answer stating 'gold is cheaper' or 'tungsten is heavier' shows misunderstanding of material properties and their biological impact.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to transform rice embryogenic callus using biolistics. The gene gun uses helium pressure of 1100 psi, and the target distance is 6 cm. If the acceleration distance is 2 cm, calculate the approximate velocity of the gold particles (density 19.3 g/cm³, diameter 1 μm) assuming ideal gas expansion and no drag. (Use: 1 psi = 6894.76 Pa, 1 atm = 101325 Pa). This is a multi-step physics application.",
+     "a": "Steps: 1) Convert pressure to Pascals: 1100 psi = 1100 × 6894.76 = 7,584,236 Pa. 2) Force on particle = pressure × cross-sectional area. Area = πr² = π(0.5×10⁻⁶)² = 7.85×10⁻¹³ m². Force = 7.58×10⁶ × 7.85×10⁻¹³ = 5.95×10⁻⁶ N. 3) Mass of particle = density × volume = 19300 kg/m³ × (4/3)π(0.5×10⁻⁶)³ = 1.01×10⁻¹⁴ kg. 4) Acceleration a = F/m = 5.95×10⁻⁶ / 1.01×10⁻¹⁴ = 5.89×10⁸ m/s². 5) Velocity v = √(2as) = √(2 × 5.89×10⁸ × 0.02) = √(2.356×10⁷) ≈ 4854 m/s. This is unrealistically high; actual velocities are 300-600 m/s due to gas dynamics and drag. A wrong answer ignoring drag or using wrong units shows lack of practical awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare biolistics and Agrobacterium-mediated transformation in terms of (a) host range, (b) transgene copy number, (c) integration pattern, and (d) suitability for chloroplast transformation.",
+     "a": "(a) Biolistics has broad host range (any tissue, any species); Agrobacterium limited to dicots and some monocots. (b) Biolistics often yields high copy number; Agrobacterium usually low copy (1-2). (c) Biolistics gives fragmented, rearranged inserts; Agrobacterium gives defined T-DNA borders. (d) Biolistics is the primary method for chloroplast transformation; Agrobacterium cannot transform chloroplasts. A wrong answer claiming Agrobacterium has broader host range or that biolistics gives single-copy inserts reveals confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Biolistics is the method of choice for generating commercial transgenic crops because it is more efficient than Agrobacterium.' Provide evidence for or against.",
+     "a": "The statement is false. While biolistics is essential for recalcitrant species (e.g., cereals), Agrobacterium is preferred for commercial crops when possible because it yields simpler integration patterns, lower copy number, and fewer epigenetic silencing issues, leading to stable expression. Most commercial transgenic crops (soybean, cotton, canola) were developed via Agrobacterium. A student agreeing with the statement overlooks regulatory and molecular quality concerns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a biolistics experiment to transform wheat immature embryos with a drought-tolerance gene. Specify: (i) target tissue preparation, (ii) particle coating protocol, (iii) bombardment parameters, (iv) selection and regeneration strategy. Justify each choice.",
+     "a": "(i) Isolate immature embryos (1.5-2 mm) 10-14 days post-anthesis, place on osmotic medium (0.4 M mannitol/sorbitol) 4 hrs pre- and post-bombardment to reduce plasmolysis. (ii) Coat 1 μm gold particles with plasmid DNA (1 μg DNA per 50 mg particles) using CaCl₂ and spermidine precipitation. (iii) Use PDS-1000/He system: 1100 psi rupture disk, 6 cm target distance, 27 in Hg vacuum, single shot per plate. (iv) Select on herbicide (e.g., bar gene with phosphinothricin) or antibiotic, regenerate via somatic embryogenesis on MS medium with 2,4-D then hormone-free. Justification: osmoticum improves survival; gold ensures low toxicity; parameters optimized for wheat; selection ensures transformant recovery. A poor answer omits osmotic treatment or uses inappropriate selection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

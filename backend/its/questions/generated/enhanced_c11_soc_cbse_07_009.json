@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_009",
+   "title": "c11_soc_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the core legal entitlement that MGNREGA provides to a rural household, and name the level of government primarily responsible for its implementation.",
+     "a": "MGNREGA guarantees 100 days of wage employment per financial year to every rural household willing to do unskilled manual work; implementation is primarily the responsibility of the Gram Panchayat (village-level local government). A wrong answer—such as \"200 days\" or \"implemented by the District Collector alone\"—reveals confusion with earlier wage programmes (like SGRY) or a misunderstanding of the Panchayati Raj framework that devolves planning and execution to the Gram Panchayat.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why MGNREGA is described as a 'rights-based' programme rather than a 'welfare scheme', and how this distinction affects the accountability of local officials.",
+     "a": "A rights-based programme creates a legally enforceable claim that the state must fulfil, allowing citizens to demand work and seek redress through social audits and grievance redressal mechanisms; a welfare scheme is discretionary and can be withdrawn without legal consequence. If a student says \"both are the same\" or \"rights-based means more money\", they miss the sociological shift from patronage (where officials 'give' benefits) to entitlement (where citizens 'claim' rights), which alters power relations between the bureaucracy and rural poor.",
+     "self_check": true
+    },
+    {
+     "q": "In a village where the dominant caste controls the only irrigation source, landless labourers previously accepted 150/day (below the state minimum of 250). After MGNREGA, the Gram Panchayat offers work at 250/day. Predict the likely change in the landlord's hiring behaviour and the labourers' bargaining power, using the concept of 'reservation wage'.",
+     "a": "The landlord must now offer at least 250/day to attract workers, because MGNREGA sets a binding reservation wage—the minimum wage a worker will accept. Labourers gain leverage to negotiate better terms or refuse exploitative conditions. A wrong answer claiming \"landlords will ignore MGNREGA because they are powerful\" ignores the structural shift: when an alternative legal employment exists at a higher wage, the monopsony power of the dominant caste erodes, as seen in field studies from Andhra Pradesh and Rajasthan.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Gram Panchayat in MGNREGA with its role in the earlier Jawahar Rozgar Yojana (JRY). Identify two structural differences in decision-making authority and accountability.",
+     "a": "Under JRY, the Gram Panchayat was an implementing agent for a centrally sponsored scheme with targets set above; under MGNREGA, the Gram Panchayat prepares the shelf of projects, selects works, and is accountable through mandatory social audits where workers publicly verify records. A student who says \"both are implemented by Panchayats\" misses the shift from top-down target-chasing to bottom-up planning with social audit—a key institutional innovation that empowers the Gram Sabha to monitor expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess the argument: \"MGNREGA has failed because corruption in muster rolls and delayed wage payments persist in many states.\" Use sociological criteria of programme evaluation (entitlement realization, power redistribution, asset creation).",
+     "a": "While implementation gaps exist, judging MGNREGA solely on leakage ignores its structural achievements: it established a justiciable right, increased agricultural wages by 15-20% in real terms (NSSO data), enhanced women's workforce participation, and created water conservation assets that benefit the entire village. A purely cynical answer overlooks how even imperfect entitlements shift the 'social order' by giving the poor a legal tool to contest exploitation—consistent with the chapter's view that social change is often incremental and contested.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini research question a sociologist could investigate to study MGNREGA's impact on gender relations in a specific village. Specify the hypothesis, two indicators, and the method of data collection.",
+     "a": "Research question: \"How does women's independent wage earnings under MGNREGA affect their participation in household decisions on children's education and healthcare?\" Hypothesis: Women who work ≥50 days/year under MGNREGA have greater say in such decisions. Indicators: (1) share of women in MGNREGA person-days; (2) women's self-reported decision-making index. Method: Mixed-methods—survey of 100 households + focus group discussions with women workers. A weak answer would propose a yes/no question without measurable indicators or ignore the need for comparative data (e.g., non-MGNREGA households).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

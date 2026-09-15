@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_001",
+   "title": "c10_geo_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the approximate percentage of India's workforce engaged in agriculture according to the latest Periodic Labour Force Survey (2022-23), and the sector's share in Gross Value Added (GVA) for 2023-24.",
+     "a": "Correct answer: Workforce engagement ~43% (PLFS 2022-23); GVA share ~18% (2023-24, First Advance Estimates). A wrong answer (e.g., \"60% workforce, 30% GDP\") reveals the student is recalling outdated textbook figures (often from 2011 Census or older NCERT editions) and has not updated with current government data — a common board exam error where examiners expect latest Economic Survey/PLFS numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why agriculture's share in India's GDP has declined from over 50% at Independence to around 18% today, even though total foodgrain production has increased from ~50 million tonnes to over 330 million tonnes.",
+     "a": "Correct answer: The decline is a *relative* share effect — industry and services sectors have grown much faster (higher growth rates), so agriculture's *percentage* of total GDP falls even while its *absolute* output rises. This is a structural transformation typical of developing economies. A wrong answer (\"production has fallen\" or \"farmers are leaving agriculture so output drops\") shows the student confuses relative share with absolute output and misses the core concept of structural change taught in Class 9 Economics (not in prior geography nodes but essential for board answers).",
+     "self_check": true
+    },
+    {
+     "q": "Given that India exported agricultural products worth ₹3.12 lakh crore in 2023-24 (approx. 11% of total exports), calculate the approximate total merchandise export value. Then name the top three agricultural export items by value.",
+     "a": "Step 1: Agricultural exports = ₹3.12 lakh crore = 11% of total exports.\nStep 2: Total exports = (3.12 lakh crore / 11) × 100 = ₹28.36 lakh crore (approx).\nStep 3: Top three agri exports by value (2023-24): Basmati rice, non-basmati rice, and marine products (shrimp/fish).\nA wrong calculation (e.g., multiplying instead of dividing) or naming \"wheat, cotton, tea\" (which are not top by *value* currently) reveals the student cannot apply percentage reasoning to real trade data and relies on outdated crop lists.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of agriculture in providing raw materials to industries in two regions: (i) Punjab-Haryana belt and (ii) Maharashtra-Gujarat belt. Link each to specific crops and industries.",
+     "a": "Correct answer: (i) Punjab-Haryana: wheat & paddy → food processing (flour mills, rice mills), straw → paper/board industry; cotton (minor) → textile units. (ii) Maharashtra-Gujarat: cotton → massive textile clusters (Mumbai, Ahmedabad, Surat); sugarcane → sugar mills + ethanol distilleries; groundnut → oil mills. A wrong answer that swaps crops (e.g., \"Punjab grows cotton for textiles\") shows the student cannot spatially link cropping patterns (Class 6/7) to industrial geography — a frequent map-based board question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Food security in India is achieved solely because agriculture produces enough foodgrains.\" Provide two arguments against this view using concepts of buffer stocks, PDS, and economic access.",
+     "a": "Correct evaluation: The statement is *false*. Food security has three dimensions: (1) Availability (production + imports + buffer stocks) — India has surplus production. (2) Access (economic & physical) — PDS (c10_geo_cbse_04_009) distributes subsidised grain, but leakages and exclusion errors persist; many poor cannot afford even subsidised prices. (3) Utilisation (nutrition, sanitation) — high malnutrition (NFHS-5) shows calories alone aren't enough. A student who only cites production figures misses the *access* and *utilisation* pillars — a classic board exam case-study trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic for a Class 10 exhibition titled \"Agriculture: India's Backbone in 2024\". It must include: (a) one key statistic each for GDP share, workforce, export share, and foodgrain production; (b) a flowchart showing agriculture → raw material → industry → employment; (c) one challenge (e.g., fragmented holdings) and one reform (e.g., FPOs).",
+     "a": "Expected answer: A visually clear infographic with: (a) GDP 18%, Workforce 43%, Agri exports 11% of total, Foodgrains 330+ MT. (b) Flowchart: Smallholder farms → Aggregation (FPOs/mandis) → Agro-processing (textiles, sugar, dairy) → Industrial jobs + Urban demand. (c) Challenge: 86% holdings <2 ha (fragmentation); Reform: Farmer Producer Organisations (FPOs) for collective bargaining. A poor answer that only draws a farm picture without data or linkages shows the student cannot synthesise quantitative and qualitative aspects — a competency-based question skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

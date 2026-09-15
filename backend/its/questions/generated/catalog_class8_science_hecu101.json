@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class8_science_hecu101.json",
+ "concepts": [
+  {
+   "id": "hecu.101.1.1",
+   "title": "Science Begins with Wonder and Questions",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does science begin with wonder?",
+     "a": "Noticing puzzles - why do stars twinkle, why does bread rise - starts the questions that science answers.",
+     "self_check": true
+    },
+    {
+     "q": "Give one everyday question that science can answer.",
+     "a": "Why does ice float on water? (Ice is less dense than liquid water.)",
+     "self_check": true
+    },
+    {
+     "q": "What does studying science teach us besides facts?",
+     "a": "It teaches us to observe carefully, test ideas and reason from evidence.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.101.1.2",
+   "title": "The Process of Investigation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What steps does a scientific investigation follow?",
+     "a": "Observe, question, guess (hypothesise), test with an experiment, record, and conclude.",
+     "self_check": true
+    },
+    {
+     "q": "Why must results be recorded honestly?",
+     "a": "Science depends on truth - false records mislead everyone and collapse when retested.",
+     "self_check": true
+    },
+    {
+     "q": "What is a fair test?",
+     "a": "An experiment where only one factor changes at a time, so its true effect shows.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.101.1.3",
+   "title": "Everyday Puzzles as Scientific Problems",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Give one puzzle of daily life that science solved.",
+     "a": "Why milk sours - microbes ferment it; refrigeration slows them down.",
+     "self_check": true
+    },
+    {
+     "q": "Name a question about the sky that science answers.",
+     "a": "Why day and night alternate - the earth rotates once every 24 hours.",
+     "self_check": true
+    },
+    {
+     "q": "How can small puzzles at home lead to big science?",
+     "a": "Curious questions about mould, rust or shadows lead to experiments, and many discoveries began this way.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.101.1.4",
+   "title": "Roots and Kites: The Attitude of a Young Scientist",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What qualities does a young scientist need?",
+     "a": "Curiosity, patience, honesty, careful observation and the courage to be wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it fine for an experiment to fail?",
+     "a": "Failures remove wrong guesses and teach what to test next - every scientist fails first.",
+     "self_check": true
+    },
+    {
+     "q": "What does 'roots and kites' suggest about a scientist's attitude?",
+     "a": "Stay rooted in evidence and humble, but let imagination fly like a kite while asking questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

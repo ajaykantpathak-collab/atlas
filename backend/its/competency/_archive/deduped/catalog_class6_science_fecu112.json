@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Beyond Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.12.1",
+   "title": "Stars and Constellations",
+   "section": "Stars and constellations",
+   "definition": "The night sky glitters with countless stars, suns of great distances; long ago people joined bright stars into patterns called constellations, naming them after hunters, bears and heroes to map the sky.",
+   "formula": "",
+   "key_idea": "Constellations are sky-signposts: remembered patterns that help us find our way among the stars.",
+   "textbook_ref": "fecu112.txt, Stars and constellations",
+   "question_patterns": [
+    "what is a constellation",
+    "name some constellations visible in the night sky",
+    "why did people name patterns of stars",
+    "how can you find the pole star",
+    "why do stars appear to move across the night sky",
+    "draw the constellation you found in the sky"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.2",
+   "title": "Watching the Night Sky",
+   "section": "Night sky watching",
+   "definition": "Sky watching needs only dark, clear nights and patience: go away from city lights, let eyes adjust, find patterns with the help of star charts, and record what you see each night.",
+   "formula": "",
+   "key_idea": "Astronomy begins at home: regular watching turns the sky from noise into a map you can read.",
+   "textbook_ref": "fecu112.txt, Night sky watching",
+   "question_patterns": [
+    "how should we prepare for night sky watching",
+    "why are stars better seen away from city lights",
+    "record the positions of stars over a few hours",
+    "how does the night sky change with seasons",
+    "which star does not appear to move at night",
+    "make your own sky watching diary"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.3",
+   "title": "Our Solar System",
+   "section": "Solar system",
+   "definition": "The sun sits at the centre of our solar system with eight planets circling it, Mercury to Neptune, joined by moons, asteroids and comets; earth is the third planet, the one known to hold life.",
+   "formula": "solar system = sun + 8 planets + moons + asteroids + comets",
+   "key_idea": "One star, many worlds: the sun's gravity holds every planet in its appointed path.",
+   "textbook_ref": "fecu112.txt, Solar system",
+   "question_patterns": [
+    "name the planets in order from the sun",
+    "which is the largest planet of the solar system",
+    "why is earth called a special planet",
+    "what are asteroids and comets",
+    "how many planets are there in the solar system",
+    "which planets are called inner planets and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.4",
+   "title": "The Milky Way and the Universe",
+   "section": "Milky Way and universe",
+   "definition": "Our sun is one star among billions gathered in the Milky Way galaxy, a band of light across the night sky; and the Milky Way itself is one galaxy among countless others, all together forming the universe.",
+   "formula": "",
+   "key_idea": "Scale upon scale: earth to solar system to galaxy to universe, each step beyond imagining, yet all real.",
+   "textbook_ref": "fecu112.txt, Milky Way and universe",
+   "question_patterns": [
+    "what is the milky way",
+    "why does the milky way appear as a band of light",
+    "what is a galaxy",
+    "how many stars does the milky way hold",
+    "what lies beyond our galaxy",
+    "compare the size of earth with the universe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu112.txt",
+   "concept": "fecu.12.1",
+   "question_type": "verify_property",
+   "question_pattern": "what did yangdol and dorjay love about their surroundings in nubra?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu112.txt",
+   "concept": "fecu.12.2",
+   "question_type": "verify_property",
+   "question_pattern": "which constellations can you locate in the night sky?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu112.txt, Let us enhance our learning",
+   "questions": [
+    "What did Yangdol and Dorjay love about their surroundings in Nubra?",
+    "Which constellations can you locate in the night sky?",
+    "Describe our solar system with the sun and its planets.",
+    "Draw the sky you see at night and mark the patterns you find.",
+    "Identify planets and constellations using a sky chart for the month."
+   ]
+  }
+ ]
+}

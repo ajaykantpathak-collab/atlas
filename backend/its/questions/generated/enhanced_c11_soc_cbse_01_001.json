@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_001",
+   "title": "c11_soc_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define the 'dialectical relationship' between individual and society in your own words, using the example of subject choice in Class 11.",
+     "a": "The dialectical relationship means society shapes the individual (e.g., job market trends, parental pressure, gender norms limit subject choices) while individuals collectively shape society (e.g., if many students choose Arts, universities expand humanities departments; student protests change education policy). A wrong answer that says 'society controls everything' or 'individuals have total free will' reveals a one-sided, non-dialectical understanding — missing the mutual constitution central to sociology.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Unemployment is a personal trouble because the person didn't study hard enough.\" Using C. Wright Mills' distinction, explain why this is a common sense explanation and how a sociological imagination would reframe it.",
+     "a": "Common sense sees unemployment as individual failure (laziness, bad choices) — a 'naturalistic' explanation. Sociological imagination sees it as a public issue: when factories close due to globalisation, or automation reduces jobs, or economic policy shifts — unemployment becomes a structural pattern affecting millions, not individual character flaws. A wrong answer that only blames the individual or only blames 'the system' without connecting biography to history misses Mills' core insight: \"Neither the life of an individual nor the history of a society can be understood without understanding both.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'relevant society' to this situation: A Dalit student in a metropolitan city applies for a corporate job. Identify at least three different 'societies' she belongs to simultaneously and explain how each might evaluate her 'merit' differently.",
+     "a": "Three relevant societies: (1) Corporate professional society — evaluates merit by degrees, skills, English fluency, interview performance. (2) Caste community — may value collective advancement, see her success as community pride or 'betrayal' if she doesn't 'give back.' (3) Family/kinship network — may prioritize marriage, stability, proximity over career ambition. A wrong answer listing only one society (e.g., 'Indian society') misses the NCERT's key point: in modern times we belong to multiple, overlapping societies with conflicting norms, and inequality operates differently in each.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'naturalistic explanation' of poverty (\"poor people are lazy and budget badly\") with the sociological explanation (\"poverty is caused by the structure of inequality in class society\"). Identify the specific analytical move sociology makes that common sense does not.",
+     "a": "Sociology shifts the unit of analysis from individual attributes (laziness, intelligence) to structural relations (class structure, irregular work, low wages, property relations). It asks: \"How is the economy organised such that some must sell labour power cheaply?\" rather than \"Why is this person poor?\" A wrong answer that says 'sociology blames society instead of the person' misses the point — sociology doesn't assign blame; it identifies causal mechanisms at the structural level that common sense renders invisible by individualising.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The sociological imagination is just a fancy term for 'thinking about society.' Anyone who reads the news has it.\" Defend your position using Berger's 'sociologist as spy' metaphor and the distinction between common sense and sociological knowledge.",
+     "a": "The statement is false. Common sense is unreflective — it doesn't question its own origins (\"Why do I think poor people are lazy?\"). The sociological imagination requires systematic doubt: the sociologist-as-spy reports what is actually there, not what ideology demands. Reading news gives opinions; sociological imagination requires empirical investigation, conceptual tools (troubles/issues, structure/agency), and willingness to find evidence that contradicts cherished beliefs. A wrong answer equating the two reveals confusion between 'having opinions about society' and 'doing sociology' — a core NCERT distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example (not from the textbook) showing an 'unintended consequence' of a well-intentioned social policy, similar to the Kargil compensation case. Explain the structural mechanism that produced the unintended outcome.",
+     "a": "Example: A state government reserves 50% seats in government colleges for girls to promote gender equity. Unintended consequence: families in rural areas marry off daughters earlier (at 17-18) so they qualify as 'students' for the quota, then withdraw them after admission. Structural mechanism: patrilineal kinship + marriage market logic + policy design that didn't account for how families strategically use rules. A poor example would be a simple 'policy failure' without identifying the pre-existing social structure (kinship, gender norms) that the policy interacted with.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

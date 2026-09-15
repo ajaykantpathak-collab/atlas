@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 105,
+  "chapter_title": "Pappachi's Moth",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww105.1.1",
+      "title": "Pappachi: Bitter Imperial Entomologist",
+      "section": "1",
+      "definition": "Arundhati Roy sketches Reverend E. John Ipe, called Pappachi, a high-ranking entomologist in the imperial service -- proud, aging, and embittered. His grievance is a moth he discovered and named after himself, which science later denied him, reclassifying it as a subspecies of an existing one.",
+      "formula": "",
+      "key_idea": "A moth denied, a man defined -- Pappachi's thwarted discovery curdles into lifelong rage.",
+      "textbook_ref": "keww105.txt pappachi sections (entomologist in imperial service, the moth discovered, reclassified as subspecies, bitterness and envy)",
+      "question_patterns": [
+        "who was pappachi and what was his profession",
+        "in class 11 pappachi's moth: what grievance consumed pappachi",
+        "what happened to the moth pappachi discovered",
+        "why did the reclassification destroy pappachi's happiness",
+        "describe pappachi's character in the story",
+        "how did pappachi treat mammachi and why"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the discovery",
+          "explain": "Pappachi finds a new moth and believes a species will carry his name forever."
+        },
+        {
+          "step": 2,
+          "action": "note the denial",
+          "explain": "Years later science declares it a subspecies -- the recognition, and immortality, are withdrawn."
+        },
+        {
+          "step": 3,
+          "action": "watch the poison spread",
+          "explain": "Denied his moth, he turns his fury inward on his household, beating Mammachi nightly with a brass vase."
+        }
+      ]
+    },
+    {
+      "id": "keww105.1.2",
+      "title": "Mammachi's Pickles and the Sweet Reversal",
+      "section": "1",
+      "definition": "Beside the failed scientist stands Mammachi, Pappachi's wife, who turns her skill into Paradise Pickles and Preserves -- an enterprise that thrives and makes her known. The man denied scientific immortality watches his wife earn the recognition his moth refused him, deepening his envy.",
+      "formula": "",
+      "key_idea": "Pickles versus papers -- domestic enterprise outshines scientific ambition, and envy sours further.",
+      "textbook_ref": "keww105.txt mammachi sections (paradise pickles and preserves, mammachi's success, pappachi's envy of her recognition)",
+      "question_patterns": [
+        "how did mammachi build her pickle business",
+        "in class 11 pappachi's moth: why did mammachi's success annoy pappachi",
+        "compare pappachi's achievement with mammachi's",
+        "what does the pickle venture say about mammachi's character",
+        "how does the story contrast male pride with female enterprise",
+        "why is the success of paradise pickles significant for mammachi"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the enterprise",
+          "explain": "Mammachi converts her recipes into a branded business with jars, labels and a growing name."
+        },
+        {
+          "step": 2,
+          "action": "note the irony",
+          "explain": "The wife Pappachi beats gains public recognition precisely as his own name is erased from science."
+        },
+        {
+          "step": 3,
+          "action": "read the reversal",
+          "explain": "Roy's quiet gender irony: domestic skill, not imperial science, achieves lasting recognition."
+        }
+      ]
+    },
+    {
+      "id": "keww105.1.3",
+      "title": "The Moth on the Wall: Symbol of Pappachi's Rage",
+      "section": "1",
+      "definition": "After Pappachi's death the moth survives as symbol: his taxidermied specimen sits on Mammachi's wall, and Rahel later imagines Pappachi's Moth as a dark presence in the family's heart, spreading its wings of resentment across generations -- the way denied pride breeds domestic violence.",
+      "formula": "",
+      "key_idea": "The moth never dies -- pinned on the wall and unborn in the heart, it outlives its discoverer as a symbol of poisonous pride.",
+      "textbook_ref": "keww105.txt symbol sections (mounted moth on the wall, rahel's imagining of the moth, symbol of bitterness and violence across generations)",
+      "question_patterns": [
+        "what does pappachi's moth symbolise in the story",
+        "in class 11 pappachi's moth: why does rahel imagine the moth in the family's heart",
+        "how does the mounted moth on the wall function as a symbol",
+        "explain the link between pappachi's bitterness and domestic violence",
+        "how does the moth connect past and future generations",
+        "is the moth a character or a symbol discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "find the physical moth",
+          "explain": "The pinned specimen hangs on Mammachi's wall -- a trophy of failure on display."
+        },
+        {
+          "step": 2,
+          "action": "find the inner moth",
+          "explain": "Rahel pictures Pappachi's Moth as a dark shape spreading its wings in the chest -- inherited rage."
+        },
+        {
+          "step": 3,
+          "action": "state the meaning",
+          "explain": "Roy makes the insect a symbol of how wounded pride propagates itself through a family."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww105.txt pappachi sections",
+      "concept": "keww105.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Explain why the reclassification of the moth mattered more to Pappachi than the moth itself.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "separate insect from name",
+          "explain": "The moth's real damage was never its wings but the denial of Pappachi's immortalisation."
+        },
+        {
+          "step": 2,
+          "action": "read his pride",
+          "explain": "His vanity needed a species bearing his name -- scientific legacy as personal trophy."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Reclassification meant public erasure; his bitterness at that erasure poisons the whole household."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww105.txt mammachi sections",
+      "concept": "keww105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Show how Mammachi's pickle business functions as a quiet reversal of power in the household.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note her rise",
+          "explain": "Paradise Pickles gives Mammachi income, identity and public praise."
+        },
+        {
+          "step": 2,
+          "action": "note his fall",
+          "explain": "Simultaneously Pappachi loses the scientific name he craved -- a perfect inversion."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The beaten wife becomes the family's real achiever -- Roy's irony against patriarchy."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Comment on the significance of the moth in the story.",
+        "Sketch the character of Pappachi.",
+        "How does Mammachi's pickle business change the family equations?",
+        "What does the story say about the link between frustrated pride and violence?",
+        "How does Roy connect the moth to future generations?",
+        "Discuss the role of envy in Pappachi's Moth."
+      ]
+    }
+  ]
+}

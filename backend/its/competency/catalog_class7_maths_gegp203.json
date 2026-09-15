@@ -1,0 +1,237 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Finding Common Ground",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.3.1",
+   "title": "The Greatest of All: Factors in Common",
+   "section": "Finding Common Ground",
+   "definition": "Two numbers often share factors, and their greatest common factor is the largest number that divides both exactly; Sameeksha's house-building question in the chapter asks exactly for such a common measure.",
+   "formula": "",
+   "key_idea": "Common ground between numbers is measured by their greatest shared factor: the biggest ruler that measures both.",
+   "textbook_ref": "gegp203.txt, Finding Common Ground",
+   "question_patterns": [
+    "what is the greatest common factor of 12 and 18",
+    "list all factors of 20 and of 30 and mark the common ones",
+    "why is the greatest common factor useful for sharing",
+    "find a number that divides both 24 and 36 exactly",
+    "which is greater the gcf or any other common factor",
+    "solve the house building question using common factors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.3.2",
+   "title": "HCF from Common Prime Factors",
+   "section": "HCF by prime factorisation",
+   "definition": "Factor both numbers into primes and multiply only the primes they share, at the lowest power each appears: the product is the HCF, the greatest of all common factors.",
+   "formula": "hcf = p * q",
+   "key_idea": "Common ground lives in shared primes: multiply the shared ones and nothing bigger can divide both.",
+   "textbook_ref": "gegp203.txt, HCF by prime factorisation",
+   "question_patterns": [
+    "find the hcf of 12 and 18 using prime factors",
+    "find the hcf of 20 and 30",
+    "why does multiplying shared primes give the greatest common factor",
+    "find the hcf of 16 and 28",
+    "which primes are common to 45 and 60",
+    "use the hcf to reduce the fraction 12/18"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "factor both numbers",
+     "explain": "Write each number as a product of primes.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply the shared primes",
+     "explain": "The product of the common primes is the HCF.",
+     "compute": "hcf = p * q"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.3.3",
+   "title": "Using the HCF in Problems",
+   "section": "Applications of HCF",
+   "definition": "The HCF solves sharing problems: the largest equal piece both lengths can be cut into, the biggest group size that splits two teams exactly, all answered by the greatest common factor.",
+   "formula": "",
+   "key_idea": "Whenever a question says biggest equal share, the HCF is the tool waiting to be used.",
+   "textbook_ref": "gegp203.txt, Applications of HCF",
+   "question_patterns": [
+    "two ribbons of 24 cm and 36 cm are cut into equal longest pieces find the length",
+    "find the biggest number dividing both 48 and 60",
+    "why does the hcf give the largest equal share",
+    "two bells ring together again after how many minutes use hcf or lcm and discuss",
+    "solve the given sharing problem with the hcf",
+    "make a word problem whose answer is the hcf of two numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.3.4",
+   "title": "Primes Help Find Common Ground",
+   "section": "Primes and common factors",
+   "definition": "Prime factorisation is the honest way to see common ground: primes cannot be split further, so the shared primes show up plainly, and numbers sharing no prime at all are called co-prime.",
+   "formula": "",
+   "key_idea": "Co-prime pairs share no prime: their only common factor is 1, the smallest possible common ground.",
+   "textbook_ref": "gegp203.txt, Primes and common factors",
+   "question_patterns": [
+    "are 8 and 15 co prime check",
+    "find the common prime factors of 30 and 42",
+    "what does co prime mean",
+    "write the prime factorisation of 36 and 48",
+    "which pairs in the given list are co prime",
+    "why are primes the right tools for finding common factors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp203.txt",
+   "concept": "gegp2.3.2",
+   "question_type": "compute",
+   "question_pattern": "The numbers 12 and 18 share the common prime factors 2 and 3. Find their HCF.",
+   "extracted_variables": {
+    "p": "first common prime factor",
+    "q": "second common prime factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the common primes",
+     "explain": "Both factorisations contain a 2 and a 3.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply the common primes",
+     "explain": "The product of the common primes is the greatest common factor.",
+     "compute": "hcf = p * q"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp203.txt",
+   "concept": "gegp2.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find the HCF of 20 and 30, whose common prime factors are 2 and 5.",
+   "extracted_variables": {
+    "p": "first common prime factor",
+    "q": "second common prime factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the common primes",
+     "explain": "Both numbers carry one 2 and one 5 in their factor trees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "multiply the common primes",
+     "explain": "2 times 5 is the greatest factor the two numbers share.",
+     "compute": "hcf = p * q"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp203.txt",
+   "concept": "gegp2.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "find the hcf of 20 and 30 using prime factors.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp203.txt, Figure it Out",
+   "questions": [
+    "Find the HCF of 12 and 18.",
+    "Find the HCF of 20 and 30 using prime factors.",
+    "Two ribbons of 24 cm and 36 cm are cut into equal longest pieces; find the length.",
+    "Are 8 and 15 co-prime? Check.",
+    "List the common factors of 20 and 30."
+   ]
+  }
+ ]
+}

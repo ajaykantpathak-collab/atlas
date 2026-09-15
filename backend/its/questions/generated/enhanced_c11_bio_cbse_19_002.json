@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_002",
+   "title": "c11_bio_cbse_19_002",
+   "questions": [
+    {
+     "q": "Name the two iodinated hormones secreted by the thyroid follicular cells and state the essential dietary element required for their synthesis.",
+     "a": "The thyroid follicular cells secrete thyroxine (T4) and triiodothyronine (T3); iodine is the essential dietary element required for their synthesis. A wrong answer (e.g., naming calcitonin as an iodinated hormone or stating iron is needed) reveals confusion between thyroid hormone types and the specific role of iodine in thyronine structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person living in the Himalayan foothills with no access to iodized salt develops a goitre, linking the dietary deficiency to the hormonal feedback loop.",
+     "a": "Iodine deficiency reduces T3/T4 synthesis → low blood T3/T4 removes negative inhibition on hypothalamus and anterior pituitary → increased TRH and TSH secretion → sustained TSH stimulation causes thyroid follicular hypertrophy and hyperplasia → visible goitre. A wrong answer that omits the feedback loop (e.g., \"thyroid enlarges to trap more iodine\" without mentioning TSH) shows lack of understanding of the hypothalamic-pituitary-thyroid axis.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a blood calcium level of 8.5 mg/dL (normal 9-11 mg/dL). Predict which hormone's secretion will increase and describe its three target organs and actions to restore calcium homeostasis.",
+     "a": "Low blood Ca²⁺ stimulates parathyroid chief cells to secrete PTH. PTH acts on: (1) bones – stimulates osteoclasts to resorb bone matrix releasing Ca²⁺; (2) kidneys – enhances Ca²⁺ reabsorption in distal tubules and increases 1,25-dihydroxyvitamin D₃ synthesis; (3) intestine – via vitamin D, increases Ca²⁺ absorption from digested food. A wrong answer that names calcitonin or omits the renal vitamin D step reveals misunderstanding of the hypercalcemic hormone and its indirect intestinal action.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of calcitonin and PTH in calcium homeostasis, including their cellular sources, stimuli for secretion, and overall effect on blood calcium.",
+     "a": "Calcitonin is secreted by thyroid parafollicular (C) cells in response to high blood Ca²⁺; it inhibits osteoclast activity and increases renal Ca²⁺ excretion, lowering blood Ca²⁺. PTH is secreted by parathyroid chief cells in response to low blood Ca²⁺; it stimulates osteoclasts, renal reabsorption, and vitamin D synthesis, raising blood Ca²⁺. They are antagonistic. A wrong answer that swaps the stimuli or states both increase blood calcium shows confusion about the direction of each hormone's action and the concept of antagonistic regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Cretinism and myxoedema are both caused by hypothyroidism, so they have identical symptoms and age of onset.\" Justify your evaluation.",
+     "a": "The statement is false. Cretinism results from hypothyroidism during fetal/neonatal development (maternal iodine deficiency or congenital defect) causing irreversible stunted growth, mental retardation, deaf-mutism, and abnormal skin. Myxoedema occurs in adults, causing puffy skin, low metabolic rate, weight gain, cold intolerance, and menstrual irregularities. The difference lies in the critical developmental window: thyroid hormones are essential for CNS maturation and skeletal growth in early life. A wrong answer that treats them as identical ignores the developmental role of thyroid hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dietary intervention study to test whether iodized salt prevents goitre in a village population, specifying the control group, duration, and measurable outcome.",
+     "a": "Randomly assign households to receive either iodized salt (intervention) or non-iodized salt (control) for 12 months. Measure thyroid volume by ultrasound and urinary iodine concentration at baseline, 6 months, and 12 months. Outcome: reduction in goitre prevalence and increased urinary iodine in intervention group. A poor design (e.g., no control group, short duration, only self-reported neck swelling) reveals inability to apply experimental design principles to a public health nutrition problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

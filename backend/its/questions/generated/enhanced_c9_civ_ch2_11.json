@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_11",
+   "title": "c9_civ_ch2_11",
+   "questions": [
+    {
+     "q": "Define \"misinformation\" in the specific context of Indian elections and name one constitutional article that guarantees the freedom which misinformation exploits but also requires reasonable restrictions.",
+     "a": "Misinformation in elections is the spread of false or misleading information (fake news, deepfakes, manipulated media) intended to manipulate voter behaviour. Article 19(1)(a) guarantees freedom of speech and expression, which allows political communication, but Article 19(2) permits reasonable restrictions on grounds like public order, defamation, and incitement to an offence — which are used to curb harmful election-related misinformation. A wrong answer (e.g., \"misinformation is just lying\" or citing Article 326) reveals the student confuses general falsehood with the specific electoral threat and doesn't connect the constitutional balance between free speech and regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why misinformation spread via encrypted messaging apps (like WhatsApp) poses a unique challenge to the Election Commission of India compared to misinformation in newspapers or TV news.",
+     "a": "Encrypted platforms prevent the Election Commission, fact-checkers, and law enforcement from monitoring the origin, reach, and content of viral misinformation in real time. Unlike print/TV (which are publicly observable and regulated by the Press Council/News Broadcasters Association), WhatsApp forwards are private, decentralized, and spread through personal networks, making source tracing and takedown nearly impossible during the critical 48-hour silence period before polling. A wrong answer focusing only on \"speed\" or \"volume\" misses the structural issue: **encryption breaks the accountability chain** that enables regulatory action.",
+     "self_check": true
+    },
+    {
+     "q": "A deepfake video of a candidate making hate speech goes viral 24 hours before polling in a sensitive constituency. The Returning Officer receives complaints. Apply the Model Code of Conduct (MCC) and the Representation of the People Act, 1951 to determine: (a) Can the RO order the video's removal? (b) What penalty can the candidate face if the video was created by their opponent's team?",
+     "a": "(a) Yes, under MCC guidelines and Section 126 of RP Act (prohibiting election matter during silence period), the RO can direct social media platforms to remove the video, though compliance depends on platform cooperation. (b) If the opponent's team created it, they can be charged under Section 171G (false statement in connection with election) and Section 505(2) IPC (statements creating enmity), plus IT Act sections for publishing false electronic records. The candidate featured is not liable unless complicit. A wrong answer (e.g., \"RO has no power over social media\" or \"candidate goes to jail\") shows ignorance of the EC's evolving digital powers and the distinction between creator liability and victim protection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of \"money power\" and \"misinformation power\" on electoral fairness. Which is more damaging to the *principle* of one person-one vote-one value? Justify.",
+     "a": "Money power creates unequal *campaign capacity* (bigger rallies, more ads), but voters still decide based on visible choices. Misinformation power corrupts the *cognitive basis* of the vote itself — voters choose based on lies, making the \"one value\" principle meaningless because the preference expressed is manufactured. Misinformation is more damaging to the principle because it hollows out the \"informed\" in \"informed consent,\" whereas money power merely tilts the playing field. A wrong answer equating them as \"both bad\" fails to analyze the *epistemic* vs *resource* distinction central to democratic theory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the Election Commission's \"Voluntary Code of Ethics\" for social media platforms (2019) as a response to election misinformation. Is voluntary self-regulation sufficient? Argue using the concept of \"level playing field.\"",
+     "a": "Voluntary codes are insufficient because they lack enforcement teeth, create inconsistent compliance across platforms, and cannot mandate algorithmic transparency or data access for auditors. A level playing field requires *uniform, binding rules* so that no party gains advantage by exploiting platform loopholes or paying for amplified reach of false content. The EC's later push for statutory backing (via proposed amendments to RP Act) confirms voluntary measures failed the \"effective safeguard\" test. A wrong answer praising the code as \"good first step\" without critiquing its structural weakness shows inability to evaluate institutional design against democratic standards.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step \"Voter Verification Protocol\" that a Class 9 student can use when they receive a sensational political claim on social media 48 hours before polling. Each step must use only tools accessible to a student (no specialized software).",
+     "a": "**Step 1: Source Trace** — Ask \"Who posted this originally?\" Check if the account is verified, official (ECI, PIB, party handle), or anonymous. **Step 2: Cross-Check** — Search the exact claim + \"fact check\" on Google; check reputable fact-check sites (Alt News, Boom, FactChecker.in) and the ECI's \"Myth vs Reality\" portal. **Step 3: Lateral Read** — Open 3 mainstream news sites (The Hindu, Indian Express, PIB) — if none report it, treat as unverified. **Do not forward until verified.** A poor answer suggesting \"ask parents\" or \"trust the forward count\" reveals reliance on authority/heuristics instead of critical verification habits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_008",
+   "title": "c11_eco_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define organic farming and state how it differs from conventional farming in terms of input use and ecological impact.",
+     "a": "Organic farming is a production system that avoids synthetic fertilisers, pesticides, GMOs, and growth regulators, relying on crop rotation, organic manures, biological pest control, and legumes to maintain soil fertility and ecological balance. Conventional farming uses synthetic chemical inputs (HYV seeds, chemical fertilisers, pesticides) which increase short-term yields but degrade soil health, contaminate water sources, harm biodiversity, and create pesticide residues in food. A wrong answer would define organic farming merely as \"farming without chemicals\" without mentioning the positive practices (crop rotation, green manure, biological control) that replace chemicals, or would confuse it with traditional farming which may not follow systematic organic principles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why organic farming is considered more labour-intensive than conventional farming and how this characteristic affects its suitability for the Indian context.",
+     "a": "Organic farming requires more labour for activities like compost preparation, manual weeding (since herbicides are prohibited), biological pest monitoring, green manure cultivation, and certification documentation. Conventional farming substitutes labour with chemical inputs (herbicides replace weeding labour, synthetic fertilisers replace compost-making labour). India has abundant labour but scarce capital - this makes organic farming's labour-intensity an advantage as it creates rural employment and reduces cash input costs for small farmers. A wrong answer would state only \"it needs more work\" without explaining the substitution mechanism (chemicals for labour) or would miss the Indian context of labour surplus/capital scarcity that makes this a comparative advantage.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab currently grows wheat using conventional methods on 4 hectares. His annual input costs are ₹25,000 per hectare (seeds, fertilisers, pesticides) and he gets 5 tonnes/hectare yield selling at ₹2,200/tonne. He considers switching to organic wheat. During the 3-year conversion period, yields drop to 3.5 tonnes/hectare with no premium price. After certification, yields recover to 4.5 tonnes/hectare and he gets a 20% price premium. Organic input costs are ₹15,000/hectare. Calculate the net profit difference per hectare between conventional and organic farming in Year 1 (conversion) and Year 4 (post-certification).",
+     "a": "**Year 1 (Conversion):**\n- Conventional: Revenue = 5 × 2,200 = ₹11,000; Cost = ₹25,000; Profit = -₹14,000 (loss)\n- Organic: Revenue = 3.5 × 2,200 = ₹7,700; Cost = ₹15,000; Profit = -₹7,300 (loss)\n- Difference: Organic loses ₹6,700 less per hectare\n\n**Year 4 (Post-certification):**\n- Conventional: Revenue = 5 × 2,200 = ₹11,000; Cost = ₹25,000; Profit = -₹14,000\n- Organic: Revenue = 4.5 × (2,200 × 1.2) = 4.5 × 2,640 = ₹11,880; Cost = ₹15,000; Profit = -₹3,120\n- Difference: Organic earns ₹10,880 more per hectare\n\nA wrong answer would forget to apply the 20% premium only post-certification, or would miscalculate revenue, or would not recognise that both systems show losses at these prices (highlighting the broader farm crisis). The key insight: organic reduces losses during conversion and becomes profitable earlier due to lower costs and premium prices.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the statement: \"Organic farming yields are lower than conventional farming, so it cannot feed India's growing population.\" Identify the economic and ecological fallacies in this argument.",
+     "a": "The argument contains three fallacies: (1) **Yield comparison ignores time horizon** - organic yields are lower only during the 2-3 year conversion period; long-term studies show comparable yields once soil biology recovers. (2) **Ignores total factor productivity** - conventional farming's \"high yields\" depend on depleting natural capital (soil organic matter, groundwater, biodiversity) which are not priced in market costs. Organic farming maintains natural capital. (3) **Confuses production with food security** - India already produces surplus foodgrains (buffer stocks >60 million tonnes); the problem is distribution, poverty, and waste (10%+ post-harvest losses), not absolute production. A wrong answer would accept the yield comparison at face value without questioning the sustainability of conventional yields or the difference between production and access.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Government should subsidise organic certification costs for small farmers to promote sustainable agriculture.\" Consider fiscal cost, equity, market access, and long-term ecological benefits in your evaluation.",
+     "a": "**Arguments for:** Certification costs (₹10,000-50,000) are prohibitive for marginal farmers (<1 ha). Subsidies correct market failure: organic farming generates positive externalities (reduced water pollution, soil carbon sequestration, biodiversity) not captured in market prices. It promotes equity by enabling small farmers to access premium markets. **Arguments against:** Fiscal burden on state; risk of capture by larger farmers; certification doesn't guarantee ecological outcomes if only \"input substitution\" is done without system redesign. **Balanced evaluation:** Targeted subsidies for marginal farmers (land <2 ha) combined with group certification (reducing per-farmer cost) and participatory guarantee systems (PGS) for local markets is more efficient than blanket subsidies. The subsidy should be time-bound (3-5 years) with graduation clauses. A poor answer would take a binary position without analysing the externality argument or the design of subsidy delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-year transition plan for a 2-hectare rainfed farm in Vidarbha, Maharashtra, currently growing cotton-soybean rotation with heavy chemical use. The farmer has ₹50,000 savings, no irrigation, and family labour of 3 adults. Include crop choices, input substitution strategy, certification pathway, and cash flow management.",
+     "a": "**Year 1-2 (Conversion):** Stop chemicals immediately. Introduce cotton + pigeon pea intercropping (nitrogen fixation), soybean + marigold (trap crop). Make compost from crop residues + cattle dung (needs 2-3 cows - can start with vermicompost using bought worms). Use neem-based biopesticides. Join PGS (Participatory Guarantee System) group for low-cost local certification. Cash flow: Use savings for compost setup (₹15,000); accept 30% yield drop; sell in local organic weekly market (10% premium). **Year 3:** Apply for NPOP (National Programme for Organic Production) third-party certification (group certification with 10 farmers splits cost to ₹5,000/farmer). Yields recover to 80% conventional. **Year 4-5:** Full certification achieved. Access export market via farmer producer company (20% premium). Diversify: add turmeric/ginger as high-value intercrops. Build soil carbon to improve water retention (critical for rainfed). **Key risk management:** Maintain 0.5 ha conventional as \"insurance\" during transition if cash flow critical. A poor answer would suggest unrealistic crops for rainfed Vidarbha, ignore certification economics, or not address the cash flow crisis during conversion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

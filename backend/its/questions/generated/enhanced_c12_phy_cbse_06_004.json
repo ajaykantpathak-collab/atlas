@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_004",
+   "title": "c12_phy_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the SI unit of self-inductance and write its dimensional formula. How does the self-inductance of a long solenoid change if its length is doubled while keeping the total number of turns and cross-sectional area constant?",
+     "a": "SI unit: henry (H) = Wb/A = V·s/A. Dimensions: [M L² T⁻² A⁻²]. For a long solenoid, L = μ₀N²A/l. If length l is doubled with N and A constant, L becomes half. A wrong answer (e.g., L doubles or stays same) reveals confusion between turns per unit length n = N/l and total turns N, or misunderstanding that L ∝ 1/l for fixed N.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical coaxial solenoids S₁ and S₂ of length l, cross-section A, and N turns each are placed such that S₁ is completely inside S₂. A student claims M₁₂ = M₂₁ = μ₀N²A/l. Is this correct? Explain using the reciprocity theorem and the formula for mutual inductance of coaxial solenoids.",
+     "a": "The claim is correct only if the solenoids have the same length and S₁ is fully inside S₂ with uniform field. For coaxial solenoids of same length l, M = μ₀n₁n₂πr₁²l = μ₀(N₁/l)(N₂/l)A₁l = μ₀N₁N₂A₁/l. Since they are identical, N₁ = N₂ = N, A₁ = A₂ = A, so M = μ₀N²A/l. Reciprocity M₁₂ = M₂₁ holds generally. A wrong answer (e.g., M depends on which coil is primary) reveals failure to grasp that mutual inductance is a geometric property of the pair, not the direction of current change.",
+     "self_check": true
+    },
+    {
+     "q": "A long solenoid of length 0.5 m, cross-sectional area 10 cm², and 1000 turns carries a current of 2.0 A. The current is reduced uniformly to zero in 0.1 s. Calculate (a) the self-inductance of the solenoid, (b) the magnitude of the average induced emf, and (c) the magnetic energy initially stored. (μ₀ = 4π × 10⁻⁷ H/m)",
+     "a": "Given: l = 0.5 m, A = 10 × 10⁻⁴ m² = 10⁻³ m², N = 1000, I_i = 2.0 A, I_f = 0, Δt = 0.1 s.\n(a) n = N/l = 2000 turns/m. L = μ₀n²Al = (4π × 10⁻⁷) × (2000)² × (10⁻³) × 0.5 = 4π × 10⁻⁷ × 4 × 10⁶ × 5 × 10⁻⁴ = 8π × 10⁻⁴ H ≈ 2.51 × 10⁻³ H.\n(b) |ε_avg| = L|ΔI|/Δt = (2.51 × 10⁻³) × 2.0 / 0.1 = 5.02 × 10⁻² V = 50.2 mV.\n(c) U = ½LI² = 0.5 × 2.51 × 10⁻³ × 4 = 5.02 × 10⁻³ J = 5.02 mJ.\nWrong units (e.g., forgetting to convert cm² to m²) or using n instead of N in L formula reveals unit conversion or formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Two concentric circular coils of radii r₁ = 2 cm and r₂ = 20 cm (r₁ ≪ r₂) are placed coaxially. The larger coil carries a current I₂ = 5.0 A. Calculate the mutual inductance M and the flux through the smaller coil. If the current in the larger coil is reversed in 0.01 s, find the average induced emf in the smaller coil. (μ₀ = 4π × 10⁻⁷ H/m)",
+     "a": "For r₁ ≪ r₂, field at center of large coil: B₂ = μ₀I₂/(2r₂). Flux through small coil: Φ₁ = B₂ × πr₁² = μ₀I₂πr₁²/(2r₂). M = Φ₁/I₂ = μ₀πr₁²/(2r₂) = (4π × 10⁻⁷ × π × (0.02)²) / (2 × 0.2) = (4π² × 10⁻⁷ × 4 × 10⁻⁴) / 0.4 = 4π² × 10⁻¹⁰ H ≈ 3.95 × 10⁻⁹ H.\nCurrent reversal: ΔI₂ = 10 A (from +5 to -5). |ε_avg| = M|ΔI₂|/Δt = 3.95 × 10⁻⁹ × 10 / 0.01 = 3.95 × 10⁻⁶ V = 3.95 μV.\nWrong answer using M = μ₀πr₂²/(2r₁) reveals confusion about which radius belongs to which coil in the approximation B₂ ≈ constant over small coil.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Self-inductance of a solenoid is 5 mH. Current changes from 2 A to 4 A in 0.1 s. Find induced emf.\" The student writes ε = -L(I_f - I_i)/Δt = -5 × 10⁻³ × (4-2)/0.1 = -0.1 V, then says \"magnitude is 0.1 V, direction opposes the increase in current.\" Is the solution fully correct? Identify any missing step or conceptual gap.",
+     "a": "The magnitude and direction statement are correct. However, the solution is incomplete for board exams: it must explicitly state Lenz's law — the induced emf opposes the *increase* in current, so its polarity is such that it would drive a current opposite to the increasing current if the circuit were closed. Also, the student should note that ε = -L(dI/dt) gives instantaneous emf; using average ΔI/Δt is valid only because the rate of change is constant (uniform change). A wrong answer ignoring the \"uniform rate\" condition or not linking direction to Lenz's law reveals superficial application of formula without physical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a solenoid, a battery, a switch, and an LED to demonstrate self-induction (back emf). Explain what you would observe when the switch is opened and why the LED might flash brightly at that moment but not when the switch is closed.",
+     "a": "Connect solenoid, battery, and switch in series. Connect LED (with a series resistor for protection) in parallel across the solenoid. Close switch: current builds up slowly due to back emf; LED does not light (voltage across solenoid ≈ battery voltage minus small resistive drop, but LED needs ~2 V forward bias; solenoid drop is small during buildup). Open switch: current tries to drop to zero rapidly, producing large back emf ε = -L(dI/dt) with polarity *adding* to battery voltage (trying to maintain current). This high voltage spike forward-biases the LED, causing a bright flash. Poor answer (e.g., LED flashes on closing) reveals misunderstanding that back emf opposes *change* — it opposes increase on closing (small dI/dt) but opposes decrease on opening (huge dI/dt due to sudden interruption).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

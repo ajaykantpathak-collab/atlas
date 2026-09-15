@@ -1,0 +1,189 @@
+---
+- formula_id: DRM_PHY_RULE_010
+  name: lens_maker_double_convex
+  latex: Rational(3, 2)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - lens_maker_double_convex
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: n
+  explanation: 'Lens maker''s formula: 1/f = (n-1)(1/R₁ - 1/R₂). For double convex
+    with f=R: R₁=R, R₂=-R → 1/R = (n-1)(2/R) → n = 3/2 = 1.5'
+- formula_id: DRM_PHY_RULE_011
+  name: lens_makers_general
+  latex: 1 / ((n - 1) \cdot (1/R1 - 1/R2))
+  variables:
+  - symbol: R1
+    name: R1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: R2
+    name: R2
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - lens_makers_general
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: f
+  explanation: 'Lens maker''s formula: 1/f = (n-1)(1/R₁ - 1/R₂)'
+- formula_id: DRM_PHY_RULE_012
+  name: de_broglie
+  latex: h / p
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - de_broglie
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: lambda
+  explanation: 'de Broglie wavelength: λ = h/p, where h = Planck''s constant, p =
+    momentum'
+- formula_id: DRM_PHY_RULE_013
+  name: photoelectric_energy
+  latex: h \cdot f - W
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - photoelectric_energy
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: KE
+  explanation: 'Photoelectric effect: KE = hf - W'
+- formula_id: DRM_PHY_RULE_014
+  name: drift_speed
+  latex: V / (n \cdot A \cdot e \cdot R)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - drift_speed
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: vd
+  explanation: 'Drift speed: v_d = V/(nAeR). Since v_d ∝ V, if V doubles, drift speed
+    doubles.'
+- formula_id: DRM_PHY_RULE_015
+  name: magnetic_field_coil
+  latex: mu0 \cdot N \cdot I / (2 \cdot R)
+  variables:
+  - symbol: mu0
+    name: mu0
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - magnetic_field_coil
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: B
+  explanation: 'Magnetic field at center of circular coil: B = μ₀NI/(2R)'
+- formula_id: DRM_PHY_RULE_016
+  name: coulombs_law
+  latex: k \cdot q1 \cdot q2 / r^2
+  variables:
+  - symbol: q1
+    name: q1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: q2
+    name: q2
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - coulombs_law
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: F
+  explanation: 'Coulomb''s law: F = k·q₁·q₂/r²'
+- formula_id: DRM_PHY_RULE_017
+  name: capacitor_energy
+  latex: Rational(1,2) \cdot C \cdot V^2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - capacitor_energy
+  related_formulas: []
+  source: dream_app/reasoning_rules_phy.py
+  unknown: E
+  explanation: 'Energy stored in a capacitor: U = ½CV²'

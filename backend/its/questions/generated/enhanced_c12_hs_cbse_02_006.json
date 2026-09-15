@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_006",
+   "title": "c12_hs_cbse_02_006",
+   "questions": [
+    {
+     "q": "Name the four fat-soluble vitamins and state the one common structural feature that makes them fat-soluble.",
+     "a": "The four fat-soluble vitamins are A, D, E, and K. Their common structural feature is the presence of long hydrocarbon side chains or ring systems with very few polar functional groups, making them highly non-polar and soluble in lipids but insoluble in water. A wrong answer (e.g., listing vitamin C or B-complex) reveals confusion between fat-soluble and water-soluble classification; omitting the structural reason shows rote memorisation without understanding the physicochemical basis of solubility.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a patient with obstructive jaundice (blocked bile duct) develops deficiencies of all four fat-soluble vitamins even if dietary intake is adequate.",
+     "a": "Bile salts are essential for forming mixed micelles that solubilise fat-soluble vitamins in the intestinal lumen. Obstructive jaundice prevents bile from reaching the duodenum, so micelles cannot form → vitamins remain unabsorbed → excreted in faeces. A wrong answer that only mentions \"fat malabsorption\" without linking to micelle formation shows incomplete mechanistic understanding; attributing it to liver storage failure misses the primary absorption defect.",
+     "self_check": true
+    },
+    {
+     "q": "A 6-year-old child presents with night blindness, Bitot's spots, and frequent respiratory infections. The child's diet is predominantly rice and lentils with negligible oil, ghee, or vegetables. (a) Identify the most likely vitamin deficiency. (b) Name two rich animal and two rich plant sources of this vitamin. (c) Explain why the low-fat diet worsens the deficiency.",
+     "a": "(a) Vitamin A deficiency. (b) Animal: liver, egg yolk, whole milk, butter. Plant: carrots, spinach, pumpkin, mango (β-carotene). (c) Vitamin A (as retinyl ester or β-carotene) requires dietary fat for micellar solubilisation and absorption; a very low-fat diet drastically reduces absorption efficiency. A wrong answer that cites only \"poor diet\" without the fat-absorption link misses the specific pathophysiological mechanism; confusing β-carotene with preformed vitamin A indicates lack of distinction between provitamin and active forms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the storage, excretion, and toxicity potential of fat-soluble vitamins versus water-soluble vitamins. Why does this difference matter for dietary planning?",
+     "a": "Fat-soluble vitamins are stored in liver/adipose tissue, excreted slowly via bile/faeces, and have high toxicity potential (hypervitaminosis A, D) with chronic excess. Water-soluble vitamins (except B12) have limited storage, are readily excreted in urine, and rarely cause toxicity. This matters because fat-soluble vitamins do not need daily intake (body stores buffer short gaps) but megadoses are dangerous; water-soluble vitamins need regular daily intake but are safer in supplements. A wrong answer that claims \"both are equally toxic\" or \"fat-soluble vitamins are excreted in urine\" reveals fundamental misunderstanding of pharmacokinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since vitamin D can be synthesised in the skin by sunlight, dietary sources are irrelevant for Indians living in tropical regions.\"",
+     "a": "The statement is flawed. Although UV-B converts 7-dehydrocholesterol to pre-vitamin D3 in skin, factors like melanin pigmentation, sunscreen use, clothing coverage, indoor lifestyle, air pollution, and aging drastically reduce cutaneous synthesis. Epidemiological data show >70% vitamin D deficiency in Indian urban populations despite ample sunlight. Dietary sources (fatty fish, egg yolk, fortified milk/oil) and supplementation are therefore essential. A wrong answer that agrees with the statement ignores the multifactorial determinants of cutaneous synthesis and the public health reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian meal plan for a 70-year-old woman with osteomalacia (vitamin D deficiency) that provides at least 600 IU vitamin D and 1000 mg calcium, using only foods commonly available in an Indian household. Include the fat source necessary for absorption in each relevant meal.",
+     "a": "Sample plan: Early morning: Fortified milk 200 mL (100 IU vit D, 240 mg Ca) + 5 almonds (fat). Breakfast: Besan chilla (gram flour) cooked in 5 g ghee + mint chutney. Lunch: Rajma (kidney beans) 1 katori + rice 1 katori + curd 1 katori (200 mg Ca) + 5 g ghee on rice. Evening: Fortified milk tea 150 mL (75 IU vit D) + 2 walnuts (fat). Dinner: Palak paneer (spinach + cottage cheese) 1 katori (250 mg Ca) + 2 rotis + 5 g ghee. Total vit D ≈ 175 IU from milk + ~400 IU from fortified oil (if used in cooking) = ~575 IU; add a 400 IU supplement if needed. Calcium ≈ 1000 mg. Each meal includes visible fat (ghee, nuts, oil) to ensure micellar absorption. A poor answer omits fat in meals, relies solely on unfortified foods, or ignores the need for supplementation in elderly with limited sun exposure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

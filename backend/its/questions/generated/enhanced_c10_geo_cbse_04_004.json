@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_004",
+   "title": "c10_geo_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the two main cropping seasons in India and state which season rice and wheat are primarily grown in.",
+     "a": "The two main cropping seasons are Kharif (monsoon season, June–October) and Rabi (winter season, October–March). Rice is a Kharif crop; wheat is a Rabi crop.  \nA wrong answer (e.g., saying wheat is Kharif) reveals the student has not internalised the seasonal linkage to monsoon and temperature — a fundamental error that leads to incorrect distribution mapping in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rice cultivation is concentrated in the eastern and coastal regions of India, while wheat dominates the north-western plains.",
+     "a": "Rice requires high temperature (above 25°C), high rainfall (150–300 cm) or assured irrigation, and clayey/alluvial soil that retains water — conditions met in the eastern plains (West Bengal, Odisha), coastal deltas (Andhra, Tamil Nadu), and the Terai region. Wheat requires cool winters (10–15°C at sowing, 20–25°C at harvest), moderate rainfall (50–75 cm) or irrigation, and well-drained loamy soil — conditions found in the north-western plains (Punjab, Haryana, western UP) where winter temperatures drop and canal/tube-well irrigation is available.  \nA wrong answer that only mentions \"rainfall\" or \"soil\" without linking temperature and season shows the student treats factors in isolation, not as an integrated agro-climatic package — a common reason for losing marks in \"explain the distribution\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in central Maharashtra (Deccan Plateau) wants to grow a cereal crop that can withstand dry conditions, high temperatures, and poor soils. Which of the four crops (Rice, Wheat, Maize, Millets) is most suitable? Justify using three specific geographical conditions.",
+     "a": "Millets (specifically Bajra or Jowar) are most suitable.  \nStep 1: Identify the region's characteristics — central Maharashtra lies in the rain-shadow area of the Western Ghats, receiving low rainfall (50–75 cm), has high temperatures, and shallow, less fertile regur/red soils.  \nStep 2: Recall crop requirements — Millets are drought-resistant, grow in 30–35°C, need only 40–60 cm rainfall, and thrive on inferior, sandy/shallow soils.  \nStep 3: Eliminate others — Rice needs high water; Wheat needs cool winters and irrigation; Maize needs moderate rainfall and fertile soil.  \nStep 4: Conclude — Millets match the harsh conditions.  \nA wrong choice (e.g., Maize) indicates the student knows millets are \"dry crops\" but cannot precisely match the quantitative thresholds (rainfall, temperature) — board exams often ask for \"justify with three conditions\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical reasons for the shift in wheat cultivation from traditional areas (Punjab, Haryana) to non-traditional areas (Madhya Pradesh, Rajasthan) in recent decades.",
+     "a": "Traditional wheat belt (Punjab/Haryana) benefits from: (1) assured irrigation (canals, tubewells), (2) cool winters, (3) fertile alluvial soil, and (4) Green Revolution infrastructure. The shift to MP and Rajasthan is driven by: (1) expansion of irrigation (Indira Gandhi Canal in Rajasthan, tube-wells in MP), (2) development of heat-tolerant, short-duration wheat varieties (e.g., HD-2967), (3) relatively cheaper land and labour, and (4) government procurement incentives. However, yields remain lower due to warmer winters and less reliable water.  \nA wrong answer that only says \"Green Revolution spread\" misses the interplay of technology (varieties), infrastructure (irrigation), and policy (MSP/procurement) — board competency questions often test this multi-factor analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Maize is a flexible crop that can be grown in both Kharif and Rabi seasons across diverse Indian regions.\" Support your evaluation with two advantages and one limitation of this flexibility.",
+     "a": "The statement is largely correct.  \nAdvantage 1: Maize's short duration (90–110 days) and adaptability to temperatures 21–27°C allow it to fit in Kharif (rainfed) in most states (Karnataka, MP, Bihar, UP) and Rabi (irrigated) in peninsular India (Tamil Nadu, Andhra) and Bihar.  \nAdvantage 2: It grows on a wide range of soils (loamy, sandy loam, even red soils) with moderate rainfall (50–100 cm), making it a good rotation crop.  \nLimitation: Rabi maize requires assured irrigation (not available everywhere), and Kharif maize faces waterlogging risk in heavy clay soils and pest attacks (fall armyworm) — reducing yield stability compared to rice/wheat in their core zones.  \nA wrong evaluation that calls maize \"universal\" ignores its sensitivity to waterlogging and frost — a typical oversimplification that loses marks in \"critically examine\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping pattern for a 5-hectare farm in the Terai region of Uttarakhand that has high rainfall (200 cm), fertile alluvial soil, hot summers, and cool winters. The farmer has access to canal irrigation. Specify which two crops (from Rice, Wheat, Maize, Millets) to grow in sequence, and explain the geographical reasoning for each choice.",
+     "a": "Crop sequence: Kharif — Rice; Rabi — Wheat.  \nReasoning for Rice (Kharif): Terai receives >200 cm rainfall (meets rice's 150–300 cm need), has hot humid summers (>25°C), and water-retentive alluvial soil — ideal for transplanted paddy. Canal irrigation supplements any dry spells.  \nReasoning for Wheat (Rabi): Winters are cool (10–15°C), canal irrigation ensures moisture for Rabi season, and the same alluvial soil is well-drained after monsoon — perfect for wheat's 50–75 cm water need and temperature profile.  \nMaize is less suitable because waterlogging in Kharif harms it; Millets are unsuitable due to excess moisture.  \nA poor answer that suggests Millets or Maize in Kharif shows the student cannot match crop water tolerance to actual rainfall — a map-based application error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

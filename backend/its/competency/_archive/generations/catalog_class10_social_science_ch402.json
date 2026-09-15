@@ -1,0 +1,453 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 402,
+ "chapter_title": "Federalism",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess402.txt",
+ "concepts": [
+  {
+   "id": "jess.402.1",
+   "title": "Federal versus Unitary System of Governance",
+   "section": "What is federalism?",
+   "definition": "A constitutional framework distributing sovereign authority between an overarching national body and distinct regional components, contrasting with centralized systems where subordinate entities remain wholly answerable to the capital.",
+   "formula": "",
+   "key_idea": "Independent coexistence and mutual accountability of distinct governance tiers.",
+   "textbook_ref": "jess402.txt lines 30-70",
+   "question_patterns": [
+    "distinguish between a federal system and a unitary government with examples",
+    "identify the core differences between unitary and federal arrangements",
+    "explain how authority is shared in a federation compared to a unitary state",
+    "verify whether a country with subordinate regional units possesses a federal structure",
+    "assess why regional units in a federation are not subordinate to the central authority"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine distribution of powers",
+     "explain": "Identify whether authority is centralized in a single national organ or constitutionally partitioned across distinct tiers."
+    },
+    {
+     "step": 2,
+     "action": "verify institutional independence",
+     "explain": "Confirm that regional authorities hold their own constitutionally assigned powers and are not simply subordinate administrative arms of the center."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.2",
+   "title": "Essential Characteristics of Federalism",
+   "section": "What is federalism?",
+   "definition": "Structural hallmarks comprising multiple administrative strata ruling identical citizenry, explicit constitutional boundary demarcation, judicial arbitration over jurisdictional clashes, and independent taxation rights.",
+   "formula": "",
+   "key_idea": "Constitutional guarantees of dual objectives: national unity and regional accommodation.",
+   "textbook_ref": "jess402.txt lines 71-120",
+   "question_patterns": [
+    "describe the key features that characterize a federal system of government",
+    "list the constitutional safeguards ensuring financial autonomy for federal tiers",
+    "examine the role of the judiciary when jurisdictional conflicts arise between levels of government",
+    "verify whether constitutional provisions can be altered unilaterally by one level of government",
+    "explain the dual objectives fulfilled by an ideal federal framework"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check number of governmental tiers",
+     "explain": "Verify the existence of two or more administrative levels governing the same citizenry."
+    },
+    {
+     "step": 2,
+     "action": "inspect constitutional guarantees",
+     "explain": "Ensure that respective jurisdictions, revenue sources, and amendment rigidities are constitutionally anchored and subject to judicial review."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.3",
+   "title": "Formation Mechanisms: Coming Together and Holding Together",
+   "section": "What is federalism?",
+   "definition": "Distinct historic models wherein sovereign territories merge voluntarily to amplify joint protection, or conversely, an established expansive nation partitions jurisdictions among constituent provinces while maintaining national cohesion.",
+   "formula": "",
+   "key_idea": "Historical origin determines whether constituent states possess equal standing or the central tier dominates.",
+   "textbook_ref": "jess402.txt lines 121-165",
+   "question_patterns": [
+    "compare coming together federations with holding together federations",
+    "classify the United States, Spain, Australia, and India into their respective federal formation types",
+    "identify why constituent states hold equal power in coming together federations",
+    "explain how holding together federations manage internal diversity",
+    "determine the route through which the Indian federation was established"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the historical formation process",
+     "explain": "Check if sovereign units pooled autonomy voluntarily to create a union, or if an existing unitary state subdivided its power."
+    },
+    {
+     "step": 2,
+     "action": "classify power balance",
+     "explain": "Assign to coming together when states enjoy equal power vis-a-vis the center, or to holding together when the central tier retains greater authority."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.4",
+   "title": "Three-Fold Legislative Division of Powers",
+   "section": "What makes India a federal country?",
+   "definition": "The constitutional demarcation of statutory spheres separating Union exclusivity, provincial jurisdiction, shared concurrent domains, and central parliament control over unlisted emerging topics.",
+   "formula": "",
+   "key_idea": "Distinct constitutional lists ensure policy uniformity where needed while respecting regional variation.",
+   "textbook_ref": "jess402.txt lines 190-250",
+   "question_patterns": [
+    "classify subjects like defence, agriculture, education, and computer software into appropriate legislative lists",
+    "explain the difference between the Union List, State List, and Concurrent List",
+    "identify which level of government legislates on residuary subjects",
+    "determine which law prevails when a conflict arises over a Concurrent List entry",
+    "assess why subjects of national importance are placed exclusively in the Union List"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify subject domain",
+     "explain": "Determine if the subject relates to national defence, local policing and trade, shared civil matters, or unlisted new topics."
+    },
+    {
+     "step": 2,
+     "action": "assign legislative jurisdiction",
+     "explain": "Map national items to Union List, local items to State List, shared items to Concurrent List, and post-constitutional items to Residuary powers."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.5",
+   "title": "Asymmetrical Federalism and Union Territories",
+   "section": "What makes India a federal country?",
+   "definition": "Special protective dispensations granted to select peripheral areas under Article 371 alongside direct central governance over compact enclaves unable to sustain full statehood.",
+   "formula": "",
+   "key_idea": "Tailored administrative structures accommodate distinct demographic, historical, and geographic realities.",
+   "textbook_ref": "jess402.txt lines 251-290",
+   "question_patterns": [
+    "explain why certain Indian states enjoy special status under Article 371",
+    "describe what constitutes a Union Territory and how it is administered",
+    "identify why areas like Chandigarh and Lakshadweep were not made independent states",
+    "examine the land and cultural rights protected in northeastern states under special constitutional provisions",
+    "verify whether all constituent units of the Indian Union exercise identical powers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify territorial classification",
+     "explain": "Distinguish between standard constituent states, special status states with constitutional protections, and centrally run Union Territories."
+    },
+    {
+     "step": 2,
+     "action": "verify jurisdictional authority",
+     "explain": "Confirm special protections on land, culture, or employment under Article 371, or direct administrative control by the Central Government."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.6",
+   "title": "Ratification Threshold for Federal Amendments",
+   "section": "What makes India a federal country?",
+   "definition": "A rigid constitutional revision procedure mandating supermajority parliamentary approval followed by endorsement from fifty percent of provincial legislatures to alter power-sharing.",
+   "formula": "min_states = total_states / 2",
+   "key_idea": "Neither level of government can unilaterally alter the fundamental federal compact.",
+   "textbook_ref": "jess402.txt lines 291-315",
+   "question_patterns": [
+    "calculate the minimum number of states needed to ratify a federal amendment when there are total_states states",
+    "find how many state legislatures must ratify a federal constitutional change given total_states states",
+    "determine the ratification threshold for total_states states on a constitutional amendment",
+    "compute the required number of consenting states among total_states states to amend power sharing",
+    "what is the minimum number of state approvals required out of total_states states"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate half of the total states",
+     "explain": "Constitutional amendment of federal provisions requires ratification by at least half of the total states.",
+     "compute": "min_states = total_states / 2"
+    }
+   ]
+  },
+  {
+   "id": "jess.402.7",
+   "title": "Linguistic Reorganisation and Multilingual Policy",
+   "section": "How is federalism practised?",
+   "definition": "Pragmatic governance strategies that redrew internal provincial borders according to spoken vernaculars and granted scheduled recognition to twenty-two tongues rather than crowning a singular national idiom.",
+   "formula": "",
+   "key_idea": "Linguistic flexibility and accommodation deepened democratic unity and prevented territorial fragmentation.",
+   "textbook_ref": "jess402.txt lines 340-420",
+   "question_patterns": [
+    "examine how the creation of linguistic states strengthened national integration in India",
+    "describe the language policy of India regarding official languages and examinations",
+    "identify how many languages are listed in the Eighth Schedule of the Indian Constitution",
+    "compare the language accommodation policy of India with the majoritarian stance of Sri Lanka",
+    "explain why Hindi was not designated as the sole national language of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate boundary adjustments",
+     "explain": "Verify that states were demarcated based on spoken language, ethnicity, or geography to facilitate smoother administration."
+    },
+    {
+     "step": 2,
+     "action": "check language status guarantees",
+     "explain": "Confirm that Hindi remains the official language with English continued for official transactions, alongside twenty-two Scheduled Languages."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.8",
+   "title": "Centre-State Dynamic and Coalition Politics",
+   "section": "How is federalism practised?",
+   "definition": "The operational evolution toward authentic federal accommodation sparked by regional party proliferation and legal constraints against arbitrary dissolution of provincial ministries.",
+   "formula": "",
+   "key_idea": "Coalition governance and judicial intervention after 1990 institutionalized respectful federal cooperation.",
+   "textbook_ref": "jess402.txt lines 421-490",
+   "question_patterns": [
+    "explain how the era of coalition governments transformed Centre-State relations in India",
+    "analyse the impact of Supreme Court rulings on the dismissal of state governments",
+    "contrast the functioning of federalism before 1990 with the period after 1990",
+    "describe how regional political parties gained leverage in the Union government",
+    "assess how multi-party governance fostered a culture of mutual power sharing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine single party vs coalition eras",
+     "explain": "Note the contrast between the pre-1990 period of central dominance and the post-1990 era of multi-party regional alliances."
+    },
+    {
+     "step": 2,
+     "action": "assess constitutional enforcement",
+     "explain": "Verify how judicial curbs on arbitrary dismissals secured the autonomy of state administrations."
+    }
+   ]
+  },
+  {
+   "id": "jess.402.9",
+   "title": "Decentralisation and Local Governance Quotas",
+   "section": "Decentralisation in India",
+   "definition": "Empowerment of community-level administrations through mandatory periodic voting, resource devolution, and a statutory requirement reserving one-third of seats for female representatives.",
+   "formula": "reserved_seats = total_seats / 3",
+   "key_idea": "Empowering grassroot democracy through statutory elections, financial sharing, and social inclusion.",
+   "textbook_ref": "jess402.txt lines 520-575",
+   "question_patterns": [
+    "calculate the minimum number of seats reserved for women in a local body with total_seats seats",
+    "find how many seats must be allocated to women representatives out of total_seats positions",
+    "determine the minimum reserved positions for women in a panchayat having total_seats seats",
+    "compute the number of mandatory women seats in a local council consisting of total_seats seats",
+    "how many seats are set aside for women when a municipality has total_seats seats"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate one third of total seats",
+     "explain": "The 1992 constitutional amendment mandates that at least one third of all positions in local bodies be reserved for women.",
+     "compute": "reserved_seats = total_seats / 3"
+    }
+   ]
+  },
+  {
+   "id": "jess.402.10",
+   "title": "Structural Tiers of Panchayati Raj and Urban Municipalities",
+   "section": "Decentralisation in India",
+   "definition": "The institutional hierarchy spanning village councils, intermediate blocks, and apex district boards in rural sectors, counterparted by municipal councils and mayor-led corporations across urban spaces.",
+   "formula": "",
+   "key_idea": "Multi-layered local self-government institutions directly engage citizens in civic decisions.",
+   "textbook_ref": "jess402.txt lines 576-630",
+   "question_patterns": [
+    "describe the organizational structure of rural local government from Gram Panchayat to Zilla Parishad",
+    "distinguish between a municipality in small towns and a municipal corporation in big cities",
+    "identify the political heads of a Municipal Corporation and a Zilla Parishad",
+    "explain the supervisory relationship between the Gram Sabha and the Gram Panchayat",
+    "evaluate the role of the State Election Commission in conducting local body elections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map governance level",
+     "explain": "Identify whether the institution functions at the village, intermediate block, district, town, or metropolitan level."
+    },
+    {
+     "step": 2,
+     "action": "identify political and administrative leadership",
+     "explain": "Match the entity to its head: Sarpanch for Gram Panchayat, Chairperson for Zilla Parishad or Municipality, and Mayor for Municipal Corporation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess402.txt lines 291-315",
+   "concept": "jess.402.6",
+   "question_type": "ratification_threshold",
+   "question_pattern": "Calculate the minimum number of states required to ratify a constitutional amendment affecting federal power sharing if there are {total_states} states in the country.",
+   "extracted_variables": {
+    "total_states": 28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate half of the total states",
+     "explain": "Constitutional amendment of federal provisions requires ratification by at least half of the total states.",
+     "compute": "min_states = total_states / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess402.txt lines 291-315",
+   "concept": "jess.402.6",
+   "question_type": "ratification_threshold",
+   "question_pattern": "Find the required state ratifications for amending federal provisions when the union comprises {total_states} states.",
+   "extracted_variables": {
+    "total_states": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate half of the total states",
+     "explain": "Constitutional amendment of federal provisions requires ratification by at least half of the total states.",
+     "compute": "min_states = total_states / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess402.txt lines 520-575",
+   "concept": "jess.402.9",
+   "question_type": "women_seat_reservation",
+   "question_pattern": "Calculate the minimum number of seats reserved for women in a municipal council comprising {total_seats} total seats.",
+   "extracted_variables": {
+    "total_seats": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate one third of total seats",
+     "explain": "The 1992 constitutional amendment mandates that at least one third of all positions in local bodies be reserved for women.",
+     "compute": "reserved_seats = total_seats / 3"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess402.txt lines 520-575",
+   "concept": "jess.402.9",
+   "question_type": "women_seat_reservation",
+   "question_pattern": "Determine the number of seats reserved for women representatives in a gram panchayat of {total_seats} seats.",
+   "extracted_variables": {
+    "total_seats": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate one third of total seats",
+     "explain": "The 1992 constitutional amendment mandates that at least one third of all positions in local bodies be reserved for women.",
+     "compute": "reserved_seats = total_seats / 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex402.1",
+   "source_ref": "jess402.txt lines 662-663",
+   "questions": [
+    "Locate Manipur, Sikkim, Chhattisgarh and Goa on a blank outline political map of India."
+   ]
+  },
+  {
+   "id": "ex402.2",
+   "source_ref": "jess402.txt lines 664-665",
+   "questions": [
+    "Identify and shade three federal countries other than India on a blank outline political map of the world."
+   ]
+  },
+  {
+   "id": "ex402.3",
+   "source_ref": "jess402.txt lines 666-668",
+   "questions": [
+    "Point out one feature in the practice of federalism in India that is similar to and one feature that is different from that of Belgium."
+   ]
+  },
+  {
+   "id": "ex402.4",
+   "source_ref": "jess402.txt lines 669-671",
+   "questions": [
+    "What is the main difference between a federal form of government and a unitary one? Explain with an example."
+   ]
+  },
+  {
+   "id": "ex402.5",
+   "source_ref": "jess402.txt lines 672-674",
+   "questions": [
+    "State any two differences between the local government before and after the Constitutional amendment in 1992."
+   ]
+  },
+  {
+   "id": "ex402.6",
+   "source_ref": "jess402.txt lines 675-683",
+   "questions": [
+    "Fill in the blanks: Since the United States is a coming together type of federation, all the constituent States have equal powers and States are strong vis-a-vis the federal government. But India is a holding together type of federation and some States have more power than others. In India, the Central government has more powers."
+   ]
+  },
+  {
+   "id": "ex402.7",
+   "source_ref": "jess402.txt lines 684-694",
+   "questions": [
+    "Evaluate the three reactions to the language policy followed in India given by Sangeeta, Arman, and Harish. Provide an argument and an example to support one of these stances."
+   ]
+  },
+  {
+   "id": "ex402.8",
+   "source_ref": "jess402.txt lines 695-703",
+   "questions": [
+    "Identify the distinguishing feature of a federal government among the given options: (a) National government gives some powers to provincial governments, (b) Power is distributed among legislature, executive and judiciary, (c) Elected officials exercise supreme power, (d) Governmental power is divided between different levels of government."
+   ]
+  },
+  {
+   "id": "ex402.9",
+   "source_ref": "jess402.txt lines 704-714",
+   "questions": [
+    "Group the following subjects under Union, State and Concurrent Lists: Defence, Police, Agriculture, Education, Banking, Forests, Communications, Trade, Marriages."
+   ]
+  },
+  {
+   "id": "ex402.10",
+   "source_ref": "jess402.txt lines 716-724",
+   "questions": [
+    "Examine the pairs of government levels and legislative powers in India. Identify which pair is incorrectly matched: State government - State List, Central government - Union List, Central and State governments - Concurrent List, Local governments - Residuary powers."
+   ]
+  },
+  {
+   "id": "ex402.11",
+   "source_ref": "jess402.txt lines 725-735",
+   "questions": [
+    "Match the administrative heads with their corresponding institutional units: Union of India with Prime Minister, State with Governor, Municipal Corporation with Mayor, Gram Panchayat with Sarpanch."
+   ]
+  },
+  {
+   "id": "ex402.12",
+   "source_ref": "jess402.txt lines 736-747",
+   "questions": [
+    "Consider statements on federalism in India and Sri Lanka and identify which statements are correct: A. Powers of federal and provincial governments are clearly demarcated; B. India is a federation because powers are specified in the Constitution with exclusive jurisdictions; C. Sri Lanka is a federation because it is divided into provinces; D. India is no longer a federation due to devolution to local bodies."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

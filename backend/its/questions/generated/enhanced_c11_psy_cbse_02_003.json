@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_003",
+   "title": "c11_psy_cbse_02_003",
+   "questions": [
+    {
+     "q": "A researcher wants to study bullying behaviour during school recess. They stand at a distance on the playground and record every instance of physical aggression using a checklist. Which type of observation is this, and what is the key characteristic that makes it \"scientific\" rather than casual watching?",
+     "a": "This is **naturalistic non-participant observation**. The key scientific characteristic is **systematic selection and recording**—the researcher pre-defines \"physical aggression\" (selection), uses a structured checklist (recording), and does not intervene. A wrong answer (e.g., \"controlled observation\" or \"participant observation\") reveals confusion between setting (natural vs. lab) and role (participant vs. non-participant), or failure to grasp that scientific observation requires *a priori* behavioural definitions, not just \"watching.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"In naturalistic observation, the researcher has no control over variables, so the findings lack internal validity.\" Evaluate this statement. Is it entirely true, partially true, or false? Justify using the distinction between internal and ecological validity.",
+     "a": "**Partially true.** Naturalistic observation *does* sacrifice internal validity (cannot establish cause-effect because variables aren't manipulated), but it *gains* high ecological validity (behaviour occurs in real contexts). The statement is false if it implies the method is \"invalid\"—it serves a different goal (description, not causation). A student calling it \"false\" without nuance misses the trade-off; calling it \"entirely true\" confuses internal validity with overall scientific worth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute observation schedule to compare how two Class 11 students (one high-achieving, one struggling) allocate time during self-study period. Specify: (a) behavioural categories (mutually exclusive, exhaustive), (b) sampling method (time/event/interval), (c) recording tool. Explain why your choices fit the research question.",
+     "a": "**(a) Categories:** On-task (reading, writing, solving), Off-task passive (staring, sleeping), Off-task active (phone, talking, walking). **(b) Momentary time sampling** every 30 seconds (10 min = 20 intervals)—captures duration patterns without continuous recording burden. **(c) Coding sheet** with student ID, interval number, category checkbox. **Justification:** Mutually exclusive categories prevent overlap; time sampling suits sustained behaviours; coding sheet enables quick quantitative comparison. A wrong answer using event sampling would miss duration; non-exhaustive categories would lose data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare participant vs. non-participant observation on **three dimensions**: (1) reactivity (Hawthorne effect), (2) depth of insight (emic vs. etic perspective), (3) ethical risk (deception/informed consent). Give a concrete school-based example for each dimension.",
+     "a": "| Dimension | Participant | Non-Participant | Example |\n|-----------|-------------|-----------------|---------|\n| **Reactivity** | Low after rapport; group accepts observer as insider | High initially; presence of outsider alters behaviour | Participant: Researcher joins student council for weeks—members forget they're watched. Non-participant: Researcher sits in corner of classroom—teacher lectures more formally. |\n| **Depth** | Emic (insider meaning, subjective experience) | Etic (outsider categories, objective counts) | Participant: Understands *why* students skip assembly (peer pressure). Non-participant: Only counts *how many* skip. |\n| **Ethical Risk** | Higher—deception if covert; consent complex if overt | Lower—overt observation, consent easier | Participant: Covertly joining a bullying WhatsApp group violates privacy. Non-participant: Video recording corridor with posted notice is transparent. |\n\nA wrong answer conflating \"participant = always unethical\" or \"non-participant = always superficial\" shows rigid thinking.",
+     "self_check": true
+    },
+    {
+     "q": "A study uses controlled laboratory observation to test if background music improves memory recall. Students learn word lists in two rooms: Room A (silent), Room B (soft instrumental). The researcher claims this is \"naturalistic observation because students experience music in real life.\" Critique this claim using **three** methodological principles from the chapter.",
+     "a": "**The claim is incorrect.** Three principles violated:\n1. **Setting control**: Laboratory = controlled observation (variables manipulated: music vs. silence), not naturalistic (real-life setting like a café).\n2. **Manipulation**: Independent variable (music) is *experimentally introduced*—defining feature of experiment, not observation.\n3. **Ecological validity vs. mundane realism**: Real-life music exposure ≠ lab simulation. Mundane realism (surface similarity) ≠ ecological validity (psychological equivalence).\nA student accepting the claim confuses *setting familiarity* with *methodological classification*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel research scenario where **both** naturalistic and controlled observation are needed sequentially to answer a single question about peer collaboration in Class 11. Specify the research question, the naturalistic phase (what, where, how), the controlled phase (what is manipulated, measured), and why the sequence matters.",
+     "a": "**Research Question:** \"How does group composition (friends vs. strangers) affect the *quality* of collaborative problem-solving in Class 11?\"\n- **Naturalistic Phase:** Observe 5 friend-groups and 5 stranger-groups during *actual* project work in school library (2 hrs each). Record: turn-taking, conflict resolution, shared resources (coding scheme). *Why:* Identifies authentic behavioural patterns & generates hypotheses.\n- **Controlled Phase:** Bring same students to lab. Randomly assign to friend/stranger triads. Give identical logic puzzle. Manipulate: group composition. Measure: solution time, equity of contribution (video-coded). *Why:* Isolates composition effect from confounds (topic familiarity, time pressure).\n- **Sequence logic:** Naturalistic first ensures controlled task reflects real collaboration; controlled second tests causality. Reversing order would impose artificial structure on natural behaviour.\nA poor answer treats them as interchangeable or omits the *why* of sequencing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

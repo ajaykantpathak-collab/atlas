@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_005",
+   "title": "c10_math_cbse_09_005",
+   "questions": [
+    {
+     "q": "Define angle of elevation and state which trigonometric ratio directly relates the height of an object and the horizontal distance from the observer when the angle of elevation is known.",
+     "a": "Angle of elevation is the angle between the line of sight and the horizontal when the object is above the horizontal line. The tangent ratio (tan θ = opposite/adjacent = height/horizontal distance) directly relates height and horizontal distance. A wrong answer (e.g., saying sine or cosine) reveals that the student cannot correctly identify the sides relative to the angle of elevation in the right triangle.",
+     "self_check": true
+    },
+    {
+     "q": "In an angle of elevation problem, if the angle of elevation increases while the horizontal distance remains constant, what happens to the height of the object? Explain why using the tangent function.",
+     "a": "The height increases because tan θ is an increasing function for 0° < θ < 90°. Since height = distance × tan θ, a larger θ gives a larger tan θ, thus a larger height. A wrong answer (e.g., height decreases or stays the same) reveals a misunderstanding of the monotonic behaviour of the tangent function or confusion about which side is opposite/adjacent.",
+     "self_check": true
+    },
+    {
+     "q": "A tower stands vertically on the ground. From a point 30 m away from the foot of the tower, the angle of elevation of the top of the tower is 60°. Find the height of the tower. (Use √3 = 1.732)",
+     "a": "Step 1: Draw right triangle with angle 60° at observer, adjacent = 30 m, opposite = h.  \nStep 2: tan 60° = h/30.  \nStep 3: tan 60° = √3 ≈ 1.732, so h = 30 × 1.732 = 51.96 m.  \nStep 4: Height of tower = 51.96 m.  \nA wrong answer (e.g., using sin 60° = h/30 giving h ≈ 25.98 m) reveals the student incorrectly chose the trigonometric ratio, likely confusing opposite/hypotenuse with opposite/adjacent.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve: 'The angle of elevation of the top of a building from a point 50 m away is 30°. Find the height.' Student A uses tan 30° = h/50. Student B uses sin 30° = h/50. Who is correct? Analyse the error in the incorrect method.",
+     "a": "Student A is correct. The known side is the horizontal distance (adjacent to the angle), and the unknown is the height (opposite). Tangent relates opposite and adjacent. Student B incorrectly uses sine, which relates opposite and hypotenuse (line of sight), but the hypotenuse is not given. A wrong analysis reveals the student does not understand which sides each trigonometric ratio connects.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: 'Angle of elevation of top of a tree is 45° from a point 20 m away. Find height.' They write: tan 45° = 20/h, so h = 20/tan 45° = 20 m. Is this correct? Evaluate the solution.",
+     "a": "The final answer (20 m) is numerically correct only because tan 45° = 1, but the method is wrong. The correct setup is tan 45° = h/20 (opposite/adjacent). The student inverted the ratio, writing adjacent/opposite. This error would give a wrong answer for any angle other than 45°. A student who does not catch this inversion reveals a lack of conceptual understanding of the tangent ratio's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem involving angle of elevation where the height of an object is to be found, using an angle of elevation of 30° and a horizontal distance of 40 m. Write the problem statement and solve it.",
+     "a": "Example problem: \"From a point 40 m away from a lamp post, the angle of elevation of the top is 30°. Find the height of the lamp post.\"  \nSolution: h = 40 × tan 30° = 40/√3 = (40√3)/3 ≈ 23.09 m.  \nA poor answer might use the wrong ratio (e.g., sin 30° = h/40 giving h = 20 m) or forget to include units, showing the student cannot independently construct and solve a correct application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

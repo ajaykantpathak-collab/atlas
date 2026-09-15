@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Heat Transfer in Nature",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.7.1",
+   "title": "Conduction of Heat",
+   "section": "Conduction",
+   "definition": "Hold one end of a metal spoon in hot tea and the other end warms up: heat travels through solids from particle to particle without the substance moving, called conduction, fast in metals and slow in wood or plastic.",
+   "formula": "",
+   "key_idea": "Conduction is heat passing hand to hand through matter: conductors pass it on, insulators hold it back.",
+   "textbook_ref": "gecu107.txt, Conduction",
+   "question_patterns": [
+    "what is conduction of heat",
+    "why do metal spoons get hot in tea",
+    "which materials are good conductors of heat",
+    "why are pan handles made of wood or plastic",
+    "compare conduction in metal and wood",
+    "design an activity to compare conductors and insulators"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.2",
+   "title": "Convection in Liquids and Gases",
+   "section": "Convection",
+   "definition": "In water and air, heated fluid itself rises and cooler fluid sinks to take its place, setting up circulating currents called convection, the currents that boil water from below and blow the sea breeze.",
+   "formula": "",
+   "key_idea": "Convection moves heat by moving matter: hot fluid up, cool fluid down, round and round.",
+   "textbook_ref": "gecu107.txt, Convection",
+   "question_patterns": [
+    "how does heat travel through liquids and gases",
+    "explain convection currents in boiling water",
+    "why does warm air rise",
+    "how does convection explain sea breeze",
+    "why are room heaters placed near the floor",
+    "demonstrate convection with coloured warm water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.3",
+   "title": "Radiation: Heat without a Medium",
+   "section": "Radiation",
+   "definition": "The sun's heat crosses empty space to reach us without any medium: this transfer by invisible waves is radiation, felt from a fire across the room or from any hot object nearby.",
+   "formula": "",
+   "key_idea": "Radiation needs no material bridge: heat can fly through vacuum itself.",
+   "textbook_ref": "gecu107.txt, Radiation",
+   "question_patterns": [
+    "how does heat reach us from the sun",
+    "what is radiation of heat",
+    "why do we feel warm near a fire without touching it",
+    "does radiation need a medium",
+    "why do we wear white clothes in summer",
+    "compare the three modes of heat transfer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gecu.7.4",
+   "title": "Heat, Land, Water and the Cycle of Weather",
+   "section": "Land and water heating",
+   "definition": "Land heats fast and cools fast, water heats slowly and cools slowly; this unequal partnership drives breezes and monsoons, and with evaporation and condensation it keeps the water cycle turning through nature.",
+   "formula": "",
+   "key_idea": "Weather is heat transfer written large: land, water and sun run the cycle of breeze, cloud and rain.",
+   "textbook_ref": "gecu107.txt, Land and water heating",
+   "question_patterns": [
+    "why does land heat faster than water",
+    "how do land and sea breezes form",
+    "what role does heat transfer play in the water cycle",
+    "why is kerala warmer than sikkim",
+    "explain evaporation and condensation in nature",
+    "connect conduction convection and radiation in daily weather"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu107.txt",
+   "concept": "gecu.7.1",
+   "question_type": "verify_property",
+   "question_pattern": "why is kerala warm while gangtok is cold, as pema and palden discuss?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu107.txt",
+   "concept": "gecu.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "how does heat travel by conduction, convection and radiation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu107.txt, Let us enhance our learning",
+   "questions": [
+    "Why is Kerala warm while Gangtok is cold, as Pema and Palden discuss?",
+    "How does heat travel by conduction, convection and radiation?",
+    "How do land and water get heated and cooled differently?",
+    "Test which of five rods conducts heat fastest.",
+    "Investigate how water seeps through different soils."
+   ]
+  }
+ ]
+}

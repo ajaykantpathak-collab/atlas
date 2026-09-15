@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_008",
+   "title": "c12_eng_k_cbse_19_008",
+   "questions": [
+    {
+     "q": "Define imagery and metaphor in your own words, giving one example of each from everyday speech (not from the textbook).",
+     "a": "Imagery: descriptive language appealing to senses (e.g., \"the coffee's bitter aroma curled through the cold kitchen\" — olfactory/tactile). Metaphor: implicit comparison stating A is B (e.g., \"Time is a thief\" — time ≠ literal thief, but steals moments). A wrong answer that confuses metaphor with simile (\"Time is *like* a thief\") reveals the student misses the *identity* claim central to metaphor. A wrong answer listing only visual imagery (\"I saw a red car\") reveals a narrow sensory range.",
+     "self_check": true
+    },
+    {
+     "q": "In Section I, Asimov writes: \"The beings who controlled natural phenomena were therefore pictured in human form, but of superhuman strength... Since the phenomena of the Universe don't often make sense, the gods are usually pictured as whimsical and unpredictable.\" Identify the metaphor here and explain *what abstract idea* it makes concrete.",
+     "a": "Metaphor: \"gods are... pictured as whimsical and unpredictable\" — the abstract *capriciousness of natural forces* is made concrete through the human trait of whimsy. A wrong answer that says \"This is personification, not metaphor\" confuses device labels; personification *is* a subtype of metaphor here. A wrong answer that cites \"superhuman strength\" as the metaphor misses the *behavioral* comparison (whimsy) that explains *why* myths feel emotionally satisfying.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"vehicle/tenor\" framework to Asimov's metaphor: \"sword-and-sorcery [is] the equivalent of science fiction set in another kind of Universe — a prescientific Universe.\" Label the tenor, vehicle, and ground, then explain how this metaphor redefines the genre boundary.",
+     "a": "Tenor: sword-and-sorcery fantasy. Vehicle: science fiction in a prescientific universe. Ground: both satisfy the *same emotional need for wonder* via internally consistent rules (magic formulas vs. natural laws). A wrong answer that swaps tenor/vehicle shows confusion about which term is being explained. A wrong answer that cites \"entertainment\" as the ground misses Asimov's specific claim about *intellectual/emotional equivalence of structure*, not just fun.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the imagery clusters in Section I (myths: \"winged horses,\" \"crystal ball,\" \"seven-league boots\") with Section II (science fiction: \"gas gun and sphere,\" \"fishboy and his dolphin,\" \"jungle on a distant planet\"). How does the *shift in sensory register* signal the epistemological shift from magic to science?",
+     "a": "Section I imagery is *domestic/familiar* (horses, carpets, boots, shells) — rooted in pre-industrial daily life, making the miraculous feel accessible. Section II imagery is *technological/alien* (gas guns, zero-gravity spheres, dolphins herding fish, exoplanetary jungles) — rooted in scientific extrapolation, making the novel feel inevitable. A wrong answer that only lists images without linking them to *epistemology* (how we know what we know) treats imagery as decoration, not argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Asimov's metaphor of the 'priest, magician, wizard, shaman' as the 'prescientific scientist' is reductive because it ignores the spiritual dimension of myth.\" Use evidence from the essay to defend or refute.",
+     "a": "Refute: Asimov explicitly anticipates this objection (\"We needn't sneer. By the same principle, we continue to have faith in economists...\"). He frames the metaphor *functionally* (both roles claim to control the universe via secret knowledge), not ontologically. A wrong answer that agrees with the claim misses Asimov's *pragmatic* definition of science (\"understanding laws to control environment\"). A wrong answer that calls the metaphor \"just an analogy\" fails to see it as the essay's *central structural analogy*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph arguing whether AI-generated art is \"true art,\" using *one* metaphor and *two* distinct types of imagery (e.g., visual + auditory) to make your case.",
+     "a": "Strong answer: \"AI art is a mirror that reflects our collective creativity without a soul to cast the reflection (metaphor). The pixels shimmer with borrowed brilliance (visual), but the silence between the strokes hums with no human breath (auditory). True art bleeds; this only calculates.\" Weak answer: \"AI art is like a robot painting. It looks colorful but sounds quiet. It is not real art because no human made it.\" — uses simile, not metaphor; imagery is vague; no sensory specificity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

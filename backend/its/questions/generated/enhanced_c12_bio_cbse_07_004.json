@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_004",
+   "title": "c12_bio_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the significance of the universal genetic code as evidence for evolution?",
+     "a": "The universal genetic code (same codons specify same amino acids in nearly all organisms) indicates all life shares a common ancestor because such a complex, arbitrary coding system is extremely unlikely to have arisen independently multiple times. A wrong answer (e.g., \"it proves evolution is random\" or \"it's just a coincidence\") reveals the student confuses universality with randomness or doesn't grasp that the code's arbitrariness (no chemical necessity for UUU = Phe) makes common descent the only parsimonious explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Cytochrome c is a protein involved in cellular respiration. Humans and chimpanzees have identical cytochrome c amino acid sequences, while humans and yeast differ at about 45% of positions. Explain why this pattern supports evolution.",
+     "a": "The pattern matches predicted evolutionary distances: humans and chimps shared a recent common ancestor (~6-7 MYA), so insufficient time for many mutations to accumulate; humans and yeast diverged ~1 billion years ago, allowing extensive divergence. A wrong answer (e.g., \"yeast needs different cytochrome c because it's a fungus\") reveals the student thinks functional requirements alone determine sequence, ignoring that cytochrome c's function is nearly identical across eukaryotes — the differences are mostly neutral substitutions accumulating over time.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sequences the beta-globin gene in humans, gorillas, and orangutans. She finds 2 nucleotide differences between human and gorilla, 5 between human and orangutan, and 4 between gorilla and orangutan. Draw the simplest phylogenetic tree and estimate relative divergence times assuming a molecular clock.",
+     "a": "Tree: Human and gorilla are sister taxa (2 differences), orangutan is outgroup. Branch lengths: human-gorilla split = 1 unit each (total 2), human-orangutan = 2.5 + 2.5 = 5, gorilla-orangutan = 2 + 2.5 = 4.5 (close to observed 4). Divergence: human-gorilla most recent, then orangutan. A wrong tree (e.g., human-orangutan as sisters) or equal branch lengths reveals inability to apply parsimony or molecular clock concept; student may not grasp that shared derived similarities (synapomorphies) define clades.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) homologous genes vs. analogous genes, (b) pseudogenes vs. functional genes as evolutionary evidence. Give one example of each.",
+     "a": "(a) Homologous genes: derived from common ancestral gene (e.g., HOX genes in flies and humans); analogous genes: similar function but independent origin (e.g., lens crystallins — different proteins co-opted for transparency in different lineages). (b) Pseudogenes: non-functional relics (e.g., GULO pseudogene in primates — shared mutations prove common ancestry); functional genes under selection may converge. Wrong answer conflating homology with similarity reveals misunderstanding that homology is a historical conclusion, not just percent identity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Endogenous retroviruses (ERVs) in the same chromosomal position in humans and chimpanzees are the strongest molecular evidence for common ancestry because they are non-functional viral fossils.\" Is this claim fully correct? Justify.",
+     "a": "The claim is mostly correct but overstates \"strongest\" — ERVs are compelling because integration is random and irreversible; shared orthologous ERVs at identical loci in two species can only be explained by inheritance from a common ancestor where integration occurred once. However, \"non-functional\" is not strictly required — some ERVs are co-opted for function (e.g., syncytin in placenta). A wrong evaluation (e.g., \"viruses could independently infect same spot\") reveals ignorance of the astronomical improbability of independent integration at identical base-pair positions in 3 billion bp genome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a molecular experiment to test whether the similar eye development gene Pax6 in mice and fruit flies is homologous (shared ancestry) or analogous (convergent evolution). Specify the key data you would collect and how you would interpret it.",
+     "a": "Sequence Pax6 genomic loci (including introns, flanking regions) in mouse, fly, and outgroup (e.g., nematode). Align non-coding regions — homologous genes share conserved intron positions, regulatory elements, and synteny; analogous genes would show only coding-sequence similarity due to functional constraint. Also test functional interchangeability: express mouse Pax6 in fly eyeless mutant — if it rescues eye development, deep homology is confirmed. Poor answer focusing only on protein sequence % identity misses that convergent evolution can produce similar proteins; non-coding conservation is the gold standard.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

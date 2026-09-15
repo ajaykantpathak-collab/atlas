@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_002",
+   "title": "c12_math_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the correct substitution to evaluate ∫ 2x cos(x² + 3) dx? Write the substitution and the resulting integral in terms of the new variable.",
+     "a": "The correct substitution is u = x² + 3, so du = 2x dx. The integral becomes ∫ cos u du. A wrong answer like u = cos(x²+3) reveals the student does not recognize the pattern of a function and its derivative. They might also forget to change dx to du, writing ∫ cos u dx, which shows they don't understand the differential substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the substitution u = x² works for ∫ x e^{x²} dx but u = e^{x²} does not. What is the key condition for a successful substitution?",
+     "a": "For u = x², du = 2x dx, so x dx = du/2, and the integral becomes (1/2)∫ e^u du. For u = e^{x²}, du = 2x e^{x²} dx, which does not match the integrand x e^{x²} dx because of the extra factor e^{x²}. The key condition is that the derivative of the substituted function must appear (up to a constant factor) in the integrand. A wrong answer might say both work, revealing confusion about the role of the differential.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate ∫ (3x² + 2x) sin(x³ + x²) dx using substitution. Show all steps.",
+     "a": "Let u = x³ + x², then du = (3x² + 2x) dx. The integral becomes ∫ sin u du = -cos u + C = -cos(x³ + x²) + C. A common error is to forget the chain rule when differentiating u, e.g., writing du = 3x² dx only, missing the 2x term. Another error is to integrate sin u as cos u instead of -cos u, showing sign confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals ∫ x cos(x²) dx and ∫ x² cos(x²) dx. Which one can be solved by a simple substitution u = x²? Why does the other require a different method?",
+     "a": "For ∫ x cos(x²) dx, let u = x², du = 2x dx, so x dx = du/2, and the integral becomes (1/2)∫ cos u du, which is straightforward. For ∫ x² cos(x²) dx, the same substitution gives du = 2x dx, but we have x² dx = (1/2) x du, which still contains x. We cannot eliminate x completely, so substitution u = x² alone fails; this integral requires integration by parts or special functions. A wrong answer might claim both work, indicating the student doesn't check if the substitution fully eliminates the original variable.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates ∫_0^1 2x e^{x²} dx as follows: Let u = x², then du = 2x dx. When x=0, u=0; when x=1, u=1. The integral becomes ∫_0^1 e^u du = e^1 - e^0 = e - 1. Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The student's answer is correct. The substitution and limit change are properly done. A common error would be to forget to change the limits and instead back-substitute after integration, which is also valid but more steps. If the student wrote the limits as x=0 to x=1 after substitution, that would be wrong. Another error: integrating e^u as e^u/ u? No, that's not typical. The correct answer is e - 1.",
+     "self_check": true
+    },
+    {
+     "q": "Create an integral of the form ∫ f(g(x)) g'(x) dx that can be solved by substitution u = g(x). Choose a non-trigonometric, non-exponential function for g(x). Write the integral and its solution.",
+     "a": "Example: Let g(x) = x³ + 2x, so g'(x) = 3x² + 2. Choose f(u) = u². Then the integral is ∫ (x³ + 2x)² (3x² + 2) dx. Substitution u = x³ + 2x gives ∫ u² du = u³/3 + C = (x³ + 2x)³/3 + C. A poor answer might use a simple g(x) like x², which is trivial, or fail to ensure g'(x) appears exactly. The student should demonstrate understanding that the integrand must be a composite function times the derivative of the inner function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class7_social_science_ch206",
+ "concepts": [
+  {
+   "id": "gess.206.1",
+   "title": "Location and Physical Geography of the Amazon Basin",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Location and Physical Geography of the Amazon Basin' refers to.",
+     "a": "The equatorial geographic region in South America situated between 10 degrees North and 10 degrees South latitudes surrounding the Amazon river system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Location and Physical Geography of the Amazon Basin'.",
+     "a": "The Amazon drainage network forms the globe's largest river basin directly straddling the equator.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Location and Physical Geography of the Amazon Basin' taught, and from which source text?",
+     "a": "Life in the Amazon Basin (source: gess206.txt lines 20-50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.2",
+   "title": "Climate and Biodiversity of the Amazon Rainforest",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climate and Biodiversity of the Amazon Rainforest' refers to.",
+     "a": "A hot and wet tropical forest biome near the equator characterized by constant heavy rain, a thick foliage roof, epiphytic plants, and diverse fauna.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climate and Biodiversity of the Amazon Rainforest'.",
+     "a": "Constant warmth and heavy precipitation nurture dense evergreen canopy layers and exotic species.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climate and Biodiversity of the Amazon Rainforest' taught, and from which source text?",
+     "a": "Climate and Rainforests (source: gess206.txt lines 51-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.3",
+   "title": "Human Adaptation and Farming Practices in the Amazon Rainforest",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Adaptation and Farming Practices in the Amazon Rainforest' refers to.",
+     "a": "Forest settlement practices centered on slash-and-burn farming, root crops like manioc, communal Maloca housing, and modern highway impacts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Adaptation and Farming Practices in the Amazon Rainforest'.",
+     "a": "Shifting cultivation and traditional architecture adapt to rainforest conditions, though modern access leads to habitat depletion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Human Adaptation and Farming Practices in the Amazon Rainforest' taught, and from which source text?",
+     "a": "People of the Rainforests (source: gess206.txt lines 111-160)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.4",
+   "title": "Geography and Climate of the Ganga-Brahmaputra Basin",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Geography and Climate of the Ganga-Brahmaputra Basin' refers to.",
+     "a": "A subtropical Asian river basin located between 10 degrees North and 30 degrees North latitudes, characterized by vast alluvial plains, Himalayan mountain slopes, and monsoon seasons.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Geography and Climate of the Ganga-Brahmaputra Basin'.",
+     "a": "Extensive lowlands fed by major Himalayan snowfed streams and seasonal monsoon currents support high settlement densities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Geography and Climate of the Ganga-Brahmaputra Basin' taught, and from which source text?",
+     "a": "Life in the Ganga-Brahmaputra Basin (source: gess206.txt lines 161-210)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.5",
+   "title": "Population Density Calculation in Regional Demography",
+   "questions": [
+    {
+     "q": "Find the population density when a total population of people lives in a square km area. Use the method 'Population Density Calculation in Regional Demography'. Work with: area = 250, population = 25000. Carry the chain through step by step and give the final value of density.",
+     "a": "100 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Compute average human concentration per square kilometer for a given district. Use the method 'Population Density Calculation in Regional Demography'. Work with: area = 500, population = 60000. Carry the chain through step by step and give the final value of density.",
+     "a": "120 persons per sq km",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Population Density Calculation in Regional Demography' refers to.",
+     "a": "The mathematical measurement of human concentration calculated by dividing total headcount by the corresponding surface land area in square kilometers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population Density Calculation in Regional Demography'.",
+     "a": "Dividing resident population count by territorial area yields average human spatial concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Population Density Calculation in Regional Demography', in plain ASCII form.",
+     "a": "density = population / area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.6",
+   "title": "Agricultural Systems and Terrace Farming in the Ganga-Brahmaputra Basin",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Agricultural Systems and Terrace Farming in the Ganga-Brahmaputra Basin' refers to.",
+     "a": "Farming practices adapted to regional terrain, ranging from water-intensive paddy on plain alluvium to stepped terraces on mountain slopes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agricultural Systems and Terrace Farming in the Ganga-Brahmaputra Basin'.",
+     "a": "Flat fertile plains enable high-yield paddy and cash crops while stepped hill terraces reduce soil water runoff.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Agricultural Systems and Terrace Farming in the Ganga-Brahmaputra Basin' taught, and from which source text?",
+     "a": "Agriculture and Topography (source: gess206.txt lines 231-270)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.7",
+   "title": "Natural Vegetation, Wildlife and River Ecosystem Health",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Natural Vegetation, Wildlife and River Ecosystem Health' refers to.",
+     "a": "Diverse ecological zones containing deciduous forests, delta mangroves, mountain conifers, and bio-indicator fauna like the Susu dolphin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Natural Vegetation, Wildlife and River Ecosystem Health'.",
+     "a": "Elevation variations govern natural flora while species like blind dolphins reveal river water purity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Natural Vegetation, Wildlife and River Ecosystem Health' taught, and from which source text?",
+     "a": "Vegetation and Wildlife (source: gess206.txt lines 271-330)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.206.8",
+   "title": "Urbanization, Transport Networks, Conservation and Tourism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Urbanization, Transport Networks, Conservation and Tourism' refers to.",
+     "a": "Demographic centers along river corridors supported by multiple transit options, federal river restoration initiatives, and cultural heritage sites.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Urbanization, Transport Networks, Conservation and Tourism'.",
+     "a": "Dense riverfront cities stimulate trade and transport networks, necessitating conservation programs like Namami Gange.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Urbanization, Transport Networks, Conservation and Tourism' taught, and from which source text?",
+     "a": "Cities, Transport and Tourism (source: gess206.txt lines 331-380)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

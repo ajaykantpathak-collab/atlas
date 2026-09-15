@@ -1,0 +1,512 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Oceans and Continents",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees102.txt",
+ "concepts": [
+  {
+   "id": "c6ss.2.1",
+   "title": "Continents of the World",
+   "section": "2.1",
+   "definition": "A continent is a large continuous mass of land on Earth; there are seven continents.",
+   "formula": "",
+   "key_idea": "The seven continents are Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain continents of the world",
+    "describe the key features of continents of the world",
+    "what are the main characteristics of continents of the world",
+    "why is continents of the world important",
+    "give examples of continents of the world"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the seven continents",
+     "explain": "Asia, Africa, North America, South America, Antarctica, Europe, Australia."
+    },
+    {
+     "step": 2,
+     "action": "Order by size",
+     "explain": "Asia is the largest, followed by Africa, North America, South America, Antarctica, Europe, and Australia (smallest)."
+    },
+    {
+     "step": 3,
+     "action": "Note key features",
+     "explain": "Asia is the largest and most populous; Antarctica is the coldest and covered in ice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which is the largest continent?",
+     "solution": "Asia.",
+     "answer": "Asia"
+    },
+    {
+     "question": "Which continent is covered in ice?",
+     "solution": "Antarctica.",
+     "answer": "Antarctica"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name all seven continents in order of size.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which continent has the most people?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.2",
+   "title": "Oceans of the World",
+   "section": "2.2",
+   "definition": "Oceans are vast bodies of saltwater; there are five oceans on Earth.",
+   "formula": "",
+   "key_idea": "The five oceans are the Pacific, Atlantic, Indian, Southern, and Arctic Oceans.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain oceans of the world",
+    "describe the key features of oceans of the world",
+    "what are the main characteristics of oceans of the world",
+    "why is oceans of the world important",
+    "give examples of oceans of the world"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the five oceans",
+     "explain": "Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic Oceans."
+    },
+    {
+     "step": 2,
+     "action": "Order by size",
+     "explain": "Pacific is the largest and deepest; Arctic is the smallest and shallowest."
+    },
+    {
+     "step": 3,
+     "action": "Note locations",
+     "explain": "The Pacific lies between Asia and the Americas; the Indian Ocean lies south of Asia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which is the largest ocean?",
+     "solution": "The Pacific Ocean.",
+     "answer": "Pacific Ocean"
+    },
+    {
+     "question": "How many oceans are there on Earth?",
+     "solution": "Five -- Pacific, Atlantic, Indian, Southern, and Arctic.",
+     "answer": "Five"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the five oceans in order of size.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which ocean lies south of Asia?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.3",
+   "title": "Distribution of Land and Water",
+   "section": "2.3",
+   "definition": "About 71 percent of Earth's surface is covered by water and 29 percent by land.",
+   "formula": "",
+   "key_idea": "Earth is called the Blue Planet because most of its surface is water.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain distribution of land and water on earth",
+    "describe the key features of distribution of land and water on earth",
+    "what are the main characteristics of distribution of land and water on earth",
+    "why is distribution of land and water on earth important",
+    "give examples of distribution of land and water on earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the proportions",
+     "explain": "Water covers about 71% of Earth's surface; land covers about 29%."
+    },
+    {
+     "step": 2,
+     "action": "Calculate areas",
+     "explain": "Total Earth surface area is about 510 million sq km."
+    },
+    {
+     "step": 3,
+     "action": "Explain the nickname",
+     "explain": "Earth appears blue from space because of the vast oceans."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What percentage of Earth's surface is covered by water?",
+     "solution": "About 71 percent.",
+     "answer": "71%"
+    },
+    {
+     "question": "Why is Earth called the Blue Planet?",
+     "solution": "Because about 71% of its surface is covered by water, making it appear blue from space.",
+     "answer": "Because oceans cover most of the surface"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What percentage of Earth is land?",
+     "type": "compute"
+    },
+    {
+     "question": "Why is Earth called the Blue Planet?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.4",
+   "title": "Features of Continents",
+   "section": "2.4",
+   "definition": "Each continent has distinct physical features like mountains, deserts, rivers, and plateaus.",
+   "formula": "",
+   "key_idea": "Continents vary greatly in their landscapes, from the Himalayas in Asia to the Sahara in Africa.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain features of continents",
+    "describe the key features of features of continents",
+    "what are the main characteristics of features of continents",
+    "why is features of continents important",
+    "give examples of features of continents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify major mountain ranges",
+     "explain": "Himalayas (Asia), Andes (South America), Rockies (North America), Alps (Europe)."
+    },
+    {
+     "step": 2,
+     "action": "Identify major deserts",
+     "explain": "Sahara (Africa), Gobi (Asia), Kalahari (Africa), Great Victoria (Australia)."
+    },
+    {
+     "step": 3,
+     "action": "Identify major rivers",
+     "explain": "Nile (Africa), Amazon (South America), Yangtze (Asia), Mississippi (North America)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which is the longest river in the world?",
+     "solution": "The Nile River in Africa.",
+     "answer": "Nile River"
+    },
+    {
+     "question": "Which desert is the largest in the world?",
+     "solution": "The Sahara Desert in Africa.",
+     "answer": "Sahara Desert"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name one major mountain range from each continent.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which is the largest desert in the world?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.5",
+   "title": "Major Seas and Gulfs",
+   "section": "2.5",
+   "definition": "Seas and gulfs are partially enclosed bodies of saltwater that are smaller than oceans.",
+   "formula": "",
+   "key_idea": "Seas and gulfs are important for trade, fishing, and transportation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain major seas and gulfs",
+    "describe the key features of major seas and gulfs",
+    "what are the main characteristics of major seas and gulfs",
+    "why is major seas and gulfs important",
+    "give examples of major seas and gulfs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sea and gulf",
+     "explain": "A sea is a smaller body of saltwater partly enclosed by land; a gulf is a portion of sea almost enclosed by land."
+    },
+    {
+     "step": 2,
+     "action": "List major seas",
+     "explain": "Arabian Sea, Bay of Bengal, Red Sea, Mediterranean Sea, Caribbean Sea."
+    },
+    {
+     "step": 3,
+     "action": "List major gulfs",
+     "explain": "Gulf of Mexico, Persian Gulf, Gulf of Bengal (Bay of Bengal)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two seas that border India.",
+     "solution": "Arabian Sea and Bay of Bengal.",
+     "answer": "Arabian Sea, Bay of Bengal"
+    },
+    {
+     "question": "What is the difference between a sea and a gulf?",
+     "solution": "A gulf is more enclosed by land than a sea.",
+     "answer": "A gulf is more enclosed"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three major seas of the world.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which gulf lies between the US and Mexico?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.6",
+   "title": "Importance of Oceans",
+   "section": "2.6",
+   "definition": "Oceans are vital for climate regulation, trade, food, and oxygen production.",
+   "formula": "",
+   "key_idea": "Oceans influence weather, provide resources, and serve as highways for global trade.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain importance of oceans",
+    "describe the key features of importance of oceans",
+    "what are the main characteristics of importance of oceans",
+    "why is importance of oceans important",
+    "give examples of importance of oceans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain climate role",
+     "explain": "Oceans absorb and distribute heat, regulating global temperatures."
+    },
+    {
+     "step": 2,
+     "action": "Explain economic role",
+     "explain": "Oceans provide fish, minerals, and trade routes connecting continents."
+    },
+    {
+     "step": 3,
+     "action": "Explain ecological role",
+     "explain": "Oceans produce over half of Earth's oxygen through marine plants."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do oceans help regulate climate?",
+     "solution": "They absorb and distribute heat around the globe.",
+     "answer": "By absorbing and distributing heat"
+    },
+    {
+     "question": "Why are oceans important for trade?",
+     "solution": "They provide routes for ships to transport goods between continents.",
+     "answer": "They provide trade routes"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three reasons why oceans are important.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do oceans contribute to oxygen production?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.7",
+   "title": "Ocean Currents",
+   "section": "2.7",
+   "definition": "Ocean currents are continuous movements of ocean water in a particular direction.",
+   "formula": "",
+   "key_idea": "Currents can be warm or cold and affect the climate of coastal areas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain ocean currents",
+    "describe the key features of ocean currents",
+    "what are the main characteristics of ocean currents",
+    "why is ocean currents important",
+    "give examples of ocean currents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define ocean currents",
+     "explain": "Currents are streams of water flowing in a set direction within the ocean."
+    },
+    {
+     "step": 2,
+     "action": "Classify currents",
+     "explain": "Warm currents flow from the equator toward poles; cold currents flow from poles toward the equator."
+    },
+    {
+     "step": 3,
+     "action": "Explain climate effects",
+     "explain": "Warm currents warm coastal areas; cold currents cool them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is an ocean current?",
+     "solution": "A continuous movement of ocean water in a particular direction.",
+     "answer": "A stream of ocean water"
+    },
+    {
+     "question": "How do warm currents affect coastal climate?",
+     "solution": "They warm the coastal areas they flow past.",
+     "answer": "They warm coastal areas"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between warm and cold currents.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do currents influence climate?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.2.8",
+   "title": "Pacific Ocean -- The Largest Ocean",
+   "section": "2.8",
+   "definition": "The Pacific Ocean is the largest and deepest ocean, covering about one-third of Earth's surface.",
+   "formula": "",
+   "key_idea": "The Pacific Ocean is bordered by Asia, Australia, the Americas, and Antarctica.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the pacific ocean",
+    "describe the key features of the pacific ocean",
+    "what are the main characteristics of the pacific ocean",
+    "why is the pacific ocean important",
+    "give examples of the pacific ocean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the size",
+     "explain": "The Pacific covers about 165 million sq km, roughly one-third of Earth's surface."
+    },
+    {
+     "step": 2,
+     "action": "Identify boundaries",
+     "explain": "It is bordered by Asia and Australia to the west, the Americas to the east."
+    },
+    {
+     "step": 3,
+     "action": "Note the deepest point",
+     "explain": "The Mariana Trench in the Pacific is the deepest known point in any ocean."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the deepest point in the ocean?",
+     "solution": "The Mariana Trench in the Pacific Ocean.",
+     "answer": "Mariana Trench"
+    },
+    {
+     "question": "How much of Earth's surface does the Pacific cover?",
+     "solution": "About one-third.",
+     "answer": "About one-third"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Which continents border the Pacific Ocean?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the Mariana Trench?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.2.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain continents of the world with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the seven continents",
+     "explain": "Asia, Africa, North America, South America, Antarctica, Europe, Australia."
+    },
+    {
+     "step": 2,
+     "action": "Order by size",
+     "explain": "Asia is the largest, followed by Africa, North America, South America, Antarctica, Europe, and Australia (smallest)."
+    },
+    {
+     "step": 3,
+     "action": "Note key features",
+     "explain": "Asia is the largest and most populous; Antarctica is the coldest and covered in ice."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.2.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain oceans of the world with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the five oceans",
+     "explain": "Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic Oceans."
+    },
+    {
+     "step": 2,
+     "action": "Order by size",
+     "explain": "Pacific is the largest and deepest; Arctic is the smallest and shallowest."
+    },
+    {
+     "step": 3,
+     "action": "Note locations",
+     "explain": "The Pacific lies between Asia and the Americas; the Indian Ocean lies south of Asia."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

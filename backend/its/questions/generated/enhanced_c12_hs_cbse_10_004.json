@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_004",
+   "title": "c12_hs_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 RDA for energy (kcal/day) and protein (g/day) for a 10-year-old boy and a 10-year-old girl. Are they identical or different? If different, explain the physiological basis in one sentence.",
+     "a": "Correct answer: 10-year-old boy: 1970 kcal, 35 g protein; 10-year-old girl: 1740 kcal, 35 g protein. Energy differs (boy > girl) due to higher lean body mass and basal metabolic rate in boys even before puberty; protein is same because growth velocity is similar at this age. A wrong answer (e.g., identical values for both, or protein difference) reveals the student has not internalized that RDAs diverge for energy before protein during pre-pubertal years, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"A balanced diet for a 3-year-old child is just a smaller portion of an adult balanced diet.\" Explain why this statement is incorrect using three specific physiological differences between a preschooler and an adult that alter food group proportions.",
+     "a": "Correct answer: (1) Growth velocity: preschooler deposits ~2 kg body weight/year requiring proportionally more protein (1.2 g/kg vs 0.83 g/kg) and calcium (600 mg vs 1000 mg but per kg higher); (2) Gastric capacity: preschooler's stomach holds ~250 ml vs adult's 1.5 L, necessitating energy-dense, low-bulk meals (more fats/sugars, less fiber); (3) Nutrient absorption: preschooler has higher iron absorption efficiency but lower zinc absorption, altering food source priorities. A wrong answer focusing only on \"smaller quantity\" misses that food group RATIOS change — e.g., preschooler needs 3 milk servings vs adult's 2, but fewer cereal servings per kg body weight.",
+     "self_check": true
+    },
+    {
+     "q": "Using ICMR 2020 RDA and food group serving sizes, calculate the minimum number of cereal servings (30g raw each) required to meet 60% of energy RDA for a sedentary 40-year-old woman (RDA: 1660 kcal). Assume cereals provide 340 kcal/100g raw. Show all steps.",
+     "a": "Step 1: Target energy from cereals = 60% of 1660 = 996 kcal. Step 2: Energy per cereal serving = 30g × 3.4 kcal/g = 102 kcal. Step 3: Number of servings = 996 ÷ 102 = 9.76 → 10 servings (round up to meet minimum). Step 4: Check protein contribution: 10 servings × 30g × 10g protein/100g = 30g protein, exceeding RDA of 38g? Wait — cereal protein is ~10g/100g, so 300g cereal = 30g protein, but RDA is 38g, so cereals alone don't meet protein RDA; pulses/milk needed. A wrong answer (e.g., using cooked weight, or 5 servings) reveals confusion between raw/cooked weights or percentage allocation norms (ICMR recommends 60-70% energy from cereals).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ICMR food group serving pattern for a 16-year-old adolescent boy (heavy activity) versus a 70-year-old sedentary man. Identify two food groups where the adolescent's serving count exceeds the elderly's by ≥2 servings, and explain the physiological driver for each difference.",
+     "a": "Correct answer: (1) Cereals/millets: adolescent ~14 servings (2520 kcal × 0.65 ÷ 102 ≈ 16, but adjusted for protein) vs elderly ~8 servings — driven by 2.5× higher total energy need (3280 vs 1700 kcal) from growth + activity. (2) Pulses/legumes: adolescent ~3 servings vs elderly ~1.5 servings — driven by 1.5× higher protein RDA (55g vs 40g) and need for lysine to complement cereal protein during peak muscle accretion. A wrong answer citing milk or vegetables misses that milk servings are similar (3 vs 2.5) and vegetable servings differ by only 1 (4 vs 3), not ≥2.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this one-day menu for a 7-year-old girl (RDA: 1550 kcal, 25g protein, 14mg iron, 650mg calcium): Breakfast — 2 idli + sambar (30g dal) + 100ml milk; Lunch — 100g rice + 30g dal + 50g potato curry + 50g carrot; Snack — 1 banana; Dinner — 2 chapati (60g wheat) + 30g dal + 50g spinach. Identify the nutrient most likely deficient and propose one food addition to correct it without exceeding energy RDA.",
+     "a": "Step 1: Estimate nutrients. Cereals: 100g rice + 60g wheat + 60g idli rice = 220g → ~750 kcal, 22g protein. Pulses: 90g dal total → ~300 kcal, 20g protein. Milk: 100ml → 60 kcal, 3g protein, 120mg Ca. Vegetables: potato, carrot, spinach ~150g → ~80 kcal, 3g protein, 60mg Ca, 2mg Fe. Fruit: banana → 90 kcal. Total: ~1280 kcal (low), 48g protein (adequate), ~2mg Fe (deficient vs 14mg), ~180mg Ca (deficient vs 650mg). Step 2: Iron is most critically deficient (14% of RDA). Step 3: Add 50g liver (chicken) at lunch — provides ~4mg heme iron, 70 kcal, minimal volume. A wrong answer suggesting \"more spinach\" ignores non-heme iron bioavailability (2-5% vs 15-35% for heme) and gastric capacity limits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-meal balanced menu for a 9-month-old infant (RDA: 700 kcal, 14g protein, 350mg calcium, 5mg iron) using ONLY home-available foods (no commercial formulas). Specify quantities in grams/ml, ensure at least 3 food groups per meal, and explain how you addressed the \"energy density vs gastric capacity\" conflict.",
+     "a": "Sample answer: Meal 1 (breakfast): 50g ragi porridge (cooked in 100ml milk + 5g jaggery) — 2 food groups (cereal, milk). Meal 2 (lunch): 30g rice + 15g moong dal + 20g carrot + 5g ghee, mashed — 4 food groups. Meal 3 (dinner): 30g wheat dalia + 10g egg yolk + 20g pumpkin + 5g oil — 4 food groups. Totals: ~720 kcal, 15g protein, 380mg Ca, 5.5mg Fe. Energy density addressed by: (1) adding 5g fat/oil per meal (45 kcal, 5ml volume) — fat gives 9 kcal/g vs 4 for cereal; (2) using malted ragi (amylase-rich) to reduce viscosity, allowing thicker porridge with more calories per ml; (3) including egg yolk (nutrient-dense, soft texture). A poor answer gives only thin gruels, ignores fat addition, or uses commercial cerelac.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

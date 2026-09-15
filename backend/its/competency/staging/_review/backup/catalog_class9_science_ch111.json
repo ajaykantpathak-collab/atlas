@@ -1,0 +1,390 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 111,
+ "chapter_title": "Reproduction: How Life Continues",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc111.txt",
+ "concepts": [
+  {
+   "id": "iesc.111.1",
+   "title": "Vegetative Propagation in Plants",
+   "section": "11.1",
+   "definition": "In brief, In brief, In brief, In brief, a mode of asexual reproduction where fresh plant organs grow from non-reproductive structures like roots, stems, or leaves without seed formation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Generates genetically identical plant clones directly from vegetative tissues.",
+   "textbook_ref": "iesc111.txt lines 20-70",
+   "question_patterns": [
+    "how does vegetative propagation work in plants",
+    "explain cutting grafting and layering in horticulture",
+    "what are the benefits of vegetative reproduction in farming",
+    "describe tissue culture technique for plant multiplication"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify vegetative structure used",
+     "explain": "Determine whether stems, roots, leaves, or apical meristem tips are utilized for propagation."
+    },
+    {
+     "step": 2,
+     "action": "describe propagation mechanism",
+     "explain": "Explain techniques like stem cuttings, grafting stem slits, layering buried twigs, or tissue culture nutrient media."
+    },
+    {
+     "step": 3,
+     "action": "confirm genetic identity",
+     "explain": "State that offspring retain identical traits to the single parent without genetic recombination."
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.2",
+   "title": "Asexual Reproduction by Budding and Spore Formation",
+   "section": "11.1",
+   "definition": "In brief, In brief, Asexual processes where new individuals originate either from cellular outgrowths called buds or from resilient unicellular spores produced in specialized sacs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, Rapid asexual multiplication via mitosis that forms identical offspring clones.",
+   "textbook_ref": "iesc111.txt lines 71-135",
+   "question_patterns": [
+    "how does hydra reproduce by budding",
+    "explain spore formation in fungi like rhizopus",
+    "describe asexual multiplication in yeast cells",
+    "how do spores spread and germinate in moist conditions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify method of asexual reproduction",
+     "explain": "Determine if the organism reproduces via bud detachment (Hydra/yeast) or airborne spore release (Rhizopus/Aspergillus)."
+    },
+    {
+     "step": 2,
+     "action": "explain cellular division process",
+     "explain": "Mitosis replicates identical genetic content into the budding outgrowth or spore nucleus."
+    },
+    {
+     "step": 3,
+     "action": "relate to environmental conditions",
+     "explain": "Spores disperse lightly through air currents and germinate rapidly when moisture and warm temperatures are available."
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.3",
+   "title": "Meiosis and Gamete Chromosome Reduction",
+   "section": "11.2.1",
+   "definition": "In brief, In brief, Specialized reductional cell division that reduces the diploid chromosome count of parent germ cells by half to generate haploid reproductive gametes.",
+   "formula": "haploid_chromosomes = diploid_chromosomes / 2",
+   "key_idea": "Halving chromosome numbers during gametogenesis maintains constant species chromosome counts across generations.",
+   "textbook_ref": "iesc111.txt lines 140-165",
+   "question_patterns": [
+    "calculate haploid chromosome number from diploid count",
+    "how many chromosomes are in a human sperm or egg cell",
+    "find gamete chromosome count given somatic cell chromosome number",
+    "determine chromosome count in a fertilized zygote"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate haploid chromosome number",
+     "explain": "Divide total diploid cell chromosomes by two to get haploid gamete chromosome count.",
+     "compute": "haploid_chromosomes = diploid_chromosomes / 2"
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.4",
+   "title": "Chromosomal Gamete Combinations and Genetic Variation",
+   "section": "11.2.1",
+   "definition": "The mathematical assortment of independent chromosome pairs during meiotic gamete formation, creating diverse genetic combinations.",
+   "formula": "combinations = 2 ** num_pairs",
+   "key_idea": "In brief, In brief, In brief, In brief, Random segregation of chromosome pairs exponentially increases gametic diversity.",
+   "textbook_ref": "iesc111.txt lines 166-190",
+   "question_patterns": [
+    "calculate possible gamete combinations for given chromosome pairs",
+    "how many unique combinations are possible from n pairs of chromosomes",
+    "compute genetic variation potential from chromosome segregation",
+    "find total possible gamete assortments during meiosis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate unique gamete combinations",
+     "explain": "Raise base 2 to the power of independent chromosome pair count.",
+     "compute": "combinations = 2 ** num_pairs"
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.5",
+   "title": "Anatomy and Functions of Floral Organs",
+   "section": "11.2.2",
+   "definition": "The structural arrangement of angiosperm flowers into sepals, petals, stamens, and pistils dedicated to sexual reproduction.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Stamens manufacture male pollen gametes while pistils house female egg ovules.",
+   "textbook_ref": "iesc111.txt lines 191-240",
+   "question_patterns": [
+    "describe the four main whorls of a complete flower",
+    "what are the male and female reproductive organs of a flower",
+    "explain the structure of stamen and pistil",
+    "identify functions of sepals petals anther and stigma"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify outer non-reproductive whorls",
+     "explain": "Sepals protect flower buds while bright fragrant petals attract animal pollinators."
+    },
+    {
+     "step": 2,
+     "action": "identify male reproductive whorl",
+     "explain": "Stamen consists of filament and anther producing pollen grains carrying male gametes."
+    },
+    {
+     "step": 3,
+     "action": "identify female reproductive whorl",
+     "explain": "Pistil consists of sticky stigma, tubelike style, and swollen ovary containing egg-bearing ovules."
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.6",
+   "title": "Pollination Mechanics and Pollen-to-Seed Efficiency",
+   "section": "11.2.3",
+   "definition": "In brief, In brief, In brief, In brief, the move of pollen grains from anther to stigma via wind, water, or animal vectors, evaluated by the pollen grains needed per seed formed.",
+   "formula": "pollen_per_seed = total_pollen / seeds_formed",
+   "key_idea": "Wind pollination requires massive excess pollen release compared to targeted animal pollination.",
+   "textbook_ref": "iesc111.txt lines 241-295",
+   "question_patterns": [
+    "calculate pollen to seed ratio",
+    "determine pollen efficiency for wind vs insect pollination",
+    "compute average pollen grains expended per seed produced",
+    "find ratio of pollen grains released to seeds harvested"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate pollen to seed ratio",
+     "explain": "Divide total pollen grains released by total seeds successfully formed.",
+     "compute": "pollen_per_seed = total_pollen / seeds_formed"
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.7",
+   "title": "Fertilisation and Reproductive Strategies in Animals",
+   "section": "11.3",
+   "definition": "In brief, In brief, the fusion of both both both both both both both both both both both both both both both both both both both both both both both both male and female gametes occurring either externally in aquatic environments or internally within the female body.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "External fertilisation relies on high egg quantities to offset loss, whereas internal fertilisation provides higher protection.",
+   "textbook_ref": "iesc111.txt lines 296-360",
+   "question_patterns": [
+    "contrast external and internal fertilisation in animals",
+    "why do aquatic animals produce thousands of eggs",
+    "explain how zygote converts to embryo and fruit in plants",
+    "compare offspring survival rates between fish and birds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify fertilisation environment",
+     "explain": "Classify fertilization as external (outside body, in water) or internal (inside female organism)."
+    },
+    {
+     "step": 2,
+     "action": "analyze egg volume versus survival probability",
+     "explain": "High egg loss from predators in water demands large clutch sizes, whereas internal development requires fewer eggs."
+    },
+    {
+     "step": 3,
+     "action": "explain post-fertilisation progression",
+     "explain": "Zygote undergoes cell division into an embryo; in plants ovule forms seed and ovary forms fruit."
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.8",
+   "title": "Human Reproductive Systems Anatomy",
+   "section": "11.5.2",
+   "definition": "The structural system of human male and female organs responsible for producing sperm and eggs, facilitating fertilization, and nourishing developing embryos.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, Testes in scrotum form sperm; ovaries produce both eggs and support uterine foetal development.",
+   "textbook_ref": "iesc111.txt lines 361-420",
+   "question_patterns": [
+    "describe organs of male reproductive system and their functions",
+    "describe female reproductive organs and site of fertilisation",
+    "why are testes located inside the scrotum",
+    "what roles do accessory glands play in human male reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe male reproductive structures",
+     "explain": "Testes in scrotum maintain lower temperature for sperm formation; vas deferens and glands transport sperm through urethra."
+    },
+    {
+     "step": 2,
+     "action": "describe female reproductive structures",
+     "explain": "Ovaries release eggs; oviducts host fertilization; uterus provides muscular lining for embryo implantation."
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.9",
+   "title": "Menstrual Cycle Timing and Ovulation Prediction",
+   "section": "11.5.6",
+   "definition": "The repeating monthly reproductive cycle in females involving uterine lining buildup, egg release during ovulation, and shedding via menstruation.",
+   "formula": "next_period_day = last_period_day + cycle_length",
+   "key_idea": "Ovulation occurs roughly midpoint in the cycle while next menstruation follows one cycle length later.",
+   "textbook_ref": "iesc111.txt lines 421-460",
+   "question_patterns": [
+    "calculate expected date of next menstrual period",
+    "predict next period date given cycle length and start day",
+    "determine approximate day of ovulation in menstrual cycle",
+    "find when menstruation cycle repeats"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate next period start day",
+     "explain": "Add full cycle length to the start date of the last menstrual period.",
+     "compute": "next_period_day = last_period_day + cycle_length"
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.10",
+   "title": "Contraception and Sexually Transmitted Infection Prevention",
+   "section": "11.5.10",
+   "definition": "Preventative medical and physical strategies used to avoid unplanned pregnancy and protect against sexually transmitted infections.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Barrier methods prevent STI transmission and unintended pregnancy, while hormonal, IUD, and surgical methods prevent pregnancy.",
+   "textbook_ref": "iesc111.txt lines 480-530",
+   "question_patterns": [
+    "what are different contraceptive methods available",
+    "how do condoms protect against STIs and pregnancy",
+    "explain operation of intrauterine devices like copper T",
+    "what are surgical methods of contraception in males and females"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify birth control methods",
+     "explain": "Group into barrier devices (condoms), oral hormonal pills, IUDs (Copper-T), and surgical blockages (vasectomy/tubectomy)."
+    },
+    {
+     "step": 2,
+     "action": "differentiate STI protection capability",
+     "explain": "Condoms act as mechanical barriers preventing direct fluid contact and stopping STI pathogens like HIV, syphilis, and gonorrhoea."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc111.txt Section 11.2.1",
+   "concept": "iesc.111.3",
+   "question_type": "compute",
+   "question_pattern": "A human body cell contains {diploid_chromosomes} chromosomes. Calculate the number of chromosomes present in a human sperm cell.",
+   "extracted_variables": {
+    "diploid_chromosomes": "46"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate haploid chromosome number",
+     "explain": "Divide total diploid cell chromosomes by two to get haploid gamete chromosome count.",
+     "compute": "haploid_chromosomes = diploid_chromosomes / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc111.txt Activity 11.4",
+   "concept": "iesc.111.4",
+   "question_type": "compute",
+   "question_pattern": "During meiotic simulation with {num_pairs} pairs of distinct chromosomes, calculate the total possible unique gamete combinations.",
+   "extracted_variables": {
+    "num_pairs": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate unique gamete combinations",
+     "explain": "Raise base 2 to the power of independent chromosome pair count.",
+     "compute": "combinations = 2 ** num_pairs"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iesc111.txt Table 11.3",
+   "concept": "iesc.111.6",
+   "question_type": "compute",
+   "question_pattern": "A wind-pollinated maize plant releases {total_pollen} pollen grains to produce {seeds_formed} seeds. Calculate the pollen to seed ratio.",
+   "extracted_variables": {
+    "total_pollen": "500000",
+    "seeds_formed": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate pollen to seed ratio",
+     "explain": "Divide total pollen grains released by total seeds successfully formed.",
+     "compute": "pollen_per_seed = total_pollen / seeds_formed"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iesc111.txt Pause and Ponder Q7",
+   "concept": "iesc.111.9",
+   "question_type": "compute",
+   "question_pattern": "Rina's menstrual cycle recurs every {cycle_length} days. Her last period began on day {last_period_day} of March. On which day of March is her next period expected to begin?",
+   "extracted_variables": {
+    "cycle_length": "28",
+    "last_period_day": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate next period start day",
+     "explain": "Add full cycle length to the start date of the last menstrual period.",
+     "compute": "next_period_day = last_period_day + cycle_length"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "iesc111.txt Revise, Reflect, Refine",
+   "questions": [
+    "A flower's anthers are removed before it matures. Later, pollen from another plant of the same species is dusted onto its stigma and seeds are produced. Which process has been ensured here?",
+    "Arrange the following stages of sexual reproduction in plants in the correct order: (i) Pollen germination on stigma (ii) Fertilisation (iii) Pollination (iv) Formation of zygote",
+    "Assertion (A): The zygote formed after fertilisation immediately attaches to the uterus wall. Reason (R): The uterus wall is always prepared to receive the zygote.",
+    "Why does asexual reproduction produce offsprings that are genetically identical to the parent?",
+    "Explain why the menstrual cycle stops during pregnancy.",
+    "Why are flowers that bloom at night white or light in colour as compared to flowers that bloom during the day?",
+    "Why do vegetatively propagated plants tend to be more vulnerable to diseases than sexually reproduced plants?",
+    "If all flowers in a type of plant were only capable of self-pollination, how would it affect the genetic diversity over several generations? Explain.",
+    "A farmer wants to produce a large number of genetically identical plants quickly. Suggest suitable reproduction methods and explain why they are effective.",
+    "Suresh prepares slides with pollen grains in different sugar concentrations (0%, 2.5%, 5%, 7.5%, 10%) to study the germination of pollen. (i) What are the different hypotheses which can be tested using this set-up? (ii) What parameters should be kept the same in this set-up?",
+    "A student claims, 'In humans, ovulation always happens on day 14 of the menstrual cycle'. Critically examine this claim and state whether the claim is correct or not. Give at least two reasons for your answer."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_005",
+   "title": "c11_acc_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the debit/credit rule for expenses and for revenues according to the modern accounting equation approach.",
+     "a": "Expenses: Increase → Debit, Decrease → Credit. Revenues: Increase → Credit, Decrease → Debit. A wrong answer (e.g., \"expenses increase → credit\") reveals the student is confusing expense rules with liability/capital rules or memorising without understanding the capital linkage. This indicates they haven't grasped that expenses reduce capital (so behave like assets) while revenues increase capital (so behave like liabilities/capital).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since rent paid is an outflow of cash, we should credit Rent Expense because cash is credited.\" Explain why this reasoning is incorrect using the accounting equation.",
+     "a": "Rent paid decreases cash (asset) → credit Cash. But rent is an expense that decreases capital → debit Rent Expense. The student incorrectly applies the asset rule (decrease → credit) to the expense account. The correct analysis: Assets = Liabilities + Capital. Rent expense reduces capital, so it must be debited to maintain equation balance. A wrong answer reveals the student treats expense accounts like asset accounts, not understanding expenses are sub-categories of capital reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Pass the journal entry for: \"Paid ₹8,000 salary to employees by cheque.\" Identify the accounts affected, their types, and the debit/credit for each.",
+     "a": "Salary A/c Dr. 8,000 / To Bank A/c 8,000. Salary (Expense) increases → Debit. Bank (Asset) decreases → Credit. A wrong answer (e.g., debiting Bank, crediting Salary) reveals the student cannot distinguish between the expense account rule and the asset account rule, or confuses \"payment\" with \"expense recognition.\" They may also miss that cheque payment affects Bank, not Cash.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two transactions: (A) Received ₹5,000 commission in advance from a client. (B) Earned ₹5,000 commission by providing services. Analyse how each affects the accounting equation and the debit/credit treatment.",
+     "a": "(A) Cash ↑ (Asset, Debit) + Unearned Commission ↑ (Liability, Credit) — no revenue yet. (B) Cash/Debtors ↑ (Asset, Debit) + Commission Revenue ↑ (Revenue, Credit) — capital increases. The key difference: (A) creates a liability (obligation to perform), (B) creates revenue (capital increase). A wrong answer that treats both as revenue credits reveals the student doesn't distinguish between cash receipt and revenue recognition (accrual concept).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Outstanding salary of ₹3,000 should be debited to Salary Expense and credited to Cash because it's a salary payment.\" Is this correct? Justify.",
+     "a": "Incorrect. Outstanding salary means salary incurred but not yet paid. Entry: Salary A/c Dr. 3,000 / To Outstanding Salary A/c 3,000. Salary (Expense) increases → Debit. Outstanding Salary (Liability) increases → Credit. Cash is unaffected. The statement wrongly assumes cash payment. A wrong evaluation reveals the student confuses \"outstanding\" (accrued liability) with \"paid\" and misapplies the liability rule (increase → credit) by crediting Cash instead of the liability account.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario involving at least three transactions where both expenses and revenues are recognised, including one prepaid expense and one accrued revenue. Write the journal entries for all.",
+     "a": "Example: (1) Paid ₹12,000 insurance premium for 12 months (Prepaid Insurance Dr. 12,000 / Bank Cr. 12,000). (2) Earned ₹20,000 consulting fees, client to pay next month (Accrued Revenue Dr. 20,000 / Consulting Revenue Cr. 20,000). (3) Paid ₹5,000 electricity bill (Electricity Expense Dr. 5,000 / Cash Cr. 5,000). A poor answer uses only cash transactions, misses prepaid/accrued distinctions, or misclassifies accounts (e.g., debiting Insurance Expense instead of Prepaid Insurance). This reveals inability to apply expense/revenue rules beyond simple cash transactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

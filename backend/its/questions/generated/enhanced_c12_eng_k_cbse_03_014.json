@@ -1,0 +1,36 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_03_014",
+   "title": "c12_eng_k_cbse_03_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for literary analysis answers and state what each letter stands for in the context of answering a question on \"A Wedding in Brownsville.\"",
+     "a": "PEEL stands for: P — Point (topic sentence answering the question directly, e.g., \"Singer uses surrealism to externalise Dr Margolin's unresolved Holocaust trauma\"); E — Evidence (specific textual reference, e.g., \"the taxi ride where Margolin wonders if the world is 'plunging away somewhere into the unknown toward a cosmic destination'\"); E — Explanation (analysis of how the evidence proves the point, e.g., \"the cosmic metaphor mirrors his psychological dissociation, suggesting his mind has detached from reality\"); L — Link (connect back to the question's key term or central theme, e.g., \"thus surrealism makes trauma experiential for the reader\"). A wrong answer (e.g., \"PEEL means Point, Example, Explain, Link\" without story-specific application) reveals the student memorised the acronym but cannot operationalise it for this text.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Dr Margolin is a tragic character because he lost his family in the Holocaust and his true love Raizel died.\" Identify the specific weakness in this answer for a CBSE 6-mark question and explain how to fix it using textual evidence.",
+     "a": "The answer states facts but lacks ANALYSIS — it narrates plot instead of analysing character construction. For 6 marks, CBSE expects: (1) identification of tragic dimensions (survivor's guilt, identity fragmentation, failed redemption), (2) evidence like \"Hitler's carnage... had rooted out his last hope for better days, had destroyed all his faith in humanity\" and \"All his life Solomon Margolin had been plagued by the eternal questions,\" (3) explanation of how these create tragic stature — his professional success (\"office on West End Avenue\") contrasts with spiritual emptiness, (4) link to the story's central concern: trauma prevents closure. The fix: replace narration with \"Margolin's tragedy lies in the disjunction between his public success and private fragmentation, evidenced when...\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL method to answer this 4-mark question: \"How does the wedding setting function symbolically in the story?\" Provide a complete structured response.",
+     "a": "**Point:** The wedding hall symbolises the fractured post-Holocaust Jewish diaspora — a space where survival masquerades as celebration. **Evidence 1:** The \"amalgam of odours: flowers, sauerkraut, garlic, perfume, mustard, and that nameless odour that only Senciminers emit\" mixes joy with the unspoken scent of shared trauma. **Evidence 2:** The guests' banter inevitably returns to \"died, shot, burned\" — \"Abraham Zilberstein? They burned him in the synagogue with twenty others.\" **Explanation:** The sensory overload (music, food, dancing) creates a manic defence against grief; the recurring death toll transforms the wedding into a mass memorial. The \"neon Jewish sign and Star of David\" atop the hall ironically commodifies identity. **Link:** Thus the wedding becomes a liminal space where the community performs continuity while enacting its own disintegration. *Steps: 1) Identify symbolic function 2) Select two contrasting textual details 3) Analyse their interplay 4) Connect to diaspora theme.*",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how Singer's narrative perspective shifts in the final section (chapel scene) and evaluate the effect of this shift on the reader's understanding of Margolin's psychological state.",
+     "a": "The narrative shifts from third-person limited (Margolin's conscious perception) to a destabilised perspective where reality/fantasy boundaries dissolve. Initially we see through Margolin's eyes: \"He found his eye caught by her familiar form.\" In the chapel, the narration adopts Margolin's hallucinatory logic — \"He could find no trace of pulse or breathing\" presented as objective fact, not subjective sensation. The shift peaks when Margolin diagnoses himself clinically (\"as though he were one of his own patients\"), merging doctor/patient identities. Effect: the reader experiences Margolin's dissociation viscerally — we cannot distinguish memory, hallucination, or afterlife. This mimics Holocaust trauma's temporal collapse where past/present/future merge. A weak analysis would only note \"the perspective changes\" without linking the clinical self-examination to his professional identity (\"He had never broken the Hippocratic Oath\") or the story's surrealist logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 100-word analytical paragraph answering: \"How does Singer use the motif of 'names' to explore identity erasure and recovery in the story?\" Use PEEL structure with two textual references.",
+     "a": "**Point:** Names in the story function as fragile anchors of identity against historical erasure. **Evidence 1:** At the wedding, names become death records — \"Berish the son of Feivish? Starved to death in Russia... Sorele? Shot. Together with her children\" — each name a tombstone. **Evidence 2:** Margolin's reclaimed name \"Schloime-Dovid, the little boy with the blond side-curls who recited a whole tractate of the Talmud by heart\" restores his pre-trauma self. **Explanation:** The Senciminers' ritualised naming (\"son of,\" \"daughter of\") reconstructs genealogies the Nazis severed. Margolin's oscillation between \"Dr Solomon Margolin\" (assimilated success) and \"Schloime-Dovid\" (prodigy of Sencimin) enacts the diaspora's identity split. **Link:** Raizel's recognition — \"To me you're still the same Schloime-Dovid\" — momentarily heals the fracture, proving names can resurrect identity even when bodies cannot. *A poor answer lists names without analysing their structural role in the trauma/recovery dialectic.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

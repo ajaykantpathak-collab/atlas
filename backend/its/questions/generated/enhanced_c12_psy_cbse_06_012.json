@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_012",
+   "title": "c12_psy_cbse_06_012",
+   "questions": [
+    {
+     "q": "State the three main strategies for handling prejudice mentioned in the NCERT Class 12 textbook, and for each strategy, name ONE necessary condition for its success.",
+     "a": "The three strategies are: (1) Education and information dissemination — necessary condition: stereotypes must be explicitly corrected with accurate, counter-stereotypic information about the target group; (2) Increasing intergroup contact — necessary condition: contact must occur in a cooperative (not competitive) context, with equal status and institutional support; (3) Highlighting individual identity — necessary condition: individuals must be encouraged to see outgroup members as unique individuals with personal attributes, not as group representatives. A wrong answer that lists strategies without conditions reveals the student has memorised labels but not the boundary conditions that determine effectiveness — a critical error in board exam application questions.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher tells students \"All members of Community X are honest\" to counter the prevailing stereotype that \"Community X is dishonest.\" Explain why this well-intentioned statement may fail to reduce prejudice, using the concept of stereotype structure.",
+     "a": "The teacher's statement replaces one overgeneralisation (\"all are dishonest\") with another (\"all are honest\"), keeping the cognitive structure of stereotyping intact — it still treats the group as homogeneous. Prejudice reduction requires breaking the \"all members share the same trait\" assumption by presenting variability within the group (e.g., \"Some members of Community X are honest, others are not, just like in any community\"). A wrong answer that says \"positive stereotypes are good\" reveals the misconception that valence (positive vs. negative) matters more than the categorical thinking itself — the core cognitive error in prejudice.",
+     "self_check": true
+    },
+    {
+     "q": "Two rival cricket teams from different schools are forced to share a bus for a 3-hour journey to a tournament. They sit separately, glare at each other, and trade insults. The principal hopes this contact will reduce prejudice. Using Allport's contact hypothesis conditions, explain why this intervention will likely FAIL and what specific changes would make it succeed.",
+     "a": "This contact fails on three of Allport's four conditions: (1) It is competitive (rivals), not cooperative; (2) Status is unequal (one team may have won previously); (3) No institutional support structures the interaction toward a common goal. To succeed: restructure as mixed-team cooperative activities (e.g., joint warm-up drills requiring teamwork), ensure equal status by mixing players, and have coaches explicitly frame the shared goal. A wrong answer that says \"any contact reduces prejudice\" reveals the \"contact hypothesis oversimplification\" error — ignoring that contact under negative conditions can increase prejudice (the \"contact backfire\" effect).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"education/information dissemination\" and \"highlighting individual identity\" as prejudice reduction strategies in terms of: (a) which component of prejudice (cognitive/affective/behavioural) they primarily target, and (b) their limitation when used alone.",
+     "a": "(a) Education primarily targets the cognitive component (stereotypes) by providing correct information; highlighting individual identity targets the cognitive (recategorisation) and affective components by fostering personalised impressions that generate empathy. (b) Education alone fails when stereotypes are emotionally anchored (affective resistance) or when people lack motivation to process information; highlighting individual identity alone fails when group identity is highly salient (e.g., during intergroup conflict) and situational cues override individuating information. A wrong answer that says \"both target stereotypes\" misses that individuation works by creating a new cognitive category (\"unique individual\") that competes with the group category, not just by correcting facts.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following school policy: \"To reduce caste-based prejudice, we will organise a one-day cultural festival where each caste group performs its traditional dance. Students will watch performances but not interact.\" Evaluate its likely effectiveness using the three strategies framework.",
+     "a": "This policy is likely INEFFECTIVE. It uses a superficial \"education\" approach (exposure to culture) without correcting stereotypes or providing counter-stereotypic information. It violates intergroup contact conditions: no cooperation (passive audience), no equal-status interaction, no common goal. It reinforces group categorisation (caste labels are highlighted) rather than highlighting individual identity. Effective policy would combine: (1) classroom discussions challenging caste stereotypes with data, (2) sustained cooperative learning groups with mixed-caste membership working on academic projects, (3) activities where students share personal aspirations unrelated to caste. A wrong answer praising the festival for \"celebrating diversity\" reveals the \"multicultural exposure fallacy\" — confusing cultural appreciation with prejudice reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-week prejudice reduction module for a Class 12 classroom with religious diversity. Specify: (a) one activity per week, (b) which strategy it implements, (c) the specific Allport condition or individuation mechanism it leverages.",
+     "a": "Sample design: Week 1 — Stereotype audit (students list beliefs about each religion, then examine counter-stereotypic data) → Education / targets cognitive component. Week 2 — Jigsaw classroom on a curriculum topic (mixed-religion groups, each member essential) → Intergroup contact / cooperation + equal status. Week 3 — \"My story, not my label\" — students share personal dreams/fears in pairs across religious lines → Highlighting individual identity / individuation via self-disclosure. Week 4 — Joint community service project (clean neighbourhood park) → Intergroup contact / common goal + institutional support. Week 5 — Perspective-taking writing: \"A day in the life of my partner from Week 3\" → Highlighting individual identity / empathy induction. Week 6 — Reflection circle: \"What surprised me about individuals vs. my group expectations\" → Consolidation / metacognitive recategorisation. A poor answer lists generic \"fun activities\" without mapping to strategy mechanisms, revealing inability to operationalise theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

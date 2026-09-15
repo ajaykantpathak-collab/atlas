@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_008",
+   "title": "c11_bs_cbse_10_008",
+   "questions": [
+    {
+     "q": "State the six criteria that make a product suitable for mail order trading as per NCERT.",
+     "a": "The six criteria are: (i) graded and standardised, (ii) easily transported at low cost, (iii) ready demand in the market, (iv) available in large quantity throughout the year, (v) least possible competition, (vi) can be described through pictures/catalogues. A wrong answer (e.g., listing \"perishable goods\" or \"high-value jewellery\") reveals the student has memorised features without understanding the logistical and informational constraints that define mail order suitability.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"high dependence on postal services\" is listed as a limitation of mail order houses, and give one real-world situation where this limitation would critically fail.",
+     "a": "Mail order houses rely entirely on postal/courier networks for both order receipt and goods delivery; if postal services are disrupted, delayed, or absent in a region, the business cannot function. A critical failure situation: a mail order house trying to serve villages in Arunachal Pradesh where postal delivery takes 15-20 days and no courier operates. A wrong answer (e.g., \"internet is slow\") confuses mail order with e-commerce and misses the physical logistics dependency.",
+     "self_check": true
+    },
+    {
+     "q": "A company wants to sell handmade artisanal pottery (fragile, unique designs, made-to-order) via mail order. Using the six suitability criteria, evaluate whether this product is appropriate. Justify each criterion.",
+     "a": "Not suitable. (i) Not graded/standardised — each piece is unique. (ii) Not easily transported at low cost — fragile, high breakage risk, bulky packaging. (iii) Ready demand uncertain — niche product. (iv) Not available in large quantity year-round — made-to-order, limited artisan capacity. (v) High competition from local pottery. (vi) Hard to describe fully via pictures — tactile feel, weight, glaze variation matter. A wrong answer that says \"yes, because pictures can show design\" ignores criteria (i), (ii), (iv) and shows inability to apply all criteria holistically.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"elimination of middlemen\" merit of mail order houses with that of departmental stores. In what fundamental way does the supply chain differ?",
+     "a": "Both eliminate middlemen, but departmental stores buy directly from manufacturers and operate their own warehouses (they *are* the retailer-warehouser), while mail order houses may be manufacturers themselves or single intermediaries who bypass wholesalers/retailers but still depend on postal logistics as the \"distribution channel.\" The fundamental difference: departmental stores create a physical distribution hub; mail order houses substitute the entire physical retail chain with a communication-and-postal chain. A wrong answer treating them as identical misses the structural difference in *how* middlemen are eliminated.",
+     "self_check": true
+    },
+    {
+     "q": "\"Mail order houses provide convenience to customers.\" Critique this statement by analysing two scenarios where this convenience is illusory for the buyer.",
+     "a": "Convenience is illusory when: (1) The buyer is illiterate or semi-literate — cannot read catalogues, fill order forms, or understand VPP terms, making the process inaccessible, not convenient. (2) The product requires trial/fitting (e.g., shoes, garments) — delayed delivery + no physical inspection + cumbersome return via post creates *inconvenience*. A wrong answer that only cites \"doorstep delivery\" as convenience shows surface-level understanding without evaluating the buyer's capability and product nature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mail order business model for selling certified organic spices to urban households across India. Specify: (a) how you will overcome the \"high promotion cost\" limitation, (b) how you will address \"no after-sales service\" for quality complaints, (c) one product-line modification to meet \"graded and standardised\" criterion.",
+     "a": "(a) Overcome promotion cost: Use targeted digital ads (low cost) driving traffic to a free downloadable PDF catalogue + WhatsApp ordering, reducing print/postage spend. (b) Address after-sales: Include a toll-free number and QR code on packaging for instant quality complaints; offer replacement via courier (not post) at company cost for verified issues. (c) Product modification: Sell only pre-packed, FSSAI-certified, fixed-weight (50g/100g) spice blends with batch numbers and expiry dates — not loose spices. A poor answer suggests \"advertise more on TV\" (increases cost) or \"ignore complaints\" (violates consumer protection), showing inability to innovate within constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

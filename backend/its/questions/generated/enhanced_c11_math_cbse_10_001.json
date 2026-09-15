@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_001",
+   "title": "c11_math_cbse_10_001",
+   "questions": [
+    {
+     "q": "What are the coordinates of a point that lies on the positive x-axis at a distance of 5 units from the origin?",
+     "a": "The coordinates are (5, 0). A wrong answer like (0, 5) reveals the student confuses the x-axis with the y-axis, or thinks the first coordinate is vertical distance. Writing (5) without a second coordinate shows they don't understand that every point in the plane requires an ordered pair.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the point (−3, 4) lies in the second quadrant, while (3, −4) lies in the fourth quadrant.",
+     "a": "In the second quadrant, x is negative (left of the y-axis) and y is positive (above the x-axis); (−3, 4) satisfies this. In the fourth quadrant, x is positive (right of the y-axis) and y is negative (below the x-axis); (3, −4) satisfies this. A student who swaps the quadrants likely memorised the order incorrectly or confuses the sign pattern. If they say both are in the same quadrant, they are ignoring the sign of one coordinate.",
+     "self_check": true
+    },
+    {
+     "q": "Plot the points A(2, 3), B(−2, 3), C(−2, −3), D(2, −3) on a Cartesian plane. What shape do they form? Write the coordinates of the point symmetric to A with respect to the y-axis.",
+     "a": "The points form a rectangle (actually a square of side 4). The point symmetric to A(2, 3) about the y-axis is (−2, 3) which is B. A wrong shape (e.g., rhombus) indicates incorrect plotting. Giving (2, −3) as the symmetric point shows confusion between symmetry about the y-axis (change sign of x) and symmetry about the x-axis (change sign of y).",
+     "self_check": true
+    },
+    {
+     "q": "A point P has coordinates (a, b). If P is reflected in the x-axis to get P', and then P' is reflected in the y-axis to get P'', what are the coordinates of P'' in terms of a and b? How does this relate to a 180° rotation about the origin?",
+     "a": "Reflection in x-axis: (a, b) → (a, −b). Reflection in y-axis: (a, −b) → (−a, −b). So P'' = (−a, −b). This is exactly the result of rotating P by 180° about the origin. A student who gets (a, b) or (−a, b) is applying reflections incorrectly or confusing the order. If they cannot relate it to rotation, they miss the geometric interpretation of sign changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the point (0, −5) lies in the fourth quadrant because its y-coordinate is negative. Evaluate this claim and correct it if necessary.",
+     "a": "The claim is false. A point lies in a quadrant only if both coordinates are non-zero. (0, −5) lies on the negative y-axis, not in any quadrant. The student incorrectly applies the sign rule without checking for zero coordinates. This is a common error: forgetting that axes are boundaries, not part of quadrants.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) where locating a point using two coordinates is essential. Define your axes, origin, and scale, then give the coordinates of three important locations in your scenario.",
+     "a": "Example: A school ground with the flagpole as origin. x-axis points East, y-axis points North. Scale: 1 unit = 10 m. Library at (30, 20) means 300 m East, 200 m North. Canteen at (−15, 10). Playground at (0, −40). A good answer defines axes clearly, uses consistent scale, and gives coordinates with correct signs. A poor answer uses vague directions, mixes up axes, or gives coordinates that don't match the described positions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

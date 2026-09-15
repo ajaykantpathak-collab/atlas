@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_006",
+   "title": "c12_chem_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the integrated rate equation for a first-order reaction in its natural logarithm form and identify the slope and intercept when ln[R] is plotted against time *t*.",
+     "a": "The integrated rate equation is ln[R] = −kt + ln[R]₀. A plot of ln[R] vs *t* is a straight line with slope = −k and intercept = ln[R]₀. A wrong answer (e.g., slope = +k or intercept = [R]₀) reveals confusion between the differential form (−d[R]/dt = k[R]) and the integrated form, or a sign error during integration.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the first-order integrated equation as [R] = [R]₀ − kt. Explain why this is incorrect and what order of reaction that equation actually represents.",
+     "a": "The equation [R] = [R]₀ − kt is the integrated rate law for a *zero-order* reaction, not first order. For first order, the rate depends on [R], so the concentration decays exponentially, not linearly. Writing the linear form indicates the student has not performed the integration step (∫ d[R]/[R] = −k∫ dt) and is confusing the two orders.",
+     "self_check": true
+    },
+    {
+     "q": "For the first-order decomposition of N₂O₅(g) → 2NO₂(g) + ½O₂(g), the initial pressure is 0.500 atm. After 100 s the total pressure is 0.512 atm. Calculate the rate constant *k* (in s⁻¹) using the pressure-based integrated equation. Show all steps.",
+     "a": "Step 1: For 2N₂O₅ → 2NO₂ + O₂, let decrease in N₂O₅ pressure = 2x. Then p_N₂O₅ = 0.500 − 2x, p_NO₂ = 2x, p_O₂ = x. Total pressure p_t = 0.500 + x = 0.512 ⇒ x = 0.012 atm.  \nStep 2: p_N₂O₅ at 100 s = 0.500 − 2(0.012) = 0.476 atm.  \nStep 3: Use k = (2.303/t) log(p₀/p_t) = (2.303/100) log(0.500/0.476) = 0.02303 × log(1.0504) = 0.02303 × 0.0214 = 4.93 × 10⁻⁴ s⁻¹.  \nA wrong answer (e.g., using total pressure directly or wrong stoichiometry) reveals inability to relate partial pressures to total pressure changes in gaseous reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the half-life expressions for zero-order and first-order reactions. Explain why the half-life of a first-order reaction is independent of initial concentration while that of a zero-order reaction is directly proportional to it.",
+     "a": "For zero order: t₁/₂ = [R]₀/(2k) ∝ [R]₀. For first order: t₁/₂ = 0.693/k (no [R]₀). In zero order, rate is constant (k), so time to consume half the reactant scales with initial amount. In first order, rate decreases proportionally as [R] decreases, so the time to halve the concentration remains constant. A wrong explanation (e.g., “first order also depends on [R]₀”) shows lack of understanding of the mathematical structure of the integrated laws.",
+     "self_check": true
+    },
+    {
+     "q": "A reaction follows first-order kinetics. The concentration drops from 0.80 M to 0.20 M in 40 minutes. A student claims the rate constant is k = (0.80−0.20)/(40) = 0.015 M min⁻¹. Evaluate this claim and calculate the correct *k*.",
+     "a": "The claim is incorrect because the student used the zero-order formula (Δ[R]/Δt) instead of the first-order logarithmic formula. Correct calculation: k = (2.303/40) log(0.80/0.20) = (0.057575) log(4) = 0.057575 × 0.6021 = 0.0347 min⁻¹. The error reveals the student cannot distinguish between the algebraic forms for different orders.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using readily available materials (e.g., H₂O₂ solution, KI catalyst, gas syringe) to verify that the decomposition of H₂O₂ is first order. Outline the data you would collect, the graph you would plot, and how you would confirm first-order behaviour.",
+     "a": "Collect volume of O₂ gas evolved at regular time intervals. Convert volume to [H₂O₂] remaining (using stoichiometry: 2H₂O₂ → 2H₂O + O₂). Plot ln[H₂O₂] vs *t*. If the plot is linear with a good correlation coefficient (R² ≈ 1), the reaction is first order. A poor answer (e.g., plotting volume directly vs time and expecting a straight line) shows misunderstanding of the concentration–time relationship for first-order kinetics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

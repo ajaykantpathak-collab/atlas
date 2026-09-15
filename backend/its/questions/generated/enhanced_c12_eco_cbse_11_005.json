@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_005",
+   "title": "c12_eco_cbse_11_005",
+   "questions": [
+    {
+     "q": "Define Revenue Deficit, Fiscal Deficit, and Primary Deficit with their respective formulas. Use standard notation: RE = Revenue Expenditure, RR = Revenue Receipts, TE = Total Expenditure, TR = Total Receipts (excl. borrowings), IP = Interest Payments.",
+     "a": "Revenue Deficit = RE – RR. Fiscal Deficit = TE – TR. Primary Deficit = Fiscal Deficit – IP = (TE – TR) – IP. A wrong answer like \"Revenue Deficit = Total Expenditure – Total Receipts\" reveals confusion between revenue and total accounts. Writing \"Primary Deficit = Revenue Deficit – Interest Payments\" shows misunderstanding that primary deficit relates to fiscal deficit, not revenue deficit. Students often omit \"excluding borrowings\" in total receipts for fiscal deficit, missing that borrowings finance the deficit, not reduce it.",
+     "self_check": true
+    },
+    {
+     "q": "The Union Budget 2023-24 showed Revenue Deficit of ₹8.7 lakh crore and Fiscal Deficit of ₹17.9 lakh crore. A student claims: \"Since Fiscal Deficit is larger, it includes Revenue Deficit plus all capital expenditure.\" Is this statement correct? Explain why or why not using the components of Fiscal Deficit.",
+     "a": "The statement is partially correct but incomplete. Fiscal Deficit = Revenue Deficit + Capital Expenditure – Non-debt Capital Receipts (like loan recoveries, disinvestment). The student missed that non-debt capital receipts reduce the fiscal deficit. For example, if Capital Expenditure = ₹10 lakh crore and Non-debt Capital Receipts = ₹2 lakh crore, then Fiscal Deficit = ₹8.7 + ₹10 – ₹2 = ₹16.7 lakh crore, not ₹18.7 lakh crore. A wrong answer reveals the student treats Fiscal Deficit as simply Revenue Deficit + Capital Expenditure, ignoring the offsetting role of non-debt capital receipts — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Revenue Receipts = ₹25 lakh crore, Revenue Expenditure = ₹32 lakh crore, Capital Expenditure = ₹10 lakh crore, Non-debt Capital Receipts = ₹3 lakh crore, Interest Payments = ₹9 lakh crore. Calculate Revenue Deficit, Fiscal Deficit, and Primary Deficit. Show all steps.",
+     "a": "Step 1: Revenue Deficit = RE – RR = 32 – 25 = ₹7 lakh crore.\nStep 2: Total Expenditure = RE + CE = 32 + 10 = ₹42 lakh crore.\nStep 3: Total Receipts (excl. borrowings) = RR + Non-debt Capital Receipts = 25 + 3 = ₹28 lakh crore.\nStep 4: Fiscal Deficit = TE – TR = 42 – 28 = ₹14 lakh crore.\nStep 5: Primary Deficit = Fiscal Deficit – IP = 14 – 9 = ₹5 lakh crore.\nA wrong answer like Fiscal Deficit = 42 – 25 = 17 (using only revenue receipts) shows confusion between total receipts and revenue receipts. Calculating Primary Deficit = Revenue Deficit – IP = 7 – 9 = –2 reveals the misconception that primary deficit derives from revenue deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Economy A has Fiscal Deficit 6% of GDP, Primary Deficit 1% of GDP. Economy B has Fiscal Deficit 4% of GDP, Primary Deficit 3% of GDP. Which economy has a higher interest payment burden relative to GDP? Which economy's current fiscal stance is more expansionary? Justify.",
+     "a": "Interest Payments = Fiscal Deficit – Primary Deficit. Economy A: IP = 6% – 1% = 5% of GDP. Economy B: IP = 4% – 3% = 1% of GDP. Economy A has higher interest burden (5% vs 1%). Primary Deficit reflects current fiscal stance: Economy B (3% of GDP) is more expansionary than Economy A (1% of GDP) because it borrows more for current spending beyond interest. A wrong answer claiming Economy A is more expansionary because its fiscal deficit is higher confuses total borrowing (which includes past debt servicing) with current policy stance. This is a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"Reducing Revenue Deficit to zero automatically eliminates Fiscal Deficit.\" Evaluate this statement. Under what specific condition would this be true? Use the formula linking the three deficits.",
+     "a": "The statement is FALSE. Fiscal Deficit = Revenue Deficit + Capital Expenditure – Non-debt Capital Receipts. Even if Revenue Deficit = 0, Fiscal Deficit = Capital Expenditure – Non-debt Capital Receipts. This equals zero ONLY if Capital Expenditure = Non-debt Capital Receipts. In practice, capital expenditure (infrastructure, asset creation) exceeds non-debt capital receipts (disinvestment, loan recoveries), so Fiscal Deficit persists. A student answering \"True\" confuses revenue account balance with overall budget balance. This error appears in assertion-reason questions where \"Revenue Deficit = 0 ⇒ Fiscal Deficit = 0\" is presented as a reason.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical Union Budget scenario (with plausible Indian numbers in ₹ lakh crore) where: (a) Revenue Deficit > 0, (b) Fiscal Deficit > Revenue Deficit, (c) Primary Deficit < 0 (primary surplus). Explain the economic interpretation of this combination.",
+     "a": "Example: RR = 30, RE = 35 ⇒ RD = 5. CE = 8, Non-debt CR = 2 ⇒ FD = (35+8) – (30+2) = 43 – 32 = 11. IP = 15 ⇒ PD = 11 – 15 = –4 (primary surplus). Interpretation: Government runs a revenue deficit (current spending > current income) but has a primary surplus because interest payments (15) exceed fiscal deficit (11). This means the government's own operations (excluding debt servicing) generate a surplus, but past debt burden forces overall borrowing. A poor answer giving PD > 0 when FD < IP reveals inability to handle negative primary deficit. Numbers must satisfy: IP > FD > RD > 0.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

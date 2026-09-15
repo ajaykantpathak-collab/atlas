@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_001",
+   "title": "c11_phy_cbse_02_001",
+   "questions": [
+    {
+     "q": "A particle moves along the x-axis. Its positions at t = 0 s, 2 s, 4 s, and 6 s are x = 0 m, +5 m, +2 m, and +8 m respectively. What is the displacement of the particle between t = 0 s and t = 6 s? State the SI unit.",
+     "a": "Displacement = x_final − x_initial = (+8 m) − (0 m) = +8 m. SI unit: metre (m). A wrong answer of +15 m reveals the student is summing path segments (5 + 3 + 6) instead of using final minus initial position. An answer of −8 m reveals confusion about sign convention or subtracting in wrong order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the path length travelled by a particle in one-dimensional motion is always greater than or equal to the magnitude of its displacement. Give a real-world example where they are equal and one where path length is strictly greater.",
+     "a": "Path length is the sum of absolute lengths of all path segments (Σ|Δx_i|), while displacement is the vector sum (ΣΔx_i). By triangle inequality, Σ|Δx_i| ≥ |ΣΔx_i|. Equality holds only when all Δx_i have the same sign (no change in direction). Example of equality: a car driving straight from home to school without turning back. Example of strict inequality: a student walking 100 m east, then 60 m west; path length = 160 m, |displacement| = 40 m. A wrong answer stating \"path length is always greater\" misses the equality case for unidirectional motion.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist starts at x = −10 m on a straight road (positive direction towards the east). She rides to x = +20 m, then turns and rides to x = −5 m. Calculate: (a) total path length, (b) displacement, (c) magnitude of displacement. Express all answers in metres.",
+     "a": "(a) Path length = |(+20) − (−10)| + |(−5) − (+20)| = |30| + |−25| = 30 m + 25 m = 55 m.\n(b) Displacement = x_final − x_initial = (−5 m) − (−10 m) = +5 m.\n(c) Magnitude of displacement = |+5 m| = 5 m.\nA wrong answer of 55 m for displacement reveals confusion between scalar path length and vector displacement. An answer of −5 m for displacement reveals sign error in subtraction (initial − final instead of final − initial).",
+     "self_check": true
+    },
+    {
+     "q": "The position-time (x-t) graph of a particle shows three straight-line segments: from (0, 0) to (2, 10), then to (5, 4), then to (7, 4). Without calculating numerical values, determine: (i) in which segment(s) the particle moves in the positive x-direction, (ii) in which segment(s) it moves in the negative x-direction, (iii) whether the particle is at rest in any segment, and (iv) how the total path length compares to the magnitude of net displacement.",
+     "a": "(i) Segment 1 (0–2 s): slope positive → moves in +x direction. (ii) Segment 2 (2–5 s): slope negative → moves in −x direction. (iii) Segment 3 (5–7 s): slope zero → particle at rest. (iv) Path length = sum of absolute slopes × time intervals = 10 + 6 + 0 = 16 m. Net displacement = final x − initial x = 4 − 0 = 4 m. Path length (16 m) > |displacement| (4 m) because direction reverses. A wrong claim that path length = displacement reveals failure to recognize direction change from slope sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A man walks 3 km east, then 4 km north. Find displacement.\" The student writes: \"Displacement = 3 + 4 = 7 km.\" Evaluate this solution. Is it correct? If not, identify the conceptual error and give the correct displacement magnitude and direction.",
+     "a": "The solution is incorrect. The error: treating displacement as scalar addition of path lengths, ignoring that displacement is a vector requiring vector addition. The two segments are perpendicular (east and north), so displacement magnitude = √(3² + 4²) = 5 km, direction = tan⁻¹(4/3) ≈ 53° north of east. The student's answer of 7 km is the path length, not displacement. This reveals a Class 9-level misconception carried forward: confusing distance (path length) with displacement magnitude in 2D, now applied incorrectly to 1D sign conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, a toy car, and a stopwatch to demonstrate the difference between path length and displacement. Describe the setup, procedure, measurements to take, and how you would calculate both quantities. Your experiment must involve at least one reversal of direction.",
+     "a": "Setup: Place a metre scale horizontally on a table. Mark origin at 50 cm. Place toy car at origin. Procedure: (1) Push car to 80 cm mark (forward), record position. (2) Push car back to 30 cm mark (backward), record position. (3) Push car forward to 90 cm mark, record position. Measurements: initial position x_i = 50 cm, intermediate positions 80 cm, 30 cm, final position x_f = 90 cm. Path length = |80−50| + |30−80| + |90−30| = 30 + 50 + 60 = 140 cm. Displacement = 90 − 50 = +40 cm. A poor answer that only measures final position or doesn't include direction reversal fails to show path length > |displacement|.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

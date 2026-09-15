@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_8",
+   "title": "c8_bio_ch1_8",
+   "questions": [
+    {
+     "q": "What is the most basic structural and functional unit of life in all living organisms?",
+     "a": "A cell. A student who answers \"tissue\" or \"organ\" has misunderstood that tissues and organs are made up of simpler units, whereas the cell is the fundamental starting point of biological organisation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do multicellular organisms require tissues and organ systems instead of surviving with just millions of unorganised individual cells?",
+     "a": "Organised levels allow for division of labor and specialisation, where different groups of cells perform specific functions efficiently (like nerve cells carrying signals or muscle cells contracting). A student who says \"to make the body bigger\" misses the functional necessity of specialisation and efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A doctor examines a sample of human inner cheek lining under a microscope and sees a tight sheet of similar cells working together to protect the underlying layers. Which level of organisation does this sample represent?",
+     "a": "Steps: 1. Identify the biological sample as a collection of similar cells. 2. Note their shared function of protection (barrier). 3. Recall that a group of similar cells performing a specific function is defined as a tissue. 4. Conclude that this is the tissue level. A student who answers \"cell\" missed the group aspect, while one who answers \"organ\" missed that organs consist of multiple tissue types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stomach of an animal with the muscular tissue found within its wall. How do these two levels of organisation differ in structure and function?",
+     "a": "Muscular tissue consists primarily of one specialised cell type working to contract, whereas the stomach is an organ made of multiple tissue types (epithelial, muscular, connective, and nervous) working together to digest food. A student who thinks an organ is just a larger tissue does not understand that organs combine different tissues to execute complex physiological processes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a single green leaf plucked from a mango tree is an organ system because it performs multiple tasks like photosynthesis, respiration, and transpiration. Is this claim scientifically valid? Evaluate with reasoning.",
+     "a": "The claim is incorrect. A leaf is classified as an organ, not an organ system, because it is a single structural unit composed of different tissues (epidermis, mesophyll, vascular tissue) working together. An organ system requires multiple distinct organs working together (like the root, stem, and leaves forming the transport system in plants). A student who agrees with the student is confusing an organ's multiple functions with the multi-organ requirement of an organ system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification flow chart showing how five specific structures (xylem vessel, human heart, red blood cell, circulatory system, mango tree) fit into the levels of organisation from cell to organism.",
+     "a": "The flow chart must correctly sequence: 1. Cell: Red blood cell (or xylem cell). 2. Tissue: Xylem tissue (or blood tissue). 3. Organ: Human heart (or leaf). 4. Organ System: Circulatory system. 5. Organism: Mango tree (or human). A poor answer mixes up tissues and organs or places the organism before its systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

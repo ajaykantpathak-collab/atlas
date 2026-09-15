@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_11",
+   "title": "c8_physics_ch3_11",
+   "questions": [
+    {
+     "q": "What is the SI unit of gravitational force (weight) acting on an object, and how does it differ from the unit of mass?",
+     "a": "The SI unit of weight is the newton (N); the SI unit of mass is the kilogram (kg). A student answering \"kilogram\" for weight confuses mass with force, revealing they have not grasped that weight is a force measured in newtons, not the amount of matter.",
+     "self_check": true
+    },
+    {
+     "q": "Two objects, a 2 kg brick and a 0.5 kg sponge, are dropped from the same height in a vacuum. Which hits the ground first, and why?",
+     "a": "They hit the ground simultaneously because gravitational acceleration g is independent of mass. A wrong answer (e.g., \"the brick falls faster\") reveals the persistent misconception that heavier objects fall faster, confusing greater gravitational force with greater acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A schoolbag has a mass of 4.5 kg. Calculate its weight on Earth. (Take g = 9.8 m/s²)",
+     "a": "Step 1: Identify given: m = 4.5 kg, g = 9.8 m/s². Step 2: Formula W = m × g. Step 3: Substitute: W = 4.5 kg × 9.8 m/s². Step 4: Compute: W = 44.1 kg·m/s² = 44.1 N. Step 5: Verify: A 4.5 kg bag weighs about 44 N, reasonable for a student's bag. An answer of 4.5 N or 44.1 kg shows unit confusion or missing multiplication by g.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I take the same schoolbag to the Moon, its mass becomes less because gravity is weaker.\" Analyze this statement and correct the error.",
+     "a": "The statement is incorrect. Mass (amount of matter) remains 4.5 kg everywhere; only weight changes because g on the Moon is ~1.6 m/s². A student who agrees confuses mass with weight, not understanding mass is an intrinsic property while weight depends on the local gravitational field.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this solution: \"Weight of a 10 kg object = 10 × 10 = 100 N.\" Is it acceptable? Justify.",
+     "a": "It is an approximation (using g = 10 m/s² instead of 9.8 m/s²). For quick estimates it's acceptable, but for precise work g = 9.8 m/s² should be used. A student who says \"it's wrong because g is 9.8\" shows rigidity; one who says \"it's always correct\" lacks awareness of significant figures and context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance and a set of known masses to demonstrate that weight is directly proportional to mass. Describe the procedure and the expected graph.",
+     "a": "Procedure: Hang masses (100 g, 200 g, 300 g, 400 g, 500 g) one by one on a spring balance. Record the weight reading in newtons. Plot weight (y-axis) vs. mass (x-axis). Expected result: A straight line through the origin with slope ≈ 9.8 N/kg. A poor answer might omit converting grams to kilograms, use a non-linear plot, or forget to label axes with units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

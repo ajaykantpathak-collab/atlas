@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_003",
+   "title": "c12_geo_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define household industry and state two features that distinguish it from a small-scale industry.",
+     "a": "A household industry is a manufacturing unit run by family members at home using simple tools and local raw materials with little or no hired labour. Two distinguishing features: (1) Household industries use family labour almost exclusively, while small-scale industries employ hired workers; (2) Household industries have negligible fixed capital (often < ₹1 lakh), whereas small-scale industries have investment up to ₹10 crore (as per MSME Act). A wrong answer that says \"both use hired labour\" or \"both require factory premises\" reveals confusion between the two categories and inability to apply the capital/labour threshold criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Why are household industries predominantly located in rural areas and small towns rather than in large metropolitan cities? Explain using two geographical factors.",
+     "a": "Household industries concentrate in rural/small-town areas because: (1) Low-cost family labour and traditional skills are readily available in villages where alternative employment is scarce; (2) They rely on locally sourced raw materials (cotton, clay, bamboo, jute) which are bulky/perishable and expensive to transport to cities. A wrong answer citing \"government policy\" or \"better market access in cities\" shows misunderstanding of the resource–labour–cost logic that anchors these industries to their raw material and skill base.",
+     "self_check": true
+    },
+    {
+     "q": "A village in West Bengal has 120 households. 40 households make jute handicrafts using family labour and hand tools, selling to a local trader. 15 households run a small jute rope unit with 5 hired workers each and electric motors. Classify each group as household industry or small-scale industry and justify with two criteria per group.",
+     "a": "Group 1 (40 households): Household industry. Criteria: (a) Production by family members only, no hired labour; (b) Simple hand tools, no power-driven machinery. Group 2 (15 households): Small-scale industry. Criteria: (a) Employs hired workers (5 each); (b) Uses electric motors (power-driven machinery). A wrong classification that puts both in the same category ignores the hired-labour and power-use thresholds that legally and functionally separate the two.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of Khadi (hand-spun, hand-woven cloth) production in Gujarat and handloom weaving in Varanasi. What common geographical factors explain their concentration in these specific regions?",
+     "a": "Both concentrate due to: (1) Availability of raw cotton (Gujarat) and silk/cotton yarn (Varanasi) locally; (2) Traditional skill clusters passed down through generations (caste/community-based); (3) Supportive institutional infrastructure (Khadi Board in Gujarat, Weaver Service Centres in Varanasi); (4) Humid climate (especially Varanasi) which keeps yarn pliable. A wrong answer that only mentions \"government support\" or \"market demand\" misses the physical (climate, raw material) and human (skill inheritance) geography that creates enduring clusters.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Household industries are obsolete in the modern economy because they cannot compete with factory-made goods on price and quality.\" Provide two arguments for and two against, using Indian evidence.",
+     "a": "For: (1) Factory goods are cheaper due to economies of scale — e.g., mill-made cloth vs. Khadi; (2) Inconsistent quality and lack of standardisation limit access to formal retail chains. Against: (1) They provide employment to 10+ million artisans (2023 MSME data) with near-zero capital cost — vital for rural livelihood security; (2) Niche markets value uniqueness — e.g., Banarasi silk, Pochampally ikat, Madhubani paintings command premium prices globally. A one-sided answer shows inability to weigh structural economic role against market competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a revival plan for a declining household pottery cluster in Khurja (Uttar Pradesh) that addresses raw material, skill, credit, and market access. List four specific interventions with implementing agencies.",
+     "a": "1. Raw material: Set up a common clay processing yard (District Industries Centre + Gram Panchayat). 2. Skill: Introduce electric potter’s wheels and glaze training via MSME Technology Centre, Agra. 3. Credit: Link artisans to MUDRA loans and Artisan Credit Cards (Lead Bank + NABARD). 4. Market: Onboard clusters on GeM portal and organize annual Khurja Pottery Festival (District Administration + Ministry of Textiles). A poor plan that only suggests \"give money\" or \"advertise online\" ignores the multi-dimensional (material, skill, finance, market) nature of cluster development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

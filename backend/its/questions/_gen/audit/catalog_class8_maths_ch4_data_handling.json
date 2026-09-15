@@ -1,0 +1,269 @@
+{
+ "catalog": "catalog_class8_maths_ch4_data_handling.json",
+ "concepts": [
+  {
+   "id": "c8m4.1.1",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 24 / 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 400 * 3 / (3 + 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 120 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 6 * 14 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 7 * 12 - 6 * 14"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 40 * 6 / 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 24 / 4"
+   ]
+  },
+  {
+   "id": "c8m4.2.1",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 50 / 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 270 * 1 / (1 + 8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 5 * 21 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 7 * 15 - 5 * 21"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 120 * 8 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m4.2.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 52"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 125"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 23"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 109 - 138"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 73"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 76"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m4.2.3",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 30 / 100 * 80"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 2 / 5 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.45 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 277 - 139",
+      "pct = change / 139 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 76 - 8",
+      "pct = change / 76 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 26 / 120 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m4.3.1",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 1 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 3 / 6"
+   ]
+  },
+  {
+   "id": "c8m4.3.2",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 2 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 4 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_003",
+   "title": "c11_geo_cbse_09_003",
+   "questions": [
+    {
+     "q": "Name the three major river systems responsible for the alluvial deposition that formed the Northern Plains of India.",
+     "a": "The Indus, Ganga, and Brahmaputra river systems. A wrong answer (e.g., including the Narmada or Godavari) reveals the student confuses Himalayan rivers with Peninsular rivers and does not grasp that only rivers originating in the Himalayas supply the massive sediment load that built the plains.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the Himalayan rivers deposit most of their sediment load in the Northern Plains rather than carrying it all the way to the sea?",
+     "a": "When Himalayan rivers emerge from the mountains onto the plains, their gradient drops sharply (from ~100 m/km to <1 m/km), causing a drastic reduction in velocity and transport capacity. This forces deposition. A student who says \"because the rivers slow down\" without mentioning the gradient change or transport capacity shows incomplete understanding of the hydraulic geometry principle.",
+     "self_check": true
+    },
+    {
+     "q": "A river descending from the Himalayas has a sediment concentration of 5 kg/m³ at the mountain front. Its discharge is 2,000 m³/s. If 60% of the sediment is deposited in the Bhabar zone (coarse load) and 30% in the Terai zone (fine load), calculate the annual sediment mass (in metric tonnes) deposited in the Terai zone alone. Assume 1 year = 31,536,000 seconds.",
+     "a": "Step 1: Total sediment discharge = 5 kg/m³ × 2,000 m³/s = 10,000 kg/s.  \nStep 2: Annual sediment load = 10,000 kg/s × 31,536,000 s = 3.1536 × 10¹¹ kg.  \nStep 3: Terai deposition = 30% of total = 0.3 × 3.1536 × 10¹¹ kg = 9.4608 × 10¹⁰ kg.  \nStep 4: Convert to metric tonnes (1 tonne = 1000 kg) = 9.4608 × 10⁷ tonnes ≈ 94.6 million tonnes/year.  \nA wrong answer indicates inability to link sediment concentration, discharge, and deposition percentages — a core quantitative skill in fluvial geomorphology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the alluvial deposits of the Bhabar and Khaddar regions in terms of particle size, porosity, agricultural suitability, and groundwater recharge potential.",
+     "a": "Bhabar: coarse pebbles/boulders, high porosity, poor agriculture, high recharge. Khaddar: fine silt/clay, lower porosity, excellent agriculture (renewed annually), moderate recharge. A student who claims Khaddar has larger particles than Bhabar, or that Bhabar is more fertile, has reversed the fundamental fining-downstream sequence and its implications for land use.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Northern Plains would not exist without the ongoing uplift of the Himalayas.\" Provide two pieces of geological evidence supporting this and one scenario where the statement might be false.",
+     "a": "Support: (1) Himalayan uplift creates the high relief and steep gradients that generate the enormous sediment supply; (2) the flexural subsidence of the foreland basin (due to Himalayan loading) creates the accommodation space for sediment accumulation. False scenario: If the Himalayas stopped uplifting but climate remained monsoonal, existing sediment stores in the mountains could sustain deposition for millennia — the plains would persist temporarily. A student who only mentions sediment supply misses the critical role of tectonic subsidence in providing *space* for deposition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-sectional sketch of the Northern Plains from the Siwaliks to the Peninsular Plateau, labeling all major alluvial zones (Bhabar, Terai, Bhangar, Khaddar) and indicating the relative thickness of alluvium, groundwater conditions, and dominant land use in each zone. Annotate with the key processes operating in each zone.",
+     "a": "A good sketch shows: (1) Bhabar at the foothills — thin alluvium, coarse, losing streams, forest; (2) Terai — marshy, fine sediments, high water table, dense vegetation; (3) Bhangar — older alluvium, kankar nodules, well-drained, intensive agriculture; (4) Khaddar — active floodplain, new alluvium, seasonal flooding, highly fertile. Missing zones or incorrect sequence (e.g., placing Khaddar behind Bhangar) reveals failure to visualize the longitudinal zonation driven by decreasing stream energy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

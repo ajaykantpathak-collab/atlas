@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_011",
+   "title": "c12_acc_cbse_07_011",
+   "questions": [
+    {
+     "q": "What are the two main heads under \"Equity and Liabilities\" in a Schedule III Balance Sheet, and which sub-heads fall under each?",
+     "a": "The two main heads are (1) Shareholders' Funds (sub-heads: Share Capital, Reserves & Surplus, Money Received Against Share Warrants) and (2) Non-Current Liabilities (sub-heads: Long-term Borrowings, Deferred Tax Liabilities, Other Long-term Liabilities, Long-term Provisions) plus Current Liabilities (sub-heads: Short-term Borrowings, Trade Payables, Other Current Liabilities, Short-term Provisions). A wrong answer (e.g., putting \"Trade Payables\" under Non-Current Liabilities or missing \"Reserves & Surplus\") reveals the student has not memorised the Schedule III structure and will misclassify items, leading to a completely incorrect Balance Sheet presentation.",
+     "self_check": true
+    },
+    {
+     "q": "A company has Debtors of ₹2,00,000. The adjustment says \"Create a provision for doubtful debts @ 5%\". A student writes in the Balance Sheet: \"Trade Receivables: ₹2,00,000 Less: Provision for Doubtful Debts ₹10,000 = ₹1,90,000\" directly on the face of the Balance Sheet. Is this correct as per Schedule III? Explain why or why not.",
+     "a": "No, it is incorrect. Schedule III requires the face of the Balance Sheet to show only the net amount (₹1,90,000) under \"Trade Receivables\". The gross amount (₹2,00,000) and the provision (₹10,000) must be disclosed in the **Notes to Accounts** (Note: Trade Receivables). Writing the breakup on the face violates the prescribed format and leads to deduction of marks in board exams. This misconception arises because students confuse the detailed working notes with the final presentation format.",
+     "self_check": true
+    },
+    {
+     "q": "From the following Trial Balance extracts and adjustment, prepare the \"Reserves and Surplus\" Note to Accounts and show the relevant Balance Sheet extract.\n**Trial Balance (Cr. balances):** General Reserve ₹1,20,000; Surplus (P&L) ₹80,000.\n**Adjustment:** Transfer ₹30,000 to General Reserve. Proposed Dividend ₹40,000 (assume dividend tax not applicable).\nShow the full working.",
+     "a": "**Journal Entry for Adjustment:**\n1. Surplus A/c Dr. 30,000 → General Reserve A/c Cr. 30,000 (Transfer to reserve)\n2. Surplus A/c Dr. 40,000 → Proposed Dividend A/c Cr. 40,000 (Proposed dividend)\n\n**Updated Balances:**\n- General Reserve = 1,20,000 + 30,000 = ₹1,50,000\n- Surplus = 80,000 - 30,000 - 40,000 = ₹10,000\n- Proposed Dividend (Short-term Provision) = ₹40,000\n\n**Note: Reserves and Surplus**\n| Particulars | ₹ |\n|-------------|----|\n| General Reserve | 1,50,000 |\n| Surplus (Balance in Statement of P&L) | 10,000 |\n| **Total** | **1,60,000** |\n\n**Balance Sheet Extract (Equity & Liabilities):**\nShareholders' Funds:\n- Reserves and Surplus: 1,60,000\nCurrent Liabilities:\n- Short-term Provisions (Proposed Dividend): 40,000\n\nA wrong answer (e.g., not reducing Surplus for proposed dividend, or showing Proposed Dividend under Reserves) reveals confusion between appropriation of profit (transfer to reserve, proposed dividend) and charge against profit, and misclassification of proposed dividend as a reserve instead of a current liability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Provision for Depreciation\" and \"Provision for Doubtful Debts\" in the Schedule III Balance Sheet. How does their presentation differ in the Notes to Accounts and on the face of the Balance Sheet?",
+     "a": "**Provision for Depreciation** (Accumulated Depreciation) is deducted from the **gross block of Tangible/Intangible Assets** in the Note \"Property, Plant and Equipment\" (or Intangible Assets). The face of the Balance Sheet shows only the **net carrying amount** (Gross - Accumulated Depreciation). **Provision for Doubtful Debts** is deducted from **Trade Receivables** in the Note \"Trade Receivables\". The face shows only the **net realisable value**. The difference: Depreciation provision is a contra-asset linked to fixed assets (non-current), while doubtful debts provision is a contra-asset linked to current assets (receivables). A student who shows both as separate line items under \"Provisions\" on the liabilities side has fundamentally misunderstood that these are **deductions from assets**, not liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Trial Balance shows \"10% Debentures ₹5,00,000\" and \"Interest on Debentures Paid ₹25,000\". The adjustment: \"Interest on debentures outstanding ₹25,000\". Evaluate whether the following Balance Sheet presentation is correct and justify:\n*Non-Current Liabilities: Long-term Borrowings - 10% Debentures ₹5,00,000*\n*Current Liabilities: Other Current Liabilities - Interest Accrued but not Due ₹25,000*",
+     "a": "**The presentation is CORRECT.**\nReasoning: 10% Debentures ₹5,00,000 is a long-term borrowing (non-current). Interest for the full year = 10% × 5,00,000 = ₹50,000. Paid ₹25,000 → Outstanding ₹25,000. This outstanding interest is a **current liability** (payable within 12 months) and is correctly shown under \"Other Current Liabilities\" as \"Interest Accrued but not Due\" (or \"Interest Accrued and Due\" if due date passed). It is **not** added to the debenture amount. A wrong evaluation (e.g., saying debentures should be ₹5,25,000 or interest should be under Short-term Provisions) reveals confusion between the principal liability (non-current) and the accrued interest obligation (current), and between \"Provisions\" (for uncertain amounts) and \"Other Current Liabilities\" (for certain, known obligations).",
+     "self_check": true
+    },
+    {
+     "q": "Create a complete \"Note to Accounts: Trade Payables\" and the corresponding Balance Sheet extract for a company with the following:\nSundry Creditors ₹3,00,000; Bills Payable ₹1,00,000; Outstanding Expenses ₹50,000; Advance from Customers ₹30,000.\nAssume all are due within 12 months. Follow Schedule III classification strictly.",
+     "a": "**Note: Trade Payables** (only for creditors for goods/services)\n| Particulars | ₹ |\n|-------------|----|\n| Sundry Creditors | 3,00,000 |\n| Bills Payable | 1,00,000 |\n| **Total** | **4,00,000** |\n\n**Note: Other Current Liabilities**\n| Particulars | ₹ |\n|-------------|----|\n| Outstanding Expenses | 50,000 |\n| Advance from Customers | 30,000 |\n| **Total** | **80,000** |\n\n**Balance Sheet Extract (Current Liabilities):**\n- Trade Payables: 4,00,000\n- Other Current Liabilities: 80,000\n\n**Criteria for good answer:** Correct separation of Trade Payables (only trade creditors/bills) from Other Current Liabilities (outstanding expenses, advances). A poor answer lumps everything under \"Trade Payables\" or \"Current Liabilities\" without Notes, showing ignorance of Schedule III's disaggregation requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_011",
+   "title": "c11_ps_cbse_14_011",
+   "questions": [
+    {
+     "q": "What is the constitutional provision that contains the Anti-defection law, and which Amendment Act inserted it?",
+     "a": "The Anti-defection law is contained in the Tenth Schedule of the Constitution, inserted by the 52nd Amendment Act, 1985. A wrong answer (e.g., citing the Ninth Schedule or 42nd Amendment) reveals confusion between schedules dealing with land reforms and the anti-defection provisions, or mixing up the amendment that added the Tenth Schedule with the one that later modified it (91st Amendment).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 'split' provision (one-third members breaking away) was removed by the 91st Amendment Act, 2003, while the 'merger' provision (two-thirds) was retained.",
+     "a": "The 'split' provision was misused to engineer mass defections by claiming a split in the party, often with the support of the ruling party at the Centre, destabilizing state governments. The 91st Amendment removed it to curb such opportunistic defections. The 'merger' provision was retained because a genuine merger of two parties (with two-thirds support) reflects a principled political realignment, not mere opportunism. A wrong answer that says both were removed or both retained shows misunderstanding of the legislative intent to distinguish between engineered defections and legitimate party mergers.",
+     "self_check": true
+    },
+    {
+     "q": "A Lok Sabha member belonging to Party X votes against the party whip on a Money Bill. The party files a disqualification petition. The Speaker, who is from Party X, delays the decision for 18 months. The member approaches the Supreme Court. Can the Court intervene at this stage? Justify using the Kihoto Hollohan principle.",
+     "a": "Yes, the Supreme Court can intervene because the Kihoto Hollohan judgment (1992) held that the Speaker's decision under the Tenth Schedule is subject to judicial review. While the Court usually does not interfere at the interim stage (before the Speaker decides), inordinate delay (18 months) constitutes a failure to discharge constitutional duty, and the Court can direct the Speaker to decide within a fixed time frame (as seen in recent cases like Keisham Meghachandra Singh vs. Speaker, Manipur Legislative Assembly, 2020). A wrong answer saying the Court cannot intervene at all ignores the judicial review principle; saying the Court can directly disqualify the member ignores the Speaker's primary jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the disqualification grounds for a member of Parliament under Article 102(2) and a member of a State Legislature under Article 191(2). Are they identical? What does this imply about the uniformity of the anti-defection law across the federation?",
+     "a": "The grounds are identical because both Articles 102(2) and 191(2) refer to the Tenth Schedule for disqualification on grounds of defection. This implies the anti-defection law applies uniformly to both Parliament and State Legislatures, reinforcing the principle of a single integrated constitutional framework for political party discipline across the federation. A wrong answer claiming different grounds reveals a misunderstanding that the Tenth Schedule is a central law that binds both levels equally.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that the Anti-defection law has weakened the role of individual legislators and strengthened party high commands, turning legislatures into rubber stamps. Provide two arguments for and two against this view.",
+     "a": "Arguments FOR: (1) Legislators fear disqualification, so they never vote against the party line even on matters of conscience, reducing debates to party diktats. (2) Party whips control voting, making the legislator a delegate of the party, not a representative of the constituency. Arguments AGAINST: (1) The law prevents horse-trading and government instability, which is essential for governance. (2) The merger exception allows principled realignment; also, the 91st Amendment removed the split provision, reducing misuse. A poor evaluation merely lists points without weighing the trade-off between stability and representative freedom, or ignores the judicial safeguards (like the Kihoto Hollohan review) that mitigate arbitrariness.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a reform to the Anti-defection law that addresses the 'rubber stamp' criticism while retaining the stability objective. Your proposal must specify a change to the whip mechanism or an exception.",
+     "a": "A good proposal might suggest: \"Allow a 'free vote' on all matters except confidence/no-confidence motions and Money Bills, where the whip applies. For other legislation, legislators can vote according to conscience without disqualification.\" This retains stability on critical financial and confidence matters while restoring legislative deliberation. A poor proposal either abolishes the law entirely (ignoring stability) or makes no change (failing to address the criticism), or suggests a change that requires constitutional amendment without explaining how it fits the Tenth Schedule framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

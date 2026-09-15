@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_008",
+   "title": "c12_ip_cbse_03_008",
+   "questions": [
+    {
+     "q": "In the client-server model, which entity *initiates* the communication by sending the first message?",
+     "a": "The client initiates communication by sending the first message (the request). A wrong answer (e.g., \"the server\" or \"both simultaneously\") reveals the student confuses the asymmetry of roles — they may think the server \"pushes\" data or that communication is symmetric like in peer-to-peer. This misconception leads to errors in board questions asking \"who sends the first packet in HTTP?\" (Answer: client browser).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In client-server architecture, the server connects to the client to deliver the webpage.\" Explain why this statement is incorrect using the terms *request*, *response*, and *listening*.",
+     "a": "The server does not \"connect to the client\"; instead, the server *listens* (passively waits) on a specific port for incoming requests. The client *initiates* the connection by sending a *request*; the server then sends a *response* back over the same connection. A wrong explanation reveals the student thinks the server actively seeks out clients (like a push model), confusing client-server with publish-subscribe or peer-to-peer. Board exams often test this via assertion-reason: \"Assertion: Server initiates connection. Reason: Server provides service.\" (Both false).",
+     "self_check": true
+    },
+    {
+     "q": "Draw a sequence diagram (text description acceptable) for a DNS query where a browser needs the IP address of \"example.com\". Label: Client (browser), DNS Server, Request (query), Response (IP address), and show the direction of each message.",
+     "a": "Correct sequence:\n1. Browser (Client) → DNS Server: Request (DNS QUERY for \"example.com\")\n2. DNS Server → Browser (Client): Response (DNS ANSWER with IP, e.g., 93.184.216.34)\nA wrong answer (e.g., showing DNS server sending first, or missing the response, or showing two-way simultaneous arrows) reveals the student cannot map the abstract request-response pattern to a concrete protocol. This is a common board practical question: \"Show the message flow for DNS resolution.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare HTTP/1.1 (stateless) and a hypothetical stateful protocol where the server remembers each client's previous requests. Give one advantage and one disadvantage of the stateful approach for a high-traffic e-commerce site.",
+     "a": "Advantage: Server can maintain shopping cart without cookies/tokens — simpler client logic. Disadvantage: Server must store session state for every client, consuming memory and making horizontal scaling (adding more servers) difficult because state must be shared or sticky sessions used. A wrong answer (e.g., \"stateful is always better\" or \"no disadvantage\") shows the student doesn't grasp the scalability trade-off central to web architecture. JEE/NEET-style questions test this via \"Why is HTTP designed stateless?\" (Answer: scalability, fault tolerance).",
+     "self_check": true
+    },
+    {
+     "q": "A web application uses a single-threaded server that processes one request at a time. During a sale, 100 clients send requests simultaneously. The server takes 50 ms per request. Estimate the response time for the 100th client's request. Is this architecture suitable? Justify.",
+     "a": "The 100th request waits for 99 × 50 ms = 4950 ms (≈ 5 s) before processing starts, then takes 50 ms → total ≈ 5 s. This is unsuitable for e-commerce: users perceive >2 s as slow; timeouts occur. A correct answer must calculate queuing delay and critique single-threaded design. A wrong answer (e.g., \"50 ms for all\" or \"depends on network\") reveals the student ignores request queuing — a classic competitive exam trap where they confuse processing time with response time under load.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple request-response protocol for a \"Quote of the Day\" service. Specify: (a) request message format, (b) response message format, (c) what happens if the server receives a malformed request, (d) how the client knows the response belongs to its request (hint: no persistent connection).",
+     "a": "(a) Request: `GET /qotd HTTP/1.1\\r\\nHost: quotes.example.com\\r\\n\\r\\n` (text line). (b) Response: `HTTP/1.1 200 OK\\r\\nContent-Type: text/plain\\r\\n\\r\\n\"Believe you can and you're halfway there.\"` (c) Server replies `400 Bad Request` with error description. (d) Client matches response to request by *order* on the same TCP connection (pipelining) or by using a unique request ID in a custom protocol. A poor answer (e.g., \"server remembers client IP\" or \"uses cookies\") shows the student doesn't understand stateless request-response correlation — a key concept for designing REST APIs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

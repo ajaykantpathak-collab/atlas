@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_2",
+   "title": "c9_physics_ch2_2",
+   "questions": [
+    {
+     "q": "State the definition of speed, its SI unit, and the formula for average speed.",
+     "a": "Speed is the rate of change of distance with respect to time. SI unit: m/s. Formula: v = d/t. A wrong answer (e.g., giving unit as km/h, or using displacement instead of distance) reveals the student has not internalised the scalar nature of speed or the mandatory SI unit for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 60 km in the first hour and 40 km in the second hour. A student calculates the average speed as (60 + 40)/2 = 50 km/h. Is this correct? Explain why or why not using the definition of average speed.",
+     "a": "Yes, it is correct in this specific case because the time intervals are equal (1 hour each). Average speed = total distance / total time = (60 + 40) km / (1 + 1) h = 50 km/h. A wrong answer (saying it's incorrect without justification, or saying it's always the arithmetic mean) reveals the student confuses the general definition (total distance/total time) with the special case of equal time intervals.",
+     "self_check": true
+    },
+    {
+     "q": "A train covers 240 km in 3 hours. Calculate its average speed in m/s. Show all unit conversion steps.",
+     "a": "Step 1: Speed in km/h = 240 km / 3 h = 80 km/h.\nStep 2: Convert km/h to m/s: multiply by 5/18.\nStep 3: 80 × (5/18) = 400/18 = 22.22 m/s (approx).\nA wrong answer (e.g., 80 m/s, or 80 × 18/5 = 288 m/s) reveals the student either forgets unit conversion or inverts the conversion factor (5/18 vs 18/5).",
+     "self_check": true
+    },
+    {
+     "q": "Two students, A and B, walk to school. A covers 1.2 km in 15 minutes. B covers 900 m in 10 minutes. Who walks faster? Justify by calculating both speeds in m/s.",
+     "a": "Student A: 1.2 km = 1200 m, 15 min = 900 s. Speed = 1200/900 = 1.33 m/s.\nStudent B: 900 m / 600 s = 1.5 m/s.\nStudent B walks faster.\nA wrong answer (comparing 1.2 km vs 900 m directly, or 15 min vs 10 min directly) reveals the student cannot handle mixed units and does not reduce to a common SI basis before comparing.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A bus travels 150 km in 2 hours. Find speed in m/s.\" Their working: 150/2 = 75 m/s. Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. The student computed 150 km / 2 h = 75 km/h but wrote the unit as m/s without conversion. Correct: 75 km/h = 75 × (5/18) = 20.83 m/s. A wrong evaluation (saying the answer is correct, or only noting the unit is wrong without showing conversion) reveals the student does not treat units as algebraic quantities that must be converted.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a stopwatch, a measuring tape, and a bicycle to determine whether your speed is uniform or non-uniform during a 100 m ride. Describe the procedure and the criterion for uniform speed.",
+     "a": "Procedure: Mark every 10 m along a 100 m straight path. Ride the bicycle and record the time at each 10 m mark using the stopwatch (lap function). Calculate speed for each 10 m segment (10 m / time interval). If all segment speeds are equal (within measurement error), motion is uniform; if they vary, it is non-uniform. A poor answer (measuring only total time, or not segmenting the distance) reveals the student does not understand that uniform speed requires equal distances in equal time intervals throughout the journey.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_001",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_001",
+   "title": "c6_chemistry_ch05_001",
+   "questions": [
+    {
+     "q": "If you stretch a rubber band, is it still a rubber band?",
+     "a": "Yes, it is still a rubber band. A wrong answer suggests the student confuses \"shape change\" with \"substance change,\" failing to realize the material identity remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "When you dissolve salt in water, does the salt disappear and become a new substance, or does it stay as salt?",
+     "a": "The salt stays as salt, it just changes its state (by mixing/dissolving). A wrong answer reveals the misconception that if you cannot see the solid particles, they must have vanished or changed into something else.",
+     "self_check": true
+    },
+    {
+     "q": "You have a metal wire. You bend it into a circle. Has a new substance been formed?",
+     "a": "No. Step 1: Identify the material (metal wire). Step 2: Observe the change (bending). Step 3: Check if the material identity changed (it is still metal). Step 4: Conclude it is a physical change. A wrong answer suggests the student thinks physical manipulation equals a chemical creation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare tearing a piece of paper to cutting a piece of wood. How are they similar in terms of physical change?",
+     "a": "Both involve changing the size and shape of the original material without creating a new substance. A wrong answer indicates difficulty in generalizing the concept of \"physical change\" across different types of materials.",
+     "self_check": true
+    },
+    {
+     "q": "If a boy breaks a glass bottle, is this a physical change? Justify your answer.",
+     "a": "Yes, it is a physical change because the glass shards are still glass. The substance has not changed its identity; only its size and shape have changed. A wrong answer implies the student equates \"destruction\" or \"damage\" with \"chemical change.\"",
+     "self_check": true
+    },
+    {
+     "q": "Think of a real-world object in your kitchen. Describe how you could perform a physical change on it.",
+     "a": "An example would be crushing a dry biscuit into crumbs. The answer is valid if the student identifies that while the biscuit looks different, it is still the same material. A poor answer would suggest something like \"burning a match,\" which is a chemical change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

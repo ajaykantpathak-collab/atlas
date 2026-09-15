@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu106.json",
+ "concepts": [
+  {
+   "id": "fecu.6.1",
+   "title": "Observing Objects Around Us",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What do we learn by observing objects around us?",
+     "a": "Their materials, colours, shapes and uses - the first step of science.",
+     "self_check": true
+    },
+    {
+     "q": "Name three objects and one property of each.",
+     "a": "Glass: transparent. Iron nail: hard, lustrous. Sponge: soft, squeezable.",
+     "self_check": true
+    },
+    {
+     "q": "How do properties decide an object's use?",
+     "a": "We pick materials by property - glass for windows (transparent), metal for pans (conducts heat).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.2",
+   "title": "Grouping Materials by Properties",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "On what basis can materials be grouped?",
+     "a": "Lustre, hardness, solubility in water, floating, and transparency.",
+     "self_check": true
+    },
+    {
+     "q": "Group wood, glass and iron by any one property.",
+     "a": "Transparency: glass is transparent; wood and iron are opaque.",
+     "self_check": true
+    },
+    {
+     "q": "Why is grouping materials useful?",
+     "a": "Similar materials can be studied together and the right one chosen for each job.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.3",
+   "title": "Choosing Materials for a Purpose",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is a tumbler not made of cloth?",
+     "a": "A tumbler must hold water - cloth soaks and leaks; glass or steel suits.",
+     "self_check": true
+    },
+    {
+     "q": "Name the properties that make steel good for utensils.",
+     "a": "It conducts heat, is hard, shiny and does not break easily.",
+     "self_check": true
+    },
+    {
+     "q": "Give one material that is transparent and used at home.",
+     "a": "Glass (windows, tumblers) - it lets us see through.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.4",
+   "title": "What Is Matter?",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is matter?",
+     "a": "Anything that has mass and takes up space - all materials around us are matter.",
+     "self_check": true
+    },
+    {
+     "q": "Name the three states of matter with examples.",
+     "a": "Solid (stone), liquid (water), gas (air).",
+     "self_check": true
+    },
+    {
+     "q": "Is air matter even though we cannot see it?",
+     "a": "Yes - it has mass and fills space (a balloon blown up weighs more).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

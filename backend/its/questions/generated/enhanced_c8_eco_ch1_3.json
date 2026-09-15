@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_3",
+   "title": "c8_eco_ch1_3",
+   "questions": [
+    {
+     "q": "What do economists mean by the term \"land\" when discussing the factors of production?",
+     "a": "In economics, land means all natural resources provided by nature, including soil, minerals, water, and forests, not just the physical dirt. A wrong answer usually shows the misconception that land only means the empty ground or residential plots bought and sold in real estate.",
+     "self_check": true
+    },
+    {
+     "q": "Why is land classified as a \"fixed\" factor of production in economic theory?",
+     "a": "Land is considered fixed because its total geographical supply cannot be increased by human effort, unlike machinery or labour which can be expanded. A wrong answer suggests that humans can manufacture more land by clearing oceans or filling valleys, confusing physical reclamation with expanding the planet's total natural resource base.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Haryana owns 5 acres of land. Over three years, the farmer uses chemical fertilizers intensively, raising wheat production from 100 quintals to 140 quintals. Did the supply of \"land\" increase during these three years? Calculate the percentage increase in wheat yield per acre.",
+     "a": "Steps: \n1. Identify initial yield per acre: 100 quintals / 5 acres = 20 quintals/acre. \n2. Identify final yield per acre: 140 quintals / 5 acres = 28 quintals/acre. \n3. Determine if land supply increased: The physical land remained exactly 5 acres; the increase in output is due to capital/technology (fertilizers), not an increase in land. \n4. Calculate percentage increase in yield: ((28 - 20) / 20) * 100 = 40%. \nAnswer: No, land did not increase. The yield per acre increased by 40%. A wrong answer assumes that higher output means more land was created.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic difference between a coal mine and a solar power plant in terms of their classification as natural resources (land).",
+     "a": "A coal mine represents a non-renewable natural resource because once the coal is extracted and burned, it cannot be replaced within a human timeframe. Conversely, solar radiation captured by a solar power plant is a renewable natural resource because sunlight is continuously replenished by nature. A wrong answer treats all natural resources as infinite or renewable, ignoring the finite nature of fossil fuels.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because land is a free gift of nature, it has no economic cost or value.\" Is this correct?",
+     "a": "This statement is incorrect because while nature provides land for free, using land involves economic costs such as rent, maintenance, and opportunity cost. For example, using a plot of land to build a factory means giving up the chance to grow crops on it. A wrong answer agrees with the statement, failing to distinguish between physical origin (nature) and economic scarcity (allocation and rent).",
+     "self_check": true
+    },
+    {
+     "q": "Propose two strategies that a local factory owner can implement to ensure the sustainable use of natural resources on their industrial land plot.",
+     "a": "A good answer proposes actionable measures such as installing a rainwater harvesting system to recharge groundwater and setting up an effluent treatment plant to prevent toxic waste from ruining the surrounding soil. A poor answer suggests generic ideas like \"buying more land\" or \"using electricity,\" which do not address resource conservation or sustainability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

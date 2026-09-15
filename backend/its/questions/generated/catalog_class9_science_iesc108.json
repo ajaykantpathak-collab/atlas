@@ -1,0 +1,148 @@
+{
+ "catalog": "catalog_class9_science_iesc108.json",
+ "concepts": [
+  {
+   "id": "iesc.108.8.1",
+   "title": "Matter Is Made of Particles and Atoms",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is matter made of according to modern science?",
+     "a": "Tiny particles - atoms and molecules - that are always moving and attract each other.",
+     "self_check": true
+    },
+    {
+     "q": "What evidence shows matter is particulate?",
+     "a": "Dissolving, diffusion (spread of smell) and mixing of liquids show particles moving and fitting into gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't a solid be compressed much?",
+     "a": "Its particles are packed tightly with very little space between them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.108.8.2",
+   "title": "Subatomic Particles: Electron, Proton and Neutron",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three subatomic particles with their charges.",
+     "a": "Proton (positive), neutron (neutral) and electron (negative).",
+     "self_check": true
+    },
+    {
+     "q": "Where are protons and neutrons located?",
+     "a": "In the tiny dense nucleus at the centre of the atom.",
+     "self_check": true
+    },
+    {
+     "q": "What is the charge on an atom's electron and where does it move?",
+     "a": "Negative charge; electrons revolve in shells around the nucleus.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.108.8.3",
+   "title": "Atomic Models: From Thomson to Rutherford",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What did Rutherford's gold foil experiment reveal?",
+     "a": "Most alpha particles passed straight through (atom mostly empty) but a few bounced back (tiny dense positive nucleus).",
+     "self_check": true
+    },
+    {
+     "q": "Why did Thomson's 'plum pudding' model fail?",
+     "a": "It could not explain alpha particles bouncing back from a concentrated positive centre.",
+     "self_check": true
+    },
+    {
+     "q": "What model replaced Rutherford's to fix electron stability?",
+     "a": "Bohr's model - electrons occupy fixed energy shells and do not radiate energy inside them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.108.8.4",
+   "title": "Electron Arrangement in Shells",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "n_squared",
+     "expr": "n * n",
+     "explain": "square the shell number"
+    },
+    {
+     "step": 2,
+     "name": "lower_shell_cap",
+     "expr": "2 * (n - 1) ** 2",
+     "explain": "capacity of the shell below"
+    },
+    {
+     "step": 3,
+     "name": "shell_capacity",
+     "expr": "2 * n_squared",
+     "explain": "max electrons = 2n squared"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using 2n squared, how many electrons fit in the first shell?",
+     "vals": {
+      "n": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the maximum electron count in the second shell?",
+     "vals": {
+      "n": 2
+     },
+     "unit": null,
+     "steps": null,
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the capacity of the third shell.",
+     "vals": {
+      "n": 3
+     },
+     "unit": null,
+     "steps": null,
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the maximum electrons in the fourth shell.",
+     "vals": {
+      "n": 4
+     },
+     "unit": null,
+     "steps": null,
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "A model atom is drawn with a sixth shell. What electron capacity would 2n squared give for n = 6?",
+     "vals": {
+      "n": 6
+     },
+     "unit": null,
+     "steps": null,
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

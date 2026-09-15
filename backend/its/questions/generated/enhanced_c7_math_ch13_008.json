@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_008",
+   "title": "c7_math_ch13_008",
+   "questions": [
+    {
+     "q": "A line graph shows the pocket money saved by a student from January to June, with the vertical axis representing savings in rupees and the horizontal axis representing months. What does a point plotted at (March, ₹250) tell you about the student's savings?",
+     "a": "The point tells us that in the month of March, the student's total savings amounted to ₹250. If a student answers that ₹250 is the increase in savings or the month itself, it reveals a confusion between coordinate values and rate of change, failing to read the exact intersection of the month and amount axes.",
+     "self_check": true
+    },
+    {
+     "q": "Look at a line graph tracking plant growth over 4 weeks. Between Week 1 and Week 2, the line goes steeply upward. Between Week 3 and Week 4, the line is completely horizontal. What is the difference in plant growth behavior between these two intervals?",
+     "a": "A steeply upward line means the plant grew rapidly during that week, whereas a horizontal line means the plant's height remained constant (no growth) during that time. A wrong answer—such as thinking a horizontal line means the plant died or shrank—shows a misunderstanding of what a zero slope on a value-vs-time graph represents.",
+     "self_check": true
+    },
+    {
+     "q": "A line graph shows a car's distance from home over 4 hours: Hour 0 (0 km), Hour 1 (50 km), Hour 2 (100 km), Hour 3 (100 km), and Hour 4 (150 km). How many total kilometres did the car travel between Hour 1 and Hour 3?",
+     "a": "Step 1: Identify the distance at Hour 1, which is 50 km. \nStep 2: Identify the distance at Hour 3, which is 100 km. \nStep 3: Subtract the distance at Hour 1 from the distance at Hour 3 to find the progress during that interval ($100\\text{ km} - 50\\text{ km} = 50\\text{ km}$). \nAnswer: 50 km. \nA wrong answer like 100 km or 150 km indicates the student added the coordinate values together or misread the specific interval endpoints instead of finding the difference.",
+     "self_check": true
+    },
+    {
+     "q": "In a graph showing daily electricity consumption in a household from Monday to Sunday, the highest peak occurs on Sunday, and a secondary peak occurs on Wednesday. Why might analyzing these peaks help an analyst draw conclusions about family routines?",
+     "a": "Peaks represent times of maximum electricity usage, which helps conclude that the family is home all day on Sunday (using appliances like washing machines or ACs) and perhaps mid-week routines involve high energy tasks. A wrong answer treating the peaks as random errors shows a lack of ability to connect visual data patterns to real-world behavioral causes.",
+     "self_check": true
+    },
+    {
+     "q": "A student looks at a temperature graph and claims, \"The temperature rose by 10 degrees every single hour without fail because all the connected line segments look straight.\" Is the student's conclusion justified based solely on the straightness of the connected line segments?",
+     "a": "No, the conclusion is not justified. Connecting points with straight line segments in a line graph assumes a steady, uniform rate *between* the recorded points, but actual data between measurements could have fluctuated. A wrong answer agreeing with the student reveals a failure to distinguish between actual continuous recorded data and linear interpolation used purely for visual clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario for a line graph tracking water usage in a school of 500 students across a typical school day (8 AM to 2 PM), specifying two distinct times when the graph should show a steep rise and explain what activity causes each rise.",
+     "a": "A good response will specify times like 9:30 AM (recess/drinking water refill time) and 12:30 PM (lunch break/washroom usage), resulting in steep upward slopes on the graph due to sudden high volume consumption. A poor response will draw random squiggles without tying the peaks to logical school activities or time increments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

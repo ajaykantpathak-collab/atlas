@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_003",
+   "title": "c7_math_ch15_003",
+   "questions": [
+    {
+     "q": "What is the primary goal when using the systematic method to solve a linear equation like $3x - 5 = 10$?",
+     "a": "The goal is to isolate the variable ($x$) on one side of the equation. If a student answers \"to find the number,\" it shows they understand the general intent but lack the precise algebraic vocabulary. If they say \"to clear the numbers,\" it reveals confusion about mathematical operations.",
+     "self_check": true
+    },
+    {
+     "q": "When solving the equation $4x + 7 = 23$, why must we subtract 7 from both sides before dividing by 4, rather than dividing by 4 first?",
+     "a": "We reverse operations in the reverse order of calculation (undoing addition/subtraction before multiplication/division). A student who thinks you can divide first often forgets to divide the constant term 7, resulting in fractions like $x + \\frac{7}{4} = \\frac{23}{4}$, which makes the problem harder instead of simpler.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the linear equation systematically: $5x - 3 = 22$. Show the value of $x$.",
+     "a": "Steps:\n1. Given equation: $5x - 3 = 22$\n2. Add 3 to both sides to undo subtraction: $5x - 3 + 3 = 22 + 3 \\implies 5x = 25$\n3. Divide both sides by 5 to undo multiplication: $\\frac{5x}{5} = \\frac{25}{5}$\n4. Simplify: $x = 5$\nIf a student gets $x = 3.8$ or $x = 125$, it shows they either added instead of subtracting, or multiplied instead of dividing during the inverse operation step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two equations: $2(x + 3) = 14$ and $2x + 3 = 14$. Why do these equations require a different first step in their systematic solution?",
+     "a": "In $2(x + 3) = 14$, the 2 multiplies the entire parentheses, so we can either divide by 2 first or expand the bracket. In $2x + 3 = 14$, the 3 is added only to $2x$, so we must subtract 3 first. A student who applies the exact same first step to both equations does not understand how parentheses group terms in algebraic expressions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the equation $-3x + 12 = 30$ with the following steps:\nStep 1: Subtract 12 from both sides $\\rightarrow -3x = 18$\nStep 2: Divide both sides by $-3 \\rightarrow x = -6$\nIs this solution correct? If not, identify the exact error.",
+     "a": "The solution is completely correct. Step 1 correctly uses the inverse of addition (subtracting 12), and Step 2 correctly divides by the negative coefficient $-3$, applying integer division rules ($18 \\div (-3) = -6$). A student who claims it is wrong usually gets confused by negative signs during division.",
+     "self_check": true
+    },
+    {
+     "q": "Create a linear equation in one variable whose systematic solution requires first subtracting 15 from both sides and then dividing by 3, with a final answer of $x = 8$.",
+     "a": "An equation such as $3x + 15 = 39$ or $3x = 9 + 15$ fits this description. To check, subtracting 15 from 39 gives $3x = 24$, and dividing by 3 gives $x = 8$. A poor answer would show an equation where the operations do not align with the stated reverse steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

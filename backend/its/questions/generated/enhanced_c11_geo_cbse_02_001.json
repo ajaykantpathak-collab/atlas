@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_001",
+   "title": "c11_geo_cbse_02_001",
+   "questions": [
+    {
+     "q": "State the three initial conditions Kant and Laplace assumed for the primordial nebula, and explain why \"cold\" is a critical assumption distinguishing it from later hot-nebula models.",
+     "a": "The three initial conditions: (1) a vast, cold, rotating cloud of gas and dust (nebula), (2) composed mostly of hydrogen and helium with trace heavier elements, (3) in slow, uniform rotation. \"Cold\" is critical because if the nebula were hot, thermal pressure would oppose gravitational collapse, preventing the contraction needed to spin up the disk. A wrong answer (e.g., \"hot nebula\") reveals confusion with the later \"hot accretion\" models or the Big Bang's initial hot state.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Nebular Hypothesis explains why all planets orbit in the same direction and nearly the same plane.\" Using the concept of angular momentum conservation, explain WHY the collapsing nebula produces this coplanar, prograde pattern.",
+     "a": "As the nebula collapses, its moment of inertia decreases; to conserve angular momentum (L = Iω), angular velocity ω must increase. Random perpendicular motions cancel via collisions, but net rotation axis is preserved. Material settles into a plane perpendicular to the rotation axis (equatorial plane), forming a disk. Planets accreting from this disk inherit its rotation direction and orbital plane. A wrong answer (e.g., \"gravity pulls everything flat\") reveals misunderstanding of the vector nature of angular momentum and the role of collisions in dissipating vertical motions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the factor by which angular velocity increases if a spherical nebula of radius 100 AU collapses to a disk of radius 10 AU, assuming uniform density and conservation of angular momentum. (Moment of inertia of sphere: I = 2/5 MR²; disk: I = 1/2 MR²)",
+     "a": "Step 1: Initial I₁ = (2/5)M(100)² = 4000M. Step 2: Final I₂ = (1/2)M(10)² = 50M. Step 3: L₁ = L₂ → I₁ω₁ = I₂ω₂. Step 4: ω₂/ω₁ = I₁/I₂ = 4000M/50M = 80. Angular velocity increases 80×. A wrong answer (e.g., 100× from radius ratio alone) reveals ignoring the moment-of-inertia geometry change from sphere to disk — a common senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kant's (1755) and Laplace's (1796) versions of the Nebular Hypothesis. Identify two key differences in their proposed mechanisms for planet formation.",
+     "a": "Kant: nebula → random particle collisions → planetesimals → planets (stochastic accretion). Laplace: nebula → cooling → contraction → centrifugal force exceeds gravity at equator → rings shed → each ring condenses into a planet (deterministic ring-shedding). Difference 1: Kant uses collisional accretion; Laplace uses sequential ring ejection. Difference 2: Kant allows random orbital inclinations initially; Laplace forces coplanar orbits by construction. A wrong answer conflating the two reveals lack of engagement with historical development of the theory.",
+     "self_check": true
+    },
+    {
+     "q": "The Nebular Hypothesis struggled to explain the Sun's low angular momentum (0.5% of system total) vs. planets' high angular momentum (99.5%). Evaluate whether the \"magnetic braking\" mechanism (solar wind coupling to magnetic field) resolves this within the original Kant-Laplace framework, or requires a modern modification.",
+     "a": "Magnetic braking is a *modern* modification (1940s onward, Alfvén, Weizsäcker). The original Kant-Laplace hypothesis had no mechanism to transfer angular momentum outward; it predicted Sun should spin rapidly. Thus, the angular momentum problem falsified the *original* hypothesis and required the modern Solar Nebular Disk Model with magnetohydrodynamic effects. A wrong answer claiming Kant/Laplace \"solved it with rings\" reveals confusion between historical theory and modern astrophysics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labelled diagram sequence (4 panels) showing the Nebular Hypothesis from initial cloud to planetary system. For each panel, write a one-sentence caption linking the visual to a physical principle (gravity, angular momentum, accretion, differentiation).",
+     "a": "Panel 1: Spherical cold nebula — \"Gravity initiates collapse of a rotating gas cloud.\" Panel 2: Flattening disk — \"Conservation of angular momentum forces collapse into a disk perpendicular to rotation axis.\" Panel 3: Planetesimals forming — \"Collisional accretion builds km-sized planetesimals from dust grains.\" Panel 4: Planets in coplanar orbits — \"Runaway accretion forms planets; solar wind clears residual gas.\" A poor answer shows panels without physical-principle captions, revealing rote memorisation without mechanistic understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

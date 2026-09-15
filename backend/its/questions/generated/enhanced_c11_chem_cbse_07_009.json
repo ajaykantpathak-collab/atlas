@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_009",
+   "title": "c11_chem_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the Arrhenius definition of an acid and a base. Give one example of each that fits this definition.",
+     "a": "Arrhenius acid: substance that dissociates in water to give H⁺ ions (e.g., HCl). Arrhenius base: substance that dissociates in water to give OH⁻ ions (e.g., NaOH). A wrong answer (e.g., calling NH₃ an Arrhenius base) reveals the student thinks any base must contain OH⁻, missing the limitation of the Arrhenius theory.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq), identify the Bronsted-Lowry acid, base, conjugate acid, and conjugate base. Explain why water acts as an acid here.",
+     "a": "Bronsted-Lowry acid: H₂O (donates H⁺); base: NH₃ (accepts H⁺); conjugate acid: NH₄⁺; conjugate base: OH⁻. Water acts as an acid because it donates a proton to NH₃. If a student labels NH₃ as the acid, they confuse proton donation with the species that \"looks acidic\" and have not grasped the donor/acceptor role.",
+     "self_check": true
+    },
+    {
+     "q": "Write the conjugate acid for each of the following bases: (a) H₂O, (b) CO₃²⁻, (c) HPO₄²⁻. Write the conjugate base for each of the following acids: (d) H₂SO₄, (e) HCO₃⁻, (f) NH₄⁺.",
+     "a": "(a) H₃O⁺, (b) HCO₃⁻, (c) H₂PO₄⁻; (d) HSO₄⁻, (e) CO₃²⁻, (f) NH₃. A wrong answer like H₂O → OH⁻ (instead of H₃O⁺) shows the student thinks conjugate acid means \"remove H⁺\" rather than \"add H⁺ to the base\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Arrhenius and Bronsted-Lowry definitions. Which definition explains the basic nature of Na₂CO₃ solution? Why does the Arrhenius definition fail for this substance?",
+     "a": "Bronsted-Lowry explains it: CO₃²⁻ accepts a proton from water (CO₃²⁻ + H₂O ⇌ HCO₃⁻ + OH⁻). Arrhenius fails because Na₂CO₃ does not contain OH⁻ and does not directly dissociate to give OH⁻. If a student says Arrhenius works because the solution is basic, they confuse the observable property (pH > 7) with the theoretical requirement (must produce OH⁻ by dissociation).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the reaction HCl + NaOH → NaCl + H₂O, HCl is the Bronsted-Lowry acid and NaOH is the Bronsted-Lowry base.\" Evaluate this statement. Is it fully correct? Justify.",
+     "a": "The statement is incomplete. In aqueous solution, the actual proton transfer is HCl + H₂O → H₃O⁺ + Cl⁻ (HCl acid, H₂O base) and NaOH dissociates to Na⁺ + OH⁻; then H₃O⁺ + OH⁻ → 2H₂O. NaOH as a formula unit is not a proton acceptor; OH⁻ is the base. A student who agrees without qualification treats the molecular equation as the proton-transfer step, missing the role of water and the ionic nature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only red and blue litmus paper, dilute HCl, dilute NaOH, and dilute NH₃ solution to demonstrate that NH₃ behaves as a Bronsted-Lowry base but not an Arrhenius base. Describe the observations and the conclusion.",
+     "a": "Test each solution with both litmus papers. HCl turns blue litmus red (acid). NaOH turns red litmus blue (Arrhenius base – contains OH⁻). NH₃ turns red litmus blue (basic) but does not contain OH⁻ initially; it accepts H⁺ from water to produce OH⁻. Conclusion: NH₃ is a Bronsted-Lowry base (proton acceptor) but not an Arrhenius base. A poor answer might only note the colour change without linking to proton acceptance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 112,
+  "chapter_title": "Summarising",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb112.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb112.1.1",
+      "title": "What a Summary Is and Is Not",
+      "section": "2",
+      "definition": "A summary restates the main points of a passage in fewer words, in the summariser's own language, as a connected paragraph meant for other readers. It is not a copying exercise, not a comment, and not as severely shortened as notes -- the full argument must survive in miniature.",
+      "formula": "",
+      "key_idea": "A summary is the passage shrunk, not shortened -- complete thought, fewer words, other people's eyes.",
+      "textbook_ref": "kehb112.txt opening (purpose of summarising, selection and compression, not as severely shortened as note making)",
+      "question_patterns": [
+        "define summarising in your own words",
+        "in class 11 summarising: how does a summary differ from note making",
+        "why must a summary be written in third person",
+        "what is meant by selection and compression in a summary",
+        "should a summary include examples from the passage",
+        "what makes a summary useful to a reader who has not seen the original"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "select the essentials", "explain": "Identify the main points the passage exists to make; drop illustrations, repeats and digressions."},
+        {"step": 2, "action": "compress the language", "explain": "Re-express the selected points in fewer, connected words -- own phrasing, faithful meaning."},
+        {"step": 3, "action": "keep it public", "explain": "Write continuous prose in the third person so a stranger to the text can follow the argument."}
+      ]
+    },
+    {
+      "id": "kehb112.1.2",
+      "title": "Steps of Summarising",
+      "section": "2",
+      "definition": "Sound summarising follows steps: read the passage thoroughly; note or underline the main points; link them in logical order; draft the summary in one paragraph; count and trim to the prescribed length; and supply a suitable title if asked.",
+      "formula": "",
+      "key_idea": "Read, select, connect, compress, title -- five moves from passage to summary.",
+      "textbook_ref": "kehb112.txt steps sections (read carefully, note main points, rough draft, final draft, prescribed length, suitable title)",
+      "question_patterns": [
+        "list the steps involved in summarising a passage",
+        "in class 11 summarising: why is a rough draft useful before the final summary",
+        "how is the prescribed length of a summary decided",
+        "when is a title needed for a summary",
+        "why must the summary follow the order of the original",
+        "summarise a given passage in about eighty words"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "read and mark", "explain": "Full reading first, then marking the sentences that carry the argument's weight."},
+        {"step": 2, "action": "draft and count", "explain": "Join the marked points into one paragraph, then trim wording to meet the length limit."},
+        {"step": 3, "action": "title if required", "explain": "A short title, drawn from the passage's central concern, completes the exercise."}
+      ]
+    },
+    {
+      "id": "kehb112.1.3",
+      "title": "Fidelity: Own Words, No New Ideas",
+      "section": "2",
+      "definition": "A summary must stay faithful: it adds no opinions, no new examples and no moralising of its own, and it reproduces the original's emphasis proportionately. own-words rendering checks real understanding -- if you cannot rephrase it, you have not grasped it.",
+      "formula": "",
+      "key_idea": "Faithful means proportional -- the summary's shape must mirror the passage's shape, with nothing added.",
+      "textbook_ref": "kehb112.txt fidelity sections (own words, no comments or new ideas, proportionate importance, check against original)",
+      "question_patterns": [
+        "why should a summary contain no new ideas",
+        "in class 11 summarising: what does writing in your own words test",
+        "how is proportionate importance maintained in a summary",
+        "can a summary include the summariser's opinion",
+        "check a given summary against its passage for fidelity",
+        "what errors spoil the fidelity of a summary"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "exclude the self", "explain": "Keep the summariser's views, examples and conclusions out of the text entirely."},
+        {"step": 2, "action": "mirror the emphasis", "explain": "Give each main idea space proportional to its weight in the original."},
+        {"step": 3, "action": "cross-check", "explain": "Compare summary to passage point by point to confirm nothing is added, dropped or distorted."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb112.txt steps guidance",
+      "concept": "kehb112.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Outline the procedure you would follow to summarise a 400-word passage in 80 words.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "read and mark", "explain": "Read twice and underline the four or five sentences carrying the argument."},
+        {"step": 2, "action": "draft and shrink", "explain": "Link the underlined ideas in one paragraph, then cut words until about 80 remain."},
+        {"step": 3, "action": "title and check", "explain": "Add a short title and verify no new idea or opinion has crept in."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb112.txt fidelity guidance",
+      "concept": "kehb112.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A student's summary of a passage on water conservation adds the sentence 'Everyone must stop using water for washing cars.' Is this acceptable? Why?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "check against the source", "explain": "If the passage never made this specific demand, the sentence introduces a new idea."},
+        {"step": 2, "action": "apply the fidelity rule", "explain": "Summaries may add nothing -- not even worthy advice."},
+        {"step": 3, "action": "fix it", "explain": "Delete the sentence; keep only what the passage itself asserts."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb112.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Summarise a given passage in about one-third of its length.",
+        "Suggest a suitable title for a given passage and justify it.",
+        "Point out the faults in a faulty sample summary.",
+        "Distinguish summarising from note-making with an example.",
+        "Rewrite a copied summary in your own words.",
+        "Why is proportionate importance essential in a summary?"
+      ]
+    }
+  ]
+}

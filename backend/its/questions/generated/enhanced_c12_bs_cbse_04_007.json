@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_04_007",
+   "title": "c12_bs_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define Procedure, Method, and Rule as per NCERT Class 12 Business Studies. Give one original example of each from a hospital setting.",
+     "a": "**Correct Answer:**\n- **Procedure**: Chronological steps for a recurring activity. *Example*: \"Patient Admission Procedure — 1. Collect OPD slip, 2. Verify insurance, 3. Allot bed, 4. Notify duty nurse.\"\n- **Method**: Prescribed technique for *one* step. *Example*: \"Vital Signs Measurement Method — Use digital BP cuff on left arm, wait 2 min, record systolic/diastolic.\"\n- **Rule**: Rigid do/don't with no discretion. *Example*: \"No mobile phones in ICU — violation leads to immediate removal.\"\n\n**What a wrong answer reveals**: If a student writes \"Procedure = how to do work, Method = way of doing work\" without mentioning *chronological sequence* for Procedure or *single-step focus* for Method, they are memorising synonyms, not structural differences. If they give a Policy example (e.g., \"Patient-first policy\") for Rule, they confuse *guideline* with *command*.",
+     "self_check": true
+    },
+    {
+     "q": "\"Procedures and Methods both tell employees how to work. So they are essentially the same thing.\" Critically comment using the NCERT distinction.",
+     "a": "**Correct Answer**: The statement is **false**. NCERT distinguishes them on **scope** and **granularity**:\n- A **Procedure** is a **multi-step sequence** spanning a whole activity (e.g., \"Purchase Requisition Procedure\" — 5 steps from indent to PO).\n- A **Method** governs **only one step** within that procedure (e.g., \"Vendor Comparison Method\" — weighted scoring matrix used in Step 3 of the procedure).\n- Procedures ensure *consistency across the activity*; Methods ensure *efficiency in a task*.\n- Example: In \"Salary Disbursement Procedure,\" Step 4 \"Calculate overtime\" uses \"Biometric Log Method.\" Changing the Method (to manual register) alters *how* Step 4 is done but not the Procedure's sequence.\n\n**What a wrong answer reveals**: If a student says \"both are standing plans so same,\" they miss the **hierarchical containment** (Procedure → Steps → Methods). If they cite flexibility difference (Procedure flexible, Method rigid), they invert reality — Methods *can* vary by task (lecture vs on-job training), while Procedures are fixed sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each directive below as Procedure, Method, or Rule. Justify each classification in one sentence.\na) \"All purchase orders above ₹50,000 require three quotations.\"\nb) \"Step 1: Receive indent. Step 2: Check stock. Step 3: Float enquiry. Step 4: Compare quotes. Step 5: Issue PO.\"\nc) \"Compare quotes using weighted scoring: Price 50%, Quality 30%, Delivery 20%.\"",
+     "a": "**Correct Answer:**\n- (a) **Rule** — Specific monetary threshold (₹50,000) and mandatory action (three quotations) with *zero discretion*; \"require\" signals non-negotiable.\n- (b) **Procedure** — Five *chronological steps* covering the *entire* purchase cycle from indent to PO; \"Step 1, Step 2…\" confirms sequence.\n- (c) **Method** — Prescribes *how* to execute *one step* (Step 4 comparison) via a specific *technique* (weighted scoring); scope is a single task.\n\n**What a wrong answer reveals**: Labelling (a) as Policy (common error) shows confusion between *guiding principle* (Policy) and *rigid mandate* (Rule). Labelling (c) as Procedure ignores that it lacks *sequence* — it's a *technique for one step*. Missing the \"single-step\" criterion for Method is the key gap.",
+     "self_check": true
+    },
+    {
+     "q": "A company's \"Expense Reimbursement Procedure\" has 6 steps. Step 3 says \"Attach original bills.\" The finance department issues a new Rule: \"No reimbursement without GST-compliant invoice.\" Analyse how this Rule impacts the Procedure and Method at Step 3.",
+     "a": "**Correct Answer:**\n- **Impact on Procedure**: Step 3 *expands* from \"Attach original bills\" → \"Attach original GST-compliant invoices.\" The *sequence* (6 steps) remains unchanged, but the *content* of Step 3 is constrained by the Rule.\n- **Impact on Method**: The *Method* for Step 3 (e.g., \"Scan bills at 300 dpi, rename file as EMPID_DATE\") must now include a **validation sub-step**: \"Verify GSTIN, HSN code, tax breakup before scanning.\" The Method adapts to satisfy the Rule.\n- **Hierarchy**: Rule > Procedure > Method. Rule sets the *boundary condition*; Procedure sequences the *activity*; Method operationalises the *task* within the Rule's boundary.\n\n**What a wrong answer reveals**: If a student says \"Procedure changes to 7 steps,\" they confuse *content modification* with *structural change*. If they say \"Method becomes a Rule,\" they miss that Method *implements* the Rule's requirement. The error is not seeing **Rule as a constraint that propagates downward**.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rules are the most efficient standing plans because they eliminate decision-making time.\" Evaluate this claim with reference to organisational creativity and dynamic environments.",
+     "a": "**Correct Answer**: The claim is **partially true but dangerous**.\n- **True**: Rules *do* save time in *routine, high-risk, or compliance* areas (e.g., \"Wear PPE in chemical plant\" — no debate, instant compliance).\n- **False as a generalisation**: \n  1. **Creativity kill**: NCERT states \"Planning reduces creativity\" — Rules extend this by forbidding *any* deviation. In R&D or marketing, a Rule like \"All campaigns must use Template X\" stifles innovation.\n  2. **Dynamic environments**: NCERT limitation — \"Planning may not work in a dynamic environment.\" Rules *cannot* anticipate novel situations (e.g., pandemic work-from-home). A Rule \"Office attendance mandatory 9 AM\" failed in 2020; organisations needed *flexible Procedures* with *discretionary Methods*.\n  3. **Bureaucracy**: Excess Rules → \"Red tape\" — employees follow Rules blindly, ignoring purpose (goal displacement).\n- **Verdict**: Rules are efficient *only* for *standardised, repetitive, low-judgement* tasks. For knowledge work, Procedures with *discretionary Methods* and *guiding Policies* outperform Rules.\n\n**What a wrong answer reveals**: Agreeing fully shows ignorance of NCERT's \"Planning reduces creativity\" and \"dynamic environment\" limitations. Disagreeing fully ignores Rules' legitimate role in safety/compliance. The nuance — *context-dependent efficiency* — is the evaluative skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coherent **Procedure–Method–Rule** set for \"Student Entry into Computer Lab\" in your school. The Procedure must have 4 steps. One step must have a Method. One Rule must constrain the Procedure. Label each component clearly.",
+     "a": "**Expected Answer Criteria (sample valid response):**\n- **Procedure (4 chronological steps)**:\n  1. Show school ID at door.\n  2. Sign entry register with time-in.\n  3. **Sanitise hands and wear shoe covers.** ← *Step with Method*\n  4. Occupy assigned terminal; log in with credentials.\n- **Method (for Step 3)**: \"Two-step Sanitisation Method — (a) Dispense 2 ml gel, rub 20 sec covering all surfaces; (b) Pull shoe cover over each foot, ensure elastic seals ankle.\"\n- **Rule (constraining Procedure)**: \"No entry without school ID and clean shoe covers — violators sent to coordinator.\"\n- **Coherence Check**: Rule enforces Step 1 & 3; Method operationalises Step 3; Procedure sequences all.\n\n**What a poor answer reveals**: \n- Procedure lacks chronology (e.g., \"Wear shoe covers, sign register, show ID\" — wrong order). \n- Method describes *multiple steps* (e.g., \"Method for entering lab: show ID, sign, sanitise\") — violates *single-task* scope. \n- Rule is vague (\"Maintain discipline\") — not a specific *do/don't*. \n- Missing *linkage* (Rule doesn't reference Procedure steps). The error is treating them as independent, not hierarchical.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt102",
+ "concepts": [
+  {
+   "id": "kebt102.1",
+   "title": "Fluid Mosaic Model of the Plasma Membrane",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fluid Mosaic Model of the Plasma Membrane' refers to.",
+     "a": "Singer and Nicolson pictured the membrane in 1972 as a quasi-fluid phospholipid double layer - hydrophilic heads outward, hydrophobic tails inward - carrying a shifting mosaic of globular proteins that drift sideways through it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fluid Mosaic Model of the Plasma Membrane'.",
+     "a": "A fluid lipid bilayer with drifting proteins explains why the cell boundary stays both flexible and selectively permeable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fluid Mosaic Model of the Plasma Membrane' taught, and from which source text?",
+     "a": "2.1 (source: kebt102.txt section 2.1 and Fig. 2.1, Box 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.2",
+   "title": "Transport Across the Plasma Membrane",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport Across the Plasma Membrane' refers to.",
+     "a": "Molecules cross the boundary three ways: passive drift down the gradient at zero energy cost (diffusion, osmosis), carrier- or channel-assisted passage for ions, glucose and amino acids, and uphill pumping that spends ATP or is coupled to a second gradient as symport or antiport.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport Across the Plasma Membrane'.",
+     "a": "Downhill moves free, assisted downhill is facilitated, uphill must be paid in ATP or borrowed from another gradient.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transport Across the Plasma Membrane' taught, and from which source text?",
+     "a": "2.1 (source: kebt102.txt section 2.1, Figs. 2.2 and 2.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.3",
+   "title": "Membrane Composition Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Membrane Composition Arithmetic', work with: lipid_pct = 75, protein_pct = 18. Carry the chain through step by step and give the final value of lipid_protein_ratio.",
+     "a": "4.1667 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Membrane Composition Arithmetic' and work with: lipid_pct = 8, protein_pct = 10. Carry the chain through step by step and give the final value of lipid_protein_ratio.",
+     "a": "0.8 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Membrane Composition Arithmetic' refers to.",
+     "a": "Membrane make-up is quoted in percent; a human erythrocyte membrane runs roughly 52 percent protein against 40 percent lipid, so whatever remains out of 100 belongs to other components, and relative lipid richness is just the lipid percent divided by the protein percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Membrane Composition Arithmetic'.",
+     "a": "Percent compositions add to 100, so the missing share is the leftover; comparing richness is a single division.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Membrane Composition Arithmetic', in plain ASCII form.",
+     "a": "other_share = 100 - protein_pct - lipid_pct",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.4",
+   "title": "Cell Wall of Bacteria and Plants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Wall of Bacteria and Plants' refers to.",
+     "a": "Many cells wear a rigid coat outside the membrane: peptidoglycan chains cross-linked by short peptides in bacteria (thick single-membrane layout in Gram-positive types, thin double-membrane layout in Gram-negative types), cellulose in most higher plants and chitin in fungi, with lignin hardening the secondary wall.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Wall of Bacteria and Plants'.",
+     "a": "The wall fixes shape and blocks osmotic bursting; several antibiotics kill bacteria by stopping peptidoglycan cross-linking.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Wall of Bacteria and Plants' taught, and from which source text?",
+     "a": "2.2 (source: kebt102.txt section 2.2, Figs. 2.4 and 2.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.5",
+   "title": "Endomembrane System Compartments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Endomembrane System Compartments' refers to.",
+     "a": "A cooperating team of single-membrane organelles - rough and smooth endoplasmic reticulum, the Golgi stack with its cis receiving face and trans shipping face, lysosomes packed with acid hydrolases, and storage vacuoles - builds, modifies, packages and ships the cell's proteins and lipids.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Endomembrane System Compartments'.",
+     "a": "The secretory route runs rough ER to Golgi to vesicles to the cell surface, while lysosomes recycle damaged organelles by autophagy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Endomembrane System Compartments' taught, and from which source text?",
+     "a": "2.3 (source: kebt102.txt section 2.3 and Box 2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.6",
+   "title": "Ribosome Subunits and Sedimentation Values",
+   "questions": [
+    {
+     "q": "Using the method 'Ribosome Subunits and Sedimentation Values', work with: large_s = 24, prok_s = 150. Carry the chain through step by step and give the final value of small_subunit.",
+     "a": "126 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ribosome Subunits and Sedimentation Values' and work with: large_s = 15, prok_s = 300. Carry the chain through step by step and give the final value of small_subunit.",
+     "a": "285 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ribosome Subunits and Sedimentation Values' refers to.",
+     "a": "Ribosomes are membraneless protein factories rated by how fast they sediment in an ultracentrifuge: prokaryotic 70S particles separate into 50S and 30S halves, eukaryotic 80S particles into 60S and 40S halves, and the 70S kind also turns up inside mitochondria and chloroplasts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ribosome Subunits and Sedimentation Values'.",
+     "a": "The S value is a sedimentation rating rather than a sum; subtracting the large-subunit rating from the whole leaves the small one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ribosome Subunits and Sedimentation Values', in plain ASCII form.",
+     "a": "small_subunit = total_s - large_s",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.7",
+   "title": "Cytoskeleton Filaments and the Axoneme Array",
+   "questions": [
+    {
+     "q": "How many microtubules make up the 9+2 axoneme of a motile cilium - count them? Use the method 'Cytoskeleton Filaments and the Axoneme Array'. Work with: central_single = 100, peripheral_doublets = 60. Carry the chain through step by step and give the final value of microtubule_total.",
+     "a": "220 units",
+     "self_check": false
+    },
+    {
+     "q": "How many times thicker is a microtubule than an actin filament? Use the method 'Cytoskeleton Filaments and the Axoneme Array'. Work with: central_single = 500, peripheral_doublets = 4. Carry the chain through step by step and give the final value of microtubule_total.",
+     "a": "508 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cytoskeleton Filaments and the Axoneme Array' refers to.",
+     "a": "Three protein filament families scaffold the cell - 25 nm tubulin microtubules, 6 nm actin filaments and 10 nm intermediate filaments - while every cilium or flagellum runs on a 9+2 axoneme of nine peripheral doublets around a central pair.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cytoskeleton Filaments and the Axoneme Array'.",
+     "a": "Nine doublets count as eighteen plus two singles, so twenty microtubules drive each cilium; a centriole's nine triplets total twenty-seven.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cytoskeleton Filaments and the Axoneme Array', in plain ASCII form.",
+     "a": "microtubule_total = peripheral_doublets * 2 + central_single",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt102.8",
+   "title": "Chromosome Number and Ploidy",
+   "questions": [
+    {
+     "q": "Using the method 'Chromosome Number and Ploidy', work with: pairs = 120. Carry the chain through step by step and give the final value of gamete_count.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Chromosome Number and Ploidy' and work with: pairs = 500. Carry the chain through step by step and give the final value of gamete_count.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Chromosome Number and Ploidy' refers to.",
+     "a": "Hereditary material travels as DNA-histone threads: each human body cell holds 23 pairs (22 autosome pairs plus one sex-chromosome pair), and gamete formation halves the set so every sex cell takes one member of each pair.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chromosome Number and Ploidy'.",
+     "a": "Doubling the pair count gives the diploid total; halving the diploid total gives the gamete count.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chromosome Number and Ploidy', in plain ASCII form.",
+     "a": "gamete_count = somatic_total / 2",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

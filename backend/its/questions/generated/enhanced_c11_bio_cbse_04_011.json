@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_011",
+   "title": "c11_bio_cbse_04_011",
+   "questions": [
+    {
+     "q": "Name the three components of the water vascular system in Asterias that directly participate in locomotion, and state the fluid that fills this system.",
+     "a": "The three components are the madreporite, stone canal, and ring canal (with radial canals and tube feet). The system is filled with seawater, not coelomic fluid or blood. A wrong answer naming \"coelomic fluid\" or \"haemolymph\" reveals confusion between the water vascular system and the true coelom/perivisceral cavity; the student has not grasped that this is a unique hydraulic system open to the exterior via the madreporite.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the presence of a water vascular system means echinoderms lack a dedicated excretory system, linking the system's connection to the exterior.",
+     "a": "The water vascular system opens to the outside via the madreporite, allowing continuous exchange of seawater. Metabolic wastes (mainly ammonia) diffuse directly from the perivisceral coelomic fluid into the water vascular canals and out through the madreporite or tube feet. A student who says \"they have flame cells\" or \"nephridia\" is incorrectly applying excretory structures from Platyhelminthes or Annelida (c11_bio_cbse_04_006, c11_bio_cbse_04_008) to Echinodermata, missing the unique waste-removal pathway via the hydraulic system.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a starfish larva under a microscope and notes bilateral symmetry. The same student later sees an adult starfish with five arms. Predict what happens to the larval left-right axis during metamorphosis, and justify how this supports echinoderms being deuterostomes.",
+     "a": "During metamorphosis, the larval left side expands to form the adult oral surface (with mouth and five ambulacral areas), while the right side is largely reduced or forms the aboral surface. The adult pentamerous symmetry is secondary, derived from bilateral larval symmetry. This ontogenetic pattern — bilateral larva to radial adult — confirms deuterostome ancestry because the larval bilateral symmetry reflects the ancestral deuterostome body plan. A wrong answer claiming \"the larva is radial\" or \"adult symmetry is primary\" shows the student has not connected embryology (c11_bio_cbse_04_001, c9_bio_ch4_3) to adult morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the digestive system of Echinodermata with that of Platyhelminthes and Annelida. Identify which phylum shares the \"complete digestive system\" trait with Echinodermata and explain the functional significance of separate mouth and anus in a radially symmetrical animal.",
+     "a": "Annelida shares the complete digestive system (two openings) with Echinodermata; Platyhelminthes has an incomplete gut (single opening). In a radially symmetrical echinoderm, the mouth on the oral (ventral) surface and anus on the aboral (dorsal) surface allow unidirectional food flow despite radial body plan, enabling continuous feeding and efficient digestion. A student who says \"all three have complete systems\" or \"radial symmetry requires a central mouth only\" fails to distinguish gut types (c11_bio_cbse_04_001) and misses the adaptive value of through-gut in radial organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The calcareous ossicles of echinoderms are homologous to the chitinous exoskeleton of arthropods because both provide protection and support.\" Identify the error and correct it using germ layer origin and composition.",
+     "a": "The statement is false. Echinoderm ossicles are mesodermal endoskeleton (calcareous, internal), while arthropod exoskeleton is ectodermal (chitinous, external). They are analogous (similar function) not homologous (shared ancestry). A student calling them homologous confuses analogy with homology — a critical error in evolutionary classification (c9_bio_ch4_2, c10_bio_cbse_04_007). The germ layer origin (mesoderm vs ectoderm) and position (endo vs exo) are decisive criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation-based experiment to demonstrate that tube feet in Asterias operate by hydraulic pressure, not muscular contraction alone. List materials, procedure, and the key observation that confirms hydraulic mechanism.",
+     "a": "Materials: Live Asterias in seawater tray, fine needle, dissecting microscope. Procedure: (1) Observe tube feet extending and adhering to glass. (2) Gently puncture the ampulla of one tube foot with a needle. (3) Observe that the punctured tube foot collapses and cannot re-extend, while adjacent intact tube feet function normally. Key observation: Loss of fluid from ampulla causes immediate loss of function, proving hydraulic pressure drives extension. A poor answer suggesting \"cut the muscle and see if it moves\" misses that tube feet lack longitudinal muscles; the student has not internalised the hydraulic principle unique to echinoderms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

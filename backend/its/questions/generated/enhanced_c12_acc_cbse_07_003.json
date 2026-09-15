@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_003",
+   "title": "c12_acc_cbse_07_003",
+   "questions": [
+    {
+     "q": "List the first five line items (Roman numerals I to V) of the Statement of Profit and Loss as per Schedule III, Part II in correct order.",
+     "a": "I. Revenue from Operations; II. Other Income; III. Total Revenue (I+II); IV. Expenses (with sub-heads a to g); V. Profit before Exceptional and Extraordinary Items and Tax (III-IV). A wrong sequence (e.g., putting Expenses before Other Income) reveals the student hasn't internalized the top-down flow: income → total revenue → expenses → profit before tax.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes \"Discount Allowed\" under \"Other Expenses\" in the Statement of Profit and Loss. Is this correct? Explain why or why not with reference to Schedule III.",
+     "a": "Incorrect. \"Discount Allowed\" is a reduction from revenue, not an expense. Per Schedule III, it must be netted off from \"Revenue from Operations\" (shown as a deduction in the notes to Revenue from Operations). Placing it under \"Other Expenses\" overstates both revenue and expenses, violating the matching principle and Schedule III presentation rules.",
+     "self_check": true
+    },
+    {
+     "q": "From the following trial balance extracts, prepare the \"Expenses\" section (Note IV) of the Statement of Profit and Loss for the year ended 31st March 2024, showing all seven sub-heads (a to g) with amounts:\n\n| Account | Dr. (₹) | Cr. (₹) |\n|---|---|---|\n| Cost of Raw Materials Consumed | 12,00,000 | |\n| Purchases of Stock-in-Trade | 3,00,000 | |\n| Opening Stock of Finished Goods | 2,00,000 | |\n| Closing Stock of Finished Goods | | 1,50,000 |\n| Salaries & Wages | 4,00,000 | |\n| Interest on Bank Loan | 1,00,000 | |\n| Depreciation on Machinery | 2,00,000 | |\n| Rent | 1,50,000 | |\n| Advertising Expenses | 50,000 | |\n| Audit Fees | 30,000 | |",
+     "a": "IV. Expenses:\n(a) Cost of Materials Consumed: 12,00,000\n(b) Purchases of Stock-in-Trade: 3,00,000\n(c) Changes in Inventories: Opening Stock 2,00,000 - Closing Stock 1,50,000 = 50,000 (increase in expense)\n(d) Employee Benefits Expense: 4,00,000\n(e) Finance Costs: 1,00,000\n(f) Depreciation & Amortization: 2,00,000\n(g) Other Expenses: Rent 1,50,000 + Advertising 50,000 + Audit Fees 30,000 = 2,30,000\nTotal Expenses = 25,30,000. A common error is putting \"Interest on Bank Loan\" under Other Expenses instead of Finance Costs, or misclassifying stock change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Loss on Sale of Fixed Assets\" and \"Loss by Fire\" in the Statement of Profit and Loss. Under which line items would each appear, and why does Schedule III distinguish them?",
+     "a": "\"Loss on Sale of Fixed Assets\" is an **ordinary** loss → included in \"Other Expenses\" (IV-g) because it arises from normal business decisions. \"Loss by Fire\" is an **extraordinary** item (if material and not expected to recur) → shown separately as \"Extraordinary Items\" (VIII) after Profit before Extraordinary Items and Tax (VII). Schedule III distinguishes them to highlight non-recurring events for users assessing sustainable earnings. Misclassifying fire loss as ordinary expense inflates operating expenses and hides the extraordinary nature.",
+     "self_check": true
+    },
+    {
+     "q": "A company reports \"Profit before Tax\" of ₹50 lakh. It has a current tax liability of ₹15 lakh and a deferred tax asset of ₹3 lakh (reversal). Calculate \"Profit (Loss) for the period from Continuing Operations\" and explain the deferred tax treatment.",
+     "a": "Tax Expense (X) = Current Tax (₹15 lakh) - Deferred Tax Asset reversal (₹3 lakh) = ₹12 lakh.\nProfit from Continuing Operations (XI) = Profit before Tax (₹50 lakh) - Tax Expense (₹12 lakh) = ₹38 lakh.\nDeferred tax asset reversal reduces tax expense because it represents future tax benefit now realized. A student who adds deferred tax asset (₹3 lakh) to current tax gets ₹18 lakh tax expense and ₹32 lakh profit — wrong because deferred tax asset reversal is a benefit, not a cost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mnemonic or memory aid to recall the 16-line sequence of the Statement of Profit and Loss (I to XVI). Test it by writing the full sequence from memory.",
+     "a": "Example mnemonic: \"**R**evenge **O**f **T**otal **E**xpenses **P**roduces **B**ig **E**xceptional **E**xtra **P**rofits **B**efore **T**ax **T**akes **P**rofit **D**iscontinuing **T**ax **P**rofit **E**arnings\". \nSequence: I Revenue, II Other Income, III Total Revenue, IV Expenses, V Profit before Exceptional/Extraordinary, VI Exceptional Items, VII Profit before Extraordinary, VIII Extraordinary Items, IX Profit before Tax, X Tax Expense, XI Profit from Continuing, XII Discontinuing Profit, XIII Discontinuing Tax, XIV Discontinuing after Tax, XV Total Profit, XVI EPS. \nA poor mnemonic that misses \"Exceptional vs Extraordinary\" distinction or \"Deferred Tax\" reveals shallow encoding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

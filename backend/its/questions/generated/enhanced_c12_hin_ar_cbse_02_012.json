@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_02_012",
+   "title": "c12_hin_ar_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words. Give one example of each type of question that could be asked from the poem \"irax\".",
+     "a": "**Correct answer:** Literal comprehension asks for information directly stated in the text (e.g., \"What do the children do when the hawkers arrive?\" — answer: they run behind them, shout, and try to buy things). Inferential comprehension asks for meaning derived from clues (e.g., \"Why does the poet call the mother's wait '?kwerh' (patient)?\" — answer: it suggests enduring love and routine care, supported by 'cspSu iSjksa' and 'dikl').  \n**What a wrong answer reveals:** If the student gives only definitions without poem-specific examples, they cannot transfer the concept to the actual text. If they confuse inferential with \"personal opinion\" (e.g., \"I think the mother is tired\"), they lack the skill of text‑based inference.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the question \"What happens when the children fall while running?\" is a literal question, whereas \"What does the line 'vkSj Hkh fuMj gksdj lqugys lwjt osQ lkeus vkrs gSa' suggest about the children's resilience?\" is an inferential question.",
+     "a": "**Correct answer:** The first question seeks a directly described event: the poem states they get up and keep running (\"fxjrs gSa Nrksa osQ [krjukd fdukjksa ls vkSj cp tkrs gSa\"). The second question asks for an implied quality (resilience) not explicitly named; the student must connect \"fuMj gksdj\" (becoming unconscious) and \"lqugys lwjt osQ lkeus vkrs gSa\" (returning to consciousness) to infer the children's ability to bounce back.  \n**What a wrong answer reveals:** If the student says both are literal because both refer to lines in the poem, they miss that inferential questions require synthesizing clues to reach a conclusion not verbatim in the text. If they say the second is literal because the words are there, they confuse quotation with inference.",
+     "self_check": true
+    },
+    {
+     "q": "Read the following lines from the poem (paraphrased): \"The mother waits with cool shade-like food; when the children return hungry, she serves them.\" Formulate one literal question and one inferential question based on these lines, and answer both.",
+     "a": "**Steps:**  \n1. Identify explicit facts: mother waits, food is like cool shade, children return hungry, she serves.  \n2. Literal question: \"What is the food compared to?\" Answer: \"Cool shade (cspSu iSjksa).\"  \n3. Inferential question: \"Why is the food compared to cool shade?\" Answer: It implies the food provides comfort, relief, and nourishment just as shade relieves heat; the metaphor suggests maternal care is essential and soothing.  \n4. Verify: Both answers use only the given lines; the inference is grounded in the metaphor.  \n**What a wrong answer reveals:** If the literal answer adds details not in the lines (e.g., \"she cooks rice\"), the student hallucinates. If the inferential answer says \"because the mother is kind\" without linking to the metaphor, it’s an unsupported opinion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two inferential questions from the NCERT exercise:  \n(a) \"fn'kkvksa dks e`nax dh rjg ctkus dk D;k rkRi;Z gS?\"  \n(b) \"tc irax lkeus gks rks Nrksa ij nkSM+rs gq, D;k vkidks Nr dBksj yxrh gS?\"  \nAnalyze how each question uses different textual evidence to reach its inference.",
+     "a": "**Correct answer:**  \n(a) Uses the simile \"e`nax dh rjg\" (like a mother’s affection) applied to \"fn'kk\" (evening). Evidence: evening’s gentle arrival mirrors a mother’s tender care; the inference is about the *atmosphere* being nurturing.  \n(b) Uses the scene where children return exhausted (\"lkeus\") and the mother feeds them. Evidence: \"cspSu iSjksa\" (cool shade) and \"?kwerh\" (patient wait) show physical and emotional sustenance; the inference is about the *mother’s role* as a restorative force.  \n**What a wrong answer reveals:** If the student says both use the same evidence (mother/food), they fail to distinguish the different textual anchors (evening vs. mother’s actions) and the different inferred meanings (ambience vs. relationship).",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why does the poet describe the hawkers’ voices as '”kksj&”kksj' (harsh/loud)?\" with: \"Because hawkers shout loudly in real life.\" Evaluate this answer. Is it a valid text‑based inference? Why or why not?",
+     "a": "**Correct answer:** No, it is not a valid text‑based inference. The answer relies on external real‑world knowledge, not on textual evidence. A text‑based inference would note that \"”kksj&”kksj\" contrasts with the children’s innocent play (\"pedhys b'kkjksa\"), highlighting the intrusion of the adult commercial world into the child’s pure space, or that the harshness underscores the children’s desperate desire (\"vkdk'k dks bruk eqyk;e cukrs gq, fd irax mQij mB losQµ\").  \n**What a wrong answer reveals:** If the student defends the answer as correct because \"it’s true in reality,\" they confuse personal knowledge with literary inference. This misconception leads to answers that ignore the poet’s craft and score poorly in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal question and one inferential question for the following (imagined) stanza in the style of \"irax\":  \n\"Evening shadows stretch long; the streetlamps flicker on. Children count fireflies in jars, their faces glowing. A distant train whistle blows, and they imagine journeys they will take someday.\"",
+     "a": "**Expected criteria:**  \n- Literal question must have a direct answer from the stanza (e.g., \"What do the children put in jars?\" → \"Fireflies\").  \n- Inferential question must require reasoning from clues (e.g., \"What does the train whistle symbolize for the children?\" → \"Future possibilities, longing for adventure beyond their current world, supported by 'they imagine journeys they will take someday'\").  \n**What a poor answer reveals:** If the literal question asks \"Why do they count fireflies?\" (not stated), the student confuses literal with inferential. If the inferential question is \"Do you like fireflies?\" it becomes personal opinion, not text‑based inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

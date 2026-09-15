@@ -1,0 +1,533 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Triangles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh106.txt",
+ "concepts": [
+  {
+   "id": "jemh.106.2.1",
+   "title": "Similarity of Polygons",
+   "section": "6.2",
+   "definition": "Two geometric shapes with the same number of sides are similar if all corresponding interior angles are identical and the lengths of all corresponding sides share a common ratio.",
+   "formula": "side_ratio = polygon1_side / polygon2_side",
+   "key_idea": "Matching angles line up and every pair of corresponding sides keeps one constant ratio.",
+   "textbook_ref": "jemh106.txt lines 70-110",
+   "question_patterns": [
+    "Are all circles similar?",
+    "Are all squares similar?",
+    "State whether two given quadrilaterals are similar or not",
+    "What are the two conditions for similarity of polygons?",
+    "Give two examples of non-similar figures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the number of sides is equal",
+     "explain": "Both polygons must have the same number of sides to be compared for similarity."
+    },
+    {
+     "step": 2,
+     "action": "Verify corresponding angles",
+     "explain": "Ensure that all corresponding interior angles of the two polygons are equal."
+    },
+    {
+     "step": 3,
+     "action": "Verify ratio of corresponding sides",
+     "explain": "Check if the ratio of the length of each side of the first polygon to the corresponding side of the second polygon is constant."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.3.1",
+   "title": "Basic Proportionality Theorem Segment Calculation",
+   "section": "6.3",
+   "definition": "When a line is drawn parallel to one side of a triangle, it cuts the other two sides in equal ratios, allowing the determination of any single missing segment length.",
+   "formula": "segment_d = segment_b * segment_c / segment_a",
+   "key_idea": "The parallel line divides the two sides in the same proportion.",
+   "textbook_ref": "jemh106.txt lines 130-170",
+   "question_patterns": [
+    "In triangle ABC, DE is parallel to BC. If AD is {segment_a}, DB is {segment_b}, and AE is {segment_c}, find EC.",
+    "Find the length of EC when DE is parallel to BC and other segments are given",
+    "Calculate the missing segment AD using Thales theorem",
+    "What is the value of the unknown segment in a triangle divided by a parallel line?",
+    "Determine the length of segment_d given the other three proportional segments"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of division",
+     "explain": "Find the ratio of the two segments on the first side of the triangle.",
+     "compute": "ratio = segment_b / segment_a"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the missing segment",
+     "explain": "Multiply the third segment by the ratio of division to find the missing segment length.",
+     "compute": "segment_d = segment_c * ratio"
+    },
+    {
+     "step": 3,
+     "action": "Verify the segment lengths satisfy Thales theorem",
+     "explain": "Confirm that segment_b / segment_a equals segment_d / segment_c, ensuring the parallel line divides both sides proportionally."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.3.2",
+   "title": "Converse of Basic Proportionality Theorem",
+   "section": "6.3",
+   "definition": "If a straight line cuts two sides of a triangle in equal ratios, then that line must run parallel to the third side of the triangle.",
+   "formula": "AD / DB == AE / EC implies DE || BC",
+   "key_idea": "Equal ratios of division imply parallel lines.",
+   "textbook_ref": "jemh106.txt lines 210-235",
+   "question_patterns": [
+    "State whether EF is parallel to QR",
+    "Verify if the line dividing the sides is parallel to the base",
+    "Use the converse of BPT to check if DE is parallel to BC",
+    "Show that the line joining points on two sides is parallel to the third side",
+    "Is the line parallel to the third side if the segment lengths are given?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of segments on the first side",
+     "explain": "Divide the first segment by the second segment on the first side."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the ratio of segments on the second side",
+     "explain": "Divide the corresponding first segment by the second segment on the second side."
+    },
+    {
+     "step": 3,
+     "action": "Compare the ratios",
+     "explain": "If the two ratios are equal, then the line is parallel to the third side."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.1",
+   "title": "AA and AAA Similarity Criteria",
+   "section": "6.4",
+   "definition": "Two triangles are similar if their corresponding angles are equal, which is guaranteed if at least two angles of one triangle match two angles of the other.",
+   "formula": "angle_A = angle_D and angle_B = angle_E implies triangle_ABC ~ triangle_DEF",
+   "key_idea": "Angle equality is sufficient to establish similarity between triangles.",
+   "textbook_ref": "jemh106.txt lines 310-350",
+   "question_patterns": [
+    "Prove that two triangles are similar using AA criterion",
+    "Find the angle in a similar triangle using angle sum property",
+    "Show that triangle POQ is similar to triangle SOR",
+    "Are the two triangles similar by AAA similarity?",
+    "Identify if the triangles are equiangular and similar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify two pairs of equal angles",
+     "explain": "Look for given angles, vertically opposite angles, or alternate interior angles."
+    },
+    {
+     "step": 2,
+     "action": "Apply the AA similarity criterion",
+     "explain": "Since two angles of one triangle are equal to two angles of another, the triangles are similar."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the third angle is equal by the angle sum property",
+     "explain": "Since the sum of angles in a triangle is 180 degrees, equality of two angles forces the third pair to be equal, confirming AAA similarity."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.2",
+   "title": "SSS Similarity Criterion",
+   "section": "6.4",
+   "definition": "Triangles are similar if the ratios of all three pairs of corresponding sides are equal, which consequently makes their corresponding angles equal.",
+   "formula": "AB / DE = BC / EF = CA / FD",
+   "key_idea": "Proportionality of all three sides ensures similarity.",
+   "textbook_ref": "jemh106.txt lines 360-400",
+   "question_patterns": [
+    "Check if two triangles are similar using SSS criterion",
+    "Find the unknown angle in a triangle similar by SSS",
+    "Verify similarity of triangles when all side lengths are given",
+    "Show that the ratio of corresponding sides is constant for similar triangles",
+    "Are these triangles similar based on their side ratios?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the ratios of all three pairs of corresponding sides",
+     "explain": "Divide the lengths of the corresponding sides of the two triangles."
+    },
+    {
+     "step": 2,
+     "action": "Verify if the three ratios are equal",
+     "explain": "If all three ratios are equal, the triangles are similar by SSS."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the corresponding angles are equal",
+     "explain": "Equal side ratios imply equal corresponding angles, so the triangles are similar by SSS similarity criterion."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.3",
+   "title": "SAS Similarity Criterion",
+   "section": "6.4",
+   "definition": "If one angle of a triangle equals an angle of another triangle, and the sides enclosing these angles are proportional, the triangles are similar.",
+   "formula": "AB / DE = AC / DF and angle_A = angle_D",
+   "key_idea": "One equal angle between two proportional sides guarantees similarity.",
+   "textbook_ref": "jemh106.txt lines 410-450",
+   "question_patterns": [
+    "Prove similarity of triangles using SAS criterion",
+    "Are the triangles similar if one angle and its adjacent sides are proportional?",
+    "Show that triangle AMC is similar to triangle PNR using medians and SAS",
+    "Verify if the triangles are similar by SAS similarity",
+    "Determine if the given triangles satisfy the SAS similarity condition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the equal angle in both triangles",
+     "explain": "Find one angle in the first triangle that is equal to an angle in the second triangle."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the ratios of the sides enclosing these angles",
+     "explain": "Divide the lengths of the two enclosing sides of the first triangle by the corresponding enclosing sides of the second triangle."
+    },
+    {
+     "step": 3,
+     "action": "Check if the enclosing side ratios are equal",
+     "explain": "If the ratios are equal and the included angles are equal, the triangles are similar by SAS."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.4",
+   "title": "Indirect Measurement of Heights using Shadows",
+   "section": "6.4",
+   "definition": "The height of a tall object can be calculated by comparing its shadow length with the height and shadow length of a shorter vertical pole at the same time.",
+   "formula": "height_tower = height_pole * shadow_tower / shadow_pole",
+   "key_idea": "The ratio of height to shadow length is constant under the same sun angle.",
+   "textbook_ref": "jemh106.txt lines 580-590",
+   "question_patterns": [
+    "A vertical pole of length {height_pole} m casts a shadow {shadow_pole} m long and at the same time a tower casts a shadow {shadow_tower} m long. Find the height of the tower.",
+    "Calculate the height of a tower using shadow lengths",
+    "What is the height of the tower if a pole of height {height_pole} casts a shadow of {shadow_pole}?",
+    "Find the height of a building given its shadow and a reference pole",
+    "How high is the tower when the shadow lengths are known?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of the tower shadow to the pole shadow",
+     "explain": "Divide the shadow of the tower by the shadow of the pole.",
+     "compute": "shadow_ratio = shadow_tower / shadow_pole"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the pole height to find the tower height",
+     "explain": "The tower height is the pole height multiplied by the shadow ratio.",
+     "compute": "height_tower = height_pole * shadow_ratio"
+    },
+    {
+     "step": 3,
+     "action": "Verify the height-to-shadow ratio is consistent",
+     "explain": "Confirm that height_tower / shadow_tower equals height_pole / shadow_pole, ensuring the sun angle is the same for both objects."
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.5",
+   "title": "Dynamic Shadow Length of a Walking Person",
+   "section": "6.4",
+   "definition": "Determines the length of a person's shadow after walking away from a lamp-post at a constant speed for a given duration.",
+   "formula": "shadow = (speed * time) / (lamp_height / girl_height - 1)",
+   "key_idea": "Using similar triangles formed by the lamp-post and the person to find the shadow length.",
+   "textbook_ref": "jemh106.txt lines 470-500",
+   "question_patterns": [
+    "A girl of height {girl_height} m is walking away from the base of a lamp-post at a speed of {speed} m/s. If the lamp is {lamp_height} m above the ground, find the length of her shadow after {time} seconds.",
+    "Find the shadow length of a person walking away from a lamp-post",
+    "Calculate the length of the shadow after {time} seconds of walking",
+    "How long is the shadow of a girl walking at {speed} m/s away from a lamp of height {lamp_height}?",
+    "Determine the shadow length using speed, time, lamp height, and person height"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the distance walked",
+     "explain": "Multiply speed by time to find the distance from the lamp-post.",
+     "compute": "distance = speed * time"
+    },
+    {
+     "step": 2,
+     "action": "Find the ratio of lamp height to person height",
+     "explain": "Divide the height of the lamp-post by the height of the person.",
+     "compute": "height_ratio = lamp_height / girl_height"
+    },
+    {
+     "step": 3,
+     "action": "Subtract one from the height ratio",
+     "explain": "The proportion is based on the difference between the total base and the shadow.",
+     "compute": "ratio_minus_one = height_ratio - 1"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the shadow length",
+     "explain": "Divide the distance walked by the adjusted ratio.",
+     "compute": "shadow = distance / ratio_minus_one"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh106.txt lines 240-245",
+   "concept": "jemh.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "In triangle ABC, DE is parallel to BC. If AD is {segment_a}, DB is {segment_b}, and AE is {segment_c}, find EC.",
+   "extracted_variables": {
+    "segment_a": 1.5,
+    "segment_b": 3.0,
+    "segment_c": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of division",
+     "explain": "Find the ratio of the two segments on the first side of the triangle.",
+     "compute": "ratio = segment_b / segment_a"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the missing segment",
+     "explain": "Multiply the third segment by the ratio of division to find the missing segment length.",
+     "compute": "segment_d = segment_c * ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh106.txt lines 240-245",
+   "concept": "jemh.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "In triangle ABC, DE is parallel to BC. If AD is {segment_a}, DB is {segment_b}, and AE is {segment_c}, find EC.",
+   "extracted_variables": {
+    "segment_a": 2.4,
+    "segment_b": 3.6,
+    "segment_c": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of division",
+     "explain": "Find the ratio of the two segments on the first side of the triangle.",
+     "compute": "ratio = segment_b / segment_a"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the missing segment",
+     "explain": "Multiply the third segment by the ratio of division to find the missing segment length.",
+     "compute": "segment_d = segment_c * ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh106.txt lines 580-590",
+   "concept": "jemh.106.4.4",
+   "question_type": "compute",
+   "question_pattern": "A vertical pole of length {height_pole} m casts a shadow {shadow_pole} m long and at the same time a tower casts a shadow {shadow_tower} m long. Find the height of the tower.",
+   "extracted_variables": {
+    "height_pole": 6,
+    "shadow_pole": 4,
+    "shadow_tower": 28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of the tower shadow to the pole shadow",
+     "explain": "Divide the shadow of the tower by the shadow of the pole.",
+     "compute": "shadow_ratio = shadow_tower / shadow_pole"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the pole height to find the tower height",
+     "explain": "The tower height is the pole height multiplied by the shadow ratio.",
+     "compute": "height_tower = height_pole * shadow_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh106.txt lines 580-590",
+   "concept": "jemh.106.4.4",
+   "question_type": "compute",
+   "question_pattern": "A vertical pole of length {height_pole} m casts a shadow {shadow_pole} m long and at the same time a tower casts a shadow {shadow_tower} m long. Find the height of the tower.",
+   "extracted_variables": {
+    "height_pole": 3,
+    "shadow_pole": 2,
+    "shadow_tower": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the ratio of the tower shadow to the pole shadow",
+     "explain": "Divide the shadow of the tower by the shadow of the pole.",
+     "compute": "shadow_ratio = shadow_tower / shadow_pole"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the pole height to find the tower height",
+     "explain": "The tower height is the pole height multiplied by the shadow ratio.",
+     "compute": "height_tower = height_pole * shadow_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh106.txt lines 470-500",
+   "concept": "jemh.106.4.5",
+   "question_type": "compute",
+   "question_pattern": "A girl of height {girl_height} m is walking away from the base of a lamp-post at a speed of {speed} m/s. If the lamp is {lamp_height} m above the ground, find the length of her shadow after {time} seconds.",
+   "extracted_variables": {
+    "girl_height": 0.9,
+    "speed": 1.2,
+    "lamp_height": 3.6,
+    "time": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the distance walked",
+     "explain": "Multiply speed by time to find the distance from the lamp-post.",
+     "compute": "distance = speed * time"
+    },
+    {
+     "step": 2,
+     "action": "Find the ratio of lamp height to person height",
+     "explain": "Divide the height of the lamp-post by the height of the person.",
+     "compute": "height_ratio = lamp_height / girl_height"
+    },
+    {
+     "step": 3,
+     "action": "Subtract one from the height ratio",
+     "explain": "The proportion is based on the difference between the total base and the shadow.",
+     "compute": "ratio_minus_one = height_ratio - 1"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the shadow length",
+     "explain": "Divide the distance walked by the adjusted ratio.",
+     "compute": "shadow = distance / ratio_minus_one"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh106.txt lines 470-500",
+   "concept": "jemh.106.4.5",
+   "question_type": "compute",
+   "question_pattern": "A girl of height {girl_height} m is walking away from the base of a lamp-post at a speed of {speed} m/s. If the lamp is {lamp_height} m above the ground, find the length of her shadow after {time} seconds.",
+   "extracted_variables": {
+    "girl_height": 1.5,
+    "speed": 1.0,
+    "lamp_height": 4.5,
+    "time": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the distance walked",
+     "explain": "Multiply speed by time to find the distance from the lamp-post.",
+     "compute": "distance = speed * time"
+    },
+    {
+     "step": 2,
+     "action": "Find the ratio of lamp height to person height",
+     "explain": "Divide the height of the lamp-post by the height of the person.",
+     "compute": "height_ratio = lamp_height / girl_height"
+    },
+    {
+     "step": 3,
+     "action": "Subtract one from the height ratio",
+     "explain": "The proportion is based on the difference between the total base and the shadow.",
+     "compute": "ratio_minus_one = height_ratio - 1"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the shadow length",
+     "explain": "Divide the distance walked by the adjusted ratio.",
+     "compute": "shadow = distance / ratio_minus_one"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "jemh106.txt lines 112-125",
+   "questions": [
+    "Fill in the blanks: All circles are (congruent, similar). All squares are (similar, congruent). All (isosceles, equilateral) triangles are similar. Two polygons of the same number of sides are similar, if (a) their corresponding angles are (equal, proportional) and (b) their corresponding sides are (equal, proportional).",
+    "Give two different examples of pair of similar figures.",
+    "Give two different examples of pair of non-similar figures.",
+    "State whether the following quadrilaterals (a rhombus of side 1.5 cm and a square of side 3 cm) are similar or not."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "jemh106.txt lines 240-275",
+   "questions": [
+    "In Fig. 6.17 (i), DE || BC. Find EC when AD = 1.5 cm, DB = 3 cm, AE = 1 cm.",
+    "In Fig. 6.17 (ii), DE || BC. Find AD when DB = 7.2 cm, AE = 1.8 cm, EC = 5.4 cm.",
+    "E and F are points on the sides PQ and PR respectively of a triangle PQR. State whether EF || QR if PE = 3.9 cm, EQ = 3 cm, PF = 3.6 cm and FR = 2.4 cm.",
+    "E and F are points on the sides PQ and PR respectively of a triangle PQR. State whether EF || QR if PE = 4 cm, QE = 4.5 cm, PF = 8 cm and RF = 9 cm.",
+    "E and F are points on the sides PQ and PR respectively of a triangle PQR. State whether EF || QR if PQ = 1.28 cm, PR = 2.56 cm, PE = 0.18 cm and PF = 0.36 cm.",
+    "In Fig. 6.18, if LM || CB and LN || CD, prove that AM/AB = AN/AD.",
+    "In Fig. 6.19, DE || AC and DF || AE. Prove that BF/FE = BE/EC.",
+    "In Fig. 6.20, DE || OQ and DF || OR. Show that EF || QR.",
+    "In Fig. 6.21, A, B and C are points on OP, OQ and OR respectively such that AB || PQ and AC || PR. Show that BC || QR.",
+    "Using Theorem 6.1, prove that a line drawn through the mid-point of one side of a triangle parallel to another side bisects the third side.",
+    "Using Theorem 6.2, prove that the line joining the mid-points of any two sides of a triangle is parallel to the third side.",
+    "ABCD is a trapezium in which AB || DC and its diagonals intersect each other at the point O. Show that AO/BO = CO/DO.",
+    "The diagonals of a quadrilateral ABCD intersect each other at the point O such that AO/BO = CO/DO. Show that ABCD is a trapezium."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "jemh106.txt lines 550-600",
+   "questions": [
+    "State which pairs of triangles in Fig. 6.34 are similar. Write the similarity criterion used by you and write the pairs of similar triangles in symbolic form.",
+    "In Fig. 6.35, triangle ODC is similar to triangle OBA, angle BOC = 125 degrees and angle CDO = 70 degrees. Find angle DOC, angle DCO and angle OAB.",
+    "Diagonals AC and BD of a trapezium ABCD with AB || DC intersect each other at the point O. Using a similarity criterion for two triangles, show that AO/OC = OB/OD.",
+    "In Fig. 6.36, QR/QS = QT/PR and angle 1 = angle 2. Show that triangle PQS is similar to triangle TQR.",
+    "S and T are points on sides PR and QR of triangle PQR such that angle P = angle RTS. Show that triangle RPQ is similar to triangle RTS.",
+    "In Fig. 6.37, if triangle ABE is congruent to triangle ACD, show that triangle ADE is similar to triangle ABC.",
+    "In Fig. 6.38, altitudes AD and CE of triangle ABC intersect each other at the point P. Show that: (i) triangle AEP ~ triangle CDP, (ii) triangle ABD ~ triangle CBE, (iii) triangle AEP ~ triangle ADB, (iv) triangle PDC ~ triangle BEC.",
+    "E is a point on the side AD produced of a parallelogram ABCD and BE intersects CD at F. Show that triangle ABE is similar to triangle CFB.",
+    "In Fig. 6.39, ABC and AMP are two right triangles, right angled at B and M respectively. Prove that: (i) triangle ABC ~ triangle AMP, (ii) CA/PA = BC/MP.",
+    "CD and GH are respectively the bisectors of angle ACB and angle EGF such that D and H lie on sides AB and FE of triangle ABC and triangle EFG respectively. If triangle ABC ~ triangle EFG, show that: (i) CD/GH = AC/FG, (ii) triangle DCB ~ triangle HGE, (iii) triangle DCA ~ triangle HGF.",
+    "In Fig. 6.40, E is a point on side CB produced of an isosceles triangle ABC with AB = AC. If AD is perpendicular to BC and EF is perpendicular to AC, prove that triangle ABD is similar to triangle ECF.",
+    "Sides AB and BC and median AD of a triangle ABC are respectively proportional to sides PQ and QR and median PM of triangle PQR. Show that triangle ABC is similar to triangle PQR.",
+    "D is a point on the side BC of a triangle ABC such that angle ADC = angle BAC. Show that CA^2 = CB * CD.",
+    "Sides AB and AC and median AD of a triangle ABC are respectively proportional to sides PQ and PR and median PM of another triangle PQR. Show that triangle ABC is similar to triangle PQR.",
+    "A vertical pole of length 6 m casts a shadow 4 m long on the ground and at the same time a tower casts a shadow 28 m long. Find the height of the tower.",
+    "If AD and PM are medians of triangles ABC and PQR, respectively, where triangle ABC is similar to triangle PQR, prove that AB/PQ = AD/PM."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch08_003",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch08_003",
+   "title": "c6_economics_ch08_003",
+   "questions": [
+    {
+     "q": "What is the name of the extra money you earn for keeping your savings in a bank account?",
+     "a": "The extra money is called interest. A wrong answer suggests the student confuses interest with a \"bonus\" or \"gift,\" ignoring that it is a calculated payment for the use of money.",
+     "self_check": true
+    },
+    {
+     "q": "If you borrow 5,000 rupees and pay back 5,500 rupees, why did you have to pay the extra 500 rupees?",
+     "a": "You paid the extra 500 rupees as the cost of borrowing the bank's money. A wrong answer shows the student doesn't realize that borrowed money has a \"rental fee\" attached to it.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 2,000 rupees and the bank offers 5% interest per year, how much interest will you have after one year?",
+     "a": "You will have 100 rupees. (Calculation: 2,000 × 0.05 = 100). A wrong answer indicates trouble with basic percentage multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a bank charge a higher interest rate for a loan to a person they don't know well compared to a long-time customer?",
+     "a": "The bank perceives a higher risk of not being paid back, so they charge more to cover that risk. A wrong answer suggests the student thinks interest rates are fixed and random rather than based on risk factors.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to have a higher interest rate when you are saving money, or when you are borrowing money? Explain.",
+     "a": "It is better to have a higher rate when saving (to earn more) and a lower rate when borrowing (to pay less). A wrong answer reveals a failure to distinguish between interest as a benefit versus interest as a burden.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you want to buy a bicycle that costs 5,000 rupees. You have 2,000 rupees. If you borrow the rest, what factors should you consider before agreeing to the interest rate?",
+     "a": "The student should mention the ability to repay the monthly amount and the total cost of the interest over time. A poor answer ignores the long-term impact of the debt on their personal budget.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

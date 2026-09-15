@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_010",
+   "title": "c11_cs_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the first program that executes when a computer is powered on, and where is it stored?",
+     "a": "The first program is the firmware (BIOS or UEFI), stored in a non-volatile ROM chip on the motherboard. A wrong answer like \"Windows loader\" or \"kernel\" reveals the student thinks the OS loads directly, missing the firmware's role as the hardware initializer.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a warm boot is faster than a cold boot, referencing the specific steps that are skipped.",
+     "a": "Warm boot skips the Power-On Self-Test (POST), hardware enumeration, and peripheral initialization because the CPU and devices are already in a known powered state. It jumps directly to the firmware's bootloader handoff. If a student says \"warm boot skips loading the OS,\" they confuse warm boot with hibernate/resume; warm boot still reloads the OS kernel.",
+     "self_check": true
+    },
+    {
+     "q": "A user reports that after a sudden power loss, their computer takes longer to start and shows a \"Press F1 to continue\" message. Identify the boot type and the likely cause of the message.",
+     "a": "This is a cold boot triggered by power loss. The message appears because the CMOS battery failed, causing BIOS settings (date/time, boot order) to reset; POST detects the checksum mismatch and halts. A wrong answer attributing the delay to \"OS corruption\" misses the hardware-level POST and CMOS role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the boot process on a system with UEFI firmware versus legacy BIOS, focusing on where the bootloader is located and how it is loaded.",
+     "a": "UEFI reads bootloader files (e.g., .efi) from an EFI System Partition (ESP) on GPT disks using a built-in file system driver; legacy BIOS reads the first 446 bytes of the Master Boot Record (MBR) on the first disk sector. A student saying \"both use MBR\" shows they haven't grasped the partitioning scheme difference.",
+     "self_check": true
+    },
+    {
+     "q": "A school lab has 30 identical PCs. The IT admin wants to reduce the time students wait for computers to become ready after a scheduled restart. Evaluate whether configuring \"Fast Startup\" (hybrid boot) in Windows achieves this for warm boots, and justify your answer.",
+     "a": "Fast Startup saves the kernel session to disk during shutdown (hibernation-like) and restores it on next boot, making cold boots faster. It does not affect warm boots (restarts) because a restart performs a full cold boot sequence. A student claiming it speeds up restarts misunderstands that Fast Startup only applies to shutdown/startup cycles, not reboots.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart that a technician could use to diagnose whether a boot failure occurs during POST, bootloader stage, or kernel loading. Include decision points for beep codes, screen messages, and LED indicators.",
+     "a": "A good flowchart starts with \"Power on → Observe beep codes/LEDs\". If beeps/POST codes appear → POST failure. If manufacturer logo appears but no OS logo → bootloader failure (check ESP/MBR). If OS logo appears but hangs → kernel/driver failure. A poor answer that lists only \"check cables\" shows inability to isolate the boot stage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

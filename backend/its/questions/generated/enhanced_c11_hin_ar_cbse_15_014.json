@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_15_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_15_014",
+   "title": "c11_hin_ar_cbse_15_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in structured answer writing?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student does not know the standard analytical writing framework used in board exams, leading to disorganized answers that lack logical flow.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to quote exact lines or closely paraphrase specific stanzas when answering a question on poetic imagery?",
+     "a": "Quoting evidence anchors the analysis in the text, proves the claim is not invented, and allows the examiner to verify the interpretation. A wrong answer like \"It makes the answer look longer\" shows the student treats evidence as decoration rather than proof, leading to vague, unsubstantiated responses.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL paragraph (4-5 sentences) answering: \"कवि ने 'सबसे छोटे' शब्द को कैसे पुनर्परिभाषित किया है?\" Use two images from the poem.",
+     "a": "**Point:** कवि 'सबसे छोटे' को पारंपरिक अर्थ (आंसू, आह) से हटाकर विस्थापितों के अदृश्य दुख तक विस्तारित करता है।  \n**Evidence:** पहली पंक्ति में \"आँसू सबसे छोटे नहीं होते\" और तीसरे खंड में \"घर से निकलना काम पर / सबसे छोटा होता है\"।  \n**Explanation:** कवि शारीरिक रूप से छोटी चीजों की तुलना में विस्थापन के उस दर्द को 'सबसे छोटा' बताता है जो समाज की नज़र में नहीं आता।  \n**Link:** यह पुनर्परिभाषा प्रवासी मजदूरों की मूक पीड़ा को केंद्र में लाती है।  \nA wrong answer that only summarizes the poem without the PEEL structure reveals inability to apply the framework to a new question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two answers to \"कविता का केंद्रीय विषय क्या है?\"  \nAnswer A: \"कविता विस्थापन के बारे में है। कवि बताते हैं कि लोग घर छोड़कर जाते हैं और दुखी होते हैं।\"  \nAnswer B: \"कविता का केंद्रीय विषय विस्थापन की अदृश्य पीड़ा है। कवि 'सबसे छोटे' शब्द का विरोधाभासी प्रयोग करके दिखाते हैं कि समाज जिसे तुच्छ समझता है (घर छोड़ना), वही वास्तव में सबसे बड़ा दुख है।\"  \nIdentify three differences in quality.",
+     "a": "1. Answer B states a precise theme (\"अदृश्य पीड़ा\") while A gives a vague topic (\"विस्थापन के बारे में\")।  \n2. Answer B uses a specific poetic device (विरोधाभास/पुनर्परिभाषा) as analytical lens; A only narrates.  \n3. Answer B interprets the poet's intent (\"समाज जिसे तुच्छ समझता है...\"); A stays at surface level.  \nA student who cannot articulate these differences lacks analytical reading skill and will produce descriptive rather than analytical answers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes for a 5-mark question: \"कविता में ट्रेन एक रूपक है जो विस्थापन दिखाती है।\" Is this sufficient? Justify your evaluation.",
+     "a": "No, it is insufficient for 5 marks. The answer identifies the metaphor but does not: (a) quote or describe the specific lines where the train appears, (b) explain how the train's movement/motion symbolizes forced migration, (c) connect to the poem's broader theme of unheard suffering. A 5-mark answer requires at least two developed PEEL cycles. A student who thinks this is enough misunderstands the marking scheme's demand for depth and evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Write a diary entry (80-100 words) from the perspective of a migrant worker who has just read this poem, expressing how it reflects their life. Use at least three poetic images.",
+     "a": "**Criteria for a good answer:**  \n- First-person voice, dated entry, emotional tone.  \n- Integrates ≥3 images (e.g., \"ट्रेन की गड़गड़ाहट\", \"अनसुनी चीखें\", \"छूटे हुए रिश्ते\") naturally.  \n- Shows personal connection: \"यह कविता मेरी कहानी कहती है।\"  \n- Correct Hindi grammar and vocabulary.  \nA poor answer writes in third person, lists images mechanically without emotional synthesis, or exceeds word limit without focus, revealing inability to transfer analytical understanding into creative expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

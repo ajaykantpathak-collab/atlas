@@ -1,0 +1,1252 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 405,
+ "chapter_title": "Democratic Rights",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest106.txt",
+ "concepts": [
+  {
+   "id": "iess.601.1",
+   "title": "Testimony Weighting Ratio",
+   "section": "6.1",
+   "definition": "A legal standard where the evidentiary value of a male witness is considered equivalent to that of two female witnesses.",
+   "formula": "women_needed = men_witnesses * 2",
+   "key_idea": "Gender-based disparity in the legal weight of testimony.",
+   "textbook_ref": "iess405.txt lines 98-99",
+   "question_patterns": [
+    "In a system where one man's testimony equals two women's, how many women are needed to match {men_witnesses} men?",
+    "Calculate the number of female witnesses required for {men_witnesses} male witnesses.",
+    "If there are {men_witnesses} men testifying, what is the equivalent count of women needed?",
+    "Find the total women required to equal the testimony of {men_witnesses} men.",
+    "How many women's voices are legally equal to {men_witnesses} men in this jurisdiction?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify male witness count",
+     "explain": "The number of men providing testimony is given as men_witnesses.",
+     "compute": "m = men_witnesses"
+    },
+    {
+     "step": 2,
+     "action": "Apply the two-to-one ratio",
+     "explain": "Multiply the number of men by 2 to find the equivalent number of women.",
+     "compute": "women_needed = m * 2"
+    }
+   ]
+  },
+  {
+   "id": "iess.602.1",
+   "title": "Definition of Rights",
+   "section": "6.2",
+   "definition": "Legitimate entitlements that individuals claim from their community and government, which are socially accepted and legally protected.",
+   "formula": "Rights = reasonable_claims + social_recognition + legal_sanction",
+   "key_idea": "Rights are reasonable claims recognized by society and sanctioned by law.",
+   "textbook_ref": "iess405.txt lines 99-100",
+   "question_patterns": [
+    "What defines a right in a democratic society?",
+    "Explain the three essential qualities of a right.",
+    "How does a claim become a legally enforceable right?",
+    "Why must rights be recognized by society to be meaningful?",
+    "Discuss the relationship between claims and legal sanctions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the claim",
+     "explain": "Determine if the demand is a reasonable claim over others or the state."
+    },
+    {
+     "step": 2,
+     "action": "Check social recognition",
+     "explain": "Verify if the society recognizes this claim as rightful and moral."
+    },
+    {
+     "step": 3,
+     "action": "Verify legal sanction",
+     "explain": "Check if the claim is written into law and enforceable by courts."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.1",
+   "title": "Right to Equality",
+   "section": "6.3",
+   "definition": "The constitutional guarantee that the state will not discriminate against citizens and that everyone is equal before the law.",
+   "formula": "equality = rule_of_law + non_discrimination",
+   "key_idea": "Uniform legal protection and opportunity for all citizens regardless of status.",
+   "textbook_ref": "iess405.txt lines 101-102",
+   "question_patterns": [
+    "What does the Right to Equality signify in India?",
+    "How does the Constitution ensure non-discrimination in public places?",
+    "Explain the concept of equality of opportunity in public employment.",
+    "Are job reservations a violation of the Right to Equality?",
+    "How does the law treat a Prime Minister versus an ordinary citizen?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for rule of law",
+     "explain": "Ensure no person is above the law and all are subject to the same legal code."
+    },
+    {
+     "step": 2,
+     "action": "Identify grounds of discrimination",
+     "explain": "Verify if any distinction is made based on religion, caste, sex, or birth."
+    },
+    {
+     "step": 3,
+     "action": "Assess public access",
+     "explain": "Confirm that all citizens have equal access to public facilities and jobs."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.2",
+   "title": "Right to Freedom",
+   "section": "6.3",
+   "definition": "A cluster of liberties including speech, assembly, movement, and profession, allowing citizens to act without arbitrary constraints.",
+   "formula": "freedom = absence_of_interference - reasonable_restrictions",
+   "key_idea": "The liberty to live and express oneself without violating the rights of others.",
+   "textbook_ref": "iess405.txt lines 103-104",
+   "question_patterns": [
+    "List the six freedoms guaranteed under the Indian Constitution.",
+    "What are the reasonable restrictions on the freedom of speech?",
+    "Can a citizen settle in any part of India under the Right to Freedom?",
+    "Why is freedom of expression essential for a democracy?",
+    "How does the Constitution protect personal liberty?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific freedom",
+     "explain": "Determine if the action falls under speech, assembly, movement, or profession."
+    },
+    {
+     "step": 2,
+     "action": "Check for public order",
+     "explain": "Verify if the exercise of freedom causes public nuisance or instigates violence."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal procedure",
+     "explain": "Ensure no deprivation of liberty occurs without following established law."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.3",
+   "title": "Arrest Production Deadline",
+   "section": "6.3",
+   "definition": "The legal requirement that any person arrested must be presented before a magistrate within twenty-four hours.",
+   "formula": "production_deadline = arrest_hour + 24",
+   "key_idea": "Judicial oversight must begin within one day of police detention.",
+   "textbook_ref": "iess405.txt line 104",
+   "question_patterns": [
+    "If an individual is detained at {arrest_hour} hours, when is the latest they must see a judge?",
+    "Calculate the 24-hour deadline for a magistrate visit for an arrest at {arrest_hour}.",
+    "What is the maximum time a person can be held before seeing a magistrate if arrested at {arrest_hour}?",
+    "Find the production time limit for an arrest occurring at {arrest_hour}.",
+    "Determine the legal cutoff for police custody for an arrest at {arrest_hour}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Record the time of arrest",
+     "explain": "The starting point is the hour the person was taken into custody.",
+     "compute": "start = arrest_hour"
+    },
+    {
+     "step": 2,
+     "action": "Add the constitutional time limit",
+     "explain": "The Constitution mandates production within 24 hours.",
+     "compute": "deadline = start + 24"
+    }
+   ]
+  },
+  {
+   "id": "iess.603.4",
+   "title": "Right against Exploitation",
+   "section": "6.3",
+   "definition": "Constitutional prohibitions against human trafficking, forced unpaid labor (begar), and child labor in hazardous industries.",
+   "formula": "protection = ban(trafficking) + ban(begar) + ban(child_labor)",
+   "key_idea": "Preventing the abuse of vulnerable groups like women, children, and the poor.",
+   "textbook_ref": "iess405.txt line 105",
+   "question_patterns": [
+    "What are the three specific evils prohibited by the Right against Exploitation?",
+    "Define 'begar' and its status under the Indian Constitution.",
+    "At what age is child labor prohibited in hazardous industries?",
+    "How does the Constitution protect people from human trafficking?",
+    "Why is bonded labor considered illegal in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the practice",
+     "explain": "Check if the activity involves trafficking, forced labor, or child employment."
+    },
+    {
+     "step": 2,
+     "action": "Verify age or consent",
+     "explain": "For labor, check if the worker is under 14 or if the work is unpaid/forced."
+    },
+    {
+     "step": 3,
+     "action": "Check for hazardous conditions",
+     "explain": "Determine if the work environment is dangerous, such as mines or factories."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.5",
+   "title": "Right to Freedom of Religion",
+   "section": "6.3",
+   "definition": "The entitlement of every citizen to follow, practice, and spread their chosen faith within a secular framework.",
+   "formula": "religious_freedom = practice + propagate - force",
+   "key_idea": "Individual religious liberty maintained by state neutrality.",
+   "textbook_ref": "iess405.txt line 106",
+   "question_patterns": [
+    "What does it mean for India to be a secular state?",
+    "Can a person be forced to convert to another religion?",
+    "Are there any restrictions on religious practices in India?",
+    "Can the government tax citizens for the promotion of a specific religion?",
+    "Explain the right to propagate one's religion."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the religious act",
+     "explain": "Determine if it involves professing, practicing, or propagating a faith."
+    },
+    {
+     "step": 2,
+     "action": "Check for coercion",
+     "explain": "Ensure the practice does not involve force, fraud, or inducement."
+    },
+    {
+     "step": 3,
+     "action": "Assess public morality",
+     "explain": "Verify that the practice does not infringe on the rights of others or public health."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.6",
+   "title": "Cultural and Educational Rights",
+   "section": "6.3",
+   "definition": "Protections for minorities to preserve their distinct language and culture and to run their own educational institutions.",
+   "formula": "minority_rights = conservation_of_culture + right_to_establish_institutions",
+   "key_idea": "Safeguarding the unique identity of linguistic and religious minorities.",
+   "textbook_ref": "iess405.txt lines 106-107",
+   "question_patterns": [
+    "Why are special guarantees provided for minorities in India?",
+    "What rights do linguistic minorities have regarding their language?",
+    "Can a government-aided school deny admission based on religion?",
+    "Explain the right of minorities to administer educational institutions.",
+    "How is 'minority' defined in the context of these rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the minority group",
+     "explain": "Determine if the group has a distinct language, religion, or culture."
+    },
+    {
+     "step": 2,
+     "action": "Check for conservation efforts",
+     "explain": "Verify if the group is exercising their right to protect their heritage."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional autonomy",
+     "explain": "Confirm their right to set up and manage their own schools or colleges."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.7",
+   "title": "Right to Constitutional Remedies",
+   "section": "6.3",
+   "definition": "The fundamental right that allows citizens to approach the Supreme Court or High Courts to enforce their other rights.",
+   "formula": "remedy = court_access + writs + enforcement",
+   "key_idea": "The mechanism that makes all other fundamental rights effective.",
+   "textbook_ref": "iess405.txt lines 107-108",
+   "question_patterns": [
+    "Why did Dr. Ambedkar call this right the 'heart and soul' of the Constitution?",
+    "How can a citizen seek enforcement of their fundamental rights?",
+    "What powers do the Supreme Court and High Courts have regarding rights?",
+    "Can the government pass a law that violates fundamental rights?",
+    "What happens if a fundamental right is infringed by a private body?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the violation",
+     "explain": "Determine which fundamental right has been infringed."
+    },
+    {
+     "step": 2,
+     "action": "Choose the judicial forum",
+     "explain": "Decide whether to approach the High Court or the Supreme Court."
+    },
+    {
+     "step": 3,
+     "action": "Seek court orders",
+     "explain": "Request the court to issue directions, orders, or writs for enforcement."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.8",
+   "title": "National Human Rights Commission (NHRC)",
+   "section": "6.3",
+   "definition": "An independent body established in 1993 to investigate human rights violations and recommend corrective actions.",
+   "formula": "NHRC_action = inquiry + recommendation + intervention",
+   "key_idea": "Independent oversight to protect human rights beyond the judiciary.",
+   "textbook_ref": "iess405.txt line 108",
+   "question_patterns": [
+    "What is the role of the National Human Rights Commission?",
+    "How is the NHRC independent of the government?",
+    "Can the NHRC punish the guilty directly?",
+    "Who can complain to the NHRC and how?",
+    "Discuss the NHRC's powers of inquiry."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Initiate inquiry",
+     "explain": "The NHRC receives a complaint or acts on its own regarding a violation."
+    },
+    {
+     "step": 2,
+     "action": "Gather evidence",
+     "explain": "Summon witnesses, question officials, and inspect documents or prisons."
+    },
+    {
+     "step": 3,
+     "action": "Present findings",
+     "explain": "Make recommendations to the government or intervene in court cases."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.9",
+   "title": "Public Interest Litigation (PIL)",
+   "section": "6.3",
+   "definition": "A legal procedure where any citizen can approach the courts for the protection of public interest against government actions.",
+   "formula": "PIL = public_interest + court_petition",
+   "key_idea": "Expanding judicial access for social and public causes.",
+   "textbook_ref": "iess405.txt line 109",
+   "question_patterns": [
+    "What is Public Interest Litigation (PIL)?",
+    "How has PIL changed the way citizens interact with the judiciary?",
+    "Can a person write a postcard to a judge to start a PIL?",
+    "Who can file a PIL in the Supreme Court?",
+    "Why is PIL important for the protection of public interest?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify public interest",
+     "explain": "Ensure the issue affects the public at large rather than just an individual."
+    },
+    {
+     "step": 2,
+     "action": "Submit petition",
+     "explain": "Write to the Supreme Court or High Court, even via a simple letter."
+    },
+    {
+     "step": 3,
+     "action": "Judicial review",
+     "explain": "The court takes up the matter if it finds a genuine public interest involved."
+    }
+   ]
+  },
+  {
+   "id": "iess.604.1",
+   "title": "Expanding Scope of Rights",
+   "section": "6.4",
+   "definition": "The process where new legal and human rights emerge through judicial interpretation, international treaties, and new legislation.",
+   "formula": "expanded_rights = fundamental_rights + new_laws + court_judgments",
+   "key_idea": "Rights are dynamic and evolve as society develops.",
+   "textbook_ref": "iess405.txt lines 109-110",
+   "question_patterns": [
+    "How has the scope of rights expanded in India over time?",
+    "Name some rights derived from the Right to Freedom of Thought.",
+    "Is the Right to Property a Fundamental Right in India?",
+    "Discuss the Right to Information as an expanded right.",
+    "What new rights are guaranteed by the Constitution of South Africa?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Check if the right comes from the Constitution, a law, or a court ruling."
+    },
+    {
+     "step": 2,
+     "action": "Check for derivation",
+     "explain": "See if the new right is derived from an existing fundamental right."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal status",
+     "explain": "Determine if it is a fundamental, constitutional, or legal right."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.10",
+   "title": "Rule of Law",
+   "section": "6.3",
+   "definition": "The principle that the law applies equally to all individuals and no person is above the law.",
+   "formula": "rule_of_law = universal_application + no_privilege",
+   "key_idea": "Equality of all citizens before the legal system.",
+   "textbook_ref": "iess405.txt line 101",
+   "question_patterns": [
+    "What is the foundation of any democracy according to the chapter?",
+    "Explain the meaning of 'Rule of Law'.",
+    "Does a political leader have special legal privileges in India?",
+    "How does the Rule of Law ensure equality?",
+    "Why is the Rule of Law essential for protecting rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the individual's status",
+     "explain": "Note the person's social or political position."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law",
+     "explain": "Ensure the same legal procedure is followed regardless of status."
+    },
+    {
+     "step": 3,
+     "action": "Check for special treatment",
+     "explain": "Verify that no illegal privileges are granted to the individual."
+    }
+   ]
+  },
+  {
+   "id": "iess.603.11",
+   "title": "Secularism in India",
+   "section": "6.3",
+   "definition": "A state policy of maintaining a principled distance from all religions and treating them with equal respect.",
+   "formula": "secularism = state_neutrality + religious_freedom",
+   "key_idea": "The state has no official religion and remains impartial.",
+   "textbook_ref": "iess405.txt line 106",
+   "question_patterns": [
+    "How does the Indian state practice secularism?",
+    "Can a government school provide religious instruction?",
+    "Does India have an official state religion?",
+    "What is the 'principled distance' in Indian secularism?",
+    "How does secularism protect religious minorities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check state affiliation",
+     "explain": "Confirm that the state does not establish or favor any religion."
+    },
+    {
+     "step": 2,
+     "action": "Verify impartial treatment",
+     "explain": "Ensure the government does not discriminate based on faith."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional neutrality",
+     "explain": "Check that government institutions do not promote religious worship."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess405.txt lines 98-99",
+   "concept": "iess.601.1",
+   "question_type": "compute",
+   "question_pattern": "In a legal dispute in Saudi Arabia, {men_witnesses} men have testified. How many women must testify to provide an equal weight of evidence?",
+   "extracted_variables": {
+    "men_witnesses": "number of male witnesses"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify male witness count",
+     "explain": "The number of men providing testimony is given as men_witnesses.",
+     "compute": "m = men_witnesses"
+    },
+    {
+     "step": 2,
+     "action": "Apply the two-to-one ratio",
+     "explain": "Multiply the number of men by 2 to find the equivalent number of women.",
+     "compute": "women_needed = m * 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess405.txt lines 98-99",
+   "concept": "iess.601.1",
+   "question_type": "compute",
+   "question_pattern": "If a case requires the testimony of {men_witnesses} men, calculate the total number of women required to meet the same evidentiary standard.",
+   "extracted_variables": {
+    "men_witnesses": "number of male witnesses"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify male witness count",
+     "explain": "The number of men providing testimony is given as men_witnesses.",
+     "compute": "m = men_witnesses"
+    },
+    {
+     "step": 2,
+     "action": "Apply the two-to-one ratio",
+     "explain": "Multiply the number of men by 2 to find the equivalent number of women.",
+     "compute": "women_needed = m * 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess405.txt line 104",
+   "concept": "iess.603.3",
+   "question_type": "compute",
+   "question_pattern": "A suspect was arrested at {arrest_hour} hours on Monday. By what hour on Tuesday must the police produce the suspect before a magistrate?",
+   "extracted_variables": {
+    "arrest_hour": "hour of arrest on a 24-hour clock"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Record the time of arrest",
+     "explain": "The starting point is the hour the person was taken into custody.",
+     "compute": "start = arrest_hour"
+    },
+    {
+     "step": 2,
+     "action": "Add the constitutional time limit",
+     "explain": "The Constitution mandates production within 24 hours.",
+     "compute": "deadline = start + 24"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess405.txt line 104",
+   "concept": "iess.603.3",
+   "question_type": "compute",
+   "question_pattern": "If an arrest is made at {arrest_hour} hours, calculate the legal deadline for the police to present the individual in court.",
+   "extracted_variables": {
+    "arrest_hour": "hour of arrest"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Record the time of arrest",
+     "explain": "The starting point is the hour the person was taken into custody.",
+     "compute": "start = arrest_hour"
+    },
+    {
+     "step": 2,
+     "action": "Add the constitutional time limit",
+     "explain": "The Constitution mandates production within 24 hours.",
+     "compute": "deadline = start + 24"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.602.1",
+   "question_type": "verify_property",
+   "question_pattern": "What defines a right in a democratic society?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the claim",
+     "explain": "Determine if the demand is a reasonable claim over others or the state."
+    },
+    {
+     "step": 2,
+     "action": "Check social recognition",
+     "explain": "Verify if the society recognizes this claim as rightful and moral."
+    },
+    {
+     "step": 3,
+     "action": "Verify legal sanction",
+     "explain": "Check if the claim is written into law and enforceable by courts."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.602.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the three essential qualities of a right.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the claim",
+     "explain": "Determine if the demand is a reasonable claim over others or the state."
+    },
+    {
+     "step": 2,
+     "action": "Check social recognition",
+     "explain": "Verify if the society recognizes this claim as rightful and moral."
+    },
+    {
+     "step": 3,
+     "action": "Verify legal sanction",
+     "explain": "Check if the claim is written into law and enforceable by courts."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.1",
+   "question_type": "verify_property",
+   "question_pattern": "What does the Right to Equality signify in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for rule of law",
+     "explain": "Ensure no person is above the law and all are subject to the same legal code."
+    },
+    {
+     "step": 2,
+     "action": "Identify grounds of discrimination",
+     "explain": "Verify if any distinction is made based on religion, caste, sex, or birth."
+    },
+    {
+     "step": 3,
+     "action": "Assess public access",
+     "explain": "Confirm that all citizens have equal access to public facilities and jobs."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.1",
+   "question_type": "verify_property",
+   "question_pattern": "How does the Constitution ensure non-discrimination in public places?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for rule of law",
+     "explain": "Ensure no person is above the law and all are subject to the same legal code."
+    },
+    {
+     "step": 2,
+     "action": "Identify grounds of discrimination",
+     "explain": "Verify if any distinction is made based on religion, caste, sex, or birth."
+    },
+    {
+     "step": 3,
+     "action": "Assess public access",
+     "explain": "Confirm that all citizens have equal access to public facilities and jobs."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.2",
+   "question_type": "verify_property",
+   "question_pattern": "List the six freedoms guaranteed under the Indian Constitution.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the specific freedom",
+     "explain": "Determine if the action falls under speech, assembly, movement, or profession."
+    },
+    {
+     "step": 2,
+     "action": "Check for public order",
+     "explain": "Verify if the exercise of freedom causes public nuisance or instigates violence."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal procedure",
+     "explain": "Ensure no deprivation of liberty occurs without following established law."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.2",
+   "question_type": "verify_property",
+   "question_pattern": "What are the reasonable restrictions on the freedom of speech?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the specific freedom",
+     "explain": "Determine if the action falls under speech, assembly, movement, or profession."
+    },
+    {
+     "step": 2,
+     "action": "Check for public order",
+     "explain": "Verify if the exercise of freedom causes public nuisance or instigates violence."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal procedure",
+     "explain": "Ensure no deprivation of liberty occurs without following established law."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.4",
+   "question_type": "verify_property",
+   "question_pattern": "What are the three specific evils prohibited by the Right against Exploitation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the practice",
+     "explain": "Check if the activity involves trafficking, forced labor, or child employment."
+    },
+    {
+     "step": 2,
+     "action": "Verify age or consent",
+     "explain": "For labor, check if the worker is under 14 or if the work is unpaid/forced."
+    },
+    {
+     "step": 3,
+     "action": "Check for hazardous conditions",
+     "explain": "Determine if the work environment is dangerous, such as mines or factories."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.4",
+   "question_type": "verify_property",
+   "question_pattern": "Define 'begar' and its status under the Indian Constitution.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the practice",
+     "explain": "Check if the activity involves trafficking, forced labor, or child employment."
+    },
+    {
+     "step": 2,
+     "action": "Verify age or consent",
+     "explain": "For labor, check if the worker is under 14 or if the work is unpaid/forced."
+    },
+    {
+     "step": 3,
+     "action": "Check for hazardous conditions",
+     "explain": "Determine if the work environment is dangerous, such as mines or factories."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.5",
+   "question_type": "verify_property",
+   "question_pattern": "What does it mean for India to be a secular state?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the religious act",
+     "explain": "Determine if it involves professing, practicing, or propagating a faith."
+    },
+    {
+     "step": 2,
+     "action": "Check for coercion",
+     "explain": "Ensure the practice does not involve force, fraud, or inducement."
+    },
+    {
+     "step": 3,
+     "action": "Assess public morality",
+     "explain": "Verify that the practice does not infringe on the rights of others or public health."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.5",
+   "question_type": "verify_property",
+   "question_pattern": "Can a person be forced to convert to another religion?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the religious act",
+     "explain": "Determine if it involves professing, practicing, or propagating a faith."
+    },
+    {
+     "step": 2,
+     "action": "Check for coercion",
+     "explain": "Ensure the practice does not involve force, fraud, or inducement."
+    },
+    {
+     "step": 3,
+     "action": "Assess public morality",
+     "explain": "Verify that the practice does not infringe on the rights of others or public health."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.6",
+   "question_type": "verify_property",
+   "question_pattern": "Why are special guarantees provided for minorities in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the minority group",
+     "explain": "Determine if the group has a distinct language, religion, or culture."
+    },
+    {
+     "step": 2,
+     "action": "Check for conservation efforts",
+     "explain": "Verify if the group is exercising their right to protect their heritage."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional autonomy",
+     "explain": "Confirm their right to set up and manage their own schools or colleges."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.6",
+   "question_type": "verify_property",
+   "question_pattern": "What rights do linguistic minorities have regarding their language?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the minority group",
+     "explain": "Determine if the group has a distinct language, religion, or culture."
+    },
+    {
+     "step": 2,
+     "action": "Check for conservation efforts",
+     "explain": "Verify if the group is exercising their right to protect their heritage."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional autonomy",
+     "explain": "Confirm their right to set up and manage their own schools or colleges."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.7",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Dr. Ambedkar call this right the 'heart and soul' of the Constitution?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the violation",
+     "explain": "Determine which fundamental right has been infringed."
+    },
+    {
+     "step": 2,
+     "action": "Choose the judicial forum",
+     "explain": "Decide whether to approach the High Court or the Supreme Court."
+    },
+    {
+     "step": 3,
+     "action": "Seek court orders",
+     "explain": "Request the court to issue directions, orders, or writs for enforcement."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.7",
+   "question_type": "verify_property",
+   "question_pattern": "How can a citizen seek enforcement of their fundamental rights?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the violation",
+     "explain": "Determine which fundamental right has been infringed."
+    },
+    {
+     "step": 2,
+     "action": "Choose the judicial forum",
+     "explain": "Decide whether to approach the High Court or the Supreme Court."
+    },
+    {
+     "step": 3,
+     "action": "Seek court orders",
+     "explain": "Request the court to issue directions, orders, or writs for enforcement."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.8",
+   "question_type": "verify_property",
+   "question_pattern": "What is the role of the National Human Rights Commission?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Initiate inquiry",
+     "explain": "The NHRC receives a complaint or acts on its own regarding a violation."
+    },
+    {
+     "step": 2,
+     "action": "Gather evidence",
+     "explain": "Summon witnesses, question officials, and inspect documents or prisons."
+    },
+    {
+     "step": 3,
+     "action": "Present findings",
+     "explain": "Make recommendations to the government or intervene in court cases."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.8",
+   "question_type": "verify_property",
+   "question_pattern": "How is the NHRC independent of the government?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Initiate inquiry",
+     "explain": "The NHRC receives a complaint or acts on its own regarding a violation."
+    },
+    {
+     "step": 2,
+     "action": "Gather evidence",
+     "explain": "Summon witnesses, question officials, and inspect documents or prisons."
+    },
+    {
+     "step": 3,
+     "action": "Present findings",
+     "explain": "Make recommendations to the government or intervene in court cases."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.9",
+   "question_type": "verify_property",
+   "question_pattern": "What is Public Interest Litigation (PIL)?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify public interest",
+     "explain": "Ensure the issue affects the public at large rather than just an individual."
+    },
+    {
+     "step": 2,
+     "action": "Submit petition",
+     "explain": "Write to the Supreme Court or High Court, even via a simple letter."
+    },
+    {
+     "step": 3,
+     "action": "Judicial review",
+     "explain": "The court takes up the matter if it finds a genuine public interest involved."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.9",
+   "question_type": "verify_property",
+   "question_pattern": "How has PIL changed the way citizens interact with the judiciary?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify public interest",
+     "explain": "Ensure the issue affects the public at large rather than just an individual."
+    },
+    {
+     "step": 2,
+     "action": "Submit petition",
+     "explain": "Write to the Supreme Court or High Court, even via a simple letter."
+    },
+    {
+     "step": 3,
+     "action": "Judicial review",
+     "explain": "The court takes up the matter if it finds a genuine public interest involved."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.604.1",
+   "question_type": "verify_property",
+   "question_pattern": "How has the scope of rights expanded in India over time?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Check if the right comes from the Constitution, a law, or a court ruling."
+    },
+    {
+     "step": 2,
+     "action": "Check for derivation",
+     "explain": "See if the new right is derived from an existing fundamental right."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal status",
+     "explain": "Determine if it is a fundamental, constitutional, or legal right."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.604.1",
+   "question_type": "verify_property",
+   "question_pattern": "Name some rights derived from the Right to Freedom of Thought.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Check if the right comes from the Constitution, a law, or a court ruling."
+    },
+    {
+     "step": 2,
+     "action": "Check for derivation",
+     "explain": "See if the new right is derived from an existing fundamental right."
+    },
+    {
+     "step": 3,
+     "action": "Assess legal status",
+     "explain": "Determine if it is a fundamental, constitutional, or legal right."
+    }
+   ]
+  },
+  {
+   "id": "ex25",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.10",
+   "question_type": "verify_property",
+   "question_pattern": "What is the foundation of any democracy according to the chapter?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the individual's status",
+     "explain": "Note the person's social or political position."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law",
+     "explain": "Ensure the same legal procedure is followed regardless of status."
+    },
+    {
+     "step": 3,
+     "action": "Check for special treatment",
+     "explain": "Verify that no illegal privileges are granted to the individual."
+    }
+   ]
+  },
+  {
+   "id": "ex26",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.10",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the meaning of 'Rule of Law'.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the individual's status",
+     "explain": "Note the person's social or political position."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law",
+     "explain": "Ensure the same legal procedure is followed regardless of status."
+    },
+    {
+     "step": 3,
+     "action": "Check for special treatment",
+     "explain": "Verify that no illegal privileges are granted to the individual."
+    }
+   ]
+  },
+  {
+   "id": "ex27",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.11",
+   "question_type": "verify_property",
+   "question_pattern": "How does the Indian state practice secularism?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check state affiliation",
+     "explain": "Confirm that the state does not establish or favor any religion."
+    },
+    {
+     "step": 2,
+     "action": "Verify impartial treatment",
+     "explain": "Ensure the government does not discriminate based on faith."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional neutrality",
+     "explain": "Check that government institutions do not promote religious worship."
+    }
+   ]
+  },
+  {
+   "id": "ex28",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.603.11",
+   "question_type": "verify_property",
+   "question_pattern": "Can a government school provide religious instruction?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check state affiliation",
+     "explain": "Confirm that the state does not establish or favor any religion."
+    },
+    {
+     "step": 2,
+     "action": "Verify impartial treatment",
+     "explain": "Ensure the government does not discriminate based on faith."
+    },
+    {
+     "step": 3,
+     "action": "Assess institutional neutrality",
+     "explain": "Check that government institutions do not promote religious worship."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Which of the following is not an instance of an exercise of a fundamental right?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Which of the following freedoms is not available to an Indian citizen?"
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Which of the following rights is available under the Indian Constitution?"
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Name the Fundamental Right under which each of the following rights falls: Freedom to propagate religion, Right to life, Abolition of untouchability, Ban on bonded labour."
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Which of these statements about the relationship between democracy and rights is more valid?"
+   ]
+  },
+  {
+   "id": "ex6.6",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Are these restrictions on the right to freedom justified? Give reasons."
+   ]
+  },
+  {
+   "id": "ex6.7",
+   "source_ref": "iess405.txt line 111",
+   "questions": [
+    "Manoj, the son of a sweeper, is denied admission to an MBA course. Which fundamental rights are violated?"
+   ]
+  },
+  {
+   "id": "ex6.8",
+   "source_ref": "iess405.txt line 112",
+   "questions": [
+    "Madhurima is told she must use her husband's surname for property registration. Who is right in this dispute?"
+   ]
+  },
+  {
+   "id": "ex6.9",
+   "source_ref": "iess405.txt line 112",
+   "questions": [
+    "Write a petition to the NHRC on behalf of forest dwellers facing displacement from a National Park."
+   ]
+  },
+  {
+   "id": "ex6.10",
+   "source_ref": "iess405.txt line 112",
+   "questions": [
+    "Draw a web interconnecting different rights discussed in this chapter."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

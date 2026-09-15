@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_005",
+   "title": "c7_chem_ch01_005",
+   "questions": [
+    {
+     "q": "Which of the following materials is classified as a good thermal conductor?\nA) Wooden spoon\nB) Plastic scale\nC) Copper wire\nD) Rubber band",
+     "a": "The correct answer is C) Copper wire. Copper is a metal, and all common metals possess free electrons and tightly packed lattice structures that allow thermal energy to pass through them rapidly. A student who chooses A, B, or D is likely confusing thermal insulation with electrical insulation or has not yet memorized basic examples of metals versus non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "Why do cooking pots made of metals like aluminium or stainless steel often have handles made of hard plastic or thick wood?\nA) To make the pot heavier and more stable on the stove\nB) To prevent heat from conducting to the user's hand, protecting them from burns\nC) To increase the overall cooking speed by trapping heat inside the handle\nD) To make the pot look more colourful and attractive in the kitchen",
+     "a": "The correct answer is B) To prevent heat from conducting to the user's hand, protecting them from burns. Plastic and wood are non-metals and act as poor conductors of heat (thermal insulators), stopping the thermal energy from travelling out of the hot pot. A student who chooses C incorrectly believes that handles are designed to store or trap heat for cooking, rather than serving a safety purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A student conducts an experiment by sticking four small iron, aluminium, copper, and glass rods of equal length into a wax trough, heating one common end with a candle. If copper drops its attached pin first, followed by aluminium, iron, and glass last (or not at all), what does this order tell us about their thermal conduction properties?\nA) Glass is the best thermal conductor among all tested substances.\nB) Metals have varying rates of heat conduction, but all metals conduct heat much better than non-metals like glass.\nC) Iron conducts heat faster than copper because iron is harder.\nD) The experiment failed because all rods should drop their pins at the exact same second.",
+     "a": "The correct answer is B) Metals have varying rates of heat conduction, but all metals conduct heat much better than non-metals like glass. \nSteps to arrive at this:\nStep 1: Identify the variables (rods of iron, aluminium, copper, glass; heat source at one end; time taken for wax/pins to drop).\nStep 2: Note that copper, aluminium, and iron are metals, while glass is a non-metal.\nStep 3: Analyze the drop order: copper drops first, meaning heat travels fastest through it, followed by aluminium and iron. Glass drops last, showing extremely slow heat transfer.\nStep 4: Conclude that metals are superior heat conductors compared to non-metals, though different metals conduct heat at different rates.\nA student who chooses C confuses physical hardness (from Class 6 property studies) with thermal conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "If you place a metal spoon and a wooden spoon in a freezer for two hours and then touch both with your bare fingers, the metal spoon feels significantly colder even though both are at the exact same sub-zero temperature. Analyze why this sensory difference occurs.\nA) The metal spoon generates its own coldness, while the wood does not.\nB) The metal spoon conducts heat away from your warm finger rapidly, causing a quick drop in skin temperature that your nerves register as extreme cold.\nC) The wooden spoon absorbs cold from the air faster than the metal spoon.\nD) The metal spoon has a lower melting point than wood, making it feel colder.",
+     "a": "The correct answer is B) The metal spoon conducts heat away from your warm finger rapidly, causing a quick drop in skin temperature that your nerves register as extreme cold. Because metals are good thermal conductors, heat flows swiftly from your skin into the metal. Wood is an insulator, so heat leaves your finger very slowly when touching it. A student who chooses A or C misunderstands that objects do not generate temperature; rather, our sensation of hot and cold depends on the rate of heat transfer into or out of our bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"All substances that are shiny and solid at room temperature will conduct heat efficiently because they are hard.\" Is this statement scientifically valid, and why?\nA) Yes, because hardness always guarantees high thermal conductivity in solid materials.\nB) No, because physical appearance (shininess) and hardness do not determine thermal conductivity; only the internal structure (such as metallic bonding and free electrons) dictates whether a material is a thermal conductor or insulator.\nC) Yes, because all solids have tightly bound particles that pass thermal energy at identical speeds.\nD) No, because only liquids can conduct heat, while all solids are insulators.",
+     "a": "The correct answer is B) No, because physical appearance and hardness do not determine thermal conductivity; only the internal structure dictates whether a material is a thermal conductor or insulator. For instance, diamond is extremely hard and shiny (a non-metal allotrope of carbon) yet has very different thermal properties compared to soft metals like sodium, and general non-metals like sulfur are solid and somewhat hard yet act as poor thermal conductors. A student who chooses A is incorrectly linking hardness (a mechanical property learned in Class 6) directly to thermal behavior without considering material class (metal vs non-metal).",
+     "self_check": true
+    },
+    {
+     "q": "Design a safe, low-cost school science experiment to prove that graphite (a form of the non-metal carbon) does not conduct heat as efficiently as a copper wire, even though graphite can conduct electricity. Describe your materials, steps, and expected observation.\nA) A valid response includes: Materials (battery, copper wire, graphite pencil lead, candle, wax, small pins). Steps: Coat a copper wire and a pencil lead with an equal layer of wax, stick a pin to each at the same distance from one end, heat both ends simultaneously with a candle flame, and time how long it takes for the wax to melt and the pin to drop. Expected observation: The pin on the copper wire drops much faster than the pin on the graphite lead, demonstrating that thermal conduction and electrical conduction do not always scale identically across non-metal allotropes.",
+     "a": "The expected response must clearly outline an experimental setup comparing a metal (copper) to a non-metal form (graphite), controlling variables like length and heat source, and predicting a measurable difference in heat transfer speed. A poor response would suggest testing electrical circuits instead of heat, or failing to mention safety precautions around the candle flame.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

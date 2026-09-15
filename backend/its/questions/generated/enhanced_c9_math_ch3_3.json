@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_3",
+   "title": "c9_math_ch3_3",
+   "questions": [
+    {
+     "q": "State the definition of a rational number using the notation $\\frac{p}{q}$. What conditions must $p$ and $q$ satisfy?",
+     "a": "A rational number is a number of the form $\\frac{p}{q}$ where $p$ and $q$ are integers and $q \\neq 0$. A wrong answer (e.g., \"$p,q$ are whole numbers\" or \"$q > 0$\") reveals confusion between integers/whole numbers or mixing up standard form requirements with the definition itself. The definition only requires $q \\neq 0$; $q > 0$ and $\\text{HCF}(p,q)=1$ are for *standard form*, not the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Is $\\frac{0}{-7}$ a rational number? Is $\\frac{-8}{0}$ a rational number? Explain why the definition insists on $q \\neq 0$ but allows $p = 0$.",
+     "a": "$\\frac{0}{-7}$ is rational (equals $0$); $\\frac{-8}{0}$ is **not** rational (division by zero is undefined). $p=0$ gives the rational number $0$, which is valid. $q=0$ would mean \"dividing by zero,\" which has no meaning in arithmetic — it breaks the number system. A student who says $\\frac{-8}{0}$ is rational or that $0$ is not rational confuses the role of numerator vs. denominator or thinks $0$ is \"not a number.\"",
+     "self_check": true
+    },
+    {
+     "q": "Express each as a rational number in $\\frac{p}{q}$ form with $q > 0$:\n(a) $-2.5$  \n(b) $0.\\overline{36}$  \n(c) $\\frac{-14}{-21}$ in standard form.",
+     "a": "(a) $-2.5 = -\\frac{25}{10} = -\\frac{5}{2}$ (multiply numerator/denominator by $-1$ to make denominator positive: $\\frac{-5}{2}$)  \n(b) Let $x = 0.\\overline{36}$. Then $100x = 36.\\overline{36}$. Subtract: $99x = 36 \\Rightarrow x = \\frac{36}{99} = \\frac{4}{11}$.  \n(c) $\\frac{-14}{-21} = \\frac{14}{21} = \\frac{2}{3}$ (standard form: positive denominator, HCF=1).  \nA wrong answer in (a) like $\\frac{-5}{-2}$ misses the $q>0$ convention. In (b), writing $\\frac{36}{100}$ shows confusion between terminating and repeating decimals. In (c), leaving denominator negative or not simplifying shows incomplete standard form understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Find three distinct rational numbers between $\\frac{2}{5}$ and $\\frac{3}{5}$. Then explain why there are infinitely many rational numbers between any two distinct rational numbers.",
+     "a": "Method 1: Use common denominator 25: $\\frac{2}{5}=\\frac{10}{25}$, $\\frac{3}{5}=\\frac{15}{25}$. Numbers between: $\\frac{11}{25}, \\frac{12}{25}, \\frac{13}{25}, \\frac{14}{25}$. Pick any three.  \nMethod 2: Average method: $\\frac{1}{2}(\\frac{2}{5}+\\frac{3}{5}) = \\frac{1}{2}$, then $\\frac{1}{2}(\\frac{2}{5}+\\frac{1}{2}) = \\frac{9}{20}$, etc.  \n**Why infinite?** Between any two rationals $\\frac{a}{b}$ and $\\frac{c}{d}$, their average $\\frac{ad+bc}{2bd}$ is rational and lies strictly between them. Repeating this generates infinitely many. A student who only lists 3 numbers without the \"infinite\" justification treats it as a counting exercise, missing the density property.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"$\\sqrt{16}$ is irrational because it has a square root sign.\" Evaluate this claim. Is the student correct? Justify your answer using the definition of rational numbers.",
+     "a": "The claim is **incorrect**. $\\sqrt{16} = 4$ (since $4^2=16$). $4$ can be written as $\\frac{4}{1}$, which is of the form $\\frac{p}{q}$ with integers $p=4, q=1 \\neq 0$. Hence $\\sqrt{16}$ is rational. The student confuses *notation* (the radical symbol) with *value*. Rationality depends on whether the *value* equals some $\\frac{p}{q}$, not how it is written. A wrong evaluation (\"yes, it's irrational\") reveals symbol-driven reasoning instead of definition-driven reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a rational number $\\frac{p}{q}$ in standard form such that:\n- $p$ is a negative integer,\n- $q$ is a prime number,\n- the decimal expansion terminates after exactly 2 decimal places.\nGive your number and verify all conditions.",
+     "a": "Example: $-\\frac{3}{20} = -0.15$.  \nCheck: $p=-3$ (negative integer), $q=20$ (not prime — **invalid**).  \nCorrect example: $-\\frac{1}{4} = -0.25$ → $q=4$ not prime.  \nNeed $q$ prime AND terminating in 2 places → denominator must be $2^a 5^b$ with $\\max(a,b)=2$. Only prime factors allowed: 2 or 5.  \nTry $q=2$: $\\frac{p}{2}$ terminates in 1 place (e.g., $-0.5$).  \n$q=5$: $\\frac{p}{5}$ terminates in 1 place (e.g., $-0.2$).  \n$q=2 \\times 5 = 10$ not prime.  \n**No solution exists** with $q$ prime and exactly 2 decimal places.  \nA good answer recognizes this impossibility and explains why (prime denominator $\\neq 2,5$ gives repeating decimal; $2$ or $5$ gives 1 decimal place). A poor answer forces a number like $-\\frac{3}{20}$ and misses that $20$ is not prime.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

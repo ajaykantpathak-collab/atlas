@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch01_003",
+   "title": "c6_physics_ch01_003",
+   "questions": [
+    {
+     "q": "What are the four main branches of science mentioned in the chapter, and what is the primary focus of Physics?",
+     "a": "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity. A wrong answer here suggests the student has not yet distinguished between the \"what\" (matter) and the \"how\" (forces) of nature.",
+     "self_check": true
+    },
+    {
+     "q": "If you are studying why ice melts into water when heated, which branch of science would this primarily fall under and why?",
+     "a": "This falls under Chemistry, because it involves a change in the state of a substance. Students who say \"Biology\" are likely confusing \"nature\" with \"living things,\" failing to distinguish between chemical properties and biological life functions.",
+     "self_check": true
+    },
+    {
+     "q": "A scientist is tracking the path of a planet through the solar system. Which branch of science is this, and how does it relate to the branch that studies the Earth?",
+     "a": "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans). A wrong answer here shows the student does not see the connection between the \"Earth system\" and the \"Universe system.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the study of a forest (Biology) with the study of the rocks beneath it (Earth Science). How are these two branches connected in a real-world environment?",
+     "a": "They are connected because the rocks provide the soil and nutrients that the living organisms in the forest need to survive. A student who says they are \"completely unrelated\" fails to understand that all branches of science overlap in the real world.",
+     "self_check": true
+    },
+    {
+     "q": "\"Science is just about memorizing the names of the branches.\" Is this statement true or false? Justify your answer.",
+     "a": "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works; the actual \"doing\" (observing, guessing, testing) is what makes it science.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a kitchen activity, like boiling milk. Can you describe how two different branches of science could explain what is happening?",
+     "a": "A good answer would explain: 1) Physics (the heat energy from the stove moving into the milk) and 2) Chemistry (the changing properties of milk proteins as they heat up). A poor answer only names one branch without explaining the \"why.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

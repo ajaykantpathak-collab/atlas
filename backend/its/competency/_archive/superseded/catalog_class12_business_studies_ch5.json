@@ -1,0 +1,591 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 5,
+ "chapter_title": "Organising",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_ms_0025.txt",
+ "concepts": [
+  {
+   "id": "c12bs.5.1",
+   "title": "Meaning and Importance of Organising",
+   "section": "5.1",
+   "definition": "Organising is the process of identifying and grouping the work to be performed, defining and delegating responsibility and authority, and establishing relationships for the purpose of enabling people to work most effectively together in accomplishing objectives.",
+   "formula": "",
+   "key_idea": "Organising aligns tasks, people, and authority so that goals are achieved efficiently through a coordinated structure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is meant by organising",
+    "explain the importance of organising in management",
+    "why is organising considered a key function of management",
+    "discuss the benefits of organising for an enterprise",
+    "how does organising help in achieving organisational objectives"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define organising",
+     "explain": "State that organising groups work, assigns duties, and sets authority relationships."
+    },
+    {
+     "step": 2,
+     "action": "list benefits",
+     "explain": "List benefits such as specialisation, clarity of roles, adaptation to change, and effective administration."
+    },
+    {
+     "step": 3,
+     "action": "link to objectives",
+     "explain": "Explain how these benefits help achieve organisational objectives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the importance of organising for a business enterprise.",
+     "solution": "Organising leads to specialisation, defines roles and authority, avoids duplication, enables adaptation to change, and makes administration effective by providing a clear framework of relationships.",
+     "answer": "Organising improves efficiency, clarity, flexibility, and administrative effectiveness."
+    },
+    {
+     "question": "What is organising? State any two points of its importance.",
+     "solution": "Organising is the process of grouping work, assigning duties, and establishing authority relationships. Two points of importance are: (i) it promotes specialisation by dividing work, and (ii) it clarifies roles and authority to avoid confusion.",
+     "answer": "Organising groups work and assigns authority; it brings specialisation and role clarity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define organising.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain any four points of importance of organising.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does organising help in adapting to environmental changes?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.2",
+   "title": "Organising Process",
+   "section": "5.2",
+   "definition": "The organising process involves four steps: (1) identification and division of work, (2) departmentation, (3) assignment of duties, and (4) establishing reporting relationships.",
+   "formula": "",
+   "key_idea": "Organising follows a logical sequence: divide work, group it into departments, assign duties to positions, and link positions through authority relationships.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the steps in the process of organising",
+    "what is the organising process",
+    "describe the four steps involved in organising",
+    "how is work divided and grouped in organising",
+    "why are reporting relationships established in organising"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify and divide work",
+     "explain": "Break total work into manageable activities to enable specialisation."
+    },
+    {
+     "step": 2,
+     "action": "group into departments",
+     "explain": "Combine similar activities into departments to achieve coordination."
+    },
+    {
+     "step": 3,
+     "action": "assign duties and link authority",
+     "explain": "Assign duties to positions and establish clear reporting relationships."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the process of organising with the help of a suitable example.",
+     "solution": "First, identify and divide work (e.g., a garment firm splits work into purchase, production, sales, finance). Second, group activities into departments (production, sales, finance). Third, assign duties to specific people. Fourth, establish reporting relationships so each person knows who reports to whom.",
+     "answer": "The four steps are: division of work, departmentation, assignment of duties, and establishing reporting relationships."
+    },
+    {
+     "question": "Why is identification and division of work the first step in organising?",
+     "solution": "Because no single person can perform all tasks; dividing work enables specialisation, avoids duplication, and makes the work manageable.",
+     "answer": "Division of work enables specialisation and manageability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the steps in the organising process.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the process of organising with an example.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.3",
+   "title": "Organisational Structure",
+   "section": "5.3",
+   "definition": "Organisational structure is the framework within which managerial and operational tasks are performed to achieve business objectives. The two main types are functional structure and divisional structure.",
+   "formula": "",
+   "key_idea": "Organisational structure defines how tasks are formally divided, grouped, and coordinated; it can be built around functions or around products/divisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is organisational structure",
+    "explain the types of organisational structure",
+    "what are the two main types of organisational structure",
+    "how does organisational structure help an enterprise",
+    "distinguish between functional and divisional structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define structure",
+     "explain": "State that organisational structure is the framework for dividing and coordinating tasks."
+    },
+    {
+     "step": 2,
+     "action": "identify types",
+     "explain": "Name the two main types: functional structure and divisional structure."
+    },
+    {
+     "step": 3,
+     "action": "explain basis",
+     "explain": "Functional groups by function; divisional groups by product, geography, or customer."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is organisational structure? Name its main types.",
+     "solution": "Organisational structure is the framework that defines how tasks are divided, grouped, and coordinated. The two main types are functional structure and divisional structure.",
+     "answer": "Framework for task division and coordination; types are functional and divisional."
+    },
+    {
+     "question": "On what basis can an organisational structure be formed?",
+     "solution": "It can be formed on the basis of functions (functional structure) or on the basis of products, regions, or customers (divisional structure).",
+     "answer": "Basis: functions or products/regions/customers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define organisational structure.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the types of organisational structure with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.4",
+   "title": "Functional Structure",
+   "section": "5.4",
+   "definition": "Functional structure groups activities by functions such as production, marketing, finance, and personnel. Each department is headed by a functional specialist, and it is suited to large organisations with diverse operations and a need for functional specialisation.",
+   "formula": "",
+   "key_idea": "Functional structure organises the enterprise by specialised functions, promoting expertise and coordination within each function.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain functional structure of organisation",
+    "what is functional structure and when is it suitable",
+    "state advantages of functional structure",
+    "state limitations of functional structure",
+    "in which type of organisation is functional structure preferred"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define functional structure",
+     "explain": "State that departments are formed around functions like production, marketing, finance."
+    },
+    {
+     "step": 2,
+     "action": "state suitability and advantages",
+     "explain": "Note it suits large firms needing specialisation and control; advantages include specialisation and coordination."
+    },
+    {
+     "step": 3,
+     "action": "state limitations",
+     "explain": "Mention limitations such as functional empires, poor coordination across functions, and conflict of interest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain functional structure with its advantages and limitations.",
+     "solution": "Functional structure groups activities by function. Advantages: specialisation, better control, coordination within functions, and reduced duplication. Limitations: difficulty in coordination across functions, functional empires, conflict of interest, and ignores overall organisational goals.",
+     "answer": "Functional structure groups by function; it aids specialisation but can hinder cross-functional coordination."
+    },
+    {
+     "question": "When is a functional structure most suitable?",
+     "solution": "It is suitable for large organisations with diversified activities that require a high degree of functional specialisation.",
+     "answer": "Suitable for large, diversified firms needing functional specialisation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is functional structure?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss advantages and limitations of functional structure.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give an example of an organisation suited to functional structure.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.5",
+   "title": "Divisional Structure",
+   "section": "5.5",
+   "definition": "Divisional structure groups activities on the basis of products, territories, or customers. Each division is self-contained with its own functional departments, and it is suited to large organisations operating in varied markets.",
+   "formula": "",
+   "key_idea": "Divisional structure organises the enterprise by product, region, or customer, giving each division autonomy and accountability for its results.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain divisional structure of organisation",
+    "what is divisional structure and when is it suitable",
+    "state advantages of divisional structure",
+    "state limitations of divisional structure",
+    "differentiate between functional and divisional structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define divisional structure",
+     "explain": "State that divisions are formed around products, regions, or customers, each with its own functions."
+    },
+    {
+     "step": 2,
+     "action": "state suitability and advantages",
+     "explain": "Note it suits large firms in varied markets; advantages include product specialisation, accountability, and flexibility."
+    },
+    {
+     "step": 3,
+     "action": "state limitations",
+     "explain": "Mention limitations such as duplication of resources, conflict between divisions, and higher cost."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain divisional structure with its advantages and limitations.",
+     "solution": "Divisional structure groups activities by product, region, or customer. Advantages: product specialisation, better coordination within a division, accountability, and flexibility. Limitations: duplication of resources, conflict among divisions, and higher administrative cost.",
+     "answer": "Divisional structure groups by product/region/customer; it gives autonomy but duplicates resources."
+    },
+    {
+     "question": "When is a divisional structure most suitable?",
+     "solution": "It is suitable for large organisations producing multiple products or operating in different geographical areas or serving distinct customer groups.",
+     "answer": "Suitable for large, multi-product or multi-region organisations."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is divisional structure?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss advantages and limitations of divisional structure.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.6",
+   "title": "Comparison of Functional and Divisional Structure",
+   "section": "5.6",
+   "definition": "Functional structure is formed on the basis of functions and suits single-product firms, while divisional structure is formed on the basis of products/regions and suits multi-product firms. Functional structure promotes specialisation; divisional structure promotes product focus and accountability.",
+   "formula": "",
+   "key_idea": "The choice between functional and divisional structure depends on size, product diversity, and the need for specialisation versus autonomy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "distinguish between functional and divisional structure",
+    "compare functional and divisional organisational structure",
+    "which structure is better for a multi-product firm",
+    "differentiate functional vs divisional structure on the basis of formation",
+    "compare functional and divisional structure on cost and coordination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify basis of formation",
+     "explain": "Functional is formed by function; divisional by product, region, or customer."
+    },
+    {
+     "step": 2,
+     "action": "compare suitability and cost",
+     "explain": "Functional suits single-product large firms with low duplication; divisional suits multi-product firms but has higher cost due to duplication."
+    },
+    {
+     "step": 3,
+     "action": "compare coordination and accountability",
+     "explain": "Functional gives functional specialisation but weak cross-functional coordination; divisional gives divisional accountability and flexibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between functional and divisional structure on any four bases.",
+     "solution": "Basis of formation: functions vs products/regions. Suitability: single-product vs multi-product firms. Specialisation: functional vs product specialisation. Cost: low duplication vs high duplication. Coordination: weak across functions vs strong within a division.",
+     "answer": "Functional groups by function for single-product firms; divisional groups by product for multi-product firms."
+    },
+    {
+     "question": "Which structure would you recommend for a company producing a variety of cosmetics, and why?",
+     "solution": "Divisional structure, because the company has multiple products (cosmetics lines) and each division can specialise in its product line with its own functional departments, giving accountability and flexibility.",
+     "answer": "Divisional structure, as it suits multi-product firms."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between functional and divisional structure.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Suggest a suitable structure for a multi-product company and justify.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.7",
+   "title": "Formal and Informal Organisation",
+   "section": "5.7",
+   "definition": "Formal organisation is the official structure designed by management to achieve organisational goals, with defined roles and authority. Informal organisation is the network of social and personal relations that arises spontaneously among people working together, outside the official structure.",
+   "formula": "",
+   "key_idea": "Formal organisation is deliberate and goal-oriented; informal organisation is spontaneous and based on personal interactions and social ties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "differentiate between formal and informal organisation",
+    "what is informal organisation",
+    "explain formal organisation",
+    "how does informal organisation affect formal organisation",
+    "state advantages and disadvantages of informal organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define both",
+     "explain": "Formal is the official management-designed structure; informal is the spontaneous social network among employees."
+    },
+    {
+     "step": 2,
+     "action": "compare features",
+     "explain": "Formal has rules, authority, and goals; informal has norms, social ties, and no formal authority."
+    },
+    {
+     "step": 3,
+     "action": "state impact",
+     "explain": "Informal organisation can support the formal one by fulfilling social needs but may also spread rumours and resist change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between formal and informal organisation.",
+     "solution": "Formal organisation is deliberate, based on rules and authority, and goal-oriented. Informal organisation arises spontaneously, based on personal interactions, and satisfies social needs. Formal has a clear structure; informal has no defined structure.",
+     "answer": "Formal is official and rule-based; informal is spontaneous and social."
+    },
+    {
+     "question": "Explain the role of informal organisation in a formal setup.",
+     "solution": "Informal organisation fulfils social and cultural needs, provides a sense of belonging, and can speed up communication. However, it may also spread rumours and resist formal change.",
+     "answer": "It supports social needs and fast communication but may spread rumours."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define formal and informal organisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the advantages and disadvantages of informal organisation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.8",
+   "title": "Delegation of Authority",
+   "section": "5.8",
+   "definition": "Delegation is the process of assigning responsibility and authority to a subordinate to carry out a task, while retaining accountability with the superior. It has three elements: responsibility, authority, and accountability.",
+   "formula": "",
+   "key_idea": "Delegation transfers responsibility and authority downward but accountability remains with the delegating superior; it is essential for effective management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is delegation of authority",
+    "explain the elements of delegation",
+    "distinguish between responsibility authority and accountability",
+    "why is delegation important in management",
+    "explain the process of delegation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define delegation",
+     "explain": "State that delegation is assigning responsibility and authority to a subordinate while retaining accountability."
+    },
+    {
+     "step": 2,
+     "action": "explain elements",
+     "explain": "Describe responsibility (duty), authority (power to decide), and accountability (answerability)."
+    },
+    {
+     "step": 3,
+     "action": "state importance",
+     "explain": "Explain that delegation reduces managerial workload, develops subordinates, and enables growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the three elements of delegation.",
+     "solution": "Responsibility is the obligation of a subordinate to perform the assigned duty. Authority is the power granted to take decisions and use resources. Accountability is the answerability for the outcome; it remains with the superior and cannot be delegated.",
+     "answer": "Elements: responsibility, authority, and accountability."
+    },
+    {
+     "question": "Why is delegation considered essential for effective management?",
+     "solution": "Delegation reduces the burden on managers, permits them to focus on strategic tasks, develops subordinates, and facilitates expansion and quick decision-making.",
+     "answer": "Delegation reduces workload, develops subordinates, and supports growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define delegation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the elements and importance of delegation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.9",
+   "title": "Decentralisation",
+   "section": "5.9",
+   "definition": "Decentralisation is the systematic dispersal of decision-making authority to lower levels of management. It goes beyond delegation by transferring authority to make decisions to the lowest competent level.",
+   "formula": "",
+   "key_idea": "Decentralisation distributes authority across levels, empowering lower managers and reducing the burden at the top; it is broader than delegation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is decentralisation",
+    "distinguish between delegation and decentralisation",
+    "explain the importance of decentralisation",
+    "why is decentralisation considered better for large organisations",
+    "how does decentralisation help in decision-making"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define decentralisation",
+     "explain": "State that it is the dispersal of decision-making authority to lower levels."
+    },
+    {
+     "step": 2,
+     "action": "distinguish from delegation",
+     "explain": "Delegation is between two individuals and is task-specific; decentralisation is organisation-wide and involves sharing authority across levels."
+    },
+    {
+     "step": 3,
+     "action": "state importance",
+     "explain": "Explain that it develops initiative, reduces top-level burden, speeds decisions, and aids growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between delegation and decentralisation.",
+     "solution": "Delegation is the transfer of authority from a superior to a subordinate for a specific task and is essential for management. Decentralisation is the systematic sharing of authority across all levels and is optional. Delegation is between two people; decentralisation is organisation-wide.",
+     "answer": "Delegation is task-specific between two persons; decentralisation is organisation-wide sharing of authority."
+    },
+    {
+     "question": "Explain the importance of decentralisation in a large organisation.",
+     "solution": "Decentralisation develops managerial talent, reduces the burden on top executives, allows quicker decisions at the point of action, encourages initiative, and facilitates control through better evaluation of performance at each level.",
+     "answer": "It develops talent, reduces top burden, speeds decisions, and encourages initiative."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define decentralisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Differentiate between delegation and decentralisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the importance of decentralisation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.5.10",
+   "title": "Span of Management",
+   "section": "5.10",
+   "definition": "Span of management (span of control) is the number of subordinates that a manager can effectively supervise. A narrow span has few subordinates and a tall hierarchy; a wide span has many subordinates and a flat hierarchy.",
+   "formula": "number of subordinates directly supervised by a manager",
+   "key_idea": "Span of management determines the number of levels in the hierarchy; a wider span reduces levels and overhead costs but requires capable managers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is span of management",
+    "explain span of control with example",
+    "distinguish between narrow and wide span of management",
+    "how does span of management affect organisational structure",
+    "compute the number of subordinates under a given span"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify span and levels",
+     "explain": "Note the given span of control and the number of hierarchy levels.",
+     "compute": "span * levels"
+    },
+    {
+     "step": 2,
+     "action": "compute subordinates",
+     "explain": "Multiply the span by itself for each level to get the number of subordinates at the lowest level.",
+     "compute": "span ** levels"
+    },
+    {
+     "step": 3,
+     "action": "interpret result",
+     "explain": "State whether the structure is tall (narrow span) or flat (wide span) based on the computed number.",
+     "compute": "result"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manager has a span of control of 4 and there are 3 levels in the hierarchy. How many subordinates are at the lowest level?",
+     "solution": "Number at lowest level = span ^ levels = 4 ^ 3 = 64 subordinates.",
+     "answer": "64 subordinates"
+    },
+    {
+     "question": "What is span of management? Distinguish between narrow and wide span.",
+     "solution": "Span of management is the number of subordinates a manager can supervise. A narrow span has few subordinates and many levels (tall structure); a wide span has many subordinates and few levels (flat structure).",
+     "answer": "Span is the number of direct subordinates; narrow = tall, wide = flat."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define span of management.",
+     "type": "short_answer"
+    },
+    {
+     "question": "A manager supervises 5 subordinates per level across 2 levels. Compute the total subordinates at the lowest level.",
+     "type": "compute"
+    },
+    {
+     "question": "Distinguish between narrow and wide span of control.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

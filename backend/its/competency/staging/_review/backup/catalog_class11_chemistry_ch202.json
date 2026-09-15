@@ -1,0 +1,492 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 202,
+ "chapter_title": "Organic Chemistry – Some Basic Principles and Techniques",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kech202.txt",
+ "concepts": [
+  {
+   "id": "kech.8.2.1",
+   "title": "Hybridisation and Percentage s-Character of Carbon",
+   "section": "8.2.1",
+   "definition": "The hybridization state of carbon is determined by the mixing of valence s and p orbitals, where greater fractional s-character draws bonding electrons closer to the carbon nucleus, resulting in shorter and stronger bonds.",
+   "formula": "s_percent = 100 / (1 + p_orbitals)",
+   "key_idea": "Bond length decreases and carbon electronegativity increases as the s-character of the hybrid orbital increases.",
+   "textbook_ref": "kech202.txt lines 30-55",
+   "question_patterns": [
+    "calculate the percentage of s character in an sp3 hybridized carbon",
+    "find the fraction of s character in sp2 hybrid orbital",
+    "what is the s character percentage of an sp hybridized orbital",
+    "determine the s character percentage given the number of p orbitals involved"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine total participating hybrid orbitals",
+     "explain": "one s orbital mixes with p_orbitals to produce total hybrid orbitals",
+     "compute": "total_orbitals = 1 + p_orbitals"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage of s-character",
+     "explain": "divide the single s orbital by total orbitals and multiply by 100",
+     "compute": "s_percent = 100 / total_orbitals"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.2.2",
+   "title": "Determination of Sigma and Pi Bonds in Organic Molecules",
+   "section": "8.2.2",
+   "definition": "Single covalent linkages represent coaxial sigma bonds, whereas multiple bonds consist of one sigma bond accompanied by one or two lateral-overlap pi bonds.",
+   "formula": "total_sigma = sigma_cc + sigma_ch; total_bonds = total_sigma + pi_bonds",
+   "key_idea": "Every single bond contributes one sigma bond; a double bond comprises one sigma and one pi; a triple bond contains one sigma and two pi bonds.",
+   "textbook_ref": "kech202.txt lines 56-82",
+   "question_patterns": [
+    "calculate the number of sigma and pi bonds in the given molecule",
+    "how many sigma and pi bonds are present in",
+    "find the total number of bonds from sigma and pi count",
+    "compute the total sigma bonds by summing carbon-carbon and carbon-hydrogen single bonds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum all individual sigma bonds",
+     "explain": "combine carbon-carbon and carbon-hydrogen sigma bonds",
+     "compute": "total_sigma = sigma_cc + sigma_ch"
+    },
+    {
+     "step": 2,
+     "action": "calculate total covalent bonds",
+     "explain": "add lateral pi bonds to the coaxial sigma bonds",
+     "compute": "total_bonds = total_sigma + pi_bonds"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.2.3",
+   "title": "Carbon Hybridisation and Molecular Geometry",
+   "section": "8.2.1",
+   "definition": "The spatial arrangement of bonds surrounding a carbon centre is governed by its hybridization, yielding tetrahedral geometry for sp3, planar triangular for sp2, and collinear linear geometry for sp.",
+   "formula": "steric_number = sigma_bonds + lone_pairs",
+   "key_idea": "Carbon geometry is tetrahedral with 4 sigma bonds (sp3), trigonal planar with 3 sigma bonds (sp2), and linear with 2 sigma bonds (sp).",
+   "textbook_ref": "kech202.txt lines 83-110",
+   "question_patterns": [
+    "identify the hybridization state of each carbon in",
+    "determine the shape around a carbon atom",
+    "what is the hybridization and geometry of carbon in formaldehyde",
+    "classify the hybridization state of carbon atoms in acetonitrile"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the number of sigma bonds formed by the designated carbon atom",
+     "explain": "single bonds, double bonds, and triple bonds each contain exactly one sigma bond"
+    },
+    {
+     "step": 2,
+     "action": "assign hybridization based on sigma bond tally",
+     "explain": "4 sigma bonds correspond to sp3, 3 to sp2, and 2 to sp"
+    },
+    {
+     "step": 3,
+     "action": "correlate hybridization to spatial geometry",
+     "explain": "sp3 corresponds to tetrahedral, sp2 to trigonal planar, and sp to linear geometry"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.3.1",
+   "title": "Condensed and Bond-Line Structural Representations",
+   "section": "8.3.1",
+   "definition": "Chemical formulas can be depicted in full form showing every bond, condensed by grouping identical repeating units into subscripted parentheses, or as skeletal bond lines where vertices represent carbon atoms.",
+   "formula": "None",
+   "key_idea": "In bond-line structures, line ends represent terminal methyl groups, vertices represent carbons with implied hydrogens, and heteroatoms are explicitly drawn.",
+   "textbook_ref": "kech202.txt lines 111-190",
+   "question_patterns": [
+    "expand the given condensed formula into complete structural formula",
+    "draw the bond-line representation for the compound",
+    "convert the bond-line diagram into a condensed molecular formula",
+    "write the complete structural formula for"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify all carbon vertices, termini, and attached heteroatoms in the structural formula",
+     "explain": "every terminus and vertex corresponds to a carbon atom unless labeled with another atom"
+    },
+    {
+     "step": 2,
+     "action": "supply implicit hydrogen atoms to fulfill carbon tetravalency",
+     "explain": "each carbon must possess exactly four shared electron pairs"
+    },
+    {
+     "step": 3,
+     "action": "transcribe into desired structural format",
+     "explain": "write out bonds explicitly for complete formulas or omit dashes and group CH2 repeats for condensed formulas"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.3.2",
+   "title": "Three-Dimensional Wedge-and-Dash Representation",
+   "section": "8.3.2",
+   "definition": "A 2D convention for illustrating 3D molecular stereochemistry where solid wedges signify bonds projecting toward the observer, dashed wedges indicate bonds pointing away, and normal lines denote bonds within the page plane.",
+   "formula": "None",
+   "key_idea": "Solid wedges project forward out of the plane, dashed wedges point backward behind the plane, and plain lines lie within the plane.",
+   "textbook_ref": "kech202.txt lines 191-230",
+   "question_patterns": [
+    "explain the significance of solid and dashed wedges in organic structures",
+    "how is the 3D structure of methane represented on a planar sheet",
+    "interpret the spatial orientation of bonds in a wedge dash formula",
+    "describe the convention used for bonds projecting away from the observer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the reference plane of the drawing sheet",
+     "explain": "bonds represented with regular solid lines reside precisely in the plane of the paper"
+    },
+    {
+     "step": 2,
+     "action": "locate bonds projecting toward the observer",
+     "explain": "the broad end of a solid wedge indicates a bond directed toward the viewer"
+    },
+    {
+     "step": 3,
+     "action": "locate bonds pointing away from the observer",
+     "explain": "a dashed or hashed wedge depicts a bond receding into the background behind the paper"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.4.1",
+   "title": "Structural Classification of Organic Compounds",
+   "section": "8.4",
+   "definition": "Organic compounds are systematically categorized into open-chain aliphatic systems and closed-chain cyclic frameworks, with the latter further segregated into alicyclic and aromatic benzenoid, non-benzenoid, or heterocyclic types.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, In brief, In brief, Compounds are classified primarily by carbon skeleton connectivity into acyclic and cyclic structures, and secondarily by ring constitution into homocyclic and heterocyclic systems.",
+   "textbook_ref": "kech202.txt lines 231-310",
+   "question_patterns": [
+    "classify the given compound as acyclic or cyclic",
+    "identify whether a compound is homocyclic or heterocyclic",
+    "distinguish between benzenoid and non-benzenoid aromatic compounds",
+    "categorize the molecule into alicyclic, aromatic, or aliphatic classes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine whether the carbon skeleton forms a closed ring",
+     "explain": "molecules lacking rings are open-chain or acyclic aliphatic compounds"
+    },
+    {
+     "step": 2,
+     "action": "inspect ring atoms for elements other than carbon",
+     "explain": "rings containing only carbon atoms are homocyclic; rings incorporating heteroatoms like N, O, or S are heterocyclic"
+    },
+    {
+     "step": 3,
+     "action": "assess aromatic character and benzenoid structure",
+     "explain": "aromatic rings resembling benzene are benzenoid, while aromatic rings devoid of benzene units are non-benzenoid"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.4.2",
+   "title": "Homologous Series and Molecular Mass Progression",
+   "section": "8.4.2",
+   "definition": "A homologous family comprises structurally similar organic compounds possessing the same characteristic functional group, in which any two adjacent members differ in constitution by one methylene unit.",
+   "formula": "delta_mass = delta_n * 14",
+   "key_idea": "Consecutive homologues differ uniformly by a -CH2- unit, representing a fixed molecular mass discrepancy of 14 atomic mass units.",
+   "textbook_ref": "kech202.txt lines 311-340",
+   "question_patterns": [
+    "calculate the molecular mass difference between consecutive members of a homologous series",
+    "find the mass difference across multiple homologous steps",
+    "compute the difference in formula mass for two homologues separated by several carbon atoms",
+    "how much does molecular mass change when homologous index increases by delta_n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine the unit mass difference of a methylene group",
+     "explain": "one carbon atom has atomic mass 12 and two hydrogens have combined atomic mass 2",
+     "compute": "unit_mass = 12 + 2"
+    },
+    {
+     "step": 2,
+     "action": "compute total molecular mass increment",
+     "explain": "multiply the step difference in carbon count by the methylene unit mass",
+     "compute": "delta_mass = delta_n * unit_mass"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.5.1",
+   "title": "Hydrogen Content in Saturated Acyclic Alkanes",
+   "section": "8.5.2",
+   "definition": "Unbranched and branched open-chain alkanes are fully saturated hydrocarbons adhering to the stoichiometric relation where hydrogen atoms equal twice the carbon count plus two.",
+   "formula": "h_count = 2 * c_count + 2",
+   "key_idea": "Every acyclic saturated hydrocarbon contains 2n + 2 hydrogens for n carbon atoms.",
+   "textbook_ref": "kech202.txt lines 350-410",
+   "question_patterns": [
+    "calculate the number of hydrogen atoms in an alkane with given carbon atoms",
+    "find the hydrogen count for an alkane containing n carbons",
+    "how many hydrogens are present in a saturated open-chain alkane of",
+    "determine the hydrogen count of an alkane"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the carbon atom count",
+     "explain": "each carbon in the backbone binds two hydrogens along the chain length",
+     "compute": "chain_h = 2 * c_count"
+    },
+    {
+     "step": 2,
+     "action": "add terminal cap hydrogens",
+     "explain": "the two chain ends require two additional capping hydrogen atoms",
+     "compute": "h_count = chain_h + 2"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.5.2",
+   "title": "IUPAC Nomenclature of Branched Alkanes",
+   "section": "8.5.2",
+   "definition": "In brief, In brief, In brief, the systematic nomenclature of branched saturated hydrocarbons requires selecting the longest continuous carbon chain, numbering from the end providing lowest locants to substituents, and assembling substituent names alphabetically.",
+   "formula": "None",
+   "key_idea": "The parent name comes from the longest continuous carbon sequence, numbered to assign lowest locant sets to branch points, alphabetizing substituent names irrespective of multiplying prefixes.",
+   "textbook_ref": "kech202.txt lines 411-530",
+   "question_patterns": [
+    "write the IUPAC name of the branched alkane",
+    "identify the correct numbering of the parent chain in",
+    "explain why a given IUPAC name for an alkane is incorrect",
+    "name the branched hydrocarbon according to IUPAC rules"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "select the longest continuous carbon chain as the root alkane",
+     "explain": "if two chains of identical length exist, choose the chain bearing more side branches"
+    },
+    {
+     "step": 2,
+     "action": "number the root chain from the end closer to branch points",
+     "explain": "apply the lowest locant rule at the first point of difference"
+    },
+    {
+     "step": 3,
+     "action": "assemble prefix names in alphabetical order with locants",
+     "explain": "use hyphens between numerals and words, commas between numerals, and ignore prefixes like di or tri when alphabetizing"
+    }
+   ]
+  },
+  {
+   "id": "kech.8.5.3",
+   "title": "Principal Functional Group Priority in IUPAC Nomenclature",
+   "section": "8.5.3",
+   "definition": "In polyfunctional organic compounds, a seniority table determines the principal functional group providing the suffix ending, while all remaining lower-priority groups are cited as substituent prefixes.",
+   "formula": "None",
+   "key_idea": "The highest priority functional group establishes the principal suffix, dictating lowest locant numbering of the parent carbon skeleton.",
+   "textbook_ref": "kech202.txt lines 531-620",
+   "question_patterns": [
+    "identify the principal functional group in the polyfunctional compound",
+    "assign correct IUPAC name to compound containing multiple functional groups",
+    "which group gets suffix priority between ketone and carboxylic acid",
+    "determine the correct numbering direction for an unsaturated alcohol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify all functional groups present in the molecular structure",
+     "explain": "differentiate between principal functional groups and permanently prefix-designated substituents like nitro or halogens"
+    },
+    {
+     "step": 2,
+     "action": "apply priority hierarchy to designate the principal functional group",
+     "explain": "carboxylic acid precedes sulfonic acid, esters, amides, nitriles, aldehydes, ketones, alcohols, and amines"
+    },
+    {
+     "step": 3,
+     "action": "assign the principal group the lowest locant and suffix the parent name",
+     "explain": "relegate subordinate groups to prefixes with appropriate numerical locants"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech202.txt lines 58-75, Problem 8.1",
+   "concept": "kech.8.2.2",
+   "question_type": "compute",
+   "question_pattern": "How many total covalent bonds are formed in a molecule having {sigma_cc} C-C sigma bonds, {sigma_ch} C-H sigma bonds, and {pi_bonds} pi bonds?",
+   "extracted_variables": {
+    "sigma_cc": "number of carbon-carbon sigma bonds",
+    "sigma_ch": "number of carbon-hydrogen sigma bonds",
+    "pi_bonds": "number of pi bonds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum all individual sigma bonds",
+     "explain": "combine carbon-carbon and carbon-hydrogen sigma bonds",
+     "compute": "total_sigma = sigma_cc + sigma_ch"
+    },
+    {
+     "step": 2,
+     "action": "calculate total covalent bonds",
+     "explain": "add lateral pi bonds to the coaxial sigma bonds",
+     "compute": "total_bonds = total_sigma + pi_bonds"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech202.txt lines 40-55",
+   "concept": "kech.8.2.1",
+   "question_type": "compute",
+   "question_pattern": "What is the percentage of s-character in a carbon atom hybridised using 1 s orbital and {p_orbitals} p orbitals?",
+   "extracted_variables": {
+    "p_orbitals": "number of participating p orbitals in hybridisation"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine total participating hybrid orbitals",
+     "explain": "one s orbital mixes with p_orbitals to produce total hybrid orbitals",
+     "compute": "total_orbitals = 1 + p_orbitals"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage of s-character",
+     "explain": "divide the single s orbital by total orbitals and multiply by 100",
+     "compute": "s_percent = 100 / total_orbitals"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kech202.txt lines 315-330",
+   "concept": "kech.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the molecular mass difference between two homologues that differ by {delta_n} methylene units.",
+   "extracted_variables": {
+    "delta_n": "difference in the number of carbon atoms between the two homologues"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine the unit mass difference of a methylene group",
+     "explain": "one carbon atom has atomic mass 12 and two hydrogens have combined atomic mass 2",
+     "compute": "unit_mass = 12 + 2"
+    },
+    {
+     "step": 2,
+     "action": "compute total molecular mass increment",
+     "explain": "multiply the step difference in carbon count by the methylene unit mass",
+     "compute": "delta_mass = delta_n * unit_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kech202.txt lines 355-385",
+   "concept": "kech.8.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the number of hydrogen atoms in an open-chain saturated alkane having {c_count} carbon atoms.",
+   "extracted_variables": {
+    "c_count": "total count of carbon atoms in the alkane"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the carbon atom count",
+     "explain": "each carbon in the backbone binds two hydrogens along the chain length",
+     "compute": "chain_h = 2 * c_count"
+    },
+    {
+     "step": 2,
+     "action": "add terminal cap hydrogens",
+     "explain": "the two chain ends require two additional capping hydrogen atoms",
+     "compute": "h_count = chain_h + 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "kech202.txt Problem 8.1",
+   "questions": [
+    "How many sigma and pi bonds are present in HC#CCH=CHCH3?",
+    "How many sigma and pi bonds are present in CH2=C=CHCH3?"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "kech202.txt Problem 8.2",
+   "questions": [
+    "What is the type of hybridisation of each carbon in CH3Cl?",
+    "What is the type of hybridisation of each carbon in (CH3)2CO?",
+    "What is the type of hybridisation of each carbon in CH3CN?",
+    "What is the type of hybridisation of each carbon in HCONH2?",
+    "What is the type of hybridisation of each carbon in CH3CH=CHCN?"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "kech202.txt Problem 8.3",
+   "questions": [
+    "Write the state of hybridisation of carbon in H2C=O and deduce its shape.",
+    "Write the state of hybridisation of carbon in CH3F and deduce its shape.",
+    "Write the state of hybridisation of carbon in HC#N and deduce its shape."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "kech202.txt Problem 8.4",
+   "questions": [
+    "Expand the condensed formula CH3CH2COCH2CH3 into its complete structural formula.",
+    "Expand the condensed formula CH3CH=CH(CH2)3CH3 into its complete structural formula."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "kech202.txt Problem 8.5",
+   "questions": [
+    "For HOCH2CH2CH2CH(CH3)CH(CH3)2, write a condensed formula and also its bond-line formula.",
+    "For HOCH(CN)2, write a condensed formula and its bond-line formula."
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "kech202.txt Problem 8.7",
+   "questions": [
+    "Explain why 2,5,6-Trimethyloctane is named correctly whereas 3,4,7-Trimethyloctane is incorrect.",
+    "Explain why 3-Ethyl-5-methylheptane is named correctly whereas 5-Ethyl-3-methylheptane is incorrect."
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "kech202.txt Problem 8.8",
+   "questions": [
+    "Derive the systematic IUPAC name for CH3CH(OH)(CH2)4CH(CH3)CH3.",
+    "Derive the systematic IUPAC name for CH3COCH2COCH3.",
+    "Derive the systematic IUPAC name for CH3COCH2CH2CH2COOH."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

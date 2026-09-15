@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_003",
+   "title": "c12_acc_cbse_03_003",
+   "questions": [
+    {
+     "q": "A student writes: \"On retirement, revaluation profit is shared by continuing partners in their new profit sharing ratio.\" Is this statement correct? Answer Yes/No and state the correct ratio in one sentence.",
+     "a": "**No.** Revaluation profit/loss is shared by **all partners including the retiring partner** in their **old profit sharing ratio** because revaluation adjusts accumulated gains/losses up to the retirement date, which belong to the period when all partners were active. A student who says \"new ratio\" confuses revaluation with future profit sharing; they have not grasped that the retiring partner's capital must reflect their share of past appreciation/depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "The Balance Sheet shows Machinery at ₹4,00,000. On retirement, it is revalued at ₹3,50,000. A student debits Machinery Account and credits Revaluation Account with ₹50,000. Identify the error and write the correct journal entry.",
+     "a": "**Error:** The student debited the asset account (Machinery) instead of the Revaluation Account. A decrease in asset value is a **loss**, so **Revaluation Account is debited** and Machinery Account is credited. Correct entry: `Revaluation A/c Dr. 50,000 To Machinery A/c 50,000`. This mistake reveals the student memorises \"debit what comes in\" without understanding that Revaluation Account is a nominal account: expenses/losses are debited, incomes/gains are credited.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has Partners A, B, C sharing profits 3:2:1. C retires. Revaluation shows: Land appreciated by ₹90,000; Stock depreciated by ₹30,000; Provision for Doubtful Debts increased by ₹10,000; Creditors of ₹5,000 written back. Compute the revaluation profit/loss and the amount credited to C's Capital Account.",
+     "a": "**Step 1:** Gains (credits): Land appreciation ₹90,000 + Creditors written back ₹5,000 = ₹95,000. **Step 2:** Losses (debits): Stock depreciation ₹30,000 + Provision for Doubtful Debts increase ₹10,000 = ₹40,000. **Step 3:** Net Revaluation Profit = ₹95,000 – ₹40,000 = ₹55,000 (credit balance). **Step 4:** Distribute in old ratio 3:2:1. C's share = 1/6 × ₹55,000 = **₹9,167** (credited to C's Capital A/c). A wrong answer using new ratio (3:2) gives C zero — exposing the \"new ratio\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Revaluation Account (retirement) and Realisation Account (dissolution) on **three** distinct points: (i) purpose, (ii) treatment of unrecorded assets/liabilities, (iii) distribution of profit/loss. Present as a table.",
+     "a": "| Basis | Revaluation Account (Retirement) | Realisation Account (Dissolution) |\n|-------|----------------------------------|-----------------------------------|\n| **Purpose** | Adjust asset/liability values to fair value so retiring partner gets fair share of past gains/losses; firm continues. | Close books by selling all assets, paying all liabilities; firm ceases. |\n| **Unrecorded items** | Unrecorded assets credited to Revaluation A/c; unrecorded liabilities debited. | Unrecorded assets: Bank Dr. To Realisation A/c; unrecorded liabilities: Realisation A/c Dr. To Bank A/c. |\n| **Profit/Loss distribution** | **All partners (incl. retiring) in OLD ratio.** | **All partners in PROFIT SHARING RATIO** (same as old ratio at dissolution, but no retiring partner concept). |\nA student who says \"both use old ratio\" misses that Realisation Account has no \"retiring partner\" — the distinction is subtle but critical for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A retiring partner argues: \"Since I am leaving, I should not bear any revaluation loss on assets that will continue to be used by the firm.\" Evaluate this argument using the principle of Revaluation Account. Give a reasoned judgment in 3-4 sentences.",
+     "a": "**Judgment: The argument is invalid.** Revaluation Account captures **past** changes in value that occurred **during the retiring partner's tenure**. The loss on revaluation (e.g., stock obsolescence) represents a decline in value that happened while the partner was part of the firm and sharing profits. Excluding them would unjustly enrich the retiring partner at the expense of continuing partners. The principle: **partners share all gains/losses up to the date of change in constitution** — this is the foundation of partnership accounting equity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new Revaluation Account problem for a 3-partner firm (ratio 4:3:2) where Partner Z retires. Include: (a) one asset appreciation, (b) one asset depreciation, (c) one liability increase, (d) one unrecorded asset, (e) one unrecorded liability. Provide the Balance Sheet figures and revaluation adjustments. Do NOT solve it — only design the problem.",
+     "a": "**Balance Sheet (extract):** Land ₹8,00,000; Building ₹12,00,000; Stock ₹4,00,000; Debtors ₹3,00,000; Creditors ₹5,00,000; Outstanding Expenses ₹50,000. **Revaluation adjustments:** (a) Land appreciated by 25%; (b) Building depreciated by 10%; (c) Stock revalued at ₹3,60,000; (d) Outstanding Expenses increased by ₹20,000; (e) Unrecorded Investment found worth ₹1,00,000; (f) Unrecorded liability for damages ₹30,000. **Old Ratio:** X:Y:Z = 4:3:2. A good problem tests all adjustment types and forces old-ratio distribution. A poor problem omits unrecorded items or uses trivial numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_004",
+   "title": "c12_acc_cbse_08_004",
+   "questions": [
+    {
+     "q": "What are the six mandatory columns in a Comparative Balance Sheet prepared under Schedule III of the Companies Act, 2013?",
+     "a": "The six columns are: (1) Particulars, (2) Note No., (3) Previous Year Amount (₹), (4) Current Year Amount (₹), (5) Absolute Change (₹), (6) Percentage Change (%). A wrong answer (e.g., missing \"Note No.\" or swapping Previous/Current year order) reveals the student has not internalized the statutory format — a guaranteed 1-mark deduction in board exams for incorrect presentation.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates Percentage Change as (Current Year – Previous Year) ÷ Current Year × 100. Explain why this formula is incorrect and what specific error it creates in interpretation.",
+     "a": "The denominator must be the Previous Year (base year) amount, not the Current Year. Using Current Year as base understates the percentage change when amounts increase and overstates it when amounts decrease. For example, if Inventory grows from ₹1,00,000 to ₹1,50,000, the correct % change is 50% (₹50,000/₹1,00,000), but the wrong formula gives 33.33% (₹50,000/₹1,50,000). This error distorts trend analysis and leads to incorrect conclusions about growth rates — a common trap in CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "From the following data, calculate the Absolute Change and Percentage Change for Trade Receivables. Show your work.\n2023: ₹3,20,000 | 2024: ₹4,16,000",
+     "a": "Absolute Change = ₹4,16,000 – ₹3,20,000 = ₹96,000 (increase). Percentage Change = (₹96,000 ÷ ₹3,20,000) × 100 = 30%. A wrong answer of ₹96,000 and 23.08% reveals the student used Current Year as denominator (₹96,000/₹4,16,000). A wrong sign (negative) reveals confusion about increase/decrease notation. Board exams award 1 mark for each correct calculation step — missing the formula step loses the method mark.",
+     "self_check": true
+    },
+    {
+     "q": "Two companies, A and B, show the following Comparative Balance Sheet extracts. Analyse which company shows a more aggressive shift from long-term to short-term financing.\nCompany A: Long-term Borrowings decreased 40% (₹5,00,000 → ₹3,00,000); Short-term Borrowings increased 200% (₹50,000 → ₹1,50,000).\nCompany B: Long-term Borrowings decreased 20% (₹5,00,000 → ₹4,00,000); Short-term Borrowings increased 50% (₹50,000 → ₹75,000).",
+     "a": "Company A shows a more aggressive shift. Although both reduced long-term debt, Company A replaced ₹2,00,000 of long-term funds with ₹1,00,000 of short-term funds (net reduction ₹1,00,000), while Company B replaced only ₹1,00,000 with ₹25,000 (net reduction ₹75,000). Company A's short-term borrowings as % of total borrowings jumped from 9% to 33% — a sharp increase in refinancing risk. A student who only compares absolute changes (₹1,00,000 vs ₹25,000) misses the proportional risk shift that board exam \"interpretation\" questions target.",
+     "self_check": true
+    },
+    {
+     "q": "A Comparative Balance Sheet shows: Equity Share Capital increased 25%, Reserves & Surplus decreased 15%, 10% Debentures decreased 50%, Trade Payables increased 40%. The Current Ratio moved from 1.8:1 to 2.2:1. Evaluate whether the company's financial risk has increased or decreased overall. Justify with two specific arguments.",
+     "a": "Financial risk has decreased overall. Argument 1: Capital structure improved — equity infusion (share capital +25%) replaced high-cost debt (debentures –50%), lowering leverage and interest burden. Argument 2: Liquidity improved — Current Ratio rose from 1.8 to 2.2 despite Trade Payables increasing 40%, meaning current assets grew faster than current liabilities. A student claiming \"risk increased because current liabilities rose\" fails to weigh the offsetting equity infusion and misses the holistic risk assessment board examiners expect in 4-mark \"comment upon\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical Comparative Balance Sheet (5 line items minimum) for a company that: (a) issued fresh equity, (b) redeemed long-term debt, (c) saw inventory pile up, (d) improved its Current Ratio, but (e) saw Reserves decline. Provide the full 6-column format with plausible numbers.",
+     "a": "A good answer creates internally consistent numbers, e.g.:\n| Particulars | 2023 | 2024 | Abs. Change | % Change |\n| Equity Share Capital | 4,00,000 | 5,00,000 | 1,00,000 | 25% |\n| Reserves & Surplus | 2,00,000 | 1,50,000 | (50,000) | (25%) |\n| 10% Debentures | 3,00,000 | 1,50,000 | (1,50,000) | (50%) |\n| Trade Payables | 1,00,000 | 1,20,000 | 20,000 | 20% |\n| Inventories | 1,50,000 | 2,50,000 | 1,00,000 | 66.67% |\n| Trade Receivables | 1,00,000 | 1,20,000 | 20,000 | 20% |\n| Cash & Bank | 50,000 | 80,000 | 30,000 | 60% |\n| Fixed Assets | 6,00,000 | 6,50,000 | 50,000 | 8.33% |\nVerification: 2023 Total = 10,00,000; 2024 Total = 10,20,000 (diff = profit/loss adjustment). Current Ratio 2023 = (3,00,000/1,00,000) = 3:1; 2024 = (4,50,000/1,20,000) = 3.75:1 (improved). A poor answer has arithmetic errors, unbalanced totals, or misses one of the five required conditions — revealing inability to synthesize Balance Sheet interrelationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

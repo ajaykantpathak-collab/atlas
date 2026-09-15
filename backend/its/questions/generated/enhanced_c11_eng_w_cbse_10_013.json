@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_013",
+   "title": "c11_eng_w_cbse_10_013",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme and stanza structure of a Shakespearean sonnet?",
+     "a": "A Shakespearean sonnet has 14 lines divided into three quatrains (4 lines each) and a final couplet (2 lines), with the rhyme scheme ABAB CDCD EFEF GG. A wrong answer (e.g., ABBA ABBA CDE CDE) reveals confusion with the Petrarchan sonnet form and indicates the student cannot identify the structural units that organize the poem's argument.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Shakespeare uses so many negative constructions (\"not,\" \"never,\" \"no\") to define love in this poem.",
+     "a": "Shakespeare uses negatives to strip away false notions of love (love that changes, bends, or ends) and establish true love by exclusion — a via negativa approach. This creates a legalistic precision: by denying what love is *not*, the positive definition (\"ever-fixed mark\") gains authority. A wrong answer focusing only on \"emphasis\" or \"poetic style\" misses the logical strategy of defining an absolute by negating its opposites.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"It is the star to every wandering bark,\" identify the two things being compared and explain what quality of the star makes it an apt metaphor for true love.",
+     "a": "The star (fixed, constant, reliable guide) is compared to true love; the wandering bark (ship) represents a person navigating life's uncertainties. The star's essential quality is its fixed position — it does not move regardless of storms or the ship's course — mirroring love's constancy amid \"tempests.\" A wrong answer that only identifies the comparison without explaining the *specific* quality (fixedness) shows superficial metaphor analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metaphors \"ever-fixed mark\" (line 5) and \"star\" (line 7). How does the second metaphor extend and deepen the first?",
+     "a": "\"Ever-fixed mark\" suggests a stationary seamark (lighthouse/beacon) that withstands tempests — a passive, immobile stability. \"Star\" elevates this to a celestial, active guidance: it not only stands fixed but actively directs \"every wandering bark.\" The shift from sea-level to heavenly expands love's domain from enduring storms to *guiding* through life's unknown (\"worth's unknown\"). A wrong answer treating them as mere repetition misses the progression from static endurance to active, universal guidance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the final couplet: \"If this be error, and upon me proved, / I never writ, nor no man ever loved.\" Does this strengthen or weaken the poem's argument?",
+     "a": "It strengthens the argument through a rhetorical wager: the poet stakes his entire literary existence and the universal human experience of love on the truth of his definition. This moves the poem from abstract philosophy to personal testimony — a legal \"affidavit\" that makes the argument unfalsifiable (since the premises are empirically undeniable). A wrong answer calling it \"arrogant\" or \"just a rhyme\" fails to see the couplet as the logical climax of a forensic argument.",
+     "self_check": true
+    },
+    {
+     "q": "Write a quatrain (four lines) on the theme of constancy (in friendship, principle, or love) using at least two negative constructions and one metaphor, imitating Shakespeare's strategy of definition by negation.",
+     "a": "A strong answer will: (1) state a positive constant (e.g., \"True friendship is not fair-weather\"), (2) use negatives to deny its opposites (\"It bends not when storms arrive, / Nor fades when seasons change\"), (3) include a metaphor (\"An anchor holding fast in shifting sand\"), and (4) maintain a consistent argument. A poor answer uses negatives decoratively without logical exclusion or offers a clichéd metaphor without connecting it to the negated qualities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

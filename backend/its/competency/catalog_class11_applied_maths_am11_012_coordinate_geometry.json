@@ -1,0 +1,248 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 12,
+  "chapter_title": "Straight Line",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_012_coordinate_geometry.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_012.1",
+      "title": "Slope of a Line from Two Points",
+      "section": "12.1",
+      "definition": "The slope measures the tilt of a line as the tangent of its inclination; between two known points it equals the vertical change divided by the horizontal change, and vertical lines carry no defined slope.",
+      "formula": "m = (y2 - y1) / (x2 - x1)",
+      "key_idea": "Rise over run; equal slopes mean parallel lines.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.1, demand example (400, 1200) and (450, 900) giving m = -6",
+      "question_patterns": [
+        "find the slope of the line joining (400, 1200) and (450, 900)",
+        "find the slope of the line through A(2, 3) and B(6, -5)",
+        "what is the slope of a horizontal line and of a vertical line",
+        "the demand for tickets falls from 1200 to 900 as price rises from 400 to 450; find the demand slope",
+        "find the inclination of a line whose slope is 1",
+        "two lines have equal slopes; what is their relation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "take the vertical change", "explain": "second ordinate minus first", "compute": "rise = y2 - y1"},
+        {"step": 2, "action": "take the horizontal change", "explain": "second abscissa minus first", "compute": "run = x2 - x1"},
+        {"step": 3, "action": "divide rise by run", "explain": "the slope or gradient", "compute": "m = rise / run"}
+      ]
+    },
+    {
+      "id": "am11_012.2",
+      "title": "Perpendicular Slopes and Negative Reciprocal",
+      "section": "12.2",
+      "definition": "Two non-vertical lines stand perpendicular exactly when the product of their slopes is minus one; the slope of a perpendicular is therefore the negative reciprocal, and for a general line the slope is minus the x coefficient over the y coefficient.",
+      "formula": "m_perp = -1 / m",
+      "key_idea": "Flip the slope and flip its sign; parallel keeps it unchanged.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.2, perpendicular to 3x - 2y + 5 = 0 has slope -2/3",
+      "question_patterns": [
+        "find the slope of a line perpendicular to 3x - 2y + 5 = 0",
+        "the slope of AB is -2; find the slope of its perpendicular bisector",
+        "state the condition on m1 and m2 for perpendicular lines",
+        "reduce 3x - 2y + 5 = 0 to slope intercept form and read off its slope",
+        "find the slope of any line parallel to 5x - 12y = 60"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "read the slope of the given line", "explain": "slope is minus the x coefficient over the y coefficient", "compute": "m = -a / b"},
+        {"step": 2, "action": "flip the sign and invert", "explain": "perpendicular slopes multiply to minus one", "compute": "m_perp = -1 / m"},
+        {"step": 3, "action": "keep the slope for parallels", "explain": "parallel lines share the slope", "compute": "m_parallel = m"}
+      ]
+    },
+    {
+      "id": "am11_012.3",
+      "title": "Forms of the Equation of a Line",
+      "section": "12.4",
+      "definition": "A straight line can be written from limited data: a point with a slope gives the point-slope form, a slope with the axis crossing gives the slope-intercept form, two axis crossings give the intercept form, and any line arranges into the general form with x and y coefficients.",
+      "formula": "b = y1 - m * x1",
+      "key_idea": "Recover the intercept from one point and the slope; then evaluate anywhere.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.4, point-slope y - y1 = m(x - x1), y = mx + c, x/a + y/b = 1",
+      "question_patterns": [
+        "find the equation of the line with slope -6 passing through (400, 1200)",
+        "the demand line has slope -6 and passes through (400, 1200); find the quantity demanded at price 100",
+        "write the equation of the line with y intercept -3 perpendicular to 3x - 2y + 5 = 0",
+        "find the equations of the lines through (-3, 5) parallel to the coordinate axes",
+        "reduce 5x - 12y = 60 to intercept form",
+        "write the point-slope form of a line of slope m through (x1, y1)"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "recover the intercept from the known point", "explain": "move the slope term to the other side", "compute": "b = y1 - m * x1"},
+        {"step": 2, "action": "evaluate the line at a new input", "explain": "slope times input plus intercept", "compute": "y_at = m * x0 + b"},
+        {"step": 3, "action": "read intercepts for the intercept form", "explain": "the x crossing is minus intercept over slope", "compute": "x_cross = -b / m"}
+      ]
+    },
+    {
+      "id": "am11_012.4",
+      "title": "Intersection of Two Lines and Market Equilibrium",
+      "section": "12.4",
+      "definition": "Two non-parallel lines meet where their expressions agree; equating them and solving gives the meeting point, which for supply and demand curves pins down the equilibrium price and the equilibrium quantity.",
+      "formula": "p_eq = (b2 - b1) / (m1 - m2)",
+      "key_idea": "Set the two expressions equal, solve for the shared variable, back-substitute for the other.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.4 example 2, supply 30p - 45 meets demand -15p + 855 at (555, 20)",
+      "question_patterns": [
+        "supply is q = 30p - 45 and demand is q = -15p + 855; find the equilibrium price and quantity",
+        "demand is q = -10p + 1000 and supply is q = 0.2p + 2986; find the equilibrium point",
+        "find the intersection of the lines y = 2x + 1 and y = -x + 7",
+        "why does the equilibrium occur where the two curves cross",
+        "the cost line is C = 25q + 750; find C when q = 30 using two given cost points",
+        "a company spends 1500 on 30 shoes and 2000 on 50; find the linear cost equation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "subtract the intercepts", "explain": "the vertical gap between the two lines at zero", "compute": "gap = b2 - b1"},
+        {"step": 2, "action": "subtract the slopes", "explain": "the closing rate of the gap per unit", "compute": "closing = m1 - m2"},
+        {"step": 3, "action": "divide to locate the meeting input", "explain": "equilibrium price", "compute": "p_eq = gap / closing"},
+        {"step": 4, "action": "back-substitute into one line", "explain": "equilibrium quantity", "compute": "q_eq = m1 * p_eq + b1"}
+      ]
+    },
+    {
+      "id": "am11_012.5",
+      "title": "Distance of a Point from a Line",
+      "section": "12.4",
+      "definition": "The shortest reach from a point to a line runs perpendicular to it; substituting the point into the line expression and dividing by the square root of the squared coefficients gives that perpendicular length.",
+      "formula": "d = abs(a * x1 + b * y1 + c) / sqrt(a**2 + b**2)",
+      "key_idea": "Evaluate the line at the point, then normalise by the coefficient magnitude.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.4 theorem d = |Ax1 + By1 + C| / root(A^2 + B^2), exercise points on x-axis at distance 4",
+      "question_patterns": [
+        "find the distance of the point (8, 0) from the line 4x + 3y - 12 = 0",
+        "find the perpendicular distance of (2, 3) from the line 3x - 4y + 5 = 0",
+        "what are the points on the x axis at distance 4 from the line x/3 + y/4 = 1",
+        "state the formula for the length of the perpendicular from a point to a line",
+        "find the distance of the origin from the line 15x + 8y - 34 = 0"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "substitute the point into the line expression", "explain": "the signed gap numerator", "compute": "num = a * x1 + b * y1 + c"},
+        {"step": 2, "action": "form the coefficient magnitude", "explain": "square root of squared coefficients", "compute": "mag = sqrt(a * a + b * b)"},
+        {"step": 3, "action": "divide the absolute numerator by the magnitude", "explain": "perpendicular distance", "compute": "d = abs(num) / mag"}
+      ]
+    },
+    {
+      "id": "am11_012.6",
+      "title": "Distance Between Parallel Lines",
+      "section": "12.4",
+      "definition": "Two parallel lines share their x and y coefficients and differ only in the constant; their separation equals the gap between the constants divided by the magnitude of the shared coefficient pair.",
+      "formula": "d = abs(c2 - c1) / sqrt(a**2 + b**2)",
+      "key_idea": "Same coefficients means one subtraction and one normalisation.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, section 12.4 theorem and example 9, 15x + 8y lines give 65/17",
+      "question_patterns": [
+        "find the distance between the parallel lines 15x + 8y - 34 = 0 and 15x + 8y + 31 = 0",
+        "find the distance between 3x + 4y + 5 = 0 and 3x + 4y - 6 = 0",
+        "the lines y = mx + c1 and y = mx + c2 differ in intercept by 5 with slope 12/5; find their distance",
+        "state the condition for two lines to be parallel in general form",
+        "find the distance between the lines x - 2y = 1 and x - 2y = 11"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "subtract the two constants", "explain": "the constant gap between parallel lines", "compute": "gap = c2 - c1"},
+        {"step": 2, "action": "form the shared coefficient magnitude", "explain": "same for both lines", "compute": "mag = sqrt(a * a + b * b)"},
+        {"step": 3, "action": "divide the absolute gap by the magnitude", "explain": "separation of the parallels", "compute": "d = abs(gap) / mag"}
+      ]
+    },
+    {
+      "id": "am11_012.7",
+      "title": "Equation, Centre and Radius of a Circle",
+      "section": "12.5-12.6",
+      "definition": "A circle collects points at one fixed distance from a centre; its central form squares the coordinate offsets, and a general quadratic without an xy term and with equal x and y coefficients hides a centre at the negated half coefficients with a radius from the constant.",
+      "formula": "r = sqrt(g**2 + f**2 - c)",
+      "key_idea": "Centre at minus half the linear coefficients; radius squares the halves minus the constant.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, sections 12.5-12.6, x^2 + y^2 - 8x + 10y - 12 = 0 has centre (4, -5) radius root 53",
+      "question_patterns": [
+        "find the equation of the circle with centre (3, -2) and radius 5",
+        "find the centre and radius of the circle x^2 + y^2 - 8x + 10y - 12 = 0",
+        "a circle with centre (2, 2) passes through (4, 5); find its radius",
+        "does 3x^2 + 3y^2 + 6x - 4y = 1 represent a circle, and if so find its centre and radius",
+        "find p so that x^2 + y^2 + 8x + 10y + p = 0 has radius 7",
+        "when does a general second degree equation fail to be a circle"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "square both coordinate offsets and add", "explain": "the radius squared from centre and a curve point", "compute": "r2 = dx * dx + dy * dy"},
+        {"step": 2, "action": "take the square root", "explain": "the radius", "compute": "r = sqrt(r2)"},
+        {"step": 3, "action": "recover centre and radius from general form", "explain": "half coefficients with sign flipped locate the centre", "compute": "cx = -g"},
+        {"step": 4, "action": "radius from the general form constant", "explain": "square of half coefficients minus the constant", "compute": "r_gen = sqrt(g * g + f * f - c)"}
+      ]
+    },
+    {
+      "id": "am11_012.8",
+      "title": "Parabola Parameter, Focus and Latus Rectum",
+      "section": "12.7-12.8",
+      "definition": "A parabola collects points equidistant from a focus and a directrix; the opening width parameter a follows from any known point on the curve, the focus sits at distance a along the axis, and the focal chord across the axis measures four times a.",
+      "formula": "a_param = y * y / (4 * x)",
+      "key_idea": "Feed one curve point into the standard equation; the focus and focal chord follow from a.",
+      "textbook_ref": "am11_012_coordinate_geometry.txt, sections 12.7-12.8, y^2 = 4ax with focus (a, 0), latus rectum 4a, reflector example a = 5",
+      "question_patterns": [
+        "a parabolic reflector is 20 cm wide and 5 cm deep; find its focus",
+        "find the length of the latus rectum of the parabola y^2 = 12x",
+        "state the focus and directrix of the parabola y^2 = 4ax",
+        "a beam 12 m long deflects 3 cm at the centre; find where the deflection is 1 cm",
+        "a cable hangs as a parabola with shortest wire 6 m and longest 30 m across 100 m; find the wire 18 m from the middle",
+        "for the parabola x^2 = 4ay state the axis and the focus"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "square the known ordinate", "explain": "the left side of the standard equation", "compute": "ysq = y * y"},
+        {"step": 2, "action": "divide by four times the abscissa", "explain": "recovers the parameter a", "compute": "a_param = ysq / (4 * x)"},
+        {"step": 3, "action": "measure the focal chord", "explain": "latus rectum is four times the parameter", "compute": "latus = 4 * a_param"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_012.we1",
+      "source_ref": "am11_012 section 12.4 examples 1 and 2",
+      "concept": "am11_012.4",
+      "question_type": "compute",
+      "question_pattern": "with supply q = 30p - 45 and demand q = -15p + 855, find the equilibrium price and quantity",
+      "extracted_variables": {"m1": 30, "b1": -45, "m2": -15, "b2": 855},
+      "solution_template": [
+        {"step": 1, "action": "gap of intercepts", "compute": "gap = b2 - b1"},
+        {"step": 2, "action": "difference of slopes", "compute": "closing = m1 - m2"},
+        {"step": 3, "action": "equilibrium price", "compute": "p_eq = gap / closing"},
+        {"step": 4, "action": "equilibrium quantity", "compute": "q_eq = m1 * p_eq + b1"}
+      ]
+    },
+    {
+      "id": "am11_012.we2",
+      "source_ref": "am11_012 section 12.6 example 5",
+      "concept": "am11_012.7",
+      "question_type": "compute",
+      "question_pattern": "find the centre and radius of the circle x^2 + y^2 - 8x + 10y - 12 = 0",
+      "extracted_variables": {"g": -4, "f": 5, "c": -12},
+      "solution_template": [
+        {"step": 1, "action": "centre from half coefficients", "compute": "cx = -g"},
+        {"step": 2, "action": "radius squared", "compute": "r2 = g * g + f * f - c"},
+        {"step": 3, "action": "radius", "compute": "r = sqrt(r2)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_012.ex1",
+      "source_ref": "am11_012 exercise 1",
+      "questions": [
+        "Find the equation of the line equidistant from y = 8 and y = -2.",
+        "For A(1, 4), B(2, -3), C(-1, -2) find the median, the altitude through A and the perpendicular bisector of BC.",
+        "Find the equation of the line at distance 3 from the origin whose perpendicular makes an angle with tan 5/12.",
+        "Reduce 5x - 12y = 60 to intercept form and find the length cut off between the axes.",
+        "Reduce x + y - 2 = 0 to normal form.",
+        "A shoe plant spends Rs 1500 on 30 pairs and Rs 2000 on 50 pairs; find the linear cost equation."
+      ]
+    },
+    {
+      "id": "am11_012.ex2",
+      "source_ref": "am11_012 exercises 2 and 3",
+      "questions": [
+        "Find the equation of the circle with centre (0, 2) and radius 2.",
+        "Determine which of 3x^2 + 3y^2 + 6x - 4y = 1, 2x^2 + 2y^2 + 3y + 10 = 0 and x^2 + y^2 - 12x + 6y + 45 = 0 are circles; find centres and radii.",
+        "One end of a diameter of x^2 + y^2 - 6x + 5y - 7 = 0 is (-1, 3); find the other end.",
+        "Find p so that x^2 + y^2 + 8x + 10y + p = 0 has radius 7.",
+        "A parabolic mirror has focus 5 cm from the vertex and is 45 cm deep; find the aperture.",
+        "A suspension bridge cable hangs as a parabola with towers 30 m above a roadway 200 m apart and cable 5 m at the centre; find the supporting cable 30 m from the centre."
+      ]
+    }
+  ]
+}

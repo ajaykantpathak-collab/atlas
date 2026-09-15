@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_009",
+   "title": "c10_math_cbse_11_009",
+   "questions": [
+    {
+     "q": "What is the angle swept by the minute hand of a clock in 25 minutes?",
+     "a": "150°. The minute hand completes 360° in 60 minutes, so it moves 6° per minute. In 25 minutes it sweeps 25 × 6° = 150°. A wrong answer like 25° reveals the student thinks the minute hand moves 1° per minute (confusing with hour hand). An answer of 300° suggests they used 12° per minute (360°/30 minutes, mistakenly using half-hour as full circle).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for distance covered by a wheel in n rotations is n × 2πr and not n × πr².",
+     "a": "Distance covered is a linear measure (length), so we use the circumference (perimeter) of the wheel, which is 2πr. The formula πr² gives area, which is measured in square units and represents the region enclosed, not the distance rolled. A student who says \"both give distance\" confuses linear and areal dimensions. A student who says \"πr² is for area but we use πr for distance\" incorrectly uses the semi-circumference.",
+     "self_check": true
+    },
+    {
+     "q": "The minute hand of a clock is 10 cm long. Find the area swept by it between 8:00 AM and 8:35 AM. Use π = 22/7.",
+     "a": "Given: r = 10 cm, time = 35 minutes. Angle swept by minute hand = 35 × 6° = 210°. Sector area = (θ/360) × πr² = (210/360) × (22/7) × 10² = (7/12) × (22/7) × 100 = (22/12) × 100 = (11/6) × 100 = 1100/6 = 183.33 cm² (approx). A wrong answer of 305.56 cm² comes from using θ = 35° (treating minutes as degrees directly). An answer of 366.67 cm² comes from using θ = 35 × 12 = 420° (confusing hour hand rate).",
+     "self_check": true
+    },
+    {
+     "q": "A bicycle wheel makes 5000 revolutions to cover 11 km. Find the radius of the wheel. Compare this with finding the radius if the same wheel covered 11 km in 2500 revolutions. What is the relationship between number of revolutions and radius for a fixed distance?",
+     "a": "Distance = revolutions × circumference → 11 km = 11000 m = 1100000 cm. For 5000 rev: 5000 × 2πr = 1100000 → r = 1100000/(10000π) = 110/π ≈ 35 cm. For 2500 rev: 2500 × 2πr = 1100000 → r = 1100000/(5000π) = 220/π ≈ 70 cm. The radius doubles when revolutions halve. For fixed distance, revolutions and radius are inversely proportional (n ∝ 1/r). A student who says \"radius stays same\" ignores that the wheel size changed. A student who says \"revolutions double when radius doubles\" gets the inverse relationship backwards.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Hour hand length = 6 cm. Area swept from 7:00 AM to 10:00 AM.\" They write: θ = 3 hours × 30° = 90°, Area = (90/360) × π × 6² = 28.26 cm². Is this correct? If not, identify the error.",
+     "a": "Incorrect. The hour hand moves 30° per hour (360°/12 hours), so in 3 hours it sweeps 90° — that part is correct. But the student used π = 3.14 instead of 22/7 as typically required in CBSE unless specified. More critically, they forgot to convert cm² properly? Actually 28.26 cm² is numerically correct for π=3.14. The real error: from 7:00 to 10:00 is 3 hours, but the hour hand moves continuously; at 10:00 it is exactly at 10, so angle swept is indeed 90°. The solution is mathematically correct if π=3.14 is allowed. However, CBSE expects π=22/7 giving 28.29 cm². A student who says \"correct\" misses the π convention. A student who says \"angle should be 360°\" confuses with minute hand.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a clock where the minute hand and hour hand both sweep sectors in the same time interval, and ask for the difference in areas swept. Provide the solution.",
+     "a": "Example problem: \"The minute hand of a clock is 12 cm long and the hour hand is 8 cm long. Find the difference between the areas swept by the two hands between 2:00 PM and 2:30 PM.\" Solution: Time = 30 min. Minute hand angle = 30×6 = 180°. Hour hand angle = 30×0.5 = 15°. Area_min = (180/360)×π×12² = 72π cm². Area_hr = (15/360)×π×8² = (1/24)×64π = 8π/3 cm². Difference = 72π - 8π/3 = (216π - 8π)/3 = 208π/3 cm² ≈ 217.87 cm² (using π=22/7). A poor problem would use same radius for both hands or ask for sum instead of difference, showing lack of understanding of the distinct roles of the hands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

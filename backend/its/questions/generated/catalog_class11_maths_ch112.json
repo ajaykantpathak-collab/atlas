@@ -1,0 +1,391 @@
+{
+ "catalog": "catalog_class11_maths_ch112.json",
+ "concepts": [
+  {
+   "id": "kemh112.12.3.1",
+   "title": "Left and Right Hand Limits",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 4 * 4 + 5 * 4 + 4 gives 72",
+     "compute": "val = 3 * 4 * 4 + 5 * 4 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 5x + 4 as x approaches 4 (direct substitution).",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 4.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 5x + 1, find the slope of the tangent at x = 3.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 5x + 1 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.03",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.2",
+   "title": "Existence of a Limit",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 6 * 3 + 6 gives 69",
+     "compute": "val = 5 * 3 * 3 + 6 * 3 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 6x + 6 as x approaches 3 (direct substitution).",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^4 is 12x^3. Find the derivative's value at x = 3.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 7, find the slope of the tangent at x = 2.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 7 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.06",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.3",
+   "title": "Algebra of Limits",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 2x^2 + 2x + 1 as x approaches 2 (direct substitution).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^3 is 9x^2. Find the derivative's value at x = 2.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 1, find the slope of the tangent at x = 3.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 1 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.04",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.4",
+   "title": "Limit of a Polynomial Function",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 5x + 5 as x approaches 2 (direct substitution).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^3 is 6x^2. Find the derivative's value at x = 2.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 4x + 7, find the slope of the tangent at x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 4x + 7 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.08",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 4.",
+     "a": "7260",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.3.5",
+   "title": "Standard Limit Theorem for Powers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 6x + 6 as x approaches 3 (direct substitution).",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^2 is 4x^1. Find the derivative's value at x = 3.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 2x + 4, find the slope of the tangent at x = 4.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 2x + 4 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.06",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.4.1",
+   "title": "Standard Trigonometric Limit",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Compute 2 + 2 as a quick check exercise.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Compute 4 + 9 as a quick check exercise.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Compute 7 + 5 as a quick check exercise.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Compute 6 + 5 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Compute 8 + 4 as a quick check exercise.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Compute 9 + 4 as a quick check exercise.",
+     "a": "13",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.1",
+   "title": "Derivative at a Point (First Principle)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 4x + 3 as x approaches 5 (direct substitution).",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 1x^2 is 2x^1. Find the derivative's value at x = 5.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 1x + 7, find the slope of the tangent at x = 3.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 1x + 7 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.04",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 4.",
+     "a": "7260",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.2",
+   "title": "Power Rule for Differentiation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 6x + 3 as x approaches 1 (direct substitution).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 4x^2 is 8x^1. Find the derivative's value at x = 1.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 7, find the slope of the tangent at x = 1.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 2x + 7 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.1",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.3",
+   "title": "Product Rule (Leibnitz Rule)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 8x + 8 as x approaches 4 (direct substitution).",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 4x^4 is 16x^3. Find the derivative's value at x = 4.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 4x + 4, find the slope of the tangent at x = 2.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 4x + 4 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.05",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.4",
+   "title": "Quotient Rule",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 5x + 3 as x approaches 4 (direct substitution).",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 1x^4 is 4x^3. Find the derivative's value at x = 4.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 1x + 7, find the slope of the tangent at x = 1.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 1x + 7 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.2",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 4.",
+     "a": "7260",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

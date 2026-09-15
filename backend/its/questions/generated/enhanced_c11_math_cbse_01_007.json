@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_007",
+   "title": "c11_math_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the definition of a universal set in your own words. Give two different examples of the same subset (e.g., set of even numbers) with two different universal sets.",
+     "a": "A universal set U is the set containing all elements relevant to a particular discussion; all other sets in that context are subsets of U. Example: Let A = {2, 4, 6}. If the context is natural numbers, U = N = {1, 2, 3, ...}. If the context is integers from 1 to 10, U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. A wrong answer (e.g., \"U is always the set of real numbers\") reveals the misconception that the universal set is fixed and absolute, rather than context-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "In a survey of 100 students, 60 like Mathematics, 50 like Physics, and 30 like both. A student writes: \"Let U = {students who like Mathematics or Physics}.\" Is this a valid universal set for this problem? Explain why or why not.",
+     "a": "No, this is not a valid universal set. The universal set must contain ALL elements under consideration—here, all 100 surveyed students, including those who like neither subject. The proposed U excludes students who like neither Mathematics nor Physics, making it impossible to answer questions like \"How many students like neither?\" A wrong answer (saying it is valid) reveals the student confuses \"union of given sets\" with \"universal set containing all possible elements.\"",
+     "self_check": true
+    },
+    {
+     "q": "Let U = {x ∈ Z : -5 ≤ x ≤ 5}. Define A = {x ∈ U : x is even} and B = {x ∈ U : x > 0}. Write U, A, and B in roster form. Then find A' (complement of A in U) and B' (complement of B in U).",
+     "a": "U = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5}\nA = {-4, -2, 0, 2, 4}\nB = {1, 2, 3, 4, 5}\nA' = U - A = {-5, -3, -1, 1, 3, 5}\nB' = U - B = {-5, -4, -3, -2, -1, 0}\nA wrong answer (e.g., A' = {odd integers} without restricting to U) reveals the student forgets that complement is ALWAYS relative to the stated universal set, not an absolute concept.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"For any set A, A ∪ A' = U.\" Is this statement always true? If yes, explain why. If no, give a counterexample and state the condition under which it becomes true.",
+     "a": "The statement is true ONLY when A is a subset of the universal set U and A' is defined as U - A. If A is not a subset of U (e.g., U = {1, 2, 3}, A = {2, 3, 4}), then A' = U - A = {1}, but A ∪ A' = {1, 2, 3, 4} ≠ U. The condition: A ⊆ U. A wrong answer (saying it's always true without the subset condition) reveals the student doesn't understand that complement and universal set are inextricably linked—complement is undefined without a specified U containing A.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student solves this problem: \"In a class of 40 students, 25 play cricket, 20 play football, 10 play both. Find how many play neither.\" The student writes: \"U = {cricket players} ∪ {football players} = 35. Neither = 40 - 35 = 5.\" Evaluate this solution. Is the final answer correct? Is the method correct?",
+     "a": "The final answer (5) is numerically correct, but the method is WRONG. The student incorrectly defined U as the union of the two given sets (35 students), but the universal set must be the set of ALL 40 students in the class. The correct definition: U = {all 40 students}. Then A = {cricket players}, B = {football players}. n(A ∪ B) = 25 + 20 - 10 = 35. Neither = n(U) - n(A ∪ B) = 40 - 35 = 5. A wrong evaluation (saying method is correct) reveals the student confuses \"universal set\" with \"union of all given subsets,\" a critical conceptual error that will fail in problems where some elements belong to none of the given subsets.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) involving three sets where the choice of universal set affects the answer to \"find the complement of set A.\" Provide the problem, two different valid universal sets, and show how the complement of A changes.",
+     "a": "Problem: \"In a housing society, 50 families have cars, 30 have bikes, 20 have both. Set A = families with cars.\" \nChoice 1: U₁ = {all 100 families in the society}. A' = families without cars = 100 - 50 = 50 families.\nChoice 2: U₂ = {families with at least one vehicle} = 50 + 30 - 20 = 60 families. A' = families with bikes but no car = 30 - 20 = 10 families.\nThe complement changes from 50 to 10 depending on U. A poor answer (same complement for both U) reveals the student doesn't grasp that complement is RELATIVE to U, not an absolute property of A.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

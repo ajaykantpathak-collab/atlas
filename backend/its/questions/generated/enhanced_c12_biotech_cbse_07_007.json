@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_007",
+   "title": "c12_biotech_cbse_07_007",
+   "questions": [
+    {
+     "q": "What are the two main enzymes used for protoplast isolation and what specific cell wall components do they degrade?",
+     "a": "Cellulase degrades cellulose (β-1,4-glucan) and pectinase degrades pectin (polygalacturonic acid). A wrong answer (e.g., \"protease and lipase\" or \"cellulase and hemicellulase\") reveals the student confuses plant cell wall composition with animal cell membranes or does not know pectin is the middle lamella cementing agent — a common error because textbooks often mention only cellulase.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why polyethylene glycol (PEG) is used in somatic hybridization and what would happen if you omitted it but kept protoplasts in close contact.",
+     "a": "PEG induces fusion by dehydrating protoplast surfaces and neutralizing negative membrane charges, allowing phospholipid bilayers to merge. Without PEG, protoplasts remain separate because like charges repel and hydration shells prevent membrane contact — they will not fuse spontaneously. A student who says \"PEG provides nutrients\" or \"PEG acts as a fertilizer\" confuses it with culture media components; this misconception arises from not understanding the biophysics of membrane fusion.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates protoplasts from Species A (2n=24) and Species B (2n=18), fuses them with PEG, and regenerates plants. The regenerated plants show 42 chromosomes. Are these somatic hybrids or cybrids? Justify.",
+     "a": "Somatic hybrids. Somatic hybrids contain nuclear genomes from both parents (24+18=42 chromosomes). Cybrids contain the nuclear genome of one parent plus cytoplasmic organelles (mitochondria/chloroplasts) of the other — chromosome number would match one parent (24 or 18). A student answering \"cybrids\" confuses cytoplasmic fusion with nuclear fusion; this error occurs because both involve protoplast fusion but the genomic outcome differs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genomic composition of a somatic hybrid and a cybrid produced from the same two parental species. Which would you select to transfer cytoplasmic male sterility (CMS) from Species A into Species B? Why?",
+     "a": "Somatic hybrid: nuclear genome of A + nuclear genome of B (both nuclei fuse). Cybrid: nuclear genome of B + mitochondrial genome of A (nucleus of A lost). To transfer CMS (mitochondrial trait), select cybrids because CMS is encoded in mitochondrial DNA; somatic hybrids would carry both nuclear genomes, causing genetic instability and unwanted nuclear traits. A student choosing somatic hybrid for CMS transfer fails to link organelle genome location to trait inheritance — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Somatic hybridization is always superior to sexual hybridization because it can combine any two plant species.\" Provide two limitations that make this statement false.",
+     "a": "False. Limitations: (1) Somatic hybrids often show chromosomal instability, somatic segregation, or sterility due to unequal chromosome pairing (e.g., asymmetric hybrids). (2) Regeneration from protoplasts is genotype-dependent and recalcitrant in many cereals/woody species. (3) Cyto-nuclear incompatibility can cause hybrid breakdown. A student who agrees without caveats ignores the practical bottlenecks emphasized in NEET/board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-wise experimental protocol to produce a somatic hybrid between tomato (*Solanum lycopersicum*, 2n=24) and potato (*Solanum tuberosum*, 2n=48) that yields a fertile \"pomato\" plant with tubers and fruits. Include selection strategy for true hybrids.",
+     "a": "1. Isolate protoplasts from tomato leaf mesophyll and potato tuber parenchyma using 2% cellulase + 0.5% pectinase in 0.5M mannitol (4h, dark). 2. Fuse protoplasts with 30% PEG 4000 + 0.1M CaCl₂ (10 min), then wash. 3. Culture fused protoplasts on MS medium + 0.5M mannitol + 2μM 2,4-D + 1μM kinetin (callus induction). 4. Transfer calli to regeneration medium (MS + 2μM zeatin + 0.5μM NAA). 5. Select true hybrids: (a) morphological (intermediate leaves), (b) chromosome count (2n=72), (c) PCR with species-specific markers (e.g., tomato *RFLP* vs potato *STS*). 6. Screen for fertility (pollen viability >80%) and tuber+fruit formation. A poor answer omits selection markers or mannitol osmoticum, revealing lack of practical protocol knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

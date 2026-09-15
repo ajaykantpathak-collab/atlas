@@ -1,0 +1,136 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 302,
+ "chapter_title": "Diversity and Discrimination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fess302.txt",
+ "concepts": [
+  {
+   "id": "fess.302.1",
+   "title": "Prejudice Definition",
+   "section": "Difference and Prejudice",
+   "definition": "Holding a negative opinion or judgment about individuals or groups without knowing the facts, often based on their identity.",
+   "formula": "prejudice = negative_judgment - factual_evidence",
+   "key_idea": "Judging others negatively before knowing them.",
+   "textbook_ref": "fess302.txt lines 70-95",
+   "question_patterns": [
+    "define the term prejudice",
+    "what does it mean to be prejudiced",
+    "how do prejudices form about others",
+    "explain the meaning of judging others negatively",
+    "why is prejudice considered harmful"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the impact of negative bias",
+     "explain": "prejudice is the difference between an irrational negative judgment and actual evidence",
+     "compute": "prejudice = 100 - 0"
+    }
+   ]
+  },
+  {
+   "id": "fess.302.2",
+   "title": "Stereotype Formation",
+   "section": "Creating Stereotypes",
+   "definition": "The act of fitting diverse individuals into a single, rigid image or pattern based on their group identity.",
+   "formula": "stereotype = fixed_image * group_size",
+   "key_idea": "Generalizing traits to an entire group.",
+   "textbook_ref": "fess302.txt lines 130-160",
+   "question_patterns": [
+    "what is a stereotype",
+    "how are stereotypes created",
+    "why do stereotypes limit individuals",
+    "give an example of a common stereotype",
+    "how does society create fixed images"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the scope of a stereotype",
+     "explain": "a stereotype multiplies a single trait across a whole group",
+     "compute": "stereotype = 1 * 1000"
+    }
+   ]
+  },
+  {
+   "id": "fess.302.3",
+   "title": "Discrimination Mechanism",
+   "section": "Inequality and Discrimination",
+   "definition": "The unfair treatment of people based on their background, often resulting from acting upon prejudices or stereotypes.",
+   "formula": "discrimination = prejudice_action * exclusion",
+   "key_idea": "Acting on negative beliefs to deny rights.",
+   "textbook_ref": "fess302.txt lines 170-200",
+   "question_patterns": [
+    "define discrimination",
+    "how does discrimination differ from prejudice",
+    "what causes discrimination in society",
+    "list ways people are discriminated against",
+    "why is discrimination harmful to equality"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the intensity of discriminatory acts",
+     "explain": "discrimination is the product of acting on bias and excluding others",
+     "compute": "discrimination = 5 * 20"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess302.txt lines 85-90",
+   "concept": "fess.302.1",
+   "question_type": "conceptual",
+   "question_pattern": "If a person judges a group negatively without evidence, the {prejudice_score} is high.",
+   "extracted_variables": {
+    "prejudice_score": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate bias",
+     "explain": "prejudice exists when evidence is absent",
+     "compute": "prejudice = 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess302.txt lines 150-155",
+   "concept": "fess.302.2",
+   "question_type": "conceptual",
+   "question_pattern": "When a single trait is applied to {group_size} people, a stereotype is formed.",
+   "extracted_variables": {
+    "group_size": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate stereotype impact",
+     "explain": "the stereotype covers the entire group",
+     "compute": "stereotype = 1 * group_size"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess302.txt lines 300-310",
+   "questions": [
+    "How does the Constitution ensure equality?",
+    "Why is untouchability considered a crime?",
+    "What is the difference between diversity and inequality?",
+    "Explain how poverty affects school attendance for girls."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

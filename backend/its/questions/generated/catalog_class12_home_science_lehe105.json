@@ -1,0 +1,298 @@
+{
+ "catalog": "catalog_class12_home_science_lehe105",
+ "concepts": [
+  {
+   "id": "lehe105.1",
+   "title": "Food Safety, Toxicity and Hazard",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Safety, Toxicity and Hazard' refers to.",
+     "a": "Assurance that a food will not harm the eater when used as intended; toxicity names a substance's inbuilt power to injure, while hazard measures how likely injury becomes when the substance is misused or overdosed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Safety, Toxicity and Hazard'.",
+     "a": "A toxic substance used correctly may pose little hazard; hazard grows with careless use.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Safety, Toxicity and Hazard', in plain ASCII form.",
+     "a": "qualitative trio -- safety is judged through toxicity plus hazard",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.2",
+   "title": "Physical, Chemical and Biological Hazards",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Physical, Chemical and Biological Hazards' refers to.",
+     "a": "Foreign matter that should never sit in food -- stones, hair, glass, nails, insect parts -- makes physical danger; pesticide residues, toxic metals and forbidden or excessive additives make chemical danger; and living invaders from worms and weevils down to bacteria, viruses, moulds and protozoa make biological danger.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Physical, Chemical and Biological Hazards'.",
+     "a": "Biological hazards cause most food borne illness, and new pathogens keep appearing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Physical, Chemical and Biological Hazards', in plain ASCII form.",
+     "a": "hazard classes -- physical plus chemical plus biological",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.3",
+   "title": "Food Infection versus Food Intoxication",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Infection versus Food Intoxication' refers to.",
+     "a": "Infection occurs when live germs swallowed with the food set up house in the body and multiply, as Salmonella from raw milk, eggs or cross contaminated boards does; intoxication occurs when a toxin already brewed in the food acts, even after the microbe that made it is dead, as with Staphylococcus aureus carried on skin and in throats.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Infection versus Food Intoxication'.",
+     "a": "Toxins carry no smell, taste or look, so good appearing food can still poison; about half of healthy people carry Staphylococcus.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Infection versus Food Intoxication', in plain ASCII form.",
+     "a": "two routes -- live organisms multiply inside, or preformed toxins act directly",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.4",
+   "title": "Contamination and Adulteration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Contamination and Adulteration' refers to.",
+     "a": "Contamination is the arrival of objectionable matter -- chemicals, microbes, dilutants -- at any stage from field to table, while adulteration drags quality down by mixing in inferior material or by drawing out the valuable part of the food.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Contamination and Adulteration'.",
+     "a": "Adulterants are the specific substances that make a product unsafe to eat.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Contamination and Adulteration', in plain ASCII form.",
+     "a": "quality loss -- contamination incidental, adulteration adds inferior or removes valuable",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.5",
+   "title": "Food Quality and Its Attributes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Quality and Its Attributes' refers to.",
+     "a": "Food quality collects every attribute that shapes a buyer's judgement: the negatives -- spoilage, contamination, hazards -- and the positives -- colour, flavour, texture, appearance, nourishment -- with safety as the entry ticket to quality at all.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Quality and Its Attributes'.",
+     "a": "Sensory traits, nutrition and social concerns merge into one holistic verdict on a product.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Quality and Its Attributes', in plain ASCII form.",
+     "a": "quality = negative attributes plus positive attributes, safety first",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.6",
+   "title": "Levels of Food Standards and Voluntary Marks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels of Food Standards and Voluntary Marks' refers to.",
+     "a": "Standards run on four coordinated planes -- a company's in house rules, national rules from FSSAI, regional group legislation and international codes from ISO and Codex -- while voluntary certification such as the ISI mark of BIS and Agmark grades farm products for the buyer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Food Standards and Voluntary Marks'.",
+     "a": "Agmark covers agricultural raw and processed goods; the ISI mark certifies processed foods under BIS.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Levels of Food Standards and Voluntary Marks', in plain ASCII form.",
+     "a": "standards ladder -- company to national to regional to international",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.7",
+   "title": "FSSA 2006 and the FSSAI",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'FSSA 2006 and the FSSAI' refers to.",
+     "a": "The Food Safety and Standards Act of 2006 gathered India's scattered food laws into one statute and created FSSAI, the authority that frames science based standards and regulates manufacture, storage, distribution, sale and import of food.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'FSSA 2006 and the FSSAI'.",
+     "a": "The Act shifted Indian law from compositional vertical standards to horizontal safety standards and data collection, alerts and training.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'FSSA 2006 and the FSSAI', in plain ASCII form.",
+     "a": "one act plus one authority consolidate all food law",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.8",
+   "title": "Codex, ISO and the WTO",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Codex, ISO and the WTO' refers to.",
+     "a": "Codex Alimentarius is the intergovernmental food code that nations adapt into their own rules, ISO publishes voluntary quality management references such as ISO 9000, and the WTO, born in 1995, keeps trade in goods, services and ideas flowing fairly and predictably.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Codex, ISO and the WTO'.",
+     "a": "Codex moves slowly and sets minimums; ISO describes current best industrial practice and refreshes every five years.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Codex, ISO and the WTO', in plain ASCII form.",
+     "a": "three pillars -- Codex standards plus ISO management plus WTO trade rules",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.9",
+   "title": "Food Control: Inspection and Analysis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Control: Inspection and Analysis' refers to.",
+     "a": "A working control system rests on two legs: appointed inspectors who verify that food is produced, stored and distributed to rule, and accredited laboratories with trained analysts who can chase contaminants, biotoxins, pathogens and viruses in the samples.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Control: Inspection and Analysis'.",
+     "a": "Without state of the art labs and skilled analysts, standards remain paper promises.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food Control: Inspection and Analysis', in plain ASCII form.",
+     "a": "control system = food inspection plus analytical capability",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.10",
+   "title": "Safety Management Systems: GMP, GHP and HACCP",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Safety Management Systems: GMP, GHP and HACCP' refers to.",
+     "a": "GMP makes manufacturers act before problems arise, GHP stretches hygiene from farm to shop, and HACCP examines every raw material and every process step for its power to breed hazards, fixing control measures at the exact stage where trouble can start.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Safety Management Systems: GMP, GHP and HACCP'.",
+     "a": "HACCP beats end product testing because it catches hazards where they occur instead of after the batch is made.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Safety Management Systems: GMP, GHP and HACCP', in plain ASCII form.",
+     "a": "three systems -- GMP plus GHP plus HACCP covering the whole chain",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.11",
+   "title": "Careers in Food Safety and Quality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Careers in Food Safety and Quality' refers to.",
+     "a": "Quality control labs, public and private testing agencies, certification bodies and HACCP teams hire analysts, inspectors, auditors and managers, while self employment opens through analytical laboratories, safety consultancy and sanitation education.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Careers in Food Safety and Quality'.",
+     "a": "The sector needs expertise in food chemistry, processing, analysis, microbiology, laws and sensory evaluation, and accounts for about 26 per cent of GDP.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Careers in Food Safety and Quality', in plain ASCII form.",
+     "a": "career map -- analysts plus inspectors plus auditors plus HACCP specialists plus consultants",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.12",
+   "title": "Bacterial Doubling Time",
+   "questions": [
+    {
+     "q": "Calculate the bacterial count after a stated time when the starting load and the doubling time are given. Use the method 'Bacterial Doubling Time'. Work with: doubling_minutes = 8, elapsed_minutes = 18, starting_count = 4. Carry the chain through step by step and give the final value of bacteria_after.",
+     "a": "19.0273 units",
+     "self_check": false
+    },
+    {
+     "q": "How many doublings occur in 3 hours for a microbe with a 20 minute doubling time? Use the method 'Bacterial Doubling Time'. Work with: doubling_minutes = 40, elapsed_minutes = 40, starting_count = 5. Carry the chain through step by step and give the final value of bacteria_after.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bacterial Doubling Time' refers to.",
+     "a": "A bacterium that doubles on a fixed clock grows by powers of two; dividing the elapsed minutes by the doubling time gives the number of doublings, and the starting count times two raised to that power gives the final load.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bacterial Doubling Time'.",
+     "a": "Salmonella doubles every 20 minutes, so two hours of neglect multiplies a small load sixty four fold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bacterial Doubling Time', in plain ASCII form.",
+     "a": "bacteria_after = starting_count * 2 ** (elapsed_minutes / doubling_minutes)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe105.13",
+   "title": "Adulterant Percentage Tests",
+   "questions": [
+    {
+     "q": "Using the method 'Adulterant Percentage Tests', work with: part_weight = 360, sample_weight = 60. Carry the chain through step by step and give the final value of adulterant_pct.",
+     "a": "600 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Adulterant Percentage Tests' and work with: part_weight = 20, sample_weight = 100. Carry the chain through step by step and give the final value of adulterant_pct.",
+     "a": "20 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Adulterant Percentage Tests' refers to.",
+     "a": "The tea stalk and pepper light berry tests weigh the unwanted fraction against the whole sample and report it as a percentage, which is then judged against the permitted ceiling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adulterant Percentage Tests'.",
+     "a": "Stalks in tea should stay under 25 per cent; a high light berry share in pepper signals extraction of the good berries.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adulterant Percentage Tests', in plain ASCII form.",
+     "a": "adulterant_pct = part_weight / sample_weight * 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

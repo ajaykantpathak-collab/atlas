@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_010",
+   "title": "c12_ip_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the primary function of SMTP in email communication, and which default port number does it use for unencrypted communication?",
+     "a": "SMTP (Simple Mail Transfer Protocol) is used exclusively for sending emails from a client to a mail server or between mail servers. Its default unencrypted port is 25. A wrong answer (e.g., saying SMTP receives emails or uses port 110) reveals confusion between send/receive roles and port assignments — a common error where students mix up SMTP with POP3/IMAP.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a user who accesses email from both a smartphone and a laptop should choose IMAP over POP3.",
+     "a": "IMAP keeps emails on the server and synchronizes actions (read, delete, folder moves) across all devices, so the smartphone and laptop show the same mailbox state. POP3 typically downloads emails to one device and removes them from the server, making them inaccessible on the other device. A wrong answer (e.g., \"POP3 is faster\" or \"IMAP uses less data\") shows the student hasn't grasped the synchronization vs. download-and-delete distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student configures their email client with the following settings: Incoming server: pop3.example.com, port 110; Outgoing server: smtp.example.com, port 25. They can send emails but cannot receive any. The server logs show successful authentication. What is the most likely cause, and how would you fix it?",
+     "a": "The most likely cause is that the POP3 server requires an encrypted connection (POP3S on port 995) and rejects plain-text connections on port 110. Fix: change the incoming port to 995 and enable SSL/TLS in the client settings. A wrong answer (e.g., \"change SMTP port\") reveals the student cannot isolate the receiving protocol from the sending protocol or recognize modern security requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast POP3 and IMAP in terms of (a) message storage location after retrieval, (b) synchronization across multiple clients, and (c) suitability for offline access. Present your answer as a three-row table.",
+     "a": "| Aspect | POP3 | IMAP |\n|--------|------|------|\n| Message storage after retrieval | Typically deleted from server, stored locally on client | Remains on server; client caches copies |\n| Synchronization across clients | No — each client downloads independently | Yes — all clients reflect same server state |\n| Offline access | Excellent — all messages stored locally | Limited — only cached messages available offline |\n\nA wrong answer (e.g., claiming POP3 syncs folders) shows the student conflates the two protocols' server-side behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A small business owner wants to set up a single email account (info@business.com) that three employees will access from their own computers. They want all employees to see the same emails, including which ones have been read or replied to. Evaluate whether POP3 or IMAP is the better choice, and justify your recommendation with two specific reasons.",
+     "a": "IMAP is the better choice. Reason 1: IMAP synchronizes message state (read/unread, replied, folder organization) on the server, so all three employees see the same up-to-date view. Reason 2: POP3 would download emails to the first employee's computer and remove them from the server, making them invisible to the other two. A wrong recommendation (choosing POP3) indicates the student fails to apply protocol behavior to a multi-user collaborative scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart (describe in text) that an email client could use to decide whether to use POP3 or IMAP based on user preferences: number of devices, need for offline access, and desire for server-side folder management.",
+     "a": "Flowchart logic:\n1. Start → Ask: \"Do you access email from more than one device?\" → Yes → Recommend IMAP.\n2. No → Ask: \"Do you need to manage folders (e.g., Sent, Drafts, custom labels) on the server?\" → Yes → Recommend IMAP.\n3. No → Ask: \"Is offline access to all emails critical?\" → Yes → Recommend POP3 (downloads all).\n4. No → Recommend IMAP (default for modern use).\nA poor answer (e.g., a linear list without decision branches) shows the student cannot synthesize protocol features into a decision-making structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

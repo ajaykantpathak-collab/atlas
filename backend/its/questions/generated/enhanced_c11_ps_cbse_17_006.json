@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_006",
+   "title": "c11_ps_cbse_17_006",
+   "questions": [
+    {
+     "q": "Under Article 243Q of the Constitution, a 'transitional area' (area in transition from rural to urban) is governed by which type of municipality?",
+     "a": "A Nagar Panchayat governs a transitional area under Article 243Q. A wrong answer (e.g., Municipal Council or Municipal Corporation) reveals the student cannot map the three municipal categories to their population-based criteria: Nagar Panchayat for transitional areas, Municipal Council for smaller urban areas, and Municipal Corporation for larger urban areas.",
+     "self_check": true
+    },
+    {
+     "q": "Article 243T mandates reservation of seats for women in municipalities. If a Municipal Corporation has 60 seats, what is the minimum number of seats reserved for women, and how are these seats allocated across categories?",
+     "a": "At least 20 seats (one-third of 60) must be reserved for women. Of these, seats reserved for SC/ST women come from within the SC/ST quota (Article 243T(2)), and the remaining women's seats are filled by rotation across all wards (Article 243T(3)). A wrong answer reveals confusion between vertical reservation (SC/ST) and horizontal reservation (women), or ignorance of the rotation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A state government postpones municipal elections for 18 months citing financial constraints. The State Election Commissioner objects. Which constitutional article empowers the Commissioner, and what is the nature of this power?",
+     "a": "Article 243K vests the superintendence, direction, and control of municipal elections in the State Election Commission, including the power to conduct elections before the expiry of the five-year term. The Commissioner's power is independent of the state executive; the state government cannot delay elections arbitrarily. A wrong answer suggests the student thinks municipal elections are controlled by the state government or the Election Commission of India, not the State Election Commission.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional position of the State Finance Commission (Article 243I) with the Union Finance Commission (Article 280). Identify two similarities and two differences in their composition, mandate, and binding nature of recommendations.",
+     "a": "Similarities: Both are constituted every five years, both review financial positions, and both make recommendations on tax devolution and grants. Differences: (1) SFC reviews state-municipality finances; UFC reviews Union-state finances. (2) SFC recommendations are not binding on the state government (though they must be laid before the legislature with an explanatory memorandum); UFC recommendations are traditionally accepted by the President. A wrong answer indicates the student conflates the two commissions or assumes SFC recommendations are automatically binding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Twelfth Schedule (Article 243W) makes all 18 functions obligatory for every municipality.\" Is this correct? Justify your answer with constitutional text.",
+     "a": "Incorrect. Article 243W states the Legislature of a State *may* by law endow municipalities with powers and authority *as may be necessary* to enable them to function as institutions of self-government, and *may* entrust them with the functions listed in the Twelfth Schedule. The word \"may\" makes it discretionary for state legislatures; functions are not automatically obligatory. A wrong answer reveals the student mistakes the Twelfth Schedule for a mandatory functional assignment like the Seventh Schedule's Union/State Lists.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a new Article 243ZA that would mandate the creation of Ward Committees in all municipalities with population above 1 lakh (lowering the current 3-lakh threshold in Article 243S). Your draft must specify composition, tenure, and at least two functions.",
+     "a": "A strong draft would: (1) Set population threshold at 1 lakh; (2) Define composition as councillors from the ward plus nominated members from resident welfare associations/NGOs (not exceeding 1/3rd); (3) Fix tenure coterminous with the municipality; (4) Assign functions: (a) preparing ward-level development plans for integration into the municipal budget, (b) monitoring service delivery (water, sanitation, street lighting) and reporting to the municipal commissioner. A poor draft copies Article 243S verbatim without adapting the threshold or omits tenure/function specifics, showing inability to apply constitutional design principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

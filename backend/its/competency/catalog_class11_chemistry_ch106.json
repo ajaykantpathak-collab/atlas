@@ -1,0 +1,1959 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 106,
+ "chapter_title": "Equilibrium",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech106.txt",
+ "concepts": [
+  {
+   "id": "kech.106.1.1",
+   "title": "Physical Equilibrium and Phase Transformation",
+   "section": "6.1",
+   "definition": "A state established in physical phase changes or dissolution processes where opposing structural transformations proceed at equal rates in a closed system.",
+   "formula": "rate of forward phase change = rate of reverse phase change",
+   "key_idea": "Physical systems reach equilibrium when macroscopic properties like pressure or solubility remain constant at a given temperature.",
+   "textbook_ref": "kech106.txt lines 30-140",
+   "question_patterns": [
+    "explain solid-liquid equilibrium at atmospheric pressure in Class 11 chemical equilibrium",
+    "describe liquid-vapour equilibrium and equilibrium vapour pressure",
+    "what is dynamic equilibrium during dissolution of solids in liquids",
+    "how does Henry's law govern gas solubility in liquid solvents",
+    "state key general characteristics of physical equilibria"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify physical phases and opposing processes",
+     "explain": "determine forward transformation and its corresponding reverse process"
+    },
+    {
+     "step": 2,
+     "action": "verify closed system and fixed temperature conditions",
+     "explain": "physical equilibrium requires constant temperature without exchange of matter"
+    },
+    {
+     "step": 3,
+     "action": "confirm constancy of macroscopic state variable",
+     "explain": "check if vapour pressure, melting point, or solute solubility has stabilized"
+    }
+   ]
+  },
+  {
+   "id": "kech.106.2.1",
+   "title": "Dynamic Nature of Chemical Equilibrium",
+   "section": "6.2",
+   "definition": "A balanced chemical state where forward and backward reactions continue perpetually at equal rates, maintaining constant species concentrations.",
+   "formula": "rate of forward reaction = rate of backward reaction",
+   "key_idea": "Chemical equilibrium is dynamic rather than static, proven by isotopic tracer mixing in reversible reactions.",
+   "textbook_ref": "kech106.txt lines 145-210",
+   "question_patterns": [
+    "explain the dynamic nature of chemical equilibrium using Haber's process",
+    "how does deuterium tracer experiment prove continuation of reactions at equilibrium",
+    "can chemical equilibrium be approached from either direction",
+    "what happens to reactant and product concentrations at chemical equilibrium",
+    "demonstrate dynamic equilibrium through student activity with measuring cylinders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the reversible balanced chemical equation",
+     "explain": "represent opposing forward and reverse pathways with double half arrows"
+    },
+    {
+     "step": 2,
+     "action": "compare forward and reverse reaction rates",
+     "explain": "at equilibrium net change in chemical composition drops to zero as rates equalize"
+    },
+    {
+     "step": 3,
+     "action": "confirm constancy of concentrations using tracer or analytical evidence",
+     "explain": "Verify that macroscopic concentrations remain constant over time, proving the dynamic yet balanced nature of the equilibrium."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.3.1",
+   "title": "Law of Chemical Equilibrium and Equilibrium Constant Kc",
+   "section": "6.3",
+   "definition": "The principle stating that at fixed temperature, the product of product molar concentrations raised to stoichiometric powers divided by reactant molar concentrations raised to their powers is constant.",
+   "formula": "Kc = ([C]**c * [D]**d) / ([A]**a * [B]**b)",
+   "key_idea": "Equilibrium constant Kc depends only on temperature and the stoichiometry of the balanced chemical equation.",
+   "textbook_ref": "kech106.txt lines 215-325",
+   "question_patterns": [
+    "calculate the equilibrium constant Kc from molar concentrations in Class 11 chemical equilibrium",
+    "find Kc for ammonia synthesis given equilibrium concentrations",
+    "determine equilibrium constant for nitric oxide formation reaction",
+    "how does modifying stoichiometric coefficients alter the expression for Kc",
+    "what is the relation between equilibrium constants of forward and reverse reactions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate product concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of products raised to their equation coefficients",
+     "compute": "(conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of reactants raised to their equation coefficients",
+     "compute": "(conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product numerator term by reactant denominator term",
+     "explain": "equilibrium constant Kc equals numerator divided by denominator",
+     "compute": "num / den"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving law of chemical equilibrium and equilibrium constant kc.",
+     "solution": "Step 1: calculate product concentrations term raised to stoichiometric powers. Step 2: calculate reactant concentrations term raised to stoichiometric powers. Step 3: divide product numerator term by reactant denominator term. Working: (conc_c ** c) * (conc_d ** d), (conc_a ** a) * (conc_b ** b), num / den.",
+     "answer": "Law of Chemical Equilibrium and Equilibrium Constant Kc applied step by step gives the required result."
+    },
+    {
+     "question": "Apply law of chemical equilibrium and equilibrium constant kc to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate product concentrations term raised to stoichiometric powers. Step 2: calculate reactant concentrations term raised to stoichiometric powers. Step 3: divide product numerator term by reactant denominator term. Working: (conc_c ** c) * (conc_d ** d), (conc_a ** a) * (conc_b ** b), num / den.",
+     "answer": "The method of law of chemical equilibrium and equilibrium constant kc leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.4.1",
+   "title": "Relationship between Kp and Kc in Gaseous Systems",
+   "section": "6.4.1",
+   "definition": "Mathematical relation converting concentration-based equilibrium constant Kc to partial pressure-based equilibrium constant Kp using gas law factors.",
+   "formula": "Kp = Kc * (R * T)**delta_n",
+   "key_idea": "Kp equals Kc multiplied by (RT) raised to the difference between product and reactant gaseous mole counts.",
+   "textbook_ref": "kech106.txt lines 330-410",
+   "question_patterns": [
+    "calculate Kp from Kc at a given temperature in Kelvin",
+    "find Kp for phosphorus pentachloride decomposition given Kc and temperature",
+    "determine equilibrium constant Kp when change in gaseous moles delta_n is known",
+    "how to derive the relation Kp = Kc(RT)^delta_n from ideal gas equation",
+    "what is Kp value when number of gaseous product and reactant moles are equal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply gas constant R by absolute temperature T",
+     "explain": "compute the gas law thermal product RT",
+     "compute": "r * t"
+    },
+    {
+     "step": 2,
+     "action": "raise RT factor to the power of delta_n",
+     "explain": "delta_n is gaseous product moles minus gaseous reactant moles",
+     "compute": "rt ** delta_n"
+    },
+    {
+     "step": 3,
+     "action": "multiply Kc by the calculated conversion factor",
+     "explain": "Kp equals Kc multiplied by (RT)^delta_n",
+     "compute": "kc * factor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving relationship between kp and kc in gaseous systems.",
+     "solution": "Step 1: multiply gas constant R by absolute temperature T. Step 2: raise RT factor to the power of delta_n. Step 3: multiply Kc by the calculated conversion factor. Working: r * t, rt ** delta_n, kc * factor.",
+     "answer": "Relationship between Kp and Kc in Gaseous Systems applied step by step gives the required result."
+    },
+    {
+     "question": "Apply relationship between kp and kc in gaseous systems to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply gas constant R by absolute temperature T. Step 2: raise RT factor to the power of delta_n. Step 3: multiply Kc by the calculated conversion factor. Working: r * t, rt ** delta_n, kc * factor.",
+     "answer": "The method of relationship between kp and kc in gaseous systems leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.5.1",
+   "title": "Heterogeneous Equilibria",
+   "section": "6.5",
+   "definition": "An equilibrium system involving substances in more than one phase where pure solids and pure liquids have constant concentrations and are omitted from equilibrium expressions.",
+   "formula": "Kc = [CO2] for thermal decomposition of CaCO3(s)",
+   "key_idea": "Molar concentrations of pure solids and pure liquids remain fixed and are subsumed inside the equilibrium constant.",
+   "textbook_ref": "kech106.txt lines 415-490",
+   "question_patterns": [
+    "write the expression for Kp and Kc for thermal decomposition of calcium carbonate",
+    "why are pure solids omitted from equilibrium constant expressions",
+    "explain heterogeneous equilibrium in nickel purification with carbon monoxide",
+    "calculate partial pressure of carbon dioxide in solid-gas equilibrium",
+    "determine equilibrium constant expression for solid metal oxide acid reactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify phases of all chemical species in balanced equation",
+     "explain": "classify each species as solid, liquid, gas, or aqueous"
+    },
+    {
+     "step": 2,
+     "action": "exclude pure solid and pure liquid species from expression",
+     "explain": "retain only gaseous and aqueous concentration or partial pressure terms"
+    },
+    {
+     "step": 3,
+     "action": "Write the equilibrium constant expression with remaining species",
+     "explain": "Construct the Kc or Kp expression using only the gaseous and aqueous species, with stoichiometric coefficients as exponents."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.6.1",
+   "title": "Reaction Quotient Qc and Direction of Reaction",
+   "section": "6.6.2",
+   "definition": "A concentration ratio calculated using the equilibrium law formula at any arbitrary stage of a reaction to evaluate progress toward equilibrium.",
+   "formula": "Qc = ([C]**c * [D]**d) / ([A]**a * [B]**b)",
+   "key_idea": "Comparing Qc with Kc determines whether net reaction proceeds forward (Qc < Kc), backward (Qc > Kc), or is at equilibrium (Qc = Kc).",
+   "textbook_ref": "kech106.txt lines 510-570",
+   "question_patterns": [
+    "calculate reaction quotient Qc and predict direction of reaction in Class 11 chemistry",
+    "determine whether forward or reverse reaction occurs by comparing Qc and Kc",
+    "find Qc at arbitrary reaction concentrations",
+    "predict shift in reaction when initial concentrations are given",
+    "what is the significance of reaction quotient in chemical equilibrium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate product arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of products raised to stoichiometric coefficients",
+     "compute": "(conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of reactants raised to stoichiometric coefficients",
+     "compute": "(conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product term by reactant term to calculate Qc",
+     "explain": "reaction quotient Qc equals numerator divided by denominator",
+     "compute": "num / den"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving reaction quotient qc and direction of reaction.",
+     "solution": "Step 1: calculate product arbitrary concentrations term. Step 2: calculate reactant arbitrary concentrations term. Step 3: divide product term by reactant term to calculate Qc. Working: (conc_c ** c) * (conc_d ** d), (conc_a ** a) * (conc_b ** b), num / den.",
+     "answer": "Reaction Quotient Qc and Direction of Reaction applied step by step gives the required result."
+    },
+    {
+     "question": "Apply reaction quotient qc and direction of reaction to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate product arbitrary concentrations term. Step 2: calculate reactant arbitrary concentrations term. Step 3: divide product term by reactant term to calculate Qc. Working: (conc_c ** c) * (conc_d ** d), (conc_a ** a) * (conc_b ** b), num / den.",
+     "answer": "The method of reaction quotient qc and direction of reaction leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.7.1",
+   "title": "Standard Gibbs Energy Change and Equilibrium Constant",
+   "section": "6.7",
+   "definition": "Thermodynamic equation directly connecting the standard free energy change of a reaction with its numerical equilibrium constant.",
+   "formula": "delta_G = -1 * R * T * ln_Kc",
+   "key_idea": "Spontaneous forward reactions have negative standard Gibbs energy changes corresponding to equilibrium constants greater than one.",
+   "textbook_ref": "kech106.txt lines 615-670",
+   "question_patterns": [
+    "calculate standard Gibbs energy change from equilibrium constant Kc",
+    "find standard delta G for glucose phosphorylation given Kc at 298 K",
+    "determine standard free energy change for sucrose hydrolysis",
+    "how is thermodynamic spontaneity related to the value of equilibrium constant K",
+    "compute delta G standard using gas constant temperature and natural logarithm of K"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply negative one, gas constant R, temperature T, and natural log of Kc",
+     "explain": "standard Gibbs energy equals -R * T * ln(Kc)",
+     "compute": "-1 * r * t * ln_kc"
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the sign of the Gibbs energy change",
+     "explain": "A negative delta G indicates a spontaneous forward reaction with Kc greater than 1; a positive value indicates Kc less than 1."
+    },
+    {
+     "step": 3,
+     "action": "Report the result in standard units of J/mol or kJ/mol",
+     "explain": "Express the standard Gibbs energy change in appropriate energy units for clarity and comparison.",
+     "compute": "energy / 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving standard gibbs energy change and equilibrium constant.",
+     "solution": "Step 1: multiply negative one, gas constant R, temperature T, and natural log of Kc. Step 2: Evaluate the sign of the Gibbs energy change. Step 3: Report the result in standard units of J/mol or kJ/mol. Working: -1 * r * t * ln_kc, energy / 1000.",
+     "answer": "Standard Gibbs Energy Change and Equilibrium Constant applied step by step gives the required result."
+    },
+    {
+     "question": "Apply standard gibbs energy change and equilibrium constant to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply negative one, gas constant R, temperature T, and natural log of Kc. Step 2: Evaluate the sign of the Gibbs energy change. Step 3: Report the result in standard units of J/mol or kJ/mol. Working: -1 * r * t * ln_kc, energy / 1000.",
+     "answer": "The method of standard gibbs energy change and equilibrium constant leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.8.1",
+   "title": "Le Chatelier's Principle and Equilibrium Shifts",
+   "section": "6.8",
+   "definition": "Rule stating that when a system at equilibrium experiences a stress in concentration, pressure, or temperature, it adjusts to counteract that stress.",
+   "formula": "Qc < Kc leads to forward shift; Qc > Kc leads to reverse shift",
+   "key_idea": "Equilibrium position shifts to relieve imposed stresses from species addition/removal, volume changes, or thermal alterations.",
+   "textbook_ref": "kech106.txt lines 675-815",
+   "question_patterns": [
+    "state Le Chatelier's principle and explain concentration effect on equilibrium",
+    "how does increasing pressure shift gaseous reaction equilibrium",
+    "describe temperature effect on exothermic and endothermic equilibria",
+    "why does adding an inert gas at constant volume not shift equilibrium",
+    "what is the role of a catalyst on chemical equilibrium state and rate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify applied disturbance or stress to equilibrium system",
+     "explain": "determine if stress is concentration change, pressure increase, or heating"
+    },
+    {
+     "step": 2,
+     "action": "apply Le Chatelier's principle to find shift direction",
+     "explain": "system shifts in direction that consumes added substance or absorbs added heat"
+    },
+    {
+     "step": 3,
+     "action": "Predict the new equilibrium composition",
+     "explain": "Determine how concentrations or partial pressures of reactants and products change after the system adjusts to counteract the applied stress."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.9.1",
+   "title": "Ionic Product of Water and Ion Concentrations",
+   "section": "6.11.1",
+   "definition": "The constant auto-ionization product of hydronium and hydroxide ion concentrations in aqueous solutions at specified temperature.",
+   "formula": "OH_conc = Kw / H_conc",
+   "key_idea": "At 298 K, Kw equals 1.0 * 10^-14, governing inverse proportion between hydrogen and hydroxyl ion concentrations.",
+   "textbook_ref": "kech106.txt lines 930-975",
+   "question_patterns": [
+    "calculate hydroxide ion concentration from hydrogen ion concentration using Kw",
+    "determine H+ concentration in pure water at 298 K",
+    "what is the value of ionic product of water Kw at room temperature",
+    "how to classify aqueous solution as acidic basic or neutral using ion concentrations",
+    "find pOH when hydrogen ion concentration is specified"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide ionic product Kw by hydrogen ion concentration",
+     "explain": "hydroxide concentration equals Kw divided by H+ concentration",
+     "compute": "kw / h_conc"
+    },
+    {
+     "step": 2,
+     "action": "Calculate pH from the hydrogen ion concentration",
+     "explain": "pH is defined as the negative logarithm (base 10) of the hydrogen ion molarity."
+    },
+    {
+     "step": 3,
+     "action": "Classify the solution as acidic, basic, or neutral",
+     "explain": "If pH is less than 7 the solution is acidic, if greater than 7 it is basic, and if equal to 7 it is neutral at 298 K."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving ionic product of water and ion concentrations.",
+     "solution": "Step 1: divide ionic product Kw by hydrogen ion concentration. Step 2: Calculate pH from the hydrogen ion concentration. Step 3: Classify the solution as acidic, basic, or neutral. Working: kw / h_conc.",
+     "answer": "Ionic Product of Water and Ion Concentrations applied step by step gives the required result."
+    },
+    {
+     "question": "Apply ionic product of water and ion concentrations to a fresh example and interpret the result.",
+     "solution": "Step 1: divide ionic product Kw by hydrogen ion concentration. Step 2: Calculate pH from the hydrogen ion concentration. Step 3: Classify the solution as acidic, basic, or neutral. Working: kw / h_conc.",
+     "answer": "The method of ionic product of water and ion concentrations leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.106.10.1",
+   "title": "Ionization Constant and Dissociation of Weak Acids",
+   "section": "6.11.3",
+   "definition": "Equilibrium formulation describing partial ionization of weak monobasic acids in water to yield hydronium ions and conjugate bases.",
+   "formula": "H_conc = sqrt(Ka * c)",
+   "key_idea": "Hydronium concentration for a weak acid equals the square root of the product of acid dissociation constant Ka and concentration c.",
+   "textbook_ref": "kech106.txt lines 1025-1110",
+   "question_patterns": [
+    "calculate hydrogen ion concentration of weak acid solution from Ka and c",
+    "find degree of dissociation alpha for weak monobasic acid",
+    "determine percent dissociation of hypochlorous acid or hydrofluoric acid",
+    "calculate Ka from initial concentration and equilibrium pH of weak acid",
+    "compute hydronium molarity and degree of ionization in Class 11 ionic equilibrium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply acid dissociation constant Ka by initial acid molar concentration c",
+     "explain": "calculate product term under square root for weak acid approximation",
+     "compute": "ka * c"
+    },
+    {
+     "step": 2,
+     "action": "take square root of the product to obtain hydronium ion concentration",
+     "explain": "H+ concentration equals square root of Ka times c",
+     "compute": "sqrt(prod)"
+    },
+    {
+     "step": 3,
+     "action": "divide hydronium ion concentration by initial concentration and multiply by 100",
+     "explain": "calculate percent ionization of weak acid",
+     "compute": "(h_conc / c) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving ionization constant and dissociation of weak acids.",
+     "solution": "Step 1: multiply acid dissociation constant Ka by initial acid molar concentration c. Step 2: take square root of the product to obtain hydronium ion concentration. Step 3: divide hydronium ion concentration by initial concentration and multiply by 100. Working: ka * c, sqrt(prod), (h_conc / c) * 100.",
+     "answer": "Ionization Constant and Dissociation of Weak Acids applied step by step gives the required result."
+    },
+    {
+     "question": "Apply ionization constant and dissociation of weak acids to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply acid dissociation constant Ka by initial acid molar concentration c. Step 2: take square root of the product to obtain hydronium ion concentration. Step 3: divide hydronium ion concentration by initial concentration and multiply by 100. Working: ka * c, sqrt(prod), (h_conc / c) * 100.",
+     "answer": "The method of ionization constant and dissociation of weak acids leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.5",
+   "title": "Relation Between Ka and Kb for a Conjugate Pair",
+   "section": "6.11.5",
+   "definition": "The product of the acid dissociation constant of a weak acid and the base dissociation constant of its conjugate base equals the ionic product of water.",
+   "formula": "pKa + pKb = 14",
+   "key_idea": "Stronger acids produce weaker conjugate bases and vice versa.",
+   "textbook_ref": "kech106.txt lines 30-70",
+   "question_patterns": [
+    "calculate pKb from given pKa in Class 11 equilibrium",
+    "find the ionization constant of conjugate base given Ka",
+    "determine pKa of conjugate acid given pKb",
+    "what is the relation between Ka and Kb for conjugate acid base pair",
+    "compute the pKb value when pKa is known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract pKa from pKw",
+     "explain": "pKb and pKa sum up to 14 at standard conditions",
+     "compute": "14 - pka"
+    },
+    {
+     "step": 2,
+     "action": "Calculate Kb from pKb using the antilogarithm",
+     "explain": "Kb is 10 raised to the power of negative pKb, giving the base dissociation constant.",
+     "compute": "10 ** (-pkb)"
+    },
+    {
+     "step": 3,
+     "action": "Verify the relationship Ka * Kb = Kw",
+     "explain": "Confirm that the product of the acid dissociation constant and the base dissociation constant equals the ionic product of water (1.0 x 10^-14 at 298 K).",
+     "compute": "ka * kb"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving relation between ka and kb for a conjugate pair.",
+     "solution": "Step 1: subtract pKa from pKw. Step 2: Calculate Kb from pKb using the antilogarithm. Step 3: Verify the relationship Ka * Kb = Kw. Working: 14 - pka, 10 ** (-pkb), ka * kb.",
+     "answer": "Relation Between Ka and Kb for a Conjugate Pair applied step by step gives the required result."
+    },
+    {
+     "question": "Apply relation between ka and kb for a conjugate pair to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract pKa from pKw. Step 2: Calculate Kb from pKb using the antilogarithm. Step 3: Verify the relationship Ka * Kb = Kw. Working: 14 - pka, 10 ** (-pkb), ka * kb.",
+     "answer": "The method of relation between ka and kb for a conjugate pair leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.6",
+   "title": "Ionization of Polybasic Acids and Polyacidic Bases",
+   "section": "6.11.6",
+   "definition": "Acids capable of donating multiple protons ionize in sequential steps with progressively smaller dissociation constants.",
+   "formula": "Ka1 > Ka2 > Ka3",
+   "key_idea": "Electrostatic forces make removing a positive proton from a negatively charged ion progressively more difficult.",
+   "textbook_ref": "kech106.txt lines 71-115",
+   "question_patterns": [
+    "explain why Ka1 is greater than Ka2 for polyprotic acids in Class 11",
+    "write the step-wise dissociation reactions for a dibasic acid",
+    "why does second ionization constant decrease for oxalic acid",
+    "describe polybasic acids and their ionization behavior",
+    "compare first and second ionization constants of hydrogen sulfide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify polyprotic dissociation steps",
+     "explain": "First proton dissociates from neutral molecule, subsequent protons dissociate from negatively charged anions."
+    },
+    {
+     "step": 2,
+     "action": "compare electrostatic attraction",
+     "explain": "Greater electrostatic attraction on remaining protons reduces higher-order dissociation constants."
+    },
+    {
+     "step": 3,
+     "action": "Write the stepwise equilibrium expressions and compare Ka values",
+     "explain": "For each successive dissociation step, write the Ka expression and confirm that Ka1 > Ka2 > Ka3 due to increasing difficulty of proton removal."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.7",
+   "title": "Factors Affecting Acid Strength",
+   "section": "6.11.7",
+   "definition": "Acid strength is governed primarily by the bond strength and bond polarity of the hydrogen-element bond.",
+   "formula": "HF < HCl < HBr < HI",
+   "key_idea": "Down a group bond strength dominates, while across a period bond polarity dominates acid strength.",
+   "textbook_ref": "kech106.txt lines 116-150",
+   "question_patterns": [
+    "explain the trend of acidic strength of hydrides down group 17",
+    "which factor determines acid strength across a period in Class 11 chemistry",
+    "compare acidity of methane ammonia water and hydrofluoric acid",
+    "why is hydroiodic acid stronger than hydrofluoric acid",
+    "discuss structural factors influencing hydrogen acid strength"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate periodic trend",
+     "explain": "Down a group, atomic radius increases and H-A bond enthalpy decreases, enhancing acid strength."
+    },
+    {
+     "step": 2,
+     "action": "evaluate electronegativity",
+     "explain": "Across a period, electronegativity difference increases H-A bond polarity, enhancing acid strength."
+    },
+    {
+     "step": 3,
+     "action": "Compare acid strength by combining both factors",
+     "explain": "For elements in the same period, bond polarity dominates; for elements in the same group, bond strength dominates. Combine both to rank acid strength."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.8",
+   "title": "Common Ion Effect in Ionization",
+   "section": "6.11.8",
+   "definition": "Suppression of the degree of dissociation of a weak electrolyte upon adding a soluble compound containing a common ion.",
+   "formula": "Le Chatelier principle equilibrium shift",
+   "key_idea": "Adding an ion already present shifts the dissociation equilibrium toward the un-ionized form.",
+   "textbook_ref": "kech106.txt lines 151-185",
+   "question_patterns": [
+    "define common ion effect in weak acid dissociation in Class 11 chemistry",
+    "how does adding sodium acetate affect acetic acid ionization",
+    "explain equilibrium shift on adding chloride ions to ammonium chloride",
+    "what is the effect of common ion on hydrogen ion concentration",
+    "illustrate common ion effect using weak acid example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply Le Chatelier principle",
+     "explain": "Increasing conjugate ion concentration shifts equilibrium to favor reactant formation."
+    },
+    {
+     "step": 2,
+     "action": "Identify the common ion shared by the added compound and the weak electrolyte",
+     "explain": "Determine which ion is already present in the dissociation equilibrium of the weak electrolyte and is also supplied by the added soluble salt."
+    },
+    {
+     "step": 3,
+     "action": "Quantify the reduction in degree of dissociation",
+     "explain": "The added common ion shifts the equilibrium toward the undissociated form, decreasing the concentration of the other ion and reducing the percent ionization."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.9",
+   "title": "pH of Salts of Weak Acid and Weak Base",
+   "section": "6.11.9",
+   "definition": "Salts formed from weak acids and weak bases undergo both cationic and anionic hydrolysis to yield pH dependent on pKa and pKb.",
+   "formula": "pH = 7 + 0.5 * (pKa - pKb)",
+   "key_idea": "The pH of a weak acid and weak base salt solution is independent of concentration.",
+   "textbook_ref": "kech106.txt lines 186-230",
+   "question_patterns": [
+    "calculate pH of ammonium acetate solution given pKa and pKb in Class 11 chemistry",
+    "find pH of a salt derived from weak acid and weak base",
+    "compute pH of weak acid weak base salt",
+    "determine whether ammonium acetate solution is acidic basic or neutral",
+    "what is the formula for pH of hydrolyzed weak acid weak base salt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate difference between pKa and pKb",
+     "explain": "Take the difference between pKa of weak acid and pKb of weak base",
+     "compute": "pka - pkb"
+    },
+    {
+     "step": 2,
+     "action": "calculate pH",
+     "explain": "Add half of the difference to 7",
+     "compute": "7 + 0.5 * diff"
+    },
+    {
+     "step": 3,
+     "action": "Classify the solution as acidic, basic, or neutral based on pH",
+     "explain": "If pH is less than 7 the salt solution is acidic, if greater than 7 it is basic, and if equal to 7 it is neutral, depending on the relative strengths of the parent acid and base."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving ph of salts of weak acid and weak base.",
+     "solution": "Step 1: calculate difference between pKa and pKb. Step 2: calculate pH. Step 3: Classify the solution as acidic, basic, or neutral based on pH. Working: pka - pkb, 7 + 0.5 * diff.",
+     "answer": "pH of Salts of Weak Acid and Weak Base applied step by step gives the required result."
+    },
+    {
+     "question": "Apply ph of salts of weak acid and weak base to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate difference between pKa and pKb. Step 2: calculate pH. Step 3: Classify the solution as acidic, basic, or neutral based on pH. Working: pka - pkb, 7 + 0.5 * diff.",
+     "answer": "The method of ph of salts of weak acid and weak base leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.12.0",
+   "title": "Buffer Solutions and pH Resistance",
+   "section": "6.12",
+   "definition": "Solutions containing a conjugate weak acid-base pair that resist significant pH shifts upon small additions of acid or base.",
+   "formula": "pH = pKa + log10(salt / acid)",
+   "key_idea": "Buffer capacity relies on maintaining near-equal molar quantities of weak acid and its salt.",
+   "textbook_ref": "kech106.txt lines 231-285",
+   "question_patterns": [
+    "explain buffer action and buffer solutions in Class 11 chemistry",
+    "how to design an acidic buffer of desired pH",
+    "state Henderson Hasselbalch equation for acidic buffer",
+    "why does pH of a buffer remain unchanged on dilution",
+    "distinguish between acidic buffer and basic buffer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify buffer components",
+     "explain": "An acidic buffer consists of a weak acid and its salt with a strong base."
+    },
+    {
+     "step": 2,
+     "action": "apply Henderson Hasselbalch relationship",
+     "explain": "pH equals pKa plus the logarithm of the ratio of salt concentration to acid concentration."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate buffer capacity and pH resistance",
+     "explain": "Buffer capacity is maximum when salt and acid concentrations are nearly equal; the solution resists pH change upon small additions of acid or base."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.1a",
+   "title": "Molar Solubility of 1:1 Sparingly Soluble Salts",
+   "section": "6.13.1",
+   "definition": "The equilibrium constant representing the dissolution of a binary sparingly soluble salt into equal concentrations of cations and anions.",
+   "formula": "solubility = sqrt(Ksp)",
+   "key_idea": "For a 1:1 salt, molar solubility is the square root of its solubility product constant.",
+   "textbook_ref": "kech106.txt lines 286-330",
+   "question_patterns": [
+    "calculate molar solubility of 1 to 1 salt given Ksp in Class 11",
+    "find solubility S of barium sulfate given solubility product",
+    "determine molar concentration of ions in saturated solution of binary salt",
+    "compute molar solubility from Ksp for 1:1 electrolyte",
+    "what is the molar solubility of silver chloride with known Ksp"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take square root of solubility product",
+     "explain": "Molar solubility S equals square root of Ksp for MX stoichiometry",
+     "compute": "sqrt(ksp)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the ion concentrations from molar solubility",
+     "explain": "For a 1:1 salt MX, both cation and anion concentrations equal the molar solubility S.",
+     "compute": "solubility"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result by substituting back into the Ksp expression",
+     "explain": "Confirm that the product of the ion concentrations equals the given Ksp, validating the calculated solubility.",
+     "compute": "cation_conc * solubility"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving molar solubility of 1:1 sparingly soluble salts.",
+     "solution": "Step 1: take square root of solubility product. Step 2: Calculate the ion concentrations from molar solubility. Step 3: Verify the result by substituting back into the Ksp expression. Working: sqrt(ksp), solubility, cation_conc * solubility.",
+     "answer": "Molar Solubility of 1:1 Sparingly Soluble Salts applied step by step gives the required result."
+    },
+    {
+     "question": "Apply molar solubility of 1:1 sparingly soluble salts to a fresh example and interpret the result.",
+     "solution": "Step 1: take square root of solubility product. Step 2: Calculate the ion concentrations from molar solubility. Step 3: Verify the result by substituting back into the Ksp expression. Working: sqrt(ksp), solubility, cation_conc * solubility.",
+     "answer": "The method of molar solubility of 1:1 sparingly soluble salts leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.1b",
+   "title": "Molar Solubility of MX2 Type Sparingly Soluble Salts",
+   "section": "6.13.1",
+   "definition": "Solubility product relationship for salts dissociating into one divalent ion and two monovalent ions.",
+   "formula": "solubility = (Ksp / 4) ** (1/3)",
+   "key_idea": "For MX2 type salt, Ksp equals 4 times the cube of molar solubility.",
+   "textbook_ref": "kech106.txt lines 331-360",
+   "question_patterns": [
+    "calculate molar solubility of MX2 type salt given Ksp",
+    "find solubility of nickel hydroxide in pure water",
+    "determine S for lead chloride given its Ksp value",
+    "compute solubility of 1 to 2 electrolyte from solubility product",
+    "calculate molarity of saturated solution for triatomic salt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide Ksp by 4",
+     "explain": "Ksp divided by stoichiometric constant 4",
+     "compute": "ksp / 4"
+    },
+    {
+     "step": 2,
+     "action": "take cube root",
+     "explain": "Cube root of the ratio gives molar solubility S",
+     "compute": "ratio ** (1/3)"
+    },
+    {
+     "step": 3,
+     "action": "Calculate individual ion concentrations from molar solubility",
+     "explain": "For an MX2 salt, the cation concentration equals S and the anion concentration equals 2S, where S is the molar solubility.",
+     "compute": "solubility"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving molar solubility of mx2 type sparingly soluble salts.",
+     "solution": "Step 1: divide Ksp by 4. Step 2: take cube root. Step 3: Calculate individual ion concentrations from molar solubility. Working: ksp / 4, ratio ** (1/3), solubility.",
+     "answer": "Molar Solubility of MX2 Type Sparingly Soluble Salts applied step by step gives the required result."
+    },
+    {
+     "question": "Apply molar solubility of mx2 type sparingly soluble salts to a fresh example and interpret the result.",
+     "solution": "Step 1: divide Ksp by 4. Step 2: take cube root. Step 3: Calculate individual ion concentrations from molar solubility. Working: ksp / 4, ratio ** (1/3), solubility.",
+     "answer": "The method of molar solubility of mx2 type sparingly soluble salts leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.2",
+   "title": "Common Ion Effect on Salt Solubility",
+   "section": "6.13.2",
+   "definition": "Reduction in molar solubility of a sparingly soluble salt caused by the presence of a soluble compound yielding a shared ion.",
+   "formula": "solubility = Ksp / (common_ion_conc ** 2)",
+   "key_idea": "High concentration of common ion suppresses salt dissociation significantly.",
+   "textbook_ref": "kech106.txt lines 361-400",
+   "question_patterns": [
+    "calculate solubility of nickel hydroxide in sodium hydroxide solution",
+    "find molar solubility of sparingly soluble salt in presence of common ion",
+    "determine solubility reduction due to common ion effect in Class 11",
+    "compute solubility of MX2 salt in solution with common anion",
+    "how does common ion concentration change solubility of salt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the common ion concentration",
+     "explain": "The common anion concentration is squared for MX2 salt",
+     "compute": "common_ion_conc ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide Ksp by squared common ion concentration",
+     "explain": "Molar solubility S equals Ksp divided by denominator",
+     "compute": "ksp / denom"
+    },
+    {
+     "step": 3,
+     "action": "Compare solubility with and without the common ion",
+     "explain": "Confirm that the calculated solubility in the presence of the common ion is significantly lower than the solubility in pure water, demonstrating the common ion effect."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving common ion effect on salt solubility.",
+     "solution": "Step 1: square the common ion concentration. Step 2: divide Ksp by squared common ion concentration. Step 3: Compare solubility with and without the common ion. Working: common_ion_conc ** 2, ksp / denom.",
+     "answer": "Common Ion Effect on Salt Solubility applied step by step gives the required result."
+    },
+    {
+     "question": "Apply common ion effect on salt solubility to a fresh example and interpret the result.",
+     "solution": "Step 1: square the common ion concentration. Step 2: divide Ksp by squared common ion concentration. Step 3: Compare solubility with and without the common ion. Working: common_ion_conc ** 2, ksp / denom.",
+     "answer": "The method of common ion effect on salt solubility leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Problem 6.1",
+   "concept": "kech.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "The concentrations obtained for formation of NH3 from N2 and H2 at 500K are [N2] = {A} M, [H2] = {B} M and [NH3] = {C} M. Calculate Kc.",
+   "extracted_variables": {
+    "C": 0.012,
+    "c": 2,
+    "D": 1.0,
+    "d": 0,
+    "A": 0.015,
+    "a": 1,
+    "B": 0.03,
+    "b": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of products raised to their equation coefficients",
+     "compute": "num = (conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of reactants raised to their equation coefficients",
+     "compute": "den = (conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product numerator term by reactant denominator term",
+     "explain": "equilibrium constant Kc equals numerator divided by denominator",
+     "compute": "kc = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Problem 6.2",
+   "concept": "kech.106.3.1",
+   "question_type": "compute",
+   "question_pattern": "At equilibrium, concentrations of N2 = {A} M, O2 = {B} M and NO = {C} M at 800K. What is Kc for N2 + O2 <-> 2NO?",
+   "extracted_variables": {
+    "C": 0.0028,
+    "c": 2,
+    "D": 1.0,
+    "d": 0,
+    "A": 0.003,
+    "a": 1,
+    "B": 0.0042,
+    "b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of products raised to their equation coefficients",
+     "compute": "num = (conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant concentrations term raised to stoichiometric powers",
+     "explain": "multiply molarities of reactants raised to their equation coefficients",
+     "compute": "den = (conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product numerator term by reactant denominator term",
+     "explain": "equilibrium constant Kc equals numerator divided by denominator",
+     "compute": "kc = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Problem 6.5",
+   "concept": "kech.106.4.1",
+   "question_type": "compute",
+   "question_pattern": "For reaction 2NOCl(g) <-> 2NO(g) + Cl2(g), Kc is {Kc} at {T} K. Calculate Kp for the reaction.",
+   "extracted_variables": {
+    "Kc": 3.75e-06,
+    "R": 0.0831,
+    "T": 1069,
+    "delta_n": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply gas constant R by absolute temperature T",
+     "explain": "compute the gas law thermal product RT",
+     "compute": "rt = r * t"
+    },
+    {
+     "step": 2,
+     "action": "raise RT factor to the power of delta_n",
+     "explain": "delta_n is gaseous product moles minus gaseous reactant moles",
+     "compute": "factor = rt ** delta_n"
+    },
+    {
+     "step": 3,
+     "action": "multiply Kc by the calculated conversion factor",
+     "explain": "Kp equals Kc multiplied by (RT)^delta_n",
+     "compute": "kp = kc * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Problem 6.5 modified",
+   "concept": "kech.106.4.1",
+   "question_type": "compute",
+   "question_pattern": "For ammonia synthesis N2(g) + 3H2(g) <-> 2NH3(g), Kc is {Kc} at {T} K. Calculate Kp.",
+   "extracted_variables": {
+    "Kc": 0.5,
+    "R": 0.0831,
+    "T": 500,
+    "delta_n": -2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply gas constant R by absolute temperature T",
+     "explain": "compute the gas law thermal product RT",
+     "compute": "rt = r * t"
+    },
+    {
+     "step": 2,
+     "action": "raise RT factor to the power of delta_n",
+     "explain": "delta_n is gaseous product moles minus gaseous reactant moles",
+     "compute": "factor = rt ** delta_n"
+    },
+    {
+     "step": 3,
+     "action": "multiply Kc by the calculated conversion factor",
+     "explain": "Kp equals Kc multiplied by (RT)^delta_n",
+     "compute": "kp = kc * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Problem 6.7",
+   "concept": "kech.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "For 2A <-> B + C, concentrations are [A] = {A} M, [B] = {C} M, [C] = {D} M. Calculate Qc.",
+   "extracted_variables": {
+    "C": 0.0003,
+    "c": 1,
+    "D": 0.0003,
+    "d": 1,
+    "A": 0.0003,
+    "a": 2,
+    "B": 1.0,
+    "b": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of products raised to stoichiometric coefficients",
+     "compute": "num = (conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of reactants raised to stoichiometric coefficients",
+     "compute": "den = (conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product term by reactant term to calculate Qc",
+     "explain": "reaction quotient Qc equals numerator divided by denominator",
+     "compute": "Qc = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Section 6.6.2 Example",
+   "concept": "kech.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "For H2 + I2 <-> 2HI, concentrations at time t are [H2] = {A} M, [I2] = {B} M, [HI] = {C} M. Calculate Qc.",
+   "extracted_variables": {
+    "C": 0.4,
+    "c": 2,
+    "D": 1.0,
+    "d": 0,
+    "A": 0.1,
+    "a": 1,
+    "B": 0.2,
+    "b": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of products raised to stoichiometric coefficients",
+     "compute": "num = (conc_c ** c) * (conc_d ** d)"
+    },
+    {
+     "step": 2,
+     "action": "calculate reactant arbitrary concentrations term",
+     "explain": "multiply arbitrary molarities of reactants raised to stoichiometric coefficients",
+     "compute": "den = (conc_a ** a) * (conc_b ** b)"
+    },
+    {
+     "step": 3,
+     "action": "divide product term by reactant term to calculate Qc",
+     "explain": "reaction quotient Qc equals numerator divided by denominator",
+     "compute": "Qc = num / den"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Problem 6.11",
+   "concept": "kech.106.7.1",
+   "question_type": "compute",
+   "question_pattern": "Sucrose hydrolysis has equilibrium constant Kc = 2*10^13 (ln_Kc = {ln_Kc}) at {T} K. Calculate standard Gibbs energy change in J/mol.",
+   "extracted_variables": {
+    "R": 8.314,
+    "T": 300,
+    "ln_Kc": 30.627
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply negative one, gas constant R, temperature T, and natural log of Kc",
+     "explain": "standard Gibbs energy equals -R * T * ln(Kc)",
+     "compute": "energy = -1 * r * t * ln_kc"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Problem 6.10",
+   "concept": "kech.106.7.1",
+   "question_type": "compute",
+   "question_pattern": "Phosphorylation of glucose has ln_Kc = {ln_Kc} at {T} K. Calculate standard Gibbs energy change in J/mol.",
+   "extracted_variables": {
+    "R": 8.314,
+    "T": 298,
+    "ln_Kc": -5.569
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply negative one, gas constant R, temperature T, and natural log of Kc",
+     "explain": "standard Gibbs energy equals -R * T * ln(Kc)",
+     "compute": "energy = -1 * r * t * ln_kc"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Section 6.11.1 Practice",
+   "concept": "kech.106.9.1",
+   "question_type": "compute",
+   "question_pattern": "Find the hydroxide ion concentration in an aqueous solution where H+ concentration is {H_conc} M and Kw is {Kw}.",
+   "extracted_variables": {
+    "Kw": 1e-14,
+    "H_conc": 0.001
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide ionic product Kw by hydrogen ion concentration",
+     "explain": "hydroxide concentration equals Kw divided by H+ concentration",
+     "compute": "oh_conc = kw / h_conc"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Problem 6.16 Extension",
+   "concept": "kech.106.9.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate OH- concentration in a soft drink where H+ concentration is {H_conc} M and Kw = {Kw}.",
+   "extracted_variables": {
+    "Kw": 1e-14,
+    "H_conc": 0.0038
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide ionic product Kw by hydrogen ion concentration",
+     "explain": "hydroxide concentration equals Kw divided by H+ concentration",
+     "compute": "oh_conc = kw / h_conc"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Problem 6.20",
+   "concept": "kech.106.10.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate percent dissociation of {c} M hypochlorous acid solution with ionization constant Ka = {Ka}.",
+   "extracted_variables": {
+    "Ka": 2.5e-05,
+    "c": 0.08
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply acid dissociation constant Ka by initial acid molar concentration c",
+     "explain": "calculate product term under square root for weak acid approximation",
+     "compute": "prod = ka * c"
+    },
+    {
+     "step": 2,
+     "action": "take square root of the product to obtain hydronium ion concentration",
+     "explain": "H+ concentration equals square root of Ka times c",
+     "compute": "h_conc = sqrt(prod)"
+    },
+    {
+     "step": 3,
+     "action": "divide hydronium ion concentration by initial concentration and multiply by 100",
+     "explain": "calculate percent ionization of weak acid",
+     "compute": "pct_diss = (h_conc / c) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Problem 6.18",
+   "concept": "kech.106.10.1",
+   "question_type": "compute",
+   "question_pattern": "Find percent ionization for {c} M hydrofluoric acid solution given Ka = {Ka}.",
+   "extracted_variables": {
+    "Ka": 0.00032,
+    "c": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply acid dissociation constant Ka by initial acid molar concentration c",
+     "explain": "calculate product term under square root for weak acid approximation",
+     "compute": "prod = ka * c"
+    },
+    {
+     "step": 2,
+     "action": "take square root of the product to obtain hydronium ion concentration",
+     "explain": "H+ concentration equals square root of Ka times c",
+     "compute": "h_conc = sqrt(prod)"
+    },
+    {
+     "step": 3,
+     "action": "divide hydronium ion concentration by initial concentration and multiply by 100",
+     "explain": "calculate percent ionization of weak acid",
+     "compute": "pct_diss = (h_conc / c) * 100"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "kech106.txt lines 40-50",
+   "concept": "kech.6.11.5",
+   "question_type": "compute",
+   "question_pattern": "The pKa of acetic acid is {pKa}. Calculate the pKb of its conjugate base.",
+   "extracted_variables": {
+    "pKa": 4.76
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract pKa from pKw",
+     "explain": "pKb and pKa sum up to 14 at standard conditions",
+     "compute": "pkb = 14 - pka"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "kech106.txt lines 51-60",
+   "concept": "kech.6.11.5",
+   "question_type": "compute",
+   "question_pattern": "The pKb of ammonia is {pKa}. Find the pKa of ammonium ion.",
+   "extracted_variables": {
+    "pKa": 4.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract pKa from pKw",
+     "explain": "pKb and pKa sum up to 14 at standard conditions",
+     "compute": "pkb = 14 - pka"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "Problem 6.25",
+   "concept": "kech.6.11.9",
+   "question_type": "compute",
+   "question_pattern": "The pKa of acetic acid and pKb of ammonium hydroxide are {pKa} and {pKb} respectively. Calculate the pH of ammonium acetate solution.",
+   "extracted_variables": {
+    "pKa": 4.76,
+    "pKb": 4.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate difference between pKa and pKb",
+     "explain": "Take the difference between pKa of weak acid and pKb of weak base",
+     "compute": "diff = pka - pkb"
+    },
+    {
+     "step": 2,
+     "action": "calculate pH",
+     "explain": "Add half of the difference to 7",
+     "compute": "ph = 7 + 0.5 * diff"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "kech106.txt lines 215-225",
+   "concept": "kech.6.11.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pH of a salt solution formed by weak acid with pKa {pKa} and weak base with pKb {pKb}.",
+   "extracted_variables": {
+    "pKa": 3.14,
+    "pKb": 4.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate difference between pKa and pKb",
+     "explain": "Take the difference between pKa of weak acid and pKb of weak base",
+     "compute": "diff = pka - pkb"
+    },
+    {
+     "step": 2,
+     "action": "calculate pH",
+     "explain": "Add half of the difference to 7",
+     "compute": "ph = 7 + 0.5 * diff"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex5",
+   "source_ref": "kech106.txt lines 300-315",
+   "concept": "kech.6.13.1a",
+   "question_type": "compute",
+   "question_pattern": "The solubility product constant of barium sulphate is {Ksp}. Calculate its molar solubility in pure water.",
+   "extracted_variables": {
+    "Ksp": 1.1e-10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take square root of solubility product",
+     "explain": "Molar solubility S equals square root of Ksp for MX stoichiometry",
+     "compute": "solubility = sqrt(ksp)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex6",
+   "source_ref": "kech106.txt lines 316-325",
+   "concept": "kech.6.13.1a",
+   "question_type": "compute",
+   "question_pattern": "Find the molar solubility of silver cyanide if its Ksp value is {Ksp}.",
+   "extracted_variables": {
+    "Ksp": 6e-17
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take square root of solubility product",
+     "explain": "Molar solubility S equals square root of Ksp for MX stoichiometry",
+     "compute": "solubility = sqrt(ksp)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex7",
+   "source_ref": "kech106.txt lines 340-355",
+   "concept": "kech.6.13.1b",
+   "question_type": "compute",
+   "question_pattern": "Calculate the molar solubility of a sparingly soluble salt MX2 having Ksp equal to {Ksp}.",
+   "extracted_variables": {
+    "Ksp": 3.2e-11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide Ksp by 4",
+     "explain": "Ksp divided by stoichiometric constant 4",
+     "compute": "ratio = ksp / 4"
+    },
+    {
+     "step": 2,
+     "action": "take cube root",
+     "explain": "Cube root of the ratio gives molar solubility S",
+     "compute": "solubility = ratio ** (1/3)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex8",
+   "source_ref": "Problem 6.27",
+   "concept": "kech.6.13.1b",
+   "question_type": "compute",
+   "question_pattern": "The solubility product of nickel hydroxide Ni(OH)2 is {Ksp}. Calculate its solubility in pure water.",
+   "extracted_variables": {
+    "Ksp": 2e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide Ksp by 4",
+     "explain": "Ksp divided by stoichiometric constant 4",
+     "compute": "ratio = ksp / 4"
+    },
+    {
+     "step": 2,
+     "action": "take cube root",
+     "explain": "Cube root of the ratio gives molar solubility S",
+     "compute": "solubility = ratio ** (1/3)"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex9",
+   "source_ref": "Problem 6.28",
+   "concept": "kech.6.13.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the molar solubility of Ni(OH)2 in {common_ion_conc} M NaOH solution given ionic product of Ni(OH)2 is {Ksp}.",
+   "extracted_variables": {
+    "common_ion_conc": 0.1,
+    "Ksp": 2e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the common ion concentration",
+     "explain": "The common anion concentration is squared for MX2 salt",
+     "compute": "denom = common_ion_conc ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide Ksp by squared common ion concentration",
+     "explain": "Molar solubility S equals Ksp divided by denominator",
+     "compute": "solubility = ksp / denom"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "kech106.txt lines 380-395",
+   "concept": "kech.6.13.2",
+   "question_type": "compute",
+   "question_pattern": "Find the solubility of a hydroxide salt MX2 with Ksp {Ksp} in a basic solution of hydroxyl ion concentration {common_ion_conc} M.",
+   "extracted_variables": {
+    "common_ion_conc": 0.05,
+    "Ksp": 1e-12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the common ion concentration",
+     "explain": "The common anion concentration is squared for MX2 salt",
+     "compute": "denom = common_ion_conc ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide Ksp by squared common ion concentration",
+     "explain": "Molar solubility S equals Ksp divided by denominator",
+     "compute": "solubility = ksp / denom"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex106.1",
+   "source_ref": "Problems 6.1-6.3",
+   "questions": [
+    "Calculate the equilibrium constant Kc for N2(g) + 3H2(g) <-> 2NH3(g) when equilibrium concentrations are [N2]=0.015 M, [H2]=0.030 M, [NH3]=0.012 M.",
+    "Calculate Kc for N2(g) + O2(g) <-> 2NO(g) given equilibrium molarities [N2]=0.003 M, [O2]=0.0042 M, [NO]=0.0028 M.",
+    "Compute Kc for PCl5(g) <-> PCl3(g) + Cl2(g) given [PCl5]=1.41 M, [PCl3]=1.59 M, [Cl2]=1.59 M."
+   ]
+  },
+  {
+   "id": "ex106.2",
+   "source_ref": "Problems 6.4-6.6",
+   "questions": [
+    "Calculate equilibrium partial pressures for CO2(g) + C(s) <-> 2CO(g) given initial pressure of CO2 is 0.48 bar and Kp is 3.0.",
+    "Find Kp at 1069 K for 2NOCl(g) <-> 2NO(g) + Cl2(g) if Kc is 3.75*10^-6."
+   ]
+  },
+  {
+   "id": "ex106.3",
+   "source_ref": "Problems 6.7-6.11",
+   "questions": [
+    "Determine reaction direction for 2A <-> B + C with Kc = 2*10^-3 when [A]=[B]=[C]=3*10^-4 M.",
+    "Calculate standard Gibbs energy change for sucrose hydrolysis given Kc = 2*10^13 at 300 K.",
+    "Find standard Gibbs energy for glucose phosphorylation given ln(Kc) = -5.569 at 298 K."
+   ]
+  },
+  {
+   "id": "ex106.4",
+   "source_ref": "Problems 6.12-6.15",
+   "questions": [
+    "Write conjugate bases for Brönsted acids HF, H2SO4, and HCO3-.",
+    "Write conjugate acids for Brönsted bases NH2-, NH3, and HCOO-.",
+    "Classify HO-, F-, H+, and BCl3 into Lewis acids and Lewis bases."
+   ]
+  },
+  {
+   "id": "ex106.5",
+   "source_ref": "Problems 6.16-6.20",
+   "questions": [
+    "Calculate pH of a soft drink sample with hydrogen ion concentration 3.8*10^-3 M.",
+    "Determine degree of ionization and pH for 0.02 M HF solution with Ka = 3.2*10^-4.",
+    "Calculate percent dissociation and pH of 0.08 M hypochlorous acid solution with Ka = 2.5*10^-5."
+   ]
+  },
+  {
+   "id": "p2_ex6.1",
+   "source_ref": "kech106.txt lines 415-420",
+   "questions": [
+    "A liquid is in equilibrium with its vapour in a sealed container at a fixed temperature. The volume of the container is suddenly increased. a) What is the initial effect of the change on vapour pressure? b) How do rates of evaporation and condensation change initially? c) What happens when equilibrium is restored finally and what will be the final vapour pressure?"
+   ]
+  },
+  {
+   "id": "p2_ex6.2",
+   "source_ref": "kech106.txt lines 421-425",
+   "questions": [
+    "What is Kc for the following equilibrium when the equilibrium concentration of each substance is: [SO2]= 0.60M, [O2] = 0.82M and [SO3] = 1.90M ? 2SO2(g) + O2(g) -> 2SO3(g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.3",
+   "source_ref": "kech106.txt lines 426-430",
+   "questions": [
+    "At a certain temperature and total pressure of 10^5 Pa, iodine vapour contains 40% by volume of I atoms. I2(g) -> 2I(g). Calculate Kp for the equilibrium."
+   ]
+  },
+  {
+   "id": "p2_ex6.4",
+   "source_ref": "kech106.txt lines 431-440",
+   "questions": [
+    "Write the expression for the equilibrium constant, Kc for each of the following reactions: (i) 2NOCl (g) -> 2NO (g) + Cl2 (g) (ii) 2Cu(NO3)2 (s) -> 2CuO (s) + 4NO2 (g) + O2 (g) (iii) CH3COOC2H5 (aq) + H2O(l) -> CH3COOH (aq) + C2H5OH (aq) (iv) Fe3+ (aq) + 3OH- (aq) -> Fe(OH)3 (s) (v) I2 (s) + 5F2 -> 2IF5"
+   ]
+  },
+  {
+   "id": "p2_ex6.5",
+   "source_ref": "kech106.txt lines 441-445",
+   "questions": [
+    "Find out the value of Kc for each of the following equilibria from the value of Kp: (i) 2NOCl (g) -> 2NO (g) + Cl2 (g); Kp = 1.8 x 10^-2 at 500 K (ii) CaCO3 (s) -> CaO(s) + CO2 (g); Kp = 167 at 1073 K"
+   ]
+  },
+  {
+   "id": "p2_ex6.6",
+   "source_ref": "kech106.txt lines 446-450",
+   "questions": [
+    "For the following equilibrium, Kc= 6.3 x 10^14 at 1000 K: NO (g) + O3 (g) -> NO2 (g) + O2 (g). What is Kc for the reverse reaction?"
+   ]
+  },
+  {
+   "id": "p2_ex6.7",
+   "source_ref": "kech106.txt lines 451-453",
+   "questions": [
+    "Explain why pure liquids and solids can be ignored while writing the equilibrium constant expression?"
+   ]
+  },
+  {
+   "id": "p2_ex6.8",
+   "source_ref": "kech106.txt lines 454-460",
+   "questions": [
+    "Reaction between N2 and O2 takes place as follows: 2N2 (g) + O2 (g) -> 2N2O (g). If a mixture of 0.482 mol N2 and 0.933 mol of O2 is placed in a 10 L reaction vessel and allowed to form N2O at a temperature for which Kc= 2.0 x 10^-37, determine the composition of equilibrium mixture."
+   ]
+  },
+  {
+   "id": "p2_ex6.9",
+   "source_ref": "kech106.txt lines 461-465",
+   "questions": [
+    "Nitric oxide reacts with Br2 and gives nitrosyl bromide as per reaction: 2NO (g) + Br2 (g) -> 2NOBr (g). When 0.087 mol of NO and 0.0437 mol of Br2 are mixed in a closed container at constant temperature, 0.0518 mol of NOBr is obtained at equilibrium. Calculate equilibrium amount of NO and Br2."
+   ]
+  },
+  {
+   "id": "p2_ex6.10",
+   "source_ref": "kech106.txt lines 466-470",
+   "questions": [
+    "At 450K, Kp = 2.0 x 10^10/bar for the given reaction at equilibrium: 2SO2 (g) + O2 (g) -> 2SO3 (g). What is Kc at this temperature ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.11",
+   "source_ref": "kech106.txt lines 471-475",
+   "questions": [
+    "A sample of HI(g) is placed in flask at a pressure of 0.2 atm. At equilibrium the partial pressure of HI(g) is 0.04 atm. What is Kp for the given equilibrium ? 2HI (g) -> H2 (g) + I2 (g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.12",
+   "source_ref": "kech106.txt lines 476-480",
+   "questions": [
+    "A mixture of 1.57 mol of N2, 1.92 mol of H2 and 8.13 mol of NH3 is introduced into a 20 L reaction vessel at 500 K. At this temperature, the equilibrium constant, Kc for the reaction N2 (g) + 3H2 (g) -> 2NH3 (g) is 1.7 x 10^2. Is the reaction mixture at equilibrium? If not, what is the direction of the net reaction?"
+   ]
+  },
+  {
+   "id": "p2_ex6.13",
+   "source_ref": "kech106.txt lines 481-485",
+   "questions": [
+    "The equilibrium constant expression for a gas reaction is Kc = [NH3]^4 [O2]^5 / ([NO]^4 [H2O]^6). Write the balanced chemical equation corresponding to this expression."
+   ]
+  },
+  {
+   "id": "p2_ex6.14",
+   "source_ref": "kech106.txt lines 486-490",
+   "questions": [
+    "One mole of H2O and one mole of CO are taken in 10 L vessel and heated to 725 K. At equilibrium 40% of water (by mass) reacts with CO according to the equation H2O (g) + CO (g) -> H2 (g) + CO2 (g). Calculate the equilibrium constant for the reaction."
+   ]
+  },
+  {
+   "id": "p2_ex6.15",
+   "source_ref": "kech106.txt lines 491-495",
+   "questions": [
+    "At 700 K, equilibrium constant for the reaction: H2(g) + I2(g) -> 2HI(g) is 54.8. If 0.5 mol L^-1 of HI(g) is present at equilibrium at 700 K, what are the concentration of H2(g) and I2(g) assuming that we initially started with HI(g) and allowed it to reach equilibrium at 700K?"
+   ]
+  },
+  {
+   "id": "p2_ex6.16",
+   "source_ref": "kech106.txt lines 496-500",
+   "questions": [
+    "What is the equilibrium concentration of each of the substances in the equilibrium when the initial concentration of ICl was 0.78 M ? 2ICl (g) -> I2 (g) + Cl2 (g); Kc = 0.14"
+   ]
+  },
+  {
+   "id": "p2_ex6.17",
+   "source_ref": "kech106.txt lines 501-505",
+   "questions": [
+    "Kp = 0.04 atm at 899 K for the equilibrium shown below. What is the equilibrium concentration of C2H6 when it is placed in a flask at 4.0 atm pressure and allowed to come to equilibrium? C2H6 (g) -> C2H4 (g) + H2 (g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.18",
+   "source_ref": "kech106.txt lines 506-515",
+   "questions": [
+    "Ethyl acetate is formed by the reaction between ethanol and acetic acid and the equilibrium is represented as: CH3COOH (l) + C2H5OH (l) -> CH3COOC2H5 (l) + H2O (l). (i) Write the concentration ratio Qc for this reaction. (ii) At 293 K, if one starts with 1.00 mol of acetic acid and 0.18 mol of ethanol, there is 0.171 mol of ethyl acetate in the final equilibrium mixture. Calculate the equilibrium constant. (iii) Starting with 0.5 mol of ethanol and 1.0 mol of acetic acid and maintaining it at 293 K, 0.214 mol of ethyl acetate is found after sometime. Has equilibrium been reached?"
+   ]
+  },
+  {
+   "id": "p2_ex6.19",
+   "source_ref": "kech106.txt lines 516-520",
+   "questions": [
+    "A sample of pure PCl5 was introduced into an evacuated vessel at 473 K. After equilibrium was attained, concentration of PCl5 was found to be 0.5 x 10^-1 mol L^-1. If value of Kc is 8.3 x 10^-3, what are the concentrations of PCl3 and Cl2 at equilibrium?"
+   ]
+  },
+  {
+   "id": "p2_ex6.20",
+   "source_ref": "kech106.txt lines 521-525",
+   "questions": [
+    "One of the reaction that takes place in producing steel from iron ore is the reduction of iron(II) oxide by carbon monoxide to give iron metal and CO2. FeO (s) + CO (g) -> Fe (s) + CO2 (g); Kp = 0.265 atm at 1050K. What are the equilibrium partial pressures of CO and CO2 at 1050 K if the initial partial pressures are: p_CO = 1.4 atm and p_CO2 = 0.80 atm?"
+   ]
+  },
+  {
+   "id": "p2_ex6.21",
+   "source_ref": "kech106.txt lines 526-530",
+   "questions": [
+    "Equilibrium constant, Kc for the reaction N2 (g) + 3H2 (g) -> 2NH3 (g) at 500 K is 0.061. At a particular time, the analysis shows that composition of the reaction mixture is 3.0 mol L^-1 N2, 2.0 mol L^-1 H2 and 0.5 mol L^-1 NH3. Is the reaction at equilibrium? If not in which direction does the reaction tend to proceed to reach equilibrium?"
+   ]
+  },
+  {
+   "id": "p2_ex6.22",
+   "source_ref": "kech106.txt lines 531-535",
+   "questions": [
+    "Bromine monochloride, BrCl decomposes into bromine and chlorine and reaches the equilibrium: 2BrCl (g) -> Br2 (g) + Cl2 (g) for which Kc= 32 at 500 K. If initially pure BrCl is present at a concentration of 3.3 x 10^-3 mol L^-1, what is its molar concentration in the mixture at equilibrium?"
+   ]
+  },
+  {
+   "id": "p2_ex6.23",
+   "source_ref": "kech106.txt lines 536-540",
+   "questions": [
+    "At 1127 K and 1 atm pressure, a gaseous mixture of CO and CO2 in equilibrium with solid carbon has 90.55% CO by mass: C (s) + CO2 (g) -> 2CO (g). Calculate Kc for this reaction at the above temperature."
+   ]
+  },
+  {
+   "id": "p2_ex6.24",
+   "source_ref": "kech106.txt lines 541-545",
+   "questions": [
+    "Calculate a) Delta G0 and b) the equilibrium constant for the formation of NO2 from NO and O2 at 298K: NO (g) + 1/2 O2 (g) -> NO2 (g) where Delta G0_f (NO2) = 52.0 kJ/mol, Delta G0_f (NO) = 87.0 kJ/mol, Delta G0_f (O2) = 0 kJ/mol."
+   ]
+  },
+  {
+   "id": "p2_ex6.25",
+   "source_ref": "kech106.txt lines 546-550",
+   "questions": [
+    "Does the number of moles of reaction products increase, decrease or remain same when each of the following equilibria is subjected to a decrease in pressure by increasing the volume? (a) PCl5 (g) -> PCl3 (g) + Cl2 (g) (b) CaO (s) + CO2 (g) -> CaCO3 (s) (c) 3Fe (s) + 4H2O (g) -> Fe3O4 (s) + 4H2 (g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.26",
+   "source_ref": "kech106.txt lines 551-560",
+   "questions": [
+    "Which of the following reactions will get affected by increasing the pressure? Also, mention whether change will cause the reaction to go into forward or backward direction: (i) COCl2 (g) -> CO (g) + Cl2 (g) (ii) CH4 (g) + 2S2 (g) -> CS2 (g) + 2H2S (g) (iii) CO2 (g) + C (s) -> 2CO (g) (iv) 2H2 (g) + CO (g) -> CH3OH (g) (v) CaCO3 (s) -> CaO (s) + CO2 (g) (vi) 4 NH3 (g) + 5O2 (g) -> 4NO (g) + 6H2O(g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.27",
+   "source_ref": "kech106.txt lines 561-565",
+   "questions": [
+    "The equilibrium constant for the reaction H2 (g) + Br2 (g) -> 2HBr(g) is 1.6 x 10^5 at 1024K. Find the equilibrium pressure of all gases if 10.0 bar of HBr is introduced into a sealed container at 1024K."
+   ]
+  },
+  {
+   "id": "p2_ex6.28",
+   "source_ref": "kech106.txt lines 566-575",
+   "questions": [
+    "Dihydrogen gas is obtained from natural gas by partial oxidation with steam: CH4 (g) + H2O (g) -> CO (g) + 3H2 (g). (a) Write an expression for Kp for the above reaction. (b) How will the values of Kp and composition of equilibrium mixture be affected by (i) increasing the pressure (ii) increasing the temperature (iii) using a catalyst?"
+   ]
+  },
+  {
+   "id": "p2_ex6.29",
+   "source_ref": "kech106.txt lines 576-585",
+   "questions": [
+    "Describe the effect of: a) addition of H2 b) addition of CH3OH c) removal of CO d) removal of CH3OH on the equilibrium of the reaction: 2H2 (g) + CO (g) -> CH3OH (g)"
+   ]
+  },
+  {
+   "id": "p2_ex6.30",
+   "source_ref": "kech106.txt lines 586-595",
+   "questions": [
+    "At 473 K, equilibrium constant Kc for decomposition of phosphorus pentachloride PCl5 is 8.3 x 10^-3. PCl5 (g) -> PCl3 (g) + Cl2 (g), Delta H0 = 124.0 kJ mol^-1. a) write an expression for Kc for the reaction. b) what is the value of Kc for the reverse reaction at the same temperature? c) what would be the effect on Kc if (i) more PCl5 is added (ii) pressure is increased (iii) the temperature is increased ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.31",
+   "source_ref": "kech106.txt lines 596-605",
+   "questions": [
+    "In water gas shift reaction CO (g) + H2O (g) -> CO2 (g) + H2 (g), if a reaction vessel at 400 deg C is charged with an equimolar mixture of CO and steam such that p_CO = p_H2O = 4.0 bar, what will be the partial pressure of H2 at equilibrium? Kp = 10.1 at 400 deg C."
+   ]
+  },
+  {
+   "id": "p2_ex6.32",
+   "source_ref": "kech106.txt lines 606-612",
+   "questions": [
+    "Predict which of the following reaction will have appreciable concentration of reactants and products: a) Cl2 (g) -> 2Cl (g), Kc = 5 x 10^-39 b) Cl2 (g) + 2NO (g) -> 2NOCl (g), Kc = 3.7 x 10^8 c) Cl2 (g) + 2NO2 (g) -> 2NO2Cl (g), Kc = 1.8"
+   ]
+  },
+  {
+   "id": "p2_ex6.33",
+   "source_ref": "kech106.txt lines 613-617",
+   "questions": [
+    "The value of Kc for the reaction 3O2 (g) -> 2O3 (g) is 2.0 x 10^-50 at 25 deg C. If the equilibrium concentration of O2 in air at 25 deg C is 1.6 x 10^-2, what is the concentration of O3?"
+   ]
+  },
+  {
+   "id": "p2_ex6.34",
+   "source_ref": "kech106.txt lines 618-623",
+   "questions": [
+    "The reaction CO(g) + 3H2 (g) -> CH4 (g) + H2O(g) is at equilibrium at 1300 K in a 1L flask containing 0.30 mol of CO, 0.10 mol of H2, 0.02 mol of H2O and an unknown amount of CH4. Determine the concentration of CH4 in the mixture if Kc = 3.90."
+   ]
+  },
+  {
+   "id": "p2_ex6.35",
+   "source_ref": "kech106.txt lines 624-627",
+   "questions": [
+    "What is meant by the conjugate acid-base pair? Find the conjugate acid/base for the species: HNO2, CN-, HClO4, F-, OH-, CO3^2-, and S2-."
+   ]
+  },
+  {
+   "id": "p2_ex6.36",
+   "source_ref": "kech106.txt lines 628-629",
+   "questions": [
+    "Which of the followings are Lewis acids? H2O, BF3, H+, and NH4+."
+   ]
+  },
+  {
+   "id": "p2_ex6.37",
+   "source_ref": "kech106.txt lines 630-631",
+   "questions": [
+    "What will be the conjugate bases for the Bronsted acids: HF, H2SO4 and HCO3- ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.38",
+   "source_ref": "kech106.txt lines 632-633",
+   "questions": [
+    "Write the conjugate acids for the Bronsted bases: NH2-, NH3 and HCOO-."
+   ]
+  },
+  {
+   "id": "p2_ex6.39",
+   "source_ref": "kech106.txt lines 634-636",
+   "questions": [
+    "The species: H2O, HCO3-, HSO4- and NH3 can act both as Bronsted acids and bases. For each case give the corresponding conjugate acid and base."
+   ]
+  },
+  {
+   "id": "p2_ex6.40",
+   "source_ref": "kech106.txt lines 637-639",
+   "questions": [
+    "Classify the following species into Lewis acids and Lewis bases and show how these act as Lewis acid/base: (a) OH- (b) F- (c) H+ (d) BCl3."
+   ]
+  },
+  {
+   "id": "p2_ex6.41",
+   "source_ref": "kech106.txt lines 640-642",
+   "questions": [
+    "The concentration of hydrogen ion in a sample of soft drink is 3.8 x 10^-3 M. What is its pH?"
+   ]
+  },
+  {
+   "id": "p2_ex6.42",
+   "source_ref": "kech106.txt lines 643-644",
+   "questions": [
+    "The pH of a sample of vinegar is 3.76. Calculate the concentration of hydrogen ion in it."
+   ]
+  },
+  {
+   "id": "p2_ex6.43",
+   "source_ref": "kech106.txt lines 645-648",
+   "questions": [
+    "The ionization constant of HF, HCOOH and HCN at 298K are 6.8 x 10^-4, 1.8 x 10^-4 and 4.8 x 10^-9 respectively. Calculate the ionization constants of the corresponding conjugate base."
+   ]
+  },
+  {
+   "id": "p2_ex6.44",
+   "source_ref": "kech106.txt lines 649-652",
+   "questions": [
+    "The ionization constant of phenol is 1.0 x 10^-10. What is the concentration of phenolate ion in 0.05 M solution of phenol? What will be its degree of ionization if the solution is also 0.01M in sodium phenolate?"
+   ]
+  },
+  {
+   "id": "p2_ex6.45",
+   "source_ref": "kech106.txt lines 653-657",
+   "questions": [
+    "The first ionization constant of H2S is 9.1 x 10^-8. Calculate the concentration of HS- ion in its 0.1M solution. How will this concentration be affected if the solution is 0.1M in HCl also? If the second dissociation constant of H2S is 1.2 x 10^-13, calculate the concentration of S2- under both conditions."
+   ]
+  },
+  {
+   "id": "p2_ex6.46",
+   "source_ref": "kech106.txt lines 658-661",
+   "questions": [
+    "The ionization constant of acetic acid is 1.74 x 10^-5. Calculate the degree of dissociation of acetic acid in its 0.05 M solution. Calculate the concentration of acetate ion in the solution and its pH."
+   ]
+  },
+  {
+   "id": "p2_ex6.47",
+   "source_ref": "kech106.txt lines 662-664",
+   "questions": [
+    "It has been found that the pH of a 0.01M solution of an organic acid is 4.15. Calculate the concentration of the anion, the ionization constant of the acid and its pKa."
+   ]
+  },
+  {
+   "id": "p2_ex6.48",
+   "source_ref": "kech106.txt lines 665-667",
+   "questions": [
+    "Assuming complete dissociation, calculate the pH of the following solutions: (a) 0.003 M HCl (b) 0.005 M NaOH (c) 0.002 M HBr (d) 0.002 M KOH"
+   ]
+  },
+  {
+   "id": "p2_ex6.49",
+   "source_ref": "kech106.txt lines 668-673",
+   "questions": [
+    "Calculate the pH of the following solutions: a) 2 g of TlOH dissolved in water to give 2 litre of solution. b) 0.3 g of Ca(OH)2 dissolved in water to give 500 mL of solution. c) 0.3 g of NaOH dissolved in water to give 200 mL of solution. d) 1 mL of 13.6 M HCl is diluted with water to give 1 litre of solution."
+   ]
+  },
+  {
+   "id": "p2_ex6.50",
+   "source_ref": "kech106.txt lines 674-676",
+   "questions": [
+    "The degree of ionization of a 0.1M bromoacetic acid solution is 0.132. Calculate the pH of the solution and the pKa of bromoacetic acid."
+   ]
+  },
+  {
+   "id": "p2_ex6.51",
+   "source_ref": "kech106.txt lines 677-679",
+   "questions": [
+    "The pH of 0.005M codeine solution is 9.95. Calculate its ionization constant and pKb."
+   ]
+  },
+  {
+   "id": "p2_ex6.52",
+   "source_ref": "kech106.txt lines 680-683",
+   "questions": [
+    "What is the pH of 0.001M aniline solution? Calculate the degree of ionization of aniline in the solution and the ionization constant of the conjugate acid of aniline."
+   ]
+  },
+  {
+   "id": "p2_ex6.53",
+   "source_ref": "kech106.txt lines 684-687",
+   "questions": [
+    "Calculate the degree of ionization of 0.05M acetic acid if its pKa value is 4.74. How is the degree of dissociation affected when its solution also contains (a) 0.01M (b) 0.1M in HCl ?"
+   ]
+  },
+  {
+   "id": "p2_ex6.54",
+   "source_ref": "kech106.txt lines 688-691",
+   "questions": [
+    "The ionization constant of dimethylamine is 5.4 x 10^-4. Calculate its degree of ionization in its 0.02M solution. What percentage of dimethylamine is ionized if the solution is also 0.1M in NaOH?"
+   ]
+  },
+  {
+   "id": "p2_ex6.55",
+   "source_ref": "kech106.txt lines 692-695",
+   "questions": [
+    "Calculate the hydrogen ion concentration in the biological fluids whose pH are given: (a) Human muscle-fluid, 6.83 (b) Human stomach fluid, 1.2 (c) Human blood, 7.38 (d) Human saliva, 6.4."
+   ]
+  },
+  {
+   "id": "p2_ex6.56",
+   "source_ref": "kech106.txt lines 696-699",
+   "questions": [
+    "The pH of milk, black coffee, tomato juice, lemon juice and egg white are 6.8, 5.0, 4.2, 2.2 and 7.8 respectively. Calculate corresponding hydrogen ion concentration in each."
+   ]
+  },
+  {
+   "id": "p2_ex6.57",
+   "source_ref": "kech106.txt lines 700-702",
+   "questions": [
+    "If 0.561 g of KOH is dissolved in water to give 200 mL of solution at 298 K, calculate the concentrations of potassium, hydrogen and hydroxyl ions. What is its pH?"
+   ]
+  },
+  {
+   "id": "p2_ex6.58",
+   "source_ref": "kech106.txt lines 703-705",
+   "questions": [
+    "The solubility of Sr(OH)2 at 298 K is 19.23 g/L of solution. Calculate the concentrations of strontium and hydroxyl ions and the pH of the solution."
+   ]
+  },
+  {
+   "id": "p2_ex6.59",
+   "source_ref": "kech106.txt lines 706-709",
+   "questions": [
+    "The ionization constant of propanoic acid is 1.32 x 10^-5. Calculate the degree of ionization of the acid in its 0.05M solution and also its pH. What will be its degree of ionization if the solution is 0.01M in HCl also?"
+   ]
+  },
+  {
+   "id": "p2_ex6.60",
+   "source_ref": "kech106.txt lines 710-712",
+   "questions": [
+    "The pH of 0.1M solution of cyanic acid (HCNO) is 2.34. Calculate the ionization constant of the acid and its degree of ionization in the solution."
+   ]
+  },
+  {
+   "id": "p2_ex6.61",
+   "source_ref": "kech106.txt lines 713-715",
+   "questions": [
+    "The ionization constant of nitrous acid is 4.5 x 10^-4. Calculate the pH of 0.04 M sodium nitrite solution and also its degree of hydrolysis."
+   ]
+  },
+  {
+   "id": "p2_ex6.62",
+   "source_ref": "kech106.txt lines 716-717",
+   "questions": [
+    "A 0.02M solution of pyridinium hydrochloride has pH = 3.44. Calculate the ionization constant of pyridine."
+   ]
+  },
+  {
+   "id": "p2_ex6.63",
+   "source_ref": "kech106.txt lines 718-720",
+   "questions": [
+    "Predict if the solutions of the following salts are neutral, acidic or basic: NaCl, KBr, NaCN, NH4NO3, NaNO2 and KF."
+   ]
+  },
+  {
+   "id": "p2_ex6.64",
+   "source_ref": "kech106.txt lines 721-723",
+   "questions": [
+    "The ionization constant of chloroacetic acid is 1.35 x 10^-3. What will be the pH of 0.1M acid and its 0.1M sodium salt solution?"
+   ]
+  },
+  {
+   "id": "p2_ex6.65",
+   "source_ref": "kech106.txt lines 724-725",
+   "questions": [
+    "Ionic product of water at 310 K is 2.7 x 10^-14. What is the pH of neutral water at this temperature?"
+   ]
+  },
+  {
+   "id": "p2_ex6.66",
+   "source_ref": "kech106.txt lines 726-730",
+   "questions": [
+    "Calculate the pH of the resultant mixtures: a) 10 mL of 0.2M Ca(OH)2 + 25 mL of 0.1M HCl b) 10 mL of 0.01M H2SO4 + 10 mL of 0.01M Ca(OH)2 c) 10 mL of 0.1M H2SO4 + 10 mL of 0.1M KOH."
+   ]
+  },
+  {
+   "id": "p2_ex6.67",
+   "source_ref": "kech106.txt lines 731-734",
+   "questions": [
+    "Determine the solubilities of silver chromate, barium chromate, ferric hydroxide, lead chloride and mercurous iodide at 298K from their solubility product constants given in Table 6.9. Determine also the molarities of individual ions."
+   ]
+  },
+  {
+   "id": "p2_ex6.68",
+   "source_ref": "kech106.txt lines 735-738",
+   "questions": [
+    "The solubility product constant of Ag2CrO4 and AgBr are 1.1 x 10^-12 and 5.0 x 10^-13 respectively. Calculate the ratio of the molarities of their saturated solutions."
+   ]
+  },
+  {
+   "id": "p2_ex6.69",
+   "source_ref": "kech106.txt lines 739-742",
+   "questions": [
+    "Equal volumes of 0.002 M solutions of sodium iodate and cupric chlorate are mixed together. Will it lead to precipitation of copper iodate? (For cupric iodate Ksp = 7.4 x 10^-8)."
+   ]
+  },
+  {
+   "id": "p2_ex6.70",
+   "source_ref": "kech106.txt lines 743-746",
+   "questions": [
+    "The ionization constant of benzoic acid is 6.46 x 10^-5 and Ksp for silver benzoate is 2.5 x 10^-13. How many times is silver benzoate more soluble in a buffer of pH 3.19 compared to its solubility in pure water?"
+   ]
+  },
+  {
+   "id": "p2_ex6.71",
+   "source_ref": "kech106.txt lines 747-750",
+   "questions": [
+    "What is the maximum concentration of equimolar solutions of ferrous sulphate and sodium sulphide so that when mixed in equal volumes, there is no precipitation of iron sulphide? (For iron sulphide, Ksp = 6.3 x 10^-18)."
+   ]
+  },
+  {
+   "id": "p2_ex6.72",
+   "source_ref": "kech106.txt lines 751-753",
+   "questions": [
+    "What is the minimum volume of water required to dissolve 1g of calcium sulphate at 298 K? (For calcium sulphate, Ksp is 9.1 x 10^-6)."
+   ]
+  },
+  {
+   "id": "p2_ex6.73",
+   "source_ref": "kech106.txt lines 754-758",
+   "questions": [
+    "The concentration of sulphide ion in 0.1M HCl solution saturated with hydrogen sulphide is 1.0 x 10^-19 M. If 10 mL of this is added to 5 mL of 0.04 M solution of FeSO4, MnCl2, ZnCl2 and CdCl2, in which of these solutions precipitation will take place?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "kech.106.3.1: bad compute '(C ** c) * (D ** d)' (unknown symbol: C)",
+  "kech.106.3.1: bad compute '(A ** a) * (B ** b)' (unknown symbol: A)",
+  "kech.106.4.1: bad compute 'R * T' (unknown symbol: R)",
+  "kech.106.4.1: bad compute 'RT ** delta_n' (unknown symbol: RT)",
+  "kech.106.4.1: bad compute 'Kc * factor' (unknown symbol: Kc)",
+  "kech.106.6.1: bad compute '(C ** c) * (D ** d)' (unknown symbol: C)",
+  "kech.106.6.1: bad compute '(A ** a) * (B ** b)' (unknown symbol: A)",
+  "kech.106.7.1: bad compute '-1 * R * T * ln_Kc' (unknown symbol: R)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

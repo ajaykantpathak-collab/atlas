@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_008",
+   "title": "c11_geo_cbse_25_008",
+   "questions": [
+    {
+     "q": "State any three advantages of aerial photography over traditional ground surveying methods for topographical mapping in India.",
+     "a": "Correct answer: (1) Synoptic view — captures large area (50-100 km² per photo) in a single exposure enabling regional pattern recognition; (2) Permanence — provides an objective, unalterable record of terrain at a specific date allowing temporal comparison (e.g., pre/post-flood); (3) Stereoscopic capability — 60% forward overlap enables 3D viewing and precise height measurement via parallax for contouring. A wrong answer listing \"high spectral resolution\" or \"all-weather capability\" reveals confusion with satellite remote sensing — aerial photos are panchromatic/colour optical only and grounded by cloud cover.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why relief displacement in aerial photographs increases radially from the principal point and how this affects scale consistency across a single vertical photograph of the Western Ghats escarpment.",
+     "a": "Correct answer: Relief displacement (d) = (r × h) / H where r = radial distance from principal point, h = object height above datum, H = flying height above datum. As r increases toward photo edges, displacement increases linearly — a 50m tall tree at 50mm from centre displaces 5× more than at 10mm. In Western Ghats escarpment photography, this means: (1) Scale varies from 1:20,000 in valleys to 1:15,000 on peaks within one photo; (2) Ridge crests lean outward radially creating \"radial distortion\"; (3) Contouring requires rectification or differential correction. A wrong answer claiming \"uniform scale in vertical photos\" reveals misunderstanding of perspective geometry — only orthophotos (differentially rectified) have uniform scale.",
+     "self_check": true
+    },
+    {
+     "q": "A Survey of India team plans aerial photography for 1:25,000 scale mapping of the Sundarbans mangrove region. The camera has 152mm focal length. Calculate the required flying height above mean sea level. Then explain why tidal variation in this region creates an additional scale error beyond relief displacement.",
+     "a": "Correct answer: Step 1: Scale S = f / H → H = f / S = 152mm / (1/25,000) = 152 × 25,000 mm = 3,800,000 mm = 3,800 m above datum. Step 2: Sundarbans tidal range = 3-5m (spring tide). Step 3: At high tide, effective H reduces by 5m → scale becomes 152/3795 = 1:24,967 (0.13% larger). At low tide, H increases by 5m → scale = 1:25,033 (0.13% smaller). Step 4: This tidal scale variation (±0.13%) combines with relief displacement from 10-15m mangrove canopy height. A wrong answer ignoring tidal datum shows failure to recognize that \"flying height above datum\" must reference a consistent vertical datum (MSL) while the photographed surface (water/land) moves vertically with tides — a coastal-specific error not seen in inland mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of aerial photography versus satellite imagery (LISS-IV, 5.8m resolution) for monitoring illegal sand mining along the Yamuna floodplain near Delhi. Justify with four specific technical criteria.",
+     "a": "Correct answer: Aerial photography preferred because: (1) Spatial resolution — 10-15cm GSD (ground sampling distance) from 3000m with 152mm lens vs 5.8m LISS-IV — critical for detecting 2-3m wide excavation pits and truck tracks; (2) Temporal flexibility — on-demand flights vs 24-day revisit cycle — mining occurs nocturnally/weekends; (3) Stereoscopic 3D — enables volumetric estimation of extracted sand via DEM differencing (pre/post mining); (4) Cloud penetration — can fly below cloud base (1000-2000m) during monsoon when mining peaks. Satellite advantages only: (1) Legal access — no DGCA/defence clearance needed; (2) Synoptic coverage — 70km swath vs 10km photo strip. A wrong answer choosing satellite for \"higher resolution\" reveals confusion between spatial resolution (GSD) and spectral resolution — LISS-IV has 4 bands but 40× coarser spatial detail.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Aerial photography has become obsolete for topographical mapping in India since the launch of Cartosat-1 (2.5m stereo) and Cartosat-3 (0.25m) satellites.\" Provide three counter-arguments with Indian institutional examples.",
+     "a": "Correct answer: Statement is flawed. Counter-arguments: (1) Survey of India still uses aerial photography for 1:10,000 and 1:5,000 scale mapping (large-scale cadastral/urban) — Cartosat-3's 0.25m meets resolution but lacks stereo convergence angle for accurate DEM at this scale; (2) National Highway Authority of India (NHAI) mandates aerial photogrammetry for DPR (Detailed Project Reports) of expressways — requires 10cm GSD and 0.5m vertical accuracy unattainable from spaceborne stereo; (3) State revenue departments (e.g., Maharashtra, Karnataka) use drone-based aerial photography (5cm GSD) for village-level land record updation (SVAMITVA scheme) — satellite cannot resolve individual property boundaries under tree canopy. A wrong answer agreeing reveals ignorance of scale-specific requirements — satellites excel at 1:50,000 and smaller scales; aerial dominates at 1:10,000 and larger.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid data acquisition strategy for creating a 1:10,000 scale base map of a 500 km² hilly region in Uttarakhand (elevation range 800-2500m) that optimally combines aerial photography, satellite stereo, and ground control. Specify flying height, overlap, GCP density, and satellite role.",
+     "a": "Expected answer criteria: (1) Aerial: 152mm lens, flying height 3000m above MSL → scale 1:19,700 (enlarge to 1:10,000), 60% forward / 30% lateral overlap, GCP every 5km (100 GCPs) using dual-frequency GPS; (2) Satellite: Cartosat-1 stereo (2.5m) for DEM extraction in inaccessible valleys — fills gaps where aerial relief displacement >50m; (3) Integration: Bundle adjustment combining aerial GCPs + satellite RPCs (Rational Polynomial Coefficients) to generate seamless orthomosaic and 1m contour DEM; (4) Cost optimization: Aerial for 80% accessible area, satellite for 20% steep gorges. Poor answer uses only one source or ignores vertical datum unification (WGS84 vs Everest spheroid) — reveals failure to understand multi-source geospatial data fusion challenges in Indian mapping context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

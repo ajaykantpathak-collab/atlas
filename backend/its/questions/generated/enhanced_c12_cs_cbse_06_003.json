@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_003",
+   "title": "c12_cs_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the exact method name and module used to create a connection to a MySQL database in Python, and what does it return on success?",
+     "a": "The method is `mysql.connector.connect()` and it returns a `MySQLConnection` object on success. A wrong answer (e.g., saying `connect()` returns a cursor or that the method is `mysql.connect()`) reveals the student confuses the connection object with the cursor object or mixes up the module name — a frequent board-exam error where students write `import mysql` instead of `import mysql.connector`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the `database` parameter in `mysql.connector.connect()` is optional, and what happens if you omit it.",
+     "a": "The `database` parameter is optional because you can connect to the MySQL server first (to run administrative commands like `CREATE DATABASE` or `SHOW DATABASES`) and then select a specific database later using `connection.database = 'dbname'` or a `USE dbname` query. If omitted, the connection is established but no default database is selected; any subsequent query that requires a database will fail unless you specify it explicitly. A wrong answer (e.g., \"it defaults to 'test'\") shows the student assumes a default database exists, which is not true in MySQL — a common misconception from SQLite where a default database is created automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that attempts to connect to a MySQL server at `localhost` with user `root`, password `admin123`, and database `school_db`. Include exception handling that prints a custom message for \"Access denied\" (wrong password) and \"Can't connect to MySQL server\" (host/port unreachable), and finally closes the connection if it was opened.",
+     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\nconn = None\ntry:\n    conn = mysql.connector.connect(\n        host='localhost',\n        user='root',\n        password='admin123',\n        database='school_db'\n    )\n    if conn.is_connected():\n        print(\"Connected successfully\")\nexcept Error as e:\n    if e.errno == 1045:      # ER_ACCESS_DENIED_ERROR\n        print(\"Access denied: check username/password\")\n    elif e.errno == 2003:    # CR_CONN_HOST_ERROR\n        print(\"Can't connect to MySQL server: check host/port\")\n    else:\n        print(f\"Error: {e}\")\nfinally:\n    if conn and conn.is_connected():\n        conn.close()\n        print(\"Connection closed\")\n```\nA wrong answer that catches generic `Exception` instead of `mysql.connector.Error`, or checks `e.msg` string instead of `e.errno`, reveals the student doesn't know the specific error codes MySQL returns — a competitive-exam trap where JEE/NEET-style questions ask \"which errno corresponds to wrong password?\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the behaviour of `mysql.connector.connect()` when (a) the MySQL service is not running on the target host, and (b) the service is running but the provided password is incorrect. How does the `errno` attribute of the raised exception differ in these two cases?",
+     "a": "Case (a) raises `mysql.connector.Error` with `errno=2003` (CR_CONN_HOST_ERROR) because the TCP connection cannot be established. Case (b) raises `mysql.connector.Error` with `errno=1045` (ER_ACCESS_DENIED_ERROR) because the TCP connection succeeds but authentication fails. A wrong answer that says both raise the same errno, or that case (a) raises a Python `ConnectionRefusedError` instead of a MySQL error, reveals the student hasn't distinguished between network-layer failure and application-layer authentication failure — a critical distinction for writing robust connection logic in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code and claims it \"always closes the connection safely\". Evaluate this claim and identify the flaw.\n```python\nimport mysql.connector\nconn = mysql.connector.connect(host='localhost', user='root', password='pwd', database='test')",
+     "a": "The claim is false. If `mysql.connector.connect()` raises an exception (e.g., wrong password), the `conn` variable is never assigned, so the subsequent `conn.close()` will raise a `NameError` (or `AttributeError` if `conn` was set to `None` earlier). The connection object must be closed inside a `finally` block or via a context manager (`with` statement) to guarantee cleanup. A student who misses this shows they don't understand exception flow — a common board practical mistake where marks are deducted for unclosed connections.",
+     "self_check": true
+    },
+    {
+     "q": "Design a reusable Python function `get_connection(config_dict)` that accepts a dictionary with keys `host`, `user`, `password`, `database` (optional), `port` (optional, default 3306), and returns a live `MySQLConnection` object. The function should validate that mandatory keys are present, set default port if missing, and raise a descriptive `ValueError` if validation fails. Show how a caller would use this function with a `try-except-finally` block.",
+     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\ndef get_connection(config: dict):\n    required = {'host', 'user', 'password'}\n    missing = required - config.keys()\n    if missing:\n        raise ValueError(f\"Missing required config keys: {missing}\")\n    # set default port\n    config.setdefault('port', 3306)\n    # connect\n    return mysql.connector.connect(**config)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

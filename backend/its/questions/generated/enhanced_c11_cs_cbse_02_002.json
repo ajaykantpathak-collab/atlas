@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_002",
+   "title": "c11_cs_cbse_02_002",
+   "questions": [
+    {
+     "q": "What are the only two possible truth values a Boolean variable can take, and what do they represent in a digital circuit?",
+     "a": "The only two truth values are TRUE (1) and FALSE (0). In a digital circuit, 1 represents a high voltage level (typically 3.3V or 5V) and 0 represents a low voltage level (0V). A wrong answer (e.g., \"TRUE, FALSE, and UNKNOWN\" or \"1, 2, 3\") reveals the student confuses Boolean logic with multi-valued logic or arithmetic variables, not grasping the strict two-valued nature of classical Boolean algebra.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Since Boolean variables use 1 and 0, I can add them like integers: if A=1 and B=1, then A+B=2.\" Explain why this reasoning is incorrect in the context of Boolean algebra.",
+     "a": "In Boolean algebra, '+' denotes the OR operation, not arithmetic addition. The expression A+B evaluates to 1 (TRUE) when at least one variable is 1, so 1+1=1, not 2. The symbols 0 and 1 represent truth values, not numeric quantities. A wrong answer (e.g., \"it's still 2 but we ignore it\") shows the student treats Boolean symbols as integers, confusing the notation with arithmetic — a critical misconception that breaks all subsequent logic simplification.",
+     "self_check": true
+    },
+    {
+     "q": "In a security system, the alarm triggers if (door open) OR (window broken). Define two Boolean variables for the conditions and write their truth values for the scenario: door is closed, window is broken.",
+     "a": "Let D = door open (1 = open, 0 = closed), W = window broken (1 = broken, 0 = intact). For \"door closed, window broken\": D=0, W=1. A wrong assignment (e.g., D=1 for closed) reveals the student does not consistently map real-world states to 0/1, or confuses the meaning of the variable (e.g., defining D as \"door closed\" instead of \"door open\") — a common error in variable naming that leads to inverted logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the statement \"x = 5\" in algebra with \"A = 1\" in Boolean algebra. How does the meaning of '=' and the nature of the variable differ?",
+     "a": "In algebra, '=' denotes equality of numeric values, and x is an unknown quantity that can take infinitely many values. In Boolean algebra, '=' assigns a truth value, and A is a logical state that can only be 0 or 1 — it does not vary continuously. A wrong answer (e.g., \"they are the same\") indicates the student fails to distinguish between numeric variables and logical propositions, leading to errors when applying algebraic laws (like distributivity) that have different forms in Boolean algebra.",
+     "self_check": true
+    },
+    {
+     "q": "A circuit has three sensors: S1, S2, S3. The output is 1 only if exactly two sensors are active (1). Is it sufficient to define only the three sensor variables? Justify your answer.",
+     "a": "Yes, the three Boolean variables S1, S2, S3 (each 0 or 1) completely describe the input state. The condition \"exactly two are 1\" is a logical expression built from these variables (e.g., (S1·S2·S3') + ...), which will be covered later. The variables themselves are atomic — no additional variables are needed. A wrong answer (e.g., \"we need a variable for 'count of active sensors'\") shows the student doesn't understand that complex conditions are expressions over base variables, not new variables — a confusion between variables and derived expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving exactly three independent yes/no conditions. Define Boolean variables for each, then write one combination of truth values that makes the overall situation \"TRUE\" if you define the situation as: \"The event happens if at least two conditions are met.\"",
+     "a": "Scenario: A student gets a scholarship if at least two of these are true: (A) GPA > 9.0, (B) Family income < ₹5L, (C) Sports achievement. Variables: A, B, C ∈ {0,1}. One TRUE combination: A=1, B=1, C=0. A poor answer (e.g., using non-binary conditions like \"GPA=9.5\" without binarizing, or defining variables that are not independent) reveals inability to abstract real-world criteria into clean Boolean propositions — a key skill for logic circuit design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

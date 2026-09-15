@@ -1,0 +1,342 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 1,
+ "chapter_title": "Computer System",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip101.1",
+   "title": "Memory Unit Ladder Conversion",
+   "section": "1.3.1",
+   "definition": "Digital storage sizes climb a fixed ladder where every named step is 1024 of the step below it: kilobyte to megabyte to gigabyte to terabyte and onward up to yottabyte. Turning a big unit into bytes means multiplying by 1024 once per step of the climb.",
+   "formula": "bytes_total = size_gb * 1024 * 1024 * 1024",
+   "key_idea": "Each rung of the storage ladder multiplies by 1024, so a gigabyte needs three such rungs to become bytes.",
+   "textbook_ref": "keip101.txt section 1.3.1, Table 1.1 (lines 283-405)",
+   "question_patterns": [
+    "convert 3.7 GB into bytes",
+    "how many bytes are there in 1.2 TB of storage",
+    "express 2 MB of memory capacity in bytes",
+    "a pen drive holds 16 GB; find its capacity in bytes",
+    "change 512 KB into bytes showing every step of the conversion",
+    "state how many kilobytes make one terabyte"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "climb down one rung from gigabyte to megabyte",
+     "explain": "1 GB = 1024 MB, so multiply the gigabyte figure by 1024",
+     "compute": "size_in_mb = size_gb * 1024"
+    },
+    {
+     "step": 2,
+     "action": "climb down from megabyte to kilobyte",
+     "explain": "1 MB = 1024 KB, multiply again by 1024",
+     "compute": "size_in_kb = size_in_mb * 1024"
+    },
+    {
+     "step": 3,
+     "action": "climb down from kilobyte to byte",
+     "explain": "1 KB = 1024 bytes; the third multiplication gives the byte count",
+     "compute": "bytes_total = size_in_kb * 1024"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A phone advertises 128 GB of storage. How many megabytes is that? (1 GB = 1024 MB.)",
+     "a": "131072 MB"
+    }
+   ]
+  },
+  {
+   "id": "keip101.2",
+   "title": "Bits, Nibble and Byte Sizes",
+   "section": "1.3.1",
+   "definition": "The atom of computer storage is the bit, holding a single 0 or 1. Four bits grouped side by side form a nibble, and two nibbles (eight bits) form a byte. Counting between these sizes is plain division by 4 and then by 2.",
+   "formula": "byte_count = word_bits // 8",
+   "key_idea": "Bits to nibbles is divide by four; nibbles to bytes is divide by two, so a byte always needs eight bits.",
+   "textbook_ref": "keip101.txt section 1.3.1, paragraph on bits and words (lines 338-342)",
+   "question_patterns": [
+    "how many nibbles are present in a 32 bit word",
+    "define a nibble and state its size in bits",
+    "convert 48 bits into bytes",
+    "a word is made of 5 nibbles; find how many bits it contains",
+    "give two examples of 8 bit binary words that could be bytes",
+    "distinguish among a bit, a nibble and a byte by their sizes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the word into 4-bit groups",
+     "explain": "one nibble holds 4 bits, so integer-divide the bit count by 4",
+     "compute": "nibble_count = word_bits // 4"
+    },
+    {
+     "step": 2,
+     "action": "pair the nibbles into 8-bit bytes",
+     "explain": "a byte is two nibbles, so integer-divide the nibble count by 2",
+     "compute": "byte_count = nibble_count // 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bits make one nibble?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "keip101.3",
+   "title": "Moore Law Transistor Doubling",
+   "section": "1.2",
+   "definition": "An industry observation credited to Gordon Moore (1965) expected the component count packed onto a single microchip to double roughly every two years, with costs halving at the same pace, which is why chip complexity grew exponentially.",
+   "formula": "future_transistors = base_transistors * 2 ** doubling_steps",
+   "key_idea": "Two years equal one doubling, so divide the elapsed years by two to get the power of two to apply.",
+   "textbook_ref": "keip101.txt section 1.2 and Moore's Law note (lines 145-170, 320-328)",
+   "question_patterns": [
+    "state Moore's law in your own words",
+    "a microchip carried 2 million transistors in 2000; predict its count in 2010 using Moore's law",
+    "according to Moore's law, how many times does the transistor count grow over six years",
+    "a processor has 5000 transistors today; estimate the count after eight years assuming doubling every two years",
+    "explain why Moore's law describes exponential growth of components on a chip",
+    "who proposed Moore's law and in which year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count how many two-year doublings fit in the span",
+     "explain": "the count doubles every 2 years, so integer-divide elapsed years by 2",
+     "compute": "doubling_steps = years_span // 2"
+    },
+    {
+     "step": 2,
+     "action": "turn the doublings into a growth factor",
+     "explain": "each doubling multiplies the count by 2, giving 2 raised to the number of doublings",
+     "compute": "growth_factor = 2 ** doubling_steps"
+    },
+    {
+     "step": 3,
+     "action": "scale the starting count by the growth factor",
+     "explain": "multiply the base transistor count by the factor to project the future count",
+     "compute": "future_transistors = base_transistors * growth_factor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A chip carries 8000 components. After 3 doublings, how many components does it carry?",
+     "a": "64000"
+    }
+   ]
+  },
+  {
+   "id": "keip101.4",
+   "title": "Primary Memory versus Secondary Memory",
+   "section": "1.3.2",
+   "definition": "Primary memory (RAM and ROM) is the working store the processor touches directly: RAM holds programs and data only while power stays on, while ROM keeps permanent startup code. Secondary memory such as a hard disk, CD or pen drive is the bigger, slower, non-volatile archive whose contents must first be copied into main memory before the CPU can use them.",
+   "formula": "ram_contents_after_power_off = 0",
+   "key_idea": "RAM is volatile working space, ROM is read-only permanent code, and secondary storage is the large non-volatile archive.",
+   "textbook_ref": "keip101.txt sections 1.3.2 A/B/C (lines 355-449)",
+   "question_patterns": [
+    "why is RAM called a volatile memory",
+    "differentiate between RAM and ROM, giving one use of each",
+    "state the need for secondary memory in a computer system",
+    "which type of memory stores the boot loader that loads the operating system",
+    "why must data on a hard disk be brought into main memory before processing",
+    "name any two secondary storage devices found in a school computer lab"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the behaviour of each memory on power loss",
+     "explain": "RAM empties when power goes off; ROM and secondary storage keep their contents"
+    },
+    {
+     "step": 2,
+     "action": "check who can reach the store directly",
+     "explain": "the CPU addresses primary memory directly, but secondary storage must be staged through main memory"
+    },
+    {
+     "step": 3,
+     "action": "match the purpose to the memory type",
+     "explain": "temporary working data goes to RAM, rarely changed startup code to ROM, permanent bulk data to secondary memory"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which primary memory keeps permanent startup code?",
+     "a": "ROM"
+    }
+   ]
+  },
+  {
+   "id": "keip101.5",
+   "title": "CPU Parts: ALU, Control Unit and Registers",
+   "section": "1.1.1",
+   "definition": "Inside the processor, the arithmetic logic unit carries out every calculation and comparison, the control unit sequences the instructions and steers data between memory, ALU and input/output devices, and small on-chip registers hold the data and intermediate results currently in use.",
+   "formula": "alu_operations + cu_control_signals = cpu_work_done",
+   "key_idea": "ALU computes, CU directs, registers hold what is being worked on this instant.",
+   "textbook_ref": "keip101.txt section 1.1.1 (lines 41-67)",
+   "question_patterns": [
+    "name the two main components of the CPU and state the role of each",
+    "what job does the control unit perform in a processor",
+    "where does the CPU keep data and instructions while processing them",
+    "why is the CPU often described as the brain of the computer",
+    "list two arithmetic and two logic operations that the ALU performs",
+    "state what registers are and why they are limited in size and number"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the computing part from the directing part",
+     "explain": "the ALU does arithmetic and logic; the CU interprets instructions and guides data flow"
+    },
+    {
+     "step": 2,
+     "action": "locate the temporary storage inside the chip",
+     "explain": "registers sit on the CPU itself and store data, instructions and intermediate results"
+    },
+    {
+     "step": 3,
+     "action": "trace one instruction through the parts",
+     "explain": "the CU fetches the instruction, the ALU computes on register values, results return to memory"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which CPU part carries out every calculation and comparison?",
+     "a": "ALU"
+    }
+   ]
+  },
+  {
+   "id": "keip101.6",
+   "title": "Software Categories and FOSS Licensing",
+   "section": "1.4",
+   "definition": "Programs fall into three broad families: system software that runs the machine (operating systems, utilities, device drivers), programming tools that build new software, and application software that serves end users, split into general purpose and customised kinds. By availability, software may be FOSS with open source code, freeware free to use but closed, or proprietary software bought from its copyright owner.",
+   "formula": "foss_source_code_access = 1",
+   "key_idea": "A computer can run without application software but never without system software, and open source means the code itself is public.",
+   "textbook_ref": "keip101.txt sections 1.4.1-1.4.4 (lines 602-754)",
+   "question_patterns": [
+    "differentiate between proprietary software and freeware, naming two programs of each kind",
+    "identify the category (system, application, programming tool) of a compiler, an assembler, Ubuntu and a text editor",
+    "what is free and open source software? give two examples",
+    "why can a computer work without application software but not without an operating system",
+    "state the role of a device driver in a computer system",
+    "name the software that acts as an interface between the user and the hardware"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ask who the software serves",
+     "explain": "system software serves the machine and other programs; application software serves the end user"
+    },
+    {
+     "step": 2,
+     "action": "check whether source code is published",
+     "explain": "FOSS publishes its source code for anyone to improve; freeware and proprietary software keep it closed"
+    },
+    {
+     "step": 3,
+     "action": "check how usage is paid for",
+     "explain": "proprietary software must be purchased from the vendor; freeware costs nothing to use; FOSS is free with open code"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which software family can a computer never run without: system or application software?",
+     "a": "system software"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip101.txt Exercise Q9(a)",
+   "concept": "keip101.1",
+   "question_type": "numeric",
+   "question_pattern": "Convert 2 MB into bytes, showing each step of the unit ladder.",
+   "extracted_variables": {
+    "size_mb": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "step down from megabyte to kilobyte",
+     "explain": "2 MB = 2 * 1024 KB = 2048 KB",
+     "compute": "size_in_kb = size_mb * 1024"
+    },
+    {
+     "step": 2,
+     "action": "step down from kilobyte to byte",
+     "explain": "2048 KB = 2048 * 1024 bytes = 2097152 bytes",
+     "compute": "bytes_total = size_in_kb * 1024"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip101.txt section 1.2 Moore's Law paragraph",
+   "concept": "keip101.3",
+   "question_type": "numeric",
+   "question_pattern": "A microprocessor had 4000000 transistors in 2002. Assuming Moore's law (doubling every two years), estimate the transistor count in 2012.",
+   "extracted_variables": {
+    "base_transistors": 4000000,
+    "years_span": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the doublings in ten years",
+     "explain": "10 // 2 = 5 doublings",
+     "compute": "doubling_steps = years_span // 2"
+    },
+    {
+     "step": 2,
+     "action": "compute the growth factor",
+     "explain": "2 ** 5 = 32",
+     "compute": "growth_factor = 2 ** doubling_steps"
+    },
+    {
+     "step": 3,
+     "action": "scale the base count",
+     "explain": "4000000 * 32 = 128000000 transistors",
+     "compute": "future_transistors = base_transistors * growth_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip101.txt Exercise Q9, Q11 (memory questions)",
+   "questions": [
+    "Convert into bytes: (a) 2 MB (b) 3.7 GB (c) 1.2 TB (answers: 2097152; 3972844748.8; 1319413953331.2)",
+    "How many nibbles are present in a 32-bit word? (8)",
+    "How many bytes make up a 64-bit word? (8)",
+    "Which unit of memory equals 1024 zettabytes? (yottabyte)",
+    "In which memory is the boot loader stored and why? (ROM, because it is non-volatile and rarely changed)",
+    "Which memory would you use to execute a running program and which to store data permanently? (RAM to execute; secondary memory to store permanently)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip101.txt Exercise Q1, Q5, Q7, Q8 (software and devices)",
+   "questions": [
+    "Name the software required to make a computer functional and state two of its functions. (operating system; manages hardware resources and provides user access/security)",
+    "Which output device builds a physical replica of a digital 3D design? (3D printer)",
+    "Which input device lets a user enter commands by speaking? (voice/microphone input)",
+    "Name the input device that helps a visually impaired person enter data. (braille keyboard)",
+    "Identify the category: compiler, assembler, Ubuntu, text editor. (programming tool, programming tool, system software, application software)",
+    "Give two points of difference between proprietary software and freeware, with one example of each. (proprietary: paid, closed, e.g. Tally; freeware: free to use, closed source, e.g. Adobe Reader)"
+   ]
+  }
+ ]
+}

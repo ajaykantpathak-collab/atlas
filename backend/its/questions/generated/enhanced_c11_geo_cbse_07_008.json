@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_008",
+   "title": "c11_geo_cbse_07_008",
+   "questions": [
+    {
+     "q": "Define \"barchan dune\" and state the three necessary conditions for its formation.",
+     "a": "A barchan dune is a crescent-shaped sand dune with horns pointing downwind, formed by unidirectional wind on a hard, flat surface with limited sand supply. The three necessary conditions are: (1) steady unidirectional wind, (2) limited sand supply (thin sand cover), and (3) a flat, hard ground surface (e.g., desert pavement). A wrong answer (e.g., \"formed by bidirectional wind\" or \"requires abundant sand\") reveals confusion with transverse or seif dunes and indicates the student cannot distinguish dune types by controlling factors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mushroom rocks (pedestal rocks) develop a narrow base and broad top, and why abrasion is most effective within 1–2 metres of the ground.",
+     "a": "Mushroom rocks form because wind-blown sand acts as an abrasive tool concentrated in the lowest 1–2 metres where saltating grains travel; the rock's base is eroded faster than the top. The broad top is a resistant cap rock that protects the underlying softer layer. A wrong answer (e.g., \"wind erodes the top more\" or \"chemical weathering causes the shape\") shows the student misunderstands the vertical distribution of wind's erosive power and the role of differential rock resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Given a wind rose diagram for Jaisalmer showing 70% winds from SW and 30% from NE, predict the orientation and shape of the dominant dune type. Sketch a plan view with wind directions.",
+     "a": "Dominant SW winds (70%) with subordinate NE winds (30%) produce seif (longitudinal) dunes oriented parallel to the resultant wind direction (roughly SW-NE). The dune ridges align with the acute angle bisector of the two wind directions. Steps: (1) Identify the two primary wind directions. (2) Determine the resultant drift direction (vector sum). (3) Seif dunes form parallel to the resultant direction when winds are bimodal with an angle > 90°. (4) Sketch elongated ridges with sharp crests, oriented SW-NE. A wrong answer (e.g., drawing barchans transverse to SW wind) reveals the student cannot apply the bimodal wind rule for seif dune formation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation of loess plains in the Kashmir Valley with those in the Chinese Loess Plateau. Identify two similarities and two differences in source, transport, and deposition.",
+     "a": "Similarities: (1) Both are formed by wind-blown silt (0.01–0.05 mm) deposited from suspension during dust storms. (2) Both develop vertical jointing (pipes) due to collapsible structure when wet. Differences: (1) Source: Kashmir loess derives from glacio-fluvial outwash of Himalayan glaciers; Chinese loess originates from Central Asian deserts (Gobi, Taklamakan) and glacial flour. (2) Transport distance: Kashmir loess is short-transported (local valley winds); Chinese loess is long-transported (westerlies). A wrong answer (e.g., \"both are sand deposits\" or \"Kashmir loess comes from the Thar Desert\") indicates confusion between sand and silt, and ignorance of sediment provenance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of planting Prosopis juliflora (vilayati keekar) to stabilize migrating barchan dunes near a village in the Thar Desert. Consider ecological and geomorphological consequences.",
+     "a": "Planting Prosopis juliflora reduces dune migration by trapping sand and increasing surface roughness, but it is an invasive species that depletes groundwater, outcompetes native vegetation, and alters soil chemistry. Geomorphologically, it converts mobile barchans into fixed, vegetated dunes, disrupting the natural sediment budget and potentially causing downwind sediment starvation. A balanced evaluation: short-term stabilization benefit vs. long-term ecological harm. A wrong answer (e.g., \"it's fully beneficial with no downsides\") shows lack of critical evaluation of human intervention in aeolian systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-month field study to monitor the migration rate of a barchan dune threatening a highway in Barmer district. Specify instruments, measurement intervals, data to collect, and how you would calculate the migration rate.",
+     "a": "A good plan includes: (1) Install 3–4 GPS-marked reference stakes on the dune crest and horns. (2) Use a theodolite or differential GPS to measure stake positions monthly. (3) Record wind speed/direction from a nearby AWS (Automatic Weather Station). (4) Measure dune height, width, and slip face angle each visit. (5) Calculate migration rate = horizontal displacement of crest / time (m/month). (6) Correlate with wind events (threshold velocity > 6 m/s). Poor plans omit fixed reference points, ignore wind data, or use only visual estimates, revealing inability to design quantitative geomorphological monitoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

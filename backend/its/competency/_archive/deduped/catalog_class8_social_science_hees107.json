@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "Factors of Production",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.107.7.1",
+   "title": "The Four Factors of Production",
+   "section": "7",
+   "definition": "Production needs four classic inputs - land, labour, capital and entrepreneurship - classified as factors of production; businesses combine them, paying rent for land, wages for labour and interest for capital, while profit rewards the organiser who bears the risk.",
+   "formula": "-",
+   "key_idea": "Land, labour, capital and enterprise join to produce; each factor earns its own return.",
+   "textbook_ref": "hees107.txt lines 153-200 (classification into four types)",
+   "question_patterns": [
+    "name the four factors of production",
+    "what does each factor of production earn as a reward",
+    "why are land, labour and capital not enough without enterprise",
+    "give one example of each factor of production from a bakery",
+    "define factors of production in your own words",
+    "which factor of production organises the other three"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the inputs",
+     "explain": "Identify land, labour, capital and the organising entrepreneur in any production story."},
+    {"step": 2, "action": "match the rewards",
+     "explain": "Rent, wages, interest and profit respectively pay for the four factors."},
+    {"step": 3, "action": "see the combination",
+     "explain": "Production happens only when all four factors work together."}
+   ]
+  },
+  {
+   "id": "hees.107.7.2",
+   "title": "Land as a Factor: Natural Resources",
+   "section": "7",
+   "definition": "In economics, land means far more than ground - it covers all natural gifts like soil, forests, water, air and minerals that businesses use, paying rent for them; the gifts of nature set the base on which production stands.",
+   "formula": "-",
+   "key_idea": "Land in economics is every free gift of nature used in production.",
+   "textbook_ref": "hees107.txt lines 160-175 (land encompasses natural resources, rent)",
+   "question_patterns": [
+    "what does the term land include in economics",
+    "why are minerals and forests counted under land",
+    "what reward does the factor land receive",
+    "how does the quality of land affect production",
+    "give examples of land as a factor of production",
+    "can the supply of land be increased - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "widen the meaning",
+     "explain": "Include soil, water, forests, air and minerals as land."},
+    {"step": 2, "action": "note its fixedness",
+     "explain": "Nature's total supply of these gifts cannot be expanded at will."},
+    {"step": 3, "action": "note the payment",
+     "explain": "Users pay rent for the right to employ these natural inputs."}
+   ]
+  },
+  {
+   "id": "hees.107.7.3",
+   "title": "Labour and Human Effort",
+   "section": "7",
+   "definition": "Labour is the physical and mental human effort that turns materials into goods and services - from a farmer's fieldwork to an engineer's design - and it earns wages; the quality of labour, shaped by education and skill, decides how productive an economy can be.",
+   "formula": "-",
+   "key_idea": "Every productive human effort, bodily or mental, is labour paid as wages.",
+   "textbook_ref": "hees107.txt lines 175-230 (labour as a factor, wages)",
+   "question_patterns": [
+    "define labour as a factor of production",
+    "what reward does labour receive",
+    "distinguish physical and mental labour with examples",
+    "how does education improve the quality of labour",
+    "why is labour called an active factor of production",
+    "give two examples of skilled labour in your area"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the effort",
+     "explain": "Count all human work - manual and intellectual - applied to production."},
+    {"step": 2, "action": "note the skill levels",
+     "explain": "Training and education raise labour productivity."},
+    {"step": 3, "action": "note the payment",
+     "explain": "Wages and salaries are the returns to labour."}
+   ]
+  },
+  {
+   "id": "hees.107.7.4",
+   "title": "Capital and Entrepreneurship",
+   "section": "7",
+   "definition": "Capital means the man-made aids of production - machines, tools, buildings, money invested - earning interest, while the entrepreneur supplies ideas, organises the other factors, takes risks and earns profit; technology acts as an enabler that multiplies what all four factors can produce.",
+   "formula": "-",
+   "key_idea": "Machines and money are capital; the risk-taking organiser is the entrepreneur, rewarded by profit.",
+   "textbook_ref": "hees107.txt lines 230-570 (capital, entrepreneurship), 586-650 (technology an enabler)",
+   "question_patterns": [
+    "define capital with examples",
+    "what is the reward for capital",
+    "what functions does an entrepreneur perform",
+    "why does the entrepreneur earn profit",
+    "how does technology act as an enabler of production",
+    "distinguish capital from land as factors of production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the man-made aids",
+     "explain": "Machines, tools and invested money count as capital earning interest."},
+    {"step": 2, "action": "spot the organiser",
+     "explain": "The entrepreneur combines factors, innovates and bears losses."},
+    {"step": 3, "action": "add the enabler",
+     "explain": "Better technology raises the output of the same land, labour and capital."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hees107.txt factors sections",
+   "questions": [
+     "Name the four factors of production and their rewards.",
+     "What items can be labelled as land in economics?",
+     "Why is entrepreneurship called the organising factor?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hees107.txt technology section",
+   "questions": [
+     "How does technology increase production?",
+     "Give an example of a business and identify its land, labour, capital and entrepreneur."
+   ]
+  }
+ ]
+}

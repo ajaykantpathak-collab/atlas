@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_006",
+   "title": "c12_eco_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the three conditions that must hold simultaneously for a perfectly competitive firm to be in long-run equilibrium.",
+     "a": "The three conditions are: (1) Price = Long-run Marginal Cost (P = LMC); (2) Price = minimum Long-run Average Cost (P = min LAC); (3) LMC curve cuts the LAC curve from below at the minimum point. A wrong answer (e.g., only stating P = MC) reveals the student is confusing short-run and long-run conditions or forgetting the zero-profit requirement that forces P to be exactly at min LAC.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a perfectly competitive firm cannot earn supernormal profit or incur losses in the long run, using the concepts of free entry and exit.",
+     "a": "If firms earn supernormal profit (P > min LAC), new firms enter the industry, increasing market supply, which lowers the market price until P = min LAC and supernormal profit disappears. If firms incur losses (P < min LAC), some firms exit, decreasing market supply, which raises the market price until P = min LAC and losses disappear. A wrong answer that says \"firms adjust their plant size\" misses the industry-level mechanism of entry/exit; the firm itself cannot change the market price — only the collective entry/exit of firms does.",
+     "self_check": true
+    },
+    {
+     "q": "A perfectly competitive firm has a long-run total cost function LTC(q) = q³ - 10q² + 36q. The market demand is Qd = 120 - 5P. Find the long-run equilibrium price, the equilibrium output per firm, and the number of firms in the industry.",
+     "a": "Step 1: Find LAC = LTC/q = q² - 10q + 36. Step 2: Find min LAC by setting d(LAC)/dq = 2q - 10 = 0 → q = 5. Step 3: min LAC = 5² - 10(5) + 36 = 11. So long-run equilibrium price P* = 11. Step 4: Market demand at P=11: Qd = 120 - 5(11) = 65. Step 5: Number of firms n = Qd / q* = 65 / 5 = 13. A wrong answer (e.g., using SMC instead of LMC, or not minimizing LAC) reveals confusion between short-run and long-run cost concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-run industry supply curve under three scenarios: (a) constant cost industry, (b) increasing cost industry, (c) decreasing cost industry. What determines the slope in each case?",
+     "a": "(a) Constant cost industry: horizontal long-run supply curve — entry/exit does not affect input prices. (b) Increasing cost industry: upward sloping — entry increases demand for inputs, raising input prices and shifting firms' cost curves up. (c) Decreasing cost industry: downward sloping — entry allows external economies (e.g., better infrastructure, specialized labor), lowering input prices and shifting cost curves down. A wrong answer that draws all three as horizontal ignores the role of external economies/diseconomies of scale at the industry level.",
+     "self_check": true
+    },
+    {
+     "q": "\"In the long run, a perfectly competitive firm produces at the minimum point of its LAC curve. Therefore, it is productively efficient.\" Evaluate this statement. Is the firm also allocatively efficient in the long run? Justify.",
+     "a": "Yes, the firm is productively efficient because it produces at min LAC, meaning output is produced at the lowest possible average cost. It is also allocatively efficient because P = LMC at equilibrium, so the price (marginal benefit to consumers) equals the marginal cost (marginal social cost). A wrong answer that says \"only productively efficient\" forgets the P = MC condition which is the definition of allocative efficiency in perfect competition.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a perfectly competitive firm initially earns supernormal profit in the short run, then show step-by-step how the industry transitions to long-run equilibrium. Specify the initial market price, the firm's cost functions, and the final equilibrium.",
+     "a": "Example: Firm's LTC = q³ - 8q² + 20q. LAC = q² - 8q + 20. Min LAC at q=4, min LAC=4. Suppose initial market demand gives P=6. Short-run: firm produces where P=SMC (assume SMC similar to LMC for simplicity), earns supernormal profit (P > min LAC). Entry occurs → market supply increases → price falls to 4. At P=4, each firm produces q=4, earns zero economic profit. Number of firms adjusts to meet market demand at P=4. A poor answer fails to show the dynamic adjustment via entry/exit and the final P = min LAC condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

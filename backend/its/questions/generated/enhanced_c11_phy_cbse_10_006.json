@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_006",
+   "title": "c11_phy_cbse_10_006",
+   "questions": [
+    {
+     "q": "State the SI unit of specific heat capacity and write its dimensional formula.",
+     "a": "The SI unit is J kg⁻¹ K⁻¹. Dimensional formula: [L² T⁻² K⁻¹]. A wrong answer like J K⁻¹ reveals confusion between heat capacity (S) and specific heat capacity (s) — the student omitted the per-unit-mass aspect. An answer in cal g⁻¹ °C⁻¹ shows familiarity with CGS units but failure to convert to SI as required in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical vessels contain equal masses of water and mustard oil at the same initial temperature. Equal heat is supplied to both for the same duration. Which liquid will have a higher final temperature and why?",
+     "a": "Mustard oil will have a higher final temperature because its specific heat capacity (~1965 J kg⁻¹ K⁻¹) is lower than water's (4186 J kg⁻¹ K⁻¹). For the same Q, m, and Δt, ΔT = Q/(ms) is larger when s is smaller. A student who says water gets hotter confuses \"high specific heat\" with \"heats up easily\" — they think high s means large temperature rise, reversing the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.5 kg aluminium block (s = 900 J kg⁻¹ K⁻¹) is heated from 27°C to 77°C. Calculate the heat energy supplied in kJ.",
+     "a": "Given: m = 0.5 kg, s = 900 J kg⁻¹ K⁻¹, ΔT = 77 - 27 = 50 K.\nStep 1: Formula Q = m s ΔT\nStep 2: Substitute: Q = (0.5 kg) × (900 J kg⁻¹ K⁻¹) × (50 K)\nStep 3: Compute: Q = 22,500 J\nStep 4: Convert to kJ: 22.5 kJ\nUnit check: kg × J kg⁻¹ K⁻¹ × K = J ✓\nA wrong answer of 22500 kJ indicates missing the J→kJ conversion. An answer of 45 kJ suggests using ΔT = 100 K (confusing °C difference with absolute values).",
+     "self_check": true
+    },
+    {
+     "q": "The specific heat capacity of water is 4186 J kg⁻¹ K⁻¹ while that of sand is ~800 J kg⁻¹ K⁻¹. Using this, explain why coastal cities like Mumbai have milder summers than inland cities like Delhi, even at similar latitudes.",
+     "a": "Water's high specific heat means it absorbs large heat with small temperature rise. During daytime, the sea absorbs solar energy but warms slowly, while land (low s) heats rapidly. The cooler sea breeze flows toward land, moderating coastal temperatures. At night, water releases heat slowly, keeping coasts warmer. A student who only states \"water has high specific heat\" without linking to heat absorption/release rates and convection currents shows incomplete understanding of the thermal inertia mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the mass of a substance, its specific heat capacity also doubles because there's more material to heat.\" Evaluate this statement.",
+     "a": "The statement is false. Specific heat capacity is an intensive property — it does not depend on mass. Doubling mass doubles the heat capacity (S = ms), but s = S/m remains constant. The student confuses extensive property (heat capacity) with intensive property (specific heat capacity). This misconception often arises from thinking \"more substance = more heat needed = higher specific heat\" without recognizing the per-unit-mass normalization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to compare the specific heat capacities of cooking oil and water without using a thermometer. Explain your method and how you would deduce which has higher specific heat.",
+     "a": "Method: Take equal masses (e.g., 100 g each) of water and oil in identical steel containers. Place both on identical gas stove burners at the same flame setting. Start stopwatch when heating begins. Observe which liquid reaches boiling/vigorous bubbling first. The liquid that takes longer to boil has higher specific heat capacity (water). Deduction: Same heat input rate (same burner), same mass, same ΔT (room temp to boiling) → time ∝ s. A poor answer uses unequal masses, different containers, or relies on \"feeling\" temperature, showing lack of controlled-variable thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_11_013",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_11_013",
+   "title": "c12_eng_f_cbse_11_013",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme of the excerpt from \"A Thing of Beauty\" provided in the NCERT textbook, and how many rhyming couplets does it contain?",
+     "a": "The rhyme scheme is AABBCCDDEEFF (six rhyming couplets: forever/never, keep/sleep, earth/mirth — wait, \"earth\" doesn't rhyme with \"mirth\" in standard pronunciation; the actual pairs are: forever/never, keep/sleep, earth/dearth, days/ways, all/pall, boon/moon — actually let's recount from the text: forever/never (1), keep/sleep (2), earth/dearth (3), days/ways (4), all/pall (5), moon/boon (6), rills/brake — no, \"rills\" rhymes with \"ills\"? The text shows: rills/brake (no), brake/blooms (no), blooms/dooms (7), dead/read (8), drink/brink (9). So there are 9 couplets. A wrong answer like \"alternate rhyme ABAB\" reveals the student is confusing this poem's couplet form with the stanzaic patterns of other poems like \"Keeping Quiet\" or \"My Mother at Sixty-Six,\" indicating they haven't visually mapped the line endings.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what the line \"Therefore, on every morrow, are we wreathing / A flowery band to bind us to the earth\" suggests about the relationship between human beings and beauty. Do not quote the textbook's \"Think it out\" answer.",
+     "a": "The line suggests that beauty is not a passive gift but an active, daily ritual (\"every morrow\") where humans consciously gather beautiful experiences (\"wreathing a flowery band\") to anchor themselves to life (\"bind us to the earth\") despite despair. A wrong answer like \"it means we make flower garlands every morning\" reveals literalism — the student misses the metaphorical \"wreathing\" as a mental/spiritual act and the \"band\" as psychological tethering rather than physical decoration. This error shows the student hasn't internalized the distinction between literal and figurative language covered in c12_eng_f_cbse_11_008.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"contrast as structural principle\" to the poem: Identify two pairs of contrasting images (one from the \"suffering\" list, one from the \"beauty\" list) and explain how each pair reinforces the poem's central argument.",
+     "a": "Pair 1: \"gloomy days\" / \"unhealthy and o'er-darkened ways\" (suffering) contrasted with \"the sun, the moon, / Trees old, and young, sprouting a shady boon\" (beauty). The oppressive darkness of human-made suffering is answered by natural light and organic shelter. Pair 2: \"despondence\" / \"inhuman dearth / Of noble natures\" (spiritual emptiness) contrasted with \"the grandeur of the dooms / We have imagined for the mighty dead\" (ennobling memory). The absence of living nobility is compensated by imagined heroic legacies. A wrong answer that merely lists \"sun vs. gloomy days\" without explaining the *structural* function — how beauty *responds* to each specific sorrow — shows the student can spot opposites but not analyze dialectical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the metaphor \"an endless fountain of immortal drink / Pouring unto us from the heaven's brink\" transforms the poem's earlier imagery of discrete beautiful objects (sun, moon, trees, daffodils, rills, musk-rose) into a unified philosophical claim.",
+     "a": "The fountain metaphor synthesizes the preceding catalogue of separate beauties into a single, continuous, divine source. \"Endless\" echoes \"joy forever\" and \"never / Pass into nothingness\"; \"immortal drink\" elevates physical pleasures (cooling rills, shady boon) into spiritual sustenance; \"heaven's brink\" relocates beauty from earthly scenes to a transcendent origin, implying beauty is not *in* the objects but *flows through* them. A wrong answer that says \"it just means beauty is like water\" misses the synthesis — the student treats the metaphor as decoration rather than the poem's culminating argument that beauty is a unified, inexhaustible, sacred resource.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Keats's poem offers escapism — it tells us to ignore suffering by focusing on pretty things.\" Defend your judgment using at least three specific textual references.",
+     "a": "The claim is false. Textual evidence: (1) \"Spite of despondence, of the inhuman dearth / Of noble natures, of the gloomy days\" — Keats *names* and *confronts* suffering before introducing beauty's counteraction. (2) \"Some shape of beauty moves away the pall / From our dark spirits\" — beauty *removes* the pall (funeral cloth), implying it engages with grief rather than denying it. (3) \"grandeur of the dooms / We have imagined for the mighty dead\" — beauty includes *mortality itself* reframed heroically, not avoided. A wrong answer agreeing with the claim reveals the student equates \"beauty\" with \"prettiness\" and misses the poem's tragic realism — a confusion rooted in not distinguishing Romantic \"beauty\" (which includes the sublime and terrible) from superficial decoration.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in rhyming couplets (AABB) that extends Keats's argument by naming a modern \"thing of beauty\" (e.g., a scientific discovery, a digital archive, a community garden) and explaining how it \"moves away the pall\" from a specific contemporary sorrow.",
+     "a": "Example: \"The open-source code that heals a child's rare disease, / A global mind's gift, given freely, without fees. / It lifts the pall of profit-driven despair, / Proving shared knowledge is a beauty rare.\" Criteria for a good answer: (a) strict AABB couplets, (b) names a specific modern beauty, (c) names a specific modern sorrow, (d) uses \"pall\" or equivalent metaphor of lifting darkness, (e) maintains Keats's tone of quiet conviction. A poor answer that writes free verse or describes a sunset without linking to a sorrow shows the student hasn't grasped the poem's argumentative structure — beauty *answers* suffering, it doesn't just exist alongside it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

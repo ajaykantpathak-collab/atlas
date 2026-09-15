@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_003",
+   "title": "c12_hist_cbse_07_003",
+   "questions": [
+    {
+     "q": "In what year was the Vijayanagara Empire founded, and by which dynasty?",
+     "a": "The Vijayanagara Empire was founded in 1336 by the Sangama dynasty (Harihara I and Bukka I). A wrong answer (e.g., 1347, 1526, or naming the wrong dynasty) reveals the student confuses Vijayanagara's founding with the Bahmani Sultanate (1347), the Mughal Empire (1526), or later dynastic shifts within Vijayanagara itself — indicating they haven't anchored the baseline chronology.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Saluva dynasty replace the Sangama dynasty in 1485, and what does this reveal about power structures in Vijayanagara?",
+     "a": "The Saluvas were military commanders (nayakas) who seized power from the Sangamas in 1485, showing that real power often lay with military chiefs rather than hereditary kings. A wrong answer (e.g., \"Saluvas were foreign invaders\" or \"Sangamas died out naturally\") reveals the student misses the pattern of internal coups by commanders — a recurring theme that later enabled the Tuluva and Aravidu takeovers and the rise of independent nayaka kingdoms.",
+     "self_check": true
+    },
+    {
+     "q": "Krishnadeva Raya (1509–1529) belonged to which dynasty, and what major territorial gains did he achieve?",
+     "a": "Krishnadeva Raya belonged to the Tuluva dynasty. He acquired the Raichur Doab (1512), subdued the Gajapati rulers of Orissa (1514), and defeated the Sultan of Bijapur (1520). A wrong answer (e.g., naming Sangama or Aravidu dynasty, or omitting the Raichur Doab) shows the student cannot link the empire's greatest ruler to his dynasty or his concrete achievements — essential for board questions on \"apogee of the empire.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the circumstances of the Tuluva-to-Aravidu transition (post-1529) with the earlier Sangama-to-Saluva transition (1485). What pattern emerges?",
+     "a": "Both transitions involved military commanders seizing power: Saluvas were commanders who overthrew Sangamas (1485); Aravidus (led by Rama Raya, a minister/commander) took control after Krishnadeva Raya's death (1542) when Tuluva successors faced rebellious nayakas. The pattern: hereditary kings repeatedly lost control to their own military subordinates. A student who sees these as unrelated events misses the structural weakness — the amara-nayaka system (covered in c12_hist_cbse_07_004) created power centres that could challenge the centre.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Aravidu dynasty's rule from Penukonda and Chandragiri after 1565 represents a continuation of the Vijayanagara Empire.\" Support your judgment with evidence.",
+     "a": "The claim is partially valid but misleading. The Aravidus (Tirumala Deva Raya) did shift the capital to Penukonda and later Chandragiri, maintaining ritual legitimacy (signing orders as \"Shri Virupaksha\") and nayaka allegiances. However, the empire had effectively fragmented: major nayakas (Madurai, Tanjavur, Ikkeri, Mysore) became independent, and the Sultanates controlled the northern territories. A student calling it \"full continuation\" ignores the loss of territorial integrity; one calling it \"total collapse\" ignores the political continuity. The nuanced answer is required for board \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the four dynasties, their reign periods, and one key event for each that explains its rise or fall.",
+     "a": "Expected timeline:\n- Sangama (1336–1485): Founding by Harihara/Bukka (1336) → Overthrown by Saluva commanders (1485)\n- Saluva (1485–1503): Saluva Narasimha's usurpation → Weak successors, overthrown by Tuluva commander Vira Narasimha (1503)\n- Tuluva (1503–1570): Krishnadeva Raya's apogee (1509–29) → Post-1529 rebellions, Rama Raya's dominance, Talikota defeat (1565)\n- Aravidu (1542–1646): Rama Raya's de facto rule → Tirumala shifts capital to Penukonda (1565), then Chandragiri → Final extinction (1646)\nA poor answer lists only dates without causal events, showing inability to link chronology to historical causation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

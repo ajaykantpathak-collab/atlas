@@ -1,0 +1,203 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "Dynamics of Population",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.206.6.1",
+   "title": "India's Place in World Population",
+   "section": "6",
+   "definition": "India holds about 17 per cent of the world's population on a much smaller share of the world's land, making it one of the most populous countries; knowing who lives where, in what numbers and with what characteristics is the work of the census and population studies.",
+   "formula": "share = group_population / world_population * 100",
+   "key_idea": "One in every six humans is Indian: population size shapes every plan and resource.",
+   "textbook_ref": "hees206.txt lines 103-130 (India 17 per cent of world population), 640-660 (share across states)",
+   "question_patterns": [
+    "what share of the world's population lives in India",
+    "why is the study of population important for a country",
+    "what is a census and how often is it held in India",
+    "which states hold the largest share of India's population",
+    "how does India's population compare with the world's",
+    "calculate a population's percentage share from given numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide the part by the whole",
+     "explain": "The group's population over the world total gives the fraction.",
+     "compute": "ratio = group_population / world_population"},
+    {"step": 2, "action": "convert to per cent",
+     "explain": "Multiply by 100 to read the share in per cent.",
+     "compute": "share = ratio * 100"}
+   ]
+  },
+  {
+   "id": "hees.206.6.2",
+   "title": "What Determines Population Change: Births, Deaths and Migration",
+   "section": "6",
+   "definition": "Population size changes through three flows - births add people, deaths remove them, and migration shifts them across borders; the difference between birth rate and death rate gives natural growth, while healthcare, literacy and income steer all three flows.",
+   "formula": "natural_growth = birth_rate - death_rate",
+   "key_idea": "Births minus deaths is natural growth; migration adds the human shuffle on top.",
+   "textbook_ref": "hees206.txt lines 312-440 (what determines the population of a country)",
+   "question_patterns": [
+    "what are the causes of population change",
+    "define birth rate and death rate",
+    "how does migration change the population of a place",
+    "what is natural growth of population",
+    "how do healthcare and literacy affect population growth",
+    "find the natural growth when birth and death rates are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the difference of the rates",
+     "explain": "Birth rate minus death rate is the natural growth rate.",
+     "compute": "natural_growth = birth_rate - death_rate"}
+   ]
+  },
+  {
+   "id": "hees.206.6.3",
+   "title": "Age Composition and the Working-Age Group",
+   "section": "6",
+   "definition": "A population is layered by age: around 27 per cent of Indians are below 15 years, nearly 65 per cent fall in the working-age group of 15 to 59, and the elderly share is rising fast - from about 14 per cent in 2023 toward 26 per cent by 2050 in ageing societies - a shift called population ageing.",
+   "formula": "-",
+   "key_idea": "A young majority is a demographic dividend; a swelling elderly share is the coming challenge.",
+   "textbook_ref": "hees206.txt lines 399-440 (ageing from 14 to 26 per cent), 967-975 (27 per cent under 15, 65 per cent working age)",
+   "question_patterns": [
+    "what proportion of India's population is below 15 years",
+    "what is meant by the working-age population",
+    "explain population ageing with the 14 to 26 per cent projection",
+    "why is a large working-age group called a demographic dividend",
+    "what challenges does an ageing population bring",
+    "draw the age-group-wise distribution of India's population"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the age pyramid",
+     "explain": "Split the population into children, working age and elderly."},
+    {"step": 2, "action": "note the trend",
+     "explain": "Falling births and longer lives raise the elderly share year after year."},
+    {"step": 3, "action": "draw the implications",
+     "explain": "Jobs must absorb the young; pensions and healthcare must serve the old."}
+   ]
+  },
+  {
+   "id": "hees.206.6.4",
+   "title": "Sex Ratio, Literacy and Regional Patterns",
+   "section": "6",
+   "definition": "Population composition also tracks the sex ratio - women were about 48.5 per cent of the population in the most recent count - along with literacy rates that vary sharply among states, and uneven state-wise shares of population shaped by fertility, healthcare and development.",
+   "formula": "-",
+   "key_idea": "Sex ratio and literacy map the quality of life across India's states.",
+   "textbook_ref": "hees206.txt lines 440-530 (fertility and literacy rates), 640-660 (state shares), 741 (48.5 per cent women)",
+   "question_patterns": [
+    "what is the sex ratio of India's population",
+    "compare the literacy rates of selected Indian states",
+    "why do some states have higher fertility rates than others",
+    "how is literacy linked to population growth",
+    "which states hold the largest shares of India's population",
+    "how does women's literacy influence family size"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the composition data",
+     "explain": "Census tables give sex ratio, literacy and fertility by state."},
+    {"step": 2, "action": "compare the states",
+     "explain": "Southern and western states generally show higher literacy and lower fertility."},
+    {"step": 3, "action": "link cause and effect",
+     "explain": "Education, especially of women, lowers fertility and raises wellbeing."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hees206.txt lines 103-120, India's world share",
+   "concept": "hees.206.6.1",
+   "question_type": "compute",
+   "question_pattern": "India has {group_population} people out of a world population of {world_population}. Find India's percentage share.",
+   "extracted_variables": {
+    "group_population": "population of the country",
+    "world_population": "total world population"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the country by the world",
+     "explain": "The fraction of humanity living in India.",
+     "compute": "ratio = group_population / world_population"},
+    {"step": 2, "action": "convert to per cent",
+     "explain": "Multiply by 100 for the share in per cent.",
+     "compute": "share = ratio * 100"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hees206.txt lines 312-360, growth components",
+   "concept": "hees.206.6.2",
+   "question_type": "compute",
+   "question_pattern": "A country's birth rate is {birth_rate} per thousand and death rate is {death_rate} per thousand. Find its natural growth rate.",
+   "extracted_variables": {
+    "birth_rate": "births per thousand people",
+    "death_rate": "deaths per thousand people"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract death rate from birth rate",
+     "explain": "Natural growth is the surplus of births over deaths.",
+     "compute": "natural_growth = birth_rate - death_rate"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hees206.txt lines 640-660, state-wise shares",
+   "concept": "hees.206.6.1",
+   "question_type": "compute",
+   "question_pattern": "A state has {group_population} people out of India's {world_population} people. Find the state's percentage share.",
+   "extracted_variables": {
+    "group_population": "population of the state",
+    "world_population": "total population of India"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the state by the nation",
+     "explain": "The state's fraction of the national total.",
+     "compute": "ratio = group_population / world_population"},
+    {"step": 2, "action": "convert to per cent",
+     "explain": "Multiply by 100 for the share.",
+     "compute": "share = ratio * 100"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hees206.txt lines 312-390, migration component",
+   "concept": "hees.206.6.2",
+   "question_type": "compute",
+   "question_pattern": "A place records a birth rate of {birth_rate} and a death rate of {death_rate} per thousand. How much did births exceed deaths?",
+   "extracted_variables": {
+    "birth_rate": "births per thousand people",
+    "death_rate": "deaths per thousand people"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the rates",
+     "explain": "The surplus of births over deaths drives natural growth.",
+     "compute": "natural_growth = birth_rate - death_rate"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hees206.txt composition sections",
+   "questions": [
+     "What per cent of the world's population does India hold?",
+     "Explain the age composition of India's population.",
+     "Why is population ageing a growing concern?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hees206.txt determinants sections",
+   "questions": [
+     "Name the three causes of population change.",
+     "How does literacy affect fertility rates?",
+     "Compare the population shares of Indian states."
+   ]
+  }
+ ]
+}

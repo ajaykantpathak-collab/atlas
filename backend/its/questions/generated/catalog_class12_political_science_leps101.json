@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_political_science_leps101",
+ "concepts": [
+  {
+   "id": "leps.101.1",
+   "title": "Soviet System and Its Collapse",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Soviet System and Its Collapse' refers to.",
+     "a": "The Soviet system, built after the 1917 Bolshevik revolution, concentrated economic and political power in the communist party and a centrally planned economy; by the 1980s stagnation, shortages and the arms burden with the USA had weakened it, and Gorbachev's reforms of glasnost and perestroika accelerated rather than saved the system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Soviet System and Its Collapse'.",
+     "a": "Reform exposed the rot: once censorship and central control loosened, republics and nationalities moved for independence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Soviet System and Its Collapse' taught, and from which source text?",
+     "a": "The Soviet System (source: leps101.txt soviet system, stagnation and Gorbachev reforms sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.101.2",
+   "title": "Berlin Wall's Fall and Bipolarity's End",
+   "questions": [
+    {
+     "q": "Using the method 'Berlin Wall's Fall and Bipolarity's End', work with: ussr_end_year = 2600, wall_year = 1989. Carry the chain through step by step and give the final value of wall_to_end.",
+     "a": "611 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Berlin Wall's Fall and Bipolarity's End' and work with: ussr_end_year = 2600, wall_year = 1989. Carry the chain through step by step and give the final value of wall_to_end.",
+     "a": "611 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Berlin Wall's Fall and Bipolarity's End' refers to.",
+     "a": "The Berlin Wall, built at the height of the Cold War as its greatest symbol, was toppled by the people in 1989; two years later the Soviet Union itself dissolved, so the wall's fall and the union's end are separated by the difference of 1991 and 1989.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Berlin Wall's Fall and Bipolarity's End'.",
+     "a": "Subtracting the wall's fall year from the Soviet end year gives the gap in years between the two events.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Berlin Wall's Fall and Bipolarity's End', in plain ASCII form.",
+     "a": "wall_to_end = ussr_end_year - wall_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.101.3",
+   "title": "Shock Therapy and Its Consequences",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Shock Therapy and Its Consequences' refers to.",
+     "a": "Post-communist states adopted shock therapy - abrupt transition to capitalism under Washington consensus prescriptions: privatisation of assets, free trade, currency convertibility; the therapy produced deep initial contraction, oligarchic capture of privatised assets and social distress, with uneven recovery across states.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shock Therapy and Its Consequences'.",
+     "a": "Speed was the therapy and the disease: overnight privatisation handed state assets to insiders while safety nets vanished.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Shock Therapy and Its Consequences' taught, and from which source text?",
+     "a": "Shock Therapy in Post-communist Regimes (source: leps101.txt shock therapy features and consequences sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.101.4",
+   "title": "India and Post-communist States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India and Post-communist States' refers to.",
+     "a": "India maintained long friendship with the Soviet Union - defence supplies, diplomatic support and trade - and after 1991 rebuilt ties with Russia and the new republics through energy, defence partnership and connectivity initiatives like the International North-South corridor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and Post-communist States'.",
+     "a": "The end of bipolarity did not end the partnership: India and Russia re-tooled an old friendship for a multipolar market age.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India and Post-communist States' taught, and from which source text?",
+     "a": "India and Post-communist Countries (source: leps101.txt India-Soviet relations and post-1991 ties sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

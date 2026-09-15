@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "India, That Is Bharat",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.5.1",
+   "title": "Bharat and India: Names Across Time",
+   "section": "Ancient names",
+   "definition": "Our country has carried many names: Bharat, Bhāratavarsha and India, each rooted in ancient texts and usage, so that the constitution itself begins with the words, India, that is Bharat.",
+   "formula": "",
+   "key_idea": "Names hold memory: calling the land Bharat or India ties today's nation to millennia of history.",
+   "textbook_ref": "fees105.txt, Ancient names",
+   "question_patterns": [
+    "what are the ancient names of india mentioned in the chapter",
+    "why does the constitution say india that is bharat",
+    "where does the name bharat come from",
+    "how old is the use of the name bharatavarsha",
+    "who were the people who wrote about india in ancient times",
+    "why do names of countries matter to their people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.5.2",
+   "title": "The Indian Subcontinent and Its Bounds",
+   "section": "Physical map of the subcontinent",
+   "definition": "India sits in the Indian subcontinent, a great triangle of land walled by the Himalayas in the north, washed by the Arabian Sea and the Bay of Bengal, and crossed by rivers such as the Indus, Sarasvati and Ganga.",
+   "formula": "",
+   "key_idea": "Natural boundaries of mountains and seas helped a distinct civilisation grow between the Himalayas and the two seas.",
+   "textbook_ref": "fees105.txt, Physical map of the subcontinent",
+   "question_patterns": [
+    "what are the natural boundaries of the indian subcontinent",
+    "which mountains guard the subcontinent in the north",
+    "name the two seas that wash the indian subcontinent",
+    "which rivers are shown on the physical map of the subcontinent",
+    "why is the subcontinent called a distinct region",
+    "what did sri aurobindo say about the land between the himalayas and the two seas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.5.3",
+   "title": "Evidence from Sanchi Stupa",
+   "section": "Fig. 5.1, Sanchi",
+   "definition": "A carving on the north gate of the Great Sanchi Stupa shows a rural Indian scene of about 2,300 years ago; monuments like Sanchi are material sources that let us picture life in ancient times.",
+   "formula": "",
+   "key_idea": "A stone carving is a window: the Sanchi panel preserves a day of village work from centuries ago.",
+   "textbook_ref": "fees105.txt, Fig. 5.1, Sanchi",
+   "question_patterns": [
+    "what does the sanchi stupa carving show",
+    "how old is the scene carved at sanchi",
+    "why are stupas important sources of history",
+    "what part of the sanchi stupa carries the relief discussed",
+    "how do monuments differ from written sources",
+    "what can farmers and huts in a carving tell historians"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.5.4",
+   "title": "India and Its Neighbours",
+   "section": "India in the world",
+   "definition": "The chapter places India among its neighbours of the subcontinent and shows how land and sea routes linked the region, carrying goods and ideas in every direction for thousands of years.",
+   "formula": "",
+   "key_idea": "No country lives alone: India's story is tied to the lands and waters around it.",
+   "textbook_ref": "fees105.txt, India in the world",
+   "question_patterns": [
+    "which countries are india's neighbours in the subcontinent",
+    "how did land routes connect india with its neighbours",
+    "why were sea routes important for ancient india",
+    "how do ideas travel along with trade",
+    "what makes the subcontinent a shared geographical space",
+    "how does geography shape relations between neighbouring countries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees105.txt",
+   "concept": "fees.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the chapter show a carving from the Sanchi Stupa?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look at the gate",
+     "explain": "The north gate of the Great Sanchi Stupa carries a carved rural scene."
+    },
+    {
+     "step": 2,
+     "action": "read it as a source",
+     "explain": "A carving 2,300 years old is evidence: it shows clothes, huts and work of that age without a single written word."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees105.txt",
+   "concept": "fees.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "How do natural boundaries shape a civilisation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "mark the edges",
+     "explain": "Mountains in the north and seas on two sides fence the subcontinent."
+    },
+    {
+     "step": 2,
+     "action": "draw the result",
+     "explain": "Within this frame, rivers watered farms and routes joined people, letting one civilisation grow distinct."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees105.txt, Let us discuss",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "What scene does the Sanchi Stupa panel show?",
+    "Which rivers appear on the physical map of the subcontinent?",
+    "Discuss the meaning of the quotation by Sri Aurobindo.",
+    "Write the many names of India you have heard and where you heard them."
+   ]
+  }
+ ]
+}

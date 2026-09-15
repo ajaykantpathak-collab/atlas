@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_004",
+   "title": "c12_bs_cbse_11_004",
+   "questions": [
+    {
+     "q": "Define Marketing Mix and list its four components.",
+     "a": "Marketing Mix is the set of controllable tactical tools (Product, Price, Place, Promotion) a firm blends to elicit the desired response in the target market. The four components are Product, Price, Place, and Promotion. A wrong answer (e.g., listing \"People\" or \"Process\") reveals confusion with the extended 7 Ps of services marketing or a misunderstanding that the 4 Ps are the core framework for goods marketing in Class 12.",
+     "self_check": true
+    },
+    {
+     "q": "A company sells affordable smartphones but only through its own website. Sales are low in rural areas where internet penetration is low. Which P is misaligned, and why?",
+     "a": "Place is misaligned. The product and price suit rural buyers, but the distribution channel (online only) does not reach them where they shop. A wrong answer like \"Price\" or \"Promotion\" shows the student cannot isolate the distribution gap — a common error when students focus on the product or advertising instead of accessibility.",
+     "self_check": true
+    },
+    {
+     "q": "A startup launches an organic skincare line priced at ₹2,500 for a 50ml bottle. Target customers are college students. Identify the conflicting Ps and suggest one adjustment for each.",
+     "a": "Price and Product conflict with the target market. Adjustment: lower Price (e.g., smaller 15ml trial size at ₹500) or modify Product (simpler formulation to reduce cost). A wrong answer that only changes Promotion (e.g., \"advertise more on Instagram\") ignores the fundamental price-value mismatch — a typical trap where students think promotion can fix a wrong price-product fit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Product and Promotion in creating customer value. How does a change in Product design affect Promotion strategy?",
+     "a": "Product creates core value (features, quality, design); Promotion communicates that value. If Product design changes (e.g., adding a spill-proof cap), Promotion must highlight this new feature (update ads, packaging claims). A wrong answer that treats them as independent shows lack of understanding of integration — a key board exam concept where questions ask \"how do the 4 Ps interact?\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a commodity like salt, Price is the only P that matters; the other three are irrelevant.\" Defend or refute with reasoning.",
+     "a": "Refute. Even for salt, Product (iodized vs. non-iodized, packaging size), Place (availability in every kirana store), and Promotion (brand recall through consistent shelf presence) matter. A wrong answer that agrees reveals a misconception that commodities don't need marketing mix decisions — competitive exams often test this with \"commodity vs. differentiated product\" scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Marketing Mix for a new electric scooter targeting urban delivery gig-workers in Mumbai. Specify one concrete decision for each P.",
+     "a": "Product: Swappable battery, 100km range, cargo rack. Price: ₹90,000 with battery subscription (₹1,500/month) to lower upfront cost. Place: Partner with delivery platforms (Zomato, Swiggy) for onboarding stations at hubs. Promotion: Demo rides at hubs, referral bonuses for riders, WhatsApp groups for peer support. A poor answer gives generic decisions (e.g., \"good quality, low price, everywhere, ads\") without linking to the specific target segment — showing inability to apply the framework contextually.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

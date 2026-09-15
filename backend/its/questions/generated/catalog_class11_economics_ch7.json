@@ -1,0 +1,120 @@
+{
+ "catalog": "catalog_class11_economics_ch7",
+ "concepts": [
+  {
+   "id": "c11eco.7.1",
+   "title": "Features of Perfect Competition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Features of Perfect Competition' refers to.",
+     "a": "Perfect competition is a market structure in which a large number of buyers and sellers trade a homogeneous product, with perfect information and free entry and exit, so that no single participant can influence the market price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Features of Perfect Competition'.",
+     "a": "Under perfect competition each firm is a price taker; the market price is determined by industry demand and supply and the individual firm can sell any quantity at that price.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Features of Perfect Competition' taught, and from which source text?",
+     "a": "Perfect Competition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.6",
+   "title": "Price Determination under Perfect Competition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Price Determination under Perfect Competition' refers to.",
+     "a": "Under perfect competition, the market price is determined by the intersection of the industry demand curve and the industry supply curve; the equilibrium price is the price at which quantity demanded equals quantity supplied.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Determination under Perfect Competition'.",
+     "a": "Equilibrium occurs where the market demand and supply curves intersect; at prices above P* there is excess supply, and at prices below P* there is excess demand, which pushes the price back to P*.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Determination under Perfect Competition', in plain ASCII form.",
+     "a": "Qd = Qs => Equilibrium price (P*)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.7",
+   "title": "Market Equilibrium",
+   "questions": [
+    {
+     "q": "Using the method 'Market Equilibrium', work with: a = 50, b = 60, c = 12, d = 50, p = 240. Carry the chain through step by step and give the final value of the result.",
+     "a": "12012 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Market Equilibrium' and work with: a = 4, b = 240, c = 240, d = 15, p = 100. Carry the chain through step by step and give the final value of the result.",
+     "a": "1740 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Market Equilibrium' refers to.",
+     "a": "Market equilibrium is the state in which quantity demanded equals quantity supplied at the prevailing price, so there is no tendency for the price to change.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Equilibrium'.",
+     "a": "At equilibrium there is neither excess demand nor excess supply; the equilibrium price clears the market and the equilibrium quantity is the amount actually bought and sold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Equilibrium', in plain ASCII form.",
+     "a": "Qd(P*) = Qs(P*)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.8",
+   "title": "Effects of Shifts in Demand and Supply",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effects of Shifts in Demand and Supply' refers to.",
+     "a": "A shift of the demand curve or the supply curve changes the equilibrium price and quantity; a rightward shift of demand raises both price and quantity, while a rightward shift of supply lowers price and raises quantity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effects of Shifts in Demand and Supply'.",
+     "a": "When only demand shifts, price and quantity move in the same direction; when only supply shifts, price and quantity move in opposite directions; simultaneous shifts give an ambiguous outcome for one of the two variables.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Effects of Shifts in Demand and Supply', in plain ASCII form.",
+     "a": "New equilibrium: Qd'(P*) = Qs'(P*)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.9",
+   "title": "Applications of Market Equilibrium",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Applications of Market Equilibrium' refers to.",
+     "a": "Market equilibrium analysis is applied to study the effects of government interventions such as price ceilings and price floors, and to analyse the impact of taxes and subsidies on equilibrium price and quantity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Applications of Market Equilibrium'.",
+     "a": "A price ceiling below the equilibrium price creates excess demand (shortage), while a price floor above the equilibrium price creates excess supply (surplus); both interventions distort the market unless supported by additional measures.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Applications of Market Equilibrium', in plain ASCII form.",
+     "a": "Effective price ceiling < P* ; effective price floor > P*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

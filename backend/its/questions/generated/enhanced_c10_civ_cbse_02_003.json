@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_003",
+   "title": "c10_civ_cbse_02_003",
+   "questions": [
+    {
+     "q": "Define \"Coming Together Federation\" and name one country that follows this model.",
+     "a": "A Coming Together Federation is formed when independent sovereign states voluntarily unite to form a federation, retaining strong state powers; example: United States of America (USA). A wrong answer (e.g., \"India is a coming together federation because it has many states\") reveals the student confuses the *presence of states* with the *historical process of federation formation* and does not grasp that India's states were created by the Constitution, not pre-existing sovereign entities.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the central government tend to be stronger in a Holding Together Federation compared to a Coming Together Federation?",
+     "a": "In a Holding Together Federation, the centre is stronger because the federation is created by devolving power from a previously unitary state to manage diversity and prevent secession; the centre retains key powers (defence, currency, emergency provisions) to maintain national unity. A wrong answer (e.g., \"Because the constitution says so\" or \"All federations have strong centres\") reveals the student has not understood the *causal link* between the historical need for unity in a diverse territory and the constitutional design that empowers the centre.",
+     "self_check": true
+    },
+    {
+     "q": "A new country, \"Narmada,\" is formed when five independent kingdoms sign a treaty to create a federal union for mutual defence and trade, but each kingdom keeps its own constitution and citizenship. Classify Narmada's federation type and explain your reasoning.",
+     "a": "Narmada is a Coming Together Federation because independent sovereign units (kingdoms) voluntarily pooled sovereignty through a treaty while retaining their distinct identities (own constitutions, citizenship). The voluntary association and strong residual powers of the units are hallmarks of this type. A wrong classification (e.g., \"Holding Together because it has diversity\") reveals the student focuses on diversity rather than the *historical agency* of the units coming together.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distribution of residual powers (powers not explicitly mentioned in the constitution) in the USA (Coming Together) and India (Holding Together). What does this comparison reveal about the intent of each federation's framers?",
+     "a": "In the USA, residual powers reside with the states (10th Amendment), reflecting the intent to preserve state autonomy. In India, residual powers reside with the Union (Article 248), reflecting the intent to maintain a strong centre for national integrity. A wrong answer (e.g., \"Both give residual powers to states\") reveals the student has not connected the *location of residual powers* to the *historical logic* of each federation type.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A Holding Together Federation is inherently less democratic than a Coming Together Federation because it concentrates power in the centre.\" Provide a reasoned judgment.",
+     "a": "The statement is flawed. Democracy is measured by popular sovereignty, free elections, and accountability, not solely by the degree of decentralisation. India (Holding Together) is a robust democracy with regular elections, independent judiciary, and strong state governments. The stronger centre is a *design choice* to manage diversity and prevent fragmentation, not an anti-democratic feature. A wrong evaluation (e.g., agreeing without qualification) reveals the student equates federalism with decentralisation alone and misses the *contextual necessity* of a strong centre in diverse societies.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario for a fictional region with three distinct linguistic groups that have never been politically united. Design a federal structure for them, choose the federation type, and justify your choice in 3-4 sentences.",
+     "a": "A good answer: \"The region should adopt a Coming Together Federation because the three linguistic groups are historically independent and distrust a central authority. They would sign a compact creating a federation with a weak centre handling only defence and foreign affairs, while each group retains its own constitution, legislature, and citizenship.\" A poor answer (e.g., \"Make a strong centre to keep them together\") reveals the student defaults to a Holding Together model without considering the *historical agency and trust* required for a Coming Together federation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

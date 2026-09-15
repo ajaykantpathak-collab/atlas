@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy302",
+  "concepts": [
+    {
+      "id": "legy.302.1",
+      "questions": [
+        {"q": "The mean of 10, 20 and 30 is what number? (number)", "a": "20"},
+        {"q": "The mean of 8, 12, 16 and 20 is what number? (number)", "a": "14"},
+        {"q": "Which measure of central tendency is the sum of values divided by their number? (one word)", "a": "mean"},
+        {"q": "Which measure of central tendency is the most frequently occurring value? (one word)", "a": "mode"},
+        {"q": "The mean of 5, 7 and 9 is what number? (number)", "a": "7"},
+        {"q": "The mean of 40, 50 and 60 is what number? (number)", "a": "50"},
+        {"q": "Which typical value summarises a data series in one number? (two words)", "a": "central tendency"}
+      ]
+    },
+    {
+      "id": "legy.302.2",
+      "questions": [
+        {"q": "The median of 4, 8, 15, 16, 23 is which value? (number)", "a": "15"},
+        {"q": "The median of an even-numbered series is the average of which two values? (two words)", "a": "two middle values"},
+        {"q": "The median of 10, 20, 30, 40 is what number? (number)", "a": "25"},
+        {"q": "The median of 3, 9, 11, 17, 21, 25 is what number? (number)", "a": "14"},
+        {"q": "Before taking the median, values must be arranged in what order? (one word)", "a": "ascending"},
+        {"q": "Which central measure is most resistant to extreme values: mean or median? (one word)", "a": "median"},
+        {"q": "The median of 2, 6 and 100 is what number? (number)", "a": "6"}
+      ]
+    },
+    {
+      "id": "legy.302.3",
+      "questions": [
+        {"q": "The range of 12, 25, 45 is what number (largest minus smallest)? (number)", "a": "33"},
+        {"q": "The range of 7, 19, 30, 42 is what number? (number)", "a": "35"},
+        {"q": "Which dispersion measure is the difference between the largest and smallest values? (one word)", "a": "range"},
+        {"q": "Which dispersion measure averages absolute distances from the mean? (two words)", "a": "mean deviation"},
+        {"q": "Which dispersion measure squares distances before averaging? (two words)", "a": "standard deviation"},
+        {"q": "The range of 5 and 95 is what number? (number)", "a": "90"},
+        {"q": "Which is the most used spread measure: range or standard deviation? (two words)", "a": "standard deviation"}
+      ]
+    },
+    {
+      "id": "legy.302.4",
+      "questions": [
+        {"q": "Values grouped between set limits like 0-10, 10-20 form class what? (two words)", "a": "class intervals"},
+        {"q": "What is recorded by tally marks for each class interval? (one word)", "a": "frequency"},
+        {"q": "Editing and coding of field figures are the first steps of data what? (one word)", "a": "processing"},
+        {"q": "The table that pairs class intervals with tally counts is called a what table? (one word)", "a": "frequency"},
+        {"q": "Raw field sheets become analysable through processing into what? (one word)", "a": "tables"},
+        {"q": "After tallying frequencies, which measures are computed to summarise the data? (two words)", "a": "summary measures"},
+        {"q": "Do graphs and maps come before or after data processing? (one word)", "a": "after"}
+      ]
+    }
+  ]
+}

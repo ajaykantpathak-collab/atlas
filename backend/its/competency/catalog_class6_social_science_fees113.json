@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 13,
+ "chapter_title": "The Value of Work",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.13.1",
+   "title": "Economic and Non-Economic Activities",
+   "section": "Types of activities",
+   "definition": "Activities that create monetary value, like making furniture or flying planes, are economic activities; work done out of love or duty without payment, like teaching neighbourhood kids for free, is non-economic activity.",
+   "formula": "economic = work + payment; non_economic = work without payment",
+   "key_idea": "Money is the dividing line: the same skill, paid or unpaid, moves from market to service.",
+   "textbook_ref": "fees113.txt, Types of activities",
+   "question_patterns": [
+    "what is the difference between economic and non economic activities",
+    "give two examples of economic activities from the chapter",
+    "is teaching neighbourhood kids for free an economic activity",
+    "why are non economic activities still valuable",
+    "how does the story of the pilot geeta aunty begin the chapter",
+    "what did kabir's grandfather do after retiring"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.13.2",
+   "title": "The Value of Work: Dignity in Every Task",
+   "section": "Value of work",
+   "definition": "Every kind of honest work has worth, paid or unpaid; Swami Vivekananda's advice to do one's work as worship, and the respect owed to farmers, drivers, homema-kers and soldiers alike, ground this value.",
+   "formula": "",
+   "key_idea": "Work's worth is not measured by salary alone: effort, skill and service give every task dignity.",
+   "textbook_ref": "fees113.txt, Value of work",
+   "question_patterns": [
+    "why does every kind of work deserve respect",
+    "what did swami vivekananda say about doing work",
+    "how do unpaid tasks at home add value to life",
+    "why should we not judge people by their profession",
+    "how do different professions depend on one another",
+    "which workers keep your neighbourhood running"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.13.3",
+   "title": "Adding Value: Rajesh the Carpenter",
+   "section": "Kavya's father example",
+   "definition": "Rajesh buys wood for 600 rupees and sells each chair for 1,000; the extra 400 rupees is the monetary value his skill, time and effort added, which is exactly what makes his work an economic activity.",
+   "formula": "value_added = selling_price - material_cost",
+   "key_idea": "Value added is the measure of work: raw material in, a more valuable product out.",
+   "textbook_ref": "fees113.txt, Kavya's father example",
+   "question_patterns": [
+    "how much wood does rajesh buy and for how much",
+    "at what price does rajesh sell each chair",
+    "what does the extra 400 rupees represent",
+    "what does it mean to add value to a material",
+    "why is carpentry an economic activity",
+    "trace the payment from buying wood to selling the chair"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.13.4",
+   "title": "Work beyond Money",
+   "section": "Non-economic work",
+   "definition": "The chapter honours work that payment cannot measure: a retired BSF grandfather teaching free geography classes, tending the vegetable garden, running errands, and homema-kers' daily care that holds a family together.",
+   "formula": "",
+   "key_idea": "A society runs on unpriced work too: care, teaching and service build the same wealth of trust.",
+   "textbook_ref": "fees113.txt, Non-economic work",
+   "question_patterns": [
+    "name three unpaid tasks that keep a home running",
+    "why is a homemaker's work valuable even without salary",
+    "what free service did kabir's grandfather offer",
+    "how do volunteers serve the community without payment",
+    "can unpaid work create value give an example",
+    "why does the chapter value work beyond money"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees113.txt",
+   "concept": "fees.13.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is Rajesh's chair sold at 1,000 when the wood cost 600?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace the numbers",
+     "explain": "Wood in, 600 rupees; chair out, 1,000 rupees."
+    },
+    {
+     "step": 2,
+     "action": "name the difference",
+     "explain": "The 400 rupees pays for his skill, time and tools, the value his work added."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees113.txt",
+   "concept": "fees.13.2",
+   "question_type": "verify_property",
+   "question_pattern": "How is Geeta Aunty's flying different from her town's love for her?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "separate the two",
+     "explain": "Flying an Air Force plane is her paid profession; being the pride of the town is respect beyond money."
+    },
+    {
+     "step": 2,
+     "action": "state the lesson",
+     "explain": "Work earns wages, but character and service earn honour."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees113.txt, Let us explore",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "Retell the story of Anu, Kabir and Geeta Aunty.",
+    "How does the chapter use Rajesh's chair to explain value?",
+    "Tick the activities that create monetary value and add two of your own.",
+    "Interview a family member about the work they do at home."
+   ]
+  }
+ ]
+}

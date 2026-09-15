@@ -1,0 +1,211 @@
+# ── CI/CD Pipeline for DREAM Platform ──────────────────────────
+# Runs on push/PR to main: lint, typecheck, test, build, deploy
+#
+# Jobs:
+#   1. backend-test  — Python lint + import check + smoke tests
+#   2. frontend-test — Node lint + typecheck + build
+#   3. docker-build  — Build Docker images (only on main push)
+#   4. deploy        — Deploy to production (only on main push, manual approval)
+
+name: CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHON_VERSION: "3.13"
+  NODE_VERSION: "20"
+
+jobs:
+  # ──────────────────────────────────────────────────────────────
+  # 1. Backend: lint + import check + smoke tests
+  # ──────────────────────────────────────────────────────────────
+  backend-test:
+    name: Backend Lint & Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./platform
+
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_DB: dream_app
+          POSTGRES_USER: dream_user
+          POSTGRES_PASSWORD: dream_secure_2024
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install ruff pytest
+
+      - name: Lint (ruff)
+        run: ruff check backend/ --select E,F --ignore E501
+        continue-on-error: true
+
+      - name: Import check
+        run: |
+          python -c "
+import sys
+sys.path.insert(0, '.')
+from backend.app import app
+routes = [r for r in app.routes if hasattr(r, 'methods')]
+print(f'APP IMPORT OK; routes: {len(routes)}')
+assert len(routes) > 0, 'No routes found'
+"
+
+      - name: Smoke tests
+        run: |
+          python -c "
+import sys
+sys.path.insert(0, '.')
+from backend.services.tutor_service import (
+    _bloom_rank, _tier_for_level, _select_diagnostic_start_index
+)
+assert _bloom_rank('recall') == 0
+assert _bloom_rank('evaluate') == 7
+assert _tier_for_level('evaluate') == 'EXAM'
+assert _tier_for_level('create') == 'CHALLENGE'
+assert _select_diagnostic_start_index([], 'evaluate') == 0
+print('TUTOR HELPERS OK')
+"
+
+  # ──────────────────────────────────────────────────────────────
+  # 2. Frontend: lint + typecheck + build
+  # ──────────────────────────────────────────────────────────────
+  frontend-test:
+    name: Frontend Lint & Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./dream_app/frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: dream_app/frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+        continue-on-error: true
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+
+  # ──────────────────────────────────────────────────────────────
+  # 3. Docker build (only on main branch)
+  # ──────────────────────────────────────────────────────────────
+  docker-build:
+    name: Docker Build
+    needs: [backend-test, frontend-test]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build backend image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./platform
+          file: ./platform/Dockerfile.backend
+          tags: dream-backend:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          load: true
+
+      - name: Build frontend image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./platform
+          file: ./platform/Dockerfile.frontend
+          tags: dream-frontend:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+          load: true
+
+      - name: Verify images
+        run: |
+          docker images | grep dream-backend
+          docker images | grep dream-frontend
+
+  # ──────────────────────────────────────────────────────────────
+  # 4. Deploy (only on main, after docker build)
+  # ──────────────────────────────────────────────────────────────
+  deploy:
+    name: Deploy
+    needs: docker-build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://dreamapp.in
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            cd /opt/dream-platform
+            git pull origin main
+            docker compose -f docker-compose.prod.yml up -d --build
+            docker compose -f docker-compose.prod.yml exec backend-1 python -m backend.init_db

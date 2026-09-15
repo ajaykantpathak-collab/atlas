@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_009",
+   "title": "c12_bio_cbse_08_009",
+   "questions": [
+    {
+     "q": "Name the neurotransmitter primarily involved in the brain's reward pathway that is hijacked by almost all addictive drugs, and state the specific brain region where this pathway originates.",
+     "a": "Correct answer: Dopamine is the key neurotransmitter; the reward pathway originates in the ventral tegmental area (VTA) and projects to the nucleus accumbens and prefrontal cortex. A wrong answer (e.g., \"serotonin\" or \"adrenaline\") reveals the student confuses the reward pathway with mood regulation or stress response, indicating they haven't linked the mesolimbic dopamine system to addiction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a chronic alcohol user develops tolerance and experiences withdrawal symptoms like tremors and seizures when they stop drinking, linking your answer to GABA and glutamate neurotransmission.",
+     "a": "Correct answer: Alcohol enhances GABAergic inhibition and inhibits glutamatergic excitation. Chronic use leads to compensatory downregulation of GABA receptors and upregulation of NMDA glutamate receptors. Sudden cessation removes alcohol's depressant effect, leaving unopposed excitatory glutamate activity → hyperexcitability causing tremors, anxiety, seizures. A wrong answer that only says \"body gets used to it\" shows lack of mechanistic understanding of neuroadaptation.",
+     "self_check": true
+    },
+    {
+     "q": "A 25-year-old male injects heroin daily. He develops pinpoint pupils, respiratory depression, and constipation. Identify the drug class, the receptor subtype involved, and explain why respiratory depression is the most common cause of fatal overdose.",
+     "a": "Correct answer: Heroin is an opioid; it acts on μ (mu) opioid receptors in the brainstem (medullary respiratory centers), spinal cord, and gut. Overdose causes fatal respiratory depression because μ-receptor activation in the pre-Bötzinger complex suppresses the respiratory drive to CO₂. A wrong answer attributing death to cardiac arrest or liver failure reveals confusion with stimulant or alcohol toxicity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term health effects of chronic cannabis (marijuana) use versus chronic cocaine use on the cardiovascular and nervous systems. Provide two distinct differences.",
+     "a": "Correct answer: (1) Cannabis: tachycardia, mild hypertension, impaired short-term memory, possible psychosis in vulnerable individuals; minimal direct cardiotoxicity. (2) Cocaine: severe vasoconstriction → hypertension, myocardial infarction, stroke, cardiomyopathy; intense euphoria followed by crash, high addiction liability due to dopamine reuptake blockade. A wrong answer that lumps both as \"hallucinogens\" or claims cannabis causes heart attacks shows failure to classify drugs by mechanism and organ-specific toxicity.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since alcohol is legal and widely consumed, it cannot be as harmful as heroin.\" Evaluate this statement using three evidence-based criteria: (a) mortality burden, (b) organ damage spectrum, (c) social harm.",
+     "a": "Correct evaluation: The statement is false. (a) Alcohol causes ~3 million deaths globally/year (WHO) vs ~0.5 million from opioids; (b) Alcohol damages liver (cirrhosis), brain (Wernicke-Korsakoff), heart (cardiomyopathy), pancreas, and is carcinogenic (Group 1); heroin primarily causes overdose death, infections, constipation — less multi-organ damage; (c) Alcohol's social harm (violence, accidents, family disruption) exceeds heroin's due to prevalence. A wrong answer accepting the argument reveals inability to apply public health data and confusion between legality and harm potential.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-based prevention program for adolescents targeting drug abuse. Include: (i) one biological fact to emphasize, (ii) one psychological skill to build, (iii) one peer-led activity, and (iv) how you would measure its effectiveness after 6 months.",
+     "a": "Good answer: (i) Adolescent prefrontal cortex (decision-making) is immature until mid-20s, making them more vulnerable to addiction. (ii) Stress-coping skills (e.g., mindfulness, problem-solving) to reduce self-medication. (iii) Peer mentors share recovery stories or role-play refusal skills. (iv) Compare anonymous survey data on knowledge, attitudes, and self-reported use before and after; track disciplinary referrals. A poor answer focusing only on \"say no\" slogans without biological basis or measurable outcomes shows lack of evidence-based prevention understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

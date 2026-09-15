@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_4",
+   "title": "c8_math_ch1_4",
+   "questions": [
+    {
+     "q": "State the rule: If a number ends with 3 zeros, how many zeros will its square end with?",
+     "a": "The square will end with 6 zeros. A wrong answer (e.g., 3, 9, or 5) reveals the student has not grasped that each trailing zero represents a factor of 10 and squaring doubles the exponent of 10, or they are confusing addition with multiplication of the zero count.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 4000 cannot be a perfect square, using the trailing zeros rule.",
+     "a": "4000 ends with 3 zeros (an odd number). Since a perfect square must have an even number of trailing zeros, 4000 cannot be a perfect square. A wrong answer indicates the student does not understand the necessary condition (even zeros) or cannot correctly count trailing zeros (e.g., might say 4000 has 2 zeros by ignoring the last zero).",
+     "self_check": true
+    },
+    {
+     "q": "Find the number of trailing zeros in the square of 3500 without performing the full multiplication.",
+     "a": "3500 ends with 2 zeros. By the rule, its square ends with 2×2 = 4 zeros. (3500² = 12,250,000 which indeed has 4 trailing zeros.) A wrong answer (e.g., 2 or 6) shows the student either does not double the count or miscounts the trailing zeros in 3500 (might think it has 1 or 3 zeros).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the squares of 50 and 500. How many times more trailing zeros does 500² have compared to 50²? Explain the relationship.",
+     "a": "50 has 1 trailing zero → 50² has 2 zeros. 500 has 2 trailing zeros → 500² has 4 zeros. 500² has 2 more zeros than 50², which is exactly double the difference in the original numbers' zeros (500 has one extra zero than 50, so its square has two extra zeros). A wrong answer reveals the student cannot extend the rule to compare two numbers or thinks the relationship is additive rather than multiplicative.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a number's square ends with 4 zeros, the number must end with 2 zeros.\" Is this always true? Justify your answer with an example or counterexample.",
+     "a": "Yes, it is always true for integers. If the square has 4 trailing zeros, it is divisible by 10⁴ = 2⁴×5⁴. For the square root to be an integer, it must contain at least 2²×5² = 100, i.e., end with at least 2 zeros. Since the square has exactly 4 zeros, the number has exactly 2 zeros. A wrong answer (saying false) might come from thinking of numbers like 500²=250000 (4 zeros? Actually 500²=250000 has 4 zeros, 500 has 2 zeros – consistent). The student might confuse with non-integer roots or not realize the converse holds for perfect squares.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-digit number that ends with zeros and is a perfect square. Explain how you constructed it using the trailing zeros rule.",
+     "a": "Example: 16000 (but that's 5 digits? 16000 is 5 digits, ends with 3 zeros – odd, so not a perfect square). Need even zeros: 4 zeros → number ends with 2 zeros. Smallest 5-digit with 2 zeros: 10000 = 100². Or 14400 = 120². Construction: Choose a 3-digit number ending with one zero (e.g., 120), square it → 5-digit ending with two zeros. A poor answer shows the student cannot work backwards from the rule or creates a number with odd trailing zeros.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

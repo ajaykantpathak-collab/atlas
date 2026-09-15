@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_008",
+   "title": "c12_bs_cbse_02_008",
+   "questions": [
+    {
+     "q": "List the six significance points of principles of management as per NCERT.",
+     "a": "The six significance points are: (1) Providing managers with useful insights into reality, (2) Optimum utilisation of resources and effective administration, (3) Scientific decisions, (4) Meeting changing environment requirements, (5) Fulfilling social responsibility, (6) Management training, education and research. A wrong answer (e.g., listing Fayol's 14 principles or Taylor's techniques) reveals the student confuses *principles themselves* with their *significance/utility* — a fundamental category error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does NCERT describe principles of management as \"general guidelines\" rather than \"ready-made solutions\"? Give a concrete business example.",
+     "a": "Principles are general guidelines because real business situations are complex, dynamic, and multi-factorial; they orient thinking but don't prescribe exact steps. Example: \"Division of Work\" suggests specialisation, but a startup may need generalists who code, test, and talk to customers — rigid application would hurt agility. A wrong answer claiming \"principles give exact solutions\" shows the student misses the *flexible/contingent* nature (NCERT points iv, vii) and will struggle with case-study questions requiring adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "A mid-sized textile firm gives the same annual bonus to all 200 workers regardless of individual or department performance. Which significance point of management principles is most directly violated? Explain the consequence.",
+     "a": "\"Scientific decisions\" is violated — decisions must be based on facts, thoughtful, justifiable, and subject to measurement. Consequence: high performers feel unrewarded (equity issue), low performers lack incentive to improve, and the firm cannot link bonus payout to productivity metrics. A student who picks \"optimum utilisation\" or \"social responsibility\" shows they cannot map the *specific* significance point to the *decision-making* context; they are recalling labels without understanding the underlying logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"optimum utilisation of resources\" and \"scientific decisions\" — how does the first enable the second, and where do they diverge?",
+     "a": "Optimum utilisation means deploying limited human/material resources for maximum benefit at minimum cost; scientific decisions provide the *method* (fact-based, measurable, timely) to achieve that utilisation. They diverge: utilisation is the *outcome goal*, scientific decision is the *process*. A manager can make a scientific decision (e.g., data-driven shift scheduling) that still fails to optimise utilisation if the data is flawed — so scientific decisions are necessary but not sufficient. A wrong answer treating them as synonyms reveals inability to distinguish *ends* from *means* — a critical analytical gap for long-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique: \"Principles of management are less than perfect because they deal with human behaviour.\" Provide two arguments supporting and two challenging this statement.",
+     "a": "Supporting: (1) Human behaviour is unpredictable — same principle (e.g., equity) yields different results in different cultures; (2) Cause-effect relationships are probabilistic, not deterministic — unity of command may reduce confusion in a factory but stifle innovation in a research lab. Challenging: (1) \"Less than perfect\" ≠ \"useless\" — principles still provide the *best available* systematic framework vs. pure trial-and-error; (2) Principles evolve (e.g., equity now includes environmental care) showing they self-correct through practice. A one-sided answer reveals confirmation bias — the student either idolises or dismisses principles instead of evaluating them as contingent tools.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-question checklist a manager can use *before* implementing a new policy to test alignment with principles' significance while acknowledging limitations.",
+     "a": "Sample checklist: (1) \"Does this policy use past data/insights to avoid trial-and-error? (Insights) — If no, what pilot can we run?\" (2) \"Will this policy allocate our scarcest resource (e.g., senior developer time) to highest-value use? (Optimum utilisation) — What metric will we track?\" (3) \"If conditions change (e.g., remote work becomes mandatory), can we adapt this policy without discarding it? (Contingency) — What trigger would prompt review?\" A poor checklist asks only \"Does it follow Fayol?\" showing the student treats principles as a compliance checklist rather than a thinking framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_004",
+   "title": "c11_phy_cbse_13_004",
+   "questions": [
+    {
+     "q": "State the expression for total mechanical energy of a particle executing SHM with amplitude A and spring constant k. What is its SI unit?",
+     "a": "E = ½kA², unit: joule (J). A wrong answer like E = kA or E = ½mv²_max reveals the student hasn't connected maximum potential energy (at extremes) to total energy, or confuses maximum kinetic energy with total energy expression in terms of k and A.",
+     "self_check": true
+    },
+    {
+     "q": "A block on a spring oscillates with amplitude A. At what displacement is the kinetic energy equal to the potential energy? Explain why this happens at that specific position.",
+     "a": "At x = ±A/√2. Since E = K + U and K = U, each equals E/2 = ¼kA². Setting ½kx² = ¼kA² gives x = ±A/√2. A wrong answer like x = A/2 shows the student equates displacements linearly instead of quadratically, missing that energy depends on x².",
+     "self_check": true
+    },
+    {
+     "q": "A 0.5 kg mass attached to a spring (k = 200 N/m) oscillates with amplitude 0.1 m. Calculate: (a) total energy, (b) maximum speed, (c) kinetic energy at x = 0.05 m.",
+     "a": "(a) E = ½(200)(0.1)² = 1.0 J. (b) v_max = ωA = √(k/m) A = √(200/0.5) × 0.1 = 20 × 0.1 = 2.0 m/s. (c) U = ½kx² = ½(200)(0.05)² = 0.25 J, so K = E - U = 1.0 - 0.25 = 0.75 J. A wrong answer for (b) using v_max = √(2E/m) without checking units reveals confusion between energy and velocity formulas.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle in SHM is x = A cos(ωt). Sketch graphs of K(t), U(t), and E(t) over two periods. Explain why K and U oscillate at twice the frequency of x(t).",
+     "a": "K(t) = ½mω²A² sin²(ωt), U(t) = ½kA² cos²(ωt), both periodic with period T/2. E(t) = constant line at ½kA². sin² and cos² have frequency 2ω because sin²θ = ½(1-cos2θ). A student drawing K and U with period T instead of T/2 doesn't recognize the squaring doubles the frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In SHM, potential energy is zero at the mean position, so the total energy is purely kinetic there. At extreme positions, kinetic energy is zero, so total energy is purely potential. Therefore, total energy changes from kinetic to potential and back.\" Evaluate this statement.",
+     "a": "The first two sentences are correct, but the conclusion \"total energy changes\" is wrong. Total energy E = K + U remains constant throughout; only the *form* of energy converts between K and U. The student confuses \"energy transformation\" with \"total energy change.\" This misconception violates conservation of energy for conservative forces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, masses, and a ruler to verify that total energy in SHM is constant. Describe measurements, calculations, and how you'd account for energy loss.",
+     "a": "Hang a spring, attach a mass, measure k by static extension (mg = kx₀). Pull mass down by amplitude A, release. At mean position, measure v_max using a photogate or video analysis. Calculate E_total = ½mv_max². At extreme, calculate U_max = ½kA². Compare values. Repeat for different A. Account for loss by measuring amplitude decay over time; if amplitude decreases, energy is not conserved due to damping. A poor answer omits measuring k independently or ignores damping effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

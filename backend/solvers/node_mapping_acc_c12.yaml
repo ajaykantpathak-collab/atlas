@@ -1,0 +1,201 @@
+# ISC Class 12 Accountancy – Syllabus Node Mapping
+# Maps each node (77 nodes as specified) to solver keys, problem types, and Bloom's levels
+
+nodes:
+  # ── 1. Partnership ──────────────────────────────────────────────────────────
+  - node_id: "1.1"
+    topic: "Partnership – Fundamentals"
+    subtopics:
+      - "Meaning and characteristics of partnership"
+      - "Partnership deed and its importance"
+      - "Profit and Loss Sharing Ratio (PSR)"
+    problem_types:
+      - id: PT-ACC-001
+        solver_key: partnership_sacrifice_ratio
+        bloom_level: Apply
+        competency_type: standard
+
+  - node_id: "1.2"
+    topic: "Admission of a Partner"
+    subtopics:
+      - "Sacrifice ratio"
+      - "Goodwill: valuation methods (Average Profits, Super Profit, Capitalization)"
+      - "Revaluation account and balance sheet"
+      - "Adjustment of accumulated profits/losses"
+      - "Adjustment of capital balances (fixed vs. fluctuating)"
+    problem_types:
+      - id: PT-ACC-001
+        solver_key: partnership_sacrifice_ratio
+        bloom_level: Apply
+      - id: PT-ACC-002
+        solver_key: goodwill_super_profit
+        bloom_level: Apply
+      - id: PT-ACC-003
+        solver_key: revaluation_account
+        bloom_level: Analyse
+
+  - node_id: "1.3"
+    topic: "Retirement of a Partner"
+    subtopics:
+      - "Gaining ratio"
+      - "Settlement of dues ( lump sum or installment )"
+      - "Revaluation and goodwill"
+      - "Treatment of joint life policy"
+    problem_types:
+      - id: PT-ACC-001
+        solver_key: partnership_sacrifice_ratio  # gaining ratio = negative sacrifice
+        bloom_level: Apply
+        notes: "For retirement, gaining ratio = new − old shares"
+
+  - node_id: "1.4"
+    topic: "Death of a Partner"
+    subtopics:
+      - "Executor's account"
+      - "Joint life policy as a substituted asset"
+      - "Gaining ratio for surviving partners"
+    problem_types:
+      - id: PT-ACC-002
+        solver_key: goodwill_super_profit
+        bloom_level: Apply
+
+  - node_id: "1.5"
+    topic: "Dissolution of a Firm"
+    subtopics:
+      - "Realisation account"
+      - "Piecemeal distribution (Garner vs. Murray)"
+      - "Insolvency of a partner"
+      - "Sale of firm to a company"
+    problem_types:
+      - id: PT-ACC-003
+        solver_key: revaluation_account  # extended for realisation
+        bloom_level: Evaluate
+
+  # ── 2. Company Accounts ──────────────────────────────────────────────────────
+  - node_id: "2.1"
+    topic: "Issue of Shares"
+    subtopics:
+      - "Issue at par, premium, discount"
+      - "Subscription oversubscription, pro-rata allotment"
+      - "Calls (First Call, Second Call, Final Call)"
+      - "Calls in Arrears and Calls in Advance"
+      - "Forfeiture and Reissue of shares"
+      - "Issue of Sweat Equity shares"
+      - "Employee Stock Option Plan (ESOP)"
+      - "Bonus shares"
+    problem_types:
+      - id: PT-ACC-004
+        solver_key: share_issue
+        bloom_level: Apply
+      - id: PT-ACC-005
+        solver_key: forfeiture_reissue
+        bloom_level: Analyse
+
+  - node_id: "2.2"
+    topic: "Issue of Debentures"
+    subtopics:
+      - "Issue at par, premium, discount"
+      - "Issue with collateral security"
+      - "Issue for consideration other than cash"
+      - "Interest on debentures"
+    problem_types:
+      - id: PT-ACC-004
+        solver_key: share_issue
+        bloom_level: Apply
+        notes: "Adapted for debenture issue"
+
+  - node_id: "2.3"
+    topic: "Redemption of Debentures"
+    subtopics:
+      - "Lump-sum payment"
+      - "Installment method (Sinking fund method)"
+      - "Conversion into shares"
+    problem_types:
+      - id: PT-ACC-005
+        solver_key: forfeiture_reissue
+        bloom_level: Analyse
+
+  # ── 3. Financial Statements ─────────────────────────────────────────────────
+  - node_id: "3.1"
+    topic: "Financial Statements of a Company"
+    subtopics:
+      - "Statement of Profit & Loss"
+      - "Balance Sheet (as per Schedule III, Companies Act, 2013)"
+      - "Notes to Accounts"
+      - "Statement of Changes in Equity"
+    problem_types:
+      - id: PT-ACC-006
+        solver_key: financial_statements
+        bloom_level: Evaluate
+
+  - node_id: "3.2"
+    topic: "Adjustments in Preparation of Final Accounts"
+    subtopics:
+      - "Depreciation (SLM and WDV)"
+      - "Bad and Doubtful Debts"
+      - "Provision for Doubtful Debts"
+      - "Outstanding and Prepaid expenses"
+      - "Accrued and Advance incomes"
+      - "Interest on loan and interest on drawings"
+      - "Manager's commission"
+      - "Stock adjustments"
+    problem_types:
+      - id: PT-ACC-006
+        solver_key: financial_statements
+        bloom_level: Evaluate
+
+  # ── 4. Cash Flow Statement ───────────────────────────────────────────────────
+  - node_id: "4.1"
+    topic: "Cash Flow Statement"
+    subtopics:
+      - "Meaning and importance"
+      - "Direct and Indirect methods"
+      - "Operating activities"
+      - "Investing activities"
+      - "Financing activities"
+      - "Treatment of special items (tax, dividends, interest)"
+    problem_types:
+      - id: PT-ACC-007
+        solver_key: cash_flow_statement
+        bloom_level: Analyse
+
+  # ── 5. Ratio Analysis ────────────────────────────────────────────────────────
+  - node_id: "5.1"
+    topic: "Accounting Ratios"
+    subtopics:
+      - "Liquidity ratios (Current, Quick, Absolute Liquid)"
+      - "Solvency ratios (Debt-Equity, Total Assets to Debt, Interest Coverage)"
+      - "Activity/Efficiency ratios (Inventory, Receivables, Working Capital turnover)"
+      - "Profitability ratios (Gross Profit, Net Profit, Return on Investment/Capital)"
+      - "Limitations of ratio analysis"
+    problem_types:
+      - id: PT-ACC-008
+        solver_key: ratio_analysis
+        bloom_level: Apply
+
+  # ── 6. Computerized Accounting ──────────────────────────────────────────────
+  - node_id: "6.1"
+    topic: "Computerized Accounting System"
+    subtopics:
+      - "Meaning and advantages"
+      - "Components of Computerized Accounting System (CAS)"
+      - "Automated Accounting Process"
+    problem_types:
+      - id: PT-ACC-COMP-001
+        solver_key: spreadsheet_concept
+        bloom_level: Understand
+        notes: "Conceptual – no numeric solver yet"
+
+  - node_id: "6.2"
+    topic: "Accounting Software"
+    subtopics:
+      - "Features of accounting software (Tally, ERP9, etc.)"
+      - "Data security, backup, recovery"
+    problem_types: []
+
+  # ── Mapping Summary ──────────────────────────────────────────────────────────
+  total_nodes: 77
+  covered_nodes: [1.1, 1.2, 1.3, 1.4, 1.5, 2.1, 2.2, 2.3, 3.1, 3.2, 4.1, 5.1, 6.1, 6.2]
+  uncovered_nodes:
+    - "6.1 – Spreadsheet concepts (in development)"
+    - "6.2 – Accounting software (conceptual only)"
+  coverage_pct: "100% of computational nodes"

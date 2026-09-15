@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_010",
+   "title": "c11_eco_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define Infant Mortality Rate (IMR) and state its value for India in 1951 and 2020 as per NCERT Table 4.1.",
+     "a": "IMR is the number of deaths of infants under one year of age per 1,000 live births in a given year. As per Table 4.1, IMR was 146 in 1951 and 28 in 2020. A wrong answer (e.g., confusing IMR with under-5 mortality rate or misreading the table) reveals the student cannot extract and interpret basic demographic indicators from official data tables, a fundamental skill for analyzing health sector performance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a decline in Crude Death Rate (CDR) from 25.1 to 6.0 between 1951 and 2020 does not necessarily mean the health sector has solved all its problems.",
+     "a": "CDR decline reflects broad improvements in disease control, sanitation, and food security, but masks persistent inequalities: rural IMR (38) is double urban (23), MMR remains 103 (2020) vs. SDG target 70, and CDR ignores morbidity (illness burden). A wrong answer focusing only on the aggregate number shows the student cannot disaggregate averages to see hidden disparities – a critical error in development economics where averages hide deprivation.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of Out-of-Pocket Expenditure (OOPE), calculate the approximate number of people pushed below poverty line annually if 55 million Indians are impoverished by health costs and India's population is 1.4 billion. Express as percentage of population.",
+     "a": "(55 million / 1,400 million) × 100 = 3.93% ≈ 3.9% of population pushed into poverty yearly by health costs. A wrong calculation (e.g., using 55/140 = 39%) reveals confusion between million/billion units – a common Class 11 error when handling large numbers from Economic Survey data. Correct unit handling (c6_math_ch01_005: Large Numbers: Lakhs and Crores) is essential for health economics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why India's doctor-population ratio (1:1,445) fails the WHO norm (1:1,000) despite producing 50,000+ MBBS graduates annually. Identify two structural factors.",
+     "a": "Structural factors: (1) Maldistribution – 75% doctors serve urban 30% population; rural PHCs have 80% specialist vacancies. (2) Brain drain – 60,000+ Indian doctors work abroad (OECD data). A wrong answer blaming only \"not enough medical colleges\" ignores the NCERT emphasis on rural-urban divide (c11_eco_cbse_04_009) and migration as human capital source (c11_eco_cbse_04_002). This misdiagnosis leads to policy solutions like opening more colleges without fixing rural posting incentives.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ayushman Bharat (PM-JAY) solves India's health financing problem by providing ₹5 lakh insurance cover per family.\" Provide two arguments for and two against.",
+     "a": "For: (1) Covers 10.7 crore poor families (bottom 40%), reducing catastrophic expenditure. (2) Portable across states, aiding migrants. Against: (1) Excludes outpatient care (70% of OOPE is on medicines/diagnostics). (2) Package rates often below market cost, leading to private hospital denial. A one-sided answer shows inability to evaluate policy design – a board exam requirement (CBSE competency: policy evaluation). Must link to human capital: incomplete coverage means poor still delay treatment, losing productivity (c11_eco_cbse_04_005).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparison table showing three achievements and three problems of India's health sector since 1951, using at least one quantitative indicator per row from NCERT Table 4.1 or recent data.",
+     "a": "| Aspect | Achievement (Indicator) | Problem (Indicator) |\n|--------|-------------------------|---------------------|\n| Mortality | CDR: 25.1→6.0 (1951-2020) | Rural IMR 38 vs Urban 23 (2020) |\n| Life Expectancy | 37.2→68.6 years | Gender gap: Male 68.6, Female 71.4 (still low vs global 73) |\n| Disease Control | Polio eradicated (2014), Smallpox (1977) | NCDs: 63% of deaths (cardiovascular, cancer); TB incidence 188/100,000 |\nA poor answer lists vague statements (\"health improved\") without data, showing inability to use evidence – a core competency in Indian Economic Development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

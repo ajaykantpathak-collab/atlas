@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_006",
+   "title": "c11_math_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the symmetry property of binomial coefficients and verify it for \\( n=7 \\) by listing all pairs \\( \\binom{7}{r} \\) and \\( \\binom{7}{7-r} \\).",
+     "a": "The symmetry property states \\( \\binom{n}{r} = \\binom{n}{n-r} \\) for \\( 0 \\le r \\le n \\). For \\( n=7 \\): \\( \\binom{7}{0}=1=\\binom{7}{7} \\), \\( \\binom{7}{1}=7=\\binom{7}{6} \\), \\( \\binom{7}{2}=21=\\binom{7}{5} \\), \\( \\binom{7}{3}=35=\\binom{7}{4} \\). A wrong answer (e.g., claiming \\( \\binom{7}{2} \\neq \\binom{7}{5} \\)) reveals the student has not internalised that choosing \\( r \\) objects is equivalent to rejecting \\( n-r \\) objects, indicating a conceptual gap in the combinatorial interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why substituting \\( x=-1 \\) in \\( (1+x)^n = \\sum_{r=0}^{n} \\binom{n}{r}x^r \\) gives \\( \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0 \\) for \\( n \\ge 1 \\), but fails for \\( n=0 \\).",
+     "a": "Substituting \\( x=-1 \\) gives \\( (1-1)^n = 0^n = 0 \\) for \\( n \\ge 1 \\), so \\( \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0 \\). For \\( n=0 \\), the expansion is \\( (1+x)^0 = 1 \\), so the sum has only \\( r=0 \\) term: \\( (-1)^0 \\binom{0}{0} = 1 \\neq 0 \\). A student who says \"it works for all n\" misses the edge case \\( 0^0 \\) being undefined in this context, revealing they apply formulas mechanically without checking domain conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\( \\sum_{r=0}^{10} r \\binom{10}{r} \\) using the differentiation method on \\( (1+x)^{10} \\).",
+     "a": "Start with \\( (1+x)^{10} = \\sum_{r=0}^{10} \\binom{10}{r}x^r \\). Differentiate both sides w.r.t \\( x \\): \\( 10(1+x)^9 = \\sum_{r=1}^{10} r\\binom{10}{r}x^{r-1} \\). Put \\( x=1 \\): \\( 10 \\cdot 2^9 = \\sum_{r=1}^{10} r\\binom{10}{r} \\). Thus \\( \\sum_{r=0}^{10} r\\binom{10}{r} = 10 \\times 512 = 5120 \\). A wrong answer like 10240 (forgetting the chain rule gives 10 not 20) or 2560 (using \\( 2^{10} \\) instead of \\( 2^9 \\)) shows confusion between differentiating the expansion versus substituting after differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sum \\( S_1 = \\sum_{r=0}^{n} \\binom{n}{r} \\) and \\( S_2 = \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} \\) for odd and even \\( n \\). What pattern do you observe for the sum of even-indexed coefficients versus odd-indexed coefficients?",
+     "a": "\\( S_1 = 2^n \\) always. \\( S_2 = 0 \\) for \\( n \\ge 1 \\). Adding: \\( 2\\sum_{\\text{even } r} \\binom{n}{r} = 2^n \\Rightarrow \\sum_{\\text{even } r} \\binom{n}{r} = 2^{n-1} \\). Subtracting: \\( 2\\sum_{\\text{odd } r} \\binom{n}{r} = 2^n \\Rightarrow \\sum_{\\text{odd } r} \\binom{n}{r} = 2^{n-1} \\). So for any \\( n \\ge 1 \\), sum of even-indexed coefficients equals sum of odd-indexed coefficients \\( = 2^{n-1} \\). A student who claims they differ for odd \\( n \\) has not realised the alternating signs exactly cancel the parity imbalance, showing they treat the two sums as independent rather than linked through \\( x=\\pm1 \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims \\( \\sum_{r=0}^{n} r^2 \\binom{n}{r} = n^2 2^{n-1} \\). Is this correct? Justify your answer by deriving the correct formula.",
+     "a": "The claim is incorrect. Correct derivation: From \\( (1+x)^n = \\sum \\binom{n}{r}x^r \\), differentiate: \\( n(1+x)^{n-1} = \\sum r\\binom{n}{r}x^{r-1} \\). Multiply by \\( x \\): \\( nx(1+x)^{n-1} = \\sum r\\binom{n}{r}x^r \\). Differentiate again: \\( n(1+x)^{n-1} + n(n-1)x(1+x)^{n-2} = \\sum r^2\\binom{n}{r}x^{r-1} \\). Put \\( x=1 \\): \\( n2^{n-1} + n(n-1)2^{n-2} = \\sum r^2\\binom{n}{r} \\). Simplify: \\( n2^{n-2}(2 + n - 1) = n(n+1)2^{n-2} \\). The student's error (giving \\( n^2 2^{n-1} \\)) likely comes from incorrectly assuming \\( \\sum r^2\\binom{n}{r} = (\\sum r\\binom{n}{r})^2 / \\sum \\binom{n}{r} \\) or misapplying the product rule, revealing confusion between expectation of \\( r^2 \\) and square of expectation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a combinatorial problem whose answer is \\( \\binom{n}{r} + \\binom{n}{r-1} \\), then show how it leads to Pascal's identity \\( \\binom{n+1}{r} \\).",
+     "a": "Problem: \"From a group of \\( n \\) boys and 1 girl, choose a committee of \\( r \\) members.\" Case 1: Girl not chosen — choose \\( r \\) from \\( n \\) boys: \\( \\binom{n}{r} \\). Case 2: Girl chosen — choose remaining \\( r-1 \\) from \\( n \\) boys: \\( \\binom{n}{r-1} \\). Total ways = \\( \\binom{n}{r} + \\binom{n}{r-1} \\). But directly, we choose \\( r \\) from \\( n+1 \\) people: \\( \\binom{n+1}{r} \\). Hence \\( \\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r} \\). A poor answer that just states the algebraic proof without a word problem shows the student cannot connect algebraic identities to counting principles, which is the essence of combinatorial reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

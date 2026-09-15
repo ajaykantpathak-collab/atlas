@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_003",
+   "title": "c10_bio_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the four raw materials required for photosynthesis and the two main products formed.",
+     "a": "Raw materials: carbon dioxide, water, light energy, chlorophyll. Products: glucose (C₆H₁₂O₆) and oxygen (O₂). A wrong answer that lists \"oxygen\" as a raw material or omits chlorophyll reveals confusion between reactants and products, or ignorance that chlorophyll is a necessary condition (catalyst) not a consumed reactant.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the oxygen released during photosynthesis comes from water and not from carbon dioxide. How did scientists prove this?",
+     "a": "Oxygen originates from photolysis of water (H₂O → 2H⁺ + 2e⁻ + ½O₂) in the light-dependent stage. Isotopic labeling experiments using O¹⁸ in CO₂ vs H₂O showed O¹⁸ appeared in O₂ gas only when water was labeled. A student who claims oxygen comes from CO₂ holds the classic misconception that CO₂ splits to give O₂; they have not grasped the redox logic of photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "A plant is kept in darkness for 48 hours, then exposed to light. Its leaves are tested for starch at 0 hours, 2 hours, and 6 hours after illumination. Predict the starch test results (iodine color) and justify each.",
+     "a": "0 hrs: yellow-brown (no starch, reserves depleted). 2 hrs: blue-black (starch synthesized rapidly once light provides ATP/NADPH). 6 hrs: intense blue-black (accumulation continues). Wrong prediction (e.g., starch at 0 hrs) indicates the student doesn't understand that darkness halts photosynthesis and starch is consumed by respiration, or that light is essential for the Calvin cycle to fix CO₂ into sugars.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure and function of grana vs stroma in a chloroplast. Which stage of photosynthesis occurs in each, and why is this spatial separation important?",
+     "a": "Grana (stacked thylakoids) contain chlorophyll and host light-dependent reactions (photolysis, ATP/NADPH synthesis). Stroma (fluid matrix) contains enzymes for Calvin cycle (light-independent CO₂ fixation). Separation prevents interference: light reactions need membrane-bound electron transport; Calvin cycle needs soluble enzymes. A student who swaps the locations or says both occur in grana fails to link structure to function — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Stomata remain open all day to allow maximum CO₂ intake for photosynthesis.\" Is it correct? Explain the trade-off involved.",
+     "a": "Incorrect. Stomata open in light (triggered by blue light, low CO₂, K⁺ influx) but close under water stress (ABA hormone) to prevent excessive transpiration. The trade-off: CO₂ gain vs water loss. A student who says \"always open\" ignores plant water balance and the role of guard cells — a frequent oversight in board answers where they forget environmental regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to show that chlorophyll is necessary for photosynthesis, using a variegated leaf plant (e.g., Croton or Coleus). Outline steps, controls, and expected observations.",
+     "a": "1) Destarch variegated plant in dark 48 hrs. 2) Expose to sunlight 4-6 hrs. 3) Test leaf for starch with iodine. Green patches turn blue-black (photosynthesis occurred); white/yellow patches stay yellow-brown (no chlorophyll → no photosynthesis). Control: all-green leaf from same plant. Poor design (e.g., skipping destarching, no control) shows inability to isolate variables — a key competency for practical-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

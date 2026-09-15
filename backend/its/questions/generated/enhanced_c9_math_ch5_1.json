@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_1",
+   "title": "c9_math_ch5_1",
+   "questions": [
+    {
+     "q": "Define a circle in your own words and state the relationship between its radius and diameter.",
+     "a": "A circle is the set of all points in a plane at a fixed distance (radius) from a fixed point (centre). The diameter is twice the radius (d = 2r) and passes through the centre. A wrong answer (e.g., \"a circle is a round shape\" or \"diameter is half the radius\") reveals the student is relying on visual intuition instead of the formal locus definition, and cannot articulate the precise multiplicative relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why every diameter of a circle is a chord, but not every chord is a diameter. Use the definitions of chord and diameter in your reasoning.",
+     "a": "A chord is any segment joining two points on the circle. A diameter is a chord that passes through the centre. Therefore, every diameter satisfies the definition of a chord (joins two points on the circle) plus an extra condition (passes through centre). A chord that does not pass through the centre is not a diameter. A wrong answer (e.g., \"diameter is longer\" or \"they are the same\") shows the student cannot distinguish between a defining property (passing through centre) and a derived property (being the longest chord).",
+     "self_check": true
+    },
+    {
+     "q": "In a circle with centre O and radius 7 cm, points A, B, C lie on the circumference such that AB passes through O and AC does not. Name the following: (i) the diameter, (ii) a radius, (iii) a chord that is not a diameter, (iv) the arc between A and C that does not contain B.",
+     "a": "(i) AB (passes through O, length 14 cm). (ii) OA or OB or OC (each 7 cm). (iii) AC (joins two points on circle but does not pass through O). (iv) Minor arc AC (the shorter arc between A and C, since B is on the major arc). A wrong answer (e.g., naming OC as diameter or calling AC a diameter) reveals confusion about the \"passes through centre\" criterion for diameter versus chord.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a sector and a segment of a circle. Draw a labelled diagram for each and explain which radii/chords bound them. If the central angle is 90°, which region has a larger area: the sector or the segment? Justify without calculation.",
+     "a": "A sector is bounded by two radii and an arc; a segment is bounded by a chord and an arc. For a 90° central angle, the sector contains the segment plus the triangle formed by the two radii and the chord. Since the triangle has positive area, the sector's area is larger than the segment's area. A wrong answer (e.g., \"segment is larger because it's the curved part\" or \"they are equal\") shows the student cannot decompose the sector into segment + triangle, a key spatial reasoning skill for later area problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In a circle of radius 10 cm, a chord of length 10 cm is a radius.\" Evaluate this statement. Is it correct? If not, identify the exact error and correct it.",
+     "a": "The statement is incorrect. A radius is a segment from the centre to the circumference (length 10 cm). A chord of length 10 cm joins two points on the circumference; it does not have an endpoint at the centre (unless it is a diameter, which would be 20 cm). The error is confusing a radius (centre-to-boundary) with a chord (boundary-to-boundary). A wrong evaluation (e.g., \"it's correct because both are 10 cm\") reveals the student focuses on numerical length instead of geometric definition and endpoint location.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: a circular park, a round roti, a wheel) that requires identifying at least four different circle parts (e.g., radius, chord, arc, sector, segment). Write the problem and provide a labelled diagram with measurements.",
+     "a": "Example: \"A circular park has centre O and radius 20 m. A straight path AB goes through O. A curved jogging track follows the boundary from A to C (not passing through B). A triangular flower bed is bounded by OA, OC, and arc AC. A sitting area is the region between chord AC and arc AC.\" Diagram must show O, radius 20 m, diameter AB = 40 m, chord AC, minor arc AC, sector O-AC, segment AC. A poor answer (e.g., missing labels, using diameter as radius, confusing sector/segment) shows the student cannot translate terminology into a coherent spatial scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_002",
+   "title": "c11_psy_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the seven assumptions of the Life-Span Perspective on development as outlined in the NCERT textbook.",
+     "a": "The seven assumptions are: (1) Development is lifelong (conception to death), (2) Biological, cognitive, and socio-emotional processes are interwoven, (3) Development is multi-directional (gains and losses coexist), (4) Development is plastic (modifiable within limits), (5) Development is influenced by historical conditions, (6) Development is studied by multiple disciplines, (7) Individuals respond to contexts (inherited, physical, social, historical, cultural). A wrong answer that lists only \"development continues throughout life\" reveals the misconception that LSP merely extends the timeline of development without capturing its complexity — students often reduce LSP to simple continuity rather than a multi-dimensional framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what \"development is multi-directional\" means, and provide an original example not from the textbook that illustrates both gain and loss occurring simultaneously in one domain of development.",
+     "a": "Multi-directionality means that within a given domain or across domains, some aspects improve (gains) while others decline (losses) at the same time; development is not a unidirectional trajectory of progress. Example: A 45-year-old executive gains sophisticated decision-making wisdom (cognitive gain) but experiences slower working memory and reduced processing speed on complex novel tasks (cognitive loss). A wrong answer describing only gains (e.g., \"children grow taller and smarter\") or only losses (e.g., \"old people lose memory\") reveals the misconception that development is either purely progressive or purely regressive — students often fail to grasp that gain and loss coexist dynamically within the same individual and even within the same domain.",
+     "self_check": true
+    },
+    {
+     "q": "A 60-year-old retired professor decides to learn Spanish using a language app, practicing 30 minutes daily. After six months, she achieves conversational fluency but finds she cannot reproduce native-like pronunciation. Apply the LSP assumptions of plasticity, multi-directionality, and historical context to explain this outcome.",
+     "a": "Step 1: Plasticity — her ability to acquire vocabulary and grammar at 60 demonstrates that cognitive skills remain modifiable throughout life, though the degree of plasticity varies by domain and individual. Step 2: Multi-directionality — she shows gain (vocabulary, syntax mastery) alongside loss (phonological plasticity for native-like accent), illustrating that development in language learning involves simultaneous gains and losses. Step 3: Historical context — her access to a language app, digital resources, and societal value on lifelong learning are historical conditions that did not exist for 60-year-olds 50 years ago, enabling this learning opportunity. A wrong answer attributing the outcome solely to \"age-related decline\" reveals the misconception that plasticity is absent in older adulthood — students often treat age as a deterministic constraint rather than a boundary condition within which plasticity operates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Life-Span Perspective with traditional stage theories (e.g., Piaget's cognitive stages, Erikson's psychosocial stages) on three dimensions: (a) endpoint of development, (b) directionality of change, and (c) role of context.",
+     "a": "(a) Endpoint: Stage theories typically culminate in adolescence/early adulthood (formal operations, identity achievement); LSP extends development across the entire lifespan including old age. (b) Directionality: Stage theories imply unidirectional, hierarchical progression toward maturity; LSP posits multi-directionality with concurrent gains and losses at all ages. (c) Context: Stage theories often treat context as background; LSP positions context (historical, cultural, social) as a core determinant shaping developmental trajectories. A wrong answer stating \"stage theories also cover adulthood\" (e.g., citing Erikson's later stages) reveals the misconception that adding adult stages makes a theory lifespan-oriented — students miss that LSP's fundamental assumptions (plasticity, historical embeddedness, multidisciplinarity) constitute a paradigm shift, not merely an extension of stages.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"The Life-Span Perspective's assumption that 'development is plastic' implies that any skill can be learned to expert level at any age with sufficient practice.\" Support your judgment with evidence from developmental science.",
+     "a": "The claim is false. LSP states plasticity exists \"within limits\" and \"varies among individuals\" — it does not imply unlimited malleability. Evidence: (1) Sensitive/critical periods exist for certain domains (e.g., phonological acquisition, vision development) where plasticity dramatically decreases after a maturational window. (2) Biological constraints (genetic, neural) set upper bounds on achievable expertise (e.g., absolute pitch, Olympic-level gymnastics). (3) Plasticity itself declines with age for many cognitive-motor skills due to reduced neural plasticity, myelination efficiency, and metabolic capacity. A wrong answer agreeing with the claim reveals the misconception that plasticity equals unlimited potential — students often confuse \"modifiability\" with \"limitless malleability,\" ignoring the LSP's explicit qualification that plasticity operates within biological and contextual constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief research study (2-3 sentences describing design) that uses the Life-Span Perspective as its theoretical framework to investigate how digital technology adoption affects socio-emotional well-being across three age cohorts (adolescents, middle-aged adults, older adults). Explicitly link your design choices to at least three LSP assumptions.",
+     "a": "A sequential mixed-methods study: survey 150 participants (50 per cohort) measuring technology use patterns, social connectedness, and well-being, followed by in-depth interviews with 30 participants exploring lived experiences. Design links to LSP: (1) Lifelong development — includes older adults often excluded from tech research; (2) Multi-directionality — measures both gains (enhanced connection) and losses (displacement of face-to-face interaction); (3) Historical context — compares cohorts who adopted technology at different life stages (digital natives vs. immigrants); (4) Contextual embeddedness — examines how family dynamics, work demands, and cultural attitudes moderate effects. A poor answer studying only adolescents or measuring only positive outcomes reveals the misconception that LSP is just a label — students fail to operationalise its assumptions into methodological choices that capture complexity across the lifespan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

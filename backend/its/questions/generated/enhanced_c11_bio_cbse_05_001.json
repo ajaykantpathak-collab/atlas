@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_001",
+   "title": "c11_bio_cbse_05_001",
+   "questions": [
+    {
+     "q": "Name the four regions of a root tip in correct acropetal order and state the one unique cellular feature that distinguishes the region of maturation from the region of elongation.",
+     "a": "Root cap → Region of meristematic activity → Region of elongation → Region of maturation. The region of maturation is distinguished by the presence of unicellular root hairs on epidermal cells, which are absent in the elongation zone. A wrong answer (e.g., swapping elongation and maturation, or citing \"vacuole size\" instead of root hairs) reveals the student has memorised the sequence without linking structure to absorptive function.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Maize has a tap root system because its primary root grows deep into the soil.\" Explain why this statement is incorrect using the developmental origin of monocot roots.",
+     "a": "In monocots like maize, the primary root from the radicle is short-lived; it is replaced by a cluster of adventitious roots arising from the lower stem nodes, forming a fibrous system. The student's error stems from confusing \"primary root persistence\" (dicot trait) with \"deep growth\" — depth does not define tap root system, developmental continuity from radicle does. If the student cannot distinguish radicle-derived vs. stem-derived roots, they lack the ontogenetic criterion for root classification.",
+     "self_check": true
+    },
+    {
+     "q": "You observe a plant growing in waterlogged mangrove mud with pencil-like roots sticking vertically out of the soil. Identify the root modification, name the tissue enabling its function, and predict what happens to the plant if these roots are experimentally removed.",
+     "a": "Pneumatophores (respiratory roots) of Avicennia/Sonneratia. They contain aerenchyma — parenchyma with large air spaces — for oxygen diffusion to submerged roots. Removal causes anaerobic conditions in the underground root system, leading to alcohol fermentation, toxic metabolite accumulation, and eventual plant death. A partial answer naming only \"breathing roots\" without aerenchyma or the physiological consequence shows incomplete structure-function linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the storage root modifications of carrot (Daucus carota), radish (Raphanus sativus), and turnip (Brassica rapa) in terms of: (a) which part of the root system is modified, (b) the shape terminology, and (c) the botanical origin of the swollen tissue.",
+     "a": "All three are modified primary tap roots (not adventitious). Carrot = conical (broad base, tapering apex); Radish = fusiform (spindle-shaped, swollen in middle); Turnip = napiform (globular, top-shaped). The swollen tissue in all cases is the primary root's cortex and vascular parenchyma storing starch; the hypocotyl contributes minimally in turnip. Confusing turnip as a stem tuber (like potato) or misidentifying the modified organ reveals failure to apply the \"radicle-origin\" test for root vs. stem modifications.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Adventitious roots are always modifications for support, never for storage.\" Provide two counter-examples with their botanical names and the storage morphology.",
+     "a": "The claim is false. Adventitious roots modify for storage in: (1) Sweet potato (Ipomoea batatas) — tuberous adventitious roots, swollen singly without definite shape; (2) Dahlia — fasciculated adventitious roots, occurring in clusters at the stem base. Both are stem-borne (adventitious) yet serve storage, proving function is not tied to origin category. A student who cannot cite non-support adventitious modifications has over-generalised from banyan/maize examples.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple pot experiment to test whether root hairs are essential for water absorption in a dicot seedling. Specify the control, the treatment, the measurable variable, and the expected outcome if root hairs are the primary absorptive surface.",
+     "a": "Use two sets of mustard seedlings in identical soil. Control: intact roots. Treatment: gently abrade root-hair zone with fine sandpaper (or use a root-hairless mutant if available). Measure daily mass loss of pots (transpiration proxy) or leaf water potential with a psychrometer. Expected: Treatment plants wilt faster and show lower leaf water potential, confirming root hairs dominate absorption. A design lacking a proper control or measuring only \"growth\" instead of water-status reveals confusion between correlation and causation in plant physiology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

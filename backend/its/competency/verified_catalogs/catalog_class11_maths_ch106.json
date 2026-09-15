@@ -1,0 +1,883 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Permutations and Combinations",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh106.txt",
+ "concepts": [
+  {
+   "id": "kemh.6.1",
+   "title": "Fundamental Principle of Counting",
+   "section": "6.2",
+   "definition": "If a sequence of choices is to be made where the first decision can result in a set number of outcomes and the subsequent decision in another, the total number of combined sequential outcomes is the product of the individual counts.",
+   "formula": "total_ways = m * n",
+   "key_idea": "Multiply the number of available possibilities at each successive stage to find total combined choices.",
+   "textbook_ref": "kemh106.txt lines 20-65",
+   "question_patterns": [
+    "find the total number of ways to choose items in succession",
+    "how many ways can choices be combined",
+    "calculate total number of arrangements for sequential choices",
+    "in how many ways can multiple independent decisions be made together",
+    "Explain the method of Fundamental Principle of Counting."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify choices for first event",
+     "explain": "assign the number of choices available for the first event to variable m",
+     "compute": "m"
+    },
+    {
+     "step": 2,
+     "action": "identify choices for second event",
+     "explain": "assign the number of choices available for the second event to variable n",
+     "compute": "n"
+    },
+    {
+     "step": 3,
+     "action": "multiply possibilities",
+     "explain": "apply multiplication principle to find total sequential possibilities",
+     "compute": "event1_ways * event2_ways"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving fundamental principle of counting.",
+     "solution": "Step 1: identify choices for first event. Step 2: identify choices for second event. Step 3: multiply possibilities. Working: m, n, event1_ways * event2_ways.",
+     "answer": "Fundamental Principle of Counting applied step by step gives the required result."
+    },
+    {
+     "question": "Apply fundamental principle of counting to a fresh example and interpret the result.",
+     "solution": "Step 1: identify choices for first event. Step 2: identify choices for second event. Step 3: multiply possibilities. Working: m, n, event1_ways * event2_ways.",
+     "answer": "The method of fundamental principle of counting leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.2",
+   "title": "Factorial Notation",
+   "section": "6.3.2",
+   "definition": "The expression n factorial represents the product of all positive integers from 1 up to n, with zero factorial specially designated as equal to one.",
+   "formula": "n! = n * (n - 1) * ... * 1",
+   "key_idea": "Sequential multiplication of all descending natural numbers down to 1.",
+   "textbook_ref": "kemh106.txt lines 130-170",
+   "question_patterns": [
+    "evaluate n factorial",
+    "compute the value of expression involving factorials",
+    "calculate factorial ratio",
+    "find x in equation containing factorials",
+    "Explain the method of Factorial Notation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate numerator factorial",
+     "explain": "expand and calculate the value of numerator factorial",
+     "compute": "n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "evaluate denominator factorial",
+     "explain": "expand and calculate the value of denominator factorial",
+     "compute": "r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by denominator",
+     "explain": "simplify the ratio of factorial values",
+     "compute": "num_val / den_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving factorial notation.",
+     "solution": "Step 1: evaluate numerator factorial. Step 2: evaluate denominator factorial. Step 3: divide numerator by denominator. Working: n_factorial, r_factorial, num_val / den_val.",
+     "answer": "Factorial Notation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply factorial notation to a fresh example and interpret the result.",
+     "solution": "Step 1: evaluate numerator factorial. Step 2: evaluate denominator factorial. Step 3: divide numerator by denominator. Working: n_factorial, r_factorial, num_val / den_val.",
+     "answer": "The method of factorial notation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.3",
+   "title": "Permutations of Distinct Objects without Repetition",
+   "section": "6.3.1",
+   "definition": "The total number of ordered arrangements formed by selecting a specific count of elements from a pool of distinct items without replacing any item.",
+   "formula": "nPr = n! / (n - r)!",
+   "key_idea": "Ordered selection of r items from n unique items where order matters and repeats are forbidden.",
+   "textbook_ref": "kemh106.txt lines 110-125, 175-200",
+   "question_patterns": [
+    "find the number of permutations of n items taken r at a time",
+    "how many n digit numbers can be formed without repeating digits",
+    "calculate nPr",
+    "find the number of ways to arrange distinct items without repetition",
+    "Explain the method of Permutations of Distinct Objects without Repetition."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine numerator factorial",
+     "explain": "calculate n factorial for total distinct items",
+     "compute": "n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "determine denominator factorial",
+     "explain": "calculate factorial of remaining unused items (n - r)",
+     "compute": "n_minus_r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "compute permutation value",
+     "explain": "divide n! by (n - r)! to determine total ordered arrangements",
+     "compute": "n_fact / nr_fact"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving permutations of distinct objects without repetition.",
+     "solution": "Step 1: determine numerator factorial. Step 2: determine denominator factorial. Step 3: compute permutation value. Working: n_factorial, n_minus_r_factorial, n_fact / nr_fact.",
+     "answer": "Permutations of Distinct Objects without Repetition applied step by step gives the required result."
+    },
+    {
+     "question": "Apply permutations of distinct objects without repetition to a fresh example and interpret the result.",
+     "solution": "Step 1: determine numerator factorial. Step 2: determine denominator factorial. Step 3: compute permutation value. Working: n_factorial, n_minus_r_factorial, n_fact / nr_fact.",
+     "answer": "The method of permutations of distinct objects without repetition leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.4",
+   "title": "Permutations with Repetition Allowed",
+   "section": "6.3.3",
+   "definition": "The total count of ordered sequences of a given length constructed from a set of distinct elements when each element can be chosen any number of times.",
+   "formula": "total = n ** r",
+   "key_idea": "Each slot independently has n choices leading to exponential arrangements.",
+   "textbook_ref": "kemh106.txt lines 196-205",
+   "question_patterns": [
+    "find the number of words formed when repetition is allowed",
+    "how many digit numbers can be formed if repetition is permitted",
+    "calculate total arrangements with replaced elements",
+    "how many choices exist when items can repeat",
+    "Explain the method of Permutations with Repetition Allowed."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute exponentiation of choices",
+     "explain": "raise available choices n to the power of positions r",
+     "compute": "n ** r"
+    },
+    {
+     "step": 2,
+     "action": "identify number of distinct choices available",
+     "explain": "confirm n equals the count of distinct elements that can fill each position independently",
+     "compute": "n"
+    },
+    {
+     "step": 3,
+     "action": "identify number of positions to fill",
+     "explain": "confirm r equals the length of the ordered sequence being constructed with repetition permitted",
+     "compute": "r"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving permutations with repetition allowed.",
+     "solution": "Step 1: compute exponentiation of choices. Step 2: identify number of distinct choices available. Step 3: identify number of positions to fill. Working: n ** r, n, r.",
+     "answer": "Permutations with Repetition Allowed applied step by step gives the required result."
+    },
+    {
+     "question": "Apply permutations with repetition allowed to a fresh example and interpret the result.",
+     "solution": "Step 1: compute exponentiation of choices. Step 2: identify number of distinct choices available. Step 3: identify number of positions to fill. Working: n ** r, n, r.",
+     "answer": "The method of permutations with repetition allowed leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.5",
+   "title": "Permutations when Objects are Not All Distinct",
+   "section": "6.3.4",
+   "definition": "The total number of unique linear arrangements of a collection of items where several elements are indistinguishable copies of each other.",
+   "formula": "total = n! / (p1! * p2! * ... * pk!)",
+   "key_idea": "Divide total factorial by the product of identical item factorials to eliminate duplicate permutations.",
+   "textbook_ref": "kemh106.txt lines 210-260",
+   "question_patterns": [
+    "find the number of arrangements of letters in word with repeated letters",
+    "how many unique permutations exist for items with duplicate groups",
+    "calculate distinct arrangements of identical coloured objects",
+    "in how many ways can letters of a word be rearranged",
+    "Explain the method of Permutations when Objects are Not All Distinct."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute factorial of total objects count",
+     "explain": "find n factorial for total length",
+     "compute": "n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "multiply factorials of repeated item frequencies",
+     "explain": "calculate product of factorials for counts of identical elements",
+     "compute": "p1_factorial * p2_factorial"
+    },
+    {
+     "step": 3,
+     "action": "divide total factorial by repeats product",
+     "explain": "obtain distinct permutations by dividing total factorial by duplicate factorials product",
+     "compute": "total_fact / repeat_fact_prod"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving permutations when objects are not all distinct.",
+     "solution": "Step 1: compute factorial of total objects count. Step 2: multiply factorials of repeated item frequencies. Step 3: divide total factorial by repeats product. Working: n_factorial, p1_factorial * p2_factorial, total_fact / repeat_fact_prod.",
+     "answer": "Permutations when Objects are Not All Distinct applied step by step gives the required result."
+    },
+    {
+     "question": "Apply permutations when objects are not all distinct to a fresh example and interpret the result.",
+     "solution": "Step 1: compute factorial of total objects count. Step 2: multiply factorials of repeated item frequencies. Step 3: divide total factorial by repeats product. Working: n_factorial, p1_factorial * p2_factorial, total_fact / repeat_fact_prod.",
+     "answer": "The method of permutations when objects are not all distinct leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.6",
+   "title": "Combinations of Distinct Objects",
+   "section": "6.4",
+   "definition": "The number of ways to pick an unordered collection of r items from a set of n distinct items regardless of the sequence in which they are chosen.",
+   "formula": "nCr = n! / (r! * (n - r)!)",
+   "key_idea": "Unordered selection of items where arrangement within chosen group is irrelevant.",
+   "textbook_ref": "kemh106.txt lines 290-340",
+   "question_patterns": [
+    "find the number of combinations of choosing r items from n",
+    "how many ways can a team or committee be selected",
+    "calculate nCr",
+    "find the number of subsets of size r from n elements",
+    "how many chords or triangles can be drawn using given points"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate denominator product",
+     "explain": "multiply r factorial by (n - r) factorial",
+     "compute": "r_factorial * n_minus_r_factorial"
+    },
+    {
+     "step": 2,
+     "action": "divide total factorial by denominator product",
+     "explain": "divide n factorial by denom to determine combination count",
+     "compute": "n_factorial / denom"
+    },
+    {
+     "step": 3,
+     "action": "verify result represents unordered selections",
+     "explain": "confirm the count matches the number of ways to choose r items from n without regard to order",
+     "compute": "combinations"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving combinations of distinct objects.",
+     "solution": "Step 1: calculate denominator product. Step 2: divide total factorial by denominator product. Step 3: verify result represents unordered selections. Working: r_factorial * n_minus_r_factorial, n_factorial / denom, combinations.",
+     "answer": "Combinations of Distinct Objects applied step by step gives the required result."
+    },
+    {
+     "question": "Apply combinations of distinct objects to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate denominator product. Step 2: divide total factorial by denominator product. Step 3: verify result represents unordered selections. Working: r_factorial * n_minus_r_factorial, n_factorial / denom, combinations.",
+     "answer": "The method of combinations of distinct objects leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.7",
+   "title": "Properties and Identities of Combinations",
+   "section": "6.4",
+   "definition": "Algebraic relationships satisfied by combinations including symmetry across complementary selection and Pascal's additive identity.",
+   "formula": "nCr = nC(n-r) and nCr + nC(r-1) = (n+1)Cr",
+   "key_idea": "Choosing r items is mathematically identical to leaving behind n - r items.",
+   "textbook_ref": "kemh106.txt lines 340-370",
+   "question_patterns": [
+    "if nCa = nCb find n",
+    "verify identity nCr + nC(r-1) = n+1Cr",
+    "solve for unknown in combination equality",
+    "prove symmetry property of combinations",
+    "Explain the method of Properties and Identities of Combinations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply combination equality condition",
+     "explain": "use rule nCa = nCb implies either a = b or a + b = n"
+    },
+    {
+     "step": 2,
+     "action": "solve for missing parameter",
+     "explain": "equate parameters to find required integer value n or r"
+    },
+    {
+     "step": 3,
+     "action": "verify the solution satisfies the original equation",
+     "explain": "substitute the found value back into the combination equality to confirm both sides match"
+    }
+   ]
+  },
+  {
+   "id": "kemh.6.8",
+   "title": "Restricted Permutations and Grouped Elements",
+   "section": "6.3.4",
+   "definition": "Counting arrangements subject to positional constraints, such as keeping specified items together as a combined single unit or keeping them strictly separated.",
+   "formula": "total = block_outer_ways * block_inner_ways",
+   "key_idea": "Treat grouped items as a single compound element to arrange externally then multiply by internal block permutations.",
+   "textbook_ref": "kemh106.txt lines 265-285, 375-400",
+   "question_patterns": [
+    "find number of arrangements where vowels always occur together",
+    "in how many ways can items be arranged if specified items are never together",
+    "calculate permutations with fixed starting or ending elements",
+    "how many ways can people be seated so no two specific individuals sit together",
+    "Explain the method of Restricted Permutations and Grouped Elements."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "arrange consolidated block with remaining items",
+     "explain": "calculate outer permutations considering grouped items as one entity",
+     "compute": "block_outer_factorial"
+    },
+    {
+     "step": 2,
+     "action": "arrange items inside the group block",
+     "explain": "calculate internal permutations among items inside the grouped block",
+     "compute": "block_inner_factorial"
+    },
+    {
+     "step": 3,
+     "action": "multiply outer and inner arrangement counts",
+     "explain": "apply multiplication principle to find total constrained arrangements",
+     "compute": "outer_ways * inner_ways"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving restricted permutations and grouped elements.",
+     "solution": "Step 1: arrange consolidated block with remaining items. Step 2: arrange items inside the group block. Step 3: multiply outer and inner arrangement counts. Working: block_outer_factorial, block_inner_factorial, outer_ways * inner_ways.",
+     "answer": "Restricted Permutations and Grouped Elements applied step by step gives the required result."
+    },
+    {
+     "question": "Apply restricted permutations and grouped elements to a fresh example and interpret the result.",
+     "solution": "Step 1: arrange consolidated block with remaining items. Step 2: arrange items inside the group block. Step 3: multiply outer and inner arrangement counts. Working: block_outer_factorial, block_inner_factorial, outer_ways * inner_ways.",
+     "answer": "The method of restricted permutations and grouped elements leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, Page 102",
+   "concept": "kemh.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the number of {letters_count} letter words formed from the letters of {word} without repetition",
+   "extracted_variables": {
+    "letters_count": "number of places to fill",
+    "word": "source string containing distinct letters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify choices for first position",
+     "explain": "there are 4 options available for the first letter",
+     "compute": "p1 = 4"
+    },
+    {
+     "step": 2,
+     "action": "multiply choices for remaining positions",
+     "explain": "each subsequent position has 1 fewer choice",
+     "compute": "total_words = 4 * 3 * 2 * 1"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Example 9, Page 110",
+   "concept": "kemh.6.5",
+   "question_type": "compute",
+   "question_pattern": "Find the number of permutations of the letters of the word {word}",
+   "extracted_variables": {
+    "word": "given word ALLAHABAD"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total letter factorial",
+     "explain": "word ALLAHABAD has 9 letters in total",
+     "compute": "total_fact = 362880"
+    },
+    {
+     "step": 2,
+     "action": "calculate repeated letters factorials product",
+     "explain": "letter A repeats 4 times and L repeats 2 times",
+     "compute": "repeat_fact_prod = 24 * 2"
+    },
+    {
+     "step": 3,
+     "action": "divide total factorial by repeated factorials product",
+     "explain": "divide 362880 by 48 to find distinct arrangements",
+     "compute": "ans = total_fact / repeat_fact_prod"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "Example 17, Page 117",
+   "concept": "kemh.6.7",
+   "question_type": "verify_property",
+   "question_pattern": "If nC{a} = nC{b}, find nC{c}",
+   "extracted_variables": {
+    "a": "first sub-index 9",
+    "b": "second sub-index 8",
+    "c": "target index 17"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply combination equality rule",
+     "explain": "nC9 = nC8 implies n = 9 + 8 = 17"
+    },
+    {
+     "step": 2,
+     "action": "evaluate target combination",
+     "explain": "17C17 equals 1 by definition"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Fundamental Principle of Counting chain with m = 2, n = 3, event1_ways = 5, event2_ways = 4. What value does it produce?",
+   "extracted_variables": {
+    "m": "2",
+    "n": "3",
+    "event1_ways": "5",
+    "event2_ways": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify choices for first event",
+     "explain": "assign the number of choices available for the first event to variable m",
+     "compute": "event1_ways = m"
+    },
+    {
+     "step": 2,
+     "action": "identify choices for second event",
+     "explain": "assign the number of choices available for the second event to variable n",
+     "compute": "event2_ways = n"
+    },
+    {
+     "step": 3,
+     "action": "multiply possibilities",
+     "explain": "apply multiplication principle to find total sequential possibilities",
+     "compute": "total_ways = event1_ways * event2_ways"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Factorial Notation chain with n_factorial = 2, r_factorial = 3, num_val = 5, den_val = 4. What value does it produce?",
+   "extracted_variables": {
+    "n_factorial": "2",
+    "r_factorial": "3",
+    "num_val": "5",
+    "den_val": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate numerator factorial",
+     "explain": "expand and calculate the value of numerator factorial",
+     "compute": "num_val = n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "evaluate denominator factorial",
+     "explain": "expand and calculate the value of denominator factorial",
+     "compute": "den_val = r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by denominator",
+     "explain": "simplify the ratio of factorial values",
+     "compute": "ans = num_val / den_val"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Factorial Notation chain with n_factorial = 2, r_factorial = 3, num_val = 5, den_val = 4. What value does it produce?",
+   "extracted_variables": {
+    "n_factorial": "2",
+    "r_factorial": "3",
+    "num_val": "5",
+    "den_val": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate numerator factorial",
+     "explain": "expand and calculate the value of numerator factorial",
+     "compute": "num_val = n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "evaluate denominator factorial",
+     "explain": "expand and calculate the value of denominator factorial",
+     "compute": "den_val = r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "divide numerator by denominator",
+     "explain": "simplify the ratio of factorial values",
+     "compute": "ans = num_val / den_val"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Permutations of Distinct Objects without Repetition chain with n_factorial = 2, n_minus_r_factorial = 3, n_fact = 5, nr_fact = 4. What value does it produce?",
+   "extracted_variables": {
+    "n_factorial": "2",
+    "n_minus_r_factorial": "3",
+    "n_fact": "5",
+    "nr_fact": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine numerator factorial",
+     "explain": "calculate n factorial for total distinct items",
+     "compute": "n_fact = n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "determine denominator factorial",
+     "explain": "calculate factorial of remaining unused items (n - r)",
+     "compute": "nr_fact = n_minus_r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "compute permutation value",
+     "explain": "divide n! by (n - r)! to determine total ordered arrangements",
+     "compute": "permutations = n_fact / nr_fact"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Permutations of Distinct Objects without Repetition chain with n_factorial = 2, n_minus_r_factorial = 3, n_fact = 5, nr_fact = 4. What value does it produce?",
+   "extracted_variables": {
+    "n_factorial": "2",
+    "n_minus_r_factorial": "3",
+    "n_fact": "5",
+    "nr_fact": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine numerator factorial",
+     "explain": "calculate n factorial for total distinct items",
+     "compute": "n_fact = n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "determine denominator factorial",
+     "explain": "calculate factorial of remaining unused items (n - r)",
+     "compute": "nr_fact = n_minus_r_factorial"
+    },
+    {
+     "step": 3,
+     "action": "compute permutation value",
+     "explain": "divide n! by (n - r)! to determine total ordered arrangements",
+     "compute": "permutations = n_fact / nr_fact"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Permutations with Repetition Allowed chain with n = 2, r = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "r": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute exponentiation of choices",
+     "explain": "raise available choices n to the power of positions r",
+     "compute": "total_arrangements = n ** r"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Permutations with Repetition Allowed chain with n = 2, r = 3. What value does it produce?",
+   "extracted_variables": {
+    "n": "2",
+    "r": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute exponentiation of choices",
+     "explain": "raise available choices n to the power of positions r",
+     "compute": "total_arrangements = n ** r"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Permutations when Objects are Not All Distinct chain with n_factorial = 2, p1_factorial = 3, p2_factorial = 5, total_fact = 4, repeat_fact_prod = 7. What value does it produce?",
+   "extracted_variables": {
+    "n_factorial": "2",
+    "p1_factorial": "3",
+    "p2_factorial": "5",
+    "total_fact": "4",
+    "repeat_fact_prod": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute factorial of total objects count",
+     "explain": "find n factorial for total length",
+     "compute": "total_fact = n_factorial"
+    },
+    {
+     "step": 2,
+     "action": "multiply factorials of repeated item frequencies",
+     "explain": "calculate product of factorials for counts of identical elements",
+     "compute": "repeat_fact_prod = p1_factorial * p2_factorial"
+    },
+    {
+     "step": 3,
+     "action": "divide total factorial by repeats product",
+     "explain": "obtain distinct permutations by dividing total factorial by duplicate factorials product",
+     "compute": "unique_permutations = total_fact / repeat_fact_prod"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Combinations of Distinct Objects chain with r_factorial = 2, n_minus_r_factorial = 3, n_factorial = 5, denom = 4. What value does it produce?",
+   "extracted_variables": {
+    "r_factorial": "2",
+    "n_minus_r_factorial": "3",
+    "n_factorial": "5",
+    "denom": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate denominator product",
+     "explain": "multiply r factorial by (n - r) factorial",
+     "compute": "denom = r_factorial * n_minus_r_factorial"
+    },
+    {
+     "step": 2,
+     "action": "divide total factorial by denominator product",
+     "explain": "divide n factorial by denom to determine combination count",
+     "compute": "combinations = n_factorial / denom"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Combinations of Distinct Objects chain with r_factorial = 2, n_minus_r_factorial = 3, n_factorial = 5, denom = 4. What value does it produce?",
+   "extracted_variables": {
+    "r_factorial": "2",
+    "n_minus_r_factorial": "3",
+    "n_factorial": "5",
+    "denom": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate denominator product",
+     "explain": "multiply r factorial by (n - r) factorial",
+     "compute": "denom = r_factorial * n_minus_r_factorial"
+    },
+    {
+     "step": 2,
+     "action": "divide total factorial by denominator product",
+     "explain": "divide n factorial by denom to determine combination count",
+     "compute": "combinations = n_factorial / denom"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Restricted Permutations and Grouped Elements chain with block_outer_factorial = 2, block_inner_factorial = 3, outer_ways = 5, inner_ways = 4. What value does it produce?",
+   "extracted_variables": {
+    "block_outer_factorial": "2",
+    "block_inner_factorial": "3",
+    "outer_ways": "5",
+    "inner_ways": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "arrange consolidated block with remaining items",
+     "explain": "calculate outer permutations considering grouped items as one entity",
+     "compute": "outer_ways = block_outer_factorial"
+    },
+    {
+     "step": 2,
+     "action": "arrange items inside the group block",
+     "explain": "calculate internal permutations among items inside the grouped block",
+     "compute": "inner_ways = block_inner_factorial"
+    },
+    {
+     "step": 3,
+     "action": "multiply outer and inner arrangement counts",
+     "explain": "apply multiplication principle to find total constrained arrangements",
+     "compute": "total_ways = outer_ways * inner_ways"
+    }
+   ]
+  },
+  {
+   "id": "drill15",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.6.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Restricted Permutations and Grouped Elements chain with block_outer_factorial = 2, block_inner_factorial = 3, outer_ways = 5, inner_ways = 4. What value does it produce?",
+   "extracted_variables": {
+    "block_outer_factorial": "2",
+    "block_inner_factorial": "3",
+    "outer_ways": "5",
+    "inner_ways": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "arrange consolidated block with remaining items",
+     "explain": "calculate outer permutations considering grouped items as one entity",
+     "compute": "outer_ways = block_outer_factorial"
+    },
+    {
+     "step": 2,
+     "action": "arrange items inside the group block",
+     "explain": "calculate internal permutations among items inside the grouped block",
+     "compute": "inner_ways = block_inner_factorial"
+    },
+    {
+     "step": 3,
+     "action": "multiply outer and inner arrangement counts",
+     "explain": "apply multiplication principle to find total constrained arrangements",
+     "compute": "total_ways = outer_ways * inner_ways"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "Exercise 6.1",
+   "questions": [
+    "1. How many 3-digit numbers can be formed from the digits 1, 2, 3, 4 and 5 assuming that (i) repetition of the digits is allowed? (ii) repetition of the digits is not allowed?",
+    "2. How many 3-digit even numbers can be formed from the digits 1, 2, 3, 4, 5, 6 if the digits can be repeated?",
+    "3. How many 4-letter code can be formed using the first 10 letters of the English alphabet, if no letter can be repeated?",
+    "4. How many 5-digit telephone numbers can be constructed using the digits 0 to 9 if each number starts with 67 and no digit appears more than once?",
+    "5. A coin is tossed 3 times and the outcomes are recorded. How many possible outcomes are there?",
+    "6. Given 5 flags of different colours, how many different signals can be generated if each signal requires the use of 2 flags, one below the other?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "Exercise 6.2",
+   "questions": [
+    "1. Evaluate (i) 8 ! (ii) 4 ! – 3 !",
+    "2. Is 3 ! + 4 ! = 7 ! ?",
+    "3. Compute 8! / (6! * 2!)",
+    "4. If 1/6! + 1/7! = x/8!, find x.",
+    "5. Evaluate n! / (n - r)!, when (i) n = 6, r = 2 (ii) n = 9, r = 5."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "Exercise 6.3",
+   "questions": [
+    "1. How many 3-digit numbers can be formed by using the digits 1 to 9 if no digit is repeated?",
+    "2. How many 4-digit numbers are there with no digit repeated?",
+    "3. How many 3-digit even numbers can be made using the digits 1, 2, 3, 4, 6, 7, if no digit is repeated?",
+    "4. Find the number of 4-digit numbers that can be formed using the digits 1, 2, 3, 4, 5 if no digit is repeated. How many of these will be even?",
+    "5. From a committee of 8 persons, in how many ways can we choose a chairman and a vice chairman assuming one person can not hold more than one position?",
+    "6. Find n if n-1P3 : nP4 = 1 : 9.",
+    "7. Find r if (i) 5Pr = 2 * 6Pr-1 (ii) 5Pr = 6Pr-1.",
+    "8. How many words, with or without meaning, can be formed using all the letters of the word EQUATION, using each letter exactly once?",
+    "9. How many words, with or without meaning can be made from the letters of the word MONDAY, assuming that no letter is repeated, if (i) 4 letters are used at a time, (ii) all letters are used at a time, (iii) all letters are used but first letter is a vowel?",
+    "10. In how many of the distinct permutations of the letters in MISSISSIPPI do the four I’s not come together?",
+    "11. In how many ways can the letters of the word PERMUTATIONS be arranged if the (i) words start with P and end with S, (ii) vowels are all together, (iii) there are always 4 letters between P and S?"
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "Exercise 6.4",
+   "questions": [
+    "1. If nC8 = nC2, find nC2.",
+    "2. Determine n if (i) 2nC3 : nC3 = 12 : 1 (ii) 2nC3 : nC3 = 11 : 1",
+    "3. How many chords can be drawn through 21 points on a circle?",
+    "4. In how many ways can a team of 3 boys and 3 girls be selected from 5 boys and 4 girls?",
+    "5. Find the number of ways of selecting 9 balls from 6 red balls, 5 white balls and 5 blue balls if each selection consists of 3 balls of each colour.",
+    "6. Determine the number of 5 card combinations out of a deck of 52 cards if there is exactly one ace in each combination.",
+    "7. In how many ways can one select a cricket team of eleven from 17 players in which only 5 players can bowl if each cricket team of 11 must include exactly 4 bowlers?",
+    "8. A bag contains 5 black and 6 red balls. Determine the number of ways in which 2 black and 3 red balls can be selected.",
+    "9. In how many ways can a student choose a programme of 5 courses if 9 courses are available and 2 specific courses are compulsory for every student?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_005",
+   "title": "c11_acc_cbse_08_005",
+   "questions": [
+    {
+     "q": "What is the correct formula for calculating Net Profit in a Profit and Loss Account?",
+     "a": "Net Profit = Gross Profit + Other Incomes – Indirect Expenses. A wrong answer like \"Net Profit = Sales – Purchases – All Expenses\" reveals the student confuses Trading Account (gross profit) with Profit & Loss Account (net profit) and doesn't understand that Gross Profit is the starting point, not Sales.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes \"Carriage Outwards ₹2,000\" on the debit side of the Trading Account. Explain why this is incorrect and where it should appear.",
+     "a": "Carriage Outwards is a selling/distribution expense (indirect), not a direct expense. It belongs on the debit side of the Profit & Loss Account, not Trading Account. A wrong answer indicates the student cannot distinguish direct expenses (part of cost of goods sold) from indirect expenses (period costs), a fundamental classification error affecting both Gross and Net Profit.",
+     "self_check": true
+    },
+    {
+     "q": "From the following, prepare the Profit and Loss Account and compute Net Profit: Gross Profit ₹80,000; Salaries ₹15,000; Rent ₹10,000; Commission Received ₹5,000; Interest on Loan ₹3,000; Bad Debts ₹2,000; Discount Received ₹1,000.",
+     "a": "**Steps:** 1) Credit side: Gross Profit ₹80,000 + Commission Received ₹5,000 + Discount Received ₹1,000 = ₹86,000. 2) Debit side: Salaries ₹15,000 + Rent ₹10,000 + Interest on Loan ₹3,000 + Bad Debts ₹2,000 = ₹30,000. 3) Net Profit = ₹86,000 – ₹30,000 = ₹56,000. A wrong answer (e.g., ₹50,000) suggests the student omitted an income/expense item or misclassified Interest on Loan as non-operating (it is an indirect expense here).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on Net Profit if: (a) ₹10,000 spent on machinery repairs is debited to Machinery Account vs (b) correctly debited to Repairs Account. Assume Gross Profit ₹1,00,000, other indirect expenses ₹40,000, no other incomes.",
+     "a": "Case (a): Repairs not expensed → Indirect Expenses = ₹40,000 → Net Profit = ₹1,00,000 – ₹40,000 = ₹60,000 (overstated). Case (b): Repairs expensed → Indirect Expenses = ₹50,000 → Net Profit = ₹50,000 (correct). Difference = ₹10,000 overstatement. A wrong answer shows the student doesn't grasp how capital/revenue misclassification distorts profit (as emphasized in NCERT 8.2.3).",
+     "self_check": true
+    },
+    {
+     "q": "A firm has Net Profit ₹25,000, Interest on Long-term Loan ₹2,000 (debited to P&L), Profit on Sale of Investment ₹3,000 (credited to P&L). Calculate Operating Profit and evaluate whether the firm's core operations are profitable.",
+     "a": "Operating Profit = Net Profit + Non-operating Expenses – Non-operating Incomes = ₹25,000 + ₹2,000 – ₹3,000 = ₹24,000. Core operations are profitable (₹24,000 > 0). A wrong answer (e.g., ₹20,000 or ₹30,000) reveals confusion in the Operating Profit formula (NCERT 8.5) or misidentification of financial/non-operating items.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: A bakery has Gross Profit ₹1,20,000. It pays ₹30,000 rent, ₹25,000 salaries, ₹5,000 electricity, ₹2,000 advertising. It earns ₹8,000 interest on FD and ₹3,000 rent from subletting part of premises. It also had a loss of ₹10,000 due to fire (uninsured). Prepare the Profit & Loss Account and compute Net Profit and Operating Profit.",
+     "a": "**P&L Account:** Dr: Rent ₹30,000 + Salaries ₹25,000 + Electricity ₹5,000 + Advertising ₹2,000 + Loss by Fire ₹10,000 = ₹72,000. Cr: Gross Profit ₹1,20,000 + Interest ₹8,000 + Rent Received ₹3,000 = ₹1,31,000. Net Profit = ₹59,000. Operating Profit = ₹59,000 + ₹10,000 (non-op expense) – ₹11,000 (non-op incomes) = ₹58,000. A poor answer misses the fire loss classification (non-operating) or misclassifies sublet rent as operating income.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

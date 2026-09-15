@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_004",
+   "title": "c12_cs_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define the term \"domain\" in the context of the relational data model. Give an example of a valid domain for an attribute \"DateOfBirth\".",
+     "a": "A domain is the set of all permissible atomic values that an attribute can take. For \"DateOfBirth\", a valid domain is the set of all valid calendar dates (e.g., all dates from 01-01-1900 to today) — each value is a single date, not a list or range. A wrong answer like \"domain is the column name\" confuses attribute with domain; \"domain is the table\" confuses relation with domain; \"domain is 01-01-2005\" gives a single value instead of the set of all allowed values.",
+     "self_check": true
+    },
+    {
+     "q": "A relation instance has 5 attributes and 120 tuples. What are its degree and cardinality? If you add 3 more attributes without adding any tuples, what happens to degree and cardinality?",
+     "a": "Degree = 5 (number of attributes), Cardinality = 120 (number of tuples). After adding 3 attributes, degree becomes 8, cardinality remains 120 because no new rows were inserted. A wrong answer that says cardinality increases reveals confusion between adding columns (changes schema/degree) and adding rows (changes instance/cardinality).",
+     "self_check": true
+    },
+    {
+     "q": "Consider a relation `Student(RollNo, Name, Subjects)` where `Subjects` stores values like \"Physics, Chemistry, Maths\" in a single cell. Does this violate the relational model? Explain why.",
+     "a": "Yes, it violates the relational model because the domain of `Subjects` is not atomic — a single cell contains multiple values (a list). The relational model requires every attribute value to be atomic (indivisible). A wrong answer saying \"it's fine because it's just text\" misses the atomicity requirement; a wrong answer saying \"it violates primary key\" confuses domain atomicity with key constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Two relations `R1(A, B)` and `R2(C, D)` have the same cardinality 10. `R1` has degree 2, `R2` has degree 2. Can `R1` and `R2` be union-compatible? What additional condition must hold?",
+     "a": "Having same degree (2) and same cardinality (10) is necessary but NOT sufficient for union compatibility. The corresponding attributes must also have the same domains: domain(A) = domain(C) and domain(B) = domain(D). A wrong answer that says \"yes, they are union-compatible because degree and cardinality match\" ignores the domain compatibility requirement — a classic JEE/board trap.",
+     "self_check": true
+    },
+    {
+     "q": "A database designer proposes a relation `Employee(EmpID, Name, Salary, DeptName, DeptLocation)` where `DeptLocation` is functionally dependent on `DeptName`. Evaluate this design: does it violate any relational model principle at the tuple/attribute/domain level? Justify.",
+     "a": "At the tuple/attribute/domain level, this design does NOT violate any relational model principle — domains can be atomic, tuples are unique, attributes have proper domains. The issue (transitive dependency) is a normalization concern (2NF/3NF), not a relational model structure violation. A wrong answer saying \"it violates the relational model because of redundancy\" confuses logical structure with design quality — the relational model permits redundancy; normalization removes it.",
+     "self_check": true
+    },
+    {
+     "q": "Create a relation instance for \"LibraryBook\" with attributes: `BookID`, `Title`, `Author`, `Genre`, `CopiesAvailable`. Define a valid domain for each attribute. Ensure cardinality = 4 and degree = 5. Show the relation instance as a table.",
+     "a": "A valid answer shows a 4-row × 5-column table. Example domains: BookID = {positive integers}, Title = {strings ≤ 100 chars}, Author = {strings ≤ 50 chars}, Genre = {'Fiction', 'Non-Fiction', 'Reference', 'Biography'}, CopiesAvailable = {non-negative integers}. Each cell has a single atomic value. A poor answer uses non-atomic domains (e.g., Genre = \"Fiction, Mystery\"), wrong cardinality (3 or 5 rows), or missing attributes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

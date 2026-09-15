@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_105",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_105",
+   "title": "c6_math_ch10_105",
+   "questions": [
+    {
+     "q": "What do we call the line that divides a shape into two identical mirror-image halves?",
+     "a": "It is called the line of symmetry. If a student answers \"middle line\" or \"bisector,\" they lack the specific geometric vocabulary, which is essential for identifying that the parts must be mirror images, not just equal in area.",
+     "self_check": true
+    },
+    {
+     "q": "If you fold a paper shape along a line and the two halves do not overlap perfectly, is the shape symmetrical? Why or why not?",
+     "a": "No, it is not symmetrical. A wrong answer suggests the student thinks \"symmetry\" just means \"equal size,\" whereas it actually requires the parts to be exact reflections of each other (matching points, corners, and edges).",
+     "self_check": true
+    },
+    {
+     "q": "Draw a rectangle on a piece of paper. How many lines of symmetry can you find by folding it?",
+     "a": "A rectangle has two lines of symmetry: one horizontal and one vertical. If a student says \"four,\" they are confusing a rectangle with a square; if they say \"one,\" they likely missed the second axis of reflection.",
+     "self_check": true
+    },
+    {
+     "q": "Look at the English letter 'A'. Does it have a line of symmetry? If so, where is it?",
+     "a": "Yes, it has one vertical line of symmetry passing through the top point down to the base. A student saying it has no symmetry fails to see that the left and right sides are mirror reflections.",
+     "self_check": true
+    },
+    {
+     "q": "Can a triangle have more than one line of symmetry? Explain your reasoning.",
+     "a": "Yes, an equilateral triangle has three lines of symmetry because all three sides and angles are equal. A student saying \"no\" or \"only one\" is likely only picturing an isosceles or scalene triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple shape that has at least two lines of symmetry and draw it on a grid.",
+     "a": "The student should draw a shape like a cross or a rectangle. A poor answer would be an irregular, lopsided shape, showing the student doesn't grasp that symmetry requires balanced, mirrored construction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

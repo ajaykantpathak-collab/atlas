@@ -1,0 +1,639 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 201,
+  "chapter_title": "Financial Management",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.201.1.1",
+      "title": "Financial Management and Wealth Maximisation",
+      "section": "1.1",
+      "definition": "The discipline of raising funds at the lowest workable cost and deploying them where returns beat that cost, all aimed at lifting the market price of the equity shares -- the wealth of the shareholders who own the company.",
+      "formula": "",
+      "key_idea": "Every financial choice should add value: if a decision's benefit exceeds its cost the share price rises, and if it does not, the decision is a poor one.",
+      "textbook_ref": "lebs201.txt lines 83-302 (Financial Management, importance, objectives, wealth maximisation)",
+      "question_patterns": [
+        "what is meant by financial management",
+        "state the primary objective of financial management",
+        "what is meant by the wealth maximisation concept",
+        "how do financial management decisions affect the financial statements",
+        "why should the return on investment exceed the cost of funds"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the discipline",
+          "explain": "It covers optimal procurement of finance -- comparing sources on cost and risk -- and its effective deployment."
+        },
+        {
+          "step": 2,
+          "action": "State the guiding objective",
+          "explain": "Wealth maximisation: raise the current price of equity shares so that owners grow richer."
+        },
+        {
+          "step": 3,
+          "action": "Apply the value-addition test",
+          "explain": "A machine purchase, a borrowing choice or a dividend payout each passes only if benefits exceed costs."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.2.1",
+      "title": "Investment Decision and Capital Budgeting",
+      "section": "2.1",
+      "definition": "The choice of where the firm's scarce funds go: long-term commitments such as a new machine, plant or branch are capital budgeting decisions that shape growth, profitability and competitiveness for years and are almost impossible to reverse, while short-term commitments in cash, inventory and receivables run the daily business.",
+      "formula": "",
+      "key_idea": "Three screens for a project -- its cash flows over the years, its rate of return against the risk taken, and the capital budgeting technique applied before selection.",
+      "textbook_ref": "lebs201.txt lines 303-423 (Investment Decision; capital budgeting; factors a-c)",
+      "question_patterns": [
+        "what is meant by investment decision",
+        "why is a capital budgeting decision crucial for a business",
+        "state the factors affecting the capital budgeting decision",
+        "distinguish between long term and short term investment decisions",
+        "how does the rate of return guide the choice between two projects"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the decision",
+          "explain": "It concerns how the firm's funds are placed in different assets to earn the best return for investors."
+        },
+        {
+          "step": 2,
+          "action": "Separate the two horizons",
+          "explain": "Long-term placement is capital budgeting -- huge, irreversible, growth-shaping; short-term placement is working capital management affecting liquidity and daily work."
+        },
+        {
+          "step": 3,
+          "action": "List the evaluation factors",
+          "explain": "Cash flows of the project, rate of return relative to risk, and the investment criteria or techniques applied."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.2.2",
+      "title": "Financing Decision",
+      "section": "2.2",
+      "definition": "The choice of how much money to raise from which long-term source -- shareholders' funds such as equity and retained earnings, or borrowed funds such as debentures and loans -- balancing the cheapness of debt against the fixed payment burden it brings.",
+      "formula": "",
+      "key_idea": "Debt is cheapest and its interest is tax-deductible, but interest and repayment are compulsory; equity carries no such compulsion. Cost, risk, floatation cost, cash flow position, fixed operating costs, control worries and capital market conditions all steer the choice.",
+      "textbook_ref": "lebs201.txt lines 424-533 (Financing Decision; financial risk; factors a-g)",
+      "question_patterns": [
+        "what is meant by financing decision",
+        "why is debt considered the cheapest source of finance",
+        "what is financial risk and when does it arise",
+        "state the factors affecting the financing decision of a company",
+        "how does the fear of takeover affect the choice between debt and equity",
+        "what is meant by floatation cost"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the decision",
+          "explain": "It fixes the quantum to be raised from shareholders' funds versus borrowed funds."
+        },
+        {
+          "step": 2,
+          "action": "Weigh the two families",
+          "explain": "Borrowed funds are cheaper with tax-deductible interest but demand payment regardless of profit; owners' funds carry no fixed commitment."
+        },
+        {
+          "step": 3,
+          "action": "List the influencing factors",
+          "explain": "Cost, risk, floatation cost, cash flow position, fixed operating costs, control considerations and the state of the capital market."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.2.3",
+      "title": "Dividend Decision",
+      "section": "2.3",
+      "definition": "The split of after-tax profit between what is paid out to shareholders as current income and what is retained to build future earning capacity, taken always with an eye to maximising shareholder wealth.",
+      "formula": "",
+      "key_idea": "Earnings, their stability, growth opportunities, cash position, shareholder preference, tax policy, market reaction, access to capital markets and legal or loan constraints all decide the payout.",
+      "textbook_ref": "lebs201.txt lines 534-674 (Dividend Decision; factors a-k)",
+      "question_patterns": [
+        "what is meant by dividend decision",
+        "state the factors affecting the dividend decision of a company",
+        "why do growth companies pay a smaller dividend",
+        "how does the cash flow position affect dividend payment",
+        "why does a company prefer stable dividends per share",
+        "can loan agreements restrict the payment of dividend"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the decision",
+          "explain": "It decides how much of the profit earned goes to shareholders and how much stays in the business as retained earnings."
+        },
+        {
+          "step": 2,
+          "action": "Bring in the trade-off",
+          "explain": "Dividend is present income; retention raises future earnings and eases the financing need -- both serve wealth maximisation."
+        },
+        {
+          "step": 3,
+          "action": "List the deciding factors",
+          "explain": "Earnings and their stability, growth prospects, cash flow, shareholder preference, taxation, stock market reaction, market access, legal and contractual limits."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.3.1",
+      "title": "Financial Planning and Its Objectives",
+      "section": "3.1",
+      "definition": "Advance sketching of the firm's future money needs and their timing, so that the right amount of funds arrives at the right time -- neither a shortage that stalls commitments nor a surplus that sits idle and adds cost.",
+      "formula": "",
+      "key_idea": "Twin objectives: ensure funds are available whenever required, and see that no unnecessary resources are raised; it starts from a sales forecast, estimates retained earnings, and locates sources for the external gap.",
+      "textbook_ref": "lebs201.txt lines 675-847 (Financial Planning; twin objectives; importance i-vii)",
+      "question_patterns": [
+        "what is meant by financial planning",
+        "state the two objectives of financial planning",
+        "how does financial planning differ from financial management",
+        "why is excess funding as bad as inadequate funding",
+        "explain the importance of financial planning for a business",
+        "what is the role of sales forecast in financial planning"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define the blueprint",
+          "explain": "Financial planning estimates the fund requirement -- its size and timing -- and specifies the sources to meet it."
+        },
+        {
+          "step": 2,
+          "action": "State the twin objectives",
+          "explain": "Availability of funds whenever required, and no avoidable raising of resources."
+        },
+        {
+          "step": 3,
+          "action": "Give the importance points",
+          "explain": "It prepares alternative plans for different scenarios, avoids shocks, coordinates functions, cuts waste, links present with future, and eases performance evaluation."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.4.1",
+      "title": "Capital Structure and Financial Risk",
+      "section": "4.1",
+      "definition": "The mix between owners' funds and borrowed funds in the long-term financing of a firm, measured as the debt-equity ratio or as debt's share of total capital; the blend is optimal when it pushes the value of the equity share highest.",
+      "formula": "debt_equity_ratio = debt / equity",
+      "key_idea": "Debt is cheaper -- assured return to lenders plus tax-deductible interest -- but obligatory payments raise the financial risk, the chance of failing to meet fixed payment obligations; equity is costlier yet riskless for the firm.",
+      "textbook_ref": "lebs201.txt lines 848-973 (Capital Structure; owners vs borrowed funds; financial risk and leverage)",
+      "question_patterns": [
+        "what is meant by capital structure",
+        "why is debt cheaper than equity for a firm",
+        "what is financial risk and why does higher debt increase it",
+        "compute the debt equity ratio when debt is {debt} and equity is {equity}",
+        "when is a capital structure said to be optimal",
+        "what is financial leverage"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the two components",
+          "explain": "Borrowed funds form the debt component; owners' funds -- equity, preference capital and reserves -- form the equity component.",
+          "compute": "borrowings = debt"
+        },
+        {
+          "step": 2,
+          "action": "Divide debt by equity",
+          "explain": "The ratio shows how many rupees of borrowed funds stand on each rupee of owners' funds.",
+          "compute": "debt_equity_ratio = borrowings / equity"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Capital Structure and Financial Risk, compute the result for debt = 3, equity = 3.",
+          "solution": "Step 1: Take the two components: borrowings = debt = 3.0 Step 2: Divide debt by equity: debt_equity_ratio = borrowings / equity = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Capital Structure and Financial Risk, compute the result for debt = 4, equity = 4.",
+          "solution": "Step 1: Take the two components: borrowings = debt = 4.0 Step 2: Divide debt by equity: debt_equity_ratio = borrowings / equity = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.4.2",
+      "title": "Trading on Equity and Financial Leverage",
+      "section": "4.1",
+      "definition": "The practice of borrowing at a rate below the return the firm earns on its funds so that the surplus accrues to the equity holders, lifting their earnings per share; the share of debt in the capital is the financial leverage that makes this possible.",
+      "formula": "",
+      "key_idea": "Leverage is favourable when the return on investment beats the interest rate -- debt raises EPS as in Company X at 13.33 per cent RoI against 10 per cent interest; when RoI falls below the interest rate, as in Company Y, debt drags EPS down and trading on equity should be avoided.",
+      "textbook_ref": "lebs201.txt lines 979-1174 (EBIT-EPS analysis, Examples I and II, favourable and unfavourable leverage)",
+      "question_patterns": [
+        "explain the term trading on equity",
+        "when is trading on equity favourable and when is it unfavourable",
+        "why does eps rise with higher debt in some companies but fall in others",
+        "name the concept that increases the return to equity shareholders due to fixed financial charges",
+        "a company earns a return higher than its interest rate should it borrow more explain",
+        "what is financial leverage"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define trading on equity",
+          "explain": "It is the gain in equity shareholders' profit that arises because fixed-charge debt is used in the capital."
+        },
+        {
+          "step": 2,
+          "action": "State the test for favourability",
+          "explain": "Compare return on investment with the interest rate on debt: RoI above interest lifts EPS; RoI below interest lowers it."
+        },
+        {
+          "step": 3,
+          "action": "Quote the two-company contrast",
+          "explain": "At 13.33 per cent RoI, EPS climbed from 0.93 to 1.40 as debt grew; at 6.67 per cent RoI, EPS slid from 0.47 to nil."
+        },
+        {
+          "step": 4,
+          "action": "Add the caution",
+          "explain": "Even favourable leverage should stop short of reckless debt, since higher debt raises financial risk."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.4.3",
+      "title": "EBIT-EPS Analysis",
+      "section": "4.1",
+      "definition": "The workings that show how a capital structure choice lands on the shareholder: earnings before interest and tax are reduced by interest, taxed, and then divided among the equity shares to give earnings per share under each debt plan.",
+      "formula": "eps = (ebit - interest) * (1 - tax_rate) / num_shares",
+      "key_idea": "Interest is paid before tax, so debt shields earnings; the last line of the workings -- earnings after tax divided by the number of shares -- tells whether the leverage helped or hurt.",
+      "textbook_ref": "lebs201.txt lines 1002-1073 (Example I: EBIT, interest, EBT, tax, EAT, number of shares, EPS)",
+      "question_patterns": [
+        "calculate the earnings per share when ebit is {ebit} interest is {interest} tax rate is {tax_rate} and shares are {num_shares}",
+        "a company has ebit of {ebit} and pays {interest} as interest find its eps for {num_shares} shares at a {tax_rate} tax rate",
+        "compute eps from earnings before interest and tax after servicing debt",
+        "find the earnings per share for each debt situation and compare",
+        "how is earnings per share affected when the company replaces equity with debt"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Deduct interest from EBIT",
+          "explain": "Interest on debt is a charge against profit, giving earnings before tax.",
+          "compute": "ebt = ebit - interest"
+        },
+        {
+          "step": 2,
+          "action": "Apply the tax rate",
+          "explain": "Tax is levied on earnings before tax, leaving earnings after tax.",
+          "compute": "eat = ebt - ebt * tax_rate"
+        },
+        {
+          "step": 3,
+          "action": "Divide by the number of shares",
+          "explain": "Earnings after tax spread over the equity shares gives the earnings per share.",
+          "compute": "eps = eat / num_shares"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using EBIT-EPS Analysis, compute the result for ebit = 3, interest = 3, tax_rate = 3, num_shares = 2.",
+          "solution": "Step 1: Deduct interest from EBIT: ebt = ebit - interest = 0.0 Step 2: Apply the tax rate: eat = ebt - ebt * tax_rate = 0.0 Step 3: Divide by the number of shares: eps = eat / num_shares = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using EBIT-EPS Analysis, compute the result for ebit = 4, interest = 4, tax_rate = 4, num_shares = 3.",
+          "solution": "Step 1: Deduct interest from EBIT: ebt = ebit - interest = 0.0 Step 2: Apply the tax rate: eat = ebt - ebt * tax_rate = 0.0 Step 3: Divide by the number of shares: eps = eat / num_shares = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.4.4",
+      "title": "Return on Investment",
+      "section": "4.1",
+      "definition": "The profitability yardstick that relates a firm's operating earnings to the total funds employed, telling the manager whether the business earns more than the interest it would pay on borrowed money.",
+      "formula": "roi = ebit / total_investment * 100",
+      "key_idea": "RoI above the cost of debt makes trading on equity profitable; RoI below it makes extra debt a losing move -- the comparison decides the borrowing choice.",
+      "textbook_ref": "lebs201.txt lines 1076-1103 and 1242-1258 (RoI computation 4 lakh over 30 lakh, its role in capital structure choice)",
+      "question_patterns": [
+        "calculate the return on investment when ebit is {ebit} on a total investment of {total_investment}",
+        "a firm earns ebit of {ebit} on funds of {total_investment} find its roi percentage",
+        "compare the roi of a company with the interest rate on its debt to test trading on equity",
+        "should the company issue debentures at 10 per cent when its roi is 8 per cent",
+        "compute the return on investment for the capital employed"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the operating earnings",
+          "explain": "EBIT -- earnings before interest and tax -- measures what the funds earned before financing charges.",
+          "compute": "operating_earnings = ebit"
+        },
+        {
+          "step": 2,
+          "action": "Relate earnings to funds employed",
+          "explain": "Dividing by total investment and multiplying by 100 gives the return as a percentage.",
+          "compute": "roi = operating_earnings / total_investment * 100"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Return on Investment, compute the result for ebit = 3, total_investment = 3.",
+          "solution": "Step 1: Take the operating earnings: operating_earnings = ebit = 3.0 Step 2: Relate earnings to funds employed: roi = operating_earnings / total_investment * 100 = 100.0 Final result: 100.0",
+          "answer": "100.0"
+        },
+        {
+          "question": "Using Return on Investment, compute the result for ebit = 4, total_investment = 4.",
+          "solution": "Step 1: Take the operating earnings: operating_earnings = ebit = 4.0 Step 2: Relate earnings to funds employed: roi = operating_earnings / total_investment * 100 = 100.0 Final result: 100.0",
+          "answer": "100.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.4.5",
+      "title": "Interest Coverage Ratio",
+      "section": "4.2",
+      "definition": "The safety gauge for lenders and managers alike: how many times the operating earnings can cover the interest obligation, with a higher count meaning a smaller chance of defaulting on interest payments.",
+      "formula": "interest_coverage_ratio = ebit / interest",
+      "key_idea": "Higher ICR means lower risk of missing interest obligations -- but the ratio alone is not enough, since cash balances and principal repayment also matter, which is why the debt service coverage ratio exists.",
+      "textbook_ref": "lebs201.txt lines 1208-1241 (Interest Coverage Ratio and its limitations; DSCR)",
+      "question_patterns": [
+        "calculate the interest coverage ratio when ebit is {ebit} and interest is {interest}",
+        "a company's ebit is {ebit} against an interest bill of {interest} how many times is interest covered",
+        "what does a higher interest coverage ratio indicate",
+        "why is the interest coverage ratio not an adequate measure of debt capacity",
+        "how many times does the company cover its interest obligation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the operating earnings and the interest bill",
+          "explain": "EBIT shows earnings before any financing charge; interest is the fixed obligation to lenders.",
+          "compute": "earnings = ebit"
+        },
+        {
+          "step": 2,
+          "action": "Divide earnings by interest",
+          "explain": "The quotient counts how many times over the earnings can pay the interest due.",
+          "compute": "interest_coverage_ratio = earnings / interest"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Interest Coverage Ratio, compute the result for ebit = 3, interest = 3.",
+          "solution": "Step 1: Take the operating earnings and the interest bill: earnings = ebit = 3.0 Step 2: Divide earnings by interest: interest_coverage_ratio = earnings / interest = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Interest Coverage Ratio, compute the result for ebit = 4, interest = 4.",
+          "solution": "Step 1: Take the operating earnings and the interest bill: earnings = ebit = 4.0 Step 2: Divide earnings by interest: interest_coverage_ratio = earnings / interest = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.5.1",
+      "title": "Fixed Capital and Its Determinants",
+      "section": "5.1",
+      "definition": "The investment in long-lived assets such as land, plant and machinery that stays in the business for over a year; how much a firm must lock up depends on its line of business, scale of operations, capital or labour intensity, the pace at which its technology turns obsolete, growth and diversification plans, leasing options and shared facilities.",
+      "formula": "",
+      "key_idea": "Capital budgeting in another name: the amounts are large, the commitments long-term and nearly irreversible -- a trading concern needs far less than a manufacturer, and a capital-intensive firm far more than a labour-intensive one.",
+      "textbook_ref": "lebs201.txt lines 1380-1570 (fixed capital; importance of the decisions; factors 1-8)",
+      "question_patterns": [
+        "what is meant by fixed capital",
+        "state the factors affecting the requirement of fixed capital",
+        "why does a capital intensive firm need more fixed capital than a labour intensive one",
+        "how does leasing reduce the fixed capital requirement",
+        "why should fixed assets never be financed through short term sources",
+        "how do growth prospects affect the fixed capital requirement"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Define fixed capital",
+          "explain": "It is the investment in long-term assets financed through long-term sources such as shares, debentures and retained earnings."
+        },
+        {
+          "step": 2,
+          "action": "List the determinants",
+          "explain": "Nature of business, scale of operations, choice of technique, technology upgradation, growth prospects, diversification, financing alternatives, collaboration."
+        },
+        {
+          "step": 3,
+          "action": "Apply to the case",
+          "explain": "A transport service owns few fixed assets relative to a manufacturer, so its fixed capital need is comparatively low."
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.5.2",
+      "title": "Working Capital and Net Working Capital",
+      "section": "5.2",
+      "definition": "The funds tied up in current assets -- cash, securities, bills receivable, debtors, inventories -- that keep the daily operations running; what remains of them after paying off the obligations due within a year is the net working capital, the cushion financed from long-term sources.",
+      "formula": "net_working_capital = current_assets - current_liabilities",
+      "key_idea": "Current assets give liquidity but earn little; current liabilities like creditors and bills payable cost less; striking the balance between liquidity and profitability is the whole art of working capital management.",
+      "textbook_ref": "lebs201.txt lines 1571-1622 (Working capital; liquidity order of current assets; NWC equals CA minus CL)",
+      "question_patterns": [
+        "compute the net working capital for current assets of {current_assets} and current liabilities of {current_liabilities} and name the funds that finance it",
+        "a firm holds {current_assets} of current assets against {current_liabilities} of obligations falling due within a year find its net working capital",
+        "how does working capital affect the liquidity and profitability of a business",
+        "define working capital and give four examples of current assets",
+        "name the current assets in order of their liquidity",
+        "why is some part of current assets financed through long term sources"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the short-term assets",
+          "explain": "Cash, marketable securities, receivables and inventories together form the current assets.",
+          "compute": "ca = current_assets"
+        },
+        {
+          "step": 2,
+          "action": "Deduct the short-term obligations",
+          "explain": "Creditors, bills payable and outstanding expenses fall due within a year; the surplus left is the net working capital financed by long-term funds.",
+          "compute": "net_working_capital = ca - current_liabilities"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Working Capital and Net Working Capital, compute the result for current_assets = 3, current_liabilities = 3.",
+          "solution": "Step 1: Take the short-term assets: ca = current_assets = 3.0 Step 2: Deduct the short-term obligations: net_working_capital = ca - current_liabilities = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Working Capital and Net Working Capital, compute the result for current_assets = 4, current_liabilities = 4.",
+          "solution": "Step 1: Take the short-term assets: ca = current_assets = 4.0 Step 2: Deduct the short-term obligations: net_working_capital = ca - current_liabilities = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.201.5.3",
+      "title": "Factors Affecting Working Capital Requirement",
+      "section": "5.2",
+      "definition": "The forces that size a firm's short-term funding need: the nature of the business and its scale, the phase of the business cycle and the season, the length of the production cycle, the credit it gives customers and receives from suppliers, its operating efficiency, the availability of raw materials and their lead time, growth prospects, competition and inflation.",
+      "formula": "",
+      "key_idea": "Trading and service firms need less than manufacturers, booms need more than depressions, liberal customer credit raises the need while supplier credit lowers it, and long lead times or rising prices swell it further.",
+      "textbook_ref": "lebs201.txt lines 1623-1773 (Factors 1-12 affecting working capital requirement)",
+      "question_patterns": [
+        "discuss the determinants of working capital requirement",
+        "will the working capital requirement of a transport service be more or less give reasons",
+        "how does buying components on credit and selling for cash affect working capital",
+        "why does a longer production cycle raise the working capital requirement",
+        "how do the business cycle and seasonal factors change the working capital need",
+        "what is the effect of inflation on the working capital requirement"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the twelve factors",
+          "explain": "Nature of business, scale, business cycle, seasonal factors, production cycle, credit allowed, credit availed, operating efficiency, raw material availability, growth prospects, competition, inflation."
+        },
+        {
+          "step": 2,
+          "action": "Classify the case factor",
+          "explain": "A transport service carries little inventory, so its need is less; three-month supplier credit with cash sales lowers the need further."
+        },
+        {
+          "step": 3,
+          "action": "Give the reason along the verdict",
+          "explain": "Every verdict of more or less must carry the economic reason -- inventory levels, credit terms or activity levels."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs201.txt lines 1002-1073 (Example I, Situation II)",
+      "concept": "lebs.201.4.3",
+      "question_type": "compute",
+      "question_pattern": "Company X has EBIT of {ebit} lakh, pays {interest} lakh interest at 10 per cent debt, faces a {tax_rate} tax rate, and has {num_shares} lakh shares. Compute the EPS.",
+      "extracted_variables": {
+        "ebit": 400000,
+        "interest": 100000,
+        "tax_rate": 0.3,
+        "num_shares": 200000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Deduct interest from EBIT",
+          "explain": "400000 minus 100000 leaves earnings before tax of 300000.",
+          "compute": "ebt = ebit - interest"
+        },
+        {
+          "step": 2,
+          "action": "Apply the tax rate",
+          "explain": "Tax at 30 per cent takes 90000, leaving 210000 after tax.",
+          "compute": "eat = ebt - ebt * tax_rate"
+        },
+        {
+          "step": 3,
+          "action": "Divide by the number of shares",
+          "explain": "210000 over 200000 shares gives an EPS of Rs 1.05.",
+          "compute": "eps = eat / num_shares"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs201.txt lines 1875-1884 (Sunrises Ltd. debenture exercise)",
+      "concept": "lebs.201.4.4",
+      "question_type": "compute",
+      "question_pattern": "Sunrises Ltd. expects EBIT of {ebit} on a total capital investment of {total_investment} and can borrow at 10 per cent. Find its RoI and say whether the debenture issue is rational.",
+      "extracted_variables": {
+        "ebit": 800000,
+        "total_investment": 10000000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Take the operating earnings",
+          "explain": "EBIT stands at Rs 800000 against funds of Rs 10000000.",
+          "compute": "operating_earnings = ebit"
+        },
+        {
+          "step": 2,
+          "action": "Relate earnings to funds employed",
+          "explain": "800000 over 10000000 times 100 gives 8 per cent -- below the 10 per cent cost of debt, so borrowing is not rational.",
+          "compute": "roi = operating_earnings / total_investment * 100"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs201.txt lines 1613-1622 (net working capital definition)",
+      "concept": "lebs.201.5.2",
+      "question_type": "compute",
+      "question_pattern": "A firm reports current assets of {current_assets} lakh and current liabilities of {current_liabilities} lakh. Work out its net working capital.",
+      "extracted_variables": {
+        "current_assets": 12,
+        "current_liabilities": 7
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Take the short-term assets",
+          "explain": "Current assets total Rs 12 lakh.",
+          "compute": "ca = current_assets"
+        },
+        {
+          "step": 2,
+          "action": "Deduct the short-term obligations",
+          "explain": "12 minus 7 leaves Rs 5 lakh of net working capital financed from long-term sources.",
+          "compute": "net_working_capital = ca - current_liabilities"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex201_vsa",
+      "source_ref": "lebs201.txt lines 1857-1868 (Very Short Answer Type)",
+      "questions": [
+        "What is meant by capital structure?",
+        "State the two objectives of financial planning.",
+        "Name the concept of financial management which increases the return to equity shareholders due to the presence of fixed financial charges.",
+        "Amrit runs a transport service earning good returns. Giving reason, state whether the working capital requirement of the firm will be less or more.",
+        "Ramnath assembles and sells televisions, buying components on three months credit and selling the product in cash. Will this affect the working capital requirement? Give reasons."
+      ]
+    },
+    {
+      "id": "ex201_sa",
+      "source_ref": "lebs201.txt lines 1869-1907 (Short Answer Type)",
+      "questions": [
+        "What is financial risk? Why does it arise?",
+        "Define current assets. Give four examples of such assets.",
+        "What are the main objectives of financial management? Briefly explain.",
+        "Financial management is based on three broad financial decisions. What are these?",
+        "Sunrises Ltd. needs Rs 8000000 and can issue debentures at 10 per cent; its EBIT was Rs 800000 on a total capital investment of Rs 10000000. Is the debenture issue rational? Justify.",
+        "How does working capital affect both the liquidity as well as profitability of a business?",
+        "Aval Ltd. plans leather goods: identify the financial concept where the manager prepares a financial blueprint, estimates funds and their timing, and locates internal and external sources; state its objectives and comment on dividend restrictions."
+      ]
+    },
+    {
+      "id": "ex201_la",
+      "source_ref": "lebs201.txt lines 1908-1937 (Long Answer Type)",
+      "questions": [
+        "What is working capital? Discuss five important determinants of working capital requirement.",
+        "Capital structure decision is essentially optimisation of risk-return relationship. Comment.",
+        "A capital budgeting decision is capable of changing the financial fortunes of a business. Do you agree? Give reasons.",
+        "Explain the factors affecting dividend decision.",
+        "Explain the term trading on equity. Why, when and how can it be used by a company?",
+        "S Limited, a steel maker riding 7-8 per cent economic growth, plans a new plant needing about Rs 5000 crores plus Rs 500 crores working capital. Describe the role and objectives of financial management, the importance of a financial plan, the factors affecting its capital structure, and the factors affecting its fixed and working capital."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 104,
+ "chapter_title": "Moving Charges and Magnetism",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph104.4.2.2.1",
+   "title": "Lorentz Force on a Moving Charge",
+   "section": "4.2.2",
+   "definition": "A charge travelling through crossed electric and magnetic fields feels one combined push: q times the electric field plus q times the cross product of its velocity with the magnetic field. The magnetic share has size qvB sin(theta) and points sideways to both velocity and field.",
+   "formula": "mag_force = charge * speed * mag_field * sin_tilt",
+   "key_idea": "Magnetic force vanishes for a resting charge or motion along the field, does no work, and flips sign for negative carriers.",
+   "textbook_ref": "leph104.txt section 4.2.2 (Eq. 4.3, tesla unit definition, Examples 4.1-4.2)",
+   "question_patterns": [
+    "find the magnitude of the magnetic force on a charge moving at an angle to a field",
+    "a particle of charge q moves at speed v making an angle with B; compute the magnetic push on it",
+    "why is the force zero when the velocity runs parallel to the magnetic field",
+    "state the full Lorentz force expression including the electric part",
+    "which direction does the force on a proton point given velocity and field axes",
+    "compute qvB sin(theta) for an electron crossing a uniform field sideways"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the qvB product",
+     "explain": "the cross product of velocity and field has magnitude vB sin(theta)",
+     "compute": "vb_term = charge * speed * mag_field"
+    },
+    {
+     "step": 2,
+     "action": "scale by the sine of the angle",
+     "explain": "only the velocity part across the field counts, giving qvB sin(theta)",
+     "compute": "mag_force = vb_term * sin_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.1",
+   "title": "Force on a Current-Carrying Wire",
+   "section": "4.2.3",
+   "definition": "A straight conductor of length l carrying current I sitting in an external field B feels a sideways force IlB sin(theta); the length vector points along the current and B must be the imposed field, not the wire's own.",
+   "formula": "wire_force = current * length * mag_field * sin_tilt",
+   "key_idea": "The rod result comes from adding qv x B over every drifting carrier, and curved wires follow by integrating Idl x B.",
+   "textbook_ref": "leph104.txt section 4.2.3 (Eq. 4.4 derivation from drift velocity)",
+   "question_patterns": [
+    "a wire of length l carries current I inside a field B; find the force on it",
+    "compute the magnetic force on a 3 cm conductor carrying 10 A across a 0.27 T solenoid field",
+    "what force per unit length acts on a wire making 30 degrees with a uniform field",
+    "find IlB for a straight rod held perpendicular to a known magnetic field",
+    "determine the sideways push on a current-carrying conductor from I, l and B",
+    "a horizontal power line carries current in the earth's field; what force per metre appears"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply current by length",
+     "explain": "the current-length product is the source strength in F = Il x B",
+     "compute": "il_term = current * length"
+    },
+    {
+     "step": 2,
+     "action": "apply field and tilt factor",
+     "explain": "magnitude is IlB sin(theta) with theta between wire and field",
+     "compute": "wire_force = il_term * mag_field * sin_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.2",
+   "title": "Field That Suspends a Wire Against Gravity",
+   "section": "4.2.3",
+   "definition": "A current-carrying wire can float in a horizontal magnetic field when the upward magnetic pull exactly cancels its weight; equating IlB with mg yields the balancing field strength.",
+   "formula": "mag_field = mass * gravity_acc / (current * length)",
+   "key_idea": "Mid-air suspension is a force balance: magnetic lift equals weight, so B = mg over Il.",
+   "textbook_ref": "leph104.txt section 4.2.3 (Example 4.1 suspended wire, 0.65 T result)",
+   "question_patterns": [
+    "a 200 g wire 1.5 m long carries 2 A; what field holds it up against gravity",
+    "find B needed to balance the weight of a current-carrying wire in mid-air",
+    "what magnetic field levitates a conductor when the current and length are known",
+    "compute the field that makes the magnetic lift equal the weight of a straight wire",
+    "at what field strength does IlB cancel mg for a suspended conductor",
+    "determine the uniform horizontal field supporting a wire of given mass per length and current"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the weight",
+     "explain": "gravity pulls down with mass times g",
+     "compute": "weight = mass * gravity_acc"
+    },
+    {
+     "step": 2,
+     "action": "divide by the current-length product",
+     "explain": "setting IlB equal to the weight gives B = mg over Il",
+     "compute": "mag_field = weight / (current * length)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.1",
+   "title": "Radius of the Circular Orbit in a Magnetic Field",
+   "section": "4.3",
+   "definition": "When a charge crosses a uniform field at right angles, the sideways magnetic force plays the centripetal role, so the particle runs around a circle whose radius grows with momentum and shrinks with charge and field.",
+   "formula": "orbit_radius = mass * speed / (charge * mag_field)",
+   "key_idea": "Bigger momentum means a wider circle; the field bends the path without changing the speed.",
+   "textbook_ref": "leph104.txt section 4.3 (Eq. 4.5, Example 4.3 electron radius 28 cm)",
+   "question_patterns": [
+    "an electron enters a field of 6e-4 T perpendicular to it at 3e7 m/s; find the circle radius",
+    "derive r = mv over qB by equating magnetic and centripetal force",
+    "compute the radius of the circular path of a charged particle in a uniform magnetic field",
+    "what orbit radius does a proton trace for given speed and field strength",
+    "determine how the circle radius changes when the momentum doubles",
+    "find r for a charge shot normal to a known B field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the momentum",
+     "explain": "the radius is proportional to the momentum mv",
+     "compute": "momentum = mass * speed"
+    },
+    {
+     "step": 2,
+     "action": "divide by charge times field",
+     "explain": "qvB supplies the centripetal force, so r = mv over qB",
+     "compute": "orbit_radius = momentum / (charge * mag_field)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.2",
+   "title": "Cyclotron Frequency",
+   "section": "4.3",
+   "definition": "A charge circling in a uniform field completes revolutions at a rate fixed by qB over 2 pi m; remarkably this frequency ignores how fast the particle moves or how wide its circle is.",
+   "formula": "cyclotron_freq = charge * mag_field / (2 * pi * mass)",
+   "key_idea": "Speed-independence of the rotation frequency is exactly what lets a cyclotron keep accelerating particles in step.",
+   "textbook_ref": "leph104.txt section 4.3 (Eq. 4.6a, Example 4.3 frequency 17 MHz, Exercise 4.12)",
+   "question_patterns": [
+    "find the frequency of revolution of an electron in a magnetic field",
+    "compute the cyclotron frequency from charge, field and mass",
+    "why does the revolution frequency not depend on the particle speed",
+    "a particle circles in a uniform field; obtain its rotation frequency in hertz",
+    "determine nu = qB over 2 pi m for a given charge and field",
+    "does the orbital frequency of Exercise 4.11 change if the electron speeds up"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply charge by field",
+     "explain": "qB sets the angular frequency omega = qB over m",
+     "compute": "qb_term = charge * mag_field"
+    },
+    {
+     "step": 2,
+     "action": "divide by 2 pi times the mass",
+     "explain": "the ordinary frequency is qB over 2 pi m",
+     "compute": "cyclotron_freq = qb_term / (2 * pi * mass)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.3",
+   "title": "Helical Path and Its Pitch",
+   "section": "4.3",
+   "definition": "If the velocity keeps a component along the field, that component rides the particle forward while the transverse part circles, producing a helix; the pitch is the forward distance covered during one turn.",
+   "formula": "pitch = gyro_period * speed_parallel",
+   "key_idea": "Parallel motion is untouched by the field, so the helix pitch is simply the rotation period times the axial speed.",
+   "textbook_ref": "leph104.txt section 4.3 (Eq. 4.6b, pitch p = 2 pi m v_parallel / qB)",
+   "question_patterns": [
+    "what is the pitch of the helix traced by a charge with velocity components across and along the field",
+    "a particle moves in a helix inside a uniform field; find the distance advanced per turn",
+    "explain why a velocity component along B leaves the motion unchanged",
+    "compute pitch as the rotation period times the parallel speed",
+    "find 2 pi m v_parallel over qB for given charge and field values",
+    "describe the path of a charge entering a field at an oblique angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "radius of the circular part",
+     "explain": "the transverse speed sets the helix radius r = m v_perp over qB",
+     "compute": "gyro_radius = mass * speed_perp / (charge * mag_field)"
+    },
+    {
+     "step": 2,
+     "action": "period of one turn",
+     "explain": "the time per revolution is the circumference over the transverse speed",
+     "compute": "gyro_period = 2 * pi * gyro_radius / speed_perp"
+    },
+    {
+     "step": 3,
+     "action": "advance along the axis",
+     "explain": "during one turn the axial component carries the particle a distance p = v_parallel T",
+     "compute": "pitch = gyro_period * speed_parallel"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.4.1",
+   "title": "Biot-Savart Field of a Current Element",
+   "section": "4.4",
+   "definition": "Each tiny piece dl of a circuit adds a field slice dB of size (mu0 over 4 pi) I dl sin(theta) over r squared, aimed perpendicular to the plane holding the element and the line to the point; integrating the slices gives the whole field.",
+   "formula": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2",
+   "key_idea": "Like Coulomb's law it falls off as r squared and superposes, but its source is a vector Idl and the field points crosswise, dying to zero along the element's own direction.",
+   "textbook_ref": "leph104.txt section 4.4 (Eqs. 4.7a-4.7c, Example 4.4 element on the y-axis)",
+   "question_patterns": [
+    "state the Biot-Savart law for the field of a small current element",
+    "compute dB from a 1 cm element carrying 10 A at a point 0.5 m away side-on",
+    "how does the field of a current element compare with Coulomb's law for a charge",
+    "why is the field zero at a point lying along the direction of the element",
+    "evaluate mu0 over 4 pi times I dl sin(theta) over r squared for given numbers",
+    "a short wire piece sits at the origin with the field point on the y-axis; find the field magnitude"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build the mu0 over 4 pi prefactor",
+     "explain": "the constant equals 1e-7 T m/A in SI units",
+     "compute": "prefactor = mu0 / (4 * pi)"
+    },
+    {
+     "step": 2,
+     "action": "assemble the element field",
+     "explain": "dB = prefactor times I dl sin(theta) over r squared",
+     "compute": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.5.1",
+   "title": "Field at the Centre of a Circular Coil",
+   "section": "4.5",
+   "definition": "Adding the Biot-Savart slices around a circular loop of radius R gives a centre field mu0 I over 2R, and an N-turn coil multiplies that by N because the same current loops N times.",
+   "formula": "centre_field = mu0 * turns * current / (2 * radius)",
+   "key_idea": "Every element contributes in the same direction at the centre, so the whole circumference sums cleanly; more turns stack the field linearly.",
+   "textbook_ref": "leph104.txt section 4.5 (Eq. 4.12, Examples 4.5-4.6, semicircular arc half-value)",
+   "question_patterns": [
+    "find the magnetic field at the centre of a 100-turn coil of radius 8 cm carrying 0.4 A",
+    "compute B at the centre of a circular loop from mu0 I over 2R",
+    "what field does a tightly wound N-turn coil produce at its centre",
+    "a wire bends into a semicircular arc; what is the field at its centre compared with a full loop",
+    "determine the centre field when the coil current or radius changes",
+    "calculate mu0 N I over 2R for given turns, current and radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mu0 by turns and current",
+     "explain": "N turns each contribute as if carrying the full current",
+     "compute": "numerator = mu0 * turns * current"
+    },
+    {
+     "step": 2,
+     "action": "divide by twice the radius",
+     "explain": "the centre result is mu0 N I over 2R",
+     "compute": "centre_field = numerator / (2 * radius)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.5.2",
+   "title": "Axial Field of a Circular Current Loop",
+   "section": "4.5",
+   "definition": "Along the symmetry axis a distance x from the loop centre, only the axial components of the element fields survive because the sideways parts cancel in pairs, leaving B = mu0 I R squared over 2 (x squared plus R squared) to the power 3/2.",
+   "formula": "axial_field = mu0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
+   "key_idea": "At the centre x = 0 this collapses to mu0 I over 2R, and far away it fades like 1 over x cubed.",
+   "textbook_ref": "leph104.txt section 4.5 (Eqs. 4.9-4.11, cancellation of perpendicular components)",
+   "question_patterns": [
+    "derive the field at a point on the axis of a circular current loop",
+    "compute the axial field at distance x from the centre of a loop of radius R",
+    "why do the components perpendicular to the axis cancel for a circular loop",
+    "evaluate mu0 I R squared over 2 (x squared plus R squared) to the 3/2 for numbers",
+    "what does the axial field formula reduce to when x is zero",
+    "find how fast the loop field drops when you move far along the axis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build the 3/2-power denominator",
+     "explain": "the slant distance r = sqrt(x squared plus R squared) enters cubed",
+     "compute": "denom = (axial_dist ** 2 + radius ** 2) ** 1.5"
+    },
+    {
+     "step": 2,
+     "action": "scale the numerator",
+     "explain": "B = mu0 I R squared over 2 times that denominator",
+     "compute": "axial_field = mu0 * current * radius ** 2 / (2 * denom)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.6.1",
+   "title": "Ampere's Circuital Law",
+   "section": "4.6",
+   "definition": "Around any closed loop that bounds a surface pierced by current, adding up B dot dl segment by segment gives mu0 times the enclosed current; with the right-hand sign convention the curled fingers set the positive current sense.",
+   "formula": "enclosed_term = mu0 * enclosed_current",
+   "key_idea": "The law always holds, but it solves for B by hand only when symmetry makes B constant along part of the loop and zero or sideways elsewhere, reducing it to B L = mu0 Ie.",
+   "textbook_ref": "leph104.txt section 4.6 (Eqs. 4.13a-4.13b, comparison with Gauss law)",
+   "question_patterns": [
+    "state Ampere's circuital law and explain the sign convention for the enclosed current",
+    "when does the simplified form BL = mu0 Ie apply",
+    "how is Ampere's law related to Biot-Savart law the way Gauss's law relates to Coulomb's law",
+    "what does the line integral of B around a closed loop equal",
+    "explain the amperian loop choice for a symmetric current setup",
+    "why can Ampere's law not directly give the centre field of a single circular loop"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick a symmetry-fitting loop",
+     "explain": "the boundary should have B tangential and constant on some parts, normal or zero on the rest"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the line integral",
+     "explain": "only the tangential-constant stretch contributes, giving B times its length"
+    },
+    {
+     "step": 3,
+     "action": "equate to mu0 times enclosed current",
+     "explain": "BL = mu0 Ie then solves for the field magnitude"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.6.2",
+   "title": "Field of a Long Straight Current",
+   "section": "4.6",
+   "definition": "A circular amperian loop around an infinitely long wire has constant tangential B, so the field at distance r outside is mu0 I over 2 pi r, circling the wire; inside a thick wire of radius a it grows linearly as mu0 I r over 2 pi a squared.",
+   "formula": "wire_field = mu0 * current / (2 * pi * distance)",
+   "key_idea": "The field lines are closed circles around the wire, magnitude set only by r, and the right-hand grip rule gives the sense.",
+   "textbook_ref": "leph104.txt section 4.6 (Eq. 4.14, 4.15a-4.15b, Example 4.7, Exercises 4.2-4.4)",
+   "question_patterns": [
+    "find the magnetic field 20 cm from a long wire carrying 35 A",
+    "compute mu0 I over 2 pi r for a straight conductor",
+    "what is the field at a point 2.5 m east of a north-south wire with 50 A",
+    "a long wire carries 90 A; what field appears 1.5 m below the line",
+    "how does B vary with distance outside and inside a thick round wire",
+    "determine the field strength around a straight current and state its direction by the grip rule"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form mu0 times current",
+     "explain": "Ampere's law on a circle gives B 2 pi r = mu0 I",
+     "compute": "enclosed_term = mu0 * current"
+    },
+    {
+     "step": 2,
+     "action": "divide by the circle circumference factor",
+     "explain": "so B = mu0 I over 2 pi r outside the wire",
+     "compute": "wire_field = enclosed_term / (2 * pi * distance)"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.7.1",
+   "title": "Field Inside a Long Solenoid",
+   "section": "4.7",
+   "definition": "Inside a solenoid much longer than its radius the field is nearly uniform and axial; a rectangular amperian loop threading n turns per unit length gives B = mu0 n I, while the outside field is taken as negligible.",
+   "formula": "sol_field = mu0 * turns_per_len * current",
+   "key_idea": "Turn density, not total turns, controls the field: B = mu0 n I with n = total turns over length.",
+   "textbook_ref": "leph104.txt section 4.7 (Eq. 4.16, Example 4.8 solenoid field 6.28e-3 T)",
+   "question_patterns": [
+    "find the field inside a 0.5 m solenoid of 500 turns carrying 5 A",
+    "compute B = mu0 n I for a long solenoid",
+    "a solenoid has 5 layers of 400 turns over 80 cm with 8 A; estimate the interior field",
+    "what is the uniform field strength in the middle of a long current-carrying solenoid",
+    "determine turns per unit length and then the solenoid field",
+    "why is the field outside a long solenoid taken as zero"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "turn density",
+     "explain": "n is the total turns divided by the solenoid length",
+     "compute": "turns_per_len = total_turns / solenoid_len"
+    },
+    {
+     "step": 2,
+     "action": "apply the solenoid formula",
+     "explain": "the interior field is mu0 n I",
+     "compute": "sol_field = mu0 * turns_per_len * current"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.8.1",
+   "title": "Force Between Parallel Currents",
+   "section": "4.8",
+   "definition": "Two long parallel conductors a distance d apart exchange a force per unit length mu0 Ia Ib over 2 pi d: same-direction currents attract, opposite ones repel, and this relation fixes the SI ampere via the 2e-7 N/m benchmark.",
+   "formula": "force_per_len = mu0 * current_a * current_b / (2 * pi * separation)",
+   "key_idea": "One wire's field pushes the other through the Il x B force; mutual forces stay equal and opposite, and attraction for like currents is the reverse of charges.",
+   "textbook_ref": "leph104.txt section 4.8 (Eqs. 4.17-4.19, ampere definition, Example 4.9, Exercise 4.7)",
+   "question_patterns": [
+    "two parallel wires carry 8 A and 5 A in the same sense 4 cm apart; find the force on a 10 cm stretch",
+    "compute the force per unit length between two parallel currents",
+    "do parallel currents attract or repel, and with what strength per metre",
+    "evaluate mu0 Ia Ib over 2 pi d for given currents and gap",
+    "how does the ampere definition follow from the force between straight conductors",
+    "find the total force on a stated length of one wire due to the neighbouring current"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two currents",
+     "explain": "the coupling is proportional to the product Ia Ib",
+     "compute": "current_product = current_a * current_b"
+    },
+    {
+     "step": 2,
+     "action": "scale by mu0 over the geometry",
+     "explain": "f over L equals mu0 Ia Ib divided by 2 pi d",
+     "compute": "force_per_len = mu0 * current_product / (2 * pi * separation)"
+    },
+    {
+     "step": 3,
+     "action": "extend to a finite segment",
+     "explain": "multiply the per-length force by the segment length",
+     "compute": "segment_force = force_per_len * seg_len"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.9.1",
+   "title": "Magnetic Moment of a Current Loop",
+   "section": "4.9.1",
+   "definition": "A planar loop of N turns carrying I over area A behaves like a magnetic dipole with moment m = N I A, directed by the right-hand thumb along the area vector; its units are ampere metre squared.",
+   "formula": "mag_moment = turns * current * area",
+   "key_idea": "Far from the loop the field matches that of a dipole of moment m, with no magnetic monopole analogue of the electric case.",
+   "textbook_ref": "leph104.txt section 4.9.1-4.9.2 (Eqs. 4.22, 4.24, 4.25a, Example 4.10 part b)",
+   "question_patterns": [
+    "find the magnetic moment of a 100-turn coil of radius 10 cm carrying 3.2 A",
+    "compute m = N I A for a circular or square coil",
+    "what is the dipole moment of a planar loop and which way does it point",
+    "a square coil of side 10 cm has 20 turns with 12 A; obtain its magnetic moment",
+    "how does the moment change when the turn count doubles",
+    "explain why a current loop acts like a magnetic dipole at large distances"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "loop area from its size",
+     "explain": "a square of side s has area s squared; a circle uses pi R squared",
+     "compute": "area = side_len ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply turns, current, area",
+     "explain": "m = N I A is the dipole moment of the loop",
+     "compute": "mag_moment = turns * current * area"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.9.2",
+   "title": "Torque on a Loop in a Uniform Field",
+   "section": "4.9.1",
+   "definition": "A current loop in a uniform field feels zero net force but a torque tau = m B sin(theta), turning the moment toward the field; parallel alignment is stable, antiparallel unstable.",
+   "formula": "loop_torque = mag_moment * mag_field * sin_tilt",
+   "key_idea": "The two side arms form a couple whose lever arm shrinks with the tilt angle, so equilibrium sits where m lines up with B.",
+   "textbook_ref": "leph104.txt section 4.9.1 (Eqs. 4.20-4.23, Example 4.10 parts c-d, Exercise 4.9)",
+   "question_patterns": [
+    "find the torque on a suspended square coil whose normal makes 30 degrees with a 0.8 T field",
+    "compute tau = N I A B sin(theta) for a coil in a uniform field",
+    "why is the net force zero on a current loop inside a uniform magnetic field",
+    "when is the torque on a magnetic dipole maximum and when is it zero",
+    "determine the counter torque needed to hold a coil from turning in a field",
+    "explain stable and unstable equilibrium orientations of a current loop"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "moment of the coil",
+     "explain": "m = N I A combines turns, current and loop area",
+     "compute": "mag_moment = turns * current * area"
+    },
+    {
+     "step": 2,
+     "action": "apply the tilt",
+     "explain": "torque magnitude is m B sin(theta) with theta between m and B",
+     "compute": "loop_torque = mag_moment * mag_field * sin_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.10.1",
+   "title": "Moving Coil Galvanometer Deflection",
+   "section": "4.10",
+   "definition": "In a radial field the coil's magnetic torque NIAB meets the spring's restoring torque k phi, so the steady deflection is proportional to current: phi = NAB I over k; the ratio NAB over k is the current sensitivity.",
+   "formula": "deflection = turns * area * mag_field * current / spring_const",
+   "key_idea": "Radial field keeps sin(theta) at one for every orientation, making the scale linear in current.",
+   "textbook_ref": "leph104.txt section 4.10 (Eqs. 4.26-4.27, current vs voltage sensitivity)",
+   "question_patterns": [
+    "derive the deflection relation phi = NAB I over k for a galvanometer",
+    "compute the steady deflection for a given coil current and spring constant",
+    "what makes the galvanometer scale linear in the current",
+    "how do turns, area and field strength set the current sensitivity",
+    "why does doubling the turns raise current sensitivity but not voltage sensitivity",
+    "find the torsion constant from a measured deflection at a known current"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "magnetic torque on the coil",
+     "explain": "the radial field gives full-strength torque NIAB",
+     "compute": "mag_torque = turns * area * mag_field * current"
+    },
+    {
+     "step": 2,
+     "action": "balance with the spring",
+     "explain": "setting k phi equal to NIAB yields the deflection",
+     "compute": "deflection = mag_torque / spring_const"
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.10.2",
+   "title": "Converting a Galvanometer to Ammeter or Voltmeter",
+   "section": "4.10",
+   "definition": "A tiny shunt in parallel turns the sensitive galvanometer into an ammeter by bypassing most of the current, while a large resistance in series makes it a voltmeter that draws almost none; ideal meters disturb the circuit as little as possible.",
+   "formula": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)",
+   "key_idea": "Ammeters go in series and must add negligible resistance; voltmeters go in parallel and must draw negligible current.",
+   "textbook_ref": "leph104.txt section 4.10 (shunt and series conversions, Example 4.12 readings 0.048, 0.99, 1.00 A)",
+   "question_patterns": [
+    "why is a small shunt wired in parallel to use a galvanometer as an ammeter",
+    "compute the combined resistance of a galvanometer with a shunt across it",
+    "what series resistance converts a galvanometer into a voltmeter",
+    "a 60 ohm galvanometer with 0.02 ohm shunt reads a circuit current; find the reading",
+    "how would an unshunted galvanometer change the current it tries to measure",
+    "compare the current measured by an ideal ammeter with a real converted one"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two resistances",
+     "explain": "the parallel pair product enters the numerator",
+     "compute": "resist_product = coil_resist * shunt_resist"
+    },
+    {
+     "step": 2,
+     "action": "divide by the sum",
+     "explain": "parallel combination is product over sum, close to the shunt when it is tiny",
+     "compute": "shunt_equiv = resist_product / (coil_resist + shunt_resist)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph104_1",
+   "source_ref": "leph104.txt Example 4.1 (suspended wire)",
+   "concept": "leph104.4.2.3.2",
+   "question_type": "levitation_field_balance",
+   "question_pattern": "A straight wire of mass {mass} kg and length {length} m carries {current} A and hangs in mid-air inside a horizontal field. What B keeps it suspended?",
+   "extracted_variables": {"mass": 0.2, "gravity_acc": 9.8, "current": 2.0, "length": 1.5},
+   "solution_template": [
+    {"step": 1, "action": "weight of the wire", "explain": "mg pulls down", "compute": "weight = mass * gravity_acc"},
+    {"step": 2, "action": "balance against IlB", "explain": "B = mg over Il", "compute": "mag_field = weight / (current * length)"}
+   ]
+  },
+  {
+   "id": "we_leph104_2",
+   "source_ref": "leph104.txt Example 4.3 (electron in 6e-4 T field)",
+   "concept": "leph104.4.3.1",
+   "question_type": "orbit_radius_and_frequency",
+   "question_pattern": "An electron of mass {mass} kg and charge {charge} C moves at {speed} m/s across a {mag_field} T field. Find its circle radius and revolution frequency.",
+   "extracted_variables": {"mass": 9.0e-31, "speed": 3.0e+07, "charge": 1.6e-19, "mag_field": 6.0e-04},
+   "solution_template": [
+    {"step": 1, "action": "momentum", "explain": "p = mv", "compute": "momentum = mass * speed"},
+    {"step": 2, "action": "radius", "explain": "r = mv over qB", "compute": "orbit_radius = momentum / (charge * mag_field)"},
+    {"step": 3, "action": "revolution frequency", "explain": "nu = qB over 2 pi m", "compute": "cyclotron_freq = charge * mag_field / (2 * pi * mass)"}
+   ]
+  },
+  {
+   "id": "we_leph104_3",
+   "source_ref": "leph104.txt Example 4.8 (solenoid of 500 turns over 0.5 m)",
+   "concept": "leph104.4.7.1",
+   "question_type": "solenoid_field",
+   "question_pattern": "A solenoid {solenoid_len} m long has {total_turns} turns and carries {current} A. What is the field inside near its centre?",
+   "extracted_variables": {"total_turns": 500.0, "solenoid_len": 0.5, "current": 5.0, "mu0": 1.2566e-06},
+   "solution_template": [
+    {"step": 1, "action": "turn density", "explain": "n = N over L", "compute": "turns_per_len = total_turns / solenoid_len"},
+    {"step": 2, "action": "interior field", "explain": "B = mu0 n I", "compute": "sol_field = mu0 * turns_per_len * current"}
+   ]
+  },
+  {
+   "id": "we_leph104_4",
+   "source_ref": "leph104.txt Exercise 4.7 (parallel wires 8 A and 5 A, 4 cm apart)",
+   "concept": "leph104.4.8.1",
+   "question_type": "parallel_wire_force",
+   "question_pattern": "Two long parallel wires {separation} m apart carry {current_a} A and {current_b} A in the same direction. What force acts on a {seg_len} m section of one wire?",
+   "extracted_variables": {"current_a": 8.0, "current_b": 5.0, "separation": 0.04, "seg_len": 0.1, "mu0": 1.2566e-06},
+   "solution_template": [
+    {"step": 1, "action": "current product", "explain": "Ia times Ib", "compute": "current_product = current_a * current_b"},
+    {"step": 2, "action": "per-length force", "explain": "mu0 Ia Ib over 2 pi d", "compute": "force_per_len = mu0 * current_product / (2 * pi * separation)"},
+    {"step": 3, "action": "segment force", "explain": "multiply by the section length", "compute": "segment_force = force_per_len * seg_len"}
+   ]
+  },
+  {
+   "id": "we_leph104_5",
+   "source_ref": "leph104.txt Exercise 4.9 (square coil at 30 degrees in 0.8 T field)",
+   "concept": "leph104.4.9.2",
+   "question_type": "coil_torque",
+   "question_pattern": "A square coil of side {side_len} m with {turns} turns carries {current} A; its normal makes an angle with sine {sin_tilt} to a {mag_field} T field. Find the torque.",
+   "extracted_variables": {"side_len": 0.1, "turns": 20.0, "current": 12.0, "mag_field": 0.8, "sin_tilt": 0.5},
+   "solution_template": [
+    {"step": 1, "action": "coil area", "explain": "square area is side squared", "compute": "area = side_len ** 2"},
+    {"step": 2, "action": "magnetic moment", "explain": "m = N I A", "compute": "mag_moment = turns * current * area"},
+    {"step": 3, "action": "torque with tilt", "explain": "tau = m B sin(theta)", "compute": "loop_torque = mag_moment * mag_field * sin_tilt"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph104_4_1_to_4_4",
+   "source_ref": "leph104.txt end-of-chapter exercises 4.1-4.4",
+   "questions": [
+    "A 100-turn circular coil of radius 8.0 cm carries 0.40 A; what field appears at its centre?",
+    "How strong is the field 20 cm from a long straight wire carrying 35 A?",
+    "A horizontal wire carries 50 A from north to south; give the magnitude and direction of the field 2.5 m east of it.",
+    "An overhead line carries 90 A east to west; find the field 1.5 m below the line and its direction."
+   ]
+  },
+  {
+   "id": "ex_leph104_4_5_to_4_9",
+   "source_ref": "leph104.txt end-of-chapter exercises 4.5-4.9",
+   "questions": [
+    "A wire carrying 8 A makes 30 degrees with a 0.15 T field; what is the force per unit length on it?",
+    "A 3.0 cm conductor with 10 A sits across a 0.27 T solenoid field; compute the force on the wire.",
+    "Wires A and B carry 8.0 A and 5.0 A the same way, 4.0 cm apart; estimate the force on a 10 cm piece of A.",
+    "An 80 cm solenoid wound in 5 layers of 400 turns with 1.8 cm diameter carries 8.0 A; estimate the interior field.",
+    "A 10 cm square coil of 20 turns with 12 A hangs with its normal at 30 degrees to a 0.80 T field; find the torque."
+   ]
+  },
+  {
+   "id": "ex_leph104_4_10_to_4_13",
+   "source_ref": "leph104.txt end-of-chapter exercises 4.10-4.13",
+   "questions": [
+    "Two moving coil meters differ in resistance, turns, area and field; work out the ratios of current and voltage sensitivity of the second to the first.",
+    "An electron at 4.8e6 m/s enters a 6.5 G field sideways; explain the circular path and find its radius using e = 1.5e-19 C and me = 9.1e-31 kg.",
+    "For the same electron, obtain the revolution frequency and say whether it depends on speed.",
+    "A 30-turn coil of radius 8.0 cm with 6.0 A sits in a 1.0 T field at 60 degrees to the coil normal; find the holding counter torque, and say whether an irregular coil of equal area changes the answer."
+   ]
+  }
+ ]
+}

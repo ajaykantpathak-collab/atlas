@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_009",
+   "title": "c12_hist_cbse_08_009",
+   "questions": [
+    {
+     "q": "What specific imperial document formalized a zamindar's right to collect revenue on behalf of the Mughal state, and what did it typically guarantee?",
+     "a": "The imperial document was the sanad (or farman), which granted the zamindar hereditary revenue-collection rights over a defined territory, specified the revenue demand (jama), and guaranteed the zamindar a share (nankar, usually 10-25%) as collection charges. A wrong answer (e.g., \"the zamindar owned the land\" or \"the state collected directly\") reveals confusion between zamindari rights (collection intermediary) and proprietary rights (milkiyat), or ignorance of the state's formal delegation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal state negotiate revenue-collection rights with zamindars instead of collecting directly through its own officers (amil-guzars) at the village level?",
+     "a": "The state lacked the administrative reach to monitor thousands of villages; zamindars provided local knowledge, enforced cultivation, supplied military contingents, and advanced loans (taqavi) to peasants — reducing the state's transaction costs. A wrong answer (e.g., \"zamindars were more honest\" or \"the state wanted to exploit peasants\") misses the structural fiscal-military logic: the state traded a revenue share for order and expanded cultivation, a core negotiation detailed in Abu'l Fazl's Ain-i-Akbari.",
+     "self_check": true
+    },
+    {
+     "q": "A zamindar in 1620 holds a sanad for a pargana. The state revises the jama upward due to expanded cultivation. The zamindar refuses, citing his hereditary nankar. Using the concept of 'negotiation', explain the likely outcome and the leverage each side holds.",
+     "a": "The state could enforce the revised jama by threatening to revoke the sanad or appoint a rival claimant, but risked losing the zamindar's military support and local order. The zamindar could resist or flee (desertion), leveraging peasant loyalty and military retainers. Historically, the state often compromised (e.g., phased increases) because zamindars were hard to replace. A wrong answer (e.g., \"zamindar always wins\" or \"state always wins\") ignores the bilateral dependency documented in revenue disputes from Gujarat and Rajasthan records.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zamindar's revenue-collection right (malguzari) with the jagirdar's revenue assignment (jagir). Identify two structural differences in their relationship to the state and to the peasantry.",
+     "a": "1) Hereditary vs. transferable: zamindari rights were hereditary (conditional on loyalty); jagirs were transferable every few years. 2) Local roots vs. outsider: zamindars were local magnates with milkiyat lands and caste ties; jagirdars were imperial appointees (mansabdars) with no local base. A wrong answer conflates the two as \"both collected revenue\" and misses the crucial distinction: zamindars negotiated from a position of local power; jagirdars were agents of central control (see node c12_hist_cbse_08_008).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The zamindar's right to collect revenue was a purely exploitative mechanism that drained peasant surplus for the state.\" Use evidence from bhakti literature and agrarian uprisings to support or refute.",
+     "a": "The claim is partially true but incomplete. Zamindars did extract surplus (nankar + illegal cesses), but bhakti saints (e.g., Kabir, Dadu) targeted state officials (amils), not zamindars, as oppressors. In 17th-century uprisings (e.g., Jat, Satnami), peasants often followed zamindars against the state, indicating a patronage-reciprocity bond (loans, protection, caste solidarity). A one-sided answer misses this duality: zamindars were both exploiters and community leaders, a nuance central to the NCERT's \"reciprocity, paternalism and patronage\" formulation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-step historical argument showing how the Mughal state's negotiation with zamindars over revenue collection contributed to the 18th-century fragmentation of imperial authority.",
+     "a": "Step 1: State delegates revenue collection to hereditary zamindars via sanads (16th-17th c.). Step 2: Zamindars consolidate military power (forts, cavalry) using local revenue surplus. Step 3: As central control weakens (post-Aurangzeb), zamindars withhold revenue, expand territories, and assert autonomy. Step 4: By 1700s, zamindaris become de facto principalities (e.g., Bengal, Awadh), directly enabling successor states. A poor answer lists events without the causal chain linking the original negotiation (hereditary rights + military resources) to later fragmentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

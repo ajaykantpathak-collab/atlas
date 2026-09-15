@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_003",
+   "title": "c12_hs_cbse_06_003",
+   "questions": [
+    {
+     "q": "In the SMCRE model, what does the 'E' stand for, and how does it differ from 'Feedback' in interactive models?",
+     "a": "'E' stands for Effect — the measurable change in the receiver's knowledge, attitude, or behaviour resulting from the communication. Unlike Feedback (which is the receiver's response back to the source, enabling two-way adjustment), Effect is the terminal outcome variable in SMCRE's linear flow. A wrong answer (e.g., \"E = Encoding\" or \"E = Feedback\") reveals confusion between process components (encoding/decoding) and outcome measurement, or between linear and interactive model architectures.",
+     "self_check": true
+    },
+    {
+     "q": "A Krishi Vigyan Kendra (KVK) scientist delivers a lecture on integrated pest management (IPM) to 50 farmers using technical slides in English. Only 3 farmers adopt IPM. Using SMCRE, identify which TWO elements most likely failed and explain why, assuming the Source has high credibility.",
+     "a": "Message and Channel failed. Message: Technical English slides are not encoded for farmers' language/literacy level (violates message-design principle: match code to receiver's decoding capacity). Channel: Lecture+slides is a passive, one-way channel unsuited for skill-based adoption (violates channel principle: match channel to message complexity and receiver's sensory preferences). A wrong answer blaming only \"farmer resistance\" (Receiver) or \"poor Effect measurement\" reveals source-centric bias — ignoring that Source credibility alone cannot compensate for Message-Channel-Receiver mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Message for a nutrition extension campaign targeting adolescent girls (15-18 years) in rural Uttar Pradesh to increase iron-rich food consumption. Specify: (a) Appeal type (rational/emotional/fear), (b) Structure (one-sided/two-sided), (c) Language/register, and (d) Visual-verbal ratio. Justify each choice using Receiver analysis.",
+     "a": "(a) Emotional appeal (aspirational: \"Be strong like your role model\") — adolescents respond to identity/peer modeling more than health statistics. (b) Two-sided (acknowledge taste barriers: \"Leafy greens can be bitter, but...\") — builds credibility with skeptical teens. (c) Simple Hindi/Awadhi with local food names (bathua, chana, jaggery) — matches Receiver's linguistic code. (d) 70:30 visual-verbal (photos of peers cooking/eating) — low literacy, high visual processing. A wrong answer using rational/fear appeals, one-sided structure, or technical Hindi reveals failure to conduct Receiver analysis before Message design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare SMCRE and Berlo's SMCR models on three dimensions: (1) Treatment of Effect, (2) Role of Source-Communication skills, (3) Linearity vs. Interactivity. Which model is more suitable for evaluating a one-time extension campaign with a clear behaviour-change objective? Why?",
+     "a": "(1) SMCRE explicitly includes Effect as the fifth element; SMCR stops at Receiver (decoding). (2) Berlo elaborates Source factors (communication skills, attitudes, knowledge, social system, culture); SMCRE treats Source as a single element. (3) Both are linear, but SMCR's detailed factor breakdown allows more granular diagnosis. For a one-time campaign with behaviour-change objective, SMCRE is more suitable because its terminal Effect element forces outcome measurement (adoption rate), whereas SMCR's focus on process factors (encoding/decoding fidelity) may divert attention from actual behaviour change. A wrong answer choosing SMCR \"because it's more detailed\" reveals confusion between diagnostic granularity and evaluation purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this extension worker's claim: \"My communication was effective because I used three channels (WhatsApp, wall painting, group meeting) — so the message definitely reached everyone.\" Identify the SMCRE confusion and explain why multi-channel use ≠ Effect.",
+     "a": "The worker confuses Channel multiplicity (reach/breadth) with Effect (behaviour change depth). SMCRE requires: Source credibility → Message decodability → Channel accessibility → Receiver attention/comprehension → Effect (measured change). Multi-channel only addresses Channel; it does not guarantee Message was understood (decoding), Receiver was motivated (attitude), or behaviour shifted (Effect). A WhatsApp forward may be seen but ignored; a wall painting may be viewed but not comprehended. The error is equating transmission (Channel output) with impact (Effect). This reveals a transmission-model fallacy — treating communication as a logistics problem rather than a psycho-social process.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 3×3 matrix that maps SMCRE elements (rows) against three extension contexts: (a) Digital advisory (mKisan), (b) Farmer Field School (FFS), (c) Krishi Mela. For each cell, specify ONE critical success factor unique to that element-context combination. Example: Source × FFS = \"Facilitator's farming experience\" (not just technical knowledge).",
+     "a": "Expected matrix (sample critical factors):\n| Element | mKisan (Digital) | FFS (Participatory) | Krishi Mela (Event) |\n|---------|------------------|---------------------|---------------------|\n| Source | Trust in institutional sender (KVK/ICAR) | Facilitator's local farming credibility | Expert's reputation + live demo skill |\n| Message | Brevity (160 chars), actionable, timely | Co-created, problem-solving, iterative | Visual-heavy, benefit-focused, memorable |\n| Channel | Mobile penetration, language support, IVR for non-literate | Hands-on plots, peer discussion, seasonal cycle | Physical access, crowd flow, demo visibility |\n| Receiver | Digital literacy, phone ownership, trust in SMS | Group cohesion, shared problem, time availability | Motivation to attend, prior awareness, mobility |\n| Effect | Click-through → practice adoption (trackable) | Collective learning → group adoption (observed) | Lead generation → follow-up contact (measurable) |\nA poor answer uses generic factors (e.g., \"clear message\" for all) revealing inability to contextualize SMCRE elements to distinct communication architectures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

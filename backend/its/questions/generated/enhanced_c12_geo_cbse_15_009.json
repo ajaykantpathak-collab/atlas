@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_009",
+   "title": "c12_geo_cbse_15_009",
+   "questions": [
+    {
+     "q": "Name the two public sector undertakings primarily responsible for building and operating India's cross-country oil and gas pipeline networks, and state the ministry under which they function.",
+     "a": "Correct answer: Oil India Limited (OIL) for crude oil pipelines and GAIL (India) Ltd. for natural gas pipelines; both function under the Ministry of Petroleum and Natural Gas. A wrong answer (e.g., naming Indian Oil Corporation or ONGC) reveals confusion between upstream exploration/production (ONGC, OIL) and midstream transportation (OIL pipelines, GAIL), or between refining/marketing (IOCL, BPCL, HPCL) and dedicated pipeline entities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Naharkatiya–Barauni–Kanpur pipeline (Asia's first cross-country pipeline, 1962) was routed from upper Assam to Bihar and then to Uttar Pradesh, rather than to a nearer refinery in Assam itself.",
+     "a": "Correct answer: At the time (1959–1962), Assam had no refinery capable of processing Naharkatiya's crude output; the nearest existing refinery was Barauni (commissioned 1964, built with Soviet assistance) in the Gangetic plain, which also served the large fertilizer and industrial demand in Bihar and eastern Uttar Pradesh. The extension to Kanpur (1966) linked to the new Kanpur refinery. A wrong answer (e.g., \"to avoid hills\" or \"shorter distance\") reveals ignorance of the historical refinery geography and the role of pipeline in enabling industrialization in the hinterland.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) the HVJ pipeline route (Hazira–Vijaipur–Jagdishpur), (b) the two major gas fields it connects (Mumbai High, Bassein), and (c) two major fertilizer/power complexes it supplies in northern India. Calculate the approximate straight-line distance between Hazira (Gujarat) and Jagdishpur (Uttar Pradesh) and compare it with the actual pipeline length of 1,700 km. What does the difference indicate about pipeline routing?",
+     "a": "Correct answer: (a) HVJ runs from Hazira (Gujarat coast) → Vijaipur (Madhya Pradesh) → Jagdishpur (Uttar Pradesh). (b) Mumbai High (offshore Maharashtra) and Bassein (offshore Maharashtra) gas fields. (c) Fertilizer plants at Vijaipur (MP), Aonla (UP), Phulpur (UP), Jagdishpur (UP); power plants at Auraiya (UP), Dadri (UP). Straight-line Hazira–Jagdishpur ≈ 1,100 km; actual pipeline 1,700 km → 55% longer. The difference indicates routing avoids dense forests, major rivers, urban centers, and follows terrain contours (right-of-way acquisition), showing pipelines are not straight lines but optimized corridors balancing engineering, environmental, and land-cost constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the modal share of pipelines in India's freight transport (by volume) with that of roads and railways. Using the concept of \"cost per tonne-kilometre,\" explain why pipelines carry a small fraction of total freight volume despite having the lowest unit cost for liquids/gases.",
+     "a": "Correct answer: Pipelines carry ~100% of crude oil and natural gas movement but <1% of total freight tonnage (roads ~70%, railways ~15%, water ~1%, air negligible). Unit cost: pipeline ~₹0.10–0.15/tonne-km for liquids, railway ~₹1.5–2.0, road ~₹3–4. Pipelines' low volume share occurs because they are commodity-specific (only liquids/gases/slurry), require massive fixed capital (₹5–10 crore/km), have high entry barriers, and serve point-to-point bulk flows — unlike roads/rail which are general-purpose networks serving diverse, fragmented demand. A wrong answer citing \"pipelines are slow\" or \"limited capacity\" reveals misunderstanding: pipelines have high throughput (million tonnes/year) and continuous flow; the constraint is commodity specificity and capital intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The National Gas Grid target of 34,000 km will eliminate regional energy disparity in India by connecting all gas sources to all consuming markets.\" Identify two geographical or infrastructural factors that could prevent this outcome even if the pipeline length target is met.",
+     "a": "Correct evaluation: The statement overstates the Grid's impact. Two limiting factors: (1) Gas availability: India imports ~50% of gas as LNG; pipelines only transport — they don't create supply. Without domestic production growth (KG Basin, Assam) or contracted LNG volumes, pipes remain underutilized (current utilization ~50–60%). (2) Last-mile connectivity: The Grid is a high-pressure trunk network; city gas distribution (CGD) networks for households/industries/CNG stations require separate low-pressure pipelines, regulatory clearances, and demand aggregation — which lag behind trunk laying (e.g., North East states have trunk lines but minimal CGD). A wrong answer focusing only on \"corruption\" or \"funding\" misses the structural supply-demand and network-hierarchy constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation for a Class 12 board exam answer showing the \"energy corridor\" linking western offshore gas fields to the Indo-Gangetic plain's fertilizer belt via the HVJ pipeline. Include: (a) direction of flow arrows, (b) two branch pipelines to major industrial nodes, (c) one proposed extension under the National Gas Grid to the North East, and (d) a legend explaining line types. Describe the annotation in words (no drawing required).",
+     "a": "Expected annotation description: \"Main trunk: solid blue line labeled 'HVJ (GAIL) — 1,700 km' with arrows from Hazira (Gujarat) → Vijaipur (MP) → Jagdishpur (UP). Branch 1: dashed blue line from Vijaipur to Kota (Rajasthan) labeled 'To Chambal Fertilizers & Power'. Branch 2: dashed blue line from Jagdishpur to Haldia (WB) labeled 'Jagdishpur–Haldia–Bokaro–Dhamra Pipeline (JHBDPL) — under execution'. Extension: dotted blue line from Guwahati (Assam) to Siliguri (WB) labeled 'North East Gas Grid — 1,656 km (approved)'. Legend: Solid = Operational trunk; Dashed = Operational spur; Dotted = Approved/under-construction. Arrow direction = gas flow (west to east).\" A poor answer omits flow direction, uses same line style for all, or misses the North East extension — revealing inability to distinguish network hierarchy (trunk vs spur vs planned) critical for board map questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

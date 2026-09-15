@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 122,
+  "chapter_title": "Ajamil and the Tigers",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww122.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww122.1.1",
+      "title": "Shepherd Ajamil and the Starving Tigers",
+      "section": "1",
+      "definition": "Arun Kolatkar retells a folk fable in free verse: tigers, starving, complain to their king that shepherd Ajamil's dogs guard the sheep too well and they have had nothing to eat. The tiger king sends word to Ajamil, summoning the shepherd to a parley he may not refuse.",
+      "formula": "",
+      "key_idea": "A fable reborn in free verse -- hungry tigers, guarded sheep, and a summons no shepherd can refuse.",
+      "textbook_ref": "keww122.txt opening sections (tiger people complain to their king, starving, nothing to eat, ajamil's dogs guarding sheep, summons to the shepherd)",
+      "question_patterns": [
+        "why do the tigers complain to their king in ajamil and the tigers",
+        "in class 11 ajamil and the tigers: what stops the tigers from eating the sheep",
+        "who summons ajamil and for what purpose",
+        "describe the world of the tigers as the poem opens",
+        "what was ajamil known for as a shepherd",
+        "how does the poem establish the conflict in its opening"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "hear the complaint",
+          "explain": "The tigers protest their starvation -- Ajamil's loyal dogs make his flock unraidable."
+        },
+        {
+          "step": 2,
+          "action": "watch the machinery of power",
+          "explain": "Their king dispatches an invitation -- the polite form of a threat."
+        },
+        {
+          "step": 3,
+          "action": "brace the conflict",
+          "explain": "Ajamil must answer the tiger court: sheep, dogs and wits against royal appetite."
+        }
+      ]
+    },
+    {
+      "id": "keww122.1.2",
+      "title": "The Parley and Ajamil's Cunning Peace",
+      "section": "1",
+      "definition": "At the meeting Ajamil uses not weapons but wine and flattery: he gets the tiger king and his court drunk on home-brew, praises their magnificence, and brokers a treaty -- the tigers will never hunt his flock again if he supplies them regularly with a sheep or goat, delivered to their door without slaughter or pursuit.",
+      "formula": "",
+      "key_idea": "No sword, only wine and wit -- the shepherd turns a predator's court into a treaty table.",
+      "textbook_ref": "keww122.txt parley sections (home brew, flattery of the tiger king, the treaty, sheep or goat delivered regularly, no hunting of the flock)",
+      "question_patterns": [
+        "how does ajamil win over the tiger king",
+        "in class 11 ajamil and the tigers: what are the terms of the treaty between ajamil and the tigers",
+        "what role does drink play in the parley",
+        "why does ajamil flatter the tigers",
+        "is ajamil's agreement cunning or cowardice discuss",
+        "how does the poem present diplomacy between man and beast"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "toast the king",
+          "explain": "Ajamil arrives with liquor, and toasts loosen the tiger court's menace into cheer."
+        },
+        {
+          "step": 2,
+          "action": "praise and propose",
+          "explain": "Flattering their majesty, he proposes a compact -- regular tribute of one animal for total peace."
+        },
+        {
+          "step": 3,
+          "action": "sign the peace",
+          "explain": "The drunk court agrees; the treaty ends predation on the flock by making the shepherd the supplier."
+        }
+      ]
+    },
+    {
+      "id": "keww122.1.3",
+      "title": "The Wolf's Slander and the Shepherd's Answer",
+      "section": "1",
+      "definition": "A jealous wolf spreads slander that Ajamil cheats the tigers. The tiger king summons the old shepherd once more; Ajamil offers to explain, then simply keeps sending the promised animals on time -- and the slander dies of starvation, with no counter-argument needed. Kolatkar's moral glints: a kept promise outlives any malicious tongue.",
+      "formula": "",
+      "key_idea": "The best answer to slander is a delivery made on time -- promises kept silence even a tiger court.",
+      "textbook_ref": "keww122.txt slander sections (jealous wolf, slander against ajamil, second summons, deliveries continue on time, slander dies, moral of the poem)",
+      "question_patterns": [
+        "what slander does the wolf spread against ajamil",
+        "in class 11 ajamil and the tigers: how does ajamil answer the second summons",
+        "why does ajamil offer no defence to the tiger king",
+        "how does the slander die in the poem",
+        "what is the moral of ajamil and the tigers",
+        "does the poem praise cleverness or character discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "hear the slander",
+          "explain": "The wolf whispers that Ajamil shortchanges the tigers -- the treaty, it claims, is a fraud."
+        },
+        {
+          "step": 2,
+          "action": "watch the conduct",
+          "explain": "Summoned again, Ajamil says the deliveries will speak for him and keeps sending the animals punctually."
+        },
+        {
+          "step": 3,
+          "action": "watch the slander starve",
+          "explain": "With nothing to feed on, the wolf's lie starves -- Kolatkar's fable closes on integrity proved by habit."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww122.txt parley sections",
+      "concept": "keww122.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Describe how Ajamil prepares for and conducts his meeting with the tiger king.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note his equipment",
+          "explain": "He brings no weapons -- only a skin of home-brew and a ready tongue."
+        },
+        {
+          "step": 2,
+          "action": "note his method",
+          "explain": "He drinks the court merry and seasons it with compliments on its majesty."
+        },
+        {
+          "step": 3,
+          "action": "note the outcome",
+          "explain": "A treaty is signed: one animal delivered regularly in exchange for the flock's total safety."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww122.txt slander sections",
+      "concept": "keww122.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Why does Ajamil refuse to argue against the wolf's slander before the tiger king?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recognise the trap",
+          "explain": "Words against words would only give the lie a stage."
+        },
+        {
+          "step": 2,
+          "action": "choose conduct",
+          "explain": "Ajamil lets the uninterrupted deliveries answer -- fact as the only plea."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The slander starves for lack of evidence -- Kolatkar's witty proof that kept promises silence malice."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww122.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why do the tigers hold a grudge against Ajamil?",
+        "How does Ajamil settle the conflict with the tiger king?",
+        "What are the terms of the agreement reached between the shepherd and the tigers?",
+        "How does Ajamil respond to the wolf's slander?",
+        "Discuss the poem as a modern retelling of a folk fable.",
+        "What qualities of Ajamil impress you most in the poem?"
+      ]
+    }
+  ]
+}

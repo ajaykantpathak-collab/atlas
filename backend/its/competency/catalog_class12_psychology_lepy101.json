@@ -1,0 +1,473 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 1,
+ "chapter_title": "Variations in Psychological Attributes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy101.1",
+   "title": "Intelligence Quotient (IQ)",
+   "section": "Assessment of Intelligence",
+   "definition": "A single numeric index of general mental ability that compares what a test-taker can do at present (mental age) with how long the person has actually lived (chronological age), scaled so that an age-typical performer lands at 100.",
+   "formula": "iq = mental_age / chronological_age * 100",
+   "key_idea": "Divide mental age by real age and multiply by 100; a result of 100 means performance typical of that age.",
+   "textbook_ref": "lepy101.txt, Assessment of Intelligence (Stern's 1912 IQ concept, worked examples of 10-year-old children)",
+   "question_patterns": [
+    "find the IQ of a child whose mental age and chronological age are given",
+    "a 10 year old shows a mental age of 12 - what is the child's intelligence quotient?",
+    "compute the IQ when MA equals 9 and CA equals 12",
+    "what does an IQ score of exactly 100 tell us about mental age relative to chronological age?",
+    "how is the intelligence quotient worked out from mental age and chronological age?",
+    "a 12-year-old obtains an IQ of 90 - determine the mental age this score implies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide mental age by chronological age",
+     "explain": "this ratio shows whether intellectual development runs ahead of or behind the age norm",
+     "compute": "ratio = mental_age / chronological_age"
+    },
+    {
+     "step": 2,
+     "action": "multiply the ratio by 100",
+     "explain": "the factor 100 keeps the quotient a whole-number style score instead of a decimal",
+     "compute": "iq = ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 10-year-old solves problems like a typical 12-year-old. Using mental age / real age * 100, what is the child's IQ?",
+     "a": "120"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.2",
+   "title": "IQ Classification Bands and Population Shares",
+   "section": "Assessment of Intelligence",
+   "definition": "Because IQ scores pile up in the middle of a bell-shaped normal curve, psychologists label bands - average around 90-109, superior 120-130, borderline 70-79 - and can attach an approximate share of people to every band.",
+   "formula": "band_count = population * band_percent / 100",
+   "key_idea": "Multiply the total population by a band's percentage share to estimate how many people fall in that IQ band.",
+   "textbook_ref": "lepy101.txt, Table 1.1 classification of people on the basis of IQ (average 50.0, above 130 and below 70 about 2.2 each)",
+   "question_patterns": [
+    "in a town of 20000 people how many are expected to lie in the average IQ band of 90 to 109?",
+    "what share of the population scores below IQ 70 on the normal curve of intelligence?",
+    "calculate the expected number of intellectually disabled persons in a district of 50000 using the IQ distribution",
+    "how many people out of one lakh would be expected to score above IQ 130?",
+    "state the IQ range labelled average and the percentage of people it covers",
+    "using the bell shaped spread of IQ scores, estimate the number of gifted children in a school population of 2500"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the population by the band percentage",
+     "explain": "the share for each band, such as 50.0 for average or 2.2 for below 70, comes from the standard classification table",
+     "compute": "band_total = population * band_percent"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert percent into a head count",
+     "explain": "a percentage must be scaled down to an actual number of people",
+     "compute": "band_count = band_total / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An IQ score of 100 falls in which band: average, superior or borderline?",
+     "a": "average"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.3",
+   "title": "Intellectual Giftedness and Intellectual Disability",
+   "section": "Variations of Intelligence",
+   "definition": "The two tails of the IQ spread get special labels: beyond 130 sits giftedness, exceptional general ability shown across many areas, while below 70 the term intellectual disability applies only when sub-average functioning is joined by deficits in adaptive behaviour during the developmental years up to 18.",
+   "formula": "iq_above_130 -> giftedness ; iq_below_70 plus adaptive_deficits within age_0_to_18 -> intellectual_disability",
+   "key_idea": "A low score alone never settles disability - adaptive behaviour deficits before adulthood must accompany it; giftedness also differs from talent, which is narrow excellence in one field.",
+   "textbook_ref": "lepy101.txt, Variations of Intelligence (AAMD three-feature definition, mild to profound levels, Terman's 1500-child study)",
+   "question_patterns": [
+    "distinguish between intellectual giftedness and talent with one example of each",
+    "state the three defining features of intellectual disability in the AAMD formulation",
+    "why is an IQ below 70 by itself not enough to judge a child intellectually disabled?",
+    "list four characteristics commonly shown by gifted children in early childhood",
+    "name the four levels of intellectual disability together with their IQ ranges",
+    "what kind of educational programmes do gifted learners need beyond the regular classroom?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check both defining conditions for intellectual disability",
+     "explain": "sub-average IQ must coexist with adaptive behaviour deficits observed during the developmental period between 0 and 18 years"
+    },
+    {
+     "step": 2,
+     "action": "contrast giftedness with talent",
+     "explain": "giftedness is superior general ability across a wide variety of areas, whereas talent is remarkable ability confined to one specific field"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Beyond which IQ score does giftedness begin?",
+     "a": "130"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.4",
+   "title": "Psychometric Theories and the Guilford Cell Count",
+   "section": "Theories of Intelligence",
+   "definition": "Structural theories treat intelligence as a set of measurable abilities: Spearman's general g-factor with specific s-factors derived through factor analysis, Thurstone's seven primary mental abilities, Jensen's Level I and Level II hierarchy, and Guilford's three-dimensional operations-contents-products model.",
+   "formula": "guilford_cells = operations_count * contents_count * products_count",
+   "key_idea": "Guilford crosses 6 operations with 5 contents and 6 products, so his structure-of-intellect model holds 180 ability cells.",
+   "textbook_ref": "lepy101.txt, Theories of Intelligence (Spearman 1927, Thurstone seven primary abilities, Jensen Level I/II, Guilford 6x5x6 = 180 cells)",
+   "question_patterns": [
+    "how many cells does the structure-of-intellect model contain when its three dimensions are multiplied?",
+    "explain Spearman's two-factor theory and the part played by factor analysis",
+    "list Thurstone's seven primary mental abilities with one phrase describing each",
+    "differentiate Level I associative learning from Level II cognitive competence in Jensen's hierarchical model",
+    "calculate the total number of categories in Guilford's model from its operations, contents and products dimensions",
+    "which statistical procedure did Spearman employ before proposing the g-factor?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number of operations by the number of contents",
+     "explain": "each operation can combine with each content, so the pairs multiply",
+     "compute": "dim_product = operations_count * contents_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply that product by the number of product forms",
+     "explain": "adding the third dimension of information products completes the classification cube",
+     "compute": "guilford_cells = dim_product * products_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Guilford crosses 6 operations, 5 contents and 6 products. How many ability cells does his model hold?",
+     "a": "180"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.5",
+   "title": "Gardner's Theory of Multiple Intelligences",
+   "section": "Theory of Multiple Intelligences",
+   "definition": "Gardner replaces one general ability with eight relatively independent kinds - linguistic, logical-mathematical, spatial, musical, bodily-kinaesthetic, interpersonal, intrapersonal and naturalistic - so being strong in one tells you little about the rest.",
+   "formula": "independent_intelligences = eight_types: linguistic, logical_mathematical, spatial, musical, bodily_kinaesthetic, interpersonal, intrapersonal, naturalistic",
+   "key_idea": "Distinct intelligences work separately yet can cooperate on a real problem; each has a typical occupation profile.",
+   "textbook_ref": "lepy101.txt, Theory of Multiple Intelligences (eight types from linguistic to naturalistic with example professions)",
+   "question_patterns": [
+    "name the eight intelligences proposed by Gardner and one occupation suited to each",
+    "why does high musical intelligence fail to predict high logical-mathematical intelligence in Gardner's view?",
+    "which intelligence is shared by a surgeon and an athlete according to the theory of multiple intelligences?",
+    "how do the separate intelligences interact when a person solves an everyday problem?",
+    "identify the intelligence that poets and writers display most strongly in Gardner's framework",
+    "which intelligence involves awareness of our relationship with the natural world?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the independence claim",
+     "explain": "excellence in one intelligence does not necessarily indicate a high or low level of the others"
+    },
+    {
+     "step": 2,
+     "action": "verify the cooperation claim",
+     "explain": "the different intelligences interact and work together to find a solution to a single problem"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many relatively independent intelligences does Gardner's theory list?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.6",
+   "title": "Sternberg's Triarchic Theory of Intelligence",
+   "section": "Triarchic Theory of Intelligence",
+   "definition": "Sternberg reads intelligent behaviour as adapting to, shaping and selecting environments, and splits it into three strands: componential analysis that serves school success, creative use of experience on fresh problems, and practical coping with daily demands.",
+   "formula": "triarchic_intelligence = componential_analytical + experiential_creative + contextual_practical",
+   "key_idea": "Analytical intelligence predicts school grades, creative intelligence handles novel problems, and practical intelligence is street-smart dealing with the environment.",
+   "textbook_ref": "lepy101.txt, Triarchic Theory of Intelligence (three components, knowledge acquisition / meta / performance sub-components)",
+   "question_patterns": [
+    "which component of the triarchic theory best explains success in school examinations?",
+    "match the three intelligences of Sternberg with the labels analytical, creative and practical",
+    "why is contextual intelligence described as street smartness or business sense?",
+    "name the three components that work inside componential intelligence",
+    "how does experiential intelligence reveal itself when a person meets a novel problem?",
+    "in what sense does Sternberg treat intelligent people as shapers of their environment?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the three-strand division",
+     "explain": "componential, experiential and contextual are the basic types, each answering a different demand"
+    },
+    {
+     "step": 2,
+     "action": "verify the sub-components of componential intelligence",
+     "explain": "knowledge acquisition, the higher-order meta component for planning, and the performance component that executes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Sternberg strand is street-smart coping with daily demands: componential, experiential or contextual?",
+     "a": "contextual"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.7",
+   "title": "PASS Model of Intelligence",
+   "section": "Planning, Attention-arousal, and Simultaneous-successive Model",
+   "definition": "Das, Naglieri and Kirby picture intellect as three brain-based functional units - arousal with attention, coding done either simultaneously or successively, and planning - all operating over a knowledge base; their Cognitive Assessment System tests these processes in ages 5 to 18.",
+   "formula": "pass_units = arousal_attention + simultaneous_successive_processing + planning",
+   "key_idea": "Optimal arousal focuses attention, simultaneous processing integrates relations at once while successive processing stores information in sequence, and planning steers action to the goal.",
+   "textbook_ref": "lepy101.txt, PASS model (functional units of brain, Raven's Progressive Matrices as simultaneous example, CAS battery)",
+   "question_patterns": [
+    "explain the role of arousal and attention in the PASS model of intelligence",
+    "how does simultaneous processing differ from successive processing - give one test or task for each",
+    "why is planning treated as an essential feature of intelligence in the PASS model?",
+    "which test battery did Das and Naglieri develop to measure the PASS processes?",
+    "relate the three functional units of the brain to intellectual activity as the PASS model describes",
+    "give one example of school learning that demands successive processing of information"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the processing contrast",
+     "explain": "simultaneous processing perceives relations among concepts and merges them into one meaningful pattern, while successive processing recalls information serially so one item triggers the next"
+    },
+    {
+     "step": 2,
+     "action": "verify the planning loop",
+     "explain": "plans are made, implemented against a target, evaluated, and modified when they fail to work"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does the P in the PASS model of intelligence stand for?",
+     "a": "planning"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.8",
+   "title": "Twin-Study Correlations: Nature and Nurture in Intelligence",
+   "section": "Individual Differences in Intelligence",
+   "definition": "Evidence on how intelligence develops comes from twin and adoption figures: the closer the genetic bond and the more similar the rearing setting, the higher the correlation between two people's intelligence scores, which supports a joint heredity-environment account.",
+   "formula": "correlation_gap = corr_identical_together - corr_siblings_apart",
+   "key_idea": "Identical twins reared together correlate near 0.90 while siblings reared apart correlate near 0.25, so genes set a range that environment fills in.",
+   "textbook_ref": "lepy101.txt, Intelligence: Interplay of Nature and Nurture (0.90, 0.72, 0.60, 0.50, 0.25 correlation figures; adoption findings)",
+   "question_patterns": [
+    "compare the intelligence correlation of identical twins reared together with that of siblings reared apart",
+    "using the twin study figures, find how much higher the identical-together correlation is than the fraternal-together one",
+    "what do adoption studies show about children's intelligence relative to biological and adoptive parents?",
+    "arrange the twin correlations reported for intelligence in decreasing order",
+    "why do psychologists conclude that intelligence arises from an interaction of heredity and environment?",
+    "compute the difference between the correlation for identical twins reared apart and fraternal twins reared together"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the fraternal-together correlation from the identical-together correlation",
+     "explain": "both pairs share the rearing home, so the gap isolates the extra genetic overlap of identical twins",
+     "compute": "gene_sharing_gap = corr_identical_together - corr_fraternal_together"
+    },
+    {
+     "step": 2,
+     "action": "add the rearing effect to reach the siblings-apart comparison",
+     "explain": "moving from siblings together (about 0.50) to siblings apart (about 0.25) adds the environmental separation effect onto the genetic gap",
+     "compute": "correlation_gap = gene_sharing_gap + (corr_fraternal_together - corr_siblings_apart)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Identical twins reared together correlate near what value in intelligence studies? (Give one decimal.)",
+     "a": "0.9"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.9",
+   "title": "Aptitude: Nature and Measurement",
+   "section": "Special Abilities - Aptitude",
+   "definition": "Aptitude is a person's specific capacity to acquire a particular skill after training; it differs from intelligence (general mental ability) and from interest (mere preference), and it is measured with independent tests or multi-area batteries such as the DAT and GATB.",
+   "formula": "skill_outcome = aptitude_potential plus_training_environment",
+   "key_idea": "Aptitude predicts future performance; without both aptitude and interest in the same field, the outcome stays unsatisfactory.",
+   "textbook_ref": "lepy101.txt, Aptitude: Nature and Measurement (independent vs multiple aptitude tests, DAT's 8 subtests, Ojha's Indian adaptation)",
+   "question_patterns": [
+    "how is aptitude different from interest and from intelligence?",
+    "name the eight subtests of the Differential Aptitude Tests",
+    "why can a person who is keen on a job still fail for want of aptitude for it?",
+    "give two examples of independent aptitude tests used in vocational guidance",
+    "what does a high mechanical aptitude score predict about a student after training?",
+    "which well-known aptitude batteries exist in multiple or generalised form?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the prediction claim",
+     "explain": "aptitude tests state what an individual will be able to do given proper training and a suitable environment"
+    },
+    {
+     "step": 2,
+     "action": "verify the two-part pairing condition",
+     "explain": "success in a field needs aptitude and interest together - either one without the other yields an unsatisfactory outcome"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a person's specific capacity to acquire a particular skill after training called?",
+     "a": "aptitude"
+    }
+   ]
+  },
+  {
+   "id": "lepy101.10",
+   "title": "Creativity and Its Relation to Intelligence",
+   "section": "Creativity",
+   "definition": "Creativity is the power to bring forth something novel, appropriate and useful - a fresh solution, invention or composition; it rests on some minimum intellectual base, but past that base higher intelligence does not by itself ensure creative work.",
+   "formula": "creative_output -> novelty plus usefulness ; requires minimum_intelligence, beyond_base no strict_correlation",
+   "key_idea": "Intelligence tests reward convergent thinking with one right answer, while open-ended creativity tests reward divergent thinking that runs in many directions.",
+   "textbook_ref": "lepy101.txt, Creativity and Intelligence (Terman 1920s findings, divergent vs convergent thinking, creativity testers Guilford and Torrance)",
+   "question_patterns": [
+    "why is a high IQ no guarantee of creativity - answer with Terman's follow-up findings",
+    "contrast the convergent thinking of intelligence tests with the divergent thinking measured by creativity tests",
+    "how do heredity and environment jointly decide the level of creative potential a person reaches?",
+    "give one example each of creativity at the highest level and at the level of modifying what already exists",
+    "what abilities do open-ended creativity tests assess in a person?",
+    "explain, using a bright but reproductive student versus an average but improvising one, why intelligence alone misses creativity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the threshold claim",
+     "explain": "a certain minimum level of intelligence is needed to acquire and organise knowledge, so the two are positively related up to that base"
+    },
+    {
+     "step": 2,
+     "action": "verify the independence beyond the base",
+     "explain": "beyond the threshold, higher intelligence does not correlate well with creativity - highly intelligent children may show either high or low creativity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which thinking does an intelligence test reward: convergent or divergent?",
+     "a": "convergent"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy101.we1",
+   "concept_id": "lepy101.1",
+   "problem": "A 10-year-old child attains a mental age of 12 on an intelligence scale. Work out the child's IQ.",
+   "given": {
+    "mental_age": 12,
+    "chronological_age": 10
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide mental age by chronological age",
+     "compute": "ratio = 12 / 10"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 100",
+     "compute": "iq = ratio * 100"
+    }
+   ],
+   "answer": "iq = 120, which places the child above the age norm since mental age exceeds chronological age"
+  },
+  {
+   "id": "lepy101.we2",
+   "concept_id": "lepy101.1",
+   "problem": "A 12-year-old scores an IQ of 90. Recover the mental age behind the score.",
+   "given": {
+    "iq": 90,
+    "chronological_age": 12
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "undo the 100 multiplier",
+     "compute": "ma_scaled = iq * chronological_age"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to land on the mental age",
+     "compute": "mental_age_value = ma_scaled / 100"
+    }
+   ],
+   "answer": "mental_age_value = 10.8, i.e. the child performs like an average child of about 10 years 9-10 months, below the age norm"
+  },
+  {
+   "id": "lepy101.we3",
+   "concept_id": "lepy101.2",
+   "problem": "A district has 50000 residents. Using the standard IQ classification, how many residents are expected to fall below IQ 70 (the intellectually disabled band, 2.2 percent)?",
+   "given": {
+    "population": 50000,
+    "band_percent": 2.2
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the population by the band percentage",
+     "compute": "band_total = 50000 * 2.2"
+    },
+    {
+     "step": 2,
+     "action": "convert percent into a head count",
+     "compute": "band_count = band_total / 100"
+    }
+   ],
+   "answer": "band_count = 1100 residents in the intellectually disabled band"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy101.ex1",
+   "source_ref": "lepy101.txt Review Questions (chapter-end)",
+   "questions": [
+    "How do psychologists characterise intelligence, and how has the definition changed from Binet to Wechsler?",
+    "Discuss the relative contributions of heredity and environment to intelligence with twin and adoption evidence.",
+    "Describe the eight intelligences in Gardner's theory with a suitable occupation for each.",
+    "Explain the three strands of Sternberg's triarchic theory and what each one predicts.",
+    "Present the PASS model as an information-processing account of intellectual activity.",
+    "Are there cultural differences in what counts as intelligent behaviour? Contrast technological and integral intelligence.",
+    "Classify people on the basis of IQ scores and give the descriptive label for each range.",
+    "Differentiate verbal, non-verbal and performance tests of intelligence with one named example of each.",
+    "How is aptitude measured, and how does it differ from interest and intelligence?",
+    "How is creativity related to intelligence? Does a high IQ ensure creative achievement?"
+   ]
+  },
+  {
+   "id": "lepy101.ex2",
+   "source_ref": "lepy101.txt Activity 1.3 - Intelligent Numbers (computing IQ)",
+   "questions": [
+    "Find the IQ of a 14-year-old child whose mental age is 16.",
+    "Find the mental age of a 12-year-old child whose IQ is 90.",
+    "In a population where the mean IQ is 100, how many people in a group of 10000 would be expected to score above 130?"
+   ]
+  }
+ ]
+}

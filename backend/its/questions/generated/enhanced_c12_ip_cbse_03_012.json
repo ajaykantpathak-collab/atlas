@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_012",
+   "title": "c12_ip_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a packet-filtering firewall and a stateful inspection firewall in terms of connection tracking?",
+     "a": "A packet-filtering firewall examines each packet in isolation (source/destination IP, port, protocol) without memory of previous packets, while a stateful inspection firewall maintains a state table tracking active connections (TCP handshakes, UDP flows) and allows return traffic only for established sessions. A wrong answer (e.g., \"both track connections\") reveals confusion between static rule matching and dynamic state maintenance — a common board exam error where students conflate \"filtering\" with \"inspection.\"",
+     "self_check": true
+    },
+    {
+     "q": "In a TLS 1.3 handshake, why does the server send its certificate *after* the ClientHello but *before* the ServerHello, and what would break if the order were reversed?",
+     "a": "The certificate contains the server's public key needed for key exchange; sending it after ClientHello allows the client to verify identity before deriving session keys. If reversed, the client wouldn't have the public key to encrypt the pre-master secret (in RSA key exchange) or verify the server's signature (in ECDHE), causing handshake failure. A wrong answer (e.g., \"certificate is just for show\") shows misunderstanding of the certificate's cryptographic role in authentication and key transport — a frequent CUET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A school network uses a firewall rule: \"Allow TCP port 443 from any source to internal web server 192.168.1.10.\" Students can access HTTPS sites but cannot load the school's own HTTPS portal. The portal uses a non-standard port 8443. Write the minimal additional rule to fix this without weakening security.",
+     "a": "Add rule: \"Allow TCP port 8443 from any source to 192.168.1.10.\" The existing rule only permits port 443; the portal listens on 8443, so traffic is dropped. A wrong answer like \"Allow all ports to 192.168.1.10\" reveals failure to apply least-privilege principle — a board marking scheme penalty for over-permissive rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the key management overhead of symmetric encryption (AES-256) vs asymmetric encryption (RSA-2048) for a school with 500 students where each pair needs a unique shared key for confidential messaging. Calculate the number of keys required in each approach and explain which scales better.",
+     "a": "Symmetric: n(n-1)/2 = 500×499/2 = 124,750 unique pairwise keys. Asymmetric: each student needs 1 key pair (public+private) = 500 key pairs total. Asymmetric scales linearly (O(n)), symmetric quadratically (O(n²)). A wrong answer (e.g., \"symmetric needs 500 keys\") shows inability to model combinatorial key distribution — a JEE-style analytical reasoning trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A firewall that blocks all inbound traffic except established/related connections makes encryption unnecessary for internal communications.\" Defend or refute with two technical arguments.",
+     "a": "Refute. (1) Firewall operates at L3/L4; it cannot inspect encrypted payloads for malware/command injection — an attacker with internal access (e.g., compromised student laptop) can exfiltrate data over allowed outbound HTTPS. (2) Firewall does not protect against insider threats or lateral movement; encryption provides confidentiality/integrity even if perimeter is breached. A wrong answer accepting the claim reveals the \"perimeter-only\" security fallacy — a critical concept for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal network security architecture for a school lab with 30 student PCs, one teacher PC, and a local file server. Specify: (a) firewall placement and rule set, (b) encryption requirements for file transfers, (c) one compensating control if the firewall fails open. Justify each choice.",
+     "a": "(a) Firewall at lab gateway (router): default-deny inbound; allow outbound TCP 443, 22 (SFTP), 53 (DNS); allow teacher PC → student PCs on TCP 3389 (RDP) for monitoring. (b) Enforce SFTP (SSH) or HTTPS for file transfers — TLS 1.2+ with AES-GCM; disable plaintext FTP/SMBv1. (c) Compensating control: host-based firewall on each PC blocking all inbound except teacher IP on 3389. Justification: defense-in-depth; firewall failure open still leaves host firewall and encryption protecting data. A poor answer omits host-based control or suggests \"just use antivirus\" — showing lack of layered security thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

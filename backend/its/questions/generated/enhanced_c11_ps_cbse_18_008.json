@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_008",
+   "title": "c11_ps_cbse_18_008",
+   "questions": [
+    {
+     "q": "What are the specific constitutional articles that confer interpretive and review authority on the Supreme Court of India?",
+     "a": "The Supreme Court's interpretive and review authority derives from Article 32 (right to constitutional remedies for fundamental rights enforcement), Article 136 (special leave to appeal - broad appellate discretion), Article 141 (law declared by Supreme Court binding on all courts - stare decisis), Article 13 (laws inconsistent with fundamental rights void - judicial review foundation), and Article 142 (inherent power to do complete justice). A wrong answer citing only \"judicial review\" or \"Article 32\" without the full suite reveals the student memorizes the term but not the textual architecture that collectively empowers the Court as final constitutional interpreter.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a written Constitution with seemingly clear text require judicial interpretation rather than mechanical application?",
+     "a": "Constitutional text uses open-textured language (\"equality before law,\" \"freedom of speech,\" \"due process,\" \"reasonable restrictions\") that embodies broad principles requiring application to unforeseen contexts (digital surveillance, genetic privacy, LGBTQ+ rights, AI governance). The framers deliberately chose flexible language to allow evolution. Mechanical application fails because: (1) words have core and penumbral meanings; (2) constitutional provisions conflict (e.g., Article 25 religious freedom vs Article 14 equality); (3) new technologies create situations the text doesn't address. A wrong answer claiming \"the text is self-explanatory\" or \"Parliament should amend for new situations\" reveals a static, literalist misunderstanding that ignores the living document philosophy and the impracticality of frequent amendments for every novel context.",
+     "self_check": true
+    },
+    {
+     "q": "A state enacts a law requiring all private unaided minority educational institutions to reserve 25% seats for economically weaker sections. The institutions challenge this under Article 30(1) (right to establish/administer minority institutions). The state argues Article 15(5) (inserted by 93rd Amendment) permits such reservations. How should the High Court approach this constitutional interpretation?",
+     "a": "The court should apply harmonious construction: read Article 30(1) (minority autonomy) and Article 15(5) (state's power to make special provisions for advancement of socially/educationally backward classes) together. In TMA Pai (2002) and P.A. Inamdar (2005), the Court held minority institutions have autonomy in administration but state can regulate for academic standards. In Society for Unaided Private Schools (2012), the Court upheld RTE Act's 25% quota for unaided non-minority schools but distinguished minority institutions. The court must balance: (1) whether the regulation destroys the \"minority character\" (essential religious/educational practices test); (2) whether Article 15(5) was intended to override Article 30(1); (3) proportionality - is 25% quota the least restrictive means? A wrong answer simply declaring \"Article 30(1) is absolute\" or \"Article 15(5) overrides everything\" fails to engage in the required balancing and harmonious construction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the basic structure doctrine (Kesavananda Bharati, 1973) with the substantive due process interpretation in Maneka Gandhi (1978). How do both represent judicial evolution beyond the Constitution's original text, and what distinguishes their constitutional function?",
+     "a": "Basic structure doctrine (nowhere in text) identifies inviolable constitutional features (democracy, secularism, judicial review, federalism, fundamental rights) that constrain Parliament's constituent power under Article 368. Maneka Gandhi expanded Article 21's \"procedure established by law\" to require \"fair, just, and reasonable\" procedure, effectively importing substantive due process (which framers rejected in favor of \"procedure established by law\"). Both read implied principles into the text. Distinction: basic structure constrains constituent power (amendment power); substantive due process expands fundamental rights protection against legislative/executive action. Basic structure is a limit on Article 368; due process is an expansion of Article 21. A wrong answer treating both as \"judicial activism\" misses the structural difference: one polices the Constitution's amendment; the other polices ordinary governance under the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"Judicial interpretation makes the Constitution a 'living document' but unelected judges effectively amend the Constitution without democratic legitimacy, creating a counter-majoritarian difficulty.\" Address both the necessity and the constraints of judicial interpretation in a constitutional democracy.",
+     "a": "The counter-majoritarian difficulty is real but managed through institutional constraints: (1) Judges interpret, not amend - they cannot add/delete articles (Article 368 reserved for Parliament); (2) Constitutional morality guides interpretation (Naz Foundation, Navtej Johar) - not personal morality; (3) Doctrines of restraint: presumption of constitutionality, political question doctrine, ripeness/mootness, avoidance canon; (4) Parliament can override statutory interpretation via legislation (not constitutional interpretation); (5) Appointment process (collegium + executive role) and impeachment provide democratic checks. Necessity: rights protection against majoritarianism (Carolene Products footnote 4 logic), filling gaps in incomplete theorization, adapting to technological/social change. A good evaluation acknowledges the tension but argues interpretation is the price of constitutional supremacy. A wrong answer dismissing judicial interpretation as \"undemocratic\" or celebrating it as \"perfect\" shows lack of nuanced constitutional theory.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Supreme Court judgment paragraph (120-150 words) interpreting Article 19(1)(a) to include \"algorithmic transparency\" as a facet of free speech in a case challenging opaque government AI systems that allocate welfare benefits. Use purposive interpretation, proportionality, and precedent.",
+     "a": "A strong answer will: (1) Cite Article 19(1)(a) and 19(2) reasonable restrictions; (2) Reference Anuradha Bhasin (internet access as speech medium) and K.S. Puttaswamy (informational autonomy); (3) Apply purposive interpretation - free speech includes right to receive information and understand automated decisions affecting rights; (4) Apply proportionality triple test: legitimate aim (efficient administration), suitability (rational connection), necessity (least restrictive - transparency doesn't prevent AI use), balancing (welfare rights vs opaque algorithms); (5) Conclude opaque algorithms violate Article 19(1)(a) read with Article 14 (non-arbitrariness); (6) Direct state to implement explainability/audit requirements. A poor answer merely asserts \"AI must be transparent\" without constitutional reasoning, proportionality framework, or precedent awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

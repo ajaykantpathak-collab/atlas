@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_007",
+   "title": "c11_bio_cbse_08_007",
+   "questions": [
+    {
+     "q": "What are the sedimentation coefficients (S values) of the complete ribosome and its two subunits in prokaryotes and eukaryotes?",
+     "a": "Prokaryotes: 70S ribosome made of 50S and 30S subunits. Eukaryotes: 80S ribosome made of 60S and 40S subunits. A wrong answer (e.g., saying 70S+80S=150S or confusing subunit values) reveals that the student treats Svedberg units as additive molecular weights rather than sedimentation coefficients that depend on both mass and shape.",
+     "self_check": true
+    },
+    {
+     "q": "Why do mitochondrial ribosomes in eukaryotic cells resemble prokaryotic (70S) ribosomes rather than cytoplasmic (80S) ribosomes?",
+     "a": "Mitochondria originated from an endosymbiotic prokaryote; they retain their own DNA, transcription/translation machinery, and 70S ribosomes. A wrong answer (e.g., \"mitochondria are smaller so they have smaller ribosomes\") shows the student misses the evolutionary link and thinks ribosome size correlates only with organelle size.",
+     "self_check": true
+    },
+    {
+     "q": "A drug called cytochalasin D binds to actin monomers and prevents microfilament polymerization. Predict its effect on (a) cytoplasmic streaming in Chara internodal cells and (b) cytokinesis in animal vs. plant cells.",
+     "a": "(a) Cytoplasmic streaming stops because it is driven by actin-myosin interaction. (b) Animal cell cytokinesis fails (no contractile ring), but plant cell cytokinesis proceeds normally because it uses a microtubule-based phragmoplast, not an actin contractile ring. A wrong prediction for plant cells indicates the student generalizes animal cytokinesis to all eukaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of microtubules and microfilaments in maintaining cell shape and enabling cell movement. Give one specific example for each.",
+     "a": "Microtubules: rigid, resist compression, determine overall cell polarity and organelle positioning (e.g., axonal transport in neurons). Microfilaments: flexible, resist tension, drive cell crawling and shape changes (e.g., lamellipodia in fibroblasts). An answer that swaps the examples or attributes both functions to one filament type shows inability to differentiate mechanical properties and cellular contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because ribosomes lack a membrane, they should not be classified as organelles.\"",
+     "a": "The statement is flawed. \"Organelle\" means a specialized subcellular structure with a specific function; membrane enclosure is not a defining criterion. Ribosomes are universally recognized as non-membranous organelles. A student who agrees likely confuses the definition of organelle with the classification of membrane-bound vs. non-membrane-bound organelles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using radioisotope labeling to prove that protein synthesis occurs on ribosomes and not in the nucleoplasm.",
+     "a": "Incubate cells with ³⁵S-methionine for a short pulse, then fractionate the cell into nuclear and cytoplasmic (ribosomal) fractions. Measure radioactivity in each fraction over a chase period. Rapid appearance of label in cytoplasmic ribosomes, followed by appearance in secreted proteins, with minimal nuclear label, demonstrates cytoplasmic synthesis. A poor design might omit the chase, use a non-protein precursor, or fail to separate ribosomes from other cytoplasmic components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

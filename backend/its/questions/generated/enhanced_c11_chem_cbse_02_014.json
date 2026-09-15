@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_014",
+   "title": "c11_chem_cbse_02_014",
+   "questions": [
+    {
+     "q": "State the shape of a 3s orbital and the number of radial nodes it possesses. How does its boundary surface diagram differ from that of a 1s orbital?",
+     "a": "The 3s orbital is spherically symmetric with 2 radial nodes (n-l-1 = 3-0-1 = 2). Its boundary surface diagram shows three concentric spherical shells of high probability density separated by two spherical nodal surfaces where |ψ|²=0, unlike the 1s orbital which has a single spherical boundary with no nodes. A wrong answer (e.g., \"3s has no nodes\" or \"3s is dumb-bell shaped\") reveals confusion between principal quantum number n and azimuthal quantum l, or failure to apply the radial node formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the three 2p orbitals (2px, 2py, 2pz) are degenerate in a hydrogen atom but have different spatial orientations. How does the magnetic quantum number mₗ relate to this orientation?",
+     "a": "In hydrogen, energy depends only on n, so all 2p orbitals (l=1, mₗ = -1, 0, +1) have the same energy (degenerate). Their different mₗ values correspond to different orientations of the angular wavefunction in space: the lobes align along x, y, z axes. The mₗ quantum number specifies the orientation of the orbital's angular momentum projection. A wrong answer (e.g., \"they have different energies\" or \"mₗ determines shape\") shows misunderstanding of degeneracy in one-electron systems and confusion between mₗ (orientation) and l (shape).",
+     "self_check": true
+    },
+    {
+     "q": "A 3d orbital has n=3, l=2. Calculate its total number of nodes, radial nodes, and angular nodes. Sketch the boundary surface of the dxy orbital, indicating its nodal planes.",
+     "a": "Total nodes = n-1 = 2; angular nodes = l = 2; radial nodes = n-l-1 = 0. The dxy orbital has four lobes in the xy-plane between the axes, with nodal planes along the xz and yz planes (i.e., the x and y axes themselves). A wrong calculation (e.g., radial nodes = 1) indicates misapplication of the node formulas. An incorrect sketch (e.g., lobes on axes) confuses dxy with dx²-y².",
+     "self_check": true
+    },
+    {
+     "q": "Compare the radial probability density (|ψ|²) plots of 2s and 2p orbitals. Why does the 2s electron have a higher probability of being found close to the nucleus than the 2p electron, and how does this affect shielding?",
+     "a": "The 2s radial probability density has a significant peak near the nucleus (penetration) because its wavefunction has non-zero amplitude at r=0, while the 2p wavefunction has a nodal plane at the nucleus (ψ=0 at r=0). This penetration makes the 2s electron experience less shielding and a higher effective nuclear charge (Zeff), lowering its energy relative to 2p in multi-electron atoms. A wrong answer (e.g., \"2p penetrates more\" or \"both have same penetration\") reveals confusion about radial nodes at the nucleus and the physical meaning of |ψ|² at r=0.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The dz² orbital has a different shape from the other four d-orbitals, so it must have a different energy in an isolated atom.\" Is this true or false? Justify.",
+     "a": "False. In an isolated atom, all five d-orbitals (dxy, dyz, dzx, dx²-y², dz²) are degenerate — they have the same energy because the Hamiltonian is spherically symmetric. The dz² orbital's unique shape (two lobes on z-axis + a torus in xy-plane) is just a linear combination of the mₗ = ±2 states that makes it real; it does not imply energy difference. A student who says \"true\" confuses free-atom degeneracy with crystal field splitting (where dz² and dx²-y² become eg set).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment or visualization using a 3D plotting tool (e.g., Python with Mayavi, or a physical model with balloons) to demonstrate the difference between radial and angular nodes in a 3pz orbital. What would you show?",
+     "a": "A good answer: Plot |ψ|² for 3pz in 3D. Show a spherical radial node (a spherical shell where probability drops to zero) and a planar angular node (the xy-plane). Alternatively, use two nested balloons: the inner balloon represents the region inside the radial node, the outer balloon outside; a cardboard disk through the center represents the angular node. A poor answer (e.g., \"draw a circle\") fails to distinguish the two node types or show 3D structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

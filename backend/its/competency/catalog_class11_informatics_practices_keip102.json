@@ -1,0 +1,418 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 2,
+ "chapter_title": "Emerging Trends",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip102.1",
+   "title": "Machine Learning Model Accuracy",
+   "section": "2.2.1",
+   "definition": "Machine learning is the branch of AI where a computer tunes its own model from examples rather than following hand-written rules. The model is first fitted on training data and then judged on separate testing data; its accuracy is the share of test cases it gets right, expressed as a percentage.",
+   "formula": "accuracy_percent = correct_predictions / total_test_cases * 100",
+   "key_idea": "Train on one batch, judge on another; accuracy is simply right answers divided by total test answers times 100.",
+   "textbook_ref": "keip102.txt section 2.2.1 Machine Learning (lines 65-82)",
+   "question_patterns": [
+    "a trained model answered 186 of 200 test cases correctly; find its accuracy percentage",
+    "how is a machine learning model trained and tested before deployment",
+    "calculate the accuracy of a spam filter that classified 45 emails correctly out of 50",
+    "what distinguishes machine learning from traditional programming",
+    "a prediction model scored 92 percent accuracy on 100 test cases; how many were correct",
+    "state the role of training data in building a machine learning model"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the fraction of correct answers",
+     "explain": "divide the number of correct predictions by the number of test cases",
+     "compute": "correct_ratio = correct_predictions / total_test_cases"
+    },
+    {
+     "step": 2,
+     "action": "convert the fraction to a percentage",
+     "explain": "multiply the ratio by 100 to report accuracy as a percentage",
+     "compute": "accuracy_percent = correct_ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A model gets 72 of 80 test cases right. What is its accuracy in percent?",
+     "a": "90 percent"
+    }
+   ]
+  },
+  {
+   "id": "keip102.2",
+   "title": "Big Data Characteristics: the Five V",
+   "section": "2.3.1",
+   "definition": "Data sets too large or messy for ordinary DBMS tools are called big data. Five traits set such data apart: sheer size (Volume), the speed at which it arrives (Velocity), the mix of structured and unstructured forms (Variety), how trustworthy the readings are (Veracity), and the useful knowledge hidden inside that justifies processing cost (Value).",
+   "formula": "big_data_traits = volume + velocity + variety + veracity + value",
+   "key_idea": "Remember the five V labels and what each guards against: size, speed, mixture, reliability, and worth.",
+   "textbook_ref": "keip102.txt section 2.3.1 (lines 303-346)",
+   "question_patterns": [
+    "list the five characteristics of big data and explain each in one line",
+    "which characteristic of big data refers to the trustworthiness of the data",
+    "name the characteristic of big data that describes the rate of generation of data",
+    "structured, semi-structured and unstructured data together show which V of big data",
+    "why is value considered a characteristic of big data",
+    "write a short note on big data and its characteristics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match each V to its meaning",
+     "explain": "volume = size, velocity = arrival rate, variety = mixed forms, veracity = trustworthiness, value = useful insight"
+    },
+    {
+     "step": 2,
+     "action": "attach a real example to each trait",
+     "explain": "tweets arriving every second show velocity; their mixed text, images and links show variety"
+    },
+    {
+     "step": 3,
+     "action": "state why ordinary tools fail",
+     "explain": "traditional DBMS software cannot cope with data this large, fast and unstructured"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which V of big data names the sheer size of the data?",
+     "a": "Volume"
+    }
+   ]
+  },
+  {
+   "id": "keip102.3",
+   "title": "Big Data Volume Growth Arithmetic",
+   "section": "2.3",
+   "definition": "Web traffic, smartphone posts and sensor feeds together create data on a colossal scale, roughly 2.5 quintillion bytes every day. Converting such a flow into hourly or yearly totals is straightforward division and multiplication on the byte count.",
+   "formula": "yearly_bytes = daily_bytes * days_in_year",
+   "key_idea": "A per-day rate turns into any other period by dividing or multiplying by the number of hours or days in that period.",
+   "textbook_ref": "keip102.txt section 2.3 Big Data intro (lines 245-261)",
+   "question_patterns": [
+    "about 2.5 quintillion bytes of data are created each day; estimate the yearly total in bytes",
+    "find how many bytes of data are generated per hour given a daily creation rate",
+    "a sensor network produces 12 terabytes daily; compute its output for a 30-day month",
+    "why is the pace of data generation increasing according to the chapter",
+    "a video platform uploads 900 hours of footage per day; how many hours in a non-leap year",
+    "express one quintillion as a power of ten and as numerals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "reduce the daily rate to an hourly rate",
+     "explain": "split the day's bytes evenly across 24 hours",
+     "compute": "bytes_per_hour = daily_bytes // 24"
+    },
+    {
+     "step": 2,
+     "action": "scale the daily rate up to a year",
+     "explain": "multiply the daily bytes by the number of days in a non-leap year",
+     "compute": "yearly_bytes = daily_bytes * days_in_year"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A sensor feed creates 3 gigabytes per hour. How many gigabytes does it create in 24 hours?",
+     "a": "72"
+    }
+   ]
+  },
+  {
+   "id": "keip102.4",
+   "title": "Cloud Service Models IaaS PaaS SaaS",
+   "section": "2.5.1",
+   "definition": "Cloud providers deliver three standard service levels: IaaS rents raw computing hardware such as virtual machines and storage, PaaS hands developers a ready-made build-and-run platform with the needed software pre-installed, and SaaS gives end users on-demand access to finished applications on subscription.",
+   "formula": "service_stack_layers = iaas_bottom + paas_middle + saas_top",
+   "key_idea": "The lower the model in the stack, the more the user configures; the higher, the more is managed by the provider.",
+   "textbook_ref": "keip102.txt section 2.5.1 Cloud Services (lines 546-618)",
+   "question_patterns": [
+    "differentiate between IaaS, PaaS and SaaS with one example of each",
+    "a company wants virtual server provisioning and on-demand storage to deploy custom applications; which cloud model fits",
+    "which cloud service model would you choose to edit documents online and why",
+    "a developer wants a pre-configured Apache server with MySQL and Python ready; name the suitable model",
+    "name the government of India cloud initiative and its purpose",
+    "how does pay-per-use charging work in cloud computing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place each model on the stack",
+     "explain": "IaaS supplies machines, PaaS supplies a ready platform on those machines, SaaS supplies finished applications"
+    },
+    {
+     "step": 2,
+     "action": "ask what the user still manages",
+     "explain": "IaaS users configure the setup, PaaS users control only their deployed application, SaaS users just use the software"
+    },
+    {
+     "step": 3,
+     "action": "attach a everyday example",
+     "explain": "rented virtual machines = IaaS; a pre-built Python web host = PaaS; online office suites = SaaS"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which cloud model rents raw virtual machines and storage?",
+     "a": "IaaS"
+    }
+   ]
+  },
+  {
+   "id": "keip102.5",
+   "title": "Pay Per Use Cloud Billing",
+   "section": "2.5",
+   "definition": "Cloud resources are charged like electricity: the customer pays only for what was consumed. A typical bill adds a usage charge for computing time to a separate charge for stored data, each computed at its own rate.",
+   "formula": "total_bill = compute_hours * rate_per_hour + storage_gb * storage_rate",
+   "key_idea": "Bill each consumed resource at its own rate, then add the parts; no upfront investment is needed.",
+   "textbook_ref": "keip102.txt section 2.5 Cloud Computing (lines 517-545)",
+   "question_patterns": [
+    "a startup ran 40 compute hours at 8 per hour and stored 250 GB at 2 per GB; find the cloud bill",
+    "justify that storage of data is cost effective in cloud computing for a small business",
+    "compute the monthly charge for 30 hours of virtual machine usage at 10 per hour plus 100 GB storage at 3 per GB",
+    "why is on-demand service economical for a five-friend startup with a limited budget",
+    "a user doubles both compute hours and storage; what happens to the bill if rates stay fixed",
+    "compare upfront server purchase cost with pay-per-use charging for a short project"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "price the computing time used",
+     "explain": "multiply the hours of usage by the per-hour rate",
+     "compute": "compute_cost = compute_hours * rate_per_hour"
+    },
+    {
+     "step": 2,
+     "action": "price the stored data",
+     "explain": "multiply the gigabytes kept in cloud storage by the per-GB rate",
+     "compute": "storage_cost = storage_gb * storage_rate"
+    },
+    {
+     "step": 3,
+     "action": "add the two charges",
+     "explain": "the payable bill is the sum of both usage charges",
+     "compute": "total_bill = compute_cost + storage_cost"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A cloud bill charges Rs 4 per compute-hour for 100 hours plus Rs 2 per GB for 50 GB stored. What is the total in rupees?",
+     "a": "500"
+    }
+   ]
+  },
+  {
+   "id": "keip102.6",
+   "title": "Grid Computing Parallel Task Split",
+   "section": "2.6",
+   "definition": "A grid joins geographically scattered computers, called nodes, into a kind of virtual supercomputer. A large job is divided into subtasks that run in parallel on the nodes at the same time, so the waiting time shrinks roughly in proportion to how many nodes share the work.",
+   "formula": "wall_minutes = units_per_node * minutes_per_unit",
+   "key_idea": "Splitting one job across n parallel nodes makes each node do a fraction of the units, cutting total waiting time.",
+   "textbook_ref": "keip102.txt section 2.6 Grid Computing (lines 619-675)",
+   "question_patterns": [
+    "a job of 9000 units is split evenly over 6 grid nodes, each unit taking 2 minutes; how long does the run take",
+    "differentiate between cloud computing and grid computing with suitable examples",
+    "what are nodes in a grid and what role do they play",
+    "state the difference between a data grid and a processor grid",
+    "why is middleware needed to set up a grid",
+    "compute the per-node load when 12000 subtask units are shared by 8 nodes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the job across the nodes",
+     "explain": "integer-divide the total units by the number of grid nodes to get each node's share",
+     "compute": "units_per_node = total_units // grid_nodes"
+    },
+    {
+     "step": 2,
+     "action": "convert a node's share into time",
+     "explain": "multiply the per-node units by the minutes each unit takes; nodes run in parallel so this is the whole job's time",
+     "compute": "wall_minutes = units_per_node * minutes_per_unit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A grid of 5 nodes splits 200 equal units evenly. How many units does each node process?",
+     "a": "40"
+    }
+   ]
+  },
+  {
+   "id": "keip102.7",
+   "title": "Blockchain Append Only Ledger",
+   "section": "2.7",
+   "definition": "A blockchain keeps a shared ledger on every participating computer instead of one central database. Valid transactions are sealed into blocks, each block carries a header visible to all nodes while private data stays with its owner, and a new block joins the chain only after every node authenticates it, which makes the record practically impossible to alter secretly.",
+   "formula": "ledger_copy_count = node_count",
+   "key_idea": "Every node holds the full chain, so a change must fool all copies at once; entries are added but never silently edited.",
+   "textbook_ref": "keip102.txt section 2.7 Blockchains (lines 676-754)",
+   "question_patterns": [
+    "explain how blockchain technology keeps a transaction ledger secure",
+    "what is a block header in a blockchain and who can see it",
+    "why can no single member of a blockchain network alter stored data",
+    "prepare two situations, such as scholarship distribution, where blockchain promotes transparency",
+    "how does a decentralised database differ from a centralised one used by banks",
+    "what must happen before a new block is added to the chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check who holds the record",
+     "explain": "each participating node keeps a full copy of the ledger rather than one central owner"
+    },
+    {
+     "step": 2,
+     "action": "check how an entry is accepted",
+     "explain": "all nodes must authenticate the transaction before its block joins the chain"
+    },
+    {
+     "step": 3,
+     "action": "test a tampering attempt",
+     "explain": "a single altered copy disagrees with every other copy, so the tamper is exposed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In a blockchain of 20 nodes, how many copies of the ledger exist?",
+     "a": "20"
+    }
+   ]
+  },
+  {
+   "id": "keip102.8",
+   "title": "Internet of Things and Web of Things",
+   "section": "2.4",
+   "definition": "The Internet of Things links everyday objects fitted with embedded hardware and software so they can exchange data over a network, letting users control appliances remotely. The Web of Things goes one step further by using standard web services as the single interface, avoiding the need for one separate app per device. Sensors such as the accelerometer and gyroscope in a phone feed these systems with real-world input.",
+   "formula": "connected_things = devices_on_network",
+   "key_idea": "IoT connects objects to each other; WoT reuses the web itself as the one interface for all of them.",
+   "textbook_ref": "keip102.txt sections 2.4-2.4.3 (lines 361-516)",
+   "question_patterns": [
+    "what do you understand by the Internet of Things? list two potential applications",
+    "how are IoT and WoT related",
+    "why would controlling n devices otherwise need n different apps",
+    "name the two phone sensors that detect orientation and rotation",
+    "how can IoT concepts turn a school into a smart school? give two examples",
+    "match each situation to the smart application it illustrates: medication reminder, parking alert"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check what is being connected",
+     "explain": "IoT connects physical objects with embedded controllers; a plain computer network connects computers"
+    },
+    {
+     "step": 2,
+     "action": "check which interface is used",
+     "explain": "IoT apps talk per device, while WoT reuses standard web services so one interface reaches every thing"
+    },
+    {
+     "step": 3,
+     "action": "identify the sensing layer",
+     "explain": "smart sensors pick up physical inputs, like an accelerometer reading the phone's tilt, and pass processed data on"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which extension of IoT reuses standard web services as the single interface for all devices?",
+     "a": "Web of Things"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip102.txt section 2.2.1 model testing idea",
+   "concept": "keip102.1",
+   "question_type": "numeric",
+   "question_pattern": "A machine learning model built to detect spam was tested on 200 emails and answered 186 of them correctly. Find its accuracy percentage.",
+   "extracted_variables": {
+    "correct_predictions": 186,
+    "total_test_cases": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the correctness fraction",
+     "explain": "186 / 200 = 0.93",
+     "compute": "correct_ratio = correct_predictions / total_test_cases"
+    },
+    {
+     "step": 2,
+     "action": "express as percentage",
+     "explain": "0.93 * 100 = 93 percent accuracy",
+     "compute": "accuracy_percent = correct_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip102.txt section 2.5 pay-per-use idea",
+   "concept": "keip102.5",
+   "question_type": "numeric",
+   "question_pattern": "A startup used 40 compute hours at 8 per hour and kept 250 GB of data in cloud storage at 2 per GB. Compute the total bill.",
+   "extracted_variables": {
+    "compute_hours": 40,
+    "rate_per_hour": 8,
+    "storage_gb": 250,
+    "storage_rate": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "price the compute hours",
+     "explain": "40 * 8 = 320",
+     "compute": "compute_cost = compute_hours * rate_per_hour"
+    },
+    {
+     "step": 2,
+     "action": "price the storage",
+     "explain": "250 * 2 = 500",
+     "compute": "storage_cost = storage_gb * storage_rate"
+    },
+    {
+     "step": 3,
+     "action": "add both charges",
+     "explain": "320 + 500 = 820 payable",
+     "compute": "total_bill = compute_cost + storage_cost"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip102.txt Exercise Q4, Q5, Q9, Q10",
+   "questions": [
+    "Explain artificial intelligence and machine learning along with one application of each. (AI imitates human intelligence; ML learns patterns from data)",
+    "Differentiate between cloud computing and grid computing with suitable examples. (cloud rents services from a provider; grid pools scattered nodes for one common job)",
+    "A company needs virtual server provisioning and on-demand storage to run custom applications. Which cloud model fits? (answer: IaaS)",
+    "Which of these is not a feature of IoT devices: remotely controllable, programmable, can turn themselves off, all of the above? (answer: all of the above are features, so none is excluded; the book's key: d)",
+    "A model answered 45 of 50 test inputs correctly. Find its accuracy. (90 percent)",
+    "A job of 12000 units is split evenly across 8 grid nodes, each unit needing 2 minutes. How long does the job take? (3000 minutes)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip102.txt Exercise Q2, Q11, Q14, Q15 (IoT and WoT)",
+   "questions": [
+    "Suggest how e-textbooks, smart boards and wifi sensors on classroom doors could make an IoT-enabled smart school.",
+    "Name the two sensors inside a phone that work together to detect orientation and rotation. (accelerometer and gyroscope)",
+    "Which V of big data is about noisy, biased or inconsistent readings? (veracity)",
+    "Roughly how many bytes of data are created each day worldwide, as stated in the chapter? (about 2.5 quintillion)",
+    "Match: medication reminder, forgotten-door-lock alert, parking space alert, TV controlled from a watch, to smart health, home automation, smart parking and smart wearable.",
+    "What is an augmented reality app that shows information when the camera points at a monument called? (location-based AR app)"
+   ]
+  }
+ ]
+}

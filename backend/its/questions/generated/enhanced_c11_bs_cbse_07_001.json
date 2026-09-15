@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_001",
+   "title": "c11_bs_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define \"promotion of a company\" as per the Companies Act, 2013 framework. State the exact stage it occupies in the formation process.",
+     "a": "Promotion is the first stage of company formation involving conceiving a business opportunity, conducting feasibility studies (technical, financial, economic), assembling resources, and completing pre-registration formalities (name approval, MoA signatories, professional appointments, document preparation) to incorporate a company. A wrong answer—such as \"promotion means advertising the company\" or \"promotion starts after incorporation\"—reveals confusion between business marketing and legal formation stages, or misunderstanding that promotion precedes legal existence.",
+     "self_check": true
+    },
+    {
+     "q": "Avtar has a brilliant carburettor design but skips the feasibility study and directly applies for name approval. His application is rejected because the required rare-earth metal is unavailable in India and import is banned. Which promotion step did he violate, and why is that step legally critical before name approval?",
+     "a": "Avtar violated Step 2: Feasibility Studies (technical feasibility). The NCERT explicitly states promoters must undertake detailed feasibility studies—technical, financial, economic—with help of specialists before deciding to launch a company. Name approval (Step 3) comes only after \"having decided to incorporate a company,\" which presumes positive feasibility results. A wrong answer suggesting name approval comes first or that feasibility is optional reveals the misconception that promotion is merely paperwork rather than a substantive investigation phase.",
+     "self_check": true
+    },
+    {
+     "q": "A Chartered Accountant, Ms. Rao, helps Avtar prepare financial projections, draft the MoA, and file incorporation documents. She charges professional fees. Is Ms. Rao a promoter under Section 69 of the Companies Act, 2013? Justify using the exact statutory exclusion.",
+     "a": "No, Ms. Rao is not a promoter. Section 69(c) explicitly excludes \"a person who is acting merely in a professional capacity\" from the definition of promoter. The CA assists in preparation of documents and feasibility studies but does not conceive the business idea, control the company's affairs, or direct the Board. A wrong answer claiming she is a promoter because she \"helps form the company\" reveals failure to apply the statutory professional-capacity exclusion—a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal position of a promoter with that of a director and an entrepreneur using three distinct criteria: (a) existence of company, (b) fiduciary duty, (c) personal liability for pre-incorporation contracts.",
+     "a": "| Criterion | Promoter | Director | Entrepreneur |\n|-----------|----------|----------|--------------|\n| (a) Company exists? | No (pre-incorporation) | Yes (post-incorporation) | May or may not |\n| (b) Fiduciary duty? | Yes, to proposed company | Yes, to existing company | No statutory duty |\n| (c) Liability for pre-incorporation contracts? | Personally liable unless ratified | Not applicable (company exists) | Personally liable if sole proprietor |\n\nA wrong answer equating promoter with director (e.g., \"promoter becomes director automatically\") reveals confusion between promotion phase and post-incorporation governance. The promoter's fiduciary duty arises before the company exists—a unique legal position.",
+     "self_check": true
+    },
+    {
+     "q": "Avtar signs a contract with SteelCo for 10 tonnes of special alloy at ₹2 crore during promotion. The company is incorporated six months later. The Board refuses to ratify the contract. SteelCo sues the company. Who is liable, and why? Evaluate the company's defence that \"the contract was signed before incorporation.\"",
+     "a": "Avtar (promoter) is personally liable; the company is not liable. Preliminary contracts (pre-incorporation contracts) are not binding on the company—even after incorporation—because the company lacked legal personality at the time of contracting. The company cannot ratify a preliminary contract; it can only enter a fresh contract. The company's defence succeeds: the contract is void ab initio against the company. A wrong answer holding the company liable reveals misunderstanding that incorporation validates prior acts—the certificate of incorporation is conclusive evidence of legal birth from its date, not retroactive validation of promoter's acts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-step promotion plan for a startup proposing to manufacture biodegradable packaging from agricultural waste in Punjab. For each step, specify: (i) the action, (ii) the legal requirement from Companies Act, 2013, (iii) the professional needed, and (iv) the risk if skipped.",
+     "a": "A strong answer will map all six NCERT steps to the specific context:\n1. Opportunity identification → waste availability study → agricultural expert → risk: raw material shortage\n2. Feasibility studies (technical: pulping tech; financial: ₹30 cr capex; economic: margin vs plastic) → engineers, CAs → risk: unviable project\n3. Name approval (INC-1, 3 names) → ROC Punjab → CS → risk: rejection, delay\n4. Fix MoA signatories (min 7 for public, 2 for private) → first directors, qualification shares → CA/CS → risk: invalid MoA\n5. Appoint professionals (merchant banker, auditor, CS) → statutory compliance → risk: defective filings\n6. Prepare documents (MoA, AoA, consent, declaration, fee) → Schedule I tables, Section 7 → CS/advocate → risk: registration refusal\nA poor answer listing generic steps without legal specifics or context reveals inability to apply the framework to a novel scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

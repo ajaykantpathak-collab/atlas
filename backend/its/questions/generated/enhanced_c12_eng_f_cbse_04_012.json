@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_04_012",
+   "title": "c12_eng_f_cbse_04_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What did the crofter show the peddler to prove he had received thirty kronor?\"",
+     "a": "This is a **literal comprehension question**. The answer is directly stated in the text: \"the old man got up and went to the window, took down a leather pouch which hung on a nail in the very window frame, and picked out three wrinkled ten-kronor bills.\" A wrong answer (e.g., \"he showed his bank passbook\" or \"he told him about his cow's milk sales\") reveals the student cannot locate explicit textual details or confuses inference with direct statement.",
+     "self_check": true
+    },
+    {
+     "q": "Identify whether the following question is literal or inferential: \"Why did the peddler decline the ironmaster's invitation to go to the manor house?\"",
+     "a": "This is an **inferential comprehension question**. The text states the peddler said \"No, I couldn't think of it!\" and \"looked quite alarmed,\" but the *reason* (\"He thought of the thirty kronor. To go up to the manor house would be like throwing himself voluntarily into the lion's den\") requires inferring his internal motivation from his actions and the context of his theft. A wrong answer (e.g., \"because he was tired\" or \"because he didn't like the ironmaster\") reveals the student cannot distinguish between stated actions and implied motives, or fails to connect the theft to his fear of exposure.",
+     "self_check": true
+    },
+    {
+     "q": "Read this excerpt: \"The stranger had stretched himself out on the floor and lay with a piece of pig iron under his head and his hat pulled down over his eyes. As soon as the young girl caught sight of him, she went up and lifted his hat. The man was evidently used to sleeping with one eye open. He jumped up abruptly and seemed to be quite frightened.\" Answer the literal question: What did Edla do when she first saw the peddler in the forge?",
+     "a": "**Literal answer**: Edla went up to the peddler and lifted his hat. This is explicitly stated in the text: \"As soon as the young girl caught sight of him, she went up and lifted his hat.\" A wrong answer (e.g., \"she woke him up gently\" or \"she offered him a fur coat\") reveals the student either misreads the sequence of events or imports later actions (the fur coat comes after) into the initial moment. Literal questions demand exact textual correspondence — no paraphrasing that alters factual details.",
+     "self_check": true
+    },
+    {
+     "q": "Using the same excerpt, answer the inferential question: Why did the peddler jump up \"abruptly\" and seem \"quite frightened\" when Edla lifted his hat?",
+     "a": "**Inferential answer**: The peddler reacted with fear because he was a wanted thief (he had stolen the crofter's thirty kronor) and was sleeping in a vulnerable position; the sudden approach of a stranger triggered his instinct for self-preservation and fear of discovery. The text supports this with: \"The man was evidently used to sleeping with one eye open\" (hypervigilance from his vagabond life) and later Edla's own thought: \"Either he has stolen something or else he has escaped from jail.\" A wrong answer (e.g., \"he was surprised by her beauty\" or \"he had a nightmare\") reveals the student fails to synthesize textual clues (theft, vagabond life, Edla's observation) into a coherent character motivation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student response to the inferential question \"Why did Edla intercede for the peddler when her father wanted him to leave?\" — *Student writes: \"Edla interceded because she is a kind person who likes helping poor people.\"* Is this a sufficient board-level answer? Justify your evaluation.",
+     "a": "**No, this is insufficient for board exams.** While kindness is a factor, the answer lacks textual evidence and ignores the specific reasoning Edla articulates: \"He walks and walks the whole year long... not a single place... where he is welcome... I should like to have him enjoy a day of peace with us here — just one in the whole year.\" A board-level answer must: (1) quote or paraphrase Edla's exact words, (2) connect to the theme of human loneliness/bonding, and (3) contrast her empathy with her father's pragmatic view. The student's generic \"kind person\" claim is a **character trait assertion without textual proof** — a common error that loses 1-2 marks in CBSE marking schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the peddler's letter at the end of the story that requires the responder to connect the rattrap metaphor to the peddler's transformation. Provide the ideal answer structure.",
+     "a": "**Question**: \"How does the peddler's letter to Edla demonstrate that he has internalized the rattrap metaphor to redeem himself?\"  \n**Ideal answer structure (PEEL)**:  \n**Point**: The letter shows the peddler consciously uses the rattrap metaphor to frame his redemption.  \n**Evidence**: He writes, \"The rattrap is a Christmas present from a rat who would have been caught in this world's rattrap if he had not been raised to captain.\"  \n**Explanation**: He identifies as the \"rat\" (thief) caught by the world's bait (money), but Edla's kindness (\"raised to captain\") gave him the agency (\"power to clear himself\") to return the money and escape the trap.  \n**Link**: This completes the story's arc — the metaphor moves from cynical worldview to a framework for moral choice.  \nA poor answer would merely summarize the letter without analyzing the metaphor's evolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

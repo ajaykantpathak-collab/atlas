@@ -1,0 +1,427 @@
+{
+ "catalog": "catalog_class7_maths_ch6_triangle_properties.json",
+ "concepts": [
+  {
+   "id": "c7m6.1.1",
+   "title": "Elements of a Triangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 73 gives 17",
+     "compute": "other = 90 - 73"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 73 degrees, find the other.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 28 degrees, find the other.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 40 degrees; find the other.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 30 degrees and 228 degrees, find the remaining angle.",
+     "a": "102",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 33 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 127 degrees. Find its co-interior partner.",
+     "a": "53",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.2.1",
+   "title": "Medians of a Triangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 9 - -3 gives 12",
+     "compute": "dx = 9 - -3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 15 - -1 gives 16",
+     "compute": "dy = 15 - -1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-3, -1) and (9, 15).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-8, 4) from the origin.",
+     "a": "8.94",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (8, 8) and (2, -7).",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 4 : 1. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-3, -2), (1, 2) and (6, 0) (two decimal places).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (5, 4), (-4, 5) and (0, -2).",
+     "a": "0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.3.1",
+   "title": "Altitudes of a Triangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the quadrilateral area formula",
+     "explain": "apply the quadrilateral area formula: area = 18 * 22 gives 396",
+     "compute": "area = 18 * 22"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 18 cm and height 22 cm.",
+     "a": "396",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 14 cm and 14 cm. Find its area.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 18 cm and 33 cm and the distance between them is 14 cm. Find the area.",
+     "a": "357",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 38 cm and the perpendiculars on it from opposite vertices are 4 cm and 10 cm. Find the area.",
+     "a": "266",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 15 cm and height 8 cm. Find the parallelogram's height if its base is 20 cm.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 10 m and height 8 m. Find its area.",
+     "a": "80",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.4.1",
+   "title": "Exterior Angle Property",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 39 degrees, find the other.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 32 degrees, find the other.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 80 degrees; find the other.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 92 degrees and 187 degrees, find the remaining angle.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 20 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 106 degrees. Find its co-interior partner.",
+     "a": "74",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.5.1",
+   "title": "Angle Sum Property",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
+     "a": "67",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 147 degrees, find the other.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 17 degrees; find the other.",
+     "a": "163",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 112 degrees and 124 degrees, find the remaining angle.",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 59 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 87 degrees. Find its co-interior partner.",
+     "a": "93",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.6.1",
+   "title": "Equilateral Triangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 60 gives 30",
+     "compute": "other = 90 - 60"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 60 degrees, find the other.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 165 degrees, find the other.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 67 degrees; find the other.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 114 degrees and 138 degrees, find the remaining angle.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 20 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 77 degrees. Find its co-interior partner.",
+     "a": "103",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.6.2",
+   "title": "Isosceles Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 163 degrees, find the other.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 79 degrees; find the other.",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 127 degrees and 209 degrees, find the remaining angle.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 59 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 138 degrees. Find its co-interior partner.",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.7.1",
+   "title": "Sum of Two Sides of Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 51 degrees, find the other.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 86 degrees, find the other.",
+     "a": "94",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 51 degrees; find the other.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 41 degrees and 255 degrees, find the remaining angle.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 39 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "141",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 44 degrees. Find its co-interior partner.",
+     "a": "136",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.8.1",
+   "title": "Pythagoras Theorem",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 11 cm and 9 cm. Find its perimeter.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 36 cm, what is the length of each half of it?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 20 cm and 6 cm (two decimal places).",
+     "a": "10.44",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 12 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "16.97",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "240",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m6.8.2",
+   "title": "Converse of Pythagoras",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 35 gives 55",
+     "compute": "other = 90 - 35"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 35 degrees, find the other.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 52 degrees, find the other.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 63 degrees; find the other.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 83 degrees and 256 degrees, find the remaining angle.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 73 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 117 degrees. Find its co-interior partner.",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

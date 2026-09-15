@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_03_010",
+   "title": "c12_hin_ar_cbse_03_010",
+   "questions": [
+    {
+     "q": "What is the primary difference between a word's *dictionary meaning* (vk'kq fyfi vFkZ) and its *contextual meaning* (lfgr vFkZ) in a poem?",
+     "a": "**Correct Answer:** Dictionary meaning is fixed, universal, and decontextualized. Contextual meaning is dynamic, shaped by the poem's imagery, tone, syntax, and theme — it can carry irony, symbolism, or emotional weight absent in the dictionary.  \n**Why wrong answers reveal misunderstanding:** If a student says \"they are the same\" or \"contextual meaning is just a synonym,\" they are treating poetry as information transfer rather than an aesthetic experience where *how* a word is used *is* the meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In \"dfork ds cgkus,\" the poet calls poetry a **\"mM+ku\"** (cradle) and a **\"f[kyuk\"** (swing). A student writes: \"Both mean a place where a baby sleeps/plays, so they are just synonyms for 'poetry is for children.'\" Why is this answer incomplete for a Class 12 board exam?",
+     "a": "**Correct Answer:** The answer misses the *functional contrast*: a *mM+ku* (cradle) implies **protection, stillness, origin, and care** (fpfM+;k), while a *f[kyuk* (swing) implies **motion, freedom, joy, and risk** (iwQy). The poet uses both to show poetry nurtures the *infant* mind *and* liberates the *growing* mind.  \n**Why wrong answers reveal misunderstanding:** Treating them as synonyms ignores the poem's structural progression from infancy (fpfM+;k) to childhood (iwQy) to adulthood (cPPk) — a core thematic arc. Board exams require explaining *why two specific images* are used, not just *that* they are used.",
+     "self_check": true
+    },
+    {
+     "q": "**Apply:** In \"ckr lh/h Fkh ij,\" the line **\"ckr dh pwM+h ej xbZ / vkSj og Hkk\"kk esa csdkj ?kweus yxh\"** uses **\"pwM+h\"** (fat/heavy) and **\"?kweus\"** (burden/weight) to describe a *word* (ckr). Using the *contextual vocabulary method*, explain how these two weight-metaphors function differently in the same stanza.",
+     "a": "**Correct Answer with Steps:**  \n1. **Identify literal meanings:** *pwM+h* = thick, heavy, substantial; *?kweus* = load, burden, oppressive weight.  \n2. **Locate in syntax:** *pwM+h ej* modifies *ckr* (the word *became* heavy) — a *transformation*. *?kweus yxh* modifies *Hkk\"kk* (language *bore* the burden) — a *consequence*.  \n3. **Analyze agency:** The *word* actively *gains* weight (ej xbZ) — suggesting it absorbed emotion/ego. *Language* passively *receives* the burden (yxh) — suggesting structural collapse.  \n4. **Connect to theme:** The word's \"fatness\" = inflated ego/misunderstanding; language's \"burden\" = breakdown of communication.  \n**Why wrong answers reveal misunderstanding:** Students often say \"both mean heavy.\" They miss the *causal chain*: the word's swelling *causes* language's fracture. This multi-step causal reasoning is exactly what JEE/NEET-style language questions test.",
+     "self_check": true
+    },
+    {
+     "q": "**Analyze:** Compare the word **\"cPps\"** (children) in \"dfork ds cgkus\" (*dfork ,d [ksy gS cPpksa osQ cgkus*) with **\"cPPk\"** (child) in \"ckr lh/h Fkh ij\" (*ckr us] tks ,d 'kjkjrh cPPks dh rjg / eq>ls [ksy jgh Fkh*). How does the *grammatical number* (plural vs. singular) and *grammatical case* (direct vs. oblique) shift the poetic focus?",
+     "a": "**Correct Answer:**  \n- *cPps* (plural, direct case) in Poem 1 = **universal category** — poetry belongs to *all* children as a collective birthright; the plural makes it a *shared public space* ([ksy).  \n- *cPPk* (singular, oblique case *cPPks dh rjg*) in Poem 2 = **specific simile** — the *word* behaves like *one* mischievous child; the oblique case (*dh rjg*) marks it as a *comparison vehicle*, not the subject.  \n**Why wrong answers reveal misunderstanding:** Students often translate both as \"children/bachche\" and miss that grammar *is* meaning here. The plural direct case asserts *inclusivity*; the singular oblique case creates *distance* (the word *is not* a child, it *acts like* one). This grammar-vocabulary interface is a classic CBSE competency trap.",
+     "self_check": true
+    },
+    {
+     "q": "**Evaluate:** A critic claims: \"In 'ckr lh/h Fkh ij,' the word **\"isap\"** (mother) is used *only* for its emotional connotation of love; replacing it with 'maa' would not change the poem.\" Defend or refute this using *phonetic, syntactic, and cultural* evidence from the text.",
+     "a": "**Correct Answer (Refute with justification):**  \n1. **Phonetic:** *isap* (i-sap) has two open vowels, soft sibilant — mimics a *lullaby*, matching *dhy* (curd) and *Bksad* (slap) in a sound-pattern of domestic intimacy. *maa* (ma-a) is shorter, sharper — breaks the rhythm.  \n2. **Syntactic:** *isap* appears in **\"isap dks [kksyus osQ ctk\"** (to make the mother listen) — the *infinitive purpose clause* positions the mother as *audience*, not just nurturer. *maa* would collapse this deliberate *communicative act* into mere address.  \n3. **Cultural:** *isap* is *tatsam* (Sanskrit-origin), elevated, literary — fitting a poem *about language* (Hkk\"kk). *maa* is *tadbhav* (vernacular), colloquial — would undermine the poem's meta-linguistic theme.  \n**Why wrong answers reveal misunderstanding:** Accepting the critic's view shows the student thinks vocabulary is *interchangeable* if \"feeling\" is similar. They miss that in poetry, *sound, syntax, and register* are inseparable from meaning — a core NCERT principle.",
+     "self_check": true
+    },
+    {
+     "q": "**Create:** Choose **one** key word from either poem (*mM+ku, f[kyuk, [ksy, ckr, Hkk\"kk, lgwfy;r, isap, dhy, Bksad*). Write a **new 4-line stanza** (in Hindi or English) that uses this word in a *fresh context* but *preserves its core poetic function* from the original poem. Explain your choice in 2 sentences.",
+     "a": "**Expected Answer Criteria:**  \n- The new stanza must show the word doing the *same thematic work*: e.g., if choosing *mM+ku*, the stanza must use it as a *protective origin-space* (not just a baby bed).  \n- The explanation must name the *original function* (e.g., \"In the poem, *mM+ku* shelters the newborn mind\") and the *new function* (\"Here, *mM+ku* shelters a dying language\").  \n**Why poor answers reveal misunderstanding:** If the student uses the word literally (e.g., \"The baby slept in the mM+ku\") or changes its function (e.g., \"*mM+ku* as a prison\"), they have not internalized *contextual meaning* as *transferable poetic logic*. This is the ultimate test of mastery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

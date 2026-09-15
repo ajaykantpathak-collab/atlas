@@ -1,0 +1,604 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Electricity - Circuits and Their Components",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu103.txt",
+ "concepts": [
+  {
+   "id": "c7cu.3.1",
+   "title": "Electric Cell and Battery",
+   "section": "3.1",
+   "definition": "An electric cell is a device that converts chemical energy into electrical energy; a battery is formed by connecting two or more cells in series, with the positive terminal of one cell joined to the negative terminal of the next.",
+   "formula": "",
+   "key_idea": "A cell provides the driving force (voltage) that pushes electric current through a circuit; a battery multiplies this voltage by combining cells.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an electric cell?",
+    "How is a battery different from a single cell?",
+    "What are the positive and negative terminals of a cell?",
+    "How do you connect cells to form a battery?",
+    "What is the function of an electric cell in a circuit?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the terminals of a cell",
+     "explain": "Every cell has a positive terminal (the metal cap) and a negative terminal (the flat metal disc)."
+    },
+    {
+     "step": 2,
+     "action": "Explain how cells combine into a battery",
+     "explain": "When the positive terminal of one cell is connected to the negative terminal of the next, the voltages add up to form a battery."
+    },
+    {
+     "step": 3,
+     "action": "State the energy conversion",
+     "explain": "The cell converts stored chemical energy into electrical energy that drives current through the circuit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A torch uses two cells of 1.5 V each connected in series. What is the total voltage of the battery formed?",
+     "solution": "When cells are connected in series, their voltages add up. Total voltage = 1.5 + 1.5 = 3.0 V.",
+     "answer": "3.0 V"
+    },
+    {
+     "question": "Why does a torch need a battery of two cells instead of one cell?",
+     "solution": "A single 1.5 V cell may not provide enough voltage to light the bulb brightly; two cells in series give 3.0 V, enough to drive sufficient current through the bulb.",
+     "answer": "Two cells in series provide higher voltage (3.0 V) to light the bulb."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an electric cell and state its function.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How is a battery formed from electric cells? Draw a diagram.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Mark the positive and negative terminals of a cell in a circuit diagram.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.2",
+   "title": "Electric Circuit -- Open and Closed",
+   "section": "3.2",
+   "definition": "An electric circuit is a complete path through which electric current can flow; a closed circuit provides an unbroken path for current, while an open circuit has a break that stops the current.",
+   "formula": "",
+   "key_idea": "Current flows only when the circuit is complete (closed); any break in the path makes the circuit open and stops the current.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an electric circuit?",
+    "Differentiate between an open and a closed circuit.",
+    "Why does a bulb not glow in an open circuit?",
+    "Draw a simple electric circuit showing a cell and a bulb.",
+    "What conditions are needed for current to flow in a circuit?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the path is complete",
+     "explain": "Trace the conducting path from the positive terminal of the cell, through the components, back to the negative terminal."
+    },
+    {
+     "step": 2,
+     "action": "Determine open or closed status",
+     "explain": "If there is any break (open switch or broken wire) the circuit is open and no current flows; if the path is unbroken it is closed and current flows."
+    },
+    {
+     "step": 3,
+     "action": "Relate circuit status to bulb glow",
+     "explain": "A bulb glows only in a closed circuit where current can pass through its filament."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A bulb connected to a cell does not glow even though the wires are intact. What could be the reason?",
+     "solution": "The switch in the circuit may be open, making the circuit open and preventing current flow. Closing the switch completes the path and the bulb will glow.",
+     "answer": "The circuit is open (switch open), so no current flows and the bulb does not glow."
+    },
+    {
+     "question": "In a circuit, the switch is closed. Will the bulb glow? Explain.",
+     "solution": "With the switch closed, the circuit becomes a closed loop with no breaks, so current flows from the cell through the bulb filament and the bulb glows.",
+     "answer": "Yes, the bulb glows because the closed circuit allows current to flow."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an electric circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the difference between an open circuit and a closed circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Draw a closed circuit with a cell, a switch and a bulb.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.3",
+   "title": "Components of an Electric Circuit -- Wire, Switch and Bulb",
+   "section": "3.3",
+   "definition": "The main components of a simple electric circuit are conducting wires that carry current, a switch that opens or closes the path, and a bulb that converts electrical energy into light and heat.",
+   "formula": "",
+   "key_idea": "Each component has a specific role: wires conduct, switches control, and bulbs use the electrical energy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the components of an electric circuit?",
+    "What is the function of a switch in a circuit?",
+    "Why are copper wires used in electric circuits?",
+    "How does a bulb work in an electric circuit?",
+    "List the parts needed to make a simple electric circuit."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the conducting wires",
+     "explain": "Wires (usually copper) provide the path for current to travel from the cell to the bulb and back."
+    },
+    {
+     "step": 2,
+     "action": "Identify the switch",
+     "explain": "A switch is a device that can open or close the circuit, allowing us to control the flow of current."
+    },
+    {
+     "step": 3,
+     "action": "Identify the bulb",
+     "explain": "The bulb has a filament that heats up and glows when current passes through it, converting electrical energy into light."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is a switch an important component of an electric circuit?",
+     "solution": "A switch allows us to conveniently open or close the circuit, thereby stopping or starting the flow of current without disconnecting the wires.",
+     "answer": "A switch controls the flow of current by opening or closing the circuit."
+    },
+    {
+     "question": "Why are copper wires preferred over iron wires in electric circuits?",
+     "solution": "Copper is a very good conductor with low resistance, so it allows current to flow easily with minimal energy loss; iron has higher resistance and is not as efficient.",
+     "answer": "Copper is a better conductor with lower resistance than iron."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the three main components of a simple electric circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the function of a switch in a circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is a bulb considered a load in the circuit?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.4",
+   "title": "Conductors and Insulators",
+   "section": "3.4",
+   "definition": "Conductors are materials that allow electric current to pass through them easily (e.g., metals), while insulators are materials that do not allow current to pass through them (e.g., rubber, plastic, wood).",
+   "formula": "",
+   "key_idea": "The ability of a material to conduct electricity determines whether it is used to carry current (conductor) or to protect from current (insulator).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are conductors and insulators?",
+    "Give two examples each of conductors and insulators.",
+    "Why are electric wires covered with plastic?",
+    "How can you test whether a material is a conductor or an insulator?",
+    "Why are handles of electrical tools made of plastic?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the material in a test circuit",
+     "explain": "Insert the material between the open ends of a circuit containing a cell and a bulb."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the bulb glows",
+     "explain": "If the bulb glows, the material allows current to pass and is a conductor; if it does not glow, the material blocks current and is an insulator."
+    },
+    {
+     "step": 3,
+     "action": "Classify the material",
+     "explain": "Metals like copper and aluminium are conductors; non-metals like rubber, plastic and wood are insulators."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student tests a plastic ruler in a circuit with a cell and a bulb. The bulb does not glow. Is the ruler a conductor or an insulator?",
+     "solution": "Since the bulb does not glow, the plastic ruler does not allow current to pass through it, so it is an insulator.",
+     "answer": "The plastic ruler is an insulator."
+    },
+    {
+     "question": "Why are the handles of screwdrivers used by electricians covered with rubber?",
+     "solution": "Rubber is an insulator that prevents electric current from passing through to the electrician's body, protecting them from electric shock.",
+     "answer": "Rubber handles insulate the electrician from electric shock."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define conductor and insulator with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are electric wires covered with plastic or rubber?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe a simple activity to test whether a material is a conductor or an insulator.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.5",
+   "title": "Series and Parallel Circuits",
+   "section": "3.5",
+   "definition": "In a series circuit, components are connected end-to-end so that the same current flows through each component; in a parallel circuit, components are connected across the same two points so that the current divides among the branches.",
+   "formula": "",
+   "key_idea": "Series circuits have a single path for current (one break stops all), while parallel circuits have multiple paths (other branches keep working if one fails).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a series circuit?",
+    "What is a parallel circuit?",
+    "Differentiate between series and parallel circuits.",
+    "Why are household appliances connected in parallel?",
+    "What happens if one bulb in a series circuit fuses?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine how the components are connected",
+     "explain": "If components are connected one after the other in a single loop, it is a series circuit; if each component is connected across the same two points forming separate branches, it is a parallel circuit."
+    },
+    {
+     "step": 2,
+     "action": "Trace the current paths",
+     "explain": "In a series circuit there is only one path for current; in a parallel circuit the current splits into as many paths as there are branches."
+    },
+    {
+     "step": 3,
+     "action": "Analyse the effect of a break",
+     "explain": "In a series circuit, if one component fails the whole circuit stops; in a parallel circuit, the other branches continue to work even if one branch breaks."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a string of decorative bulbs connected in series, one bulb fuses. What happens to the other bulbs?",
+     "solution": "In a series circuit, there is only one path for current. When one bulb fuses, the path is broken and no current flows, so all the other bulbs stop glowing.",
+     "answer": "All the other bulbs stop glowing because the single path is broken."
+    },
+    {
+     "question": "Why are household electric appliances connected in parallel rather than in series?",
+     "solution": "In a parallel connection each appliance gets the full supply voltage and can be switched on or off independently without affecting the others; if one appliance fails, the rest continue to work.",
+     "answer": "Parallel connections allow independent operation and equal voltage for all appliances."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a series and a parallel circuit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What happens when one bulb in a parallel circuit is switched off?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Draw a circuit diagram showing two bulbs in series.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.6",
+   "title": "Heating Effect of Electric Current",
+   "section": "3.6",
+   "definition": "When an electric current passes through a conductor with resistance, the conductor heats up; this is called the heating effect of electric current and is used in appliances like heaters, irons and electric kettles.",
+   "formula": "heat = i * i * r * t",
+   "key_idea": "The amount of heat produced depends on the current, the resistance of the conductor and the time for which current flows.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the heating effect of electric current?",
+    "Name three appliances that work on the heating effect of current.",
+    "Why does a bulb filament get hot when current passes through it?",
+    "On what factors does the heat produced in a conductor depend?",
+    "How does an electric iron work?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the current, resistance and time",
+     "explain": "Note the values of current (I) in amperes, resistance (R) in ohms and time (t) in seconds."
+    },
+    {
+     "step": 2,
+     "action": "Apply the heating formula",
+     "explain": "The heat produced is given by Joule's law: Heat = I squared times R times t."
+    },
+    {
+     "step": 3,
+     "action": "Calculate the heat produced",
+     "explain": "Substitute the given values into the formula and compute the heat in joules."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A current of 2 A flows through a resistor of 5 ohms for 10 seconds. Calculate the heat produced.",
+     "solution": "Heat = I * I * R * t = 2 * 2 * 5 * 10 = 200 J.",
+     "answer": "200 J"
+    },
+    {
+     "question": "Why is the heating element of an electric heater made of an alloy rather than pure copper?",
+     "solution": "Alloys have high resistance and do not oxidise easily at high temperatures, so they produce more heat and last longer than pure copper, which has low resistance.",
+     "answer": "Alloys have high resistance and high melting point, producing more heat without burning out."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the heating effect of electric current? Give two examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the heat produced when a current of 3 A flows through a 4 ohm resistor for 5 s.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why are heating elements made of alloys?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.7",
+   "title": "Magnetic Effect of Electric Current",
+   "section": "3.7",
+   "definition": "When an electric current flows through a wire, it produces a magnetic field around it; this is called the magnetic effect of electric current, discovered by Hans Christian Oersted.",
+   "formula": "",
+   "key_idea": "A current-carrying conductor behaves like a magnet and can deflect a compass needle; the magnetic effect increases when the wire is wound into a coil (solenoid).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the magnetic effect of electric current?",
+    "Who discovered the magnetic effect of electric current?",
+    "How can you show that a current-carrying wire produces a magnetic field?",
+    "What happens to a compass needle placed near a current-carrying wire?",
+    "What is an electromagnet?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up a circuit with a wire and a compass",
+     "explain": "Place a magnetic compass near a straight wire carrying current and observe the compass needle."
+    },
+    {
+     "step": 2,
+     "action": "Switch on the current and observe the deflection",
+     "explain": "When current flows, the compass needle deflects from its north-south direction, showing that the current produces a magnetic field."
+    },
+    {
+     "step": 3,
+     "action": "Explain the formation of an electromagnet",
+     "explain": "When the wire is wound into a coil around an iron core and current is passed, the coil behaves like a strong magnet called an electromagnet."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A compass needle is placed below a current-carrying wire. What happens when the current is switched on?",
+     "solution": "The compass needle deflects from its usual north-south position because the current in the wire produces a magnetic field around it.",
+     "answer": "The compass needle deflects, showing the magnetic effect of current."
+    },
+    {
+     "question": "How is an electromagnet made?",
+     "solution": "An electromagnet is made by winding a copper wire into a coil around a soft iron core and passing an electric current through the coil; the iron core becomes magnetised and the coil behaves like a strong magnet.",
+     "answer": "Wind a coil around an iron core and pass current through it to form an electromagnet."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the magnetic effect of electric current.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe Oersted's experiment.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does an electromagnet differ from a permanent magnet?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.8",
+   "title": "Fuse and Its Uses",
+   "section": "3.8",
+   "definition": "A fuse is a safety device made of a wire of low melting point that melts and breaks the circuit when excessive current flows, thereby protecting appliances from damage.",
+   "formula": "",
+   "key_idea": "A fuse acts as a weak link that melts first when current exceeds a safe limit, breaking the circuit and preventing fires or damage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a fuse?",
+    "Why is a fuse used in electric circuits?",
+    "On what principle does a fuse work?",
+    "What material is used to make a fuse wire and why?",
+    "What happens when a large current flows through a fuse?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fuse wire and its rating",
+     "explain": "A fuse contains a thin wire of an alloy of lead and tin with a low melting point, rated for a specific maximum current."
+    },
+    {
+     "step": 2,
+     "action": "Explain the action during overload",
+     "explain": "When current exceeds the fuse rating, the heating effect melts the fuse wire quickly, breaking the circuit."
+    },
+    {
+     "step": 3,
+     "action": "State the protective purpose",
+     "explain": "By breaking the circuit, the fuse stops the excess current from reaching and damaging costly appliances or causing a fire."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A circuit carries a current of 10 A but the fuse fitted is rated for 5 A. What will happen?",
+     "solution": "Since the current (10 A) exceeds the fuse rating (5 A), the fuse wire heats up, melts and breaks the circuit, stopping the flow of current.",
+     "answer": "The 5 A fuse melts and breaks the circuit, protecting it from overload."
+    },
+    {
+     "question": "Why is a fuse wire made of an alloy of lead and tin and not of copper?",
+     "solution": "Lead-tin alloy has a low melting point, so it melts quickly when excess current flows; copper has a high melting point and would not melt in time to protect the circuit.",
+     "answer": "Lead-tin alloy has a low melting point, so it melts quickly to break the circuit."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a fuse and what is its function in a circuit?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should a fuse wire have a low melting point?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What happens if a fuse of higher rating than required is used?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.3.9",
+   "title": "Applications of Electricity in Daily Life",
+   "section": "3.9",
+   "definition": "Electricity is used in daily life for lighting (bulbs, LEDs), heating (heaters, irons, kettles), cooling (fans, refrigerators), entertainment (television, radio) and communication, all based on the effects of electric current.",
+   "formula": "",
+   "key_idea": "Different appliances use different effects of current -- heating effect in irons and heaters, lighting effect in bulbs, magnetic effect in motors and electromagnets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List five appliances that work on the heating effect of current.",
+    "How does an electric bell work?",
+    "What is the role of electricity in our daily life?",
+    "Which effect of current is used in an electric fan?",
+    "Name two devices based on the magnetic effect of current."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the appliance and the effect it uses",
+     "explain": "Determine whether the appliance uses the heating effect (iron, heater), lighting effect (bulb) or magnetic effect (motor, fan, bell)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the working principle",
+     "explain": "Describe how the relevant effect of current is used to perform the appliance's function, e.g., a heater uses a high-resistance wire to produce heat."
+    },
+    {
+     "step": 3,
+     "action": "State the practical benefit",
+     "explain": "Relate the working principle to the convenience or safety the appliance provides in daily life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which effect of electric current is used in an electric fan and how does it work?",
+     "solution": "An electric fan uses the magnetic effect of current. Current passing through a coil wound around an iron core produces a magnetic field that rotates the fan blades, creating air flow.",
+     "answer": "An electric fan uses the magnetic effect of current to rotate its blades."
+    },
+    {
+     "question": "An electric iron and an electric bell both use electricity. Which effect of current does each use?",
+     "solution": "An electric iron uses the heating effect of current (a high-resistance element produces heat), while an electric bell uses the magnetic effect of current (an electromagnet attracts and releases a hammer to strike the gong).",
+     "answer": "Iron uses heating effect; bell uses magnetic effect."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three appliances based on the heating effect and three based on the magnetic effect of current.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the working of an electric bell.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is electricity called a convenient form of energy?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.3.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain electric cell and battery with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the terminals of a cell",
+     "explain": "Every cell has a positive terminal (the metal cap) and a negative terminal (the flat metal disc)."
+    },
+    {
+     "step": 2,
+     "action": "Explain how cells combine into a battery",
+     "explain": "When the positive terminal of one cell is connected to the negative terminal of the next, the voltages add up to form a battery."
+    },
+    {
+     "step": 3,
+     "action": "State the energy conversion",
+     "explain": "The cell converts stored chemical energy into electrical energy that drives current through the circuit."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.3.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain electric circuit -- open and closed with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check if the path is complete",
+     "explain": "Trace the conducting path from the positive terminal of the cell, through the components, back to the negative terminal."
+    },
+    {
+     "step": 2,
+     "action": "Determine open or closed status",
+     "explain": "If there is any break (open switch or broken wire) the circuit is open and no current flows; if the path is unbroken it is closed and current flows."
+    },
+    {
+     "step": 3,
+     "action": "Relate circuit status to bulb glow",
+     "explain": "A bulb glows only in a closed circuit where current can pass through its filament."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

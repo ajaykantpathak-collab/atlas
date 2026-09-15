@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_008",
+   "title": "c12_bio_cbse_10_008",
+   "questions": [
+    {
+     "q": "Name the four sequential stages of anaerobic digestion in a gobar gas plant and the primary microbial group responsible for each stage.",
+     "a": "Correct answer: (1) Hydrolysis — hydrolytic bacteria (e.g., *Clostridium*, *Bacteroides*) secrete extracellular enzymes that break down complex polymers (cellulose, proteins, lipids) into monomers (sugars, amino acids, fatty acids). (2) Acidogenesis — acidogenic bacteria (fermentative) convert monomers into volatile fatty acids (VFAs), alcohols, H₂, CO₂. (3) Acetogenesis — acetogenic bacteria (e.g., *Syntrophomonas*) oxidize VFAs and alcohols to acetate, H₂, CO₂. (4) Methanogenesis — methanogenic archaea (*Methanobacterium*, *Methanococcus*, *Methanosarcina*) reduce CO₂ with H₂ or cleave acetate to CH₄. A wrong answer that merges acidogenesis and acetogenesis or assigns methanogenesis to bacteria reveals confusion between bacterial fermentation and archaeal methanogenesis, a classic board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a gobar gas digester fail to produce methane if the slurry pH drops below 6.0, even though hydrolytic and acidogenic bacteria are still active?",
+     "a": "Correct answer: Methanogenic archaea are extremely pH-sensitive; their enzymes (e.g., methyl-coenzyme M reductase) denature below pH 6.0, halting methanogenesis. Acidogenic bacteria continue producing VFAs, further lowering pH — a positive feedback loop called \"digester souring.\" The student who says \"bacteria die at low pH\" misses the specific archaeal vulnerability and the process imbalance concept; board marking schemes require naming methanogens and the pH threshold.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 m³ fixed-dome plant is fed 50 kg fresh cattle dung (20% total solids, 80% volatile solids) daily. Assuming 60% volatile solids destruction and 0.35 m³ CH₄ per kg VS destroyed, calculate the daily methane volume produced. Show steps.",
+     "a": "Step 1: Total solids = 50 kg × 0.20 = 10 kg TS/day. Step 2: Volatile solids = 10 kg × 0.80 = 8 kg VS/day. Step 3: VS destroyed = 8 kg × 0.60 = 4.8 kg VS/day. Step 4: CH₄ volume = 4.8 kg × 0.35 m³/kg = 1.68 m³ CH₄/day. Step 5: Biogas volume ≈ 1.68 / 0.60 = 2.8 m³/day (assuming 60% CH₄). A student who uses fresh dung mass directly or forgets the volatile solids fraction shows inability to translate feedstock composition into gas yield — a common NEET numerical trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microbial ecology of a gobar gas digester with the bovine rumen. Identify two similarities and two differences in microbial consortia and process conditions.",
+     "a": "Similarities: (1) Both host hydrolytic, acidogenic, acetogenic, and methanogenic guilds in syntrophy. (2) Both maintain strict anaerobiosis (rumen via saliva buffering and epithelial absorption; digester via sealed dome). Differences: (1) Rumen has protozoa and fungi (e.g., *Neocallimastix*) that enhance fiber breakdown; digesters rely mainly on bacteria/archaea. (2) Rumen operates at 39°C with continuous mixing and rapid VFA absorption; digester runs at ambient 25–35°C (mesophilic) with no mechanical mixing and slower VFA removal. A student who only lists \"both make methane\" misses the syntrophic guild structure and engineering implications for digester design.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer adds 5 kg urea to the daily dung feed to \"boost gas production.\" Evaluate this practice: will it increase, decrease, or destabilize methane yield? Justify with microbial physiology.",
+     "a": "Destabilize. Urea hydrolyzes to NH₃/NH₄⁺, raising pH above 8.0. Free ammonia (NH₃) diffuses into methanogen cells, uncouples proton motive force, and inhibits methyl-coenzyme M reductase. Acidogens tolerate higher ammonia, so VFAs accumulate while methanogenesis stalls — classic ammonia inhibition. A student who says \"nitrogen is a nutrient so it helps\" confuses nutritional requirement with toxicity threshold; competitive exams test this exact trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost diagnostic test a farmer can perform weekly to detect early souring of the digester before gas production drops. Specify the parameter measured, the tool, the threshold, and the corrective action.",
+     "a": "Measure slurry pH using a portable pH pen (or litmus paper calibrated for 5.5–8.0). Threshold: pH < 6.5 triggers action. Corrective: stop feeding for 2–3 days, add 10–15 kg lime (CaO) or wood ash to raise pH, then resume at half feed rate. A poor answer suggesting \"check gas flame color\" detects failure too late; board competency questions reward proactive monitoring with quantitative thresholds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

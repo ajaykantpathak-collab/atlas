@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_005",
+   "title": "c12_chem_cbse_09_005",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the Hoffmann bromamide degradation of benzamide (C₆H₅CONH₂) using Br₂ and NaOH. Name the organic product.",
+     "a": "C₆H₅CONH₂ + Br₂ + 4NaOH → C₆H₅NH₂ + Na₂CO₃ + 2NaBr + 2H₂O. Product: aniline (benzenamine). A wrong answer (e.g., missing Na₂CO₃ or incorrect stoichiometry) reveals the student does not account for the carbonyl carbon leaving as carbonate, or cannot balance the redox and hydrolysis steps together.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the amine product in Hoffmann degradation has one carbon less than the starting amide. What happens to the carbonyl carbon?",
+     "a": "The carbonyl carbon is lost as CO₂ (captured as Na₂CO₃/NaHCO₃ in basic medium). The R group migrates from the carbonyl carbon to the nitrogen atom via an isocyanate intermediate (R–N=C=O), which hydrolyses to R–NH₂. A wrong answer (e.g., \"carbon is lost as CO\" or \"no carbon loss\") shows the student misses the rearrangement and decarboxylation steps central to the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the product and write the balanced equation when CH₃CH₂CH₂CONH₂ (butanamide) undergoes Hoffmann degradation. How many moles of NaOH are consumed per mole of amide?",
+     "a": "CH₃CH₂CH₂CONH₂ + Br₂ + 4NaOH → CH₃CH₂CH₂NH₂ (propanamine) + Na₂CO₃ + 2NaBr + 2H₂O. Four moles of NaOH are consumed: 2 for N-bromination/dehydrohalogenation to isocyanate, 2 for hydrolysis of isocyanate to amine and carbonate. An incorrect mole count (e.g., 2 NaOH) indicates the student treats it as simple substitution without accounting for both bromination and hydrolysis stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Hoffmann bromamide degradation with Gabriel phthalimide synthesis. Which method would you choose to prepare CH₃CH₂CH₂NH₂ from CH₃CH₂CH₂CH₂Br (1-bromobutane) and why?",
+     "a": "Gabriel synthesis: 1-bromobutane → butanamine (same carbon count). Hoffmann: butanamide → propanamine (chain shortening). To get CH₃CH₂CH₂NH₂ from 1-bromobutane, Gabriel is correct; Hoffmann would give CH₃CH₂NH₂ (ethanamine) via butanamide. Choosing Hoffmann here reveals confusion between chain extension (Gabriel/nitrile reduction) and chain shortening (Hoffmann).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction: CH₃CONH₂ + Br₂ + NaOH → CH₃NH₂ + NaBr + H₂O. Identify all errors in this equation.",
+     "a": "Errors: (1) NaOH coefficient should be 4, not 1. (2) Missing Na₂CO₃ (carbonyl carbon product). (3) NaBr coefficient should be 2. (4) Missing 2H₂O. The equation ignores the oxidation state changes (Br₂ → 2Br⁻) and the fate of the carbonyl carbon. A student making these errors treats it as a simple substitution rather than a rearrangement with redox and hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert benzoic acid (C₆H₅COOH) into aniline (C₆H₅NH₂) using Hoffmann degradation as the key step. Specify reagents for each step.",
+     "a": "Step 1: C₆H₅COOH + SOCl₂ → C₆H₅COCl (benzoyl chloride), then NH₃ → C₆H₅CONH₂ (benzamide). Step 2: C₆H₅CONH₂ + Br₂ + 4NaOH → C₆H₅NH₂ + Na₂CO₃ + 2NaBr + 2H₂O. A poor answer (e.g., direct NH₃ on acid, or using Gabriel) shows the student cannot link amide preparation to the degradation reaction or does not know acid → amide conversion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch01_007",
+   "title": "c6_geography_ch01_007",
+   "questions": [
+    {
+     "q": "What is the average annual rainfall in the Thar Desert region?",
+     "a": "The rainfall is usually less than 25 centimetres per year. A wrong answer suggests the student is guessing or confusing the desert with a tropical region, indicating they haven't grasped the definition of \"arid.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why do houses in the Thar Desert often have thick walls?",
+     "a": "Thick walls act as an insulator, keeping the interior cool during the hot day and retaining warmth during the cold night. An incorrect answer implies the student doesn't understand the relationship between architectural design and extreme temperature regulation.",
+     "self_check": true
+    },
+    {
+     "q": "If you were living in the Thar, why would it be difficult to grow crops that require a lot of water?",
+     "a": "Steps: 1. Identify crop water needs vs. local rainfall. 2. Compare 25cm annual rain to requirements of thirsty crops (like rice). 3. Conclude that the \"arid\" environment lacks the necessary moisture. A wrong answer shows a failure to connect the concept of \"scarcity\" to physical geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the daytime and nighttime temperatures in the Thar Desert. How does this affect people living there?",
+     "a": "Days are extremely hot, while nights can be quite cold. This requires people to have clothing and shelter that can handle both extremes, not just heat. A wrong answer reveals the student thinks deserts are \"always hot\" 24/7.",
+     "self_check": true
+    },
+    {
+     "q": "Is the Thar Desert completely uninhabitable? Explain your reasoning based on the provided text.",
+     "a": "No, it is not uninhabitable; people have lived there for centuries by adapting their lifestyles. This justifies that human ingenuity allows for survival in harsh conditions. A wrong answer indicates the student missed the section on human endurance and adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are planning a house for the Thar region. List three features you would include to help your family survive the climate.",
+     "a": "The answer should include features like thick walls, small windows (to limit sunlight entry), or light-colored roofs. A poor answer would suggest features like large glass windows, which would trap too much heat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_006",
+   "title": "c12_hist_cbse_01_006",
+   "questions": [
+    {
+     "q": "What are the two specific materials used to make the Great Bath watertight, as reported in the NCERT text?",
+     "a": "Bricks set on edge and gypsum mortar. A wrong answer (e.g., \"bitumen\" or \"lime mortar\") reveals the student is conflating the Great Bath with Mesopotamian waterproofing (bitumen) or later Indian construction (lime), missing the specific Harappan technique explicitly stated in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Why do archaeologists argue the Great Bath was *not* a public swimming pool for ordinary citizens? Give two reasons based on its architectural context.",
+     "a": "(1) It is located on the walled Citadel, physically separated from the Lower Town where most people lived, implying restricted access. (2) The tank is surrounded by a colonnaded corridor and rooms, not open courtyards, suggesting controlled, possibly ceremonial entry. A wrong answer focusing only on size or depth misses the *spatial segregation* and *access control* that are the core of the ritual interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "The Great Bath’s drain is described as \"corbelled.\" Explain what corbelling is and why this technique was necessary for *this specific drain* given the tank’s depth and the Citadel’s elevation.",
+     "a": "Corbelling is a technique where successive courses of brick/stone project inward to form an arch or vault without centering. The Great Bath’s drain had to carry wastewater *from the tank’s base (2.4m deep) out through the Citadel’s massive mud-brick platform* to the lower street level — a vertical drop of ~6–7m. A corbelled vault withstands the crushing weight of the platform fill better than a flat lintel. A wrong answer that defines corbelling but doesn't link it to the *structural load of the Citadel platform* shows lack of applied structural reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Great Bath’s water supply system (well + inlet) with the \"bathroom block\" located across the lane (eight rooms with drains). What does this contrast suggest about *who* used the Great Bath versus the bathroom block?",
+     "a": "The Great Bath has a single large well in an adjacent room — a centralized, possibly monitored source — while the bathroom block has eight separate rooms each with its own drain, suggesting *multiple simultaneous users*. This implies the Bath was for *special, infrequent, perhaps communal rituals* (one tank, one well), whereas the bathroom block served *regular, possibly elite residential or administrative hygiene* (multiple private cubicles). A wrong answer that treats both as \"public baths\" misses the *quantitative difference in capacity and privacy* that distinguishes ritual from routine.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Great Bath proves the Harappans practiced a religion centered on ritual bathing, ancestral to later Hindu traditions.\" Use two pieces of archaeological evidence that *support* and two that *challenge* this claim.",
+     "a": "Support: (1) Watertight construction + steps = deliberate design for immersion. (2) Citadel location = sacred/segregated space. Challenge: (1) No *in situ* religious artifacts (idols, altars, offerings) found *inside* the tank. (2) The \"priest-king\" statue and \"proto-Shiva\" seals come from *different* contexts; no direct link to the Bath. A weak answer cites only later texts (Rigveda, Puranas) without acknowledging the *archaeological silence* on Harappan ritual — the core methodological problem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question and a one-sentence hypothesis for a new excavation *specifically targeting the Great Bath’s construction sequence* that could resolve whether the tank was built *before* or *after* the surrounding Citadel platform.",
+     "a": "Research question: \"Does the Great Bath’s foundation cut into the Citadel platform, or does the platform abut the tank?\" Hypothesis: \"If the tank foundation sits on virgin soil below the platform, the Bath predates the Citadel mound and may have been the *original* focal point around which the Citadel grew.\" A poor hypothesis merely repeats \"it was built early\" without a *testable stratigraphic prediction*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

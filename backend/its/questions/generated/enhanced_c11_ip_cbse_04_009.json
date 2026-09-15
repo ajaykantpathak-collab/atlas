@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_009",
+   "title": "c11_ip_cbse_04_009",
+   "questions": [
+    {
+     "q": "What are the two mandatory requirements for a valid dictionary key in Python, and why does Python enforce these requirements?",
+     "a": "A dictionary key must be (1) immutable (int, float, string, tuple) and (2) unique within that dictionary. Python enforces immutability because keys are hashed for O(1) lookup—if a key's value could change, its hash would change, breaking the internal hash table. Uniqueness is required because a key maps to exactly one value; duplicate keys would create ambiguity. A wrong answer (e.g., \"keys can be lists\" or \"duplicate keys are allowed\") reveals the student confuses dictionary keys with list elements or doesn't understand hashing-based storage.",
+     "self_check": true
+    },
+    {
+     "q": "Given `d = {1: \"one\", \"2\": \"two\", (3, 4): \"tuple\"}`, explain why `d[[5, 6]] = \"list\"` raises a TypeError, but `d[(5, 6)] = \"tuple\"` works.",
+     "a": "Lists are mutable (can be modified after creation), so they cannot be hashed and thus cannot serve as dictionary keys. Tuples are immutable, so they can be hashed and work as keys. A wrong answer (e.g., \"both should work\" or \"neither works\") reveals the student doesn't grasp the connection between mutability, hashability, and the dictionary's underlying hash table implementation.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output and explain each line:\n```python\nmarks = {\"Physics\": 85, \"Chemistry\": 90}\nprint(marks[\"Physics\"])\nmarks[\"Physics\"] = 88\nprint(marks[\"Physics\"])\nmarks[\"Biology\"] = 92\nprint(len(marks))\n```",
+     "a": "Output:\n```\n85\n88\n3\n```\nStep-by-step: (1) `marks[\"Physics\"]` retrieves value 85 via key \"Physics\". (2) `marks[\"Physics\"] = 88` modifies the existing key's value (mutability). (3) Second print shows updated value 88. (4) `marks[\"Biology\"] = 92` adds new key-value pair (mutability: adding items). (5) `len(marks)` returns 3 (three key-value pairs). A wrong answer (e.g., thinking the second assignment creates a duplicate key or that len returns 2) reveals confusion between key uniqueness and value mutability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: How does dictionary key-based access fundamentally differ from list index-based access in terms of (a) lookup mechanism, (b) semantic meaning, and (c) behavior when the key/index is absent?",
+     "a": "(a) Dictionary uses hashing of the key for O(1) direct access; list uses integer index for O(1) offset calculation. (b) Dictionary keys carry semantic meaning (e.g., \"roll_no\", \"name\"); list indices are purely positional (0, 1, 2...). (c) Missing key → KeyError; missing index → IndexError. A wrong answer (e.g., \"both use indices\" or \"both raise the same error\") reveals the student sees only syntactic similarity (square brackets) but misses the structural and semantic distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `d = {[1,2]: \"value\"}` and gets TypeError. They \"fix\" it by writing `d = {str([1,2]): \"value\"}`. Evaluate this fix: does it solve the immediate error? Does it preserve the intended key semantics? Justify.",
+     "a": "The fix solves the TypeError (string is immutable, hence hashable) but breaks key semantics: the key becomes the string representation `\"[1, 2]\"` not the list `[1, 2]`. Later, `d[[1,2]]` still fails (list unhashable), and `d[\"[1, 2]\"]` works but is a different key. The student should use a tuple `(1, 2)` if the sequence matters, or redesign the data structure. A wrong evaluation (e.g., \"fix is perfect\") reveals the student treats error removal as sufficient without considering semantic equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary to store a student's academic record where: (a) the student has a unique roll number, (b) multiple subjects with marks, (c) the structure allows O(1) retrieval of any subject's marks, and (d) the roll number itself is not a dictionary key but part of the value. Show the structure and explain how you'd retrieve Physics marks.",
+     "a": "```python\nstudent = {\n    \"roll_no\": 101,\n    \"name\": \"Priya\",\n    \"marks\": {\"Physics\": 95, \"Chemistry\": 88, \"Math\": 92}\n}",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

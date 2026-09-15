@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_001",
+   "title": "c12_math_cbse_05_001",
+   "questions": [
+    {
+     "q": "State the three conditions that must hold for a function \\(f\\) to be continuous at \\(x = c\\).",
+     "a": "The three conditions are: (1) \\(f(c)\\) is defined, (2) \\(\\lim_{x \\to c} f(x)\\) exists (i.e., \\(\\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x)\\)), and (3) \\(\\lim_{x \\to c} f(x) = f(c)\\). A wrong answer that omits condition (1) or (2) reveals the student thinks continuity only requires the limit to equal the function value, ignoring that the limit must first exist and the function must be defined at the point.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\(f(x) = \\frac{x^2 - 1}{x - 1}\\) is **not** continuous at \\(x = 1\\) even though its limit as \\(x \\to 1\\) exists and equals 2.",
+     "a": "The function is not defined at \\(x = 1\\) because the denominator becomes zero. Condition (1) of continuity fails: \\(f(1)\\) does not exist. The limit exists (after simplifying, \\(\\lim_{x \\to 1} \\frac{(x-1)(x+1)}{x-1} = 2\\)), but without a function value, continuity cannot hold. A student who says \"it is continuous because the limit equals 2\" has confused the existence of a limit with continuity; they missed that \\(f(c)\\) must be defined.",
+     "self_check": true
+    },
+    {
+     "q": "Check the continuity of the function \\(f(x) = \\begin{cases} 2x + 3, & x \\le 2 \\\\ x^2 - 1, & x > 2 \\end{cases}\\) at \\(x = 2\\). Show all steps.",
+     "a": "**Step 1:** \\(f(2) = 2(2) + 3 = 7\\) (using the first piece because \\(x \\le 2\\)).  \n**Step 2:** Left-hand limit: \\(\\lim_{x \\to 2^-} f(x) = \\lim_{x \\to 2^-} (2x + 3) = 2(2) + 3 = 7\\).  \n**Step 3:** Right-hand limit: \\(\\lim_{x \\to 2^+} f(x) = \\lim_{x \\to 2^+} (x^2 - 1) = 2^2 - 1 = 3\\).  \n**Step 4:** Since left-hand limit (7) ≠ right-hand limit (3), \\(\\lim_{x \\to 2} f(x)\\) does not exist.  \n**Conclusion:** \\(f\\) is **not continuous** at \\(x = 2\\) (jump discontinuity).  \nA wrong answer that only checks \\(f(2)\\) and one-sided limit, or incorrectly uses the same formula for both sides, reveals the student does not systematically verify all three conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Consider \\(f(x) = \\frac{|x - 3|}{x - 3}\\) for \\(x \\ne 3\\) and \\(f(3) = 0\\). Is \\(f\\) continuous at \\(x = 3\\)? Justify by computing left-hand and right-hand limits.",
+     "a": "For \\(x < 3\\), \\(|x-3| = -(x-3)\\), so \\(f(x) = -1\\). Left-hand limit = \\(-1\\).  \nFor \\(x > 3\\), \\(|x-3| = x-3\\), so \\(f(x) = 1\\). Right-hand limit = \\(1\\).  \nSince left-hand limit ≠ right-hand limit, the limit does not exist. \\(f(3)=0\\) is defined but irrelevant. Hence \\(f\\) is **discontinuous** at \\(x = 3\\) (jump discontinuity).  \nA student who simplifies \\(|x-3|/(x-3)\\) to 1 for all \\(x \\ne 3\\) ignores the sign change and incorrectly concludes the limit is 1. This shows they do not handle absolute value piecewise.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The function \\(f(x) = \\begin{cases} \\frac{\\sin x}{x}, & x \\ne 0 \\\\ 1, & x = 0 \\end{cases}\\) is discontinuous at \\(x = 0\\) because \\(\\frac{\\sin x}{x}\\) is not defined at \\(x = 0\\).\" Evaluate this claim.",
+     "a": "The claim is **false**. Continuity at \\(x = 0\\) depends on the *defined* value \\(f(0)=1\\) and the limit \\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\). Since the limit exists and equals the defined value, the function **is continuous** at \\(x = 0\\). The student incorrectly thinks the formula \\(\\frac{\\sin x}{x}\\) must be valid at \\(x=0\\); they confuse the expression with the function. This reveals a misunderstanding that a function can be defined piecewise to \"fill the hole\".",
+     "self_check": true
+    },
+    {
+     "q": "Construct a piecewise function \\(f(x)\\) with two different formulas on \\(x < 1\\) and \\(x \\ge 1\\) that is continuous at \\(x = 1\\). Your function must involve a parameter \\(k\\) in the second piece. State the condition on \\(k\\) for continuity.",
+     "a": "Example: \\(f(x) = \\begin{cases} x^2 + 2, & x < 1 \\\\ kx + 1, & x \\ge 1 \\end{cases}\\).  \nFor continuity at \\(x=1\\): \\(f(1) = k(1)+1 = k+1\\). Left-hand limit = \\(\\lim_{x \\to 1^-} (x^2+2) = 3\\). Right-hand limit = \\(\\lim_{x \\to 1^+} (kx+1) = k+1\\).  \nSet left-hand limit = right-hand limit = function value: \\(3 = k+1 \\Rightarrow k = 2\\).  \nA poor answer might give a function without a parameter, or set the wrong equality (e.g., equate only the formulas without evaluating at 1), showing they don't connect the parameter to the limit equality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

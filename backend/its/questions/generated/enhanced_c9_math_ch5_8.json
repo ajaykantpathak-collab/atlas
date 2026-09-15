@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_8",
+   "title": "c9_math_ch5_8",
+   "questions": [
+    {
+     "q": "State the theorem about opposite angles of a cyclic quadrilateral and its converse.",
+     "a": "The theorem: In a cyclic quadrilateral, the sum of either pair of opposite angles is 180°. Converse: If the sum of a pair of opposite angles of a quadrilateral is 180°, then the quadrilateral is cyclic. A wrong answer (e.g., saying opposite angles are equal or sum to 90°) reveals confusion with parallelogram properties or right angles in a semicircle.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, ABCD is a cyclic quadrilateral. If ∠A = 110°, find ∠C. Explain why we cannot directly say ∠B = 70° without more information.",
+     "a": "∠C = 70° because ∠A + ∠C = 180°. We cannot say ∠B = 70° because the theorem only relates opposite angles; ∠B is opposite ∠D, not ∠A. A wrong answer (e.g., ∠B = 70°) reveals the misconception that all angles become known from one angle, confusing cyclic quadrilateral with parallelogram or rectangle properties.",
+     "self_check": true
+    },
+    {
+     "q": "In a cyclic quadrilateral PQRS, ∠P = 3x + 10° and ∠R = 5x - 30°. Find the value of x and the measure of each angle.",
+     "a": "Step 1: Opposite angles are supplementary: (3x + 10) + (5x - 30) = 180.\nStep 2: 8x - 20 = 180 → 8x = 200 → x = 25.\nStep 3: ∠P = 3(25) + 10 = 85°; ∠R = 5(25) - 30 = 95°.\nStep 4: Check: 85° + 95° = 180° ✓.\nA wrong answer (e.g., x = 20) reveals algebraic error in combining like terms or forgetting to add the constant terms correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral ABCD has ∠A = 80° and ∠C = 100°. Can you conclude ABCD is cyclic? What if ∠A = 80° and ∠B = 100°? Justify your answer.",
+     "a": "Case 1: ∠A + ∠C = 180°, so by converse theorem, ABCD is cyclic. Case 2: ∠A and ∠B are adjacent, not opposite; the converse requires a pair of opposite angles to be supplementary. So we cannot conclude it is cyclic. A wrong answer (saying both cases are cyclic) reveals misunderstanding of \"opposite angles\" vs \"adjacent angles\" in the converse condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: In cyclic quadrilateral WXYZ, ∠W = 2∠Y. They write: 2∠Y + ∠Y = 180 → 3∠Y = 180 → ∠Y = 60°, ∠W = 120°. Is this correct? If not, identify the error.",
+     "a": "The solution is correct. ∠W and ∠Y are opposite angles, so ∠W + ∠Y = 180°. Given ∠W = 2∠Y, substitution gives 2∠Y + ∠Y = 180° → ∠Y = 60°, ∠W = 120°. A wrong judgment (saying it's incorrect) might reveal the student thinks opposite angles must be equal or that the relationship cannot be expressed algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a cyclic quadrilateral has one angle expressed as 2x+30° and its opposite angle as 4x-10°, and ask for the value of x and all four angles if the other pair of opposite angles are in ratio 2:3.",
+     "a": "A good problem: \"In cyclic quadrilateral ABCD, ∠A = 2x+30°, ∠C = 4x-10°. If ∠B : ∠D = 2:3, find x and all angles.\" Solution: (2x+30)+(4x-10)=180 → 6x+20=180 → x=80/3 ≈ 26.67. Then ∠A≈83.33°, ∠C≈96.67°. ∠B+∠D=180, ratio 2:3 → ∠B=72°, ∠D=108°. A poor problem might not ensure the ratio pair are opposite angles or give inconsistent data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

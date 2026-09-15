@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_007",
+   "title": "c12_geo_cbse_09_007",
+   "questions": [
+    {
+     "q": "What is the Census of India's definition of a 'literate' person, and what was the overall literacy rate of India according to the 2011 Census?",
+     "a": "Correct answer: A person aged 7 years and above who can read and write with understanding in any language is considered literate. India's overall literacy rate in 2011 was 74.04% (male 82.14%, female 65.46%). A wrong answer (e.g., using age 6, or quoting the 2001 rate of 64.8%) reveals the student has not memorized the exact Census definition and latest data, which are essential for board exam definitions and data-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Kerala have the highest literacy rate (94.0%) while Bihar has the lowest (61.8%) among major states, despite both having high population densities?",
+     "a": "Correct answer: Kerala's high literacy stems from historical investments in education by princely states, missionary activity, and high female literacy creating intergenerational momentum; Bihar's low literacy reflects persistent poverty, caste-based exclusion, and inadequate school infrastructure. A wrong answer attributing the difference solely to density or climate reveals a misunderstanding that literacy is a socio-historical outcome, not a direct function of physical geography.",
+     "self_check": true
+    },
+    {
+     "q": "A district has total population 2,50,000 (male 1,30,000, female 1,20,000). Literate males = 1,00,000; literate females = 75,000. Calculate overall, male, and female literacy rates and the gender gap in percentage points. Compare the gender gap with the national average (16.68 percentage points).",
+     "a": "Step 1: Overall literacy rate = (1,75,000 / 2,50,000) × 100 = 70.0%.  \nStep 2: Male literacy rate = (1,00,000 / 1,30,000) × 100 = 76.92%.  \nStep 3: Female literacy rate = (75,000 / 1,20,000) × 100 = 62.5%.  \nStep 4: Gender gap = 76.92 – 62.5 = 14.42 percentage points.  \nStep 5: National gap = 16.68 pp; district gap (14.42) is below the national average.  \nA wrong answer (e.g., using total population for male/female rates) reveals confusion between crude and gender-specific rates, a common error in board exam calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the occupational structure data: In 2011, Himachal Pradesh had a 51.9% work participation rate with a large share of cultivators, while Delhi had a 33.0% work participation rate with over 90% in 'other workers'. Explain how physical geography and urbanization drive this contrast.",
+     "a": "Correct answer: Himachal's mountainous terrain limits industrial land, so subsistence farming dominates (high cultivator share); Delhi's limited agricultural land and massive urbanization push workers into services, trade, and construction (tertiary/secondary). A wrong answer focusing only on 'development level' without linking to land availability and urbanization misses the geographical determinism that the syllabus emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'The decline in the share of agricultural workers from 58.2% (2001) to 54.6% (2011) indicates successful structural transformation of India's economy.' Consider both the pace of shift and the quality of non-farm jobs created.",
+     "a": "Correct answer: The shift is real but modest (3.6 pp in a decade); much of the non-farm growth is in low-productivity informal services and construction, not manufacturing. True structural transformation requires a larger shift to the secondary sector with decent wages. A wrong answer that uncritically celebrates the decline ignores the 'jobless growth' and 'premature deindustrialization' critiques relevant for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend (with 4 classes) to show the spatial pattern of female literacy rates across Indian states using Census 2011 data. Justify your class intervals and color scheme.",
+     "a": "Expected answer: Classes could be: <50% (red), 50–65% (orange), 65–80% (yellow), >80% (green). Intervals reflect natural breaks: Bihar (51.5%), Rajasthan (52.1%), national average (65.46%), Kerala (92.1%). Color scheme: red-to-green diverging to highlight gender disparity. A poor answer uses equal intervals (e.g., 0–25, 25–50) which would cluster most states in one class, showing inability to choose geographically meaningful breaks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

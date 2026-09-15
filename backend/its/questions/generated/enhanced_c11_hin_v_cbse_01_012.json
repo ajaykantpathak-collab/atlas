@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_01_012",
+   "title": "c11_hin_v_cbse_01_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in the context of this chapter?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What name was given to the painter's art?\"), while an inferential question requires drawing a conclusion based on textual evidence (e.g., \"Why does the author consider Yashodhar's art revolutionary?\"). A wrong answer that merely quotes a sentence for an inferential question reveals the student cannot distinguish between explicit statement and implied meaning.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"चित्रकला के कारण जनमानस की दृष्टि और चिंतन में परिवर्तन आया।\" If a question asks, \"How did visual art affect common people's thinking?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is a literal question because the answer is explicitly stated in the quoted sentence: it changed people's vision and thought. A student who labels it inferential likely confuses \"effect\" language with inference, not realizing the text directly asserts the causal relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Based on the passage, answer: \"Why did the author feel that Yashodhar's sounds (words) had a 'music' that merged two words into one?\" Provide a step-by-step inference using at least two textual clues.",
+     "a": "Step 1: Locate the reference — the author describes Yashodhar's speech where the gap between two words is bridged by sound-symbolism (ध्वनि-प्रतीक). Step 2: Note the author's observation that this creates a sense of the words merging (फोयहु गकर्स गकर्स, एक नवल्ज् एसा फेय त्कर्स गसा). Step 3: Infer that this 'music' arises from Yashodhar's unique use of sound to collapse semantic distance, reflecting his artistic philosophy of unity. A wrong answer that only quotes the line without explaining the merging effect shows inability to synthesize clues.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the author's view of traditional (श्रव्य) art and visual (चित्रकला) art in the chapter. Which type of question — literal or inferential — would best elicit this comparison, and why?",
+     "a": "An inferential question (e.g., \"How does the author contrast the impact of traditional and visual art?\") is needed because the contrast is scattered across paragraphs and never summarized in a single statement. The student must analyze multiple passages: traditional art's reliance on sound/rule vs. visual art's immediate sensory appeal. A literal question would only retrieve isolated facts, missing the comparative relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"The author says visual art is superior because it reaches more people.\" Is this a valid inference? Justify using the text.",
+     "a": "No, it is not fully valid. The author acknowledges visual art's wider reach but explicitly states that traditional art has its own irreplaceable depth (\"श्रव्य कला भी जातीय न हो तो फीकी ही रह जायगी\"). The student oversimplifies by ignoring the author's nuanced stance that both have distinct, equally valuable roles. This error reveals a tendency to infer a hierarchy where the text presents complementarity.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the last paragraph of the chapter (page 7-8) that requires the examinee to connect the artist's emotional state to the broader theme of art's social role. Provide the expected answer outline.",
+     "a": "Question: \"The author ends with 'कितना बड़ा है हमारा हृदय!' — what does this exclamation reveal about the relationship between the artist's inner world and society?\" Expected answer: The artist's expanded heart mirrors art's capacity to encompass collective joy/sorrow; the personal becomes universal. A poor answer would treat it as a literal comment on heart size, missing the metaphorical link to art's social function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

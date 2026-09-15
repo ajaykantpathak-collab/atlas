@@ -1,0 +1,351 @@
+{
+ "catalog": "catalog_class10_science_ch113.json",
+ "concepts": [
+  {
+   "id": "jesc.113.1",
+   "title": "Ecosystem and its Components",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an ecosystem?",
+     "a": "All interacting organisms in an area together with their physical surroundings - the biotic and abiotic parts working as one unit.",
+     "self_check": true
+    },
+    {
+     "q": "Name the two components of an ecosystem.",
+     "a": "Biotic (living organisms) and abiotic (temperature, light, water, soil) components.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example of a natural and an artificial ecosystem.",
+     "a": "Natural: forest, pond, lake; artificial: aquarium, crop field, garden.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.2",
+   "title": "Producers, Consumers, and Decomposers",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are producers, consumers and decomposers?",
+     "a": "Producers make food from sunlight (green plants); consumers eat other organisms; decomposers break down dead matter into soil nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Why are decomposers essential in nature?",
+     "a": "They recycle nutrients back to the soil and clear away dead bodies and waste.",
+     "self_check": true
+    },
+    {
+     "q": "Classify a rabbit, a grass plant and fungi.",
+     "a": "Grass is a producer, rabbit a (primary) consumer, fungi a decomposer.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.3",
+   "title": "Food Chains and Trophic Levels",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a food chain?",
+     "a": "A sequence showing who eats whom - energy passing from producers through successive consumers.",
+     "self_check": true
+    },
+    {
+     "q": "Why are food chains limited to 3-4 trophic levels?",
+     "a": "Only 10% of energy transfers at each step, so little energy remains after a few levels to support more.",
+     "self_check": true
+    },
+    {
+     "q": "What is a food web?",
+     "a": "Many interconnected food chains in an ecosystem, since most organisms eat more than one kind of food.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.4",
+   "title": "The Ten Percent Law of Energy Transfer",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "level2",
+     "expr": "primary_energy * 0.1",
+     "explain": "only 10% passes to the next trophic level"
+    },
+    {
+     "step": 2,
+     "name": "level3",
+     "expr": "level2 * 0.1",
+     "explain": "10% again at the secondary consumer"
+    },
+    {
+     "step": 3,
+     "name": "level4",
+     "expr": "level3 * 0.1",
+     "explain": "10% again at the tertiary consumer"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Plants trap 10000 kJ of energy. Using the ten per cent law, how much reaches the tertiary consumer?",
+     "vals": {
+      "primary_energy": 10000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "10 kJ",
+     "self_check": false
+    },
+    {
+     "q": "If producers hold 50000 kJ, how much energy flows to the third trophic level of consumers (carnivore level)?",
+     "vals": {
+      "primary_energy": 50000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "50 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A grassland stores 2000 kJ in grass. What energy is available to a snake four steps up the food chain?",
+     "vals": {
+      "primary_energy": 2000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "2 kJ",
+     "self_check": false
+    },
+    {
+     "q": "Algae fix 8000 kJ. Compute the energy at the fourth trophic level.",
+     "vals": {
+      "primary_energy": 8000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "8 kJ",
+     "self_check": false
+    },
+    {
+     "q": "With 1000 kJ trapped by trees, how much reaches a top carnivore?",
+     "vals": {
+      "primary_energy": 1000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "1 kJ",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.5",
+   "title": "Solar Energy Capture by Producers",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "producer_energy",
+     "expr": "solar_energy * 0.01",
+     "explain": "about 1% of incident sunlight is trapped by producers"
+    },
+    {
+     "step": 2,
+     "name": "unused_sunlight",
+     "expr": "solar_energy * 0.99",
+     "explain": "sunlight not trapped by the plants"
+    },
+    {
+     "step": 3,
+     "name": "herbivore_energy",
+     "expr": "producer_energy * 0.1",
+     "explain": "ten per cent law passes a tenth to herbivores"
+    }
+   ],
+   "questions": [
+    {
+     "q": "1000000 kJ of solar energy falls on a field. How much is trapped by plants, and how much passes to herbivores?",
+     "vals": {
+      "solar_energy": 1000000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "1000 kJ",
+     "self_check": false
+    },
+    {
+     "q": "Incident sunlight of 500000 kJ: find the producer-trapped share and the herbivore share.",
+     "vals": {
+      "solar_energy": 500000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "500 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A pond receives 2000000 kJ of sunlight. Compute the energy fixed by algae and that reaching zooplankton.",
+     "vals": {
+      "solar_energy": 2000000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "2000 kJ",
+     "self_check": false
+    },
+    {
+     "q": "On 250000 kJ of sunlight, what energy do plants fix and what do grazers receive?",
+     "vals": {
+      "solar_energy": 250000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "250 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A forest intercepts 100000 kJ of sun energy. How much is available at the producer and herbivore levels?",
+     "vals": {
+      "solar_energy": 100000
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "100 kJ",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.6",
+   "title": "Biological Magnification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is biological magnification?",
+     "a": "Non-biodegradable pesticides grow more concentrated at each trophic level, harming top consumers most.",
+     "self_check": true
+    },
+    {
+     "q": "Why are humans most affected by pesticide magnification?",
+     "a": "Humans sit at the top of many food chains, so accumulated pesticides concentrate highest in us.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't pesticide levels fall in a food chain once sprayed?",
+     "a": "The chemicals are non-biodegradable - they are not broken down and keep passing up the chain, accumulating in body fat.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.7",
+   "title": "Ozone Layer Formation and Depletion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is ozone formed in the upper atmosphere?",
+     "a": "UV radiation splits O2 into free oxygen atoms, which combine with O2 molecules to form ozone (O3).",
+     "self_check": true
+    },
+    {
+     "q": "What is the importance of the ozone layer?",
+     "a": "It absorbs harmful ultraviolet radiation from the sun, shielding living beings from skin damage and cancer.",
+     "self_check": true
+    },
+    {
+     "q": "Which chemicals damage the ozone layer and how?",
+     "a": "CFCs release chlorine atoms in the stratosphere that break ozone molecules, thinning the layer.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.8",
+   "title": "Biodegradable and Non-biodegradable Wastes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "total_waste",
+     "expr": "biodegradable_waste + non_biodegradable_waste",
+     "explain": "all refuse is the sum of both kinds"
+    },
+    {
+     "step": 2,
+     "name": "nonbio_percent",
+     "expr": "(non_biodegradable_waste / total_waste) * 100",
+     "explain": "share of non-biodegradable waste"
+    },
+    {
+     "step": 3,
+     "name": "biodegradable_percent",
+     "expr": "(biodegradable_waste / total_waste) * 100",
+     "explain": "share of waste that can rot naturally"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A colony collects 300 kg of biodegradable and 200 kg of non-biodegradable waste daily. Find the total and the biodegradable percentage.",
+     "vals": {
+      "biodegradable_waste": 300,
+      "non_biodegradable_waste": 200
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "60 %",
+     "self_check": false
+    },
+    {
+     "q": "A school generates 150 kg biodegradable and 50 kg non-biodegradable waste a week. What per cent is biodegradable?",
+     "vals": {
+      "biodegradable_waste": 150,
+      "non_biodegradable_waste": 50
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "75 %",
+     "self_check": false
+    },
+    {
+     "q": "A market discards 400 kg vegetable waste and 100 kg plastic daily. Compute the total waste and the biodegradable share.",
+     "vals": {
+      "biodegradable_waste": 400,
+      "non_biodegradable_waste": 100
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "80 %",
+     "self_check": false
+    },
+    {
+     "q": "A city ward reports 250 kg of each kind of waste. What is the total and what per cent is biodegradable?",
+     "vals": {
+      "biodegradable_waste": 250,
+      "non_biodegradable_waste": 250
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "50 %",
+     "self_check": false
+    },
+    {
+     "q": "A village gathers 90 kg wet waste and 10 kg dry non-biodegradable waste daily. Find the total and the biodegradable per cent.",
+     "vals": {
+      "biodegradable_waste": 90,
+      "non_biodegradable_waste": 10
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "90 %",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

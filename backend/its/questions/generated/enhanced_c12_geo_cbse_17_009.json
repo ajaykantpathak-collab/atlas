@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_009",
+   "title": "c12_geo_cbse_17_009",
+   "questions": [
+    {
+     "q": "Define \"mitigation\" in disaster management and give ONE structural and ONE non-structural measure for earthquake risk reduction in Delhi NCR.",
+     "a": "Mitigation refers to sustained actions taken BEFORE a disaster to reduce or eliminate long-term risk to life and property. Structural measure: enforcing Bureau of Indian Standards (BIS) seismic codes (IS 1893) for all new constructions and retrofitting vulnerable buildings. Non-structural measure: land-use zoning restricting high-density development on liquefaction-prone alluvial soils along the Yamuna floodplain. A wrong answer (e.g., \"mitigation is evacuation during earthquake\") reveals confusion between mitigation (pre-event risk reduction) and response (during-event action) — a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why community-based disaster preparedness (CBDP) is more effective than top-down government alerts alone for cyclone-prone Odisha coast. Use the concept of \"last mile connectivity\" in your answer.",
+     "a": "CBDP ensures last-mile connectivity — the gap between official warnings (IMD bulletins, SATARK app) and actionable decisions by vulnerable households (e.g., fisherfolk deciding when to return to shore). In Odisha, Cyclone Fani (2019) saw near-zero mortality because Village Disaster Management Committees (VDMCs) translated \"Red Warning\" into specific actions: \"move to cyclone shelter by 2 PM,\" \"secure boats,\" \"protect documents.\" Top-down alerts fail when language, literacy, or trust barriers prevent interpretation. A wrong answer focusing only on \"government has better technology\" misses the geographical insight: preparedness is a spatial problem of information flow across scales (national → district → village → household).",
+     "self_check": true
+    },
+    {
+     "q": "A district in Bihar's Kosi floodplain receives IMD's \"Orange Alert\" for extreme rainfall (200 mm in 24 hrs). As District Disaster Management Authority (DDMA) chair, list the SEQUENCE of 5 response actions you would trigger in the first 12 hours, justifying the ORDER.",
+     "a": "1. Activate Incident Command System (ICS) at district EOC — establishes unified command (0-1 hr).\n2. Trigger community-level early warning via sirens, WhatsApp groups, ASHA workers — reaches last mile (1-2 hr).\n3. Pre-position NDRF/SDRF boats and medical teams at identified vulnerable points (embankment breaches) — reduces response time (2-4 hr).\n4. Evacuate priority groups (elderly, disabled, pregnant women) to pre-designated relief camps — saves lives before inundation (4-8 hr).\n5. Establish relief distribution points with dry rations, ORS, halogen tablets — prevents secondary health crisis (8-12 hr).\nWrong sequence (e.g., distributing relief before evacuation) reveals failure to understand response prioritization: life safety > sustenance. Board exams test this temporal logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recovery approach after the 2001 Bhuj earthquake (Gujarat) and 2015 Nepal earthquake (Gorkha) on THREE criteria: housing reconstruction policy, livelihood restoration, and institutional memory. What geographical lesson emerges for India's Himalayan states?",
+     "a": "Bhuj: Owner-driven reconstruction (ODR) with technical guidance, cash transfers in tranches linked to seismic compliance, livelihood packages for artisans/weavers, GSDMA created as permanent authority. Nepal: Donor-driven contractor model, delayed cash grants, weak enforcement of building codes, no permanent recovery authority. Lesson for Himalayan states (Uttarakhand, HP): ODR with local materials (stone-wood bands) + permanent state-level recovery agency + seismic microzonation integration into master plans. A wrong answer listing only \"Bhuj was better\" misses the structural-institutional analysis needed for 150-word board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Investing in mitigation yields 1:7 cost-benefit ratio (Global Facility for Disaster Reduction), yet Indian states spend <5% of disaster budgets on pre-disaster measures.\" Assess with reference to fiscal federalism (15th Finance Commission) and political economy.",
+     "a": "The 15th FC allocated ₹1.6 lakh crore for disaster management (2021-26) with 80% for response/relief (SDRF/NDRF) and only 20% for mitigation (SDMF/NDMF). Political economy: relief is visible, credit-claimable, immediate; mitigation is invisible, long-term, distributed benefits. Fiscal federalism constraint: states control land-use/building codes (mitigation levers) but depend on Centre for funds. Kerala's post-2018 Rebuild Kerala Initiative (RKI) — ₹31,000 crore with 40% for mitigation (river room, slope stabilization) — shows political will can shift allocation. A wrong answer blaming \"corruption\" alone misses the structural incentive misalignment in India's disaster financing architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level flood preparedness plan for a Gram Panchayat in Assam's Dhemaji district (recurrent Brahmaputra floods). Include: risk mapping method, early warning dissemination chain, evacuation protocol for livestock, and a gender-inclusive relief camp layout. Justify each component geographically.",
+     "a": "1. Risk mapping: Participatory GIS using satellite flood extent (Sentinel-1 SAR) + local knowledge of breach points — captures spatial heterogeneity of flood depth/velocity missed by district maps.\n2. Warning chain: IMD → CWC → DDMA → Block → GP WhatsApp → ASHA/Anganwadi → every household (including women-headed) — addresses last-mile gender gap in mobile access.\n3. Livestock evacuation: Pre-identified high ground (chars) with fodder banks; community cattle shelters on stilts — livestock = primary asset for floodplain economies.\n4. Camp layout: Separate bathing/toilet zones for women/men, child-friendly space, breastfeeding corner, sanitary napkin disposal — reduces gender-based violence and disease (learned from 2017 floods).\nPoor answer: generic \"make a plan\" without spatial specificity (e.g., not using chars for livestock) or gender blindness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

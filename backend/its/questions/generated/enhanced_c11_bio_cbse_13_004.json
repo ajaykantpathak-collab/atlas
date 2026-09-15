@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_004",
+   "title": "c11_bio_cbse_13_004",
+   "questions": [
+    {
+     "q": "Name the fungal pathogen responsible for the 'bakanae' (foolish seedling) disease of rice and the active substance isolated from it that was later identified as a gibberellin.",
+     "a": "The fungal pathogen is *Gibberella fujikuroi* and the active substance is gibberellic acid (GA₃). A wrong answer (e.g., naming *Rhizopus* or auxin) reveals the student has not connected the historical discovery to the specific organism and chemical, confusing it with other hormone discoveries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why spraying gibberellins on sugarcane increases yield by up to 20 tonnes per acre, whereas the same treatment on a mature mango tree would not increase fruit size proportionally.",
+     "a": "Sugarcane stores carbohydrates in its stem; GA-induced internode elongation increases stem volume, allowing more storage capacity. Mango fruit growth is primarily driven by cell division and expansion regulated by auxins and cytokinins during early fruit set; GA application at maturity mainly affects skin elongation, not pulp development. A wrong answer indicates the student cannot differentiate between vegetative growth (stem elongation) and reproductive growth (fruit development) responses to the same hormone.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer wants to break dormancy in potato tubers and also induce early flowering in a long-day plant grown under non-inductive short-day conditions. Which single PGR treatment would achieve both, and why?",
+     "a": "Gibberellins (GA₃) can break tuber dormancy by stimulating hydrolytic enzyme synthesis and also substitute for long-day requirement in some species by promoting flowering. However, cytokinins do not break tuber dormancy. A wrong answer (e.g., cytokinin or ethylene) shows inability to match specific hormone functions to distinct physiological processes (dormancy release vs. flowering induction).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism by which gibberellins and cytokinins each overcome apical dominance in a decapitated shoot.",
+     "a": "Gibberellins promote elongation of the main shoot, indirectly reducing auxin concentration gradient; cytokinins directly stimulate lateral bud cell division by promoting nutrient mobilisation and synthesising new proteins, overriding auxin's inhibitory signal. A wrong answer conflates the two mechanisms, suggesting both act solely by reducing auxin transport.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Kinetin is a natural cytokinin found in coconut milk and corn kernels.\" Identify the error and correct it.",
+     "a": "Kinetin is a synthetic cytokinin derived from autoclaved herring sperm DNA; it does not occur naturally in plants. Natural cytokinins are zeatin (from corn kernels) and cytokinins in coconut milk. A wrong evaluation reveals confusion between the historical discovery compound (kinetin) and naturally occurring cytokinins.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two sets of detached bean leaves to demonstrate that cytokinins delay senescence. Specify the control, treatment, measurable parameter, and expected observation after 7 days.",
+     "a": "Control: leaves in distilled water. Treatment: leaves in 10 ppm kinetin/zeatin solution. Measurable parameter: chlorophyll content (SPAD meter) or visual yellowing score. Expected: treated leaves retain green colour and higher chlorophyll; control leaves yellow. A poor design lacks a control, uses inappropriate concentration, or measures irrelevant parameters (e.g., leaf length).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

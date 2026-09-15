@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_004",
+   "title": "c11_ps_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the phrase \"Sarva Dharma Sambhava\" commonly understood to mean in the context of Indian secularism?",
+     "a": "\"Sarva Dharma Sambhava\" translates to \"equal respect for all religions.\" It signifies that the Indian state does not favor any one religion but extends equal recognition and protection to all faiths. A wrong answer (e.g., \"the state has no connection with religion\") reveals confusion with the Western \"wall of separation\" model (c11_ps_cbse_08_003) and misses the Indian state's active, principled engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT textbook argue that \"tolerance\" is insufficient for Indian secularism, and how does \"equal respect\" go beyond it?",
+     "a": "Tolerance implies putting up with difference, often within a hierarchy where the majority sets the terms. Equal respect (Sarva Dharma Sambhava) demands equal dignity and rights for all communities, including the right to maintain culture and institutions (Article 30). A wrong answer that equates the two reveals a misunderstanding of the normative shift from passive coexistence to active constitutional protection of minority interests.",
+     "self_check": true
+    },
+    {
+     "q": "A state government declares a holiday for a minority community's festival and provides a subsidy for their pilgrimage. Using the concept of principled distance, explain whether this violates secularism.",
+     "a": "This does not violate Indian secularism. Principled distance allows the state to engage positively with religion to protect minority rights and promote equality (e.g., Article 30 rights to educational institutions). The state is not favoring one religion over others arbitrarily; it is addressing a historical disadvantage. A wrong answer claiming violation shows rigid application of the Western mutual-exclusion model and ignores the Indian Constitution's accommodation of community-based rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the Indian and Western models would handle a religious practice that bars women from entering a temple's inner sanctum. What does this reveal about their core differences?",
+     "a": "The Western model (mutual exclusion) would treat this as a private religious matter beyond state intervention. The Indian model (principled distance) permits state intervention to end intra-religious domination (e.g., banning such exclusion via legislation or court order under Articles 14, 15, 25(2)). This reveals the Indian model's dual commitment to inter-religious equality *and* intra-religious reform, unlike the Western focus on individual liberty alone.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"Indian secularism is just 'minority appeasement' because it grants special rights like Article 30.\"",
+     "a": "The claim confuses *special privileges* with *protective differentiation*. Like a ramp for wheelchair users ensures equal access to a building, Article 30 ensures minorities can preserve their identity in a majority-dominated society. The NCERT \"auditorium staircase\" analogy shows such measures are not favors but requirements of equal dignity. A wrong answer accepting the \"appeasement\" label fails to distinguish between majoritarian dominance and constitutional protection of fundamental minority interests.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-paragraph policy guideline for a new state law on religious festivals that embodies Indian secularism's \"principled distance.\" Your guideline must address: (a) state holidays, (b) funding for religious events, (c) intervention in discriminatory practices.",
+     "a": "A strong answer will: (a) include festivals of all major communities in the holiday calendar without privileging the majority's festivals disproportionately; (b) allow limited, transparent funding for minority community events that preserve cultural heritage (e.g., maintaining a historic gurdwara) but not for proselytization; (c) mandate state intervention — via legislation or executive order — to end practices that discriminate within religions (e.g., caste-based exclusion in temples) citing Articles 14, 15, 25(2). A poor answer either bans all state-religion interaction (Western model) or allows unrestricted majority-favoring spending.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

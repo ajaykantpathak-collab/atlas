@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_005",
+   "title": "c11_psy_cbse_05_005",
+   "questions": [
+    {
+     "q": "Define \"partial reinforcement effect\" in one sentence using the terms \"resistance to extinction\" and \"intermittent schedule\".",
+     "a": "The partial reinforcement effect is the phenomenon where a response acquired under an intermittent (partial) schedule of reinforcement shows **greater resistance to extinction** than a response acquired under continuous reinforcement. A wrong answer that says \"partial reinforcement makes learning faster\" reveals confusion between **acquisition speed** (faster under continuous) and **persistence after reinforcement stops** (greater under partial).",
+     "self_check": true
+    },
+    {
+     "q": "A teacher praises a student **only when the student raises her hand before speaking**. The student now raises her hand more often. Is the praise a positive reinforcer, negative reinforcer, or punisher? Justify in two sentences.",
+     "a": "The praise is a **positive reinforcer** because a **pleasant stimulus is added** contingent on the behaviour, and the behaviour **increases** in frequency. A wrong answer calling it \"negative reinforcement\" reveals the common misconception that \"negative\" means \"bad\" rather than \"removal of a stimulus\"; negative reinforcement would require removing something aversive (e.g., stopping a loud noise) to increase hand-raising.",
+     "self_check": true
+    },
+    {
+     "q": "A factory pays piece-rate wages: ₹50 for every 10 garments stitched (fixed-ratio 10). Sketch the expected **response-rate pattern** (high/low, steady/burst-pause) and explain why a **variable-ratio 10** schedule would produce a steadier, higher rate.",
+     "a": "Fixed-ratio 10 produces a **\"break-and-run\" pattern**: a post-reinforcement pause followed by a rapid burst of stitching until the next 10 garments. Variable-ratio 10 eliminates the predictable pause because the worker never knows which garment will trigger payment, so responding stays **high and steady** (like a slot machine). A wrong answer claiming FR produces steadier responding confuses the **predictability** of the ratio requirement with the **unpredictability** of VR.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **fixed-interval 5 min** and **variable-interval 5 min** schedules in terms of (a) response pattern near the interval end, (b) overall response rate, and (c) resistance to extinction. Use a table.",
+     "a": "| Feature | FI 5 min | VI 5 min |\n|---|---|---|\n| (a) Pattern near interval end | Scalloped: low early, accelerating near 5 min | Steady, moderate throughout |\n| (b) Overall rate | Lower (long pauses) | Higher (no predictable safe period) |\n| (c) Resistance to extinction | Moderate | Highest among interval schedules |\nA wrong answer stating FI produces higher overall rates misses that the **long post-reinforcement pause** in FI depresses the average rate compared to VI’s steadiness.",
+     "self_check": true
+    },
+    {
+     "q": "A parent shouts at a teenager each time the teen leaves dirty dishes in the sink. The teen **continues leaving dishes**. Evaluate whether the shouting functions as punishment, negative reinforcement, or neither. What change would make it effective punishment?",
+     "a": "The shouting is **neither punishment nor negative reinforcement** for dish-leaving because the target behaviour **did not decrease** (punishment) nor increase via escape/avoidance (negative reinforcement). It is simply an ineffective aversive stimulus. To make it punishment, the parent must ensure the shouting **immediately follows** the behaviour, is **sufficiently intense**, and is **consistently applied**—or replace it with response-cost (e.g., deducting pocket money) that reliably reduces the behaviour. A wrong answer calling it \"punishment because it's unpleasant\" ignores the **definitional requirement** that punishment must **suppress the response**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **token-economy system** for a Class 11 study group that uses a **variable-ratio schedule** to maintain daily revision habits. Specify: (a) target behaviour, (b) token delivery rule, (c) backup reinforcer, (d) why VR is better than FR for long-term maintenance.",
+     "a": "(a) Target: completing 30 min of focused revision per subject daily. (b) Token rule: after each 30-min block, draw a chit from a box containing 10 chits—3 say \"Token\", 7 say \"Try Again\" (VR ≈ 3.3). (c) Backup reinforcer: 5 tokens = 1 hour of guilt-free gaming / ₹50 canteen coupon. (d) VR prevents the **post-reinforcement pause** seen in FR (where students would stop after earning a token) and creates **high, steady responding** with strong resistance to extinction when tokens are eventually faded. A poor answer that uses FR (\"token every day\") misses the **maintenance advantage** of unpredictability emphasized in NCERT's partial reinforcement effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

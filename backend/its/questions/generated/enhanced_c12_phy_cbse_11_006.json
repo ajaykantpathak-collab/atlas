@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_11_006",
+   "title": "c12_phy_cbse_11_006",
+   "questions": [
+    {
+     "q": "State Heisenberg's Uncertainty Principle for position and momentum, giving the exact mathematical inequality with the reduced Planck constant ħ. What are the SI units of Δx and Δp?",
+     "a": "Δx Δp ≥ ħ/2, where ħ = h/(2π) = 1.055 × 10⁻³⁴ J·s. Δx is in metres (m), Δp is in kg·m/s. A wrong answer (e.g., Δx Δp ≥ h, or using h instead of ħ/2, or omitting the factor 1/2) reveals the student has memorised an approximate or incorrect form and does not know the precise lower bound from the standard deviation definition used in quantum mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The uncertainty principle is just because our measuring instruments disturb the particle. If we had perfect instruments, we could measure both position and momentum exactly.\" Explain why this reasoning is incorrect, using the concept of a matter wave packet.",
+     "a": "The principle is fundamental, not instrumental. A particle is represented by a wave packet (superposition of waves). A wave packet localised in space (small Δx) must contain a range of wavelengths (large Δp). This is a mathematical property of Fourier transforms/wave superposition (c11_phy_cbse_14_005), not a result of measurement clumsiness. Even with ideal instruments, the particle simply does not possess simultaneously well-defined position and momentum. A wrong answer indicates the student confuses the observer effect (disturbance) with the intrinsic quantum indeterminacy.",
+     "self_check": true
+    },
+    {
+     "q": "An electron is confined within a region of size Δx = 0.10 nm (typical atomic radius). Calculate the minimum uncertainty in its velocity (Δv_min). Use mₑ = 9.11 × 10⁻³¹ kg, ħ = 1.055 × 10⁻³⁴ J·s.",
+     "a": "Step 1: Δx = 0.10 nm = 1.0 × 10⁻¹⁰ m.\nStep 2: Minimum Δp = ħ/(2Δx) = (1.055 × 10⁻³⁴) / (2 × 1.0 × 10⁻¹⁰) = 5.275 × 10⁻²⁵ kg·m/s.\nStep 3: Δv_min = Δp / mₑ = (5.275 × 10⁻²⁵) / (9.11 × 10⁻³¹) = 5.79 × 10⁵ m/s.\nAnswer: Δv_min ≈ 5.8 × 10⁵ m/s. A wrong answer (e.g., using h instead of ħ/2, forgetting the factor 2, or unit conversion error nm→m) shows the student cannot correctly apply the inequality with the precise constant and unit handling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the minimum uncertainty in velocity for (a) an electron (mₑ = 9.11 × 10⁻³¹ kg) and (b) a dust particle (m = 1.0 × 10⁻⁹ kg), both confined to Δx = 1.0 μm. Explain why the uncertainty principle is negligible for macroscopic objects but crucial for subatomic particles.",
+     "a": "(a) Electron: Δv_min = ħ/(2mΔx) = 1.055×10⁻³⁴ / (2 × 9.11×10⁻³¹ × 1.0×10⁻⁶) ≈ 58 m/s (significant compared to typical atomic speeds ~10⁶ m/s).\n(b) Dust: Δv_min = 1.055×10⁻³⁴ / (2 × 1.0×10⁻⁹ × 1.0×10⁻⁶) ≈ 5.3 × 10⁻²⁰ m/s (immeasurably small).\nThe principle is negligible for macroscopic objects because Δv_min ∝ 1/m; large mass makes Δv_min tiny. A wrong answer (e.g., claiming both are significant, or not linking to mass) shows the student does not grasp the scaling with mass and why quantum effects are invisible at everyday scales.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The energy-time uncertainty principle ΔE Δt ≥ ħ/2 means if I measure the energy of a system very quickly (small Δt), the energy becomes uncertain.\" Evaluate this statement. Is Δt the time taken to make the measurement? Explain the correct interpretation of Δt.",
+     "a": "The statement is incorrect. Δt is NOT the measurement duration. It is the characteristic lifetime of the state (e.g., mean lifetime of an excited atomic state) or the time interval over which the system's energy changes significantly. For an unstable state with lifetime τ, the energy width (natural linewidth) is ΔE ≈ ħ/(2τ). A wrong answer reveals the common misconception that Δt is the time taken to perform the energy measurement, confusing it with the position-momentum case where Δx, Δp are standard deviations of simultaneous measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment (different from the gamma-ray microscope) that illustrates the position-momentum uncertainty principle using a single-slit diffraction setup for electrons. Describe how the slit width relates to Δx and the diffraction angle to Δp.",
+     "a": "Pass a beam of electrons through a single slit of width a. The slit localises the electron in the transverse direction: Δx ≈ a. After the slit, the electron wave diffracts. The first minimum occurs at angle θ where a sinθ = λ. The transverse momentum spread is Δpₓ ≈ p sinθ ≈ h/λ × λ/a = h/a. Thus Δx Δpₓ ≈ a × (h/a) = h ≈ 2πħ, consistent with Δx Δp ≥ ħ/2 (within a factor of 2π). A good answer connects slit width to Δx, diffraction angle to Δp, and uses de Broglie λ = h/p. A poor answer shows the student cannot translate the abstract principle into a concrete wave-diffraction picture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

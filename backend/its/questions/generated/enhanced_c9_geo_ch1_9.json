@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_9",
+   "title": "c9_geo_ch1_9",
+   "questions": [
+    {
+     "q": "Name the landform that forms when a sea arch collapses due to continued wave erosion at its base.",
+     "a": "A **sea stack** (or stack) forms when the roof of a sea arch collapses, leaving an isolated pillar of rock offshore. A wrong answer like \"sea cave\" or \"blowhole\" reveals the student confuses the sequence: cave → arch → stack → stump, and does not understand that collapse of the arch roof is the specific step creating a stack.",
+     "self_check": true
+    },
+    {
+     "q": "Why do barchan dunes form only in areas with limited sand supply and unidirectional wind, whereas transverse dunes require abundant sand?",
+     "a": "Barchans are crescent-shaped because limited sand allows the horns to extend downwind without merging; transverse dunes form long ridges because abundant sand fills the space between barchans. A wrong answer indicating \"wind speed\" as the only factor reveals the student misses the critical role of **sediment supply** in determining dune morphology.",
+     "self_check": true
+    },
+    {
+     "q": "On a topographical map of the Konkan coast, you see a series of parallel ridges separated by lagoons running parallel to the shoreline. Identify the landform and explain the depositional process that created it.",
+     "a": "The landform is a **barrier island chain with lagoons**. Steps: 1) Waves deposit sand offshore forming submerged bars. 2) Longshore drift extends bars parallel to coast. 3) Bars emerge above water becoming barrier islands. 4) Water trapped behind forms lagoons. A wrong answer like \"spit\" shows the student cannot distinguish a spit (attached at one end) from a barrier island (detached, parallel).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formation of a wave-cut platform and a deflation hollow. What fundamental difference in the erosion mechanism does this comparison reveal?",
+     "a": "A wave-cut platform forms by **mechanical abrasion** (hydraulic action + corrasion) at the base of a cliff, creating a flat rock bench at sea level. A deflation hollow forms by **wind removal of loose particles** (deflation) lowering the ground surface until water table or resistant layer stops it. The comparison reveals wave erosion is **lateral and base-level controlled**, while wind erosion is **vertical and sediment-availability controlled**. A wrong answer focusing only on \"both are flat\" misses the process distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of building a seawall to protect a coastal town like Puri from erosion, considering its impact on adjacent beaches and longshore drift.",
+     "a": "Seawalls reflect wave energy, preventing cliff retreat but **starving downdrift beaches** of sediment (since cliff erosion is a natural sand source). This accelerates erosion elsewhere. Sustainable alternative: **beach nourishment + offshore breakwaters** that dissipate energy without blocking drift. A wrong answer calling seawalls \"permanent solution\" reveals the student views coast as static, not a dynamic sediment cell.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field study plan for Class 9 students to measure the migration rate of a barchan dune near Sam, Jaisalmer, over one academic year. List instruments, measurements, and how to calculate migration speed.",
+     "a": "**Plan:** 1) Fix GPS coordinates of dune crest and horn tips (monthly). 2) Measure dune height, width, horn-to-horn distance (tape). 3) Record wind speed/direction (anemometer) daily. 4) Calculate migration: distance moved by crest / time. 5) Correlate with wind data. Good answer includes **fixed reference point** (e.g., a planted pole) and **seasonal wind analysis**. Poor answer measures only height, missing that migration is horizontal translation, not vertical growth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

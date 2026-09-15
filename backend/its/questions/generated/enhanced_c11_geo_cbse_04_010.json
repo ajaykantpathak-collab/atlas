@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_010",
+   "title": "c11_geo_cbse_04_010",
+   "questions": [
+    {
+     "q": "Name the three major global seismic-volcanic belts and state the dominant plate boundary type associated with each belt.",
+     "a": "Correct answer: (1) Circum-Pacific Belt (Ring of Fire) — predominantly convergent boundaries (subduction zones) with some transform segments; (2) Mid-Oceanic Ridge System (Mid-Atlantic Ridge, East Pacific Rise, etc.) — divergent boundaries; (3) Alpine-Himalayan Belt — convergent boundaries (continental collision). A wrong answer that lists \"Pacific Ring of Fire, Mediterranean Belt, and Mid-Atlantic Ridge\" but assigns divergent boundaries to the Himalayas reveals confusion between oceanic spreading centers and continental collision zones, a common error where students generalize all mountain belts as divergent.",
+     "self_check": true
+    },
+    {
+     "q": "Why do deep-focus earthquakes (depth > 300 km) occur exclusively at convergent plate boundaries and never at divergent or transform boundaries?",
+     "a": "Correct answer: Deep-focus earthquakes require a cold, brittle slab of subducting oceanic lithosphere to penetrate into the hot mantle where it remains rigid enough to fracture at great depths; at divergent boundaries the lithosphere is thin and hot, so rocks deform ductilely, and at transform boundaries the fault zone is shallow and confined to the crust. A wrong answer attributing deep earthquakes to \"stronger pressure at convergent boundaries\" misses the material science — it is the thermal structure of the subducting slab, not pressure magnitude, that permits brittle failure at depth.",
+     "self_check": true
+    },
+    {
+     "q": "Given a world map showing earthquake epicenters color-coded by depth (shallow: 0–70 km, intermediate: 70–300 km, deep: >300 km), identify the plate boundary type at the following coordinates and justify: (a) 10°S, 110°E; (b) 0°, 30°W; (c) 35°N, 75°E.",
+     "a": "Correct working: (a) 10°S, 110°E — Java Trench, Sunda Arc: shallow to deep focus earthquakes dipping north-northeast → convergent (oceanic-oceanic subduction). (b) 0°, 30°W — Mid-Atlantic Ridge: only shallow earthquakes (0–30 km) symmetrically distributed → divergent. (c) 35°N, 75°E — Karakoram/Himalaya: shallow to intermediate focus, no deep events → continental collision (convergent). A wrong answer assigning deep earthquakes to (b) or (c) reveals failure to link slab thermal structure to seismicity depth distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volcanic distribution along the East Pacific Rise (divergent) and the Andes (convergent). Explain why the East Pacific Rise has a continuous linear volcanic chain while the Andes show segmentation with volcanic gaps.",
+     "a": "Correct answer: At the East Pacific Rise, fast spreading (~14 cm/yr) creates steady decompression melting along the entire ridge axis, producing a continuous magma supply and linear volcanism. In the Andes, subduction angle varies (flat-slab segments at ~10°S and ~27°S suppress mantle wedge melting), crustal thickness changes, and oblique convergence create segmented volcanic zones (Northern, Central, Southern Volcanic Zones) with gaps. A wrong answer claiming \"Andes have more volcanoes because convergence is more intense\" ignores the thermal-mechanical controls on melt generation and focuses only on boundary type.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Hawaiian Islands prove that volcanoes only occur at plate boundaries.\" Provide evidence from plate tectonics and Indian Ocean examples to support your evaluation.",
+     "a": "Correct evaluation: The statement is false. Hawaii is an intraplate hotspot chain formed by a mantle plume piercing the Pacific Plate — its age progression (Kauai ~5 Ma to Big Island ~0 Ma) and fixed plume model confirm intraplate origin. In the Indian Ocean, Réunion Island (Deccan Traps source) and the Ninety East Ridge (Kerguelen hotspot track) are analogous intraplate volcanic chains. A wrong answer accepting the statement shows inability to distinguish boundary-driven from plume-driven volcanism, a critical gap for understanding flood basalts like the Deccan Traps.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-layer seismic zonation map for the Indian subcontinent (scale 1:10 million) that integrates: (i) historical seismicity (IMD catalog), (ii) active fault maps (GSI), and (iii) plate boundary proximity. Specify the classification criteria for Zone V (highest risk) to Zone II (lowest risk) and justify the placement of the Indo-Gangetic Plain.",
+     "a": "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8.0, recurrence < 200 yr, active faults + plate boundary. Zone IV — Indo-Gangetic Plain (proximity to Himalayan thrusts, thick alluvium amplifies shaking), Koyna-Warna reservoir-induced zone — criteria: Mmax 7.0–7.9, site amplification. Zone III — Peninsular shield margins (Narmada-Son lineament), Zone II — stable cratonic interior (Bundelkhand, Dharwar). Justification for Indo-Gangetic Plain in Zone IV: though far from plate boundary, it sits on >1 km of soft alluvium that amplifies seismic waves (site effect) and is within 200 km of Himalayan detachment — a wrong answer placing it in Zone II ignores site amplification and basin effects, a fatal oversight in seismic microzonation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

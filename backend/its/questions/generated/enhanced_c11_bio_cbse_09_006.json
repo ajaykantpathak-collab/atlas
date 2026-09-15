@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_006",
+   "title": "c11_bio_cbse_09_006",
+   "questions": [
+    {
+     "q": "Define 'optimum temperature' for an enzyme and state what happens to the enzyme's tertiary structure when the temperature rises 10°C above this optimum.",
+     "a": "Optimum temperature is the specific temperature at which an enzyme exhibits maximum catalytic activity. A rise of 10°C above optimum disrupts weak interactions (hydrogen bonds, hydrophobic interactions) maintaining the tertiary structure, causing irreversible denaturation — the active site loses its precise geometry, and substrate binding fails. A wrong answer (e.g., \"enzyme works faster but then stops\") reveals the student thinks denaturation is a simple on/off switch rather than progressive structural unfolding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the velocity of an enzyme-catalysed reaction plateaus (reaches Vmax) at high substrate concentrations, even if more substrate is added.",
+     "a": "At high substrate concentration, all enzyme active sites are occupied (saturation). The reaction rate becomes limited by the turnover number (kcat) of the enzyme — the maximum number of substrate molecules converted per active site per unit time. Adding more substrate cannot increase rate because no free enzyme is available to bind it. A wrong answer (e.g., \"substrate inhibits the enzyme at high concentration\") reveals confusion between saturation kinetics and substrate inhibition, which is a separate phenomenon not covered at this level.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up an experiment with salivary amylase and starch at pH 7 (optimum). They then repeat it at pH 4 and pH 10. Predict the relative reaction rates at pH 4 and pH 10 compared to pH 7, and explain the molecular reason.",
+     "a": "At both pH 4 and pH 10, the reaction rate will be significantly lower than at pH 7. Extreme pH alters the ionization states of amino acid side chains (e.g., -COOH, -NH2) in the active site and across the protein, disrupting ionic bonds and hydrogen bonds that stabilize the tertiary structure. This distorts the active site geometry, reducing substrate binding affinity and catalytic efficiency. A wrong answer (e.g., \"pH 4 works better because stomach is acidic\") reveals the student conflates enzyme optimum with organ pH, ignoring that salivary amylase is inactivated in the stomach.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of a competitive inhibitor and a non-competitive inhibitor on Vmax and Km of an enzyme. (Note: Non-competitive inhibition is not in NCERT Class 11 but tests analytical extension.)",
+     "a": "Competitive inhibitor: Vmax unchanged (can be overcome by high [S]), Km increases (apparent affinity decreases). Non-competitive inhibitor: Vmax decreases (cannot be overcome by [S]), Km unchanged (affinity for substrate unaltered). A wrong answer (e.g., \"both decrease Vmax\") reveals the student does not distinguish between binding at the active site vs. an allosteric site, and cannot reason about whether substrate can outcompete the inhibitor.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since enzymes speed up reactions, increasing temperature indefinitely will keep increasing the reaction rate because molecules move faster.\" Identify the error and correct it using the concept of activation energy and protein stability.",
+     "a": "The statement ignores that enzymes are proteins with a narrow thermal stability range. While molecular motion increases with temperature (raising collision frequency), above the optimum the enzyme denatures — its tertiary structure unfolds, the active site is destroyed, and catalytic ability is lost permanently. The activation energy barrier is no longer lowered because the catalyst is non-functional. A wrong answer (e.g., \"enzymes also denature at low temperature\") reveals confusion between reversible inactivation (cold) and irreversible denaturation (heat).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using potato tuber (source of catalase) and hydrogen peroxide to demonstrate the effect of temperature on enzyme activity. Specify the independent variable, dependent variable, two controlled variables, and the expected graph shape.",
+     "a": "Independent variable: Temperature (e.g., 10, 20, 30, 40, 50, 60°C). Dependent variable: Volume of O2 gas evolved per minute (or time for filter paper disc to rise). Controlled variables: Same potato mass/volume, same H2O2 concentration, same pH buffer, same reaction time. Expected graph: Bell-shaped curve peaking at ~35-40°C (optimum), declining sharply at 50-60°C due to denaturation. A poor answer (e.g., \"measure bubbles at different temperatures\") lacks quantitative dependent variable, controls, or prediction of the decline phase, showing inability to design a controlled investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

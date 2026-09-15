@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_007",
+   "title": "c7_physics_ch01_007",
+   "questions": [
+    {
+     "q": "What term best describes how modern scientific theories develop from older, simpler ideas through continuous testing, observation, and technological improvement?",
+     "a": "Cumulative building or scientific evolution. A student who answers \"guessing\" or \"luck\" misses the systematic, evidence-based nature of scientific progress where every new discovery relies on prior validated experiments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why scientists do not throw away all past scientific ideas when a new discovery is made, but instead build upon them.",
+     "a": "Past ideas are usually built on reliable, repeatable observations that remain true within specific limits (for example, simple straight-line light paths still explain basic shadows perfectly, even if wave theories explain more complex behaviors). A student who believes old science is entirely \"wrong\" fails to understand that older models are often valid approximations for everyday phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that because electric circuits were studied in Class 6, there is nothing new to learn about electricity in Class 7 or beyond. Calculate or explain how a Class 6 simple circuit with one bulb (resistance $R = 10\\ \\Omega$, current $I = 0.5\\text{ A}$) forms the foundation for understanding a more complex home wiring system where multiple appliances operate independently.",
+     "a": "Step 1: Identify the foundational concept from Class 6: a simple closed loop allows electric current to flow through a single path (Series Circuit).\nStep 2: Identify the new application: home wiring requires appliances to run independently, which builds upon the basic switch and conductor principles into Parallel Circuits.\nStep 3: Analyze the relationship: in a simple circuit, if one component breaks, the current stops; in parallel arrangements derived from these rules, current finds multiple paths.\nStep 4: Conclude that advanced systems use the exact same fundamental rules of current flow ($I = \\frac{V}{R}$) learned earlier, just arranged in more sophisticated configurations.\nStep 5: Verify that the basic laws of electricity are preserved across both simple and complex systems. A student who thinks advanced electronics ignore basic circuits will fail to see how complex systems are just combinations of simple building blocks.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the transition from measuring time using a simple pendulum to using electronic digital watches. How does the core scientific idea of \"periodic motion\" remain essential in both?",
+     "a": "Both devices rely on counting regular, repeating events (oscillations of a bob vs. oscillations of a quartz crystal). A student who thinks digital watches have nothing in common with pendulums fails to recognize that all time-measuring instruments depend on a constant, repeating physical process to mark equal intervals of time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If a new experiment gives a result that does not match an older scientific theory, the older theory must have been completely useless.\" Is this judgment valid?",
+     "a": "This judgment is invalid because older theories provide the exact framework and tools needed to conduct the new experiment in the first place; they are not useless, but rather boundary-limited models. A student who agrees with the statement misunderstands that science progresses by refining boundaries, not by discarding valid past data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short two-step investigative sequence starting from a basic Class 6 observation of light shadows to show how scientific ideas build on each other to explain solar and lunar eclipses.",
+     "a": "Step 1: Start with the Class 6 principle that light travels in straight lines and forms dark shadows behind opaque objects. Step 2: Scale up this exact concept to celestial bodies by treating the Earth, Moon, and Sun as large opaque spheres casting shadows across space, which directly explains eclipses. A poor answer would treat eclipses as a magical event unrelated to simple shadow formation in a school laboratory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

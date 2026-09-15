@@ -1,0 +1,524 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Parliamentary System: Legislature and Executive",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees106.txt",
+ "concepts": [
+  {
+   "id": "c8ss.6.1",
+   "title": "Parliamentary System of Government",
+   "section": "Parliamentary System of Government",
+   "definition": "A parliamentary system of government is one in which the executive is drawn from and is responsible to the legislature, and the head of government is the leader of the majority party in parliament.",
+   "formula": "",
+   "key_idea": "In a parliamentary system, the executive is collectively responsible to the legislature, ensuring continuous accountability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a parliamentary system of government?",
+    "How is the executive formed in a parliamentary system?",
+    "Explain the principle of collective responsibility in a parliamentary system.",
+    "Who is the head of government in a parliamentary democracy?",
+    "Why is the parliamentary system said to ensure accountability of the executive?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of the executive",
+     "explain": "Note that the executive is drawn from the elected members of the legislature."
+    },
+    {
+     "step": 2,
+     "action": "Check responsibility to legislature",
+     "explain": "Confirm that the executive remains in office only as long as it enjoys the confidence of the legislature."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the system",
+     "explain": "State that because the executive is responsible to the legislature, the system is parliamentary."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a parliamentary system, what happens if the government loses a no-confidence motion?",
+     "solution": "If the government loses a no-confidence motion in the legislature, it must resign, showing its responsibility to parliament.",
+     "answer": "The government must resign because it no longer has the confidence of the legislature."
+    },
+    {
+     "question": "Who is the real head of the executive in India's parliamentary system?",
+     "solution": "The Prime Minister, as leader of the majority party in the Lok Sabha, is the real head of the executive.",
+     "answer": "The Prime Minister is the real head of the executive in India."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a parliamentary system of government.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the meaning of collective responsibility.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.2",
+   "title": "Parliament of India: Lok Sabha and Rajya Sabha",
+   "section": "Parliament of India",
+   "definition": "The Parliament of India consists of the President, the Lok Sabha (House of the People) and the Rajya Sabha (Council of States); together they form the union legislature.",
+   "formula": "",
+   "key_idea": "The Lok Sabha is the directly elected lower house, while the Rajya Sabha is the indirectly elected upper house representing the states.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three components of the Parliament of India?",
+    "Distinguish between the Lok Sabha and the Rajya Sabha.",
+    "Why is the Lok Sabha called the House of the People?",
+    "Why is the Rajya Sabha called the Council of States?",
+    "Explain the relationship between the two houses of Parliament."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components",
+     "explain": "Note that Parliament consists of the President, the Lok Sabha, and the Rajya Sabha."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish the houses",
+     "explain": "Recognise that the Lok Sabha is directly elected and the Rajya Sabha is indirectly elected."
+    },
+    {
+     "step": 3,
+     "action": "Explain their relationship",
+     "explain": "State that both houses participate in law-making, with the Lok Sabha having greater power over money bills."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the three parts of the Indian Parliament.",
+     "solution": "The Indian Parliament consists of the President, the Lok Sabha, and the Rajya Sabha.",
+     "answer": "The three parts are the President, the Lok Sabha, and the Rajya Sabha."
+    },
+    {
+     "question": "Which house has more power over money bills and why?",
+     "solution": "The Lok Sabha has more power over money bills because it is directly elected and represents the people, so money bills originate only in it.",
+     "answer": "The Lok Sabha has more power over money bills because it is the directly elected house."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three components of the Indian Parliament.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between the Lok Sabha and the Rajya Sabha in two points.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.3",
+   "title": "Law-Making Process",
+   "section": "Law-Making Process",
+   "definition": "The law-making process is the procedure by which a bill passes through three readings in each house of Parliament, receives the President's assent, and becomes an Act.",
+   "formula": "",
+   "key_idea": "A bill must pass both houses in identical form and receive the President's assent before it becomes law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the stages through which a bill passes before becoming a law.",
+    "What is the difference between a bill and an Act?",
+    "Explain the role of the President in the law-making process.",
+    "Distinguish between an ordinary bill and a money bill.",
+    "What happens if the two houses disagree on an ordinary bill?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the bill through readings",
+     "explain": "Follow the bill through first reading (introduction), second reading (detailed discussion), and third reading (final vote)."
+    },
+    {
+     "step": 2,
+     "action": "Check passage in both houses",
+     "explain": "Confirm the bill is passed by both the Lok Sabha and the Rajya Sabha in the same form."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the assent",
+     "explain": "Verify that the President gives assent, after which the bill becomes an Act."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "At what stage does a bill become a law?",
+     "solution": "A bill becomes a law only after it is passed by both houses and receives the assent of the President.",
+     "answer": "A bill becomes a law after the President's assent."
+    },
+    {
+     "question": "Where does a money bill originate and what is the Rajya Sabha's role in it?",
+     "solution": "A money bill originates only in the Lok Sabha; the Rajya Sabha can only suggest amendments within 14 days but cannot reject it.",
+     "answer": "A money bill originates in the Lok Sabha and the Rajya Sabha can only suggest amendments."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three readings a bill undergoes in a house.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the President's assent in law-making.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.4",
+   "title": "President of India and Role",
+   "section": "President of India",
+   "definition": "The President of India is the constitutional head of the state, elected by an electoral college, who exercises executive powers on the advice of the Council of Ministers.",
+   "formula": "",
+   "key_idea": "The President is the nominal head of the executive, while real executive power lies with the Council of Ministers headed by the Prime Minister.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is the President of India elected?",
+    "What are the main powers of the President of India?",
+    "Distinguish between the nominal and real executive in India.",
+    "Explain the role of the President in the law-making process.",
+    "On whose advice does the President act while exercising executive powers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the office",
+     "explain": "Recognise the President as the constitutional head of state elected by an electoral college."
+    },
+    {
+     "step": 2,
+     "action": "Examine the powers",
+     "explain": "Note the executive, legislative, judicial, and emergency powers exercised on the advice of the Council of Ministers."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the role",
+     "explain": "State that the President is the nominal head, while real power lies with the Prime Minister-led Council of Ministers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is the President of India the real or nominal head of the executive?",
+     "solution": "The President is the nominal head; real executive power is exercised by the Council of Ministers headed by the Prime Minister.",
+     "answer": "The President is the nominal head of the executive."
+    },
+    {
+     "question": "How is the President of India elected?",
+     "solution": "The President is elected indirectly by an electoral college consisting of elected members of both houses of Parliament and the state legislative assemblies.",
+     "answer": "The President is elected by an electoral college of elected MPs and MLAs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any three powers of the President of India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the President is called the nominal head of the executive.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.5",
+   "title": "Prime Minister and Council of Ministers",
+   "section": "Prime Minister and Council of Ministers",
+   "definition": "The Prime Minister is the head of government and the leader of the Council of Ministers, which is collectively responsible to the Lok Sabha.",
+   "formula": "",
+   "key_idea": "The Prime Minister is appointed by the President and selects the Council of Ministers, which holds the real executive power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is the Prime Minister of India appointed?",
+    "What are the functions of the Prime Minister?",
+    "Explain the principle of collective responsibility of the Council of Ministers.",
+    "How is the Council of Ministers formed?",
+    "Distinguish between the roles of the President and the Prime Minister."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the appointment",
+     "explain": "Note that the President appoints the leader of the majority party in the Lok Sabha as Prime Minister."
+    },
+    {
+     "step": 2,
+     "action": "Examine the Council of Ministers",
+     "explain": "Recognise that the Prime Minister selects ministers who are collectively responsible to the Lok Sabha."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the role",
+     "explain": "State that the Prime Minister and Council of Ministers hold the real executive power."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who appoints the Prime Minister of India and on what basis?",
+     "solution": "The President appoints as Prime Minister the leader of the party or coalition that has a majority in the Lok Sabha.",
+     "answer": "The President appoints the leader of the majority in the Lok Sabha as Prime Minister."
+    },
+    {
+     "question": "What does collective responsibility of the Council of Ministers mean?",
+     "solution": "It means all ministers stand together and are jointly answerable to the Lok Sabha; if a no-confidence motion passes, the entire Council must resign.",
+     "answer": "Collective responsibility means ministers are jointly answerable to the Lok Sabha."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Prime Minister is appointed in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the meaning of collective responsibility of the Council of Ministers.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.6",
+   "title": "Parliamentary vs Presidential Democracy",
+   "section": "Parliamentary vs Presidential Democracy",
+   "definition": "In a parliamentary democracy the executive is drawn from and responsible to the legislature, whereas in a presidential democracy the executive is elected separately and is not responsible to the legislature.",
+   "formula": "",
+   "key_idea": "The key difference lies in the relationship between the executive and the legislature: fused and responsible in parliamentary, separate and fixed-term in presidential.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between a parliamentary and a presidential democracy.",
+    "How is the head of government chosen in a presidential system?",
+    "Why is the executive separate from the legislature in a presidential democracy?",
+    "In which system can the legislature remove the executive through a no-confidence motion?",
+    "Compare the term of the executive in parliamentary and presidential systems."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the executive-legislature relationship",
+     "explain": "Check whether the executive is drawn from and responsible to the legislature."
+    },
+    {
+     "step": 2,
+     "action": "Examine the method of election",
+     "explain": "Note whether the executive is elected by the legislature or separately by the people."
+    },
+    {
+     "step": 3,
+     "action": "Classify the system",
+     "explain": "If the executive is responsible to the legislature, it is parliamentary; if separate and fixed-term, it is presidential."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which system can the legislature remove the executive before its term ends?",
+     "solution": "In a parliamentary system, the legislature can remove the executive through a no-confidence motion; in a presidential system it generally cannot.",
+     "answer": "The legislature can remove the executive in a parliamentary system."
+    },
+    {
+     "question": "How does the term of the executive differ in the two systems?",
+     "solution": "In a parliamentary system the executive's term depends on legislature confidence, while in a presidential system it has a fixed term.",
+     "answer": "Parliamentary executive has a flexible term; presidential executive has a fixed term."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State two differences between parliamentary and presidential democracy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the head of government is chosen in a presidential system.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.7",
+   "title": "Parliamentary Procedures",
+   "section": "Parliamentary Procedures",
+   "definition": "Parliamentary procedures are the rules and practices that govern the conduct of business in Parliament, including question hour, zero hour, debates, motions, and committees.",
+   "formula": "",
+   "key_idea": "Parliamentary procedures such as question hour and motions allow members to scrutinise the government and hold it accountable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the question hour in Parliament and why is it important?",
+    "Explain the purpose of zero hour in the Lok Sabha.",
+    "What is a no-confidence motion and when is it used?",
+    "How do parliamentary committees help in the functioning of Parliament?",
+    "Mention two devices used by members to raise matters in Parliament."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the procedure",
+     "explain": "Recognise the device such as question hour, zero hour, or a motion used in Parliament."
+    },
+    {
+     "step": 2,
+     "action": "Explain its purpose",
+     "explain": "Describe how the procedure allows members to question, debate, or scrutinise the government."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on accountability",
+     "explain": "State that these procedures collectively ensure the executive remains accountable to Parliament."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the question hour important in Parliament?",
+     "solution": "During question hour members ask questions of ministers, forcing the government to explain its actions and ensuring accountability.",
+     "answer": "Question hour lets members question ministers and hold the government accountable."
+    },
+    {
+     "question": "What is a no-confidence motion?",
+     "solution": "It is a motion moved in the Lok Sabha stating that the house has no confidence in the Council of Ministers; if passed, the government must resign.",
+     "answer": "A no-confidence motion, if passed, forces the government to resign."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of the question hour in Parliament.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is a no-confidence motion and what is its effect?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.8",
+   "title": "Accountability of the Executive",
+   "section": "Accountability of the Executive",
+   "definition": "Accountability of the executive is the principle that the Council of Ministers remains in office only as long as it enjoys the confidence of the Lok Sabha and must answer to Parliament for its actions.",
+   "formula": "",
+   "key_idea": "Through questions, motions, debates, and the no-confidence motion, Parliament ensures the executive is accountable to the people's representatives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does Parliament ensure the accountability of the executive?",
+    "What is a no-confidence motion and how does it enforce accountability?",
+    "Explain how the question hour holds the government accountable.",
+    "Why is collective responsibility important for executive accountability?",
+    "Mention two parliamentary devices used to control the executive."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mechanism",
+     "explain": "Recognise the device such as questions, motions, or debates used to scrutinise the executive."
+    },
+    {
+     "step": 2,
+     "action": "Explain the effect",
+     "explain": "Describe how the mechanism forces ministers to explain or justify their actions to Parliament."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on accountability",
+     "explain": "State that these mechanisms ensure the executive remains responsible to the legislature and, through it, to the people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a no-confidence motion enforce executive accountability?",
+     "solution": "If the Lok Sabha passes a no-confidence motion, the Council of Ministers must resign, showing that the executive depends on legislature confidence.",
+     "answer": "A no-confidence motion forces the government to resign if passed, enforcing accountability."
+    },
+    {
+     "question": "How do parliamentary questions make the executive accountable?",
+     "solution": "Through questions, ministers must explain their decisions and actions on the floor of the house, making them answerable to elected representatives.",
+     "answer": "Questions force ministers to explain their actions, ensuring accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how Parliament ensures the accountability of the executive.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the effect of a no-confidence motion on the government.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.6.9",
+   "title": "Composition of Parliament: Seats Calculation",
+   "section": "Composition of Parliament",
+   "definition": "The strength of a house of Parliament is the sum of seats allocated to states and union territories; the Lok Sabha currently has 543 elected members.",
+   "formula": "total_members = state_seats + union_territory_seats",
+   "key_idea": "The total membership of a house is found by adding the seats from states and union territories.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is the total strength of the Lok Sabha calculated?",
+    "If a state has 25 Lok Sabha seats and a union territory has 5, what is their combined representation?",
+    "Calculate the number of seats needed for a simple majority in a 543-member Lok Sabha.",
+    "How does the addition of seats from states and union territories give the house strength?",
+    "If 530 seats are from states and 13 from union territories, what is the Lok Sabha strength?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify seats from states",
+     "explain": "Record the number of Lok Sabha seats allocated to the states.",
+     "compute": "state_seats = 530"
+    },
+    {
+     "step": 2,
+     "action": "Identify seats from union territories",
+     "explain": "Record the number of seats allocated to the union territories.",
+     "compute": "ut_seats = 13"
+    },
+    {
+     "step": 3,
+     "action": "Compute total membership",
+     "explain": "Add the state and union territory seats to get the total membership of the house.",
+     "compute": "total_members = state_seats + ut_seats"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If 530 seats come from states and 13 from union territories, what is the strength of the Lok Sabha?",
+     "solution": "Total = 530 + 13 = 543 elected members.",
+     "answer": "The Lok Sabha has 543 elected members."
+    },
+    {
+     "question": "What is the simple majority mark in a 543-member Lok Sabha?",
+     "solution": "Simple majority = 543 // 2 + 1 = 271 + 1 = 272.",
+     "answer": "A simple majority requires 272 seats."
+    },
+    {
+     "question": "A state has 48 seats and a union territory has 2 seats. What is their combined representation?",
+     "solution": "Combined = 48 + 2 = 50 seats.",
+     "answer": "Their combined representation is 50 seats."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If a state has 40 seats and a union territory has 1 seat, find their combined Lok Sabha representation.",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the simple majority mark for a 543-member Lok Sabha.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

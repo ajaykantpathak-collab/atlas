@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_006",
+   "title": "c11_phy_cbse_12_006",
+   "questions": [
+    {
+     "q": "State the molar specific heat at constant volume (Cv) and constant pressure (Cp) for a monoatomic ideal gas, and give the value of γ = Cp/Cv. Include SI units.",
+     "a": "Cv = (3/2)R = 12.5 J mol⁻¹ K⁻¹, Cp = (5/2)R = 20.8 J mol⁻¹ K⁻¹, γ = 5/3 ≈ 1.67. A wrong answer (e.g., Cv = 3R) reveals the student is counting degrees of freedom incorrectly or confusing per-molecule (½kB) with per-mole (½R) energy contributions.",
+     "self_check": true
+    },
+    {
+     "q": "A diatomic gas like oxygen has two rotational degrees of freedom at room temperature. Explain why rotation about the internuclear axis does NOT contribute a third rotational degree of freedom, referencing moment of inertia and quantum mechanics.",
+     "a": "Rotation about the internuclear axis has a negligible moment of inertia because nearly all mass lies on the axis. Quantum mechanically, the energy spacing for this rotation is so large that it remains unexcited (frozen) at ordinary temperatures. A wrong answer claiming \"three rotations for any 3D object\" shows the student is applying rigid-body mechanics without considering molecular structure and quantum effects.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molar specific heat at constant volume (Cv) and the ratio γ for a rigid diatomic gas. Then calculate Cv and γ if one vibrational mode becomes fully active. Use R = 8.31 J mol⁻¹ K⁻¹.",
+     "a": "Rigid: f = 5 (3 trans + 2 rot) → Cv = (5/2)R = 20.8 J mol⁻¹ K⁻¹, γ = 7/5 = 1.40.\nWith vibration: f = 7 (adds 2 quadratics: kinetic + potential) → Cv = (7/2)R = 29.1 J mol⁻¹ K⁻¹, γ = 9/7 ≈ 1.29.\nA wrong answer adding only 1 to f for vibration reveals the student thinks a vibrational mode contributes one degree of freedom instead of two (kinetic + potential).",
+     "self_check": true
+    },
+    {
+     "q": "Experimental Cv for chlorine gas (Cl₂) at 300 K is 25.0 J mol⁻¹ K⁻¹, higher than the rigid diatomic prediction of 20.8 J mol⁻¹ K⁻¹ but lower than the fully vibrating prediction of 29.1 J mol⁻¹ K⁻¹. Analyse what this implies about the vibrational degree of freedom in Cl₂ at room temperature.",
+     "a": "The vibrational mode is partially excited — some molecules have enough energy to vibrate, but not all. This indicates the vibrational quantum (hν) is comparable to kBT at 300 K, so equipartition applies only partially. A wrong answer claiming \"equipartition is wrong\" or \"Cl₂ is not diatomic\" shows inability to interpret intermediate experimental values as evidence of partial quantum activation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since Cp - Cv = R for all ideal gases, and γ = Cp/Cv, then γ must be the same for all ideal gases.\" Evaluate this reasoning and identify the flaw.",
+     "a": "The reasoning is flawed. While Cp - Cv = R is universal for ideal gases, both Cp and Cv individually depend on degrees of freedom f (Cv = fR/2, Cp = (f+2)R/2). Therefore γ = (f+2)/f varies with f: 5/3 for monoatomic, 7/5 for rigid diatomic, 9/7 for vibrating diatomic. The student incorrectly assumes Cp and Cv are constants rather than functions of f.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using speed of sound measurements in two different gases to distinguish whether a gas is monoatomic or diatomic at room temperature. Specify what you would measure and how you would interpret the result.",
+     "a": "Measure the speed of sound v = √(γRT/M) in each gas at known T. Since M (molar mass) can be found independently, calculate γ = v²M/(RT). If γ ≈ 1.67, the gas is monoatomic (f=3); if γ ≈ 1.40, it is rigid diatomic (f=5). A good answer recognises that γ directly reflects degrees of freedom. A poor answer suggests measuring specific heat directly (circular) or ignores the molar mass dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

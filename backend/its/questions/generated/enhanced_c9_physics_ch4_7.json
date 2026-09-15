@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_7",
+   "title": "c9_physics_ch4_7",
+   "questions": [
+    {
+     "q": "State the formula for mechanical energy of an object of mass m moving with speed v at a height h above a chosen reference level. What is its SI unit?",
+     "a": "Mechanical energy = ½mv² + mgh; SI unit is joule (J). A wrong answer like \"mv² + mgh\" or \"½mv² + ½mgh\" reveals the student has not memorized the correct coefficients from the kinetic and potential energy formulas. Forgetting the unit or stating \"watt\" shows confusion between energy and power.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg ball is thrown vertically upward with an initial speed of 10 m/s. At the maximum height, its kinetic energy becomes zero. Explain why the mechanical energy of the ball-Earth system is still the same as at the start, and identify the energy transformation that occurs.",
+     "a": "At maximum height, kinetic energy is fully converted to gravitational potential energy (mgh_max). Since only gravity (a conservative force) does work, the total mechanical energy (KE + PE) remains constant. A wrong answer claiming \"energy is lost\" or \"mechanical energy decreases\" reveals the misconception that energy disappears rather than transforms, or confusion between mechanical energy and kinetic energy alone.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.5 kg stone is dropped from a height of 20 m. Calculate its mechanical energy (i) at the start, (ii) after falling 5 m, and (iii) just before hitting the ground. Take g = 10 m/s² and ignore air resistance.",
+     "a": "(i) At start: v=0, h=20 m → KE=0, PE=mgh=0.5×10×20=100 J → ME=100 J.\n(ii) After falling 5 m: h=15 m. Using v²=u²+2gh_fall=0+2×10×5=100 → v=10 m/s. KE=½×0.5×100=25 J, PE=0.5×10×15=75 J → ME=100 J.\n(iii) Just before ground: h=0, v²=0+2×10×20=400 → v=20 m/s. KE=½×0.5×400=100 J, PE=0 → ME=100 J.\nA wrong answer with different ME values at each stage indicates the student either miscalculated velocity/height or believes mechanical energy changes during free fall.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balls are released from the same height: Ball A is dropped from rest, Ball B is thrown horizontally with speed 10 m/s. Compare their mechanical energies at the moment of release and just before hitting the ground. Assume no air resistance.",
+     "a": "At release: Ball A has ME = mgh (KE=0). Ball B has ME = mgh + ½m(10)² = mgh + 50m. Ball B has greater mechanical energy initially because of its horizontal kinetic energy. Just before hitting ground: Both have converted all potential energy to kinetic energy. Ball A: KE = mgh. Ball B: KE = mgh + 50m. Ball B still has greater mechanical energy. A wrong answer saying \"both have same mechanical energy\" reveals the student thinks mechanical energy depends only on height, ignoring the initial kinetic energy contribution.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a pendulum problem: \"A 1 kg bob is released from height 0.8 m. At the lowest point, its speed is 4 m/s. The student claims mechanical energy is conserved because KE at bottom = ½×1×4² = 8 J and PE at top = 1×10×0.8 = 8 J.\" Evaluate this claim. Is the student correct? Justify.",
+     "a": "The student is correct numerically (both equal 8 J) but the reasoning is incomplete. Mechanical energy conservation requires that the sum KE+PE is constant at ALL points, not just that the initial PE equals final KE. The student should verify at an intermediate point (e.g., at height 0.4 m, speed should be √(2g×0.4) ≈ 2.83 m/s, giving KE≈4 J, PE=4 J, sum=8 J). A wrong evaluation accepting the claim without checking intermediate points shows the student equates \"initial PE = final KE\" with \"conservation at every instant.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a ball, a ramp, and a meter scale to demonstrate that mechanical energy is conserved when a ball rolls down a smooth incline. Specify what you would measure, how you would calculate kinetic and potential energy at three points, and what result would confirm conservation.",
+     "a": "Set up a smooth ramp of length 2 m inclined at 30° (height 1 m). Use a 0.1 kg ball. Measure time to roll from rest at top to three points: top (h=1 m), middle (h=0.5 m), bottom (h=0). Calculate speed from distance/time (assuming uniform acceleration) or use v²=2gh for predicted speeds. At each point: KE=½mv², PE=mgh. Conservation is confirmed if KE+PE ≈ 1 J (mgh_initial) at all three points within experimental error. A poor answer that only measures final speed or ignores the middle point shows the student doesn't understand that conservation must hold at every instant, not just initial and final.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

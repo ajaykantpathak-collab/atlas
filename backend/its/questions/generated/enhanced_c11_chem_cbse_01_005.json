@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_005",
+   "title": "c11_chem_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the four postulates of Dalton's Atomic Theory as originally proposed in 1808.",
+     "a": "The four postulates are: (1) Matter consists of indivisible atoms. (2) All atoms of a given element have identical properties including identical mass; atoms of different elements differ in mass. (3) Compounds form when atoms of different elements combine in a fixed, simple whole-number ratio. (4) Chemical reactions involve reorganization of atoms — atoms are neither created nor destroyed. A wrong answer reveals the student is confusing Dalton's original postulates with modern modifications (e.g., mentioning isotopes, subatomic particles, or divisibility of atoms), indicating they haven't distinguished historical theory from current understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how Dalton's third postulate (fixed ratio combination) accounts for the Law of Definite Proportions, and why the second postulate (identical atoms of same element) is necessary for this explanation.",
+     "a": "The Law of Definite Proportions states a compound always contains elements in fixed mass ratio. Dalton's third postulate says atoms combine in fixed whole-number ratios (e.g., 1:1 for water). The second postulate ensures every oxygen atom has the same mass and every hydrogen atom has the same mass, so the mass ratio in any sample of water is always (2 × mass of H) : (1 × mass of O) = constant. A wrong answer that only cites the third postulate misses the crucial role of atomic mass consistency — revealing the student doesn't see how postulates work together as a system.",
+     "self_check": true
+    },
+    {
+     "q": "Carbon forms two oxides: CO (carbon monoxide) and CO₂ (carbon dioxide). In CO, 12 g carbon combines with 16 g oxygen. In CO₂, 12 g carbon combines with 32 g oxygen. Show how this data obeys the Law of Multiple Proportions and which Dalton postulate explains it.",
+     "a": "Fixed mass of carbon = 12 g. Masses of oxygen combining with it: 16 g (in CO) and 32 g (in CO₂). Ratio = 16:32 = 1:2 — a simple whole-number ratio. This obeys the Law of Multiple Proportions. Dalton's third postulate explains it: atoms combine in simple whole-number ratios. In CO, 1 C atom : 1 O atom; in CO₂, 1 C atom : 2 O atoms. The oxygen mass ratio 1:2 directly reflects the atom ratio 1:2. A wrong answer that calculates the ratio but doesn't link it to the atom-ratio postulate shows procedural knowledge without conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Dalton's theory could explain the laws of conservation of mass and definite proportions but failed to explain Gay-Lussac's Law of Gaseous Volumes. Analyze why the \"indivisible atom\" postulate created this specific failure.",
+     "a": "Gay-Lussac found gases combine in simple volume ratios (e.g., 2 volumes H₂ + 1 volume O₂ → 2 volumes H₂O vapour). Dalton assumed atoms are indivisible and that elemental gases exist as single atoms. If H and O are monatomic, 2 volumes H + 1 volume O should give 1 volume H₂O (not 2), and oxygen atoms would need to split — contradicting indivisibility. Avogadro resolved this by proposing diatomic molecules (H₂, O₂) and that equal volumes contain equal numbers of particles. A wrong answer that only states \"Dalton couldn't explain gas laws\" without identifying the indivisibility-monatomic assumption conflict shows superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Dalton's theory is completely wrong because we now know atoms are divisible and have isotopes.\" Evaluate this claim by identifying which postulates are modified, which remain valid, and why the theory was still a scientific breakthrough.",
+     "a": "The claim is partially correct but historically inaccurate. Postulate 1 (indivisible) is modified — atoms contain subatomic particles. Postulate 2 (identical atoms of same element) is modified — isotopes exist with different masses. Postulates 3 (fixed ratio combination) and 4 (reorganization in reactions) remain fundamentally valid and form the basis of stoichiometry. The breakthrough was providing the first quantitative atomic model that explained all three mass laws simultaneously — a predictive framework that guided 50 years of chemistry. A wrong answer that dismisses the entire theory shows presentism — judging past science by modern knowledge rather than its explanatory power in its time.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using only Dalton's postulates (no modern knowledge) to predict the formula of a compound formed when 7 g of nitrogen combines with 16 g of oxygen, given that nitrogen's atomic mass is 14 and oxygen's is 16 (relative to hydrogen = 1).",
+     "a": "Using Postulate 2: N atom mass = 14, O atom mass = 16. 7 g N = 0.5 N atoms (in relative units); 16 g O = 1 O atom. Atom ratio N:O = 0.5:1 = 1:2. By Postulate 3, atoms combine in simple whole-number ratios → multiply by 2 → 1:2 ratio → formula NO₂. A good answer shows the step: convert mass to relative atom count using atomic masses → find simplest whole-number ratio → write formula. A poor answer that guesses NO or N₂O reveals inability to apply the mass-to-atom conversion logic central to Dalton's method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

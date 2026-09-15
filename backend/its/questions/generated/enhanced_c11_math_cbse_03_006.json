@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_006",
+   "title": "c11_math_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the sign of each of the six trigonometric functions for an angle θ = 300°.",
+     "a": "θ = 300° lies in the fourth quadrant (270° < 300° < 360°). In QIV: cos > 0, sin < 0, tan < 0, sec > 0, cosec < 0, cot < 0. A wrong answer (e.g., saying tan is positive) reveals the student has either misidentified the quadrant (thinking 300° is in QI) or misremembered the ASTC mnemonic order (confusing QIII and QIV rules).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why tan θ is positive in the third quadrant even though both sin θ and cos θ are negative there. Use the unit circle definition.",
+     "a": "In QIII, the point P on the unit circle has coordinates (x, y) with x < 0 and y < 0. By definition, sin θ = y (negative), cos θ = x (negative). Then tan θ = sin θ / cos θ = y/x = (negative)/(negative) = positive. A wrong answer (e.g., \"tan is negative because sin is negative\") reveals the student is not applying the quotient definition tan θ = sin θ/cos θ and is instead trying to memorize each function's sign independently without understanding the algebraic relationship.",
+     "self_check": true
+    },
+    {
+     "q": "If cos θ = -4/5 and θ lies in the third quadrant, find the exact values of sin θ, tan θ, cosec θ, sec θ, and cot θ.",
+     "a": "**Step 1:** cos θ = -4/5 (given, negative in QIII – consistent).  \n**Step 2:** Use sin²θ + cos²θ = 1 → sin²θ = 1 - 16/25 = 9/25 → sin θ = ±3/5.  \n**Step 3:** In QIII, sin θ is negative → sin θ = -3/5.  \n**Step 4:** tan θ = sin θ/cos θ = (-3/5)/(-4/5) = 3/4 (positive in QIII).  \n**Step 5:** Reciprocals: cosec θ = -5/3, sec θ = -5/4, cot θ = 4/3.  \n**Step 6:** Verify signs: QIII → sin -, cos -, tan +, cosec -, sec -, cot +. All match.  \nA wrong answer (e.g., sin θ = +3/5) reveals the student forgot to apply the quadrant sign rule when taking the square root – a classic \"sign dropout\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Given that sec θ < 0 and cot θ > 0, determine the quadrant in which θ lies. Justify your answer.",
+     "a": "sec θ < 0 ⇒ cos θ < 0 (reciprocal has same sign). cos θ < 0 in QII and QIII.  \ncot θ > 0 ⇒ tan θ > 0 (reciprocal has same sign). tan θ > 0 in QI and QIII.  \nIntersection of {QII, QIII} and {QI, QIII} is **QIII**.  \nA wrong answer (e.g., QII) reveals the student cannot combine two sign conditions simultaneously – they check one condition but forget to cross-check with the other.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"sin 150° and sin 210° are both negative because both angles are greater than 90°.\" Identify the error and give the correct signs.",
+     "a": "**Error:** The student incorrectly assumes all angles > 90° have negative sine.  \n**Correction:** 150° is in QII (90° < 150° < 180°) where sin is **positive**. 210° is in QIII (180° < 210° < 270°) where sin is **negative**.  \nThe student is using a vague \"greater than 90°\" rule instead of precise quadrant boundaries. This reveals a lack of visual/mental unit circle reference – they are not locating the angle on the circle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a student is given the signs of two trigonometric functions and must determine the quadrant. Provide the full solution.",
+     "a": "**Sample Problem:** \"If sin θ < 0 and sec θ > 0, find the quadrant of θ.\"  \n**Solution:** sin θ < 0 ⇒ QIII or QIV. sec θ > 0 ⇒ cos θ > 0 ⇒ QI or QIV. Intersection ⇒ **QIV**.  \nA poor answer (e.g., giving a problem with no solution like \"sin θ > 0 and cosec θ < 0\") reveals the student does not understand that reciprocal functions always share the same sign – a fundamental property they must internalise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

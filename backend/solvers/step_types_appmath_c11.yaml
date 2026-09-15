@@ -1,0 +1,984 @@
+step_types_appmath_c11:
+  # ── NUMBERS ────────────────────────────────────────────────────────────────
+  - id: decimal_operations
+    title: "Decimal Operations"
+    category: Numbers
+    description: "Perform addition, subtraction, multiplication or division on decimal numbers."
+    fields:
+      - name: operation
+        label: "Operation"
+        type: select
+        placeholder: "Choose operation"
+        help_text: "Select the arithmetic operation to perform on the decimals."
+        options: ["Addition", "Subtraction", "Multiplication", "Division"]
+      - name: operand_a
+        label: "First Operand"
+        type: number
+        placeholder: "e.g. 12.5"
+        help_text: "Enter the first decimal number."
+      - name: operand_b
+        label: "Second Operand"
+        type: number
+        placeholder: "e.g. 3.25"
+        help_text: "Enter the second decimal number."
+      - name: decimal_places
+        label: "Decimal Places"
+        type: number
+        placeholder: "e.g. 2"
+        help_text: "Number of decimal places to round the answer to (leave blank for exact)."
+        required: false
+
+  - id: fraction_arithmetic
+    title: "Fraction Arithmetic"
+    category: Numbers
+    description: "Add, subtract, multiply or divide fractions and mixed numbers."
+    fields:
+      - name: operation
+        label: "Operation"
+        type: select
+        placeholder: "Choose operation"
+        help_text: "Select the arithmetic operation."
+        options: ["Addition", "Subtraction", "Multiplication", "Division"]
+      - name: num1
+        label: "Numerator 1"
+        type: text
+        placeholder: "e.g. 3"
+        help_text: "Numerator of the first fraction."
+      - name: den1
+        label: "Denominator 1"
+        type: text
+        placeholder: "e.g. 4"
+        help_text: "Denominator of the first fraction."
+      - name: num2
+        label: "Numerator 2"
+        type: text
+        placeholder: "e.g. 5"
+        help_text: "Numerator of the second fraction."
+      - name: den2
+        label: "Denominator 2"
+        type: text
+        placeholder: "e.g. 6"
+        help_text: "Denominator of the second fraction."
+      - name: simplify
+        label: "Simplify Result"
+        type: checkbox
+        placeholder: ""
+        help_text: "Reduce the result to lowest terms."
+
+  - id: percentage_problems
+    title: "Percentage Problems"
+    category: Numbers
+    description: "Find percentage, percentage change, or apply a percentage to a value."
+    fields:
+      - name: problem_type
+        label: "Problem Type"
+        type: select
+        placeholder: "Choose type"
+        help_text: "What kind of percentage calculation is needed?"
+        options: ["Find percentage of a number", "Find what percent one number is of another", "Percentage increase/decrease", "Original value before percentage change"]
+      - name: value_a
+        label: "Value A"
+        type: number
+        placeholder: "e.g. 250"
+        help_text: "The base value or part value depending on problem type."
+      - name: value_b
+        label: "Value B"
+        type: number
+        placeholder: "e.g. 40"
+        help_text: "The percentage or comparison value."
+        required: false
+      - name: percentage
+        label: "Percentage"
+        type: number
+        placeholder: "e.g. 15"
+        help_text: "The percentage value (e.g. 15 for 15%)."
+        required: false
+
+  - id: scientific_notation
+    title: "Scientific Notation"
+    category: Numbers
+    description: "Convert between standard form and scientific notation, or perform operations."
+    fields:
+      name: mode
+      label: "Mode"
+      type: select
+      placeholder: "Choose mode"
+      help_text: "Select conversion or operation mode."
+      options: ["Convert to scientific notation", "Convert from scientific notation", "Multiply in scientific notation", "Divide in scientific notation"]
+      - name: coefficient
+        label: "Coefficient"
+        type: number
+        placeholder: "e.g. 4.5"
+        help_text: "The coefficient (mantissa) in scientific notation."
+        required: false
+      - name: exponent
+        label: "Exponent"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "The power of 10 exponent."
+        required: false
+      - name: standard_value
+        label: "Standard Value"
+        type: text
+        placeholder: "e.g. 4500"
+        help_text: "The number in standard decimal form."
+        required: false
+
+  # ── ALGEBRA ────────────────────────────────────────────────────────────────
+  - id: linear_equation_one_var
+    title: "Linear Equation in One Variable"
+    category: Algebra
+    description: "Solve a linear equation of the form ax + b = 0."
+    fields:
+      - name: equation
+        label: "Equation"
+        type: text
+        placeholder: "e.g. 3x + 7 = 22"
+        help_text: "Enter the linear equation. Use 'x' as the variable."
+      - name: show_steps
+        label: "Show Steps"
+        type: checkbox
+        placeholder: ""
+        help_text: "Display each step of the solution."
+
+  - id: quadratic_equation
+    title: "Quadratic Equation Solver"
+    category: Algebra
+    description: "Solve a quadratic equation ax² + bx + c = 0."
+    fields:
+      - name: a
+        label: "Coefficient a"
+        type: number
+        placeholder: "e.g. 1"
+        help_text: "Coefficient of x² (must not be zero)."
+      - name: b
+        label: "Coefficient b"
+        type: number
+        placeholder: "e.g. -5"
+        help_text: "Coefficient of x."
+      - name: c
+        label: "Coefficient c"
+        type: number
+        placeholder: "e.g. 6"
+        help_text: "Constant term."
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose method"
+        help_text: "Method to use for solving."
+        options: ["Quadratic Formula", "Factoring", "Completing the Square"]
+
+  - id: system_of_linear_equations
+    title: "System of Linear Equations"
+    category: Algebra
+    description: "Solve a system of two linear equations in two variables."
+    fields:
+      - name: eq1
+        label: "Equation 1"
+        type: text
+        placeholder: "e.g. 2x + 3y = 12"
+        help_text: "First equation in the system."
+      - name: eq2
+        label: "Equation 2"
+        type: text
+        placeholder: "e.g. x - y = 1"
+        help_text: "Second equation in the system."
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose method"
+        help_text: "Solution method to apply."
+        options: ["Substitution", "Elimination", "Cross-multiplication", "Graphical"]
+
+  - id: simultaneous_equations_3var
+    title: "System of Three Equations (3 Variables)"
+    category: Algebra
+    description: "Solve a system of three linear equations in x, y, z."
+    fields:
+      - name: eq1
+        label: "Equation 1"
+        type: text
+        placeholder: "e.g. x + y + z = 6"
+        help_text: "First equation."
+      - name: eq2
+        label: "Equation 2"
+        type: text
+        placeholder: "e.g. 2x - y + 3z = 14"
+        help_text: "Second equation."
+      - name: eq3
+        label: "Equation 3"
+        type: text
+        placeholder: "e.g. -x + 4y + z = 2"
+        help_text: "Third equation."
+
+  - id: inequalities_one_var
+    title: "Linear Inequalities in One Variable"
+    category: Algebra
+    description: "Solve linear inequalities and represent on the number line."
+    fields:
+      - name: inequality
+        label: "Inequality"
+        type: text
+        placeholder: "e.g. 2x - 5 > 7"
+        help_text: "Enter the inequality. Use >, <, >=, <= symbols."
+      - name: show_graph
+        label: "Show Number Line"
+        type: checkbox
+        placeholder: ""
+        help_text: "Display the solution on a number line."
+
+  - id: arithmetic_progression
+    title: "Arithmetic Progression (AP)"
+    category: Algebra
+    description: "Find terms, common difference, or sum of an arithmetic progression."
+    fields:
+      - name: find_what
+        label: "Find"
+        type: select
+        placeholder: "Choose"
+        help_text: "What quantity do you want to find?"
+        options: ["nth Term", "Sum of n Terms", "Number of Terms", "Common Difference"]
+      - name: first_term
+        label: "First Term (a)"
+        type: number
+        placeholder: "e.g. 5"
+        help_text: "The first term of the AP."
+      - name: common_diff
+        label: "Common Difference (d)"
+        type: number
+        placeholder: "e.g. 3"
+        help_text: "The common difference between consecutive terms."
+        required: false
+      - name: n
+        label: "Number of Terms (n)"
+        type: integer
+        placeholder: "e.g. 20"
+        help_text: "The position of the term or count of terms."
+        required: false
+      - name: nth_term_val
+        label: "nth Term Value"
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Value of the nth term (if finding n)."
+        required: false
+      - name: sum_val
+        label: "Sum (S)"
+        type: number
+        placeholder: "e.g. 620"
+        help_text: "Sum of n terms (if finding n)."
+        required: false
+
+  - id: geometric_progression
+    title: "Geometric Progression (GP)"
+    category: Algebra
+    description: "Find terms, common ratio, or sum of a geometric progression."
+    fields:
+      - name: find_what
+        label: "Find"
+        type: select
+        placeholder: "Choose"
+        help_text: "What quantity do you want to find?"
+        options: ["nth Term", "Sum of n Terms", "Sum to Infinity", "Common Ratio", "Number of Terms"]
+      - name: first_term
+        label: "First Term (a)"
+        type: number
+        placeholder: "e.g. 2"
+        help_text: "The first term of the GP."
+      - name: common_ratio
+        label: "Common Ratio (r)"
+        type: number
+        placeholder: "e.g. 0.5"
+        help_text: "The ratio between consecutive terms."
+        required: false
+      - name: n
+        label: "Number of Terms (n)"
+        type: integer
+        placeholder: "e.g. 8"
+        help_text: "The position of the term or count of terms."
+        required: false
+
+  - id: binomial_expansion
+    title: "Binomial Expansion"
+    category: Algebra
+    description: "Expand (a + b)^n using the Binomial Theorem."
+    fields:
+      - name: a_coeff
+        label: "Coefficient 'a'"
+        type: text
+        placeholder: "e.g. 2x"
+        help_text: "The first term inside the binomial."
+      - name: b_coeff
+        label: "Coefficient 'b'"
+        type: text
+        placeholder: "e.g. 3"
+        help_text: "The second term inside the binomial."
+      - name: exponent
+        label: "Exponent (n)"
+        type: integer
+        placeholder: "e.g. 5"
+        help_text: "The power to which the binomial is raised."
+      - name: expand_up_to
+        label: "Expand up to term"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "Number of terms to show in expansion (leave blank for all)."
+        required: false
+
+  - id: permutations
+    title: "Permutations"
+    category: Algebra
+    description: "Calculate nPr — arrangements of r items from n distinct items."
+    fields:
+      - name: n
+        label: "Total Items (n)"
+        type: integer
+        placeholder: "e.g. 8"
+        help_text: "Total number of distinct items."
+      - name: r
+        label: "Items Selected (r)"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "Number of items to arrange."
+      - name: with_repetition
+        label: "With Repetition"
+        type: checkbox
+        placeholder: ""
+        help_text: "Check if repetition of items is allowed."
+
+  - id: combinations
+    title: "Combinations"
+    category: Algebra
+    description: "Calculate nCr — selections of r items from n distinct items (order does not matter)."
+    fields:
+      - name: n
+        label: "Total Items (n)"
+        type: integer
+        placeholder: "e.g. 10"
+        help_text: "Total number of distinct items."
+      - name: r
+        label: "Items Selected (r)"
+        type: integer
+        placeholder: "e.g. 4"
+        help_text: "Number of items to select."
+
+  - id: complex_numbers
+    title: "Complex Numbers Operations"
+    category: Algebra
+    description: "Perform arithmetic or find modulus/argument of complex numbers."
+    fields:
+      - name: operation
+        label: "Operation"
+        type: select
+        placeholder: "Choose operation"
+        help_text: "Select the complex number operation."
+        options: ["Addition", "Subtraction", "Multiplication", "Division", "Modulus", "Argument", "Polar Form", "Conjugate"]
+      - name: real_a
+        label: "Real Part (z₁)"
+        type: number
+        placeholder: "e.g. 3"
+        help_text: "Real part of the first complex number."
+      - name: imag_a
+        label: "Imaginary Part (z₁)"
+        type: number
+        placeholder: "e.g. 4"
+        help_text: "Imaginary part of the first complex number."
+      - name: real_b
+        label: "Real Part (z₂)"
+        type: number
+        placeholder: "e.g. 1"
+        help_text: "Real part of the second complex number (for binary operations)."
+        required: false
+      - name: imag_b
+        label: "Imaginary Part (z₂)"
+        type: number
+        placeholder: "e.g. -2"
+        help_text: "Imaginary part of the second complex number."
+        required: false
+
+  # ── CALCULUS ───────────────────────────────────────────────────────────────
+  - id: limits
+    title: "Limits of Functions"
+    category: Calculus
+    description: "Evaluate limits of algebraic/trigonometric functions."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. (x^2 - 4)/(x - 2)"
+        help_text: "Enter the function in x. Use ^ for powers, / for division."
+      - name: approach_value
+        label: "x approaches"
+        type: number
+        placeholder: "e.g. 2"
+        help_text: "The value that x is approaching."
+      - name: direction
+        label: "Direction"
+        type: select
+        placeholder: "Choose"
+        help_text: "One-sided or two-sided limit."
+        options: ["Both Sides", "From Left (x → a⁻)", "From Right (x → a⁺)"]
+
+  - id: first_principles
+    title: "Derivative by First Principles"
+    category: Calculus
+    description: "Find the derivative of a function using the limit definition."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. x^2 + 3x"
+        help_text: "Enter the function in x."
+      - name: x_value
+        label: "Evaluate at x ="
+        type: number
+        placeholder: "e.g. 2"
+        help_text: "The x-value at which to evaluate the derivative. Leave blank for general f'(x)."
+        required: false
+
+  - id: differentiation_rules
+    title: "Differentiation (Rules)"
+    category: Calculus
+    description: "Differentiate a function using standard differentiation rules."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. x^3 * sin(x)"
+        help_text: "Enter the function in x. Supports polynomials, trigonometric, exponential, logarithmic, and products."
+      - name: order
+        label: "Derivative Order"
+        type: integer
+        placeholder: "e.g. 1"
+        help_text: "Which derivative to compute (1 for first, 2 for second, etc.)."
+      - name: x_value
+        label: "Evaluate at x ="
+        type: number
+        placeholder: "e.g. π/2"
+        help_text: "Evaluate the derivative at this x-value."
+        required: false
+
+  - id: tangent_normal
+    title: "Tangent and Normal Lines"
+    category: Calculus
+    description: "Find the equations of tangent and normal lines to a curve."
+    fields:
+      - name: function
+        label: "Function y = f(x)"
+        type: text
+        placeholder: "e.g. x^2"
+        help_text: "The equation of the curve."
+      - name: x_point
+        label: "At x ="
+        type: number
+        placeholder: "e.g. 3"
+        help_text: "The x-coordinate of the point on the curve."
+      - name: find_tangent
+        label: "Find Tangent"
+        type: checkbox
+        placeholder: ""
+        help_text: "Compute the tangent line equation."
+      - name: find_normal
+        label: "Find Normal"
+        type: checkbox
+        placeholder: ""
+        help_text: "Compute the normal line equation."
+
+  - id: increasing_decreasing
+    title: "Increasing and Decreasing Intervals"
+    category: Calculus
+    description: "Determine intervals where a function is increasing or decreasing."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. x^3 - 3x^2 + 4"
+        help_text: "Enter the function in x."
+      - name: domain_start
+        label: "Domain Start"
+        type: number
+        placeholder: "e.g. -10"
+        help_text: "Left bound of the interval to analyse."
+      - name: domain_end
+        label: "Domain End"
+        type: number
+        placeholder: "e.g. 10"
+        help_text: "Right bound of the interval to analyse."
+
+  - id: maxima_minima
+    title: "Maxima and Minima"
+    category: Calculus
+    description: "Find local and absolute maxima and minima of a function."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. x^3 - 6x^2 + 9x + 15"
+        help_text: "Enter the function in x."
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose"
+        help_text: "Method for finding extrema."
+        options: ["First Derivative Test", "Second Derivative Test"]
+      - name: interval_start
+        label: "Interval Start"
+        type: number
+        placeholder: "e.g. -5"
+        help_text: "Left bound for absolute extrema (optional)."
+        required: false
+      - name: interval_end
+        label: "Interval End"
+        type: number
+        placeholder: "e.g. 5"
+        help_text: "Right bound for absolute extrema (optional)."
+        required: false
+
+  - id: indefinite_integral
+    title: "Indefinite Integral"
+    category: Calculus
+    description: "Find the indefinite integral (antiderivative) of a function."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. 3x^2 + 2x + 1"
+        help_text: "Enter the integrand as a function of x."
+      - name: variable
+        label: "Variable"
+        type: text
+        placeholder: "x"
+        help_text: "The variable of integration."
+        default: "x"
+
+  - id: definite_integral
+    title: "Definite Integral"
+    category: Calculus
+    description: "Evaluate a definite integral over a given interval."
+    fields:
+      - name: function
+        label: "Function f(x)"
+        type: text
+        placeholder: "e.g. x^2"
+        help_text: "Enter the integrand as a function of x."
+      - name: lower_limit
+        label: "Lower Limit (a)"
+        type: number
+        placeholder: "e.g. 0"
+        help_text: "The lower bound of integration."
+      - name: upper_limit
+        label: "Upper Limit (b)"
+        type: number
+        placeholder: "e.g. 3"
+        help_text: "The upper bound of integration."
+
+  - id: area_under_curve
+    title: "Area Under a Curve"
+    category: Calculus
+    description: "Find the area bounded by a curve and the x-axis."
+    fields:
+      - name: function
+        label: "Function y = f(x)"
+        type: text
+        placeholder: "e.g. x^2"
+        help_text: "The curve bounding the area."
+      - name: lower_limit
+        label: "Left Bound"
+        type: number
+        placeholder: "e.g. 1"
+        help_text: "The left boundary of the region."
+      - name: upper_limit
+        label: "Right Bound"
+        type: number
+        placeholder: "e.g. 4"
+        help_text: "The right boundary of the region."
+      - name: axis
+        label: "Axis of Integration"
+        type: select
+        placeholder: "Choose"
+        help_text: "Whether area is bounded by x-axis or y-axis."
+        options: ["x-axis", "y-axis"]
+
+  # ── STATISTICS ─────────────────────────────────────────────────────────────
+  - id: descriptive_stats
+    title: "Descriptive Statistics"
+    category: Statistics
+    description: "Calculate mean, median, mode, range, variance, and standard deviation."
+    fields:
+      - name: data
+        label: "Data Set"
+        type: textarea
+        placeholder: "e.g. 12, 15, 18, 22, 25, 25, 30"
+        help_text: "Enter the data values separated by commas, spaces, or newlines."
+      - name: freq_given
+        label: "Frequency Data"
+        type: checkbox
+        placeholder: ""
+        help_text: "Check if you are providing (value, frequency) pairs."
+        default: false
+
+  - id: grouped_data_stats
+    title: "Grouped Data Statistics"
+    category: Statistics
+    description: "Calculate mean, median, mode for grouped frequency distributions."
+    fields:
+      - name: class_intervals
+        label: "Class Intervals"
+        type: textarea
+        placeholder: "0-10, 10-20, 20-30, 30-40"
+        help_text: "Enter class intervals separated by commas."
+      - name: frequencies
+        label: "Frequencies"
+        type: textarea
+        placeholder: "5, 12, 20, 8"
+        help_text: "Enter corresponding frequencies separated by commas."
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose method"
+        help_text: "Method to compute mean."
+        options: ["Direct Method", "Assumed Mean Method", "Step-deviation Method"]
+
+  - id: correlation_coefficient
+    title: "Correlation Coefficient"
+    category: Statistics
+    description: "Calculate Pearson's correlation coefficient r for bivariate data."
+    fields:
+      - name: x_values
+        label: "X Values"
+        type: textarea
+        placeholder: "e.g. 10, 12, 15, 18, 20"
+        help_text: "Enter x values separated by commas."
+      - name: y_values
+        label: "Y Values"
+        type: textarea
+        placeholder: "e.g. 20, 24, 28, 33, 38"
+        help_text: "Enter y values separated by commas."
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose"
+        help_text: "Formula to use."
+        options: ["Karl Pearson's r", "Spearman's Rank Correlation"]
+
+  - id: regression_lines
+    title: "Regression Lines"
+    category: Statistics
+    description: "Find the equations of regression lines for bivariate data."
+    fields:
+      - name: x_values
+        label: "X Values"
+        type: textarea
+        placeholder: "e.g. 10, 12, 15, 18, 20"
+        help_text: "Enter x values separated by commas."
+      - name: y_values
+        label: "Y Values"
+        type: textarea
+        placeholder: "e.g. 20, 24, 28, 33, 38"
+        help_text: "Enter y values separated by commas."
+      - name: find_x_on_y
+        label: "Regression of x on y"
+        type: checkbox
+        placeholder: ""
+        help_text: "Compute x = a + by."
+      - name: find_y_on_x
+        label: "Regression of y on x"
+        type: checkbox
+        placeholder: ""
+        help_text: "Compute y = a + bx."
+
+  - id: measure_of_dispersion
+    title: "Measures of Dispersion"
+    category: Statistics
+    description: "Calculate range, quartile deviation, mean deviation, variance, standard deviation."
+    fields:
+      - name: data
+        label: "Data Set"
+        type: textarea
+        placeholder: "e.g. 10, 15, 20, 25, 30, 35, 40"
+        help_text: "Enter data values separated by commas."
+      - name: measures
+        label: "Measures to Compute"
+        type: multiselect
+        placeholder: "Select measures"
+        help_text: "Choose which measures of dispersion to calculate."
+        options: ["Range", "Quartile Deviation", "Mean Deviation (about mean)", "Mean Deviation (about median)", "Variance", "Standard Deviation", "Coefficient of Variation"]
+
+  - id: ogive
+    title: "Ogive (Cumulative Frequency Graph)"
+    category: Statistics
+    description: "Plot ogive curves (less than and more than) and find median."
+    fields:
+      - name: class_intervals
+        label: "Class Intervals"
+        type: textarea
+        placeholder: "0-10, 10-20, 20-30, 30-40, 40-50"
+        help_text: "Enter class intervals separated by commas."
+      - name: frequencies
+        label: "Frequencies"
+        type: textarea
+        placeholder: "5, 12, 20, 8, 5"
+        help_text: "Enter corresponding frequencies separated by commas."
+      - name: ogive_type
+        label: "Ogive Type"
+        type: select
+        placeholder: "Choose"
+        help_text: "Type of cumulative frequency curve."
+        options: ["Less Than (Ascending)", "More Than (Descending)", "Both"]
+
+  - id: index_numbers
+    title: "Index Numbers"
+    category: Statistics
+    description: "Compute Laspeyres, Paasche, and Fisher's price/quantity index numbers."
+    fields:
+      - name: method
+        label: "Method"
+        type: select
+        placeholder: "Choose method"
+        help_text: "Select the index number method."
+        options: ["Laspeyres Method", "Paasche Method", "Fisher's Ideal Method"]
+      - name: base_prices
+        label: "Base Year Prices (p₀)"
+        type: textarea
+        placeholder: "e.g. 2, 4, 6, 8"
+        help_text: "Prices of commodities in base year."
+      - name: current_prices
+        label: "Current Year Prices (p₁)"
+        type: textarea
+        placeholder: "e.g. 3, 5, 7, 10"
+        help_text: "Prices of commodities in current year."
+      - name: base_quantities
+        label: "Base Year Quantities (q₀)"
+        type: textarea
+        placeholder: "e.g. 10, 8, 6, 4"
+        help_text: "Quantities consumed in base year."
+        required: false
+      - name: current_quantities
+        label: "Current Year Quantities (q₁)"
+        type: textarea
+        placeholder: "e.g. 12, 9, 7, 5"
+        help_text: "Quantities consumed in current year."
+        required: false
+
+  # ── PROBABILITY ─────────────────────────────────────────────────────────────
+  - id: basic_probability
+    title: "Basic Probability"
+    category: Probability
+    description: "Calculate probability using classical definition P(E) = n(E)/n(S)."
+    fields:
+      - name: favourable
+        label: "Favourable Outcomes n(E)"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "Number of outcomes favourable to the event."
+      - name: total
+        label: "Total Outcomes n(S)"
+        type: integer
+        placeholder: "e.g. 12"
+        help_text: "Total number of possible outcomes in the sample space."
+
+  - id: coin_dice_probability
+    title: "Coin and Dice Probability"
+    category: Probability
+    description: "Find probabilities for coin tosses and dice rolls."
+    fields:
+      - name: experiment
+        label: "Experiment"
+        type: select
+        placeholder: "Choose experiment"
+        help_text: "Select the random experiment."
+        options: ["Single Coin Toss", "Two Coin Tosses", "Three Coin Tosses", "Single Die Roll", "Two Dice Roll", "Three Dice Roll"]
+      - name: event_type
+        label: "Event"
+        type: select
+        placeholder: "Choose event"
+        help_text: "The specific event whose probability you want."
+        options: ["Getting Head(s)", "Getting Tail(s)", "Getting a Sum", "Getting a Specific Number", "Getting a Prime Sum", "Getting a Doublet", "At Least One Head/Tail"]
+      - name: event_value
+        label: "Event Value"
+        type: text
+        placeholder: "e.g. 7 or 'HH'"
+        help_text: "Specific value needed for the event (number or combination pattern)."
+        required: false
+
+  - id: card_probability
+    title: "Playing Cards Probability"
+    category: Probability
+    description: "Calculate probabilities for drawing cards from a standard 52-card deck."
+    fields:
+      - name: draws
+        label: "Number of Draws"
+        type: integer
+        placeholder: "e.g. 1"
+        help_text: "Number of cards drawn."
+      - name: with_replacement
+        label: "With Replacement"
+        type: checkbox
+        placeholder: ""
+        help_text: "Check if cards are replaced after each draw."
+      - name: event_type
+        label: "Event Type"
+        type: select
+        placeholder: "Choose event"
+        help_text: "Type of card event."
+        options: ["Suit (Spades/Hearts/Diamonds/Clubs)", "Face Card", "Ace", "Red Card", "Black Card", "Number Card (2-10)", "King/Queen/Jack", "Specific Card"]
+      - name: event_value
+        label: "Specific Value"
+        type: text
+        placeholder: "e.g. 'King of Hearts'"
+        help_text: "Specific card value if applicable."
+        required: false
+
+  - id: conditional_probability
+    title: "Conditional Probability"
+    category: Probability
+    description: "Compute P(A|B) and related conditional probabilities."
+    fields:
+      - name: p_a
+        label: "P(A)"
+        type: number
+        placeholder: "e.g. 0.4"
+        help_text: "Probability of event A."
+      - name: p_b
+        label: "P(B)"
+        type: number
+        placeholder: "e.g. 0.3"
+        help_text: "Probability of event B."
+      - name: p_a_and_b
+        label: "P(A ∩ B)"
+        type: number
+        placeholder: "e.g. 0.1"
+        help_text: "Probability of both A and B occurring."
+      - name: find_what
+        label: "Find"
+        type: select
+        placeholder: "Choose"
+        help_text: "Which conditional probability to find."
+        options: ["P(A|B)", "P(B|A)", "P(A ∪ B)", "Check Independence", "Check Mutual Exclusivity"]
+
+  - id: probability_distribution
+    title: "Probability Distribution"
+    category: Probability
+    description: "Verify if a given distribution is valid, find mean and variance."
+    fields:
+      - name: values
+        label: "Random Variable Values (X)"
+        type: textarea
+        placeholder: "e.g. 0, 1, 2, 3"
+        help_text: "Enter the values of the random variable separated by commas."
+      - name: probabilities
+        label: "Probabilities P(X)"
+        type: textarea
+        placeholder: "e.g. 0.1, 0.3, 0.4, 0.2"
+        help_text: "Enter corresponding probabilities separated by commas."
+      - name: find_mean
+        label: "Find Mean"
+        type: checkbox
+        placeholder: ""
+        help_text: "Calculate the expected value E(X)."
+      - name: find_variance
+        label: "Find Variance"
+        type: checkbox
+        placeholder: ""
+        help_text: "Calculate variance Var(X)."
+
+  - id: binomial_distribution
+    title: "Binomial Distribution"
+    category: Probability
+    description: "Calculate probabilities using Binomial distribution B(n, p)."
+    fields:
+      - name: n
+        label: "Number of Trials (n)"
+        type: integer
+        placeholder: "e.g. 10"
+        help_text: "Total number of independent trials."
+      - name: p
+        label: "Success Probability (p)"
+        type: number
+        placeholder: "e.g. 0.3"
+        help_text: "Probability of success in a single trial."
+      - name: x
+        label: "Number of Successes (x)"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "The number of successes to find the probability for."
+      - name: find_what
+        label: "Compute"
+        type: select
+        placeholder: "Choose"
+        help_text: "What to calculate."
+        options: ["P(X = x)", "P(X ≤ x)", "P(X ≥ x)", "Mean and Variance", "Full Distribution Table"]
+
+  - id: poisson_distribution
+    title: "Poisson Distribution"
+    category: Probability
+    description: "Calculate probabilities using Poisson distribution P(X = x) = (e^(-λ) * λ^x) / x!."
+    fields:
+      - name: lambda
+        label: "Mean Rate (λ)"
+        type: number
+        placeholder: "e.g. 4"
+        help_text: "The average rate (mean number of occurrences)."
+      - name: x
+        label: "Number of Events (x)"
+        type: integer
+        placeholder: "e.g. 2"
+        help_text: "The number of events to find the probability for."
+      - name: find_what
+        label: "Compute"
+        type: select
+        placeholder: "Choose"
+        help_text: "What to calculate."
+        options: ["P(X = x)", "P(X ≤ x)", "P(X ≥ x)", "P(a ≤ X ≤ b)", "Mean and Variance"]
+
+  - id: normal_distribution
+    title: "Normal Distribution (Z-Scores)"
+    category: Probability
+    description: "Compute probabilities and z-scores for a normal distribution."
+    fields:
+      - name: mean
+        label: "Mean (μ)"
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "The mean of the normal distribution."
+      - name: std_dev
+        label: "Standard Deviation (σ)"
+        type: number
+        placeholder: "e.g. 15"
+        help_text: "The standard deviation of the distribution."
+      - name: x_value
+        label: "X Value"
+        type: number
+        placeholder: "e.g. 115"
+        help_text: "The value to find probability or z-score for."
+      - name: find_what
+        label: "Find"
+        type: select
+        placeholder: "Choose"
+        help_text: "What to compute."
+        options: ["Z-Score for X", "P(X ≤ x)", "P(X ≥ x)", "P(a ≤ X ≤ b)", "X for given probability"]
+
+  - id: bayes_theorem
+    title: "Bayes' Theorem"
+    category: Probability
+    description: "Apply Bayes' theorem to find conditional probability with partition of sample space."
+    fields:
+      - name: num_events
+        label: "Number of Events"
+        type: integer
+        placeholder: "e.g. 3"
+        help_text: "Number of events in the partition (e.g., E₁, E₂, E₃)."
+      - name: event_probabilities
+        label: "P(Eᵢ)"
+        type: textarea
+        placeholder: "e.g. 0.2, 0.5, 0.3"
+        help_text: "Enter the prior probabilities of each event Eᵢ separated by commas."
+      - name: conditional_probabilities
+        label: "P(A|Eᵢ)"
+        type: textarea
+        placeholder: "e.g. 0.8, 0.4, 0.1"
+        help_text: "Enter the conditional probabilities P(A|Eᵢ) separated by commas."
+      - name: target_event
+        label: "Target Event (Eⱼ)"
+        type: integer
+        placeholder: "e.g. 1"
+        help_text: "Index (1-based) of the event whose posterior P(Eⱼ|A) you want."

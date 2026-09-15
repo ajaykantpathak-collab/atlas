@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_006",
+   "title": "c12_cs_cbse_11_006",
+   "questions": [
+    {
+     "q": "What does the expression `d.keys()` return for a dictionary `d = {'a': 1, 'b': 2}`? Is it a list, a tuple, a set, or a view object?",
+     "a": "The correct answer: `d.keys()` returns a `dict_keys` view object (not a list, tuple, or set). A wrong answer like \"list\" reveals that the student assumes the method returns a static snapshot (as in Python 2) and does not understand the dynamic view concept introduced in Python 3.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `d['x']` and `d.get('x')` when `'x'` is not a key in dictionary `d`. What happens in each case?",
+     "a": "`d['x']` raises a `KeyError` exception, while `d.get('x')` returns `None` (or a provided default). A wrong answer that says both return `None` or both raise an error shows the student has not grasped the safe-access purpose of `get()`.",
+     "self_check": true
+    },
+    {
+     "q": "Given `d = {'p': 10, 'q': 20}` and `v = d.values()`, what will `list(v)` be after executing `d['r'] = 30`? Write the exact output.",
+     "a": "After `d['r'] = 30`, the view `v` reflects the change, so `list(v)` becomes `[10, 20, 30]` (order may vary but includes all three values). A wrong answer like `[10, 20]` indicates the student thinks `values()` returns a static list frozen at the time of the call.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `d1.update(d2)` and `d1 = {**d1, **d2}` for merging dictionaries `d1` and `d2`. What is the key difference in terms of side effects and return value?",
+     "a": "`d1.update(d2)` modifies `d1` in-place and returns `None`. `{**d1, **d2}` creates a new dictionary without altering `d1` or `d2`. A wrong answer claiming both modify `d1` or both return a new dict shows confusion between in-place mutation and functional creation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `d.get('key', [])` and then appends to the returned list, expecting the list to be stored in the dictionary. Why does this not work as intended? How would you fix it?",
+     "a": "`get()` returns the default list but does not insert it into the dictionary; subsequent `get()` calls return a new empty list each time. The fix is to use `d.setdefault('key', []).append(value)` or check `if 'key' not in d: d['key'] = []` before appending. A wrong answer that thinks `get()` stores the default reveals misunderstanding of `get()` as a read-only method.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small program that reads a list of words from the user, counts the frequency of each word using a dictionary, and then prints the words sorted by frequency (highest first). You must use `get()` for counting and `items()` for sorting.",
+     "a": "A good answer: \n```python\nwords = input(\"Enter words: \").split()\nfreq = {}\nfor w in words:\n    freq[w] = freq.get(w, 0) + 1\nfor word, count in sorted(freq.items(), key=lambda x: x[1], reverse=True):\n    print(word, count)\n```\nA poor answer might use `freq[w] = freq[w] + 1` (causing KeyError) or sort only keys, showing lack of fluency with `get()` and `items()`.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,480 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Rational Numbers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh101.txt",
+ "concepts": [
+  {
+   "id": "hemh.101.1",
+   "title": "Definition of Rational Numbers",
+   "section": "1.1",
+   "definition": "A number is considered rational if it can be expressed as a fraction where both the numerator and denominator are integers and the denominator is not zero.",
+   "formula": "r = p / q",
+   "key_idea": "Any number that can be written in p/q form with q != 0.",
+   "textbook_ref": "hemh101.txt lines 65-72",
+   "question_patterns": [
+    "is the number a rational number",
+    "write the following in p/q form",
+    "identify rational numbers from the list",
+    "can zero be a rational number",
+    "Can 5/7 be written with denominator 0?",
+    "Which of these are rational: 3/4, 0/5, a non-repeating endless decimal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify p and q",
+     "explain": "Check if the number can be written as p/q where p and q are integers."
+    },
+    {
+     "step": 2,
+     "action": "check denominator",
+     "explain": "Ensure that the denominator q is not equal to zero."
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.2",
+   "title": "Closure Property",
+   "section": "1.2.1",
+   "definition": "A set shows closure under an operation when combining any two of its members always lands back inside the same set.",
+   "formula": "a [op] b = c",
+   "key_idea": "Sums, differences and products of two members stay members; a quotient can escape (zero divisor).",
+   "textbook_ref": "hemh101.txt lines 75-130",
+   "question_patterns": [
+    "check if rational numbers are closed under addition",
+    "is subtraction closed for rational numbers",
+    "why is division not closed for rational numbers",
+    "verify closure property for multiplication",
+    "Is the quotient of two members always a member?",
+    "Fill in: rationals are closed under addition, subtraction and ___, but not ___.",
+    "Check closure: does 1/3 - 2/3 stay in the set?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "perform operation",
+     "explain": "Add, subtract, or multiply the two given rational numbers."
+    },
+    {
+     "step": 2,
+     "action": "verify result type",
+     "explain": "Determine if the resulting value is also a rational number."
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.3",
+   "title": "Commutative Property",
+   "section": "1.2.2",
+   "definition": "This property implies that the order in which two numbers are added or multiplied does not affect the final result.",
+   "formula": "a + b = b + a",
+   "key_idea": "Swapping the two operands leaves the answer unchanged for these two operations.",
+   "textbook_ref": "hemh101.txt lines 135-200",
+   "question_patterns": [
+    "verify commutativity for addition",
+    "is multiplication commutative for rational numbers",
+    "show that a + b equals b + a",
+    "check if subtraction is commutative",
+    "Show that 2/3 + 1/4 equals 1/4 + 2/3.",
+    "Does subtraction obey the swap rule for rationals?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate LHS",
+     "explain": "Compute the result of the operation in the first order (a + b)."
+    },
+    {
+     "step": 2,
+     "action": "calculate RHS",
+     "explain": "Compute the result of the operation in the reversed order (b + a)."
+    },
+    {
+     "step": 3,
+     "action": "compare results",
+     "explain": "Check if LHS equals RHS."
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.4",
+   "title": "Associative Property",
+   "section": "1.2.3",
+   "definition": "The associative property states that when three or more numbers are added or multiplied, the way they are grouped does not change the sum or product.",
+   "formula": "(a + b) + c = a + (b + c)",
+   "key_idea": "However you bracket three operands, the answer comes out the same.",
+   "textbook_ref": "hemh101.txt lines 205-280",
+   "question_patterns": [
+    "verify associativity for addition",
+    "is multiplication associative for rational numbers",
+    "group the numbers to verify associativity",
+    "show that (a * b) * c = a * (b * c)",
+    "Verify (1/2 + 1/3) + 1/4 = 1/2 + (1/3 + 1/4).",
+    "Does division obey the bracketing rule?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate LHS",
+     "explain": "Group the first two numbers and then operate with the third."
+    },
+    {
+     "step": 2,
+     "action": "calculate RHS",
+     "explain": "Group the last two numbers and then operate with the first."
+    },
+    {
+     "step": 3,
+     "action": "compare results",
+     "explain": "Check if LHS equals RHS."
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.5",
+   "title": "Additive Identity",
+   "section": "1.2.4",
+   "definition": "Zero earns its title because combining it with any member leaves that member unchanged.",
+   "formula": "a + 0 = a",
+   "key_idea": "Adding zero does not change the value of a number.",
+   "textbook_ref": "hemh101.txt lines 300-315",
+   "question_patterns": [
+    "what is the additive identity of rational numbers",
+    "find the sum of a number and zero",
+    "identify the identity element for addition",
+    "verify the role of zero in addition",
+    "Find 5/6 + 0.",
+    "What does adding 0 do to -13/8?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add zero",
+     "explain": "Add 0 to the given rational number a.",
+     "compute": "result = a + 0"
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.6",
+   "title": "Multiplicative Identity",
+   "section": "1.2.5",
+   "definition": "One earns its title because multiplying any member by it changes nothing.",
+   "formula": "a * 1 = a",
+   "key_idea": "Multiplying by one preserves the original value.",
+   "textbook_ref": "hemh101.txt lines 318-330",
+   "question_patterns": [
+    "what is the multiplicative identity",
+    "multiply a rational number by 1",
+    "identify the identity element for multiplication",
+    "verify the role of 1 in multiplication",
+    "Find 5/6 x 1.",
+    "What does multiplying by 1 do to -7/3?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply by one",
+     "explain": "Multiply the given rational number a by 1.",
+     "compute": "result = a * 1"
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.7",
+   "title": "Distributive Property",
+   "section": "1.2.6",
+   "definition": "The distributive property allows a number outside a set of parentheses to be multiplied by each term inside the parentheses separately.",
+   "formula": "a * (b + c) = a * b + a * c",
+   "key_idea": "Multiplication distributes over addition and subtraction.",
+   "textbook_ref": "hemh101.txt lines 335-355",
+   "question_patterns": [
+    "solve using distributive property",
+    "simplify using distributivity",
+    "expand the expression a(b + c)",
+    "calculate using the distributive law",
+    "Evaluate 2/5 x (3/4 + 1/2) two different ways.",
+    "Expand 3/7 x (2/9 - 5/9) using the distributing rule."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply first term",
+     "explain": "Multiply the outer number a by the first inner number b.",
+     "compute": "term1 = a * b"
+    },
+    {
+     "step": 2,
+     "action": "multiply second term",
+     "explain": "Multiply the outer number a by the second inner number c.",
+     "compute": "term2 = a * c"
+    },
+    {
+     "step": 3,
+     "action": "sum the products",
+     "explain": "Add the two products together.",
+     "compute": "ans = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.101.8",
+   "title": "Simplifying Expressions using Properties",
+   "section": "1.2.3",
+   "definition": "Reorder and regroup members so that easy pairings (same denominators, matching digits) happen first.",
+   "formula": "sum = (a + c) + (b + d)",
+   "key_idea": "Rearrange terms with common denominators to simplify calculations.",
+   "textbook_ref": "hemh101.txt lines 285-298",
+   "question_patterns": [
+    "find the sum using properties",
+    "simplify the expression by rearranging terms",
+    "calculate the value of the following",
+    "use commutativity to solve",
+    "Simplify 3/7 + 5/9 + 4/7 + 4/9 by pairing.",
+    "Rearrange 2/5 x 7/3 x 5/2 for an easy product."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group terms",
+     "explain": "Group terms that have common denominators or are easy to calculate.",
+     "compute": "group1 = a + c"
+    },
+    {
+     "step": 2,
+     "action": "calculate second group",
+     "explain": "Calculate the sum of the remaining terms.",
+     "compute": "group2 = b + d"
+    },
+    {
+     "step": 3,
+     "action": "combine results",
+     "explain": "Add the results of the groups together.",
+     "compute": "final_sum = group1 + group2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh101.txt lines 284-298",
+   "concept": "hemh.101.8",
+   "question_type": "compute",
+   "question_pattern": "Find {a} + {b} + {c} + {d}",
+   "extracted_variables": {
+    "a": "first fraction",
+    "b": "second fraction",
+    "c": "third fraction",
+    "d": "fourth fraction"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "group terms",
+     "explain": "Group fractions with related denominators.",
+     "compute": "group1 = a + c"
+    },
+    {
+     "step": 2,
+     "action": "calculate second group",
+     "explain": "Group the other fractions.",
+     "compute": "group2 = b + d"
+    },
+    {
+     "step": 3,
+     "action": "combine results",
+     "explain": "Find the final sum.",
+     "compute": "final_sum = group1 + group2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh101.txt lines 360-375",
+   "concept": "hemh.101.7",
+   "question_type": "compute",
+   "question_pattern": "Find {a} * {b} - {c} - {b} * {d}",
+   "extracted_variables": {
+    "a": "first factor",
+    "b": "common factor",
+    "c": "subtrahend",
+    "d": "second factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rearrange terms",
+     "explain": "Bring terms with common factors together.",
+     "compute": "part1 = a * b - d * b"
+    },
+    {
+     "step": 2,
+     "action": "apply distributivity",
+     "explain": "Factor out the common term.",
+     "compute": "factored = b * (a - d)"
+    },
+    {
+     "step": 3,
+     "action": "subtract remaining",
+     "explain": "Subtract the remaining term from the result.",
+     "compute": "ans = factored - c"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.101.5",
+   "question_pattern": "Find {a} + 0.",
+   "extracted_variables": {
+    "a": "0.8333333"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adding zero changes nothing",
+     "explain": "5/6 + 0 = 5/6",
+     "compute": "result = a + 0"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.101.5",
+   "question_pattern": "What does 0 + {a} give?",
+   "extracted_variables": {
+    "a": "1.625"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adding zero changes nothing",
+     "explain": "0 + 13/8 = 13/8",
+     "compute": "result = a + 0"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.101.6",
+   "question_pattern": "Find {a} x 1.",
+   "extracted_variables": {
+    "a": "0.8333333"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiplying by 1 changes nothing",
+     "explain": "5/6 x 1 = 5/6",
+     "compute": "result = a * 1"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.101.6",
+   "question_pattern": "What is 1 x {a}?",
+   "extracted_variables": {
+    "a": "-2.3333333"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiplying by 1 changes nothing",
+     "explain": "1 x (-7/3) = -7/3",
+     "compute": "result = a * 1"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.101.7",
+   "question_pattern": "Evaluate {a} x ({b} + {c}) by distributing.",
+   "extracted_variables": {
+    "a": "0.4",
+    "b": "0.75",
+    "c": "0.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add inside the brackets",
+     "explain": "3/4 + 1/2 = 5/4",
+     "compute": "bracket = b + c"
+    },
+    {
+     "step": 2,
+     "action": "multiply through",
+     "explain": "2/5 x 5/4 = 1/2",
+     "compute": "result = a * bracket"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.101.8",
+   "question_pattern": "Simplify {a} + {b} + {c} + {d} by smart pairing.",
+   "extracted_variables": {
+    "a": "0.4285714",
+    "b": "0.5555556",
+    "c": "0.5714286",
+    "d": "0.4444444"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pair matching denominators",
+     "explain": "3/7 + 4/7 = 1",
+     "compute": "pair1 = a + c"
+    },
+    {
+     "step": 2,
+     "action": "pair the others",
+     "explain": "5/9 + 4/9 = 1",
+     "compute": "pair2 = b + d"
+    },
+    {
+     "step": 3,
+     "action": "add the pairs",
+     "explain": "1 + 1 = 2",
+     "compute": "sum = pair1 + pair2"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hemh101.txt lines 377-395",
+   "questions": [
+    "Name the property under multiplication used in (-4/5) * 1 = 1 * (-4/5) = -4/5",
+    "Tell what property allows you to compute (1/3) * (6 * 4/3) as (1/3 * 6) * 4/3",
+    "The product of two rational numbers is always a ___."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

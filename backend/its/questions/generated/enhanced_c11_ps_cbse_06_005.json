@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_005",
+   "title": "c11_ps_cbse_06_005",
+   "questions": [
+    {
+     "q": "According to T.H. Marshall, which of the following correctly sequences the historical emergence of the three elements of citizenship?",
+     "a": "Correct sequence: Civil rights (18th century) → Political rights (19th century) → Social rights (20th century). A wrong answer (e.g., political before civil) reveals the student has not grasped Marshall's historical-institutional logic: civil rights (courts, property) created the autonomous individual who could later demand political voice, and only with universal suffrage could the working class press for social rights.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Marshall argue that social rights are necessary to make civil and political rights \"real\" for the working class?",
+     "a": "Marshall argues that without social rights (education, healthcare, unemployment protection), the poor cannot effectively exercise civil liberties (e.g., freedom of speech requires education to articulate views) or political rights (e.g., voting is meaningless if economic desperation forces dependence on patrons). A wrong answer focusing only on \"government charity\" misses Marshall's core claim: social rights are a *precondition* for the *effective enjoyment* of the other two, transforming citizenship from formal to substantive equality.",
+     "self_check": true
+    },
+    {
+     "q": "A state guarantees freedom of speech (civil right) and universal adult franchise (political right) but provides no public healthcare or free education. Using Marshall's framework, analyze the citizenship status of a daily-wage laborer in this state.",
+     "a": "The laborer possesses formal civil and political citizenship but lacks social citizenship. Without healthcare, illness can destroy livelihood, making the right to property precarious. Without education, the laborer cannot effectively participate in public debate or evaluate electoral choices. Marshall would classify this as *incomplete citizenship* — the status exists but the \"quality of rights\" is degraded by class inequality. A wrong answer stating \"full citizenship exists because voting is allowed\" ignores Marshall's insistence on the *interdependence* of the three strands.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Marshall's view of citizenship with the liberal view (node c11_ps_cbse_06_003). How does Marshall's inclusion of social rights alter the liberal understanding of the state's role?",
+     "a": "The liberal view sees the state as a neutral protector of negative liberties (non-interference). Marshall's social rights require the state to *actively provide* resources (positive duties) — schools, hospitals, pensions — to equalize the *capacity* to exercise rights. This shifts the state from a \"night-watchman\" to a \"welfare state.\" A wrong answer claiming \"both want equality\" misses the structural difference: liberal equality is *opportunity*; Marshallian equality is *condition* (removing class barriers to participation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that Marshall's model is \"Anglo-centric\" and ignores colonial contexts where civil rights were denied to the native population while political rights were granted selectively to collaborators.",
+     "a": "Valid criticism: Marshall's sequential model assumes a universal trajectory within a nation-state, but colonial rule fractured this sequence — e.g., in British India, limited political rights (legislative councils) were granted *before* full civil liberties (press freedom, habeas corpus) and social rights were minimal. This shows citizenship expansion is not linear but shaped by power struggles. A weak evaluation treats the model as universally descriptive rather than a specific historical interpretation of England.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a Public Interest Litigation (PIL) in the Supreme Court of India, invoking Marshall's concept of social citizenship to demand enforcement of the Right to Education (Article 21A) for migrant workers' children in urban slums.",
+     "a": "A strong answer will: (1) cite Marshall's definition of social rights as access to education enabling \"life of dignity,\" (2) link to Article 21 (right to life) and 21A (free education 6-14), (3) argue that without education, migrant children cannot exercise future civil/political rights, (4) invoke the *Olga Tellis* precedent (right to livelihood/shelter) as extending social citizenship. A poor answer merely quotes the Act without connecting to Marshall's theoretical claim that social rights *complete* citizenship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

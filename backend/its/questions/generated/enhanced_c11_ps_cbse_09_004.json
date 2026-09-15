@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_004",
+   "title": "c11_ps_cbse_09_004",
+   "questions": [
+    {
+     "q": "Define absolute pacifism and give one historical example of a group or individual adhering to it.",
+     "a": "Absolute pacifism holds that violence is *intrinsically* immoral and never permissible, regardless of consequences (e.g., early Christians, Quakers, Jain monks). A wrong answer (e.g., \"pacifism means opposing only unjust wars\") reveals confusion with selective pacifism and failure to grasp the deontological (duty-based) core of absolute pacifism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a conditional pacifist might support a humanitarian intervention to stop genocide, while an absolute pacifist would refuse. What ethical framework distinguishes them?",
+     "a": "Conditional pacifism uses consequentialist reasoning: violence is a \"lesser evil\" if non-violence allows greater harm (e.g., genocide). Absolute pacifism follows deontological ethics: the act of killing is inherently wrong irrespective of outcome. A wrong answer (e.g., \"both would support intervention to save lives\") misses the fundamental methodological divide between consequence-based and duty-based ethics.",
+     "self_check": true
+    },
+    {
+     "q": "A nation faces an imminent invasion by a dictator known for ethnic cleansing. The government asks citizens to take up arms. Apply selective pacifism: would it permit this war? Justify using the variant's criteria.",
+     "a": "Selective pacifism *would* likely permit this war because it is a defensive war against aggression and genocide, not a war of aggression or nuclear war. The variant opposes *specific types* of wars (aggressive, nuclear, unjust) but accepts defence of human rights. A wrong answer (e.g., \"selective pacifism rejects all war\") confuses it with absolute pacifism; \"selective pacifism supports any war declared by government\" confuses it with nationalism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategic logic of pacifism (especially Gandhian/Satyagraha strand) with deterrence theory. How do they differ in their assumption about the adversary's rationality?",
+     "a": "Pacifism/Satyagraha assumes the adversary has a moral conscience that can be appealed to or shamed; it seeks to *convert* the opponent. Deterrence theory assumes the adversary is a rational cost-benefit calculator who can be *threatened* into compliance. A wrong answer (e.g., \"both rely on the enemy's fear\") misses that pacifism rejects fear/threat as a mechanism, relying instead on moral witness and suffering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism: \"Pacifism is objectively pro-fascist because it renders the victim defenceless against a ruthless aggressor.\" (Reference: George Orwell's critique of Gandhi). Is this a valid critique of *all* variants?",
+     "a": "The critique applies strongly to absolute pacifism (refusing self-defence aids the aggressor) but fails against conditional/selective pacifism which permit defensive force against tyranny. It also ignores pacifist *strategic* non-violence (Satyagraha) which is an active resistance method, not passivity. A wrong answer (e.g., \"Yes, pacifism always helps the oppressor\") shows inability to differentiate variants and conflates non-violent *resistance* with non-violent *submission*.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-clause \"Pacifist Charter\" for a student council that commits the school to non-violent conflict resolution but includes a \"safety valve\" clause for extreme bullying. Label each clause with the pacifist variant it reflects.",
+     "a": "Clause 1 (Absolute): \"No student shall ever initiate physical force.\" Clause 2 (Conditional): \"Force may be used *only* as last resort to prevent imminent severe bodily harm when all de-escalation failed.\" Clause 3 (Selective): \"The council opposes all structural violence (cyberbullying, caste/religious slurs) as violence.\" A poor charter either bans all force absolutely (ignoring safety) or allows force too broadly (e.g., \"to defend honour\"), showing failure to operationalise variant distinctions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

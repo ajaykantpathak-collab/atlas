@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_005",
+   "title": "c11_bs_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the minimum number of clauses a Partnership Deed must contain to be legally valid under the Indian Partnership Act, 1932?",
+     "a": "There is no statutory minimum number of clauses; a partnership can be formed orally or by conduct. However, the NCERT lists 12 recommended clauses for a comprehensive written deed. A wrong answer (e.g., \"12 clauses are mandatory\") reveals the misconception that the Act prescribes deed contents—it does not; the deed is a voluntary agreement that supplements, not replaces, the Act's default provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Two partners, A and B, start a firm without a written deed. A contributes ₹10 lakh capital; B contributes ₹2 lakh but works full-time. After one year, the firm earns ₹6 lakh profit. A demands 5:1 profit sharing (capital ratio); B demands 1:1 (equal sharing as per Act default). Who is legally correct, and which deed clause would have prevented this dispute?",
+     "a": "B is legally correct. Section 13(b) of the Indian Partnership Act, 1932 mandates equal profit sharing in the absence of an agreement. The \"Distribution of profits and losses\" clause in the deed would have prevented this by specifying a custom ratio (e.g., 3:2 reflecting capital and effort). A wrong answer (A is correct) reveals the misconception that capital contribution automatically determines profit share—a default rule only applies when the deed is silent.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership deed states: \"Interest on capital @ 12% p.a. shall be paid to partners.\" The firm incurs a loss of ₹4 lakh in Year 1. Partner X (capital ₹20 lakh) claims ₹2.4 lakh interest. Is X entitled to this interest? Explain the legal principle and the deed clause that should have addressed this.",
+     "a": "No. Interest on capital is an appropriation of profit, not a charge against profit. It is payable only out of profits (Section 13(c) of the Act). Since there is no profit, no interest is due. The deed clause \"Interest on capital and interest on drawings\" should have explicitly stated: \"Interest on capital shall be payable only out of profits and not in case of losses.\" A wrong answer (X is entitled) reveals the misconception that interest on capital is a guaranteed return like a loan—it is a profit appropriation contingent on profitability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal consequences of omitting the \"Procedure for dissolution of the firm\" clause versus omitting the \"Method of solving disputes\" clause in a partnership deed. Which omission creates greater operational risk for a going concern, and why?",
+     "a": "Omitting the dissolution procedure creates greater operational risk for a going concern. Without it, dissolution follows Section 40-44 of the Act (e.g., compulsory dissolution on insolvency, court order on just/equitable grounds), which can be triggered unilaterally and unpredictably. Without a dispute resolution clause, disputes go to civil court by default—costly and slow, but the firm continues operating. A wrong answer (dispute resolution is riskier) reveals the misconception that court litigation is worse than forced dissolution; dissolution ends the business entity entirely, while litigation is a process the firm can survive.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A Partnership Deed is unnecessary for a family-run partnership because mutual trust eliminates the need for formal terms.\" Provide three specific scenarios where the absence of a deed would harm even a high-trust family firm.",
+     "a": "The statement is flawed. Three scenarios: (1) Death of a partner—without a deed clause on succession, the deceased's legal heirs (including minors) become partners by default under Section 31, forcing unwanted outsiders into management. (2) Retirement—without a valuation clause, the retiring partner's share is determined by court-appointed valuers, often undervaluing goodwill. (3) Tax audit—under Section 44AB of Income Tax Act, a firm with turnover >₹1 crore must have audited accounts; a deed establishes profit-sharing ratios for tax assessment. Without it, the Assessing Officer may recompute income under Section 184, disallowing partner remuneration/interest. A weak answer reveals the misconception that trust substitutes for legal certainty—trust cannot bind third parties (creditors, tax authorities, heirs).",
+     "self_check": true
+    },
+    {
+     "q": "Design a Partnership Deed clause for \"Admission, retirement, and expulsion of a partner\" for a 3-partner tech startup (capital ratio 4:3:3) that: (a) requires unanimous consent for admission, (b) mandates 6-month notice for retirement, (c) allows expulsion only for gross misconduct proven by independent arbitrator, and (d) specifies valuation method for outgoing partner's share. Write the clause in formal legal language.",
+     "a": "A model clause: \"11. ADMISSION, RETIREMENT AND EXPULSION. (a) No new partner shall be admitted without the unanimous written consent of all existing partners. (b) Any partner may retire by giving six months' written notice to the other partners; such notice shall be irrevocable unless all partners agree in writing to its withdrawal. (c) A partner may be expelled only for gross misconduct (defined as fraud, conviction for criminal offence involving moral turpitude, or wilful breach of fiduciary duty) established by an award of a sole arbitrator appointed by the President of the Institute of Chartered Accountants of India. (d) The share of a retiring or expelled partner shall be valued at the higher of: (i) capital account balance plus share of accumulated profits/reserves as per last audited balance sheet, or (ii) fair value determined by a Chartered Accountant appointed by mutual consent, considering goodwill at three years' purchase of average super-profits of preceding three years.\" A poor answer reveals inability to translate business needs into enforceable legal terms—e.g., omitting valuation method, making expulsion arbitrary, or ignoring minority protection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

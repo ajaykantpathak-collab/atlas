@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_1",
+   "title": "c8_math_ch4_1",
+   "questions": [
+    {
+     "q": "What are the four elements of a quadrilateral? List them using the standard notation for a quadrilateral named PQRS.",
+     "a": "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS). A wrong answer (e.g., listing only sides and angles) reveals the student thinks diagonals are not part of the basic definition or confuses vertices with angles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of interior angles of ANY quadrilateral is 360°, using a diagram and the triangle angle sum property.",
+     "a": "Draw diagonal AC in quadrilateral ABCD. This creates ΔABC and ΔADC. Sum of angles in ΔABC = 180°, sum in ΔADC = 180°. Adding: (∠1+∠2+∠B) + (∠3+∠4+∠D) = 360°. But ∠1+∠3 = ∠A and ∠2+∠4 = ∠C, so ∠A+∠B+∠C+∠D = 360°. A wrong answer (e.g., \"because it has 4 right angles\") reveals the student only knows the property for rectangles, not the general proof.",
+     "self_check": true
+    },
+    {
+     "q": "In quadrilateral WXYZ, ∠W = 80°, ∠X = 110°, ∠Y = 95°. Find ∠Z. Show all steps.",
+     "a": "Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°.\nStep 2: Substitute known values: 80° + 110° + 95° + ∠Z = 360°.\nStep 3: Add known angles: 285° + ∠Z = 360°.\nStep 4: Subtract: ∠Z = 360° - 285° = 75°.\nA wrong answer (e.g., 85°) reveals the student added incorrectly (80+110+95=275, then 360-275=85) or forgot to include all three given angles.",
+     "self_check": true
+    },
+    {
+     "q": "Two quadrilaterals have the same side lengths: 5 cm, 7 cm, 5 cm, 7 cm. One is a rectangle, the other is a parallelogram that is NOT a rectangle. Compare their angle sums and their diagonals. What is the same? What is different?",
+     "a": "Both have angle sum 360° (same). The rectangle has equal diagonals that bisect each other; the non-rectangle parallelogram has unequal diagonals that still bisect each other. A wrong answer (e.g., \"angle sums differ\") reveals the student thinks angle sum depends on shape type, not just the number of sides.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a four-sided figure with one interior angle of 270° and claims it's a quadrilateral. Evaluate this claim. Is the figure a quadrilateral? If yes, what type? If no, why not?",
+     "a": "Yes, it is a quadrilateral (closed, four sides). An interior angle of 270° means it is a CONCAVE quadrilateral (one diagonal lies outside). The angle sum is still 360°. A wrong answer (e.g., \"not a quadrilateral because angle > 180°\") reveals the student thinks all quadrilaterals must be convex.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where you need to find an unknown angle of a quadrilateral-shaped field, floor tile, or piece of cloth. Write the problem and solve it.",
+     "a": "Example: A farmer's quadrilateral plot has angles 85°, 100°, 115°. Find the fourth angle to build a fence corner correctly. Solution: 360° - (85+100+115) = 60°. A poor answer (e.g., just giving numbers without context) reveals the student cannot connect the abstract property to practical measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_005",
+   "title": "c11_bio_cbse_11_005",
+   "questions": [
+    {
+     "q": "Name the primary CO₂ acceptor in the C4 pathway, its carbon number, the enzyme that catalyzes this fixation, and the cell type where this occurs.",
+     "a": "Phosphoenolpyruvate (PEP), a 3-carbon molecule, fixed by PEP carboxylase (PEPcase) in mesophyll cells. A wrong answer (e.g., \"RuBP in bundle sheath cells\") reveals confusion between the C4 pump and the Calvin cycle, indicating the student hasn't grasped the spatial separation of the two carboxylation events.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why PEP carboxylase does not catalyze photorespiration even though O₂ is present in mesophyll cells.",
+     "a": "PEP carboxylase has no oxygenase activity — its active site binds only CO₂ (as HCO₃⁻) and PEP, not O₂. A wrong answer citing \"low O₂ in mesophyll\" reveals a misconception: mesophyll cells have normal O₂ levels; the enzyme's intrinsic specificity, not the environment, prevents oxygenase reaction.",
+     "self_check": true
+    },
+    {
+     "q": "A C4 plant fixes 6 CO₂ molecules. Calculate the total ATP and NADPH consumed in the mesophyll and bundle sheath cells combined, showing the allocation between the C4 pump and the Calvin cycle.",
+     "a": "Calvin cycle: 6 CO₂ × (3 ATP + 2 NADPH) = 18 ATP + 12 NADPH. C4 pump: 6 CO₂ × 2 ATP (for PEP regeneration via pyruvate phosphate dikinase) = 12 ATP. Total = 30 ATP + 12 NADPH. A wrong answer of 18 ATP + 12 NADPH ignores the C4 pump cost, showing the student treats C4 as just \"Calvin cycle in a different cell.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of the 3-carbon product (pyruvate/alanine) after decarboxylation in bundle sheath cells of NADP-ME vs NAD-ME vs PEP-CK subtypes. How does this affect ATP accounting?",
+     "a": "In NADP-ME (maize): pyruvate returns to mesophyll, regenerated to PEP by PPDK (costs 2 ATP per pyruvate). In NAD-ME (millet): alanine returns, transaminated to pyruvate in mesophyll (no extra ATP beyond PPDK). In PEP-CK (some grasses): PEP returns directly via bundle sheath PEP carboxykinase (costs 1 ATP in bundle sheath + 1 ATP in mesophyll for PPDK). Wrong answers that treat all subtypes identically miss the biochemical diversity within C4 photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"C4 plants have higher photosynthetic efficiency than C3 plants under all environmental conditions.\" Provide evidence for and against.",
+     "a": "False. C4 outperforms C3 at high temperature (>30°C), high light, and low CO₂ (due to no photorespiration). But at cool temperatures (<15°C), low light, or elevated CO₂, C3 plants are more efficient because the 2 ATP/CO₂ overhead of the C4 pump becomes a net cost without photorespiration penalty. A student who says \"always higher\" fails to analyze the energy trade-off context-dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using leaf discs from maize (C4) and wheat (C3) to demonstrate the difference in CO₂ compensation point. Specify measurements, controls, and expected results.",
+     "a": "Place leaf discs in sealed syringes with NaHCO₃ solution of known initial CO₂ concentration. Illuminate at saturating intensity. Measure O₂ evolution (or CO₂ depletion) over time using a dissolved O₂ sensor. C4 discs will drive CO₂ to near 0 ppm (compensation point ~0-10 ppm); C3 discs will plateau at 40-60 ppm. Control: dark respiration measurement. Poor designs omit dark controls or use non-saturating light, confounding light limitation with CO₂ limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

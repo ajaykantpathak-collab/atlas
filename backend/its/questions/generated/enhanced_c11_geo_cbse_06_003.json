@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_003",
+   "title": "c11_geo_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define fissure eruption and name the major landform it creates in India.",
+     "a": "A fissure eruption is the outpouring of low-viscosity basaltic lava through long, linear cracks in the crust, producing extensive horizontal layers that solidify into lava plateaus. In India, the Deccan Traps (covering ~500,000 km² across Maharashtra, Madhya Pradesh, Gujarat) are the classic example. A wrong answer (e.g., \"fissure eruption builds a conical mountain\") reveals confusion between vent geometry and landform, likely because the student associates all volcanism with the typical stratovolcano image.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a central eruption often produce a steep-sided cone while a fissure eruption produces a flat plateau?",
+     "a": "Central eruptions concentrate magma at a single vent; repeated eruptions pile lava and pyroclasts around that point, building a cone whose slope angle reflects magma viscosity (steeper for andesitic/rhyolitic). Fissure eruptions release fluid basalt along kilometres of cracks; lava spreads laterally as thin sheets that cool into nearly horizontal layers, creating a plateau. A wrong answer (e.g., \"central eruptions have more gas\") misses the role of vent geometry and magma viscosity in controlling lateral spread versus vertical accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark the Deccan Traps and Barren Island. If you were given a rock sample from each, how would you identify its eruption type in the field?",
+     "a": "Step 1: Locate Deccan Traps (western/central India) and Barren Island (Andaman Sea, ~135 km NE of Port Blair). Step 2: Deccan Trap sample – fine-grained, dark basalt with columnar jointing, extensive horizontal bedding, no pyroclastic layers → indicates fissure eruption. Step 3: Barren Island sample – likely andesitic/basaltic lava with interbedded ash/tuff layers, vesicular texture, possible volcanic bombs → indicates central eruption. A wrong identification (e.g., calling Deccan basalt a central vent product) shows inability to link rock texture and field relations to eruption mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tectonic settings of the Deccan Traps and Barren Island. How does plate boundary type explain their different eruption styles?",
+     "a": "Deccan Traps formed ~66 Ma during India's northward drift over the Réunion hotspot (intraplate, not a plate boundary) – massive basaltic fissure eruptions from mantle plume decompression melting. Barren Island sits on the Andaman-Sumatra subduction zone (convergent boundary where Indian Plate subducts beneath Burma Plate) – water-fluxed melting produces more viscous, gas-rich magma feeding a central stratovolcano. A wrong answer (e.g., \"both are at divergent boundaries\") reveals a fundamental misunderstanding of Indian tectonics and the link between boundary type and magma genesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Fissure eruptions are less hazardous than central eruptions because they are non-explosive.\"",
+     "a": "Partially true but misleading. Fissure eruptions (e.g., Deccan Traps, Laki 1783) release enormous volumes of lava and volcanic gases (SO₂, CO₂) over months/years, causing regional climate cooling, acid rain, and fluorine poisoning – the 1783 Laki eruption killed ~25% of Iceland's population via famine. Central eruptions pose immediate explosive hazards (pyroclastic flows, lahars, ashfall). Hazard depends on timescale, gas flux, and population proximity. A wrong evaluation (e.g., \"fissure eruptions are safe\") ignores the long-term environmental impact of flood basalts and shows a narrow view of volcanic hazard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to determine whether a newly discovered volcanic plateau in central India formed by fissure or central eruptions. List three key observations you would make.",
+     "a": "1. Vent geometry: Search for linear fissure traces (dyke swarms, aligned spatter ramparts) versus a single central conduit. 2. Stratigraphy: Measure lateral continuity of lava flows – fissure flows extend tens of kilometres with uniform thickness; central flows thin radially from a vent. 3. Pyroclastic content: Fissure sequences are dominantly lava with rare scoria; central sequences show interbedded ash/tuff layers. A poor answer (e.g., \"just date the rocks\") misses the diagnostic field criteria that distinguish eruption mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

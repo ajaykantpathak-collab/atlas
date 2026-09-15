@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_001",
+   "title": "c12_cs_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between SQL and MySQL?",
+     "a": "SQL is a language standard (ANSI/ISO) for querying relational databases; MySQL is a specific RDBMS product that implements that language. A wrong answer such as “SQL is the software and MySQL is the language” reveals the student has confused the specification with the implementation — a classic Category Error that leads to writing “MySQL queries” when they mean “SQL queries” and causes confusion when switching to PostgreSQL or SQLite later.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a column in a relational table must be assigned a data type (e.g., INT, VARCHAR(50), DATE) at creation time.",
+     "a": "Data types enforce domain integrity: they restrict what values can be stored (e.g., preventing letters in an age column), allocate appropriate storage, and enable type-specific operations (date arithmetic on DATE, string functions on VARCHAR). A student who says “it’s just a label” misses the validation and optimization purpose; this misconception leads to schema designs that allow garbage data and slow queries.",
+     "self_check": true
+    },
+    {
+     "q": "Write the exact sequence of SQL commands to create a database named `school_fest`, switch to it, create a table `participants` with columns `pid` (integer), `name` (variable string up to 30 characters), `class` (integer), `phone` (fixed string of 10 digits), and `event` (variable string up to 20 characters), and then insert one row for a student named ‘Aarav’ in class 12 with phone ‘9876543210’ participating in ‘Dance’.",
+     "a": "```sql\nCREATE DATABASE school_fest;\nUSE school_fest;\nCREATE TABLE participants (\n    pid INT,\n    name VARCHAR(30),\n    class INT,\n    phone CHAR(10),\n    event VARCHAR(20)\n);\nINSERT INTO participants VALUES (1, 'Aarav', 12, '9876543210', 'Dance');\n```\nMissing the `USE` statement or forgetting the semicolon terminator are common syntax errors; a student who omits `USE` will create the table in the wrong database (or get an error if no database is selected). This tests the procedural understanding of database context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the storage implications and use-cases of `CHAR(10)` versus `VARCHAR(10)` for a column that stores Indian mobile numbers (always exactly 10 digits). Which would you choose and why?",
+     "a": "`CHAR(10)` always stores exactly 10 characters, padding with spaces if the input is shorter — wasteful for fixed-length data like mobile numbers where every entry is exactly 10 digits. `VARCHAR(10)` stores only the actual characters plus a 1-2 byte length prefix, saving space when lengths vary. For mobile numbers, `CHAR(10)` is actually preferable because the length never varies, eliminating the overhead of the length prefix and guaranteeing fixed-width rows which can speed up scans. A student who picks `VARCHAR` “to save space” shows they don’t understand the fixed-length nature of the data and the trade-off between length-prefix overhead and fixed-width performance.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: “Since SQL is a standard, any SQL code I write in MySQL will run unchanged on PostgreSQL, Oracle, or SQL Server.” Evaluate this claim and justify your position with two concrete examples of MySQL-specific syntax or behaviour that are not portable.",
+     "a": "The claim is false. While core DML (SELECT, INSERT, UPDATE, DELETE) and basic DDL (CREATE TABLE) are largely standard, every RDBMS adds proprietary extensions. Examples: (1) MySQL’s `AUTO_INCREMENT` for auto-generating primary keys vs. PostgreSQL’s `SERIAL` or SQL Server’s `IDENTITY`. (2) MySQL’s backtick (`) identifier quoting vs. standard double-quote (\") used by PostgreSQL/Oracle. (3) MySQL’s `LIMIT` clause for pagination vs. standard `FETCH FIRST n ROWS ONLY` (or `TOP` in SQL Server). A student who agrees with the claim has not encountered dialect differences — a major pitfall in competitive exams where “write a query that works on any RDBMS” is a common constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal database schema (list the CREATE TABLE statements only) for a school library that tracks books and which student has borrowed which book. Include appropriate columns, data types, and indicate primary keys. Do not write foreign key constraints yet — just the table structures.",
+     "a": "```sql\nCREATE TABLE students (\n    adm_no INT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    class_sec VARCHAR(10) NOT NULL\n);\n\nCREATE TABLE books (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(100) NOT NULL,\n    author VARCHAR(50) NOT NULL,\n    isbn CHAR(13) UNIQUE\n);\n\nCREATE TABLE borrowings (\n    borrow_id INT PRIMARY KEY,\n    adm_no INT NOT NULL,\n    book_id INT NOT NULL,\n    issue_date DATE NOT NULL,\n    due_date DATE NOT NULL,\n    return_date DATE\n);\n```\nA poor answer might omit primary keys, use `VARCHAR` for `adm_no`, or forget `NOT NULL` on mandatory columns. This reveals inability to translate a real-world scenario into relational structure — the core competency for board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

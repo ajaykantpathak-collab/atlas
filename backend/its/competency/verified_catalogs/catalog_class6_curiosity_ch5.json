@@ -1,0 +1,667 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Measurement of Length and Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu105.txt",
+ "concepts": [
+  {
+   "id": "c6cu.5.1",
+   "title": "Standard Units of Measurement (SI Units)",
+   "section": "5.1 STANDARD UNITS OF MEASUREMENT",
+   "definition": "A universally accepted, fixed reference quantity used to measure a physical quantity; the SI unit of length is the metre (m).",
+   "formula": "",
+   "key_idea": "Standard units like the metre are reproducible everywhere and remove the variation caused by body-based units such as hand-span or cubit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the SI unit of length",
+    "why do we need standard units of measurement",
+    "why cannot we use hand-span as a standard unit",
+    "define one metre",
+    "name the standard unit used to measure length"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the physical quantity to measure",
+     "explain": "Recognise that length is the quantity being measured and that it needs a fixed, reproducible reference."
+    },
+    {
+     "step": 2,
+     "action": "Select the SI unit",
+     "explain": "The internationally accepted SI unit of length is the metre (m), which is the same everywhere and does not vary from person to person."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the unit is standard and reproducible",
+     "explain": "A standard unit must be constant, universally accepted, and reproducible, unlike body-based units such as hand-span or foot which differ between people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why can a hand-span not be used as a standard unit of length?",
+     "solution": "A hand-span varies from person to person, so the same object would measure differently for different people. A standard unit must be fixed and the same for everyone, which is why the metre is used instead.",
+     "answer": "A hand-span is not a standard unit because it is not constant; it differs between individuals.",
+     "_n": 1
+    },
+    {
+     "question": "What is the SI unit of length? Give its symbol.",
+     "solution": "The SI (International System) unit of length is the metre, represented by the symbol m.",
+     "answer": "Metre (m).",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the SI unit of length and write its symbol.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give two reasons why body-based units like the cubit are not reliable for measurement.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.2",
+   "title": "Measuring Length Using a Ruler",
+   "section": "5.2 MEASURING LENGTH",
+   "definition": "A ruler (scale) is a graduated strip marked in centimetres and millimetres used to measure the length of small objects directly.",
+   "formula": "",
+   "key_idea": "Place the ruler along the object, align the zero mark with one end, and read the value at the other end while keeping the eye vertically above the mark.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how do you measure the length of a pencil using a ruler",
+    "what precautions should be taken while reading a scale",
+    "why should the eye be placed vertically above the scale mark",
+    "how to measure length using a broken ruler",
+    "explain the correct way to use a measuring scale"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Align the ruler with the object",
+     "explain": "Place the ruler along the length of the object so that the zero mark of the scale coincides with one end of the object."
+    },
+    {
+     "step": 2,
+     "action": "Read the scale at the other end",
+     "explain": "Note the mark on the ruler that lines up with the other end of the object, keeping the eye vertically above the mark to avoid parallax error."
+    },
+    {
+     "step": 3,
+     "action": "Record the measurement with the correct unit",
+     "explain": "Write down the reading along with its unit (cm or mm). If the zero mark is broken, use any convenient starting mark and subtract the starting reading from the end reading."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The zero mark of a ruler is worn out. How can you still measure the length of a pencil?",
+     "solution": "Align the 2 cm mark of the ruler with one end of the pencil. If the other end lines up with the 14 cm mark, the length is 14 cm - 2 cm = 12 cm.",
+     "answer": "Length = 14 cm - 2 cm = 12 cm."
+    },
+    {
+     "question": "A student reads the scale by looking at it from an angle. What is wrong with this method?",
+     "solution": "Reading the scale at an angle causes parallax error, giving an incorrect reading. The eye must be positioned vertically above the mark being read.",
+     "answer": "The eye should be directly above the mark to avoid parallax error."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three precautions to take while measuring length with a ruler.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Describe how you would measure the length of a pencil whose one end is at the 3 cm mark and the other end at the 17 cm mark of a ruler.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.3",
+   "title": "Measuring Length Using a Measuring Tape",
+   "section": "5.2 MEASURING LENGTH",
+   "definition": "A measuring tape is a flexible, graduated strip used to measure lengths that are too long for a rigid ruler or that follow a curved path.",
+   "formula": "",
+   "key_idea": "Measuring tapes are marked in metres and centimetres and can wrap around objects, making them suitable for measuring long or curved lengths like the girth of a tree.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "which instrument is used to measure the girth of a tree",
+    "why is a measuring tape preferred over a ruler for long distances",
+    "how do tailors measure cloth",
+    "what is a measuring tape used for",
+    "how to measure the length of a curved line"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose the measuring tape for long or curved lengths",
+     "explain": "Select a measuring tape when the length is too long for a ruler or when the path is curved, because the tape is flexible and can follow the shape."
+    },
+    {
+     "step": 2,
+     "action": "Place the tape along the length",
+     "explain": "Lay the tape along the object or wrap it around the girth, keeping it taut and in full contact with the surface."
+    },
+    {
+     "step": 3,
+     "action": "Read and record the measurement",
+     "explain": "Read the graduation on the tape at the point where it meets the starting end, and record the value with the correct unit (m or cm)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which measuring instrument would you use to measure the girth of a tree, and why?",
+     "solution": "A measuring tape is used because it is flexible and can be wrapped around the curved trunk of the tree, which a rigid ruler cannot do.",
+     "answer": "A measuring tape, because it can wrap around curved surfaces."
+    },
+    {
+     "question": "A tailor needs to measure 2.5 m of cloth. Which instrument is most suitable?",
+     "solution": "A measuring tape is most suitable because cloth lengths are long and the tape is marked in metres and centimetres, allowing an accurate 2.5 m measurement.",
+     "answer": "Measuring tape."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the instrument used to measure the girth of a tree and explain why it is chosen.",
+     "type": "verify_property"
+    },
+    {
+     "question": "State one situation where a measuring tape is more useful than a ruler.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.4",
+   "title": "Accuracy in Measurement",
+   "section": "5.3 ACCURACY IN MEASUREMENT",
+   "definition": "The closeness of a measured value to the true value; accuracy depends on the instrument, the correct technique, and the smallest division the instrument can measure.",
+   "formula": "",
+   "key_idea": "Every measurement has some uncertainty; the smallest length a scale can measure reliably is determined by its smallest division, and proper technique reduces error.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is accuracy in measurement",
+    "why is no measurement perfectly exact",
+    "what factors affect the accuracy of a measurement",
+    "how does the smallest division of a scale affect accuracy",
+    "what is the least count of a ruler"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the smallest division of the instrument",
+     "explain": "Determine the least count, which is the smallest length the scale can measure (e.g., 1 mm on a normal ruler); this sets the limit of accuracy."
+    },
+    {
+     "step": 2,
+     "action": "Use correct measurement technique",
+     "explain": "Place the scale correctly, avoid parallax by viewing vertically, and avoid using a worn-out zero mark to reduce errors."
+    },
+    {
+     "step": 3,
+     "action": "Report the result with appropriate precision",
+     "explain": "State the measured value along with the unit and acknowledge that some uncertainty always remains because no measurement is perfectly exact."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A ruler has its smallest division as 1 mm. What does this tell you about its accuracy?",
+     "solution": "The smallest division (least count) of 1 mm means the ruler can reliably measure lengths only up to 1 mm; lengths smaller than 1 mm cannot be measured accurately with this ruler.",
+     "answer": "The ruler is accurate up to 1 mm."
+    },
+    {
+     "question": "Two students measure the same table and get slightly different values. Why?",
+     "solution": "Small differences arise from the least count of the instrument, parallax error, and slight differences in technique, showing that no measurement is perfectly exact.",
+     "answer": "Differences occur due to instrument limits and measurement technique; no measurement is perfectly exact."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define accuracy in measurement and name two factors that affect it.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why no measurement can be perfectly exact.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.5",
+   "title": "Rest and Motion",
+   "section": "5.4 REST AND MOTION",
+   "definition": "An object is at rest if its position does not change with time relative to a reference point; it is in motion if its position changes with time relative to that point.",
+   "formula": "",
+   "key_idea": "Rest and motion are relative -- they depend on the chosen reference point, because the same object may be at rest with respect to one observer and in motion with respect to another.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is rest and what is motion",
+    "is rest and motion relative",
+    "give an example where an object is at rest for one observer but in motion for another",
+    "why do we need a reference point to describe motion",
+    "is a passenger sitting in a moving bus at rest or in motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose a reference point",
+     "explain": "Select a fixed reference point (observer) relative to which the position of the object will be judged."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the position changes with time",
+     "explain": "If the position of the object does not change with respect to the reference point, it is at rest; if it changes, the object is in motion."
+    },
+    {
+     "step": 3,
+     "action": "Conclude that rest and motion are relative",
+     "explain": "Recognise that the answer depends on the reference point -- the same object can be at rest for one observer and in motion for another, so rest and motion are relative."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A passenger is sitting inside a moving bus. Is she at rest or in motion?",
+     "solution": "With respect to the bus (or another passenger), she is at rest because her position does not change. With respect to a person standing on the road, she is in motion because the bus is moving.",
+     "answer": "She is at rest relative to the bus but in motion relative to the ground; rest and motion are relative."
+    },
+    {
+     "question": "Why do we need a reference point to describe the state of an object?",
+     "solution": "Whether an object is at rest or in motion can only be judged by comparing its position to a fixed reference point; without one, we cannot say if the position is changing.",
+     "answer": "A reference point is needed because rest and motion are described relative to it."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define rest and motion. Explain why they are called relative terms.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example in which an object is simultaneously at rest and in motion.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.6",
+   "title": "Types of Motion - Linear Motion",
+   "section": "5.5 TYPES OF MOTION",
+   "definition": "Linear (rectilinear) motion is motion in which an object moves along a straight line.",
+   "formula": "",
+   "key_idea": "In linear motion every point of the moving object travels the same straight-line path; examples include a car moving on a straight road and a ball rolling along a straight track.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is linear motion",
+    "give an example of linear motion",
+    "define rectilinear motion",
+    "what type of motion does a car on a straight road show",
+    "how is linear motion different from circular motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the path of the object",
+     "explain": "Observe the path traced by the object and check whether it is a straight line."
+    },
+    {
+     "step": 2,
+     "action": "Check that all points move along the same straight line",
+     "explain": "In linear (rectilinear) motion, every point of the object moves through the same straight-line path."
+    },
+    {
+     "step": 3,
+     "action": "Classify the motion as linear",
+     "explain": "If the path is a straight line, the motion is linear; examples include a car moving on a straight road or a falling stone."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What type of motion does a car moving on a straight road exhibit?",
+     "solution": "Since the car moves along a straight line and every point of the car follows the same straight path, the motion is linear (rectilinear) motion.",
+     "answer": "Linear (rectilinear) motion."
+    },
+    {
+     "question": "A ball rolls along a straight ramp. Identify the type of motion.",
+     "solution": "The ball moves along a straight line, so its motion is linear motion.",
+     "answer": "Linear motion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define linear motion and give one example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "State whether the motion of a falling stone is linear or circular and justify your answer.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.7",
+   "title": "Types of Motion - Circular Motion",
+   "section": "5.5 TYPES OF MOTION",
+   "definition": "Circular motion is motion in which an object moves along a circular path around a fixed point or axis.",
+   "formula": "",
+   "key_idea": "In circular motion the object stays at the same distance from a fixed centre while its direction changes continuously; examples include a merry-go-round and the hands of a clock.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is circular motion",
+    "give an example of circular motion",
+    "what type of motion does a merry-go-round show",
+    "how is circular motion different from linear motion",
+    "is the motion of the hands of a clock circular"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the path of the object",
+     "explain": "Observe the path traced by the object and check whether it is a circle around a fixed centre."
+    },
+    {
+     "step": 2,
+     "action": "Check that the distance from the centre stays fixed",
+     "explain": "In circular motion the object remains at the same distance from a fixed point (centre) while continuously changing direction."
+    },
+    {
+     "step": 3,
+     "action": "Classify the motion as circular",
+     "explain": "If the path is circular around a fixed centre, the motion is circular; examples include a merry-go-round and the hands of a clock."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What type of motion is shown by a merry-go-round?",
+     "solution": "A merry-go-round moves around a fixed central axis along a circular path, so it shows circular motion.",
+     "answer": "Circular motion."
+    },
+    {
+     "question": "Is the motion of the hands of a clock an example of circular motion? Explain.",
+     "solution": "The hands of a clock rotate around a fixed centre, tracing a circular path, so their motion is circular motion.",
+     "answer": "Yes, the hands of a clock show circular motion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define circular motion and give one daily-life example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Distinguish between linear and circular motion with one example each.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.8",
+   "title": "Types of Motion - Periodic Motion",
+   "section": "5.5 TYPES OF MOTION",
+   "definition": "Periodic motion is motion that repeats itself after equal intervals of time.",
+   "formula": "",
+   "key_idea": "In periodic motion the object retraces the same path at regular time intervals; examples include a swinging pendulum and the motion of a swing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is periodic motion",
+    "give an example of periodic motion",
+    "what type of motion does a swinging pendulum show",
+    "is the motion of a swing periodic",
+    "how is periodic motion different from linear motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe whether the motion repeats",
+     "explain": "Watch the object and check whether it returns to the same position after a fixed interval of time."
+    },
+    {
+     "step": 2,
+     "action": "Check that the interval is equal each time",
+     "explain": "In periodic motion the same path is retraced after equal intervals of time, called the time period."
+    },
+    {
+     "step": 3,
+     "action": "Classify the motion as periodic",
+     "explain": "If the motion repeats at equal time intervals, it is periodic; examples include a pendulum and a child on a swing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What type of motion does a swinging pendulum show?",
+     "solution": "A pendulum swings back and forth, repeating its motion after equal intervals of time, so it shows periodic motion.",
+     "answer": "Periodic motion."
+    },
+    {
+     "question": "A child on a swing moves to and fro. Identify the type of motion.",
+     "solution": "The swing repeats its to-and-fro movement after equal intervals of time, which is periodic motion.",
+     "answer": "Periodic motion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define periodic motion and give one example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why the motion of a pendulum is called periodic.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.9",
+   "title": "Distance and Displacement",
+   "section": "5.6 DISTANCE AND DISPLACEMENT",
+   "definition": "Distance is the total length of the path travelled by an object, while displacement is the shortest straight-line distance from the starting point to the final position along with its direction.",
+   "formula": "",
+   "key_idea": "Distance depends on the actual path taken and is always positive, whereas displacement depends only on the start and end positions and can be zero even when distance is not.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the difference between distance and displacement",
+    "can displacement be zero while distance is not",
+    "define distance and displacement",
+    "a body moves in a circle and returns to the start what is its displacement",
+    "is distance always equal to displacement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the path travelled",
+     "explain": "Measure the total length of the actual path taken by the object; this gives the distance."
+    },
+    {
+     "step": 2,
+     "action": "Find the straight-line distance between start and end",
+     "explain": "Draw the shortest straight line from the starting position to the final position; this length, with direction, is the displacement."
+    },
+    {
+     "step": 3,
+     "action": "Compare distance and displacement",
+     "explain": "Distance is the total path length and is always positive; displacement is the shortest directed distance and can be zero if the object returns to the start, so distance is greater than or equal to displacement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A boy walks 4 m east then 3 m west and stops. What is his distance travelled and displacement?",
+     "solution": "Distance is the total path length = 4 m + 3 m = 7 m. Displacement is the straight-line distance from start to end = 4 m - 3 m = 1 m east.",
+     "answer": "Distance = 7 m; Displacement = 1 m east."
+    },
+    {
+     "question": "An athlete completes one full round of a circular track of radius 7 m. What is his distance and displacement?",
+     "solution": "Distance is the circumference of the track = 2 x pi x 7 m = 44 m (approx). Since he returns to the starting point, displacement is zero.",
+     "answer": "Distance = 44 m (approx); Displacement = 0 m."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between distance and displacement with an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "A person walks 5 m north and then 5 m south. Find the distance travelled and the displacement.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.10",
+   "title": "Speed (Qualitative)",
+   "section": "5.7 SPEED",
+   "definition": "Speed is a measure of how fast an object moves; it tells us the distance travelled by an object in a given unit of time.",
+   "formula": "speed = distance / time",
+   "key_idea": "An object covering more distance in the same time is faster than one covering less distance; speed compares distances covered in equal time intervals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is speed",
+    "which object is faster one covering more distance or less distance in the same time",
+    "how do we compare the speeds of two objects",
+    "define speed qualitatively",
+    "what does it mean when we say a car is faster than a bicycle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the distance travelled by each object",
+     "explain": "Note the distance each object covers in the same amount of time.",
+     "compute": "distance = d"
+    },
+    {
+     "step": 2,
+     "action": "Compare the distances covered in equal time",
+     "explain": "The object that covers more distance in the same time is moving faster; the one covering less distance is slower.",
+     "compute": "speed = distance / time"
+    },
+    {
+     "step": 3,
+     "action": "Conclude which object is faster",
+     "explain": "State which object has the greater speed based on the comparison of distances covered in equal time."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Car A covers 60 km in 1 hour and car B covers 40 km in 1 hour. Which car is faster?",
+     "solution": "Both cars travel for the same time (1 hour). Car A covers more distance (60 km) than car B (40 km), so car A is faster.",
+     "answer": "Car A is faster because it covers more distance in the same time."
+    },
+    {
+     "question": "What does it mean when we say a cheetah is faster than a horse?",
+     "solution": "It means the cheetah covers more distance than the horse in the same amount of time, so its speed is greater.",
+     "answer": "The cheetah covers more distance in the same time, so it has a greater speed."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define speed and explain how to compare the speeds of two objects qualitatively.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Two cyclists travel for 10 minutes. One covers 4 km and the other 6 km. Which one is faster and why?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.5.11",
+   "title": "Units Conversion (cm to m, m to km)",
+   "section": "5.8 UNITS OF LENGTH",
+   "definition": "Conversion of length units uses the fixed relations 1 m = 100 cm and 1 km = 1000 m, allowing lengths to be expressed in different units.",
+   "formula": "1 m = 100 cm; 1 km = 1000 m",
+   "key_idea": "To convert to a larger unit, divide by the conversion factor; to convert to a smaller unit, multiply by the conversion factor.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "convert {value} cm to m",
+    "convert {value} m to km",
+    "how many centimetres make one metre",
+    "how many metres make one kilometre",
+    "convert {value} km to m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given unit and the target unit",
+     "explain": "Note the unit of the given length and the unit you need to convert it into."
+    },
+    {
+     "step": 2,
+     "action": "Apply the conversion factor",
+     "explain": "multiply the value by the number of target units in one given unit -- 0.01 for cm to m, 0.001 for m to km, and 1000 for km to m",
+     "compute": "value_in_target = value * factor"
+    },
+    {
+     "step": 3,
+     "action": "Write the result with the correct unit",
+     "explain": "State the converted value with the target unit to complete the conversion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Convert 250 cm to metres.",
+     "solution": "Since 1 m = 100 cm, divide by 100: 250 cm / 100 = 2.5 m.",
+     "answer": "2.5 m."
+    },
+    {
+     "question": "Convert 3 km to metres.",
+     "solution": "Since 1 km = 1000 m, multiply by 1000: 3 km x 1000 = 3000 m.",
+     "answer": "3000 m."
+    },
+    {
+     "question": "Convert 1500 m to kilometres.",
+     "solution": "Since 1 km = 1000 m, divide by 1000: 1500 m / 1000 = 1.5 km.",
+     "answer": "1.5 km."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Convert 450 cm to metres.",
+     "type": "compute"
+    },
+    {
+     "question": "Convert 2.5 km to metres.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu105.txt",
+   "concept": "c6cu.5.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why can a hand-span not be used as a standard unit of length?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A hand-span varies from person",
+     "explain": "A hand-span varies from person to person, so the same object would measure differently for different people. A standard unit must be fixed and the same for everyone, which is why the metre is used instead."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu105.txt",
+   "concept": "c6cu.5.1",
+   "question_type": "short_answer",
+   "question_pattern": "What is the SI unit of length? Give its symbol.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The SI (International System) unit",
+     "explain": "The SI (International System) unit of length is the metre, represented by the symbol m."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

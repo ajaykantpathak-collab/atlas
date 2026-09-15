@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_7",
+   "title": "c8_bio_ch2_7",
+   "questions": [
+    {
+     "q": "Which class of organic macromolecules is primarily responsible for tissue growth, cellular repair, and the synthesis of biological catalysts known as enzymes?",
+     "a": "Proteins are the correct answer because they are polymers of amino acids linked by peptide bonds, containing carbon, hydrogen, oxygen, nitrogen, and often sulfur. A wrong answer indicates confusion with carbohydrates or lipids, which mainly serve as energy sources rather than structural and functional biocatalysts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why consuming only refined sugar and purified vegetable oil, despite providing abundant calories, fails to constitute a balanced diet.",
+     "a": "Refined sugar and oil provide only carbohydrates and fats (energy sources) but completely lack essential amino acids (proteins), vitamins, minerals, and dietary fiber. A wrong answer suggests that energy (calories) alone is sufficient for health, ignoring the body's requirement for micronutrients and structural building blocks.",
+     "self_check": true
+    },
+    {
+     "q": "A student analyzes a food sample and finds it contains carbon, hydrogen, oxygen, and nitrogen in specific amino acid arrangements. If 50 grams of this nutrient are completely oxidized in a calorimeter, approximately how many kilocalories of energy are released, and what is the primary metabolic waste product containing nitrogen?",
+     "a": "Steps: 1. Identify the nutrient as protein based on the presence of nitrogen. 2. Recall that proteins provide approximately 4 kcal per gram upon oxidation. 3. Calculate energy: 50 g × 4 kcal/g = 200 kcal. 4. Identify the metabolic waste product of nitrogen excretion as urea, produced in the liver from deamination of excess amino acids. Answer: 200 kcal; urea. A wrong answer indicates mixing up energy values of fats (9 kcal/g) and carbohydrates/proteins (4 kcal/g), or failing to recognize nitrogenous waste products.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a deficiency in dietary iron impacts the oxygen-transporting capability of blood at the molecular level.",
+     "a": "Iron is a core metallic constituent of the heme group in hemoglobin molecules found in red blood cells. A deficiency in iron prevents the proper synthesis of hemoglobin, drastically reducing the blood's capacity to bind and transport oxygen from the lungs to respiring tissues, leading to anemia. A wrong answer reveals a failure to link dietary minerals to specific metalloprotein structures and cellular transport functions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Water does not provide any chemical energy or calories, therefore it is not a nutrient and can be largely eliminated from a balanced diet without physiological consequence.\"",
+     "a": "The claim is completely false. While water yields zero calories, it is an essential nutrient because it serves as the universal solvent for all biochemical reactions, maintains blood volume, regulates body temperature through high specific heat, and acts as a medium for metabolic transport and waste elimination. A wrong answer shows a misconception that only energy-yielding molecules qualify as essential nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Design a daily meal plan for a growing teenager in India that incorporates all essential macro- and micro-nutrients using locally available food items, and justify the inclusion of each food group chemically.",
+     "a": "A model response should include whole grains (complex carbohydrates for energy and B-vitamins), lentils or paneer (proteins for growth and amino acids), seasonal green vegetables and fruits (vitamins, minerals, and dietary fiber), and dairy or mustard oil (fats and calcium). A poor answer lists junk foods or lacks variety, missing vital micronutrients or protein sources necessary for adolescent development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

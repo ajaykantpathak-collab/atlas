@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_009",
+   "title": "c12_ps_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the composition of the International Court of Justice and how are judges elected?",
+     "a": "The ICJ consists of 15 judges elected for nine-year terms by an absolute majority in both the UN General Assembly and the UN Security Council, with one-third elected every three years. Judges must represent the main forms of civilisation and principal legal systems. A wrong answer (e.g., \"appointed by the Secretary-General\" or \"elected only by the GA\") reveals confusion between the ICJ's unique dual-election mechanism and other UN appointments, and ignorance of the staggered terms ensuring continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the ICJ's contentious jurisdiction and its advisory jurisdiction. Who can request an advisory opinion?",
+     "a": "Contentious jurisdiction settles legal disputes between states that have consented to the Court's jurisdiction; judgments are binding on the parties. Advisory jurisdiction provides non-binding legal opinions to authorised UN organs (General Assembly, Security Council) and specialised agencies. A wrong answer (e.g., \"advisory opinions are binding\" or \"individuals can request advisory opinions\") reveals a fundamental misunderstanding of the ICJ's two distinct functions and the limited circle of entities that may seek advisory opinions.",
+     "self_check": true
+    },
+    {
+     "q": "India and Bangladesh have a dispute over the delimitation of their maritime boundary in the Bay of Bengal. Both states have accepted the ICJ's compulsory jurisdiction under Article 36(2) of the ICJ Statute with certain reservations. Can the ICJ hear this case? Explain the role of state consent.",
+     "a": "Yes, the ICJ can hear the case if the reservations attached by both states do not exclude this specific dispute. The ICJ's jurisdiction is based on consent: states may accept compulsory jurisdiction (optional clause), make a special agreement (compromis), or be parties to a treaty conferring jurisdiction. If either state's reservation excludes maritime disputes, the Court lacks jurisdiction. A wrong answer (e.g., \"ICJ can hear any dispute between UN members\") reveals the common misconception that ICJ jurisdiction is automatic or compulsory for all UN members, ignoring the cornerstone principle of state consent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the enforcement mechanism of an ICJ judgment with that of a Supreme Court of India judgment. Why is the ICJ's enforcement considered weaker?",
+     "a": "An ICJ judgment is binding on parties (Article 94, UN Charter), but if a state fails to comply, the other party may go to the UN Security Council, which *may* make recommendations or decide measures — subject to veto by permanent members. In contrast, the Supreme Court of India's judgments are enforced by the executive branch under the constitutional hierarchy (Article 144). The ICJ lacks its own enforcement arm and depends on a political body (UNSC) where great power politics can block action. A wrong answer (e.g., \"ICJ has its own police force\" or \"UNSC automatically enforces\") reveals ignorance of the political nature of international enforcement versus the hierarchical domestic enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the ICJ in resolving the Kashmir dispute between India and Pakistan, given that India has not accepted the ICJ's compulsory jurisdiction and insists on bilateral resolution under the Simla Agreement (1972).",
+     "a": "The ICJ cannot adjudicate the Kashmir dispute without India's consent. India's rejection of compulsory jurisdiction and insistence on bilateralism (Simla Agreement) means the ICJ has no role unless both states agree to submit the dispute — which is politically unlikely. This illustrates the ICJ's structural limitation: it cannot address the most politically sensitive disputes unless powerful states consent. A wrong answer (e.g., \"ICJ should intervene because it's a legal dispute\" or \"UNSC can refer it to ICJ\") reveals a misunderstanding of the consent principle and the political constraints on judicial settlement of core sovereignty disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical clause for a bilateral treaty between India and Nepal that would give the ICJ jurisdiction over future water-sharing disputes, while excluding disputes related to national security. Explain how this reflects the principle of state consent.",
+     "a": "A good answer: \"Any dispute arising from the interpretation or implementation of this Treaty concerning the sharing of river waters shall be submitted to the International Court of Justice for final and binding decision. Disputes involving essential national security interests, as determined by the invoking party, are excluded from this jurisdiction.\" This reflects state consent because jurisdiction is created by treaty (a voluntary act), and the reservation shows states define the scope of their consent. A poor answer (e.g., omitting the exclusion clause or making jurisdiction automatic for all disputes) fails to demonstrate that consent can be conditional and limited.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

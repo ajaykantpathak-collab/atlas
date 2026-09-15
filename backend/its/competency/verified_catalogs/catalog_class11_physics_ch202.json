@@ -1,0 +1,1283 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 202,
+ "chapter_title": "Mechanical Properties of Fluids",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph202.txt",
+ "concepts": [
+  {
+   "id": "keph.202.1",
+   "title": "Average Fluid Pressure",
+   "section": "9.2",
+   "definition": "The average normal force applied by a fluid on each unit of area of the surface touching with it.",
+   "formula": "pressure = force / area",
+   "key_idea": "Pressure is a scalar amount representing normal force distribution over an area.",
+   "textbook_ref": "keph202.txt lines 40-60",
+   "question_patterns": [
+    "calculate the average pressure sustained by the surface",
+    "find the pressure exerted by a force on an area",
+    "what is the pressure when a force is applied to a surface",
+    "how much pressure is experienced by the contact area",
+    "solve a numerical on average fluid pressure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide normal force by area",
+     "explain": "The average pressure is computed by dividing the total perpendicular force by the total contact area.",
+     "compute": "force / area"
+    },
+    {
+     "step": 2,
+     "action": "Identify the normal force and contact area from the problem",
+     "explain": "The normal force is the component perpendicular to the surface; for a fluid at rest it equals the weight of the fluid column above the surface.",
+     "compute": "mass * g"
+    },
+    {
+     "step": 3,
+     "action": "Express pressure in pascals and verify units",
+     "explain": "One pascal equals one newton per square metre; ensure force is in newtons and area in square metres before dividing.",
+     "compute": "pressure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving average fluid pressure.",
+     "solution": "Step 1: Divide normal force by area. Step 2: Identify the normal force and contact area from the problem. Step 3: Express pressure in pascals and verify units. Working: force / area, mass * g, pressure.",
+     "answer": "Average Fluid Pressure applied step by step gives the required result."
+    },
+    {
+     "question": "Apply average fluid pressure to a fresh example and interpret the result.",
+     "solution": "Step 1: Divide normal force by area. Step 2: Identify the normal force and contact area from the problem. Step 3: Express pressure in pascals and verify units. Working: force / area, mass * g, pressure.",
+     "answer": "The method of average fluid pressure leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.2",
+   "title": "Fluid Density",
+   "section": "9.2",
+   "definition": "The mass of a fluid substance contained per unit of its volume.",
+   "formula": "density = mass / volume",
+   "key_idea": "Density characterizes the compactness of matter in a fluid.",
+   "textbook_ref": "keph202.txt lines 70-85",
+   "question_patterns": [
+    "find the density of the fluid",
+    "calculate the mass density given mass and volume",
+    "what is the density of a substance with mass and volume",
+    "find the required value in a fluid density problem",
+    "solve a numerical on fluid density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide mass by volume",
+     "explain": "Density is calculated by dividing the mass of the fluid by the volume it occupies.",
+     "compute": "mass / volume"
+    },
+    {
+     "step": 2,
+     "action": "Identify the mass and volume of the fluid from the problem",
+     "explain": "Mass is measured in kilograms and volume in cubic metres; for a regular container use the geometric volume formula.",
+     "compute": "length * breadth * height"
+    },
+    {
+     "step": 3,
+     "action": "Express density in kg/m^3 and compare with known reference values",
+     "explain": "Density of water is about 1000 kg/m^3; comparing the result helps identify the fluid or check for errors.",
+     "compute": "density"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving fluid density.",
+     "solution": "Step 1: Divide mass by volume. Step 2: Identify the mass and volume of the fluid from the problem. Step 3: Express density in kg/m^3 and compare with known reference values. Working: mass / volume, length * breadth * height, density.",
+     "answer": "Fluid Density applied step by step gives the required result."
+    },
+    {
+     "question": "Apply fluid density to a fresh example and interpret the result.",
+     "solution": "Step 1: Divide mass by volume. Step 2: Identify the mass and volume of the fluid from the problem. Step 3: Express density in kg/m^3 and compare with known reference values. Working: mass / volume, length * breadth * height, density.",
+     "answer": "The method of fluid density leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.3",
+   "title": "Hydrostatic Pressure at Depth",
+   "section": "9.2.2",
+   "definition": "The total pressure at a given depth in a liquid at rest equals the atmospheric pressure on the surface plus the pressure due to the weight of the liquid column above that depth.",
+   "formula": "pressure = pressure_atm + density * g * depth",
+   "key_idea": "Pressure in a static fluid increases linearly with depth due to gravity.",
+   "textbook_ref": "keph202.txt lines 115-135",
+   "question_patterns": [
+    "what is the pressure at a depth below the surface",
+    "calculate the absolute pressure at depth",
+    "find the pressure on a swimmer at depth",
+    "how much is the total pressure at a given depth in a liquid",
+    "what is the result in this hydrostatic pressure at depth problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the hydrostatic pressure contribution",
+     "explain": "Multiply density, acceleration due to gravity, and depth to get the pressure due to the liquid column.",
+     "compute": "density * g * depth"
+    },
+    {
+     "step": 2,
+     "action": "Add atmospheric pressure to get absolute pressure",
+     "explain": "Add the atmospheric pressure at the surface to the hydrostatic pressure term.",
+     "compute": "pressure_atm + hydrostatic_term"
+    },
+    {
+     "step": 3,
+     "action": "Report gauge pressure and absolute pressure separately",
+     "explain": "The hydrostatic term alone is the gauge pressure; adding atmospheric pressure gives the absolute pressure experienced at that depth.",
+     "compute": "hydrostatic_term"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving hydrostatic pressure at depth.",
+     "solution": "Step 1: Calculate the hydrostatic pressure contribution. Step 2: Add atmospheric pressure to get absolute pressure. Step 3: Report gauge pressure and absolute pressure separately. Working: density * g * depth, pressure_atm + hydrostatic_term, hydrostatic_term.",
+     "answer": "Hydrostatic Pressure at Depth applied step by step gives the required result."
+    },
+    {
+     "question": "Apply hydrostatic pressure at depth to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate the hydrostatic pressure contribution. Step 2: Add atmospheric pressure to get absolute pressure. Step 3: Report gauge pressure and absolute pressure separately. Working: density * g * depth, pressure_atm + hydrostatic_term, hydrostatic_term.",
+     "answer": "The method of hydrostatic pressure at depth leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.4",
+   "title": "Pascal's Principle and Hydraulic Force Multiplier",
+   "section": "9.2.4",
+   "definition": "The transmission of external pressure undiminished throughout an enclosed fluid, allowing a small input force to generate a larger output force proportional to the area ratio.",
+   "formula": "force_large = force_small * area_large / area_small",
+   "key_idea": "Pressure applied anywhere on an enclosed fluid travels to every part of the fluid without loss.",
+   "textbook_ref": "keph202.txt lines 215-235",
+   "question_patterns": [
+    "find the force exerted on the larger piston",
+    "calculate the output force of a hydraulic lift",
+    "what force is needed on the smaller piston to lift a load",
+    "how much force is transmitted to the larger cylinder",
+    "find the required value in a pascal's principle and hydraulic force multiplier problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the output force using the area ratio",
+     "explain": "Multiply the input force by the ratio of the larger piston's area to the smaller piston's area.",
+     "compute": "force_small * area_large / area_small"
+    },
+    {
+     "step": 2,
+     "action": "Compute the pressure on the smaller piston",
+     "explain": "Pressure equals force divided by area; this same pressure is transmitted undiminished to the larger piston.",
+     "compute": "force_small / area_small"
+    },
+    {
+     "step": 3,
+     "action": "Verify pressure equality across both pistons",
+     "explain": "By Pascal's principle the pressure on the larger piston equals the pressure on the smaller piston, so force_large equals pressure times area_large.",
+     "compute": "pressure * area_large"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving pascal's principle and hydraulic force multiplier.",
+     "solution": "Step 1: Calculate the output force using the area ratio. Step 2: Compute the pressure on the smaller piston. Step 3: Verify pressure equality across both pistons. Working: force_small * area_large / area_small, force_small / area_small, pressure * area_large.",
+     "answer": "Pascal's Principle and Hydraulic Force Multiplier applied step by step gives the required result."
+    },
+    {
+     "question": "Apply pascal's principle and hydraulic force multiplier to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate the output force using the area ratio. Step 2: Compute the pressure on the smaller piston. Step 3: Verify pressure equality across both pistons. Working: force_small * area_large / area_small, force_small / area_small, pressure * area_large.",
+     "answer": "The method of pascal's principle and hydraulic force multiplier leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.5",
+   "title": "Equation of Continuity",
+   "section": "9.3",
+   "definition": "The statement of conservation of mass for an incompressible fluid, where the volume flow rate remains constant along a pipe of varying cross-section.",
+   "formula": "area_1 * velocity_1 = area_2 * velocity_2",
+   "key_idea": "Fluid velocity varies in inverse proportion with the cross-sectional area of the flow channel.",
+   "textbook_ref": "keph202.txt lines 290-310",
+   "question_patterns": [
+    "find the speed of fluid flow at the constriction",
+    "calculate the velocity of flow in the narrower pipe",
+    "what is the speed of ejection of liquid through the holes",
+    "how fast does the fluid flow when the area changes",
+    "find the required value in a equation of continuity problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Solve for the final velocity",
+     "explain": "Multiply the initial area and velocity, then divide by the final area to find the final velocity.",
+     "compute": "area_1 * velocity_1 / area_2"
+    },
+    {
+     "step": 2,
+     "action": "Compute the volume flow rate",
+     "explain": "The volume flow rate is the product of cross-sectional area and velocity and stays constant along an incompressible pipe.",
+     "compute": "area_1 * velocity_1"
+    },
+    {
+     "step": 3,
+     "action": "Verify mass conservation along the pipe",
+     "explain": "For an incompressible fluid the mass flow rate equals density times volume flow rate and must be equal at both ends.",
+     "compute": "density * flow_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving equation of continuity.",
+     "solution": "Step 1: Solve for the final velocity. Step 2: Compute the volume flow rate. Step 3: Verify mass conservation along the pipe. Working: area_1 * velocity_1 / area_2, area_1 * velocity_1, density * flow_rate.",
+     "answer": "Equation of Continuity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply equation of continuity to a fresh example and interpret the result.",
+     "solution": "Step 1: Solve for the final velocity. Step 2: Compute the volume flow rate. Step 3: Verify mass conservation along the pipe. Working: area_1 * velocity_1 / area_2, area_1 * velocity_1, density * flow_rate.",
+     "answer": "The method of equation of continuity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.6",
+   "title": "Torricelli's Law of Efflux",
+   "section": "9.4.1",
+   "definition": "The speed of efflux of a liquid from an open tank's orifice equals the speed a body would acquire in falling freely through the same vertical height.",
+   "formula": "velocity = sqrt(2 * g * height)",
+   "key_idea": "The liquid's potential energy at the surface is converted to kinetic energy at the exit orifice.",
+   "textbook_ref": "keph202.txt lines 360-380",
+   "question_patterns": [
+    "find the speed of efflux from an open tank",
+    "calculate the velocity of liquid flowing out of a hole",
+    "what is the speed of a liquid exiting an orifice at depth",
+    "how fast does water gush out of a small opening",
+    "what is the result in this torricelli's law of efflux problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the velocity using the free fall formula",
+     "explain": "Take the square root of twice the product of gravity and the height of the liquid column above the hole.",
+     "compute": "sqrt(2 * g * height)"
+    },
+    {
+     "step": 2,
+     "action": "Identify the height of the liquid column above the orifice",
+     "explain": "The relevant height is the vertical distance from the free surface of the liquid down to the centre of the orifice.",
+     "compute": "surface_level - orifice_level"
+    },
+    {
+     "step": 3,
+     "action": "Compute the horizontal range of the efflux",
+     "explain": "Using projectile motion, the range equals the efflux velocity times the time of fall from the orifice to the ground.",
+     "compute": "velocity * sqrt(2 * orifice_height / g)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving torricelli's law of efflux.",
+     "solution": "Step 1: Compute the velocity using the free fall formula. Step 2: Identify the height of the liquid column above the orifice. Step 3: Compute the horizontal range of the efflux. Working: sqrt(2 * g * height), surface_level - orifice_level, velocity * sqrt(2 * orifice_height / g).",
+     "answer": "Torricelli's Law of Efflux applied step by step gives the required result."
+    },
+    {
+     "question": "Apply torricelli's law of efflux to a fresh example and interpret the result.",
+     "solution": "Step 1: Compute the velocity using the free fall formula. Step 2: Identify the height of the liquid column above the orifice. Step 3: Compute the horizontal range of the efflux. Working: sqrt(2 * g * height), surface_level - orifice_level, velocity * sqrt(2 * orifice_height / g).",
+     "answer": "The method of torricelli's law of efflux leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.7",
+   "title": "Coefficient of Viscosity",
+   "section": "9.5",
+   "definition": "The ratio of the shearing stress applied to a fluid layer to the resulting velocity gradient (strain rate) across the layers.",
+   "formula": "viscosity = (force * thickness) / (area * velocity)",
+   "key_idea": "Viscosity measures a fluid's internal frictional resistance to gradual deformation by shear stress.",
+   "textbook_ref": "keph202.txt lines 410-435",
+   "question_patterns": [
+    "find the coefficient of viscosity of the liquid",
+    "calculate the viscosity given shear force and plate dimensions",
+    "what is the viscosity of a fluid film between plates",
+    "work out the value using coefficient of viscosity",
+    "calculate coefficient of viscosity for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the shearing stress",
+     "explain": "Divide the applied force by the contact area of the plate.",
+     "compute": "force / area"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the strain rate",
+     "explain": "Divide the relative velocity of the plates by the thickness of the liquid film.",
+     "compute": "velocity / thickness"
+    },
+    {
+     "step": 3,
+     "action": "Determine the viscosity",
+     "explain": "Divide the shearing stress by the strain rate.",
+     "compute": "stress / strain_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving coefficient of viscosity.",
+     "solution": "Step 1: Calculate the shearing stress. Step 2: Calculate the strain rate. Step 3: Determine the viscosity. Working: force / area, velocity / thickness, stress / strain_rate.",
+     "answer": "Coefficient of Viscosity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply coefficient of viscosity to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate the shearing stress. Step 2: Calculate the strain rate. Step 3: Determine the viscosity. Working: force / area, velocity / thickness, stress / strain_rate.",
+     "answer": "The method of coefficient of viscosity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.8",
+   "title": "Stokes' Law and Terminal Velocity",
+   "section": "9.5.1",
+   "definition": "The constant maximum velocity attained by a spherical body falling through a viscous fluid when the downward gravitational force is indeed balanced by the upwards buoyant and viscous drag forces.",
+   "formula": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)",
+   "key_idea": "Terminal velocity varies in direct proportion with the square of the sphere's radius and in inverse proportion with fluid viscosity.",
+   "textbook_ref": "keph202.txt lines 455-475",
+   "question_patterns": [
+    "calculate the terminal velocity of a falling sphere",
+    "find the terminal speed of a copper ball in oil",
+    "what is the terminal velocity of a raindrop in air",
+    "how fast does a sphere descend in a viscous medium at equilibrium",
+    "work out the value using stokes' law and terminal velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the density difference",
+     "explain": "Subtract the density of the fluid from the density of the falling sphere.",
+     "compute": "density_sphere - density_fluid"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the numerator of the terminal velocity expression",
+     "explain": "Multiply 2, the square of the radius, the density difference, and the acceleration due to gravity.",
+     "compute": "2 * (radius**2) * density_diff * g"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the viscosity of the fluid by 9.",
+     "compute": "9 * viscosity"
+    },
+    {
+     "step": 4,
+     "action": "Divide numerator by denominator to get terminal velocity",
+     "explain": "Divide the calculated numerator by the denominator.",
+     "compute": "numerator / denominator"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving stokes' law and terminal velocity.",
+     "solution": "Step 1: Find the density difference. Step 2: Calculate the numerator of the terminal velocity expression. Step 3: Calculate the denominator. Step 4: Divide numerator by denominator to get terminal velocity. Working: density_sphere - density_fluid, 2 * (radius**2) * density_diff * g, 9 * viscosity, numerator / denominator.",
+     "answer": "Stokes' Law and Terminal Velocity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply stokes' law and terminal velocity to a fresh example and interpret the result.",
+     "solution": "Step 1: Find the density difference. Step 2: Calculate the numerator of the terminal velocity expression. Step 3: Calculate the denominator. Step 4: Divide numerator by denominator to get terminal velocity. Working: density_sphere - density_fluid, 2 * (radius**2) * density_diff * g, 9 * viscosity, numerator / denominator.",
+     "answer": "The method of stokes' law and terminal velocity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.9",
+   "title": "Surface Tension of a Liquid Film",
+   "section": "9.6.2",
+   "definition": "The ratio of the surface force on a boundary line of a liquid film to twice the length of that line; the factor two accounts for the film's two surfaces.",
+   "formula": "surface_tension = force / (2 * length)",
+   "key_idea": "A liquid film has two interfaces, so the supporting force acts along twice the boundary length.",
+   "textbook_ref": "keph202.txt lines 510-530",
+   "question_patterns": [
+    "find the surface tension of the film",
+    "calculate the surface tension supporting a weight",
+    "what is the surface tension of a soap solution film",
+    "find the required value in a surface tension of a liquid film problem",
+    "solve a numerical on surface tension of a liquid film"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the force by twice the length",
+     "explain": "Since a film has two surface boundaries, divide the supporting force by twice the length of the slider.",
+     "compute": "force / (2 * length)"
+    },
+    {
+     "step": 2,
+     "action": "Account for the two surfaces of the film",
+     "explain": "A soap film has two liquid-gas interfaces, so the total surface force acts along two boundary lines, doubling the effective length.",
+     "compute": "2 * length"
+    },
+    {
+     "step": 3,
+     "action": "Express surface tension in N/m and verify units",
+     "explain": "Surface tension is force per unit length; ensure force is in newtons and length in metres so the result is in newtons per metre.",
+     "compute": "force / effective_length"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving surface tension of a liquid film.",
+     "solution": "Step 1: Divide the force by twice the length. Step 2: Account for the two surfaces of the film. Step 3: Express surface tension in N/m and verify units. Working: force / (2 * length), 2 * length, force / effective_length.",
+     "answer": "Surface Tension of a Liquid Film applied step by step gives the required result."
+    },
+    {
+     "question": "Apply surface tension of a liquid film to a fresh example and interpret the result.",
+     "solution": "Step 1: Divide the force by twice the length. Step 2: Account for the two surfaces of the film. Step 3: Express surface tension in N/m and verify units. Working: force / (2 * length), 2 * length, force / effective_length.",
+     "answer": "The method of surface tension of a liquid film leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.10",
+   "title": "Excess Pressure in a Soap Bubble",
+   "section": "9.6.4",
+   "definition": "The difference in pressure between the inside and outside of a spherical soap bubble, which possesses two liquid-gas interfaces.",
+   "formula": "excess_pressure = 4 * surface_tension / radius",
+   "key_idea": "A soap bubble has two surfaces, resulting in twice the excess pressure of a single-surface liquid drop.",
+   "textbook_ref": "keph202.txt lines 575-590",
+   "question_patterns": [
+    "calculate the excess pressure inside a soap bubble",
+    "find the pressure difference across a soap bubble surface",
+    "what is the excess pressure in a bubble of soap solution",
+    "calculate excess pressure in a soap bubble for the given values",
+    "find the required value in a excess pressure in a soap bubble problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 4 and divide by the radius of the bubble.",
+     "compute": "4 * surface_tension / radius"
+    },
+    {
+     "step": 2,
+     "action": "Identify the surface tension and radius of the bubble",
+     "explain": "The surface tension is a property of the soap solution and the radius is the radius of the spherical bubble.",
+     "compute": "radius"
+    },
+    {
+     "step": 3,
+     "action": "Compute the absolute internal pressure of the bubble",
+     "explain": "Add the excess pressure to the external atmospheric pressure to obtain the absolute pressure inside the bubble.",
+     "compute": "pressure_atm + excess_pressure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving excess pressure in a soap bubble.",
+     "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the bubble. Step 3: Compute the absolute internal pressure of the bubble. Working: 4 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
+     "answer": "Excess Pressure in a Soap Bubble applied step by step gives the required result."
+    },
+    {
+     "question": "Apply excess pressure in a soap bubble to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the bubble. Step 3: Compute the absolute internal pressure of the bubble. Working: 4 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
+     "answer": "The method of excess pressure in a soap bubble leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.11",
+   "title": "Excess Pressure in a Liquid Drop",
+   "section": "9.6.4",
+   "definition": "The difference in pressure between the inside and outside of a spherical liquid drop, which has only one liquid-gas interface.",
+   "formula": "excess_pressure = 2 * surface_tension / radius",
+   "key_idea": "A single curved interface creates an internal pressure excess in inverse proportion with the radius.",
+   "textbook_ref": "keph202.txt lines 565-574",
+   "question_patterns": [
+    "calculate the excess pressure inside a liquid drop",
+    "find the excess pressure in a mercury drop",
+    "what is the pressure difference inside a spherical drop",
+    "what is the result in this excess pressure in a liquid drop problem",
+    "work out the value using excess pressure in a liquid drop"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 2 and divide by the radius of the drop.",
+     "compute": "2 * surface_tension / radius"
+    },
+    {
+     "step": 2,
+     "action": "Identify the surface tension and radius of the drop",
+     "explain": "The surface tension is a property of the liquid and the radius is the radius of the spherical drop.",
+     "compute": "radius"
+    },
+    {
+     "step": 3,
+     "action": "Compute the absolute internal pressure of the drop",
+     "explain": "Add the excess pressure to the external atmospheric pressure to obtain the absolute pressure inside the drop.",
+     "compute": "pressure_atm + excess_pressure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving excess pressure in a liquid drop.",
+     "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the drop. Step 3: Compute the absolute internal pressure of the drop. Working: 2 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
+     "answer": "Excess Pressure in a Liquid Drop applied step by step gives the required result."
+    },
+    {
+     "question": "Apply excess pressure in a liquid drop to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the drop. Step 3: Compute the absolute internal pressure of the drop. Working: 2 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
+     "answer": "The method of excess pressure in a liquid drop leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.202.12",
+   "title": "Capillary Rise",
+   "section": "9.6.5",
+   "definition": "The height to which a liquid rises or falls in a narrow tube due to surface tension forces acting along the contact meniscus.",
+   "formula": "height = 2 * surface_tension * cos_theta / (density * g * radius)",
+   "key_idea": "Capillary rise varies in direct proportion with surface both tension and in inverse proportion with tube radius.",
+   "textbook_ref": "keph202.txt lines 595-615",
+   "question_patterns": [
+    "calculate the capillary rise in a tube",
+    "find how high water rises in a capillary tube",
+    "what is the height of liquid column in a narrow tube",
+    "what is the result in this capillary rise problem",
+    "work out the value using capillary rise"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the numerator of the capillary rise formula",
+     "explain": "Multiply 2, the surface tension, and the cosine of the contact angle.",
+     "compute": "2 * surface_tension * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the density of the liquid, acceleration due to gravity, and the radius of the tube.",
+     "compute": "density * g * radius"
+    },
+    {
+     "step": 3,
+     "action": "Divide numerator by denominator to find height",
+     "explain": "Divide the calculated numerator by the denominator to get the vertical height.",
+     "compute": "numerator / denominator"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving capillary rise.",
+     "solution": "Step 1: Calculate the numerator of the capillary rise formula. Step 2: Calculate the denominator. Step 3: Divide numerator by denominator to find height. Working: 2 * surface_tension * cos_theta, density * g * radius, numerator / denominator.",
+     "answer": "Capillary Rise applied step by step gives the required result."
+    },
+    {
+     "question": "Apply capillary rise to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate the numerator of the capillary rise formula. Step 2: Calculate the denominator. Step 3: Divide numerator by denominator to find height. Working: 2 * surface_tension * cos_theta, density * g * radius, numerator / denominator.",
+     "answer": "The method of capillary rise leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex9.2",
+   "source_ref": "keph202.txt lines 126-135",
+   "concept": "keph.202.3",
+   "question_type": "compute",
+   "question_pattern": "What is the pressure on a swimmer {depth} m below the surface of a lake?",
+   "extracted_variables": {
+    "depth": "depth of the swimmer",
+    "density": "density of water",
+    "g": "acceleration due to gravity",
+    "pressure_atm": "atmospheric pressure"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the hydrostatic pressure contribution",
+     "explain": "Multiply density, acceleration due to gravity, and depth to get the pressure due to the liquid column.",
+     "compute": "hydrostatic_term = density * g * depth"
+    },
+    {
+     "step": 2,
+     "action": "Add atmospheric pressure to get absolute pressure",
+     "explain": "Add the atmospheric pressure at the surface to the hydrostatic pressure term.",
+     "compute": "pressure = pressure_atm + hydrostatic_term"
+    }
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "keph202.txt lines 240-260",
+   "concept": "keph.202.4",
+   "question_type": "compute",
+   "question_pattern": "Find the force exerted on the larger piston when a force of {force_small} N is applied to the smaller piston of area {area_small} and larger piston of area {area_large}",
+   "extracted_variables": {
+    "force_small": "force applied to the smaller piston",
+    "area_small": "cross-sectional area of the smaller piston",
+    "area_large": "cross-sectional area of the larger piston"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the output force using the area ratio",
+     "explain": "Multiply the input force by the ratio of the larger piston's area to the smaller piston's area.",
+     "compute": "force_large = force_small * area_large / area_small"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "keph202.txt lines 40-60",
+   "concept": "keph.202.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average fluid pressure step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "area": "value of area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide normal force by area",
+     "explain": "The average pressure is computed by dividing the total perpendicular force by the total contact area.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "keph202.txt lines 70-85",
+   "concept": "keph.202.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute fluid density step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "volume": "value of volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide mass by volume",
+     "explain": "Density is calculated by dividing the mass of the fluid by the volume it occupies.",
+     "compute": "density = mass / volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "keph202.txt lines 115-135",
+   "concept": "keph.202.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute hydrostatic pressure at depth step by step",
+   "extracted_variables": {
+    "density": "value of density",
+    "g": "value of g",
+    "depth": "value of depth",
+    "pressure_atm": "value of pressure_atm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the hydrostatic pressure contribution",
+     "explain": "Multiply density, acceleration due to gravity, and depth to get the pressure due to the liquid column.",
+     "compute": "hydrostatic_term = density * g * depth"
+    },
+    {
+     "step": 2,
+     "action": "Add atmospheric pressure to get absolute pressure",
+     "explain": "Add the atmospheric pressure at the surface to the hydrostatic pressure term.",
+     "compute": "pressure = pressure_atm + hydrostatic_term"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "keph202.txt lines 215-235",
+   "concept": "keph.202.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute pascal's principle and hydraulic force multiplier step by step",
+   "extracted_variables": {
+    "force_small": "value of force_small",
+    "area_large": "value of area_large",
+    "area_small": "value of area_small"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the output force using the area ratio",
+     "explain": "Multiply the input force by the ratio of the larger piston's area to the smaller piston's area.",
+     "compute": "force_large = force_small * area_large / area_small"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "keph202.txt lines 290-310",
+   "concept": "keph.202.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute equation of continuity step by step",
+   "extracted_variables": {
+    "area_1": "value of area_1",
+    "velocity_1": "value of velocity_1",
+    "area_2": "value of area_2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Solve for the final velocity",
+     "explain": "Multiply the initial area and velocity, then divide by the final area to find the final velocity.",
+     "compute": "velocity_2 = area_1 * velocity_1 / area_2"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "keph202.txt lines 360-380",
+   "concept": "keph.202.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute torricelli's law of efflux step by step",
+   "extracted_variables": {
+    "g": "value of g",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the velocity using the free fall formula",
+     "explain": "Take the square root of twice the product of gravity and the height of the liquid column above the hole.",
+     "compute": "velocity = sqrt(2 * g * height)"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "keph202.txt lines 410-435",
+   "concept": "keph.202.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute coefficient of viscosity step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "area": "value of area",
+    "velocity": "value of velocity",
+    "thickness": "value of thickness"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the shearing stress",
+     "explain": "Divide the applied force by the contact area of the plate.",
+     "compute": "stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the strain rate",
+     "explain": "Divide the relative velocity of the plates by the thickness of the liquid film.",
+     "compute": "strain_rate = velocity / thickness"
+    },
+    {
+     "step": 3,
+     "action": "Determine the viscosity",
+     "explain": "Divide the shearing stress by the strain rate.",
+     "compute": "viscosity = stress / strain_rate"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "keph202.txt lines 455-475",
+   "concept": "keph.202.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute stokes' law and terminal velocity step by step",
+   "extracted_variables": {
+    "density_sphere": "value of density_sphere",
+    "density_fluid": "value of density_fluid",
+    "radius": "value of radius",
+    "g": "value of g",
+    "viscosity": "value of viscosity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the density difference",
+     "explain": "Subtract the density of the fluid from the density of the falling sphere.",
+     "compute": "density_diff = density_sphere - density_fluid"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the numerator of the terminal velocity expression",
+     "explain": "Multiply 2, the square of the radius, the density difference, and the acceleration due to gravity.",
+     "compute": "numerator = 2 * (radius**2) * density_diff * g"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the viscosity of the fluid by 9.",
+     "compute": "denominator = 9 * viscosity"
+    },
+    {
+     "step": 4,
+     "action": "Divide numerator by denominator to get terminal velocity",
+     "explain": "Divide the calculated numerator by the denominator.",
+     "compute": "v_terminal = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "keph202.txt lines 510-530",
+   "concept": "keph.202.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute surface tension of a liquid film step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "length": "value of length"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the force by twice the length",
+     "explain": "Since a film has two surface boundaries, divide the supporting force by twice the length of the slider.",
+     "compute": "surface_tension = force / (2 * length)"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "keph202.txt lines 575-590",
+   "concept": "keph.202.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute excess pressure in a soap bubble step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 4 and divide by the radius of the bubble.",
+     "compute": "excess_pressure = 4 * surface_tension / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "keph202.txt lines 565-574",
+   "concept": "keph.202.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute excess pressure in a liquid drop step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 2 and divide by the radius of the drop.",
+     "compute": "excess_pressure = 2 * surface_tension / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto12",
+   "source_ref": "keph202.txt lines 595-615",
+   "concept": "keph.202.12",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute capillary rise step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "cos_theta": "value of cos_theta",
+    "density": "value of density",
+    "g": "value of g",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the numerator of the capillary rise formula",
+     "explain": "Multiply 2, the surface tension, and the cosine of the contact angle.",
+     "compute": "numerator = 2 * surface_tension * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the density of the liquid, acceleration due to gravity, and the radius of the tube.",
+     "compute": "denominator = density * g * radius"
+    },
+    {
+     "step": 3,
+     "action": "Divide numerator by denominator to find height",
+     "explain": "Divide the calculated numerator by the denominator to get the vertical height.",
+     "compute": "height = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "exauto13",
+   "source_ref": "keph202.txt lines 40-60",
+   "concept": "keph.202.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average fluid pressure step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "area": "value of area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide normal force by area",
+     "explain": "The average pressure is computed by dividing the total perpendicular force by the total contact area.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "exauto14",
+   "source_ref": "keph202.txt lines 70-85",
+   "concept": "keph.202.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute fluid density step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "volume": "value of volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide mass by volume",
+     "explain": "Density is calculated by dividing the mass of the fluid by the volume it occupies.",
+     "compute": "density = mass / volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto15",
+   "source_ref": "keph202.txt lines 290-310",
+   "concept": "keph.202.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute equation of continuity step by step",
+   "extracted_variables": {
+    "area_1": "value of area_1",
+    "velocity_1": "value of velocity_1",
+    "area_2": "value of area_2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Solve for the final velocity",
+     "explain": "Multiply the initial area and velocity, then divide by the final area to find the final velocity.",
+     "compute": "velocity_2 = area_1 * velocity_1 / area_2"
+    }
+   ]
+  },
+  {
+   "id": "exauto16",
+   "source_ref": "keph202.txt lines 360-380",
+   "concept": "keph.202.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute torricelli's law of efflux step by step",
+   "extracted_variables": {
+    "g": "value of g",
+    "height": "value of height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute the velocity using the free fall formula",
+     "explain": "Take the square root of twice the product of gravity and the height of the liquid column above the hole.",
+     "compute": "velocity = sqrt(2 * g * height)"
+    }
+   ]
+  },
+  {
+   "id": "exauto17",
+   "source_ref": "keph202.txt lines 410-435",
+   "concept": "keph.202.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute coefficient of viscosity step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "area": "value of area",
+    "velocity": "value of velocity",
+    "thickness": "value of thickness"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the shearing stress",
+     "explain": "Divide the applied force by the contact area of the plate.",
+     "compute": "stress = force / area"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the strain rate",
+     "explain": "Divide the relative velocity of the plates by the thickness of the liquid film.",
+     "compute": "strain_rate = velocity / thickness"
+    },
+    {
+     "step": 3,
+     "action": "Determine the viscosity",
+     "explain": "Divide the shearing stress by the strain rate.",
+     "compute": "viscosity = stress / strain_rate"
+    }
+   ]
+  },
+  {
+   "id": "exauto18",
+   "source_ref": "keph202.txt lines 455-475",
+   "concept": "keph.202.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute stokes' law and terminal velocity step by step",
+   "extracted_variables": {
+    "density_sphere": "value of density_sphere",
+    "density_fluid": "value of density_fluid",
+    "radius": "value of radius",
+    "g": "value of g",
+    "viscosity": "value of viscosity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the density difference",
+     "explain": "Subtract the density of the fluid from the density of the falling sphere.",
+     "compute": "density_diff = density_sphere - density_fluid"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the numerator of the terminal velocity expression",
+     "explain": "Multiply 2, the square of the radius, the density difference, and the acceleration due to gravity.",
+     "compute": "numerator = 2 * (radius**2) * density_diff * g"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the viscosity of the fluid by 9.",
+     "compute": "denominator = 9 * viscosity"
+    },
+    {
+     "step": 4,
+     "action": "Divide numerator by denominator to get terminal velocity",
+     "explain": "Divide the calculated numerator by the denominator.",
+     "compute": "v_terminal = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "exauto19",
+   "source_ref": "keph202.txt lines 510-530",
+   "concept": "keph.202.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute surface tension of a liquid film step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "length": "value of length"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the force by twice the length",
+     "explain": "Since a film has two surface boundaries, divide the supporting force by twice the length of the slider.",
+     "compute": "surface_tension = force / (2 * length)"
+    }
+   ]
+  },
+  {
+   "id": "exauto20",
+   "source_ref": "keph202.txt lines 575-590",
+   "concept": "keph.202.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute excess pressure in a soap bubble step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 4 and divide by the radius of the bubble.",
+     "compute": "excess_pressure = 4 * surface_tension / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto21",
+   "source_ref": "keph202.txt lines 565-574",
+   "concept": "keph.202.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute excess pressure in a liquid drop step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate excess pressure",
+     "explain": "Multiply the surface tension by 2 and divide by the radius of the drop.",
+     "compute": "excess_pressure = 2 * surface_tension / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto22",
+   "source_ref": "keph202.txt lines 595-615",
+   "concept": "keph.202.12",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute capillary rise step by step",
+   "extracted_variables": {
+    "surface_tension": "value of surface_tension",
+    "cos_theta": "value of cos_theta",
+    "density": "value of density",
+    "g": "value of g",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the numerator of the capillary rise formula",
+     "explain": "Multiply 2, the surface tension, and the cosine of the contact angle.",
+     "compute": "numerator = 2 * surface_tension * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the denominator",
+     "explain": "Multiply the density of the liquid, acceleration due to gravity, and the radius of the tube.",
+     "compute": "denominator = density * g * radius"
+    },
+    {
+     "step": 3,
+     "action": "Divide numerator by denominator to find height",
+     "explain": "Divide the calculated numerator by the denominator to get the vertical height.",
+     "compute": "height = numerator / denominator"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "keph202.txt lines 660-668",
+   "questions": [
+    "Explain why the blood pressure in humans is greater at the feet than at the brain.",
+    "Explain why atmospheric pressure at a height of about 6 km decreases to nearly half of its value at the sea level, though the height of the atmosphere is more than 100 km.",
+    "Explain why hydrostatic pressure is a scalar quantity even though pressure is force divided by area."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "keph202.txt lines 669-678",
+   "questions": [
+    "Explain why the angle of contact of mercury with glass is obtuse, while that of water with glass is acute.",
+    "Explain why water on a clean glass surface tends to spread out while mercury on the same surface tends to form drops.",
+    "Explain why surface tension of a liquid is independent of the area of the surface.",
+    "Explain why water with detergent dissolved in it should have small angles of contact.",
+    "Explain why a drop of liquid under no external forces is always spherical in shape."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "keph202.txt lines 692-694",
+   "questions": [
+    "A 50 kg girl wearing high heel shoes balances on a single heel. The heel is circular with a diameter 1.0 cm. What is the pressure exerted by the heel on the horizontal floor?"
+   ]
+  },
+  {
+   "id": "ex9.6",
+   "source_ref": "keph202.txt lines 695-697",
+   "questions": [
+    "Torricelli's barometer used mercury. Pascal duplicated it using French wine of density 984 kg m-3. Determine the height of the wine column for normal atmospheric pressure."
+   ]
+  },
+  {
+   "id": "ex9.7",
+   "source_ref": "keph202.txt lines 698-700",
+   "questions": [
+    "A vertical off-shore structure is built to withstand a maximum stress of 10^9 Pa. Is the structure suitable for putting up on top of an oil well in the ocean? Take the depth of the ocean to be roughly 3 km, and ignore ocean currents."
+   ]
+  },
+  {
+   "id": "ex9.8",
+   "source_ref": "keph202.txt lines 701-703",
+   "questions": [
+    "A hydraulic automobile lift is designed to lift cars with a maximum mass of 3000 kg. The area of cross-section of the piston carrying the load is 425 cm2. What maximum pressure would the smaller piston have to bear?"
+   ]
+  },
+  {
+   "id": "ex9.9",
+   "source_ref": "keph202.txt lines 704-706",
+   "questions": [
+    "A U-tube contains water and methylated spirit separated by mercury. The mercury columns in the two arms are in level with 10.0 cm of water in one arm and 12.5 cm of spirit in the other. What is the specific gravity of spirit?"
+   ]
+  },
+  {
+   "id": "ex9.13",
+   "source_ref": "keph202.txt lines 712-715",
+   "questions": [
+    "Glycerine flows steadily through a horizontal tube of length 1.5 m and radius 1.0 cm. If the amount of glycerine collected per second at one end is 4.0 x 10^-3 kg s^-1, what is the pressure difference between the two ends of the tube? (Density of glycerine = 1.3 x 10^3 kg m^-3 and viscosity of glycerine = 0.83 Pa s)."
+   ]
+  },
+  {
+   "id": "ex9.14",
+   "source_ref": "keph202.txt lines 716-718",
+   "questions": [
+    "In a test experiment on a model aeroplane in a wind tunnel, the flow speeds on the upper and lower surfaces of the wing are 70 m s^-1 and 63 m s^-1 respectively. What is the lift on the wing if its area is 2.5 m2? Take the density of air to be 1.3 kg m^-3."
+   ]
+  },
+  {
+   "id": "ex9.16",
+   "source_ref": "keph202.txt lines 721-723",
+   "questions": [
+    "The cylindrical tube of a spray pump has a cross-section of 8.0 cm2 one end of which has 40 fine holes each of diameter 1.0 mm. If the liquid flow inside the tube is 1.5 m min^-1, what is the speed of ejection of the liquid through the holes?"
+   ]
+  },
+  {
+   "id": "ex9.17",
+   "source_ref": "keph202.txt lines 724-726",
+   "questions": [
+    "A U-shaped wire is dipped in a soap solution, and removed. The thin soap film formed between the wire and the light slider supports a weight of 1.5 x 10^-2 N (which includes the small weight of the slider). The length of the slider is 30 cm. What is the surface tension of the film?"
+   ]
+  },
+  {
+   "id": "ex9.19",
+   "source_ref": "keph202.txt lines 730-732",
+   "questions": [
+    "What is the pressure inside the drop of mercury of radius 3.00 mm at room temperature? Surface tension of mercury at that temperature (20°C) is 4.65 x 10^-1 N m^-1. The atmospheric pressure is 1.01 x 10^5 Pa. Also give the excess pressure inside the drop."
+   ]
+  },
+  {
+   "id": "ex9.20",
+   "source_ref": "keph202.txt lines 733-737",
+   "questions": [
+    "What is the excess pressure inside a bubble of soap solution of radius 5.00 mm, given that the surface tension of soap solution at the temperature (20°C) is 2.50 x 10^-2 N m^-1? If an air bubble of the same dimension were formed at depth of 40.0 cm inside a container containing the soap solution (of relative density 1.20), what would be the pressure inside the bubble?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

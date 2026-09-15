@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_010",
+   "title": "c11_biotech_cbse_11_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a RESTful API in bioinformatics?",
+     "a": "A RESTful API allows programs to query remote biological databases (like NCBI or UniProt) using standard HTTP methods (GET, POST) and receive structured data (XML, JSON, FASTA) for automated processing. A wrong answer such as \"It is used to design website interfaces\" reveals confusion between web APIs (machine-to-machine) and web applications (human-to-machine).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an API key is often required when accessing NCBI E-utilities, and what happens if you exceed the allowed request rate without one.",
+     "a": "An API key identifies the user, increases the allowed request rate from 3 to 10 requests per second, and enables NCBI to contact the user if issues arise. Without a key, exceeding 3 requests/second leads to temporary IP blocking. A wrong answer like \"API keys encrypt the data\" shows misunderstanding of rate-limiting vs. encryption.",
+     "self_check": true
+    },
+    {
+     "q": "Given the accession number \"NM_000207\" (human insulin mRNA), write the exact Biopython code snippet to fetch the FASTA record and print the sequence length. Assume necessary imports and email registration are done.",
+     "a": "```python\nfrom Bio import Entrez, SeqIO\nhandle = Entrez.efetch(db=\"nucleotide\", id=\"NM_000207\", rettype=\"fasta\", retmode=\"text\")\nrecord = SeqIO.read(handle, \"fasta\")\nhandle.close()\nprint(len(record.seq))\n```\nA wrong answer that uses `Entrez.esearch` instead of `efetch` or forgets to close the handle reveals incomplete understanding of the fetch-parse-close workflow.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the data returned by a UniProt REST query for entry P01308 (human insulin) in FASTA format vs. JSON format. Which format would you choose to extract the list of GO terms, and why?",
+     "a": "FASTA returns only the header and sequence; JSON returns structured fields including `uniProtKBCrossReferences` with GO terms. For GO terms, JSON is necessary because FASTA does not contain functional annotations. A wrong answer choosing FASTA indicates failure to recognize format-specific information content.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a script that loops over 500 accession numbers and calls `Entrez.efetch` for each without any delay. The script works for the first 30 requests then fails with HTTP 429. Evaluate the student's approach and propose a corrected strategy.",
+     "a": "The student ignored NCBI's rate limit (3 requests/sec without API key, 10/sec with key). The corrected strategy: (1) register an API key and set `Entrez.api_key`, (2) add `time.sleep(0.34)` between requests (or 0.11 with key), (3) implement retry logic with exponential backoff for 429/5xx errors. A wrong answer that only suggests \"use a faster internet connection\" shows inability to diagnose server-side throttling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal workflow (pseudocode or flowchart) that takes a gene symbol (e.g., \"INS\") as input, uses NCBI E-utilities to find the corresponding RefSeq mRNA accession, then fetches the protein sequence from UniProt via its mapping API, and finally saves both sequences in a single FASTA file with appropriate headers.",
+     "a": "A good answer outlines: (1) `esearch` with term \"INS[Gene Name] AND human[Organism] AND refseq[Filter]\" → get ID list; (2) `efetch` for the first ID to get mRNA FASTA; (3) extract protein accession from mRNA CDS or use UniProt mapping API (`/uniprot/?query=gene:INS+organism:9606&format=fasta`); (4) write both records to file. A poor answer that manually hardcodes accessions or uses only one database shows lack of automation and cross-database linking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

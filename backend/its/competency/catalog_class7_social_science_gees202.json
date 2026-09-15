@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "India and Her Neighbours",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.2.1",
+   "title": "India and Her Neighbours",
+   "section": "Introduction",
+   "definition": "India shares its land and sea frontiers with many neighbours, Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Sri Lanka and the Maldives, and its destiny is tied to theirs, as Nelson Mandela's words remind us.",
+   "formula": "",
+   "key_idea": "Geography is destiny's map: what touches a neighbour's shore soon touches ours.",
+   "textbook_ref": "gees202.txt, Introduction",
+   "question_patterns": [
+    "name india's neighbouring countries",
+    "which neighbours share a land border with india",
+    "which neighbours lie across the sea",
+    "what did nelson mandela say about the ties between nations",
+    "why must india maintain good relations with its neighbours",
+    "mark india's neighbours on an outline map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.2.2",
+   "title": "India and Pakistan",
+   "section": "Pakistan",
+   "definition": "Pakistan was founded on a religious basis at Partition in 1947; shared history, language and culture tie the two countries even when politics divides them, and peace remains in both peoples' interest.",
+   "formula": "",
+   "key_idea": "Partition divided territory, not civilisation: the two countries share rivers, music and memory.",
+   "textbook_ref": "gees202.txt, Pakistan",
+   "question_patterns": [
+    "how and when was pakistan founded",
+    "what ties india and pakistan despite conflicts",
+    "which rivers flow through india and pakistan",
+    "why is peace between india and pakistan important",
+    "what happened during the partition of 1947",
+    "name the cultural links shared across the border"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.2.3",
+   "title": "India and China: Himalayan Giants",
+   "section": "China",
+   "definition": "Across the Himalayas lies China, an ancient civilisation and a modern giant; trade, pilgrim routes and the long border link India with China in cooperation and, at times, in contest.",
+   "formula": "",
+   "key_idea": "Two ancient neighbours meeting in modern times need wisdom as much as strength.",
+   "textbook_ref": "gees202.txt, China",
+   "question_patterns": [
+    "how are india and china linked by geography",
+    "what passed along the routes between india and china",
+    "why is the himalayan border sensitive",
+    "name areas of cooperation between india and china",
+    "how did buddhism travel between india and china",
+    "what do the two countries trade today"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.2.4",
+   "title": "Southern and Western Neighbours",
+   "section": "Sri Lanka, Maldives, Iran",
+   "definition": "Across the Palk Strait, Sri Lanka's Buddhist and Tamil ties run deep into Indian history; the Maldives dots the Indian Ocean; westward, Iran shares centuries of language, poetry and trade with India.",
+   "formula": "",
+   "key_idea": "Every neighbour is a chapter of shared history: the sea and the desert carried culture as surely as armies carried fear.",
+   "textbook_ref": "gees202.txt, Sri Lanka, Maldives, Iran",
+   "question_patterns": [
+    "what links india with sri lanka",
+    "why are the maldives important in the indian ocean",
+    "what have india and iran shared through the centuries",
+    "how does the sea connect india's southern neighbours",
+    "name india's neighbours in the west",
+    "why do neighbours trade more easily than distant lands"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees202.txt",
+   "concept": "gees2.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the chapter open with Nelson Mandela's words on destiny?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the line",
+     "explain": "Mandela says our destinies are tied together, and what affects one nation affects the rest."
+    },
+    {
+     "step": 2,
+     "action": "apply it",
+     "explain": "A neighbour's flood, war or boom crosses borders at once, so India's story is written jointly with its neighbours."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees202.txt",
+   "concept": "gees2.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "what does the chapter say about the founding of pakistan?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees202.txt, Let us explore",
+   "questions": [
+    "Name India's neighbours and locate each on the map.",
+    "What does the chapter say about the founding of Pakistan?",
+    "Which shared threads does the chapter trace with Iran?",
+    "Travel westward with the text and list what India shared with each neighbour.",
+    "Prepare a chart of neighbours with capital cities and one shared feature."
+   ]
+  }
+ ]
+}

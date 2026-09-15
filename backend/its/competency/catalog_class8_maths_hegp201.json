@@ -1,0 +1,404 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Fractions in Disguise",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.201.1.1",
+   "title": "Percent as a Fraction and Converting Fractions",
+   "section": "1.1",
+   "definition": "Per cent means out of every hundred, so a percentage is just a fraction whose denominator is 100; any fraction becomes a percentage by writing it with denominator 100 or multiplying the fraction by 100, as 3/4 = 75/100 = 75 percent.",
+   "formula": "percent = part / whole * 100",
+   "key_idea": "3 out of 4 equals 75 out of 100: percentages are fractions in disguise.",
+   "textbook_ref": "hegp201.txt lines 1-60 (meaning, Example 1 red paint 3/4 = 75%)",
+   "question_patterns": [
+    "express 3/4 as a percentage",
+    "what does 25 percent mean - explain out of hundred",
+    "convert 33/100 into a percentage",
+    "find the percentage of red paint when it makes 3/4 of a mixture",
+    "write 1/5 as a percent",
+    "why is a percentage called a fraction with denominator 100"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the fraction by 100",
+     "explain": "Multiplying the part-to-whole fraction by 100 reads it per hundred.",
+     "compute": "percent = part / whole * 100"}
+   ]
+  },
+  {
+   "id": "hegp.201.1.2",
+   "title": "Percentage of a Quantity",
+   "section": "1.2",
+   "definition": "Taking a percentage of a quantity means multiplying the quantity by the fraction over 100: 25 percent of 120 g of biscuits is 25/100 x 120 = 30 g of sugar; comparing bare percentages across different wholes is meaningless until each is applied to its own amount.",
+   "formula": "amount = pct / 100 * quantity",
+   "key_idea": "Percent first turns into a fraction, then multiplies the whole: 35 percent of a small packet can hold less sugar than 25 percent of a big one.",
+   "textbook_ref": "hegp201.txt lines 290-380 (Example 1 Madhu and Madhav, 25 : 100 :: s : 120)",
+   "question_patterns": [
+    "find 25 percent of 120 grams",
+    "Madhu ate 120 g of 25 percent sugar biscuits and Madhav 95 g of 35 percent - who ate more sugar",
+    "calculate 50 percent of 24",
+    "what is 35 percent of 95 grams",
+    "how much sugar is in 120 g of biscuits with 25 percent sugar",
+    "find 2.5 percent of 400 litres"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "turn the percent into a fraction",
+     "explain": "Divide the percentage by 100.",
+     "compute": "frac = pct / 100"},
+    {"step": 2, "action": "multiply by the quantity",
+     "explain": "The fraction of the whole is the required amount.",
+     "compute": "amount = frac * quantity"}
+   ]
+  },
+  {
+   "id": "hegp.201.1.3",
+   "title": "Comparing Scores and Labels with Percentages",
+   "section": "1.3",
+   "definition": "When tests have different maximum marks, or packaged foods have different total weights, direct comparison misleads; converting each score or ingredient share to a percentage puts them on the same out-of-hundred scale, so 87.5 percent in Science beats 84 percent in English.",
+   "formula": "score_percent = marks / max_marks * 100",
+   "key_idea": "42/50 and 70/80 only compare fairly as 84 percent vs 87.5 percent.",
+   "textbook_ref": "hegp201.txt lines 829-900 (Example 1 marks, Example 2 KYC labels)",
+   "question_patterns": [
+    "Eesha scored 42 out of 50 in English and 70 out of 80 in Science - in which did she do better",
+    "compare the sugar content of two drink mixes using percentages",
+    "why cannot 8 lost marks out of 50 be compared with 10 lost marks out of 80 directly",
+    "convert 42 out of 50 into a percentage",
+    "calculate the percentage of badam powder from a label of 40 g in a 200 g pack",
+    "check whether the ingredient percentages of a product add up to 100"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "convert each score to a percentage",
+     "explain": "Divide the marks by the maximum and multiply by 100."},
+    {"step": 2, "action": "compare the percentages",
+     "explain": "The larger percentage marks the better performance because both now share the same hundred-base."},
+    {"step": 3, "action": "state the conclusion",
+     "explain": "Science at 87.5 percent exceeds English at 84 percent, so the Science score is better."}
+   ]
+  },
+  {
+   "id": "hegp.201.1.4",
+   "title": "Percentage Increase and Decrease",
+   "section": "1.3",
+   "definition": "Rate of change is measured against the original amount: percentage change equals the amount of change divided by the original, times 100; tomato prices rising from 30 to 42 rupees is a 40 percent increase and footfall falling from 160 to 100 is a 37.5 percent decrease.",
+   "formula": "change_pct = (new - old) / old * 100",
+   "key_idea": "Always divide by the original value: 12 on 30 is 40 percent, 60 on 160 is 37.5 percent.",
+   "textbook_ref": "hegp201.txt lines 900-925 (tomato price, theater footfall)",
+   "question_patterns": [
+    "the price of tomatoes rose from 30 to 42 rupees - find the percentage increase",
+    "footfall dropped from 160 to 100 - calculate the percentage decrease",
+    "a population grew from 20000 to 33000 - what is the percentage increase",
+    "by what percent did the temperature fall from 40 to 34 degrees",
+    "find the percentage change when a value moves from old to new",
+    "is the increase from 50 to 75 the same percent as from 75 to 100 - justify"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the amount of change",
+     "explain": "Subtract the old value from the new one.",
+     "compute": "change = new - old"},
+    {"step": 2, "action": "divide by the original and take percent",
+     "explain": "The base is always the original amount.",
+     "compute": "change_pct = change / old * 100"}
+   ]
+  },
+  {
+   "id": "hegp.201.1.5",
+   "title": "Percent Of versus Increased By",
+   "section": "1.3",
+   "definition": "Saying the new value is 165 percent of the old equals saying it increased by 65 percent, because q = p + 65 percent of p = 1.65 p; a percent-of statement and an increase statement can describe the same growth in two voices.",
+   "formula": "q = (100 + rise) / 100 * p",
+   "key_idea": "165 percent of p is the same as p plus 65 percent of p.",
+   "textbook_ref": "hegp201.txt lines 925-940 (Example 3 population 165 percent)",
+   "question_patterns": [
+    "does 165 percent of the 1961 population mean the same as an increase by 65 percent - explain",
+    "express an increase of 40 percent as a percent-of statement",
+    "if q = 1.65 p, by what percent did p increase",
+    "a town doubles its population - state this as a percent-of and an increase statement",
+    "why does p plus 65 percent of p equal 1.65 times p",
+    "rewrite 120 percent of the old value as an increase percentage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write the percent-of equation",
+     "explain": "q = 165/100 x p comes from the first statement."},
+    {"step": 2, "action": "write the increase equation",
+     "explain": "q = p + 65/100 x p from the second statement."},
+    {"step": 3, "action": "simplify both to 1.65 p",
+     "explain": "Both voices give the same multiplier, so the statements agree."}
+   ]
+  },
+  {
+   "id": "hegp.201.1.6",
+   "title": "Profit and Loss Percentage",
+   "section": "1.3",
+   "definition": "The cost price is what the seller paid, the selling price what the buyer pays; when selling beats cost the difference is profit, otherwise loss, and profit percent is always reckoned on the cost price, as 130 rupees on 300 gives about 43.3 percent profit.",
+   "formula": "profit_pct = (selling - cost) / cost * 100",
+   "key_idea": "Kishanlal buys at 300, sells at 430: profit 130, taken as a percent of 300.",
+   "textbook_ref": "hegp201.txt lines 940-1000 (sweater example, Example 4 percentage profit)",
+   "question_patterns": [
+    "a sweater bought at 300 rupees sells for 430 - find the percentage profit",
+    "an article costing 500 sells at 450 - find the loss percent",
+    "define cost price, marked price and selling price",
+    "calculate the profit percent when profit is 130 on a cost of 300",
+    "if the selling price falls below the cost price what is the result",
+    "why is profit percent always based on the cost price"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the profit",
+     "explain": "Subtract the cost price from the selling price.",
+     "compute": "profit = selling - cost"},
+    {"step": 2, "action": "take it as a percent of cost",
+     "explain": "Divide by the cost price and multiply by 100.",
+     "compute": "profit_pct = profit / cost * 100"}
+   ]
+  },
+  {
+   "id": "hegp.201.1.7",
+   "title": "Discount and Selling Price",
+   "section": "1.3",
+   "definition": "The marked price is the quoted price and the discount is the reduction offered on it; the selling price is what remains after the discount, so a 480 rupee marked sweater sold at a 50 rupee discount brings 430 rupees.",
+   "formula": "selling = marked - discount",
+   "key_idea": "Selling price = marked price minus discount; discount percent is taken on the marked price.",
+   "textbook_ref": "hegp201.txt lines 940-960 (marked price, discount, selling price journey)",
+   "question_patterns": [
+    "a marked price of 480 rupees gets a discount of 50 rupees - find the selling price",
+    "find the discount when an item marked 900 sells for 765",
+    "what is the discount percent for a 100 rupee cut on a 500 rupee marked item",
+    "define marked price and selling price with an example",
+    "calculate the selling price after a 20 percent discount on 1500 rupees",
+    "does a bigger discount always mean a smaller selling price - explain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the discount amount off the marked price",
+     "explain": "Subtract the discount from the quoted price.",
+     "compute": "selling = marked - discount"},
+    {"step": 2, "action": "read the discount percent if asked",
+     "explain": "Discount divided by marked price times 100 gives the rate.",
+     "compute": "discount_pct = discount / marked * 100"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp201.txt lines 25-45, 3/4 paint example",
+   "concept": "hegp.201.1.1",
+   "question_type": "compute",
+   "question_pattern": "Express the fraction {part}/{whole} as a percentage.",
+   "extracted_variables": {
+    "part": "numerator of the fraction",
+    "whole": "denominator of the fraction"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the fraction by 100",
+     "explain": "Reading the fraction per hundred gives its percentage.",
+     "compute": "percent = part / whole * 100"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp201.txt lines 829-855, marks example",
+   "concept": "hegp.201.1.1",
+   "question_type": "compute",
+   "question_pattern": "A student scored {part} marks out of {whole}. Convert this score into a percentage.",
+   "extracted_variables": {
+    "part": "marks obtained",
+    "whole": "maximum marks"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide and scale to hundred",
+     "explain": "Marks over maximum times 100 gives the score percent.",
+     "compute": "percent = part / whole * 100"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp201.txt lines 310-380, sugar in 120 g biscuits",
+   "concept": "hegp.201.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the sugar in {quantity} g of biscuits containing {pct} percent sugar.",
+   "extracted_variables": {
+    "pct": "sugar percentage",
+    "quantity": "biscuit weight in grams"
+   },
+   "solution_template": [
+    {"step": 1, "action": "turn the percent into a fraction",
+     "explain": "pct over 100 is the sugar fraction.",
+     "compute": "frac = pct / 100"},
+    {"step": 2, "action": "multiply by the biscuit weight",
+     "explain": "The fraction of the weight is the sugar amount.",
+     "compute": "amount = frac * quantity"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp201.txt lines 380-464, 50 percent of 24",
+   "concept": "hegp.201.1.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate {pct} percent of {quantity}.",
+   "extracted_variables": {
+    "pct": "the percentage",
+    "quantity": "the whole quantity"
+   },
+   "solution_template": [
+    {"step": 1, "action": "turn the percent into a fraction",
+     "explain": "Divide pct by 100.",
+     "compute": "frac = pct / 100"},
+    {"step": 2, "action": "multiply by the whole",
+     "explain": "The product is the required part.",
+     "compute": "amount = frac * quantity"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp201.txt lines 898-910, tomato price",
+   "concept": "hegp.201.1.4",
+   "question_type": "compute",
+   "question_pattern": "The price of 1 kg tomatoes rose from {old} to {new} rupees. Find the percentage increase.",
+   "extracted_variables": {
+    "old": "original price",
+    "new": "new price"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the increase",
+     "explain": "Subtract the old price from the new price.",
+     "compute": "change = new - old"},
+    {"step": 2, "action": "divide by the original price",
+     "explain": "Change over original times 100 is the percent rise.",
+     "compute": "change_pct = change / old * 100"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp201.txt lines 910-920, theater footfall",
+   "concept": "hegp.201.1.4",
+   "question_type": "compute",
+   "question_pattern": "Average footfall fell from {old} to {new}. Calculate the percentage decrease.",
+   "extracted_variables": {
+    "old": "footfall before",
+    "new": "footfall now"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the decrease",
+     "explain": "Subtract the new value from the old.",
+     "compute": "change = new - old"},
+    {"step": 2, "action": "divide by the original",
+     "explain": "Percent decrease uses the earlier value as base.",
+     "compute": "change_pct = change / old * 100"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp201.txt lines 951-1000, sweater profit example",
+   "concept": "hegp.201.1.6",
+   "question_type": "compute",
+   "question_pattern": "A sweater costing {cost} rupees is sold for {selling} rupees. Find the profit and the profit percent.",
+   "extracted_variables": {
+    "cost": "cost price in rupees",
+    "selling": "selling price in rupees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the profit",
+     "explain": "Selling price minus cost price.",
+     "compute": "profit = selling - cost"},
+    {"step": 2, "action": "percent on cost",
+     "explain": "Profit divided by cost times 100.",
+     "compute": "profit_pct = profit / cost * 100"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp201.txt lines 951-960, loss case discussion",
+   "concept": "hegp.201.1.6",
+   "question_type": "compute",
+   "question_pattern": "An item bought for {cost} rupees is sold at {selling} rupees. Find the profit or loss and its percent.",
+   "extracted_variables": {
+    "cost": "cost price",
+    "selling": "selling price"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the gain or loss",
+     "explain": "Selling minus cost turns negative in a loss.",
+     "compute": "profit = selling - cost"},
+    {"step": 2, "action": "percent on cost",
+     "explain": "A negative percent signals loss on the cost price.",
+     "compute": "profit_pct = profit / cost * 100"}
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp201.txt lines 940-955, marked and selling price",
+   "concept": "hegp.201.1.7",
+   "question_type": "compute",
+   "question_pattern": "An item is marked at {marked} rupees and sold at a discount of {discount} rupees. Find the selling price.",
+   "extracted_variables": {
+    "marked": "marked price in rupees",
+    "discount": "discount in rupees"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the discount",
+     "explain": "Selling price equals marked price minus discount.",
+     "compute": "selling = marked - discount"},
+    {"step": 2, "action": "find the discount rate if needed",
+     "explain": "Discount over marked price times 100.",
+     "compute": "discount_pct = discount / marked * 100"}
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp201.txt lines 940-960, discount percent practice",
+   "concept": "hegp.201.1.7",
+   "question_type": "compute",
+   "question_pattern": "Find the discount percent when a {marked} rupee marked item sells for {selling} rupees.",
+   "extracted_variables": {
+    "marked": "marked price",
+    "selling": "selling price after discount"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the discount",
+     "explain": "Marked price minus selling price.",
+     "compute": "discount = marked - selling"},
+    {"step": 2, "action": "percent on marked price",
+     "explain": "Discount over marked times 100 gives the rate.",
+     "compute": "discount_pct = discount / marked * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hegp201.txt lines 380-520 (section 1.2 practice)",
+   "questions": [
+    "Madhu ate 120 g of 25 percent sugar biscuits, Madhav 95 g of 35 percent - who consumed more sugar?",
+    "Find 50 percent of 24.",
+    "Find 2.5 percent of a given quantity using the fraction method."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hegp201.txt lines 855-900 (KYC table)",
+   "questions": [
+    "Convert the sugar content 99 g in a 150 g pack into a percentage.",
+    "Complete the ingredient percentage table for the two drink mixes and check the totals add to 100."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "hegp201.txt lines 898-1000",
+   "questions": [
+    "Tomato price rose from 30 to 42 rupees - find the percentage increase.",
+    "Theater footfall fell from 160 to 100 - find the percentage decrease.",
+    "Do 165 percent of p and an increase by 65 percent mean the same - justify.",
+    "Kishanlal buys sweaters at 300, marks 480 and sells at 430 - find his percentage profit."
+   ]
+  }
+ ]
+}

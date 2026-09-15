@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_003",
+   "title": "c12_eco_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the necessary and sufficient conditions for a monopoly firm's short-run profit-maximizing equilibrium.",
+     "a": "Necessary: MR = MC. Sufficient: MC cuts MR from below (i.e., MC's slope > MR's slope at intersection). Also, the firm operates only if price (AR) ≥ minimum AVC; otherwise it shuts down. A wrong answer that only states MR=MC misses the second-order condition and the shutdown rule, which are critical for board exam full marks and JEE-style \"identify the correct statement\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A monopoly faces demand P = 100 - 2Q and has total cost TC = 50 + 10Q + Q². Explain why the firm will not choose the output where MR = 0, even though that maximizes total revenue.",
+     "a": "MR = 0 maximizes TR, but profit = TR - TC. The firm cares about the gap between TR and TC, not TR alone. At MR=0, MC is positive (MC = 10+2Q), so producing one more unit adds more to cost than revenue, reducing profit. The profit-maximizing output is where MR = MC (100-4Q = 10+2Q → Q=15). A student who picks MR=0 confuses revenue maximization with profit maximization — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Given a monopoly's demand schedule: (Q=10, P=50), (Q=20, P=40), (Q=30, P=30), (Q=40, P=20) and constant MC = ₹15. Calculate the profit-maximizing output, price, and total profit. (Assume no fixed costs for simplicity.)",
+     "a": "Step 1: Compute TR at each Q: Q=10 → TR=500; Q=20 → TR=800; Q=30 → TR=900; Q=40 → TR=800.  \nStep 2: Compute MR between intervals: 10→20: ΔTR/ΔQ = 300/10 = 30; 20→30: 100/10 = 10; 30→40: -100/10 = -10.  \nStep 3: MC = 15 constant. MR falls from 30 to 10 to -10. MR=MC between 20 and 30? At Q=20, MR=30 > MC; at Q=30, MR=10 < MC. So equilibrium is where MR crosses MC from above — between 20 and 30. With discrete data, compare profit at Q=20 and Q=30.  \nStep 4: Profit = TR - TC. TC = 15Q. At Q=20: TR=800, TC=300, Profit=500. At Q=30: TR=900, TC=450, Profit=450. Maximum profit at Q=20, P=40, Profit=₹500.  \nWrong answer: Choosing Q=30 because TR is highest, ignoring that MC > MR on the last 10 units.",
+     "self_check": true
+    },
+    {
+     "q": "A monopoly is currently producing where MR = MC = ₹40. Its AVC at this output is ₹35 and AC is ₹50. The demand curve shows price = ₹45. Analyze whether the firm should continue production in the short run and whether it earns economic profit.",
+     "a": "Short-run decision: P (₹45) > AVC (₹35) → firm covers variable costs and contributes ₹10 per unit to fixed costs, so it continues production. Economic profit: P (₹45) < AC (₹50) → loss of ₹5 per unit. The firm minimizes loss by producing where MR=MC. A student who says \"shut down because P < AC\" confuses short-run shutdown rule (P vs AVC) with long-run exit rule (P vs AC). Another error: thinking profit is positive because MR=MC.",
+     "self_check": true
+    },
+    {
+     "q": "\"Any monopoly that faces a downward-sloping demand curve will always earn supernormal profits in the short run.\" Evaluate this statement with a counterexample using cost and demand curves.",
+     "a": "False. Supernormal profit requires P > AC at the MR=MC output. If the monopoly's AC curve lies everywhere above the demand curve (e.g., due to high fixed costs or low demand), then even at the profit-maximizing output, P < AC, resulting in losses. Example: Demand P = 20 - Q, TC = 100 + 5Q + Q². MR = 20-2Q, MC = 5+2Q. MR=MC → Q=3.75, P=16.25. AC = 100/3.75 + 5 + 3.75 ≈ 35.42 > P. The firm incurs losses but may continue if P > AVC. The statement ignores the position of cost curves relative to demand — a common oversimplification in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (with demand and cost functions) where a monopoly's short-run equilibrium output is exactly at the shutdown point (P = minimum AVC). Show all steps and interpret the economic meaning.",
+     "a": "Let demand: P = 30 - Q. TC = 20 + 10Q + 0.5Q². Then AVC = 10 + 0.5Q. Minimum AVC occurs at Q=0? Actually AVC is linear increasing, min at Q=0: AVC_min = 10. But shutdown point is where P = min AVC. At Q=0, P=30. Not equal. To have equilibrium at shutdown, we need MR=MC at output where P = min AVC. Let's design: MC = 10 + Q. MR = 30 - 2Q. Set MR=MC → 30-2Q = 10+Q → Q=20/3 ≈ 6.67. At this Q, P = 30 - 6.67 = 23.33. AVC = 10 + 0.5(6.67) = 13.33. P > AVC. Not shutdown.  \nTo get P = min AVC at equilibrium, we need a U-shaped AVC. Let TC = 50 + 20Q - 2Q² + 0.2Q³. Then AVC = 20 - 2Q + 0.2Q². Min AVC: dAVC/dQ = -2 + 0.4Q = 0 → Q=5. Min AVC = 20 -10 +5 = 15. MC = 20 -4Q +0.6Q². At Q=5, MC = 20 -20 +15 = 15. So MC = min AVC at Q=5. Now choose demand such that MR=MC at Q=5 and P = 15. Let demand be linear: P = a - bQ. MR = a - 2bQ. At Q=5, MR = MC = 15 → a - 10b = 15. Also P = 15 = a - 5b. Solve: subtract: (a-5b) - (a-10b) = 15-15 → 5b=0 → b=0, then a=15. That's a horizontal demand (perfect competition), not monopoly. So a monopoly with downward-sloping demand cannot have equilibrium exactly at shutdown point unless demand is tangent to AVC at min? Actually, if demand is such that MR=MC at the same Q where P = min AVC, then the demand curve must intersect the AVC curve at its minimum and MR=MC there. This requires specific parameters. A simpler example: Let demand P = 25 - Q. TC = 10Q + 0.5Q² (no fixed cost). AVC = 10 + 0.5Q, min at Q=0 (AVC=10). MC = 10+Q. MR = 25-2Q. MR=MC → 25-2Q=10+Q → Q=5. P=20, AVC=12.5. Not shutdown.  \nThe point: it's possible but requires careful parameter choice. A good student answer will demonstrate the algebra and conclude that at shutdown point the firm is indifferent between producing and shutting down; economic profit = -TFC. A poor answer will give an example where P > AVC or where MR≠MC.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_012",
+   "title": "c12_cs_cbse_12_012",
+   "questions": [
+    {
+     "q": "Define \"netiquette\" and give two specific examples of netiquette rules for email communication that are NOT simply \"be polite.\"",
+     "a": "Netiquette is the set of social conventions governing respectful and effective online communication. Two specific email netiquette rules: (1) Use a clear, descriptive subject line that summarizes the email's purpose (e.g., \"Query: CS Project Deadline Extension — Roll 12\") so recipients can prioritize and search later. (2) Quote only the relevant portion of a previous message when replying, not the entire thread, to reduce clutter and cognitive load. A wrong answer like \"don't use bad words\" reveals the student conflates netiquette with general politeness, missing its functional purpose: efficiency, clarity, and context-awareness in asynchronous digital communication.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds a well-written Python code snippet on GitHub (MIT licensed) that solves a key part of their Class 12 project. They copy it verbatim into their submission without any comment or attribution, thinking \"MIT license allows free use.\" Explain why this violates cyber ethics despite the permissive license.",
+     "a": "The MIT license permits reuse, modification, and distribution **provided the original copyright notice and license text are included**. Copying code without attribution violates the license terms (legal breach) and constitutes plagiarism (ethical breach) because it misrepresents authorship — the student claims implicit ownership by silence. In academic contexts, even permissively licensed code requires citation to distinguish original work from borrowed work. A wrong answer focusing only on \"license allows it\" reveals the student misunderstands that licenses grant *conditional* permissions, not unconditional ownership transfer, and ignores academic integrity norms that exceed legal minimums.",
+     "self_check": true
+    },
+    {
+     "q": "You are the admin of a school WhatsApp group for Class 12 students. A parent posts a screenshot of another student's private chat (obtained without consent) accusing them of bullying. The chat shows harsh language but no explicit threat. Apply the cyber ethics principles of **privacy**, **proportionality**, and **due process** to decide your immediate action. List steps in order.",
+     "a": "Correct sequence: (1) **Remove the screenshot immediately** — it violates the accused student's privacy (non-consensual sharing of private communication) and may constitute illegal dissemination under IT Act Sec 66E/67. (2) **Privately message the posting parent** explaining removal reason: privacy breach, presumption of innocence, and group rules against vigilante justice. (3) **Direct the parent to formal channels** — school counselor, discipline committee, or cyber cell — for due process. (4) **Post a neutral group announcement**: \"Removed a post sharing private chats. Please use official channels for concerns.\" (5) **Document everything** for transparency. A wrong answer like \"keep it up so everyone knows\" fails proportionality (public shaming for unverified claims) and due process (bypassing fair investigation), confusing \"transparency\" with \"trial by mob.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the ethical obligations of a **white-hat hacker** (ethical hacker) and a **grey-hat hacker** when they discover a critical vulnerability in a hospital's patient records system. Reference the principles of **authorized access**, **responsible disclosure**, and **harm minimization**.",
+     "a": "White-hat: Operates **with explicit written authorization** (scope-defined contract). Follows **responsible disclosure**: reports vulnerability privately to the hospital's security team, allows reasonable time for patching before any public disclosure, and verifies fix. Harm minimization is contractual and professional duty. Grey-hat: Accesses **without authorization** (uninvited probing), violating computer misuse laws (IT Act Sec 66) and the principle of consent. May disclose publicly or to third parties **without giving the hospital time to patch**, endangering patient data — directly contradicting harm minimization. While grey-hats may lack malicious intent, their method creates uncontrolled risk. A wrong answer equating them (\"both find bugs\") ignores that **authorization transforms the act from crime to service**, and responsible disclosure timing is the difference between protecting patients and exposing them.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since cookies improve user experience (auto-fill, cart persistence), websites should be allowed to set third-party tracking cookies by default without explicit consent, as long as they provide a privacy policy link.\" Use the ethical principles of **informed consent**, **data minimization**, and **purpose limitation**.",
+     "a": "The statement is **ethically indefensible**. (1) **Informed consent** requires *affirmative, granular, revocable* opt-in — not a pre-checked box or passive link. Users must understand *what* data, *who* receives it, and *for what specific purposes* before any non-essential cookie fires. (2) **Data minimization** demands collecting only data strictly necessary for the requested service (session cookie for cart). Third-party tracking cookies by default collect behavioral profiles far exceeding this necessity. (3) **Purpose limitation** forbids repurposing data collected for \"cart persistence\" into \"ad targeting across sites\" without fresh consent. A privacy policy link is *transparency*, not *consent*. Wrong answers citing \"industry standard\" or \"users don't read policies\" confuse legality (often illegal under DPDP Act 2023/GDPR) with ethics, and mistake convenience for permission.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **netiquette checklist** for a student-led online study group (Discord/Telegram) that balances **inclusivity**, **focus**, and **accountability**. Include at least 6 specific, enforceable rules — each tied to one of the three values. Explain how you would handle a first violation vs. a repeat violation.",
+     "a": "**Checklist (value-tagged):**\n1. [Inclusivity] Use @mention only when necessary; avoid inside jokes/cultural references that exclude non-native speakers.\n2. [Inclusivity] No voice-only announcements — always provide text summary for hearing-impaired or bandwidth-limited members.\n3. [Focus] Keep subject channels strict: #doubts, #resources, #off-topic. No cross-posting.\n4. [Focus] \"No solved paper dumps\" — share *approaches*, not answers, to preserve learning integrity.\n5. [Accountability] Sign messages with first name (not anonymous handles) so ownership is clear.\n6. [Accountability] If you share a resource, cite source (link/author) — no unattributed PDFs/images.\n\n**Violation handling:** First offense → private DM referencing specific rule, explain impact, ask for correction (e.g., move message to correct channel). Repeat offense → temporary mute (24h) with public note: \"Muted for repeated #focus violation. Review rules at [link].\" Permanent ban only after 3 documented repeats with escalation warnings. Poor answers list vague rules (\"be respectful\") or punitive-first approaches, missing that netiquette is **community infrastructure**, not just policing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

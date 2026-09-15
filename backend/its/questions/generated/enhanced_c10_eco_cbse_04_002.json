@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_002",
+   "title": "c10_eco_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define foreign trade and state one way it leads to integration of markets across countries.",
+     "a": "Foreign trade is the exchange of goods, services, and capital between countries. It integrates markets by allowing consumers in one country to buy goods produced in another, expanding choice and forcing domestic producers to compete with foreign producers, which tends to equalize prices for similar goods across countries. A wrong answer that only defines foreign trade as \"buying and selling between countries\" without mentioning market integration reveals the student has memorized the term but not grasped its economic consequence — the linking of previously separate markets.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the price of a smartphone in India tends to move closer to its international price when import duties are reduced, using the concept of market integration.",
+     "a": "When import duties fall, imported smartphones become cheaper in India, increasing their supply. Indian consumers switch to cheaper imports, forcing domestic sellers to lower prices to compete. This arbitrage process continues until the Indian price (adjusted for transport and taxes) aligns with the international price — this is market integration. A wrong answer that says \"prices fall because of competition\" without explaining the price convergence mechanism shows the student understands the outcome but not the process of integration through arbitrage and substitution.",
+     "self_check": true
+    },
+    {
+     "q": "India imports crude oil at $80 per barrel. The exchange rate is ₹83 per dollar. Transport and refining costs add ₹1,500 per barrel. If the government imposes a 10% import duty on the landed cost (cost + freight + insurance), calculate the final landed cost per barrel in rupees. Show all steps.",
+     "a": "Step 1: Convert international price to rupees: $80 × ₹83 = ₹6,640.\nStep 2: Add transport/refining: ₹6,640 + ₹1,500 = ₹8,140 (landed cost before duty).\nStep 3: Calculate 10% duty: 10% of ₹8,140 = ₹814.\nStep 4: Final landed cost = ₹8,140 + ₹814 = ₹8,954 per barrel.\nA wrong answer that forgets to add transport costs before applying duty, or applies duty only on the $80 price, reveals the student does not understand the concept of \"landed cost\" — the actual cost at which the good enters the domestic market, which is the relevant price for market integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of foreign trade on two markets: (a) Indian mangoes exported to the UAE, and (b) solar panels imported from China. How does market integration affect producers and consumers in each case?",
+     "a": "For mango exports: Indian mango producers gain access to a larger market (UAE), increasing demand and potentially raising domestic prices (if supply is inelastic), benefiting producers but possibly hurting domestic consumers who face higher prices. For solar panel imports: Indian consumers get cheaper panels, increasing adoption of solar energy, but domestic solar panel manufacturers face intense competition and may lose market share or shut down. Market integration creates winners and losers depending on comparative advantage. A wrong answer that says \"both consumers benefit\" or \"both producers lose\" shows the student thinks trade affects all parties uniformly, missing the distributional impact central to market integration.",
+     "self_check": true
+    },
+    {
+     "q": "\"Removing all import duties on steel will integrate the Indian steel market with the global market and benefit the Indian economy.\" Evaluate this statement considering both efficiency and equity perspectives.",
+     "a": "Efficiency: Removing duties lowers steel prices for downstream industries (automobiles, construction), reducing their costs and increasing competitiveness — this is a gain from trade and market integration. Equity: Domestic steel producers (e.g., SAIL, Tata Steel) may face losses, job cuts, or plant closures if they cannot compete with cheaper imports (e.g., from China). The net benefit depends on whether gains to downstream users and consumers outweigh losses to steel producers and workers. A one-sided answer that only mentions \"cheaper steel helps everyone\" ignores the structural adjustment costs and the political economy of trade — a common board exam trap where students forget the distributional consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple survey for 10 households in your neighborhood to investigate how foreign trade has affected their consumption choices over the last 5 years. List 4 questions you would ask, and explain what economic concept each question tests.",
+     "a": "Good answer:\n1. \"Which foreign-branded products (electronics, clothing, food) do you buy regularly that were not available or affordable 5 years ago?\" — Tests expansion of consumer choice due to market integration.\n2. \"Have you switched from an Indian brand to a foreign brand for any product because of price or quality?\" — Tests import competition and substitution effect.\n3. \"Has anyone in your household lost a job or seen reduced income because their industry faced import competition?\" — Tests distributional impact on producers/workers.\n4. \"Do you think the variety of goods available today is better than 5 years ago? Why?\" — Tests overall welfare perception from market integration.\nA poor answer that only asks \"Do you like foreign goods?\" misses the economic mechanisms (choice, competition, distribution) and cannot generate analyzable data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_005",
+   "title": "c11_phy_cbse_03_005",
+   "questions": [
+    {
+     "q": "A force vector **F** = 10 N acts at an angle of 120° measured counterclockwise from the +x-axis. What are its x and y components? State the components with correct signs and units.",
+     "a": "*Fₓ* = 10 cos 120° = 10 × (−½) = −5.0 N; *Fᵧ* = 10 sin 120° = 10 × (√3/2) = 5√3 ≈ 8.66 N.  \nA wrong answer (e.g., *Fₓ* = +5 N) reveals the student does not understand that cosine is negative in the second quadrant (90°–180°) and is likely taking the acute reference angle (60°) without applying the correct sign convention for the quadrant.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **A** = 3î + 4ĵ m and **B** = −5î + 2ĵ m are added. A student claims the resultant magnitude is 10 m because \"3 + 4 + 5 + 2 = 14, close to 10\". Explain why this reasoning is physically incorrect and find the actual resultant magnitude.",
+     "a": "The student incorrectly adds all four scalar components as if they were in the same direction. Vector addition requires adding *corresponding* components: *Rₓ* = 3 + (−5) = −2 m, *Rᵧ* = 4 + 2 = 6 m. Then *R* = √[(−2)² + 6²] = √(4 + 36) = √40 = 2√10 ≈ 6.32 m. The error shows the student treats vector components as scalars to be summed indiscriminately, ignoring that x and y components are orthogonal and must be combined via Pythagoras, not simple arithmetic sum.",
+     "self_check": true
+    },
+    {
+     "q": "A displacement vector **D₁** = 5.0 m at 37° above +x-axis, and **D₂** = 8.0 m at 53° below +x-axis. Find the resultant displacement **R** = **D₁** + **D₂** in magnitude-direction form. (Use sin 37° = 0.6, cos 37° = 0.8, sin 53° = 0.8, cos 53° = 0.6)",
+     "a": "**Step 1:** Resolve **D₁**: *D₁ₓ* = 5.0 × 0.8 = 4.0 m, *D₁ᵧ* = 5.0 × 0.6 = 3.0 m.  \n**Step 2:** Resolve **D₂**: *D₂ₓ* = 8.0 × 0.6 = 4.8 m, *D₂ᵧ* = −8.0 × 0.8 = −6.4 m (negative because below +x-axis).  \n**Step 3:** Add components: *Rₓ* = 4.0 + 4.8 = 8.8 m, *Rᵧ* = 3.0 + (−6.4) = −3.4 m.  \n**Step 4:** Magnitude *R* = √(8.8² + (−3.4)²) = √(77.44 + 11.56) = √89 ≈ 9.43 m.  \n**Step 5:** Direction *θ* = tan⁻¹(−3.4/8.8) = tan⁻¹(−0.386) ≈ −21.1° (or 338.9°), i.e., 21.1° below +x-axis.  \nA wrong angle (e.g., +21.1°) reveals the student ignores the sign of *Rᵧ* and fails to place the resultant in the correct quadrant (IV).",
+     "self_check": true
+    },
+    {
+     "q": "Three forces act on a point object: **F₁** = 10 N at 0°, **F₂** = 10 N at 120°, **F₃** = 10 N at 240°. Without calculating components, predict the resultant force and explain your reasoning using symmetry.",
+     "a": "The resultant force is **zero** (null vector). The three vectors have equal magnitude and are spaced 120° apart, forming a symmetric \"Y\" configuration. Their x-components: 10 + 10 cos 120° + 10 cos 240° = 10 − 5 − 5 = 0. Their y-components: 0 + 10 sin 120° + 10 sin 240° = 0 + 5√3 − 5√3 = 0. By symmetry, for every vector there is an opposing component pair that cancels. A non-zero answer reveals the student does not recognize symmetric vector configurations or cannot apply component cancellation conceptually.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the resultant of **A** = 6î − 8ĵ and **B** = −6î + 8ĵ and writes: *Rₓ* = 0, *Rᵧ* = 0, so *R* = 0, *θ* = 0°. Is the angle *θ* = 0° correct for a null vector? Justify your answer.",
+     "a": "No, the angle is **undefined** for a null vector. When *R* = 0, the components *Rₓ* = 0 and *Rᵧ* = 0, so tan *θ* = 0/0 which is indeterminate. A null vector has zero magnitude and **no direction**. Writing *θ* = 0° incorrectly assigns a direction to a vector that has none. This error shows the student applies the formula *θ* = tan⁻¹(*Rᵧ*/*Rₓ*) mechanically without checking the physical meaning when the magnitude is zero.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where three vectors must be added using components to solve a practical problem. Specify the vectors with magnitudes, directions, and physical quantities. Explain why the component method is preferred over graphical addition here.",
+     "a": "**Scenario:** A drone delivers a package in Delhi. It flies: (1) 2.0 km at 30° north of east, (2) 1.5 km due north, (3) 1.0 km at 45° south of east. Find its net displacement from the start.  \n**Why component method:** Three vectors with non-orthogonal angles make graphical head-to-tail drawing inaccurate (small errors in angle/length compound). Component method gives exact algebraic result. Vectors: **D₁** = 2.0 km @ 30°, **D₂** = 1.5 km @ 90°, **D₃** = 1.0 km @ −45°. A poor answer would choose a scenario with only two vectors or right angles where graphical method suffices, missing the point that component method excels for *multiple* non-perpendicular vectors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

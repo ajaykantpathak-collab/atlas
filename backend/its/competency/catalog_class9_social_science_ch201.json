@@ -1,0 +1,218 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "The Story of Village Palampur",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees104.txt",
+ "concepts": [
+  {
+   "id": "iess.201.1.1",
+   "title": "Yield Calculation",
+   "section": "Farming in Palampur",
+   "definition": "Yield is the total quantity of a specific crop harvested from a defined unit of land area during one growing season.",
+   "formula": "yield = total_production / land_area",
+   "key_idea": "Measuring agricultural productivity per unit of land.",
+   "textbook_ref": "iess201.txt lines 155-160",
+   "question_patterns": [
+    "calculate the yield per hectare",
+    "what is the yield if production is ... and land is ...",
+    "find the crop yield for a field of ... hectares",
+    "how much grain is produced per hectare",
+    "determine the yield given total output of ... kg"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total production by land area",
+     "explain": "yield is defined as output per unit area",
+     "compute": "yield = total_production / land_area"
+    }
+   ]
+  },
+  {
+   "id": "iess.201.2.1",
+   "title": "Loan Interest Calculation",
+   "section": "The capital needed in farming",
+   "definition": "The additional cost paid by a borrower to a lender for the use of money over a specified period, expressed as a percentage of the principal.",
+   "formula": "interest_amount = principal * (rate / 100) * (time / 12)",
+   "key_idea": "Cost of borrowing capital for agricultural inputs.",
+   "textbook_ref": "iess201.txt lines 340-355",
+   "question_patterns": [
+    "calculate the interest on a loan of ... at ... percent",
+    "what is the total interest for ... months",
+    "find the interest amount for a principal of ...",
+    "how much extra must the farmer pay for a loan of ...",
+    "compute the interest cost at ... rate for ... months"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate interest amount",
+     "explain": "interest is principal times rate times time fraction",
+     "compute": "interest_amount = principal * (rate / 100) * (time / 12)"
+    }
+   ]
+  },
+  {
+   "id": "iess.201.3.1",
+   "title": "Surplus Calculation",
+   "section": "Sale of Surplus Farm Products",
+   "definition": "The quantity of agricultural produce remaining after the farmer has set aside enough for their own family's consumption needs.",
+   "formula": "surplus = total_production - family_consumption",
+   "key_idea": "Determining the amount available for market sale.",
+   "textbook_ref": "iess201.txt lines 410-420",
+   "question_patterns": [
+    "find the surplus wheat available for sale",
+    "calculate the surplus if production is ... and consumption is ...",
+    "what is the remaining grain after family use",
+    "determine the market surplus from a total of ...",
+    "how much surplus is generated if ... is produced"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract consumption from total production",
+     "explain": "surplus is the leftover after meeting family needs",
+     "compute": "surplus = total_production - family_consumption"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess201.txt line 210",
+   "concept": "iess.201.1.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the yield if production is {total_production} kg and land is {land_area} hectares",
+   "extracted_variables": {
+    "total_production": 3200,
+    "land_area": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide production by area",
+     "explain": "yield = 3200 / 1",
+     "compute": "yield = 3200 / 1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess201.txt line 350",
+   "concept": "iess.201.2.1",
+   "question_type": "compute",
+   "question_pattern": "find interest for principal {principal} at rate {rate} percent for {time} months",
+   "extracted_variables": {
+    "principal": 3000,
+    "rate": 24,
+    "time": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest",
+     "explain": "3000 * 0.24 * (4/12)",
+     "compute": "interest_amount = 3000 * (24 / 100) * (4 / 12)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.201.1.1",
+   "question_type": "compute",
+   "question_pattern": "find the crop yield for a field of ... hectares",
+   "extracted_variables": {
+    "total_production": "2",
+    "land_area": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total production by land area",
+     "explain": "yield is defined as output per unit area",
+     "compute": "yield = total_production / land_area"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.201.2.1",
+   "question_type": "compute",
+   "question_pattern": "find the interest amount for a principal of ...",
+   "extracted_variables": {
+    "principal": "2",
+    "rate": "3",
+    "time": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest amount",
+     "explain": "interest is principal times rate times time fraction",
+     "compute": "interest_amount = principal * (rate / 100) * (time / 12)"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.201.3.1",
+   "question_type": "compute",
+   "question_pattern": "find the surplus wheat available for sale",
+   "extracted_variables": {
+    "total_production": "2",
+    "family_consumption": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract consumption from total production",
+     "explain": "surplus is the leftover after meeting family needs",
+     "compute": "surplus = total_production - family_consumption"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.201.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the surplus if production is ... and consumption is ...",
+   "extracted_variables": {
+    "total_production": "2",
+    "family_consumption": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract consumption from total production",
+     "explain": "surplus is the leftover after meeting family needs",
+     "compute": "surplus = total_production - family_consumption"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iess201.txt lines 550-560",
+   "questions": [
+    "How does the use of modern farming methods affect the working capital requirements of a farmer?",
+    "Why is land considered a fixed factor of production in Palampur?",
+    "Distinguish between fixed capital and working capital with examples.",
+    "What are the non-farm activities in Palampur and why are they currently limited?",
+    "Explain why the distribution of land is considered unequal in the village."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

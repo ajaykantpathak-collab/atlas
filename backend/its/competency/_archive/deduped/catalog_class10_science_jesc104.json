@@ -1,0 +1,126 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Carbon and its Compounds",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.104.4.1",
+   "title": "The Versatile Nature of Carbon - Covalent Bonding",
+   "section": "4.1",
+   "definition": "Carbon forms millions of compounds because it bonds covalently by sharing electrons, needs four electrons to complete its octet (tetravalency), and links with other carbons in chains and rings (catenation) - giving single, double and triple bonded structures in enormous variety.",
+   "formula": "-",
+   "key_idea": "Share, not transfer: tetravalent carbon catenates into the endless chemistry of life.",
+   "textbook_ref": "jesc104.txt sections on covalent bonding and the versatile nature of carbon",
+   "question_patterns": [
+    "why does carbon form covalent bonds - explain with its electronic configuration",
+    "define catenation and tetravalency of carbon",
+    "draw the electron dot structure of the given molecule like methane or water",
+    "differentiate single, double and triple covalent bonds with examples",
+    "why are covalent compounds poor conductors - explain",
+    "compare the bonding in sodium chloride and carbon tetrachloride"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the valence electrons",
+     "explain": "Carbon holds four, so it shares four more to complete the octet."},
+    {"step": 2, "action": "draw the sharing",
+     "explain": "Electron dot structures show the shared pairs as bonds."},
+    {"step": 3, "action": "extend the chain",
+     "explain": "Carbon-carbon bonds build chains, branches and rings."}
+   ]
+  },
+  {
+   "id": "jesc.104.4.2",
+   "title": "Hydrocarbons, Functional Groups and Homologous Series",
+   "section": "4.2",
+   "definition": "Compounds of carbon and hydrogen are hydrocarbons - saturated alkanes with single bonds and unsaturated alkenes and alkynes with multiple bonds; attaching functional groups like alcohol, aldehyde, ketone or carboxylic acid creates families called homologous series, where successive members differ by CH2.",
+   "formula": "-",
+   "key_idea": "Same functional group, CH2 steps: a homologous series is carbon's family album.",
+   "textbook_ref": "jesc104.txt sections on hydrocarbons, functional groups, homologous series",
+   "question_patterns": [
+    "differentiate saturated and unsaturated hydrocarbons with examples",
+    "name the functional groups of alcohol, aldehyde, ketone and carboxylic acid",
+    "what is a homologous series - state its two properties",
+    "write the molecular formula of the next member after the given alkane",
+    "draw the structures of the two isomers of butane",
+    "identify the functional group present in the given compound"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the hydrocarbon family",
+     "explain": "Single bonds mean alkane; double or triple mean alkene or alkyne."},
+    {"step": 2, "action": "spot the functional group",
+     "explain": "OH, CHO, CO or COOH groups name the family."},
+    {"step": 3, "action": "extend the series",
+     "explain": "Add CH2 to move to the next homologue."}
+   ]
+  },
+  {
+   "id": "jesc.104.4.3",
+   "title": "Chemical Properties and Reactions of Carbon Compounds",
+   "section": "4.3",
+   "definition": "Carbon compounds burn in oxygen releasing heat and light, oxidise to alcohols and acids, add hydrogen in the presence of catalysts, and combine with acids in esterification - while substitution replaces hydrogen in saturated hydrocarbons like methane with chlorine.",
+   "formula": "-",
+   "key_idea": "Combustion, oxidation, addition, substitution and esterification - the five moves of carbon chemistry.",
+   "textbook_ref": "jesc104.txt section 4.3 (chemical properties of carbon compounds), ethanol and ethanoic acid",
+   "question_patterns": [
+    "write the combustion reaction of methane or ethanol",
+    "what is a substitution reaction - explain with methane and chlorine",
+    "explain the addition reaction of hydrogen to unsaturated compounds with catalyst",
+    "describe the esterification reaction between ethanol and ethanoic acid",
+    "how does ethanol react with sodium metal - give the reaction",
+    "why is the reaction of ethanoic acid with sodium carbonate done - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the reaction type",
+     "explain": "Burning, adding, replacing or combining - classify first."},
+    {"step": 2, "action": "note the conditions",
+     "explain": "Catalysts like nickel for addition, acid for esterification."},
+    {"step": 3, "action": "write the products",
+     "explain": "Carbon dioxide and water for combustion; ester and water for esterification."}
+   ]
+  },
+  {
+   "id": "jesc.104.4.4",
+   "title": "Soaps and Detergents - Cleansing Action",
+   "section": "4.5",
+   "definition": "Soap molecules have two ends - a hydrophilic head that loves water and a hydrophobic tail that loves oil; tails trap oil into micelles which water rinses away. Hard water, however, forms scum with soap, so detergents with different heads work even in hard water.",
+   "formula": "-",
+   "key_idea": "Two-ended molecules: tail hugs oil, head hugs water - dirt leaves in micelles.",
+   "textbook_ref": "jesc104.txt section 4.5 (soaps and detergents)",
+   "question_patterns": [
+    "how does a soap molecule remove dirt - explain the micelle formation",
+    "what are the two ends of a soap molecule and what does each like",
+    "why does soap not work in hard water - explain scum formation",
+    "how do detergents differ from soaps - give the advantage",
+    "draw the structure of a soap molecule labelling its parts",
+    "what is a micelle - explain its formation during washing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "orient the molecules",
+     "explain": "Tails push into the oil droplet, heads face the water."},
+    {"step": 2, "action": "form the micelle",
+     "explain": "Agitation wraps the oil inside a sphere of soap molecules."},
+    {"step": 3, "action": "rinse away",
+     "explain": "Water carries the micelles off, leaving the cloth clean."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "jesc104.txt exercises",
+   "questions": [
+     "Draw the electron dot structures of the given molecules.",
+     "Explain the cleansing action of soap with a diagram.",
+     "Differentiate ethanol and ethanoic acid on the given points."
+   ]
+  }
+ ]
+}

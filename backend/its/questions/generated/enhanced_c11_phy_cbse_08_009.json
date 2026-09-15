@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_009",
+   "title": "c11_phy_cbse_08_009",
+   "questions": [
+    {
+     "q": "A crane is designed to lift a maximum load of 5 tonnes. The yield strength of the steel rope is 300 × 10⁶ N/m². If a safety factor of 10 is used, what is the minimum required cross-sectional area of the rope? (Take g = 9.8 m/s²)",
+     "a": "Minimum area A = (mg × safety factor) / σ_y = (5000 kg × 9.8 m/s² × 10) / (300 × 10⁶ N/m²) = 1.63 × 10⁻³ m². A wrong answer (e.g., forgetting the safety factor or using g=10) reveals the student does not understand that the design stress must be a fraction of yield strength, not equal to it, and that safety factors multiply the load, not divide the strength.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular beam of length 4 m, breadth 10 cm, and depth 20 cm is supported at its ends and loaded at the centre with 1000 N. The Young's modulus of the material is 2 × 10¹¹ N/m². Calculate the depression at the centre. If the depth is doubled to 40 cm while keeping breadth constant, by what factor does the depression change?",
+     "a": "δ = Wl³/(4bd³Y) = (1000 × 4³) / (4 × 0.1 × 0.2³ × 2×10¹¹) = 2 × 10⁻⁵ m = 0.02 mm. When depth doubles, δ becomes 1/8th (since δ ∝ 1/d³). A wrong factor (e.g., 1/2 or 1/4) reveals the student misses the cubic dependence on depth and thinks depression scales linearly with cross-sectional area.",
+     "self_check": true
+    },
+    {
+     "q": "Why are crane ropes made of many thin wires braided together instead of a single solid wire of the same total cross-sectional area? Explain using the concepts of flexibility, manufacturing, and stress distribution.",
+     "a": "Braided thin wires provide flexibility (ease of bending over pulleys), easier manufacturing (drawing thin wires is simpler than a thick rod), and redundancy (if one wire fails, others share the load). A single solid wire of radius ~3 cm would be practically a rigid rod, impossible to wind on a drum. A student who only mentions \"strength\" misses the crucial practical engineering constraints of flexibility and manufacturability.",
+     "self_check": true
+    },
+    {
+     "q": "A beam with a solid rectangular cross-section (breadth b, depth d) is replaced by an I-beam with the same cross-sectional area and same depth d. The I-beam has flanges of width b and a thin web. For the same central load, which beam will have less depression? Justify using the depression formula and the concept of second moment of area (though not in syllabus, use the given formula δ ∝ 1/(bd³)).",
+     "a": "The I-beam will have less depression. Although the formula δ = Wl³/(4bd³Y) suggests depression depends only on breadth b and depth d, it is derived assuming uniform stress distribution across the breadth. In an I-beam, material is concentrated in the flanges far from the neutral axis, increasing the effective second moment of area (I) for the same area. The given formula is a simplification; the true bending stiffness depends on I, which is larger for an I-section. A student who says \"same depression because b and d are same\" is applying the simplified formula beyond its validity.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the yield strength of steel is 300 × 10⁶ N/m², a steel wire of cross-section 1 mm² can hold a 300 N weight safely.\" Evaluate this statement. Is it correct? If not, what is missing?",
+     "a": "The statement is incorrect and unsafe. It ignores the safety factor (typically 10 for cranes), which means the allowable stress is σ_y/10 = 30 × 10⁶ N/m², so the safe load is only 30 N. It also ignores dynamic loading, stress concentrations, and the fact that yield strength is the limit of elastic behaviour, not a safe working load. A student who agrees reveals a dangerous misconception: confusing material strength with safe working load.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, two supports, and known weights to verify that the depression δ of a beam scales as 1/d³ (where d is depth). List the variables you would keep constant, the measurements you would take, and how you would plot the data to confirm the cubic relationship.",
+     "a": "Keep constant: length l, breadth b, material (Young's modulus Y), load W, support positions. Vary depth d by using different wooden/plastic strips of same breadth but different thicknesses. Measure δ for each d. Plot δ vs 1/d³; a straight line through origin confirms δ ∝ 1/d³. A poor answer would vary multiple parameters at once or plot δ vs d expecting a straight line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 405,
+ "chapter_title": "Outcomes of Democracy: Accountability, Growth and Dignity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess405.txt",
+ "concepts": [
+  {
+   "id": "jess.405.1.1",
+   "title": "Accountable, Responsive and Legitimate Government",
+   "section": "Accountable, responsive and legitimate government",
+   "definition": "A democratic government is judged on whether it is accountable to citizens, responsive to their needs and legitimate in the eyes of the people, since it follows procedures and consults before decisions rather than acting overnight like a dictatorship.",
+   "formula": "",
+   "key_idea": "Democracy may be slower in reaching decisions, but it builds support through deliberation, and its legitimacy rests on the people's free choice of rulers.",
+   "textbook_ref": "jess405.txt lines 113-260",
+   "question_patterns": [
+    "how is a democratic government accountable to its citizens",
+    "why is democracy called a legitimate government",
+    "compare democratic and non democratic governments on responsiveness",
+    "why do democratic decisions take longer than dictatorial ones",
+    "how does democracy ensure transparency in decision making",
+    "what makes a government legitimate in the eyes of the people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test accountability",
+     "explain": "Check whether citizens can question decisions, obtain information about them, and change rulers through elections."
+    },
+    {
+     "step": 2,
+     "action": "test responsiveness",
+     "explain": "Look at whether government attends to citizens' needs and follows established procedures of consultation."
+    },
+    {
+     "step": 3,
+     "action": "verify legitimacy",
+     "explain": "A democratic government is people's own government, so even its critics accept it as legitimate, unlike rule by force."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.1",
+   "title": "Economic Growth under Democracy and Dictatorship",
+   "section": "Economic growth and development",
+   "definition": "When growth rates of regimes are compared over 1950-2000, dictatorial regimes averaged 4.42 per cent against 3.95 for democracies, so the difference is the dictatorship rate minus the democracy rate.",
+   "formula": "growth_gap = dictatorial_rate - democratic_rate",
+   "key_idea": "The gap of about half a percentage point is small and cannot prove that dictatorships deliver better development, since inequality and war also shape outcomes.",
+   "textbook_ref": "jess405.txt lines 400-485",
+   "question_patterns": [
+    "calculate the difference in growth rates between democratic and dictatorial regimes",
+    "how much faster did dictatorships grow than democracies between 1950 and 2000",
+    "compare the economic growth of democracies and dictatorships",
+    "find the growth gap when both regime rates are given",
+    "does dictatorship deliver higher growth than democracy explain",
+    "what do the growth tables of 1950 to 2000 show"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the democratic rate",
+     "explain": "Take the average growth rate of dictatorial regimes and subtract that of democratic regimes to get the gap",
+     "compute": "growth_gap = dictatorial_rate - democratic_rate"
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.2",
+   "title": "Gap between Top and Bottom Income Shares",
+   "section": "Reduction of inequality and poverty",
+   "definition": "Inequality within a country can be read from the difference between the national income share of the top 20 per cent and that of the bottom 20 per cent of the people.",
+   "formula": "inequality_gap = top20_share - bottom20_share",
+   "key_idea": "In Brazil the top fifth holds 63 per cent of income against 2.6 for the bottom fifth, while Denmark's 34.5 against 9.6 shows democracies vary widely in income fairness.",
+   "textbook_ref": "jess405.txt lines 485-560",
+   "question_patterns": [
+    "calculate the gap between the income shares of the richest and poorest twenty per cent",
+    "find the inequality gap for a country from its income share table",
+    "how much larger is the top income share than the bottom share",
+    "compare income inequality in brazil and denmark",
+    "compute the difference between top 20 and bottom 20 per cent shares",
+    "what does the inequality table tell about economic disparities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the bottom share",
+     "explain": "Take the income share of the top 20 per cent and subtract the share of the bottom 20 per cent",
+     "compute": "inequality_gap = top20_share - bottom20_share"
+    }
+   ]
+  },
+  {
+   "id": "jess.405.3.1",
+   "title": "Accommodation of Social Diversity",
+   "section": "Accommodation of social diversity",
+   "definition": "Democracy handles social differences best when every community gets a chance to be heard and rule by majority means rule by any group that wins support, never rule by a single community in its own interest.",
+   "formula": "",
+   "key_idea": "Democracy stays viable in deep diversity as long as no one community tries to dominate others and citizens weigh reasons rather than identities.",
+   "textbook_ref": "jess405.txt lines 100-112, 640-760",
+   "question_patterns": [
+    "how does democracy accommodate social diversity",
+    "what does rule by majority actually mean in democracy",
+    "why is democracy suitable for deeply diverse societies",
+    "when does democracy fail to accommodate diversity",
+    "distinguish between majority rule and rule by majority community",
+    "how should majorities treat minorities in a democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "clarify the majority idea",
+     "explain": "Majority rule means any group that forms a majority through elections, not a permanent ethnic or religious majority."
+    },
+    {
+     "step": 2,
+     "action": "test the accommodation",
+     "explain": "Check whether all communities have a voice, and whether decisions consider minority views."
+    },
+    {
+     "step": 3,
+     "action": "verify the danger signs",
+     "explain": "Democracy fails when a majority community denies others a share in power, turning politics into domination."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.4.1",
+   "title": "Dignity and Freedom of Citizens",
+   "section": "Dignity and freedom of the citizens",
+   "definition": "Democracy's strongest claim is its promise of dignity and freedom: it rests on the principle of political equality, expanding recognition for all individuals including lower castes and women, even when practice falls short of expectation.",
+   "formula": "",
+   "key_idea": "Democratic struggles have spread respect for individual freedom and dignity, and democracy's merit is that conflicts over dignity can be openly fought and corrected.",
+   "textbook_ref": "jess405.txt lines 30-40, 760-860",
+   "question_patterns": [
+    "how does democracy promote the dignity of citizens",
+    "explain how democracy expands the idea of freedom",
+    "how has democracy helped women and lower castes claim equality",
+    "compare expectation and achievement of dignity in india",
+    "why is political equality central to democracy's outcomes",
+    "what does democracy offer that dictatorships cannot on dignity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "link democracy to dignity",
+     "explain": "The principle of political equality recognises the worth of every individual, supporting claims of dalits and women."
+    },
+    {
+     "step": 2,
+     "action": "test the freedom claim",
+     "explain": "Check for freedoms of expression, association and movement that let citizens argue for their rights."
+    },
+    {
+     "step": 3,
+     "action": "verify expectation versus reality",
+     "explain": "Note that societies take time to live up to ideals, but democratic politics lets excluded groups press their claims."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.5.1",
+   "title": "Assessing the Outcomes of Democracy",
+   "section": "How do we assess democracy's outcomes",
+   "definition": "Judging democracy means asking what we expect of it: accountable and legitimate rule, economic well being, reduced inequality, accommodation of diversity, and dignity for all, tested against its record rather than against perfection.",
+   "formula": "",
+   "key_idea": "Democracy's success is not measured only by economic performance but also by its ability to correct itself and keep improving, which is a constant process without a perfect endpoint.",
+   "textbook_ref": "jess405.txt lines 1-112, 860-940",
+   "question_patterns": [
+    "how do we assess the outcomes of democracy",
+    "what should we expect from a democratic government",
+    "is democracy better than dictatorship in reducing inequality",
+    "explain the ongoing process of improving democracy",
+    "why is democracy judged by more than economic growth",
+    "list the criteria to evaluate democracy's performance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the expectations",
+     "explain": "Frame the test: accountable government, economic development, equality, diversity handling and dignity."
+    },
+    {
+     "step": 2,
+     "action": "compare against the record",
+     "explain": "Use growth and inequality data to test each expectation instead of accepting or rejecting democracy blindly."
+    },
+    {
+     "step": 3,
+     "action": "verify the self-correcting nature",
+     "explain": "Democracy's advantage is the continuous chance to complain, discuss and improve outcomes through citizens' participation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess405.txt lines 485-500",
+   "concept": "jess.405.2.1",
+   "question_type": "compute_growth_gap",
+   "question_pattern": "Between 1950 and 2000, all dictatorial regimes grew at {dictatorial_rate} per cent a year while all democratic regimes grew at {democratic_rate} per cent. Calculate the growth gap in percentage points.",
+   "extracted_variables": {
+    "dictatorial_rate": 4.42,
+    "democratic_rate": 3.95
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the democratic rate",
+     "explain": "Take the average growth rate of dictatorial regimes and subtract that of democratic regimes to get the gap",
+     "compute": "growth_gap = dictatorial_rate - democratic_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess405.txt lines 485-500",
+   "concept": "jess.405.2.1",
+   "question_type": "compute_growth_gap",
+   "question_pattern": "Poor countries under dictatorship recorded {dictatorial_rate} per cent growth against {democratic_rate} per cent for poor democracies. Find the difference in their growth rates.",
+   "extracted_variables": {
+    "dictatorial_rate": 4.34,
+    "democratic_rate": 4.28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the democratic rate",
+     "explain": "Take the average growth rate of dictatorial regimes and subtract that of democratic regimes to get the gap",
+     "compute": "growth_gap = dictatorial_rate - democratic_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess405.txt lines 496-510",
+   "concept": "jess.405.2.2",
+   "question_type": "compute_inequality_gap",
+   "question_pattern": "In Brazil the top 20 per cent of people hold {top20_share} per cent of national income and the bottom 20 per cent hold {bottom20_share} per cent. Calculate the inequality gap in percentage points.",
+   "extracted_variables": {
+    "top20_share": 63,
+    "bottom20_share": 2.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the bottom share",
+     "explain": "Take the income share of the top 20 per cent and subtract the share of the bottom 20 per cent",
+     "compute": "inequality_gap = top20_share - bottom20_share"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess405.txt lines 496-510",
+   "concept": "jess.405.2.2",
+   "question_type": "compute_inequality_gap",
+   "question_pattern": "A country's income table shows the richest fifth with {top20_share} per cent of national income and the poorest fifth with {bottom20_share} per cent. Find the gap between the two shares.",
+   "extracted_variables": {
+    "top20_share": 34.5,
+    "bottom20_share": 9.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the bottom share",
+     "explain": "Take the income share of the top 20 per cent and subtract the share of the bottom 20 per cent",
+     "compute": "inequality_gap = top20_share - bottom20_share"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess405.txt lines 900-1000",
+   "questions": [
+    "How does democracy produce an accountable, responsive and legitimate government?",
+    "What are the difficulties in comparing the economic performance of democracies and dictatorships?",
+    "Is democracy better at reducing economic inequality than dictatorship? Explain.",
+    "Why can democracies accommodate social diversity better than non-democratic regimes?",
+    "What does democracy promise in terms of dignity and freedom of citizens?",
+    "Explain any three outcomes expected from democracy.",
+    "How does democracy improve the quality of decision making?",
+    "When is a democracy expected to be responsive to the needs of the people?"
+   ]
+  }
+ ]
+}

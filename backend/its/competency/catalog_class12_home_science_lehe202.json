@@ -1,0 +1,527 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 9,
+ "chapter_title": "Fashion Design and Merchandising",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe202.1",
+   "title": "Fashion Terminology: Fashion, Style, Fad, Classic",
+   "section": "Basic Concepts: Fashion Terminology",
+   "definition": "Fashion names the styles most popular at a given moment; a style is any distinct look that survives even after leaving fashion; fads burn out within a season for want of design strength; classics such as blazers and polo shirts stay accepted for years through sheer simplicity.",
+   "formula": "life span ladder -- fad to fashion to classic",
+   "key_idea": "A style never dies, it only steps out of fashion; simplicity is what keeps a classic from dating.",
+   "textbook_ref": "lehe202.txt, Fashion Terminology (approx lines 62-93)",
+   "question_patterns": [
+    "define fashion and style and distinguish between them",
+    "what is a fad and give two examples",
+    "which qualities keep a classic from becoming obsolete",
+    "why do fads fail to hold consumer attention",
+    "place hot pants, a blazer jacket and this season's print into fashion terms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the four terms",
+     "explain": "popularity now, permanent look, one season wonder, long acceptance"
+    },
+    {
+     "step": 2,
+     "action": "sort examples",
+     "explain": "baggy pants are fads, the Chanel suit is a classic"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which look burns out within a season: a fad or a classic?",
+     "a": "a fad"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.2",
+   "title": "Historic Growth of Fashion",
+   "section": "Fashion Development",
+   "definition": "Fashion as change is young: styles froze for a century until the Renaissance, Paris rose through the royal court and the silk trade with couture dressmaking, the Industrial Revolution and the sewing machine democratised clothing, Levi Strauss turned tent cloth into work denims, the 1880s gave women separates, ready to wear arrived in 1920 and Yves Saint Laurent launched the first full pret a porter line in the 1960s.",
+   "formula": "timeline -- court couture to machine made to ready to wear",
+   "key_idea": "The sewing machine turned a handcraft into an industry and opened fashion to the middle class.",
+   "textbook_ref": "lehe202.txt, Fashion Development and France sections (approx lines 94-154)",
+   "question_patterns": [
+    "trace the major developments in the history of fashion",
+    "how did Paris become the fashion capital",
+    "what do couture, couturier and couturiere mean",
+    "how did the sewing machine change clothing production",
+    "how did denim trousers originate",
+    "what is pret a porter and who first launched a full line",
+    "why did separate skirts and blouses matter for working women"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the milestones",
+     "explain": "Renaissance quickening, French court, industrial machines, denims, separates, ready to wear"
+    },
+    {
+     "step": 2,
+     "action": "attach the social meaning",
+     "explain": "each step widened who could afford fashion"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which machine turned clothing from handcraft into industry: the sewing machine or the loom?",
+     "a": "the sewing machine"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.3",
+   "title": "Stages of the Fashion Cycle",
+   "section": "Fashion Evolution",
+   "definition": "A style travels a bell shaped curve of acceptance measured in sales: designers introduce it, popularity rises, it peaks with mass copies at many price levels, declines onto sale racks as copies saturate taste, and ends in rejection when buyers move to the next new look.",
+   "formula": "cycle stages -- introduction plus rise plus peak plus decline plus rejection",
+   "key_idea": "Heavy copying is the very thing that tires fashion leaders and pushes the curve downward.",
+   "textbook_ref": "lehe202.txt, Fashion cycle (approx lines 156-213)",
+   "question_patterns": [
+    "name and explain the stages of the fashion cycle",
+    "what shape does the fashion cycle take and what does its height measure",
+    "why do declining styles land on sale racks",
+    "how does mass copying push a style into decline",
+    "what happens at the rejection or obsolescence stage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the five stages",
+     "explain": "from designer debut to consumer abandonment"
+    },
+    {
+     "step": 2,
+     "action": "read the curve",
+     "explain": "acceptance is plotted as sales volume over time"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name the fashion cycle's first stage: introduction or rejection?",
+     "a": "introduction"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.4",
+   "title": "Fashion Merchandising and the Six Rights",
+   "section": "Fashion Merchandising",
+   "definition": "Fashion merchandising is the planning that puts the wanted goods in the wanted place at the wanted time, in the wanted quantity, at a price that pays the store yet meets competition, backed by promotion worth its cost -- the recipe for maximum profit.",
+   "formula": "merchandising = right merchandise plus place plus time plus quantity plus price plus promotion",
+   "key_idea": "The merchandiser converts inspiration into design and steers planning, production, promotion and distribution toward consumer demand.",
+   "textbook_ref": "lehe202.txt, merchandising definition and rights (approx lines 215-223, 339-352)",
+   "question_patterns": [
+    "what do you understand by fashion merchandising",
+    "list the rights that must align for profitable merchandising",
+    "why must the price be neither too high nor too low",
+    "why is timing critical for seasonal merchandise",
+    "who is a fashion merchandiser and what does the role cover"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the definition",
+     "explain": "planning across merchandise, place, time, quantity, price, promotion"
+    },
+    {
+     "step": 2,
+     "action": "explain each right briefly",
+     "explain": "customer demand, accessibility, season, inventory balance, profit with competition, promotion appeal"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Planning that puts the wanted goods in the wanted place at the wanted time is called fashion what: merchandising or mounting?",
+     "a": "merchandising"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.5",
+   "title": "Roles of the Merchandiser: Make, Buy, Promote, Sell",
+   "section": "Fashion Merchandising roles",
+   "definition": "In manufacturing the merchandiser advises on fabrics and finds the best production route for the price and target market; in buying, trend analysis sharpens ordering; in promotion, fashion shows and visual skill court bulk buyers; in selling, display suggestions and market reading close the loop with stores.",
+   "formula": "role chain -- manufacture plus buy plus promote plus sell",
+   "key_idea": "Historical and socio-cultural knowledge of fabrics is what lets a merchandiser turn a designer's vision into a salable product.",
+   "textbook_ref": "lehe202.txt, merchandiser roles (approx lines 228-270)",
+   "question_patterns": [
+    "describe the merchandiser's role in manufacturing",
+    "how does trend forecasting improve buying decisions",
+    "how does a merchandiser promote a designer's product",
+    "what responsibilities come with selling fashion items to stores",
+    "why must a merchandiser understand fabric construction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the four roles",
+     "explain": "fabric input and production choices, informed ordering, buyer facing promotion, store facing sales"
+    },
+    {
+     "step": 2,
+     "action": "note the knowledge base",
+     "explain": "textiles, forecasting, target market sense and communication"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In manufacturing, the merchandiser advises on which inputs: fabrics or weather?",
+     "a": "fabrics"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.6",
+   "title": "Levels of Merchandising",
+   "section": "Levels of Merchandising",
+   "definition": "Merchandising operates at three levels: inside retail organisations where internal planning stocks the sales floor profitably, through buying agencies that procure, negotiate, and police quality for clients, and inside export houses where buyer merchandisers link client to factory while production merchandisers keep output on schedule.",
+   "formula": "levels -- retail organisation plus buying agency plus export house",
+   "key_idea": "Buying agencies save exporters cost and time; in export houses the buyer side sources and samples while the production side delivers on time.",
+   "textbook_ref": "lehe202.txt, three levels of merchandising (approx lines 271-307)",
+   "question_patterns": [
+    "describe the three levels of merchandising",
+    "what responsibilities does a buying agency carry",
+    "differentiate between a buyer merchandiser and a production merchandiser",
+    "why is selling through buying agencies profitable for exporters",
+    "what does retail organisation merchandising aim to ensure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each level's turf",
+     "explain": "store internal planning, procurement office, export house bridge"
+    },
+    {
+     "step": 2,
+     "action": "split the export house roles",
+     "explain": "buyer link for sourcing and sampling, production link for schedules"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At which level does internal planning stock the sales floor: retail organisations or export houses?",
+     "a": "retail organisations"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.7",
+   "title": "Target Market and Market Segmentation",
+   "section": "Other concepts: Target Market",
+   "definition": "A target market is the consumer category likeliest to buy the offering, found by segmenting the whole market into subsets that share needs -- by demography such as age, sex, income, by geography and climate, by psychographic lifestyle, or by behavioural opinion and usage of products.",
+   "formula": "segmentation bases -- demographic plus geographic plus psychographic plus behavioural",
+   "key_idea": "Segmentation concentrates sales effort where returns are highest and reads the motivations behind buying.",
+   "textbook_ref": "lehe202.txt, target market and segmentation (approx lines 310-334)",
+   "question_patterns": [
+    "define target market and explain its importance",
+    "what is market segmentation",
+    "on which bases can a market be segmented",
+    "how does climate enter geographic segmentation for clothing",
+    "what does behavioural segmentation study",
+    "why should a merchandiser interpret buying motivations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define target market",
+     "explain": "the likeliest buyers worth focusing sales spending on"
+    },
+    {
+     "step": 2,
+     "action": "list the four segmentation bases",
+     "explain": "population traits, place and climate, lifestyle, product opinions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The consumer category likeliest to buy the offering is the target what: market or mall?",
+     "a": "market"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.8",
+   "title": "Fashion Retail Organisations",
+   "section": "Fashion Retail Organisations",
+   "definition": "Retail formats run from the owner run neighbourhood single unit store through department stores with separate sections to chain stores sharing one brand and central management; inside large stores the work splits into merchandising, sales promotion, finance and control, operations, and personnel or branch divisions.",
+   "formula": "formats -- single unit plus department plus chain; divisions -- merchandise plus promotion plus finance plus operations plus personnel",
+   "key_idea": "Organisational structure shifts with merchandise type, firm size and target customer.",
+   "textbook_ref": "lehe202.txt, retail organisations and divisions (approx lines 353-408)",
+   "question_patterns": [
+    "compare small single unit stores, department stores and chain stores",
+    "list the major divisions of a large retail organisation",
+    "which division handles advertising and visual merchandising",
+    "where do credit and inventory control sit in a store's structure",
+    "what does the operational division look after"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the store formats",
+     "explain": "family run single store, sectioned department store, standardised chain"
+    },
+    {
+     "step": 2,
+     "action": "map the divisions",
+     "explain": "buying and selling, promotion, finance, operations, personnel"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which store format shares one brand and central management: chain stores or single units?",
+     "a": "chain stores"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.9",
+   "title": "Skills, Courses and Careers in Fashion",
+   "section": "Preparing for a Career and Scope",
+   "definition": "Success needs three divergent abilities -- forecasting trends ahead of time, analysing the dollars and sense of styles against company and consumer budgets, and communicating well enough to negotiate, sell and write copy; training runs from six month certificates through two year master's to four year bachelor's programmes, leading to work as visual merchandise designer, fashion designer, set designer or interior designer.",
+   "formula": "skill triad -- forecasting plus analytical plus communication",
+   "key_idea": "About one third of professional fashion designers are self employed, and most aspirants specialise in one area such as apparel, displays or theatre sets.",
+   "textbook_ref": "lehe202.txt, career preparation and scope (approx lines 409-526)",
+   "question_patterns": [
+    "which three skills must a fashion merchandiser possess",
+    "why is forecasting ability essential in this career",
+    "compare the durations of certificate, master's and bachelor's routes in fashion merchandising",
+    "name four careers open in fashion design",
+    "what does a visual merchandise designer do",
+    "what does a set designer need to keep in mind",
+    "what share of fashion designers work for themselves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the skill triad",
+     "explain": "reading trends early, juggling costs and budgets, negotiating and writing"
+    },
+    {
+     "step": 2,
+     "action": "map routes and destinations",
+     "explain": "certificate to bachelor's; window displays to film sets to interiors"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what share of professional fashion designers are self-employed: one third or one hundredth?",
+     "a": "one third"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.10",
+   "title": "Croquis Height Arithmetic",
+   "section": "Practical 1: developing a female fashion figure",
+   "definition": "A fashion croquis is drawn in head units, so the height of the sketch on paper is the number of heads multiplied by the chosen head length in inches.",
+   "formula": "figure_height = head_count * head_size",
+   "key_idea": "Fashion figures run eight and a half to ten heads tall, with the centre front line divided into that many equal parts.",
+   "textbook_ref": "lehe202.txt, Practical 1 croquis proportions (approx lines 562-648)",
+   "question_patterns": [
+    "a croquis is drawn 10 heads tall with each head measuring 1 inch; how tall is the sketch in inches",
+    "a fashion figure of 8.5 heads is drawn with 2 inch heads; compute the height of the drawing",
+    "find the paper height of a croquis from its head count and head size",
+    "a student draws a 10 head figure with 1.5 inch heads; how many inches long is the centre front line",
+    "calculate the drawn height when the head unit and the number of heads are stated"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply head count by head size",
+     "explain": "the head is the unit of measurement, so heads times head length gives the figure height",
+     "compute": "figure_height = head_count * head_size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fashion figures run eight and a half to how many heads tall: ten or two?",
+     "a": "ten"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.11",
+   "title": "Study Programme Duration Gaps",
+   "section": "Preparing for a Career",
+   "definition": "Fashion education routes differ in length -- certificates and diplomas finish in six months to a year, master's degrees take two years and bachelor's four -- so the extra years one route demands over another is simply the longer duration minus the shorter.",
+   "formula": "duration_gap = long_years - short_years",
+   "key_idea": "Choosing a bachelor's over a one year diploma means investing three extra years for broader promotion chances.",
+   "textbook_ref": "lehe202.txt, degree programmes (approx lines 460-478)",
+   "question_patterns": [
+    "a bachelor's in fashion merchandising takes 4 years and a diploma takes 1 year; how many extra years does the degree demand",
+    "find the gap in years between two study routes when both durations are stated",
+    "a master's programme runs 2 years against a 1 year certificate; compute the difference",
+    "how much longer is a 4 year bachelor's than a 2 year master's in this field",
+    "calculate the additional years of schooling one route needs over another"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the shorter duration",
+     "explain": "the difference between the two routes is the extra investment",
+     "compute": "duration_gap = long_years - short_years"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A master's degree in fashion takes how many years: two or twenty?",
+     "a": "two"
+    }
+   ]
+  },
+  {
+   "id": "lehe202.12",
+   "title": "Self-Employment Share of Designers",
+   "section": "Scope",
+   "definition": "When a stated fraction of a designer population works for itself, applying that fraction to the total gives the number of independent professionals -- about one third in fashion design.",
+   "formula": "self_employed = total_designers * self_share",
+   "key_idea": "Roughly one in three professional fashion designers runs an independent practice, which fuels the field's entrepreneurial appeal.",
+   "textbook_ref": "lehe202.txt, Scope paragraph (approx lines 480-483)",
+   "question_patterns": [
+    "one third of a city's 900 professional fashion designers are self employed; how many run their own practice",
+    "if a share of designers works independently, compute their number from the total",
+    "a design association has 4500 members and one third are freelancers; find the freelancer count",
+    "calculate the self employed designers when the total and the independent fraction are given",
+    "how many of 600 designers would be self employed at a one third rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the fraction to the total",
+     "explain": "multiply the designer count by the self employment share",
+     "compute": "self_employed = total_designers * self_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About one in how many professional fashion designers is self-employed: three or thirty?",
+     "a": "three"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe202.txt Practical 1, croquis construction",
+   "concept": "lehe202.10",
+   "question_type": "numeric",
+   "question_pattern": "A student sketches a fashion figure of {head_count} heads with each head {head_size} inch. How tall is the croquis on paper?",
+   "extracted_variables": {
+    "head_count": 10,
+    "head_size": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply heads by head size",
+     "explain": "10 x 1 = 10 inches of centre front line",
+     "compute": "figure_height = head_count * head_size"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe202.txt degree programmes",
+   "concept": "lehe202.11",
+   "question_type": "numeric",
+   "question_pattern": "A bachelor's degree in fashion merchandising takes {long_years} years while a diploma takes {short_years} year. How many extra years does the degree need?",
+   "extracted_variables": {
+    "long_years": 4,
+    "short_years": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the durations",
+     "explain": "4 - 1 = 3 extra years for the degree route",
+     "compute": "duration_gap = long_years - short_years"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe202.txt Scope, self employment figure",
+   "concept": "lehe202.12",
+   "question_type": "numeric",
+   "question_pattern": "A design hub employs {total_designers} professional designers, of whom {self_share} work for themselves. How many are self employed?",
+   "extracted_variables": {
+    "total_designers": 900,
+    "self_share": 0.3333
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the share",
+     "explain": "900 x 0.3333 gives about 300 self employed designers",
+     "compute": "self_employed = total_designers * self_share"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe202.txt Fashion Terminology",
+   "concept": "lehe202.1",
+   "question_type": "short_answer",
+   "question_pattern": "Classify these into fashion, style, fad and classic: the Chanel suit, this week's viral baggy pants, the current pastel palette, the saree drape a designer reinvents.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assign each term",
+     "explain": "Chanel suit is a classic; viral baggy pants are a fad; the pastel palette is this season's fashion; the saree drape is a style"
+    },
+    {
+     "step": 2,
+     "action": "justify with life spans",
+     "explain": "classics endure, fads die in a season, fashion marks present popularity, styles persist through it all"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe202.txt Review Questions 1-7",
+   "questions": [
+    "Outline the major developments in the history of fashion.",
+    "Identify and explain the stages of the fashion cycle.",
+    "What is fashion merchandising?",
+    "Describe the levels at which merchandising operates.",
+    "Elaborate on reading consumer demand through target market and buying motivations.",
+    "Enumerate the knowledge and skills a fashion designer and merchandiser need.",
+    "What advice would you give a friend choosing fashion design and merchandising as a career?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe202.txt Practical 1, developing a female fashion figure",
+   "questions": [
+    "Draw a centre front line of ten one inch head units and mark the eye, shoulder, bust, waist, hip, torso end, knee and ankle levels at the stated head positions.",
+    "Join the levels and develop a croquis with widest shoulders, smallest waist and hips in between.",
+    "Practise at least five croquis with different head measurements and record the head unit used in each."
+   ]
+  }
+ ]
+}

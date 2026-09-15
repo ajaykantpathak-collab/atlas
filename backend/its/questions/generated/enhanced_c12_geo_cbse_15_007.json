@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_007",
+   "title": "c12_geo_cbse_15_007",
+   "questions": [
+    {
+     "q": "Name the 12 major ports of India and identify which six are on the east coast and which six are on the west coast.",
+     "a": "East coast (6): Kolkata-Haldia (West Bengal), Paradip (Odisha), Visakhapatnam (Andhra Pradesh), Kamarajar/Ennore (Tamil Nadu), Chennai (Tamil Nadu), V.O. Chidambaranar/Tuticorin (Tamil Nadu). West coast (6): Kandla/Deendayal (Gujarat), Mumbai (Maharashtra), Jawaharlal Nehru Port Trust/JNPT (Maharashtra), Mormugao (Goa), New Mangalore (Karnataka), Kochi (Kerala). A wrong answer reveals the student has memorised port names without spatial organisation — they cannot visualise the coastline distribution, which is essential for map-based board questions and understanding cargo flow patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the administrative distinction between major ports (Central Government) and minor ports (State Government) matters for port development and cargo handling capacity.",
+     "a": "Major ports receive direct Central funding, have autonomous Port Trusts for faster decision-making, handle larger vessels with deeper drafts, and are integrated into national logistics plans (Sagarmala, Bharatmala). Minor ports rely on State budgets, face bureaucratic delays, often lack deep-draft facilities, and serve niche/local cargo. A wrong answer (e.g., \"major ports are just bigger\") shows the student misses the governance-infrastructure link — they cannot explain why JNPT handles 55% of India's container traffic while minor ports in the same state handle <5%, a frequent board exam case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "A shipment of iron ore from Bellary-Hospet region (Karnataka) is exported to Japan. Which major port will it most likely use, and what inland transport mode connects the mines to that port? Justify using hinterland connectivity.",
+     "a": "Mormugao Port (Goa) — connected by the South Western Railway's Hubballi-Vasco da Gama line (doubled and electrified). Steps: (1) Identify cargo: iron ore → major export from Karnataka. (2) Locate mines: Bellary-Hospet in central Karnataka. (3) Check port proximity: Mormugao is the nearest major port with dedicated ore berths (MOHP, MOB). (4) Verify rail link: SWR connects Hospet to Vasco da Gama (Mormugao) directly. (5) Eliminate alternatives: New Mangalore is closer but handles more coal/POL; Chennai is too far. A wrong answer (e.g., \"Chennai\" or \"New Mangalore\") reveals the student doesn't link mineral belts to specific port rail corridors — a critical skill for \"resource-port linkage\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the natural harbour advantages of the west coast (Mumbai, Kochi, Mormugao) with the east coast (Chennai, Visakhapatnam, Paradip). How does coastal geomorphology explain the difference in dredging requirements?",
+     "a": "West coast: submerged coastline with rias, estuaries, and natural deep-water harbours (Mumbai's harbour, Kochi's backwater lagoon, Mormugao's Zuari estuary) — minimal dredging. East coast: emergent coastline with deltaic ports (Kolkata-Haldia on Hooghly, Paradip on Mahanadi delta, Chennai artificial harbour) — high siltation requires continuous capital/maintenance dredging. A wrong answer (e.g., \"east coast ports are newer\") shows the student ignores Class 11 geomorphology (c11_geo_cbse_09_007) — they cannot explain why Kolkata-Haldia needs 6-8 million m³ annual dredging while Mumbai needs <1 million m³, a classic board exam \"reason\" question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Developing minor ports under State PPP models (e.g., Mundra, Krishnapatnam, Kakinada) has reduced congestion at major ports and boosted coastal shipping.\" Support with two specific examples and one limitation.",
+     "a": "Support: (1) Mundra (Gujarat, minor port) handled 155 MMT in 2022-23 — more than any major port — diverting container/coal traffic from Kandla/Mumbai. (2) Krishnapatnam (Andhra Pradesh) handles thermal coal for coastal power plants, reducing rail haulage to Paradip/Visakhapatnam. Limitation: Minor ports lack national rail/road connectivity grants — e.g., Kakinada's rail link is single-line, causing evacuation bottlenecks. A wrong answer (e.g., \"all minor ports are small\") shows the student confuses administrative classification with operational scale — they miss the competitive federalism dynamic central to Sagarmala case studies in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new minor port on the Odisha coast between Paradip and Visakhapatnam. Specify: (a) location coordinates, (b) target cargo, (c) hinterland connectivity needed, (d) one environmental safeguard.",
+     "a": "(a) ~19.5°N, 85.5°E (near Gopalpur/Dhamra). (b) Thermal coal for Odisha/Andhra power plants + alumina from NALCO (Angul) + steel from Kalinganagar. (c) Dedicated rail link to Howrah-Chennai mainline (via Cuttack-Bhadrak) + NH-16 upgrade to 4-lane. (d) Mangrove buffer zone of 500m + zero-discharge effluent treatment. A poor answer (e.g., \"anywhere on coast, all cargo\") reveals the student cannot integrate coastal geomorphology (sheltered bay), mineral geography (hinterland resources), transport economics (rail last-mile), and environmental regulation (CRZ norms) — the synthesis expected in CUET/board competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

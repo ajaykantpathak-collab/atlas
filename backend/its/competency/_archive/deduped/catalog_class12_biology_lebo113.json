@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 11,
+ "chapter_title": "Biodiversity and Conservation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo.113.1",
+   "title": "Levels and Global Patterns of Biodiversity",
+   "section": "Biodiversity and its Conservation",
+   "definition": "Biodiversity is expressed at three levels: genetic diversity (like more than a thousand rice varieties in India), species diversity (over 1.5 million plant and animal species described so far) and ecological diversity (from deserts to mangroves), with the Amazonian rainforest holding the greatest biodiversity on earth.",
+   "formula": "",
+   "key_idea": "For every 10 square kilometres of Amazonian forest there are probably more kinds of plants and animals than in the whole of Europe, which is why conserving forest area matters more than raw species counts.",
+   "textbook_ref": "lebo113.txt genetic-species-ecological diversity sections and Amazon estimate",
+   "question_patterns": [
+    "name the three levels of biodiversity with examples",
+    "how many species have been described and what range is estimated",
+    "why is the Amazonian rainforest considered the biodiversity champion",
+    "define genetic diversity with a crop example",
+    "what does ecological diversity cover in India",
+    "how do ecologists estimate total species numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "stack the levels",
+     "explain": "genes, species and ecosystems form the three-tier measure of biodiversity"
+    },
+    {
+     "step": 2,
+     "action": "scale the numbers",
+     "explain": "1.5 million described species sit far below ecologist estimates of the true total"
+    },
+    {
+     "step": 3,
+     "action": "close with Amazon",
+     "explain": "the Amazon rainforest is the benchmark of global species richness"
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.2",
+   "title": "Species-Area Relationship",
+   "section": "Patterns of Biodiversity",
+   "definition": "Species richness S rises with explored area A and on a log scale is a straight line, log S = log C + Z log A; the regression slope Z lies in the range 0.1 to 0.2 for ordinary regional analyses but steepens to 0.6 to 1.2 when whole continents are compared.",
+   "formula": "z_gap = steep_z_low - shallow_z_high",
+   "key_idea": "The gap between the shallow regional slopes and the steep continental slopes shows that species accumulation accelerates with scale, which is why conserving large continuous habitats matters.",
+   "textbook_ref": "lebo113.txt species-area equation and slope ranges (0.1-0.2, 0.6-1.2)",
+   "question_patterns": [
+    "write the species-area relationship in log form",
+    "what do S, A, Z and C denote in the equation",
+    "why are continental slopes steeper than regional ones",
+    "give the slope ranges reported for regional and continental analyses",
+    "how does the species-area relation guide reserve design",
+    "what happens to species count as logged area doubles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the two reported slope bands",
+     "explain": "regional slopes reach 0.2 and continental slopes start at 0.6",
+     "compute": "steep_z_low = 0.6"
+    },
+    {
+     "step": 2,
+     "action": "subtract the shallow upper bound from the steep lower bound",
+     "explain": "the gap shows how much steeper continental accumulation is",
+     "compute": "z_gap = steep_z_low - shallow_z_high"
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.3",
+   "title": "Importance and the Rivet Popper Hypothesis",
+   "section": "Importance of Species Diversity",
+   "definition": "Ecologists ask why we should save species; the rivet popper hypothesis of Paul Ehrlich compares an ecosystem to an aeroplane where popping rivets (extinctions) may seem harmless until a critical rivet fails and the plane (ecosystem function) crashes.",
+   "formula": "",
+   "key_idea": "Species diversity is insurance for ecosystem services: every lost rivet raises the chance that the next extinction is the fatal one.",
+   "textbook_ref": "lebo113.txt rivet popper hypothesis passage",
+   "question_patterns": [
+    "state the rivet popper hypothesis in Ehrlich's analogy",
+    "how does the airplane analogy support conservation",
+    "distinguish the rivet popper view from a mere species-count view",
+    "why might losing a key-stone rivet be catastrophic",
+    "link biodiversity loss to ecosystem services",
+    "what does the hypothesis imply for habitat destruction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "restate the analogy",
+     "explain": "airplane equals ecosystem, rivets equal species, popping equals extinction"
+    },
+    {
+     "step": 2,
+     "action": "identify the risk",
+     "explain": "the last rivet does the damage, so cumulative loss is nonlinear"
+    },
+    {
+     "step": 3,
+     "action": "close with services",
+     "explain": "productivity, pollination and climate buffers degrade along with the rivets"
+    }
+   ]
+  },
+  {
+   "id": "lebo.113.4",
+   "title": "In-situ and Ex-situ Conservation",
+   "section": "Conservation of Biodiversity",
+   "definition": "Conservation strategies split into in-situ protection in natural habitats (biodiversity hotspots, sacred groves, biosphere reserves, national parks and sanctuaries) and ex-situ preservation off-site (zoological parks, tissue culture and seed banks), with hotspots defined by high endemism and exceptional threat.",
+   "formula": "",
+   "key_idea": "India counts three biodiversity hotspots - the Western Ghats-Sri Lanka, Indo-Burma and the Eastern Himalaya - and sacred groves show how culture protected forests before statutes did.",
+   "textbook_ref": "lebo113.txt hotspot criteria, sacred groves and ex-situ techniques sections",
+   "question_patterns": [
+    "differentiate in-situ and ex-situ conservation with examples",
+    "what twin criteria define a biodiversity hotspot",
+    "name India's biodiversity hotspots",
+    "how do sacred groves act as informal nature reserves",
+    "why are seed banks and tissue culture called ex-situ tools",
+    "which strategy protects evolutionary processes better and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the strategies",
+     "explain": "hotspots, parks and sacred groves stay in habitat; zoos and seed banks remove it"
+    },
+    {
+     "step": 2,
+     "action": "apply hotspot logic",
+     "explain": "high endemicity plus high threat level flags a region for priority action"
+    },
+    {
+     "step": 3,
+     "action": "close with India",
+     "explain": "the three Indian hotspots concentrate national conservation funding"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo113_1",
+   "source_ref": "lebo113.txt species-area slope ranges",
+   "concept": "lebo.113.2",
+   "question_type": "compute",
+   "question_pattern": "Regional species-area analyses report slopes up to 0.2 while continental analyses begin at 0.6. Compute the gap between the steep lower bound and the shallow upper bound.",
+   "extracted_variables": {
+    "steep_z_low": 0.6,
+    "shallow_z_high": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the two bands",
+     "explain": "regional Z = 0.1 to 0.2; continental Z = 0.6 to 1.2",
+     "compute": "steep_z_low = 0.6"
+    },
+    {
+     "step": 2,
+     "action": "subtract the bounds",
+     "explain": "z gap = 0.6 - 0.2",
+     "compute": "z_gap = steep_z_low - shallow_z_high"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo113_2",
+   "source_ref": "lebo113.txt hotspot and sacred grove sections",
+   "concept": "lebo.113.4",
+   "question_type": "short_answer",
+   "question_pattern": "Sort the following into in-situ and ex-situ conservation: sacred grove, seed bank, national park, zoological park, tissue culture, biosphere reserve.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "in-situ group",
+     "explain": "sacred grove, national park and biosphere reserve protect habitats in place"
+    },
+    {
+     "step": 2,
+     "action": "ex-situ group",
+     "explain": "seed bank, tissue culture and zoological park conserve organisms off-site"
+    },
+    {
+     "step": 3,
+     "action": "contrast",
+     "explain": "in-situ keeps evolutionary processes running; ex-situ is a stopgap against total loss"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo113_3",
+   "source_ref": "lebo113.txt rivet popper passage",
+   "concept": "lebo.113.3",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the rivet popper hypothesis and one conservation decision it supports.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the analogy",
+     "explain": "extinctions are rivets popped from an aeroplane hull"
+    },
+    {
+     "step": 2,
+     "action": "state the risk",
+     "explain": "losses accumulate silently until the critical rivet fails"
+    },
+    {
+     "step": 3,
+     "action": "decision",
+     "explain": "it argues against clear-felling habitats even when each species seems dispensable"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo113_1",
+   "source_ref": "lebo113.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain genetic diversity with a cultivated crop example",
+    "compute the z gap between regional and continental species-area slopes",
+    "why do tropics hold greater biodiversity than temperate regions",
+    "differentiate a biodiversity hotspot from a national park",
+    "describe the role of sacred groves in Indian conservation"
+   ]
+  },
+  {
+   "id": "ex_lebo113_2",
+   "source_ref": "lebo113.txt exercises on patterns and conservation, reworded",
+   "questions": [
+    "interpret log S = log C + Z log A term by term",
+    "contrast the rivet popper hypothesis with a utilitarian defence of biodiversity",
+    "evaluate ex-situ techniques for crop wild relatives",
+    "estimate why Amazonia sets the global species benchmark",
+    "link the species-area relationship to deforestation losses"
+   ]
+  }
+ ]
+}

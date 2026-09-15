@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs109",
+ "concepts": [
+  {
+   "id": "kecs109.1",
+   "title": "Aggregate Built-ins: sum, min and max",
+   "questions": [
+    {
+     "q": "Using the method 'Aggregate Built-ins: sum, min and max', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of subtotal.",
+     "a": "284 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Aggregate Built-ins: sum, min and max' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of subtotal.",
+     "a": "284 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregate Built-ins: sum, min and max' refers to.",
+     "a": "Three ready-made functions read a numeric list in one call: sum() totals the elements, min() returns the smallest and max() the largest, without disturbing the list itself.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregate Built-ins: sum, min and max'.",
+     "a": "For the list [34, 12, 63, 39, 92, 44] the three calls answer 284, 12 and 92.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregate Built-ins: sum, min and max', in plain ASCII form.",
+     "a": "total = sum(list1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.2",
+   "title": "Average Marks with a Function",
+   "questions": [
+    {
+     "q": "Using the method 'Average Marks with a Function', work with: m1 = 50, m2 = 100, m3 = 10, m4 = 300, m5 = 80, students = 40. Carry the chain through step by step and give the final value of average.",
+     "a": "13.5 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Average Marks with a Function' and work with: m1 = 15, m2 = 25, m3 = 150, m4 = 80, m5 = 8, students = 300. Carry the chain through step by step and give the final value of average.",
+     "a": "0.9267 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Average Marks with a Function' refers to.",
+     "a": "The function computeAverage(list1, n) walks the collected marks, folds each into a running total, and divides by the number of students to produce the class average.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Average Marks with a Function'.",
+     "a": "The list is built with append() inside an input loop before the averaging function ever runs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Average Marks with a Function', in plain ASCII form.",
+     "a": "average = total_marks / students",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.3",
+   "title": "Append versus Extend",
+   "questions": [
+    {
+     "q": "Using the method 'Append versus Extend', work with: added_count = 100, base_len = 300. Carry the chain through step by step and give the final value of after_extend.",
+     "a": "401 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Append versus Extend' and work with: added_count = 60, base_len = 4. Carry the chain through step by step and give the final value of after_extend.",
+     "a": "65 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Append versus Extend' refers to.",
+     "a": "append() drops its whole argument in as one single new element, even when the argument is itself a list, while extend() unwraps the argument list and attaches each element separately, so the two calls grow a list by different amounts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Append versus Extend'.",
+     "a": "Appending [50, 60] adds one nested element; extending with [80, 90] adds two flat elements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Append versus Extend', in plain ASCII form.",
+     "a": "after_extend = after_append + added_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.4",
+   "title": "Negative Step Slicing of Lists",
+   "questions": [
+    {
+     "q": "Using the method 'Negative Step Slicing of Lists', work with: size = 4096, step_size = 4096. Carry the chain through step by step and give the final value of kept.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Negative Step Slicing of Lists' and work with: size = 512, step_size = 2048. Carry the chain through step by step and give the final value of kept.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Negative Step Slicing of Lists' refers to.",
+     "a": "Slicing works on lists exactly as on strings: list1[n:m] copies positions n up to m minus 1, and a negative step walks from the end backwards, so list1[::-1] hands back the whole list reversed and list1[::-2] keeps every second element from the right.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Negative Step Slicing of Lists'.",
+     "a": "A first index larger than the second yields an empty list, and a runaway second index shrinks to the list end.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Negative Step Slicing of Lists', in plain ASCII form.",
+     "a": "kept = (abs(span) + step_size - 1) // step_size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.5",
+   "title": "Linear Search Position",
+   "questions": [
+    {
+     "q": "Using the method 'Linear Search Position', work with: zero_based_index = 25. Carry the chain through step by step and give the final value of position.",
+     "a": "26 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Linear Search Position' and work with: zero_based_index = 500. Carry the chain through step by step and give the final value of position.",
+     "a": "501 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Linear Search Position' refers to.",
+     "a": "The function linearSearch(num, list1) compares the target with each element from the front; on a match it returns the zero-based index, which the caller converts to a human-friendly position by adding one, and it returns None when nothing matches.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Linear Search Position'.",
+     "a": "A target at index i costs i comparisons on elements before it, and the i plus oneth comparison finds it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Linear Search Position', in plain ASCII form.",
+     "a": "position = zero_based_index + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.6",
+   "title": "Nested List Student Record",
+   "questions": [
+    {
+     "q": "Using the method 'Nested List Student Record', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of percent.",
+     "a": "78.8 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nested List Student Record' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of percent.",
+     "a": "78.8 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nested List Student Record' refers to.",
+     "a": "A record such as ['Raman', 'A-36', [56, 98, 99, 72, 69], 78.8] nests the five subject marks inside a list, so two indices reach a single mark as stRecord[2][j], and dividing the inner total by five rebuilds the stored percentage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nested List Student Record'.",
+     "a": "The first index picks the inner list, the second picks the element inside it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nested List Student Record', in plain ASCII form.",
+     "a": "percent = (m1 + m2 + m3 + m4 + m5) / 5",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.7",
+   "title": "Alias versus Clone of a List",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Alias versus Clone of a List' refers to.",
+     "a": "Assigning list2 = list1 only binds a second name to the same list object, so changes through either name show up in both; a genuine independent copy needs slicing with [:], the list() constructor, or copy.copy().",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Alias versus Clone of a List'.",
+     "a": "After appending 10 through list1, the alias list2 also shows 10, while a clone still holds the old contents.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Alias versus Clone of a List', in plain ASCII form.",
+     "a": "clone = old_list[:] or list(old_list) or copy.copy(old_list)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs109.8",
+   "title": "Insert, Remove and Pop Shifting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Insert, Remove and Pop Shifting' refers to.",
+     "a": "Because a list is mutable and ordered, insert() pushes later elements one place right, remove() deletes only the first match of a value, and pop() extracts the element at a given index (or the last one) while shrinking the list.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Insert, Remove and Pop Shifting'.",
+     "a": "Every insertion or deletion shifts the positions of the elements after the affected index.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Insert, Remove and Pop Shifting', in plain ASCII form.",
+     "a": "new_len = old_len - 1 after one pop or remove",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

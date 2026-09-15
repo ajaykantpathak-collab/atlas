@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_003",
+   "title": "c11_ps_cbse_16_003",
+   "questions": [
+    {
+     "q": "What is the specific constitutional provision that establishes the Supreme Court's original jurisdiction in disputes between the Government of India and one or more States?",
+     "a": "Article 131 of the Constitution of India. A wrong answer (e.g., Article 32, Article 136, or Article 143) reveals confusion between the Court's original federal jurisdiction (Article 131), its writ jurisdiction (Article 32), appellate jurisdiction (Article 136), and advisory jurisdiction (Article 143). This distinction is critical because only Article 131 directly enforces the federal division of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a federal system require a written constitution rather than an unwritten one like the UK's?",
+     "a": "A written constitution provides a rigid, entrenched document that clearly delineates and limits powers of each level of government, making the division of powers justiciable. An unwritten constitution relies on parliamentary sovereignty where no court can strike down legislation for violating federal distribution. A wrong answer (e.g., \"written constitutions are more modern\" or \"unwritten constitutions are unstable\") misses the core federalism principle: constitutional supremacy over legislative supremacy, which requires a codified, rigid text as the supreme law.",
+     "self_check": true
+    },
+    {
+     "q": "A bill to shift \"public health and sanitation\" from State List to Concurrent List is introduced in Lok Sabha. It passes Lok Sabha but faces opposition in Rajya Sabha. Explain how bicameralism protects federalism in this scenario.",
+     "a": "Rajya Sabha represents states (Article 80); its members are elected by State Legislative Assemblies. Since the bill reduces state autonomy, state representatives in Rajya Sabha can block or amend it, forcing negotiation. A wrong answer (e.g., \"Rajya Sabha can only delay money bills\" or \"Lok Sabha's will prevails\") confuses Rajya Sabha's powers over ordinary bills (where it has equal power) with money bills (where it has limited role). This reveals misunderstanding of bicameralism as a federal safeguard, not just a revising chamber.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedure for federal provisions (Article 368 proviso) with ordinary constitutional amendments. What does this difference reveal about the status of federalism in India's constitutional design?",
+     "a": "Amendments affecting federal provisions (state representation, Seventh Schedule, Article 368 itself) require ratification by half the State Legislatures plus special majority in Parliament. Ordinary amendments need only Parliament's special majority. This shows federalism is a \"basic structure\" — states have a veto over changes to the federal balance. A wrong answer (e.g., \"both require same procedure\" or \"states have no role\") misses that India's Constitution makes federalism rigid, not flexible, reflecting its foundational status.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since the Union Parliament can reorganize states (Article 3) and amend the Constitution (Article 368), India's written constitution doesn't truly protect state autonomy — it's federal in form, unitary in spirit.\"",
+     "a": "The argument overlooks three safeguards: (1) Article 3 requires Presidential reference to affected State Legislature (though not binding), (2) Article 368 proviso gives states veto over federal provisions, (3) Supreme Court's basic structure doctrine (Kesavananda Bharati) prevents amendments destroying federalism. A weak critique either ignores these checks or overstates them — e.g., claiming states have \"absolute veto\" (they don't on Article 3) or that basic structure is \"unamendable\" (it's judicially enforced, not textually explicit). Good critique weighs textual rigidity against political centralization trends.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical federal country that establishes an upper house with genuine federal character (not just a revising chamber). Include: composition method, voting procedure, and one exclusive power protecting state interests.",
+     "a": "**Expected elements:** (1) Members elected by State Legislatures (not nominated), (2) Equal representation per state (or weighted by population with floor), (3) Voting by state delegation (not individual), (4) Exclusive power: veto over bills altering state boundaries, Lists, or revenue sharing. **Poor answer** copies Rajya Sabha exactly without adaptation, or creates a weak chamber (e.g., nominated members, no exclusive powers). This reveals whether student understands bicameralism as *institutionalized state representation* with *teeth*, not just a second chamber.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

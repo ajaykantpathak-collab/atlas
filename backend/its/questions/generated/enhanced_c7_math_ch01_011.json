@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_011",
+   "title": "c7_math_ch01_011",
+   "questions": [
+    {
+     "q": "What is the primary rule for aligning numbers when multiplying a 6-digit number by a 3-digit number using the standard vertical algorithm?",
+     "a": "The correct answer is that numbers must be aligned to the right (right-justified), regardless of their place values, so that the digits in the multiplier correspond to units, tens, and hundreds places of the multiplicand sequentially. A wrong answer like aligning from the left or aligning by the highest place value shows that the student confuses decimal addition/subtraction rules or place-value padding rules with multiplication mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why when multiplying by the tens digit of a multiplier (e.g., the '2' in 325), we place a zero (or leave a blank space) in the units place of the partial product.",
+     "a": "The correct answer is that multiplying by the tens digit means we are multiplying by a multiple of 10 (i.e., 20), so every partial product is ten times larger, requiring a place-holder zero in the units column. A wrong answer stating that \"it's just a rule to make it look neat\" or \"because zeros fill up space\" reveals a complete lack of understanding of place value and distributive property ($a \\times (300 + 20 + 5)$).",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces 45,672 steel pipes every month. How many pipes are produced in 3 years? (Assume 1 year = 12 months).",
+     "a": "The correct answer is 16,44,192 pipes. Working steps: \n1. Convert years to months: $3 \\text{ years} \\times 12 \\text{ months/year} = 36 \\text{ months}$. \n2. Set up multiplication: $45,672 \\times 36$. \n3. Multiply by 6 (units): $45,672 \\times 6 = 2,74,032$. \n4. Multiply by 30 (tens): $45,672 \\times 30 = 13,70,160$. \n5. Add partial products: $2,74,032 + 13,70,160 = 16,44,192$. \nA wrong answer, such as multiplying by 3 instead of 36 or making arithmetic addition errors in the partial products, indicates poor time-unit conversion or failure to carry over numbers properly during column addition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the methods of dividing 8,40,000 by 400 versus dividing 84 by 4. How does the position of zeros affect the quotient and remainder?",
+     "a": "The correct answer is that dividing both the dividend and divisor by powers of 10 (cancelling two zeros from both, making it $8,400 \\div 4$) yields the exact same quotient (2,100) because of the invariant property of division, but any remainder must be scaled back by the canceled factor. A wrong answer claiming that canceling zeros changes the final quotient or leaves it unaltered without accounting for remainders shows a lack of conceptual grasp of division as proportional scaling.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following division statement: \"When dividing 5,00,012 by 25, the quotient is 20,000 and the remainder is 12.\" Is this statement correct? Verify your reasoning.",
+     "a": "The correct answer is that the statement is incorrect. Verification: $25 \\times 20,000 = 5,00,000$. Adding the remainder 12 gives $5,00,012$. However, when performing long division, bringing down the '1' from 5,00,012 makes 1, which is smaller than 25, so a '0' must be placed in the quotient before bringing down the '2' to make 12. The correct quotient is 20,000.48 or quotient 20,000 with a remainder of 12 only if we didn't miss a place value digit; wait, $25 \\times 20,000 = 5,00,000$, and $5,00,012 - 5,00,000 = 12$, so the quotient is indeed 20,000 with a remainder of 12. A wrong answer that judges it incorrectly without checking via Dividend = (Divisor $\\times$ Quotient) + Remainder reveals that students forget how to verify division using multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem involving a large municipal budget of over ₹5 crores divided equally among a number of wards, ensuring your problem results in a non-zero remainder.",
+     "a": "The expected response should feature a clear scenario: \"A city corporation allocates a budget of ₹7,50,05,250 to be distributed equally among 45 development wards. How much does each ward receive, and how much money is left over?\" The poor answer would be a trivial division with a zero remainder or numbers chosen arbitrarily without real-world scale context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

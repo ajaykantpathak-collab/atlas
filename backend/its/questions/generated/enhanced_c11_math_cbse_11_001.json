@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_001",
+   "title": "c11_math_cbse_11_001",
+   "questions": [
+    {
+     "q": "What is the geometric definition of a conic section?",
+     "a": "A conic section is the curve formed by the intersection of a plane with a double-napped right circular cone. A wrong answer (e.g., \"a conic is a quadratic equation\" or \"a conic is a parabola\") reveals that the student is confusing the algebraic representation with the geometric definition or knows only one type of conic.",
+     "self_check": true
+    },
+    {
+     "q": "If a plane cuts a double-napped cone parallel to its axis, which conic section is formed, and why does this cut produce two separate curves?",
+     "a": "A hyperbola is formed; the plane intersects both nappes of the cone, creating two disjoint branches. A wrong answer (e.g., \"parabola\" or \"ellipse\") shows the student does not understand that the plane's angle relative to the axis determines whether one or both nappes are cut.",
+     "self_check": true
+    },
+    {
+     "q": "A plane intersects a double-napped cone at an angle of 30° to the axis of the cone. The generator of the cone makes an angle of 45° with the axis. Identify the conic section produced.",
+     "a": "Since the plane's angle (30°) is less than the generator's angle (45°), the plane cuts both nappes, producing a hyperbola. A wrong answer (e.g., \"ellipse\") indicates the student incorrectly compares the angles or thinks any tilt less than 90° gives an ellipse.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the conditions for obtaining a circle and an ellipse from a double-napped cone.",
+     "a": "A circle is obtained when the cutting plane is perpendicular to the axis of the cone; an ellipse is obtained when the plane is tilted such that it cuts one nappe completely but is not parallel to a generator. Both curves are closed and bounded, but the circle is a special case of an ellipse where the plane is exactly perpendicular. A wrong answer that says \"both are obtained by tilting the plane\" misses the precise perpendicular condition for a circle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a parabola is formed when the cutting plane is parallel to the base of the cone. Evaluate this claim and correct it if necessary.",
+     "a": "The claim is false. A plane parallel to the base (i.e., perpendicular to the axis) produces a circle. A parabola is formed when the plane is parallel to a generator (a slant line) of the cone. The student's error shows confusion between the base and a generator of the cone.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (from sports, architecture, or nature) that involves each of the four non-degenerate conic sections, and explain why that conic appears in that scenario.",
+     "a": "Example: (1) Circle – a circular running track; (2) Ellipse – planetary orbit (Kepler's first law); (3) Parabola – trajectory of a cricket ball thrown in a vacuum (neglecting air resistance); (4) Hyperbola – the shape of a cooling tower of a power plant. A poor answer that only lists shapes without linking the geometric property (e.g., focus-directrix, reflection property) to the scenario shows lack of deeper understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

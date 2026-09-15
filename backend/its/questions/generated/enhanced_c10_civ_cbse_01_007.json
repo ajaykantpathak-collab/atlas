@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_007",
+   "title": "c10_civ_cbse_01_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between Belgium's and Sri Lanka's approach to power sharing in one sentence?",
+     "a": "Belgium adopted a consociational accommodation model sharing power among linguistic communities, while Sri Lanka followed a majoritarian model where the Sinhalese majority dominated minorities. A wrong answer (e.g., \"both shared power equally\") reveals the student cannot distinguish between power-sharing and power-concentrating systems.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Belgium create community governments while Sri Lanka did not?",
+     "a": "Belgium's constitution recognizes distinct linguistic communities (Dutch, French, German) and grants them autonomous community governments for cultural/educational affairs to prevent domination. Sri Lanka's 1956 Official Language Act and 1972 Constitution centralized power in the Sinhalese majority, denying Tamil autonomy. A wrong answer (e.g., \"Sri Lanka had no minorities\") shows ignorance of Sri Lanka's Tamil minority and the deliberate majoritarian design.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'mutual veto' to explain how a Belgian-style arrangement would have changed the 1956 Sinhala Only Act in Sri Lanka.",
+     "a": "In Belgium, mutual veto allows any linguistic community to block legislation threatening its vital interests. If Sri Lanka had this, Tamil representatives could have vetoed the 1956 Act making Sinhala the sole official language, forcing negotiation. A wrong answer (e.g., \"the Act would still pass\") misses that mutual veto is a structural safeguard absent in majoritarian systems.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the vertical division of power (federal/unitary) interacted with horizontal power sharing in both countries to produce different outcomes.",
+     "a": "Belgium combined vertical federalism (regions/communities) with horizontal consociationalism (grand coalition, proportionality), giving minorities self-rule and shared-rule. Sri Lanka remained unitary with centralized majoritarianism, denying Tamils both regional autonomy and central power-sharing. A wrong answer (e.g., \"both were federal\") confuses Belgium's federal evolution with Sri Lanka's unitary structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Belgium's success proves power sharing always prevents conflict; Sri Lanka's failure proves majoritarianism always causes civil war.\"",
+     "a": "The claim overgeneralizes. Belgium's success depended on specific conditions: balanced demographics, history of compromise, and institutional design (mutual veto, proportionality). Sri Lanka's conflict had additional causes: economic disparities, external intervention, and failed peace talks. Power sharing reduces conflict risk but is not a guarantee; majoritarianism increases risk but does not inevitably cause war. A wrong answer (e.g., \"yes, it's always true\") shows lack of nuanced causal reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical constitutional provision for a fictional diverse country that blends one Belgian mechanism and one Sri Lankan lesson (what to avoid).",
+     "a": "A good answer: \"Article X: All communities shall have proportional representation in cabinet (Belgian proportionality). Article Y: No law altering language, religion, or education status shall pass without two-thirds majority of each community's representatives (lesson from Sri Lanka: avoid simple majority imposition).\" A poor answer copies Belgium exactly or ignores the Sri Lankan lesson, showing inability to synthesize comparative insights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

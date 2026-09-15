@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_002",
+   "title": "c11_eco_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define \"worker\" as per the NCERT Class 11 definition. Give two examples of persons who are engaged in work but are NOT considered workers in the official statistics, explaining why.",
+     "a": "A worker is anyone engaged in an economic activity that contributes to Gross National Product, including self-employed, regular salaried, and casual wage labourers, even if temporarily absent due to illness/festivals. Examples of non-workers: (1) A housewife doing unpaid cooking, cleaning, childcare — excluded because it is non-marketed, unpaid household work not counted in GNP. (2) A volunteer at an NGO receiving no remuneration — excluded because no factor payment (wage/profit) is generated. *Wrong answer reveals*: student conflates \"work\" in everyday sense with \"economic activity\"; misses the GNP-contribution criterion.",
+     "self_check": true
+    },
+    {
+     "q": "In 2023–24, India’s rural male WPR = 56.3 and urban female WPR = 20.7 (per Table 6.1). Explain *two* structural reasons why urban female participation is drastically lower than rural male participation, using concepts of opportunity cost and social norms.",
+     "a": "Reason 1: **Higher opportunity cost of time** for urban women — urban households often have higher male incomes, raising the reservation wage; women’s time is allocated to household production (childcare, elderly care) because market wages for available jobs (often low-skill service) may not exceed the value of home production. Reason 2: **Social norms and safety constraints** — urban nuclear families lack extended-family support; cultural expectations restrict women’s mobility for work, especially in informal sector jobs with irregular hours/unsafe transport. *Wrong answer reveals*: student cites only \"lack of jobs\" or \"education\" without linking to economic decision-making (opportunity cost) or institutional factors (norms).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Worker-Population Ratio for a hypothetical region with: Total Population = 2.5 crore, Workforce = 95 lakh. If the female WPR is 28% and male WPR is 52%, and the sex ratio is 950 females per 1000 males, estimate the number of female workers. Show all steps.",
+     "a": "Step 1: WPR = (Workforce ÷ Population) × 100 = (95 lakh ÷ 250 lakh) × 100 = **38%**.  \nStep 2: Let male population = M, female population = F. Given F/M = 950/1000 = 0.95 and M + F = 250 lakh → M + 0.95M = 250 → M = 128.2 lakh, F = 121.8 lakh.  \nStep 3: Female workers = Female WPR × Female Population ÷ 100 = 28% × 121.8 lakh = **34.1 lakh**.  \nStep 4: Cross-check: Male workers = 52% × 128.2 lakh = 66.7 lakh; Total workers = 66.7 + 34.1 = 100.8 lakh ≈ 95 lakh (small rounding difference).  \n*Wrong answer reveals*: student forgets to use sex ratio to split population, or applies WPR directly to total population ignoring gender composition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the trend in Table 6.3: Share of casual wage labourers rose from 23.2% (1972–73) to 31.8% (1993–94) then fell to 19.9% (2023–24), while regular salaried rose from 15.4% to 21.7%. Identify the *two* distinct phases and the economic forces driving each, referencing liberalisation and MGNREGA.",
+     "a": "Phase 1 (1972–1994): **Casualisation** — share of casual labour rose sharply. Forces: agrarian distress pushed farmers into casual wage work; urban informal sector expanded without formal job creation; labour laws incentivised contract hiring.  \nPhase 2 (1994–2024): **De-casualisation / Regularisation** — casual share fell, regular salaried rose. Forces: post-1991 liberalisation boosted formal services (IT, finance, telecom) creating regular jobs; MGNREGA (2005) provided guaranteed rural wage employment, reducing distress-driven casual work; construction boom absorbed casual labour into longer-duration projects.  \n*Wrong answer reveals*: student treats the whole period as monotonic, or attributes changes only to \"growth\" without policy/institutional drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Informalisation of the workforce is inevitable during early stages of economic development and should not be a policy concern.\" Use Indian evidence on social security coverage, wage differentials, and the Ahmedabad textile mill case (Box 6.2).",
+     "a": "The statement is **flawed**. Evidence: (1) **Social security**: Only ~11% of workers (formal sector) access PF, gratuity, maternity benefits; 89% in informal sector lack any protection — this is not \"inevitable\" but a policy choice (labour law thresholds at 10 workers exclude most enterprises). (2) **Wage gap**: Formal sector wages are significantly higher for comparable work; informal workers face piece-rate exploitation. (3) **Ahmedabad case**: Mill closure threw 1.3 lakh *permanent* workers into informal poverty — de-industrialisation without transition support caused suicides, child labour, alcoholism. Policy *must* address informalisation via universal social security (e.g., Code on Social Security 2020) and formal job creation.  \n*Wrong answer reveals*: student treats informalisation as purely structural/technological, ignoring institutional thresholds and state capacity to regulate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question survey to distinguish between *open unemployment*, *disguised unemployment*, and *seasonal unemployment* among rural households in your district. For each question, state which type it identifies and the expected response pattern.",
+     "a": "1. \"Did you work at least 1 hour for pay/profit/family gain in the last 7 days?\" → **Open unemployment**: \"No\" + actively seeking work.  \n2. \"If more family members work on your farm, does total output increase?\" → **Disguised unemployment**: \"No\" (marginal product ≈ zero).  \n3. \"In which months did you have no farm work and migrate to town?\" → **Seasonal unemployment**: Names lean months (e.g., May–June).  \n4. \"Are you registered at an employment exchange or applied for jobs recently?\" → **Open unemployment**: \"Yes\" confirms active search.  \n5. \"Would you accept a regular job at the prevailing wage if available in your village?\" → **All types**: \"Yes\" reveals willingness; distinguishes voluntary non-participation.  \n*Poor answer*: questions are vague (\"Are you jobless?\"), don’t separate the three types, or ignore the \"seeking work\" criterion for open unemployment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

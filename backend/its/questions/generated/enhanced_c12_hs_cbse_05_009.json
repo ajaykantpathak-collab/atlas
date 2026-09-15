@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_009",
+   "title": "c12_hs_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define 'zoning' in the context of space planning for a home. Give one example of a public zone and one private zone.",
+     "a": "Zoning is the division of a home into functional areas based on the type and privacy level of activities. Example: Living room is a public zone; bedroom is a private zone. A wrong answer (e.g., \"zoning means painting walls different colors\") reveals confusion with decoration rather than functional planning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 'work triangle' principle is important in kitchen planning. How does it relate to energy management?",
+     "a": "The work triangle connects the three main work centers (sink, stove, refrigerator) to minimize steps and fatigue during meal preparation. It relates to energy management by reducing unnecessary movement, thus conserving human energy. A wrong answer that only describes the triangle without linking to energy conservation shows lack of integration with prior concepts.",
+     "self_check": true
+    },
+    {
+     "q": "A family of four has a 10 m² bedroom. They want to place a double bed (2 m × 1.8 m), a wardrobe (1.5 m × 0.6 m), and a study table (1.2 m × 0.6 m). Using ergonomic clearances (minimum 60 cm around bed for making, 90 cm clearance in front of wardrobe, 75 cm behind chair), determine if this arrangement is feasible. Show your reasoning.",
+     "a": "Calculate total area required with clearances. Bed with 60 cm on three sides: (2+1.2) × (1.8+0.6) = 3.2 × 2.4 = 7.68 m². Wardrobe needs 90 cm in front: 1.5 × (0.6+0.9) = 1.5 × 1.5 = 2.25 m². Study table needs 75 cm behind chair: (1.2+0.75) × 0.6 = 1.95 × 0.6 = 1.17 m². Sum = 11.1 m² > 10 m², so not feasible. A wrong answer that ignores clearances reveals misunderstanding of ergonomic space requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'circulation space' and 'storage space' in terms of their impact on the functionality of a home. Which is more critical in a small apartment and why?",
+     "a": "Circulation space refers to pathways for movement (minimum 90 cm wide); storage space is for storing items. Both are essential, but in a small apartment, circulation is more critical because inadequate pathways make the home feel cramped and hinder all activities, whereas storage can be optimized with built-ins. A wrong answer that prioritizes storage without considering flow shows poor understanding of spatial hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Open-plan layouts are always better for small homes because they make spaces look larger.\" Provide two arguments for and two against, considering zoning and privacy.",
+     "a": "For: Open plans improve visual spaciousness and allow flexible use; they enhance natural light penetration. Against: They reduce acoustic privacy (e.g., kitchen noise in living area), make zoning difficult, and can spread cooking odors. A balanced evaluation is needed. A wrong answer that only lists pros shows inability to critically evaluate design trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a storage plan for a 3 m × 3 m children's bedroom shared by two siblings (ages 7 and 10). Include at least three types of storage (e.g., under-bed, wall-mounted, modular) and justify each using the principle 'store at point of use'.",
+     "a": "Example: 1) Under-bed drawers for seasonal clothing (point of use: bedroom). 2) Wall-mounted shelves above study desk for books/stationery (point of use: study area). 3) Modular cubbies near entrance for school bags/shoes (point of use: entry). A poor answer lists storage without linking to specific activities or the principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

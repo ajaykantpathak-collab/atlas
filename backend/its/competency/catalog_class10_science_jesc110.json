@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "The Human Eye and the Colourful World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.110.10.1",
+   "title": "The Human Eye - Structure and Working",
+   "section": "10",
+   "definition": "The human eye works like a camera: the cornea and crystalline lens focus light, the iris controls the pupil's size, the retina catches the image on light-sensitive cells, and the ciliary muscles change the lens thickness so the eye can focus near and far - its power of accommodation.",
+   "formula": "-",
+   "key_idea": "Lens adjusts, retina records: accommodation keeps every distance in focus.",
+   "textbook_ref": "jesc110.txt section on the human eye structure and working",
+   "question_patterns": [
+    "describe the structure and working of the human eye with a diagram",
+    "what is the power of accommodation of the eye - explain",
+    "what is the role of the iris and pupil in the eye",
+    "which cells of the retina respond to light intensity and colour",
+    "what is the least distance of distinct vision for a normal eye",
+    "why can we not see clearly immediately after coming out of bright light"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the light path",
+     "explain": "Cornea, lens focus light through the pupil onto the retina."},
+    {"step": 2, "action": "note the adjustment",
+     "explain": "Ciliary muscles change lens thickness for near and far objects."},
+    {"step": 3, "action": "read the image",
+     "explain": "Retinal cells convert the image to signals for the brain."}
+   ]
+  },
+  {
+   "id": "jesc.110.10.2",
+   "title": "Defects of Vision and Their Correction",
+   "section": "10",
+   "definition": "Common vision defects are corrected with lenses: myopia, where distant objects blur because the image falls before the retina, needs a concave lens; hypermetropia, where near objects blur, needs a convex lens; and presbyopia in old age combines both, needing bifocals.",
+   "formula": "-",
+   "key_idea": "Move the image back onto the retina: concave for myopia, convex for hypermetropia.",
+   "textbook_ref": "jesc110.txt sections on defects of vision and correction",
+   "question_patterns": [
+    "what is myopia - how is it corrected with a ray diagram",
+    "a person cannot see nearby objects clearly - name the defect and its remedy",
+    "what is presbyopia - why does it need bifocal lenses",
+    "find the nature and power of the lens to correct the given defect",
+    "why does the image form in front of the retina in myopia - explain",
+    "distinguish myopia and hypermetropia in a table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the defect",
+     "explain": "Check whether far objects or near objects blur."},
+    {"step": 2, "action": "select the correcting lens",
+     "explain": "Concave lens pulls a myopic image back; convex lens pushes a hypermetropic image forward."},
+    {"step": 3, "action": "state the power",
+     "explain": "The lens power in dioptres matches the defect's degree."}
+   ]
+  },
+  {
+   "id": "jesc.110.10.3",
+   "title": "Dispersion, Scattering and the Colourful Sky",
+   "section": "10",
+   "definition": "White light splits into seven colours when it passes through a prism because each colour bends differently - dispersion; the same differential scattering makes the sky blue, sunsets red, and raindrops act as tiny prisms forming the rainbow, while near the horizon stars twinkle and planets do not.",
+   "formula": "-",
+   "key_idea": "One white light, seven colours: dispersion and scattering paint the sky.",
+   "textbook_ref": "jesc110.txt sections on dispersion, scattering of light and atmospheric refraction",
+   "question_patterns": [
+    "what is dispersion of light - explain with the prism experiment",
+    "why does the sky appear blue - explain scattering",
+    "why are sunsets red - give the reason",
+    "how is a rainbow formed - explain the roles of raindrops",
+    "why do stars twinkle but planets do not - explain atmospheric refraction",
+    "why does the sun appear flattened at sunrise and sunset"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "split the light",
+     "explain": "Prism separates white light into its seven colours."},
+    {"step": 2, "action": "explain the sky colours",
+     "explain": "Short blue wavelengths scatter most; long red wavelengths travel farthest."},
+    {"step": 3, "action": "add atmospheric refraction",
+     "explain": "Bending air layers twinkle stars and shift the sun's image."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "jesc110.txt exercises",
+   "questions": [
+     "Explain the defects of vision with their corrections.",
+     "Why does the sky appear blue during the day?",
+     "Draw the labelled structure of the human eye."
+   ]
+  }
+ ]
+}

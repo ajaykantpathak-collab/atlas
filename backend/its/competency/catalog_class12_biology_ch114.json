@@ -1,0 +1,587 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 16,
+ "chapter_title": "Environmental Issues",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees201.txt",
+ "concepts": [
+  {
+   "id": "jebh.16.1",
+   "title": "Air Pollution and Its Causes",
+   "section": "Air Pollution",
+   "definition": "Air pollution is the undesirable change in the physical, chemical, or biological characteristics of air that adversely affects living organisms and the environment, caused by the introduction of particulate matter, toxic gases, and other harmful substances into the atmosphere.",
+   "formula": "",
+   "key_idea": "Major air pollutants include particulate matter (PM), carbon monoxide (CO), nitrogen oxides (NOx), sulphur dioxide (SO2), hydrocarbons, and lead, which originate from combustion of fossil fuels, industrial processes, and vehicular emissions. These pollutants cause respiratory disorders, reduce visibility, and contribute to acid rain.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the major air pollutants and their sources.",
+    "How does carbon monoxide act as a pollutant? Explain its harmful effects.",
+    "What are the effects of particulate matter on human health?",
+    "Explain how vehicular exhaust contributes to air pollution.",
+    "Describe the role of SO2 and NOx in causing acid rain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pollutant and its source",
+     "explain": "Determine whether the pollutant arises from combustion (fossil fuels), industrial emissions, or natural sources, and note its chemical identity."
+    },
+    {
+     "step": 2,
+     "action": "Trace the mechanism of harm",
+     "explain": "Explain how the pollutant interacts with biological systems or the environment, such as CO binding to haemoglobin or SO2 forming sulphuric acid in rain."
+    },
+    {
+     "step": 3,
+     "action": "State the consequences and control measures",
+     "explain": "Summarise the health or environmental impact and mention control methods like catalytic converters, scrubbers, or switching to cleaner fuels."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is carbon monoxide considered a lethal pollutant even though it is colourless and odourless?",
+     "solution": "Carbon monoxide binds to haemoglobin with an affinity about 250 times greater than oxygen, forming carboxyhaemoglobin. This reduces the oxygen-carrying capacity of blood, leading to oxygen starvation of tissues, headaches, and in severe cases death.",
+     "answer": "CO binds to haemoglobin and blocks oxygen transport, causing tissue hypoxia and potentially death."
+    },
+    {
+     "question": "How do catalytic converters help reduce vehicular air pollution?",
+     "solution": "Catalytic converters contain platinum-palladium-rhodium catalysts that convert unburnt hydrocarbons and CO into CO2 and water, and reduce nitrogen oxides to nitrogen gas, thereby lowering the emission of harmful pollutants.",
+     "answer": "Catalytic converters convert CO and NOx into less harmful CO2, water, and N2."
+    },
+    {
+     "question": "What is the significance of PM2.5 as an air pollutant?",
+     "solution": "PM2.5 refers to particulate matter less than 2.5 micrometres in diameter. Its small size allows it to penetrate deep into the lungs and even enter the bloodstream, causing respiratory and cardiovascular diseases.",
+     "answer": "PM2.5 penetrates deep into lungs and bloodstream, causing severe respiratory and cardiovascular problems."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the major sources of air pollution in urban areas.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the harmful effects of sulphur dioxide on living organisms.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the role of electrostatic precipitators in controlling particulate emissions.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.2",
+   "title": "Water Pollution and Its Causes",
+   "section": "Water Pollution",
+   "definition": "Water pollution is the contamination of water bodies such as rivers, lakes, groundwater, and oceans by harmful substances including domestic sewage, industrial effluents, agricultural runoff, and heavy metals, which degrade water quality and harm aquatic life.",
+   "formula": "",
+   "key_idea": "Key water pollutants include pathogens, organic matter (measured as BOD), plant nutrients (nitrogen and phosphorus), toxic heavy metals (mercury, cadmium, lead), and pesticides. Biological Oxygen Demand (BOD) is a measure of organic pollution; higher BOD indicates greater pollution. Mercury poisoning causes Minamata disease.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Biological Oxygen Demand (BOD) and how is it related to water pollution?",
+    "Explain the phenomenon of biomagnification with reference to DDT.",
+    "Describe the effects of domestic sewage on water bodies.",
+    "How do heavy metals like mercury pollute water and what disease does it cause?",
+    "What are the major sources of water pollution in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pollutant and its source",
+     "explain": "Classify the pollutant as domestic sewage, industrial effluent, agricultural runoff, or heavy metal and identify its origin."
+    },
+    {
+     "step": 2,
+     "action": "Determine the effect on water quality and aquatic life",
+     "explain": "Assess impact using indicators like BOD, dissolved oxygen levels, toxicity, or biomagnification through the food chain."
+    },
+    {
+     "step": 3,
+     "action": "Suggest remediation methods",
+     "explain": "Recommend treatment methods such as primary and secondary sewage treatment, use of biofilters, or prevention of effluent discharge."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A water sample has a BOD of 20 mg/L. What does this indicate about the water quality?",
+     "solution": "Biological Oxygen Demand measures the amount of dissolved oxygen required by aerobic bacteria to decompose organic matter in water. A BOD of 20 mg/L is significantly higher than clean water (typically < 5 mg/L), indicating substantial organic pollution and poor water quality.",
+     "answer": "BOD of 20 mg/L indicates high organic pollution and poor water quality."
+    },
+    {
+     "question": "Explain biomagnification of DDT in an aquatic food chain.",
+     "solution": "DDT is a persistent, non-biodegradable pesticide that accumulates in the fatty tissues of organisms. As it moves up the food chain from plankton to small fish to larger fish to birds, its concentration increases at each trophic level. Top predators like fish-eating birds can have DDT concentrations millions of times higher than the water, causing eggshell thinning and reproductive failure.",
+     "answer": "DDT concentration increases at each trophic level, reaching dangerous levels in top predators."
+    },
+    {
+     "question": "What is Minamata disease and what causes it?",
+     "solution": "Minamata disease is a neurological syndrome caused by severe mercury poisoning. It was first identified in Minamata, Japan, where industrial wastewater containing methylmercury was discharged into a bay. The mercury accumulated in fish and shellfish, and people who consumed them suffered from muscle weakness, numbness, and in severe cases, paralysis and death.",
+     "answer": "Minamata disease is caused by methylmercury poisoning through contaminated seafood."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define BOD and explain its significance in assessing water pollution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the process of biomagnification with a suitable example.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the effects of agricultural runoff on water bodies.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.3",
+   "title": "Soil Pollution",
+   "section": "Soil Pollution",
+   "definition": "Soil pollution is the contamination of soil with harmful chemicals, heavy metals, pesticides, and solid waste that reduce soil fertility, alter its physical and chemical properties, and pose risks to human health and ecosystems.",
+   "formula": "",
+   "key_idea": "Soil pollutants include pesticides (insecticides, herbicides, fungicides), heavy metals (lead, mercury, arsenic), industrial wastes, and municipal solid waste. Pesticides like DDT persist in soil and enter food chains. Polyblend, a recycled plastic-based material, is used to improve soil durability. Bioremediation uses microorganisms to degrade pollutants.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major causes of soil pollution?",
+    "How do pesticides affect soil fertility and food chains?",
+    "Explain the process of bioremediation of polluted soil.",
+    "What are the harmful effects of heavy metals on soil?",
+    "How does solid waste disposal contribute to soil pollution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the soil pollutant and its source",
+     "explain": "Classify the pollutant as pesticide, heavy metal, industrial waste, or solid waste and determine how it enters the soil."
+    },
+    {
+     "step": 2,
+     "action": "Analyse the impact on soil and ecosystem",
+     "explain": "Assess how the pollutant affects soil microorganisms, fertility, plant growth, and whether it bioaccumulates in food chains."
+    },
+    {
+     "step": 3,
+     "action": "Propose remediation strategies",
+     "explain": "Suggest methods such as bioremediation, phytoremediation, proper waste disposal, or reduced pesticide use to restore soil health."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the excessive use of chemical pesticides lead to soil degradation?",
+     "solution": "Chemical pesticides like DDT are persistent and non-biodegradable. They accumulate in soil, kill beneficial soil microorganisms, reduce natural soil fertility, and enter food chains through crops, leading to biomagnification. Over time, pests also develop resistance, requiring even higher doses.",
+     "answer": "Excessive pesticides accumulate in soil, kill beneficial microbes, reduce fertility, and enter food chains."
+    },
+    {
+     "question": "What is bioremediation and how does it help in treating polluted soil?",
+     "solution": "Bioremediation is the use of microorganisms (bacteria and fungi) or plants to degrade or detoxify pollutants in contaminated soil. For example, certain bacteria can break down oil spills, and some plants (hyperaccumulators) can absorb heavy metals from soil, thereby cleaning the contaminated site in an eco-friendly manner.",
+     "answer": "Bioremediation uses microbes or plants to degrade or remove pollutants from soil."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the major sources of soil pollution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how heavy metals contaminate soil and affect human health.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the role of microorganisms in bioremediation of polluted soil.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.4",
+   "title": "Noise Pollution",
+   "section": "Noise Pollution",
+   "definition": "Noise pollution is the unwanted, disturbing, or harmful sound in the environment that originates from human activities such as transportation, industrial operations, and construction, and which can cause hearing damage, psychological stress, and other health problems in humans and animals.",
+   "formula": "",
+   "key_idea": "Noise is measured in decibels (dB). Sounds above 80 dB are considered harmful. Major sources include vehicles, aircraft, industrial machinery, loudspeakers, and construction equipment. Effects include hearing loss, sleep disturbance, increased heart rate, hypertension, and reduced work efficiency. Control measures include sound-absorbing materials, planting trees, and restricting noise levels.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the permissible noise level in residential and industrial areas?",
+    "How does noise pollution affect human health?",
+    "What are the major sources of noise pollution in cities?",
+    "Suggest measures to control noise pollution.",
+    "How do plants help in reducing noise pollution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the noise source and its intensity",
+     "explain": "Determine the source (traffic, industry, construction, etc.) and estimate the noise level in decibels."
+    },
+    {
+     "step": 2,
+     "action": "Assess the impact on health and environment",
+     "explain": "Evaluate effects such as hearing damage, sleep disturbance, stress, hypertension, or disruption of animal communication."
+    },
+    {
+     "step": 3,
+     "action": "Recommend control measures",
+     "explain": "Suggest solutions like sound barriers, vegetation belts, mufflers, zoning regulations, or personal protective equipment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A factory operates at a noise level of 95 dB. Is this harmful and why?",
+     "solution": "Noise levels above 80 dB are considered harmful. At 95 dB, prolonged exposure can cause noise-induced hearing loss, tinnitus, increased blood pressure, and psychological stress. Workers in such environments should use ear protection, and the factory should implement sound-dampening measures.",
+     "answer": "95 dB is harmful; prolonged exposure causes hearing loss and other health problems."
+    },
+    {
+     "question": "How do green belts around industrial areas help control noise pollution?",
+     "solution": "Trees and shrubs act as natural sound absorbers. Their leaves, branches, and trunks absorb, deflect, and scatter sound waves, reducing noise levels by several decibels. Green belts also improve air quality and enhance aesthetics, making them an effective and eco-friendly noise control measure.",
+     "answer": "Green belts absorb and scatter sound waves, reducing noise levels around industrial areas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define noise pollution and state its major sources.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the physiological and psychological effects of noise pollution on humans.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Suggest various measures to control noise pollution in urban areas.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.5",
+   "title": "Deforestation and Its Consequences",
+   "section": "Deforestation",
+   "definition": "Deforestation is the large-scale removal of forest cover, either by human activities such as logging, agriculture, and urbanisation, or by natural events, leading to loss of biodiversity, soil erosion, disruption of water cycles, and contribution to climate change.",
+   "formula": "",
+   "key_idea": "Deforestation leads to loss of biodiversity, habitat destruction, soil erosion, increased CO2 in the atmosphere (contributing to global warming), disruption of the water cycle causing floods and droughts, and desertification. Reforestation and afforestation are key conservation strategies. The Forest Conservation Act (1980) and social forestry programmes aim to protect forest cover in India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major causes of deforestation?",
+    "Explain the consequences of deforestation on biodiversity.",
+    "How does deforestation contribute to global warming?",
+    "What is the difference between afforestation and reforestation?",
+    "Discuss the role of the Forest Conservation Act in protecting forests."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cause of deforestation",
+     "explain": "Determine whether the cause is logging, agricultural expansion, urbanisation, mining, or natural events like fires."
+    },
+    {
+     "step": 2,
+     "action": "Analyse the ecological consequences",
+     "explain": "Assess impacts such as biodiversity loss, soil erosion, disrupted water cycle, increased CO2, or desertification."
+    },
+    {
+     "step": 3,
+     "action": "Propose conservation and restoration measures",
+     "explain": "Recommend afforestation, reforestation, social forestry, legal protection, or sustainable logging practices."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does deforestation lead to soil erosion and flooding?",
+     "solution": "Tree roots bind soil particles and the canopy reduces the impact of rainfall. When trees are removed, soil becomes loose and is easily washed away by rain. Without the water-holding capacity of forests, rainwater runs off rapidly, causing flash floods and reducing groundwater recharge.",
+     "answer": "Deforestation removes root binding and canopy cover, leading to soil erosion and flash floods."
+    },
+    {
+     "question": "Explain how deforestation contributes to global warming.",
+     "solution": "Forests act as carbon sinks, absorbing CO2 through photosynthesis. Deforestation releases stored carbon as CO2 when trees are burned or decompose, and reduces the capacity to absorb future CO2. This increases atmospheric CO2 concentration, enhancing the greenhouse effect and contributing to global warming.",
+     "answer": "Deforestation releases stored CO2 and reduces carbon absorption, increasing the greenhouse effect."
+    },
+    {
+     "question": "What is the significance of joint forest management (JFM) programmes?",
+     "solution": "Joint Forest Management involves local communities and the government working together to protect and regenerate degraded forests. Communities get access to forest produce in return for protecting forests. This approach ensures sustainable use, reduces encroachment, and improves forest cover while supporting local livelihoods.",
+     "answer": "JFM involves local communities in forest protection, ensuring sustainable management and improved forest cover."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the major causes and consequences of deforestation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the role of afforestation in environmental conservation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the impact of deforestation on the water cycle.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.6",
+   "title": "Global Warming and Greenhouse Effect",
+   "section": "Global Warming",
+   "definition": "Global warming is the gradual increase in the average temperature of the Earth's atmosphere and oceans, primarily due to the enhanced greenhouse effect caused by increased concentrations of greenhouse gases such as CO2, CH4, N2O, and CFCs resulting from human activities.",
+   "formula": "",
+   "key_idea": "Greenhouse gases (CO2, methane, nitrous oxide, CFCs, water vapour) trap infrared radiation re-radiated from the Earth's surface, warming the atmosphere. The greenhouse effect is natural and essential, but its enhancement due to anthropogenic emissions leads to global warming. Consequences include melting of polar ice caps, sea level rise, climate change, and changes in species distribution. The Kyoto Protocol and Paris Agreement aim to reduce greenhouse gas emissions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the greenhouse effect and how does it cause global warming?",
+    "List the major greenhouse gases and their sources.",
+    "What are the consequences of global warming on ecosystems?",
+    "How does the melting of polar ice caps affect sea levels?",
+    "What measures can be taken to reduce greenhouse gas emissions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the greenhouse gas and its source",
+     "explain": "Determine which gas (CO2, CH4, N2O, CFCs) is involved and whether it comes from fossil fuel combustion, agriculture, industry, or deforestation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism of heat trapping",
+     "explain": "Describe how the gas absorbs infrared radiation re-radiated from Earth's surface and traps heat in the atmosphere."
+    },
+    {
+     "step": 3,
+     "action": "State the consequences and mitigation measures",
+     "explain": "Summarise impacts like temperature rise, sea level change, or climate disruption, and suggest mitigation through emission reduction, afforestation, or renewable energy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is methane considered a more potent greenhouse gas than CO2?",
+     "solution": "Methane (CH4) has a global warming potential approximately 25 times greater than CO2 over a 100-year period. Although its atmospheric concentration is lower, it absorbs more infrared radiation per molecule. Major sources include rice paddies, cattle (enteric fermentation), landfills, and fossil fuel extraction.",
+     "answer": "Methane traps about 25 times more heat per molecule than CO2, making it a potent greenhouse gas."
+    },
+    {
+     "question": "How does the enhanced greenhouse effect differ from the natural greenhouse effect?",
+     "solution": "The natural greenhouse effect maintains Earth's average temperature at about 15 degrees C, making life possible. The enhanced greenhouse effect results from increased anthropogenic emissions of greenhouse gases, which trap additional heat and raise global temperatures beyond natural levels, causing climate change and associated disruptions.",
+     "answer": "The enhanced greenhouse effect is the additional warming caused by human-emitted greenhouse gases beyond natural levels."
+    },
+    {
+     "question": "What are the likely consequences of a 2 degree C rise in global temperature?",
+     "solution": "A 2 degree C rise would accelerate melting of polar ice caps and glaciers, raising sea levels and threatening coastal cities. It would alter precipitation patterns, increase frequency of extreme weather events, shift habitats of many species, increase spread of tropical diseases, and reduce agricultural productivity in some regions.",
+     "answer": "A 2 degree C rise causes ice melt, sea level rise, extreme weather, habitat shifts, and agricultural impacts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the greenhouse effect with a labelled diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the major sources of greenhouse gases and their role in global warming.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Suggest measures to mitigate global warming at individual and global levels.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.7",
+   "title": "Ozone Depletion",
+   "section": "Ozone Depletion",
+   "definition": "Ozone depletion refers to the thinning and breakdown of the stratospheric ozone layer, which protects life on Earth from harmful ultraviolet (UV) radiation, primarily caused by chlorofluorocarbons (CFCs) and other ozone-depleting substances released by human activities.",
+   "formula": "",
+   "key_idea": "The ozone layer in the stratosphere absorbs harmful UV-B radiation (280-320 nm). CFCs released into the atmosphere break down in the stratosphere, releasing chlorine atoms that catalytically destroy ozone molecules. One chlorine atom can destroy up to 100,000 ozone molecules. The ozone hole was discovered over Antarctica in the 1980s. The Montreal Protocol (1987) aims to phase out CFC production. UV-B exposure causes skin cancer, cataracts, and reduced plant productivity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do CFCs cause depletion of the ozone layer?",
+    "What are the harmful effects of UV-B radiation on living organisms?",
+    "What is the ozone hole and where was it first observed?",
+    "Explain the significance of the Montreal Protocol.",
+    "How does the ozone layer protect life on Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ozone-depleting substance",
+     "explain": "Determine the substance (CFCs, halons, NOx) and how it reaches the stratosphere and breaks down to release reactive chlorine or bromine."
+    },
+    {
+     "step": 2,
+     "action": "Explain the catalytic destruction of ozone",
+     "explain": "Describe how chlorine atoms react with ozone (O3) to form ClO and O2, and how ClO regenerates chlorine, allowing one atom to destroy thousands of ozone molecules."
+    },
+    {
+     "step": 3,
+     "action": "State the consequences and control measures",
+     "explain": "Summarise effects like increased UV-B reaching Earth causing skin cancer and cataracts, and mention the Montreal Protocol for phasing out CFCs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the chemical mechanism by which CFCs deplete the ozone layer.",
+     "solution": "CFCs are stable in the troposphere but break down in the stratosphere under UV radiation, releasing chlorine atoms. The chlorine atom reacts with ozone: Cl + O3 -> ClO + O2. The ClO then reacts with atomic oxygen: ClO + O -> Cl + O2. The regenerated chlorine atom can destroy more ozone, making it a catalytic cycle. One chlorine atom can destroy up to 100,000 ozone molecules.",
+     "answer": "CFCs release chlorine in the stratosphere; chlorine catalytically destroys ozone, with one Cl atom destroying up to 100,000 O3 molecules."
+    },
+    {
+     "question": "Why was the ozone hole first observed over Antarctica?",
+     "solution": "Antarctica experiences extremely cold stratospheric temperatures that facilitate formation of polar stratospheric clouds. These clouds provide surfaces for chemical reactions that convert inactive chlorine compounds into active chlorine. When sunlight returns in spring, the chlorine rapidly destroys ozone, creating the ozone hole. The polar vortex also isolates Antarctic air, concentrating the effect.",
+     "answer": "Cold temperatures and polar stratospheric clouds in Antarctica enable rapid ozone destruction when sunlight returns in spring."
+    },
+    {
+     "question": "What is the Montreal Protocol and why is it considered successful?",
+     "solution": "The Montreal Protocol (1987) is an international treaty to phase out the production and consumption of ozone-depleting substances like CFCs. It is considered successful because it has been universally ratified, CFC production has been largely eliminated, and the ozone layer is showing signs of recovery, projected to return to pre-1980 levels by mid-century.",
+     "answer": "The Montreal Protocol phases out CFCs; it is successful as CFC production is largely eliminated and the ozone layer is recovering."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the role of the ozone layer in protecting life on Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the mechanism of ozone depletion by CFCs and its consequences.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the significance of the Montreal Protocol in ozone layer protection.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.8",
+   "title": "Solid Waste Management",
+   "section": "Solid Waste Management",
+   "definition": "Solid waste management is the collection, treatment, and disposal of solid waste materials produced by human activities, including domestic, industrial, and agricultural waste, using methods such as landfilling, incineration, composting, and recycling to minimise environmental and health impacts.",
+   "formula": "",
+   "key_idea": "Solid wastes include municipal waste (garbage), industrial waste, and biomedical waste. Improper disposal causes soil and water pollution and disease. Management strategies include reduce, reuse, recycle (3Rs), composting of biodegradable waste, sanitary landfills for non-biodegradable waste, and incineration for hazardous waste. Polyblend (recycled plastic waste mixed with bitumen) is used for road construction. E-waste is an emerging concern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different methods of solid waste disposal?",
+    "Explain the concept of reduce, reuse, and recycle (3Rs).",
+    "What is a sanitary landfill and how does it work?",
+    "How is composting useful in solid waste management?",
+    "Discuss the environmental hazards of improper e-waste disposal."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the solid waste",
+     "explain": "Determine whether the waste is biodegradable, non-biodegradable, recyclable, hazardous, or e-waste."
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate disposal or treatment method",
+     "explain": "Choose composting for biodegradable waste, recycling for recyclable materials, sanitary landfill for non-biodegradable waste, or incineration for hazardous waste."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate environmental impact and improvements",
+     "explain": "Assess whether the method minimises pollution and suggest improvements like source reduction, segregation at source, or waste-to-energy conversion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does composting help in solid waste management?",
+     "solution": "Composting is the biological decomposition of biodegradable organic waste (kitchen waste, garden waste, agricultural residue) by microorganisms under controlled conditions. It produces nutrient-rich compost that can be used as organic fertiliser, reducing the volume of waste sent to landfills and improving soil fertility without chemical inputs.",
+     "answer": "Composting converts biodegradable waste into nutrient-rich organic fertiliser, reducing landfill burden."
+    },
+    {
+     "question": "What is Polyblend and how is it useful in waste management?",
+     "solution": "Polyblend is a fine powder of recycled modified plastic waste developed in India. When mixed with bitumen, it enhances the durability and water-repellent properties of roads. This provides an eco-friendly way to reuse non-biodegradable plastic waste that would otherwise accumulate in landfills or pollute the environment.",
+     "answer": "Polyblend is recycled plastic powder mixed with bitumen for road construction, providing eco-friendly plastic waste disposal."
+    },
+    {
+     "question": "Why is e-waste a growing environmental concern?",
+     "solution": "E-waste (electronic waste) contains toxic substances like lead, mercury, cadmium, and brominated flame retardants. Improper disposal through dumping or informal recycling releases these toxins into soil, water, and air, harming human health and ecosystems. The rapid growth of electronic consumption makes e-waste one of the fastest-growing waste streams globally.",
+     "answer": "E-waste contains toxic heavy metals and chemicals; improper disposal causes soil, water, and air pollution."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the different methods of solid waste disposal with their advantages and disadvantages.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the importance of the 3Rs (reduce, reuse, recycle) in waste management.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the environmental and health hazards of improper solid waste disposal.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.16.10",
+   "title": "Conservation of Natural Resources",
+   "section": "Conservation",
+   "definition": "Conservation of natural resources is the sustainable management and protection of air, water, soil, forests, wildlife, and minerals through judicious use, legal protection, and restoration efforts to maintain ecological balance and ensure availability for future generations.",
+   "formula": "",
+   "key_idea": "Conservation strategies include afforestation, water conservation (rainwater harvesting, watershed management), wildlife protection through national parks and sanctuaries, sustainable agriculture, use of renewable energy, and implementation of environmental laws. Key legislation in India includes the Wildlife Protection Act (1972), Forest Conservation Act (1980), Water Act (1974), and Air Act (1981). Chipko Andolan and Silent Valley movement are notable conservation movements.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is rainwater harvesting and why is it important?",
+    "Explain the significance of the Wildlife Protection Act 1972.",
+    "How does watershed management help in water conservation?",
+    "Discuss the role of public participation in environmental conservation.",
+    "Explain the significance of biodiversity hotspots in conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the resource and the threat",
+     "explain": "Determine which natural resource (water, forest, soil, wildlife) is being depleted or degraded and identify the cause."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conservation strategy",
+     "explain": "Describe the method used, such as rainwater harvesting, afforestation, protected areas, or legal frameworks, and how it addresses the threat."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the impact and sustainability",
+     "explain": "Assess whether the strategy ensures long-term availability of the resource and mention community involvement or policy support needed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does rainwater harvesting contribute to water conservation?",
+     "solution": "Rainwater harvesting involves collecting and storing rainwater from rooftops or catchments for direct use or recharging groundwater aquifers. It reduces dependence on surface water, recharges depleted groundwater tables, prevents runoff and soil erosion, and provides water for domestic and agricultural use, especially in water-scarce regions.",
+     "answer": "Rainwater harvesting stores rainwater for use and recharges groundwater, reducing water scarcity."
+    },
+    {
+     "question": "What was the significance of the Chipko movement in forest conservation?",
+     "solution": "The Chipko movement (1973) was a grassroots protest in Uttarakhand where villagers, especially women, hugged trees to prevent commercial logging. It successfully stopped deforestation, raised environmental awareness, and demonstrated the power of community participation in conservation. It inspired similar movements and influenced forest policy in India.",
+     "answer": "The Chipko movement used non-violent resistance to prevent logging, demonstrating community power in forest conservation."
+    },
+    {
+     "question": "Explain the concept of biodiversity hotspots and their importance in conservation.",
+     "solution": "Biodiversity hotspots are regions with exceptionally high levels of species endemism that are also under significant threat from human activities. To qualify, a region must have at least 1,500 endemic plant species and have lost at least 70% of its original habitat. India has four hotspots: the Western Ghats, Himalayas, Indo-Burma, and Sundaland. Protecting these areas conserves a large number of unique species.",
+     "answer": "Biodiversity hotspots are threatened regions with high endemism; protecting them conserves many unique species."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the methods of water conservation and their importance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Discuss the role of environmental legislation in natural resource conservation in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the significance of community participation in environmental conservation with examples.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

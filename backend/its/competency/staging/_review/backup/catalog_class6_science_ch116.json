@@ -1,0 +1,400 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 116,
+ "chapter_title": "Garbage in, Garbage out",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fesc116.txt",
+ "concepts": [
+  {
+   "id": "fesc.16.1.1",
+   "title": "Landfill Disposal",
+   "section": "16.1",
+   "definition": "A designated low-lying open area where city garbage is dumped, flattened, and eventually covered with a layer of soil.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Repurposing waste dumping grounds into public parks or playgrounds after they are full.",
+   "textbook_ref": "fesc116.txt lines 40-65",
+   "question_patterns": [
+    "what is a landfill",
+    "how is garbage disposed of in a landfill",
+    "what happens to a landfill after it is completely filled",
+    "describe the process of managing non-useful garbage components"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separation",
+     "explain": "Identify and separate the non-useful components of garbage from the reusable ones."
+    },
+    {
+     "step": 2,
+     "action": "spreading",
+     "explain": "Spread the non-useful waste over the low-lying landfill area."
+    },
+    {
+     "step": 3,
+     "action": "covering",
+     "explain": "Apply a layer of soil over the spread garbage to cover it."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.1.2",
+   "title": "Composting",
+   "section": "16.1",
+   "definition": "In brief, In brief, the action of converting organic wastes like kitchen scraps and plant remains into nutrient-rich manure through natural decomposition.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Turning biodegradable waste into useful manure for plants.",
+   "textbook_ref": "fesc116.txt lines 85-105",
+   "question_patterns": [
+    "define composting",
+    "how is manure formed from garbage",
+    "what kind of waste is suitable for making compost",
+    "explain the conversion of kitchen waste into manure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collection",
+     "explain": "Gather organic materials like fruit peels, vegetable scraps, and dry leaves."
+    },
+    {
+     "step": 2,
+     "action": "burial",
+     "explain": "Place the organic waste in a pit and cover it with soil."
+    },
+    {
+     "step": 3,
+     "action": "decomposition",
+     "explain": "Allow the material to rot over time until it turns into a black, smell-free substance."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.1.3",
+   "title": "Waste Segregation (Blue and Green Bins)",
+   "section": "16.1",
+   "definition": "The practice of sorting garbage into separate containers based on whether they are recyclable or biodegradable.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, Separating materials that rot from those that do not to improve waste management.",
+   "textbook_ref": "fesc116.txt lines 110-130",
+   "question_patterns": [
+    "why are there blue and green bins",
+    "what goes into a blue dustbin",
+    "what goes into a green dustbin",
+    "explain the importance of separating waste at the source"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize",
+     "explain": "Identify if the waste is organic (kitchen/plant) or inorganic (plastic/glass/metal)."
+    },
+    {
+     "step": 2,
+     "action": "sorting",
+     "explain": "Place non-rotting recyclables in the blue bin and biodegradable waste in the green bin."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.2.1",
+   "title": "Vermicomposting",
+   "section": "16.2",
+   "definition": "A method of preparing high-quality compost using a specific type of earthworm called redworms to break down organic matter.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Using redworms to accelerate the decomposition of kitchen waste into manure.",
+   "textbook_ref": "fesc116.txt lines 145-170",
+   "question_patterns": [
+    "what is vermicomposting",
+    "how are redworms used in making manure",
+    "describe the process of vermicomposting",
+    "which organism is known as the farmer's friend in composting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pit preparation",
+     "explain": "Create a pit with a mesh or sand layer and add organic waste."
+    },
+    {
+     "step": 2,
+     "action": "introduction of worms",
+     "explain": "Add redworms to the pit and cover loosely with a cloth or grass."
+    },
+    {
+     "step": 3,
+     "action": "maintenance",
+     "explain": "Provide moisture and suitable food (no salt/oil/meat) for the worms."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.2.2",
+   "title": "Redworm Digestion and Gizzard",
+   "section": "16.2",
+   "definition": "Redworms lack teeth and use a specialized internal structure called a gizzard to grind their food, often aided by grit like eggshells.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Mechanical breakdown of food in redworms using a gizzard and supplemental grit.",
+   "textbook_ref": "fesc116.txt lines 190-205",
+   "question_patterns": [
+    "how do redworms grind their food",
+    "what is a gizzard",
+    "why are eggshells added to a vermicompost pit",
+    "do redworms have teeth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ingestion",
+     "explain": "Redworms take in organic waste along with grit like powdered eggshells."
+    },
+    {
+     "step": 2,
+     "action": "grinding",
+     "explain": "The gizzard uses the grit to mechanically grind the food into smaller particles."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.2.3",
+   "title": "Redworm Food Consumption",
+   "section": "16.2",
+   "definition": "The daily intake of food by redworms, which is approximately equal to their own body weight.",
+   "formula": "daily_food = worm_weight * worm_count",
+   "key_idea": "Redworms consume their own weight in organic waste every day.",
+   "textbook_ref": "fesc116.txt lines 198-200",
+   "question_patterns": [
+    "how much food can a redworm eat in a day",
+    "calculate the amount of waste consumed by redworms",
+    "if you have a certain weight of worms, how much food do they need daily"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate daily food",
+     "explain": "Multiply the average weight of one worm by the total number of worms to find the total food capacity.",
+     "compute": "daily_food = worm_weight * worm_count"
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.2.4",
+   "title": "Redworm Population Growth",
+   "section": "16.2",
+   "definition": "Under favorable conditions of moisture and temperature, the population of redworms in a compost pit doubles every month.",
+   "formula": "final_worms = initial_worms * (2 ** months)",
+   "key_idea": "Exponential growth of redworms in a healthy composting environment.",
+   "textbook_ref": "fesc116.txt lines 205-210",
+   "question_patterns": [
+    "how fast do redworms multiply",
+    "calculate the number of redworms after a few months",
+    "how many worms will be in the pit if the population doubles every month"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate final population",
+     "explain": "The population doubles for every month passed.",
+     "compute": "final_worms = initial_worms * (2 ** months)"
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.3.1",
+   "title": "City Garbage Estimation",
+   "section": "16.3",
+   "definition": "A method to estimate the total volume of waste produced by a city based on individual household generation rates.",
+   "formula": "total_city_waste = (buckets / (days * members)) * city_population",
+   "key_idea": "Scaling household waste data to estimate large-scale urban garbage generation.",
+   "textbook_ref": "fesc116.txt lines 220-235",
+   "question_patterns": [
+    "how to estimate the garbage generated by a city",
+    "calculate the number of buckets of waste produced by a town daily",
+    "estimate city waste based on family garbage data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find daily family waste",
+     "explain": "Divide the number of buckets by the days it took to fill them.",
+     "compute": "daily_family_waste = buckets / days"
+    },
+    {
+     "step": 2,
+     "action": "find per person waste",
+     "explain": "Divide the daily family waste by the number of family members.",
+     "compute": "per_person_waste = daily_family_waste / members"
+    },
+    {
+     "step": 3,
+     "action": "calculate total city waste",
+     "explain": "Multiply the per person waste by the total city population.",
+     "compute": "total_city_waste = per_person_waste * population"
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.4.1",
+   "title": "Recycling Paper",
+   "section": "16.4",
+   "definition": "In brief, the action of converting discarded paper into new usable sheets by creating a pulp and drying it on a mesh.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Reducing waste by processing old paper into new handmade paper products.",
+   "textbook_ref": "fesc116.txt lines 310-340",
+   "question_patterns": [
+    "how can we recycle paper at home",
+    "describe the steps to make recycled paper",
+    "what materials are needed for paper recycling",
+    "can all types of paper be recycled"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pulping",
+     "explain": "Tear paper into pieces, soak in water for a day, and pound into a thick paste."
+    },
+    {
+     "step": 2,
+     "action": "layering",
+     "explain": "Spread the paste uniformly on a wire mesh frame and drain the water."
+    },
+    {
+     "step": 3,
+     "action": "drying",
+     "explain": "Remove the wet layer and dry it in the sun to form a new sheet."
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.5.1",
+   "title": "Plastic Waste Hazards",
+   "section": "16.5",
+   "definition": "The environmental and health dangers caused by the excessive use and improper disposal of non-biodegradable plastics.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Plastics do not rot and release toxic gases when heated or burnt.",
+   "textbook_ref": "fesc116.txt lines 350-400",
+   "question_patterns": [
+    "why is plastic a problem for the environment",
+    "what happens when plastics are burnt",
+    "how do plastic bags affect stray animals and drainage systems",
+    "list ways to minimize the use of plastics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify non-biodegradability",
+     "explain": "Recognize that plastics do not decompose naturally in soil."
+    },
+    {
+     "step": 2,
+     "action": "analyze toxic release",
+     "explain": "Note that burning plastics releases harmful gases that can cause diseases like cancer."
+    },
+    {
+     "step": 3,
+     "action": "observe physical impact",
+     "explain": "Observe how plastic waste chokes drains and harms animals that swallow it."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc116.txt lines 198-200",
+   "concept": "fesc.16.2.3",
+   "question_type": "compute",
+   "question_pattern": "If a redworm weighs {worm_weight} grams and you have {worm_count} worms in your pit, how much food can they eat in a day?",
+   "extracted_variables": {
+    "worm_weight": "weight of a single redworm",
+    "worm_count": "total number of redworms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate daily food",
+     "explain": "Total food consumed is the weight of one worm times the number of worms.",
+     "compute": "daily_food = worm_weight * worm_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc116.txt lines 220-235",
+   "concept": "fesc.16.3.1",
+   "question_type": "compute",
+   "question_pattern": "A family of {members} fills {buckets} buckets of garbage in {days} days. If a town has a population of {population}, estimate the total daily garbage buckets generated.",
+   "extracted_variables": {
+    "members": "number of family members",
+    "buckets": "number of buckets filled",
+    "days": "number of days taken",
+    "population": "total city population"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find daily family waste",
+     "explain": "Divide buckets by days to get daily family generation.",
+     "compute": "daily_family_waste = buckets / days"
+    },
+    {
+     "step": 2,
+     "action": "find per person waste",
+     "explain": "Divide daily family waste by family members.",
+     "compute": "per_person_waste = daily_family_waste / members"
+    },
+    {
+     "step": 3,
+     "action": "calculate total city waste",
+     "explain": "Multiply per person waste by city population.",
+     "compute": "total_city_waste = per_person_waste * population"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex16.1",
+   "source_ref": "fesc116.txt lines 415-420",
+   "questions": [
+    "Which kind of garbage is not converted into compost by the redworms?",
+    "Have you seen any other organism besides redworms, in your pit?"
+   ]
+  },
+  {
+   "id": "ex16.2",
+   "source_ref": "fesc116.txt lines 421-425",
+   "questions": [
+    "Is garbage disposal the responsibility only of the government?",
+    "Is it possible to reduce the problems relating to disposal of garbage?"
+   ]
+  },
+  {
+   "id": "ex16.3",
+   "source_ref": "fesc116.txt lines 426-430",
+   "questions": [
+    "What do you do with the left over food at home?",
+    "If you and your friends are given the choice of eating in a plastic plate or a banana leaf platter at a party, which one would you prefer and why?"
+   ]
+  },
+  {
+   "id": "ex16.6",
+   "source_ref": "fesc116.txt lines 440-441",
+   "questions": [
+    "Do you think it is better to use compost instead of chemical fertilisers? Why?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

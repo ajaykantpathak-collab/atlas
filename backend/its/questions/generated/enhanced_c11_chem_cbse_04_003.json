@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_003",
+   "title": "c11_chem_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the total number of valence electrons available for drawing the Lewis structure of the carbonate ion (CO3^2‑)?",
+     "a": "24 valence electrons. Carbon (Group 14) contributes 4, each oxygen (Group 16) contributes 6 (3 × 6 = 18), and the 2‑ charge adds 2 electrons: 4 + 18 + 2 = 24. A wrong answer (e.g., 22) reveals the student forgot to add electrons for the negative charge or miscounted oxygen’s valence electrons.",
+     "self_check": true
+    },
+    {
+     "q": "In the Lewis structure of carbon monoxide (CO), why is a triple bond drawn between C and O even though a double bond would give both atoms an octet?",
+     "a": "A triple bond with a lone pair on each atom gives formal charges of –1 on C and +1 on O (net zero), which is closer to zero than the formal charges in a double‑bonded structure (+1 on C, –1 on O). The structure with smaller formal charges is more stable. If a student says “to satisfy the octet rule”, they confuse octet completion with formal charge minimization – both structures satisfy the octet, but only the triple bond minimizes formal charge.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the Lewis structure of the nitrite ion (NO2‑). Show all steps: electron count, skeletal structure, bond placement, octet completion, and formal charge check.",
+     "a": "Step 1: Valence electrons = N(5) + 2×O(6) + 1(charge) = 18. Step 2: Skeletal structure O‑N‑O (N central). Step 3: Two single bonds use 4 electrons, leaving 14. Step 4: Complete octets on terminal O atoms (12 electrons used as lone pairs). Remaining 2 electrons go on N as a lone pair. Step 5: N has only 6 electrons (two bonds + one lone pair). Form a double bond using a lone pair from one O. Final structure: one N=O double bond, one N‑O single bond, lone pair on N, and formal charges: double‑bonded O (0), single‑bonded O (‑1), N (0). A wrong structure with two double bonds would give N a +1 formal charge and exceed the octet for N (second‑period element cannot expand octet).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Lewis structures of CO2 and SO2. Both are triatomic with 16 valence electrons. Why does SO2 have a bent shape while CO2 is linear, based solely on their Lewis structures?",
+     "a": "CO2 has two double bonds (O=C=O) and no lone pairs on carbon → two electron domains → linear. SO2 has one double bond, one single bond, and one lone pair on sulfur (or two double bonds and one lone pair if expanded octet) → three electron domains → bent. A student who draws SO2 with two double bonds and no lone pair on S misses the lone pair that arises from sulfur’s 6 valence electrons (after using 4 for bonds, 2 remain). This error shows they didn’t account for the extra valence electrons of sulfur compared to carbon.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the Lewis structure of BF3 with a double bond between B and one F to give boron an octet. Evaluate this structure using formal charge arguments.",
+     "a": "The structure with a B=F double bond gives formal charges: B (+1), double‑bonded F (‑1), other two F (0). The structure with three single bonds gives B (0) and each F (0). Since the all‑single‑bond structure has zero formal charges on all atoms, it is preferred despite boron having an incomplete octet. Boron commonly forms electron‑deficient compounds. A student who insists on the double bond misunderstands that formal charge minimization outweighs octet completion for elements like B, Be, Al.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Lewis structure for the hypothetical molecule XeO2 (xenon dioxide). Xenon is a noble gas (Group 18). Predict whether it would have double bonds and explain the role of expanded octet.",
+     "a": "Valence electrons: Xe(8) + 2×O(6) = 20. Skeletal: O‑Xe‑O. Two single bonds use 4 electrons; complete octets on O (12 electrons); remaining 4 electrons go on Xe as two lone pairs. Xe now has 4 bonds (2 single) + 2 lone pairs = 8 electrons (octet). To reduce formal charges, form two double bonds: each double bond uses a lone pair from O. Final: O=Xe=O with two lone pairs on Xe. Formal charges: Xe (0), each O (0). Xe uses expanded octet (12 electrons: 4 bonds + 2 lone pairs). A good answer includes the expanded octet justification and formal charge check. A poor answer forces an octet on Xe without double bonds, leaving high formal charges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

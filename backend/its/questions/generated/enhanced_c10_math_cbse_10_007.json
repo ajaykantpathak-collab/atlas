@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_007",
+   "title": "c10_math_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the two tangent properties that are proved using triangle congruence.",
+     "a": "(1) The tangent at any point on a circle is perpendicular to the radius through the point of contact. (2) The lengths of the two tangents drawn from an external point to a circle are equal. A wrong answer (e.g., \"tangents are parallel\") shows a fundamental misunderstanding of the theorems.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof that PA = PB (tangents from P), identify the congruence criterion and the corresponding parts.",
+     "a": "Criterion: RHS (Right angle-Hypotenuse-Side). The right angles are at A and B (tangent ⊥ radius). The hypotenuse OP is common. The sides OA = OB (radii). From ΔOAP ≅ ΔOBP, the corresponding parts PA and PB are equal. A wrong answer (e.g., \"SSS\" or \"SAS\") shows the student does not recognise that the right angle and hypotenuse make RHS the appropriate criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not use SAS congruence directly without first establishing the right angle?",
+     "a": "SAS requires two sides and the included angle. While we have OA = OB and OP common, the included angle would be ∠OAP and ∠OBP, which are both 90°. So SAS could work if we know the 90° angle is included between the two known sides. However, RHS is more direct because we already have a right angle, hypotenuse, and one side. A wrong answer (e.g., \"SAS doesn't apply to right triangles\") is incorrect — SAS applies to all triangles, but RHS is more efficient here.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"PA = PB because both are tangents from P.\" Why is this incomplete for a board exam?",
+     "a": "The statement \"both are tangents from P\" is the conclusion, not the proof. The board exam requires the full argument: identify the two right triangles, state the congruence criterion (RHS), list the equal parts (OA = OB radii, OP common hypotenuse, right angles at A and B), conclude ΔOAP ≅ ΔOBP, then state PA = PB by CPCT (Corresponding Parts of Congruent Triangles). A wrong answer accepting the student's statement shows the student does not understand the difference between stating a result and proving it.",
+     "self_check": true
+    },
+    {
+     "q": "If PA = 5 cm and the radius is 3 cm, find OP (the distance from the external point to the centre).",
+     "a": "In right triangle OAP: OA = 3 cm (radius), PA = 5 cm (tangent), OP = hypotenuse. By Pythagoras: OP² = OA² + PA² = 9 + 25 = 34, so OP = √34 ≈ 5.83 cm. A wrong answer (e.g., OP = 8 cm by simple addition) shows the student does not apply the Pythagorean theorem in the right triangle formed by radius, tangent, and line to centre.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that the line joining the external point to the centre bisects the angle between the two tangents.",
+     "a": "From ΔOAP ≅ ΔOBP (proved by RHS), we have ∠OPA = ∠OPB by CPCT (corresponding angles of congruent triangles). Therefore OP bisects ∠APB. A poor answer (e.g., \"it looks like it bisects\") misses the use of CPCT to justify the angle equality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

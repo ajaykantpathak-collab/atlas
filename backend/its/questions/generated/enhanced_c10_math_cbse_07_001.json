@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_001",
+   "title": "c10_math_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the distance formula between two points \\(P(x_1, y_1)\\) and \\(Q(x_2, y_2)\\) in the Cartesian plane. No derivation needed, just the final formula.",
+     "a": "The distance formula is \\(PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\). A wrong answer like \\(PQ = (x_2 - x_1) + (y_2 - y_1)\\) reveals the student is adding leg lengths instead of using Pythagoras (Manhattan distance confusion). Writing \\(PQ = \\sqrt{(x_2 - x_1) + (y_2 - y_1)}\\) shows they forgot to square the differences. Writing \\(PQ = \\sqrt{(x_1 - x_2)^2 - (y_1 - y_2)^2}\\) indicates confusion with the difference of squares identity.",
+     "self_check": true
+    },
+    {
+     "q": "In the derivation, we draw lines through \\(P\\) and \\(Q\\) parallel to the axes to form a right triangle. Explain why the lengths of the legs of this right triangle are \\(|x_2 - x_1|\\) and \\(|y_2 - y_1|\\), and why we can drop the absolute value signs when we square them in the formula.",
+     "a": "The horizontal leg is the distance between the vertical lines \\(x = x_1\\) and \\(x = x_2\\), which is \\(|x_2 - x_1|\\). The vertical leg is the distance between \\(y = y_1\\) and \\(y = y_2\\), which is \\(|y_2 - y_1|\\). Squaring removes the sign: \\((x_2 - x_1)^2 = |x_2 - x_1|^2\\). A wrong answer that says \"we use \\(x_2 - x_1\\) because \\(x_2 > x_1\\)\" reveals the student thinks the formula only works when the second point is to the right/above the first, not understanding that squaring makes the order irrelevant. Saying \"absolute value is not needed because distance is positive\" confuses the leg length (which is positive) with the coordinate difference (which can be negative).",
+     "self_check": true
+    },
+    {
+     "q": "Find the distance between the points \\(A(-3, 4)\\) and \\(B(1, -2)\\). Show all steps including substitution, squaring, addition, and square root. Give the answer in simplified radical form and also as a decimal rounded to two places.",
+     "a": "Step 1: Identify coordinates: \\(x_1 = -3, y_1 = 4, x_2 = 1, y_2 = -2\\).  \nStep 2: Substitute into formula: \\(AB = \\sqrt{(1 - (-3))^2 + (-2 - 4)^2}\\).  \nStep 3: Simplify inside brackets: \\(= \\sqrt{(1 + 3)^2 + (-6)^2} = \\sqrt{4^2 + (-6)^2}\\).  \nStep 4: Square: \\(= \\sqrt{16 + 36} = \\sqrt{52}\\).  \nStep 5: Simplify radical: \\(\\sqrt{52} = \\sqrt{4 \\times 13} = 2\\sqrt{13}\\).  \nStep 6: Decimal: \\(2\\sqrt{13} \\approx 7.21\\).  \nA wrong answer like \\(\\sqrt{(-4)^2 + (-6)^2} = \\sqrt{-16 + -36}\\) shows the student thinks squaring a negative gives a negative. Writing \\(\\sqrt{16 + 36} = \\sqrt{52} = 26\\) (taking half) reveals confusion between square root and division by 2. Forgetting to simplify \\(\\sqrt{52}\\) to \\(2\\sqrt{13}\\) loses a mark in board exams for not expressing in simplest radical form.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives the distance formula but writes the horizontal leg as \\((x_1 - x_2)\\) and vertical leg as \\((y_1 - y_2)\\) without absolute values or squaring, then writes \\(PQ = \\sqrt{(x_1 - x_2) + (y_1 - y_2)}\\). Identify the two distinct errors in this derivation and explain why each is mathematically incorrect.",
+     "a": "Error 1: The leg lengths are distances, so they must be non-negative. Using \\((x_1 - x_2)\\) without absolute value gives a negative length if \\(x_1 < x_2\\). The correct leg length is \\(|x_1 - x_2|\\).  \nError 2: Pythagoras theorem requires the sum of squares of legs, not the sum of legs. The student wrote \\(\\sqrt{(x_1 - x_2) + (y_1 - y_2)}\\) instead of \\(\\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}\\).  \nA wrong answer that only points out \"missing squares\" misses the sign issue. Saying \"the formula should be \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)\" without explaining why the student's version fails for points in different quadrants shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan calculates the distance between \\(P(2, -5)\\) and \\(Q(-4, 3)\\) as follows:  \n\\(PQ = \\sqrt{(-4 - 2)^2 + (3 - (-5))^2} = \\sqrt{(-6)^2 + (8)^2} = \\sqrt{36 + 64} = \\sqrt{100} = \\pm 10\\).  \nHe writes the answer as \\(\\pm 10\\) cm. Evaluate his solution: Is the final answer correct? If not, identify the exact error and state the correct answer with justification.",
+     "a": "Rohan's computation up to \\(\\sqrt{100}\\) is correct, but writing \\(\\pm 10\\) is wrong. Distance is a length, which is always non-negative. The principal square root symbol \\(\\sqrt{\\cdot}\\) denotes the non-negative root. The correct answer is \\(10\\) cm (or 10 units). Writing \\(\\pm 10\\) is a common board exam error that loses 1 mark because it treats distance as a directed quantity or solves \\(x^2 = 100\\) instead of evaluating \\(\\sqrt{100}\\). A student who says \"both +10 and -10 are correct because distance can be negative\" fundamentally misunderstands distance as a scalar magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem set in an Indian school context where the distance formula is needed to solve a practical question. The problem must involve at least three points, require calculating two distances, and include a comparison or decision based on those distances (e.g., which path is shorter, or is a point equidistant from two others?). Provide the coordinates, the question, and the expected solution steps.",
+     "a": "Example problem: \"The school library is at L(2, 5), the canteen at C(8, 1), and the playground at P(4, -3) on the school map (1 unit = 10 m). A student at the library wants to go to the playground. Should they go directly or via the canteen? Calculate both distances and find the difference.\"  \nExpected steps: 1) Compute LC, 2) Compute CP, 3) Sum LC+CP, 4) Compute LP directly, 5) Compare and conclude direct path is shorter (triangle inequality).  \nA poor answer that only computes one distance or forgets to convert units (multiply by 10) shows inability to translate the mathematical result back to the real-world context. Not stating the triangle inequality principle explicitly misses the \"justify\" competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

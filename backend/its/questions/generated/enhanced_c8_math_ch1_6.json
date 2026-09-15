@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_6",
+   "title": "c8_math_ch1_6",
+   "questions": [
+    {
+     "q": "State the exact sequence of odd numbers you subtract when checking if 81 is a perfect square using this method, and say how many subtractions are needed to reach zero.",
+     "a": "The sequence is 1, 3, 5, 7, 9, 11, 13, 15, 17 (nine odd numbers). Nine subtractions reach zero because 81 = 9². A wrong answer (e.g., stopping at 7 subtractions or listing even numbers) reveals the student does not recall that the k-th odd number is 2k-1 and that exactly k subtractions are needed for k².",
+     "self_check": true
+    },
+    {
+     "q": "Explain why subtracting successive odd numbers from a perfect square always ends at zero, but for a non-square like 50 it becomes negative. Use the sum-of-odd-numbers property in your explanation.",
+     "a": "For any perfect square n², the sum of the first n odd numbers equals n², so subtracting them one by one reduces the number to exactly zero after n steps. For a non-square like 50, the partial sums of odd numbers (1, 4, 9, 16, 25, 36, 49, 64...) skip over 50; after subtracting the first 7 odds we reach 1, and the next odd (15) overshoots to -14. A wrong answer that merely says \"it doesn't work\" without referencing the cumulative sums shows lack of conceptual understanding of the identity 1+3+...+(2n-1)=n².",
+     "self_check": true
+    },
+    {
+     "q": "Use the successive odd-number subtraction method to check whether 225 is a perfect square. Show each subtraction step and state the square root if it is a perfect square.",
+     "a": "225 - 1 = 224  \n224 - 3 = 221  \n221 - 5 = 216  \n216 - 7 = 209  \n209 - 9 = 200  \n200 - 11 = 189  \n189 - 13 = 176  \n176 - 15 = 161  \n161 - 17 = 144  \n144 - 19 = 125  \n125 - 21 = 104  \n104 - 23 = 81  \n81 - 25 = 56  \n56 - 27 = 29  \n29 - 29 = 0  \nFifteen subtractions reach zero, so 225 = 15² is a perfect square; square root = 15. A wrong answer (e.g., stopping at 14 steps or miscalculating a subtraction) reveals arithmetic errors or losing track of the odd-number sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the successive odd-number subtraction method with the prime factorisation method for checking if 441 is a perfect square. Which method is more efficient for this number and why?",
+     "a": "Prime factorisation: 441 = 3² × 7² = (3×7)² = 21², so it is a perfect square with root 21 (2 steps). Successive subtraction requires 21 subtractions. Prime factorisation is far more efficient for 441 because the number has small prime factors and the factorisation is quick. A wrong answer claiming subtraction is faster shows inability to analyse computational complexity; a student who cannot factorise 441 reveals a gap in prior knowledge (c6_math_ch01_015).",
+     "self_check": true
+    },
+    {
+     "q": "A student checks 196 by subtracting odd numbers and gets: 196-1=195, 195-3=192, 192-5=187, 187-7=180, 180-9=171, 171-11=160, 160-13=147, 147-15=132, 132-17=115, 115-19=96, 96-21=75, 75-23=52, 52-25=27, 27-27=0. They conclude 196 = 13². Identify the error and give the correct square root.",
+     "a": "The student made an arithmetic error: 52 - 25 = 27 is correct, but the next odd number should be 27 (since the sequence is 1,3,5,7,9,11,13,15,17,19,21,23,25,27...). They correctly used 27 and reached zero, but they performed 14 subtractions (not 13). Count: 1,3,5,7,9,11,13,15,17,19,21,23,25,27 → 14 odds. Therefore 196 = 14², square root = 14. The error is miscounting the number of steps. A wrong answer that accepts 13² shows inability to link step count to the root.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, tiles, etc.) where a student must use the successive odd-number subtraction method to decide if a given quantity can form a perfect square arrangement. Provide the problem statement and the full solution.",
+     "a": "Problem: \"A school has 324 square tiles of size 1 ft × 1 ft. The principal wants to know if they can be arranged into a single large square courtyard without cutting any tiles. Use the odd-number subtraction method to check.\"  \nSolution: 324 - 1 = 323; -3 = 320; -5 = 315; -7 = 308; -9 = 299; -11 = 288; -13 = 275; -15 = 260; -17 = 243; -19 = 224; -21 = 203; -23 = 180; -25 = 155; -27 = 128; -29 = 99; -31 = 68; -33 = 35; -35 = 0. Eighteen subtractions → 324 = 18². Yes, they can form an 18 ft × 18 ft square. A poor answer that just says \"yes\" without showing the subtraction steps or miscounts the steps reveals the student cannot independently apply and communicate the method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

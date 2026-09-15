@@ -1,0 +1,927 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "Understanding Quadrilaterals",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh103.txt",
+ "concepts": [
+  {
+   "id": "c8m3.1.1",
+   "title": "Polygons: Convex and Concave",
+   "section": "3.1.1",
+   "definition": "A simple closed curve made up of only line segments is called a polygon. Polygons that are convex have no portions of their diagonals in their exteriors; any line segment joining any two different points in the interior of a convex polygon lies wholly in the interior of it. In this class we deal with convex polygons only.",
+   "formula": "polygon = simple closed curve made up of only line segments",
+   "key_idea": "Polygon: simple, closed, all sides line segments; convex keeps diagonals inside.",
+   "textbook_ref": "hemh103.txt lines 10-22",
+   "question_patterns": [
+    "what is a polygon",
+    "classify the figures as simple curve, simple closed curve, polygon",
+    "is the given figure a polygon",
+    "what is a convex polygon",
+    "what is a concave polygon",
+    "classify each figure as convex or concave polygon",
+    "which of the following are polygons",
+    "difference between convex and concave polygon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check it is a simple closed curve",
+     "explain": "The curve must be closed and must not cross itself"
+    },
+    {
+     "step": 2,
+     "action": "check it is made up of only line segments",
+     "explain": "Curved boundaries disqualify a figure from being a polygon"
+    },
+    {
+     "step": 3,
+     "action": "check convexity",
+     "explain": "A polygon is convex if every line segment joining two interior points lies wholly in the interior"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.1.2",
+   "title": "Regular and Irregular Polygons",
+   "section": "3.1.2",
+   "definition": "A regular polygon is both equiangular and equilateral. For example, a square has sides of equal length and angles of equal measure, hence it is a regular polygon. A rectangle is equiangular but not equilateral, so it is not a regular polygon.",
+   "formula": "regular polygon = equiangular AND equilateral",
+   "key_idea": "Regular means all angles equal AND all sides equal.",
+   "textbook_ref": "hemh103.txt lines 23-30",
+   "question_patterns": [
+    "what is a regular polygon",
+    "state the name of a regular polygon of 3 sides",
+    "state the name of a regular polygon of 4 sides",
+    "state the name of a regular polygon of 6 sides",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about rectangle.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about equilateral.",
+    "which polygons are regular"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check all angles equal",
+     "explain": "Equiangular means all angles have equal measure"
+    },
+    {
+     "step": 2,
+     "action": "check all sides equal",
+     "explain": "Equilateral means all sides have equal length"
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "The polygon is regular only when both conditions hold; 3 sides = equilateral triangle, 4 sides = square, 6 sides = regular hexagon"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.2.1",
+   "title": "Sum of Exterior Angles of a Polygon",
+   "section": "3.2",
+   "definition": "The sum of the measures of the external angles of any polygon is 360 degrees. This is true whatever be the number of sides of the polygon. For a regular polygon all exterior angles are equal, so each exterior angle = 360 / number of sides.",
+   "formula": "sum of exterior angles = 360 degrees; each exterior angle of regular polygon = 360 / n",
+   "key_idea": "Exterior angles of any polygon add to 360 degrees.",
+   "textbook_ref": "hemh103.txt lines 50-88",
+   "question_patterns": [
+    "find the measure of each exterior angle of a regular polygon of 9 sides",
+    "find the measure of each exterior angle of a regular polygon of 15 sides",
+    "what is the sum of the exterior angles of a polygon",
+    "find x in the exterior angles figure",
+    "what is the measure of each exterior angle of a regular hexagon",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about exterior.",
+    "find the exterior angle given the number of sides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the sum of exterior angles",
+     "explain": "Sum of all exterior angles = 360 degrees for any polygon"
+    },
+    {
+     "step": 2,
+     "action": "divide for a regular polygon",
+     "explain": "Each exterior angle = 360 / n where n is the number of sides",
+     "compute": "360 / n"
+    },
+    {
+     "step": 3,
+     "action": "for a missing angle x",
+     "explain": "Subtract the known exterior angles from 360",
+     "compute": "360 - known_angles_sum"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.2.2",
+   "title": "Number of Sides from an Exterior or Interior Angle",
+   "section": "3.2",
+   "definition": "Total measure of all exterior angles of a regular polygon is 360 degrees. If the measure of each exterior angle is known, the number of sides = 360 / measure of each exterior angle. If each interior angle is given, first find the exterior angle = 180 - interior angle (they form a linear pair).",
+   "formula": "number of sides = 360 / exterior_angle; exterior_angle = 180 - interior_angle",
+   "key_idea": "Divide 360 by the exterior angle to get the number of sides.",
+   "textbook_ref": "hemh103.txt lines 81-88 (Example 2), 97-99",
+   "question_patterns": [
+    "Describe, step by step and in your own words, the way exterior works.",
+    "how many sides does a regular polygon have if each interior angle is 165",
+    "find the number of sides of a regular polygon whose each exterior angle is 45",
+    "number of sides from exterior angle",
+    "how many sides has a regular polygon with exterior angle",
+    "can a regular polygon have an exterior angle of 22 degrees"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the exterior angle",
+     "explain": "If interior angle given: exterior = 180 - interior",
+     "compute": "180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "divide 360 by the exterior angle",
+     "explain": "number of sides = 360 / exterior angle",
+     "compute": "360 / exterior_angle"
+    },
+    {
+     "step": 3,
+     "action": "check divisibility",
+     "explain": "If 360 is not divisible by the exterior angle, no such regular polygon exists (e.g. 22 degrees)"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.1",
+   "title": "Trapezium",
+   "section": "3.3.1",
+   "definition": "Trapezium is a quadrilateral with a pair of parallel sides. If the non-parallel sides of a trapezium are of equal length, we call it an isosceles trapezium.",
+   "formula": "trapezium = quadrilateral with exactly one pair of parallel sides",
+   "key_idea": "One pair of parallel sides makes a trapezium; equal non-parallel sides make it isosceles.",
+   "textbook_ref": "hemh103.txt lines 106-125",
+   "question_patterns": [
+    "what is a trapezium",
+    "explain how the figure is a trapezium",
+    "which of its sides are parallel",
+    "is the given quadrilateral a trapezium",
+    "what is an isosceles trapezium",
+    "identify the trapezium among the figures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the quadrilateral",
+     "explain": "A trapezium must have four sides"
+    },
+    {
+     "step": 2,
+     "action": "check for a pair of parallel sides",
+     "explain": "Arrow marks indicate parallel lines; exactly one pair must be parallel"
+    },
+    {
+     "step": 3,
+     "action": "check non-parallel sides for isosceles",
+     "explain": "If the non-parallel sides are equal, it is an isosceles trapezium"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.2",
+   "title": "Kite",
+   "section": "3.3.2",
+   "definition": "Kite is a special type of a quadrilateral. A kite has 4 sides (it is a quadrilateral) and there are exactly two distinct consecutive pairs of sides of equal length, for example AB = AD and BC = CD.",
+   "formula": "kite = quadrilateral with exactly two distinct consecutive pairs of equal sides",
+   "key_idea": "Two pairs of equal consecutive sides, but not all four equal.",
+   "textbook_ref": "hemh103.txt lines 126-133",
+   "question_patterns": [
+    "what is a kite",
+    "is the given quadrilateral a kite",
+    "describe a kite quadrilateral",
+    "which figures are kites",
+    "is a square a kite",
+    "how many pairs of equal sides does a kite have"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check four sides",
+     "explain": "A kite is a quadrilateral"
+    },
+    {
+     "step": 2,
+     "action": "find consecutive equal pairs",
+     "explain": "There must be exactly two distinct consecutive pairs of sides of equal length"
+    },
+    {
+     "step": 3,
+     "action": "check the pairs are distinct",
+     "explain": "If all four sides are equal it is a rhombus, not only a kite"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.3",
+   "title": "Parallelogram and its Side Properties",
+   "section": "3.3.3",
+   "definition": "A parallelogram is a quadrilateral whose opposite sides are parallel. Property: the opposite sides of a parallelogram are of equal length. Elements: AB and DC are opposite sides, AB and BC are adjacent sides (one side starts where the other ends).",
+   "formula": "opposite sides parallel and equal; perimeter = 2 x (side1 + side2)",
+   "key_idea": "Opposite sides of a parallelogram are parallel and equal.",
+   "textbook_ref": "hemh103.txt lines 159-235",
+   "question_patterns": [
+    "what is a parallelogram",
+    "Frame a parallelogram task like the chapter exercise and solve it with every step shown.",
+    "complete the statement AD = ...... for parallelogram ABCD",
+    "find the side lengths of the parallelogram",
+    "can a quadrilateral ABCD be a parallelogram if AB = DC and AD given",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about parallelogram.",
+    "is a rectangle a parallelogram"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use opposite sides equal",
+     "explain": "PQ = SR and QR = PS in parallelogram PQRS"
+    },
+    {
+     "step": 2,
+     "action": "add the four sides",
+     "explain": "Perimeter = PQ + QR + RS + SP",
+     "compute": "2 * (side1 + side2)"
+    },
+    {
+     "step": 3,
+     "action": "verify parallelogram condition",
+     "explain": "A quadrilateral is a parallelogram only if both pairs of opposite sides are parallel (and equal)"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.4",
+   "title": "Angles of a Parallelogram",
+   "section": "3.3.5",
+   "definition": "Property: the opposite angles of a parallelogram are of equal measure. Property: the adjacent angles in a parallelogram are supplementary (they add to 180 degrees) since they are interior opposite angles on parallel lines.",
+   "formula": "opposite angles equal; adjacent angles supplementary: angle + adjacent_angle = 180",
+   "key_idea": "Opposite angles equal, adjacent angles add to 180 degrees.",
+   "textbook_ref": "hemh103.txt lines 237-294",
+   "question_patterns": [
+    "find all the angles of the parallelogram",
+    "in a parallelogram RING if angle R is 70 find all the other angles",
+    "find x y z in the parallelogram",
+    "the adjacent angles of a parallelogram are in the ratio 3:2",
+    "Answer the exercise task on parallelogram using your own phrasing.",
+    "can a quadrilateral be a parallelogram if angle D + angle B = 180",
+    "find the measure of each angle of the parallelogram",
+    "adjacent angles of a parallelogram are supplementary"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the opposite angle",
+     "explain": "Opposite angles of a parallelogram are equal"
+    },
+    {
+     "step": 2,
+     "action": "find the adjacent angles",
+     "explain": "Adjacent angles are supplementary",
+     "compute": "180 - given_angle"
+    },
+    {
+     "step": 3,
+     "action": "for a ratio m:n of adjacent angles",
+     "explain": "Solve m x + n x = 180, so each angle = 180 x ratio_part / (m + n)",
+     "compute": "180 * m / (m + n)"
+    },
+    {
+     "step": 4,
+     "action": "state all four angles",
+     "explain": "Angles in order: given, supplementary, opposite equal, supplementary"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.5",
+   "title": "Diagonals of a Parallelogram",
+   "section": "3.3.6",
+   "definition": "The diagonals of a parallelogram, in general, are not of equal length. Property: the diagonals of a parallelogram bisect each other (at the point of their intersection). This gives AO = CO and BO = DO.",
+   "formula": "each half diagonal = diagonal / 2",
+   "key_idea": "Diagonals of a parallelogram cut each other into equal halves.",
+   "textbook_ref": "hemh103.txt lines 300-328",
+   "question_patterns": [
+    "what property do the diagonals of a parallelogram have",
+    "find OH in the parallelogram HELP",
+    "Respond to this task about parallelogram without copying the book's wording.",
+    "complete the statement OC = ...... for parallelogram ABCD",
+    "are the diagonals of a parallelogram equal",
+    "find the half diagonal length",
+    "given OE find OP in parallelogram"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the bisect property",
+     "explain": "The diagonals bisect each other, so the point O is the midpoint of each diagonal"
+    },
+    {
+     "step": 2,
+     "action": "compute each half",
+     "explain": "Each half of a diagonal = full diagonal / 2",
+     "compute": "diagonal / 2"
+    },
+    {
+     "step": 3,
+     "action": "find the whole diagonal if a half is given",
+     "explain": "Full diagonal = 2 x half",
+     "compute": "half * 2"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.1",
+   "title": "Rhombus",
+   "section": "3.4.1",
+   "definition": "A rhombus is a quadrilateral with sides of equal length. Since the opposite sides of a rhombus have the same length, it is also a parallelogram; so a rhombus has all the properties of a parallelogram and also that of a kite. Property: the diagonals of a rhombus are perpendicular bisectors of one another.",
+   "formula": "all sides equal; diagonals are perpendicular bisectors of one another",
+   "key_idea": "Rhombus: all sides equal; diagonals perpendicular bisectors.",
+   "textbook_ref": "hemh103.txt lines 368-412",
+   "question_patterns": [
+    "what is a rhombus",
+    "find x y z in the rhombus RICE",
+    "which quadrilateral has diagonals that are perpendicular bisectors",
+    "are all rhombuses kites",
+    "are all rhombuses parallelograms",
+    "diagonals of a rhombus property",
+    "identify quadrilaterals with four sides of equal length"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check all sides equal",
+     "explain": "A rhombus is a quadrilateral with sides of equal length"
+    },
+    {
+     "step": 2,
+     "action": "use parallelogram properties",
+     "explain": "Opposite sides parallel and equal, opposite angles equal, diagonals bisect each other"
+    },
+    {
+     "step": 3,
+     "action": "use diagonal property",
+     "explain": "Diagonals are perpendicular bisectors of one another, so each half-diagonal segment is given by diagonal / 2",
+     "compute": "diagonal / 2"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.2",
+   "title": "Rectangle",
+   "section": "3.4.2",
+   "definition": "A rectangle is a parallelogram with equal angles; that is, a parallelogram in which every angle is a right angle (each angle measures 90 degrees because 4x = 360 gives x = 90). Property: the diagonals of a rectangle are of equal length, and besides being equal they bisect each other.",
+   "formula": "each angle = 90 degrees; diagonals equal and bisect each other",
+   "key_idea": "Rectangle: parallelogram with a right angle; diagonals equal.",
+   "textbook_ref": "hemh103.txt lines 413-449",
+   "question_patterns": [
+    "what is a rectangle",
+    "find x if OR = 2x + 4 and OT = 3x + 1 in rectangle RENT",
+    "which quadrilaterals have diagonals that are equal",
+    "are all rectangles squares",
+    "Explain quadrilateral in your own words and add one example of your own.",
+    "diagonals of a rectangle property",
+    "is every rectangle a parallelogram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use equal diagonals",
+     "explain": "Diagonals of a rectangle are equal, so their halves are also equal"
+    },
+    {
+     "step": 2,
+     "action": "set the halves equal",
+     "explain": "half1 = half2, e.g. 2x + 4 = 3x + 1"
+    },
+    {
+     "step": 3,
+     "action": "solve for x",
+     "explain": "Transpose and divide"
+    },
+    {
+     "step": 4,
+     "action": "use angle property",
+     "explain": "Each angle of a rectangle is 90 degrees; adjacent angles sum 4 x 90 = 360"
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.3",
+   "title": "Square",
+   "section": "3.4.3",
+   "definition": "A square is a rectangle with equal sides. This means a square has all the properties of a rectangle with an additional requirement that all the sides have equal length. In a square the diagonals (i) bisect one another (square being a parallelogram), (ii) are of equal length (square being a rectangle) and (iii) are perpendicular to one another. Property: the diagonals of a square are perpendicular bisectors of each other.",
+   "formula": "all sides equal, all angles 90; diagonals equal, bisect each other, perpendicular",
+   "key_idea": "Square: rectangle with equal sides; diagonals are equal perpendicular bisectors.",
+   "textbook_ref": "hemh103.txt lines 450-484",
+   "question_patterns": [
+    "what is a square",
+    "explain how a square is a parallelogram",
+    "explain how a square is a rhombus",
+    "explain how a square is a rectangle",
+    "state whether all squares are rhombuses",
+    "diagonals of a square property",
+    "can a square be defined as a rhombus with equal angles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check sides and angles",
+     "explain": "All sides equal and all angles 90 degrees"
+    },
+    {
+     "step": 2,
+     "action": "list diagonal properties",
+     "explain": "Diagonals bisect one another, are equal, and are perpendicular"
+    },
+    {
+     "step": 3,
+     "action": "relate to other quadrilaterals",
+     "explain": "A square is a parallelogram, a rectangle and a rhombus all at once"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh103.txt lines 68-71 (Example 1)",
+   "concept": "c8m3.2.1",
+   "question_type": "missing_exterior_angle",
+   "question_pattern": "find measure x when the other exterior angles are {a}, {b}, {c}",
+   "extracted_variables": {
+    "a": "first known exterior angle",
+    "b": "second known exterior angle",
+    "c": "third known exterior angle"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the sum",
+     "explain": "x + a + b + c = 360",
+     "compute": "a + b + c"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 360",
+     "explain": "x = 360 - sum of known angles",
+     "compute": "360 - (a + b + c)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh103.txt lines 81-88 (Example 2)",
+   "concept": "c8m3.2.2",
+   "question_type": "sides_from_exterior_angle",
+   "question_pattern": "find the number of sides of a regular polygon whose each exterior angle is {exterior_angle} degrees",
+   "extracted_variables": {
+    "exterior_angle": "measure of each exterior angle"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "use total exterior measure",
+     "explain": "Total measure of all exterior angles = 360 degrees"
+    },
+    {
+     "step": 2,
+     "action": "divide",
+     "explain": "number of exterior angles = 360 / exterior angle",
+     "compute": "360 / exterior_angle"
+    },
+    {
+     "step": 3,
+     "action": "state the sides",
+     "explain": "The polygon has that many sides"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh103.txt lines 231-235 (Example 3)",
+   "concept": "c8m3.3.3",
+   "question_type": "perimeter_parallelogram",
+   "question_pattern": "find the perimeter of the parallelogram with sides {side1} and {side2}",
+   "extracted_variables": {
+    "side1": "length of one side",
+    "side2": "length of adjacent side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "use opposite sides equal",
+     "explain": "The opposite sides have same length, so the four sides are side1, side2, side1, side2"
+    },
+    {
+     "step": 2,
+     "action": "add the sides",
+     "explain": "Perimeter = 2 x (side1 + side2)",
+     "compute": "2 * (side1 + side2)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh103.txt lines 270-274 (Example 4)",
+   "concept": "c8m3.3.4",
+   "question_type": "angles_parallelogram",
+   "question_pattern": "in parallelogram BEST find x, y, z when one angle is {angle}",
+   "extracted_variables": {
+    "angle": "given angle measure"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "opposite angle",
+     "explain": "x = given angle (opposite angles property)"
+    },
+    {
+     "step": 2,
+     "action": "corresponding angle",
+     "explain": "y equals the angle at the corresponding position"
+    },
+    {
+     "step": 3,
+     "action": "linear pair",
+     "explain": "z = 180 - y since the two angles form a linear pair",
+     "compute": "180 - angle"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh103.txt lines 286-293 (Example 5)",
+   "concept": "c8m3.3.4",
+   "question_type": "all_angles_parallelogram",
+   "question_pattern": "in a parallelogram if one angle is {angle} find all the other angles",
+   "extracted_variables": {
+    "angle": "given angle measure"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "opposite angle",
+     "explain": "The opposite angle equals the given angle"
+    },
+    {
+     "step": 2,
+     "action": "supplementary angles",
+     "explain": "Each adjacent angle = 180 - given angle",
+     "compute": "180 - angle"
+    },
+    {
+     "step": 3,
+     "action": "remaining opposite",
+     "explain": "The last angle equals its opposite"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh103.txt lines 318-328 (Example 6)",
+   "concept": "c8m3.3.5",
+   "question_type": "diagonal_bisect",
+   "question_pattern": "given half diagonal {half1} and the other diagonal {relation}, find the half {half2}",
+   "extracted_variables": {
+    "half1": "given half of one diagonal",
+    "half2": "required half of the other diagonal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the half",
+     "explain": "Full diagonal = 2 x half (diagonals bisect each other)",
+     "compute": "half1 * 2"
+    },
+    {
+     "step": 2,
+     "action": "apply the given relation",
+     "explain": "Use the stated relation to get the other full diagonal"
+    },
+    {
+     "step": 3,
+     "action": "halve it",
+     "explain": "Required half = full diagonal / 2",
+     "compute": "half1"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh103.txt lines 407-412 (Example 7)",
+   "concept": "c8m3.4.1",
+   "question_type": "rhombus_diagonals",
+   "question_pattern": "RICE is a rhombus, find x, y and z",
+   "extracted_variables": {
+    "x": "half of one diagonal",
+    "y": "half of other diagonal",
+    "z": "side of the rhombus"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve each diagonal",
+     "explain": "Diagonals bisect, so x and y are half of the given diagonals",
+     "compute": "diagonal1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "read the side",
+     "explain": "All sides of a rhombus are equal, so z = given side"
+    },
+    {
+     "step": 3,
+     "action": "justify",
+     "explain": "State the properties used: diagonals bisect, all sides equal"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh103.txt lines 442-449 (Example 8)",
+   "concept": "c8m3.4.2",
+   "question_type": "rectangle_halves_equal",
+   "question_pattern": "RENT is a rectangle, find x if one half diagonal is {p}x + {q} and the other is {r}x + {s}",
+   "extracted_variables": {
+    "p": "coefficient of first half",
+    "q": "constant of first half",
+    "r": "coefficient of second half",
+    "s": "constant of second half"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set the halves equal",
+     "explain": "Diagonals of a rectangle are equal so their halves are equal: p x + q = r x + s"
+    },
+    {
+     "step": 2,
+     "action": "transpose",
+     "explain": "(p - r) x = s - q"
+    },
+    {
+     "step": 3,
+     "action": "solve",
+     "explain": "Divide to get x"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.2.1.2",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {n}, {known_angles_sum}.",
+   "extracted_variables": {
+    "n": "n (given value)",
+    "known_angles_sum": "known angles sum (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide for a regular polygon",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 / n"
+    },
+    {
+     "step": 2,
+     "action": "for a missing angle x",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 - known_angles_sum"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.2.1.3",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {n}, {known_angles_sum}.",
+   "extracted_variables": {
+    "n": "n (given value)",
+    "known_angles_sum": "known angles sum (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide for a regular polygon",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 / n"
+    },
+    {
+     "step": 2,
+     "action": "for a missing angle x",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 - known_angles_sum"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.2.2.2",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {interior_angle}, {exterior_angle}.",
+   "extracted_variables": {
+    "interior_angle": "interior angle (given value)",
+    "exterior_angle": "exterior angle (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the exterior angle",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "divide 360 by the exterior angle",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 / exterior_angle"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.2.2.3",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {interior_angle}, {exterior_angle}.",
+   "extracted_variables": {
+    "interior_angle": "interior angle (given value)",
+    "exterior_angle": "exterior angle (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the exterior angle",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "divide 360 by the exterior angle",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "360 / exterior_angle"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.3.3.2",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side1}, {side2}.",
+   "extracted_variables": {
+    "side1": "side1 (given value)",
+    "side2": "side2 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the four sides",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * (side1 + side2)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.3.3.3",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side1}, {side2}.",
+   "extracted_variables": {
+    "side1": "side1 (given value)",
+    "side2": "side2 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the four sides",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * (side1 + side2)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.3.5.2",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.3.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {diagonal}, {half}.",
+   "extracted_variables": {
+    "diagonal": "diagonal (given value)",
+    "half": "half (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute each half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal / 2"
+    },
+    {
+     "step": 2,
+     "action": "find the whole diagonal if a half is given",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "half * 2"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m3.3.5.3",
+   "source_ref": "generated practice sample aligned to hemh103.txt",
+   "concept": "c8m3.3.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {diagonal}, {half}.",
+   "extracted_variables": {
+    "diagonal": "diagonal (given value)",
+    "half": "half (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute each half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal / 2"
+    },
+    {
+     "step": 2,
+     "action": "find the whole diagonal if a half is given",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "half * 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hemh103.txt lines 37-47 (Exercise 3.1)",
+   "questions": [
+    "Classify each of the given figures as: (a) simple curve (b) simple closed curve (c) polygon (d) convex polygon (e) concave polygon",
+    "State clearly what polygon means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hemh103.txt lines 92-103 (Exercise 3.2)",
+   "questions": [
+    "Find x in the given exterior angle figures",
+    "Frame a exterior task like the chapter exercise and solve it with every step shown.",
+    "How is exterior done? Set out the stages yourself.",
+    "Describe, step by step and in your own words, the way interior works.",
+    "Answer the exercise task on exterior using your own phrasing.",
+    "State clearly what exterior means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "hemh103.txt lines 329-366 (Exercise 3.3)",
+   "questions": [
+    "Given a parallelogram ABCD complete each statement: (i) AD = ...... (ii) angle DCB = ...... (iii) OC = ...... (iv) m angle DAB + m angle CDA = ......",
+    "Consider the given parallelograms. Find the values of the unknowns x, y, z",
+    "Can a quadrilateral ABCD be a parallelogram if (i) angle D + angle B = 180? (ii) AB = DC = 8 cm, AD = 4 cm and BC = 4.4 cm? (iii) angle A = 70 and angle C = 65?",
+    "Make your own labelled sketch of parallelogram and mark its parts.",
+    "Write your own answer to this chapter task on parallelogram, with full reasoning (variant 1).",
+    "Write your own answer to this chapter task on parallelogram, with full reasoning (variant 2).",
+    "Write your own answer to this chapter task on parallelogram, with full reasoning (variant 3).",
+    "GUNS and RUNS are parallelograms. Find x and y (lengths in cm)",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about parallelograms.",
+    "Explain how the figure is a trapezium. Which of its two sides are parallel?",
+    "Find m angle C if AB is parallel to DC",
+    "Find the measure of angle P and angle S if SP is parallel to RQ"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "hemh103.txt lines 485-500 (Exercise 3.4)",
+   "questions": [
+    "State whether True or False: (a) All rectangles are squares (b) All rhombuses are parallelograms (c) All squares are rhombuses and also rectangles (d) All squares are not parallelograms (e) All kites are rhombuses (f) All rhombuses are kites (g) All parallelograms are trapeziums (h) All squares are trapeziums",
+    "Identify quadrilaterals in your own words and say what makes it so.",
+    "Explain parallelogram in your own words and add one example of your own.",
+    "Name quadrilaterals and characterise it briefly in your own words.",
+    "Write a short note on quadrilateral using your own phrasing.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about equidistant."
+   ]
+  }
+ ],
+ "source_link": "re-linked to new cache"
+}

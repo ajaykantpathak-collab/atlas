@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_102",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_102",
+   "title": "c6_math_ch09_102",
+   "questions": [
+    {
+     "q": "What is the definition of the mode in a data set?",
+     "a": "The mode is the value that occurs with the highest frequency in a data set. A wrong answer like \"the average\" shows the student is confusing mode with mean, which requires calculation rather than simple counting.",
+     "self_check": true
+    },
+    {
+     "q": "If a list of shoe sizes is 4, 5, 5, 6, 6, 6, 7, why is 6 the mode?",
+     "a": "6 is the mode because it appears 3 times, which is more frequent than any other size. If a student says \"because it is in the middle,\" they are confusing mode with median.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mode of these marks in a test: 10, 15, 10, 20, 10, 15.",
+     "a": "1. List the unique values: 10, 15, 20. 2. Count frequencies: 10 appears 3 times, 15 appears 2 times, 20 appears 1 time. 3. Compare counts: 3 is the largest. 4. Identify mode: 10. A student who says 15 likely miscounted or skipped the last 10.",
+     "self_check": true
+    },
+    {
+     "q": "If a cricket player scores 5, 10, 5, 20, 5, 10 runs in six matches, which score is the mode?",
+     "a": "The mode is 5. It appears 3 times, while 10 appears twice and 20 appears once. A student answering 5 and 10 together is confusing the concept with multimodal data, which is outside our current scope.",
+     "self_check": true
+    },
+    {
+     "q": "Is the mode always the largest number in a data set? Explain.",
+     "a": "No, the mode is the most frequent number, not the biggest one. For example, in 2, 2, 2, 9, 9, the mode is 2, even though 9 is the largest number. A \"Yes\" answer reveals a misunderstanding of \"frequency\" versus \"value magnitude.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a small data set of 5 numbers where the mode is 4.",
+     "a": "A correct set would be 4, 4, 4, 1, 2. A poor answer like 4, 1, 2, 3, 5 shows a failure to ensure 4 appears more frequently than other numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

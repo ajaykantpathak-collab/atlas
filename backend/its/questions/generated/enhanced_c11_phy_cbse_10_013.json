@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_013",
+   "title": "c11_phy_cbse_10_013",
+   "questions": [
+    {
+     "q": "What is the fundamental requirement for natural convection to occur in a fluid?",
+     "a": "Natural convection requires a fluid (liquid or gas) in a gravitational field with a temperature gradient that creates a density gradient, where the fluid at the bottom is hotter (less dense) than the fluid at the top. A wrong answer stating \"convection occurs in solids\" or \"convection does not need gravity\" reveals a confusion with conduction or a misunderstanding of the buoyancy-driven mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convection current stop if a fluid is heated uniformly from all sides (or from the top) instead of from below?",
+     "a": "Convection relies on an unstable density stratification: heavier fluid on top of lighter fluid. Heating from below makes the bottom fluid lighter, so it rises. Heating from the top makes the top fluid lighter, which is already stable (lighter on top, heavier below), so no buoyant rise occurs. A wrong answer like \"heat always rises\" without linking to density inversion shows a memorized phrase without physical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A room heater with a fan (forced convection) warms a 20 m² room in 15 minutes. If the fan breaks and the heater relies only on natural convection, estimate qualitatively how the heating time changes and explain why.",
+     "a": "The heating time will increase significantly (likely by a factor of 3-5 or more). Forced convection uses a fan to create high-velocity flow, enhancing heat transfer by continuously replacing hot air near the heater with cool air. Natural convection relies on slow buoyancy-driven flow (velocities ~ cm/s vs m/s for forced). A wrong answer like \"time remains the same\" or \"heating stops completely\" reveals confusion between the *mechanism* (convection still occurs) and the *rate* (drastically reduced without forced flow).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the convection pattern in a cylindrical beaker of water heated by a Bunsen burner at the center of the base versus one heated at the side near the bottom. Sketch the expected flow lines for both cases.",
+     "a": "Center heating: Symmetric toroidal roll. Hot water rises in a central plume, spreads radially at the surface, cools, and sinks along the cylindrical walls. Side heating: Asymmetric single roll. Hot water rises along the heated wall, moves across the top surface to the opposite side, sinks there, and flows along the bottom back to the heated wall. A wrong answer showing sinking at the center for center-heating reveals a failure to visualize the continuity of mass flow (what goes up must come down somewhere).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a thermos flask, the vacuum layer stops heat loss by convection because there are no molecules to carry heat.\"",
+     "a": "The statement is correct in outcome but imprecise in reasoning. A vacuum prevents convection because convection *requires* a material medium (fluid) for bulk motion; zero molecules means zero mass flow. However, \"carry heat\" applies to conduction too. The key is *bulk motion of matter*. A wrong evaluation focusing only on \"no molecules\" without distinguishing convection (bulk flow) from conduction (molecular collisions) shows a lack of clarity on the distinct mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tabletop experiment using a clear rectangular container, water, food coloring (or potassium permanganate), and a small candle to visualize a convection cell. Describe the setup, the expected observation, and how it proves convection involves bulk fluid motion.",
+     "a": "Setup: Fill container with cold water. Place candle under one bottom corner. Drop a crystal of dye near the candle at the bottom. Observation: Dye rises rapidly in a narrow plume above the candle, curves across the top, descends on the opposite side, and flows along the bottom back to the candle. This visible dye *stream* traces the bulk velocity field of the fluid, proving heat is transferred by moving fluid parcels, not just diffusion. A poor answer that only says \"water gets hot\" or suggests stirring manually misses the self-sustaining, buoyancy-driven nature of the flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

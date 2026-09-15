@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_003",
+   "title": "c7_physics_ch03_003",
+   "questions": [
+    {
+     "q": "Which of the following common kitchen items is classified as a good conductor of heat?\nA) Wooden spatula\nB) Plastic handle of a pressure cooker\nC) Stainless steel frying pan\nD) Woollen potholder",
+     "a": "The correct answer is C. Stainless steel is a metal alloy, and metals are good conductors of heat that allow thermal energy to transfer rapidly from the stove to the food. A student who picks A, B, or D is confusing thermal insulators (bad conductors) with conductors, likely because those items are used to *handle* hot objects safely without burning their hands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why woollen clothes keep us warm in winter, even though wool itself does not generate any heat.",
+     "a": "Wool is a bad conductor of heat (an insulator) and traps a large amount of air within its fibers, and trapped air is also a very poor conductor of heat. Therefore, wool prevents the body heat from escaping out into the colder surrounding winter air, keeping us warm. A student who answers that wool \"produces heat\" has a fundamental misconception that clothing or insulators are heat sources rather than thermal barriers that slow down heat loss.",
+     "self_check": true
+    },
+    {
+     "q": "A metal rod and a plastic rod of identical length and thickness are heated at one end for 5 minutes. If the temperature at the unheated end of the metal rod rises by 40 °C, predict what happens to the temperature at the unheated end of the plastic rod, and calculate the temperature difference if the plastic end rises by only 5 °C.",
+     "a": "Steps:\n1. Identify the given values: Temperature change at unheated end of metal rod = 40 °C; Temperature change at unheated end of plastic rod = 5 °C.\n2. Identify what to find: The temperature difference between the two ends ($\\Delta T$).\n3. Set up the subtraction: $\\Delta T = \\text{Metal temperature change} - \\text{Plastic temperature change}$.\n4. Substitute values with units: $\\Delta T = 40\\text{ °C} - 5\\text{ °C}$.\n5. Compute and track units: $\\Delta T = 35\\text{ °C}$.\nAnswer: The temperature difference is 35 °C. A student who adds the values (45 °C) or subtracts them in reverse (-35 °C) has made an arithmetic error or misunderstood how to find the difference between two comparative thermal responses.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the base of a modern cooking utensil is often made of copper or aluminum, while its handles are coated with thick bakelite or rubber.",
+     "a": "The base is made of a good conductor (copper or aluminum) so that heat from the stove transfers quickly and uniformly to the food being cooked. The handles are coated with a bad conductor (bakelite or rubber) to prevent heat from conducting to the cook's hand, ensuring safe handling. A student who thinks the entire utensil should be made of plastic fails to analyze that a plastic base would melt on a stove and would fail to conduct heat to the food efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Air is a good conductor of heat because heat travels through the atmosphere from the Sun to the Earth.\" Is this statement scientifically accurate? Justify your answer.",
+     "a": "The statement is scientifically inaccurate. Heat travels from the Sun to the Earth through the vacuum of space via radiation, not conduction through air. In fact, air is a very bad conductor of heat (an excellent thermal insulator), which is why double-pane windows and bird feathers trap air to prevent heat transfer. A student who agrees with the claim is confusing the phenomenon of atmospheric radiation/convection with the specific property of thermal conduction through solid or gaseous media.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, safe experiment using household items to test whether water is a good or bad conductor of heat, and describe what observation would confirm your conclusion.",
+     "a": "To test water, one could take a test tube filled with water, drop a small piece of ice weighted with a sinker at the very bottom, and gently heat only the upper part of the water using a candle flame until it boils. If the ice at the bottom takes a very long time to melt while the top water boils, it demonstrates that water is a poor conductor of heat (a bad conductor). A poor or incomplete answer would suggest heating the bottom of the tube directly, which causes bulk movement (convection) rather than testing pure conduction through stationary water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

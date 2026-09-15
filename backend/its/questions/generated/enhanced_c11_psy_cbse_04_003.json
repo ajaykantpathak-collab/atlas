@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_003",
+   "title": "c11_psy_cbse_04_003",
+   "questions": [
+    {
+     "q": "List the sequence of structures through which light passes from the external environment to the photoreceptors in the human eye.",
+     "a": "Correct sequence: Cornea → Aqueous humor → Pupil (opening in iris) → Lens → Vitreous humor → Retina (specifically the photoreceptor layer containing rods and cones). A wrong answer that omits the humors or reverses lens/pupil order reveals the student views the eye as a simple camera rather than a multi-refractive medium. Missing the inverted retinal structure (light passing through neural layers first) indicates lack of understanding of the retina's unique \"backward\" wiring.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why humans have two distinct types of photoreceptors (rods and cones) instead of a single universal photoreceptor.",
+     "a": "Rods and cones represent a fundamental evolutionary trade-off: rods contain rhodopsin which saturates in bright light but achieves single-photon sensitivity for scotopic (night) vision, while cones contain photopsins requiring higher light intensities but enabling color discrimination and high spatial acuity through foveal convergence ratios. A wrong answer suggesting \"rods are for night, cones for day\" without mentioning photopigment biochemistry, convergence ratios, or the duplex retina's adaptive advantage shows superficial memorization without understanding the signal-to-noise optimization that necessitates two systems.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has selective damage to the foveal region but intact peripheral retina. Predict their visual capabilities in: (a) bright daylight reading, (b) dim starlight navigation, (c) color discrimination tasks.",
+     "a": "(a) Severely impaired - fovea contains only cones responsible for high-acuity photopic vision needed for reading. (b) Relatively preserved - peripheral retina is rod-dominant for scotopic vision. (c) Absent - cones mediate color vision; rods are achromatic. A wrong answer predicting equal deficits across conditions reveals confusion about retinal topography. Predicting preserved color vision in periphery indicates misunderstanding that cones concentrate in fovea while rods dominate periphery.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the neural convergence ratios in rod versus cone pathways and explain how this relates to the sensitivity-acuity trade-off.",
+     "a": "Rod pathway: high convergence (many rods → one bipolar → one ganglion cell) yielding high sensitivity (spatial summation) but low acuity (poor spatial resolution). Cone pathway: low convergence (one-to-one in fovea) yielding high acuity but low sensitivity. A wrong answer stating \"rods have more connections\" without specifying convergence direction or confusing convergence with divergence shows lack of systems-level understanding. Missing the link between convergence ratio and receptive field size indicates failure to connect anatomy to perceptual consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Dark adaptation is complete within 5 minutes because rhodopsin regenerates fully in that time.\"",
+     "a": "The claim is false. Dark adaptation has two phases: cone adaptation completes in ~5-7 minutes (photopic curve), but rod adaptation continues for 20-30 minutes (scotopic curve) as rhodopsin regeneration follows slower kinetics. The Purkinje shift (spectral sensitivity shift toward blue) occurs during this transition. A wrong answer accepting the claim reveals confusion between cone and rod adaptation timelines. Attributing full adaptation to pupil dilation alone ignores the photochemical basis of sensitivity recovery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a behavioral experiment to demonstrate the Purkinje shift (the change in spectral sensitivity during dark adaptation) using only colored papers and a dimmable light source.",
+     "a": "Procedure: (1) In bright light, have observer match brightness of red and blue papers. (2) Gradually dim illumination over 30 minutes while observer continuously adjusts which paper appears brighter. (3) Record crossover point where blue appears brighter than red despite equal reflectance. Expected result: In photopic vision, red appears brighter (cone peak sensitivity ~555 nm); in scotopic vision, blue appears brighter (rod peak ~505 nm). A poor design that doesn't control for reflectance, uses insufficient adaptation time, or tests only endpoints misses the dynamic shift. This reveals inability to operationalize a psychophysical phenomenon.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

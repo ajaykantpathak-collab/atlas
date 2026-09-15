@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy201",
+  "concepts": [
+    {
+      "id": "kegy.201.1.1",
+      "questions": [
+        {"q": "Geography integrates the study of which two environments over the earth's surface? (two words)", "a": "physical, human"},
+        {"q": "Into which two great branches does geography divide? (two words)", "a": "physical, human"},
+        {"q": "Which branch of physical geography studies landforms? (one word)", "a": "geomorphology"},
+        {"q": "Which branch of physical geography studies weather and climate? (one word)", "a": "climatology"},
+        {"q": "Which branch of physical geography studies water? (one word)", "a": "hydrology"},
+        {"q": "Which branch of physical geography studies plants and animals? (one word)", "a": "biogeography"},
+        {"q": "Which branch of human geography, besides social and economic geography, studies cities and countryside? (one word)", "a": "urban"}
+      ]
+    },
+    {
+      "id": "kegy.201.2.1",
+      "questions": [
+        {"q": "Which branch of geography deals with earth-surface processes like landforms and climate? (two words)", "a": "physical geography"},
+        {"q": "Which ground material, studied with landforms, climate and water, completes the surface systems of physical geography? (one word)", "a": "soils"},
+        {"q": "Physical geography explains the spatial distribution of what kind of phenomena? (one word)", "a": "natural"},
+        {"q": "How many surface systems does physical geography treat as integrated (landforms, weather, water, soils, life)? (number)", "a": "5"},
+        {"q": "Which geographic branch shows how nature influences human life? (two words)", "a": "physical geography"},
+        {"q": "Does physical geography study phenomena on the earth's surface or its deep interior? (two words)", "a": "earth's surface"},
+        {"q": "Are soils, plants and animals studied together with landforms in physical geography? (yes or no)", "a": "yes"}
+      ]
+    },
+    {
+      "id": "kegy.201.3.1",
+      "questions": [
+        {"q": "Which two coordinates fix the position of any place on the earth? (two words)", "a": "latitude, longitude"},
+        {"q": "Which tool of geography shows the whole or part of the earth to scale on a plane? (one word)", "a": "maps"},
+        {"q": "Which technology senses the earth from aircraft and satellites? (two words)", "a": "remote sensing"},
+        {"q": "The ratio between map distance and ground distance is called what? (one word)", "a": "scale"},
+        {"q": "Geography studies the areal differentiation and spatial what of features? (one word)", "a": "organisation"},
+        {"q": "How many coordinates are needed to fix a point on the earth's surface? (number)", "a": "2"},
+        {"q": "Latitude and longitude together form the earth's what of location? (one word)", "a": "grid"}
+      ]
+    }
+  ]
+}

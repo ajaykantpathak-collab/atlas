@@ -1,0 +1,611 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 3,
+ "chapter_title": "Organisation of Data",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest103.txt",
+ "concepts": [
+  {
+   "id": "c11eco.2.1",
+   "title": "Sources of Data: Primary and Secondary",
+   "section": "2.1",
+   "definition": "Primary data is collected first-hand by the investigator for a specific purpose, while secondary data is obtained from already published or existing sources such as reports, journals, and government publications.",
+   "formula": "",
+   "key_idea": "Primary data is original and collected for the current study; secondary data is borrowed from existing sources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the sources of data in statistics?",
+    "Distinguish between primary and secondary data.",
+    "Give examples of secondary data sources.",
+    "What are the advantages of primary data over secondary data?",
+    "When is it better to use secondary data instead of primary data?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define primary data",
+     "explain": "Primary data is collected directly by the researcher from the field for the first time, specifically for the study being conducted."
+    },
+    {
+     "step": 2,
+     "action": "Define secondary data",
+     "explain": "Secondary data is data that has already been collected and published by an agency or individual, and is now being used by the researcher from sources like census reports, journals, or websites."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two sources",
+     "explain": "Primary data is more reliable and suited to the specific purpose but is costly and time-consuming. Secondary data is cheaper and quicker but may be outdated or not exactly suited to the current study."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is primary data? Give one example.",
+     "solution": "Primary data is data collected first-hand by the investigator. For example, a researcher conducting a door-to-door survey of household spending habits is collecting primary data.",
+     "answer": "Primary data is first-hand data collected for a specific study, e.g., a door-to-door spending survey."
+    },
+    {
+     "question": "List three sources of secondary data.",
+     "solution": "Secondary data can be obtained from published government reports like the Census of India, economic journals such as the Economic and Political Weekly, and international publications like World Bank reports.",
+     "answer": "Census reports, economic journals, and World Bank reports are sources of secondary data."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between primary and secondary data.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two examples each of primary and secondary data sources.",
+     "type": "short_answer"
+    },
+    {
+     "question": "When might a researcher prefer secondary data over primary data?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.2",
+   "title": "Methods of Collecting Primary Data",
+   "section": "2.2",
+   "definition": "Primary data can be collected through direct personal investigation, indirect oral investigation, information from local sources or correspondents, mailed questionnaires, and telephonic interviews.",
+   "formula": "",
+   "key_idea": "The choice of method depends on the purpose, budget, time, and the nature of the respondents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main methods of collecting primary data?",
+    "Explain the direct personal investigation method.",
+    "What is a mailed questionnaire and what are its limitations?",
+    "How does indirect oral investigation work?",
+    "Compare the correspondent method with the questionnaire method."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the methods",
+     "explain": "The main methods are direct personal investigation, indirect oral investigation, information from correspondents, mailed questionnaire, and telephonic interview."
+    },
+    {
+     "step": 2,
+     "action": "Explain each method briefly",
+     "explain": "Direct investigation involves face-to-face contact with respondents; indirect investigation collects information from others who know the respondents; correspondents send reports from different areas; mailed questionnaires are sent by post; telephonic interviews gather data over the phone."
+    },
+    {
+     "step": 3,
+     "action": "Explain the basis of choice",
+     "explain": "The method is chosen based on the scope of the study, the budget, the time available, the literacy of respondents, and the accuracy required."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the direct personal investigation method of collecting data.",
+     "solution": "In direct personal investigation, the researcher personally meets the respondents and collects information through face-to-face interviews. This method gives accurate and reliable data but is suitable only for small studies due to cost and time.",
+     "answer": "Direct personal investigation is face-to-face data collection by the researcher; accurate but limited to small studies."
+    },
+    {
+     "question": "What is a mailed questionnaire? State one advantage and one limitation.",
+     "solution": "A mailed questionnaire is a printed list of questions sent by post to respondents who fill it and return it. Its advantage is wide coverage at low cost; its limitation is a low response rate and the risk of incomplete or biased answers.",
+     "answer": "A mailed questionnaire is a postal survey; advantage is wide coverage, limitation is low response rate."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the five main methods of collecting primary data.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the correspondent method and state when it is useful.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one advantage and one disadvantage of telephonic interviews.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.3",
+   "title": "Census and Sampling Methods",
+   "section": "2.3",
+   "definition": "The census method collects data from every unit of the population, while the sampling method collects data from a selected representative part (sample) of the population and generalises the results.",
+   "formula": "",
+   "key_idea": "Census gives complete and accurate data but is costly; sampling is economical and faster but results are estimates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between census and sampling?",
+    "When is the census method preferred over sampling?",
+    "What are the advantages of sampling over census?",
+    "Give an example where the census method is used in India.",
+    "What are the limitations of the sampling method?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the census method",
+     "explain": "In the census method, information is collected from every single unit of the population, such as the Census of India which covers every household."
+    },
+    {
+     "step": 2,
+     "action": "Define the sampling method",
+     "explain": "In the sampling method, a representative part of the population is selected and studied, and the results are generalised to the whole population, saving time and resources."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two methods",
+     "explain": "Census is more accurate and detailed but expensive and time-consuming; sampling is economical and quick but involves sampling error and gives approximate results."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When is the census method preferred over sampling?",
+     "solution": "The census method is preferred when the population is small, when high accuracy is required, or when the study is of national importance. For example, the Census of India is conducted every ten years to count every person because the data is vital for planning.",
+     "answer": "Census is preferred for small populations or when high accuracy is needed, e.g., the Census of India."
+    },
+    {
+     "question": "State two advantages of sampling over census.",
+     "solution": "Sampling is much cheaper and faster than census because only a part of the population is studied. It also allows more detailed investigation of each sampled unit since the scope is smaller.",
+     "answer": "Sampling is cheaper and faster than census and allows more detailed study of each unit."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between census and sampling methods.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example each of census and sampling used in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.4",
+   "title": "Frequency Distribution",
+   "section": "2.4",
+   "definition": "A frequency distribution is a tabular arrangement of data showing the number of observations (frequency) falling within each class or category.",
+   "formula": "frequency of class = count of observations in that class",
+   "key_idea": "A frequency distribution groups raw data into classes and counts how many observations fall in each class.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a frequency distribution?",
+    "How do you construct a frequency distribution from raw data?",
+    "What is meant by class interval and class frequency?",
+    "Explain the difference between exclusive and inclusive class intervals.",
+    "Construct a frequency distribution for the marks of 20 students."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the range and number of classes",
+     "explain": "Find the difference between the largest and smallest values to get the range, then decide on the number of class intervals.",
+     "compute": "max_value - min_value"
+    },
+    {
+     "step": 2,
+     "action": "Determine class width",
+     "explain": "Divide the range by the number of classes and round up to get the width of each class interval.",
+     "compute": "range / number_of_classes"
+    },
+    {
+     "step": 3,
+     "action": "Count frequencies for each class",
+     "explain": "Tally the observations into the classes and count how many fall in each class interval to get the frequency."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Construct a frequency distribution for the marks: 10, 20, 30, 20, 10, 40, 30, 20, 10, 40.",
+     "solution": "The range is 40 - 10 = 30. Using class intervals of width 10: 0-10 has 0 students, 10-20 has 3 students, 20-30 has 3 students, 30-40 has 2 students, 40-50 has 2 students.",
+     "answer": "10-20: 3, 20-30: 3, 30-40: 2, 40-50: 2 (0-10: 0)."
+    },
+    {
+     "question": "What is the frequency of the class 20-30 in the data 10, 20, 30, 20, 10, 40, 30, 20, 10, 40?",
+     "solution": "The class 20-30 (exclusive, meaning 20 to less than 30) contains the values 20, 20, and 20. So the frequency is 3.",
+     "answer": "The frequency of class 20-30 is 3."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct a frequency distribution for the following data: 5, 10, 15, 10, 5, 20, 15, 10, 5, 20.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between exclusive and inclusive class intervals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define class interval, class limit, and class frequency.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.5",
+   "title": "Types of Variables",
+   "section": "2.5",
+   "definition": "A variable is a characteristic that can take different values. Discrete variables take only whole number values (like number of children), while continuous variables can take any value within a range (like height or weight).",
+   "formula": "",
+   "key_idea": "Discrete variables have gaps between values; continuous variables can take any fractional value within an interval.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a variable in statistics?",
+    "Distinguish between discrete and continuous variables.",
+    "Give examples of discrete and continuous variables.",
+    "Is the number of students in a class a discrete or continuous variable?",
+    "Why is height considered a continuous variable?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a variable",
+     "explain": "A variable is a characteristic or quantity whose value changes from one unit to another, such as age, income, or the number of children in a family."
+    },
+    {
+     "step": 2,
+     "action": "Define discrete variable",
+     "explain": "A discrete variable can take only specific, usually whole-number values, with gaps between them. For example, the number of children in a family can be 0, 1, 2, etc., but not 1.5."
+    },
+    {
+     "step": 3,
+     "action": "Define continuous variable",
+     "explain": "A continuous variable can take any value within a range, including fractions and decimals. For example, height can be 150.3 cm or 150.35 cm, and there are no gaps between possible values."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the following as discrete or continuous: number of workers, height of workers, number of cars, weight of cars.",
+     "solution": "Number of workers and number of cars are discrete variables because they take only whole numbers. Height of workers and weight of cars are continuous variables because they can take any fractional value.",
+     "answer": "Discrete: number of workers, number of cars. Continuous: height of workers, weight of cars."
+    },
+    {
+     "question": "Why is the number of students in a class a discrete variable?",
+     "solution": "The number of students can only be a whole number like 30, 31, or 32. It cannot be 30.5, so there are gaps between possible values, making it discrete.",
+     "answer": "The number of students takes only whole-number values, so it is discrete."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between discrete and continuous variables with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Classify the following as discrete or continuous: salary, number of books, temperature, number of schools.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.6",
+   "title": "Tabular Presentation of Data",
+   "section": "2.6",
+   "definition": "Tabular presentation is the systematic arrangement of data in rows and columns, usually with a title, stub (row headings), caption (column headings), body, and source note.",
+   "formula": "",
+   "key_idea": "A table organises data into rows and columns so that comparisons and relationships can be seen at a glance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is tabular presentation of data?",
+    "What are the main parts of a statistical table?",
+    "How does a table differ from raw data?",
+    "Explain the terms stub, caption, and body in a table.",
+    "Why is tabulation important in statistics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define tabular presentation",
+     "explain": "Tabular presentation arranges data systematically in rows and columns with headings so that the data is easy to read, compare, and interpret."
+    },
+    {
+     "step": 2,
+     "action": "Identify the parts of a table",
+     "explain": "A table has a title (describes the content), stub (row headings on the left), caption (column headings at the top), body (the actual data cells), and a source note indicating where the data came from."
+    },
+    {
+     "step": 3,
+     "action": "Explain the purpose of tabulation",
+     "explain": "Tabulation simplifies complex data, highlights patterns, enables comparison across rows and columns, and provides a compact summary that is easy to reference."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main parts of a statistical table?",
+     "solution": "The main parts are: (1) Table number, (2) Title, (3) Stub (row headings), (4) Caption (column headings), (5) Body (data), (6) Head note (if any), (7) Footnote, and (8) Source note.",
+     "answer": "Title, stub, caption, body, head note, footnote, and source note are the main parts of a table."
+    },
+    {
+     "question": "Why is tabulation preferred over raw data?",
+     "solution": "Raw data is unorganised and hard to interpret. Tabulation arranges it in rows and columns, making patterns, totals, and comparisons visible at a glance.",
+     "answer": "Tabulation organises raw data into rows and columns for easy comparison and interpretation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the main parts of a statistical table.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is tabulation important in statistics?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between stub and caption in a table.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.7",
+   "title": "Bar Diagrams",
+   "section": "2.7",
+   "definition": "A bar diagram is a visual presentation of data using rectangular bars of equal width whose heights or lengths are proportional to the values they represent.",
+   "formula": "height of bar = value represented (to a chosen scale)",
+   "key_idea": "Bar diagrams compare values across categories using bars of equal width with heights proportional to the values.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a bar diagram and how is it constructed?",
+    "What are the different types of bar diagrams?",
+    "How does a simple bar diagram differ from a multiple bar diagram?",
+    "When is a component bar diagram used?",
+    "Construct a bar diagram for the production of wheat over five years."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose a scale for the bars",
+     "explain": "Select a scale so that the largest value fits within the available space, and decide the equal width of each bar.",
+     "compute": "max_value / available_height"
+    },
+    {
+     "step": 2,
+     "action": "Draw axes and label categories",
+     "explain": "Draw the x-axis for categories and the y-axis for values. Mark the categories evenly along the x-axis with equal gaps between bars.",
+     "compute": "value_i / scale"
+    },
+    {
+     "step": 3,
+     "action": "Draw bars and label values",
+     "explain": "Draw rectangular bars of equal width with heights proportional to the values, keeping equal spacing between bars, and label each bar with its value.",
+     "compute": "value / scale"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Draw a simple bar diagram for the production (in tonnes): 2018: 50, 2019: 60, 2020: 40, 2021: 70.",
+     "solution": "Choose a scale where 10 tonnes = 1 cm. The bar heights are: 2018: 5 cm, 2019: 6 cm, 2020: 4 cm, 2021: 7 cm. Draw four bars of equal width with these heights, spaced equally, with years on the x-axis and production on the y-axis.",
+     "answer": "Bar heights: 2018: 5 cm, 2019: 6 cm, 2020: 4 cm, 2021: 7 cm (scale: 10 tonnes = 1 cm)."
+    },
+    {
+     "question": "What is a multiple bar diagram and when is it used?",
+     "solution": "A multiple bar diagram shows two or more bars side by side for each category to compare related variables. For example, it can show male and female literacy rates for different states placed side by side.",
+     "answer": "A multiple bar diagram places related bars side by side per category to compare multiple variables."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct a simple bar diagram for sales (in units): Jan: 30, Feb: 45, Mar: 25, Apr: 50.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between simple, multiple, and component bar diagrams.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.8",
+   "title": "Pie Diagram",
+   "section": "2.8",
+   "definition": "A pie diagram is a circular diagram in which the circle is divided into sectors, and the angle of each sector is proportional to the value it represents out of the total.",
+   "formula": "angle of sector = (value / total) * 360",
+   "key_idea": "A pie diagram shows the share of each component as a sector of a circle, where the full circle (360 degrees) represents the total.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a pie diagram and how is it constructed?",
+    "How do you calculate the angle of each sector in a pie chart?",
+    "Construct a pie diagram for the expenditure on food, rent, and education.",
+    "When is a pie diagram more suitable than a bar diagram?",
+    "What does the full circle represent in a pie diagram?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the total of all values",
+     "explain": "Add up all the component values to get the total, which the full circle of 360 degrees will represent.",
+     "compute": "all_values_total"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the angle for each component",
+     "explain": "For each component, divide its value by the total and multiply by 360 to get the angle of its sector.",
+     "compute": "(value_i / total) * 360"
+    },
+    {
+     "step": 3,
+     "action": "Draw the sectors and label them",
+     "explain": "Draw a circle, use a protractor to mark each sector angle starting from a reference line, shade or colour each sector, and label it with the component name and percentage.",
+     "compute": "(value_i / total) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Construct a pie diagram for expenditure: Food Rs 2000, Rent Rs 1500, Education Rs 1000, Others Rs 500.",
+     "solution": "Total = 2000 + 1500 + 1000 + 500 = 5000. Angles: Food = (2000/5000)*360 = 144 degrees, Rent = (1500/5000)*360 = 108 degrees, Education = (1000/5000)*360 = 72 degrees, Others = (500/5000)*360 = 36 degrees. Draw a circle and divide it into these four sectors.",
+     "answer": "Food: 144 degrees, Rent: 108 degrees, Education: 72 degrees, Others: 36 degrees."
+    },
+    {
+     "question": "In a pie chart, if a component is 25% of the total, what is its sector angle?",
+     "solution": "The sector angle = 25% of 360 degrees = (25/100) * 360 = 90 degrees.",
+     "answer": "The sector angle is 90 degrees."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct a pie diagram for: A = 120, B = 80, C = 60, D = 40.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain when a pie diagram is more suitable than a bar diagram.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If a component takes up 90 degrees in a pie chart, what percentage of the total does it represent?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.9",
+   "title": "Histogram and Frequency Polygon",
+   "section": "2.9",
+   "definition": "A histogram is a bar diagram of a frequency distribution in which bars are drawn for each class interval with no gaps between them, and their heights represent the class frequencies. A frequency polygon is formed by joining the midpoints of the tops of the bars of a histogram with straight lines.",
+   "formula": "area of bar = class_width * frequency (for equal class widths, height = frequency)",
+   "key_idea": "A histogram shows the shape of a frequency distribution using adjacent bars; a frequency polygon connects the midpoints of those bars.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a histogram and how is it different from a bar diagram?",
+    "How do you construct a frequency polygon from a histogram?",
+    "Why are there no gaps between bars in a histogram?",
+    "What is the purpose of a frequency polygon?",
+    "Construct a histogram for a given frequency distribution."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Plot class intervals on the x-axis and frequencies on the y-axis",
+     "explain": "Mark the class boundaries along the x-axis and the frequency values along the y-axis using a suitable scale.",
+     "compute": "max_frequency / available_height"
+    },
+    {
+     "step": 2,
+     "action": "Draw adjacent bars for each class",
+     "explain": "For each class interval, draw a bar whose height equals the frequency. Bars must touch each other with no gaps, since the variable is continuous.",
+     "compute": "frequency_i / scale"
+    },
+    {
+     "step": 3,
+     "action": "Join midpoints to form the frequency polygon",
+     "explain": "Find the midpoint of the top of each bar, connect consecutive midpoints with straight lines, and close the polygon by joining to the midpoints of the empty classes at both ends.",
+     "compute": "(lower_limit_i + upper_limit_i) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a histogram differ from a bar diagram?",
+     "solution": "In a bar diagram, bars are separated by gaps and represent discrete categories. In a histogram, bars are adjacent with no gaps because they represent continuous class intervals of a frequency distribution.",
+     "answer": "A histogram has no gaps between bars and shows continuous class intervals; a bar diagram has gaps and shows discrete categories."
+    },
+    {
+     "question": "How is a frequency polygon constructed from a histogram?",
+     "solution": "First draw the histogram. Then mark the midpoint of the top of each bar. Connect these midpoints with straight lines. To close the polygon, extend the line to the midpoints of the class intervals just before and after the first and last bars (with zero frequency).",
+     "answer": "Join the midpoints of the tops of histogram bars with straight lines and close at both ends with zero-frequency classes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct a histogram for the frequency distribution: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 6.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why there are no gaps between bars in a histogram.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the steps to draw a frequency polygon from a histogram.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.10",
+   "title": "Ogive and Time Series Graphs",
+   "section": "2.10",
+   "definition": "An ogive is a cumulative frequency curve drawn by plotting cumulative frequencies against the upper or lower class boundaries. A time series graph plots values of a variable against time to show how it changes over a period.",
+   "formula": "cumulative frequency = running total of frequencies up to that class",
+   "key_idea": "An ogive shows cumulative totals and helps find the median; a time series graph shows the trend of a variable over time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an ogive and how is it constructed?",
+    "What is the difference between a less-than and more-than ogive?",
+    "How is a time series graph drawn?",
+    "What information does a time series graph convey?",
+    "How can an ogive be used to find the median?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate cumulative frequencies",
+     "explain": "For a less-than ogive, add frequencies from the top; for a more-than ogive, add from the bottom. The running total gives the cumulative frequency for each class boundary."
+    },
+    {
+     "step": 2,
+     "action": "Plot cumulative frequencies against class boundaries",
+     "explain": "For a less-than ogive, plot cumulative frequency against the upper class boundary. For a time series, plot the variable value against the corresponding time period on the x-axis."
+    },
+    {
+     "step": 3,
+     "action": "Join the points with a smooth curve",
+     "explain": "Connect the plotted points with a smooth freehand curve for an ogive, or with straight line segments for a time series graph, and label the axes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is an ogive? Distinguish between less-than and more-than ogives.",
+     "solution": "An ogive is a cumulative frequency curve. A less-than ogive is drawn by plotting cumulative frequencies against upper class boundaries (frequencies added from the top). A more-than ogive is drawn by plotting cumulative frequencies against lower class boundaries (frequencies added from the bottom).",
+     "answer": "A less-than ogive uses upper boundaries and top-down totals; a more-than ogive uses lower boundaries and bottom-up totals."
+    },
+    {
+     "question": "How is a time series graph constructed and what does it show?",
+     "solution": "A time series graph plots the values of a variable (like sales or temperature) on the y-axis against time (years, months) on the x-axis. The points are joined by straight lines. It shows the trend -- whether the variable is rising, falling, or fluctuating over time.",
+     "answer": "A time series graph plots values against time and shows the trend of the variable over the period."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Construct a less-than ogive for: 0-10: 4, 10-20: 6, 20-30: 10, 30-40: 8.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how an ogive can be used to find the median.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What does a time series graph reveal about a variable?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_8",
+   "title": "c9_physics_ch4_8",
+   "questions": [
+    {
+     "q": "State the Law of Conservation of Mechanical Energy and write the mathematical equation for a body falling freely under gravity from height h.",
+     "a": "The total mechanical energy (KE + PE) of an isolated system remains constant if only conservative forces act. For free fall from height h: mgh + 0 = 0 + (1/2)mv², so mgh = (1/2)mv². A wrong answer like \"energy is always conserved in every situation\" reveals the student ignores the condition of conservative forces only and forgets that friction or air resistance removes mechanical energy from the system.",
+     "self_check": true
+    },
+    {
+     "q": "A ball is thrown vertically upward. At half its maximum height, is its kinetic energy equal to its potential energy? Explain why or why not using energy conservation.",
+     "a": "Yes. At maximum height H, total energy = mgH. At half height (H/2), PE = mg(H/2) = half the total energy. Since total energy is conserved, KE must also be half the total energy, so KE = PE. A student who says \"no, KE is greater because the ball is moving fast\" confuses speed with energy and forgets that at the top KE=0 and at the bottom PE=0, so halfway they must be equal.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg stone is dropped from a 20 m high building. Calculate its kinetic energy and speed just before it hits the ground. Take g = 10 m/s².",
+     "a": "Step 1: Initial PE = mgh = 2 × 10 × 20 = 400 J. Initial KE = 0.\nStep 2: By conservation, final KE = initial PE = 400 J.\nStep 3: KE = ½mv² → 400 = ½ × 2 × v² → v² = 400 → v = 20 m/s.\nAnswer: KE = 400 J, speed = 20 m/s. A wrong answer like v = 400 m/s shows the student forgot to divide by mass and the ½ factor, treating KE = mv² instead of ½mv².",
+     "self_check": true
+    },
+    {
+     "q": "A simple pendulum of length 1 m is released from a horizontal position. Compare its speed at the lowest point with the speed of a block sliding down a frictionless incline of height 1 m. Are they equal? Justify.",
+     "a": "Yes, both speeds are equal. For the pendulum: loss in PE = mg(1) = gain in KE → v = √(2g). For the block on incline: vertical drop = 1 m, same PE loss → same KE gain → same v = √(2g). Path doesn't matter for conservative forces. A student who says \"the block is faster because the incline is steeper\" confuses acceleration with final speed and ignores that energy conservation depends only on vertical height change, not path.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 0.5 kg ball falls from 10 m. Find KE at 4 m height.\" Their working: Initial PE = 0.5×10×10 = 50 J. Final PE = 0.5×10×4 = 20 J. They write KE = 50 J. Is this correct? Identify the error.",
+     "a": "Incorrect. The student forgot to subtract final PE from initial PE. Correct: KE at 4 m = Initial PE - Final PE = 50 - 20 = 30 J. The error reveals the student thinks \"energy is conserved so KE equals initial PE\" without realizing that at intermediate heights some energy is still stored as PE. They must apply KE = Total E - PE_at_that_point.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that a ball rolling down a ramp and a ball dropped vertically from the same height hit the ground with the same speed (ignoring friction). List materials, procedure, and how you would measure speed.",
+     "a": "Materials: Two identical marbles, a long wooden plank (ramp), a chair (height ~1 m), stopwatch, meter scale. Procedure: (1) Drop marble A vertically from chair seat; time its fall. (2) Release marble B from rest at top of plank placed on chair; time its roll. (3) Calculate speed from v = gt for drop and v = 2s/t for ramp (if acceleration constant). Both should give v ≈ √(2gh) ≈ 4.4 m/s for h=1m. A poor answer uses different masses or measures time only without calculating speed, showing they don't connect the experiment to the energy equation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

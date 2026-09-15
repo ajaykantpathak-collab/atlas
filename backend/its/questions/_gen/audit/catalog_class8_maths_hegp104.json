@@ -1,0 +1,269 @@
+{
+ "catalog": "catalog_class8_maths_hegp104.json",
+ "concepts": [
+  {
+   "id": "hegp.104.4.1",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 50"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (9 + 15)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 20 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((10 / 2) ** 2 + (10 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 3 * 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 40 - 80"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "adj = 180 - 50"
+   ]
+  },
+  {
+   "id": "hegp.104.4.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 43"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 132"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 80"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 83 - 185"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 78"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 45"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.104.4.3",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 43"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 110"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 52"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 117 - 162"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 31"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 130"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 43"
+   ]
+  },
+  {
+   "id": "hegp.104.4.4",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 31"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 153"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 23"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 55 - 78"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 72"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 95"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.104.4.5",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 120"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (8 + 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 16 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((6 / 2) ** 2 + (4 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 15 * 15)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 60 - 80"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "adj = 180 - 120"
+   ]
+  },
+  {
+   "id": "hegp.104.4.6",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 22"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 167"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 16"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 28 - 195"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 131"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

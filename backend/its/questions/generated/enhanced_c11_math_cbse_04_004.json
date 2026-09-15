@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_04_004",
+   "title": "c11_math_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the induction hypothesis when proving the formula for the sum of the first n natural numbers, 1 + 2 + 3 + ... + n = n(n+1)/2?",
+     "a": "The induction hypothesis is: Assume the formula holds for some arbitrary natural number k, i.e., 1 + 2 + 3 + ... + k = k(k+1)/2. A wrong answer (e.g., assuming it holds for all n, or assuming it holds for k+1) reveals confusion between the hypothesis and the conclusion, or misunderstanding that the hypothesis is assumed for a specific but arbitrary k, not for all n.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to prove the base case (usually n=1) before doing the inductive step when proving a summation formula?",
+     "a": "The base case anchors the induction; without it, the inductive step only shows that if the statement is true for some k, then it's true for k+1, but there is no starting point to trigger the chain. A wrong answer (e.g., \"base case is not needed\" or \"inductive step proves base case\") reveals a fundamental misunderstanding of the logical structure of induction.",
+     "self_check": true
+    },
+    {
+     "q": "Prove by induction that the sum of the first n odd natural numbers is n². (Show the base case and the inductive step clearly.)",
+     "a": "Base case (n=1): Sum of first 1 odd number = 1 = 1². True.\nInductive hypothesis: Assume 1 + 3 + 5 + ... + (2k-1) = k².\nInductive step: For n = k+1, sum = [1 + 3 + ... + (2k-1)] + (2(k+1)-1) = k² + (2k+1) = k² + 2k + 1 = (k+1)². Hence proved.\nA wrong answer (e.g., forgetting to add the (k+1)th term correctly, or misidentifying the (k+1)th odd number as 2k+1 instead of 2k+1) reveals algebraic manipulation errors or misunderstanding of the sequence pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inductive step for proving Σ i = n(n+1)/2 and Σ i² = n(n+1)(2n+1)/6. What algebraic manipulation is common to both, and what makes the sum of squares more challenging?",
+     "a": "Both require adding the (k+1)th term to the assumed sum for k and simplifying to the target expression with k+1. The sum of squares is more challenging because it involves factoring a cubic polynomial (k(k+1)(2k+1)/6 + (k+1)²) into (k+1)(k+2)(2k+3)/6, which requires more advanced factoring skills. A wrong answer (e.g., saying both are equally easy, or not recognizing the need to factor) reveals lack of algebraic fluency or failure to see the structural similarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that to prove Σ_{i=1}^{n} i³ = [n(n+1)/2]² by induction, they can just use the formula for sum of first n numbers and square it. Evaluate this claim.",
+     "a": "The claim is incorrect as a proof method. While the identity Σ i³ = (Σ i)² is true, using it to prove the formula by induction would be circular if the sum of cubes formula is derived from the sum of numbers formula without independent verification. Induction requires assuming the sum of cubes formula for k and proving for k+1 directly. A wrong answer (agreeing with the student) reveals confusion between algebraic identity and inductive proof structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a summation formula for the series 2 + 5 + 8 + ... + (3n-1) and prove it by induction.",
+     "a": "The series is arithmetic with first term 2, common difference 3. Sum = n/2 [2*2 + (n-1)*3] = n(3n+1)/2.\nProof: Base n=1: 2 = 1(3+1)/2 = 2. Assume true for k: sum = k(3k+1)/2. For k+1: sum = k(3k+1)/2 + (3(k+1)-1) = (3k²+k)/2 + (3k+2) = (3k²+k+6k+4)/2 = (3k²+7k+4)/2 = (k+1)(3k+4)/2 = (k+1)(3(k+1)+1)/2. Hence proved.\nA poor answer (e.g., wrong formula, missing steps) reveals inability to identify the pattern or perform the algebraic simplification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

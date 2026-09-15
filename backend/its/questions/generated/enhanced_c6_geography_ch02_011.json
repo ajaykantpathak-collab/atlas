@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_011",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_011",
+   "title": "c6_geography_ch02_011",
+   "questions": [
+    {
+     "q": "What is wind?",
+     "a": "Wind is simply air in motion. A student who answers \"a type of gas\" or \"the weather\" is confusing the substance with the action; they need to recall that movement is the defining feature of wind.",
+     "self_check": true
+    },
+    {
+     "q": "If a region is very cold, will the air there have high or low pressure?",
+     "a": "The air will have high pressure. If the student answers \"low pressure,\" they have confused the behavior of cooling (contracting/sinking) with heating (expanding/rising).",
+     "self_check": true
+    },
+    {
+     "q": "If City A is hot and City B is cold, in which direction will the wind blow?",
+     "a": "The wind will blow from City B (cold/high pressure) to City A (hot/low pressure). A wrong answer suggests the student hasn't internalized the \"high-to-low\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Why does warm air rise?",
+     "a": "Warm air expands, which makes it less dense and lighter, causing it to rise above the heavier, cooler air. A wrong answer like \"because it is fast\" suggests they are guessing rather than understanding density changes.",
+     "self_check": true
+    },
+    {
+     "q": "Is air pressure the same everywhere on Earth? Why or why not?",
+     "a": "No, it varies because temperatures are different in different places, which changes how air behaves. A wrong answer suggests the student thinks the atmosphere is a uniform \"blanket\" that never changes weight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to show that air moves from cold to warm areas.",
+     "a": "The student should propose placing an incense stick near a heat source (like a lamp) and observing the smoke drift toward the heat. A poor answer fails to include a way to visualize the invisible air movement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

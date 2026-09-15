@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class9_social_science_ch204",
+ "concepts": [
+  {
+   "id": "iess.204.1",
+   "title": "Dimensions of Food Security",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dimensions of Food Security' refers to.",
+     "a": "The multi-faceted framework of food security encompassing its physical availability, economic and physical accessibility, and financial affordability to all individuals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dimensions of Food Security'.",
+     "a": "Food security requires food to be available, reachable, and affordable for everyone without barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Dimensions of Food Security' taught, and from which source text?",
+     "a": "What is food security? (source: iess204.txt lines 13-32)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.2",
+   "title": "Total Foodgrain Availability Calculation",
+   "questions": [
+    {
+     "q": "Calculate the total foodgrain availability given production, imports, and exports.. Use the method 'Total Foodgrain Availability Calculation'. Work with: exports = 5, imports = 3, production = 4. Carry the chain through step by step and give the final value of total_availability.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the net availability of rice if the production is {production} lakh tonnes, imports are {imports} lakh tonnes, and exports are {exports} lakh tonnes.. Use the method 'Total Foodgrain Availability Calculation'. Work with: exports = 4, imports = 15, production = 10. Carry the chain through step by step and give the final value of total_availability.",
+     "a": "21 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Foodgrain Availability Calculation' refers to.",
+     "a": "The quantitative measurement of the net amount of foodgrains available in a region or country, calculated by adding domestic production and imports, and subtracting exports.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Foodgrain Availability Calculation'.",
+     "a": "Net food availability is the sum of domestic output and net trade.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Foodgrain Availability Calculation', in plain ASCII form.",
+     "a": "total_availability = production + imports - exports",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.3",
+   "title": "Impact of Natural Calamity on Food Security",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Impact of Natural Calamity on Food Security' refers to.",
+     "a": "The process by which natural disasters disrupt agricultural production, leading to food shortages, price inflation, and potential starvation or famine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Impact of Natural Calamity on Food Security'.",
+     "a": "Calamities decrease food production, driving up prices and making food unaffordable for the poorest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Impact of Natural Calamity on Food Security' taught, and from which source text?",
+     "a": "Why food security? (source: iess204.txt lines 33-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.4",
+   "title": "Food Insecure Groups",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Insecure Groups' refers to.",
+     "a": "Identification of social and economic segments of the population that are highly vulnerable to nutritional and food deprivation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Insecure Groups'.",
+     "a": "Landless laborers, traditional artisans, casual urban workers, and marginalized social groups face the highest risk of food insecurity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Food Insecure Groups' taught, and from which source text?",
+     "a": "Who are food-insecure? (source: iess204.txt lines 110-145)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.5",
+   "title": "Chronic vs Seasonal Hunger",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chronic vs Seasonal Hunger' refers to.",
+     "a": "Distinguishing between persistent, long-term hunger due to low income (chronic) and cyclical hunger linked to agricultural or casual labor patterns (seasonal).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chronic vs Seasonal Hunger'.",
+     "a": "Chronic hunger stems from structural poverty, while seasonal hunger is tied to periodic employment cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Chronic vs Seasonal Hunger' taught, and from which source text?",
+     "a": "Who are food-insecure? (source: iess204.txt lines 175-205)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.6",
+   "title": "Buffer Stock and Minimum Support Price",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Buffer Stock and Minimum Support Price' refers to.",
+     "a": "The government mechanism of procuring foodgrains (wheat and rice) from surplus states at a pre-announced price (MSP) to maintain security reserves.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Buffer Stock and Minimum Support Price'.",
+     "a": "MSP incentivizes farmers to produce, while buffer stocks ensure grain availability for distribution during shortages.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Buffer Stock and Minimum Support Price' taught, and from which source text?",
+     "a": "What is Buffer stock? (source: iess204.txt lines 245-275)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.7",
+   "title": "Public Distribution System (PDS)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Distribution System (PDS)' refers to.",
+     "a": "The system through which the government distributes subsidized foodgrains and essential commodities to the poor via a network of fair price shops.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Distribution System (PDS)'.",
+     "a": "PDS acts as a price-stabilizing and food-distributing network of ration shops.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Distribution System (PDS)' taught, and from which source text?",
+     "a": "What is the Public Distribution System? (source: iess204.txt lines 276-310)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.8",
+   "title": "National Food Security Act (NFSA) Coverage",
+   "questions": [
+    {
+     "q": "Calculate the total population eligible for food security under NFSA 2013.. Use the method 'National Food Security Act (NFSA) Coverage'. Work with: rural_population = 125000, urban_population = 60000. Carry the chain through step by step and give the final value of eligible_population.",
+     "a": "123750 persons",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of eligible beneficiaries under NFSA for a district with {rural_population} rural residents and {urban_population} urban residents.. Use the method 'National Food Security Act (NFSA) Coverage'. Work with: rural_population = 1200, urban_population = 12000. Carry the chain through step by step and give the final value of eligible_population.",
+     "a": "6900 persons",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'National Food Security Act (NFSA) Coverage' refers to.",
+     "a": "The legal framework providing subsidized foodgrains to eligible households, covering specified percentages of rural and urban populations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Food Security Act (NFSA) Coverage'.",
+     "a": "NFSA 2013 legally guarantees food security to 75% of rural and 50% of urban populations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'National Food Security Act (NFSA) Coverage', in plain ASCII form.",
+     "a": "eligible_population = (rural_population * 0.75) + (urban_population * 0.50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.204.9",
+   "title": "Role of Cooperatives in Food Security",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of Cooperatives in Food Security' refers to.",
+     "a": "The contribution of cooperative societies and non-governmental networks in distributing essential food items at controlled, affordable rates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of Cooperatives in Food Security'.",
+     "a": "Cooperatives like Amul, Mother Dairy, and grain banks run by NGOs provide alternative, reliable channels for food security.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of Cooperatives in Food Security' taught, and from which source text?",
+     "a": "Role of cooperatives in food security (source: iess204.txt lines 440-475)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

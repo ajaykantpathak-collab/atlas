@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch10_004",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch10_004",
+   "title": "c6_biology_ch10_004",
+   "questions": [
+    {
+     "q": "Do plants only respire when there is sunlight available?",
+     "a": "No, plants respire all the time, both day and night. A \"Yes\" answer reveals the common misunderstanding that respiration is part of photosynthesis, whereas respiration is a separate life process for energy production that never stops.",
+     "self_check": true
+    },
+    {
+     "q": "Since plants don't have lungs, how do they get the oxygen they need into their roots?",
+     "a": "Plants get oxygen into their roots through the small spaces between soil particles, which allows gas exchange across the surface of the roots. An answer stating that roots \"don't need oxygen\" or \"get it from the leaves\" shows a misunderstanding of how independent and localized gas exchange is in plants.",
+     "self_check": true
+    },
+    {
+     "q": "If a plant is kept in a sealed dark box, will it still release carbon dioxide? Why?",
+     "a": "Yes, the plant will release carbon dioxide. Even without light, the plant's cells must continue to break down food to release energy for survival, and the byproduct of this respiration is carbon dioxide. An answer of \"No\" suggests the student thinks respiration is dependent on light or photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the gas exchange in a leaf versus the gas exchange in a root.",
+     "a": "Leaves exchange gases primarily through specialized pores (stomata), while roots exchange gases through their surface skin via air pockets in the soil. A student who struggles here may be failing to realize that every part of a plant is a living organ that requires its own gas exchange mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to say that plants \"breathe\" exactly like humans? Justify your answer.",
+     "a": "No, it is not accurate. Humans use a centralized system (lungs, trachea, diaphragm) to move gases, while plants use a decentralized system where each part (leaf, stem, root) manages its own gas exchange directly with the environment. An incorrect answer suggests a lack of understanding regarding biological diversity in living processes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation to prove that a plant part (like a stem or root) is taking in gases.",
+     "a": "A good answer would involve placing a small piece of stem or a root in a container with a sensor or monitoring the growth/health in an environment with restricted air access (like waterlogged soil). Poor answers often suggest looking at leaves only, failing to demonstrate that the student understands respiration occurs in all living plant tissues.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

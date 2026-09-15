@@ -1,0 +1,1123 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 202,
+ "chapter_title": "Financial Statements - II",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac202.txt",
+ "concepts": [
+  {
+   "id": "keac.9.2",
+   "title": "Closing Stock Adjustment and Adjusted Purchases",
+   "section": "9.2",
+   "definition": "Closing stock represents the value of unsold inventory at the end of the financial period, which can either be credited to the trading account or adjusted directly through purchases.",
+   "formula": "adjusted_purchases = purchases + opening_stock - closing_stock",
+   "key_idea": "Closing stock is credited to trading account and shown as a current asset, or adjusted via purchases to show adjusted purchases on the debit side.",
+   "textbook_ref": "keac202.txt lines 80-130",
+   "question_patterns": [
+    "calculate adjusted purchases",
+    "find adjusted purchases given opening stock, purchases and closing stock",
+    "determine the cost of adjusted purchases",
+    "compute net adjusted purchases for trading account",
+    "calculate closing stock adjustment and adjusted purchases for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add opening stock to total purchases",
+     "explain": "combine initial inventory with purchases during the period",
+     "compute": "total_available = purchases + opening_stock"
+    },
+    {
+     "step": 2,
+     "action": "deduct closing stock",
+     "explain": "subtract remaining stock at year end to arrive at adjusted purchases",
+     "compute": "adjusted_purchases = total_available - closing_stock"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.9.2_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.9.2",
+     "question_type": "compute",
+     "extracted_variables": {
+      "closing_stock": "10",
+      "opening_stock": "10",
+      "purchases": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "add opening stock to total purchases",
+       "explain": "combine initial inventory with purchases during the period",
+       "compute": "total_available = purchases + opening_stock"
+      },
+      {
+       "step": 2,
+       "action": "deduct closing stock",
+       "explain": "subtract remaining stock at year end to arrive at adjusted purchases",
+       "compute": "adjusted_purchases = total_available - closing_stock"
+      }
+     ],
+     "question_pattern": "calculate adjusted purchases (given {closing_stock}, {opening_stock}, {purchases})"
+    },
+    {
+     "id": "ex_re_keac.9.2_2",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.9.2",
+     "question_type": "compute",
+     "extracted_variables": {
+      "closing_stock": "10",
+      "opening_stock": "10",
+      "purchases": "2"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "add opening stock to total purchases",
+       "explain": "combine initial inventory with purchases during the period",
+       "compute": "total_available = purchases + opening_stock"
+      },
+      {
+       "step": 2,
+       "action": "deduct closing stock",
+       "explain": "subtract remaining stock at year end to arrive at adjusted purchases",
+       "compute": "adjusted_purchases = total_available - closing_stock"
+      }
+     ],
+     "question_pattern": "calculate adjusted purchases (given {closing_stock}, {opening_stock}, {purchases})"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.3",
+   "title": "Outstanding Expenses Adjustment",
+   "section": "9.3",
+   "definition": "Unpaid expenses incurred during the current financial period are outstanding expenses and must be added to the relevant expense head and recorded as a current liability.",
+   "formula": "total_expense = expense_paid + outstanding_expense",
+   "key_idea": "Accrual basis mandates adding unpaid costs to current year expenses and recognizing a corresponding liability.",
+   "textbook_ref": "keac202.txt lines 132-175",
+   "question_patterns": [
+    "calculate total expense to be debited to profit and loss account including outstanding amount",
+    "find the final expense when unpaid expense is given",
+    "what is the total wages expense if outstanding wages exist",
+    "compute effective period expense with outstanding balance",
+    "calculate outstanding expenses adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add outstanding expense to expense paid",
+     "explain": "combine paid expense with unpaid accrued obligation for the period",
+     "compute": "total_expense = expense_paid + outstanding_expense"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate total expense to be debited to profit and loss account including outstanding amount (take expense_paid = 10, outstanding_expense = 10)",
+     "solution": "Applying the concept's compute chain with expense_paid = 10, outstanding_expense = 10 gives 20.0.",
+     "answer": "20.0"
+    },
+    {
+     "question": "calculate total expense to be debited to profit and loss account including outstanding amount (take expense_paid = 10, outstanding_expense = 2)",
+     "solution": "Applying the concept's compute chain with expense_paid = 10, outstanding_expense = 2 gives 12.0.",
+     "answer": "12.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.4",
+   "title": "Prepaid Expenses Adjustment",
+   "section": "9.4",
+   "definition": "Expenses paid in advance whose benefits extend into the subsequent accounting period are deducted from total expenses and presented as current assets.",
+   "formula": "effective_expense = expense_paid - prepaid_expense",
+   "key_idea": "Advance payments for future periods are excluded from current P&L expense and carried forward as assets.",
+   "textbook_ref": "keac202.txt lines 177-220",
+   "question_patterns": [
+    "calculate net expense after deducting prepaid portion",
+    "find insurance premium to be charged to profit and loss account",
+    "determine effective salary expense given advance paid",
+    "compute actual current year cost when unexpired portion exists",
+    "calculate prepaid expenses adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract prepaid portion from total amount paid",
+     "explain": "deduct benefit relating to the next accounting year from current payments",
+     "compute": "effective_expense = expense_paid - prepaid_expense"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate net expense after deducting prepaid portion (take expense_paid = 10, prepaid_expense = 10)",
+     "solution": "Applying the concept's compute chain with expense_paid = 10, prepaid_expense = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.5",
+   "title": "Accrued Income Adjustment",
+   "section": "9.5",
+   "definition": "Income earned during the current period but not yet received in cash by the end of the year is added to total revenue and listed as a current asset.",
+   "formula": "total_income = income_received + accrued_income",
+   "key_idea": "Revenues earned but uncollected are recognized in the profit and loss account and shown under current assets.",
+   "textbook_ref": "keac202.txt lines 222-260",
+   "question_patterns": [
+    "calculate total income earned including accrued revenue",
+    "find total commission credited to profit and loss account",
+    "determine total interest receivable for the accounting period",
+    "what amount of income should be recognized when accrued revenue is present",
+    "calculate accrued income adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add accrued income to income received",
+     "explain": "combine actual cash received with income earned but pending receipt",
+     "compute": "total_income = income_received + accrued_income"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate total income earned including accrued revenue (take accrued_income = 10, income_received = 10)",
+     "solution": "Applying the concept's compute chain with accrued_income = 10, income_received = 10 gives 20.0.",
+     "answer": "20.0"
+    },
+    {
+     "question": "calculate total income earned including accrued revenue (take accrued_income = 10, income_received = 2)",
+     "solution": "Applying the concept's compute chain with accrued_income = 10, income_received = 2 gives 12.0.",
+     "answer": "12.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.6",
+   "title": "Income Received in Advance Adjustment",
+   "section": "9.6",
+   "definition": "Revenue received during the current period that relates to future accounting periods must be deducted from current income and reported as a current liability.",
+   "formula": "earned_income = income_received - advance_income",
+   "key_idea": "Unearned revenue collected in advance is excluded from current income and treated as a liability.",
+   "textbook_ref": "keac202.txt lines 262-298",
+   "question_patterns": [
+    "calculate net earned income when advance receipt is included",
+    "find actual rent income for the current financial year",
+    "determine current period revenue deducting unearned advance",
+    "compute profit and loss credit balance for income received in advance",
+    "calculate income received in advance adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract unearned income received in advance",
+     "explain": "remove the portion belonging to future periods from total cash receipts",
+     "compute": "earned_income = income_received - advance_income"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate net earned income when advance receipt is included (take advance_income = 10, income_received = 10)",
+     "solution": "Applying the concept's compute chain with advance_income = 10, income_received = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate net earned income when advance receipt is included (take advance_income = 10, income_received = 2)",
+     "solution": "Applying the concept's compute chain with advance_income = 10, income_received = 2 gives -8.0.",
+     "answer": "-8.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.7",
+   "title": "Depreciation Adjustment",
+   "section": "9.7",
+   "definition": "Depreciation is the reduction in book value of fixed assets due to wear, tear, and usage over time, charged as a expense in P&L and deducted from asset cost in Balance Sheet.",
+   "formula": "depreciation = asset_cost * rate / 100",
+   "key_idea": "Depreciation allocates fixed asset cost as an expense, reducing net profit and asset book value.",
+   "textbook_ref": "keac202.txt lines 300-338",
+   "question_patterns": [
+    "calculate depreciation charge on fixed asset",
+    "find net book value of asset after depreciation",
+    "compute depreciation amount given asset value and percentage rate",
+    "determine asset value in balance sheet after depreciation",
+    "calculate depreciation adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate annual depreciation",
+     "explain": "multiply original asset cost by the annual depreciation rate",
+     "compute": "depreciation = asset_cost * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate net asset book value",
+     "explain": "subtract depreciation from the asset cost",
+     "compute": "net_book_value = asset_cost - depreciation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate depreciation charge on fixed asset (take asset_cost = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with asset_cost = 10, rate = 10 gives 9.0.",
+     "answer": "9.0"
+    },
+    {
+     "question": "calculate depreciation charge on fixed asset (take asset_cost = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with asset_cost = 10, rate = 2 gives 9.8.",
+     "answer": "9.8"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.8",
+   "title": "Bad Debts and Further Bad Debts Adjustment",
+   "section": "9.8",
+   "definition": "Irrecoverable debts written off during the period are recorded as bad debts; additional irrecoverable amounts identified at year-end are further bad debts that reduce debtors balance.",
+   "formula": "total_bad_debts = existing_bad_debts + further_bad_debts",
+   "key_idea": "Further bad debts increase total bad debt expense in P&L and directly reduce sundry debtors in the balance sheet.",
+   "textbook_ref": "keac202.txt lines 340-388",
+   "question_patterns": [
+    "calculate total bad debts expense for profit and loss account",
+    "find remaining debtors after writing off further bad debts",
+    "compute revised bad debts given trial balance amount and additional information",
+    "determine net sundry debtors balance after further bad debts write-off",
+    "calculate bad debts and further bad debts adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total bad debts",
+     "explain": "add further bad debts to existing bad debts from trial balance",
+     "compute": "total_bad_debts = existing_bad_debts + further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "calculate remaining debtors",
+     "explain": "deduct further bad debts from total sundry debtors",
+     "compute": "net_debtors = total_debtors - further_bad_debts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate total bad debts expense for profit and loss account (take existing_bad_debts = 10, further_bad_debts = 10, total_debtors = 10)",
+     "solution": "Applying the concept's compute chain with existing_bad_debts = 10, further_bad_debts = 10, total_debtors = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate total bad debts expense for profit and loss account (take existing_bad_debts = 10, further_bad_debts = 10, total_debtors = 2)",
+     "solution": "Applying the concept's compute chain with existing_bad_debts = 10, further_bad_debts = 10, total_debtors = 2 gives -8.0.",
+     "answer": "-8.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.9",
+   "title": "Provision for Bad and Doubtful Debts Adjustment",
+   "section": "9.9",
+   "definition": "An estimated provision set aside from profits to cover potential future losses from doubtful debts, calculated as a percentage of good debtors after deducting further bad debts.",
+   "formula": "new_provision = (debtors - further_bad_debts) * rate / 100",
+   "key_idea": "New provision is computed on debtors after deducting further bad debts, and the net charge to P&L accounts for old provision balances.",
+   "textbook_ref": "keac202.txt lines 390-480",
+   "question_patterns": [
+    "calculate new provision for doubtful debts",
+    "find net debit or credit to profit and loss account for bad debts provision",
+    "compute provision for bad debts on debtors balance",
+    "determine net amount debited to profit and loss account for bad debts and provision",
+    "calculate provision for bad and doubtful debts adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate adjusted debtors",
+     "explain": "deduct further bad debts from total debtors",
+     "compute": "adjusted_debtors = debtors - further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "calculate required new provision",
+     "explain": "apply percentage rate to adjusted debtors",
+     "compute": "new_provision = adjusted_debtors * rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net P&L debit charge",
+     "explain": "sum total bad debts and new provision, then deduct old provision",
+     "compute": "pnl_charge = existing_bad_debts + further_bad_debts + new_provision - old_provision"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate new provision for doubtful debts (take debtors = 10, existing_bad_debts = 10, further_bad_debts = 10, old_provision = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with debtors = 10, existing_bad_debts = 10, further_bad_debts = 10, old_provision = 10, rate = 10 gives 10.0.",
+     "answer": "10.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.10",
+   "title": "Provision for Discount on Debtors Adjustment",
+   "section": "9.10",
+   "definition": "A provision created on good debtors (after deducting bad debts and provision for doubtful debts) to estimate discounts to be allowed for prompt payment in the next period.",
+   "formula": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100",
+   "key_idea": "Discount provision is estimated only on good debtors remaining after all bad debt adjustments.",
+   "textbook_ref": "keac202.txt lines 482-535",
+   "question_patterns": [
+    "calculate provision for discount on debtors",
+    "find good debtors balance available for discount provision",
+    "determine realisable value of debtors after discount provision",
+    "compute discount provision amount given percentage rate",
+    "calculate provision for discount on debtors adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate good debtors balance",
+     "explain": "deduct further bad debts and provision for doubtful debts from debtors",
+     "compute": "good_debtors = debtors - further_bad_debts - provision_doubtful"
+    },
+    {
+     "step": 2,
+     "action": "calculate provision for discount",
+     "explain": "apply discount rate percentage to good debtors",
+     "compute": "discount_provision = good_debtors * rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "calculate net realisable debtors",
+     "explain": "deduct provision for discount from good debtors",
+     "compute": "net_realisable_debtors = good_debtors - discount_provision"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate provision for discount on debtors (take debtors = 10, further_bad_debts = 10, provision_doubtful = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with debtors = 10, further_bad_debts = 10, provision_doubtful = 10, rate = 10 gives -9.0.",
+     "answer": "-9.0"
+    },
+    {
+     "question": "calculate provision for discount on debtors (take debtors = 10, further_bad_debts = 10, provision_doubtful = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with debtors = 10, further_bad_debts = 10, provision_doubtful = 10, rate = 2 gives -9.8.",
+     "answer": "-9.8"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.11",
+   "title": "Manager's Commission Adjustment",
+   "section": "9.11",
+   "definition": "Remuneration allowed to a manager calculated as a percentage of net profits, either before or after charging such commission.",
+   "formula": "commission = profit * rate / 100 OR commission = profit * rate / (100 + rate)",
+   "key_idea": "Commission before charging uses rate/100; commission after charging uses rate/(100 + rate).",
+   "textbook_ref": "keac202.txt lines 537-580",
+   "question_patterns": [
+    "calculate manager commission before charging such commission",
+    "calculate manager commission after charging such commission",
+    "find manager commission given net profit before commission and rate",
+    "determine commission payable to manager on net profit",
+    "calculate manager's commission adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate commission before charging",
+     "explain": "apply simple percentage formula profit * rate / 100",
+     "compute": "commission_before = profit * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate commission after charging",
+     "explain": "apply adjusted percentage formula profit * rate / (100 + rate)",
+     "compute": "commission_after = profit * rate / (100 + rate)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate manager commission before charging such commission (take profit = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with profit = 10, rate = 10 gives 0.909091.",
+     "answer": "0.909091"
+    },
+    {
+     "question": "calculate manager commission before charging such commission (take profit = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with profit = 10, rate = 2 gives 0.196078.",
+     "answer": "0.196078"
+    }
+   ]
+  },
+  {
+   "id": "keac.9.12",
+   "title": "Interest on Capital Adjustment",
+   "section": "9.12",
+   "definition": "Interest allowed to the proprietor on capital invested in business, treated as a business expense in P&L and credited to capital account in Balance Sheet.",
+   "formula": "interest_on_capital = capital * rate / 100",
+   "key_idea": "Interest on capital is charged to profit and loss account as an expense and added to capital in the balance sheet.",
+   "textbook_ref": "keac202.txt lines 582-615",
+   "question_patterns": [
+    "calculate interest on capital for the year",
+    "find amount of interest on opening capital",
+    "determine total interest on capital including additional capital",
+    "compute expense charge for interest on capital",
+    "calculate interest on capital adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate interest on capital",
+     "explain": "multiply opening capital by interest rate percentage",
+     "compute": "interest_on_capital = capital * rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate interest on capital for the year (take capital = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with capital = 10, rate = 10 gives 1.0.",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.1",
+   "title": "Interest on Capital Adjustment",
+   "section": "Adjustments",
+   "definition": "An adjustment made to record interest allowed on the owner's capital investment, which is treated as an expense for the business and an addition to capital.",
+   "formula": "interest_on_capital = capital * rate / 100",
+   "key_idea": "Increases business expenses (debit P&L) and increases owner's capital in the balance sheet.",
+   "textbook_ref": "keac202.txt lines 10-40",
+   "question_patterns": [
+    "calculate interest on capital at 4% on capital of 210000",
+    "what is the interest on capital if capital is ... and rate is ...",
+    "find the interest on capital",
+    "how much interest is charged on capital",
+    "calculate interest on capital adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate interest on capital",
+     "explain": "Multiply capital by rate and divide by 100",
+     "compute": "interest_on_capital = capital * rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate interest on capital at 4% on capital of 210000 (take capital = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with capital = 10, rate = 10 gives 1.0.",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.2",
+   "title": "Depreciation on Fixed Assets",
+   "section": "Adjustments",
+   "definition": "The systematic allocation of the cost of a tangible asset over its useful life, recorded as an expense in the Profit and Loss account and deducted from the asset value in the Balance Sheet.",
+   "formula": "depreciation_amount = asset_value * depreciation_rate / 100",
+   "key_idea": "Reduces the book value of fixed assets and charges the reduction as an operating expense.",
+   "textbook_ref": "keac202.txt lines 10-50",
+   "question_patterns": [
+    "calculate depreciation on machinery at 10%",
+    "what is the depreciation amount for building valued at ... with rate ...",
+    "find the depreciation on scooter",
+    "how much depreciation should be charged on furniture",
+    "calculate depreciation on fixed assets for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate depreciation amount",
+     "explain": "Multiply asset value by depreciation rate and divide by 100",
+     "compute": "depreciation_amount = asset_value * depreciation_rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate depreciation on machinery at 10% (take asset_value = 10, depreciation_rate = 10)",
+     "solution": "Applying the concept's compute chain with asset_value = 10, depreciation_rate = 10 gives 1.0.",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.3",
+   "title": "Provision for Doubtful Debts Adjustment",
+   "section": "Adjustments",
+   "definition": "An estimate of potential losses from credit sales that may become uncollectible, calculated as a percentage of outstanding debtors after deducting further bad debts.",
+   "formula": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100",
+   "key_idea": "Created to adhere to the conservatism principle, reducing debtors in the balance sheet and charging P&L.",
+   "textbook_ref": "keac202.txt lines 70-90",
+   "question_patterns": [
+    "calculate the provision for doubtful debts at 5% on debtors",
+    "what is the new provision for bad debts given debtors and further bad debts",
+    "find the provision on debtors",
+    "how much provision for doubtful debts is created",
+    "calculate provision for doubtful debts adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Deduct further bad debts from sundry debtors",
+     "explain": "Subtract further bad debts from debtors to find the net debtors on which provision is calculated",
+     "compute": "net_debtors = debtors - further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "Calculate provision amount",
+     "explain": "Multiply net debtors by the provision rate",
+     "compute": "provision_amount = net_debtors * provision_rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the provision for doubtful debts at 5% on debtors (take debtors = 10, further_bad_debts = 10, provision_rate = 10)",
+     "solution": "Applying the concept's compute chain with debtors = 10, further_bad_debts = 10, provision_rate = 10 gives 0.0.",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.4",
+   "title": "Net Bad Debts Expense in Profit and Loss",
+   "section": "Adjustments",
+   "definition": "The total bad debts expense transferred to the Profit and Loss account, combining existing bad debts, further bad debts, and the new provision, while deducting the old provision.",
+   "formula": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision",
+   "key_idea": "Combines all bad debt adjustments to find the net impact on the Profit and Loss account.",
+   "textbook_ref": "keac202.txt lines 70-95",
+   "question_patterns": [
+    "calculate the net bad debts to be debited to profit and loss account",
+    "what is the amount of bad debts charged to P&L",
+    "find the debit to Profit and Loss account for bad debts",
+    "how much net bad debt expense is transferred to P&L",
+    "calculate net bad debts expense in profit and loss for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the bad debts, further bad debts, and new provision, then subtract the old provision",
+     "explain": "Combine all bad debt components to find the net debit or credit to P&L",
+     "compute": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the net bad debts to be debited to profit and loss account (take bad_debts = 10, further_bad_debts = 10, new_provision = 10, old_provision = 10)",
+     "solution": "Applying the concept's compute chain with bad_debts = 10, further_bad_debts = 10, new_provision = 10, old_provision = 10 gives 20.0.",
+     "answer": "20.0"
+    },
+    {
+     "question": "calculate the net bad debts to be debited to profit and loss account (take bad_debts = 10, further_bad_debts = 10, new_provision = 10, old_provision = 2)",
+     "solution": "Applying the concept's compute chain with bad_debts = 10, further_bad_debts = 10, new_provision = 10, old_provision = 2 gives 28.0.",
+     "answer": "28.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.5",
+   "title": "Interest on Drawings",
+   "section": "Adjustments",
+   "definition": "Interest charged by the business on withdrawals made by the owner for personal use, which is an income for the business and a deduction from capital.",
+   "formula": "interest_on_drawings = drawings * rate / 100",
+   "key_idea": "Credited to P&L account and deducted from drawings/capital in the balance sheet.",
+   "textbook_ref": "keac202.txt lines 25-35",
+   "question_patterns": [
+    "calculate interest on drawings at 7%",
+    "what is the interest on drawings for drawings of ... at rate ...",
+    "find the interest on drawings",
+    "how much interest is charged on drawings",
+    "calculate interest on drawings for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply drawings by the interest rate",
+     "explain": "Calculate the interest on drawings using the given rate",
+     "compute": "interest_on_drawings = drawings * rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate interest on drawings at 7% (take drawings = 10, rate = 10)",
+     "solution": "Applying the concept's compute chain with drawings = 10, rate = 10 gives 1.0.",
+     "answer": "1.0"
+    },
+    {
+     "question": "calculate interest on drawings at 7% (take drawings = 10, rate = 2)",
+     "solution": "Applying the concept's compute chain with drawings = 10, rate = 2 gives 0.2.",
+     "answer": "0.2"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.6",
+   "title": "Prepaid Expenses Adjustment",
+   "section": "Adjustments",
+   "definition": "Expenses paid in advance during the current accounting period that relate to a future period, which are deducted from the respective expense and shown as a current asset.",
+   "formula": "net_expense = total_paid - prepaid_amount",
+   "key_idea": "Adjusts the expense to reflect only the current period's share.",
+   "textbook_ref": "keac202.txt lines 25-50",
+   "question_patterns": [
+    "calculate the net insurance expense after deducting unexpired insurance",
+    "what is the adjusted rent expense if unexpired rent is deducted",
+    "find the net expense after prepaid adjustment",
+    "how much is the net expense after subtracting prepaid amount",
+    "calculate prepaid expenses adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the prepaid or unexpired amount from the total paid expense",
+     "explain": "Deduct the prepaid portion to find the actual expense incurred for the current period",
+     "compute": "net_expense = total_paid - prepaid_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the net insurance expense after deducting unexpired insurance (take prepaid_amount = 10, total_paid = 10)",
+     "solution": "Applying the concept's compute chain with prepaid_amount = 10, total_paid = 10 gives 0.0.",
+     "answer": "0.0"
+    },
+    {
+     "question": "calculate the net insurance expense after deducting unexpired insurance (take prepaid_amount = 10, total_paid = 2)",
+     "solution": "Applying the concept's compute chain with prepaid_amount = 10, total_paid = 2 gives -8.0.",
+     "answer": "-8.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.7",
+   "title": "Outstanding Expenses Adjustment",
+   "section": "Adjustments",
+   "definition": "Expenses incurred during the current accounting period but not yet paid, which are added to the respective expense in P&L and shown as a current liability.",
+   "formula": "total_expense = paid_expense + outstanding_amount",
+   "key_idea": "Ensures complete matching of expenses incurred with revenues earned.",
+   "textbook_ref": "keac202.txt lines 10-50",
+   "question_patterns": [
+    "calculate the total wages including outstanding wages",
+    "what is the total salary expense if outstanding salary is added",
+    "find the total expense with outstanding adjustment",
+    "how much is the adjusted expense after adding outstanding amount",
+    "calculate outstanding expenses adjustment for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the outstanding amount to the paid expense",
+     "explain": "Add the unpaid outstanding amount to the paid expense to find the total expense for the period",
+     "compute": "total_expense = paid_expense + outstanding_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the total wages including outstanding wages (take outstanding_amount = 10, paid_expense = 10)",
+     "solution": "Applying the concept's compute chain with outstanding_amount = 10, paid_expense = 10 gives 20.0.",
+     "answer": "20.0"
+    },
+    {
+     "question": "calculate the total wages including outstanding wages (take outstanding_amount = 10, paid_expense = 2)",
+     "solution": "Applying the concept's compute chain with outstanding_amount = 10, paid_expense = 2 gives 12.0.",
+     "answer": "12.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.8",
+   "title": "Access DLookup Function",
+   "section": "A-1. Domain Aggregate Functions",
+   "definition": "An Access database function used to search and retrieve a specific value from a field in a table or query based on a given search condition.",
+   "formula": "value = DLookup(field_name, table_name, criteria)",
+   "key_idea": "Retrieves non-local data for display in forms or reports.",
+   "textbook_ref": "keac202.txt lines 100-115",
+   "question_patterns": [
+    "how does the DLookup function retrieve data",
+    "explain the syntax of DLookup",
+    "what is the purpose of DLookup in Access",
+    "verify the usage of DLookup function",
+    "explain access dlookup function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the field name, table/query name, and search criteria",
+     "explain": "Determine which field to retrieve, from which table, and the condition to match"
+    },
+    {
+     "step": 2,
+     "action": "Execute the lookup",
+     "explain": "Find the matching record and return the field value"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.9",
+   "title": "Access DSum Function",
+   "section": "A-1. Domain Aggregate Functions",
+   "definition": "A domain aggregate function in Access that calculates and returns the sum of values in a specified field or expression within a table or query, optionally filtered by a criteria.",
+   "formula": "total_sum = DSum(expression, table_name, criteria)",
+   "key_idea": "Computes totals for a subset of records matching a condition.",
+   "textbook_ref": "keac202.txt lines 115-130",
+   "question_patterns": [
+    "how to calculate total sales using DSum",
+    "write the DSum expression for item code",
+    "what does DSum function do",
+    "verify the syntax of DSum",
+    "explain access dsum function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Specify the field or expression to sum",
+     "explain": "Determine the numeric field or calculated expression to be aggregated"
+    },
+    {
+     "step": 2,
+     "action": "Define the table and optional search condition",
+     "explain": "Identify the source table and any criteria to filter the records"
+    },
+    {
+     "step": 3,
+     "action": "Sum the matching records' values",
+     "explain": "Aggregate the values of the filtered records"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.10",
+   "title": "Access IIF Function",
+   "section": "A-3. Other Functions",
+   "definition": "A conditional function in Access that evaluates a logical expression and returns one value if the expression is true, and another value if it is false.",
+   "formula": "result = IIF(condition, value_if_true, value_if_false)",
+   "key_idea": "Implements binary decision logic in queries, forms, or reports.",
+   "textbook_ref": "keac202.txt lines 160-175",
+   "question_patterns": [
+    "how does the IIF function evaluate conditions",
+    "write an IIF expression to distinguish debit and credit",
+    "what is returned by IIF when condition is true",
+    "verify the structure of IIF function",
+    "explain access iif function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate the logical condition",
+     "explain": "Check if the comparison evaluates to TRUE or FALSE"
+    },
+    {
+     "step": 2,
+     "action": "Return the appropriate value",
+     "explain": "Return value_if_true if TRUE, otherwise return value_if_false"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.11",
+   "title": "Access Abs Function",
+   "section": "A-3. Other Functions",
+   "definition": "A mathematical function that returns the absolute (positive) value of a given numeric expression, ignoring its sign.",
+   "formula": "absolute_value = abs(number)",
+   "key_idea": "Converts negative numbers to positive while keeping positive numbers unchanged.",
+   "textbook_ref": "keac202.txt lines 175-180",
+   "question_patterns": [
+    "find the absolute value of a number",
+    "what is the result of Abs function for negative numbers",
+    "calculate the absolute value using Abs",
+    "how does Abs function handle negative values",
+    "calculate access abs function for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the absolute value function to the input number",
+     "explain": "Strip the negative sign if present, returning the positive magnitude",
+     "compute": "absolute_value = abs(number)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the absolute value of a number (take number = 10)",
+     "solution": "Applying the concept's compute chain with number = 10 gives 10.0.",
+     "answer": "10.0"
+    },
+    {
+     "question": "find the absolute value of a number (take number = 2)",
+     "solution": "Applying the concept's compute chain with number = 2 gives 2.0.",
+     "answer": "2.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.202.12",
+   "title": "Access Val Function",
+   "section": "A-3. Other Functions",
+   "definition": "A function that extracts and returns the numeric characters from a string as a numeric value, stopping at the first non-numeric character.",
+   "formula": "numeric_value = Val(string_expression)",
+   "key_idea": "Converts string representations of numbers into actual numeric types.",
+   "textbook_ref": "keac202.txt lines 180-186",
+   "question_patterns": [
+    "what does Val function return for a string",
+    "convert string to number using Val",
+    "explain how Val function parses strings",
+    "verify the output of Val function",
+    "explain access val function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Read the string from left to right",
+     "explain": "Scan characters sequentially looking for digits and valid numeric symbols"
+    },
+    {
+     "step": 2,
+     "action": "Stop reading at the first character that is not part of a number",
+     "explain": "Terminate parsing when a non-numeric character (like a comma or space) is encountered"
+    },
+    {
+     "step": 3,
+     "action": "Return the parsed numeric value",
+     "explain": "Convert the extracted numeric string into an actual number"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Test Your Understanding Q1, keac202.txt lines 617-626",
+   "concept": "keac.9.9",
+   "question_type": "compute",
+   "question_pattern": "Debtors {debtors}, Bad debts {existing_bad_debts}, Provision for doubtful debts {old_provision}. Maintain provision of {new_provision}. State amount debited/credited in profit and loss account.",
+   "extracted_variables": {
+    "debtors": "80000",
+    "existing_bad_debts": "2000",
+    "old_provision": "4000",
+    "new_provision": "1000",
+    "further_bad_debts": "0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate adjusted debtors",
+     "explain": "deduct further bad debts from total debtors",
+     "compute": "adjusted_debtors = debtors - further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "calculate net P&L debit charge",
+     "explain": "sum total bad debts and new provision, then deduct old provision",
+     "compute": "pnl_charge = existing_bad_debts + further_bad_debts + new_provision - old_provision"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Test Your Understanding Q4, keac202.txt lines 638-644",
+   "concept": "keac.9.12",
+   "question_type": "compute",
+   "question_pattern": "Opening capital {opening_capital} on April 01, additional capital {additional_capital} on January 01. Interest charge {rate}% p.a. Find interest on capital for year ending March 31.",
+   "extracted_variables": {
+    "opening_capital": "50000",
+    "additional_capital": "10000",
+    "rate": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest on opening capital",
+     "explain": "apply rate for full year on opening capital",
+     "compute": "interest_opening = opening_capital * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest on additional capital",
+     "explain": "apply rate for 3 months (Jan to Mar) on additional capital",
+     "compute": "interest_additional = additional_capital * rate * 3 / 1200"
+    },
+    {
+     "step": 3,
+     "action": "calculate total interest on capital",
+     "explain": "sum interest on opening capital and additional capital",
+     "compute": "total_interest = interest_opening + interest_additional"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Test Your Understanding Q5, keac202.txt lines 646-650",
+   "concept": "keac.9.4",
+   "question_type": "compute",
+   "question_pattern": "Insurance premium paid {expense_paid} and prepaid insurance {prepaid_expense}. Find amount of insurance premium shown in profit and loss account.",
+   "extracted_variables": {
+    "expense_paid": "1000",
+    "prepaid_expense": "300"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract prepaid portion from total amount paid",
+     "explain": "deduct benefit relating to the next accounting year from current payments",
+     "compute": "effective_expense = expense_paid - prepaid_expense"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "keac202.txt lines 10-20",
+   "concept": "keac.202.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate interest on capital at {rate}% on a capital of Rs. {capital}.",
+   "extracted_variables": {
+    "capital": "the amount of capital invested by the owner",
+    "rate": "the interest rate percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate interest on capital",
+     "explain": "Multiply capital by rate and divide by 100",
+     "compute": "interest_on_capital = capital * rate / 100"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "keac202.txt lines 10-20",
+   "concept": "keac.202.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the depreciation on machinery valued at Rs. {asset_value} at the rate of {depreciation_rate}%.",
+   "extracted_variables": {
+    "asset_value": "the book value of the machinery",
+    "depreciation_rate": "the annual depreciation rate percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate depreciation amount",
+     "explain": "Multiply asset value by depreciation rate and divide by 100",
+     "compute": "depreciation_amount = asset_value * depreciation_rate / 100"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "keac202.txt lines 91-100",
+   "concept": "keac.202.3",
+   "question_type": "compute",
+   "question_pattern": "Given sundry debtors of Rs. {debtors} and further bad debts of Rs. {further_bad_debts}, calculate the provision for doubtful debts at {provision_rate}%.",
+   "extracted_variables": {
+    "debtors": "the total outstanding sundry debtors",
+    "further_bad_debts": "the additional bad debts to be written off",
+    "provision_rate": "the percentage rate for the new provision"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Deduct further bad debts from sundry debtors",
+     "explain": "Subtract further bad debts from debtors to find the net debtors on which provision is calculated",
+     "compute": "net_debtors = debtors - further_bad_debts"
+    },
+    {
+     "step": 2,
+     "action": "Calculate provision amount",
+     "explain": "Multiply net debtors by the provision rate",
+     "compute": "provision_amount = net_debtors * provision_rate / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_short_answers",
+   "source_ref": "Questions for Practice - Short Answers, keac202.txt lines 1055-1085",
+   "questions": [
+    "Why is it necessary to record the adjusting entries in the preparation of final accounts?",
+    "What is meant by closing stock? Show its treatment in final accounts?",
+    "State the meaning of: (a) Outstanding expenses (b) Prepaid expenses (c) Income received in advance (d) Accrued income",
+    "Give the Performa of income statement and balance in vertical form.",
+    "Why is it necessary to create a provision for doubtful debts at the time of preparation of final accounts?",
+    "What adjusting entries would you record for: (a) Depreciation (b) Discount on debtors (c) Interest on capital (d) Manager's commission",
+    "What is meant by provision for discount on debtors?"
+   ]
+  },
+  {
+   "id": "ex_numerical_questions",
+   "source_ref": "Questions for Practice - Numerical Questions 1 to 9, keac202.txt lines 1092-1320",
+   "questions": [
+    "Prepare a trading and profit and loss account for the year ending March 31, 2017 from the balances extracted of M/s Rahul Sons. Also prepare a balance sheet at the end of the year.",
+    "Prepare a trading and profit and loss account of M/s Green Club Ltd. for the year ending March 31, 2017 from the trial balance figures.",
+    "The balances extracted from the trial of M/s Runway Shine Ltd. Prepare a trading and profit and loss account and a balance sheet as on March 31, 2017.",
+    "From the Trial Balance prepare trading and profit and loss account for the year ending March 31, 2017 and Balance Sheet on that date for M/s Indian sports house.",
+    "Prepare trading and profit and loss account of M/s Indian sports house for the year ending March 31, 2017.",
+    "Prepare the trading and profit and loss account and a balance sheet of M/s Shine Ltd. from the given particulars.",
+    "Prepare trading and profit and loss account and balance sheet of M/s Keshav Electronics Ltd. as on March 31, 2017.",
+    "Prepare trading and profit and loss account and balance sheet for Raga Ltd. for year ended March 31, 2017.",
+    "Prepare trading and profit and loss account and balance sheet for M/s Jyoti Exports for year ended March 31, 2017."
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "keac202.txt lines 4-24",
+   "questions": [
+    "Prepare trading and profit and loss account and balance sheet for M/s Green House as on March 31, 2017 with adjustments: (a) Machinery depreciated at 10% and buildings at 6%, (b) Interest on capital @ 4%, (c) Outstanding wages Rs 50, (d) Closing stock Rs 50,000."
+   ]
+  },
+  {
+   "id": "p2_ex11",
+   "source_ref": "keac202.txt lines 25-45",
+   "questions": [
+    "Prepare trading and profit and loss account and balance sheet for M/s Manju Chawla on March 31, 2017 with adjustments: (a) Interest on drawings @ 7% and interest on capital @ 5%, (b) Land and Machinery depreciated at 5%, (c) Interest on investment @ 6%, (d) Unexpired rent Rs 100, (e) Charge 5% depreciation on furniture."
+   ]
+  },
+  {
+   "id": "p2_ex12",
+   "source_ref": "keac202.txt lines 46-68",
+   "questions": [
+    "Prepare trading and profit and loss account and balance sheet for M/s Panchsheel Garments on March 31, 2017 with adjustments: (a) Unexpired insurance Rs 1,000, (b) Salary due but not paid Rs 1,800, (c) Wages outstanding Rs 200, (d) Interest on capital 5%, (e) Scooter depreciated @ 5%, (f) Furniture depreciated @ 10%, (g) Closing stock Rs 15,000."
+   ]
+  },
+  {
+   "id": "p2_ex13",
+   "source_ref": "keac202.txt lines 69-90",
+   "questions": [
+    "Prepare trading and profit and loss account and balance sheet of M/s Control Device India on March 31, 2017 with adjustments: (a) Interest on capital @ 10%, (b) Interest on drawings @ 5%, (c) Wages outstanding Rs 50, (d) Outstanding salary Rs 20, (e) Provide depreciation @ 5% on plant and machinery, (f) Make a 5% provision on debtors."
+   ]
+  },
+  {
+   "id": "p2_ex14",
+   "source_ref": "keac202.txt lines 91-100",
+   "questions": [
+    "Show adjustments in bad debts account, provision account, debtors account, profit and loss account and balance sheet for M/s Kapil Traders with further bad debts Rs 300 and maintaining provision for bad debts at 10%."
+   ]
+  },
+  {
+   "id": "p2_ex15",
+   "source_ref": "keac202.txt lines 101-110",
+   "questions": [
+    "Prepare bad debts account, provision account, profit and loss account and balance sheet from the following information: Debtors Rs 80,000, Bad debts Rs 2,000, Provision for doubtful debts Rs 5,000. Adjustments: Bad debts Rs 500, Provision on debtors @ 3%."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

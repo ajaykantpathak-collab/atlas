@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_004",
+   "title": "c11_bs_cbse_11_004",
+   "questions": [
+    {
+     "q": "Define direct exporting and state ONE key characteristic that distinguishes it from indirect exporting.",
+     "a": "Direct exporting is when the manufacturing firm itself undertakes all export activities including identifying overseas buyers, negotiating contracts, arranging shipment, and managing documentation and finance without using intermediaries. The key distinguishing characteristic is the absence of middlemen — the firm deals directly with foreign buyers. A wrong answer that mentions \"using export houses\" or \"appointing agents\" reveals the student confuses direct with indirect exporting, failing to grasp that direct means the firm performs the export function itself.",
+     "self_check": true
+    },
+    {
+     "q": "A small handicraft manufacturer in Jaipur wants to export to Europe but has no knowledge of foreign trade procedures, no international contacts, and limited capital. Explain why indirect exporting would be more suitable than direct exporting for this firm, using TWO specific advantages from the textbook.",
+     "a": "Indirect exporting is more suitable because: (1) It is the easiest way to gain entry into international markets as the export house handles all complexities — the firm avoids the need to learn documentation, shipping, and foreign market knowledge. (2) It involves less investment of time and money since the firm does not need to set up an export department, hire specialised staff, or travel abroad for market exploration. A wrong answer focusing only on \"lower risk\" without linking to the firm's specific constraints (no knowledge, no contacts, limited capital) shows the student cannot apply advantages contextually.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rohan Industries exports automobile components directly to buyers in Thailand. They recently lost a major order because they could not match a competitor's delivery timeline.\" Using the limitations of direct exporting, explain WHY this happened and what specific cost disadvantage direct exporters face that indirect exporters might avoid.",
+     "a": "Direct exporters face higher per-unit costs due to additional packaging, transportation, insurance, and customs duties that they must bear themselves. Unlike indirect exporters who leverage export houses' consolidated shipments and negotiated freight rates, direct exporters ship smaller volumes independently, losing economies of scale in logistics. This makes their final landed cost higher and delivery slower. A wrong answer blaming \"poor management\" instead of structural cost disadvantages shows the student misses the systemic limitation of direct exporting for small-volume shipments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the level of market contact and customer understanding between a firm using direct exporting versus one using indirect exporting through an export house. How does this difference affect long-term competitive positioning?",
+     "a": "Direct exporting firms maintain continuous, first-hand contact with overseas buyers, enabling them to understand changing preferences, gather market intelligence, and build brand loyalty. Indirect exporters rely on intermediaries who serve multiple suppliers, creating an information gap — the manufacturer receives filtered feedback and cannot adapt products quickly. Over time, direct exporters develop stronger market positions through customisation and relationship depth, while indirect exporters remain dependent on intermediaries' priorities. A wrong answer claiming \"indirect exporters have better market knowledge because export houses are experts\" confuses intermediary expertise with the manufacturer's own market learning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Indirect exporting is always the best choice for a firm entering international business for the first time.\" Defend or critique using at least THREE factors a firm must consider.",
+     "a": "The statement is flawed — indirect exporting is NOT always best. A firm must evaluate: (1) Product complexity — technical products requiring after-sales support (e.g., machinery) need direct buyer relationships; (2) Strategic intent — firms aiming for long-term brand building and market control need direct presence; (3) Margin sensitivity — high-value, low-volume products (e.g., designer garments) lose too much margin to intermediary commissions. Indirect exporting suits simple, standardized, low-margin products where the firm lacks resources. A wrong answer agreeing unconditionally reveals the student cannot critically assess contextual fit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision framework (as a flowchart or 4-question checklist) that a first-time exporter in India could use to choose between direct and indirect exporting. Your framework must incorporate: product type, firm resources, market familiarity, and long-term goals.",
+     "a": "A strong framework:\n1. Is your product standardized/low-tech (→ indirect) or customised/high-service (→ direct)?\n2. Do you have ≥₹50 lakh capital and trained export staff? (Yes → direct; No → indirect)\n3. Have you visited the target market or have reliable buyer leads? (Yes → direct; No → indirect)\n4. Is your goal quick sales (→ indirect) or brand building/control (→ direct)?\nA poor answer lists generic factors without decision logic (e.g., \"consider money, product, market\") showing inability to synthesise a practical tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

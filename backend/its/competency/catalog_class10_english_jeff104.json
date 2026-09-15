@@ -1,0 +1,169 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 104,
+ "chapter_title": "From the Diary of Anne Frank",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jeff104.txt",
+ "concepts": [
+  {
+   "id": "jeff.104.1.1",
+   "title": "Why Anne Writes to Kitty",
+   "section": "Part I",
+   "definition": "Anne receives a diary for her birthday and decides to write in it because paper has more patience than people, addressing the notebook as Kitty and treating it as a trusted friend who will keep her secrets.",
+   "formula": "",
+   "key_idea": "Neither friends nor family can replace a real friend to whom a girl of thirteen can open her heart, so the diary becomes her confidante.",
+   "textbook_ref": "jeff104.txt lines 60-160",
+   "question_patterns": [
+    "why did anne begin a diary",
+    "what does anne mean when she says paper has more patience",
+    "who is kitty in anne's diary",
+    "why does anne treat the diary as a friend",
+    "when did anne get the diary and what was the occasion",
+    "why does anne say no one would be interested in her musings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the diary's origin",
+     "explain": "The diary came as a birthday gift, and Anne named it Kitty."
+    },
+    {
+     "step": 2,
+     "action": "test the patience claim",
+     "explain": "Paper does not interrupt or judge, unlike people, so it waits to receive her thoughts."
+    },
+    {
+     "step": 3,
+     "action": "verify the need for a friend",
+     "explain": "Anne seeks a real confidante, someone to whom she can confide her inner life."
+    }
+   ]
+  },
+  {
+   "id": "jeff.104.2.1",
+   "title": "Anne's Family Sketch in the Diary",
+   "section": "Part II",
+   "definition": "Anne gives Kitty a brief sketch of her life: her father Otto Frank, her mother, her elder sister Margot, her grandmother, and Mrs Kuperus, her Montessori school teacher whom she loved most.",
+   "formula": "",
+   "key_idea": "Writing on 20 June 1942, Anne explains that a thirteen-year-old's words need a fuller introduction so Kitty can follow her story.",
+   "textbook_ref": "jeff104.txt lines 160-280",
+   "question_patterns": [
+    "who are the members of anne's family",
+    "why does anne give a brief sketch of her family",
+    "whom did anne love most her grandmother or mrs kuperus",
+    "what did anne write about her father",
+    "when was anne born and where",
+    "how does anne describe her sister margot"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the family",
+     "explain": "Father Otto, mother, sister Margot, and the grandmother who died recently."
+    },
+    {
+     "step": 2,
+     "action": "check the school memories",
+     "explain": "Mrs Kuperus, the headmistress of Montessori school, said farewell to Anne with tears, showing their bond."
+    },
+    {
+     "step": 3,
+     "action": "verify the purpose of the sketch",
+     "explain": "The introduction helps Kitty understand everything Anne writes later."
+    }
+   ]
+  },
+  {
+   "id": "jeff.104.3.1",
+   "title": "Mr Keesing, the Chatterbox Essays and Anne's Argument",
+   "section": "Part II",
+   "definition": "Mr Keesing, the maths teacher, is annoyed by Anne's talking in class and assigns extra essays on a chatterbox; Anne argues in them that talking is a female trait and that she has inherited it from her mother, and finally a duck-talk essay makes him laugh and stop punishing her.",
+   "formula": "",
+   "key_idea": "Anne turns punishment into performance: her verse about a mother duck biting its ducklings to death wins over Mr Keesing, who thereafter lets her talk.",
+   "textbook_ref": "jeff104.txt lines 280-460",
+   "question_patterns": [
+    "why was mr keesing annoyed with anne",
+    "how did anne justify her being a chatterbox in her essay",
+    "what did anne write in her essay on a chatterbox",
+    "what made mr keesing allow anne to talk in class",
+    "do you think mr keesing was a strict teacher",
+    "how did anne's poem on the duck family change the teacher's attitude",
+    "what punishment did anne get for talking in class"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the punishment",
+     "explain": "Extra essays, first on a chatterbox and then Quack Quack Quack, were assigned for talking."
+    },
+    {
+     "step": 2,
+     "action": "examine Anne's defence",
+     "explain": "She argues that chatter is a female trait, inherited from her talkative mother, and cannot be changed."
+    },
+    {
+     "step": 3,
+     "action": "verify the turnaround",
+     "explain": "The verse about a swan and ducklings made Mr Keesing laugh, and he began allowing Anne to talk in class."
+    }
+   ]
+  },
+  {
+   "id": "jeff.104.4.1",
+   "title": "Anne Frank as a Diary Writer",
+   "section": "Talking about the text",
+   "definition": "Anne's diary differs from ordinary journal entries because it addresses an imagined friend, argues with humour, and gives a vivid portrait of a sensitive, intelligent adolescent growing up under fear of persecution.",
+   "formula": "",
+   "key_idea": "The diary was originally written in Dutch, and its mix of wit and honesty made Anne one of the most discussed victims of the Nazi era.",
+   "textbook_ref": "jeff104.txt lines 1-60, 460-560",
+   "question_patterns": [
+    "was anne right when she said the world would not be interested in a thirteen year old's musings",
+    "in what language was anne's diary originally written",
+    "how is anne's diary different from an ordinary journal",
+    "what does the diary reveal about anne's character",
+    "how did anne's life change under the german occupation",
+    "why is anne's diary considered an important record"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare diary forms",
+     "explain": "Ordinary journals record dates and events; Anne's diary talks to Kitty with arguments, jokes and feelings."
+    },
+    {
+     "step": 2,
+     "action": "check the historical frame",
+     "explain": "The Franks hid in Amsterdam during the German occupation, and Anne's writing mirrors that fear."
+    },
+    {
+     "step": 3,
+     "action": "verify the writer's gift",
+     "explain": "Her humour, self-awareness and insight mark her as a born writer despite her young age."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jeff104.txt lines 60-560",
+   "questions": [
+    "Why does Anne provide a brief sketch of her life in the diary?",
+    "What does Anne write about her family in her diary?",
+    "Why was Mr Keesing annoyed with Anne? What did he ask her to do?",
+    "How did Anne justify her being a chatterbox in her essay?",
+    "Do you think Mr Keesing was a strict teacher?",
+    "What made Mr Keesing allow Anne to talk in class?",
+    "Was Anne right when she said that the world would not be interested in the musings of a thirteen-year-old girl?",
+    "In what language was the diary originally written? In what way is Anne's diary different?",
+    "Why does Anne need to give a brief sketch about her family? Does she treat 'Kitty' as an insider or an outsider?",
+    "What does Anne write about her father, grandmother, Mrs Kuperus and Mr Keesing?"
+   ]
+  }
+ ]
+}

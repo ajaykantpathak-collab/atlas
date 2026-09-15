@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class6_maths_fegp102.json",
+ "concepts": [
+  {
+   "id": "fegp.2.1",
+   "title": "Point, Line Segment, Line and Ray",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.2",
+   "title": "Angles as Rotation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 71 gives 19",
+     "compute": "other = 90 - 71"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 71 degrees, find the other.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 169 degrees, find the other.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 59 degrees; find the other.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 86 degrees and 181 degrees, find the remaining angle.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 42 degrees. Find its co-interior partner.",
+     "a": "138",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.3",
+   "title": "Angles on a Straight Line",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 45 degrees, find the other.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 21 degrees, find the other.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 55 degrees; find the other.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 89 degrees and 30 degrees, find the remaining angle.",
+     "a": "241",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 46 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 63 degrees. Find its co-interior partner.",
+     "a": "117",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.4",
+   "title": "Measuring and Classifying Angles",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
+     "compute": "circ = 2 * 22 / 7 * 35"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 56 cm. Find its circumference (pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 21 cm (pi = 22/7).",
+     "a": "1386",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 7 cm and 42 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "5390",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 7 cm (pi = 22/7).",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 60 degrees in a circle of radius 77 cm (pi = 22/7).",
+     "a": "3105.67",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

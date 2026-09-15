@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_003",
+   "title": "c12_hist_cbse_05_003",
+   "questions": [
+    {
+     "q": "In which work and language did Al-Biruni record his description of the Indian caste system, and approximately when was it written?",
+     "a": "Al-Biruni wrote the *Kitab-ul-Hind* (Book of India) in Arabic around 1030 CE. A wrong answer (e.g., Persian language, *Rihla*, or 14th century) reveals confusion between Al-Biruni and Ibn Battuta, or ignorance of the linguistic and chronological specificity of each traveller's work — a frequent board exam error where students conflate the three travellers' timelines and languages.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Biruni describes the four varnas as originating from different parts of Brahman's body. According to his account based on Sanskritic tradition, which varna originates from the feet, and what does this bodily metaphor signify about their prescribed social position?",
+     "a": "The Shudras originate from the feet of Brahman. This signifies their prescribed position as the lowest varna, destined for service. A wrong answer (e.g., Vaishyas from feet, or missing the hierarchical implication) shows the student has memorized the varna names but not grasped the Purusha Sukta cosmology that Al-Biruni explicitly cites — the bodily metaphor naturalizes hierarchy by making it anatomical rather than social.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Biruni compares the Indian varna system to a four-fold social division he identifies in ancient Persia. Apply this comparative method: if a student argues that \"Al-Biruni proves caste existed in Persia too,\" how would you correct them using evidence from his actual comparison?",
+     "a": "Al-Biruni does NOT claim caste existed in Persia. He identifies four Persian *functional* categories (knights/princes; monks/fire-priests/lawyers; physicians/astronomers/scientists; peasants/artisans) to argue that social division is *universal*, not unique to India — but crucially, Persian categories were occupational and non-hereditary, unlike birth-based varna. A student making this claim misses Al-Biruni's analytical purpose: he uses comparison to *contextualize*, not equate. The error reveals inability to distinguish between structural analogy and historical equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze Al-Biruni's critique of the pollution-purity concept. He argues \"everything which falls into a state of impurity strives and succeeds in regaining its original condition of purity\" citing the sun cleansing air and salt preserving seawater. What natural law principle is he invoking, and how does this undermine the caste system's theological foundation?",
+     "a": "Al-Biruni invokes the natural law of *homeostasis* or self-purification in nature — impurity is temporary and self-correcting. This undermines caste theology because if nature automatically restores purity, then *permanent* hereditary pollution (untouchability) is unnatural and cannot be divinely ordained. A weak answer treats this as mere \"disapproval\" without identifying the natural-law argument; this misses how Al-Biruni uses *scientific reasoning* (he was an astronomer-physicist) to challenge religious doctrine — a key Board exam analytical point.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian's dilemma: Al-Biruni's account is our most detailed early medieval description of varna theory, yet he admits depending \"almost exclusively on the works of Brahmanas.\" Assess the reliability of his account for reconstructing *actual* 11th-century social practice versus *prescriptive* ideology.",
+     "a": "His account is highly reliable for Brahmanical *normative theory* (what texts prescribe) but unreliable for *lived practice*. He himself notes the system \"was not quite as rigid\" and mentions antyaja groups integrated economically despite social oppression. A poor evaluation treats his text as transparent fact; a strong one distinguishes *prescriptive* (textual ideal) from *descriptive* (social reality) — the core historiographical skill this chapter tests. Board marking schemes reward this distinction explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"Al-Biruni's outsider status (Muslim, Persianate, scientific) made his critique of caste pollution more incisive than an insider's could have been.\" Support or challenge this using evidence from his methodology, sources, and intellectual context.",
+     "a": "Support: His outsider position allowed him to apply natural-law reasoning (universal, empirical) rather than dharmic reasoning (contextual, scriptural). His multilingualism (Arabic, Sanskrit, Persian) enabled cross-cultural comparison. Challenge: He relied entirely on Brahmana informants, so his \"critique\" operates *within* their framework (accepting varna origin myth) rather than rejecting it. A strong answer balances both — his *method* was outsider-scientific, but his *data* was insider-Brahmanical. This nuance separates A-grade from B-grade answers in CUET/Board essays.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

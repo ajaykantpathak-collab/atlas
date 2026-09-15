@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_005",
+   "title": "c12_ip_cbse_05_005",
+   "questions": [
+    {
+     "q": "What are the three main parts of an HTTP request message?",
+     "a": "The three main parts are: (1) Request Line (method, request-target, HTTP version), (2) Headers (key-value pairs like Host, User-Agent, Content-Type), and (3) Optional Message Body (data sent with POST/PUT). A wrong answer that omits the request line or confuses headers with body reveals the student hasn’t internalised the message structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"GET and POST are the same; both send data to the server.\" Explain why this is incorrect, referencing request structure and semantics.",
+     "a": "GET appends data in the query string of the URL (request-target) and has no message body; it is idempotent and cacheable. POST sends data in the message body, is not idempotent, and is not cached by default. A student who equates them misses the structural difference (body vs URL) and the semantic contract (safe vs unsafe methods).",
+     "self_check": true
+    },
+    {
+     "q": "A browser sends: `POST /login HTTP/1.1\\r\\nHost: example.com\\r\\nContent-Type: application/x-www-form-urlencoded\\r\\nContent-Length: 27\\r\\n\\r\\nusername=rahul&password=123`. Identify the method, path, HTTP version, two headers, and the body.",
+     "a": "Method: POST; Path: /login; Version: HTTP/1.1; Headers: Host: example.com, Content-Type: application/x-www-form-urlencoded, Content-Length: 27; Body: username=rahul&password=123. Missing any component (e.g., forgetting Content-Length) shows inability to parse a raw request.",
+     "self_check": true
+    },
+    {
+     "q": "Compare HTTP status codes 301, 302, 304, 401, 403, 404, 500, 503. Group them by class (3xx, 4xx, 5xx) and give one real-world scenario for each.",
+     "a": "3xx Redirection: 301 (permanent move — site migrated to new domain), 302 (temporary redirect — login page), 304 (not modified — cached CSS file). 4xx Client Error: 401 (unauthorized — missing JWT), 403 (forbidden — valid token but no permission), 404 (not found — typo in URL). 5xx Server Error: 500 (internal server error — unhandled exception), 503 (service unavailable — maintenance mode). Mis-grouping (e.g., putting 401 in 5xx) indicates confusion about responsibility (client vs server).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Using HTTPS only on the login page is sufficient; the rest of the site can stay on HTTP.\" Defend or refute with technical reasoning.",
+     "a": "Refute. After login, the session cookie travels with every subsequent HTTP request. If those requests are over HTTP, an attacker can sniff the cookie (session hijacking) and impersonate the user. HTTPS must protect the entire authenticated session (HSTS, secure cookies). A student who agrees misses the threat model of cookie theft.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal HTTP/1.1 request that a browser would send to fetch `https://www.cbse.gov.in/results?roll=12345` (assume TLS already established). Write the exact request lines.",
+     "a": "```\nGET /results?roll=12345 HTTP/1.1\nHost: www.cbse.gov.in\nUser-Agent: Mozilla/5.0 (compatible; Class12Bot)\nAccept: text/html\nConnection: keep-alive\n\n```\n(Empty line terminates headers.) Missing `Host` header (mandatory in HTTP/1.1) or using absolute URL in request line (only for proxies) reveals misunderstanding of HTTP/1.1 vs HTTP/1.0.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

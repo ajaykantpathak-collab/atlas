@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_009",
+   "title": "c12_ip_cbse_04_009",
+   "questions": [
+    {
+     "q": "What does the acronym \"THINK\" stand for in the context of netiquette, and why is it used as a pre-posting filter?",
+     "a": "THINK stands for True, Helpful, Inspiring, Necessary, Kind. It is used as a mental checklist before posting or sending any online message to reduce impulsive, harmful, or misleading communication. A wrong answer (e.g., \"Think Hard, Ignore Negative Karma\") reveals the student has confused the mnemonic with a generic phrase and doesn't grasp its purpose as a structured ethical filter for digital communication.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes an email to a teacher: \"Subject: HELP!!!  \nSir, I need the notes for tomorrow's test NOW. Send them fast.  \n— Rahul\"  \nIdentify three netiquette violations in this email and explain why each is problematic.",
+     "a": "Violations: (1) ALL CAPS in subject/body = perceived as shouting/aggressive; (2) No greeting, no polite request (\"please\"), demanding tone (\"NOW\", \"fast\") = disrespectful to recipient's time/authority; (3) Vague subject (\"HELP!!!\") doesn't summarize content, making it hard for teacher to prioritize. A wrong answer that only says \"it's rude\" shows the student cannot decompose rudeness into specific, teachable netiquette rules (formatting, tone, clarity) — a gap that leads to repeating the same errors in professional contexts.",
+     "self_check": true
+    },
+    {
+     "q": "You are in a coding forum. A beginner posts a question with a 200-line unformatted code dump and says \"fix this pls.\" You want to help. Write a reply that follows netiquette: acknowledges effort, guides them to improve the post, and offers a next step — without solving it for them.",
+     "a": "Good reply: \"Hi! Thanks for sharing your code. To help you better, could you please: (1) format the code using the `</>` button so it's readable, (2) highlight the specific error/message or line where you're stuck, and (3) tell us what you've already tried? This helps us pinpoint the issue faster. Happy debugging!\" A poor reply (\"Here's the fixed code: ...\" or \"Read the rules, noob\") reveals the student misses the dual purpose of netiquette: building a supportive community AND teaching sustainable help-seeking skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare netiquette in a professional email vs. a close-friends WhatsApp group. Create a table with 5 dimensions (e.g., subject line, greeting, abbreviations, response time, forwarding) showing how expectations differ. Explain why the same rule (e.g., \"be clear\") manifests differently.",
+     "a": "| Dimension | Professional Email | Friends WhatsApp Group |\n|-----------|-------------------|------------------------|\n| Subject line | Mandatory, descriptive (\"Meeting rescheduled: 10 AM tomorrow\") | Optional/absent |\n| Greeting | Formal (\"Dear Dr. Sharma,\") | Casual/none (\"Yo\") |\n| Abbreviations | Avoid (write \"as soon as possible\") | Encouraged (\"asap\", \"tbh\") |\n| Response time | 24 hrs expected | Seconds/minutes expected |\n| Forwarding | Ask permission first | Often done freely |\nWhy \"be clear\" differs: In email, clarity = structured paragraphs, bullet points, no ambiguity (legal/record-keeping). In WhatsApp, clarity = concise, context-aware, using shared slang/memes. A student who applies email formality to WhatsApp (or vice versa) shows they don't understand context-dependent communication — a critical flaw for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Netiquette is just common sense — no need to teach it in school.\" Evaluate this statement. Provide two arguments for and two against, then give your reasoned judgment.",
+     "a": "For: (1) Basic kindness (don't insult) is intuitive; (2) Many rules mirror offline manners (say please/thank you). Against: (1) Digital disinhibition effect — anonymity/asynchronicity reduces empathy, making \"common sense\" fail systematically (research shows 40% more hostility online); (2) Technical conventions (subject lines, BCC, file formats, threading) are learned, not innate. Judgment: Netiquette must be taught because the medium changes behavior — what's intuitive offline fails online without explicit guidelines. A student who agrees with the statement reveals they underestimate the psychological and technical specificity of digital communication, a misconception that leads to poor online collaboration in higher education/work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Netiquette Checklist\" poster for your school computer lab. It must have 10 rules, use student-friendly language, include at least one visual/icon per rule, and be usable by Classes 6–12. Sketch the layout and write the text for 3 rules that address the most common violations you've observed.",
+     "a": "Layout: Title \"BE KIND ONLINE\" at top. 2 columns × 5 rows. Each rule: icon (left), bold rule (center), 1-line example (right).  \nRule 1 (icon: 🎤): **THINK before you send** — \"Is it True, Helpful, Inspiring, Necessary, Kind?\"  \nRule 2 (icon: 🔒): **Respect privacy** — \"Don't share screenshots, photos, or messages without asking.\"  \nRule 3 (icon: 📝): **Write clear subjects** — \"Bad: 'Help!' → Good: 'Doubt in Ch 3 Q5: loop condition'\"  \nA weak answer (generic rules like \"Be nice\", no icons, no examples) shows the student cannot translate abstract principles into actionable, age-appropriate guidelines — a gap in applying netiquette to real environments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_003",
+   "title": "c12_geo_cbse_14_003",
+   "questions": [
+    {
+     "q": "Name the four major cotton textile industrial clusters in India and give one representative centre for each.",
+     "a": "Correct answer: (1) Western Cluster – Mumbai/Ahmedabad, (2) Southern Cluster – Coimbatore/Madurai, (3) Central Cluster – Nagpur/Indore, (4) Eastern Cluster – Kolkata. A wrong answer that lists only Mumbai and Ahmedabad reveals the student memorised textbook headlines but missed the peninsular and eastern extensions; listing \"Punjab\" or \"Haryana\" shows confusion with wheat/rice agro-industries instead of cotton.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the cotton textile industry shift from Surat (cotton-growing area) to Mumbai (port city) during the colonial period, even though Surat was closer to raw cotton?",
+     "a": "Correct answer: Mumbai offered a deep natural harbour for importing machinery and exporting cloth, access to British capital and banking, humid coastal climate reducing yarn breakage, and a large migrant labour pool — advantages that outweighed higher raw-cotton transport costs. A wrong answer citing \"cheaper labour in Mumbai\" reveals ignorance of colonial wage structures; saying \"Mumbai had more cotton\" shows the student reversed the geography.",
+     "self_check": true
+    },
+    {
+     "q": "A mill in Coimbatore (Tamil Nadu) uses 60% locally grown cotton and 40% imported long-staple cotton. If local cotton costs ₹55/kg and imported cotton costs ₹120/kg, calculate the weighted average raw-material cost per kg. Then explain why the mill still imports despite higher cost.",
+     "a": "Step 1: Weighted cost = (0.60 × 55) + (0.40 × 120) = 33 + 48 = ₹81/kg. Step 2: Imported long-staple cotton (28–34 mm) is essential for high-count yarn (60s–80s) used in premium fabrics; local short-staple (20–24 mm) cannot spin fine counts. A wrong answer giving only ₹81 without the quality explanation shows arithmetic without geographical reasoning; saying \"imported cotton is better\" without specifying staple length reveals vague understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational advantages of the Ahmedabad cluster (inland, cotton belt) with the Kolkata cluster (port, far from cotton). Use at least three factors from Weber's location theory.",
+     "a": "Ahmedabad: low raw-material index (cotton at doorstep), cheap land, dry climate good for storage, but high transport cost to port for export. Kolkata: high raw-material index (cotton hauled 1,600 km), but low market index (port + huge hinterland), humid climate reduces yarn breakage, agglomeration economies (banking, repair shops). A wrong answer that calls Kolkata \"disadvantageous\" ignores market orientation; one that says \"both have cotton\" misses Kolkata's dependence on rail/road haulage.",
+     "self_check": true
+    },
+    {
+     "q": "\"Power-loom sector produces 60% of India's cloth but employs only 20% of textile workers.\" Evaluate whether this statistic indicates higher productivity or structural distortion in the industry.",
+     "a": "It reflects structural distortion: power-looms are small, unorganised, often evade labour laws and taxes, and produce low-value grey cloth; the organised mill sector (20% output, 80% employment) makes higher-value finished fabric but suffers from obsolete spindles (avg. 35 years old), erratic power, and rigid labour laws. A student calling it \"higher productivity\" confuses output-per-worker with value-added; one blaming only \"lazy workers\" ignores capital vintage and policy bias.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point revival plan for a sick cotton mill in Kanpur (Uttar Pradesh) that addresses technology, energy, and market linkage. Justify each point with a specific geographical or economic reason.",
+     "a": "Good answer: (1) Replace ring frames with air-jet looms — cuts energy per metre by 30% and raises speed 5×; justified because Kanpur gets 18-hour industrial power but at ₹8/kWh, so efficiency is survival. (2) Install 2 MW rooftop solar + battery — locks tariff at ₹3.5/kWh for 25 years; justified by UP's 300 sunny days and net-metering policy. (3) Tie-up with an e-commerce platform for direct B2C sales of branded \"Kanpur Cotton\" — bypasses middlemen who take 35% margin; justified by Kanpur's rail/road connectivity to NCR markets. A poor answer lists generic \"modernise, get power, sell better\" without site-specific data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

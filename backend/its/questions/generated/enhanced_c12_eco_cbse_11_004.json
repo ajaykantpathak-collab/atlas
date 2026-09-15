@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_004",
+   "title": "c12_eco_cbse_11_004",
+   "questions": [
+    {
+     "q": "Define Plan Expenditure and Non-Plan Expenditure as per the pre-2017 Union Budget classification. Give one example of each.",
+     "a": "Plan Expenditure: Central assistance to states/UTs for schemes under Five Year Plans (e.g., Sarva Shiksha Abhiyan). Non-Plan Expenditure: Routine obligatory spending not linked to plan schemes (e.g., interest payments on government debt). A wrong answer (e.g., calling MGNREGA \"Non-Plan\" because it is a recurring scheme) reveals confusion between \"recurring vs capital\" and \"plan vs non-plan\" — Plan expenditure included both recurring (salaries of plan staff) and capital components.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Government of India merge Plan and Non-Plan expenditure into a single Capital and Revenue classification from Budget 2017-18 onward? Explain the economic rationale.",
+     "a": "The Plan/Non-Plan distinction created an artificial bias: Plan expenditure was perceived as \"good\" and Non-Plan as \"bad,\" leading to underfunding of essential maintenance (roads, schools) classified as Non-Plan. The merger allows outcome-based monitoring — a road repair (revenue) can be as growth-enhancing as a new highway (capital). A wrong answer focusing only on \"simplification\" misses the incentive-distortion argument: states prioritised new Plan projects over maintaining existing assets to access central funds.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following Union Budget 2023-24 items into Developmental (D) or Non-Developmental (ND) expenditure: (a) Interest payments ₹10.8 lakh crore, (b) Capital outlay on roads ₹2.7 lakh crore, (c) MGNREGA allocation ₹60,000 crore, (d) Defence revenue expenditure ₹1.6 lakh crore, (e) Fertiliser subsidy ₹1.75 lakh crore. Justify each classification in one sentence.",
+     "a": "(a) ND — cost of past borrowing, no new asset/human capital. (b) D — creates physical infrastructure raising productivity. (c) D — builds rural infrastructure and enhances wage employment (human capital). (d) ND — maintains security apparatus, no direct productive capacity addition. (e) D — lowers input cost for farmers, raising agricultural output (though debated, NCERT classifies subsidies on merit goods as developmental). A wrong classification of (e) as ND reveals misunderstanding: subsidies on merit goods (food, fertiliser, education) are developmental because they raise effective demand for productivity-enhancing inputs.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical economy, total government expenditure is ₹50 lakh crore. Developmental expenditure is ₹30 lakh crore, of which Plan expenditure (legacy) was ₹18 lakh crore. Non-Plan expenditure is ₹20 lakh crore. Calculate: (i) Non-Developmental expenditure, (ii) Non-Plan Developmental expenditure, (iii) Plan Non-Developmental expenditure. Show the 2×2 matrix.",
+     "a": "Matrix rows: Plan/Non-Plan; Columns: Developmental/Non-Developmental.\nGiven: Total = 50, Dev = 30 → Non-Dev = 20 (i). Plan = 18, Non-Plan = 20 (given Plan+Non-Plan=38? Wait — inconsistency: Plan 18 + Non-Plan 20 = 38 ≠ 50. This tests if student spots data inconsistency). Correct approach: Plan + Non-Plan = Total = 50 → Plan = 30 (since Non-Plan = 20). Then: Plan Dev = 18 → Plan Non-Dev = 12. Non-Plan Dev = Total Dev – Plan Dev = 30 – 18 = 12. Non-Plan Non-Dev = Non-Plan – Non-Plan Dev = 20 – 12 = 8. A wrong answer that forces Plan=18 reveals inability to reconcile overlapping classifications — Plan/Non-Plan and Dev/Non-Dev are two independent partitions of the same total.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A higher share of developmental expenditure in total expenditure always indicates better fiscal quality.\" Consider a scenario where developmental revenue expenditure rises due to populist subsidies while developmental capital expenditure falls.",
+     "a": "The statement is false. Fiscal quality depends on composition within developmental expenditure: capital outlay (asset creation) has higher multiplier and long-run supply-side effects than revenue subsidies (consumption support). If developmental revenue expenditure rises due to untargeted subsidies (e.g., free electricity to all farmers) while developmental capital expenditure (irrigation, rural roads) falls, the production possibility frontier shifts inward over time. A student answering \"true\" confuses \"developmental label\" with \"growth effectiveness\" — a critical error in Board case-study questions and CUET policy-analysis items.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a Union Budget 2025-26 policy proposal (max 150 words) that reallocates ₹50,000 crore from non-developmental to developmental expenditure without increasing fiscal deficit. Specify the non-developmental item cut, the developmental item expanded, and the growth mechanism.",
+     "a": "Proposal: Reduce fertiliser subsidy (non-developmental if leakages exceed 40% per CAG) by ₹50,000 crore via direct benefit transfer (DBT) to farmers' accounts linked to soil-health cards. Reallocate to PM-Krishi Sinchayee Yojana (capital) for micro-irrigation. Growth mechanism: DBT eliminates diversion, raising effective fertiliser use efficiency; micro-irrigation raises water productivity 40-50%, shifting agricultural supply curve rightward. A poor proposal (e.g., \"cut defence, spend on education\") ignores non-developmental classification (defence is non-developmental but non-negotiable) and fiscal deficit constraint — reveals inability to work within hard budget constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_012",
+   "title": "c11_ip_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the difference between `str.split()` and `str.splitlines()` when applied to a string read from a text file?",
+     "a": "`str.split()` without arguments splits on any whitespace (spaces, tabs, newlines) and returns a list of words, while `str.splitlines()` splits only on line boundaries (`\\n`, `\\r`, `\\r\\n`) and returns a list of lines without the line break characters. A wrong answer (e.g., saying both split on newlines) reveals the student confuses word-level tokenization with line-level segmentation, leading to incorrect word counts when multiple spaces exist.",
+     "self_check": true
+    },
+    {
+     "q": "If a file contains the text `\"Hello   world\\n\\nPython\"` (with three spaces between words and a blank line), what will `len(content.split())` and `len(content.splitlines())` return? Explain why.",
+     "a": "`len(content.split())` returns 3 because `split()` treats consecutive whitespace as a single delimiter, yielding `['Hello', 'world', 'Python']`. `len(content.splitlines())` returns 3 because `splitlines()` splits on each newline, giving `['Hello   world', '', 'Python']` — the blank line becomes an empty string in the list. A wrong answer (e.g., 2 for lines) shows the student doesn't realize `splitlines()` preserves empty lines, which is critical for accurate line counting in formatted text.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that correctly counts lines, words, and characters in a file `notes.txt` and handles the case where the file might not exist.",
+     "a": "```python\ntry:\n    with open('notes.txt', 'r') as f:\n        content = f.read()\n    lines = len(content.splitlines())\n    words = len(content.split())\n    chars = len(content)\n    print(f\"Lines: {lines}, Words: {words}, Characters: {chars}\")\nexcept FileNotFoundError:\n    print(\"File not found.\")\n```\nA wrong answer that uses `f.readlines()` and then `len(lines)` for line count but forgets that `readlines()` keeps `\\n` in each line, or that uses `split(' ')` for words (failing on multiple spaces), reveals misunderstanding of string splitting behavior and exception handling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the character count obtained by `len(content)` versus `sum(len(line) for line in content.splitlines())` for a file ending with a newline. Which is larger and why?",
+     "a": "`len(content)` is larger by exactly 1 (or more if multiple trailing newlines) because it includes the newline character(s) at the end of the file, while `splitlines()` removes the line break characters and does not create an extra empty line for a trailing newline. A student who thinks they are equal fails to understand that `splitlines()` discards delimiters and that `len(content)` counts every byte/character including `\\n`.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `words = len(content.split(' '))` to count words. Critique this approach and explain when it will fail.",
+     "a": "This approach fails when there are multiple consecutive spaces, tabs, or newlines between words because `split(' ')` splits only on single space characters, producing empty strings in the list (e.g., `'a  b'.split(' ')` → `['a', '', 'b']`), inflating the word count. It also fails if words are separated by tabs or newlines. The correct method is `split()` without arguments, which treats any whitespace sequence as a single delimiter. This misconception shows the student doesn't understand the difference between argument-less `split()` and `split(' ')`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a text file content (show the exact characters including newlines as `\\n`) that would produce the same word count but different line counts when processed by `splitlines()` vs `readlines()`. Explain the discrepancy.",
+     "a": "Content: `\"Line 1\\nLine 2\\n\"` (ends with newline).\n- `content.splitlines()` → `['Line 1', 'Line 2']` → 2 lines\n- `content.readlines()` → `['Line 1\\n', 'Line 2\\n']` → 2 lines (same here)\nBut for `\"Line 1\\nLine 2\"` (no trailing newline):\n- `splitlines()` → `['Line 1', 'Line 2']` → 2 lines\n- `readlines()` → `['Line 1\\n', 'Line 2']` → 2 lines (still same)\nActually, `splitlines()` and `readlines()` give same line count for all cases. The discrepancy arises with `split('\\n')`: `\"Line 1\\nLine 2\\n\".split('\\n')` → `['Line 1', 'Line 2', '']` → 3 lines (extra empty string). A good answer would demonstrate this confusion between `splitlines()` and `split('\\n')`. If a student cannot produce such an example, they don't grasp the subtle differences in line-splitting methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

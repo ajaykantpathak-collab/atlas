@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_007",
+   "title": "c11_ps_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define distributive justice and retributive justice in one sentence each, using the terms \"allocation\" and \"punishment\" respectively.",
+     "a": "Distributive justice is the fair allocation of society's benefits and burdens among its members. Retributive justice is the fair and proportionate punishment of wrongdoing based on the offender's desert. A wrong answer (e.g., swapping the definitions or using \"revenge\" for retributive) reveals confusion between the *pattern* of distribution and the *response* to violation, indicating the student has not grasped the structural difference between ex-ante fairness and ex-post accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it incorrect to say \"reservations for SC/ST in government jobs are a form of retributive justice for past discrimination\"?",
+     "a": "Reservations are a distributive justice measure because they allocate opportunities (jobs, seats) to historically disadvantaged groups to achieve fair representation and equality of status. Retributive justice would involve punishing the *perpetrators* of discrimination (e.g., through legal sanctions), not allocating benefits to victims. A wrong answer that calls reservations \"retributive\" shows the student conflates *compensatory redistribution* with *punishment*, missing that distributive justice looks forward to fair shares while retributive justice looks backward at culpability.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a scheme: free dialysis for all kidney patients funded by a 2% surcharge on luxury cars. Identify whether this is primarily distributive or retributive justice, and name the distributive principle (equality, need, or merit) it reflects.",
+     "a": "This is distributive justice — it allocates a health benefit (dialysis) and a burden (surcharge) across the population. The principle is *need*: dialysis goes to those with kidney failure regardless of merit or equal per-capita share. A wrong answer labeling it retributive (because the rich \"pay for their luxury\") reveals the student mistakes progressive taxation for punishment, failing to see that the surcharge is a burden-sharing mechanism, not a penalty for wrongdoing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional basis of (a) Article 15(4) enabling reservations for socially/educationally backward classes and (b) Section 302 IPC prescribing punishment for murder. Which dimension of justice does each represent, and how do their justifications differ?",
+     "a": "Article 15(4) embodies distributive justice: it authorizes special provisions to *allocate* educational/seat opportunities to disadvantaged groups, justified by the need for substantive equality. Section 302 IPC embodies retributive justice: it *punishes* the taking of life, justified by the principle that murder deserves proportionate sanction (life imprisonment/death). A wrong answer that sees both as \"helping victims\" misses that Article 15(4) structurally reshapes distribution, while Section 302 responds to a specific harm after it occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A society that focuses only on retributive justice (strict punishment) but ignores distributive justice (fair shares) will eventually become unjust.\" Use the Indian context of caste-based occupational segregation to illustrate.",
+     "a": "The statement is valid. If a society punishes theft harshly (retributive) but denies Dalits access to land, education, and decent work (distributive failure), the punishment targets symptoms of structural deprivation. The Indian Constitution recognizes this: Articles 17 (abolishing untouchability) and 46 (promoting educational/economic interests of SC/ST) are distributive/preventive, while the Protection of Civil Rights Act, 1955 adds retributive teeth. A wrong answer that says \"punishment alone deters crime\" ignores that without fair distribution, the law criminalizes survival strategies of the marginalized, perpetuating injustice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical government policy that simultaneously addresses a distributive injustice and a retributive injustice for manual scavengers. Describe one distributive component and one retributive component in two sentences.",
+     "a": "Distributive component: \"The state shall provide a one-time capital grant of ₹10 lakh and guaranteed municipal employment to every identified manual scavenger family for rehabilitation.\" Retributive component: \"Any employer or local authority compelling a person to manually clean sewers/septic tanks without protective gear shall face a minimum 3-year rigorous imprisonment and a fine of ₹5 lakh.\" A poor answer that only gives compensation (distributive) or only punishment (retributive) fails to see that justice requires both *redressing the unfair burden* and *punishing the imposition of that burden*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

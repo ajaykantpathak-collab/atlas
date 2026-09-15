@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 102,
+  "chapter_title": "A Pair of Mustachios",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww102.1.1",
+      "title": "Mustachios as Class Badges",
+      "section": "1",
+      "definition": "Mulk Raj Anand uses two moustaches as comic emblems of social pretension: the upturned, fierce moustache of the old feudal landowner, once a badge of aristocracy, and the small, tooth-brush moustache of the nouveau riche moneylender -- the new commercial class aping gentility.",
+      "formula": "",
+      "key_idea": "Hairs on a lip become heraldry -- Anand's satire on class pride and its imitation.",
+      "textbook_ref": "keww102.txt opening sections (upturned moustache of the landowner, tooth brush moustache of the moneylender, nouveau riche, blue blood)",
+      "question_patterns": [
+        "what do the two moustaches represent in the story",
+        "in class 11 a pair of mustachios: who sports the upturned moustache and what does it signify",
+        "describe the tooth brush moustache and its wearer",
+        "what is meant by nouveau riche in the story",
+        "how did moustaches function as badges of status",
+        "why does the old aristocrat hate the moneylender's moustache"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the first moustache",
+          "explain": "The eagle-tailed, upturned moustache is the hereditary emblem of the landed feudal chief."
+        },
+        {
+          "step": 2,
+          "action": "read the second",
+          "explain": "The moneylender's stiff little brush moustache imitates the newest English fashion of the commercial class."
+        },
+        {
+          "step": 3,
+          "action": "draw the satire",
+          "explain": "By reducing class to facial hair, Anand mocks how superficial and hollow status symbols are."
+        }
+      ]
+    },
+    {
+      "id": "keww102.1.2",
+      "title": "The Quarrel over the Two Moustaches",
+      "section": "1",
+      "definition": "The moneylender flattens his moustache with pomade to mimic the new style, enraging the old Khan, who demands he curl it up as tradition dictates. The quarrel escalates absurdly to insults and litigation talk, until the parody ends with everyone wearing their moustache exactly as fashion -- not birth -- decides.",
+      "formula": "",
+      "key_idea": "A war over waxed hair -- pride battles pride while fashion quietly wins the day.",
+      "textbook_ref": "keww102.txt quarrel sections (pomade and flattening, the khan's rage, escalation of the quarrel, jewellery and talk of courts)",
+      "question_patterns": [
+        "why did the khan object to the moneylender's moustache",
+        "in class 11 a pair of mustachios: how did the quarrel between the two escalate",
+        "what compromise or ending does the story reach",
+        "how is humour used to deflate the two proud men",
+        "what role do the other characters play in the quarrel",
+        "explain the irony in the dispute over the moustaches"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "light the fuse",
+          "explain": "The flattened moustache appears in the old man's presence, an insult his feudal pride cannot digest."
+        },
+        {
+          "step": 2,
+          "action": "watch the farce grow",
+          "explain": "Insults fly over hair and heritage, with each side invoking ancestors and dignity for something wax and pomade control."
+        },
+        {
+          "step": 3,
+          "action": "land the punchline",
+          "explain": "Fashion, not feudal decree, finally rules the moustaches -- a quiet defeat for both kinds of pride."
+        }
+      ]
+    },
+    {
+      "id": "keww102.1.3",
+      "title": "Satire on a Society in Transition",
+      "section": "1",
+      "definition": "Beneath the comedy lies a picture of India in transition: feudal landowners fading, commercial classes rising, and both clinging to badges instead of substance. Anand suggests that aristocracy of blood and pride of the parvenu are equally absurd when times are changing the social order beneath them.",
+      "formula": "",
+      "key_idea": "Old pride and new money are mirror fools -- the real story is a social order changing under their feet.",
+      "textbook_ref": "keww102.txt social context (feudal order declining, commercial classes rising, social transition, satire on status symbols)",
+      "question_patterns": [
+        "what does the story reveal about indian society in transition",
+        "in class 11 a pair of mustachios: how does anand satirise both the aristocrat and the moneylender",
+        "why is the pride of the khan as hollow as the moneylender's imitation",
+        "explain the theme of appearance versus reality in the story",
+        "what social change is hinted at behind the quarrel",
+        "is the story only about moustaches discuss its deeper meaning"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the two classes",
+          "explain": "The Khan's lineage and the moneylender's new wealth represent two orders crossing in history."
+        },
+        {
+          "step": 2,
+          "action": "note the equal folly",
+          "explain": "Both mistake symbols -- hair, jewels, titles -- for the substance of worth."
+        },
+        {
+          "step": 3,
+          "action": "state Anand's point",
+          "explain": "When society changes, pride based on badges becomes comedy; the story laughs both classes into perspective."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww102.txt quarrel sections",
+      "concept": "keww102.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Trace the escalation of the quarrel between the Khan and the moneylender, stage by stage.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "first provocation",
+          "explain": "The moneylender wears his moustache flat in the English style before the old Khan."
+        },
+        {
+          "step": 2,
+          "action": "challenge and counter",
+          "explain": "The Khan demands traditional curling; the moneylender defies him, invoking the new age."
+        },
+        {
+          "step": 3,
+          "action": "comic climax",
+          "explain": "Threats, ancestral boasts and near-litigation follow, until the absurdity of fighting over hair defuses itself."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww102.txt social context",
+      "concept": "keww102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A student calls the story a trivial joke about moustaches. Argue that it carries serious social meaning.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant the surface",
+          "explain": "On the surface it is pure farce about two hairy badges."
+        },
+        {
+          "step": 2,
+          "action": "surface the allegory",
+          "explain": "The moustaches stand for feudalism and the rising commercial class -- history in miniature."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The triviality is the technique: Anand makes class pretension look exactly as silly as it is."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww102.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What do the two moustaches symbolise in the story?",
+        "Describe the quarrel between the Khan and the moneylender.",
+        "How does Mulk Raj Anand use humour to criticise social pretension?",
+        "Explain the terms nouveau riche and blue blood as used in the story.",
+        "What does the story suggest about a society in transition?",
+        "Bring out the irony of the title 'A Pair of Mustachios'."
+      ]
+    }
+  ]
+}

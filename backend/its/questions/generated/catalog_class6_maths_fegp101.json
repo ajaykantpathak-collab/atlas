@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class6_maths_fegp101.json",
+ "concepts": [
+  {
+   "id": "fegp.1.1",
+   "title": "What is Mathematics: The Search for Patterns",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
+     "compute": "circ = 2 * 22 / 7 * 28"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 84 cm. Find its circumference (pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 84 cm (pi = 22/7).",
+     "a": "22176",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 84 cm and 161 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "59290",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 21 cm (pi = 22/7).",
+     "a": "115.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.1.2",
+   "title": "Square Numbers from Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 27.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 45 m. What is the number of square metres in its area?",
+     "a": "2025",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 6^2 and 7^2? (Rule: 2 x n)",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 5 x 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 18?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 26. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "170",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.1.3",
+   "title": "Triangular Number Rule",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "What is the 9th triangular number?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "Find the triangular number formed by 7 dots arranged in rows of 1, 2, 3, ... dots.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "What is the 6th hexagonal number? (Use the rule 3 x n x (n - 1) + 1)",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "A Koch snowflake starts from a triangle. How many sides does the figure have after 4 rounds of replacing the middle third of every segment? (Rule: sides = 3 x 4^(rounds - 1))",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, the middle square of every carpet is removed at each step. How many small squares remain after 4 steps? (Rule: remaining = 8^steps)",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "In the Sierpinski carpet, how many holes have been punched in total after 3 steps? (Rule: holes = (8^steps - 1) / 7)",
+     "a": "73",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.1.4",
+   "title": "Patterns in Shapes and Their Number Relations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {6}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

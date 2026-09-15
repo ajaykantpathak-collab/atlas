@@ -1,0 +1,454 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 5,
+ "chapter_title": "Therapeutic Approaches",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy105.1",
+   "title": "Nature and Goals of Psychotherapy",
+   "section": "Nature and Process of Psychotherapy",
+   "definition": "Psychotherapy is a voluntary relationship in which a trained therapist helps a client solve psychological problems by changing maladaptive behaviour, lowering personal distress and improving adjustment; it applies therapeutic principles systematically, demands professional training, centres on the client, and grows out of a confidential, dynamic interpersonal bond that acts as the vehicle for change.",
+   "formula": "psychotherapy = trained_therapist + voluntary_client + systematic_principles -> reduced_distress",
+   "key_idea": "Its goals run from reinforcing the resolve for betterment and easing emotional pressure to changing thinking patterns, raising self-awareness and improving communication - about four hundred therapy types pursue these ends.",
+   "textbook_ref": "lepy105.txt, Nature and Process of Psychotherapy (four characteristics, ten goals, effectiveness factors)",
+   "question_patterns": [
+    "describe the nature and scope of psychotherapy for Class 12 psychology",
+    "state any four goals that psychotherapeutic approaches commonly pursue",
+    "why must psychotherapy be practised only by persons trained under expert supervision?",
+    "list the four characteristics shared by all psychotherapeutic approaches",
+    "on what factors does the effectiveness of a therapeutic approach for a patient depend?",
+    "how does psychotherapy aim to change maladaptive behaviour and decrease distress?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four defining characteristics",
+     "explain": "systematic application of theory-based principles, restricted practice to trained persons, a help-seeking client as focus, and a formed therapeutic relationship"
+    },
+    {
+     "step": 2,
+     "action": "check the goal families",
+     "explain": "goals cover resolve, emotional pressure, positive growth, habits, thinking patterns, self-awareness, relations, decisions, choices, and creative relating to the social environment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a voluntary relationship in which a trained professional helps a client solve psychological problems called?",
+     "a": "psychotherapy"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.2",
+   "title": "Therapeutic Alliance: Empathy and Unconditional Positive Regard",
+   "section": "Therapeutic Relationship",
+   "definition": "The therapeutic alliance is the special client-therapist bond that is contractual yet limited in duration; it runs on trust, strict confidentiality, and the therapist's unconditional positive regard - warmth that does not depend on what the client reveals - plus empathy, which means feeling the client's plight from inside her perspective, unlike sympathy's pity or cold intellectual understanding.",
+   "formula": "alliance = contractual_partnership + limited_duration ; empathy beats sympathy and intellectual_understanding",
+   "key_idea": "Empathy puts the therapist in the client's shoes and turns the alliance into a healing relationship; the bond ends once the client can handle life again.",
+   "textbook_ref": "lepy105.txt, Therapeutic Relationship (two components of the alliance, empathy vs sympathy, confidentiality, professional limits)",
+   "question_patterns": [
+    "highlight the importance of the therapeutic relationship in psychotherapy",
+    "differentiate empathy from sympathy and from intellectual understanding",
+    "what are the two major components of a therapeutic alliance?",
+    "why is unconditional positive regard essential for a client to confide freely?",
+    "when does the therapeutic alliance come to an end?",
+    "which properties make the therapeutic bond confidential and professional rather than a passing acquaintance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two components",
+     "explain": "the alliance is a willing partnership aimed at helping the client, and it lasts only until the client regains control of life"
+    },
+    {
+     "step": 2,
+     "action": "check the empathy contrast",
+     "explain": "in sympathy one pities without feeling like the other; intellectual understanding is cold; empathy alone understands and feels from the other's perspective"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Therapist warmth that does not depend on what the client reveals is called what?",
+     "a": "unconditional positive regard"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.3",
+   "title": "Classifying Psychotherapies: Three Groups, Six Parameters",
+   "section": "Type of Therapies",
+   "definition": "Psychotherapies fall into three broad groups - psychodynamic, behaviour, and existential (the third force) - and they are compared on six parameters: the cause of the problem (intrapsychic conflict vs faulty learning vs questions of meaning), how the cause arose (childhood conflicts vs faulty conditioning vs present loneliness), the chief method (free association and interpretation vs new contingencies vs a facilitating environment), the relationship (therapist-as-expert vs therapist-as-discerner vs therapist-as-facilitator), the chief benefit (emotional insight vs adaptive change vs personal growth), and duration (psychoanalysis for years, short psychodynamic 10-15 sessions, behaviour and existential therapies a few months).",
+   "formula": "groups = psychodynamic + behaviour + existential ; parameters = cause + origin + method + relationship + benefit + duration",
+   "key_idea": "Psychodynamic therapy appeared first, behaviour therapy next, and the existential therapies last; all still treat distress through psychological means.",
+   "textbook_ref": "lepy105.txt, Type of Therapies (six classification parameters, chronological order, Box 5.1 clinical formulation steps)",
+   "question_patterns": [
+    "what are the different types of psychotherapy and on what basis are they classified?",
+    "which therapy is called the third force and when did each group emerge?",
+    "compare the chief benefit claimed by psychodynamic, behaviour and humanistic therapy",
+    "how does the duration of classical psychoanalysis compare with short psychodynamic and behaviour therapies?",
+    "state the chief method of treatment in each of the three therapy groups",
+    "what is a clinical formulation and why should therapy never begin without one?",
+    "which parameter separates the therapist-as-expert from the therapist-as-facilitator?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the cause-to-method mapping",
+     "explain": "intrapsychic conflict calls for interpretation of free association and dreams, faulty learning calls for fresh contingencies, and questions of meaning call for an accepting environment"
+    },
+    {
+     "step": 2,
+     "action": "check the duration facts",
+     "explain": "classical psychoanalysis runs for years, recent psychodynamic versions finish in 10-15 sessions, and behaviour, cognitive-behaviour and existential therapies complete within a few months"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which therapy group appeared first: psychodynamic, behaviour or existential?",
+     "a": "psychodynamic"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.4",
+   "title": "Behaviour Therapy: Behavioural Analysis and Techniques",
+   "section": "Behaviour Therapy (with Box 5.2 and systematic desensitisation)",
+   "definition": "Behaviour therapy applies learning principles to correct faulty patterns in the present: behavioural analysis separates malfunctioning behaviours from the antecedent factors that set them up (examination anxiety behind smoking) and the maintaining factors that keep them going (relief from anxiety), after which a treatment package uses negative reinforcement, aversive conditioning that pairs an unwanted response with pain, positive reinforcement for rare adaptive acts, differential reinforcement that rewards wanted behaviour while ignoring unwanted behaviour, modelling through vicarious learning, and Wolpe's systematic desensitisation, which walks the relaxed client up a hierarchy of feared scenes so that relaxation inhibits anxiety - the principle of reciprocal inhibition.",
+   "formula": "behavioural_analysis = malfunctioning_behaviour + antecedent_factors + maintaining_factors ; desensitisation = relaxation + anxiety_hierarchy -> reciprocal_inhibition",
+   "key_idea": "Antecedent operations change what precedes a behaviour and consequent operations change what follows it, as when less food at tea time plus praise at dinner builds proper eating.",
+   "textbook_ref": "lepy105.txt, Behaviour Therapy (smoking example, establishing operations, token and differential reinforcement, Box 5.2 relaxation procedures, systematic desensitisation, modelling)",
+   "question_patterns": [
+    "discuss the various techniques used in behaviour therapy with one example of each",
+    "in behavioural analysis what separates antecedent factors from maintaining factors?",
+    "how does aversive conditioning help an alcoholic give up drinking?",
+    "explain systematic desensitisation with the hierarchy of anxiety-provoking stimuli",
+    "which principle makes relaxation overcome anxiety in Wolpe's technique?",
+    "how does differential reinforcement reduce sulking and crying in a child?",
+    "distinguish antecedent operations from consequent operations with the dinner-time example",
+    "how would a behaviour therapist treat a phobia differently from anger outbursts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the analysis triad",
+     "explain": "the distress-causing behaviour, its predisposing antecedents, and the payoff that maintains it must all be identified before treatment is packaged"
+    },
+    {
+     "step": 2,
+     "action": "check the desensitisation loop",
+     "explain": "relaxation is built first, then mildly feared scenes are imagined; the stronger relaxation force inhibits the weaker anxiety, and tolerance climbs the hierarchy session by session"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which therapy applies learning principles to correct faulty behaviour patterns?",
+     "a": "behaviour therapy"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.5",
+   "title": "Token Economy: Computing Rewards",
+   "section": "Behavioural Techniques - Token Economy",
+   "definition": "In a token economy, every occurrence of a wanted behaviour earns a token, and the collected tokens are later exchanged for a reward such as an outing or a treat; the number of rewards a client can claim follows directly from tokens earned per behaviour, behaviours performed, and the token price of the reward.",
+   "formula": "rewards_earned = behaviours_done * tokens_per_behaviour / tokens_per_reward",
+   "key_idea": "Tokens act as secondary reinforcers that bridge the gap between the wanted behaviour and the eventual reward.",
+   "textbook_ref": "lepy105.txt, Behavioural Techniques (token economy paragraph: tokens given per wanted behaviour, collected and exchanged for a reward)",
+   "question_patterns": [
+    "a patient earns 2 tokens per completed task and an outing costs 10 tokens - how many outings after 15 tasks?",
+    "in a token economy how are tokens exchanged for rewards in a psychiatric setting?",
+    "compute the rewards a child can claim after completing a given number of wanted behaviours",
+    "why does the token system motivate patients to repeat wanted behaviour?",
+    "a school gives stars for good work - name the behaviour therapy technique it mirrors",
+    "find the token balance after 20 wanted behaviours at 1 token each, then the outings claimable at 5 tokens per outing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the completed wanted behaviours by the tokens paid per behaviour",
+     "explain": "every wanted performance deposits its tokens into the client's collection",
+     "compute": "tokens_total = behaviours_done * tokens_per_behaviour"
+    },
+    {
+     "step": 2,
+     "action": "divide the token collection by the price of one reward",
+     "explain": "the quotient is the number of outings or treats the client may exchange",
+     "compute": "rewards_earned = tokens_total / tokens_per_reward"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A client earns 2 tokens per wanted behaviour, performs 10 behaviours, and a reward costs 5 tokens. How many rewards can be claimed?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.6",
+   "title": "Cognitive Therapies: Ellis's RET and Beck's Restructuring",
+   "section": "Cognitive Therapy / Cognitive Behaviour Therapy",
+   "definition": "Cognitive therapies trace distress to irrational thoughts and beliefs. Albert Ellis's Rational Emotive Therapy runs an antecedent-belief-consequence (ABC) analysis: irrational beliefs marked by musts and shoulds distort reality between event and emotion, and the therapist gently refutes them by non-directive questioning until a rational belief system takes over. Aaron Beck holds that childhood experiences build core schemas which a critical incident triggers into negative automatic thoughts - nobody loves me, I am stupid - characterised by cognitive distortions; gentle disputation brings cognitive restructuring. Cognitive Behaviour Therapy combines these cognitive moves with behavioural techniques and relaxation, addressing biological, psychological and social realms at once.",
+   "formula": "ret_chain = antecedent -> irrational_belief -> consequence ; beck_chain = core_schema + critical_incident -> negative_automatic_thoughts -> cognitive_restructuring",
+   "key_idea": "CBT is the present favourite because it is short and efficacious across anxiety, depression, panic attacks and borderline personality; cognitive therapy typically spans 10-20 sessions.",
+   "textbook_ref": "lepy105.txt, Cognitive Therapy (RET ABC analysis, Beck's core schemas and negative automatic thoughts), Cognitive Behaviour Therapy",
+   "question_patterns": [
+    "explain with an example how cognitive distortions take place in Beck's theory",
+    "state the three terms of the antecedent-belief-consequence analysis in Rational Emotive Therapy",
+    "give two examples of irrational beliefs marked by musts and shoulds",
+    "how do core schemas and a critical incident produce negative automatic thoughts?",
+    "what is the aim of cognitive restructuring and how does gentle questioning achieve it?",
+    "for which problems is cognitive behaviour therapy best suited and why?",
+    "contrast the therapist's questioning style in RET with directive probing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the ABC mediation",
+     "explain": "the antecedent event does not cause the distress directly - irrational beliefs mediate between the event and its emotional consequence"
+    },
+    {
+     "step": 2,
+     "action": "check Beck's trigger chain",
+     "explain": "a schema such as 'I am not wanted' lies dormant until a critical incident like public ridicule fires negative automatic thoughts that breed anxiety and depression"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose therapy runs the antecedent-belief-consequence analysis: Ellis's or Beck's?",
+     "a": "Ellis's"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.7",
+   "title": "Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt",
+   "section": "Humanistic-existential Therapy",
+   "definition": "Humanistic-existential therapies hold that distress springs from loneliness, alienation and blocked self-actualisation, and they cast the therapist as facilitator while the client owns the growth. Frankl's logotherapy - treatment for the soul - helps patients find meaning and responsibility even in life-threatening circumstances through meaning making from the spiritual unconscious; Rogers's client-centred therapy offers empathy, warmth and unconditional positive regard while reflecting the client's feelings back in non-judgmental rephrasing; and Perls's gestalt therapy, named from the German word for whole, heightens self-awareness and self-acceptance by acting out blocked fantasies and emotions, even in groups.",
+   "formula": "logotherapy = meaning_making + spiritual_unconscious ; client_centred = empathy + unconditional_positive_regard + reflection ; gestalt = self_awareness + self_acceptance",
+   "key_idea": "Healing arrives when obstacles to self-actualisation are perceived and removed in a permissive, non-judgmental atmosphere where emotions flow freely.",
+   "textbook_ref": "lepy105.txt, Humanistic-existential Therapy, Existential Therapy (Frankl, logos), Client-centred Therapy (Rogers), Gestalt Therapy (Perls)",
+   "question_patterns": [
+    "which therapy encourages the client to seek personal growth and actualise potential? name its branches",
+    "what does Frankl mean by meaning making and by the spiritual unconscious?",
+    "why is logotherapy called treatment for the soul?",
+    "how does the therapist's reflection work in client-centred therapy?",
+    "what does the German word gestalt mean and what is the goal of gestalt therapy?",
+    "who bears responsibility for the success of humanistic therapy - the therapist or the client?",
+    "why is transference actively discouraged in logotherapy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the facilitator stance",
+     "explain": "the therapist supplies a warm, empathic, accepting environment; the client initiates self-growth and finds her own solutions"
+    },
+    {
+     "step": 2,
+     "action": "check the three named therapies",
+     "explain": "Frankl targets meaning and responsibility, Rogers targets reconnection with disowned feelings through empathy and regard, and Perls targets awareness of blocked bodily processes and emotions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose logotherapy treats the soul by finding meaning: Frankl's or Rogers's?",
+     "a": "Frankl's"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.8",
+   "title": "Factors of Healing and Ethics in Psychotherapy",
+   "section": "Factors Contributing to Healing / Ethics in Psychotherapy",
+   "definition": "Healing in psychotherapy flows from several channels: the chosen techniques and their correct implementation, the therapeutic alliance with its regular availability, warmth and empathy, catharsis - the emotional unburdening of the first interviews - and non-specific factors split into patient variables such as motivation and expectation of improvement and therapist variables such as positive nature and absence of unresolved conflicts. Ethical practice demands informed consent, confidentiality, relief of suffering as the goal, integrity of the relationship, respect for human rights and dignity, and professional competence.",
+   "formula": "healing_factors = techniques + alliance + catharsis + non_specific_factors ; ethics = informed_consent + confidentiality + competence + dignity",
+   "key_idea": "Non-specific factors earn their name by operating across every therapy system, every client and every therapist.",
+   "textbook_ref": "lepy105.txt, Factors Contributing to Healing in Psychotherapy (four factors, patient and therapist variables), Ethics in Psychotherapy (six standards)",
+   "question_patterns": [
+    "what are the factors that contribute to healing in psychotherapy?",
+    "define catharsis and explain why the initial sessions heal",
+    "distinguish patient variables from therapist variables among the non-specific factors",
+    "list any four ethical standards a professional psychotherapist must observe",
+    "why is informed consent taken before therapy begins?",
+    "how do the relaxation procedures and cognitive restructuring heal an anxious client in the CBT school?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four healing channels",
+     "explain": "techniques, the healing alliance, catharsis in early unburdening, and non-specific factors together carry the therapeutic change"
+    },
+    {
+     "step": 2,
+     "action": "check the ethical list",
+     "explain": "informed consent, confidentiality, alleviation of distress, integrity, human rights and dignity, and professional competence form the standards"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The emotional unburdening of the first interviews is called what?",
+     "a": "catharsis"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.9",
+   "title": "Alternative Therapies: Yoga, Meditation and Daily Practice",
+   "section": "Alternative Therapies",
+   "definition": "Alternative therapies stand beside conventional drugs and psychotherapy: yoga from Patanjali's Ashtanga Yoga works through asanas and pranayama; focused-attention meditation holds the mind on breath, an object or a mantra, while Vipasana or mindfulness-based meditation passively observes passing sensations and thoughts; Sudarshana Kriya Yoga's rapid breathing has proven a low-risk, low-cost adjunct for stress, anxiety, PTSD and depression, with proper training and a thirty-minute daily practice maximising the gains.",
+   "formula": "week_practice_hours = daily_practice_minutes * days_per_week / minutes_per_hour",
+   "key_idea": "NIMHANS research finds SKY reduces depression, Kundalini Yoga helps obsessive-compulsive disorder, and Vipasana helps prevent repeated depressive episodes.",
+   "textbook_ref": "lepy105.txt, Alternative Therapies (Ashtanga Yoga of Patanjali, Vipasana, SKY with 30-minute daily practice, Kundalini Yoga, NIMHANS findings)",
+   "question_patterns": [
+    "a practitioner follows the recommended 30-minute yoga session every day - how many hours does she practise in a week?",
+    "which alternative therapy would you suggest for PTSD survivors of mass disasters and why?",
+    "how does Vipasana meditation differ from meditation that fixes attention on a mantra?",
+    "name the two components of yoga as commonly practised from Patanjali's Ashtanga Yoga",
+    "what did NIMHANS research show about Sudarshana Kriya Yoga and depression?",
+    "which yogic practice has been found effective for obsessive-compulsive disorder in the USA?",
+    "how do alternative therapies earn the name alternative to conventional treatment?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the daily practice minutes by the days in the week",
+     "explain": "the prescription is a thirty-minute practice every day",
+     "compute": "week_practice_minutes = daily_practice_minutes * days_per_week"
+    },
+    {
+     "step": 2,
+     "action": "convert the weekly minutes into hours",
+     "explain": "dividing by the minutes in one hour expresses the practice load in hours",
+     "compute": "week_practice_hours = week_practice_minutes / minutes_per_hour"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which yoga's rapid breathing has proven a low-cost aid against depression: Sudarshana Kriya or Ashtanga?",
+     "a": "Sudarshana Kriya"
+    }
+   ]
+  },
+  {
+   "id": "lepy105.10",
+   "title": "Rehabilitation of the Mentally Ill",
+   "section": "Rehabilitation of the Mentally Ill",
+   "definition": "Treatment has two arms - reducing symptoms and raising the quality of life - and in severe disorders such as schizophrenia the first does not guarantee the second, so rehabilitation steps in to make the patient self-sufficient and productive: occupational therapy teaches candle making, paper bag making and weaving to build work discipline, social skills training develops interpersonal skills through role play, imitation and instruction, cognitive retraining sharpens attention, memory and executive functions, and vocational therapy prepares the recovered patient for productive employment.",
+   "formula": "rehabilitation = occupational_therapy + social_skills_training + cognitive_retraining + vocational_therapy",
+   "key_idea": "Negative symptoms like disinterest and lack of motivation can persist after symptom reduction, which is why empowerment and not just relief is the aim.",
+   "textbook_ref": "lepy105.txt, Rehabilitation of the Mentally Ill (two components of treatment, four rehabilitation services)",
+   "question_patterns": [
+    "what techniques are used in the rehabilitation of the mentally ill?",
+    "why may symptom reduction alone fail to improve life quality in schizophrenia?",
+    "how does social skills training teach functioning in a social group?",
+    "which crafts does occupational therapy use to build a work discipline?",
+    "name the basic cognitive functions improved by cognitive retraining",
+    "what is the ultimate aim of rehabilitation for a patient with severe mental disorder?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two treatment arms",
+     "explain": "for milder disorders symptom reduction lifts quality of life directly, but severe disorders need the second arm as well"
+    },
+    {
+     "step": 2,
+     "action": "check the four services",
+     "explain": "occupational therapy builds work discipline, social skills training builds interpersonal function, cognitive retraining rebuilds attention, memory and executive functions, and vocational therapy leads to employment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which rehabilitation arm teaches crafts like candle making and weaving: occupational therapy or social skills training?",
+     "a": "occupational therapy"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy105.we1",
+   "concept_id": "lepy105.5",
+   "problem": "In a token economy a patient earns 2 tokens for every completed task. An outing from the ward is priced at 10 tokens. After finishing 15 tasks, how many outings has the patient earned?",
+   "given": {
+    "behaviours_done": 15,
+    "tokens_per_behaviour": 2,
+    "tokens_per_reward": 10
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply completed tasks by tokens per task",
+     "compute": "tokens_total = 15 * 2"
+    },
+    {
+     "step": 2,
+     "action": "divide the collection by the token price of one outing",
+     "compute": "rewards_earned = tokens_total / 10"
+    }
+   ],
+   "answer": "rewards_earned = 2 outings claimable from the ward token economy"
+  },
+  {
+   "id": "lepy105.we2",
+   "concept_id": "lepy105.9",
+   "problem": "Following the chapter's advice, a practitioner does one 30-minute Sudarshana Kriya Yoga session daily. How many hours of practice does she complete in a 7-day week?",
+   "given": {
+    "daily_practice_minutes": 30,
+    "days_per_week": 7,
+    "minutes_per_hour": 60
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply daily minutes by days in the week",
+     "compute": "week_practice_minutes = 30 * 7"
+    },
+    {
+     "step": 2,
+     "action": "divide by the minutes in an hour",
+     "compute": "week_practice_hours = week_practice_minutes / 60"
+    }
+   ],
+   "answer": "week_practice_hours = 3.5 hours of yoga practice per week"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy105.ex1",
+   "source_ref": "lepy105.txt Review Questions (chapter-end)",
+   "questions": [
+    "Describe the nature and scope of psychotherapy and highlight the role of the therapeutic relationship.",
+    "What are the different types of psychotherapy, and on what basis are they classified?",
+    "Discuss the various techniques used in behaviour therapy.",
+    "Explain with the help of an example how cognitive distortions take place.",
+    "Which therapies encourage personal growth and self-actualisation? Write about their principles.",
+    "What factors contribute to healing in psychotherapy? Enumerate some alternative therapies.",
+    "What techniques are used in the rehabilitation of the mentally ill?",
+    "How would a social learning theorist and a psychoanalyst each explain a phobic fear of lizards?",
+    "For which problems is cognitive behaviour therapy best suited?"
+   ]
+  },
+  {
+   "id": "lepy105.ex2",
+   "source_ref": "lepy105.txt Project Idea 1 (token system) and Activity 5.3",
+   "questions": [
+    "List the classroom activities your school rewards with points or stars, and name the behaviour therapy principle each reward illustrates.",
+    "A patient earns 3 tokens per session of tidy behaviour; a treat costs 12 tokens. After 20 tidy sessions, how many treats can be claimed?",
+    "Guide a nervous friend through the breathing exercise: how long is the breath held, and how many times should the cycle be repeated?"
+   ]
+  }
+ ]
+}

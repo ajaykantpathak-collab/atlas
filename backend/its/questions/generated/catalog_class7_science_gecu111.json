@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu111.json",
+ "concepts": [
+  {
+   "id": "gecu.11.1",
+   "title": "Sources of Light and Straight-line Travel",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the natural source of light and two man-made sources.",
+     "a": "Natural: the sun. Man-made: bulb, candle, torch.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say light travels in straight lines?",
+     "a": "Shadows and beams form in straight lines; light does not bend around corners on its own.",
+     "self_check": true
+    },
+    {
+     "q": "What makes an object visible to us?",
+     "a": "Light from it (or reflected by it) entering our eyes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.2",
+   "title": "Transparent, Translucent, Opaque and Shadows",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are transparent, translucent and opaque objects? Give one example each.",
+     "a": "Transparent: glass (see through clearly). Translucent: frosted glass (blurry). Opaque: wood (no light).",
+     "self_check": true
+    },
+    {
+     "q": "What is a shadow and when does it form?",
+     "a": "A dark patch where an opaque object blocks light; it forms on the side away from the light.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the shadow of a pole longest in the morning and evening?",
+     "a": "The sun is low then, so rays strike at a slant and shadows stretch long.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.3",
+   "title": "Reflection and the Plane Mirror",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the law of reflection for a plane mirror.",
+     "a": "Angle of incidence equals angle of reflection, both measured from the normal.",
+     "self_check": true
+    },
+    {
+     "q": "What image does a plane mirror form?",
+     "a": "An upright image of the same size as the object, laterally inverted (left-right reversed), behind the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the word 'AMBULANCE' appear mirror-written on vehicles?",
+     "a": "Drivers ahead see it in their mirrors; the reversal makes it read correctly in the mirror.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.11.4",
+   "title": "The Pinhole Camera and Useful Items",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a pinhole camera form an image?",
+     "a": "Light from each point passes through the tiny hole in straight lines, forming an inverted image on the screen.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the pinhole image upside down?",
+     "a": "Rays cross at the pinhole - light from the top of the object lands at the bottom of the screen.",
+     "self_check": true
+    },
+    {
+     "q": "Name two things a pinhole camera teaches us.",
+     "a": "Light travels in straight lines, and images can be formed without a lens.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

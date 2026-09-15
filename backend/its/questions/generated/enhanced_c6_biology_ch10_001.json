@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch10_001",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch10_001",
+   "title": "c6_biology_ch10_001",
+   "questions": [
+    {
+     "q": "What are the three main things a seed needs to begin the process of growing into a plant?",
+     "a": "A seed needs moisture, warmth, and air. Answering only \"water\" reveals the student ignores the importance of temperature and oxygen, which are critical for the seed to \"breathe\" and activate its growth enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "If you plant a seed upside down, in which direction will the root grow? Why?",
+     "a": "The root will still grow downward. This shows the student understands that plants have a natural \"direction\" for growth (geotropism), regardless of how the seed was initially placed. A wrong answer suggests they think the root just follows the seed's orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A seed is planted in a dark, dry, and cold room. Why will it fail to grow?",
+     "a": "It fails because it lacks the \"trigger\" conditions: moisture (to swell the seed) and warmth (to activate growth). If a student says \"because it is dark,\" they are missing the point that germination happens underground in the dark; the absence of light stops the *later* stage of leaf development, but water and warmth are needed for the initial sprout.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the job of the root and the shoot during the early days of a seedling's life.",
+     "a": "The root acts as an anchor and a water-seeker, while the shoot acts as a light-seeker. If a student confuses these, they have not internalized the basic structural function of plant survival.",
+     "self_check": true
+    },
+    {
+     "q": "Is a seed \"alive\" while it is sitting in a bag of grains? Justify your answer.",
+     "a": "Yes, it is \"dormant\" or alive but inactive. It contains a miniature plant and stored food, waiting for the right conditions to start the metabolic process of growth. A wrong answer suggests the student thinks growth is the only sign of life.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to prove that a seed needs water to grow. What would you do?",
+     "a": "Place two sets of seeds in identical containers with soil and warmth. Provide water to the first set and none to the second. If the student fails to keep the other conditions (warmth/light) the same, they do not understand the concept of a \"controlled experiment.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

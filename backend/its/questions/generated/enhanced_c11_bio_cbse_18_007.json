@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_007",
+   "title": "c11_bio_cbse_18_007",
+   "questions": [
+    {
+     "q": "Name the five components of a reflex arc in the correct sequential order from stimulus to response.",
+     "a": "Correct sequence: Receptor → Sensory neuron → Interneuron (in spinal cord) → Motor neuron → Effector (muscle/gland). A wrong answer (e.g., placing interneuron before sensory neuron or omitting receptor) reveals the student memorized terms but not the directional flow of information from stimulus to response.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the withdrawal reflex (pulling hand from hot object) occur *before* the sensation of pain reaches the brain?",
+     "a": "The reflex arc is completed entirely within the spinal cord (CNS) via a short pathway with only 1-2 synapses, while pain perception requires the signal to travel up the spinothalamic tract to the thalamus and then to the somatosensory cortex — a longer path with more synapses and conduction time. A wrong answer (e.g., \"brain is not involved at all\") shows confusion between *initiation* (spinal) and *perception* (cortical); the brain receives the signal *after* the reflex.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a spinal cord injury at T10 (thoracic vertebra 10). The knee-jerk reflex (L2-L4) is intact, but the plantar reflex (S1-S2) is absent. Explain this finding using segmental organization of the spinal cord.",
+     "a": "The knee-jerk reflex arc (L2-L4) is *above* the T10 lesion, so its sensory-motor circuit within the spinal cord remains connected to the periphery. The plantar reflex arc (S1-S2) is *below* the lesion; although the local arc is intact, the descending inhibitory pathways from the brain (corticospinal tract) are cut, but more importantly, the reflex cannot be *elicited* or *observed* if motor output to the foot is blocked? Wait — actually, a lower motor neuron lesion at S1-S2 would abolish it, but an upper motor neuron lesion (T10) typically causes *hyperreflexia* and Babinski sign. The question as stated has a flaw: a T10 lesion would spare both reflex arcs locally but disconnect them from the brain. The plantar reflex would be *present but abnormal* (extensor/Babinski), not absent. A student answering \"absent because lesion is above S1\" reveals misunderstanding of upper vs lower motor neuron effects on reflexes. Correct reasoning: Both reflex arcs are caudal to T10, so both are intact locally; knee-jerk remains normal, plantar becomes extensor (Babinski positive).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the monosynaptic stretch reflex (knee-jerk) and the polysynaptic withdrawal reflex in terms of: (a) number of synapses, (b) interneuron involvement, (c) speed, and (d) functional significance.",
+     "a": "(a) Monosynaptic: 1 synapse (sensory → motor); Polysynaptic: 2+ synapses (sensory → interneuron → motor). (b) Monosynaptic: no interneuron; Polysynaptic: one or more interneurons. (c) Monosynaptic is faster due to fewer synapses and no interneuron delay. (d) Monosynaptic maintains posture/muscle tone; Polysynaptic protects from tissue damage (flexor withdrawal). A wrong answer conflating speed with \"number of neurons\" instead of synapses, or missing the protective vs postural distinction, shows superficial comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the reflex arc bypasses the brain, the brain has no role in modifying reflex responses.\" Evaluate this statement.",
+     "a": "The statement is **false**. While the *basic* reflex arc is spinal, the brain (via descending tracts like corticospinal, rubrospinal) exerts **tonic inhibitory and facilitatory control** over spinal reflexes. Example: Upper motor neuron lesions cause hyperreflexia (exaggerated knee-jerk) and spasticity because inhibitory control is lost. The brain also modulates reflexes during voluntary movement (e.g., suppressing withdrawal to hold a hot plate). A student agreeing reveals the misconception that \"spinal = no brain influence.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple clinical test to distinguish between a lower motor neuron (LMN) lesion and an upper motor neuron (UMN) lesion at the L4 level using reflex testing. Describe the expected findings for each.",
+     "a": "Test the knee-jerk reflex (L2-L4). **LMN lesion at L4**: Reflex *absent* (areflexia), with flaccid paralysis, fasciculations, muscle atrophy. **UMN lesion above L4 (e.g., spinal cord compression at T10)**: Reflex *exaggerated* (hyperreflexia), with spastic paralysis, clonus, Babinski sign. A poor answer (e.g., \"both show increased reflex\") fails to distinguish the fundamental difference: LMN destroys the reflex arc's motor limb; UMN removes inhibitory control, disinhibiting the intact arc.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

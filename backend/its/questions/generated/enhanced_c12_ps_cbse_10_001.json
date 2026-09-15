@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_001",
+   "title": "c12_ps_cbse_10_001",
+   "questions": [
+    {
+     "q": "By what legal instrument was the Planning Commission established in March 1950, and what was its formal constitutional status?",
+     "a": "The Planning Commission was established by a **Government of India resolution** (executive order), not by an Act of Parliament or a constitutional provision. It was a **non-constitutional, advisory body**; its recommendations became effective only after Union Cabinet approval.  \n**Wrong answer reveals:** If a student says \"Article 50\" or \"Constitution,\" they confuse the Planning Commission with constitutional bodies like the Election Commission (Article 324) or Finance Commission (Article 280). If they say \"Act of Parliament,\" they confuse it with statutory bodies like the National Human Rights Commission.",
+     "self_check": true
+    },
+    {
+     "q": "The resolution setting up the Planning Commission explicitly referenced the Directive Principles of State Policy. Which specific Directive Principle (Article) was cited to justify the Commission's mandate to prevent concentration of wealth and means of production?",
+     "a": "**Article 39(c)**: \"that the operation of the economic system does not result in the concentration of wealth and means of production to the common detriment.\" The resolution also referenced Article 39(a) (adequate means of livelihood) and 39(b) (distribution of material resources for common good).  \n**Wrong answer reveals:** If a student cites Article 38 (general welfare) or Article 41 (right to work), they have not distinguished the specific distributive justice clauses that directly shaped planning's anti-concentration mandate. This confusion leads to vague answers about \"social justice\" without constitutional precision.",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to launch a massive irrigation dam project. It asks the Planning Commission for funds. The Commission includes it in the Five Year Plan. Explain the **budgetary mechanism** that allows this project to be funded differently from routine expenditure like salaries of government employees.",
+     "a": "The central and state budgets are split into **'plan budget'** and **'non-plan budget'**. The dam project, as a planned development priority, is funded from the **plan budget** (allocated on a five-year basis per Plan priorities). Routine salaries are **non-plan expenditure** (yearly recurring costs). The Planning Commission determines plan allocations; the Finance Ministry handles non-plan.  \n**Wrong answer reveals:** If the student says \"the Planning Commission releases funds directly,\" they misunderstand its advisory role — it allocates plan *outlays*, but actual fund release is by the Finance Ministry. If they say \"no difference, all from same budget,\" they miss the core institutional innovation of five-year planning.",
+     "self_check": true
+    },
+    {
+     "q": "The Bombay Plan (1944) was drafted by leading industrialists. It advocated state ownership of key industries and a planned economy. How does this **contradict the standard political economy assumption** about industrialists' preferences, and what does it reveal about the **consensus on planning** in post-independence India?",
+     "a": "Standard assumption: Industrialists prefer laissez-faire and oppose state intervention. **Contradiction:** The Bombay Plan showed Indian big capital **voluntarily demanded state-led planning and public sector dominance** because they lacked capital/technology for heavy industry and wanted state to bear the risk. **Reveals:** Planning was not a leftist imposition but a **cross-ideological consensus** — from industrialists (Bombay Plan) to socialists (Nehru) to communists — making it the \"obvious choice\" after independence.  \n**Wrong answer reveals:** If a student says \"industrialists opposed planning,\" they project Western liberal assumptions onto India. If they say \"Bombay Plan was a government document,\" they confuse it with the official Five Year Plans. Both errors obscure the unique political economy of Indian planning.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Planning Commission's advisory role made it a weak institution that could not enforce plan priorities on states.\" Use the **Centre-State financial relations** framework (Union List, State List, Concurrent List) to justify your answer.",
+     "a": "**Evaluation: The statement is partially true but misses the Commission's real leverage.**  \n**Reasoning:**  \n1. Constitutionally, states control most development subjects (State List: agriculture, irrigation, public health).  \n2. Planning Commission had **no constitutional authority** to compel states.  \n3. **But** it controlled **Plan assistance** (grants/loans for plan projects) — a massive financial lever because states depended on central plan funds for capital expenditure.  \n4. Through **Gadgil Formula** (later), plan aid distribution became a negotiated, politically powerful tool.  \n**Conclusion:** The Commission was \"advisory\" in law but **de facto decisive** in resource allocation, making it the most powerful extra-constitutional body till 2014.  \n**Wrong answer reveals:** If a student says \"it was weak because advisory,\" they ignore fiscal federalism realities. If they say \"it dictated to states,\" they confuse it with a constitutional authority. Both miss the nuanced **soft power via purse strings**.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **one-paragraph justification** (as if you were a member of the Constituent Assembly in 1949) arguing **for or against** creating a permanent Planning Commission by constitutional amendment. Ground your argument in the **Directive Principles** and the **experience of the 1940s** (Depression, war, Soviet growth).",
+     "a": "**Sample justification (for):**  \n\"Article 39 mandates that the state direct its policy to prevent concentration of wealth and secure equitable distribution of resources. The 1930s Depression showed unregulated markets fail the poor; the Soviet 1930s plans demonstrated rapid industrialisation is possible with state direction. The Bombay Plan proves even Indian capitalists seek state leadership. A constitutional Planning Commission would give democratic legitimacy to the massive resource redistribution Article 39 demands, ensuring plans survive political changes. Without it, planning remains an executive whim, vulnerable to short-term pressures.\"  \n**Criteria for good answer:** Cites specific Directive Principles (Art 39), references historical evidence (Depression, Soviet growth, Bombay Plan), addresses democratic legitimacy vs executive discretion.  \n**Poor answer reveals:** Vague \"planning is good\" without constitutional or historical grounding; or \"Constitution shouldn't have economic bodies\" without engaging Article 39's directive to the *state* to *direct policy*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

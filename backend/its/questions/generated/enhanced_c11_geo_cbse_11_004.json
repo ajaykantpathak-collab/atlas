@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_004",
+   "title": "c11_geo_cbse_11_004",
+   "questions": [
+    {
+     "q": "Name the three major river basins in India that are most prone to flooding and the primary meteorological cause for each.",
+     "a": "The three major flood-prone river basins are: (1) Ganga Basin – caused by heavy southwest monsoon rainfall over the catchment and Himalayan snowmelt; (2) Brahmaputra Basin – caused by intense monsoon rainfall combined with high sediment load and seismic activity; (3) Peninsular river basins (Mahanadi, Godavari, Krishna, Cauvery) – caused by cyclonic rainfall from Bay of Bengal depressions. A wrong answer (e.g., naming Indus basin or attributing all floods to “heavy rain” without basin-specific mechanisms) reveals the student cannot differentiate hydro-meteorological regimes across India’s physiographic divisions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Brahmaputra River experiences more severe and frequent flooding than the Ganga, despite both originating in the Himalayas.",
+     "a": "The Brahmaputra has a steeper gradient in its upper reaches, carries an exceptionally high sediment load (due to soft sedimentary rocks in its catchment), and its channel braids extensively in Assam, reducing carrying capacity. Additionally, the region receives very high rainfall (over 2500 mm) and is seismically active, causing landslides that choke the river. The Ganga has a more gradual gradient, larger floodplains, and regulated flow from dams. A wrong answer focusing only on rainfall intensity shows the student misses the geomorphic and tectonic factors that amplify flood hazard.",
+     "self_check": true
+    },
+    {
+     "q": "Given a rainfall map of India showing 300 mm/day over the Western Ghats and 150 mm/day over the Gangetic plains, which region is more likely to experience flash floods and why? Use the concept of basin lag time.",
+     "a": "The Western Ghats region is more likely to experience flash floods. Step 1: Identify the steep, short streams of the Western Ghats (small catchment area, high gradient). Step 2: Recall that basin lag time is short for small, steep basins – runoff reaches the channel within hours. Step 3: Compare with Gangetic plains: large catchment, low gradient, long lag time (days). Step 4: Conclude that high intensity rainfall on Western Ghats produces rapid hydrograph peak (flash flood), while same intensity on plains causes riverine flood with longer lead time. A wrong answer choosing Gangetic plains indicates confusion between flash floods and riverine floods and ignorance of basin morphometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flood vulnerability of the Kosi River (Bihar) and the Damodar River (West Bengal/Jharkhand) in terms of causes, human interventions, and current management challenges.",
+     "a": "Kosi: Himalayan origin, high sediment load, frequent avulsion (channel shifting), embankments have confined the river and raised bed level, leading to catastrophic breaches. Damodar: Peninsular origin, controlled by dams (Damodar Valley Corporation), but lower reaches still flood due to heavy rainfall and reduced carrying capacity from siltation. Kosi’s challenge is managing a dynamic, sediment-choked river with embankments; Damodar’s challenge is balancing flood control with irrigation and power. A wrong answer treating both as “river flooding” shows inability to distinguish between alluvial fan dynamics (Kosi) and regulated valley flooding (Damodar).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Building higher embankments is the most effective long-term solution to flood problems in the Ganga-Brahmaputra plains.”",
+     "a": "The statement is flawed. Embankments disconnect the river from its floodplain, preventing natural silt deposition on fields and causing channel aggradation (bed level rise). This increases flood magnitude when breaches occur. Long-term solutions require integrated floodplain management: floodplain zoning, wetland restoration, afforestation in catchments, and non-structural measures (forecasting, insurance). A student agreeing with the statement reveals a purely engineering mindset, ignoring geomorphic processes and the “levee effect” that increases vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based flood preparedness plan for a village located on the active floodplain of the Ghaghara River (Uttar Pradesh). Include early warning, evacuation routes, and post-flood recovery steps.",
+     "a": "A good plan includes: (1) Early warning: Link to CWC flood forecasts via mobile alerts; train volunteers to read river gauge levels. (2) Evacuation: Identify elevated ground (schools, community centers); map routes avoiding low-lying areas; conduct drills pre-monsoon. (3) Preparedness: Store dry food, water purification tablets, first aid; raise houses on stilts where possible. (4) Post-flood: Coordinate with Panchayat for damage assessment; access government relief (NDRF/SDRF); disinfect water sources; document losses for insurance. A poor plan relies solely on government rescue, ignores local knowledge, or lacks gender-sensitive provisions (e.g., for pregnant women, elderly).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

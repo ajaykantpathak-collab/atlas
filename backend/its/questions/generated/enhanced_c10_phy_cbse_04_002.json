@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_002",
+   "title": "c10_phy_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define the principal focus of a concave mirror and a convex mirror. State the sign of the focal length for each according to the Cartesian sign convention.",
+     "a": "Concave mirror: Principal focus (F) is the point on the principal axis where incident rays parallel to the axis actually converge after reflection. Focal length is negative (f < 0) because the focus lies on the same side as the reflecting surface (opposite to incident light direction). Convex mirror: Principal focus (F) is the point on the principal axis from which incident rays parallel to the axis appear to diverge after reflection. Focal length is positive (f > 0) because the focus lies behind the mirror (along incident light direction). A wrong answer revealing confusion between \"real focus\" and \"virtual focus\" or sign convention reversal indicates the student has not internalised the Cartesian sign convention (distances measured from pole, positive along incident light).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The radius of curvature of a spherical mirror is always positive because it is a distance.\" Explain why this statement is incorrect using the Cartesian sign convention. Give the sign of R for a concave mirror and a convex mirror.",
+     "a": "In the Cartesian sign convention, the radius of curvature R is a directed distance measured from the pole (P) to the centre of curvature (C). For a concave mirror, C lies on the same side as the reflecting surface, which is opposite to the direction of incident light; hence R is negative. For a convex mirror, C lies behind the mirror, along the direction of incident light; hence R is positive. The statement is incorrect because R is not a scalar distance — it is a signed quantity. A student who treats R as always positive has not grasped that sign convention assigns direction to all measured distances (u, v, f, R), not just focal length.",
+     "self_check": true
+    },
+    {
+     "q": "The radius of curvature of a concave mirror is measured as –24 cm using the Cartesian sign convention. Calculate its focal length. If the same mirror is used in an experiment where the object is placed at the centre of curvature, what is the object distance u (with sign)?",
+     "a": "Step 1: Identify given: R = –24 cm (concave mirror, so R is negative). Step 2: Use formula f = R/2 (valid for paraxial rays, small aperture). Step 3: Substitute: f = (–24 cm)/2 = –12 cm. Step 4: Object at centre of curvature means object distance u = R = –24 cm (negative because object is in front of the mirror, opposite to incident light direction). Step 5: Verify: f = –12 cm is negative as expected for concave mirror; u = –24 cm is negative as expected for real object. A wrong answer with f = +12 cm or u = +24 cm reveals sign convention error — the student likely treats all distances as positive magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Two spherical mirrors have the same numerical radius of curvature |R| = 30 cm. One is concave, the other convex. Compare their focal lengths in magnitude and sign. If parallel sunlight falls on each mirror, where will the bright spot (focus) form relative to the pole in each case?",
+     "a": "For concave mirror: R = –30 cm → f = –15 cm. For convex mirror: R = +30 cm → f = +15 cm. Magnitudes are equal (15 cm), signs opposite. Parallel sunlight (rays parallel to principal axis) on concave mirror converges at a real focus 15 cm in front of the mirror (on the same side as reflecting surface) — a bright spot can be caught on a screen. On convex mirror, rays diverge after reflection and appear to come from a virtual focus 15 cm behind the mirror — no real bright spot forms on a screen; the focus is virtual. A student who says both form real spots or places the convex mirror's focus in front has not understood the distinction between real and virtual focus.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for a concave mirror showing a ray parallel to the principal axis reflecting and passing through a point marked F at a distance f from the pole. The mirror has a large aperture (diameter comparable to R). The teacher says the diagram is inaccurate. Explain why, referencing the paraxial approximation.",
+     "a": "The formula f = R/2 and the definition of principal focus as a single point where all parallel rays converge are derived under the paraxial approximation: only rays close to the principal axis (small angles, small aperture) are considered. For a large aperture mirror, marginal rays (far from the axis) intersect the axis at points closer to the mirror than the paraxial focus — this is spherical aberration. The reflected rays do not meet at a single sharp focus; instead they form a caustic curve. The student's diagram assumes ideal focusing for all rays, which is only true for parabolic mirrors or under paraxial approximation. A student who does not mention spherical aberration or paraxial condition has not understood the limitation of the spherical mirror formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a metre scale, and a distant object (like the Sun or a faraway tree) to determine the focal length of the mirror. List the steps, the measurement to take, and how to apply the sign convention to report the result.",
+     "a": "Steps: (1) Mount the concave mirror on a stand facing a distant object (Sun/tree) so that incident rays are effectively parallel. (2) Place a white screen on the other side of the mirror and adjust its distance until a sharp, inverted image of the distant object forms on the screen. (3) Measure the distance between the mirror's pole (approximated by the mirror's front surface centre) and the screen using the metre scale — this is the focal length magnitude. (4) Since the image forms in front of the mirror (real focus), the focal length is negative by Cartesian convention. Report: f = –(measured distance) cm. A poor answer that omits the sign, uses a nearby object (non-parallel rays), or measures from the centre of curvature instead of the pole reveals misunderstanding of \"distant object ≈ parallel rays\" and sign convention application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

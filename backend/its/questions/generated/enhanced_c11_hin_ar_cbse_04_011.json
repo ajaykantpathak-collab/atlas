@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_04_011",
+   "title": "c11_hin_ar_cbse_04_011",
+   "questions": [
+    {
+     "q": "What is the meaning of the word \"इक्ज़िट\" (exit) as used in the context of the chapter's language exercise, and from which language is it borrowed?",
+     "a": "The word \"इक्ज़िट\" means \"निकास\" or \"बाहर जाने का रास्ता\" and is borrowed from English. A wrong answer (e.g., saying it's a Sanskrit word) reveals the student cannot identify loanwords and their source languages, a key skill for analyzing the text's linguistic hybridity.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"वकीलों ने न्यायालय में बहस की\" (Lawyers argued in court), the textbook asks to convert it to \"सामान्य हिंदी\". What does this conversion typically involve, and why is it asked in this chapter?",
+     "a": "Conversion to \"सामान्य हिंदी\" involves replacing Perso-Arabic vocabulary (e.g., वकील, न्यायालय, बहस) with Sanskrit-derived equivalents (e.g., वकील -> अधिवक्ता, न्यायालय -> अदालत, बहस -> वाद-विवाद). The chapter asks this to highlight the linguistic hierarchy imposed by colonial education that privileged certain registers. A wrong answer (e.g., just simplifying grammar) shows the student misses the sociolinguistic critique embedded in the exercise.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"passive voice as evasion of agency\" to the sentence \"ब्लैक बोर्ड पर लिखवाया गया\" (Was made to write on the blackboard). Who is the hidden agent, and what does this reveal about the classroom power dynamic?",
+     "a": "The hidden agent is the teacher (or colonial authority) who forces the student to write. The passive construction hides the coercive power, making the action appear automatic. A student who only identifies the grammatical form without linking to power dynamics fails to apply the concept to the text's critique of colonial pedagogy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of honorifics in the narrator's address to the Englishman (\"एब यकडबल्यूएमज़ेड\", \"महोदय\") with the Englishman's imagined address to Indians. What does this asymmetry reveal about the colonial relationship?",
+     "a": "The narrator uses exaggerated honorifics (महोदय, श्रीमान) while the Englishman is portrayed as using demeaning terms (निगर, काले). This asymmetry satirizes the Indian's internalized inferiority and the Englishman's blatant racism. A wrong answer that treats both as equal politeness misses the irony and the author's intent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the author's use of code-mixing (e.g., \"फोनिब्ज-लाHkk\"k.k\", \"एब यकडबल्यूएमज़ेड\") as a satirical device. Does it enhance or obscure the critique?",
+     "a": "It enhances the critique by mimicking the absurdity of Anglicized pronunciation forced upon Indians, making the reader hear the colonial distortion. However, overuse could alienate readers unfamiliar with English phonetics. A student who says it's merely decorative fails to evaluate the device's rhetorical function.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short satirical paragraph (4-5 sentences) in Hindi that uses at least two English loanwords transliterated in Devanagari, one passive construction hiding agency, and exaggerated honorifics to mock a contemporary authority figure (e.g., a bureaucrat, a tech CEO).",
+     "a": "A good answer will demonstrate conscious use of the three features for satire. Example: \"श्रीमान सीईओ महोदय, आपके 'ऐप' ने हमारी 'प्राइवेसी' चुरा ली है, ऐसा कहा जाता है। डेटा बेचा गया, मुनाफा कमाया गया, पर हमसे पूछा तक नहीं गया।\" A poor answer uses the features mechanically without satirical intent, showing lack of creative synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

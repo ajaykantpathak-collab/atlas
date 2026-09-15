@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_004",
+   "title": "c11_bio_cbse_15_004",
+   "questions": [
+    {
+     "q": "Define the term \"cardiac cycle\" and state its average duration in a healthy adult at rest.",
+     "a": "The cardiac cycle is the repeating sequence of contraction (systole) and relaxation (diastole) of the atria and ventricles that constitutes one heartbeat. At a resting heart rate of 72 beats per minute, the average duration is 0.8 seconds (60 sec / 72 beats). A wrong answer (e.g., \"cardiac cycle is only ventricular systole\" or \"duration is 1 second\") reveals the student has not distinguished the complete cycle from a single phase or cannot perform the simple rate-to-period conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first heart sound (S1, \"lub\") is louder and longer than the second heart sound (S2, \"dub\") in a healthy adult.",
+     "a": "S1 corresponds to closure of the larger, thicker atrioventricular (tricuspid and bicuspid) valves at the onset of ventricular systole when ventricular pressure exceeds atrial pressure. These valves have larger surface area and close under a larger pressure gradient, producing a lower-frequency, longer-duration sound. S2 arises from closure of the smaller semilunar (aortic and pulmonary) valves at the onset of ventricular diastole when arterial pressure exceeds ventricular pressure; the smaller valves and lower pressure gradient yield a higher-pitched, shorter sound. If a student says \"S1 is louder because it's the first sound\" or \"S2 is due to AV valve closure\", they confuse valve identity and the pressure dynamics driving valve closure.",
+     "self_check": true
+    },
+    {
+     "q": "A student records a heart rate of 90 beats/min in a subject after moderate exercise. Calculate the new cardiac cycle duration and the approximate time available for ventricular filling (diastole) if systole shortens to 0.25 s. Explain the physiological consequence.",
+     "a": "Step 1: Cycle duration = 60 sec / 90 beats = 0.667 s per cycle.  \nStep 2: Diastole duration = Cycle duration – Systole duration = 0.667 s – 0.25 s = 0.417 s.  \nStep 3: At rest (72 bpm), diastole ≈ 0.8 – 0.3 = 0.5 s. Exercise reduces diastole disproportionately.  \nStep 4: Reduced filling time limits ventricular preload, but this is compensated by increased venous return and sympathetic enhancement of contractility.  \nA wrong calculation (e.g., using 72 bpm formula) or stating \"diastole increases\" shows inability to apply the inverse heart-rate–cycle-duration relationship and the concept that diastole shortens more than systole during tachycardia.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pressure changes in the left ventricle and aorta during the ejection phase of ventricular systole. Why does aortic pressure not fall to zero when the ventricle relaxes?",
+     "a": "During ejection, left ventricular pressure rises sharply, exceeds aortic pressure (~80 mmHg), opens the aortic valve, and peaks at ~120 mmHg (systolic pressure). Aortic pressure follows ventricular pressure but lags slightly. When the ventricle relaxes, ventricular pressure falls below aortic pressure, the aortic valve closes (S2), and aortic pressure does not fall to zero because the elastic recoil of the aorta and large arteries maintains diastolic pressure (~80 mmHg) — the Windkessel effect. A student who says \"aortic pressure drops to zero\" or \"ventricular pressure stays higher than aortic pressure throughout\" fails to integrate arterial elasticity and valve dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 'atrial kick' contributes only 10% of ventricular filling, so atrial fibrillation (loss of atrial systole) is hemodynamically insignificant in a healthy young adult.\"",
+     "a": "The statement is false. While atrial systole contributes ~20-30% of ventricular filling at rest (not 10%), its importance increases dramatically during exercise (when heart rate shortens diastole) and in conditions with stiff ventricles (hypertrophy, aging). In a healthy young adult at rest, loss of atrial kick may be tolerated, but during exertion it reduces cardiac output by 20-30%. A student who agrees with the statement ignores the heart-rate dependence of diastolic filling time and the Frank-Starling mechanism's reliance on adequate preload.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple bedside maneuver (using only a stethoscope and blood pressure cuff) to distinguish whether a patient's murmur occurs during systole or diastole, and explain the physiological basis.",
+     "a": "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery. The first Korotkoff sound coincides with S1 (systole onset) and the last sound coincides with S2 (systole end). Any murmur heard between the first and last Korotkoff sounds is systolic; any murmur heard after the last Korotkoff sound (when cuff pressure < diastolic) is diastolic. Basis: Korotkoff sounds are produced by turbulent flow during ventricular ejection (systole); their disappearance marks the end of systole. A poor answer (e.g., \"listen for loudness\") shows no understanding of the cardiac cycle's pressure events or the physics of Korotkoff sounds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

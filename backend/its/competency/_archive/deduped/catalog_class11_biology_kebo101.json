@@ -1,0 +1,201 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 101,
+ "chapter_title": "The Living World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo101.txt",
+ "concepts": [
+  {
+   "id": "kebo.101.1.1",
+   "title": "What is Living: Defining Properties of Life",
+   "section": "1.1 What is 'Living'?",
+   "definition": "Living beings show defining properties such as growth, reproduction, metabolism, cellular organisation and consciousness, and the ability to respond to the environment, which distinguish them from non-living matter.",
+   "formula": "",
+   "key_idea": "Growth by increase in number of cells and self-consciousness are unique to organisms, while metabolism in toto is the surest defining feature of life.",
+   "textbook_ref": "kebo101.txt section 1.1",
+   "question_patterns": [
+    "what are the defining properties of living organisms",
+    "why is metabolism regarded as a defining property of life",
+    "distinguish growth in living beings from growth in non-living objects",
+    "why is reproduction not a perfect defining property",
+    "how do organisms respond to environmental stimuli",
+    "define consciousness as a property of living beings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test each property",
+     "explain": "Check growth, reproduction, metabolism, organisation and response to stimuli in turn."
+    },
+    {
+     "step": 2,
+     "action": "separate defining from non-defining features",
+     "explain": "Mark metabolism and consciousness as defining; note exceptions in reproduction such as sterile workers."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the set of properties that together mark an object as living."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.2.1",
+   "title": "Biodiversity: Number and Range of Species",
+   "section": "1.2 Diversity in the Living World",
+   "definition": "The earth holds enormous biodiversity, with roughly 1.7 to 1.8 million species described and named so far, ranging from microscopic bacteria to giant whales, and their number far exceeds what local experience suggests.",
+   "formula": "",
+   "key_idea": "Different regions differ in the number and range of species, which makes identification, nomenclature and classification essential before any biological study.",
+   "textbook_ref": "kebo101.txt section 1.2",
+   "question_patterns": [
+    "what is biodiversity and how many species are described so far",
+    "why is the number of organisms so large",
+    "how do the number and range of species vary from region to region",
+    "why is the study of each organism impossible without identification",
+    "define biodiversity with examples",
+    "why do we need to name and classify organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the scale of diversity",
+     "explain": "Recall the described number of species and their range of forms."
+    },
+    {
+     "step": 2,
+     "action": "compare regions",
+     "explain": "Contrast the species known locally with the global count."
+    },
+    {
+     "step": 3,
+     "action": "link to the need for taxonomy",
+     "explain": "Conclude why naming and classification follow from diversity."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.3.1",
+   "title": "Nomenclature and Binomial Nomenclature",
+   "section": "1.3 Taxonomic Categories",
+   "definition": "Scientific naming follows the binomial convention given by Carolus Linnaeus, where each organism gets a two-word name of generic and specific epithet written in italics with the generic name capitalised, guided by ICBN for plants and ICZN for animals.",
+   "formula": "",
+   "key_idea": "A single scientific name is universal, removing the confusion created by many local names for the same organism.",
+   "textbook_ref": "kebo101.txt nomenclature discussion",
+   "question_patterns": [
+    "explain binomial nomenclature with an example",
+    "who proposed the binomial system of nomenclature",
+    "what are the rules of scientific naming",
+    "why are scientific names written in italics",
+    "what do ICBN and ICZN stand for",
+    "how do local names differ from scientific names"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the two-word rule",
+     "explain": "Split the scientific name into genus and species components."
+    },
+    {
+     "step": 2,
+     "action": "check the formatting",
+     "explain": "Confirm italics and capitalisation of the generic name."
+    },
+    {
+     "step": 3,
+     "action": "cite the governing code",
+     "explain": "Name ICBN or ICZN as the guiding code."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.4.1",
+   "title": "Taxonomic Categories: Hierarchy of Classification",
+   "section": "1.3.1 Genus to Kingdom",
+   "definition": "Classification arranges organisms in a taxonomic hierarchy of categories from species and genus through family, order, class, phylum to kingdom, where each higher category includes more general characters and more organisms.",
+   "formula": "",
+   "key_idea": "Species is the lowest and basic taxonomic category, and the hierarchy moves from specific characters at the bottom to general characters at the top.",
+   "textbook_ref": "kebo101.txt taxonomic categories sections",
+   "question_patterns": [
+    "define taxon and taxonomic hierarchy",
+    "arrange the taxonomic categories from species to kingdom",
+    "why is species the basic unit of classification",
+    "how does a genus differ from a family",
+    "which category includes organisms of the most general characters",
+    "define order and class with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the categories",
+     "explain": "Arrange species, genus, family, order, class, phylum and kingdom in ascending order."
+    },
+    {
+     "step": 2,
+     "action": "test the character trend",
+     "explain": "Check that generality of characters increases upwards."
+    },
+    {
+     "step": 3,
+     "action": "apply to an example",
+     "explain": "Place a familiar organism such as man or mango in the full hierarchy."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.5.1",
+   "title": "Taxonomical Aids: Herbarium, Museum, Botanical Garden, Key",
+   "section": "1.4 Taxonomical Aids",
+   "definition": "Taxonomical aids such as herbarium, botanical garden, museum, zoological park, key, flora, catalogue and monograph store and organise information about diversity, and a key uses paired contrasting statements called couplet and lead to identify organisms.",
+   "formula": "",
+   "key_idea": "Keys, floras and monographs make identification possible even where specimens are absent, while herbaria and gardens preserve reference material.",
+   "textbook_ref": "kebo101.txt section 1.4",
+   "question_patterns": [
+    "what is a herbarium and how is a specimen preserved in it",
+    "distinguish museum from zoological park",
+    "explain the use of key in identification with couplet and lead",
+    "what is stored in a botanical garden",
+    "define flora and monograph",
+    "list the taxonomical aids used by taxonomists"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the aid to its function",
+     "explain": "Pair each aid with what it stores or achieves."
+    },
+    {
+     "step": 2,
+     "action": "test the key's structure",
+     "explain": "Note the couplet and its two leads leading to identification."
+    },
+    {
+     "step": 3,
+     "action": "verify the specimen rules",
+     "explain": "Recall how herbarium sheets are pressed, dried and labelled."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo101.txt exercises section",
+   "questions": [
+    "Why are living organisms classified?",
+    "Why are the classification systems changing every now and then?",
+    "What different criteria would you choose to classify people that you meet often?",
+    "What do we learn from identification of individuals and populations?",
+    "Given below is the scientific name of Mango. Identify the correctly written name.",
+    "Define a taxon. Give some examples of taxa at different hierarchical levels.",
+    "Can you identify the correct sequence of taxonomical categories?",
+    "Define the terms couplet and lead used in keys."
+   ]
+  }
+ ]
+}

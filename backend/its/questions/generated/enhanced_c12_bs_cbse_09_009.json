@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_009",
+   "title": "c12_bs_cbse_09_009",
+   "questions": [
+    {
+     "q": "A student writes: \"Fixed capital means the money kept in the company's fixed deposit account.\" Is this correct? Explain why or why not in one sentence.",
+     "a": "No, this is incorrect. Fixed capital refers to investment in long-term tangible assets (plant, machinery, land, buildings) used for production over multiple years, not money deposited in a bank fixed deposit which is a financial asset and part of current assets or investments. A wrong answer reveals the student confuses the accounting term \"fixed asset\" with the banking product \"fixed deposit\" — a classic terminology collision error.",
+     "self_check": true
+    },
+    {
+     "q": "\"Capital-intensive firms always require more fixed capital than labour-intensive firms.\" Do you agree? Explain the condition under which this statement would be false.",
+     "a": "The statement is generally true but false when the labour-intensive firm operates at a massive scale while the capital-intensive firm operates at a tiny scale. For example, a labour-intensive textile unit employing 10,000 workers may need more factory space and buildings (fixed capital) than a small capital-intensive CNC machining unit with 5 machines. A wrong answer reveals the student treats \"choice of technique\" as an absolute determinant ignoring the modifying effect of \"scale of operations\" — a failure to analyze factor interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A software services company (Infosys-type) and a steel manufacturing company (Tata Steel-type) both plan to expand capacity by 20%. The software company needs ₹200 crores; the steel company needs ₹5,000 crores. Using the factor \"Nature of Business,\" explain this difference in 3 sentences.",
+     "a": "The steel company is a manufacturing concern requiring heavy investment in plant, machinery, blast furnaces, and land for raw material storage — all fixed assets. The software company is a service/trading concern where the primary assets are human capital (employees) and intellectual property, needing only office space, servers, and computers — far lower fixed asset intensity. A wrong answer that only says \"steel is manufacturing, software is services\" without linking to specific asset categories (furnaces vs servers) shows surface-level understanding without NCERT-required specificity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of \"Technology Upgradation\" and \"Financing Alternatives (leasing)\" on fixed capital requirements. Can they work in opposite directions for the same firm? Give a concrete example.",
+     "a": "Yes, they can oppose each other. Technology Upgradation increases fixed capital needs (e.g., a hospital must buy new MRI machines every 5 years due to obsolescence). Leasing reduces fixed capital needs (the hospital leases MRI machines instead of buying, converting a fixed capital outlay into periodic lease rentals). A firm in a high-obsolescence industry (computers, medical equipment) faces upward pressure from technology but can offset it via leasing. A wrong answer that treats these as independent or unidirectional misses the strategic trade-off NCERT expects students to articulate.",
+     "self_check": true
+    },
+    {
+     "q": "\"A company with high growth prospects should always invest heavily in fixed capital upfront to avoid capacity constraints later.\" Evaluate this statement using two factors from the chapter.",
+     "a": "The statement is flawed. While \"Growth Prospects\" suggests building capacity ahead of demand, \"Financing Alternatives\" (leasing) and \"Level of Collaboration\" (shared facilities) allow meeting growth without heavy upfront fixed capital. For example, a cloud-kitchen startup expecting rapid growth can lease kitchen space and equipment (low fixed capital) rather than build owned facilities. A wrong answer that agrees unconditionally shows inability to weigh multiple factors simultaneously — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-case (4-5 lines) for a Class 12 student where they must identify exactly three factors affecting fixed capital requirements and explain the direction of impact (increase/decrease) for each. The case must involve a real Indian company or realistic Indian business scenario.",
+     "a": "Good answer example: \"Ola Electric plans to set up a new gigafactory for battery cells in Tamil Nadu. (1) Nature of Business: Manufacturing → high fixed capital. (2) Choice of Technique: Highly automated cell assembly (capital-intensive) → increases fixed capital. (3) Financing Alternatives: They lease some testing equipment from Keysight Technologies → decreases fixed capital outlay.\" A poor answer lists factors without direction or uses generic \"company X\" without Indian context, showing inability to apply concepts to concrete situations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

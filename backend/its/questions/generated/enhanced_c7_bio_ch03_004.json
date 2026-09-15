@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_004",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_004",
+   "title": "c7_bio_ch03_004",
+   "questions": [
+    {
+     "q": "What are the primary raw materials required by a green plant to perform photosynthesis?",
+     "a": "Carbon dioxide and water are the primary raw materials. A wrong answer—such as stating that plants need cooked food, chemical fertilizers, or soil nutrients as raw materials—shows confusion between the mineral nutrients absorbed from soil and the actual chemical reactants used to build glucose during photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sunlight described as an energy source rather than a raw material in photosynthesis?",
+     "a": "Sunlight is energy that drives the chemical reaction, not a physical substance that gets built into the molecular structure of glucose. A student who says sunlight is a raw material thinks energy can be weighed or used up as matter, confusing physical building blocks with the power source that fuels the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "A potted hibiscus plant is kept inside a dark cupboard for a week. When tested, its leaves show no starch production. Using your understanding of photosynthesis, explain which raw material or requirement was missing.",
+     "a": "Steps: 1) Identify that starch is made from glucose produced during photosynthesis. 2) Recognize that a dark cupboard blocks sunlight. 3) Recall that photosynthesis requires light energy to drive the conversion of carbon dioxide and water. 4) Conclude that without sunlight, the reaction stopped and no food was made. A wrong answer suggests the plant lacked soil nutrients, missing the specific trigger of light energy.",
+     "self_check": true
+    },
+    {
+     "q": "How do the gaseous products of photosynthesis differ from the gaseous reactants, and through which structure do they move?",
+     "a": "The reactant gas is carbon dioxide (absorbed from the air), and the product gas is oxygen (released into the air), both moving through microscopic pores called stomata. A wrong answer claiming oxygen is taken in and carbon dioxide is released reveals a failure to distinguish photosynthesis from respiration.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that crop growth drops significantly during a week of heavy, continuous cloud cover in the monsoon season. Evaluate whether this drop is primarily due to a lack of water or a lack of light for photosynthesis.",
+     "a": "The drop is primarily due to a lack of light energy. During heavy monsoons, water is abundant, but thick clouds drastically reduce the intensity of sunlight reaching the crop leaves, directly slowing down the rate of photosynthesis and food production. A wrong answer blaming water scarcity ignores the weather conditions described.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental experiment to prove that a green leaf needs carbon dioxide to make starch, keeping all other variables constant.",
+     "a": "A good answer proposes enclosing one attached leaf of a potted plant in a sealed plastic bag containing potassium hydroxide (which absorbs carbon dioxide) while leaving another leaf exposed to normal air in sunlight, then testing both for starch. A poor answer fails to isolate carbon dioxide or leaves out the control leaf, showing a misunderstanding of controlled scientific experimentation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

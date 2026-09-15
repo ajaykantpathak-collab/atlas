@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_007",
+   "title": "c11_geo_cbse_19_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between conventional and non-conventional energy sources in terms of renewability and environmental impact?",
+     "a": "Conventional sources (coal, petroleum) are finite, non-renewable, and emit greenhouse gases; non-conventional sources (solar, wind, etc.) are renewable, emit little to no greenhouse gases during operation, and are flow resources. A wrong answer (e.g., \"non-conventional are cheaper\") reveals confusion between economic and geological renewability.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Thar Desert considered ideal for solar energy generation, while the same region is less suitable for wind energy?",
+     "a": "Thar Desert receives high solar insolation (clear skies, low latitude) but has low wind speeds due to stable high-pressure conditions; wind energy requires consistent high wind speeds typically found in coastal or mountain passes. A wrong answer indicates misunderstanding of the geographic controls on each resource.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India showing average annual wind speed at 50m height, identify two states with the highest wind energy potential and explain the topographic reason.",
+     "a": "Tamil Nadu and Gujarat have the highest potential. Tamil Nadu benefits from the Palghat Gap funneling winds, and Gujarat from the long coastline and Rann of Kutch creating pressure gradients. Steps: 1) Locate high wind speed zones on map (western Ghats, Gujarat coast). 2) Recall that wind accelerates through gaps and over flat terrain. 3) Match with states. 4) Explain topographic funneling. A wrong answer shows inability to link topography to wind patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical requirements for tidal energy and geothermal energy in India. Why are their potential sites mutually exclusive?",
+     "a": "Tidal energy requires high tidal range in estuaries/gulfs (e.g., Gulf of Kutch, Gulf of Khambhat, Sunderbans). Geothermal energy requires recent volcanic activity or hot springs (e.g., Manikaran, Puga Valley, Tattapani). They are mutually exclusive because tidal sites are coastal sedimentary basins, while geothermal sites are tectonically active zones (Himalayan belt, volcanic provinces). A wrong answer reveals lack of understanding of the distinct geological settings.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Nuclear energy is a non-conventional source because uranium is abundant in India.\" Is this correct? Justify.",
+     "a": "Incorrect. Nuclear energy is classified as non-conventional due to its technology and low carbon emissions, but uranium is a finite mineral (non-renewable). India's uranium reserves are limited (Jharkhand, Andhra Pradesh); we import most. The statement confuses classification criteria (energy type vs fuel renewability). A wrong answer shows confusion between resource base and energy category.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level energy mix plan for Rajasthan that maximizes non-conventional potential. Specify which sources, their locations within the state, and the geographical reasoning.",
+     "a": "Good answer: Solar PV in Jodhpur/Jaisalmer (high insolation, waste land), wind in Jaisalmer/Barmer (western margin, consistent winds), biomass in eastern districts (agricultural residue). No tidal/geothermal. Reasoning links each to Rajasthan's geography: arid climate, Thar Desert, wind corridors, crop pattern. Poor answer lists sources without locational justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

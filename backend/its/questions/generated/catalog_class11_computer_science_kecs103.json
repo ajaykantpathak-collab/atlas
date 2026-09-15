@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs103",
+ "concepts": [
+  {
+   "id": "kecs103.1",
+   "title": "Machine Learning Model Accuracy",
+   "questions": [
+    {
+     "q": "Using the method 'Machine Learning Model Accuracy', work with: correct = 60, total = 200. Carry the chain through step by step and give the final value of accuracy_pct.",
+     "a": "30 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Machine Learning Model Accuracy' and work with: correct = 24, total = 60. Carry the chain through step by step and give the final value of accuracy_pct.",
+     "a": "40 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Machine Learning Model Accuracy' refers to.",
+     "a": "Machine learning is the branch of artificial intelligence where a program builds its own model from example data instead of following hand-written rules; after training, the model is scored by the share of test cases it gets right.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Machine Learning Model Accuracy'.",
+     "a": "A model earns trust only when its score on unseen testing data crosses the accepted accuracy bar.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Machine Learning Model Accuracy', in plain ASCII form.",
+     "a": "accuracy_pct = correct / total * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.2",
+   "title": "Five Characteristics of Big Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Five Characteristics of Big Data' refers to.",
+     "a": "Datasets too bulky or messy for ordinary database tools are called big data; they are judged on five traits: sheer volume, speed of arrival (velocity), mix of formats (variety), trustworthiness (veracity) and the useful knowledge hidden inside (value).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Characteristics of Big Data'.",
+     "a": "Volume alone is not enough; how fast data arrives, how mixed and how reliable it is decides whether it is truly big data.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Five Characteristics of Big Data', in plain ASCII form.",
+     "a": "judge(data) on volume, velocity, variety, veracity, value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.3",
+   "title": "Sizing Daily Big Data Generation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sizing Daily Big Data Generation' refers to.",
+     "a": "Web users, phones and connected gadgets produce data on a colossal scale each day; expressing the daily flood in familiar storage units shows why special processing systems are needed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sizing Daily Big Data Generation'.",
+     "a": "Roughly 2.5 quintillion bytes arise every day, which is a few exabytes and far beyond a single machine.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sizing Daily Big Data Generation', in plain ASCII form.",
+     "a": "exabytes_per_day = daily_bytes / 1024 ** 6",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.4",
+   "title": "Web of Things Single Interface",
+   "questions": [
+    {
+     "q": "Using the method 'Web of Things Single Interface', work with: apps_per_device = 5, devices = 4. Carry the chain through step by step and give the final value of apps_avoided.",
+     "a": "19 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Web of Things Single Interface' and work with: apps_per_device = 20, devices = 100. Carry the chain through step by step and give the final value of apps_avoided.",
+     "a": "1999 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Web of Things Single Interface' refers to.",
+     "a": "The Internet of Things links everyday gadgets so they can exchange data, while its Web of Things extension lets one browser-based interface operate them all, instead of forcing a separate app for every device.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Web of Things Single Interface'.",
+     "a": "Moving control onto the web collapses a pile of device-specific apps into one interface.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Web of Things Single Interface', in plain ASCII form.",
+     "a": "apps_avoided = devices * apps_per_device - 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.5",
+   "title": "Sensors and Smart Cities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sensors and Smart Cities' refers to.",
+     "a": "A sensor samples the physical world, such as motion, tilt or tremors, and a smart sensor adds on-board computing so it can process readings before passing them on; city infrastructure stitches such sensors into services like quake-warning buildings and self-reporting bridges.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sensors and Smart Cities'.",
+     "a": "Accelerometers detect orientation and gyroscopes add rotation detail, which is how a phone flips its display.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sensors and Smart Cities', in plain ASCII form.",
+     "a": "sense(input) -> process -> alert",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.6",
+   "title": "Pay-per-use Cloud Billing",
+   "questions": [
+    {
+     "q": "Using the method 'Pay-per-use Cloud Billing', work with: hours_used = 3, rate_per_hour = 10. Carry the chain through step by step and give the final value of annual_cost.",
+     "a": "360 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pay-per-use Cloud Billing' and work with: hours_used = 50, rate_per_hour = 25. Carry the chain through step by step and give the final value of annual_cost.",
+     "a": "15000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pay-per-use Cloud Billing' refers to.",
+     "a": "Cloud computing rents software, platforms or raw infrastructure over the Internet, and providers bill usage the way an electricity board does: the longer or heavier you use a resource, the more you pay.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pay-per-use Cloud Billing'.",
+     "a": "On-demand billing spares a new organisation from buying servers before it earns revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pay-per-use Cloud Billing', in plain ASCII form.",
+     "a": "monthly_cost = hours_used * rate_per_hour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.7",
+   "title": "Grid Computing Parallel Speedup",
+   "questions": [
+    {
+     "q": "Using the method 'Grid Computing Parallel Speedup', work with: nodes = 3, task_hours = 200. Carry the chain through step by step and give the final value of time_saved.",
+     "a": "133.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Grid Computing Parallel Speedup' and work with: nodes = 30, task_hours = 300. Carry the chain through step by step and give the final value of time_saved.",
+     "a": "290 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Grid Computing Parallel Speedup' refers to.",
+     "a": "A grid welds geographically scattered computers, called nodes, into a virtual supercomputer for one large job; splitting the job evenly lets the nodes work simultaneously, so the waiting time shrinks by roughly the node count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Grid Computing Parallel Speedup'.",
+     "a": "Unlike cloud, which sells services, a grid pools volunteered nodes for a single application-specific goal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Grid Computing Parallel Speedup', in plain ASCII form.",
+     "a": "time_saved = task_hours - task_hours / nodes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs103.8",
+   "title": "Blockchain Decentralised Ledger",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Blockchain Decentralised Ledger' refers to.",
+     "a": "A blockchain keeps one shared ledger on every participating computer instead of one central database; verified transactions are packed into blocks that append to the chain, so no single member can quietly rewrite history.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blockchain Decentralised Ledger'.",
+     "a": "The append-only design means an entry becomes final only when every node authenticates it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Blockchain Decentralised Ledger', in plain ASCII form.",
+     "a": "new_block -> all nodes verify -> chain grows",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

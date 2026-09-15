@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_001",
+   "title": "c12_math_cbse_04_001",
+   "questions": [
+    {
+     "q": "What is the determinant of the matrix A = [7] (a 1×1 matrix), and why does the definition of determinant require the matrix to be square?",
+     "a": "The determinant of A = [7] is 7. A 1×1 matrix is square (1 row, 1 column), so it has a determinant equal to its single element. A non-square matrix (e.g., 2×3) has no determinant because the definition associates a unique number only with square matrices — the expansion process (deleting rows and columns) requires equal numbers of rows and columns to produce smaller square submatrices recursively. A wrong answer (e.g., \"determinant is 0\" or \"non-square matrices have determinants\") reveals confusion between the definition of determinant and the concept of matrix rank or invertibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The determinant of matrix A = [[1, 2, 3], [4, 5, 6]] is 1(5) − 2(4) = −3.\" Explain why this statement is mathematically incorrect, and state the correct condition for a matrix to have a determinant.",
+     "a": "The statement is incorrect because A is a 2×3 matrix (2 rows, 3 columns), which is **not square**. Only square matrices (n×n) have determinants. The student incorrectly applied the 2×2 formula to a non-square matrix. The correct condition: a matrix must have the same number of rows and columns. A wrong answer (e.g., \"the formula is wrong\" or \"determinant is undefined because it's not 2×2\") reveals the student thinks only 2×2 matrices have determinants, or confuses \"undefined\" with \"zero\". The key insight: squareness is necessary and sufficient for a determinant to exist.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the determinant: |A| = \n|  3   −2  |\n|  4    5  |\n\nShow every step, including the formula used and the arithmetic.",
+     "a": "Step 1: Identify the matrix as 2×2 with a₁₁ = 3, a₁₂ = −2, a₂₁ = 4, a₂₂ = 5.  \nStep 2: Apply the definition for order 2: |A| = a₁₁a₂₂ − a₂₁a₁₂.  \nStep 3: Substitute: |A| = (3)(5) − (4)(−2).  \nStep 4: Compute: 15 − (−8) = 15 + 8 = 23.  \nAnswer: 23.  \nA wrong answer (e.g., 7 from 3×5 − 4×2 ignoring the minus sign, or −7 from 3×5 − (−2)×4 with wrong order) reveals sign errors or confusion about the subtraction order (a₁₁a₂₂ − a₂₁a₁₂, not a₁₁a₂₂ − a₁₂a₂₁). The NCERT formula is explicitly a₁₁a₂₂ − a₂₁a₁₂; swapping the subtracted product is a common JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the 3×3 matrix A = \n| 1  2  3 |\n| 0  4  5 |\n| 0  0  6 |.\nCompute |A| by expanding along (a) the first row, (b) the third row, and (c) the first column. Explain why all three expansions give the same result, and identify which expansion is most efficient.",
+     "a": "(a) Expanding along R₁: |A| = 1·(4·6 − 5·0) − 2·(0·6 − 5·0) + 3·(0·0 − 4·0) = 1·24 − 0 + 0 = 24.  \n(b) Expanding along R₃: |A| = 0·(...) − 0·(...) + 6·(1·4 − 2·0) = 6·4 = 24.  \n(c) Expanding along C₁: |A| = 1·(4·6 − 5·0) − 0·(...) + 0·(...) = 24.  \nAll give 24 because the determinant is a well-defined function — its value is independent of the row/column chosen for expansion (proven in NCERT). The most efficient is (b) or (c) because they contain two zeros, reducing computation. A wrong answer (e.g., different values from different expansions) reveals sign errors in cofactors ( (−1)ⁱ⁺ʲ ) or arithmetic mistakes in 2×2 sub-determinants. The NCERT remark: \"expand along the row/column with maximum zeros.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the determinant of B = \n| 2  1  3 |\n| 4  2  6 |\n| 1  0  1 |\nby expanding along the first row and gets |B| = 2(2·1 − 6·0) − 1(4·1 − 6·1) + 3(4·0 − 2·1) = 2(2) − 1(−2) + 3(−2) = 4 + 2 − 6 = 0.  \nThey then claim \"Since |B| = 0, the matrix B has no inverse.\" Evaluate this claim: is it correct? Justify your answer using the definition of singular/non-singular matrices.",
+     "a": "The claim is **correct**. The student computed |B| = 0 accurately (verification: R₂ = 2×R₁, so rows are linearly dependent, determinant must be 0). By definition (NCERT Definition 4), a square matrix is **singular** if |A| = 0, and **non-singular** if |A| ≠ 0. Theorem 4 states: \"A square matrix A is invertible if and only if A is non-singular.\" Since |B| = 0, B is singular, hence not invertible — it has no inverse. A wrong evaluation (e.g., \"the claim is wrong because zero determinant doesn't mean no inverse\") reveals confusion between the definition of singular matrix and the condition for invertibility. This is a direct board-marking point: \"singular ⇔ |A| = 0 ⇔ A⁻¹ does not exist.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3×3 matrix A with integer entries such that |A| = 5, and the expansion along the second row requires computing only one non-zero 2×2 determinant. Write the matrix and show the expansion.",
+     "a": "One such matrix: A = \n| 1  0  2 |\n| 0  1  0 |\n| 3  0  5 |.\nExpanding along R₂ (which has zeros in columns 1 and 3):  \n|A| = −0·(...) + 1·(1·5 − 2·3) − 0·(...) = 1·(5 − 6) = −1. (Oops, gives −1.)  \nTo get |A| = 5, adjust: A = \n| 1  0  2 |\n| 0  1  0 |\n| 3  0  7 |.\nThen |A| = 1·(1·7 − 2·3) = 1·(7 − 6) = 1. Still not 5.  \nBetter: A = \n| 1  0  0 |\n| 0  5  0 |\n| 0  0  1 | gives |A| = 5 (diagonal matrix). Expansion along R₂: −0 + 5·(1·1 − 0·0) − 0 = 5.  \nOr non-diagonal: A = \n| 2  1  3 |\n| 0  5  0 |\n| 1  2  4 |. R₂ expansion: 5·(2·4 − 3·1) = 5·(8−3) = 25. Scale: divide first row by 5? Not integer.  \nCorrect integer example: A = \n| 1  2  3 |\n| 0  5  0 |\n| 4  5  6 |. R₂: 5·(1·6 − 3·4) = 5·(6−12) = −30.  \nLet’s use: A = \n| 1  0  0 |\n| 0  1  0 |\n| 0  0  5 | → |A| = 5. Expansion along R₂: 1·(1·5 − 0·0) = 5. ✓  \nA good answer provides any 3×3 matrix with |A| = 5 where the chosen row/column has two zeros. A poor answer (e.g., a matrix with no zeros, or wrong determinant) reveals the student doesn't understand how zeros simplify expansion or cannot control the determinant value via triangular/diagonal structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_4",
+   "title": "c9_chem_ch3_4",
+   "questions": [
+    {
+     "q": "Define a covalent bond and state the type of elements that typically form covalent bonds with each other.",
+     "a": "A covalent bond is formed by the mutual sharing of electron pair(s) between two non-metal atoms so that both achieve a stable noble gas configuration (octet or duplet). Non-metals (Groups 14-17) typically form covalent bonds with each other. A wrong answer (e.g., \"transfer of electrons\" or \"between metal and non-metal\") reveals confusion with ionic bonding and inability to distinguish electron-sharing vs electron-transfer based on electronegativity/metallic character.",
+     "self_check": true
+    },
+    {
+     "q": "Why do two chlorine atoms share *one* pair of electrons to form Cl₂, while two oxygen atoms share *two* pairs to form O₂? Explain using valence electron count and the octet rule.",
+     "a": "Chlorine (Group 17) has 7 valence electrons; it needs 1 more to complete its octet, so it shares one electron with another Cl atom → one shared pair (single bond). Oxygen (Group 16) has 6 valence electrons; it needs 2 more, so it shares two electrons with another O atom → two shared pairs (double bond). A wrong answer (e.g., \"chlorine shares 2 pairs because it's bigger\") reveals misunderstanding of the direct link between group number, valence electron deficit, and number of bonds formed.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the Lewis dot structure for carbon dioxide (CO₂). Show all valence electrons, shared pairs, and lone pairs. Calculate the total number of valence electrons used.",
+     "a": "Step 1: Valence electrons: C (Group 14) = 4, O (Group 16) = 6 each → Total = 4 + 6×2 = 16 electrons.\nStep 2: Carbon is central (less electronegative). Connect C-O with single bonds: uses 4 electrons (2 bonds).\nStep 3: Distribute remaining 12 electrons as lone pairs on terminal O atoms first: each O gets 6 electrons (3 lone pairs). Now each O has 8 electrons (2 bonding + 6 lone), but C has only 4 electrons.\nStep 4: Move one lone pair from each O to form double bonds C=O. Now C has 8 electrons (4 bonding pairs), each O has 8 electrons (2 bonding pairs + 2 lone pairs).\nStructure: O=C=O with 2 lone pairs on each O. Total electrons used = 16. A wrong structure (e.g., single bonds only, or wrong central atom) reveals inability to apply the octet rule to central atoms or miscounting valence electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Lewis structures of N₂ and CH₄. Both satisfy the octet rule, but nitrogen forms a triple bond while carbon forms four single bonds. Analyze why the *number* of bonds differs despite both central atoms achieving an octet.",
+     "a": "Nitrogen (Group 15) has 5 valence electrons; it needs 3 more → shares 3 pairs (triple bond) with another N atom. Each N gets 3 shared pairs (6 electrons) + 1 lone pair (2 electrons) = 8 electrons. Carbon (Group 14) has 4 valence electrons; it needs 4 more → shares 4 single bonds with 4 H atoms. Each H shares 1 electron (duplet), C shares 4 pairs (8 electrons). The number of bonds equals the number of electrons needed to complete the octet (8 - group number for Groups 14-17). A wrong answer (e.g., \"nitrogen is smaller so it forms triple bond\") reveals focus on atomic size rather than valence electron count as the driver of covalency.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the Lewis structure for water (H₂O) as H-O-H with two lone pairs on oxygen, but writes the shared pairs as single dots (·) instead of paired dots (::) or lines. Evaluate whether this representation correctly shows a covalent bond. Justify your answer.",
+     "a": "The representation is *incorrect* for a covalent bond. A covalent bond requires a *shared pair* of electrons (two electrons) localized between the two nuclei. Single dots represent *unpaired* electrons; pairing them between atoms shows the shared pair. Writing H·O·H with single dots implies each H and O share only one electron each, not a pair, violating the definition of a covalent bond as a shared *pair*. The correct Lewis structure uses lines (—) or paired dots (::) for each O-H bond. A wrong evaluation (e.g., \"it's fine, dots show electrons\") reveals confusion between electron *count* and electron *pairing* in bond representation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-game or physical model using buttons/beads to teach a Class 8 student how to form Lewis structures for H₂, Cl₂, and N₂. Your model must show: (a) valence electrons per atom, (b) pairing of electrons to form bonds, (c) lone pairs remaining. Describe the materials and rules.",
+     "a": "Materials: Colored buttons (red for valence electrons, blue for nucleus), card cutouts of element symbols with group numbers. Rules: (1) Pick an element card, place buttons equal to its group number (for Groups 14-17: C=4, N=5, O=6, F/Cl=7, H=1). (2) For diatomic molecules, place two nuclei cards facing each other. (3) Move buttons from each atom to the space between nuclei to form *pairs* — each pair is one bond. (4) Stop when each atom (except H) is surrounded by 8 buttons (4 pairs) or H has 2 buttons (1 pair). (5) Buttons not moved remain as lone pairs on the atom. For N₂: each N starts with 5 buttons; move 3 from each to center → 3 shared pairs (triple bond); each N keeps 1 pair (lone pair). A poor model (e.g., allows odd electrons in bonds, or doesn't enforce octet) reveals lack of understanding that bonds are *pairs* and octet is the driving rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

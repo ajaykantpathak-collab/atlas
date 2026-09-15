@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_010",
+   "title": "c11_eng_h_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the primary strategy for inferring the meaning of an unfamiliar word like \"astute\" from its context in a sentence such as \"The de facto rulers from Pune were astute enough to recognise the importance of the technological age\"?",
+     "a": "The primary strategy is to identify context clues: here, the phrase \"enough to recognise the importance\" suggests a positive trait related to wisdom or sharp judgment, and \"de facto rulers\" implies political shrewdness. A wrong answer (e.g., guessing \"astute\" means \"lucky\" or \"powerful\") reveals the student is not using syntactic and semantic clues (the infinitive phrase \"to recognise\" shows purpose resulting from the quality) and may be relying on superficial word association.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The East India Company got the message and temporarily shelved its expansionist programme,\" the idiom \"got the message\" does not mean physically receiving a letter. Explain what it means in this context and how the surrounding words help you infer that meaning.",
+     "a": "\"Got the message\" means \"understood the implication\" or \"took the hint.\" The context clue is the consequence: the Company \"shelved its expansionist programme,\" showing they changed their plan based on understanding the Marathas' strength. A wrong answer (e.g., \"received a communication\") reveals the student interprets idioms literally and misses the cause-effect relationship signaled by \"and\" linking the two clauses.",
+     "self_check": true
+    },
+    {
+     "q": "Choose the correct meaning of \"to give vent to\" as used in: \"Professor Gaitonde went to the mike and gave vent to his views.\" Then write a sentence using the same idiom in a different context.",
+     "a": "Correct meaning: \"to express (strong feelings or opinions) freely.\" The context \"went to the mike\" and \"his views\" indicates public expression. A sample sentence: \"After months of silence, the activist gave vent to her frustration in a powerful speech.\" A wrong choice (e.g., \"to suppress\") shows the student confuses \"vent\" (release) with its opposite, likely due to not connecting \"vent\" to \"ventilate\" or the context of speaking at a microphone.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between \"visibly moved\" and \"visually impaired\" in the sentences: (i) \"Rajendra read the text... and his face underwent a change. Gone was the smile and in its place came a grave expression. He was visibly moved.\" (ii) \"The student was visually impaired and needed a screen reader.\" How do the adverbs \"visibly\" and \"visually\" change the meaning of the participles?",
+     "a": "\"Visibly moved\" means \"emotionally affected in a way that can be seen\" (visibly = observably). \"Visually impaired\" means \"having a sight disability\" (visually = relating to vision). The adverb \"visibly\" modifies the participle to indicate the manner of the state (observable), while \"visually\" specifies the domain of the impairment (vision). A wrong answer (e.g., both mean \"related to sight\") reveals confusion between the suffix \"-ibly\" (capable of being seen) and \"-ually\" (relating to vision), and failure to analyze the whole collocation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student's inference: \"In the phrase 'doctored accounts', 'doctored' means 'written by a doctor' because 'doctor' is the root word.\" Is this inference valid? Justify your answer using morphological and contextual evidence from the text: \"Although he seldom relied on the Bakhars for historical evidence, he found them entertaining to read. Sometimes, buried in the graphic but doctored accounts, he could spot the germ of truth.\"",
+     "a": "The inference is invalid. Morphologically, \"doctored\" here is a verb participle meaning \"falsified/altered,\" not an adjective meaning \"by a doctor.\" Contextually, \"graphic but doctored accounts\" contrasts with \"germ of truth,\" implying the accounts are distorted. A wrong evaluation (accepting the student's guess) reveals the student does not use contrast clues (\"but\") and relies solely on root-word association, a common error with polysemous words.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short paragraph (4-5 sentences) about a historical event using at least three of the following expressions correctly: \"blow-by-blow account\", \"de facto\", \"morale booster\", \"relegated to\", \"political acumen\". Ensure the context makes each meaning clear.",
+     "a": "Example: \"The 1857 revolt is often given a blow-by-blow account in textbooks, detailing each battle. Bahadur Shah Zafar was the de facto leader, though his power was symbolic. The capture of Delhi acted as a morale booster for the rebels. However, after the revolt, the Mughal emperor was relegated to a pensioner in Rangoon. Leaders like Nana Sahib showed great political acumen in organizing resistance.\" A poor answer uses the phrases as decorations without contextual support (e.g., \"He had political acumen. It was a morale booster. He gave a blow-by-blow account.\"), showing lack of understanding of collocation and semantic fit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

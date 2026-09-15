@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_005",
+   "title": "c10_geo_cbse_06_005",
+   "questions": [
+    {
+     "q": "Name the four categories of industrial pollution and give one specific industrial source for each category from the Indian context.",
+     "a": "Correct answer: (1) Air pollution — e.g., sulphur dioxide from thermal power plants burning coal; (2) Water pollution — e.g., chemical dyes and heavy metals from textile dyeing units in Tiruppur; (3) Soil pollution — e.g., slag and heavy metal leachate from iron & steel plants in Jamshedpur; (4) Noise pollution — e.g., continuous high-decibel machinery in cement grinding units. A wrong answer that lists only \"smoke\" and \"dirty water\" reveals the student cannot distinguish pollution media or link specific industries to specific pollutant types — a common board exam error where vague descriptions lose marks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the textile industry is a major contributor to water pollution in the Noyyal river basin (Tamil Nadu), while the cement industry primarily degrades air quality in the same region.",
+     "a": "Correct answer: Textile dyeing uses large volumes of water for washing and fixing synthetic dyes, releasing effluents high in BOD, COD, heavy metals (chromium, copper), and colour directly into drains reaching the Noyyal. Cement manufacturing involves calcination of limestone at 1450°C in kilns, releasing massive amounts of fine particulate matter (PM2.5, PM10), NOx, and SO2 into the atmosphere; its water use is minimal and mostly recycled. A wrong answer that swaps the industries shows the student memorises pollutant lists without understanding the process-pollutant linkage — a critical error for case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A factory in Durgapur (West Bengal) releases hot water (thermal effluent) and fly ash into the Damodar river. Identify the TWO pollution types involved and explain the specific ecological consequence of each on the river ecosystem.",
+     "a": "Correct answer: (1) Thermal pollution (a subset of water pollution) — heated water lowers dissolved oxygen (DO), causing fish kills and shifting species composition to heat-tolerant organisms. (2) Soil/sediment pollution — fly ash settles on riverbed, smothering benthic habitats, increasing turbidity, and leaching heavy metals (arsenic, mercury) into water column. Steps: Identify effluent type → match to pollution category → trace ecological pathway. A wrong answer that calls fly ash \"air pollution only\" misses its secondary water/soil impact after deposition — a frequent trap in board questions on pollutant pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial pattern of air pollution from a clustered industrial estate (e.g., Ankleshwar, Gujarat) versus a dispersed small-scale industry cluster (e.g., brassware units in Moradabad, Uttar Pradesh). How does the settlement pattern influence pollution dispersion and monitoring?",
+     "a": "Correct answer: Ankleshwar's concentrated large units create a defined pollution plume with high ground-level concentrations downwind, allowing targeted monitoring at fixed stations. Moradabad's dispersed household-based units emit from countless low stacks, creating a diffuse \"pollution dome\" over the entire urban area that is harder to monitor and model. The student must analyse how industrial geography (clustered vs dispersed) dictates pollution geography. A wrong answer treating both as identical ignores the spatial dimension — a key analytical skill tested in map-based competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Noise pollution from industries is a localised nuisance, unlike air or water pollution which have regional impacts.\" Support your judgement with geographical reasoning.",
+     "a": "Correct answer: The statement is partially valid but incomplete. Noise attenuates rapidly with distance (inverse square law), so its direct health impact (hearing loss, stress) is localised to workers and immediate neighbours (<500 m). However, low-frequency noise from large plants (steel rolling mills) can propagate several kilometres under temperature inversions, and chronic noise disrupts wildlife corridors regionally. Air/water pollutants travel farther via wind/rivers, but noise's \"local\" label underestimates its cumulative urban health burden. A wrong answer that simply agrees without the physics of sound propagation or ecological connectivity shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pollution-source map annotation for a hypothetical industrial corridor along the Mumbai-Pune expressway showing: (a) three industries with their dominant pollutant type, (b) the likely environmental sink for each, and (c) one sensitive receptor (school, hospital, wetland) at risk. Use standard map symbols.",
+     "a": "Expected answer: Map should show: (1) Chemical plant → air pollution (SO2, VOCs) → atmosphere sink → receptor: residential school 2 km downwind (prevailing SW wind). (2) Textile dyeing unit → water pollution (coloured effluent, Cr) → river sink (Mula-Mutha) → receptor: wetland bird sanctuary downstream. (3) Cement grinding unit → noise (100+ dB) + air (PM) → local airshed → receptor: hospital 500 m away. Criteria: Correct industry-pollutant pairing, realistic sink routing using topography/drainage, receptor placed in actual impact pathway. Poor answers use generic symbols without spatial logic (e.g., placing receptor upwind of air polluter).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

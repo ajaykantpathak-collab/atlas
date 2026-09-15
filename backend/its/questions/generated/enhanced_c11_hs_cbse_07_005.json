@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_005",
+   "title": "c11_hs_cbse_07_005",
+   "questions": [
+    {
+     "q": "A 10-year-old boy has height-for-age Z-score (HAZ) of -2.5, weight-for-height Z-score (WHZ) of -1.2, and weight-for-age Z-score (WAZ) of -2.1. According to WHO classification, which nutritional status category does he fall into?",
+     "a": "Correct answer: Stunted (chronic undernutrition) but not wasted. HAZ < -2 indicates stunting; WHZ > -2 rules out wasting; WAZ < -2 confirms underweight. A wrong answer (e.g., \"wasted\" or \"normal\") reveals the student cannot differentiate between acute (WHZ) and chronic (HAZ) anthropometric indicators or misapplies Z-score cut-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a child with vitamin A deficiency (VAD) is at higher risk of dying from measles, and why measles infection can precipitate clinical VAD in a previously subclinical case.",
+     "a": "Correct answer: VAD impairs epithelial integrity (respiratory/gut) and immune cell function (T-cells, antibody production), increasing measles severity and case-fatality. Measles infection depletes hepatic vitamin A stores via increased utilisation and reduced intake (anorexia), converting subclinical to clinical deficiency. A wrong answer that only mentions \"weak immunity\" or \"poor diet\" without the bidirectional mechanism shows the student has not grasped the nutrition-infection cycle's two-way pathophysiology.",
+     "self_check": true
+    },
+    {
+     "q": "A 28-year-old urban woman (BMI 27.5 kg/m²) has Hb 10.8 g/dL, serum ferritin 18 ng/mL, and fasting blood glucose 112 mg/dL. Classify her nutritional status using the double burden framework and list two dietary factors likely contributing to this profile.",
+     "a": "Correct answer: Overweight (BMI 25–29.9) with iron deficiency anaemia (Hb < 12 g/dL, ferritin < 30 ng/mL) and impaired fasting glucose (prediabetes) — classic double burden. Contributing factors: (1) High intake of energy-dense, nutrient-poor processed foods (refined carbs, fats) driving weight gain and insulin resistance; (2) Low intake of heme iron sources (meat, fish) and vitamin C-rich foods reducing iron absorption. A wrong answer missing the coexisting overnutrition + micronutrient deficiency reveals the student views malnutrition as only one form.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term cognitive consequences of iodine deficiency during (a) fetal development (maternal deficiency) vs. (b) early childhood (ages 0–5 years). Why is the fetal period more irreversible?",
+     "a": "Correct answer: (a) Maternal/fetal iodine deficiency causes cretinism — irreversible mental retardation, deaf-mutism, motor spasticity due to disrupted neuronal migration, myelination, and synaptogenesis during critical brain development windows (trimester 1–2). (b) Childhood deficiency causes goitre, reduced IQ (10–15 points), and impaired school performance but is partially reversible with supplementation. Fetal period is more irreversible because thyroid hormone-dependent neurodevelopmental processes (neuronal proliferation, migration, differentiation) occur only once; missed windows cannot be reclaimed. A wrong answer equating the two periods shows lack of understanding of critical periods in developmental programming.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Providing free rice and wheat through PDS will solve India's undernutrition problem.\" Use evidence from NFHS trends and the concept of dietary diversity.",
+     "a": "Correct answer: The statement is reductionist. PDS cereals address caloric deficiency but not protein quality, micronutrient density, or dietary diversity. NFHS-5 shows persistent stunting (35.5%) and anaemia (67% children) despite caloric sufficiency because diets remain cereal-dominated, low in pulses, animal foods, fruits/vegetables. Solving undernutrition requires: (1) nutrition-sensitive agriculture (diverse crops), (2) behaviour change for dietary diversity, (3) fortification/biofortification, (4) addressing infection/WASH. A wrong answer endorsing the statement reveals the student conflates food security with nutrition security and ignores micronutrient malnutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-component community intervention to simultaneously address childhood stunting and rising adolescent obesity in a peri-urban slum, justifying each component with a specific mechanism from the nutrition-infection cycle or food environment.",
+     "a": "Expected answer (criteria): (1) Component 1 — First 1000 days package: maternal nutrition counseling + IFA/calcium supplementation + exclusive breastfeeding support + timely complementary feeding with diverse foods. Mechanism: Breaks intergenerational cycle, prevents fetal stunting, builds immune competence to reduce infection-driven nutrient loss. (2) Component 2 — School-based intervention: ban ultra-processed foods in canteens, mandate daily physical activity, weekly iron-folic acid supplementation, nutrition literacy. Mechanism: Counters obesogenic food environment, addresses adolescent anaemia, establishes healthy habits. (3) Component 3 — WASH + deworming convergence: safe water, sanitation, handwashing stations, biannual albendazole. Mechanism: Reduces environmental enteropathy and helminth-induced nutrient malabsorption/blood loss that drive both stunting and anaemia. A poor answer lists generic \"awareness campaigns\" without mechanistic justification or dual-target design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

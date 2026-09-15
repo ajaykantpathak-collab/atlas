@@ -1,0 +1,198 @@
+{
+ "catalog": "catalog_class8_maths_hemh105.json",
+ "concepts": [
+  {
+   "id": "hemh.105.5.1",
+   "title": "Properties of Square Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 37 ** 2 gives 1369",
+     "compute": "sq = 37 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 37.",
+     "a": "1369",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 46 m. What is the number of square metres in its area?",
+     "a": "2116",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 7 x 5.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 88?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 28. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "197",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.105.5.2",
+   "title": "Pythagorean Triplets",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 37.",
+     "a": "1369",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 29 m. What is the number of square metres in its area?",
+     "a": "841",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 5^2 and 6^2? (Rule: 2 x n)",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 86?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 14. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.105.5.3",
+   "title": "Squares as Sum of Successive Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 23.",
+     "a": "529",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 47 m. What is the number of square metres in its area?",
+     "a": "2209",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 5 x 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 72?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 10. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.105.5.4",
+   "title": "Finding the Square of a Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 27.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 45 m. What is the number of square metres in its area?",
+     "a": "2025",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 13 x 11.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 28?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 22. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "122",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.105.5.5",
+   "title": "Square Roots",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square root of 169.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 144.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 484.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "The area of a square field is 361 m^2. Find the length of one side.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "In a hall with 729 seats arranged as a perfect square, how many rows are there?",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 484 is a perfect square by taking its square root; report the root if it is a whole number.",
+     "a": "22",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

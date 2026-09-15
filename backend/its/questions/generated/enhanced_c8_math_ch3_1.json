@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_1",
+   "title": "c8_math_ch3_1",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List three specific daily-life situations in an early farming community where *not* having a way to count would cause a serious problem.",
+     "a": "Correct answer: (1) Checking if all sheep/goats returned from grazing. (2) Dividing harvested grain equally among families or for storage vs. seed. (3) Tracking days until the monsoon for planting. A wrong answer (e.g., \"doing math homework\" or \"building a pyramid\") reveals the student is projecting modern uses of numbers onto the past, not understanding the *survival-driven* origin of counting.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Why could early humans not simply use their fingers to count everything? Explain the limitation of finger-counting when dealing with a herd of 50 goats or a granary with 200 baskets of grain.",
+     "a": "Correct answer: Fingers are limited to 10 (or 20 with toes). They cannot *record* a count for later comparison (e.g., morning vs. evening herd check) or *communicate* a quantity to someone not present. A wrong answer like \"they could count on fingers many times\" shows the student misses the need for *permanent recording* and *scalability* — the core drivers for external tally systems and eventually written numerals.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A Neolithic farmer uses a tally stick with one notch per goat. In the morning he makes 37 notches. In the evening he counts 34 notches matching returning goats. He sees 3 notches left unmatched. Explain step-by-step what the farmer has done and what conclusion he draws, using the concept of one-to-one correspondence.",
+     "a": "Steps: (1) Morning: each goat → one notch (bijection). (2) Evening: each returning goat → one existing notch (matching). (3) Unmatched notches = goats missing. (4) Conclusion: 3 goats are lost/stolen. Correct answer shows the farmer used the tally stick as a *physical memory* of the morning quantity. A wrong answer (e.g., \"he subtracts 34 from 37\") reveals the student is imposing modern arithmetic on a pre-arithmetic process — the farmer *does not know subtraction*; he sees physical leftovers.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the \"pebble-in-a-bag\" method (one pebble per sheep) with the \"notch-on-a-stick\" method. Which is better for a nomadic herder moving camp daily? Which is better for a settled farmer checking granary stores monthly? Justify with two reasons each.",
+     "a": "Correct analysis: Pebble bag: portable, reusable, good for mobile herder. Notch stick: permanent record, cannot lose pebbles, good for fixed granary. A weak answer (e.g., \"both are same\") fails to analyze how *material constraints* (portability, durability, reusability) shape counting technology — a key theme in the evolution of number systems.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student claims: \"Early humans didn't need numbers because they could just look and see if something was missing.\" Judge this claim. Is it true for a herd of 5? For a herd of 500? For a grain store of 10,000 kg? Explain your reasoning.",
+     "a": "Correct judgment: The claim is false for all but tiny quantities. Human subitizing (instant recognition) works only up to 3–4 items. For 5 goats, maybe possible but error-prone. For 500 or 10,000 kg, visual estimation is wildly inaccurate. Numbers were invented precisely because *perception fails at scale*. A wrong evaluation (e.g., \"true for 500 if you're good at looking\") shows the student underestimates cognitive limits and overestimates unaided perception.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Invent a counting method for a community that lives in tree houses and has no flat surfaces, no stones, and no wood to spare for tally sticks. They have only long vines and shells. Describe your method in 4 steps and explain how it solves the \"how many?\" problem for up to 100 items.",
+     "a": "Good answer example: (1) Tie a knot in the vine for each item (one-to-one). (2) Group knots in tens using a shell as a marker every 10 knots (early base-10 grouping). (3) Hang the vine at the tree-house entrance as a permanent record. (4) To check, run fingers along knots, feeling shells as decade markers. This shows creativity within constraints and grasp of grouping — a precursor to place value. A poor answer (e.g., \"just remember\") ignores the need for external, shareable, scalable representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

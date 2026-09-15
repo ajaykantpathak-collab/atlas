@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_04_014",
+   "title": "c11_eng_h_cbse_04_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing structured answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student has memorised a mnemonic without understanding the function of each component — Point states the argument, Evidence provides textual support, Explanation analyses the evidence, and Link connects back to the question or theme.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The author says forests are disappearing. He gives data about 3.7 million acres. This shows deforestation is bad.\" Identify which PEEL component is missing and why the answer would lose marks in a board exam.",
+     "a": "The Explanation component is missing — the student states evidence but does not analyse *how* the data supports the point (e.g., the rate is eight times official figures, indicating systemic failure). Board exams require explicit analysis; without it, the answer remains descriptive and scores only 1-2 out of 6 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a strong PEEL paragraph: \"Population is a big problem. The chapter says world population is 5.7 billion. Every four days it increases by one million. So we need family planning.\"",
+     "a": "Strong version: \"Unchecked population growth distorts humanity's future (Point). Palkhivala notes that the present world population is 5.7 billion, adding one million every four days (Evidence). This exponential rise outpaces resource regeneration, making development impossible and perpetuating poverty because 'more children does not mean more workers, merely more people without work' (Explanation). Therefore, voluntary family planning is not a choice but a survival imperative, directly linking to the chapter's central argument that development is the best contraceptive (Link).\" The rewrite shows how to embed quotes, analyse data, and connect to the central idea.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writing demands of a 3-mark short-answer question (\"How are the earth's principal biological systems being depleted?\") and a 6-mark long-answer question (\"The environmental problem is our passport for the future. Discuss.\"). How does the PEEL structure adapt?",
+     "a": "For 3 marks: one compact PEEL cycle (Point + 1 Evidence + brief Explanation + Link) in 50-60 words. For 6 marks: two to three distinct PEEL cycles, each with a separate point and evidence, synthesised in an introductory thesis and a concluding synthesis. A wrong answer treats both identically, leading to under-developed long answers or over-written short answers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this article opening: \"Good morning everyone. Today I will talk about the Green Movement. It started in 1972 in New Zealand. It is very important.\" Would this fetch full marks for format and content in a 10-mark article writing question? Justify.",
+     "a": "No. It lacks a catchy title, byline, and a hook that frames the issue. The tone is conversational, not persuasive. Board exam articles require: (1) Title in capital letters, (2) Byline, (3) Introduction with a striking fact/quote/rhetorical question, (4) Body with 3-4 PEEL paragraphs, (5) Conclusion with a call to action. This opening scores 1/4 for format and 0/6 for content.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line poem stanza that captures the theme of \"Childhood\" by Markus Natten, using at least two poetic devices (e.g., metaphor, refrain, rhetorical question) and mirroring the poem's contemplative tone.",
+     "a": "Example: \"When did my wonder turn to knowing? / The maps of heaven folded, gone, / I hold a compass of my own making, / But the north is lost, the north is gone.\" (Devices: rhetorical question, metaphor of maps/compass, refrain). A poor answer writes a rhyming couplet without devices or thematic depth, showing inability to transfer poetic craft to original composition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

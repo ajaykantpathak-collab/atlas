@@ -1,0 +1,435 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Mindful Eating: A Path to a Healthy Body",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu103.txt",
+ "concepts": [
+  {
+   "id": "c6cu.3.1",
+   "title": "Components of Food",
+   "section": "3.1",
+   "definition": "Food contains five main nutrient groups -- carbohydrates, proteins, fats, vitamins and minerals -- each performing a specific function needed for growth, energy and body repair.",
+   "formula": "",
+   "key_idea": "Different nutrients serve different roles: carbohydrates and fats give energy, proteins build the body, and vitamins and minerals protect health.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main components of food",
+    "which nutrient is the primary source of energy",
+    "name the nutrients responsible for body building",
+    "list the functions of vitamins and minerals",
+    "classify the given food items by their main nutrient"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the nutrient in the food item",
+     "explain": "determine which of the five nutrient groups the food item mainly supplies."
+    },
+    {
+     "step": 2,
+     "action": "match the nutrient to its function",
+     "explain": "carbohydrates and fats provide energy, proteins build muscle, vitamins and minerals protect against disease."
+    },
+    {
+     "step": 3,
+     "action": "verify the classification",
+     "explain": "confirm that every listed food item is correctly assigned to one of the five nutrient groups."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Rice is rich in which nutrient and what is its function?",
+     "solution": "Rice is mainly a carbohydrate. Carbohydrates are the primary energy source that fuels the body's daily activities.",
+     "answer": "Rice is rich in carbohydrates, which provide energy.",
+     "_n": 1
+    },
+    {
+     "question": "Why are milk and eggs called body-building foods?",
+     "solution": "Milk and eggs are rich in proteins. Proteins are needed for growth and repair of body tissues, so they are called body-building foods.",
+     "answer": "Milk and eggs are body-building foods because they are rich in proteins.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the following foods by their main nutrient: rice, milk, butter, amla, spinach.",
+     "type": "classify"
+    },
+    {
+     "question": "Which nutrient protects the body from disease and is needed in very small amounts?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.2",
+   "title": "Balanced Diet",
+   "section": "3.2",
+   "definition": "A balanced diet is one that contains all the nutrients -- carbohydrates, proteins, fats, vitamins, minerals, dietary fibre and water -- in the right proportions along with adequate roughage.",
+   "formula": "",
+   "key_idea": "No single food item has all nutrients, so a mix of different foods in correct proportions is essential for health.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a balanced diet",
+    "why is it important to eat a variety of foods",
+    "which components must a balanced diet include",
+    "explain why roughage is part of a balanced diet",
+    "design a simple balanced meal plan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the required components",
+     "explain": "a balanced diet must include carbohydrates, proteins, fats, vitamins, minerals, roughage and water."
+    },
+    {
+     "step": 2,
+     "action": "check the proportions",
+     "explain": "each nutrient should be present in the correct quantity -- neither too much nor too little."
+    },
+    {
+     "step": 3,
+     "action": "verify completeness",
+     "explain": "confirm that the meal plan contains all seven components in proper proportions before calling it balanced."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A meal has only rice and dal. Is it a balanced diet? Give a reason.",
+     "solution": "No. Rice gives carbohydrates and dal gives protein, but the meal lacks fats, several vitamins, minerals and roughage. A balanced diet needs all nutrients in proper proportions.",
+     "answer": "No, it is not balanced because it lacks several nutrients and roughage."
+    },
+    {
+     "question": "Why should water and roughage be included in a balanced diet?",
+     "solution": "Water keeps the body hydrated and helps transport nutrients, while roughage (dietary fibre) aids digestion and prevents constipation.",
+     "answer": "Water hydrates the body and roughage aids digestion, so both are part of a balanced diet."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why a diet of only one type of food cannot be called balanced.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the seven components that must be present in a balanced diet.",
+     "type": "list"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.3",
+   "title": "Deficiency Diseases",
+   "section": "3.3",
+   "definition": "Diseases caused by the lack of one or more essential nutrients in the diet over a long period are called deficiency diseases.",
+   "formula": "",
+   "key_idea": "Each nutrient deficiency produces a specific disease; for example, lack of vitamin C causes scurvy and lack of iron causes anaemia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a deficiency disease",
+    "which disease is caused by deficiency of vitamin c",
+    "name the nutrient whose deficiency causes anaemia",
+    "match the deficiency disease with the missing nutrient",
+    "how can deficiency diseases be prevented"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the missing nutrient",
+     "explain": "determine which nutrient is absent or insufficient in the person's diet."
+    },
+    {
+     "step": 2,
+     "action": "link the nutrient to its deficiency disease",
+     "explain": "each nutrient maps to a known disease: vitamin C to scurvy, vitamin D to rickets, iron to anaemia, protein to kwashiorkor."
+    },
+    {
+     "step": 3,
+     "action": "verify the prevention method",
+     "explain": "confirm that including the missing nutrient through the right foods prevents the disease."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A child has swollen and bleeding gums. Which nutrient is deficient and what is the disease called?",
+     "solution": "Swollen and bleeding gums are a symptom of scurvy, which is caused by a deficiency of vitamin C. Citrus fruits like oranges and lemons should be eaten.",
+     "answer": "Vitamin C deficiency causes scurvy."
+    },
+    {
+     "question": "Rickets is caused by the deficiency of which nutrient? Suggest two food sources.",
+     "solution": "Rickets is caused by a deficiency of vitamin D, which leads to soft and bent bones. Good sources are sunlight, milk, eggs and fish-liver oil.",
+     "answer": "Rickets is caused by vitamin D deficiency; sources include milk and eggs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Match the following: vitamin A, iron, iodine, protein with their deficiency diseases.",
+     "type": "match"
+    },
+    {
+     "question": "How can a person prevent anaemia through diet?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.4",
+   "title": "Food Sources: Plant and Animal",
+   "section": "3.4",
+   "definition": "All food materials originate from either plant sources or animal sources, and many common foods are a blend of ingredients from both.",
+   "formula": "",
+   "key_idea": "Plant sources include grains, vegetables, fruits and pulses; animal sources include milk, eggs, meat and honey.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify the given food as a plant or animal source",
+    "give two examples of food from animal sources",
+    "which plant part gives us the food item",
+    "identify the source of the ingredients in a dish",
+    "explain how a single dish uses both plant and animal sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the ingredient to its origin",
+     "explain": "determine whether the ingredient comes from a plant or an animal."
+    },
+    {
+     "step": 2,
+     "action": "categorise the source",
+     "explain": "assign the ingredient to the plant group (grains, pulses, vegetables, fruits) or the animal group (milk, eggs, meat, honey)."
+    },
+    {
+     "step": 3,
+     "action": "verify with known examples",
+     "explain": "cross-check the classification against familiar examples such as wheat from plants and milk from animals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify rice, milk, spinach and egg as plant or animal sources.",
+     "solution": "Rice and spinach come from plants, so they are plant sources. Milk and eggs come from animals, so they are animal sources.",
+     "answer": "Rice and spinach are plant sources; milk and egg are animal sources."
+    },
+    {
+     "question": "A bowl of kheer contains rice, milk and sugar. Identify the sources of its ingredients.",
+     "solution": "Rice and sugar come from plants (plant sources), while milk comes from animals (animal source). So kheer uses ingredients from both sources.",
+     "answer": "Rice and sugar are plant sources; milk is an animal source."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three food items obtained from plants and three from animals.",
+     "type": "list"
+    },
+    {
+     "question": "Classify honey, wheat, fish and pulses as plant or animal sources.",
+     "type": "classify"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.5",
+   "title": "Cooking Methods and Nutrient Preservation",
+   "section": "3.5",
+   "definition": "Cooking makes food digestible and safe, but some methods like over-boiling or deep frying can destroy heat-sensitive vitamins; proper techniques help preserve nutrients.",
+   "formula": "",
+   "key_idea": "Washing vegetables after cutting and overcooking destroy nutrients, while steaming and using the right amount of water help retain them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why should vegetables not be washed after cutting",
+    "which cooking method best preserves vitamins",
+    "how does overcooking affect the nutrients in food",
+    "explain why steaming is better than boiling for vegetables",
+    "suggest two ways to retain nutrients while cooking"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the cooking method used",
+     "explain": "note whether the food is boiled, steamed, fried or roasted."
+    },
+    {
+     "step": 2,
+     "action": "assess nutrient loss",
+     "explain": "heat-sensitive vitamins like vitamin C are lost in over-boiling and deep frying; steaming retains more nutrients."
+    },
+    {
+     "step": 3,
+     "action": "verify the preservation tip",
+     "explain": "confirm that the suggested practice (wash before cutting, use limited water, avoid overcooking) actually reduces nutrient loss."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is it advised to wash vegetables before cutting rather than after?",
+     "solution": "Washing after cutting washes away water-soluble vitamins from the cut surfaces. Washing before cutting keeps the nutrients inside the vegetable.",
+     "answer": "Washing before cutting prevents loss of water-soluble vitamins."
+    },
+    {
+     "question": "Between steaming and deep frying, which method preserves more nutrients and why?",
+     "solution": "Steaming uses gentle heat and little water, so it retains heat-sensitive vitamins. Deep frying uses very high temperature and oil, which destroys many vitamins and adds excess fat.",
+     "answer": "Steaming preserves more nutrients than deep frying."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State whether true or false: overcooking vegetables increases their vitamin content.",
+     "type": "true_false"
+    },
+    {
+     "question": "Suggest two cooking habits that help preserve nutrients in food.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.7",
+   "title": "Reading Food Labels",
+   "section": "3.7",
+   "definition": "A food label carries information such as ingredients, nutritional values, manufacturing and expiry dates, price and quality marks, which help a buyer choose safe and nutritious food.",
+   "formula": "",
+   "key_idea": "Reading labels helps identify hidden ingredients, check freshness through dates, compare nutrients and avoid foods with harmful additives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what information does a food label provide",
+    "why is the expiry date important on a food packet",
+    "how can a food label help compare two products",
+    "which quality marks should you look for on a food label",
+    "explain how reading labels helps in mindful eating"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the key sections on the label",
+     "explain": "find the ingredients list, nutrition facts, dates and quality marks on the packet."
+    },
+    {
+     "step": 2,
+     "action": "interpret the information",
+     "explain": "check which nutrients are present, whether any harmful additives are listed, and whether the dates show the food is fresh."
+    },
+    {
+     "step": 3,
+     "action": "verify the buying decision",
+     "explain": "confirm that the product is fresh, nutritious and free of unwanted additives before purchasing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A packet shows a manufacturing date of 01/2025 and an expiry date of 07/2025. In August 2025, is it safe to eat?",
+     "solution": "The expiry date is 07/2025, which means July 2025. In August 2025 the food is past its expiry date, so it is not safe to eat.",
+     "answer": "No, it is expired and unsafe to eat in August 2025."
+    },
+    {
+     "question": "Two juice packs list sugar as the first ingredient and as the third ingredient respectively. Which is the better choice and why?",
+     "solution": "Ingredients are listed in descending order by quantity. The pack with sugar as the third ingredient has less sugar than the one with sugar first, so it is the better choice.",
+     "answer": "The pack with sugar listed third is better because it contains less sugar."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four pieces of information found on a food label.",
+     "type": "list"
+    },
+    {
+     "question": "Why should you check the expiry date before buying a food product?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.3.8",
+   "title": "Nutritional Needs at Different Ages",
+   "section": "3.8",
+   "definition": "The amount and type of nutrients a person needs change with age, body size, activity level and health condition; infants, children, adolescents and adults all have different requirements.",
+   "formula": "",
+   "key_idea": "Growing children and adolescents need more protein and calcium for growth, while adults need a balanced mix to maintain health and energy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why do children need more protein than adults",
+    "how do nutritional needs change with age",
+    "which nutrient is especially important for adolescents",
+    "compare the diet of an infant with that of an adult",
+    "explain why a pregnant woman needs extra nutrients"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the age group",
+     "explain": "note whether the person is an infant, child, adolescent, adult or elderly."
+    },
+    {
+     "step": 2,
+     "action": "determine the special nutrient needs",
+     "explain": "children and adolescents need more protein and calcium for growth; adults need a balanced mix; the elderly need easily digestible, calcium-rich food."
+    },
+    {
+     "step": 3,
+     "action": "verify the diet matches the needs",
+     "explain": "confirm that the suggested diet provides the right nutrients in the right quantities for that age group."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a growing teenager need more protein and calcium than an office-working adult?",
+     "solution": "A teenager is still growing, so they need extra protein for building muscles and tissues and extra calcium for bone growth. An adult whose growth is complete needs less for maintenance.",
+     "answer": "Teenagers need more protein and calcium for growth; adults need less for maintenance."
+    },
+    {
+     "question": "Why is milk especially important for infants and young children?",
+     "solution": "Milk is rich in calcium and protein, which are needed for the rapid growth of bones and muscles in infants and young children. It is also easy to digest at that age.",
+     "answer": "Milk provides calcium and protein needed for the rapid growth of infants and children."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why a one-size diet cannot suit all age groups.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two nutrients that are especially important during adolescence and give a reason.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu103.txt",
+   "concept": "c6cu.3.1",
+   "question_type": "short_answer",
+   "question_pattern": "Rice is rich in which nutrient and what is its function?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Rice is mainly a carbohydrate",
+     "explain": "Rice is mainly a carbohydrate. Carbohydrates are the primary energy source that fuels the body's daily activities."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu103.txt",
+   "concept": "c6cu.3.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why are milk and eggs called body-building foods?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Milk and eggs are rich",
+     "explain": "Milk and eggs are rich in proteins. Proteins are needed for growth and repair of body tissues, so they are called body-building foods."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

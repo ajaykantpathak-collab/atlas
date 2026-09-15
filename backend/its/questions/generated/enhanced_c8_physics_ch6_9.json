@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_9",
+   "title": "c8_physics_ch6_9",
+   "questions": [
+    {
+     "q": "What type of image is always formed by a convex mirror, regardless of where the object is placed?",
+     "a": "A convex mirror always forms a virtual, erect, and diminished image. A wrong answer (e.g., \"real and inverted\" or \"magnified\") reveals the student is confusing convex mirrors with concave mirrors or has not internalized the universal image characteristics of convex mirrors taught in c8_physics_ch6_6.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex mirror provide a wider field of view than a plane mirror of the same size?",
+     "a": "Because the convex mirror forms a diminished image, more of the scene is compressed into the same mirror area, allowing the viewer to see a larger angular range. A wrong answer (e.g., \"because it is curved\" or \"because it magnifies\") shows the student knows the outcome but not the optical reason—diminution is key, not just curvature.",
+     "self_check": true
+    },
+    {
+     "q": "A bus driver looks into a convex side-view mirror of focal length 0.6 m. A cyclist is 12 m behind the bus. Without drawing a ray diagram, state the approximate position, nature, and size of the cyclist's image relative to the mirror.",
+     "a": "Image position: between pole and focus (i.e., < 0.6 m behind mirror). Nature: virtual and erect. Size: highly diminished (much smaller than the cyclist). Steps: (1) Object distance (12 m) ≫ focal length (0.6 m). (2) For convex mirrors, image always forms between pole and focus. (3) Image is always virtual, erect, diminished. (4) Since object is far, image is near focus and very small. A wrong answer placing the image beyond focus or stating it is magnified reveals confusion with concave mirror behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the field of view provided by a convex side-view mirror and a plane mirror of identical dimensions mounted on a car. Which mirror shows more of the traffic behind, and why?",
+     "a": "The convex mirror shows more traffic because its diminished image compresses a wider angular range into the same mirror area. The plane mirror shows a 1:1 angular view limited by its size. A wrong answer claiming the plane mirror shows more because \"it doesn't shrink things\" indicates the student thinks magnification equals field of view, missing that diminution is what expands the angular coverage.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper installs a large plane mirror at a corner for security, but customers complain they cannot see the full aisle. The shopkeeper replaces it with a convex mirror of the same size. Evaluate whether this change solves the problem, and explain any trade-off.",
+     "a": "Yes, it solves the problem: the convex mirror's wider field of view lets the shopkeeper see the entire aisle. Trade-off: images are diminished, so details (faces, small items) are harder to discern. A wrong answer saying \"no, because convex mirrors distort\" or \"yes, with no downside\" shows the student cannot weigh advantages against disadvantages in a practical context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in vehicles. List the steps and what the student should observe.",
+     "a": "Steps: (1) Hold the spoon's convex side and a plane mirror at arm's length. (2) Look at a fixed scene (e.g., a bookshelf) through each. (3) Count how many books are visible in each reflection. (4) Note the size of the book images. Expected observation: The spoon shows more books (wider field) but each book image is smaller. A poor answer that only says \"spoon shows more\" without mentioning diminution, or that designs an activity without a fair comparison (same distance, same eye position), reveals inability to isolate the variable of mirror curvature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

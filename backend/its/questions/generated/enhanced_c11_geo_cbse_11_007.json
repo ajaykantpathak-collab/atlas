@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_007",
+   "title": "c11_geo_cbse_11_007",
+   "questions": [
+    {
+     "q": "Define a tropical cyclone and state the minimum sustained wind speed (in km/h) used by IMD to classify a system as a cyclonic storm.",
+     "a": "A tropical cyclone is a warm-core, non-frontal synoptic-scale low-pressure system over tropical waters with organized convection and a closed wind circulation. IMD classifies a system as a cyclonic storm when sustained winds reach 62–88 km/h. A wrong answer (e.g., quoting 118 km/h) reveals confusion between cyclonic storm and severe cyclonic storm categories, indicating the student has not memorized the IMD intensity scale.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Bay of Bengal experiences more tropical cyclones than the Arabian Sea, focusing on sea surface temperature and vertical wind shear differences.",
+     "a": "The Bay of Bengal maintains SST > 28°C year-round with weaker vertical wind shear (especially post-monsoon) due to the absence of strong upper-level westerlies, while the Arabian Sea has cooler SST (often < 27°C in winter) and stronger shear from the subtropical jet. A wrong answer attributing the difference solely to the Coriolis force or coastline shape shows misunderstanding of the thermodynamic and dynamic controls on cyclogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Given a synoptic chart showing a low-pressure system at 15°N, 85°E in October with SST 29°C and 200-hPa wind shear of 10 kt, identify the likely basin, predict its intensification potential, and name the steering current that would guide its initial movement.",
+     "a": "Step 1: Locate 15°N, 85°E — this is in the Bay of Bengal. Step 2: SST 29°C exceeds the 26.5°C threshold, favoring intensification. Step 3: Low wind shear (10 kt < 20 kt) allows vertical alignment. Step 4: In October, the subtropical ridge steers the system west-northwestward. The system is in the Bay of Bengal, has high intensification potential, and will move west-northwest under the subtropical easterly steering current. A wrong basin identification (e.g., Arabian Sea) indicates poor map skills; ignoring shear shows incomplete understanding of intensification factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical tracks of post-monsoon cyclones in the Bay of Bengal with those in the Arabian Sea, and analyze how the position of the subtropical ridge determines their landfall regions.",
+     "a": "Post-monsoon Bay of Bengal cyclones typically curve north-northeast under the influence of the retreating subtropical ridge, striking Odisha, West Bengal, or Bangladesh. Arabian Sea cyclones in the same season often move west-northwest toward Somalia or Yemen, or recurve northeast toward Gujarat if the ridge weakens. The ridge’s western extension acts as a steering barrier. A wrong answer that reverses the recurvature direction or ignores the ridge’s seasonal shift reveals inability to link synoptic-scale circulation to cyclone tracks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Arabian Sea cyclones are becoming more intense due to climate change, while Bay of Bengal cyclone frequency is decreasing.” Support your judgment with two pieces of evidence from recent climatological studies.",
+     "a": "The statement is partially correct. Evidence: (1) Roxy et al. (2017) show a 52% increase in very severe cyclonic storms in the Arabian Sea since 1998 linked to rapid SST warming. (2) Bay of Bengal total cyclone frequency shows a slight decreasing trend but with higher proportion of intense storms. A wrong evaluation that claims both basins show identical trends ignores basin-specific ocean-atmosphere coupling and indicates lack of engagement with current research.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cyclone preparedness infographic for a coastal district in Andhra Pradesh that integrates (a) IMD color-coded warning stages, (b) storm surge height zones, and (c) evacuation routes based on topography. Sketch the key elements and annotate the geographical reasoning behind each.",
+     "a": "A good answer includes: (a) Four-color warning (green/yellow/orange/red) tied to lead times (72/48/24/12 hrs). (b) Surge zones mapped using contour intervals (0–2m, 2–5m, >5m) derived from bathymetry and coastline shape. (c) Evacuation routes following ridge lines (higher ground) perpendicular to coast, avoiding river crossings. Annotations must link surge height to bay geometry (funneling effect) and route choice to digital elevation model. A poor answer uses generic symbols without local topographic justification, showing failure to apply geographical knowledge to disaster planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

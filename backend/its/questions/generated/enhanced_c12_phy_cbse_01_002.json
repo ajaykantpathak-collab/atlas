@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_002",
+   "title": "c12_phy_cbse_01_002",
+   "questions": [
+    {
+     "q": "State Coulomb's Law in vector form for the force on charge \\(q_2\\) due to \\(q_1\\). Define every symbol and give the SI value of the proportionality constant \\(k\\).",
+     "a": "\\(\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12}\\) where \\(\\vec{F}_{12}\\) is force on \\(q_2\\) due to \\(q_1\\) (N), \\(q_1, q_2\\) are point charges (C), \\(r\\) is separation (m), \\(\\hat{r}_{12}\\) is unit vector from \\(q_1\\) to \\(q_2\\), \\(\\varepsilon_0 = 8.854 \\times 10^{-12} \\ \\text{C}^2 \\text{N}^{-1} \\text{m}^{-2}\\), and \\(k = 1/4\\pi\\varepsilon_0 \\approx 9 \\times 10^9 \\ \\text{N m}^2 \\text{C}^{-2}\\). A wrong answer reveals: missing vector notation (treating force as scalar), confusing \\(\\hat{r}_{12}\\) with \\(\\hat{r}_{21}\\), or using \\(k = 9 \\times 10^9\\) without units.",
+     "self_check": true
+    },
+    {
+     "q": "Two charges \\(+3 \\ \\mu\\text{C}\\) and \\(-2 \\ \\mu\\text{C}\\) are placed 10 cm apart in vacuum. A student calculates the force magnitude as \\(F = 9 \\times 10^9 \\times \\frac{3 \\times 2}{10^2} = 5.4 \\times 10^9 \\ \\text{N}\\). Identify every error in this calculation.",
+     "a": "Errors: (1) Charges not converted to coulombs: \\(3 \\ \\mu\\text{C} = 3 \\times 10^{-6} \\ \\text{C}\\), \\(-2 \\ \\mu\\text{C} = -2 \\times 10^{-6} \\ \\text{C}\\). (2) Distance not converted to meters: \\(10 \\ \\text{cm} = 0.1 \\ \\text{m}\\). (3) Used \\(r = 10\\) instead of \\(r^2 = 0.01\\). (4) Ignored sign of product for direction (though magnitude uses absolute value). Correct: \\(F = 9 \\times 10^9 \\times \\frac{|3 \\times 10^{-6} \\times -2 \\times 10^{-6}|}{(0.1)^2} = 5.4 \\ \\text{N}\\) attractive. A wrong answer reveals the student treats μC and cm as SI units — a pervasive unit-conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the electrostatic force on a charge \\(q_1 = +4.0 \\ \\mu\\text{C}\\) placed at \\(x = 0\\) due to \\(q_2 = -6.0 \\ \\mu\\text{C}\\) at \\(x = 30 \\ \\text{cm}\\) on the x-axis. Express the answer in vector form using \\(\\hat{i}\\).",
+     "a": "Given: \\(q_1 = +4.0 \\times 10^{-6} \\ \\text{C}\\), \\(q_2 = -6.0 \\times 10^{-6} \\ \\text{C}\\), \\(r = 0.30 \\ \\text{m}\\). \\(\\hat{r}_{12} = +\\hat{i}\\) (from \\(q_1\\) to \\(q_2\\)). \\(\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = (9 \\times 10^9) \\frac{(4.0 \\times 10^{-6})(-6.0 \\times 10^{-6})}{(0.30)^2} \\hat{i} = -2.4 \\ \\hat{i} \\ \\text{N}\\). The negative sign means force on \\(q_1\\) is toward \\(q_2\\) (attraction). A wrong answer reveals: sign error in vector direction, forgetting to square distance, or misplacing \\(\\hat{i}\\) direction.",
+     "self_check": true
+    },
+    {
+     "q": "The force between two point charges is \\(F\\) when they are in vacuum. If the same charges are placed at the same separation in a medium of relative permittivity \\(\\varepsilon_r = 4\\), what is the new force? Explain why Coulomb's Law in the form \\(F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2}\\) does not directly apply.",
+     "a": "New force \\(F' = F / \\varepsilon_r = F/4\\). The given formula is strictly for vacuum (or air ≈ vacuum). In a dielectric medium, the permittivity becomes \\(\\varepsilon = \\varepsilon_r \\varepsilon_0\\), so the force reduces by factor \\(\\varepsilon_r\\). Coulomb's Law in matter is \\(F = \\frac{1}{4\\pi\\varepsilon} \\frac{q_1 q_2}{r^2}\\). A wrong answer reveals the student thinks the formula is universal for all media, missing the role of \\(\\varepsilon_0\\) as \"permittivity of free space\" specifically.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Coulomb's Law proves that the force between two charges is always repulsive because \\(k\\), \\(q_1\\), \\(q_2\\), and \\(r^2\\) are all positive quantities.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. The scalar magnitude formula \\(F = k|q_1 q_2|/r^2\\) uses absolute values and gives only magnitude. The vector form \\(\\vec{F}_{12} = k \\frac{q_1 q_2}{r^2} \\hat{r}_{12}\\) includes the algebraic signs of \\(q_1\\) and \\(q_2\\). If \\(q_1 q_2 > 0\\) (like charges), \\(\\vec{F}_{12}\\) is along \\(\\hat{r}_{12}\\) (repulsion). If \\(q_1 q_2 < 0\\) (unlike charges), \\(\\vec{F}_{12}\\) is opposite to \\(\\hat{r}_{12}\\) (attraction). A wrong answer reveals the student confuses the magnitude formula with the vector law and ignores the sign of charge product.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using only Coulomb's Law and Newton's Third Law to show that the forces \\(\\vec{F}_{12}\\) and \\(\\vec{F}_{21}\\) are equal in magnitude and opposite in direction for any two point charges \\(q_1\\) and \\(q_2\\).",
+     "a": "From Coulomb's Law: \\(\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12}\\) and \\(\\vec{F}_{21} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_2 q_1}{r^2} \\hat{r}_{21}\\). Since \\(\\hat{r}_{21} = -\\hat{r}_{12}\\) and multiplication is commutative (\\(q_1 q_2 = q_2 q_1\\)), we get \\(\\vec{F}_{21} = -\\vec{F}_{12}\\). This satisfies Newton's Third Law identically for all \\(q_1, q_2, r\\). A poor answer reveals the student cannot connect the vector direction reversal (\\(\\hat{r}_{21} = -\\hat{r}_{12}\\)) to the action-reaction pair.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

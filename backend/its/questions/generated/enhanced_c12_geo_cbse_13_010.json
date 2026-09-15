@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_010",
+   "title": "c12_geo_cbse_13_010",
+   "questions": [
+    {
+     "q": "Name the two primary nuclear minerals used for energy generation in India and state the specific rock formation where uranium deposits occur.",
+     "a": "Correct answer: Uranium and thorium; uranium occurs in Dharwar rocks. A wrong answer (e.g., \"plutonium and uranium\" or \"uranium in Gondwana rocks\") reveals the student confuses reactor fuel (plutonium is bred, not mined) with source minerals, or misplaces uranium in coal-bearing Gondwana strata instead of pre-Cambrian Dharwar crystalline rocks.",
+     "self_check": true
+    },
+    {
+     "q": "Why are India's richest monazite deposits concentrated in the Palakkad-Kollam coastal belt of Kerala rather than being uniformly distributed along the entire peninsular coastline?",
+     "a": "Correct answer: Monazite concentrates in beach placer deposits formed by wave/current sorting of heavy minerals from weathered laterite/charock source rocks; the Kerala coast's specific geomorphology (headlands, embayments, longshore drift patterns) and proximity to Western Ghats laterite source terrain create ideal trap sites. A wrong answer (e.g., \"because Kerala has more thorium in soil\") reveals ignorance of placer formation processes — monazite is not uniformly distributed in source rocks but mechanically concentrated by coastal processes.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, a student marks Tarapur (Maharashtra), Rawatbhata (Rajasthan), Kalpakkam (Tamil Nadu), Narora (Uttar Pradesh), Kaiga (Karnataka), and Kakrapar (Gujarat). Which TWO of these six are located in states that also host major uranium mining districts, and name those mining districts?",
+     "a": "Correct answer: Rawatbhata (Rajasthan) — uranium in Udaipur, Alwar, Jhunjhunu districts; Narora (Uttar Pradesh) — NO uranium mining in UP. Wait: only Rawatbhata qualifies. Kaiga (Karnataka) — no uranium mining in Karnataka per NCERT. Kakrapar (Gujarat) — no uranium mining. Tarapur (Maharashtra) — Bhandara district has uranium. Kalpakkam (Tamil Nadu) — no uranium mining. So Tarapur (Maharashtra/Bhandara) and Rawatbhata (Rajasthan/Udaipur-Alwar-Jhunjhunu) are the two. A wrong pairing (e.g., Kalpakkam + Narora) reveals the student memorizes plant names without linking to the mineral distribution map (c11_geo_cbse_19_007).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological settings of uranium (Dharwar rocks, Singhbhum belt) and thorium (beach sands, monazite/ilmenite). How does this difference dictate India's three-stage nuclear programme design?",
+     "a": "Correct answer: Uranium occurs in limited, hard-rock vein deposits (Dharwar/Singhbhum) — scarce, difficult to mine, finite. Thorium occurs in vast, easily mineable beach placer deposits (Kerala/Tamil Nadu/Odisha) — abundant, low-cost. Stage 1 PHWRs use scarce natural uranium efficiently (no enrichment needed). Stage 2 Fast Breeders convert uranium-238 to plutonium, then add thorium to breed U-233. Stage 3 uses bred U-233 + abundant thorium for near-limitless energy. A wrong answer (e.g., \"both mined similarly\") misses the strategic logic: programme design is a direct response to geological endowment asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's nuclear energy programme is sustainable because thorium reserves are 25% of world total and will last thousands of years.\" Consider geological, technological, and institutional factors.",
+     "a": "Correct answer: Partially true but incomplete. Geologically: thorium abundance is real (monazite in Kerala/TN/Odisha beach sands). Technologically: Stage 3 (thorium breeders) remains unproven at commercial scale — fast breeder programme (PFBR at Kalpakkam) faces delays; thorium fuel cycle (Th-232 → U-233) has handling challenges (high gamma from U-232 contamination). Institutionally: requires sustained funding, regulatory clearance, public acceptance. Sustainability claim holds only if Stage 2→3 transition succeeds. A wrong answer (\"fully sustainable\" or \"not sustainable\") shows binary thinking without weighing the conditional technological pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map for a Class 12 board answer showing: (a) all six nuclear power plants, (b) major uranium mining districts, (c) thorium-rich coastal belts, (d) BARC Trombay, and (e) arrows indicating the three-stage fuel flow logic. What symbols and color code would you use to maximize clarity for the examiner?",
+     "a": "Expected answer: Base map with state boundaries. Symbols: ⚛ (red) for 6 power plants; ⛏ (yellow) for uranium mines (Singhbhum, Udaipur, Alwar, Jhunjhunu, Bhandara, Durg, Kullu); 🏖 (green) for thorium belts (Kerala coast, TN coast, Odisha delta); 🏢 (blue) for BARC Trombay. Arrows: Stage 1: Uranium mine → PHWR (solid black); Stage 2: PHWR spent fuel → Reprocessing → Pu + Th → FBR (dashed blue); Stage 3: FBR → U-233 + Th → Thorium breeder (dotted green). Color code: red=nuclear, yellow=uranium, green=thorium, blue=reprocessing. Poor answer: cluttered, no legend, missing fuel flow arrows — reveals inability to synthesize spatial + process information.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

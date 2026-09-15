@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_04_002",
+   "title": "c11_math_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the exact algebraic step required to verify the base case for the statement: P(n): 1 + 3 + 5 + ... + (2n-1) = n².",
+     "a": "Substitute n = 1 into both sides: LHS = 1 (the first term when n=1), RHS = 1² = 1. Since LHS = RHS, P(1) is true. A wrong answer like \"LHS = 1+3 = 4\" reveals the student misunderstands that the series has only one term when n=1, confusing the general term (2n-1) with the series sum. They need to revisit sequence notation from c9_math_ch8_1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why verifying P(1) for the statement \"n³ - n is divisible by 3\" requires computing 1³ - 1, and what the result 0 tells us about divisibility.",
+     "a": "For n=1, 1³ - 1 = 0. Since 0 = 3 × 0, zero is divisible by any non-zero integer (0 = 3k where k=0 ∈ ℤ). Thus P(1) is true. A student who says \"0 is not divisible by 3\" or \"we cannot divide by 0\" confuses the dividend (0) with the divisor (3). This misconception stems from Class 6 divisibility rules (c6_math_ch01_014) where they only saw positive dividends. They must understand: a|b means ∃ integer k such that b = ak; here 3|0 because 0 = 3×0.",
+     "self_check": true
+    },
+    {
+     "q": "Verify the base case for P(n): 2ⁿ > n² for all n ≥ 5. Show complete working.",
+     "a": "The statement specifies n ≥ 5, so base case is n = 5 (not n=1). LHS = 2⁵ = 32. RHS = 5² = 25. Since 32 > 25, P(5) is true. A student who tests n=1 gets 2 > 1 (true) but misses the domain restriction. A student who tests n=2 gets 4 > 4 (false) and incorrectly concludes the statement is false. This reveals two errors: (1) not reading the domain condition \"n ≥ 5\", and (2) not understanding that induction can start at any integer. They need to review inequality domains from c10_math_cbse_04_007.",
+     "self_check": true
+    },
+    {
+     "q": "A student verifies the base case for P(n): 1² + 2² + ... + n² = n(n+1)(2n+1)/6 by writing: \"For n=1, LHS = 1² = 1, RHS = 1(2)(3)/6 = 1. So true.\" Identify if this is sufficient for full marks in CBSE board exam and justify.",
+     "a": "The working is mathematically correct but incomplete for board exams. CBSE requires explicit statement: \"P(1) is true\" or \"Hence the statement holds for n=1.\" The student must also write the substitution step clearly: \"Putting n=1 in the given statement...\" A response without the concluding statement loses 0.5-1 mark. This tests evaluation of exam presentation standards, not just computation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this base case verification for P(n): n(n+1)(n+2) is divisible by 6. Student writes: \"For n=1, 1×2×3 = 6. 6/6 = 1. So divisible.\" Is this fully correct? If not, what is missing?",
+     "a": "The computation is correct but the reasoning is incomplete. \"6/6 = 1\" shows the quotient is integer, but the student should explicitly state: \"6 = 6 × 1, where 1 ∈ ℤ, therefore 6 is divisible by 6\" or \"6 is a multiple of 6.\" CBSE expects the divisibility definition: a is divisible by b if a = bk for some integer k. Writing only \"6/6=1\" implies division algorithm rather than divisibility definition. This tests precise mathematical language required at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "Create a statement P(n) involving a summation where the base case n=1 gives LHS = 0 and RHS = 0, and explain why this is a valid (though trivial) base case.",
+     "a": "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: LHS = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0. LHS = RHS = 0. This is valid because the empty sum convention gives 0, and the formula correctly yields 0. A poor answer would create a statement where n=1 is not in the domain (e.g., \"for n≥2\") or where the series notation is ambiguous. This tests understanding of summation notation from c9_math_ch8_1 and the concept that 0=0 is a true equality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

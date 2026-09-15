@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class12_psychology_lepy102",
+ "concepts": [
+  {
+   "id": "lepy102.1",
+   "title": "Concept of Self: Personal and Social Identity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Concept of Self: Personal and Social Identity' refers to.",
+     "a": "The self is the whole set of conscious ideas, thoughts and feelings a person holds about her or his own existence; it splits into a personal identity that marks one off from everybody else and a social identity that ties one to a group, and it works both as the knower (subject) and the known (object).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concept of Self: Personal and Social Identity'.",
+     "a": "A newborn has no self - it takes shape through interaction with parents, friends and teachers, and it keeps changing with experience.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Concept of Self: Personal and Social Identity', in plain ASCII form.",
+     "a": "self = personal_identity + social_identity ; subject_knower plus object_known",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.2",
+   "title": "Self-esteem, Self-efficacy and Self-regulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Self-esteem, Self-efficacy and Self-regulation' refers to.",
+     "a": "Self-esteem is the value judgment a person passes on her or his own worth; self-efficacy is the belief that one personally controls life outcomes rather than luck or fate; and self-regulation is the capacity to organise, monitor and restrain one's own behaviour, including delaying gratification.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self-esteem, Self-efficacy and Self-regulation'.",
+     "a": "By age 6-7 children judge themselves in four areas - academic, social, physical-athletic and appearance - and warm, accepting parenting raises esteem while over-assisting parents lower it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Self-esteem, Self-efficacy and Self-regulation', in plain ASCII form.",
+     "a": "self_esteem = own_worth_judgment ; self_efficacy = perceived_personal_control ; self_regulation = organised_monitored_behaviour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.3",
+   "title": "Culture and Self: Indian versus Western Views",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Culture and Self: Indian versus Western Views' refers to.",
+     "a": "Western culture draws a comparatively fixed line between self and others, keeping individual and group as separate entities, whereas the Indian view lets that line shift - the self sometimes fuses with the cosmos or the group and at other times turns wholly inward.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Culture and Self: Indian versus Western Views'.",
+     "a": "Individualistic Western cultures hold self and group apart, while collectivistic Asian cultures keep the self in harmonious co-existence with its group.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Culture and Self: Indian versus Western Views', in plain ASCII form.",
+     "a": "western_self = fixed_self_other_boundary ; indian_self = shifting_boundary_with_cosmos_and_group",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.4",
+   "title": "Type and Trait Approaches to Personality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Type and Trait Approaches to Personality' refers to.",
+     "a": "Type approaches sort people into broad behavioural patterns - Hippocrates' four humours, Charak Samhita's tridosha and trigunas, Sheldon's body builds, Jung's introvert-extravert, and Friedman and Rosenman's Type-A and Type-B - while trait approaches such as Allport's cardinal-central-secondary scheme, Cattell's sixteen source traits and Eysenck's dimensions rate people on specific attributes along which they differ consistently.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Type and Trait Approaches to Personality'.",
+     "a": "Types are simple and stereotype-prone; traits are relatively stable over time, fairly consistent across situations, and their combinations create individual differences.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Type and Trait Approaches to Personality', in plain ASCII form.",
+     "a": "type_approach = broad_behavioural_patterns ; trait_approach = specific_enduring_attributes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.5",
+   "title": "Freud: Structure of Personality and Defence Mechanisms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Freud: Structure of Personality and Defence Mechanisms' refers to.",
+     "a": "Freud pictures the mind as three levels of consciousness - conscious, preconscious and unconscious - and personality as a contest among id (pleasure principle), ego (reality principle) and superego (moral branch); when the ego cannot bear anxiety it distorts reality through defence mechanisms such as repression, projection, denial, reaction formation and rationalisation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Freud: Structure of Personality and Defence Mechanisms'.",
+     "a": "The libido energises the id; unresolved conflict shows up in slips, jokes and dreams, and only extreme use of defences produces maladjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Freud: Structure of Personality and Defence Mechanisms', in plain ASCII form.",
+     "a": "personality_structure = id_pleasure + ego_reality + superego_moral ; defence = anxiety_reduced_by_distorting_reality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.6",
+   "title": "Psychosexual Stages and Post-Freudian Theories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Psychosexual Stages and Post-Freudian Theories' refers to.",
+     "a": "Freud places personality growth in five psychosexual stages - oral, anal, phallic, latency and genital - where failure at any stage fixes development there or pushes it back; post-Freudians widened the account: Jung's collective unconscious of archetypes, Horney's basic anxiety from disturbed childhood relations, Adler's inferiority complex and individual psychology, Fromm's social orientation, and Erikson's lifelong search for ego identity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Psychosexual Stages and Post-Freudian Theories'.",
+     "a": "The Oedipus complex is resolved in the phallic stage by identifying with the same-sex parent; neo-analytic theorists trimmed sexuality and enlarged the ego and social forces.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Psychosexual Stages and Post-Freudian Theories', in plain ASCII form.",
+     "a": "stages = oral + anal + phallic + latency + genital ; fixation_or_regression = unresolved_stage_conflict",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.7",
+   "title": "Humanistic, Behavioural and Cultural Approaches",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Humanistic, Behavioural and Cultural Approaches' refers to.",
+     "a": "Behaviourists treat personality as reinforced stimulus-response learning where the response is the structural unit; the cultural approach reads personality as adaptation to a group's economic maintenance system, as the Birhor hunting-gathering and agricultural contrasts show; and humanists - Rogers with the real and ideal self plus unconditional positive regard, Maslow with self-actualisation at the top of the needs hierarchy - see people striving to fulfil their potential.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Humanistic, Behavioural and Cultural Approaches'.",
+     "a": "A gap between real and ideal self breeds unhappiness; children of hunting-gathering societies learn independence and achievement while agricultural socialisation rewards obedience and nurturance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Humanistic, Behavioural and Cultural Approaches', in plain ASCII form.",
+     "a": "rogers_congruence = real_self matches ideal_self -> fully_functioning_person ; maslow_top_need = self_actualisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.8",
+   "title": "Self-Report Measures and Rating-Scale Scoring",
+   "questions": [
+    {
+     "q": "How many statements does the MMPI contain and how is it divided for diagnosis? Use the method 'Self-Report Measures and Rating-Scale Scoring'. Work with: academic_rating = 500, appearance_rating = 150, area_count = 500, physical_rating = 5, social_rating = 12. Carry the chain through step by step and give the final value of esteem_mean.",
+     "a": "1.334 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the average rating from a four-area self-esteem checklist with given marks. Use the method 'Self-Report Measures and Rating-Scale Scoring'. Work with: academic_rating = 20, appearance_rating = 40, area_count = 250, physical_rating = 25, social_rating = 45. Carry the chain through step by step and give the final value of esteem_mean.",
+     "a": "0.52 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Self-Report Measures and Rating-Scale Scoring' refers to.",
+     "a": "Self-report measures are structured questionnaires - MMPI with 567 true-false statements on 10 subscales, Eysenck's EPQ, Cattell's 16PF - where responses are scored quantitatively and read against norms; their weak points are social desirability and acquiescence, the habit of agreeing with items regardless of content.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self-Report Measures and Rating-Scale Scoring'.",
+     "a": "Average the ratings a person gives across areas to quantify a self-report score; high numbers on endorsed statements mean high standing on that attribute.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Self-Report Measures and Rating-Scale Scoring', in plain ASCII form.",
+     "a": "esteem_mean = rating_total / area_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lepy102.9",
+   "title": "Projective Techniques: Rorschach and TAT",
+   "questions": [
+    {
+     "q": "Using the method 'Projective Techniques: Rorschach and TAT', work with: black_white_blots = 75, pastel_blots = 10, red_ink_blots = 4. Carry the chain through step by step and give the final value of blot_total.",
+     "a": "89 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Projective Techniques: Rorschach and TAT' and work with: black_white_blots = 80, pastel_blots = 80, red_ink_blots = 18. Carry the chain through step by step and give the final value of blot_total.",
+     "a": "178 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Projective Techniques: Rorschach and TAT' refers to.",
+     "a": "Projective techniques reach unconscious motives through unstructured stimuli on which people project feelings and needs; shared features include ambiguous material, hidden purpose, no right or wrong answers, and subjective lengthy scoring; the Rorschach inkblot test, Thematic Apperception Test, Rosenzweig picture-frustration study, sentence completion and draw-a-person tests are the standard examples.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Projective Techniques: Rorschach and TAT'.",
+     "a": "The Rorschach set holds ten symmetric blots - five black and white, two with red ink, three pastel - administered in a performance proper phase and an inquiry phase.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Projective Techniques: Rorschach and TAT', in plain ASCII form.",
+     "a": "blot_total = black_white_blots + red_ink_blots + pastel_blots",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

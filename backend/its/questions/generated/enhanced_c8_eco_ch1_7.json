@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_7",
+   "title": "c8_eco_ch1_7",
+   "questions": [
+    {
+     "q": "Define human capital in your own words and list its three primary components.",
+     "a": "Human capital is the stock of skills, knowledge, and health embodied in people that makes them economically productive. Its three primary components are education, professional training (skills), and healthcare.\n*What a wrong answer reveals:* If a student defines human capital simply as \"the total number of workers in a country,\" they are confusing the quantitative measure of raw labor with the qualitative measure of human capital.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country's government spending money on free childhood vaccinations is considered an economic investment in human capital rather than just a public welfare expense.",
+     "a": "Vaccinations prevent debilitating diseases, ensuring children grow up to be healthy, highly energetic adults who miss fewer workdays due to illness. From an economic perspective, this directly preserves and enhances their future labor productivity and earning capacity, yielding a positive financial return for the economy over time.\n*What a wrong answer reveals:* If a student says \"it is just a welfare expense because it does not directly teach a job skill,\" they fail to understand that health is the foundational pillar of human capital; without physical well-being, skills and education cannot be applied productively.",
+     "self_check": true
+    },
+    {
+     "q": "An IT company in Hyderabad has two web designers. Designer A (self-taught, basic skills) earns ₹30,000 per month and designs 3 basic websites a week. Designer B (completed an advanced coding diploma) earns ₹60,000 per month and designs 9 highly complex, high-value websites a week. Calculate the \"Output-to-Wage Ratio\" (Websites designed per ₹10,000 of wage) for both. Who represents a more efficient use of human capital investment?",
+     "a": "Step 1: Identify the given data.\n- Designer A: Wage = ₹30,000 (3 units of ₹10,000), Output = 3 websites.\n- Designer B: Wage = ₹60,000 (6 units of ₹10,000), Output = 9 websites.\n\nStep 2: Calculate the Output-to-Wage Ratio.\n- Designer A: $3 \\text{ websites} / 3 = 1.0$ website per ₹10,000.\n- Designer B: $9 \\text{ websites} / 6 = 1.5$ websites per ₹10,000.\n\nStep 3: Compare. Designer B produces 1.5 websites per unit of wage, whereas Designer A produces only 1.0.\nTherefore, Designer B represents a more efficient use of human capital investment. Despite earning double the salary, their advanced skills make them three times as productive.\n*What a wrong answer reveals:* If a student concludes that Designer A is more efficient simply because their salary is lower, they are ignoring productivity. This reveals they do not understand how investments in human capital justify higher wages through disproportionately higher output.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the economic outcome for a factory that buys highly advanced automated machinery (physical capital) but refuses to train its workers (human capital) on how to operate or maintain it.",
+     "a": "The factory will likely face low productivity, frequent machine breakdowns, and high rates of defective products. Advanced physical capital requires a corresponding level of human capital to operate it efficiently. Without trained workers, the expensive machinery remains underutilized or damaged, leading to a poor return on investment.\n*What a wrong answer reveals:* If a student thinks the factory will succeed because \"the machine does all the work automatically,\" they suffer from physical capital bias, failing to realize that physical capital and human capital are complementary inputs that must grow together.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since high school graduates can perform basic assembly line tasks, a manufacturing company should never spend money on on-the-job training programs.\" Do you agree or disagree? Support your answer with economic reasoning.",
+     "a": "Disagree. While basic education provides foundational literacy and discipline, on-the-job training provides specialized, firm-specific skills (like operating specialized tools or safety protocols). This specialized human capital reduces material waste, lowers accident rates, and increases the speed of production, which far outweighs the temporary cost of the training program.\n*What a wrong answer reveals:* If a student agrees, they fail to distinguish between general education (basic human capital) and specialized training (specific human capital), missing how specialization drives efficiency on the factory floor.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose you are the manager of a handloom weaving cooperative in rural Odisha. The weavers are highly skilled but suffer from frequent back pain and poor eyesight due to bad lighting and posture, which reduces their weekly output. Propose a dual-action plan to upgrade their human capital, explaining the economic mechanism of how each action will increase the cooperative's profits.",
+     "a": "A model plan should address both health and skill/environmental optimization:\n1. **Action 1 (Health Investment):** Install ergonomic seating and provide free eye check-ups/corrective glasses. *Economic Mechanism:* This directly improves physical health, reducing fatigue and error rates, which increases the volume of defect-free fabrics produced per week.\n2. **Action 2 (Skill Investment):** Conduct a short workshop on modern color-matching and design trends. *Economic Mechanism:* This upgrades their skill set, allowing them to produce premium-quality, high-demand designs that command a much higher selling price in urban markets.\n*What a poor answer reveals:* If the student proposes buying automatic weaving machines instead of focusing on the workers' physical health and skills, they fail to address the human capital bottleneck of the cooperative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

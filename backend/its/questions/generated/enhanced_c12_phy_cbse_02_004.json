@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_004",
+   "title": "c12_phy_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the shape of the equipotential surfaces for a single isolated positive point charge? State the work done by the electrostatic force when a test charge moves along one such surface.",
+     "a": "The equipotential surfaces are concentric spheres centred on the point charge. The work done by the electrostatic force is zero because the displacement is perpendicular to the electric force (radial) at every point. A wrong answer (e.g., \"cylinders\" or \"non-zero work\") reveals the student confuses equipotential surfaces with electric field lines or does not understand that potential is constant on the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Why can two equipotential surfaces never intersect each other? Explain using the definition of electric potential at a point.",
+     "a": "If two equipotential surfaces intersected, the intersection point would have two different potential values simultaneously, which is impossible because electric potential at a point is a single-valued scalar function. A wrong answer (e.g., \"they can intersect if the field is strong\") reveals the student treats potential as a vector or does not grasp the single-valued nature of scalar fields.",
+     "self_check": true
+    },
+    {
+     "q": "In a region of uniform electric field E = 2.0 × 10³ N/C directed along the +x-axis, the potential at x = 0 is 100 V. What is the potential at x = 5.0 cm? If an equipotential surface passes through x = 5.0 cm, what is its orientation?",
+     "a": "For uniform field, V(x) = V(0) - E·x = 100 V - (2.0×10³ N/C)(0.050 m) = 100 V - 100 V = 0 V. The equipotential surface is a plane parallel to the y-z plane (normal to the x-axis). A wrong answer (e.g., using V = V₀ + Ex, or saying the surface is spherical) reveals sign convention errors or confusion between point-charge and uniform-field geometries.",
+     "self_check": true
+    },
+    {
+     "q": "Figure shows equipotential surfaces spaced at 10 V intervals in a non-uniform electric field. At point A, adjacent surfaces are 2.0 mm apart; at point B, they are 5.0 mm apart. Compare the electric field magnitudes at A and B. Where is the field stronger?",
+     "a": "E ≈ |ΔV/Δn|. At A: E_A ≈ 10 V / 0.002 m = 5000 V/m. At B: E_B ≈ 10 V / 0.005 m = 2000 V/m. The field is stronger at A because equipotential surfaces are closer together. A wrong answer (e.g., \"field is stronger at B because spacing is larger\") reveals the student thinks wider spacing means stronger field, confusing the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since no work is done in moving a charge along an equipotential surface, the electric field must be zero everywhere on that surface.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Zero work only requires the force component along the displacement to be zero (F·dr = 0). The electric field can be non-zero but perpendicular to the surface. For example, on a spherical equipotential around a point charge, E = kQ/r² is non-zero but radial, while displacement is tangential. A wrong evaluation (e.g., agreeing with the student) reveals confusion between \"no work along a path\" and \"zero field\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a conducting sheet, a battery, and a voltmeter to map equipotential lines for a two-dimensional electric field created by two point electrodes on the sheet. Describe the procedure and how you would identify the equipotential lines.",
+     "a": "Procedure: (1) Place a conducting sheet (e.g., Teledeltos paper) on a flat surface. (2) Fix two metal pins as electrodes connected to a battery (e.g., 5 V). (3) Connect the negative terminal of the voltmeter to one electrode. (4) Move the positive probe across the sheet; mark points where the voltmeter reads the same value (e.g., 1 V, 2 V, 3 V). (5) Join points of equal reading to get equipotential lines. (6) Draw electric field lines perpendicular to these. A poor answer (e.g., \"measure current instead of voltage\" or \"ignore the need for a reference electrode\") reveals misunderstanding of potential measurement and the need for a common reference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

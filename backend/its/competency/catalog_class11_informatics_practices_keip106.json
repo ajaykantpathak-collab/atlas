@@ -1,0 +1,519 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 6,
+ "chapter_title": "Introduction to NumPy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip106.1",
+   "title": "Array versus List in Python",
+   "section": "6.3.1",
+   "definition": "A NumPy array (officially ndarray) keeps one single data type for all its elements and lays them side by side in one continuous block of memory, which makes it compact and fast. A core-Python list may mix types, stores them scattered in memory, and cannot do element-wise arithmetic, while an array happily evaluates A1 / 3 on every element at once.",
+   "formula": "elementwise_result = each_element_transformed",
+   "key_idea": "Homogeneous type plus contiguous storage buys speed and element-wise operations that lists cannot offer.",
+   "textbook_ref": "keip106.txt sections 6.2-6.3.1 (lines 53-151)",
+   "question_patterns": [
+    "what is an array and how is it different from a list",
+    "why are operations on arrays faster than on lists",
+    "can a list and an array be added with the + operator in the same way",
+    "what is the name of the built-in array class of NumPy",
+    "state two differences between a list and an ndarray",
+    "why does an array occupy less memory than a list of the same values"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the allowed element types",
+     "explain": "a list may hold mixed types; every element of an array must share one dtype"
+    },
+    {
+     "step": 2,
+     "action": "compare the memory layout",
+     "explain": "array elements sit contiguously, list elements are scattered with type tags"
+    },
+    {
+     "step": 3,
+     "action": "test an element-wise operation",
+     "explain": "dividing an array by 3 scales every element; the same expression fails for a mixed list"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which structure stores one single data type in one continuous memory block: a list or a NumPy array?",
+     "a": "NumPy array"
+    }
+   ]
+  },
+  {
+   "id": "keip106.2",
+   "title": "ndarray Attributes: shape, size, itemsize",
+   "section": "6.3.3",
+   "definition": "Every ndarray reports its structure through attributes: ndim counts the axes (the rank), shape lists the size along each axis, size totals the elements (the product of the shape numbers), dtype names the element type, and itemsize gives each element's width in bytes, obtained by dividing the type's bit width by 8.",
+   "formula": "total_memory_bytes = array_size * itemsize_bytes",
+   "key_idea": "Multiply the shape entries for size, divide the type bits by 8 for itemsize, then multiply the two for the array's memory footprint.",
+   "textbook_ref": "keip106.txt section 6.3.3, Examples 6.2-6.6 (lines 195-288)",
+   "question_patterns": [
+    "what do array3.shape and array3.size return for a 3 by 2 array",
+    "how many bytes does one int32 element occupy in memory",
+    "find the total memory occupied by a 4 by 3 int32 array of marks",
+    "what does the rank of an ndarray mean",
+    "for a 3 by 4 float64 array, compute its size and memory usage in bytes",
+    "what does dtype '<U32' indicate about array2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the type width to bytes",
+     "explain": "8 bits form a byte, so integer-divide the type's bit count by 8",
+     "compute": "itemsize_bytes = type_bits // 8"
+    },
+    {
+     "step": 2,
+     "action": "count all the elements",
+     "explain": "the size equals rows multiplied by columns",
+     "compute": "array_size = row_count * column_count"
+    },
+    {
+     "step": 3,
+     "action": "scale up to the whole array",
+     "explain": "memory used is the element count times each element's byte width",
+     "compute": "total_memory_bytes = array_size * itemsize_bytes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An int32 array stores each element in how many bytes?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "keip106.3",
+   "title": "Two Dimensional Array Indexing",
+   "section": "6.4.1",
+   "definition": "A 2-D array addresses each cell with a pair of zero-based indices marks[i, j], where i counts rows and j counts columns. Counting the cells stored before a given one shows why the pair works: whole rows of the grid come first, then the offset inside the row.",
+   "formula": "linear_offset = preceding_elements + column_index",
+   "key_idea": "Row index times row length skips whole rows; adding the column index lands on the exact cell, and an index past an axis size raises IndexError.",
+   "textbook_ref": "keip106.txt section 6.4.1 and Table 6.1 (lines 342-397)",
+   "question_patterns": [
+    "for the marks array of 4 students and 3 subjects, what does marks[3,1] return",
+    "which element does marks[0,2] refer to in the marks table",
+    "why does marks[0,4] raise an index error for a 3-column array",
+    "how many cells are stored before the element at row index 3, column index 1 of a 3-column array",
+    "explain zero based indexing for 2-D arrays",
+    "write the index pair that fetches Ramesh's Science mark from the marks array"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "skip the completed rows",
+     "explain": "each full row holds column_count cells, so the row index skips that many elements",
+     "compute": "preceding_elements = row_index * column_count"
+    },
+    {
+     "step": 2,
+     "action": "step into the row",
+     "explain": "adding the column index reaches the wanted cell in row-major storage",
+     "compute": "linear_offset = preceding_elements + column_index"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In marks[i, j], which index counts rows?",
+     "a": "i"
+    }
+   ]
+  },
+  {
+   "id": "keip106.4",
+   "title": "Matrix Multiplication Cell Value",
+   "section": "6.5.1",
+   "definition": "The @ operator multiplies two matrices properly (unlike * which pairs elements). Each cell of the answer is built by walking one row of the left matrix against one column of the right matrix: multiply the matched pairs and add the products.",
+   "formula": "cell_value = product_one + product_two",
+   "key_idea": "Row meets column: multiply pairwise, then add the products; element-wise * needs equal shapes but @ needs matching inner dimensions.",
+   "textbook_ref": "keip106.txt section 6.5.1, matrix multiplication example (lines 479-482)",
+   "question_patterns": [
+    "for array1 = [[3,6],[4,2]] and array2 = [[10,20],[15,12]], what is array1 @ array2 at the top-left cell",
+    "how is the @ operator different from the * operator on arrays",
+    "compute the top-left cell of the matrix product of [[3,6],[4,2]] and [[10,20],[15,12]]",
+    "which shapes must match for matrix multiplication of two 2-D arrays",
+    "find array1 * array2 and array1 + array2 for the two 2 by 2 arrays of the chapter",
+    "what does array1 ** 3 compute for a 2 by 2 array"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the first matched pair",
+     "explain": "the first row entry meets the first column entry",
+     "compute": "product_one = row_value_one * column_value_one"
+    },
+    {
+     "step": 2,
+     "action": "multiply the second matched pair",
+     "explain": "the second row entry meets the second column entry",
+     "compute": "product_two = row_value_two * column_value_two"
+    },
+    {
+     "step": 3,
+     "action": "add the two products",
+     "explain": "their sum is the cell of the product matrix",
+     "compute": "cell_value = product_one + product_two"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which operator multiplies two matrices properly: * or @?",
+     "a": "@"
+    }
+   ]
+  },
+  {
+   "id": "keip106.5",
+   "title": "Statistical Operations: sum, mean, axis",
+   "section": "6.9",
+   "definition": "NumPy computes descriptive statistics straight on arrays: sum() totals the elements, mean() averages them, max() and min() fetch the extremes, std() spreads them. An axis argument chooses direction: axis=1 collapses each row into one number, axis=0 collapses each column.",
+   "formula": "row_mean = row_total / column_count",
+   "key_idea": "Add a row's cells for its row sum, divide by the row length for its mean; axis picks rows or columns.",
+   "textbook_ref": "keip106.txt section 6.9 (lines 699-769)",
+   "question_patterns": [
+    "for arrayB = [[3,6],[4,2]], what do arrayB.sum() and arrayB.sum(axis=1) return",
+    "find the mean of arrayB along axis 0 and along axis 1",
+    "what is the mean of arrayA = [1,0,2,-3,6,8,4,7]",
+    "how does axis=0 differ from axis=1 for array statistics",
+    "find the max of arrayB row wise and column wise",
+    "compute the total of all elements of array1 + array2 given array1 = [[3,6],[4,2]] and array2 = [[10,20],[15,12]]"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the first row",
+     "explain": "add the two cells of row one",
+     "compute": "row_one_total = first_cell + second_cell"
+    },
+    {
+     "step": 2,
+     "action": "total the second row",
+     "explain": "add the two cells of row two",
+     "compute": "row_two_total = third_cell + fourth_cell"
+    },
+    {
+     "step": 3,
+     "action": "combine the row sums",
+     "explain": "adding the row totals gives the grand sum over axis=1 then axis=0",
+     "compute": "grand_total = row_one_total + row_two_total"
+    },
+    {
+     "step": 4,
+     "action": "average over all elements",
+     "explain": "the overall mean divides the grand total by the element count",
+     "compute": "array_mean = grand_total / element_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which axis value collapses each row into one number: axis=0 or axis=1?",
+     "a": "axis=1"
+    }
+   ]
+  },
+  {
+   "id": "keip106.6",
+   "title": "Reshape Without Losing Elements",
+   "section": "6.7",
+   "definition": "reshape() rearranges an array's elements into a new grid without adding, dropping or reordering values, so the element count must stay fixed. Choosing a new column count fixes the row count automatically by dividing the unchanged total among the columns.",
+   "formula": "new_rows = total_elements // new_columns",
+   "key_idea": "Reshape re-cuts the same elements into new rows and columns; the product of the new shape must reproduce the old size exactly.",
+   "textbook_ref": "keip106.txt section 6.7, Example 6.9 (lines 598-620)",
+   "question_patterns": [
+    "the 1-D array of twelve values from arange(10,22) is reshaped to (3,4); confirm the shape is valid",
+    "into how many rows can 12 elements be reshaped with 6 columns",
+    "why does reshaping to a shape with a different element count fail",
+    "reshape the ones array of 10 elements into a single row; what is its new shape",
+    "what does array3.reshape(2,6) return for the twelve-element array",
+    "state the condition on total elements for a valid reshape"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the elements to be rearranged",
+     "explain": "the old grid holds old_rows times old_columns elements and reshaping cannot change this",
+     "compute": "total_elements = old_rows * old_columns"
+    },
+    {
+     "step": 2,
+     "action": "distribute them over the new columns",
+     "explain": "integer-dividing the unchanged total by the new column count gives the required row count",
+     "compute": "new_rows = total_elements // new_columns"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An array of 12 elements reshapes to 4 columns. How many rows does it get?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "keip106.7",
+   "title": "arange Start Stop Step Values",
+   "section": "6.3.4",
+   "definition": "np.arange(start, stop, step) builds an array of evenly spaced values beginning at start, advancing by step, and stopping before stop. Counting its elements and its final value follows the same upward-rounded arithmetic as Python's range.",
+   "formula": "last_arange_value = start_value + (arange_count - 1) * step_value",
+   "key_idea": "Round the span upward against the step to count the values; the last one sits one step short of stop.",
+   "textbook_ref": "keip106.txt section 6.3.4 item 4, arange examples (lines 328-341)",
+   "question_patterns": [
+    "what does np.arange(6) create",
+    "state the array produced by np.arange(-2, 24, 4) and its last element",
+    "how many elements does np.arange(4, 44, 4) contain",
+    "which value does arange never include in the generated sequence",
+    "find the last value of arange(10, 22) with the default step",
+    "create a 3 by 5 array with arange starting at 4 and step 4; how many elements result"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the generated values",
+     "explain": "round the span upward against the step to get how many values fit before stop",
+     "compute": "arange_count = (stop_value - start_value + step_value - 1) // step_value"
+    },
+    {
+     "step": 2,
+     "action": "land on the final value",
+     "explain": "advance the start by count minus one steps to reach the last generated value",
+     "compute": "last_arange_value = start_value + (arange_count - 1) * step_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many values does np.arange(2, 11, 3) contain?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "keip106.8",
+   "title": "Concatenating Arrays Row wise and Column wise",
+   "section": "6.6",
+   "definition": "np.concatenate() joins arrays along an axis: axis=0 stacks them one beneath the other, axis=1 places them side by side. Every dimension except the joining axis must match exactly, or NumPy raises a ValueError.",
+   "formula": "result_columns = first_columns + second_columns",
+   "key_idea": "Joining side by side adds the column counts and demands equal row counts; joining downward does the reverse.",
+   "textbook_ref": "keip106.txt section 6.6, Example 6.8 (lines 558-597)",
+   "question_patterns": [
+    "a (2,2) array and a (2,3) array are concatenated with axis=1; what is the resulting shape",
+    "how many elements does the concatenated array of Example 6.8 hold",
+    "why does np.concatenate((array1,array2), axis=0) fail in Example 6.8",
+    "state the default axis for np.concatenate",
+    "which dimension must match when concatenating along axis=0",
+    "join two 1-D arrays of 5 elements each; how long is the result"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the widths along the joining axis",
+     "explain": "a side-by-side join (axis=1) adds the two column counts",
+     "compute": "result_columns = first_columns + second_columns"
+    },
+    {
+     "step": 2,
+     "action": "count the combined elements",
+     "explain": "the unchanged row count times the new column count gives the total elements of the joined array",
+     "compute": "total_elements = result_rows * result_columns"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which axis value stacks arrays side by side: axis=0 or axis=1?",
+     "a": "axis=1"
+    }
+   ]
+  },
+  {
+   "id": "keip106.9",
+   "title": "Splitting Arrays Into Subarrays",
+   "section": "6.8",
+   "definition": "np.split() cuts an array into pieces, either at a list of index positions or into N equal parts, along a chosen axis. Cutting a 5-row array at positions [1, 3] yields a one-row head, a two-row middle and a two-row tail, and the parts together always rebuild the original row count.",
+   "formula": "last_two_parts = middle_size + tail_size",
+   "key_idea": "Each cut index marks where one part ends and the next begins; subtracting successive cut points sizes every middle part.",
+   "textbook_ref": "keip106.txt section 6.8 (lines 621-698)",
+   "question_patterns": [
+    "array4 with 5 rows is split at row indices [1,3]; how many rows do the second and third parts hold together",
+    "how many rows does the middle sub-array get when a 5-row array splits at [1,3]",
+    "into how many parts does np.split(array4, 2, axis=1) divide the columns",
+    "what do first, second and third contain after numpy.split(array4, [1,3])",
+    "split a 14-row array row wise into 3 equal parts; how many rows per part",
+    "which axis does np.split use by default"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the middle piece",
+     "explain": "the rows between the two cut indices number cut_two minus cut_one",
+     "compute": "middle_size = cut_two - cut_one"
+    },
+    {
+     "step": 2,
+     "action": "size the tail piece",
+     "explain": "the rows after the final cut are the total minus cut_two",
+     "compute": "tail_size = total_rows - cut_two"
+    },
+    {
+     "step": 3,
+     "action": "add the two trailing pieces",
+     "explain": "the second and third sub-arrays together hold the middle plus the tail rows",
+     "compute": "last_two_parts = middle_size + tail_size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 5-row array splits at positions [1, 3]. How many rows does the middle part hold?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "keip106.10",
+   "title": "Transpose of an Array",
+   "section": "6.5.2",
+   "definition": "transpose() swaps the roles of rows and columns, exactly like the transpose of a school mathematics matrix: a 3 by 4 grid comes back as 4 by 3, and the original array itself stays untouched unless the result is stored back.",
+   "formula": "transposed_shape = (columns_count, rows_count)",
+   "key_idea": "Transpose flips the shape pair; the value at row i, column j moves to row j, column i.",
+   "textbook_ref": "keip106.txt section 6.5.2 (lines 499-519)",
+   "question_patterns": [
+    "what is the shape of array3.transpose() for a 3 by 4 array",
+    "where does the element at row 0, column 2 move after transposing",
+    "does array3.transpose() change array3 itself",
+    "write the command to transpose a NumPy array",
+    "how does transposing help when loading file columns separately",
+    "what does the unpack=True parameter of loadtxt do to the returned array"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the original shape",
+     "explain": "a (3, 4) array has 3 rows of 4 cells"
+    },
+    {
+     "step": 2,
+     "action": "swap the axes",
+     "explain": "transpose exchanges the row and column counts, giving (4, 3)"
+    },
+    {
+     "step": 3,
+     "action": "track one element",
+     "explain": "the cell at position (i, j) relocates to (j, i) while the original array remains unchanged"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Transposing a 3 by 4 array gives how many rows?",
+     "a": "4"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip106.txt section 6.3.3 Examples 6.2-6.6 (marks array)",
+   "concept": "keip106.2",
+   "question_type": "numeric",
+   "question_pattern": "The marks array stores 4 students by 3 subjects as int32. Find its size, itemsize and total memory in bytes.",
+   "extracted_variables": {
+    "row_count": 4,
+    "column_count": 3,
+    "type_bits": 32
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert the type width to bytes",
+     "explain": "32 bits // 8 = 4 bytes per element",
+     "compute": "itemsize_bytes = type_bits // 8"
+    },
+    {
+     "step": 2,
+     "action": "count the elements",
+     "explain": "4 * 3 = 12 elements",
+     "compute": "array_size = row_count * column_count"
+    },
+    {
+     "step": 3,
+     "action": "compute the memory used",
+     "explain": "12 * 4 = 48 bytes",
+     "compute": "total_memory_bytes = array_size * itemsize_bytes"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip106.txt section 6.5.1 matrix multiplication example",
+   "concept": "keip106.4",
+   "question_type": "numeric",
+   "question_pattern": "For array1 = [[3,6],[4,2]] and array2 = [[10,20],[15,12]], find the top-left cell of array1 @ array2.",
+   "extracted_variables": {
+    "row_value_one": 3,
+    "row_value_two": 6,
+    "column_value_one": 10,
+    "column_value_two": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the first pair",
+     "explain": "3 * 10 = 30",
+     "compute": "product_one = row_value_one * column_value_one"
+    },
+    {
+     "step": 2,
+     "action": "multiply the second pair",
+     "explain": "6 * 15 = 90",
+     "compute": "product_two = row_value_two * column_value_two"
+    },
+    {
+     "step": 3,
+     "action": "add the products",
+     "explain": "30 + 90 = 120, the top-left cell shown in the chapter output",
+     "compute": "cell_value = product_one + product_two"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip106.txt Exercise Q4, Q5, Q6 (creation and operations)",
+   "questions": [
+    "Write the command for a 1-D array of 10 zeros. (np.zeros(10))",
+    "Write the command for a 2-D array ones of 2 rows and 5 columns with all elements 1 and dtype int. (np.ones((2,5), dtype=int))",
+    "Create a 2-D array with arange having 3 rows and 5 columns, start value 4, step size 4. How many elements result? (15)",
+    "For myarray1 = [[2.7,-2,-19],[0,3.4,99.9],[10.6,0,13]], write the slice for the 2nd and 3rd row. (myarray1[1:3, :])",
+    "For the same array, display the 1st column of the 2nd and 3rd row. (myarray1[1:3, 0])",
+    "Reverse the vowels array created from 'aeiou'. (vowels[::-1])"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip106.txt Exercise Q9, Q10 and section 6.9 statistics",
+   "questions": [
+    "myarray4 is built with arange, 14 rows and 3 columns, start -1, step 0.25. How many elements does it hold? (42)",
+    "Split myarray4 row wise into 3 equal parts; how many rows does each part get? (7)",
+    "For arrayB = [[3,6],[4,2]], state arrayB.sum(), arrayB.mean() and arrayB.max(axis=0). (15; 3.75; [4, 6])",
+    "For arrayB, what do arrayB.std(axis=0) and arrayB.std(axis=1) give? ([0.5, 2.0]; [1.5, 1.0])",
+    "A 12-element array reshaped to (3,4): what would reshape(5,4) do and why? (error; 20 != 12)",
+    "Which function saves a NumPy array to a text file and which parameter fixes the separator? (np.savetxt; delimiter)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_1",
+   "title": "c9_eco_ch1_1",
+   "questions": [
+    {
+     "q": "Define scarcity in economics and state the two conditions that must both be true for scarcity to exist.",
+     "a": "Correct answer: Scarcity is the condition where unlimited human wants exceed the limited resources available to satisfy them. The two conditions are: (1) human wants are unlimited, and (2) resources (land, labour, capital, entrepreneurship) are limited in supply. A wrong answer that only mentions \"limited resources\" reveals the student thinks scarcity is just about shortage, missing the critical role of unlimited wants. A wrong answer that says \"scarcity means shortage of a specific good\" confuses scarcity (universal, permanent) with shortage (temporary, market-specific).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why clean air is considered a free good in a remote village but becomes a scarce (economic) good in a polluted metro city like Delhi. Use the definition of scarcity in your answer.",
+     "a": "Correct answer: In a remote village, clean air exists in abundance relative to the villagers' desire for it — supply exceeds demand at zero price, so it is a free good. In Delhi, pollution reduces the supply of clean air while population density increases demand for it; now wants for clean air exceed the limited supply, making it scarce. A wrong answer that says \"clean air is always free because nobody pays for it\" reveals the misconception that price determines scarcity, rather than the relationship between wants and availability. A wrong answer focusing only on pollution without comparing supply to wants shows incomplete understanding of the two-sided definition.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab has 10 hectares of land. He can grow either wheat (yield 5 tonnes/hectare, price ₹2200/tonne) or rice (yield 4 tonnes/hectare, price ₹2000/tonne). Calculate the total revenue from each crop if he uses all land for one crop. Which crop gives higher revenue? Does this calculation solve the scarcity problem? Explain.",
+     "a": "Step 1: Wheat revenue = 10 hectares × 5 tonnes/hectare × ₹2200/tonne = ₹1,10,000. Step 2: Rice revenue = 10 hectares × 4 tonnes/hectare × ₹2000/tonne = ₹80,000. Step 3: Wheat gives higher revenue (₹1,10,000 > ₹80,000). Step 4: This calculation does NOT solve the scarcity problem because land is still limited (10 hectares) and the farmer has other wants (e.g., growing vegetables, building a house, leaving land fallow for soil health). Choosing wheat means sacrificing rice and other uses — scarcity forces a choice but doesn't disappear after calculating revenue. A wrong answer saying \"yes, wheat solves it because it gives max money\" reveals the student thinks optimization eliminates scarcity, confusing the *result of choice* with the *existence of scarcity*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scarcity problem faced by a household (monthly income ₹30,000) and the Government of India (annual budget ₹45 lakh crore). Identify two similarities and one fundamental difference in the *nature* of their scarcity.",
+     "a": "Similarities: (1) Both have unlimited wants (household: better food, education, healthcare, savings; government: defence, infrastructure, subsidies, education, health). (2) Both have limited resources relative to those wants (household: fixed income; government: tax revenue, borrowing limits, finite labour/capital). Fundamental difference: The household's scarcity is primarily about *private* allocation of a given income, while the government's scarcity involves *social* allocation across competing public needs with distributional consequences (e.g., spending more on defence means less for rural health, affecting millions). A wrong answer saying \"government can print money so it has no scarcity\" reveals the dangerous misconception that monetary sovereignty eliminates resource scarcity — printing money without output growth causes inflation, not resource creation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If India becomes a developed country with high per capita income, the problem of scarcity will be solved.\" Use economic reasoning.",
+     "a": "The statement is false. Higher income expands the *production possibility frontier* but does not eliminate scarcity because: (1) Human wants grow with income (new goods, better quality, status goods) — wants remain unlimited. (2) Resources remain finite (land area fixed, labour hours capped at 24/day, capital requires saving). (3) New scarcities emerge (clean water, biodiversity, climate stability). Developed nations still face \"what, how, for whom\" choices — e.g., USA chooses between healthcare, defence, and tax cuts. A wrong answer agreeing with the statement reveals the misconception that scarcity = poverty. Scarcity is a *structural* condition of wants > resources, not a *level* of income.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario from your neighbourhood (not the textbook examples) that illustrates all three fundamental economic questions (what, how, for whom) arising from scarcity. Describe the scenario and explicitly label each question.",
+     "a": "Good answer example: \"Our housing society has a 500 sq m vacant plot (scarce land). WHAT: Should we build a community hall, a gym, or a playground? HOW: Should we hire a contractor (capital-intensive) or use volunteer labour (labour-intensive)? FOR WHOM: Should access be free for all residents, paid by maintenance fees (excluding tenants), or rented for events (generating income)?\" Criteria: Must show a specific scarce resource, explicit trade-offs for each question, and realistic Indian context. A poor answer that only lists \"what to produce\" without showing the *choice forced by scarcity* or that uses a textbook example reveals the student cannot transfer the abstract concept to concrete observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

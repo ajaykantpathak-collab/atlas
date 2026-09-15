@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_07_014",
+   "title": "c11_eng_w_cbse_07_014",
+   "questions": [
+    {
+     "q": "What is the full form of PEEL in the context of writing analytical answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student does not know the standard academic structure for literary analysis paragraphs, leading to disorganized answers that lack a clear argumentative through-line.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: *\"Satyajit is proud because he doesn't smoke on the train and remembers his past success.\"* Why is this an inadequate analytical point for a Class 11 answer?",
+     "a": "The statement merely narrates plot events (literal comprehension) without interpreting the *significance* of the action. It misses the internal conflict: Satyajit's \"stern shake of his head\" and rationed smoke show his *desperate self-discipline* after ruin, not pride. A wrong answer here reveals the student confuses *description* with *analysis* and cannot infer psychological state from physical action.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: *\"Explain the significance of the phrase 'Glory was all overlaid with dark shame. Glory was dead.'\"* Provide the Point and Evidence steps only.",
+     "a": "**Point:** The phrase encapsulates the central irony of Satyajit's downfall: his public success is inseparable from his private moral compromise. **Evidence:** The text states this immediately after describing how his wife \"married a man of fortune\" and the \"story lay killed by its sequel—failure.\" A wrong answer would quote the phrase but fail to connect \"dark shame\" to the forger episode or \"dead glory\" to the present poverty, showing an inability to synthesize across the text.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the \"Language Work\" description of Satyajit (\"Tall, thin, near forty... mouth... tighten in repose to a line that suggested strength of will but might have been only pride\") uses physical details to foreshadow his moral ambiguity. Write the Explanation step of PEEL.",
+     "a": "The description uses ambiguity (\"might have been only pride\") to mirror the ambiguity of his success. The \"sharp features\" and \"receding hair\" suggest a man worn by struggle, while the \"smart eye-glasses\" and \"thin-lipped\" mouth indicate a constructed persona. The physical \"line\" of the mouth becomes a metaphor for the rigid ethical line he crossed (the forger incident). A weak answer lists the adjectives without explaining the *function* of the ambiguity, missing the author's technique of characterization through equivocation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: *\"Uncle Srinath is the villain of the story because he exploits Satyajit.\"* Defend or refute using textual evidence.",
+     "a": "Refute. Srinath is a product of a socio-economic system where \"daughter crisis\" forces dependence on patrons. His \"booming chorus\" and \"blind-man's staff\" metaphors reveal genuine communal reliance, not malice. He panics when the \"millionaire\" cannot pay, showing fear of social ruin, not greed. The text critiques the *system* of patronage (\"give-and-take\"), not the individual. A wrong answer judges the character morally without analyzing the structural pressure (dowry, village economy) the author uses him to represent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"Talking about the Text\" discussion question for this chapter that requires evaluating the author's narrative perspective. Write the question only.",
+     "a": "*\"The story is narrated entirely from Satyajit’s limited third-person perspective. How would the meaning of the 'benediction' scene change if narrated from Uncle Srinath’s perspective or an omniscient narrator? Justify with two specific textual shifts.\"* A poor question would be factual (\"What did Srinath say?\") or opinion-based (\"Do you like Srinath?\"), revealing the student cannot distinguish between *content* and *narrative technique*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

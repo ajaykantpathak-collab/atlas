@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_008",
+   "title": "c11_psy_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the Gestalt principle that explains why we perceive the Olympic rings as five interlaced circles rather than as nine separate curved line segments.",
+     "a": "The principle is **Continuity** (or Good Continuation). We perceive each ring as a continuous circular contour because the visual system prefers smooth, unbroken paths over abrupt changes in direction. A wrong answer (e.g., \"Proximity\" or \"Similarity\") reveals that the student confuses spatial closeness or shared shape with the specific tendency to follow the smoothest continuing path; they have not distinguished between grouping by nearness and grouping by contour continuation.",
+     "self_check": true
+    },
+    {
+     "q": "In Rubin's vase-face figure, the white central region can be seen either as a vase (figure) or as the background for two black faces (figure). Explain, using the characteristics of figure-ground segregation listed in the textbook, why the perception reverses rather than settling on one interpretation.",
+     "a": "The figure-ground segregation characteristics (definite form, organisation, clear contour, standing out, appearing nearer) are satisfied **equally well by both the white and the black regions**. The white region has a definite vase-like form, clear contour, and appears nearer when attended; the black region simultaneously has a definite face-like form, clear contour, and appears nearer when attended. Because neither region dominates on these criteria, the perceptual system alternates. A wrong answer that claims \"the vase is the real figure\" or \"the faces are the background\" reveals the misconception that figure-ground assignment is fixed by the stimulus rather than being a dynamic perceptual decision.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher draws two rows of 10 dots each on the board. In Row A, the dots are evenly spaced 2 cm apart. In Row B, the dots are grouped into pairs: each pair is 0.5 cm apart, but the gap between pairs is 3 cm. Predict how a student will perceptually organise each row and name the principle responsible.",
+     "a": "Row A (uniform 2 cm spacing) will be seen as **a single line of 10 dots** because no subgrouping cue exists. Row B (0.5 cm within pairs, 3 cm between pairs) will be seen as **five distinct groups of two dots each**. The principle is **Proximity**: elements closer together in space are grouped together. A wrong answer predicting \"10 separate dots in Row B\" or \"one group in Row B\" shows the student has not grasped that proximity operates relatively—the critical factor is the *ratio* of within-group to between-group distance, not absolute distance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principles of **Similarity** and **Proximity** when they are pitted against each other. Describe a stimulus display where they conflict, and predict which principle will dominate under (a) high similarity / low proximity difference, and (b) low similarity / high proximity difference.",
+     "a": "Display: A grid of alternating circles and squares (checkerboard) where horizontal spacing = vertical spacing = 2 cm.  \n(a) If circles are red and squares are blue (high similarity within shape, low proximity difference because horizontal = vertical distance), **Similarity dominates** → vertical columns of same shape are seen.  \n(b) If all items are black but horizontal spacing = 1 cm and vertical spacing = 4 cm (low similarity, high proximity difference), **Proximity dominates** → horizontal rows are seen.  \nA wrong answer that claims one principle always wins reveals the misconception that Gestalt principles are rigid hierarchies rather than context-dependent biases whose relative strength depends on the magnitude of the cues.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The principle of Closure proves that perception is purely bottom-up because the mind automatically fills gaps in the stimulus.\" Use the concept of top-down processing to critique this claim.",
+     "a": "The claim is **false**. Closure demonstrates **top-down influence**: the perceiver's prior knowledge of \"triangle-ness\" or \"circle-ness\" drives the completion of the fragmented contour. If perception were purely bottom-up, the three disconnected angles in Fig. 4.10 would remain three angles; the emergent triangle arises because the cognitive system matches the input to a stored schema. A wrong answer agreeing with the claim reveals confusion between \"automatic\" (fast, unconscious) and \"bottom-up\" (data-driven); closure is automatic *but* schema-driven, hence top-down.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel 2×2 stimulus array (describe it verbally) that would allow a researcher to test whether **Symmetry** or **Surroundedness** is the stronger grouping principle. Specify the predicted outcome if Symmetry dominates and if Surroundedness dominates.",
+     "a": "Array: Four quadrants. Top-left: a symmetrical black diamond centred in a white square. Top-right: an asymmetrical black blob centred in a white square. Bottom-left: a white diamond centred in a black square (surrounded). Bottom-right: a white blob centred in a black square (surrounded).  \nIf **Symmetry dominates**: Top-left and bottom-left (both symmetrical) group together despite opposite polarity.  \nIf **Surroundedness dominates**: Top-left and top-right (both figure-on-ground) group together, and bottom-left and bottom-right (both ground-with-hole) group together.  \nA poor answer that merely lists principles without a concrete conflicting display shows inability to operationalise theoretical constructs for empirical test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

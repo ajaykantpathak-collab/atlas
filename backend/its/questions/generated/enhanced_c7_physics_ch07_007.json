@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_007",
+   "title": "c7_physics_ch07_007",
+   "questions": [
+    {
+     "q": "What is the numerical pH value of a purely neutral substance like pure distilled water at room temperature?",
+     "a": "The correct pH value of a purely neutral substance is 7. If a student answers 0 or 14, it shows a fundamental confusion between the extremes of the scale and the central neutral point.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a substance with a pH value of 2 is considered a much stronger acid than a substance with a pH value of 5.",
+     "a": "A pH of 2 represents a much higher concentration of acidic hydrogen ions compared to a pH of 5, because the pH scale moves inversely with acid strength. If a student states that 5 is stronger because \"5 is a bigger number than 2,\" they are failing to understand that lower numbers on the pH scale denote higher acidity.",
+     "self_check": true
+    },
+    {
+     "q": "If a chemical solution in a school laboratory in Delhi has a measured pH of 11, classify the solution as acidic, basic, or neutral, and state whether it would turn universal indicator paper red, green, or blue-violet.",
+     "a": "Steps: \n1. Identify the given pH value: pH = 11. \n2. Compare with the neutral point (7): Since 11 > 7, the solution is basic. \n3. Determine indicator color: Universal indicator turns blue or violet in strong bases (pH 10-14). \n4. Final classification: Basic, with a blue-violet color. \nIf a student classifies it as acidic, they mixed up the two halves of the pH scale (0-7 vs 7-14).",
+     "self_check": true
+    },
+    {
+     "q": "Compare two household solutions: Solution A has a pH of 3, and Solution B has a pH of 6. Which solution is closer to neutral, and by how many pH units do they differ?",
+     "a": "Solution B (pH 6) is closer to neutral (pH 7) because 6 is numerically closer to 7 than 3 is. The difference between them is 3 pH units (6 - 3 = 3). If a student says Solution A is closer, they have inverted the number line understanding relative to the neutral point of 7.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the pH of soapy water and gets a pH of 8, and then measures lemon juice and gets a pH of 2. The student claims that soapy water is a stronger chemical than lemon juice because 8 is greater than 2. Evaluate this claim.",
+     "a": "The student's claim is incorrect because comparing pH requires looking at which side of 7 the substance lies. Lemon juice (pH 2) is a strong acid, and soapy water (pH 8) is a weak base; magnitude alone does not determine \"strength\" without knowing whether the substance is acidic or basic. If a student agrees with the claim, they are treating the pH scale like a simple linear measurement where higher numbers always mean \"more powerful.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple testing procedure using a universal indicator chart to determine whether an unknown clear liquid from your kitchen is a mild acid or a mild base.",
+     "a": "To test the liquid, take a clean glass dropper, place a single drop of the unknown clear liquid onto a strip of universal pH indicator paper, and observe the resulting color change. Match the final color of the indicator paper against the provided standard color-coded pH chart to read the numerical value; if the color corresponds to yellow-orange (pH 4-6), it is a mild acid, whereas if it corresponds to greenish-blue (pH 8-9), it is a mild base. A poor answer would involve tasting the liquid or ignoring safety procedures, which is dangerous in chemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

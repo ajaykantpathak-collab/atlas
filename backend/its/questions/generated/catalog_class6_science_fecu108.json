@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu108.json",
+ "concepts": [
+  {
+   "id": "fecu.8.1",
+   "title": "The Three States of Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three states of water.",
+     "a": "Solid (ice), liquid (water) and gas (water vapour).",
+     "self_check": true
+    },
+    {
+     "q": "How does ice change to water and water to vapour?",
+     "a": "Heating melts ice to water; more heating boils water into vapour.",
+     "self_check": true
+    },
+    {
+     "q": "How does water vapour turn back to liquid?",
+     "a": "On cooling, vapour condenses into water drops (as on a cold lid).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.2",
+   "title": "Evaporation and Condensation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is evaporation?",
+     "a": "A liquid turning into vapour - wet clothes dry as water evaporates.",
+     "self_check": true
+    },
+    {
+     "q": "What is condensation?",
+     "a": "Vapour cooling back into liquid - drops form on a mirror over hot water.",
+     "self_check": true
+    },
+    {
+     "q": "How do evaporation and condensation work together at home?",
+     "a": "Boiling water makes vapour; a cold plate held over it shows drops - a mini water cycle.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.3",
+   "title": "Cooling Effect of Evaporation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does the hand feel cool after sprinkling water?",
+     "a": "Evaporating water takes heat from the skin, cooling it.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we wear cotton in summer?",
+     "a": "Cotton absorbs sweat, and its evaporation cools the body.",
+     "self_check": true
+    },
+    {
+     "q": "Give one more example of cooling by evaporation.",
+     "a": "Earthen pots (matkas) cool water as it seeps out and evaporates.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.8.4",
+   "title": "The Water Cycle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the main steps of the water cycle.",
+     "a": "Evaporation of water, condensation into clouds, rainfall, and flow of water back to seas.",
+     "self_check": true
+    },
+    {
+     "q": "What powers the water cycle?",
+     "a": "The sun - its heat evaporates water and drives winds that move clouds.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the water cycle important for us?",
+     "a": "It renews fresh water on land as rain, feeding rivers, wells and crops.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

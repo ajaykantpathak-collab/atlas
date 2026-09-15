@@ -1,0 +1,225 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 3,
+ "chapter_title": "संवादहीन",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.103.1.1",
+   "title": "ताई-मिट्ठू का संबंध: ममता और संवाद का माध्यम",
+   "section": "1",
+   "definition": "सूने घर में रह गई ताई के लिए गनपत द्वारा लाया गया तोता मिट्ठू केवल पालतू पक्षी नहीं, बातचीत का साथी और ममता का केंद्र बन जाता है; दोनों के बीच राम-राम सीताराम की रट, दिलासे और नोक-झोंक - सब मिलकर अकेलेपन के खंडहर को रौनक से भर देते हैं।",
+   "formula": "-",
+   "key_idea": "संवाद के बिना जीवन खंडहर है - मिट्ठू उसी संवाद का द्वार बनता है।",
+   "textbook_ref": "ihga103.txt lines 17-50 (पाठ-प्रस्तावना और ताई-मिट्ठू की बातचीत के प्रसंग)",
+   "question_patterns": [
+    "Taai aur Mitthu ka sambandh kis bhav ko darshata hai",
+    "Mitthu Taai ke liye kewal tota kyon nahi tha",
+    "Taai ki sari mamta Mitthu par kyon baras padi",
+    "Mitthu Taai ke akelapan ko kaise sahara deta hai",
+    "Taai aur Mitthu ki nok-jhonk ka varnan kijiye",
+    "manushya aur pakshi ke sambandh ko ye kahani kaise dikhati hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संबंध का आधार पहचानिए",
+     "explain": "सूनेपन और पिंजरे की बंदी - दोनों की दशा एक-दूसरे का सहारा बनती है।"},
+    {"step": 2, "action": "उदाहरण जोड़िए",
+     "explain": "'कटेगी! कटेगी!' का दिलासा और 'खुश रहो' का आशीर्वाद इसके प्रमाण हैं।"},
+    {"step": 3, "action": "अर्थ निकालिए",
+     "explain": "मिट्ठू ताई के बुढ़ापे का सहारा और बड़े घर की रौनक बन जाता है।"}
+   ]
+  },
+  {
+   "id": "ihga.103.1.2",
+   "title": "ताई का अकेलापन और पलायन की विसंगति",
+   "section": "1",
+   "definition": "कहानी गाँव के एक समृद्ध परिवार के बिखराव की कहानी भी है - बहू-बेटे गाँव का मोह छोड़कर शहर बस गए, बेटियाँ अपनी गृहस्थी में रम गईं और विशाल घर सूना खंडहर बन गया; बुढ़ापे में ताई को कोई आधार न बचना समकालीन ग्रामीण जीवन की सबसे बड़ी विसंगति है।",
+   "formula": "-",
+   "key_idea": "शहरों की ओर पलायन ने गाँव के बुजुर्गों को संवादहीन जीवन थमा दिया है।",
+   "textbook_ref": "ihga103.txt lines 30-38 (बड़े घर का सूनापन और परिवार का बिखराव)",
+   "question_patterns": [
+    "Taai ke jeevan ke dukh ka mukhya karan kya tha",
+    "bade ghar ko soona khandhar kyon kaha gaya hai",
+    "bahu-bete gaon ka moh chhodkar kahan chale gaye aur kyon",
+    "gaon se sehar palayan ke parinam kahani mein kaise dikhte hain",
+    "vriddh stree ke akelapan ki kahani kaisi chhavi deta hai",
+    "samaj ki kis visangati ko ye kahani ujagart karti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "घटना-क्रम याद कीजिए",
+     "explain": "पूत-परिवार, नौकर-चाकर और कारबार - सब धीरे-धीरे पराए हाथों में चला गया।"},
+    {"step": 2, "action": "कारण जोड़िए",
+     "explain": "खेती-बाड़ी और कारबार बंद होने से युवा पीढ़ी शहरों की ओर खिंच गई।"},
+    {"step": 3, "action": "यथार्थ से जोड़िए",
+     "explain": "ताई की स्थिति आज के गाँवों में छूटे हुए बुजुर्गों का प्रतीक है।"}
+   ]
+  },
+  {
+   "id": "ihga.103.1.3",
+   "title": "मिट्ठू की उड़ान: पिंजरे की आदत बनाम स्वतंत्रता की चाह",
+   "section": "1",
+   "definition": "जगन मास्टर ने दरवाजा खोलकर मिट्ठू को आजादी देने का प्रयास किया, पर मिट्ठू पिंजरे की आदत के कारण बाहर आने में रुका रहा; रोशनदान से अंततः उड़ जाना दिखाता है कि स्वतंत्रता की चाह भीतर दबी सोती रहती है और सही मौका मिलते ही जाग उठती है।",
+   "formula": "-",
+   "key_idea": "बंदिश की आदत स्वतंत्रता की माँग को दबा देती है, पर खत्म नहीं करती।",
+   "textbook_ref": "ihga103.txt lines 121-155 (पिंजरा खोलना, अनाज बिखेरना, रोशनदान से उड़ना)",
+   "question_patterns": [
+    "Mitthu ka ud jana kis vichar ko prastut karta hai",
+    "Mitthu pinjre mein rahne ka aadi kaise ho gaya",
+    "Jagan Master ne Mitthu ko aazad karne ka prayas kyon kiya",
+    "rosandan se udne wala prasang kya sanket deta hai",
+    "bandish ki aadat aur swatantrata ki chah ka dwandva samjhaiye",
+    "kya prani pinjre mein rahne ke aadi ho sakte hain - apna mat dijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों पक्ष पहचानिए",
+     "explain": "एक ओर दाने-पानी की सुरक्षित बंदिश, दूसरी ओर खुला आकाश।"},
+    {"step": 2, "action": "मोड़ की घटना बताइए",
+     "explain": "तिरछी आँख से रोशनदान को देखना ही आजादी की चेतना जगाता है।"},
+    {"step": 3, "action": "प्रतीक उभारिए",
+     "explain": "मिट्ठू की उड़ान दबे हुए स्वतंत्र-चेतन का प्रतीक है।"}
+   ]
+  },
+  {
+   "id": "ihga.103.1.4",
+   "title": "जगन मास्टर का व्यक्तित्व: आदर्शवाद और नैतिक दायित्व",
+   "section": "1",
+   "definition": "जगन मास्टर स्वतंत्र विचारों वाले, किसी को कष्ट न पहुँचाने की चिंता रखने वाले आदर्शवादी व्यक्ति हैं; पिंजरे में बंद मिट्ठू को देख उन्हें अपराध-बोध होता है और कमरा बंद करके उसे खुली हवा देकर वे अपने पाप का प्रायश्चित करना चाहते हैं - अंत में नया तोता पढ़ाते-पढ़ाते उनका गला सूख जाता है।",
+   "formula": "-",
+   "key_idea": "सच्चा आदर्शवादी दूसरों की स्वतंत्रता में अपना कल्याण समझता है।",
+   "textbook_ref": "ihga103.txt lines 111-181 (जगन मास्टर के सिद्धांत और नए तोते को पढ़ाने का दौर)",
+   "question_patterns": [
+    "Jagan Master ka vyaktitv kaisa tha - udaharan dekar spast kijiye",
+    "Jagan Master ko pinjra kholne par apradhbodh kyon hua",
+    "prayashchit ki bhavna Jagan Master ke charitra ka kya darshati hai",
+    "Jagan Master naye tote ko padhane ka niyam kyon banate the",
+    "adrashvadi ke haathon ke sabhi tote ud gaye - is kathan ka kya matlab hai",
+    "mastarain ne pati se salah liye bina bhar kyon uthaya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "चरित्र के सिद्धांत गिनाइए",
+     "explain": "नियम-सिद्धांत, दूसरों की स्वतंत्रता का सम्मान और कष्ट-परिहार उनकी पहचान है।"},
+    {"step": 2, "action": "कृति से पुष्टि कीजिए",
+     "explain": "पिंजरा खोलकर हवा देना और स्वयं को दोषी मानना इसका प्रमाण है।"},
+    {"step": 3, "action": "विरोधाभास उभारिए",
+     "explain": "आजादी देने वाला आदमी अंत में नए तोते को बांधकर रट लगाता है - यही चरित्र की वेदना है।"}
+   ]
+  },
+  {
+   "id": "ihga.103.1.5",
+   "title": "'संवादहीन' शीर्षक की सार्थकता और कहानी का अंत",
+   "section": "1",
+   "definition": "शीर्षक 'संवादहीन' उस मौन का प्रतीक है जो कहानी के अंत में छा जाता है - ताई लौटकर एवजी तोते को पहचान नहीं पातीं, उसकी हरकतहीन चुप्पी देखकर वे अपने सूनेपन के साथी को गुहारती रह जाती हैं; कहानी का यह अंत मुक्त, यथार्थवादी और दुखद - तीनों रूपों में समझा जा सकता है।",
+   "formula": "-",
+   "key_idea": "संवाद टूटने पर रिश्ते पहचान खो बैठते हैं - यही शीर्षक का गहरा भावार्थ है।",
+   "textbook_ref": "ihga103.txt lines 182-188 (ताई की वापसी और एवजी मिट्ठू की चुप्पी)",
+   "question_patterns": [
+    "sanvaadheen shirsak kiske liye sabse adhik sarthak lagta hai",
+    "taai laute par naya tota koi harakat kyon nahi karta",
+    "kahani ke ant ko kis shreni mein rakha ja sakta hai - karan dijiye",
+    "shirsak sanvaadheen ka bhavarth apne shabdon mein likhiye",
+    "evaji mitthu aur asli mitthu mein kya antar tha",
+    "kahani ka ant apne shabdon mein likhkar uska sandesh batayiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "अंतिम दृश्य याद कीजिए",
+     "explain": "ताई की गुहार के बदले नए तोते की निरुत्तर चुप्पी ही कहानी का चरम है।"},
+    {"step": 2, "action": "शीर्षक से जोड़िए",
+     "explain": "जिस संवाद ने जीवन भर गया, उसके थम जाने पर शीर्षक सार्थक हो उठता है।"},
+    {"step": 3, "action": "अंत-भेद बताइए",
+     "explain": "स्पष्ट समाधान के बिना छूटा अंत इसे मुक्त अंत भी कहते हैं और यथार्थवादी भी।"}
+   ]
+  },
+  {
+   "id": "ihga.103.2.1",
+   "title": "कहानी के अंत के प्रकार",
+   "section": "2",
+   "definition": "कहानी अनेक ढंगों से समाप्त हो सकती है - सुखांत (प्रसन्नता-सफलता से), दुखांत (वियोग-हानि से), मुक्त अंत (सोचने के लिए छोड़ देना), अप्रत्याशित अंत (अचानक मोड़), यथार्थवादी अंत (जीवन-सच्चाई जैसा), प्रेरणात्मक अंत (सकारात्मक सोच देना) और व्यंग्यात्मक अंत (कटाक्ष से सत्य प्रकट करना)।",
+   "formula": "-",
+   "key_idea": "अंत का भेद तय करता है कि पाठक कहानी से कैसा अनुभव लेकर उठेगा।",
+   "textbook_ref": "ihga103.txt lines 325-345 (कहानी का अंत - सात प्रकार)",
+   "question_patterns": [
+    "kahani ke ant ke kaun kaun se prakar hote hain",
+    "sukhant aur dukhant mein kya antar hai - udaharan dijiye",
+    "mukt ant se kya tatyap hota hai",
+    "apratyashit ant kiske kahate hain",
+    "vyangyatmak ant kaise satya ka kataskh karta hai",
+    "sanvaadheen ka ant kis shreni mein aata hai - karan likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "भेद-सूची याद कीजिए",
+     "explain": "सात प्रमुख भेद हैं - सुखांत से व्यंग्यात्मक अंत तक।"},
+    {"step": 2, "action": "पहचान-संकेत रखिए",
+     "explain": "अंत की भाव-धारा देखकर भेद तय कीजिए - हानि, मोड़, प्रेरणा या कटाक्ष।"},
+    {"step": 3, "action": "पाठ पर लागू कीजिए",
+     "explain": "'संवादहीन' का खुला दुखद अंत बहस का विषय बनता है।"}
+   ]
+  },
+  {
+   "id": "ihga.103.2.2",
+   "title": "अर्थ के आधार पर वाक्य-भेद",
+   "section": "2",
+   "definition": "अर्थ के आधार पर वाक्य के आठ भेद हैं - विधानवाचक (कथन), निषेधवाचक (मना), प्रश्नवाचक (पूछताछ), विस्मयादिबोधक (आश्चर्य), आज्ञावाचक (आदेश-आग्रह), इच्छावाचक (कामना), संदेहवाचक (शंका) और संकेतवाचक (दूसरी बात पर निर्भरता) - जैसे 'जीते रहो बेटा' इच्छावाचक है और 'मिट्ठू ने कोई हरकत नहीं की' निषेधवाचक।",
+   "formula": "-",
+   "key_idea": "वाक्य का उद्देश्य देखकर ही उसका भेद तय होता है - कथन, मना, प्रश्न या कामना।",
+   "textbook_ref": "ihga103.txt lines 458-514 (व्याकरण खंड: अर्थ के आधार पर वाक्य-भेद तालिका)",
+   "question_patterns": [
+    "arth ke aadhar par vakya ke bhed likhiye",
+    "vidhanvachak aur nishedhvachak vakya mein kya antar hai",
+    "ichchhavachak vakya kya hota hai - udaharan dijiye",
+    "vismayadibodhak vakya ka ek udaharan path se chuniye",
+    "sandehvachak aur sanketvachak vakya ki pehchan kya hai",
+    "agyavachak vakya se kya abhipray hai - udaharan likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "उद्देश्य पहचानिए",
+     "explain": "वाक्य क्या कर रहा है - बता, मना, पूछ या कामना - यही आधार है।"},
+    {"step": 2, "action": "चिह्न और शब्द देखिए",
+     "explain": "क्या-कैसे जैसे शब्द और विस्मय चिह्न भेद-पहचान में सहायक होते हैं।"},
+    {"step": 3, "action": "भेद नामित कीजिए",
+     "explain": "आठ भेदों में से उचित नाम रखकर उदाहरण से पुष्टि कीजिए।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "ihga103.txt lines 194-225 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "कहानी में ताई और मिट्ठू का संबंध किस भाव को दर्शाता है?",
+    "जगन मास्टर द्वारा मिट्ठू को पिंजरे से बाहर निकालना किस भावना या मूल्य का संकेत देता है?",
+    "मिट्ठू का उड़ जाना किस विचार को प्रस्तुत करता है?",
+    "ताई के जीवन के दुख का मुख्य कारण क्या था?",
+    "कहानी में मानव-समाज में व्याप्त किस विसंगति को उजागर किया गया है?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "ihga103.txt lines 226-241 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "ताई 'भगवान! कैसे नैय्या पार लगेगी?' कहकर किस नैय्या की बात कर रही हैं और क्यों?",
+    "ताई के व्यक्तित्व में मिट्ठू आने के बाद क्या-क्या परिवर्तन आए?",
+    "कहानी का शीर्षक 'संवादहीन' किसके लिए सबसे अधिक सार्थक है - कारण सहित स्पष्ट कीजिए।",
+    "ताई के बड़े से घर को सूना खंडहर क्यों कहा गया होगा?"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "ihga103.txt lines 404-460 (व्याकरण की बात - शब्द-युग्म और वाक्य-भेद)",
+   "questions": [
+    "शब्द-युग्म क्या होते हैं? पुनरुक्त, सजातीय, समानार्थक और विपरीतार्थक युग्मों के उदाहरण दीजिए।",
+    "वक्त-बेवक्त, तीज-त्योहार जैसे युग्मों का अर्थ स्पष्ट करते हुए वाक्य बनाइए।",
+    "पाठ से प्रत्येक प्रकार का एक-एक वाक्य चुनकर उनके भेद लिखिए।"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_011",
+   "title": "c11_phy_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the definition of a parsec and what is its approximate value in meters?",
+     "a": "A parsec is the distance at which 1 astronomical unit (AU) subtends an angle of 1 arcsecond. 1 parsec ≈ 3.086 × 10¹⁶ m. A wrong answer (e.g., confusing parsec with light-year, or stating the angle is 1 degree) reveals the student has not connected the geometric definition to the unit used in astronomy.",
+     "self_check": true
+    },
+    {
+     "q": "Why do astronomers use the Earth's orbital radius (1 AU) as the baseline for stellar parallax instead of a larger baseline like the Earth's diameter?",
+     "a": "The Earth's diameter (~1.3 × 10⁷ m) gives a parallax angle too small to measure even for the nearest stars (proxima Centauri parallax ~0.77 arcsec with 2 AU baseline; with Earth diameter it would be ~10⁻⁵ arcsec, far below detection limits). The orbital radius provides a baseline ~23,000 times larger, making angles measurable. A wrong answer indicates the student does not understand the relationship between baseline length, distance, and measurable angle.",
+     "self_check": true
+    },
+    {
+     "q": "A star has a measured parallax angle of 0.25 arcseconds. Calculate its distance in parsecs and in meters. (1 AU = 1.496 × 10¹¹ m, 1 arcsec = 4.848 × 10⁻⁶ rad)",
+     "a": "Step 1: Distance in parsecs = 1 / p(arcsec) = 1 / 0.25 = 4 pc.\nStep 2: Convert to meters: 4 pc × 3.086 × 10¹⁶ m/pc = 1.234 × 10¹⁷ m.\nAlternatively using d = b/θ: b = 1 AU = 1.496 × 10¹¹ m, θ = 0.25 × 4.848 × 10⁻⁶ = 1.212 × 10⁻⁶ rad.\nd = 1.496 × 10¹¹ / 1.212 × 10⁻⁶ = 1.234 × 10¹⁷ m. A wrong answer (e.g., forgetting to convert arcsec to rad, or using 2 AU as baseline) shows unit conversion or baseline confusion.",
+     "self_check": true
+    },
+    {
+     "q": "The Hipparcos satellite measured parallax angles with precision of about 1 milliarcsecond (mas). What is the maximum distance (in parsecs) at which a star's distance can be determined with 10% relative error using Hipparcos data? Explain your reasoning.",
+     "a": "Relative error in distance Δd/d ≈ Δp/p (since d ∝ 1/p). For 10% error, Δp/p = 0.1. With Δp = 1 mas = 0.001 arcsec, we need p = Δp/0.1 = 0.01 arcsec. Maximum distance = 1/p = 1/0.01 = 100 pc. A wrong answer (e.g., using Δp directly as p, or ignoring the inverse relationship) reveals the student cannot propagate errors through the reciprocal relation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we observe a star from two points on Earth's surface separated by 10,000 km, we can measure its parallax and find its distance.\" Evaluate this claim for a star at 10 pc. Is the claim practically feasible? Justify with calculations.",
+     "a": "Baseline b = 10,000 km = 10⁷ m. Distance d = 10 pc = 3.086 × 10¹⁷ m. Parallax angle θ = b/d = 10⁷ / 3.086 × 10¹⁷ = 3.24 × 10⁻¹¹ rad = 6.7 × 10⁻⁶ arcsec (microarcseconds). Current best ground-based telescopes resolve ~0.01 arcsec (10 mas); space telescopes (Gaia) reach ~0.02 mas. The required precision is 1000× better than Gaia. Claim is not feasible. A wrong evaluation shows the student cannot estimate orders of magnitude or connect instrumental limits to physical requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom demonstration using a smartphone camera and two observation points to simulate stellar parallax. Specify the baseline, the \"star\" distance, how to measure the parallax angle from photos, and how to calculate the distance. What are the limitations of this model compared to real astronomical parallax?",
+     "a": "Place a small LED (\"star\") 5 m away. Take photos from two positions 1 m apart (baseline). On the photos, measure the pixel shift of the LED relative to a distant background wall. Calibrate pixel-to-angle using the camera's field of view. Compute θ (rad) = pixel_shift × (FOV_rad / image_width_px). Then d = b/θ. Limitations: (1) Baseline/star distance ratio is huge compared to astronomy (1/5 vs 1 AU/1 pc ≈ 1/206265), so angle is large and small-angle approximation not needed. (2) Background wall is not at infinity, introducing its own parallax. (3) Lens distortion and pixel quantization errors dominate. A poor design ignores calibration or background distance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

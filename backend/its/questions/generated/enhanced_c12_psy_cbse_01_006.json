@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_006",
+   "title": "c12_psy_cbse_01_006",
+   "questions": [
+    {
+     "q": "Name the three components of Sternberg's Triarchic Theory and give the alternative label used in the NCERT text for each (e.g., Componential = Analytical).",
+     "a": "The three components are: Componential (Analytical), Experiential (Creative), and Contextual (Practical). A wrong answer that swaps labels (e.g., calling Experiential \"Analytical\") reveals the student has memorized the names but not their functional meanings — a common error when students treat the theory as a list rather than a process model.",
+     "self_check": true
+    },
+    {
+     "q": "A student memorizes a new formula by linking it to a familiar physics derivation, plans which problems to practice first, and then solves them quickly. Identify which sub-component of Componential intelligence each action represents.",
+     "a": "Memorizing by linking = Knowledge-acquisition component; planning practice order = Meta (higher-order) component; solving quickly = Performance component. If a student assigns \"planning\" to performance, they confuse executive control with execution — a critical distinction because meta-components monitor and direct performance components.",
+     "self_check": true
+    },
+    {
+     "q": "Riya has never baked a cake. She watches a video, realizes the oven temperature in the recipe is for a conventional oven but she has a convection oven, so she reduces the temperature by 20°C and checks five minutes early. The cake is perfect. Which triarchic intelligence is primarily demonstrated? Justify in one sentence.",
+     "a": "Experiential (Creative) intelligence — she used past experience (watching the video) to novelly adapt the recipe for a new appliance. A wrong answer of \"Componential\" shows the student equates any problem-solving with analytical intelligence, missing that experiential intelligence specifically handles novelty and automation of new tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Componential and Contextual intelligence would approach the same challenge: \"You have two hours to prepare for an unexpected test on a chapter you haven't read.\" List two distinct strategies for each.",
+     "a": "Componential: (1) Break chapter into sub-topics, allocate time per sub-topic, (2) Use meta-component to monitor recall after each section. Contextual: (1) Ask a classmate which topics the teacher emphasizes, focus only on those, (2) If time runs out, negotiate a retest or extra credit. A response that lists only study techniques for both reveals failure to see contextual intelligence as environment-shaping (selecting/modifying the situation) rather than task-analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Sternberg's Contextual intelligence is just 'street smarts' and therefore less important than Componential intelligence for academic success.\" Use evidence from the theory.",
+     "a": "The claim is flawed because Sternberg defines Contextual intelligence as adaptation, shaping, AND selection of environments — all vital in academics (e.g., selecting the right elective, shaping a study group, adapting to a new syllabus). Dismissing it ignores that real-world success (including academic) requires all three; the theory explicitly states they interact. A student agreeing with the claim shows a hierarchical bias from g-factor thinking, not triarchic integration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute classroom activity that lets Class 12 students experience the difference between Experiential and Contextual intelligence. Describe the task, the expected two types of responses, and how you would debrief.",
+     "a": "Task: \"Your group has 5 minutes to build the tallest free-standing tower using only 20 straws and tape. The tower must survive a 10-second fan blow.\" Experiential responses: novel structural designs (e.g., tripod base, guy-wires). Contextual responses: testing the fan early, reinforcing weak spots, or moving the tower to a sheltered corner. Debrief: label each group's actions. A poor answer describes only the building process without distinguishing novelty-use (experiential) from environment-management (contextual).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

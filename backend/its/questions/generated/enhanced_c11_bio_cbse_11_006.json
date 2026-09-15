@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_006",
+   "title": "c11_bio_cbse_11_006",
+   "questions": [
+    {
+     "q": "State the exact substrates and products of the RuBisCO oxygenase reaction, including the carbon number of each product molecule.",
+     "a": "RuBP (5C) + O2 → 3-PGA (3C) + 2-phosphoglycolate (2C). A wrong answer (e.g., naming RuBP + CO2 as substrates, or producing two 3-PGA molecules) reveals confusion between carboxylase and oxygenase activities — the student has not internalised that the same enzyme catalyses two competing reactions with different substrates.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why phosphoglycolate (2-PG) cannot directly enter the Calvin cycle and must be metabolised through the photorespiratory pathway.",
+     "a": "2-PG is a 2-carbon compound with no known metabolic pathway for direct carbon fixation in the Calvin cycle, which only accepts 3-PGA (3C) or RuBP (5C). Accumulation of 2-PG inhibits triose phosphate isomerase and other Calvin cycle enzymes. A wrong answer (e.g., \"2-PG enters Calvin cycle directly\" or \"it is excreted\") shows the student misunderstands metabolic channeling — they haven't grasped that plants evolved a salvage pathway precisely because 2-PG is toxic and carbon must be recovered.",
+     "self_check": true
+    },
+    {
+     "q": "A C3 plant and a C4 plant are exposed to 42°C, high light, and ambient CO2 (400 ppm). Predict which plant will show higher net photosynthetic rate and trace the biochemical basis through RuBisCO kinetics.",
+     "a": "C4 plant will have higher net photosynthesis. At 42°C, solubility of CO2 decreases more than O2, lowering CO2/O2 ratio in mesophyll. In C3 plants, RuBisCO oxygenase activity increases, photorespiration consumes ATP and releases CO2. In C4 plants, PEP carboxylase (high CO2 affinity, no O2 affinity) fixes CO2 in mesophyll; C4 acids transport CO2 to bundle sheath where decarboxylation creates high [CO2], suppressing RuBisCO oxygenase activity. Wrong prediction indicates failure to integrate temperature effects on gas solubility with enzyme kinetics and anatomical adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ATP and NADPH cost per net CO2 fixed in C3 vs C4 plants when photorespiration is active (assume 25% oxygenation:carboxylation ratio in C3). Show calculations.",
+     "a": "C3: For 4 carboxylations (4 CO2 fixed) + 1 oxygenation → 5 RuBP consumed. Oxygenation produces 1 2-PG requiring 3.5 ATP + 2 NADPH to recover 0.5 CO2 (glycine decarboxylase releases 0.5 CO2 per 2-PG). Net: 3.5 CO2 fixed per 5 RuBP. Cost per net CO2 = (5×3 ATP + 5×2 NADPH + 3.5 ATP) / 3.5 = 5.5 ATP + 2.86 NADPH. C4: Additional 2 ATP per CO2 for C4 cycle. Total = 5 ATP + 2 NADPH. C4 is more efficient under photorespiratory conditions. Wrong calculation reveals inability to account for carbon loss during glycolate salvage and extra C4 cycle cost.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Photorespiration is a completely wasteful process with no biological significance; plants would be better off without it.\"",
+     "a": "The statement is incomplete. While photorespiration reduces photosynthetic efficiency under current atmosphere, it may serve as: (1) energy dissipation mechanism under high light/low CO2 preventing photoinhibition, (2) source of glycine/serine for protein synthesis, (3) maintenance of redox balance by consuming excess NADPH/ATP, (4) possible role in nitrogen assimilation (glycine decarboxylase releases NH3). A purely negative evaluation shows the student hasn't considered evolutionary context — RuBisCO's oxygenase activity is a relic of its origin in high-CO2 Precambrian atmosphere, and complete elimination may have pleiotropic costs.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using 14CO2 and 18O2 labelling to distinguish whether CO2 released during photorespiration originates from the carboxyl group of glycine or from the Calvin cycle intermediate.",
+     "a": "Feed 14CO2 to illuminate leaf, then chase with 18O2 in dark. Isolate glycine and measure 14C/18O in released CO2. If CO2 from glycine decarboxylase (mitochondria) carries 14C label from previous fixation, it confirms glycine as source. If unlabelled, CO2 comes from other pools. Expected result: 14CO2 released in light after 18O2 exposure confirms glycine decarboxylation as major photorespiratory CO2 source. Poor design (e.g., no chase period, measuring only total CO2) reveals misunderstanding of isotopic tracer kinetics and compartmentalisation of photorespiratory enzymes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

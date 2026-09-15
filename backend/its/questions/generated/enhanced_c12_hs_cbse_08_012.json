@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_012",
+   "title": "c12_hs_cbse_08_012",
+   "questions": [
+    {
+     "q": "What is the primary reason for aligning pattern pieces with the fabric grain line before cutting?",
+     "a": "Correct answer: To ensure the garment hangs correctly and maintains its shape during wear and washing, because the grain line follows the warp (lengthwise) threads which have minimal stretch. A wrong answer (e.g., \"to save fabric\" or \"to make cutting easier\") reveals the student confuses grain alignment with layout economy or convenience, ignoring the structural role of grain in fit and drape.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses a short stitch length (1.5 mm) on a heavy denim seam and the fabric puckers. Explain why this happens and what stitch length would be more appropriate.",
+     "a": "Correct answer: Short stitches on thick fabric cause excessive needle penetration, pulling the fabric layers unevenly and creating puckering; a longer stitch (3–4 mm) reduces needle holes and allows the feed dogs to move the thick layers smoothly. A wrong answer (e.g., \"increase tension\" or \"use a finer needle\") shows the student doesn't understand the interaction between stitch length, fabric thickness, and feed mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "You are constructing a silk blouse with a curved neckline. Which seam finish would you choose and why? Provide the steps to execute it.",
+     "a": "Correct answer: French seam — it encloses raw edges neatly without adding bulk, ideal for sheer/lightweight fabrics. Steps: 1) Pin wrong sides together, stitch 6 mm from edge. 2) Trim to 3 mm. 3) Press seam open, then fold right sides together enclosing raw edge. 4) Stitch 1 cm from folded edge. 5) Press to one side. A wrong answer (e.g., \"zigzag stitch\" or \"pinking shears\") indicates the student doesn't match finish to fabric weight and transparency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a flat-felled seam and a French seam in terms of bulk, suitability for heavy fabrics, and typical applications. Which would you use for a men's denim jeans side seam and why?",
+     "a": "Correct answer: Flat-felled seam has two visible rows of stitching on the right side, is strong and low-bulk for heavy fabrics like denim; French seam is enclosed, best for light/sheers. For denim jeans side seam, flat-felled is standard because it withstands stress and lies flat. A wrong answer (choosing French seam for denim) shows inability to evaluate seam properties against fabric weight and end-use.",
+     "self_check": true
+    },
+    {
+     "q": "A finished garment shows wavy hems on a circular skirt. Evaluate the likely causes during construction and propose two preventive measures.",
+     "a": "Correct answer: Causes — 1) Hem edge is longer than stitching line (bias stretch not eased), 2) Pressing stretched the bias. Prevention: 1) Stay-stitch hem edge before hemming, 2) Use a narrow hem foot or hand-rolled hem with slight easing, pressing only after stitching. A wrong answer (blaming only fabric quality) misses the construction control points.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step construction sequence for a lined, sleeveless cotton dress with a zipper at the center back. Include cutting layout considerations, seam finishes, pressing points, and zipper insertion method.",
+     "a": "Expected answer: 1) Pre-wash fabric, press. 2) Cut layout: fold fabric selvedge to selvedge, place pattern pieces on grain, maximize width usage. 3) Stay-stitch necklines/armholes. 4) Sew darts, press. 5) Join shoulder seams, finish with overlock, press open. 6) Attach lining to neckline/armholes (bagging method), understitch, press. 7) Sew side seams (dress and lining separately), finish, press. 8) Insert invisible zipper in center back before sewing seam below zipper. 9) Hem dress and lining separately, press. 10) Final press. A poor answer omits stay-stitching, pressing sequence, or zipper insertion timing, revealing lack of procedural synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

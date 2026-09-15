@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_004",
+   "title": "c12_ip_cbse_03_004",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Name the three guided transmission media types covered in the NCERT Class 12 IP syllabus and state one distinguishing physical characteristic of each.",
+     "a": "The three guided media are: (1) Twisted Pair — two insulated copper wires twisted together to cancel electromagnetic interference; (2) Coaxial Cable — a central copper conductor surrounded by dielectric insulator, braided shield, and outer jacket; (3) Optical Fiber — a glass or plastic core that guides light via total internal reflection, with cladding and protective coating.  \nA wrong answer (e.g., listing \"Wi-Fi\" as guided) reveals the student confuses the physical conduit with the signal type. Guided media **always** have a solid physical conductor; unguided media propagate through air/vacuum.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** Explain why twisted pair cables use twisting of the two wires, and describe what happens to crosstalk and EMI susceptibility if the twist rate (twists per meter) is increased.",
+     "a": "Twisting ensures both wires experience nearly identical external electromagnetic fields, so induced noise appears as common-mode voltage that the differential receiver rejects. Increasing twist rate improves cancellation up to a point, reducing crosstalk between adjacent pairs and lowering EMI susceptibility. However, excessive twisting increases cable stiffness, installation difficulty, and capacitance (which can limit high-frequency bandwidth).  \nA wrong answer (e.g., \"twisting increases bandwidth\" or \"twisting prevents signal loss\") shows the student memorizes the fact but doesn't grasp the differential signaling principle. The core concept is **common-mode rejection**, not signal amplification.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A small business needs a 150-meter backbone link between two switches in a building with heavy industrial machinery (strong EMI). They require 10 Gbps throughput and have a moderate budget. Which single guided medium would you recommend? Justify with three technical reasons.",
+     "a": "**Recommendation: Optical Fiber (multimode OM3/OM4).**  \nReasons: (1) **Complete EMI immunity** — glass fiber carries light, not electric current, so industrial motors and welders induce zero noise. (2) **Bandwidth-distance product** — OM4 fiber supports 10 Gbps up to 400 m, comfortably covering 150 m. (3) **Future-proofing** — the same fiber plant can later carry 40/100 Gbps with different transceivers.  \nTwisted pair (Cat6a) would also reach 150 m at 10 Gbps but is vulnerable to EMI in this environment. Coaxial cable lacks standardized 10 Gbps Ethernet support at this distance.  \nA wrong choice (e.g., \"Cat6 UTP because it's cheapest\") ignores the EMI requirement — the student fails to match medium properties to environmental constraints.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the attenuation mechanisms in guided vs. unguided media. For each category, name the dominant loss mechanism and explain how it scales with frequency/distance.",
+     "a": "**Guided media:** Dominant loss is **conductor resistance (I²R) and dielectric absorption**, causing attenuation that increases roughly with √frequency (skin effect) and linearly with distance (dB/km). In fiber, attenuation is due to **absorption (impurities) and Rayleigh scattering**, with a wavelength-dependent minimum around 1550 nm.  \n**Unguided media:** Dominant loss is **free-space path loss (FSPL)**, which scales as 20·log₁₀(distance) + 20·log₁₀(frequency) — i.e., 6 dB per doubling of distance **and** 6 dB per doubling of frequency. Additionally, atmospheric absorption (oxygen/water vapor peaks) and multipath fading cause frequency-selective losses.  \nA wrong answer that says \"both lose signal equally with distance\" misses the fundamental difference: guided media confine energy (loss ∝ length), unguided media spread energy spherically (loss ∝ distance²).",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** \"For a rural broadband deployment covering 20 km with scattered households, satellite internet is always better than laying fiber because fiber has high upfront cost.\" Critique this statement with three technical and economic counter-arguments.",
+     "a": "The statement is **false** for most sustainable deployments. Counter-arguments:  \n1. **Latency:** Geostationary satellite adds ~600 ms round-trip latency (vs. <5 ms for fiber), breaking real-time apps (VoIP, gaming, video conferencing). LEO constellations reduce this but add complexity.  \n2. **Capacity density:** Satellite shares a fixed spectrum across a large beam area (contended bandwidth). Fiber provides dedicated, near-unlimited capacity per household (GPON/XGS-PON).  \n3. **Total Cost of Ownership (TCO):** Fiber has high CAPEX but near-zero OPEX (passive, 25+ year lifespan). Satellite requires ongoing subscription fees, ground station maintenance, and terminal replacement every 5-7 years. Over 15 years, fiber TCO is often lower.  \nA student who agrees with the statement focuses only on initial CAPEX and ignores latency, contention, and long-term economics — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a hybrid network for a university campus with: (a) 500 m between core switches in different buildings, (b) 100 m horizontal runs to 50 access points per building, (c) outdoor Wi-Fi in a 200 m × 300 m quad, and (d) a 5 km link to a remote research farm. Specify the medium for each segment and justify each choice in one sentence.",
+     "a": "**Expected answer (any logically justified combination):**  \n(a) Core inter-building: **Single-mode fiber** — 500 m exceeds multimode 10G limit; SMF supports future 100G upgrades.  \n(b) Horizontal runs: **Cat6a UTP** — 100 m within spec for 10G, cost-effective for dense AP deployment.  \n(c) Outdoor quad: **Wi-Fi 6 (802.11ax) APs on 5 GHz band** — high density, OFDMA efficiency, no licensing needed.  \n(d) Remote farm: **Licensed microwave (E-band 70/80 GHz) or single-mode fiber if terrain permits** — 5 km needs high-capacity dedicated link; microwave avoids trenching cost.  \nA poor answer uses the same medium everywhere (e.g., \"all fiber\" or \"all Wi-Fi\") — the student fails to recognize that **optimal media selection is segment-specific**, balancing distance, bandwidth, mobility, and cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

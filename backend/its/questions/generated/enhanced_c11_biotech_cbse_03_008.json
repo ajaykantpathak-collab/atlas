@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_008",
+   "title": "c11_biotech_cbse_03_008",
+   "questions": [
+    {
+     "q": "What are the three chemical components of a deoxyribonucleotide, and which carbon of the pentose sugar carries the phosphate group in a 5'-monophosphate?",
+     "a": "A deoxyribonucleotide contains a nitrogenous base (A, G, C, or T), a 2'-deoxy-D-ribose pentose sugar, and a phosphate group esterified to the 5' carbon of the sugar. A wrong answer (e.g., saying phosphate is on the 3' carbon or that the sugar is ribose) reveals confusion between DNA and RNA monomers or misunderstanding of the 5'→3' polarity convention used in writing sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a nucleoside cannot be directly incorporated into a growing polynucleotide chain during DNA synthesis, whereas a nucleotide triphosphate can.",
+     "a": "A nucleoside lacks a phosphate group at the 5' carbon, so it cannot form the phosphodiester linkage with the 3'-OH of the preceding nucleotide; nucleotide triphosphates provide the necessary 5'-triphosphate which, after pyrophosphate release, forms the 3'→5' phosphodiester bond. A wrong answer (e.g., \"nucleosides have no energy\" or \"nucleosides lack the base\") shows the student confuses the chemical requirement for bond formation with energy provision or misidentifies the missing component.",
+     "self_check": true
+    },
+    {
+     "q": "Given the structure of cytidine (a nucleoside), draw the structure of the corresponding deoxyribonucleotide 5'-monophosphate (dCMP), clearly showing the β-N-glycosidic bond and the phosphoester bond. Indicate the 3' and 5' carbons.",
+     "a": "The drawing should show: (1) cytosine attached via its N9 to C1' of 2'-deoxyribose (β configuration, base above sugar plane); (2) a phosphate group esterified to the 5' carbon (CH2-O-PO3^2-); (3) a free OH on the 3' carbon; (4) H on the 2' carbon (not OH). Missing the 2'-deoxy distinction or attaching phosphate to 3' carbon reveals confusion between RNA/DNA sugars or 5'/3' polarity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the β-N-glycosidic bond in a nucleoside with the glycosidic bond in a disaccharide (e.g., maltose). How do the participating atoms and the resulting bond polarity differ?",
+     "a": "In a nucleoside, the bond is between the anomeric carbon (C1') of the pentose and a nitrogen atom (N9 of purine or N1 of pyrimidine) — a β-N-glycosidic bond. In maltose, the bond is between the anomeric carbon (C1) of one glucose and the oxygen (O4) of the other glucose — an α-O-glycosidic bond. The nucleoside bond is to nitrogen (N-glycosidic) and is always β; the disaccharide bond is to oxygen (O-glycosidic) and can be α or β. A wrong answer that calls both \"O-glycosidic\" or ignores the nitrogen participation shows failure to distinguish heteroatom vs. oxygen linkages.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since both ATP and dATP are nucleotides with three phosphates, they can be used interchangeably by DNA polymerase.\" Evaluate this statement using structural and functional reasoning.",
+     "a": "The statement is false. ATP contains ribose (2'-OH) while dATP contains 2'-deoxyribose (2'-H). DNA polymerase specifically recognizes the 2'-deoxyribose and discriminates against the 2'-OH of ribonucleotides; incorporating ATP would introduce a ribonucleotide into DNA, altering stability and susceptibility to alkaline hydrolysis. A wrong answer focusing only on the triphosphate energy or base pairing shows the student overlooks the critical 2'-OH/2'-H distinction that defines DNA vs. RNA monomers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical nucleotide analog that could act as a chain terminator in DNA sequencing (like ddNTPs). Specify the modification at the sugar and explain why it prevents further elongation.",
+     "a": "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar. Without a 3'-OH, the incoming nucleotide cannot form a phosphodiester bond (nucleophilic attack by 3'-OH on the α-phosphate of the next dNTP is impossible), terminating chain extension. A poor answer that only removes the 2'-OH (creating a 3'-deoxy analog) or modifies the base shows misunderstanding of the 3'-OH's role as the nucleophile in polymerization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

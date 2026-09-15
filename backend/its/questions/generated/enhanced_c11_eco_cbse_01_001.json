@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_001",
+   "title": "c11_eco_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define \"drain of wealth\" in the context of British India. Identify the three specific channels through which the export surplus was siphoned off without returning as productive investment in India.",
+     "a": "Drain of wealth is the unilateral transfer of India's export surplus to Britain to finance: (i) \"home charges\" (administrative/military expenses of the India Office in London), (ii) British war expenditures (e.g., World Wars, Afghan wars), and (iii) invisible imports (shipping, banking, insurance services). A wrong answer that only mentions \"export surplus\" without specifying the *non-return channels* reveals the student confuses trade surplus with drain — not all export surpluses constitute drain; drain occurs only when the surplus finances colonial obligations rather than domestic capital formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the railways — often cited as a British \"contribution\" — actually intensified colonial exploitation rather than fostering indigenous industrialisation. Use the concepts of *linkage effects* and *freight rate structure* in your answer.",
+     "a": "Railways were built to connect raw-material-producing interiors to ports (not industrial centres to each other), creating *enclave linkages* with zero backward/forward linkages to Indian industry. Freight rates were set to favour British manufactured goods (low rates for finished cotton textiles moving inland) and raw cotton moving to ports, while discriminating against Indian industrial inputs. A wrong answer focusing only on \"railways connected India\" misses the *directionality* and *pricing* design — infrastructure that serves extraction has negative linkage effects for domestic industry.",
+     "self_check": true
+    },
+    {
+     "q": "Given: India's aggregate real output growth (1900-1947) < 2% per annum; per capita output growth ≈ 0.5% per annum; population growth ≈ 1.2% per annum. Calculate the implied annual growth rate of total real output. Then explain why per capita stagnation persisted despite positive aggregate growth.",
+     "a": "Step 1: Let Y = total real output, P = population, y = Y/P = per capita output. Step 2: Growth rate identity: g_Y ≈ g_y + g_P. Step 3: Given g_y ≈ 0.5%, g_P ≈ 1.2%, therefore g_Y ≈ 1.7% (consistent with \"< 2%\"). Step 4: Per capita stagnation occurred because population growth absorbed almost all aggregate output growth — a classic *Malthusian trap* induced by colonial policies that suppressed industrial employment (which would have absorbed labour) while land revenue pressure forced sub-division of holdings. A wrong answer treating 0.5% as \"growth\" misses that it is statistically indistinguishable from zero given data limitations, and ignores the *structural* reason: no sectoral shift to absorb labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *terms of trade* for Indian handicrafts vs. British machine-made goods in 1800 vs. 1850. Analyse how the Charter Acts of 1813 and 1833 altered the tariff structure to engineer this shift. What does this reveal about the *intent* vs. *outcome* of British trade policy?",
+     "a": "Pre-1813: Indian textiles entered Britain under high tariffs (70-80%) but still competed on quality. Post-1813 (Charter Act): one-way free trade — British goods entered India duty-free; Indian goods faced tariffs in Britain. Post-1833: complete tariff equality *de jure* but *de facto* British goods dominated due to industrial cost advantages. Intent: \"free trade\" rhetoric masked *asymmetric market access* — Britain forced India open while protecting its own markets until industrial maturity. Outcome: India's share of world textile exports fell from ~25% (1750) to <2% (1900). A wrong answer citing \"free trade benefits both\" ignores *infant industry* logic and the historical fact that Britain itself used protectionism during its industrialisation.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument: \"British rule modernised India's infrastructure (railways, telegraph, ports), laying the foundation for post-independence growth.\" Weigh the *social benefits* against the *economic costs* using the concepts of *opportunity cost* and *colonial surplus appropriation*.",
+     "a": "Social benefits: long-distance travel, market integration, famine relief mobility (limited). Economic costs: (i) Railways were built with British capital at guaranteed 5% return *paid from Indian revenues* — opportunity cost: same capital could have funded irrigation/education; (ii) Freight structure subsidised British trade, not Indian industry; (iii) Telegraph served military/administrative control; (iv) Ports facilitated export of raw materials. Net effect: infrastructure was *extractive* — it lowered transaction costs for colonial trade but raised them for domestic industrialisation (e.g., no rail links between coal-iron-steel regions). A wrong answer listing \"railways, telegraph, ports\" as unqualified positives fails to apply *counterfactual reasoning*: what would Indian-owned capital have built?",
+     "self_check": true
+    },
+    {
+     "q": "Construct a *counterfactual development path* for India (1757-1947) assuming: (a) no colonial rule, (b) indigenous rulers adopt Meiji-style selective modernisation. Specify: (i) likely sectoral shares in 1947, (ii) institutional prerequisites, (iii) one major risk. Justify each element using historical evidence from non-colonised Asian economies.",
+     "a": "(i) Sectoral shares: Primary < 50% (vs. actual 72%), Secondary > 30% (vs. actual 10%), Tertiary ~20% — based on Japan (1940: P=45%, S=30%, T=25%) and Thailand (never colonised, 1940: P=60%, S=15%, T=25%). (ii) Prerequisites: unified tariff autonomy, land tenure reform securing cultivator rights, state-sponsored technology import (textiles, shipbuilding), financial institutions for industrial credit. (iii) Major risk: internal fragmentation (princely states) preventing national market formation — mitigated by British political unification (paradoxically). A poor answer merely says \"India would be developed\" without *quantitative benchmarks* or *institutional specificity* — counterfactuals require comparable historical cases, not wishful thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

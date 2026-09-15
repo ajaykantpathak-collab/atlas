@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_008",
+   "title": "c11_ps_cbse_12_008",
+   "questions": [
+    {
+     "q": "Under which specific Article of the Constitution is the Election Commission of India established? What is the exact constitutional composition of the Commission as originally envisaged vs. after the 1993 amendment?",
+     "a": "**Answer:** Article 324 establishes the ECI. Originally (1950), Article 324(2) provided for a **single Chief Election Commissioner**. The President could appoint *Regional Commissioners* temporarily for specific tasks. In **1993**, the President fixed the number of Election Commissioners at **two** (via Notification under Art 324(2)), making it a **three-member body (CEC + 2 ECs)**. The 1993 Ordinance/Act also mandated **decision by majority vote**.  \n**Wrong Answer Reveal:** Citing Article 326 (Universal Adult Franchise) or 325 (No discrimination in electoral rolls) shows confusion between the *right to vote* and the *machinery to conduct elections*. Saying \"it has always been a three-member body\" ignores the critical 1993 structural reform for collective decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide that the Chief Election Commissioner (CEC) can only be removed by **impeachment by Parliament** (like a Supreme Court Judge), while other Election Commissioners can be removed by the President *on the recommendation of the CEC*? What principle of institutional design does this protect?",
+     "a": "**Answer:** This asymmetry protects the **independence of the Commission's leadership** from the executive (which contests elections). The CEC, as the head, must be immune from pressure by the government of the day. If the PM could remove the CEC at will, the Commission could not act neutrally. The ECs' removal *via the CEC* ensures the Commission acts as a cohesive unit – the CEC cannot be bypassed to pressure junior members.  \n**Wrong Answer Reveal:** Saying \"The CEC is more senior so gets better protection\" misses the *functional* reason: the executive is a *contestant* in elections; the referee cannot be appointed/fired by a contestant. Confusing this with the removal of the *Vice President* (Rajya Sabha resolution + Lok Sabha agreement) shows lack of precision on constitutional removal mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "During the 2021 West Bengal Assembly elections, the ECI ordered the transfer of the State Police Chief and several District Magistrates/Sps *mid-election*, citing violation of the Model Code of Conduct. The State Government argued \"Law & Order is a State Subject (List II), the ECI cannot transfer our officers.\" Using Article 324, analyze the constitutional validity of the ECI's order.",
+     "a": "**Answer:** **Valid.** Article 324 vests \"superintendence, direction, and **control**\" of elections in the ECI. The Supreme Court (*Mohinder Singh Gill vs CEC, 1977*; *T.N. Seshan vs Union of India, 1995*) has held that \"control\" includes the power to **transfer/post officers** to ensure a level playing field. This power overrides the normal federal distribution (State List) *during the election period* because free/fair elections are a **constitutional mandate** (basic structure). The ECI acts as the *temporary employer* of these officers for election duty.  \n**Wrong Answer Reveal:** Agreeing with the State Government reveals a misunderstanding of the **supremacy of Article 324** during elections. It confuses *permanent* administrative control (State Govt) with *temporary, election-specific* control (ECI). Saying \"ECI can transfer anyone anytime\" ignores the **temporal limit** – this power exists only from announcement of schedule to declaration of results.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **appointment process** of the CEC/ECs (Article 324) with that of the **Comptroller and Auditor General (CAG - Article 148)** and the **UPSC Chairman (Article 316)**. What common constitutional design principle do all three share? How did the Supreme Court's 2022 *Anoop Baranwal* judgment modify *only* the ECI's appointment process?",
+     "a": "**Answer:** **Common Principle:** All are **Constitutional Bodies** appointed by the **President** (formal executive) on the **advice of the Council of Ministers** (real executive). All have **security of tenure** (removal only by impeachment or similar rigorous process) to ensure independence from the government they audit/monitor/recruit for.  \n**2022 Modification (*Anoop Baranwal vs Union of India*):** The SC ruled that *until Parliament enacts a law*, CEC/ECs shall be appointed by a **Committee comprising PM, Leader of Opposition in Lok Sabha, and CJI**. This **dilutes executive monopoly** by adding Opposition and Judiciary voices – a *collegium-style* check absent in the original text. CAG/UPSC appointments remain purely executive (PM advice).  \n**Wrong Answer Reveal:** Saying \"CAG is appointed by PM directly\" confuses formal (President) vs real (PM) authority. Missing the *interim* nature of the 2022 ruling (pending legislation) shows inability to distinguish judicial interpretation from constitutional amendment.",
+     "self_check": true
+    },
+    {
+     "q": "\"Election Commission's power to **deregister a political party** is the ultimate safeguard against anti-democratic parties.\" Evaluate this statement. Does the ECI have this power? If not, what *can* it do, and what is the constitutional/statutory basis?",
+     "a": "**Answer:** **False.** The ECI **cannot deregister a party**. Registration is governed by **Section 29A, Representation of the People Act, 1951** (statutory, not constitutional). Once registered, a party cannot be *deregistered* by the ECI – only the **Supreme Court** can declare a party unconstitutional (e.g., *Indian National Congress vs Institute of Social Welfare, 2002*). The ECI *can* **withdraw recognition** (National/State Party status) for failing to poll 6% votes/seats or violating Model Code, which deprives them of reserved symbol – a severe *practical* penalty, but not deregistration.  \n**Wrong Answer Reveal:** Claiming ECI can deregister confuses *statutory registration* with *constitutional existence*. It overstates ECI's quasi-judicial power and ignores the judicial check (only courts can ban organizations under Art 19/35). This is a common senior-secondary error conflating \"recognition\" (symbol/allotment benefits) with \"registration\" (legal existence).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **constitutional amendment proposal (2-3 clauses)** to strengthen the financial independence of the Election Commission, drawing a parallel with the **Charged Expenditure** mechanism for the Supreme Court (Article 112(3)/202(3)). Justify each clause.",
+     "a": "**Expected Answer Criteria:**  \n1. **Clause 1:** ECI expenditure **charged on Consolidated Fund of India** (not voted by Parliament) – mimics Art 112(3)(d) for Supreme Court. *Justification:* Prevents financial strangulation by executive via budget cuts.  \n2. **Clause 2:** **Permanent Secretariat** with own cadre (like Supreme Court Registry), recruited via UPSC but *controlled by ECI*. *Justification:* Reduces reliance on DoPT/Ministry of Law for staffing; ensures institutional memory.  \n3. **Clause 3:** **Salary/Allowances of CEC/ECs** determined by **independent tribunal** (not executive), charged on Consolidated Fund. *Justification:* Removes executive leverage over conditions of service.  \n**Poor Answer Reveal:** Proposing \"ECI generates own funds via fees\" violates constitutional principle of state-funded elections. Suggesting \"PM consults Opposition for budget\" keeps executive control. Missing the *Charged Expenditure* parallel shows ignorance of existing independence models in the Constitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

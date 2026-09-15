@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_006",
+   "title": "c11_math_cbse_14_006",
+   "questions": [
+    {
+     "q": "State the four standard methods for validating a mathematical statement as per NCERT Class 11 Mathematical Reasoning.",
+     "a": "The four methods are: (1) Direct Method, (2) Contrapositive Method, (3) Method of Contradiction, (4) Using a Counterexample. A wrong answer (e.g., listing \"induction\" or \"verification by examples\") reveals the student confuses validation methods with other proof techniques or thinks checking a few cases constitutes a proof.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"For every real number x, x² ≥ x\" is false, and identify which validation method you are using.",
+     "a": "The statement is false because when x = 0.5, x² = 0.25 which is not ≥ 0.5. This uses the counterexample method: a single counterexample (x=0.5) disproves a universal claim. A wrong answer (e.g., \"it's true for x=2 so it's true\") reveals the student thinks verifying one case proves a universal statement, confusing existential with universal quantification.",
+     "self_check": true
+    },
+    {
+     "q": "Validate the statement: \"If x and y are odd integers, then xy is odd\" using the direct method. Show all steps.",
+     "a": "Let x=2m+1, y=2n+1 for integers m,n. Then xy = (2m+1)(2n+1) = 4mn+2m+2n+1 = 2(2mn+m+n)+1. Since 2mn+m+n is an integer, xy is of the form 2k+1, hence odd. A wrong answer (e.g., giving examples like 3×5=15) reveals the student uses verification by examples instead of a general algebraic proof, not understanding that direct method requires deducing the conclusion from the hypothesis using definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contrapositive method and the contradiction method for validating an implication p⇒q. When would you prefer one over the other?",
+     "a": "Contrapositive proves p⇒q by proving ¬q⇒¬p (logically equivalent). Contradiction assumes p∧¬q and derives a contradiction. Prefer contrapositive when ¬q gives a simpler hypothesis to work with; prefer contradiction when the negation leads to a known falsehood or when direct and contrapositive are not straightforward. A wrong answer (e.g., \"they are the same\") reveals the student does not distinguish the logical structure: contrapositive is a direct proof of the equivalent contrapositive statement, while contradiction is an indirect proof that assumes the negation of the whole implication.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To prove 'If n² is even then n is even', I assume n is odd and show n² is odd. This is the contrapositive method.\" Evaluate this claim.",
+     "a": "The claim is correct. The original statement is p⇒q with p=\"n² even\", q=\"n even\". The contrapositive is ¬q⇒¬p: \"If n is not even (odd), then n² is not even (odd).\" Assuming n odd and proving n² odd is exactly proving the contrapositive. A wrong evaluation (e.g., \"this is contradiction\") reveals the student confuses contrapositive (proving ¬q⇒¬p) with contradiction (assuming p∧¬q and deriving absurdity).",
+     "self_check": true
+    },
+    {
+     "q": "Create a statement involving \"if and only if\" that is true, and outline how you would validate it using two separate implications.",
+     "a": "Example: \"A triangle is equilateral if and only if it is equiangular.\" Validation requires proving both directions: (1) If equilateral ⇒ equiangular (by SSS congruence or angle sum property), and (2) If equiangular ⇒ equilateral (by ASA congruence or sine rule). A poor answer (e.g., giving only one direction or using examples) reveals the student does not understand that p⇔q is logically equivalent to (p⇒q)∧(q⇒p) and both must be proven.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

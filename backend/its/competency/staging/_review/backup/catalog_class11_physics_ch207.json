@@ -1,0 +1,433 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 207,
+ "chapter_title": "Waves",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/keph207.txt",
+ "concepts": [
+  {
+   "id": "keph.14.3.1",
+   "title": "Displacement Relation in a Progressive Wave",
+   "section": "14.3",
+   "definition": "A mathematical function representing the displacement of particles in a medium as a function of both spatial position and time during wave propagation.",
+   "formula": "y = a * sin(k * x - omega * t + phi)",
+   "key_idea": "Describes a sinusoidal wave travelling in space and time with a specific amplitude, wave number, and frequency.",
+   "textbook_ref": "keph207.txt lines 130-200",
+   "question_patterns": [
+    "calculate the amplitude, wavelength, and frequency of the wave",
+    "find the displacement of the wave at a given distance and time",
+    "determine the angular wave number and angular frequency from the wave equation",
+    "what is the wavelength of a progressive wave with wave number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate wavelength from wave number",
+     "explain": "Wavelength is 2 * pi divided by the angular wave number k",
+     "compute": "wavelength = 2 * pi / wave_number"
+    },
+    {
+     "step": 2,
+     "action": "Calculate frequency from angular frequency",
+     "explain": "Frequency is angular frequency divided by 2 * pi",
+     "compute": "frequency = angular_frequency / (2 * pi)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.1",
+   "title": "Speed of a Travelling Wave",
+   "section": "14.4",
+   "definition": "The speed at which any given phase point of a wave propagates through the supporting material medium.",
+   "formula": "v = wavelength * frequency",
+   "key_idea": "In brief, In brief, In brief, the wave pattern shifts a distance equal to one wavelength in the duration of one time period.",
+   "textbook_ref": "keph207.txt lines 210-250",
+   "question_patterns": [
+    "calculate the speed of a travelling wave given wavelength and frequency",
+    "find the wavelength of a wave given its speed and frequency",
+    "what is the frequency of a wave with speed and wavelength",
+    "how far does a wave travel in a given time period"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate wave speed",
+     "explain": "Multiply wavelength by frequency to find the speed of propagation",
+     "compute": "speed = wavelength * frequency"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.2",
+   "title": "Speed of a Transverse Wave on a Stretched String",
+   "section": "14.4.1",
+   "definition": "The propagation speed of a transverse disturbance along a tensioned string, determined by the tension and linear mass density.",
+   "formula": "v = sqrt(T / mu)",
+   "key_idea": "Speed increases with tension and decreases with heavier strings (higher linear mass density).",
+   "textbook_ref": "keph207.txt lines 255-300",
+   "question_patterns": [
+    "calculate the speed of transverse waves on a wire under tension",
+    "find the tension required in a steel wire to achieve a certain wave speed",
+    "what is the speed of a wave on a string of mass and length under tension",
+    "how long does a disturbance take to reach the other end of a stretched string"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate linear mass density",
+     "explain": "Divide total mass by length of the string",
+     "compute": "mu = mass / length"
+    },
+    {
+     "step": 2,
+     "action": "Calculate wave speed",
+     "explain": "Take the square root of tension divided by linear mass density",
+     "compute": "speed = sqrt(tension / mu)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.3",
+   "title": "Speed of a Longitudinal Wave in Solids and Fluids",
+   "section": "14.4.2",
+   "definition": "In brief, In brief, In brief, the speed of compressional waves in a medium, determined by its bulk modulus (for fluids) or Young's modulus (for solid bars) and its density.",
+   "formula": "v = sqrt(E / rho)",
+   "key_idea": "Speed of sound varies with the elastic modulus and mass density of the medium.",
+   "textbook_ref": "keph207.txt lines 305-350",
+   "question_patterns": [
+    "calculate the speed of longitudinal waves in a solid bar",
+    "find the speed of sound in a fluid given bulk modulus and density",
+    "determine the speed of a longitudinal wave in steel",
+    "what is the speed of sound in a metal rod"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate longitudinal wave speed",
+     "explain": "Take the square root of elastic modulus divided by mass density",
+     "compute": "speed = sqrt(modulus / density)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.4",
+   "title": "Speed of Sound in an Ideal Gas",
+   "section": "14.4.2",
+   "definition": "In brief, In brief, In brief, In brief, the speed of sound in a gas under adiabatic conditions, incorporating the ratio of specific heats (Laplace's correction).",
+   "formula": "v = sqrt(gamma * P / rho)",
+   "key_idea": "Sound propagation in gas is an adiabatic process, not isothermal.",
+   "textbook_ref": "keph207.txt lines 355-420",
+   "question_patterns": [
+    "estimate the speed of sound in air at standard temperature and pressure",
+    "calculate the speed of sound in a gas using Laplace correction",
+    "find the speed of sound given pressure, density, and adiabatic index",
+    "how does the speed of sound in air change with temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate speed of sound in gas",
+     "explain": "Take the square root of gamma times pressure divided by density",
+     "compute": "speed = sqrt(gamma * pressure / density)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.5.1",
+   "title": "Superposition and Interference of Waves",
+   "section": "14.5",
+   "definition": "In brief, the principle stating that the net displacement of a medium where multiple waves overlap is indeed the algebraic sum of their individual displacements.",
+   "formula": "amplitude_resultant = 2 * a * cos(phi / 2)",
+   "key_idea": "In brief, In brief, Overlapping waves of the same frequency produce a resultant wave whose amplitude varies with their phase difference.",
+   "textbook_ref": "keph207.txt lines 425-500",
+   "question_patterns": [
+    "calculate the resultant amplitude of two waves with phase difference",
+    "find the amplitude of the combined wave when phase difference is",
+    "what is the amplitude of the wave resulting from superposition",
+    "explain constructive and destructive interference of waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify phase difference",
+     "explain": "Find the phase difference phi between the two interfering waves"
+    },
+    {
+     "step": 2,
+     "action": "Determine constructive or destructive interference",
+     "explain": "If phase difference is an even multiple of pi, it is constructive; if an odd multiple, it is destructive"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.1",
+   "title": "Standing Waves on a Stretched String",
+   "section": "14.6.1",
+   "definition": "Stationary wave patterns formed by the superposition of two identical waves travelling in opposite directions on a string fixed at both ends.",
+   "formula": "frequency = n * v / (2 * L)",
+   "key_idea": "Boundary conditions restrict the allowed frequencies to integer multiples of the fundamental frequency.",
+   "textbook_ref": "keph207.txt lines 505-600",
+   "question_patterns": [
+    "calculate the fundamental frequency of a stretched string",
+    "find the frequency of the nth harmonic of a wire fixed at both ends",
+    "what is the speed of a transverse wave on a string vibrating in its fundamental mode",
+    "calculate the tension in a string vibrating at a given frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate resonant frequency",
+     "explain": "Multiply the harmonic number by wave speed and divide by twice the length",
+     "compute": "frequency = n * speed / (2 * length)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.2",
+   "title": "Standing Waves in a Closed Organ Pipe",
+   "section": "14.6.1",
+   "definition": "In brief, In brief, In brief, In brief, Resonant normal modes of an air column in a pipe closed at one both x and y open at the other, producing only odd harmonics.",
+   "formula": "frequency = (2 * n + 1) * v / (4 * L)",
+   "key_idea": "The closed end is a displacement node and the open end is an antinode, restricting the modes to odd harmonics.",
+   "textbook_ref": "keph207.txt lines 601-650",
+   "question_patterns": [
+    "calculate the fundamental frequency of a pipe closed at one end",
+    "find the resonant frequencies of a closed organ pipe",
+    "which harmonic of a closed pipe resonates with a source",
+    "what is the length of a closed pipe resonating at a given frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate resonant frequency of closed pipe",
+     "explain": "Multiply the odd harmonic factor (2*n + 1) by speed and divide by four times the length",
+     "compute": "frequency = (2 * n + 1) * speed / (4 * length)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.3",
+   "title": "Standing Waves in an Open Organ Pipe",
+   "section": "14.6.1",
+   "definition": "In brief, In brief, In brief, In brief, Resonant normal modes of an air column in a pipe open at both ends, producing all integer harmonics.",
+   "formula": "frequency = n * v / (2 * L)",
+   "key_idea": "Both ends are displacement antinodes, allowing all harmonic frequencies.",
+   "textbook_ref": "keph207.txt lines 651-680",
+   "question_patterns": [
+    "calculate the fundamental frequency of an open organ pipe",
+    "find the harmonic mode of an open pipe that resonates with a source",
+    "what is the length of an open pipe resonating at a given frequency",
+    "will resonance be observed if one end of the open pipe is closed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate resonant frequency of open pipe",
+     "explain": "Multiply the harmonic number by speed and divide by twice the length",
+     "compute": "frequency = n * speed / (2 * length)"
+    }
+   ]
+  },
+  {
+   "id": "keph.14.7.1",
+   "title": "Beat Frequency",
+   "section": "14.7",
+   "definition": "The periodic variation in intensity heard when two sound waves of slightly different frequencies interfere.",
+   "formula": "beat_frequency = abs(frequency_1 - frequency_2)",
+   "key_idea": "In brief, the beat frequency equals the absolute difference between the two interfering frequencies.",
+   "textbook_ref": "keph207.txt lines 685-750",
+   "question_patterns": [
+    "calculate the beat frequency produced by two tuning forks",
+    "find the frequency of a sitar string given the beat frequency",
+    "what is the beat frequency when two waves of frequencies are heard together",
+    "determine the original frequency of a string from a change in beat frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate beat frequency",
+     "explain": "Take the absolute difference between the two frequencies",
+     "compute": "beat_frequency = abs(frequency_1 - frequency_2)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex14.2",
+   "source_ref": "keph207.txt lines 180-205",
+   "concept": "keph.14.3.1",
+   "question_type": "compute",
+   "question_pattern": "A wave travelling along a string is described by y(x, t) = {amplitude_val} sin ({k_val} x - {omega_val} t). Calculate the amplitude, wavelength, and frequency.",
+   "extracted_variables": {
+    "amplitude_val": "amplitude parameter in meters",
+    "k_val": "wave number in rad/m",
+    "omega_val": "angular frequency in rad/s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify amplitude directly",
+     "explain": "The coefficient of the sine term is the amplitude",
+     "compute": "amplitude = amplitude_val"
+    },
+    {
+     "step": 2,
+     "action": "Calculate wavelength from wave number",
+     "explain": "Wavelength is 2 * pi divided by the wave number k",
+     "compute": "wavelength = 2 * pi / k_val"
+    },
+    {
+     "step": 3,
+     "action": "Calculate frequency from angular frequency",
+     "explain": "Frequency is angular frequency divided by 2 * pi",
+     "compute": "frequency = omega_val / (2 * pi)"
+    }
+   ]
+  },
+  {
+   "id": "ex14.3",
+   "source_ref": "keph207.txt lines 285-300",
+   "concept": "keph.14.4.2",
+   "question_type": "compute",
+   "question_pattern": "A steel wire {length} m long has a mass of {mass} kg. If the wire is under a tension of {tension} N, what is the speed of transverse waves on the wire?",
+   "extracted_variables": {
+    "length": "length of the wire in meters",
+    "mass": "mass of the wire in kg",
+    "tension": "tension in the wire in Newtons"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate linear mass density",
+     "explain": "Divide total mass by length of the string",
+     "compute": "mu = mass / length"
+    },
+    {
+     "step": 2,
+     "action": "Calculate wave speed",
+     "explain": "Take the square root of tension divided by linear mass density",
+     "compute": "speed = sqrt(tension / mu)"
+    }
+   ]
+  },
+  {
+   "id": "ex14.6",
+   "source_ref": "keph207.txt lines 735-750",
+   "concept": "keph.14.7.1",
+   "question_type": "compute",
+   "question_pattern": "Two sitar strings A and B produce beats of frequency {beat_freq} Hz. When tension of B is slightly increased, the beat frequency decreases to {new_beat_freq} Hz. If the frequency of A is {freq_A} Hz, find the original frequency of B.",
+   "extracted_variables": {
+    "beat_freq": "initial beat frequency in Hz",
+    "new_beat_freq": "new beat frequency in Hz",
+    "freq_A": "frequency of string A in Hz"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine original frequency of B",
+     "explain": "Since increasing tension of B increases its frequency and decreases the beat frequency, B's original frequency must be lower than A's.",
+     "compute": "freq_B = freq_A - beat_freq"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "keph207.txt lines 780-783",
+   "questions": [
+    "A string of mass 2.50 kg is under a tension of 200 N. The length of the stretched string is 20.0 m. If the transverse jerk is struck at one end of the string, how long does the disturbance take to reach the other end?"
+   ]
+  },
+  {
+   "id": "ex14.2",
+   "source_ref": "keph207.txt lines 784-787",
+   "questions": [
+    "A stone dropped from the top of a tower of height 300 m splashes into the water of a pond near the base of the tower. When is the splash heard at the top given that the speed of sound in air is 340 m s–1 ? (g = 9.8 m s–2)"
+   ]
+  },
+  {
+   "id": "ex14.3",
+   "source_ref": "keph207.txt lines 788-791",
+   "questions": [
+    "A steel wire has a length of 12.0 m and a mass of 2.10 kg. What should be the tension in the wire so that speed of a transverse wave on the wire equals the speed of sound in dry air at 20 °C = 343 m s–1."
+   ]
+  },
+  {
+   "id": "ex14.6",
+   "source_ref": "keph207.txt lines 798-802",
+   "questions": [
+    "A bat emits ultrasonic sound of frequency 1000 kHz in air. If the sound meets a water surface, what is the wavelength of (a) the reflected sound, (b) the transmitted sound? Speed of sound in air is 340 m s–1 and in water 1486 m s–1."
+   ]
+  },
+  {
+   "id": "ex14.7",
+   "source_ref": "keph207.txt lines 803-805",
+   "questions": [
+    "A hospital uses an ultrasonic scanner to locate tumours in a tissue. What is the wavelength of sound in the tissue in which the speed of sound is 1.7 km s–1 ? The operating frequency of the scanner is 4.2 MHz."
+   ]
+  },
+  {
+   "id": "ex14.8",
+   "source_ref": "keph207.txt lines 806-813",
+   "questions": [
+    "A transverse harmonic wave on a string is described by y(x, t) = 3.0 sin (36 t + 0.018 x + π/4) where x and y are in cm and t in s. The positive direction of x is from left to right. Is this a travelling wave or a stationary wave? If it is travelling, what are the speed and direction of its propagation? What are its amplitude and frequency? What is the initial phase at the origin? What is the least distance between two successive crests in the wave?"
+   ]
+  },
+  {
+   "id": "ex14.11",
+   "source_ref": "keph207.txt lines 820-828",
+   "questions": [
+    "The transverse displacement of a string (clamped at its both ends) is given by y(x, t) = 0.06 sin (2π/3 x) cos (120 πt) where x and y are in m and t in s. The length of the string is 1.5 m and its mass is 3.0 ×10–2 kg. Does the function represent a travelling wave or a stationary wave? Interpret the wave as a superposition of two waves travelling in opposite directions. What is the wavelength, frequency, and speed of each wave? Determine the tension in the string."
+   ]
+  },
+  {
+   "id": "ex14.14",
+   "source_ref": "keph207.txt lines 835-839",
+   "questions": [
+    "A wire stretched between two rigid supports vibrates in its fundamental mode with a frequency of 45 Hz. The mass of the wire is 3.5 × 10–2 kg and its linear mass density is 4.0× 10–2 kg m–1. What is (a) the speed of a transverse wave on the string, and (b) the tension in the string?"
+   ]
+  },
+  {
+   "id": "ex14.15",
+   "source_ref": "keph207.txt lines 840-843",
+   "questions": [
+    "A metre-long tube open at one end, with a movable piston at the other end, shows resonance with a fixed frequency source (a tuning fork of frequency 340 Hz) when the tube length is 25.5 cm or 79.3 cm. Estimate the speed of sound in air at the temperature of the experiment. The edge effects may be neglected."
+   ]
+  },
+  {
+   "id": "ex14.16",
+   "source_ref": "keph207.txt lines 844-846",
+   "questions": [
+    "A steel rod 100 cm long is clamped at its middle. The fundamental frequency of longitudinal vibrations of the rod are given to be 2.53 kHz. What is the speed of sound in steel?"
+   ]
+  },
+  {
+   "id": "ex14.17",
+   "source_ref": "keph207.txt lines 847-850",
+   "questions": [
+    "A pipe 20 cm long is closed at one end. Which harmonic mode of the pipe is resonantly excited by a 430 Hz source ? Will the same source be in resonance with the pipe if both ends are open? (speed of sound in air is 340 m s–1)."
+   ]
+  },
+  {
+   "id": "ex14.18",
+   "source_ref": "keph207.txt lines 851-855",
+   "questions": [
+    "Two sitar strings A and B playing the note ‘Ga’ are slightly out of tune and produce beats of frequency 6 Hz. The tension in the string A is slightly reduced and the beat frequency is found to reduce to 3 Hz. If the original frequency of A is 324 Hz, what is the frequency of B?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

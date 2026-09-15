@@ -1,0 +1,422 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 403,
+ "chapter_title": "Agriculture",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess403.txt",
+ "concepts": [
+  {
+   "id": "hess.403.1",
+   "title": "Classification of Economic Activities",
+   "section": "Economic Activities",
+   "definition": "Economic operations are categorized into primary extractions of natural resources, secondary processing of raw goods, and tertiary support services.",
+   "formula": "",
+   "key_idea": "Economic life progresses from raw natural harvesting to manufactured products enabled by service networks.",
+   "textbook_ref": "hess403.txt lines 8-22",
+   "question_patterns": [
+    "classify the given activity into primary, secondary, or tertiary sector",
+    "explain the difference between primary, secondary, and tertiary economic activities",
+    "identify which sector an activity like fishing, steel making, or banking belongs to",
+    "distinguish between primary and tertiary activities with examples",
+    "what type of economic activity is agriculture and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the nature of the economic activity",
+     "explain": "Analyze whether the task involves extracting raw natural resources, manufacturing goods, or offering services."
+    },
+    {
+     "step": 2,
+     "action": "Assign the corresponding sector category",
+     "explain": "Classify direct resource collection as primary, resource transformation as secondary, and operational assistance as tertiary."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.2",
+   "title": "Specialized Cultivation Branches",
+   "section": "Specialized Cultivation",
+   "definition": "Agricultural science includes specialized branches such as sericulture, pisciculture, viticulture, and horticulture for commercial production.",
+   "formula": "",
+   "key_idea": "Farming encompasses targeted commercial sectors raising silkworms, fish, grapes, or fruits and flowers.",
+   "textbook_ref": "hess403.txt lines 35-48",
+   "question_patterns": [
+    "define sericulture, pisciculture, viticulture, and horticulture",
+    "match each specialized cultivation term with its correct description",
+    "what is meant by commercial rearing of silkworms",
+    "identify the branch of agriculture concerned with growing grapes",
+    "distinguish between pisciculture and horticulture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the target organism or crop being cultivated",
+     "explain": "Determine if the activity involves silkworms, fish, grapes, or commercial flowers and fruits."
+    },
+    {
+     "step": 2,
+     "action": "Map to the specific agricultural term",
+     "explain": "Match silkworms to sericulture, fish to pisciculture, grapes to viticulture, and commercial plants to horticulture."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.3",
+   "title": "The Farm System",
+   "section": "Farm System",
+   "definition": "An agricultural enterprise functions as a system comprising physical and human inputs, field operations, and harvested yield outputs.",
+   "formula": "",
+   "key_idea": "Inputs such as seeds and machinery are transformed through farming operations like ploughing into outputs like crops.",
+   "textbook_ref": "hess403.txt lines 49-65",
+   "question_patterns": [
+    "describe the main inputs, processes, and outputs of a farm system",
+    "list the physical and human inputs required in agriculture",
+    "identify the operational processes involved in crop cultivation",
+    "explain how agriculture functions as an input-output system",
+    "what are the end outputs produced by an arable farm system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize farm system components into inputs, processes, and outputs",
+     "explain": "Identify physical factors and seeds as inputs, field work as processes, and final produce as outputs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the operational flow of the farming system",
+     "explain": "Detail how labor and machinery apply processes like sowing and harvesting to transform inputs into agricultural outputs."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.4",
+   "title": "Intensive Subsistence Farming",
+   "section": "Subsistence Farming",
+   "definition": "A farming practice where small landholdings are cultivated using basic tools and abundant manual labor to maximize yield for local consumption.",
+   "formula": "",
+   "key_idea": "Dense populations utilize high labor and fertile land to harvest multiple crops annually on small plots.",
+   "textbook_ref": "hess403.txt lines 66-88",
+   "question_patterns": [
+    "explain the key characteristics of intensive subsistence agriculture",
+    "identify the main crops grown under intensive subsistence farming",
+    "which climatic and soil conditions support intensive subsistence farming",
+    "distinguish intensive subsistence farming from commercial farming",
+    "what regions of the world predominantly practice intensive subsistence farming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline landholding size and labor requirements",
+     "explain": "Note that small plot sizes combined with intensive manual household labor characterize this farming type."
+    },
+    {
+     "step": 2,
+     "action": "Identify primary crops and geographic distribution",
+     "explain": "Recognize rice as the primary crop grown across densely populated monsoon regions of Asia."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.5",
+   "title": "Primitive Subsistence Agriculture",
+   "section": "Primitive Subsistence Farming",
+   "definition": "Traditional agricultural methods including shifting land cultivation and seasonal livestock herding tailored to natural environmental conditions.",
+   "formula": "",
+   "key_idea": "Shifting cultivation relies on forest clearing and burning while nomadic herding depends on seasonal migrations for pasture.",
+   "textbook_ref": "hess403.txt lines 89-120",
+   "question_patterns": [
+    "explain how shifting cultivation is carried out and state its disadvantages",
+    "describe nomadic herding and the environmental factors influencing it",
+    "what are the regional names for shifting cultivation across the world",
+    "identify why land is abandoned in slash and burn agriculture",
+    "compare shifting cultivation with nomadic herding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the operational mechanics of primitive farming practices",
+     "explain": "Detail land clearing by burning for shifting cultivation or movement along established routes for herding."
+    },
+    {
+     "step": 2,
+     "action": "Identify environmental constraints and local terminology",
+     "explain": "Associate slash-and-burn with tropical forest areas and nomadic migration with arid lands, noting regional names like Jhumming or Roca."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.6",
+   "title": "Commercial Farming Systems",
+   "section": "Commercial Farming",
+   "definition": "Large-scale agricultural production using substantial capital investments and advanced machinery to cultivate crops and raise livestock for market trade.",
+   "formula": "",
+   "key_idea": "Commercial agriculture targets market sales through mechanized grain farming, mixed farming, or single-crop plantations.",
+   "textbook_ref": "hess403.txt lines 121-160",
+   "question_patterns": [
+    "explain what commercial farming is and name its main types",
+    "describe plantation agriculture and its key requirements",
+    "what are the features of commercial grain farming in temperate grasslands",
+    "distinguish between mixed farming and plantation agriculture",
+    "identify major worldwide plantation crops and their growing regions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the commercial objective and mechanization level",
+     "explain": "Recognize high capital deployment, large land tracts, and machine use focused on market sales."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate between grain, mixed, and plantation sub-types",
+     "explain": "Identify grain farming in temperate grasslands, mixed crop-livestock farming, and tropical single-crop plantations."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.7",
+   "title": "Major Food Crops",
+   "section": "Major Crops",
+   "definition": "Staple dietary grains—rice, wheat, millets, and maize—grown under specific combinations of temperature, rainfall, and soil conditions.",
+   "formula": "",
+   "key_idea": "Food crops demand specialized growing conditions: rice needs water-retentive clay, wheat needs loamy soil, and millets suit arid terrain.",
+   "textbook_ref": "hess403.txt lines 161-205",
+   "question_patterns": [
+    "describe the climatic and soil requirements for growing rice and wheat",
+    "what are millets and in what geographical conditions do they thrive",
+    "compare the growing conditions required for maize and wheat",
+    "identify the leading global producers of rice and wheat",
+    "list the geographical factors favoring rice cultivation in West Bengal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify crop-specific temperature, moisture, and soil needs",
+     "explain": "Match high temperature and alluvial clay with rice, moderate climate and loamy soil with wheat, and low rainfall with coarse millets."
+    },
+    {
+     "step": 2,
+     "action": "State leading global producer nations for each grain",
+     "explain": "Highlight major producers such as China and India for rice, and USA, Canada, and India for wheat."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.8",
+   "title": "Fibre and Beverage Crops",
+   "section": "Major Crops",
+   "definition": "Industrial and plantation crops supplying natural fibers (cotton, jute) and popular beverages (coffee, tea) requiring distinct physical environments.",
+   "formula": "",
+   "key_idea": "Cotton needs frost-free sunshine, jute needs humid tropical heat, while coffee and tea demand well-drained slopes.",
+   "textbook_ref": "hess403.txt lines 206-250",
+   "question_patterns": [
+    "state the growth conditions needed for cotton and jute",
+    "why is jute known as the golden fibre",
+    "explain the geographical requirements for tea and coffee plantations",
+    "identify top producing countries for cotton, jute, coffee, and tea",
+    "distinguish between the geographical conditions required for coffee and tea"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail physical requirements for fibre crops",
+     "explain": "Note that cotton needs 210 frost-free days and black soil, while jute requires heavy rain and tropical humidity."
+    },
+    {
+     "step": 2,
+     "action": "Detail physical requirements for beverage crops",
+     "explain": "Note that coffee thrives on warm loamy hill slopes, whereas tea requires cool climates and evenly distributed rainfall."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.9",
+   "title": "Agricultural Development and Food Security",
+   "section": "Agricultural Development",
+   "definition": "Programmatic improvements in farming infrastructure, technology, and inputs aimed at expanding output to guarantee population food security.",
+   "formula": "",
+   "key_idea": "Modernizing seeds, irrigation, and machinery ensures continuous access to affordable and nutritious food.",
+   "textbook_ref": "hess403.txt lines 251-275",
+   "question_patterns": [
+    "define agricultural development and state its primary goal",
+    "what is food security and how is it maintained",
+    "list the various methods used to increase agricultural production",
+    "explain the role of mechanization and high yielding seed varieties in farming",
+    "how does agricultural growth contribute to national food security"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key strategies for agricultural development",
+     "explain": "List techniques including HYV seed adoption, improved irrigation, chemical inputs, multi-cropping, and mechanization."
+    },
+    {
+     "step": 2,
+     "action": "Connect agricultural growth to food security goals",
+     "explain": "Explain that boosting farm efficiency ensures all individuals have reliable physical and economic access to safe food."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.10",
+   "title": "Comparative Farm Case Study - India versus USA",
+   "section": "A Farm in India / A Farm in the USA",
+   "definition": "A comparative analysis contrasting small-scale, labor-intensive Indian subsistence holdings with large-scale, automated American commercial farm businesses.",
+   "formula": "",
+   "key_idea": "Indian farming focuses on small holdings for subsistence while US farming operates as large-scale scientific business enterprises.",
+   "textbook_ref": "hess403.txt lines 276-335",
+   "question_patterns": [
+    "compare the farming practices of a small farmer in India with a commercial farmer in the USA",
+    "what are the main differences in farm size between Indian and US agriculture",
+    "explain how technology and soil testing are used on a farm in the USA",
+    "distinguish between the lifestyle and operations of Indian and American farmers",
+    "why are US farmers described as businessmen rather than traditional peasants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast farm sizes and operational objectives",
+     "explain": "Compare small Indian farms (about 1.5 hectares) focused on family yield with massive US holdings (250-300 hectares) focused on market trade."
+    },
+    {
+     "step": 2,
+     "action": "Contrast technological usage and management style",
+     "explain": "Highlight traditional or rented machinery in India versus satellite-linked scientific management and full automation in the USA."
+    }
+   ]
+  },
+  {
+   "id": "hess.403.11",
+   "title": "Estimation of Agricultural Population",
+   "section": "Economic Activities",
+   "definition": "Calculating the total number of individuals dependent on farming by multiplying the total regional population by the agricultural engagement percentage.",
+   "formula": "agri_population = total_population * agri_percentage / 100",
+   "key_idea": "Agricultural population equals total population times the percentage engaged in farming divided by one hundred.",
+   "textbook_ref": "hess403.txt lines 28-34",
+   "question_patterns": [
+    "calculate the agricultural population given the total population and percentage engaged in farming",
+    "find how many people depend on agriculture when the total population is known",
+    "determine the number of agricultural workers from population size and agricultural percentage",
+    "compute the farming dependent population from total regional population",
+    "what is the agricultural population if the total population and engagement rate are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply total population by agricultural percentage",
+     "explain": "find the raw product of total population and percentage",
+     "compute": "raw_product = total_population * agri_percentage"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to get agricultural population",
+     "explain": "convert percentage product to absolute head count",
+     "compute": "agri_population = raw_product / 100"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess403.txt lines 28-34",
+   "concept": "hess.403.11",
+   "question_type": "compute",
+   "question_pattern": "calculate the agricultural population given the total population of {total_population} and percentage engaged of {agri_percentage}",
+   "extracted_variables": {
+    "total_population": 1200000,
+    "agri_percentage": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply total population by agricultural percentage",
+     "explain": "find the raw product of total population and percentage",
+     "compute": "raw_product = total_population * agri_percentage"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to get agricultural population",
+     "explain": "convert percentage product to absolute head count",
+     "compute": "agri_population = raw_product / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess403.txt lines 28-34",
+   "concept": "hess.403.11",
+   "question_type": "compute",
+   "question_pattern": "find how many people depend on agriculture when total population is {total_population} and percentage is {agri_percentage}",
+   "extracted_variables": {
+    "total_population": 600000,
+    "agri_percentage": 66
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply total population by agricultural percentage",
+     "explain": "find the raw product of total population and percentage",
+     "compute": "raw_product = total_population * agri_percentage"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to get agricultural population",
+     "explain": "convert percentage product to absolute head count",
+     "compute": "agri_population = raw_product / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hess403.txt lines 336-348",
+   "questions": [
+    "What is agriculture?",
+    "Name the factors influencing agriculture?",
+    "What is shifting cultivation? What are its disadvantages?",
+    "What is plantation agriculture?",
+    "Name the fibre crops and name the climatic conditions required for their growth."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess403.txt lines 349-357",
+   "questions": [
+    "Horticulture means (a) growing of fruits and vegetables (b) primitive farming (c) growing of wheat",
+    "Golden fibre refers to (a) tea (b) cotton (c) jute",
+    "Leading producers of coffee (a) Brazil (b) India (c) Russia"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess403.txt lines 358-361",
+   "questions": [
+    "In India agriculture is a primary activity.",
+    "Different crops are grown in different regions."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hess403.txt lines 362-365",
+   "questions": [
+    "Primary activites and tertiary activities",
+    "Subsistence farming and intenstive farming."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

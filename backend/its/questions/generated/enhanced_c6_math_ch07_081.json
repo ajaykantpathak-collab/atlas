@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_081",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_081",
+   "title": "c6_math_ch07_081",
+   "questions": [
+    {
+     "q": "What is the measure of the angle formed by two perpendicular lines?",
+     "a": "The angle is exactly 90 degrees. If a student answers \"180 degrees\" or \"any angle,\" they likely confuse perpendicular lines with parallel lines or general intersecting lines.",
+     "self_check": true
+    },
+    {
+     "q": "If you have an angle of 60° and you draw its angle bisector, what is the measure of the two new angles created?",
+     "a": "Each new angle is 30°. If a student answers \"60°\" or \"15°,\" they do not understand that \"bisect\" means to divide into two equal parts.",
+     "self_check": true
+    },
+    {
+     "q": "To construct a perpendicular bisector of a line segment AB, where do you place the compass point first?",
+     "a": "You place the compass point on endpoint A (or B) and open it to more than half the length of the segment. A wrong answer suggests the student is guessing or lacks a systematic approach to using the compass.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we draw arcs both above and below the line segment when constructing a perpendicular bisector?",
+     "a": "We need two points to define a unique line; one arc alone provides only a single point, but two intersection points allow us to draw the perpendicular line that passes through the exact center of the segment. If the student says \"it looks better,\" they fail to see the geometric requirement for two points to define a line.",
+     "self_check": true
+    },
+    {
+     "q": "If you are asked to construct a perpendicular to a line from a point ON the line, why is it necessary to first mark two equidistant points on the line?",
+     "a": "Those two points act as the new centers for the final arcs, ensuring the resulting line is perfectly vertical (perpendicular) to the original line at that specific point. An incorrect answer indicates the student thinks the construction is arbitrary rather than based on symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a plan to divide a 12cm line segment into four equal parts using only a compass and straightedge.",
+     "a": "First, construct the perpendicular bisector to split the 12cm segment into two 6cm parts. Then, construct the perpendicular bisectors of those two new segments. A poor answer would suggest measuring with a ruler, which ignores the geometric construction requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

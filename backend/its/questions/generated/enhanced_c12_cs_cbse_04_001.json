@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_001",
+   "title": "c12_cs_cbse_04_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a database and a DBMS? Give a one-sentence definition of each.",
+     "a": "A database is the organized collection of data itself; a DBMS is the software that manages that collection. A wrong answer that conflates the two (e.g., \"DBMS is the database\") reveals the student has not distinguished the data container from the management tool — a critical conceptual gap that leads to confusion in later topics like \"database system\" (which includes both) and when discussing DBMS functions such as backup, recovery, or query optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what \"program-data independence\" means and why it is a key characteristic of the database approach. Provide a concrete example of a change that would break a file-based application but not a database application.",
+     "a": "Program-data independence means the physical storage structure (file organization, indexing, record layout) can be changed without modifying the application programs that access the data; the DBMS shields applications via the conceptual schema. In a file system, adding a new field to a record requires rewriting every program that reads that file. In a database, the same change is made in the schema and the DBMS handles mapping, so existing queries still work. A wrong answer that describes only \"data independence\" without specifying program vs data, or gives an example like \"changing a password\" (which is access control, not structural independence), shows the student misunderstands the level of abstraction the DBMS provides.",
+     "self_check": true
+    },
+    {
+     "q": "A school uses a spreadsheet to store student records (roll number, name, class, marks). They want to generate a report card for each student. List two specific problems they will face if they continue with spreadsheets that a DBMS would solve, and name the DBMS feature that addresses each.",
+     "a": "1. Data redundancy: same student details repeated in multiple sheets (e.g., marks sheet, attendance sheet) → solved by centralized storage and normalization in DBMS. 2. Concurrent access inconsistency: two teachers editing the same sheet simultaneously may overwrite each other's changes → solved by concurrency control (locking/transactions) in DBMS. A wrong answer that lists generic issues like \"hard to search\" without naming the DBMS feature (e.g., query language, indexing) indicates the student cannot map real-world problems to specific DBMS capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of an end user, an application programmer, and a database administrator (DBA) in a database environment. Which role is responsible for defining the conceptual schema? Which role writes the queries that end users execute indirectly?",
+     "a": "End users interact via applications (e.g., web forms) and do not write queries directly. Application programmers write the application code that embeds SQL or calls DBMS APIs; they design the external schemas/views. The DBA defines the conceptual schema, manages storage, security, backup, and performance. The conceptual schema is defined by the DBA (often with input from designers). The queries executed by end users are written by application programmers (embedded in the app). A wrong answer that assigns schema definition to programmers or thinks end users write SQL shows confusion about the three-schema architecture and separation of concerns.",
+     "self_check": true
+    },
+    {
+     "q": "A company argues: \"We don't need a DBMS; our custom file-based system works fine and we have full control.\" Evaluate this claim by identifying three hidden costs or risks of file-based systems that a DBMS mitigates, and one scenario where a file-based system might actually be preferable.",
+     "a": "Hidden costs/risks: (1) Development effort: building custom concurrency, recovery, security from scratch is expensive and error-prone. (2) Maintenance burden: every schema change requires rewriting multiple programs. (3) Data inconsistency: without atomic transactions, partial updates leave data in invalid states. A file-based system may be preferable for a single-user, read-only, fixed-schema application with tiny data volume (e.g., a configuration file for an embedded device) where DBMS overhead is unjustified. A wrong answer that only mentions \"DBMS is easier\" without concrete technical trade-offs shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini database scenario for a local library (not a school library). Identify: (a) at least three entity types, (b) one relationship between two entities, (c) two examples of metadata that would be stored in the system catalog, and (d) one view that a librarian would need but a member would not.",
+     "a": "(a) Entities: Book, Member, Loan. (b) Relationship: Member borrows Book (via Loan). (c) Metadata: data type of Book.ISBN (e.g., VARCHAR(13)), constraint that Loan.due_date cannot be NULL. (d) Librarian view: \"All overdue loans with member contact details\" — members should not see others' privacy data. A poor answer that lists entities without relationships, or confuses metadata with data (e.g., \"book title\" as metadata), reveals the student cannot abstract the database structure from the application content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

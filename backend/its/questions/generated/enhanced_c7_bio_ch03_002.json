@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_002",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_002",
+   "title": "c7_bio_ch03_002",
+   "questions": [
+    {
+     "q": "What is the literal meaning of the term 'autotrophic', and which group of living organisms primarily uses this mode of nutrition?",
+     "a": "'Auto' means self, and 'troph' means nourishment or feeding; green plants primarily use this mode of nutrition to make their own food. A wrong answer like \"eating other plants\" reveals that the student is confusing autotrophic nutrition with heterotrophic or herbivorous feeding habits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a green potted plant kept inside a dark cupboard for a week fails to maintain its growth, even if it is watered daily.",
+     "a": "Water alone is insufficient; autotrophic nutrition requires light energy to convert carbon dioxide and water into food. A wrong answer indicating that the plant died just from thirst shows the student does not understand that food synthesis (autotrophic nutrition) requires an external energy source (sunlight) alongside raw materials.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a Cuscuta (Amarbel) plant twining around a hedge and yellowish-orange in color. Can this plant prepare its own food using the autotrophic mode of nutrition? Give biological reasoning.",
+     "a": "No, Cuscuta cannot use the autotrophic mode because it lacks chlorophyll (evident from its yellow-orange color) and cannot trap sunlight to synthesize food, forcing it to adopt a parasitic heterotrophic mode instead. A student who says yes fails to connect the presence of green pigment (chlorophyll) to the ability of self-nourishment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a stray cow and a hibiscus plant in a colony garden acquire their organic carbon compounds (food). How does their mode of nutrition differ fundamentally?",
+     "a": "The hibiscus plant is autotrophic, synthesizing its own glucose from carbon dioxide and water using sunlight. The stray cow is heterotrophic, relying entirely on consuming organic matter synthesized by plants or other animals. A wrong answer suggesting both make food from sunlight reveals a major confusion between plant physiological processes and animal nutritional dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Plants do not need to eat anything because they absorb fully-formed food minerals directly from the garden soil through their roots.\" Is this biologically accurate?",
+     "a": "The statement is inaccurate; soil provides water and inorganic mineral nutrients, but the actual complex food (carbohydrates) is manufactured inside the plant's green tissues via autotrophic nutrition. A student who thinks soil contains pre-made food ignores the foundational role of synthesis from inorganic components.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental or physical observation framework to prove whether a newly discovered aquatic weed in a local pond uses autotrophic or heterotrophic nutrition. What would you test or look for?",
+     "a": "To prove autotrophic nutrition, one would verify if the weed is green (contains chlorophyll) and test whether it produces oxygen gas and starch when exposed to sunlight in a sealed container of water containing dissolved carbon dioxide. A poor answer would focus only on whether the plant is growing in mud, ignoring the requirement of internal synthesis mechanisms and energy transformation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

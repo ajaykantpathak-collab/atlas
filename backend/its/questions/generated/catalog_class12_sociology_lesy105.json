@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class12_sociology_lesy105",
+ "concepts": [
+  {
+   "id": "lesy105.1",
+   "title": "Social Inequality and the Three Forms of Capital",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Inequality and the Three Forms of Capital' refers to.",
+     "a": "Social inequality is social in three ways - it divides groups rather than individuals, it is not merely economic even though the two usually travel together, and it is systematic and structured rather than random. Following Bourdieu, valued resources take three forms of capital: economic capital of assets and income, cultural capital of qualifications and status, and social capital of networks of contacts - and each form can be converted into the others, as when a well-off family buys expensive education or influential friends open doors to a well-paid job.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Inequality and the Three Forms of Capital'.",
+     "a": "Hard work matters, but group differences explain why back-breaking labour rarely lifts life chances - no rich man keeps the stone-breaking jobs for himself.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Social Inequality and the Three Forms of Capital', in plain ASCII form.",
+     "a": "social_senses = group_not_individual + not_only_economic + systematic_structured ; capitals = economic + cultural + social (convertible)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.2",
+   "title": "Social Stratification and Its Three Principles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Stratification and Its Three Principles' refers to.",
+     "a": "Social stratification is the system by which a society ranks categories of people in a hierarchy that shapes identity, relationships and access to resources. Three principles explain it: it belongs to society rather than to individual differences, arising once a surplus exists beyond basic needs; it persists over generations because position is ascribed through the family and protected by endogamous marriage within the caste; and it is propped up by ideology - beliefs such as purity and pollution that make the hierarchy look fair or inevitable, with the privileged defending it most and the humiliated at the bottom likeliest to challenge it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Stratification and Its Three Principles'.",
+     "a": "Birth dictates opportunity in caste, and a hierarchy survives only while enough people see it as legitimate or unavoidable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Social Stratification and Its Three Principles', in plain ASCII form.",
+     "a": "stratification_principles = society_wide_system + persists_generations (ascribed + endogamy) + supported_by_ideology",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.3",
+   "title": "Prejudice, Stereotype, Discrimination and Social Exclusion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prejudice, Stereotype, Discrimination and Social Exclusion' refers to.",
+     "a": "Prejudice is a pre-judgement - an opinion formed before evidence, resting on hearsay and resisting correction, and it may be favourable as well as hostile. Stereotypes are the fixed, inflexible characterisations that feed prejudice, treating a whole community as one person with one trait, as in the colonial labels of martial or cowardly races. Discrimination is prejudice put into behaviour - refusing a job or a house - and is hard to prove because it hides behind claims of merit. Social exclusion is broader still: the systematic, structural cutting off of individuals or groups from full involvement in society, denying access to education, health, transport, banking, social security and even the police or judiciary.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prejudice, Stereotype, Discrimination and Social Exclusion'.",
+     "a": "Exclusion is never accidental - it grows from structural features of society, so legislation alone cannot end it without constant social campaigns.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prejudice, Stereotype, Discrimination and Social Exclusion', in plain ASCII form.",
+     "a": "chain = prejudice (attitude) + stereotype (fixed_image) -> discrimination (behaviour) -> social_exclusion (structural_cutoff)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.4",
+   "title": "Caste-Based Inequality: Untouchability and the Poverty Tables",
+   "questions": [
+    {
+     "q": "Using the method 'Caste-Based Inequality: Untouchability and the Poverty Tables', work with: all_poverty_share = 0.75, sc_poverty_share = 0.75, st_poverty_share = 0.2. Carry the chain through step by step and give the final value of sc_poverty_ratio.",
+     "a": "1 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Caste-Based Inequality: Untouchability and the Poverty Tables' and work with: all_poverty_share = 0.5, sc_poverty_share = 0.35, st_poverty_share = 0.6. Carry the chain through step by step and give the final value of sc_poverty_ratio.",
+     "a": "0.7 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Caste-Based Inequality: Untouchability and the Poverty Tables' refers to.",
+     "a": "The caste system legitimises discrimination by tying occupation and status to birth; untouchability is its most vicious edge, placing so-called impure castes outside the hierarchy itself, with three dimensions - exclusion, humiliation-subordination and exploitation such as forced unpaid labour. The data confirm the tie of caste to class: in 2011-12, 45.3 per cent of rural Scheduled Tribes lived below the poverty line against an all-group rural average of 25.4, and in 1999-2000 only 1.4 per cent of rural STs were affluent against 31.7 per cent of rural Sikhs - so the privileged remain overwhelmingly upper caste while the disadvantaged cluster in the lower castes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste-Based Inequality: Untouchability and the Poverty Tables'.",
+     "a": "Distance pollution once punished even a shadow, and Harijan, Dalit and Adivasi each replaced abusive names with terms of dignity and assertion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Caste-Based Inequality: Untouchability and the Poverty Tables', in plain ASCII form.",
+     "a": "poverty_ratio = group_poverty_share / all_group_poverty_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.5",
+   "title": "Race and Caste Compared: Apartheid Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Race and Caste Compared: Apartheid Arithmetic', work with: black_earnings = 150, homeland_land_share = 0.35, homeland_population_share = 0.45, white_earnings = 45. Carry the chain through step by step and give the final value of earnings_multiple.",
+     "a": "0.3 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Race and Caste Compared: Apartheid Arithmetic' and work with: black_earnings = 300, homeland_land_share = 0.6, homeland_population_share = 0.4, white_earnings = 400. Carry the chain through step by step and give the final value of earnings_multiple.",
+     "a": "1.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Race and Caste Compared: Apartheid Arithmetic' refers to.",
+     "a": "South Africa's apartheid, law from 1948, stratified society by race much as caste does in India: the white minority of about one in seven denied the Black majority citizenship, land and voice; Black workers earned on average one-fourth of white earnings; and millions were forced into Bantustan homelands covering only 14 per cent of the land while Blacks formed close to 80 per cent of the population. Only in 1994, after decades of struggle under the African National Congress and Nelson Mandela, did Black majority rule arrive, though economic capital remains largely in white hands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Race and Caste Compared: Apartheid Arithmetic'.",
+     "a": "Homelands gave the Black majority less than a fifth of the average land per head, and whites out-earned blacks four to one - the arithmetic of racial caste.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Race and Caste Compared: Apartheid Arithmetic', in plain ASCII form.",
+     "a": "land_per_head_ratio = homeland_land_share / homeland_population_share ; earnings_multiple = white_earnings / black_earnings",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.6",
+   "title": "Reservations, Anti-Discrimination Laws and OBC Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reservations, Anti-Discrimination Laws and OBC Politics' refers to.",
+     "a": "The state answers caste discrimination with reservations - seats in legislatures, government jobs and educational institutions set aside for Scheduled Castes and Tribes in proportion to their population share, extended to the Other Backward Classes from the early 1990s. A legal arc runs from the Caste Disabilities Removal Act of 1850, through Article 17 of the 1950 Constitution abolishing untouchability and the 1989 Prevention of Atrocities Act, to the Ninety-Third Amendment of 2005 bringing OBC reservation to higher education. OBC politics itself grew from the sidelined Kaka Kalelkar report of 1953 to the B.P. Mandal Commission, implemented in 1990, turning their roughly 41 per cent share of the national population into national political influence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reservations, Anti-Discrimination Laws and OBC Politics'.",
+     "a": "Laws passed again and again prove that legislation alone cannot end a social practice - Dalit and OBC movements push change from below.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reservations, Anti-Discrimination Laws and OBC Politics', in plain ASCII form.",
+     "a": "reservation_spheres = legislatures + government_jobs + educational_institutions ; obc_trajectory = kalelkar_1953 sidelined -> mandal_report -> implemented_1990",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.7",
+   "title": "Adivasi Struggles: Forests, Displacement and Identity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Adivasi Struggles: Forests, Displacement and Identity' refers to.",
+     "a": "Adivasis, coined in the 1930s to mean original inhabitants, lost their forest rights when the colonial government reserved forests for timber from the late nineteenth century, and independent India's capital-intensive industrialisation then acquired their mineral-rich lands for dams and mines - the Sardar Sarovar on the Narmada and Polavaram on the Godavari displaced hundreds of thousands - a process critics call internal colonialism. Tribal movements against outsiders called dikus and the state won statehood for Jharkhand and Chattisgarh, which adivasis could demand because, unlike Dalits, they were concentrated in contiguous areas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adivasi Struggles: Forests, Displacement and Identity'.",
+     "a": "Being Adivasi names shared experiences of lost forests, alienated land and repeated displacement rather than any ancient essence.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adivasi Struggles: Forests, Displacement and Identity', in plain ASCII form.",
+     "a": "adivasi_losses = forest_rights_reserved + land_acquired_for_dams_mines + displacement_without_rehabilitation ; wins = jharkhand + chattisgarh statehood",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.8",
+   "title": "Struggle for Women's Equality and Rights",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Struggle for Women's Equality and Rights' refers to.",
+     "a": "Gender inequality is social, not natural - matrilineal societies like the Nairs and Khasis, and African women farmers and traders, prove no biology blocks women's inheritance or leadership. The nineteenth-century middle-class reform movements fought sati under Raja Rammohun Roy, widow remarriage through Ranade, caste-plus-gender oppression through Jyotiba Phule, and Muslim social reform through Sir Syed Ahmed Khan; women themselves wrote back, from Tarabai Shinde's Stree Purush Tulana of 1882 to Rokeya Sakhawat Hossain's Sultana's Dream of 1905, an early feminist science fiction. The 1931 Karachi Session pledged equal rights for women, and the movement re-emerged in the 1970s around modern issues such as media representation, unequal development, legal reform and the falling child sex ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Struggle for Women's Equality and Rights'.",
+     "a": "Once the right to education was conceded, confining women to household curricula became impossible - and the twenty-first century adds new battles like the declining child sex ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Struggle for Women's Equality and Rights', in plain ASCII form.",
+     "a": "reform_sites = anti_sati_roy + widow_remarriage_ranade + phule_caste_gender + sir_syed_education ; women_voices = tarabai_1882 + rokeya_1905 ; karachi_1931 = equal_rights_pledge",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy105.9",
+   "title": "Disability as a Social Construction",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Disability as a Social Construction' refers to.",
+     "a": "The differently abled are disabled not only by impairment but by a society built without them - buildings without ramps, schooling split into segregated streams, courts reached only by stairs. Anita Ghai likens their invisibility to Ellison's Invisible Man; culture deepens it by reading disability as fate or retribution for past karma and labelling people bechara. Replacing crippled or retarded with visually impaired or physically challenged shifts attention to the social model: disablement lies in the construction of society, and disability and poverty feed each other, leaving disabled people among the poorest - which is why Census 2011 widened its count to eight types of disability against five in 2001.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disability as a Social Construction'.",
+     "a": "We are disabled by steps at the courthouse and by two-stream schooling, not merely by body or fate - and the disabled themselves forced the public rethinking.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Disability as a Social Construction', in plain ASCII form.",
+     "a": "social_model = society_renders_disabled (built_environment + segregated_schooling + labels) ; poverty_link = disability <-> poverty two_way",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

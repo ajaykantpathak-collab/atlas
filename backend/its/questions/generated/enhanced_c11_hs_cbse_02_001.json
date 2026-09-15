@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_02_001",
+   "title": "c11_hs_cbse_02_001",
+   "questions": [
+    {
+     "q": "A student writes these \"I am\" statements: \"I am 5'6\" tall. I am a good listener. I am a daughter. I am scared of dogs. I am Hindu.\" Classify each statement as Personal Self or Social Self dimension. Explain your reasoning for any two.",
+     "a": "**Correct classification:** \"I am 5'6\" tall\" → Personal Self (bodily characteristic unique to individual). \"I am a good listener\" → Personal Self (mental/behavioural trait). \"I am a daughter\" → Social Self (role defined by relationship to parents). \"I am scared of dogs\" → Personal Self (emotional response). \"I am Hindu\" → Social Self (cultural/religious group membership). **Reasoning for two:** \"Daughter\" requires the existence of parents — it is inherently relational. \"Hindu\" implies shared identity with a community — it is a social category. **Wrong answer reveals:** If a student classifies \"daughter\" as Personal Self, they confuse *individual traits* with *relational roles*. If they classify \"good listener\" as Social Self, they mistake a *skill* for a *role*. Both errors show inability to distinguish \"attributes I possess\" from \"positions I occupy in relation to others.\"",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT textbook states: \"The personal self has those aspects which relate only to you while the social self refers to those aspects where you are involved with others.\" A student argues: \"But my personality traits like 'being friendly' only exist when I'm with others — so isn't 'friendly' a social self aspect?\" Evaluate this argument using the textbook's distinction.",
+     "a": "**Correct evaluation:** The student's argument confuses *context of expression* with *definitional nature*. \"Friendly\" is a **personal self** aspect because it describes a *dispositional trait* belonging to the individual — it is *how* they tend to behave, not *a role* they occupy. The social self comprises *roles and group memberships* (daughter, student, Hindu, team captain) that structurally require others to exist. A trait like friendliness can be *expressed* socially but is *owned* personally. **Wrong answer reveals:** If the student agrees with the argument, they conflate *social behaviour* with *social identity*. This is a senior-secondary error: failing to distinguish between *psychological attributes* (personal self) and *structural positions* (social self). The textbook explicitly lists \"mental abilities\" and \"feelings\" under personal self — these are often expressed socially but remain personal dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Read the following case: *Rohan, 16, describes himself: \"I am a science student. I am terrible at physics. I am the cricket captain. I am short-tempered. I am a Rajput.\"* Map each description to one of these five categories from the NCERT Activity 1 analysis: (a) Physical/bodily self, (b) Feelings/emotions, (c) Mental abilities, (d) Social relationships/roles, (e) Agentic self (doer). One category will be used twice.",
+     "a": "**Correct mapping:** \"I am a science student\" → (d) Social role. \"I am terrible at physics\" → (c) Mental abilities (self-assessment of cognitive skill). \"I am the cricket captain\" → (d) Social role (leadership position in group). \"I am short-tempered\" → (b) Feelings/emotions (emotional tendency). \"I am a Rajput\" → (d) Social role (caste/community identity). **Category used twice:** (d) Social relationships/roles — appears three times actually (student, captain, Rajput). **Wrong answer reveals:** If \"terrible at physics\" is mapped to (b) Emotions, the student confuses *self-evaluation of ability* with *feeling*. If \"Rajput\" is mapped to (a) Physical, they confuse *social identity* with *bodily trait*. This tests whether the student can operationalise the NCERT's five analytical categories from Activity 1 — a skill needed for board exam \"analyse the dimensions\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: **Self-concept** vs. **Self-esteem** using the NCERT definitions. Then explain: Can a person have an accurate self-concept but low self-esteem? Give a concrete adolescent example.",
+     "a": "**Comparison:** Self-concept = *descriptive* answer to \"Who am I?\" (qualities, feelings, thoughts, capabilities) — it is **cognitive/content-based**. Self-esteem = *evaluative* judgment of oneself against internalised standards (largely society-influenced) — it is **affective/value-based**. Self-concept says \"I am average at maths\"; self-esteem says \"I am disappointed/ashamed of being average at maths.\" **Yes, accurate self-concept + low self-esteem is possible.** Example: *Priya, 17, realistically knows (accurate self-concept): \"I score 60% in chemistry, I'm not athletic, I have two close friends.\" But she judges herself harshly against societal standards of \"topper, sporty, popular\" → low self-esteem.* **Wrong answer reveals:** If the student says \"No, accurate self-concept means high self-esteem,\" they conflate *accuracy of self-knowledge* with *positivity of self-evaluation* — a classic senior-secondary confusion between *cognitive* and *affective* components. Board exams often ask: \"Distinguish with example\" — this tests that distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using NCERT concepts: *\"Adolescents in traditional Indian communities have a weaker sense of self because they define themselves as 'we' (daughter, sister) rather than 'I' (independent individual).\"*",
+     "a": "**Critique:** The statement imposes a **Western individualistic bias** on the Indian cultural context. NCERT Section 2C.2 explicitly states: \"Many Indians define themselves primarily in one or the other roles they play — son/daughter, mother/father... they often speak of themselves in terms of the family and community — as 'we' rather than as 'I'.\" This is **not weaker selfhood** but a **different configuration of the social self dimension**. In collectivist cultures, the social self is *more elaborated* and *more central* to identity, while the personal self may be less explicitly articulated. The adolescent *has* a sense of self — it is *interdependent* rather than *independent*. **Wrong answer reveals:** If the student agrees with the statement, they commit **ethnocentric evaluation** — judging a collectivist self-construal by individualist standards. This is a critical board-exam error: failing to recognise cultural relativity of self-dimensions. NCERT emphasizes \"impact of cultural influences will vary from family to family and person to person\" — not that one is weaker.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own \"I am\" profile with exactly 10 statements that collectively represent **all five NCERT analytical categories** (physical, emotional, mental, social, agentic) **at least once each**, and include **both personal and social self dimensions**. Label each statement with its category and dimension (P/S).",
+     "a": "**Expected answer criteria:** 10 statements covering: ≥1 Physical (P), ≥1 Emotional (P), ≥1 Mental (P), ≥2 Social (S) [since roles + group membership], ≥1 Agentic (P), with clear P/S labels. Example: \"I am 165 cm tall (Physical, P). I feel anxious before exams (Emotional, P). I can solve calculus problems (Mental, P). I am a class monitor (Social, S). I am a Bharatanatyam dancer (Social, S). I volunteer at an NGO (Agentic, P). I value honesty (Values, P). I am a younger brother (Social, S). I write poetry (Agentic, P). I am Marathi (Social, S).\" **Poor answer reveals:** Missing categories (e.g., no Agentic statements) shows the student hasn't internalised the NCERT's analytical framework. All statements as Social (S) shows over-identification with roles — common in collectivist adolescents but indicates lack of personal self differentiation. Statements without labels show inability to meta-cognitively categorise self-knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

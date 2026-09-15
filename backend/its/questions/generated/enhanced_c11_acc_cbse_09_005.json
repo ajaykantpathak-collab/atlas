@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_005",
+   "title": "c11_acc_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the journal entry for providing depreciation on machinery at 10% p.a. when machinery appears in the trial balance at ₹2,00,000. Also state the dual effect of this entry on final accounts.",
+     "a": "Correct answer: Journal entry: Depreciation A/c Dr. ₹20,000 To Machinery A/c ₹20,000. Dual effect: (1) ₹20,000 debited to Profit & Loss Account as expense, reducing net profit. (2) Machinery shown in Balance Sheet at ₹1,80,000 (₹2,00,000 - ₹20,000). A wrong answer like \"Machinery A/c Dr. To Depreciation A/c\" reveals the student confuses the direction of value flow – they think asset increases when depreciation is charged. Writing \"Cash A/c Dr.\" reveals they think depreciation involves cash outflow, confusing it with asset purchase or maintenance expense.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Depreciation is a cash expense because the asset loses value, so we must pay cash to replace it.\" Explain why this statement is incorrect using the accrual concept and the matching principle.",
+     "a": "Correct explanation: Depreciation is a non-cash expense. The cash outflow occurred when the asset was originally purchased. Depreciation allocates that past cost over the asset's useful life to match the expense with the revenue it helps generate each period (matching principle). No cash leaves the business when depreciation is recorded. The replacement of asset is a separate future capital expenditure decision, not the current period's depreciation. A wrong answer that agrees with the student reveals confusion between capital expenditure (asset purchase) and revenue expenditure (depreciation), and failure to understand that accrual accounting records expenses when incurred, not when paid.",
+     "self_check": true
+    },
+    {
+     "q": "Machinery was purchased on 1st July 2023 for ₹5,00,000. Depreciation is charged at 10% p.a. on straight-line method. The accounting year ends 31st March 2024. Calculate the depreciation for the year ended 31st March 2024 and show the adjustment entry.",
+     "a": "Correct answer: Machinery used for 9 months (July to March). Depreciation = ₹5,00,000 × 10% × 9/12 = ₹37,500. Entry: Depreciation A/c Dr. ₹37,500 To Machinery A/c ₹37,500. A wrong answer of ₹50,000 (full year) reveals the student ignores pro-rata calculation for part-year usage. A wrong entry crediting Depreciation A/c reveals confusion about which account increases/decreases. An answer showing machinery at ₹5,00,000 in Balance Sheet (without deduction) reveals the student doesn't understand the dual effect on the asset's carrying value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on net profit and asset value in Year 1 and Year 2 for a machine costing ₹1,00,000 depreciated at 20% p.a. under: (a) Straight Line Method, (b) Written Down Value Method. Assume no additions/disposals.",
+     "a": "Correct analysis: SLM: Year 1 dep = ₹20,000, asset value = ₹80,000; Year 2 dep = ₹20,000, asset value = ₹60,000. Profit reduces by ₹20,000 each year. WDV: Year 1 dep = ₹20,000, asset value = ₹80,000; Year 2 dep = ₹16,000 (20% of ₹80,000), asset value = ₹64,000. Profit reduces by ₹20,000 in Year 1 but only ₹16,000 in Year 2. WDV charges higher depreciation in early years. A wrong answer showing same depreciation under both methods reveals the student doesn't understand the base difference (original cost vs. written-down value). An answer saying WDV profit reduction increases in Year 2 reveals confusion about diminishing balance calculation.",
+     "self_check": true
+    },
+    {
+     "q": "\"Depreciation creates a fund for asset replacement.\" Evaluate this statement. Is it true, false, or partially true? Justify with reference to the purpose of depreciation accounting.",
+     "a": "Correct evaluation: False. Depreciation is an allocation of cost, not a valuation or fund creation exercise. It reduces profit and asset book value but does not set aside cash. The cash generated from operations (which includes non-cash depreciation added back) may or may not be retained for replacement. Replacement depends on business decisions and cash availability. The statement confuses depreciation (accounting allocation) with sinking fund or depreciation fund (specific appropriation of profit). A student calling it \"true\" reveals the classic misconception that depreciation = cash reserve. A \"partially true\" answer without distinguishing accounting allocation from cash appropriation reveals incomplete understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic adjustment scenario for a Class 11 problem where: (a) an asset was purchased mid-year, (b) depreciation rate is given, (c) old provision for depreciation exists in trial balance, and (d) the question asks for adjustment entry, P&L treatment, and Balance Sheet presentation. Write the full problem statement with numbers.",
+     "a": "Good answer example: \"Trial Balance shows: Plant & Machinery ₹10,00,000 (purchased 1st Oct 2023), Provision for Depreciation ₹1,20,000 (cr). Additional info: Charge depreciation @ 15% p.a. on SLM. Accounting year ends 31st March 2024.\" Steps: 1) Depreciation for 6 months = ₹10,00,000 × 15% × 6/12 = ₹75,000. 2) Entry: Depreciation A/c Dr. ₹75,000 To Provision for Depreciation A/c ₹75,000. 3) P&L: Debit ₹75,000. 4) Balance Sheet: Plant & Machinery ₹10,00,000 Less Provision (₹1,20,000 + ₹75,000) = ₹8,05,000. A poor answer that ignores the existing provision or calculates full-year depreciation reveals inability to handle accumulated depreciation and pro-rata together.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

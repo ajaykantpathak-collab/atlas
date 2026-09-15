@@ -1,0 +1,250 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 10,
+ "chapter_title": "भारति, जय, विजयकरे!",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.110.1.1",
+   "title": "निराला और छायावाद: मुक्त छंद का प्रयोग",
+   "section": "1",
+   "definition": "सूर्यकांत त्रिपाठी 'निराला' (1899-1961) छायावादी कवियों में पहले हैं जिन्होंने मुक्त छंद का प्रयोग किया; उनकी रचनाओं - अनामिका, परिमल, गीतिका, कुकुरमुत्ता - में दार्शनिकता, विद्रोह, क्रांति, प्रेम की तरलता और प्रकृति का विराट चित्र साथ-साथ चलते हैं तथा उपेक्षितों-पीड़ितों के प्रति गहरी सहानुभूति भरी है।",
+   "formula": "-",
+   "key_idea": "निराला का काव्य विद्रोह और सौंदर्य का संगम है - मुक्त छंद उसकी स्वतंत्र आत्मा की आवाज़ है।",
+   "textbook_ref": "ihga110.txt lines 1-14 (निराला का परिचय) तथा lines 15-24 (कविता की प्रस्तावना)",
+   "question_patterns": [
+    "Nirala ka parichay aur unki mukhya rachnaein likhiye",
+    "mukt chhand se kya tatyap hota hai",
+    "chhayavad mein Nirala ka kya sthan hai",
+    "Nirala ki rachnaon mein kaun kaun se bhaav hain",
+    "uppekshit aur pedit ke prati Nirala ki drishti kaisi thi",
+    "Nirala ne sabse pehle mukt chhand ka prayog kyon kiya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिचय के आधार रखिए",
+     "explain": "जन्मस्थान, रचनाएँ और छायावादी स्थान - तीनों बिंदु बताइए।"},
+    {"step": 2, "action": "विशेषताएँ गिनाइए",
+     "explain": "दार्शनिकता, विद्रोह, प्रेम और प्रकृति - चार धाराएँ एक साथ हैं।"},
+    {"step": 3, "action": "मुक्त छंद जोड़िए",
+     "explain": "परंपरागत छंद से मुक्ति ही उनकी क्रांतिकारी सोच का काव्य-रूप है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.1.2",
+   "title": "'भारति, जय, विजयकरे!': विजय की कामना और संबोधन",
+   "section": "1",
+   "definition": "कवि आरंभ में ही 'भारति, जय, विजयकरे!' कहकर भारत को विजयश्री देने की कामना करता है; 'कनक-शस्य-कमलधरे!' संबोधन उसे सोने जैसी फसलें और कमल धारण करने वाली भूमि बताता है - जिसमें भारत की कृषि-परंपरा, श्रम का सौंदर्य और समृद्धि तीनों की झलक है।",
+   "formula": "-",
+   "key_idea": "विजय की प्रार्थना केवल गौरव की नहीं, उत्पादन और श्रम की सभ्यता की भी स्तुति है।",
+   "textbook_ref": "ihga110.txt lines 15-18 (प्रस्तावना) तथा lines 25-26 (कविता की पहली पंक्तियाँ)",
+   "question_patterns": [
+    "kanak shasy kamal dhare ka bhavarth kya hai",
+    "bharati ko kisse aur kis roop mein sambodhit kiya gaya",
+    "vijay shri ki kamna ka kya arth hai",
+    "krishi parampara ka saundarya kaise dikhta hai",
+    "shasay aur kamal ka pratik kya hai",
+    "kavi bharat ko kis roop mein dekhta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संबोधन की पहचान कीजिए",
+     "explain": "भारति में सरस्वती, वाणी और भारतमाता - तीनों अर्थ निहित हैं।"},
+    {"step": 2, "action": "शब्दों को खोलिए",
+     "explain": "कनक-शस्य = सोने जैसी फसलें, कमलधरे = कमल धारण करने वाली।"},
+    {"step": 3, "action": "भावार्थ बाँधिए",
+     "explain": "कृषि-समृद्धि ही भारत की शाश्वत विजय की नींव है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.1.3",
+   "title": "भारत का देवी-स्वरूप: सागर द्वारा चरण-धुलाई का बिंब",
+   "section": "1",
+   "definition": "कविता में भारत ऐसी देवी प्रतीत होती है जिसके पवित्र चरणों को लंका-पदतल के शतदल पर गरजते सागर का जल धोता है; 'स्तव कर बहु-अर्थ-भरे' कहकर कवि समुद्र के शोर को भारत की स्तुति बताता है - प्रकृति यहाँ चेतन साधन बन जाती है।",
+   "formula": "-",
+   "key_idea": "भारतभूमि जीवित, चेतन देवी-सत्ता के रूप में प्रस्तुत है - यही मानवीकरण की कला है।",
+   "textbook_ref": "ihga110.txt lines 18-20 (प्रस्तावना में देवी-बिंब) तथा lines 27-31 (लंका पदतल... स्तव कर बहु-अर्थ-भरे)",
+   "question_patterns": [
+    "sagar bharat ke charan kyon dho raha hai",
+    "lanka padtal shatdal ka bhavarth samjhaiye",
+    "garjit ormi sagar jal ka kya arth hai",
+    "bharti ko devi roop mein kyon chitra gaya",
+    "stava kara bahuarth bhare ka arth likhiye",
+    "prakriti ka manavikaran kaise hua hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "बिंब का क्षेत्र पहचानिए",
+     "explain": "लंका से लेकर समुद्री सीमा तक भारत का दक्षिणी विस्तार चित्रित है।"},
+    {"step": 2, "action": "चेतनता का भाव देखिए",
+     "explain": "सागर की गर्जन ही भारत के चरणों में स्तव गायन है।"},
+    {"step": 3, "action": "मानवीकरण बताइए",
+     "explain": "भूमि को देवी बनाकर कवि उसमें जीवन और पवित्रता का आरोप करता है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.1.4",
+   "title": "प्रकृति के आभूषण: वसन, अंचल, हार और मुकुट",
+   "section": "1",
+   "definition": "कवि भारत की भौगोलिक सुषमा को देवी की साज-सज्जा में ढालता है - तरु-तृण-वन-लता उसके वसन हैं, अंचल में सुमन खचित हैं, गंगा की धवल धार गले का ज्योतिर्जल-हार है और शुभ्र हिम-तुषार मुकुट है - पूरा देश अलंकृत दिव्य चित्र बन जाता है।",
+   "formula": "-",
+   "key_idea": "नदी-पर्वत-वन सब देवी के आभूषण हैं - प्रकृति-संरक्षण ही इस दृष्टि में देशभक्ति है।",
+   "textbook_ref": "ihga110.txt lines 32-37 (तरु-तृण... मुकुट शुभ्र हिम-तुषार) तथा lines 20-21 (प्रस्तावना)",
+   "question_patterns": [
+    "bharat ke vason aur abhushan kaun kaun se hain",
+    "ganga ko haar kyon kaha gaya hai",
+    "mukut shubhra him tushar ka kya arth hai",
+    "taru trin van lata vasan ka bhaav samjhaiye",
+    "anchal mein suman kiska pratik hai",
+    "prakriti ke chitra se kavi ka kya sandesh hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "आभूषण-क्रम पहचानिए",
+     "explain": "वसन, सुमन-अंचल, गंगा-हार और हिम-मुकुट की तारतम्यता देखिए।"},
+    {"step": 2, "action": "प्रतीक के अर्थ रखिए",
+     "explain": "हिमालय मुकुट और गंगा हार - दोनों भारत की शोभा के शिखर हैं।"},
+    {"step": 3, "action": "संदेश निकालिए",
+     "explain": "यह चित्रण पर्यावरण-चेतना और देशभक्ति को जोड़कर खड़ा करता है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.1.5",
+   "title": "'प्राण प्रणव ओंकार' और 'शतमुख-शतरव': चेतन भारत की ध्वनि",
+   "section": "1",
+   "definition": "भारत का प्राण प्रणव ओंकार है जो उदार दिशाओं में ध्वनित हो रहा है और 'शतमुख-शतरव-मुखरे' पंक्ति में सौ मुखों और सौ ध्वनियों की गूँज व्यक्त है - यह भारत की विविध भाषाओं, पर्वों और विचारों की समृद्धि का प्रतीक है जो 'एक भारत, श्रेष्ठ भारत' की संकल्पना को साकार करता है।",
+   "formula": "-",
+   "key_idea": "अनेक स्वर और विचार - विविधता ही भारत की एकता का आधार-स्वर है।",
+   "textbook_ref": "ihga110.txt lines 21-22 (प्रस्तावना: ओंकार की गूँज) तथा lines 38-40 (कविता की अंतिम पंक्तियाँ)",
+   "question_patterns": [
+    "pran pranav omkar ka kya arth hai",
+    "dhvanit dishayen udar ka bhaav samjhaiye",
+    "shatmukh shatrav mukhure ka bhavarth likhiye",
+    "bharat ki bahusvarata ka pratik kya hai",
+    "ek bharat shreshth bharat ka sankalp kaise sakaar hota hai",
+    "vividh parv utsav aur reeti rivaj ki ekta kaise banti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "ध्वनि-परत पकड़िए",
+     "explain": "ओंकार भारत की आत्मा का आधार-स्वर है।"},
+    {"step": 2, "action": "संख्या-प्रतीक देखिए",
+     "explain": "शत-शब्द की आवृत्ति अनंतता और बहुत्व दोनों का संकेत है।"},
+    {"step": 3, "action": "एकता का निष्कर्ष बाँधिए",
+     "explain": "सौ ध्वनियाँ एक ही गूँज बनती हैं - यही विविधता में एकता है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.1.6",
+   "title": "कविता का सौंदर्य: चित्रात्मक भाषा, अलंकार और संस्कृतनिष्ठ शब्दावली",
+   "section": "1",
+   "definition": "कविता की भाषा संस्कृतनिष्ठ और समासयुक्त है; अनुप्रास अलंकार 'शतमुख-शतरव' में और रूपक अलंकार 'मुकुट शुभ्र हिम-तुषार' में स्पष्ट है - हिमालय को मुकुट कहकर उपमेय में उपमान का अभेद आरोप हुआ है जिससे भारत की छवि भव्य और दिव्य बन जाती है।",
+   "formula": "-",
+   "key_idea": "संस्कृतनिष्ठ शब्द और अलंकार मिलकर कविता को स्तोत्र की गरिमा देते हैं।",
+   "textbook_ref": "ihga110.txt lines 95-104 (कविता का सौंदर्य) तथा lines 174-189 (अलंकार - समझ और प्रयोग)",
+   "question_patterns": [
+    "shatmukh shatrav mein kaun sa alankar hai",
+    "mukut shubhra him tushar mein roopak kaise hai",
+    "anupras aur roopak mein kya antar hai",
+    "kavita ki bhasha sanskritnishth kyon hai",
+    "chitratmak bhasha ka kya matlab hai",
+    "alankar bhav ki bhavyata kaise badhate hain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "ध्वनि-अलंकार पहचानिए",
+     "explain": "'श' वर्ण की बार-बार आवृत्ति ही अनुप्रास है।"},
+    {"step": 2, "action": "भेद-आरोप देखिए",
+     "explain": "हिमालय का मुकुट बनना - बिना 'जैसे' शब्द का अभेद-आरोप रूपक है।"},
+    {"step": 3, "action": "भाषा-गरिमा जोड़िए",
+     "explain": "तत्सम शब्दावली कविता को वेदमंत्रों जैसा ओज देती है।"}
+   ]
+  },
+  {
+   "id": "ihga.110.2.1",
+   "title": "समास: समस्त पद और विग्रह",
+   "section": "2",
+   "definition": "समास का अर्थ संक्षेप है - दो या अनेक शब्दों के मेल से बना नया शब्द; पहला पद पूर्वपद, दूसरा उत्तरपद और बना हुआ शब्द समस्त पद कहलाता है; कविता के 'कनक-शस्य' (सोने जैसी फसलें), 'शतदल' (कमल), 'ज्योतिर्जल' (प्रकाश का जल) जैसे सामासिक पदों को खोलना समास-विग्रह है।",
+   "formula": "-",
+   "key_idea": "समस्त पद अर्थ को सघन करता है और विग्रह उसका छिपा संबंध खोलता है।",
+   "textbook_ref": "ihga110.txt lines 153-172 (समास - समस्त पद एवं विग्रह)",
+   "question_patterns": [
+    "samas se kya tatyap hota hai",
+    "samast pad aur vigrah mein kya antar hai",
+    "shatdal aur jyotirjal ka samas vigrah kijiye",
+    "kanak shasy ka arth aur vigrah likhiye",
+    "purvapad aur uttarapad kya hote hain",
+    "kavita ke samasik padon ka vigrah kijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संक्षेप का नियम रखिए",
+     "explain": "दो शब्दों का मेल एक शब्द बन जाए तो समास है।"},
+    {"step": 2, "action": "पद-नाम जोड़िए",
+     "explain": "पहला अंग पूर्वपद, दूसरा उत्तरपद और फल समस्त पद है।"},
+    {"step": 3, "action": "विग्रह से पुष्टि कीजिए",
+     "explain": "खुले रूप में संबंध-शब्द सामने आते हैं, जैसे शतदल = सौ दलों वाला (कमल)।"}
+   ]
+  },
+  {
+   "id": "ihga.110.2.2",
+   "title": "देशप्रेम की काव्य-धारा: 'जय जय भारतमाता'",
+   "section": "1",
+   "definition": "साथ-साथ पढ़े गए मैथिलीशरण गुप्त के अंश में हिमालय को ऊँचा, दर्द भरा हिया कहा गया है जो अपनी आग दबाकर भी हमें हरा रखता है; निराला की देवी-भारती और गुप्त की त्यागी हिमालय-भारतमाता - दोनों में देशप्रेम और प्रकृति का संगम दिखता है।",
+   "formula": "-",
+   "key_idea": "हिमालय का सहनशील त्याग ही भारतमाता के उदार चरित्र का पर्वत-रूप है।",
+   "textbook_ref": "ihga110.txt lines 199-228 (जय जय भारतमाता का अंश)",
+   "question_patterns": [
+    "jay jay bharat mata mein himalay ka kya chitra hai",
+    "uchcha hiya himalay mein kaisa darad bhara hai",
+    "aag dabakar humein hara rakhna ka kya arth hai",
+    "Gupt aur Nirala ke deshbhakti chitran mein kya samanta hai",
+    "bharat mata ki karuna ka pratik kya hai",
+    "deshprem ki kavya dhara ka parichay dijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "बिंब पहचानिए",
+     "explain": "हिमालय अपने दर्द को दबाकर सौ झरनों से पानी देता है।"},
+    {"step": 2, "action": "त्याग का भाव जोड़िए",
+     "explain": "माता के स्नेह और सहनशीलता का पर्वतीय प्रतीक है यह चित्रण।"},
+    {"step": 3, "action": "दोनों कविताओं को जोड़िए",
+     "explain": "दोनों कवि प्रकृति को देश की आत्मा के प्रतीक के रूप में गाते हैं।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "ihga110.txt lines 48-79 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय तथा अर्थ-भाव)",
+   "questions": [
+    "'भारति, जय, विजयकरे' कविता में विशेष रूप से किसकी प्रशंसा की गई है?",
+    "'कनक-शस्य-कमल धरे' पंक्ति का भावार्थ क्या है?",
+    "समस्त विश्व में भारत के महत्व का उद्घोष करने वाली पंक्तियाँ कौन-सी हैं?",
+    "कविता की भाषा और शैली किस विशेषता से संपन्न है?",
+    "'लंका पदतल शतदल, गर्जितोर्मि सागर-जल धोता शुचि चरण युगल' का अर्थ और भाव स्पष्ट कीजिए।"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "ihga110.txt lines 87-94 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "कविता में कवि की किस भावना की अभिव्यक्ति मिलती है?",
+    "क्या आप मानते हैं कि प्रकृति का संरक्षण करना भी देशप्रेम का काम है? क्यों?",
+    "'मुकुट शुभ्र हिम-तुषार' में हिमालय को भारत का मुकुट क्यों बताया गया है?"
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "ihga110.txt lines 153-189 (व्याकरण - समास और अलंकार)",
+   "questions": [
+    "कविता से चुने गए शतदल, ज्योतिर्जल, शतमुख, सागरजल के समास-विग्रह लिखिए।",
+    "कविता में अनुप्रास अलंकार वाली पंक्तियाँ खोजकर लिखिए।",
+    "रूपक अलंकार वाली पंक्तियाँ चुनकर बताइए कि कवि ने किस प्राकृतिक वस्तु को भारत का रूप माना है।"
+   ]
+  }
+ ]
+}

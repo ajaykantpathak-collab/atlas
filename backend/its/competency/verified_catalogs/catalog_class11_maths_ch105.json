@@ -1,0 +1,868 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Linear Inequalities",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh105.txt",
+ "concepts": [
+  {
+   "id": "kemh105.5.2.1",
+   "title": "Definition of Inequalities",
+   "section": "5.2",
+   "definition": "A mathematical statement that compares two numerical values or algebraic expressions using order symbols like less than, greater than, or their inclusive counterparts.",
+   "formula": "a < b, a > b, a <= b, a >= b",
+   "key_idea": "Inequalities represent ranges or constraints rather than fixed equality.",
+   "textbook_ref": "kemh105.txt lines 40-60",
+   "question_patterns": [
+    "identify if the statement is an inequality",
+    "differentiate between strict and slack inequalities",
+    "write an inequality for the given condition",
+    "what is a literal inequality",
+    "Explain the method of Definition of Inequalities."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the comparison symbol",
+     "explain": "Check if the expression uses <, >, <=, or >=."
+    },
+    {
+     "step": 2,
+     "action": "classify the inequality",
+     "explain": "If it uses < or >, it is strict; if it uses <= or >=, it is slack."
+    },
+    {
+     "step": 3,
+     "action": "verify the inequality statement",
+     "explain": "Confirm that the two sides of the inequality are correctly ordered and that the comparison symbol matches the stated condition."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.1",
+   "title": "Rules for Solving Inequalities",
+   "section": "5.3",
+   "definition": "Fundamental operations allowed on inequalities: adding/subtracting any number, and multiplying/dividing by positive numbers preserves the sign, while multiplying/dividing by negative numbers reverses it.",
+   "formula": "if a < b and c < 0, then ac > bc",
+   "key_idea": "The inequality sign flips only when multiplying or dividing by a negative value.",
+   "textbook_ref": "kemh105.txt lines 110-130",
+   "question_patterns": [
+    "what happens when you multiply an inequality by a negative number",
+    "state the rules for solving linear inequalities",
+    "apply Rule 2 to solve the expression",
+    "why does the sign reverse in inequalities",
+    "Explain the method of Rules for Solving Inequalities."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply addition or subtraction",
+     "explain": "Add or subtract the same number on both sides without changing the sign."
+    },
+    {
+     "step": 2,
+     "action": "apply multiplication or division",
+     "explain": "If the multiplier is positive, keep the sign; if negative, reverse the sign."
+    },
+    {
+     "step": 3,
+     "action": "verify the solution set",
+     "explain": "Check the resulting inequality by substituting a test value to confirm the direction of the inequality sign is correct."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.2",
+   "title": "Algebraic Solution of Linear Inequality in One Variable",
+   "section": "5.3",
+   "definition": "Finding the set of all real numbers, integers, or natural numbers that satisfy a linear inequality by isolating the variable.",
+   "formula": "ax + b < c => x < (c - b) / a",
+   "key_idea": "Isolate the variable x using inverse operations while respecting the sign reversal rule.",
+   "textbook_ref": "kemh105.txt lines 135-160",
+   "question_patterns": [
+    "solve the inequality for x",
+    "find the solution set for natural numbers",
+    "calculate the value of x for which the expression is true",
+    "solve 30x < 200 when x is an integer",
+    "Explain the method of Algebraic Solution of Linear Inequality in One Variable."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "isolate the variable term",
+     "explain": "Subtract the constant b from both sides.",
+     "compute": "c - b"
+    },
+    {
+     "step": 2,
+     "action": "solve for x",
+     "explain": "Divide by the coefficient a. Note: if a is negative, reverse the inequality sign.",
+     "compute": "rhs_adj / a"
+    },
+    {
+     "step": 3,
+     "action": "express the solution set",
+     "explain": "Write the solution as an interval or set, restricting to the required domain such as natural numbers or integers if specified."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving algebraic solution of linear inequality in one variable.",
+     "solution": "Step 1: isolate the variable term. Step 2: solve for x. Step 3: express the solution set. Working: c - b, rhs_adj / a.",
+     "answer": "Algebraic Solution of Linear Inequality in One Variable applied step by step gives the required result."
+    },
+    {
+     "question": "Apply algebraic solution of linear inequality in one variable to a fresh example and interpret the result.",
+     "solution": "Step 1: isolate the variable term. Step 2: solve for x. Step 3: express the solution set. Working: c - b, rhs_adj / a.",
+     "answer": "The method of algebraic solution of linear inequality in one variable leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.4",
+   "title": "Minimum Marks for Target Average",
+   "section": "5.3",
+   "definition": "Determining the lowest score needed in a final exam to achieve a specific average across multiple tests.",
+   "formula": "x >= (target_avg * total_count) - current_sum",
+   "key_idea": "The sum of all scores divided by the number of exams must meet or exceed the target average.",
+   "textbook_ref": "kemh105.txt lines 210-220",
+   "question_patterns": [
+    "find the minimum marks needed to get an average of at least 60",
+    "what score is required in the fifth exam to reach a target average",
+    "calculate the marks for the annual exam given previous scores",
+    "how much should a student score to maintain a grade",
+    "Explain the method of Minimum Marks for Target Average."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate required total sum",
+     "explain": "Multiply the target average by the total number of examinations.",
+     "compute": "target_avg * count"
+    },
+    {
+     "step": 2,
+     "action": "find current sum",
+     "explain": "Add up the marks obtained in previous exams.",
+     "compute": "sum_marks"
+    },
+    {
+     "step": 3,
+     "action": "calculate minimum marks",
+     "explain": "Subtract the current sum from the required total sum.",
+     "compute": "total_req - current_sum"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving minimum marks for target average.",
+     "solution": "Step 1: calculate required total sum. Step 2: find current sum. Step 3: calculate minimum marks. Working: target_avg * count, sum_marks, total_req - current_sum.",
+     "answer": "Minimum Marks for Target Average applied step by step gives the required result."
+    },
+    {
+     "question": "Apply minimum marks for target average to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate required total sum. Step 2: find current sum. Step 3: calculate minimum marks. Working: target_avg * count, sum_marks, total_req - current_sum.",
+     "answer": "The method of minimum marks for target average leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.5",
+   "title": "Consecutive Odd or Even Number Pairs",
+   "section": "5.3",
+   "definition": "Finding pairs of consecutive integers (x, x+2) that satisfy constraints on their individual values and their sum.",
+   "formula": "x > k and x + (x + 2) < S",
+   "key_idea": "Set up a system of inequalities based on the magnitude of the numbers and their combined sum.",
+   "textbook_ref": "kemh105.txt lines 225-240",
+   "question_patterns": [
+    "find all pairs of consecutive odd natural numbers larger than 10 with sum less than 40",
+    "determine pairs of consecutive even integers with sum greater than 11",
+    "calculate possible values for consecutive odd integers",
+    "find pairs of integers satisfying sum and magnitude constraints",
+    "Explain the method of Consecutive Odd or Even Number Pairs."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine upper limit for the smaller number",
+     "explain": "Solve 2x + 2 < S for x.",
+     "compute": "(max_sum - 2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "identify lower limit",
+     "explain": "The smaller number must be greater than the given threshold k.",
+     "compute": "min_threshold"
+    },
+    {
+     "step": 3,
+     "action": "list valid pairs",
+     "explain": "Find all integer values of x satisfying x_lower < x < x_upper, then form the pairs (x, x+2) and verify both constraints are met."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving consecutive odd or even number pairs.",
+     "solution": "Step 1: determine upper limit for the smaller number. Step 2: identify lower limit. Step 3: list valid pairs. Working: (max_sum - 2) / 2, min_threshold.",
+     "answer": "Consecutive Odd or Even Number Pairs applied step by step gives the required result."
+    },
+    {
+     "question": "Apply consecutive odd or even number pairs to a fresh example and interpret the result.",
+     "solution": "Step 1: determine upper limit for the smaller number. Step 2: identify lower limit. Step 3: list valid pairs. Working: (max_sum - 2) / 2, min_threshold.",
+     "answer": "The method of consecutive odd or even number pairs leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.6",
+   "title": "Solving Double Inequalities",
+   "section": "Misc",
+   "definition": "Solving expressions where a variable term is bounded between two values simultaneously.",
+   "formula": "L <= ax + b < R",
+   "key_idea": "Perform the same operations on all three parts of the inequality to isolate the variable in the middle.",
+   "textbook_ref": "kemh105.txt lines 300-308",
+   "question_patterns": [
+    "solve the double inequality",
+    "find the range of x for -8 <= 5x - 3 < 7",
+    "calculate the interval for the expression",
+    "solve the simultaneous inequality",
+    "Explain the method of Solving Double Inequalities."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "adjust the bounds",
+     "explain": "Subtract the constant b from all parts of the inequality.",
+     "compute": "l_bound - b"
+    },
+    {
+     "step": 2,
+     "action": "adjust the right bound",
+     "explain": "Subtract the constant b from the right bound.",
+     "compute": "r_bound - b"
+    },
+    {
+     "step": 3,
+     "action": "divide by coefficient",
+     "explain": "Divide all parts by the coefficient a to find the range of x.",
+     "compute": "l_adj / a"
+    },
+    {
+     "step": 4,
+     "action": "find upper x",
+     "explain": "Divide the right adjusted bound by a.",
+     "compute": "r_adj / a"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving solving double inequalities.",
+     "solution": "Step 1: adjust the bounds. Step 2: adjust the right bound. Step 3: divide by coefficient. Step 4: find upper x. Working: l_bound - b, r_bound - b, l_adj / a, r_adj / a.",
+     "answer": "Solving Double Inequalities applied step by step gives the required result."
+    },
+    {
+     "question": "Apply solving double inequalities to a fresh example and interpret the result.",
+     "solution": "Step 1: adjust the bounds. Step 2: adjust the right bound. Step 3: divide by coefficient. Step 4: find upper x. Working: l_bound - b, r_bound - b, l_adj / a, r_adj / a.",
+     "answer": "The method of solving double inequalities leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.7",
+   "title": "Temperature Conversion Range",
+   "section": "Misc",
+   "definition": "Converting a temperature range from Celsius to Fahrenheit or vice versa using linear formulas within an inequality.",
+   "formula": "F = (9/5)C + 32",
+   "key_idea": "Substitute the conversion formula into the given range inequality and solve for the target unit.",
+   "textbook_ref": "kemh105.txt lines 310-325",
+   "question_patterns": [
+    "find the range of temperature in Fahrenheit if Celsius is between 30 and 35",
+    "convert the temperature interval to Celsius",
+    "calculate the Fahrenheit range for the given solution",
+    "what is the range in degree Celsius for a solution between 68F and 77F",
+    "Explain the method of Temperature Conversion Range."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert lower bound",
+     "explain": "Apply the conversion formula to the lower limit.",
+     "compute": "(9 * c_low / 5) + 32"
+    },
+    {
+     "step": 2,
+     "action": "convert upper bound",
+     "explain": "Apply the conversion formula to the upper limit.",
+     "compute": "(9 * c_high / 5) + 32"
+    },
+    {
+     "step": 3,
+     "action": "write the temperature range",
+     "explain": "Combine the converted lower and upper bounds into an interval representing the full temperature range in the target unit.",
+     "compute": "(f_low, f_high)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving temperature conversion range.",
+     "solution": "Step 1: convert lower bound. Step 2: convert upper bound. Step 3: write the temperature range. Working: (9 * c_low / 5) + 32, (9 * c_high / 5) + 32, (f_low, f_high).",
+     "answer": "Temperature Conversion Range applied step by step gives the required result."
+    },
+    {
+     "question": "Apply temperature conversion range to a fresh example and interpret the result.",
+     "solution": "Step 1: convert lower bound. Step 2: convert upper bound. Step 3: write the temperature range. Working: (9 * c_low / 5) + 32, (9 * c_high / 5) + 32, (f_low, f_high).",
+     "answer": "The method of temperature conversion range leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.8",
+   "title": "Mixture Concentration Bounds",
+   "section": "Misc",
+   "definition": "Calculating the volume of a solution of a certain concentration that must be added to an existing solution to reach a target concentration range.",
+   "formula": "vol_added = vol_e * (conc_t - conc_e) / (conc_a - conc_t)",
+   "key_idea": "The total acid content in the final mixture is the sum of acid in the individual components.",
+   "textbook_ref": "kemh105.txt lines 330-355",
+   "question_patterns": [
+    "how many litres of 30% acid must be added to 600 litres of 12% solution",
+    "find the range of volume to be added to reach a target concentration",
+    "calculate the amount of water to dilute a solution",
+    "determine the volume of 2% boric acid to add to 8% solution",
+    "Explain the method of Mixture Concentration Bounds."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator for threshold",
+     "explain": "Multiply existing volume by the difference between target and current concentration.",
+     "compute": "vol_e * (conc_t - conc_e)"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator for threshold",
+     "explain": "Find the difference between the added solution concentration and the target concentration.",
+     "compute": "conc_a - conc_t"
+    },
+    {
+     "step": 3,
+     "action": "find volume limit",
+     "explain": "Divide the numerator by the denominator to find the threshold volume.",
+     "compute": "num / den"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving mixture concentration bounds.",
+     "solution": "Step 1: calculate numerator for threshold. Step 2: calculate denominator for threshold. Step 3: find volume limit. Working: vol_e * (conc_t - conc_e), conc_a - conc_t, num / den.",
+     "answer": "Mixture Concentration Bounds applied step by step gives the required result."
+    },
+    {
+     "question": "Apply mixture concentration bounds to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate numerator for threshold. Step 2: calculate denominator for threshold. Step 3: find volume limit. Working: vol_e * (conc_t - conc_e), conc_a - conc_t, num / den.",
+     "answer": "The method of mixture concentration bounds leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh105.5.3.9",
+   "title": "IQ Range Calculation",
+   "section": "Misc",
+   "definition": "Calculating the range of mental age for a specific chronological age group given their IQ range.",
+   "formula": "MA = (IQ * CA) / 100",
+   "key_idea": "IQ is the ratio of mental age to chronological age multiplied by 100.",
+   "textbook_ref": "kemh105.txt lines 425-430",
+   "question_patterns": [
+    "find the range of mental age for 12 year old children with IQ between 80 and 140",
+    "calculate the mental age range",
+    "what is the mental age if IQ is 100 and chronological age is 10",
+    "determine the bounds for mental age",
+    "Explain the method of IQ Range Calculation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate lower mental age",
+     "explain": "Multiply lower IQ bound by chronological age and divide by 100.",
+     "compute": "iq_min * ca / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate upper mental age",
+     "explain": "Multiply upper IQ bound by chronological age and divide by 100.",
+     "compute": "iq_max * ca / 100"
+    },
+    {
+     "step": 3,
+     "action": "express the mental age range",
+     "explain": "Combine the lower and upper mental age bounds into an interval representing the full range of possible mental ages.",
+     "compute": "(ma_low, ma_high)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving iq range calculation.",
+     "solution": "Step 1: calculate lower mental age. Step 2: calculate upper mental age. Step 3: express the mental age range. Working: iq_min * ca / 100, iq_max * ca / 100, (ma_low, ma_high).",
+     "answer": "IQ Range Calculation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply iq range calculation to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate lower mental age. Step 2: calculate upper mental age. Step 3: express the mental age range. Working: iq_min * ca / 100, iq_max * ca / 100, (ma_low, ma_high).",
+     "answer": "The method of iq range calculation leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh105.txt lines 135-150",
+   "concept": "kemh105.5.3.2",
+   "question_type": "compute",
+   "question_pattern": "Solve 30x < 200 when x is a natural number",
+   "extracted_variables": {
+    "a": "30",
+    "b": "0",
+    "c": "200"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "isolate the variable term",
+     "explain": "Subtract the constant b from both sides.",
+     "compute": "rhs_adj = c - b"
+    },
+    {
+     "step": 2,
+     "action": "solve for x",
+     "explain": "Divide by the coefficient a.",
+     "compute": "x_limit = rhs_adj / a"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh105.txt lines 210-220",
+   "concept": "kemh105.5.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find minimum marks in annual exam for average of {target_avg} given {m1} and {m2}",
+   "extracted_variables": {
+    "target_avg": "60",
+    "count": "3",
+    "sum_marks": "110"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate required total sum",
+     "compute": "total_req = target_avg * count"
+    },
+    {
+     "step": 2,
+     "action": "calculate minimum marks",
+     "compute": "min_marks = total_req - sum_marks"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Algebraic Solution of Linear Inequality in One Variable chain with c = 2, b = 3, rhs_adj = 5, a = 4. What value does it produce?",
+   "extracted_variables": {
+    "c": "2",
+    "b": "3",
+    "rhs_adj": "5",
+    "a": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "isolate the variable term",
+     "explain": "Subtract the constant b from both sides.",
+     "compute": "rhs_adj = c - b"
+    },
+    {
+     "step": 2,
+     "action": "solve for x",
+     "explain": "Divide by the coefficient a. Note: if a is negative, reverse the inequality sign.",
+     "compute": "x_limit = rhs_adj / a"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Minimum Marks for Target Average chain with target_avg = 2, count = 3, sum_marks = 5, total_req = 4, current_sum = 7. What value does it produce?",
+   "extracted_variables": {
+    "target_avg": "2",
+    "count": "3",
+    "sum_marks": "5",
+    "total_req": "4",
+    "current_sum": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate required total sum",
+     "explain": "Multiply the target average by the total number of examinations.",
+     "compute": "total_req = target_avg * count"
+    },
+    {
+     "step": 2,
+     "action": "find current sum",
+     "explain": "Add up the marks obtained in previous exams.",
+     "compute": "current_sum = sum_marks"
+    },
+    {
+     "step": 3,
+     "action": "calculate minimum marks",
+     "explain": "Subtract the current sum from the required total sum.",
+     "compute": "min_marks = total_req - current_sum"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Consecutive Odd or Even Number Pairs chain with max_sum = 2, min_threshold = 3. What value does it produce?",
+   "extracted_variables": {
+    "max_sum": "2",
+    "min_threshold": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine upper limit for the smaller number",
+     "explain": "Solve 2x + 2 < S for x.",
+     "compute": "x_upper = (max_sum - 2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "identify lower limit",
+     "explain": "The smaller number must be greater than the given threshold k.",
+     "compute": "x_lower = min_threshold"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Consecutive Odd or Even Number Pairs chain with max_sum = 2, min_threshold = 3. What value does it produce?",
+   "extracted_variables": {
+    "max_sum": "2",
+    "min_threshold": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine upper limit for the smaller number",
+     "explain": "Solve 2x + 2 < S for x.",
+     "compute": "x_upper = (max_sum - 2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "identify lower limit",
+     "explain": "The smaller number must be greater than the given threshold k.",
+     "compute": "x_lower = min_threshold"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Solving Double Inequalities chain with l_bound = 2, b = 3, r_bound = 5, l_adj = 4, a = 7, r_adj = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "l_bound": "2",
+    "b": "3",
+    "r_bound": "5",
+    "l_adj": "4",
+    "a": "7",
+    "r_adj": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adjust the bounds",
+     "explain": "Subtract the constant b from all parts of the inequality.",
+     "compute": "l_adj = l_bound - b"
+    },
+    {
+     "step": 2,
+     "action": "adjust the right bound",
+     "explain": "Subtract the constant b from the right bound.",
+     "compute": "r_adj = r_bound - b"
+    },
+    {
+     "step": 3,
+     "action": "divide by coefficient",
+     "explain": "Divide all parts by the coefficient a to find the range of x.",
+     "compute": "x_min = l_adj / a"
+    },
+    {
+     "step": 4,
+     "action": "find upper x",
+     "explain": "Divide the right adjusted bound by a.",
+     "compute": "x_max = r_adj / a"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Solving Double Inequalities chain with l_bound = 2, b = 3, r_bound = 5, l_adj = 4, a = 7, r_adj = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "l_bound": "2",
+    "b": "3",
+    "r_bound": "5",
+    "l_adj": "4",
+    "a": "7",
+    "r_adj": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adjust the bounds",
+     "explain": "Subtract the constant b from all parts of the inequality.",
+     "compute": "l_adj = l_bound - b"
+    },
+    {
+     "step": 2,
+     "action": "adjust the right bound",
+     "explain": "Subtract the constant b from the right bound.",
+     "compute": "r_adj = r_bound - b"
+    },
+    {
+     "step": 3,
+     "action": "divide by coefficient",
+     "explain": "Divide all parts by the coefficient a to find the range of x.",
+     "compute": "x_min = l_adj / a"
+    },
+    {
+     "step": 4,
+     "action": "find upper x",
+     "explain": "Divide the right adjusted bound by a.",
+     "compute": "x_max = r_adj / a"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Temperature Conversion Range chain with c_low = 2, c_high = 3. What value does it produce?",
+   "extracted_variables": {
+    "c_low": "2",
+    "c_high": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert lower bound",
+     "explain": "Apply the conversion formula to the lower limit.",
+     "compute": "f_low = (9 * c_low / 5) + 32"
+    },
+    {
+     "step": 2,
+     "action": "convert upper bound",
+     "explain": "Apply the conversion formula to the upper limit.",
+     "compute": "f_high = (9 * c_high / 5) + 32"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Temperature Conversion Range chain with c_low = 2, c_high = 3. What value does it produce?",
+   "extracted_variables": {
+    "c_low": "2",
+    "c_high": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert lower bound",
+     "explain": "Apply the conversion formula to the lower limit.",
+     "compute": "f_low = (9 * c_low / 5) + 32"
+    },
+    {
+     "step": 2,
+     "action": "convert upper bound",
+     "explain": "Apply the conversion formula to the upper limit.",
+     "compute": "f_high = (9 * c_high / 5) + 32"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Mixture Concentration Bounds chain with vol_e = 2, conc_t = 3, conc_e = 5, conc_a = 4, num = 7, den = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "vol_e": "2",
+    "conc_t": "3",
+    "conc_e": "5",
+    "conc_a": "4",
+    "num": "7",
+    "den": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator for threshold",
+     "explain": "Multiply existing volume by the difference between target and current concentration.",
+     "compute": "num = vol_e * (conc_t - conc_e)"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator for threshold",
+     "explain": "Find the difference between the added solution concentration and the target concentration.",
+     "compute": "den = conc_a - conc_t"
+    },
+    {
+     "step": 3,
+     "action": "find volume limit",
+     "explain": "Divide the numerator by the denominator to find the threshold volume.",
+     "compute": "vol_limit = num / den"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Mixture Concentration Bounds chain with vol_e = 2, conc_t = 3, conc_e = 5, conc_a = 4, num = 7, den = 1.5. What value does it produce?",
+   "extracted_variables": {
+    "vol_e": "2",
+    "conc_t": "3",
+    "conc_e": "5",
+    "conc_a": "4",
+    "num": "7",
+    "den": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate numerator for threshold",
+     "explain": "Multiply existing volume by the difference between target and current concentration.",
+     "compute": "num = vol_e * (conc_t - conc_e)"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator for threshold",
+     "explain": "Find the difference between the added solution concentration and the target concentration.",
+     "compute": "den = conc_a - conc_t"
+    },
+    {
+     "step": 3,
+     "action": "find volume limit",
+     "explain": "Divide the numerator by the denominator to find the threshold volume.",
+     "compute": "vol_limit = num / den"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.9",
+   "question_type": "compute",
+   "question_pattern": "Apply the IQ Range Calculation chain with iq_min = 2, ca = 3, iq_max = 5. What value does it produce?",
+   "extracted_variables": {
+    "iq_min": "2",
+    "ca": "3",
+    "iq_max": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate lower mental age",
+     "explain": "Multiply lower IQ bound by chronological age and divide by 100.",
+     "compute": "ma_low = iq_min * ca / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate upper mental age",
+     "explain": "Multiply upper IQ bound by chronological age and divide by 100.",
+     "compute": "ma_high = iq_max * ca / 100"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh105.5.3.9",
+   "question_type": "compute",
+   "question_pattern": "Apply the IQ Range Calculation chain with iq_min = 2, ca = 3, iq_max = 5. What value does it produce?",
+   "extracted_variables": {
+    "iq_min": "2",
+    "ca": "3",
+    "iq_max": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate lower mental age",
+     "explain": "Multiply lower IQ bound by chronological age and divide by 100.",
+     "compute": "ma_low = iq_min * ca / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate upper mental age",
+     "explain": "Multiply upper IQ bound by chronological age and divide by 100.",
+     "compute": "ma_high = iq_max * ca / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "kemh105.txt lines 245-295",
+   "questions": [
+    "Solve 24x < 100 for natural numbers and integers.",
+    "Solve -12x > 30 for natural numbers and integers.",
+    "Solve 5x - 3 < 7 for integers and real numbers.",
+    "Solve 3(x - 1) <= 2(x - 3) for real x.",
+    "Find all pairs of consecutive odd positive integers smaller than 10 with sum more than 11."
+   ]
+  },
+  {
+   "id": "ex5.misc",
+   "source_ref": "kemh105.txt lines 400-435",
+   "questions": [
+    "Solve 2 <= 3x - 4 <= 5.",
+    "Solve -15 < 3(x - 2) / 5 <= 0.",
+    "A solution is to be kept between 68F and 77F. Find range in Celsius.",
+    "How many litres of water added to 1125L of 45% acid to get 25% to 30% mixture?",
+    "Find mental age range for 12 year olds with IQ between 80 and 140."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_005",
+   "title": "c12_math_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the equation of the normal to the curve y = f(x) at the point (x₀, y₀) when f'(x₀) = 2.",
+     "a": "The normal equation is y - y₀ = -1/2 (x - x₀). A wrong answer like y - y₀ = 2(x - x₀) reveals the student confuses tangent and normal slopes. Another common error is y - y₀ = -2(x - x₀), showing the student knows slopes are negative but forgets the reciprocal relationship for perpendicular lines.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the tangent to y = x² at (2, 4) as y = 4x. Is this correct? Explain why or why not using the point-slope form.",
+     "a": "No, it's incorrect. The correct tangent is y - 4 = 4(x - 2) → y = 4x - 4. The student's answer y = 4x passes through (0, 0), not (2, 4). This reveals the student computed the slope correctly (f'(2) = 4) but forgot to use the point-slope form with the actual point of tangency, instead using y = mx form which assumes the line passes through the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the tangent to the curve y = 3x² - 4x + 5 at the point where x = 2.",
+     "a": "Step 1: y = 3x² - 4x + 5, so y₀ = 3(4) - 8 + 5 = 9. Point is (2, 9).\nStep 2: f'(x) = 6x - 4, so f'(2) = 12 - 4 = 8. Slope m = 8.\nStep 3: Tangent: y - 9 = 8(x - 2) → y - 9 = 8x - 16 → y = 8x - 7.\nA wrong answer like y = 8x + 9 reveals the student used y = mx + c with c = y₀ instead of point-slope form. An answer of y = 8x - 16 shows they forgot to add y₀ after distributing.",
+     "self_check": true
+    },
+    {
+     "q": "The curve y = x³ - 3x has two tangents parallel to the line y = 6x - 1. Find their points of contact and compare their y-intercepts.",
+     "a": "f'(x) = 3x² - 3. Set equal to 6: 3x² - 3 = 6 → 3x² = 9 → x² = 3 → x = ±√3.\nPoints: (√3, 3√3 - 3√3) = (√3, 0) and (-√3, -3√3 + 3√3) = (-√3, 0).\nTangents: at (√3, 0): y = 6(x - √3) → y = 6x - 6√3; at (-√3, 0): y = 6(x + √3) → y = 6x + 6√3.\ny-intercepts are -6√3 and +6√3 (opposite signs, equal magnitude).\nA student finding only x = √3 misses the negative root, revealing they solved x² = 3 but forgot ±. A student getting different y-intercept magnitudes made an arithmetic error in point coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A solution claims: \"The normal to y = √x at (4, 2) has equation y - 2 = -4(x - 4) because f'(x) = 1/(2√x), f'(4) = 1/4, so normal slope = -4.\" Identify if this is correct and justify.",
+     "a": "The solution is correct. f'(x) = 1/(2√x), f'(4) = 1/4, tangent slope = 1/4, normal slope = -4. Point (4, 2) gives y - 2 = -4(x - 4). A student marking this incorrect might think √x derivative is 1/√x (forgetting 1/2), giving slope 1/2 and normal slope -2. Or they might confuse normal with tangent and write slope 1/4. The justification requires checking both derivative computation and negative reciprocal relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a curve has a vertical tangent at some point, and ask for both tangent and normal equations at that point. Specify the curve and the point.",
+     "a": "Example problem: \"Find tangent and normal to x = y² at (0, 0).\" \nSolution: dx/dy = 2y, at (0,0) dx/dy = 0 → dy/dx is undefined (vertical tangent). Tangent: x = 0 (y-axis). Normal: y = 0 (x-axis).\nA good answer shows understanding that vertical tangent means infinite slope, normal is horizontal. A poor answer attempts to use dy/dx formula and gets division by zero without interpreting it geometrically, or writes \"slope = ∞\" without giving proper line equations x = 0 and y = 0.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

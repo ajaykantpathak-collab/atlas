@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_003",
+   "title": "c11_phy_cbse_11_003",
+   "questions": [
+    {
+     "q": "State the First Law of Thermodynamics in equation form, define each symbol with its SI unit, and state the sign convention for heat supplied to the system and work done by the system.",
+     "a": "ΔQ = ΔU + ΔW where ΔQ = heat supplied to system (J), ΔU = change in internal energy (J), ΔW = work done by system (J). Sign convention: ΔQ > 0 when heat enters the system, ΔW > 0 when work is done by the system on surroundings. A wrong answer (e.g., ΔQ = ΔU – ΔW or missing sign convention) reveals confusion between the physics sign convention (system-centric) and the chemistry convention (surroundings-centric), or failure to recognise that both heat and work are energy in transit, not stored quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A gas in a cylinder is compressed adiabatically from volume V₁ to V₂. The work done on the gas is 500 J. What is the change in internal energy? Explain why the temperature of the gas rises even though no heat is supplied.",
+     "a": "For adiabatic process, ΔQ = 0. Work done ON the gas means ΔW = –500 J (since work done BY the system is negative). First Law: 0 = ΔU + (–500) → ΔU = +500 J. Temperature rises because internal energy of an ideal gas depends only on temperature (U ∝ T); the work done on the gas increases its microscopic kinetic energy. A wrong answer (e.g., ΔU = 0 or ΔU = –500 J) reveals misunderstanding of sign convention for work or the belief that temperature can only rise when heat is added, ignoring mechanical energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Two moles of an ideal gas expand isothermally at 300 K from 0.02 m³ to 0.05 m³. Calculate (a) the work done by the gas, (b) the heat absorbed, and (c) the change in internal energy. Use R = 8.31 J mol⁻¹ K⁻¹.",
+     "a": "(a) Isothermal: W = nRT ln(V₂/V₁) = 2 × 8.31 × 300 × ln(0.05/0.02) = 4986 × ln(2.5) = 4986 × 0.9163 = 4568 J.\n(b) For ideal gas isothermal, ΔU = 0 → Q = W = 4568 J.\n(c) ΔU = 0 (internal energy depends only on T).\nUnits: n (mol) × R (J/mol·K) × T (K) = J. A wrong answer (e.g., using W = PΔV without integration, or claiming ΔU ≠ 0) reveals failure to recognise that isothermal process for ideal gas requires calculus for work, or confusion that internal energy is a function of temperature only.",
+     "self_check": true
+    },
+    {
+     "q": "A system undergoes a cyclic process ABCA on a P-V diagram where AB is isobaric expansion, BC is isochoric cooling, and CA is isothermal compression. The net work done by the system in one cycle is 200 J. What is the net heat absorbed? If the heat absorbed during AB is 800 J and during BC is –300 J, find the heat exchanged during CA.",
+     "a": "For a cyclic process, ΔU = 0 (state variable). First Law: ΔQ_net = ΔW_net = 200 J.\nΔQ_net = Q_AB + Q_BC + Q_CA → 200 = 800 + (–300) + Q_CA → Q_CA = –300 J.\nHeat is released during isothermal compression. A wrong answer (e.g., Q_CA = +300 J or ignoring ΔU = 0 for cycle) reveals inability to apply the state-function property of internal energy to cyclic processes, or sign errors in heat exchange interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In an isochoric process, since no work is done, the First Law reduces to ΔQ = ΔU, so all heat supplied goes into increasing internal energy. Therefore, the temperature must always rise when heat is added in an isochoric process.\" Evaluate this statement for (i) an ideal gas and (ii) a real gas near condensation.",
+     "a": "(i) For ideal gas: Correct. U depends only on T, so ΔU > 0 → ΔT > 0 always.\n(ii) For real gas near condensation: Incorrect. During phase change at constant volume, heat supplied can go into potential energy (latent heat) without temperature change. The student's reasoning assumes U = f(T) only, which fails for real substances where U = U(T, V). A wrong evaluation reveals the misconception that \"internal energy depends only on temperature\" is universal, ignoring intermolecular potential energy contributions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a bicycle pump, a thermometer, and insulated tubing to demonstrate that work done on a gas increases its internal energy. Specify measurements, controls, and how you would calculate ΔU from your data.",
+     "a": "Rapidly compress air in an insulated pump (adiabatic approximation). Measure initial temperature T₁, final temperature T₂ after n strokes. Control: ensure no heat exchange (insulate pump, work quickly). For air (diatomic), C_V ≈ 5R/2 per mole. Estimate moles from initial P, V, T using PV = nRT. ΔU = n C_V (T₂ – T₁). Compare with work estimated from force × distance per stroke. A poor answer (e.g., ignoring insulation, using C_P instead of C_V, or not estimating moles) reveals gaps in connecting macroscopic measurements to microscopic energy change, or confusion between constant-volume and constant-pressure heat capacities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_007",
+   "title": "c7_geo_ch01_007",
+   "questions": [
+    {
+     "q": "Which regional subdivision of the Western Coastal Plain lies along the coast of Karnataka and northern Kerala?",
+     "a": "The Kanara coast (or Canara coast). A student who answers \"Coromandel\" or \"Malabar\" has confused the Eastern coast with the southern part of the Western coast, or failed to separate the specific sub-regions of the western seaboard (Konkan, Kanara, Malabar).",
+     "self_check": true
+    },
+    {
+     "q": "Why are there no major deltas formed by rivers on the Western Coastal Plain compared to the Eastern Coastal Plain?",
+     "a": "Rivers on the western side (like Narmada and Tapi) flow through rift valleys or short, steep slopes of the Western Ghats into the Arabian Sea, carrying less silt and moving too fast to form broad deltas. A student who thinks western rivers form large deltas misses the steep gradient of the Western Ghats and the short distance to the sea, which prevents deposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the width of the Western Coastal Plain with the Eastern Coastal Plain. How does this difference in width affect human settlement and agriculture?",
+     "a": "The Western Coastal Plain is narrow (averaging 10-25 km) because the Western Ghats run very close to the Arabian Sea, limiting large-scale agriculture to narrow valleys and backwaters while promoting fishing and port activities. The Eastern Coastal Plain is much broader (up to 120 km) because the Eastern Ghats are discontinuous and eroded, allowing wide river deltas (Mahanadi, Godavari, Krishna, Kaveri) that support intensive paddy cultivation and dense human settlements. A student who states both plains are equal in width ignores the topographic constraint of the Ghat mountain ranges.",
+     "self_check": true
+    },
+    {
+     "q": "Assess why backwaters (kayals) are prominent features of the Malabar Coast in Kerala, and evaluate their significance for local tourism and transportation.",
+     "a": "Kayals are shallow lagoons or backwaters formed by sandbars built up by river and wave action parallel to the coast. They are economically and socially significant because they provide tranquil inland waterways for traditional boat transport, support unique brackish-water fishing, and serve as the foundation for Kerala's thriving backwater tourism industry. A student who claims backwaters are formed entirely by glacial action confuses coastal depositional processes with high-altitude mountain geomorphology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regional development plan for a newly formed port settlement on the Konkan Coast, keeping in mind its physical limitations (narrow width, heavy rainfall, rocky terrain).",
+     "a": "A successful plan must account for narrow land strips by building elevated transport links, protecting against high seasonal monsoon rainfall with robust drainage, utilizing rocky natural harbors for maritime trade rather than wide flat land expansion, and practicing eco-sensitive tourism that preserves local biodiversity. A poor plan would propose expansive inland multi-crop agriculture or wide highway networks without considering the steep slopes of the Western Ghats.",
+     "self_check": true
+    },
+    {
+     "q": "[Question needed - generate a create level question]",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

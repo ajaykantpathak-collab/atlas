@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_005",
+   "title": "c11_bio_cbse_14_005",
+   "questions": [
+    {
+     "q": "What percentage of CO₂ is transported as bicarbonate in human blood, and which enzyme catalyses its formation inside erythrocytes?",
+     "a": "70% of CO₂ is transported as bicarbonate (HCO₃⁻), catalysed by carbonic anhydrase inside erythrocytes. A wrong answer (e.g., \"20-25% as bicarbonate\" or \"carbonic anhydrase in plasma\") reveals confusion between the three transport modes and mislocalisation of the enzyme — students often forget that carbonic anhydrase is concentrated in RBCs, not plasma, and that bicarbonate is the dominant form, not carbamino-haemoglobin.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why CO₂ binds to haemoglobin more readily at tissues than at alveoli, even though the binding site is the same.",
+     "a": "At tissues, high pCO₂ and low pO₂ favour carbamino-haemoglobin formation (Haldane effect); at alveoli, low pCO₂ and high pO₂ cause dissociation. A wrong answer focusing only on pCO₂ (\"high pCO₂ at tissues drives binding\") misses the critical role of pO₂ — the Haldane effect means deoxygenated haemoglobin has higher affinity for CO₂ than oxygenated haemoglobin. Students who omit pO₂'s influence cannot explain why CO₂ unloads efficiently at the lungs despite a modest pCO₂ gradient.",
+     "self_check": true
+    },
+    {
+     "q": "A person hyperventilates before a breath-hold dive. Predict how this affects CO₂ transport and the urge to breathe, referencing the bicarbonate equilibrium.",
+     "a": "Hyperventilation blows off CO₂, lowering blood pCO₂ and shifting the equilibrium CO₂ + H₂O ⇌ H₂CO₃ ⇌ HCO₃⁻ + H⁺ leftward, reducing [H⁺] (respiratory alkalosis). This delays the chemoreceptor-triggered urge to breathe (which responds to H⁺/CO₂), but does not increase O₂ stores. A wrong answer (\"hyperventilation increases O₂ so you can hold breath longer\") reveals the classic misconception that the breath-hold limit is set by O₂ lack rather than CO₂/H⁺ buildup — students confuse the driver of respiratory drive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direction of the chloride shift at tissues versus alveoli, and explain how it maintains electroneutrality during CO₂ transport.",
+     "a": "At tissues: HCO₃⁻ exits RBC → Cl⁻ enters (Hamburger phenomenon); at alveoli: HCO₃⁻ enters RBC → Cl⁻ exits. This counter-transport maintains electroneutrality as HCO₃⁻ moves down its concentration gradient. A wrong answer (e.g., \"Cl⁻ moves with HCO₃⁻ in same direction\") shows failure to grasp that anion exchange (Band 3 protein) is a strict 1:1 swap — students often memorise \"chloride shift\" as a phrase without understanding it solves the charge imbalance created by HCO₃⁻ efflux.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since CO₂ is more soluble than O₂, it diffuses faster across the alveolar membrane, so CO₂ transport in blood is less dependent on chemical conversion than O₂ transport.\"",
+     "a": "The statement is false. While CO₂ solubility is 20-25× higher, enabling rapid diffusion, 93% of CO₂ transport still requires chemical conversion (bicarbonate + carbamino) — only 7% dissolves physically. O₂ transport is 97% chemical (oxyhaemoglobin). A wrong evaluation (\"true because solubility helps diffusion\") conflates membrane diffusion rate with blood transport capacity — students confuse the physical diffusion step (where solubility matters) with the carriage step (where chemical binding dominates for both gases).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a pH indicator and exhaled air to demonstrate the CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ equilibrium shift, and explain what colour change you would observe when blowing into the solution versus when a plant photosynthesises in it.",
+     "a": "Use phenol red (red at pH 7.4, yellow below pH 6.8). Blowing exhaled air (high pCO₂) into water shifts equilibrium right → H⁺ increases → solution turns yellow. Placing a photosynthesising plant (e.g., Hydrilla) in it consumes CO₂, shifting equilibrium left → H⁺ decreases → solution turns red. A poor answer (e.g., \"colour changes but cannot explain direction\") reveals inability to link Le Chatelier's principle to the carbonic acid equilibrium — students treat the reaction as one-way rather than a reversible buffer system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

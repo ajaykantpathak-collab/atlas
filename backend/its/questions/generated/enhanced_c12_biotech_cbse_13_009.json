@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_009",
+   "title": "c12_biotech_cbse_13_009",
+   "questions": [
+    {
+     "q": "Define biopiracy in one sentence using the three essential elements: resource type, exploitation mechanism, and missing ethical/legal requirement.",
+     "a": "Biopiracy is the commercial exploitation of naturally occurring biochemical/genetic resources and associated traditional knowledge through patenting or other IPR claims without the prior informed consent and fair benefit-sharing with the indigenous communities who conserved and developed that knowledge. A wrong answer that only mentions \"stealing plants\" or \"patenting natural products\" reveals the student misses the crucial procedural injustice — the absence of consent and benefit-sharing — and confuses biopiracy with mere biological theft.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the US patent on turmeric's wound-healing use (granted 1995, revoked 1997) was a clear case of biopiracy, referencing the patent criteria of novelty and non-obviousness.",
+     "a": "The turmeric patent lacked novelty because Ayurvedic texts (e.g., Charaka Samhita, Sushruta Samhita) and centuries of documented traditional use in India explicitly describe turmeric paste for wound healing — this constitutes prior art. It also lacked non-obviousness because applying a known antiseptic/anti-inflammatory agent to wounds would be obvious to any practitioner skilled in traditional medicine. A wrong answer that says \"turmeric is natural so it can't be patented\" reveals a misconception: naturally occurring substances *can* be patented if isolated/purified/modified with inventive step (e.g., a novel curcumin derivative with enhanced bioavailability). The error here was claiming a *traditional use* as a novel invention.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company isolates a compound from a rare Himalayan plant used by local healers for altitude sickness. They file a patent on the compound's use for treating hypoxia, citing their own lab tests as evidence of efficacy. The healers' knowledge is not documented in any digital database. Does this constitute biopiracy? Justify using the Nagoya Protocol's core principles.",
+     "a": "Yes, this is biopiracy. The Nagoya Protocol requires (1) prior informed consent (PIC) from the indigenous community, (2) mutually agreed terms (MAT) for benefit-sharing, and (3) compliance with domestic access legislation (India's Biological Diversity Act 2002). The company obtained none of these. The absence of digital documentation does not negate the community's rights; TKDL exists precisely to prevent such exploitation by making traditional knowledge searchable as prior art. A wrong answer claiming \"no biopiracy because the compound was isolated in the lab\" confuses *discovery* of a molecule with *invention* of its therapeutic use — the inventive step relied entirely on the healers' lead, which was appropriated without acknowledgement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Neem (EPO patent revoked 2000) and Basmati (USPTO patent partially revoked 2001) cases. Identify the key difference in the *type of IPR challenged* and the *legal mechanism* used for revocation.",
+     "a": "Neem: Challenge was against a *patent* (on neem oil extraction as pesticide) at the European Patent Office (EPO) using *opposition proceedings* based on lack of novelty (prior art from Indian traditional texts). Basmati: Challenge was against a *trademark/patent hybrid* (RiceTec's patent on Basmati lines + use of the geographical name \"Basmati\") at USPTO using *re-examination* and *geographical indication* arguments — proving Basmati's unique qualities are tied to the Indian subcontinent's agro-climatic conditions and traditional farming. A wrong answer that says \"both were patent revocations\" misses that Basmati involved a *geographical indication* dimension, which is a *sui generis* IPR distinct from patents, and the legal strategy combined patent re-examination with GI protection advocacy.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"TKDL completely solves the biopiracy problem by preventing all wrongful patents on Indian traditional knowledge.\" Provide two specific limitations of TKDL as a defensive tool.",
+     "a": "The statement is false. Two limitations: (1) TKDL only covers *codified* traditional knowledge (Ayurveda, Unani, Siddha, Yoga) transcribed from texts — it excludes *oral* traditions, tribal/folk knowledge not in classical texts, and *farmers' varieties* developed through informal selection (e.g., many landraces). (2) TKDL is a *defensive* database for patent examiners; it cannot stop *misappropriation* that doesn't involve patent filing (e.g., unauthorized commercial use of genetic resources without patenting, or trademark misappropriation like \"Basmati\" on non-Indian rice). A wrong answer claiming \"TKDL has all traditional knowledge\" reveals ignorance of the vast undocumented oral heritage and the distinction between defensive prior art and positive protection (e.g., benefit-sharing agreements under the Biological Diversity Act).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step community-level protocol for a village in the Western Ghats to protect their traditional knowledge of a wild edible fruit with potential nutraceutical value, using only existing Indian legal frameworks (Biological Diversity Act, TKDL, GI Act). Explain how each step addresses a specific biopiracy vulnerability.",
+     "a": "Step 1: **Document & Register with BMC** — The village Biodiversity Management Committee (BMC) prepares a People's Biodiversity Register (PBR) entry for the fruit, recording local names, uses, harvest practices, and cultural significance. *Addresses vulnerability*: Creates legal evidence of prior art and community ownership under the Biological Diversity Act 2002, enabling benefit-sharing claims if a company accesses the resource. Step 2: **Submit to TKDL for Inclusion** — The BMC works with the State Biodiversity Board to format the PBR data into TKDL-compatible structure (IPC codes, keywords) for upload. *Addresses vulnerability*: Makes the knowledge searchable by international patent examiners, blocking novelty-based patents on the fruit's traditional uses. Step 3: **Pursue Geographical Indication (GI) Tag** — If the fruit's quality/reputation is essentially attributable to the Western Ghats' geography and traditional processing, file a GI application under the Geographical Indications of Goods Act 1999. *Addresses vulnerability*: Prevents trademark-style misappropriation (like \"Basmati\") by legally linking the product name to its terroir and traditional method. A poor answer that suggests \"just patent it themselves\" shows misunderstanding: patents require novelty/inventive step — traditional knowledge *cannot* be patented by the community because it lacks novelty; the goal is *defensive* protection, not offensive patenting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

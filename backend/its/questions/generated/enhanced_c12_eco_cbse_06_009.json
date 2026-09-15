@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_06_009",
+   "title": "c12_eco_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define \"monopolistic competition\" and state two features that distinguish it from both perfect competition and monopoly.",
+     "a": "Monopolistic competition is a market structure with many firms selling differentiated products that are close substitutes, free entry and exit, and some degree of price control. It differs from perfect competition because products are differentiated (not homogeneous) and firms face downward-sloping demand curves (not perfectly elastic). It differs from monopoly because there are many firms (not one) and entry barriers are low (not high). A wrong answer that says \"monopolistic competition is like monopoly because the name has monopoly\" reveals confusion between product differentiation (which gives limited market power) and barriers to entry (which give monopoly power).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a perfectly competitive firm earns only normal profit in the long run, while a monopolist can sustain supernormal profits, but a monopolistically competitive firm also earns only normal profit in the long run.",
+     "a": "In perfect competition, free entry and homogeneous products mean supernormal profits attract new firms, shifting market supply right, lowering price until P=min AC (normal profit). In monopoly, high barriers to entry prevent new firms from entering, so supernormal profits persist. In monopolistic competition, free entry allows new firms to enter when supernormal profits exist, but because products are differentiated, each firm's demand curve shifts left until it is tangent to AC (P=AC, normal profit) but not at min AC (excess capacity). A wrong answer that claims monopolistic competition earns supernormal profits in long run ignores the free entry condition; one that says monopoly earns normal profit ignores barriers to entry.",
+     "self_check": true
+    },
+    {
+     "q": "A perfectly competitive firm faces market price ₹50. Its total cost function is TC = 100 + 10Q + Q². A monopolist faces demand P = 100 - 2Q and has the same TC. Calculate the profit-maximizing output and profit for each. Show steps.",
+     "a": "**Perfect Competition:** P=MR=50. MC = dTC/dQ = 10+2Q. Set MR=MC → 50=10+2Q → Q=20. Profit = TR-TC = (50×20) - (100+10×20+20²) = 1000 - (100+200+400) = ₹300.\n**Monopoly:** TR = P×Q = (100-2Q)Q = 100Q-2Q². MR = dTR/dQ = 100-4Q. MC = 10+2Q. Set MR=MC → 100-4Q = 10+2Q → 6Q=90 → Q=15. P = 100-2×15 = ₹70. Profit = (70×15) - (100+10×15+15²) = 1050 - (100+150+225) = ₹575.\nA wrong answer using P=MC for monopoly (giving Q=30) confuses the monopoly's MR curve with the competitive firm's MR curve. A wrong answer forgetting fixed cost in profit calculation reveals confusion between economic profit and producer surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the allocative efficiency (P vs MC) and productive efficiency (output at min AC) of the three market structures in long-run equilibrium. Which structure achieves both? Which achieves neither? Explain the welfare implication.",
+     "a": "Perfect competition: P=MC (allocative efficiency) and output at min AC (productive efficiency) → achieves both. Monopoly: P>MC (allocative inefficiency, deadweight loss) and output not at min AC (productive inefficiency) → achieves neither. Monopolistic competition: P>MC (allocative inefficiency, deadweight loss) and output not at min AC (excess capacity, productive inefficiency) → achieves neither. Welfare implication: Perfect competition maximizes total surplus; monopoly and monopolistic competition create deadweight loss, but monopolistic competition also provides product variety which may partially offset welfare loss. A wrong answer claiming monopolistic competition achieves productive efficiency confuses tangency of demand and AC with min AC.",
+     "self_check": true
+    },
+    {
+     "q": "\"Monopolistic competition is socially wasteful because firms operate with excess capacity and charge P>MC.\" Evaluate this statement considering both efficiency and non-price competition benefits.",
+     "a": "The statement is partially correct but incomplete. Yes, monopolistic competition creates allocative inefficiency (P>MC) and productive inefficiency (excess capacity), leading to deadweight loss compared to perfect competition. However, it also generates benefits: product variety satisfies diverse consumer preferences, and non-price competition (innovation, advertising, quality) can shift demand curves and improve products over time. The net welfare effect depends on whether consumers value variety more than the efficiency loss. A purely efficiency-based judgment ignores the value of differentiated products. A wrong answer that says \"it is completely wasteful\" ignores consumer surplus from variety; one that says \"it is perfectly efficient\" ignores deadweight loss.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world Indian market example for each structure (perfect competition, monopoly, monopolistic competition). For each, identify the key feature that places it in that structure and predict what would happen to price and number of firms if the government removed all entry barriers.",
+     "a": "**Perfect competition:** Agricultural mandi for wheat — homogeneous product, many farmers, free entry. Removing barriers (already free) → no change.\n**Monopoly:** Indian Railways (long-distance passenger rail) — single seller, high barriers (capital, licensing). Removing barriers → private entry, price falls, number of firms increases, moves toward monopolistic competition or oligopoly.\n**Monopolistic competition:** Branded tea market (Tata Tea, Brooke Bond, local brands) — differentiated products, many sellers, free entry. Removing barriers (already free) → more brands enter, each firm's demand shifts left, price may fall slightly, number of firms increases, excess capacity grows.\nA poor answer that gives \"electricity distribution\" as perfect competition ignores regional monopoly; one that says \"removing barriers in monopoly leads to perfect competition\" ignores product differentiation and economies of scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

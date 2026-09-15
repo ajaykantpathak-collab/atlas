@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_008",
+   "title": "c11_cs_cbse_11_008",
+   "questions": [
+    {
+     "q": "In a client-server interaction, which entity initiates the communication and which entity waits passively for a request? Give one real-world example naming the client and the server explicitly.",
+     "a": "The client initiates the communication; the server waits passively (listens) for incoming requests. Example: When you use the Gmail app on your phone to check email, the Gmail app is the client and Google's mail server is the server. A wrong answer (e.g., \"server initiates\") reveals the student thinks servers push data automatically like a broadcast, confusing client-server with push notifications or peer-to-peer where either node can start.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a web browser is called a \"thin client\" in the context of client-server architecture, and give one situation where a \"thick client\" would be used instead.",
+     "a": "A thin client (like a browser) relies almost entirely on the server for processing and storage; it only handles display and user input. A thick client (like a desktop video editor or a game installed on your PC) does significant processing locally and only contacts the server for specific data (e.g., license verification, multiplayer sync). A wrong answer that says \"thin client means small screen size\" or \"thick client means heavy software\" shows confusion between hardware form-factor and architectural role.",
+     "self_check": true
+    },
+    {
+     "q": "A school uses a central file server. Teachers save lesson plans on it from their laptops; students open read-only copies from the computer lab. Identify the client(s) and server in this scenario. If the file server crashes at 10 AM, what happens to (a) a teacher trying to save a new file at 10:05 AM, and (b) a student who already opened a file at 9:55 AM? Justify.",
+     "a": "Clients: teachers' laptops and lab computers (they request file save/open). Server: central file server (provides storage service). (a) Teacher's save request fails—server is down, so no response. (b) Student's already-opened file may still be accessible locally (cached in RAM), but any further save or new open will fail. A wrong answer claiming the student loses the open file immediately reveals misunderstanding of client-side caching vs. server dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare client-server and peer-to-peer (P2P) architectures on these three parameters: (i) centralised control, (ii) scalability as number of users grows, (iii) fault tolerance when one node fails. Use a table or bullet points.",
+     "a": "(i) Centralised control: Client-server has it (server manages access, authentication, data consistency); P2P has none (each peer is equal). (ii) Scalability: Client-server degrades—server becomes bottleneck; P2P scales better—each new peer adds capacity. (iii) Fault tolerance: Client-server has single point of failure (server down = service down); P2P is resilient (other peers continue). A wrong answer that says \"P2P has centralised control\" or \"client-server scales infinitely\" shows the student hasn't grasped the architectural trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A startup chooses client-server architecture for their new food-delivery app instead of P2P. Evaluate this decision: list two advantages and one disadvantage they will face, specifically in the context of handling 10,000 simultaneous orders during a festival peak.",
+     "a": "Advantages: (1) Centralised order management—easy to track, assign delivery partners, apply surge pricing uniformly. (2) Data consistency—single source of truth for restaurant menus, user addresses, payment status. Disadvantage: (3) Server bottleneck—10,000 concurrent requests may overwhelm a single server; they must invest in load balancing or cloud auto-scaling (which adds cost/complexity). A wrong answer focusing only on \"easy to set up\" without addressing the peak-load risk shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple client-server interaction for a \"Digital Library\" system where students can search book titles and reserve a copy. Draw a labelled diagram (text description acceptable) showing the client, server, network, and the sequence of messages for a successful reservation. Include at least three distinct message types (e.g., SEARCH_REQUEST, SEARCH_RESULT, RESERVE_REQUEST, RESERVE_CONFIRMATION).",
+     "a": "Expected answer (text diagram):\n```\n[Student Laptop - CLIENT]                    [Library Server - SERVER]\n       |                                          |\n       |--- SEARCH_REQUEST(\"Python\") ----------->|\n       |<-- SEARCH_RESULT([BookID:101, \"Python Basics\"]) --|\n       |                                          |\n       |--- RESERVE_REQUEST(BookID:101, StudentID:S202) -->|\n       |<-- RESERVE_CONFIRMATION(ReservationID:R555) ------|\n       |                                          |\n```\nA poor answer that merges client and server into one box, omits the network, or uses only one message type reveals the student cannot decompose the interaction into discrete request-response steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

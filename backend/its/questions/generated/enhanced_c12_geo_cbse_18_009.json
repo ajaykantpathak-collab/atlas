@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_009",
+   "title": "c12_geo_cbse_18_009",
+   "questions": [
+    {
+     "q": "A student digitizes the boundary of a forest reserve as a series of connected vertices forming a closed polygon. Each vertex stores (x, y) coordinates. The attribute table stores the reserve name, area, and notification year. Which spatial data model does this represent, and what is the geometric primitive used?",
+     "a": "This represents the **vector data model** using a **polygon** geometric primitive. The explicit storage of coordinate vertices and the association of attributes with a discrete, bounded feature are hallmarks of vector representation. A wrong answer (e.g., \"raster\" or \"grid\") reveals the student confuses pixel-based grids with coordinate-based geometry, or does not recognize that a closed ring of vertices defines a polygon in vector topology.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a raster Digital Elevation Model (DEM) of the Himalayas at 30 m resolution require significantly more storage than a vector contour line layer of the same area, even though both represent terrain? Explain the structural reason.",
+     "a": "A raster DEM stores a value for **every cell** in a regular grid covering the entire extent (including valleys, ridges, and flat areas), so file size grows with the inverse square of resolution (halving cell size quadruples cells). Vector contours store **only the vertices** along lines of equal elevation — a sparse representation. A wrong answer citing \"compression\" or \"file format\" misses the fundamental structural difference: raster is space-filling (exhaustive), vector is feature-selective (explicit geometry only where features exist).",
+     "self_check": true
+    },
+    {
+     "q": "You have a Shapefile (vector) of all watershed boundaries in Uttarakhand and a GeoTIFF (raster) of annual rainfall at 1 km resolution covering the same state. You need to calculate the mean annual rainfall for each watershed. Outline the computational steps and identify which format must be converted.",
+     "a": "**Steps:** (1) Ensure both layers share the same projected coordinate system (reproject if needed). (2) **Convert the raster to vector polygons (zonal statistics) OR convert vector watersheds to raster mask** — typically raster→vector zonal statistics is preferred to avoid resampling errors. (3) Overlay watershed polygons on rainfall raster. (4) For each watershed polygon, extract all underlying raster cells and compute mean. (5) Join results to watershed attribute table. **The raster must be sampled by the vector zones**; converting vector→raster would lose precise boundary geometry. A wrong answer that suggests converting watersheds to raster without mentioning resolution alignment or the modifiable areal unit problem (MAUP) shows incomplete understanding of rasterization artifacts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the topological integrity of a vector road network (with explicit node/edge topology) versus a raster road layer (where roads are 3-cell-wide lines). When a new flyover is added that crosses an existing road *without* an intersection (grade-separated), how does each model handle this, and which is more robust for network analysis?",
+     "a": "**Vector (topological):** Nodes exist only at true intersections; the flyover and the underpass are separate edges with no shared node — network analysis correctly treats them as disconnected. **Raster:** Both roads occupy overlapping cells at the crossing; unless a third dimension (layer/level attribute) is encoded per cell, the crossing appears as a single connected cluster, falsely implying a junction. **Vector is more robust** for network analysis because topology is explicit; raster requires additional semantic layers (e.g., \"bridge=yes\", \"layer=1\") to disambiguate. A wrong answer claiming \"raster handles it fine because cells are small\" ignores that connectivity in raster is defined by cell adjacency (4- or 8-neighbour), which cannot represent grade separation without extra attributes.",
+     "self_check": true
+    },
+    {
+     "q": "A project requires publishing an interactive web map of India's major ports (points), shipping lanes (lines), and Exclusive Economic Zone boundary (polygon) for non-GIS users. Evaluate the suitability of these format pairs: (a) Shapefile + GeoTIFF, (b) GeoJSON + Vector Tiles (MVT), (c) KML + JPEG. Justify your choice for a web-mapping context.",
+     "a": "**Best choice: (b) GeoJSON + Vector Tiles (MVT).** GeoJSON is natively readable by web browsers (JavaScript), lightweight for point/line/polygon features, and supports attribute properties directly. Vector Tiles (Mapbox Vector Tile spec) enable efficient streaming and client-side rendering at multiple zoom levels — critical for interactive pan/zoom. **Why not (a):** Shapefile is a multi-file binary format requiring server-side parsing; GeoTIFF is raster — unsuitable for discrete port/lane/EEZ features. **Why not (c):** KML is verbose XML, not optimized for web streaming; JPEG is raster imagery, not vector geometry. A wrong answer selecting (a) because \"Shapefile is standard\" reveals a desktop-GIS bias and ignorance of web-native formats and tile-based delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a spatial data storage plan for a district-level crop monitoring system in Punjab that must track: (i) individual farm boundaries (cadastral parcels), (ii) weekly NDVI from Sentinel-2 (10 m resolution), (iii) soil type polygons from a survey, and (iv) daily weather station points (temperature, humidity). Specify vector/raster for each, the primary file format, and one key reason per choice.",
+     "a": "| Feature | Model | Format | Key Reason |\n|---|---|---|---|\n| (i) Farm boundaries | Vector (polygon) | GeoPackage (.gpkg) | Single-file, supports topology, attributes, and spatial index; ideal for parcel editing/queries. |\n| (ii) Weekly NDVI | Raster (time series) | Cloud-Optimized GeoTIFF (COG) per date, or NetCDF (multi-band) | COG enables HTTP range requests for web viewing; NetCDF stores time dimension natively. |\n| (iii) Soil type polygons | Vector (polygon) | GeoPackage (same DB as parcels) | Joins with parcel table via foreign key; supports complex attribute domains. |\n| (iv) Weather stations | Vector (point) | GeoJSON (API) or GeoPackage | Points with time-series attributes; GeoJSON for REST API, GeoPackage for offline analysis. |\nA poor answer uses Shapefile for everything (ignores 2 GB limit, no time-series support, multi-file fragility) or rasterizes parcels (loses precise boundaries, creates MAUP). The design must match *data structure* to *model*, not default to one format.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

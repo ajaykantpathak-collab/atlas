@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_015",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_015",
+   "title": "c11_cs_cbse_11_015",
+   "questions": [
+    {
+     "q": "What is the difference between active and passive digital footprints? Give one example of each.",
+     "a": "Active digital footprints are data trails intentionally created by the user (e.g., posting a comment on a blog). Passive digital footprints are generated without the user's deliberate action (e.g., a website recording the visitor's IP address and browser type). A wrong answer that confuses the two (e.g., calling cookies an active footprint) reveals the student misunderstands the role of user intent in footprint classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student downloads an image from a website labeled \"free for personal use\" and uses it in a school project without citing the source. The teacher says this is plagiarism. The student argues it's not plagiarism because the image was free. Who is correct and why?",
+     "a": "The teacher is correct. Plagiarism is presenting someone else's work as your own without attribution, regardless of whether the work is free or copyrighted. Even if the image is free for personal use, the license (like Creative Commons) typically requires attribution. A wrong answer that sides with the student reveals the misconception that \"free\" means \"no attribution needed\" and conflates copyright infringement with plagiarism.",
+     "self_check": true
+    },
+    {
+     "q": "You receive an email claiming to be from your bank, stating your account will be closed unless you click a link and enter your PIN. The link leads to a website that looks exactly like your bank's login page. Identify the cyber crime and list three specific indicators that this is a phishing attempt.",
+     "a": "This is phishing (a type of cyber crime). Three indicators: (1) The email creates urgency/threat (account closure) to pressure immediate action. (2) The sender's email address domain does not match the bank's official domain (e.g., \"bank-security@gmail.com\" instead of \"bankname.com\"). (3) The link's actual URL (visible on hover) differs from the displayed text and lacks HTTPS or shows a misspelled domain (e.g., \"banknmae.com\"). A wrong answer that misses the urgency tactic or URL mismatch shows the student cannot apply phishing detection criteria to a realistic scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast ethical hacking and non-ethical hacking in terms of intent, authorization, and outcome. Provide a real-world example of each.",
+     "a": "Ethical hacking (white hat) is authorized, aims to improve security by finding vulnerabilities, and reports findings to the owner (e.g., a company hiring a penetration tester). Non-ethical hacking (black hat) is unauthorized, intends to steal data or damage systems, and exploits vulnerabilities for personal gain (e.g., a hacker breaching a database to sell customer data). A wrong answer that confuses the two or omits authorization reveals the student cannot analyze the legal and ethical boundary that defines the difference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Using a strong password is sufficient to protect your data from all cyber crimes.\" Justify your answer with at least three reasons why this is true or false.",
+     "a": "The statement is false. Strong passwords alone cannot prevent: (1) Phishing attacks where users voluntarily enter credentials on fake sites. (2) Malware/ransomware that exploits software vulnerabilities or encrypts files without needing passwords. (3) Data breaches on the server side where the service provider's database is compromised. A wrong answer that claims the statement is true reveals the student overestimates a single security measure and lacks a layered defense understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a checklist of five essential practices a Class 11 student should follow to minimize their digital footprint and protect their privacy while using social media for a school project collaboration.",
+     "a": "A good checklist includes: (1) Use a pseudonym or limited profile visibility instead of real name/photo. (2) Share project files via password-protected cloud links (not public posts). (3) Disable location tagging and avoid posting personal details (school name, address). (4) Log out from shared devices and use private browsing. (5) Review and tighten privacy settings to \"friends only\" or custom groups. A poor answer that lists generic advice like \"be careful\" without specific, actionable technical steps reveals the student cannot create practical privacy strategies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

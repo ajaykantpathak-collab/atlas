@@ -1,0 +1,315 @@
+import json
+
+data = {
+ "class": 10,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Polynomials",
+ "source_file": "",
+ "concepts": [
+  {
+   "id": "jemh.2.1",
+   "title": "Degree of a Polynomial",
+   "section": "2.1",
+   "definition": "The degree of a polynomial is the highest power of the variable with a non-zero coefficient.",
+   "formula": "degree(p(x)) = max exponent of x with non-zero coefficient",
+   "key_idea": "A polynomial of degree n has at most n zeros and the leading term determines the degree.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the degree of the given polynomial",
+    "identify whether the expression is a polynomial and find its degree",
+    "classify polynomial as linear quadratic or cubic based on degree",
+    "determine degree of a polynomial in standard form",
+    "find degree of a polynomial given its terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Identify each term and its variable exponent", "explain": "Write each term as coefficient times x raised to an exponent.", "compute": "terms = [(coeff, exp) for each term]"},
+    {"step": 2, "action": "Find the highest exponent with non-zero coefficient", "explain": "Ignore terms with zero coefficient and pick the maximum exponent.", "compute": "deg = max(exp for coeff, exp in terms if coeff != 0)"},
+    {"step": 3, "action": "Classify the polynomial", "explain": "Degree 1 is linear, 2 is quadratic, 3 is cubic.", "compute": "label = {1:'linear',2:'quadratic',3:'cubic'}.get(deg,'higher')"}
+   ],
+   "worked_examples": [
+    {"question": "Find the degree of the polynomial 3x^4 - 5x^2 + 7x - 9.", "solution": "The highest power of x with non-zero coefficient is 4.", "answer": "4"},
+    {"question": "Identify the degree of x^2 - 3x + 2 and classify it.", "solution": "Highest exponent is 2, so it is a quadratic polynomial.", "answer": "Degree 2, quadratic"}
+   ],
+   "exercises": [
+    {"question": "Find the degree of the polynomial 5x^3 - 2x^2 + x - 7.", "type": "compute"},
+    {"question": "Classify the polynomial 7 - 4x + x^2 by its degree.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.2",
+   "title": "Zeros of a Polynomial",
+   "section": "2.2",
+   "definition": "A zero of a polynomial p(x) is a real number k such that p(k) = 0. Zeros are also called roots of the polynomial.",
+   "formula": "p(k) = 0 implies k is a zero of p(x)",
+   "key_idea": "A polynomial of degree n has at most n real zeros; zeros are the x-intercepts of the graph y = p(x).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "check whether a given value is a zero of the polynomial",
+    "find all zeros of the given polynomial",
+    "verify that a number is a zero of the polynomial",
+    "determine number of zeros of a polynomial",
+    "find zeros of a linear polynomial"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Substitute the candidate value into the polynomial", "explain": "Replace x with the given value k in p(x).", "compute": "val = p(k)"},
+    {"step": 2, "action": "Evaluate the expression", "explain": "Compute the numerical value after substitution.", "compute": "val = evaluate(p, k)"},
+    {"step": 3, "action": "Check if value is zero", "explain": "If p(k) = 0 then k is a zero, otherwise it is not.", "compute": "is_zero = (val == 0)"}
+   ],
+   "worked_examples": [
+    {"question": "Check whether 2 is a zero of p(x) = x^2 - 3x + 2.", "solution": "p(2) = 4 - 6 + 2 = 0, so 2 is a zero.", "answer": "Yes, 2 is a zero"},
+    {"question": "Find the zero of p(x) = 3x - 6.", "solution": "Set 3x - 6 = 0, so x = 2.", "answer": "x = 2"}
+   ],
+   "exercises": [
+    {"question": "Verify whether -1 is a zero of p(x) = x^2 + 2x + 1.", "type": "compute"},
+    {"question": "Find the zero of the polynomial p(x) = 5x + 10.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.3",
+   "title": "Relationship Between Zeros and Coefficients of Quadratic Polynomials",
+   "section": "2.3",
+   "definition": "For a quadratic polynomial ax^2 + bx + c with zeros alpha and beta, the sum of zeros = -b/a and the product of zeros = c/a.",
+   "formula": "alpha + beta = -b/a; alpha * beta = c/a",
+   "key_idea": "The zeros of a quadratic polynomial are directly related to the ratios of its coefficients.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find sum and product of zeros of quadratic polynomial",
+    "verify relationship between zeros and coefficients",
+    "find a quadratic polynomial given sum and product of zeros",
+    "check if given zeros satisfy coefficient relationship",
+    "find coefficients given zeros of quadratic polynomial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "Identify coefficients a, b, c", "explain": "Write the polynomial in standard form ax^2 + bx + c.", "compute": "a, b, c = coeffs"},
+    {"step": 2, "action": "Compute sum and product of zeros", "explain": "Calculate alpha + beta and alpha * beta from the given zeros.", "compute": "sum_z = alpha + beta; prod_z = alpha * beta"},
+    {"step": 3, "action": "Verify against -b/a and c/a", "explain": "Check that sum equals -b/a and product equals c/a.", "compute": "check_sum = (sum_z == -b/a); check_prod = (prod_z == c/a)"}
+   ],
+   "worked_examples": [
+    {"question": "Find the sum and product of zeros of p(x) = x^2 - 7x + 10.", "solution": "a=1, b=-7, c=10. Sum = -(-7)/1 = 7, Product = 10/1 = 10.", "answer": "Sum = 7, Product = 10"},
+    {"question": "Verify that 2 and 5 are zeros of x^2 - 7x + 10 and check the coefficient relationship.", "solution": "Sum = 2+5 = 7 = -(-7)/1. Product = 2*5 = 10 = 10/1. Verified.", "answer": "Verified"}
+   ],
+   "exercises": [
+    {"question": "Find the sum and product of zeros of 2x^2 - 8x + 6.", "type": "compute"},
+    {"question": "Verify the relationship between zeros and coefficients for x^2 + 5x + 6 with zeros -2 and -3.", "type": "verify_property"}
+   ]
+  },
+  {
+   "id": "jemh.2.4",
+   "title": "Finding Zeros by Factorization",
+   "section": "2.3",
+   "definition": "A quadratic polynomial can be factored into two linear factors, and setting each factor to zero gives the zeros of the polynomial.",
+   "formula": "ax^2 + bx + c = a(x - alpha)(x - beta); zeros are alpha and beta",
+   "key_idea": "Split the middle term so that the product of split terms equals a*c and their sum equals b.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find zeros of quadratic polynomial by factorization",
+    "factorize the polynomial to find its roots",
+    "split the middle term to find zeros",
+    "find roots by splitting middle term",
+    "solve quadratic equation by factor method"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Split the middle term", "explain": "Find two numbers whose product is a*c and sum is b, then split bx accordingly.", "compute": "find p, q such that p+q = b and p*q = a*c"},
+    {"step": 2, "action": "Factor by grouping", "explain": "Group terms and take common factors to get a(x - alpha)(x - beta).", "compute": "factors = group_and_factor(p, q)"},
+    {"step": 3, "action": "Set each factor to zero", "explain": "Solve x - alpha = 0 and x - beta = 0 to get the zeros.", "compute": "zeros = [alpha, beta]"}
+   ],
+   "worked_examples": [
+    {"question": "Find the zeros of x^2 - 5x + 6 by factorization.", "solution": "Split -5x as -2x - 3x. x^2 - 2x - 3x + 6 = x(x-2) - 3(x-2) = (x-2)(x-3). Zeros are 2 and 3.", "answer": "2 and 3"},
+    {"question": "Find the zeros of 2x^2 - 8x + 6 by factorization.", "solution": "2x^2 - 8x + 6 = 2(x^2 - 4x + 3) = 2(x-1)(x-3). Zeros are 1 and 3.", "answer": "1 and 3"}
+   ],
+   "exercises": [
+    {"question": "Find the zeros of x^2 + 7x + 12 by factorization.", "type": "compute"},
+    {"question": "Find the zeros of 6x^2 - 13x + 6 by splitting the middle term.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.5",
+   "title": "Finding Zeros by Quadratic Formula",
+   "section": "2.3",
+   "definition": "The zeros of a quadratic polynomial ax^2 + bx + c are given by the quadratic formula x = (-b +- sqrt(b^2 - 4ac)) / 2a.",
+   "formula": "x = (-b +- sqrt(b^2 - 4ac)) / 2a",
+   "key_idea": "The discriminant D = b^2 - 4ac determines whether zeros are real and distinct, equal, or not real.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find zeros of quadratic polynomial using quadratic formula",
+    "compute roots using the quadratic formula",
+    "find zeros when factorization is not possible",
+    "use quadratic formula to solve polynomial equation",
+    "find roots given coefficients a b c"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Compute the discriminant", "explain": "Calculate D = b^2 - 4ac to determine the nature of roots.", "compute": "D = b*b - 4*a*c"},
+    {"step": 2, "action": "Compute square root of discriminant", "explain": "If D >= 0, compute sqrt(D); if D < 0, roots are not real.", "compute": "sqrtD = sqrt(D) if D >= 0 else None"},
+    {"step": 3, "action": "Apply the quadratic formula", "explain": "Substitute into x = (-b +- sqrt(D)) / 2a to get both zeros.", "compute": "x1 = (-b + sqrtD)/(2*a); x2 = (-b - sqrtD)/(2*a)"}
+   ],
+   "worked_examples": [
+    {"question": "Find the zeros of 2x^2 - 7x + 3 using the quadratic formula.", "solution": "a=2, b=-7, c=3. D = 49 - 24 = 25. sqrtD = 5. x = (7 +- 5)/4. Zeros are 3 and 1/2.", "answer": "3 and 1/2"},
+    {"question": "Find the zeros of x^2 - 4x + 1 using the quadratic formula.", "solution": "D = 16 - 4 = 12. sqrtD = 2*sqrt(3). x = (4 +- 2*sqrt(3))/2 = 2 +- sqrt(3).", "answer": "2 + sqrt(3) and 2 - sqrt(3)"}
+   ],
+   "exercises": [
+    {"question": "Find the zeros of 3x^2 - 5x + 1 using the quadratic formula.", "type": "compute"},
+    {"question": "Find the zeros of x^2 - 6x + 4 using the quadratic formula.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.6",
+   "title": "Constructing a Polynomial from Given Zeros",
+   "section": "2.3",
+   "definition": "A quadratic polynomial with zeros alpha and beta can be written as k(x^2 - (alpha+beta)x + alpha*beta) for any non-zero constant k.",
+   "formula": "p(x) = k(x - alpha)(x - beta) = k(x^2 - (alpha+beta)x + alpha*beta)",
+   "key_idea": "Use the sum and product of given zeros to construct the polynomial; k is any non-zero scalar.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find a quadratic polynomial with given zeros",
+    "construct polynomial given sum and product of zeros",
+    "form a quadratic polynomial whose zeros are given",
+    "find polynomial with given sum and product of zeros",
+    "write a quadratic polynomial from its roots"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Compute sum and product of zeros", "explain": "Find alpha + beta and alpha * beta from the given zeros.", "compute": "s = alpha + beta; p = alpha * beta"},
+    {"step": 2, "action": "Form the polynomial", "explain": "Use p(x) = k(x^2 - s*x + p) where k is any non-zero constant, usually 1.", "compute": "poly = x^2 - s*x + p"},
+    {"step": 3, "action": "Expand to standard form", "explain": "Write the polynomial as x^2 - (sum)x + (product).", "compute": "poly = x^2 - s*x + p"}
+   ],
+   "worked_examples": [
+    {"question": "Find a quadratic polynomial whose sum and product of zeros are 4 and 1 respectively.", "solution": "p(x) = x^2 - 4x + 1.", "answer": "x^2 - 4x + 1"},
+    {"question": "Find a quadratic polynomial whose zeros are 2 and -3.", "solution": "Sum = -1, Product = -6. p(x) = x^2 + x - 6.", "answer": "x^2 + x - 6"}
+   ],
+   "exercises": [
+    {"question": "Find a quadratic polynomial whose sum and product of zeros are -1 and -20 respectively.", "type": "compute"},
+    {"question": "Find a quadratic polynomial whose zeros are 5 and -2.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.7",
+   "title": "Division Algorithm for Polynomials",
+   "section": "2.3",
+   "definition": "If p(x) and g(x) are any two polynomials with g(x) != 0, then p(x) = g(x)*q(x) + r(x) where degree of r(x) < degree of g(x) or r(x) = 0.",
+   "formula": "p(x) = g(x)*q(x) + r(x), deg(r) < deg(g)",
+   "key_idea": "Polynomial division is analogous to integer division; the remainder has degree less than the divisor.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "divide one polynomial by another and find quotient and remainder",
+    "apply division algorithm to find quotient and remainder",
+    "find remainder when polynomial is divided by another",
+    "verify division algorithm for given polynomials",
+    "find quotient using long division of polynomials"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Perform polynomial long division", "explain": "Divide the leading term of dividend by leading term of divisor to get the first term of quotient.", "compute": "q_term = lead(p) / lead(g)"},
+    {"step": 2, "action": "Multiply and subtract", "explain": "Multiply the divisor by q_term and subtract from the dividend; repeat with the result.", "compute": "p = p - q_term * g"},
+    {"step": 3, "action": "Stop when remainder degree is less than divisor degree", "explain": "The final remainder r(x) has degree less than g(x); the accumulated terms form q(x).", "compute": "while deg(r) >= deg(g): repeat steps 1-2"}
+   ],
+   "worked_examples": [
+    {"question": "Divide p(x) = x^3 - 3x^2 + 5x - 3 by g(x) = x - 1 and find quotient and remainder.", "solution": "Long division gives quotient x^2 - 2x + 3 and remainder 0.", "answer": "q(x) = x^2 - 2x + 3, r(x) = 0"},
+    {"question": "Divide x^3 - 2x^2 + 4x - 5 by x + 2.", "solution": "Quotient = x^2 - 4x + 12, Remainder = -29.", "answer": "q(x) = x^2 - 4x + 12, r(x) = -29"}
+   ],
+   "exercises": [
+    {"question": "Divide x^3 + 3x^2 + 3x + 1 by x + 1 and find quotient and remainder.", "type": "compute"},
+    {"question": "Verify the division algorithm for p(x) = x^3 - 6x^2 + 11x - 6 and g(x) = x - 2.", "type": "verify_property"}
+   ]
+  },
+  {
+   "id": "jemh.2.8",
+   "title": "Remainder Theorem",
+   "section": "2.3",
+   "definition": "If a polynomial p(x) is divided by (x - a), then the remainder is p(a).",
+   "formula": "p(x) = (x - a)*q(x) + p(a)",
+   "key_idea": "The remainder when dividing by a linear divisor (x - a) equals the value of the polynomial at x = a.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find remainder when polynomial is divided by x - a",
+    "apply remainder theorem to find remainder",
+    "find remainder using remainder theorem without long division",
+    "use remainder theorem to evaluate polynomial at a point",
+    "find remainder when dividing by linear polynomial"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Identify the value a from divisor (x - a)", "explain": "The divisor is of the form x - a, so extract a.", "compute": "a = -constant_term_of_divisor"},
+    {"step": 2, "action": "Evaluate the polynomial at a", "explain": "Substitute x = a into p(x) and compute p(a).", "compute": "remainder = p(a)"},
+    {"step": 3, "action": "State the remainder", "explain": "The value p(a) is the remainder when p(x) is divided by (x - a).", "compute": "remainder = evaluate(p, a)"}
+   ],
+   "worked_examples": [
+    {"question": "Find the remainder when p(x) = x^3 - 2x^2 + 4x - 5 is divided by x - 2.", "solution": "By remainder theorem, remainder = p(2) = 8 - 8 + 8 - 5 = 3.", "answer": "3"},
+    {"question": "Find the remainder when x^3 + 3x^2 + 3x + 1 is divided by x + 1.", "solution": "Divisor is x - (-1), so remainder = p(-1) = -1 + 3 - 3 + 1 = 0.", "answer": "0"}
+   ],
+   "exercises": [
+    {"question": "Find the remainder when x^3 - 4x^2 + 5x - 2 is divided by x - 3.", "type": "compute"},
+    {"question": "Find the remainder when 2x^3 - 3x^2 + 7x - 5 is divided by x + 2.", "type": "compute"}
+   ]
+  },
+  {
+   "id": "jemh.2.9",
+   "title": "Factor Theorem",
+   "section": "2.3",
+   "definition": "For a polynomial p(x), (x - a) is a factor of p(x) if and only if p(a) = 0.",
+   "formula": "(x - a) is a factor of p(x) iff p(a) = 0",
+   "key_idea": "The factor theorem connects the zeros of a polynomial with its linear factors; it is a special case of the remainder theorem.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "check whether x - a is a factor of the polynomial",
+    "use factor theorem to determine if a is a zero",
+    "verify factor theorem for given polynomial",
+    "find a factor of the polynomial using factor theorem",
+    "determine if x + a is a factor using factor theorem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "Identify the candidate factor (x - a)", "explain": "Extract the value a from the proposed linear factor.", "compute": "a = root of (x - a)"},
+    {"step": 2, "action": "Evaluate p(a)", "explain": "Substitute x = a into the polynomial and compute the value.", "compute": "val = p(a)"},
+    {"step": 3, "action": "Conclude based on value", "explain": "If p(a) = 0 then (x - a) is a factor; otherwise it is not.", "compute": "is_factor = (val == 0)"}
+   ],
+   "worked_examples": [
+    {"question": "Check whether x - 2 is a factor of p(x) = x^3 - 3x^2 + 4x - 4.", "solution": "p(2) = 8 - 12 + 8 - 4 = 0, so (x - 2) is a factor.", "answer": "Yes, (x - 2) is a factor"},
+    {"question": "Determine whether x + 1 is a factor of x^3 + x^2 + x + 1.", "solution": "p(-1) = -1 + 1 - 1 + 1 = 0, so (x + 1) is a factor.", "answer": "Yes, (x + 1) is a factor"}
+   ],
+   "exercises": [
+    {"question": "Check whether x - 3 is a factor of x^3 - 6x^2 + 11x - 6.", "type": "verify_property"},
+    {"question": "Determine whether x + 2 is a factor of x^3 - 8.", "type": "verify_property"}
+   ]
+  },
+  {
+   "id": "jemh.2.10",
+   "title": "Graphical Representation of Polynomial Zeros",
+   "section": "2.2",
+   "definition": "The zeros of a polynomial p(x) are the x-coordinates of the points where the graph y = p(x) intersects the x-axis.",
+   "formula": "Zeros of p(x) = x-intercepts of graph y = p(x)",
+   "key_idea": "A polynomial of degree n intersects the x-axis at most n times; the number of x-intercepts equals the number of real zeros.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find number of zeros from the graph of polynomial",
+    "determine zeros from x-intercepts of graph",
+    "sketch graph of polynomial and find zeros",
+    "identify number of real zeros from graph",
+    "relate graph of polynomial to its zeros"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "Plot or examine the graph y = p(x)", "explain": "Draw or observe the curve of the polynomial against the x-axis.", "compute": "points = plot(p, x_range)"},
+    {"step": 2, "action": "Identify x-intercepts", "explain": "Find the points where the graph crosses or touches the x-axis (where y = 0).", "compute": "intercepts = [x for x in points if y == 0]"},
+    {"step": 3, "action": "Count and state the zeros", "explain": "The x-coordinates of the x-intercepts are the zeros of the polynomial.", "compute": "zeros = intercepts; count = len(zeros)"}
+   ],
+   "worked_examples": [
+    {"question": "The graph of y = x^2 - 4 intersects the x-axis at x = 2 and x = -2. Find the zeros.", "solution": "The x-intercepts are at x = 2 and x = -2, so the zeros are 2 and -2.", "answer": "2 and -2"},
+    {"question": "A quadratic polynomial graph does not intersect the x-axis. How many real zeros does it have?", "solution": "No x-intercepts means no real zeros.", "answer": "0 real zeros"}
+   ],
+   "exercises": [
+    {"question": "The graph of y = x^2 - 5x + 6 intersects the x-axis at x = 2 and x = 3. Find the zeros.", "type": "compute"},
+    {"question": "A cubic polynomial graph intersects the x-axis at 3 points. How many real zeros does it have?", "type": "compute"}
+   ]
+  }
+ ]
+}
+
+with open("catalog_class10_maths_ch102.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=1, ensure_ascii=True)
+print("OK")

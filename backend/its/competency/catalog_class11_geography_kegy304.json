@@ -1,0 +1,114 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 304,
+ "chapter_title": "Map Projections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy304.txt",
+ "concepts": [
+  {
+   "id": "kegy.304.1.1",
+   "title": "Map Projection: Need, Properties and Classification",
+   "section": "",
+   "definition": "A map projection is the systematic drawing of the parallels and meridians of the globe on a flat surface, unavoidable because a sphere cannot be flattened without distortion; projections are classified by developing surface into cylindrical, conical and zenithal or azimuthal families, and by preservation into equal area, true shape and equidistant types.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "No projection can keep area, shape and distance all true at once, so each projection is chosen for the purpose of the map.",
+   "question_patterns": "kegy304.txt need and classification sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.304.2.1",
+   "title": "Types of Projections and Their Suitability",
+   "section": "",
+   "definition": "Zenithal projections suit polar areas, cylindrical projections like Mercator suit equatorial regions and navigation with true directions, conical projections with one or two standard parallels suit mid latitude countries, and Bonne's projection suits equal area mapping of a continent.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "Mercator keeps directions true with growing area towards poles, while Sanson-Flamsteed and Bonne keep areas true for distribution maps.",
+   "question_patterns": "kegy304.txt projection types sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.304.3.1",
+   "title": "Drawing and Choosing Projections for Map Making",
+   "section": "Drawing projections",
+   "definition": "Drawing a projection means constructing the graticule of parallels and meridians by geometry from the chosen properties, and the cartographer picks the projection after weighing the area to be mapped, its latitudinal position and the purpose of the map.",
+   "formula": "",
+   "key_idea": "For example, a zenithal equidistant projection serves a polar map, a polyconic suite serves India's topographical sheets and Mercator serves ocean route charts.",
+   "textbook_ref": "kegy304.txt drawing and choosing sections",
+   "question_patterns": [
+    "what steps are followed in drawing a projection's graticule",
+    "which projection is used for maps of polar regions",
+    "why does india use the polyconic projection for topo sheets",
+    "how does the purpose of a map decide its projection",
+    "state the properties of the conical projection with two standard parallels",
+    "compare the graticule of cylindrical and conical projections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy304.txt exercises",
+   "questions": [
+    "What is a map projection and why is it needed?",
+    "Classify projections according to their developing surfaces.",
+    "Explain the properties of Mercator projection.",
+    "Which projection would you use for a map of India and why?",
+    "Differentiate between equal area and correct shape projections."
+   ]
+  }
+ ]
+}

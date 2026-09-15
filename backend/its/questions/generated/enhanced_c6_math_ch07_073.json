@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_073",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_073",
+   "title": "c6_math_ch07_073",
+   "questions": [
+    {
+     "q": "What is the sum of the three interior angles of any triangle?",
+     "a": "The sum is always 180 degrees. A wrong answer here suggests the student is confusing this with the properties of a circle (360 degrees) or a square (360 degrees), showing a need to visualize a triangle as half of a rectangle.",
+     "self_check": true
+    },
+    {
+     "q": "If a triangle has one angle measuring 95 degrees, can it also be a right-angled triangle? Why?",
+     "a": "No, it cannot. A right-angled triangle must have one 90-degree angle; if it already has a 95-degree angle, the sum would exceed 180 degrees. Students answering \"yes\" often fail to realize that a triangle can only have one \"special\" angle (either obtuse or right) because the sum is strictly limited to 180.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has angles of 50 degrees and 60 degrees. Find the third angle.",
+     "a": "The third angle is 70 degrees (180 - 50 - 60 = 70). An incorrect answer usually results from poor arithmetic or forgetting the 180-degree rule entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an equilateral triangle and a scalene triangle. What is the main difference in their side properties?",
+     "a": "An equilateral triangle has all three sides equal, while a scalene triangle has all three sides of different lengths. Students often confuse \"equilateral\" with \"isosceles,\" requiring a review of the prefixes \"equi-\" (equal) and \"iso-\" (two).",
+     "self_check": true
+    },
+    {
+     "q": "If you have a triangle with sides measuring 5cm, 5cm, and 8cm, how would you classify it and why?",
+     "a": "It is an isosceles triangle because exactly two sides are equal in length. If a student calls it scalene, they have miscounted the sides; if they call it equilateral, they have ignored the 8cm measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a triangle that is both obtuse and isosceles. What would be the minimum requirements for the sides and angles?",
+     "a": "The triangle must have two equal sides and one angle greater than 90 degrees. A poor answer ignores the \"isosceles\" requirement (two sides equal) or draws an acute triangle instead, showing a lack of synthesis between the two classification types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

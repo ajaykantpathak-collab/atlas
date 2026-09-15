@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_002",
+   "title": "c11_acc_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the Business Entity Concept in one sentence and explain why the owner's capital is shown as a liability on the business's Balance Sheet.",
+     "a": "**Correct Answer:** The Business Entity Concept states that a business is a separate accounting entity from its owner(s); capital is a liability because the business has a distinct obligation to return the owner's investment, just as it owes money to external creditors.\n**Misconception Diagnosis:** If a student says \"Capital is an asset because it's money the business has,\" they are viewing the transaction from the owner's perspective (money I put in) rather than the business's perspective (money I owe back). They have not internalised the \"separate entity\" viewpoint.",
+     "self_check": true
+    },
+    {
+     "q": "A sole proprietor pays his personal income tax of ₹50,000 from the business bank account. The accountant records this as a business expense (Debit: Tax Expense; Credit: Bank). Identify the error and explain which concept is violated.",
+     "a": "**Correct Answer:** The error is treating a personal expense as a business expense. The Business Entity Concept is violated. The correct entry is Debit: Drawings Account; Credit: Bank Account. Personal income tax is the owner's obligation, not the business's.\n**Misconception Diagnosis:** If the student argues \"the money came from the business, so it's a business expense,\" they fail to distinguish between the *source of funds* and the *nature of the obligation*. They are confusing cash flow with economic substance.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: Riya starts a bakery. She invests ₹10,00,000 from her savings. She buys an oven for ₹4,00,000 (paid by cheque from business account). She takes ₹20,000 cash from the business to buy a personal laptop. Show the effect of these three transactions on the Accounting Equation (Assets = Liabilities + Capital) from the *business's* perspective.",
+     "a": "**Correct Answer:**\n1. Capital introduced: Assets (Bank +₹10,00,000) = Liabilities (0) + Capital (+₹10,00,000).\n2. Oven purchase: Assets (Bank -₹4,00,000; Oven +₹4,00,000) = No change to LHS total; RHS unchanged.\n3. Drawings for laptop: Assets (Cash -₹20,000) = Liabilities (0) + Capital (-₹20,000).\nFinal Equation: Assets (Bank ₹6,00,000 + Oven ₹4,00,000 + Cash ₹0) = Capital ₹9,80,000.\n**Misconception Diagnosis:** If the student reduces Capital for the oven purchase (treating it as owner's spending) or ignores the laptop withdrawal, they are not applying the dual aspect from the business's separate viewpoint. They treat the business as an extension of the owner's wallet.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of a sole proprietor's personal car used 30% for business deliveries under the Business Entity Concept vs. the legal ownership view. How should the car and its running costs appear in the business books?",
+     "a": "**Correct Answer:** Legal ownership: Car belongs to owner. Business Entity Concept: Only the business-use portion (30%) is relevant. The business should record 30% of depreciation and running costs as expenses. The car itself is *not* recorded as a business asset because the business does not own it. If the business pays 100% of costs, 70% is treated as Drawings.\n**Misconception Diagnosis:** If the student records the full car as a business asset at market value, they violate the concept by mixing personal assets into business records. If they ignore the 30% business use entirely, they violate the Matching Concept by not recording expenses incurred to earn revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Business Entity Concept separates the owner from the business, the owner's personal assets should never appear in the business Balance Sheet. Therefore, if the owner pledges personal property as collateral for a business loan, this fact need not be disclosed in the business's financial statements.\"",
+     "a": "**Correct Answer:** The statement is **incorrect**. While the personal asset itself is not recorded on the business Balance Sheet (correct application of Business Entity Concept), the *contingent liability* or the fact of collateral pledged must be disclosed in the Notes to Accounts under the Full Disclosure Concept. Users (banks, investors) need to know the risks and commitments affecting the business's financial position.\n**Misconception Diagnosis:** A student who agrees confuses \"recording as an asset/liability\" with \"disclosure.\" They think separation means total information isolation. This is a senior-secondary error: misunderstanding that accounting concepts work *together* (Entity + Disclosure), not in isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short case study (3-4 transactions) for a Class 11 student that tests the Business Entity Concept combined with the Dual Aspect Concept. The case must include at least one transaction where the student must decide *not* to record an event.",
+     "a": "**Expected Answer Criteria:** A good case study will include:\n1. Owner invests cash (record: Bank Dr, Capital Cr).\n2. Business buys goods on credit (record: Purchases Dr, Creditor Cr).\n3. Owner pays personal credit card bill from business account (record: Drawings Dr, Bank Cr — tests separation).\n4. Owner *decides* to invest more money next month but hasn't transferred yet (do NOT record — tests that only executed transactions affecting the entity are recorded).\n**Poor Answer Reveals:** If the student records the \"decision to invest\" as a receivable or capital increase, they confuse a future intention with a past transaction (violates Objectivity and Entity concepts). If they omit the Drawings entry, they still treat the business as the owner's pocket.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

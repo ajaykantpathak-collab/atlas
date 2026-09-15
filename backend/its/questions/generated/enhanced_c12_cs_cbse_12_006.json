@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_006",
+   "title": "c12_cs_cbse_12_006",
+   "questions": [
+    {
+     "q": "A student sees a padlock icon in the browser address bar on a banking website. They conclude, \"This site is 100% safe and legitimate.\" What specific misunderstanding does this reveal about HTTPS?",
+     "a": "The student conflates *encryption* (HTTPS guarantees data-in-transit confidentiality/integrity via TLS) with *authentication/legitimacy* (the padlock does not verify the entity's real-world identity or trustworthiness; a phishing site can have a valid DV certificate). A wrong answer reveals the student thinks the padlock is a \"trust seal\" rather than a \"channel seal.\" This is the #1 misconception exploited in phishing — attackers obtain free DV certificates for lookalike domains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"Accept All Cookies\" on a news website might lead to targeted ads for a product you searched on an unrelated shopping site 2 hours later. Use the terms \"third-party cookie\" and \"tracking\" in your explanation.",
+     "a": "The news site embeds resources (ads, analytics scripts) from third-party domains (e.g., `doubleclick.net`, `google-analytics.com`). When you \"Accept All\", you allow those third parties to set cookies on your browser. The shopping site also loads resources from the same third parties. The third-party cookie acts as a unique ID linking your activity across both sites, enabling cross-site tracking and ad retargeting. A wrong answer that says \"the news site sells your data\" misses the technical mechanism (third-party cookie syncing) and the role of the *browser* as the storage medium.",
+     "self_check": true
+    },
+    {
+     "q": "You receive an email: \"Urgent: Your CBSE 12th result is ready. Download attachment `CBSE_Result_2024.exe`.\" The sender shows `results@cbse.gov.in` but the email header `Return-Path` shows `bounce@malicious-domain.ru`. You are on a Windows laptop. List the exact 4 steps you take *before* opening the attachment, in order.",
+     "a": "1) **Verify sender independently**: Go to `cbse.gov.in` directly (type URL) — do not click email links. 2) **Check file extension**: `.exe` is an executable, never a result document (should be `.pdf`). 3) **Inspect email headers**: Mismatch between `From` and `Return-Path` indicates spoofing. 4) **Scan with VirusTotal/antivirus**: Upload file *without executing*. A wrong answer that says \"open it to see\" or \"scan after opening\" fails the \"before opening\" constraint and ignores the executable extension red flag.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the privacy implications of: (A) Using a browser's \"Incognito/Private Mode\" vs (B) Using a VPN. A student claims \"Both hide my browsing from my ISP.\" Analyze this claim and identify which entity *can* still see the browsing history in each case.",
+     "a": "The claim is false. In (A) Incognito: ISP *sees* all domains/IPs visited (DNS + TLS SNI); only local history/cookies are deleted on close. In (B) VPN: ISP sees *only* encrypted tunnel to VPN server; VPN provider sees all traffic. The student confuses *local privacy* (Incognito) with *network privacy* (VPN). A wrong answer that says \"Incognito hides from ISP\" reveals a fundamental misunderstanding of where encryption terminates (TLS ends at server, not at ISP).",
+     "self_check": true
+    },
+    {
+     "q": "A classmate posts a screenshot of a private WhatsApp group chat (containing classmates' phone numbers and personal opinions about a teacher) on their public Instagram story, saying \"Just sharing facts.\" Evaluate this action against 3 specific digital citizenship principles. Is \"freedom of expression\" a valid defense? Justify.",
+     "a": "Violates: 1) **Privacy** (non-consensual sharing of PII — phone numbers, private opinions), 2) **Respect/Empathy** (public shaming/harassment of teacher and peers), 3) **Legal/Ethical** (potential violation of IT Act 2000 Sec 66E/72A, copyright of chat participants). \"Freedom of expression\" is NOT a valid defense — it does not override others' right to privacy or protect defamation/harassment. A wrong answer defending the action shows inability to balance rights vs responsibilities and ignorance of legal boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Safe Browsing Checklist\" poster for your school computer lab (max 6 items). Each item must be a specific, actionable technical step (not vague advice like \"be careful\"). Include one item each for: HTTPS verification, cookie hygiene, download safety, phishing recognition, digital footprint, and netiquette.",
+     "a": "Example checklist: 1) **HTTPS**: Click padlock → \"Certificate\" → Verify \"Issued to\" matches expected organization. 2) **Cookies**: Settings → \"Block third-party cookies\" + \"Clear on exit\" for non-essential sites. 3) **Downloads**: Only `.pdf`/`.png` from `.gov.in`/`.nic.in`/known `.edu`; scan `.exe`/`.apk` on VirusTotal. 4) **Phishing**: Hover links → check domain spelling/TLD; never enter credentials on HTTP pages. 5) **Footprint**: Search your name monthly; set social profiles to \"Friends Only\"; remove unused accounts. 6) **Netiquette**: Cite sources for shared content; ask permission before posting photos of others; report cyberbullying. A poor answer uses vague slogans (\"Stay safe!\") indicating lack of procedural knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

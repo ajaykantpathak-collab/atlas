@@ -1,0 +1,527 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 6,
+ "chapter_title": "Early Childhood Care and Education",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe106.1",
+   "title": "Human Development and Family Studies as a Discipline",
+   "section": "Introduction",
+   "definition": "HDFS studies the changes people undergo from birth to old age and trains professionals to serve persons of different ages, needs and circumstances, treating home and workplace with equal respect.",
+   "formula": "qualitative idea -- one discipline serving the whole life span",
+   "key_idea": "Colleges rename the field Child Development, Human Development and Childhood Studies or Human Ecology, differing in emphasis but not in substance.",
+   "textbook_ref": "lehe106.txt, Introduction (approx lines 10-58)",
+   "question_patterns": [
+    "what is the discipline of human development and family studies",
+    "under which different names is HDFS taught at the college level",
+    "why does a career in HDFS demand honest self reflection",
+    "name the four major areas of work within HDFS",
+    "how does studying HDFS help in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the discipline and its breadth",
+     "explain": "development across the life span plus service to individuals, families and groups"
+    },
+    {
+     "step": 2,
+     "action": "list the four work areas",
+     "explain": "early childhood care and education, guidance and counselling, special education and support services, management of programmes for children, youth and elderly"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which discipline studies changes from birth to old age: HDFS or geology?",
+     "a": "HDFS"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.2",
+   "title": "Attachment and Recognition in Infancy",
+   "section": "Significance",
+   "definition": "Babies bind themselves to the mother and other close carers, show fear of unknown faces around eight to twelve months, cry when the caregiver leaves and trail after her -- behaviour that fades as the toddler grasps that an absent mother has not vanished.",
+   "formula": "sequence -- recognition to attachment to separation protest to security",
+   "key_idea": "Stranger fear is a milestone, not a mischief: it proves the baby can tell familiar from unfamiliar faces.",
+   "textbook_ref": "lehe106.txt, Significance paragraphs (approx lines 78-109)",
+   "question_patterns": [
+    "what does a baby's fear of unknown people at 8 to 12 months indicate",
+    "describe how attachment to the primary caregiver shows itself in the first year",
+    "why does a one year old cry when the mother leaves the room",
+    "how does the child develop a sense of security about the caregiver's absence",
+    "which developments in the second year reduce clinging behaviour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the milestones",
+     "explain": "recognition of faces, fear of strangers, protest at separation, then restored security"
+    },
+    {
+     "step": 2,
+     "action": "read the behaviour as evidence",
+     "explain": "each sign marks a growing cognitive and emotional capacity, not mere naughtiness"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Around what age does fear of unknown faces appear: eight to twelve months, or eight years?",
+     "a": "eight to twelve months"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.3",
+   "title": "Substitute Care: Creche and Day Care",
+   "section": "Significance and Basic concepts",
+   "definition": "When the mother works outside, another woman of the household, a neighbourhood home creche or an institutional centre can stand in; a creche formally designates an institution built for infants and young children away from home care, while day care covers preschoolers as well.",
+   "formula": "care ladder -- family member to home creche to institutional centre",
+   "key_idea": "Substitute care frees an older sibling for school and brings nutrition and health inputs to disadvantaged children.",
+   "textbook_ref": "lehe106.txt, substitute care and institutional care paragraphs (approx lines 110-201, 228-237)",
+   "question_patterns": [
+    "what is a creche and which children does it serve",
+    "how does day care differ from a creche",
+    "why do working mothers need substitute care arrangements",
+    "how does institutional care help the older school going sibling",
+    "which extra services besides supervision may a care centre deliver"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the two institutional forms",
+     "explain": "creche for infants and young children, day care reaching into the preschool years"
+    },
+    {
+     "step": 2,
+     "action": "weigh the family level benefits",
+     "explain": "release of the older child for schooling plus nutrition and health interventions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which institution is formally built for infants away from home care: a creche or a cinema?",
+     "a": "a creche"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.4",
+   "title": "Objectives of ECCE",
+   "section": "Significance: NCF 2005 position paper",
+   "definition": "Early childhood care and education aims at the all round development of the child so full potential unfolds, readies the child for school, and stands behind women and children as a support service.",
+   "formula": "three aims -- holistic development plus school readiness plus support to women and children",
+   "key_idea": "Preschool complements, never replaces, the learning that happens naturally at home.",
+   "textbook_ref": "lehe106.txt, NCF 2005 objectives (approx lines 202-213)",
+   "question_patterns": [
+    "state the objectives of ECCE according to the NCF 2005 position paper",
+    "what is meant by holistic development of the child",
+    "how does preschool prepare a child for formal schooling",
+    "in what way is ECCE a support service for women",
+    "do children who never attend nursery school fail to learn"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the three aims",
+     "explain": "development of potential, preparation for school, support services"
+    },
+    {
+     "step": 2,
+     "action": "place preschool against home learning",
+     "explain": "all children learn naturally; preschool widens exposure and smooths the path to formal school"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "ECCE aims at all-round development so the child's full what unfolds: potential or wardrobe?",
+     "a": "potential"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.5",
+   "title": "Guiding Principles of ECCE",
+   "section": "Basic concepts: NCF 2005 principles",
+   "definition": "ECCE practice rests on play as the engine of learning, art as the base of education, respect for the special texture of children's thinking, lived experience over rote expertise, a mix of formal and informal exchanges, local materials and cultures, developmentally apt flexibility, and attention to health and well being.",
+   "formula": "principle set -- play plus art plus experience plus locality plus flexibility plus health",
+   "key_idea": "Routines should mix the familiar with gentle challenge, so curiosity survives and anxiety stays away.",
+   "textbook_ref": "lehe106.txt, guiding principles list (approx lines 279-310)",
+   "question_patterns": [
+    "list the guiding principles of ECCE given in NCF 2005",
+    "why is play treated as the basis for learning",
+    "what does primacy of experience rather than expertise mean",
+    "how do local materials and arts enter the preschool curriculum",
+    "what is meant by developmentally appropriate practices",
+    "why should familiar routines carry an element of challenge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate the principles",
+     "explain": "nine headings from play through health, well being and healthy habits"
+    },
+    {
+     "step": 2,
+     "action": "illustrate two of them",
+     "explain": "play way learning through leaves and stones; local folk art linking school to home"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does ECCE rest on as the engine of learning: play or drilling?",
+     "a": "play"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.6",
+   "title": "Age Stages: Infancy, Toddler, Preschool Child",
+   "section": "Basic concepts",
+   "definition": "Early childhood stretches from birth to eight years, split at three; infancy covers the first year or two of total dependence; the two to three year old is a toddler whose walk still jumps; and the preschool child, ready for company beyond the family, may attend a Montessori school or an anganwadi under ICDS.",
+   "formula": "stage bands -- infancy to 1 or 2 years, toddler 2 to 3, preschool 3 to 6, early childhood to 8",
+   "key_idea": "Different stages need differently trained adults: infant care and preschool teaching are distinct skill sets.",
+   "textbook_ref": "lehe106.txt, Basic concepts stage definitions (approx lines 214-255)",
+   "question_patterns": [
+    "define early childhood and state how it is divided",
+    "what is meant by infancy and till what age does it run",
+    "why is a two year old called a toddler",
+    "what is a preschool child and why is the stage named so",
+    "which schools follow the principles of Maria Montessori",
+    "through which government service is preschool education offered in villages",
+    "which stage falls between 3 and 8 years of age"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each stage with its age band",
+     "explain": "infancy, toddler, preschool, and the umbrella early childhood phase"
+    },
+    {
+     "step": 2,
+     "action": "attach the institutional names",
+     "explain": "Montessori schools and anganwadis under ICDS serve the preschool band"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Early childhood stretches from birth to what age: eight or eighteen?",
+     "a": "eight"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.7",
+   "title": "Child Centred Approach and the Play Way Method",
+   "section": "Significance",
+   "definition": "A good preschool runs on the child centred, play way route: learning arrives through enjoyable activity among peers, the setting stays safe, loving and rich in people and play material, and no child is forced into desk bound lessons that wither curiosity.",
+   "formula": "method -- enjoyment plus peers plus caring adult plus play material, without formal drill",
+   "key_idea": "Children eat by themselves and try new foods among peers; the right setting teaches what nagging cannot.",
+   "textbook_ref": "lehe106.txt, learning environment and preschool benefits (approx lines 130-181)",
+   "question_patterns": [
+    "what is meant by a child centred approach",
+    "why is the play way method suited to young children",
+    "describe the features of an optimal learning environment for a three year old",
+    "what happens when a young child is forced to sit and learn like an older pupil",
+    "how do peers speed up a child's learning in preschool",
+    "which benefits does a good preschool bring to children in difficult circumstances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the approach",
+     "explain": "the child's curiosity and pace drive the activity, the adult only arranges conditions"
+    },
+    {
+     "step": 2,
+     "action": "contrast with formal drill",
+     "explain": "forced seat work breeds anxiety and kills the questioning habit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Learning through enjoyable activity among peers is which method: play way or lecture way?",
+     "a": "play way"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.8",
+   "title": "Piaget and Vygotsky for the ECCE Teacher",
+   "section": "Basic concepts and Preparing for a Career",
+   "definition": "Piaget showed that young children understand the world in ways of their own and must explore at their own pace, while Vygotsky stressed how much a concerned, knowledgeable adult matters; together they set the teacher's task -- know what the child can do and pitch every activity neither too easy nor too hard.",
+   "formula": "task difficulty -- below interest threshold plus above frustration threshold, both avoided",
+   "key_idea": "The preschool educator must know the child's capabilities more than facts about the world.",
+   "textbook_ref": "lehe106.txt, Piaget and Vygotsky passages (approx lines 257-265, 376-389)",
+   "question_patterns": [
+    "what did Piaget conclude about the way young children understand the world",
+    "why do young children need a supportive environment to explore",
+    "which need did Vygotsky highlight for preschool education",
+    "why must tasks given to a child be neither too easy nor too difficult",
+    "how should a teacher use knowledge of the child's capabilities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state each thinker's message",
+     "explain": "child's own ways of knowing; the indispensable caring adult"
+    },
+    {
+     "step": 2,
+     "action": "draw the classroom rule",
+     "explain": "match difficulty to capability so interest and motivation survive"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which psychologist showed children understand the world in their own ways: Piaget or Vygotsky?",
+     "a": "Piaget"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.9",
+   "title": "Skills and Training for ECCE Professionals",
+   "section": "Preparing for a Career",
+   "definition": "An early childhood worker needs genuine interest in children, knowledge of their needs and capacities, stamina for long physical activity, a repertoire of stories, songs and art skills, flexibility to drop a lesson plan mid stream, plus administrative ability for records and parent contact; entry runs through nursery teacher training, one year diplomas or a degree with child development and psychology.",
+   "formula": "profile -- interest plus knowledge plus arts repertoire plus stamina plus flexibility plus administration",
+   "key_idea": "Short attention spans make a large stock of ready activities and quick adaptability compulsory.",
+   "textbook_ref": "lehe106.txt, skills list and training routes (approx lines 390-455)",
+   "question_patterns": [
+    "list the skills an ECCE worker must have",
+    "why must a preschool teacher keep a large repertoire of activities ready",
+    "which courses open the door to a career in early childhood care",
+    "why does a preschool teacher need administrative and management skills",
+    "how do arts skills like storytelling and music help an ECCE teacher",
+    "why should parents too understand individual differences between children"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gather the personal skills",
+     "explain": "interest, knowledge, interaction capacity, creativity, energy, flexibility"
+    },
+    {
+     "step": 2,
+     "action": "add the formal routes",
+     "explain": "NTT, diploma and open university courses after school, degrees with child development for higher entry"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Short attention spans make a large stock of ready what compulsory: activities or punishments?",
+     "a": "activities"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.10",
+   "title": "Scope and Careers in ECCE",
+   "section": "Scope",
+   "definition": "Trained workers serve as nursery teachers, creche and day care caregivers, programme team members, campaign planners in government and NGOs, teacher trainers or entrepreneurs running camps, activity clubs and preschool centres, and can climb to postgraduate and doctoral study.",
+   "formula": "service map -- creches plus day care plus nursery schools plus NGOs plus ICDS plus training institutes",
+   "key_idea": "Entrepreneurship means setting up one's own programme at home or in separate space, which adds management expertise to teaching skill.",
+   "textbook_ref": "lehe106.txt, Scope, services and careers lists (approx lines 456-521)",
+   "question_patterns": [
+    "name the services commonly available in early childhood care",
+    "list the career options after training in ECCE",
+    "what does an ECCE entrepreneur set up",
+    "which organisations hire professionals to plan campaigns for young children",
+    "how can one move from teaching into research in this field",
+    "what extra expertise does running one's own child care centre demand"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the employer settings",
+     "explain": "creches, day care centres, nursery schools, NGOs, ICDS, training institutes"
+    },
+    {
+     "step": 2,
+     "action": "sketch the growth path",
+     "explain": "teacher or caregiver to coordinator, trainer, planner, entrepreneur or researcher"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Trained ECCE workers serve as nursery teachers, caregivers or what planners in NGOs: campaign or wedding?",
+     "a": "campaign"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.11",
+   "title": "Span of Developmental Stages",
+   "section": "Basic concepts: age bands",
+   "definition": "Each developmental stage occupies a stated age band, and the width of any band in years is the upper age minus the lower age of that band.",
+   "formula": "stage_span = end_age - start_age",
+   "key_idea": "The toddler band covers one year, infancy one to two, and the preschool band four years from three to seven.",
+   "textbook_ref": "lehe106.txt, Basic concepts stage bands (approx lines 216-245)",
+   "question_patterns": [
+    "the toddler stage runs from 2 to 3 years; how many years wide is this band",
+    "a programme admits children from 3 to 8 years; compute the span in years it covers",
+    "calculate the width in years of a stage that begins at birth and ends at age one",
+    "find the number of years between the start and end ages of any stated developmental band",
+    "how long in years does the phase from 3 years to 8 years last"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the lower age from the upper age",
+     "explain": "the difference gives the band width in years",
+     "compute": "stage_span = end_age - start_age"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The toddler band covers how many years: one or ten?",
+     "a": "one"
+    }
+   ]
+  },
+  {
+   "id": "lehe106.12",
+   "title": "Infancy Share of Early Childhood",
+   "section": "Basic concepts: age bands",
+   "definition": "Since early childhood runs from birth to eight years, the one year of infancy occupies a fixed percentage of that window, found by dividing the infancy span by the whole span and scaling to one hundred.",
+   "formula": "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100",
+   "key_idea": "One year out of eight makes infancy one eighth, about 12.5 per cent, of early childhood.",
+   "textbook_ref": "lehe106.txt, Basic concepts stage definitions (approx lines 216-221)",
+   "question_patterns": [
+    "infancy lasts 1 year and early childhood runs from birth to 8 years; what percentage of early childhood is infancy",
+    "compute the share of the birth to 8 window taken up by the first year of life",
+    "express infancy as a percentage of the full early childhood span",
+    "find what fraction in per cent one stage forms of the whole birth to eight window",
+    "what per cent of early childhood remains after infancy ends, taking infancy as 1 year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the full window",
+     "explain": "subtract the starting age from the ending age of early childhood",
+     "compute": "childhood_span = childhood_end - childhood_start"
+    },
+    {
+     "step": 2,
+     "action": "divide infancy by the window and scale",
+     "explain": "the quotient times one hundred is the percentage share",
+     "compute": "infancy_pct = infancy_years / childhood_span * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One year of infancy out of eight makes what percent of early childhood: 12.5 or 80?",
+     "a": "12.5"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe106.txt Basic concepts, toddler band",
+   "concept": "lehe106.11",
+   "question_type": "numeric",
+   "question_pattern": "A child is called a toddler from {start_age} to {end_age} years. How many years does the toddler band last?",
+   "extracted_variables": {
+    "start_age": 2,
+    "end_age": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the ages",
+     "explain": "3 - 2 = 1 year of toddling",
+     "compute": "stage_span = end_age - start_age"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe106.txt Basic concepts, infancy and early childhood bands",
+   "concept": "lehe106.12",
+   "question_type": "numeric",
+   "question_pattern": "Taking infancy as {infancy_years} year and early childhood as running from birth to {childhood_end} years, what percentage of early childhood is infancy?",
+   "extracted_variables": {
+    "infancy_years": 1,
+    "childhood_start": 0,
+    "childhood_end": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "measure the window",
+     "explain": "8 - 0 = 8 years of early childhood",
+     "compute": "childhood_span = childhood_end - childhood_start"
+    },
+    {
+     "step": 2,
+     "action": "scale the share",
+     "explain": "1 / 8 x 100 = 12.5 per cent",
+     "compute": "infancy_pct = infancy_years / childhood_span * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe106.txt Significance, optimal learning environment",
+   "concept": "lehe106.7",
+   "question_type": "short_answer",
+   "question_pattern": "A neighbour keeps her three year old seated at a table copying letters for two hours daily. Why does this harm the child and what should she do instead?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "diagnose the problem",
+     "explain": "formal drill at this age dulls curiosity and breeds anxiety and insecurity"
+    },
+    {
+     "step": 2,
+     "action": "prescribe the alternative",
+     "explain": "a safe, loving setting with play material, peers and a caring adult, learning through play"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe106.txt Review Questions 1-7",
+   "questions": [
+    "What do you understand by early childhood care and education?",
+    "Which care arrangements can young children need?",
+    "Why do young children need a special informal programme before formal schooling?",
+    "Explain the child centred approach.",
+    "What services does a creche provide?",
+    "List the skills an ECCE worker must possess.",
+    "Describe the preparation route for a career in ECCE."
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe106.txt Practicals 1-3, play materials and teaching aids",
+   "questions": [
+    "Collect clean safe play material such as leaves, stones and sticks from an open area and plan one activity each around colour, size, shape and number.",
+    "Make a cardboard puzzle by painting an identical picture twice, sticking one on the box, cutting the other into four pieces and matching them.",
+    "Prepare a puppet or mask from stiff paper, cloth and thread, run a storytelling or role play session, and analyse what children learn from it.",
+    "Plan a low cost or no cost activity that links with a local folk art of your region."
+   ]
+  }
+ ]
+}

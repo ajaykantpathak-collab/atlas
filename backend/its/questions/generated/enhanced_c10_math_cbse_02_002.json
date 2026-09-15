@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_002",
+   "title": "c10_math_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the zero of the linear polynomial \\(p(x) = 3x - 12\\)?",
+     "a": "The zero is \\(x = 4\\). A wrong answer like \\(x = -4\\) reveals the student incorrectly solved \\(3x - 12 = 0\\) as \\(3x = -12\\) (sign error when transposing). A wrong answer like \\(x = 12/3 = 4\\) but written as \\(x = 3/12\\) reveals confusion about the formula \\(x = -b/a\\) — they might have used \\(b/a\\) instead of \\(-b/a\\) or swapped numerator and denominator.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of \\(y = 2x + 6\\) cuts the x-axis at point A. Without drawing the graph, write the coordinates of A and explain why the x-coordinate of A is the zero of the polynomial \\(2x + 6\\).",
+     "a": "Coordinates of A are \\((-3, 0)\\). The x-coordinate is \\(-3\\) because on the x-axis \\(y = 0\\), so we solve \\(2x + 6 = 0 \\Rightarrow x = -3\\). This value makes the polynomial zero, hence it is the zero. A wrong answer like \\((0, -3)\\) reveals the student confuses x-intercept with y-intercept. An answer giving only \\(x = -3\\) without the coordinate pair reveals they don't connect the algebraic zero to the geometric point on the graph.",
+     "self_check": true
+    },
+    {
+     "q": "A linear polynomial \\(p(x) = kx - 15\\) has zero \\(x = 5\\). Find the value of \\(k\\). Then write the polynomial and state its x-intercept.",
+     "a": "Given zero \\(x = 5\\), so \\(p(5) = 0 \\Rightarrow k(5) - 15 = 0 \\Rightarrow 5k = 15 \\Rightarrow k = 3\\). Polynomial: \\(p(x) = 3x - 15\\). X-intercept: \\((5, 0)\\). A wrong answer like \\(k = -3\\) reveals the student set \\(k(5) + 15 = 0\\) (sign error on constant term). A wrong answer giving x-intercept as \\((0, 5)\\) reveals confusion between x-intercept and y-intercept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zeros and x-intercepts of the two linear polynomials: \\(p_1(x) = 2x + 4\\) and \\(p_2(x) = -2x - 4\\). What do you observe about their graphs?",
+     "a": "Zero of \\(p_1\\): \\(2x + 4 = 0 \\Rightarrow x = -2\\), x-intercept \\((-2, 0)\\). Zero of \\(p_2\\): \\(-2x - 4 = 0 \\Rightarrow -2x = 4 \\Rightarrow x = -2\\), x-intercept \\((-2, 0)\\). Both have the same zero and same x-intercept. The graphs are different lines (slopes 2 and -2) but they intersect the x-axis at the same point. A wrong answer claiming different zeros reveals sign errors in solving \\(-2x - 4 = 0\\). A student saying the graphs are the same line reveals they don't understand that different slopes give different lines even if they share an x-intercept.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the zero of \\(p(x) = 4 - 2x\\) as follows: \\(4 - 2x = 0 \\Rightarrow -2x = -4 \\Rightarrow x = -2\\). Identify the error and give the correct zero.",
+     "a": "The error is in the last step: \\(-2x = -4 \\Rightarrow x = \\frac{-4}{-2} = 2\\), not \\(-2\\). The student divided \\(-4\\) by \\(-2\\) and got \\(-2\\) (sign error: negative divided by negative is positive). Correct zero is \\(x = 2\\). X-intercept is \\((2, 0)\\). A wrong answer that says the error is in the first step reveals the student doesn't recognize the sign mistake in division. A student who gives correct zero but cannot explain the error lacks metacognitive awareness of sign rules.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) that can be modeled by a linear polynomial \\(p(x) = ax + b\\) where \\(a < 0\\) and \\(b > 0\\). State what the zero represents in your situation and find the zero if \\(a = -20\\) and \\(b = 500\\).",
+     "a": "Example: A water tank has 500 litres and leaks at 20 litres per hour. Amount left after \\(x\\) hours: \\(y = 500 - 20x\\). Here \\(a = -20\\), \\(b = 500\\). Zero: \\(500 - 20x = 0 \\Rightarrow x = 25\\) hours. The zero represents the time when the tank becomes empty. A poor answer might give a situation with \\(a > 0\\) (e.g., saving money) showing they don't understand the condition \\(a < 0\\). Or they might find zero as \\(x = -25\\) (sign error) showing algebraic weakness. A good answer includes correct context, correct interpretation of zero, and correct calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_007",
+   "title": "c11_eco_cbse_02_007",
+   "questions": [
+    {
+     "q": "List the three categories of industries under the Industrial Policy Resolution 1956 and give one example of an industry that would fall into each category.",
+     "a": "Correct answer: Schedule A (17 industries exclusively state-owned, e.g., arms/ammunition, atomic energy, iron/steel); Schedule B (12 industries where state takes sole responsibility for new units but private sector can supplement, e.g., machine tools, fertilizers, synthetic rubber); Schedule C (all remaining industries open to private sector but subject to licensing, e.g., textiles, sugar, bicycles). A wrong answer that swaps examples (e.g., putting textiles in Schedule A) reveals the student hasn't grasped the strategic vs. non-strategic distinction that drove the classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the IPR 1956 placed industries in Schedule B under a unique \"state starts new units, private sector supplements\" arrangement instead of leaving them fully to the private sector or fully nationalizing them.",
+     "a": "Correct answer: These industries (e.g., machine tools, fertilizers) were capital-intensive and essential for downstream industrialization but not as strategic as defense/atomic energy. The state lacked resources to fully monopolize them, while private sector lacked capital/technology to lead. The compromise ensured state control over capacity expansion timing/location while allowing private participation to augment output. A wrong answer focusing only on \"private sector was weak\" misses the nuanced middle-path logic of the mixed economy model.",
+     "self_check": true
+    },
+    {
+     "q": "In 1950-51, the industrial sector contributed 13% to India's GDP. By 1990-91, this share rose to 24.6%. Calculate the average annual growth rate of the industrial sector's GDP share over this 40-year period, assuming linear growth. Then explain why this linear approximation may overstate or understate the actual year-on-year growth pattern.",
+     "a": "Step 1: Total increase = 24.6 - 13 = 11.6 percentage points over 40 years. Step 2: Linear average = 11.6 / 40 = 0.29 percentage points per year. Step 3: This linear approximation assumes constant absolute increase each year. In reality, growth was likely faster during the Second/Third Plans (heavy industry push) and slower during plan holidays/drought years, so the linear rate overstates growth in slow periods and understates it in peak periods. A wrong answer that computes compound annual growth rate (CAGR) instead of linear average shows confusion between share growth and output growth.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"A big industrialist would get a license not for starting a new firm but to prevent competitors from starting new firms.\" Analyze how this behavior, combined with the licensing requirement for expansion/diversification, distorted the relationship between market demand and industrial capacity.",
+     "a": "Correct answer: Licensing created artificial entry barriers. An incumbent could hoard licenses to block rivals, reducing competitive pressure. Expansion licenses required proving \"economy needs more output,\" which incumbents could manipulate by understating demand to keep prices high. This decoupled capacity from actual demand, leading to underutilization, lack of innovation, and higher consumer prices. A wrong answer that says \"licensing ensured optimal capacity\" ignores the incentive to restrict supply for monopoly profits.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Public sector enterprises should be judged by their contribution to national welfare, not profits, so their persistent losses are justified.\" Use the NCERT examples of telecommunication and Modern Bread to support your evaluation.",
+     "a": "Correct evaluation: The welfare argument holds for genuine public goods (defense, public health) and natural monopolies (railways, power grid) where private provision fails. However, telecommunication (a service with clear pricing/excludability) and bread manufacturing (a perfectly competitive good) do not fit this category. Losses in these areas represent resource misallocation: capital tied up in low-productivity uses that could fund education/healthcare. The NCERT notes even private firms can run hotels efficiently. A wrong answer that unconditionally accepts or rejects the welfare argument fails to distinguish between strategic and non-strategic public sector activities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a revised industrial classification for a hypothetical developing country in 2024 that learns from IPR 1956's successes (diversification, regional spread) and failures (license raj, inefficiency). Your classification must have 3-4 categories with clear state/private roles and a modern regulatory mechanism replacing licensing.",
+     "a": "Good answer criteria: (1) Category 1: Strategic sectors (defense, atomic, railways) – state monopoly. (2) Category 2: Infrastructure/network industries (power transmission, telecom backbone) – state-led with regulated private participation. (3) Category 3: General manufacturing/services – private sector with automatic approval (no licensing), only environmental/labour compliance. (4) Category 4: Sunrise sectors (green tech, AI, biotech) – state provides risk capital/grants, private executes. Regulatory mechanism: transparent auction for scarce resources (spectrum, mines), competition law for anti-competitive practices, and performance-based incentives for backward regions. A poor answer retains licensing or leaves all sectors open without addressing market failures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

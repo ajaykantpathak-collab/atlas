@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt106",
+ "concepts": [
+  {
+   "id": "lebt106.1",
+   "title": "Germ Theory and the Golden Age of Microbiology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Germ Theory and the Golden Age of Microbiology' refers to.",
+     "a": "Microbiology grew from Leeuwenhoek's animalcules through Pasteur's swan-necked flasks - which killed spontaneous generation and launched the germ theory of disease - to Koch's pure-culture proof that Bacillus anthracis causes anthrax; the late 1800s and early 1900s became the Golden Age, as solid media, Petri's 1887 dish, selective media of the early twentieth century and antibiotic-era medicine turned microbes into laboratory objects and living factories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Germ Theory and the Golden Age of Microbiology'.",
+     "a": "Broth spoiled only when dust reached it, so microbes come from microbes - and that insight built pure culture, sterilisation and medical microbiology.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Germ Theory and the Golden Age of Microbiology' taught, and from which source text?",
+     "a": "6.1 (source: lebt106.txt section 6.1, Boxes 1-3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.2",
+   "title": "Nutritional Categories of Microbes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nutritional Categories of Microbes' refers to.",
+     "a": "Microbes sort by where carbon and energy come from: heterotrophs feed on organic molecules, autotrophs fix carbon dioxide; chemoautotrophs oxidise sulphur or nitrite for both needs while photoautotrophs harvest light, chemoheterotrophs burn organic nutrients, and photoheterotrophs such as green and purple non-sulphur bacteria mix light energy with organic carbon - with lithotrophs and organotrophs naming the electron sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nutritional Categories of Microbes'.",
+     "a": "Two questions classify any microbe - where does its carbon come from and where does its energy come from.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nutritional Categories of Microbes' taught, and from which source text?",
+     "a": "6.1 and 6.2 (source: lebt106.txt sections 6.1-6.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.3",
+   "title": "Culture Media Composition and Types",
+   "questions": [
+    {
+     "q": "Using the method 'Culture Media Composition and Types', work with: nacl_pct = 80, semisolid_pct = 12, solid_pct = 400, tryptone_pct = 150, yeast_extract_pct = 20. Carry the chain through step by step and give the final value of agar_multiple.",
+     "a": "33.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Culture Media Composition and Types' and work with: nacl_pct = 40, semisolid_pct = 500, solid_pct = 100, tryptone_pct = 200, yeast_extract_pct = 45. Carry the chain through step by step and give the final value of agar_multiple.",
+     "a": "0.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Culture Media Composition and Types' refers to.",
+     "a": "A medium supplies carbon skeletons, nitrogen, phosphate and sulphate, trace minerals, growth factors, water and an anti-foam; chemically defined recipes such as M9 for E. coli or BG11 for cyanobacteria list every ingredient, complex broths lean on peptone and yeast extract - LB mixing ten percent tryptone, five percent yeast extract and ten percent sodium chloride - while consistency sorts broths from one to two percent agar solids and half-percent semi-solid media, and function splits selective, differential and enrichment media such as MacConkey agar that both selects Gram-negative rods and flags lactose fermenters red.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Culture Media Composition and Types'.",
+     "a": "Add the component percents to size a recipe, and name the medium by what it defines, solidifies or selects.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Culture Media Composition and Types', in plain ASCII form.",
+     "a": "lb_solids = tryptone_pct + yeast_extract_pct + nacl_pct",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.4",
+   "title": "Sterilisation by Heat Radiation and Filtration",
+   "questions": [
+    {
+     "q": "Using the method 'Sterilisation by Heat Radiation and Filtration', work with: autoclave_temp = 30, boiling_point = 18, psi = 4. Carry the chain through step by step and give the final value of rise_per_psi.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sterilisation by Heat Radiation and Filtration' and work with: autoclave_temp = 300, boiling_point = 80, psi = 30. Carry the chain through step by step and give the final value of rise_per_psi.",
+     "a": "7.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sterilisation by Heat Radiation and Filtration' refers to.",
+     "a": "Contaminant-free practice demands sterilisation: autoclaves hold steam at 121 degrees Celsius under 15 psi beyond thirty minutes, pasteurisation spares milk's spores at 63 degrees for thirty minutes, 72 degrees for fifteen seconds or 140-150 degrees for a couple of seconds, UV lamps peak near 260 nanometres by knitting thymine dimers, 0.2-0.45 micron membranes and 99.97-percent-efficient HEPA filters strain out microbes, and seventy percent alcohol with formaldehyde or heavy metals finishes chemically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sterilisation by Heat Radiation and Filtration'.",
+     "a": "Pressure raises the boiling point, so subtract 100 degrees from the autoclave temperature to see what the 15 psi buys.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sterilisation by Heat Radiation and Filtration', in plain ASCII form.",
+     "a": "temp_rise = autoclave_temp - boiling_point",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.5",
+   "title": "Pure Culture Techniques",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pure Culture Techniques' refers to.",
+     "a": "A pure culture holds one strain alone, won by dilution on solid media: the streak plate thins a loopful across an agar surface until isolated colonies appear, the pour plate mixes one-millilitre aliquots of serially diluted sample into melted agar before it sets, and the spread plate distributes a tenth-millilitre drop with a sterile L-shaped rod - colonies arise because daughters stay put where their parent landed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pure Culture Techniques'.",
+     "a": "Dilute until single cells land apart; each colony is then a clone you can pick.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pure Culture Techniques' taught, and from which source text?",
+     "a": "6.4 (source: lebt106.txt section 6.4, Figs. 6.2-6.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.6",
+   "title": "Factors Affecting Microbial Growth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Affecting Microbial Growth' refers to.",
+     "a": "Growth bends to its surroundings: mesophiles peak between twenty and forty-five degrees while thermophiles push toward fifty to sixty-five and extreme thermophiles survive past one hundred, most microbes favour neutral pH though fungi prefer slight acidity, and oxygen tolerance splits obligate aerobes, obligate and aerotolerant anaerobes and facultative species, with carbon dioxide and correct light wavelengths completing the checklist for autotrophs and phototrophs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Affecting Microbial Growth'.",
+     "a": "Fix temperature, pH, oxygen, carbon dioxide and light to the organism's habit before expecting growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Affecting Microbial Growth' taught, and from which source text?",
+     "a": "6.5 (source: lebt106.txt section 6.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.7",
+   "title": "The Bacterial Growth Curve Phases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Bacterial Growth Curve Phases' refers to.",
+     "a": "Plotting log of viable cells against time reveals four acts: a lag phase where cells build division machinery without multiplying, the exponential or log phase of maximal constant-rate doubling when cultures are chemically most uniform, a stationary phase balancing births against deaths as nutrients thin and wastes mount, and a decline phase of logarithmic death - the shape lactic-acid Streptococci write into their own medium as acidity rises.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Bacterial Growth Curve Phases'.",
+     "a": "Flat, climb, plateau, fall - each phase reflects a different balance between building cells and killing them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Bacterial Growth Curve Phases' taught, and from which source text?",
+     "a": "6.6 (source: lebt106.txt section 6.6, Fig. 6.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt106.8",
+   "title": "Growth Kinetics Doubling Time and Growth Rate",
+   "questions": [
+    {
+     "q": "Using the method 'Growth Kinetics Doubling Time and Growth Rate', work with: elapsed_hours = 400, generations = 3, starter_cells = 400. Carry the chain through step by step and give the final value of mu_per_hr.",
+     "a": "0.0052 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Growth Kinetics Doubling Time and Growth Rate' and work with: elapsed_hours = 8, generations = 20, starter_cells = 3. Carry the chain through step by step and give the final value of mu_per_hr.",
+     "a": "1.7325 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth Kinetics Doubling Time and Growth Rate' refers to.",
+     "a": "Balanced growth obeys arithmetic: dividing elapsed time by the number of generations gives the doubling time, dividing 0.693 by that doubling time gives the specific growth rate, and binary fission doubles the population - one cell into two, two into four - so any starting culture scales by two raised to the generation count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth Kinetics Doubling Time and Growth Rate'.",
+     "a": "Divide time by generations for the doubling time, then divide 0.693 by it for the specific growth rate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth Kinetics Doubling Time and Growth Rate', in plain ASCII form.",
+     "a": "td_hours = elapsed_hours / generations",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_011",
+   "title": "c11_eng_h_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the structural formula for a Third Conditional sentence, and which clause refers to the unreal past condition?",
+     "a": "The Third Conditional structure is: **If + past perfect, ... would have + past participle**. The *if-clause* (e.g., 'If the bullet had missed') states the unreal past condition; the main clause states the hypothetical past result. A wrong answer (e.g., using past simple in the if-clause) reveals confusion with Second Conditional and inability to distinguish time reference.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"If he himself were dead in this world, what guarantee had he that his son would be alive?\", why does the author use 'were' instead of 'was'? Explain the grammatical mood.",
+     "a": "'Were' is the **past subjunctive** form used in Second Conditionals for all persons (I/he/she/it/we/they) to mark the condition as hypothetical/unreal in the present/future. Using 'was' is a common error that shows the student treats it as a real past indicative rather than an unreal present hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following real situation into a Second Conditional sentence: \"The Marathas win the Battle of Panipat. They establish supremacy in northern India.\"",
+     "a": "**If the Marathas won the Battle of Panipat, they would establish supremacy in northern India.** Steps: 1) Identify the unreal present/future hypothesis. 2) Backshift the verb in the if-clause to past simple ('win' → 'won'). 3) Use 'would + base verb' in the main clause ('establish' → 'would establish'). A wrong answer using 'will establish' shows failure to backshift, treating it as a First Conditional (real possibility).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two sentences: \"Green and black stripes were used alternately.\" vs. \"Green stripes could be used or alternatively black ones.\" What is the semantic difference created by 'alternately' vs. 'alternatively'?",
+     "a": "'Alternately' means **in turn, one after the other** (sequence: green, black, green, black). 'Alternatively' means **as another option/choice** (either green stripes or black stripes, not both). A wrong answer confusing them reveals the student cannot distinguish sequential arrangement from optional choice, a critical distinction in descriptive and instructional writing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student sentence: \"The librarian spoke respectfully to the learned scholar, and you will find the historian and the scientist in the archaeology and natural science sections respectively.\" Is the usage of 'respectfully' and 'respectively' correct? Justify.",
+     "a": "**Yes, both are correct.** 'Respectfully' (adverb of manner) modifies 'spoke' → spoke with respect. 'Respectively' (adverb of order) links the two people to the two sections in the same order: historian → archaeology, scientist → natural science. A wrong evaluation (e.g., swapping them) shows the student cannot map the adverbial functions: manner vs. one-to-one correspondence.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original paragraph (4-5 sentences) describing a hypothetical historical turning point, using at least one Second Conditional, one Third Conditional, and two of the chapter's idioms ('give vent to', 'take issue with', 'stand on one's feet', 'be wound up', 'meet one's match').",
+     "a": "Sample answer: \"If the 1857 uprising **had succeeded** (Third Conditional), India **would have stood on its feet** decades earlier. **If the British East India Company were wound up** then (Second Conditional), history books **would tell** a different story. Nationalists **would give vent to** their joy, but conservatives **might take issue with** the rapid changes.\" A poor answer uses only First Conditionals, omits idioms, or misuses idioms (e.g., 'meet one's match' for a non-competitive context), revealing lack of syntactic control and lexical precision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

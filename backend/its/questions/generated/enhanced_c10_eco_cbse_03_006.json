@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_006",
+   "title": "c10_eco_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define formal credit sources and give two examples from the Indian context.",
+     "a": "Formal credit sources are institutions registered with and regulated by the RBI, such as commercial banks (e.g., State Bank of India) and cooperative banks (e.g., District Central Cooperative Bank). A wrong answer (e.g., \"moneylenders are formal because they lend money\") reveals confusion between legality and regulation — students often think any regular lender is formal, missing the RBI supervision criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the RBI supervise formal credit sources but not informal ones? Explain in terms of interest rate control and borrower protection.",
+     "a": "RBI supervises formal sources to ensure they follow fair interest rates (linked to repo rate), maintain transparency in terms, and protect borrowers from exploitation; informal sources operate outside this framework, charging exploitative rates (often 36-60% p.a.) with no legal recourse for borrowers. A wrong answer (e.g., \"RBI doesn't supervise informal because they are small\") misses the regulatory purpose — supervision is about enforcing rules, not size.",
+     "self_check": true
+    },
+    {
+     "q": "A borrower takes a ₹20,000 loan from a moneylender at 5% per month simple interest. Calculate the total interest paid after one year and compare it with a bank loan at 9% per annum simple interest. Which source is cheaper and by how much?",
+     "a": "Moneylender: 5% per month × 12 = 60% per annum. Interest = ₹20,000 × 60% = ₹12,000. Bank: 9% per annum. Interest = ₹20,000 × 9% = ₹1,800. Bank is cheaper by ₹10,200. A wrong answer (e.g., calculating moneylender interest as 5% per year) shows failure to convert monthly rate to annual rate — a common board exam trap where students ignore the time period conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the collateral requirements of a bank loan and a moneylender loan for a small farmer who owns 1 hectare of land but has no formal land title. Explain why the farmer might still choose the moneylender despite the higher cost.",
+     "a": "Banks require legal collateral (land title deeds) which the farmer lacks; moneylenders accept informal collateral (standing crop, jewelry, or personal guarantee) or even lend without collateral based on social ties. The farmer chooses the moneylender because formal credit is inaccessible due to documentation barriers, not because it's cheaper. A wrong answer (e.g., \"moneylender doesn't ask for collateral so it's better\") ignores the trade-off: higher cost vs. accessibility — students often miss that lack of collateral requirement is a symptom of no legal enforcement, not generosity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If the government caps moneylender interest rates at 15% per annum, poor borrowers will automatically shift to formal credit.\" Use the concepts of collateral, documentation, and access.",
+     "a": "False. Capping rates does not remove the barriers of collateral, documentation, distance, and procedural delays in formal credit. Poor borrowers without land titles or credit history will still be excluded from banks; moneylenders may exit the market or lend illegally, reducing credit availability further. A wrong answer (e.g., \"yes, because lower rate attracts borrowers\") shows linear thinking — students assume price is the only factor, ignoring non-price barriers that are central to the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a scenario where a rural household uses both formal and informal credit for different purposes. Specify the purpose, source, interest rate, and collateral for each loan, and justify why the household uses both.",
+     "a": "Example: Household takes a Kisan Credit Card loan from a bank at 7% p.a. for seasonal crop input (collateral: land title) for ₹30,000, and a ₹10,000 loan from a moneylender at 48% p.a. for a medical emergency (collateral: gold jewelry). Justification: Bank loan is cheap but slow and requires paperwork; moneylender loan is instant and flexible for urgent needs. A poor answer (e.g., \"they use both because they need money\") lacks specificity on terms and fails to link purpose to source characteristics — board exam case-based questions require such matched reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

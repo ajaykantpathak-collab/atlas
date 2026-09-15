@@ -1,0 +1,272 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 11,
+ "chapter_title": "Marketing Management",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_sqp_0157.txt",
+ "concepts": [
+  {
+   "id": "c12bs.11.1",
+   "title": "Meaning and Functions of Marketing",
+   "section": "11.1",
+   "definition": "Marketing is the process of identifying, anticipating, and satisfying customer needs and wants profitably through the exchange of goods and services.",
+   "formula": "",
+   "key_idea": "Marketing begins before production and continues after sale, covering all activities that move goods from producer to consumer.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is marketing and explain its main functions",
+    "how does marketing satisfy customer needs profitably",
+    "explain the difference between marketing and selling",
+    "describe the functions of marketing with examples",
+    "why is marketing considered a continuous process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define marketing",
+     "explain": "Marketing is the set of activities that identify customer needs, plan the product, distribute it, and ensure satisfaction after the sale, all undertaken for profit."
+    },
+    {
+     "step": 2,
+     "action": "list the functions of marketing",
+     "explain": "The main functions are gathering and analysing market information, marketing planning, product designing, standardisation and grading, packaging and labelling, branding, customer support, pricing, promotion, physical distribution, storage, and transportation."
+    },
+    {
+     "step": 3,
+     "action": "verify the continuous nature of marketing",
+     "explain": "Confirm that marketing starts before a product is made (through research and design) and continues after the sale (through service and feedback), making it a continuous process."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is marketing and why is it called a continuous process?",
+     "solution": "Marketing is the process of identifying and satisfying customer needs profitably. It is continuous because it begins with market research before production and continues through after-sales service and feedback even after the product is sold.",
+     "answer": "Marketing is a continuous profit-driven process of satisfying customer needs from research to after-sales service."
+    },
+    {
+     "question": "Explain any four functions of marketing.",
+     "solution": "The four functions are: (1) gathering market information to understand customer needs, (2) product designing and development, (3) standardisation and grading to ensure quality, and (4) branding and packaging to help identify and protect the product.",
+     "answer": "Market information, product designing, standardisation and grading, and branding and packaging are key functions of marketing."
+    },
+    {
+     "question": "How does marketing differ from selling in scope?",
+     "solution": "Selling is a narrow activity focused on converting goods into cash, while marketing is a wider process that includes identifying needs, designing products, pricing, promoting, distributing, and providing after-sales service.",
+     "answer": "Selling is a part of marketing; marketing covers the entire process from need identification to after-sales service."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define marketing and explain its main functions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is marketing considered a continuous process that starts before production?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of customer support as a function of marketing.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.11.2",
+   "title": "Marketing vs Selling",
+   "section": "11.2",
+   "definition": "Selling is a narrow activity of exchanging goods for money, whereas marketing is a broader process of identifying customer needs and satisfying them profitably through product, price, place, and promotion decisions.",
+   "formula": "",
+   "key_idea": "Selling focuses on the seller's need to convert products into cash, while marketing focuses on the customer's need and satisfaction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "distinguish between marketing and selling",
+    "how does the focus of marketing differ from selling",
+    "explain the scope of marketing versus selling",
+    "why is selling considered a part of marketing",
+    "compare marketing and selling on the basis of customer satisfaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the focus of each",
+     "explain": "Selling focuses on the seller's need to convert products into revenue, while marketing focuses on the customer's need and how best to satisfy it profitably."
+    },
+    {
+     "step": 2,
+     "action": "compare scope and starting point",
+     "explain": "Selling starts after production and ends with the sale, whereas marketing starts before production with research and continues after the sale through service. Marketing has a wider scope."
+    },
+    {
+     "step": 3,
+     "action": "verify the relationship",
+     "explain": "Confirm that selling is only one part of the marketing process; marketing includes product planning, pricing, promotion, distribution, and after-sales service, of which selling is the exchange stage."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between marketing and selling on any four bases.",
+     "solution": "Focus: selling focuses on the product and seller, marketing on the customer. Scope: selling is narrow, marketing is wide. Starting point: selling starts after production, marketing starts before production. End: selling ends with the sale, marketing continues after the sale.",
+     "answer": "Selling is product and seller focused and narrow; marketing is customer focused, wide, and continuous."
+    },
+    {
+     "question": "Why is selling considered a part of marketing?",
+     "solution": "Selling is the exchange activity that converts goods into cash, but marketing covers the entire process from identifying needs to after-sales service. Since exchange is one stage within this broader process, selling is a part of marketing.",
+     "answer": "Selling is the exchange stage within the wider marketing process."
+    },
+    {
+     "question": "How does the starting point of marketing differ from that of selling?",
+     "solution": "Marketing starts with the customer and market research before the product is made, while selling starts after the product is produced and focuses on persuading the customer to buy it.",
+     "answer": "Marketing starts with the customer before production; selling starts with the product after production."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between marketing and selling on the basis of focus, scope, starting point, and end.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain why marketing is said to be customer oriented while selling is product oriented.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example each to show the difference between marketing and selling.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.11.3",
+   "title": "Marketing Mix and the 4 Ps",
+   "section": "11.3",
+   "definition": "The marketing mix is the set of controllable marketing tools -- product, price, place, and promotion -- that a firm uses to produce the response it wants in the target market.",
+   "formula": "marketing_mix = product + price + place + promotion",
+   "key_idea": "The 4 Ps are the controllable variables that a firm blends to satisfy the target market and achieve its marketing objectives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the marketing mix and explain its elements",
+    "describe the four ps of marketing with examples",
+    "how do the 4 ps work together in the marketing mix",
+    "explain the importance of the marketing mix for a firm",
+    "why is the marketing mix called a set of controllable variables"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the marketing mix",
+     "explain": "The marketing mix is the combination of four controllable elements -- product, price, place, and promotion -- that a firm uses to reach its target market."
+    },
+    {
+     "step": 2,
+     "action": "describe the four Ps",
+     "explain": "Product is what is offered, price is the value charged, place is how the product reaches the customer, and promotion is how the firm communicates with customers."
+    },
+    {
+     "step": 3,
+     "action": "verify the blending of the 4 Ps",
+     "explain": "Confirm that the four Ps must be blended consistently so that product quality, price level, distribution, and promotion all support the same target market and positioning."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the marketing mix? Name its four elements.",
+     "solution": "The marketing mix is the set of controllable marketing tools that a firm combines to produce the desired response in the target market. Its four elements are Product, Price, Place, and Promotion.",
+     "answer": "The marketing mix consists of Product, Price, Place, and Promotion."
+    },
+    {
+     "question": "Explain the four Ps of marketing with one example each.",
+     "solution": "Product: a smartphone with specific features. Price: the MRP and discount at which it is sold. Place: the retail stores and online platforms where it is available. Promotion: the advertising and sales promotion used to inform customers.",
+     "answer": "Product (smartphone), Price (MRP and discount), Place (stores and online), Promotion (advertising)."
+    },
+    {
+     "question": "Why is the marketing mix called a set of controllable variables?",
+     "solution": "The firm can control decisions about the product design, its price, the channels of distribution, and the promotion methods. Since these can be adjusted by the firm, they are called controllable variables.",
+     "answer": "The 4 Ps can be adjusted by the firm, so they are controllable variables."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the marketing mix and its four elements with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why must the four Ps be blended consistently?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give an example of how price and promotion support the same positioning.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.11.9",
+   "title": "Market Segmentation",
+   "section": "11.9",
+   "definition": "Market segmentation is the process of dividing a heterogeneous market into smaller, homogeneous groups of customers who share similar needs, characteristics, or behaviour.",
+   "formula": "",
+   "key_idea": "Segmentation allows a firm to design a separate marketing mix for each segment, improving customer satisfaction and marketing efficiency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is market segmentation and explain its basis",
+    "describe the bases of segmenting consumer markets",
+    "how does market segmentation help a firm",
+    "explain geographic and demographic segmentation with examples",
+    "why is market segmentation important in marketing management"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define market segmentation",
+     "explain": "Market segmentation is the division of a large, heterogeneous market into smaller, homogeneous groups of customers with similar needs and characteristics."
+    },
+    {
+     "step": 2,
+     "action": "list the bases of segmentation",
+     "explain": "The common bases are geographic (region, city size), demographic (age, gender, income), psychographic (lifestyle, values), and behavioural (usage rate, brand loyalty) segmentation."
+    },
+    {
+     "step": 3,
+     "action": "verify the benefits of segmentation",
+     "explain": "Confirm that segmentation helps the firm identify customer needs more precisely, design a focused marketing mix, use resources efficiently, and face less competition in each segment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is market segmentation and what are its common bases?",
+     "solution": "Market segmentation is the process of dividing a market into homogeneous groups of customers. The common bases are geographic, demographic, psychographic, and behavioural segmentation.",
+     "answer": "Market segmentation divides a market into homogeneous groups based on geographic, demographic, psychographic, and behavioural factors."
+    },
+    {
+     "question": "Explain geographic and demographic segmentation with examples.",
+     "solution": "Geographic segmentation divides the market by region, city, or climate, such as selling heavy woollens in cold northern states. Demographic segmentation divides by age, gender, or income, such as targeting premium watches at high-income urban buyers.",
+     "answer": "Geographic segmentation uses region; demographic segmentation uses age, gender, and income."
+    },
+    {
+     "question": "How does market segmentation help a firm?",
+     "solution": "Segmentation helps a firm understand customer needs better, design a tailored marketing mix, allocate resources efficiently, and reduce competition by focusing on specific segments rather than the whole market.",
+     "answer": "Segmentation improves need identification, marketing mix design, resource use, and competitive focus."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain market segmentation and its bases with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between psychographic and behavioural segmentation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example of how segmentation improves marketing efficiency.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

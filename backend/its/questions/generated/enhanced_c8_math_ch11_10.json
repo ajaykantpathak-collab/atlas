@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_10",
+   "title": "c8_math_ch11_10",
+   "questions": [
+    {
+     "q": "Define face, edge, and vertex in the context of a polyhedron. Give one example of a solid that is NOT a polyhedron and explain why.",
+     "a": "A face is a flat polygonal surface, an edge is a line segment where two faces meet, and a vertex is a point where three or more edges meet. A cylinder is not a polyhedron because it has a curved surface and its two circular bases are not polygons.  \nA wrong answer (e.g., calling the curved surface of a cone a \"face\" or saying a sphere has one face) reveals the student confuses flat polygons with curved surfaces and does not grasp the \"poly-\" (many flat faces) requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A square pyramid has 5 faces, 8 edges, and 5 vertices.\" Is this correct? Explain how you would verify this without using Euler's formula.",
+     "a": "The statement is correct. Verification: The base is a square (1 face), and there are 4 triangular lateral faces (4 faces) → total 5 faces. Edges: 4 base edges + 4 lateral edges = 8 edges. Vertices: 4 base vertices + 1 apex = 5 vertices.  \nA wrong answer (e.g., counting 6 faces or 6 vertices) reveals the student either miscounts by not systematically separating base from lateral parts, or confuses edges of the base with lateral edges.",
+     "self_check": true
+    },
+    {
+     "q": "A pentagonal prism has two pentagonal bases and five rectangular lateral faces. How many faces, edges, and vertices does it have? Show your counting method.",
+     "a": "Faces: 2 pentagons + 5 rectangles = 7 faces.  \nEdges: Each pentagon has 5 edges (5×2 = 10 base edges) + 5 vertical edges connecting corresponding vertices = 15 edges.  \nVertices: Each pentagon has 5 vertices (5×2 = 10 vertices).  \nA wrong answer (e.g., 12 edges or 12 vertices) reveals the student either double-counts the vertical edges or forgets that each base vertex connects to exactly one vertical edge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a cube and a regular tetrahedron. Both are polyhedra. What is the same and what is different about their faces, edges, and vertices? Can you find a relationship between the number of faces meeting at each vertex and the total number of vertices?",
+     "a": "Cube: 6 square faces, 12 edges, 8 vertices; 3 faces meet at each vertex. Tetrahedron: 4 triangular faces, 6 edges, 4 vertices; 3 faces meet at each vertex. Both have 3 faces per vertex. Relationship: For these two, (number of faces meeting at each vertex) × (number of vertices) = 2 × (number of edges). Cube: 3×8=24, 2×12=24. Tetrahedron: 3×4=12, 2×6=12.  \nA wrong answer (e.g., saying 4 faces meet at a cube's vertex) reveals the student cannot visualize the 3D arrangement and relies only on 2D net images.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi counts the elements of a hexagonal pyramid and writes: F = 7, E = 12, V = 7. His teacher says one number is wrong. Identify the error and give the correct count.",
+     "a": "The error is in edges. A hexagonal pyramid has 1 hexagonal base (6 edges) + 6 triangular lateral faces (each sharing one base edge and meeting at apex) → lateral edges = 6. Total edges = 6 (base) + 6 (lateral) = 12? Wait, that gives 12. Let's re-evaluate: Base edges = 6. Lateral edges = 6 (from each base vertex to apex). Total edges = 12. That matches. Faces: 1 base + 6 lateral = 7. Vertices: 6 base + 1 apex = 7. All three are correct! The teacher is mistaken.  \nActually, check: Hexagonal pyramid: F=7, E=12, V=7. Euler: 7+7-12=2. It's correct. So the student's count is right. The teacher's claim is wrong.  \nA wrong answer (e.g., saying V=6 or E=11) reveals the student cannot systematically count pyramid elements and may think the apex doesn't count as a vertex or miscount lateral edges.",
+     "self_check": true
+    },
+    {
+     "q": "Design a polyhedron that has exactly 8 faces and 12 vertices. Describe its faces (shapes and how many of each) and explain how you know it will have 12 vertices. (You may use Euler's formula if you know it, but try to reason geometrically.)",
+     "a": "A hexagonal prism: 2 hexagonal bases + 6 rectangular lateral faces = 8 faces. Each hexagon has 6 vertices → 12 vertices total. Edges: 6×2 (base edges) + 6 (vertical) = 18 edges. Check: F+V-E = 8+12-18 = 2.  \nA poor answer (e.g., \"a cube with two extra faces\" without specifying structure) reveals the student cannot connect face/vertex counts to known polyhedron families and lacks spatial reasoning about prisms/pyramids.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

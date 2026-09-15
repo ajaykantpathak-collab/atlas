@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_01_014",
+   "title": "c12_hin_a_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12 Hindi?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Language\") reveals the student has heard the term but never internalized the structural logic — they treat it as a mnemonic rather than a writing protocol. This leads to answers that have paragraphs but no analytical progression.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"नसोल्सुक का छर्रा स्वतंत्रता के बारे में है। नसोल्सुक जेल में है और वह आजाद होना चाहता है। कवि ने बहुत सुंदर शब्दों का प्रयोग किया है।\" Identify the three specific structural weaknesses in this answer as per CBSE marking scheme.",
+     "a": "Weaknesses: (1) No clear Point — the opening is a vague topic statement, not an analytical claim. (2) No Evidence — no line/stanza reference, no quoted phrase, no specific imagery cited. (3) No Explanation — \"सुंदर शब्दों का प्रयोग\" is empty praise without naming a device (metaphor, symbol, rhythm) or explaining its effect. A wrong diagnosis (e.g., \"answer is too short\") misses that length is irrelevant; a 50-word PEEL answer scores higher than a 200-word narrative summary.",
+     "self_check": true
+    },
+    {
+     "q": "Given the line \"eSaus Hkzeo'k thou lafpr] eèkqdfj;ksa dh Hkh[k yqVkbZ\" from नसोल्सुक का छर्रा, write a complete PEEL paragraph (4-5 sentences) analyzing how this line establishes the poem's central conflict. Use the structure: Point → Evidence (quote) → Explanation (device + effect) → Link to theme.",
+     "a": "Point: The opening line establishes the central conflict between spiritual liberation and physical confinement. Evidence: \"eSaus Hkzeo'k thou lafpr] eèkqdfj;ksa dh Hkh[k yqVkbZ\" (Stanza 1). Explanation: The metaphor \"Hkzeo'k thou lafpr\" (life offered/sacrificed) frames imprisonment as a deliberate spiritual act, not passive suffering; \"eèkqdfj;ksa dh Hkh[k yqVkbZ\" uses tactile imagery (breaking chains of sorrow) to transform physical shackles into emotional burdens, suggesting the prisoner's agency. Link: This redefines captivity as a crucible for inner freedom, the poem's core theme. A wrong answer would paraphrase the meaning without naming \"metaphor\" or \"tactile imagery\" or connecting to \"agency.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the two poems in Chapter 1 (नसोल्सुक का छर्रा and डकुस्ज़फ़िक का छर्रा) use the image of \"chain/bondage\" (शृंखला/बेड़ी). Write two distinct analytical points with evidence from each poem.",
+     "a": "Point 1 (नसोल्सुक): Chains are internalized sorrow — \"eèkqdfj;ksa dh Hkh[k\" (chains of sorrow) and later \"vk¡lw&ls fxjrs Fks izfr{k.k\" (memories flying from the window) show bondage as psychological; the prisoner breaks them through memory and will. Point 2 (डकुस्ज़फ़िक): Chains are colonial oppression — \"mM+rs [kx ftl vksj eq¡g fd,µle> uhM+ fut I;kjk\" (where the rising sun kisses the peaks of those high mountains) and \"cjlkrh vk¡[kksa osQ cknyµcurs tgk¡ Hkjs djQ.kk ty\" (where silver rivers flow between mountain ranges) contrast India's natural freedom with imposed servitude. A wrong answer would list images without distinguishing the metaphorical function: personal vs national, internal vs external.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"दोनों छर्रों में कवि ने एक ही भाव व्यक्त किया है — देशभक्ति।\" Is this a valid interpretation? Justify with textual evidence from both poems.",
+     "a": "Invalid. नसोल्सुक का छर्रा centers on *individual spiritual freedom* within confinement — \"nsolsuk dk xhr dfork esa nsolsuk vius thou ij n`f\"Vikr djrs gq, vius vuqHkoksa esa vftZr osnuke; {k.kksa dks ;kn dj jgh gSA\" (introductory note). The tone is introspective, metaphysical. डकुस्ज़फ़िक का छर्रा is *collective national awakening* — \"vjQ.k ;g eèkqe; ns'k gekjk!\" addresses the nation directly, invoking geography (\"rkejl xHkZ\", \"fNVdk thou\"), history (\"uhM+\"), and cultural unity. Conflating them erases the distinction between *atma-mukti* (self-liberation) and *rashtra-mukti* (national liberation) that Tulsidas deliberately structures across the two novels. A wrong evaluation would agree superficially because both mention \"freedom.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line original stanza in Hindi (using Tulsidas's style: simple vocabulary, rhythmic meter, nature imagery) that could serve as a third poem in this series — expressing the *post-independence* realization that political freedom alone is insufficient without inner freedom. Title it.",
+     "a": "Title: \"स्वतंत्रता के बाद\"\nvjQ.k ;g eèkqe; ns'k gekjk,¡\nytu vkSj Hkh bUdhe gSa pkj dksA\nvk¡lw osQ Hkh[k ugha tkrk Ab\neèkqe; gS tc rd vk¡[k vkSj gksA\nCriteria: (1) Rhythmic meter matching the poems' गेयता, (2) Nature imagery (पक्षी, नदी), (3) Explicit contrast between political freedom (ns'k) and inner bondage (Hkh[k), (4) Tulsidas's signature simple Sanskritized vocabulary (eèkqe;, vk¡lw, bUdhe). A poor answer would use complex words, lack rhythm, or state the theme bluntly without imagery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

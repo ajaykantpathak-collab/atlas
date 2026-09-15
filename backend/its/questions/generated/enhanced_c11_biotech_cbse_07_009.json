@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_009",
+   "title": "c11_biotech_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define post-translational modification and distinguish it from co-translational modification with one specific example of each.",
+     "a": "Post-translational modification (PTM) is a covalent enzymatic alteration of a polypeptide after ribosomal release; co-translational modification occurs during synthesis on the ribosome. Example: N-linked glycosylation in the ER lumen is co-translational (occurs as nascent chain enters Sec61 translocon), whereas phosphorylation of MAPK by MEK in the cytoplasm is post-translational. A wrong answer confusing the two reveals misunderstanding of subcellular compartmentalization — students often think all modifications happen after full synthesis, ignoring that ER-targeted proteins are modified vectorially during translocation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cells with tunicamycin (inhibits N-linked glycosylation) and observes that a transmembrane receptor accumulates in the ER and fails to reach the plasma membrane. Explain the molecular mechanism linking the missing PTM to mislocalization, naming the specific quality-control system involved.",
+     "a": "N-linked glycosylation adds Glc₃Man₉GlcNAc₂ to Asn-X-Ser/Thr sequons in the ER. The terminal glucose residues are trimmed by glucosidases I/II, generating monoglucosylated glycans recognized by lectin chaperones calnexin/calreticulin. This calnexin cycle retains folding intermediates; proper folding allows glucosidase II to remove the last glucose, releasing the protein for Golgi transport. Without glycosylation (tunicamycin), the receptor cannot engage calnexin, misfolds, and is recognized by ERAD (ER-associated degradation) via E3 ligase HRD1/SEL1L, leading to retrotranslocation and proteasomal degradation — hence no surface expression. A wrong answer omitting calnexin/ERAD reveals rote memorization without mechanistic linkage between glycan structure and folding surveillance.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the functional consequence if the lysine residue at position 48 of ubiquitin (K48) is mutated to arginine in a ubiquitination cascade targeting cyclin B for degradation. Justify your answer with the structural basis of polyubiquitin chain topology.",
+     "a": "K48R mutation prevents K48-linked polyubiquitin chain formation, which is the canonical proteasomal degradation signal. Ubiquitin has seven lysine residues (K6, K11, K27, K29, K33, K48, K63) and an N-terminal methionine; K48-linked chains adopt a compact closed conformation recognized by proteasomal ubiquitin receptors (Rpn10, Rpn13). K48R forces alternative linkages (e.g., K63-linked open chains for DNA repair/trafficking or K11-linked for ERAD), so cyclin B would not be degraded by the 26S proteasome, causing cell-cycle arrest in metaphase. A wrong answer stating \"no ubiquitination occurs\" reveals confusion between ubiquitin-ubiquitin chain elongation (E2/E3-dependent) and substrate monoubiquitination — the mutation affects chain topology, not initial conjugation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the enzymatic machinery and functional outcomes of histone H3 lysine 9 acetylation (H3K9ac) versus trimethylation (H3K9me3) in the context of transcriptional regulation. Include the enzyme families, cofactor requirements, and effector proteins that read each mark.",
+     "a": "H3K9ac: Catalyzed by histone acetyltransferases (HATs: p300/CBP, GCN5/PCAF) using acetyl-CoA; neutralizes lysine's positive charge, weakening histone-DNA interaction → open chromatin. Read by bromodomain-containing proteins (BRD4, TAF1) recruiting transcription machinery. H3K9me3: Catalyzed by histone methyltransferases (HMTs: SUV39H1/2, SETDB1) using SAM; maintains positive charge, creates hydrophobic binding surface for chromodomain proteins (HP1α/β/γ) → heterochromatin formation, transcriptional silencing. Both target same residue but opposite outcomes due to distinct reader domains. A wrong answer claiming both activate transcription reveals failure to grasp that methylation does not alter charge and can be repressive depending on residue/degree — a common oversimplification from \"acetylation = on, methylation = off\" mnemonics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the therapeutic strategy of using a proteasome inhibitor (bortezomib) versus a specific E3 ligase inhibitor (e.g., MDM2 inhibitor nutlin-3) for stabilizing p53 in cancer therapy. Which approach offers better target specificity and why?",
+     "a": "Nutlin-3 (MDM2 inhibitor) is superior for p53-specific stabilization. Bortezomib blocks the 26S proteasome globally, stabilizing all K48-ubiquitinated proteins (NF-κB inhibitors, cyclins, misfolded proteins), causing severe off-target toxicity (peripheral neuropathy, thrombocytopenia). MDM2 is the primary E3 ligase for p53; nutlin-3 occupies MDM2's p53-binding pocket, preventing p53 ubiquitination without affecting other MDM2 substrates or global proteostasis. However, nutlin-3 only works in cancers with wild-type p53 and intact MDM2-p53 axis (not p53-mutant tumors). A wrong answer favoring bortezomib for \"stronger effect\" reveals ignorance of systems-level proteostasis — global proteasome inhibition disrupts hundreds of regulated degradation pathways, whereas E3 ligase inhibition exploits substrate specificity inherent in the ubiquitin code.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment to test whether O-GlcNAcylation of transcription factor Sp1 at Ser/Thr residues competes with phosphorylation at adjacent sites to regulate insulin gene expression in pancreatic β-cells. Specify: (a) genetic/pharmacological perturbations, (b) quantitative readouts, (c) expected results if competition occurs.",
+     "a": "(a) Perturbations: CRISPRi knockdown of OGT (O-GlcNAc transferase) vs. OGA (O-GlcNAcase) inhibitor Thiamet-G; parallel treatment with kinase inhibitor (e.g., PKC inhibitor Gö6983) or high glucose (25 mM) to drive hexosamine pathway. (b) Readouts: ChIP-qPCR for Sp1 occupancy at insulin promoter; co-IP/Western for Sp1 O-GlcNAc (RL2 antibody) vs. phospho-Ser/Thr; insulin mRNA (RT-qPCR) and secreted insulin (ELISA). (c) Expected: High glucose → increased O-GlcNAcylation, decreased phosphorylation at adjacent sites, reduced Sp1 promoter binding, lower insulin transcription. OGT knockdown reverses this. Thiamet-G mimics high glucose. If competition exists, phospho-mimetic Sp1 (S→D mutants) should resist O-GlcNAcylation and maintain activity under high glucose. Poor answer: only measuring total Sp1 levels — misses the dynamic PTM crosstalk central to the hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

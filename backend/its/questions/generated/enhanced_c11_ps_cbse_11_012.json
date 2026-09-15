@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_012",
+   "title": "c11_ps_cbse_11_012",
+   "questions": [
+    {
+     "q": "Under which Article does the Constitution provide for automatic suspension of the six freedoms under Article 19 when a National Emergency is declared on grounds of war or external aggression?",
+     "a": "Article 358 provides for automatic suspension of Article 19 freedoms during a National Emergency proclaimed on grounds of war or external aggression. A wrong answer (e.g., Article 359 or Article 352) reveals confusion between the automatic suspension mechanism (Article 358) and the Presidential Order mechanism (Article 359), or between the emergency proclamation power (Article 352) and its effects on Fundamental Rights.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 44th Amendment (1978) restrict the automatic suspension of Article 19 freedoms only to emergencies proclaimed on grounds of \"war or external aggression\" and not \"armed rebellion\"?",
+     "a": "The 44th Amendment made this distinction because the 1975 Emergency was proclaimed on grounds of \"internal disturbance\" (later replaced by \"armed rebellion\"), leading to misuse where Article 19 freedoms were suspended even without external threat. The Amendment recognized that internal armed rebellion does not justify the same blanket suspension of democratic freedoms as war/external aggression. A wrong answer (e.g., \"no difference\" or \"armed rebellion is more serious\") reveals failure to understand the historical lesson of 1975 and the constitutional intent to prevent misuse of emergency powers against domestic political opposition.",
+     "self_check": true
+    },
+    {
+     "q": "A National Emergency is proclaimed on grounds of war. The President issues an Order under Article 359 suspending the right to move courts for enforcement of Articles 14, 21, and 22. Which part of this Order is constitutionally invalid and why?",
+     "a": "The suspension of Article 21 is constitutionally invalid because Article 359 explicitly prohibits suspension of the right to move courts for enforcement of Articles 20 and 21, even during Emergency. The 44th Amendment made this protection absolute. A wrong answer (e.g., \"all are valid\" or \"only Article 14 is invalid\") reveals misunderstanding of the non-derogable core of Fundamental Rights - Articles 20 and 21 form the \"basic structure\" of personal liberty that even Emergency cannot touch.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope and operation of Article 358 and Article 359. How do they differ in terms of: (a) which rights they affect, (b) whether they operate automatically or require Presidential Order, and (c) their relationship to the grounds of Emergency proclamation?",
+     "a": "(a) Article 358 affects only Article 19 freedoms; Article 359 can affect all Fundamental Rights except Articles 20 and 21. (b) Article 358 operates automatically upon Emergency proclamation; Article 359 requires a separate Presidential Order specifying which rights are suspended. (c) After 44th Amendment, Article 358 applies only to war/external aggression emergencies; Article 359 can apply to any Emergency (war, external aggression, or armed rebellion). A wrong answer reveals confusion between the two distinct constitutional mechanisms and their post-1978 modifications.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The suspension of Fundamental Rights during Emergency under Articles 358 and 359 makes the Indian Constitution a 'fair-weather constitution' that protects rights only when convenient.\" Consider both the safeguards and the historical experience.",
+     "a": "The statement is partially valid historically but constitutionally inaccurate post-44th Amendment. The 1975 Emergency showed how Articles 358/359 could be misused to suspend democratic freedoms. However, the 44th Amendment introduced critical safeguards: (1) Article 19 suspension only for war/external aggression, not armed rebellion; (2) Articles 20 and 21 made non-suspendable; (3) Judicial review of Emergency proclamation retained (Minerva Mills case); (4) Parliamentary approval required within one month. These create a \"constitutional core\" that survives Emergency. A purely negative evaluation ignores the post-1978 constitutional architecture designed precisely to prevent \"fair-weather\" characterization.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision that would allow suspension of Fundamental Rights during a public health pandemic emergency while preserving the core protections established by the 44th Amendment. Specify: (a) which rights could be suspended, (b) the procedural safeguards, and (c) the time limit.",
+     "a": "A model provision would: (a) Allow suspension of Article 19 freedoms (movement, assembly, profession) and Article 25 (religious gatherings) for public health, but explicitly protect Articles 14, 20, 21, 22, 25(1) (freedom of conscience), 28, 29, 30, 32. (b) Require: Parliamentary approval by special majority within 15 days; mandatory review every 30 days; automatic lapse after 90 days unless extended by 2/3 majority; judicial review of proportionality. (c) Time limit: Maximum 90 days per proclamation, extendable only once for another 90 days. A poor answer would either suspend Articles 20/21 or lack procedural safeguards, revealing failure to internalize the 44th Amendment's core lesson: emergency powers must be necessary, proportionate, and time-bound.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

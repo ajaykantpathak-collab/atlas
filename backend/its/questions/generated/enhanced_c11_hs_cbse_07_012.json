@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_012",
+   "title": "c11_hs_cbse_07_012",
+   "questions": [
+    {
+     "q": "Name the three main natural fibres that form the foundation of traditional Indian textile production according to the NCERT textbook.",
+     "a": "The three main natural fibres are cotton, silk, and wool. A wrong answer (e.g., including jute or synthetic fibres) reveals that the student has not distinguished between the historically dominant fibres explicitly listed in section 7C.3 and other fibres that exist in India but are not the focus of this heritage narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Indian cotton fabrics were called \"master dyers to the world\" before the 17th century.",
+     "a": "Indians alone had mastered the complex chemistry of cotton dyeing that produced fast, lasting colours (not mere surface pigments), making Indian chintz highly prized in Europe. A wrong answer that attributes this to \"natural dyes alone\" or \"cheap labour\" shows the student misses the specific technical achievement: the molecular bonding of dye to cellulose through mordanting and resist processes that yielded colourfastness unmatched elsewhere at that time.",
+     "self_check": true
+    },
+    {
+     "q": "A textile sample shows a pattern of diagonal stripes (laheria) on a cotton ground. The pattern was created by tying sections of the woven fabric before dyeing. Classify this technique and name the two states most famous for it.",
+     "a": "This is fabric tie-and-dye (bandhani type), specifically laheria. Gujarat and Rajasthan are the homes of this technique. A wrong classification as \"yarn tie-and-dye\" or \"ikat\" indicates the student cannot distinguish between tying the finished fabric versus tying the yarn before weaving – a critical technical difference that determines pattern geometry and production sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the production process of a Patola double-ikat sari from Patan (Gujarat) with a Baluchar Butedar sari from Murshidabad (West Bengal). Identify the fibre, the stage at which patterning occurs, and the resulting visual characteristic for each.",
+     "a": "Patola: silk fibre; both warp and weft yarns are tie-dyed before weaving (double ikat), creating a unified pattern with colours flowing without harsh outlines. Baluchar Butedar: silk fibre; plain-woven fabric is brocaded with untwisted silk thread after weaving (supplementary weft), giving a distinctive pictorial pallav. A confusion between pre-weaving yarn dyeing and post-weaving brocade reveals the student has not analyzed the fundamental division between \"pattern in the yarn\" versus \"pattern added during/after weaving\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Kashmiri kashida embroidery is primarily a domestic craft done by women for household use, similar to phulkari or kantha.\" Provide two pieces of evidence from the text to support your judgment.",
+     "a": "The statement is false. Evidence: (1) Kashmir embroidery is described as a commercial activity done by men (rafugars), catering to buyer demand. (2) It is executed on high-value woollen shawls and garments for trade, not solely for domestic gifting. A student who agrees likely conflates all embroidery as \"women's domestic work\" and misses the text's explicit gender and economic distinction for kashida.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-exhibition plan (3-4 objects) that demonstrates the evolution from resist dyeing to brocade weaving to embroidery in one region of your choice. For each object, specify the fibre, technique, and approximate historical period, and write a one-sentence label explaining the technological or cultural shift it represents.",
+     "a": "A strong answer selects a region (e.g., Gujarat) and sequences: 1) 5000-year-old indigo-dyed cotton fragment (Mohenjo-Daro) – \"Early mastery of cotton mordant dyeing\"; 2) 15th-century Patola double-ikat silk sari – \"Pre-weaving yarn resist dyeing reaches mathematical precision\"; 3) 18th-century Ashavali brocade border – \"Supplementary weft brocade introduces metallic zari for courtly display\"; 4) 19th-century Mochi bharat embroidered toran – \"Commercial chain-stitch embroidery adapts tribal motifs for urban markets\". A weak answer lists unrelated objects from different regions without showing a clear technical or cultural progression within one region.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Complex Numbers and Quadratic Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh105.txt",
+ "concepts": [
+  {
+   "id": "kemh.105.1.1",
+   "title": "Complex Numbers: Definition, Powers of i and Algebra",
+   "section": "",
+   "definition": "A complex number is of the form a plus i b, where a is the real part, b the imaginary part and i is the square root of minus one with successive powers cycling through i, minus one, minus i and one, and complex numbers add and multiply like binomials with i squared replaced by minus one.",
+   "formula": "",
+   "key_idea": "The imaginary unit i satisfies i squared equals minus one, and the algebra of complex numbers follows the same laws as real numbers.",
+   "textbook_ref": "kemh105.txt complex numbers sections",
+   "question_patterns": [
+    "define a complex number and its real and imaginary parts",
+    "state the values of the powers of i",
+    "add and multiply two complex numbers",
+    "what is the conjugate of a complex number",
+    "express the square root of a negative number as a complex number",
+    "verify the algebraic identities for complex numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.105.2.1",
+   "title": "Modulus and Conjugate of a Complex Number",
+   "section": "Modulus of complex number",
+   "definition": "The modulus of a complex number a plus i b is the non-negative square root of a squared plus b squared, giving its distance from the origin, and its conjugate a minus i b reflects it across the real axis, with the product of a number and its conjugate equal to the square of the modulus.",
+   "formula": "modulus = sqrt(a * a + b * b)",
+   "key_idea": "Modulus and conjugate satisfy |z| squared equals z times its conjugate, connecting distance and algebra in the complex plane.",
+   "textbook_ref": "kemh105.txt modulus section",
+   "question_patterns": [
+    "define the modulus of a complex number and compute it",
+    "find the conjugate of a given complex number",
+    "verify that z times its conjugate equals modulus squared",
+    "represent a complex number on the argand plane",
+    "compute the distance of a complex number from the origin",
+    "state the multiplicative inverse using conjugate and modulus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the squares and take the square root",
+     "explain": "Add the squares of the real and imaginary parts and take the square root to get the modulus",
+     "compute": "modulus = sqrt(a * a + b * b)"
+    }
+   ]
+  },
+  {
+   "id": "kemh.105.3.1",
+   "title": "Quadratic Equations with Complex Roots",
+   "section": "",
+   "definition": "A quadratic equation ax squared plus bx plus c equals zero with negative discriminant b squared minus four ac has no real roots, and its roots are the pair of complex conjugates given by the quadratic formula with i times the square root of the negative discriminant over two a.",
+   "formula": "",
+   "key_idea": "When the discriminant is negative, the quadratic formula still gives the two roots as complex conjugates, completing the solution of every quadratic equation.",
+   "textbook_ref": "kemh105.txt quadratic equations section",
+   "question_patterns": [
+    "state the discriminant of a quadratic equation and its meaning",
+    "find the complex roots of a quadratic equation with negative discriminant",
+    "solve a quadratic equation whose discriminant is negative",
+    "why are the complex roots of a real quadratic conjugate",
+    "apply the quadratic formula with complex numbers",
+    "express the roots in the form a plus i b"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kemh105.txt exercises",
+   "questions": [
+    "Express the given complex numbers in the form a plus i b.",
+    "Find the multiplicative inverse of the given complex numbers.",
+    "Reduce the powers of i to simpler values.",
+    "Find the modulus and conjugate of the given complex numbers.",
+    "Solve the quadratic equations and express the roots in a plus i b form."
+   ]
+  }
+ ]
+}

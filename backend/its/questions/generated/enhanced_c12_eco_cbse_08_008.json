@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_008",
+   "title": "c12_eco_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define Net Exports and Net Factor Income from Abroad. Write the formula for each.",
+     "a": "Net Exports (NX) = Exports of goods and services (X) – Imports of goods and services (M). Net Factor Income from Abroad (NFIA) = Factor income received from abroad – Factor income paid to abroad. A wrong answer (e.g., reversing the order in NFIA or confusing NFIA with net exports) reveals the student has not internalised the direction of flows: NFIA is about factor income, not trade in goods.",
+     "self_check": true
+    },
+    {
+     "q": "India's exports are ₹30 lakh crore, imports are ₹42 lakh crore. Factor income received from abroad is ₹1.2 lakh crore, factor income paid to abroad is ₹2.5 lakh crore. Calculate Net Exports and NFIA. What do the signs indicate about India's trade and factor income position?",
+     "a": "Net Exports = 30 – 42 = –₹12 lakh crore (trade deficit). NFIA = 1.2 – 2.5 = –₹1.3 lakh crore (net factor income outflow). Negative NX means India imports more goods/services than it exports; negative NFIA means India pays more factor income to foreigners than it receives. A wrong sign (e.g., positive NX) reveals confusion about the subtraction order or misreading \"received/paid\".",
+     "self_check": true
+    },
+    {
+     "q": "Given GDPmp = ₹150 lakh crore, NFIA = –₹5 lakh crore, Net Exports = –₹10 lakh crore. Calculate GNPmp and NNPmp if Consumption of Fixed Capital = ₹12 lakh crore and Net Indirect Taxes = ₹8 lakh crore. Show all steps.",
+     "a": "Step 1: GNPmp = GDPmp + NFIA = 150 + (–5) = ₹145 lakh crore.\nStep 2: NNPmp = GNPmp – Consumption of Fixed Capital = 145 – 12 = ₹133 lakh crore.\nStep 3: NNPfc (National Income) = NNPmp – Net Indirect Taxes = 133 – 8 = ₹125 lakh crore.\nNote: Net Exports is already embedded in GDPmp via expenditure method; it is not used again. A common error is subtracting Net Exports again from GDPmp, which double-counts the trade balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Country A has NX = +₹50,000 crore and NFIA = –₹20,000 crore. Country B has NX = –₹30,000 crore and NFIA = +₹40,000 crore. Which country is a net exporter of goods/services? Which is a net recipient of factor income? Explain the economic implication for GNP relative to GDP in each case.",
+     "a": "Country A: Net exporter (NX > 0), net payer of factor income (NFIA < 0). GNPmp = GDPmp – 20,000 (GNP < GDP). Country B: Net importer (NX < 0), net receiver of factor income (NFIA > 0). GNPmp = GDPmp + 40,000 (GNP > GDP). A wrong comparison (e.g., saying Country A has higher GNP because of positive NX) shows the student conflates trade balance with factor income balance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country with a persistent trade deficit (negative Net Exports) will always have GNP lower than GDP.\" Use the concepts of NFIA and provide a counterexample with numbers.",
+     "a": "The statement is false. GNP vs GDP depends solely on NFIA, not on Net Exports. Counterexample: GDPmp = 1000, NX = –50 (trade deficit), NFIA = +80. Then GNPmp = 1000 + 80 = 1080 > GDPmp. The student who agrees confuses the expenditure component (NX) with the factor income adjustment (NFIA). They must be evaluated independently.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical data set for a small open economy for Year 2024: Exports, Imports, Factor Income Received, Factor Income Paid, Consumption of Fixed Capital, Net Indirect Taxes, and GDPmp. Ensure GNPmp > GDPmp and NNPfc < GDPmp. Show all calculations.",
+     "a": "Example: Exports = 200, Imports = 250 → NX = –50. Factor Income Received = 100, Paid = 40 → NFIA = +60. GDPmp = 1000 (includes NX). GNPmp = 1000 + 60 = 1060 (> GDPmp). Consumption of Fixed Capital = 80, Net Indirect Taxes = 50. NNPmp = 1060 – 80 = 980. NNPfc = 980 – 50 = 930 (< GDPmp). A valid answer demonstrates understanding of all aggregates and sign conventions. A poor answer fails to keep signs consistent or misapplies the sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

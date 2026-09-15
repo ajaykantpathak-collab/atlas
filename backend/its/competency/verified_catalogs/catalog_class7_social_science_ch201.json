@@ -1,0 +1,328 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "Environment",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gess201.txt",
+ "concepts": [
+  {
+   "id": "gess.201.1",
+   "title": "Meaning and Components of Environment",
+   "section": "Components of Environment",
+   "definition": "Environment encompasses everything that surrounds a living organism, including physical conditions, living entities, and human structures.",
+   "formula": "",
+   "key_idea": "Everything around us forms our environment, broadly categorized into natural, human-made, and human dimensions.",
+   "textbook_ref": "gess201.txt lines 1-45",
+   "question_patterns": [
+    "what is environment and what are its main components",
+    "explain the term environment with examples",
+    "identify the three major categories of environment components",
+    "describe how natural and human elements make up our surroundings",
+    "list the components that constitute the surroundings of a living organism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define environment",
+     "explain": "State that environment encompasses all external conditions, living beings, and objects in our surroundings."
+    },
+    {
+     "step": 2,
+     "action": "Categorize major components",
+     "explain": "Divide components into Natural (land, air, water, living things), Human-made (buildings, roads, bridges), and Human (individual, family, society)."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.2",
+   "title": "Biotic and Abiotic Factors",
+   "section": "Natural Environment",
+   "definition": "Biotic factors consist of living organisms within a habitat, whereas abiotic factors comprise non-living physical items and surroundings.",
+   "formula": "",
+   "key_idea": "Natural environment contains both living (biotic) and non-living (abiotic) elements.",
+   "textbook_ref": "gess201.txt lines 46-60",
+   "question_patterns": [
+    "differentiate between biotic and abiotic components of environment",
+    "give examples of biotic and abiotic elements",
+    "what are the two major divisions of the natural environment",
+    "classify living and non-living elements of nature",
+    "explain the difference between biotic and abiotic conditions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify biotic elements",
+     "explain": "Recognize that biotic refers to living organisms such as plants, animals, and microbes."
+    },
+    {
+     "step": 2,
+     "action": "Identify abiotic elements",
+     "explain": "Recognize that abiotic refers to non-living physical entities like land, air, water, and minerals."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.3",
+   "title": "Lithosphere",
+   "section": "Natural Environment - Lithosphere",
+   "definition": "Lithosphere is the rigid outer layer of the earth composed of rocks, minerals, and soil cover, forming various landforms.",
+   "formula": "",
+   "key_idea": "The solid crust of Earth providing land, minerals, and terrain for human and ecological activities.",
+   "textbook_ref": "gess201.txt lines 61-75",
+   "question_patterns": [
+    "what is lithosphere and why is it important",
+    "describe the key features of the lithosphere",
+    "how does lithosphere support human life and agriculture",
+    "identify the domain of earth that provides mineral wealth",
+    "explain the role of lithosphere in providing landforms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe lithosphere composition",
+     "explain": "State that lithosphere is the solid top crust made of rocks, minerals, and soil layer."
+    },
+    {
+     "step": 2,
+     "action": "Explain utility",
+     "explain": "Highlight its role in providing land for living, agriculture, forests, grasslands, and mineral resources."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.4",
+   "title": "Hydrosphere",
+   "section": "Natural Environment - Hydrosphere",
+   "definition": "Hydrosphere represents the entire realm of water present on Earth in various bodies such as oceans, seas, rivers, and lakes.",
+   "formula": "",
+   "key_idea": "The water domain of Earth vital for all forms of life.",
+   "textbook_ref": "gess201.txt lines 76-88",
+   "question_patterns": [
+    "what is meant by hydrosphere",
+    "list the different sources of water that constitute hydrosphere",
+    "explain why hydrosphere is essential for living organisms",
+    "identify the water realm on earth",
+    "describe the composition of hydrosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define hydrosphere",
+     "explain": "Identify hydrosphere as the aquatic domain containing all water sources on Earth."
+    },
+    {
+     "step": 2,
+     "action": "List sources and significance",
+     "explain": "Enumerate rivers, lakes, seas, and oceans, emphasizing that liquid water is essential for all living beings."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.5",
+   "title": "Atmosphere",
+   "section": "Natural Environment - Atmosphere",
+   "definition": "Atmosphere is the envelope of gases, dust, and water vapor retained around Earth by its gravitational pull, shielding it from solar radiation.",
+   "formula": "",
+   "key_idea": "Air layer surrounding Earth that protects life and controls weather patterns.",
+   "textbook_ref": "gess201.txt lines 89-105",
+   "question_patterns": [
+    "what is atmosphere and how is it held around the earth",
+    "explain how atmosphere protects living beings on earth",
+    "what components make up the atmospheric layer",
+    "describe the role of atmosphere in weather and climate",
+    "how does the gaseous layer surrounding earth function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define atmosphere",
+     "explain": "Describe it as the gaseous envelope held around Earth by gravity."
+    },
+    {
+     "step": 2,
+     "action": "Explain function and components",
+     "explain": "State that it comprises gases, water vapor, and dust, shielding Earth from intense heat and radiation while driving climate variations."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.6",
+   "title": "Biosphere",
+   "section": "Natural Environment - Biosphere",
+   "definition": "Biosphere is the narrow intersection of land, water, and air where life exists and sustains itself.",
+   "formula": "",
+   "key_idea": "The zone of life created by the interplay of lithosphere, hydrosphere, and atmosphere.",
+   "textbook_ref": "gess201.txt lines 106-118",
+   "question_patterns": [
+    "define biosphere and state its significance",
+    "how do land water and air interact in biosphere",
+    "what forms the living world on earth",
+    "explain why biosphere is considered a narrow contact zone",
+    "identify the domain where plant and animal kingdoms coexist"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define biosphere",
+     "explain": "Identify biosphere as the narrow interaction zone of land, air, and water supporting life."
+    },
+    {
+     "step": 2,
+     "action": "Explain life support mechanism",
+     "explain": "Detail how plant and animal kingdoms interact within this zone to maintain biological life."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.7",
+   "title": "Ecosystem",
+   "section": "What is Ecosystem?",
+   "definition": "Ecosystem is an interactive network of living organisms with one another and with physical-chemical elements of their environment through energy and material flow.",
+   "formula": "",
+   "key_idea": "System of mutual dependency and interaction among living entities and their immediate environment.",
+   "textbook_ref": "gess201.txt lines 119-160",
+   "question_patterns": [
+    "what is an ecosystem and how does it function",
+    "give examples of different types of ecosystems",
+    "explain the relationship between living organisms and their surroundings in an ecosystem",
+    "describe a pond ecosystem as an example",
+    "how do organisms depend on each other within an ecosystem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define ecosystem",
+     "explain": "Explain ecosystem as the system produced by interactions between biological communities and their physical environment."
+    },
+    {
+     "step": 2,
+     "action": "Provide examples and interdependency",
+     "explain": "Illustrate using examples like deserts, forests, ponds, or rivers, noting that organisms rely on each other and their surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gess.201.8",
+   "title": "Human Environment and Adaptation",
+   "section": "Human Environment",
+   "definition": "Human environment involves the modifications, interactions, and activities carried out by humans to alter natural surroundings according to evolving needs.",
+   "formula": "",
+   "key_idea": "Humans adapt to and alter nature through technological advances like agriculture, trade, industrialization, and information systems.",
+   "textbook_ref": "gess201.txt lines 161-195",
+   "question_patterns": [
+    "how have human beings modified their environment over time",
+    "what is the barter system in historical trade",
+    "explain why a balance between natural and human environment is necessary",
+    "describe the impact of industrial and information revolutions on human environment",
+    "how did early humans adapt to their natural surroundings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain historical human modification",
+     "explain": "Detail how early humans adapted to nature, then developed agriculture, animal domestication, and settlements."
+    },
+    {
+     "step": 2,
+     "action": "Describe technological evolution",
+     "explain": "Trace progress from barter trade and wheel invention to industrial production and global information systems."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess201.txt lines 61-75",
+   "concept": "gess.201.3",
+   "question_type": "definition_and_importance",
+   "question_pattern": "What is lithosphere and why is it important for human activities?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Lithosphere",
+     "explain": "Lithosphere is the solid outer crust layer of Earth made of rocks, minerals, and covered by a soil layer."
+    },
+    {
+     "step": 2,
+     "action": "Explain Significance",
+     "explain": "It provides land for housing, agriculture, forests, animal grazing, and serves as a major source of mineral wealth."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess201.txt lines 161-195",
+   "concept": "gess.201.8",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "Explain how human needs led to the modification of the natural environment and the emergence of trade.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain need-driven modification",
+     "explain": "As human needs grew over time, people modified surroundings by clearing land for agriculture, domesticating animals, and building permanent settlements."
+    },
+    {
+     "step": 2,
+     "action": "Trace trade development",
+     "explain": "Creation of surplus food and inventions like the wheel led to trade through barter systems, later accelerating with industrialization."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gess201.txt lines 196-206",
+   "questions": [
+    "What is an ecosystem?",
+    "What do you mean by natural environment?",
+    "Which are the major components of the environment?",
+    "Give four examples of human made environment.",
+    "What is lithosphere?",
+    "Which are the two major components of biotic environment?",
+    "What is biosphere?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "gess201.txt lines 207-220",
+   "questions": [
+    "Which is not a natural ecosystem? (a) Desert (b) Aquarium (c) Forest",
+    "Which is not a component of human environment? (a) Land (b) Religion (c) Community",
+    "Which is a human made environment? (a) Mountain (b) Sea (c) Road",
+    "Which is a threat to environment? (a) Growing plant (b) Growing population (c) Growing crops"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "gess201.txt lines 221-230",
+   "questions": [
+    "Match Biosphere with: narrow zone where land water and air interact",
+    "Match Atmosphere with: blanket of air which surrounds the earth",
+    "Match Hydrosphere with: domain of water",
+    "Match Environment with: our surroundings"
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "gess201.txt lines 231-235",
+   "questions": [
+    "Give reason: Man modifies his environment",
+    "Give reason: Plants and animals depend on each other"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

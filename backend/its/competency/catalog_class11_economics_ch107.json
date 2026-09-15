@@ -1,0 +1,362 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 107,
+ "chapter_title": "Introducing Ayurveda: The Science of Health and Disease",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keks107.txt",
+ "concepts": [
+  {
+   "id": "keks.107.1.1",
+   "title": "Origins and Three Broad Branches of Ayurveda",
+   "section": "A Brief History of Ayurveda",
+   "definition": "An ancient Indian medical tradition stemming from Vedic thought that comprehensively studies the health and diseases of human beings, animals, and plant life under uniform natural principles.",
+   "formula": "Ayurveda = Manushya Ayurveda + Mrga Ayurveda + Vrksa Ayurveda",
+   "key_idea": "Universal life science applying common physical and physiological principles across all biological kingdoms.",
+   "textbook_ref": "keks107.txt lines 15-58",
+   "question_patterns": [
+    "What are the three primary biological branches encompassed by Ayurveda?",
+    "Explain how ancient Indian medical science viewed the connection between humans, animals, and plants.",
+    "Describe the historical origins and Vedic roots of Ayurveda as a health tradition.",
+    "Which branches correspond to human medicine, veterinary science, and plant botany in traditional Indian systems?",
+    "How does Ayurveda maintain a common foundational framework for diverse living entities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_core_branches",
+     "explain": "Ayurveda categorizes biological entities into three domains: Manushya (human), Mrga (animal/veterinary), and Vrksa (botanical/plant)."
+    },
+    {
+     "step": 2,
+     "action": "verify_universal_principle",
+     "explain": "All three divisions share identical underlying principles connecting microcosm living beings to the macrocosm universe."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.2.1",
+   "title": "Classical Literature of Ayurveda",
+   "section": "Literature in Ayurveda",
+   "definition": "The extensive body of codified ancient treatises documenting medical theories, surgical techniques, pediatrics, and botanical knowledge across centuries.",
+   "formula": "Major texts = Caraka Samhita + Susruta Samhita + Astanga Hrdaya",
+   "key_idea": "Centuries of systematic clinical observations and medical therapies preserved in rigorous Sanskrit compilations.",
+   "textbook_ref": "keks107.txt lines 59-125",
+   "question_patterns": [
+    "What are the major classical texts associated with internal medicine and surgery in Ayurveda?",
+    "Identify the primary contributions of the Caraka Samhita and Susruta Samhita.",
+    "Which ancient treatises specifically document plant pathology, agriculture, and veterinary science?",
+    "Name the ancient Ayurvedic texts authored during the BCE and CE periods.",
+    "How does the historical literature of Ayurveda demonstrate meticulous clinical documentation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize_texts_by_specialty",
+     "explain": "Match texts to their domain: Caraka Samhita focuses on internal medicine, Susruta Samhita on surgery and anatomy, Kasyapa Samhita on pediatrics, and treatises like Haya Ayurveda on veterinary medicine."
+    },
+    {
+     "step": 2,
+     "action": "verify_historical_chronology",
+     "explain": "Distinguish foundational BCE works such as Atreya and Susruta from later CE syntheses like Astanga Samgraha and Sarangadhara Samhita."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.3.1",
+   "title": "Astanga Ayurveda: Eight Clinical Specialties",
+   "section": "Role of Basic Sciences in Medicine",
+   "definition": "The eightfold branch organization of clinical Ayurvedic medicine spanning general medicine, surgery, head and neck diseases, pediatrics, toxicology, psychiatry, rejuvenation, and virility.",
+   "formula": "Astanga = Kaya + Shalya + Shalakya + Kaumarabhrtya + Agada + Bhoota Vidya + Rasayana + Vajikarana",
+   "key_idea": "Comprehensive division of clinical medicine into eight distinct specialized therapeutic fields.",
+   "textbook_ref": "keks107.txt lines 126-155",
+   "question_patterns": [
+    "What are the eight branches or clinical specialties comprising Astanga Ayurveda?",
+    "Which branch of classical Ayurveda deals with obstetrics, gynecology, and child health?",
+    "Identify the Ayurvedic specialty corresponding to surgery and surgical interventions.",
+    "What clinical branch focuses on toxic substances and their antidotes?",
+    "Explain the scope of Rasayana and Vajikarana in traditional medical care."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list_eight_disciplines",
+     "explain": "Identify the eight components: Kaya Chikitsa (internal medicine), Shalya Tantra (surgery), Shalakya Tantra (ENT and ophthalmology), Kaumarabhrtya (pediatrics/obstetrics), Agada Tantra (toxicology), Bhoota Vidya (psychiatry), Rasayana (rejuvenation), and Vajikarana (reproductive health)."
+    },
+    {
+     "step": 2,
+     "action": "match_function_to_specialty",
+     "explain": "Correlate each Sanskrit technical specialty with its corresponding modern clinical application."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.4.1",
+   "title": "Philosophical Foundations: Role of Darsanas",
+   "section": "Ayurveda - Role of Darsanas",
+   "definition": "The conceptual integration of classical Indian philosophical systems into Ayurveda to formulate theories of matter, cognition, physical elements, and logic.",
+   "formula": "Ayurvedic Framework = Vaisesika + Nyaya + Samkhya + Yoga + Mimamsa + Vedanta",
+   "key_idea": "Ayurveda builds its scientific and observational methods upon the fundamental worldviews of Indian philosophical schools.",
+   "textbook_ref": "keks107.txt lines 175-215",
+   "question_patterns": [
+    "How do classical Indian philosophical systems (Darsanas) influence Ayurvedic theory?",
+    "Which school of philosophy contributed the concept of elementary atomic particles (anu) to Ayurveda?",
+    "Explain the difference between Newtonian reductionism and the holistic Darsana-based approach.",
+    "What role do Nyaya and Samkhya play in the diagnostic and epistemological framework of Ayurveda?",
+    "Discuss how ancient medicine served as a multidisciplinary synthesis of philosophy, metallurgy, and botany."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_contributing_philosophies",
+     "explain": "Note the six classical Darsanas (Vaisesika, Nyaya, Samkhya, Yoga, Purva Mimamsa, Uttara Mimamsa) that supply conceptual models of universe and matter."
+    },
+    {
+     "step": 2,
+     "action": "contrast_mechanistic_and_interconnected_worldviews",
+     "explain": "Contrast the reductionist, structural hierarchy of classical physics with the integrated mind-body-consciousness network formulated through Darsanas."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.5.1",
+   "title": "Four Interconnected Domains of the Human System",
+   "section": "Understanding of Human System in Ayurveda",
+   "definition": "The multi-tiered conception of the individual human being consisting of interconnected structural, physiological, psychological, and conscious domains.",
+   "formula": "Human System = Structural (Srotas) + Physiological (Tridosha) + Psychological (Manasikadosha) + Consciousness (Pancakosa)",
+   "key_idea": "The human entity is a seamless continuum linking physical body networks with mental properties and layers of awareness.",
+   "textbook_ref": "keks107.txt lines 216-260",
+   "question_patterns": [
+    "What are the four primary domains that constitute the human organism in Ayurveda?",
+    "How do physical channels (srotas) and physiological factors interact across domains?",
+    "Explain the role of consciousness and the Pancakosa in Ayurvedic understanding of health.",
+    "Why does Ayurvedic medicine view the human body as an interconnected whole rather than isolated mechanical parts?",
+    "What structural and metabolic concepts like Ojas, Dhatus, and Agni support the human system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate_four_domains",
+     "explain": "Map the system into structural channels (srotas), physiological properties (tridosha), mental parameters (manasikadosha), and consciousness levels (pancakosa)."
+    },
+    {
+     "step": 2,
+     "action": "verify_functional_interdependence",
+     "explain": "Confirm how physical disturbances influence mental state and vice versa through internal interconnected channels."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.6.1",
+   "title": "Tridosha Theory and the Twenty Properties (Vimsatiguna)",
+   "section": "Systems Approach of Ayurveda to Health",
+   "definition": "The foundational tripartite functional model of physiology governing motion (Vata), biochemical transformation (Pitta), and structural stability (Kapha), characterized by ten opposing property pairs.",
+   "formula": "Tridosha = Vata (movement) + Pitta (metabolism) + Kapha (growth/support)",
+   "key_idea": "Health corresponds to homeostatic dynamic balance of Vata, Pitta, and Kapha, while disease represents a perturbation in this network.",
+   "textbook_ref": "keks107.txt lines 261-320",
+   "question_patterns": [
+    "Explain the functions governed by Vata, Pitta, and Kapha in the human body.",
+    "What is the theory of Tridosha and how does it define health and disease?",
+    "List the ten pairs of opposing qualitative properties (Vimsatiguna) used in Ayurveda.",
+    "How do biophysical properties like hot/cold, heavy/light, and dry/oily explain bodily functions?",
+    "Why is disease defined as a perturbation in the functional network of Tridosha?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map_primary_dosha_functions",
+     "explain": "Associate Vata with mobility and nerve function, Pitta with digestion and thermal metabolism, and Kapha with structural coherence and lubrication."
+    },
+    {
+     "step": 2,
+     "action": "analyze_opposing_attributes",
+     "explain": "Evaluate states using the 20 properties (e.g., sita vs usna, guru vs laghu, snigdha vs ruksa) to determine functional balance."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.7.1",
+   "title": "Biological Rhythms: Daily and Seasonal Regimens",
+   "section": "Regimens Used for Health Management",
+   "definition": "Preventive and promotive lifestyle protocols synchronized with daily 24-hour cycles (Dinacarya) and annual seasonal variations (Rtucarya) to sustain doshic balance.",
+   "formula": "Health Maintenance = Dinacarya (Circadian) + Rtucarya (Circa-annual)",
+   "key_idea": "Aligning personal activities and food habits with nature's cyclic changes prevents seasonal dosha fluctuations and illness.",
+   "textbook_ref": "keks107.txt lines 321-365",
+   "question_patterns": [
+    "What are Dinacarya and Rtucarya in Ayurvedic health maintenance?",
+    "How do daily circadian cycles alter the predominant levels of Vata, Pitta, and Kapha?",
+    "Explain the variation of doshas across different seasons such as spring, summer, and rainy season.",
+    "Why is alignment with natural biological clocks essential for disease prevention?",
+    "Describe the therapeutic lifestyle guidelines prescribed for seasonal transitions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "track_circadian_dosha_phases",
+     "explain": "Identify standard daily fluctuations: Kapha dominance (6-10 am/pm), Pitta dominance (10 am-2 pm/am), and Vata dominance (2-6 am/pm)."
+    },
+    {
+     "step": 2,
+     "action": "track_seasonal_variations",
+     "explain": "Identify seasonal peaks (e.g., Kapha in spring, Pitta in autumn, Vata in rainy/summer season) and adjust diet and conduct accordingly."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.8.1",
+   "title": "Dietetics, Nutrition, and Six Tastes (Sadrata)",
+   "section": "Ayurvedic Approach to Diet and Nutrition",
+   "definition": "The dietary science that categorizes food ingredients by their sensory tastes, thermal impacts, digestibility, and capacity to balance or aggravate doshas.",
+   "formula": "Six Rasas = Madhura (sweet) + Amla (sour) + Lavana (salty) + Katu (pungent) + Tikta (bitter) + Kasaya (astringent)",
+   "key_idea": "A balanced meal contains all six tastes processed to balance individual constitutional needs and seasonal demands.",
+   "textbook_ref": "keks107.txt lines 366-425",
+   "question_patterns": [
+    "What are the six primary tastes (rasas) recognized in Ayurvedic dietetics?",
+    "How does traditional Indian cuisine utilize culinary spices as medicinal counterbalances?",
+    "Explain the principle of personalized nutrition and functional food assessment in Ayurveda.",
+    "How can opposing cooking ingredients neutralize adverse properties of particular foods?",
+    "Why does Ayurveda evaluate food based on functional qualities rather than mere caloric value?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_six_tastes",
+     "explain": "Classify nutrients according to the 6 rasas: sweet, sour, salty, pungent, bitter, and astringent."
+    },
+    {
+     "step": 2,
+     "action": "evaluate_culinary_synergy",
+     "explain": "Analyze food formulation principles, such as combining cooling spices or ghee to balance heating or heavy properties."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.9.1",
+   "title": "Ayurvedic Pharmacology: Dravyaguna Vijnana",
+   "section": "Ayurvedic Pharmacology",
+   "definition": "The pharmacological discipline analyzing medicinal materials through taste (rasa), biophysical properties (guna), potency (virya), and multi-compound synergy.",
+   "formula": "Pharmacological Action = Rasa + Guna + Virya + Vipaka + Prabhava",
+   "key_idea": "Herbal preparations extract whole active compound complexes utilizing water, oil, ghee, and alcohol bases for multi-target therapy.",
+   "textbook_ref": "keks107.txt lines 426-470",
+   "question_patterns": [
+    "What is Dravyaguna Vijnana in Ayurvedic medicine?",
+    "How do taste (rasa), property (guna), and potency (virya) predict a plant's therapeutic action?",
+    "Explain the extraction of polar versus non-polar plant compounds in decoctions and lipid preparations.",
+    "Why does Ayurvedic pharmacology emphasize multi-ingredient formulations over isolated single molecules?",
+    "Describe the different therapeutic extraction media like Kasaya, Aristha, Asava, and Ghrtam."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_pharmacological_parameters",
+     "explain": "Predict medicinal actions using the parameters of rasa (taste), guna (attributes), and virya (potency)."
+    },
+    {
+     "step": 2,
+     "action": "differentiate_extraction_media",
+     "explain": "Match plant compounds with solvents: water for polar fractions (kasaya), lipids/ghee for non-polar fractions (ghrtam/tailam), and hydro-alcoholic fermentation for complex phyto-compounds (asava/arista)."
+    }
+   ]
+  },
+  {
+   "id": "keks.107.10.1",
+   "title": "Convergence with Modern Biomedical Concepts",
+   "section": "Ayurveda and Evolving Concepts in Western Medicine",
+   "definition": "The conceptual convergence between ancient Ayurvedic principles and modern biomedical frontiers including systems biology, pharmacogenomics, circadian chronobiology, and sustainable ecology.",
+   "formula": "Modern Convergence = Systems Biology + Prakrti-based Personalized Medicine + Circadian Clocks + Ecological Health",
+   "key_idea": "Modern medical research increasingly validates holistic, individualized, and chronobiological principles central to Ayurveda.",
+   "textbook_ref": "keks107.txt lines 471-550",
+   "question_patterns": [
+    "How does the concept of Prakrti align with modern personalized medicine and pharmacogenomics?",
+    "Compare Ayurvedic doshic cycles with the modern discovery of molecular circadian rhythms.",
+    "In what ways does systems biology mirror the holistic network approach of Ayurveda?",
+    "Explain the significance of therapeutic nutrition and sustainable medicine in contemporary healthcare.",
+    "How does environmental and ecological health factor into individual disease prevention?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "correlate_traditional_and_modern_fields",
+     "explain": "Map Prakrti to personalized pharmacogenomics, Tridosha network models to systems biology, and Dinacarya/Rtucarya to chronobiology."
+    },
+    {
+     "step": 2,
+     "action": "assess_sustainability_relevance",
+     "explain": "Highlight how low-energy, plant-based, preventive therapies support long-term ecological and sustainable medical infrastructure."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keks107.txt lines 126-155",
+   "concept": "keks.107.3.1",
+   "question_type": "conceptual_matching",
+   "question_pattern": "Identify the branch of Astanga Ayurveda corresponding to {specialty_name} and describe its scope.",
+   "extracted_variables": {
+    "specialty_code": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_specialty",
+     "explain": "Locate the corresponding branch: Shalya Tantra refers specifically to surgical techniques and anatomical operations."
+    },
+    {
+     "step": 2,
+     "action": "describe_scope",
+     "explain": "It encompasses surgical interventions, extraction of foreign bodies, and operative procedures such as reconstruction."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keks107.txt lines 261-320",
+   "concept": "keks.107.6.1",
+   "question_type": "qualitative_analysis",
+   "question_pattern": "A patient experiences symptoms of high fever, acute redness, and burning sensations. Determine which of the {dosha_count} doshas is aggravated.",
+   "extracted_variables": {
+    "dosha_count": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze_symptom_properties",
+     "explain": "Redness, burning sensation, and excessive heat correspond to the hot (usna) and sharp (tiksna) qualities."
+    },
+    {
+     "step": 2,
+     "action": "infer_aggravated_dosha",
+     "explain": "These attributes are distinct characteristics of Pitta dosha, indicating an increase and perturbation of Pitta."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex107.1",
+   "source_ref": "keks107.txt lines 570-585",
+   "questions": [
+    "Explain about the manushya and mrga Ayurveda.",
+    "What are the eight branches of Ayurveda?",
+    "Explain the role of Vata, Pitta and Kapha in maintenance of biological cycle.",
+    "Name the Ayurvedic surgeon who is also acknowledged in modern surgery.",
+    "What is tridosha theory?",
+    "What are the Ayurvedic approaches for diet and nutrition?",
+    "Name some Ayurvedic texts written in B.C. and A.D."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

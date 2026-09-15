@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_4",
+   "title": "c8_physics_ch8_4",
+   "questions": [
+    {
+     "q": "State the approximate percentage of energy transferred from one trophic level to the next in a typical food chain, and give the SI unit for measuring this energy.",
+     "a": "About 10% of energy transfers to the next trophic level; energy is measured in joules (J). A wrong answer like \"50%\" or \"energy is measured in watts\" reveals the student confuses energy transfer efficiency with other ecological ratios or mixes up power (watts) with energy (joules).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a food chain rarely has more than four or five trophic levels, using the 10% rule and the concept of energy dissipation.",
+     "a": "At each step 90% of energy is lost as heat, waste, and uneaten parts; after 4–5 transfers, the remaining energy (10,000 J → 10 J → 1 J → 0.1 J) becomes too little to sustain a viable population of the next consumer. A wrong answer focusing only on \"predators are fewer\" without mentioning energy quantity shows the student memorises the pattern but not the energetic cause.",
+     "self_check": true
+    },
+    {
+     "q": "If the producers in a pond ecosystem capture 50,000 J of energy per day, calculate the energy available to the tertiary consumer (fourth trophic level) using the 10% rule. Show all steps with units.",
+     "a": "Step 1: Producer energy = 50,000 J. Step 2: Primary consumer = 50,000 J × 0.10 = 5,000 J. Step 3: Secondary consumer = 5,000 J × 0.10 = 500 J. Step 4: Tertiary consumer = 500 J × 0.10 = 50 J. Answer: 50 J. A wrong answer like 5,000 J indicates the student stopped at the first transfer; 500 J means they stopped at the second — both show inability to chain multiple 10% steps.",
+     "self_check": true
+    },
+    {
+     "q": "Two food chains start with the same producer energy: Chain A (grass → grasshopper → frog → snake) and Chain B (phytoplankton → zooplankton → small fish → large fish). Compare the energy reaching the top predator in each chain if the producer captures 20,000 J. Are they equal? Why or why not?",
+     "a": "Both chains yield 20,000 J × 0.10³ = 20 J at the fourth trophic level — they are equal because the 10% rule depends only on number of transfers, not the specific organisms. A wrong answer claiming one chain has more energy because \"fish are bigger\" reveals the student thinks organism size determines energy transfer, ignoring the fixed percentage rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If only 10% energy transfers, then 90% is destroyed, violating the law of conservation of energy.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is incorrect. The 90% is not destroyed; it is transformed into heat (during respiration), waste (faeces/urine), and uneaten biomass (bones, shells). Total energy is conserved — it just becomes unavailable to the next trophic level. A wrong agreement reveals confusion between energy *transfer to the next level* and energy *conservation in the universe*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom investigation using dried beans (representing energy units) to model the 10% energy transfer across four trophic levels. Describe materials, procedure, and what the final bean count represents.",
+     "a": "Materials: 1000 beans (producer energy), four labelled cups (producer, primary, secondary, tertiary). Procedure: Place 1000 beans in producer cup. Move 10% (100 beans) to primary cup, discard 900. Repeat: 10 beans to secondary, 1 bean to tertiary. Final bean count (1) represents energy available to top predator. A poor answer that moves 50% each time or doesn't discard beans shows the student hasn't internalised the 90% loss mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

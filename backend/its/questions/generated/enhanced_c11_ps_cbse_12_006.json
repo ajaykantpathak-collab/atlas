@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_006",
+   "title": "c11_ps_cbse_12_006",
+   "questions": [
+    {
+     "q": "Which constitutional article provides for the delimitation of territorial constituencies for Lok Sabha elections, thereby operationalising the FPTP system?",
+     "a": "Article 81 read with Article 327 provides for territorial constituencies and empowers Parliament to make laws for delimitation. A wrong answer (e.g., citing Article 326 which deals with adult franchise) reveals confusion between the *right to vote* and the *method of converting votes into seats* — a fundamental distinction in electoral system design.",
+     "self_check": true
+    },
+    {
+     "q": "During Constituent Assembly debates, Dr. B.R. Ambedkar opposed Proportional Representation for the Lok Sabha. What was his primary concern regarding PR in the Indian context?",
+     "a": "Ambedkar argued PR would fragment the legislature into numerous small parties, making stable government impossible in India's diverse society, and would weaken the direct link between a representative and a geographic constituency. A wrong answer (e.g., \"PR is too complex for illiterate voters\") reveals a middle-school misconception — the debate was about *governability and accountability*, not voter literacy; the Constituent Assembly adopted universal franchise despite low literacy.",
+     "self_check": true
+    },
+    {
+     "q": "In the 2014 Lok Sabha election, the BJP won 282 seats (52% of seats) with 31% of the national vote share. Under a pure Proportional Representation system with a single national constituency, approximately how many seats would the BJP have won, and what does this illustrate about FPTP's \"seat bonus\" effect?",
+     "a": "Under pure PR, BJP would have won ~167 seats (31% of 543). The 115-seat bonus illustrates how FPTP amplifies the leading party's seat share to manufacture legislative majorities — a feature the Constituent Assembly valued for stability. A wrong answer (e.g., \"BJP would still win 282 seats\") reveals failure to grasp the mechanical difference between vote-to-seat translation in FPTP vs PR.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the government formation outcomes in India (FPTP) and Israel (PR, 3.25% threshold) after their most recent national elections. Which system is more likely to produce a single-party majority government, and why does this matter for the parliamentary executive?",
+     "a": "India's FPTP frequently yields single-party majorities (2014, 2019) enabling a Prime Minister with clear Lok Sabha control; Israel's PR consistently produces coalition governments requiring complex negotiations. This matters because India's parliamentary executive (Article 75) requires the Council of Ministers to command Lok Sabha confidence — FPTP makes this confidence more readily achievable. A wrong answer (e.g., \"both systems produce similar coalition patterns\") ignores the mechanical tendency of FPTP to concentrate seats.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"India should switch to Proportional Representation because FPTP wastes votes and distorts the popular will, as seen when a party wins a majority with only 31% vote share.\"",
+     "a": "The critique must acknowledge the trade-off: FPTP's \"distortion\" is a *deliberate design choice* for stability and accountability. In a diverse, federal polity with regional parties, PR would likely produce fragmented legislatures, unstable coalitions, and weaken the constituency link vital for grievance redressal. A poor answer treats \"vote-seat proportionality\" as an absolute good without weighing it against governability, federal representation, and the Constituent Assembly's reasoned choice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid electoral system for a hypothetical Indian state with 100 assembly seats that retains FPTP's constituency accountability but improves proportionality for smaller parties. Specify the seat allocation formula and justify each component with reference to Indian constitutional principles.",
+     "a": "A strong answer proposes a Mixed Member Proportional (MMP) model: e.g., 70 FPTP constituency seats + 30 compensatory list seats allocated to match state-wide vote shares, with a 5% threshold. Justification: retains Article 81-style territorial representation; compensatory seats address vote wastage; threshold prevents excessive fragmentation (unlike pure PR). A poor answer copies a foreign model without adapting to India's federal structure, reservation requirements (Article 330/332), or anti-defection law implications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

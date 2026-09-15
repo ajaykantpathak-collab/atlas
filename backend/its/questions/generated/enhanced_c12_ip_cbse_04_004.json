@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_004",
+   "title": "c12_ip_cbse_04_004",
+   "questions": [
+    {
+     "q": "What are the four essential freedoms that define free and open source software according to the Free Software Foundation?",
+     "a": "The four freedoms are: (0) Freedom to run the program for any purpose; (1) Freedom to study and modify the source code; (2) Freedom to redistribute copies; (3) Freedom to distribute modified versions. A wrong answer (e.g., listing \"free of cost\" or \"open source means public domain\") reveals confusion between price and liberty, or between open source and public domain.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a permissive open source license (like MIT) and a copyleft license (like GPL) in terms of what they require when someone distributes a modified version of the software.",
+     "a": "A permissive license (MIT) only requires preserving the original copyright and license notice; the modified code can be relicensed or made proprietary. A copyleft license (GPL) requires that the modified version be distributed under the same license, ensuring the freedoms propagate. A wrong answer that says both allow proprietary relicensing misses the core distinction of copyleft's viral nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to share a dataset on Kaggle and allow others to use it commercially, modify it, and share their modifications, but only if they give credit and share under the same terms. Which Creative Commons license should they choose?",
+     "a": "CC BY-SA (Attribution-ShareAlike). This license requires attribution (BY) and that adaptations be shared under the same license (SA). It permits commercial use. A wrong choice like CC BY-NC-SA would incorrectly prohibit commercial use, or CC BY would miss the share-alike requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the obligations of a user who incorporates an Apache 2.0 licensed library into their proprietary commercial software versus a GPL 3.0 licensed library. What key difference in patent rights does Apache 2.0 provide?",
+     "a": "Apache 2.0 allows inclusion in proprietary software with only attribution, license copy, and notice preservation; it also grants an explicit patent license from contributors to users. GPL 3.0 requires the entire combined work to be licensed under GPL 3.0 (strong copyleft), making proprietary distribution impossible. A wrong answer that says both allow proprietary use ignores GPL's copyleft effect.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher creates an open educational resource (OER) — a set of slides and exercises — and wants to maximize reuse while ensuring she gets credit. She is considering CC BY, CC BY-SA, and CC0 (public domain dedication). Evaluate which license best balances her goal of wide adoption with attribution, and justify why CC0 might be too permissive.",
+     "a": "CC BY is best: it requires attribution (giving her credit) but imposes no further restrictions, encouraging maximum reuse including commercial and derivative works. CC BY-SA adds share-alike, which can deter adoption by forcing downstream works to be open. CC0 waives all rights, so no legal requirement for attribution remains (though community norms may persist). A wrong evaluation that picks CC0 for \"maximum adoption\" misses that attribution is a stated goal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a licensing strategy for a GitHub repository that contains: (a) a Python package you want to be widely used even in proprietary apps, (b) a set of Jupyter notebooks tutorials you want shared freely but with attribution, and (c) a logo image you want to allow modifications but not commercial exploitation. Specify the license for each component and explain your choices.",
+     "a": "(a) Python package → MIT License (permissive, allows proprietary use with attribution). (b) Jupyter notebooks → CC BY 4.0 (attribution for creative content, allows commercial and derivative use). (c) Logo → CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike ensures modifications stay under same terms). A poor answer would apply a single license to all, ignoring that software and creative works have different license ecosystems, or would choose GPL for the package, blocking proprietary adoption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

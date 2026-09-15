@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_033",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_033",
+   "title": "c6_math_ch03_033",
+   "questions": [
+    {
+     "q": "What is the golden rule for adding two fractions like 1/3 and 1/5?\n[1-2 sentences]",
+     "a": "The golden rule is that the denominators must be the same (a common fractional unit) before adding the numerators. A student who says \"add the numerators and add the denominators\" (e.g., 2/8) is incorrectly applying addition to the denominator, which represents the size of the share, not the count.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 2/7 of a cake and add 3/7 of a cake, why do you not add the 7s to get 2/14?\n[2-3 sentences]",
+     "a": "The denominator 7 tells us the \"size\" of the slice (it is a seventh-part). Adding 7+7 would change the slice size to a fourteenth-part, which is a different piece entirely. A wrong answer here shows the student confuses the \"name\" of the unit with a quantity to be summed.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the sum of 1/4 and 1/6. Show your steps.\n[2-3 sentences]",
+     "a": "First, find a common denominator (LCM of 4 and 6 is 12). Convert 1/4 to 3/12 and 1/6 to 2/12. Finally, add the numerators: 3/12 + 2/12 = 5/12. A wrong answer here suggests the student lacks the skill to find common multiples or correctly perform equivalent fraction conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it easier to add 2/5 + 1/5 than 2/5 + 1/4?\n[2-3 sentences]",
+     "a": "Adding 2/5 + 1/5 is easier because the fractional units (fifths) are identical; we simply count the number of fifths. 2/5 + 1/4 requires the extra step of converting both to twentieths to match the share sizes. A wrong answer indicates the student does not understand the relationship between the denominator and the physical size of the fractional part.",
+     "self_check": true
+    },
+    {
+     "q": "Is the sum of 1/2 and 1/3 greater than 1? Justify your answer.\n[2-3 sentences]",
+     "a": "No, the sum is 3/6 + 2/6 = 5/6, which is less than 1 (or 6/6). A student who guesses \"yes\" or \"no\" without calculation lacks the ability to estimate fractional sums or perform the required conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem where adding 1/2 and 1/4 is necessary.\n[2-3 sentences]",
+     "a": "A good answer would involve measuring something, like \"I used 1/2 litre of milk for tea and 1/4 litre for coffee; how much milk did I use total?\" A poor answer, such as \"adding 1/2 and 1/4 apples,\" without context, shows difficulty in bridging abstract fractions with physical reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

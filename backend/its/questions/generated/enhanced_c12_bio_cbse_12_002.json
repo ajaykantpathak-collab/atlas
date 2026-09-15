@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_002",
+   "title": "c12_bio_cbse_12_002",
+   "questions": [
+    {
+     "q": "State the two key enzymatic components of the RNAi pathway and their sequential roles in converting long dsRNA into a functional silencing complex.",
+     "a": "Correct answer: Dicer (an RNase III endonuclease) cleaves long dsRNA into 21–23 nucleotide siRNA duplexes with 2-nt 3' overhangs; the siRNA is then loaded into the RISC complex where Argonaute (the catalytic \"slicer\" subunit) discards the passenger strand and retains the guide strand to target complementary mRNA for cleavage. A wrong answer that swaps the order (RISC before Dicer) or omits the passenger-strand removal step reveals confusion about the assembly pathway — students often think siRNA directly binds mRNA without RISC maturation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the RNAi-based pest resistance strategy require the target pest gene to be essential for survival, and why must the dsRNA sequence be pest-specific rather than conserved across the plant kingdom?",
+     "a": "Correct answer: If the targeted gene is non-essential, its silencing will not kill or impair the pest, rendering the crop unprotected. Pest-specificity is critical because if the dsRNA matches a plant gene, the plant's own RNAi machinery would silence its endogenous gene (auto-silencing), causing developmental defects or lethality in the crop itself. A wrong answer suggesting \"any gene works\" or \"conserved genes are better targets\" shows failure to grasp the functional consequence of gene silencing and the risk of off-target effects in the host plant.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to engineer rice resistant to the brown planthopper (*Nilaparvata lugens*) using RNAi. She identifies a planthopper gene *NlABCB5* (essential for detoxification) with 85% nucleotide identity to the rice *OsABCB5* ortholog. Predict the outcome if she uses the planthopper *NlABCB5* coding sequence to make a hairpin construct for rice transformation, and explain why.",
+     "a": "Correct answer: The transgenic rice will likely show severe growth defects or lethality because the 85% sequence identity is sufficient for the plant's own RNAi machinery to recognize the hairpin-derived siRNAs as targeting the endogenous *OsABCB5* mRNA, causing auto-silencing of an essential rice transporter. The pest may also be affected, but the crop would be non-viable. A wrong answer predicting \"successful pest resistance with no plant phenotype\" ignores the cross-silencing risk — a classic competitive-exam trap where students focus only on pest targeting and forget host off-target effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the molecular mode of action of Bt toxin (Cry protein) and RNAi-based pest resistance. Include: (a) molecule ingested by pest, (b) primary target in pest, (c) mechanism of toxicity, and (d) one major resistance evolution concern for each.",
+     "a": "Correct answer: \n(a) Bt: Cry protoxin protein; RNAi: dsRNA/hairpin RNA. \n(b) Bt: midgut brush-border receptors (cadherin, APN, ALP); RNAi: essential mRNA in any cell where dsRNA reaches (systemic spread). \n(c) Bt: protoxin activated by gut proteases → binds receptors → pore formation → cell lysis → septicemia; RNAi: dsRNA → Dicer → siRNA → RISC → target mRNA cleavage → translational arrest → loss of essential protein function. \n(d) Bt resistance: mutations in receptor genes (reduced binding); RNAi resistance: mutations in target gene sequence (siRNA mismatch), upregulation of nucleases degrading dsRNA, or impaired systemic RNAi spread. A wrong answer that conflates the two (e.g., \"both make pores in gut\") or misses systemic spread of RNAi reveals superficial memorization without mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"RNAi-based pest resistance is superior to Bt because pests cannot evolve resistance to RNAi since it targets essential genes that cannot mutate without fitness cost.\" Provide a reasoned judgment with molecular evidence.",
+     "a": "Correct answer: The claim is FALSE. While essential genes are under purifying selection, pests can evolve RNAi resistance via: (1) point mutations in the target sequence creating siRNA mismatches (reducing RISC binding/cleavage) while retaining protein function — documented in *Tribolium castaneum* and *Helicoverpa armigera*; (2) enhanced dsRNA degradation by upregulated nucleases; (3) reduced dsRNA uptake (mutations in SID-1-like channels); (4) impaired systemic RNAi spread. Fitness costs exist but are not absolute barriers; field-evolved resistance to RNAi has been reported. A wrong answer agreeing with the claim shows ignorance of documented resistance mechanisms and the evolutionary principle that any single-mode-of-action selection pressure drives resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a laboratory experiment to test whether dsRNA expressed in transgenic tomato roots moves systemically to silence a reporter gene in feeding whiteflies (*Bemisia tabaci*), including controls needed to distinguish plant-mediated RNAi from direct dsRNA uptake from artificial diet.",
+     "a": "Expected answer: \n1. Generate tomato lines expressing hairpin RNA targeting whitefly *v-ATPase* subunit (essential) under root-specific promoter (e.g., *AtRB7*). \n2. Controls: (a) wild-type tomato; (b) tomato expressing hairpin against non-target gene (e.g., GFP); (c) whiteflies fed artificial diet with synthetic *v-ATPase* dsRNA (positive control for RNAi efficacy); (d) whiteflies on hairpin tomato + dsRNA-degrading RNase in diet (tests plant-derived dsRNA necessity). \n3. Assay: qRT-PCR of *v-ATPase* mRNA in whiteflies after 48h feeding; mortality/survival curves; siRNA detection in whitefly bodies by northern blot. \n4. Key distinction: If silencing occurs only on hairpin tomato and synthetic dsRNA diet but not on WT or GFP-hairpin tomato, and is abolished by RNase, it confirms plant-mediated systemic RNAi. A poor answer omits the RNase control or the non-target hairpin control, failing to rule out non-specific effects or direct dsRNA contamination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

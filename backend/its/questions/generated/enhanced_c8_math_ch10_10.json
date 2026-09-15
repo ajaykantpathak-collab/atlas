@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_10",
+   "title": "c8_math_ch10_10",
+   "questions": [
+    {
+     "q": "State the defining condition for two quantities to be in (a) direct proportion and (b) inverse proportion. Use the terms \"ratio\" and \"product\" in your answer.",
+     "a": "(a) Direct proportion: The ratio of the two quantities is constant (\\(x/y = k\\)). (b) Inverse proportion: The product of the two quantities is constant (\\(x \\times y = k\\)). A wrong answer (e.g., saying \"sum is constant\" or confusing ratio/product) reveals the student has memorized keywords without understanding the mathematical invariant that defines each relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels a fixed distance of 240 km. Explain why the speed of the car and the time taken are in inverse proportion, using the concept of constant product. Why would it be incorrect to say they are in direct proportion because \"higher speed means less time, so both change\"?",
+     "a": "For a fixed distance, speed \\(\\times\\) time = distance (constant). As speed increases, time decreases such that the product remains 240. It is incorrect to call it direct proportion because direct proportion requires the *ratio* (speed/time) to be constant, which would mean speed and time change in the *same* direction. A student who says \"both change\" confuses \"any relationship\" with \"proportional relationship\" and misses the directional requirement (same vs. opposite).",
+     "self_check": true
+    },
+    {
+     "q": "The table below shows the number of workers and days to complete a fixed job.\n\n| Workers | 4 | 6 | ? | 12 |\n| Days    | 15 | 10 | 6 | ? |\n\n(a) Identify the type of proportion. (b) Find the two missing values.",
+     "a": "(a) Inverse proportion (more workers → fewer days). Constant product \\(k = 4 \\times 15 = 60\\).\n(b) For 6 days: workers = \\(60/6 = 10\\). For 12 workers: days = \\(60/12 = 5\\).\nMissing values: 10 workers, 5 days.\nA wrong answer (e.g., using direct proportion \\(4/15 = 6/x \\rightarrow x=22.5\\)) reveals the student defaults to direct proportion without checking the direction of change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two situations:\nSituation A: The cost of apples (₹) and weight purchased (kg) at a fixed rate of ₹80/kg.\nSituation B: The number of pipes filling a tank and the time taken to fill it.\nAnalyze the relationship in each. Which is direct and which is inverse? Justify by describing what happens to the second quantity when the first is doubled.",
+     "a": "Situation A: Direct. Doubling weight doubles cost (ratio cost/weight = 80 constant). Situation B: Inverse. Doubling pipes halves the time (product pipes \\(\\times\\) time = constant tank volume). A wrong classification (e.g., saying both are direct because \"more pipes, more water\") shows the student focuses on the intuitive \"more input → more output\" without recognizing the fixed total work (tank volume) that creates the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: *\"6 pumps empty a tank in 40 minutes. How long for 10 pumps?\"*\nTheir working: \\(\\frac{6}{40} = \\frac{10}{x} \\Rightarrow x = \\frac{400}{6} = 66.7\\) minutes.\nEvaluate the student's method. Is the answer reasonable? Identify the exact error and give the correct answer.",
+     "a": "The student incorrectly used direct proportion. More pumps should take *less* time, not more. The answer 66.7 min > 40 min is unreasonable. Correct method: Inverse proportion. \\(6 \\times 40 = 10 \\times x \\Rightarrow x = 24\\) minutes. The error reveals the student matches numbers to a fraction template without reasoning about the physical situation (fixed tank volume).",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life word problem (Indian context) that requires distinguishing between direct and inverse proportion. Write the problem, state the two quantities involved, classify the proportion type, and solve it.",
+     "a": "Example: *\"A school bus uses 15 litres of diesel to travel 180 km. (a) How much diesel for 300 km at the same speed? (b) If the bus travels 180 km at 60 km/h, it takes 3 hours. How long at 45 km/h?\"*\n(a) Diesel & distance: Direct (more distance → more diesel). \\(15/180 = x/300 \\Rightarrow x = 25\\) litres.\n(b) Speed & time: Inverse (fixed distance). \\(60 \\times 3 = 45 \\times t \\Rightarrow t = 4\\) hours.\nA poor answer gives two problems of the same type or misclassifies, showing inability to generate contrasting scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

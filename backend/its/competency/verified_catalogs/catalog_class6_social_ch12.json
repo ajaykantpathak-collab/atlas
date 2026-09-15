@@ -1,0 +1,673 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 12,
+ "chapter_title": "Grassroots Democracy -- Part 3: Local Government in Urban Areas",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees112.txt",
+ "concepts": [
+  {
+   "id": "c6ss.12.1",
+   "title": "Urban Local Government -- An Overview",
+   "section": "Introduction to Urban Local Government",
+   "definition": "Urban local government is the system of self-government in towns and cities that manages civic services and development through elected bodies like municipalities and municipal corporations.",
+   "formula": "",
+   "key_idea": "Just as Panchayati Raj serves villages, urban local bodies bring democracy to cities and towns so that citizens can govern local civic affairs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is urban local government?",
+    "Why do towns and cities need local self-government?",
+    "Name the main types of urban local bodies in India.",
+    "How does urban local government differ from rural local government?",
+    "What is the purpose of grassroots democracy in urban areas?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define urban local government",
+     "explain": "Urban local government is the elected system that administers towns and cities and provides civic services to city dwellers."
+    },
+    {
+     "step": 2,
+     "action": "Identify main types",
+     "explain": "The main types are the Municipal Corporation for large cities, the Municipality or Municipal Council for smaller towns, and Nagar Panchayats for transitional areas."
+    },
+    {
+     "step": 3,
+     "action": "Explain purpose",
+     "explain": "It brings decision-making close to urban citizens so that problems like water, waste, roads and street lighting are handled quickly and locally."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is urban local government and why is it needed?",
+     "solution": "It is the elected system that governs towns and cities. It is needed to manage civic services and development that central or state governments alone cannot handle efficiently.",
+     "answer": "Elected bodies that manage civic affairs in towns and cities."
+    },
+    {
+     "question": "Name the two main types of urban local bodies in India.",
+     "solution": "The Municipal Corporation for big cities and the Municipality or Municipal Council for smaller towns.",
+     "answer": "Municipal Corporation and Municipality (Municipal Council)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by urban local government?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the main types of urban local bodies in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do cities need local self-government?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.2",
+   "title": "Municipal Corporation and Municipality",
+   "section": "Types of Urban Local Bodies",
+   "definition": "A Municipal Corporation is the governing body of a large city, while a Municipality or Municipal Council governs a smaller town; both are elected bodies that provide civic services.",
+   "formula": "",
+   "key_idea": "The size of the urban settlement decides whether it is run by a Municipal Corporation or a Municipality, but both serve the same purpose of local self-rule.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a Municipal Corporation?",
+    "What is a Municipality?",
+    "What is the difference between a Municipal Corporation and a Municipality?",
+    "Which urban body governs a large city like Delhi or Mumbai?",
+    "Which urban body governs a small town?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Municipal Corporation",
+     "explain": "A Municipal Corporation is the elected body that governs a large city and is headed by a Mayor with a Commissioner as the administrative head."
+    },
+    {
+     "step": 2,
+     "action": "Define Municipality",
+     "explain": "A Municipality or Municipal Council is the elected body that governs a smaller town and is headed by a Chairperson or President."
+    },
+    {
+     "step": 3,
+     "action": "Explain the difference",
+     "explain": "The key difference is scale: corporations serve big cities with larger budgets and staff, while municipalities serve smaller towns with fewer resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between a Municipal Corporation and a Municipality?",
+     "solution": "A Municipal Corporation governs a large city and is headed by a Mayor, while a Municipality governs a smaller town and is headed by a Chairperson.",
+     "answer": "Corporation = large city, Mayor; Municipality = small town, Chairperson."
+    },
+    {
+     "question": "Which body would govern a city like Mumbai?",
+     "solution": "Mumbai is a large city, so it is governed by a Municipal Corporation -- the Brihanmumbai Municipal Corporation.",
+     "answer": "A Municipal Corporation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a Municipal Corporation?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is a Municipality?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one difference between a Municipal Corporation and a Municipality.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.3",
+   "title": "Structure of Urban Local Government",
+   "section": "Structure of Urban Local Government",
+   "definition": "Urban local government is structured into wards represented by elected councillors, with a deliberative wing led by the Mayor and an executive wing led by the Municipal Commissioner.",
+   "formula": "",
+   "key_idea": "A city is divided into wards, each represented by a councillor, and the council as a whole is supported by an administrative staff headed by the Commissioner.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is a city divided for the purpose of urban local government?",
+    "What is a ward in a municipal corporation?",
+    "Who represents a ward in the municipal body?",
+    "What are the two main wings of a Municipal Corporation?",
+    "How is the structure of a Municipal Corporation organised?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain wards and councillors",
+     "explain": "A city is divided into wards, and the voters of each ward elect a councillor to represent them in the municipal body."
+    },
+    {
+     "step": 2,
+     "action": "Explain the deliberative wing",
+     "explain": "The elected councillors form the deliberative wing, led by the Mayor, which debates and decides policies and budgets."
+    },
+    {
+     "step": 3,
+     "action": "Explain the executive wing",
+     "explain": "The executive wing, headed by the Municipal Commissioner, is made up of appointed officers and staff who implement the decisions of the council."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is a city divided for municipal governance?",
+     "solution": "A city is divided into wards, and each ward elects one councillor to represent its residents in the municipal body.",
+     "answer": "The city is divided into wards, each with an elected councillor."
+    },
+    {
+     "question": "What are the two wings of a Municipal Corporation?",
+     "solution": "The deliberative wing of elected councillors led by the Mayor, and the executive wing of officers led by the Municipal Commissioner.",
+     "answer": "Deliberative wing (Mayor) and executive wing (Commissioner)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a ward?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who represents a ward in the municipal body?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the two wings of a Municipal Corporation.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.4",
+   "title": "Functions of the Municipal Corporation",
+   "section": "Functions of Municipal Corporation",
+   "definition": "Municipal Corporations provide civic services such as water supply, waste management, street lighting, roads, public health, parks and registration of births and deaths.",
+   "formula": "",
+   "key_idea": "The Municipal Corporation is responsible for the daily services and infrastructure that keep a large city clean, safe and functional.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List four important functions of a Municipal Corporation.",
+    "How does a Municipal Corporation manage waste in a city?",
+    "What public health services does a Municipal Corporation provide?",
+    "How does the Municipal Corporation maintain city roads and street lighting?",
+    "What records does a Municipal Corporation keep for citizens?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify essential civic services",
+     "explain": "The corporation supplies drinking water, collects and disposes of garbage, maintains roads and street lighting and manages drains and sewerage."
+    },
+    {
+     "step": 2,
+     "action": "Identify public health and amenities",
+     "explain": "It runs hospitals and dispensaries, maintains parks, markets and community halls and sprays for disease control."
+    },
+    {
+     "step": 3,
+     "action": "Identify record-keeping duties",
+     "explain": "It registers births and deaths, issues licences and certificates and collects property and other local taxes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give four examples of functions performed by a Municipal Corporation.",
+     "solution": "Supplying drinking water, collecting garbage, maintaining street lights and registering births and deaths.",
+     "answer": "Water supply, garbage collection, street lighting, birth and death registration."
+    },
+    {
+     "question": "How does a Municipal Corporation help keep a city clean?",
+     "solution": "It collects household garbage, runs sweeping services, manages landfill sites and organises public awareness campaigns on sanitation.",
+     "answer": "It collects and disposes of waste and promotes sanitation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any four functions of a Municipal Corporation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Municipal Corporation manage city waste?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What public health services does a Municipal Corporation provide?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.5",
+   "title": "Ward Committees and Councillors",
+   "section": "Ward Committees and Councillors",
+   "definition": "A ward committee is a local body formed for one or more wards to involve citizens in municipal decisions, while a councillor is the elected representative of a ward.",
+   "formula": "",
+   "key_idea": "Ward committees and councillors bring municipal decision-making closer to neighbourhoods so that citizens' voices are heard.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a ward committee?",
+    "Who is a municipal councillor?",
+    "How is a councillor elected?",
+    "What is the role of a councillor in a municipal corporation?",
+    "How do ward committees help citizens participate in governance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define ward committee",
+     "explain": "A ward committee is a group set up for a ward or group of wards that includes the councillor and local residents to discuss neighbourhood issues."
+    },
+    {
+     "step": 2,
+     "action": "Define councillor",
+     "explain": "A councillor is the person elected by the voters of a ward to represent that ward in the municipal body."
+    },
+    {
+     "step": 3,
+     "action": "Explain their roles",
+     "explain": "Councillors raise ward problems in council meetings and vote on decisions, while ward committees gather citizens' opinions and monitor local services."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the role of a municipal councillor?",
+     "solution": "A councillor represents the people of his or her ward, raises local problems in council meetings, votes on budgets and monitors municipal services in the ward.",
+     "answer": "Represents the ward, raises issues and monitors services."
+    },
+    {
+     "question": "How do ward committees help citizens?",
+     "solution": "Ward committees give residents a forum to discuss neighbourhood problems, share opinions with the councillor and keep track of how services are delivered.",
+     "answer": "They give citizens a direct forum to influence local decisions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a ward committee?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who is a councillor and how is he or she elected?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do ward committees improve citizen participation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.6",
+   "title": "Mayor and Municipal Commissioner",
+   "section": "Mayor and Municipal Commissioner",
+   "definition": "The Mayor is the elected head of the Municipal Corporation who presides over council meetings, while the Municipal Commissioner is the appointed administrative head who runs the day-to-day affairs.",
+   "formula": "",
+   "key_idea": "The Mayor provides political leadership while the Commissioner provides administrative leadership; together they run the corporation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who is the Mayor of a Municipal Corporation?",
+    "Who is the Municipal Commissioner?",
+    "What is the difference between the Mayor and the Municipal Commissioner?",
+    "How is the Mayor elected?",
+    "What are the duties of the Municipal Commissioner?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Mayor",
+     "explain": "The Mayor is the elected head of the corporation, chosen by the councillors, who chairs meetings and represents the city."
+    },
+    {
+     "step": 2,
+     "action": "Define the Commissioner",
+     "explain": "The Municipal Commissioner is an appointed officer, usually from the civil services, who heads the administrative staff and implements council decisions."
+    },
+    {
+     "step": 3,
+     "action": "Explain the difference",
+     "explain": "The Mayor is an elected political leader, while the Commissioner is an appointed administrative officer; the Mayor decides policy and the Commissioner executes it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between the Mayor and the Municipal Commissioner?",
+     "solution": "The Mayor is the elected political head who chairs the council, while the Commissioner is the appointed administrative head who implements decisions.",
+     "answer": "Mayor = elected political head; Commissioner = appointed administrative head."
+    },
+    {
+     "question": "How is the Mayor of a Municipal Corporation chosen?",
+     "solution": "The Mayor is elected by the councillors from among themselves, usually for a term of one year in many states.",
+     "answer": "Elected by the councillors from among themselves."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Who is the Mayor and what does he or she do?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who is the Municipal Commissioner?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one difference between the Mayor and the Commissioner.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.7",
+   "title": "Municipal Taxes and Services",
+   "section": "Sources of Income",
+   "definition": "Municipalities raise income from property tax, water and house taxes, fees for services, and grants from state and central governments.",
+   "formula": "",
+   "key_idea": "A municipality needs regular income from local taxes and government grants to fund city services and infrastructure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main sources of income of a Municipal Corporation?",
+    "How do municipalities raise money locally?",
+    "What is property tax and who collects it?",
+    "What government grants do municipalities receive?",
+    "Why does a municipality need its own income?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify local taxes",
+     "explain": "Municipalities collect property tax, house tax, water tax, octroi or entry tax in some states, and taxes on advertisements and entertainment."
+    },
+    {
+     "step": 2,
+     "action": "Identify fees and charges",
+     "explain": "They earn from fees for licences, building approvals, parking and charges for services like water supply and garbage collection."
+    },
+    {
+     "step": 3,
+     "action": "Identify government grants",
+     "explain": "They receive grants from state and central governments and Finance Commission transfers to fund major projects and services."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List three local sources of income for a Municipal Corporation.",
+     "solution": "Property tax, water tax and fees from issuing licences are three local sources of income.",
+     "answer": "Property tax, water tax, licence fees."
+    },
+    {
+     "question": "What is property tax and why is it important for municipalities?",
+     "solution": "Property tax is a tax on land and buildings collected by the municipality; it is a major and steady source of income for city services.",
+     "answer": "A tax on land and buildings; a major income source for municipalities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three sources of income of a Municipal Corporation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is property tax?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do municipalities need government grants?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.8",
+   "title": "Urban Planning and Services",
+   "section": "Urban Planning and Services",
+   "definition": "Urban planning is the organised development of a city's land use, transport, housing and infrastructure, while municipal services are the daily civic facilities provided to residents.",
+   "formula": "",
+   "key_idea": "Good urban planning ensures orderly growth of the city, while reliable services keep it liveable for all residents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is urban planning?",
+    "Why is urban planning important for a city?",
+    "What municipal services are provided to city residents?",
+    "How does a municipality manage traffic and transport?",
+    "What role does the municipality play in housing and land use?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define urban planning",
+     "explain": "Urban planning is the systematic design of a city's land use, roads, transport, housing, parks and zoning to ensure orderly growth."
+    },
+    {
+     "step": 2,
+     "action": "Identify municipal services",
+     "explain": "Municipal services include water supply, sewerage, garbage collection, street lighting, maintenance of roads and public parks."
+    },
+    {
+     "step": 3,
+     "action": "Explain the link",
+     "explain": "Planning sets the layout and rules for growth while services deliver the daily facilities that make the planned city liveable and healthy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is urban planning and why is it important?",
+     "solution": "Urban planning is the organised development of land use, transport and housing in a city. It is important to prevent overcrowding, traffic jams and unhealthy living conditions.",
+     "answer": "Organised city development to ensure orderly and healthy growth."
+    },
+    {
+     "question": "Give four examples of municipal services provided to residents.",
+     "solution": "Water supply, garbage collection, street lighting and maintenance of public parks.",
+     "answer": "Water supply, garbage collection, street lighting, public parks."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is urban planning?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List four municipal services provided to city residents.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is urban planning important for a city?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.9",
+   "title": "Importance of Local Self-Government in Urban Areas",
+   "section": "Importance of Local Self-Government",
+   "definition": "Local self-government in urban areas empowers city dwellers to manage civic affairs, solve local problems and participate in democracy through elected representatives.",
+   "formula": "",
+   "key_idea": "When citizens govern their own cities through municipalities, services are more responsive, decisions are faster and democracy reaches every neighbourhood.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is local self-government important in urban areas?",
+    "How does urban local government help city residents?",
+    "What are the benefits of grassroots democracy in cities?",
+    "How do councillors represent citizens in urban governance?",
+    "In what ways does urban local government improve city life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain responsive services",
+     "explain": "Local bodies understand city problems best and can deliver services like water and waste management more quickly than distant authorities."
+    },
+    {
+     "step": 2,
+     "action": "Explain representation",
+     "explain": "Through elected councillors and ward committees, every neighbourhood has a voice in how the city is run."
+    },
+    {
+     "step": 3,
+     "action": "Explain participation and accountability",
+     "explain": "Regular elections and open council meetings keep representatives accountable and give citizens a direct role in urban democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give two reasons why local self-government is important in cities.",
+     "solution": "It delivers civic services quickly and gives every neighbourhood a voice through elected councillors.",
+     "answer": "Quick civic services and neighbourhood representation."
+    },
+    {
+     "question": "How do regular elections make urban local government accountable?",
+     "solution": "Elections held every five years let citizens judge their councillors and vote for new ones if services are poor, keeping representatives answerable to the people.",
+     "answer": "Elections let citizens change representatives who perform poorly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is local self-government important in urban areas?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do councillors represent citizens in city governance?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do regular elections keep urban local government accountable?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.12.10",
+   "title": "Computing Property Tax for a City Property",
+   "section": "Sources of Income",
+   "definition": "Property tax is the main local tax collected by municipalities, calculated as a percentage of the property's assessed annual value or as a rate per unit area.",
+   "formula": "property_tax = assessed_annual_value * tax_rate",
+   "key_idea": "By applying a fixed tax rate to the assessed value of a property, one can compute the property tax that a municipality collects.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the property tax if the assessed annual value is Rs 50000 and the tax rate is 10%.",
+    "Find the property tax for a house with assessed value Rs 80000 at a 12% rate.",
+    "Compute the tax due when the annual value is Rs 120000 and the rate is 8%.",
+    "What is the property tax on a property valued at Rs 60000 with a 15% rate?",
+    "If the property tax is Rs 4500 at a 9% rate, what is the assessed annual value?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify assessed annual value and tax rate",
+     "explain": "Read the assessed annual value of the property and the tax rate set by the municipality.",
+     "compute": "tax = annual_value * tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "Multiply value by rate to get the tax",
+     "explain": "Multiply the assessed annual value by the tax rate expressed as a decimal to find the property tax.",
+     "compute": "property_tax = annual_value * (tax_rate / 100)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The result is the amount the property owner must pay to the municipality for the year.",
+     "compute": "amount_due = annual_value * (tax_rate / 100)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A house has an assessed annual value of Rs 50000 and the property tax rate is 10%. Find the property tax.",
+     "solution": "Property tax = 50000 * 10/100 = 50000 * 0.10 = Rs 5000.",
+     "answer": "Rs 5000."
+    },
+    {
+     "question": "The property tax on a shop is Rs 3600 at a tax rate of 12%. What is the assessed annual value?",
+     "solution": "Annual value = tax / rate = 3600 / 0.12 = Rs 30000.",
+     "answer": "Rs 30000."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the property tax for a property with assessed annual value Rs 80000 at a 12% rate.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the assessed annual value if the property tax is Rs 4500 at a 9% rate.",
+     "type": "compute"
+    },
+    {
+     "question": "Why is property tax an important source of income for municipalities?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.12.10",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {annual_value} = 6, {tax_rate} = 9, compute the computing property tax for a city property step by step.",
+   "extracted_variables": {
+    "annual_value": "6",
+    "tax_rate": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify assessed annual value and tax rate",
+     "explain": "Read the assessed annual value of the property and the tax rate set by the municipality.",
+     "compute": "tax = annual_value * tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "Multiply value by rate to get the tax",
+     "explain": "Multiply the assessed annual value by the tax rate expressed as a decimal to find the property tax.",
+     "compute": "property_tax = annual_value * (tax_rate / 100)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The result is the amount the property owner must pay to the municipality for the year.",
+     "compute": "amount_due = annual_value * (tax_rate / 100)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.12.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain urban local government -- an overview with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define urban local government",
+     "explain": "Urban local government is the elected system that administers towns and cities and provides civic services to city dwellers."
+    },
+    {
+     "step": 2,
+     "action": "Identify main types",
+     "explain": "The main types are the Municipal Corporation for large cities, the Municipality or Municipal Council for smaller towns, and Nagar Panchayats for transitional areas."
+    },
+    {
+     "step": 3,
+     "action": "Explain purpose",
+     "explain": "It brings decision-making close to urban citizens so that problems like water, waste, roads and street lighting are handled quickly and locally."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

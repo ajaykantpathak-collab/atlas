@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_002",
+   "title": "c11_math_cbse_05_002",
+   "questions": [
+    {
+     "q": "Write the complex number \\( \\sqrt{-25} \\) in standard form \\( a + ib \\) and state its real and imaginary parts.",
+     "a": "The standard form is \\( 0 + 5i \\). Real part \\( = 0 \\), Imaginary part \\( = 5 \\). A wrong answer like \\( 5i \\) without the zero real part, or stating the imaginary part as \\( 5i \\) instead of \\( 5 \\), reveals confusion between the imaginary part (a real number) and the imaginary component (which includes \\( i \\)).",
+     "self_check": true
+    },
+    {
+     "q": "If \\( z = 3 - 4i \\), what are \\( \\text{Re}(z) \\) and \\( \\text{Im}(z) \\)? A student says \\( \\text{Im}(z) = -4i \\). Explain why this is incorrect.",
+     "a": "\\( \\text{Re}(z) = 3 \\), \\( \\text{Im}(z) = -4 \\). The imaginary part is defined as the real coefficient of \\( i \\), not the term \\( -4i \\). The student’s error shows they conflate the imaginary part with the imaginary term; they need to recall the precise definition: if \\( z = a + ib \\), then \\( \\text{Im}(z) = b \\) (a real number).",
+     "self_check": true
+    },
+    {
+     "q": "Express \\( \\frac{2 + \\sqrt{-16}}{2} \\) in standard form \\( a + ib \\).",
+     "a": "\\( \\sqrt{-16} = 4i \\). Then \\( \\frac{2 + 4i}{2} = 1 + 2i \\). So \\( a = 1, b = 2 \\). A wrong answer like \\( 1 + 4i \\) (forgetting to divide the imaginary part) or \\( 1 + 2 \\) (treating \\( i \\) as 1) indicates a procedural gap in simplifying complex expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complex numbers \\( z_1 = 5 + 0i \\) and \\( z_2 = 0 + 5i \\). How do their positions on the complex plane differ? (You may describe without drawing.)",
+     "a": "\\( z_1 = 5 \\) lies on the real axis (5 units to the right of the origin). \\( z_2 = 5i \\) lies on the imaginary axis (5 units above the origin). A student who says both are the same or both lie on the real axis has not grasped the geometric distinction between real and imaginary components.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\( x^2 + 9 = 0 \\) and writes \\( x = \\pm 3 \\). Evaluate this solution and explain the error.",
+     "a": "The solution is incorrect because \\( (\\pm 3)^2 = 9 \\), not \\( -9 \\). The correct solutions are \\( x = \\pm 3i \\). The error stems from ignoring the negative sign under the square root and not introducing \\( i \\). This reveals a fundamental misunderstanding that the square root of a negative number is not a real number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a quadratic equation with real coefficients that has the complex number \\( 2 - 3i \\) as one of its roots. Write the equation in standard form \\( ax^2 + bx + c = 0 \\).",
+     "a": "Since coefficients are real, complex roots occur in conjugate pairs. The other root is \\( 2 + 3i \\). Sum of roots = 4, product = \\( (2)^2 + (3)^2 = 13 \\). The equation is \\( x^2 - 4x + 13 = 0 \\). A poor answer might give an equation with complex coefficients or only one root, showing lack of understanding of the conjugate root theorem for real polynomials.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

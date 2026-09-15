@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_07_012",
+   "title": "c12_hin_ar_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"What does the poet compare the sun to?\"), while an inferential question requires drawing a conclusion from textual clues (e.g., \"Why does the poet use the sun as a metaphor for the poor?\"). A wrong answer that says \"literal questions are easy and inferential are hard\" reveals the student confuses difficulty with the source of the answer — the distinction is about textual explicitness, not complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Read this question: \"In the first poem of the chapter, the poet describes the sun rising. Is this a literal or inferential question? Explain your reasoning.\"",
+     "a": "This is a literal question because it asks for a detail directly described in the poem (the sun rising). The student can point to specific lines. A wrong answer calling it inferential reveals the student thinks any question about imagery is inferential — they miss that \"describes\" signals explicit textual content.",
+     "self_check": true
+    },
+    {
+     "q": "Based on the second poem in the chapter (which depicts a conversation between a poor farmer and a rich landlord), answer: (a) Literal: What does the farmer say about his crops? (b) Inferential: What does the farmer's tone reveal about his attitude toward the landlord?",
+     "a": "(a) Literal: The farmer says his crops have failed due to drought (direct quote or paraphrase from lines). (b) Inferential: The farmer's tone is resigned but dignified, revealing he accepts his fate but retains self-respect — supported by words like \"हमने बोया, तुमने काटा\" (we sowed, you reaped) showing quiet accusation. A wrong answer for (b) that says \"he is angry\" without quoting tone-indicating words shows the student makes unsupported guesses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two inferential questions about the third poem: (i) \"Why does the poet repeat the phrase 'राम नाम'?\" (ii) \"How does the repetition of 'राम नाम' reflect the poet's view of social equality?\" Analyze which requires deeper inference and why.",
+     "a": "Question (ii) requires deeper inference because it asks for a connection between a literary device (repetition) and a thematic idea (social equality), demanding synthesis across the poem. Question (i) only asks for the poet's purpose for repetition, which is closer to the surface. A wrong answer saying both are equally deep reveals the student cannot distinguish levels of inference — they treat all \"why\" questions as same.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"What does the metaphor 'सूरज गरीब का मित्र है' suggest about the poor?\" with: \"It suggests the poor are hot and bright.\" Evaluate this answer and explain why it is inadequate.",
+     "a": "The answer is inadequate because it takes the metaphor literally (sun = hot/bright) instead of interpreting the relational meaning: the sun is a friend to the poor because it gives light/heat freely without discrimination, unlike rich people. The student fails to consider the comparative context (friend vs. exploiter). A wrong evaluation that says \"the answer is partially correct\" reveals the evaluator also misses the metaphor's social critique.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on the stanza in the first poem that describes the night sky. Provide the answer for each.",
+     "a": "Literal: \"What celestial bodies are mentioned in the stanza?\" Answer: Stars and moon (explicit). Inferential: \"Why does the poet describe the night sky as 'a blanket torn with holes'?\" Answer: It suggests the poor's lives are full of gaps and suffering, yet they endure — the metaphor connects sky's appearance to social condition. A poor question would be \"Is the night sky beautiful?\" (opinion, not text-based).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

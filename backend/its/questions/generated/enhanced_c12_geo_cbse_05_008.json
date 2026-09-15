@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_008",
+   "title": "c12_geo_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the defining feature that distinguishes mixed farming from extensive commercial grain farming.",
+     "a": "Correct answer: Mixed farming integrates crop cultivation and livestock rearing on the same farm, while extensive commercial grain farming focuses solely on grain crops with minimal livestock. A wrong answer (e.g., \"mixed farming uses more machinery\") reveals the student confuses intensity of mechanization with the fundamental crop-livestock integration that defines the system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mixed farming regions are located in temperate grasslands rather than in tropical or boreal zones.",
+     "a": "Correct answer: Temperate grasslands offer deep, fertile soils (chernozems), moderate rainfall (500-750 mm) suitable for both cereals and fodder, and a climate that supports a long enough growing season for crop rotation. Tropical zones have leached soils and pests; boreal zones have short growing seasons and podzolic soils. A wrong answer citing only \"flat land\" shows the student overlooks soil fertility and climate constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in the Argentine Pampas rotates wheat, maize, and alfalfa while raising beef cattle. Using the concept of nutrient cycling, trace the flow of nitrogen from the atmosphere to the cattle and back to the soil in 4 steps.",
+     "a": "Step 1: Alfalfa (legume) fixes atmospheric N₂ via root nodules. Step 2: Cattle consume alfalfa hay, converting plant protein to animal protein. Step 3: Cattle excrete manure rich in organic nitrogen. Step 4: Manure is spread on wheat/maize fields, mineralizing to ammonium/nitrate for crop uptake. A wrong sequence (e.g., skipping legume fixation) indicates the student does not grasp the biological nitrogen cycle central to mixed farming sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land-use pattern of a mixed farm in the US Corn Belt with a dairy farm in New Zealand. Identify two similarities and two differences in terms of crop-livestock integration and market orientation.",
+     "a": "Similarities: both integrate crops (fodder) and livestock; both use rotation for soil health. Differences: (1) Mixed farm grows cash grains (corn/soy) for distant markets, while NZ dairy farm grows mostly pasture for on-farm grazing. (2) Mixed farm relies on feedlots and mechanized feeding; NZ dairy uses year-round rotational grazing. A student who says \"both are the same\" misses the distinction between grain-livestock and pasture-based systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of mixed farming in the Canadian Prairies under climate change scenarios projecting increased summer drought frequency. Justify with two arguments for and two against continued viability.",
+     "a": "For: (1) Crop diversity (rotation) buffers against total failure; (2) Livestock provide income stability when grain yields drop. Against: (1) Drought reduces fodder production, raising feed costs; (2) Soil organic carbon loss accelerates under frequent drought, degrading the chernozem base. A one-sided answer shows inability to weigh trade-offs in agro-ecosystem resilience.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-year crop-livestock rotation plan for a 200-ha mixed farm in the Ukrainian steppe that maximizes soil fertility, minimizes external inputs, and meets a contract to supply 500 tonnes of wheat annually. Sketch the rotation and list the livestock component.",
+     "a": "Example rotation: Year 1: Wheat (50 ha) + clover undersown; Year 2: Clover hay (50 ha) grazed by cattle; Year 3: Maize for silage (50 ha); Year 4: Barley (50 ha) + field peas; Year 5: Fodder beet (50 ha) for winter feed. Livestock: 100 beef cows + followers. Wheat area meets 10 t/ha × 50 ha = 500 t. A plan lacking legumes or ignoring manure recycling reveals poor grasp of nutrient cycling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_009",
+   "title": "c7_math_ch06_009",
+   "questions": [
+    {
+     "q": "What term is used in number puzzles to describe a quantity that does not change its value during a sequence of operations or game steps?",
+     "a": "The correct term is an **invariant**. A student who answers \"variable\" or \"constant\" misunderstands the nature of invariants in problem-solving; a variable changes its value, whereas an invariant remains completely unchanged through every transformation of the game.",
+     "self_check": true
+    },
+    {
+     "q": "A friend claims that if you take any 3-digit number, reverse its digits, subtract the smaller number from the larger one, the resulting difference is always a multiple of 9. Why does this happen universally for any valid 3-digit choice?",
+     "a": "Using place value representation, any 3-digit number can be written as $100a + 10b + c$, and its reverse is $100c + 10b + a$. Subtracting them yields $99(a - c)$, which is always a multiple of 9 because 99 is divisible by 9. A student who thinks it is a coincidence misses the fundamental connection between place value structure and algebraic subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul plays a game where he starts with an unknown whole number $n$, multiplies it by 3, adds 12, divides the sum by 3, and finally subtracts his original number $n$. What is the final resulting number, and what is its value?",
+     "a": "The final result is always **4**. \nStep 1: Start with $n$. \nStep 2: Multiply by 3 to get $3n$. \nStep 3: Add 12 to get $3n + 12$. \nStep 4: Divide the sum by 3 to get $\\frac{3n + 12}{3} = n + 4$. \nStep 5: Subtract the original number $n$ to get $(n + 4) - n = 4$. \nA student who gets an answer containing $n$ made an error during the division step, failing to divide both terms in the numerator ($3n$ and $12$) by 3.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze two number trick rules: Rule A says \"Double a number, add 10, halve the result, and subtract the original number.\" Rule B says \"Triple a number, subtract 6, divide by 3, and add 2.\" Compare their final outputs when starting with the same number $x$.",
+     "a": "For Rule A: $\\frac{2x + 10}{2} - x = x + 5 - x = 5$. For Rule B: $\\frac{3x - 6}{3} + 2 = x - 2 + 2 = x$. Rule A always results in the constant 5 regardless of $x$, whereas Rule B always results in the original number $x$. A student who claims both yield the same constant failed to carry out the correct algebraic simplification in Rule B.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student proof for a number game: \"To prove the sum of any three consecutive integers is always divisible by 3, let the numbers be $x$, $x+1$, and $x+2$. Their sum is $x + (x+1) + (x+2) = 3x + 3$. Since 3 divides both $3x$ and 3, the sum is divisible by 3.\" Is this reasoning valid? Justify your evaluation.",
+     "a": "The reasoning is completely **valid**. The student correctly translated consecutive integers into algebraic form, combined like terms to get $3x + 3$, and factored out 3 as $3(x + 1)$, proving that 3 is a factor of the sum. A student who claims it is invalid likely does not understand how factoring demonstrates divisibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new 4-step number trick game starting with an unknown integer $x$ such that the final output is always equal to twice the original number plus 5, regardless of what integer the player chooses.",
+     "a": "An acceptable game design: \n1. Think of a number $x$. \n2. Multiply it by 4 (gives $4x$). \n3. Add 10 (gives $4x + 10$). \n4. Divide the entire result by 2 (gives $\\frac{4x + 10}{2} = 2x + 5$). \n5. The final output is $2x + 5$. \nA poor answer would feature random operations that leave $x$ trapped or do not simplify neatly into a linear expression of $x$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

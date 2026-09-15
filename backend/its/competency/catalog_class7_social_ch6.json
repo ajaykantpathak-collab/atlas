@@ -1,0 +1,404 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Age of Reorganisation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees106.txt",
+ "concepts": [
+  {
+   "id": "c7ss.6.1",
+   "title": "Post-Mauryan Period and Regional Powers",
+   "section": "Political Reorganisation after the Mauryas",
+   "definition": "After the fall of the Mauryan Empire around 185 BCE, India entered a period of political fragmentation and reorganisation. Multiple regional powers emerged, including the Shungas in the north, the Satavahanas in the Deccan, the Indo-Greeks and Kushanas in the northwest, and various dynasties in the south.",
+   "formula": "",
+   "key_idea": "The post-Mauryan period was characterised by the rise of multiple regional kingdoms, foreign invasions in the north, and flourishing trade and cultural exchange across regions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What happened in India after the decline of the Mauryan Empire?",
+    "Name the major regional powers that emerged in the post-Mauryan period.",
+    "Why is this period called the Age of Reorganisation?",
+    "How did political fragmentation affect trade and culture?",
+    "What were the main features of the post-Mauryan political landscape?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the end of the Mauryan era",
+     "explain": "The Mauryan Empire ended around 185 BCE when Pushyamitra Shunga overthrew the last Mauryan ruler."
+    },
+    {
+     "step": 2,
+     "action": "List the emerging regional powers",
+     "explain": "The Shungas, Satavahanas, Indo-Greeks, Kushanas, and southern dynasties like the Cheras, Cholas, and Pandyas emerged."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance of reorganisation",
+     "explain": "Despite political fragmentation, this period saw increased trade, cultural exchange, and the growth of regional identities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the post-Mauryan period called the Age of Reorganisation?",
+     "solution": "After the unified Mauryan Empire fell, the subcontinent was reorganised into multiple regional kingdoms. New dynasties, foreign rulers, and trade networks reshaped the political and cultural landscape.",
+     "answer": "Because the subcontinent was reorganised into multiple regional kingdoms."
+    },
+    {
+     "question": "Name three major regional powers that emerged after the Mauryas.",
+     "solution": "Three major powers were the Shungas in the north, the Satavahanas in the Deccan, and the Kushanas in the northwest.",
+     "answer": "Shungas, Satavahanas, and Kushanas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the political landscape of India after the fall of the Mauryan Empire.",
+     "type": "descriptive"
+    },
+    {
+     "question": "How did the rise of regional powers affect cultural developments in this period?",
+     "type": "analytical"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.2",
+   "title": "Sangam Age and the Tamil Kingdoms",
+   "section": "The Sangam Age: Cheras, Cholas, and Pandyas",
+   "definition": "The Sangam Age (approximately 300 BCE to 300 CE) was a period of literary and cultural flourishing in southern India, centred in Madurai. Three Tamil kingdoms ruled the region: the Cheras (Kerala region), the Cholas (northern Tamil Nadu), and the Pandyas (southern Tamil Nadu). The Sangam assemblies patronised Tamil literature.",
+   "formula": "",
+   "key_idea": "The three Tamil kingdoms of Cheras, Cholas, and Pandyas flourished during the Sangam Age, which produced a rich body of Tamil literature and a distinctive cultural tradition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Sangam Age and when did it flourish?",
+    "Name the three Tamil kingdoms and their regions.",
+    "What was the significance of the Sangam assemblies?",
+    "Describe the political structure of the Tamil kingdoms.",
+    "What literary works were produced during the Sangam Age?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Sangam Age",
+     "explain": "The Sangam Age lasted from about 300 BCE to 300 CE and was centred in the Tamil-speaking south, particularly around Madurai."
+    },
+    {
+     "step": 2,
+     "action": "Identify the three kingdoms",
+     "explain": "The Cheras ruled the Kerala region, the Cholas controlled northern Tamil Nadu with their capital at Uraiyur, and the Pandyas ruled southern Tamil Nadu from Madurai."
+    },
+    {
+     "step": 3,
+     "action": "Explain the literary contribution",
+     "explain": "Sangam assemblies of poets produced works like the Tolkappiyam, the Silappadikaram, and the Manimekalai, forming the foundation of classical Tamil literature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the three Tamil kingdoms of the Sangam Age and their regions.",
+     "solution": "The Cheras ruled the Kerala region, the Cholas controlled northern Tamil Nadu, and the Pandyas governed southern Tamil Nadu with their capital at Madurai.",
+     "answer": "Cheras (Kerala), Cholas (northern Tamil Nadu), Pandyas (southern Tamil Nadu)."
+    },
+    {
+     "question": "What was the role of the Sangam assemblies?",
+     "solution": "The Sangam assemblies were gatherings of poets and scholars patronised by the Pandya kings. They produced and compiled classical Tamil literature, including works on grammar, epics, and poetry.",
+     "answer": "Assemblies of poets that produced classical Tamil literature."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the major literary works produced during the Sangam Age.",
+     "type": "descriptive"
+    },
+    {
+     "question": "Compare the political and economic features of the three Tamil kingdoms.",
+     "type": "analytical"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.3",
+   "title": "The Silk Route and Trade Connections",
+   "section": "Trade Networks: The Silk Route",
+   "definition": "The Silk Route was a network of trade routes connecting China to the Mediterranean through Central Asia, India, and Persia. It facilitated the exchange of silk, spices, precious stones, and ideas. The Kushanas controlled key segments of this route, benefiting from tolls and trade revenues.",
+   "formula": "",
+   "key_idea": "The Silk Route linked East and West, enabling not just trade in goods but also the exchange of religions, technologies, and cultural ideas, with the Kushanas playing a key intermediary role.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Silk Route and what was its significance?",
+    "How did the Kushanas benefit from the Silk Route?",
+    "What goods were traded along the Silk Route?",
+    "How did the Silk Route contribute to the spread of Buddhism?",
+    "What was the cultural impact of the Silk Route on India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the route and its endpoints",
+     "explain": "The Silk Route connected China in the east to the Mediterranean world in the west, passing through Central Asia and northern India."
+    },
+    {
+     "step": 2,
+     "action": "Identify traded goods",
+     "explain": "Silk from China, spices and precious stones from India, and gold, silver, and glassware from the Roman world were exchanged."
+    },
+    {
+     "step": 3,
+     "action": "Calculate Kushana trade revenue",
+     "explain": "The Kushanas earned revenue by taxing traders passing through their territories along the route."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Silk Route and why was it important?",
+     "solution": "The Silk Route was a network of trade routes connecting China to the Mediterranean through Central Asia and India. It was important for the exchange of goods like silk and spices, as well as the spread of ideas and religions like Buddhism.",
+     "answer": "A trade network linking China to the Mediterranean, vital for goods and cultural exchange."
+    },
+    {
+     "question": "If 50 traders passed through a Kushana checkpoint and each paid a toll of 20 coins, what was the total toll collected?",
+     "solution": "Total toll = number of traders x toll per trader = 50 x 20 = 1000 coins.",
+     "answer": "1000 coins."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Silk Route contributed to the spread of Buddhism.",
+     "type": "analytical"
+    },
+    {
+     "question": "If 120 traders pass through a checkpoint paying 15 coins each, calculate the total revenue collected.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.5",
+   "title": "Kanishka and the Kushana Empire",
+   "section": "The Kushana Empire under Kanishka",
+   "definition": "Kanishka was the most famous ruler of the Kushana Empire, ruling around the 1st or 2nd century CE. His empire extended from Central Asia to northern India. He was a great patron of Buddhism, convened the Fourth Buddhist Council, and promoted the Gandhara school of art.",
+   "formula": "",
+   "key_idea": "Kanishka's reign marked the peak of the Kushana Empire, characterised by religious patronage, cultural synthesis, and the promotion of Buddhism and art.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who was Kanishka and what was the extent of his empire?",
+    "What was the significance of the Fourth Buddhist Council?",
+    "How did Kanishka contribute to the spread of Buddhism?",
+    "What was Kanishka's role in promoting art and culture?",
+    "Describe the administrative system of the Kushanas."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Kanishka and his empire",
+     "explain": "Kanishka ruled the Kushana Empire around the 1st-2nd century CE, extending from Central Asia to northern India with capitals at Peshawar and Mathura."
+    },
+    {
+     "step": 2,
+     "action": "Describe his religious contributions",
+     "explain": "Kanishka patronised Buddhism and convened the Fourth Buddhist Council in Kashmir, which led to the division of Buddhism into Hinayana and Mahayana sects."
+    },
+    {
+     "step": 3,
+     "action": "State his cultural contributions",
+     "explain": "Kanishka promoted the Gandhara school of art, issued gold coins, and supported scholars like Ashvaghosha and Charaka."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the significance of the Fourth Buddhist Council convened by Kanishka?",
+     "solution": "The Fourth Buddhist Council was held in Kashmir under Kanishka's patronage. It led to the formal split of Buddhism into the Hinayana and Mahayana sects and resulted in the compilation of Buddhist commentaries.",
+     "answer": "It led to the Hinayana-Mahayana split and compilation of Buddhist texts."
+    },
+    {
+     "question": "Name two scholars patronised by Kanishka.",
+     "solution": "Kanishka patronised Ashvaghosha, a Buddhist poet and playwright, and Charaka, a physician who wrote on Ayurveda.",
+     "answer": "Ashvaghosha and Charaka."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the extent and significance of Kanishka's empire.",
+     "type": "descriptive"
+    },
+    {
+     "question": "How did Kanishka's patronage influence the development of Buddhism?",
+     "type": "analytical"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.6",
+   "title": "Gandhara and Mathura Schools of Art",
+   "section": "Art and Sculpture: Gandhara and Mathura",
+   "definition": "The Gandhara school of art flourished in the northwest (modern Pakistan and Afghanistan) under Kushana patronage, blending Greek and Indian styles to create the earliest Buddha images. The Mathura school, centred in Mathura, developed an indigenous style of sculpture depicting Buddha, Jain tirthankaras, and Hindu deities.",
+   "formula": "",
+   "key_idea": "The Gandhara and Mathura schools represent two distinct artistic traditions of the Kushana period, one influenced by Greco-Roman styles and the other by indigenous Indian traditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main features of the Gandhara school of art?",
+    "How did the Mathura school differ from the Gandhara school?",
+    "Where did the Gandhara and Mathura schools flourish?",
+    "What subjects were depicted in Mathura sculptures?",
+    "How did foreign influences shape Gandhara art?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Gandhara school",
+     "explain": "The Gandhara school flourished in the northwest under Kushana patronage, blending Greco-Roman and Indian styles to produce the first sculptural images of the Buddha."
+    },
+    {
+     "step": 2,
+     "action": "Describe the Mathura school",
+     "explain": "The Mathura school developed in Mathura as an indigenous style, using red sandstone to depict Buddha, Jain tirthankaras, and Hindu deities."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two schools",
+     "explain": "Gandhara art shows Greek influence with realistic features and wavy robes, while Mathura art is more Indian in style with spiritual expressions and smoother forms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main features of the Gandhara school of art?",
+     "solution": "The Gandhara school combined Greek and Indian artistic elements. It produced realistic Buddha images with wavy hair, folded robes, and serene expressions, typically using blue-grey schist stone.",
+     "answer": "Greco-Indian blend producing realistic Buddha images in schist stone."
+    },
+    {
+     "question": "How did the Mathura school differ from the Gandhara school?",
+     "solution": "The Mathura school used red sandstone and followed an indigenous Indian style with more spiritual and less realistic depictions. It also sculpted Hindu and Jain figures, unlike Gandhara which focused mainly on Buddhist themes.",
+     "answer": "Mathura used red sandstone with indigenous style; Gandhara used schist with Greek influence."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare and contrast the Gandhara and Mathura schools of art.",
+     "type": "analytical"
+    },
+    {
+     "question": "Explain how foreign cultural influences were reflected in Indian art during the Kushana period.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.7",
+   "title": "Southern Dynasties and their Contributions",
+   "section": "Southern India: Regional Dynasties",
+   "definition": "Besides the Satavahanas, several dynasties ruled southern India during this period, including the Cheras, Cholas, and Pandyas of the Sangam Age. They contributed to trade with Rome and Southeast Asia, built ports like Muziris and Puhar, and patronised Tamil literature and temple culture.",
+   "formula": "",
+   "key_idea": "The southern dynasties fostered maritime trade, Tamil literature, and early temple traditions, establishing the foundations of south Indian cultural and economic life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which dynasties ruled southern India during this period?",
+    "What were the major ports of southern India and their significance?",
+    "How did the southern dynasties contribute to trade?",
+    "What was the role of the Cholas in the Sangam Age?",
+    "Describe the cultural contributions of the southern dynasties."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the southern dynasties",
+     "explain": "The Cheras, Cholas, and Pandyas were the three major Tamil dynasties of the Sangam Age in southern India."
+    },
+    {
+     "step": 2,
+     "action": "Describe their trade contributions",
+     "explain": "They maintained ports like Muziris (on the Malabar coast) and Puhar (on the Coromandel coast), trading with Rome, China, and Southeast Asia in spices, pearls, and textiles."
+    },
+    {
+     "step": 3,
+     "action": "State their cultural contributions",
+     "explain": "They patronised Sangam literature, built early temples, and supported a society described in Tamil literary works."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name two important ports of southern India during this period.",
+     "solution": "Muziris on the Malabar (Kerala) coast and Puhar (Kaveripattinam) on the Coromandel coast were two important ports that handled international trade with Rome and Southeast Asia.",
+     "answer": "Muziris and Puhar (Kaveripattinam)."
+    },
+    {
+     "question": "What goods were exported from southern India during the Sangam Age?",
+     "solution": "Southern India exported spices (especially pepper), pearls, textiles, and precious stones to Rome, China, and Southeast Asia.",
+     "answer": "Spices, pearls, textiles, and precious stones."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the trade connections of the southern dynasties with the Roman world.",
+     "type": "analytical"
+    },
+    {
+     "question": "Explain the cultural contributions of the Chera, Chola, and Pandya dynasties.",
+     "type": "descriptive"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.6.8",
+   "title": "Cultural Developments in the Period",
+   "section": "Cultural and Intellectual Developments",
+   "definition": "The post-Mauryan period saw significant cultural developments including the growth of Sanskrit literature, the compilation of the Ramayana and Mahabharata, advances in astronomy and medicine, the emergence of new art forms, and the rise of Bhakti traditions that emphasised personal devotion to deities.",
+   "formula": "",
+   "key_idea": "The Age of Reorganisation was culturally vibrant, with developments in literature, science, art, and religion that shaped the course of Indian civilisation for centuries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the major literary developments in this period?",
+    "How did the epics Ramayana and Mahabharata take shape?",
+    "What advances were made in science and medicine?",
+    "What was the Bhakti movement and why did it emerge?",
+    "How did art and architecture develop during this period?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify literary developments",
+     "explain": "Sanskrit literature flourished with the compilation of the Ramayana and Mahabharata, and works by scholars like Ashvaghosha and Nagarjuna."
+    },
+    {
+     "step": 2,
+     "action": "Describe scientific advances",
+     "explain": "Astronomy and medicine advanced through scholars like Charaka (medicine) and the development of astronomical calculations."
+    },
+    {
+     "step": 3,
+     "action": "Explain the Bhakti tradition",
+     "explain": "The Bhakti movement emerged, emphasising personal devotion to Vishnu and Shiva, making religion more accessible to common people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the epics Ramayana and Mahabharata develop during this period?",
+     "solution": "During this period, the Ramayana and Mahabharata were compiled and expanded from oral traditions into their written Sanskrit forms, incorporating social, religious, and moral teachings.",
+     "answer": "They were compiled and expanded into written Sanskrit forms."
+    },
+    {
+     "question": "Who was Charaka and what was his contribution?",
+     "solution": "Charaka was a physician patronised by Kanishka. He wrote the Charaka Samhita, a foundational text of Ayurveda dealing with diagnosis, treatment, and medicinal plants.",
+     "answer": "A physician who wrote the Charaka Samhita, a key Ayurvedic text."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the emergence and significance of the Bhakti tradition in this period.",
+     "type": "analytical"
+    },
+    {
+     "question": "Discuss the major cultural and intellectual developments of the post-Mauryan period.",
+     "type": "descriptive"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

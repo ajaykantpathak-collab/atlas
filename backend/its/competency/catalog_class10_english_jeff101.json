@@ -1,0 +1,204 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 101,
+ "chapter_title": "A Letter to God: Faith, Hope and Human Kindness",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jeff101.txt",
+ "concepts": [
+  {
+   "id": "jeff.101.1.1",
+   "title": "Lencho's Hope and the Promise of Rain",
+   "section": "Part I",
+   "definition": "Lencho, a farmer who knows his fields intimately, waits for a downpour that will ripen his corn, and he reads the first fat raindrops as new coins promising a good harvest.",
+   "formula": "",
+   "key_idea": "The house on the crest of the low hill looks over the river and the field of ripe corn, setting up the contrast between hope and the coming disaster.",
+   "textbook_ref": "jeff101.txt lines 90-200",
+   "question_patterns": [
+    "what did lencho hope for",
+    "why did lencho say the raindrops were like new coins",
+    "describe the setting of lencho's house in the valley",
+    "how did lencho read the coming weather in the sky",
+    "why was the downpour important for lencho's field",
+    "what comparison did lencho draw between raindrops and money"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the setting",
+     "explain": "Confirm the solitary house on the crest of a low hill with the river and the field of ripe corn below."
+    },
+    {
+     "step": 2,
+     "action": "check the weather signs",
+     "explain": "Note Lencho watching the north-east sky for clouds and calling the falling drops new coins."
+    },
+    {
+     "step": 3,
+     "action": "verify the hope",
+     "explain": "Link the promised shower to a good harvest, which is exactly what Lencho hopes for."
+    }
+   ]
+  },
+  {
+   "id": "jeff.101.2.1",
+   "title": "The Hailstorm and the Ruined Crop",
+   "section": "Part I",
+   "definition": "The rain turns violent when a strong wind drives large hailstones that destroy the entire crop, leaving neither flower nor leaf on the corn, so Lencho faces a year without harvest.",
+   "formula": "",
+   "key_idea": "The locusts would have left more than the hail, Lencho says, and the field looks as if covered with salt, showing the completeness of the loss.",
+   "textbook_ref": "jeff101.txt lines 150-230",
+   "question_patterns": [
+    "how did the rain change and what happened to lencho's fields",
+    "what were lencho's feelings when the hail stopped",
+    "why did lencho compare the destroyed field to salt",
+    "describe the destruction caused by the hailstorm",
+    "what was the single hope left in lencho's house",
+    "how does the story show conflict between humans and nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the weather's turn",
+     "explain": "Follow the shift from sweet rain to strong wind and large hailstones."
+    },
+    {
+     "step": 2,
+     "action": "measure the loss",
+     "explain": "The hail covers the field as with salt, destroying flower, leaf and promise of harvest."
+    },
+    {
+     "step": 3,
+     "action": "identify the response",
+     "explain": "The family consoles itself that no one dies of hunger, and Lencho's single hope turns to help from God."
+    }
+   ]
+  },
+  {
+   "id": "jeff.101.3.1",
+   "title": "The Letter to God and the Postmaster's Reply",
+   "section": "Part II",
+   "definition": "Lencho writes a letter addressed simply 'To God', asking for a hundred pesos to sow the field again, and the postmaster answers it by collecting money from employees and friends to protect the farmer's faith.",
+   "formula": "",
+   "key_idea": "The postmaster signs the reply 'God' after gathering a little more than half the sum, an act of kindness meant to keep a man's belief alive.",
+   "textbook_ref": "jeff101.txt lines 230-330",
+   "question_patterns": [
+    "why did lencho write a letter to god",
+    "what did lencho ask for in his letter",
+    "how did the postmaster answer lencho's letter",
+    "why did the postmaster decide to reply to the letter",
+    "how much money did lencho request and why",
+    "what does the postmaster's act reveal about him"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the letter's contents",
+     "explain": "Lencho asks for a hundred pesos to resow the field and to live until the crop comes."
+    },
+    {
+     "step": 2,
+     "action": "follow the post office's response",
+     "explain": "The postmaster, first amused then moved, collects money from post office employees and sends it signed as God."
+    },
+    {
+     "step": 3,
+     "action": "judge the motive",
+     "explain": "The reply aims to protect Lencho's faith in God, showing the postmaster's amiable and generous nature."
+    }
+   ]
+  },
+  {
+   "id": "jeff.101.4.1",
+   "title": "Lencho's Anger and the Irony of 'Crooks'",
+   "section": "Part II",
+   "definition": "Lencho is neither surprised nor grateful; finding only seventy pesos, he blames post office employees as a bunch of crooks and asks God to send the rest without passing through their hands.",
+   "formula": "",
+   "key_idea": "The story ends in irony: the very people who helped Lencho are accused by him, showing his unquestioning but blind faith.",
+   "textbook_ref": "jeff101.txt lines 300-380",
+   "question_patterns": [
+    "was lencho surprised to find a letter with money",
+    "what made lencho angry at the end of the story",
+    "why did lencho call the post office employees crooks",
+    "how much money did lencho receive and what did he expect",
+    "explain the irony in the ending of a letter to god",
+    "what kind of a person is lencho"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the receipt of money",
+     "explain": "Lencho receives seventy pesos instead of the hundred he asked for, and shows no surprise at getting a reply from God."
+    },
+    {
+     "step": 2,
+     "action": "trace the blame",
+     "explain": "He attributes the missing thirty pesos to post office employees and demands the balance be sent by other means."
+    },
+    {
+     "step": 3,
+     "action": "weigh the irony",
+     "explain": "The helpers stand accused by the helped, exposing the blindness of unquestioning faith and the kindness of ordinary people."
+    }
+   ]
+  },
+  {
+   "id": "jeff.101.5.1",
+   "title": "Faith, Conflict and the Story's Message",
+   "section": "Talking about the text",
+   "definition": "The story poses the question of what faith we should place in things, contrasting Lencho's unquestioning faith in God with quiet human kindness, and it runs two conflicts at once: people against nature and people against people.",
+   "formula": "",
+   "key_idea": "Faith can move mountains, says the introduction, but the story gently asks whether that faith should rest in the divine alone or also in fellow humans.",
+   "textbook_ref": "jeff101.txt lines 1-20, 380-430",
+   "question_patterns": [
+    "describe the two kinds of conflict illustrated in the story",
+    "what is the message of a letter to god",
+    "are there people like lencho in the real world",
+    "how does the story question what we put our faith in",
+    "compare lencho's faith with the postmaster's kindness",
+    "why is the title a letter to god apt for the story"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the two conflicts",
+     "explain": "Nature ruins Lencho's crop, and human suspicion pits Lencho against the post office staff."
+    },
+    {
+     "step": 2,
+     "action": "read the theme of faith",
+     "explain": "Lencho's absolute faith in God drives the plot, while the postmaster's deed answers faith with human help."
+    },
+    {
+     "step": 3,
+     "action": "state the message",
+     "explain": "The story suggests that kindness of ordinary people often carries out the work that faith expects of heaven."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jeff101.txt lines 112-250",
+   "questions": [
+    "What did Lencho hope for?",
+    "Why did Lencho say the raindrops were like 'new coins'?",
+    "How did the rain change? What happened to Lencho's fields?",
+    "What were Lencho's feelings when the hail stopped?",
+    "Who or what did Lencho have faith in? What did he do?",
+    "Who read the letter?",
+    "Was Lencho surprised to find a letter for him with money in it?",
+    "What made him angry?",
+    "Why does the postmaster send money to Lencho? Why does he sign the letter 'God'?",
+    "Are there people like Lencho in the real world? What kind of a person would you say he is?",
+    "There are two kinds of conflict in the story: between humans and nature, and between humans themselves. How are these conflicts illustrated?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_001",
+   "title": "c7_math_ch06_001",
+   "questions": [
+    {
+     "q": "What is a number sequence?",
+     "a": "A number sequence is an ordered set of numbers arranged according to a specific rule. A student who thinks it is just any random group of numbers selected without order fails to understand that position and rule govern sequences.",
+     "self_check": true
+    },
+    {
+     "q": "In the sequence 3, 6, 9, 12, ..., a student says the rule is \"add 3 each time.\" Why is identifying this rule helpful for finding the 10th term without writing out all 10 terms?",
+     "a": "Identifying the rule allows us to use multiplication or a direct formula rather than tedious repeated addition, because the 10th term is just the starting number plus 3 added nine times ($3 + 9 \\times 3 = 30$). A student who believes you must write out every single number misses the power of mathematical rules for generalization.",
+     "self_check": true
+    },
+    {
+     "q": "Find the next two terms in the sequence: 4, 9, 14, 19, ..., ...",
+     "a": "Steps:\n1. Examine the given terms: 4, 9, 14, 19.\n2. Find the difference between consecutive terms: $9 - 4 = 5$, $14 - 9 = 5$, $19 - 14 = 5$.\n3. Conclude that the rule is to add 5 to the previous term.\n4. Calculate the next term: $19 + 5 = 24$.\n5. Calculate the term after that: $24 + 5 = 29$.\nAnswer: 24, 29. A student who subtracts instead of adds or gets 23 likely miscalculated the difference between 19 and 14.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequences $A: 2, 4, 6, 8, ...$ and $B: 2, 4, 8, 16, ...$. How do their rules differ in how they grow?",
+     "a": "Sequence A grows by adding a constant amount (+2 each time, arithmetic growth), whereas Sequence B grows by multiplying by a constant amount ($\\times 2$ each time, geometric growth). A student who claims both grow by the same rule is confusing addition with multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A student looks at the sequence 2, 5, 10, 17, 26 and claims the rule is \"add 3, then add 3, then add 3...\" Is this student correct? Verify by checking the differences.",
+     "a": "The student is incorrect. Let us check the differences between consecutive terms: $5 - 2 = 3$, $10 - 5 = 5$, $17 - 10 = 7$, $26 - 17 = 9$. The differences themselves form a sequence of odd numbers (3, 5, 7, 9), not a constant 3. A student who says \"add 3\" failed to check every step and only looked at the very first jump.",
+     "self_check": true
+    },
+    {
+     "q": "Create a number sequence of 5 terms where each term after the first is found by multiplying the previous term by 2 and then subtracting 1, starting with the number 3.",
+     "a": "The expected sequence is 3, 5, 9, 17, 33 (since $3 \\times 2 - 1 = 5$; $5 \\times 2 - 1 = 9$; $9 \\times 2 - 1 = 17$; $17 \\times 2 - 1 = 33$). A poor answer shows arithmetic addition instead of multiplication or incorrect order of operations (e.g., subtracting first then multiplying).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 309,
+ "chapter_title": "Urban Livelihoods",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec105.txt",
+ "concepts": [
+  {
+   "id": "fess.309.1.1",
+   "title": "Street Vending and Self-Employment",
+   "section": "Working on the Street",
+   "definition": "Individuals who manage their own small-scale trade or services on city roadsides using temporary setups, carts, or pavement space.",
+   "formula": "total_workers = street_workers + other_workers",
+   "key_idea": "Self-managed work with no employer and temporary physical structures.",
+   "textbook_ref": "fess309.txt lines 77-95",
+   "question_patterns": [
+    "Describe the nature of work for street vendors",
+    "How do street workers organize their own business?",
+    "What kind of shops do people set up on the pavement?",
+    "Why do street vendors have no job security?",
+    "What percentage of city workers are street vendors in some surveys?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the employment type",
+     "explain": "Street vendors are self-employed and do not have an employer."
+    },
+    {
+     "step": 2,
+     "action": "Describe the shop structure",
+     "explain": "Shops are often temporary, such as boards on boxes or canvas sheets."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.1.2",
+   "title": "Calculating Net Daily Savings",
+   "section": "Bachchu Manjhi - A Cycle-Rickshaw Puller",
+   "definition": "The amount of money remaining with a worker after deducting daily living costs like food and rent from their total daily earnings.",
+   "formula": "net_savings = daily_earnings - daily_expenses",
+   "key_idea": "The surplus income available to a worker for family support or future use.",
+   "textbook_ref": "fess309.txt lines 105-125",
+   "question_patterns": [
+    "How much does a worker save if they earn {daily_earnings} and spend {daily_expenses}?",
+    "Calculate the daily savings of a rickshaw puller earning {daily_earnings} with costs of {daily_expenses}",
+    "What is the net amount left for the family if daily income is {daily_earnings} and expenses are {daily_expenses}?",
+    "Find the remaining money after a worker spends {daily_expenses} out of {daily_earnings}",
+    "Determine the daily surplus for a worker earning {daily_earnings} and paying {daily_expenses} for rent and food"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract expenses from earnings",
+     "explain": "The net savings is the difference between total daily income and total daily costs.",
+     "compute": "net_savings = daily_earnings - daily_expenses"
+    }
+   ]
+  },
+  {
+   "id": "fess.309.1.3",
+   "title": "Legal Recognition of Hawkers",
+   "section": "Working on the Street",
+   "definition": "The policy shift recognizing street vending as a legitimate right to livelihood rather than just a traffic obstruction.",
+   "formula": "none",
+   "key_idea": "Balancing the right to earn a living with the need for smooth traffic flow through hawking zones.",
+   "textbook_ref": "fess309.txt lines 150-165",
+   "question_patterns": [
+    "What are hawking zones?",
+    "How has the government's view on street vending changed?",
+    "What rights do street vendors have according to new suggestions?",
+    "Why should hawkers be part of decision-making committees?",
+    "What was street vending previously considered by authorities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the legal status",
+     "explain": "Vending is now recognized as a general benefit and a right to earn a livelihood."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.2.1",
+   "title": "Permanent Market Shops",
+   "section": "In the Market",
+   "definition": "Established retail businesses in designated market areas that hold municipal licenses and often hire supervisors and helpers.",
+   "formula": "none",
+   "key_idea": "Regulated commerce in fixed locations with formal licensing and staff management.",
+   "textbook_ref": "fess309.txt lines 190-215",
+   "question_patterns": [
+    "How do permanent shops in the market differ from street stalls?",
+    "What is the role of the Municipal Corporation in city markets?",
+    "What do businesspersons like Harpreet and Vandana do to run their showroom?",
+    "Who gives the license to permanent shops to do business?",
+    "Why do permanent shops employ supervisors and helpers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check licensing",
+     "explain": "Permanent shops must be given a license by the municipal corporation."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.1",
+   "title": "Labour Chowk and Daily Wage Work",
+   "section": "In the Factory-Workshop Area",
+   "definition": "A specific location in a city where daily wage labourers gather to be hired by contractors for manual tasks.",
+   "formula": "none",
+   "key_idea": "Informal assembly point for casual workers seeking manual labor opportunities.",
+   "textbook_ref": "fess309.txt lines 235-250",
+   "question_patterns": [
+    "What is a labour chowk?",
+    "What kind of work do people at the labour chowk do?",
+    "Who are daily wage labourers?",
+    "Where do casual workers wait for work in the city?",
+    "List the tasks performed by workers hired at a labour chowk"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the location",
+     "explain": "Labour chowk is a crossing where workers wait with tools for employers."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.2",
+   "title": "Casual Employment and Job Insecurity",
+   "section": "In the Factory-Workshop Area",
+   "definition": "A work arrangement where employees are hired on a temporary basis, usually during peak seasons, without long-term contracts or benefits.",
+   "formula": "none",
+   "key_idea": "Employment that lacks stability and depends entirely on the employer's immediate needs.",
+   "textbook_ref": "fess309.txt lines 275-300",
+   "question_patterns": [
+    "What does it mean to be employed on a casual basis?",
+    "Why is there no job security for workers like Nirmala?",
+    "When are casual workers usually asked to leave?",
+    "Describe the working conditions in casual factory units",
+    "What happens to casual workers when the work season ends?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define casual basis",
+     "explain": "Workers are required to come only as and when the employer needs them."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.3.3",
+   "title": "Total Daily Factory Wages",
+   "section": "In the Factory-Workshop Area",
+   "definition": "The total compensation a factory worker receives for a day, including their base pay for standard hours and extra pay for overtime.",
+   "formula": "total_daily_wage = standard_rate + overtime_rate",
+   "key_idea": "Summing regular pay and additional incentives for extra work hours.",
+   "textbook_ref": "fess309.txt lines 270-280",
+   "question_patterns": [
+    "Calculate the total daily pay if standard rate is {standard_rate} and overtime is {overtime_rate}",
+    "What is the total wage for a worker earning {standard_rate} base and {overtime_rate} extra?",
+    "Find the daily income of a tailor with {standard_rate} pay and {overtime_rate} for late work",
+    "How much does Nirmala earn in a day if she gets {standard_rate} for 8 hours and {overtime_rate} for extra hours?",
+    "Determine the total daily earnings given a base of {standard_rate} and overtime of {overtime_rate}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add base pay and overtime",
+     "explain": "The total daily wage is the sum of the standard daily rate and the overtime payment.",
+     "compute": "total_daily_wage = standard_rate + overtime_rate"
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.1",
+   "title": "Regular and Permanent Employment",
+   "section": "In the office area",
+   "definition": "Stable jobs in offices or government departments where workers receive a regular monthly salary and have long-term job security.",
+   "formula": "none",
+   "key_idea": "Consistent employment with a fixed workplace and predictable income.",
+   "textbook_ref": "fess309.txt lines 325-350",
+   "question_patterns": [
+    "What are the features of a permanent job?",
+    "How is a regular worker different from a casual worker?",
+    "Why do permanent workers have more security?",
+    "What kind of work does a marketing manager like Sudha do?",
+    "Describe the benefits of being a regular employee"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify job stability",
+     "explain": "Permanent workers can expect their job to continue for a long period."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.2",
+   "title": "Social Security and Employee Benefits",
+   "section": "In the office area",
+   "definition": "Additional financial and health protections provided to permanent workers, such as provident funds, medical insurance, and paid leave.",
+   "formula": "none",
+   "key_idea": "Non-wage compensation that supports a worker's health and retirement.",
+   "textbook_ref": "fess309.txt lines 335-345",
+   "question_patterns": [
+    "What benefits does Sudha get along with her salary?",
+    "Explain the concept of savings for old age in permanent jobs",
+    "What is medical leave in the context of regular employment?",
+    "How do holidays work for permanent office employees?",
+    "What happens to the part of the salary kept with the government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List benefits",
+     "explain": "Benefits include old age savings (PF), holidays, and medical facilities."
+    }
+   ]
+  },
+  {
+   "id": "fess.309.4.3",
+   "title": "Call Centres in Big Cities",
+   "section": "In the office area",
+   "definition": "Centralized offices equipped with computers and telephones to handle consumer queries and services for domestic or foreign companies.",
+   "formula": "none",
+   "key_idea": "A modern form of urban employment providing services via telecommunication.",
+   "textbook_ref": "fess309.txt lines 315-325",
+   "question_patterns": [
+    "What is a call centre?",
+    "Why do foreign companies set up call centres in India?",
+    "What kind of services do call centres provide?",
+    "Describe the setup of a typical call centre workstation",
+    "Why is call centre work considered a new form of employment?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the function",
+     "explain": "Call centres deal with problems and questions regarding goods and services."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess309.txt lines 115-120",
+   "concept": "fess.309.1.2",
+   "question_type": "compute",
+   "question_pattern": "Bachchu Manjhi earns {daily_earnings} every day and spends {daily_expenses} on his food and rent. How much does he save daily?",
+   "extracted_variables": {
+    "daily_earnings": 250,
+    "daily_expenses": 120
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract expenses from earnings",
+     "explain": "Savings = Earnings - Expenses",
+     "compute": "net_savings = daily_earnings - daily_expenses"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess309.txt lines 115-120",
+   "concept": "fess.309.1.2",
+   "question_type": "compute",
+   "question_pattern": "A street worker has a daily income of {daily_earnings} and daily costs of {daily_expenses}. Calculate the net savings.",
+   "extracted_variables": {
+    "daily_earnings": 300,
+    "daily_expenses": 150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract expenses from earnings",
+     "explain": "Savings = Earnings - Expenses",
+     "compute": "net_savings = daily_earnings - daily_expenses"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fess309.txt lines 278-280",
+   "concept": "fess.309.3.3",
+   "question_type": "compute",
+   "question_pattern": "Nirmala is paid {standard_rate} for a normal day and {overtime_rate} extra for working late. What is her total daily wage?",
+   "extracted_variables": {
+    "standard_rate": 280,
+    "overtime_rate": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add base pay and overtime",
+     "explain": "Total Wage = Standard Rate + Overtime Rate",
+     "compute": "total_daily_wage = standard_rate + overtime_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fess309.txt lines 278-280",
+   "concept": "fess.309.3.3",
+   "question_type": "compute",
+   "question_pattern": "A factory worker receives a base pay of {standard_rate} and an additional {overtime_rate} for urgent work. Find the total earnings for that day.",
+   "extracted_variables": {
+    "standard_rate": 300,
+    "overtime_rate": 120
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add base pay and overtime",
+     "explain": "Total Wage = Standard Rate + Overtime Rate",
+     "compute": "total_daily_wage = standard_rate + overtime_rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.2",
+   "source_ref": "fess309.txt line 365",
+   "questions": [
+    "Complete the table comparing Bachchu Manjhi, Harpreet/Vandana, Nirmala, and Sudha on earnings and security.",
+    "In what ways is a permanent and regular job different from a casual job?",
+    "What benefits does Sudha get along with her salary?",
+    "Fill in a table showing services provided by people in the markets you visit."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

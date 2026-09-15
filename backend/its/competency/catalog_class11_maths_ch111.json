@@ -1,0 +1,607 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 111,
+ "chapter_title": "Introduction to Three Dimensional Geometry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh111.txt",
+ "concepts": [
+  {
+   "id": "kemh.11.2.1",
+   "title": "Octants and Coordinate Planes in 3D Space",
+   "section": "11.2",
+   "definition": "Three-dimensional space is partitioned into eight regions called octants by three mutually perpendicular planes passing through the origin.",
+   "formula": "octant_sign_rules",
+   "key_idea": "The signs of the x, y, and z coordinates uniquely identify the octant containing a given point.",
+   "textbook_ref": "kemh111.txt lines 15-45",
+   "question_patterns": [
+    "name the octant in which the point lies",
+    "find the octant of the point",
+    "in which octant does the point lie",
+    "determine the octant for given coordinates",
+    "Explain the method of Octants and Coordinate Planes in 3D Space."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check coordinate signs",
+     "explain": "Examine the signs of x, y, and z coordinates to match against the octant sign table."
+    },
+    {
+     "step": 2,
+     "action": "match the sign pattern to the octant table",
+     "explain": "Compare the ordered triple of signs (+/-, +/-, +/-) with the eight octant sign rules to find the matching region."
+    },
+    {
+     "step": 3,
+     "action": "name the octant based on the matched sign combination",
+     "explain": "State the octant name corresponding to the identified sign pattern, confirming the point's region in 3D space."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.3.1",
+   "title": "Coordinates on Axes and Coordinate Planes",
+   "section": "11.3",
+   "definition": "Points located on coordinate axes have two zero coordinates, while points lying within coordinate planes have at least one zero coordinate.",
+   "formula": "x_axis = (x, 0, 0), y_axis = (0, y, 0), z_axis = (0, 0, z), xy_plane = (x, y, 0)",
+   "key_idea": "Coordinates perpendicular to a plane or axis vanish for points lying on them.",
+   "textbook_ref": "kemh111.txt lines 47-85",
+   "question_patterns": [
+    "a point lies on the x-axis, what are its y and z coordinates",
+    "find coordinates of a point on a coordinate plane",
+    "what can be said about coordinates of a point in XZ plane",
+    "determine coordinates of projection on coordinate planes",
+    "Explain the method of Coordinates on Axes and Coordinate Planes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify zero coordinates",
+     "explain": "Set coordinates corresponding to perpendicular directions equal to zero."
+    },
+    {
+     "step": 2,
+     "action": "identify which axis or plane the point lies on",
+     "explain": "Determine from the zero pattern whether the point lies on the x-axis, y-axis, z-axis, or one of the coordinate planes."
+    },
+    {
+     "step": 3,
+     "action": "state the remaining non-zero coordinates",
+     "explain": "Report the coordinates that are free to vary along the identified axis or within the identified plane."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.1",
+   "title": "Distance Between Two Points in 3D Space",
+   "section": "11.4",
+   "definition": "The straight-line separation between two points in three-dimensional Cartesian space computed using the 3D Euclidean metric.",
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2)",
+   "key_idea": "Extends the Pythagorean distance formula from two to three dimensions.",
+   "textbook_ref": "kemh111.txt lines 87-118",
+   "question_patterns": [
+    "find the distance between two points",
+    "calculate distance between points in 3D space",
+    "what is the distance between given points",
+    "compute the length of line segment joining two points",
+    "Explain the method of Distance Between Two Points in 3D Space."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute x coordinate difference",
+     "explain": "Subtract x1 from x2",
+     "compute": "x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate difference",
+     "explain": "Subtract y1 from y2",
+     "compute": "y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate difference",
+     "explain": "Subtract z1 from z2",
+     "compute": "z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "sum squared differences",
+     "explain": "Add squares of dx, dy, and dz",
+     "compute": "dx**2 + dy**2 + dz**2"
+    },
+    {
+     "step": 5,
+     "action": "take square root",
+     "explain": "Take square root of dist_sq to obtain final distance",
+     "compute": "sqrt(dist_sq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving distance between two points in 3d space.",
+     "solution": "Step 1: compute x coordinate difference. Step 2: compute y coordinate difference. Step 3: compute z coordinate difference. Step 4: sum squared differences. Step 5: take square root. Working: x2 - x1, y2 - y1, z2 - z1, dx**2 + dy**2 + dz**2, sqrt(dist_sq).",
+     "answer": "Distance Between Two Points in 3D Space applied step by step gives the required result."
+    },
+    {
+     "question": "Apply distance between two points in 3d space to a fresh example and interpret the result.",
+     "solution": "Step 1: compute x coordinate difference. Step 2: compute y coordinate difference. Step 3: compute z coordinate difference. Step 4: sum squared differences. Step 5: take square root. Working: x2 - x1, y2 - y1, z2 - z1, dx**2 + dy**2 + dz**2, sqrt(dist_sq).",
+     "answer": "The method of distance between two points in 3d space leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.2",
+   "title": "Distance of a Point from the Origin",
+   "section": "11.4",
+   "definition": "The distance from the origin (0, 0, 0) to a point in three-dimensional space.",
+   "formula": "distance = sqrt(x**2 + y**2 + z**2)",
+   "key_idea": "Calculates the magnitude of a point's position vector relative to the origin.",
+   "textbook_ref": "kemh111.txt lines 112-118",
+   "question_patterns": [
+    "find the distance of a point from origin",
+    "calculate distance from origin to point",
+    "what is the distance of point from origin",
+    "Explain the method of Distance of a Point from the Origin.",
+    "Describe the approach of Distance of a Point from the Origin."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum squares of coordinates",
+     "explain": "Square each coordinate and add them",
+     "compute": "x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Square root of sum gives distance from origin",
+     "compute": "sqrt(dist_sq)"
+    },
+    {
+     "step": 3,
+     "action": "verify the distance equals the magnitude of the position vector",
+     "explain": "Confirm that the computed distance matches the length of the vector from the origin to the point (x, y, z).",
+     "compute": "distance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving distance of a point from the origin.",
+     "solution": "Step 1: sum squares of coordinates. Step 2: take square root. Step 3: verify the distance equals the magnitude of the position vector. Working: x**2 + y**2 + z**2, sqrt(dist_sq), distance.",
+     "answer": "Distance of a Point from the Origin applied step by step gives the required result."
+    },
+    {
+     "question": "Apply distance of a point from the origin to a fresh example and interpret the result.",
+     "solution": "Step 1: sum squares of coordinates. Step 2: take square root. Step 3: verify the distance equals the magnitude of the position vector. Working: x**2 + y**2 + z**2, sqrt(dist_sq), distance.",
+     "answer": "The method of distance of a point from the origin leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.3",
+   "title": "Collinearity of Three Points in 3D Space",
+   "section": "11.4",
+   "definition": "Three points in space are collinear if the sum of the distances between two pairs of points equals the distance between the outermost pair.",
+   "formula": "AB + BC = AC",
+   "key_idea": "Linear alignment of points is confirmed when segment lengths satisfy the triangle equality condition.",
+   "textbook_ref": "kemh111.txt lines 124-135",
+   "question_patterns": [
+    "show that three points are collinear",
+    "verify if three points lie on a single line",
+    "check whether points are collinear using distance formula",
+    "Explain the method of Collinearity of Three Points in 3D Space.",
+    "Describe the approach of Collinearity of Three Points in 3D Space."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate pairwise segment lengths",
+     "explain": "Use the 3D distance formula to find lengths AB, BC, and AC."
+    },
+    {
+     "step": 2,
+     "action": "verify segment sum equality",
+     "explain": "Check if sum of two smaller distances equals the largest distance."
+    },
+    {
+     "step": 3,
+     "action": "conclude collinearity if the equality holds",
+     "explain": "If AB + BC = AC (or equivalent), the three points lie on a single straight line; otherwise they are non-collinear."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.4",
+   "title": "Geometric Classification of Triangles and Polygons",
+   "section": "11.4",
+   "definition": "Using 3D side lengths and diagonal lengths to verify geometric shapes like isosceles triangles, right triangles, or parallelograms.",
+   "formula": "AB**2 + BC**2 = AC**2 (Right Triangle); AB = CD and BC = DA (Parallelogram)",
+   "key_idea": "Geometric shapes in 3D are categorized by structural constraints on side and diagonal lengths.",
+   "textbook_ref": "kemh111.txt lines 136-160, 175-195",
+   "question_patterns": [
+    "verify if points form vertices of a right angled triangle",
+    "show that points are vertices of an isosceles triangle",
+    "show that points form a parallelogram but not a rectangle",
+    "check geometric shape formed by given 3D vertices",
+    "Explain the method of Geometric Classification of Triangles and Polygons."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate side lengths",
+     "explain": "Compute squared distances between all relevant pairs of vertices."
+    },
+    {
+     "step": 2,
+     "action": "verify geometric properties",
+     "explain": "Check Pythagorean condition for right triangle, side equality for isosceles/parallelogram, or diagonal equality for rectangle."
+    },
+    {
+     "step": 3,
+     "action": "classify the shape based on the verified properties",
+     "explain": "Conclude whether the vertices form an isosceles triangle, right triangle, parallelogram, rectangle, or other polygon from the satisfied conditions."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.4.5",
+   "title": "Locus Equation satisfying Distance Conditions",
+   "section": "11.4",
+   "definition": "An algebraic equation describing the spatial path or surface of a moving point subject to given geometric distance rules.",
+   "formula": "PA**2 + PB**2 = k**2 or PA = PB",
+   "key_idea": "Translate given distance constraints into standard Cartesian equations in x, y, and z.",
+   "textbook_ref": "kemh111.txt lines 161-174, 196-205",
+   "question_patterns": [
+    "find the equation of set of points equidistant from two points",
+    "find equation of set of points P such that PA**2 + PB**2 = 2k**2",
+    "determine locus equation for points satisfying distance condition",
+    "Explain the method of Locus Equation satisfying Distance Conditions.",
+    "Describe the approach of Locus Equation satisfying Distance Conditions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express distance condition algebraically",
+     "explain": "Write expressions for distances PA and PB using unknown point P(x, y, z)."
+    },
+    {
+     "step": 2,
+     "action": "simplify equation",
+     "explain": "Expand squared terms and combine like terms to obtain polynomial equation in x, y, z."
+    },
+    {
+     "step": 3,
+     "action": "state the final locus equation in standard form",
+     "explain": "Present the simplified equation as the locus describing all points P(x, y, z) satisfying the given distance condition."
+    }
+   ]
+  },
+  {
+   "id": "kemh.11.M.1",
+   "title": "Centroid of a Triangle in 3D Space",
+   "section": "11.4",
+   "definition": "The intersection point of medians of a triangle in three dimensions, calculated as the mean of its vertex coordinates.",
+   "formula": "centroid = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3, (z1 + z2 + z3)/3)",
+   "key_idea": "The centroid coordinates are arithmetic averages of corresponding vertex coordinates.",
+   "textbook_ref": "kemh111.txt lines 206-225",
+   "question_patterns": [
+    "find the centroid of a triangle with given vertices",
+    "calculate coordinates of centroid of triangle",
+    "given centroid find the missing vertex of triangle",
+    "determine centroid coordinates in 3D space",
+    "Explain the method of Centroid of a Triangle in 3D Space."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute x coordinate of centroid",
+     "explain": "Average x coordinates of three vertices",
+     "compute": "(x1 + x2 + x3) / 3"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate of centroid",
+     "explain": "Average y coordinates of three vertices",
+     "compute": "(y1 + y2 + y3) / 3"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate of centroid",
+     "explain": "Average z coordinates of three vertices",
+     "compute": "(z1 + z2 + z3) / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving centroid of a triangle in 3d space.",
+     "solution": "Step 1: compute x coordinate of centroid. Step 2: compute y coordinate of centroid. Step 3: compute z coordinate of centroid. Working: (x1 + x2 + x3) / 3, (y1 + y2 + y3) / 3, (z1 + z2 + z3) / 3.",
+     "answer": "Centroid of a Triangle in 3D Space applied step by step gives the required result."
+    },
+    {
+     "question": "Apply centroid of a triangle in 3d space to a fresh example and interpret the result.",
+     "solution": "Step 1: compute x coordinate of centroid. Step 2: compute y coordinate of centroid. Step 3: compute z coordinate of centroid. Working: (x1 + x2 + x3) / 3, (y1 + y2 + y3) / 3, (z1 + z2 + z3) / 3.",
+     "answer": "The method of centroid of a triangle in 3d space leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh111.txt lines 119-123",
+   "concept": "kemh.11.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points P({x1}, {y1}, {z1}) and Q({x2}, {y2}, {z2}).",
+   "extracted_variables": {
+    "x1": 1,
+    "y1": -3,
+    "z1": 4,
+    "x2": -4,
+    "y2": 1,
+    "z2": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coordinate difference",
+     "explain": "Subtract x1 from x2",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate difference",
+     "explain": "Subtract y1 from y2",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate difference",
+     "explain": "Subtract z1 from z2",
+     "compute": "dz = z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "sum squared differences",
+     "explain": "Add squares of dx, dy, and dz",
+     "compute": "dist_sq = dx**2 + dy**2 + dz**2"
+    },
+    {
+     "step": 5,
+     "action": "take square root",
+     "explain": "Take square root of dist_sq to obtain final distance",
+     "compute": "distance = sqrt(dist_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh111.txt lines 206-220",
+   "concept": "kemh.11.M.1",
+   "question_type": "compute",
+   "question_pattern": "Find the centroid of a triangle with vertices A({x1}, {y1}, {z1}), B({x2}, {y2}, {z2}), and C({x3}, {y3}, {z3}).",
+   "extracted_variables": {
+    "x1": 3,
+    "y1": -5,
+    "z1": 7,
+    "x2": -1,
+    "y2": 7,
+    "z2": -6,
+    "x3": 1,
+    "y3": 1,
+    "z3": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coordinate of centroid",
+     "explain": "Average x coordinates of three vertices",
+     "compute": "cx = (x1 + x2 + x3) / 3"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate of centroid",
+     "explain": "Average y coordinates of three vertices",
+     "compute": "cy = (y1 + y2 + y3) / 3"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate of centroid",
+     "explain": "Average z coordinates of three vertices",
+     "compute": "cz = (z1 + z2 + z3) / 3"
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.11.4.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Distance Between Two Points in 3D Space chain with x2 = 2, x1 = 3, y2 = 5, y1 = 4, z2 = 7, z1 = 1.5, dz = 6, dx = 8, dy = 2, sqrt = 3, dist_sq = 5. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "y2": "5",
+    "y1": "4",
+    "z2": "7",
+    "z1": "1.5",
+    "dz": "6",
+    "dx": "8",
+    "dy": "2",
+    "sqrt": "3",
+    "dist_sq": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coordinate difference",
+     "explain": "Subtract x1 from x2",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate difference",
+     "explain": "Subtract y1 from y2",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate difference",
+     "explain": "Subtract z1 from z2",
+     "compute": "dz = z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "sum squared differences",
+     "explain": "Add squares of dx, dy, and dz",
+     "compute": "dist_sq = dx**2 + dy**2 + dz**2"
+    },
+    {
+     "step": 5,
+     "action": "take square root",
+     "explain": "Take square root of dist_sq to obtain final distance",
+     "compute": "distance = sqrt(dist_sq)"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.11.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Distance of a Point from the Origin chain with z = 2, x = 3, y = 5, sqrt = 4, dist_sq = 7. What value does it produce?",
+   "extracted_variables": {
+    "z": "2",
+    "x": "3",
+    "y": "5",
+    "sqrt": "4",
+    "dist_sq": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum squares of coordinates",
+     "explain": "Square each coordinate and add them",
+     "compute": "dist_sq = x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Square root of sum gives distance from origin",
+     "compute": "distance = sqrt(dist_sq)"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.11.4.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Distance of a Point from the Origin chain with z = 2, x = 3, y = 5, sqrt = 4, dist_sq = 7. What value does it produce?",
+   "extracted_variables": {
+    "z": "2",
+    "x": "3",
+    "y": "5",
+    "sqrt": "4",
+    "dist_sq": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum squares of coordinates",
+     "explain": "Square each coordinate and add them",
+     "compute": "dist_sq = x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Square root of sum gives distance from origin",
+     "compute": "distance = sqrt(dist_sq)"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.11.M.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Centroid of a Triangle in 3D Space chain with x3 = 2, x1 = 3, x2 = 5, y3 = 4, y1 = 7, y2 = 1.5, z3 = 6, z1 = 8, z2 = 2. What value does it produce?",
+   "extracted_variables": {
+    "x3": "2",
+    "x1": "3",
+    "x2": "5",
+    "y3": "4",
+    "y1": "7",
+    "y2": "1.5",
+    "z3": "6",
+    "z1": "8",
+    "z2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x coordinate of centroid",
+     "explain": "Average x coordinates of three vertices",
+     "compute": "cx = (x1 + x2 + x3) / 3"
+    },
+    {
+     "step": 2,
+     "action": "compute y coordinate of centroid",
+     "explain": "Average y coordinates of three vertices",
+     "compute": "cy = (y1 + y2 + y3) / 3"
+    },
+    {
+     "step": 3,
+     "action": "compute z coordinate of centroid",
+     "explain": "Average z coordinates of three vertices",
+     "compute": "cz = (z1 + z2 + z3) / 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "kemh111.txt lines 71-85",
+   "questions": [
+    "A point is on the x-axis. What are its y-coordinate and z-coordinates?",
+    "A point is in the XZ-plane. What can you say about its y-coordinate?",
+    "Name the octants in which the following points lie: (1, 2, 3), (4, -2, 3), (4, -2, -5), (4, 2, -5), (-4, 2, -5), (-4, 2, 5), (-3, -1, 6), (-2, -4, -7).",
+    "Fill in the blanks: (i) The x-axis and y-axis taken together determine a plane known as _______. (ii) The coordinates of points in the XY-plane are of the form _______. (iii) Coordinate planes divide the space into ______ octants."
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "kemh111.txt lines 165-180",
+   "questions": [
+    "Find the distance between the following pairs of points: (i) (2, 3, 5) and (4, 3, 1), (ii) (-3, 7, 2) and (2, 4, -1), (iii) (-1, 3, -4) and (1, -3, 4), (iv) (2, -1, 3) and (-2, 1, 3).",
+    "Show that the points (-2, 3, 5), (1, 2, 3) and (7, 0, -1) are collinear.",
+    "Verify the following: (i) (0, 7, -10), (1, 6, -6) and (4, 9, -6) are the vertices of an isosceles triangle. (ii) (0, 7, 10), (-1, 6, 6) and (-4, 9, 6) are the vertices of a right angled triangle. (iii) (-1, 2, 1), (1, -2, 5), (4, -7, 8) and (2, -3, 4) are the vertices of a parallelogram.",
+    "Find the equation of the set of points which are equidistant from the points (1, 2, 3) and (3, 2, -1).",
+    "Find the equation of the set of points P, the sum of whose distances from A (4, 0, 0) and B (-4, 0, 0) is equal to 10."
+   ]
+  },
+  {
+   "id": "ex11.misc",
+   "source_ref": "kemh111.txt lines 221-235",
+   "questions": [
+    "Three vertices of a parallelogram ABCD are A(3, -1, 2), B(1, 2, -4) and C(-1, 1, 2). Find the coordinates of the fourth vertex.",
+    "Find the lengths of the medians of the triangle with vertices A(0, 0, 6), B(0, 4, 0) and C(6, 0, 0).",
+    "If the origin is the centroid of the triangle PQR with vertices P(2a, 2, 6), Q(-4, 3b, -10) and R(8, 14, 2c), then find the values of a, b and c.",
+    "If A and B be the points (3, 4, 5) and (-1, 3, -7), respectively, find the equation of the set of points P such that PA**2 + PB**2 = k**2, where k is a constant."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

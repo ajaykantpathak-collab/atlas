@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu104.json",
+ "concepts": [
+  {
+   "id": "fecu.4.1",
+   "title": "Magnetic and Non-magnetic Materials",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are magnetic materials? Give two examples.",
+     "a": "Materials a magnet attracts - iron and nickel (also cobalt, steel).",
+     "self_check": true
+    },
+    {
+     "q": "Name two things at home that magnets can pick.",
+     "a": "Iron nails and steel pins (paper clips too).",
+     "self_check": true
+    },
+    {
+     "q": "Which everyday materials do magnets ignore?",
+     "a": "Plastic, wood, glass, paper - non-magnetic materials.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.2",
+   "title": "Poles of a Magnet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the poles of a magnet?",
+     "a": "The two ends of a magnet where its pull is strongest - north and south poles.",
+     "self_check": true
+    },
+    {
+     "q": "Where on a magnet is the attraction weakest?",
+     "a": "At its middle - filings barely stick there.",
+     "self_check": true
+    },
+    {
+     "q": "How can you find the poles of an unmarked magnet?",
+     "a": "Hang it freely - the end pointing north is its north pole.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.3",
+   "title": "Finding Directions with a Compass",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a compass and what is it used for?",
+     "a": "A freely pivoted magnetic needle in a case that shows the north-south direction.",
+     "self_check": true
+    },
+    {
+     "q": "How does a compass needle help a traveller?",
+     "a": "Its north-pointing end fixes direction; other directions follow from it.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to a compass near a magnet?",
+     "a": "The needle gets deflected by the nearby magnet's force.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.4.4",
+   "title": "Attraction and Repulsion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the rule of attraction and repulsion between poles.",
+     "a": "Like poles repel each other; unlike poles attract.",
+     "self_check": true
+    },
+    {
+     "q": "Two magnets push each other away. What does that show?",
+     "a": "Their facing poles are alike (both north or both south).",
+     "self_check": true
+    },
+    {
+     "q": "How can two magnets hold a cupboard door shut?",
+     "a": "Unlike poles face each other, and the attraction keeps the door closed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

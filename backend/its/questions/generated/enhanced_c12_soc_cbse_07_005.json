@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_005",
+   "title": "c12_soc_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a questionnaire and an interview schedule in terms of administration and researcher presence?",
+     "a": "A questionnaire is self-administered by the respondent (written or online) without the researcher present, while an interview schedule is administered by the researcher in person (or via phone/video) who reads questions and records answers. A wrong answer (e.g., \"both are the same\" or \"questionnaire is always longer\") reveals confusion about researcher role and mode of administration, leading to incorrect method selection in project design.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a researcher would include both closed-ended (e.g., Likert scale) and open-ended questions in the same questionnaire, and give one concrete example of each for a study on \"student perceptions of online coaching classes\".",
+     "a": "Closed-ended questions provide quantifiable, comparable data for statistical analysis (e.g., \"On a scale of 1-5, how satisfied are you with online coaching?\"), while open-ended questions capture unexpected nuances and respondent language (e.g., \"What is the one thing you would change about your online coaching experience?\"). A wrong answer that only values one type shows inability to triangulate breadth and depth, a core principle in mixed-method tool design.",
+     "self_check": true
+    },
+    {
+     "q": "You are designing an interview schedule for a study on \"gendered division of household chores among working couples\". The research question is: \"How do dual-income couples negotiate domestic labour?\" Write the first three questions in sequence, justifying the order using the funnel principle.",
+     "a": "1. \"Can you describe a typical weekday routine in your household from morning to night?\" (broad, non-threatening, builds rapport)  \n2. \"Who usually does tasks like cooking, cleaning, laundry, and childcare on weekdays?\" (specific behavioural mapping)  \n3. \"Have there been disagreements about chore division? How were they resolved?\" (sensitive, requires trust).  \nWrong sequencing (e.g., starting with conflicts) causes defensiveness and social desirability bias, violating the funnel principle of moving from general to specific to sensitive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the observation guide for \"student behaviour in school library\" with one for \"vendor-customer interactions at a weekly market\". Identify two structural differences in their category systems and explain why each difference is necessitated by the setting.",
+     "a": "Library guide uses discrete, low-frequency categories (e.g., \"browsing shelves\", \"reading at table\", \"using computer\", \"talking quietly\") with duration recording because behaviour is sedentary and prolonged. Market guide uses high-frequency, interaction-focused categories (e.g., \"price negotiation\", \"product inspection\", \"payment\", \"walking away\") with event counting because behaviour is mobile, transactional, and rapid. A wrong answer that uses identical categories ignores context-specific behavioural ecology, producing invalid data.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this questionnaire item: \"Don't you think the new education policy will ruin students' creativity?\" Identify the specific design flaw, explain its consequence, and rewrite it correctly.",
+     "a": "Flaw: Leading/loaded question with negative presupposition (\"ruin\") and tag question (\"Don't you think\") that pressures agreement. Consequence: Acquiescence bias — respondents agree to appear cooperative, inflating negative responses. Corrected: \"What is your opinion on the impact of the new education policy on student creativity? (Very positive / Positive / Neutral / Negative / Very negative)\" with an optional open follow-up. A wrong answer that misses the leading nature shows inability to detect wording bias, a major threat to validity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini observation guide (5 behavioural categories + 1 context field) for studying \"how elderly people use public parks in your neighbourhood\". Include coding rules for each category.",
+     "a": "Categories: (1) Physical activity: walking/jogging, yoga/exercise, sitting/standing still, playing games — code dominant activity per 5-min interval. (2) Social interaction: alone, with spouse, with peers, with grandchildren, with strangers — code primary companion. (3) Park feature use: bench, path, green gym, temple/shrine, open lawn — code location. (4) Duration of stay: <15min, 15-30, 30-60, >60 — code at exit. (5) Assistive device: none, cane, walker, wheelchair — code presence. Context field: Weather (sunny/cloudy/rainy), Time slot (morning/evening), Day type (weekday/weekend). Poor answer: vague categories like \"active/passive\" without operational definitions, making inter-observer reliability impossible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

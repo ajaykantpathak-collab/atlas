@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 8,
+ "chapter_title": "Playing with Constructions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.8.1",
+   "title": "Constructions with Ruler and Compass",
+   "section": "Playing with Constructions",
+   "definition": "Geometric figures are drawn precisely with instruments: a ruler draws and measures line segments, and a compass copies lengths and cuts arcs, so that a segment of an exact given length can be constructed anywhere.",
+   "formula": "",
+   "key_idea": "Construction is drawing with proof: compass arcs guarantee that the copied length is exactly the given one.",
+   "textbook_ref": "fegp108.txt, Playing with Constructions",
+   "question_patterns": [
+    "how do you construct a line segment of a given length",
+    "what is the use of a compass in constructions",
+    "copy a given line segment using ruler and compass",
+    "why do we keep the compass opening fixed while marking arcs",
+    "draw a segment of 5 cm and name it AB",
+    "what makes construction different from rough drawing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2",
+   "title": "Squares and Rectangles by Construction",
+   "section": "Constructions of squares and rectangles",
+   "definition": "Squares and rectangles are constructed from their properties: a rectangle needs opposite sides equal and four right angles, a square needs four equal sides and four right angles, so each side and corner is checked with compass and set square while building.",
+   "formula": "",
+   "key_idea": "Properties are the instruction manual: equal sides and right angles, applied step by step, build exact figures.",
+   "textbook_ref": "fegp108.txt, Constructions of squares and rectangles",
+   "question_patterns": [
+    "construct a square of side 4 cm",
+    "which properties does a rectangle satisfy",
+    "how do you check that the corners of your rectangle are right angles",
+    "construct a rectangle with sides 5 cm and 3 cm",
+    "what is the difference between a square and a rectangle",
+    "why must opposite sides be checked while constructing a rectangle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.3",
+   "title": "Right Angles in Constructions",
+   "section": "Angles in constructions",
+   "definition": "Right angles anchor most constructions: folding paper, using a set square or drawing arcs from two points on a segment gives perpendicular lines, and the corners of squares and rectangles are verified as exact right angles.",
+   "formula": "",
+   "key_idea": "A right angle is the square's signature: without four of them, the figure collapses into an ordinary quadrilateral.",
+   "textbook_ref": "fegp108.txt, Angles in constructions",
+   "question_patterns": [
+    "how can you construct a right angle without a protractor",
+    "what is a perpendicular line",
+    "check whether the corner of your notebook is a right angle",
+    "draw a perpendicular to a line at a given point",
+    "why are right angles needed to construct a square",
+    "fold a paper twice to show a right angle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.4",
+   "title": "Figures Made of Line Segments",
+   "section": "Line segments and figures",
+   "definition": "Complex figures are walks of line segments joined endpoint to endpoint; counting the segments, copying their lengths one by one and joining carefully reproduces any stick-figure design exactly.",
+   "formula": "",
+   "key_idea": "Every drawing is a chain of segments: lengths and joints, measured and matched, rebuild the whole figure.",
+   "textbook_ref": "fegp108.txt, Line segments and figures",
+   "question_patterns": [
+    "reproduce the given stick figure using segments of the same lengths",
+    "how many segments does the given figure contain",
+    "measure and note the lengths of segments of a figure",
+    "join segments endpoint to endpoint without gaps",
+    "design your own figure with 8 line segments",
+    "why must joints meet exactly at endpoints"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp108.txt",
+   "concept": "fegp.8.1",
+   "question_type": "verify_property",
+   "question_pattern": "construct a line segment of length 5 cm and name it ab.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp108.txt",
+   "concept": "fegp.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "construct a square of side 4 cm.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp108.txt, Figure it Out",
+   "questions": [
+    "Construct a line segment of length 5 cm and name it AB.",
+    "Construct a square of side 4 cm.",
+    "How do you check that a corner is a right angle?",
+    "Which properties does a rectangle satisfy?",
+    "Draw a perpendicular to a line at a point on it."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_003",
+   "title": "c11_acc_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the meaning of \"imprest amount\" in the context of a petty cash book, and how does it differ from the opening cash balance in a simple cash book?",
+     "a": "The imprest amount is a fixed, pre-determined float advanced to the petty cashier at the start of each period (e.g., ₹2,000) which is restored to the same amount after reimbursement; it is not the result of prior transactions but a policy decision. In a simple cash book, the opening balance is the actual cash on hand carried forward from the previous period and fluctuates with every transaction. A wrong answer (e.g., \"imprest amount is just the opening balance\") reveals confusion between a control mechanism (fixed float) and a natural accounting balance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the total of the \"Amount Paid\" column in a petty cash book is always equal to the sum of the individual analysis column totals, and why this equality is critical for the ledger posting.",
+     "a": "Every payment is recorded once in the total \"Amount Paid\" column and simultaneously allocated to one specific analysis column (postage, conveyance, etc.); therefore, the sum of analysis columns must equal the total paid column – this is the cross-casting check. If they differ, an error exists in allocation. This equality ensures that when we debit each expense account with its column total and credit Petty Cash Account with the grand total, the double entry balances. A wrong answer indicates the student sees the columns as independent rather than as a single transaction split into categories.",
+     "self_check": true
+    },
+    {
+     "q": "A petty cashier receives an imprest of ₹5,000 on 1st April. During the month, she spends ₹1,200 on postage, ₹800 on conveyance, ₹1,500 on stationery, and ₹600 on miscellaneous expenses. On 30th April, she submits the book for reimbursement. Show the reimbursement journal entry in the main cash book and the ledger posting for the Stationery Account.",
+     "a": "**Step 1:** Total expenses = ₹1,200 + ₹800 + ₹1,500 + ₹600 = ₹4,100. This is the reimbursement amount.  \n**Step 2:** In the main cash book (bank column), credit Bank ₹4,100 and debit Petty Cash ₹4,100 (reimbursement).  \n**Step 3:** In the ledger, debit Stationery Account ₹1,500 and credit Petty Cash Account ₹1,500 (via the periodic total).  \n**Step 4:** Petty Cash Account now shows: Dr. side – Imprest ₹5,000 + Reimbursement ₹4,100; Cr. side – Sundries ₹4,100 + Balance c/d ₹5,000.  \nA wrong answer (e.g., debiting Stationery with ₹4,100) shows failure to separate column totals from the grand total.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Imprest System with a non-imprest (open) petty cash system where the petty cashier is simply given cash as needed and no fixed float is maintained. Identify two specific control weaknesses of the non-imprest system that the Imprest System eliminates.",
+     "a": "1. **No fixed accountability:** Without a fixed float, the amount with the petty cashier varies unpredictably, making surprise cash counts meaningless – the Imprest System ensures the cash + unpaid vouchers always equal the fixed imprest amount, enabling instant verification.  \n2. **No periodic review:** In an open system, reimbursements occur irregularly, so expense totals are not periodically compiled for ledger posting; the Imprest System forces monthly/weekly reimbursement, ensuring timely posting of expense totals to the ledger. A wrong answer that only mentions \"better control\" without specifics shows lack of analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "A company decides to increase the imprest amount from ₹2,000 to ₹3,000 effective 1st July. The petty cashier has a balance of ₹450 on 30th June. Describe the exact journal entries required on 30th June and 1st July to implement this change, and evaluate whether the petty cash book needs a new ledger account.",
+     "a": "**30th June:** Reimburse the spent amount (₹2,000 - ₹450 = ₹1,550) to restore the old float: Dr. Petty Cash ₹1,550, Cr. Bank ₹1,550. Petty Cash Account balance becomes ₹2,000.  \n**1st July:** Increase the float by ₹1,000: Dr. Petty Cash ₹1,000, Cr. Bank ₹1,000. New imprest ₹3,000 established.  \n**Evaluation:** The same Petty Cash Account continues; no new ledger account is needed because the account represents the same fund, only the fixed float level has changed. A wrong answer creating a new account shows misunderstanding that the imprest amount is a policy parameter, not a separate fund identity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a petty cash book format for a school canteen that incurs the following recurring small expenses: ingredients (flour, oil, spices), gas cylinder refills, disposable plates/cups, cleaning supplies, and miscellaneous. The canteen manager wants to track ingredient costs separately for menu pricing. Specify the analysis columns you would include and justify why \"Gas Cylinder Refill\" should NOT be combined with \"Ingredients\" in one column.",
+     "a": "**Format columns:** Date, Particulars, Voucher No., Total Amount Paid, then analysis columns: (1) Ingredients, (2) Gas Cylinder Refill, (3) Disposables, (4) Cleaning Supplies, (5) Miscellaneous, Remarks.  \n**Justification:** Ingredients are direct variable costs tied to each menu item (needed for costing and pricing), while gas refills are a fixed-period overhead (e.g., one cylinder lasts two weeks regardless of dishes made). Combining them would distort per-dish cost calculations and prevent separate budget monitoring. A poor answer that merges them shows inability to link accounting design to managerial decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_002",
+   "title": "c12_hist_cbse_07_002",
+   "questions": [
+    {
+     "q": "In which year was the Vijayanagara Empire founded, and who were its two founding brothers?",
+     "a": "The Vijayanagara Empire was founded in 1336 CE by the brothers Harihara I and Bukka I. A wrong answer (e.g., 1347 — the Bahmani founding date, or naming Krishnadeva Raya as founder) reveals confusion between the Sangama founding and later dynastic peaks, or conflation of the Vijayanagara and Bahmani timelines which are parallel but distinct.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Harihara and Bukka choose the site near the Virupaksha temple on the Tungabhadra for their capital, rather than a purely strategic military location?",
+     "a": "The site was already a major pilgrimage centre (Virupaksha-Pampadevi) with pre-existing sacred legitimacy, Jaina basadis, and association with the Ramayana (Kishkindha). Choosing it allowed the Sangamas to inherit established ritual authority and local loyalty, rather than imposing rule on a blank slate. A wrong answer focusing only on \"defensible hills\" or \"water supply\" misses the crucial ideological dimension: in medieval South India, sacred geography legitimised political power — the king ruled *on behalf of* the deity (orders signed \"Shri Virupaksha\").",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text mentions that contemporaries called the empire *karnataka samrajyamu*. If a student argues this proves the empire was a \"Kannada nationalist\" state, how would you evaluate that claim using evidence from the chapter?",
+     "a": "The claim is anachronistic. *Karnataka samrajyamu* (\"Karnataka empire\") referred to the *geopolitical region* (the Karnataka linguistic-cultural zone), not a modern nation-state concept. The empire included Tamil, Telugu, and Malayalam-speaking territories, employed Persianised titles (\"Hindu Suratrana\"), and its nayakas were often Telugu-speaking. A wrong answer accepting the \"nationalist\" reading projects 19th-century categories onto a 14th-century polity that operated through ritual sovereignty, not ethnic homogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sangama brothers' relationship with the Delhi Sultanate (Tughluqs) to the later Vijayanagara rulers' relationship with the Bahmani Sultans. What changed and what remained constant?",
+     "a": "*Changed*: The Tughluq threat was a direct imperial annexation attempt (Muhammad bin Tughluq's Deccan campaigns); the Bahmanis were a neighbouring Sultanate with whom Vijayanagara negotiated, allied, and fought over specific territories (Raichur doab). *Constant*: Both relationships involved military competition for horse trade routes, mutual borrowing of administrative techniques (amara-nayaka ≈ iqta), and the use of Persianate court culture (titles, architecture). A wrong answer seeing only \"Hindu vs Muslim conflict\" misses the pragmatic statecraft and cultural exchange documented in Krishnadeva Raya's *Amuktamalyada* and the \"establisher of the Yavana kingdom\" title.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"Assess the significance of the amara-nayaka system in the early Sangama period.\" A student writes: \"It was copied from the Delhi Sultanate's iqta system and caused the empire's collapse.\" Evaluate this answer.",
+     "a": "The answer is partially correct but flawed. *Correct*: The amara-nayaka system *was* influenced by the iqta system (NCERT explicitly states this). *Incorrect*: It did not cause collapse *in the Sangama period* — it provided the military backbone for expansion under Harihara, Bukka, and Deva Raya II. The nayakas became semi-independent only in the 17th century (Aravidu period). The student confuses *origin* with *long-term consequence* and ignores the system's initial success. A good answer would note: the Sangamas *adapted* the iqta by adding temple maintenance duties and annual tribute rituals, making it a hybrid Deccan institution.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the sequence: (a) Hoysala capital Dvarasamudra falls, (b) Harihara-Bukka establish Vijayanagara, (c) Bahmani kingdom founded, (d) Sangama dynasty ends, (e) Krishnadeva Raya ascends. Explain the causal links between any two adjacent events.",
+     "a": "Timeline: (a) 1311 — Hoysala capital Dvarasamudra sacked by Malik Kafur (Khilji); (b) 1336 — Harihara-Bukka found Vijayanagara; (c) 1347 — Bahmani kingdom founded by Hasan Gangu; (d) 1485 — Saluva Narasimha ends Sangama rule; (e) 1509 — Krishnadeva Raya (Tuluva) ascends. Causal links: (a)→(b): Hoysala collapse created a power vacuum the Sangamas filled, inheriting Hoysala administrators and temple networks. (b)→(c): Both Vijayanagara and Bahmani emerged from the *same* Tughluq provincial collapse — they were twin successor states competing for the Krishna-Tungabhadra doab. A poor answer lists dates without explaining the *structural continuity* between Hoysala institutions and Sangama state-building.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

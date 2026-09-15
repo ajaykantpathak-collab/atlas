@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_006",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_006",
+   "title": "c6_chemistry_ch05_006",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a temporary change?",
+     "a": "A temporary change lasts only as long as the conditions causing it are present. A wrong answer suggests the student thinks it is just about \"speed\" of change, rather than the ability to revert to the original state.",
+     "self_check": true
+    },
+    {
+     "q": "If you paint a wooden toy red, is the change temporary or permanent? Why?",
+     "a": "It is permanent because the paint stays on the wood even after you stop painting. If a student says \"temporary,\" they likely confuse the ease of applying paint with the nature of the change itself.",
+     "self_check": true
+    },
+    {
+     "q": "You stretch a rubber band to hold a pencil case closed. If you let go, it returns to its original shape. Is this temporary?",
+     "a": "Yes, it is temporary because the change (stretching) only exists while you apply force. If a student answers \"no,\" they may be incorrectly assuming that any physical change involving force is permanent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heating of a metal rod (which glows and then cools) with the burning of a piece of paper. Which is temporary?",
+     "a": "The heating of the metal rod is temporary because the metal returns to its original state once cooling occurs. Burning paper is permanent because the paper becomes ash and cannot be turned back into paper; a wrong answer suggests a failure to distinguish between physical states and chemical destruction.",
+     "self_check": true
+    },
+    {
+     "q": "Can a permanent change ever be reversed? Explain your reasoning.",
+     "a": "Generally, no, because a permanent change alters the fundamental nature of the object. If a student says \"yes,\" they are likely failing to identify that the original material is lost in the process of a permanent change.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a change in your house that you believe is temporary. How could you prove it is temporary to a friend?",
+     "a": "The student should propose an experiment (e.g., \"I will freeze water into ice, then let it melt, then freeze it again\"). Poor answers will lack the \"reversibility\" test and focus only on the description of the object.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

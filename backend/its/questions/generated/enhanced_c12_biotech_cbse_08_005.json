@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_005",
+   "title": "c12_biotech_cbse_08_005",
+   "questions": [
+    {
+     "q": "List three distinct categories of biomolecules provided by fetal bovine serum that are critical for animal cell culture, and give one specific example for each category.",
+     "a": "Correct answer: (1) Growth factors — e.g., FGF, EGF, IGF, PDGF, TGF-β; (2) Binding/transport proteins — e.g., albumin (carries fatty acids), transferrin (carries iron); (3) Adhesion factors — e.g., fibronectin, vitronectin. A wrong answer that only lists \"nutrients like amino acids and glucose\" reveals the misconception that serum is merely a nutrient source; basal media already provide those. Serum's unique value is in signaling and attachment factors not present in basal formulations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why serum is described as an \"undefined\" supplement and how this creates two specific problems for pharmaceutical manufacturing under Good Manufacturing Practice (GMP).",
+     "a": "Correct answer: Serum is undefined because its exact composition varies between batches (different animals, ages, diets) and is not fully characterized. This causes (1) batch-to-batch inconsistency in cell growth and product quality, violating GMP requirement for reproducible processes, and (2) regulatory difficulty in validating viral clearance since each new serum lot requires re-testing for adventitious agents (viruses, mycoplasma, prions). A wrong answer focusing only on \"cost\" or \"ethical concerns\" misses the core GMP issues of consistency and safety validation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher switches a fibroblast cell line from 10% FBS to a serum-free medium supplemented only with insulin, transferrin, and selenium (ITS). The cells attach poorly and show reduced proliferation. Identify two missing serum-derived factors likely responsible and propose a defined supplement for each.",
+     "a": "Correct answer: Missing factors: (1) Adhesion factors (fibronectin, vitronectin) — supplement with recombinant human fibronectin or poly-L-lysine coating; (2) Mitogenic growth factors (FGF, PDGF) — supplement with recombinant human FGF-2 and PDGF-BB. Steps: 1) Recognize ITS only provides iron transport, selenium antioxidant, and insulin signaling; 2) Identify attachment and proliferation defects; 3) Map defects to serum functions; 4) Select defined replacements. A wrong answer suggesting \"add more amino acids\" shows failure to distinguish basal nutrients from serum-specific signaling/adhesion factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare serum-containing media and chemically defined media across four parameters: (a) batch-to-batch consistency, (b) risk of adventitious agents, (c) downstream processing complexity, (d) suitability for primary cell cultures. Present as a table.",
+     "a": "Correct answer: \n| Parameter | Serum-containing | Chemically defined |\n|-----------|------------------|-------------------|\n| Batch consistency | Low (variable serum lots) | High (defined components) |\n| Adventitious agent risk | High (viruses, mycoplasma, prions) | Negligible (no animal components) |\n| Downstream processing | Complex (serum proteins co-purify) | Simplified (no interfering proteins) |\n| Primary cell suitability | Excellent (broad support) | Often poor (requires optimization) |\nA wrong answer that claims chemically defined media are universally better for all cell types ignores the empirical fact that many primary/non-transformed cells still require serum or complex supplements; this reveals lack of analytical nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Switching to serum-free medium always improves product quality and reduces cost in biopharmaceutical production.\" Provide three specific counterarguments with mechanistic reasoning.",
+     "a": "Correct critique: (1) Serum-free media are often 5-10× more expensive per liter due to recombinant growth factors and extensive QC, increasing medium cost despite savings in downstream processing. (2) Some cell lines (e.g., certain hybridomas, primary hepatocytes) lose productivity or viability without serum-derived factors that are not yet fully replaceable, reducing overall yield. (3) Serum-free media can alter glycosylation patterns of recombinant proteins due to absence of serum-derived glycosylation modulators, potentially affecting clinical efficacy — a quality risk. A wrong answer that agrees without qualification shows failure to evaluate trade-offs holistically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a stepwise adaptation protocol to transition a CHO cell line producing erythropoietin from 10% FBS to a commercially available protein-free, chemically defined medium. Include timeline, monitoring parameters, and decision criteria at each step.",
+     "a": "Expected answer: \nStep 1 (Weeks 1-2): 10% FBS → 5% FBS + 50% conditioned serum-free medium; monitor viability (>90%), growth rate, EPO titer. \nStep 2 (Weeks 3-4): 2% FBS + 80% serum-free; same monitoring. \nStep 3 (Weeks 5-6): 0% FBS + 100% serum-free with lipid supplement (cholesterol, fatty acids); monitor for adaptation lag. \nStep 4 (Weeks 7-8): Switch to target protein-free medium; run 10 passages to confirm stability. \nDecision criteria: If viability drops <85% or specific productivity (qP) decreases >20% vs. serum control at any step, revert and supplement with identified factors (e.g., Pluronic F-68 for shear, hydrocortisone for stress). Poor answer: \"Just switch directly\" — ignores adaptation stress and selection pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

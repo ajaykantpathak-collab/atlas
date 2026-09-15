@@ -1,0 +1,185 @@
+{
+ "catalog": "catalog_class6_maths_fegp108.json",
+ "concepts": [
+  {
+   "id": "fegp.8.1",
+   "title": "Constructions with Ruler and Compass",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2",
+   "title": "Squares and Rectangles by Construction",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 27 ** 2 gives 729",
+     "compute": "sq = 27 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 27.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 36 m. What is the number of square metres in its area?",
+     "a": "1296",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 11 x 9.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 65?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 28. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "197",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.3",
+   "title": "Right Angles in Constructions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
+     "compute": "other = 90 - 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 20 degrees, find the other.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 14 degrees, find the other.",
+     "a": "166",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 26 degrees; find the other.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 74 degrees and 56 degrees, find the remaining angle.",
+     "a": "230",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 26 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 74 degrees. Find its co-interior partner.",
+     "a": "106",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.4",
+   "title": "Figures Made of Line Segments",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

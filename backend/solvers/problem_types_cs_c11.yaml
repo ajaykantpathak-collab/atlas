@@ -1,0 +1,576 @@
+problem_types_cs_c11:
+  - id: PT_ARCH_001
+    title: "Von Neumann vs Harvard Architecture"
+    steps:
+      - step_id: S_ARCH_001_A
+        step_type: concept_identification
+        question: "Identify the key difference between Von Neumann and Harvard architecture based on memory organization."
+        marks: 2
+      - step_id: S_ARCH_001_B
+        step_type: diagram_description
+        question: "Describe the bus structure in Harvard Architecture and explain why it enables simultaneous instruction and data access."
+        marks: 3
+      - step_id: S_ARCH_001_C
+        step_type: comparative_analysis
+        question: "Compare the two architectures and state which one is used in modern microcontrollers (e.g., ARM Cortex-M) and why."
+        marks: 3
+    total_marks: 8
+    difficulty: medium
+    thinking_question:
+      prompt: "A processor uses separate buses for instruction and data, fetching both simultaneously. Which architecture does it follow and what is the primary advantage?"
+      options:
+        - "Von Neumann — reduced hardware cost"
+        - "Harvard — higher throughput due to parallel access"
+        - "Von Neumann — faster clock speed"
+        - "Harvard — single unified memory reduces complexity"
+      correct_answer: "Harvard — higher throughput due to parallel access"
+
+  - id: PT_ARCH_002
+    title: "CPU Registers and ALU Operations"
+    steps:
+      - step_id: S_ARCH_002_A
+        step_type: definition_recall
+        question: "Define the function of the following CPU registers: Accumulator, Program Counter, and Memory Address Register."
+        marks: 3
+      - step_id: S_ARCH_002_B
+        step_type: trace_execution
+        question: "Given a fetch-decode-execute cycle, trace the role of MAR, MDR, and PC for the instruction: LOAD 500"
+        marks: 4
+      - step_id: S_ARCH_002_C
+        step_type: data_path_analysis
+        question: "Explain how the ALU interacts with the accumulator and status flags during an ADD operation. Include the role of the CU."
+        marks: 3
+    total_marks: 10
+    difficulty: hard
+    thinking_question:
+      prompt: "During the fetch cycle of an instruction, which register holds the address of the next instruction to be executed?"
+      options:
+        - "Memory Data Register (MDR)"
+        - "Program Counter (PC)"
+        - "Accumulator (ACC)"
+        - "Instruction Register (IR)"
+      correct_answer: "Program Counter (PC)"
+
+  - id: PT_NUM_001
+    title: "Decimal to Binary, Octal, and Hexadecimal Conversion"
+    steps:
+      - step_id: S_NUM_001_A
+        step_type: direct_conversion
+        question: "Convert the decimal number 156 into its binary equivalent. Show the division-remainder method."
+        marks: 2
+      - step_id: S_NUM_001_B
+        step_type: base_conversion
+        question: "Convert the binary result from step A into (i) Octal, (ii) Hexadecimal using grouping method."
+        marks: 2
+      - step_id: S_NUM_001_C
+        step_type: inverse_verification
+        question: "Verify the conversions by converting the hexadecimal result back to decimal."
+        marks: 2
+    total_marks: 6
+    difficulty: easy
+    thinking_question:
+      prompt: "What is the hexadecimal equivalent of decimal 255?"
+      options:
+        - "0xFE"
+        - "0xFF"
+        - "0xF0"
+        - "0xEF"
+      correct_answer: "0xFF"
+
+  - id: PT_NUM_002
+    title: "Binary Arithmetic — Addition and Subtraction"
+    steps:
+      - step_id: S_NUM_002_A
+        step_type: binary_addition
+        question: "Add the following 8-bit binary numbers: 10110101 + 01101011. Show all carry bits."
+        marks: 2
+      - step_id: S_NUM_002_B
+        step_type: overflow_detection
+        question: "Determine if overflow occurs in the above addition for signed 8-bit numbers. Explain using sign bit analysis."
+        marks: 3
+      - step_id: S_NUM_002_C
+        step_type: twos_complement_subtraction
+        question: "Using 2's complement method, compute: 01100100 − 01011010. Show the complete working."
+        marks: 3
+    total_marks: 8
+    difficulty: hard
+    thinking_question:
+      prompt: "In 8-bit signed arithmetic using 2's complement, what is the range of representable numbers?"
+      options:
+        - "0 to 255"
+        - "-128 to +127"
+        - "-127 to +128"
+        - "-256 to +255"
+      correct_answer: "-128 to +127"
+
+  - id: PT_NUM_003
+    title: "Floating Point Representation (IEEE 754)"
+    steps:
+      - step_id: S_NUM_003_A
+        step_type: component_identification
+        question: "For a 32-bit IEEE 754 single-precision float, identify the number of bits allocated to Sign, Exponent, and Mantissa."
+        marks: 2
+      - step_id: S_NUM_003_B
+        step_type: normalization
+        question: "Normalize the decimal number 26.5 into binary scientific notation and identify the biased exponent."
+        marks: 3
+      - step_id: S_NUM_003_C
+        step_type: encoding
+        question: "Construct the complete 32-bit IEEE 754 representation of 26.5 using the normalized form from step B."
+        marks: 3
+    total_marks: 8
+    difficulty: hard
+    thinking_question:
+      prompt: "In IEEE 754 single-precision, what bias is applied to the exponent field?"
+      options:
+        - "127"
+        - "128"
+        - "255"
+        - "1023"
+      correct_answer: "127"
+
+  - id: PT_BOOL_001
+    title: "Boolean Expression Simplification"
+    steps:
+      - step_id: S_BOOL_001_A
+        step_type: truth_table
+        question: "Construct a truth table for the Boolean expression: F(A, B, C) = A'B + BC + A'C"
+        marks: 3
+      - step_id: S_BOOL_001_B
+        step_type: algebraic_simplification
+        question: "Simplify the expression F algebraically using Boolean laws (show each step with the law used)."
+        marks: 3
+      - step_id: S_BOOL_001_C
+        step_type: karnaugh_map
+        question: "Verify your simplified expression using a K-map. Group the minterms and derive the minimal SOP form."
+        marks: 3
+      - step_id: S_BOOL_001_D
+        step_type: logic_diagram
+        question: "Draw the logic gate diagram for the minimized expression using only AND, OR, and NOT gates."
+        marks: 2
+    total_marks: 11
+    difficulty: hard
+    thinking_question:
+      prompt: "Which Boolean law states that A + A'B = A + B?"
+      options:
+        - "Absorption Law"
+        - "Redundancy Law"
+        - "De Morgan's Law"
+        - "Distributive Law"
+      correct_answer: "Redundancy Law"
+
+  - id: PT_BOOL_002
+    title: "De Morgan's Laws and Dual Expressions"
+    steps:
+      - step_id: S_BOOL_002_A
+        step_type: law_application
+        question: "State both De Morgan's Laws. Apply them to simplify: F = (A + B)' · (A' + C)'"
+        marks: 3
+      - step_id: S_BOOL_002_B
+        step_type: dual_finding
+        question: "Find the dual of the expression: F = A(B + C') + (A' + B)C. Explain the steps clearly."
+        marks: 3
+      - step_id: S_BOOL_002_C
+        step_type: verification
+        question: "Verify using a truth table that the original expression and its dual yield the same output for all input combinations."
+        marks: 2
+    total_marks: 8
+    difficulty: medium
+    thinking_question:
+      prompt: "The dual of a Boolean expression is obtained by interchanging which operators?"
+      options:
+        - "AND with OR, and 0 with 1"
+        - "AND with NOT, and OR with NOT"
+        - "OR with XOR, and AND with NAND"
+        - "Only AND and OR are interchanged"
+      correct_answer: "AND with OR, and 0 with 1"
+
+  - id: PT_BOOL_003
+    title: "Sum of Products and Product of Sums"
+    steps:
+      - step_id: S_BOOL_003_A
+        step_type: minterm_listing
+        question: "Given the truth table for F(A,B,C,D) with minterms at m0, m2, m5, m7, m8, m10, m13, m15, write the canonical SOP expression."
+        marks: 3
+      - step_id: S_BOOL_003_B
+        step_type: pos_derivation
+        question: "From the same truth table, derive the canonical POS expression using the maxterms (rows where F=0)."
+        marks: 3
+      - step_id: S_BOOL_003_C
+        step_type: simplification_comparison
+        question: "Simplify both SOP and POS forms using K-maps and compare the number of literals in each minimal form."
+        marks: 3
+    total_marks: 9
+    difficulty: hard
+    thinking_question:
+      prompt: "A Boolean function F has value 0 for minterms m1, m3, m6, m7 in a 3-variable function. What are the corresponding maxterms?"
+      options:
+        - "M0, M2, M4, M5"
+        - "M1, M3, M5, M6"
+        - "M0, M3, M4, M7"
+        - "M1, M2, M3, M4"
+      correct_answer: "M0, M2, M4, M5"
+
+  - id: PT_GATE_001
+    title: "Logic Gates — Identification and Truth Tables"
+    steps:
+      - step_id: S_GATE_001_A
+        step_type: gate_identification
+        question: "Identify the logic gate from the given truth table (Inputs A, B and Output Y). Justify your answer."
+        marks: 2
+      - step_id: S_GATE_001_B
+        step_type: truth_table_construction
+        question: "Construct the complete truth table for a 3-input NAND gate."
+        marks: 2
+      - step_id: S_GATE_001_C
+        step_type: gate_combination
+        question: "Show how a NAND gate alone can be used to implement (i) NOT gate, (ii) AND gate, (iii) OR gate. Draw the circuits."
+        marks: 4
+    total_marks: 8
+    difficulty: medium
+    thinking_question:
+      prompt: "A logic gate produces a HIGH output only when all its inputs are LOW. Which gate is this?"
+      options:
+        - "NOR gate"
+        - "NAND gate"
+        - "XOR gate"
+        - "XNOR gate"
+      correct_answer: "NOR gate"
+
+  - id: PT_GATE_002
+      title: "Universal Gates and Logic Families"
+      steps:
+        - step_id: S_GATE_002_A
+          step_type: universal_gate_concept
+          question: "Explain why NAND and NOR are called universal gates. State the minimum number of NAND gates required to implement a 2-input XOR."
+          marks: 3
+        - step_id: S_GATE_002_B
+          step_type: circuit_realization
+          question: "Realize the Boolean function F = AB + CD using only NAND gates. Draw the complete circuit diagram."
+          marks: 4
+        - step_id: S_GATE_002_C
+          step_type: logic_family_comparison
+          question: "Compare TTL and CMOS logic families on the basis of: (i) Power consumption, (ii) Noise margin, (iii) Fan-out, (iv) Switching speed."
+          marks: 3
+      total_marks: 10
+      difficulty: hard
+      thinking_question:
+        prompt: "Which logic family has the highest fan-out capability?"
+        options:
+          - "TTL"
+          - "CMOS"
+          - "ECL"
+          - "DTL"
+        correct_answer: "CMOS"
+
+  - id: PT_JAVA_001
+    title: "Java Basics — Class, Objects, and Constructors"
+    steps:
+      - step_id: S_JAVA_001_A
+        step_type: class_design
+        question: "Design a class named 'Employee' with private data members: empId (int), empName (String), salary (double). Include a parameterized constructor and a method display()."
+        marks: 4
+      - step_id: S_JAVA_001_B
+        step_type: object_creation
+        question: "In the main method, create two Employee objects using the parameterized constructor and call display() for each. Show the output."
+        marks: 3
+      - step_id: S_JAVA_001_C
+        step_type: method_overloading
+        question: "Add an overloaded method updateSalary() — one version accepts a flat amount, another accepts a percentage. Demonstrate both in main()."
+        marks: 3
+    total_marks: 10
+    difficulty: medium
+    thinking_question:
+      prompt: "In Java, when is a default (no-argument) constructor automatically provided by the compiler?"
+      options:
+        - "When a class has no constructors at all"
+        - "When the programmer defines a parameterized constructor"
+        - "When the class extends another class"
+        - "When the class implements an interface"
+      correct_answer: "When a class has no constructors at all"
+
+  - id: PT_JAVA_002
+    title: "Inheritance and Polymorphism in Java"
+    steps:
+      - step_id: S_JAVA_002_A
+        step_type: inheritance_design
+        question: "Create a base class 'Shape' with method area(). Derive two classes 'Circle' and 'Rectangle' that override area(). Use appropriate data members."
+        marks: 4
+      - step_id: S_JAVA_002_B
+        step_type: dynamic_dispatch
+        question: "In the main method, use an array of Shape references pointing to Circle and Rectangle objects. Call area() polymorphically and display results."
+        marks: 3
+      - step_id: S_JAVA_002_C
+        step_type: method_overriding_analysis
+        question: "Explain the concept of runtime polymorphism demonstrated above. What happens if you declare area() as 'final' in Shape?"
+        marks: 3
+    total_marks: 10
+    difficulty: medium
+    thinking_question:
+      prompt: "Which keyword prevents a method from being overridden in a subclass?"
+      options:
+        - "static"
+        - "final"
+        - "abstract"
+        - "private"
+      correct_answer: "final"
+
+  - id: PT_JAVA_003
+    title: "Interfaces and Abstract Classes"
+    steps:
+      - step_id: S_JAVA_003_A
+        step_type: interface_design
+        question: "Create an interface 'Payment' with method processPayment(double amount). Create two classes 'CreditCard' and 'UPI' that implement Payment."
+        marks: 4
+      - step_id: S_JAVA_003_B
+        step_type: interface_usage
+        question: "In main(), create Payment references to CreditCard and UPI objects. Call processPayment() for each and display appropriate messages."
+        marks: 3
+      - step_id: S_JAVA_003_C
+        step_type: abstract_vs_interface
+        question: "Convert Payment from an interface to an abstract class by adding a common field transactionId and a concrete method generateReceipt(). Explain the change in behavior."
+        marks: 3
+    total_marks: 10
+    difficulty: hard
+    thinking_question:
+      prompt: "In Java, which of the following is TRUE about interfaces?"
+      options:
+        - "An interface can have non-static, non-final fields"
+        - "A class can implement multiple interfaces"
+        - "Interfaces can have constructors"
+        - "Interface methods are always private by default"
+      correct_answer: "A class can implement multiple interfaces"
+
+  - id: PT_ARR_001
+    title: "Array Operations — Linear Search and Sorting"
+    steps:
+      - step_id: S_ARR_001_A
+        step_type: linear_search
+        question: "Write a Java method linearSearch(int[] arr, int key) that returns the index of key or -1 if not found. Trace the execution for arr = {5, 3, 8, 1, 9}, key = 8."
+        marks: 4
+      - step_id: S_ARR_001_B
+        step_type: bubble_sort
+        question: "Implement Bubble Sort in Java to sort the array {5, 3, 8, 1, 9} in ascending order. Show the array state after each pass."
+        marks: 3
+      - step_id: S_ARR_001_C
+        step_type: binary_search
+        question: "Apply Binary Search on the sorted array from step B to find key = 5. State why binary search works only on sorted arrays."
+        marks: 2
+    total_marks: 9
+    difficulty: medium
+    thinking_question:
+      prompt: "What is the time complexity of Binary Search in the worst case?"
+      options:
+        - "O(n)"
+        - "O(log n)"
+        - "O(n²)"
+        - "O(n log n)"
+      correct_answer: "O(log n)"
+
+  - id: PT_ARR_002
+    title: "2D Arrays — Matrix Operations"
+    steps:
+      - step_id: S_ARR_002_A
+        step_type: matrix_input
+        question: "Write a Java program to input two 3×3 matrices A and B from the user. Use 2D arrays."
+        marks: 3
+      - step_id: S_ARR_002_B
+        step_type: matrix_addition
+        question: "Write and execute a method to compute C = A + B (element-wise addition). Display matrix C."
+        marks: 2
+      - step_id: S_ARR_002_C
+        step_type: matrix_multiplication
+        question: "Write and execute a method to compute D = A × B (matrix multiplication). Show the multiplication process for at least one element."
+        marks: 4
+    total_marks: 9
+    difficulty: medium
+    thinking_question:
+      prompt: "Under what condition can two matrices of order m×n and p×q be multiplied?"
+      options:
+        - "m = p and n = q"
+        - "n = p (columns of first = rows of second)"
+        - "m = q and n = p"
+        - "Always, they just need to be square matrices"
+      correct_answer: "n = p (columns of first = rows of second)"
+
+  - id: PT_ARR_003
+    title: "Row-Wise and Column-Wise Sum of 2D Array"
+    steps:
+      - step_id: S_ARR_003_A
+        step_type: array_traversal
+        question: "Given a 4×4 integer matrix, write a Java method to compute and display the sum of each row."
+        marks: 3
+      - step_id: S_ARR_003_B
+        step_type: column_sum
+        question: "Extend the program to also compute and display the sum of each column."
+        marks: 3
+      - step_id: S_ARR_003_C
+        step_type: diagonal_sum
+        question: "Further extend the program to compute the sum of the main diagonal and the sum of the secondary diagonal. Display all results together."
+        marks: 3
+    total_marks: 9
+    difficulty: medium
+    thinking_question:
+      prompt: "For a square matrix of order n, the secondary diagonal consists of elements where row index i and column index j satisfy which condition?"
+      options:
+        - "i = j"
+        - "i + j = n - 1"
+        - "i + j = n"
+        - "i - j = n"
+      correct_answer: "i + j = n - 1"
+
+  - id: PT_STR_001
+    title: "String Manipulation — Built-in Methods"
+    steps:
+      - step_id: S_STR_001_A
+        step_type: string_methods
+        question: "Given s = 'Computer Science', demonstrate the output of: (i) s.length(), (ii) s.substring(9), (iii) s.indexOf('e'), (iv) s.toUpperCase()"
+        marks: 3
+      - step_id: S_STR_001_B
+        step_type: character_counting
+        question: "Write a Java method countVowels(String s) that returns the number of vowels in the string (case-insensitive)."
+        marks: 3
+      - step_id: S_STR_001_C
+        step_type: string_reversal
+        question: "Write a Java method reverseString(String s) that returns the reversed string WITHOUT using StringBuilder.reverse(). Use a loop."
+        marks: 3
+    total_marks: 9
+    difficulty: easy
+    thinking_question:
+      prompt: "Which of the following statements about Java String objects is TRUE?"
+      options:
+        - "Strings are mutable in Java"
+        - "Strings are immutable and stored in the String Pool"
+        - "String objects can be modified using indexing like s[0] = 'A'"
+        - "Two Strings with same content are always different objects"
+      correct_answer: "Strings are immutable and stored in the String Pool"
+
+  - id: PT_STR_002
+    title: "Palindrome and Anagram Detection"
+    steps:
+      - step_id: S_STR_002_A
+        step_type: palindrome_check
+        question: "Write a Java method isPalindrome(String s) that checks if a string reads the same forwards and backwards. Ignore spaces and case. Example: 'Madam' → true."
+        marks: 4
+      - step_id: S_STR_002_B
+        step_type: anagram_check
+        question: "Write a Java method isAnagram(String s1, String s2) that checks if two strings are anagrams (same characters, different order). Example: 'listen' and 'silent' → true."
+        marks: 4
+      - step_id: S_STR_002_C
+        step_type: combined_problem
+        question: "Given a sentence, find and display all words that are palindromes. Then check if the first and last words of the sentence are anagrams of each other."
+        marks: 3
+    total_marks: 11
+    difficulty: hard
+    thinking_question:
+      prompt: "Two strings are anagrams if and only if:"
+      options:
+        - "They have the same length"
+        - "They have the same characters with the same frequency"
+        - "They are equal when reversed"
+        - "They have the same first and last character"
+      correct_answer: "They have the same characters with the same frequency"
+
+  - id: PT_STR_003
+    title: "StringTokenizer and Word Frequency"
+    steps:
+      - step_id: S_STR_003_A
+        step_type: tokenization
+        question: "Use StringTokenizer to split the sentence 'Java is fun and Java is powerful' into words. Display each word on a new line."
+        marks: 2
+      - step_id: S_STR_003_B
+        step_type: word_counting
+        question: "Extend the program to count and display the total number of words in the sentence."
+        marks: 2
+      - step_id: S_STR_003_C
+        step_type: frequency_analysis
+        question: "Further extend the program to count the frequency of each unique word. Use a HashMap<String, Integer> to store and display the results."
+        marks: 4
+    total_marks: 8
+    difficulty: medium
+    thinking_question:
+        prompt: "What is the output of s1.compareTo(s2) in Java when s1 = 'Apple' and s2 = 'Banana'?"
+        options:
+          - "A positive integer"
+          - "A negative integer"
+          - "Zero"
+          - "true"
+        correct_answer: "A negative integer"
+
+  - id: PT_COMB_001
+    title: "Integrated Problem — Number System and Boolean Logic"
+    steps:
+      - step_id: S_COMB_001_A
+        step_type: number_conversion_chain
+        question: "Convert the binary number 11010110 to Decimal, then to Octal, and then to Hexadecimal. Show each step."
+        marks: 3
+      - step_id: S_COMB_001_B
+        step_type: boolean_from_bits
+        question: "Use each bit of the binary number from step A as input variables A, B, C, D, E, F, G, H (MSB to LSB). Write the Boolean expression for the function F = 1 when the number is divisible by 3."
+        marks: 4
+      - step_id: S_COMB_001_C
+        step_type: simplification_of_derived
+        question: "Simplify the Boolean expression obtained in step B using a K-map and implement it with NAND gates only."
+        marks: 4
+    total_marks: 11
+    difficulty: hard
+    thinking_question:
+      prompt: "The binary number 11010110 represents which decimal value?"
+      options:
+        - "214"
+        - "216"
+        - "210"
+        - "220"
+      correct_answer: "214"
+
+  - id: PT_COMB_002
+    title: "Integrated Problem — Arrays and Strings in Java"
+    steps:
+      - step_id: S_COMB_002_A
+        step_type: string_to_array
+        question: "Given a sentence as a string, write Java code to split it into words and store them in a String array."
+        marks: 2
+      - step_id: S_COMB_002_B
+        step_type: array_processing
+        question: "From the array in step A, find and store in a new array all words that start with a vowel (case-insensitive). Display these words."
+        marks: 3
+      - step_id: S_COMB_002_C
+        step_type: sorting_and_searching
+        question: "Sort the vowel-words array alphabetically. Then use binary search to check if a user-input word exists in this sorted array."
+        marks: 4
+    total_marks: 9
+    difficulty: medium
+    thinking_question:
+      prompt: "In Java, splitting the string 'A E I O U' by space using split(' ') will produce how many elements?"
+      options:
+        - "4"
+        - "5"
+        - "6"
+        - "1"
+      correct_answer: "5"
+
+  - id: PT_COMB_003
+    title: "Integrated Problem — Boolean Algebra to Logic Circuit to Java"
+    steps:
+      - step_id: S_COMB_003_A
+        step_type: boolean_simplification
+        question: "Simplify the Boolean expression: F(A, B, C) = A'B'C + A'BC' + ABC' + ABC using algebraic methods and a K-map."
+        marks: 4
+      - step_id: S_COMB_003_B
+        step_type: circuit_design
+        question: "Draw the minimized logic gate circuit for the simplified expression. State the number of each type of gate used."
+        marks: 3
+      - step_id: S_COMB_003_C
+        step_type: java_implementation
+        question: "Write a Java method evaluateF(int a, int b, int c) that implements the simplified Boolean expression and returns 0 or 1. Test with all 8 input combinations."
+        marks: 4
+    total_marks: 11
+    difficulty: hard
+    thinking_question:
+      prompt: "The simplified form of A'B'C + A'BC' + ABC' + ABC is:"
+      options:
+        - "A'B + AC'"
+        - "A'C + B'C"
+        - "AB + A'C"
+        - "B'C + BC'"
+      correct_answer: "A'B + AC'"

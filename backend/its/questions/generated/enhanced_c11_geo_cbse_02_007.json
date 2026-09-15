@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_007",
+   "title": "c11_geo_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the two primary sources of water for Earth's primordial hydrosphere and the approximate temperature threshold at which large-scale condensation began.",
+     "a": "The two primary sources are volcanic degassing from Earth's interior (releasing water vapor trapped in minerals) and extraterrestrial delivery via cometary and carbonaceous chondrite impacts. Large-scale condensation began when Earth's surface temperature dropped below 100°C (boiling point of water at 1 atm), allowing water vapor to transition to liquid phase. A wrong answer revealing only one source (e.g., only comets) shows incomplete understanding of the dual-origin hypothesis; stating condensation occurred at much higher temperatures reveals confusion about phase transitions under early atmospheric pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the early oceans were likely more acidic and less saline than modern oceans, linking this to the composition of the primordial atmosphere and the absence of continental weathering.",
+     "a": "The primordial atmosphere was rich in CO₂ (from volcanic outgassing), which dissolved in rainwater forming carbonic acid (H₂CO₃), lowering ocean pH to ~5-6. Without extensive continental landmasses above sea level, silicate weathering — the main long-term sink for CO₂ and source of dissolved ions (Na⁺, Ca²⁺, Mg²⁺, Cl⁻, SO₄²⁻) — was minimal. Thus early oceans had lower total dissolved solids. A wrong answer attributing low salinity to \"less evaporation\" misses the geological control: salinity is primarily controlled by weathering input vs. hydrothermal removal, not the hydrological cycle intensity.",
+     "self_check": true
+    },
+    {
+     "q": "A zircon crystal from the Jack Hills, Western Australia, yields a U-Pb age of 4.4 Ga and δ¹⁸O values of +5.5‰. Interpret what this indicates about the presence of liquid water and continental crust at that time.",
+     "a": "Step 1: Recognize that δ¹⁸O in zircon reflects the oxygen isotope composition of the magma from which it crystallized. Step 2: Mantle-derived magmas have δ¹⁸O ≈ +5.3‰; values >+5.5‰ require interaction with low-temperature surface waters (which have low δ¹⁸O due to evaporation/precipitation fractionation). Step 3: The +5.5‰ value implies the magma assimilated rocks altered by liquid water at near-surface temperatures. Step 4: This requires both liquid water (hydrosphere) and exposed crust (continental material) at 4.4 Ga — pushing back evidence for early oceans by 200 Myr from the oldest sedimentary rocks. A wrong answer treating δ¹⁸O as a direct thermometer reveals misunderstanding of isotope fractionation mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of hydrothermal circulation at mid-ocean ridges in the Archean versus today in controlling ocean salinity and composition. Why was it more dominant in the early Earth?",
+     "a": "In the Archean, higher mantle heat flow produced faster spreading rates and more extensive ridge systems, increasing hydrothermal flux by 3-5× modern rates. Hydrothermal circulation acts as a sink for Mg²⁺ and SO₄²⁻ and a source for Fe²⁺, Mn²⁺, and SiO₂. With minimal continental weathering (small continental area), hydrothermal exchange dominated the oceanic mass balance. Today, riverine input from weathering balances hydrothermal removal, maintaining steady-state salinity. A wrong answer claiming \"hydrothermal vents add salt\" confuses the direction of element flux: vents remove Mg and SO₄ from seawater, adding Fe and Mn — the net effect on total salinity depends on the balance with river input.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the hypothesis that the \"faint young Sun paradox\" (20-30% lower solar luminosity at 4 Ga) would have frozen the early oceans, considering geological evidence for liquid water and the role of greenhouse gases.",
+     "a": "Geological evidence (pillow basalts, sedimentary structures, 3.8 Ga Isua banded iron formations) confirms liquid water existed despite faint young Sun. The paradox is resolved by a stronger greenhouse effect: primordial atmosphere had 100-1000× present CO₂ levels (no silicate weathering sink) plus CH₄ from methanogens after ~3.5 Ga. Climate models show 0.1-1 bar CO₂ + 10⁻³ bar CH₄ can maintain >0°C global mean temperature. A wrong answer dismissing the paradox or invoking only \"internal heat\" ignores that geothermal flux (0.08 W/m²) is negligible compared to solar insolation (340 W/m²) — greenhouse gases are the necessary amplifier.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual model showing the feedback loops between ocean chemistry, atmospheric composition, and biological evolution from 4.0 Ga to 2.0 Ga. Include at least three coupled processes.",
+     "a": "A robust model links: (1) Volcanic CO₂ → greenhouse warming → liquid oceans → silicate weathering (once continents emerge) → CO₂ drawdown → cooling (negative feedback). (2) Hydrothermal Fe²⁺ flux → anoxic oceans → anoxygenic photosynthesis → organic carbon burial → O₂ rise (after cyanobacteria evolve) → Fe²⁺ oxidation → banded iron formation deposition (negative feedback on Fe). (3) O₂ rise → ozone layer → UV shielding → continental colonization → enhanced weathering → nutrient (P) delivery → productivity → further O₂ rise (positive feedback). A poor model lists processes linearly without showing how ocean chemistry (e.g., Fe²⁺ concentration) controls biological metabolisms which in turn alter atmospheric composition that feeds back to weathering and ocean chemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

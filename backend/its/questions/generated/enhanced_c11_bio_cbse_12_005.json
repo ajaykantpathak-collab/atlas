@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_005",
+   "title": "c11_bio_cbse_12_005",
+   "questions": [
+    {
+     "q": "Name the enzyme that catalyzes the condensation of acetyl-CoA with oxaloacetate and the product formed.",
+     "a": "Citrate synthase catalyzes the condensation of acetyl-CoA (2C) with oxaloacetate (4C) to form citrate (6C), releasing CoA. A wrong answer (e.g., \"aconitase\" or \"isocitrate dehydrogenase\") reveals confusion between the entry step and later isomerization/oxidation steps; the student likely memorized enzyme names without associating them with substrate/product changes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the TCA cycle produce GTP (or ATP) only at the succinyl-CoA → succinate step, despite multiple exergonic reactions?",
+     "a": "Only the succinyl-CoA → succinate step (catalyzed by succinyl-CoA synthetase) has a ΔG°' sufficiently negative (-33.5 kJ/mol) to drive substrate-level phosphorylation via a high-energy thioester bond; other exergonic steps (e.g., isocitrate → α-ketoglutarate, malate → oxaloacetate) release energy as reduced coenzymes (NADH/FADH₂) instead. A wrong answer (e.g., \"ATP is made at every oxidation\") shows the student thinks all redox energy directly makes ATP, missing the distinction between substrate-level and oxidative phosphorylation.",
+     "self_check": true
+    },
+    {
+     "q": "A plant cell is exposed to a specific inhibitor of α-ketoglutarate dehydrogenase. Predict the immediate effect on: (a) NADH production, (b) CO₂ release, (c) oxaloacetate regeneration, and (d) succinyl-CoA accumulation.",
+     "a": "(a) NADH production drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH steps); (b) CO₂ release drops by 2 per acetyl-CoA (loss of isocitrate DH and α-KG DH decarboxylations); (c) oxaloacetate regeneration stops because the cycle cannot proceed past α-ketoglutarate; (d) succinyl-CoA does NOT accumulate — instead α-ketoglutarate accumulates because its conversion is blocked. Wrong predictions (e.g., \"succinyl-CoA builds up\") reveal the student misorders the steps or thinks the block occurs after succinyl-CoA formation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the carbon fate of the two carboxyl groups of oxaloacetate over two turns of the TCA cycle. Are they released as CO₂ in the first turn, second turn, or later?",
+     "a": "The two carboxyl carbons of oxaloacetate are NOT lost in the first turn; they become the two carboxyl groups of α-ketoglutarate and are released as CO₂ in the *second* turn (via isocitrate DH and α-KG DH). The two CO₂ released in the first turn originate from the acetyl-CoA carbons. A wrong answer (\"first turn\") shows the student assumes symmetric citrate → symmetric loss, ignoring that citrate is prochiral and aconitase acts stereospecifically — a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The TCA cycle is purely catabolic because it oxidizes acetyl-CoA to CO₂.\" Provide two specific anabolic counter-examples using intermediates.",
+     "a": "The statement is false. Counter-examples: (1) α-ketoglutarate → glutamate (amino acid synthesis) via transamination; (2) oxaloacetate → aspartate → asparagine, or oxaloacetate → PEP → glucose (gluconeogenesis). A student calling it \"purely catabolic\" misses the amphibolic nature (node c11_bio_cbse_12_008) and treats pathways as isolated rather than interconnected metabolic networks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using ¹⁴C-labeled acetate to determine whether the TCA cycle operates in a germinating mung bean (moong) seedling under aerobic conditions. Specify what you would measure and expected results.",
+     "a": "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate, citrate) extracted at intervals. Expected: rapid ¹⁴CO₂ evolution and label incorporation into TCA intermediates. Poor answer (e.g., \"measure O₂ uptake only\") shows inability to design isotope-tracing experiments — a key competency for board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

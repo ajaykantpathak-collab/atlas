@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_05_006",
+   "title": "c12_ps_cbse_05_006",
+   "questions": [
+    {
+     "q": "What year was SAARC established, where was its founding declaration signed, and how many founding members were there?",
+     "a": "SAARC was established in 1985 with the signing of the Dhaka Declaration in Dhaka, Bangladesh, by 7 founding members (India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives). Afghanistan joined in 2007 as the 8th member. A wrong answer (e.g., \"1990,\" \"Kathmandu,\" \"8 founding members\") reveals the student confuses SAARC's founding with later summits or Afghanistan's accession, indicating they memorize numbers without anchoring them to the historical context of Cold War-end regionalism.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the SAARC Charter explicitly exclude \"bilateral and contentious issues\" from its deliberations, and how does this reflect the region's political history?",
+     "a": "The exclusion clause (Article X of the Charter) was a prerequisite for India and Pakistan to join the same organization — neither would participate if the other could raise Kashmir or other disputes multilaterally. This reflects the 1947-1971 wars (c12_ps_cbse_05_002, c12_ps_cbse_05_003) where bilateral conflicts escalated to full-scale war. A wrong answer like \"to keep meetings short\" or \"because the UN handles bilateral issues\" shows the student misses the strategic compromise: SAARC was designed as a \"conflict-avoidance mechanism\" first, cooperation vehicle second.",
+     "self_check": true
+    },
+    {
+     "q": "A SAARC summit is scheduled. India proposes a regional motor vehicles agreement to ease cross-border transport. Pakistan agrees in principle but refuses to sign unless India includes a clause on \"unimpeded transit to Afghanistan.\" Bangladesh and Nepal support India. Sri Lanka stays silent. Applying SAARC's decision-making rules, what is the likely outcome and why?",
+     "a": "No agreement will be signed. SAARC operates on consensus (unanimity) — any member can veto. Pakistan's conditional acceptance functions as a veto. The motor vehicles agreement later proceeded as a sub-regional initiative (BBIN: Bangladesh, Bhutan, India, Nepal) bypassing SAARC. A wrong answer like \"majority vote passes it\" reveals the student doesn't know SAARC's consensus rule, a deliberate design choice to protect smaller states and prevent India-Pakistan deadlocks from blocking all cooperation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare SAARC's approach to economic integration (SAPTA → SAFTA) with ASEAN's (AFTA). Why has SAARC's intra-regional trade remained ~5% of total trade while ASEAN's exceeds 20%?",
+     "a": "ASEAN separated economics from politics: AFTA (1992) had binding tariff cuts, dispute settlement, and \"ASEAN minus X\" flexibility (members could opt out temporarily). SAARC's SAFTA (2006) retained consensus voting, sensitive lists (hundreds of excluded items), no dispute mechanism, and Pakistan's refusal to grant India MFN status (until 2012, then revoked). A wrong answer like \"South Asia is poorer\" ignores that ASEAN started poorer; the difference is institutional design — ASEAN depoliticized trade, SAARC didn't.",
+     "self_check": true
+    },
+    {
+     "q": "\"SAARC has failed because India dominates it.\" Evaluate this claim using evidence from SAARC's institutional structure and summit history.",
+     "a": "The claim is partially true but incomplete. India's size (70% of SAARC's GDP, population, land) creates asymmetry, but SAARC's rules *constrain* India: consensus gives each micro-state (Maldives, Bhutan) a veto; secretariat is in Kathmandu (not New Delhi); chairmanship rotates alphabetically. India has *proposed* most initiatives (SAFTA, food bank, disaster management) but cannot *impose* them. Failure stems from *mutual* distrust — Pakistan blocks connectivity projects fearing Indian strategic encirclement; smaller states fear Indian economic dominance. A one-sided answer blaming only India misses the collective action problem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified SAARC charter provision that could allow progress on connectivity (energy, transport) despite India-Pakistan deadlock, without amending the consensus rule. Justify each element.",
+     "a": "A strong answer proposes: \"Variable Geometry / SAARC Minus X\" clause — \"Where consensus cannot be reached on a sectoral agreement after two consecutive summits, a minimum of four members including at least one from each sub-region (Himalayan, Peninsular, Island) may conclude a 'SAARC Framework Agreement' open to later accession by others, provided it does not prejudice Charter principles.\" Justification: keeps consensus for core issues, allows sub-regional progress (like BBIN), respects sovereignty (opt-in), maintains SAARC umbrella. A weak answer suggests \"majority voting\" or \"expelling Pakistan\" — violates Charter's sovereign equality and would collapse the organization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

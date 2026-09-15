@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_006",
+   "title": "c12_eco_cbse_11_006",
+   "questions": [
+    {
+     "q": "In the Union Budget 2024-25, the Government of India estimates Total Expenditure at ₹47,65,768 crore and Total Receipts (excluding borrowings) at ₹30,80,000 crore. What is the estimated fiscal deficit, and which budget document explicitly shows this borrowing requirement?",
+     "a": "Fiscal Deficit = ₹47,65,768 crore – ₹30,80,000 crore = ₹16,85,768 crore. The 'Receipt Budget' (Annexure to the Budget) and the 'Financing of Fiscal Deficit' statement explicitly show this borrowing requirement. A wrong answer (e.g., subtracting only revenue receipts) reveals the student confuses fiscal deficit with revenue deficit or does not know that non-debt capital receipts (like disinvestment, loan recoveries) are also subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "The government decides to finance ₹2 lakh crore of its fiscal deficit by issuing 10-year dated securities (G-Secs) to commercial banks. Explain the step-by-step impact on (a) bank reserves, (b) money supply, and (c) market interest rates, assuming the RBI does not conduct open market operations to offset.",
+     "a": "(a) Banks pay for G-Secs by reducing their reserves with RBI → reserves fall. (b) With lower reserves, banks' lending capacity shrinks → money supply (M3) contracts, *unless* the government spends the borrowed money back into the banking system (which it does). Net effect on money supply depends on the spending lag and currency drain. (c) Large G-Sec supply pushes bond prices down → yields (interest rates) rise. A wrong answer claiming \"money supply increases because government spends\" ignores the initial reserve drain and the crowding-out effect on private credit. The student must distinguish between *initial* financing impact and *final* equilibrium after government expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the net market borrowing for 2024-25 given: Gross Market Borrowing = ₹14.13 lakh crore, Switching of securities (buyback of old, issue of new) = ₹1.50 lakh crore, Repayment of past loans = ₹2.00 lakh crore. Also, explain why 'switching' is not a net addition to debt.",
+     "a": "Net Market Borrowing = Gross Borrowing – Repayments – Switching = ₹14.13 – ₹2.00 – ₹1.50 = ₹10.63 lakh crore. Switching involves buying back old securities and issuing new ones of equal face value — it changes the maturity profile but does not change the total outstanding debt stock. A student who adds switching to gross borrowing or ignores it reveals a misunderstanding of debt management operations versus net resource mobilization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the macroeconomic impact of financing ₹1 lakh crore fiscal deficit through: (A) RBI purchasing government securities (monetization) vs. (B) Issuing Treasury Bills to money market mutual funds. Analyze the effect on high-powered money (H), money multiplier, and inflationary pressure.",
+     "a": "(A) RBI credits government account → H increases directly (ΔH = ₹1 lakh crore). With unchanged money multiplier, M3 rises → high inflationary risk if economy is near full capacity. (B) Mutual funds pay from existing deposits → no change in H. Reserves shift from banks to government → no net change in monetary base. Lower inflationary pressure. A student who says both increase money supply equally fails to distinguish between *central bank financing* (creation of base money) and *market financing* (redistribution of existing base money).",
+     "self_check": true
+    },
+    {
+     "q": "The Finance Minister argues: \"A higher fiscal deficit is acceptable because we are borrowing domestically in rupees, so we can never default — we can always print money to repay.\" Evaluate this statement using the concepts of debt monetization, inflation tax, and fiscal dominance.",
+     "a": "The statement is dangerous. While sovereign rupee debt avoids *technical* default, monetizing deficit (RBI printing money to buy bonds) creates high inflation, which acts as an *inflation tax* on money holders, distorts price signals, and leads to *fiscal dominance* where monetary policy loses independence. Persistent monetization erodes RBI credibility, raises inflation expectations, and ultimately forces higher nominal interest rates, increasing future debt servicing costs. A student agreeing with the Minister ignores the distinction between *solvency* (ability to pay nominal rupees) and *sustainability* (ability to service debt without destabilizing inflation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a financing mix for a ₹15 lakh crore fiscal deficit that minimizes crowding out of private investment while keeping inflation below 4%. Specify amounts for: (i) Dated Securities (10-yr), (ii) Treasury Bills (91-day), (iii) External Loans (World Bank/ADB), (iv) RBI Ways & Means Advances. Justify each allocation.",
+     "a": "Good answer example: (i) ₹10 lakh crore dated securities — long tenor locks in rates, spreads repayment. (ii) ₹2 lakh crore T-bills — short-term cash management, low interest cost. (iii) ₹2.5 lakh crore external loans — brings foreign exchange, no domestic liquidity impact, concessional rates. (iv) ₹0.5 lakh crore WMA — only for temporary mismatches, not structural deficit. Justification: Heavy reliance on long-term domestic bonds avoids rollover risk; external loans diversify investor base; minimal RBI borrowing prevents monetization. A poor answer allocates large amounts to RBI/WMA or short-term T-bills, showing ignorance of rollover risk and inflationary financing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

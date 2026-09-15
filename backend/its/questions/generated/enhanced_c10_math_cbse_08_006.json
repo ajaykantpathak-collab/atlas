@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_006",
+   "title": "c10_math_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the Pythagorean trigonometric identity involving sine and cosine. For which angles is this identity valid in the context of Class 10 trigonometry?",
+     "a": "The identity is sin²θ + cos²θ = 1. It is valid for all acute angles θ (0° < θ < 90°) and also for θ = 0° and θ = 90° if we define the ratios appropriately (sin 0°=0, cos 0°=1; sin 90°=1, cos 90°=0). A wrong answer such as sinθ + cosθ = 1 reveals that the student confuses the squares with the ratios themselves, a common error when squaring is not understood.",
+     "self_check": true
+    },
+    {
+     "q": "If sinθ = 3/5 for an acute angle θ, a student writes cosθ = 2/5 because they think sinθ + cosθ = 1. Explain why this reasoning is incorrect and find the correct value of cosθ using the identity sin²θ + cos²θ = 1.",
+     "a": "The student incorrectly assumes sinθ + cosθ = 1 instead of sin²θ + cos²θ = 1. The correct approach: sin²θ = (3/5)² = 9/25. Then cos²θ = 1 - 9/25 = 16/25. Since θ is acute, cosθ is positive, so cosθ = √(16/25) = 4/5. A wrong answer of 2/5 shows the student does not understand that the identity involves squares of the ratios, not the ratios themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Given that tanθ = 4/3 for an acute angle θ, find sinθ and cosθ using the identity sin²θ + cos²θ = 1. (Hint: Use tanθ = sinθ/cosθ to express one ratio in terms of the other.)",
+     "a": "Given tanθ = 4/3 = sinθ/cosθ, let sinθ = 4k and cosθ = 3k for some k > 0. Then sin²θ + cos²θ = (4k)² + (3k)² = 16k² + 9k² = 25k² = 1 → k² = 1/25 → k = 1/5. Thus sinθ = 4/5 and cosθ = 3/5. A wrong answer like sinθ = 4/3, cosθ = 1 shows the student treats tanθ as sinθ directly and does not use the identity to find the scaling factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two equations: (a) sin²θ + cos²θ = 1 and (b) sinθ + cosθ = 1. For what value(s) of θ (0° ≤ θ ≤ 90°) are both equations simultaneously true? Explain why equation (b) is not an identity.",
+     "a": "Equation (a) is true for all θ. Equation (b) is true only for specific angles. Both hold when sinθ = 1, cosθ = 0 (θ = 90°) or sinθ = 0, cosθ = 1 (θ = 0°). For θ = 45°, sinθ + cosθ = √2 ≠ 1. Equation (b) is not an identity because it is not true for all angles; it is a conditional equation. A wrong answer stating they are both identities shows the student does not distinguish between an identity (always true) and an equation (sometimes true).",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies the expression (sin²θ + cos²θ) / (sinθ cosθ) as 1/(sinθ cosθ) and then further as cosecθ secθ. Another student writes the first step as (1)/(sinθ cosθ) and stops. Evaluate whether both students have correctly applied the identity sin²θ + cos²θ = 1, and state which simplification is more complete for board exam answer writing.",
+     "a": "Both students correctly applied the identity in the first step: sin²θ + cos²θ = 1, so the expression becomes 1/(sinθ cosθ). The first student goes further to write cosecθ secθ, which is the standard simplified form using reciprocal identities. For board exams, the final answer should be expressed in terms of basic trigonometric ratios or their reciprocals as required. The second student's answer is incomplete but not wrong. A wrong answer like sinθ + cosθ in the numerator shows failure to apply the identity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (with an Indian context) where a student must use sin²θ + cos²θ = 1 to find an unknown trigonometric ratio. The problem should involve a right triangle with given sides or angles, and require at least three steps to solve.",
+     "a": "Example problem: \"From a point on the ground 15 m away from the foot of a tower, the angle of elevation of the top is 60°. If sin 60° = √3/2, find cos 60° using the identity, and then find the height of the tower.\" Steps: 1) Use sin²60° + cos²60° = 1 → (√3/2)² + cos²60° = 1 → 3/4 + cos²60° = 1 → cos²60° = 1/4 → cos 60° = 1/2. 2) tan 60° = sin 60°/cos 60° = (√3/2)/(1/2) = √3. 3) Height = 15 × tan 60° = 15√3 m. A poor answer would skip the identity and directly state cos 60° = 1/2 from memory, not demonstrating the use of the identity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

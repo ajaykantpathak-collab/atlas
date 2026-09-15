@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_007",
+   "title": "c11_biotech_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the specific stage of meiosis where crossing over occurs, and between which chromatids does it take place?",
+     "a": "Crossing over occurs during the **pachytene stage of Prophase I** and takes place between **non-sister chromatids of homologous chromosomes**. A wrong answer (e.g., \"prophase II\" or \"between sister chromatids\") reveals the student confuses meiotic stages or misunderstands that recombination requires homologous chromosomes, not identical sister chromatids. This is critical because crossing over between sister chromatids would not generate new allele combinations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Independent assortment happens because homologous chromosomes line up randomly at the metaphase plate in Metaphase I, but the same random lining up happens in mitosis metaphase too, so mitosis also produces genetic variation.\" Explain why this reasoning is incorrect.",
+     "a": "In mitosis, **individual chromosomes (each with two sister chromatids) line up at the metaphase plate**, not homologous pairs. Since sister chromatids are genetically identical (barring mutation), their random orientation does not create new allele combinations. In meiosis I, **homologous chromosomes (each with two sister chromatids) pair up as bivalents and orient randomly**, so the maternal and paternal chromosomes of each pair segregate independently. A wrong answer indicates the student cannot distinguish chromosome behavior in metaphase of mitosis vs. metaphase I of meiosis.",
+     "self_check": true
+    },
+    {
+     "q": "An organism has a diploid chromosome number of 2n = 8. Calculate the number of genetically distinct gamete types possible from independent assortment alone (ignoring crossing over). Show your calculation.",
+     "a": "Number of homologous pairs = n = 4. Each pair can orient in 2 ways at metaphase I. Total combinations = 2^n = 2^4 = **16 distinct gamete types**. Steps: (1) Identify n = 2n/2 = 4. (2) Recognize each pair assorts independently. (3) Apply formula 2^n. (4) Compute 2^4 = 16. A wrong answer (e.g., 8 or 256) reveals the student either uses 2n instead of n, or confuses the formula with number of chromosomes or number of cells produced.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic composition of the four daughter cells produced by meiosis in a heterozygous individual (Aa Bb) where genes A and B are on different chromosomes. How does crossing over between linked genes (on the same chromosome) change this outcome?",
+     "a": "Without crossing over (genes on different chromosomes): Independent assortment produces 4 gamete types in equal proportions: AB, Ab, aB, ab. The four daughter cells will represent these four combinations (one each, assuming no chromatid segregation bias). With crossing over between linked genes: Parental combinations (AB, ab) and recombinant combinations (Ab, aB) are produced. The four daughter cells can now include recombinant types, and the frequency of each type depends on crossover frequency (map distance). A wrong answer shows the student cannot integrate independent assortment and crossing over as two distinct, additive sources of variation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The primary evolutionary significance of meiosis is to reduce chromosome number by half; genetic variation is just a by-product.\" Defend or refute using evidence from meiotic mechanisms.",
+     "a": "**Refute.** While chromosome number reduction is essential for sexual reproduction, the **mechanisms generating variation are not passive by-products but active, conserved processes**: (1) Spo11 enzyme deliberately creates double-strand breaks to initiate crossing over; (2) The synaptonemal complex ensures homologous pairing and recombination; (3) At least one crossover per chromosome pair is obligatory for proper segregation (crossover assurance); (4) Independent assortment is a direct consequence of bivalent structure. If variation were merely a by-product, these complex, energy-costly mechanisms would not be universally conserved across eukaryotes. A wrong evaluation treats meiosis as only a reductional division, missing its role as a variation-generating engine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical organism with 2n = 6 where you can experimentally distinguish the contributions of independent assortment vs. crossing over to genetic variation in offspring. Describe the genetic markers you would use and the expected phenotypic ratios in the F2 generation for each mechanism separately.",
+     "a": "**Design:** Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units apart), C/c on chromosome 2, D/d on chromosome 3. Cross with homozygous recessive (aa bb cc dd). **Independent assortment only** (if crossing over suppressed): Gametes from trihybrid = 2^3 = 8 types (ABCD, ABCd, ABcD, ABcd, abCD, abCd, abcD, abcd). F2 phenotypic ratio = 1:1:1:1:1:1:1:1. **Crossing over only** (if chromosomes 2 and 3 homozygous): Only chromosome 1 varies. Parental gametes (AB, ab) = 80%, recombinant (Ab, aB) = 20%. F2 ratio = 3:1:1:3 (parental:recombinant phenotypes). A poor design uses unlinked genes only or fails to isolate the two mechanisms experimentally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

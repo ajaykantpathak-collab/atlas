@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 301,
+ "chapter_title": "Introduction to Maps",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy301.txt",
+ "concepts": [
+  {
+   "id": "kegy.301.1.1",
+   "title": "Maps: Meaning, Types and Their Uses",
+   "section": "",
+   "definition": "A map is a representation of the whole or part of the earth's surface drawn to scale on a plane, classified by scale into large scale cadastral and topographical maps and small scale wall and atlas maps, and by theme into physical and cultural maps serving planning, navigation and education.",
+   "formula": "",
+   "key_idea": "Maps carry a title, scale, direction, legend or key and conventional signs, so that any reader can decode the surface features accurately.",
+   "textbook_ref": "kegy301.txt types and uses of maps sections",
+   "question_patterns": [
+    "define a map and state its essential elements",
+    "classify maps on the basis of scale and purpose",
+    "differentiate large scale and small scale maps",
+    "what are physical maps and cultural maps",
+    "state the uses of maps in planning",
+    "explain the legend or key of a map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.301.2.1",
+   "title": "Globes, Aerial Photographs and Remote Sensing as Map Sources",
+   "section": "",
+   "definition": "A globe is the truest representation of the earth without scale distortion, aerial photographs taken from aircraft and satellite images from remote sensing supply raw data from which maps are compiled, and modern GIS stores and analyses these map layers digitally.",
+   "formula": "",
+   "key_idea": "Photographs and satellite data reduce field work and update maps quickly, while GIS overlays thematic layers for spatial analysis.",
+   "textbook_ref": "kegy301.txt globe aerial photos sections",
+   "question_patterns": [
+    "why is a globe called a true model of the earth",
+    "how do aerial photographs help in map making",
+    "what is remote sensing and its use in mapping",
+    "define gis and its advantages over paper maps",
+    "compare aerial photograph and satellite image",
+    "state the limitations of a globe compared to a map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.301.3.1",
+   "title": "Essential Elements and Conventions of Map Language",
+   "section": "Elements of maps",
+   "definition": "Every map carries five essential elements of title, scale, direction shown by north line, legend or key of conventional signs, and date or source of data, and its language of symbols, colours and lines lets complex surface information be read quickly and uniformly.",
+   "formula": "",
+   "key_idea": "North is conventionally placed at the top and symbols are standardised so that any trained reader interprets the map identically.",
+   "textbook_ref": "kegy301.txt map elements sections",
+   "question_patterns": [
+    "list the essential elements of a map",
+    "why is the legend called the key to the map",
+    "how is direction shown on a map",
+    "why are conventional signs used on maps",
+    "what role does the title play in reading a map",
+    "state the language of a map with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy301.txt exercises",
+   "questions": [
+    "Choose the correct answer about map types.",
+    "What is a map? State its elements.",
+    "Differentiate between large scale and small scale maps.",
+    "How is remote sensing useful in map making?",
+    "Write a note on GIS and its uses."
+   ]
+  }
+ ]
+}

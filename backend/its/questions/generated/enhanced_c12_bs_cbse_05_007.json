@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_007",
+   "title": "c12_bs_cbse_05_007",
+   "questions": [
+    {
+     "q": "State any two benefits of informal organisation as per NCERT Class 12 Business Studies.",
+     "a": "Correct answer: (1) Faster spread of information and quick feedback because prescribed lines of communication are not followed. (2) Fulfills social needs of members, giving them a sense of belongingness and enhancing job satisfaction. (3) Compensates for inadequacies in the formal organisation, e.g., testing employee reactions to plans through the informal network. A wrong answer that lists \"better control\" or \"clear authority\" reveals the student is confusing informal with formal organisation. A wrong answer that gives only one benefit shows incomplete recall.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why informal organisation is said to \"compensate for inadequacies in the formal organisation\". Give a concrete workplace example.",
+     "a": "Correct explanation: Formal organisation has rigid rules and slow channels; informal networks fill gaps by providing quick feedback, emotional support, and alternative communication paths. Example: A new policy is announced formally via email. Employees discuss it informally at the tea point, revealing practical flaws management hadn't considered. Management picks up this feedback informally and adjusts the policy before formal rollout. A wrong answer that says \"informal organisation replaces formal organisation\" shows misunderstanding — it complements, not replaces. A vague example like \"helps in work\" without specifying the gap indicates lack of conceptual clarity.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company introduces a new safety protocol. The formal communication (email + poster) is clear, but workers on the shop floor continue old unsafe practices. The supervisor discovers an informal \"veteran workers\" group that mocks the new protocol as \"management nonsense\". Apply the concept of informal organisation limitations to explain what is happening and suggest one way management can respond using the informal network.",
+     "a": "Correct application: The informal group is exercising \"group pressure to conform to group expectations\" (limitation c) and \"resistance to change\" (limitation b). The veterans' norm overrides the formal rule. Management should identify the informal leader(s), involve them in refining the protocol, and use the same informal channel to spread acceptance — turning resistance into advocacy. A wrong answer that suggests \"ban the group\" or \"issue stricter orders\" ignores that informal organisation cannot be eliminated and confrontation worsens it. A response that only addresses formal channels (more posters, punishments) misses the core issue: group norms drive behaviour here.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flow of communication in formal and informal organisation. Then analyse why informal communication can be both an asset and a liability during a crisis (e.g., a sudden product recall).",
+     "a": "Correct analysis: Formal communication follows the scalar chain (vertical, slow, documented). Informal communication flows in any direction (horizontal, diagonal, fast, undocumented). During a product recall: Asset — informal channels spread awareness instantly across departments, factories, and even to suppliers, enabling rapid containment. Liability — the same speed spreads distorted facts (\"the whole batch is toxic\" vs \"only batch #402\"), causing panic, reputational damage, and legal risk. Management must monitor and seed accurate information into the informal network (e.g., brief key informal leaders) rather than rely solely on formal memos. A wrong answer that only lists \"fast vs slow\" without crisis context shows surface-level comparison. An answer that says \"informal is bad in crisis because of rumours\" misses the asset side.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A strong informal organisation always indicates a weak formal organisation.\" Defend your position with two arguments from NCERT concepts.",
+     "a": "Correct evaluation: The statement is false. NCERT states informal organisation \"cannot be altogether eliminated\" and arises from human interaction, not formal weakness. Argument 1: Informal organisation fulfills social needs (belongingness) that formal organisation by design cannot — even a perfectly structured formal org will have informal groups. Argument 2: Informal organisation compensates for formal inadequacies (e.g., slow communication), but this is a functional complement, not evidence of formal failure. A strong informal culture in a well-run company (e.g., Google's \"20% time\" communities) coexists with strong formal systems. A wrong answer that agrees with the statement confuses correlation with causation. An answer that says \"informal is good, formal is bad\" shows binary thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (4-5 sentences) set in an Indian startup where informal organisation simultaneously demonstrates TWO benefits and ONE limitation. Label each clearly.",
+     "a": "Expected answer: Scenario: \"At a Bengaluru fintech startup, the official Slack channels are quiet, but a WhatsApp group 'Chai & Code' (formed organically by developers) shares debugging tips instantly (Benefit 1: faster communication). Junior devs feel comfortable asking 'stupid questions' there, boosting their confidence (Benefit 2: social needs/belongingness). However, when the CTO announced a mandatory code-review tool, the group mocked it as 'bureaucracy', and most devs ignored it for weeks (Limitation: resistance to change).\" A poor answer either lists benefits/limitations without a cohesive scenario, or mislabels a formal feature as informal (e.g., \"the HR policy says...\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

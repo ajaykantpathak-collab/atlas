@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_001",
+   "title": "c12_hs_cbse_12_001",
+   "questions": [
+    {
+     "q": "State the NCERT definition of Extension Education in your own words, highlighting the three key phrases that distinguish it from formal education.",
+     "a": "Extension Education is an applied behavioural science that brings desirable changes in human behaviour through educational strategies, empowering people to identify and solve their own problems. The three distinguishing phrases are: (1) \"applied behavioural science\" — it targets behaviour change, not just knowledge transfer; (2) \"educational strategies\" — it uses participatory methods, not lectures; (3) \"empowering people to identify and solve their own problems\" — it builds self-reliance, not dependency. A wrong answer that defines it as \"teaching farmers new techniques\" misses the empowerment and behavioural science core, revealing a misconception that extension is top-down technology transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A village extension worker conducts a lecture on \"Benefits of Breastfeeding\" using PowerPoint slides to a group of 30 mothers. The mothers listen silently and leave. Using the philosophy of Extension Education, explain why this is NOT extension education. Identify the specific philosophical principle violated.",
+     "a": "This violates the core philosophy of Extension Education: \"learning by doing\" and \"participatory problem-solving.\" Extension philosophy is democratic (people are partners, not recipients), need-based (starts from learners' felt needs, not expert's agenda), and action-oriented (leads to behaviour change, not just awareness). The lecture method is teacher-centred, ignores mothers' existing knowledge/barriers, and assumes knowledge alone changes behaviour. The violated principle: \"Extension starts where the people are\" — it must begin with their perceived problems, not the worker's predetermined topic. A student who says \"it's extension because it shares information\" confuses information dissemination with education for empowerment.",
+     "self_check": true
+    },
+    {
+     "q": "A Home Science extension programme plans to address anaemia in adolescent girls in a tribal block. List the steps the extension worker must follow to align with the SCOPE of Extension Education (not just health education). For each step, name the scope dimension it represents (e.g., agriculture, health, home science, community development).",
+     "a": "Steps and scope dimensions:\n1. Conduct participatory needs assessment with girls, mothers, and Anganwadi workers to understand dietary practices, cultural beliefs, and access to iron-rich foods — **Home Science scope** (food & nutrition, family health).\n2. Map local food systems: identify iron-rich wild greens, traditional recipes, and seasonal availability — **Agriculture scope** (production, biodiversity, kitchen gardens).\n3. Facilitate girls' groups to design and test improved recipes using local foods, linking with ICDS for supplementation — **Community Development scope** (collective action, convergence with services).\n4. Train peer educators for sustained behaviour change and advocate for policy changes (e.g., inclusion of local foods in mid-day meals) — **Health scope** (preventive, promotional, advocacy).\nA wrong answer listing only \"give iron tablets and lecture on nutrition\" treats it as clinical health intervention, missing the multi-scope, participatory, empowering nature of extension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the philosophy of Extension Education with the philosophy of Formal Education across FOUR dimensions: (a) role of learner, (b) source of curriculum, (c) method of evaluation, (d) ultimate goal. Present as a table.",
+     "a": "| Dimension | Extension Education Philosophy | Formal Education Philosophy |\n|-----------|--------------------------------|-----------------------------|\n| (a) Role of learner | Active partner, co-creator of knowledge, decision-maker | Passive recipient, follows prescribed path |\n| (b) Source of curriculum | Learners' felt needs, local problems, emerging issues | Predetermined syllabus, national standards, expert-designed |\n| (c) Method of evaluation | Behaviour change, adoption of practices, problem solved | Examinations, grades, certification, knowledge recall |\n| (d) Ultimate goal | Empowerment, self-reliance, sustainable community development | Qualification, employability, individual advancement |\n\nA wrong answer that says \"both aim to educate\" misses the fundamental philosophical divergence: extension is *andragogical* (adult learning, problem-centred), formal is *pedagogical* (child learning, subject-centred). This confusion leads to using classroom methods in extension settings.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Extension Education is only for rural, illiterate populations — urban educated people don't need it.\" Use the scope and philosophy of Extension Education to defend or refute.",
+     "a": "The statement is FALSE. Extension Education's scope is universal — it applies wherever people need to solve problems through learning and action. Urban educated populations face complex issues: waste segregation, lifestyle diseases, digital fraud, parenting stress, financial literacy, climate adaptation. Extension philosophy (participatory, need-based, empowering) is equally relevant. Example: Urban RWAs using PRA to map water waste and design rainwater harvesting — that's extension in an urban, educated context. The misconception arises from equating extension with \"agricultural extension for illiterate farmers\" — a historical narrow view. NCERT explicitly includes Home Science Extension in urban, peri-urban, and diverse settings (Chapter 12, Node 12). A student agreeing with the statement reveals a scope-limiting misconception that confuses *target audience* with *methodology*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-sentence \"elevator pitch\" for Extension Education that a Home Science student could use to explain it to a non-specialist, incorporating meaning, philosophy, and scope. Then create a 3-panel pamphlet outline (headings only) for a community awareness campaign on \"What is Extension Education?\"",
+     "a": "Elevator pitch: \"Extension Education is a partnership where communities and professionals learn together to solve real-life problems — from nutrition to livelihoods — by building people's own capacity to analyse, decide, and act for lasting change.\"\n\nPamphlet outline:\nPanel 1 (Front): **WHAT IS EXTENSION EDUCATION?** — Not a lecture, not a scheme. It's a dialogue. You know your problems. We bring methods. Together we find solutions.\nPanel 2 (Inside): **HOW IT WORKS** — Listen → Discuss → Try → Decide → Share. Your needs set the agenda. Your experience guides the process. Your action creates change.\nPanel 3 (Back): **WHERE IT REACHES** — Your kitchen (nutrition), your farm (livelihood), your child's health, your water, your rights. Anywhere people want to improve their lives. Contact: [Local Extension Centre].\n\nA poor answer that defines it as \"government schemes for farmers\" fails to capture the educational, empowering, multi-scope essence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_12_004",
+   "title": "c12_phy_cbse_12_004",
+   "questions": [
+    {
+     "q": "State the Rydberg formula for the hydrogen spectrum. Define each symbol with its SI unit. What is the numerical value of the Rydberg constant R_H?",
+     "a": "The Rydberg formula is 1/λ = R_H (1/nf² - 1/ni²), where λ is wavelength in metres (m), R_H = 1.097 × 10⁷ m⁻¹ is the Rydberg constant, nf and ni are positive integers with ni > nf. A wrong answer (e.g., missing the square on n, using R = 1.097 × 10⁷ cm⁻¹, or swapping nf and ni) reveals the student has memorised the formula without understanding that 1/λ is proportional to energy difference and that nf is the fixed lower level for a given series.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Balmer series appear in the visible region while the Lyman series is in the ultraviolet and the Paschen series is in the infrared? Explain using the Bohr energy level diagram.",
+     "a": "The photon energy ΔE = 13.6 eV (1/nf² - 1/ni²). For Lyman (nf=1), ΔE ≥ 13.6(1 - 1/4) = 10.2 eV → λ ≤ 121.6 nm (UV). For Balmer (nf=2), ΔE ranges from 13.6(1/4 - 1/9) = 1.89 eV (λ = 656 nm, red) to 13.6(1/4) = 3.4 eV (λ = 364.6 nm, near UV) — spanning the visible. For Paschen (nf=3), ΔE ≤ 13.6(1/9) = 1.51 eV → λ ≥ 820 nm (IR). A wrong answer that just states \"different energy gaps\" without quantitative comparison shows the student cannot connect energy differences to electromagnetic spectrum regions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the wavelength (in nm) and photon energy (in eV) for the transition n=4 → n=2 in hydrogen. Identify the series and the color of this line.",
+     "a": "Given: ni=4, nf=2. 1/λ = R_H(1/2² - 1/4²) = 1.097×10⁷(1/4 - 1/16) = 1.097×10⁷(3/16) = 2.0569×10⁶ m⁻¹ → λ = 486.1 nm. Photon energy E = hc/λ = (1240 eV·nm)/486.1 nm = 2.55 eV. This is the Balmer-β (H-β) line, blue-green. Common error: using 1/λ = R_H(1/ni² - 1/nf²) gives negative λ; forgetting to convert m to nm gives 4.86×10⁻⁷ m without unit conversion; using R_H in cm⁻¹ without adjusting units.",
+     "self_check": true
+    },
+    {
+     "q": "A hydrogen atom absorbs a photon of wavelength 97.3 nm. Determine the initial and final principal quantum numbers (ni, nf) of the transition. Is this an absorption or emission process? Which series does it belong to?",
+     "a": "Absorption means photon energy is used to raise the electron from lower nf to higher ni. 1/λ = 1/(97.3×10⁻⁹) = 1.0277×10⁷ m⁻¹. Rydberg formula: 1/λ = R_H(1/nf² - 1/ni²). Try nf=1 (Lyman): 1/1² - 1/ni² = 1.0277×10⁷/1.097×10⁷ = 0.937 → 1/ni² = 0.063 → ni² ≈ 15.9 → ni ≈ 4. So transition is nf=1 → ni=4 (Lyman-γ absorption). Wrong answer: assuming emission (ni→nf) gives ni=1, nf=4 which is impossible because ni>nf for emission; or trying nf=2 gives 1/ni² negative. This tests if the student knows absorption goes from lower to higher n and can solve for integers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The first line of the Balmer series (H-α) has a longer wavelength than the first line of the Paschen series.\" Evaluate this statement. Is it true or false? Justify with calculations.",
+     "a": "False. First line means smallest energy jump: for Balmer, ni=3→nf=2; for Paschen, ni=4→nf=3. Balmer H-α: 1/λ = R_H(1/4 - 1/9) = R_H(5/36) → λ = 36/(5R_H) = 656.3 nm. Paschen first line: 1/λ = R_H(1/9 - 1/16) = R_H(7/144) → λ = 144/(7R_H) = 1875 nm. 1875 nm > 656 nm, so Paschen first line has longer wavelength (lower energy). The student incorrectly assumed \"first line\" means shortest wavelength (series limit) or confused the energy gap trend. Correct reasoning: as nf increases, the energy gaps between adjacent levels decrease, so the first line (smallest jump) moves to longer wavelength.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a hydrogen discharge tube, a diffraction grating, and a spectrometer to verify the Rydberg formula. Describe the measurements you would take, the graph you would plot, and how you would extract R_H from the slope.",
+     "a": "Measure the diffraction angles θ for each visible Balmer line (H-α 656 nm, H-β 486 nm, H-γ 434 nm, H-δ 410 nm). Use grating equation d sinθ = mλ (m=1) to find λ. Plot 1/λ (y-axis) vs (1/2² - 1/ni²) for ni=3,4,5,6 (x-axis). The graph should be a straight line through origin with slope = R_H. A poor answer would plot λ vs ni (non-linear), forget to use the grating equation to convert θ to λ, or not realise the x-values are (1/4 - 1/ni²). This tests ability to design a verification experiment and linearise the Rydberg formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

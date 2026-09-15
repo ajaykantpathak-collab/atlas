@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch08_001",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch08_001",
+   "title": "c6_economics_ch08_001",
+   "questions": [
+    {
+     "q": "What are the two main functions of a bank?\n(Recall)",
+     "a": "The two main functions are accepting deposits from people with extra money and lending money to those who need it. A wrong answer suggests the student confuses a bank with a simple storage locker, failing to recognize the \"lending\" or \"circulating\" aspect of finance.",
+     "self_check": true
+    },
+    {
+     "q": "Keeping money in a bank keeps it safe and prevents it from sitting idle, whereas money under a bed earns nothing and faces risks like theft. If a student says \"because it gives you more money,\" they may be over-generalizing; focus on safety and the ability to access it as the primary immediate benefit.",
+     "a": "**Correct Answer:**\nKeeping money in a bank is better because it is safer from theft or accidental loss and earns interest, which allows your money to grow over time. Unlike a box under your bed, a bank also provides secure digital access to your funds for easier transactions.\n\n**Explanation:**\nA wrong answer—such as claiming that banks are worse because they \"keep your money\" or \"might lose it\"—reveals a **misconception regarding financial security and the role of banking institutions.** It suggests the student does not yet understand the concept of deposit insurance (like FDIC) or the fundamental purpose of a bank as a secure, interest-bearing repository versus a high-risk, stagnant storage method.",
+     "self_check": true
+    },
+    {
+     "q": "If your neighbour needs money to open a small bakery, where can they go to get it, and what is that process called?\n(Apply)",
+     "a": "They can go to a bank to request a loan. The process is: 1) Identify the need, 2) Approach the bank, 3) Request the loan, 4) Bank provides the funds from its pool of deposits. A wrong answer suggests the student doesn't see the bank as a source of capital for economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "How do banks help \"connect\" two different types of people in a town?\n(Analyze)",
+     "a": "Banks connect people with \"extra money\" (depositors) to people who \"need money\" (borrowers). By acting as a middleman, the bank ensures money is used effectively rather than being hidden away. A wrong answer shows a failure to see the bank as a social/economic bridge.",
+     "self_check": true
+    },
+    {
+     "q": "Is it safer to lend your own savings directly to a stranger for their business, or to deposit it in a bank? Why?\n(Evaluate)",
+     "a": "It is safer to use a bank because banks have systems to manage risk and security that an individual does not. Lending to a stranger directly carries a high risk of losing your money if they cannot pay you back.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are the manager of a new bank. How would you explain to a villager why they should open an account?\n(Create)",
+     "a": "A good answer would highlight safety, the prevention of theft, and the idea that their money helps the community grow. A poor answer would focus purely on profit or ignore the \"safe place\" aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

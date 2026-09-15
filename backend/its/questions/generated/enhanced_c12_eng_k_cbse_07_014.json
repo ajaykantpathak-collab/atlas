@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_07_014",
+   "title": "c12_eng_k_cbse_07_014",
+   "questions": [
+    {
+     "q": "What are the four components of the PEEL paragraph structure used in literary analysis answers?",
+     "a": "The four components are: **Point** (topic sentence stating the argument), **Evidence** (quoted or paraphrased textual support), **Explanation** (analysis of how the evidence works — device, effect, nuance), and **Link** (connecting back to the question/thesis). A wrong answer like \"Introduction, Body, Conclusion\" reveals the student confuses essay-level structure with paragraph-level analytical structure. Another error: listing \"Quote, Device, Meaning\" — this misses the crucial *Link* step that ties analysis to the central argument.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why embedding a short phrase from the poem (e.g., \"live-long Monument\") is more effective than quoting a full line or summarizing in your own words.",
+     "a": "Embedded phrases maintain analytical flow, allow precise focus on specific words/images, and show examiner you can isolate the most significant language. Quoting full lines wastes words and often leads to \"quote dumping\" without analysis. Summarizing loses the poet's exact diction — e.g., saying \"Shakespeare builds a monument\" misses the metaphorical weight of \"live-long\" (organic, growing) vs. stone. A wrong answer like \"quotes get more marks\" shows procedural thinking without understanding *how* embedded evidence enables deeper analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Here is a weak student answer on \"On Time\": *\"Milton says Time is envious and eats everything. He uses personification. Time has a 'womb' and 'greedy self'. In the end, Eternity wins. The poem has rhyme.\"* Rewrite this as one strong PEEL paragraph analyzing personification.",
+     "a": "**Point:** Milton personifies Time as a devouring monster to emphasize its destructive but ultimately futile power.  \n**Evidence:** He calls Time \"envious\" with a \"womb\" that \"devours\" and a \"greedy self\" that is finally \"consum'd\".  \n**Explanation:** The biological imagery (\"womb\", \"consum'd\") transforms Time into a cannibalistic parent consuming its own offspring — the \"mortal dross\" of human life. Yet the verb \"consum'd\" recoils on Time itself: the destroyer is destroyed. This structural irony (the consumer becomes the consumed) enacts the poem's theological argument: Time's tyranny is temporary.  \n**Link:** Thus personification does not merely decorate — it enacts the cosmic reversal where \"long Eternity\" triumphs.  \nA wrong answer that just lists devices (\"personification in womb, metaphor in Plummets\") without explaining *why Milton chooses those specific images* reveals surface-level feature-spotting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"On Time\" and \"On Shakespeare\" use the concept of *monument* — one explicitly rejected, one implicitly achieved. What does this contrast reveal about Milton's view of art vs. time?",
+     "a": "In \"On Time\", the \"piled Stones\" and \"Star-ypointing Pyramid\" are explicitly dismissed as \"weak witness\" — physical monuments cannot withstand Time's \"heavy Plummets pace\". In \"On Shakespeare\", the poet *becomes* the monument: \"Thou in our wonder and astonishment / Hast built thy self a live-long Monument.\" The contrast reveals Milton's core belief: **art outlasts stone because it lives in human consciousness**. The \"Marble\" of Shakespeare's verse is not cold stone but the warmed imagination of readers (\"each heart / Hath from the leaves... took / Those Delphic lines\"). A wrong answer that says \"both poems talk about monuments\" misses the *inversion*: the first poem rejects monuments as futile; the second redefines monument as living artistic reception. This confusion shows inability to track conceptual development across texts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: *\"Milton's 'On Shakespeare' is more effective because it uses simpler language than 'On Time'.\"* Defend or challenge with two specific textual reasons.",
+     "a": "**Challenge.** Simplicity ≠ effectiveness.  \n1. **\"On Time\"** uses dense Latinate syntax (\"Fly envious Time, till thou run out thy race\") and archaic contractions (\"entomb'd\", \"consum'd\") to mimic Time's ponderous, inevitable movement — the *language enacts the theme*.  \n2. **\"On Shakespeare\"** achieves power through *conversational directness* (\"What needs my Shakespear...\") and compressed metaphor (\"live-long Monument\", \"Delphic lines\") that demand active reader participation.  \nEffectiveness lies in *form-theme congruence*, not lexical simplicity. A wrong answer agreeing with the claim reveals equating \"simple words\" with \"clear meaning\" — a misconception that ignores how poetic complexity *creates* meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence critical appreciation opening for an unseen 14-line poem about a river that \"carves stone with patient tongue\". Include: thesis, one device, its effect, and link to theme.",
+     "a": "**Sample answer:**  \n\"The poem presents the river as a quiet sculptor whose 'patient tongue' redefines endurance not as force but as persistent gentleness. The central metaphor — water having a 'tongue' that 'carves' — fuses speech and erosion, suggesting nature's power is articulate, deliberate, not violent. This personification transforms geological time into a form of storytelling, where each groove in stone is a syllable. Ultimately, the poem argues that true transformation works through tenderness, not trauma.\"  \nA poor answer would describe the river (\"The poem is about a river that cuts stone\") without thesis, device naming, or thematic link — revealing confusion between *summary* and *critical appreciation*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

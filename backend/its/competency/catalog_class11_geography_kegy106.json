@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 106,
+ "chapter_title": "Natural Hazards and Disasters",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy106.txt",
+ "concepts": [
+  {
+   "id": "kegy.106.1.1",
+   "title": "Natural Hazards: Earthquakes, Tsunami, Cyclones and Floods",
+   "section": "Natural hazards",
+   "definition": "Natural hazards include earthquakes along seismic zones, tsunamis from undersea earthquakes, tropical cyclones of the Bay of Bengal and Arabian Sea, floods and droughts from rainfall variability, and landslides in mountains, each demanding preparedness and management.",
+   "formula": "",
+   "key_idea": "India's seismic zoning marks the most quake-prone Himalayan belt, and the east coast faces frequent tropical cyclones in the retreating monsoon season.",
+   "textbook_ref": "kegy106.txt hazards sections",
+   "question_patterns": [
+    "classify the natural hazards affecting india",
+    "why are the himalayas earthquake prone",
+    "how do tropical cyclones form in the indian seas",
+    "what causes floods and droughts in india",
+    "explain the occurrence of landslides in mountains",
+    "describe the tsunami hazard of the indian ocean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.106.2.1",
+   "title": "Disaster Management and Mitigation",
+   "section": "Disaster management",
+   "definition": "Disaster management moves through prevention, mitigation, preparedness, response and recovery, using early warning systems, cyclone shelters, land use regulation, relief and rehabilitation to reduce losses from natural hazards.",
+   "formula": "",
+   "key_idea": "Community preparedness with warning dissemination and rescue training converts hazards from disasters into manageable events.",
+   "textbook_ref": "kegy106.txt management section",
+   "question_patterns": [
+    "state the phases of disaster management",
+    "what early warning systems exist for cyclones",
+    "how does land use regulation reduce disaster risk",
+    "explain relief and rehabilitation after a disaster",
+    "what is mitigation in disaster management",
+    "describe community preparedness for natural hazards"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.106.3.1",
+   "title": "Vulnerability Zones and Community Preparedness",
+   "section": "Natural hazards",
+   "definition": "India's hazard vulnerability is mapped into seismic zones with the Himalayan belt in the most severe zone, a cyclone prone east coast, flood plains of the Ganga-Brahmaputra and drought prone arid tracts, so vulnerability zoning with community preparedness reduces disaster losses.",
+   "formula": "",
+   "key_idea": "Knowing the vulnerable zone lets authorities plan building codes, shelters and evacuation routes before the hazard strikes.",
+   "textbook_ref": "kegy106.txt vulnerability sections",
+   "question_patterns": [
+    "which areas of india fall in the highest seismic zone",
+    "why is the east coast more cyclone prone than the west",
+    "which regions of india are drought prone",
+    "how does vulnerability zoning help in disaster planning",
+    "describe the role of the community in disaster preparedness",
+    "name the flood prone areas of india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy106.txt exercises",
+   "questions": [
+    "Define natural hazard and disaster with examples.",
+    "Explain the causes and effects of earthquakes in India.",
+    "Describe the management of flood hazards.",
+    "What is a cyclone and how are warnings issued?",
+    "Suggest mitigation measures for landslides."
+   ]
+  }
+ ]
+}

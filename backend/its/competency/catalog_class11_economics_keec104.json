@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 104,
+ "chapter_title": "Human Capital Formation in India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec104.txt",
+ "concepts": [
+  {
+   "id": "keec.104.1.1",
+   "title": "Human Capital and Human Capital Formation",
+   "section": "Human capital formation",
+   "definition": "Human capital formation is the process of adding skills and knowledge to the population through education, health, training, migration and information, making people a productive resource whose returns appear as higher earnings and faster growth.",
+   "formula": "",
+   "key_idea": "Expenditure on education and health is treated as investment in human capital because it raises future productivity, just like investment in physical capital.",
+   "textbook_ref": "keec104.txt human capital sections",
+   "question_patterns": [
+    "define human capital and human capital formation",
+    "name the sources of human capital formation",
+    "why is expenditure on education an investment",
+    "compare human capital with physical capital",
+    "how does health contribute to human capital",
+    "what role does migration play in human capital formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the investment",
+     "explain": "Note spending on education, health, training or migration."
+    },
+    {
+     "step": 2,
+     "action": "trace the capability gain",
+     "explain": "Link spending to skills, knowledge and health."
+    },
+    {
+     "step": 3,
+     "action": "state the return",
+     "explain": "Show the productivity and earnings effect."
+    }
+   ]
+  },
+  {
+   "id": "keec.104.2.1",
+   "title": "Education Sector in India: Levels, Institutions and Expenditure",
+   "section": "Education sector",
+   "definition": "Education in India spans elementary, secondary, higher and adult levels with institutions from primary schools to universities, financed by government and private spending, and literacy rates and enrolment ratios measure progress, with the Right to Education making elementary education a fundamental right.",
+   "formula": "",
+   "key_idea": "Government expenditure on education as a percentage of GDP and the rise in literacy rate indicate the growth of the education sector.",
+   "textbook_ref": "keec104.txt education sector sections",
+   "question_patterns": [
+    "describe the levels and institutions of education in india",
+    "why is elementary education called the foundation of education",
+    "what is the right to education act",
+    "how is education expenditure classified into revenue and capital",
+    "state the progress of literacy in india",
+    "compare government and private spending on education"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the level",
+     "explain": "Sort the institution into elementary, secondary, higher or adult level."
+    },
+    {
+     "step": 2,
+     "action": "note the financing",
+     "explain": "Separate government from private spending."
+    },
+    {
+     "step": 3,
+     "action": "measure the progress",
+     "explain": "Use literacy and enrolment indicators."
+    }
+   ]
+  },
+  {
+   "id": "keec.104.3.1",
+   "title": "Unemployment, Human Capital and Economic Growth Linkage",
+   "section": "Human capital and growth",
+   "definition": "Human capital formation raises productivity and growth but unemployment wastes human capital; defects of the education system include low public spending, mismatch between education and jobs, brain drain and gender and regional disparities in literacy.",
+   "formula": "",
+   "key_idea": "The chapter stresses that without jobs, educated persons cannot deploy their human capital, weakening the education growth linkage.",
+   "textbook_ref": "keec104.txt unemployment and growth sections",
+   "question_patterns": [
+    "how does unemployment affect human capital formation",
+    "state the defects of the indian education system",
+    "what is brain drain and why does it occur",
+    "explain the linkage between human capital and economic growth",
+    "what are the regional and gender disparities in education",
+    "why is education called the foundation of development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the waste of skills",
+     "explain": "Connect joblessness to unutilised human capital."
+    },
+    {
+     "step": 2,
+     "action": "identify the defects",
+     "explain": "List spending, mismatch and disparity issues."
+    },
+    {
+     "step": 3,
+     "action": "link to growth",
+     "explain": "State how reforming education strengthens growth."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec104.txt exercises",
+   "questions": [
+    "What are the two major sources of human capital in a country?",
+    "What are the indicators of educational achievement in a country?",
+    "Why do we need to invest in human capital?",
+    "Compare human capital with physical capital.",
+    "What is the role of health in human capital formation?"
+   ]
+  }
+ ]
+}

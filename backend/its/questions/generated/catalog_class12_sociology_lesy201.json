@@ -1,0 +1,244 @@
+{
+ "catalog": "catalog_class12_sociology_lesy201",
+ "concepts": [
+  {
+   "id": "lesy201.1",
+   "title": "Colonialism as a Structure and System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colonialism as a Structure and System' refers to.",
+     "a": "Colonialism is the imposition of one country's rule over another territory. Under capitalism it worked far deeper than earlier empires: instead of merely skimming tribute off an untouched economy, it rewrote property law, dictated which crops were grown, reorganised manufacture and trade, entered the forests, and moved people across continents to serve metropolitan interests.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonialism as a Structure and System'.",
+     "a": "Pre-capitalist conquerors took a flow of surplus and left the base alone; British rule rebuilt production itself, so its effects still shape Indian institutions today.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colonialism as a Structure and System', in plain ASCII form.",
+     "a": "colonial_rule = tribute_not_enough ; depth = laws + crops + manufacturing + forests + migration",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.2",
+   "title": "Capitalism and the Nation State as Modern Forms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Capitalism and the Nation State as Modern Forms' refers to.",
+     "a": "Capitalism is an economic arrangement in which private owners run production for profit inside a market, constantly expanding and innovating. Its matching political form is the nation state: a sovereign government over a defined territory whose people are citizens of one nation. Nationalism claims every people has the right to such self rule, which is precisely what colonial domination denied Indians.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capitalism and the Nation State as Modern Forms'.",
+     "a": "Colonialism contradicted its own ideals: Britain carried nationalist and democratic ideas to India while refusing Indians the sovereignty those ideas promised.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capitalism and the Nation State as Modern Forms', in plain ASCII form.",
+     "a": "modern_pair = capitalism_economic + nation_state_political ; sovereignty = defined_territory + single_citizenship",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.3",
+   "title": "Industrialisation: The Western Path and the Colonial Diversion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrialisation: The Western Path and the Colonial Diversion' refers to.",
+     "a": "Industrialisation is the shift of production to machines run on non-living energy such as steam or electricity, drawing most workers out of farming into factories, offices and shops. In Britain this ran together with city growth, but in colonial India the same british machinery ruined handicraft exports and pushed people back into agriculture instead.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrialisation: The Western Path and the Colonial Diversion'.",
+     "a": "Manchester goods destroyed indian cotton and silk exports; surat and masulipatnam declined while bombay and madras grew, and court cities like murshidabad lost their artisans.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Industrialisation: The Western Path and the Colonial Diversion', in plain ASCII form.",
+     "a": "western_path = machines + city_growth ; colonial_path = handicraft_decline + shift_to_farming",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.4",
+   "title": "Britain's Urban Transition 1800 to 1900",
+   "questions": [
+    {
+     "q": "Using the method 'Britain's Urban Transition 1800 to 1900', work with: london_1800 = 30, london_1900 = 400, urban_share_1800 = 0.75, urban_share_1900 = 0.8. Carry the chain through step by step and give the final value of london_multiple.",
+     "a": "13.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Britain's Urban Transition 1800 to 1900' and work with: london_1800 = 24, london_1900 = 8, urban_share_1800 = 0.6, urban_share_1900 = 0.45. Carry the chain through step by step and give the final value of london_multiple.",
+     "a": "0.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Britain's Urban Transition 1800 to 1900' refers to.",
+     "a": "Britain was the first society to turn from rural to mainly urban. Census style arithmetic turns that story into numbers: the percentage point rise in the town dwelling share, and the growth multiple by which london expanded across the nineteenth century.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Britain's Urban Transition 1800 to 1900'.",
+     "a": "A percentage point rise measures the change in a share, while a multiple compares two sizes directly by division.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Britain's Urban Transition 1800 to 1900', in plain ASCII form.",
+     "a": "urban_rise = urban_share_1900 - urban_share_1800 ; london_multiple = london_1900 / london_1800",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.5",
+   "title": "Colonial Port Cities as Core-Periphery Links",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colonial Port Cities as Core-Periphery Links' refers to.",
+     "a": "Colonial cities sat on the coast to serve empire trade: primary commodities flowed out through mumbai, kolkata and chennai, and british manufactures flowed cheaply in. They were the visible gateways joining the capitalist core in britain to the colonised periphery in india.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonial Port Cities as Core-Periphery Links'.",
+     "a": "By 1900 over three quarters of india's raw cotton moved through bombay; calcutta shipped jute while madras sent coffee, sugar, indigo dyes and cotton.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Colonial Port Cities as Core-Periphery Links', in plain ASCII form.",
+     "a": "city_role = export_raw_materials + import_manufactures ; link = core_britain + periphery_india",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.6",
+   "title": "Tea Plantation Workforce Arithmetic 1903",
+   "questions": [
+    {
+     "q": "Using the method 'Tea Plantation Workforce Arithmetic 1903', work with: permanent_workers = 25000, temporary_workers = 5000. Carry the chain through step by step and give the final value of permanent_share.",
+     "a": "83.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Tea Plantation Workforce Arithmetic 1903' and work with: permanent_workers = 12000, temporary_workers = 1200. Carry the chain through step by step and give the final value of permanent_share.",
+     "a": "90.9091 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Tea Plantation Workforce Arithmetic 1903' refers to.",
+     "a": "Assam's tea gardens ran on workers imported from distant provinces, recruited through contractors, fraud and penal laws. The 1903 payroll lists permanent and temporary employees; adding the two gives the industry's total strength, and division turns each category into a share of the workforce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tea Plantation Workforce Arithmetic 1903'.",
+     "a": "A two category payroll becomes shares by one addition and one part-whole division scaled by a hundred.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Tea Plantation Workforce Arithmetic 1903', in plain ASCII form.",
+     "a": "total_workforce = permanent_workers + temporary_workers ; temporary_share = temporary_workers / total_workforce * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.7",
+   "title": "M S A Rao's Three Types of Urban Impact on Villages",
+   "questions": [
+    {
+     "q": "Using the method 'M S A Rao's Three Types of Urban Impact on Villages', work with: distant_migration = 24, industrial_town_displacement = 240, metropolitan_expansion = 60. Carry the chain through step by step and give the final value of urban_impact.",
+     "a": "324 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'M S A Rao's Three Types of Urban Impact on Villages' and work with: distant_migration = 25, industrial_town_displacement = 18, metropolitan_expansion = 24. Carry the chain through step by step and give the final value of urban_impact.",
+     "a": "67 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'M S A Rao's Three Types of Urban Impact on Villages' refers to.",
+     "a": "Rao sorts village-urban contact into three situations: villagers migrating singly to distant cities while families stay behind in the natal village; villages uprooted or partly acquired when an industrial town such as bhilai rises nearby; and villages absorbed, or their land taken, as a metropolis expands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'M S A Rao's Three Types of Urban Impact on Villages'.",
+     "a": "The nature of urban influence depends on the kind of relation a village has with a city or town - how distant it is and what sort of centre it is.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'M S A Rao's Three Types of Urban Impact on Villages', in plain ASCII form.",
+     "a": "urban_impact = distant_migration + industrial_town_displacement + metropolitan_expansion",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.8",
+   "title": "Village Migration Shares from Household Counts",
+   "questions": [
+    {
+     "q": "Find the percentage of madhopur households with no migrant member. Use the method 'Village Migration Shares from Household Counts'. Work with: migrant_households = 48000, total_households = 60000. Carry the chain through step by step and give the final value of staying_count.",
+     "a": "12000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the number of madhopur households that do not have any migrant. Use the method 'Village Migration Shares from Household Counts'. Work with: migrant_households = 5000, total_households = 60000. Carry the chain through step by step and give the final value of staying_count.",
+     "a": "55000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Village Migration Shares from Household Counts' refers to.",
+     "a": "Survey counts become shares by division: households with migrants over all households gives the migration rate, its complement gives the stayers, and the stayers' count follows from the share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Village Migration Shares from Household Counts'.",
+     "a": "Every part-whole percentage is one division scaled by a hundred, and its complement falls out by subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Village Migration Shares from Household Counts', in plain ASCII form.",
+     "a": "migrant_share = migrant_households / total_households * 100 ; staying_share = 100 - migrant_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy201.9",
+   "title": "Urban India 1951 to 2011: Shares, Totals and Growth",
+   "questions": [
+    {
+     "q": "Using the method 'Urban India 1951 to 2011: Shares, Totals and Growth', work with: towns_1951 = 30, towns_2011 = 6, urban_pop_1951 = 18, urban_pop_2011 = 6, urban_share_2011 = 0.6. Carry the chain through step by step and give the final value of town_multiple.",
+     "a": "0.2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Urban India 1951 to 2011: Shares, Totals and Growth' and work with: towns_1951 = 360, towns_2011 = 18, urban_pop_1951 = 50, urban_pop_2011 = 100, urban_share_2011 = 0.2. Carry the chain through step by step and give the final value of town_multiple.",
+     "a": "0.05 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Urban India 1951 to 2011: Shares, Totals and Growth' refers to.",
+     "a": "Census tables report the urban percentage and the urban population in millions. Dividing one by the other recovers the national total, a subtraction across the sixty years gives overall growth, and the ratio of town counts shows how the urban system multiplied - even while the decennial growth rate trended down.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Urban India 1951 to 2011: Shares, Totals and Growth'.",
+     "a": "The urban share climbed from about 17 to 31 per cent while the decennial growth rate fell from 41.42 to 31.80, and for the first time urban areas added more people than rural ones.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Urban India 1951 to 2011: Shares, Totals and Growth', in plain ASCII form.",
+     "a": "total_pop = urban_pop / (urban_share / 100) ; overall_growth = (urban_2011 - urban_1951) / urban_1951 * 100 ; town_multiple = towns_2011 / towns_1951",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_10",
+   "title": "c9_geo_ch2_10",
+   "questions": [
+    {
+     "q": "Define carbon footprint and state its standard unit of measurement.",
+     "a": "Carbon footprint is the total greenhouse gas emissions caused directly and indirectly by an entity, measured in tonnes of carbon dioxide equivalent (tCO₂e). A wrong answer (e.g., \"only CO₂ emissions\" or unit as \"kg\") reveals the student misses other GHGs like methane and the equivalence concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two families living in identical apartments in Delhi might have different carbon footprints even if they use the same amount of electricity.",
+     "a": "Differences arise from indirect emissions: diet (meat vs vegetarian), waste generation, travel mode (car vs metro), and consumption habits (buying new vs reused goods). Electricity is only direct emissions; footprint includes embodied emissions in goods/services. A wrong answer focusing only on electricity shows confusion between direct and indirect emissions.",
+     "self_check": true
+    },
+    {
+     "q": "A household in Mumbai uses 350 kWh electricity/month (emission factor: 0.82 kg CO₂/kWh), 15 kg LPG/month (emission factor: 2.99 kg CO₂/kg), and drives 800 km/month in a petrol car (12 km/litre, emission factor: 2.31 kg CO₂/litre). Calculate their monthly carbon footprint in kg CO₂e.",
+     "a": "Step 1: Electricity = 350 × 0.82 = 287 kg CO₂. Step 2: LPG = 15 × 2.99 = 44.85 kg CO₂. Step 3: Petrol used = 800/12 = 66.67 litres; emissions = 66.67 × 2.31 = 154 kg CO₂. Step 4: Total = 287 + 44.85 + 154 = 485.85 kg CO₂e ≈ 0.486 tCO₂e. Wrong answer (e.g., missing LPG or using wrong fuel efficiency) reveals inability to handle multiple emission sources and unit conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the carbon footprint reduction potential of (a) switching from coal-based grid electricity to rooftop solar in Gujarat vs (b) switching from petrol car to electric vehicle in the same state. Which yields greater reduction per household? Justify using India's grid emission factor.",
+     "a": "Rooftop solar eliminates ~0.82 kg CO₂/kWh for all electricity used. EV charged from grid still uses coal-based electricity (~0.82 kg CO₂/kWh) so reduction depends on grid decarbonisation. Currently, solar gives greater immediate reduction per household in Gujarat. Wrong answer choosing EV without considering grid source shows failure to analyse systemic emission factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"If every Indian household replaces one incandescent bulb with an LED, India's total carbon footprint will drop by 10%.\" State whether you agree/disagree and provide two reasons.",
+     "a": "Disagree. Reason 1: Residential lighting is a small fraction (~10-15%) of India's total electricity consumption; industry and agriculture dominate. Reason 2: Rebound effect – savings may increase usage elsewhere. A 10% national drop overestimates household lighting's share. Wrong agreement reveals lack of sectoral emission perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-month \"Low Carbon Challenge\" for your school. List five measurable actions students can take, the data they must collect, and how to calculate the collective footprint reduction. Include at least one action addressing indirect emissions.",
+     "a": "Actions: 1) Walk/cycle to school (track km saved vs bus/car). 2) Zero food waste lunch (weigh waste daily). 3) AC/ fan off when not in room (log hours). 4) Reuse notebooks/ paper (count pages saved). 5) Plant/maintain trees (record number). Data: baseline vs challenge period. Calculation: use emission factors for transport, waste (methane), electricity, paper production. Poor answer lists vague actions without measurable data or ignores indirect emissions (food, paper).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

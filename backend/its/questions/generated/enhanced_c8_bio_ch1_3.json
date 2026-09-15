@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_3",
+   "title": "c8_bio_ch1_3",
+   "questions": [
+    {
+     "q": "What is the primary reason why a cell is referred to as the structural unit of living organisms?",
+     "a": "A cell is the structural unit because all living bodies are constructed from cells, much like a building is constructed from bricks. A wrong answer like \"cells give energy\" confuses structural support with metabolic function. Another wrong answer like \"cells only exist in plants\" shows a lack of awareness that animals are also cellular.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a single-celled (unicellular) organism like an Amoeba can survive independently, whereas a single cell from the human stomach lining cannot survive on its own outside the body.",
+     "a": "An Amoeba is unicellular, meaning its single cell contains all the necessary machinery to perform all life processes (feeding, respiration, excretion, reproduction) independently. In contrast, a human stomach cell is specialized for a single function (like secreting acid) and relies on other cells in the multicellular organism for oxygen, nutrients, and waste removal. A wrong answer assumes all cells are identical in capability regardless of whether they belong to a unicellular or multicellular organism.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes an onion peel cell and a cheek cell under a microscope. The onion cell has a rigid outer boundary, while the cheek cell does not. Based on cell structure principles, how does this difference relate to their functional needs?",
+     "a": "Steps: 1) Identify that onion cells are plant cells needing structural rigidity to stand upright against gravity without a skeleton. 2) Identify that cheek cells are animal cells that require flexibility for movement and shape changes. 3) Connect the rigid outer boundary in plants to a cell wall, which is absent in animal cheek cells. 4) Conclude that structural differences match the organism's survival strategy. A wrong answer would claim that animal cells lack membranes entirely or that plant cells do not need protection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the division of labor in a multicellular organism (like a human) with that in a unicellular organism (like Paramecium). How is cellular organization different in both?",
+     "a": "In a multicellular organism, cells divide labor by specializing into tissues, organs, and systems (e.g., nerve cells transmit signals, muscle cells contract), meaning no single cell does everything. In a unicellular organism, all life processes are performed by organelle structures within that single cell, so there is no tissue-level division of labor. A wrong answer suggests that unicellular organisms have organ systems.",
+     "self_check": true
+    },
+    {
+     "q": "An argument is made that \"since bacteria are single-celled and microscopic, they are simpler and less alive than multicellular organisms.\" Evaluate this statement using biological reasoning.",
+     "a": "The statement is false. While bacteria are microscopic and unicellular, they carry out all essential life processes—metabolism, response to stimuli, replication, and energy extraction—just as effectively as multicellular organisms. Complexity does not equal being \"more alive\"; it only means division of labor is distributed among different cell types. A wrong answer assumes complexity defines the threshold of life.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using household items (like gelatin, beads, and a plastic bag) to represent a generalized animal cell. Explain which item represents the cell's boundary and which represents the fluid interior.",
+     "a": "A good design uses a Ziploc bag to represent the flexible cell membrane (boundary) and jelly or water-soaked gelatin to represent the cytoplasm (fluid interior), with floating beads representing organelles. A poor answer uses rigid cardboard for the boundary of an animal cell or misses the fluid component, showing confusion between plant cell walls and animal cell membranes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

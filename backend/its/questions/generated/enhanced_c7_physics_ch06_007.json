@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_007",
+   "title": "c7_physics_ch06_007",
+   "questions": [
+    {
+     "q": "Which three celestial bodies must align in a straight line for a solar eclipse to occur?",
+     "a": "The Sun, the Moon, and the Earth must align in that specific order, with the Moon in the middle. A wrong answer shows confusion with a lunar eclipse, where the Earth is in the middle between the Sun and the Moon.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a solar eclipse can only happen during the New Moon phase and not during a Full Moon.",
+     "a": "During a New Moon phase, the Moon is positioned directly between the Sun and Earth, which is the exact geometric requirement for casting a shadow toward Earth. A wrong answer indicates a misunderstanding of the Moon's monthly revolution and relative positions.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon is at its average orbital distance from Earth and completely blocks the Sun's bright disk for an observer in the umbra, what specific type of solar eclipse are they experiencing, and what is the duration range?",
+     "a": "The observer is experiencing a Total Solar Eclipse, lasting anywhere from a few seconds to a maximum of about 7.5 minutes. A wrong answer suggests the student confuses total blocking with partial blocking or annular ring formation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why an observer standing in the penumbra region of the Moon's shadow sees a partial solar eclipse rather than a total one.",
+     "a": "The penumbra is the lighter outer shadow where only a portion of the Sun's light is blocked by the Moon, allowing the observer to see a crescent-shaped Sun. A wrong answer fails to recognize the difference between the central umbra and the partial penumbra shadow zones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An annular solar eclipse happens when the Moon is closest to Earth (perigee) and blocks the entire Sun.\" Is this statement correct or incorrect?",
+     "a": "The statement is incorrect because an annular eclipse occurs when the Moon is farthest from Earth (apogee), appearing slightly smaller in the sky and leaving a bright ring of sunlight visible around its edges. A wrong answer shows a lack of understanding regarding how the Moon's changing distance affects its apparent size.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a small sphere (representing the Moon), a large globe (representing Earth), and a torchlight (representing the Sun) to show how an umbra is created during a solar eclipse.",
+     "a": "A good answer should explain placing the torchlight at one end, the small sphere in the middle to block the light, and observing the sharp dark central shadow projected onto the globe. A poor answer fails to connect the shadow size and darkness to the relative positions of the light source and blocking object.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

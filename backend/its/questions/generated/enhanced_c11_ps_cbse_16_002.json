@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_002",
+   "title": "c11_ps_cbse_16_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the division of legislative powers between the Union and the States in India, and which article embodies this division?",
+     "a": "The division of legislative powers is based on the Seventh Schedule of the Constitution, which contains three lists: Union List, State List, and Concurrent List. Article 246 distributes legislative authority by referencing these lists. A wrong answer (e.g., citing Article 1 or Article 3) reveals confusion between the declaration of the Union and the actual distribution of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the power of Parliament to reorganize states under Article 3 is considered a unitary feature, even though India has a federal structure.",
+     "a": "Article 3 allows Parliament to form new states, alter boundaries, or change names by a simple majority, without the consent of the affected state legislature (only its views are sought). In a classic federation (e.g., USA), such changes require the consent of the concerned states. This central override of state territorial integrity is a unitary feature. A wrong answer might claim states have veto power, misunderstanding the \"views\" requirement as consent.",
+     "self_check": true
+    },
+    {
+     "q": "A state government enacts a law on a subject in the Concurrent List (e.g., forest conservation). The Union later passes a law on the same subject that contradicts the state law. Which law prevails and under what constitutional provision?",
+     "a": "The Union law prevails under Article 254(1) because in case of conflict on a Concurrent List subject, the central law overrides the state law unless the state law was reserved for Presidential assent and received it under Article 254(2). A wrong answer (e.g., state law prevails because it was enacted first) shows ignorance of the constitutional supremacy clause for Concurrent subjects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedures of the Indian Constitution (Article 368) and the US Constitution. How does the Indian procedure reflect a blend of federal and unitary characteristics?",
+     "a": "The US requires 2/3 of both houses of Congress plus ratification by 3/4 of states — a strictly federal process. India's Article 368 has three tiers: (1) simple majority for some provisions (unitary), (2) special majority of Parliament for most provisions (semi-federal), (3) special majority plus ratification by half the states for federal provisions (e.g., Article 368 proviso, Seventh Schedule). This tiered approach blends federal and unitary features. A wrong answer that says \"all amendments require state ratification\" misses the nuanced categorization.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Emergency provisions (Articles 352, 356, 360) convert India into a unitary state.\" Is this conversion permanent or temporary? Justify with constitutional safeguards.",
+     "a": "During a Proclamation of Emergency (Art. 352), President's Rule (Art. 356), or Financial Emergency (Art. 360), the Union assumes sweeping powers over states, effectively making the system unitary. However, this is temporary: emergencies require parliamentary approval within one month, periodic renewal, and judicial review (S.R. Bommai case for Art. 356). The federal structure revives automatically upon revocation. A wrong answer that calls it permanent ignores the time-bound, reviewable nature of emergencies.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical country that wants to adopt a federal system but avoid the \"unitary bias\" seen in India. Your provision must address at least three of the following: division of powers, amendment procedure, emergency powers, residuary powers, state representation in the upper house.",
+     "a": "A good answer will specify: (1) exclusive legislative lists for each level with no concurrent list, (2) amendments requiring consent of a majority of states, (3) no emergency provision allowing central takeover of state governments, (4) residuary powers vested in states, (5) upper house with equal state representation and veto over federal legislation. A poor answer copies Indian provisions without modification, showing inability to design a purer federal model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

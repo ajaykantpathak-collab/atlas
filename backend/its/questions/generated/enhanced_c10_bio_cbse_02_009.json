@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_009",
+   "title": "c10_bio_cbse_02_009",
+   "questions": [
+    {
+     "q": "Name the hormone secreted by the thyroid gland that regulates basal metabolic rate and state the mineral element essential for its synthesis.",
+     "a": "The hormone is thyroxine (T4) or triiodothyronine (T3); the essential mineral is iodine. A wrong answer (e.g., \"insulin\" or \"iron\") reveals the student cannot distinguish between endocrine glands and their specific hormones, or confuses the mineral requirement for thyroid hormone (iodine) with that for haemoglobin (iron).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person living in the sub-Himalayan region who does not consume iodised salt develops a swelling in the neck (goitre), linking the lack of iodine to the hormone feedback loop.",
+     "a": "Low dietary iodine → thyroid cannot synthesise thyroxine → low blood thyroxine levels → pituitary senses this and secretes excess TSH → TSH overstimulates thyroid gland → thyroid hypertrophies (enlarges) causing goitre. A wrong answer that stops at \"low iodine causes goitre\" without mentioning TSH overstimulation reveals the student does not understand the negative feedback mechanism (taught in c10_bio_cbse_02_008) and thinks the gland swells directly due to iodine lack.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old child shows stunted growth, mental retardation, and a puffy face. The doctor suspects a thyroid disorder. Predict whether this is hypothyroidism or hyperthyroidism, and name the specific condition. Justify your answer using the role of thyroxine in development.",
+     "a": "Hypothyroidism; condition is cretinism. Thyroxine is essential for normal growth of bones and brain development in children. Deficiency during early years causes irreversible stunting and mental retardation. A wrong answer of \"hyperthyroidism\" or \"goitre\" shows the student confuses the general term (goitre) with the specific developmental disorder (cretinism) and does not recall that thyroxine deficiency in children affects growth (linked to Class 6 \"Physical Changes in Adolescence: Height, Weight, Body Shape\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metabolic effects of thyroxine on lipids, proteins, and carbohydrates in a table. Then analyse why a hyperthyroid patient loses weight despite increased appetite.",
+     "a": "Thyroxine increases: lipolysis (fat breakdown), protein catabolism (breakdown), and carbohydrate oxidation/glucose absorption. In hyperthyroidism, BMR is excessively high → rapid catabolism of fats, proteins, and carbs → high heat production and energy expenditure exceeds caloric intake even with increased appetite → weight loss. A wrong answer that only says \"metabolism increases\" without specifying catabolic direction for each macromolecule, or attributes weight loss to \"poor absorption\", reveals superficial understanding of thyroxine's catabolic role and confusion with malabsorption syndromes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Taking extra iodine supplements will always cure goitre and restore normal metabolism.\" Identify the error and explain the conditions under which iodine supplementation works or fails.",
+     "a": "The statement is false. Iodine supplementation only works if goitre is caused by dietary iodine deficiency (endemic goitre) and the thyroid gland is still functional. It fails in: (1) Autoimmune thyroiditis (Hashimoto's) where gland is destroyed, (2) Genetic defects in hormone synthesis (dyshormonogenic goitre), (3) Pituitary/hypothalamic failure (secondary hypothyroidism), (4) Goitrogens in diet (e.g., cassava, cabbage) blocking iodine utilisation. A wrong answer that agrees with the statement shows the student thinks all goitres are nutritional and ignores pathological causes — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple public health survey for your village to assess iodine deficiency risk. List 3 measurable indicators you would check, the method for each, and how you would link the data to thyroid health.",
+     "a": "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency. (2) Goitre prevalence — palpate necks of 6-12 year children; >5% prevalence signals endemic goitre. (3) Salt iodine content — test household salt samples with MBI kit; <15 ppm indicates inadequate iodisation. Link: Low UIE + high goitre rate + low salt iodine = community-level iodine deficiency requiring salt iodisation enforcement. A poor answer that only says \"check for goitre\" misses the quantitative, multi-indicator approach needed for public health decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

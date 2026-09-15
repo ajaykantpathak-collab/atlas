@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_010",
+   "title": "c12_soc_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define 'gotra' and state its primary function in regulating Hindu marriage.",
+     "a": "Gotra is an exogamous patrilineal clan tracing descent from a common Vedic rishi; its primary function is to prohibit marriage within the same gotra (sagotra) to avoid ritual incest. A wrong answer (e.g., \"gotra is mother's lineage\" or \"gotra determines occupation\") reveals confusion between matrilineal gotra (rare, e.g., some South Indian communities) and the normative patrilineal model, or conflation of gotra with jati (caste).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a man cannot marry his father's sister's daughter (FZD) under Dharmashastric rules, but may marry his mother's brother's daughter (MBD) in some South Indian communities.",
+     "a": "FZD shares ego's patrilineal gotra (father's sister retains her natal gotra, passes it to her children), making her sagotra — prohibited. MBD belongs to mother's gotra (different from ego's), so not sagotra; Dravidian kinship allows cross-cousin marriage (MBD/FZS) as preferred. A wrong answer (e.g., \"both are prohibited\" or \"both allowed\") shows failure to distinguish patrilineal gotra transmission from bilateral/cognatic kinship logic.",
+     "self_check": true
+    },
+    {
+     "q": "A Brahmin boy (gotra: Bharadvaja, pravara: Angirasa, Bharhaspatya, Bharadvaja) wants to marry a girl (gotra: Bharadvaja, pravara: Angirasa, Bharhaspatya, Bharadvaja). Is the marriage permitted? Justify step by step.",
+     "a": "Step 1: Identify boy's gotra = Bharadvaja. Step 2: Identify girl's gotra = Bharadvaja → same gotra → sagotra marriage prohibited by gotra exogamy. Step 3: Even if gotras differed, pravara overlap (all three rishis identical) would trigger pravara exogamy (shared rishi = prohibited). Step 4: Conclusion: Marriage not permitted. A wrong answer (e.g., \"allowed because pravara is same\") misses that gotra exogamy is the first filter; pravara adds a second layer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Nair matrilineal taravad (Kerala) and the North Indian patrilineal joint family on: (a) descent reckoning, (b) property inheritance, (c) residence after marriage, (d) gotra/clan affiliation.",
+     "a": "(a) Nair: matrilineal (descent through mother); North: patrilineal (through father). (b) Nair: property passes sister→sister's children; North: father→sons. (c) Nair: duolocal/husband visits; North: patrilocal (bride moves in). (d) Nair: clan (illam) from mother; North: gotra from father. A wrong answer (e.g., \"both patrilineal\") ignores the classic ethnographic contrast central to Indian kinship diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Gotra exogamy is biologically rational because it prevents inbreeding.\" Use sociological concepts.",
+     "a": "The statement is reductionist. Gotra exogamy is a *cultural* rule using a mythical ancestor (rishi) to define a symbolic kin group often numbering millions — far exceeding biological kin recognition. It serves social functions: (1) creates wide alliance networks across villages/regions, (2) reinforces caste endogamy by restricting the *pool* within the caste, (3) legitimizes Brahmanical authority via Vedic rishi descent. Biological inbreeding avoidance operates at much closer degrees (e.g., sapinda rules up to 5/7 generations). A poor answer treats gotra as a genetic marker rather than a ritual category.",
+     "self_check": true
+    },
+    {
+     "q": "Design a kinship diagram for a hypothetical community that practices *both* matrilineal clan exogamy and patrilineal gotra exogamy. Show ego's prohibited marriage partners for three generations.",
+     "a": "Draw ego (male). Matrilineal clan (from mother) = Clan A → all Clan A members prohibited. Patrilineal gotra (from father) = Gotra X → all Gotra X members prohibited. Overlap zones (e.g., mother's brother's children: same clan A but different gotra; father's sister's children: same gotra X but different clan) become doubly prohibited. A strong answer uses standard symbols (△/○, =, solid/dashed lines) and labels each kin type with both clan and gotra. A weak answer draws only one descent line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

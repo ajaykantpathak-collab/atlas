@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_7",
+   "title": "c8_math_ch12_7",
+   "questions": [
+    {
+     "q": "What is the median of the data set: 8, 3, 5, 9, 2? (Recall the definition and steps.)",
+     "a": "The median is 5. Steps: order the data (2, 3, 5, 8, 9), count n=5 (odd), middle position is (5+1)/2 = 3rd value, which is 5. A wrong answer like 5.5 or 3 reveals the student either forgot to order the data or used the even-n formula incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"For the data 4, 7, 2, 9, the median is 5.5 because the middle two numbers are 4 and 7.\" Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. The data must first be ordered: 2, 4, 7, 9. The middle two values are 4 and 7, so the median is (4+7)/2 = 5.5. The student got the right number but for the wrong reason – they did not order the data first. If the data were 7, 4, 9, 2, the unordered middle two would be 4 and 9, giving 6.5, which is wrong. This misconception shows the student thinks median depends on the original order, not the sorted order.",
+     "self_check": true
+    },
+    {
+     "q": "Find the median of the following data representing the number of books read by 8 students in a month: 3, 5, 2, 6, 4, 7, 5, 3.",
+     "a": "Ordered data: 2, 3, 3, 4, 5, 5, 6, 7. n=8 (even). Middle positions: 4th and 5th values are 4 and 5. Median = (4+5)/2 = 4.5. A wrong answer like 4 or 5 indicates the student took only one middle value instead of averaging the two. A wrong answer like 4.5 but from unordered data (e.g., taking 6 and 4 as middle) shows the ordering step was skipped.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two data sets:\nSet A: 10, 12, 14, 16, 18\nSet B: 10, 12, 14, 16, 100\nCompare the medians and means of both sets. What does this tell you about the effect of an extreme value on median vs mean?",
+     "a": "Set A: median=14, mean=14. Set B: median=14, mean=30.4. The median is unchanged by the extreme value 100, while the mean increases dramatically. This shows the median is resistant to outliers, whereas the mean is sensitive. A wrong answer that says both change equally reveals the student does not understand the robustness property of the median.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher calculates the median of 9 students' heights (in cm) as 142. She later realizes she missed one student's height of 135 cm. Without recalculating fully, can you determine if the new median will be less than, equal to, or greater than 142? Justify.",
+     "a": "The new median will be less than 142. Original n=9 (odd), median was the 5th value = 142. Adding 135 (which is less than 142) makes n=10 (even). The new median will be the average of the 5th and 6th values in the new ordered list. The 5th value in the new list will be ≤ 142 (since we inserted a smaller value), and the 6th value will be the old 5th value (142) or the old 6th value (≥142). The average of a number ≤142 and a number ≥142 could be 142 if both are 142, but since we added a value smaller than 142, the 5th value becomes the old 4th value (which is ≤142). So the new median ≤ 142. In most cases it will be strictly less. A wrong answer \"equal\" shows the student thinks median never changes when adding a value, or doesn't understand how the middle position shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of 6 integers between 1 and 20 such that the median is 12 but the mean is greater than 15. Explain your reasoning.",
+     "a": "Example: 1, 2, 11, 13, 19, 20. Ordered: 1, 2, 11, 13, 19, 20. n=6, median = (11+13)/2 = 12. Mean = (1+2+11+13+19+20)/6 = 66/6 = 11 (not >15). Need higher mean: 10, 11, 12, 13, 19, 20 → median = (12+13)/2 = 12.5 (no). Try: 5, 10, 11, 13, 19, 20 → median=12, mean=78/6=13. Need more extreme: 1, 2, 11, 13, 20, 20 → median=12, mean=67/6≈11.17. Actually, to get mean >15 with median 12, the sum must be >90. With median 12, the two middle numbers average to 12, so they could be 11 and 13. The other four numbers can be large. Example: 11, 13, 19, 20, 20, 20 → ordered: 11, 13, 19, 20, 20, 20. Median = (19+20)/2 = 19.5 (wrong). Need middle two to average 12. Let middle two be 11 and 13. Then we need four numbers: two ≤11 and two ≥13. To maximize mean, make the two lower numbers as high as possible (11 and 11) and the two upper numbers as high as possible (20, 20). Data: 11, 11, 11, 13, 20, 20. Median = (11+13)/2 = 12. Mean = 86/6 ≈ 14.33 <15. Try: 10, 11, 11, 13, 20, 20 → median=12, mean=85/6≈14.17. It's impossible with integers 1-20? Let's check: max sum with median 12: two middle are 11 and 13 (sum 24). The two below can be at most 11 and 11 (sum 22). The two above can be 20 and 20 (sum 40). Total max = 86. Mean = 86/6 = 14.33 < 15. So no such data set exists with integers 1-20. A good answer would show this reasoning and conclude impossibility. A poor answer gives a set without checking mean, or gives a set with median not 12.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

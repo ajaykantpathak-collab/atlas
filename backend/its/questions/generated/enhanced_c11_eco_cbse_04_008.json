@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_008",
+   "title": "c11_eco_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the primary economic justification for government intervention in the health sector, distinguishing it from a typical private good like clothing?",
+     "a": "Health is a merit good with significant positive externalities (e.g., vaccination protects others) and severe information asymmetry (patients cannot judge quality). Unlike clothing, under-consumption of health imposes costs on society (epidemics, lower productivity) and individuals cannot efficiently purchase it due to uncertainty and high cost. A wrong answer (e.g., \"health is a public good\") reveals confusion between merit goods (rival but socially desirable) and public goods (non-rival, non-excludable).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the government provides free immunisation through Mission Indradhanush instead of leaving it to private markets, using the concepts of externalities and information asymmetry.",
+     "a": "Immunisation generates herd immunity — a positive externality where unvaccinated individuals benefit from others' vaccination. Private markets under-provide because individuals don't capture the full social benefit. Additionally, parents lack information on vaccine efficacy/schedules (information asymmetry), leading to under-demand. Government provision corrects both failures. A wrong answer focusing only on \"affordability\" misses the core market failure logic: even if affordable, private markets would under-supply due to externalities.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data: India's IMR fell from 146 (1951) to 28 (2018-22) while real per capita income rose from ₹7,651 to ₹94,054. Calculate the average annual rate of decline in IMR over this period and explain whether this correlation implies causation from income growth to health improvement.",
+     "a": "Period: 1951 to 2020 ≈ 69 years. IMR decline: 146 to 28 = 118 points. Average annual decline = 118/69 ≈ 1.71 points/year. Correlation does NOT imply causation: health improvements (e.g., smallpox eradication, oral rehydration therapy) often precede income growth. Reverse causality (health → income) and third factors (public health spending, education) drive both. A wrong answer claiming \"income growth caused IMR decline\" ignores the NCERT's explicit statement that causality flows both ways and measurement problems exist.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the incentive structures for a private hospital versus a public PHC in a rural area. How does this affect service delivery for maternal health?",
+     "a": "Private hospitals face profit incentives: they may over-provide profitable services (C-sections) and under-provide unprofitable but essential care (antenatal check-ups). Public PHCs have a mandate for universal coverage but face accountability gaps (absenteeism, drug stockouts). For maternal health, this means private sector may increase institutional deliveries via C-sections (higher revenue) while public sector struggles with 24/7 functionality. A wrong answer ignoring supplier-induced demand or assuming public sector always performs better misses the principal-agent problem in both sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ayushman Bharat's hospitalisation coverage (₹5 lakh/family/year) is sufficient to protect poor households from catastrophic health expenditure.\" Consider outpatient care, transport, and wage loss.",
+     "a": "The statement is insufficient. Ayushman Bharat covers only secondary/tertiary hospitalisation. Over 60% of health expenditure in India is outpatient (medicines, diagnostics) — excluded. Poor households face high transport costs to empanelled hospitals and wage loss during hospitalisation (no sick pay). Catastrophic expenditure persists due to these uncovered components. A wrong answer accepting the statement ignores the distinction between hospitalisation coverage and comprehensive financial protection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-pronged policy proposal to reduce rural maternal mortality in a high-MMR state, combining supply-side infrastructure and demand-side incentives. Justify each component with economic reasoning.",
+     "a": "Supply-side: Upgrade CHCs to First Referral Units (FRUs) with blood storage and C-section capability — addresses the \"three delays\" model (delay in reaching care) by reducing travel time for complications. Demand-side: Conditional cash transfer (like Janani Suraksha Yojana) for institutional delivery + transport voucher — offsets opportunity cost of wage loss and transport, correcting the private cost-benefit calculation for poor households. A poor answer focusing only on \"more hospitals\" or \"more cash\" misses the complementarity: facilities without demand are wasted; demand without functional facilities increases mortality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

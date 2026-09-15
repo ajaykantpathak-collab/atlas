@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_3",
+   "title": "c8_physics_ch2_3",
+   "questions": [
+    {
+     "q": "What are the three essential components needed to construct a basic electromagnet, and what material must the core be made of for it to work as a temporary magnet?",
+     "a": "A basic electromagnet requires: (1) a coil of insulated copper wire, (2) a soft iron core (like an iron nail), and (3) a source of electric current (cell/battery) with a switch. The core MUST be soft iron, not steel, because soft iron gains and loses magnetism quickly (low retentivity). If a student says \"steel core\" or \"permanent magnet core\", they confuse temporary electromagnets with permanent magnets and don't understand why soft iron is chosen.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an electromagnet lose its magnetism immediately when the current is switched off, while a permanent magnet retains its magnetism?",
+     "a": "In an electromagnet, the magnetic field exists ONLY due to the current in the coil; when current stops, the magnetic field vanishes, and the soft iron core's domains return to random orientation because soft iron has low retentivity (low coercivity). A permanent magnet (made of steel/alnico) has high retentivity — its domains stay aligned without external field. If a student says \"the iron core stores magnetism like a battery\", they misunderstand that the core only responds to the external field from the coil; it does not generate or store magnetic energy on its own.",
+     "self_check": true
+    },
+    {
+     "q": "You wind 100 turns of insulated copper wire around a soft iron nail and connect it to a 1.5 V cell. The nail picks up 5 paper clips. If you now use a 3.0 V cell (two 1.5 V cells in series) with the same coil and nail, predict how many paper clips it will pick up and explain your reasoning.",
+     "a": "It will pick up MORE than 5 paper clips (likely 8-12). Reasoning: Doubling the voltage doubles the current (Ohm's law, assuming resistance constant), and magnetic field strength of a solenoid is directly proportional to current (B ∝ I). Stronger field → stronger magnetization of core → greater lifting force. If a student says \"still 5 paper clips because the nail is the same\", they ignore the current-field relationship. If they say \"exactly 10 paper clips\", they assume perfect linear proportionality ignoring saturation effects.",
+     "self_check": true
+    },
+    {
+     "q": "Two students build electromagnets with identical nails and identical cells. Student A uses 50 turns of thick wire; Student B uses 100 turns of thin wire (same total length of wire). Both close their switches. Compare the magnetic strength of the two electromagnets and explain which factor dominates.",
+     "a": "Student B's electromagnet (100 turns) will be stronger. Magnetic field of a solenoid B = μ₀nI, where n = turns per unit length. With same wire length, Student B has twice the turns but half the cross-sectional area → resistance is ~4× higher (R ∝ L/A) → current is ~1/4th. However, B ∝ nI = (2n₀)×(I₀/4) = 0.5 n₀I₀, so Student A actually has stronger field! Wait — this reveals a common trap. Let me re-evaluate: For same wire volume, more turns means thinner wire, higher resistance, lower current. The product nI matters. If total wire length L is fixed, n ∝ N, R ∝ N², I ∝ 1/N², so B ∝ N × (1/N²) = 1/N. FEWER turns of thicker wire gives stronger field! If a student says \"more turns always means stronger magnet\", they miss the resistance-current trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I use a steel nail instead of an iron nail in my electromagnet, it will become a permanent magnet after I switch off the current, so I can use it to pick up paper clips even without the battery.\" Evaluate this claim and explain why it is correct or incorrect.",
+     "a": "The claim is PARTIALLY correct but misleading. A steel nail WILL retain some magnetism (become a weak permanent magnet) because steel has high retentivity, but: (1) The magnetism will be much weaker than when current flows, (2) It won't be a useful \"permanent magnet\" for practical lifting, (3) The whole point of an electromagnet is CONTROLLABLE magnetism — steel defeats this purpose. Soft iron is chosen precisely because it DOESN'T retain magnetism. If a student agrees fully, they confuse \"retains some magnetism\" with \"works as a useful permanent magnet\" and miss the design principle of electromagnets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household items (battery, wire, nails, paper clips, switch) to prove that the magnetic field of an electromagnet disappears when the current stops. Describe your procedure, what you will observe, and what conclusion you will draw.",
+     "a": "Procedure: Wind 50 turns of insulated wire around an iron nail. Connect to a 1.5V cell through a switch. Place paper clips near the nail. Close switch → observe clips attracted. Open switch → observe clips fall off. Repeat 3 times. Conclusion: Magnetism is present ONLY when circuit is complete (current flows). A good answer includes: control (same nail, same clips), clear ON/OFF observation, and conclusion linking current to magnetism. A poor answer says \"use a compass\" (doesn't test core magnetization) or doesn't specify the switch operation clearly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

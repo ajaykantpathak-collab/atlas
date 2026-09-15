@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_005",
+   "title": "c12_geo_cbse_19_005",
+   "questions": [
+    {
+     "q": "What is the formula for calculating the arithmetic mean of ungrouped data using the direct method?",
+     "a": "The formula is \\(\\bar{X} = \\frac{\\sum x}{N}\\), where \\(\\sum x\\) is the sum of all observations and \\(N\\) is the number of observations. A wrong answer (e.g., \\(\\frac{\\sum x}{N-1}\\) or using midpoints) reveals confusion between ungrouped and grouped data formulas or a misunderstanding of the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the assumed‑mean (indirect) method preferred when dealing with large numerical values in geographical data, such as elevation in metres or rainfall in millimetres?",
+     "a": "The assumed‑mean method reduces large numbers to smaller deviations (by subtracting a convenient constant), simplifying arithmetic and minimising calculation errors. A student who says “it gives a more accurate mean” misunderstands — both methods yield the same result; the indirect method only eases computation.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the mean wage rate for the grouped data below using the direct method. Show all steps.\n\n| Wage Class (Rs/day) | Number of Workers (f) |\n|---------------------|-----------------------|\n| 50‑70               | 10                    |\n| 70‑90               | 20                    |\n| 90‑110              | 25                    |\n| 110‑130             | 35                    |\n| 130‑150             | 9                     |",
+     "a": "Step 1: Find midpoints (x): 60, 80, 100, 120, 140.  \nStep 2: Multiply each midpoint by its frequency (fx): 600, 1600, 2500, 4200, 1260.  \nStep 3: Sum fx = 10160. Sum f = N = 99.  \nStep 4: \\(\\bar{X} = \\frac{10160}{99} = 102.63\\) Rs/day.  \nA wrong answer often arises from using class limits instead of midpoints, or miscalculating \\(\\sum f\\).",
+     "self_check": true
+    },
+    {
+     "q": "A dataset of 50 villages’ population sizes is grouped into classes. The median class is identified as 2000‑3000 with frequency 16, cumulative frequency before median class = 21, class interval = 1000. Using the median formula for grouped data, compute the median and explain what the result represents geographically.",
+     "a": "Median \\(M = l + \\frac{i}{f} \\left(\\frac{N}{2} - c\\right) = 2000 + \\frac{1000}{16}(25 - 21) = 2000 + 250 = 2250\\).  \nGeographically, this means half the villages have population below 2250 and half above. An incorrect answer (e.g., using \\(N\\) instead of \\(N/2\\), or wrong cumulative frequency) shows inability to locate the median class or misapply the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of the mode as a measure of central tendency for a highly skewed distribution of land‑holding sizes in a tehsil where a few large farms dominate. Justify your answer with merits and demerits.",
+     "a": "Mode is suitable because it represents the most frequent land‑holding size (peak of the distribution) and is unaffected by extreme values (large farms). However, it ignores the actual values of other observations and may be ill‑defined if the distribution is multimodal. A student who claims “mode is always best for skewed data” overlooks its instability with small samples and its inability to reflect the overall distribution shape.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step‑by‑step procedure for a Class 12 student to compute the mean annual temperature of a district using daily maximum temperature data (365 values) with the step‑deviation method. Include how to choose the assumed mean and class interval.",
+     "a": "1. Group the 365 daily values into a frequency distribution with equal class intervals (e.g., 5°C).  \n2. Calculate midpoints (x) of each class.  \n3. Choose assumed mean \\(A\\) as the midpoint of the class with highest frequency (or central class).  \n4. Compute deviations \\(d = x - A\\).  \n5. Determine step‑deviation \\(u = \\frac{d}{i}\\) where \\(i\\) is class interval.  \n6. Multiply each \\(u\\) by frequency \\(f\\) to get \\(fu\\).  \n7. Apply \\(\\bar{X} = A + i \\frac{\\sum fu}{N}\\).  \nA poor answer omits grouping, uses unequal intervals, or forgets to multiply by \\(i\\) in the final step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_007",
+   "title": "c10_math_cbse_08_007",
+   "questions": [
+    {
+     "q": "State the identity \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) and write the condition on \\(\\theta\\) for which it is valid.",
+     "a": "Correct answer: \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) for all \\(\\theta\\) such that \\(\\cos\\theta \\neq 0\\) (i.e., \\(\\theta \\neq 90^\\circ + 180^\\circ k, k \\in \\mathbb{Z}\\)). A wrong answer (e.g., missing the condition or writing \\(\\theta \\neq 0^\\circ\\)) reveals the student has memorised the formula without understanding the domain restrictions coming from division by \\(\\cos^2\\theta\\). This is a frequent 1-mark loss in board exams where \"write the condition\" is explicitly asked.",
+     "self_check": true
+    },
+    {
+     "q": "Explain step-by-step how dividing \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) by \\(\\cos^2\\theta\\) gives \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Why is \\(\\cos\\theta \\neq 0\\) necessary?",
+     "a": "Dividing each term: \\(\\frac{\\sin^2\\theta}{\\cos^2\\theta} + \\frac{\\cos^2\\theta}{\\cos^2\\theta} = \\frac{1}{\\cos^2\\theta}\\) \\(\\Rightarrow\\) \\(\\tan^2\\theta + 1 = \\sec^2\\theta\\). \\(\\cos\\theta \\neq 0\\) is necessary because division by zero is undefined; also \\(\\tan\\theta\\) and \\(\\sec\\theta\\) are not defined when \\(\\cos\\theta = 0\\). A wrong answer that skips the division step or says \"\\(\\cos\\theta\\) cannot be zero because \\(\\sec\\theta\\) is undefined\" without linking to the algebraic step shows procedural gaps — the student cannot derive the identity independently, a common requirement in 2-mark \"prove that\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(\\tan\\theta = \\frac{3}{4}\\) and \\(\\theta\\) is acute, find \\(\\sec\\theta\\) using the identity. Show all steps.",
+     "a": "Step 1: Write identity: \\(1 + \\tan^2\\theta = \\sec^2\\theta\\).  \nStep 2: Substitute \\(\\tan\\theta = \\frac{3}{4}\\): \\(1 + \\left(\\frac{3}{4}\\right)^2 = \\sec^2\\theta\\).  \nStep 3: Compute: \\(1 + \\frac{9}{16} = \\frac{25}{16} = \\sec^2\\theta\\).  \nStep 4: Take square root: \\(\\sec\\theta = \\pm \\frac{5}{4}\\).  \nStep 5: Since \\(\\theta\\) is acute, \\(\\cos\\theta > 0 \\Rightarrow \\sec\\theta > 0\\). Thus \\(\\sec\\theta = \\frac{5}{4}\\).  \nA wrong answer (e.g., \\(\\sec\\theta = \\pm \\frac{5}{4}\\) without sign selection, or \\(\\sec\\theta = \\frac{5}{4}\\) without showing the square root step) reveals two board-exam traps: ignoring the \\(\\pm\\) from square root and forgetting the quadrant sign rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the identities \\(\\sin^2\\theta + \\cos^2\\theta = 1\\) and \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Which is more fundamental? How are their domains different?",
+     "a": "\\(\\sin^2\\theta + \\cos^2\\theta = 1\\) is more fundamental; it holds for all real \\(\\theta\\). \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) is derived from it by dividing by \\(\\cos^2\\theta\\), so it only holds where \\(\\cos\\theta \\neq 0\\) (i.e., \\(\\theta \\neq 90^\\circ + 180^\\circ k\\)). A wrong answer that says \"both hold for all angles\" or \"they are the same\" shows the student does not understand domain restrictions — a critical concept for higher mathematics and a frequent assertion-reason trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(1 + \\tan^2\\theta = \\sec^2\\theta\\) for \\(\\tan\\theta\\) and writes: \\(\\tan^2\\theta = \\sec^2\\theta - 1 \\Rightarrow \\tan\\theta = \\sec\\theta - 1\\). Is this correct? Justify.",
+     "a": "Incorrect. \\(\\sqrt{\\sec^2\\theta - 1} \\neq \\sec\\theta - 1\\). The correct step is \\(\\tan\\theta = \\pm \\sqrt{\\sec^2\\theta - 1}\\). The student applied \\(\\sqrt{a - b} = \\sqrt{a} - \\sqrt{b}\\), which is algebraically false. This exact error appears in board exam \"find the error\" questions. A wrong justification (e.g., \"it's correct because square root distributes\") reveals a deep algebraic misconception that must be fixed before attempting trigonometric simplifications.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a trigonometric expression involving \\(\\tan\\theta\\) and \\(\\sec\\theta\\) that simplifies to a constant using the identity \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Show the simplification.",
+     "a": "Example: \\(\\sec^4\\theta - \\tan^4\\theta - 2\\tan^2\\theta\\).  \nSimplification: \\(\\sec^4\\theta - \\tan^4\\theta = (\\sec^2\\theta - \\tan^2\\theta)(\\sec^2\\theta + \\tan^2\\theta) = (1)(\\sec^2\\theta + \\tan^2\\theta) = \\sec^2\\theta + \\tan^2\\theta\\).  \nThen expression \\(= \\sec^2\\theta + \\tan^2\\theta - 2\\tan^2\\theta = \\sec^2\\theta - \\tan^2\\theta = 1\\).  \nA poor answer (e.g., an expression that doesn't simplify to a constant, or using \\(\\sin/\\cos\\) instead) shows the student cannot reverse-engineer the identity — a skill needed for \"simplify to a constant\" competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

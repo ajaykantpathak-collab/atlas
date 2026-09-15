@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_010",
+   "title": "c11_hs_cbse_11_010",
+   "questions": [
+    {
+     "q": "State the three essential requirements for effective ironing and name the type of iron recommended by NCERT for precise temperature control.",
+     "a": "The three requirements are high temperature, moisture, and pressure. NCERT recommends an automatic electric iron because its temperature can be controlled, unlike a charcoal iron where temperature cannot be regulated and coal may stain the fabric. A wrong answer (e.g., listing \"steam, starch, and speed\" or recommending charcoal iron for delicates) reveals the student has memorised isolated facts without understanding the functional role of each requirement or the safety implication of temperature control for different fibres.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why NCERT advises drying silk and wool indoors in shade rather than in direct sunlight, while cotton can be sun-dried with the wrong side facing out.",
+     "a": "Silk weakens irreversibly on prolonged UV exposure and yellows permanently; wool felts and shrinks under heat and mechanical stress when wet. Cotton gains strength when wet, tolerates high temperatures, and benefits from sunlight's bleaching and antiseptic action on the wrong side to protect colour. A wrong answer (e.g., \"all fabrics dry faster in sun\" or \"silk dries better in sun because it's natural\") shows the student treats drying as a uniform process and ignores fibre-specific photodegradation, thermal sensitivity, and wet-strength properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student washes a polyester-cotton blend (65/35) shirt and a pure wool sweater. They plan to: (a) tumble dry both on high heat, (b) iron both at 210°C (hot setting). Identify which decisions are incorrect and state the correct procedure for each garment.",
+     "a": "Both decisions are incorrect. Polyester-cotton blend: tumble drying on high heat may shrink the cotton component and set wrinkles in polyester; correct is line dry in shade or tumble dry low. Iron at moderate (160°C), not hot, to avoid melting polyester. Wool sweater: never tumble dry (felting/shrinkage); correct is dry flat in shade. Never iron directly at any temperature; correct is steam press at low (120°C) or use a press cloth. A wrong answer reveals the student applies a single rule to blended and protein fibres, ignoring that blends require compromise settings and wool requires pressing not ironing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanisms of \"ironing\" and \"pressing\" as described in NCERT. For which fabric types and garment details is pressing mandatory instead of ironing?",
+     "a": "Ironing involves sliding the hot iron along the fabric length under pressure to remove wrinkles; pressing involves lifting and placing the hot iron stationary on specific areas to set creases without stretching. Pressing is mandatory for: (1) fabrics that stretch under mechanical action — wool knits, laces, bias-cut garments; (2) setting permanent creases — hems, pleats, pockets, plackets; (3) heat-sensitive fibres — wool, silk, acrylic where sliding causes shine or distortion. A wrong answer (e.g., \"pressing is just ironing slowly\" or \"use pressing for all delicates\") shows confusion between the mechanical action (sliding vs. stationary) and the structural reason (preventing distortion vs. creating creases).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this care label instruction for a rayon blouse: \"Machine wash cold, tumble dry low, iron high (210°C).\" Identify all conflicts with NCERT fibre-specific guidelines and propose corrected symbols.",
+     "a": "Three conflicts: (1) Rayon loses strength when wet — machine agitation causes stretching/shrinkage; correct: hand wash or delicate cycle. (2) Rayon wrinkles and stretches easily — tumble drying causes distortion; correct: dry flat or line dry in shade. (3) Rayon scorches easily at high temperature — iron high (210°C) will damage; correct: iron low (120°C) while damp. Corrected symbols: Hand wash / Dry flat / Iron low (1 dot). A wrong answer (e.g., accepting the label as reasonable) reveals the student does not connect rayon's low wet strength, poor elastic recovery, and low thermal tolerance to care decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step drying and ironing protocol for a household with these weekly items: 4 white cotton school shirts, 2 silk dupattas, 3 wool sweaters, 5 polyester-cotton bedsheets, 2 acrylic blankets. Include location, method, ironing temperature, and special handling for each category.",
+     "a": "A complete protocol must specify: Cotton shirts — sun dry wrong side out, iron hot (210°C) with steam while damp. Silk dupattas — shade dry flat/indoors, iron low (120°C) damp with press cloth. Wool sweaters — dry flat in shade (reshape to outline), steam press only (120°C) or hang in steamy bathroom. Poly-cotton sheets — line dry shade, iron moderate (160°C). Acrylic blankets — dry flat shade (quick dry), iron low (120°C) if needed (usually wrinkle-free). A poor answer (e.g., \"sun dry all, iron all hot\") shows inability to differentiate fibre groups and apply fibre-property-to-care mapping systematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

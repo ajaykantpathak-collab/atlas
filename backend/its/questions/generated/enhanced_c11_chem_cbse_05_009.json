@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_009",
+   "title": "c11_chem_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the five postulates of the Kinetic Molecular Theory of ideal gases. For each postulate, identify which macroscopic gas property (pressure, temperature, volume, diffusion rate) it primarily explains.",
+     "a": "The five postulates: (1) Gases consist of large number of tiny particles (molecules) with negligible volume compared to container volume — explains compressibility and Boyle's Law. (2) Particles are in constant random straight-line motion — explains diffusion (Graham's Law) and pressure. (3) Collisions are perfectly elastic (no net KE loss) — explains pressure maintenance and Charles's Law. (4) No intermolecular forces except during collisions — explains ideal gas equation applicability and lack of condensation at high T. (5) Average KE ∝ absolute temperature (KE_avg = 3/2 kT) — explains temperature-pressure-volume relationships. A wrong answer revealing confusion between \"negligible volume\" (postulate 1) and \"no forces\" (postulate 4) shows the student cannot distinguish excluded volume effects from attractive force effects — a critical error for real gas deviations later.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since gas molecules move at ~500 m/s at room temperature, a perfume molecule should cross a 5 m room in 0.01 s. But we smell it after minutes. Therefore KMT is wrong.\" Identify the flaw in this reasoning using KMT postulates and the concept of mean free path.",
+     "a": "The flaw: the student assumes straight-line uninterrupted motion (postulate 2) but ignores collisions. In reality, a molecule undergoes ~10⁹ collisions per second at STP. Mean free path λ = kT/(√2 π d² P) ≈ 68 nm for air at STP. The molecule follows a random walk: net displacement ∝ √(number of steps) × λ. For 5 m displacement, time ≈ (5 m)² / (λ × u_avg) ≈ minutes. A wrong answer citing \"air resistance\" or \"gravity\" shows the student doesn't grasp that KMT already accounts for collisions via postulate 3 (elastic collisions) and that diffusion is a statistical process, not ballistic.",
+     "self_check": true
+    },
+    {
+     "q": "Derive the kinetic gas equation P = (1/3) ρ u²_rms starting from a single molecule of mass m moving with velocity components (u_x, u_y, u_z) in a cubic container of side L. Show all steps including the assumption of isotropy.",
+     "a": "Step 1: Momentum change per collision with wall perpendicular to x-axis = 2mu_x. Step 2: Time between collisions with same wall = 2L/u_x. Step 3: Force from one molecule = Δp/Δt = mu_x²/L. Step 4: Pressure from one molecule = F/A = mu_x²/L³ = mu_x²/V. Step 5: For N molecules, P = (Nm/V) × (u_x²)_avg. Step 6: By isotropy, (u_x²)_avg = (u_y²)_avg = (u_z²)_avg = ⅓ u²_rms. Step 7: P = (1/3)(Nm/V)u²_rms = (1/3)ρ u²_rms. A wrong answer skipping step 6 (isotropy) or using u_avg instead of u_rms reveals confusion between vector components and scalar speed — a common board exam error where students write P = (1/3)ρ u²_avg and lose marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Maxwell-Boltzmann speed distribution curves for (a) O₂ at 300 K and 600 K, (b) H₂ and O₂ at 300 K. For each case, state how the peak position (u_mp), peak height, and area under curve change, and justify using the formula u_mp = √(2RT/M).",
+     "a": "(a) O₂ at 300 K vs 600 K: u_mp increases by √2 (since u_mp ∝ √T). Peak height decreases (area constant = 1, curve broadens). Area under curve remains 1 (probability normalization). (b) H₂ vs O₂ at 300 K: M_H₂ = 2, M_O₂ = 32 → u_mp(H₂) = 4 × u_mp(O₂). H₂ peak shifts right, becomes lower and broader. Area = 1 for both. A wrong answer saying \"area increases with temperature\" reveals the student treats the curve as a histogram of molecule counts rather than a probability density function — a fundamental misunderstanding of statistical mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"At the same temperature, all gas molecules have the same kinetic energy, so they must have the same speed.\" Provide a counterexample using N₂ (M=28) and He (M=4) at 300 K, calculating u_rms for each.",
+     "a": "The statement is false. KE_avg = 3/2 kT per molecule is the same, but KE = ½ mu²_rms → u_rms = √(3RT/M). For N₂: u_rms = √(3×8.314×300/0.028) = 517 m/s. For He: u_rms = √(3×8.314×300/0.004) = 1368 m/s. He moves 2.65× faster despite same KE. A wrong answer claiming \"same KE means same speed\" confuses kinetic energy (scalar, depends on v²) with velocity (vector) — a persistent misconception from Class 9 physics where KE = ½mv² is taught without emphasizing the mass dependence of speed for fixed KE.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to measure the root mean square speed of nitrogen molecules at 300 K using only a pressure gauge, a thermometer, a known volume container, and the ideal gas equation. Write the step-by-step procedure and the final formula you would use.",
+     "a": "Procedure: (1) Fill rigid container of known volume V with N₂ gas. (2) Measure pressure P at temperature T using gauge and thermometer. (3) Calculate density ρ = PM/RT from ideal gas equation (M = 0.028 kg/mol for N₂). (4) Use kinetic gas equation P = ⅓ ρ u²_rms → u_rms = √(3P/ρ) = √(3RT/M). (5) Plug in R=8.314, T=300, M=0.028 → u_rms = 517 m/s. A poor answer suggesting \"track a single molecule\" or \"use speed camera\" reveals inability to connect macroscopic measurable quantities (P, V, T) to microscopic properties — the central bridge KMT provides. This also tests if the student recognizes that u_rms is derivable without direct speed measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

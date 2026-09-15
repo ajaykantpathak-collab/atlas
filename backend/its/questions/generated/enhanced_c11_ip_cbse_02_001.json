@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_001",
+   "title": "c11_ip_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the primary reason Python is called an \"interpreted language\"?",
+     "a": "Correct answer: Python source code is executed line by line by an interpreter at runtime, without a separate compilation step that produces machine code. A wrong answer (e.g., \"Python is compiled to bytecode which is then interpreted\") reveals the student confuses the implementation detail (CPython compiles to bytecode) with the language classification; they need to understand that from the programmer's perspective, there is no explicit compile step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what \"dynamic typing\" means in Python and give one advantage and one disadvantage of this feature.",
+     "a": "Correct answer: Dynamic typing means variable types are determined at runtime and can change during execution (e.g., `x = 10` then `x = \"hello\"`). Advantage: faster prototyping and less verbose code. Disadvantage: type-related errors surface only at runtime, potentially causing crashes in production. A wrong answer (e.g., \"dynamic typing means you don't have to declare variables\") shows the student confuses dynamic typing with implicit declaration; they need to distinguish between type binding time and declaration requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A developer writes a Python script on Windows that uses the `os.path` module to manipulate file paths. She copies the script to a Linux machine and it runs without modification. Which Python feature enables this, and why does it work?",
+     "a": "Correct answer: Cross-platform portability – Python's standard library (including `os.path`) abstracts operating system differences; the interpreter on each OS handles the translation. Steps: 1) Identify the requirement (same code on different OS). 2) Recall that Python provides OS-independent modules. 3) Explain that `os.path` uses the correct path separator for the current OS. 4) Conclude that the interpreter and standard library together provide portability. A wrong answer (e.g., \"Python compiles to an executable that runs everywhere\") indicates the student thinks Python produces native binaries like C++; they must learn that the interpreter is platform-specific but the source code is portable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Python's memory management with that of C. How does automatic garbage collection in Python affect programmer productivity and program performance?",
+     "a": "Correct answer: In C, the programmer manually allocates/frees memory (`malloc`/`free`); in Python, reference counting and a cyclic garbage collector automatically reclaim unused objects. This increases productivity by eliminating memory leaks and dangling pointers, but adds runtime overhead (CPU cycles for GC) and non-deterministic deallocation timing. A wrong answer (e.g., \"Python has no memory management\") shows the student thinks automatic means \"no management at all\"; they need to understand that management is shifted from programmer to runtime.",
+     "self_check": true
+    },
+    {
+     "q": "Your team is deciding between Python and Java for a new data-analysis project. Evaluate the trade-offs considering: (a) development speed, (b) execution speed, (c) ecosystem libraries. Justify your recommendation.",
+     "a": "Correct answer: Python wins on development speed (concise syntax, dynamic typing, REPL) and ecosystem (pandas, NumPy, scikit-learn). Java may have better raw execution speed (JIT compilation) and stronger static typing for large teams. For data analysis, Python's library ecosystem and interactive workflow usually outweigh execution speed; recommend Python with a note that performance-critical loops can be offloaded to C extensions. A wrong answer (e.g., \"Java is always faster so choose Java\") reveals the student prioritizes a single factor without context; they must learn to weigh multiple criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short Python program (3-5 lines) that demonstrates at least three key features of Python simultaneously. Explain which feature each line illustrates.",
+     "a": "Good answer example:\n```python\ndata = [1, 2, 3]          # Dynamic typing: no type declaration\ndata.append(\"hello\")      # Heterogeneous lists: dynamic typing + high-level data structures\nprint(sum(x for x in data if isinstance(x, int)))  # Interpreted execution, generator expression, built-in functions\n```\nFeatures shown: dynamic typing, high-level built-in data structures (list), interpreted immediate execution, first-class functions/generators. A poor answer (e.g., a trivial `print(\"Hello\")`) shows the student cannot synthesize multiple features; they need practice mapping code constructs to language characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

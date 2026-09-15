@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_07_011",
+   "title": "c12_hin_ar_cbse_07_011",
+   "questions": [
+    {
+     "q": "What is the defining matra structure of pkSikbZ chhand as described in the chapter, and where does the yati (caesura) fall?",
+     "a": "pkSikbZ chhand has four quarters (charan) of 16 matras each, with a yati after the 8th matra in every quarter. A wrong answer (e.g., \"16 matras total\" or \"yati after 10\") reveals the student has not internalized the chapter's explicit metrical definition and will mis-scan every stanza.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"isVdks i<+r] xqu x<+r] p<+r fxfj\", explain why the verb forms 'i<+r', 'x<+r', 'p<+r' end in 'r' instead of the Modern Hindi 'te' or 'ta hai'.",
+     "a": "These are Braj Bhasha present habitual forms: the suffix '-at' + 'h' → '-at' → '-r' (via phonological reduction), yielding 'i<+r' (ikta rahā), 'x<+r' (caltā rahā), 'p<+r' (partā rahā). A student who says \"it's just poetic license\" misses the systematic historical grammar of Braj and cannot predict forms in unseen lines.",
+     "self_check": true
+    },
+    {
+     "q": "Scan the first quarter of the second poem: \"[ksrh u fdlku dks] fHk[kkjh dks u Hkh[k] cfy]\". Show the matra count for each word and verify whether it fits the nksgk chhand requirement (11 matras in the first and third quarters, 13 in the second and fourth, with a fixed 'A' at the end of each quarter).",
+     "a": "[ksrh(2) u(1) fdlku(3) dks(1)] = 7 → need 4 more to reach 11; but the text says nksgk has 11 in first/third quarters. Actual scansion: [ksrh(2) u(1) fdlku(3) dks(1) fHk[kkjh(3) dks(1) u(1) Hkh[k(2) cfy(1)] — this is the full line. The student must segment into quarters correctly. A wrong segmentation reveals inability to apply the chhand definition to actual text.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pronoun usage in \"mUgsa lhrk&jke bZ'oj dh vis{kk\" (prose section) with \"jke osQ mHkj vkus\" (poem). What grammatical shift occurs, and how does it reflect the register difference between Braj poetry and the commentator's prose?",
+     "a": "'mUgsa' (Braj oblique plural pronoun 'them') vs. 'osQ' (Modern Hindi genitive postposition 'kā'). The prose uses Modern Standard Hindi grammar; the poem retains Braj forms. A student who sees only \"different words\" misses the register shift: the commentator explains in contemporary Hindi, while the poem preserves 16th-century Braj.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The syntactic inversion in 'cfud dks cfut] u pkdj dks pkdjh' (Object–Verb–Subject) is purely for rhyme; the meaning would be identical in normal order.\" Defend or refute with evidence from the poem's emotional arc.",
+     "a": "Refute. The inversion forces the listener to hold the objects ('cfud', 'pkdj') in mind before the negated verb 'u pkdjh', creating suspense and emphasizing the prohibition. Normal order 'cfud u cfut, pkdj u pkdjh' loses the cumulative force. A student who agrees with the claim treats syntax as decorative, not semantic.",
+     "self_check": true
+    },
+    {
+     "q": "Compose a new quarter (16 matras, yati after 8) in pkSikbZ chhand using Braj-style verb endings (-r for present habitual) and at least one tatsam word. Write the quarter in Devanagari, mark matras, and explain your verb choice.",
+     "a": "Example: \"nksLr jke nksLr] xq:r dks xq:r\" — matras: nks(2)Lr(1) jke(2) nks(2)Lr(1) | xq:(2):r(1) dks(1) xq:(2):r(1) = 8|8. Verb 'nksLr' (Braj for 'niskarate hain') maintains meter and archaic flavor. A poor answer uses Modern Hindi verbs (e.g., 'niskarte hain' = 6 matras) breaking the meter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_002",
+   "title": "c11_geo_cbse_14_002",
+   "questions": [
+    {
+     "q": "State the minimum annual rainfall (in cm) and the maximum dry season duration (in months) required for Tropical Evergreen Forests to develop, and name one tree species characteristic of these forests in the Western Ghats.",
+     "a": "Correct answer: Minimum 200 cm annual rainfall; maximum 0-1 dry months (no month with <6 cm rainfall); characteristic species: Rosewood (Dalbergia latifolia) or Ebony (Diospyros ebenum) or Mahogany (Swietenia macrophylla). A wrong answer revealing \"150 cm\" confuses evergreen with semi-evergreen thresholds; naming \"Teak\" or \"Sal\" indicates confusion with deciduous forests; stating \"2-3 dry months\" misses the critical physiological threshold for leaf retention.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Tropical Evergreen Forests develop a distinct multi-layered canopy structure (emergent, canopy, understory, forest floor) while Semi-Evergreen Forests show a less pronounced stratification, linking your answer to light availability and species composition.",
+     "a": "Correct answer: In evergreen forests, year-round high humidity and cloud cover reduce light penetration to 1-2% at forest floor, selecting for extreme shade tolerance and creating four distinct strata with specialized species at each level. Semi-evergreen forests have a shorter dry season causing partial leaf fall, allowing 5-10% light penetration, supporting fewer strata and more light-demanding deciduous species in gaps. A wrong answer focusing only on \"tree height\" misses the light-competition driver; claiming \"same layers but fewer trees\" misunderstands structural reorganization.",
+     "self_check": true
+    },
+    {
+     "q": "Using the rainfall data below for three locations, classify each as Tropical Evergreen, Tropical Semi-Evergreen, or Neither, and justify with the specific climatic criterion met or violated.\nLocation A: 220 cm annual rainfall, driest month 8 cm\nLocation B: 180 cm annual rainfall, driest month 3 cm\nLocation C: 250 cm annual rainfall, driest month 1 cm",
+     "a": "Correct answer with working:\nStep 1: Recall thresholds — Evergreen: >200 cm AND no month <6 cm; Semi-evergreen: 150-200 cm OR >200 cm with 1-2 dry months (<6 cm).\nStep 2: Location A — 220 cm (>200) AND driest month 8 cm (≥6 cm) → Tropical Evergreen.\nStep 3: Location B — 180 cm (150-200 range) AND driest month 3 cm (<6 cm) → Tropical Semi-Evergreen.\nStep 4: Location C — 250 cm (>200) BUT driest month 1 cm (<6 cm) → Tropical Semi-Evergreen (dry month violates evergreen criterion).\nStep 5: Verify — all classifications align with NCERT climatic boundaries.\nA wrong answer classifying C as Evergreen ignores the dry month criterion; classifying B as Evergreen ignores the rainfall threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Western Ghats and Andaman & Nicobar Islands as regions of Tropical Evergreen Forests. Analyze how differences in latitude, oceanic influence, and topography create variations in forest composition despite both meeting the climatic criteria.",
+     "a": "Correct answer: Western Ghats (8°-21°N) experience orographic rainfall from SW monsoon on windward slopes, creating a narrow belt with strong altitudinal zonation — evergreen only below 1500m, giving way to montane forests above. Andaman & Nicobar (6°-14°N) have equatorial maritime climate with convectional rainfall year-round, no rain shadow, allowing evergreen forests from sea level to hilltops with higher dipterocarp dominance. Latitudinal difference (Andamans closer to equator) reduces seasonality further. Topographic difference (Ghats = steep escarpment vs islands = low hills) controls local rain distribution. A wrong answer stating \"both are identical\" ignores orographic vs convectional rainfall mechanisms; claiming \"Andamans have more teak\" confuses with deciduous species.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Tropical Semi-Evergreen Forests are merely degraded versions of Tropical Evergreen Forests caused by human disturbance.\" Support your evaluation with ecological and climatic evidence.",
+     "a": "Correct answer with justification: The statement is FALSE. Semi-evergreen forests are a distinct climatic climax community, not a degradation stage. Evidence: (1) They occur in a specific rainfall zone (150-200 cm) with a natural 1-2 month dry season, forming a stable ecotone between evergreen and moist deciduous zones. (2) They contain unique species assemblages (e.g., white cedar, Terminalia, Artocarpus) adapted to seasonal drought, not just remnant evergreen species. (3) Pollen records from Western Ghats show semi-evergreen zones persisted through Holocene climate shifts. (4) Human disturbance creates \"derived\" semi-evergreen with invasive species (Lantana, Eupatorium) and reduced diversity — distinguishable from climatic semi-evergreen by species composition. A wrong answer agreeing with the statement confuses successional stages with climatic climax; citing \"logging creates gaps\" ignores the climatic driver.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field study protocol to distinguish a primary Tropical Evergreen Forest patch from a 50-year-old secondary regrowth in the Western Ghats. Specify four measurable structural/floristic indicators, the sampling method, and the expected directional difference for each indicator.",
+     "a": "Expected answer criteria:\nIndicator 1: Basal area (m²/ha) — measured via 10m radius circular plots (n=20); primary >60, secondary <35.\nIndicator 2: Canopy height heterogeneity (coefficient of variation) — measured via laser rangefinder on 50 canopy trees; primary >25% (multi-aged), secondary <15% (even-aged).\nIndicator 3: Dipterocarp seedling density (individuals/100m²) — measured in 5x5m subplots; primary >15, secondary <3 (dispersal limitation).\nIndicator 4: Liana load index (% trees with lianas >10cm DBH) — measured on all trees >30cm DBH in plot; primary >40%, secondary <15%.\nSampling: Stratified random across 10ha, avoiding edges. A poor answer lists only species names without quantitative thresholds; uses only visual assessment; omits sampling design; confuses secondary forest with semi-evergreen.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

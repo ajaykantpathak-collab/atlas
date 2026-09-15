@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_008",
+   "title": "c11_phy_cbse_12_008",
+   "questions": [
+    {
+     "q": "State Avogadro's hypothesis and write the ideal gas equation in terms of (i) number of moles μ and (ii) number of molecules N. Give the SI units and values of R and k_B.",
+     "a": "Avogadro's hypothesis: Equal volumes of all gases at the same temperature and pressure contain equal number of molecules. Ideal gas equations: (i) PV = μRT, where R = 8.314 J mol⁻¹ K⁻¹. (ii) PV = N k_B T, where k_B = 1.38 × 10⁻²³ J K⁻¹. A wrong answer (e.g., giving R = 0.0821 L atm mol⁻¹ K⁻¹ without converting to SI, or confusing N_A with k_B) reveals the student has not internalized the SI unit system or the distinction between molar and molecular forms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ideal gas law fails at high pressures and low temperatures. Use the concepts of molecular volume and intermolecular forces.",
+     "a": "At high pressures, the volume of gas molecules themselves becomes significant compared to the container volume (excluded volume effect), so V in PV = μRT should be replaced by (V - nb). At low temperatures, intermolecular attractive forces reduce the momentum transfer to walls, lowering pressure below the ideal prediction. A student who only says \"molecules interact\" without distinguishing between repulsive (volume) and attractive (pressure reduction) effects shows incomplete understanding of the physical origins of deviation.",
+     "self_check": true
+    },
+    {
+     "q": "A 10.0 L cylinder contains oxygen gas at 27°C and 150 atm gauge pressure. Calculate the mass of oxygen in the cylinder. (Molar mass of O₂ = 32.0 g mol⁻¹, R = 8.314 J mol⁻¹ K⁻¹, 1 atm = 1.013 × 10⁵ Pa)",
+     "a": "Step 1: Convert gauge pressure to absolute pressure: P = 150 atm + 1 atm = 151 atm = 151 × 1.013 × 10⁵ Pa = 1.53 × 10⁷ Pa.  \nStep 2: Convert volume to m³: V = 10.0 L = 10.0 × 10⁻³ m³ = 0.0100 m³.  \nStep 3: Temperature in Kelvin: T = 27 + 273 = 300 K.  \nStep 4: Use PV = μRT → μ = PV/(RT) = (1.53×10⁷ × 0.0100) / (8.314 × 300) = 61.3 mol.  \nStep 5: Mass = μ × M₀ = 61.3 mol × 32.0 g mol⁻¹ = 1960 g = 1.96 kg.  \nA wrong answer (e.g., using gauge pressure directly, or forgetting to convert L to m³) reveals unit inconsistency or confusion between gauge/absolute pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Two vessels A and B of equal volume V contain gases at the same temperature T. Vessel A has 2 moles of helium (monatomic), vessel B has 1 mole of oxygen (diatomic). Compare: (i) total pressure, (ii) total translational kinetic energy, (iii) root-mean-square speed of molecules.",
+     "a": "(i) Pressure: P = μRT/V. Since μ_A = 2, μ_B = 1, P_A = 2P_B.  \n(ii) Translational kinetic energy: E_trans = (3/2)μRT. E_A = (3/2)(2)RT = 3RT; E_B = (3/2)(1)RT = 1.5RT. So E_A = 2E_B.  \n(iii) v_rms = √(3RT/M₀). For He, M₀ = 4 g/mol; for O₂, M₀ = 32 g/mol. v_rms(He) / v_rms(O₂) = √(32/4) = √8 ≈ 2.83. He molecules move faster.  \nA student who thinks pressure depends on molecular mass or that kinetic energy per mole differs for monatomic vs diatomic reveals confusion between translational kinetic energy (same per mole for all ideal gases) and internal energy (which includes rotational modes for diatomic).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since PV = μRT, if I double the temperature of a gas in a rigid container, the pressure doubles. But if I double the temperature of a gas in a piston that maintains constant pressure, the volume doubles. Therefore, the product PV always doubles when T doubles.\" Evaluate this statement.",
+     "a": "The statement is correct for a fixed amount of gas (constant μ). From PV = μRT, PV ∝ T. So if T doubles, PV doubles regardless of whether the process is isochoric (V constant, P doubles) or isobaric (P constant, V doubles) or any other path. The student correctly identifies that PV is a state function proportional to T. A wrong evaluation (e.g., saying it's only true for isochoric processes) reveals the student thinks PV change depends on the path, confusing state functions with process-dependent quantities like work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a syringe, a pressure sensor, and a water bath to verify Charles's law (V ∝ T at constant P) for air. List the measurements, controls, and how you would extract absolute zero from the graph.",
+     "a": "Seal a syringe with a known volume of air (e.g., 20 mL) at room temperature. Connect to a pressure sensor to monitor pressure. Immerse the syringe in a water bath at varying temperatures (0°C to 80°C). Allow thermal equilibrium at each temperature. Adjust the syringe plunger to keep pressure constant (equal to atmospheric pressure) and record the volume. Plot V vs T (in °C). Extrapolate the straight line to V = 0; the intercept on the T-axis gives absolute zero in °C (should be near -273°C). Controls: fixed amount of air, constant atmospheric pressure, thermal equilibrium. A poor design (e.g., not allowing equilibrium, ignoring pressure changes, using Celsius without extrapolation) reveals lack of understanding of the need for constant pressure and the linear relationship in absolute temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

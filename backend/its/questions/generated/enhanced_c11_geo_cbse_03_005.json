@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_005",
+   "title": "c11_geo_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the average thickness and dominant rock type of continental crust and oceanic crust.",
+     "a": "Continental crust: average thickness 30-50 km, dominant rock type granite (sial). Oceanic crust: average thickness 5-10 km, dominant rock type basalt (sima). A wrong answer (e.g., swapping thicknesses or rock types) reveals the student has memorised terms without linking them to the physical reality of continental elevation vs. oceanic depth.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why continental crust stands higher than oceanic crust even though both rest on the same mantle.",
+     "a": "Continental crust is thicker and less dense (2.7 g/cm³) than oceanic crust (3.0 g/cm³). According to isostasy, a thicker, lighter block floats higher on the dense mantle (3.3 g/cm³) just as a thick iceberg protrudes more above water. A wrong answer that attributes elevation only to \"mountains being pushed up\" misses the buoyant equilibrium that maintains continents at high elevations over geological time.",
+     "self_check": true
+    },
+    {
+     "q": "A seismic P-wave travels at 6.5 km/s in the upper crust and 8.1 km/s below the Moho. If the crustal thickness at a continental station is 40 km and at an oceanic station is 7 km, calculate the time difference for a P-wave to travel from the surface to the Moho at the two stations.",
+     "a": "Continental: time = 40 km / 6.5 km/s = 6.15 s. Oceanic: time = 7 km / 6.5 km/s = 1.08 s. Difference = 5.07 s. A wrong answer using the mantle velocity (8.1 km/s) for the crustal segment shows confusion between crustal and mantle seismic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of continental crust and oceanic crust at a convergent plate boundary. Why does one subduct while the other does not?",
+     "a": "Oceanic crust is denser (3.0 g/cm³) than the underlying mantle (3.3 g/cm³) when cold, so it sinks (subducts). Continental crust is less dense (2.7 g/cm³) than the mantle, so it resists subduction and instead buckles, forming mountain belts. A wrong answer claiming both subduct or both collide equally ignores the density contrast that is the primary control on subduction dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The continental crust is older than the oceanic crust because it is made of lighter rocks that cannot be recycled.\"",
+     "a": "Partially correct: continental crust is indeed older (up to 4 Ga) because its low density prevents subduction, so it is not recycled into the mantle. However, the reason it is not recycled is its buoyancy, not merely its rock type. Oceanic crust is continuously created and destroyed at plate boundaries, so it is young (<200 Ma). A wrong answer that says continental crust is older because it formed first confuses age with preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-section diagram (describe in words) showing the crust-mantle boundary beneath a passive continental margin transitioning to oceanic crust. Label thicknesses, densities, and rock types.",
+     "a": "A good description includes: continental crust 35 km thick, density 2.7 g/cm³, granite; Moho at 35 km; oceanic crust 7 km thick, density 3.0 g/cm³, basalt; Moho at 7 km; mantle density 3.3 g/cm³; a gradual thinning of continental crust over 100-200 km. A poor answer shows uniform crustal thickness or missing density labels, indicating the student cannot visualise the lateral transition in crustal structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

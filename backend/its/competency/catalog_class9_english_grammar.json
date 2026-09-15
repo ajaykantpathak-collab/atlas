@@ -1,0 +1,195 @@
+{
+  "class": 9,
+  "subject": "english_grammar",
+  "chapter": 1,
+  "chapter_title": "English Grammar IV: Past Tenses, Passive Voice, Phrases",
+  "source_file": "original-authored; grammar drill bank (no textbook source)",
+  "license": "original authored content; no textbook passages",
+  "concepts": [
+    {
+      "id": "engram.9.1",
+      "title": "Past Perfect and Past Continuous",
+      "section": "Grammar Drill",
+      "definition": "The past perfect (had + third form) names the earlier of two past actions. The past continuous (was or were + verb-ing) names an action going on at a past moment, often cut by a short event.",
+      "formula": "earlier action: had + V3;  ongoing action: was/were + V-ing",
+      "key_idea": "Two past events? The first one takes had + V3.",
+      "question_patterns": [
+        "Fill in the blank with the past perfect form",
+        "Fill in the blank with the past continuous form",
+        "Complete the sentence with had + third form or was/were + ing"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Order the events",
+          "explain": "the earlier action takes the past perfect (had + V3)"
+        },
+        {
+          "step": 2,
+          "action": "Find the interruption",
+          "explain": "when + short event leaves the longer action in the past continuous"
+        },
+        {
+          "step": 3,
+          "action": "Match was or were",
+          "explain": "singular -> was, plural -> were"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the past perfect form: The train ___ before we reached the station. (leave)",
+          "a": "had left"
+        },
+        {
+          "q": "Fill in the blank with the past continuous form: She ___ dinner when the phone rang. (cook)",
+          "a": "was cooking"
+        },
+        {
+          "q": "Fill in the blank with the past perfect form: They ___ the match before the rain started. (finish)",
+          "a": "had finished"
+        },
+        {
+          "q": "Fill in the blank with the past continuous form: I ___ my teeth when the doorbell rang. (brush)",
+          "a": "was brushing"
+        },
+        {
+          "q": "Fill in the blank with the past perfect form: By the time we arrived, the show ___ (begin)",
+          "a": "had begun"
+        },
+        {
+          "q": "Fill in the blank with the past continuous form: The children ___ in the garden all evening. (play)",
+          "a": "were playing"
+        },
+        {
+          "q": "Fill in the blank with the past perfect form: He realized he ___ his wallet at home. (forget)",
+          "a": "had forgotten"
+        }
+      ]
+    },
+    {
+      "id": "engram.9.2",
+      "title": "Active to Passive Voice: Past and Modals",
+      "section": "Grammar Drill",
+      "definition": "The simple past passive is was or were + third form. A modal verb keeps its base form and takes be + third form: must complete becomes must be completed.",
+      "formula": "past: was/were + V3;  modal: modal + be + V3",
+      "key_idea": "Match the passive helper to the active tense: past -> was/were, modal -> modal + be.",
+      "question_patterns": [
+        "Change the sentence into the passive voice",
+        "Fill the passive verb form in the blank",
+        "Rewrite the active sentence in the passive"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find the active tense",
+          "explain": "simple past -> was/were; modal -> modal + be"
+        },
+        {
+          "step": 2,
+          "action": "Use the third form",
+          "explain": "praise -> praised, give -> given"
+        },
+        {
+          "step": 3,
+          "action": "Keep the rest",
+          "explain": "adverbs and time words stay put"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Change into the passive voice: The teacher praised the student. - The student ___ by the teacher. (praise)",
+          "a": "was praised"
+        },
+        {
+          "q": "Change into the passive voice: The committee approved the plan. - The plan ___ by the committee. (approve)",
+          "a": "was approved"
+        },
+        {
+          "q": "Change into the passive voice: The boys broke the window. - The window ___ by the boys. (break)",
+          "a": "was broken"
+        },
+        {
+          "q": "Change into the passive voice: The chief guest gave away the prizes. - The prizes ___ away by the chief guest. (give)",
+          "a": "were given"
+        },
+        {
+          "q": "Change into the passive voice: You must complete the form. - The form ___ completed. (must)",
+          "a": "must be"
+        },
+        {
+          "q": "Change into the passive voice: The hunters captured the leopard. - The leopard ___ by the hunters. (capture)",
+          "a": "was captured"
+        },
+        {
+          "q": "Change into the passive voice: Someone stole my bicycle last night. - My bicycle ___ stolen last night. (be)",
+          "a": "was"
+        }
+      ]
+    },
+    {
+      "id": "engram.9.3",
+      "title": "Prepositions: Set Phrases",
+      "section": "Grammar Drill",
+      "definition": "Many adjectives and verbs are followed by one fixed preposition: fond of, afraid of, apologize for, congratulate on, insist on, depend on, succeed in. The pair must be learned together.",
+      "formula": "fond of, afraid of, apologize for, congratulate on, insist on, depend on, succeed in",
+      "key_idea": "The first word decides the preposition - memorize the pair, not the sentence.",
+      "question_patterns": [
+        "Fill in the blank with the correct preposition",
+        "Complete the fixed phrase with its preposition",
+        "Choose the preposition that follows the adjective or verb"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spot the first word",
+          "explain": "adjective or verb fixed with a preposition"
+        },
+        {
+          "step": 2,
+          "action": "Recall the pair",
+          "explain": "fond of, apologize for, insist on, succeed in"
+        },
+        {
+          "step": 3,
+          "action": "Test the phrase",
+          "explain": "the pair must sound complete by itself"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the correct preposition: She is fond ___ classical music.",
+          "a": "of"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: He apologized ___ his mistake.",
+          "a": "for"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: I congratulated her ___ her success.",
+          "a": "on"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: The child is afraid ___ the dark.",
+          "a": "of"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: He insisted ___ paying the bill.",
+          "a": "on"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: We should not depend ___ others for everything.",
+          "a": "on"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: She succeeded ___ convincing the principal.",
+          "a": "in"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "exercises": []
+}

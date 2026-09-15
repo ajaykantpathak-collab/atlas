@@ -1,0 +1,526 @@
+"""Build concept catalog for Class 8 Maths Chapter 10 (Exponents and Powers).
+Extracted from hemh110.txt -- NCERT Class 8 Maths textbook (Reprint 2024-25).
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 8,
+    "subject": "maths",
+    "chapter": 10,
+    "chapter_title": "Exponents and Powers",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh110.txt",
+    "concepts": [
+        {
+            "id": "c8m10.2.1",
+            "title": "Powers with Negative Exponents",
+            "section": "10.2",
+            "definition": "As the exponent decreases by 1, the value becomes one-tenth of the previous value. Continuing the pattern, 10^-1 = 1/10, 10^-2 = 1/10^2. In general, for any non-zero integer a, a^-m = 1/a^m, where m is a positive integer. a^-m is the multiplicative inverse of a^m.",
+            "formula": "a^-m = 1 / a^m",
+            "key_idea": "Negative exponent means the reciprocal of the positive power.",
+            "textbook_ref": "hemh110.txt lines 14-77",
+            "question_patterns": [
+                "find the value of 2 to the power minus 3",
+                "find the value of a negative exponent",
+                "evaluate 3 raised to the power minus 2",
+                "what is 10 to the power minus 10",
+                "find the multiplicative inverse of 2 to the power minus 4",
+                "simplify a power with a negative exponent",
+                "what is (1/2) to the power minus 5",
+                "write as a positive exponent",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "apply the negative exponent rule",
+                    "explain": "a^-m = 1 / a^m for non-zero a",
+                },
+                {
+                    "step": 2,
+                    "action": "compute the positive power",
+                    "explain": "Compute a^m",
+                    "compute": "base ** m",
+                },
+                {
+                    "step": 3,
+                    "action": "take the reciprocal",
+                    "explain": "The value is 1 divided by a^m",
+                    "compute": "1 / (base ** m)",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.2.2",
+            "title": "Expanded Form Using Exponents (Including Decimals)",
+            "section": "10.2",
+            "definition": "We learnt how to write numbers like 1425 in expanded form using exponents as 1 x 10^3 + 4 x 10^2 + 2 x 10^1 + 5 x 10^0. Similarly 1425.36 = 1 x 10^3 + 4 x 10^2 + 2 x 10 + 5 x 1 + 3 x 10^-1 + 6 x 10^-2.",
+            "formula": "number = sum of digit x 10^position (negative powers after the decimal point)",
+            "key_idea": "Digits after the decimal point carry negative powers of 10.",
+            "textbook_ref": "hemh110.txt lines 78-90",
+            "question_patterns": [
+                "expand the number using exponents",
+                "write in expanded form using powers of 10",
+                "express 1025.63 in expanded form with exponents",
+                "expand a decimal number using negative exponents",
+                "find the number from the expanded form",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "give each digit its place value",
+                    "explain": "Powers decrease left to right: 10^3, 10^2, 10^1, 10^0, then 10^-1, 10^-2",
+                },
+                {
+                    "step": 2,
+                    "action": "write the sum",
+                    "explain": "number = sum of digit x 10^position",
+                },
+                {
+                    "step": 3,
+                    "action": "to rebuild the number",
+                    "explain": "Evaluate each term and add",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.3.1",
+            "title": "Laws of Exponents for Integer Exponents",
+            "section": "10.3",
+            "definition": "For any non-zero integers a and b and any integers m and n: (i) a^m x a^n = a^(m+n); (ii) a^m / a^n = a^(m-n); (iii) (a^m)^n = a^(mn); (iv) a^m x b^m = (ab)^m; (v) (a/b)^m = a^m / b^m; (vi) a^0 = 1. These laws hold for negative exponents also.",
+            "formula": "a^m x a^n = a^(m+n); a^m / a^n = a^(m-n); (a^m)^n = a^(m*n); a^0 = 1",
+            "key_idea": "The exponent laws work for negative integers too.",
+            "textbook_ref": "hemh110.txt lines 94-141, 419-423",
+            "question_patterns": [
+                "simplify and write in exponential form",
+                "simplify (-2) to the power -3 times (-2) to the power -4",
+                "simplify using the laws of exponents",
+                "simplify p cubed times p to the power minus 10",
+                "express the result in power notation with positive exponent",
+                "simplify 2 to the 5 divided by 2 to the power minus 6",
+                "evaluate the expression with negative powers",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "identify the law needed",
+                    "explain": "Same base multiplying: add exponents; dividing: subtract; power of power: multiply",
+                },
+                {
+                    "step": 2,
+                    "action": "add or subtract the exponents",
+                    "explain": "new exponent = m + n (or m - n)",
+                    "compute": "m + n",
+                },
+                {
+                    "step": 3,
+                    "action": "make the exponent positive if needed",
+                    "explain": "a^-m = 1 / a^m converts to power notation with positive exponent",
+                    "compute": "1 / (base ** m)",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.3.2",
+            "title": "Finding an Unknown Exponent",
+            "section": "10.3",
+            "definition": "When both sides of an equation have powers with the same base different from 1 and -1, their exponents must be equal. For example, find m so that (-3)^(m+1) x (-3)^5 = (-3)^7: adding exponents gives m + 6 = 7, therefore m = 1.",
+            "formula": "if a^m = a^n (a not 1 or -1) then m = n",
+            "key_idea": "Same base means equal exponents; solve the small equation.",
+            "textbook_ref": "hemh110.txt lines 185-194, 287",
+            "question_patterns": [
+                "find m so that the powers are equal",
+                "find the value of m for which 5^m divided by 5^-3 = 5^5",
+                "find m in the exponential equation",
+                "solve for the missing exponent",
+                "equate the exponents and find m",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "apply the product law",
+                    "explain": "Add the exponents on the left side",
+                    "compute": "m + n",
+                },
+                {
+                    "step": 2,
+                    "action": "equate the exponents",
+                    "explain": "Both sides have the same base, so the exponents are equal",
+                },
+                {
+                    "step": 3,
+                    "action": "solve for m",
+                    "explain": "m = target exponent - other exponents",
+                    "compute": "target_exp - known_exp",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.3.3",
+            "title": "Negative Power of a Fraction",
+            "section": "10.3",
+            "definition": "In general, (a/b)^-m = (b/a)^m. For example (2/3)^-2 = 2^-2 / 3^-2 = 3^2 / 2^2 = 9/4.",
+            "formula": "(a/b)^-m = (b/a)^m",
+            "key_idea": "A negative exponent on a fraction flips the fraction.",
+            "textbook_ref": "hemh110.txt lines 202-217",
+            "question_patterns": [
+                "find the value of (2/3) to the power minus 2",
+                "find the value of (1/2) to the power minus 5",
+                "simplify a fraction with a negative exponent",
+                "what is (a/b) to the power minus m",
+                "evaluate the negative power of a fraction",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "flip the fraction",
+                    "explain": "(a/b)^-m = (b/a)^m",
+                },
+                {
+                    "step": 2,
+                    "action": "compute the positive power",
+                    "explain": "Raise numerator and denominator to the power m",
+                    "compute": "(denominator / numerator) ** m",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.4.1",
+            "title": "Small Numbers in Standard Form",
+            "section": "10.4",
+            "definition": "Very small numbers can be expressed in standard form using negative exponents. For example, 0.000007 = 7/1000000 = 7/10^6 = 7 x 10^-6, so the thickness of a hair 0.0016 cm = 1.6 x 10^-3 cm. In standard form a number is written as d.ddd x 10^n.",
+            "formula": "small number = d.ddd x 10^-n",
+            "key_idea": "Count the places the decimal moved right; that is the negative exponent.",
+            "textbook_ref": "hemh110.txt lines 297-345, 424",
+            "question_patterns": [
+                "express the number in standard form",
+                "write 0.000007 in standard form",
+                "express a very small number in standard form",
+                "write the size of a bacteria in standard form",
+                "express 0.000035 in standard form",
+                "charge of an electron in standard form",
+                "1 micron is equal to how many metres in standard form",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "place the decimal after the first non-zero digit",
+                    "explain": "Write the digits as d.ddd",
+                },
+                {
+                    "step": 2,
+                    "action": "count the places moved right",
+                    "explain": "For a small number the decimal moves right; the count is negative",
+                },
+                {
+                    "step": 3,
+                    "action": "write in standard form",
+                    "explain": "number = d.ddd x 10^-n",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.4.2",
+            "title": "Usual Form from Standard Form",
+            "section": "10.4",
+            "definition": "To express a number in usual form from standard form, multiply out the power of 10: 3.52 x 10^5 = 3.52 x 100000 = 352000; 7.54 x 10^-4 = 7.54/10^4 = 0.000754; 3 x 10^-5 = 3/100000 = 0.00003.",
+            "formula": "usual form = d.ddd x 10^n expanded",
+            "key_idea": "Positive exponent shifts right; negative exponent shifts left.",
+            "textbook_ref": "hemh110.txt lines 388-399, 405-407",
+            "question_patterns": [
+                "express the following numbers in usual form",
+                "write 3.02 x 10^-6 in usual form",
+                "write 4.5 x 10^4 in usual form",
+                "convert standard form to usual form",
+                "expand the standard form number",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "read the exponent",
+                    "explain": "Positive n moves the decimal right n places; negative n moves left",
+                },
+                {
+                    "step": 2,
+                    "action": "shift the decimal point",
+                    "explain": "Move the decimal point by n places",
+                    "compute": "d * 10 ** n",
+                },
+            ],
+        },
+        {
+            "id": "c8m10.4.3",
+            "title": "Comparing and Combining Numbers in Standard Form",
+            "section": "10.4.1",
+            "definition": "To compare very large or very small numbers divide their standard forms. To add or subtract numbers in standard form, we convert them into numbers with the same exponents: 5.97 x 10^24 + 7.35 x 10^22 = 597 x 10^22 + 7.35 x 10^22 = 604.35 x 10^22.",
+            "formula": "make exponents equal, then add or subtract the number parts",
+            "key_idea": "Match the powers of 10 before adding, subtracting or comparing.",
+            "textbook_ref": "hemh110.txt lines 346-384",
+            "question_patterns": [
+                "compare the diameter of the sun and the earth",
+                "how many times is one standard form number of the other",
+                "find the total mass of earth and moon",
+                "find the distance between the moon and sun during the eclipse",
+                "add the numbers given in standard form",
+                "compare very large and very small numbers",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "make the exponents equal",
+                    "explain": "Rewrite one number so both have the same power of 10",
+                },
+                {
+                    "step": 2,
+                    "action": "add or subtract the number parts",
+                    "explain": "Keep the common power of 10",
+                    "compute": "num1 + num2",
+                },
+                {
+                    "step": 3,
+                    "action": "to compare",
+                    "explain": "Divide the number parts and subtract the exponents",
+                    "compute": "num1 / num2 * 10 ** (e1 - e2)",
+                },
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "hemh110.txt lines 146-152 (Example 1)",
+            "concept": "c8m10.2.1",
+            "question_type": "evaluate_negative_power",
+            "question_pattern": "find the value of {base} to the power -{m}",
+            "extracted_variables": {
+                "base": "the base",
+                "m": "the positive value of the exponent",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "apply the rule",
+                    "explain": "a^-m = 1 / a^m",
+                },
+                {
+                    "step": 2,
+                    "action": "compute a^m",
+                    "explain": "Multiply the base m times",
+                    "compute": "base ** m",
+                },
+                {
+                    "step": 3,
+                    "action": "reciprocal",
+                    "explain": "value = 1 / a^m",
+                    "compute": "1 / (base ** m)",
+                },
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "hemh110.txt lines 153-159 (Example 2)",
+            "concept": "c8m10.3.1",
+            "question_type": "simplify_laws",
+            "question_pattern": "simplify ({base})^{m} x ({base})^{-{n}}",
+            "extracted_variables": {
+                "base": "the common base",
+                "m": "first exponent",
+                "n": "second exponent",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "add the exponents",
+                    "explain": "a^m x a^n = a^(m+n)",
+                    "compute": "m - n",
+                },
+                {
+                    "step": 2,
+                    "action": "write with positive exponent",
+                    "explain": "If the result is negative, use a^-m = 1 / a^m",
+                },
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "hemh110.txt lines 160-162 (Example 3)",
+            "concept": "c8m10.3.1",
+            "question_type": "change_base",
+            "question_pattern": "express {old_base} to the power -{m} as a power with the base {new_base}",
+            "extracted_variables": {
+                "old_base": "original base",
+                "new_base": "required base",
+                "m": "exponent",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "express the old base as a power of the new base",
+                    "explain": "e.g. 4 = 2 x 2 = 2^2",
+                },
+                {
+                    "step": 2,
+                    "action": "apply power of a power",
+                    "explain": "(a^p)^-m = a^(-m x p)",
+                    "compute": "m * p",
+                },
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "hemh110.txt lines 185-194 (Example 5)",
+            "concept": "c8m10.3.2",
+            "question_type": "find_exponent",
+            "question_pattern": "find m so that ({base})^(m + {a}) x ({base})^{b} = ({base})^{c}",
+            "extracted_variables": {
+                "base": "common base",
+                "a": "constant added to m",
+                "b": "second exponent",
+                "c": "resulting exponent",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "add the exponents",
+                    "explain": "m + a + b on the left",
+                },
+                {
+                    "step": 2,
+                    "action": "equate exponents",
+                    "explain": "Same base different from 1 and -1 means equal exponents",
+                },
+                {
+                    "step": 3,
+                    "action": "solve for m",
+                    "explain": "m = c - a - b",
+                    "compute": "c - a - b",
+                },
+            ],
+        },
+        {
+            "id": "ex5",
+            "source_ref": "hemh110.txt lines 202-206 (Example 6)",
+            "concept": "c8m10.3.3",
+            "question_type": "fraction_negative_power",
+            "question_pattern": "find the value of ({a}/{b}) to the power -{m}",
+            "extracted_variables": {
+                "a": "numerator",
+                "b": "denominator",
+                "m": "exponent",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "flip the fraction",
+                    "explain": "(a/b)^-m = (b/a)^m",
+                },
+                {
+                    "step": 2,
+                    "action": "compute the power",
+                    "explain": "Raise numerator and denominator to m",
+                    "compute": "(b / a) ** m",
+                },
+            ],
+        },
+        {
+            "id": "ex6",
+            "source_ref": "hemh110.txt lines 385-387 (Example 8)",
+            "concept": "c8m10.4.1",
+            "question_type": "standard_form",
+            "question_pattern": "express {number} in standard form",
+            "extracted_variables": {
+                "number": "the number to convert",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "place the decimal after the first non-zero digit",
+                    "explain": "Write the digit part d.ddd",
+                },
+                {
+                    "step": 2,
+                    "action": "count the shift",
+                    "explain": "Right shift for small numbers gives a negative exponent; left shift for large numbers gives a positive exponent",
+                },
+                {
+                    "step": 3,
+                    "action": "write d.ddd x 10^n",
+                    "explain": "n is the shift count with sign",
+                },
+            ],
+        },
+        {
+            "id": "ex7",
+            "source_ref": "hemh110.txt lines 388-399 (Example 9)",
+            "concept": "c8m10.4.2",
+            "question_type": "usual_form",
+            "question_pattern": "express {d} x 10^{n} in usual form",
+            "extracted_variables": {
+                "d": "number part of the standard form",
+                "n": "exponent of 10",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "expand the power of 10",
+                    "explain": "10^n for positive n, or divide by 10^m for 10^-m",
+                },
+                {
+                    "step": 2,
+                    "action": "multiply or divide",
+                    "explain": "usual form = d x 10^n",
+                    "compute": "d * 10 ** n",
+                },
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex10.1",
+            "source_ref": "hemh110.txt lines 252-296 (Exercise 10.1)",
+            "questions": [
+                "Evaluate: (i) 3^-2 (ii) (-4)^-2 (iii) (1/2)^-5",
+                "Simplify and express the result in power notation with positive exponent: (i) (-4)^5 / (-4)^8 (ii) (1/2^3)^2 (iii) 3^-4 x (5/3)^4 (iv) (3^-7 / 3^-10) x 3^-5 (v) 2^-3 x (-7)^-3",
+                "Find the value of: (i) (3^0 + 4^-1) x 2^2 (ii) (2^-1 x 4^-1) / 2^-2 (iii) (1/2)^-2 + (1/3)^-2 + (1/4)^-2 (iv) (3^-1 + 4^-1 + 5^-1)^0 (v) ((-2/3)^-2)^2",
+                "Evaluate: (i) 8^-1 x 5^3 / 2^-4 (ii) (5^-1 x 2^-1) x 6^-1",
+                "Find the value of m for which 5^m / 5^-3 = 5^5",
+                "Evaluate: (i) {(1/3)^-1 - (1/4)^-1}^-1 (ii) (5/8)^-7 x (8/5)^-5",
+                "Simplify: (i) 25 x t^-4 / (5^-3 x 10 x t^-8), t != 0 (ii) 3^-5 x 10^-5 x 125 / (5^-7 x 6^-5)",
+            ],
+        },
+        {
+            "id": "ex10.2",
+            "source_ref": "hemh110.txt lines 400-417 (Exercise 10.2)",
+            "questions": [
+                "Express the following numbers in standard form: (i) 0.0000000000085 (ii) 0.00000000000942 (iii) 6020000000000000 (iv) 0.00000000837 (v) 31860000000",
+                "Express the following numbers in usual form: (i) 3.02 x 10^-6 (ii) 4.5 x 10^4 (iii) 3 x 10^-8 (iv) 1.0001 x 10^9 (v) 5.8 x 10^12 (vi) 3.61492 x 10^6",
+                "Express the number appearing in the following statements in standard form: (i) 1 micron is equal to 1/1000000 m (ii) charge of an electron is 0.000,000,000,000,000,000,16 coulomb (iii) size of a bacteria is 0.0000005 m (iv) size of a plant cell is 0.00001275 m (v) thickness of a thick paper is 0.07 mm",
+                "In a stack there are 5 books each of thickness 20 mm and 5 paper sheets each of thickness 0.016 mm. What is the total thickness of the stack",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(
+        out_dir, "catalog_class8_maths_ch10_exponents_powers.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

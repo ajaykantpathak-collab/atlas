@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_001",
+   "title": "c11_chem_cbse_09_001",
+   "questions": [
+    {
+     "q": "Write the electronic configuration of hydrogen and state the two ions it can form by losing or gaining one electron. What are the oxidation states in these ions?",
+     "a": "Electronic configuration: 1s¹. Losing 1e⁻ gives H⁺ (oxidation state +1); gaining 1e⁻ gives H⁻ (oxidation state -1). A wrong answer (e.g., writing 1s² or stating only H⁺) reveals the student hasn't grasped that hydrogen's single electron allows both electron loss and gain, which is the root of its dual character.",
+     "self_check": true
+    },
+    {
+     "q": "Hydrogen is placed at the top of Group 1 and Group 17 in many periodic tables. Explain why it resembles alkali metals in three ways and halogens in three ways, using only electronic configuration and valence electron logic.",
+     "a": "Resemblance to Group 1: (i) 1 valence electron (ns¹), (ii) forms +1 oxidation state by losing 1e⁻, (iii) forms oxides (H₂O), halides (HCl), sulphides (H₂S) like Na₂O, NaCl, Na₂S. Resemblance to Group 17: (i) one electron short of noble gas configuration (needs 1e⁻ for 1s² like He), (ii) forms -1 oxidation state by gaining 1e⁻ (hydrides like NaH), (iii) exists as diatomic molecule H₂ like Cl₂, F₂. A wrong answer listing physical properties (e.g., \"both are gases\") reveals confusion between physical state and chemical behavior based on electronic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Ionization enthalpy of H = 1312 kJ/mol, Li = 520 kJ/mol, F = 1681 kJ/mol. Electron gain enthalpy of H = -73 kJ/mol, F = -328 kJ/mol. H-H bond dissociation energy = 436 kJ/mol, F-F = 158 kJ/mol. Using ONLY this data, argue whether hydrogen should be placed with Group 1, Group 17, or separately.",
+     "a": "Hydrogen's ionization enthalpy (1312 kJ/mol) is much higher than Li (520 kJ/mol) but closer to F (1681 kJ/mol), suggesting it holds its electron tightly like halogens. Its electron gain enthalpy (-73 kJ/mol) is less exothermic than F (-328 kJ/mol), showing less tendency to gain electrons than halogens. H-H bond energy (436 kJ/mol) is much higher than F-F (158 kJ/mol), indicating a stronger covalent bond. Since H matches neither group quantitatively on all three parameters, it must be placed separately. A wrong conclusion (e.g., \"place with Group 1 because it forms H⁺\") reveals the student ignores quantitative periodic trends and relies only on qualitative similarity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following pairs and identify which property shows hydrogen behaving like an alkali metal and which shows halogen-like behavior: (a) Reaction with Na: 2Na + H₂ → 2NaH vs 2Na + Cl₂ → 2NaCl. (b) Reaction with Cl₂: H₂ + Cl₂ → 2HCl vs Na + Cl₂ → NaCl (not balanced). (c) Electrolysis of fused NaH vs fused NaCl.",
+     "a": "(a) In NaH, H gains 1e⁻ to form H⁻ (halogen-like); in NaCl, Cl gains 1e⁻ to form Cl⁻. Both show halogen behavior. (b) In HCl, H shares electrons (covalent, non-metal behavior); in NaCl, Na loses e⁻ (ionic, metal behavior). H behaves like a non-metal here. (c) Electrolysis of NaH: H⁻ migrates to anode, loses e⁻ → H₂ (oxidation); electrolysis of NaCl: Cl⁻ migrates to anode, loses e⁻ → Cl₂. H⁻ behaves like Cl⁻ (halogen-like). A wrong assignment (e.g., calling HCl formation \"metal-like\") reveals inability to distinguish electron transfer (ionic) from electron sharing (covalent).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Hydrogen should be placed in Group 1 because it forms H⁺ ions in acids like HCl, H₂SO₄, just as Na forms Na⁺ in NaCl.\" Evaluate this statement. Is it sufficient for Group 1 placement? Justify using the concept of ionization enthalpy and the physical nature of H⁺.",
+     "a": "The statement is chemically incomplete. While H does form H⁺ in aqueous acids, the bare H⁺ ion (a proton) has no electron cloud, radius ~1.5×10⁻¹⁵ m, and cannot exist freely - it immediately associates with H₂O to form H₃O⁺. Alkali metal cations (Na⁺, K⁺) have stable noble gas configurations and exist as hydrated ions in solution. Hydrogen's ionization enthalpy (1312 kJ/mol) is 2.5× that of Li, making H⁺ formation energetically unfavorable in gas phase. Thus, H⁺ formation in water is a solvation-driven process, not inherent metallic character. A student accepting the statement reveals confusion between solution-phase behavior and intrinsic atomic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could measure the \"metallic character index\" M = (Ionization Enthalpy)⁻¹ × (Electron Gain Enthalpy) for H, Li, Na, F, Cl, how would you calculate and interpret the values? What would the trend reveal about hydrogen's position? (Use approximate values: IE in kJ/mol: H=1312, Li=520, Na=496, F=1681, Cl=1251; EG in kJ/mol: H=-73, Li=-60, Na=-53, F=-328, Cl=-349).",
+     "a": "Calculate M = (1/IE) × |EG| (using absolute EG for index). H: (1/1312)×73 = 0.0556; Li: (1/520)×60 = 0.115; Na: (1/496)×53 = 0.107; F: (1/1681)×328 = 0.195; Cl: (1/1251)×349 = 0.279. Alkali metals have M ~0.11, halogens ~0.24, hydrogen (0.056) is lower than both. This quantitative index confirms hydrogen is neither strongly metallic (low IE, low |EG|) nor strongly non-metallic (high IE, high |EG|). A poor design (e.g., using only IE) reveals inability to construct a multi-parameter metric for periodic classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

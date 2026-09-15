@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_009",
+   "title": "c11_biotech_cbse_11_009",
+   "questions": [
+    {
+     "q": "A student downloads a file from the Protein Data Bank (PDB) and sees lines beginning with `ATOM`, `HETATM`, `HELIX`, `SHEET`, and `END`. They claim this is a GenBank file because it contains \"annotation lines.\" Is the student correct? Explain why or why not in 2-3 sentences.",
+     "a": "The student is incorrect. PDB files use `ATOM`/`HETATM` for 3D coordinate records, `HELIX`/`SHEET` for secondary structure annotations, and `END` as a termination record — none of which exist in GenBank format. GenBank files start with `LOCUS`, use `FEATURES` for annotations, and `ORIGIN`/`//` for sequence data. The presence of 3D coordinate fields (x, y, z, occupancy, B-factor) in `ATOM` lines is a definitive PDB signature.",
+     "self_check": true
+    },
+    {
+     "q": "Given a FASTA file containing 50 sequences, a student writes `record = SeqIO.read(\"file.fasta\", \"fasta\")` and gets a `ValueError: More than one record found`. They then change to `records = SeqIO.parse(\"file.fasta\", \"fasta\")` but their loop `for rec in records: print(rec.id)` prints nothing. What is the most likely mistake, and how does `SeqIO.parse()` differ from `SeqIO.read()` in handling multi-record files?",
+     "a": "`SeqIO.parse()` returns a generator (iterator), not a list; if the student iterates over it once (e.g., in a list comprehension or prior loop), the generator is exhausted and subsequent loops yield nothing. `SeqIO.read()` expects exactly one record and raises `ValueError` for zero or multiple records, while `SeqIO.parse()` handles any number of records lazily. The fix is to either convert to a list (`list(SeqIO.parse(...))`) or re-open the file/iterator for each pass.",
+     "self_check": true
+    },
+    {
+     "q": "A GenBank record has a CDS feature with qualifiers: `/gene=\"BRCA1\"`, `/product=\"DNA repair protein\"`, `/translation=\"MQIFVKTLTG...\"`, and `/db_xref=\"GeneID:672\"`. Write a Python code snippet using Biopython that extracts the gene name, product description, and protein sequence from *all* CDS features in a multi-record GenBank file `genes.gb`, storing each as a dictionary in a list `cds_list`.",
+     "a": "```python\nfrom Bio import SeqIO\ncds_list = []\nfor record in SeqIO.parse(\"genes.gb\", \"genbank\"):\n    for feat in record.features:\n        if feat.type == \"CDS\":\n            qual = feat.qualifiers\n            cds_list.append({\n                \"gene\": qual.get(\"gene\", [\"\"])[0],\n                \"product\": qual.get(\"product\", [\"\"])[0],\n                \"protein_seq\": qual.get(\"translation\", [\"\"])[0]\n            })\n```\nThis works because `feat.qualifiers` is a dict of lists (each qualifier can appear multiple times), so we take the first element `[0]` with a default empty string. A wrong answer would treat `qual[\"gene\"]` as a string directly, causing `TypeError` or missing data when qualifiers are absent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare FASTA and GFF3 formats for representing a eukaryotic gene with three exons and two introns. Which format can natively represent the exon-intron structure *without* external references, and why? What minimal additional file would FASTA need to achieve the same representation?",
+     "a": "GFF3 natively represents exon-intron structure because each line is a feature record with columns: `seqid`, `source`, `type` (exon, CDS, gene), `start`, `end`, `score`, `strand`, `phase`, and `attributes` (Parent=transcript_id), allowing hierarchical nesting (gene → mRNA → exon/CDS). FASTA only stores the *sequence* (exons concatenated or genomic) with a single header line — it has no coordinate or feature fields. To represent structure, FASTA requires a companion GFF3/BED file mapping transcript coordinates to genomic coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"SBML (Systems Biology Markup Language) is just XML with a biology vocabulary; we could replace it with JSON and lose no information.\" Evaluate this claim. Discuss *two* specific features of SBML (Level 3) that rely on XML Schema / MathML / SBO annotations which would be non-trivial to replicate in plain JSON.",
+     "a": "The claim is false. Two SBML features difficult in JSON: (1) **MathML-encoded kinetic formulas** (e.g., `<math xmlns=\"...\"><apply><times/><ci>k</ci><ci>S</ci></apply></math>`) — XML Schema validates MathML structure natively; JSON would need custom schema/validation for mathematical expressions. (2) **SBO (Systems Biology Ontology) term annotations** via `sboTerm` attributes on every element (e.g., `sboTerm=\"SBO:0000029\"` for Michaelis-Menten kinetics) — these are URIs with formal ontology semantics; JSON lacks standardized attribute-based annotation mechanism, requiring wrapper objects that break tool interoperability. SBML's XML foundation enables validated, ontology-linked, mathematically-executable models across 300+ tools.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal \"custom format\" specification for storing a *single* protein sequence with: (a) UniProt accession, (b) organism name, (c) GO term annotations (list of GO IDs), (d) predicted secondary structure string (H/E/C per residue), and (e) the amino acid sequence. Write the format as a 10-line example file, then write a Python function `parse_custom(filepath)` that returns a dict with these five keys. The format must be line-oriented (no XML/JSON) and human-readable.",
+     "a": "Example file (`P12345.prot`):\n```",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

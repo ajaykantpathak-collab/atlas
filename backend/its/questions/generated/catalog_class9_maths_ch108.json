@@ -1,0 +1,449 @@
+{
+ "catalog": "catalog_class9_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "iemh.108.1",
+   "title": "Explicit Rule for a Sequence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 14th term of the AP with first term 5 and common difference 6.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 16 terms of the AP 2, 7, 12, ... .",
+     "a": "632",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 8 and last term 80 with 13 terms. Find its sum.",
+     "a": "572",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 16 and 18. Find the common difference.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 5, 9, 13, ... up to and including 41?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 26 and the 5th term is 17. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.2",
+   "title": "Term Position from a Linear Rule",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 3 = 63.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 9x - 5 = 67.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 11 = 5.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 1 = 3.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x + 6 = 2x + 24.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 2) = 24.",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.3",
+   "title": "Next Term from a Recurrence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 7th term of the AP with first term 8 and common difference 2.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 11 terms of the AP 8, 16, 24, ... .",
+     "a": "528",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 9 and last term 51 with 15 terms. Find its sum.",
+     "a": "450",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 19 and 23. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 1, 9, 17, ... up to and including 17?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The 5th term of an AP is 16 and the 2th term is 7. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.4",
+   "title": "nth Term of an Arithmetic Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 4th term of the AP with first term 4 and common difference 6.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 20 terms of the AP 10, 14, 18, ... .",
+     "a": "960",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 8 and last term 48 with 11 terms. Find its sum.",
+     "a": "308",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 19 and 23. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 4, 6, 8, ... up to and including 12?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 45 and the 4th term is 20. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.5",
+   "title": "Finding Common Difference and First Term of an AP",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 12th term of the AP with first term 9 and common difference 9.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 8 terms of the AP 4, 12, 20, ... .",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 1 and last term 34 with 12 terms. Find its sum.",
+     "a": "210",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 16 and 24. Find the common difference.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 1, 8, 15, ... up to and including 71?",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 21 and the 3th term is 11. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.6",
+   "title": "Term Position in an Arithmetic Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 8th term of the AP with first term 5 and common difference 7.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 18 terms of the AP 3, 8, 13, ... .",
+     "a": "819",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 8 and last term 72 with 17 terms. Find its sum.",
+     "a": "680",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 12 and 15. Find the common difference.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 6, 12, 18, ... up to and including 90?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "The 8th term of an AP is 49 and the 3th term is 19. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.7",
+   "title": "Sum of First n Natural Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 14th term of the AP with first term 10 and common difference 7.",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 14 terms of the AP 3, 11, 19, ... .",
+     "a": "770",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 7 and last term 59 with 14 terms. Find its sum.",
+     "a": "462",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 8 and 10. Find the common difference.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 4, 8, 12, ... up to and including 16?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The 4th term of an AP is 16 and the 3th term is 13. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.8",
+   "title": "Sum of Natural Numbers in a Range",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 4, 11, 9 (two decimal places).",
+     "a": "2.67",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 5, 7, 4, 4 (two decimal places).",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 25. Find its standard deviation.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 4 and the mean is 50.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 25 and 58. Find the interquartile range.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.9",
+   "title": "nth Term of a Geometric Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 11th term of the AP with first term 3 and common difference 8.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 12 terms of the AP 8, 12, 16, ... .",
+     "a": "360",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 6 and last term 62 with 9 terms. Find its sum.",
+     "a": "306",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 18 and 26. Find the common difference.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 9, 16, 23, ... up to and including 23?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The 10th term of an AP is 31 and the 4th term is 13. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.10",
+   "title": "Common Ratio of a Geometric Progression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 10th term of the AP with first term 3 and common difference 2.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 5 terms of the AP 5, 10, 15, ... .",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 4 and last term 64 with 13 terms. Find its sum.",
+     "a": "442",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 8 and 14. Find the common difference.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 5, 12, 19, ... up to and including 26?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The 5th term of an AP is 18 and the 2th term is 6. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.11",
+   "title": "Bounce Height Sequences",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 10th term of the AP with first term 7 and common difference 5.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 18 terms of the AP 2, 8, 14, ... .",
+     "a": "954",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 7 and last term 58 with 18 terms. Find its sum.",
+     "a": "585",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 15 and 21. Find the common difference.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 12, 14, 16, ... up to and including 24?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "The 6th term of an AP is 16 and the 4th term is 10. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.12",
+   "title": "Geometric Progression in Fractal Patterns",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 10th term of the AP with first term 1 and common difference 7.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 5 terms of the AP 9, 17, 25, ... .",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 2 and last term 47 with 16 terms. Find its sum.",
+     "a": "392",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 5 and 9. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 4, 12, 20, ... up to and including 44?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The 4th term of an AP is 23 and the 3th term is 18. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

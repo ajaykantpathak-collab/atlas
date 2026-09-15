@@ -1,0 +1,386 @@
+{
+ "catalog": "catalog_class7_maths_ch201.json",
+ "concepts": [
+  {
+   "id": "gegp.201.1",
+   "title": "Congruent Figures",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 32 - 80 gives 68",
+     "compute": "third = 180 - 32 - 80"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 32 and 80 degrees; the third angle is what? (The third angles must match.)",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 13 cm, 15 cm and 7 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 90 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.2",
+   "title": "SSS Congruence Condition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 58 - 30 gives 92",
+     "compute": "third = 180 - 58 - 30"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 58 and 30 degrees; the third angle is what? (The third angles must match.)",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 3 cm, 8 cm and 7 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 92 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.3",
+   "title": "Congruence Notation and Correspondence",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 52 - 70 gives 58",
+     "compute": "third = 180 - 52 - 70"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 52 and 70 degrees; the third angle is what? (The third angles must match.)",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 15 cm, 7 cm and 7 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 74 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "53",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.4",
+   "title": "SAS Congruence Condition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 65 gives 25",
+     "compute": "other = 90 - 65"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 65 degrees, find the other.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 11 degrees, find the other.",
+     "a": "169",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 66 degrees; find the other.",
+     "a": "114",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 27 degrees and 264 degrees, find the remaining angle.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 65 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 138 degrees. Find its co-interior partner.",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.5",
+   "title": "ASA Congruence Condition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 66 gives 24",
+     "compute": "other = 90 - 66"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 164 degrees, find the other.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 21 degrees; find the other.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 149 degrees and 158 degrees, find the remaining angle.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 64 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 22 degrees. Find its co-interior partner.",
+     "a": "158",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.6",
+   "title": "AAS Congruence Condition",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 15 degrees, find the other.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 33 degrees, find the other.",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 70 degrees; find the other.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 142 degrees and 57 degrees, find the remaining angle.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 40 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 55 degrees. Find its co-interior partner.",
+     "a": "125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.7",
+   "title": "RHS Congruence Condition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 63 gives 27",
+     "compute": "other = 90 - 63"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 63 degrees, find the other.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 55 degrees, find the other.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 75 degrees; find the other.",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 41 degrees and 113 degrees, find the remaining angle.",
+     "a": "206",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 72 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 114 degrees. Find its co-interior partner.",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.8",
+   "title": "Angles of Isosceles Triangles",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 68 degrees, find the other.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 53 degrees, find the other.",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 36 degrees; find the other.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 147 degrees and 86 degrees, find the remaining angle.",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 51 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 94 degrees. Find its co-interior partner.",
+     "a": "86",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.9",
+   "title": "Angles of an Equilateral Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 48 degrees, find the other.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 162 degrees, find the other.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 57 degrees; find the other.",
+     "a": "123",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 58 degrees and 242 degrees, find the remaining angle.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 27 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 140 degrees. Find its co-interior partner.",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

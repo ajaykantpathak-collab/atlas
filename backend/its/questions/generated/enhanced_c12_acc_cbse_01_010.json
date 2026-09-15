@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_010",
+   "title": "c12_acc_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a Profit and Loss Adjustment Account in the context of past adjustments in a partnership firm?",
+     "a": "The primary purpose is to record the effect of rectification entries for errors/omissions of prior periods so that the current period's Profit and Loss Account remains unaffected. The balance of this account is ultimately transferred to the partners' capital accounts in their profit-sharing ratio. A wrong answer (e.g., \"to calculate current year's profit\") reveals that the student confuses past adjustments with current year appropriations and does not understand the separation of accounting periods.",
+     "self_check": true
+    },
+    {
+     "q": "A firm omitted to charge interest on drawings for the past two years. The accountant proposes to debit the current year's Profit and Loss Account with the total interest on drawings for both years. Is this correct? Explain why or why not.",
+     "a": "No, it is not correct. Interest on drawings is an appropriation of profit relating to the period in which drawings were made. Charging it to the current year's Profit and Loss Account would distort the current year's profit and violate the accounting period concept. The correct treatment is to debit the Profit and Loss Adjustment Account (or directly adjust the partners' capital accounts) for the prior periods' amounts. A wrong answer indicates the student does not grasp the distinction between current period expenses/appropriations and prior period rectifications.",
+     "self_check": true
+    },
+    {
+     "q": "Partners X and Y share profits 3:2. Their fixed capitals are ₹3,00,000 and ₹2,00,000 respectively. Interest on capital @ 12% p.a. was not provided for the last two years. Pass the rectification entry for the total omitted interest.",
+     "a": "Step 1: Calculate annual interest: X = ₹3,00,000 × 12% = ₹36,000; Y = ₹2,00,000 × 12% = ₹24,000. Total per year = ₹60,000. For 2 years = ₹1,20,000.\nStep 2: The omission means Profit and Loss Adjustment A/c should be debited and Partners' Capital A/cs credited in their profit-sharing ratio (3:2). But note: interest on capital is an appropriation, so the net effect is to increase capitals. The entry:\nProfit and Loss Adjustment A/c Dr. ₹1,20,000\n   To X's Capital A/c ₹72,000\n   To Y's Capital A/c ₹48,000\n(Being interest on capital omitted for two years now provided)\nIf the student debits Profit and Loss A/c or credits in capital ratio instead of profit-sharing ratio, it reveals confusion between fixed capital accounts and profit-sharing ratio for appropriations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the treatment of an omitted salary to a partner (say ₹50,000 per year for 3 years) versus an omitted interest on capital (same amount) in terms of the accounts debited and credited in the rectification entry. Are there any differences?",
+     "a": "Both are appropriations of profit and are treated identically for rectification: Profit and Loss Adjustment A/c is debited with the total omitted amount (₹1,50,000) and the Partner's Capital A/c is credited with the same amount. There is no difference in the journal entry structure because both are charges against profit that were omitted. The only difference arises if the salary was to be paid to a specific partner (credited to that partner only) whereas interest on capital is credited to each partner in their capital ratio (or as per deed). A wrong answer that suggests different accounts (e.g., debiting Salary A/c) shows the student memorises entries without understanding the common nature of appropriations.",
+     "self_check": true
+    },
+    {
+     "q": "A firm discovers that for the past two years, a partner's guarantee of minimum profit was not honored. The guarantee was to Partner C (profit share 1/5) of ₹1,00,000 per year. Actual profits were ₹4,00,000 and ₹5,00,000 respectively. The firm recorded the profit distribution without considering the guarantee. Evaluate whether the rectification entry should be passed through Profit and Loss Adjustment Account or through the current year's Profit and Loss Appropriation Account. Justify your answer.",
+     "a": "The rectification must go through Profit and Loss Adjustment Account (or directly adjust capital accounts) because the guarantee relates to past periods whose profits have already been distributed. Using the current year's Appropriation Account would incorrectly reduce the current year's divisible profit and misstate the current year's financial statements. The adjustment amount is the shortfall in C's share for each year (guaranteed amount minus actual share). This amount is debited to Profit and Loss Adjustment A/c and credited to C's Capital A/c, while the other partners' capital accounts are debited in their gaining ratio (or old ratio if gaining ratio not given). A wrong choice of current year's account indicates the student fails to apply the accounting period concept and the principle of prior period adjustments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partnership firm has three different past adjustments: (a) omitted interest on capital, (b) omitted interest on drawings, (c) omitted salary to a partner. Design a single combined rectification entry that nets off the effects on the Profit and Loss Adjustment Account and the partners' capital accounts. Show the full working.",
+     "a": "A good answer will:\n1. List each adjustment with amounts for each partner.\n2. Determine the net effect on Profit and Loss Adjustment Account (debit for interest on capital and salary, credit for interest on drawings).\n3. Determine the net effect on each partner's capital account.\n4. Present a single compound journal entry.\nExample: Partners A (3/5) and B (2/5). Capitals: A ₹2,00,000, B ₹1,00,000. Interest on capital @10% omitted for 1 year. Interest on drawings @12% omitted: A drew ₹50,000, B drew ₹30,000 (average 6 months). Salary to A ₹24,000 omitted.\nCalculations:\nInterest on capital: A ₹20,000, B ₹10,000 → Total ₹30,000 (Dr P&L Adj)\nInterest on drawings: A ₹3,000, B ₹1,800 → Total ₹4,800 (Cr P&L Adj)\nSalary to A: ₹24,000 (Dr P&L Adj)\nNet Dr to P&L Adj = ₹30,000 + ₹24,000 - ₹4,800 = ₹49,200.\nCapital adjustments: A: +20,000 (int on cap) -3,000 (int on dr) +24,000 (salary) = +₹41,000; B: +10,000 -1,800 = +₹8,200.\nEntry:\nProfit and Loss Adjustment A/c Dr. ₹49,200\n   To A's Capital A/c ₹41,000\n   To B's Capital A/c ₹8,200\nA poor answer would treat each separately without netting, or miss the credit for interest on drawings, showing inability to synthesise multiple adjustments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

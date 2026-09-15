@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_12_010",
+   "title": "c12_eng_k_cbse_12_010",
+   "questions": [
+    {
+     "q": "Define \"vocabulary in context\" as a reading skill for poetry. How does it differ from looking up a word in a dictionary?",
+     "a": "Vocabulary in context is the process of deriving a word's specific meaning, connotation, and functional role from the surrounding textual environment (imagery, syntax, tone, theme) rather than from an external, decontextualized definition. A dictionary gives denotation; context reveals how the poet *uses* the word to build meaning. A wrong answer (e.g., \"it means guessing the meaning\") reveals the student confuses inference with random guessing and misses the systematic use of textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"perennial feuds and seasonal alliance\" (line 9), explain why the poet chooses \"perennial\" for feuds and \"seasonal\" for alliance. What does this contrast reveal about the poet's view of communal relations?",
+     "a": "\"Perennial\" means lasting all year / perpetual; \"seasonal\" means temporary, recurring only at certain times. The contrast reveals that conflict (feuds) is presented as the enduring, default state, while harmony (alliance) is fleeting, conditional, and cyclical. A wrong answer (e.g., \"perennial means strong, seasonal means weak\") shows the student misses the temporal metaphor: the poet maps the calendar onto sociology to suggest communal harmony is not structural but episodic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 4-step context-clue protocol (Locate, Parse, Infer, Validate) to the word \"commemorating\" in line 8: \"the mutual distances / commemorating a donor's whim\". Show each step and arrive at the contextual meaning.",
+     "a": "Step 1 (Locate): Word is \"commemorating\", line 8, present participle modifying \"mutual distances\". Step 2 (Parse): Verb form, transitive. Subject = \"mutual distances\" (the space between clock towers). Object = \"a donor's whim\". Step 3 (Infer): Distances don't literally commemorate; they *materialize* or *memorialize* the donor's arbitrary choice. The whim becomes permanent architecture. Step 4 (Validate): Fits the theme of accidental, human-made irregularity vs. natural time. Wrong answer (e.g., \"it means celebrating\") shows the student imports the common ceremonial meaning (\"commemorate a victory\") and misses the ironic personification: distances \"commemorate\" a whim — they freeze caprice into stone.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the word \"zigzag\" in line 12: \"a zigzag sky showing / through the knocked-out clockwork\". How does this single word simultaneously describe visual appearance, structural damage, and psychological state?",
+     "a": "Visually: the sky is seen in jagged fragments through broken clock-face glass. Structurally: \"zigzag\" mimics the shattered, non-linear ruin of the clockwork mechanism (gears broken, regular motion destroyed). Psychologically: it reflects the fractured, erratic psyche of a city after violence — no straight path, no steady tick. A wrong answer (e.g., \"it just means the sky looks crooked\") treats the word as mere visual description, ignoring how sound (plosive 'z', 'g') and pattern enact the breakdown of order central to the poem's argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's use of \"precise\" in line 15: \"a precise act / Of nature in a night of lightnings\". Why is this adjective deeply ironic and thematically crucial? Defend your interpretation against the reading that \"precise\" simply means \"accurate\".",
+     "a": "\"Precise\" usually implies human intention, calculation, deliberation. Nature (lightning) is indifferent, random, chaotic. Calling lightning \"precise\" transfers human agency onto nature — it mimics the \"precise act\" of a time-bomb (line 14) or riot. The irony: human violence (bomb, riot) is messy; nature's violence (lightning) is geometrically exact. The word collapses the distinction between human-made and natural destruction. A wrong answer (\"precise just means the lightning hit the clock exactly\") misses the semantic clash: the poem's central tension is between messy human time (clocks off by minutes) and terrifyingly exact natural time (lightning). \"Precise\" is the pivot word.",
+     "self_check": true
+    },
+    {
+     "q": "Create two original sentences using \"knocked-out\" (line 12) that demonstrate its shift from literal physical sense to metaphorical sense in the poem. One sentence must describe a clock tower; the other must describe a community.",
+     "a": "Literal: \"The explosion left the clock tower knocked-out, its face smashed and hands frozen at 3:17.\" Metaphorical: \"After the riots, the old neighbourhood felt knocked-out, its rhythm of daily trust broken beyond easy repair.\" A poor answer uses \"knocked-out\" only as \"unconscious\" (boxing sense) in both, failing to show the transferred epithet: the clock is mechanically disabled; the community is socially/psychologically incapacitated. The student must show the word bridges object and society.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

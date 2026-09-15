@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_003",
+   "title": "c10_geo_cbse_05_003",
+   "questions": [
+    {
+     "q": "Name the geological system in which manganese ore deposits are predominantly found in India and name two major manganese-producing states.",
+     "a": "Manganese deposits are predominantly found in the Dharwar and Cuddapah systems of the Peninsular Plateau. Major producing states are Odisha and Maharashtra (also Madhya Pradesh). A wrong answer like \"manganese is found in the Himalayan region\" reveals confusion between iron ore belts and manganese belts, or ignorance of the Precambrian shield geology of the Peninsular Plateau.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why bauxite deposits in India are concentrated on the plateaus and hill tops of Odisha, Gujarat, and Jharkhand rather than in the river valleys or plains.",
+     "a": "Bauxite forms by intense chemical weathering (lateritisation) of aluminium-rich rocks under tropical conditions with heavy rainfall and good drainage. Plateaus and hill tops provide the necessary elevation for leaching and drainage, while valleys accumulate alluvium that buries or dilutes the ore. A wrong answer citing \"volcanic origin\" or \"sedimentary deposition in basins\" shows misunderstanding of bauxite as a residual weathering product, not a primary magmatic or transported sedimentary deposit.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label the following: (a) The largest manganese-producing district in Odisha, (b) The main bauxite mining region in Gujarat, (c) The oldest copper mine in Rajasthan. Identify the geological belt each belongs to.",
+     "a": "(a) Sundargarh district (Bonai-Keonjhar belt) — Dharwar system; (b) Kutch and Jamnagar region — Deccan Traps laterite cappings; (c) Khetri copper belt — Aravalli-Delhi orogenic belt. Steps: 1) Recall Odisha's manganese belt is in the north (Bonai-Keonjhar). 2) Gujarat's bauxite is on the Saurashtra and Kutch plateaus formed on Deccan Traps. 3) Khetri in Jhunjhunu district is the historic copper belt in the Aravallis. A wrong placement of bauxite in the Gangetic plain reveals failure to link laterite formation to elevated, well-drained surfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological settings of manganese and copper deposits in India. Why does manganese occur in stratified sedimentary layers while copper occurs in veins and shear zones?",
+     "a": "Manganese precipitated as chemical sediments in Proterozoic basins (Dharwar/Cuddapah) during specific oceanic conditions, forming stratiform layers interbedded with shales and quartzites. Copper, however, was mobilised by hydrothermal fluids along fractures and shear zones created during later orogenic events (Aravalli, Singhbhum), depositing as veins. A student who says both are \"in igneous rocks\" misses the fundamental distinction between syngenetic sedimentary deposition (manganese) and epigenetic hydrothermal deposition (copper).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's bauxite reserves are sufficient to meet domestic aluminium demand, so there is no need to import bauxite.\" Consider grade, location, and infrastructure constraints.",
+     "a": "The statement is flawed. While India has large bauxite reserves (3rd globally), much is low-grade (high silica), located in forested tribal areas (Odisha, Jharkhand) with environmental and land acquisition hurdles, and far from coastal alumina refineries requiring costly transport. India still imports bauxite/alumina for quality blending and to feed coastal plants. A simple \"yes, reserves are enough\" ignores the difference between geological reserves and economically mineable reserves — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page fact sheet for a Class 10 exhibition on \"Metallic Minerals in My State\" (choose your state). Include: mineral name, geological age, map location, major mine, end-use industry, and one sustainability concern.",
+     "a": "A good fact sheet for Odisha would show: Manganese — Proterozoic (Dharwar) — Sundargarh/Keonjhar — Bonai-Keonjhar belt — Ferroalloy plants (like IMFA) — Deforestation and tribal displacement. Bauxite — Cenozoic laterite — Koraput/Kalahandi — Panchpatmali (NALCO) — Aluminium smelter at Angul — Water pollution from red mud. Copper — Not a major producer in Odisha. A poor fact sheet copies generic textbook lines without state-specific mines, geological age, or local sustainability issues.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

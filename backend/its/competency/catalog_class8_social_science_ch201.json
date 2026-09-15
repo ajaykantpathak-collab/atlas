@@ -1,0 +1,586 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "How, When and Where",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hess201.txt",
+ "concepts": [
+  {
+   "id": "hess.201.1",
+   "title": "Historical Time Spans",
+   "section": "How Important are Dates?",
+   "definition": "History involves analyzing transformations that happen over a duration rather than just identifying specific calendar days.",
+   "formula": "none",
+   "key_idea": "Historical processes often occur over long periods rather than on a single date.",
+   "textbook_ref": "hess201.txt lines 15-45",
+   "question_patterns": [
+    "Why is it difficult to fix a single date for the start of British rule?",
+    "Explain why history is more than just memorizing dates.",
+    "How does the concept of a 'span of time' apply to the national movement?",
+    "What is the difference between a specific event and a historical process?",
+    "Why do we refer to 'before' and 'after' when studying the past?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_process",
+     "explain": "Determine if the event is a sudden occurrence or a gradual change like a habit or economic shift."
+    },
+    {
+     "step": 2,
+     "action": "analyze_duration",
+     "explain": "Locate the approximate period or stretch of time over which the change became noticeable."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.2",
+   "title": "Selection of Historical Dates",
+   "section": "Which dates?",
+   "definition": "The significance of specific dates is determined by the particular events or themes a historian chooses to emphasize.",
+   "formula": "none",
+   "key_idea": "Dates are not important on their own but become vital based on the focus of the study.",
+   "textbook_ref": "hess201.txt lines 65-85",
+   "question_patterns": [
+    "How does a change in the focus of study affect the importance of dates?",
+    "Why did British historians focus on the lives of Governor-Generals?",
+    "What determines which dates become significant in a history book?",
+    "How does the story of the past change when we focus on different groups?",
+    "Why do we divide history into chapters?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_focus",
+     "explain": "Determine the central theme or personality the historian is focusing on."
+    },
+    {
+     "step": 2,
+     "action": "link_events",
+     "explain": "Connect specific dates to the activities and achievements relevant to that focus."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.3",
+   "title": "James Mill's Periodisation",
+   "section": "How do we periodise?",
+   "definition": "A 19th-century classification that split Indian history into three stages based on the primary religion of the rulers.",
+   "formula": "none",
+   "key_idea": "Dividing history based on the religion of the ruling elite.",
+   "textbook_ref": "hess201.txt lines 105-125",
+   "question_patterns": [
+    "What were the three periods of Indian history according to James Mill?",
+    "Why is Mill's division of Indian history considered problematic?",
+    "How did James Mill view Asian civilizations compared to Europe?",
+    "What was the basis of periodisation in 'A History of British India'?",
+    "Why is characterizing an age only by the religion of rulers incorrect?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_categories",
+     "explain": "List the three periods: Hindu, Muslim, and British."
+    },
+    {
+     "step": 2,
+     "action": "evaluate_bias",
+     "explain": "Analyze how this ignores the variety of faiths and lives of ordinary people."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.4",
+   "title": "Modern Periodisation and its Critique",
+   "section": "How do we periodise?",
+   "definition": "A Western-influenced division of history into ancient, medieval, and modern periods, where 'modern' signifies progress and reason.",
+   "formula": "none",
+   "key_idea": "Applying Western concepts of modernity to Indian history.",
+   "textbook_ref": "hess201.txt lines 145-165",
+   "question_patterns": [
+    "How do historians usually divide Indian history moving away from Mill?",
+    "What features are associated with the 'modern' period in the West?",
+    "Why is the term 'modern' difficult to apply to the British period in India?",
+    "What does 'medieval' signify in historical periodisation?",
+    "Why do some historians prefer the term 'colonial' over 'modern'?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define_modernity",
+     "explain": "List features like science, reason, democracy, and equality."
+    },
+    {
+     "step": 2,
+     "action": "compare_reality",
+     "explain": "Check if these features existed in India under British rule (e.g., lack of freedom and equality)."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.5",
+   "title": "Concept of Colonisation",
+   "section": "What is colonial?",
+   "definition": "The political, social, and economic dominance of one country over another that results in fundamental structural changes.",
+   "formula": "none",
+   "key_idea": "Subjugation leading to multifaceted changes in a society.",
+   "textbook_ref": "hess201.txt lines 170-185",
+   "question_patterns": [
+    "Define the process of colonisation.",
+    "How did the British establish control over Indian society?",
+    "What kind of changes does colonisation bring to a country?",
+    "Why is the textbook titled 'Our Pasts' in the plural?",
+    "How did the British meet their expenses in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_subjugation",
+     "explain": "Note the conquest of local rulers and establishment of foreign rule."
+    },
+    {
+     "step": 2,
+     "action": "list_changes",
+     "explain": "Identify political, economic, social, and cultural transformations."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.6",
+   "title": "Administrative Record-Keeping",
+   "section": "Administration produces records",
+   "definition": "The British practice of documenting every policy and decision to facilitate study, debate, and governance.",
+   "formula": "none",
+   "key_idea": "Official documentation as a tool for effective administration.",
+   "textbook_ref": "hess201.txt lines 195-220",
+   "question_patterns": [
+    "Why did the British believe the act of writing was important?",
+    "What institutions were set up to preserve official documents?",
+    "What are archives and why were they established?",
+    "How did printing change the nature of government records?",
+    "Who were calligraphists and what was their role?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_conviction",
+     "explain": "Recognize the belief that instructions and plans must be clearly written."
+    },
+    {
+     "step": 2,
+     "action": "locate_storage",
+     "explain": "Identify record rooms, archives, and museums attached to administrative offices."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.7",
+   "title": "Colonial Surveys and Mapping",
+   "section": "Surveys become important",
+   "definition": "Systematic efforts by the colonial state to gather geographical, botanical, and demographic data to better manage the territory.",
+   "formula": "none",
+   "key_idea": "Gathering detailed information about a country to administer it effectively.",
+   "textbook_ref": "hess201.txt lines 240-260",
+   "question_patterns": [
+    "Why did the British conduct detailed surveys of India?",
+    "What information was collected during revenue surveys in villages?",
+    "What are Census operations and how often were they held?",
+    "List different types of surveys conducted by the British.",
+    "How did surveys help in the administration of a region?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_objective",
+     "explain": "Understand that a country must be known before it can be ruled."
+    },
+    {
+     "step": 2,
+     "action": "list_data_points",
+     "explain": "Include topography, soil quality, flora, fauna, and population statistics."
+    }
+   ]
+  },
+  {
+   "id": "hess.201.8",
+   "title": "Limitations of Official Records",
+   "section": "What official records do not tell",
+   "definition": "Official documents primarily reflect the viewpoints and interests of the ruling authorities, often omitting the experiences of common people.",
+   "formula": "none",
+   "key_idea": "Official records provide a one-sided view of history.",
+   "textbook_ref": "hess201.txt lines 265-290",
+   "question_patterns": [
+    "What do official records fail to tell us about the people of India?",
+    "Why do historians need to look beyond official records?",
+    "How do police reports differ from newspaper accounts?",
+    "Whose history is often missing from official colonial documents?",
+    "What are the alternative sources of information for historians?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_source_bias",
+     "explain": "Recognize that records show what officials wished to preserve for posterity."
+    },
+    {
+     "step": 2,
+     "action": "seek_alternatives",
+     "explain": "Look for diaries, pilgrim accounts, autobiographies, and newspapers."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess201.txt lines 105-115",
+   "concept": "hess.201.3",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the problems with James Mill's division of Indian history.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_categories",
+     "explain": "Mill divided history into Hindu, Muslim, and British periods."
+    },
+    {
+     "step": 2,
+     "action": "analyze_flaw",
+     "explain": "It assumes the religion of the ruler is the only important feature, ignoring the diversity of faiths existing simultaneously."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess201.txt lines 265-280",
+   "concept": "hess.201.8",
+   "question_type": "verify_property",
+   "question_pattern": "Compare the information from a 1946 police report with a newspaper report of the same era.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "examine_official_view",
+     "explain": "Police reports focus on administrative control, arrests, and maintaining order."
+    },
+    {
+     "step": 2,
+     "action": "examine_public_view",
+     "explain": "Newspapers like the Hindustan Times report on the reasons for strikes, such as poor food quality and low salaries."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is it difficult to fix a single date for the start of British rule?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_process",
+     "explain": "Determine if the event is a sudden occurrence or a gradual change like a habit or economic shift."
+    },
+    {
+     "step": 2,
+     "action": "analyze_duration",
+     "explain": "Locate the approximate period or stretch of time over which the change became noticeable."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why history is more than just memorizing dates.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_process",
+     "explain": "Determine if the event is a sudden occurrence or a gradual change like a habit or economic shift."
+    },
+    {
+     "step": 2,
+     "action": "analyze_duration",
+     "explain": "Locate the approximate period or stretch of time over which the change became noticeable."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does a change in the focus of study affect the importance of dates?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_focus",
+     "explain": "Determine the central theme or personality the historian is focusing on."
+    },
+    {
+     "step": 2,
+     "action": "link_events",
+     "explain": "Connect specific dates to the activities and achievements relevant to that focus."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why did British historians focus on the lives of Governor-Generals?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_focus",
+     "explain": "Determine the central theme or personality the historian is focusing on."
+    },
+    {
+     "step": 2,
+     "action": "link_events",
+     "explain": "Connect specific dates to the activities and achievements relevant to that focus."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.3",
+   "question_type": "verify_property",
+   "question_pattern": "How did James Mill view Asian civilizations compared to Europe?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_categories",
+     "explain": "List the three periods: Hindu, Muslim, and British."
+    },
+    {
+     "step": 2,
+     "action": "evaluate_bias",
+     "explain": "Analyze how this ignores the variety of faiths and lives of ordinary people."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.4",
+   "question_type": "verify_property",
+   "question_pattern": "How do historians usually divide Indian history moving away from Mill?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define_modernity",
+     "explain": "List features like science, reason, democracy, and equality."
+    },
+    {
+     "step": 2,
+     "action": "compare_reality",
+     "explain": "Check if these features existed in India under British rule (e.g., lack of freedom and equality)."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.4",
+   "question_type": "verify_property",
+   "question_pattern": "What features are associated with the 'modern' period in the West?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define_modernity",
+     "explain": "List features like science, reason, democracy, and equality."
+    },
+    {
+     "step": 2,
+     "action": "compare_reality",
+     "explain": "Check if these features existed in India under British rule (e.g., lack of freedom and equality)."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.5",
+   "question_type": "verify_property",
+   "question_pattern": "Define the process of colonisation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_subjugation",
+     "explain": "Note the conquest of local rulers and establishment of foreign rule."
+    },
+    {
+     "step": 2,
+     "action": "list_changes",
+     "explain": "Identify political, economic, social, and cultural transformations."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.5",
+   "question_type": "verify_property",
+   "question_pattern": "How did the British establish control over Indian society?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_subjugation",
+     "explain": "Note the conquest of local rulers and establishment of foreign rule."
+    },
+    {
+     "step": 2,
+     "action": "list_changes",
+     "explain": "Identify political, economic, social, and cultural transformations."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.6",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the British believe the act of writing was important?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_conviction",
+     "explain": "Recognize the belief that instructions and plans must be clearly written."
+    },
+    {
+     "step": 2,
+     "action": "locate_storage",
+     "explain": "Identify record rooms, archives, and museums attached to administrative offices."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.6",
+   "question_type": "verify_property",
+   "question_pattern": "What institutions were set up to preserve official documents?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_conviction",
+     "explain": "Recognize the belief that instructions and plans must be clearly written."
+    },
+    {
+     "step": 2,
+     "action": "locate_storage",
+     "explain": "Identify record rooms, archives, and museums attached to administrative offices."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.7",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the British conduct detailed surveys of India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_objective",
+     "explain": "Understand that a country must be known before it can be ruled."
+    },
+    {
+     "step": 2,
+     "action": "list_data_points",
+     "explain": "Include topography, soil quality, flora, fauna, and population statistics."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.7",
+   "question_type": "verify_property",
+   "question_pattern": "What information was collected during revenue surveys in villages?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_objective",
+     "explain": "Understand that a country must be known before it can be ruled."
+    },
+    {
+     "step": 2,
+     "action": "list_data_points",
+     "explain": "Include topography, soil quality, flora, fauna, and population statistics."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.201.8",
+   "question_type": "verify_property",
+   "question_pattern": "How do police reports differ from newspaper accounts?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_source_bias",
+     "explain": "Recognize that records show what officials wished to preserve for posterity."
+    },
+    {
+     "step": 2,
+     "action": "seek_alternatives",
+     "explain": "Look for diaries, pilgrim accounts, autobiographies, and newspapers."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hess201.txt lines 300-305",
+   "questions": [
+    "State whether true or false: James Mill divided Indian history into three periods - Hindu, Muslim, Christian.",
+    "State whether true or false: Official documents help us understand what the people of the country think.",
+    "State whether true or false: The British thought surveys were important for effective administration."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hess201.txt lines 307-315",
+   "questions": [
+    "What is the problem with the periodisation of Indian history that James Mill offers?",
+    "Why did the British preserve official documents?",
+    "How will the information historians get from old newspapers be different from that found in police reports?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

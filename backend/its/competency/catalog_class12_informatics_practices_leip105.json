@@ -1,0 +1,171 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 5,
+ "chapter_title": "Introduction to Computer Networks",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leip105.txt",
+ "concepts": [
+  {
+   "id": "leip105.1",
+   "title": "Types of Networks LAN MAN WAN",
+   "definition": "Networks are classified by the area they span: a LAN connects computers within a building or campus, a MAN spans a city such as cable networks across town, and a WAN spans countries or the world, with the Internet as the largest WAN. Smaller reach generally means faster speeds and cheaper ownership.",
+   "formula": "-",
+   "key_idea": "A LAN is privately owned and measured in metres to kilometres; a WAN uses leased public carrier links across cities and nations. PAN (personal area, e.g. Bluetooth headset) is smaller still.",
+   "question_patterns": [
+    "Which network type connects computers within one school building?",
+    "Classify: the Internet, an office LAN, a city cable network.",
+    "Compare a LAN and a WAN on ownership and speed.",
+    "What network type would link two branches of a bank in different cities?",
+    "Define PAN with one example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which network type spans a building or campus?",
+     "a": "LAN"
+    }
+   ]
+  },
+  {
+   "id": "leip105.2",
+   "title": "Network Devices Repeater Switch Router",
+   "definition": "Network devices connect and direct traffic: a repeater regenerates a weakening signal, a hub broadcasts incoming data to every port, a switch forwards frames only to the intended port using MAC addresses, a router connects different networks and routes packets between them, a modem modulates digital data onto carrier lines, and a gateway translates between different protocol systems.",
+   "formula": "-",
+   "key_idea": "The intelligence rises up the chain: repeater amplifies, hub shouts to everyone, switch selects the port, router selects the network, gateway translates protocols. A switch learns MAC addresses; a hub never does.",
+   "question_patterns": [
+    "Which device regenerates a weakening signal to extend cable length?",
+    "Why does a switch outperform a hub on a busy LAN?",
+    "Which device connects two different networks and forwards packets between them?",
+    "Name the device that converts digital signals for a telephone line.",
+    "Differentiate router and gateway."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which device regenerates a weakening signal?",
+     "a": "repeater"
+    }
+   ]
+  },
+  {
+   "id": "leip105.3",
+   "title": "Bandwidth and Data Transfer Time",
+   "definition": "Bandwidth is the data-carrying capacity of a channel, measured in bits per second. Transfer time follows from the size of the file in bits divided by the bandwidth: a file of f megabytes over a link of b megabits per second takes f x 8 / b seconds, since one byte is eight bits.",
+   "formula": "bits = mb * 8 * kbps_ratio",
+   "key_idea": "Always convert the file size to bits before dividing by the bit rate. The 8x byte-to-bit factor is the step students most often miss; prefixes matter too (1 Mbps is one million bits per second in networking).",
+   "question_patterns": [
+    "How long does it take to transfer a {mb} MB file over a {mbps} Mbps link?",
+    "A {gb} GB backup moves over a {mbps} Mbps connection; estimate the transfer time.",
+    "Find the time to download a {mb} MB video at {mbps} Mbps.",
+    "At {mbps} Mbps, how much data in MB moves in one minute?",
+    "Why is the file size multiplied by 8 before dividing by bandwidth?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "mbits = mb * 8"
+    },
+    {
+     "compute": "sec = mbits / mbps"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bits are in one byte -- the factor most often missed in transfer-time sums?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "leip105.4",
+   "title": "Web Address URL and DNS",
+   "definition": "A URL locates a resource: protocol, domain and path, such as https://www.example.com/index.html. The Domain Name System (DNS) translates the human-readable domain into the numeric IP address that machines route by, like a phonebook for the Internet.",
+   "formula": "-",
+   "key_idea": "Computers route by IP address, humans remember names; DNS resolves the name to the address before the request leaves. https differs from http by the TLS encryption layer.",
+   "question_patterns": [
+    "Name the parts of the URL https://www.school.edu.in/results.html.",
+    "What does DNS do when you type a domain name?",
+    "How is https different from http?",
+    "Identify the protocol, domain and path in the given URL.",
+    "Why do computers need IP addresses if URLs exist?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which system translates a domain name into an IP address?",
+     "a": "DNS"
+    }
+   ]
+  },
+  {
+   "id": "leip105.5",
+   "title": "Network Topologies Star Bus Tree",
+   "definition": "Topology is the layout that connects nodes. In a bus every node taps one shared backbone; in a star every node links to a central switch; a tree joins multiple stars onto a backbone. Star failure of the central device downs the whole network, while in a bus a broken backbone splits it.",
+   "formula": "-",
+   "key_idea": "Cabling cost and fault tolerance trade off: star needs the most cable but isolates link failures to one node; bus is cheapest but one cable fault affects many. Mesh, with every node linked to every other, is the most fault-tolerant and the most expensive.",
+   "question_patterns": [
+    "Which topology connects every node to a central switch?",
+    "What happens in a star topology if the central hub fails?",
+    "Compare cable cost of star and bus topologies.",
+    "Identify the topology from the described diagram.",
+    "Why is mesh the most fault-tolerant topology?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which topology taps one shared backbone wire?",
+     "a": "bus"
+    }
+   ]
+  },
+  {
+   "id": "leip105.6",
+   "title": "Voice over Internet Protocol and Video Conferencing",
+   "definition": "Voice over Internet Protocol (VoIP) carries telephone calls as packets over IP networks instead of dedicated phone lines, and video conferencing joins distant sites with live two-way audio and video. Both need steady bandwidth and low delay to stay usable.",
+   "formula": "-",
+   "key_idea": "Applications are classed by tolerance: file transfer tolerates delay, live voice and video do not, which is why conferencing quality tracks available bandwidth and latency.",
+   "question_patterns": [
+    "What is VoIP and how does it differ from traditional telephony?",
+    "Name two applications that need low network delay.",
+    "Which technology lets two schools hold a live two-way class?",
+    "Why does a video call degrade when bandwidth drops?",
+    "Give one advantage and one limitation of VoIP."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "What does VoIP carry as packets over IP networks?",
+     "a": "telephone calls"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "How long does a 40 MB file take to transfer over a 20 Mbps link?",
+   "a": "Convert to bits: 40 x 8 = 320 megabits. Divide by the rate: 320 / 20 = 16 seconds. Ignoring protocol overheads, the transfer takes about 16 seconds."
+  },
+  {
+   "q": "A school lab has 30 computers on a star topology. One computer's cable is damaged. Who is affected?",
+   "a": "Only that one computer loses its link - in a star topology each node has its own cable to the central switch, so a single cable fault isolates a single node. Only failure of the central switch itself would take down the whole lab."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Estimate the transfer time of a 700 MB movie on a 50 Mbps connection.",
+    "Classify: Bluetooth headset link, bank city network, railway nationwide network.",
+    "Match devices: regenerate signal, select port by MAC, route between networks.",
+    "Identify protocol, domain and path in https://cbse.gov.in/result/2026.html.",
+    "Draw the star topology of 4 nodes and state its single point of failure.",
+    "How much data moves in 2 minutes over 10 Mbps?"
+   ]
+  }
+ ]
+}

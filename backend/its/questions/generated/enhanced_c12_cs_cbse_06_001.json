@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_001",
+   "title": "c12_cs_cbse_06_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a database connector (like `mysql-connector-python`) in Python-MySQL connectivity?",
+     "a": "A database connector acts as a bridge that translates Python function calls into the MySQL network protocol, allowing the Python program to communicate with the MySQL server. A wrong answer (e.g., \"it stores data\" or \"it is the database itself\") reveals that the student confuses the connector with the database or the data, not understanding it is a communication library.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't a Python program directly execute SQL commands on a MySQL database without a connector?",
+     "a": "Python and MySQL run as separate processes, often on different machines, and communicate over a network using a specific protocol (MySQL protocol). The connector implements this protocol. A wrong answer (e.g., \"Python doesn't know SQL\") shows the student doesn't understand the client-server architecture and the need for a standard communication protocol; SQL is just text — the protocol handles authentication, packet framing, and result serialization.",
+     "self_check": true
+    },
+    {
+     "q": "List the correct sequence of high-level steps to perform a database operation from Python, starting from a fresh environment.",
+     "a": "1. Install the connector library (e.g., `pip install mysql-connector-python`). 2. Import the module (`import mysql.connector`). 3. Establish a connection using credentials (`conn = mysql.connector.connect(...)`). 4. Create a cursor object (`cursor = conn.cursor()`). 5. Execute SQL queries (`cursor.execute(...)`). 6. Fetch results if it's a SELECT (`cursor.fetchall()`). 7. Commit changes if it's DML (`conn.commit()`). 8. Close cursor and connection (`cursor.close(); conn.close()`). A wrong sequence (e.g., executing before connecting) indicates the student hasn't grasped the dependency order: connection → cursor → execution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the connection object and the cursor object in Python-MySQL connectivity. Which one manages transactions? Which one executes SQL?",
+     "a": "The **connection object** represents the session with the database server and manages transactions (commit/rollback). The **cursor object** is used to execute SQL statements and fetch results. A wrong answer that swaps their roles shows confusion about the API design: the connection is the \"session\", the cursor is the \"work pointer\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Once a connection is established, it remains open indefinitely unless the program crashes.\" Is this good practice? Why or why not?",
+     "a": "No, it is not good practice. Connections consume server resources (memory, file descriptors, locks) and count toward the server's `max_connections` limit. Leaving them open causes connection leaks, leading to \"Too many connections\" errors. Connections must be closed explicitly in a `finally` block or via context managers. A wrong answer that agrees reveals a misunderstanding of resource management in production database applications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where a Python application needs to connect to a MySQL database. Describe the complete data flow from user input to database update, naming the specific components involved at each stage.",
+     "a": "**Scenario:** A library management system where a student returns a book.  \n**Data flow:**  \n1. User enters Book ID in Python GUI → 2. Python validates input → 3. `mysql.connector` module imported → 4. `connect()` creates **connection object** with credentials → 5. `cursor()` creates **cursor object** → 6. `cursor.execute(\"UPDATE books SET status='available' WHERE book_id=%s\", (bid,))` sends SQL via connector → 7. MySQL processes, updates row → 8. `conn.commit()` makes change permanent → 9. `cursor.close()`, `conn.close()` release resources.  \nA good answer includes all components (module, connection, cursor, commit, close). A poor answer omits the connector, the commit step, or treats the database as a local file.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

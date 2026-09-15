@@ -1,0 +1,408 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 1,
+ "chapter_title": "Accounting for Share Capital",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.201.1.1",
+   "title": "Features of a Company",
+   "section": "1.1",
+   "definition": "A joint stock company is a body brought into existence by law, owned in fractions by shareholders and run day to day by a board they elect; it owns property, contracts and holds bank accounts in its own name.",
+   "formula": "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal",
+   "key_idea": "Members may join, exit, die or turn insolvent, yet the company lives on until the law itself winds it up.",
+   "textbook_ref": "leac201.txt section 1.1 (lines 25-122)",
+   "question_patterns": [
+    "explain the main features of a joint stock company",
+    "why is a company described as an artificial person created by law",
+    "how does limited liability protect the shareholders of a company",
+    "what keeps a company running even when its members die or exit",
+    "describe separate legal entity and perpetual succession in a company",
+    "list the characteristics that set a company apart from other forms of organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "point to the legal origin", "explain": "the company is incorporated under the Companies Act and thereby becomes a person distinct from the people who own it"},
+    {"step": 2, "action": "name the ownership consequences", "explain": "shareholders own shares, their risk stops at unpaid money on those shares, and they govern through an elected board rather than directly"},
+    {"step": 3, "action": "name the continuity consequences", "explain": "membership can change freely, shares of a public company transfer without consent, and the common seal stands in for the signature the law cannot give an artificial person"}
+   ]
+  },
+  {
+   "id": "leac.201.2.1",
+   "title": "Kinds of Companies",
+   "section": "1.2",
+   "definition": "Companies divide by how far members must pay (limited by shares, limited by guarantee, or unlimited) and by who may own them: a private company needs at least 2 and at most 200 members, while a public company starts at 7 with no upper cap.",
+   "formula": "company_type = liability_basis + membership_basis",
+   "key_idea": "The liability clause answers how much a member can lose; the membership clause answers who is allowed to hold the company.",
+   "textbook_ref": "leac201.txt section 1.2 (lines 124-182)",
+   "question_patterns": [
+    "distinguish a private company from a public company",
+    "how does a company limited by guarantee differ from one limited by shares",
+    "state the minimum and maximum membership of a private company",
+    "what is a one person company and how is it formed",
+    "classify companies on the basis of liability of their members",
+    "what makes a company a listed company"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the liability class", "explain": "shares-basis caps risk at the unpaid nominal value, guarantee-basis at the promised amount on winding up, unlimited exposes personal wealth"},
+    {"step": 2, "action": "fix the membership class", "explain": "private: 2 to 200 members with transfer restrictions and no public invitation; public: 7 minimum, free transferability, may invite the public"},
+    {"step": 3, "action": "add the listing overlay", "explain": "a public company whose shares trade on a recognised stock exchange is listed; otherwise it is unlisted"}
+   ]
+  },
+  {
+   "id": "leac.201.3.1",
+   "title": "Categories of Share Capital",
+   "section": "1.3.1",
+   "definition": "Share capital appears in nested layers: the Memorandum fixes the authorised amount, the company offers part of it as issued capital, applicants take up part of that as subscribed capital, directors call up part of the subscribed amount, and shareholders actually pay part of the called amount.",
+   "formula": "paid_up_capital <= called_up_capital <= subscribed_capital <= issued_capital <= authorised_capital",
+   "key_idea": "Each layer can only be a slice of the one above it, and uncalled capital kept aside solely for winding up is the reserve capital.",
+   "textbook_ref": "leac201.txt section 1.3.1 (lines 197-288)",
+   "question_patterns": [
+    "distinguish between authorised capital and issued capital",
+    "how is subscribed capital different from called up capital",
+    "define paid up capital and reserve capital of a company",
+    "show how the layers of share capital appear in the notes to accounts",
+    "what is nominal or registered capital in a balance sheet",
+    "explain unissued capital with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "order the layers from the Memorandum down", "explain": "authorised (registered) capital heads the list, issued capital is the portion actually offered, subscribed capital is what the public took"},
+    {"step": 2, "action": "split the subscribed layer by payment status", "explain": "called up capital is what the company has demanded so far; paid up capital is what has actually landed; the gap is calls in arrears"},
+    {"step": 3, "action": "present it in the balance sheet note", "explain": "the note shows authorised, issued and subscribed amounts, deducts calls in arrears from the called up figure, and carries the rest as a footnote"}
+   ]
+  },
+  {
+   "id": "leac.201.3.2",
+   "title": "Paid-up Capital after Calls in Arrears",
+   "section": "1.3.1",
+   "definition": "Reported paid-up capital equals what was demanded on all subscribed shares minus what defaulting shareholders still owe on the calls already made.",
+   "formula": "paid_up_capital = called_up_capital - calls_in_arrears",
+   "key_idea": "The note to accounts shows the deduction line by line so the reader can see both the demand and the default.",
+   "textbook_ref": "leac201.txt section 1.3.1, Sunrise Company example (lines 228-288)",
+   "question_patterns": [
+    "calculate the paid up capital after some shareholders miss a call",
+    "show the share capital note when calls are in arrears",
+    "how much subscribed capital is fully paid in the balance sheet",
+    "find the amount to report as paid up capital given defaulting shares",
+    "deduct calls in arrears from called up capital and present the note",
+    "compute the figure of paid up capital for a partly paid issue"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the demand on all subscribed shares", "explain": "multiply the number of subscribed shares by the amount called per share", "compute": "called_up_capital = shares_subscribed * amount_called_per_share"},
+    {"step": 2, "action": "total the default", "explain": "multiply the defaulting shares by the per-share amount left unpaid on the call", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
+    {"step": 3, "action": "net the paid-up figure", "explain": "paid up capital is the called up total less the arrears", "compute": "paid_up_capital = called_up_capital - calls_in_arrears"}
+   ]
+  },
+  {
+   "id": "leac.201.4.1",
+   "title": "Preference and Equity Shares",
+   "section": "1.4",
+   "definition": "The Companies Act recognises two classes: preference shares hold a fixed-rate first claim on dividends and first repayment of capital at winding up, while equity (ordinary) shares vote, take the residual profit, and rank behind the preference holders.",
+   "formula": "equity_dividend = distributable_profit - preference_dividend",
+   "key_idea": "Preference means priority in pay-out but usually no vote; equity means the vote and whatever profit survives the preference claim.",
+   "textbook_ref": "leac201.txt sections 1.4.1-1.4.2 (lines 306-338)",
+   "question_patterns": [
+    "differentiate between equity shares and preference shares",
+    "what preferential rights does a preference shareholder enjoy",
+    "why are equity holders treated as the real owners bearing residual risk",
+    "state the two conditions a preference share must satisfy under the Act",
+    "can preference shares be cumulative or participating",
+    "how does the dividend on equity shares vary from year to year"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the two preference conditions", "explain": "fixed-rate dividend before equity, and capital refund before equity on winding up"},
+    {"step": 2, "action": "note the preference varieties", "explain": "cumulative or non-cumulative, participating or not, redeemable or not, depending on the terms in the Memorandum and Articles"},
+    {"step": 3, "action": "place equity correctly", "explain": "equity shares are defined as everything that is not a preference share; their dividend floats with leftover profit"}
+   ]
+  },
+  {
+   "id": "leac.201.5.1",
+   "title": "Minimum Subscription Rule",
+   "section": "1.5",
+   "definition": "Directors must judge, before allotting, that enough money has been raised to cover property bought, issue expenses, borrowed repayments and working capital; SEBI keeps the floor at ninety percent of the issued amount within the prescribed window, failing which everything received is refunded.",
+   "formula": "minimum_subscription = issued_amount * 0.9",
+   "key_idea": "No allotment without the floor; a late refund carries interest from the day after the subscription list closes.",
+   "textbook_ref": "leac201.txt section 1.5, Minimum Subscription (lines 380-414)",
+   "question_patterns": [
+    "what happens if minimum subscription is not received within the time limit",
+    "state the percentage floor set for minimum subscription under SEBI guidelines",
+    "when must a company refund application money to the applicants",
+    "why is minimum subscription fixed before any allotment is made",
+    "which heads of expense does the minimum subscription have to cover",
+    "at what rate does interest run when refund of subscription money is delayed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the ninety percent floor", "explain": "money received must reach at least 90% of the issued amount within 120 days of the prospectus"},
+    {"step": 2, "action": "apply the consequence of failure", "explain": "allotment cannot proceed and the entire application money must go back within the prescribed period"},
+    {"step": 3, "action": "add the interest rider", "explain": "refund delayed beyond the statutory days from list closure carries interest at 15% under the Act"}
+   ]
+  },
+  {
+   "id": "leac.201.6.1",
+   "title": "Instalment Schedule and Call Amount Due",
+   "section": "1.6",
+   "definition": "A share's price is collected in stages -- application, allotment, then calls -- and whatever the earlier stages did not collect becomes the per-share amount of the closing call, multiplied by the shares allotted to give the money due on that call.",
+   "formula": "amount_due_on_call = shares_allotted * balance_call_per_share",
+   "key_idea": "No single call may cross a quarter of the face value, calls need a month's gap and fourteen days' notice, and the last call is labelled final.",
+   "textbook_ref": "leac201.txt section 1.6 and call provisions (lines 427-627, 567-600)",
+   "question_patterns": [
+    "find the amount due on the second and final call of an issue",
+    "a share of face value ten rupees is partly called; compute the balance call money per share",
+    "how much call money becomes due when a company calls the unpaid balance",
+    "calculate the cash the company expects to collect on a given call",
+    "split the issue price into application, allotment and call instalments",
+    "state the limits Table F puts on the size and timing of calls"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "reduce the face value by what earlier stages collected", "explain": "subtract application, allotment and any earlier call amounts from the face value per share", "compute": "balance_call_per_share = face_value_per_share - application_per_share - allotment_per_share - first_call_per_share"},
+    {"step": 2, "action": "scale to the whole issue", "explain": "multiply the per-share balance by the shares allotted to get the amount due on that call", "compute": "amount_due_on_call = shares_allotted * balance_call_per_share"}
+   ]
+  },
+  {
+   "id": "leac.201.6.2",
+   "title": "Pro-rata Adjustment of Excess Application Money",
+   "section": "1.6.3",
+   "definition": "When an issue is oversubscribed and shares are allotted in proportion, the application money beyond what the allotted shares need is kept and squared off against the allotment money due; only the leftover, if any, is refunded or parked as calls in advance.",
+   "formula": "cash_due_on_allotment = shares_allotted * allotment_money_per_share - excess_application_money",
+   "key_idea": "Rejected applicants get full refunds; pro-rata applicants get their surplus applied against allotment, so the bank receipt on allotment day shrinks by the adjusted amount.",
+   "textbook_ref": "leac201.txt section 1.6.3 (lines 1351-1490)",
+   "question_patterns": [
+    "compute the allotment money still to be received after pro-rata adjustment",
+    "how much of the application money is adjusted towards allotment in an oversubscribed issue",
+    "find the excess application money when shares are allotted in proportion",
+    "a company received applications for more shares than offered; work out the cash due on allotment",
+    "pass the application and allotment entries when allotment is pro rata",
+    "what happens to surplus application money of unsuccessful and pro-rata applicants"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the application money that arrived", "explain": "multiply shares applied for by the application money per share", "compute": "application_money_received = shares_applied * application_money_per_share"},
+    {"step": 2, "action": "isolate the part earned by allotted shares", "explain": "multiply shares actually allotted by the same per-share application money", "compute": "application_money_allotted = shares_allotted * application_money_per_share"},
+    {"step": 3, "action": "measure the surplus", "explain": "the difference is excess application money available for adjustment", "compute": "excess_application_money = application_money_received - application_money_allotted"},
+    {"step": 4, "action": "total the allotment demand", "explain": "multiply shares allotted by the allotment money per share", "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"},
+    {"step": 5, "action": "net the cash to collect on allotment", "explain": "deduct the adjusted surplus from the allotment demand; the rest is received in cash (or refunded if the surplus outruns the demand)", "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"}
+   ]
+  },
+  {
+   "id": "leac.201.6.3",
+   "title": "Calls in Arrears and Interest Thereon",
+   "section": "1.6.1",
+   "definition": "Money a shareholder fails to pay on the allotment or on a call by the due date sits as calls in arrears; the articles (or Table F by default) let the company charge interest on it, capped at ten percent per annum for the days it stays unpaid.",
+   "formula": "interest_on_calls_in_arrears = calls_in_arrears * interest_rate * months_late / 12",
+   "key_idea": "Arrears reduce paid-up capital in the note; interest is income credited to the interest account when it is actually received.",
+   "textbook_ref": "leac201.txt section 1.6.1 (lines 807-914)",
+   "question_patterns": [
+    "compute interest on calls in arrears at ten percent per annum",
+    "a shareholder missed a call for three months; what interest is charged",
+    "how much call money is in arrears for the defaulting shares",
+    "pass the entry when arrears are paid together with interest",
+    "what is the maximum interest a company can charge on unpaid calls",
+    "calculate the bank receipt when some shareholders have not paid a call"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the unpaid demand", "explain": "multiply the shares in default by the per-share amount left unpaid", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
+    {"step": 2, "action": "run interest for the delay", "explain": "apply the article or Table F rate (not above 10% p.a.) to the arrears for the months outstanding", "compute": "interest_on_calls_in_arrears = calls_in_arrears * interest_rate * months_late / 12"}
+   ]
+  },
+  {
+   "id": "leac.201.6.4",
+   "title": "Calls in Advance",
+   "section": "1.6.2",
+   "definition": "Money taken from shareholders before the matching call is made is a liability, not capital: it rests in a calls in advance account under current liabilities and is transferred to the call account only when that call actually falls due.",
+   "formula": "interest_on_calls_in_advance = advance_amount * interest_rate * months_held / 12",
+   "key_idea": "Advance money never counts as paid-up capital; Table F caps the compensating interest at twelve percent per annum from receipt until the call is due.",
+   "textbook_ref": "leac201.txt section 1.6.2 (lines 918-965)",
+   "question_patterns": [
+    "compute interest payable on calls received in advance",
+    "why is calls in advance shown as a current liability and not as paid up capital",
+    "a shareholder paid a future call early; what interest does the company owe",
+    "pass the entries for receiving and later adjusting calls in advance",
+    "what is the ceiling rate of interest on calls in advance under Table F",
+    "how is money paid before a call is made adjusted when the call falls due"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "record the liability on receipt", "explain": "bank is debited and calls in advance credited; the balance sits outside share capital until adjustment"},
+    {"step": 2, "action": "carry interest for the waiting period", "explain": "apply the article or Table F rate (not above 12% p.a.) from receipt to the date the call is due", "compute": "interest_on_calls_in_advance = advance_amount * interest_rate * months_held / 12"},
+    {"step": 3, "action": "adjust when the call is due", "explain": "calls in advance is debited and the particular call account credited, converting the liability into called-up capital"}
+   ]
+  },
+  {
+   "id": "leac.201.7.1",
+   "title": "Forfeiture of Shares",
+   "section": "1.7",
+   "definition": "For non-payment of allotment or call money the company can cancel a shareholder's shares: it debits share capital with the called-up amount on those shares, credits the unpaid amounts to the arrears or call accounts, and parks whatever was actually received in a share forfeiture account.",
+   "formula": "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share",
+   "key_idea": "Reverse everything except an already-received premium: if premium was never collected, securities premium is debited too at the time of forfeiture.",
+   "textbook_ref": "leac201.txt section 1.7, Illustrations 10-13 (lines 2170-2477)",
+   "question_patterns": [
+    "pass the forfeiture entry for shares on which a call was not paid",
+    "calculate the amount credited to share forfeiture when shares are forfeited",
+    "how much is debited to share capital on forfeiture of defaulting shares",
+    "what entry is passed when forfeited shares had been issued at a premium not yet received",
+    "show the forfeiture journal for non-payment of allotment and call money",
+    "compute the paid up amount standing to the credit of share forfeiture account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "debit capital with what was called", "explain": "multiply the forfeited shares by the amount called up per share to get the share capital debit", "compute": "capital_debit = shares_forfeited * amount_called_per_share"},
+    {"step": 2, "action": "restate the unpaid part", "explain": "multiply the same shares by the per-share money that was never paid; this credits the call or arrears accounts (and securities premium if premium went unpaid)", "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"},
+    {"step": 3, "action": "credit what the shareholder did pay", "explain": "called-up minus unpaid is the amount collected on those shares, credited to share forfeiture", "compute": "amount_forfeited = capital_debit - unpaid_on_calls"}
+   ]
+  },
+  {
+   "id": "leac.201.7.2",
+   "title": "Reissue of Forfeited Shares and Capital Reserve",
+   "section": "1.7.1",
+   "definition": "Forfeited shares may be reissued at par, premium or a discount, but the discount on reissue can never outstrip the amount already collected on those very shares at forfeiture; whatever survives of the forfeiture credit for the reissued shares is a capital profit moved to capital reserve.",
+   "formula": "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)",
+   "key_idea": "Only the slice of forfeiture credit belonging to reissued shares reaches capital reserve; the credit for shares still unreissued stays in the forfeiture account.",
+   "textbook_ref": "leac201.txt section 1.7.1, Illustrations 14-16 (lines 2902-3021)",
+   "question_patterns": [
+    "compute the capital reserve on reissue of forfeited shares",
+    "what is the maximum discount allowed when forfeited shares are reissued",
+    "pass the reissue entry when forfeited shares are sold below face value",
+    "how much of the share forfeiture balance goes to capital reserve when only part of the shares are reissued",
+    "calculate the profit transferred to capital reserve after reissuing forfeited shares at a discount",
+    "find the balance left in the share forfeiture account after a partial reissue"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the forfeiture credit for the shares being reissued", "explain": "multiply the reissued shares by the amount that had been received on each at forfeiture", "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"},
+    {"step": 2, "action": "price the discount actually given", "explain": "multiply the reissued shares by face value minus reissue price; it may not exceed the forfeited amount", "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"},
+    {"step": 3, "action": "bank the residual profit", "explain": "forfeited amount on the reissued shares less the discount is the capital gain, transferred to capital reserve", "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac201.txt Illustration in section 1.3.1 (Sunrise Company)",
+   "concept": "leac.201.3.2",
+   "question_type": "numeric",
+   "question_pattern": "A company allots {shares_subscribed} shares of Rs.10 each, calls Rs.8 per share, and {shares_in_default} of them miss the call of Rs.{unpaid_per_share}. Report paid-up capital.",
+   "extracted_variables": {
+    "shares_subscribed": 200000,
+    "amount_called_per_share": 8,
+    "shares_in_default": 2000,
+    "unpaid_per_share": 3
+   },
+   "solution_template": [
+    {"step": 1, "action": "total the demand on all subscribed shares", "explain": "200000 x 8 = 1600000", "compute": "called_up_capital = shares_subscribed * amount_called_per_share"},
+    {"step": 2, "action": "total the default", "explain": "2000 x 3 = 6000", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
+    {"step": 3, "action": "net the paid-up figure", "explain": "1600000 - 6000 = 1594000", "compute": "paid_up_capital = called_up_capital - calls_in_arrears"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac201.txt Illustration 13 (Ashok Limited)",
+   "concept": "leac.201.6.2",
+   "question_type": "numeric",
+   "question_pattern": "An issue of {shares_allotted} shares at Rs.5 on allotment drew applications for {shares_applied} shares at Rs.{application_money_per_share} and was allotted pro rata. What allotment cash is still collected?",
+   "extracted_variables": {
+    "shares_applied": 400000,
+    "application_money_per_share": 3,
+    "shares_allotted": 300000,
+    "allotment_money_per_share": 5
+   },
+   "solution_template": [
+    {"step": 1, "action": "total the application money that arrived", "explain": "400000 x 3 = 1200000", "compute": "application_money_received = shares_applied * application_money_per_share"},
+    {"step": 2, "action": "isolate the part earned by allotted shares", "explain": "300000 x 3 = 900000", "compute": "application_money_allotted = shares_allotted * application_money_per_share"},
+    {"step": 3, "action": "measure the surplus", "explain": "1200000 - 900000 = 300000", "compute": "excess_application_money = application_money_received - application_money_allotted"},
+    {"step": 4, "action": "total the allotment demand", "explain": "300000 x 5 = 1500000", "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"},
+    {"step": 5, "action": "net the cash to collect on allotment", "explain": "1500000 - 300000 = 1200000", "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac201.txt Illustration 10 (Honda Limited)",
+   "concept": "leac.201.7.1",
+   "question_type": "numeric",
+   "question_pattern": "{shares_forfeited} shares of Rs.100, fully called, miss both calls totalling Rs.{unpaid_per_share}. What does the share forfeiture account get?",
+   "extracted_variables": {
+    "shares_forfeited": 300,
+    "amount_called_per_share": 100,
+    "unpaid_per_share": 50
+   },
+   "solution_template": [
+    {"step": 1, "action": "debit capital with what was called", "explain": "300 x 100 = 30000", "compute": "capital_debit = shares_forfeited * amount_called_per_share"},
+    {"step": 2, "action": "restate the unpaid part", "explain": "300 x 50 = 15000 credited to the two call accounts", "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"},
+    {"step": 3, "action": "credit what the shareholder did pay", "explain": "30000 - 15000 = 15000 to share forfeiture", "compute": "amount_forfeited = capital_debit - unpaid_on_calls"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac201.txt Illustration 16 (Poly Plastic Limited)",
+   "concept": "leac.201.7.2",
+   "question_type": "numeric",
+   "question_pattern": "{shares_reissued} forfeited shares of Rs.{face_value_per_share}, on which Rs.{amount_paid_per_share} each had been received, are reissued at Rs.{reissue_price_per_share}. Find the capital reserve.",
+   "extracted_variables": {
+    "shares_reissued": 150,
+    "amount_paid_per_share": 70,
+    "face_value_per_share": 100,
+    "reissue_price_per_share": 60
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the forfeiture credit for the shares being reissued", "explain": "150 x 70 = 10500", "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"},
+    {"step": 2, "action": "price the discount actually given", "explain": "150 x (100 - 60) = 6000", "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"},
+    {"step": 3, "action": "bank the residual profit", "explain": "10500 - 6000 = 4500 to capital reserve", "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac201.txt Questions for Practice, Short Answer Q1-Q8",
+   "questions": [
+    "define a public company and how it differs in access from a private one",
+    "state the situations in which a company may forfeite shares",
+    "explain the meaning of calls in arrears",
+    "what does the term listed company refer to",
+    "list the purposes for which securities premium money may be used",
+    "explain calls in advance and how the account is settled",
+    "write a short note on minimum subscription"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac201.txt Questions for Practice, Long Answer Q1-Q10",
+   "questions": [
+    "describe the characteristics that make a company a separate legal person",
+    "lay out the categories into which the share capital of a company divides",
+    "discuss the classes of shares a company may issue under the Companies Act 2013",
+    "explain how allotment is handled when an issue is oversubscribed",
+    "describe the kinds of preference shares a company can float",
+    "set out the law on interest for calls in arrears and calls in advance",
+    "state the conditions under which shares may be issued at a discount",
+    "explain forfeiture of shares with its accounting treatment"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac201.txt Questions for Practice, Numerical Q1-Q3",
+   "questions": [
+    "30000 shares of Rs.100 each: Rs.30 application, Rs.50 allotment, Rs.20 single call, everything received; journalise",
+    "authorised capital 300000 in 30000 shares of Rs.10, offered fully, payable 3 plus 4 plus 3, all received; prepare journal and cash book",
+    "20000 shares of Rs.100 at 40 plus 30 plus 30 drew 32000 applications; 2000 rejected and refunded, 10000 accepted in full, the rest allotted half with surplus adjusted to allotment; journalise and prepare the cash book"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac201.txt Questions for Practice, Numerical Q4-Q6",
+   "questions": [
+    "10000 shares of Rs.100 at 20 plus 30 plus two calls of 25; a 200-share member misses the first call while a 500-share member pays everything early and the final call is never made; journalise and build the cash book",
+    "20000 shares of Rs.100 at Rs.110 with 30 plus 40 including premium plus 20 plus 20; 24000 applications, 40000 refunded on rejection; journalise",
+    "an offer of 100000 equity shares of Rs.10 at Rs.2 premium alongside 200000 ten percent preference shares of Rs.10 at par; draft the instalment entries"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_1",
+   "title": "c9_bio_ch1_1",
+   "questions": [
+    {
+     "q": "State the specific biological material Robert Hooke observed in 1665 and the term he coined for the structures he saw.",
+     "a": "Hooke observed a thin slice of **cork** (dead bark tissue from an oak tree) and coined the term **\"cell\"** (from Latin *cellula*, meaning small room) for the box-like compartments he saw. A wrong answer (e.g., \"onion peel\" or \"living cells\") reveals the student confuses Hooke's dead plant tissue with later observations of living cells, or conflates Hooke's structural term with the modern concept of a living unit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Hooke's observation of \"cells\" in cork did NOT represent the discovery of the living cell as a functional unit.",
+     "a": "Hooke observed **dead, lignified cell walls** of cork tissue; the living protoplasm (cytoplasm, nucleus) had long since degraded. He saw only the rigid \"walls\" of the rooms, not the occupants. A wrong answer (e.g., \"he saw living cells but didn't know they were alive\") reveals the misconception that Hooke visualized protoplasm, ignoring that cork is a protective, non-living tissue—a critical distinction for understanding why Cell Theory required Leeuwenhoek's living observations.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a temporary mount of onion peel and observes rectangular compartments with a distinct nucleus. Another student observes a drop of pond water and sees motile, irregular shapes. Which observation aligns with Hooke's work and which with Leeuwenhoek's? Justify based on specimen type and cellular state.",
+     "a": "The **onion peel** (plant tissue, fixed/stained, showing cell walls and nucleus) aligns with **Hooke's structural observation** (though Hooke saw dead cork walls, not living onion cells). The **pond water** (living, motile microorganisms) aligns with **Leeuwenhoek's observation of living \"animalcules.\"** A wrong mapping reveals the student cannot distinguish between observing static plant cell walls (Hooke's legacy) and dynamic living microbes (Leeuwenhoek's legacy), a common board-level confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microscope designs used by Hooke and Leeuwenhoek. Analyze how the optical limitations of Hooke's compound microscope (vs. Leeuwenhoek's single lens) restricted what each could discover about cell biology.",
+     "a": "Hooke used a **compound microscope** (two lenses: objective + eyepiece) with ~30-50x magnification but poor resolution due to lens aberrations. Leeuwenhoek used a **single high-quality convex lens** (simple microscope) achieving ~200-300x with superior resolution. Hooke's instrument could not resolve internal details (nucleus, bacteria) or sustain viewing of living motile organisms; Leeuwenhoek's could. A wrong answer (e.g., \"Hooke had higher magnification\") shows ignorance of the resolution-magnification trade-off that delayed internal cell structure discovery by 150 years.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Leeuwenhoek discovered bacteria, so he should be credited with discovering the cell, not Hooke.\" Provide a biological justification for your evaluation.",
+     "a": "The claim is **partially valid but incomplete**. Leeuwenhoek discovered **living microorganisms** (bacteria, protozoa), proving cells can be independent living units. Hooke discovered the **cellular structure of plant tissue** and coined the universal term \"cell.\" Cell biology requires **both** the structural concept (Hooke) and the functional living unit (Leeuwenhoek). A wrong evaluation (e.g., \"Hooke discovered cells because he named them\") reveals a rote memorization of \"Hooke = cell discovery\" without understanding that the *concept* of a cell as a living unit emerged only from synthesizing both men's work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using only a compound microscope (school lab), onion peel, and pond water to demonstrate the complementary nature of Hooke's and Leeuwenhoek's discoveries. Specify what to observe, stain, and compare.",
+     "a": "**Investigation:** 1) Mount stained onion peel (iodine) → observe fixed, walled compartments (Hooke-like structural view). 2) Mount fresh pond water (unstained) → observe motile, diverse shapes (Leeuwenhoek-like functional view). 3) Compare: onion cells have rigid walls, defined shape, no independent movement; pond microbes move, change shape, lack rigid walls. **Good answer** explicitly links onion to Hooke's \"cell walls\" and pond water to Leeuwenhoek's \"animalcules.\" A poor answer (e.g., just \"look at both\") fails to design a comparative framework that mirrors the historical complementarity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

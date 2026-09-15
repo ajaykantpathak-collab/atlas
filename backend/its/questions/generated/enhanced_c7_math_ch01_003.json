@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_003",
+   "title": "c7_math_ch01_003",
+   "questions": [
+    {
+     "q": "What are the four main periods in the Indian numeration system, starting from the rightmost group?",
+     "a": "The four main periods are Ones, Thousands, Lakhs, and Crores. \nA student who answers with \"Units, Tens, Hundreds, Thousands\" is confusing place values with periods. Remind them that a period is a group of place values, whereas Tens and Hundreds are individual places within the Ones period.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we place the first comma after three digits from the right in the Indian system, but all subsequent commas after every two digits?",
+     "a": "The first comma separates the Ones period (which contains hundreds, tens, and ones) from the rest of the number, while all higher periods (Thousands, Lakhs, Crores) are structured in pairs of two places (e.g., Ten-Thousand and Thousand). \nA student who thinks commas are placed after every three digits is confusing the Indian system with the International numbering system. Explain that the Indian system groups higher values in pairs of two rather than triplets.",
+     "self_check": true
+    },
+    {
+     "q": "Write the number 4503208 in words using the Indian numeration system.",
+     "a": "Steps:\n1. Place commas using the Indian system: 4,50,3208 -> wait, let's re-verify: 45,03,208.\n2. Identify the periods: 45 is in the Lakhs period, 03 is in the Thousands period, and 208 is in the Ones period.\n3. Translate each group: \"Forty-five lakh\", \"three thousand\", \"two hundred eight\".\n4. Combine into final words: \"Forty-five lakh three thousand two hundred eight.\"\nA student who writes \"Four million five hundred three thousand two hundred eight\" is using the International system instead of the Indian system. Ensure they practice grouping by twos after the first three digits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of digits in one lakh and one crore. How many times larger is one crore than one lakh?",
+     "a": "One lakh is written as 1,00,000 (6 digits) and one crore is written as 1,00,00,000 (8 digits). One crore is 100 times larger than one lakh because moving from the Lakhs period to the Crores period crosses the Ten Lakhs place and then the Crores place (multiplying by 10 then 10).\nA student who answers \"10 times larger\" missed the Ten Lakhs place value step between Lakhs and Crores. Remind them of the sequence: Lakh, Ten Lakh, Crore.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The number written in words as 'Twelve lakh fifty thousand four' can be represented in digits as 12,50,400.\" Is this correct or incorrect? Justify your answer.",
+     "a": "The statement is incorrect. \"Twelve lakh fifty thousand four\" has 12 in the Lakhs period (12,50,000), 50 in the Thousands period (50,000), and 4 in the Ones period. Since the hundreds and tens places are empty, they must be filled with zeros, giving 12,50,004. The number 12,50,400 represents \"Twelve lakh fifty thousand four hundred\".\nA student who agrees with the statement fails to account for placeholder zeros in empty place value columns, specifically mistaking \"four\" for \"four hundred\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario involving a school library collecting old books across a state where the total count is an 8-digit number. Write the number in figures using correct Indian system commas and express it in words.",
+     "a": "A good response will invent a plausible 8-digit total, such as 3,45,67,890 books, place the commas correctly (after 3 digits, then every 2 digits), and write it accurately as \"Three crore forty-five lakh sixty-seven thousand eight hundred ninety.\" A poor response will use improper comma placement like 34,567,890 or misspell the large period names.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

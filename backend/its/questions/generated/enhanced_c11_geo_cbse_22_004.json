@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_004",
+   "title": "c11_geo_cbse_22_004",
+   "questions": [
+    {
+     "q": "On a Survey of India 1:50,000 topographical map, what does a **solid blue circle** of 0.5 mm diameter represent, and how does it differ from a **blue curved line** of the same width?",
+     "a": "A solid blue circle represents a **well or tube well** (point feature – groundwater access), while a blue curved line represents a **perennial river/stream** (line feature – surface drainage). Both use blue (water category) but shape distinguishes point vs. linear form. A wrong answer (e.g., both are water bodies) reveals the student misses the shape-code hierarchy: point symbols (circle, triangle, square) vs. line symbols (solid, dashed, dotted) vs. area symbols (solid fill, pattern fill).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Survey of India use **brown** for both **contour lines** (relief) and **sand features** (sand dunes, sandy riverbeds) when they represent completely different geographical phenomena?",
+     "a": "Brown is the category colour for **land surface / lithology** – contours show elevation *of* the land surface, while sand features show *composition* of the land surface. Shape distinguishes them: contours are thin brown *lines* with elevation values; sand dunes are brown *irregular stippled areas*; sandy riverbeds are brown *broad dashed lines* within blue drainage. A student who says \"brown means hills\" confuses category with specific feature and will misread coastal sand dunes as elevated terrain.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map extract where a **red square with a flag** and a **red square with a cross** appear 2 cm apart at scale 1:50,000, calculate the ground distance between the Post Office and the Hospital, and explain why both use red squares but different modifiers.",
+     "a": "**Calculation:** 2 cm × 50,000 = 100,000 cm = **1 km ground distance**.  \n**Reasoning:** Red is the category colour for **public administration / services**. Square = building footprint. Flag = post office (communication). Cross = hospital (medical). The shape (square) and colour (red) are shared because both are *public service buildings*; the modifier (flag/cross) specifies the *service type*. A student who measures 2 cm and answers \"2 km\" forgets to convert using RF; a student who says \"both are red so same thing\" misses the modifier logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbol for **'Metalled Road'** (two parallel red lines) and **'Unmetalled Road'** (two parallel red dashed lines) on a 1:50,000 map. What geographical inference about **accessibility and economic activity** can you draw if a village is connected only by unmetalled roads to the nearest metalled road 5 km away?",
+     "a": "The dashed line indicates **seasonal accessibility** – unmetalled roads become impassable in monsoon, isolating the village for 3–4 months. This limits market access for perishable crops, increases input costs (fertilizer/seed transport), and discourages non-farm employment. The parallel double-line *structure* (same for both) shows it is a *road* (linear transport); the *dash pattern* encodes *surface quality*. A student who only sees \"red lines = roads\" misses the critical livelihood implication of surface type.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"The Survey of India's use of **green for both forest and cultivated land** (with different patterns) is confusing; separate colours would be better.\"* Support your judgment with cartographic principles.",
+     "a": "**Judgment: The statement is flawed.** Green is the category colour for **vegetation/land cover**. Forest = green *solid fill* (natural vegetation); Cultivated land = green *dotted/stippled pattern* (human-modified vegetation). Using separate colours (e.g., dark green for forest, yellow for crops) would break the *vegetation category* and waste limited colour palette (only 7 colours). Pattern coding within a colour allows 5+ vegetation sub-types in one hue. A student agreeing with the statement thinks like a thematic mapper (one colour = one theme) not a topographical mapper (one colour = one category, pattern = sub-theme).",
+     "self_check": true
+    },
+    {
+     "q": "Design a **legend box** for a 1:50,000 map extract containing: (a) perennial river, (b) seasonal stream, (c) tube well, (d) metalled road, (e) reserved forest, (f) temple, (g) contour line (20 m interval), (h) sand dune. Use *only* standard Survey of India colours, shapes, and patterns. Draw each symbol and write its description.",
+     "a": "**Expected legend (symbol → description):**  \n1. Solid blue line → Perennial river  \n2. Blue dashed line → Seasonal stream  \n3. Solid blue circle (0.5 mm) → Tube well / Well  \n4. Double solid red lines → Metalled road  \n5. Green solid fill → Reserved forest  \n6. Red square with triangle apex → Temple  \n6. Thin brown line with '20' → Contour line (20 m V.I.)  \n7. Brown irregular stippled area → Sand dune  \nA poor answer uses non-standard colours (e.g., black for river), wrong shapes (triangle for well), or omits pattern distinction (solid fill for both forest and sand). This reveals inability to apply the colour-shape-pattern hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

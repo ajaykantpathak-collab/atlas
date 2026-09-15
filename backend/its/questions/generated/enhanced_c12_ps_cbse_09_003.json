@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_09_003",
+   "title": "c12_ps_cbse_09_003",
+   "questions": [
+    {
+     "q": "What constitutional article mandated universal adult franchise for the first general elections, and what was the voting age at that time?",
+     "a": "Article 326 of the Constitution mandated universal adult franchise; the voting age was 21 (lowered to 18 only in 1988 via the 61st Amendment). A wrong answer (e.g., citing Article 324 or saying voting age was 18) reveals confusion between the Election Commission's powers (Art. 324) and the franchise right (Art. 326), and ignorance of the 1988 amendment — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Election Commission reject electoral roll entries listing women as \"wife of X\" or \"daughter of Y,\" and what does this reveal about the Commission's commitment to democratic principles?",
+     "a": "The EC rejected such entries because they denied women independent political identity, reducing them to relational categories rather than individual citizens. This reveals the Commission's commitment to substantive equality (Art. 14, 15) over administrative convenience. A wrong answer focusing only on \"administrative neatness\" misses the constitutional principle: democracy requires each citizen to be recognised as an autonomous rights-holder, not a dependent.",
+     "self_check": true
+    },
+    {
+     "q": "In the 1952 elections, Congress won 45% of votes but 74% of seats. Using the FPTP mechanism, explain step-by-step how this disproportionality occurred, and why the combined non-Congress vote (55%) did not translate into more seats.",
+     "a": "FPTP awards seats to the candidate with the most votes in each constituency, not proportionally. Congress's votes were efficiently distributed — it won pluralities in most constituencies because non-Congress votes were fragmented across multiple parties (CPI, Socialists, Jana Sangh, independents). In a constituency with 40% Congress, 20% CPI, 15% Socialist, 15% Jana Sangh, 10% others, Congress wins despite 60% voting against it. A wrong answer blaming \"rigging\" or \"Congress popularity alone\" ignores the mechanical effect of FPTP on fragmented opposition — a key analytical distinction for both board and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 1952 Indian election with contemporary European democracies: why did Western observers call India's experiment \"the biggest gamble in history,\" and what specific conditions made it unprecedented?",
+     "a": "Western democracies had restricted franchise (property, literacy, gender) and high literacy; India adopted universal franchise *before* achieving literacy (85% illiterate) or prosperity. The \"gamble\" was testing whether democracy could function without the socioeconomic preconditions Western theory deemed necessary. A wrong answer citing \"size alone\" misses the theoretical challenge: India disproved the modernization thesis that democracy requires literacy and wealth — a core concept in comparative politics for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Congress dominance in 1952 was democratic in procedure but undemocratic in outcome because FPTP manufactured a supermajority from a minority vote.\" Support your judgment with evidence from the election results and constitutional design.",
+     "a": "The claim is partially valid but incomplete. Procedure was democratic: free, fair, universal franchise, independent EC, accepted results. Outcome disproportionality is a *feature* of FPTP (chosen by Constituent Assembly for stability), not a bug. However, the 45%→74% conversion did marginalize opposition voices in Parliament, weakening legislative scrutiny. A nuanced evaluation distinguishes *electoral system effects* (known, accepted) from *authoritarian manipulation* (absent). A wrong answer calling it \"undemocratic\" confuses disproportionality with illegitimacy; a wrong answer calling it \"fully democratic\" ignores the representational deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page voter education poster for a 1951 illiterate voter in Punjab explaining how to vote using the symbol-based ballot box system. Include: (a) how to identify the Congress box, (b) what to do with the blank ballot paper, (c) one safeguard against impersonation.",
+     "a": "A good answer shows: (a) Congress symbol (bullock cart/yoked oxen) displayed on box exterior/interior in Urdu/Hindi/Punjabi; (b) voter receives blank paper, enters compartment, drops it in chosen candidate's box; (c) indelible ink on finger or voter's name struck off electoral roll. A poor answer uses text-heavy instructions, ignores multilingual labels, or misses the physical act of dropping paper into a box — revealing failure to grasp the material conditions of illiterate voting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

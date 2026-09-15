@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_002",
+   "title": "c11_ip_cbse_04_002",
+   "questions": [
+    {
+     "q": "What is the output of `lst = [10, 20, 30, 40, 50]; print(lst[-3])`?",
+     "a": "The output is `30`. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the right. A wrong answer like `20` or `40` reveals confusion about whether negative counting starts at 0 or 1, or mixing up left/right direction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `lst = [1,2,3]; print(lst[5])` raises an IndexError but `print(lst[5:10])` returns an empty list `[]`.",
+     "a": "Indexing accesses a single specific position which must exist; position 5 doesn't exist in a 3-element list, so Python raises IndexError. Slicing defines a range, and Python silently clips the range to valid bounds — start=5 is beyond the list, so the slice is empty. A student who says \"both give error\" or \"both give empty\" hasn't grasped the fundamental difference: indexing is exact access, slicing is range extraction with graceful bounds handling.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = ['a','b','c','d','e','f','g']`, write the slicing expression to extract `['c','e','g']` (every second element starting from 'c').",
+     "a": "The expression is `data[2::2]`. Start index 2 ('c'), omitted stop (goes to end), step 2 (every second element). A wrong answer like `data[2:7:2]` works but shows incomplete understanding of default stop; `data[3::2]` gives `['d','f']` revealing off-by-one in start index; `data[::2]` gives `['a','c','e','g']` showing they forgot to start from 'c'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `lst[::-1]` and `lst[::-2]` for `lst = [10, 20, 30, 40, 50]`. What does the step value -2 achieve that -1 does not?",
+     "a": "`lst[::-1]` gives `[50, 40, 30, 20, 10]` (full reversal). `lst[::-2]` gives `[50, 30, 10]` (every second element in reverse order). Step -2 skips one element each time while moving backwards. A student who says both give the same result or that -2 reverses twice hasn't understood that negative step changes both direction AND stride.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `marks = [85, 90, 78, 92, 88]; top_three = marks[-3:]` to get the last three marks. Another writes `top_three = marks[2:]`. Are both correct? Justify your answer.",
+     "a": "Both are correct for this specific 5-element list. `marks[-3:]` means \"from 3rd-last to end\" → indices 2,3,4. `marks[2:]` means \"from index 2 to end\" → same indices. However, `marks[-3:]` is robust for any list length ≥3, while `marks[2:]` only works for length 5. A student who says \"only first is correct\" misses that slicing syntax can be equivalent for specific lengths; one who says \"both always correct\" misses that the second is length-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a list `scores` of 8 integers and a single slicing expression that extracts the middle 4 elements (positions 2,3,4,5 in 0-based indexing) regardless of whether you use positive or negative indices. Show both the positive-index and negative-index versions of your slice.",
+     "a": "Example: `scores = [10,20,30,40,50,60,70,80]`. Positive: `scores[2:6]` → `[30,40,50,60]`. Negative: `scores[-6:-2]` → same result. The negative version works because -6 is index 2 (8-6) and -2 is index 6 (exclusive). A poor answer uses hardcoded indices that only work for length 8, or gets the stop index wrong (e.g., `scores[-6:-1]` includes 5 elements).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

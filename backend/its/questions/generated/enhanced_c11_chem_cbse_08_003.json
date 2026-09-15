@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_003",
+   "title": "c11_chem_cbse_08_003",
+   "questions": [
+    {
+     "q": "Write the oxidation and reduction half-reactions for the reaction between permanganate ion (MnO₄⁻) and iron(II) ion (Fe²⁺) in acidic medium, identifying the oxidation state change in each.",
+     "a": "Oxidation half-reaction: Fe²⁺ → Fe³⁺ + e⁻ (Fe changes from +2 to +3, loses 1 electron). Reduction half-reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (Mn changes from +7 to +2, gains 5 electrons). A wrong answer (e.g., missing H⁺/H₂O or incorrect electron count) reveals the student cannot translate oxidation number changes into balanced half-reactions with proper medium-specific species.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we add H₂O to balance oxygen atoms and H⁺ to balance hydrogen atoms when balancing half-reactions in acidic medium, but we cannot add OH⁻ directly in acidic medium.",
+     "a": "In acidic medium, H⁺ and H₂O are the available species; adding H₂O balances O without changing H count, then H⁺ balances the H introduced by H₂O. Adding OH⁻ would neutralize H⁺, changing the medium to basic. A wrong answer shows the student treats balancing as algebraic symbol manipulation without chemical reasoning about species present in the reaction medium.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following redox reaction in acidic medium using the half-reaction method: Cr₂O₇²⁻ + Fe²⁺ → Cr³⁺ + Fe³⁺",
+     "a": "Step 1: Half-reactions: Oxidation: Fe²⁺ → Fe³⁺ + e⁻; Reduction: Cr₂O₇²⁻ → 2Cr³⁺. Step 2: Balance O with H₂O: Cr₂O₇²⁻ → 2Cr³⁺ + 7H₂O. Step 3: Balance H with H⁺: Cr₂O₇²⁻ + 14H⁺ → 2Cr³⁺ + 7H₂O. Step 4: Balance charge with e⁻: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O. Step 5: Equalize electrons (LCM=6): Multiply oxidation by 6 → 6Fe²⁺ → 6Fe³⁺ + 6e⁻. Step 6: Add and cancel: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O. A wrong answer (e.g., wrong H⁺ coefficient or missing electrons) reveals inability to sequentially balance atoms then charge, or to correctly apply LCM for electron equalization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the balancing steps for the reaction MnO₄⁻ + SO₂ → Mn²⁺ + SO₄²⁻ in acidic vs. basic medium. Specifically, what additional step is required in basic medium after balancing as if acidic?",
+     "a": "After balancing in acidic medium (using H⁺/H₂O), add OH⁻ ions equal to the number of H⁺ on both sides to neutralize H⁺ into H₂O, then cancel excess H₂O. For this reaction, acidic balanced: 2MnO₄⁻ + 5SO₂ + 2H₂O → 2Mn²⁺ + 5SO₄²⁻ + 4H⁺. In basic: add 4OH⁻ to both sides → 2MnO₄⁻ + 5SO₂ + 2H₂O + 4OH⁻ → 2Mn²⁺ + 5SO₄²⁻ + 4H₂O, simplify to 2MnO₄⁻ + 5SO₂ + 4OH⁻ → 2Mn²⁺ + 5SO₄²⁻ + 2H₂O. A wrong answer indicates the student memorizes steps without understanding the chemical equivalence of H⁺ + OH⁻ = H₂O.",
+     "self_check": true
+    },
+    {
+     "q": "A student balanced the reaction IO₃⁻ + I⁻ → I₂ in acidic medium and wrote: IO₃⁻ + 5I⁻ + 6H⁺ → 3I₂ + 3H₂O. Verify if this equation is atom-balanced and charge-balanced. If not, identify the error.",
+     "a": "Check atoms: I: left 1+5=6, right 3×2=6 ✓; O: left 3, right 3 ✓; H: left 6, right 6 ✓. Check charge: left: -1 + 5(-1) + 6(+1) = 0; right: 0. Both balanced – the equation is correct. A student claiming it's wrong likely miscalculated charge (e.g., forgot I⁻ has -1 charge) or miscounted iodine atoms. This tests ability to verify a balanced equation completely, not just trust coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Design a redox reaction where the oxidation half-reaction involves 3 electrons lost per formula unit and the reduction half-reaction involves 2 electrons gained per formula unit. Write the balanced overall equation in acidic medium using hypothetical or real species.",
+     "a": "Example: Oxidation: 2X → X₂ + 2e⁻ (but need 3e⁻). Better: Use real species: Oxidation: 2Cr³⁺ + 7H₂O → Cr₂O₇²⁻ + 14H⁺ + 6e⁻ (6e⁻ lost for 2 Cr, so 3e⁻ per Cr). Reduction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5e⁻ gained). LCM=30. Multiply oxidation by 5, reduction by 6. A good answer shows correct LCM application and proper balancing of each half-reaction. A poor answer uses non-integer coefficients or fails to balance atoms/charge in half-reactions, revealing procedural gaps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

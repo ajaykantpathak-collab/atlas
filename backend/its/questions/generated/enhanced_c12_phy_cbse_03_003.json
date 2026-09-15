@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_003",
+   "title": "c12_phy_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define drift velocity and mobility. State their SI units.",
+     "a": "Drift velocity (v_d) is the average velocity of free electrons in a conductor due to an applied electric field (SI unit: m/s). Mobility (μ) is the drift velocity per unit electric field (SI unit: m²/V·s). A wrong answer (e.g., giving units of m/s for mobility or confusing drift speed with thermal speed ~10⁵ m/s) reveals the student has not distinguished between random thermal motion and directed drift, or has not memorised the defining relation μ = v_d/E.",
+     "self_check": true
+    },
+    {
+     "q": "Why do electrons in a metal not accelerate continuously in an electric field? Why is their drift velocity opposite to the field direction?",
+     "a": "Electrons experience a force F = -eE (negative charge), so acceleration is opposite to E. They collide with fixed ions every ~10⁻¹⁴ s (relaxation time τ), which randomises their velocity. Between collisions they accelerate, but the average over many collisions gives a constant drift velocity v_d = aτ = eEτ/m. A wrong answer (e.g., \"electrons accelerate until they hit the end\" or \"drift is along E\") shows misunderstanding of the role of collisions in establishing steady drift and the sign of electron charge.",
+     "self_check": true
+    },
+    {
+     "q": "A copper wire of cross-sectional area 2.0 mm² carries a current of 5.0 A. The number density of free electrons in copper is 8.5 × 10²⁸ m⁻³. Calculate the drift speed of electrons.",
+     "a": "Given: I = 5.0 A, n = 8.5×10²⁸ m⁻³, A = 2.0 mm² = 2.0×10⁻⁶ m², e = 1.6×10⁻¹⁹ C.\nFormula: v_d = I/(neA)\nSubstitute: v_d = 5.0 / (8.5×10²⁸ × 1.6×10⁻¹⁹ × 2.0×10⁻⁶) = 5.0 / (2.72×10⁴) = 1.84×10⁻⁴ m/s = 0.184 mm/s.\nUnit check: A = C/s; denominator: m⁻³ × C × m² = C/m → v_d = (C/s)/(C/m) = m/s. Correct.\nA wrong answer (e.g., 1.84×10⁻⁴ mm/s or 1.84 m/s) reveals a unit conversion error (mm² to m²) or misplacement of powers of ten.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires of the same metal and same length but different cross-sectional areas (A₁ > A₂) carry the same current. In which wire is the drift speed larger? Justify using the formula.",
+     "a": "Wire with smaller cross-section (A₂) has larger drift speed. Since v_d = I/(neA) and I, n, e are same, v_d ∝ 1/A. A wrong answer (e.g., \"thicker wire has more electrons so higher drift speed\") shows the student thinks total charge carriers matter, not carrier density and area. The key is that for the same current, electrons in the thinner wire must drift faster to deliver the same charge per second.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since drift speed is only ~0.1 mm/s, it should take hours for electrons to travel from the switch to a bulb 3 m away. Yet the bulb lights instantly. Therefore, the drift velocity formula must be wrong.\" Evaluate this statement.",
+     "a": "The statement is based on a misconception. The drift velocity formula is correct; the error is in assuming the bulb lights because individual electrons travel from switch to bulb. In reality, the electric field propagates at ~3×10⁸ m/s along the wire, establishing drift everywhere almost simultaneously. The bulb lights because all electrons start drifting together, not because one electron travels the full length. A wrong evaluation (e.g., agreeing with the student) reveals confusion between signal propagation speed and carrier drift speed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a magnetic field to demonstrate that current in a metal is carried by negative charges (electrons) and not positive charges.",
+     "a": "Place a flat metal strip carrying current I in a uniform magnetic field B perpendicular to the strip. Measure the Hall voltage across the width. For electrons (negative carriers), the Hall voltage polarity will be opposite to that for positive carriers. If the top edge becomes negative relative to the bottom, it confirms electrons are the charge carriers. A poor answer (e.g., \"use a compass\" or no magnetic field) shows lack of knowledge of the Hall effect, which is the standard experimental proof of carrier sign.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

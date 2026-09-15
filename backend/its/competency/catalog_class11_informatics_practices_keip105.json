@@ -1,0 +1,380 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 5,
+ "chapter_title": "Understanding Data",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip105.1",
+   "title": "Measures of Central Tendency: Mean",
+   "section": "5.5.1",
+   "definition": "The mean is the plain average of a numeric column: pool every observation, add them, and share the total equally among the count of values. One unusually large or small reading (an outlier) drags the mean toward itself, so such readings are often dropped first.",
+   "formula": "mean_value = data_total / observation_count",
+   "key_idea": "Add all the readings once, divide once by how many there are; beware outliers before trusting the result.",
+   "textbook_ref": "keip105.txt section 5.5.1 A, Example 5.1 (lines 468-520)",
+   "question_patterns": [
+    "find the mean height of the class with readings 90, 102, 110, 115, 85, 90, 100, 110, 110 cm",
+    "calculate the average temperature of the week from 34, 34, 27, 28, 27, 34, 34 degrees",
+    "why is the mean a poor choice when outliers are present in the data",
+    "the total of 9 heights is 912 cm; what is the average height",
+    "define mean and state one situation where it misleads",
+    "a class of 40 students has a total weight of 2200 kg; find the mean weight"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pool the readings into one total",
+     "explain": "sum() adds every observation of the attribute in one sweep",
+     "compute": "data_total = sum((reading_one, reading_two, reading_three, reading_four, reading_five, reading_six, reading_seven, reading_eight, reading_nine))"
+    },
+    {
+     "step": 2,
+     "action": "share the total equally",
+     "explain": "dividing by the number of observations gives the average",
+     "compute": "mean_value = data_total / observation_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four readings are 10, 20, 30 and 60. What is their mean?",
+     "a": "30"
+    }
+   ]
+  },
+  {
+   "id": "keip105.2",
+   "title": "Median of Sorted Data",
+   "section": "5.5.1",
+   "definition": "The median is the midpoint of the data once the values are arranged in order: with an odd count it is simply the value at the central position, and with an even count it is the average of the two values straddling the middle. Unlike the mean, it ignores how extreme the end values are.",
+   "formula": "median_even = (left_mid_value + right_mid_value) / 2",
+   "key_idea": "Sort first; for n values the middle seat is (n + 1) // 2 when n is odd, and the pair around it is averaged when n is even.",
+   "textbook_ref": "keip105.txt section 5.5.1 B, Example 5.2 (lines 526-545)",
+   "question_patterns": [
+    "find the median height of the sorted data 85, 90, 90, 100, 102, 110, 110, 110, 115",
+    "which position holds the median when the data has 9 values",
+    "how is the median obtained when the number of values is even",
+    "why is the median less affected by outliers than the mean",
+    "find the median temperature of the week 34, 34, 27, 28, 27, 34, 34",
+    "state the first step required before the median can be computed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the left middle seat",
+     "explain": "for an even count n, integer division by 2 gives the lower of the two central positions",
+     "compute": "left_mid_position = observation_count // 2"
+    },
+    {
+     "step": 2,
+     "action": "locate the right middle seat",
+     "explain": "the second central value sits immediately after the first",
+     "compute": "right_mid_position = left_mid_position + 1"
+    },
+    {
+     "step": 3,
+     "action": "average the two central values",
+     "explain": "the median of an even-sized batch is the mean of the pair straddling the middle",
+     "compute": "median_even = (left_mid_value + right_mid_value) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sorted values 12, 15, 40: what is the median?",
+     "a": "15"
+    }
+   ]
+  },
+  {
+   "id": "keip105.3",
+   "title": "Mode and Frequency Share",
+   "section": "5.5.1",
+   "definition": "The mode is the value that shows up most often in the data, judged purely by how frequently each distinct value occurs. A set where every value appears once has no mode, and several values tying at the top give multiple modes; the mode works for non-numeric labels too.",
+   "formula": "mode_share = highest_frequency / total_observations * 100",
+   "key_idea": "Count how often each value appears; the winner is the mode, and its count over the total tells how dominant it is.",
+   "textbook_ref": "keip105.txt section 5.5.1 C, Example 5.3 (lines 546-558)",
+   "question_patterns": [
+    "which value is the mode of the heights 90, 102, 110, 115, 85, 90, 100, 110, 110 and how often does it occur",
+    "what percentage of the 9 height observations does the mode 110 represent",
+    "when does a data set have no mode",
+    "can there be more than one mode in a data set",
+    "find the mode of the weekly temperatures 34, 34, 27, 28, 27, 34, 34",
+    "why can the mode be computed for non-numeric data such as car colours"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the biggest frequency",
+     "explain": "max() over the occurrence counts of the candidate values finds the mode's frequency",
+     "compute": "highest_frequency = max((freq_one, freq_two, freq_three))"
+    },
+    {
+     "step": 2,
+     "action": "express it as a share of all observations",
+     "explain": "dividing by the total number of observations and scaling by 100 gives the mode's dominance in percent",
+     "compute": "mode_share = highest_frequency / total_observations * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the column 5, 7, 7, 9, which value is the mode?",
+     "a": "7"
+    }
+   ]
+  },
+  {
+   "id": "keip105.4",
+   "title": "Range as Maximum minus Minimum",
+   "section": "5.5.2",
+   "definition": "The range is the simplest spread measure for numeric data: subtract the smallest reading from the largest. It depends only on the two extremes, so a single outlier inflates it dramatically.",
+   "formula": "value_range = tallest_value - shortest_value",
+   "key_idea": "Largest value minus smallest value; cheap to compute but hostage to the extremes.",
+   "textbook_ref": "keip105.txt section 5.5.2 A, Example 5.4 (lines 577-594)",
+   "question_patterns": [
+    "find the range of the heights when the minimum is 85 cm and the maximum is 115 cm",
+    "calculate the temperature range of the week from 34, 34, 27, 28, 27, 34, 34",
+    "why does an outlier badly influence the range",
+    "for which kind of data can the range be calculated",
+    "the salaries in an office run from 15000 to 90000; state the range",
+    "which two values of the data does the range use"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the largest reading",
+     "explain": "max() returns the biggest value among the observations",
+     "compute": "tallest_value = max((reading_one, reading_two, reading_three, reading_four, reading_five))"
+    },
+    {
+     "step": 2,
+     "action": "spot the smallest reading",
+     "explain": "min() returns the smallest value among the observations",
+     "compute": "shortest_value = min((reading_one, reading_two, reading_three, reading_four, reading_five))"
+    },
+    {
+     "step": 3,
+     "action": "subtract the extremes",
+     "explain": "the spread between the two ends is the range",
+     "compute": "value_range = tallest_value - shortest_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Readings span 15 cm to 45 cm. What is the range in cm?",
+     "a": "30"
+    }
+   ]
+  },
+  {
+   "id": "keip105.5",
+   "title": "Standard Deviation of a Data Set",
+   "section": "5.5.2",
+   "definition": "Standard deviation measures how far the readings stray from their mean on average: take each value's gap from the mean, square the gaps, average them, and take the positive square root. A small result means tightly packed data, a large one means wide scatter, and unlike the range it uses every reading.",
+   "formula": "standard_deviation = sqrt(squared_deviation_sum / observation_count)",
+   "key_idea": "Square the gaps from the mean, average them, then root the average; every value contributes, not just the extremes.",
+   "textbook_ref": "keip105.txt section 5.5.2 B, Example 5.5 and Table 5.3 (lines 595-710)",
+   "question_patterns": [
+    "compute the standard deviation when the sum of squared deviations is 938 for 9 height readings",
+    "why is standard deviation a better spread measure than range",
+    "what does a smaller standard deviation indicate about the data",
+    "find the variance and standard deviation for squared deviation total 76.86 over 7 temperature readings",
+    "define standard deviation in terms of deviations from the mean",
+    "which greek letter represents standard deviation in the chapter"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the squared gaps",
+     "explain": "dividing the sum of squared deviations by the number of observations gives the variance",
+     "compute": "variance = squared_deviation_sum / observation_count"
+    },
+    {
+     "step": 2,
+     "action": "take the positive square root",
+     "explain": "sqrt of the variance brings the spread back to the data's own units",
+     "compute": "standard_deviation = sqrt(variance)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which spread measure uses every reading rather than only the extremes?",
+     "a": "standard deviation"
+    }
+   ]
+  },
+  {
+   "id": "keip105.6",
+   "title": "Structured, Unstructured Data and Metadata",
+   "section": "5.1.2",
+   "definition": "Data that fits a fixed row-and-column arrangement, with each column an attribute and each row one observation, is structured. Newspaper pages, emails and multimedia files have no such fixed shape and are unstructured; they are described indirectly through metadata, which is descriptive data about data such as an image's size, type and resolution.",
+   "formula": "metadata_describes = unstructured_content",
+   "key_idea": "Tables hold structured data with named attributes; everything shapeless needs metadata to describe it.",
+   "textbook_ref": "keip105.txt sections 5.1.2 A/B (lines 136-261)",
+   "question_patterns": [
+    "differentiate between structured and unstructured data with one example of each",
+    "is the content of an email structured or unstructured data",
+    "what is metadata? give the metadata of an image file",
+    "in a table of kitchen items, what does one column and one row represent",
+    "which attributes describe an email as metadata",
+    "classify a video recording, an attendance register entry and a tweet as structured or unstructured"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test for a fixed row-column shape",
+     "explain": "data arranging neatly into named columns and observation rows is structured"
+    },
+    {
+     "step": 2,
+     "action": "classify the shapeless material",
+     "explain": "free text, images, audio and video without a fixed layout are unstructured"
+    },
+    {
+     "step": 3,
+     "action": "attach descriptive labels",
+     "explain": "metadata such as file size, format and resolution summarises unstructured content"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "An image's size, type and resolution describe it indirectly. What is such descriptive data called?",
+     "a": "metadata"
+    }
+   ]
+  },
+  {
+   "id": "keip105.7",
+   "title": "Data Processing Cycle: Input to Output",
+   "section": "5.4",
+   "definition": "Raw facts become usable conclusions only through the data processing cycle: collect and enter the raw data, store it, classify and update it, process it, and finally present reports or results as output. An ATM withdrawal, an online admit card or a train ticket all follow this input-process-output path.",
+   "formula": "output_information = processed_raw_data",
+   "key_idea": "Data in, operations applied, information out; storage and retrieval support every stage.",
+   "textbook_ref": "keip105.txt sections 5.2-5.4, Figures 5.1-5.2 (lines 262-447)",
+   "question_patterns": [
+    "draw the steps of the data processing cycle for an ATM cash withdrawal",
+    "what inputs, processing and outputs are involved in issuing a train ticket",
+    "why can decisions not be taken by merely looking at raw data",
+    "name the three broad stages shown in the data process cycle figure",
+    "list the data required to generate an examination admit card online",
+    "how does a database management system overcome the limits of file processing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list what enters the system",
+     "explain": "inputs are the collected raw data, like card number and amount for a withdrawal"
+    },
+    {
+     "step": 2,
+     "action": "identify the checks and computations",
+     "explain": "processing validates the input, updates balances or allots seats, and prepares results"
+    },
+    {
+     "step": 3,
+     "action": "name what leaves the system",
+     "explain": "outputs are the currency with a slip, the admit card, or the printed ticket"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the data processing cycle, what stage follows processing: input or output?",
+     "a": "output"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip105.txt Example 5.1 (mean height)",
+   "concept": "keip105.1",
+   "question_type": "numeric",
+   "question_pattern": "Heights (cm) of nine students are 90, 102, 110, 115, 85, 90, 100, 110, 110. Find the mean height.",
+   "extracted_variables": {
+    "reading_one": 90,
+    "reading_two": 102,
+    "reading_three": 110,
+    "reading_four": 115,
+    "reading_five": 85,
+    "reading_six": 90,
+    "reading_seven": 100,
+    "reading_eight": 110,
+    "reading_nine": 110,
+    "observation_count": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the nine readings",
+     "explain": "the sum 90 + 102 + ... + 110 = 912",
+     "compute": "data_total = sum((reading_one, reading_two, reading_three, reading_four, reading_five, reading_six, reading_seven, reading_eight, reading_nine))"
+    },
+    {
+     "step": 2,
+     "action": "divide by nine",
+     "explain": "912 / 9 = 101.33 cm",
+     "compute": "mean_value = data_total / observation_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip105.txt Example 5.5 and Table 5.3 (standard deviation)",
+   "concept": "keip105.5",
+   "question_type": "numeric",
+   "question_pattern": "For the nine height readings, the sum of squared deviations from the mean is 938. Compute the standard deviation.",
+   "extracted_variables": {
+    "squared_deviation_sum": 938,
+    "observation_count": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the squared deviations",
+     "explain": "938 / 9 = 104.22 (variance)",
+     "compute": "variance = squared_deviation_sum / observation_count"
+    },
+    {
+     "step": 2,
+     "action": "root the variance",
+     "explain": "sqrt(104.22) = 10.21 cm",
+     "compute": "standard_deviation = sqrt(variance)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip105.txt Exercise Q5 (weekly temperature statistics)",
+   "questions": [
+    "For the week's temperatures 34, 34, 27, 28, 27, 34, 34, find the average temperature. (218/7 = 31.14 degrees)",
+    "For the same week, find the temperature range. (34 - 27 = 7 degrees)",
+    "For the same week, identify the mode and its frequency. (34, occurring 4 times)",
+    "For the same week, find the median of the sorted readings. (34)",
+    "Name the technique suited to find the average temperature. (mean)",
+    "Which measure of dispersion uses only the two extreme values? (range)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip105.txt Exercise Q4, Q9 and Table 5.3 discussion",
+   "questions": [
+    "Identify the type of data generated: recording a video (unstructured), marking attendance by a teacher (structured), writing tweets (unstructured), filling an online application form (structured).",
+    "Differentiate between structured and unstructured data with one example each.",
+    "State the metadata that could describe a photograph taken on a mobile phone.",
+    "Which technique would a company use to study disparity in salaries of employees? (range or standard deviation)",
+    "Which measure gives the dominant value in a set of values? (mode)",
+    "Which measure compares income of residents of two cities for spread? (standard deviation)"
+   ]
+  }
+ ]
+}

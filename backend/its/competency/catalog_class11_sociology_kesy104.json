@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 104,
+ "chapter_title": "Culture and Socialisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy104.1.1",
+   "title": "Defining Culture: Wholes and Parts",
+   "section": "1.1",
+   "definition": "Culture is the whole way of life of a people -- learned and shared beliefs, values, norms, language and material objects. Its parts interlock: material culture (tools, dress, buildings) and non-material culture (ideas, customs) change together, so studying one part always implicates the rest.",
+   "formula": "",
+   "key_idea": "Culture is the learned and shared design for living -- objects and ideas woven into one whole.",
+   "textbook_ref": "kesy104.txt lines 15-130 (introduction, defining culture, material and non material culture, culture as way of life, wholeness of culture)",
+   "question_patterns": [
+    "define culture and distinguish its material and non material aspects",
+    "in class 11 culture and socialisation: why is culture called a whole way of life",
+    "how do the parts of culture interconnect",
+    "give examples of material and non material culture",
+    "why is culture described as learned and shared",
+    "is culture the same as civilisation discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the visible and invisible",
+     "explain": "Material culture covers tools, dress and buildings; non-material culture covers language, values, beliefs and norms."
+    },
+    {
+     "step": 2,
+     "action": "show the linkage",
+     "explain": "A change in objects -- say the smartphone -- pulls ideas and habits along with it; parts move together."
+    },
+    {
+     "step": 3,
+     "action": "state the definition",
+     "explain": "Because it is learned, shared and all-encompassing, culture is best defined as the whole design for living of a people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Ideas and customs form which culture: material or non-material?",
+     "a": "non-material"
+    }
+   ]
+  },
+  {
+   "id": "kesy104.1.2",
+   "title": "Dimensions of Culture: Cognitive, Normative and Beliefs",
+   "section": "1.2",
+   "definition": "Culture works through three dimensions. Cognitive culture is what people know and how they think -- categories, language, knowledge. Normative culture is what they ought to do -- values and norms. Symbolic culture is the meanings attached to things -- a flag, a colour, a gesture -- through which beliefs about the world and the sacred are expressed.",
+   "formula": "",
+   "key_idea": "Culture tells you what is (cognition), what ought to be (norms) and what things mean (symbols).",
+   "textbook_ref": "kesy104.txt lines 130-250 (dimensions of culture, cognitive and normative components, symbols and beliefs, language as carrier of culture)",
+   "question_patterns": [
+    "explain the cognitive and normative dimensions of culture",
+    "in class 11 culture and socialisation: what is the symbolic dimension of culture with examples",
+    "how does language carry culture",
+    "distinguish values from norms",
+    "why are symbols powerful in culture",
+    "give an example where the same symbol has different meanings in two cultures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the cognitive layer",
+     "explain": "Every culture equips members with categories, concepts and know-how -- what exists and how it works."
+    },
+    {
+     "step": 2,
+     "action": "take the normative layer",
+     "explain": "Values rank what is desirable; norms convert values into expected conduct with sanctions."
+    },
+    {
+     "step": 3,
+     "action": "take the symbolic layer",
+     "explain": "Symbols compress meaning -- gestures, flags, rituals -- and beliefs explain the world, making culture shareable beyond direct experience."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which dimension of culture covers what people know: cognitive or normative?",
+     "a": "cognitive"
+    }
+   ]
+  },
+  {
+   "id": "kesy104.1.3",
+   "title": "Socialisation: Becoming a Member of Society",
+   "section": "1.3",
+   "definition": "Socialisation is the lifelong process by which the newborn biological being becomes a social person -- learning language, norms, roles and selfhood through interaction. Primary socialisation in the family forms the basic personality; later phases through school, peers and media continuously resocialise the individual into new roles.",
+   "formula": "",
+   "key_idea": "Nobody is born social -- interaction turns the infant into a person, and the process never stops.",
+   "textbook_ref": "kesy104.txt lines 250-380 (socialisation, agency of the individual, primary and secondary socialisation, agencies family school peer group media)",
+   "question_patterns": [
+    "define socialisation and explain why it is a lifelong process",
+    "in class 11 culture and socialisation: what are the agencies of socialisation",
+    "distinguish primary socialisation from secondary socialisation",
+    "how does the family shape personality",
+    "what role do peer groups and media play in socialisation",
+    "can socialisation fail discuss cases of isolation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the infant into the family",
+     "explain": "Primary socialisation in the closest circle installs language, emotional bonds and basic norms -- the core self."
+    },
+    {
+     "step": 2,
+     "action": "follow the child outward",
+     "explain": "School, peer groups and media add universalistic norms, competitive roles and new identities -- secondary socialisation."
+    },
+    {
+     "step": 3,
+     "action": "note the reciprocity",
+     "explain": "The individual is not clay: children question, select and even change norms, so socialisation is interactive, not one-way."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The lifelong process turning a newborn into a social person is called what?",
+     "a": "socialisation"
+    }
+   ]
+  },
+  {
+   "id": "kesy104.1.4",
+   "title": "Identity, Self and the Individual in Society",
+   "section": "1.4",
+   "definition": "The self is socially formed: we come to know who we are through others' expectations and responses, acquiring identities -- gender, caste, nationality, profession -- that position us in society. Individuality and society are not enemies; the distinctive person matures only inside a web of social relationships.",
+   "formula": "",
+   "key_idea": "The mirror of society builds the self -- identities are socially given, yet each person assembles them uniquely.",
+   "textbook_ref": "kesy104.txt lines 380-470 (identity and self, individual and society, socialisation as interactive, modern self and multiple identities)",
+   "question_patterns": [
+    "how does society shape the self and identity",
+    "in class 11 culture and socialisation: explain how individuality and society are related",
+    "what are social identities give examples",
+    "can a person exist outside society discuss",
+    "how do others responses build our self image",
+    "explain multiple identities of a single individual"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "show the social mirror",
+     "explain": "Names, gender treatment and expectations arrive before self-awareness, shaping who one takes oneself to be."
+    },
+    {
+     "step": 2,
+     "action": "list the identity slots",
+     "explain": "Religion, region, language, caste, class and nation supply identities that place the person in society's map."
+    },
+    {
+     "step": 3,
+     "action": "balance the ledger",
+     "explain": "Society supplies the materials of selfhood; the individual arranges them with agency -- individuality is social, not anti-social."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Is the self formed socially or in isolation?",
+     "a": "socially"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy104.txt lines 130-250 (dimensions of culture)",
+   "concept": "kesy104.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "Analyse the celebration of a national festival in terms of the cognitive, normative and symbolic dimensions of culture.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "extract the cognitive content",
+     "explain": "Citizens share knowledge of the nation's history and the festival's significance -- what the day commemorates."
+    },
+    {
+     "step": 2,
+     "action": "extract the normative content",
+     "explain": "Schools and offices close, flags are hoisted -- shared expectations about proper conduct on the day."
+    },
+    {
+     "step": 3,
+     "action": "extract the symbolic content",
+     "explain": "The flag, the anthem and the speech stand for the nation itself, condensing belief and feeling into visible signs."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy104.txt lines 250-380 (socialisation)",
+   "concept": "kesy104.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "A five-year-old says 'thank you' without being prompted, but a teenager suddenly questions every household rule. Explain both episodes using socialisation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the first episode",
+     "explain": "Prompted gratitude has become automatic -- primary socialisation has installed an internalised norm."
+    },
+    {
+     "step": 2,
+     "action": "read the second episode",
+     "explain": "The teenager samples peer and public norms, testing the family's rules -- secondary socialisation widening the frame."
+    },
+    {
+     "step": 3,
+     "action": "draw the conclusion",
+     "explain": "Socialisation installs and later re-examines norms; questioning is not its failure but its mature, interactive phase."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy104.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Define culture and explain its material and non-material components.",
+    "Explain the cognitive, normative and symbolic dimensions of culture with examples.",
+    "What is socialisation? Why is it called a lifelong process?",
+    "Describe the role of family, school and peer groups as agencies of socialisation.",
+    "How is the self formed through interaction with others?",
+    "Discuss the statement: individuality is a social achievement, not a rejection of society."
+   ]
+  }
+ ]
+}

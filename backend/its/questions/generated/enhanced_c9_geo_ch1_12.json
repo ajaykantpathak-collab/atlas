@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_12",
+   "title": "c9_geo_ch1_12",
+   "questions": [
+    {
+     "q": "Define 'natural hazard' in a geographical context and name the three hazard types covered in this node.",
+     "a": "A natural hazard is a natural process (geophysical or hydrometeorological) that threatens human life or property when it occurs in a populated area. The three types are landslides, floods, and earthquakes. A wrong answer that lists 'tsunami' or 'cyclone' reveals the student is conflating this node's scope with broader disaster lists; omitting 'human intersection' shows they view hazards as purely physical events, not human-environment interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the Himalayan foothills experience frequent landslides during monsoon, while the Deccan Plateau with similar rainfall does not?",
+     "a": "The Himalayas have steep slopes, young fractured rocks from ongoing tectonic uplift (c9_geo_ch1_3), and intense monsoon rainfall that saturates regolith — combining to exceed shear strength. The Deccan Plateau has gentle slopes, stable ancient basalt, and mature soils with high cohesion. A wrong answer citing only 'more rain in Himalayas' ignores the critical role of slope angle, rock structure, and tectonic activity — a classic single-factor misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Given a topographic map extract showing a river with a wide floodplain, meanders, and levees, and a nearby town built on the floodplain, identify the flood hazard level and explain the geomorphological evidence.",
+     "a": "High flood hazard. Evidence: (1) Wide floodplain indicates historical inundation extent. (2) Meanders show lateral erosion and overbank flow potential. (3) Levees are natural deposits from past floods — building on them is building on the flood's path. (4) Town on floodplain = high exposure. Steps: Identify landforms → Link to flood frequency → Assess human location. A wrong answer focusing only on river width misses that floodplains and levees are the primary morphological indicators of recurrent flooding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 2013 Uttarakhand floods and the 2018 Kerala floods: both had extreme rainfall, but Uttarakhand's damage was dominated by landslides while Kerala's by riverine flooding. Explain using geological and drainage basin differences.",
+     "a": "Uttarakhand: Steep, glaciated valleys with thin soil over fractured metamorphic rocks; cloudbursts trigger rapid saturation → landslides and debris flows (geological control). Kerala: Lateritic soils on Western Ghats slopes, but broad midland valleys and lowland plains with dense river networks (Periyar, Pamba); extreme rain fills basins → widespread overbank flooding (hydrological control). A wrong answer treating both as 'just heavy rain' fails to distinguish landslide-dominated vs. flood-dominated hazard pathways — a key analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Earthquakes are the most destructive natural hazard in India because they release the most energy.\"",
+     "a": "False. Destructiveness depends on energy × vulnerability × exposure. The 2001 Bhuj earthquake (M7.7) killed ~20,000; the 2013 Uttarakhand floods (no seismic energy) killed ~5,000+ with far less energy release. Floods affect larger areas annually; landslides kill more per event in mountains. Energy release (magnitude) ≠ impact (intensity + population density + building stock). A wrong answer equating magnitude with destruction ignores the human geography of risk — a board-level error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-hazard zonation map legend for a district in the Himalayan foothills that integrates landslide, flood, and earthquake susceptibility. Specify the three data layers you would combine and the classification logic for 'Very High' zone.",
+     "a": "Layers: (1) Slope angle + lithology + rainfall (landslide susceptibility). (2) Floodplain width + drainage density + historical flood extent (flood susceptibility). (3) Seismic zone (Zone IV/V) + active fault proximity + soil liquefaction potential (earthquake susceptibility). 'Very High' = all three layers in their highest class simultaneously (e.g., slope >30° on weak rock + active floodplain + Zone V within 5km of fault). A poor answer lists layers but uses additive scoring (e.g., sum of ranks) — this masks compounding risk where hazards trigger each other (e.g., earthquake → landslide → dam breach → flood).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

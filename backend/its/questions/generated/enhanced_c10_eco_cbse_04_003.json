@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_003",
+   "title": "c10_eco_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define globalisation in one sentence, mentioning the four key cross-border flows.",
+     "a": "Globalisation is the integration of national economies into a global economy through the free flow of goods, services, capital, and technology across international borders. A wrong answer that omits any of the four flows (e.g., only mentions goods and services) reveals the student thinks globalisation is only about trade in products, ignoring capital and technology flows which are equally critical.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why improvements in transportation technology (like containerisation) and communication technology (like the internet) are considered the twin pillars enabling globalisation.",
+     "a": "Transportation technology reduces the cost and time of moving physical goods across borders (containerisation cut shipping costs by over 90%), while communication technology enables instant coordination of production, finance, and services across continents (the internet allows real-time management of global supply chains). A wrong answer that focuses only on one pillar shows the student doesn't grasp that both physical and virtual connectivity are needed for modern globalisation.",
+     "self_check": true
+    },
+    {
+     "q": "A Indian garment manufacturer exports shirts to the USA. The cost of shipping a container from Mumbai to New York dropped from $5,000 in 1990 to $1,500 in 2020 due to containerisation. If the manufacturer ships 200 containers per year, calculate the annual savings in shipping costs. Then explain how this cost reduction contributes to globalisation.",
+     "a": "Step 1: Identify the cost reduction per container = $5,000 - $1,500 = $3,500.\nStep 2: Annual savings = 200 containers × $3,500 = $700,000.\nStep 3: Convert to rupees (assume 1 USD = 83 INR) = $700,000 × 83 = ₹5,81,00,000 (5.81 crore).\nStep 4: This massive cost reduction makes it profitable to produce in India and sell in the USA, integrating markets. A wrong answer that only calculates savings without linking to market integration misses the economic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of trade liberalisation (reduction of tariffs and quotas) versus technology in enabling globalisation. Which factor do you think was more important for India's integration into the global economy after 1991? Justify with two reasons.",
+     "a": "Technology provided the physical and digital infrastructure for globalisation (making it possible), while trade liberalisation provided the policy framework (making it allowed). For India post-1991, trade liberalisation was more immediately impactful because: (1) India's high tariff walls (average >100% pre-1991) legally blocked integration regardless of technology; (2) liberalisation attracted foreign capital and technology, which then leveraged existing tech. A wrong answer that picks technology without acknowledging policy barriers shows misunderstanding of the sequence: policy change unlocked technology's potential.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Globalisation has made national borders irrelevant for economic activity.\" Provide two arguments for and two against, using Indian examples.",
+     "a": "For: (1) Indian IT services are exported digitally to the USA with no physical border crossing; (2) Foreign portfolio investment flows into Indian stock markets instantly. Against: (1) India still imposes tariffs on imports like electronics (customs duties); (2) Labour mobility is restricted (Indian workers need visas to work abroad). Borders remain relevant for goods, labour, and policy. A wrong answer that says borders are completely irrelevant ignores ongoing trade barriers and migration controls.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mind-map or flowchart showing how a specific Indian product (e.g., a car manufactured by Tata Motors) involves at least three cross-border flows (goods, services, capital, technology) and two enabling factors (technology, trade policy). Label each flow and factor.",
+     "a": "Expected: A diagram showing: (1) Goods flow: imported steel from Japan, exported cars to Africa; (2) Services flow: design consultancy from UK, engineering software from USA; (3) Capital flow: foreign investment from Singapore, loans from international banks; (4) Technology flow: robotics from Germany, EV battery tech from South Korea. Enabling factors: (a) Technology: container shipping, CAD software; (b) Trade policy: India's reduced tariffs on auto components, export incentives. A poor answer lists only domestic steps or misses the cross-border nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

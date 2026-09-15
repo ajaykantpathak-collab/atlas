@@ -1,0 +1,605 @@
+{
+ "chapter": {
+  "class": 12,
+  "subject": "Physics",
+  "chapter_number": 9,
+  "chapter_title": "Ray Optics and Optical Instruments",
+  "ncert_ref": "Class 12 Physics Chapter 9"
+ },
+ "concepts": [
+  {
+   "id": "jeph.9.1",
+   "title": "Reflection of Light by Spherical Mirrors",
+   "section": "9.2",
+   "definition": "A spherical mirror reflects light according to the laws of reflection, and the relationship between object distance, image distance and focal length is given by the mirror formula.",
+   "formula": "1/v + 1/u = 1/f = 2/R",
+   "key_idea": "For spherical mirrors the object distance u, image distance v and focal length f obey the mirror equation with sign convention applied.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics use the mirror formula to find image distance given object distance and focal length",
+    "calculate the position of the image formed by a concave mirror for a given object distance",
+    "determine focal length of a spherical mirror from object and image distances",
+    "find the nature and position of image formed by a convex mirror using mirror formula",
+    "apply sign convention to solve mirror equation for an object placed in front of a spherical mirror"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply sign convention to object distance and focal length",
+     "explain": "take object distance u as negative for real objects and assign focal length f negative for concave and positive for convex mirrors",
+     "compute": "u = -object_distance; f = sign * focal_length"
+    },
+    {
+     "step": 2,
+     "action": "substitute values into the mirror formula",
+     "explain": "use 1/v + 1/u = 1/f and solve for the image distance v",
+     "compute": "v = 1 / (1/f - 1/u)"
+    },
+    {
+     "step": 3,
+     "action": "interpret the sign of v to determine image nature",
+     "explain": "a positive v gives a virtual erect image behind the mirror while a negative v gives a real inverted image in front of the mirror",
+     "compute": "image_nature = virtual if v > 0 else real"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the image distance.",
+     "solution": "u = -30 cm, f = -15 cm. 1/v = 1/f - 1/u = 1/(-15) - 1/(-30) = -1/15 + 1/30 = (-2 + 1)/30 = -1/30. v = -30 cm.",
+     "answer": "v = -30 cm (real, inverted, same size image)"
+    },
+    {
+     "question": "An object is placed 10 cm in front of a convex mirror of focal length 15 cm. Find the image distance.",
+     "solution": "u = -10 cm, f = +15 cm. 1/v = 1/f - 1/u = 1/15 - 1/(-10) = 1/15 + 1/10 = (2 + 3)/30 = 5/30 = 1/6. v = 6 cm.",
+     "answer": "v = +6 cm (virtual, erect, diminished image)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An object is placed 20 cm in front of a concave mirror of focal length 10 cm. Find the position and nature of the image.",
+     "type": "compute"
+    },
+    {
+     "question": "A convex mirror of focal length 20 cm forms an image 10 cm behind the mirror. Find the object distance.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.2",
+   "title": "Refraction of Light and Snell Law",
+   "section": "9.3",
+   "definition": "When light travels from one transparent medium to another it bends at the interface, and the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant called the refractive index.",
+   "formula": "n1 * sin(i) = n2 * sin(r)",
+   "key_idea": "Snell law relates the angles of incidence and refraction to the refractive indices of the two media at an optical interface.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics apply Snell law to find angle of refraction given angle of incidence",
+    "calculate the refractive index of a medium using Snell law",
+    "determine the angle of refraction when light passes from air into glass",
+    "find the speed of light in a medium given its refractive index",
+    "verify Snell law for a ray crossing the boundary between two transparent media"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify refractive indices of the two media",
+     "explain": "n1 is the refractive index of the incident medium and n2 is the refractive index of the refracting medium",
+     "compute": "n1 = medium1_index; n2 = medium2_index"
+    },
+    {
+     "step": 2,
+     "action": "apply Snell law to relate angles",
+     "explain": "use n1 * sin(i) = n2 * sin(r) and solve for the unknown angle",
+     "compute": "sin(r) = (n1 / n2) * sin(i)"
+    },
+    {
+     "step": 3,
+     "action": "compute the refraction angle and verify it is physically valid",
+     "explain": "take the inverse sine of sin(r); if sin(r) exceeds 1 total internal reflection occurs instead of refraction",
+     "compute": "r = arcsin(sin(r))"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A ray of light travelling in air is incident on a glass surface at 45 degrees. If the refractive index of glass is 1.5, find the angle of refraction.",
+     "solution": "n1 = 1, n2 = 1.5, i = 45 deg. sin(r) = (1/1.5) * sin(45) = (2/3) * 0.707 = 0.471. r = arcsin(0.471) = 28.1 deg.",
+     "answer": "r = 28.1 degrees"
+    },
+    {
+     "question": "The speed of light in a medium is 2 x 10^8 m/s. Find the refractive index of the medium.",
+     "solution": "n = c / v = (3 x 10^8) / (2 x 10^8) = 1.5.",
+     "answer": "n = 1.5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Light travels from water (n = 1.33) into air (n = 1) at an angle of incidence of 30 degrees. Find the angle of refraction.",
+     "type": "compute"
+    },
+    {
+     "question": "The refractive index of diamond is 2.42. Find the speed of light in diamond.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.3",
+   "title": "Total Internal Reflection",
+   "section": "9.4",
+   "definition": "When light travels from a denser to a rarer medium and the angle of incidence exceeds the critical angle, the ray is completely reflected back into the denser medium.",
+   "formula": "sin(ic) = n2 / n1 where n1 > n2",
+   "key_idea": "Total internal reflection occurs only when light goes from a denser to a rarer medium and the angle of incidence is greater than the critical angle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics calculate the critical angle for total internal reflection",
+    "determine whether a ray undergoes total internal reflection at a given angle of incidence",
+    "find the critical angle for light passing from glass to air",
+    "explain the condition for total internal reflection in optical fibres",
+    "verify that the angle of incidence exceeds the critical angle for total internal reflection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the critical angle from refractive indices",
+     "explain": "the critical angle is given by sin(ic) = n2 / n1 where n1 is the denser medium and n2 is the rarer medium",
+     "compute": "ic = arcsin(n2 / n1)"
+    },
+    {
+     "step": 2,
+     "action": "compare the angle of incidence with the critical angle",
+     "explain": "total internal reflection occurs only when the angle of incidence is greater than the critical angle",
+     "compute": "tir = (i > ic)"
+    },
+    {
+     "step": 3,
+     "action": "verify the direction of light travel",
+     "explain": "confirm that light is travelling from the denser medium to the rarer medium, otherwise total internal reflection cannot occur",
+     "compute": "valid_direction = (n1 > n2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The refractive index of glass is 1.5. Find the critical angle for total internal reflection when light travels from glass to air.",
+     "solution": "n1 = 1.5 (glass), n2 = 1 (air). sin(ic) = n2/n1 = 1/1.5 = 0.667. ic = arcsin(0.667) = 41.8 deg.",
+     "answer": "ic = 41.8 degrees"
+    },
+    {
+     "question": "A ray of light travelling in water (n = 1.33) is incident on the water-air interface at 50 degrees. Does total internal reflection occur?",
+     "solution": "sin(ic) = 1/1.33 = 0.752, ic = 48.8 deg. Since 50 deg > 48.8 deg, total internal reflection occurs.",
+     "answer": "Yes, total internal reflection occurs"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the critical angle for a medium of refractive index 1.6 in contact with air.",
+     "type": "compute"
+    },
+    {
+     "question": "Light travels from glass (n = 1.5) to water (n = 1.33) at an angle of 70 degrees. Determine whether total internal reflection takes place.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.4",
+   "title": "Refraction at Spherical Surfaces",
+   "section": "9.5",
+   "definition": "When light refracts at a spherical surface separating two media, the object distance, image distance and radii of curvature are related by the refraction formula at a single spherical surface.",
+   "formula": "(n2 / v) - (n1 / u) = (n2 - n1) / R",
+   "key_idea": "Refraction at a spherical surface depends on the refractive indices of the two media, the radius of curvature of the surface and the object and image distances.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics find image distance for refraction at a spherical surface",
+    "calculate the position of the image formed by refraction at a convex spherical surface",
+    "determine the radius of curvature of a spherical refracting surface",
+    "apply the refraction formula at a single spherical surface separating two media",
+    "verify the image position for a ray refracting through a spherical interface"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign refractive indices and radius of curvature with sign convention",
+     "explain": "n1 is the object side medium and n2 is the image side medium; R is positive if the surface is convex towards the rarer medium",
+     "compute": "n1 = object_medium; n2 = image_medium; R = signed_radius"
+    },
+    {
+     "step": 2,
+     "action": "substitute into the refraction formula",
+     "explain": "use (n2/v) - (n1/u) = (n2 - n1)/R and solve for the image distance v",
+     "compute": "v = n2 / ((n2 - n1)/R + n1/u)"
+    },
+    {
+     "step": 3,
+     "action": "interpret the sign of v for image nature",
+     "explain": "a positive v indicates a real image on the image side while a negative v indicates a virtual image on the object side",
+     "compute": "image_nature = real if v > 0 else virtual"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed at 25 cm from a convex spherical surface of radius 10 cm separating air (n1 = 1) from glass (n2 = 1.5). Find the image distance.",
+     "solution": "u = -25 cm, R = +10 cm. (1.5/v) - (1/-25) = (1.5 - 1)/10 = 0.05. 1.5/v + 0.04 = 0.05. 1.5/v = 0.01. v = 150 cm.",
+     "answer": "v = 150 cm (real image inside glass)"
+    },
+    {
+     "question": "A small object is placed in air at 30 cm from a concave spherical surface of radius 5 cm separating air from glass (n = 1.5). Find the image distance.",
+     "solution": "u = -30 cm, R = -5 cm. (1.5/v) - (1/-30) = (1.5 - 1)/(-5) = -0.1. 1.5/v + 0.0333 = -0.1. 1.5/v = -0.1333. v = -11.25 cm.",
+     "answer": "v = -11.25 cm (virtual image on object side)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An object is placed 40 cm from a convex spherical surface of radius 20 cm separating air (n = 1) from water (n = 1.33). Find the image distance.",
+     "type": "compute"
+    },
+    {
+     "question": "A point object is placed in glass (n = 1.5) at 15 cm from a plane surface separating glass from air. Find the apparent depth of the object.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.5",
+   "title": "Lens Maker Formula",
+   "section": "9.5.2",
+   "definition": "The lens maker formula relates the focal length of a thin lens to its refractive index and the radii of curvature of its two surfaces.",
+   "formula": "1/f = (n - 1) * (1/R1 - 1/R2)",
+   "key_idea": "The focal length of a lens depends on the refractive index of the lens material and the radii of curvature of its two surfaces with proper sign convention.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics use the lens maker formula to find the focal length of a lens",
+    "calculate the focal length of a biconvex lens given its radii of curvature and refractive index",
+    "determine the refractive index of a lens material from its focal length and radii",
+    "apply the lens maker formula to a plano-convex lens",
+    "verify the focal length of a thin lens using the lens maker equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign radii of curvature with sign convention",
+     "explain": "R1 is positive for a convex first surface and R2 is negative for a convex second surface; both signs follow the direction of incident light",
+     "compute": "R1 = signed_R1; R2 = signed_R2"
+    },
+    {
+     "step": 2,
+     "action": "substitute into the lens maker formula",
+     "explain": "use 1/f = (n - 1)(1/R1 - 1/R2) and compute the reciprocal of the focal length",
+     "compute": "inv_f = (n - 1) * (1/R1 - 1/R2)"
+    },
+    {
+     "step": 3,
+     "action": "compute the focal length and its nature",
+     "explain": "take the reciprocal of inv_f; a positive f indicates a converging lens and a negative f indicates a diverging lens",
+     "compute": "f = 1 / inv_f"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A biconvex lens has radii of curvature 20 cm and 30 cm and refractive index 1.5. Find its focal length.",
+     "solution": "R1 = +20 cm, R2 = -30 cm. 1/f = (1.5 - 1)(1/20 - 1/(-30)) = 0.5(1/20 + 1/30) = 0.5(3/60 + 2/60) = 0.5(5/60) = 0.5 * 0.0833 = 0.0417. f = 24 cm.",
+     "answer": "f = 24 cm (converging lens)"
+    },
+    {
+     "question": "A plano-convex lens has a curved surface of radius 10 cm and refractive index 1.5. Find its focal length.",
+     "solution": "R1 = +10 cm, R2 = infinity. 1/f = (1.5 - 1)(1/10 - 0) = 0.5 * 0.1 = 0.05. f = 20 cm.",
+     "answer": "f = 20 cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A biconcave lens has radii of curvature 25 cm and 25 cm and refractive index 1.5. Find its focal length.",
+     "type": "compute"
+    },
+    {
+     "question": "A thin lens of refractive index 1.6 has focal length 20 cm. If R1 = 30 cm, find R2.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.6",
+   "title": "Combination of Thin Lenses in Contact",
+   "section": "9.6",
+   "definition": "When several thin lenses are placed in contact, the equivalent focal length is obtained by adding the reciprocals of the individual focal lengths.",
+   "formula": "1/F = 1/f1 + 1/f2 + 1/f3 + ...",
+   "key_idea": "The power of a combination of thin lenses in contact is the algebraic sum of the powers of the individual lenses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics find the equivalent focal length of two thin lenses in contact",
+    "calculate the equivalent power of a combination of lenses",
+    "determine the focal length of a lens combination of a converging and a diverging lens",
+    "apply the lens combination formula to three thin lenses in contact",
+    "verify the equivalent focal length of lenses placed together"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the focal lengths of all lenses with sign convention",
+     "explain": "converging lenses have positive focal lengths and diverging lenses have negative focal lengths",
+     "compute": "f_list = [f1, f2, f3]"
+    },
+    {
+     "step": 2,
+     "action": "sum the reciprocals of the focal lengths",
+     "explain": "the reciprocal of the equivalent focal length equals the sum of the reciprocals of individual focal lengths",
+     "compute": "inv_F = sum(1/f for f in f_list)"
+    },
+    {
+     "step": 3,
+     "action": "compute the equivalent focal length and power",
+     "explain": "take the reciprocal of inv_F to get F; the equivalent power is P = 1/F in metres inverse",
+     "compute": "F = 1 / inv_F; P = 1 / F"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Two thin lenses of focal lengths 20 cm and -30 cm are placed in contact. Find the equivalent focal length and power.",
+     "solution": "1/F = 1/20 + 1/(-30) = 1/20 - 1/30 = (3 - 2)/60 = 1/60. F = 60 cm = 0.6 m. P = 1/0.6 = 1.67 D.",
+     "answer": "F = 60 cm, P = +1.67 D (converging)"
+    },
+    {
+     "question": "Three thin lenses of focal lengths 30 cm, 30 cm and -15 cm are in contact. Find the equivalent focal length.",
+     "solution": "1/F = 1/30 + 1/30 + 1/(-15) = 1/30 + 1/30 - 1/15 = (1 + 1 - 2)/30 = 0/30 = 0. F = infinity.",
+     "answer": "F = infinity (acts like a plane glass plate)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two lenses of focal lengths 15 cm and 25 cm are placed in contact. Find the equivalent focal length.",
+     "type": "compute"
+    },
+    {
+     "question": "A converging lens of focal length 20 cm is in contact with a diverging lens of focal length 20 cm. Find the power of the combination.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.7",
+   "title": "Magnification by Lens and Mirror",
+   "section": "9.7",
+   "definition": "Linear magnification produced by a lens or mirror is the ratio of the image height to the object height, and is also equal to the ratio of image distance to object distance.",
+   "formula": "m = h2/h1 = v/u (for lens); m = -v/u (for mirror)",
+   "key_idea": "Magnification relates the size and orientation of the image to the object through the image and object distances.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics calculate the magnification produced by a lens",
+    "find the magnification of an image formed by a concave mirror",
+    "determine the size of the image given the object size and magnification",
+    "compute the magnification of a convex mirror for a given object distance",
+    "verify whether the image is erect or inverted using the sign of magnification"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify object distance and image distance with sign convention",
+     "explain": "use the mirror or lens formula to find v and keep the signed values of u and v",
+     "compute": "u = signed_u; v = signed_v"
+    },
+    {
+     "step": 2,
+     "action": "apply the magnification formula",
+     "explain": "for a mirror use m = -v/u and for a lens use m = v/u",
+     "compute": "m = -v/u for mirror; m = v/u for lens"
+    },
+    {
+     "step": 3,
+     "action": "compute image height and interpret the sign of m",
+     "explain": "a positive m gives an erect virtual image while a negative m gives an inverted real image; image height h2 = m * h1",
+     "compute": "h2 = m * h1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object 2 cm tall is placed 15 cm in front of a concave mirror of focal length 10 cm. Find the magnification and image size.",
+     "solution": "u = -15 cm, f = -10 cm. 1/v = 1/f - 1/u = -1/10 + 1/15 = (-3 + 2)/30 = -1/30. v = -30 cm. m = -v/u = -(-30)/(-15) = -2. h2 = m * h1 = -2 * 2 = -4 cm.",
+     "answer": "m = -2, image height = 4 cm (real, inverted, enlarged)"
+    },
+    {
+     "question": "An object 3 cm tall is placed 30 cm in front of a convex lens of focal length 20 cm. Find the magnification and image size.",
+     "solution": "u = -30 cm, f = +20 cm. 1/v = 1/f - 1/u = 1/20 + 1/30 = (3 + 2)/60 = 5/60 = 1/12. v = 60 cm. m = v/u = 60/(-30) = -2. h2 = -2 * 3 = -6 cm.",
+     "answer": "m = -2, image height = 6 cm (real, inverted, enlarged)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An object 5 cm tall is placed 25 cm in front of a concave mirror of focal length 15 cm. Find the magnification and image height.",
+     "type": "compute"
+    },
+    {
+     "question": "A convex lens of focal length 10 cm forms an image at 30 cm on the other side. Find the magnification if the object is 2 cm tall.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.8",
+   "title": "Power of a Lens",
+   "section": "9.7.2",
+   "definition": "The power of a lens is the reciprocal of its focal length expressed in metres, and it measures the degree of convergence or divergence produced by the lens.",
+   "formula": "P = 1/f (in metres), unit dioptre (D)",
+   "key_idea": "A converging lens has positive power and a diverging lens has negative power; the SI unit of power is the dioptre.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics calculate the power of a lens given its focal length",
+    "find the focal length of a lens from its power in dioptres",
+    "determine the power of a combination of two lenses in contact",
+    "compute the power of a converging lens of focal length 25 cm",
+    "verify the sign of power for a diverging lens"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert focal length to metres with sign convention",
+     "explain": "converging lens has positive f and diverging lens has negative f; convert cm to m by dividing by 100",
+     "compute": "f_m = f_cm / 100"
+    },
+    {
+     "step": 2,
+     "action": "compute the power as reciprocal of focal length in metres",
+     "explain": "power in dioptres equals 1 divided by focal length in metres",
+     "compute": "P = 1 / f_m"
+    },
+    {
+     "step": 3,
+     "action": "interpret the sign of power",
+     "explain": "a positive power indicates a converging lens and a negative power indicates a diverging lens",
+     "compute": "lens_type = converging if P > 0 else diverging"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the power of a converging lens of focal length 25 cm.",
+     "solution": "f = 25 cm = 0.25 m. P = 1/0.25 = +4 D.",
+     "answer": "P = +4 D (converging lens)"
+    },
+    {
+     "question": "A diverging lens has focal length 50 cm. Find its power.",
+     "solution": "f = -50 cm = -0.5 m. P = 1/(-0.5) = -2 D.",
+     "answer": "P = -2 D (diverging lens)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the power of a lens of focal length -40 cm.",
+     "type": "compute"
+    },
+    {
+     "question": "The power of a lens is +2.5 D. Find its focal length in cm.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.9",
+   "title": "Prism Formula and Dispersion",
+   "section": "9.8",
+   "definition": "When light passes through a prism it bends towards the base, and the angle of deviation depends on the angle of incidence, the prism angle and the refractive index of the prism material.",
+   "formula": "delta = (i + e) - A; n = sin((A + delta_min)/2) / sin(A/2)",
+   "key_idea": "The minimum deviation through a prism occurs when the ray passes symmetrically and the refractive index is related to the prism angle and minimum deviation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics calculate the angle of deviation through a prism",
+    "find the refractive index of a prism using the minimum deviation formula",
+    "determine the minimum angle of deviation for a given prism angle and refractive index",
+    "compute the refractive index of a prism given the angle of minimum deviation",
+    "verify the condition for minimum deviation in a prism"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the prism angle and angle of minimum deviation",
+     "explain": "the prism angle A is the angle between the two refracting surfaces and delta_min is the minimum angle of deviation",
+     "compute": "A = prism_angle; delta_min = min_deviation"
+    },
+    {
+     "step": 2,
+     "action": "apply the prism formula for refractive index",
+     "explain": "use n = sin((A + delta_min)/2) / sin(A/2) to compute the refractive index of the prism material",
+     "compute": "n = sin((A + delta_min)/2) / sin(A/2)"
+    },
+    {
+     "step": 3,
+     "action": "verify the result is physically consistent",
+     "explain": "the refractive index must be greater than 1 for a real prism and the angles must be in degrees converted to radians for computation",
+     "compute": "valid = (n > 1)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A prism has an angle of 60 degrees and produces a minimum deviation of 30 degrees. Find the refractive index of the prism.",
+     "solution": "A = 60 deg, delta_min = 30 deg. n = sin((60 + 30)/2) / sin(60/2) = sin(45) / sin(30) = 0.707 / 0.5 = 1.414.",
+     "answer": "n = 1.414"
+    },
+    {
+     "question": "The refractive index of a prism of angle 60 degrees is 1.5. Find the angle of minimum deviation.",
+     "solution": "n = 1.5, A = 60 deg. 1.5 = sin((60 + delta_min)/2) / sin(30) = sin((60 + delta_min)/2) / 0.5. sin((60 + delta_min)/2) = 0.75. (60 + delta_min)/2 = 48.6 deg. 60 + delta_min = 97.2 deg. delta_min = 37.2 deg.",
+     "answer": "delta_min = 37.2 degrees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A prism of angle 60 degrees has a refractive index of 1.33. Find the angle of minimum deviation.",
+     "type": "compute"
+    },
+    {
+     "question": "A prism produces a minimum deviation of 40 degrees for an angle of 60 degrees. Find the refractive index.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.9.10",
+   "title": "Optical Instruments: Microscope and Telescope",
+   "section": "9.9",
+   "definition": "Optical instruments use combinations of lenses to produce magnified images; a compound microscope uses an objective and an eyepiece to view tiny objects while a telescope is used to view distant objects.",
+   "formula": "M_microscope = (v_o/u_o)(1 + D/f_e); M_telescope = f_o / f_e",
+   "key_idea": "The magnifying power of a microscope depends on the objective and eyepiece focal lengths and the near point, while a telescope magnifying power is the ratio of the objective focal length to the eyepiece focal length.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in Class 12 Physics Ray Optics calculate the magnifying power of a compound microscope",
+    "find the magnifying power of an astronomical telescope in normal adjustment",
+    "determine the magnification of a telescope given the focal lengths of objective and eyepiece",
+    "compute the magnifying power of a microscope for the final image at the near point",
+    "verify the magnifying power of an optical instrument using its lens parameters"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the focal lengths of the objective and eyepiece",
+     "explain": "for a microscope f_o and f_e are the focal lengths of the objective and eyepiece and D is the least distance of distinct vision",
+     "compute": "f_o = objective_f; f_e = eyepiece_f; D = 25 cm"
+    },
+    {
+     "step": 2,
+     "action": "apply the magnifying power formula for the instrument",
+     "explain": "for a microscope use M = (v_o/u_o)(1 + D/f_e) and for a telescope in normal adjustment use M = f_o/f_e",
+     "compute": "M = f_o / f_e for telescope; M = (v_o/u_o) * (1 + D/f_e) for microscope"
+    },
+    {
+     "step": 3,
+     "action": "compute the magnifying power and interpret the result",
+     "explain": "a larger magnifying power means a greater angular size of the final image seen by the eye",
+     "compute": "magnification = M"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A compound microscope has an objective of focal length 1 cm and an eyepiece of focal length 5 cm. The final image is formed at the least distance of distinct vision D = 25 cm. If the object is placed 1.1 cm from the objective, find the magnifying power.",
+     "solution": "u_o = -1.1 cm, f_o = 1 cm. 1/v_o = 1/f_o - 1/u_o = 1/1 + 1/1.1 = 1 + 0.909 = 1.909. v_o = 0.524 cm. m_o = v_o/u_o = 0.524/(-1.1) = -0.476. Magnitude = 0.476. M = (v_o/u_o)(1 + D/f_e) = 0.476 * (1 + 25/5) = 0.476 * 6 = 2.86. Taking magnitudes, M = (v_o/|u_o|)(1 + D/f_e) = (0.524/1.1)(6) = 2.86.",
+     "answer": "M = 2.86 (approx)"
+    },
+    {
+     "question": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Find the magnifying power in normal adjustment.",
+     "solution": "M = f_o / f_e = 100 / 5 = 20.",
+     "answer": "M = 20"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A telescope has an objective of focal length 80 cm and an eyepiece of focal length 4 cm. Find its magnifying power in normal adjustment.",
+     "type": "compute"
+    },
+    {
+     "question": "A compound microscope has an objective of focal length 2 cm and an eyepiece of focal length 10 cm. The final image is formed at 25 cm and the object is placed at 2.2 cm from the objective. Find the magnifying power.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "class": "12",
+ "subject": "physics",
+ "worked_examples": [],
+ "exercises": []
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_007",
+   "title": "c12_eco_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the tangency condition for consumer equilibrium in the indifference curve approach. What does MRS stand for?",
+     "a": "The tangency condition is MRSxy = Px/Py, where MRSxy is the marginal rate of substitution of good X for good Y. MRS stands for Marginal Rate of Substitution. A wrong answer such as MRS = Py/Px or MRS = MUx/MUy (without equating to price ratio) reveals confusion about which ratio equals which, or mixing up the cardinal utility condition (MUx/Px = MUy/Py) with the ordinal condition.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the indifference curve be convex to the origin at the equilibrium point? Explain using the concept of diminishing MRS.",
+     "a": "Convexity ensures diminishing MRS, which guarantees that the tangency point is a maximum (not a minimum) of utility. If the indifference curve were concave, the tangency would be a minimum utility point, and the consumer would prefer a corner solution. A wrong answer like \"convexity is just an assumption\" or \"it's not necessary\" shows lack of understanding of the second-order condition for utility maximization.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer has utility function U = x^0.5 * y^0.5. Prices: Px = 10, Py = 20. Income = 200. Find the equilibrium quantities of x and y.",
+     "a": "Step 1: Compute MRS = MUx/MUy. MUx = 0.5 x^{-0.5} y^{0.5}, MUy = 0.5 x^{0.5} y^{-0.5}. So MRS = (0.5/0.5) * (y/x) = y/x.\nStep 2: Set MRS = Px/Py = 10/20 = 1/2 → y/x = 1/2 → y = x/2.\nStep 3: Budget constraint: 10x + 20y = 200. Substitute y: 10x + 20(x/2) = 10x + 10x = 20x = 200 → x = 10.\nStep 4: y = 10/2 = 5.\nEquilibrium: (10, 5). A wrong answer like x=20, y=0 reveals inability to set up MRS correctly or solve the system of equations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equilibrium condition in the cardinal utility approach (MUx/Px = MUy/Py) with the ordinal approach (MRS = Px/Py). Show mathematically how they are equivalent given MRS = MUx/MUy.",
+     "a": "In the cardinal approach, equilibrium requires MUx/Px = MUy/Py. Rearranging gives MUx/MUy = Px/Py. Since MRS is defined as MUx/MUy (by definition of marginal rate of substitution), this yields MRS = Px/Py, which is exactly the ordinal condition. Thus the two conditions are mathematically equivalent. A wrong answer claiming they are completely different shows failure to see the algebraic link between the two approaches.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer's indifference curves are straight lines (perfect substitutes). Px = 10, Py = 20. Can the tangency condition MRS = Px/Py determine a unique equilibrium? If not, what determines equilibrium?",
+     "a": "For perfect substitutes, MRS is constant (e.g., MRS = 1 for U = x + y). If MRS ≠ Px/Py, no tangency exists; equilibrium is at a corner (spend all income on the good with higher utility per rupee). If MRS = Px/Py, every point on the budget line is an equilibrium (indifference curves coincide with the budget line). Thus the tangency condition alone is insufficient; we must check corner solutions. A wrong answer saying \"tangency always works\" shows misunderstanding of non-convex/linear preferences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a utility function (not Cobb-Douglas) and a budget constraint such that the equilibrium occurs at a corner solution. Explain why the tangency condition fails to give an interior solution.",
+     "a": "Example: U = x + 2y (perfect substitutes). Px = 10, Py = 10, Income = 100. MRS = MUx/MUy = 1/2. Price ratio = 1. Since MRS (0.5) < Px/Py (1), the consumer buys only good Y: y = 10, x = 0. The tangency condition would require 0.5 = 1, which is impossible. A good answer includes a valid utility function, budget, and correct reasoning about why tangency fails (constant MRS not equal to price ratio). A poor answer uses a function that still yields an interior solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

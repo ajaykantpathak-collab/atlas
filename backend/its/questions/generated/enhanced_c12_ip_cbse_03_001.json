@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_001",
+   "title": "c12_ip_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define a computer network in one sentence using the terms 'nodes', 'links', and 'protocols'.",
+     "a": "A computer network is a set of nodes (computing devices) connected by links (communication channels) that communicate using common protocols to share resources and information. A wrong answer that only mentions \"computers connected by cables\" reveals the misconception that physical connection alone constitutes a network, ignoring the essential role of protocols and the purpose of resource sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why simply connecting two laptops with an Ethernet cable does not automatically create a functional computer network.",
+     "a": "A functional network requires configured network interfaces, agreed-upon protocols (e.g., TCP/IP), addressing (IP addresses), and enabled sharing services — the cable is only the physical medium. A student who says \"they are connected, so it's a network\" confuses physical connectivity with logical networking; they miss that protocols and configuration are mandatory for communication and resource sharing.",
+     "self_check": true
+    },
+    {
+     "q": "A school has 30 standalone PCs. The principal wants to buy a single high-capacity printer for all. List the minimum network components and configuration steps needed to achieve this, and explain how this demonstrates the purpose of resource sharing.",
+     "a": "Components: 30 NICs, a switch, 30 Ethernet cables, printer with network interface or print server. Configuration: assign IP addresses, install printer driver on server, share printer, map on each PC. This demonstrates resource sharing — one printer serves 30 users, reducing cost and maintenance. A wrong answer listing only cables and switch shows the student focuses on hardware but misses the software/configuration layer that enables sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a computer network with a distributed system. Identify two similarities and two differences.",
+     "a": "Similarities: both involve multiple computers communicating over links; both share resources. Differences: (1) In a network, users are aware of multiple machines (explicit login, file transfer); in a distributed system, the collection appears as a single coherent system (transparency). (2) Networks focus on connectivity and communication; distributed systems focus on unified computation and fault tolerance. A student equating the two misses the transparency and single-system-image distinction central to distributed systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A computer network's primary purpose is to connect computers.\" Justify your answer with reference to the definition of a network.",
+     "a": "The statement is incomplete. Connection is the *means*, not the *purpose*. The definition centers on resource sharing (hardware, software, data) and communication — connection enables these. A network that connects computers but shares no resources serves no practical purpose. A student agreeing with the statement confuses infrastructure with objective; they need to distinguish between the physical topology and the functional goals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal network scenario for a home with three devices (laptop, smart TV, phone) that need to share a single internet connection and stream videos from the laptop to the TV. Draw a labeled diagram and list the required network elements (hardware, software, protocols).",
+     "a": "Diagram: ISP modem → wireless router (AP + switch) → laptop (Wi-Fi), smart TV (Wi-Fi), phone (Wi-Fi). Elements: modem (WAN interface), router (NAT, DHCP, firewall), Wi-Fi (802.11), TCP/IP stack on all devices, DLNA/miracast for streaming. A poor answer showing only a router and devices without protocols (DHCP, NAT, TCP/IP) or streaming protocol reveals a hardware-only mental model, missing the layered protocol architecture that makes sharing work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

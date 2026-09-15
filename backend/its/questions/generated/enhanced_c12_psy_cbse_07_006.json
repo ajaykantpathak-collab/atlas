@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_006",
+   "title": "c12_psy_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define groupthink in one sentence using Janis's core idea about the override of realistic appraisal.",
+     "a": "Groupthink is a mode of thinking in which a cohesive group's desire for unanimity overrides its motivation to realistically appraise alternative courses of action. A wrong answer that merely says \"groupthink is when a group agrees on everything\" reveals the misconception that consensus itself is the problem, rather than the *process* by which consensus is achieved (suppression of dissent, lack of critical analysis).",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Groupthink is just another word for teamwork — when a team works well together, they think alike.\" Explain why this statement is incorrect using two specific symptoms of groupthink.",
+     "a": "The statement is incorrect because teamwork involves constructive collaboration where diverse views are welcomed, whereas groupthink involves *suppression* of dissent. Two symptoms that distinguish groupthink: (1) **Self-censorship** — members withhold doubts to avoid breaking consensus; (2) **Illusion of unanimity** — silence is misinterpreted as agreement. In effective teamwork, members actively debate and challenge each other; in groupthink, pressure toward uniformity stifles critical input.",
+     "self_check": true
+    },
+    {
+     "q": "A corporate board is deciding whether to launch a new product. The CEO strongly favors launch. The board members are long-time colleagues with high cohesion. They meet behind closed doors, have no formal agenda, and face a tight deadline. During discussion, one member raises a safety concern but is told \"we've always succeeded before, don't be negative.\" The board votes unanimously to launch. Identify THREE antecedent conditions and TWO symptoms of groupthink present in this scenario.",
+     "a": "**Antecedent conditions:** (1) High cohesiveness (long-time colleagues), (2) Insulation from outsiders (closed-door meeting), (3) Directive leadership (CEO strongly favors launch), (4) Lack of procedural norms (no formal agenda), (5) High stress (tight deadline). **Symptoms:** (1) Direct pressure on dissenters (member told \"don't be negative\"), (2) Illusion of invulnerability (\"we've always succeeded before\"), (3) Illusion of unanimity (unanimous vote despite unvoiced concerns). A wrong answer that misses the directive leadership or insulation shows inability to map situational factors to Janis's model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast groupthink with group polarization (covered in c12_psy_cbse_07_011). Both involve groups moving toward extreme positions, but their underlying mechanisms differ. Explain the key difference in terms of *information processing* and *social motivation*.",
+     "a": "Groupthink is driven by **social motivation to maintain cohesion** — members suppress dissenting information to preserve harmony, leading to *incomplete information processing* (alternatives not considered). Group polarization is driven by **informational influence (new arguments) and normative influence (social comparison)** — members *process more arguments* favoring the initial leaning, shifting the group average toward a more extreme position. In groupthink, the group fails to see risks; in polarization, the group sees risks but becomes more convinced of its initial stance.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following prevention strategy for a government cabinet: \"The Prime Minister should state her preferred policy at the first meeting so everyone knows the direction, then ask for objections.\" Would this reduce or increase groupthink risk? Justify using Janis's principles.",
+     "a": "This strategy **increases** groupthink risk. Janis emphasizes that leaders must remain **impartial** and avoid stating preferences early, as directive leadership is a key antecedent condition. Stating a preference creates pressure for conformity (symptom: direct pressure on dissenters) and triggers self-censorship. A better approach: the PM should withhold opinion, assign a devil's advocate, and invite outside experts *before* expressing any view.",
+     "self_check": true
+    },
+    {
+     "q": "Design a group decision-making protocol for a hospital ethics committee (diverse professionals, high-stakes decisions) that incorporates at least FOUR distinct groupthink prevention strategies from Janis. Present as a numbered checklist with brief rationale for each.",
+     "a": "**Groupthink Prevention Protocol for Hospital Ethics Committee:**\n1. **Leader impartiality:** Chairperson states no initial preference; facilitates only. *Rationale: Removes directive leadership antecedent.*\n2. **Devil's advocate role (rotating):** One member assigned to challenge majority view each meeting. *Rationale: Institutionalizes dissent, counters self-censorship and illusion of unanimity.*\n3. **Outside expert consultation:** Invite independent ethicist/legal advisor for each major case. *Rationale: Breaks insulation, provides external reality check.*\n4. **Subgroup deliberation:** Split into two independent subgroups to analyze same case, then compare conclusions. *Rationale: Reduces pressure for uniformity, generates alternative perspectives.*\n5. **Anonymous written input:** Before discussion, members submit concerns anonymously via digital form. *Rationale: Counters direct pressure and self-censorship.*\n6. **Second-chance meeting:** After preliminary consensus, schedule a follow-up solely to re-evaluate risks. *Rationale: Counters illusion of invulnerability and collective rationalization.*\nA poor answer would list generic \"encourage discussion\" without tying each step to a specific antecedent condition or symptom.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

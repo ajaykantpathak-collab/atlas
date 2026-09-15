@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_006",
+   "title": "c12_acc_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the maximum underwriting commission a company can pay on issue of shares as per Section 40(6) of the Companies Act, 2013?",
+     "a": "The maximum underwriting commission on shares is 5% of the issue price (or the rate authorised by the articles, whichever is less). A wrong answer (e.g., 2.5%, 10%, or \"no limit\") reveals confusion between the limits for shares vs. debentures (2.5%) or ignorance of the statutory cap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why preliminary expenses are not charged entirely to the Statement of Profit and Loss in the year they are incurred.",
+     "a": "Preliminary expenses are capital in nature because they are incurred before the company commences operations and benefit multiple future accounting periods. They are amortised over a period not exceeding 5 years. A wrong answer (e.g., \"they are revenue expenses\" or \"they are assets\") shows misunderstanding of the matching principle and the distinction between capital and revenue expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "GreenEnergy Ltd. issues 1,00,000 equity shares of ₹10 each at a discount of 5%. The issue is fully subscribed. Pass the journal entry for the allotment money due (including discount) and show how the discount appears in the Balance Sheet.",
+     "a": "**Journal Entry:**  \nBank A/c Dr. 9,50,000  \nDiscount on Issue of Shares A/c Dr. 50,000  \nTo Share Allotment A/c 10,00,000  \n**Balance Sheet (Extract):**  \nEquity Share Capital: 1,00,000 shares of ₹10 each fully paid = ₹10,00,000  \nLess: Calls in Arrears (if any)  \nAdd: Forfeited Shares (if any)  \n**Notes to Accounts:**  \nOther Non-Current Assets: Discount on Issue of Shares ₹50,000 (to be written off).  \nA wrong entry (e.g., crediting Discount on Issue to Share Capital) or showing discount as a deduction from share capital on the face of Balance Sheet (old format) indicates confusion with the pre-2013 presentation or misapplication of the \"net proceeds\" concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of underwriting commission and discount on issue of debentures. Highlight two similarities and two differences.",
+     "a": "**Similarities:** (1) Both are capital losses written off over time against Securities Premium or Profit & Loss. (2) Both are shown under \"Other Non-Current Assets\" until written off.  \n**Differences:** (1) Underwriting commission is a payment to a third party (underwriter); discount on issue is a reduction in proceeds from investors. (2) Underwriting commission has a statutory ceiling (5% shares, 2.5% debentures); discount on issue has no statutory ceiling but is restricted by Section 53 (shares cannot be issued at discount except sweat equity). A weak answer that only lists similarities or confuses discount on issue with \"discount on redemption\" shows lack of analytical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A company incurs ₹20 lakh preliminary expenses and decides to write them off over 4 years. The accountant proposes to debit the entire ₹20 lakh to \"Preliminary Expenses\" under \"Other Expenses\" in the Statement of Profit and Loss of Year 1. Evaluate this proposal.",
+     "a": "The proposal is **incorrect**. Preliminary expenses must be amortised; only ₹5 lakh (₹20 lakh ÷ 4) should be charged to Statement of Profit and Loss each year. The unamortised balance (₹15 lakh after Year 1) must appear as \"Other Non-Current Assets\" in the Balance Sheet. Charging the full amount in Year 1 violates the matching principle, overstates expenses, understates profit, and misrepresents the financial position. Accepting the proposal would indicate the student cannot apply the concept of deferred revenue expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues debentures at a discount and also pays underwriting commission. Design a journal entry that records both on the same date, and explain how the two amounts will be presented in the Balance Sheet after 2 years if the company writes them off equally over 5 years.",
+     "a": "**Scenario:** TechNova Ltd. issues 5,000, 8% debentures of ₹100 each at a 10% discount. Underwriting commission @ 2% is payable.  \n**Journal Entry (on allotment):**  \nBank A/c Dr. 45,00,000 (5,000 × ₹90)  \nDiscount on Issue of Debentures A/c Dr. 5,00,000 (5,000 × ₹10)  \nUnderwriting Commission A/c Dr. 1,00,000 (5,000 × ₹100 × 2%)  \nTo 8% Debentures A/c 50,00,000  \nTo Underwriters A/c 1,00,000  \n**After 2 years (amortisation 1/5 per year):**  \nDiscount on Issue of Debentures written off = ₹2,00,000; balance = ₹3,00,000 (Other Non-Current Assets).  \nUnderwriting Commission written off = ₹40,000; balance = ₹60,000 (Other Non-Current Assets).  \nBoth appear under \"Other Non-Current Assets\" as separate line items. A poor answer merges the two accounts, uses wrong percentages, or shows them as current assets, revealing inability to synthesise multiple capital-loss items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_9",
+   "title": "c8_math_ch5_9",
+   "questions": [
+    {
+     "q": "State the divisibility rule for 8 and give an example of a 5-digit number that is divisible by 8.",
+     "a": "The rule: A number is divisible by 8 if the number formed by its last three digits is divisible by 8. Example: 12,456 (last three digits 456, 456 ÷ 8 = 57). If a student says \"last two digits\" or \"last digit\", they are confusing the rule with divisibility by 4 or 2. If they cannot produce an example, they may not understand how to construct a multiple of 8.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the divisibility rule for 4 only require checking the last two digits? Explain using place value.",
+     "a": "Because 100 = 4 × 25, any number of hundreds (or thousands, etc.) is a multiple of 100 and therefore a multiple of 4. So the remainder when dividing by 4 depends only on the last two digits. If a student says \"because 4 goes into 100\" without mentioning place value, they have a partial understanding. If they say \"it's a rule we memorized\", they lack conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Is 53,292 divisible by 6? Show your work using the divisibility rules for 2 and 3.",
+     "a": "Step 1: Check divisibility by 2. Last digit is 2 (even) → divisible by 2.\nStep 2: Check divisibility by 3. Sum of digits = 5+3+2+9+2 = 21. 21 ÷ 3 = 7 → divisible by 3.\nStep 3: Since divisible by both 2 and 3, it is divisible by 6.\nAnswer: Yes, 53,292 is divisible by 6.\nIf a student only checks one condition or adds digits incorrectly (e.g., gets 20), they make a computational error. If they say \"divide by 6 directly\", they are not using the rule.",
+     "self_check": true
+    },
+    {
+     "q": "A number is divisible by 4 and 6. Is it necessarily divisible by 24? Explain with a counterexample or proof.",
+     "a": "Not necessarily. Divisible by 4 and 6 means it is a multiple of LCM(4,6)=12. For 24, we need an extra factor of 2. Counterexample: 12 is divisible by 4 and 6 but not by 24. If a student says \"yes, because 4×6=24\", they confuse multiplication with LCM. If they say \"no\" but give 36 as counterexample (36 is not divisible by 24 but is divisible by 4 and 6? 36÷4=9, 36÷6=6, 36÷24=1.5 – correct counterexample), they understand but 12 is simpler.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan tests 72,384 for divisibility by 11. He computes (7+3+4) - (2+8) = 14 - 10 = 4 and concludes it is not divisible by 11. Is his method correct? If not, identify the error.",
+     "a": "Rohan's method is incorrect. The rule for 11 uses alternating sum starting from the rightmost digit (units place) as position 1 (odd). For 72,384: digits from right: 4 (pos1), 8 (pos2), 3 (pos3), 2 (pos4), 7 (pos5). Sum of odd positions = 4+3+7 = 14. Sum of even positions = 8+2 = 10. Difference = 4, so not divisible by 11. Rohan started from the left, which gives the same result only for even-digit numbers. If he started from left on an odd-digit number, he would get the wrong sign. The error is not anchoring positions from the right.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 6-digit number that is divisible by 8 but NOT by 4. Is this possible? Explain.",
+     "a": "This is impossible. If a number is divisible by 8, it must be divisible by 4 because 8 = 4 × 2. Any multiple of 8 is also a multiple of 4. A good answer states this impossibility and explains the factor relationship. If a student tries to construct such a number (e.g., 100,008), they will find it is divisible by 4 (last two digits 08). If they claim it's possible, they don't understand the hierarchy of divisibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

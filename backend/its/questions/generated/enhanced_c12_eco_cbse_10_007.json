@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_007",
+   "title": "c12_eco_cbse_10_007",
+   "questions": [
+    {
+     "q": "What is the equilibrium condition in the AD-AS approach for a two-sector economy?",
+     "a": "The equilibrium condition is AD = AS, which translates to Y = C + I. A wrong answer such as \"S = I\" indicates confusion with the Saving-Investment approach (covered in the next node). While mathematically equivalent, the AD-AS approach explicitly uses the equality of planned expenditure and output.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the economy move toward equilibrium when AD > AS? Explain using the concept of unplanned inventory changes.",
+     "a": "When AD > AS, planned expenditure exceeds current output. Firms sell more than they produce, causing an unplanned fall in inventories (decumulation). To replenish stocks, firms increase production, raising output (AS) and income (Y). Higher income induces more consumption (via MPC), further increasing AD, but by less than the rise in Y (since MPC < 1). The process continues until AD = AS. A wrong answer citing \"price increases\" ignores the fixed-price Keynesian assumption of this model.",
+     "self_check": true
+    },
+    {
+     "q": "Given C = 50 + 0.8Y and I = 100 (in Rs crores), find the equilibrium level of income using the AD-AS approach.",
+     "a": "AD = C + I = 50 + 0.8Y + 100 = 150 + 0.8Y. Set AD = Y: Y = 150 + 0.8Y → 0.2Y = 150 → Y = 750 crores. A common error is forgetting autonomous consumption (50) or misapplying MPC (e.g., 0.8Y = 150 → Y = 187.5). Another error is using the multiplier formula prematurely without establishing the equilibrium condition.",
+     "self_check": true
+    },
+    {
+     "q": "In a 45-degree line diagram, the AD curve is C + I = 200 + 0.75Y. The economy is currently at Y = 600. Is there unplanned inventory accumulation or decumulation? By how much?",
+     "a": "At Y = 600, AD = 200 + 0.75(600) = 650. Since AD (650) > AS (600), there is unplanned inventory decumulation of 50 crores. A wrong answer stating \"accumulation\" confuses the direction. A student calculating AD = 200 + 0.75(600) = 650 but then saying accumulation has the direction reversed.",
+     "self_check": true
+    },
+    {
+     "q": "\"In the AD-AS approach, if autonomous investment increases by Rs 10 crores, the equilibrium income increases by the same amount.\" Evaluate this statement.",
+     "a": "False. Due to the multiplier effect, the increase in equilibrium income is larger than the increase in autonomous investment. The multiplier is 1/(1-MPC). For example, if MPC = 0.8, a Rs 10 crore increase in I raises Y by Rs 50 crores (10 × 5). A student who says \"true\" ignores induced consumption rounds that amplify the initial spending injection.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (consumption function and autonomous investment) where the equilibrium income is 2000 crores and the MPC is 0.6. Show the AD equation and verify equilibrium.",
+     "a": "With MPC = 0.6, multiplier = 1/(1-0.6) = 2.5. To get Y = 2000, autonomous spending (A) must be Y/multiplier = 2000/2.5 = 800. Let autonomous consumption = 300, autonomous investment = 500. Then C = 300 + 0.6Y, I = 500. AD = 800 + 0.6Y. Set Y = 800 + 0.6Y → 0.4Y = 800 → Y = 2000. A poor answer might not verify or use an incorrect multiplier (e.g., 1/MPC).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

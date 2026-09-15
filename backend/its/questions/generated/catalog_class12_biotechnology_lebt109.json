@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt109",
+ "concepts": [
+  {
+   "id": "lebt109.1",
+   "title": "Stem Cell Sources and Self-Renewal",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stem Cell Sources and Self-Renewal' refers to.",
+     "a": "Stem cells are the body's unfinished cells, holding two powers at once - self-renewal by mitosis and the potency to specialise - and they wait in the inner cell mass of the five-day blastocyst, fetal blood and bone marrow, umbilical cord, placenta and scattered adult tissues; embryonic lines promise every tissue yet carry ethical weight, while adult somatic stem cells repair their home organs freely, with bone marrow holding the densest supply.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stem Cell Sources and Self-Renewal'.",
+     "a": "An immature cell that renews itself forever and can still become anything is the definition - where you harvest it sets the ethics and the reach.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stem Cell Sources and Self-Renewal' taught, and from which source text?",
+     "a": "9.1 (source: lebt109.txt sections 9.1-9.1.1, Fig. 9.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.2",
+   "title": "Potency Ladder and Cleavage Divisions",
+   "questions": [
+    {
+     "q": "Using the method 'Potency Ladder and Cleavage Divisions', work with: cleavage_divisions = 25, target_cells = 24. Carry the chain through step by step and give the final value of divisions_needed.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Potency Ladder and Cleavage Divisions' and work with: cleavage_divisions = 10, target_cells = 40. Carry the chain through step by step and give the final value of divisions_needed.",
+     "a": "0.0391 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Potency Ladder and Cleavage Divisions' refers to.",
+     "a": "Potency descends in steps as the embryo divides: zygote and early cells stay totipotent until the eight-cell stage, the four-day inner cell mass turns pluripotent building ectoderm, mesoderm and endoderm but never placenta, multipotent blood and neural stem cells stay within a lineage family, and unipotent epidermal or muscle stem cells renew only their own kind.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Potency Ladder and Cleavage Divisions'.",
+     "a": "Two raised to the cleavage divisions counts the embryo's cells; totipotency expires at eight cells, pluripotency by day four.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Potency Ladder and Cleavage Divisions', in plain ASCII form.",
+     "a": "cells_at_stage = 2 ** cleavage_divisions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.3",
+   "title": "Plasticity Pathways of Adult Stem Cells",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plasticity Pathways of Adult Stem Cells' refers to.",
+     "a": "Adult stem cells can jump fates through several routes: trans-determination redirects a lineage-programmed stem cell to another precursor's outputs, trans-differentiation lets one mature phenotype become another, dedifferentiation - common in lower vertebrates but rare in mammals - rewinds cells toward master status, clonal impurity explains apparent switches as pleiotropy within one germ layer, and cell fusion borrows another cell's identity, all steered by microenvironmental cues and checked by surface markers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plasticity Pathways of Adult Stem Cells'.",
+     "a": "When a marrow cell becomes a neuron-like cell, either the stem cell switched programmes, the culture was impure, or the cells fused - three explanations to test.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Plasticity Pathways of Adult Stem Cells' taught, and from which source text?",
+     "a": "9.1.2 (source: lebt109.txt section 9.1.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.4",
+   "title": "Stem Cell Therapy across Diseases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stem Cell Therapy across Diseases' refers to.",
+     "a": "Regenerative medicine deploys stem cells where tissue cannot self-heal: marrow and induced pluripotent stem cells are on trial for ALS and spinal cord injury, retinal pigment implants improved vision, keratinocyte stem cells from plucked hair grow rejection-proof skin, haematopoietic derivatives are explored for type 1 diabetes, neural and marrow cells aim to remyelinate multiple sclerosis, and chondrocyte-making cells target rheumatoid arthritis - with bone marrow transplantation the one therapy already standard, and drug screening on stem-cell cardiomyocytes and neurons replacing animal models.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stem Cell Therapy across Diseases'.",
+     "a": "Grow the missing tissue from stem cells - nerves, skin, islets, cartilage - and screen drugs on the same cells before patients.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stem Cell Therapy across Diseases' taught, and from which source text?",
+     "a": "9.1.3 (source: lebt109.txt section 9.1.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.5",
+   "title": "Challenges of Stem Cell Research",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Challenges of Stem Cell Research' refers to.",
+     "a": "Three hurdles shadow the promise: immune rejection of transplants forcing risky immunosuppression, the behaviour problem of endlessly dividing embryonic cells that can seed tumours, and infection-prone handling of fragile cultures - with induced pluripotent stem cells made from the patient's own cells offering the neatest partial answer to rejection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Challenges of Stem Cell Research'.",
+     "a": "Rejection, tumours and infection are the price of powerful cells - patient-matched iPSCs mute the first risk.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Challenges of Stem Cell Research' taught, and from which source text?",
+     "a": "9.1.3 (source: lebt109.txt section 9.1.3 (Stem Cell Research Challenges))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.6",
+   "title": "Human ESC Timeline Milestones",
+   "questions": [
+    {
+     "q": "How many years passed between derivation of human embryonic stem cells in 1998 and generation of human iPSCs in 2006? Use the method 'Human ESC Timeline Milestones'. Work with: hesc_year = 1000, ipsc_year = 25, nobel_year = 2600. Carry the chain through step by step and give the final value of nobel_lag.",
+     "a": "2575 units",
+     "self_check": false
+    },
+    {
+     "q": "How many years after the 2006 reprogramming discovery did Yamanaka and Gurdon receive the Nobel Prize? Use the method 'Human ESC Timeline Milestones'. Work with: hesc_year = 25, ipsc_year = 100, nobel_year = 500. Carry the chain through step by step and give the final value of nobel_lag.",
+     "a": "400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Human ESC Timeline Milestones' refers to.",
+     "a": "Human embryonic stem cell science marched in dated steps: derivation in 1998, germ-cell potential in 2004, human induced pluripotent cells in 2006, the 2009 Nobel for Yamanaka and Gurdon's reprogramming, first iPSC clinical trials in 2010, therapeutic-cloning SCNT lines in 2013, naive-state lines in 2014, CRISPR editing by 2015 and organoids by 2017, with xeno-free culture freeing the field of animal products in 2007.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human ESC Timeline Milestones'.",
+     "a": "Subtract milestone years to measure how quickly reprogramming and editing followed the first human lines.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human ESC Timeline Milestones', in plain ASCII form.",
+     "a": "gap_years = ipsc_year - hesc_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.7",
+   "title": "Organ Culture Characteristics and Limitations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Organ Culture Characteristics and Limitations' refers to.",
+     "a": "Organ culture keeps whole tissue architecture alive on artificial medium, preserving cell-to-cell signalling that dispersed cells lose; without vessels, nutrients and gases diffuse only from the periphery so bulky cultures necrose at the core, a gas-liquid interface with carefully set fluid level sustains exchange, hyperbaric oxygen pushes diffusion deeper, and fresh donor tissue is needed for every experiment because such cultures barely proliferate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organ Culture Characteristics and Limitations'.",
+     "a": "Keep the architecture, feed the surface, and accept that the core starves - organ cultures trade growth for realism.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Organ Culture Characteristics and Limitations' taught, and from which source text?",
+     "a": "9.2-9.2.2 (source: lebt109.txt sections 9.2-9.2.2, 9.2.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebt109.8",
+   "title": "Histotypic Organotypic Cultures and Organoids",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Histotypic Organotypic Cultures and Organoids' refers to.",
+     "a": "Three-dimensional cultures climb toward real organs: histotypic cultures grow one characterised line at high density in matrix and soluble factors until capillary-like tubules form, organotypic co-cultures recombine lineages so fibroblasts and mammary epithelia rebuild milk-making tissue, self-organising organoids from stem cells model fetal morphogenesis and even rat-implantable livers, chick embryos culture at 37.5 degrees on watchglasses after 40-42 hours of egg incubation, and organs-on-chips plus bioprinting sketch the future.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Histotypic Organotypic Cultures and Organoids'.",
+     "a": "Add a dimension: one cell type densely in matrix is histotypic, several lineages together is organotypic, and stem-cell organoids self-assemble the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Histotypic Organotypic Cultures and Organoids' taught, and from which source text?",
+     "a": "9.2.3-9.2.6 (source: lebt109.txt sections 9.2.3-9.2.6, Box 3)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

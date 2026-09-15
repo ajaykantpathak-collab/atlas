@@ -1,0 +1,339 @@
+{
+ "catalog": "catalog_class12_home_science_lehe103",
+ "concepts": [
+  {
+   "id": "lehe103.1",
+   "title": "Public Nutrition and Public Health",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Nutrition and Public Health' refers to.",
+     "a": "Public health means organised action by society to guard and better the health of whole populations, and public health nutrition applies that group approach to keeping a population well nourished.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Nutrition and Public Health'.",
+     "a": "The mission is two sided: stop undernutrition and overnutrition together and hold the population at optimal status.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Public Nutrition and Public Health', in plain ASCII form.",
+     "a": "qualitative idea -- population level prevention, not one patient at a time",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.2",
+   "title": "Protein Energy Malnutrition and Growth Failure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protein Energy Malnutrition and Growth Failure' refers to.",
+     "a": "Protein energy malnutrition arises when food energy and protein fall short of needs; it shows up as underweight for age, stunted height for age, or wasted weight for height, with marasmus from energy lack and kwashiorkor from protein lack.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protein Energy Malnutrition and Growth Failure'.",
+     "a": "Children carry the greatest risk, though the elderly and disease patients can also slip into PEM.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Protein Energy Malnutrition and Growth Failure', in plain ASCII form.",
+     "a": "assessment signs -- weight for age, height for age, weight for height",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.3",
+   "title": "Hidden Hunger: Micronutrient Deficiencies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hidden Hunger: Micronutrient Deficiencies' refers to.",
+     "a": "Hidden hunger is the quiet shortage of vitamins and minerals -- iron, zinc, vitamin A, C, D, iodine, folic acid and B12 -- that can ride along even when bellies feel full.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hidden Hunger: Micronutrient Deficiencies'.",
+     "a": "An energy and protein poor diet almost always shortchanges minerals and vitamins too.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hidden Hunger: Micronutrient Deficiencies', in plain ASCII form.",
+     "a": "qualitative idea -- enough energy does not guarantee enough micronutrients",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.4",
+   "title": "Iron Deficiency Anemia",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Iron Deficiency Anemia' refers to.",
+     "a": "Iron deficiency anemia is the commonest nutritional disorder worldwide; shortfalls of iron cut hemoglobin output, so oxygen transport suffers and exertion brings breathlessness, fatigue and visible pallor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Iron Deficiency Anemia'.",
+     "a": "Women of child bearing age, adolescent girls, pregnant women and school children are the most exposed groups; children also lose attention and memory.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Iron Deficiency Anemia', in plain ASCII form.",
+     "a": "qualitative chain -- low iron to low hemoglobin to poor oxygen carry to fatigue",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.5",
+   "title": "Vitamin A Deficiency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Vitamin A Deficiency' refers to.",
+     "a": "Shortage of vitamin A begins as night blindness and, untreated, ends in total loss of sight; the same deficit lowers immunity and slows growth, and infection in turn drains body stores of the vitamin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Vitamin A Deficiency'.",
+     "a": "Vitamin A lack is the leading cause of childhood blindness, and the spiral with infection makes it worse.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Vitamin A Deficiency', in plain ASCII form.",
+     "a": "qualitative cycle -- deficiency to infection to greater losses to deeper deficiency",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.6",
+   "title": "Iodine Deficiency Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Iodine Deficiency Disorders' refers to.",
+     "a": "Living on iodine poor soil, whole populations can lack the iodine the thyroid needs; the resulting spectrum runs from goitre in adults to cretinism and irreversible mental retardation in children born to deficient mothers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Iodine Deficiency Disorders'.",
+     "a": "Iodised salt is the classic fortification answer; Himalayan and peninsular belts carry the highest risk.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Iodine Deficiency Disorders', in plain ASCII form.",
+     "a": "qualitative chain -- iodine poor soil to low thyroid hormone to goitre or cretinism",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.7",
+   "title": "Causes of Undernutrition: Three Levels",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Causes of Undernutrition: Three Levels' refers to.",
+     "a": "Undernutrition is read through three nested layers: immediate causes at the individual (faulty intake and disease), underlying causes at the household (food access, care, water, health services, education), and basic societal causes (resources, political and cultural systems, environment).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Causes of Undernutrition: Three Levels'.",
+     "a": "Poverty and poor sanitation sit upstream; no single fix can break the chain alone.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Causes of Undernutrition: Three Levels', in plain ASCII form.",
+     "a": "causal ladder -- immediate plus underlying plus basic causes produce malnutrition outcomes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.8",
+   "title": "Food-Based versus Nutrient-Based Strategies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food-Based versus Nutrient-Based Strategies' refers to.",
+     "a": "Food based strategies fight deficiency by putting micronutrient rich foods on the plate through diversification, home gardens, education and fortification, while the nutrient based or medicinal route hands out supplements to at risk groups for a short term.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food-Based versus Nutrient-Based Strategies'.",
+     "a": "Supplementation cannot cause toxicity through food, works for every household, and is the long term goal; pills reach fewer people and can be overdosed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Food-Based versus Nutrient-Based Strategies', in plain ASCII form.",
+     "a": "strategy choice -- food based is sustainable and safe, supplements are fast but costly",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.9",
+   "title": "Government Nutrition Programmes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Government Nutrition Programmes' refers to.",
+     "a": "India runs five programme families: ICDS for mother and child care, national deficiency control programmes for vitamin A, anemia and iodine, food supplementation such as the mid day meal, food security through PDS and allied schemes, and employment schemes as social safety nets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Nutrition Programmes'.",
+     "a": "POSHAN Abhiyaan overlays all of these with convergence, targeting stunting, anemia and low birth weight district by district.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Government Nutrition Programmes', in plain ASCII form.",
+     "a": "programme map -- ICDS plus deficiency control plus meal plus food security plus employment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.10",
+   "title": "Three Levels of Health Care",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Three Levels of Health Care' refers to.",
+     "a": "India arranges care in a ladder: primary centres as the first contact for families, district hospitals and community centres as the first referral level, and medical colleges and specialised institutes at the top for the hardest cases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Three Levels of Health Care'.",
+     "a": "Each level handles what the one below cannot; community health centres open the referral chain.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Three Levels of Health Care', in plain ASCII form.",
+     "a": "referral ladder -- primary to secondary to tertiary",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.11",
+   "title": "Low Birth Weight Arithmetic",
+   "questions": [
+    {
+     "q": "Compute the number of low birth weight infants when the birth cohort and the affected fraction are stated. Use the method 'Low Birth Weight Arithmetic'. Work with: lbw_share = 0.45, total_births = 200. Carry the chain through step by step and give the final value of lbw_count.",
+     "a": "90 units",
+     "self_check": false
+    },
+    {
+     "q": "How many of 350 newborns would be predicted to weigh below 2.5 kg if a fifth are affected? Use the method 'Low Birth Weight Arithmetic'. Work with: lbw_share = 0.35, total_births = 60. Carry the chain through step by step and give the final value of lbw_count.",
+     "a": "21 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Low Birth Weight Arithmetic' refers to.",
+     "a": "When a stated fraction of newborns arrive weighing under 2.5 kg, the expected number of low birth weight babies in any birth cohort is that fraction of the total births.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Low Birth Weight Arithmetic'.",
+     "a": "About one Indian infant in five is born under 2.5 kg, a burden that shadows health across the whole life span.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Low Birth Weight Arithmetic', in plain ASCII form.",
+     "a": "lbw_count = total_births * lbw_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.12",
+   "title": "POSHAN District Rollout",
+   "questions": [
+    {
+     "q": "How many districts did POSHAN Abhiyaan take up in its first two years together? Use the method 'POSHAN District Rollout'. Work with: first_year_districts = 500, second_year_districts = 1500. Carry the chain through step by step and give the final value of two_phase_districts.",
+     "a": "2000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total districts covered before the third and final phase of the nutrition mission began. Use the method 'POSHAN District Rollout'. Work with: first_year_districts = 10, second_year_districts = 25. Carry the chain through step by step and give the final value of two_phase_districts.",
+     "a": "35 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'POSHAN District Rollout' refers to.",
+     "a": "POSHAN Abhiyaan phased its district coverage over three years; the combined first two phases come from adding the year one and year two district counts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'POSHAN District Rollout'.",
+     "a": "Year one took 315 districts and year two another 235, with the remainder following in year three.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'POSHAN District Rollout', in plain ASCII form.",
+     "a": "two_phase_districts = first_year_districts + second_year_districts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.13",
+   "title": "Malnutrition Productivity Loss",
+   "questions": [
+    {
+     "q": "Calculate the earnings destroyed when the loss percentage is applied to a stated lifetime income. Use the method 'Malnutrition Productivity Loss'. Work with: earnings_base = 50, loss_pct = 2500. Carry the chain through step by step and give the final value of productivity_loss.",
+     "a": "1250 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the rupee value of output lost when the loss rate and the earnings base are given. Use the method 'Malnutrition Productivity Loss'. Work with: earnings_base = 45, loss_pct = 1200. Carry the chain through step by step and give the final value of productivity_loss.",
+     "a": "540 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Malnutrition Productivity Loss' refers to.",
+     "a": "Economists attach a percentage drag to malnutrition: apply the quoted percent to a person's lifetime earnings, or to the nation's GDP, to price the output that poor nutrition destroys.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Malnutrition Productivity Loss'.",
+     "a": "Losses run past ten percent of individual lifetime earnings and two to three percent of GDP, so fighting malnutrition is an investment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Malnutrition Productivity Loss', in plain ASCII form.",
+     "a": "productivity_loss = lifetime_earnings * loss_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe103.14",
+   "title": "Costing a Supplementary Recipe",
+   "questions": [
+    {
+     "q": "Calculate the per serving cost of a recipe whose ingredients for the whole batch are priced and the serving count is given. Use the method 'Costing a Supplementary Recipe'. Work with: ingredient_a_price = 20000, ingredient_b_price = 80000, ingredient_c_price = 8000, servings = 240. Carry the chain through step by step and give the final value of per_serving_cost.",
+     "a": "450 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the serving cost when three ingredient prices are added and divided across the planned servings. Use the method 'Costing a Supplementary Recipe'. Work with: ingredient_a_price = 12000, ingredient_b_price = 120000, ingredient_c_price = 120000, servings = 18. Carry the chain through step by step and give the final value of per_serving_cost.",
+     "a": "14000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Costing a Supplementary Recipe' refers to.",
+     "a": "A low cost Anganwadi recipe is costed by adding the prices of its ingredients for the full batch and dividing by the number of servings, then checked against the per serving cost limit set by the teacher.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Costing a Supplementary Recipe'.",
+     "a": "Plans target five servings within Rs 5 a serving, so costing decides which recipe gets cooked.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Costing a Supplementary Recipe', in plain ASCII form.",
+     "a": "per_serving_cost = (ingredient_a_price + ingredient_b_price + ingredient_c_price) / servings",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

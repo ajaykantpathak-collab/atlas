@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_055",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_055",
+   "title": "c6_math_ch05_055",
+   "questions": [
+    {
+     "q": "What is the definition of a \"like term\" in an algebraic expression?",
+     "a": "Like terms are terms that have the exact same variable part (e.g., $2y$ and $7y$). A student who says \"all numbers are like terms\" confuses constants with coefficients, failing to recognize that variables define the \"type\" of the term.",
+     "self_check": true
+    },
+    {
+     "q": "Can we simplify $4x + 3y$ into $7xy$? Why or why not?",
+     "a": "No, it cannot be simplified because $x$ and $y$ are different variables. A student who adds them to get $7xy$ or $7$ has failed to understand that variables act as labels that cannot be combined unless they match.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression: $7a - 2b + 3a + 5b$.",
+     "a": "First, group the 'a' terms ($7a + 3a = 10a$) and the 'b' terms ($-2b + 5b = 3b$). The result is $10a + 3b$. A student who calculates $13ab$ or $10a - 3b$ has missed the sign of the constant or attempted to multiply the variables instead of adding the coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Why is $3x + 5$ already in its simplest form?",
+     "a": "It is simplest because one term has a variable ($x$) and the other is a constant ($5$), which are \"unlike\" terms. A student who says \"it equals $8x$\" ignores the difference between a variable term and a standalone constant.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following: $2(x + 4) + 3x$.",
+     "a": "Distribute the $2$ to get $2x + 8$, then add $3x$ to get $5x + 8$. If a student gets $2x + 4 + 3x = 5x + 4$, they have forgotten to multiply the second term inside the parentheses by the coefficient outside.",
+     "self_check": true
+    },
+    {
+     "q": "Create an expression that has three terms, where two are like terms and one is a constant. Then, simplify it.",
+     "a": "An example is $5m + 3 + 2m$. The simplification is $7m + 3$. A poor answer would be $5m + 3 + 2n$, which contains no like terms, showing the student doesn't grasp how to construct a solvable expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

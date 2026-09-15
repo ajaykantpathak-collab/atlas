@@ -1,0 +1,402 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 202,
+ "chapter_title": "Wave Optics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph202.10.2.1",
+   "title": "Huygens Principle and Wavefront Construction",
+   "section": "10.2",
+   "definition": "A wavefront is the locus of points vibrating in step, and Huygens' construction treats every point of it as a source of secondary wavelets whose forward envelope gives the wavefront a moment later.",
+   "formula": "new_front = tangent envelope of wavelets of radius v * t",
+   "key_idea": "The construction rebuilds reflection and refraction geometrically: straightness of rays comes from wavefronts of constant phase.",
+   "textbook_ref": "leph202.txt section 10.2 (secondary wavelets, forward envelope)",
+   "question_patterns": [
+    "explain how Huygens builds the next wavefront from secondary wavelets",
+    "what is a wavefront and why do its points oscillate in phase",
+    "state Huygens principle and use it to sketch a advancing plane wave",
+    "why does the spherical wavefront from a point source look planar far away",
+    "use the wavelet construction to show the incident and reflected angles match",
+    "describe the shape of the wavefront leaving a convex lens with the source at its focus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "seed wavelets on the given front",
+     "explain": "each wavefront point launches a secondary wavelet moving at the wave speed"
+    },
+    {
+     "step": 2,
+     "action": "draw the forward tangent envelope",
+     "explain": "the common tangent of the wavelets is the wavefront at the later time"
+    },
+    {
+     "step": 3,
+     "action": "read off the angle laws",
+     "explain": "the geometry returns equal reflection angles and Snell's sine ratio on refraction"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.3.1.1",
+   "title": "Speed of Light in a Medium",
+   "section": "10.3.1",
+   "definition": "Light moves slower inside a material than in vacuum, and the refractive index is exactly the factor by which the vacuum speed gets cut down.",
+   "formula": "speed_medium = speed_light / refr_index",
+   "key_idea": "Frequency survives refraction unchanged while speed and wavelength drop together.",
+   "textbook_ref": "leph202.txt section 10.3.1 (Eqs. 10.4-10.5 and Exercise 10.3)",
+   "question_patterns": [
+    "glass has refractive index 1.5; how fast does light travel inside it",
+    "find the speed of light in water of index 1.33 given the vacuum speed 3e8 m/s",
+    "calculate the in-medium light speed for a material of refractive index 2.42",
+    "what is the light speed in a medium whose refractive index is 1.63",
+    "determine v inside glass from c = 3e8 m/s and n = 1.5",
+    "compute how much slower light moves in a medium of given refractive index"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the vacuum speed by the refractive index",
+     "explain": "n is defined as c over v, so v is the vacuum speed split by n",
+     "compute": "speed_medium = speed_light / refr_index"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.3.1.2",
+   "title": "Wavelength Change on Refraction",
+   "section": "10.3.1",
+   "definition": "Crossing into a slower medium squeezes the wave: the wavelength scales by the ratio of the two propagation speeds while the frequency stays fixed.",
+   "formula": "lambda_two = lambda_one * speed_two / speed_one",
+   "key_idea": "Crests are produced at a fixed rate, so a slower medium packs them closer together.",
+   "textbook_ref": "leph202.txt section 10.3.1 (Eq. 10.7 and Exercise 10.1)",
+   "question_patterns": [
+    "light of wavelength 589 nm enters water of index 1.33; find the wavelength inside",
+    "calculate the wavelength of light in glass if it is 600 nm in air",
+    "what happens to the wavelength when a wave passes from air into a denser medium",
+    "determine the in-medium wavelength from the vacuum wavelength and the refractive index",
+    "a wave of lambda 500 nm slows to 2e8 m/s from 3e8 m/s; compute the new wavelength",
+    "find how the wavelength of monochromatic light shrinks on entering a medium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale by the speed ratio",
+     "explain": "equal travel times mean the wavelengths follow the speeds, lambda1/lambda2 = v1/v2",
+     "compute": "lambda_two = lambda_one * speed_two / speed_one"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.3.2.1",
+   "title": "Critical Angle Between Two Media",
+   "section": "10.3.2",
+   "definition": "For a wave hitting the boundary with a faster medium, the critical angle is the incidence angle that would refract the ray along the surface; any steeper incidence gives total internal reflection.",
+   "formula": "sine_crit = n_two / n_one",
+   "key_idea": "Refraction dies out beyond the critical angle, so the boundary behaves like a perfect mirror.",
+   "textbook_ref": "leph202.txt section 10.3.2 (Eq. 10.8, total internal reflection)",
+   "question_patterns": [
+    "find the sine of the critical angle when light goes from glass of index 1.5 toward water of index 1.33",
+    "calculate sin of the critical angle for a water-to-air boundary",
+    "what is the critical-angle sine for a pair of media of indices 1.62 and 1.33",
+    "determine n2/n1 for a denser-to-rarer interface and interpret it as the critical sine",
+    "a wave in a medium of index 1.45 meets air; compute its critical angle sine",
+    "work out when a refracted wave disappears and reflection turns total at a boundary"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ratio the two refractive indices",
+     "explain": "Snell's law with a 90 degree refraction angle leaves sin(ic) = n2/n1",
+     "compute": "sine_crit = n_two / n_one"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.4.1",
+   "title": "Coherent and Incoherent Addition of Waves",
+   "section": "10.4",
+   "definition": "Two beams interfere visibly only when they hold a steady phase difference; then amplitudes add and the intensity oscillates between dark and bright, while phase-jittering beams just stack their intensities.",
+   "formula": "I = 4 * I0 * cos(phi/2) ** 2",
+   "key_idea": "Coherence locks maxima and minima in place; incoherent sources wash the pattern into a flat 2 I0 average.",
+   "textbook_ref": "leph202.txt section 10.4 (Eqs. 10.9-10.12, constructive and destructive conditions)",
+   "question_patterns": [
+    "why do two separate sodium lamps fail to show interference fringes",
+    "state the path difference conditions for bright and dark interference bands",
+    "what resultant intensity appears when two equal coherent beams meet in phase",
+    "explain the difference between coherent and incoherent addition of light",
+    "when does superposition of two waves give zero intensity at a point",
+    "how does a changing phase difference destroy a stable fringe pattern"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the amplitudes with their phase",
+     "explain": "the resultant displacement combines the two waves vectorially at each point"
+    },
+    {
+     "step": 2,
+     "action": "read the intensity from the phase gap",
+     "explain": "I = 4 I0 cos-squared of half the phase difference covers maxima and minima"
+    },
+    {
+     "step": 3,
+     "action": "average away the fringes for incoherent beams",
+     "explain": "a phase difference that flips faster than the eye can follow leaves intensities simply adding"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.5.1",
+   "title": "Fringe Spacing in Young's Double Slit",
+   "section": "10.5",
+   "definition": "In Young's arrangement the bright and dark bands sit at equal intervals set by the wavelength, the screen distance and the slit separation.",
+   "formula": "fringe_width = wavelength * screen_dist / slit_sep",
+   "key_idea": "Adjacent bright fringes are one lambda D over d apart, so wider slit gaps crowd the fringes together.",
+   "textbook_ref": "leph202.txt section 10.5 (Eqs. 10.13-10.14, equally spaced fringes)",
+   "question_patterns": [
+    "find the fringe width when slits 0.28 mm apart illuminate a screen 1.4 m away with 600 nm light",
+    "calculate the spacing between adjacent bright fringes in a double slit experiment",
+    "what fringe separation do you get for slit gap d, screen distance D and wavelength lambda",
+    "determine how far the third bright fringe sits from the central one given the fringe width",
+    "a Young's setup uses 500 nm light with the screen 2 m away and slits 0.5 mm apart; compute the fringe spacing",
+    "compute the distance between neighbouring dark bands on a double slit screen"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply wavelength by screen distance",
+     "explain": "the fringe scale grows with both lambda and D",
+     "compute": "scale_term = wavelength * screen_dist"
+    },
+    {
+     "step": 2,
+     "action": "divide by the slit separation",
+     "explain": "spacing between neighbouring bright bands is lambda D over d",
+     "compute": "fringe_width = scale_term / slit_sep"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.5.2",
+   "title": "Wavelength From Fringe Measurements",
+   "section": "10.5",
+   "definition": "Measuring where an order-n bright fringe falls on the screen turns Young's experiment into a wavelength meter: the displacement carries lambda times n D over d.",
+   "formula": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)",
+   "key_idea": "One ruler measurement of fringe position pins down the light's wavelength.",
+   "textbook_ref": "leph202.txt section 10.5 (Exercise 10.4, fourth bright fringe data)",
+   "question_patterns": [
+    "the fourth bright fringe lies 1.2 cm from the centre with slits 0.28 mm apart and the screen 1.4 m away; determine the wavelength",
+    "calculate the wavelength of light from the measured position of the nth bright fringe",
+    "what wavelength produces a given fringe displacement in a Young's double slit run",
+    "find lambda in a double slit experiment from the fringe order, screen distance and slit gap",
+    "determine the light wavelength that fits a recorded set of fringe positions",
+    "compute lambda from double slit data: fringe order, separation and screen distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the order by the screen distance",
+     "explain": "the nth bright fringe sits at x = n lambda D over d",
+     "compute": "order_screen = order_n * screen_dist"
+    },
+    {
+     "step": 2,
+     "action": "move the factors across",
+     "explain": "lambda equals the fringe displacement times d divided by n D",
+     "compute": "wavelength = fringe_gap * slit_sep / order_screen"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.6.1",
+   "title": "Single-Slit Diffraction Minima",
+   "section": "10.6.1",
+   "definition": "Light spread by a narrow slit of width a goes dark in directions where the width covers a whole number of wavelengths, giving minima at angles of n lambda over a.",
+   "formula": "diff_angle = order_n * wavelength / slit_width",
+   "key_idea": "A wider slit squeezes the diffraction pattern toward the straight-through direction.",
+   "textbook_ref": "leph202.txt section 10.6.1 (minima at n lambda over a, secondary maxima in between)",
+   "question_patterns": [
+    "find the angular position of the first minimum for light of 600 nm passing a 0.3 mm slit",
+    "calculate the angle where the second diffraction minimum falls for slit width a and wavelength lambda",
+    "at what angle does a single slit of width 0.2 mm send its third minimum for 500 nm light",
+    "determine the diffraction angle of the first dark band in radians for a narrow slit",
+    "where do the minima of a single slit pattern sit in terms of lambda and the slit width",
+    "compute n lambda over a for the minima directions of a diffracting slit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the order by the wavelength",
+     "explain": "minima satisfy a sin(theta) = n lambda",
+     "compute": "path_term = order_n * wavelength"
+    },
+    {
+     "step": 2,
+     "action": "divide by the slit width",
+     "explain": "for small angles theta in radians equals n lambda over a",
+     "compute": "diff_angle = path_term / slit_width"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.7.1",
+   "title": "Malus Law Transmission",
+   "section": "10.7",
+   "definition": "Polarized light meeting an analyzer keeps the intensity component along the pass axis, so the transmitted beam carries I0 times the square of the axis-angle cosine; a single polaroid halves natural light first.",
+   "formula": "transmitted = intensity_in * cos_axis ** 2",
+   "key_idea": "Crossed polaroids kill the beam while parallel ones pass it fully, with the cosine-squared law filling the angles between.",
+   "textbook_ref": "leph202.txt section 10.7 (Eq. 10.18, Example 10.2)",
+   "question_patterns": [
+    "polarized light of intensity 8 units meets an analyzer whose axis angle has cosine 0.5; find the transmitted intensity",
+    "apply Malus law to get the intensity after an analyzer for a given axis-angle cosine",
+    "what intensity survives when the pass axes of two polaroids make an angle with cosine 0.7",
+    "find the transmitted fraction of a polarized beam at analyzer settings given via cos of the tilt",
+    "compute I0 cos squared for the angle between polarizer and analyzer axes",
+    "determine how much light gets through a second polaroid at a stated axis-angle cosine"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the axis-angle cosine",
+     "explain": "only the pass-axis field component survives, cutting amplitude by cos of the tilt",
+     "compute": "axis_factor = cos_axis ** 2"
+    },
+    {
+     "step": 2,
+     "action": "scale the incoming intensity",
+     "explain": "Malus law multiplies the polarized intensity by the squared cosine",
+     "compute": "transmitted = intensity_in * axis_factor"
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.7.2",
+   "title": "Polarisation and the Polaroid",
+   "section": "10.7",
+   "definition": "Only transverse waves can be polarised: a polaroid's aligned molecules drain the field component along them and hand on the rest, linearly polarised along the pass axis.",
+   "formula": "pass_axis_field = field_in * cos(tilt)",
+   "key_idea": "Polarisation proves light is transverse, since longitudinal sound waves have nothing to filter.",
+   "textbook_ref": "leph202.txt section 10.7 (polaroid pass axis, unpolarised halving, applications)",
+   "question_patterns": [
+    "explain why polarisation shows that light waves are transverse",
+    "what does the pass axis of a polaroid do to unpolarised light",
+    "why is sound never polarised while light can be",
+    "describe what happens when unpolarised light passes one polaroid and then a crossed second",
+    "state how a polaroid converts natural light into plane polarised light",
+    "where do polaroids find use in everyday devices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "absorb one transverse component",
+     "explain": "aligned chain molecules soak up the field along them and leave the pass-axis component"
+    },
+    {
+     "step": 2,
+     "action": "halve the natural beam",
+     "explain": "unpolarised light spreads evenly over directions, so one polaroid transmits about half at any rotation"
+    },
+    {
+     "step": 3,
+     "action": "test with a crossed analyzer",
+     "explain": "rotating a second polaroid from dark to bright confirms the first sheet polarised the beam"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph202_1",
+   "source_ref": "leph202.txt Exercise 10.3 part (a)",
+   "concept": "leph202.10.3.1.1",
+   "question_type": "light_speed_in_medium",
+   "question_pattern": "Glass has refractive index {n}. How fast does light move through it if the vacuum speed is {c} m/s?",
+   "extracted_variables": {"n": 1.5, "c": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "divide c by n", "explain": "v = c/n", "compute": "v_out = c / n"}
+   ]
+  },
+  {
+   "id": "we_leph202_2",
+   "source_ref": "leph202.txt Exercise 10.1 data (589 nm into water)",
+   "concept": "leph202.10.3.1.2",
+   "question_type": "wavelength_in_medium",
+   "question_pattern": "Light of wavelength {lambda_one} m in air enters water of refractive index {n}. The vacuum speed is {c} m/s; find the refracted wavelength in metres.",
+   "extracted_variables": {"lambda_one": 5.89e-07, "n": 1.33, "c": 3.0e+08},
+   "solution_template": [
+    {"step": 1, "action": "speed inside water", "explain": "v2 = c/n", "compute": "speed_two = c / n"},
+    {"step": 2, "action": "scale the wavelength by the speed ratio", "explain": "lambda2 = lambda1 times v2 over c", "compute": "lambda_two = lambda_one * speed_two / c"}
+   ]
+  },
+  {
+   "id": "we_leph202_3",
+   "source_ref": "leph202.txt Exercise 10.4 data",
+   "concept": "leph202.10.5.2",
+   "question_type": "wavelength_from_fringes",
+   "question_pattern": "In a double slit run the slits sit {d} m apart and the screen {D} m away. The {n}th bright fringe lies {x} m from the centre. What is the wavelength?",
+   "extracted_variables": {"d": 0.00028, "D": 1.4, "n": 4, "x": 0.012},
+   "solution_template": [
+    {"step": 1, "action": "multiply order by screen distance", "explain": "n D appears in the denominator", "compute": "order_screen = n * D"},
+    {"step": 2, "action": "rearrange for lambda", "explain": "lambda = x d over n D", "compute": "wavelength = x * d / order_screen"}
+   ]
+  },
+  {
+   "id": "we_leph202_4",
+   "source_ref": "leph202.txt section 10.6.1 single slit data (generic values)",
+   "concept": "leph202.10.6.1",
+   "question_type": "diffraction_minimum_angle",
+   "question_pattern": "Light of wavelength {lam} m passes a slit of width {a} m. At what angle in radians does the {n}th minimum appear?",
+   "extracted_variables": {"lam": 5e-07, "a": 0.0002, "n": 2},
+   "solution_template": [
+    {"step": 1, "action": "multiply order by wavelength", "explain": "a sin(theta) = n lambda", "compute": "path_term = n * lam"},
+    {"step": 2, "action": "divide by slit width", "explain": "small-angle radians", "compute": "theta_min = path_term / a"}
+   ]
+  },
+  {
+   "id": "we_leph202_5",
+   "source_ref": "leph202.txt section 10.7 Malus law (generic values)",
+   "concept": "leph202.10.7.1",
+   "question_type": "malus_transmission",
+   "question_pattern": "A polarized beam of intensity {i0} units reaches an analyzer whose axis tilt has cosine {c}. What intensity leaves the analyzer?",
+   "extracted_variables": {"i0": 8, "c": 0.5},
+   "solution_template": [
+    {"step": 1, "action": "square the cosine", "explain": "Malus law factor", "compute": "axis_factor = c ** 2"},
+    {"step": 2, "action": "scale the intensity", "explain": "transmitted = i0 times the factor", "compute": "i_out = i0 * axis_factor"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph202_10_1_to_10_3",
+   "source_ref": "leph202.txt end-of-chapter exercises 10.1-10.3",
+   "questions": [
+    "Light of 589 nm travels from air onto water of index 1.33; what wavelength, frequency and speed do the reflected and the refracted beams carry?",
+    "Name the wavefront shape when light (a) spreads from a point source, (b) exits a convex lens with a point source at its focus, (c) arrives from a distant star and meets the Earth.",
+    "With glass at index 1.5 and c = 3e8 m/s, how fast is light inside the glass, and does red or violet move slower in a prism?"
+   ]
+  },
+  {
+   "id": "ex_leph202_10_4_to_10_6",
+   "source_ref": "leph202.txt end-of-chapter exercises 10.4-10.6",
+   "questions": [
+    "Slits 0.28 mm apart light a screen 1.4 m away; the fourth bright fringe sits 1.2 cm from the central one. What wavelength fits the data?",
+    "In a double slit experiment the intensity where the path difference equals one wavelength is K units; what intensity appears where the path difference is a third of a wavelength?",
+    "Two wavelengths, 650 nm and 520 nm, run through one double slit setup; find the smallest order at which a bright fringe of each lands on the same spot."
+   ]
+  }
+ ]
+}

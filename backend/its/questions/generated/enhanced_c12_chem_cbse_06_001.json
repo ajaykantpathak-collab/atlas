@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_001",
+   "title": "c12_chem_cbse_06_001",
+   "questions": [
+    {
+     "q": "Draw the structure of 2-bromo-2-methylbutane and state whether it is a primary, secondary, or tertiary haloalkane. Justify your answer by identifying the substitution of the carbon bearing bromine.",
+     "a": "2-Bromo-2-methylbutane has the structure CH₃–C(Br)(CH₃)–CH₂–CH₃. The carbon bearing bromine is bonded to three other carbon atoms (one CH₃, one CH₃, and one CH₂CH₃), making it a tertiary (3°) carbon; hence the compound is a tertiary haloalkane. A wrong answer (e.g., calling it secondary) reveals the student is counting total carbons in the chain instead of counting carbons directly attached to the C–Br carbon.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why CH₂=CH–Cl (chloroethene) is classified as a vinylic halide and not a primary haloalkane, even though the halogen-bearing carbon appears to be attached to only one other carbon.",
+     "a": "In chloroethene, the carbon bearing chlorine is sp²-hybridised (part of a C=C double bond), so the C–Cl bond has partial double-bond character and the compound falls under \"compounds containing sp² C–X bond\" (vinylic halide), not under alkyl halides which require sp³-hybridised carbon. A student who calls it primary haloalkane is ignoring hybridisation and applying only the carbon-counting rule, which is valid only for sp³ systems.",
+     "self_check": true
+    },
+    {
+     "q": "Given the molecular formula C₅H₁₁Br, draw all structural isomers that are primary bromides. Name each using IUPAC nomenclature.",
+     "a": "Primary bromides (C–Br on a 1° carbon) for C₅H₁₁Br:\n1. CH₃CH₂CH₂CH₂CH₂Br → 1-bromopentane\n2. (CH₃)₂CHCH₂CH₂Br → 1-bromo-3-methylbutane\n3. CH₃CH₂CH(CH₃)CH₂Br → 1-bromo-2-methylbutane\n4. (CH₃)₃CCH₂Br → 1-bromo-2,2-dimethylpropane\nA missing isomer or incorrect name indicates the student cannot systematically generate carbon skeletons or misidentifies the carbon bearing Br as primary when it is actually secondary (e.g., drawing CH₃CH₂CH₂CHBrCH₃).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the C–Br bond in (CH₃)₃CBr (tert-butyl bromide) and C₆H₅CH₂Br (benzyl bromide). Both are on sp³ carbons, yet their reactivity in SN1 reactions differs. Analyse the structural reason.",
+     "a": "Both have sp³ C–Br bonds, but tert-butyl bromide forms a tertiary carbocation (CH₃)₃C⁺ stabilised by three electron-donating methyl groups (+I effect), while benzyl bromide forms a benzylic carbocation C₆H₅CH₂⁺ stabilised by resonance delocalisation of the positive charge into the aromatic ring. Resonance stabilisation is stronger than inductive stabilisation, so benzyl bromide undergoes SN1 faster despite being primary. A student who says \"both are equally reactive\" or \"tert-butyl is faster because it's tertiary\" misses the resonance stabilisation unique to benzylic systems.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All haloalkanes with formula C₄H₉Cl are primary because butane has only primary and secondary carbons.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. C₄H₉Cl has four structural isomers: 1-chlorobutane (primary), 2-chlorobutane (secondary), 1-chloro-2-methylpropane (primary), and 2-chloro-2-methylpropane (tertiary). The tertiary isomer exists because the branched skeleton (CH₃)₃C–Cl places chlorine on a carbon bonded to three other carbons. The student incorrectly assumes the carbon skeleton must be linear n-butane; they forgot to consider branched isomers from Class 10 isomerism (c10_chem_cbse_04_005).",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick laboratory test to distinguish between 1-bromopropane (primary) and 2-bromo-2-methylpropane (tertiary) using only aqueous AgNO₃ and ethanol. Predict the observations and explain the underlying principle.",
+     "a": "Add each halide to warm ethanolic AgNO₃. 2-bromo-2-methylpropane (tertiary) reacts rapidly via SN1, forming a cream precipitate of AgBr within minutes because the stable tertiary carbocation forms easily. 1-bromopropane (primary) reacts very slowly or not at all at room temperature because SN1 is unfavourable (unstable primary carbocation) and SN2 is hindered by the weakly nucleophilic ethanol/Ag⁺ medium. A poor answer would suggest both give immediate precipitate or confuse the test with NaI/acetone (Finkelstein), showing misunderstanding of SN1 vs SN2 conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

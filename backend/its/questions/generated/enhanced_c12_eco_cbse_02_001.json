@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_001",
+   "title": "c12_eco_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define Marginal Utility and state its formula in terms of Total Utility.",
+     "a": "Marginal Utility (MU) is the additional utility gained from consuming one more unit of a good. Formula: MUₙ = TUₙ – TUₙ₋₁ (for discrete units) or MU = d(TU)/dQ (continuous). A wrong answer such as \"MU is the total utility divided by quantity\" reveals confusion between average and marginal concepts — a critical error that leads to incorrect consumer-equilibrium conditions later.",
+     "self_check": true
+    },
+    {
+     "q": "If Total Utility from consuming 3 units of a good is 48 utils and from 4 units is 56 utils, what is the Marginal Utility of the 4th unit? Explain why this MU cannot be obtained by dividing TU by quantity.",
+     "a": "MU of 4th unit = TU₄ – TU₃ = 56 – 48 = 8 utils. Dividing TU by quantity gives Average Utility (AU), not MU. MU measures the *incremental* change, while AU measures the *per-unit average*. Confusing the two is a common board-exam error; for example, students might write \"MU = TU/Q\" and then incorrectly derive the demand curve.",
+     "self_check": true
+    },
+    {
+     "q": "Given the TU schedule: Q=1 TU=10, Q=2 TU=18, Q=3 TU=24, Q=4 TU=28, Q=5 TU=30, Q=6 TU=30, Q=7 TU=28. Calculate MU for each unit and determine at which quantity TU is maximum.",
+     "a": "MU: 1st=10, 2nd=8, 3rd=6, 4th=4, 5th=2, 6th=0, 7th=-2. TU is maximum at Q=5 and Q=6 (both 30 utils), where MU=0. A student who says TU max at Q=5 only misses that TU stays constant when MU=0; this affects the \"satiety point\" concept in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer says: \"I stop eating pizza when my Total Utility starts falling.\" Using the TU-MU relationship, explain why this statement is economically imprecise. At what point *should* a rational consumer stop if pizza is free?",
+     "a": "TU falls only when MU becomes negative. A rational consumer stops at the point where MU = 0 (maximum TU), not when TU starts falling, because consuming the unit that makes MU negative *reduces* total satisfaction. If pizza is free, the consumer stops at the satiety point (MU=0). Saying \"when TU starts falling\" implies they already consumed a unit with negative MU, which is irrational. This confusion appears in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since the first unit of a good gives the highest Marginal Utility, a consumer should buy only one unit to maximise satisfaction.\" Use the concept of Total Utility.",
+     "a": "The statement confuses maximising *marginal* utility with maximising *total* utility. While MU is highest for the first unit, TU keeps increasing as long as MU > 0. Buying only one unit yields TU = MU₁, but consuming up to MU=0 yields a larger TU (sum of all positive MUs). Rational consumers maximise TU, not MU. This misconception leads to wrong answers in \"consumer surplus\" calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical TU schedule for a good (at least 7 units) where MU diminishes but remains positive throughout, and TU never reaches a maximum within the given range. Explain whether this violates the Law of Diminishing Marginal Utility.",
+     "a": "Example: TU = 10, 19, 27, 34, 40, 45, 49 → MU = 10, 9, 8, 7, 6, 5, 4 (all positive, diminishing). TU is still rising at Q=7, so maximum is not reached. This does *not* violate the Law of Diminishing MU, which only requires MU to decline; it does not require MU to become zero or negative within the observed range. A student who claims it violates the law misunderstands the law's scope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

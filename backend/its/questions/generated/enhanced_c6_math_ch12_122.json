@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch12_122",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch12_122",
+   "title": "c6_math_ch12_122",
+   "questions": [
+    {
+     "q": "If 1 square is made with 4 matchsticks, how many matchsticks are needed to make 2 squares joined side-by-side?",
+     "a": "7 matchsticks. An incorrect answer like 8 reveals the student is not observing that the squares share a common side (4+4-1=7).",
+     "self_check": true
+    },
+    {
+     "q": "Why do we call the numbers 1, 3, 6, 10 \"triangular numbers\"?",
+     "a": "Because dots representing these numbers can be arranged to form an equilateral triangle. An incorrect answer suggests the student is ignoring the visual representation and only looking at the number sequence itself.",
+     "self_check": true
+    },
+    {
+     "q": "A pattern starts with 1 triangle (3 sides), then 2 triangles joined (5 sides), then 3 triangles joined (7 sides). How many sides will 5 triangles have?",
+     "a": "11 sides. The pattern adds 2 sides for each new triangle added to the chain (3, 5, 7, 9, 11). If a student says 15, they are ignoring the shared side and simply multiplying 5 triangles by 3 sides.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequence of square numbers (1, 4, 9, 16) with the sequence of counting numbers (1, 2, 3, 4). How does the visual shape of the square change as the number increases?",
+     "a": "The square grows in both width and height by adding a new \"layer\" of dots on two sides. A student who misses this fails to see that square numbers represent an area, whereas counting numbers represent a simple line or length.",
+     "self_check": true
+    },
+    {
+     "q": "If you are told that 36 is both a triangular number and a square number, does this mean the shapes are identical? Justify your answer.",
+     "a": "No, it means the *quantity* of dots is the same, but the *arrangement* is different—one forms a triangle and one forms a square. A student who says \"yes\" does not understand that geometry is about the relationship between shape and number, not just the number itself.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own geometric pattern using circles. Draw the first three steps and explain your rule.",
+     "a": "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

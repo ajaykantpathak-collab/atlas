@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch4_14",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch4_14",
+   "title": "c8_engl_ch4_14",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme of a 4-line stanza where lines 1 and 3 rhyme, and lines 2 and 4 rhyme?",
+     "a": "The rhyme scheme is abab — alternating rhyme. Lines 1 and 3 share the \"a\" sound, lines 2 and 4 share the \"b\" sound. This pattern creates a sense of interplay or tension because the rhyming lines are separated by non-rhyming lines, building anticipation. A wrong answer like \"aabb\" confuses alternating with paired rhyme, revealing the student has not tracked which lines actually rhyme.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a poet choose aabb (couplet rhyme) for a poem about steady, healthy growth?",
+     "a": "Couplet rhyme (aabb) pairs lines into units of two, creating a sense of balance, harmony, and steady progression — each pair completes a thought, like each stage of growth completes a phase. The regularity mirrors the predictability of healthy growth: seed, sprout, leaves, fruit. A wrong answer like \"it sounds nice\" misses the structural reasoning: the rhyme scheme is chosen to reflect content, not merely for musicality.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Cherry Tree,\" if stanza 3 breaks the established rhyme scheme (e.g., from aabb to abcb), what might this signal about the tree's experience?",
+     "a": "A break in rhyme scheme signals a disruption — the tree faces an obstacle (storm, drought, pest) that interrupts its steady growth. The shift from paired (aabb) to unpaired (abcb) creates a sense of unease or incompleteness, mirroring the tree's struggle. When the rhyme scheme returns to regular in the next stanza, it signals recovery. A wrong answer that says \"the poet made a mistake\" reveals the student treats rhyme as decoration rather than as a structural signal of meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the rhyme scheme of these four lines: \"The seed was small / It had no name / Through stony ground / It grew the same.\"",
+     "a": "\"Small\" and \"ground\" do not rhyme. \"Name\" and \"same\" rhyme. So the pattern is: line 1 (small) = a, line 2 (name) = b, line 3 (ground) = c, line 4 (same) = b. The rhyme scheme is abcb — only lines 2 and 4 rhyme. This is the ballad stanza pattern, which creates a folk-like, narrative quality. A wrong answer of \"aabb\" reveals the student did not actually test which end-words rhyme.",
+     "self_check": true
+    },
+    {
+     "q": "How does stanza length (number of lines per stanza) contribute to the poem's pacing in a growth poem?",
+     "a": "Short stanzas (2-3 lines) create a sense of slow, deliberate growth — each stanza is a small step, mirroring the tree's gradual development. Longer stanzas (6-8 lines) create a sense of rapid, abundant growth — many things happen at once, mirroring a burst of growth. If the poem moves from short to long stanzas, it mirrors acceleration of growth; if it moves from long to short, it mirrors slowing or struggle. A wrong answer that ignores stanza length reveals the student analyzes only rhyme, missing that structure includes line count and stanza shape.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rhyme scheme of \"The Cherry Tree\" with a poem you studied in Class 7. How does each poem's rhyme scheme reflect its subject?",
+     "a": "A strong answer identifies both schemes and connects each to its subject. For example: \"The Cherry Tree\" uses aabb (paired) to mirror steady growth, while a Class 7 adventure poem might use abab (alternating) to mirror the tension of a journey. The comparison must show that rhyme scheme is not arbitrary — it is chosen to reflect the poem's emotional arc. A weak answer that only lists the schemes without connecting them to subject reveals the student can identify structure but cannot interpret its function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

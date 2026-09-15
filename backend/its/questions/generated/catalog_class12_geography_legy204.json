@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy204",
+  "concepts": [
+    {
+      "id": "legy.204.1",
+      "questions": [
+        {"q": "India holds about what per cent of the world's surface area? (give the per cent)", "a": "2.45"},
+        {"q": "India holds about what per cent of the world's water resources? (give the per cent)", "a": "4"},
+        {"q": "India holds about what per cent of the world's population? (give the per cent)", "a": "17"},
+        {"q": "A country with 17 per cent of world population and 4 per cent of water has a pressure index of 17 divided by 4. What is it? (number)", "a": "4.25"},
+        {"q": "Per capita water availability in India is below or above the world average? (one word)", "a": "below"},
+        {"q": "As population grows, per capita water availability falls or rises? (one word)", "a": "falls"},
+        {"q": "Which share is larger for India: its share of world area or of world population? (two words)", "a": "world population"}
+      ]
+    },
+    {
+      "id": "legy.204.2",
+      "questions": [
+        {"q": "Which sector is the largest claimant of India's water demand? (one word)", "a": "agriculture"},
+        {"q": "Conflicts between two states over a river's water are called inter-state river what? (one word)", "a": "disputes"},
+        {"q": "How many claimants on water are listed (agriculture, domestic use, industries, power)? (number)", "a": "4"},
+        {"q": "Why is water allocation politically charged: demand is rising or static? (one word)", "a": "rising"},
+        {"q": "Which instrument of policy, beside allocation, can curb water waste? (one word)", "a": "pricing"},
+        {"q": "Which use of water, farming or household, takes the bulk of demand? (one word)", "a": "farming"},
+        {"q": "Disputes over water arise among riparian what? (one word)", "a": "states"}
+      ]
+    },
+    {
+      "id": "legy.204.3",
+      "questions": [
+        {"q": "Which unit of land, a drainage basin, does watershed management treat as a whole? (two words)", "a": "drainage basin"},
+        {"q": "Which small obstruction across streams stores runoff for recharge? (two words)", "a": "check dams"},
+        {"q": "Rooftop capture of rain for later use is called rainwater what? (one word)", "a": "harvesting"},
+        {"q": "Which voluntary organisation's community water work in Alwar district became famous? (three words)", "a": "Tarun Bharat Sangh"},
+        {"q": "Which Indian state made rooftop rainwater harvesting compulsory by law? (one word)", "a": "Tamil Nadu"},
+        {"q": "Which bunding practice conserves soil and water along slope contours? (two words)", "a": "contour bunds"},
+        {"q": "Vegetation in a watershed helps conserve what two resources? (two words)", "a": "soil, water"}
+      ]
+    },
+    {
+      "id": "legy.204.4",
+      "questions": [
+        {"q": "Treating industrial effluents for reuse is called water what? (one word)", "a": "recycling"},
+        {"q": "Pricing water properly aims to curb what behaviour? (one word)", "a": "waste"},
+        {"q": "Is saving a unit of demand cheaper or costlier than building a new supply project? (one word)", "a": "cheaper"},
+        {"q": "Sewage after treatment can be reused for what purpose? (one word)", "a": "irrigation"},
+        {"q": "Reviving which traditional water structures conserves local supply? (one word)", "a": "tanks"},
+        {"q": "Water conservation extends supply by cutting what? (one word)", "a": "demand"},
+        {"q": "Recycled water from industry is best used for drinking or for non-drinking purposes? (short phrase)", "a": "non-drinking purposes"}
+      ]
+    }
+  ]
+}

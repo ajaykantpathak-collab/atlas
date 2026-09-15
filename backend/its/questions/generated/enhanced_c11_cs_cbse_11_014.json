@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_014",
+   "title": "c11_cs_cbse_11_014",
+   "questions": [
+    {
+     "q": "What is the key difference between an active digital footprint and a passive digital footprint?",
+     "a": "Active digital footprints are created intentionally by the user (e.g., posting on social media, sending emails), while passive digital footprints are generated unintentionally (e.g., browser cookies, IP logging, location tracking). A wrong answer that confuses the two (e.g., saying cookies are active) reveals the student does not understand that passive footprints are collected without deliberate user action, which is critical for realizing how much data is gathered silently.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"thinking before uploading\" is a core social-media etiquette, and give one consequence of ignoring it.",
+     "a": "Once uploaded, content persists on remote servers even if deleted from the user's profile; it can be copied, forwarded, or archived by others. Ignoring this can lead to privacy breaches, reputational damage, or misuse of personal images (as in the NCERT example where a deleted photo was forwarded by a friend). A wrong answer that claims deletion removes data permanently shows the misconception that users have full control over posted content, underestimating the permanence of digital footprints.",
+     "self_check": true
+    },
+    {
+     "q": "You receive an email from \"support@paytm-services.com\" asking you to confirm your UPI PIN by clicking a link. The email uses the Paytm logo and urgent language. Apply safe-browsing practices to decide your actions step by step.",
+     "a": "Step 1: Do not click the link. Step 2: Hover to see the actual URL – it likely redirects to a fake domain. Step 3: Check for HTTPS and correct domain (paytm.com, not paytm-services.com). Step 4: Verify independently by opening the official Paytm app or website directly. Step 5: Report the email as phishing/spam and delete it. A wrong answer that suggests clicking to \"check if it's real\" reveals failure to apply the principle of never trusting unsolicited credential requests, a core phishing defence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare plagiarism and copyright infringement. Provide a scenario where an action is plagiarism but not copyright infringement, and vice versa.",
+     "a": "Plagiarism is presenting someone else's work/idea as your own without attribution (ethical offense); copyright infringement is using a copyrighted work without permission/license (legal offense). Scenario A: Copying a public-domain poem into your project without citing the author – plagiarism but not copyright infringement. Scenario B: Using a copyrighted photograph in a school project with proper citation but without the photographer's permission – copyright infringement but not plagiarism. A wrong answer that treats them as identical shows the student misses the ethical vs. legal distinction crucial for digital citizenship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Using a strong password is sufficient to keep your social media account completely secure.\" Justify your evaluation with at least two additional security measures.",
+     "a": "The statement is false. A strong password is necessary but not sufficient. Additional measures: (1) Enable two-factor authentication (2FA) so a stolen password alone cannot grant access. (2) Avoid logging in on shared/public devices without private browsing and always log out. (3) Be wary of phishing links that steal credentials even if the password is strong. A wrong answer that agrees reveals over-reliance on a single factor, ignoring layered security (defence in depth) taught in cyber safety.",
+     "self_check": true
+    },
+    {
+     "q": "Create a personal \"Digital Citizenship Pledge\" of five rules you will follow, each linked to a specific concept from this chapter (e.g., netiquette, IPR, cyber law, health).",
+     "a": "Example pledge: 1) I will verify URLs and use HTTPS before entering credentials (phishing prevention). 2) I will cite sources for any text/media I use (avoid plagiarism/copyright infringement). 3) I will not forward unverified news or post hurtful comments (netiquette, anti-cyberbullying). 4) I will use unique passwords and 2FA for all accounts (credential security). 5) I will maintain ergonomic posture and take screen breaks every 40 minutes (health/ergonomics). A poor answer that lists generic rules without linking to chapter concepts shows the student cannot synthesize the diverse topics into a coherent personal practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

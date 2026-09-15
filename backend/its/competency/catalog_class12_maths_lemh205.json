@@ -1,0 +1,307 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 205,
+  "chapter_title": "Three Dimensional Geometry",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh205.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "zcode author-first draft; gate-validated",
+  "concepts": [
+    {
+      "id": "lemh.205.11.2.1",
+      "title": "Direction Cosines and Their Identity",
+      "section": "11.2",
+      "definition": "The cosines of the angles a directed line makes with the positive x, y and z axes are its direction cosines; their squares always total one, and any proportional triple of numbers serves as direction ratios.",
+      "formula": "l**2 + m**2 + n**2 = 1 for direction cosines l, m, n",
+      "key_idea": "Direction cosines carry the line's orientation and satisfy a unit-square identity.",
+      "textbook_ref": "lemh205.txt section 11.2 and example 1 (lines ~23-221)",
+      "question_patterns": [
+        "find the direction cosines of the line making the given angles with the axes",
+        "verify that the sum of the squares of the direction cosines is one",
+        "explain the difference between direction cosines and direction ratios",
+        "determine l, m and n for the directed line with the given direction angles",
+        "why do reversing the direction of a line change the signs of the cosines",
+        "state the identity that the direction cosines of every line obey"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Take cosines of the three direction angles", "explain": "These are l, m and n for the directed line."},
+        {"step": 2, "action": "Check the unit-square identity when validating", "explain": "Squaring and adding the three cosines must give one."},
+        {"step": 3, "action": "Convert ratios to cosines by normalising", "explain": "Divide each ratio by the square root of the sum of ratio squares."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.2.2",
+      "title": "Direction Cosines of the Line Through Two Points",
+      "section": "11.2.1",
+      "definition": "For the line joining two points, each direction cosine equals the corresponding coordinate difference divided by the distance between the points; the differences themselves are direction ratios.",
+      "formula": "direction cosines = (x2 - x1)/pq_dist, (y2 - y1)/pq_dist, (z2 - z1)/pq_dist where pq_dist is the point separation",
+      "key_idea": "Difference the coordinates, then divide each difference by the separation.",
+      "textbook_ref": "lemh205.txt section 11.2.1 and example 3 (lines ~128-385)",
+      "question_patterns": [
+        "find the direction cosines of the line passing through the two given points",
+        "determine l, m and n for the segment joining P and Q",
+        "divide the coordinate differences by the distance to get the cosines",
+        "what are the direction ratios of the line through the two points",
+        "obtain the orientation cosines of the line joining the given coordinates",
+        "show that the coordinate differences of two points are direction ratios"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Subtract the coordinates terminal minus initial", "explain": "The three differences are the direction ratios."},
+        {"step": 2, "action": "Compute the distance between the points", "explain": "The square root of the sum of squared differences normalises them."},
+        {"step": 3, "action": "Divide each difference by that distance", "explain": "The three quotients are the direction cosines."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.3.1",
+      "title": "Vector Equation of a Line Through a Point and Parallel to a Vector",
+      "section": "11.3.1",
+      "definition": "A line is pinned down by one fixed point on it and one direction vector; every point of the line has position vector equal to the fixed point's vector plus a scalar multiple of the direction vector.",
+      "formula": "r = a_vector + lambda_param * b_vector",
+      "key_idea": "One anchor plus a scalable direction sweeps the whole line.",
+      "textbook_ref": "lemh205.txt section 11.3.1 and example 6 (lines ~398-545)",
+      "question_patterns": [
+        "find the vector equation of the line through the given point and parallel to the given vector",
+        "write the line's equation in the form r equals a plus lambda b",
+        "describe all points of the line with a position vector formula",
+        "what does the parameter lambda represent on the line",
+        "obtain the vector equation from a point and a direction",
+        "identify the anchor vector and the direction vector in the line equation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the position vector of the given point", "explain": "This anchors the line."},
+        {"step": 2, "action": "Name the parallel vector as the direction", "explain": "Multiples of it step along the line."},
+        {"step": 3, "action": "Write anchor plus parameter times direction", "explain": "Varying the real parameter traces every point of the line."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.3.2",
+      "title": "Cartesian Equation of a Line from Direction Ratios",
+      "section": "11.3.2",
+      "definition": "In coordinates the same line reads as three equal ratios: each coordinate minus its anchor value, divided by the matching direction ratio; unequal zero components drop their fraction and become separate equations.",
+      "formula": "(x - x1)/dir_a = (y - y1)/dir_b = (z - z1)/dir_c",
+      "key_idea": "Equal ratios of shifted coordinates over direction numbers encode the line.",
+      "textbook_ref": "lemh205.txt section 11.3.2 (lines ~470-684)",
+      "question_patterns": [
+        "find the cartesian equation of the line through the given point with the given direction ratios",
+        "write the line as three equal fractions of shifted coordinates",
+        "convert the vector equation of a line into cartesian form",
+        "what happens to the cartesian form when one direction ratio is zero",
+        "read off the point and the direction from the symmetric equation",
+        "state the coordinate form of the line parallel to the given direction vector"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Read the anchor coordinates and the direction ratios", "explain": "They fill the numerators and denominators."},
+        {"step": 2, "action": "Form the three equal shifted ratios", "explain": "Each coordinate enters as coordinate minus anchor over ratio."},
+        {"step": 3, "action": "Handle zero denominators by dropping that fraction", "explain": "A zero ratio fixes that coordinate as a separate equation."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.3.3",
+      "title": "Line Passing Through Two Given Points",
+      "section": "11.3.3",
+      "definition": "Two points fix a line: subtract their position vectors to obtain the direction, anchor at either point, and the vector equation follows; in coordinates the equal-ratio form uses the coordinate differences.",
+      "formula": "r = a1_vector + lambda_param * (a2_vector - a1_vector)",
+      "key_idea": "The difference of the two position vectors serves as the direction.",
+      "textbook_ref": "lemh205.txt section 11.3.3 (lines ~600-684)",
+      "question_patterns": [
+        "find the vector equation of the line through the two given points",
+        "obtain the line's equation joining the given coordinates",
+        "use the difference of position vectors as the direction of the line",
+        "write the cartesian equation of the line through two points",
+        "which vector plays the direction role when two points are given",
+        "parametrise the segment between the two points with a parameter"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Subtract one position vector from the other", "explain": "The difference is a direction vector of the line."},
+        {"step": 2, "action": "Anchor the equation at either point", "explain": "Either position vector serves as the fixed part."},
+        {"step": 3, "action": "Write anchor plus parameter times the difference", "explain": "Parameter values between 0 and 1 fill the segment."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.4.1",
+      "title": "Cosine of the Angle Between Two Lines",
+      "section": "11.4",
+      "definition": "The acute angle between two lines is computed from their direction vectors exactly as for vectors: the dot product divided by the product of the magnitudes gives the cosine of the angle.",
+      "formula": "cos(theta) = (dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z) / (line_mag1 * line_mag2)",
+      "key_idea": "Angle between lines reduces to angle between their direction vectors.",
+      "textbook_ref": "lemh205.txt section 11.4 and examples 7-8 (lines ~685-1328)",
+      "question_patterns": [
+        "find the angle between the pair of lines with the given direction ratios",
+        "compute the cosine of the angle between the two lines from their direction vectors",
+        "evaluate the dot product of the direction vectors over the magnitudes for the angle",
+        "determine the acute angle between the lines in cartesian form",
+        "what does the dot product of direction vectors give for the angle",
+        "calculate the angle between the line equations given in vector form"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Dot the two direction triples", "explain": "Matching direction components multiply and add.", "compute": "dir_dot = dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z"},
+        {"step": 2, "action": "Magnitude of the first direction vector", "explain": "Square, add and square root its components.", "compute": "line_mag1 = sqrt(dir1_x**2 + dir1_y**2 + dir1_z**2)"},
+        {"step": 3, "action": "Magnitude of the second direction vector", "explain": "Same rule for the second line.", "compute": "line_mag2 = sqrt(dir2_x**2 + dir2_y**2 + dir2_z**2)"},
+        {"step": 4, "action": "Divide the dot product by the magnitude product", "explain": "The quotient is the cosine of the angle between the lines.", "compute": "angle_cos = dir_dot / (line_mag1 * line_mag2)"}
+      ]
+    },
+    {
+      "id": "lemh.205.11.4.2",
+      "title": "Perpendicular and Parallel Lines from Direction Ratios",
+      "section": "11.4",
+      "definition": "Two lines are perpendicular exactly when the dot product of their direction ratios vanishes, and parallel exactly when their direction ratios are proportional; both tests are component checks.",
+      "formula": "perpendicular when dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z = 0",
+      "key_idea": "Dot zero means right angle; proportional ratios mean parallel lines.",
+      "textbook_ref": "lemh205.txt section 11.4 observations (lines ~700-780)",
+      "question_patterns": [
+        "show that the two lines are perpendicular using their direction ratios",
+        "check whether the given lines are parallel or perpendicular",
+        "verify the proportional direction ratios of the parallel lines",
+        "test the dot product of the direction vectors for a right angle",
+        "decide the relationship between the two lines from their direction numbers",
+        "find when the lines with the given ratios intersect at a right angle"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Dot the direction triples", "explain": "Multiply matching ratios and add."},
+        {"step": 2, "action": "Compare ratios for proportionality", "explain": "Equal cross products of ratios signal parallel lines."},
+        {"step": 3, "action": "State perpendicular or parallel from the tests", "explain": "Zero dot gives perpendicular; proportionality gives parallel."}
+      ]
+    },
+    {
+      "id": "lemh.205.11.5.1",
+      "title": "Shortest Distance Between Two Skew Lines",
+      "section": "11.5.1",
+      "definition": "Skew lines share no plane, so a unique segment meets both at right angles; its length equals the absolute value of the join of the two anchor points dotted with the unit normal obtained from the cross product of the two direction vectors.",
+      "formula": "skew distance = abs(join_vector . (b1_vector x b2_vector)) / magnitude(b1_vector x b2_vector)",
+      "key_idea": "Project the anchor-to-anchor join onto the common perpendicular direction.",
+      "textbook_ref": "lemh205.txt section 11.5.1 and example 9 (lines ~1329-1623)",
+      "question_patterns": [
+        "find the shortest distance between the two skew lines with the given equations",
+        "compute the common perpendicular length between the lines in vector form",
+        "project the join of the anchor points along the cross product of the directions",
+        "evaluate the shortest distance using the cross product of the direction vectors",
+        "how far apart are the two non intersecting non parallel lines",
+        "obtain the distance between skew lines given their point and direction vectors"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Cross product of the two direction vectors, x-component", "explain": "dir1_y*dir2_z minus dir1_z*dir2_y.", "compute": "cross_x = dir1_y*dir2_z - dir1_z*dir2_y"},
+        {"step": 2, "action": "Cross product y-component", "explain": "dir1_z*dir2_x minus dir1_x*dir2_z.", "compute": "cross_y = dir1_z*dir2_x - dir1_x*dir2_z"},
+        {"step": 3, "action": "Cross product z-component", "explain": "dir1_x*dir2_y minus dir1_y*dir2_x.", "compute": "cross_z = dir1_x*dir2_y - dir1_y*dir2_x"},
+        {"step": 4, "action": "Squared magnitude of the cross product", "explain": "Add the squares of the three cross components.", "compute": "cross_sq = cross_x**2 + cross_y**2 + cross_z**2"},
+        {"step": 5, "action": "Magnitude of the cross product", "explain": "Square root of the squared magnitude.", "compute": "cross_mag = sqrt(cross_sq)"},
+        {"step": 6, "action": "Join vector from anchor one to anchor two", "explain": "Subtract the position vectors component-wise.", "compute": "join_x = px2 - px1"},
+        {"step": 7, "action": "Remaining join components", "explain": "Same subtraction for y and z.", "compute": "join_y = py2 - py1"},
+        {"step": 8, "action": "Third join component", "explain": "And for z.", "compute": "join_z = pz2 - pz1"},
+        {"step": 9, "action": "Absolute dot of the join with the cross product", "explain": "This is the projected length before normalising.", "compute": "proj_numer = abs(join_x*cross_x + join_y*cross_y + join_z*cross_z)"},
+        {"step": 10, "action": "Divide by the cross product magnitude", "explain": "The quotient is the shortest distance between the skew lines.", "compute": "skew_dist = proj_numer / cross_mag"}
+      ]
+    },
+    {
+      "id": "lemh.205.11.5.2",
+      "title": "Distance Between Two Parallel Lines",
+      "section": "11.5.2",
+      "definition": "Parallel lines are coplanar, and the distance between them is the length of the perpendicular from a point of one line to the other; it equals the magnitude of the cross product of the direction vector with the join of the two anchor points, divided by the direction magnitude.",
+      "formula": "parallel distance = magnitude(b_vector x join_vector) / magnitude(b_vector)",
+      "key_idea": "Cross the direction with the anchor join, then normalise by the direction length.",
+      "textbook_ref": "lemh205.txt section 11.5.2 and example 10 (lines ~1624-2064)",
+      "question_patterns": [
+        "find the distance between the two parallel lines with the given vector equations",
+        "compute the perpendicular separation of the parallel lines",
+        "cross the direction vector with the join of the anchor points for the distance",
+        "evaluate the distance between the lines sharing the same direction",
+        "how far is one parallel line from the other",
+        "normalise the cross product by the direction magnitude to get the separation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Cross product of direction with the anchor join, x-component", "explain": "dir_y*join_z minus dir_z*join_y.", "compute": "cross_x = dir_y*join_z - dir_z*join_y"},
+        {"step": 2, "action": "Cross product y-component", "explain": "dir_z*join_x minus dir_x*join_z.", "compute": "cross_y = dir_z*join_x - dir_x*join_z"},
+        {"step": 3, "action": "Cross product z-component", "explain": "dir_x*join_y minus dir_y*join_x.", "compute": "cross_z = dir_x*join_y - dir_y*join_x"},
+        {"step": 4, "action": "Squared cross magnitude", "explain": "Add the squares of the cross components.", "compute": "cross_sq = cross_x**2 + cross_y**2 + cross_z**2"},
+        {"step": 5, "action": "Magnitude of the direction vector", "explain": "Square, add and square root the direction components.", "compute": "dir_mag = sqrt(dir_x**2 + dir_y**2 + dir_z**2)"},
+        {"step": 6, "action": "Normalise the cross magnitude by the direction magnitude", "explain": "The quotient is the distance between the parallel lines.", "compute": "para_dist = sqrt(cross_sq) / dir_mag"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we205.1",
+      "source_ref": "lemh205.txt examples 7-8, angle between lines, lines ~1112-1328",
+      "concept": "lemh.205.11.4.1",
+      "question_type": "compute",
+      "question_pattern": "find the cosine of the angle between the lines with direction ratios {dir1_x}, {dir1_y}, {dir1_z} and {dir2_x}, {dir2_y}, {dir2_z}",
+      "extracted_variables": {"dir1_x": "x ratio of line one", "dir1_y": "y ratio of line one", "dir1_z": "z ratio of line one", "dir2_x": "x ratio of line two", "dir2_y": "y ratio of line two", "dir2_z": "z ratio of line two"},
+      "solution_template": [
+        {"step": 1, "action": "Dot the direction triples", "explain": "Matching ratios multiply and add.", "compute": "dir_dot = dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z"},
+        {"step": 2, "action": "Magnitude of each direction vector", "explain": "Square-root each squared sum.", "compute": "line_mag1 = sqrt(dir1_x**2 + dir1_y**2 + dir1_z**2)"},
+        {"step": 3, "action": "Second magnitude", "explain": "For line two.", "compute": "line_mag2 = sqrt(dir2_x**2 + dir2_y**2 + dir2_z**2)"},
+        {"step": 4, "action": "Cosine of the angle", "explain": "Dot over the magnitude product.", "compute": "angle_cos = dir_dot / (line_mag1 * line_mag2)"}
+      ]
+    },
+    {
+      "id": "we205.2",
+      "source_ref": "lemh205.txt example 9, shortest distance between skew lines, lines ~1707-1913",
+      "concept": "lemh.205.11.5.1",
+      "question_type": "compute",
+      "question_pattern": "find the shortest distance between the skew line through the point with direction ratios {dir1_x}, {dir1_y}, {dir1_z} and the line through the other point with direction ratios {dir2_x}, {dir2_y}, {dir2_z}",
+      "extracted_variables": {"dir1_x": "x ratio of line one", "dir1_y": "y ratio of line one", "dir1_z": "z ratio of line one", "dir2_x": "x ratio of line two", "dir2_y": "y ratio of line two", "dir2_z": "z ratio of line two", "px1": "x of first anchor", "py1": "y of first anchor", "pz1": "z of first anchor", "px2": "x of second anchor", "py2": "y of second anchor", "pz2": "z of second anchor"},
+      "solution_template": [
+        {"step": 1, "action": "Cross the two directions", "explain": "Three minor differences give the normal vector.", "compute": "cross_x = dir1_y*dir2_z - dir1_z*dir2_y"},
+        {"step": 2, "action": "Remaining cross components", "explain": "j and k minors.", "compute": "cross_y = dir1_z*dir2_x - dir1_x*dir2_z"},
+        {"step": 3, "action": "Third cross component", "explain": "k minor.", "compute": "cross_z = dir1_x*dir2_y - dir1_y*dir2_x"},
+        {"step": 4, "action": "Cross magnitude", "explain": "Square-root of squared components.", "compute": "cross_mag = sqrt(cross_x**2 + cross_y**2 + cross_z**2)"},
+        {"step": 5, "action": "Join of the anchors dotted with the cross", "explain": "Take the absolute value of the projection numerator.", "compute": "proj_numer = abs((px2 - px1)*cross_x + (py2 - py1)*cross_y + (pz2 - pz1)*cross_z)"},
+        {"step": 6, "action": "Divide by the cross magnitude", "explain": "This is the shortest distance.", "compute": "skew_dist = proj_numer / cross_mag"}
+      ]
+    },
+    {
+      "id": "we205.3",
+      "source_ref": "lemh205.txt example 6, equations of a line, lines ~545-684",
+      "concept": "lemh.205.11.3.1",
+      "question_type": "verify_property",
+      "question_pattern": "find the vector and cartesian equations of the line through the point with the given coordinates and parallel to the given vector",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Anchor at the given point", "explain": "Its position vector is the fixed part of the equation."},
+        {"step": 2, "action": "Use the parallel vector as the direction", "explain": "Its components are the direction ratios."},
+        {"step": 3, "action": "Write both the vector and the cartesian forms", "explain": "r equals anchor plus lambda times direction; shifted coordinates over ratios equal each other."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex11.1",
+      "source_ref": "lemh205.txt exercise 11.1, lines ~386-397",
+      "questions": [
+        "If a line makes the given angles with the axes, find its direction cosines.",
+        "Determine the direction cosines of the line with the given direction ratios.",
+        "Find the direction cosines of the line joining the two given points.",
+        "Show that the given three points are collinear using direction ratios."
+      ]
+    },
+    {
+      "id": "ex11.2",
+      "source_ref": "lemh205.txt exercise 11.2, lines ~2065-2570",
+      "questions": [
+        "Show that the direction cosines of a line equally inclined to the axes are equal.",
+        "Find the vector and cartesian equations of the line through the given point with the given direction ratios.",
+        "Find the angle between the given pair of lines.",
+        "Find the shortest distance between the given skew lines.",
+        "Find the distance between the given parallel lines."
+      ]
+    },
+    {
+      "id": "misc11",
+      "source_ref": "lemh205.txt miscellaneous exercise on chapter 11, lines ~2571-3145",
+      "questions": [
+        "Find the angle between the lines whose direction ratios are given.",
+        "Find the equation of the line passing through the two given points.",
+        "Find the shortest distance between the lines with the given vector equations.",
+        "Find the distance of the given point from the line along the perpendicular."
+      ]
+    }
+  ]
+}

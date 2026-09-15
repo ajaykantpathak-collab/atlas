@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_7",
+   "title": "c9_civ_ch1_7",
+   "questions": [
+    {
+     "q": "What is the constitutional article that establishes the Election Commission of India and vests it with the power of superintendence, direction, and control of elections?",
+     "a": "Article 324. A wrong answer (e.g., Article 326 or 356) reveals the student confuses the Election Commission's establishment with the provision for universal adult franchise (Article 326) or President's Rule (Article 356), indicating a lack of precise constitutional mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Model Code of Conduct (MCC) is enforced by the Election Commission only after the election schedule is announced, and not throughout the government's term.",
+     "a": "The MCC is a set of guidelines for political parties and candidates during elections to ensure a level playing field; it is not a law and cannot govern routine administration. Enforcing it permanently would paralyze governance. A wrong answer (e.g., \"MCC is a law passed by Parliament\") reveals the student misunderstands the MCC as statutory legislation rather than a voluntary consensus-based code with moral authority.",
+     "self_check": true
+    },
+    {
+     "q": "A State Chief Minister announces a major welfare scheme two weeks before the Model Code of Conduct comes into effect. The Opposition alleges this violates the spirit of free and fair elections. As an Election Commission observer, which principle would you apply to decide if this is permissible?",
+     "a": "The principle is \"level playing field\" and \"non-use of public resources for partisan advantage.\" If the scheme was budgeted and approved earlier, it may proceed; if announced solely to influence voters, it violates the MCC. A wrong answer (e.g., \"The CM can do anything before MCC starts\") reveals the student thinks accountability only operates during the MCC period, ignoring the broader principle of misuse of state power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism of a no-confidence motion in the Lok Sabha with the accountability mechanism of a general election. How do they differ in terms of timing, initiators, and consequences?",
+     "a": "No-confidence motion: initiated by MPs anytime during the term, requires majority in Lok Sabha, consequence is government resignation. General election: initiated by constitutional schedule (or dissolution), voters decide, consequence is new House formation. A wrong answer (e.g., \"Both are done by voters\") reveals confusion between institutional (parliamentary) accountability and direct electoral accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Frequent elections are a burden on the economy and governance; India should switch to a fixed-term system like the USA where elections cannot be called early.\" Provide two arguments for and two against, considering Indian federal diversity.",
+     "a": "For: Reduces policy paralysis from MCC, saves expenditure, gives stability. Against: Fixed terms reduce executive accountability to legislature, ignore India's parliamentary system where government must enjoy Lok Sabha confidence, and may not accommodate coalition realities in diverse states. A wrong answer (e.g., \"USA system is better because it's stable\") reveals uncritical borrowing without analyzing constitutional design differences (parliamentary vs presidential).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a \"Citizen's Accountability Charter\" that would operate between elections, specifying three concrete tools citizens can use to hold representatives accountable (e.g., RTI, social audit, recall petition) and explaining how each tool addresses a gap left by periodic elections.",
+     "a": "A good answer proposes tools like: (1) Mandatory quarterly constituency reports by MPs/MLAs (addresses information gap), (2) Social audit of local schemes by Gram Sabhas (addresses implementation gap), (3) Right to Recall for local bodies (addresses performance gap). A poor answer lists only voting or protests, showing inability to design institutional mechanisms for continuous accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

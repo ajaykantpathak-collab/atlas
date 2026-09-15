@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_009",
+   "title": "c11_chem_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the formula for bond order in Molecular Orbital Theory and define each term with units.",
+     "a": "Bond Order = ½(Nb – Na), where Nb = number of electrons in bonding molecular orbitals (unitless count), Na = number of electrons in antibonding molecular orbitals (unitless count). Bond order itself is unitless. A wrong answer (e.g., Bond Order = Nb – Na without the ½ factor, or confusing bonding/antibonding labels) reveals the student has memorised the formula incorrectly or does not understand that each bonding orbital holds 2 electrons but contributes only 1 to bond order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why O₂ is paramagnetic while N₂ is diamagnetic, using their molecular orbital electronic configurations.",
+     "a": "O₂ (16 electrons): σ1s² σ*1s² σ2s² σ*2s² σ2pz² π2px² π2py² π*2px¹ π*2py¹ → two unpaired electrons in degenerate π* orbitals → paramagnetic. N₂ (14 electrons): σ1s² σ*1s² σ2s² σ*2s² π2px² π2py² σ2pz² → all electrons paired → diamagnetic. A wrong answer (e.g., claiming O₂ has no unpaired electrons, or using wrong MO energy ordering) reveals confusion between the two energy level diagrams (O₂/F₂ vs B₂/C₂/N₂) or inability to apply Hund's rule in degenerate π* orbitals.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the bond order and predict the magnetic behaviour of the superoxide ion O₂⁻. Show all steps.",
+     "a": "Step 1: O₂ has 16 electrons; O₂⁻ has 17 electrons (one extra electron).\nStep 2: MO configuration for O₂: σ1s² σ*1s² σ2s² σ*2s² σ2pz² π2px² π2py² π*2px¹ π*2py¹\nStep 3: Add the 17th electron to the next available orbital (π*2px or π*2py) → π*2px² π*2py¹ (or vice versa).\nStep 4: Count bonding electrons: σ1s²(2) + σ2s²(2) + σ2pz²(2) + π2px²(2) + π2py²(2) = 10. Antibonding: σ*1s²(2) + σ*2s²(2) + π*2px²(2) + π*2py¹(1) = 7.\nStep 5: Bond Order = ½(10 – 7) = 1.5.\nStep 6: One unpaired electron in π*2py → paramagnetic.\nA wrong answer (e.g., bond order = 2, or diamagnetic) reveals inability to add electrons to degenerate orbitals following Hund's rule, or miscounting bonding/antibonding electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the bond orders, bond lengths, and magnetic properties of N₂, N₂⁺, N₂⁻, and N₂²⁻. Explain the trend.",
+     "a": "N₂ (14e⁻): BO = 3, diamagnetic, shortest bond (109 pm).\nN₂⁺ (13e⁻): remove 1e⁻ from σ2pz → BO = 2.5, paramagnetic (1 unpaired), longer bond.\nN₂⁻ (15e⁻): add 1e⁻ to π*2px → BO = 2.5, paramagnetic (1 unpaired), longer bond.\nN₂²⁻ (16e⁻): add 2e⁻ to π*2px, π*2py → BO = 2, paramagnetic (2 unpaired), longest bond.\nTrend: As antibonding electrons increase, bond order decreases, bond length increases. A wrong answer (e.g., N₂⁺ and N₂⁻ having different bond orders, or N₂²⁻ being diamagnetic) reveals misunderstanding that bond order depends only on (Nb – Na), not on which specific orbital loses/gains electrons, or failure to apply Hund's rule in degenerate π* orbitals.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since CO and N₂ are isoelectronic (14 electrons each), they must have identical bond orders and magnetic properties.\" Evaluate this claim and correct any error.",
+     "a": "The claim is partially correct but incomplete. CO (14e⁻) and N₂ (14e⁻) both have bond order = 3 and are diamagnetic — this part is correct. However, the student's reasoning \"isoelectronic → identical bond order\" is not universally true. For heteronuclear diatomics like CO, the MO diagram is asymmetric (oxygen orbitals lower in energy than carbon), but the filling order and total electron count still give the same bond order. A better justification: both have 10 bonding and 4 antibonding valence electrons (excluding core 1s). The error in reasoning reveals the student thinks isoelectronic always guarantees identical MO diagrams, which fails for species like CN⁻ (14e⁻, BO=3) vs NO⁺ (14e⁻, BO=3) — these work — but would fail if energy ordering differed (e.g., hypothetical BeNe vs C₂). The student needs to verify electron configuration, not just electron count.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine whether an unknown diatomic gas X₂ is paramagnetic or diamagnetic using only a strong magnet and a sensitive balance. Describe the procedure, expected observations for each case, and how you would interpret the results.",
+     "a": "Procedure: Place a sealed quartz tube containing gaseous X₂ on one pan of a sensitive analytical balance. Bring a strong neodymium magnet close to the tube (without touching) and record mass change. Repeat with magnet removed. \nExpected: If paramagnetic (e.g., O₂), the gas is attracted to the magnet → apparent mass increases (or pan moves down). If diamagnetic (e.g., N₂), the gas is weakly repelled → apparent mass decreases (or pan moves up). \nInterpretation: Mass increase → unpaired electrons → paramagnetic. Mass decrease → all electrons paired → diamagnetic. \nA poor answer (e.g., \"heat the gas and see if it glows\" or \"bubble through water\") reveals inability to connect magnetic properties to measurable force, or confusion between chemical reactivity and magnetic response.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

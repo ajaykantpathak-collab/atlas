@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "A Journey through Indian Architecture",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.203.3.1",
+   "title": "Temples as Living Architecture",
+   "section": "3",
+   "definition": "Indian temples are stone records of faith and craft - from the stepwell Rani ki Vav and the hill shrine of Hidimba Devi with its timber style to towering gopurams - each region developing its own temple architecture shaped by local material and worship.",
+   "formula": "-",
+   "key_idea": "Temple architecture varies by region and material, but everywhere it joins devotion with engineering.",
+   "textbook_ref": "hees203.txt lines 130-180 (Rani ki Vav, Hidimba Devi temple, Sharada Peeth temple)",
+   "question_patterns": [
+    "describe the main features of Indian temple architecture",
+    "what is Rani ki Vav and why is it famous",
+    "how does the Hidimba Devi temple differ from stone temples",
+    "name two famous temples of medieval India",
+    "what is a stepwell and what was its purpose",
+    "how does local material shape the style of a temple"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": "1", "action": "identify the structure",
+     "explain": "Note the shrine, hall and tower that frame most temples."},
+    {"step": 2, "action": "read the material",
+     "explain": "Stone carving, timber work or stepwell architecture follows what the region offers."},
+    {"step": 3, "action": "link to devotion",
+     "explain": "Sculpture and space plan serve ritual and pilgrimage."}
+   ]
+  },
+  {
+   "id": "hees.203.3.2",
+   "title": "Mosques, Forts and Sultanate-Mughal Building",
+   "section": "3",
+   "definition": "The coming of Islamic architecture brought the arch, dome and minaret: grand mosques like the Jama Masjid of Delhi and Ahmedabad, along with forts and tombs, blended Persian ideas with Indian craftsmanship to create an Indo-Islamic style.",
+   "formula": "-",
+   "key_idea": "Arch, dome and minaret met Indian carving to build the Indo-Islamic synthesis.",
+   "textbook_ref": "hees203.txt lines 137-175 (Jama Masjid Ahmedabad, Jama Masjid Delhi)",
+   "question_patterns": [
+    "what new elements did Islamic architecture bring to India",
+    "compare the Jama Masjid of Delhi and of Ahmedabad",
+    "what is meant by Indo-Islamic architecture",
+    "name two famous mosques built in medieval India",
+    "why were minarets built beside mosques",
+    "how did Indian craftsmen shape sultanate buildings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the new forms",
+     "explain": "Arches, domes and minarets mark the imported style."},
+    {"step": 2, "action": "watch the blending",
+     "explain": "Local stone, motifs and workmanship fused with Persian plans."},
+    {"step": 3, "action": "name the monuments",
+     "explain": "The Jama Masjids of Delhi and Ahmedabad display the mature style."}
+   ]
+  },
+  {
+   "id": "hees.203.3.3",
+   "title": "Colonial Architecture: Havelis to High Courts",
+   "section": "3",
+   "definition": "Colonial times added their own layer - merchant havelis of Shekhawati with frescoed courtyards, and grand public buildings such as the Madras High Court - where classical European facades adapted to Indian climate and craft.",
+   "formula": "-",
+   "key_idea": "Colonial architecture grafted European styles onto Indian builders and settings.",
+   "textbook_ref": "hees203.txt lines 79-95 (Madras High Court, Havelis of Shekhawati), 169-175",
+   "question_patterns": [
+    "what are the havelis of Shekhawati famous for",
+    "describe the architecture of the Madras High Court",
+    "how did colonial buildings differ from traditional Indian ones",
+    "what materials and styles did colonial architecture use",
+    "why do havelis have frescoes and courtyards",
+    "give two examples of colonial public buildings in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "study the domestic side",
+     "explain": "Shekhawati havelis show merchant wealth in painted walls and planned courtyards."},
+    {"step": 2, "action": "study the institutional side",
+     "explain": "Courts and offices copied European classical designs in brick and stone."},
+    {"step": 3, "action": "note the adaptation",
+     "explain": "Verandas, thick walls and local craft softened the foreign style to Indian conditions."}
+   ]
+  },
+  {
+   "id": "hees.203.3.4",
+   "title": "Reading Monuments as Historical Sources",
+   "section": "3",
+   "definition": "Monuments are history written in stone: inscriptions, plans and styles reveal a building's patron, period, technology and religious life, so a journey through Indian architecture is a journey through India's past itself.",
+   "formula": "-",
+   "key_idea": "Every pillar and inscription is a document - monuments testify about their times.",
+   "textbook_ref": "hees203.txt lines 1-60 (craftsman epigraph), 400-500 (reading buildings)",
+   "question_patterns": [
+    "how do monuments help us study history",
+    "what can an inscription on a temple tell a historian",
+    "what does the plan of a building reveal about its purpose",
+    "how do architectural styles help date a monument",
+    "why should monuments be preserved",
+    "interpret a monument of your region as a historical source"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "look for the record",
+     "explain": "Inscriptions name donors, dates and deities."},
+    {"step": 2, "action": "read the style",
+     "explain": "Arch, dome or shikhara points to the period and culture."},
+    {"step": 3, "action": "reconstruct the past",
+     "explain": "Together, evidence from stones rebuilds the story of an age."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hees203.txt temple and mosque sections",
+   "questions": [
+     "Write a note on Rani ki Vav.",
+     "What is Indo-Islamic architecture? Give two examples.",
+     "Compare temple and mosque architecture in medieval India."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hees203.txt colonial sections",
+   "questions": [
+     "Describe the havelis of Shekhawati.",
+     "How do monuments act as sources of history?"
+   ]
+  }
+ ]
+}

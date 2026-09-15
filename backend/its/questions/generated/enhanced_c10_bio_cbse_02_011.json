@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_011",
+   "title": "c10_bio_cbse_02_011",
+   "questions": [
+    {
+     "q": "What are the two main hormones secreted by the pancreatic islets that regulate blood glucose, and which cell type secretes each?",
+     "a": "Insulin is secreted by beta (β) cells and lowers blood glucose; glucagon is secreted by alpha (α) cells and raises blood glucose. A wrong answer (e.g., swapping cell types or naming adrenaline) reveals confusion between pancreatic endocrine cells and adrenal medulla hormones, or misunderstanding that both hormones come from the same organ but opposite cell populations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why insulin cannot be taken orally as a tablet but must be injected, whereas glucagon can be given as a nasal spray in emergencies.",
+     "a": "Insulin is a peptide hormone that would be digested by proteolytic enzymes in the stomach and small intestine if taken orally, so it must bypass the digestive tract via injection; glucagon is also a peptide but nasal spray delivers it across the nasal mucosa directly into bloodstream. A wrong answer (e.g., \"insulin is destroyed by acid only\") shows incomplete understanding of protein digestion and routes of drug administration.",
+     "self_check": true
+    },
+    {
+     "q": "A student eats a carbohydrate-rich meal. Trace the sequence of events from glucose absorption to insulin secretion and its effect on a muscle cell, naming the transporter involved.",
+     "a": "Glucose absorbed in small intestine → enters bloodstream → blood glucose rises → pancreatic β-cells detect high glucose → insulin secreted → insulin binds receptor on muscle cell → triggers vesicle fusion with membrane → GLUT4 transporters inserted → glucose enters cell. Missing GLUT4 or saying \"glucose diffuses in\" reveals the misconception that glucose enters cells passively without insulin-dependent transport.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Type 1 and Type 2 diabetes mellitus in terms of: (a) primary defect, (b) typical age of onset, (c) insulin levels in blood, and (d) initial treatment approach.",
+     "a": "Type 1: autoimmune β-cell destruction, childhood/adolescence, very low/absent insulin, requires insulin injections from diagnosis. Type 2: insulin resistance + relative insulin deficiency, usually adulthood (increasing in teens), initially high/normal insulin then declining, managed with diet, exercise, oral hypoglycemics (metformin). Confusing the two (e.g., saying Type 2 always needs insulin) shows failure to distinguish absolute vs relative insulin deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A doctor prescribes metformin to a newly diagnosed Type 2 diabetes patient. The patient asks, \"Will this make my pancreas produce more insulin?\" Evaluate the correctness of the patient's expectation and explain metformin's actual mechanism.",
+     "a": "The expectation is incorrect. Metformin does not stimulate insulin secretion; it primarily reduces hepatic gluconeogenesis and improves insulin sensitivity in peripheral tissues (muscle, fat). A wrong answer (e.g., \"yes, it increases insulin release\") confuses metformin with sulfonylureas (like glibenclamide) which do stimulate β-cells, revealing a gap in knowing drug classes for diabetes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using everyday materials to demonstrate the negative feedback loop of blood glucose regulation by insulin and glucagon.",
+     "a": "Use two students as \"pancreas β-cell\" and \"α-cell\", a beaker of water with blue dye as \"blood glucose\", and sponges as \"liver/muscle cells\". β-cell adds water (insulin) when dye is dark → sponges soak up dye → solution lightens → α-cell adds concentrated dye (glucagon) when solution too pale. A poor activity (e.g., only showing insulin action) misses the bidirectional feedback essential for homeostasis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

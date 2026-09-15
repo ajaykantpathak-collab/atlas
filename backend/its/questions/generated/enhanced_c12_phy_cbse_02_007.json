@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_007",
+   "title": "c12_phy_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the value of the electrostatic electric field inside a conductor in static equilibrium and give the physical reason in one sentence.",
+     "a": "The electric field inside a conductor in electrostatic equilibrium is zero. Reason: If E were non-zero, free charges would experience a force (F = qE) and move, constituting a current, contradicting the static equilibrium condition. A wrong answer (e.g., \"E is non-zero but small\") reveals the student thinks conductors merely \"reduce\" field rather than cancel it completely, confusing conductors with dielectrics.",
+     "self_check": true
+    },
+    {
+     "q": "A solid conducting sphere of radius R carries a net charge +Q. A student claims: \"The charge +Q is distributed uniformly throughout the volume of the sphere because the sphere is solid.\" Is this claim correct? Explain why or why not using Gauss's law.",
+     "a": "The claim is incorrect. In electrostatic equilibrium, excess charge resides only on the outer surface of a conductor, not in its volume. Proof: Draw a Gaussian sphere of radius r < R inside the conductor. Since E = 0 everywhere inside, flux = 0 ⇒ enclosed charge = 0. This holds for any r < R, so no net charge exists in the interior; all +Q must be on the surface at r = R. A wrong answer indicates the student conflates \"solid conductor\" with \"uniform volume charge distribution\" (true only for insulating spheres).",
+     "self_check": true
+    },
+    {
+     "q": "A hollow conducting spherical shell has inner radius a and outer radius b. A point charge +q is placed at the center of the cavity. Calculate the surface charge density on the inner surface (at r = a) and on the outer surface (at r = b). Express answers in terms of q, a, b, and ε₀.",
+     "a": "**Step 1:** Gaussian sphere of radius r where a < r < b (inside conductor material). E = 0 ⇒ flux = 0 ⇒ total enclosed charge = 0. Enclosed charge = q (point charge) + q_inner = 0 ⇒ q_inner = -q.\n**Step 2:** Inner surface area = 4πa² ⇒ σ_inner = q_inner / (4πa²) = -q / (4πa²).\n**Step 3:** Conductor is neutral overall (no net charge given) ⇒ q_inner + q_outer = 0 ⇒ q_outer = +q.\n**Step 4:** Outer surface area = 4πb² ⇒ σ_outer = +q / (4πb²).\n**Units:** C/m². A wrong answer (e.g., σ_inner = 0) shows the student forgets that the point charge induces opposite charge on the cavity wall to keep E=0 in the conductor.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical conducting spheres A and B carry charges +4 μC and -2 μC respectively. They are brought into contact and then separated. What is the final charge on each sphere? Now, if instead of identical spheres, sphere A has radius R and sphere B has radius 2R, what are the final charges after contact and separation? Explain the physical principle that determines the final distribution.",
+     "a": "**Case 1 (identical radii R):** Total charge = +2 μC. By symmetry and equal potential after contact, charge splits equally: each gets +1 μC.\n**Case 2 (radii R and 2R):** After contact, they form a single conductor ⇒ same potential V. For spheres far apart, V = kQ₁/R₁ = kQ₂/R₂ ⇒ Q₁/R = Q₂/(2R) ⇒ Q₂ = 2Q₁. Charge conservation: Q₁ + Q₂ = +2 μC ⇒ Q₁ + 2Q₁ = 2 ⇒ Q₁ = 2/3 μC, Q₂ = 4/3 μC.\n**Principle:** Conductors in contact reach common potential; charge redistributes to satisfy V₁ = V₂. A wrong answer (e.g., still equal split for unequal radii) reveals the student thinks charge always splits equally, ignoring capacitance/potential dependence on geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The electric field just outside a charged conductor is E = σ/ε₀ directed normal to the surface. This formula is derived assuming the conductor is a flat infinite plane, so it cannot be used for a curved conductor like a sphere.\" Evaluate this statement. Is the formula valid for a curved surface? Justify.",
+     "a": "The statement is **false**. The formula E = σ/ε₀ (normal to surface) is **exact for any shaped conductor** in electrostatic equilibrium, not just flat planes. Derivation uses a Gaussian pillbox of infinitesimal height straddling the surface: flux = E·dA (through top) + 0 (through bottom, inside conductor) = σ dA / ε₀ ⇒ E = σ/ε₀. The curvature only affects how σ varies from point to point, but the local relation E = σ/ε₀ holds at every point. A student who thinks it's only for flat surfaces misunderstands the pillbox derivation — the pillbox height is infinitesimal, so curvature is negligible locally.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate electrostatic shielding (Faraday cage effect). List materials, procedure, and the expected observation that proves the interior field is zero.",
+     "a": "**Materials:** Metal mesh strainer or aluminum foil wrapped around a cardboard box (cage), a small battery-operated AM radio (or a phone receiving a call), a source of strong electromagnetic noise (e.g., electric drill, hair dryer, or lightning — but safely: a piezoelectric gas lighter spark near the cage).\n**Procedure:** (1) Turn on the radio and tune to a station with static. (2) Bring the noise source close — static increases. (3) Place the radio inside the metal cage (ensure no gaps). (4) Bring the noise source close again.\n**Observation:** Static/noise disappears or drastically reduces when the radio is inside the closed metal cage, even though the noise source is outside.\n**Reason:** The cage's free charges rearrange to cancel external fields inside the cavity. A poor answer (e.g., \"put phone in microwave\") uses a device not designed for low-frequency EM shielding or misses the key requirement of a conductive enclosure with no large apertures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

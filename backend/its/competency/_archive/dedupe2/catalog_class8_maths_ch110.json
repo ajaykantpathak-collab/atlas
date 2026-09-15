@@ -1,0 +1,571 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Exponents and Powers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh110.txt",
+ "concepts": [
+  {
+   "id": "hemh.110.2.1",
+   "title": "Evaluation of Negative Exponents",
+   "section": "10.2",
+   "definition": "A non-zero integer raised to a negative power is equivalent to the reciprocal of that integer raised to the positive version of that power.",
+   "formula": "a**(-m) = 1 / a**m",
+   "key_idea": "Flip the base to the denominator to transform a negative exponent into a positive one.",
+   "textbook_ref": "hemh110.txt lines 20-45",
+   "question_patterns": [
+    "evaluate 3^-2",
+    "find the value of 2 to the power -3",
+    "calculate the numerical value of 5^-1",
+    "what is the value of 10^-2",
+    "simplify and find the value of 4^-3"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply exponentiation",
+     "explain": "Calculate the base raised to the negative power directly.",
+     "compute": "res = b**e"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.2.2",
+   "title": "Multiplicative Inverse of Powers",
+   "section": "10.2",
+   "definition": "The multiplicative inverse of a power is another power with the same base such that their product equals one.",
+   "formula": "inverse of a**(-m) = a**m",
+   "key_idea": "The multiplicative inverse is found by reversing the sign of the exponent.",
+   "textbook_ref": "hemh110.txt lines 46-55",
+   "question_patterns": [
+    "find the multiplicative inverse of 2^-4",
+    "what is the reciprocal of 5^3",
+    "calculate the inverse of a given power",
+    "express the multiplicative inverse in exponential form",
+    "determine the value that yields 1 when multiplied by the power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify exponent",
+     "explain": "Locate the exponent in the given power term."
+    },
+    {
+     "step": 2,
+     "action": "reverse sign",
+     "explain": "Change the sign of the exponent to find the inverse power."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.2.3",
+   "title": "Expanded Form with Negative Exponents",
+   "section": "10.2",
+   "definition": "Writing a decimal number as a sum of its digits multiplied by corresponding powers of ten, including negative powers for decimal places.",
+   "formula": "value = sum of (digit * 10**p)",
+   "key_idea": "Decimal positions to the right of the point correspond to 10^-1, 10^-2, and so on.",
+   "textbook_ref": "hemh110.txt lines 56-65",
+   "question_patterns": [
+    "expand 1425.36 using exponents",
+    "write the decimal number in expanded form",
+    "express the value as a sum of powers of 10",
+    "use negative exponents to expand the decimal part",
+    "show the positional value expansion of the number"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify place values",
+     "explain": "Determine the power of 10 associated with each digit's position."
+    },
+    {
+     "step": 2,
+     "action": "write products",
+     "explain": "Multiply each digit by its positional power of 10."
+    },
+    {
+     "step": 3,
+     "action": "sum terms",
+     "explain": "Combine all terms to show the complete expanded form."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.1",
+   "title": "Product Law of Exponents",
+   "section": "10.3",
+   "definition": "When multiplying two powers with the same base, the exponents are added while the base remains the same.",
+   "formula": "a**m * a**n = a**(m + n)",
+   "key_idea": "Addition of exponents for multiplication of identical bases.",
+   "textbook_ref": "hemh110.txt lines 66-85",
+   "question_patterns": [
+    "simplify 2^3 * 2^-5",
+    "multiply powers with the same base",
+    "express the product of 3^2 and 3^-4 in exponential form",
+    "calculate the result of a^m * a^n",
+    "combine terms using the product law of exponents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check bases",
+     "explain": "Ensure both terms have the same base."
+    },
+    {
+     "step": 2,
+     "action": "add exponents",
+     "explain": "Sum the exponents of the terms being multiplied."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.2",
+   "title": "Quotient Law of Exponents",
+   "section": "10.3",
+   "definition": "When dividing two powers with the same base, the exponent of the divisor is subtracted from the exponent of the dividend.",
+   "formula": "a**m / a**n = a**(m - n)",
+   "key_idea": "Subtraction of exponents for division of identical bases.",
+   "textbook_ref": "hemh110.txt lines 86-95",
+   "question_patterns": [
+    "divide 5^8 by 5^3",
+    "simplify the ratio of two powers with the same base",
+    "express 2^5 / 2^-6 in power notation",
+    "calculate the quotient using exponent laws",
+    "what is the result of dividing a^m by a^n"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check bases",
+     "explain": "Ensure the dividend and divisor share the same base."
+    },
+    {
+     "step": 2,
+     "action": "subtract exponents",
+     "explain": "Subtract the exponent in the denominator from the exponent in the numerator."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.3",
+   "title": "Power of a Power Law",
+   "section": "10.3",
+   "definition": "Raising a power to another exponent results in a base raised to the product of the two exponents.",
+   "formula": "(a**m)**n = a**(m * n)",
+   "key_idea": "Multiply exponents when a power is raised to another power.",
+   "textbook_ref": "hemh110.txt lines 96-100",
+   "question_patterns": [
+    "simplify (2^3)^-2",
+    "calculate the power of a power",
+    "express (5^-2)^-3 in exponential form",
+    "what is the result of raising a power to another exponent",
+    "apply the power of a power law to simplify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify exponents",
+     "explain": "Find the inner and outer exponents."
+    },
+    {
+     "step": 2,
+     "action": "multiply exponents",
+     "explain": "Calculate the product of the two exponents."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.4",
+   "title": "Solving for Exponent in Multiplication",
+   "section": "10.3",
+   "definition": "Finding an unknown variable within an exponent by equating exponents of terms with identical bases.",
+   "formula": "a**(m+k) * a**p = a**q",
+   "key_idea": "Equate the sum of exponents on one side to the exponent on the other side.",
+   "textbook_ref": "hemh110.txt lines 136-145",
+   "question_patterns": [
+    "find m if (-3)^(m+1) * (-3)^5 = (-3)^7",
+    "calculate m in the product 2^(m+2) * 2^3 = 2^8",
+    "what is the value of m for the product of powers",
+    "determine m such that the multiplication of powers equals the target",
+    "solve for the exponent m in the product equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum known exponents",
+     "explain": "Add the constant parts of the exponents on the left side.",
+     "compute": "sum_p = p + k"
+    },
+    {
+     "step": 2,
+     "action": "solve for m",
+     "explain": "Subtract the known sum from the target exponent on the right.",
+     "compute": "m = q - sum_p"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.5",
+   "title": "Solving for Exponent in Division",
+   "section": "10.3",
+   "definition": "Determining an unknown exponent by applying the quotient law and equating exponents across an equation.",
+   "formula": "a**m / a**p = a**q",
+   "key_idea": "The unknown exponent minus the divisor exponent equals the result exponent.",
+   "textbook_ref": "hemh110.txt lines 185-186",
+   "question_patterns": [
+    "find m if 5^m / 5^-3 = 5^5",
+    "calculate m in the division 3^m / 3^2 = 3^6",
+    "what is the value of m for the quotient of powers",
+    "determine m such that the ratio of powers equals the target",
+    "solve for the exponent m in the division equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add exponents",
+     "explain": "Add the divisor exponent to the result exponent to find the dividend exponent.",
+     "compute": "m = q + p"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.3.6",
+   "title": "Zero Exponent Law",
+   "section": "10.3",
+   "definition": "Any non-zero number raised to the power of zero is always equal to one.",
+   "formula": "a**0 = 1",
+   "key_idea": "A zero power signifies unity regardless of the base value.",
+   "textbook_ref": "hemh110.txt lines 101-102",
+   "question_patterns": [
+    "find the value of 5^0",
+    "what is any non-zero number raised to zero",
+    "evaluate (3^-1 + 4^-1 + 5^-1)^0",
+    "calculate the value of x^0",
+    "simplify an expression with a zero exponent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply zero law",
+     "explain": "Any non-zero base to the power 0 is 1.",
+     "compute": "ans = b**0"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.4.1",
+   "title": "Standard Form for Small Numbers",
+   "section": "10.4",
+   "definition": "A method of writing very small decimals as a product of a number between 1 and 10 and a negative power of ten.",
+   "formula": "k * 10**(-n)",
+   "key_idea": "Move the decimal point to create a single-digit integer part and count the shifts for the exponent.",
+   "textbook_ref": "hemh110.txt lines 146-175",
+   "question_patterns": [
+    "write 0.000007 in standard form",
+    "express the diameter of a red blood cell in scientific notation",
+    "convert a very small decimal to standard form",
+    "how to represent small numbers using powers of 10",
+    "transform the number into standard notation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "shift decimal",
+     "explain": "Move the decimal point to the right until one non-zero digit is on the left."
+    },
+    {
+     "step": 2,
+     "action": "count shifts",
+     "explain": "Count how many places the decimal was moved to determine the negative exponent."
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.4.2",
+   "title": "Conversion to Usual Form",
+   "section": "10.4",
+   "definition": "Expanding a number from standard scientific notation back into its full decimal or integer representation.",
+   "formula": "value = k * 10**n",
+   "key_idea": "Multiply the decimal by the power of 10 to restore the original number.",
+   "textbook_ref": "hemh110.txt lines 206-215",
+   "question_patterns": [
+    "express 3.52 * 10^5 in usual form",
+    "write 7.54 * 10^-4 as a decimal",
+    "convert the scientific notation to a standard number",
+    "what is the usual form of 3 * 10^-5",
+    "change from standard to usual notation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate value",
+     "explain": "Multiply the coefficient by 10 raised to the given exponent.",
+     "compute": "res = k * 10**n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.4.3",
+   "title": "Comparing Magnitudes in Standard Form",
+   "section": "10.4.1",
+   "definition": "Determining the relative size of two numbers by calculating the ratio of their standard form representations.",
+   "formula": "ratio = (k1 * 10**n1) / (k2 * 10**n2)",
+   "key_idea": "Divide the coefficients and subtract the exponents to compare scales.",
+   "textbook_ref": "hemh110.txt lines 176-195",
+   "question_patterns": [
+    "compare the diameter of sun and earth",
+    "how many times bigger is a plant cell than a red blood cell",
+    "find the ratio of mass of earth to moon",
+    "calculate the relative size of two small objects",
+    "compare two numbers written in standard form"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate first value",
+     "explain": "Convert the first standard form number to its full value.",
+     "compute": "v1 = k1 * 10**n1"
+    },
+    {
+     "step": 2,
+     "action": "calculate second value",
+     "explain": "Convert the second standard form number to its full value.",
+     "compute": "v2 = k2 * 10**n2"
+    },
+    {
+     "step": 3,
+     "action": "find ratio",
+     "explain": "Divide the first value by the second to find the comparison factor.",
+     "compute": "ratio = v1 / v2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.4.4",
+   "title": "Combined Thickness Calculation",
+   "section": "10.4.1",
+   "definition": "Calculating the total height of a stack containing multiple types of items by summing their individual total thicknesses.",
+   "formula": "total = (n1 * t1) + (n2 * t2)",
+   "key_idea": "Multiply count by thickness for each item type and then add the results.",
+   "textbook_ref": "hemh110.txt lines 235-240",
+   "question_patterns": [
+    "find the total thickness of a stack of 5 books and 5 papers",
+    "calculate the height of a pile of items",
+    "what is the combined thickness of books and sheets",
+    "find the total height of the stack",
+    "compute the aggregate thickness of the given layers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total thickness of books",
+     "explain": "Multiply the number of books by the thickness of one book.",
+     "compute": "tb = nb * db"
+    },
+    {
+     "step": 2,
+     "action": "total thickness of papers",
+     "explain": "Multiply the number of paper sheets by the thickness of one sheet.",
+     "compute": "tp = np * dp"
+    },
+    {
+     "step": 3,
+     "action": "sum thicknesses",
+     "explain": "Add the total thickness of books and papers to get the final stack height.",
+     "compute": "total = tb + tp"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh110.txt lines 105-110",
+   "concept": "hemh.110.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {b} raised to {e}",
+   "extracted_variables": {
+    "b": "base",
+    "e": "exponent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply exponentiation",
+     "explain": "Calculate the base raised to the negative power directly.",
+     "compute": "res = b**e"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh110.txt lines 105-110",
+   "concept": "hemh.110.2.1",
+   "question_type": "compute",
+   "question_pattern": "Evaluate 1 / ({b}**{e})",
+   "extracted_variables": {
+    "b": "base",
+    "e": "negative exponent in denominator"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply exponentiation",
+     "explain": "Calculate the reciprocal of the base raised to the negative power.",
+     "compute": "res = 1 / (b**e)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh110.txt lines 136-145",
+   "concept": "hemh.110.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find m so that (-3)**(m + {k}) * (-3)**{p} = (-3)**{q}",
+   "extracted_variables": {
+    "k": "constant in first exponent",
+    "p": "second exponent",
+    "q": "target exponent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum known exponents",
+     "explain": "Add the constant parts of the exponents on the left side.",
+     "compute": "sum_p = p + k"
+    },
+    {
+     "step": 2,
+     "action": "solve for m",
+     "explain": "Subtract the known sum from the target exponent on the right.",
+     "compute": "m = q - sum_p"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh110.txt lines 206-215",
+   "concept": "hemh.110.4.2",
+   "question_type": "compute",
+   "question_pattern": "Express {k} * 10**{n} in usual form",
+   "extracted_variables": {
+    "k": "coefficient",
+    "n": "exponent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate value",
+     "explain": "Multiply the coefficient by 10 raised to the given exponent.",
+     "compute": "res = k * 10**n"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh110.txt lines 176-185",
+   "concept": "hemh.110.4.3",
+   "question_type": "compute",
+   "question_pattern": "Compare the diameter of the Sun ({k1} * 10**{n1} m) with the diameter of the Earth ({k2} * 10**{n2} m)",
+   "extracted_variables": {
+    "k1": "sun coefficient",
+    "n1": "sun exponent",
+    "k2": "earth coefficient",
+    "n2": "earth exponent"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate first value",
+     "explain": "Convert the first standard form number to its full value.",
+     "compute": "v1 = k1 * 10**n1"
+    },
+    {
+     "step": 2,
+     "action": "calculate second value",
+     "explain": "Convert the second standard form number to its full value.",
+     "compute": "v2 = k2 * 10**n2"
+    },
+    {
+     "step": 3,
+     "action": "find ratio",
+     "explain": "Divide the first value by the second to find the comparison factor.",
+     "compute": "ratio = v1 / v2"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh110.txt lines 235-240",
+   "concept": "hemh.110.4.4",
+   "question_type": "compute",
+   "question_pattern": "In a stack there are {nb} books each of thickness {db} mm and {np} paper sheets each of thickness {dp} mm. What is the total thickness?",
+   "extracted_variables": {
+    "nb": "number of books",
+    "db": "thickness of one book",
+    "np": "number of papers",
+    "dp": "thickness of one paper"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total thickness of books",
+     "explain": "Multiply the number of books by the thickness of one book.",
+     "compute": "tb = nb * db"
+    },
+    {
+     "step": 2,
+     "action": "total thickness of papers",
+     "explain": "Multiply the number of paper sheets by the thickness of one sheet.",
+     "compute": "tp = np * dp"
+    },
+    {
+     "step": 3,
+     "action": "sum thicknesses",
+     "explain": "Add the total thickness of books and papers to get the final stack height.",
+     "compute": "total = tb + tp"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "hemh110.txt lines 166-195",
+   "questions": [
+    "Evaluate (i) 3^-2 (ii) (-4)^-2 (iii) (1/2)^-5",
+    "Simplify and express with positive exponent: (i) (-4)^5 / (-4)^8 (ii) (1/2^3)^2 (iii) (-3)^4 * (5/3)^4 (iv) (3^-7 / 3^-10) * 3^-5 (v) 2^-3 * (-7)^-3",
+    "Find the value of: (i) (3^0 + 4^-1) * 2^2 (ii) (2^-1 * 4^-1) / 2^-2 (iii) (1/2)^-2 + (1/3)^-2 + (1/4)^-2 (iv) (3^-1 + 4^-1 + 5^-1)^0 (v) {(-2/3)^-2}^2",
+    "Evaluate: (i) (8^-1 * 5^3) / 2^-4 (ii) (5^-1 * 2^-1) * 6^-1",
+    "Find the value of m for which 5^m / 5^-3 = 5^5",
+    "Evaluate: (i) {(1/3)^-1 - (1/4)^-1}^-1 (ii) (5/8)^-7 * (8/5)^-5",
+    "Simplify: (i) (25 * t^-4) / (5^-3 * 10 * t^-8) (ii) (3^-5 * 10^-5 * 125) / (5^-7 * 6^-5)"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "hemh110.txt lines 216-240",
+   "questions": [
+    "Express in standard form: (i) 0.0000000000085 (ii) 0.00000000000942 (iii) 6020000000000000 (iv) 0.00000000837 (v) 31860000000",
+    "Express in usual form: (i) 3.02 * 10^-6 (ii) 4.5 * 10^4 (iii) 3 * 10^-8 (iv) 1.0001 * 10^9 (v) 5.8 * 10^12 (vi) 3.61492 * 10^6",
+    "Express in standard form: (i) 1 micron = 1/1000000 m (ii) Electron charge = 0.000...16 C (iii) Bacteria size = 0.0000005 m (iv) Plant cell size = 0.00001275 m (v) Paper thickness = 0.07 mm",
+    "In a stack there are 5 books each of thickness 20mm and 5 paper sheets each of thickness 0.016 mm. What is the total thickness of the stack."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

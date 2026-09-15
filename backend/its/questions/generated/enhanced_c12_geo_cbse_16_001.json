@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_001",
+   "title": "c12_geo_cbse_16_001",
+   "questions": [
+    {
+     "q": "Define international trade in one sentence and state the fundamental geographical reason why it exists. (REMEMBER level)",
+     "a": "Correct answer: International trade is the exchange of goods, services, and capital across national borders, and it exists because natural resources, climate, technology, and labour skills are unevenly distributed across the Earth's surface, making no country self-sufficient. A wrong answer that defines trade only as \"buying and selling between countries\" without mentioning the geographical basis (uneven resource distribution) reveals the student has memorised a definition but not understood the spatial reasoning — they are treating it as an economic transaction rather than a geographical necessity arising from physical and human geography patterns.",
+     "self_check": true
+    },
+    {
+     "q": "India's international trade was worth Rs. 1,214 crore in 1950-51 and Rs. 77,19,796 crore in 2020-21. Calculate the percentage growth. Then explain why the growth accelerated sharply after 1991. (UNDERSTAND level)",
+     "a": "Correct calculation: ((77,19,796 - 1,214) / 1,214) × 100 = 6,35,830.5% growth. The sharp acceleration post-1991 was due to liberalisation policies: reduction in import duties, delicensing, shift from process to product patents, and diversification of markets — moving from a closed, import-substitution economy to an open, export-oriented one. A wrong answer that only calculates the percentage but attributes growth to \"globalisation\" without specifying policy changes (liberalisation, delicensing, patent regime shift) shows the student cannot link the quantitative jump to the specific structural reforms — they confuse the outcome (globalisation) with the cause (policy reform).",
+     "self_check": true
+    },
+    {
+     "q": "Given that India has a coastline of 7,516.6 km and 12 major ports, but the west coast has more ports than the east coast, explain why this asymmetry exists using physical geography. (APPLY level)",
+     "a": "Correct reasoning: The west coast (especially Gujarat and Maharashtra) has natural harbours formed by submerged coastlines, ria coasts, and estuaries (e.g., Mumbai, Kandla, Mormugao) due to the Western Ghats running parallel to the coast creating deep inlets. The east coast is largely emergent with deltas (Mahanadi, Godavari, Krishna, Kaveri) causing shallow waters, siltation, and fewer natural harbours — requiring artificial ports like Chennai, Ennore, Tuticorin. A wrong answer that says \"west coast is more developed\" or \"British built more ports there\" misses the physical geography basis: the student is applying historical/economic reasoning instead of the geomorphological control (Class 11: c11_geo_cbse_07_004: Deltas and Estuaries) that determines natural harbour formation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hinterland of Mumbai Port (Maharashtra, Gujarat, MP, UP, Rajasthan) with that of Kolkata Port (UP, Bihar, Jharkhand, West Bengal, Sikkim, NE states, Nepal, Bhutan). What does the overlap in their hinterlands (UP, Bihar) reveal about port hierarchy and transport networks? (ANALYZE level)",
+     "a": "Correct analysis: Overlapping hinterlands indicate that ports compete for the same inland market areas — the boundary is not fixed but shifts based on transport cost, railway connectivity, and port efficiency. Mumbai's hinterland extends northwest via the Western Ghats passes and rail links; Kolkata's extends north and northeast via the Ganga plain and rail corridors. The overlap in UP/Bihar means goods from these regions can exit via either port depending on freight rates, congestion, and shipping lines — showing that hinterland demarcation is dynamic, not static. A wrong answer that treats hinterlands as rigid, non-overlapping zones reveals the student has memorised the NCERT list but not grasped the geographical concept: hinterlands are functional regions shaped by transport networks (Class 11: c11_geo_cbse_21_002, c11_geo_cbse_21_003), not administrative boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Air transport's share in India's international trade volume is negligible, so investing in new airports under UDAN scheme is a misallocation of resources for trade promotion.\" (EVALUATE level)",
+     "a": "Correct evaluation: The statement is flawed — it confuses volume (tonnage) with value. Air cargo handles <5% of volume but ~30-35% of value (high-value, low-weight: gems, pharmaceuticals, electronics, perishables). UDAN airports improve regional connectivity, enabling perishable agricultural exports (mangoes from UP, flowers from Karnataka, spices from Kerala) to reach global markets quickly. Judging trade infrastructure solely by tonnage ignores the composition shift toward high-value manufactures (Class 12: c12_geo_cbse_16_005, c12_geo_cbse_16_006). A wrong answer that agrees with the statement shows the student cannot distinguish between volume-based and value-based trade analysis — a critical error in both board exams (where composition matters) and competitive exams (where sectoral shifts are tested).",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new minor port on the Odisha coast to handle iron ore exports from the Keonjhar-Sundargarh belt. Specify: (a) locational advantages, (b) hinterland connectivity needed, (c) one environmental constraint to mitigate. (CREATE level)",
+     "a": "Expected answer: (a) Locational advantage: Deep natural harbour at Dhamra or Gopalpur (like Paradip's Mahanadi delta location) with minimal dredging, proximity to Keonjhar-Sundargarh iron ore belt (~150 km), and direct access to Bay of Bengal shipping lanes to China/Japan/Korea. (b) Hinterland connectivity: Dedicated freight rail corridor from mining belt to port (like Paradip's rail link), slurry pipeline for ore concentrate, and NH-20/NH-49 upgrades for truck transport. (c) Environmental constraint: Olive Ridley turtle nesting sites at Gahirmatha (near Dhamra) — mitigate by seasonal shipping restrictions, turtle-excluder devices on dredgers, and no-expansion buffer zone. A poor answer that picks a location without geological justification, ignores rail/pipe connectivity, or omits the turtle conservation issue reveals the student cannot integrate physical geography (coastal geomorphology), economic geography (mineral transport), and environmental geography (coastal ecology) — the integrative thinking Class 12 demands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

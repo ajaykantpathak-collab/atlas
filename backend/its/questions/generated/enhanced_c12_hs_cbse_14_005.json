@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_005",
+   "title": "c12_hs_cbse_14_005",
+   "questions": [
+    {
+     "q": "What is the chemical composition of temporary hardness in water, and why does boiling remove it?",
+     "a": "Temporary hardness is caused by dissolved calcium and magnesium bicarbonates, Ca(HCO₃)₂ and Mg(HCO₃)₂. Boiling decomposes these bicarbonates into insoluble carbonates (CaCO₃, MgCO₃), carbon dioxide, and water, thus removing the hardness ions from solution. A wrong answer (e.g., \"boiling removes all hardness\" or \"temporary hardness is due to sulfates\") reveals confusion between temporary and permanent hardness and ignorance of the thermal decomposition reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why hard water reduces the cleaning efficiency of soap but not necessarily of synthetic detergents.",
+     "a": "Soap anions (RCOO⁻) react with Ca²⁺/Mg²⁺ to form insoluble calcium/magnesium salts of fatty acids (scum), which waste soap and deposit on fabrics. Synthetic detergents have sulfonate or sulfate head groups (R-SO₃⁻ Na⁺) whose calcium/magnesium salts remain soluble, so they do not form scum and retain cleaning power. A wrong answer (e.g., \"detergents are stronger\" or \"soap doesn't work in cold water\") shows a lack of understanding of the specific precipitation reaction and the structural difference between soap and detergent anions.",
+     "self_check": true
+    },
+    {
+     "q": "A household receives groundwater that leaves a white crust on the inside of a kettle after boiling. The family uses this water for washing colored cotton sarees with a mild soap. Recommend a softening method, write the chemical reaction involved, and explain why boiling alone is insufficient.",
+     "a": "The white crust indicates temporary hardness (calcium bicarbonate). Boiling will remove it, but for laundry, boiling the entire wash water is impractical. Adding washing soda (Na₂CO₃) is suitable: Ca(HCO₃)₂ + Na₂CO₃ → 2CaCO₃↓ + 2NaHCO₃. This precipitates calcium carbonate, softening the water without heating. Boiling alone is insufficient because it requires heating large volumes of water, which is energy‑intensive and does not address any permanent hardness that may also be present. A wrong recommendation (e.g., \"use more soap\" or \"add vinegar\") shows inability to match the method to the hardness type and practical constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of using washing soda versus an ion-exchange water softener on (a) water pH, (b) sodium content of softened water, and (c) suitability for washing wool and silk.",
+     "a": "Washing soda (Na₂CO₃) raises water pH to ~11 (alkaline), adds significant sodium (2 Na⁺ per Ca²⁺ removed), and is unsuitable for wool/silk because high pH hydrolyzes protein fibres. Ion-exchange softeners replace Ca²⁺/Mg²⁺ with Na⁺ without drastically changing pH (near neutral), also add sodium but in a controlled manner, and are safer for delicate fabrics if followed by a thorough rinse. A wrong comparison (e.g., \"both make water alkaline\" or \"ion exchange removes sodium\") indicates misunderstanding of the chemical mechanisms and fabric‑care implications.",
+     "self_check": true
+    },
+    {
+     "q": "A laundry service in a hard‑water area must choose between installing a central ion‑exchange softener (capital cost ₹50,000, recurring salt cost ₹2,000/month) or switching entirely to a high‑quality synthetic detergent (extra cost ₹15/kg, using 50 kg/month). Evaluate both options over a 2‑year period considering total cost, fabric life, and environmental impact of sodium discharge. Which would you recommend and why?",
+     "a": "Ion‑exchange total cost = ₹50,000 + (₹2,000 × 24) = ₹98,000. Detergent extra cost = ₹15 × 50 × 24 = ₹18,000. The detergent option is far cheaper. However, ion‑exchange protects all fabrics (including those washed with soap) and reduces overall chemical load per wash, while high detergent use increases surfactant discharge. For a service handling delicate fabrics and mixed loads, ion‑exchange may justify the higher cost. A recommendation based solely on cost without considering fabric variety or environmental regulations shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to determine whether a given water sample has temporary hardness, permanent hardness, or both. List the steps, observations, and conclusions you would draw.",
+     "a": "1. Take three test tubes with equal volumes of the water sample. 2. To Tube A, add soap solution and shake — scum formation indicates hardness. 3. Boil Tube B for 10 minutes, cool, then add soap — if scum disappears, temporary hardness was present. 4. To Tube C (unboiled), add washing soda, shake, filter, then add soap — if scum disappears, permanent hardness was present. 5. Conclusion: If only Tube B gives lather → only temporary hardness; if only Tube C gives lather → only permanent hardness; if both B and C give lather → both types present. A poor design (e.g., skipping the boiling step or not using a control) fails to isolate the hardness type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

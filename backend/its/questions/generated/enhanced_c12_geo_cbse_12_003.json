@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_003",
+   "title": "c12_geo_cbse_12_003",
+   "questions": [
+    {
+     "q": "What is the coefficient of variation (CV) of annual rainfall in the Thar Desert region of Rajasthan, and how does it compare to the Western Ghats?",
+     "a": "The coefficient of variation (CV) of annual rainfall in the Thar Desert region is 40-50%, while in the Western Ghats it is only 10-15%. A wrong answer (e.g., stating CV is uniform across India or reversing the values) reveals the student has not internalized the extreme spatial heterogeneity of Indian monsoon rainfall — the core driver of region-specific water scarcity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Punjab-Haryana region face severe groundwater depletion despite receiving moderate rainfall (500-700 mm/year), while Kerala with 3000 mm/year has fewer groundwater issues?",
+     "a": "Punjab-Haryana's depletion is driven by: (1) high irrigation demand for water-intensive rice-wheat cropping (92% groundwater use for agriculture), (2) low natural recharge due to low rainfall CV but high seasonal concentration (monsoon only), and (3) free electricity incentivizing over-extraction. Kerala's high rainfall is spread over more months, has high natural recharge from laterite soils, and lower irrigation dependency. A wrong answer focusing only on total rainfall amount misses the critical role of demand-side factors and recharge efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Using the formula CV = (Standard Deviation / Mean) × 100, calculate the coefficient of variation for a station with 30-year mean annual rainfall of 800 mm and standard deviation of 240 mm. Classify this station's rainfall variability as low (<20%), moderate (20-30%), or high (>30%) per IMD classification, and name one Indian region where such variability is typical.",
+     "a": "CV = (240/800) × 100 = 30%. This falls in the high variability category (>30%). Typical regions: Rajasthan, Gujarat, interior Deccan plateau (e.g., Ahmednagar, Anantapur). A wrong calculation (e.g., forgetting ×100 gives 0.3) or misclassification (calling 30% moderate) shows inability to apply quantitative variability metrics to real regions — a skill needed for drought risk mapping in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the water scarcity drivers in the Indus basin (Punjab-Haryana) vs the Pennar basin (Andhra Pradesh). How do rainfall variability, cropping pattern, and groundwater geology interact differently in these two basins?",
+     "a": "Indus basin: Moderate rainfall (500-700 mm) but low CV (~20%); scarcity driven by anthropogenic factors — rice-wheat system, free power, 85% net sown area irrigated, alluvial aquifers with high transmissivity enabling rapid depletion. Pennar basin: Low rainfall (500-600 mm) with high CV (30-40%); scarcity driven by physical factors — hard rock aquifers (low storage, slow recharge), erratic monsoon, traditional tank irrigation decay. A generic answer listing \"overuse\" for both misses the distinct hydrogeological and institutional drivers that require different policy responses.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's water scarcity is primarily caused by low rainfall.\" Use evidence from at least three distinct regions to support your evaluation.",
+     "a": "The statement is incorrect. Evidence: (1) Cherrapunji (11,000 mm) faces seasonal scarcity due to lack of storage and high runoff; (2) Punjab (700 mm) has physical scarcity from over-extraction, not rainfall deficit; (3) Bengaluru (900 mm) faces economic scarcity from infrastructure gaps and pollution. Scarcity is a function of variability, demand, storage capacity, and governance — not just rainfall amount. A student agreeing with the statement confuses aridity with scarcity and ignores human drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a water security plan for a hypothetical district in the Bundelkhand region (UP/MP) with 800 mm mean rainfall, CV=35%, hard rock terrain, and 70% rainfed agriculture. Your plan must address: (a) supply augmentation, (b) demand management, (c) quality protection, and (d) institutional mechanism. Justify each component with geographical reasoning.",
+     "a": "A good answer includes: (a) Supply: check dams on seasonal streams, farm ponds, recharge shafts targeting fracture zones in hard rock — justified by high runoff coefficient and low natural recharge; (b) Demand: shift from water-intensive crops to millets/pulses, micro-irrigation subsidies — justified by high CV making assured irrigation impossible; (c) Quality: fluoride/arsenic monitoring, separate drinking water pipelines — justified by geogenic contamination in hard rock aquifers; (d) Institution: Gram Panchayat-led water budgeting with Jal Shakti Abhiyan convergence — justified by community participation success in Ralegan Siddhi. A poor answer lists generic measures without linking to Bundelkhand's specific hydrogeology and variability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

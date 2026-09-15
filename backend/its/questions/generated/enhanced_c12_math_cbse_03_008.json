@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_008",
+   "title": "c12_math_cbse_03_008",
+   "questions": [
+    {
+     "q": "If \\(A = \\begin{bmatrix} 2 & -1 & 0 \\\\ 3 & 4 & 5 \\end{bmatrix}\\), write the transpose \\(A'\\) and state its order.",
+     "a": "\\(A' = \\begin{bmatrix} 2 & 3 \\\\ -1 & 4 \\\\ 0 & 5 \\end{bmatrix}\\) of order \\(3 \\times 2\\). A wrong answer such as keeping the same order \\(2 \\times 3\\) or writing \\(\\begin{bmatrix} 2 & -1 \\\\ 3 & 4 \\\\ 0 & 5 \\end{bmatrix}\\) reveals that the student has not understood that rows become columns and the order changes from \\(m \\times n\\) to \\(n \\times m\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((A')' = A\\) is always true for any matrix \\(A\\). Use the definition of transpose in your explanation.",
+     "a": "Transpose swaps rows and columns: \\((A')_{ij} = a_{ji}\\). Applying transpose again gives \\(((A')')_{ij} = (A')_{ji} = a_{ij}\\), which is exactly the original element. Hence \\((A')' = A\\). A wrong answer that merely states \"it's a property\" without referencing the index swap shows the student memorized the rule but does not understand the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Let \\(A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}\\) and \\(B = \\begin{bmatrix} 5 & 6 \\\\ 7 & 8 \\end{bmatrix}\\). Compute \\((A+B)'\\) and \\(A' + B'\\) and verify they are equal.",
+     "a": "\\(A+B = \\begin{bmatrix} 6 & 8 \\\\ 10 & 12 \\end{bmatrix}\\), so \\((A+B)' = \\begin{bmatrix} 6 & 10 \\\\ 8 & 12 \\end{bmatrix}\\). \\(A' = \\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix}\\), \\(B' = \\begin{bmatrix} 5 & 7 \\\\ 6 & 8 \\end{bmatrix}\\), so \\(A' + B' = \\begin{bmatrix} 6 & 10 \\\\ 8 & 12 \\end{bmatrix}\\). They match. A common error is to add the transposes incorrectly (e.g., adding row-wise instead of element-wise) or to forget that addition is element-wise, revealing a shaky grasp of matrix addition.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\(A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\end{bmatrix}_{2 \\times 3}\\) and \\(B = \\begin{bmatrix} 7 & 8 \\\\ 9 & 10 \\\\ 11 & 12 \\end{bmatrix}_{3 \\times 2}\\), compute \\((AB)'\\) and \\(B'A'\\). Are they equal? What does this tell you about the order of multiplication in the transpose of a product?",
+     "a": "\\(AB = \\begin{bmatrix} 58 & 64 \\\\ 139 & 154 \\end{bmatrix}\\), so \\((AB)' = \\begin{bmatrix} 58 & 139 \\\\ 64 & 154 \\end{bmatrix}\\). \\(B' = \\begin{bmatrix} 7 & 9 & 11 \\\\ 8 & 10 & 12 \\end{bmatrix}\\), \\(A' = \\begin{bmatrix} 1 & 4 \\\\ 2 & 5 \\\\ 3 & 6 \\end{bmatrix}\\), \\(B'A' = \\begin{bmatrix} 58 & 139 \\\\ 64 & 154 \\end{bmatrix}\\). They are equal. The order of multiplication reverses: \\((AB)' = B'A'\\). A student who computes \\(A'B'\\) (which is not even defined because \\(A'\\) is \\(3 \\times 2\\) and \\(B'\\) is \\(2 \\times 3\\)) or claims \\((AB)' = A'B'\\) has not internalized the reversal rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for any scalar \\(k\\) and matrix \\(A\\), \\((kA)' = kA'\\) is false because \"the scalar should also be transposed\". Evaluate this claim and explain why the student is wrong.",
+     "a": "The claim is false. Transpose acts only on the matrix entries; a scalar has no rows or columns to interchange. By definition, \\((kA)_{ij} = k a_{ij}\\), so \\(((kA)')_{ij} = (kA)_{ji} = k a_{ji} = k (A')_{ij}\\). Hence \\((kA)' = kA'\\). The student's error shows a misunderstanding that transpose is an operation on the array structure, not on the scalar multiplier.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \\(2 \\times 3\\) matrix \\(A\\) and a \\(3 \\times 2\\) matrix \\(B\\) such that \\((AB)' \\neq A'B'\\) (i.e., the product \\(A'B'\\) is defined but gives a different matrix). Show your work.",
+     "a": "Take \\(A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{bmatrix}\\), \\(B = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\\\ 0 & 0 \\end{bmatrix}\\). Then \\(AB = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\), \\((AB)' = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\). \\(A' = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\\\ 0 & 0 \\end{bmatrix}\\), \\(B' = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{bmatrix}\\), \\(A'B' = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix} \\neq (AB)'\\). A student who cannot produce such a counterexample likely thinks \\((AB)' = A'B'\\) always holds, missing the crucial reversal of order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

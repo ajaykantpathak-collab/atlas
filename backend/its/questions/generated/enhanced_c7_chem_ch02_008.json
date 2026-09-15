@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_008",
+   "title": "c7_chem_ch02_008",
+   "questions": [
+    {
+     "q": "Which of the following best defines a desirable change in our daily life?\nA) A change that releases a foul smell and destroys food\nB) A change that is useful, beneficial, and improves our quality of life\nC) A change that permanently damages metal structures\nD) A change that occurs only in a chemistry laboratory",
+     "a": "The correct answer is B. Desirable changes are those that bring positive outcomes, utility, or benefits to human life, such as cooking food or germination of seeds. A student who picks A, C, or D is confusing desirable changes with undesirable or destructive changes like food spoilage and rusting.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the rusting of an iron gate considered an undesirable change even though it is a natural chemical process?\nA) Because it makes the iron gate change its color to shiny silver\nB) Because it produces a sweet fragrance in the garden\nC) Because it weakens the structural strength of the iron and causes financial loss\nD) Because it reverses itself automatically within 24 hours",
+     "a": "The correct answer is C. Rusting degrades the metal by forming hydrated iron(III) oxide ($Fe_2O_3 \\cdot xH_2O$), which weakens tools and structures, making it harmful and thus undesirable. A student who picks A or B misunderstands the physical and sensory effects of rust, while picking D shows confusion about the irreversibility of rusting.",
+     "self_check": true
+    },
+    {
+     "q": "A baker prepares dough, adds yeast, and bakes bread. Is the rising and baking of bread considered a desirable or undesirable change, and why?\nA) Undesirable, because it is a permanent chemical change that cannot be reversed back to flour.\nB) Desirable, because it creates a nutritious, edible food product from ingredients through useful chemical transformations.\nC) Undesirable, because baking releases heat into the kitchen.\nD) Desirable, because the bread can be melted back into liquid batter by heating.",
+     "a": "The correct answer is B. Baking bread is a chemical change that creates a useful and nourishing food item, making it highly desirable despite being irreversible. A student who picks A incorrectly assumes that all permanent or irreversible changes are automatically undesirable, failing to distinguish between permanent destruction (like burning a house) and permanent creation of useful goods (like baking bread or cooking food).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the chemical reaction of burning coal for thermal energy: $C + O_2 \\rightarrow CO_2 + Heat$. Why is this change considered both desirable and undesirable simultaneously in modern society?\nA) It is desirable because it produces electricity, but undesirable because it releases carbon dioxide gas ($CO_2$) which contributes to air pollution and climate change.\nB) It is desirable because it turns coal into liquid water, and undesirable because it makes the coal heavier.\nC) It is desirable because it is a physical change, and undesirable because it cannot be reversed.\nD) It is desirable because it creates more coal, and undesirable because it consumes oxygen.",
+     "a": "The correct answer is A. Many industrial and energy-producing changes provide vital utility (desirable) while simultaneously generating harmful pollutants or environmental degradation (undesirable). A student who picks B or D demonstrates severe misconceptions about combustion products and conservation of mass, while picking C incorrectly classifies combustion as a physical change.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All chemical changes are undesirable because they form new substances, and all physical changes are desirable because no new substances are formed.\" Evaluate this claim.\nA) The claim is completely correct; new substances are always harmful.\nB) The claim is incorrect because chemical changes like photosynthesis are essential for life, and physical changes like shattering a glass window are undesirable.\nC) The claim is correct because physical changes never cost money.\nD) The claim is incorrect only because physical changes cannot be observed.",
+     "a": "The correct answer is B. The desirability of a change depends on its utility and impact on living beings, not simply whether it is classified as physical or chemical. Photosynthesis is a chemical change vital for survival, whereas breaking a glass window is a physical change that is unwanted and destructive. A student who picks A or C fails to link chemical reactions to biological necessity or economic value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where a change that is normally classified as \"undesirable\" (such as the decomposition of organic matter) becomes a \"desirable\" change. Explain the chemical or practical reasoning behind your scenario.\nA) Poor answer: Decomposition is always bad because it smells bad.\nB) Good answer: In organic farming and composting, the controlled decomposition of kitchen waste and dry leaves by microbes is a desirable change because it produces nutrient-rich humus and manure that fertilize soil for crops.",
+     "a": "The expected answer should recognize that context dictates desirability. While random food spoilage is undesirable, managed biological breakdown (composting) converts waste into valuable agricultural fertilizer. A poor answer like A relies purely on sensory perception (smell) without analyzing the broader ecological and agricultural utility of the process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "catalog": "catalog_class11_biology_ch102",
+ "concepts": [
+  {
+   "id": "jebh.2.1",
+   "title": "Two Kingdom Classification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Two Kingdom Classification' refers to.",
+     "a": "The earliest system of classification proposed by Carl Linnaeus (1758) that divided all living organisms into two kingdoms - Plantae and Animalia - based on basic morphological and structural differences.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Two Kingdom Classification'.",
+     "a": "Linnaeus divided living organisms into two kingdoms based on presence/absence of cell wall, mode of nutrition, and locomotion ability.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Two Kingdom Classification'.",
+     "a": "Who proposed the two kingdom system of classification?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.2",
+   "title": "Five Kingdom Classification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Five Kingdom Classification' refers to.",
+     "a": "A classification system proposed by R.H. Whittaker (1969) that grouped living organisms into five kingdoms - Monera, Protista, Fungi, Plantae and Animalia - based on cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Kingdom Classification'.",
+     "a": "Whittaker used five main criteria: cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships to classify organisms into five kingdoms.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Five Kingdom Classification'.",
+     "a": "Who proposed the five kingdom classification?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.3",
+   "title": "Kingdom Monera",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kingdom Monera' refers to.",
+     "a": "Kingdom Monera comprises all prokaryotic organisms including bacteria, archaebacteria, and eubacteria. They lack a true nucleus, membrane-bound organelles, and have a single circular chromosome.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kingdom Monera'.",
+     "a": "Monera contains prokaryotic organisms (bacteria) that lack a nuclear membrane and membrane-bound organelles, divided into archaebacteria and eubacteria based on habitat and cell wall composition.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kingdom Monera'.",
+     "a": "What are the main characteristics of Kingdom Monera?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.4",
+   "title": "Kingdom Protista",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kingdom Protista' refers to.",
+     "a": "Kingdom Protista includes all single-celled eukaryotic organisms that have a well-defined nucleus and membrane-bound organelles. It forms a link with plants, animals, and fungi.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kingdom Protista'.",
+     "a": "Protista consists of unicellular eukaryotes including chrysophytes, dinoflagellates, euglenoids, slime moulds, and protozoans, showing diverse modes of nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kingdom Protista'.",
+     "a": "What are the characteristics of Kingdom Protista?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.5",
+   "title": "Kingdom Fungi",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kingdom Fungi' refers to.",
+     "a": "Kingdom Fungi comprises heterotrophic eukaryotic organisms that are saprophytic or parasitic, with a cell wall made of chitin. They show a wide variety of forms and reproduce by spores.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kingdom Fungi'.",
+     "a": "Fungi are heterotrophic eukaryotes with chitinous cell walls, classified into phycomycetes, ascomycetes, basidiomycetes, and deuteromycetes based on reproductive structures.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kingdom Fungi'.",
+     "a": "What are the general characteristics of Kingdom Fungi?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.6",
+   "title": "Kingdom Plantae",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kingdom Plantae' refers to.",
+     "a": "Kingdom Plantae includes all eukaryotic, chlorophyll-containing, autotrophic organisms commonly called plants. It is divided into various divisions including algae, bryophytes, pteridophytes, gymnosperms, and angiosperms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kingdom Plantae'.",
+     "a": "Plantae comprises autotrophic eukaryotes with cellulose cell walls, classified into algae, bryophytes, pteridophytes, gymnosperms, and angiosperms based on differentiation and reproductive structures.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kingdom Plantae'.",
+     "a": "What are the main characteristics of Kingdom Plantae?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.7",
+   "title": "Kingdom Animalia",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kingdom Animalia' refers to.",
+     "a": "Kingdom Animalia includes all heterotrophic, multicellular eukaryotic organisms that lack a cell wall. Animals are directly or indirectly dependent on plants for food and show varied levels of organization.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kingdom Animalia'.",
+     "a": "Animalia comprises heterotrophic, multicellular eukaryotes without cell walls, classified based on body symmetry, coelom, segmentation, and presence/absence of notochord.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kingdom Animalia'.",
+     "a": "What are the main characteristics of Kingdom Animalia?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.8",
+   "title": "Viruses, Viroids, Prions and Lichens",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Viruses, Viroids, Prions and Lichens' refers to.",
+     "a": "Viruses are acellular obligate parasites with protein coat (capsid) and genetic material (RNA or DNA). Viroids are free infectious RNA molecules. Prions are infectious proteins. Lichens are symbiotic associations of fungi and algae.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Viruses, Viroids, Prions and Lichens'.",
+     "a": "Viruses, viroids, and prions are acellular infectious agents not included in the five kingdom system, while lichens are symbiotic organisms showing mutualism between fungi and algae.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Viruses, Viroids, Prions and Lichens'.",
+     "a": "Why are viruses not included in the five kingdom classification?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.9",
+   "title": "Three Domain Classification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Three Domain Classification' refers to.",
+     "a": "A classification system proposed by Carl Woese (1990) based on differences in 16S rRNA sequences, dividing organisms into three domains: Bacteria (eubacteria), Archaea (archaebacteria), and Eukarya (all eukaryotes).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Three Domain Classification'.",
+     "a": "Woese proposed three domains based on rRNA characteristics: Domain Bacteria, Domain Archaea, and Domain Eukarya, separating archaebacteria from eubacteria due to fundamental molecular differences.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Three Domain Classification'.",
+     "a": "Who proposed the three domain classification?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.2.10",
+   "title": "Advantages and Limitations of Classification Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Advantages and Limitations of Classification Systems' refers to.",
+     "a": "Classification systems have evolved from two kingdom to five kingdom and three domain systems, each addressing limitations of the previous system while introducing new criteria based on advancing biological knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Advantages and Limitations of Classification Systems'.",
+     "a": "Each classification system improved upon the previous one by incorporating new criteria (cell structure, nutrition, phylogeny, molecular data) but none is perfect as new discoveries like viruses and lichens challenge existing frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Advantages and Limitations of Classification Systems'.",
+     "a": "What are the advantages of the five kingdom classification?",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

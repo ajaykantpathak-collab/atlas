@@ -1,0 +1,324 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Comparing Quantities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.107.7.1",
+   "title": "Ratio and Percentage Recap",
+   "section": "7.1",
+   "definition": "Ratios compare quantities and percentages express fractions per hundred, so converting between them is a matter of scaling: a ratio a : b becomes the percentage a over a plus b times 100, and any per cent becomes a fraction over 100 for further use.",
+   "formula": "percent = a / (a + b) * 100",
+   "key_idea": "Every ratio hides a percentage: split the whole into parts and scale to hundred.",
+   "textbook_ref": "hemh107.txt section 7.1 (recalling ratios and percentages)",
+   "question_patterns": [
+    "convert the ratio 3 : 2 into a percentage",
+    "express the given per cent as a ratio",
+    "what per cent of the mixture is the first ingredient in the ratio a : b",
+    "find the percentage of boys in a class with the given ratio",
+    "convert 0.45 into a percentage and a ratio",
+    "compare two quantities per cent to per cent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the first part over the whole",
+     "explain": "The whole is a plus b for a two-term ratio.",
+     "compute": "frac = a / (a + b)"},
+    {"step": 2, "action": "scale to hundred",
+     "explain": "Multiplying by 100 reads the fraction per cent.",
+     "compute": "percent = frac * 100"}
+   ]
+  },
+  {
+   "id": "hemh.107.7.2",
+   "title": "Finding Discounts",
+   "section": "7.2",
+   "definition": "A discount is a cut on the marked price, usually quoted per cent: discount equals rate per cent of marked price, and the selling price is what survives after the cut - marked price minus discount.",
+   "formula": "discount = marked * rate / 100",
+   "key_idea": "Per cent off the marked price: 20 per cent off 500 rupees is 100 rupees off.",
+   "textbook_ref": "hemh107.txt section 7.2 (finding discounts, discount percentage)",
+   "question_patterns": [
+    "find the discount and selling price when the marked price is 1200 at 20 per cent off",
+    "the listed price of a shirt is given with a discount - what does the customer pay",
+    "find the discount per cent when the marked and selling prices are given",
+    "an item marked 750 rupees sells for 600 - find the discount per cent",
+    "calculate the discount amount for the given rate",
+    "which shop offers the bigger discount per cent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the rate of the marked price",
+     "explain": "Discount equals rate over 100 times the marked price.",
+     "compute": "discount = marked * rate / 100"},
+    {"step": 2, "action": "subtract from the marked price",
+     "explain": "The selling price is what remains.",
+     "compute": "selling = marked - discount"}
+   ]
+  },
+  {
+   "id": "hemh.107.7.3",
+   "title": "Sales Tax and Value Added Tax",
+   "section": "7.3",
+   "definition": "Purchases carry sales tax charged as a per cent of the bill: tax equals rate per cent of the price, and the final bill is the price plus this tax, so a 10 per cent tax on 1000 rupees adds 100 rupees.",
+   "formula": "tax = price * rate / 100",
+   "key_idea": "Add the tax per cent of the price to get the amount actually paid.",
+   "textbook_ref": "hemh107.txt section 7.3 (sales tax, VAT)",
+   "question_patterns": [
+    "find the final bill when 8 per cent sales tax is charged on 2500 rupees",
+    "the price of a fan is given - find the total cost including sales tax",
+    "calculate the tax amount for the given rate",
+    "the total paid is given with the tax rate - find the list price",
+    "what does VAT mean for the customer",
+    "compute the amount paid for the item including tax"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the tax",
+     "explain": "Rate over 100 times the price of the item.",
+     "compute": "tax = price * rate / 100"},
+    {"step": 2, "action": "add to the price",
+     "explain": "The bill is price plus tax.",
+     "compute": "final = price + tax"}
+   ]
+  },
+  {
+   "id": "hemh.107.7.4",
+   "title": "Compound Interest",
+   "section": "7.4",
+   "definition": "Compound interest is interest on interest: each year's interest joins the principal, so the amount grows as principal times (1 plus rate over 100) raised to the number of years, and the interest is the amount minus the original principal.",
+   "formula": "amount = principal * (1 + rate / 100) ** time",
+   "key_idea": "Recompute the base every period: P(1 + r/100) to the power n, minus P, is the interest.",
+   "textbook_ref": "hemh107.txt sections 7.4-7.6 (compound interest and applications)",
+   "question_patterns": [
+    "find the compound interest on 8000 rupees at 5 per cent per annum for 2 years",
+    "find the amount when interest is compounded annually",
+    "in how many years will the sum double at the given rate",
+    "compare simple and compound interest for the given data",
+    "what sum lent at the given rate gives the stated amount",
+    "find the population after growth at the given rate per year using the CI formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the growth factor",
+     "explain": "1 plus rate over 100 raised to time compounds the rate.",
+     "compute": "factor = (1 + rate / 100) ** time"},
+    {"step": 2, "action": "scale the principal",
+     "explain": "The amount is principal times the factor.",
+     "compute": "amount = principal * factor"}
+   ]
+  },
+  {
+   "id": "hemh.107.7.5",
+   "title": "Growth and Decay Applications",
+   "section": "7.6",
+   "definition": "The compound interest formula applies wherever change compounds - population growth at 2 per cent a year, value of an item depreciating at 8 per cent a year - with a negative rate shrinking the quantity instead of growing it.",
+   "formula": "new_value = initial * (1 + rate / 100) ** time",
+   "key_idea": "Same formula, different story: growth with a positive rate, decay with a negative one.",
+   "textbook_ref": "hemh107.txt section 7.6 (applications of compound interest formula)",
+   "question_patterns": [
+    "the population of a town grows at 2 per cent per annum - find it after 2 years",
+    "a scooter bought 3 years ago depreciates at 8 per cent - find its present value",
+    "find the number of bacteria after the given growth per hour",
+    "by what per cent did the value fall over the given years",
+    "apply the compound formula to the given growth rate",
+    "find the depreciated value of the machine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the rate sign",
+     "explain": "Growth adds a positive rate; depreciation uses a negative one."},
+    {"step": 2, "action": "apply the compounding formula",
+     "explain": "Multiply the initial value by (1 plus or minus rate over 100) to the power of years."},
+    {"step": 3, "action": "state the result",
+     "explain": "The product is the value after the given period."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh107.txt section 7.1 ratio to percentage",
+   "concept": "hemh.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "Convert the ratio {a} : {b} into a percentage.",
+   "extracted_variables": {
+    "a": "first term of the ratio",
+    "b": "second term of the ratio"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the fraction of the whole",
+     "explain": "a over a plus b.",
+     "compute": "frac = a / (a + b)"},
+    {"step": 2, "action": "scale to hundred",
+     "explain": "Multiply by 100 for the percentage.",
+     "compute": "percent = frac * 100"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh107.txt section 7.1 practice",
+   "concept": "hemh.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "In a class with boys to girls ratio {a} : {b}, find the percentage of the first group.",
+   "extracted_variables": {
+    "a": "count of the first group per ratio",
+    "b": "count of the second group per ratio"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the fraction of the whole",
+     "explain": "First group over total strength.",
+     "compute": "frac = a / (a + b)"},
+    {"step": 2, "action": "scale to hundred",
+     "explain": "Percentage follows.",
+     "compute": "percent = frac * 100"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh107.txt section 7.2 discount examples",
+   "concept": "hemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "The marked price of an item is {marked} rupees with a discount of {rate} per cent. Find the selling price.",
+   "extracted_variables": {
+    "marked": "marked price in rupees",
+    "rate": "discount rate per cent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the discount",
+     "explain": "Rate per cent of the marked price.",
+     "compute": "discount = marked * rate / 100"},
+    {"step": 2, "action": "subtract for the selling price",
+     "explain": "Marked minus discount.",
+     "compute": "selling = marked - discount"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh107.txt section 7.2 practice",
+   "concept": "hemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find the discount when {marked} rupees item is sold at {rate} per cent off.",
+   "extracted_variables": {
+    "marked": "marked price",
+    "rate": "discount per cent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the discount",
+     "explain": "Discount equals rate over 100 times marked.",
+     "compute": "discount = marked * rate / 100"},
+    {"step": 2, "action": "subtract for the selling price",
+     "explain": "The customer pays the balance.",
+     "compute": "selling = marked - discount"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh107.txt section 7.3 sales tax examples",
+   "concept": "hemh.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "An item costs {price} rupees and attracts {rate} per cent sales tax. Find the amount to be paid.",
+   "extracted_variables": {
+    "price": "list price in rupees",
+    "rate": "tax rate per cent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the tax",
+     "explain": "Rate over 100 times price.",
+     "compute": "tax = price * rate / 100"},
+    {"step": 2, "action": "add to the price",
+     "explain": "The bill is price plus tax.",
+     "compute": "final = price + tax"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh107.txt section 7.3 practice",
+   "concept": "hemh.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "A purchase of {price} rupees carries {rate} per cent tax. What is the final bill?",
+   "extracted_variables": {
+    "price": "price before tax",
+    "rate": "tax per cent"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the tax",
+     "explain": "Tax is the rate per cent of the price.",
+     "compute": "tax = price * rate / 100"},
+    {"step": 2, "action": "add to the price",
+     "explain": "Total equals price plus tax.",
+     "compute": "final = price + tax"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh107.txt section 7.4 compound interest example",
+   "concept": "hemh.107.7.4",
+   "question_type": "compute",
+   "question_pattern": "Find the amount on {principal} rupees at {rate} per cent per annum compounded annually for {time} years.",
+   "extracted_variables": {
+    "principal": "original sum in rupees",
+    "rate": "rate per cent per annum",
+    "time": "number of years"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the growth factor",
+     "explain": "(1 + rate/100) to the power time.",
+     "compute": "factor = (1 + rate / 100) ** time"},
+    {"step": 2, "action": "scale the principal",
+     "explain": "Amount equals principal times factor.",
+     "compute": "amount = principal * factor"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh107.txt section 7.4 interest practice",
+   "concept": "hemh.107.7.4",
+   "question_type": "compute",
+   "question_pattern": "Find the compound interest on {principal} rupees for {time} years at {rate} per cent per annum.",
+   "extracted_variables": {
+    "principal": "principal sum",
+    "rate": "annual rate per cent",
+    "time": "years"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the growth factor",
+     "explain": "Compound the rate over the years.",
+     "compute": "factor = (1 + rate / 100) ** time"},
+    {"step": 2, "action": "scale the principal",
+     "explain": "The amount is principal times the factor.",
+     "compute": "amount = principal * factor"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hemh107.txt EXERCISE 7.1-7.2",
+   "questions": [
+     "Convert the given ratios to percentages and vice versa.",
+     "Find the selling price when marked price and discount per cent are given.",
+     "An almirah is sold for 5225 after a discount - find the marked price."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hemh107.txt EXERCISE 7.3",
+   "questions": [
+     "The cost of an article is given; find the bill with sales tax.",
+     "Find the amount paid for the TV set including tax."
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "hemh107.txt EXERCISE 7.4",
+   "questions": [
+     "Find the compound interest when principal, rate and time are given.",
+     "In how many years will 1250 become 1800 at 10 per cent compounded annually?",
+     "The population of a place increases at 5 per cent per annum - find it after 2 years."
+   ]
+  }
+ ]
+}

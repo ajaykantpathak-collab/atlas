@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_013",
+   "title": "c11_cs_cbse_02_013",
+   "questions": [
+    {
+     "q": "What is the Boolean expression for a NOT gate implemented using a single NAND gate, and why does tying both inputs of a NAND gate together produce a NOT function?",
+     "a": "The Boolean expression is Y = (A·A)' = A'. When both inputs of a NAND gate are tied to the same signal A, the NAND operation (A·A)' simplifies to A' by the idempotent law (A·A = A), which is exactly the NOT operation. A wrong answer (e.g., Y = A·A or Y = A+B) reveals the student doesn't understand that NAND is (AND)' and hasn't applied the idempotent law correctly — they're likely memorizing configurations without algebraic justification.",
+     "self_check": true
+    },
+    {
+     "q": "Using De Morgan's theorem, derive the Boolean expression for an OR gate implemented using only NAND gates. Show each step of the transformation from Y = A + B to its NAND-only equivalent.",
+     "a": "Starting with Y = A + B, apply double complementation: Y = ((A + B)')'. By De Morgan's first theorem, (A + B)' = A'·B'. So Y = (A'·B')'. This requires three NAND gates: two NAND gates as inverters to produce A' and B' (each with tied inputs), and one NAND gate to compute (A'·B')'. A wrong answer skipping the double complementation step or misapplying De Morgan's theorem (e.g., writing Y = (A·B)') reveals the student treats De Morgan's as a memorized pattern rather than understanding the algebraic equivalence transformation process.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the circuit diagram for implementing an AND gate using only NOR gates. How many NOR gates are required, and what is the Boolean expression at the output of each gate?",
+     "a": "Three NOR gates are required. Gate 1: inputs A, A → output A' (NOR as inverter). Gate 2: inputs B, B → output B' (NOR as inverter). Gate 3: inputs A', B' → output (A' + B')' = A·B (by De Morgan's second theorem). A wrong answer using two NOR gates or showing (A+B)' as final output reveals confusion between NAND-based and NOR-based implementations — the student likely memorized \"NAND makes AND with two gates\" and incorrectly applied the same pattern to NOR without recognizing the duality principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of gates required to implement an XOR gate using only NAND gates versus only NOR gates. Which implementation is more efficient and why? (Hint: XOR = A'B + AB')",
+     "a": "XOR requires 4 NAND gates in its minimal form (using the structure: NAND(NAND(A, NAND(A,B)), NAND(B, NAND(A,B)))) but 5 NOR gates in minimal form. NAND implementation is more efficient because XOR's natural SOP form (A'B + AB') maps directly to NAND-NAND logic (AND-OR becomes NAND-NAND via double complementation), while NOR-NOR implements POS forms more naturally. A wrong answer claiming equal gate counts or favoring NOR reveals the student hasn't grasped the duality between SOP/NAND and POS/NOR implementations — a critical concept for board exam optimization questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since NAND and NOR are both universal, any circuit built with NAND gates can be directly converted to NOR gates by simply replacing each NAND with a NOR gate.\" Evaluate this claim with a counterexample using a simple AND gate implementation.",
+     "a": "The claim is false. An AND gate using NAND gates requires 2 NAND gates: first NAND(A,B) gives (A·B)', second NAND with tied inputs gives ((A·B)')' = A·B. Directly replacing each NAND with NOR gives: first NOR(A,B) = (A+B)', second NOR with tied inputs = ((A+B)')' = A+B, which is an OR gate, not AND. The correct NOR implementation of AND requires 3 NOR gates (two as inverters, one as NOR of inverted inputs). This error reveals the student doesn't understand that universality means \"can implement any function\" not \"gate-for-gate substitutable\" — they're confusing functional completeness with structural equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a circuit that implements the Boolean function F = (A + B)·(C + D) using only NAND gates. Provide the complete circuit diagram with gate-level connections and the Boolean expression at each gate output.",
+     "a": "Step 1: Apply double complementation: F = ((A + B)·(C + D))''. Step 2: Apply De Morgan's: F = ((A + B)' + (C + D)')'. Step 3: Recognize (A+B)' = A'·B' and (C+D)' = C'·D'. Step 4: Circuit uses 6 NAND gates: Gate 1: NAND(A,A)→A'; Gate 2: NAND(B,B)→B'; Gate 3: NAND(A',B')→(A'·B')' = A+B; Gate 4: NAND(C,C)→C'; Gate 5: NAND(D,D)→D'; Gate 6: NAND(C',D')→(C'·D')' = C+D; Gate 7: NAND(Gate3_out, Gate6_out)→((A+B)·(C+D))' = F'. Wait — need one more inverter! Gate 8: NAND(F',F')→F. Total 8 NAND gates. A good answer shows this systematic SOP-to-NAND-NAND conversion. A poor answer tries ad-hoc gate placement without algebraic derivation, revealing lack of structured synthesis methodology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

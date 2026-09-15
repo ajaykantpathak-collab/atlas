@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_010",
+   "title": "c10_math_cbse_12_010",
+   "questions": [
+    {
+     "q": "A solid toy is in the shape of a right circular cylinder with a hemisphere at one end and a cone at the other end. The radius of the common base is 3.5 cm. The height of the cylindrical part is 10 cm and the height of the conical part is 6 cm. Write the formula for the total surface area of the toy. (Do not compute the numerical value.)",
+     "a": "Correct formula: TSA = CSA of cylinder + CSA of hemisphere + CSA of cone = 2πrh + 2πr² + πrl, where l = √(r² + h_cone²). A wrong answer like TSA = 2πrh + 3πr² + πrl reveals the student incorrectly includes the flat circular base of the hemisphere (πr²) which is joined to the cylinder and not exposed. Another error: forgetting the cone's slant height l and using vertical height h_cone in πrh_cone, showing confusion between curved surface area formula and volume formula.",
+     "self_check": true
+    },
+    {
+     "q": "A decorative block is made of a cube of edge 6 cm and a hemisphere of diameter 4.2 cm fixed on top of the cube. A student computes the total surface area as 6 × (6)² + 2π(2.1)². Explain why this is incorrect and write the correct expression.",
+     "a": "The student added the entire surface area of the cube (6a²) and the curved surface area of the hemisphere (2πr²), but the circular base of the hemisphere (area πr²) and the top face of the cube (area a²) are joined and not exposed. The correct TSA = 5a² (five exposed faces of cube) + 2πr² (curved surface of hemisphere). A wrong answer indicates the student does not visualize which faces become internal after joining — a critical board exam error that loses 1-2 marks per question.",
+     "self_check": true
+    },
+    {
+     "q": "A solid iron pole consists of a cylinder of height 220 cm and base diameter 24 cm, surmounted by another cylinder of height 60 cm and radius 8 cm. Find the mass of the pole if 1 cm³ of iron has mass 8 g. (Use π = 3.14)",
+     "a": "Step 1: Radius of lower cylinder = 12 cm, height = 220 cm. Volume = π × 12² × 220 = 3.14 × 144 × 220 = 99475.2 cm³.\nStep 2: Radius of upper cylinder = 8 cm, height = 60 cm. Volume = π × 8² × 60 = 3.14 × 64 × 60 = 12057.6 cm³.\nStep 3: Total volume = 99475.2 + 12057.6 = 111532.8 cm³.\nStep 4: Mass = 111532.8 × 8 = 892262.4 g = 892.2624 kg ≈ 892.26 kg.\nA wrong answer like using diameter instead of radius in the upper cylinder (π × 16² × 60) shows careless reading of \"radius 8 cm\". Forgetting to convert grams to kg loses the unit mark. Using π = 22/7 instead of 3.14 gives a different numerical answer — students must use the π value specified in the question.",
+     "self_check": true
+    },
+    {
+     "q": "A tent is in the shape of a cylinder of diameter 4.2 m and height 4 m, surmounted by a cone of equal base and height 2.8 m. The canvas for the tent costs ₹100 per m². Compare the cost of canvas for this tent with a tent that is purely cylindrical of same base and total height (6.8 m). Which is cheaper and by how much?",
+     "a": "Tent 1 (cylinder+cone): r = 2.1 m. CSA cylinder = 2πrh = 2 × (22/7) × 2.1 × 4 = 52.8 m². Slant height of cone l = √(2.1² + 2.8²) = 3.5 m. CSA cone = πrl = (22/7) × 2.1 × 3.5 = 23.1 m². Total canvas = 75.9 m². Cost = 75.9 × 100 = ₹7590.\nTent 2 (pure cylinder): height = 6.8 m. CSA = 2πrh = 2 × (22/7) × 2.1 × 6.8 = 89.76 m². Cost = ₹8976.\nDifference = ₹8976 - ₹7590 = ₹1386. Tent 1 is cheaper.\nA wrong answer that uses total surface area including base for the cylindrical tent (adding πr²) shows misunderstanding that the tent base sits on ground and is not covered by canvas. This tests the ability to analyze real-world constraints beyond formula plugging.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A solid is a cone on a hemisphere with same radius 7 cm. Total height = 21 cm. Find volume.\" Their working: Volume = 1/3 πr²h + 2/3 πr³ = 1/3 × 22/7 × 49 × 21 + 2/3 × 22/7 × 343 = 1078 + 718.67 = 1796.67 cm³. Identify the error and give the correct volume.",
+     "a": "The student used total height 21 cm as the height of the cone. But the total height includes the hemisphere's radius (7 cm). So cone height = 21 - 7 = 14 cm. Correct volume = 1/3 × 22/7 × 49 × 14 + 2/3 × 22/7 × 343 = 718.67 + 718.67 = 1437.33 cm³. The error is a classic \"height confusion\" — not subtracting the hemisphere's radius from total height to get cone height. This appears in almost every CBSE paper; missing this loses full marks for the volume part.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a combined solid (at least two basic solids) where the question asks for the time taken to fill the solid with water at a given rate (in litres per minute). Provide all necessary dimensions and the flow rate. The problem must require unit conversion from cm³ to litres.",
+     "a": "Sample problem: \"A vessel is in the form of an inverted cone of height 12 cm and radius 5 cm, surmounted by a cylinder of same radius and height 8 cm. Water flows into the vessel at 2 litres per minute. How long will it take to fill the vessel completely? (Use π = 3.14)\"\nA good answer includes: Volume of cone = 1/3 πr²h = 1/3 × 3.14 × 25 × 12 = 314 cm³. Volume of cylinder = πr²h = 3.14 × 25 × 8 = 628 cm³. Total = 942 cm³ = 0.942 litres. Time = 0.942 / 2 = 0.471 min = 28.26 seconds. A poor problem uses inconsistent dimensions (e.g., cone radius ≠ cylinder radius) or forgets the unit conversion, showing the student cannot design a coherent multi-step problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

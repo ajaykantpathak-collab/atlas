@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_007",
+   "title": "c11_bio_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define parthenocarpic fruit and give one example. How does it differ from a normal fruit in terms of seed formation?",
+     "a": "A parthenocarpic fruit develops without fertilization of the ovary, so it lacks viable seeds (e.g., banana, seedless grapes). A normal fruit forms after double fertilization and contains seeds developed from ovules. If a student says \"parthenocarpic fruits have no seeds at all,\" they miss that some may have undeveloped, non-viable seed remnants; the key is absence of fertilization, not just seedlessness.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that an apple is a true fruit because it develops from the ovary. Explain why this is incorrect using the concept of false fruit, and identify the actual fruit type of the apple's edible part.",
+     "a": "Apple is a false fruit (pome) because the edible fleshy part develops from the swollen thalamus (receptacle), not the ovary. The true fruit is the papery core enclosing the seeds, derived from the inferior ovary. If a student says \"apple is a true fruit because it has seeds,\" they confuse seed presence with fruit origin — false fruits can have seeds, but the main flesh is accessory tissue.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following fruits and justify each classification: (a) Mango, (b) Strawberry, (c) Pineapple, (d) Coconut.",
+     "a": "(a) Mango — simple fleshy fruit (drupe): develops from a monocarpellary superior ovary, one-seeded, with differentiated pericarp (epicarp, fleshy mesocarp, stony endocarp). (b) Strawberry — aggregate fruit: develops from an apocarpous gynoecium of a single flower; each \"seed\" is an achene (true fruit), the red flesh is swollen thalamus. (c) Pineapple — multiple fruit: develops from an entire inflorescence (catkin) where flowers fuse with a fleshy axis. (d) Coconut — simple dry fruit (fibrous drupe): monocarpellary superior ovary, pericarp differentiated into thin epicarp, fibrous mesocarp (coir), and stony endocarp. If a student calls strawberry a \"berry,\" they confuse botanical berry (from syncarpous ovary) with aggregate fruit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the development of a drupe (mango) and a pome (apple) starting from the floral structure. How does ovary position (superior vs inferior) influence the final fruit morphology?",
+     "a": "Mango: superior ovary (hypogynous flower) → ovary wall differentiates into three-layered pericarp; thalamus does not contribute. Apple: inferior ovary (epigynous flower) → ovary wall forms only the papery core; the thalamus grows upward, fuses with ovary wall, and becomes the fleshy edible part. If a student says \"both develop from ovary only,\" they miss that inferior ovary position leads to thalamus participation, creating false fruits — a direct link to c11_bio_cbse_05_005 (flower symmetry/position).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All fleshy fruits are berries.\" Provide two counterexamples with botanical reasoning.",
+     "a": "False. Berry is a specific type of simple fleshy fruit from a syncarpous ovary with many seeds and undifferentiated pericarp (e.g., tomato, grape). Counterexamples: (1) Mango (drupe) — fleshy but has a stony endocarp and single seed from monocarpellary ovary. (2) Apple (pome) — fleshy but mainly thalamus-derived (false fruit), true fruit is the core. If a student says \"berry just means juicy fruit,\" they use culinary, not botanical, definition — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation-based activity to distinguish between a true fruit and a false fruit using locally available fruits (e.g., mango, apple, guava, pear). List the steps and the key structural feature you would examine.",
+     "a": "Steps: (1) Collect mango, apple, guava, pear. (2) Cut each longitudinally. (3) Identify the seed-bearing structure — the true fruit. (4) Note whether the edible flesh is continuous with the seed chamber (true fruit) or separate from it (false fruit). Key feature: In mango/guava (true fruits), flesh is pericarp (ovary wall) directly enclosing seeds. In apple/pear (false fruits), flesh is thalamus; seeds lie in a separate papery core (true fruit). If a student only looks at seed presence, they miss the tissue origin distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

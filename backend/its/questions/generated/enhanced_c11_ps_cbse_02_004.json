@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_004",
+   "title": "c11_ps_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define negative liberty and positive liberty in one sentence each, using the phrases \"freedom from\" and \"freedom to\" respectively.",
+     "a": "Negative liberty is \"freedom from\" external interference, defining a minimum area of non-interference where the individual is sovereign. Positive liberty is \"freedom to\" be one's own master, requiring enabling conditions for self-realization. A wrong answer (e.g., swapping the phrases or defining both as \"absence of constraints\") reveals the student hasn't grasped the fundamental structural difference: negative liberty is about the *boundary* of state/society power, while positive liberty is about the *capacity* of the individual.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"It can happen that tyrants justify their rule by invoking arguments of positive liberty.\" Explain the mechanism by which positive liberty arguments can slide into authoritarianism, using the concepts of \"true self\" and \"rational self-direction.\"",
+     "a": "Positive liberty divides the self into a \"higher/rational self\" (long-term goals, true interests) and a \"lower/empirical self\" (immediate desires, ignorance). A tyrant claims the state embodies the collective \"true will\" and coerces individuals \"for their own good\" to align with this rational plan, dismissing actual dissent as the voice of the \"lower self.\" A wrong answer that misses the \"higher vs lower self\" distinction fails to see why positive liberty — unlike negative liberty — uniquely enables the state to claim it knows the citizen's \"real\" interests better than the citizen does.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law banning the sale of high-sugar drinks in schools to combat childhood obesity. Analyze this policy using both negative and positive liberty frameworks. Which liberty does the ban primarily invoke, and which does it restrict?",
+     "a": "The ban invokes positive liberty: it creates a health-promoting environment (enabling condition) so children can develop capacities for long-term well-being. It restricts negative liberty: it shrinks the \"area of non-interference\" by removing the choice to buy soda, treating the child's (or vendor's) decision as outside the protected private sphere. A wrong answer that calls this purely \"positive liberty\" ignores the coercive restriction on choice; one calling it purely \"negative liberty violation\" misses the developmental justification. The civic reasoning requires holding both truths simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how negative liberty and positive liberty theorists would view the state's role in providing *free public higher education*. Identify one argument from each tradition.",
+     "a": "Negative liberty (e.g., Mill, Berlin): The state should not *prevent* private universities or student choices (non-interference), but has no obligation to fund education; taxation for this purpose may violate taxpayers' negative liberty (property). Positive liberty (e.g., Rousseau, Gandhi, T.H. Green): The state *must* provide free higher education because poverty and ignorance are internal constraints; without it, formal negative liberty is hollow for the poor. A wrong answer that says \"both support free education\" conflates the *justification*: negative liberty tolerates it as a policy choice; positive liberty demands it as a requirement of freedom itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For a developing country like India, positive liberty is more important than negative liberty because poverty is a greater constraint than state interference.\" Use the Indian Constitution (Fundamental Rights vs Directive Principles) in your reasoning.",
+     "a": "The claim creates a false hierarchy. The Indian Constitution rejects this binary: Part III (Fundamental Rights) enshrines negative liberties (Art 19, 21) as justiciable, while Part IV (Directive Principles) encodes positive liberties (Art 39, 41, 45) as non-justiciable *goals*. The Supreme Court (e.g., *Minerva Mills*, *Unni Krishnan*) has ruled they are complementary — Directive Principles cannot override Fundamental Rights, but Fundamental Rights must be interpreted to *further* Directive Principles. A wrong answer prioritizing one over the other ignores the constitutional design of \"harmonious construction\" and the historical lesson that suspending negative liberties (Emergency, 1975) in the name of positive goals (development) destroys both.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional clause for \"Digital Access\" that balances negative and positive liberty. It must include: (a) a negative liberty protection, (b) a positive liberty obligation, and (c) a limitation clause preventing authoritarian misuse of (b).",
+     "a": "**Article 21B (Proposed):** \"(a) No citizen shall be disconnected from the internet or restricted in accessing digital platforms except by a law that is necessary and proportionate to prevent imminent harm to others. (b) The State shall endeavour to provide universal, affordable broadband infrastructure and digital literacy programs to enable meaningful participation in digital governance, education, and economy. (c) No measure under clause (b) shall authorize mandatory digital identification, surveillance, or content regulation beyond the reasonable restrictions in Article 19(2).\" A poor answer omits (c) or makes (b) justiciable without safeguards, missing the core debate: positive liberty provisions *require* explicit negative liberty firewalls to prevent the \"tyranny\" warned in the textbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

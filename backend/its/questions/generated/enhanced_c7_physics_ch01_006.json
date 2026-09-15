@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_006",
+   "title": "c7_physics_ch01_006",
+   "questions": [
+    {
+     "q": "Which branch of science primarily investigates forces, motion, heat, light, and electricity?",
+     "a": "Physics is the branch that studies forces, motion, heat, light, and electricity. A wrong answer like \"Biology\" reveals a confusion between the study of living organisms and the study of physical forces and energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why do scientists separate natural science into different branches like Physics and Chemistry if all natural phenomena occur together in the real world?",
+     "a": "Scientists separate science into branches to make complex phenomena easier to study, analyze, and measure by focusing on specific types of interactions, such as energy transformations in physics versus molecular changes in chemistry. A wrong answer suggests that different branches study entirely unrelated universes, missing the interconnectedness of scientific disciplines.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the time a pendulum takes to complete 20 oscillations and also records the mass of the bob. Which branch of science does the measurement of time, speed, and pendulum motion belong to, and what is the SI unit of time?",
+     "a": "The measurement of pendulum motion, speed, and time belongs to Physics, and the SI unit of time is the second (s). A wrong answer indicates confusion between physical measurement quantities and chemical or biological variables.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how studying the reflection of light in a mirror differs from studying how plants use sunlight for photosynthesis. Which branch does each belong to?",
+     "a": "The reflection of light in a mirror is a physical phenomenon governed by the laws of optics in Physics, dealing with the behavior of light waves and surfaces. Photosynthesis is a biochemical process studied in Biology, involving cellular structures and chemical reactions inside plant leaves. A wrong answer shows a failure to distinguish between physical wave-matter interactions and biological/chemical life processes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An electric iron heating up involves only Physics because it uses electrical circuits and heat.\" Is this statement fully accurate? Justify your reasoning.",
+     "a": "The statement is partially incomplete. While the electric current, circuit resistance, and heat transfer (conduction) are core Physics concepts, the manufacturing of the heating element wires and insulating materials involves Chemistry (material properties and alloys). A wrong answer assumes that appliances operate within a single isolated scientific branch without recognizing cross-disciplinary overlap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short description of a rainy day in your city, and identify at least one phenomenon corresponding to Physics, Chemistry, Biology, and Earth Science within that single event.",
+     "a": "A good answer will identify: Physics (lightning flash and sound of thunder traveling through the air), Chemistry (acid rain interacting with marble structures or water purity), Biology (earthworms emerging from damp soil and plants absorbing water), and Earth Science (cloud formation, evaporation, and precipitation cycles). A poor answer lists phenomena from only one branch or confuses the scientific domains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 106,
+  "chapter_title": "The Third and Final Continent",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww106.1.1",
+      "title": "Three Continents in One Life",
+      "section": "1",
+      "definition": "Jhumpa Lahiri's narrator compresses a migrant life into one arc: India, where he was born and his mother died; England, where he lived in a house with other Bengali bachelors near the London School of Economics; and America -- the third and final continent -- where he arrives to a job at a university library and a pre-arranged marriage.",
+      "formula": "",
+      "key_idea": "One life, three continents -- migration measured not in miles but in everything left behind.",
+      "textbook_ref": "keww106.txt journey sections (india birth and mother's death, london years near lse, arrival in america, arranged marriage to mala)",
+      "question_patterns": [
+        "which three continents does the narrator live on",
+        "in class 11 the third and final continent: why does the narrator leave for america",
+        "describe the narrator's life in london before moving on",
+        "what kind of marriage brings mala to america",
+        "what work does the narrator take up in boston",
+        "how does the narrator remember his mother across the journey"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the losses",
+          "explain": "The narrator carries his mother's death in Calcutta and years of bachelor drudgery in London."
+        },
+        {
+          "step": 2,
+          "action": "mark the new start",
+          "explain": "A library job in Boston and a marriage arranged through family bring him to the final continent."
+        },
+        {
+          "step": 3,
+          "action": "note the compression",
+          "explain": "Lahiri folds decades of migration into quiet details -- a Grundig reel-to-reel, fried eggs, guidebooks."
+        }
+      ]
+    },
+    {
+      "id": "keww106.1.2",
+      "title": "Mrs Croft of Malden: 103 and Free of Illusion",
+      "section": "1",
+      "definition": "The narrator lodges with Mrs Croft, a hundred-and-three-year-old widow in Malden who insists on proper dress, walks with the help of her daughter, and was born the decade slavery's shadows still touched memory. Her fierce routines -- stamping her cane, demanding he declare 'a great adventure' -- teach the immigrant discipline and warmth at once.",
+      "formula": "",
+      "key_idea": "A hundred-year-old landlady outlives centuries and teaches the newcomer how to stand tall in a new world.",
+      "textbook_ref": "keww106.txt mrs croft sections (mrs croft age 103, malden house, declaring a great adventure, proper attire, helen her daughter)",
+      "question_patterns": [
+        "describe mrs croft and her habits in the story",
+        "in class 11 the third and final continent: why does mrs croft insist the narrator dress properly",
+        "what does mrs croft mean by calling america a great adventure",
+        "how old is mrs croft and what has she lived through",
+        "what rules does the narrator follow in mrs croft's house",
+        "why does the narrator grow fond of his landlady"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sketch the landlady",
+          "explain": "Mrs Croft is over a century old, upright, exacting and secretly kind -- a relic with rules."
+        },
+        {
+          "step": 2,
+          "action": "watch her rituals",
+          "explain": "She inspects his dress, listens for her daughter, and demands he declare his lodgings 'a great adventure' before she is satisfied."
+        },
+        {
+          "step": 3,
+          "action": "feel her effect",
+          "explain": "Her fierce dignity steadies the newcomer's first days in the new world."
+        }
+      ]
+    },
+    {
+      "id": "keww106.1.3",
+      "title": "Mala, the Marriage That Becomes Home",
+      "section": "1",
+      "definition": "Mala arrives, a stranger in a saree, and the marriage begins in shyness. Sharing the news of Mrs Croft's death, the couple find their first true bond; years later, driving with their American-born son, the narrator counts their decades of marriage as the ordinary miracle of an immigrant life quietly made whole.",
+      "formula": "",
+      "key_idea": "Strangers become spouses become home -- love arriving slowly, the immigrant's quietest achievement.",
+      "textbook_ref": "keww106.txt mala sections (mala's arrival in boston, shared grief over mrs croft, growing bond, son born in america, decades of marriage)",
+      "question_patterns": [
+        "how does the relationship between the narrator and mala develop",
+        "in class 11 the third and final continent: what role does mrs croft's death play in the marriage",
+        "describe mala's first days in america",
+        "how does the narrator feel about his son growing up american",
+        "what does the ending suggest about the narrator's immigrant life",
+        "explain the significance of mrs croft in uniting the couple"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "begin as strangers",
+          "explain": "The arranged couple start with silence and unfamiliarity -- two exiles sharing a flat."
+        },
+        {
+          "step": 2,
+          "action": "share a grief",
+          "explain": "News of Mrs Croft's death at over a hundred creates their first tears shared together."
+        },
+        {
+          "step": 3,
+          "action": "count the blessing",
+          "explain": "By the end the narrator sees their long marriage, his son, and their settled life as his greatest adventure."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww106.txt mrs croft sections",
+      "concept": "keww106.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why does Mrs Croft make the narrator declare that America is 'a great adventure'?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the ritual",
+          "explain": "She stands by the door and demands he pronounce the words before she is satisfied."
+        },
+        {
+          "step": 2,
+          "action": "read her purpose",
+          "explain": "It is her way of insisting the newcomer greet the new world with wonder, not weariness."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The absurd little ceremony plants the story's seed -- that migration can be adventure, not only loss."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww106.txt mala sections",
+      "concept": "keww106.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Mrs Croft's death brings the narrator and his wife closer. Explain how.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the shared news",
+          "explain": "The narrator comes home to tell Mala that the old landlady has died at last."
+        },
+        {
+          "step": 2,
+          "action": "watch the tears",
+          "explain": "For the first time they weep together for someone neither can replace -- grief as first intimacy."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "From that night the marriage turns from arrangement to companionship -- the quiet turning point of the story."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the narrator's journey across the three continents.",
+        "Sketch the character of Mrs Croft.",
+        "How does the relationship between the narrator and Mala evolve?",
+        "What does the story say about immigrant experience in America?",
+        "Comment on the significance of the title.",
+        "What role does memory of the narrator's mother play in the story?"
+      ]
+    }
+  ]
+}

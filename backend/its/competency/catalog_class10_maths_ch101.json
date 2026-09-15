@@ -1,0 +1,420 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Real Numbers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh101.txt",
+ "concepts": [
+  {
+   "id": "jemh.1.1",
+   "title": "Euclid Division Lemma",
+   "section": "1.1",
+   "definition": "For any two positive integers a and b, there exist unique integers q and r such that a = b*q + r where 0 <= r < b.",
+   "formula": "a = b*q + r, 0 <= r < b",
+   "key_idea": "Any positive integer can be expressed as a multiple of another integer plus a remainder.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "find quotient and remainder using euclid division lemma",
+    "apply euclid division algorithm to find hcf",
+    "express a in terms of b using division lemma",
+    "use euclid lemma to divide integers",
+    "find hcf of two numbers using euclid algorithm"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the division lemma",
+     "explain": "Write a = b*q + r with 0 <= r < b."
+    },
+    {
+     "step": 2,
+     "action": "Iterate the algorithm",
+     "explain": "Replace a with b and b with r; repeat until the remainder becomes 0."
+    },
+    {
+     "step": 3,
+     "action": "Read off the result",
+     "explain": "The divisor at the stage where the remainder is 0 is the HCF; the first stage's q and r are the quotient and remainder."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find HCF of 96 and 40 using Euclid algorithm.",
+     "solution": "96=40*2+16, 40=16*2+8, 16=8*2+0",
+     "answer": "8"
+    },
+    {
+     "question": "Use Euclid lemma to find quotient and remainder when 237 is divided by 5.",
+     "solution": "237=5*47+2",
+     "answer": "q=47, r=2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find HCF of 135 and 225 using Euclid algorithm.",
+     "type": "compute"
+    },
+    {
+     "question": "Show that any positive odd integer is of the form 6q+1, 6q+3, or 6q+5.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.1.2",
+   "title": "Fundamental Theorem of Arithmetic",
+   "section": "1.2",
+   "definition": "Every composite number can be expressed as a product of primes uniquely, apart from the order of factors.",
+   "formula": "n = p1^a1 * p2^a2 * ... * pk^ak",
+   "key_idea": "Prime factorization of a number is unique.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "find prime factorization of a number",
+    "express number as product of primes",
+    "find hcf and lcm using prime factorization",
+    "verify fundamental theorem of arithmetic",
+    "find lcm and hcf using fundamental theorem"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Factorise each number into primes",
+     "explain": "Write every factor as a prime."
+    },
+    {
+     "step": 2,
+     "action": "Compare the factorisations",
+     "explain": "HCF takes the smallest power of each common prime; LCM takes the largest power of every prime that appears."
+    },
+    {
+     "step": 3,
+     "action": "Check the relation",
+     "explain": "Verify that HCF x LCM equals the product of the two numbers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find HCF and LCM of 26 and 91 using prime factorization.",
+     "solution": "26=2*13, 91=7*13; HCF=13, LCM=2*7*13=182",
+     "answer": "HCF=13, LCM=182"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.3",
+   "title": "Irrationality of sqrt(2)",
+   "section": "1.3",
+   "definition": "The square root of 2 cannot be written as a ratio of two integers, a fact proved by contradiction.",
+   "formula": "",
+   "key_idea": "Assuming sqrt(2) = p/q in lowest terms forces both p and q to be even, a contradiction.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "prove sqrt(2) is irrational",
+    "show that 2 is not a perfect square",
+    "prove irrationality of square root of 2",
+    "verify that sqrt(2) has non-terminating non-repeating decimal",
+    "demonstrate sqrt(2) is not rational"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume sqrt(2) is rational",
+     "explain": "Let sqrt(2) = p/q in lowest terms where p and q are coprime integers."
+    },
+    {
+     "step": 2,
+     "action": "Derive contradiction",
+     "explain": "Squaring gives 2q^2 = p^2, so p^2 is divisible by 2, hence p is divisible by 2. Then q^2 is divisible by 2, hence q is divisible by 2. This contradicts p and q being coprime."
+    },
+    {
+     "step": 3,
+     "action": "Conclude irrationality",
+     "explain": "The assumption leads to a contradiction, so sqrt(2) is irrational."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Prove that sqrt(2) is irrational.",
+     "solution": "Assume sqrt(2)=p/q coprime. Then p^2=2q^2 so 2|p; write p=2k, get 4k^2=2q^2 so q^2=2k^2 so 2|q. Contradiction.",
+     "answer": "sqrt(2) is irrational"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.4",
+   "title": "Irrationality of sqrt(3) and sqrt(5)",
+   "section": "1.3",
+   "definition": "For any prime p, the square root of p cannot be expressed as a fraction of integers.",
+   "formula": "",
+   "key_idea": "The contradiction argument for sqrt(2) extends to the square root of every prime.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "prove sqrt(3) is irrational",
+    "prove sqrt(5) is irrational",
+    "show that 3/sqrt(3) is irrational",
+    "prove that 2+sqrt(3) is irrational",
+    "prove product of rational and irrational is irrational"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume rational form",
+     "explain": "Let sqrt(p) = a/b in lowest terms where p is prime."
+    },
+    {
+     "step": 2,
+     "action": "Derive contradiction",
+     "explain": "Then p*b^2 = a^2, so p divides a^2, hence p divides a. Write a = p*k. Then b^2 = p*k^2, so p divides b. Contradiction with coprime assumption."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "The contradiction proves sqrt(p) is irrational for prime p."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Prove that sqrt(3) is irrational.",
+     "solution": "Assume sqrt(3)=a/b coprime. Then a^2=3b^2 so 3|a; write a=3k, get 3k^2=b^2 so 3|b. Contradiction.",
+     "answer": "sqrt(3) is irrational"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.5",
+   "title": "Decimal Expansion of Rational Numbers",
+   "section": "1.4",
+   "definition": "A simplified fraction terminates as a decimal exactly when its denominator has no prime factors other than 2 and 5.",
+   "formula": "Terminating if denominator = 2^a * 5^b after simplification",
+   "key_idea": "Look only at the primes in the simplified denominator to predict the decimal's behaviour.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "determine if decimal expansion terminates or recurs",
+    "find decimal expansion of rational number",
+    "check if fraction has terminating decimal",
+    "classify decimal expansion as terminating or recurring",
+    "find number of decimal places in terminating decimal"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Reduce the fraction",
+     "explain": "Cancel common factors so that p and q are coprime."
+    },
+    {
+     "step": 2,
+     "action": "Inspect the denominator",
+     "explain": "Write q as a product of primes."
+    },
+    {
+     "step": 3,
+     "action": "Classify the expansion",
+     "explain": "Only 2s and 5s in q give a terminating decimal; any other prime gives a non-terminating recurring decimal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Without actual division, state whether 13/3125 has terminating decimal expansion.",
+     "solution": "3125 = 5^5, only 5s in the denominator",
+     "answer": "terminating"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.6",
+   "title": "Terminating Decimal Places",
+   "section": "1.4",
+   "definition": "The number of decimal places in a terminating decimal equals the larger of the powers of 2 and 5 in the simplified denominator.",
+   "formula": "decimal_places = max(a, b) where q = 2^a * 5^b",
+   "key_idea": "Scale the denominator to a power of ten; the exponent tells the decimal places.",
+   "textbook_ref": "",
+   "solution_type": "compute",
+   "question_patterns": [
+    "convert a fraction to a terminating decimal",
+    "find the exact decimal value of a given fraction",
+    "compute the terminating decimal expansion of a rational number",
+    "determine the decimal representation of a fraction whose denominator has only 2s and 5s",
+    "write the fraction as a decimal by scaling the denominator to a power of 10",
+    "what decimal does the fraction represent when the denominator is 10 to the power n"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Scale the denominator to a power of ten",
+     "explain": "Write q = 2^a x 5^b and take n = max(a, b)."
+    },
+    {
+     "step": 2,
+     "action": "Read off the decimal",
+     "explain": "Divide the adjusted numerator by 10 to the power n.",
+     "compute": "decimal = p / 10 ** n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the decimal expansion of 3/8.",
+     "solution": "8 = 2^3, so n = 3; 3/8 = 3/10^3 = 0.375",
+     "answer": "0.375"
+    },
+    {
+     "question": "Write 7/20 as a decimal.",
+     "solution": "20 = 2^2 * 5, so n = 2; 7/20 = 35/100 = 0.35",
+     "answer": "0.35"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.7",
+   "title": "Product of HCF and LCM",
+   "section": "1.2",
+   "definition": "For two positive integers, the product of their HCF and LCM equals the product of the numbers themselves.",
+   "formula": "HCF * LCM = a * b",
+   "key_idea": "Multiply the numbers, then divide by one of HCF or LCM to recover the other.",
+   "textbook_ref": "",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the lcm of two numbers given their hcf",
+    "calculate lcm using the hcf and the two numbers",
+    "what is the lcm when the hcf of the two numbers is known",
+    "determine the lcm of two numbers from their product and hcf",
+    "compute lcm from the hcf product relation",
+    "how to get the lcm of two numbers if their hcf is given"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the two numbers",
+     "explain": "The product of the numbers equals the product of their HCF and LCM.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the HCF to get the LCM",
+     "explain": "LCM = (a x b) / HCF.",
+     "compute": "lcm = product / hcf"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Given HCF(96,404)=4, find LCM(96,404).",
+     "solution": "96*404 = 38784; 38784 / 4 = 9696",
+     "answer": "9696"
+    },
+    {
+     "question": "HCF of two numbers is 6 and the numbers are 20 and 30. Find their LCM.",
+     "solution": "20*30 = 600; 600 / 6 = 100",
+     "answer": "100"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.7b",
+   "title": "HCF from the LCM of Two Numbers",
+   "section": "1.2",
+   "definition": "When the LCM of two numbers and the numbers themselves are known, the HCF follows by dividing their product by the LCM.",
+   "formula": "hcf = a * b / lcm",
+   "key_idea": "Product of the two numbers divided by the LCM leaves the HCF.",
+   "textbook_ref": "jemh101.txt (reviewer-authored, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the hcf of two numbers given their lcm",
+    "calculate hcf using the lcm and the two numbers",
+    "what is the hcf when the lcm of the two numbers is known",
+    "determine the hcf of two numbers from their product and lcm",
+    "compute hcf from the lcm product relation",
+    "how to get the hcf of two numbers if their lcm is given"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the two numbers",
+     "explain": "a x b = HCF x LCM for any two positive integers.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the LCM to get the HCF",
+     "explain": "HCF = (a x b) / LCM.",
+     "compute": "hcf = product / lcm"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the HCF of 12 and 18 given their LCM is 36.",
+     "solution": "12 x 18 = 216; 216 / 36 = 6",
+     "answer": "6"
+    },
+    {
+     "question": "Two numbers have product 480 and LCM 60. Find their HCF.",
+     "solution": "480 / 60 = 8",
+     "answer": "8"
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "jemh.1.8",
+   "title": "Properties of Rational and Irrational Numbers",
+   "section": "1.5",
+   "definition": "Combining an irrational number with a non-zero rational by addition, subtraction, multiplication or division always leaves the result irrational.",
+   "formula": "",
+   "key_idea": "A rational operand cannot cancel the irrational part unless it is zero.",
+   "textbook_ref": "",
+   "solution_type": "verify_property",
+   "question_patterns": [
+    "prove sum of rational and irrational is irrational",
+    "prove product of nonzero rational and irrational is irrational",
+    "show that 2-3sqrt(5) is irrational",
+    "prove 6/sqrt(2) is irrational",
+    "determine if sum of two irrationals is rational or irrational"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the operation and operand types",
+     "explain": "Determine whether each operand is rational or irrational."
+    },
+    {
+     "step": 2,
+     "action": "Apply the relevant property",
+     "explain": "Sum/difference/product of nonzero rational and irrational is irrational. Product of two irrationals depends on values."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "State whether the result is rational or irrational with justification."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Prove that 2 + sqrt(3) is irrational.",
+     "solution": "If 2+sqrt(3) were rational r, then sqrt(3) = r-2 would be rational, a contradiction.",
+     "answer": "2 + sqrt(3) is irrational"
+    }
+   ],
+   "exercises": []
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jemh101.txt exercise 1.1",
+   "questions": [
+    "Find HCF of 135 and 225 using Euclid algorithm.",
+    "Show that any positive odd integer is of the form 6q+1, 6q+3, or 6q+5."
+   ]
+  }
+ ]
+}

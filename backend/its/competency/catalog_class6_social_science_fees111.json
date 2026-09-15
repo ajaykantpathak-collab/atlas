@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 11,
+ "chapter_title": "Grassroots Democracy, Part 2",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.11.1",
+   "title": "Panchayati Raj: Self-Government in Villages",
+   "section": "Panchayati Raj system",
+   "definition": "Panchayati Raj is a system of local self-government in rural India: villagers manage their own affairs through panchayats at village, block and district levels, bringing governance close to the people.",
+   "formula": "panchayati raj = village + block + district levels",
+   "key_idea": "Self-government means villagers decide local matters themselves instead of running to the state or national capital.",
+   "textbook_ref": "fees111.txt, Panchayati Raj system",
+   "question_patterns": [
+    "what is panchayati raj and why is it called self government",
+    "which are the three levels of the panchayati raj system",
+    "why are panchayats important in governance and democracy",
+    "what kinds of matters does a village panchayat handle",
+    "how do panchayats bring government schemes to the grassroots",
+    "why can villagers not run to the state capital for every issue"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.11.2",
+   "title": "The Gram Sabha: Assembly of All Adults",
+   "section": "Gram sabha",
+   "definition": "The gram sabha is the general body of all registered adult villagers; it meets to discuss village needs, approve plans and budgets, and hold the elected panchayat answerable.",
+   "formula": "",
+   "key_idea": "Direct democracy lives in the gram sabha: every adult has a seat and a voice before the elected members act.",
+   "textbook_ref": "fees111.txt, Gram sabha",
+   "question_patterns": [
+    "who are the members of the gram sabha",
+    "what does the gram sabha discuss in its meetings",
+    "how does the gram sabha control the panchayat",
+    "why is the gram sabha called the foundation of panchayati raj",
+    "how often does the gram sabha meet",
+    "what is the difference between gram sabha and gram panchayat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.11.3",
+   "title": "The Gram Panchayat and Its Members",
+   "section": "Gram panchayat",
+   "definition": "Villagers elect ward members and a sarpanch to form the gram panchayat, which carries out the gram sabha's decisions, maintains water, roads and records, and levies small local taxes for village work.",
+   "formula": "",
+   "key_idea": "Elected representatives do the day-to-day work, but they answer to the gram sabha that chose them.",
+   "textbook_ref": "fees111.txt, Gram panchayat",
+   "question_patterns": [
+    "who is a sarpanch and how is the sarpanch chosen",
+    "what work does the gram panchayat do through the year",
+    "who are ward members and what do they do",
+    "what is the role of the panchayat secretary",
+    "how does the panchayat get money for village work",
+    "why must the panchayat present its accounts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.11.4",
+   "title": "Lakshmanpur: A Village Case Study",
+   "section": "Lakshmanpur example",
+   "definition": "Lakshmanpur, a village of about 200 houses in the Himalayan foothills, shows local government at work: farmers' needs for water, roads and a school, disputes and resources, all settled through the panchayat system.",
+   "formula": "",
+   "key_idea": "A concrete village turns civics into life: every need, from a broken road to a stolen crop, reaches the panchayat first.",
+   "textbook_ref": "fees111.txt, Lakshmanpur example",
+   "question_patterns": [
+    "describe the village of lakshmanpur",
+    "what are the main needs of lakshmanpur village",
+    "how does lakshmanpur settle disputes about land",
+    "which occupations do the people of lakshmanpur follow",
+    "how does the rajasthan example differ from lakshmanpur",
+    "why is lakshmanpur a good example of grassroots democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees111.txt",
+   "concept": "fees.11.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is the gram sabha called the base of the Panchayati Raj structure?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look at the pyramid",
+     "explain": "The diagram runs from village base to district top, and the base is the gram sabha."
+    },
+    {
+     "step": 2,
+     "action": "state the power",
+     "explain": "All adult villagers sit in it, so the elected panchayat below must act on its decisions."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees111.txt",
+   "concept": "fees.11.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does a village road get repaired through panchayati raj?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise the need",
+     "explain": "Villagers place the damaged road before the gram sabha."
+    },
+    {
+     "step": 2,
+     "action": "follow the action",
+     "explain": "The gram panchayat plans the repair, arranges funds and gets the work done, reporting back to the sabha."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees111.txt, Let us explore",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "Describe the village of Lakshmanpur from the opening trip.",
+    "What example from Rajasthan does the chapter discuss?",
+    "Suppose you study in a village school: which problems would you take to the gram sabha?",
+    "Draw the three levels of the Panchayati Raj system."
+   ]
+  }
+ ]
+}

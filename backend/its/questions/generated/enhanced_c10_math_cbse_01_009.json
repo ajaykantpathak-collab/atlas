@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_009",
+   "title": "c10_math_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the exact theorem used to prove that the product of a non-zero rational number and an irrational number is irrational.",
+     "a": "The theorem: \"If \\( r \\neq 0 \\) is rational and \\( x \\) is irrational, then \\( rx \\) is irrational.\" A wrong answer (e.g., \"sum of rational and irrational is irrational\" or \"product of two irrationals is irrational\") reveals confusion between different irrationality properties — the student cannot distinguish the product property from the sum/difference property (node c10_math_cbse_01_008) or the product of two irrationals.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the assumption \"3√2 is rational\" leads to a contradiction. Specifically, show the algebraic step that isolates √2 and why the resulting expression must be rational.",
+     "a": "Assume 3√2 = a/b where a,b ∈ ℤ, b ≠ 0, gcd(a,b)=1. Then √2 = a/(3b). Since a and 3b are integers and 3b ≠ 0, a/(3b) is rational. But √2 is irrational (proved in c10_math_cbse_01_006). Contradiction. A wrong answer that writes √2 = b/(3a) or forgets to justify 3b ≠ 0 reveals incomplete algebraic manipulation or missing the condition that the divisor must be non-zero.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that \\( \\frac{7}{5}\\sqrt{3} \\) is irrational. Show all steps clearly as required in a 2-mark CBSE board question.",
+     "a": "**Proof:** Assume \\( \\frac{7}{5}\\sqrt{3} \\) is rational. Then ∃ integers p,q (q ≠ 0, gcd(p,q)=1) such that \\( \\frac{7}{5}\\sqrt{3} = \\frac{p}{q} \\). Multiply both sides by 5: \\( 7\\sqrt{3} = \\frac{5p}{q} \\). Divide by 7: \\( \\sqrt{3} = \\frac{5p}{7q} \\). Since 5p, 7q ∈ ℤ and 7q ≠ 0, RHS is rational. But √3 is irrational (proved in c10_math_cbse_01_007). Contradiction. Hence \\( \\frac{7}{5}\\sqrt{3} \\) is irrational. A wrong answer that skips the multiplication/division steps or doesn't state \"7q ≠ 0\" loses marks for incomplete reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proofs for: (i) 5 - √3 is irrational (sum/difference property) and (ii) 3√2 is irrational (product property). Identify the structural similarity and the key algebraic difference in isolating the irrational part.",
+     "a": "Both use proof by contradiction and rely on a known irrational (√3 or √2). Similarity: assume the expression is rational → isolate the irrational → express it as rational → contradiction. Difference: For 5 - √3, we *add/subtract* the rational part: √3 = 5 - p/q = (5q - p)/q. For 3√2, we *divide* by the rational coefficient: √2 = (p/q)/3 = p/(3q). A wrong answer that says \"both use division\" or \"both use subtraction\" shows the student memorises steps without understanding the inverse operations needed to isolate the irrational term.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Assume 3√2 = p/q. Then √2 = 3q/p. Since 3q/p is rational, contradiction.\" Identify the error and rewrite the correct step.",
+     "a": "The error: from 3√2 = p/q, the student wrote √2 = 3q/p (incorrect reciprocal). Correct step: √2 = p/(3q). Dividing by 3 means multiplying denominator by 3, not flipping the fraction. This is a common algebraic slip — confusing division by a constant with taking reciprocal. The student would lose 1 mark for incorrect manipulation even if the contradiction idea is right.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: \"Prove that k√m is irrational\" where k is a specific non-zero rational and m is a specific non-square integer. Choose values that would test if a student understands the condition k ≠ 0. Explain why your chosen values test this.",
+     "a": "Example: \"Prove that 0 × √7 is irrational.\" This tests the condition k ≠ 0. The statement is FALSE — 0 × √7 = 0, which is rational. A good answer chooses k = 0 and explains the theorem fails because division by zero is undefined in the proof step √m = (p/q)/k. A poor answer gives k = 2, m = 5 (standard case) showing they missed the \"non-zero\" condition entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

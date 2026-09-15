@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_8",
+   "title": "c9_eco_ch1_8",
+   "questions": [
+    {
+     "q": "What is the fundamental difference in how a planned economy and a market economy decide WHAT goods to produce?",
+     "a": "In a planned economy, a central planning authority decides what to produce based on national priorities and targets (e.g., Five-Year Plans setting steel and tractor quotas). In a market economy, firms decide what to produce based on consumer demand signals reflected in prices - if people want more smartphones and fewer landlines, rising smartphone prices signal producers to shift resources. A wrong answer (e.g., \"both use prices\" or \"both let consumers decide\") reveals the student confuses the allocation mechanism: they miss that planned economies replace price signals with administrative directives.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a market economy use prices to solve the problem of scarcity, while a planned economy uses physical quotas and directives?",
+     "a": "Prices in a market economy condense dispersed information about millions of people's preferences, resource availability, and production costs into a single number that guides decisions automatically - no central planner needs to know why steel is scarce, only that its price rose. A planned economy cannot gather and process this vast, constantly changing information, so it substitutes physical targets (e.g., \"produce 10 million tonnes of cement\") and direct allocation. A wrong answer (e.g., \"prices are unfair\" or \"planning is more scientific\") shows the student misunderstands the information-processing role of prices - they view prices normatively rather than as coordination mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "In a market economy, the price of onions rises from ₹20/kg to ₹60/kg due to a crop failure. In a planned economy, the government keeps the onion price fixed at ₹20/kg by law. Explain what happens to onion allocation in each system using the concepts of shortage, rationing, and black markets.",
+     "a": "Market economy: Higher price (₹60) rations onions to those willing to pay most, signals farmers to plant more next season, and encourages imports - shortage is temporary. Planned economy: Fixed price (₹20) creates persistent shortage since quantity demanded exceeds supply at that price; government must impose ration cards (e.g., 2 kg per family), and black markets emerge where onions sell at ₹80/kg illegally. A wrong answer (e.g., \"both have shortages\" or \"planned economy avoids shortage\") reveals the student fails to see that price controls don't eliminate scarcity - they replace price rationing with non-price rationing (queues, quotas, corruption).",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a planned economy and a market economy answer the question \"HOW to produce\" (choice of production technique). Use the example of a textile factory choosing between labour-intensive handlooms and capital-intensive power looms.",
+     "a": "Market economy: The factory compares wage rate (price of labour) and interest rate (price of capital). If wages are low (₹300/day) and capital expensive (12% interest), it chooses handlooms; if wages rise to ₹800/day and interest falls to 6%, it switches to power looms - the technique minimizes cost given relative factor prices. Planned economy: The central plan assigns the technique based on macro targets (e.g., \"maximize employment\" → handlooms mandated regardless of cost). A wrong answer (e.g., \"both choose the cheapest method\" or \"planned economy is more efficient\") shows the student misses that factor prices in markets reflect opportunity costs, while planned directives reflect political priorities that may ignore true resource scarcity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A planned economy achieves greater equity because the government ensures everyone gets basic needs, while a market economy creates inequality.\" Use the concepts of incentives, information, and historical evidence from India pre-1991 and post-1991.",
+     "a": "The statement is partially true but incomplete. Pre-1991 India (planned): Ration shops provided subsidized grain, but chronic shortages, corruption, and low-quality goods meant the poor often couldn't access entitlements; inequality persisted in access to power and permits. Post-1991 (market reforms): Growth accelerated, poverty fell from ~45% to ~22% by 2011, but income inequality rose (Gini coefficient increased). Market economies generate inequality but also create incentives for innovation and productivity that raise overall living standards; planned economies suppress inequality at the cost of stagnation and hidden privilege for elites. A wrong answer (e.g., \"planned is always more equitable\" or \"markets always help the poor\") reveals the student cannot weigh trade-offs dynamically - they treat equity and efficiency as fixed outcomes rather than systemic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple simulation for your class to experience the difference between price-based allocation and quota-based allocation. Describe the rules, roles, and what economic concept each version demonstrates.",
+     "a": "Simulation: 30 students, 10 identical notebooks. Version A (Market): Each student gets ₹50 play money; notebooks auctioned - highest bidders get them. Version B (Planned): Teacher allocates 1 notebook per 3 students by roll number; no trading allowed. Debrief: Version A demonstrates how prices reveal willingness to pay and allocate to highest-valued uses; Version B shows how non-price rationing ignores intensity of need (a student needing notebook for exam vs. doodling gets same chance). Good answer includes: clear rules, measurable outcomes (who got notebooks, satisfaction), and explicit link to allocative efficiency vs. administrative fairness. A poor answer (e.g., just \"auction vs. lottery\" without economic reasoning) shows the student cannot translate abstract concepts into operational demonstrations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

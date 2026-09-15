@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_5",
+   "title": "c8_math_ch2_5",
+   "questions": [
+    {
+     "q": "Write the number 70,000 in standard form (scientific notation).",
+     "a": "Correct answer: \\( 7 \\times 10^4 \\). A wrong answer like \\( 70 \\times 10^3 \\) or \\( 0.7 \\times 10^5 \\) reveals the student does not understand the condition \\( 1 \\le a < 10 \\) for standard form. They are treating the exponent as just a zero-counting trick without the normalization rule.",
+     "self_check": true
+    },
+    {
+     "q": "The number 64 can be written as \\( 2^6 \\), \\( 4^3 \\), and \\( 8^2 \\). Explain why all three are correct exponential forms of 64, and why the base and exponent change.",
+     "a": "Correct explanation: 64 = 2 × 2 × 2 × 2 × 2 × 2 = 2^6. Grouping the twos as (2×2) three times gives 4^3. Grouping as (2×2×2) two times gives 8^2. The product remains 64 because multiplication is associative. A wrong answer that says \"the exponent tells how many zeros\" or \"only one form is correct\" reveals a misconception that exponential form is unique or only works for base 10.",
+     "self_check": true
+    },
+    {
+     "q": "Express 3,60,00,000 in standard form. Show the steps of moving the decimal point.",
+     "a": "Steps: 1) Write number with decimal: 3,60,00,000.0. 2) Move decimal left until number is between 1 and 10: 3.6 (moved 7 places). 3) Exponent is 7. 4) Standard form: \\( 3.6 \\times 10^7 \\). A wrong answer like \\( 36 \\times 10^6 \\) shows the student moved the decimal correctly but forgot the \\( 1 \\le a < 10 \\) rule. An answer of \\( 3.6 \\times 10^6 \\) shows a miscount of decimal places (common error: counting digits instead of decimal shifts).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the exponential forms of 1000 and 10000. What pattern do you see in the exponents when the base is 10? How does this pattern help you write 1,00,000 in exponential form without counting zeros?",
+     "a": "1000 = 10^3, 10000 = 10^4. The exponent equals the number of zeros. For 1,00,000 (5 zeros), it is 10^5. A student who cannot articulate the pattern or says \"10^6 because it's one lakh\" (confusing the Indian naming system with zero count) reveals they are memorizing names rather than understanding the place value power-of-10 structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the standard form of 5,200 as \\( 52 \\times 10^2 \\). Is this correct? If not, identify the error and give the correct standard form.",
+     "a": "Incorrect. The error: the coefficient 52 is not between 1 and 10. Standard form requires \\( 1 \\le a < 10 \\). Correct form: \\( 5.2 \\times 10^3 \\). A student who says \"it's correct because 52 × 100 = 5200\" reveals they confuse *exponential form* (any base/exponent) with *standard form* (specific normalized format). They miss the definition constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context: rupees, population, distance) where expressing a large number in standard form makes the problem easier to solve or compare. Write the problem and show the standard form conversion.",
+     "a": "Example: \"India's population is about 1,40,00,00,000. The world population is about 8,00,00,00,000. Write both in standard form and find how many times larger the world population is.\" Good answer: India = \\( 1.4 \\times 10^9 \\), World = \\( 8 \\times 10^9 \\). Ratio = \\( 8 / 1.4 \\approx 5.7 \\). A poor answer uses numbers that don't require standard form (e.g., 5000) or fails to show the conversion steps, indicating they don't see the utility of the notation for comparison of magnitudes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

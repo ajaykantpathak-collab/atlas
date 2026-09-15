@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_003",
+   "title": "c12_eco_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the consumer's equilibrium condition for a single commodity under the cardinal utility approach. Define each term in the condition.",
+     "a": "The equilibrium condition is MUx = Px, where MUx is the marginal utility of commodity X (additional satisfaction from consuming one more unit) and Px is the market price of commodity X. This assumes marginal utility of money (MUm) is constant and equal to 1. A wrong answer (e.g., \"TU = Price\" or \"MUx = MUy\") reveals the student confuses total utility with marginal utility, or mixes up single-commodity and two-commodity equilibrium conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys a good at ₹15 per unit. The marginal utilities of successive units are: 1st unit = 25 utils, 2nd = 20 utils, 3rd = 15 utils, 4th = 10 utils, 5th = 5 utils. How many units will the consumer buy at equilibrium? Explain why they stop at that quantity and do not buy the next unit.",
+     "a": "The consumer buys 3 units. At the 3rd unit, MU = 15 utils = Price (₹15), satisfying MUx = Px. The 4th unit gives MU = 10 utils < ₹15, so buying it would reduce total utility (marginal cost exceeds marginal benefit). A wrong answer (e.g., \"4 units because MU is still positive\" or \"5 units to maximize total utility\") reveals the student thinks positive MU justifies purchase, ignoring that price is the opportunity cost, or confuses maximizing total utility with equating marginal utility to price.",
+     "self_check": true
+    },
+    {
+     "q": "Given the MU schedule: Unit 1: 40 utils, Unit 2: 35 utils, Unit 3: 30 utils, Unit 4: 25 utils, Unit 5: 20 utils, Unit 6: 15 utils. Price = ₹25. Calculate (a) equilibrium quantity, (b) total utility at equilibrium, (c) total expenditure, and (d) consumer surplus. Assume 1 util = ₹1.",
+     "a": "(a) Equilibrium at 4 units (MU4 = 25 = P). (b) TU = 40 + 35 + 30 + 25 = 130 utils. (c) Expenditure = 4 × ₹25 = ₹100. (d) Consumer Surplus = TU (in ₹) - Expenditure = ₹130 - ₹100 = ₹30. A wrong answer (e.g., stopping at 3 units, or calculating CS as sum of (MU - P) for all units including those beyond equilibrium) reveals misunderstanding of the equilibrium stopping rule or confusion between consumer surplus definition (area under MU curve above price up to equilibrium quantity) and arbitrary summation.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a consumer is at equilibrium consuming 5 units of a good at ₹10 each. The price suddenly falls to ₹8. Using the cardinal utility framework, explain step-by-step how the consumer adjusts to the new equilibrium. What happens to consumer surplus?",
+     "a": "Initially MU5 = ₹10. After price falls to ₹8, at 5 units MU5 (₹10) > P (₹8), so the consumer gains by buying more. They buy the 6th unit if MU6 ≥ ₹8, continuing until MU = ₹8. Suppose MU6 = 9, MU7 = 8, MU8 = 7. New equilibrium = 7 units. Consumer surplus increases because: (1) they buy more units at lower price, (2) they pay less for the original 5 units. A wrong answer (e.g., \"quantity stays same because utility hasn't changed\" or \"buys until MU = 0\") reveals the student treats equilibrium as fixed or ignores the price change's effect on the MU = P condition.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The cardinal utility approach assumes utility can be measured in absolute numbers (utils), but the equilibrium condition MUx = Px only requires ordinal ranking of preferences.\" Is this statement true or false? Justify your answer with reference to the assumptions of cardinal utility analysis.",
+     "a": "False. The statement contradicts itself. Cardinal utility approach explicitly assumes utility is cardinally measurable (quantifiable in utils) and additive, which allows the MUx = Px comparison. Ordinal utility (indifference curve approach) only requires ranking. The equilibrium condition MUx = Px requires cardinal measurability because we equate a cardinal number (MU in utils) to a price (in rupees), assuming 1 util = ₹1 constant MUm. A wrong answer (e.g., \"True, because we only compare MU and P\") reveals confusion between cardinal and ordinal frameworks — a critical distinction for board exams and JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a consumer's equilibrium quantity is 4 units. Provide: (a) a plausible MU schedule for at least 6 units, (b) a price, (c) verification that MU = P at 4 units, (d) demonstration that 3 units and 5 units are not equilibrium, and (e) calculation of consumer surplus.",
+     "a": "Example: MU schedule: 1st: 50, 2nd: 40, 3rd: 30, 4th: 20, 5th: 10, 6th: 5 utils. Price = ₹20. (c) At 4 units, MU = 20 = P ✓. (d) At 3 units, MU = 30 > 20 → consumer gains by buying 4th unit. At 5 units, MU = 10 < 20 → consumer loses by buying 5th unit. (e) TU = 50+40+30+20 = 140 utils = ₹140. Expenditure = 4×20 = ₹80. CS = ₹60. A poor answer (e.g., MU not diminishing, or MU4 ≠ P) reveals inability to construct a consistent diminishing MU schedule satisfying the equilibrium condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

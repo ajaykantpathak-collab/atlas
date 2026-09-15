@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_006",
+   "title": "c7_geo_ch01_006",
+   "questions": [
+    {
+     "q": "Which river valley acts as the major dividing boundary separating the Central Highlands from the Deccan Plateau in the Peninsular Plateau region?",
+     "a": "The Narmada River valley. A student who answers with the Ganga or Brahmaputra river is confusing the Northern Plains with the interior river basins of the Peninsular Plateau, missing the structural fault-valley that splits the plateau into its two main northern and southern sections.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why most major rivers of the Deccan Plateau, such as the Mahanadi, Godavari, Krishna, and Kaveri, flow from west to east into the Bay of Bengal, whereas the Narmada and Tapi flow westwards into the Arabian Sea.",
+     "a": "The Deccan Plateau has a general slope from west to east, meaning the Western Ghats are much higher than the Eastern Ghats, forcing rivers originating in the west to drain eastward. The Narmada and Tapi flow westwards because they travel through rift valleys created by ancient land faults that slope in the opposite direction. A student who thinks all Indian rivers flow south to the ocean does not understand how local slopes and rift valleys determine drainage directions.",
+     "self_check": true
+    },
+    {
+     "q": "If a traveler starts in Indore (located in the Malwa Plateau) and travels south across the Narmada River into Bengaluru (located on the Deccan Plateau), what changes in general elevation and surrounding hill ranges will they observe?",
+     "a": "Steps: 1. Identify Indore's location in the Central Highlands (Malwa Plateau) which slopes towards the north-northeast. 2. Cross the Narmada rift valley which marks the northern edge of the Deccan tableland. 3. Ascend onto the higher southern Deccan Plateau where elevation increases towards the Western Ghats. 4. Conclude that the traveler moves from a northward-sloping plateau section across a major river trench onto a vast, southward/eastward-tilted higher plateau surface. A student who states that the elevation continuously decreases southward misunderstands the elevated block structure of the Deccan.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direction of flow of the Chambal, Betwa, and Ken rivers with the Godavari and Krishna rivers. What does this reveal about the slope of the Central Highlands versus the Deccan Plateau?",
+     "a": "The Chambal, Betwa, and Ken flow northward and northeastward to join the Yamuna, showing that the Central Highlands slope towards the north and northeast. In contrast, the Godavari and Krishna flow eastward into the Bay of Bengal, showing that the Deccan Plateau tilts downward from west to east. A student who assumes all plateau rivers flow in the same direction fails to analyze how different parts of the same landmass have opposing tilts and drainage systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether building massive canal irrigation systems is easier on the Northern Plains or across the undulating terrain of the Deccan Plateau, considering the underlying rock structure and topography.",
+     "a": "Canal irrigation is much easier and more widespread in the Northern Plains because the soft alluvial soil is flat and deep. In contrast, the Deccan Plateau consists of hard igneous (basalt) rock with uneven, undulating terrain, making canal excavation extremely difficult and requiring rocky terrain blasting or reliance on rain-fed tanks and dam reservoirs. A student who claims plateaus are ideal for flat canal digging ignores the hard rock composition and irregular surface elevation of tablelands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regional resource management plan for a district in the Chota Nagpur Plateau region (part of the Central Highlands), keeping in mind its topography, mineral wealth, and river drainage.",
+     "a": "A successful plan must account for heavy mineral deposits (coal, iron ore) by proposing regulated mining with strict environmental reclamation, utilize undulating land slopes for check-dams and rainwater harvesting tanks to combat dry seasons, and protect forested upper catchments to prevent severe soil erosion along river basins. A poor plan would suggest flat-land agriculture expansion without addressing rocky soil constraints or mining pollution runoff.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

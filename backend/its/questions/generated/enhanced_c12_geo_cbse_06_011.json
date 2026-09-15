@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_011",
+   "title": "c12_geo_cbse_06_011",
+   "questions": [
+    {
+     "q": "Define \"quaternary activities\" and give two examples from the Indian context.",
+     "a": "Quaternary activities are knowledge-oriented service sector activities involving the collection, production, and dissemination of information, centred around research, development, and specialised technical skills. Indian examples: (1) software development and IT services in Bengaluru, (2) biotechnology research in Hyderabad's Genome Valley. A wrong answer (e.g., \"call centres\" or \"manufacturing\") reveals confusion between quaternary (knowledge creation) and tertiary/quinary (routine services or top-level decision-making) activities.",
+     "self_check": true
+    },
+    {
+     "q": "Why do high-tech industries cluster near major universities (e.g., Stanford-Silicon Valley, IISc-Bengaluru) rather than near raw material sources or large markets?",
+     "a": "High-tech industries depend on *tacit knowledge* — uncodified know-how transferred through face-to-face interaction — which universities generate via research and skilled graduates. Proximity enables knowledge spillovers, labour pooling, and university-industry linkages (e.g., startups licensing IISc patents). A wrong answer citing \"cheap land\" or \"transport cost minimisation\" reveals application of Weberian least-cost theory (valid for heavy industry) to a footloose, knowledge-intensive sector where human capital is the critical input.",
+     "self_check": true
+    },
+    {
+     "q": "A GIS analyst in Hyderabad processes satellite imagery for a US-based environmental firm. The analyst earns ₹15 lakh/year; the US firm saves 60% compared to hiring locally. Identify the quaternary activity, the outsourcing model, and explain why this is *not* a BPO operation.",
+     "a": "Activity: Geospatial data analysis (quaternary — specialised knowledge, high skill). Model: Knowledge Process Outsourcing (KPO). Not BPO because BPO involves rule-based, routine processes (e.g., call centres, payroll) with low discretion; KPO requires domain expertise, judgment, and innovation (e.g., interpreting MRI scans, IP research, GIS modelling). A wrong classification as BPO reveals misunderstanding of the skill/intensity hierarchy: BPO < KPO < R&D in value-addition and autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational requirements of India's iron & steel industry (e.g., Jamshedpur) with its IT industry (e.g., Bengaluru). Use the concepts of *footloose* vs. *resource-tied* industries and *agglomeration economies*.",
+     "a": "Iron & steel: resource-tied (iron ore, coal, water), high transport costs for bulky inputs → locates near raw materials (Chota Nagpur Plateau). IT: footloose (inputs = electricity, bandwidth, talent — available almost anywhere), near-zero transport cost for digital output → locates where *agglomeration economies* are strongest: skilled labour pool (IITs/IISc), venture capital, cosmopolitan culture, governance quality. A wrong answer listing \"market access\" for both misses that steel serves construction/auto clusters while IT serves global clients via fibre optics — market is virtual, not spatial.",
+     "self_check": true
+    },
+    {
+     "q": "\"India's digital divide is primarily a rural-urban gap.\" Evaluate this statement using evidence on intra-urban inequality, gender, and caste dimensions of ICT access.",
+     "a": "The statement is incomplete. While rural-urban divide exists (NFHS-5: 73% urban vs 42% rural women ever used internet), intra-urban gaps are stark: slum households lack devices/connectivity; gender gap persists (NFHS-5: 57% men vs 33% women used internet); caste correlates with digital access (SC/ST households lag). A purely rural-urban framing ignores how *social stratification reproduces digital inequality within cities* — e.g., a Dalit woman in a Bengaluru slum faces triple exclusion. A \"yes\" answer reveals oversimplification of a multi-scalar, intersectional phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy intervention to reduce the digital divide in a tribal district of Odisha. Your plan must address infrastructure, human capital, and local content — and explain why each component is necessary.",
+     "a": "A strong answer includes: (1) Infrastructure: BharatNet last-mile connectivity + community Wi-Fi hubs at panchayat bhawans (solves physical access). (2) Human capital: Digital literacy camps in Odia/Santali using PMGDISHA curriculum, targeting women and elders (solves usage capability). (3) Local content: Digitise tribal knowledge (medicinal plants, folklore) via community-owned platforms; enable e-governance services (land records, pensions) in local language (solves relevance/motivation). Missing any component fails because *access without skills = unused infra; skills without relevant content = no sustained adoption*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_016",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_016",
+   "title": "c11_math_cbse_10_016",
+   "questions": [
+    {
+     "q": "State the definition of locus of a point and write the general procedure to find the equation of a locus in coordinate geometry.",
+     "a": "The locus of a point is the set of all points satisfying a given geometric condition. The procedure: (1) Let P(x, y) be any point on the locus. (2) Translate the geometric condition into an algebraic equation using distance formula, slope formula, or other coordinate geometry tools. (3) Simplify to get the equation in x and y. A wrong answer like \"locus is just a line\" reveals confusion between locus and specific examples; \"no procedure needed\" shows lack of systematic approach.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation obtained after simplifying the condition PA = PB for points A(1, 2) and B(5, 6) represents the perpendicular bisector of AB, and not just any line passing through the midpoint.",
+     "a": "The condition PA = PB means P is equidistant from A and B. By the perpendicular bisector theorem, the set of all points equidistant from two fixed points is exactly the perpendicular bisector of the segment joining them. The equation derived will be linear (degree 1) with slope negative reciprocal of AB's slope and passing through the midpoint. A wrong answer like \"it passes through midpoint so it's the bisector\" misses the perpendicularity requirement; \"all points on any line through midpoint are equidistant\" is a fundamental geometric misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the locus of a point P(x, y) that moves such that its distance from the point (3, -2) is always 5 units.",
+     "a": "Let P(x, y) be the moving point. Given: distance from P to A(3, -2) = 5.\nUsing distance formula: √[(x - 3)² + (y + 2)²] = 5.\nSquare both sides: (x - 3)² + (y + 2)² = 25.\nExpand: x² - 6x + 9 + y² + 4y + 4 = 25.\nSimplify: x² + y² - 6x + 4y - 12 = 0.\nThis is a circle with centre (3, -2) and radius 5. A wrong answer like x² + y² = 25 reveals the student ignored the centre coordinates; forgetting to square both sides gives √[(x-3)²+(y+2)²] = 5 as final equation, showing incomplete algebraic manipulation.",
+     "self_check": true
+    },
+    {
+     "q": "A point P moves such that the sum of its distances from two fixed points A(-4, 0) and B(4, 0) is always 10. Identify the type of curve, find its equation, and explain why this is NOT a circle.",
+     "a": "Let P(x, y). PA + PB = 10. PA = √[(x+4)²+y²], PB = √[(x-4)²+y²].\n√[(x+4)²+y²] + √[(x-4)²+y²] = 10.\nIsolate one radical: √[(x+4)²+y²] = 10 - √[(x-4)²+y²].\nSquare both sides: (x+4)²+y² = 100 + (x-4)²+y² - 20√[(x-4)²+y²].\nSimplify: x²+8x+16+y² = 100 + x²-8x+16+y² - 20√[(x-4)²+y²].\n16x - 100 = -20√[(x-4)²+y²] → 20√[(x-4)²+y²] = 100 - 16x.\nDivide by 4: 5√[(x-4)²+y²] = 25 - 4x.\nSquare again: 25[(x-4)²+y²] = (25-4x)².\n25[x²-8x+16+y²] = 625 - 200x + 16x².\n25x² - 200x + 400 + 25y² = 625 - 200x + 16x².\n9x² + 25y² = 225 → x²/25 + y²/9 = 1.\nThis is an ellipse with foci at (±4,0), major axis 10. It is not a circle because coefficients of x² and y² are unequal (9 ≠ 25). A wrong answer \"it's a circle because distance sum is constant\" confuses circle (single fixed point) with ellipse (two fixed points).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find locus of point P such that its distance from line x = 2 is twice its distance from line y = 3.\" They write: |x - 2| = 2|y - 3| → x - 2 = 2y - 6 → x - 2y + 4 = 0. Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. The error is removing absolute values without considering cases. |x - 2| = 2|y - 3| gives four cases:\n(1) x-2 = 2(y-3) → x - 2y + 4 = 0\n(2) x-2 = -2(y-3) → x + 2y - 8 = 0\n(3) -(x-2) = 2(y-3) → x + 2y - 8 = 0 (same as 2)\n(4) -(x-2) = -2(y-3) → x - 2y + 4 = 0 (same as 1)\nThe complete locus is two intersecting lines: x - 2y + 4 = 0 and x + 2y - 8 = 0. The student's answer gives only one line, missing half the locus. This reveals the misconception that |A| = |B| implies A = B only, ignoring A = -B.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (Indian context) involving locus of a point that requires using both distance formula and section formula. Provide the geometric condition and ask for the equation of the locus.",
+     "a": "Problem: \"A cellular tower is to be erected on a straight road (x-axis) such that it is equidistant from two villages located at A(2, 5) and B(8, 1). The tower must also be exactly 5 km from a highway checkpoint at C(5, 0). Find the possible coordinates of the tower.\"\nCondition: Tower T lies on x-axis (y=0), TA = TB, and TC = 5.\nFrom TA = TB: T is on perpendicular bisector of AB. Midpoint of AB is (5, 3), slope AB = -2/3, so perpendicular slope = 3/2. Equation: y - 3 = (3/2)(x - 5). Since T is on x-axis (y=0): -3 = (3/2)(x - 5) → x = 3. So T(3, 0).\nCheck TC = 5: Distance from (3,0) to (5,0) = 2 ≠ 5. No solution exists.\nA good answer identifies the conflict and explains why no such tower position exists. A poor answer just solves TA=TB ignoring the x-axis constraint or the TC=5 condition, showing inability to synthesize multiple constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_003",
+   "title": "c11_hs_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the ICMR 2010 recommended dietary allowance for Energy and Protein for an infant aged 0–6 months, including the units used in the table.",
+     "a": "Energy: 108 kcal per kg body weight; Protein: 2.05 g per kg body weight. A wrong answer (e.g., giving absolute values like \"600 kcal\" or using units for older children) reveals the student does not understand that infant RDAs for energy and protein are weight-based, not fixed, because body weight changes rapidly in infancy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the ICMR RDA table lists Energy and Protein per kg body weight for infants but as absolute values (kcal/day, g/day) for preschool children (Table 4).",
+     "a": "Infants grow at a very high velocity and their body weight changes dramatically week to week; expressing needs per kg allows the allowance to scale with the infant's current size. Preschool children grow more slowly, so a fixed daily amount based on age range is practical. A wrong answer (e.g., \"it's just a different format\") shows the student misses the physiological reasoning: the per-kg method automatically adjusts for the wide weight variation among same-age infants.",
+     "self_check": true
+    },
+    {
+     "q": "A 5-month-old infant weighs 6.5 kg. Using the ICMR 2010 RDA, calculate the infant's daily Energy (kcal) and Protein (g) requirements. Show all steps.",
+     "a": "Step 1: Identify age group → 0–6 months. Step 2: Note per-kg values: Energy = 108 kcal/kg, Protein = 2.05 g/kg. Step 3: Multiply by weight: Energy = 108 × 6.5 = 702 kcal; Protein = 2.05 × 6.5 = 13.325 g ≈ 13.3 g. Step 4: State answer with units. A wrong answer (e.g., using 98 kcal/kg or forgetting to multiply) reveals the student cannot apply the weight-based formula or confuses the two age columns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the per-kg Energy and Protein RDAs for 0–6 months vs. 6–12 months. What does the *decrease* in per-kg values combined with the *increase* in typical body weight tell you about the infant's growth pattern and the role of complementary foods?",
+     "a": "Per-kg Energy drops from 108 to 98 kcal/kg; Protein drops from 2.05 to 1.65 g/kg. However, a typical 6-month-old weighs ~7.5 kg (needs ~735 kcal) while a 12-month-old weighs ~9.5 kg (needs ~931 kcal). Total daily needs rise by ~27% even though per-kg needs fall. This means growth rate slows but absolute tissue accretion continues. Breast milk (~850 ml) provides ~500–600 kcal, leaving a gap of 200–400 kcal that *must* be filled by complementary foods. A wrong answer focusing only on the per-kg drop misses the critical implication: complementary feeding is quantitatively necessary, not just qualitatively.",
+     "self_check": true
+    },
+    {
+     "q": "A parent says, \"My 8-month-old weighs 9 kg. The table says 98 kcal/kg, so she needs 882 kcal. Breast milk gives 600 kcal, so I'll give 282 kcal from complementary food. That's easy — just two biscuits.\" Evaluate this plan using ICMR guidelines on complementary feeding (calorie density, protein %, hygiene).",
+     "a": "The plan fails on three ICMR criteria: (1) Two biscuits (~30 g) provide ~140 kcal, not 282 kcal — the parent underestimated volume needed. (2) Complementary foods must provide ≥10% energy as protein; biscuits are low-protein (6–7%), risking protein gap. (3) Biscuits are often high sugar, low nutrient-density, and pose hygiene risks if not fresh. ICMR recommends calorie-dense, protein-adequate, hygienic semi-solids like dal-rice mash. A wrong answer that only checks the kcal math misses the multi-dimensional quality criteria in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day complementary feeding schedule for a 7-month-old infant (weight 8 kg) that meets the ICMR RDA for Energy and Protein *from complementary foods alone*, assuming 600 ml breast milk provides 420 kcal and 7 g protein. Use only foods listed in Table 2 (Types of Complementary Foods). Show calculations.",
+     "a": "Step 1: Total RDA for 7-mo (6–12 mo column): Energy = 98 × 8 = 784 kcal; Protein = 1.65 × 8 = 13.2 g. Step 2: Subtract breast milk contribution: Complementary foods must supply 784 – 420 = 364 kcal and 13.2 – 7 = 6.2 g protein. Step 3: Select foods from Table 2 (semi-solids): e.g., 50 g cooked rice (170 kcal, 3.5 g protein) + 30 g cooked moong dal (105 kcal, 7 g protein) + 50 g mashed potato (45 kcal, 1 g protein) + 5 ml ghee (45 kcal, 0 g protein) = 365 kcal, 11.5 g protein. Protein % of energy = (11.5×4)/365 ≈ 12.6% (>10% ✓). Meets criteria. A poor answer uses only one food group, ignores protein %, or picks foods not in Table 2 (e.g., commercial cerelac).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

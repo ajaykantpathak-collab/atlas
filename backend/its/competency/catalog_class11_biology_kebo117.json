@@ -1,0 +1,165 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 117,
+ "chapter_title": "Locomotion and Movement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo117.txt",
+ "concepts": [
+  {
+   "id": "kebo.117.1.1",
+   "title": "Types of Movement and Muscle Types",
+   "section": "17.1 Types of Movement, 17.2 Muscle",
+   "definition": "Movements in the body include amoeboid, ciliary and muscular types; muscles are of three types, skeletal or striated voluntary muscles attached to bones, smooth or non-striated involuntary muscles of visceral organs, and cardiac muscles of the heart that are striated, involuntary and interconnected by intercalated discs.",
+   "formula": "",
+   "key_idea": "A skeletal muscle fibre is a syncytium with sarcolemma, sarcoplasm, many nuclei and myofibrils, whose sarcomere between two Z lines is the functional contractile unit.",
+   "textbook_ref": "kebo117.txt sections 17.1, 17.2",
+   "question_patterns": [
+    "classify the three types of muscles with their locations",
+    "what is a sarcomere and what does it contain",
+    "differentiate striated non-striated and cardiac muscles",
+    "define amoeboid ciliary and muscular movements with examples",
+    "why is skeletal muscle called a syncytium",
+    "name the proteins present in muscle filaments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the muscle type",
+     "explain": "Note striations, control and location of the muscle."
+    },
+    {
+     "step": 2,
+     "action": "check the arrangement",
+     "explain": "Identify myofibrils, sarcomeres, Z lines and intercalated discs where present."
+    },
+    {
+     "step": 3,
+     "action": "assign control and function",
+     "explain": "State whether the muscle is voluntary or involuntary and its role."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.2.1",
+   "title": "Sliding Filament Theory of Muscle Contraction",
+   "section": "17.2.1 Structure of Contractile Proteins, 17.3 Skeletal System",
+   "definition": "Muscle contraction follows the sliding filament theory: a signal from the central nervous system releases calcium ions from the sarcoplasmic reticulum, calcium binds troponin, myosin heads bind actin forming cross bridges, and actin filaments slide over myosin pulling Z lines closer, shortening the sarcomere while the filaments themselves stay the same length.",
+   "formula": "",
+   "key_idea": "ATP hydrolysis powers cross bridge cycling, and relaxation follows when calcium is pumped back and troponin tropomyosin complex masks the actin binding sites again.",
+   "textbook_ref": "kebo117.txt section 17.2",
+   "question_patterns": [
+    "explain the sliding filament theory of muscle contraction",
+    "what is the role of calcium ions and troponin in contraction",
+    "how do cross bridges form between actin and myosin",
+    "why does the sarcomere shorten during contraction",
+    "what happens to a muscle when the signal stops",
+    "define motor unit and neuromuscular junction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the signal",
+     "explain": "Trace the impulse from motor neuron to calcium release."
+    },
+    {
+     "step": 2,
+     "action": "trace the filament sliding",
+     "explain": "Describe cross bridge formation and sliding of actin over myosin."
+    },
+    {
+     "step": 3,
+     "action": "explain relaxation",
+     "explain": "Note calcium resequestration and unmasking reversal."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.3.1",
+   "title": "Skeletal System: Axial and Appendicular Skeleton with Joints",
+   "section": "17.3 Skeletal System, 17.4 Joints",
+   "definition": "The human skeleton of 206 bones divides into an axial skeleton of skull, vertebral column, ribs and sternum with a total of 80 bones, and an appendicular skeleton of limbs and girdles with 126 bones, and joints are classified as fibrous, cartilaginous and synovial, with ball and socket, hinge, pivot, gliding and saddle types.",
+   "formula": "",
+   "key_idea": "Synovial joints with synovial fluid allow free movement, as in the ball and socket joint of the shoulder and the hinge joint of the knee, while skull sutures are fixed fibrous joints.",
+   "textbook_ref": "kebo117.txt sections 17.3, 17.4",
+   "question_patterns": [
+    "divide the human skeleton into axial and appendicular parts",
+    "how many bones does the human body contain and how are they distributed",
+    "classify joints into fibrous cartilaginous and synovial types",
+    "describe the ball and socket and hinge joints with examples",
+    "name the bones of the pectoral and pelvic girdles",
+    "what is the role of synovial fluid in joints"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two divisions",
+     "explain": "Sort the bones into axial and appendicular skeleton."
+    },
+    {
+     "step": 2,
+     "action": "classify the joint",
+     "explain": "Note the tissue between bones and the range of movement."
+    },
+    {
+     "step": 3,
+     "action": "verify with examples",
+     "explain": "Match the joint with textbook examples like shoulder and knee."
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.4.1",
+   "title": "Disorders of Muscular and Skeletal Systems",
+   "section": "17.5 Disorders of Muscular and Skeletal Systems",
+   "definition": "Common disorders include myasthenia gravis where antibodies destroy the neuromuscular junction causing fatigue, muscular dystrophy as a genetic degeneration of muscles, tetany from low calcium causing rapid spasms, arthritis as joint inflammation, gout from uric acid crystal deposition, and osteoporosis with decreased bone mass in old age.",
+   "formula": "",
+   "key_idea": "Each disorder maps to a component of the locomotor system: junction failure in myasthenia gravis, gene defect in muscular dystrophy, low blood calcium in tetany and uric acid crystals in gout.",
+   "textbook_ref": "kebo117.txt section 17.5",
+   "question_patterns": [
+    "describe myasthenia gravis and its cause",
+    "what causes gout and which joints does it affect",
+    "define osteoporosis and its common cause",
+    "differentiate arthritis and tetany",
+    "why is muscular dystrophy called a genetic disorder",
+    "match the disorder with the affected part of the locomotor system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the affected part",
+     "explain": "Identify whether muscle, junction, joint or bone is affected."
+    },
+    {
+     "step": 2,
+     "action": "identify the cause",
+     "explain": "Look for autoimmune, genetic, ionic or metabolic causes."
+    },
+    {
+     "step": 3,
+     "action": "name the disorder",
+     "explain": "State the disorder whose features match the cause and site."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo117.txt exercises section",
+   "questions": [
+    "Draw the diagram of a sarcomere of skeletal muscle showing different regions.",
+    "Define sliding filament theory of muscle contraction.",
+    "Describe the important steps in muscle contraction.",
+    "Write true or false: actin is present in thin filament.",
+    "Distinguish between a red muscle fibre and a white muscle fibre.",
+    "Name the type of joint between atlas and axis, and between femur and acetabulum.",
+    "What is the cause of gout and arthritis?"
+   ]
+  }
+ ]
+}

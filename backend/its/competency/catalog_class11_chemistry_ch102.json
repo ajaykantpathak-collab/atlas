@@ -1,0 +1,579 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 102,
+ "chapter_title": "Structure of Atom",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc109.txt",
+ "concepts": [
+  {
+   "id": "jech.2.1",
+   "title": "Discovery of Electron, Proton, and Neutron",
+   "section": "2.1",
+   "definition": "Electrons were discovered by J.J. Thomson through cathode ray experiments, protons by Goldstein through canal rays, and neutrons by Chadwick through beryllium bombardment with alpha particles.",
+   "formula": "charge_e = -1.6e-19 C; mass_e = 9.1e-31 kg; charge_p = +1.6e-19 C; mass_p = 1.67e-27 kg; mass_n = 1.67e-27 kg",
+   "key_idea": "The atom is composed of three fundamental subatomic particles: negatively charged electrons, positively charged protons, and neutral neutrons.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "who discovered the electron and how",
+    "what are the properties of cathode rays",
+    "describe the discovery of neutron by chadwick",
+    "compare the charge and mass of proton and neutron",
+    "explain the experiment that led to the discovery of proton"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the experiment used to discover each particle.",
+     "explain": "Thomson used cathode ray tubes for electrons, Goldstein used canal rays for protons, and Chadwick bombarded beryllium with alpha particles for neutrons."
+    },
+    {
+     "step": 2,
+     "action": "List the charge and mass of each subatomic particle.",
+     "explain": "Electron: charge -1.6e-19 C, mass 9.1e-31 kg; Proton: charge +1.6e-19 C, mass 1.67e-27 kg; Neutron: charge 0, mass 1.67e-27 kg."
+    },
+    {
+     "step": 3,
+     "action": "Compare the particles and state their role in the atom.",
+     "explain": "Protons and neutrons reside in the nucleus while electrons orbit around it; the number of protons determines the element identity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the charge-to-mass ratio (e/m) of an electron?",
+     "solution": "e/m = 1.6e-19 / 9.1e-31 = 1.76e11 C/kg, determined by Thomson.",
+     "answer": "1.76 x 10^11 C/kg"
+    },
+    {
+     "question": "Who discovered neutrons and what was the experiment?",
+     "solution": "Chadwick bombarded beryllium with alpha particles producing neutral radiation identified as neutrons.",
+     "answer": "Chadwick, beryllium + alpha particle experiment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the charge and mass of a proton in SI units.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how canal rays led to the discovery of protons.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.2",
+   "title": "Atomic Number, Isotopes, and Isobars",
+   "section": "2.2",
+   "definition": "Atomic number (Z) is the number of protons in the nucleus. Isotopes are atoms of the same element with different mass numbers. Isobars are atoms of different elements with the same mass number.",
+   "formula": "mass_number(A) = protons(Z) + neutrons(N); isotopes: same Z, different A; isobars: same A, different Z",
+   "key_idea": "Atomic number defines the element; isotopes share the same Z but differ in neutron count, while isobars share the same mass number but have different Z.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the number of neutrons in an atom given Z and A",
+    "identify isotopes among a set of elements",
+    "what is the relationship between atomic number and mass number",
+    "distinguish between isotopes and isobars",
+    "find the number of protons and neutrons in a given isotope"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify atomic number Z and mass number A.",
+     "explain": "Z is the number of protons and A is the total of protons plus neutrons."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the number of neutrons.",
+     "explain": "Subtract the atomic number from the mass number to get neutrons.",
+     "compute": "a - z"
+    },
+    {
+     "step": 3,
+     "action": "Classify as isotope or isobar.",
+     "explain": "Same Z with different A means isotopes; same A with different Z means isobars."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many neutrons are present in Carbon-14?",
+     "solution": "Z=6, A=14, N = A - Z = 14 - 6 = 8.",
+     "answer": "8 neutrons"
+    },
+    {
+     "question": "Are 40Ar, 40K, and 40Ca isotopes or isobars?",
+     "solution": "They have the same mass number A=40 but different Z (18, 19, 20), so they are isobars.",
+     "answer": "Isobars"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the number of neutrons in Uranium-235 (Z=92).",
+     "type": "compute"
+    },
+    {
+     "question": "Identify which pair is isotopic: (6C12, 7N14) or (6C12, 6C14).",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.3",
+   "title": "Thomson's Model and Limitations",
+   "section": "2.3",
+   "definition": "Thomson proposed that the atom is a uniform sphere of positive charge with electrons embedded in it, like seeds in a watermelon, making the atom electrically neutral.",
+   "formula": "positive_charge_sphere + embedded_electrons = neutral atom",
+   "key_idea": "Thomson's plum pudding model could not explain the results of Rutherford's gold foil experiment or the stability of the atom.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe thomson model of the atom",
+    "what are the limitations of thomson model",
+    "why was thomson model called plum pudding model",
+    "explain how thomson model failed to explain rutherford experiment",
+    "compare thomson model with rutherford model"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the main features of Thomson model.",
+     "explain": "The atom is a sphere of uniform positive charge with electrons embedded throughout to balance the charge."
+    },
+    {
+     "step": 2,
+     "action": "Identify the predictions of the model.",
+     "explain": "The model predicts that alpha particles should pass through with minimal deflection since charge is uniformly distributed."
+    },
+    {
+     "step": 3,
+     "action": "State the limitations.",
+     "explain": "Thomson model could not explain large-angle scattering of alpha particles observed by Rutherford, nor could it explain the discrete line spectra of hydrogen."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Thomson model called the plum pudding model?",
+     "solution": "Because electrons are embedded in a uniform positive sphere like plums in a pudding.",
+     "answer": "Electrons embedded in positive charge sphere"
+    },
+    {
+     "question": "What experiment disproved Thomson model?",
+     "solution": "Rutherford's gold foil experiment showed most alpha particles passed through but some deflected at large angles, contradicting the uniform charge distribution.",
+     "answer": "Rutherford's gold foil experiment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State two limitations of Thomson model of the atom.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why Thomson model predicted no large-angle scattering.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.4",
+   "title": "Rutherford's Model and Limitations",
+   "section": "2.4",
+   "definition": "Rutherford proposed that the atom has a small, dense, positively charged nucleus containing protons, with electrons revolving around it, based on the gold foil alpha scattering experiment.",
+   "formula": "nucleus(protons) + orbiting_electrons; most alpha particles pass through, few deflect",
+   "key_idea": "Rutherford's nuclear model introduced the concept of a central nucleus but failed because a revolving electron should radiate energy and spiral into the nucleus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe rutherford gold foil experiment",
+    "what are the conclusions of rutherford model",
+    "explain the limitations of rutherford model",
+    "why does rutherford model predict atomic instability",
+    "what fraction of alpha particles deflected in gold foil experiment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the gold foil experiment setup.",
+     "explain": "Alpha particles were directed at a thin gold foil and their scattering angles were observed on a fluorescent screen."
+    },
+    {
+     "step": 2,
+     "action": "State the observations and conclusions.",
+     "explain": "Most particles passed through, some deflected slightly, and very few bounced back, indicating a small dense positive nucleus with mostly empty space."
+    },
+    {
+     "step": 3,
+     "action": "State the limitations.",
+     "explain": "According to classical electromagnetism, a revolving electron should continuously radiate energy and spiral into the nucleus, making the atom unstable. The model also could not explain the discrete line spectra of hydrogen."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What percentage of alpha particles were deflected by more than 1 degree in Rutherford experiment?",
+     "solution": "A very small fraction, about 1 in 8000, were deflected by more than 90 degrees.",
+     "answer": "Very small fraction, about 1 in 8000"
+    },
+    {
+     "question": "Why did some alpha particles bounce back from the gold foil?",
+     "solution": "They hit the dense, positively charged nucleus head-on and were repelled by Coulomb forces.",
+     "answer": "Repulsion by the dense positive nucleus"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the main postulates of Rutherford nuclear model.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why Rutherford model is unstable according to classical physics.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.5",
+   "title": "Bohr's Model and Limitations",
+   "section": "2.5",
+   "definition": "Bohr proposed that electrons revolve in fixed circular orbits (stationary states) without radiating energy, and energy is emitted or absorbed only when an electron jumps between orbits.",
+   "formula": "E_n = -13.6/n^2 eV; r_n = 0.529*n^2/Z Angstrom; E = h*nu = E2 - E1",
+   "key_idea": "Bohr's model successfully explained the hydrogen spectrum but failed for multi-electron atoms and could not explain fine structure or Zeeman effect.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the energy of an electron in the nth bohr orbit",
+    "find the radius of the nth bohr orbit for hydrogen",
+    "calculate the wavelength of light emitted in a transition",
+    "what are the limitations of bohr model",
+    "determine the energy difference between two bohr orbits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the principal quantum number n and atomic number Z.",
+     "explain": "The energy and radius of a Bohr orbit depend on n and Z."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the energy or radius of the orbit.",
+     "explain": "Energy: E_n = -13.6*Z^2/n^2 eV; Radius: r_n = 0.529*n^2/Z Angstrom."
+    },
+    {
+     "step": 3,
+     "action": "Compute the energy difference for a transition or verify the result.",
+     "explain": "For a transition between orbits, delta_E = E_final - E_initial and the wavelength is lambda = 12400/delta_E(in eV) Angstrom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the energy of an electron in the 2nd orbit of hydrogen.",
+     "solution": "E_2 = -13.6/2^2 = -13.6/4 = -3.4 eV.",
+     "answer": "-3.4 eV"
+    },
+    {
+     "question": "Calculate the wavelength of light emitted when an electron jumps from n=3 to n=2 in hydrogen.",
+     "solution": "E_3 = -13.6/9 = -1.51 eV, E_2 = -13.6/4 = -3.4 eV. delta_E = -1.51-(-3.4) = 1.89 eV. lambda = 12400/1.89 = 6563 Angstrom.",
+     "answer": "6563 Angstrom (red line, Balmer series)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the radius of the 3rd Bohr orbit for hydrogen.",
+     "type": "compute"
+    },
+    {
+     "question": "State two limitations of Bohr model.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.6",
+   "title": "Dual Nature of Matter and Light (de Broglie Relationship)",
+   "section": "2.6",
+   "definition": "Light exhibits both wave and particle nature. de Broglie proposed that matter also has a wave nature, with wavelength inversely proportional to momentum.",
+   "formula": "lambda = h/(m*v) = h/p; E = h*nu; p = h/lambda",
+   "key_idea": "Every moving particle has an associated wave called matter wave, with wavelength lambda = h/p where p is momentum.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the de broglie wavelength of an electron",
+    "what is the de broglie wavelength of a moving particle",
+    "explain the dual nature of light",
+    "find the wavelength of an electron accelerated through a potential",
+    "calculate de broglie wavelength given mass and velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mass and velocity of the particle.",
+     "explain": "The de Broglie wavelength depends on the momentum p = m*v.",
+     "compute": "mass * velocity"
+    },
+    {
+     "step": 2,
+     "action": "Apply the de Broglie formula.",
+     "explain": "lambda = h / p where h = 6.626e-34 J*s.",
+     "compute": "6.626e-34 / p"
+    },
+    {
+     "step": 3,
+     "action": "For electrons accelerated through potential V, use simplified formula.",
+     "explain": "For an electron, lambda = 12.27/sqrt(V) Angstrom where V is the accelerating potential in volts.",
+     "compute": "12.27 / (v ** 0.5)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the de Broglie wavelength of an electron moving at 6.6e6 m/s.",
+     "solution": "p = 9.1e-31 * 6.6e6 = 6.0e-24 kg m/s. lambda = 6.626e-34 / 6.0e-24 = 1.1e-10 m = 1.1 Angstrom.",
+     "answer": "1.1 Angstrom"
+    },
+    {
+     "question": "Find the de Broglie wavelength of an electron accelerated through 100 V.",
+     "solution": "lambda = 12.27/sqrt(100) = 12.27/10 = 1.227 Angstrom.",
+     "answer": "1.227 Angstrom"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the de Broglie wavelength of a ball of mass 0.2 kg moving at 10 m/s.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why de Broglie waves are not observable for macroscopic objects.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.7",
+   "title": "Heisenberg Uncertainty Principle",
+   "section": "2.7",
+   "definition": "It is impossible to simultaneously determine the exact position and exact momentum of a subatomic particle like an electron.",
+   "formula": "delta_x * delta_p >= h/(4*pi); delta_x * delta_v >= h/(4*pi*m)",
+   "key_idea": "The product of uncertainty in position and momentum is always greater than or equal to h/(4*pi), a fundamental limit of nature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the uncertainty in position given uncertainty in momentum",
+    "state the heisenberg uncertainty principle",
+    "find the uncertainty in velocity given uncertainty in position",
+    "explain the significance of heisenberg principle",
+    "calculate minimum uncertainty in position for an electron"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the known uncertainty (position or momentum).",
+     "explain": "Given delta_x, find delta_p, or vice versa, using the uncertainty relation."
+    },
+    {
+     "step": 2,
+     "action": "Apply the uncertainty principle formula.",
+     "explain": "delta_x * delta_p = h/(4*pi) where h = 6.626e-34 J*s.",
+     "compute": "6.626e-34 / (4 * 3.14159 * delta_x)"
+    },
+    {
+     "step": 3,
+     "action": "Convert to velocity uncertainty if needed and verify.",
+     "explain": "delta_v = delta_p / m where m is the mass of the particle.",
+     "compute": "delta_p / mass"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The uncertainty in position of an electron is 1e-10 m. Calculate the minimum uncertainty in its velocity.",
+     "solution": "delta_p = h/(4*pi*delta_x) = 6.626e-34/(4*3.14*1e-10) = 5.27e-25 kg m/s. delta_v = delta_p/m = 5.27e-25/9.1e-31 = 5.8e5 m/s.",
+     "answer": "5.8 x 10^5 m/s"
+    },
+    {
+     "question": "State the Heisenberg uncertainty principle and its formula.",
+     "solution": "It is impossible to measure simultaneously the exact position and exact momentum of a microscopic particle. delta_x * delta_p >= h/(4*pi).",
+     "answer": "delta_x * delta_p >= h/(4*pi)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the uncertainty in position if the uncertainty in velocity of an electron is 1e5 m/s.",
+     "type": "compute"
+    },
+    {
+     "question": "Why is the Heisenberg uncertainty principle not significant for macroscopic objects?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.8",
+   "title": "Quantum Numbers (n, l, m, s)",
+   "section": "2.8",
+   "definition": "Quantum numbers describe the energy, shape, orientation, and spin of an electron in an atom: principal (n), azimuthal (l), magnetic (m), and spin (s).",
+   "formula": "n = 1,2,3...; l = 0 to n-1; m = -l to +l; s = +1/2 or -1/2",
+   "key_idea": "Each electron in an atom is uniquely described by a set of four quantum numbers that define its orbital and spin state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the possible values of magnetic quantum number for a given l",
+    "determine the number of orbitals in a subshell given l",
+    "what are the allowed values of azimuthal quantum number for n=3",
+    "identify the quantum numbers for a given subshell",
+    "calculate the maximum number of electrons in a shell given n"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the allowed values of l for the given n.",
+     "explain": "l ranges from 0 to n-1, where l=0 is s, l=1 is p, l=2 is d, l=3 is f."
+    },
+    {
+     "step": 2,
+     "action": "Determine the allowed values of m for each l.",
+     "explain": "m ranges from -l to +l in integer steps, giving 2l+1 orbitals."
+    },
+    {
+     "step": 3,
+     "action": "Calculate the maximum number of electrons and assign spin.",
+     "explain": "Each orbital holds 2 electrons with opposite spins (+1/2 and -1/2). Max electrons in shell = 2*n^2."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the possible values of m for l=2 (d subshell)?",
+     "solution": "m ranges from -2 to +2: -2, -1, 0, +1, +2, giving 5 orbitals.",
+     "answer": "m = -2, -1, 0, +1, +2 (5 orbitals)"
+    },
+    {
+     "question": "What is the maximum number of electrons in the shell with n=3?",
+     "solution": "Max electrons = 2*n^2 = 2*9 = 18.",
+     "answer": "18 electrons"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List all four quantum numbers for the 3p subshell electron.",
+     "type": "compute"
+    },
+    {
+     "question": "How many orbitals are present in the f subshell (l=3)?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.9",
+   "title": "Shapes of s, p, and d Orbitals",
+   "section": "2.9",
+   "definition": "s orbitals are spherically symmetrical, p orbitals are dumbbell-shaped along axes, and d orbitals have cloverleaf or other complex shapes.",
+   "formula": "s: spherical; p: 3 orbitals (px, py, pz) dumbbell; d: 5 orbitals (dxy, dyz, dxz, dx2-y2, dz2)",
+   "key_idea": "The shape of an orbital represents the probability distribution of finding an electron in space around the nucleus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the shape of s orbital",
+    "what is the shape of p orbital",
+    "how many d orbitals are there and what are their shapes",
+    "draw the shapes of px py and pz orbitals",
+    "explain the difference between s and p orbitals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the subshell type (s, p, or d) from the azimuthal quantum number l.",
+     "explain": "l=0 gives s, l=1 gives p, l=2 gives d, l=3 gives f."
+    },
+    {
+     "step": 2,
+     "action": "Describe the shape of the orbital.",
+     "explain": "s is spherical, p is dumbbell-shaped along x, y, or z axes, d orbitals are cloverleaf (four) plus one with a different shape (dz2)."
+    },
+    {
+     "step": 3,
+     "action": "State the number of orbitals and nodes.",
+     "explain": "s has 1 orbital, p has 3, d has 5. Number of nodes = n-1; angular nodes = l."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the shape of a 2p orbital?",
+     "solution": "p orbitals are dumbbell-shaped, oriented along the x, y, or z axis, with a nodal plane at the nucleus.",
+     "answer": "Dumbbell shape along one axis"
+    },
+    {
+     "question": "How many orbitals are in the d subshell and what are their designations?",
+     "solution": "There are 5 d orbitals: dxy, dyz, dxz, dx2-y2, and dz2.",
+     "answer": "5 orbitals: dxy, dyz, dxz, dx2-y2, dz2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the shape of an s orbital and state how many there are.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How many nodal planes does a p orbital have?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.2.10",
+   "title": "Aufbau Principle, Pauli Exclusion, Hund Rule, and Electronic Configuration",
+   "section": "2.10",
+   "definition": "Aufbau principle fills orbitals in order of increasing energy; Pauli exclusion principle states no two electrons have the same four quantum numbers; Hund rule states electrons fill degenerate orbitals singly before pairing.",
+   "formula": "filling_order: 1s 2s 2p 3s 3p 4s 3d 4p; max_electrons: s=2, p=6, d=10, f=14; max_per_shell = 2n^2",
+   "key_idea": "Electronic configuration of an atom follows three rules: Aufbau (energy order), Pauli (max 2 electrons per orbital with opposite spins), and Hund (maximize unpaired electrons in degenerate orbitals).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "write the electronic configuration of a given element",
+    "apply hund rule to determine the configuration of carbon",
+    "how many unpaired electrons are in a given atom",
+    "write the electronic configuration using noble gas shorthand",
+    "explain pauli exclusion principle with an example"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the total number of electrons from the atomic number.",
+     "explain": "The atomic number Z equals the number of electrons in a neutral atom.",
+     "compute": "z"
+    },
+    {
+     "step": 2,
+     "action": "Fill orbitals in order of increasing energy following Aufbau principle.",
+     "explain": "Order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p. Capacity: s=2, p=6, d=10, f=14."
+    },
+    {
+     "step": 3,
+     "action": "Apply Hund rule for degenerate orbitals and verify with Pauli principle.",
+     "explain": "In degenerate orbitals (e.g. 2p), fill each orbital singly before pairing. Verify no orbital has more than 2 electrons."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the electronic configuration of nitrogen (Z=7).",
+     "solution": "1s2 2s2 2p3. By Hund rule, the three 2p electrons occupy separate orbitals: 2px1 2py1 2pz1.",
+     "answer": "1s2 2s2 2p3 (3 unpaired electrons)"
+    },
+    {
+     "question": "Write the electronic configuration of iron (Z=26) using noble gas shorthand.",
+     "solution": "[Ar] 4s2 3d6. Argon (Z=18) core plus 4s2 3d6.",
+     "answer": "[Ar] 3d6 4s2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the electronic configuration of oxygen (Z=8) and state the number of unpaired electrons.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why chromium has the configuration [Ar] 3d5 4s1 instead of [Ar] 3d4 4s2.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

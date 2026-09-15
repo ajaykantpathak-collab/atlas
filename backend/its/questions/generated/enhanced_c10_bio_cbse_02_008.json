@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_008",
+   "title": "c10_bio_cbse_02_008",
+   "questions": [
+    {
+     "q": "Name the endocrine gland located at the base of the brain that is often called the 'master gland' and state one hormone it secretes that controls another endocrine gland.",
+     "a": "The pituitary gland (hypophysis) located at the base of the brain is the master gland; it secretes Thyroid Stimulating Hormone (TSH) which controls the thyroid gland. A wrong answer (e.g., naming thyroid as master gland or stating growth hormone controls another gland) reveals confusion between the master regulator and its target glands, or between tropic and non-tropic hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why insulin is not secreted by the pituitary gland even though the pituitary is called the 'master gland'.",
+     "a": "The pituitary is called 'master' because it secretes tropic hormones that regulate other endocrine glands; insulin is secreted by the pancreas (specifically beta cells of islets of Langerhans) to directly regulate blood glucose, not to control another gland. A wrong answer (e.g., \"pituitary controls everything so it must secrete insulin\") shows misunderstanding of 'tropic' vs 'non-tropic' hormones and the distributed nature of endocrine control.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that after eating a meal rich in carbohydrates, their blood glucose rises and then returns to normal. Identify the hormone responsible for lowering blood glucose, its source gland, and the mechanism by which it lowers glucose.",
+     "a": "Insulin, secreted by beta cells of the pancreatic islets of Langerhans, lowers blood glucose by facilitating glucose uptake into cells (especially muscle and adipose) and promoting glycogenesis in the liver. A wrong answer (e.g., naming glucagon or adrenaline, or stating insulin 'destroys' glucose) reveals confusion between catabolic and anabolic hormones or the mechanism of glucose disposal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of transport and speed of action of nervous coordination (neurons) versus hormonal coordination (endocrine glands). Why is hormonal coordination better suited for regulating long-term processes like growth?",
+     "a": "Nervous coordination uses electrical impulses along neurons for fast, short-lived, targeted responses; hormonal coordination uses blood transport for slower, widespread, longer-lasting effects. Hormones are better for growth because growth requires sustained, widespread cellular changes over years, which blood-borne hormones provide, unlike brief neural signals. A wrong answer focusing only on speed without addressing duration and spread misses the functional distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"If the pituitary gland is removed, all other endocrine glands will stop working immediately.\" Evaluate this statement and justify your answer with two specific examples.",
+     "a": "The statement is partially incorrect. While the pituitary secretes tropic hormones (TSH, ACTH, FSH, LH) that stimulate thyroid, adrenal cortex, and gonads, some glands have partial autonomy: the pancreas regulates insulin/glucagon primarily via blood glucose levels (not pituitary), and the adrenal medulla releases adrenaline under direct neural control (sympathetic nervous system). A wrong answer agreeing completely ignores the dual control (neural/humoral) of some glands and the direct humoral regulation of pancreas.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart to show how the body maintains thyroxine levels within a narrow range using negative feedback. Include the hypothalamus, pituitary, thyroid, and the hormone names.",
+     "a": "A correct flowchart: Low blood thyroxine → Hypothalamus releases TRH → Anterior pituitary releases TSH → Thyroid releases thyroxine (T3/T4) → Rising thyroxine inhibits TRH and TSH secretion → Thyroxine levels fall → Cycle repeats. A poor answer (missing inhibition step, reversing arrow direction, or omitting hypothalamus) shows inability to represent a dynamic feedback loop as a closed circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

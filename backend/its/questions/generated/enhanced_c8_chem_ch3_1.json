@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_1",
+   "title": "c8_chem_ch3_1",
+   "questions": [
+    {
+     "q": "Which of the following best defines a mixture in chemistry?\nA) A substance formed by the chemical combination of two or more elements in a fixed ratio.\nB) A substance consisting of two or more different materials physically combined in no fixed proportion.\nC) A pure substance that cannot be broken down into simpler substances.\nD) A liquid that dissolves any solid completely.",
+     "a": "The correct answer is B. A mixture consists of two or more different substances physically combined where each keeps its own properties and proportions can vary. Option A defines a compound, and Option C defines an element. A wrong answer shows the student is confusing the definitions of mixtures and chemical compounds, forgetting that mixtures have variable proportions and no chemical bonding.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the individual components of a mixture retain their original properties?\nA) Because they react chemically to form a stronger substance.\nB) Because they are held together by powerful chemical bonds that change their structure.\nC) Because no chemical reaction takes place between the components when they are mixed.\nD) Because heat is always released when a mixture is formed.",
+     "a": "The correct answer is C. When components form a mixture, they are only mixed physically, meaning their atoms and molecules do not bond chemically, allowing them to keep their original properties. A wrong answer indicates the student thinks mixing substances automatically triggers a chemical change, failing to distinguish between physical mixtures and chemical reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A student mixes 10 grams of iron filings with 10 grams of sulfur powder in a watch glass. Which of the following describes the resulting material?\nA) A chemical compound because iron and sulfur have combined.\nB) A mixture because the iron and sulfur can be separated using a magnet without chemical change.\nC) A pure substance because it contains only two elements.\nD) A solution because the powders dissolve into each other.",
+     "a": "The correct answer is B. Iron filings and sulfur powder mixed together form a physical mixture; the iron can be pulled out using a magnet because no chemical reaction has occurred between them yet. Working steps: 1. Identify components (iron + sulfur). 2. Check for chemical reaction (none at room temperature). 3. Determine if properties change (magnet still attracts iron). 4. Conclude it is a physical mixture. A wrong answer reveals the student assumes any combination of two elements automatically creates a compound or a solution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"Air is considered a mixture, not a compound.\" Which piece of evidence best supports this statement?\nA) The gases in air have a fixed chemical formula.\nB) The composition of air is identical everywhere on Earth.\nC) The gases in air retain their individual chemical properties, and their proportions can vary slightly from place to place.\nD) Air can only be separated into its components through extreme chemical reactions.",
+     "a": "The correct answer is C. Air is a mixture because its components (nitrogen, oxygen, argon, carbon dioxide) keep their individual properties and the composition varies slightly depending on location (e.g., humid air vs. dry mountain air). A wrong answer reveals confusion regarding the fixed composition of compounds versus the variable composition of mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following claim is true: \"If you dissolve salt in water until no more dissolves, you have created a new chemical compound.\"\nA) True, because the salt disappears and forms a new liquid substance.\nB) True, because the boiling point of the water changes permanently.\nC) False, because the salt can be recovered unchanged by evaporating the water through a physical process.\nD) False, because salt and water do not mix physically.",
+     "a": "The correct answer is C. Dissolving salt in water creates a mixture (a solution), not a compound. The salt can be recovered fully by evaporating the water, proving no permanent chemical change occurred. A wrong answer shows the student mistakes the physical disappearance of a solute in a solvent for a chemical reaction that creates a new substance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification test to prove whether a white powder given to you in a laboratory is a chemical compound or a physical mixture of two white powders (salt and sugar).",
+     "a": "The expected criteria: The student should propose testing a physical property where salt and sugar differ, or using a physical separation technique. For example, dissolving the mixture in a solvent where only one component dissolves, or heating carefully, or testing electrical conductivity of their solutions. A poor answer suggests performing a complex chemical titration or burning the powder, missing the key principle that physical mixtures can be separated by physical properties without altering chemical identities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

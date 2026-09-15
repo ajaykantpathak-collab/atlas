@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_4",
+   "title": "c8_physics_ch2_4",
+   "questions": [
+    {
+     "q": "State the three factors that affect the strength of an electromagnet and, for each, describe whether increasing it makes the electromagnet stronger or weaker.",
+     "a": "The three factors are: (1) Number of turns in the coil — increasing turns increases strength. (2) Magnitude of electric current — increasing current increases strength. (3) Core material — soft iron core gives stronger magnetism than steel or air core. A wrong answer (e.g., saying steel is better than soft iron, or that more turns weakens it) reveals confusion between permanent magnet properties and electromagnet behaviour, or misunderstanding that magnetic field adds up with each turn.",
+     "self_check": true
+    },
+    {
+     "q": "Two students build electromagnets with identical iron nails and 50 turns of wire. Student A uses a single 1.5 V cell; Student B uses two 1.5 V cells in series. Student B's electromagnet lifts more paper clips. Explain why, using the concept of current and magnetic field.",
+     "a": "Two cells in series provide higher voltage (3 V vs 1.5 V), causing a larger current to flow through the same resistance (Ohm's law, though not formally taught, the idea that more voltage pushes more current). Larger current produces a stronger magnetic field around each turn, and the fields add up, making the electromagnet stronger. A wrong answer attributing the difference to \"more energy\" or \"more power\" without linking to current shows lack of understanding of the direct current–field relationship.",
+     "self_check": true
+    },
+    {
+     "q": "An electromagnet with 100 turns and a current of 0.2 A lifts 12 paper clips. If the current is increased to 0.4 A while keeping turns and core the same, approximately how many paper clips will it lift? Assume strength is directly proportional to current.",
+     "a": "Given: Strength ∝ Current. Initial: I₁ = 0.2 A, clips₁ = 12. New: I₂ = 0.4 A. Since current doubles, strength doubles. Clips₂ = 12 × (0.4/0.2) = 24 paper clips. Steps: 1) Identify proportionality. 2) Compute ratio I₂/I₁ = 2. 3) Multiply initial clips by ratio. 4) Answer: 24 clips. A wrong answer like 12 (no change) or 48 (quadruple) reveals inability to apply direct proportionality or confusion with square relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two electromagnets: X has 200 turns of thin wire on a soft iron core with 0.5 A current. Y has 100 turns of thick wire on a soft iron core with 1.0 A current. Both use the same battery voltage. Which is stronger? Justify by analyzing the trade-offs.",
+     "a": "Electromagnet Y is stronger. Strength depends on ampere-turns (current × turns). For X: 0.5 A × 200 = 100 ampere-turns. For Y: 1.0 A × 100 = 100 ampere-turns. They have equal ampere-turns, so magnetic field strength is similar. However, thick wire in Y has lower resistance, so for the same battery voltage, it actually draws more current than 1.0 A (if 1.0 A was measured at that voltage). But given the stated currents, they are equal. A wrong answer choosing X because \"more turns always wins\" ignores the current factor and shows lack of multiplicative reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Using a steel core instead of a soft iron core makes a stronger electromagnet because steel is harder and retains magnetism better.\" Evaluate this claim and explain the error.",
+     "a": "The claim is incorrect. Soft iron is preferred for electromagnets because it gains magnetism quickly when current flows and loses it immediately when current stops (low retentivity, high permeability). Steel has high retentivity — it becomes a permanent magnet and does not demagnetise easily, making it unsuitable for an electromagnet that needs to switch on/off. The student confuses \"permanent magnet strength\" with \"electromagnet responsiveness.\" A wrong evaluation agreeing with the student shows confusion between temporary and permanent magnetism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fair experiment to test whether the thickness of the wire (keeping length, core, and voltage constant) affects the strength of an electromagnet. List the independent, dependent, and controlled variables, and predict the outcome with reasoning.",
+     "a": "Independent variable: wire thickness (e.g., SWG 24 vs SWG 30). Dependent variable: number of paper clips lifted. Controlled: core (same soft iron nail), voltage (same battery), number of turns (same, so wire length differs), coil winding tightness. Prediction: Thicker wire has lower resistance, so more current flows at same voltage → stronger electromagnet. A poor answer that keeps wire length constant instead of turns, or forgets to control voltage, shows inability to design a controlled experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

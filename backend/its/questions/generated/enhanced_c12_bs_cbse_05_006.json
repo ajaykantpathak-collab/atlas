@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_006",
+   "title": "c12_bs_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the exact NCERT definition of informal organisation and identify the phrase that indicates it is not created by management.",
+     "a": "Correct answer: \"Informal organisation is a network of personal and social relations not established or required by the formal organisation but arising spontaneously as people associate with one another.\" (Keith Davis definition in NCERT). The key phrase is \"arising spontaneously\" — it confirms informal organisation emerges without management design. A wrong answer quoting \"created by management\" or \"prescribed by rules\" reveals the student confuses informal with formal organisation's origin.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Informal organisation has no structure because it has no rules.\" Explain why this statement is partially correct but misleading, using the NCERT feature \"complex network of social relationships.\"",
+     "a": "Correct explanation: The statement is misleading because \"no structure\" implies chaos, whereas NCERT describes informal organisation as a \"complex network of social relationships among members\" — it HAS structure (network patterns, cliques, opinion leaders), but it is fluid, unwritten, and emergent, not rigid like a formal org chart. A wrong answer saying \"it has no structure at all\" shows the student equates structure only with formal, documented hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "In a manufacturing firm, the Production Manager (formal authority) needs urgent raw material approval. The Stores In-charge delays citing procedure. The Production Manager calls his college friend, the Purchase Head, who expedites it. Identify which organisation type each actor represents and which comparative basis (from the 7 NCERT bases) explains the speed difference.",
+     "a": "Correct analysis: Production Manager and Stores In-charge operate in formal organisation (authority by position, communication through scalar chain). Production Manager and Purchase Head operate in informal organisation (authority by personal qualities, communication in any direction). The comparative basis is \"Flow of Communication\" — formal follows scalar chain (slow), informal has no planned route (fast). A wrong answer citing \"Authority\" alone misses that both have authority; the speed difference comes from communication path, not authority source.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how formal and informal organisation each handle a sudden market crisis requiring cross-departmental coordination. Use the bases \"Nature\" and \"Leadership\" to explain which responds faster and why.",
+     "a": "Correct comparison: Formal organisation is rigid (Nature) with managers as designated leaders (Leadership) — crisis response requires moving up and down scalar chain across departments, causing delays. Informal organisation is flexible (Nature) with emergent leaders chosen by the group (Leadership) — cross-functional friends/peers coordinate directly without hierarchy, enabling rapid response. A wrong answer claiming formal is faster because \"managers have authority\" ignores that authority in crisis is constrained by rigid communication channels.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Management should eliminate informal organisation because it spreads rumours and resists change.\" Use NCERT advantages/disadvantages to justify your position.",
+     "a": "Correct evaluation: The statement is flawed. NCERT explicitly states \"Informal organisation cannot be altogether eliminated\" and advises management to \"skillfully take advantage of both.\" While informal organisation can spread rumours (disadvantage) and resist change (disadvantage), it also provides faster communication, fulfills social needs, and compensates for formal inadequacies (advantages). Elimination is impossible and counterproductive; integration is the correct approach. A wrong answer agreeing with elimination shows the student memorised disadvantages but missed the NCERT's synthesis conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step strategy for a CEO who discovers the informal organisation is blocking a critical digital transformation. Your strategy must use informal leaders, not formal authority, to gain buy-in.",
+     "a": "Expected strategy: Step 1: Identify informal opinion leaders across departments through network analysis (who others listen to at lunch, in chat groups). Step 2: Involve these leaders early in designing the transformation — give them ownership, not just communication duty. Step 3: Create informal feedback loops (e.g., weekly coffee chats) where leaders surface resistance honestly, allowing real-time adjustment. A poor answer using formal memos, training mandates, or disciplinary threats shows the student cannot apply the concept that informal organisation operates on group norms and personal influence, not positional power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

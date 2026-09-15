@@ -1,0 +1,505 @@
+{
+ "catalog": "catalog_class8_maths_ch3_understanding_quadrilaterals.json",
+ "concepts": [
+  {
+   "id": "c8m3.1.1",
+   "title": "Polygons: Convex and Concave",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.1.2",
+   "title": "Regular and Irregular Polygons",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
+     "compute": "other = 90 - 62"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 62 degrees, find the other.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 85 degrees, find the other.",
+     "a": "95",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 42 degrees; find the other.",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 52 degrees and 81 degrees, find the remaining angle.",
+     "a": "227",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 75 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 121 degrees. Find its co-interior partner.",
+     "a": "59",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.2.1",
+   "title": "Sum of Exterior Angles of a Polygon",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 29 degrees, find the other.",
+     "a": "61",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 54 degrees, find the other.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 45 degrees; find the other.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 52 degrees and 125 degrees, find the remaining angle.",
+     "a": "183",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 20 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 65 degrees. Find its co-interior partner.",
+     "a": "115",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.2.2",
+   "title": "Number of Sides from an Exterior or Interior Angle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 16 degrees, find the other.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 101 degrees, find the other.",
+     "a": "79",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 75 degrees; find the other.",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 31 degrees and 218 degrees, find the remaining angle.",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 33 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 20 degrees. Find its co-interior partner.",
+     "a": "160",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.1",
+   "title": "Trapezium",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 60 gives 120",
+     "compute": "adj = 180 - 60"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 60 degrees. Find the adjacent angle.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 9 cm and 5 cm. Find its perimeter.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 14 cm, what is the length of each half of it?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 12 cm and 6 cm (two decimal places).",
+     "a": "6.71",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 11 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "15.56",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 80 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 80 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.2",
+   "title": "Kite",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 130 gives 50",
+     "compute": "adj = 180 - 130"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 130 degrees. Find the adjacent angle.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 10 cm and 8 cm. Find its perimeter.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 28 cm, what is the length of each half of it?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 6 cm and 4 cm (two decimal places).",
+     "a": "3.61",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 11 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "15.56",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 80 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 80 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.3",
+   "title": "Parallelogram and its Side Properties",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 32 m long and 33 m wide. Find its perimeter.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 17 cm.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 6 cm, 13 cm and 20 cm.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 15 cm. What is its perimeter?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 6 sides, each 7 cm long. Find its perimeter.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 3 rounds around a square field of side 24 m. How many metres does she cover?",
+     "a": "288",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.4",
+   "title": "Angles of a Parallelogram",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 22 degrees, find the other.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 110 degrees, find the other.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 16 degrees; find the other.",
+     "a": "164",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 128 degrees and 166 degrees, find the remaining angle.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 62 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 92 degrees. Find its co-interior partner.",
+     "a": "88",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.3.5",
+   "title": "Diagonals of a Parallelogram",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 130 degrees. Find the adjacent angle.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 14 cm and 13 cm. Find its perimeter.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 32 cm, what is the length of each half of it?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 10 cm and 16 cm (two decimal places).",
+     "a": "9.43",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 7 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "9.9",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 80 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 80 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.1",
+   "title": "Rhombus",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 84 gives 528",
+     "compute": "circ = 2 * 22 / 7 * 84"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
+     "a": "528",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 14 cm. Find its circumference (pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 49 cm (pi = 22/7).",
+     "a": "7546",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 7 cm and 49 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "7392",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 180 degrees at the centre of a circle of radius 70 cm (pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 56 cm (pi = 22/7).",
+     "a": "3285.33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.2",
+   "title": "Rectangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 64 gives 26",
+     "compute": "other = 90 - 64"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 64 degrees, find the other.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 77 degrees, find the other.",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 67 degrees; find the other.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 37 degrees and 102 degrees, find the remaining angle.",
+     "a": "221",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 35 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 97 degrees. Find its co-interior partner.",
+     "a": "83",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m3.4.3",
+   "title": "Square",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 29 ** 2 gives 841",
+     "compute": "sq = 29 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 29.",
+     "a": "841",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 41 m. What is the number of square metres in its area?",
+     "a": "1681",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 85?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 16. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "65",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

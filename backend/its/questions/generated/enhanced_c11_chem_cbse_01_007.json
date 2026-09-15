@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_007",
+   "title": "c11_chem_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the exact definition of one mole as per the current SI system (post-2019 redefinition), including the value of the Avogadro constant and what constitutes an \"elementary entity.\"",
+     "a": "One mole is the SI unit of amount of substance containing exactly 6.02214076 × 10²³ elementary entities. An elementary entity may be an atom, molecule, ion, electron, any other particle, or specified group of particles. A wrong answer (e.g., \"1 mole = 6.022 × 10²³ atoms of any element\" or \"1 mole = mass in grams equal to atomic mass\") reveals the student is using the pre-2019 definition based on carbon-12 mass rather than the current fixed-Nₐ definition, and may not understand that the entity type must be specified.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the molar mass of water (H₂O) is 18.02 g mol⁻¹ while its molecular mass is 18.02 u. Why are the numerical values identical but the units different?",
+     "a": "Molecular mass (18.02 u) is the mass of ONE molecule relative to 1/12th mass of a carbon-12 atom. Molar mass (18.02 g mol⁻¹) is the mass of Nₐ molecules (one mole). Since Nₐ is defined such that the mass of Nₐ carbon-12 atoms is exactly 12 g, the numerical equivalence holds for all substances. A wrong answer (e.g., \"they are the same thing\" or \"molar mass is molecular mass multiplied by Nₐ\") shows the student confuses the microscopic single-particle mass with the macroscopic bulk mass, and misses the definitional role of the carbon-12 standard.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the number of oxygen atoms present in 0.50 mol of ozone (O₃). Show all steps including the use of Avogadro's number.",
+     "a": "Step 1: 1 mol O₃ contains Nₐ molecules = 6.022 × 10²³ molecules. Step 2: 0.50 mol O₃ contains 0.50 × 6.022 × 10²³ = 3.011 × 10²³ molecules. Step 3: Each O₃ molecule has 3 oxygen atoms. Step 4: Total O atoms = 3 × 3.011 × 10²³ = 9.033 × 10²³ atoms. A wrong answer (e.g., 3.011 × 10²³ atoms) reveals the student forgot to multiply by the number of atoms per molecule (subscript in formula), a very common error when moving from molecules to atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Sample A contains 1.0 mol of O₂ molecules. Sample B contains 1.0 mol of O atoms. Which sample has greater mass? Which has greater number of oxygen atoms? Justify using molar mass and Avogadro's number.",
+     "a": "Sample A mass = 1.0 mol × 32.00 g mol⁻¹ = 32.00 g. Sample B mass = 1.0 mol × 16.00 g mol⁻¹ = 16.00 g. Sample A has greater mass. Sample A has 1.0 × Nₐ O₂ molecules = 2.0 × Nₐ oxygen atoms. Sample B has 1.0 × Nₐ oxygen atoms. Sample A has twice the number of oxygen atoms. A wrong answer (e.g., \"both have same number of oxygen atoms because both are 1 mole\") reveals the student equates \"mole of substance\" with \"mole of atoms\" without checking the molecular formula — a fundamental confusion between entity types.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"1 mole of NaCl contains 6.022 × 10²³ molecules of NaCl.\" Evaluate this statement. Is it correct? If not, what is the correct terminology and why?",
+     "a": "The statement is incorrect. NaCl is an ionic compound that does not exist as discrete molecules in the solid state; it exists as a crystal lattice of Na⁺ and Cl⁻ ions. The correct statement: \"1 mole of NaCl contains 6.022 × 10²³ formula units of NaCl.\" A student who calls them \"molecules\" has not grasped the distinction between molecular covalent compounds (discrete molecules) and ionic compounds (formula units), despite NCERT Fig. 1.10 explicitly showing this.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine Avogadro's number experimentally using only the fact that 12 g of carbon-12 contains exactly 1 mole of atoms, and the mass of a single carbon-12 atom can be measured by mass spectrometry as 1.99264688 × 10⁻²³ g. Write the calculation and explain each step.",
+     "a": "Step 1: Mass of 1 mole of ¹²C = 12 g (by definition). Step 2: Mass of one ¹²C atom = 1.99264688 × 10⁻²³ g (measured). Step 3: Number of atoms in 1 mole = (12 g) / (1.99264688 × 10⁻²³ g/atom) = 6.02214076 × 10²³ atoms. Step 4: This number is defined as Nₐ. A poor answer (e.g., just stating the value without derivation) shows the student treats Nₐ as a memorized constant rather than a derived quantity linking microscopic mass to macroscopic mass.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

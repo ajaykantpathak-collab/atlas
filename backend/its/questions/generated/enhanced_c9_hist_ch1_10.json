@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_10",
+   "title": "c9_hist_ch1_10",
+   "questions": [
+    {
+     "q": "Define \"authorial bias\" and give one example from a historical source.",
+     "a": "Authorial bias is the distortion in a historical account caused by the author's own position, interests, or loyalties. Example: Ashoka's edicts describe him as a righteous, peaceful ruler — but they were commissioned by Ashoka himself, so they naturally present him favorably. A wrong answer (e.g., \"bias means lying\") confuses bias (systematic slant) with falsehood (deliberate deception) — biased sources can be factually accurate but selectively framed.",
+     "self_check": true
+    },
+    {
+     "q": "What is \"source bias\" and how does it affect our understanding of history?",
+     "a": "Source bias is the systematic overrepresentation of certain voices (victors, elites, literate groups) and underrepresentation of others (defeated, poor, illiterate) in historical sources. Because victors and elites write and preserve texts, their perspective dominates. For example, we know about the Kalinga war mainly from Ashoka's edicts, not from Kalingan accounts — so our understanding is shaped by the victor's framing. A wrong answer (e.g., \"all sources are biased so history is unreliable\") commits the nihilist fallacy — bias does not make sources useless, it makes them require critical reading.",
+     "self_check": true
+    },
+    {
+     "q": "Explain \"cultural bias\" with an example of how it distorts historical interpretation.",
+     "a": "Cultural bias is judging another society by the values of one's own culture, leading to distorted interpretation. Example: British colonial historians described Indian social practices (caste, child marriage) as \"backward\" or \"barbaric\" — judging Indian society by Victorian British values. This bias distorts understanding by imposing external standards rather than understanding practices within their own historical context. A wrong answer (e.g., \"cultural bias is being racist\") reduces a methodological issue to a moral one — cultural bias is about interpretive framework, not necessarily personal prejudice.",
+     "self_check": true
+    },
+    {
+     "q": "A British colonial historian writes in 1850: \"The Mughal Empire was a period of Oriental despotism and stagnation.\" Identify two biases in this statement.",
+     "a": "Bias 1 — Cultural bias: \"Oriental despotism\" judges Mughal governance by British parliamentary standards, ignoring that Mughal administration had systems of revenue, justice, and local governance. Bias 2 — Temporal bias: Written in 1850, during British colonial expansion, the statement justifies British rule by portraying pre-British India as stagnant — serving a colonial political purpose. A wrong answer that identifies only one bias or labels the statement \"wrong\" without analyzing the types of bias misses the analytical task.",
+     "self_check": true
+    },
+    {
+     "q": "How can a historian use a biased source responsibly? Give two strategies.",
+     "a": "Strategy 1: Cross-reference — compare the biased source with other sources from different perspectives (e.g., compare Ashoka's edicts with independent archaeological evidence). Strategy 2: Read against the grain — ask what the source omits or what the author takes for granted, as silences can reveal as much as statements. A wrong answer (e.g., \"discard biased sources\") is too extreme — biased sources are valuable if read critically; discarding them loses information.",
+     "self_check": true
+    },
+    {
+     "q": "Two sources describe the same battle. Source A (victor's chronicle) says: \"The enemy was crushed decisively.\" Source B (defeated side's oral tradition) says: \"We retreated strategically to preserve our forces.\" Identify the bias in each and explain how a historian should reconcile them.",
+     "a": "Source A bias: Authorial and source bias — the victor's chronicle frames the outcome as total victory, omitting any setbacks. Source B bias: Authorial bias — the defeated side's oral tradition reframes retreat as strategy to preserve dignity. Reconciliation: The historian should recognize that both are biased, compare with independent evidence (archaeological, third-party accounts), and construct a nuanced account: the battle was won by A's side, but B's forces were not entirely destroyed (they retreated). Neither source alone gives the full picture. A wrong answer that accepts either source at face value fails to apply critical source analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

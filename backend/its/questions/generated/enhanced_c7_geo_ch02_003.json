@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_003",
+   "title": "c7_geo_ch02_003",
+   "questions": [
+    {
+     "q": "What is the standard instrument used to measure atmospheric temperature, and which two scales are commonly marked on it?",
+     "a": "The standard instrument is a maximum-minimum thermometer, marked in Celsius (°C) and Fahrenheit (°F) scales. A wrong answer reveals a confusion between weather instruments, such as mixing up a thermometer with a barometer (which measures air pressure) or a rain gauge (which measures precipitation).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a coastal city like Mumbai experience moderate temperatures throughout the year, whereas Nagpur, located inland at a similar latitude, experiences extreme summers and winters?",
+     "a": "Mumbai experiences a maritime influence because land and water heat up and cool down at different rates, keeping coastal air temperatures steady. Nagpur is inland (continental effect), so the land heats up and cools down rapidly without the moderating effect of the ocean. A wrong answer shows a misunderstanding of how water bodies moderate temperature compared to landmasses.",
+     "self_check": true
+    },
+    {
+     "q": "If the temperature at sea level (0 meters) is 30°C, what would be the approximate temperature at a hill station located at an altitude of 3,000 meters, given that temperature drops by 6.5°C for every 1,000 meters of elevation gain?",
+     "a": "Step 1: Identify the starting temperature at sea level (30°C). Step 2: Determine the total altitude increase (3,000 meters). Step 3: Calculate the total temperature drop by multiplying the height in thousands (3) by the lapse rate (6.5°C), which equals 19.5°C. Step 4: Subtract the total drop from the sea level temperature: 30°C - 19.5°C = 10.5°C. A wrong answer indicates an error in calculating the lapse rate or adding instead of subtracting the temperature drop with altitude.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how latitude affects the amount of solar radiation a region receives, explaining why regions near the Equator are warmer than regions near the Poles.",
+     "a": "Near the Equator, the sun's rays fall vertically over a smaller surface area, concentrating solar energy. Near the Poles, the sun's rays strike at an oblique angle, spreading over a much larger area and passing through a thicker layer of atmosphere, which weakens their heating effect. A wrong answer reveals that the student thinks temperature is solely determined by distance from the sun rather than the angle of incidence of solar rays.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether building a massive concrete urban area (like an expanding metropolis) affects local temperature patterns compared to surrounding rural agricultural fields.",
+     "a": "Urban areas develop a \"heat island\" effect because concrete, asphalt, and buildings absorb and retain solar heat much longer than vegetation and soil, while reducing cooling through evaporation. A wrong answer shows a failure to connect human-made land cover changes with microclimatic temperature alterations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple temperature observation plan for your school campus that accounts for both altitude differences and surface cover (e.g., open playground vs. shaded garden) to prove how local factors alter temperature.",
+     "a": "A strong plan places thermometers at identical heights in different micro-environments: one on exposed concrete asphalt, one under deep tree shade, and one on the highest rooftop terrace, recording readings at the same times daily. A poor answer lacks controlled variables, such as placing one thermometer in direct sunlight and another in deep shade without accounting for location impact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

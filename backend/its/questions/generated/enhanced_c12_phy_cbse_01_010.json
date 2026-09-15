@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_010",
+   "title": "c12_phy_cbse_01_010",
+   "questions": [
+    {
+     "q": "State the formula for the electric field magnitude due to an infinite plane sheet of uniform surface charge density σ. What is the SI unit of σ, and what is the direction of the electric field relative to the sheet for positive σ?",
+     "a": "The magnitude is E = σ/(2ε₀). The SI unit of σ is C/m². For positive σ, the electric field is directed perpendicularly away from the sheet on both sides. A wrong answer (e.g., E = σ/ε₀, or unit of σ as C/m, or field direction parallel to sheet) reveals confusion with the infinite wire formula (E = λ/(2πε₀r)) or a failure to account for the two contributing faces of the Gaussian surface.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the electric field of an infinite plane sheet not depend on the distance from the sheet? Explain using the geometry of the Gaussian surface and the 1/r² nature of Coulomb's law.",
+     "a": "Because the sheet is infinite, the solid angle subtended by any area element on the sheet at the observation point remains constant as the point moves perpendicular to the sheet. While individual contributions fall as 1/r², the number of contributing charge elements increases as r², exactly canceling the distance dependence. A wrong answer (e.g., \"because Gauss's law says so\" without geometric reasoning, or \"field lines are parallel so they don't spread out\" without linking to flux) indicates a lack of understanding of how symmetry and the inverse-square law combine to produce distance independence.",
+     "self_check": true
+    },
+    {
+     "q": "An infinite plane sheet has a surface charge density σ = +4.0 μC/m². Calculate the electric field magnitude at a point 10 cm from the sheet. Then calculate the force on a proton placed at that point. (ε₀ = 8.85 × 10⁻¹² C²/N·m², e = 1.6 × 10⁻¹⁹ C, m_p = 1.67 × 10⁻²⁷ kg)",
+     "a": "Step 1: E = σ/(2ε₀) = (4.0 × 10⁻⁶ C/m²) / (2 × 8.85 × 10⁻¹² C²/N·m²) = 2.26 × 10⁵ N/C. Step 2: Force on proton F = eE = (1.6 × 10⁻¹⁹ C)(2.26 × 10⁵ N/C) = 3.62 × 10⁻¹⁴ N, directed away from the sheet. Note: distance 10 cm is irrelevant (field is uniform). A wrong answer that uses distance (e.g., E = σ/(2ε₀r)) shows confusion with the infinite wire formula. Forgetting the factor of 2 gives E = 4.52 × 10⁵ N/C — a common error from miscounting Gaussian surface faces.",
+     "self_check": true
+    },
+    {
+     "q": "Two infinite plane sheets are parallel to each other. Sheet A has σ_A = +3σ₀, Sheet B has σ_B = -σ₀. They are separated by a distance d. Determine the electric field in the three regions: (i) to the left of both sheets, (ii) between the sheets, (iii) to the right of both sheets. Express in terms of σ₀ and ε₀.",
+     "a": "Use superposition. Field due to a single sheet is σ/(2ε₀) directed away if positive. Let +x be rightward.\nSheet A (left sheet, +3σ₀): E_A = +3σ₀/(2ε₀) to the right on its right side, -3σ₀/(2ε₀) to the left on its left side.\nSheet B (right sheet, -σ₀): E_B = -σ₀/(2ε₀) (i.e., toward the sheet) on both sides. So on its left side, E_B points right (+σ₀/(2ε₀)); on its right side, E_B points left (-σ₀/(2ε₀)).\nRegion (i) left of A: E = E_A(left) + E_B(left) = -3σ₀/(2ε₀) + σ₀/(2ε₀) = -σ₀/ε₀ (i.e., leftward, magnitude σ₀/ε₀).\nRegion (ii) between: E = E_A(right) + E_B(left) = +3σ₀/(2ε₀) + σ₀/(2ε₀) = +2σ₀/ε₀ (rightward).\nRegion (iii) right of B: E = E_A(right) + E_B(right) = +3σ₀/(2ε₀) - σ₀/(2ε₀) = +σ₀/ε₀ (rightward).\nA wrong answer that adds magnitudes without signs, or uses σ/ε₀ for a single sheet, shows failure to apply superposition correctly or misremembering the single-sheet formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"For an infinite plane sheet, the Gaussian surface should be a sphere because Gauss's law works for any closed surface. If I use a sphere centered on the sheet, the flux is E × 4πr², and the enclosed charge is σ × πr² (the area of the circle where the sphere cuts the sheet). Then E = σ/(4ε₀). Why is this wrong?\"",
+     "a": "The student's Gaussian surface is invalid because the electric field is not constant in magnitude or direction over the sphere — it is perpendicular to the sheet, not radial from the sphere's center. The angle between E and dA varies over the sphere, so ∫E·dA ≠ E × 4πr². Also, the enclosed charge is not σ × πr²; the sheet is a plane, and the intersection with a sphere is a circle, but the charge enclosed is the charge on the portion of the sheet inside the sphere, which is indeed σ × πr². However, the flux calculation is wrong because E is not perpendicular to the spherical surface everywhere. The correct Gaussian surface must have faces parallel/perpendicular to E. A wrong answer that accepts the sphere or misses the flux-angle issue shows misunderstanding of the symmetry requirement for Gauss's law to be easily solvable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to verify that the electric field of an infinite plane sheet is independent of distance, using only a small test charge, a force sensor, and the ability to move the test charge perpendicular to the sheet. Describe the procedure, the expected graph of force vs. distance, and what deviation would imply the sheet is not truly infinite.",
+     "a": "Procedure: Place the test charge at various distances x from the sheet (e.g., 1 cm, 2 cm, 5 cm, 10 cm) along a perpendicular line. Measure the electrostatic force F at each distance using the force sensor. Plot F vs. x. For an infinite sheet, the graph should be a horizontal line (constant force). If the sheet is finite, the force will decrease as x becomes comparable to the sheet's dimensions (edge effects). A deviation from constant force at large x indicates the sheet is not infinite. A poor answer that suggests measuring field at different angles, or expects a 1/x² graph, reveals confusion with point charge or wire fields.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

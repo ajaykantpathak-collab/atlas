@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_07_011",
+   "title": "c12_eng_f_cbse_07_011",
+   "questions": [
+    {
+     "q": "Identify the linker in the following exchange from the text and name its type:  \nMukund: \"Over 40! Among them a seminal piece of work on semiotics.\"  \nEco: \"Over 40.\"  \nWhat type of linker is \"Over 40\" in Eco's utterance?",
+     "a": "Correct answer: Lexical repetition (exact repetition of the noun phrase \"Over 40\").  \nA wrong answer like \"reference pronoun\" reveals the student confuses repetition with pronominal reference (e.g., 'this/that'). A wrong answer like \"conjunction\" shows they think linkers only join clauses within a sentence, not across speaker turns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the signaller \"Which brings me to my next question\" is more effective than simply saying \"Next question\" in a formal interview.",
+     "a": "Correct answer: \"Which brings me...\" uses a relative clause to create a logical bridge — it explicitly ties the new question to the previous answer (cohesion), signals a deliberate structure (coherence), and maintains the polite, collaborative tone expected in formal interviews. \"Next question\" is abrupt, breaks the conversational flow, and sounds like an interrogation.  \nA wrong answer focusing only on \"politeness\" misses the structural/cohesive function. A wrong answer saying \"both are same\" reveals inability to distinguish cohesive devices from mere sequencing.",
+     "self_check": true
+    },
+    {
+     "q": "In the exchange below, identify the linker and the signaller. Explain the function of each.  \nMukund: \"Could the huge success of the novel have anything to do with the fact that it dealt with a period of medieval history that...\"  \nEco: \"That's possible. But let me tell you another story...\"",
+     "a": "Correct answer:  \nLinker: \"That\" in \"That's possible\" — reference pronoun pointing back to Mukund's entire preceding question (anaphoric reference).  \nSignaller: \"But let me tell you another story\" — marks a topic shift from speculation about success to a concrete anecdote about the publisher.  \nA wrong answer identifying \"But\" as the signaller misses that \"But\" is a conjunction; the signaller is the entire phrase that prepares the listener for a narrative shift. A wrong answer calling \"That\" a demonstrative adjective shows confusion between pronoun and determiner roles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cohesive density of the Eco interview with a casual WhatsApp chat between friends. Why does the interview use more explicit linkers and signallers?",
+     "a": "Correct answer: The interview is a structured, public, asynchronous genre (read later by thousands) where speakers cannot rely on shared context, prosody, or immediate clarification. Explicit linkers/signallers compensate for the lack of physical co-presence and ensure the text stands alone coherently. A WhatsApp chat uses ellipsis, emojis, and implicit understanding because participants share real-time context.  \nA wrong answer saying \"interviews are more formal\" is true but incomplete — it misses the *textual* reason (absence of shared situational context). A wrong answer claiming \"WhatsApp has no grammar\" reveals a prescriptive bias.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"Signallers are only needed in written reports of interviews, not in the actual spoken interview, because speakers can use tone of voice to shift topics.\"",
+     "a": "Correct evaluation: The claim is **false**. Even in spoken interviews, signallers are crucial because: (1) interviews are often recorded for broadcast/print where prosody is lost; (2) they structure the interaction for the *audience* (listeners/readers) who lack the speaker's mental roadmap; (3) they manage turn-taking and face-threatening acts (e.g., shifting from a sensitive topic). Tone alone cannot unambiguously signal a topic boundary — lexical signallers do.  \nA wrong answer agreeing with the student shows confusion between prosodic features (intonation, pause) and lexical cohesion. A wrong answer saying \"signallers are only for writing\" ignores that the NCERT text explicitly analyses them in the *spoken* transcript.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-turn mini-interview (Interviewer + Interviewee) on \"Your favourite book\" that uses: (a) one reference pronoun linker, (b) one lexical repetition linker, (c) one signaller for topic shift, and (d) one signaller for concluding. Label each device in brackets.",
+     "a": "Expected answer (sample):  \nI: \"What's your favourite book?\"  \nE: \"**That** [reference pronoun linker] would be *The Alchemist*.\"  \nI: \"You love *The Alchemist* [lexical repetition linker]? Why?\"  \nE: \"Its message about destiny resonates. **Which brings me to** [signaller: topic shift] how I apply it in my career...\"  \nI: **Finally** [signaller: concluding], \"Any advice for readers?\"  \nA poor answer missing labels or using conjunctions (and/but) as signallers reveals inability to distinguish cohesive device types. An answer with no topic-shift signaller shows misunderstanding of interview structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

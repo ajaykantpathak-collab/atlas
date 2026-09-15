@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_007",
+   "title": "c11_ps_cbse_10_007",
+   "questions": [
+    {
+     "q": "Who was the Chairman of the Drafting Committee of the Indian Constituent Assembly, and on what date was the committee constituted?",
+     "a": "Dr. B.R. Ambedkar was the Chairman; the committee was constituted on 29 August 1947. A wrong answer (e.g., naming Nehru or Patel as Chairman, or giving the Assembly's first sitting date of 9 Dec 1946) reveals confusion between the Constituent Assembly's political leadership and the technical drafting leadership, or between the Assembly's inception and the committee's formation.",
+     "self_check": true
+    },
+    {
+     "q": "Why was a separate Drafting Committee needed when the Constituent Assembly already had legal experts like Alladi Krishnaswami Ayyar and K.M. Munshi as members?",
+     "a": "The Assembly (389 members) was too large for clause-by-clause drafting; a small committee ensures speed, legal coherence, and technical precision. A wrong answer (e.g., \"to reduce workload\" without mentioning legal coherence) shows misunderstanding of the distinction between political deliberation (Assembly) and legal drafting (Committee) – a core procedural concept in constitution-making.",
+     "self_check": true
+    },
+    {
+     "q": "During the Committee's work, Ambedkar moved an amendment to replace \"due process of law\" with \"procedure established by law\" in Article 21 (Right to Life). Analyze why this change mattered for judicial review in India compared to the US model.",
+     "a": "\"Procedure established by law\" limits courts to checking if a valid law exists and was followed, not whether the law is fair (substantive due process). This gave Parliament wider latitude but weaker rights protection initially (until Maneka Gandhi, 1978). A wrong answer (e.g., \"no difference\" or \"strengthened rights\") reveals failure to grasp the textual consequence on judicial power – a key analytical skill for Article 21 jurisprudence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Ambedkar's role in drafting the Fundamental Rights chapter (Part III) with his role in the Directive Principles (Part IV). How did his approach differ between justiciable and non-justiciable provisions?",
+     "a": "For Fundamental Rights, Ambedkar insisted on precise legal language and judicial enforceability (e.g., Article 32 as \"heart and soul\"). For Directive Principles, he accepted non-justiciability but embedded strong moral directives (e.g., Article 38, 39) to guide governance. A wrong answer (e.g., \"he opposed Directive Principles\") shows ignorance of his strategic acceptance of non-justiciability as a pragmatic compromise while loading them with transformative content.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that Ambedkar's Drafting Committee merely \"borrowed\" from the Government of India Act 1935 without innovation. Use two specific constitutional features to support your judgment.",
+     "a": "While the federal structure and emergency provisions drew heavily from the 1935 Act, the Committee innovated: (1) Universal Adult Franchise (Article 326) – unprecedented in scale for a largely illiterate population; (2) Abolition of Untouchability (Article 17) – a radical social reform with no colonial precedent. A wrong answer (e.g., \"entirely borrowed\" or \"entirely original\") fails to assess the nuanced blend of adaptation and innovation that defines the Constitution's \"borrowed but not copied\" character.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Chairman's Note\" that Ambedkar might have written on 21 February 1948 (submission of Draft Constitution) summarizing the Committee's three biggest achievements and one unresolved tension.",
+     "a": "A strong answer identifies: (1) Integrated Fundamental Rights with judicial remedies (Art 32); (2) Federal balance with strong Centre (Art 356); (3) Social justice provisions (Art 17, 29, 338). Unresolved tension: tension between Parliamentary sovereignty (Art 368 amendment power) and judicial review of amendments (later settled in Kesavananda Bharati). A weak answer lists generic \"rights, federalism, secularism\" without citing specific articles or the amendment/judicial review tension, showing lack of textual grounding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

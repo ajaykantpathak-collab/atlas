@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_003",
+   "title": "c11_acc_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the accounting equation and name its three components with their standard symbols.",
+     "a": "The accounting equation is A = L + C, where A = Assets (resources owned), L = Liabilities (outsiders' claims), C = Capital (owner's claim). A wrong answer (e.g., \"A = L - C\" or missing Capital) reveals the student has memorised the formula without understanding that Capital is a separate claim distinct from Liabilities, or confuses the equity side structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"When a business earns profit, liabilities increase because the business owes more to the owner.\" Explain why this statement is incorrect using the accounting equation.",
+     "a": "Profit increases Capital (owner's equity), not Liabilities. In A = L + C, profit ↑ → C ↑, so Assets must also ↑ (e.g., cash/debtors increase). Liabilities represent outsiders' claims (creditors, loans), which are unaffected by profit. If a student says liabilities increase, they confuse the owner's claim (Capital) with outsiders' claims (Liabilities) — a fundamental classification error.",
+     "self_check": true
+    },
+    {
+     "q": "Transaction: \"Paid ₹12,000 cash for office rent.\" Show the effect on the accounting equation using a 3-column format (Assets, Liabilities, Capital) with +/− signs and amounts.",
+     "a": "Assets: Cash −₹12,000; Liabilities: No change; Capital: −₹12,000 (Rent Expense reduces Capital). Equation: (A −12,000) = L + (C −12,000) → balanced. A wrong answer showing Liabilities −₹12,000 or Capital unchanged reveals the student does not recognise rent as an expense that reduces Capital, or misclassifies expense payment as liability reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the accounting equation of: (a) Purchasing machinery for ₹50,000 cash, and (b) Purchasing machinery for ₹50,000 on credit. How does the dual effect differ?",
+     "a": "(a) Machinery ↑₹50,000, Cash ↓₹50,000 → Assets unchanged, L and C unchanged. (b) Machinery ↑₹50,000, Creditors (Liability) ↑₹50,000 → Assets ↑₹50,000, Liabilities ↑₹50,000, C unchanged. The difference: (a) is asset exchange (internal), (b) brings in outside claim. A student who shows both increasing Assets and Liabilities fails to distinguish asset swap from credit acquisition.",
+     "self_check": true
+    },
+    {
+     "q": "A trader records: \"Sold goods costing ₹8,000 for ₹10,000 cash.\" He writes: Assets +₹10,000, Capital +₹10,000. Evaluate this analysis and correct it.",
+     "a": "Incorrect. Correct effect: Cash ↑₹10,000, Stock ↓₹8,000 → Net Assets ↑₹2,000; Capital ↑₹2,000 (Profit). The student ignored the cost of goods sold (Stock reduction) and recorded full selling price as profit. This reveals confusion between revenue (₹10,000) and profit (₹2,000), and failure to track inventory as an asset.",
+     "self_check": true
+    },
+    {
+     "q": "Create a single transaction that simultaneously increases Assets by ₹30,000, increases Liabilities by ₹20,000, and increases Capital by ₹10,000. Describe the transaction in business terms.",
+     "a": "Example: \"Purchased a delivery van for ₹30,000, paying ₹20,000 cash and signing a ₹10,000 note payable; the van's fair value is ₹30,000 but the seller gave a ₹10,000 discount as goodwill.\" Effect: Van ↑₹30,000 (Asset), Cash ↓₹20,000 (Asset), Note Payable ↑₹20,000 (Liability) — wait, that doesn't match. Better: \"Started business with ₹10,000 cash and ₹20,000 loan from bank, then purchased machinery for ₹30,000 cash.\" Combined: Cash +₹10,000 (capital) +₹20,000 (loan) −₹30,000 (machinery) = 0; Machinery +₹30,000; Loan +₹20,000; Capital +₹10,000. Net: Assets +₹30,000, Liabilities +₹20,000, Capital +₹10,000. A poor answer shows inability to compose multi-element transactions or confusion about simultaneous changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

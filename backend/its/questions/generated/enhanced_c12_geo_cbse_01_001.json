@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_001",
+   "title": "c12_geo_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define human geography according to Ellen C. Semple and identify the key word that distinguishes her definition from Ratzel's.",
+     "a": "Semple defines human geography as \"the study of the changing relationship between the unresting man and the unstable earth.\" The key word is **changing** (or dynamism), highlighting that the relationship is not static but evolves over time. Ratzel emphasised *synthesis* (static integration), while Semple stresses *process*. A wrong answer that quotes Ratzel's \"synthetic study\" or misses \"changing/unresting/unstable\" reveals confusion between synthesis and dynamism — a common error when memorising definitions without comparing their philosophical emphasis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Human geography only studies how humans affect nature, like building cities.\" Using the concept of *naturalisation of humans*, explain why this statement is incomplete.",
+     "a": "The statement ignores the first stage of human-environment interaction where *nature shapes humans*. Naturalisation of humans (e.g., Benda in Abujh Maad) describes primitive societies with low technology who adapt to, worship, and are constrained by nature — they do not significantly modify it. Human geography studies *both* directions: naturalisation (nature → human) and humanisation (human → nature). A wrong answer that only cites humanisation examples (like Kari in Trondheim) shows the student has not grasped the historical evolution of the relationship and the duality central to the discipline's nature.",
+     "self_check": true
+    },
+    {
+     "q": "Given the table below showing two regions, identify which region exemplifies *naturalisation of humans* and which exemplifies *humanisation of nature*. Justify using technology level and environmental control.\n\n| Region | Primary Activity | Technology Level | Environmental Control |\n|--------|------------------|------------------|----------------------|\n| A (Abujh Maad tribal area) | Shifting cultivation, foraging | Very low (axe, fire) | Nature dictates settlement, diet, movement |\n| B (Trondheim, Norway) | University research, services | Very high (glass dome, HVAC, air transport) | Humans control temperature, light, food supply year-round |",
+     "a": "**Region A = Naturalisation of humans.** Low technology forces direct dependence: Benda's tribe follows forest cycles, worships nature spirits, and flees outsiders by merging with the canopy. **Region B = Humanisation of nature.** High technology (glass dome, HVAC, global supply chains) allows Kari to overcome polar darkness, cold, and food limitations — nature bears imprints of human endeavour. A wrong answer swapping the regions reveals inability to link technology level to the direction of dominance in the human-environment relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Griffith Taylor's neo-determinism (stop-and-go determinism) uses a traffic light analogy. Analyse how this concept resolves the dichotomy between environmental determinism and possibilism, and give one real-world example where \"red light\" (environmental limit) was ignored, causing ecological damage.",
+     "a": "Neo-determinism argues humans can create possibilities (*green light*) but only within environmental limits (*red light*). Determinism says only red lights exist (nature controls); possibilism says only green lights exist (human freedom). Taylor's middle path: obey red lights (ecological thresholds) to avoid accidents (greenhouse effect, ozone depletion). **Example:** Groundwater over-extraction in Punjab for rice cultivation (green revolution) ignored the red light of aquifer recharge rates, causing severe water-table decline — a \"collision\" from running a red light. A wrong answer that treats neo-determinism as mere compromise without the *traffic light mechanism* (obey limits to enable sustainable progress) misses the operational core of the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The quantitative revolution in human geography (1950s-60s) made the discipline more scientific but less human.\" Use the emergence of the three schools in the 1970s as evidence.",
+     "a": "The statement is **largely valid**. The quantitative revolution applied physics-like laws and statistical models to map mappable patterns, but treated humans as abstract data points — \"dehumanised manner.\" This triggered the 1970s emergence of: (1) **Humanistic/Welfare school** — brought back human well-being (housing, health); (2) **Radical school** — used Marxian theory to expose structural inequality behind patterns; (3) **Behavioural school** — focused on lived experience and perception by ethnicity/race. These schools explicitly reacted *against* the dehumanisation. A wrong answer that praises quantitative revolution without acknowledging the disciplinary crisis it caused shows inability to evaluate methodological trade-offs in geography's evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page concept map for \"Scope of Human Geography\" that integrates: (a) three major schools of thought, (b) five sub-fields with their sister disciplines, and (c) the two fundamental processes (naturalisation, humanisation). Use arrows to show directional relationships.",
+     "a": "**Expected concept map structure:**\n- **Central node:** Human Geography (Definition: synthetic study of human-Earth relationship)\n- **Two process branches (bidirectional arrows):**\n  - Naturalisation of Humans ← low tech → Nature dominates (Determinism)\n  - Humanisation of Nature ← high tech → Humans dominate (Possibilism)\n  - **Middle branch:** Neo-determinism (stop-and-go) connecting both with \"obey limits\" feedback loop\n- **Five sub-field branches (from Table 1.2) with sister disciplines:**\n  - Social Geography ↔ Sociology\n  - Urban Geography ↔ Urban Studies\n  - Political Geography ↔ Political Science\n  - Population Geography ↔ Demography\n  - Economic Geography ↔ Economics\n- **Three school branches (1970s reaction to quantitative revolution):**\n  - Humanistic → Social well-being\n  - Radical → Capitalism & inequality\n  - Behavioural → Perception by social category\nA poor map that lists sub-fields without sister disciplines, omits the bidirectional process arrows, or places schools as sub-fields (rather than philosophical approaches) reveals fragmented understanding of scope vs. methodology vs. philosophy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

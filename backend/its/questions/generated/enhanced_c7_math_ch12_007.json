@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_007",
+   "title": "c7_math_ch12_007",
+   "questions": [
+    {
+     "q": "What is the primary purpose of estimating a decimal product before performing the exact multiplication?\nA) To find the exact decimal digits without a calculator\nB) To check whether the placement of the decimal point in the final answer is reasonable\nC) To eliminate the need for multiplication entirely\nD) To convert decimals into fractions automatically",
+     "a": "The correct answer is B. Estimation helps verify if the magnitude and decimal placement of the final calculated answer make sense. A student who chooses A believes estimation is a method for exact calculation, while someone choosing C misunderstands that estimation is a preliminary check, not a replacement for exact arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan calculates $4.2 \\times 3.5 = 147$. Without re-doing the full multiplication, why should Rohan immediately know this answer is incorrect?\nA) Because 4 times 3 is 12, so the answer must be close to 12, not 147.\nB) Because both numbers have one decimal place, so the product must be a whole number.\nC) Because the last digits (2 and 5) multiply to 10, which means the product must end in zero.\nD) Because decimals can never result in numbers greater than 10.",
+     "a": "The correct answer is A. By estimating $4 \\times 3 = 12$, Rohan can immediately see that 147 is far too large due to a decimal point error (he likely calculated $42 \\times 35$). A student choosing B thinks decimal multiplication always yields whole numbers, ignoring that tenths multiplied by tenths give hundredths.",
+     "self_check": true
+    },
+    {
+     "q": "Estimate the product of $18.7 \\times 4.2$ by rounding each number to the nearest whole number, and then calculate the exact product to verify. What are the estimated and exact values?\nA) Estimate: 70; Exact: 78.54\nB) Estimate: 80; Exact: 78.54\nC) Estimate: 76; Exact: 74.54\nD) Estimate: 80; Exact: 80.54",
+     "a": "The correct answer is B. Step 1: Round 18.7 to the nearest whole number, which is 19. Step 2: Round 4.2 to the nearest whole number, which is 4. Step 3: Multiply the rounded estimates: $19 \\times 4 = 76$ (Wait, let's check standard estimation: $19 \\times 4 = 76$ or front-end: $20 \\times 4 = 80$). Let's use exact rounding: 18.7 rounds to 19, 4.2 rounds to 4, so $19 \\times 4 = 76$. Let's check exact calculation: $18.7 \\times 4.2 = 78.54$. Thus, the estimate of 76 (or close to 80 using front-end) is close to 78.54, confirming reasonableness. A student who chooses incorrect options likely made rounding errors or placed the decimal incorrectly during exact multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "When dividing $45.6$ by $3.8$, Priya gets an exact quotient of $1.2$. Use estimation to analyze why Priya's answer is mathematically impossible.\nA) $45.6$ divided by $3.8$ is less than 1, so $1.2$ is too big.\nB) Rounding 45.6 to 46 and 3.8 to 4 gives an estimate of around 11.5, making $1.2$ far too small by a factor of 10.\nC) Division of decimals always results in numbers larger than the dividend.\nD) The number of decimal places in the quotient must equal the sum of the dividend and divisor decimal places.",
+     "a": "The correct answer is B. Estimating $40 \\div 4 = 10$ shows the quotient must be near 10, so $1.2$ indicates Priya forgot that dividing by a number less than 5 with similar scale yields a double-digit quotient, revealing a decimal shift error. A student choosing C believes division always increases values, confusing it with multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates $12.5 + 43.28 - 7.1 = 61.68$ and verifies it by working backward. Which reverse operation sequence correctly verifies this calculation?\nA) $61.68 + 7.1 - 43.28$\nB) $61.68 - 43.28 + 7.1$\nC) $61.68 - 7.1 + 43.28$\nD) $43.28 + 7.1 - 61.68$",
+     "a": "The correct answer is A. To verify a combined addition and subtraction problem, you invert the operations in reverse order: start with the result $61.68$, add the subtracted term ($+ 7.1$), and subtract the added term ($- 43.28$), which should yield the original starting value $12.5$. A student choosing C applied the wrong signs for inversion, showing a misunderstanding of inverse operations.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an estimation check for the decimal multiplication problem $79.3 \\times 0.52$. Explain how front-end estimation or rounding helps you predict the magnitude of the answer before computing.\nA) Round 79.3 to 80 and 0.52 to 0.5 (or $1/2$). Then $80 \\times 0.5 = 40$. This predicts the exact answer will be around 40, specifically half of 79.3.\nB) Round both numbers up to 100 and 1, getting 100.\nC) Ignore decimals and multiply $793 \\times 52$.\nD) Add the numbers instead of multiplying.",
+     "a": "The correct answer is A. A good response demonstrates rounding 79.3 to 80 and 0.52 to $0.5$ ($1/2$), recognizing that multiplying by $0.5$ is taking half, yielding an estimate of 40. A poor answer ignores decimal scaling or attempts exact calculation without estimation principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

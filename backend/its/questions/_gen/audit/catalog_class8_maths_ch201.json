@@ -1,0 +1,410 @@
+{
+ "catalog": "catalog_class8_maths_ch201.json",
+ "concepts": [
+  {
+   "id": "hegp.201.1",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 / 100 * 500"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 3 / 4 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.07 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 90 - 56",
+      "pct = change / 56 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 205 - 20",
+      "pct = change / 205 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 90 / 200 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.2",
+   "family": "frac_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prod = 7 * 2 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "part = 6 / 8 * 16"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "num = 4 * 5",
+      "den = 9 * 4",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 2 / 7 * 5 / 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rec = 9 / 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = (3 + 4) / 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.3",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 40 / 100 * 200"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 5 / 16 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.45 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 122 - 62",
+      "pct = change / 62 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 307 - 217",
+      "pct = change / 307 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 53 / 150 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.4",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 75 / 100 * 80"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 2 / 5 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.07 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 121 - 75",
+      "pct = change / 75 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 131 - 76",
+      "pct = change / 131 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 53 / 300 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.5",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 20 / 100 * 120"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 3 / 8 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 1.25 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 207 - 200",
+      "pct = change / 200 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 328 - 71",
+      "pct = change / 328 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 63 / 250 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.6",
+   "family": "pct_core",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 25 / 100 * 60"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pct = 3 / 4 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pct = 0.45 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "change = 269 - 139",
+      "pct = change / 139 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "change = 243 - 164",
+      "pct = change / 243 * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pct = 37 / 100 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.7",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 6000 * 12 * 3 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 6000 * 12 * 3 / 100",
+      "amount = 6000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 2160 * 100 / (12 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 6000 * (1 + 12 / 100) ** 2",
+      "ci = amount - 6000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 6000 * (1 + 12 / 100) ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 6000 * (1 + 12 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.8",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 12000 * 6 * 3 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 12000 * 6 * 3 / 100",
+      "amount = 12000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 2160 * 100 / (6 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 12000 * (1 + 6 / 100) ** 2",
+      "ci = amount - 12000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 12000 * (1 + 6 / 100) ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 12000 * (1 + 8 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.201.9",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 2000 * 8 * 3 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 2000 * 8 * 3 / 100",
+      "amount = 2000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 480 * 100 / (8 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 2000 * (1 + 8 / 100) ** 2",
+      "ci = amount - 2000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 2000 * (1 + 8 / 100) ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 2000 * (1 + 8 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

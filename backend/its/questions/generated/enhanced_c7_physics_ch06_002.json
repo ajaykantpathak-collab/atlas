@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_002",
+   "title": "c7_physics_ch06_002",
+   "questions": [
+    {
+     "q": "What is the apparent direction of the Sun's daily movement across the sky when viewed from Earth?",
+     "a": "The Sun appears to move from east to west. A student who answers \"west to east\" is confusing the actual direction of Earth's rotation with the apparent motion of celestial bodies observed from the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Sun appear to rise in the east and set in the west if the Earth is spinning? Explain the physical reason.",
+     "a": "The Sun appears to move in the opposite direction of Earth's rotation because our viewpoint on Earth's surface is moving eastward. Just like trees appear to move backward when you look out of a moving vehicle, the Sun appears to travel westward because Earth rotates from west to east. A student who says \"the Sun revolves around the Earth\" is holding onto the pre-scientific geocentric misconception.",
+     "self_check": true
+    },
+    {
+     "q": "If the Earth rotates 360 degrees on its axis in 24 hours, calculate the average rate of the Sun's apparent angular movement across the sky in degrees per hour (°/h).",
+     "a": "Given: Total angular displacement = 360°, Total time = 24 hours. Rate = $\\frac{360^\\circ}{24\\text{ h}} = 15^\\circ\\text{/h}$. A student who gets an incorrect value likely divided 24 by 360 instead of total degrees by total hours, or miscalculated basic division.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the length of a shadow cast by a vertical pole changes from 8:00 AM to 12:00 PM (noon), and explain what this tells us about the apparent position of the Sun.",
+     "a": "The shadow is longest in the morning, gradually shortens, and reaches its shortest length at 12:00 PM when the Sun is at its highest point (zenith) in the sky. This happens because the Sun appears low on the eastern horizon in the morning (creating long shadows) and climbs higher overhead by noon. A student who claims shadows get longer toward noon does not understand light traveling in straight lines and changing angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that during a total solar eclipse, the Sun temporarily stops its apparent movement across the sky. Evaluate this statement using scientific reasoning.",
+     "a": "The statement is false. The Sun's apparent movement is caused by the continuous, steady rotation of the Earth on its axis, which does not stop or alter speed during an eclipse. A solar eclipse is merely the Moon passing between the Earth and the Sun, blocking our view of the solar disk temporarily, not stopping planetary rotation. A student who agrees with the claim confuses blocking the light source with halting the motion of the observer's frame of reference.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple outdoor observation method using everyday household materials to prove that the Sun's apparent position changes continuously throughout the school day.",
+     "a": "A student should propose placing a straight vertical stick (a gnomon) in flat ground under sunlight, then marking the tip of its shadow on a paper or chart every hour using chalk or pebbles. The resulting pattern will show the shadow moving and changing length, proving the Sun's apparent position is continuously shifting. A poor answer fails to include regular time intervals or a fixed reference marker, making the observation qualitative rather than scientific.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

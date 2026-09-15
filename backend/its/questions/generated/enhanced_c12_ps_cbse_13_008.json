@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_13_008",
+   "title": "c12_ps_cbse_13_008",
+   "questions": [
+    {
+     "q": "Which Article of the Indian Constitution did the Supreme Court interpret in *Vellore Citizens Welfare Forum v. Union of India (1996)* to include the \"precautionary principle\" and \"polluter pays principle\" as part of the fundamental right to a healthy environment?",
+     "a": "**Article 21 (Right to Life and Personal Liberty).** The Court held that the right to life includes the right to a wholesome environment, and read the precautionary principle (anticipatory action to prevent harm) and polluter pays principle (cost internalization) into Article 21 via Articles 48A and 51A(g). A wrong answer (e.g., Article 48A alone) reveals the student confuses Directive Principles (non-justiciable) with Fundamental Rights (justiciable) — a critical error for board exams where PIL maintainability hinges on Article 21/32.",
+     "self_check": true
+    },
+    {
+     "q": "The Chipko Movement (1973) is often called the \"birth of modern environmentalism in India.\" Explain why Chipko was *not* merely a \"conservation\" movement but a *livelihood* movement, and how this distinction reshaped the politics of development.",
+     "a": "Chipko was led by peasant women (Gaura Devi, Bachni Devi) in Uttarakhand who depended on forests for fodder, fuel, water, and soil stability — not for \"wilderness preservation.\" Their slogan \"Ecology is permanent economy\" reframed forests as *commons* sustaining rural livelihoods, not timber mines for urban-industrial growth. This forced the state to acknowledge that \"development\" (commercial logging) was causing *underdevelopment* (ecological collapse + women's drudgery). A student who calls Chipko \"tree-hugging for nature\" misses the class/gender/caste politics: it was a *subaltern* claim on resources, linking to c12_ps_cbse_13_007 (women's agency) and c12_ps_cbse_13_004 (peasant mobilization).",
+     "self_check": true
+    },
+    {
+     "q": "A state government approves a bauxite mining project in a Fifth Schedule area without obtaining Free, Prior, and Informed Consent (FPIC) from the Gram Sabha, citing \"national interest\" and a 2006 EIA clearance. The project displaces 5,000 tribal families. Identify *three* constitutional/legal provisions the affected communities can invoke in a PIL, and explain the hierarchy of their enforceability.",
+     "a": "1. **Forest Rights Act 2006, Section 4(1)(e) + Section 6(1):** Gram Sabha's right to protect community forest resources and FPIC for diversion — *statutory, justiciable, specific to tribals/forest-dwellers*.  \n2. **PESA Act 1996, Section 4(i):** Gram Sabha consultation mandatory for land acquisition in Scheduled Areas — *statutory, overrides state laws*.  \n3. **Article 21 + Article 244 (Fifth Schedule):** Right to livelihood + Governor's duty to protect tribal interests — *constitutional, highest hierarchy*.  \n**Hierarchy:** Constitutional (Art. 21/244) > Statutory (FRA/PESA) > Subordinate legislation (EIA Notification). A student citing only EIA 2006 misses that EIA *cannot* override FRA/PESA — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *strategic framing* of Narmada Bachao Andolan (NBA) and Silent Valley Movement (1970s-80s). How did each movement's choice of \"target\" (World Bank vs. State Government) and \"language\" (human rights/rehabilitation vs. biodiversity/science) reflect different theories of political change?",
+     "a": "**Silent Valley (Kerala, 1973-85):** Targeted the *state government* (Kerala) and central Ministry of Agriculture; used *scientific/biodiversity language* (lion-tailed macaque, rainforest ecology) + elite scientific networks (Salim Ali, M.S. Swaminathan) to persuade Indira Gandhi. Theory: **epistemic authority + executive access** → policy reversal.  \n**NBA (1985+):** Targeted the *World Bank* (financier) and *Supreme Court*; used *human rights/rehabilitation language* (Art. 21, oustees' rights) + mass mobilization (satyagraha, jal samadhi) to expose \"development-induced displacement.\" Theory: **transnational accountability + constitutional litigation + mass civil disobedience** → structural reform.  \nA student who says \"both saved forests\" misses the *political* difference: Silent Valley was a *conservation victory*; NBA was a *democratic deepening* struggle that redefined development itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Forest Rights Act 2006 resolved the historical injustice against forest-dwelling communities.\" Use *three* specific implementation gaps (with data/examples) to support your judgment.",
+     "a": "**Claim is false — FRA 2006 was a *legal* victory, not an *implementation* victory.** Three gaps:  \n1. **Recognition rate:** As of 2023, only ~45% of 42 lakh claims (individual + community) have been recognized; rejection rates exceed 50% in states like Maharashtra, Odisha (MoTA data).  \n2. **Community Forest Resource (CFR) rights:** Only ~3% of potential CFR area recognized — the *core* of FRA's transformative potential (community governance) remains unrealized.  \n3. **Dilution via compensatory afforestation (CAMPA) & EIA 2020:** Forest diversion for mining/infra proceeds *without* Gram Sabha consent, using \"deemed clearance\" — FRA reduced to paper.  \nA student calling FRA a \"success\" confuses *legislative intent* with *bureaucratic reality* — a classic board exam error where \"policy = outcome.\"",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word \"movement manifesto\" for a hypothetical *Adivasi youth collective* in central India opposing a coal mine on their ancestral land. Your manifesto must: (a) invoke *two* constitutional provisions, (b) reference *one* Supreme Court judgment, (c) articulate a *redefinition of development*, and (d) address the *urban middle class* as allies, not saviors.",
+     "a": "**Expected answer criteria:**  \n- **Constitutional:** Article 21 (livelihood/environment), Article 244/5th Schedule (tribal autonomy), PESA/FRA.  \n- **SC Judgment:** *Samatha v. State of AP (1997)* (non-tribals cannot lease tribal land in Scheduled Areas) OR *Orissa Mining Corp v. Ministry of Environment (2013)* (Gram Sabha consent for Niyamgiri).  \n- **Redefinition:** \"Development is not GDP growth — it is *swaraj* over our jal, jungle, jameen; it is our children drinking clean river water, not your cities lighting up with our coal.\"  \n- **Urban address:** \"Your ACs run on our displacement. Allyship = consuming less, demanding accountability, not 'giving us voice' — we have our own.\"  \nA poor answer uses generic slogans (\"save nature\"), misses legal specificity, or frames tribals as victims needing rescue — revealing a *savior complex* misconception.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

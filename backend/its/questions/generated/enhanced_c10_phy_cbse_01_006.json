@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_006",
+   "title": "c10_phy_cbse_01_006",
+   "questions": [
+    {
+     "q": "Three resistors of 2 Ω, 3 Ω, and 5 Ω are connected in series across a 10 V battery. What is the equivalent resistance of the combination? State the formula used.",
+     "a": "Equivalent resistance R_s = 2 Ω + 3 Ω + 5 Ω = 10 Ω. Formula: R_s = R_1 + R_2 + R_3. A wrong answer like 1/10 Ω or 30 Ω reveals the student is confusing series formula with parallel formula or multiplying resistances instead of adding.",
+     "self_check": true
+    },
+    {
+     "q": "In a series circuit with two resistors R_1 and R_2 connected to a battery, the current through R_1 is measured as 0.5 A. What is the current through R_2? Explain why.",
+     "a": "Current through R_2 is also 0.5 A. In a series combination, there is only one path for charge flow, so the same current passes through all components. A wrong answer (e.g., \"depends on resistance\" or \"half of 0.5 A\") reveals the student thinks current divides in series like voltage, confusing series with parallel behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A 12 V battery is connected to three resistors in series: R_1 = 4 Ω, R_2 = 6 Ω, R_3 = 2 Ω. Calculate (a) equivalent resistance, (b) circuit current, (c) voltage across R_2.",
+     "a": "(a) R_s = 4 + 6 + 2 = 12 Ω. (b) I = V/R_s = 12 V / 12 Ω = 1 A. (c) V_2 = I × R_2 = 1 A × 6 Ω = 6 V. Unit analysis: V/Ω = A, A×Ω = V. A wrong answer like I = 12/4 = 3 A shows the student used only one resistor instead of equivalent resistance. Wrong V_2 = 12 V shows they think voltage is same across all resistors (parallel misconception).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical resistors of resistance R each are connected in series to a battery of voltage V. The power dissipated in the combination is P_series. If the same resistors are connected in parallel to the same battery, the power is P_parallel. Compare P_series and P_parallel. Which is larger and by what factor?",
+     "a": "P_parallel = 4 × P_series. Series: R_s = 2R, P_series = V²/(2R). Parallel: R_p = R/2, P_parallel = V²/(R/2) = 2V²/R = 4 × V²/(2R) = 4 P_series. A wrong answer like \"equal\" or \"P_series larger\" reveals the student doesn't realize equivalent resistance in parallel is smaller, leading to higher current and higher power for same voltage.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a series circuit with a 6 V battery, a 2 Ω resistor, and an unknown resistor R_x. The ammeter reads 1.5 A. The student claims R_x = 2 Ω because \"total resistance = 6/1.5 = 4 Ω, so R_x = 4 - 2 = 2 Ω\". Evaluate this claim and identify any hidden assumption.",
+     "a": "The calculation is mathematically correct: R_total = 6V/1.5A = 4 Ω, so R_x = 4 - 2 = 2 Ω. However, the hidden assumption is that the battery has zero internal resistance and the ammeter has zero resistance. In real circuits, internal resistance would make actual R_x slightly less than 2 Ω. A student who says \"claim is fully correct\" misses the ideal-circuit assumption required for textbook formula application.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 9 V battery, three resistors (1 Ω, 2 Ω, 3 Ω), an ammeter, and a voltmeter to verify that equivalent resistance in series equals the sum of individual resistances. List steps and what you would plot.",
+     "a": "Steps: (1) Connect resistors in series with battery, ammeter in series, voltmeter across combination. (2) Measure total current I and total voltage V. (3) Compute R_exp = V/I. (4) Repeat by removing one resistor at a time to get individual R values via V_i/I. (5) Verify R_exp = R_1+R_2+R_3. Plot V vs I for the series combination — slope gives R_s. A poor answer would measure voltage across each resistor but not the total, or use parallel connections, showing confusion about series circuit topology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

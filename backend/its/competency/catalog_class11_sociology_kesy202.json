@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 202,
+ "chapter_title": "Social Change and Social Order in Rural and Urban Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy202.1.1",
+   "title": "Social Change: Types, Causes and the Role of Resistance",
+   "section": "1.1",
+   "definition": "Social change is the transformation over time of institutions, relationships and patterns of living. It arrives through many doors -- technology, economy, environment, ideas and social movements -- and it always meets friction, for established interests and habits resist rearrangement. Change is uneven: some domains race ahead while others lag.",
+   "formula": "",
+   "key_idea": "Nothing social stands still -- but change travels unevenly and always drags resistance behind it.",
+   "textbook_ref": "kesy202.txt lines 15-140 (introduction, meaning of social change, sources of change, technology economy environment ideas movements, resistance to change)",
+   "question_patterns": [
+    "what is social change and what are its main sources",
+    "in class 11 social change and social order: why do societies resist change",
+    "explain how technology brings social change with examples",
+    "how do social movements produce change",
+    "is social change always desirable discuss",
+    "why is change described as uneven across domains"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the levers",
+     "explain": "Locate the source -- a new technology, economic shift, ecological pressure, new ideas or organised movement."
+    },
+    {
+     "step": 2,
+     "action": "trace the ripple",
+     "explain": "Follow how the change spreads beyond its origin into family, work and belief patterns."
+    },
+    {
+     "step": 3,
+     "action": "weigh the friction",
+     "explain": "Identify who gains and who loses, for resistance is proportional to threatened interests and habits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Transformation over time of institutions and relationships is called social what?",
+     "a": "change"
+    }
+   ]
+  },
+  {
+   "id": "kesy202.1.2",
+   "title": "Social Order: The Made Regularity of Social Life",
+   "section": "1.2",
+   "definition": "Social order is the patterned predictability of social life -- the fact that traffic flows, queues hold and offices run. Sociologists stress it is an accomplishment, not a natural state: it is produced and maintained by authority, accepted rules and often by coercion, and it can break down in revolution, war or crisis.",
+   "formula": "",
+   "key_idea": "Order is not the absence of change but its management -- made, kept, and breakable.",
+   "textbook_ref": "kesy202.txt lines 140-260 (social order, evolution and spontaneity arguments, authority and coercion, why orders break down, nature and society order)",
+   "question_patterns": [
+    "what is meant by social order and how is it maintained",
+    "in class 11 social change and social order: is social order natural or made",
+    "what roles do authority and coercion play in maintaining order",
+    "why do social orders break down",
+    "relate change and order in a stable society",
+    "give examples of order breaking down and being restored"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the regularity",
+     "explain": "Order appears as the dependable repetition of roles and routines in a society."
+    },
+    {
+     "step": 2,
+     "action": "find the producers",
+     "explain": "Ask what keeps it -- legitimacy and voluntary compliance, backed where needed by coercion and surveillance."
+    },
+    {
+     "step": 3,
+     "action": "note the fragility",
+     "explain": "When legitimacy drains away or force falters, orders crack -- revolutions and breakdowns reveal order's made character."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The patterned predictability of social life is called social what?",
+     "a": "order"
+    }
+   ]
+  },
+  {
+   "id": "kesy202.1.3",
+   "title": "Village, Town and City: Rural and Urban Life Compared",
+   "section": "1.3",
+   "definition": "Rural society is marked by small scale, proximity and dense face-to-face ties -- everyone knows everyone, and agriculture anchors life. Urban society is larger, denser and more heterogeneous, specialised and anonymous, with formal rules filling the gaps that intimacy fills in villages. Each also changes the other through migration, media and markets.",
+   "formula": "",
+   "key_idea": "Village life runs on familiarity, city life on anonymity and rules -- two social worlds in continuous exchange.",
+   "textbook_ref": "kesy202.txt lines 260-400 (rural and urban society, village characteristics, city characteristics, rural urban differences, migration and linkages)",
+   "question_patterns": [
+    "distinguish rural and urban societies in terms of social relationships",
+    "in class 11 social change and social order: why is the city said to be anonymous",
+    "how does agriculture shape village social life",
+    "compare social control in village and city",
+    "explain how villages and cities are linked by migration",
+    "is the urban rural distinction blurring discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare scale and ties",
+     "explain": "Villages are small and intimate; cities are large, heterogeneous and segmental in relationships."
+    },
+    {
+     "step": 2,
+     "action": "compare control",
+     "explain": "Village order rests on community opinion and custom; urban order leans on formal law, police and impersonal rules."
+    },
+    {
+     "step": 3,
+     "action": "trace the circulation",
+     "explain": "Migrants carry cities to villages and villages to cities; remittances, media and markets knit the two worlds together."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which society runs on dense face-to-face ties: rural or urban?",
+     "a": "rural"
+    }
+   ]
+  },
+  {
+   "id": "kesy202.1.4",
+   "title": "Ecology of the City and Rural Change",
+   "section": "1.4",
+   "definition": "Cities are built environments where geography, economy and planning interact: land use sorts into commercial, industrial and residential zones, shaped by transport and profit. Villages too are changing -- new crops, roads, schooling and communications dissolve the timeless-village image, making both rural and urban worlds works in progress.",
+   "formula": "",
+   "key_idea": "The city is a planned-and-sprawl ecology; the village is no museum -- both are mid-change landscapes.",
+   "textbook_ref": "kesy202.txt lines 400-520 (ecology of the city, land use, zones, rural change, new agriculture, impact of communications and transport)",
+   "question_patterns": [
+    "what is the ecology of a city and what shapes land use",
+    "in class 11 social change and social order: how are villages changing in modern india",
+    "explain the role of transport in shaping city structure",
+    "why is the image of the timeless village misleading",
+    "relate urban zoning to economic forces",
+    "compare change in rural and urban settings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the city map",
+     "explain": "Commerce clusters at accessible centres, industry near transport links, residences around and between -- ecology shaped by access and price."
+    },
+    {
+     "step": 2,
+     "action": "read the village map",
+     "explain": "Roads, schools, tractors and phones have reworked village economy and hierarchy -- the village changes with the nation."
+    },
+    {
+     "step": 3,
+     "action": "link the two",
+     "explain": "Urban growth draws rural labour and produce; rural prosperity feeds urban markets -- one changing system, two settings."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sorting land into commercial, industrial and residential use is called what?",
+     "a": "land use"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy202.txt lines 15-140 (social change and resistance)",
+   "concept": "kesy202.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "A state introduces land ownership ceilings to redistribute land. Identify the sources of change involved and explain why resistance follows.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "name the lever",
+     "explain": "The reform is a state-led change in the economic and legal base of rural life."
+    },
+    {
+     "step": 2,
+     "action": "trace the ripples",
+     "explain": "Redistribution alters who farms, who commands labour and who wields local authority -- structure follows the land."
+    },
+    {
+     "step": 3,
+     "action": "explain the resistance",
+     "explain": "Large owners losing land, and custom anchored to it, resist through courts, evasion and politics -- change and counter-pressures in one field."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy202.txt lines 260-400 (rural urban comparison)",
+   "concept": "kesy202.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "A theft in a village is settled by the elders; the same theft in a metro is reported to the police. Explain the difference in social order using the rural-urban contrast.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the village mechanism",
+     "explain": "Small, dense acquaintance lets elders act as moral authority -- order through community opinion and custom."
+    },
+    {
+     "step": 2,
+     "action": "identify the city mechanism",
+     "explain": "Anonymity rules out elder moral reach, so order shifts to formal law and police procedure."
+    },
+    {
+     "step": 3,
+     "action": "draw the comparison",
+     "explain": "The same disorder meets different order-machines: personalised control in the village, impersonal control in the city."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy202.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "What are the main sources of social change? Illustrate with examples.",
+    "Explain why all social change meets resistance.",
+    "What is social order and how is it produced and maintained?",
+    "Compare the social relationships typical of villages and cities.",
+    "Describe the ecology of the city and the forces shaping land use.",
+    "How are rural and urban societies linked in contemporary India?"
+   ]
+  }
+ ]
+}

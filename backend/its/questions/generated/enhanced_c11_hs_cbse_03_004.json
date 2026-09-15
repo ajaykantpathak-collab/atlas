@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_004",
+   "title": "c11_hs_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the exact WHO (1948) definition of health and identify the three dimensions it encompasses.",
+     "a": "Correct answer: \"Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\" The three dimensions are physical, mental, and social well-being. A wrong answer that omits \"complete\" or \"not merely the absence of disease\" reveals the student has memorised a simplified version and misses the paradigm shift from pathogenic to salutogenic model. If a student lists \"emotional\" instead of \"mental,\" they are conflating a component with the dimension—mental health includes emotional, psychological, and cognitive aspects.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old girl has no diagnosed illness, maintains normal weight, and passes all medical tests. However, she experiences persistent low mood, avoids social gatherings, and feels hopeless about her future. Using the WHO definition, explain why she cannot be considered \"completely healthy.\"",
+     "a": "Correct answer: The WHO definition requires complete physical, mental, AND social well-being. This student lacks mental well-being (persistent low mood, hopelessness) and social well-being (avoidance of social gatherings), so she does not meet the definition despite physical health. A wrong answer focusing only on her normal medical tests reveals the misconception that health = absence of diagnosable pathology. This is the exact \"medical model\" thinking the WHO definition was designed to overcome. Students must recognise that mental and social dimensions are not optional add-ons but constitutive parts of health.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following indicators into the correct WHO health dimension: (a) Ability to run 1 km without excessive fatigue, (b) Maintaining meaningful friendships, (c) Making informed decisions under stress, (d) Participating in community events, (e) Normal blood pressure and blood sugar levels, (f) Regulating emotions after a setback.",
+     "a": "Correct classification: Physical—(a), (e); Mental—(c), (f); Social—(b), (d). A wrong answer that places (c) or (f) in physical dimension shows confusion between physiological stress response (physical) and cognitive-emotional coping capacity (mental). Placing (d) in mental dimension reveals inability to distinguish individual psychological state from interpersonal/community engagement. This classification task tests whether students can operationalise abstract dimensions into observable behaviours—a skill needed for board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"health\" and \"physical fitness\" using the NCERT Class 11 definitions. Give one example of a person who is physically fit but not healthy, and one who is healthy but not physically fit.",
+     "a": "Correct answer: Health = complete physical, mental, social well-being (WHO). Physical fitness = body's ability to function efficiently in work/leisure, resist disease, meet emergencies (NCERT). Example 1: Elite athlete with overtraining syndrome, social isolation, and anxiety—fit but not healthy. Example 2: Person with no disease, good relationships, emotional stability, but low cardiorespiratory endurance—healthy but not fit. A wrong answer that treats them as synonyms reveals failure to grasp that fitness is a component of physical health only, while health is holistic. Board exams often ask this distinction in 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the WHO definition includes 'complete' well-being, it sets an unrealistic ideal that no human can achieve, making it useless for public health policy.\" Defend or refute using the concept of health as a continuum.",
+     "a": "Correct critique: The statement misunderstands \"complete\" as \"perfect/absolute\" rather than \"holistic/comprehensive.\" The WHO definition describes health as a resource for everyday life, not a fixed destination. Public health uses it as a directional ideal—policies aim to move populations toward greater well-being across all three dimensions, not achieve utopia. A wrong answer that agrees with the critique reveals binary thinking (healthy/unhealthy) instead of continuum thinking. Students must understand that definitions in policy serve as normative frameworks for measurement and intervention, not checkboxes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Health Profile Card\" template for a Class 11 student that operationalises all three WHO dimensions into 2-3 measurable/observable indicators per dimension. The card must be usable for self-assessment once per term.",
+     "a": "A good answer includes: Physical—(1) Resting heart rate / BMI / 12-min run distance, (2) Sleep duration/quality, (3) Frequency of illness/absenteeism. Mental—(1) Perceived Stress Scale score or self-rated stress coping (1-10), (2) Ability to concentrate in class (teacher/self rating), (3) Emotional regulation: recovery time after setback. Social—(1) Number of trusted peers/adults for support, (2) Participation in group activities (clubs/sports/volunteering), (3) Quality of family communication (self-rated). A poor answer uses only clinical measures (BP, Hb) or vague items (\"feels good\") showing inability to translate abstract dimensions into adolescent-relevant, trackable indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

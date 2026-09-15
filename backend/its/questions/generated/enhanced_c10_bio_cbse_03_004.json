@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_004",
+   "title": "c10_bio_cbse_03_004",
+   "questions": [
+    {
+     "q": "Define budding. Name two organisms that reproduce by budding and state whether they are unicellular or multicellular.",
+     "a": "Budding is asexual reproduction where a new individual develops from an outgrowth (bud) on the parent, receives a nucleus via mitosis, and detaches or stays attached. Organisms: Yeast (unicellular fungus), Hydra (multicellular animal). A wrong answer listing Amoeba or bacteria reveals confusion with binary fission; listing potato or Bryophyllum reveals confusion with vegetative propagation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is spore formation considered an asexual mode of reproduction? Explain the role of the sporangium in Rhizopus.",
+     "a": "Spore formation is asexual because spores are produced by mitotic division of the sporangium's nucleus without any gamete fusion; each spore develops into a genetically identical clone of the parent. The sporangium is a protective sac at the tip of a sporangiophore that matures, ruptures, and releases thousands of lightweight spores for wind dispersal. A wrong answer stating spores are formed by meiosis confuses fungal asexual spores (sporangiospores) with plant sexual spores or fungal sexual spores (zygospores).",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a moist piece of leather kept in a dark cupboard during rainy season. After a week, a white cottony growth appears, which later turns greenish-black. Under a microscope, she sees branching threads (hyphae) with spherical structures at the tips containing numerous tiny round bodies. Identify the organism, the spherical structure, the tiny bodies, and the mode of reproduction. Draw a labeled diagram of the spherical structure.",
+     "a": "Organism: Rhizopus (bread mold). Spherical structure: Sporangium. Tiny bodies: Spores (sporangiospores). Mode: Spore formation (asexual). Steps: 1. Cottony growth = mycelium (hyphae). 2. Spherical tip = sporangium. 3. Tiny bodies inside = spores formed by mitosis. 4. Greenish-black color = mature spores. 5. Rupture releases spores. A wrong answer identifying the spherical structure as a bud confuses sporangium (multinucleate, produces many spores) with bud (single nucleus, single offspring).",
+     "self_check": true
+    },
+    {
+     "q": "Compare budding in yeast and Hydra on the basis of: (a) cellularity of parent organism, (b) fate of the bud after maturation, (c) nuclear division and distribution, (d) adaptive significance in their respective habitats.",
+     "a": "(a) Yeast: unicellular; Hydra: multicellular. (b) Yeast: bud detaches to live independently; Hydra: bud may detach or remain attached forming a colony. (c) Yeast: parent nucleus undergoes mitosis, one daughter nucleus migrates into bud; Hydra: epidermal/interstitial cells undergo mitosis to form bud, nuclei distributed to bud cells. (d) Yeast: rapid population explosion in nutrient-rich liquid (e.g., fermenting fruit, batter); Hydra: colonization of pond vegetation, survival via detachment. A wrong answer claiming both are unicellular or both form colonies reveals lack of distinction between unicellular fungi and multicellular animals.",
+     "self_check": true
+    },
+    {
+     "q": "\"Spore formation is a more effective dispersal strategy than budding for fungi colonizing solid substrates.\" Evaluate this statement with two biological reasons.",
+     "a": "The statement is correct. Reason 1: Spores are produced in huge numbers (thousands per sporangium), are microscopic, lightweight, and have thick protective walls resistant to desiccation — enabling passive wind dispersal over kilometers to new substrates. Reason 2: Buds are macroscopic, fewer in number, lack protective walls, and rely on random detachment or water currents — limiting dispersal to centimeters. A wrong answer arguing budding is better because the offspring is larger and has stored food misses the ecological context: fungi on solid substrates (bread, leather, wood) prioritize reaching new patches over initial offspring size.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using kitchen materials to observe budding in yeast. List materials, procedure, observation timeline (at 0, 30, 60, 90 minutes), and the expected microscopic drawings at each stage. What control would you set up?",
+     "a": "Materials: Dry yeast (1 tsp), sugar (1 tsp), warm water (50 ml), two test tubes, dropper, microscope, slides, coverslips. Procedure: 1. Label tubes A (experiment) and B (control). 2. In A: dissolve sugar in warm water, add yeast, mix. 3. In B: warm water + yeast (no sugar). 4. Keep both in warm place (30°C). 5. Every 30 min, place a drop from each on slide, cover, observe under 10x/40x. Observations: 0 min: single oval cells. 30 min: small buds appear on some cells. 60 min: buds enlarge, some chains of 2-3 buds. 90 min: buds detach, many single cells again. Control (B): no budding (no energy source). A poor answer omits sugar (energy for metabolism), uses boiling water (kills yeast), or lacks time intervals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

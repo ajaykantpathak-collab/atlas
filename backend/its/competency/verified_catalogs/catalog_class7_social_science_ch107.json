@@ -1,0 +1,458 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 107,
+ "chapter_title": "The Making of Regional Cultures",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess305.txt",
+ "concepts": [
+  {
+   "id": "gess.107.1",
+   "title": "Language and Regional Identity: Cheras and Malayalam",
+   "section": "The Cheras and the Development of Malayalam",
+   "definition": "The integration of regional language and administration by ninth-century Chera rulers of Mahodayapuram, alongside the literary synthesis of Sanskrit and Malayalam known as Manipravalam.",
+   "formula": "none",
+   "key_idea": "Chera rulers incorporated regional Malayalam script into inscriptions and synthesized local language with Sanskritic traditions.",
+   "textbook_ref": "gess107.txt lines 20-50",
+   "question_patterns": [
+    "How did the Chera rulers promote the Malayalam language in ninth-century Mahodayapuram?",
+    "Explain the concept of Manipravalam in fourteenth-century regional literature.",
+    "What was the connection between the Chera kingdom and Sanskritic literary traditions?",
+    "Describe how regional language and script were used in early Kerala inscriptions.",
+    "Identify the literary significance of Lilatilakam in Kerala language development."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_ruling_dynasty_and_region",
+     "explain": "The Chera kingdom of Mahodayapuram was established in the ninth century in south-western Kerala."
+    },
+    {
+     "step": 2,
+     "action": "analyze_linguistic_policy",
+     "explain": "Rulers introduced Malayalam language and script in official royal inscriptions, marking an early record of regional language usage."
+    },
+    {
+     "step": 3,
+     "action": "explain_sanskritic_synthesis",
+     "explain": "Literary works like Lilatilakam were composed in Manipravalam, combining Sanskrit and the local language."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.2",
+   "title": "Religious Traditions and Regional Identity: Jagannatha Cult",
+   "section": "Rulers and Religious Traditions: The Jagannatha Cult",
+   "definition": "The evolution of a regional religious cult centered around Lord Jagannatha at Puri, originating from local tribal traditions and patronized by royal dynasties to establish socio-political legitimacy.",
+   "formula": "none",
+   "key_idea": "Religious centers like the Jagannatha temple merged indigenous tribal worship with royal patronage to become hubs of regional authority.",
+   "textbook_ref": "gess107.txt lines 52-85",
+   "question_patterns": [
+    "How did the Jagannatha cult of Puri evolve from tribal worship to a major regional tradition?",
+    "Why did rulers like Anantavarman and Anangabhima III build and dedicate their kingdom to the Jagannatha temple?",
+    "What made conquerors like the Mughals, Marathas, and East India Company seek control over the Puri temple?",
+    "Explain the relationship between political authority and religious centers in medieval Orissa.",
+    "Describe the origin and iconographic significance of the wooden deities in Puri."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace_indigenous_origins",
+     "explain": "The wooden images made by local tribal people indicate Jagannatha was originally a local deity later identified with Vishnu."
+    },
+    {
+     "step": 2,
+     "action": "examine_royal_patronage",
+     "explain": "Ganga dynasty king Anantavarman erected the temple, and Anangabhima III declared himself deputy of the deity in 1230."
+    },
+    {
+     "step": 3,
+     "action": "assess_political_legitimacy",
+     "explain": "Conquerors sought control over the shrine because its religious authority legitimized political rule over local people."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.3",
+   "title": "Rajputs and Traditions of Heroism",
+   "section": "The Rajputs and Traditions of Heroism",
+   "definition": "The cultural ethos in medieval Rajputana where rulers and warriors emphasized valour, loyalty, and martyrdom over surrender, immortalized in ballads composed by trained minstrels.",
+   "formula": "none",
+   "key_idea": "Minstrels preserved stories of Rajput heroic ideals, inspiring values of courage, loyalty, and sacrifice in regional society.",
+   "textbook_ref": "gess107.txt lines 87-125",
+   "question_patterns": [
+    "What ideals were cherished by Rajput rulers according to medieval songs and poems?",
+    "What role did trained minstrels play in preserving Rajput heroic traditions?",
+    "How were women depicted in Rajput heroic narratives and rituals like sati?",
+    "Explain how British administration defined the region of Rajputana in the nineteenth century.",
+    "Analyze the emotional and social impact of Rajput hero stories on ordinary people."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define_heroic_ideals",
+     "explain": "Rajput rulers cherished martial valour, choosing death on the battlefield rather than facing defeat."
+    },
+    {
+     "step": 2,
+     "action": "explain_transmission_by_minstrels",
+     "explain": "Specially trained minstrels recorded and recited heroic exploits in poems and songs to inspire future generations."
+    },
+    {
+     "step": 3,
+     "action": "describe_depiction_of_women",
+     "explain": "Narratives depicted women following heroic spouses in life and death, including practices like immolation on funeral pyres."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.4",
+   "title": "Evolution of Kathak Dance and Court Traditions",
+   "section": "Beyond Regional Frontiers: The Story of Kathak",
+   "definition": "The historical development of Kathak from temple narrative storytelling in northern India into a classical dance style nurtured in Mughal courts and regional gharanas.",
+   "formula": "none",
+   "key_idea": "Kathak shifted from temple storytellers to Mughal and regional courtly art, forming distinct Jaipur and Lucknow gharanas.",
+   "textbook_ref": "gess107.txt lines 127-175",
+   "question_patterns": [
+    "Trace the historical evolution of Kathak from temple storytellers to court performance.",
+    "How did the Bhakti movement and Radha-Krishna legends influence Kathak dance?",
+    "Contrast the two main gharanas of Kathak formed in Jaipur and Lucknow.",
+    "What contribution did Wajid Ali Shah make to the development of Kathak in Awadh?",
+    "How did Kathak survive administrative disfavour during British rule to become a classical dance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace_etymology_and_origins",
+     "explain": "Kathak derives from kathaa (story), originating with temple storytellers who enhanced narratives with music and movement."
+    },
+    {
+     "step": 2,
+     "action": "analyze_bhakti_and_court_impact",
+     "explain": "Bhakti legends of Radha-Krishna inspired rasa lila folk plays, which were later refined into sophisticated court dance under Mughals."
+    },
+    {
+     "step": 3,
+     "action": "identify_gharanas_and_patronage",
+     "explain": "The dance developed two regional styles (gharanas) in Jaipur and Lucknow, flowering under Wajid Ali Shah in Awadh."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.5",
+   "title": "Classification of Classical Dance Forms",
+   "section": "Classical Dances",
+   "definition": "The formal recognition of stylized Indian performing arts requiring rigorous training, adherence to established rules, and deep regional roots.",
+   "formula": "none",
+   "key_idea": "Classical dance status is defined by structured rules and extensive practice, represented across various states of India.",
+   "textbook_ref": "gess107.txt lines 177-210",
+   "question_patterns": [
+    "Name the major classical dance forms recognized in India and their associated states.",
+    "What criteria and characteristics define a dance form as classical in Indian culture?",
+    "Which classical dance tradition originated in Kerala according to cultural history?",
+    "How do classical dance forms differ from or overlap with regional folk dances?",
+    "State the geographic origin of Kuchipudi, Manipuri, and Bharatanatyam."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list_recognized_dance_forms",
+     "explain": "Key classical dances include Bharatanatyam (Tamil Nadu), Kathakali (Kerala), Odissi (Odisha), Kuchipudi (Andhra Pradesh), and Manipuri (Manipur)."
+    },
+    {
+     "step": 2,
+     "action": "explain_defining_criteria",
+     "explain": "Classical arts involve structured rule systems, formal master-disciple training, and complex aesthetic techniques."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.6",
+   "title": "Tradition of Miniature Painting",
+   "section": "Painting for Patrons: The Tradition of Miniatures",
+   "definition": "The creation of small-scale detailed artwork on palm leaf, paper, or cloth, expanding from Mughal court manuscript illustrations to regional styles like Basohli and Kangra.",
+   "formula": "none",
+   "key_idea": "The dispersal of Mughal court painters gave rise to distinct regional schools of miniature art in Rajasthan and the Himalayan foothills.",
+   "textbook_ref": "gess107.txt lines 212-270",
+   "question_patterns": [
+    "What are the main features of miniature paintings produced under Mughal patrons?",
+    "Describe the bold style of Basohli painting and its famous text Bhanudatta Rasamanjari.",
+    "How did Nadir Shah invasion of Delhi lead to the establishment of the Kangra school of painting?",
+    "What characteristics distinguish Kangra miniature painting from other styles?",
+    "Which materials were used for early miniature paintings before paper and cloth became common?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe_mughal_miniatures",
+     "explain": "Mughal miniatures portrayed court, hunting, and battle scenes using vivid colors on paper or cloth."
+    },
+    {
+     "step": 2,
+     "action": "explain_migration_to_hills",
+     "explain": "Artists fleeing Nadir Shah's 1739 invasion of Delhi moved to the Punjab hills, founding the Kangra school."
+    },
+    {
+     "step": 3,
+     "action": "highlight_kangra_features",
+     "explain": "Kangra style absorbed soft blues and greens and was deeply inspired by lyrical central themes from Vaishnavite traditions."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.7",
+   "title": "Evolution of Bengali Language and Literature",
+   "section": "Growth of a Regional Language: Bengal",
+   "definition": "The historical evolution of Bengali from Sanskrit and non-Sanskritic roots into a unified regional language with both formal written epics and oral folk literature.",
+   "formula": "none",
+   "key_idea": "Bengali literature comprises Sanskritic works like Mangalakavyas and non-Sanskritic oral traditions like Nath literature.",
+   "textbook_ref": "gess107.txt lines 272-330",
+   "question_patterns": [
+    "How did the Bengali language evolve from Sanskrit and local dialects over centuries?",
+    "Differentiate between the two main categories of early Bengali literature.",
+    "What are Mangalakavyas and what themes do they portray in Bengali tradition?",
+    "Explain the significance of Nath literature including the songs of Maynamati and Gopichandra.",
+    "Why were non-Sanskritic oral folk tales in Bengal not committed to writing early on?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace_linguistic_evolution",
+     "explain": "Bengali developed through Sanskrit influence following Gupta rule, absorbing local tribal terms, Persian, and European words."
+    },
+    {
+     "step": 2,
+     "action": "categorize_literature",
+     "explain": "Literature split into Sanskritic translations/Mangalakavyas and non-Sanskritic oral Nath songs and folk tales."
+    },
+    {
+     "step": 3,
+     "action": "explain_oral_transmission",
+     "explain": "Non-Sanskritic tales circulated orally among lower caste groups where Brahmanical influence was weak, leaving fewer dated manuscripts."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.8",
+   "title": "Cult of Pirs and Bengali Temple Architecture",
+   "section": "Pirs and Temples",
+   "definition": "The emergence of spiritual community leaders (Pirs) during agrarian expansion in eastern Bengal, combined with the construction of decorated terracotta temples featuring double-roofed or four-roofed structures.",
+   "formula": "none",
+   "key_idea": "Emerging social groups and local patrons constructed dochala and chauchala terracotta temples to assert status and religious devotion.",
+   "textbook_ref": "gess107.txt lines 332-400",
+   "question_patterns": [
+    "Who were the Pirs in medieval Bengal and what role did they play in new agrarian settlements?",
+    "Explain the architectural features of double-roofed dochala and four-roofed chauchala temples in Bengal.",
+    "Why did low social groups like Kolu and Kansari build terracotta temples in Bengal?",
+    "How did local thatched hut designs influence Bengali temple architecture?",
+    "Describe the terracotta art decorations found on temples in Vishnupur, Bankura district."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define_role_of_pirs",
+     "explain": "Pirs were respected community leaders, saints, or deities who offered social stability and guidance in newly cleared agrarian frontiers."
+    },
+    {
+     "step": 2,
+     "action": "analyze_architectural_styles",
+     "explain": "Temples mimicked village thatched roofs, evolving into two-roofed (dochala) and four-roofed (chauchala) terracotta structures."
+    },
+    {
+     "step": 3,
+     "action": "explain_social_mobility",
+     "explain": "Lower caste groups like Kolu (oil pressers) and Kansari (bell metal workers) financed temples to display their rising socio-economic standing."
+    }
+   ]
+  },
+  {
+   "id": "gess.107.9",
+   "title": "Regional Diet and Religious Relaxation: Fish in Bengal",
+   "section": "Fish as Food",
+   "definition": "The adaptation of religious dietary guidelines to local ecology in Bengal, where religious texts explicitly permitted Brahmanas to consume specific fish varieties.",
+   "formula": "none",
+   "key_idea": "Abundance of fish in Bengal's riverine environment prompted regional Brahmanical texts to grant explicit exemptions for fish consumption.",
+   "textbook_ref": "gess107.txt lines 402-430",
+   "question_patterns": [
+    "Why did Brahmanical authorities in Bengal relax strict vegetarian dietary rules for local Brahmanas?",
+    "Which thirteenth-century Sanskrit text permitted Bengal Brahmanas to consume fish?",
+    "How is the importance of fish in Bengal culture reflected in temple terracotta plaques?",
+    "Explain the relationship between riverine geography and dietary habits in Bengal.",
+    "What evidence shows that fishing was a primary economic activity in historical Bengal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_geographical_influence",
+     "explain": "Bengal is a riverine plain with abundant rice and fish, making fish a dietary staple across social strata."
+    },
+    {
+     "step": 2,
+     "action": "explain_religious_sanction",
+     "explain": "The Brihaddharma Purana, a 13th-century Sanskrit text, granted Bengal Brahmanas permission to eat specific fish species."
+    },
+    {
+     "step": 3,
+     "action": "note_artistic_evidence",
+     "explain": "Terracotta relief plaques on temples depict fish being dressed and brought to market, proving its cultural centrality."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess107.txt lines 52-85",
+   "concept": "gess.107.2",
+   "question_type": "historical_explanation",
+   "question_pattern": "Why did conquerors like the Mughals, Marathas, and East India Company seek control over the Jagannatha temple at Puri?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_religious_and_political_significance",
+     "explain": "The Jagannatha temple at Puri was not only a major pilgrimage destination but also an influential center of local social and political authority."
+    },
+    {
+     "step": 2,
+     "action": "analyze_legitimacy_strategy",
+     "explain": "Successive conquerors believed that gaining control over this sacred shrine would make their political rule acceptable to the local populace."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess107.txt lines 127-175",
+   "concept": "gess.107.4",
+   "question_type": "cultural_synthesis",
+   "question_pattern": "How did the Bhakti movement and royal court patronage reshape Kathak into a classical dance form?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain_bhakti_influence",
+     "explain": "The Bhakti movement popularized legends of Radha and Krishna through folk enactments known as rasa lila, which combined folk dance with narrative gestures."
+    },
+    {
+     "step": 2,
+     "action": "explain_court_refinement",
+     "explain": "Under Mughal rulers and later Awadh Nawab Wajid Ali Shah, Kathak developed intricate footwork, expressive story enactment, and distinct regional gharanas."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess107.txt lines 240-270",
+   "concept": "gess.107.6",
+   "question_type": "art_history_analysis",
+   "question_pattern": "Explain how political instability in Delhi led to the emergence of the Kangra school of miniature painting.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify_trigger_event",
+     "explain": "Nadir Shah's invasion and sack of Delhi in 1739 created severe instability in the plains."
+    },
+    {
+     "step": 2,
+     "action": "trace_artist_migration",
+     "explain": "Mughal court painters migrated to the Himalayan foothills in modern Himachal Pradesh to seek shelter and stable patronage."
+    },
+    {
+     "step": 3,
+     "action": "describe_artistic_outcome",
+     "explain": "This migration resulted in the establishment of the Kangra school, defined by soft colors, lyrical themes, and Vaishnavite spiritual inspiration."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess107.txt lines 332-400",
+   "concept": "gess.107.8",
+   "question_type": "architectural_analysis",
+   "question_pattern": "How did local architectural traditions and social mobility shape temple construction in Bengal?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain_structural_style",
+     "explain": "Bengali builders copied traditional thatched hut shapes, creating double-roofed (dochala) and four-roofed (chauchala) terracotta temples."
+    },
+    {
+     "step": 2,
+     "action": "analyze_social_patronage",
+     "explain": "Emerging economic groups like Kolu (oil pressers) and Kansari (bell metal workers) financed these temples to assert higher social standing."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex107.1",
+   "source_ref": "gess107.txt line 433",
+   "questions": [
+    "Match the following: Anantavarman (Kerala/Orissa), Jagannatha (Bengal/Puri), Mahodayapuram (Kerala), Kangra (Himachal Pradesh), Mangalakavya (Bengal), Miniature (Paintings)."
+   ]
+  },
+  {
+   "id": "ex107.2",
+   "source_ref": "gess107.txt line 440",
+   "questions": [
+    "State clearly what manipravalam means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex107.3",
+   "source_ref": "gess107.txt line 442",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about patrons."
+   ]
+  },
+  {
+   "id": "ex107.4",
+   "source_ref": "gess107.txt line 444",
+   "questions": [
+    "State clearly what architectural means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex107.5",
+   "source_ref": "gess107.txt line 447",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of achievements described here."
+   ]
+  },
+  {
+   "id": "ex107.6",
+   "source_ref": "gess107.txt line 449",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of practices described here."
+   ]
+  },
+  {
+   "id": "ex107.7",
+   "source_ref": "gess107.txt line 452",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of conquerors described here."
+   ]
+  },
+  {
+   "id": "ex107.8",
+   "source_ref": "gess107.txt line 454",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of temples described here."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_008",
+   "title": "c11_bs_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define outsourcing and distinguish it from merely hiring a temporary worker for a short-term task.",
+     "a": "Outsourcing is a long-term contractual arrangement where an external vendor assumes operational responsibility and management control for an entire business process (e.g., payroll processing), not just providing labor. A temporary worker performs tasks under the firm's direct supervision and control for a limited duration. A wrong answer that equates outsourcing with temporary staffing reveals the student misses the transfer of process ownership and management control—the vendor manages the 'how', not just the 'what'.",
+     "self_check": true
+    },
+    {
+     "q": "A Mumbai-based IT firm outsources its cafeteria management to a catering company. The IT firm's CEO argues this is outsourcing a non-core activity. The CFO counters that cafeteria quality directly affects employee satisfaction and retention, so it's actually core. Evaluate both positions using the core-competency framework.",
+     "a": "The CEO is correct: core competency refers to activities that create unique competitive advantage in the market (software development for an IT firm). Cafeteria management, while important for employee welfare, does not differentiate the firm in the software market—it's a support function. The CFO confuses 'important' with 'core'. A wrong answer siding with the CFO reveals misunderstanding that core competency is about market-facing differentiation, not internal importance.",
+     "self_check": true
+    },
+    {
+     "q": "A Gurugram-based e-commerce company outsources its last-mile delivery to a logistics provider. List three specific benefits this company gains, and for each benefit, explain the mechanism by which it is achieved (e.g., how exactly does cost reduction happen?).",
+     "a": "1. **Cost Reduction**: Achieved through logistics provider's economies of scale (consolidating deliveries for multiple clients), route optimization algorithms, and avoiding capital expenditure on fleet/warehouses.\n2. **Focus on Core Competency**: Management bandwidth shifts from delivery operations (tracking, vehicle maintenance, driver hiring) to merchandising, platform UX, and seller acquisition.\n3. **Scalability**: During Diwali sale surge, the logistics provider instantly scales capacity using their network; the e-commerce firm avoids fixed costs of idle fleet during lean months.\nA wrong answer listing generic benefits without mechanisms (e.g., just 'saves money') reveals superficial understanding—the student cannot explain the structural economic drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the limitation of 'loss of control' in outsourcing. Compare how this manifests differently for (a) a manufacturing firm outsourcing component production vs. (b) a bank outsourcing customer call center operations.",
+     "a": "(a) **Manufacturing**: Loss of control over production quality, timelines, and proprietary process knowledge. The vendor may use sub-standard materials or leak designs to competitors. Control is exercised through SLAs, audits, and quality gates at receiving dock.\n(b) **Bank Call Center**: Loss of control over customer interaction quality, data privacy (KYC details), and brand voice. A rude agent damages the bank's reputation directly. Control is exercised through call monitoring, script adherence metrics, and strict data access protocols.\nThe key difference: manufacturing control is about product specifications; call center control is about real-time human interaction and data sensitivity. A wrong answer treating both identically misses the process-nature distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"Outsourcing always reduces costs for the client firm.\" Critique this statement using the concept of hidden costs and transaction cost economics. Provide two specific hidden costs that can make outsourcing more expensive than in-house operations.",
+     "a": "The statement is false. Hidden costs include: (1) **Contracting and Monitoring Costs**: Drafting detailed SLAs, legal fees, ongoing vendor performance audits, and relationship management staff. (2) **Transition and Switching Costs**: Knowledge transfer during handover, dual-running period expenses, and the prohibitive cost of bringing the process back in-house or switching vendors (asset specificity). If these exceed the vendor's economies of scale advantage, outsourcing increases total cost. A wrong answer agreeing with the statement reveals ignorance of transaction cost economics—the student only sees the vendor's invoice price, not the full governance cost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision framework (as a checklist of 5 yes/no questions) that a Class 11 student could use to evaluate whether a specific business activity in their family business should be outsourced. The framework must incorporate at least two benefits and two limitations from the syllabus.",
+     "a": "**Outsourcing Decision Checklist for Family Business:**\n1. Is this activity **non-core** (does it NOT directly create our unique competitive advantage)? [Benefit: Focus on Core Competency]\n2. Can a specialized vendor perform it **significantly better/cheaper** due to their scale/expertise? [Benefit: Access to Expertise/Economies of Scale]\n3. Does outsourcing this **expose critical proprietary data or trade secrets** to unacceptable risk? [Limitation: Confidentiality Risk]\n4. Can we **effectively monitor and measure** the vendor's performance with clear metrics? [Limitation: Loss of Control mitigation]\n5. Are the **total costs** (vendor fee + contract management + transition) lower than in-house costs over 3 years? [Benefit/Limitation: Cost Reduction vs Hidden Costs]\nA good answer structures the trade-offs explicitly. A poor answer lists generic questions like 'Is it cheap?' showing inability to operationalize syllabus concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

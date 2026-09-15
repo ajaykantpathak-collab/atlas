@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_2",
+   "title": "c9_math_ch6_2",
+   "questions": [
+    {
+     "q": "State the formula for the circumference of a circle in terms of its radius \\(r\\) and explain what each symbol represents.",
+     "a": "The formula is \\(C = 2\\pi r\\), where \\(C\\) is the circumference, \\(r\\) is the radius, and \\(\\pi\\) (pi) is the constant ratio of circumference to diameter. A wrong answer (e.g., \\(C = \\pi r\\) or \\(C = \\pi r^2\\)) reveals confusion between the circumference formula and the area formula, or forgetting the factor of 2 that comes from diameter = 2 × radius.",
+     "self_check": true
+    },
+    {
+     "q": "Why is \\(\\pi\\) called an irrational number? If a student says \"\\(\\pi = 22/7\\) exactly\", what is wrong with that statement?",
+     "a": "\\(\\pi\\) is irrational because it cannot be expressed as a ratio of two integers \\(p/q\\); its decimal expansion is non-terminating and non-repeating. \\(22/7\\) is only a rational approximation (≈ 3.142857) that repeats, whereas the true \\(\\pi\\) ≈ 3.1415926535... never repeats. A student who says \"\\(\\pi = 22/7\\) exactly\" confuses a convenient approximation with the actual irrational constant, a common Class 9 board-level error.",
+     "self_check": true
+    },
+    {
+     "q": "A circular running track has a diameter of 100 m. Find the distance covered by an athlete who runs 3 complete rounds. Use \\(\\pi = 3.14\\).",
+     "a": "Step 1: Radius \\(r = d/2 = 100/2 = 50\\) m.\nStep 2: Circumference for one round \\(C = 2\\pi r = 2 \\times 3.14 \\times 50 = 314\\) m.\nStep 3: Distance for 3 rounds \\(= 3 \\times 314 = 942\\) m.\nAnswer: 942 m. A wrong answer (e.g., using \\(C = \\pi r\\) gives 471 m for one round) shows the student forgot the factor of 2 or used diameter directly without halving.",
+     "self_check": true
+    },
+    {
+     "q": "The circumference of a circle is 44 cm. Find its radius using \\(\\pi = 22/7\\). Then explain why the radius would be slightly different if you used \\(\\pi = 3.14\\) instead.",
+     "a": "Given \\(C = 44\\) cm, \\(\\pi = 22/7\\).\n\\(C = 2\\pi r \\Rightarrow 44 = 2 \\times \\frac{22}{7} \\times r \\Rightarrow 44 = \\frac{44}{7} r \\Rightarrow r = 44 \\times \\frac{7}{44} = 7\\) cm.\nIf \\(\\pi = 3.14\\), then \\(44 = 2 \\times 3.14 \\times r \\Rightarrow r = \\frac{44}{6.28} \\approx 7.006\\) cm.\nThe difference arises because \\(22/7 \\approx 3.142857 \\neq 3.14\\); both are approximations of the true irrational \\(\\pi\\). A student who says the radius is exactly the same for both approximations does not grasp that \\(\\pi\\) is irrational and its approximations differ.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Circumference = 88 cm, find diameter.\" Their working: \\(88 = \\pi d \\Rightarrow d = 88/\\pi\\). They wrote \\(d = 88/3.14 = 28.02\\) cm. Is this correct? If not, identify the error and give the correct diameter using \\(\\pi = 22/7\\).",
+     "a": "The method is correct but the approximation choice matters for board exams. Using \\(\\pi = 22/7\\): \\(d = 88 / (22/7) = 88 \\times 7/22 = 28\\) cm exactly. The student's answer 28.02 cm is an approximation due to using 3.14. In board exams, when numbers are chosen to work neatly with \\(22/7\\) (88 is a multiple of 22), using \\(22/7\\) gives an exact integer answer. A student who doesn't recognize which approximation to use for exactness loses marks for not simplifying properly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where you need to find the circumference of a circle, but the given measurement is the area of the circle. Write the full problem statement and outline the steps to solve it without doing the final calculation.",
+     "a": "Example problem: \"A circular garden has an area of 616 m². Find the cost of fencing it at ₹50 per metre. (Use \\(\\pi = 22/7\\))\"\nSteps: 1. Use area formula \\(A = \\pi r^2\\) to find \\(r\\). 2. Substitute \\(A = 616\\), \\(\\pi = 22/7\\), solve for \\(r\\). 3. Use \\(r\\) to find circumference \\(C = 2\\pi r\\). 4. Multiply \\(C\\) by cost per metre (₹50) to get total cost. A poor answer would skip the area-to-radius step or confuse area and circumference formulas, showing inability to connect two circle concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

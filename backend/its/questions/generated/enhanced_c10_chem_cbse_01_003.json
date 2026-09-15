@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_003",
+   "title": "c10_chem_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define a combination reaction and give the general symbolic representation. Provide one example with a balanced chemical equation including physical states.",
+     "a": "A combination reaction is a reaction where two or more substances combine to form a single product. General form: A + B → AB. Example: 2Mg(s) + O₂(g) → 2MgO(s).  \n**Wrong answer insight:** If a student writes \"A + B → C + D\" or gives an example like 2H₂O → 2H₂ + O₂, they confuse combination with decomposition. If they omit physical states, they lose board exam marks (1 mark for states in 3-marker questions).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the reaction CaO(s) + H₂O(l) → Ca(OH)₂(aq) classified as a combination reaction, even though one reactant is a compound and the product is a solution? Explain the criterion that defines the reaction type.",
+     "a": "It is a combination reaction because two distinct reactants (calcium oxide and water) combine to form only ONE product (calcium hydroxide). The physical state of the product (aqueous) does not change the fact that a single compound is formed from two reactants. The defining criterion is the number of products (exactly one), not the states or complexity of reactants.  \n**Wrong answer insight:** If a student says \"because it produces heat\" or \"because CaO is a solid and water is liquid\", they focus on energy or states instead of the stoichiometric pattern. This reveals they memorize examples without understanding the classification rule.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following combination reaction and identify the type of each reactant (element/compound):  \nFe(s) + S(s) → FeS(s)  \nThen, if 56 g of iron reacts with 32 g of sulphur, calculate the mass of iron(II) sulphide formed. (Atomic masses: Fe=56, S=32)",
+     "a": "**Step 1:** Identify reactants: Fe (element), S (element). Product: FeS (compound).  \n**Step 2:** Balance atoms: 1 Fe on left, 1 Fe on right; 1 S on left, 1 S on right. Equation is already balanced: Fe(s) + S(s) → FeS(s).  \n**Step 3:** Molar masses: Fe = 56 g/mol, S = 32 g/mol, FeS = 88 g/mol.  \n**Step 4:** Moles of Fe = 56/56 = 1 mol; moles of S = 32/32 = 1 mol. Stoichiometric ratio 1:1, so neither is limiting.  \n**Step 5:** 1 mol FeS formed = 88 g.  \n**Answer:** Balanced equation: Fe(s) + S(s) → FeS(s). Mass of FeS = 88 g.  \n**Wrong answer insight:** If a student writes Fe + S → FeS₂ (wrong formula) or calculates 56+32=88 g without checking limiting reagent, they miss the law of conservation of mass application. If they don't identify reactant types, they haven't mastered classification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions:  \n(A) 2H₂(g) + O₂(g) → 2H₂O(l)  \n(B) NH₃(g) + HCl(g) → NH₄Cl(s)  \n(C) 2KClO₃(s) → 2KCl(s) + 3O₂(g)  \nWhich are combination reactions? Justify by analyzing the number of reactants and products in each.",
+     "a": "(A) and (B) are combination reactions. (C) is a decomposition reaction.  \n**Analysis:**  \n- (A) Two reactants (H₂, O₂) → one product (H₂O).  \n- (B) Two reactants (NH₃, HCl) → one product (NH₄Cl).  \n- (C) One reactant (KClO₃) → two products (KCl, O₂).  \nThe key pattern: combination reactions ALWAYS have multiple reactants and exactly ONE product.  \n**Wrong answer insight:** If a student includes (C) because \"it has oxygen\", they confuse reactants with products. If they exclude (B) because \"both reactants are compounds\", they think combination only applies to elements. This shows inability to generalize the definition.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation for the reaction of ammonia with hydrogen chloride as:  \nNH₃ + HCl → NH₄Cl  \nand states: \"This is not a combination reaction because no element is involved.\" Evaluate this statement and correct the error.",
+     "a": "The statement is **incorrect**. The reaction NH₃(g) + HCl(g) → NH₄Cl(s) **is** a combination reaction. The definition requires two or more reactants forming a single product — it does NOT require reactants to be elements. Here, two compounds (ammonia and hydrogen chloride) combine to form one compound (ammonium chloride).  \n**Correction:** Combination reactions include: element+element, element+compound, compound+compound.  \n**Wrong answer insight:** This is the most common Class 10 board exam misconception. Students memorize \"element + element → compound\" as the only pattern. They lose 1-2 marks in \"identify the reaction type\" questions when given compound+compound examples.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity to demonstrate a combination reaction using materials available in a school lab. Write the balanced chemical equation, list observations, and state one safety precaution.",
+     "a": "**Activity:** Burning a magnesium ribbon in air.  \n**Materials:** Magnesium ribbon (2 cm), tongs, Bunsen burner, watch glass.  \n**Procedure:** Hold Mg ribbon with tongs, ignite in burner flame, collect white ash on watch glass.  \n**Equation:** 2Mg(s) + O₂(g) → 2MgO(s)  \n**Observations:** (1) Intense white flame (blinding), (2) Ribbon burns completely, (3) White powdery ash (MgO) formed, (4) Mass of ash > mass of ribbon (oxygen added).  \n**Safety:** Do not look directly at the flame (UV light damages eyes); use dark glasses or view indirectly.  \n**Poor answer insight:** If a student suggests \"mixing acid and base\" (neutralization, double displacement) or \"heating copper sulphate\" (decomposition), they cannot distinguish reaction types. If they omit safety, they ignore lab protocol — a practical exam requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

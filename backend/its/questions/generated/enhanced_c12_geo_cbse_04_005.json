@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_005",
+   "title": "c12_geo_cbse_04_005",
+   "questions": [
+    {
+     "q": "What are the six population size classes used by the Census of India to classify urban settlements, and what is the population range for Class III towns?",
+     "a": "The six classes are: Class I (≥100,000), Class II (50,000–99,999), Class III (20,000–49,999), Class IV (10,000–19,999), Class V (5,000–9,999), Class VI (<5,000). Class III range is 20,000–49,999. A wrong answer (e.g., swapping Class II and III ranges) reveals the student has memorised the classes out of order or confuses the thresholds — a common error because the intervals are not uniform (50k, 30k, 10k, 5k, 5k). Always list classes in descending order of population to avoid this.",
+     "self_check": true
+    },
+    {
+     "q": "A town has a population of 48,500 according to the 2011 Census. Which size class does it belong to? If its population grows to 52,000 by 2021 (hypothetical), how does its classification change, and what does this shift imply for its administrative status and resource allocation?",
+     "a": "At 48,500 it is Class III (20,000–49,999). At 52,000 it becomes Class II (50,000–99,999). The shift moves it up one rung in the urban hierarchy: it may qualify for a municipal council instead of a nagar panchayat, become eligible for higher-tier central government schemes (e.g., AMRUT vs. Smart Cities), and attract more private investment. A wrong answer that keeps it in Class III or jumps to Class I shows misunderstanding of threshold boundaries and the administrative significance of crossing the 50,000 mark.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2011 Census data below, calculate the percentage of India's total urban population living in Class I towns. Show your working.\n\n| Size Class | Number of Towns | Urban Population (millions) |\n|------------|-----------------|-----------------------------|\n| Class I    | 468             | 264.9                       |\n| Class II   | 498             | 34.5                        |\n| Class III  | 1,376           | 42.1                        |\n| Class IV   | 1,560           | 22.8                        |\n| Class V    | 1,056           | 7.6                         |\n| Class VI   | 286             | 0.9                         |\n| **Total**  | **5,244**       | **372.8**                   |",
+     "a": "Step 1: Identify total urban population = 372.8 million. Step 2: Identify Class I urban population = 264.9 million. Step 3: Percentage = (264.9 / 372.8) × 100 = 71.05%. Step 4: Interpret — over 71% of urban Indians live in just 468 Class I towns, showing extreme top-heaviness. A wrong answer using number of towns (468/5244 ≈ 8.9%) confuses town count with population share — a classic trap. Always check whether the question asks for share of towns or share of population.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urban size-class distribution of India (2011) with that of a developed country like the USA (where the largest cities hold a smaller share of urban population). What does India's top-heavy distribution (71% in Class I) indicate about its urbanisation pattern, and what are two consequences for regional planning?",
+     "a": "India's distribution is primate/primacy-dominated: a few very large cities (Class I, especially mega cities) concentrate population, economic activity, and infrastructure, while smaller towns (Class IV–VI) are numerous but weak. Consequences: (1) Massive pressure on mega-city infrastructure (housing, water, transport) leading to slums and congestion; (2) Neglect of small and medium towns that could act as growth poles for rural hinterlands, worsening rural-urban migration. A wrong answer that calls this \"balanced urbanisation\" or ignores the primacy pattern misses the core structural issue — India's urbanisation is metro-centric, not dispersed.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Class VI towns (<5,000 population) are not really urban; they should be reclassified as rural.\" Use Census criteria and functional arguments.",
+     "a": "The statement is flawed. Census defines urban areas by three criteria: (a) minimum population 5,000, (b) ≥75% male main workers in non-agricultural activities, (c) density ≥400 persons/km². Class VI towns meet (b) and (c) but fall just below (a) — they are \"census towns\" that have urban economic character (non-farm workforce) but small size. Reclassifying them as rural would strip them of urban governance (municipalities), planning norms, and scheme eligibility, even though they function as market centres, service hubs, or industrial nodes for surrounding villages. A good critique acknowledges the threshold arbitrariness but defends the functional basis. A wrong answer agrees with the statement, ignoring the non-agricultural workforce criterion that distinguishes them from villages.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple policy intervention to strengthen Class II and III towns (50,000–99,999 and 20,000–49,999) so they can absorb migration pressure from mega cities. Your proposal must specify: (a) one infrastructure investment, (b) one governance reform, (c) one economic incentive, and (d) a measurable target for 2031.",
+     "a": "(a) Infrastructure: Develop a ring-road + multimodal logistics hub (rail/road) in each Class II/III town to reduce transport costs for MSMEs. (b) Governance: Upgrade all Class II towns to Municipal Corporations (currently many are Municipal Councils) with directly elected mayors and 5-year plans. (c) Economic: 10-year property tax holiday + subsidised industrial power for new manufacturing units employing >100 workers. (d) Target: Raise combined Class II+III share of urban population from 20.5% (2011) to 28% by 2031, and reduce Class I share from 71% to 60%. A poor answer proposes generic \"smart city\" tags without size-class specificity or measurable targets — shows inability to translate hierarchy into policy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

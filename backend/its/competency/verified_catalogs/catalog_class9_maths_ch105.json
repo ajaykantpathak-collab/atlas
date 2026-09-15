@@ -1,0 +1,810 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "I'm Up and Down, and Round and Round",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh105.txt",
+ "concepts": [
+  {
+   "id": "iemh.105.1",
+   "title": "Definition and Basic Properties of a Circle",
+   "section": "5.1",
+   "definition": "Mark every spot that sits one fixed gap away from a chosen mid-point; the round curve so formed is called a circle. Name that middle spot the centre, with the fixed gap as the radius.",
+   "formula": "diameter = 2 * radius",
+   "key_idea": "One fixed gap out of the mid-point explains the whole shape.",
+   "textbook_ref": "iemh105.txt lines 30-60",
+   "question_patterns": [
+    "If the radius is 7 cm, state the diameter.",
+    "Calculate the diameter of a circle whose radius is 5.5 cm.",
+    "How does the width across a circle compare with its radius?",
+    "Double the radius of 9 cm - what do you get?",
+    "The radius grew from 4 cm to 10 cm; by how much did the full width grow?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply radius by two",
+     "explain": "The full width across is twice the radius.",
+     "compute": "diameter = 2 * radius"
+    },
+    {
+     "step": 2,
+     "action": "Identify the centre and radius",
+     "explain": "The centre is the fixed mid-point and the radius is the constant gap from centre to any point on the curve.",
+     "compute": "radius = diameter / 2"
+    },
+    {
+     "step": 3,
+     "action": "State the relationship",
+     "explain": "Every chord through the centre is a diameter and equals twice the radius, confirming the defining property of the circle."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.2",
+   "title": "Circumcircle of a Triangle",
+   "section": "5.3",
+   "definition": "Through any three spots that are not lined up, exactly one round curve can pass.",
+   "formula": "OA = OB = OC",
+   "key_idea": "The side bisectors (drawn square to their sides) meet where the curve's centre sits.",
+   "textbook_ref": "iemh105.txt lines 90-130",
+   "question_patterns": [
+    "Show that exactly one round curve passes through three spots that are not lined up.",
+    "Construct the curve through the corners of a triangle.",
+    "Explain how the side bisectors locate the curve's centre.",
+    "Where does the centre sit for an acute triangle? And for an obtuse one?",
+    "Draw a triangle and verify that its three corners sit at one gap from the centre."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the centre",
+     "explain": "Find the point O where the right-angle bisectors of two sides meet."
+    },
+    {
+     "step": 2,
+     "action": "Verify equal reach",
+     "explain": "Show that O sits at the same gap from each corner A, B and C."
+    },
+    {
+     "step": 3,
+     "action": "Draw the circumcircle",
+     "explain": "With O as centre and the common gap as radius, the round curve through A, B and C is the unique circumcircle."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.3",
+   "title": "Central Angles Subtended by Chords",
+   "section": "5.4",
+   "definition": "Chords of matching size pull equal corners out of the mid-point.",
+   "formula": "angle_1 = angle_2",
+   "key_idea": "Same size chord, same size centre-facing angle - and it works backwards too.",
+   "textbook_ref": "iemh105.txt lines 145-185",
+   "question_patterns": [
+    "Show that matching chords make matching angles at the centre.",
+    "Prove the converse: chords facing equal central angles are equal.",
+    "Verify the claim for two chords of length 6 cm in one curve.",
+    "Draw two equal chords and measure the angles they make at the centre.",
+    "Justify the matching-angle claim using congruent triangles."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form two triangles",
+     "explain": "Join both chords' ends to the centre O to build two triangles."
+    },
+    {
+     "step": 2,
+     "action": "Apply SSS congruence",
+     "explain": "Two sides are radii and the third sides are equal chords, so the triangles match by SSS."
+    },
+    {
+     "step": 3,
+     "action": "Conclude equal central angles",
+     "explain": "Corresponding parts of congruent triangles are equal, so the central angles subtended by equal chords are equal, and the converse holds by the same argument."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.4",
+   "title": "Chord Length from Radius and Distance from Centre",
+   "section": "5.5",
+   "definition": "Drop a square-corner line from the mid-point down onto any chord and it cuts the chord into two matching halves.",
+   "formula": "chord_length = 2 * sqrt(radius**2 - distance**2)",
+   "key_idea": "The dropped line halves the chord; radius, half-chord and gap then make a right triangle.",
+   "textbook_ref": "iemh105.txt lines 190-230",
+   "question_patterns": [
+    "Find the chord whose radius is 13 cm and whose gap from the centre is 5 cm.",
+    "Calculate the length cut when a chord sits 9 cm from the centre of a 15 cm curve.",
+    "What is the full chord when its half is 12 cm?",
+    "Compute the chord of a 10 cm curve whose gap is 6 cm.",
+    "State the theorem that lets a dropped centre line halve a chord."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Half chord via the right triangle",
+     "explain": "Half the chord is a leg of a right triangle with the radius as the longest side.",
+     "compute": "half_chord = sqrt(radius**2 - distance**2)"
+    },
+    {
+     "step": 2,
+     "action": "Double the half",
+     "explain": "The dropped line halves the chord, so the full length is twice the half.",
+     "compute": "chord_length = 2 * half_chord"
+    },
+    {
+     "step": 3,
+     "action": "State the perpendicular-bisector theorem",
+     "explain": "The perpendicular from the centre to a chord always bisects it, which is why the right-triangle relation holds for every chord."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.5",
+   "title": "Radius of Circle from Chord Length and Distance",
+   "section": "5.6",
+   "definition": "Half a chord plus its gap out from the mid-point forms a right triangle; the radius plays the longest side.",
+   "formula": "radius = sqrt((chord_length / 2)**2 + distance**2)",
+   "key_idea": "Add the squares of half-chord and gap, then take the root, to recover the radius.",
+   "textbook_ref": "iemh105.txt lines 235-285",
+   "question_patterns": [
+    "Find the radius when a 16 cm chord sits 6 cm from the centre.",
+    "Calculate the radius for a 24 cm chord with a 5 cm gap.",
+    "What is the curve's size if half the chord is 12 cm and the gap is 9 cm?",
+    "Work out the radius from a 10 cm chord sitting 12 cm away.",
+    "Explain why the radius acts as the longest side in the chord triangle."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Halve the chord",
+     "explain": "The dropped line halves the chord.",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Radius from the right triangle",
+     "explain": "Radius squared is half-chord squared plus gap squared.",
+     "compute": "radius = sqrt(half_chord**2 + distance**2)"
+    },
+    {
+     "step": 3,
+     "action": "Confirm the radius as the longest side",
+     "explain": "The radius is the hypotenuse of the right triangle formed by the half-chord and the distance, so it is always longer than both the half-chord and the distance."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.6",
+   "title": "Angle Subtended by an Arc at Centre and Circumference",
+   "section": "5.7",
+   "definition": "The corner an arc makes at the middle spot is double the corner it makes at any other spot of the curve.",
+   "formula": "central_angle = 2 * inscribed_angle",
+   "key_idea": "Centre sees double: an on-curve angle is half the centre's angle.",
+   "textbook_ref": "iemh105.txt lines 290-340",
+   "question_patterns": [
+    "An arc makes a 70 degree corner at the centre; find the corner it makes on the curve.",
+    "Calculate the on-curve angle when the centre angle is 120 degrees.",
+    "What on-curve angle goes with a straight 180 degree centre angle?",
+    "The centre angle tripled; what happens to the on-curve angle?",
+    "State the centre-to-curve angle rule for a fixed arc."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Halve the centre angle",
+     "explain": "The on-curve angle is half the centre angle for the same arc.",
+     "compute": "inscribed_angle = central_angle / 2"
+    },
+    {
+     "step": 2,
+     "action": "Identify the arc and the chosen on-curve spot",
+     "explain": "The same arc subtends the central angle at the centre and the inscribed angle at any point on the remaining part of the curve."
+    },
+    {
+     "step": 3,
+     "action": "State the double-angle theorem",
+     "explain": "The angle at the centre is always twice the angle at the circumference subtended by the same arc, which is why halving the central angle gives the inscribed angle."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.7",
+   "title": "Angle in a Semicircle",
+   "section": "5.7.1",
+   "definition": "Wherever a spot sits on the round curve, the corner made across a full width (a diameter) comes out a right angle.",
+   "formula": "inscribed_angle = 90",
+   "key_idea": "Every width-crossing corner on the curve is 90 degrees.",
+   "textbook_ref": "iemh105.txt lines 345-365",
+   "question_patterns": [
+    "What is the corner made across a diameter at the curve?",
+    "Show that the corner in a half curve is a right angle.",
+    "A triangle pinned on the curve with one side a width: what type is the corner opposite that side?",
+    "Find the angle ACB when AB is a width and C sits on the curve.",
+    "Justify the right-angle claim with the centre-to-curve rule."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Spot the straight angle",
+     "explain": "A diameter makes a 180 degree angle at the centre."
+    },
+    {
+     "step": 2,
+     "action": "Halve it",
+     "explain": "The on-curve corner is half of 180, namely 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the right angle for any on-curve spot",
+     "explain": "Since the diameter is a straight angle at the centre, every point on the curve sees it as a 90 degree angle, giving a right-angled triangle regardless of where the point sits."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.8",
+   "title": "Concyclic Points and Angles in Same Segment",
+   "section": "5.8",
+   "definition": "Matching corners over the same base line, seen from two spots on one side of it, force all four spots onto a single round curve.",
+   "formula": "angle_1 = angle_2",
+   "key_idea": "Same-side matching angles over a fixed base mean the spots share a curve.",
+   "textbook_ref": "iemh105.txt lines 370-400",
+   "question_patterns": [
+    "Show that four spots with matching corners over one base, same side, sit on one curve.",
+    "Prove the concyclicity claim from the matching-angle condition.",
+    "Verify that A, B, X and Y share a curve given equal angles AXB and AYB.",
+    "Draw the case and check the matching-corner condition.",
+    "Explain why the side of the base matters in the claim."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Build the curve through three spots",
+     "explain": "One curve passes uniquely through the non-lined-up spots A, B and C."
+    },
+    {
+     "step": 2,
+     "action": "Rule out the fourth spot escaping",
+     "explain": "If the fourth spot sat off the curve, its corner would differ, contradicting the given equality."
+    },
+    {
+     "step": 3,
+     "action": "Conclude concyclicity",
+     "explain": "Since all four spots satisfy the equal-angle condition over the same base on the same side, they must lie on one common round curve, proving the four spots are concyclic."
+    }
+   ]
+  },
+  {
+   "id": "iemh.105.9",
+   "title": "Opposite Angles of a Cyclic Quadrilateral",
+   "section": "5.8",
+   "definition": "In a four-sided shape pinned on a round curve, each pair of facing corners adds up to 180 degrees.",
+   "formula": "opposite_angle = 180 - angle",
+   "key_idea": "Facing corners are supplements: add either pair and get 180.",
+   "textbook_ref": "iemh105.txt lines 405-440",
+   "question_patterns": [
+    "Find the corner facing a 75 degree corner in a pinned four-sided shape.",
+    "Calculate the missing facing corner when one is 110 degrees.",
+    "If angle P is (2x + 10) degrees and the facing angle R is (3x - 20) degrees, find x.",
+    "What do facing corners add to? State the reason.",
+    "Work out all four corners when two adjacent ones are 80 and 95 degrees."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract from 180",
+     "explain": "Facing corners of a pinned four-sided shape add to 180 degrees.",
+     "compute": "opposite_angle = 180 - angle"
+    },
+    {
+     "step": 2,
+     "action": "Identify the opposite corner pair",
+     "explain": "In a cyclic quadrilateral, each corner faces the one diagonally across, and the two together always sum to 180 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Verify the supplementary sum",
+     "explain": "Adding the two facing corners gives 180 degrees, confirming the cyclic quadrilateral property that opposite angles are supplementary."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh105.txt lines 445-452 (EOC Q1: radius 13, gap 5)",
+   "concept": "iemh.105.4",
+   "question_type": "compute",
+   "question_pattern": "In a circle, a chord is {distance} cm away from the centre. If the radius of the circle is {radius} cm, what is the length of the chord?",
+   "extracted_variables": {
+    "distance": "5",
+    "radius": "13"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half chord via the right triangle",
+     "explain": "sqrt(13^2 - 5^2) = sqrt(144) = 12.",
+     "compute": "half_chord = sqrt(radius**2 - distance**2)"
+    },
+    {
+     "step": 2,
+     "action": "Double the half",
+     "explain": "2 x 12 = 24 cm.",
+     "compute": "chord_length = 2 * half_chord"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh105.txt lines 445-452 (EOC Q2: centre angle 70)",
+   "concept": "iemh.105.6",
+   "question_type": "compute",
+   "question_pattern": "An arc of a circle subtends an angle of {central_angle} degrees at the centre. What is the measure of the angle subtended by the arc at a point on the circle?",
+   "extracted_variables": {
+    "central_angle": "70"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Halve the centre angle",
+     "explain": "70 / 2 = 35 degrees.",
+     "compute": "inscribed_angle = central_angle / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh105.txt lines 445-515 (EOC Q9: chord 16, gap 6)",
+   "concept": "iemh.105.5",
+   "question_type": "compute",
+   "question_pattern": "The distance of a chord of length {chord_length} cm from the centre of a circle is {distance} cm. Find the radius of the circle.",
+   "extracted_variables": {
+    "chord_length": "16",
+    "distance": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Halve the chord",
+     "explain": "16 / 2 = 8.",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Radius from the right triangle",
+     "explain": "sqrt(8^2 + 6^2) = sqrt(100) = 10 cm.",
+     "compute": "radius = sqrt(half_chord**2 + distance**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh105.txt lines 445-515 (EOC Q7: angle A 75)",
+   "concept": "iemh.105.9",
+   "question_type": "compute",
+   "question_pattern": "ABCD is a cyclic quadrilateral inscribed in a circle. If angle A measures {angle_A} degrees, what is the measure of angle C?",
+   "extracted_variables": {
+    "angle_A": "75"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract from 180",
+     "explain": "180 - 75 = 105 degrees.",
+     "compute": "angle_C = 180 - angle_A"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "authored; property anchored at iemh105.txt lines 30-60",
+   "concept": "iemh.105.1",
+   "question_type": "compute",
+   "question_pattern": "The radius of a circle is {radius} cm. State the diameter.",
+   "extracted_variables": {
+    "radius": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the radius",
+     "explain": "2 x 7 = 14 cm.",
+     "compute": "diameter = 2 * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "authored; property anchored at iemh105.txt lines 30-60",
+   "concept": "iemh.105.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the diameter of a circle whose radius is {radius} cm.",
+   "extracted_variables": {
+    "radius": "5.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the radius",
+     "explain": "2 x 5.5 = 11 cm.",
+     "compute": "diameter = 2 * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "iemh105.txt lines 445-515 (EOC Q4: radius 15, gap 9)",
+   "concept": "iemh.105.4",
+   "question_type": "compute",
+   "question_pattern": "A circle has a radius of {radius} cm. A chord is drawn; the gap from the centre is {distance} cm. What is the chord's length?",
+   "extracted_variables": {
+    "radius": "15",
+    "distance": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Half chord via the right triangle",
+     "explain": "sqrt(15^2 - 9^2) = sqrt(144) = 12.",
+     "compute": "half_chord = sqrt(radius**2 - distance**2)"
+    },
+    {
+     "step": 2,
+     "action": "Double the half",
+     "explain": "2 x 12 = 24 cm.",
+     "compute": "chord_length = 2 * half_chord"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "authored; method anchored at iemh105.txt lines 235-285",
+   "concept": "iemh.105.5",
+   "question_type": "compute",
+   "question_pattern": "A chord of length {chord_length} cm sits {distance} cm from the centre. Find the radius.",
+   "extracted_variables": {
+    "chord_length": "24",
+    "distance": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Halve the chord",
+     "explain": "24 / 2 = 12.",
+     "compute": "half_chord = chord_length / 2"
+    },
+    {
+     "step": 2,
+     "action": "Radius from the right triangle",
+     "explain": "sqrt(12^2 + 5^2) = sqrt(169) = 13 cm.",
+     "compute": "radius = sqrt(half_chord**2 + distance**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "authored; method anchored at iemh105.txt lines 290-340",
+   "concept": "iemh.105.6",
+   "question_type": "compute",
+   "question_pattern": "An arc makes a {central_angle} degree corner at the centre; find the corner it makes on the curve.",
+   "extracted_variables": {
+    "central_angle": "120"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Halve the centre angle",
+     "explain": "120 / 2 = 60 degrees.",
+     "compute": "inscribed_angle = central_angle / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "iemh105.txt lines 445-515 (EOC Q7: angle B 110)",
+   "concept": "iemh.105.9",
+   "question_type": "compute",
+   "question_pattern": "In cyclic quadrilateral ABCD, angle B measures {angle_B} degrees. Calculate the missing facing corner D.",
+   "extracted_variables": {
+    "angle_B": "110"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract from 180",
+     "explain": "180 - 110 = 70 degrees.",
+     "compute": "angle_D = 180 - angle_B"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.2",
+   "question_type": "verify_property",
+   "question_pattern": "Show that exactly one round curve passes through three spots that are not lined up.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate the centre",
+     "explain": "Find the point O where the right-angle bisectors of two sides meet."
+    },
+    {
+     "step": 2,
+     "action": "Verify equal reach",
+     "explain": "Show that O sits at the same gap from each corner A, B and C."
+    },
+    {
+     "step": 3,
+     "action": "Draw the circumcircle",
+     "explain": "With O as centre and the common gap as radius, the round curve through A, B and C is the unique circumcircle."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.2",
+   "question_type": "verify_property",
+   "question_pattern": "Construct the curve through the corners of a triangle.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate the centre",
+     "explain": "Find the point O where the right-angle bisectors of two sides meet."
+    },
+    {
+     "step": 2,
+     "action": "Verify equal reach",
+     "explain": "Show that O sits at the same gap from each corner A, B and C."
+    },
+    {
+     "step": 3,
+     "action": "Draw the circumcircle",
+     "explain": "With O as centre and the common gap as radius, the round curve through A, B and C is the unique circumcircle."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.3",
+   "question_type": "verify_property",
+   "question_pattern": "Show that matching chords make matching angles at the centre.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Form two triangles",
+     "explain": "Join both chords' ends to the centre O to build two triangles."
+    },
+    {
+     "step": 2,
+     "action": "Apply SSS congruence",
+     "explain": "Two sides are radii and the third sides are equal chords, so the triangles match by SSS."
+    },
+    {
+     "step": 3,
+     "action": "Conclude equal central angles",
+     "explain": "Corresponding parts of congruent triangles are equal, so the central angles subtended by equal chords are equal, and the converse holds by the same argument."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.3",
+   "question_type": "verify_property",
+   "question_pattern": "Prove the converse: chords facing equal central angles are equal.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Form two triangles",
+     "explain": "Join both chords' ends to the centre O to build two triangles."
+    },
+    {
+     "step": 2,
+     "action": "Apply SSS congruence",
+     "explain": "Two sides are radii and the third sides are equal chords, so the triangles match by SSS."
+    },
+    {
+     "step": 3,
+     "action": "Conclude equal central angles",
+     "explain": "Corresponding parts of congruent triangles are equal, so the central angles subtended by equal chords are equal, and the converse holds by the same argument."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.7",
+   "question_type": "verify_property",
+   "question_pattern": "What is the corner made across a diameter at the curve?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Spot the straight angle",
+     "explain": "A diameter makes a 180 degree angle at the centre."
+    },
+    {
+     "step": 2,
+     "action": "Halve it",
+     "explain": "The on-curve corner is half of 180, namely 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the right angle for any on-curve spot",
+     "explain": "Since the diameter is a straight angle at the centre, every point on the curve sees it as a 90 degree angle, giving a right-angled triangle regardless of where the point sits."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.7",
+   "question_type": "verify_property",
+   "question_pattern": "Show that the corner in a half curve is a right angle.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Spot the straight angle",
+     "explain": "A diameter makes a 180 degree angle at the centre."
+    },
+    {
+     "step": 2,
+     "action": "Halve it",
+     "explain": "The on-curve corner is half of 180, namely 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the right angle for any on-curve spot",
+     "explain": "Since the diameter is a straight angle at the centre, every point on the curve sees it as a 90 degree angle, giving a right-angled triangle regardless of where the point sits."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.8",
+   "question_type": "verify_property",
+   "question_pattern": "Show that four spots with matching corners over one base, same side, sit on one curve.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Build the curve through three spots",
+     "explain": "One curve passes uniquely through the non-lined-up spots A, B and C."
+    },
+    {
+     "step": 2,
+     "action": "Rule out the fourth spot escaping",
+     "explain": "If the fourth spot sat off the curve, its corner would differ, contradicting the given equality."
+    },
+    {
+     "step": 3,
+     "action": "Conclude concyclicity",
+     "explain": "Since all four spots satisfy the equal-angle condition over the same base on the same side, they must lie on one common round curve, proving the four spots are concyclic."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.105.8",
+   "question_type": "verify_property",
+   "question_pattern": "Prove the concyclicity claim from the matching-angle condition.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Build the curve through three spots",
+     "explain": "One curve passes uniquely through the non-lined-up spots A, B and C."
+    },
+    {
+     "step": 2,
+     "action": "Rule out the fourth spot escaping",
+     "explain": "If the fourth spot sat off the curve, its corner would differ, contradicting the given equality."
+    },
+    {
+     "step": 3,
+     "action": "Conclude concyclicity",
+     "explain": "Since all four spots satisfy the equal-angle condition over the same base on the same side, they must lie on one common round curve, proving the four spots are concyclic."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iemh105.txt lines 135-142",
+   "questions": [
+    "Draw triangle ABC with AB = 5 cm, angle A = 70 degrees and angle B = 60 degrees. Draw the circumcircle. Is the centre inside or outside the triangle?",
+    "Draw triangle ABC with AB = 5 cm, angle A = 100 degrees, AC = 4 cm. Draw the circumcircle. Is the centre inside or outside the triangle?",
+    "Draw triangle ABC, with AB = 6 cm, BC = 7 cm and CA = 7 cm. Draw the circumcircle; let the centre be O. Measure OA, OB, OC.",
+    "What is the least possible radius of a circle through two points A and B?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "iemh105.txt lines 186-192",
+   "questions": [
+    "Show that the triangle formed by a chord and the centre of the circle is isosceles.",
+    "Show that if two such isosceles triangles have equal base length, they are congruent to each other."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "iemh105.txt lines 200-212",
+   "questions": [
+    "Can you explain why the converse to Theorem 4 is true, i.e., why does the perpendicular from the centre of a circle to a chord of the circle bisect the chord?",
+    "An isosceles triangle ABC is inscribed in a circle, with AB = AC. Show that the altitude from A to BC passes through the centre of the circle.",
+    "Two parallel chords of lengths 6 cm and 8 cm are on opposite sides of the centre of a circle. If the radius of the circle is 5 cm, find the distance between the midpoints of the chords."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "iemh105.txt lines 270-278",
+   "questions": [
+    "Use the Baudhayana-Pythagoras theorem to show why Theorem 6 must be true.",
+    "Consider Fig. 5.15. If CE is perpendicular to AB, CH is perpendicular to GH, and CE = CH, show that AB = GF.",
+    "Solve the previous question using the Baudhayana-Pythagoras theorem."
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "iemh105.txt lines 280-288",
+   "questions": [
+    "Find the length of the chord of a circle where the radius is 7 cm and perpendicular distance is 6 cm.",
+    "Explain why the following statement is true: If the perpendicular distance of a chord from the centre is d and the radius is r, then the chord length is 2 x sqrt(r^2 - d^2).",
+    "In a circle, if the distance of chord AB from the centre is twice the distance of another chord CD from the centre, then can we conclude that CD = 2 AB? Give reasons for your answer."
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "iemh105.txt lines 360-370",
+   "questions": [
+    "In a circle with centre O, the central angle AOB is 60 degrees. If the radius of the circle is 12 cm, what is the length of the chord AB?",
+    "Let A and B be two points on a circle with centre O. (i) Are there points X, Y on the circle, on the same side of AB, such that angle AXB differs from angle AYB? (ii) Is it true that if angle AXB = angle AYB, then X and Y lie on the same side of the circle? (iii) If angle AXB = angle AYB, and X and Y do not lie on the circle, does the circle through A, B and X also pass through Y?",
+    "Find x in Fig. 5.26."
+   ]
+  },
+  {
+   "id": "end_of_chapter",
+   "source_ref": "iemh105.txt lines 445-515",
+   "questions": [
+    "In a circle, a chord is 5 cm away from the centre. If the radius of the circle is 13 cm, what is the length of the chord?",
+    "An arc of a circle subtends an angle of 70 degrees at the centre. What is the measure of the angle subtended by the arc at a point on the circle?",
+    "The diameter of a circle is 26 cm. A chord of length 24 cm is drawn in the circle. Find the distance from the centre of the circle to the chord.",
+    "A circle has a radius of 15 cm. A chord is drawn. The distance from the centre of the circle to the chord is 9 cm. What is the length of the chord?",
+    "Prove that the perpendicular bisector of a chord passes through the centre of the circle.",
+    "The diameter of a circle is AB. Point C is on the circumference. What is the measure of angle ACB? Explain your reasoning.",
+    "ABCD is a cyclic quadrilateral inscribed in a circle. If angle A measures 75 degrees, what is the measure of angle C? If angle B measures 110 degrees, what is the measure of angle D?",
+    "Quadrilateral PQRS is inscribed in a circle. If angle P = (2x + 10) degrees and angle R = (3x - 20) degrees, find the value of x and the measures of angles P and R.",
+    "The distance of a chord of length 16 cm from the centre of a circle is 6 cm. Find the radius of the circle.",
+    "A cyclic quadrilateral has sides 5, 5, 12, 12 units. Find its area.",
+    "Two parallel chords of lengths 10 cm and 24 cm are on the same side of the centre of a circle. The distance between the chords is 7 cm. Find the radius of the circle.",
+    "A quadrilateral MNOP is inscribed in a circle. If MN is a diameter, what can you say about angle MOP and angle MNP? Explain your reasoning.",
+    "Let ABCD be a cyclic quadrilateral. Explain why the exterior angle at any vertex is equal to the interior opposite angle."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; schema/copyright/DSL/grounding reviewed and enriched by quality reviewer"
+}

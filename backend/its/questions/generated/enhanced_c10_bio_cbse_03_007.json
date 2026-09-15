@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_007",
+   "title": "c10_bio_cbse_03_007",
+   "questions": [
+    {
+     "q": "Name the two fusion events that constitute double fertilisation and state the ploidy of each product formed.",
+     "a": "The two fusion events are: (1) Syngamy — fusion of one male gamete (n) with egg cell (n) forming diploid zygote (2n); (2) Triple fusion — fusion of second male gamete (n) with two polar nuclei (n+n) forming triploid primary endosperm nucleus (3n). A wrong answer like \"both gametes fuse with egg cell\" reveals confusion between double fertilisation and polyspermy (which is blocked in plants). If a student states endosperm is 2n, they have missed that two polar nuclei participate, not one.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the primary endosperm nucleus have a chromosome number of 3n while the zygote is 2n? Explain using the concept of polar nuclei.",
+     "a": "The central cell contains two haploid polar nuclei (n+n) that fuse before or during fertilisation to form a diploid secondary nucleus (2n). When the second male gamete (n) fuses with this 2n nucleus, the result is 3n. The zygote is 2n because only one male gamete (n) fuses with one egg cell (n). A wrong answer stating \"polar nuclei are diploid\" reveals misunderstanding of megagametogenesis — polar nuclei are products of mitosis from the functional megaspore, hence haploid. Students who answer \"endosperm is 2n like zygote\" have not grasped that triple fusion involves THREE haploid nuclei.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that in pea (Pisum sativum), the mature seed has no endosperm, while in castor (Ricinus communis), the seed is filled with endosperm. Explain the post-fertilisation developmental difference that leads to this contrast.",
+     "a": "In pea (exalbuminous), the developing embryo consumes the entire endosperm as it grows, storing food in its massive cotyledons — so mature seed lacks endosperm. In castor (albuminous), the embryo remains small and the endosperm persists as the main food reserve. Both undergo double fertilisation and form endosperm initially; the difference is whether endosperm gets fully absorbed during seed maturation. A wrong answer like \"pea doesn't undergo triple fusion\" reveals the misconception that exalbuminous seeds skip double fertilisation. The key is endosperm UTILISATION, not formation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of the following floral parts after fertilisation: (a) ovule, (b) ovary, (c) sepals, (d) petals, (e) stamens, (f) style. Which structure develops into the seed coat and why is its ploidy different from the embryo?",
+     "a": "(a) Ovule → seed; (b) Ovary → fruit; (c) Sepals, (d) Petals, (e) Stamens, (f) Style → usually wither and fall off (persistent in some like brinjal/tomato). The seed coat (testa) develops from the integuments of the ovule, which are maternal tissue (2n). The embryo is 2n from syngamy, but the seed coat is also 2n — however, genetically the seed coat is entirely maternal (from mother plant), while embryo is biparental. A wrong answer like \"seed coat forms from ovary wall\" confuses fruit wall (pericarp) with seed coat. Students who say seed coat is 3n have confused it with endosperm.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Double fertilisation is an energy-wasteful process because the plant produces two male gametes but only one forms the embryo; the other just makes endosperm which gets eaten anyway.\" Provide a biological justification for why this interpretation is incorrect.",
+     "a": "The statement is incorrect because endosperm formation is CONDITIONAL on successful fertilisation — the plant avoids investing resources in nutritive tissue unless a viable zygote is confirmed. In gymnosperms, female gametophyte (haploid) develops elaborate nutritive tissue BEFORE fertilisation; if fertilisation fails, all that energy is wasted. Double fertilisation couples endosperm development to syngamy, ensuring resource allocation only to fertilised ovules. A wrong answer focusing only on \"endosperm feeds embryo\" misses the evolutionary significance: it's about PREVENTING waste, not creating it. Students who agree with the statement haven't compared with gymnosperm reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using locally available seeds (e.g., maize, bean, groundnut, coconut) to classify them as albuminous or exalbuminous. Specify what you would observe, how you would record it, and what conclusion each observation supports.",
+     "a": "Procedure: Soak seeds overnight. Remove seed coat. Split seed longitudinally. Observe: (1) Maize/coconut — large endosperm present, tiny embryo → albuminous. (2) Bean/groundnut — no endosperm, two large fleshy cotyledons occupying most space → exalbuminous. Record in table: Seed name | Endosperm visible (Y/N) | Cotyledon size (large/small) | Classification. Conclusion: Albuminous seeds store food in persistent endosperm; exalbuminous seeds transfer food to cotyledons during maturation. A poor answer that only lists seed names without observation criteria shows inability to connect seed structure to developmental process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

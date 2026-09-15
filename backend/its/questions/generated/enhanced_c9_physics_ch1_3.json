@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_3",
+   "title": "c9_physics_ch1_3",
+   "questions": [
+    {
+     "q": "State the fundamental difference between an observation and an inference in a scientific investigation. Give one example of each from a simple pendulum experiment.",
+     "a": "An observation is a direct, factual record from senses/instruments (e.g., \"The pendulum completed 20 oscillations in 30.0 s\"). An inference is a logical conclusion drawn from observations (e.g., \"The period of this pendulum is 1.5 s\"). A wrong answer (e.g., calling the period an observation) reveals the student confuses measured/calculated values with raw sensory data, a critical error in lab reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Why must a scientist carefully label statements as \"observation\" or \"inference\" in a lab notebook? What goes wrong if they are mixed?",
+     "a": "Mixing them destroys the chain of evidence: others cannot verify the raw data, and the reasoning becomes circular. For example, writing \"The metal expanded because it was heated\" blends observation (length increased) with inference (cause was heating). A wrong answer shows the student does not grasp that science requires transparent, reproducible evidence separate from interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A student places a thermometer in a beaker of ice-water mixture and records: \"The temperature is 0°C because ice melts at 0°C.\" Identify the observation and the inference in this statement. Rewrite it as two separate entries.",
+     "a": "Observation: \"The thermometer reads 0°C.\" Inference: \"The mixture is at the melting point of ice.\" Rewritten: (1) Observation – Thermometer reading: 0°C. (2) Inference – The system is at 0°C, consistent with ice-water equilibrium. A wrong separation indicates the student treats the known melting point as a direct observation rather than a theoretical inference.",
+     "self_check": true
+    },
+    {
+     "q": "Two students observe a candle burning. Student A writes: \"The wax disappears.\" Student B writes: \"The wax vaporizes and combusts.\" Compare the two statements. Which is a better observation? Which is an inference? Can Student B's statement be directly verified?",
+     "a": "Student A's statement is a qualitative observation (mass/volume decrease visible). Student B's statement is an inference (vaporization and combustion are not directly seen). Student B's claim cannot be directly verified without additional experiments (e.g., condensing vapor, testing products). A wrong answer (e.g., calling B's statement an observation) reveals the student equates scientific terminology with direct observation.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 lab report contains: \"The iron nail turned reddish-brown after being left in water for a week, so rust formed.\" Evaluate this entry. Is the reasoning valid? What additional observation would strengthen the inference?",
+     "a": "The entry mixes observation (color change to reddish-brown) and inference (rust formed). The reasoning is plausible but not conclusive – other iron compounds can have similar colors. A strengthening observation would be: \"The reddish-brown deposit is flaky and magnetic\" (property of rust). A wrong evaluation shows the student accepts inferences as facts without demanding corroborating evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute classroom activity where you make at least three distinct observations (using at least two senses) of a burning incense stick, and then write two inferences that logically follow. Provide a template table with columns: Sense Used, Observation (with units if any), Inference.",
+     "a": "A good answer includes a table like: Sight – \"White smoke rises in a straight column\" (observation) → \"Hot air carries particles upward\" (inference); Smell – \"Distinct sandalwood fragrance detected 2 m away\" → \"Volatile compounds diffuse in air\". Poor answers list inferences as observations (e.g., \"It releases fragrance\") or omit units/senses, showing inability to isolate raw data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

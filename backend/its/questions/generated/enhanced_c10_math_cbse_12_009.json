@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_009",
+   "title": "c10_math_cbse_12_009",
+   "questions": [
+    {
+     "q": "State the fundamental principle used when a solid is melted and recast into another shape. What quantity remains unchanged?",
+     "a": "The fundamental principle is **conservation of volume**: the total volume of the material before melting equals the total volume after recasting. Volume remains unchanged; surface area does not.  \nA wrong answer (e.g., \"surface area remains same\" or \"mass remains same but volume changes\") reveals the student confuses melting-recasting with other transformations or does not grasp that melting only rearranges the same amount of material.",
+     "self_check": true
+    },
+    {
+     "q": "A solid cylinder of radius 5 cm and height 10 cm is melted and recast into a solid cone of the same base radius. A student writes: \"Curved surface area of cylinder = Curved surface area of cone\" to find the height of the cone. Is this correct? Explain why or why not.",
+     "a": "The student is **incorrect**. Melting and recasting conserves **volume**, not surface area. The cylinder and cone will have different surface areas because their shapes are different. The correct equation is: Volume of cylinder = Volume of cone → πr²h_cyl = ⅓πr²h_cone.  \nIf a student equates surface areas, they misunderstand the physical process: melting changes the surface (new surfaces form), but the amount of material (volume) stays the same.",
+     "self_check": true
+    },
+    {
+     "q": "A metallic sphere of radius 4.2 cm is melted and recast into a solid cylinder of radius 6 cm. Find the height of the cylinder. (Use π = 22/7)",
+     "a": "**Given:** Sphere radius r = 4.2 cm, Cylinder radius R = 6 cm.  \n**Step 1:** Volume of sphere = ⁴/₃πr³ = ⁴/₃ × ²²/₇ × (4.2)³  \n**Step 2:** Volume of cylinder = πR²h = ²²/₇ × 6² × h  \n**Step 3:** Equate volumes: ⁴/₃ × ²²/₇ × (4.2)³ = ²²/₇ × 36 × h  \n**Step 4:** Cancel ²²/₇: ⁴/₃ × (4.2)³ = 36h  \n**Step 5:** (4.2)³ = 74.088 → ⁴/₃ × 74.088 = 98.784  \n**Step 6:** h = 98.784 / 36 = **2.744 cm**  \n**Answer:** Height of cylinder = 2.744 cm.  \nA wrong answer (e.g., using diameter instead of radius, or forgetting the ⅓ in cone formula if it were a cone) shows computational carelessness or formula confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Two scenarios:  \n(A) A solid cylinder (r=7 cm, h=10 cm) is melted into a solid sphere.  \n(B) The same cylinder is melted into a solid cone of height 10 cm.  \nCompare the radius of the sphere in (A) and the radius of the cone in (B). Which is larger? Justify without full calculation.",
+     "a": "**Volume of cylinder = π×7²×10 = 490π cm³.**  \n(A) Sphere volume = ⁴/₃πR³ = 490π → R³ = 367.5 → R ≈ 7.16 cm.  \n(B) Cone volume = ⅓πr²×10 = 490π → r² = 147 → r ≈ 12.12 cm.  \nThe cone's base radius is larger because its volume formula has a ⅓ factor — to achieve the same volume with a ⅓ multiplier, the base area (r²) must be three times larger than the sphere's \"effective\" base.  \nA wrong comparison (e.g., saying they are equal because height is same) shows the student does not analyse how the ⅓ factor in cone volume forces a larger radius.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A cone (h=24 cm, r=6 cm) is melted into a sphere. Find sphere radius.\"  \nTheir working:  \nVolume of cone = ⅓π×6²×24 = 288π  \nVolume of sphere = ⁴/₃πr³  \nEquate: 288π = ⁴/₃πr³ → r³ = 216 → r = 6 cm.  \nThey write: \"Radius of sphere = 6 cm, same as cone radius.\"  \nEvaluate: Is the answer correct? Is the reasoning complete? What, if anything, is missing?",
+     "a": "The **numerical answer (6 cm) is correct**, but the reasoning is **incomplete**. The student did not explicitly state the principle \"Volume before melting = Volume after recasting\" — they just equated formulas. In board exams, this step must be written: \"Since the cone is melted and recast into a sphere, volume of cone = volume of sphere.\" Also, they should mention \"assuming no wastage\". Missing this justification loses marks in CBSE marking scheme (usually ½ mark for stating the principle).  \nA student who thinks the answer is wrong because \"radius can't be same\" confuses dimensions with volume equality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem where a solid is melted and recast into **two different types of solids** (e.g., some spheres and some cylinders), and the question asks for an unknown dimension of one of the new solids. Provide the full problem statement with all necessary data.",
+     "a": "**Example problem:**  \n\"A solid metal cylinder of radius 14 cm and height 20 cm is melted and recast into 10 identical solid spheres and 5 identical solid cones. Each cone has height 12 cm and base radius 7 cm. Find the radius of each sphere.\"  \n**Criteria for a good answer:**  \n- Clearly states original solid and its dimensions.  \n- Specifies number and type of new solids.  \n- Gives all dimensions for at least one new solid type.  \n- Asks for a dimension of the other new solid.  \n- Data allows a unique solution (volumes balance).  \nA poor problem misses data (e.g., doesn't give cone dimensions), makes volumes inconsistent, or asks for something not solvable (e.g., two unknowns with one equation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

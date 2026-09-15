@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_007",
+   "title": "c11_psy_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the fundamental principle of Gestalt psychology in one sentence and name the German psychologist who founded the first Gestalt laboratory in 1912.",
+     "a": "The fundamental principle is \"the whole is greater than the sum of its parts\" (or \"the whole is different from the sum of its parts\"), founded by Max Wertheimer (along with Köhler and Koffka) in 1912. A wrong answer (e.g., \"Wundt founded it\" or \"it studies elements of consciousness\") reveals confusion with structuralism — the very school Gestalt opposed. It shows the student cannot distinguish the holistic vs. elementaristic debate that defines early psychology's evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the phi phenomenon (apparent motion from stationary flashes) was a critical piece of evidence against structuralism and for Gestalt psychology.",
+     "a": "The phi phenomenon demonstrates that the percept (smooth motion) contains qualities (movement, direction) absent in the individual stimuli (static flashes). Structuralism claims complex experience equals sum of elements; but here the element (flash) has no motion, yet the whole has motion. Therefore, the whole possesses emergent properties not present in parts. A wrong answer (e.g., \"it proves we see movement because eyes move\" or \"it's just memory of previous frame\") reveals a reductionist misunderstanding — the student is trying to explain the holistic percept by adding a missing 'element' (eye movement, memory trace) rather than accepting organizational principles as primary.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher draws three rows of dots on the board: Row A: ● ● ● ● ● (equally spaced). Row B: ●● ●● ●● (pairs close together). Row C: ●  ●  ●  ●  ● (alternating large and small dots). Using the laws of proximity and similarity, predict how a student will perceptually group each row and justify each prediction.",
+     "a": "Row A: Proximity law → all dots equally spaced → perceived as one single group/row (no subgroups). Row B: Proximity law → dots close in pairs → perceived as three distinct pairs (groups of two). Row C: Similarity law overrides proximity → large dots group together, small dots group together → perceived as two interleaved rows (one of large, one of small). A wrong answer (e.g., Row C grouped by proximity into pairs) reveals the student treats laws as rigid rules applied in isolation, not understanding the hierarchical interaction where similarity can dominate proximity — a classic senior-secondary error in perceptual organization questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Gestalt concept of \"insight learning\" (Köhler's chimpanzees) with the behaviourist \"trial-and-error learning\" (Thorndike's cats) on three dimensions: (a) role of mental representation, (b) temporal pattern of learning curve, (c) transfer to novel problems.",
+     "a": "(a) Insight: sudden restructuring of mental representation of problem space; Trial-and-error: gradual strengthening of S-R associations, no mental map. (b) Insight: learning curve shows sudden jump (plateau then abrupt rise); Trial-and-error: negatively accelerated curve (gradual improvement). (c) Insight: high transfer — solution principle applied to structurally similar new problems; Trial-and-error: low transfer — specific responses bound to specific stimuli. A wrong answer (e.g., \"both show gradual curves\" or \"insight is just fast trial-and-error\") reveals the student conflates the cognitive restructuring of Gestalt with the associative chaining of behaviourism — a fundamental category error in comparing theoretical perspectives.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Gestalt principles of perception are universal biological hardwiring, so cultural differences in perception (e.g., Müller-Lyer illusion susceptibility) do not exist.\" Use evidence from cross-cultural psychology and the Gestalt concept of \"pragnanz\" (good figure) to evaluate.",
+     "a": "The statement is false. While Gestalt laws (proximity, closure, etc.) likely reflect universal neural organization (bottom-up), the *application* of pragnanz — the tendency toward the simplest, most stable interpretation — interacts with top-down cultural experience. Cross-cultural studies (e.g., Segall et al., 1966) show Carpentered-world hypothesis: people in rectilinear environments (urban) are more susceptible to Müller-Lyer illusion than those in non-carpentered environments (rural/tribal). The same neural hardware produces different percepts because \"good figure\" is defined relative to ecological statistics. A wrong answer (e.g., \"illusions are optical, not cultural\" or \"Gestalt laws are innate so culture irrelevant\") reveals a nature-vs-nurture false dichotomy — the student fails to see that universal organizational principles operate on culturally shaped perceptual hypotheses.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world Indian traffic signage system for a chaotic 4-way intersection using at least three Gestalt laws to minimize cognitive load for drivers. Sketch the layout (describe verbally) and explain how each law reduces accidents.",
+     "a": "Layout: (1) **Proximity**: Group all lane-specific signs (left-turn, straight, right-turn) on separate overhead gantries physically positioned above each lane — drivers perceive \"my lane's instructions\" as a unit. (2) **Similarity**: Color-code by maneuver type (blue=straight, green=left, orange=right) using identical icon shapes — drivers instantly match sign to intention without reading text. (3) **Figure-Ground**: High-contrast retro-reflective borders (figure) against matte black background (ground) — signs pop out in visual clutter of shops, wires, vehicles. (4) **Closure**: Dashed lane lines that complete into solid lines 30m before intersection — drivers perceive \"lane ends here\" even if paint worn. A poor answer (e.g., \"make signs bigger/brighter\") reveals focus on intensity (structuralist) not organization (Gestalt) — missing that perceptual clarity comes from relational structure, not sensory magnitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 8,
+ "chapter_title": "Predicting What Comes Next: Exploring Sequences and Progressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.108.8.1",
+   "title": "Sequences and Their Rules",
+   "section": "8.1",
+   "definition": "A sequence is an ordered list of numbers following a rule; the explicit rule computes any term directly from its position n, while the recursive rule builds each term from the previous one - two ways of predicting what comes next.",
+   "formula": "term = first + (n - 1) * diff",
+   "key_idea": "Position in, term out: an explicit rule jumps to any term without listing the rest.",
+   "textbook_ref": "iemh108.txt sections 8.1-8.3 (sequences, explicit and recursive rules)",
+   "question_patterns": [
+    "write the next three terms of the given sequence",
+    "find the 10th term of the sequence with the given rule",
+    "write the explicit rule of the given sequence",
+    "write the recursive rule of the given sequence",
+    "which term of the sequence equals the given value",
+    "compare the explicit and recursive descriptions of a sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the steps from the first term",
+     "explain": "The nth term sits n minus 1 steps ahead.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add the steps of growth",
+     "explain": "Each step adds the common difference.",
+     "compute": "term = first + steps * diff"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.8.2",
+   "title": "Arithmetic Progressions",
+   "section": "8.4",
+   "definition": "An arithmetic progression is a sequence whose consecutive terms differ by a fixed number d, the common difference; its nth term is a plus (n - 1)d, letting us jump to any term - like the 20th - without writing the nineteen before it.",
+   "formula": "nth_term = first + (n - 1) * d",
+   "key_idea": "Constant difference d: the ladder of the progression, one d per step.",
+   "textbook_ref": "iemh108.txt section 8.4 (arithmetic progressions)",
+   "question_patterns": [
+    "find the 15th term of the AP with first term 5 and common difference 3",
+    "which term of the given AP equals the given value",
+    "find the common difference of the given progression",
+    "check whether the given sequence is an AP - justify",
+    "write the nth term of the given arithmetic progression",
+    "find the first negative term of the given AP"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the jumps",
+     "explain": "The nth term needs n minus 1 jumps of d.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "climb from the first term",
+     "explain": "Add steps times d to the first term.",
+     "compute": "nth_term = first + steps * d"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.8.3",
+   "title": "Sum of the First n Natural Numbers",
+   "section": "8.5",
+   "definition": "Pairing terms from the two ends of 1 + 2 + ... + n shows each pair sums to n + 1, so the whole sum is n times (n + 1) over 2 - the classic triangular number formula that Gauss used as a schoolboy.",
+   "formula": "sum = n * (n + 1) / 2",
+   "key_idea": "Pair the ends: each pair adds n + 1, and there are n over 2 such pairs.",
+   "textbook_ref": "iemh108.txt section 8.5 (sum of the first n natural numbers)",
+   "question_patterns": [
+    "find the sum of the first 20 natural numbers",
+    "find the sum 1 + 2 + 3 + ... + n using the formula",
+    "how many terms of the natural numbers sum to the given total",
+    "find the sum of the first n odd or even numbers using this formula",
+    "verify the sum formula for a small value of n",
+    "use the pairing argument to explain the sum formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply n by n + 1",
+     "explain": "The product counts all paired contributions.",
+     "compute": "product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "Each pair was counted twice, so divide by 2.",
+     "compute": "sum = product / 2"
+    }
+   ]
+  },
+  {
+   "id": "iemh.108.8.4",
+   "title": "Geometric Progressions",
+   "section": "8.6",
+   "definition": "A geometric progression multiplies by a fixed ratio r at every step, so its nth term is the first term times r to the (n - 1); doubling sequences like 1, 2, 4, 8 are the classic case.",
+   "formula": "nth_term = first * ratio ** (n - 1)",
+   "key_idea": "Constant multiplier: r per step, applied n minus 1 times.",
+   "textbook_ref": "iemh108.txt section 8.6 (geometric progressions)",
+   "question_patterns": [
+    "find the 6th term of the GP with first term 3 and ratio 2",
+    "which term of the given GP equals the given value",
+    "find the common ratio of the given progression",
+    "check whether the given sequence is geometric - justify",
+    "write the nth term of the given geometric progression",
+    "compare the growth of an AP and a GP for the same first terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the multiplications",
+     "explain": "The nth term applies the ratio n minus 1 times.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise and scale",
+     "explain": "Multiply the first term by r to the steps.",
+     "compute": "nth_term = first * ratio ** steps"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh108.txt section 8.4 AP term example",
+   "concept": "iemh.108.8.2",
+   "question_type": "compute",
+   "question_pattern": "Find the nth term of the AP with first term {first} and common difference {d}.",
+   "extracted_variables": {
+    "first": "first term of the AP",
+    "d": "common difference",
+    "n": "position of the required term"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the jumps",
+     "explain": "n minus 1 jumps of the difference.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "climb from the first term",
+     "explain": "First term plus steps times d.",
+     "compute": "nth_term = first + steps * d"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh108.txt AP practice",
+   "concept": "iemh.108.8.2",
+   "question_type": "compute",
+   "question_pattern": "An AP starts at {first} with difference {d}. What is term number {n}?",
+   "extracted_variables": {
+    "first": "starting term",
+    "d": "common difference",
+    "n": "term position"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the jumps",
+     "explain": "Subtract 1 from the position.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "climb from the first term",
+     "explain": "Add the total climb.",
+     "compute": "nth_term = first + steps * d"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh108.txt section 8.5 sum examples",
+   "concept": "iemh.108.8.3",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {n} natural numbers.",
+   "extracted_variables": {
+    "n": "how many natural numbers are added"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by n + 1",
+     "explain": "The pairing product.",
+     "compute": "product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "The quotient is the sum.",
+     "compute": "sum = product / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh108.txt sum practice",
+   "concept": "iemh.108.8.3",
+   "question_type": "compute",
+   "question_pattern": "Compute 1 + 2 + ... up to {n} using the sum formula.",
+   "extracted_variables": {
+    "n": "last natural number added"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by n + 1",
+     "explain": "Form the pairing product.",
+     "compute": "product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "Halving gives the required sum.",
+     "compute": "sum = product / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh108.txt section 8.6 GP term example",
+   "concept": "iemh.108.8.4",
+   "question_type": "compute",
+   "question_pattern": "Find the nth term of the GP with first term {first} and ratio {ratio}.",
+   "extracted_variables": {
+    "first": "first term of the GP",
+    "ratio": "common ratio",
+    "n": "position of the required term"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the multiplications",
+     "explain": "n minus 1 multiplications by the ratio.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise and scale",
+     "explain": "First term times ratio to the steps.",
+     "compute": "nth_term = first * ratio ** steps"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iemh108.txt GP practice",
+   "concept": "iemh.108.8.4",
+   "question_type": "compute",
+   "question_pattern": "A GP starts at {first} and multiplies by {ratio} each step. Find term number {n}.",
+   "extracted_variables": {
+    "first": "starting term",
+    "ratio": "multiplier",
+    "n": "term position"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the multiplications",
+     "explain": "The position minus one.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "raise and scale",
+     "explain": "First term scaled by the power of the ratio.",
+     "compute": "nth_term = first * ratio ** steps"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "iemh108.txt explicit rule examples",
+   "concept": "iemh.108.8.1",
+   "question_type": "compute",
+   "question_pattern": "A sequence starts at {first} and grows by {diff} each step. Find term number {n} using the explicit rule.",
+   "extracted_variables": {
+    "first": "first term",
+    "diff": "step of the sequence",
+    "n": "term position"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the steps",
+     "explain": "n minus 1 steps from the first term.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add the growth",
+     "explain": "First term plus steps times the step size.",
+     "compute": "term = first + steps * diff"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iemh108.txt explicit rule practice",
+   "concept": "iemh.108.8.1",
+   "question_type": "compute",
+   "question_pattern": "Using the explicit rule, find term {n} of the sequence beginning {first} with constant difference {diff}.",
+   "extracted_variables": {
+    "first": "opening term",
+    "diff": "constant difference",
+    "n": "wanted position"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the steps",
+     "explain": "The position minus one gives the jumps.",
+     "compute": "steps = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add the growth",
+     "explain": "Each jump adds the difference.",
+     "compute": "term = first + steps * diff"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "iemh108.txt sequence and AP exercises",
+   "questions": [
+    "Write the next terms of the given sequences and their rules.",
+    "Find the indicated terms of the given APs.",
+    "Which term of the AP equals the given number?"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "iemh108.txt sum and GP exercises",
+   "questions": [
+    "Find the sums using the first n natural numbers formula.",
+    "Find the indicated terms of the given GPs.",
+    "Identify APs and GPs among the given sequences."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_003",
+   "title": "c11_psy_cbse_03_003",
+   "questions": [
+    {
+     "q": "List the three stages of prenatal development in correct chronological order with their approximate week ranges.",
+     "a": "Correct: Germinal stage (conception to week 2), Embryonic stage (week 3 to week 8), Foetal stage (week 9 to birth). A wrong answer that omits the germinal stage or merges embryonic/foetal reveals the misconception that prenatal development starts at implantation or that \"embryo\" and \"foetus\" are interchangeable terms.",
+     "self_check": true
+    },
+    {
+     "q": "A pregnant woman consumes alcohol heavily at week 5 and another woman consumes the same amount at week 25. Explain why the developmental consequences differ, using the concepts of \"critical period\" and \"organogenesis\".",
+     "a": "Correct: Week 5 falls in the embryonic stage when organogenesis occurs — alcohol disrupts structural formation of heart, brain, facial features (causing FAS facial dysmorphology). Week 25 is foetal stage — organs are formed but growing; alcohol causes growth restriction, neuronal loss, and functional deficits without major structural malformations. A wrong answer that says \"both cause birth defects\" misses the critical distinction between structural teratogenesis (embryonic) and functional/growth impairment (foetal).",
+     "self_check": true
+    },
+    {
+     "q": "Design a prenatal health advisory for a rural clinic. Include three specific teratogens to avoid and three protective behaviours, each linked to the prenatal stage where it matters most.",
+     "a": "Correct advisory: Embryonic stage (weeks 3-8) — avoid alcohol (FAS structural defects), tobacco (limb/orofacial defects), radiation (microcephaly); promote folic acid (neural tube closure weeks 3-4). Foetal stage (week 9+) — avoid lead (neurodevelopmental delay), mercury (cerebellar damage), chronic stress (HPA axis programming); promote protein/calorie intake (foetal growth), iron (prevent anaemia), prenatal checkups (monitor growth). A wrong answer that lists teratogens without stage-specific timing shows inability to apply critical period concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the vulnerability of the embryo (week 6) versus the foetus (week 30) to the teratogen rubella virus. Explain the mechanism behind the difference.",
+     "a": "Correct: At week 6 (embryonic), rubella causes cataracts, deafness, heart defects — because it infects developing organ primordia during organogenesis. At week 30 (foetal), rubella causes growth restriction, hepatosplenomegaly, meningoencephalitis — because organs are formed but immature immune system and ongoing brain growth are affected. A wrong answer claiming \"rubella causes birth defects at any stage\" fails to analyse stage-specific pathogen mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "\"Advanced maternal age (over 35) is the most significant preventable risk factor for abnormal prenatal development.\" Critique this statement using evidence about teratogens, maternal nutrition, and chromosomal abnormalities.",
+     "a": "Correct: The statement is flawed. Maternal age >35 increases chromosomal non-disjunction risk (e.g., Trisomy 21) but is non-modifiable. Teratogens (alcohol, tobacco, infections) and malnutrition are modifiable and cause more total adverse outcomes globally. Folic acid deficiency causes neural tube defects regardless of age. A wrong answer agreeing with the statement reveals inability to distinguish modifiable vs. non-modifiable risks and overestimates age relative to environmental factors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-panel illustrated timeline showing the transition from zygote to foetus. Each panel must depict: (1) germinal stage with implantation, (2) embryonic stage with neural tube formation, (3) early foetal stage with limb movement, (4) late foetal stage with brain gyri formation. Caption each with the developmental milestone and its psychological significance.",
+     "a": "Expected: Panel 1: Zygote → blastocyst implanting in uterine wall (week 1) — \"Foundation: genetic blueprint meets maternal environment.\" Panel 2: Embryo with neural tube closing (week 4) — \"Critical period: CNS formation begins; folic acid essential.\" Panel 3: Foetus with limb buds moving (week 12) — \"Emergence of behaviour: reflexes appear; sensory systems develop.\" Panel 4: Foetus with convoluted brain surface (week 30) — \"Foundation for cognition: cortical organisation enables learning post-birth.\" Poor answer misses transitions or psychological significance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

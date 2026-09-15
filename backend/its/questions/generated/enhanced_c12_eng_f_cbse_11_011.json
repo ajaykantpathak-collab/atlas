@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_11_011",
+   "title": "c12_eng_f_cbse_11_011",
+   "questions": [
+    {
+     "q": "Identify the archaic or poetic word forms used in the poem \"A Thing of Beauty\" and give one example with its modern equivalent.",
+     "a": "The poem uses \"morrow\" (modern: morning/tomorrow), \"o'er-darkened\" (modern: over-darkened), and \"brake\" (meaning thicket/fern mass, not the verb \"break\"). A wrong answer like \"beauty, joy, forever\" shows the student confuses vocabulary with grammatical archaism — they are picking content words, not outdated forms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet writes \"Therefore, on every morrow, are we wreathing\" instead of the standard \"Therefore we are wreathing on every morrow.\"",
+     "a": "The inversion (placing the adverbial phrase \"on every morrow\" before the auxiliary verb \"are\") fronts the time element, emphasizing the daily, repetitive nature of the act. It also creates a metrical beat that matches the rhyming couplet structure. A wrong answer like \"it sounds more poetic\" is vague — it misses the specific syntactic mechanism (subject-auxiliary inversion after a fronted adverbial) and its semantic effect (foregrounding recurrence).",
+     "self_check": true
+    },
+    {
+     "q": "In the lines \"Of noble natures, of the gloomy days, / Of all the unhealthy and o'er-darkened ways / Made for our searching: yes, in spite of all,\" identify the grammatical structure that creates balance and name the punctuation mark that signals the end of the list.",
+     "a": "The structure is a triple prepositional phrase parallelism: \"Of noble natures,\" \"of the gloomy days,\" \"Of all the unhealthy and o'er-darkened ways\" — all objects of the preposition \"of\" governed by the implied \"Spite of\" from the previous line. The colon after \"searching\" marks the end of the list and introduces the concessive clause \"yes, in spite of all.\" A wrong answer that calls it \"a list of nouns\" misses the prepositional parallelism and the colon's syntactic role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence \"Some shape of beauty moves away the pall / From our dark spirits\" with a passive version \"The pall is moved away from our dark spirits by some shape of beauty.\" Which version better serves the poem's theme? Justify using grammatical agency.",
+     "a": "The active voice (\"Some shape of beauty moves...\") assigns agency to beauty itself, making beauty the doer — it acts upon the human spirit. The passive version buries beauty in a \"by\" phrase, weakening the thematic claim that beauty actively rescues us. A wrong answer that says \"both mean the same\" ignores how voice choice encodes thematic agency, a core concept in both board answer-writing and stylistic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effect of the semi-colon in \"Trees old, and young, sprouting a shady boon / For simple sheep; and such are daffodils / With the green world they live in.\" Does it coordinate two independent clauses or separate items in a complex list? Defend your answer.",
+     "a": "It coordinates two independent clauses: Clause 1 = \"Trees old, and young, sprouting a shady boon for simple sheep\" (subject \"Trees\", verb \"are\" implied from \"such are\" in clause 2 via ellipsis); Clause 2 = \"such are daffodils with the green world they live in.\" The semi-colon balances two equal examples of \"things of beauty.\" A wrong answer calling it a list separator fails to recognize the clausal structure and the elliptical \"are\" that links them.",
+     "self_check": true
+    },
+    {
+     "q": "Write two original lines of poetry that imitate Keats's use of (a) fronted adverbial inversion and (b) triple prepositional parallelism. Label each feature in your lines.",
+     "a": "Example: (a) \"In every silent dawn, rise the hopes anew\" — fronted adverbial \"In every silent dawn\" triggers inversion \"rise the hopes.\" (b) \"Of whispered dreams, of fragile light, / Of paths unseen we walk at night\" — three \"Of\" phrases in parallel. A poor answer writes normal sentences (\"Hopes rise in every dawn\") showing the student cannot produce the syntactic patterns they were asked to analyze.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

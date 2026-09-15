@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_010",
+   "title": "c11_bs_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define 'public sector enterprise' as per the Companies Act, 2013, specifying the minimum government shareholding threshold.",
+     "a": "A public sector enterprise (government company) is defined under Section 2(45) of the Companies Act, 2013 as any company in which not less than 51% of the paid-up share capital is held by the central government, or by any state government(s), or partly by the central government and partly by one or more state governments. A wrong answer (e.g., \"any company with government shares\" or \"50% threshold\") reveals the student lacks the precise legal definition required for board exam answer writing and cannot distinguish a government company from a private company with minor government investment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indian economy is classified as a 'mixed economy' and how this classification shapes the coexistence of private and public sectors.",
+     "a": "The Indian economy is a mixed economy because the government deliberately allows both private enterprises (driven by profit) and public enterprises (driven by social welfare) to operate simultaneously, as stated in the Industrial Policy Resolutions. This coexistence is not accidental but a policy choice: the public sector handles strategic areas (defence, atomic energy, railways) while the private sector operates in consumer goods, services, etc. A wrong answer that merely defines mixed economy as \"both sectors exist\" without linking it to government policy and the Industrial Policy Resolutions shows the student cannot connect the classification to the historical policy framework that governs sectoral boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following enterprises as private or public sector and justify each classification in one sentence: (a) Reliance Industries Ltd., (b) Indian Railways, (c) Bharat Heavy Electricals Ltd. (BHEL), (d) Tata Consultancy Services (TCS), (e) State Bank of India (SBI).",
+     "a": "(a) Reliance Industries Ltd. – Private sector: Owned by private promoters (Ambani family), listed on stock exchanges, profit-driven. (b) Indian Railways – Public sector (Departmental Undertaking): Wholly owned by Central Government, part of a ministry, funded by budget, not a separate legal entity. (c) BHEL – Public sector (Government Company): 51%+ shares held by Government of India, registered under Companies Act. (d) TCS – Private sector: Part of Tata Group, privately promoted, listed, profit-maximising. (e) SBI – Public sector (Statutory Corporation): Created by SBI Act, 1955, majority government-owned, distinct legal entity. A wrong classification (e.g., calling SBI a private bank because it's listed) reveals confusion between listing status and ownership control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanisms of a departmental undertaking and a government company. How does the difference in accountability affect their operational autonomy?",
+     "a": "Departmental undertakings are directly accountable to the concerned ministry and Parliament through the minister; their accounts are audited by CAG and they follow government accounting rules. Government companies are accountable to Parliament only through the annual report; they are audited by a CAG-appointed auditor but follow Companies Act accounting standards. This gives government companies greater operational autonomy in day-to-day decisions (hiring, procurement, pricing) while departmental undertakings face bureaucratic delays due to ministry approval requirements. A wrong answer that says \"both are equally accountable to Parliament\" misses the crucial distinction in the *mechanism* and *degree* of accountability that directly impacts autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Public sector enterprises are inherently less efficient than private sector enterprises.\" Use at least three distinct parameters from the chapter to support your evaluation.",
+     "a": "The statement is an overgeneralisation. While private sector enterprises often show higher *operational* efficiency due to profit motive and market discipline, public sector enterprises serve different objectives: (1) **Social welfare** – e.g., providing subsidised railway transport to remote areas where private operators won't go; (2) **Strategic security** – e.g., defence production (Ordnance Factories) cannot be profit-driven; (3) **Regional balance** – public sector sets up plants in backward areas (e.g., Bhilai Steel Plant) despite lower returns. Efficiency must be measured against *mandated objectives*, not just profit. A wrong answer that simply agrees/disagrees without qualifying \"efficiency\" relative to objectives shows inability to evaluate using the chapter's framework of multiple public sector roles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a private sector enterprise is converted into a public sector enterprise. Describe the conversion process and list three changes in its governance, funding, and objectives that would necessarily follow.",
+     "a": "Scenario: The government acquires 100% shares of a private airline \"SkyHigh Airways\" via an Act of Parliament, converting it into a statutory corporation \"National Airways Corporation.\" Changes: (1) **Governance**: Board now includes government nominees; decisions on routes/fares require ministry approval; (2) **Funding**: Capital comes from government budget/borrowings guaranteed by government, not private equity; (3) **Objectives**: Mandate expands to include non-profitable routes to remote regions, subsidised fares for students/senior citizens. A poor answer that only says \"government takes over\" without specifying the legal form change (Companies Act → Special Act) and the three mandatory shifts shows inability to synthesise the structural implications of sector change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

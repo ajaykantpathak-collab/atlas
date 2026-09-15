@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_010",
+   "title": "c12_biotech_cbse_03_010",
+   "questions": [
+    {
+     "q": "What is the primary biological mechanism that amplifies a cloned gene inside a bacterial host cell after transformation?",
+     "a": "The primary mechanism is the host cell's own DNA replication machinery replicating the recombinant plasmid during binary fission. Each cell division doubles the number of plasmid copies per cell lineage. A wrong answer (e.g., \"PCR inside the cell\" or \"the gene integrates into the chromosome and replicates with it\") reveals the student confuses in vitro amplification with in vivo replication or misunderstands plasmid biology — plasmids replicate independently of the chromosome.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I plate transformed bacteria on medium WITHOUT antibiotic, the recombinant plasmid will still be amplified because the bacteria will keep dividing.\" Explain why this statement is incorrect and what will actually happen to the plasmid population over several generations.",
+     "a": "Without antibiotic selection, plasmid-bearing cells face a metabolic burden (replicating extra DNA, expressing antibiotic resistance genes) and grow slower than plasmid-free cells. Over generations, plasmid-free cells outcompete plasmid-bearing ones, and the recombinant plasmid is lost from the population. A wrong answer (e.g., \"the plasmid will be maintained because it has an origin of replication\") shows the student ignores the selective pressure required to maintain extrachromosomal elements — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A recombinant plasmid has a copy number of 300 per cell. You start with a single transformed *E. coli* cell and grow it for 10 generations in selective medium. Assuming no plasmid loss, calculate the total number of recombinant plasmid molecules in the final culture. Show your steps.",
+     "a": "Step 1: Number of cells after 10 generations = 2^10 = 1024 cells.  \nStep 2: Each cell carries ~300 plasmid copies.  \nStep 3: Total plasmids = 1024 cells × 300 plasmids/cell = 307,200 plasmids.  \nA wrong answer (e.g., 300 × 10 = 3000) reveals the student fails to apply exponential growth of cells and instead uses linear multiplication — a common error in both board and NEET numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast in vivo amplification (host cell replication) and in vitro amplification (PCR) in terms of: (a) template requirement, (b) enzyme source, (c) fidelity, (d) scalability for protein production.",
+     "a": "(a) In vivo: requires a living host cell with replication machinery; PCR: requires only purified DNA template.  \n(b) In vivo: host's DNA Pol III (high fidelity, proofreading); PCR: Taq polymerase (no proofreading, lower fidelity) or Pfu (high fidelity).  \n(c) In vivo fidelity ~10^-9 errors/base; PCR with Taq ~10^-5 errors/base.  \n(d) In vivo scales to litres of culture for protein production; PCR yields µg amounts of DNA, not protein.  \nA wrong answer that swaps enzyme sources or claims PCR produces protein reveals fundamental confusion between DNA amplification and protein expression.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For producing a recombinant human protein for therapeutic use, in vivo amplification in *E. coli* is always superior to PCR because it yields more DNA.\" Defend or refute with three specific reasons.",
+     "a": "Refute. Three reasons:  \n1. *E. coli* lacks post-translational modifications (glycosylation, disulfide bond formation) needed for many human therapeutic proteins — PCR doesn't produce protein at all, but eukaryotic hosts (CHO cells) do.  \n2. In vivo amplification can lead to plasmid instability, mutation, or inclusion body formation; PCR gives pure, defined DNA for cloning into better expression systems.  \n3. PCR is essential for site-directed mutagenesis, adding tags, or amplifying from limited samples (e.g., forensic, ancient DNA) before cloning.  \nA student who agrees shows they equate \"more DNA\" with \"better therapeutic product\" — ignoring protein folding, modifications, and regulatory requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to amplify a 2.5 kb human gene cloned into a low-copy-number plasmid (copy number ~15) to obtain 10 µg of purified plasmid DNA. Specify: host strain, culture volume, antibiotic, and how you would verify amplification success at each stage.",
+     "a": "Strategy:  \n1. Transform into *E. coli* DH5α (high transformation efficiency, recA- for stability).  \n2. Plate on LB + ampicillin (100 µg/mL) → pick single colony → inoculate 5 mL LB+amp → grow 8 h (starter).  \n3. Scale up to 500 mL LB+amp in 2 L flask, shake at 37°C, 200 rpm until OD600 ~1.5 (~16 generations).  \n4. Harvest cells, use midi-prep kit (alkaline lysis) for low-copy plasmid. Expected yield: ~10 µg from 500 mL.  \n5. Verify: (a) Colony PCR on starter culture, (b) Analytical restriction digest of midi-prep DNA, (c) Nanodrop 260/280 ~1.8, (d) Agarose gel for supercoiled band.  \nA poor answer omits verification steps, uses high-copy plasmid assumptions, or ignores low-copy yield adjustments — showing lack of practical lab planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

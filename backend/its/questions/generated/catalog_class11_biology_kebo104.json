@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_biology_kebo104",
+ "concepts": [
+  {
+   "id": "kebo.104.1.1",
+   "title": "Basis of Classification: Symmetry, Germ Layers, Coelom and Segmentation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Basis of Classification: Symmetry, Germ Layers, Coelom and Segmentation' refers to.",
+     "a": "Animals are classified on fundamental features such as levels of organisation, body symmetry, number of germ layers, presence or absence of coelom, segmentation and the presence of a notochord, which decide their position in the animal kingdom.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Basis of Classification: Symmetry, Germ Layers, Coelom and Segmentation'.",
+     "a": "Diploblastic animals have two germ layers while triploblastic ones have three, and a true coelom lined by mesoderm separates eucoelomates from pseudocoelomates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Basis of Classification: Symmetry, Germ Layers, Coelom and Segmentation' taught, and from which source text?",
+     "a": "4.1 Basis of Classification (source: kebo104.txt section 4.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.104.2.1",
+   "title": "Non-chordate Phyla from Porifera to Echinodermata",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-chordate Phyla from Porifera to Echinodermata' refers to.",
+     "a": "The non-chordate phyla run from Porifera with canal systems and spicules, Coelenterata with cnidoblasts, Ctenophora, Platyhelminthes with flame cells, Aschelminthes, Annelida with nephridia, Arthropoda with jointed appendages, Mollusca with a shell, to Echinodermata with a water vascular system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-chordate Phyla from Porifera to Echinodermata'.",
+     "a": "Each phylum carries a signature feature, such as porous bodies in sponges, stinging cells in cnidarians and jointed feet in arthropods, that fixes its identity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-chordate Phyla from Porifera to Echinodermata' taught, and from which source text?",
+     "a": "4.2 Classification of Animals (source: kebo104.txt phylum descriptions)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.104.3.1",
+   "title": "Chordata: Characters and Protochordates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chordata: Characters and Protochordates' refers to.",
+     "a": "Chordates possess a notochord, dorsal hollow nerve cord, paired pharyngeal gill slits, a post-anal tail and a ventral heart; urochordata and cephalochordata are protochordates while vertebrata bears a vertebral column replacing the notochord in the adult.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chordata: Characters and Protochordates'.",
+     "a": "The fundamental plan of chordates differs from non-chordates in the position of nerve cord, heart and the presence of a post-anal tail.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Chordata: Characters and Protochordates' taught, and from which source text?",
+     "a": "4.2.11 Phylum Chordata (source: kebo104.txt chordata sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.104.4.1",
+   "title": "Classes of Vertebrata from Cyclostomata to Mammalia",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classes of Vertebrata from Cyclostomata to Mammalia' refers to.",
+     "a": "Vertebrates are divided into cyclostomata with a sucking mouth, chondrichthyes with cartilaginous fish, osteichthyes with bony fish, amphibians with moist skin and aquatic larvae, reptiles with dry scales, aves with feathers and pneumatic bones, and mammalia with hair and mammary glands.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classes of Vertebrata from Cyclostomata to Mammalia'.",
+     "a": "Cold-blooded classes include fishes, amphibians and reptiles, while birds and mammals are warm-blooded, and mammals alone nourish young with milk.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classes of Vertebrata from Cyclostomata to Mammalia' taught, and from which source text?",
+     "a": "4.2.11.1 Class Cyclostomata to 4.2.11.7 Class Mammalia (source: kebo104.txt vertebrate classes)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_010",
+   "title": "c12_biotech_cbse_13_010",
+   "questions": [
+    {
+     "q": "State the four specific rights granted to farmers under Section 39 of the PPV&FR Act, 2001.",
+     "a": "The four rights are: (1) Right to save, use, sow, re-sow, exchange, share, or sell farm-saved seed/propagating material of a protected variety (except branded seed); (2) Right to register a new variety as a farmer's variety; (3) Right to reward/compensation from the National Gene Fund for conservation of genetic resources; (4) Right to claim compensation if a registered variety fails to perform as claimed. A wrong answer (e.g., listing only \"right to save seeds\" or confusing with breeders' rights) reveals the student has memorized the term \"Farmers' Rights\" but not the statutory specifics — a common board exam error where students write generic statements instead of citing Section 39 clauses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India did not join UPOV 1991 and instead enacted the PPV&FR Act, 2001 as a sui generis system under TRIPS Article 27.3(b).",
+     "a": "UPOV 1991 prohibits farmers from saving, exchanging, or selling seeds of protected varieties (only allows private, non-commercial use on own holdings). India's agriculture is dominated by smallholders who depend on farm-saved seeds and informal seed systems. The PPV&FR Act, 2001, as a sui generis system, complies with TRIPS Article 27.3(b) by granting breeders' rights (via registration) while simultaneously enshrining farmers' rights (Section 39) and benefit-sharing. A wrong answer that says \"UPOV is bad\" without referencing TRIPS flexibility or the smallholder context shows the student doesn't understand the international legal framework — a frequent NEET/CUET trap where they must distinguish between UPOV 1978 (allowed farm-saved seed) and UPOV 1991 (banned it).",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Karnataka develops a new drought-tolerant rice variety through selection over 15 years. A company registers a similar variety under PPV&FR Act. The farmer claims his variety was used. What legal steps can the farmer take under the PPV&FR Act, and what evidence must he provide?",
+     "a": "The farmer can: (1) File an opposition to the company's registration within 3 months of publication (Section 21) claiming the variety is not novel/distinct because it's derived from his farmer's variety; (2) Apply to register his own variety as a \"Farmer's Variety\" (Section 14(c)) with evidence of development and cultivation; (3) Claim benefit-sharing from the National Gene Fund if his genetic material was used (Section 26). Evidence: documentation of selection history, witnesses, seed samples, cultivation records, and proof of distinctness/uniformity/stability (DUS) for his variety. A wrong answer suggesting only \"go to court\" or \"patent it\" reveals confusion between patent law (no protection for farmer-developed varieties) and the PPV&FR Act's specific farmer variety registration and opposition procedures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the neem and basmati biopiracy cases: identify the type of IPR granted (patent vs. plant variety protection), the jurisdiction, the traditional knowledge claimed, and the legal ground for revocation in each case.",
+     "a": "Neem: W.R. Grace/EPA got a **patent** (EP 0436257) in **EPO** for neem oil extraction as fungicide; traditional knowledge = centuries of use as pesticide/medicine; revoked on ground of **lack of novelty** (prior art in Indian texts). Basmati: RiceTec got a **plant variety protection/patent** (US Patent 5,663,484) in **USPTO** for specific basmati lines and breeding methods; traditional knowledge = geographic indication and farmer selection over centuries; partially revoked after re-examination on grounds of **obviousness and prior art** (Indian basmati varieties existed). A wrong answer conflating the two (e.g., saying both were patents in the US) shows inability to distinguish IPR types and jurisdictions — a board exam staple where case-study comparison is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The PPV&FR Act, 2001 fully protects seed sovereignty because it allows farmers to sell farm-saved seeds.\" Use the 'branded seed' exception and the impact of seed certification laws to justify your answer.",
+     "a": "The statement is **partially false**. Section 39(1)(iv) permits sale of farm-saved seed **except branded seed** (seed packaged/labeled with variety name/brand). This exception allows companies to control the commercial market by branding. Moreover, the Seeds Act, 1966 and Seed Rules require certification for commercial sale; farm-saved seeds often fail certification standards (genetic purity, germination), effectively restricting sale to informal exchange. True seed sovereignty requires unrestricted right to sell — which the Act does not grant. A wrong answer agreeing fully ignores the branded-seed carve-out and the regulatory barrier of certification — a nuance tested in competency-based board questions (case-based) and NEET (assertion-reason).",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level seed sovereignty model for a tribal region in Odisha that integrates the Biodiversity Act, 2002 (BMCs, PBRs), the PPV&FR Act (farmer variety registration), and TKDL principles. Outline 5 concrete steps.",
+     "a": "A strong model includes: (1) Establish **Biodiversity Management Committees (BMCs)** in each gram panchayat to document local varieties in **People's Biodiversity Registers (PBRs)** — creating prior art against biopiracy; (2) Register farmer-developed varieties under **PPV&FR Act as \"Farmer's Varieties\"** (Section 14(c)) using PBR data as evidence of distinctness; (3) Create a **Community Seed Bank** managed by BMC for saving/exchanging registered varieties — operationalizing Section 39 rights; (4) Link PBR data to **TKDL** (via NBA) to prevent patenting abroad; (5) Negotiate **Benefit-Sharing Agreements** (Section 21 Biodiversity Act) if companies access varieties, funneling funds to community conservation. A weak answer listing only \"set up seed bank\" misses the legal integration of PBRs, PPV&FR registration, and TKDL — showing inability to synthesize across Acts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

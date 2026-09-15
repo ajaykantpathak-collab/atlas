@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_005",
+   "title": "c11_soc_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define \"role set\" and give one example from a school context.",
+     "a": "A role set is the array of roles attached to a single status. Example: A teacher's status has a role set including instructor, evaluator, mentor, disciplinarian, and colleague. A wrong answer (e.g., listing roles from different statuses like \"teacher, parent, voter\") reveals the student confuses role set (roles of ONE status) with status set (multiple statuses of one person).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between \"role taking\" and \"role playing\". Why does the textbook say a child learns role taking before role playing?",
+     "a": "Role taking is the cognitive process of imagining how others view our behaviour (taking the perspective of the \"generalized other\"); role playing is the actual performance of the expected behaviour. The textbook sequence: a child first learns to anticipate others' reactions (role taking) through interaction, then enacts the role (role playing). A wrong answer that treats them as synonyms reveals the student misses the internal/external distinction central to Mead's socialization theory.",
+     "self_check": true
+    },
+    {
+     "q": "A male nurse in a government hospital is expected to be \"compassionate and gentle\" (stereotypically feminine traits) by patients, but \"decisive and authoritative\" (stereotypically masculine traits) by senior doctors during emergencies. Identify the type of role conflict and the specific statuses involved.",
+     "a": "This is inter-role conflict (conflict between roles of different statuses). Status 1: Nurse (professional role expectations from doctors). Status 2: Male caregiver (gendered role expectations from patients). A wrong answer identifying it as intra-role conflict (within one status) reveals the student cannot distinguish conflict *between* statuses from conflict *within* a single status's role set.",
+     "self_check": true
+    },
+    {
+     "q": "Compare role conflict in a Khasi matrilineal society (as described in the textbook) with role conflict faced by a middle-class working woman in a patrilineal urban setting. What structural feature of society creates the conflict in each case?",
+     "a": "Khasi men: conflict between natal household responsibilities (to sister's children) and conjugal responsibilities (to wife/own children) — created by matrilineal descent rules. Urban working woman: conflict between domestic role (mother/wife) and professional role — created by gendered division of labour in patrilineal capitalism. A wrong answer that attributes both to \"personal inability to manage time\" reveals the student misses the structural/institutional origin of role conflict.",
+     "self_check": true
+    },
+    {
+     "q": "\"Role stereotyping reinforces inequality but also provides cognitive ease in social interaction.\" Evaluate this statement using the concepts of role taking and socialization.",
+     "a": "Evaluation: Stereotyping reduces the cognitive load of role taking (we don't have to negotiate each interaction from scratch) but fossilizes power relations (e.g., breadwinner/homemaker) by making them appear \"natural.\" Socialization internalizes these stereotypes, making individuals complicit in their own constraint. A weak evaluation that only lists pros or cons reveals the student cannot weigh the functional and conflict perspectives simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Create a original scenario involving a 22-year-old gig worker (food delivery) who is also a first-generation college student and the eldest son in a rural migrant family. Describe his status set, identify two role conflicts, and suggest how role taking might help him negotiate one of them.",
+     "a": "Status set: gig worker, college student, eldest son, migrant family member. Role conflict 1: Delivery algorithm demands speed (worker role) vs. family expectation to attend evening prayers (son role). Conflict 2: College assignment deadline (student role) vs. peak-hour delivery incentives (worker role). Role taking: He imagines his father's disappointment (taking father's role) and his manager's rating pressure (taking algorithm's role) to prioritize a 2-hour study block before peak hours. A poor scenario that lists only one status or misses the negotiation aspect reveals the student cannot synthesize status set, role conflict, and role taking into a coherent analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

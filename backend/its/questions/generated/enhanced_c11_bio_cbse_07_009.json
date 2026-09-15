@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_009",
+   "title": "c11_bio_cbse_07_009",
+   "questions": [
+    {
+     "q": "Name the three main divisions of the frog's brain and state one characteristic structure found in each division.",
+     "a": "The three divisions are: (1) Forebrain – contains olfactory lobes, paired cerebral hemispheres, and unpaired diencephalon; (2) Midbrain – characterised by a pair of optic lobes; (3) Hindbrain – consists of cerebellum and medulla oblongata. A wrong answer (e.g., listing \"cerebrum, cerebellum, medulla\" without optic lobes or diencephalon) reveals that the student is recalling the human brain structure and not the frog‑specific organisation where optic lobes are prominent and the cerebrum is not divided into distinct lobes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ureters in male frogs are called urinogenital ducts, whereas in female frogs the ureters and oviducts open separately into the cloaca.",
+     "a": "In male frogs, the ureters carry both urine and sperm (via vasa efferentia that run through the kidney and open into the ureter), so they serve a dual excretory and reproductive function – hence \"urinogenital duct\". In females, the ureters carry only urine, while the oviducts carry ova; they remain separate and open independently into the cloaca. A wrong answer that states \"both sexes have urinogenital ducts\" shows confusion between the male and female urogenital anatomy and a failure to link the vasa efferentia pathway to the ureter.",
+     "self_check": true
+    },
+    {
+     "q": "A frog is placed in a tank with a clear partition; a live insect is placed on the other side. The frog sees the insect but cannot reach it. Trace the neural pathway from the visual stimulus to the motor response of the tongue projection, naming the specific cranial nerves and brain regions involved.",
+     "a": "Light from the insect enters the eye → optic nerve (cranial nerve II) → optic lobes in the midbrain (processing) → motor command via the trigeminal nerve (cranial nerve V) and facial nerve (cranial nerve VII) to the muscles of the tongue and jaw → tongue projection. A wrong answer that omits the optic lobes or uses the spinal cord instead of cranial nerves indicates the student cannot apply the reflex arc concept to a cranial reflex and does not know the specific cranial nerves for vision and tongue movement in frogs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the frog's kidney (mesonephros) with the human kidney (metanephros) in terms of (a) presence of loop of Henle, (b) nitrogenous waste product, and (c) ability to produce concentrated urine. Explain how these differences relate to their habitats.",
+     "a": "(a) Frog mesonephric nephrons lack a loop of Henle; human metanephric nephrons have a well‑developed loop of Henle. (b) Frog excretes urea (ureotelic); human excretes urea (ureotelic) but can also excrete uric acid in small amounts. (c) Without a loop of Henle, frogs cannot produce hypertonic urine and rely on water absorption through skin; humans can concentrate urine to conserve water. A wrong answer claiming frogs have a loop of Henle or that both produce equally concentrated urine shows a lack of understanding of the evolutionary adaptation of the kidney to terrestrial vs. amphibious life.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the frog's cloaca receives faeces, urine, and sperm, it must be a common chamber where all three mix thoroughly before expulsion.\" Evaluate this statement and correct any misconception.",
+     "a": "The statement is partially incorrect. The cloaca is a common chamber, but the three products do not mix indiscriminately. The rectum, ureters (or urinogenital ducts), and (in males) the urinogenital ducts open into the cloaca at different points; sphincters and timing of release prevent mixing. Faeces are expelled during defecation, urine is stored in the urinary bladder and released separately, and sperm are released during amplexus. A wrong answer that accepts the mixing idea reveals a misunderstanding of the cloaca's functional compartmentalisation and the role of the urinary bladder as a temporary urine reservoir.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that the frog's skin participates in both respiration and excretion. List the materials, procedure, and the expected observations that would confirm each function.",
+     "a": "Materials: live frog (or freshly pithed frog), two beakers with water, dissolved oxygen test kit, ammonia/urea test strips, petroleum jelly. Procedure: (1) Coat the ventral skin of one frog with petroleum jelly (blocking cutaneous exchange); leave another frog untreated. (2) Place each in separate beakers with equal volumes of aerated water. (3) After 30 minutes, test water for dissolved oxygen decrease (respiration) and ammonia/urea increase (excretion). Expected: Untreated frog shows greater O₂ drop and higher nitrogenous waste in water; coated frog shows reduced cutaneous exchange. A poor experiment design that does not include a control or fails to separate respiratory from excretory measurements indicates the student cannot isolate variables or link skin function to both systems simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

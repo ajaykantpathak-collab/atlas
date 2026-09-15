@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_5",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_5",
+   "title": "c9_physics_ch4_5",
+   "questions": [
+    {
+     "q": "State the formula for kinetic energy of an object of mass \\( m \\) moving with speed \\( v \\), and give its SI unit.",
+     "a": "\\( KE = \\frac{1}{2}mv^2 \\); SI unit is joule (J). A wrong answer like \\( KE = mv \\) or unit as newton reveals the student confuses momentum with kinetic energy or force with energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the kinetic energy formula have a factor of \\( \\frac{1}{2} \\) and \\( v^2 \\) instead of just \\( mv \\) or \\( mv^2 \\)?",
+     "a": "The \\( \\frac{1}{2} \\) arises from the integration of \\( F\\,ds \\) using \\( v^2 = u^2 + 2as \\) (or average velocity \\( v/2 \\) during acceleration from rest). The \\( v^2 \\) comes from the kinematic relation linking displacement to velocity squared. A student answering \"because energy is proportional to \\( v^2 \\)\" without deriving shows they memorized but don't understand the work-energy link.",
+     "self_check": true
+    },
+    {
+     "q": "A 150 g cricket ball is bowled at 144 km/h. Calculate its kinetic energy in joules.",
+     "a": "Step 1: Convert mass to kg: \\( 150 \\, \\text{g} = 0.150 \\, \\text{kg} \\).  \nStep 2: Convert speed to m/s: \\( 144 \\, \\text{km/h} = 144 \\times \\frac{1000}{3600} = 40 \\, \\text{m/s} \\).  \nStep 3: Use \\( KE = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 0.150 \\times (40)^2 \\).  \nStep 4: \\( KE = 0.075 \\times 1600 = 120 \\, \\text{J} \\).  \nStep 5: Check: a fast cricket ball has energy ~100 J — reasonable.  \nWrong unit conversion (using km/h directly) gives 432,000 J — reveals ignoring SI unit consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Two trucks have the same kinetic energy. Truck A has mass 4000 kg, Truck B has mass 1000 kg. Compare their speeds and momenta.",
+     "a": "\\( KE_A = KE_B \\Rightarrow \\frac{1}{2}m_A v_A^2 = \\frac{1}{2}m_B v_B^2 \\Rightarrow v_A/v_B = \\sqrt{m_B/m_A} = \\sqrt{1000/4000} = 1/2 \\). So \\( v_B = 2v_A \\).  \nMomentum \\( p = mv \\): \\( p_A = 4000 v_A \\), \\( p_B = 1000 \\times 2v_A = 2000 v_A \\). Thus \\( p_A = 2p_B \\).  \nA student saying speeds are equal or momenta are equal confuses kinetic energy with momentum or ignores the square root relation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a car's speed doubles, its kinetic energy doubles.\" Evaluate this statement and correct it if wrong.",
+     "a": "The statement is incorrect. Since \\( KE \\propto v^2 \\), doubling speed (\\( v \\to 2v \\)) makes kinetic energy increase by factor \\( 2^2 = 4 \\). The student likely thinks kinetic energy is directly proportional to velocity (like momentum). This reveals a confusion between linear and quadratic dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a ramp, a toy car, and a measuring tape to show that kinetic energy is proportional to \\( v^2 \\), not \\( v \\).",
+     "a": "Release the car from different heights \\( h \\) on the ramp. Measure speed \\( v \\) at bottom (using time over fixed distance). Plot \\( KE \\) (calculated from \\( mgh \\)) vs \\( v \\) and vs \\( v^2 \\). The \\( KE \\) vs \\( v^2 \\) graph will be linear through origin. A poor answer suggests measuring only one height or plotting \\( KE \\) vs \\( v \\) and claiming linearity — shows lack of experimental design understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

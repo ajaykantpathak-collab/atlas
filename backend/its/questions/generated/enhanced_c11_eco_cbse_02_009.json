@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_009",
+   "title": "c11_eco_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define import substitution strategy and name the two specific policy instruments used to implement it in India during 1950-1990.",
+     "a": "Import substitution is an inward-looking trade strategy that aims to replace imports with domestic production by protecting domestic industries from foreign competition. The two instruments are: (1) Tariffs - taxes on imported goods that raise their price, and (2) Quotas - quantitative limits on the volume of goods that can be imported. A wrong answer that only mentions \"restrictions\" without distinguishing tariffs (price-based) from quotas (quantity-based) reveals the student cannot differentiate between price and quantity instruments of trade policy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did India's planners choose import substitution over export promotion in the first seven Five Year Plans? Explain using the concepts of infant industry argument and foreign exchange scarcity.",
+     "a": "Planners chose import substitution because: (1) Infant industry argument - domestic industries were too young and inefficient to compete with established foreign producers; protection gave them time to achieve economies of scale and learn-by-doing. (2) Foreign exchange scarcity - India feared that free imports would drain limited foreign reserves on luxury/consumer goods rather than essential capital goods. A wrong answer that says \"India wanted to be self-sufficient\" without explaining the economic mechanism (infant industry learning + forex constraint) shows superficial understanding of the strategic rationale.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose India imposes a 50% tariff on imported cars. The world price of a car is ₹10 lakh. Domestic producers previously sold at ₹12 lakh but now face the tariff-inclusive import price. Calculate the new effective price of imported cars and explain whether domestic producers will necessarily raise their price to ₹15 lakh.",
+     "a": "Step 1: World price = ₹10 lakh. Step 2: Tariff = 50% of ₹10 lakh = ₹5 lakh. Step 3: New import price = ₹10 lakh + ₹5 lakh = ₹15 lakh. Step 4: Domestic producers need NOT raise price to ₹15 lakh; they can price anywhere below ₹15 lakh (e.g., ₹13 lakh) to capture market share while earning higher margins than before. Step 5: The tariff creates a \"price ceiling\" for domestic pricing, not a mandate. A wrong answer stating domestic price must equal ₹15 lakh reveals confusion between tariff-inclusive import price and domestic pricing strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how import substitution affected the following three variables in India during 1950-1990: (a) Industrial sector's share in GDP, (b) Variety of industries, (c) Quality of goods available to consumers. Use data from the NCERT text to support your analysis.",
+     "a": "(a) Industrial share in GDP rose from 13% (1950-51) to 24.6% (1990-91) - positive structural change. (b) Industry diversified beyond cotton textiles and jute into electronics, automobiles, heavy machinery - positive diversification. (c) Quality suffered because protection created captive markets; producers had no incentive to improve quality when consumers had no alternatives - negative welfare outcome. A wrong answer claiming all three improved shows inability to distinguish between quantitative growth (output/GDP share) and qualitative outcomes (consumer welfare, efficiency).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Import substitution successfully achieved self-reliance in industrial production but failed to create internationally competitive industries.\" Provide two pieces of evidence supporting and two contradicting this view.",
+     "a": "Supporting: (1) India achieved self-sufficiency in many capital goods and intermediate goods previously imported. (2) Industrial base diversified significantly - public sector built heavy industries (steel, machinery) that private sector couldn't. Contradicting: (1) Protection continued long after industries matured (e.g., automobiles, electronics), leading to obsolete technology and high costs. (2) Export orientation was neglected until mid-1980s; India's share in world trade fell from 2.5% (1950) to 0.5% (1990). A wrong answer that only lists successes reveals confirmation bias and inability to weigh trade-offs between self-reliance and competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a trade policy for a hypothetical developing country in 2025 that wants to build a domestic solar panel industry. Specify: (a) Tariff rate and quota level, (b) Sunset clause (when protection ends), (c) Performance benchmark for domestic firms to qualify for continued protection. Justify each element.",
+     "a": "Good answer includes: (a) Tariff: 20-30% (not prohibitive), Quota: 30% of domestic demand (allows some competition). (b) Sunset clause: 7-10 years with mid-term review. (c) Benchmark: Domestic firms must achieve 80% of world-price efficiency and export 15% of output by year 5. Justification: Moderate protection balances infant industry learning with competitive pressure; sunset clause prevents permanent protection; export benchmark forces global competitiveness. A poor answer with 100% tariff, no sunset clause, and no benchmarks reveals failure to learn from India's experience of protection becoming permanent and anti-competitive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

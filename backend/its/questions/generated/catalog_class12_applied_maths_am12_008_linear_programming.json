@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_008_linear_programming.json",
+ "concepts": [
+  {
+   "id": "am12_008.1",
+   "title": "Formulating Linear Programming Problems",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (27 - 9) / 3 gives 6",
+     "compute": "x = (27 - 9) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 3x + 9 = 27.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 6 = 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 30 = 6.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 11 = 3.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 8 = 1x + 14.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5(x + 3) = 20.",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_008.2",
+   "title": "Feasible Region Graphical Method",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 9 + 2 gives 14",
+     "compute": "total = 3 + 9 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 3, 9 and 2. Find the total frequency.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 25 units. If a row shows 11 symbols, what value does it represent?",
+     "a": "275",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 25 units, how many symbols represent 300 units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 12 units tall. How many books does it show?",
+     "a": "600",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 70 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_008.3",
+   "title": "Corner Point Method for Optimum",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a square have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_008.4",
+   "title": "Bounded Unbounded and Special Cases",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 7 * 3 + 3 gives 69",
+     "compute": "val = 5 * 3 * 3 + 7 * 3 + 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 7x + 3 as x approaches 3 (direct substitution).",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^2 is 4x^1. Find the derivative's value at x = 3.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 3x + 6, find the slope of the tangent at x = 3.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 3x + 6 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.04",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 4.",
+     "a": "7260",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

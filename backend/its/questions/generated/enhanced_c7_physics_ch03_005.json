@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_005",
+   "title": "c7_physics_ch03_005",
+   "questions": [
+    {
+     "q": "What is the primary physical process responsible for the formation of land and sea breezes?",
+     "a": "The primary process is convection. A wrong answer like \"conduction\" or \"radiation\" reveals a failure to recognize that bulk movement of air driven by temperature and density differences is specifically the hallmark of convection.",
+     "self_check": true
+    },
+    {
+     "q": "During a hot summer day in a coastal area, why does the wind blow from the sea toward the land rather than the other way around?",
+     "a": "Land absorbs solar heat much faster than water, causing the air above the land to warm, expand, and rise, which creates a low-pressure zone that draws in cooler air rushing from the sea. A student who says the sea is colder because it is deeper misses the core concept of differential heating rates between solid land and liquid water.",
+     "self_check": true
+    },
+    {
+     "q": "If air density decreases from $1.20\\text{ kg/m}^3$ to $1.15\\text{ kg/m}^3$ as it gets heated over coastal land, calculate the change in air density ($\\Delta\\rho$) and state whether this air will rise or sink.",
+     "a": "Change in density $\\Delta\\rho = 1.20\\text{ kg/m}^3 - 1.15\\text{ kg/m}^3 = 0.05\\text{ kg/m}^3$. Since warmer air has lower density than surrounding cooler air, it will rise. A student who subtracts incorrectly or claims denser air rises demonstrates a fundamental misunderstanding of buoyancy and convection.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the land breeze pattern if a coastal region experiences an unusually cloudy day where the sun's radiation is blocked equally over land and sea.",
+     "a": "Without strong differential solar heating between the land and sea, the temperature difference between them becomes negligible, causing the land and sea breezes to weaken significantly or stop entirely. A student who thinks winds will blow faster during cloudy days does not understand that temperature gradients drive these convection currents.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"At midnight on a beach, the sea is warmer than the land, so the air moves from land to sea.\" Is this scientifically sound?",
+     "a": "Yes, the statement is scientifically sound because land cools down much faster than water at night. The air above the relatively warmer sea rises, and cooler air from the land moves out toward the sea, creating a land breeze. A student who disagrees likely confuses daytime heating behaviors with nighttime cooling behaviors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using a tray of dry soil, a tray of water, and a desk lamp to demonstrate land and sea breezes in a classroom, and describe how you would verify the wind direction.",
+     "a": "Place the soil and water side-by-side in trays, position a desk lamp (representing the sun) equally above both, and hold a smoking incense stick near the boundary to track smoke movement toward the warm soil. A poor answer would fail to account for how to visualize airflow or how to simulate day versus night conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

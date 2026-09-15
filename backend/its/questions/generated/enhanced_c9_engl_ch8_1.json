@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch8_1",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch8_1",
+   "title": "c9_engl_ch8_1",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a text summary for a board exam answer?",
+     "a": "The primary purpose is to demonstrate comprehension by concisely restating the text's main ideas, key supporting details, and the writer's intent in the student's own words, without adding personal opinion or analysis. A wrong answer like \"to give my opinion on the letter\" reveals the student confuses summary with critical response; \"to copy important lines\" reveals confusion with quotation; \"to explain the theme\" reveals confusion with thematic analysis (covered in later nodes).",
+     "self_check": true
+    },
+    {
+     "q": "In the mother's letter, she writes: \"I didn't become the dancer I dreamed of, but I choreograph my life every day.\" If a student writes in their summary: \"The mother regrets not becoming a dancer,\" what misunderstanding does this show?",
+     "a": "The student has misread the tone and metaphor. The mother uses her unfulfilled dream not as regret but as evidence that dreams transform into other forms of purpose — \"choreograph my life\" implies active agency. Writing \"regret\" imposes a negative emotion the text does not support. This reveals the student reads literally and misses the metaphorical reframing, a common error when summarizing reflective personal writing.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the summary structure (Sender/Recipient → Central Message → Key Supporting Points → Tone) to this new scenario: A father writes to his son before board exams, sharing his own failure in Class 10, urging consistent effort over last-minute cramming, and ending with \"Your worth is not your marks.\" Write a 3-sentence summary.",
+     "a": "A father writes to his son before board exams, sharing his own Class 10 failure to emphasize that consistent effort matters more than last-minute cramming, and reassures him that his self-worth is not defined by marks. Steps: 1) Identify sender/recipient and context (father/son, pre-exam). 2) Extract central message (consistent effort > cramming). 3) Select key support (personal failure anecdote). 4) Capture closing tone (reassurance, worth ≠ marks). 5) Synthesize in reported speech, third person, chronological flow. A wrong answer listing events (\"Father failed, then he says study daily, then he says marks don't matter\") shows inability to synthesize into a coherent narrative arc.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two student summaries of the mother's letter. Summary A: \"The mother tells her daughter to follow her dream but be practical. She gives her own example.\" Summary B: \"The mother advises her daughter to pursue her dream with conviction, illustrating through her own abandoned dance dream that paths change, warning against shortcuts, and affirming the family's support.\" Which is better for a board exam and why?",
+     "a": "Summary B is superior. It names the specific advice (\"conviction\"), includes the specific anecdote (\"abandoned dance dream\"), captures the nuance (\"paths change\"), identifies the warning (\"shortcuts\"), and notes the emotional closure (\"family's support\") — all in one coherent sentence. Summary A uses vague phrases (\"be practical,\" \"gives example\") that could apply to any advice letter. This tests the student's ability to distinguish between a vague gist and a precise, evidence-based summary — a key board exam discriminator.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the letter is personal and emotional, my summary should include phrases like 'heartfelt,' 'touching,' and 'I felt inspired' to show I understood the tone.\" Evaluate this claim.",
+     "a": "The claim is incorrect for a board exam summary. While the letter is emotional, a summary must remain objective and analytical. Words like \"heartfelt\" are interpretations, not text content. The tone is conveyed by accurately reporting the writer's stance: \"The mother writes with encouragement and realism\" or \"She adopts a supportive but cautionary tone.\" Adding \"I felt\" shifts from summary to personal response, which is a different question type. A student making this error confuses *describing the tone* with *expressing their reaction*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-sentence \"telegraphic summary\" (strictly 25 words max) of the mother's letter that a daughter could text to her friend. It must include: sender, recipient, core advice, and one key metaphor.",
+     "a": "Mother to daughter: pursue dreams with conviction, not shortcuts; life rechoreographs unfulfilled dreams (like my dance); family supports you. (24 words) Criteria: includes all four required elements, uses reported speech, preserves metaphor (\"rechoreographs\"), stays within word limit. A poor answer like \"Mom says follow dreams but be careful, she didn't dance but it's ok, we support u\" fails by using informal language, losing the metaphor's precision, and exceeding casual tone appropriate for a board-level summary skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

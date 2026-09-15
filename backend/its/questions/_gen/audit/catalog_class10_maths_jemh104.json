@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class10_maths_jemh104.json",
+ "concepts": [
+  {
+   "id": "jemh.104.4.1",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 ** (2 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 ** (4 - 1)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 ** (2 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (3 * 5) ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 9 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 8 ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 5 ** (2 + 2)"
+   ]
+  },
+  {
+   "id": "jemh.104.4.2",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 * 5 * 5 + 3 * 5 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 3 ** 3 + 4 * 3 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 3 * 3 - 5 * 3 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 5 * 5 * 5 + 3 * 5 + 6"
+   ]
+  },
+  {
+   "id": "jemh.104.4.3",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 1 * 2 * 2 + 6 * 2 + 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 2 ** 3 + 3 * 2 + 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 1 * 1 - 5 * 1 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 4 + 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 4 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 4 * 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.104.4.4",
+   "family": "poly_quad",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 5 * 5 + 4 * 5 + 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 3 ** 3 + 5 * 3 + 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 4 * 4 - 5 * 4 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 1 + 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 1 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "const = 1 * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 2 * 5 * 5 + 4 * 5 + 4"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,537 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 1,
+ "chapter_title": "National Income and Related Aggregates",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leec102.txt",
+ "concepts": [
+  {
+   "id": "c12eco.1.1",
+   "title": "Circular Flow of Income",
+   "section": "Introduction",
+   "definition": "The circular flow of income illustrates the continuous flow of goods, services and factor payments between firms and households in an economy.",
+   "formula": "",
+   "key_idea": "Production generates income, income generates expenditure, and expenditure generates production in a circular manner.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Circular Flow of Income and explain its components.",
+    "Distinguish between related terms in Introduction.",
+    "Compute Circular Flow of Income given numerical data.",
+    "Explain the significance of Circular Flow of Income in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Circular Flow of Income."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two sectors",
+     "explain": "Households supply factors of production and consume goods; firms produce goods and use factors."
+    },
+    {
+     "step": 2,
+     "action": "Trace the flows",
+     "explain": "Real flow: factors and goods move. Money flow: factor payments and consumption expenditure move."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the identity",
+     "explain": "Total production equals total income equals total expenditure in a simple economy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the circular flow of income in a two-sector economy.",
+     "solution": "Households supply factors to firms and receive factor incomes; firms supply goods to households and receive consumption expenditure.",
+     "answer": "Production = Income = Expenditure"
+    },
+    {
+     "question": "Why is the circular flow called a continuous process?",
+     "solution": "Each phase (production, income, expenditure) feeds the next, restarting the cycle.",
+     "answer": "Because production, income and expenditure are mutually reinforcing and repeat continuously."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw and label the circular flow of income diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between real flow and money flow.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.2",
+   "title": "GDP, GNP and NNP",
+   "section": "Basic Concepts",
+   "definition": "GDP is the market value of final goods and services produced within the domestic territory in a year. GNP is GDP plus net factor income from abroad. NNP is GNP minus depreciation.",
+   "formula": "GNP = GDP + NFIA; NNP = GNP - Depreciation",
+   "key_idea": "Domestic vs national aggregates differ by net factor income from abroad; gross vs net differ by depreciation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define GDP, GNP and NNP and explain its components.",
+    "Distinguish between related terms in Basic Concepts.",
+    "Compute GDP, GNP and NNP given numerical data.",
+    "Explain the significance of GDP, GNP and NNP in national income accounting.",
+    "Identify the correct formula and apply it to a problem on GDP, GNP and NNP."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Start with GDP",
+     "explain": "Identify the market value of final goods produced domestically.",
+     "compute": "gdp = gross_domestic_output"
+    },
+    {
+     "step": 2,
+     "action": "Add net factor income from abroad",
+     "explain": "Add NFIA to convert domestic to national.",
+     "compute": "gnp = gdp + nfia"
+    },
+    {
+     "step": 3,
+     "action": "Subtract depreciation",
+     "explain": "Subtract depreciation to get the net figure.",
+     "compute": "nnp = gnp - depreciation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Given GDP = Rs 10,000 crore, NFIA = Rs 500 crore, depreciation = Rs 800 crore, find NNP.",
+     "solution": "GNP = 10000 + 500 = 10500; NNP = 10500 - 800 = 9700.",
+     "answer": "NNP = Rs 9,700 crore"
+    },
+    {
+     "question": "If GDP = Rs 5,000 crore and NFIA = -Rs 200 crore, find GNP.",
+     "solution": "GNP = GDP + NFIA = 5000 + (-200) = 4800.",
+     "answer": "GNP = Rs 4,800 crore"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between GDP and GNP.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute NNP when GDP = Rs 8,000, NFIA = Rs 300, depreciation = Rs 600.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.3",
+   "title": "Domestic vs National Income Aggregates",
+   "section": "Basic Concepts",
+   "definition": "Domestic aggregates measure income generated within the geographical territory; national aggregates include net factor income from abroad.",
+   "formula": "National = Domestic + NFIA",
+   "key_idea": "The bridge between domestic and national aggregates is net factor income from abroad (NFIA).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Domestic vs National Income Aggregates and explain its components.",
+    "Distinguish between related terms in Basic Concepts.",
+    "Compute Domestic vs National Income Aggregates given numerical data.",
+    "Explain the significance of Domestic vs National Income Aggregates in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Domestic vs National Income Aggregates."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify domestic aggregate",
+     "explain": "Start from the domestic measure (e.g. GDP).",
+     "compute": "domestic_income = gdp"
+    },
+    {
+     "step": 2,
+     "action": "Determine NFIA",
+     "explain": "NFIA = factor income earned by residents abroad minus factor income earned by non-residents domestically.",
+     "compute": "nfia = factor_income_from_abroad - factor_income_to_abroad"
+    },
+    {
+     "step": 3,
+     "action": "Add NFIA",
+     "explain": "Add NFIA to the domestic aggregate to get the national aggregate.",
+     "compute": "national_income = domestic_income + nfia"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Domestic income = Rs 20,000 crore, NFIA = Rs 1,000 crore. Find national income.",
+     "solution": "National = Domestic + NFIA = 20000 + 1000 = 21000.",
+     "answer": "National income = Rs 21,000 crore"
+    },
+    {
+     "question": "If NFIA is negative, what does it imply?",
+     "solution": "Factor payments to the rest of the world exceed receipts from abroad.",
+     "answer": "National income is less than domestic income."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of net factor income from abroad.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute national income when domestic income = Rs 15,000 and NFIA = -Rs 500.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.4",
+   "title": "Nominal GDP and Real GDP",
+   "section": "Real vs Nominal GDP",
+   "definition": "Nominal GDP is measured at current prices; real GDP is measured at constant base-year prices, removing the effect of price changes.",
+   "formula": "Real GDP = Nominal GDP / GDP deflator x 100",
+   "key_idea": "Real GDP reflects true changes in physical output by holding prices constant.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Nominal GDP and Real GDP and explain its components.",
+    "Distinguish between related terms in Real vs Nominal GDP.",
+    "Compute Nominal GDP and Real GDP given numerical data.",
+    "Explain the significance of Nominal GDP and Real GDP in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Nominal GDP and Real GDP."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify nominal GDP",
+     "explain": "Obtain GDP at current prices.",
+     "compute": "nominal_gdp = current_price_output"
+    },
+    {
+     "step": 2,
+     "action": "Obtain the GDP deflator",
+     "explain": "The deflator is the price index for GDP.",
+     "compute": "gdp_deflator = (nominal_gdp / real_gdp) * 100"
+    },
+    {
+     "step": 3,
+     "action": "Compute real GDP",
+     "explain": "Deflate nominal GDP by the deflator.",
+     "compute": "real_gdp = (nominal_gdp / gdp_deflator) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Nominal GDP = Rs 12,000 crore, GDP deflator = 120. Find real GDP.",
+     "solution": "Real GDP = (12000 / 120) x 100 = 10000.",
+     "answer": "Real GDP = Rs 10,000 crore"
+    },
+    {
+     "question": "Why is real GDP a better measure of welfare than nominal GDP?",
+     "solution": "Real GDP removes inflation, reflecting actual output changes.",
+     "answer": "Real GDP captures real purchasing power and output growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between nominal GDP and real GDP.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute real GDP if nominal GDP = Rs 9,000 and deflator = 150.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.5",
+   "title": "GDP Deflator",
+   "section": "Real vs Nominal GDP",
+   "definition": "The GDP deflator is the ratio of nominal GDP to real GDP multiplied by 100; it measures the overall price level of all goods and services in GDP.",
+   "formula": "GDP Deflator = (Nominal GDP / Real GDP) x 100",
+   "key_idea": "The deflator reflects price changes between the current year and the base year.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define GDP Deflator and explain its components.",
+    "Distinguish between related terms in Real vs Nominal GDP.",
+    "Compute GDP Deflator given numerical data.",
+    "Explain the significance of GDP Deflator in national income accounting.",
+    "Identify the correct formula and apply it to a problem on GDP Deflator."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify nominal GDP",
+     "explain": "GDP at current prices.",
+     "compute": "nominal_gdp = current_price_gdp"
+    },
+    {
+     "step": 2,
+     "action": "Identify real GDP",
+     "explain": "GDP at base-year prices.",
+     "compute": "real_gdp = constant_price_gdp"
+    },
+    {
+     "step": 3,
+     "action": "Compute deflator",
+     "explain": "Divide nominal by real and multiply by 100.",
+     "compute": "gdp_deflator = (nominal_gdp / real_gdp) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Nominal GDP = Rs 15,000, real GDP = Rs 12,000. Find the GDP deflator.",
+     "solution": "Deflator = (15000 / 12000) x 100 = 125.",
+     "answer": "GDP deflator = 125"
+    },
+    {
+     "question": "If the GDP deflator is 100, what does it indicate?",
+     "solution": "Nominal GDP equals real GDP, so prices are at base-year levels.",
+     "answer": "No price change relative to the base year."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define GDP deflator and state its formula.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute the GDP deflator when nominal GDP = Rs 8,000 and real GDP = Rs 8,000.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.6",
+   "title": "Measurement of National Income: Value Added Method",
+   "section": "Measurement Methods",
+   "definition": "The value added method estimates national income by summing the value added by each producing unit in the economy.",
+   "formula": "Value Added = Value of Output - Intermediate Consumption; GDP = sum of value added",
+   "key_idea": "Value added avoids double counting by excluding the value of intermediate goods.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Measurement of National Income: Value Added Method and explain its components.",
+    "Distinguish between related terms in Measurement Methods.",
+    "Compute Measurement of National Income: Value Added Method given numerical data.",
+    "Explain the significance of Measurement of National Income: Value Added Method in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Measurement of National Income: Value Added Method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute value of output",
+     "explain": "Output quantity times price.",
+     "compute": "value_of_output = q * p"
+    },
+    {
+     "step": 2,
+     "action": "Subtract intermediate consumption",
+     "explain": "Deduct purchases of intermediate goods.",
+     "compute": "value_added = value_of_output - intermediate_consumption"
+    },
+    {
+     "step": 3,
+     "action": "Sum value added",
+     "explain": "Add value added across all units to get GDP.",
+     "compute": "gdp = value_added"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm produces output worth Rs 5,000 using intermediate goods worth Rs 2,000. Find value added.",
+     "solution": "Value added = 5000 - 2000 = 3000.",
+     "answer": "Value added = Rs 3,000"
+    },
+    {
+     "question": "Three firms have value added Rs 1,000, Rs 2,000 and Rs 3,000. Find GDP.",
+     "solution": "GDP = 1000 + 2000 + 3000 = 6000.",
+     "answer": "GDP = Rs 6,000"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the value added method avoids double counting.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute GDP from value added data for four firms: 500, 800, 1200, 1500.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.7",
+   "title": "Measurement of National Income: Income Method",
+   "section": "Measurement Methods",
+   "definition": "The income method sums all factor incomes (wages, rent, interest and profit) paid to residents to estimate national income.",
+   "formula": "NDPfc = Wages + Rent + Interest + Profit; NNPfc = NDPfc + NFIA",
+   "key_idea": "National income is the sum of factor incomes earned by residents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Measurement of National Income: Income Method and explain its components.",
+    "Distinguish between related terms in Measurement Methods.",
+    "Compute Measurement of National Income: Income Method given numerical data.",
+    "Explain the significance of Measurement of National Income: Income Method in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Measurement of National Income: Income Method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum factor incomes",
+     "explain": "Add compensation of employees, rent, interest and profit.",
+     "compute": "ndpfc = w + r + i + p"
+    },
+    {
+     "step": 2,
+     "action": "Add NFIA",
+     "explain": "Add net factor income from abroad to convert domestic to national.",
+     "compute": "nnpfc = ndpfc + nfia"
+    },
+    {
+     "step": 3,
+     "action": "Report national income",
+     "explain": "NNP at factor cost is national income.",
+     "compute": "national_income = nnpfc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Wages = Rs 4,000, rent = Rs 1,000, interest = Rs 500, profit = Rs 1,500, NFIA = Rs 200. Find national income.",
+     "solution": "NDPfc = 4000 + 1000 + 500 + 1500 = 7000; NNPfc = 7000 + 200 = 7200.",
+     "answer": "National income = Rs 7,200 crore"
+    },
+    {
+     "question": "If factor incomes total Rs 10,000 and NFIA = 0, find national income.",
+     "solution": "With NFIA = 0, national income equals domestic factor income.",
+     "answer": "National income = Rs 10,000 crore"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the four factor incomes used in the income method.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute national income: wages 6000, rent 2000, interest 1000, profit 3000, NFIA 500.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.8",
+   "title": "Measurement of National Income: Expenditure Method",
+   "section": "Measurement Methods",
+   "definition": "The expenditure method estimates GDP by summing final consumption expenditure, investment expenditure and net exports.",
+   "formula": "GDP = C + I + G + (X - M)",
+   "key_idea": "National income is obtained by aggregating final expenditures on goods and services.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Measurement of National Income: Expenditure Method and explain its components.",
+    "Distinguish between related terms in Measurement Methods.",
+    "Compute Measurement of National Income: Expenditure Method given numerical data.",
+    "Explain the significance of Measurement of National Income: Expenditure Method in national income accounting.",
+    "Identify the correct formula and apply it to a problem on Measurement of National Income: Expenditure Method."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify final expenditures",
+     "explain": "Sum consumption (C), investment (I), government (G) and net exports (X-M).",
+     "compute": "gdp = c + i + g + (x - m)"
+    },
+    {
+     "step": 2,
+     "action": "Adjust for depreciation and indirect taxes",
+     "explain": "Move from GDPmp to NDPfc by subtracting depreciation and net indirect taxes.",
+     "compute": "ndpfc = gdp_mp - depreciation - nit"
+    },
+    {
+     "step": 3,
+     "action": "Add NFIA",
+     "explain": "Add net factor income from abroad for national income.",
+     "compute": "nnpfc = ndpfc + nfia"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C = Rs 5,000, I = Rs 2,000, G = Rs 1,000, X = Rs 800, M = Rs 600. Find GDPmp.",
+     "solution": "GDPmp = 5000 + 2000 + 1000 + (800 - 600) = 8200.",
+     "answer": "GDPmp = Rs 8,200 crore"
+    },
+    {
+     "question": "GDPmp = Rs 10,000, depreciation = Rs 1,000, NIT = Rs 500, NFIA = Rs 200. Find national income.",
+     "solution": "NDPfc = 10000 - 1000 - 500 = 8500; NNPfc = 8500 + 200 = 8700.",
+     "answer": "National income = Rs 8,700 crore"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the expenditure method formula and define each term.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compute GDPmp: C=8000, I=3000, G=2000, X=1500, M=1000.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.9",
+   "title": "GDP and Welfare",
+   "section": "GDP and Welfare",
+   "definition": "GDP is often used as an indicator of welfare, but higher GDP does not always mean higher welfare due to distribution, composition and non-monetary factors.",
+   "formula": "",
+   "key_idea": "GDP growth is necessary but not sufficient for welfare improvement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define GDP and Welfare and explain its components.",
+    "Distinguish between related terms in GDP and Welfare.",
+    "Compute GDP and Welfare given numerical data.",
+    "Explain the significance of GDP and Welfare in national income accounting.",
+    "Identify the correct formula and apply it to a problem on GDP and Welfare."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify GDP as a proxy",
+     "explain": "GDP measures market output, a common welfare proxy."
+    },
+    {
+     "step": 2,
+     "action": "List limitations",
+     "explain": "Distributional inequality, environmental costs and non-market activities are ignored."
+    },
+    {
+     "step": 3,
+     "action": "Conclude cautiously",
+     "explain": "GDP correlates with welfare but must be supplemented by other indicators."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Does a rise in GDP always imply a rise in welfare? Explain.",
+     "solution": "Not necessarily; if inequality rises or environmental damage occurs, welfare may not improve.",
+     "answer": "GDP is an imperfect but useful welfare indicator."
+    },
+    {
+     "question": "Name two limitations of GDP as a welfare measure.",
+     "solution": "It ignores income distribution and non-market activities like housework.",
+     "answer": "GDP underestimates true welfare."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the limitations of GDP as an indicator of welfare.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two reasons why GDP may overstate welfare.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

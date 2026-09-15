@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_12_002",
+   "title": "c12_phy_cbse_12_002",
+   "questions": [
+    {
+     "q": "State Bohr's second postulate exactly as given in NCERT, including the formula and the meaning of each symbol.",
+     "a": "**Correct answer:** \"The electron revolves around the nucleus only in those orbits for which the angular momentum is an integral multiple of \\(h/2\\pi\\). That is, \\(L = n\\frac{h}{2\\pi}\\), where \\(n = 1,2,3,\\dots\\) is the principal quantum number and \\(h = 6.63 \\times 10^{-34}\\,\\text{J·s}\\) is Planck's constant.\"  \n**Wrong-answer diagnosis:** If a student writes \\(L = n\\frac{h}{\\pi}\\) or \\(L = n\\hbar\\) without defining \\(\\hbar = h/2\\pi\\), they have memorized a variant but not the NCERT wording — this costs marks in board exams where exact phrasing matters. If they say \"angular momentum is quantized\" without the formula, they miss the quantitative condition needed for later derivations.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Bohr choose to quantize *angular momentum* rather than, say, kinetic energy or orbital radius? Use dimensional analysis of Planck's constant \\(h\\) to justify your answer.",
+     "a": "**Correct answer:** Planck's constant \\(h\\) has dimensions of angular momentum \\([ML^2T^{-1}]\\) (same as \\(mvr\\)). Quantizing a quantity requires a constant with the same dimensions; \\(h\\) naturally provides the quantum of angular momentum. Kinetic energy has dimensions \\([ML^2T^{-2}]\\) and radius has \\([L]\\), so \\(h\\) cannot directly quantize them without introducing additional constants.  \n**Wrong-answer diagnosis:** A student who says \"because angular momentum is conserved\" confuses a dynamical principle with a quantization rule. Another who says \"Bohr guessed it\" misses the dimensional argument that makes the postulate *natural* — a point explicitly mentioned in NCERT's \"Points to Ponder\" #2.",
+     "self_check": true
+    },
+    {
+     "q": "A hydrogen atom electron is in the \\(n=3\\) stationary state. Calculate its angular momentum in SI units. (Use \\(h = 6.63 \\times 10^{-34}\\,\\text{J·s}\\).)",
+     "a": "**Steps:**  \n1. Identify formula: \\(L = n\\frac{h}{2\\pi}\\)  \n2. Substitute \\(n=3\\), \\(h = 6.63 \\times 10^{-34}\\,\\text{J·s}\\)  \n3. Compute: \\(L = 3 \\times \\frac{6.63 \\times 10^{-34}}{2 \\times 3.1416} = 3 \\times 1.055 \\times 10^{-34} = 3.165 \\times 10^{-34}\\,\\text{J·s}\\)  \n4. Unit check: \\(\\text{J·s} = \\text{kg·m}^2\\text{s}^{-1}\\) — correct for angular momentum.  \n**Answer:** \\(L = 3.17 \\times 10^{-34}\\,\\text{kg·m}^2\\text{s}^{-1}\\) (or \\(\\text{J·s}\\)).  \n**Wrong-answer diagnosis:** If a student uses \\(L = n h\\) (forgets \\(2\\pi\\)), they get \\(1.99 \\times 10^{-33}\\,\\text{J·s}\\) — a common error from misremembering the formula. If they use \\(\\hbar = h/2\\pi\\) but forget to multiply by \\(n\\), they get the ground-state value. Both reveal a lack of fluency with the exact postulate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the predictions of Rutherford's model and Bohr's model for: (a) stability of the atom, (b) nature of emitted spectrum (continuous vs. line), (c) energy of the electron in orbit. Present as a 3-row table.",
+     "a": "**Correct answer:**  \n\n| Aspect | Rutherford Model | Bohr Model |\n|--------|------------------|------------|\n| Stability | Unstable — accelerating electron radiates, spirals in | Stable — electron in stationary states does not radiate |\n| Emitted Spectrum | Continuous (all frequencies) | Line spectrum (discrete frequencies) |\n| Electron Energy | Any value (continuously decreasing) | Quantized: only specific values \\(E_n = -13.6/n^2\\,\\text{eV}\\) |\n\n**Wrong-answer diagnosis:** If a student says Rutherford's model gives line spectra because \"electrons are in orbits\", they confuse the planetary picture with quantization. If they say Bohr's electron energy is continuous but \"jumps\" between levels, they contradict Postulate 1 (stationary states have definite energy). This table is a frequent board-exam \"compare and contrast\" question (2-3 marks).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bohr's third postulate says a photon is emitted when an electron jumps from a higher to a lower orbit. Therefore, the frequency of the emitted photon equals the orbital frequency of the electron in the higher orbit.\" Evaluate this claim using the correspondence principle and the actual formula \\(h\\nu = E_i - E_f\\).",
+     "a": "**Correct answer:** The claim is **false** in general. The photon frequency \\(\\nu = (E_i - E_f)/h\\) equals the *difference* in orbital energies divided by \\(h\\), not the orbital frequency \\(f_{\\text{orb}} = v/(2\\pi r)\\). Only in the limit of large \\(n\\) (correspondence principle) do the two frequencies approximately coincide. For low \\(n\\) (e.g., \\(n=2 \\to 1\\)), \\(\\nu_{\\text{photon}} \\gg f_{\\text{orb}}\\).  \n**Wrong-answer diagnosis:** A student who agrees with the claim is applying classical electromagnetic theory (which Bohr explicitly rejected in Postulate 1) — they think the electron radiates *at* its orbital frequency. This is exactly the classical error Bohr's model was designed to fix. NCERT Example 12.4 shows the classical prediction (\\(6.6 \\times 10^{15}\\,\\text{Hz}\\)) differs from the actual Lyman-alpha frequency (\\(2.47 \\times 10^{15}\\,\\text{Hz}\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether an electron in a stationary state truly does not radiate. Describe the setup, what you would measure, and how the result would distinguish Bohr's Postulate 1 from classical electrodynamics.",
+     "a": "**Expected answer:** Place a single hydrogen atom in a high-Q microwave cavity tuned to the predicted orbital frequency of the \\(n=2\\) state (approx. \\(8 \\times 10^{14}\\,\\text{Hz}\\) — optical, so use an optical cavity). Monitor the cavity for spontaneous photon emission over a time much longer than the classical radiation lifetime (\\(\\sim 10^{-11}\\,\\text{s}\\)). Classical theory predicts continuous radiation at the orbital frequency, causing the electron to spiral down in \\(\\sim 10^{-11}\\,\\text{s}\\). Bohr's Postulate 1 predicts *no* radiation at that frequency; the atom stays in \\(n=2\\) indefinitely until a transition occurs. Detection of zero photons at the orbital frequency (but photons at transition frequencies like Lyman-alpha) confirms Postulate 1.  \n**Poor-answer diagnosis:** A student who suggests \"measure the electron's acceleration\" misses that acceleration alone doesn't prove radiation — the key is detecting the *absence* of radiation at the orbital frequency. Another who says \"use a cloud chamber\" confuses particle tracks with electromagnetic emission.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

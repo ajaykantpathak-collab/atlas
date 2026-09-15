@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_004",
+   "title": "c12_chem_cbse_01_004",
+   "questions": [
+    {
+     "q": "Define molality and state its SI unit. How does it differ from molarity in terms of temperature dependence?",
+     "a": "Molality = moles of solute per kilogram of solvent (unit: mol kg⁻¹). It is temperature-independent because mass does not change with temperature, whereas molarity (mol L⁻¹) changes because solution volume expands/contracts. A wrong answer (e.g., \"molality uses solution volume\") reveals confusion between solvent and solution — the student is likely memorizing formulas without understanding the physical basis.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the molality of a 10% (w/w) glucose solution as 0.556 m using 100 g solution. They took 10 g glucose (0.0556 mol) and divided by 0.1 kg solution. Identify the error and give the correct calculation.",
+     "a": "Error: Used mass of solution (100 g) instead of mass of solvent (90 g). Correct: moles glucose = 10/180 = 0.0556 mol; solvent mass = 90 g = 0.09 kg; molality = 0.0556/0.09 = 0.618 m. This reveals the most common Class 12 error — confusing \"per kg of solution\" with \"per kg of solvent\". The student must internalize: molality denominator is ALWAYS solvent mass.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the normality of a solution prepared by dissolving 4.9 g of H₂SO₄ in 250 mL of solution. (Molar mass H₂SO₄ = 98 g/mol)",
+     "a": "Step 1: Moles H₂SO₄ = 4.9/98 = 0.05 mol. Step 2: Volume = 0.250 L. Step 3: Molarity = 0.05/0.250 = 0.2 M. Step 4: n-factor for H₂SO₄ (acid-base) = 2 (2 H⁺). Step 5: Normality = 0.2 × 2 = 0.4 N. A wrong answer of 0.2 N means the student forgot the n-factor; 0.8 N means they used n=4 (confusing with redox); 0.1 N means they used volume as 250 mL without converting to litres.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molality and molarity of a 20% (w/w) NaCl solution (density = 1.15 g/mL). Which is larger and why? (Molar mass NaCl = 58.5 g/mol)",
+     "a": "For 100 g solution: 20 g NaCl = 0.342 mol; solvent = 80 g = 0.08 kg → molality = 4.27 m. Volume = 100/1.15 = 86.96 mL = 0.08696 L → molarity = 3.93 M. Molality > molarity because density > 1 g/mL makes solution volume < 100 mL, so moles per litre of solution is less than moles per kg of solvent. If density were < 1, molarity could exceed molality. A student saying \"molarity is always larger\" hasn't grasped the density link.",
+     "self_check": true
+    },
+    {
+     "q": "In a titration, 25.0 mL of 0.1 N NaOH neutralizes 20.0 mL of H₂SO₄ solution. A student calculates the molarity of H₂SO₄ as 0.0625 M using N₁V₁ = N₂V₂ and then M = N/2. Is this correct? If not, find the error.",
+     "a": "Correct: N₁V₁ = N₂V₂ → 0.1 × 25.0 = N₂ × 20.0 → N₂ = 0.125 N. Molarity = N/n = 0.125/2 = 0.0625 M. The student's answer is numerically correct but the reasoning is incomplete — they must explicitly state n-factor = 2 for H₂SO₄ in acid-base. If they wrote M = N (forgetting n-factor), they'd get 0.125 M (wrong). The error to watch: using n=1 for diprotic acid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to prepare 500 mL of 0.1 N oxalic acid (H₂C₂O₄·2H₂O) solution using a 0.1 M oxalic acid stock solution. Explain why normality and molarity differ for this compound.",
+     "a": "Oxalic acid dihydrate molar mass = 126 g/mol. n-factor = 2 (2 H⁺). 0.1 M stock = 0.2 N. Use N₁V₁ = N₂V₂: 0.2 × V₁ = 0.1 × 500 → V₁ = 250 mL. Take 250 mL stock, dilute to 500 mL. Normality = 2 × Molarity because each mole provides 2 equivalents. A poor answer would miss the dihydrate mass, use n=1, or not explain the dilution principle. This tests if the student can translate between M and N in a practical prep scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch08_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch08_006",
+   "title": "c7_math_ch08_006",
+   "questions": [
+    {
+     "q": "What is the reciprocal of the fraction $\\frac{5}{7}$?",
+     "a": "The correct answer is $\\frac{7}{5}$. A student who answers $-\\frac{5}{7}$ is confusing the reciprocal with the additive inverse (negative). A student who answers $\\frac{5}{7}$ has forgotten to flip the numerator and denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we multiply by the reciprocal of the divisor when dividing two fractions instead of dividing the numerators and denominators directly.",
+     "a": "The correct explanation is that scaling by the reciprocal is equivalent to finding a common denominator and comparing how many parts fit, or using algebraic properties of fractions where dividing by $b/c$ is multiplying by the multiplicative inverse $c/b$. A student who says \"it is just a magic rule with no reason\" does not understand fraction division conceptually and will likely misapply the rule when faced with complex multi-step problems.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $\\frac{3}{5} \\div \\frac{9}{10}$ and write your answer in its simplest form.",
+     "a": "The correct answer is $\\frac{2}{3}$. Working steps: First, change the division to multiplication by the reciprocal of the second fraction: $\\frac{3}{5} \\times \\frac{10}{9}$. Next, multiply numerators and denominators: $\\frac{3 \\times 10}{5 \\times 9} = \\frac{30}{45}$. Finally, divide the numerator and denominator by their greatest common factor, which is 15: $\\frac{30 \\div 15}{45 \\div 15} = \\frac{2}{3}$. A student who gets $\\frac{27}{50}$ has incorrectly multiplied straight across without flipping the second fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of $\\frac{4}{7} \\div \\frac{2}{3}$ and $\\frac{2}{3} \\div \\frac{4}{7}$. Which one is larger and why does the commutative property not hold for fraction division?",
+     "a": "The first expression evaluates to $\\frac{4}{7} \\times \\frac{3}{2} = \\frac{12}{14} = \\frac{6}{7}$. The second expression evaluates to $\\frac{2}{3} \\times \\frac{7}{4} = \\frac{14}{12} = \\frac{7}{6}$. Since $\\frac{7}{6}$ is greater than 1 and $\\frac{6}{7}$ is less than 1, the second expression is larger. Division is not commutative because changing the order of the dividend and divisor alters the reciprocal being applied, completely reversing the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $\\frac{5}{8} \\div \\frac{3}{4}$ by writing: $\\frac{5}{8} \\times \\frac{3}{4} = \\frac{15}{32}$. Identify the error in the student's work and provide the correct solution.",
+     "a": "The student made two errors: they kept the division sign as multiplication without changing the operation rule, and more importantly, they failed to write the reciprocal of the second fraction ($\\frac{3}{4}$ remained $\\frac{3}{4}$). The correct solution is: $\\frac{5}{8} \\div \\frac{3}{4} = \\frac{5}{8} \\times \\frac{4}{3} = \\frac{20}{24} = \\frac{5}{6}$.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem involving two fractions where the final quotient is a whole number greater than 1. Show the working steps to verify your answer.",
+     "a": "An acceptable answer would be $\\frac{7}{8} \\div \\frac{1}{4}$. Working steps: 1. Write the expression $\\frac{7}{8} \\div \\frac{1}{4}$. 2. Change division to multiplication and invert the divisor: $\\frac{7}{8} \\times \\frac{4}{1}$. 3. Multiply numerators and denominators: $\\frac{28}{8}$. 4. Simplify by dividing by 4: $\\frac{7}{2} = 3\\frac{1}{2}$ (or another valid pair like $\\frac{9}{10} \\div \\frac{3}{10} = 3$). A poor answer uses whole numbers disguised as fractions without demonstrating the core fraction operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_007",
+   "title": "c7_math_ch03_007",
+   "questions": [
+    {
+     "q": "Which of the following numbers is greater: $3.45$ or $3.485$? Explain your choice using place value.",
+     "a": "$3.485$ is greater. A student who incorrectly chooses $3.45$ is likely focusing only on the number of digits after the decimal point (thinking 485 is shorter or ignoring place value order) or failing to align the numbers by adding a placeholder zero to make it $3.450$ before comparing the thousandths place.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we compare the tenths digit first before looking at the hundredths digit when comparing two decimals like $7.23$ and $7.51$?",
+     "a": "The tenths place represents a larger place value ($\\frac{1}{10}$) than the hundredths place ($\\frac{1}{100}$), just like the tens place is larger than the units place in whole numbers. A student who thinks we should look at the hundredths place first misunderstands the hierarchical nature of place value in decimals, where higher-order decimal places completely outweigh any combination of lower-order places.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following decimal numbers in ascending order: $6.03$, $6.30$, $6.033$, and $6.3$. Show all comparison steps.",
+     "a": "First, make all numbers have three decimal places by adding placeholder zeros: $6.030$, $6.300$, $6.033$, and $6.300$. Comparing the whole number part, all are $6$. Next, compare the tenths place: $6.030$ and $6.033$ have a tenths digit of $0$, while $6.300$ and $6.300$ have a tenths digit of $3$. Thus, $6.030$ and $6.033$ are smaller. Comparing their hundredths and thousandths, $6.030 < 6.033$. For the larger pair, $6.300 = 6.300$. The ascending order is: $6.03, 6.033, 6.3, 6.30$. A student who makes an error usually forgets to pad with zeros and mistakenly thinks $6.03$ is greater than $6.033$ because $3$ is shorter than $33$.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"If a decimal has more digits after the decimal point, it is always a larger number.\" Provide a counterexample and explain why the statement is false.",
+     "a": "The statement is false. Counterexample: Consider $4.8$ and $4.799$. The number $4.799$ has three digits after the point, whereas $4.8$ has only one. However, $4.8$ can be written as $4.800$, and comparing the tenths place ($8$ vs $7$) shows that $4.8 > 4.799$. A student who agrees with the statement fails to understand place value padding and is confused by digit length versus numerical value.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluated the set of decimals $\\{12.05, 12.5, 12.005\\}$ and ordered them in descending order as: $12.005 > 12.05 > 12.5$. Identify the error in the student's reasoning and write the correct descending order.",
+     "a": "The student incorrectly treated the decimal portion as whole numbers ($5 > 05 > 005$) without aligning place values. By padding them to equal decimal lengths: $12.500$, $12.050$, and $12.005$, the correct descending order is $12.5 > 12.05 > 12.005$. A student who agrees with the original order does not realize that $12.5$ is equivalent to $12.500$, which has a $5$ in the tenths place compared to $0$ in the tenths place for the other two numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of four unique decimal numbers between $5.4$ and $5.5$ and arrange them in strict ascending order. Explain how you generated them.",
+     "a": "An example set is: $5.41, 5.432, 5.46, 5.49$. These were created by keeping the whole number $5$ and the tenths digit $4$, then choosing progressively larger hundredths and thousandths digits ($1, 3, 6, 9$) while ensuring each number remains greater than $5.400$ and less than $5.500$. A poor answer would feature numbers outside the range (like $5.51$) or numbers in descending order, showing a failure to understand bounds or ordering constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

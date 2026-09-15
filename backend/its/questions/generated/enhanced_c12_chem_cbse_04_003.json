@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_003",
+   "title": "c12_chem_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the general trend in atomic radii across the first transition series (Sc to Zn) and give the primary reason for this trend.",
+     "a": "Atomic radii decrease gradually from Sc to Zn. The reason is increasing nuclear charge with each added proton, while the incoming electron enters the inner (n-1)d subshell which shields the outer ns electrons poorly, so effective nuclear charge increases and the electron cloud contracts. A wrong answer (e.g., \"radius increases because more electrons are added\") reveals confusion between principal quantum number increase (down a group) and nuclear charge increase (across a period), and ignorance of d-orbital shielding inefficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the atomic radii of the second (4d) and third (5d) transition series are nearly identical, whereas the radii increase significantly from the first (3d) to the second (4d) series.",
+     "a": "The 4d to 5d increase is cancelled by lanthanoid contraction: the 4f orbitals are filled before the 5d series begins, and 4f electrons shield the nuclear charge very poorly, causing a steady contraction across the lanthanoids that exactly offsets the normal increase from adding a new shell. A wrong answer (e.g., \"because 5d orbitals are larger\") shows the student misses the role of 4f filling and thinks only principal quantum number matters.",
+     "self_check": true
+    },
+    {
+     "q": "Given the metallic radii (in pm) for three 3d metals: Sc (164), Ti (147), V (135), predict the radius for Cr and explain whether the trend continues smoothly or shows an anomaly.",
+     "a": "Cr metallic radius is 129 pm (from Table 4.2). The trend continues smoothly decreasing. A wrong prediction (e.g., 140 pm or an increase) indicates the student might think half-filled d⁵ configuration (Cr is 3d⁵4s¹) causes expansion due to exchange energy, but in metallic radii the effect is negligible; the steady decrease dominates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ionic radii of Fe²⁺ (3d⁶) and Fe³⁺ (3d⁵) and explain which is smaller and why, using the concept of effective nuclear charge and electron-electron repulsion.",
+     "a": "Fe³⁺ (65 pm) is smaller than Fe²⁺ (74 pm). Removing one electron reduces electron-electron repulsion and increases effective nuclear charge per remaining electron, pulling the cloud closer. A wrong answer (e.g., Fe²⁺ smaller because it has more electrons) confuses total electron count with net attraction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Zr (4d²5s²) and Hf (5d²6s²) have almost the same atomic radius because they are in the same group.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incomplete. While they are in the same group, the near-identical radii (Zr 160 pm, Hf 159 pm) are due to lanthanoid contraction, not just group similarity. Without lanthanoid contraction, Hf would be significantly larger. A student who only cites group similarity misses the unique f-block intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment or data-analysis activity using the atomic radii data in Table 4.2 to demonstrate that the decrease in atomic radius across the 3d series is much smaller than the decrease across Period 3 (Na to Cl). What conclusion about d-orbital shielding can be drawn?",
+     "a": "Plot atomic radii vs atomic number for 3d metals (Sc to Zn) and for Period 3 (Na to Cl) on the same graph. The 3d curve is much flatter. Conclusion: d-electrons shield the outer electrons more effectively than p-electrons shield each other? Actually d-electrons shield poorly, but the outer electrons are in ns orbital while nuclear charge increases by adding (n-1)d electrons. The poor shielding means effective nuclear charge increases steadily, but the outer ns orbital is already contracted. The smaller decrease compared to Period 3 is because in Period 3 electrons are added to the same shell (n=3) with no inner d-subshell, so shielding is even less effective? Wait, the NCERT says \"the variation within a series is quite small\" and \"atomic radii decrease less rapidly\" because 3d electrons shield 4s electrons somewhat more effectively than outer shell electrons shield each other. So the conclusion: d-electrons provide better shielding than valence electrons in the same shell, but still not perfect. A poor answer would just state \"d-electrons shield poorly\" without comparing to main group.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

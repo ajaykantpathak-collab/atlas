@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_001",
+   "title": "c11_phy_cbse_03_001",
+   "questions": [
+    {
+     "q": "State whether each of the following is a scalar or a vector: (a) mass of a cricket ball, (b) velocity of a bowler's delivery, (c) temperature of the pitch, (d) displacement of a fielder running to catch the ball, (e) time taken for the ball to reach the boundary.",
+     "a": "(a) Scalar — mass has magnitude only (kg), no direction. (b) Vector — velocity requires both speed and direction (m/s). (c) Scalar — temperature has magnitude only (°C or K). (d) Vector — displacement is straight-line from start to finish with direction (m). (e) Scalar — time has magnitude only (s). A wrong answer reveals the student confuses \"quantity with units\" with \"quantity with direction\" — e.g., classifying velocity as scalar because it has units m/s, or classifying displacement as scalar because it is measured in metres.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors $\\vec{A}$ and $\\vec{B}$ have the same magnitude of 5 N. $\\vec{A}$ points due east, $\\vec{B}$ points due north. A student claims $\\vec{A} = \\vec{B}$ because their magnitudes are equal. Explain why this claim is incorrect using the definition of vector equality.",
+     "a": "Vector equality requires both magnitude AND direction to be identical. $\\vec{A}$ and $\\vec{B}$ have equal magnitudes (5 N) but different directions (east vs north). If we translate $\\vec{B}$ parallel to itself so its tail coincides with $\\vec{A}$'s tail, their tips do not coincide — they are perpendicular. Hence $\\vec{A} \\neq \\vec{B}$. A wrong answer indicates the student treats vectors as mere numbers with magnitude only, ignoring the directional property that fundamentally defines a vector.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves from point P(2, 3) to point Q(7, 8) in the x-y plane. Calculate the displacement vector $\\vec{r}$ in unit-vector notation ($\\hat{i}, \\hat{j}$) and its magnitude. Given: coordinates in metres.",
+     "a": "Step 1: Position vector of P: $\\vec{r}_P = 2\\hat{i} + 3\\hat{j}$ m. Step 2: Position vector of Q: $\\vec{r}_Q = 7\\hat{i} + 8\\hat{j}$ m. Step 3: Displacement $\\vec{r} = \\vec{r}_Q - \\vec{r}_P = (7-2)\\hat{i} + (8-3)\\hat{j} = 5\\hat{i} + 5\\hat{j}$ m. Step 4: Magnitude $|\\vec{r}| = \\sqrt{5^2 + 5^2} = \\sqrt{50} = 5\\sqrt{2} \\approx 7.07$ m. Step 5: Units check — coordinates in m, displacement in m, magnitude in m. Correct. A wrong answer reveals errors in vector subtraction (adding instead of subtracting components), forgetting unit vectors, or misapplying Pythagoras theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 10 km east, then 10 km north, then 10 km west. Compare the total path length (distance) with the magnitude of the net displacement. Explain the physical reason for the difference.",
+     "a": "Total path length = 10 + 10 + 10 = 30 km. Net displacement: 10 km east + 10 km north + 10 km west = 10 km north (east-west cancel). Magnitude of displacement = 10 km. Path length (30 km) > displacement magnitude (10 km). The difference arises because distance is a scalar sum of all path segments, while displacement is a vector sum depending only on initial and final positions. A wrong answer (e.g., claiming they are equal) shows the student does not grasp path-dependence of distance vs path-independence of displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The displacement of a particle moving in a circle of radius R after one complete revolution is 2πR.\" Evaluate this statement and correct it if false.",
+     "a": "The statement is FALSE. After one complete revolution, the particle returns to its starting point. Initial and final positions coincide, so the displacement vector is the null vector $\\vec{0}$ with magnitude 0. The quantity 2πR is the distance (path length), a scalar, not displacement. A wrong evaluation reveals confusion between distance (scalar, path-dependent) and displacement (vector, path-independent). The student likely thinks \"displacement\" means \"total path covered.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using a metre scale, a piece of string, and two fixed points A and B on a lab table to demonstrate that displacement is independent of the path taken, while distance depends on the path. Describe the procedure and what measurements students should record.",
+     "a": "Procedure: Fix points A and B 50 cm apart. Path 1: Stretch string straight from A to B — measure string length (distance = displacement magnitude = 50 cm). Path 2: Lay string in a curved/semi-circular path from A to B — measure string length (distance > 50 cm, displacement magnitude still 50 cm). Path 3: Lay string in a zigzag path from A to B — measure string length (distance even larger, displacement magnitude still 50 cm). Record: path length for each path, and displacement magnitude (straight-line A to B) for each. Expected outcome: displacement magnitude constant, path length varies. A poor answer would measure only one path, or confuse the string length with displacement for curved paths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

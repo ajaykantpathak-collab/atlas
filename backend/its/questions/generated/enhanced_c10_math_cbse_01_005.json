@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_005",
+   "title": "c10_math_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the theorem: \"If p is a prime number and p divides a², then p divides a.\" Is the converse true? That is, if p divides a, does p always divide a²?",
+     "a": "Yes, the converse is true. If p divides a, then a = p·k for some integer k. Then a² = p²·k² = p·(p·k²), so p divides a². A wrong answer (saying converse is false) reveals the student confuses the direction of implication and does not understand that divisibility is preserved under multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the theorem require p to be prime? Give a counterexample showing the statement fails if p is composite.",
+     "a": "The theorem fails for composites because a composite number's prime factors can be split between the two factors of a². Counterexample: Let p = 4 (composite), a = 6. Then a² = 36, and 4 divides 36, but 4 does not divide 6. A wrong answer (e.g., \"it works for all numbers\") shows the student has not grasped the role of unique prime factorization and the definition of prime numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Let a = 180. Find all prime numbers p such that p divides a². For each such p, verify that p divides a.",
+     "a": "a = 180 = 2² × 3² × 5¹. So a² = 2⁴ × 3⁴ × 5². The primes dividing a² are 2, 3, 5. Each of these divides 180. A wrong answer (missing a prime, or including a non-prime) reveals the student cannot correctly perform prime factorization or does not connect the theorem to the factorization of a.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose p is a prime and p divides a² + b². Can we conclude that p divides a and p divides b? Justify your answer with an example or proof.",
+     "a": "No, we cannot conclude that. The theorem only applies when a prime divides a perfect square of a single integer. For example, p = 5, a = 1, b = 2: a² + b² = 1 + 4 = 5, and 5 divides 5, but 5 does not divide 1 and 5 does not divide 2. A wrong answer (saying yes) shows the student overgeneralizes the theorem to sums of squares, confusing it with properties of Gaussian integers or misapplying the logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 9 divides 15² (225), by the theorem 9 must divide 15.\" Identify the error in the student's reasoning and correct it.",
+     "a": "The error is that 9 is not a prime number (9 = 3²). The theorem only applies when p is prime. Indeed, 9 divides 225 but 9 does not divide 15. The correct statement: The prime 3 divides 15², so 3 divides 15 (which is true). A wrong answer (not identifying the primality condition) shows the student memorizes the statement without the crucial hypothesis \"p is prime\".",
+     "self_check": true
+    },
+    {
+     "q": "Construct a new problem: Find a positive integer a and a prime p such that p divides a² but p does NOT divide a. If impossible, explain why.",
+     "a": "It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail. A student who provides an example (e.g., a=6, p=4) has missed the condition that p must be prime. This reveals they treat the theorem as a pattern without understanding the logical necessity of the prime condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

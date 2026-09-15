@@ -1,0 +1,129 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 105,
+ "chapter_title": "Morphology of Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo105.txt",
+ "concepts": [
+  {
+   "id": "kebo.105.1.1",
+   "title": "Root, Stem and Leaf with Their Modifications",
+   "section": "5.2 The Root, 5.3 The Stem, 5.4 The Leaf",
+   "definition": "The flowering plant body shows a root system bearing root hairs and root caps, a stem with nodes and internodes bearing buds, and leaves with lamina; each organ shows modifications such as tap and fibrous roots, tubers, tendrils and thorns, and storage or climbing leaves.",
+   "formula": "",
+   "key_idea": "Modifications like storage roots of carrot, stem tendrils of cucumber and leaf tendrils of peas reflect adaptation to storage, support and defence functions.",
+   "textbook_ref": "kebo105.txt sections 5.2-5.4",
+   "question_patterns": [
+    "describe the modifications of root with examples",
+    "how does a stem tendril differ from a leaf tendril",
+    "differentiate tap root and fibrous root systems",
+    "what are the modifications of leaf for support and storage",
+    "explain the parts of a typical leaf with phyllotaxy",
+    "define venation and its types in leaves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the organ and its parts",
+     "explain": "Check the diagnostic parts of root, stem or leaf in the specimen."
+    },
+    {
+     "step": 2,
+     "action": "match the modification",
+     "explain": "Compare the modified structure with standard examples of storage, support or defence."
+    },
+    {
+     "step": 3,
+     "action": "verify with the plant example",
+     "explain": "Confirm the plant named in the textbook shows the same modification."
+    }
+   ]
+  },
+  {
+   "id": "kebo.105.2.1",
+   "title": "Inflorescence, Flower and Its Parts",
+   "section": "5.5 The Inflorescence, 5.6 The Flower",
+   "definition": "The flower is a modified shoot bearing four whorls of calyx, corolla, androecium and gynoecium arranged on thalamus, and flowers are arranged in racemose or cymose inflorescence; symmetry, merosity, aestivation and placentation describe its structure.",
+   "formula": "",
+   "key_idea": "A flower is actinomorphic or zygomorphic, trimerous tetramerous or pentamerous, and its gynoecium may be apocarpous or syncarpous with superior or inferior ovary.",
+   "textbook_ref": "kebo105.txt sections 5.5-5.6",
+   "question_patterns": [
+    "define inflorescence and its types",
+    "describe the parts of a typical flower with their whorls",
+    "what is aestivation and name its types",
+    "define placentation and give its types with examples",
+    "differentiate actinomorphic and zygomorphic flowers",
+    "explain the terms apocarpous and syncarpous gynoecium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the whorls",
+     "explain": "Identify calyx, corolla, androecium and gynoecium in the flower."
+    },
+    {
+     "step": 2,
+     "action": "note the descriptive terms",
+     "explain": "Record symmetry, merosity, aestivation, placentation and ovary position."
+    },
+    {
+     "step": 3,
+     "action": "compare with the family",
+     "explain": "Match the flower with the floral characters of its family."
+    }
+   ]
+  },
+  {
+   "id": "kebo.105.3.1",
+   "title": "Fruit, Seed Structure and Semi-technical Description",
+   "section": "5.7 The Fruit, 5.8 The Seed, 5.9 Description of Plant Families",
+   "definition": "After fertilisation the ovary becomes the fruit and ovules become seeds; the seed shows embryo with cotyledons, seed coat and endosperm as in maize, and plants are described in semi-technical language with floral formula and floral diagram, as seen in fabaceae, solanaceae and liliaceae.",
+   "formula": "",
+   "key_idea": "The floral formula with its symbols of bract, symmetry, merosity, fusion and ovary position condenses the family characters of fabaceae, solanaceae and liliaceae.",
+   "textbook_ref": "kebo105.txt sections 5.7-5.9",
+   "question_patterns": [
+    "describe the structure of a dicot and a monocot seed",
+    "what is a floral formula and how is it written",
+    "give the floral formula of fabaceae solanaceae and liliaceae",
+    "how does the ovary become a fruit after fertilisation",
+    "distinguish endospermic and non-endospermic seeds",
+    "write the economic importance of the families solanaceae and fabaceae"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace fruit and seed formation",
+     "explain": "Follow ovary to fruit and ovule to seed after fertilisation."
+    },
+    {
+     "step": 2,
+     "action": "read the floral formula",
+     "explain": "Decode the symbols for bract, symmetry, number and fusion of whorls."
+    },
+    {
+     "step": 3,
+     "action": "verify the family characters",
+     "explain": "Check the formula and diagram against fabaceae, solanaceae or liliaceae."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo105.txt exercises section",
+   "questions": [
+    "What is meant by modification of root? Give examples.",
+    "Write the floral formula of the family Solanaceae.",
+    "Define the term inflorescence. Explain racemose and cymose inflorescence.",
+    "Distinguish between a fibrous root and a tap root.",
+    "How is a pinnately compound leaf different from a palmately compound leaf?",
+    "Describe the various types of placentations seen in flowering plants."
+   ]
+  }
+ ]
+}

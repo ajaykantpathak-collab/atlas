@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_013",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_013",
+   "title": "c11_phy_cbse_01_013",
+   "questions": [
+    {
+     "q": "Define accuracy and precision in the context of experimental measurements. State the SI unit of least count.",
+     "a": "Accuracy is the closeness of a measured value to the true value; precision is the closeness of repeated measurements to each other. The SI unit of least count is metre (m) or its submultiples (cm, mm). A wrong answer (e.g., swapping the definitions) reveals the student conflates the two concepts, a classic Class 11 error that leads to misinterpreting experimental results in later chapters like error analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the length of a rod five times using a vernier caliper (least count 0.01 cm) and gets: 3.21 cm, 3.22 cm, 3.21 cm, 3.22 cm, 3.21 cm. The true length is 3.25 cm. Are these measurements accurate? Are they precise? Justify.",
+     "a": "The measurements are precise (values cluster within 0.01 cm, equal to the least count) but not accurate (mean 3.214 cm differs from true value 3.25 cm by 0.036 cm, much larger than the least count). If a student says \"yes, accurate because they are consistent,\" they confuse precision with accuracy — the core misconception this node targets.",
+     "self_check": true
+    },
+    {
+     "q": "A screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. Calculate its least count in mm and cm. If the zero error is +0.02 mm, what is the correct reading for an observed measurement of 2.37 mm?",
+     "a": "Least count = Pitch / Number of divisions = 0.5 mm / 50 = 0.01 mm = 0.001 cm. Correct reading = Observed reading - Zero error = 2.37 mm - (+0.02 mm) = 2.35 mm. A student forgetting to subtract the zero error (or adding it) reveals they don't understand zero error as a systematic shift affecting accuracy, not precision.",
+     "self_check": true
+    },
+    {
+     "q": "Two instruments A and B measure the same quantity. Instrument A has least count 0.01 cm; Instrument B has least count 0.001 cm. A student claims: \"Instrument B is always more accurate than A.\" Analyze this statement and give a counterexample.",
+     "a": "The claim is false. Precision (resolution) ≠ accuracy. Counterexample: Instrument B has a zero error of +0.05 cm. Its readings will be precise (spread ~0.001 cm) but systematically offset, making them inaccurate. Instrument A with no zero error could be more accurate despite coarser least count. A student agreeing with the claim equates smaller least count with higher accuracy, ignoring systematic errors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following procedure: \"To check the accuracy of a stopwatch, I measure the time period of a simple pendulum 20 times and calculate the average. If the average matches the theoretical value T = 2π√(L/g), the stopwatch is accurate.\" Identify any flaw.",
+     "a": "The procedure checks consistency with theory, but the theoretical formula assumes small-angle approximation, point mass, massless string, no air resistance — all idealizations. Discrepancy could be due to these approximations, not stopwatch inaccuracy. A better method: compare the stopwatch against a calibrated reference clock (e.g., GPS time signal) over a known interval. A student accepting the procedure as valid fails to distinguish between experimental uncertainty in the physical model and instrument accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale (LC 1 mm), a vernier caliper (LC 0.01 cm), and a screw gauge (LC 0.001 cm) to demonstrate the difference between accuracy and precision to a Class 9 student. Specify the object to measure, the steps, and what you expect them to observe.",
+     "a": "Object: Diameter of a steel ball bearing (~1 cm). Steps: (1) Each student measures diameter with all three instruments, recording 5 readings each. (2) Compute mean and spread for each instrument. (3) Compare means to a highly accurate reference value (e.g., manufacturer's specification). Expected observation: Metre scale readings vary widely (low precision, low accuracy). Vernier caliper readings cluster tightly (high precision) but mean may be off due to zero error (accuracy depends on calibration). Screw gauge readings cluster very tightly (highest precision) and if zero-corrected, mean matches reference (high accuracy). A poor design uses only one instrument or doesn't include a reference value, so the student cannot separate the two concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

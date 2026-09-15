@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_007",
+   "title": "c12_geo_cbse_12_007",
+   "questions": [
+    {
+     "q": "Name the traditional rainwater harvesting structure that is a covered underground tank used primarily for drinking water in western Rajasthan, and state the local material used to line its inner walls to prevent seepage.",
+     "a": "Correct answer: Tanka (or Kund), lined with lime plaster (chuna). A wrong answer (e.g., \"johad\" or \"khadin\") reveals confusion between surface storage for irrigation/recharge (khadin/johad) and sub-surface domestic storage (tanka). A wrong lining material (e.g., cement, plastic) shows ignorance of the traditional low-cost, locally sourced technology that also keeps water cool and potable.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why khadins are built on gently sloping agricultural land with impermeable sub-soil, whereas johads are constructed across seasonal drainage lines in hilly/undulating terrain. What would happen if you swapped their locations?",
+     "a": "Khadins require a large catchment area on gentle slopes to collect sheet runoff; impermeable sub-soil (clay/kankar) prevents deep percolation so water stands for months, moistening the root zone for rabi crops. Johads need a defined stream channel to intercept concentrated flow; their purpose is to slow water, allow percolation into sandy/alluvial aquifers, and recharge wells. If swapped: a khadin in a stream channel would breach under peak flow; a johad on gentle slope would not capture enough runoff to recharge groundwater. A wrong answer indicates the student memorised names but not the hydro-geological logic linking topography, soil, and function.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Barmer district (average annual rainfall 250 mm, high intensity storms, sandy soil with underlying clay layer at 3 m depth) wants to build a traditional structure for domestic water security. Calculate the minimum catchment area (in m²) required to fill a 20,000-litre tanka in a year, assuming a runoff coefficient of 0.6 for the courtyard and 80% collection efficiency. Show steps.",
+     "a": "Step 1: Convert tanka capacity to m³: 20,000 L = 20 m³.  \nStep 2: Account for collection efficiency: required runoff volume = 20 / 0.8 = 25 m³.  \nStep 3: Runoff depth = rainfall × runoff coefficient = 0.250 m × 0.6 = 0.15 m.  \nStep 4: Catchment area = required runoff volume / runoff depth = 25 / 0.15 = 166.67 m².  \nAnswer: Minimum courtyard catchment ≈ 167 m². A wrong answer (e.g., using 100% efficiency or ignoring runoff coefficient) shows inability to apply the water-balance equation: Storage = Rainfall × Area × Runoff Coeff. × Efficiency — a key quantitative skill for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evaporation loss per unit stored water in a khadin (shallow, large surface area) versus a tanka (deep, small surface area). If a khadin stores 10,000 m³ with a surface area of 20,000 m² and a tanka stores 20 m³ with a surface area of 4 m², and average daily evaporation is 8 mm, which system loses a higher percentage of its stored volume per day? Show calculation.",
+     "a": "Khadin daily evaporation loss = 20,000 m² × 0.008 m = 160 m³/day → % loss = (160/10,000)×100 = 1.6%/day.  \nTanka daily evaporation loss = 4 m² × 0.008 m = 0.032 m³/day → % loss = (0.032/20)×100 = 0.16%/day.  \nKhadin loses 10× higher percentage daily. This explains why khadins are used for seasonal soil-moisture storage (crop use within weeks) while tankas provide year-round drinking water. A wrong comparison (e.g., comparing absolute loss) misses the critical design principle: **minimise surface-area-to-volume ratio for long-term storage.**",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Revival of johads in Alwar district (by Tarun Bharat Sangh) succeeded because the structures are technically simple; social mobilisation was irrelevant.\" Use evidence from the Ralegan Siddhi case study (NCERT) and the Neeru-Meeru programme to support your judgement.",
+     "a": "The statement is false. Technical simplicity is necessary but not sufficient. Ralegan Siddhi succeeded because of strict community rules: ban on open grazing, liquor, water-intensive crops, and consensus-based governance. Neeru-Meeru in Andhra Pradesh also emphasised people's participation in constructing percolation tanks and johads. Without social cohesion, maintenance fails (siltation, breaching) and equity breaks down (upstream capture). A student who agrees with the statement ignores the NCERT's explicit emphasis on \"community participation\" and \"voluntary labour\" as the backbone of watershed success — a common error in board answers that treat water harvesting as purely engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a combined traditional harvesting plan for a 500-ha micro-watershed in a semi-arid region (rainfall 400 mm, undulating terrain with seasonal streams, sandy loam soil). Specify: (a) number and type of structures (khadin/tanka/johad), (b) their approximate locations on a sketch map description, (c) the sequence of construction, and (d) one community rule for equitable water sharing.",
+     "a": "A good answer: (a) 3-4 johads on 1st/2nd order streams for groundwater recharge; 2 khadins on gentle lower slopes for rabi irrigation; 50 household tankas for drinking water. (b) Sketch: johads along stream network (upper/mid reaches), khadins downstream where slope flattens, tankas at each homestead. (c) Sequence: johads first (recharge raises water table), then khadins (assured soil moisture), then tankas (domestic security). (d) Rule: \"No household may irrigate more than 1 ha from khadin water until all families have received one irrigation turn.\" A poor answer places structures randomly, ignores sequence, or omits the social rule — showing lack of systems thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

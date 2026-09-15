@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class6_social_science_fees102",
+ "concepts": [
+  {
+   "id": "fees.2.1",
+   "title": "Oceans and Continents: The Blue Planet",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Oceans and Continents: The Blue Planet' refers to.",
+     "a": "Seen from space the Earth looks blue because almost three-fourths of its surface is water; the largest water bodies are oceans and the largest continuous land areas are continents.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Oceans and Continents: The Blue Planet'.",
+     "a": "The blue planet divides into great waters and great lands, and both shape climate, life and history.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Oceans and Continents: The Blue Planet', in plain ASCII form.",
+     "a": "earth = about 3/4 water + about 1/4 land",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.2.2",
+   "title": "Water and Land in the Two Hemispheres",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Water and Land in the Two Hemispheres' refers to.",
+     "a": "Oceans and continents are not spread equally: maps drawn from above the North and South Poles show that most land gathers in the Northern Hemisphere while water dominates the Southern Hemisphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Water and Land in the Two Hemispheres'.",
+     "a": "Looking from each pole gives two different pictures of the same planet.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Water and Land in the Two Hemispheres' taught, and from which source text?",
+     "a": "Distribution of Water and Land (source: fees102.txt, Distribution of Water and Land)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.2.3",
+   "title": "The Seven Continents of the Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Seven Continents of the Earth' refers to.",
+     "a": "The Earth's land is grouped into seven continents: Asia, the largest, then Africa, North America, South America, Antarctica, Europe and Australia; islands such as ours sit near or within them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Seven Continents of the Earth'.",
+     "a": "Continents are the great land containers of the world, each with its own size, climate and life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Seven Continents of the Earth' taught, and from which source text?",
+     "a": "Continents (source: fees102.txt, Continents)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.2.4",
+   "title": "The Five Oceans of the Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Five Oceans of the Earth' refers to.",
+     "a": "The world's waters form five oceans, the Pacific, Atlantic, Indian, Arctic and Southern, joined into one great body that stirs climate and carries ships between continents.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Five Oceans of the Earth'.",
+     "a": "All oceans are one connected water body, divided by human naming into five.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Five Oceans of the Earth' taught, and from which source text?",
+     "a": "Oceans (source: fees102.txt, Oceans)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

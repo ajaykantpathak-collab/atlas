@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_011",
+   "title": "c12_biotech_cbse_03_011",
+   "questions": [
+    {
+     "q": "Name FOUR distinct application domains of gene cloning and give ONE specific product/example for each domain that is commercially used in India.",
+     "a": "Correct answer: (1) Medical — recombinant human insulin (Humulin) produced in E. coli; (2) Agricultural — Bt cotton (Cry1Ac gene from Bacillus thuringiensis) for bollworm resistance; (3) Industrial — recombinant rennet (chymosin) for cheese production replacing calf stomach extract; (4) Research/Forensic — DNA fingerprinting kits using VNTR/STR probes for paternity testing and crime investigation. A wrong answer revealing misconception: listing \"PCR\" as an application domain instead of a technique used across domains, or citing \"Golden Rice\" as currently commercialized in India (it is approved but not yet widely cultivated).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why human insulin produced in E. coli via gene cloning is therapeutically superior to porcine insulin extracted from pig pancreases, addressing at least THREE factors: immunogenicity, supply scalability, and batch consistency.",
+     "a": "Correct answer: (1) Immunogenicity: Human insulin differs from porcine insulin by one amino acid (Thr vs Ala at B30); cloned human insulin is identical to native human insulin, eliminating anti-insulin antibody formation. (2) Supply scalability: Fermentation of recombinant E. coli yields grams of insulin per litre, unlimited by pancreas availability; porcine insulin requires ~50,000 pig pancreases per kg of insulin. (3) Batch consistency: Cloned gene ensures identical amino acid sequence every batch; porcine extraction varies with animal age, diet, and processing. Wrong answer reveals: confusing \"porcine insulin is identical to human\" (it is not), or thinking scalability is limited by plasmid copy number (industrial strains use high-copy vectors and optimized fermentation).",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup wants to produce a human glycoprotein therapeutic (e.g., erythropoietin) that requires N-linked glycosylation for activity. They have the cDNA clone. Should they use E. coli or a mammalian cell line (CHO cells) as host? Justify your choice with TWO specific molecular reasons.",
+     "a": "Correct answer: Choose CHO cells (Chinese Hamster Ovary). Reason 1: E. coli lacks the endoplasmic reticulum and Golgi apparatus required for N-linked glycosylation; it cannot attach complex oligosaccharides to Asn-X-Ser/Thr sequons. Reason 2: E. coli lacks chaperones (e.g., BiP, calnexin) for proper folding of complex eukaryotic glycoproteins, leading to inclusion bodies. Wrong answer reveals: choosing E. coli because \"it grows faster and gives higher yield\" ignoring that the product would be inactive aglycosylated protein; or suggesting yeast (Pichia) without noting its hyperglycosylation (α-1,3-mannose) causes immunogenicity in humans.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cloning strategy for producing Bt toxin (Cry protein) in cotton plants versus producing the same toxin in E. coli for biopesticide spray formulation. Analyze FOUR differences: (a) vector type, (b) promoter choice, (c) selection marker, (d) downstream processing.",
+     "a": "Correct answer: (a) Vector: Cotton uses Agrobacterium Ti-plasmid derived binary vector (T-DNA borders); E. coli uses high-copy plasmid (pBR322/pUC origin). (b) Promoter: Cotton needs constitutive plant promoter (CaMV 35S) or tissue-specific (e.g., Cry1Ac under green tissue promoter); E. coli uses strong inducible promoter (T7/lac, tac) for controlled expression. (c) Selection: Cotton uses nptII (kanamycin) or bar (phosphinothricin) for plant cell selection; E. coli uses ampR (ampicillin) for bacterial selection. (d) Downstream: Cotton expresses toxin in planta — no purification needed; E. coli requires fermentation, cell lysis, inclusion body solubilization, refolding, and purification for spray formulation. Wrong answer reveals: using same promoter (e.g., T7) for both hosts (T7 requires T7 RNAP absent in plants), or ignoring that plant-expressed Cry protein must be stable in chloroplasts/cytoplasm while bacterial expression often forms inclusion bodies needing refolding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"RT-PCR based COVID-19 diagnostic kits are a direct application of gene cloning technology.\" Support or refute with THREE specific technical connections linking cloning steps (cDNA synthesis, amplification, probe design) to the RT-PCR workflow.",
+     "a": "Correct answer: SUPPORT the claim. Three connections: (1) cDNA synthesis: RT-PCR uses reverse transcriptase (studied in c12_biotech_cbse_03_003) to convert viral RNA to cDNA — identical to cDNA library construction. (2) Amplification: PCR uses Taq polymerase (c12_biotech_cbse_03_007) to amplify specific viral gene regions (ORF1ab, N, S genes) — same principle as amplifying cloned inserts. (3) Probe design: TaqMan probes are synthetic oligonucleotides complementary to target sequences — designed using known viral genome sequences obtained via cloning and sequencing (c12_biotech_cbse_03_008, 03_009). Refutation reveals: thinking RT-PCR \"clones the virus\" (it amplifies, does not clone into vectors), or missing that probe specificity relies on prior cloning/sequencing of SARS-CoV-2 genome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a gene cloning workflow to produce a thermostable α-amylase for the Indian textile industry (desizing cotton fabric at 80°C). Specify: (a) gene source organism, (b) vector and host system, (c) selection/screening method, (d) one industrial scale-up consideration. Justify each choice.",
+     "a": "Expected answer: (a) Gene source: Thermophilic bacterium (e.g., Bacillus licheniformis, Geobacillus stearothermophilus) or archaea (Pyrococcus furiosus) — naturally thermostable α-amylase genes. (b) Vector/host: Expression vector (pET series) in E. coli BL21(DE3) for high-level T7-driven expression; alternatively Bacillus subtilis secretion system for extracellular production. (c) Screening: Activity-based screening on starch-agar plates at 70°C (iodine staining shows clearance zones) OR SDS-PAGE of induced lysates with activity assay. (d) Scale-up: Fed-batch fermentation with controlled glucose feeding to avoid acetate accumulation; downstream: cell lysis, heat treatment (70°C, 30 min) to denature host proteins while thermostable amylase remains active — simplifies purification. Poor answer reveals: using mesophilic amylase gene (e.g., from E. coli) ignoring thermostability requirement; choosing constitutive promoter causing toxicity; omitting heat-stable purification step that exploits the enzyme's property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

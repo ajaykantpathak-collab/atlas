@@ -1,0 +1,879 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 104,
+ "chapter_title": "Laws of Motion",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc106.txt",
+ "concepts": [
+  {
+   "id": "keph.104.4.4",
+   "title": "Newton's First Law of Motion",
+   "section": "4.4",
+   "definition": "A body keeps doing what it is doing - staying at rest or moving uniformly in a straight line - until a net external force makes it change.",
+   "formula": "F_net = 0 implies a = 0",
+   "key_idea": "Objects have inertia, resisting changes to their state of motion.",
+   "textbook_ref": "keph104.txt lines 110-135",
+   "question_patterns": [
+    "explain why a passenger jerks forward when a bus stops",
+    "what happens to an object if the net external force is zero",
+    "define the law of inertia",
+    "identify the state of motion when forces are balanced",
+    "what do you understand by newton's first law of motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify external forces",
+     "explain": "List all forces acting on the body from the environment."
+    },
+    {
+     "step": 2,
+     "action": "calculate net force",
+     "explain": "Sum the force vectors to check if they cancel out."
+    },
+    {
+     "step": 3,
+     "action": "conclude state of motion",
+     "explain": "If the net force is zero, the body remains at rest or in uniform motion, confirming the first law."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.5.1",
+   "title": "Linear Momentum",
+   "section": "4.5",
+   "definition": "The vector quantity representing the product of an object's mass and its instantaneous velocity.",
+   "formula": "p = mass * velocity",
+   "key_idea": "Momentum quantifies the 'amount of motion' and varies with both mass and speed.",
+   "textbook_ref": "keph104.txt lines 165-180",
+   "question_patterns": [
+    "calculate the momentum of a body",
+    "find the product of mass and velocity",
+    "what is the momentum of a mass m moving at speed v",
+    "how much momentum does a vehicle have",
+    "work out the value using linear momentum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass and velocity",
+     "explain": "Momentum is the product of mass and velocity.",
+     "compute": "mass * velocity"
+    },
+    {
+     "step": 2,
+     "action": "determine direction of momentum",
+     "explain": "Momentum is a vector, so its direction is the same as the velocity vector."
+    },
+    {
+     "step": 3,
+     "action": "compute change in momentum",
+     "explain": "If velocity changes, the change in momentum is mass times the change in velocity.",
+     "compute": "mass * (v_final - v_initial)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving linear momentum.",
+     "solution": "Step 1: multiply mass and velocity. Step 2: determine direction of momentum. Step 3: compute change in momentum. Working: mass * velocity, mass * (v_final - v_initial).",
+     "answer": "Linear Momentum applied step by step gives the required result."
+    },
+    {
+     "question": "Apply linear momentum to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply mass and velocity. Step 2: determine direction of momentum. Step 3: compute change in momentum. Working: mass * velocity, mass * (v_final - v_initial).",
+     "answer": "The method of linear momentum leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.5.2",
+   "title": "Newton's Second Law of Motion",
+   "section": "4.5",
+   "definition": "The net force acting on a body equals the result of multiplying its mass and the acceleration produced.",
+   "formula": "force = mass * acceleration",
+   "key_idea": "Force is indeed the rate of change of momentum over time.",
+   "textbook_ref": "keph104.txt lines 230-250",
+   "question_patterns": [
+    "calculate the force required to accelerate a mass",
+    "find the acceleration of a body under a given force",
+    "what is the net force acting on the object",
+    "determine the mass if force and acceleration are known",
+    "solve a numerical on newton's second law of motion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass by acceleration",
+     "explain": "Force is calculated as mass times acceleration.",
+     "compute": "mass * acceleration"
+    },
+    {
+     "step": 2,
+     "action": "compute rate of change of momentum",
+     "explain": "Force equals the change in momentum divided by the time interval over which it changes.",
+     "compute": "(mass * (v_final - v_initial)) / time"
+    },
+    {
+     "step": 3,
+     "action": "determine direction of force",
+     "explain": "The net force acts in the same direction as the acceleration produced."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving newton's second law of motion.",
+     "solution": "Step 1: multiply mass by acceleration. Step 2: compute rate of change of momentum. Step 3: determine direction of force. Working: mass * acceleration, (mass * (v_final - v_initial)) / time.",
+     "answer": "Newton's Second Law of Motion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply newton's second law of motion to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply mass by acceleration. Step 2: compute rate of change of momentum. Step 3: determine direction of force. Working: mass * acceleration, (mass * (v_final - v_initial)) / time.",
+     "answer": "The method of newton's second law of motion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.5.3",
+   "title": "Impulse",
+   "section": "4.5",
+   "definition": "The product of a large force and the short time interval during which it acts, resulting in a change in momentum.",
+   "formula": "impulse = force * time_duration",
+   "key_idea": "Impulse measures the total change in momentum brought about by a force.",
+   "textbook_ref": "keph104.txt lines 305-325",
+   "question_patterns": [
+    "calculate the impulse imparted to a ball",
+    "find the change in momentum",
+    "what is the product of force and time",
+    "determine the impulse from mass and velocity change",
+    "work out the value using impulse"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate velocity change",
+     "explain": "Find the difference between final and initial velocity.",
+     "compute": "v_final - v_initial"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass by velocity change",
+     "explain": "Impulse equals the change in momentum.",
+     "compute": "mass * delta_v"
+    },
+    {
+     "step": 3,
+     "action": "compute average force",
+     "explain": "Divide the impulse by the contact time to obtain the average force applied during the collision.",
+     "compute": "impulse / time_duration"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving impulse.",
+     "solution": "Step 1: calculate velocity change. Step 2: multiply mass by velocity change. Step 3: compute average force. Working: v_final - v_initial, mass * delta_v, impulse / time_duration.",
+     "answer": "Impulse applied step by step gives the required result."
+    },
+    {
+     "question": "Apply impulse to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate velocity change. Step 2: multiply mass by velocity change. Step 3: compute average force. Working: v_final - v_initial, mass * delta_v, impulse / time_duration.",
+     "answer": "The method of impulse leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.6",
+   "title": "Newton's Third Law of Motion",
+   "section": "4.6",
+   "definition": "Whenever two bodies interact, the force applied by the first on the second is equal in both magnitude and opposite in direction to the force applied by the second on the first.",
+   "formula": "F_ab = -F_ba",
+   "key_idea": "Forces always exist in pairs acting on different bodies.",
+   "textbook_ref": "keph104.txt lines 340-365",
+   "question_patterns": [
+    "state the law of action and reaction",
+    "identify the reaction force to a given action",
+    "why do action and reaction forces not cancel each other",
+    "explain how a swimmer pushes the water",
+    "explain newton's third law of motion in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify interacting bodies",
+     "explain": "Determine the two objects exerting forces on each other."
+    },
+    {
+     "step": 2,
+     "action": "state the pair of forces",
+     "explain": "Force on A by B is equal and opposite to force on B by A."
+    },
+    {
+     "step": 3,
+     "action": "confirm forces act on different bodies",
+     "explain": "Since the action and reaction forces act on different bodies, they do not cancel each other and cannot be summed as a single net force."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.7",
+   "title": "Law of Conservation of Momentum",
+   "section": "4.7",
+   "definition": "The total linear momentum of an isolated system remains constant if no external force acts on it.",
+   "formula": "m1*u1 + m2*u2 = m1*v1 + m2*v2",
+   "key_idea": "Internal forces cannot change the total momentum of a system.",
+   "textbook_ref": "keph104.txt lines 415-435",
+   "question_patterns": [
+    "find the recoil velocity of a gun",
+    "calculate the final velocity after a collision",
+    "what is the total momentum of the system",
+    "determine the mass of an object using momentum conservation",
+    "work out the value using law of conservation of momentum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial total momentum",
+     "explain": "Sum the momenta of all parts before the interaction.",
+     "compute": "m1 * u1 + m2 * u2"
+    },
+    {
+     "step": 2,
+     "action": "equate to final momentum",
+     "explain": "Total momentum is conserved, so p_final = p_initial.",
+     "compute": "(p_initial - m1 * v1) / m2"
+    },
+    {
+     "step": 3,
+     "action": "verify total final momentum",
+     "explain": "Check that the sum of final momenta equals the initial total momentum to confirm conservation.",
+     "compute": "m1 * v1 + m2 * v2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving law of conservation of momentum.",
+     "solution": "Step 1: calculate initial total momentum. Step 2: equate to final momentum. Step 3: verify total final momentum. Working: m1 * u1 + m2 * u2, (p_initial - m1 * v1) / m2, m1 * v1 + m2 * v2.",
+     "answer": "Law of Conservation of Momentum applied step by step gives the required result."
+    },
+    {
+     "question": "Apply law of conservation of momentum to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate initial total momentum. Step 2: equate to final momentum. Step 3: verify total final momentum. Working: m1 * u1 + m2 * u2, (p_initial - m1 * v1) / m2, m1 * v1 + m2 * v2.",
+     "answer": "The method of law of conservation of momentum leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.9.1",
+   "title": "Static Friction",
+   "section": "4.9.1",
+   "definition": "The friction that must be overcome before one surface starts sliding over another.",
+   "formula": "f_s_max = mu_s * normal_force",
+   "key_idea": "Static friction is self-adjusting up to a maximum limiting value.",
+   "textbook_ref": "keph104.txt lines 510-535",
+   "question_patterns": [
+    "calculate the maximum static frictional force",
+    "find the coefficient of static friction",
+    "what is the limiting friction",
+    "determine if a block will slide given an applied force",
+    "work out the value using static friction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "On a level surface, normal force equals weight.",
+     "compute": "mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "multiply by coefficient",
+     "explain": "Limiting friction is the product of coefficient and normal force.",
+     "compute": "mu_s * normal_force"
+    },
+    {
+     "step": 3,
+     "action": "compare applied force with limiting friction",
+     "explain": "If the applied force exceeds the limiting friction, the body begins to slide; otherwise it remains at rest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving static friction.",
+     "solution": "Step 1: calculate normal force. Step 2: multiply by coefficient. Step 3: compare applied force with limiting friction. Working: mass * 9.8, mu_s * normal_force.",
+     "answer": "Static Friction applied step by step gives the required result."
+    },
+    {
+     "question": "Apply static friction to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate normal force. Step 2: multiply by coefficient. Step 3: compare applied force with limiting friction. Working: mass * 9.8, mu_s * normal_force.",
+     "answer": "The method of static friction leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.9.2",
+   "title": "Kinetic Friction",
+   "section": "4.9.1",
+   "definition": "The frictional force acting between surfaces that are in relative motion.",
+   "formula": "f_k = mu_k * normal_force",
+   "key_idea": "Kinetic friction is indeed generally less than the maximum static friction.",
+   "textbook_ref": "keph104.txt lines 540-555",
+   "question_patterns": [
+    "calculate the kinetic frictional force",
+    "find the acceleration of a sliding block",
+    "what is the resistive force during motion",
+    "determine the coefficient of kinetic friction",
+    "what is the result in this kinetic friction problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "Normal force is mass times gravity on a level plane.",
+     "compute": "mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "calculate friction",
+     "explain": "Kinetic friction is coefficient times normal force.",
+     "compute": "mu_k * normal_force"
+    },
+    {
+     "step": 3,
+     "action": "compute net acceleration",
+     "explain": "The net deceleration of the sliding body is kinetic friction divided by mass.",
+     "compute": "f_k / mass"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving kinetic friction.",
+     "solution": "Step 1: calculate normal force. Step 2: calculate friction. Step 3: compute net acceleration. Working: mass * 9.8, mu_k * normal_force, f_k / mass.",
+     "answer": "Kinetic Friction applied step by step gives the required result."
+    },
+    {
+     "question": "Apply kinetic friction to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate normal force. Step 2: calculate friction. Step 3: compute net acceleration. Working: mass * 9.8, mu_k * normal_force, f_k / mass.",
+     "answer": "The method of kinetic friction leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.10.1",
+   "title": "Centripetal Force",
+   "section": "4.10",
+   "definition": "The center-directed force required to maintain an object's uniform circular motion.",
+   "formula": "force = (mass * velocity**2) / radius",
+   "key_idea": "Centripetal force is not a new type of force but a requirement for circular paths.",
+   "textbook_ref": "keph104.txt lines 610-625",
+   "question_patterns": [
+    "calculate the centripetal force on a car",
+    "find the tension in a whirling string",
+    "what force keeps a planet in orbit",
+    "determine the force needed for a turn of radius r",
+    "solve a numerical on centripetal force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The formula requires velocity squared.",
+     "compute": "velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "Force is mass times velocity squared divided by radius.",
+     "compute": "mass * v_sq / radius"
+    },
+    {
+     "step": 3,
+     "action": "compute centripetal acceleration",
+     "explain": "Divide the centripetal force by mass to obtain the inward radial acceleration.",
+     "compute": "force / mass"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving centripetal force.",
+     "solution": "Step 1: square the velocity. Step 2: calculate force. Step 3: compute centripetal acceleration. Working: velocity * velocity, mass * v_sq / radius, force / mass.",
+     "answer": "Centripetal Force applied step by step gives the required result."
+    },
+    {
+     "question": "Apply centripetal force to a fresh example and interpret the result.",
+     "solution": "Step 1: square the velocity. Step 2: calculate force. Step 3: compute centripetal acceleration. Working: velocity * velocity, mass * v_sq / radius, force / mass.",
+     "answer": "The method of centripetal force leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.10.2",
+   "title": "Max Speed on Level Road",
+   "section": "4.10",
+   "definition": "The maximum velocity a vehicle can achieve on a flat circular track without skidding.",
+   "formula": "v_max = sqrt(mu_s * radius * 9.8)",
+   "key_idea": "Friction provides the necessary centripetal force on a level road.",
+   "textbook_ref": "keph104.txt lines 635-650",
+   "question_patterns": [
+    "find the maximum speed of a car on a turn",
+    "will the cyclist slip at this speed",
+    "calculate the safe speed for a radius r",
+    "what is the limit of velocity on a flat road",
+    "what is the result in this max speed on level road problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate product of mu, r, and g",
+     "explain": "The square of max velocity depends on friction, radius, and gravity.",
+     "compute": "mu_s * radius * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "The maximum speed is the square root of the product.",
+     "compute": "sqrt(v_sq)"
+    },
+    {
+     "step": 3,
+     "action": "compute required centripetal force",
+     "explain": "At the maximum speed, friction supplies exactly the centripetal force needed for the turn.",
+     "compute": "mass * (v_max**2) / radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving max speed on level road.",
+     "solution": "Step 1: calculate product of mu, r, and g. Step 2: take square root. Step 3: compute required centripetal force. Working: mu_s * radius * 9.8, sqrt(v_sq), mass * (v_max**2) / radius.",
+     "answer": "Max Speed on Level Road applied step by step gives the required result."
+    },
+    {
+     "question": "Apply max speed on level road to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate product of mu, r, and g. Step 2: take square root. Step 3: compute required centripetal force. Working: mu_s * radius * 9.8, sqrt(v_sq), mass * (v_max**2) / radius.",
+     "answer": "The method of max speed on level road leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex4.2",
+   "source_ref": "keph104.txt lines 275-285",
+   "concept": "keph.104.4.5.2",
+   "question_type": "compute",
+   "question_pattern": "A bullet of mass {mass} moving with speed {u} is stopped after a distance {s}. What is the average resistive force?",
+   "extracted_variables": {
+    "mass": "mass of the bullet in kg",
+    "u": "initial velocity",
+    "s": "stopping distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate acceleration",
+     "explain": "Using v^2 - u^2 = 2as, where v=0.",
+     "compute": "accel = (u * u) / (2 * s)"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "Force is mass times acceleration.",
+     "compute": "force = mass * accel"
+    }
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "keph104.txt lines 320-330",
+   "concept": "keph.104.4.5.3",
+   "question_type": "compute",
+   "question_pattern": "A ball of mass {mass} hits a bat at speed {v} and is hit back at the same speed. Determine the impulse.",
+   "extracted_variables": {
+    "mass": "mass of the ball",
+    "v": "speed of the ball"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate velocity change",
+     "explain": "Since it reverses direction, change is v - (-v) = 2v.",
+     "compute": "delta_v = 2 * v"
+    },
+    {
+     "step": 2,
+     "action": "calculate impulse",
+     "explain": "Impulse is mass times change in velocity.",
+     "compute": "impulse = mass * delta_v"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "keph104.txt lines 165-180",
+   "concept": "keph.104.4.5.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute linear momentum step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "velocity": "value of velocity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass and velocity",
+     "explain": "Momentum is the product of mass and velocity.",
+     "compute": "p = mass * velocity"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "keph104.txt lines 230-250",
+   "concept": "keph.104.4.5.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute newton's second law of motion step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "acceleration": "value of acceleration"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass by acceleration",
+     "explain": "Force is calculated as mass times acceleration.",
+     "compute": "force = mass * acceleration"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "keph104.txt lines 305-325",
+   "concept": "keph.104.4.5.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute impulse step by step",
+   "extracted_variables": {
+    "v_final": "value of v_final",
+    "v_initial": "value of v_initial",
+    "mass": "value of mass"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate velocity change",
+     "explain": "Find the difference between final and initial velocity.",
+     "compute": "delta_v = v_final - v_initial"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass by velocity change",
+     "explain": "Impulse equals the change in momentum.",
+     "compute": "impulse = mass * delta_v"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "keph104.txt lines 415-435",
+   "concept": "keph.104.4.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute law of conservation of momentum step by step",
+   "extracted_variables": {
+    "m1": "value of m1",
+    "u1": "value of u1",
+    "m2": "value of m2",
+    "u2": "value of u2",
+    "v1": "value of v1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial total momentum",
+     "explain": "Sum the momenta of all parts before the interaction.",
+     "compute": "p_initial = m1 * u1 + m2 * u2"
+    },
+    {
+     "step": 2,
+     "action": "equate to final momentum",
+     "explain": "Total momentum is conserved, so p_final = p_initial.",
+     "compute": "v2 = (p_initial - m1 * v1) / m2"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "keph104.txt lines 510-535",
+   "concept": "keph.104.4.9.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute static friction step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "mu_s": "value of mu_s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "On a level surface, normal force equals weight.",
+     "compute": "normal_force = mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "multiply by coefficient",
+     "explain": "Limiting friction is the product of coefficient and normal force.",
+     "compute": "f_s_max = mu_s * normal_force"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "keph104.txt lines 540-555",
+   "concept": "keph.104.4.9.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinetic friction step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "mu_k": "value of mu_k"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "Normal force is mass times gravity on a level plane.",
+     "compute": "normal_force = mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "calculate friction",
+     "explain": "Kinetic friction is coefficient times normal force.",
+     "compute": "f_k = mu_k * normal_force"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "keph104.txt lines 610-625",
+   "concept": "keph.104.4.10.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute centripetal force step by step",
+   "extracted_variables": {
+    "velocity": "value of velocity",
+    "mass": "value of mass",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The formula requires velocity squared.",
+     "compute": "v_sq = velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "Force is mass times velocity squared divided by radius.",
+     "compute": "force = mass * v_sq / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "keph104.txt lines 635-650",
+   "concept": "keph.104.4.10.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute max speed on level road step by step",
+   "extracted_variables": {
+    "mu_s": "value of mu_s",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product of mu, r, and g",
+     "explain": "The square of max velocity depends on friction, radius, and gravity.",
+     "compute": "v_sq = mu_s * radius * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "The maximum speed is the square root of the product.",
+     "compute": "v_max = sqrt(v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "keph104.txt lines 165-180",
+   "concept": "keph.104.4.5.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute linear momentum step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "velocity": "value of velocity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass and velocity",
+     "explain": "Momentum is the product of mass and velocity.",
+     "compute": "p = mass * velocity"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "keph104.txt lines 415-435",
+   "concept": "keph.104.4.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute law of conservation of momentum step by step",
+   "extracted_variables": {
+    "m1": "value of m1",
+    "u1": "value of u1",
+    "m2": "value of m2",
+    "u2": "value of u2",
+    "v1": "value of v1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial total momentum",
+     "explain": "Sum the momenta of all parts before the interaction.",
+     "compute": "p_initial = m1 * u1 + m2 * u2"
+    },
+    {
+     "step": 2,
+     "action": "equate to final momentum",
+     "explain": "Total momentum is conserved, so p_final = p_initial.",
+     "compute": "v2 = (p_initial - m1 * v1) / m2"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "keph104.txt lines 510-535",
+   "concept": "keph.104.4.9.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute static friction step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "mu_s": "value of mu_s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "On a level surface, normal force equals weight.",
+     "compute": "normal_force = mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "multiply by coefficient",
+     "explain": "Limiting friction is the product of coefficient and normal force.",
+     "compute": "f_s_max = mu_s * normal_force"
+    }
+   ]
+  },
+  {
+   "id": "exauto12",
+   "source_ref": "keph104.txt lines 540-555",
+   "concept": "keph.104.4.9.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinetic friction step by step",
+   "extracted_variables": {
+    "mass": "value of mass",
+    "mu_k": "value of mu_k"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate normal force",
+     "explain": "Normal force is mass times gravity on a level plane.",
+     "compute": "normal_force = mass * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "calculate friction",
+     "explain": "Kinetic friction is coefficient times normal force.",
+     "compute": "f_k = mu_k * normal_force"
+    }
+   ]
+  },
+  {
+   "id": "exauto13",
+   "source_ref": "keph104.txt lines 610-625",
+   "concept": "keph.104.4.10.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute centripetal force step by step",
+   "extracted_variables": {
+    "velocity": "value of velocity",
+    "mass": "value of mass",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "The formula requires velocity squared.",
+     "compute": "v_sq = velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "calculate force",
+     "explain": "Force is mass times velocity squared divided by radius.",
+     "compute": "force = mass * v_sq / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto14",
+   "source_ref": "keph104.txt lines 635-650",
+   "concept": "keph.104.4.10.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute max speed on level road step by step",
+   "extracted_variables": {
+    "mu_s": "value of mu_s",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate product of mu, r, and g",
+     "explain": "The square of max velocity depends on friction, radius, and gravity.",
+     "compute": "v_sq = mu_s * radius * 9.8"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "The maximum speed is the square root of the product.",
+     "compute": "v_max = sqrt(v_sq)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "4.5",
+   "source_ref": "keph104.txt line 755",
+   "questions": [
+    "A constant retarding force of 50 N is applied to a body of mass 20 kg moving initially with a speed of 15 m s-1. How long does the body take to stop?"
+   ]
+  },
+  {
+   "id": "4.19",
+   "source_ref": "keph104.txt line 805",
+   "questions": [
+    "A shell of mass 0.020 kg is fired by a gun of mass 100 kg. If the muzzle speed of the shell is 80 m s-1, what is the recoil speed of the gun?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

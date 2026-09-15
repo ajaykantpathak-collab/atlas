@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_011",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_011",
+   "title": "c6_physics_ch03_011",
+   "questions": [
+    {
+     "q": "Name the three basic components found inside a standard torchlight that allow it to function.",
+     "a": "The three components are the battery, the bulb, and the switch. If a student mentions the \"casing\" or \"lens,\" they are focusing on structural parts rather than the electrical circuit components, indicating a need to differentiate between appearance and function.",
+     "self_check": true
+    },
+    {
+     "q": "If you take the battery out of your torchlight, the bulb will not light up even if the switch is in the \"ON\" position. Why?",
+     "a": "The battery is the source of electrical energy; without it, there is no energy to power the bulb. A student who says \"the switch is broken\" misses the fundamental role of the battery as the energy provider in the circuit.",
+     "self_check": true
+    },
+    {
+     "q": "A torchlight has a switch. If the switch is \"OFF,\" how would you describe the status of the electrical circuit?",
+     "a": "The circuit is \"broken\" or \"incomplete,\" meaning electricity cannot flow. A student who says \"the circuit is still working\" fails to understand that a circuit must be a continuous loop to function.",
+     "self_check": true
+    },
+    {
+     "q": "If a torchlight is \"ON\" but the bulb is not glowing, what is one possible reason related to the circuit components?",
+     "a": "The bulb might be fused (broken filament) or the battery might be dead. This shows the student can analyze why a closed circuit might still fail to produce light due to a faulty component.",
+     "self_check": true
+    },
+    {
+     "q": "Is a torchlight with the switch in the \"OFF\" position considered a \"complete\" circuit? Justify your answer.",
+     "a": "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery. Justifying this requires understanding that the \"OFF\" position is a physical disconnection.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are building a simple torch model. You have a bulb and a battery, but no switch. How could you manually turn your \"torch\" on and off?",
+     "a": "You could manually connect and disconnect one of the wires attached to the battery. This demonstrates that a switch is simply a mechanical tool for making or breaking a connection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

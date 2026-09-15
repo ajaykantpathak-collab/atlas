@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_004",
+   "title": "c10_phy_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the primary form of energy radiated by the Sun that solar devices harness, and name any two solar devices used in daily life?",
+     "a": "The Sun radiates electromagnetic energy (heat and light). Two common solar devices are solar cooker and solar water heater. A wrong answer (e.g., \"solar energy comes from burning fuel\" or naming \"solar fan\" as a standard device) reveals the student confuses solar energy with other energy sources or cannot recall standard textbook devices.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the inner surface of a box-type solar cooker painted black and covered with a glass plate?",
+     "a": "The black surface absorbs maximum solar radiation (heat), and the glass plate traps the heat inside by allowing shortwave radiation in but blocking longwave infrared radiation from escaping (greenhouse effect). A wrong answer focusing only on \"black absorbs heat\" but missing the glass plate's role reveals the student does not understand the greenhouse effect mechanism essential for achieving high temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "A solar panel of area 1.5 m² receives solar radiation of intensity 700 W/m². If the panel efficiency is 18%, calculate the electrical power output in watts.",
+     "a": "Step 1: Identify given: Area A = 1.5 m², Intensity I = 700 W/m², Efficiency η = 18% = 0.18. Step 2: Formula: Electrical Power Output P = I × A × η. Step 3: Substitute: P = 700 W/m² × 1.5 m² × 0.18 = 189 W. Step 4: Unit check: (W/m²) × m² × (dimensionless) = W. Correct. A wrong answer (e.g., 1260 W by forgetting efficiency, or 189 kW by unit error) reveals the student either ignores efficiency or mishandles percentage conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heat transfer mechanisms in a solar cooker and a solar water heater. Which one relies more on convection for distributing heat to the target (food/water)?",
+     "a": "Both use radiation absorption and greenhouse effect to trap heat. In a solar cooker, heat is transferred to the cooking pot mainly by conduction (through the pot bottom) and radiation inside the box; convection plays a minor role. In a solar water heater, water circulates through the collector tubes — natural convection (thermosiphon) or forced convection moves heated water to the storage tank. Thus, the solar water heater relies more on convection for heat distribution. A wrong answer stating both rely equally on convection reveals the student cannot distinguish between static heating (cooker) and fluid-circulation heating (water heater).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Solar energy can completely replace all fossil fuel use in India within five years because sunlight is free and unlimited.\" Evaluate this statement with two supporting and two limiting factors.",
+     "a": "Supporting: (1) India receives abundant solar insolation (5-7 kWh/m²/day) in most regions. (2) Solar energy is renewable and produces no direct emissions during operation. Limiting: (1) Intermittency — no generation at night or during heavy monsoon clouds requires storage/backup. (2) High initial cost and land requirement for large-scale deployment; current grid infrastructure needs upgrades. A wrong answer that only lists positives or ignores storage/grid issues reveals the student cannot critically evaluate energy transitions — a key competency for board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate the greenhouse effect used in a solar cooker. List materials, procedure, and what you would measure.",
+     "a": "Materials: Two identical cardboard boxes, black paint, aluminium foil, transparent plastic wrap or glass pane, thermometer, sunlight. Procedure: Paint inside of both boxes black. Cover one with plastic wrap (trap heat), leave other open. Place thermometers inside. Keep in direct sunlight for 30 minutes. Measure temperature every 5 minutes. Expected: Covered box shows higher temperature due to trapped infrared radiation. A poor answer that uses no control box or measures only final temperature reveals the student does not understand controlled experiments or the role of the transparent cover.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

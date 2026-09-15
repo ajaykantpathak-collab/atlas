@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_5",
+   "title": "c9_eco_ch2_5",
+   "questions": [
+    {
+     "q": "Define substitute goods and complementary goods in terms of how the price of one good affects the demand for the other.",
+     "a": "Substitute goods: an increase in the price of good Y leads to an increase in demand for good X (positive relationship). Complementary goods: an increase in the price of good Y leads to a decrease in demand for good X (negative relationship). A wrong answer (e.g., saying complements move in the same direction) reveals the student confuses the direction of the cross-price effect, likely because they think \"used together\" means \"demand moves together\" without considering the price mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "If the price of petrol increases significantly, what happens to the demand for cars? Explain whether cars and petrol are substitutes or complements, and describe the shift of the car demand curve.",
+     "a": "Cars and petrol are complements. A rise in petrol price increases the cost of using a car, so demand for cars decreases — the demand curve for cars shifts leftward. A wrong answer (e.g., demand for cars increases or curve shifts right) reveals the student misidentifies the relationship as substitutes, perhaps thinking people buy more cars when petrol is expensive to \"save fuel,\" ignoring that higher running costs reduce overall car demand.",
+     "self_check": true
+    },
+    {
+     "q": "The price of Samsung smartphones falls from ₹25,000 to ₹20,000. Using a demand curve diagram for Xiaomi smartphones, show and explain the effect on the demand for Xiaomi phones. Assume the two brands are close substitutes. Initial demand for Xiaomi at its own price of ₹18,000 is 1,000 units per month. After the Samsung price cut, demand for Xiaomi at the same ₹18,000 falls to 700 units.",
+     "a": "Step 1: Identify Samsung and Xiaomi as substitutes. Step 2: Samsung price falls → Samsung becomes relatively cheaper. Step 3: Consumers switch from Xiaomi to Samsung. Step 4: At every price of Xiaomi (including ₹18,000), quantity demanded decreases — demand curve shifts leftward. Step 5: The shift is from D1 (1,000 units at ₹18,000) to D2 (700 units at ₹18,000). A wrong answer showing a rightward shift or movement along the curve reveals confusion between substitute/complement logic or between shift vs. movement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) Price of milk rises → demand for cornflakes falls. (B) Price of tea rises → demand for coffee rises. Identify the relationship in each case. Then analyze: if the price of cornflakes itself falls, how does that affect the demand for milk differently than scenario A?",
+     "a": "Scenario A: milk and cornflakes are complements (price of milk up → demand for cornflakes down). Scenario B: tea and coffee are substitutes (price of tea up → demand for coffee up). If cornflakes' own price falls, quantity demanded of cornflakes increases (movement along its demand curve), which *increases* demand for milk (rightward shift of milk's demand curve) because they are complements. This is the opposite direction of scenario A where milk's price rose. A wrong answer that says cornflakes' price fall reduces milk demand reveals confusion between own-price effect (movement along) and cross-price effect (shift).",
+     "self_check": true
+    },
+    {
+     "q": "A government imposes a high tax on sugary aerated drinks, raising their price by 20%. Health experts argue this will increase demand for fresh fruit juices. Evaluate this claim using substitute/complement logic. Consider whether the policy might have unintended effects on complementary goods.",
+     "a": "The claim is valid only if aerated drinks and fruit juices are substitutes — a price rise in aerated drinks should shift demand for juices rightward. However, if consumers view them as distinct categories (e.g., aerated drinks for parties, juices for health), the cross-effect may be weak. Unintended effect: if aerated drinks are often consumed with fast food (complements), higher aerated drink prices could reduce fast food demand, hurting that industry. A wrong answer that ignores complementarity with fast food or assumes perfect substitution reveals incomplete analysis of market interdependencies.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life example from your neighborhood involving three goods: one pair of substitutes and one pair of complements. Draw a rough demand curve diagram for one good showing the shift when the price of its related good changes. Label axes, curves, and shift direction.",
+     "a": "Example: Substitutes — bus travel and metro travel (price of bus fare up → metro demand up). Complements — printers and ink cartridges (price of printers down → ink demand up). Diagram for ink cartridges: vertical axis = price of ink, horizontal axis = quantity of ink. Initial demand D1. Printer price falls → demand for printers rises → demand for ink shifts right to D2. A poor answer uses vague goods (e.g., \"food and water\") or draws a movement along the curve instead of a shift, showing inability to apply the concept independently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_008",
+   "title": "c12_acc_cbse_03_008",
+   "questions": [
+    {
+     "q": "State the formula for calculating the new capital of a continuing partner after retirement when the total capital of the reconstituted firm and the new profit-sharing ratio are known.",
+     "a": "New Capital of Partner = Total Capital of Reconstituted Firm × Partner's New Profit Share. A wrong answer (e.g., using old ratio or ignoring revaluation adjustments) reveals the student does not understand that the capital adjustment is based on the **final** capital after all retirement adjustments and the **new** ratio, not the old ratio or pre-adjustment capitals.",
+     "self_check": true
+    },
+    {
+     "q": "After a partner's retirement, the continuing partners' capital accounts (after all adjustments) show: X ₹1,80,000, Y ₹1,20,000. They decide to adjust capitals in their new profit-sharing ratio 3:2 by bringing in or withdrawing cash. The total capital of the firm is ₹3,00,000. Explain why X must withdraw cash and Y must bring in cash, and calculate the amounts.",
+     "a": "New capitals: X = ₹3,00,000 × 3/5 = ₹1,80,000; Y = ₹3,00,000 × 2/5 = ₹1,20,000. X's adjusted capital is already ₹1,80,000 (no change), Y's is ₹1,20,000 (no change). **No cash movement is needed.** A student who says X withdraws or Y brings in cash has misunderstood that the existing capitals are **already proportionate** to the new ratio. The misconception is assuming adjustment is always required; it is only required when adjusted capitals are **not** in the new ratio.",
+     "self_check": true
+    },
+    {
+     "q": "P, Q, and R share profits 5:3:2. R retires. After all adjustments (goodwill, revaluation, reserves), the capital balances are: P ₹2,50,000, Q ₹1,50,000, R ₹1,00,000 (to be paid off). P and Q decide to adjust their capitals in the new ratio 3:2 by bringing/withdrawing cash. The total capital of the reconstituted firm (after paying R) is ₹4,00,000. Calculate the cash to be brought in or withdrawn by P and Q.",
+     "a": "Step 1: Total capital after R's payment = ₹4,00,000.  \nStep 2: New ratio P:Q = 3:2.  \nStep 3: P's new capital = ₹4,00,000 × 3/5 = ₹2,40,000. Q's new capital = ₹4,00,000 × 2/5 = ₹1,60,000.  \nStep 4: Compare with adjusted capitals: P has ₹2,50,000 (surplus ₹10,000 → withdraw), Q has ₹1,50,000 (deficit ₹10,000 → bring in).  \nStep 5: Journal entries: P's Capital A/c Dr. ₹10,000 → Bank A/c ₹10,000; Bank A/c Dr. ₹10,000 → Q's Capital A/c ₹10,000.  \nA wrong answer (e.g., using old ratio 5:3, or forgetting to deduct R's capital from total) shows the student cannot isolate the reconstituted firm's capital and apply the new ratio correctly.",
+     "self_check": true
+    },
+    {
+     "q": "In a retirement scenario, the continuing partners agree to adjust their capitals in the new profit-sharing ratio **without** bringing in or withdrawing cash. Instead, they use their Current Accounts. Explain how this is achieved and why the total capital of the firm remains unchanged.",
+     "a": "The partners' Capital Accounts are fixed at the new proportionate amounts by transferring the surplus/deficit to their Current Accounts. Example: Total capital ₹5,00,000, new ratio 2:1. New capitals: A ₹3,33,333, B ₹1,66,667. If A's adjusted capital is ₹4,00,000 and B's ₹1,00,000, then A's Capital A/c Dr. ₹66,667 → A's Current A/c ₹66,667; B's Current A/c Dr. ₹66,667 → B's Capital A/c ₹66,667. Total capital remains ₹5,00,000 because no cash enters/leaves the firm; only internal reclassification between Capital and Current Accounts occurs. A student who says total capital changes has confused **capital adjustment** with **cash settlement**.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"When continuing partners adjust their capitals after retirement, the partner with the higher new profit share always brings in cash, and the partner with the lower share always withdraws cash.\"",
+     "a": "The statement is **false**. The direction of cash flow depends on the **comparison between the partner's adjusted capital (after all retirement adjustments) and their new proportionate capital**, not on the magnitude of the new share alone. Example: A and B new ratio 3:2. Adjusted capitals: A ₹1,00,000, B ₹1,00,000 (total ₹2,00,000). New capitals: A ₹1,20,000, B ₹80,000. A (higher share) has a deficit of ₹20,000 → brings in cash. B (lower share) has surplus of ₹20,000 → withdraws cash. Here the higher-share partner brings in cash. A student who agrees with the statement has oversimplified the logic and ignored the starting adjusted capitals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a retirement scenario with three continuing partners where: (a) the total capital after retirement adjustments is ₹6,00,000, (b) the new profit-sharing ratio is 4:3:3, (c) one partner's adjusted capital is exactly equal to their new proportionate capital, (d) the other two partners have opposite imbalances (one surplus, one deficit) of equal amount. Provide the adjusted capitals, new capitals, and cash movements.",
+     "a": "Let partners be X, Y, Z with new ratio 4:3:3. Total capital = ₹6,00,000.  \nNew capitals: X = ₹6,00,000 × 4/10 = ₹2,40,000; Y = ₹1,80,000; Z = ₹1,80,000.  \nCondition (c): Let Y's adjusted capital = ₹1,80,000 (exact match).  \nCondition (d): X and Z have opposite imbalances of equal amount. Let X's adjusted capital = ₹2,60,000 (surplus ₹20,000), Z's adjusted capital = ₹1,60,000 (deficit ₹20,000).  \nCash movements: X withdraws ₹20,000; Z brings in ₹20,000; Y no change.  \nAdjusted capitals: X ₹2,60,000, Y ₹1,80,000, Z ₹1,60,000.  \nA poor answer would fail to ensure the sum of adjusted capitals equals total capital (₹6,00,000) or would not make the imbalances equal and opposite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

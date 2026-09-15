@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy207",
+  "concepts": [
+    {
+      "id": "kegy.207.1.1",
+      "questions": [
+        {"q": "Which gas makes up about 78 per cent of the atmosphere? (one word)", "a": "nitrogen"},
+        {"q": "Which gas makes up about 21 per cent of the atmosphere? (one word)", "a": "oxygen"},
+        {"q": "Nitrogen and oxygen together make up what per cent of dry air? (give the per cent)", "a": "99"},
+        {"q": "Which gas, needed by plants for photosynthesis, is a small atmospheric fraction? (two words)", "a": "carbon dioxide"},
+        {"q": "Which inert gas ranks third among atmospheric gases? (one word)", "a": "argon"},
+        {"q": "Which invisible atmospheric component absorbs heat and forms clouds? (two words)", "a": "water vapour"},
+        {"q": "The remaining 1 per cent of the atmosphere holds argon, carbon dioxide and what else of human origin? (one word)", "a": "dust"}
+      ]
+    },
+    {
+      "id": "kegy.207.2.1",
+      "questions": [
+        {"q": "In which atmospheric layer does all weather occur? (one word)", "a": "troposphere"},
+        {"q": "In which layer does the ozone layer lie? (one word)", "a": "stratosphere"},
+        {"q": "In which layer does temperature rise because it absorbs solar radiation? (one word)", "a": "thermosphere"},
+        {"q": "Which layer reflects radio waves back to earth? (one word)", "a": "ionosphere"},
+        {"q": "Which outermost layer merges into space? (one word)", "a": "exosphere"},
+        {"q": "How many layers does the atmosphere have from troposphere to exosphere? (number)", "a": "5"},
+        {"q": "In the troposphere, temperature falls or rises with height? (one word)", "a": "falls"}
+      ]
+    },
+    {
+      "id": "kegy.207.3.1",
+      "questions": [
+        {"q": "Which harmful solar rays does the atmosphere's ozone shield out? (short form)", "a": "ultraviolet"},
+        {"q": "Which gas do plants take from the air for food-making? (two words)", "a": "carbon dioxide"},
+        {"q": "Which gas do animals breathe from the air? (one word)", "a": "oxygen"},
+        {"q": "Which heat-absorbing atmospheric constituents keep the planet warm enough for life? (two words)", "a": "greenhouse gases"},
+        {"q": "Which atmospheric component, invisible, drives the water cycle? (two words)", "a": "water vapour"},
+        {"q": "The motions of the atmosphere produce weather and what longer-run record? (one word)", "a": "climate"},
+        {"q": "Does the atmosphere warm the planet or cool it overall? (one word)", "a": "warm"}
+      ]
+    }
+  ]
+}

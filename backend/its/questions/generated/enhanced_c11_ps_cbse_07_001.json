@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_07_001",
+   "title": "c11_ps_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define \"nation\" as an \"imagined community\" in one precise sentence. What does \"imagined\" mean in this specific political science context?",
+     "a": "A nation is an imagined community because its members will never know most fellow members, yet they hold a mental image of their communion based on shared beliefs, history, territory, and political ideals. \"Imagined\" does not mean \"false\" or \"fictional\" — it means socially constructed and sustained by collective imagination rather than face-to-face interaction. A wrong answer (e.g., \"imagined means fake\" or \"nation is based on common blood\") reveals the student conflates nation with primordial kinship groups and misunderstands the constructivist nature of political communities.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Neither descent, nor language, nor religion or ethnicity can claim to be a common factor in nationalisms all over the world.\" Using Canada and India as evidence, explain why no single cultural marker can universally define a nation.",
+     "a": "Canada has English and French speakers; India has 22 scheduled languages and hundreds of dialects. Canada has Protestant and Catholic majorities; India has Hindus, Muslims, Christians, Sikhs, Buddhists, Jains, and others. No single language, religion, or ethnic group encompasses all citizens in either country. Yet both are recognised nations. A wrong answer (e.g., \"India's nationhood comes from Hinduism\" or \"Canada is not a real nation\") reveals the student holds an ethnic/cultural conception of nationhood and cannot grasp the political, voluntaristic basis of modern civic nations.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Tamil Nadu has a distinct language, history, and territory. By the textbook's four criteria, Tamil Nadu qualifies as a nation.\" Apply the four constitutive elements to evaluate this claim. What distinguishes a sub-national identity from a nation?",
+     "a": "Tamil Nadu satisfies shared history (Sangam literature, Chola empire), territory (defined geography), and cultural distinctiveness (Tamil language). However, the fourth element — shared political ideals aspiring to *independent* political existence — is contested. Most Tamils identify as Indian *and* Tamil; the dominant political aspiration is federal autonomy within India, not secession. A nation claims the right to self-determination (sovereign statehood). A wrong answer (e.g., \"Tamil Nadu is a nation because it has language and history\") reveals the student misses the *political* dimension: a nation is a community that *aspires* to or *possesses* sovereign statehood, not merely cultural distinctiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"cultural identity\" model of nationhood (common language/religion/descent) with the \"political identity\" model (shared constitutional values). Analyse why the NCERT argues the latter is \"the most desirable basis of a political community or a nation-state\" in a democracy.",
+     "a": "The cultural model excludes minorities (e.g., imposing Hindi disadvantages non-Hindi speakers; declaring a Hindu Rashtra marginalizes Muslims/Christians). It creates hierarchy among citizens. The political model — loyalty to the Constitution's values (liberty, equality, fraternity, secularism) — includes all citizens equally regardless of culture. It allows multiple cultural identities to coexist under a shared political roof. A wrong answer (e.g., \"cultural unity makes administration easier\") reveals the student prioritises administrative convenience over democratic equality and misses the normative argument: democracy *requires* equal membership, which cultural homogeneity cannot guarantee in diverse societies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Indian nation was born on August 15, 1947.\" Use the concept of \"continuing historical identity\" to justify your answer.",
+     "a": "The statement is partially true but incomplete. The *Indian state* (sovereign political entity) was born in 1947. The *Indian nation* — as a continuing historical identity — draws on civilisational continuity (Nehru's \"tremendous impress of oneness\"), the freedom struggle's collective memory, and pre-colonial cultural unity. The nation *pre-existed* the state; the state was the political realisation of the nation's aspiration. A wrong answer (e.g., \"India became a nation only after Independence\") reveals the student conflates nation with state and ignores the pre-political, historical-cultural dimension of nationhood that nationalists invoke to legitimise statehood claims.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 50-word \"Civic Oath for a Diverse Nation\" that operationalises the political identity model. It must reference shared political ideals, not cultural markers, and be inclusive of all citizens.",
+     "a": "\"I pledge allegiance to the Constitution of India, to the ideals of justice, liberty, equality, and fraternity it enshrines. I commit to uphold the dignity of every citizen regardless of language, religion, caste, or region. My nation is not my tribe, but our shared democratic covenant.\" A poor answer (e.g., \"I love my motherland, its culture, and its great history\") reveals the student cannot translate the abstract political model into concrete civic language and defaults to emotive cultural nationalism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

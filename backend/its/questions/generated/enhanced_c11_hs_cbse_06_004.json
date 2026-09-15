@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_004",
+   "title": "c11_hs_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define mass communication and state two characteristics of its audience as per NCERT Class 11.",
+     "a": "Mass communication is the process of multiplying messages with mechanical devices and disseminating them to masses. Its audience is (1) very large, heterogeneous, and anonymous, and (2) spread over a large area, separated from the communicator in time and space. A wrong answer (e.g., \"audience is small and known\" or \"feedback is immediate\") reveals confusion with group or interpersonal communication, indicating the student has not grasped the scale, anonymity, and spatiotemporal separation unique to mass communication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a WhatsApp group message sent by a school principal to 50 teachers is NOT mass communication, even though it reaches many people simultaneously.",
+     "a": "It is intra-organisational communication because: (1) the audience (teachers) is specific, known, and homogeneous (same organisation, role), not anonymous/heterogeneous; (2) the channel (WhatsApp) is an interpersonal/interactive digital tool, not a mass medium like TV/radio; (3) feedback is immediate and two-way (teachers can reply), unlike delayed/cumulative mass communication feedback. A wrong answer focusing only on \"number of recipients\" reveals the misconception that any large-audience message is mass communication, ignoring audience relationship, channel nature, and feedback dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A government ministry sends a directive to all state departments to implement a new nutrition scheme. Classify this communication as intra-organisational or inter-organisational and justify using two structural features.",
+     "a": "This is inter-organisational communication. Justification: (1) It occurs between distinct organisations (Central Ministry vs. State Departments), each with separate administrative hierarchies, not within a single organisational structure. (2) It requires coordination protocols (e.g., formal letters, video conferences) across organisational boundaries, unlike intra-organisational flow which follows internal departmental channels. A wrong classification as intra-organisational shows misunderstanding of \"organisation\" as a bounded entity; the student likely views \"government\" as one monolithic organisation rather than a network of separate organisations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the feedback mechanism in mass communication (e.g., a TV health campaign) and intra-organisational communication (e.g., a factory manager instructing shift supervisors). Analyse how the difference affects message redesign in each case.",
+     "a": "Mass communication feedback is slow, cumulative, expensive, and indirect (e.g., TRP ratings, surveys weeks later), so message redesign relies on inferred audience response and is infrequent. Intra-organisational feedback is direct, immediate, and two-way (supervisors can ask clarifying questions instantly), allowing real-time message adjustment. A weak answer that says \"both have feedback\" without analysing speed, directness, and redesign implications reveals inability to link feedback characteristics to practical communication strategy — a key analytical skill for extension work.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Traditional folk media like Nautanki or puppetry are obsolete for mass communication in the digital age.\" Use NCERT concepts of audience, channel, and cultural context.",
+     "a": "The statement is flawed. NCERT emphasises that traditional folk media remain effective for mass communication in rural/remote areas because: (1) they use local language/dialects and cultural symbols, ensuring message comprehension by heterogeneous but culturally cohesive audiences; (2) they require no electricity/internet infrastructure, reaching populations excluded by digital divide; (3) they involve live, audio-visual, participatory channels that engage multiple senses (retention >90% per NCERT Table 1). A purely digital approach would fail the \"appropriate channel for receiver\" principle. An answer agreeing with the statement reveals technological determinism — ignoring audience access, cultural relevance, and sensory engagement principles central to extension communication.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication strategy for a new agricultural scheme targeting small farmers in a remote district. Specify: (a) whether mass or organisational communication is primary, (b) one traditional and one modern channel, (c) how you will get feedback, and (d) why this mix works better than either alone.",
+     "a": "(a) Primary: Mass communication (farmers are large, dispersed, anonymous). (b) Traditional: Folk theatre (e.g., Kisan Natak) at village fairs; Modern: Community radio in local dialect. (c) Feedback: IVR-based missed-call surveys (low-cost, accessible) + facilitator-led focus groups at panchayat level. (d) Mix works because: folk theatre ensures cultural resonance and high sensory engagement (90% retention); community radio provides regular, timely updates; IVR gives quantitative reach data; focus groups give qualitative depth for redesign. A poor answer using only one channel or ignoring feedback loops shows failure to integrate audience analysis, channel complementarity, and feedback design — core competencies for extension professionals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

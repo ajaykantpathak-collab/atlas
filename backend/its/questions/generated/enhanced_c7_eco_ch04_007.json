@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_007",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_007",
+   "title": "c7_eco_ch04_007",
+   "questions": [
+    {
+     "q": "What is the primary economic term for the reward a bank gives to a depositor for keeping their money in a savings account?",
+     "a": "The correct term is interest. A wrong answer like \"loan\" or \"principal\" shows a failure to distinguish between the original sum of money deposited and the extra earnings generated over time as a reward for saving.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a bank charge a borrower a higher percentage rate on a loan than what it pays to a saver on deposits?",
+     "a": "The bank charges a higher rate on loans to cover its operational costs, manage the risk of default (if the borrower cannot repay), and make a profit. A wrong answer such as \"banks just want to take extra money unfairly\" reveals a lack of understanding of financial intermediation and business operations in banking.",
+     "self_check": true
+    },
+    {
+     "q": "Aarav deposits ₹10,000 in a bank account that offers a simple interest rate of 5% per year. How much total money will Aarav have in his account after 2 years?",
+     "a": "The total money is ₹11,000. Step 1: Identify the principal (P = ₹10,000), rate (R = 5% per year), and time (T = 2 years). Step 2: Use the simple interest formula: $SI = \\frac{P \\times R \\times T}{100}$. Step 3: Calculate interest: $SI = \\frac{10000 \\times 5 \\times 2}{100} = ₹1,000$. Step 4: Add interest to the principal: Total Amount = Principal + Interest = ₹10,000 + ₹1,000 = ₹11,000. A wrong answer indicates an error in calculating percentages or forgetting to add the interest back to the principal.",
+     "self_check": true
+    },
+    {
+     "q": "How does a rise in the interest rate offered by banks generally affect the behavior of households regarding saving versus spending?",
+     "a": "A higher interest rate increases the reward for saving, which encourages households to reduce current consumption and increase their savings. A wrong answer like \"people will spend more because things become expensive\" shows confusion between bank interest rates and general market prices or inflation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Interest is only a punishment for people who borrow money and has no benefit for the wider economy.\" Is this accurate?",
+     "a": "This statement is inaccurate. While interest is a cost to the borrower, it serves as a crucial reward that incentivizes people to save, which provides banks with the funds needed to finance productive investments and business expansion in the economy. A wrong answer reveals a one-sided view of banking that ignores how savings fuel economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple household rule for managing money using the concept of interest to decide whether to buy a smartphone on credit or save up for it over six months.",
+     "a": "A good response should suggest saving up over six months to avoid paying borrowing interest, or calculate that buying on credit adds an extra cost (interest) to the smartphone's actual price. A poor answer ignores the extra cost of credit or treats borrowing as free money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

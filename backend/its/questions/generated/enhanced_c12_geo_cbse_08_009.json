@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_009",
+   "title": "c12_geo_cbse_08_009",
+   "questions": [
+    {
+     "q": "What is the approximate altitude of a geostationary communication satellite above Earth's equator, and why must it orbit exactly in the equatorial plane?",
+     "a": "A geostationary satellite orbits at ~35,786 km above the equator. It must orbit in the equatorial plane with zero inclination so its orbital period matches Earth's rotation (24 h), making it appear fixed in the sky; any inclination would cause daily north-south motion, requiring tracking antennas. A wrong altitude (e.g., 20,000 km) reveals confusion with GPS (MEO) satellites; mentioning polar orbit reveals confusion with remote-sensing satellites.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a single geostationary satellite cover nearly one-third of Earth's surface, yet three such satellites spaced 120° apart can provide near-global coverage (except polar regions)?",
+     "a": "From 35,786 km, the satellite's footprint spans ~81° latitude north-south and 180° longitude east-west, covering ~42% of Earth's surface. Three satellites at 120° longitude separation create overlapping footprints covering all longitudes between ~81°N and 81°S. A student who says \"three satellites cover the whole Earth including poles\" misunderstands the geometric limit: polar regions fall outside the footprint because the satellite lies on the equatorial plane, making elevation angles negative at high latitudes.",
+     "self_check": true
+    },
+    {
+     "q": "A school in Leh (34°N, 77°E) wants to receive TV signals from the GSAT-30 satellite located at 83°E longitude. Calculate the approximate look angle (azimuth and elevation) the dish must be pointed. Use the simplified formula: elevation ≈ arctan[(cos γ - 0.151) / sin γ], where γ is the central angle between ground station and sub-satellite point. (Earth radius = 6371 km, GEO altitude = 35786 km).",
+     "a": "Step 1: Central angle γ = arccos[cos(lat_diff) × cos(lon_diff)] = arccos[cos(0°) × cos(6°)] ≈ 6°. Step 2: Slant range factor = 0.151 (≈ R_earth / (R_earth + h)). Step 3: Elevation = arctan[(cos 6° - 0.151) / sin 6°] ≈ arctan[(0.9945 - 0.151) / 0.1045] ≈ arctan(8.07) ≈ 82.9°. Step 4: Azimuth ≈ 180° (satellite is south of Leh). Step 5: High elevation confirms strong signal; low elevation (<10°) would cause obstruction. A wrong elevation (e.g., 45°) indicates using wrong γ or forgetting the 0.151 factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the latency (signal round-trip time) for a voice call routed via a GEO satellite versus a LEO constellation (e.g., Starlink at 550 km). Why does this difference matter for real-time applications like video conferencing or high-frequency trading?",
+     "a": "GEO round-trip: 2 × 35,786 km / (3×10^5 km/s) ≈ 239 ms. LEO round-trip: 2 × 550 km / (3×10^5 km/s) ≈ 3.7 ms. GEO latency exceeds the 150 ms threshold for natural conversation, causing noticeable delay; LEO latency is imperceptible. For high-frequency trading, 239 ms vs 3.7 ms determines profit/loss. A student who says \"latency is the same because speed of light is constant\" ignores path-length difference; one who says \"LEO has higher latency because satellites move faster\" confuses orbital velocity with signal propagation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"With fiber-optic cables linking all major cities, satellite communication is obsolete for mainstream telecommunication.\" Support your answer with three geographical/economic arguments.",
+     "a": "The claim is false. Arg 1: Fiber requires dense population to recover laying costs (₹1-2 crore/km); satellites serve sparse regions (Himalayas, islands, oceans) where fiber ROI is negative. Arg 2: Fiber is vulnerable to single-point cuts (earthquakes, sabotage); satellites provide instant redundancy for disaster recovery (e.g., 2004 tsunami, 2023 Turkey earthquake). Arg 3: Broadcast/multicast (TV, live sports) is inherently one-to-many; fiber requires separate streams per user, satellite uses one transponder for millions. A student citing only \"satellites are expensive\" misses the geographic cost-curve crossover at ~50 users/km².",
+     "self_check": true
+    },
+    {
+     "q": "Design a satellite-based communication plan for a hypothetical new Indian Union Territory comprising 50 scattered islands in the Indian Ocean (lat 5°S–10°S, long 70°E–75°E). Specify orbital type, number of satellites, frequency band, ground-segment requirements, and two non-communication services the same satellites could provide.",
+     "a": "Orbital type: GEO at 72.5°E (central longitude) — single satellite covers all islands (latitudinal spread 5° fits within 81° footprint). Frequency: Ku-band (12-18 GHz) for compact dishes; Ka-band if high throughput needed. Ground segment: 50 VSAT terminals (0.75 m dishes), one hub earth station on main island for gateway to fiber backhaul. Non-comm services: (1) NavIC augmentation for precise navigation in EEZ; (2) Meteorological imaging (INSAT-3D/3DR payload) for cyclone tracking. A plan proposing LEO constellation ignores cost/complexity for fixed islands; one ignoring cyclone monitoring misses the multi-mission value of GEO platforms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

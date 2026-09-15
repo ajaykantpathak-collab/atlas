@@ -1,0 +1,431 @@
+{
+ "catalog": "catalog_class12_maths_lemh106.json",
+ "concepts": [
+  {
+   "id": "lemh.106.6.2.1",
+   "title": "Rate of Change of the Circle Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 8 cm by 24 cm.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 23 m.",
+     "a": "529",
+     "self_check": false
+    },
+    {
+     "q": "A 7 m x 9 m garden has a 3 m x 5 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 8 cm. Find its breadth.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 8 per square metre. Find the cost of tiling a 5 m x 14 m floor.",
+     "a": "560",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 28 m x 24 m hall?",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.2.2",
+   "title": "Related Rates by the Chain Rule",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 1 * 1 + 6 * 1 + 1 gives 8",
+     "compute": "val = 1 * 1 * 1 + 6 * 1 + 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 6x + 1 as x approaches 1 (direct substitution).",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^3 is 6x^2. Find the derivative's value at x = 1.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 6x + 7, find the slope of the tangent at x = 3.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 6x + 7 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.03",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 5.",
+     "a": "10935",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.2.3",
+   "title": "Marginal Revenue of a Quadratic Revenue Function",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 5x^2 + 3x + 1 at x = 4.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 2x^3 + 3x + 2 at x = 1.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(5).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 5. Find the sum of the zeros.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 5. Find the product of the zeros.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 5. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.2.4",
+   "title": "Marginal Cost of a Cubic Cost Function",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the cube of 6.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "The volume of a cubical box is 27 cubic units. Find the length of one edge.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the cube root of 64.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "The number 200 has the prime factorisation 2^3 x 5^2. Find the smallest number by which it must be multiplied so that the product is a perfect cube.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The number 405 has the prime factorisation 3^4 x 5. Find the smallest number by which it must be divided so that the quotient is a perfect cube.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "A cube pattern adds consecutive odd numbers: 9^3 - 8^3 equals which odd number?",
+     "a": "217",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.3.1",
+   "title": "Increasing and Decreasing Intervals",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
+     "compute": "hcf = 7 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 49 and 28 have HCF 7 with coprime multipliers 7 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 49 and 28 given their HCF is 7 and HCF x LCM = product of the numbers.",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 49 and 28 is 196. Use HCF x LCM = a x b to find their HCF.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 49 cm and 28 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 49 minutes and 28 minutes. After how many minutes will they next ring together?",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 36 are there up to 100?",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.4.1",
+   "title": "Critical Points of a Function",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 10 * 1 gives 10",
+     "compute": "hcf = 10 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 70 and 40 have HCF 10 with coprime multipliers 7 and 4. Verify by computing hcf = 10 x 1; then find the HCF value.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 70 and 40 given their HCF is 10 and HCF x LCM = product of the numbers.",
+     "a": "280",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 70 and 40 is 280. Use HCF x LCM = a x b to find their HCF.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 70 cm and 40 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 70 minutes and 40 minutes. After how many minutes will they next ring together?",
+     "a": "280",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 150?",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.4.2",
+   "title": "First Derivative Test for Local Extrema",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 4 * 4 + 1 * 4 + 6 gives 74",
+     "compute": "val = 4 * 4 * 4 + 1 * 4 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 4x^2 + 1x + 6 as x approaches 4 (direct substitution).",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 4.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 6x + 3, find the slope of the tangent at x = 1.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 6x + 3 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.08",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 1.",
+     "a": "735",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.4.3",
+   "title": "Second Derivative Test for Local Extrema",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 1 * 1 + 1 * 1 + 6 gives 8",
+     "compute": "val = 1 * 1 * 1 + 1 * 1 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 1x + 6 as x approaches 1 (direct substitution).",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^4 is 8x^3. Find the derivative's value at x = 1.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 4x + 6, find the slope of the tangent at x = 3.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 4x + 6 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.1",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 1.",
+     "a": "735",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.4.4",
+   "title": "Absolute Extrema on a Closed Interval",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 49 gives 308",
+     "compute": "circ = 2 * 22 / 7 * 49"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
+     "a": "308",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 84 cm. Find its circumference (pi = 22/7).",
+     "a": "264",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 49 cm and 126 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "42350",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 45 degrees at the centre of a circle of radius 7 cm (pi = 22/7).",
+     "a": "5.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 60 degrees in a circle of radius 49 cm (pi = 22/7).",
+     "a": "1257.67",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.106.6.4.5",
+   "title": "Max-Min Word Problems",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 10 * 1 gives 10",
+     "compute": "hcf = 10 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 30 and 20 have HCF 10 with coprime multipliers 3 and 2. Verify by computing hcf = 10 x 1; then find the HCF value.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 30 and 20 given their HCF is 10 and HCF x LCM = product of the numbers.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 30 and 20 is 60. Use HCF x LCM = a x b to find their HCF.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 30 cm and 20 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 30 minutes and 20 minutes. After how many minutes will they next ring together?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 30 are there up to 120?",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

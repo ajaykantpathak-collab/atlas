@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_010",
+   "title": "c11_ps_cbse_18_010",
+   "questions": [
+    {
+     "q": "Which constitutional provision is most frequently invoked by the Supreme Court to recognize new fundamental rights not explicitly listed in Part III?",
+     "a": "Article 21 (\"Protection of life and personal liberty\") is the primary gateway; the Court has read into it rights to privacy, health, education, clean environment, shelter, legal aid, and more. A wrong answer (e.g., Article 14 or Article 19) reveals the student hasn't grasped the expansive interpretive role of \"life and personal liberty\" as the reservoir for unenumerated rights.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 93rd Constitutional Amendment (2005) inserting Article 15(5) was necessary even though Article 15(4) already allowed reservations for socially and educationally backward classes.",
+     "a": "Article 15(4) applied only to state-aided institutions; the 93rd Amendment extended reservation to *unaided* private educational institutions (except minority institutions), closing a gap where OBC/SC/ST students were denied quotas in private colleges. A wrong answer (e.g., \"it created OBC reservations\") shows confusion between the Mandal Commission report (executive order) and the constitutional amendment that secured it legislatively for private unaided seats.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law providing 5% reservation in public employment for a community not listed as SC, ST, or OBC, citing \"social justice\" under Article 38. The High Court strikes it down. Identify the constitutional principle the court likely applied and the specific Article that limits such reservations.",
+     "a": "The court applied the *Indra Sawhney* (1992) ceiling of 50% on total reservations and the requirement that backwardness be determined by objective criteria (Article 16(4) read with Article 14). Reservations cannot exceed 50% nor be granted solely on political expediency without quantifiable data. A wrong answer (e.g., \"Article 38 is enforceable\") reveals misunderstanding that Directive Principles are non-justiciable (Article 37) and cannot override Fundamental Rights limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional basis for minority cultural rights (Articles 29–30) with the basis for SC/ST political reservations (Articles 330, 332). How do the two inclusion strategies differ in their theoretical justification?",
+     "a": "Articles 29–30 protect *group* autonomy (language, script, culture, educational institutions) as a facet of pluralism; Articles 330/332 ensure *descriptive representation* in legislatures to overcome historical exclusion from power. The former is a \"protective\" right against assimilation; the latter is a \"participatory\" right to share governing authority. A wrong answer conflating them as both being \"reservations\" misses the distinction between cultural preservation and political power-sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 103rd Constitutional Amendment (2019) providing 10% EWS quota violates the basic structure because it introduces economic criteria alone for reservation, departing from the social-justice logic of Articles 15(4)/16(4).\" Provide two arguments for and two against.",
+     "a": "*For*: (1) *Indra Sawhney* held backwardness must be social/educational, not purely economic; (2) 50% ceiling breached (total ~60%). *Against*: (1) Article 46 mandates promotion of \"weaker sections\" economically; (2) Parliament's constituent power under Article 368 can redefine \"backward class\" to include economic weakness, subject to judicial review. A one-sided answer shows inability to weigh competing constitutional interpretations—a core analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal (specify Article number to amend/new clause) to address a current exclusion not yet remedied (e.g., gig-workers' social security, intersex recognition, climate-displaced persons). Justify using Directive Principles and Preamble values.",
+     "a": "*Example*: \"Insert Article 21B: 'The State shall ensure social security for all workers in informal and platform-based employment.' Justification: Preamble's 'social justice' + Article 38(2) (minimize inequalities) + Article 41 (right to work/public assistance).\" A poor answer proposes a vague policy without anchoring in a specific Article or Directive Principle, revealing lack of constitutional drafting literacy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

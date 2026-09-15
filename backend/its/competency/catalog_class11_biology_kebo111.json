@@ -1,0 +1,192 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 111,
+ "chapter_title": "Photosynthesis in Higher Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo111.txt",
+ "concepts": [
+  {
+   "id": "kebo.111.1.1",
+   "title": "Photosynthetic Pigments and the Light Reaction",
+   "section": "11.2 Early Experiments, 11.3 Pigments, 11.6 The Electron Transport",
+   "definition": "Photosynthesis uses pigments arranged in photosystem I and photosystem II; the splitting of water releases oxygen, electrons pass through the Z scheme of electron carriers producing ATP and NADPH in the light reaction, and photophosphorylation may be non-cyclic or cyclic.",
+   "formula": "",
+   "key_idea": "The reaction centre of photosystem II is called P680 and of photosystem I is P700, and cyclic photophosphorylation operates in photosystem I alone producing only ATP.",
+   "textbook_ref": "kebo111.txt sections 11.3, 11.6",
+   "question_patterns": [
+    "describe the z scheme of light reaction",
+    "differentiate photosystem i and photosystem ii",
+    "what is photophosphorylation and its two types",
+    "why is the splitting of water called photolysis",
+    "state the role of pigments like chlorophyll a carotenoids and xanthophylls",
+    "where does the light reaction occur in the chloroplast"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the pigments and photosystems",
+     "explain": "Place P680 and P700 in the thylakoid membrane."
+    },
+    {
+     "step": 2,
+     "action": "trace the electron flow",
+     "explain": "Follow the Z scheme from water splitting to NADP reduction."
+    },
+    {
+     "step": 3,
+     "action": "note the products",
+     "explain": "Confirm ATP and NADPH as the products of the light reaction."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.2.1",
+   "title": "Calvin Cycle and the ATP Requirement per Glucose",
+   "section": "11.7 Where are the ATP and NADPH used?",
+   "definition": "The Calvin cycle fixes carbon dioxide using ATP and NADPH of the light reaction, and for the formation of one molecule of glucose the cycle requires eighteen ATP and twelve NADPH, fixing six molecules of carbon dioxide in carboxylation steps.",
+   "formula": "atp_needed = glucose_molecules * 18",
+   "key_idea": "RuBP carboxylation, reduction and regeneration of RuBP are the three stages of the Calvin cycle, and the energy budget of eighteen ATP per glucose shows the cost of carbon fixation.",
+   "textbook_ref": "kebo111.txt section 11.7",
+   "question_patterns": [
+    "how many atp are required to make one glucose molecule in the calvin cycle",
+    "calculate the atp demand for synthesising a given number of glucose molecules",
+    "describe the three stages of the calvin cycle",
+    "what is the role of rubisco in carbon fixation",
+    "how many nadph are used per glucose in the calvin cycle",
+    "why is regeneration of rubp necessary"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the eighteen atp ratio",
+     "explain": "Multiply the number of glucose molecules by 18 to get the ATP needed in the Calvin cycle",
+     "compute": "atp_needed = glucose_molecules * 18"
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.3.1",
+   "title": "C4 Pathway and Photorespiration",
+   "section": "11.8 The C4 Pathway, 11.9 Photorespiration",
+   "definition": "In C4 plants the Hatch and Slack pathway fixes carbon dioxide in mesophyll cells using PEP carboxylase into oxaloacetic acid, which is transported to bundle sheath cells for the Calvin cycle, avoiding the wasteful photorespiration seen in C3 plants where rubisco oxygenates RuBP.",
+   "formula": "",
+   "key_idea": "The Kranz anatomy of bundle sheath cells and the high CO2 affinity of PEP carboxylase make C4 plants like maize and sugarcane more efficient in hot climates.",
+   "textbook_ref": "kebo111.txt sections 11.8, 11.9",
+   "question_patterns": [
+    "describe the hatch and slack pathway in c4 plants",
+    "what is kranz anatomy and where is it seen",
+    "differentiate c3 and c4 plants",
+    "why is photorespiration absent in c4 plants",
+    "explain the role of pep carboxylase in carbon fixation",
+    "why is photorespiration called a wasteful process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the fixation steps",
+     "explain": "Separate mesophyll carboxylation from bundle sheath decarboxylation."
+    },
+    {
+     "step": 2,
+     "action": "compare with the c3 path",
+     "explain": "Note the absence of rubisco oxygenation in mesophyll of C4 plants."
+    },
+    {
+     "step": 3,
+     "action": "verify the anatomy",
+     "explain": "Confirm Kranz anatomy supports the pathway."
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.4.1",
+   "title": "Factors Affecting Photosynthesis",
+   "section": "11.10 Factors affecting Photosynthesis",
+   "definition": "Photosynthesis is governed by internal factors such as chlorophyll and leaf age, and external factors of light, carbon dioxide concentration, temperature and water, following Blackman's law of limiting factors.",
+   "formula": "",
+   "key_idea": "When several factors affect a process, the rate is decided by the factor nearest its minimal value, which is the law of limiting factors.",
+   "textbook_ref": "kebo111.txt section 11.10",
+   "question_patterns": [
+    "state blackman's law of limiting factors",
+    "how does light intensity affect the rate of photosynthesis",
+    "why does photosynthesis decline at high temperatures",
+    "what is the effect of increased carbon dioxide on c3 plants",
+    "list the internal and external factors of photosynthesis",
+    "explain water stress effect on photosynthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the factors",
+     "explain": "Note light, carbon dioxide, temperature, water and chlorophyll."
+    },
+    {
+     "step": 2,
+     "action": "apply the limiting factor law",
+     "explain": "Identify the factor closest to its minimum that controls the rate."
+    },
+    {
+     "step": 3,
+     "action": "predict the response",
+     "explain": "State how improving the limiting factor changes the rate."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo111.txt section 11.7",
+   "concept": "kebo.111.2.1",
+   "question_type": "compute_atp_demand",
+   "question_pattern": "A leaf synthesises {glucose_molecules} molecule(s) of glucose by the Calvin cycle. Using the requirement of 18 ATP per glucose, calculate the total ATP needed.",
+   "extracted_variables": {
+    "glucose_molecules": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the eighteen atp ratio",
+     "explain": "Multiply the number of glucose molecules by 18 to get the ATP needed in the Calvin cycle",
+     "compute": "atp_needed = glucose_molecules * 18"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo111.txt section 11.7",
+   "concept": "kebo.111.2.1",
+   "question_type": "compute_atp_demand",
+   "question_pattern": "During a study period a plant makes {glucose_molecules} glucose molecules through carbon fixation. Find the total number of ATP molecules consumed for this synthesis.",
+   "extracted_variables": {
+    "glucose_molecules": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the eighteen atp ratio",
+     "explain": "Multiply the number of glucose molecules by 18 to get the ATP needed in the Calvin cycle",
+     "compute": "atp_needed = glucose_molecules * 18"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo111.txt exercises section",
+   "questions": [
+    "By looking at a plant externally can you tell whether a plant is C3 or C4? Why and how?",
+    "State the differences between C3 and C4 plants in terms of anatomy and pathway.",
+    "Explain how during light reaction in photosynthesis, ATP synthesis is a chemiosmotic phenomenon.",
+    "Describe the Calvin cycle with the number of ATP and NADPH required per glucose.",
+    "Explain the various factors affecting the rate of photosynthesis.",
+    "What is the basis for the statement that photorespiration is a wasteful process?"
+   ]
+  }
+ ]
+}

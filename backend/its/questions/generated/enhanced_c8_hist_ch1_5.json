@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch1_5",
+   "title": "c8_hist_ch1_5",
+   "questions": [
+    {
+     "q": "Which city did Muhammad bin Tughlaq rename 'Daulatabad' when he decided to shift his capital from Delhi, and in which modern Indian state is it located?",
+     "a": "The city was Devagiri, located in the modern-day state of Maharashtra. \n\n*What a wrong answer reveals:* If a student names a different city (like Hyderabad or Pune) or state, it shows they lack the basic geographical anchor needed to understand the immense distance (around 1500 km) and the logistical scale of the capital shift.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Muhammad bin Tughlaq decide to introduce copper and brass token coins to replace gold and silver coins?",
+     "a": "He introduced token currency because there was a global shortage of silver during the 14th century, and he needed to preserve the empire's gold and silver reserves while maintaining a highly monetized economy to pay his massive army.\n\n*What a wrong answer reveals:* If a student answers that he did it out of greed or because the treasury was completely empty from the start, they are repeating medieval myths rather than understanding the global economic context of the silver crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Read this hypothetical diary entry of a 14th-century merchant: *\"The Sultan's new brass coins look just like the ones my neighbor made in his kitchen yesterday. I cannot accept these coins for my fine Persian horses.\"* Based on this, apply your knowledge of the token currency experiment to identify the fatal administrative loophole in the Sultan's plan.",
+     "a": "The fatal loophole was that the state failed to establish a royal monopoly on minting coins and did not include complex, hard-to-copy security designs or royal seals on the token coins. This allowed ordinary goldsmiths and citizens to easily forge the currency at home using common brass and copper.\n\n*What a wrong answer reveals:* If a student suggests that copper was simply too cheap to be used as money, they fail to understand the concept of \"token currency\" (where the value is declared by the government, not the metal itself) and miss the core administrative failure of anti-forgery control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the taxation policies of Alauddin Khilji in the Ganga-Yamuna Doab with those of Muhammad bin Tughlaq. Why did Tughlaq’s tax hike lead to a massive peasant rebellion while Khilji’s did not, even though both taxed the region heavily?",
+     "a": "While both rulers taxed the fertile Doab heavily, Tughlaq raised taxes precisely during a severe, multi-year famine in the region. Furthermore, his administrative officers continued to collect taxes ruthlessly without offering relief, forcing the starving peasants to abandon their lands and rebel, whereas Khilji's taxation was accompanied by strict price controls and market stability.\n\n*What a wrong answer reveals:* If a student says Tughlaq's taxes were simply higher, they miss the crucial historical variable of environmental context (the famine) and the lack of administrative flexibility during a humanitarian crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: *\"Muhammad bin Tughlaq was a foolish ruler who lacked any foresight.\"* Use his capital shift experiment to argue against this statement.",
+     "a": "The statement is inaccurate because the capital shift showed great strategic foresight: Daulatabad was centrally located, allowing better administration of the newly conquered Deccan region, and it was safer from the frequent Mongol invasions threatening Delhi from the northwest. The failure lay not in his foresight, but in his execution—specifically, his decision to forcefully migrate the entire population of Delhi rather than just the royal court and administration.\n\n*What a wrong answer reveals:* If a student agrees with the statement, they are failing to separate \"strategic intent\" from \"operational execution,\" which is a key analytical skill in history.",
+     "self_check": true
+    },
+    {
+     "q": "If you were appointed as the Chief Wazir (advisor) to Muhammad bin Tughlaq in 1327 CE, construct a three-point policy plan to safely execute the capital shift from Delhi to Daulatabad without causing a humanitarian disaster.",
+     "a": "A successful plan would include:\n1. **Phased Migration:** Move only the Sultan, the royal court, the treasury, and key administrative officers first, leaving the general public of Delhi undisturbed.\n2. **Infrastructure Preparedness:** Construct fully stocked rest houses (sarais) with free food, clean drinking water, and medical aid at regular intervals along the 1500 km route before anyone begins the journey.\n3. **Seasonal Timing:** Schedule the march during the cooler winter months to avoid the deadly summer heat of central India.\n\n*What a poor answer reveals:* A poor answer would suggest completely canceling the move (showing no understanding of the strategic need to manage the Deccan) or suggest using modern technology (like trains), which violates historical accuracy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

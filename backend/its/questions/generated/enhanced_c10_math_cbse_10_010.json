@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_010",
+   "title": "c10_math_cbse_10_010",
+   "questions": [
+    {
+     "q": "State the two fundamental properties of tangents drawn from an external point to a circle that are used to solve length and angle problems.",
+     "a": "The two properties are: (1) The lengths of the two tangents drawn from an external point to a circle are equal. (2) The tangent at any point of a circle is perpendicular to the radius through the point of contact. A wrong answer (e.g., mentioning only one property or confusing with secant properties) reveals the student cannot recall the foundational theorems needed to set up equations in word problems.",
+     "self_check": true
+    },
+    {
+     "q": "In a circle with centre O, tangents PA and PB are drawn from external point P. If ∠APB = 70°, find ∠AOB. Explain why the quadrilateral OAPB has two right angles.",
+     "a": "∠AOB = 110°. Quadrilateral OAPB has ∠OAP = ∠OBP = 90° because radius is perpendicular to tangent. Sum of angles in quadrilateral = 360°, so ∠AOB = 360° - 90° - 90° - 70° = 110°. A wrong answer (e.g., ∠AOB = 70°) shows the student does not understand the angle sum property of quadrilaterals or the perpendicular property, leading to incorrect angle calculations in word problems.",
+     "self_check": true
+    },
+    {
+     "q": "From a point P outside a circle of radius 6 cm, two tangents PA and PB are drawn such that PA = 8 cm. Find the distance OP from the external point to the centre.",
+     "a": "In right triangle OAP, OA = 6 cm (radius), AP = 8 cm (tangent length). By Pythagoras, OP² = OA² + AP² = 6² + 8² = 36 + 64 = 100. So OP = 10 cm. A wrong answer (e.g., OP = 14 cm by adding 6+8) reveals the student fails to recognize the right triangle formed by radius and tangent, a critical misconception for all tangent length problems.",
+     "self_check": true
+    },
+    {
+     "q": "Two circles of radii 5 cm and 3 cm touch externally. A common external tangent touches the larger circle at A and the smaller at B. The centres are O and O'. If the distance between centres is 8 cm, find the length of the tangent segment AB. (Hint: Draw perpendiculars from centres to the tangent.)",
+     "a": "Draw OO' = 8 cm. Drop perpendiculars OA ⟂ AB (OA = 5) and O'B ⟂ AB (O'B = 3). Construct rectangle O'AXO where X is on OA. Then OX = OA - O'B = 5 - 3 = 2 cm. In right triangle OO'X, O'X = AB. By Pythagoras, AB² = OO'² - OX² = 8² - 2² = 64 - 4 = 60. So AB = √60 = 2√15 cm. A wrong answer (e.g., AB = 8 cm) shows the student cannot decompose the figure into a rectangle and right triangle, a key spatial reasoning skill for multi-circle tangent problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"From point P, tangents PA and PB are drawn to a circle with centre O. If OP = 13 cm and radius = 5 cm, find the perimeter of quadrilateral OAPB.\" The student writes: Perimeter = OA + AP + PB + BO = 5 + 12 + 12 + 5 = 34 cm. Is this correct? Justify.",
+     "a": "Yes, correct. In right triangle OAP, OA = 5, OP = 13, so AP = √(13² - 5²) = 12 cm. Since PA = PB = 12 cm, perimeter = 5 + 12 + 12 + 5 = 34 cm. If a student says \"incorrect\" or calculates AP incorrectly (e.g., using 13+5), it reveals they cannot verify a solution or they misunderstand the Pythagorean relationship, which is essential for checking answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a circle, two tangents from an external point, and a given angle between the tangents. The problem should ask for the radius of the circle given the distance from the external point to the centre. Provide the solution.",
+     "a": "Example problem: \"From a point P, 17 cm away from the centre O of a circle, two tangents PA and PB are drawn. If the angle between the tangents is 60°, find the radius of the circle.\" Solution: In right triangle OAP, ∠APO = 30° (since OP bisects ∠APB). sin 30° = OA/OP => 1/2 = r/17 => r = 8.5 cm. A poor problem (e.g., missing data, inconsistent numbers) shows the student cannot synthesize the properties into a coherent problem, indicating shallow understanding of the interdependence of length and angle properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

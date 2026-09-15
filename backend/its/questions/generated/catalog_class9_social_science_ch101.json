@@ -1,0 +1,202 @@
+{
+ "catalog": "catalog_class9_social_science_ch101",
+ "concepts": [
+  {
+   "id": "iess.101.1",
+   "title": "Geographical Location and Latitudinal-Longitudinal Extent",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Geographical Location and Latitudinal-Longitudinal Extent' refers to.",
+     "a": "The geographical placement of mainland India across the Northern and Eastern Hemispheres, bounded by specific parallels and meridians.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Geographical Location and Latitudinal-Longitudinal Extent'.",
+     "a": "India lies entirely in the northern hemisphere with its central region bisected by the Tropic of Cancer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Geographical Location and Latitudinal-Longitudinal Extent', in plain ASCII form.",
+     "a": "latitudes: 8.4 N to 37.6 N, longitudes: 68.7 E to 97.4 E",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.2",
+   "title": "Calculation of Land Area relative to World Total",
+   "questions": [
+    {
+     "q": "Calculate India's land area given total global land area and percentage share.. Use the method 'Calculation of Land Area relative to World Total'. Work with: area_percentage = 18, world_area = 1200. Carry the chain through step by step and give the final value of india_area.",
+     "a": "216 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Find the national geographical extent from world land mass data.. Use the method 'Calculation of Land Area relative to World Total'. Work with: area_percentage = 20, world_area = 250. Carry the chain through step by step and give the final value of india_area.",
+     "a": "50 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Land Area relative to World Total' refers to.",
+     "a": "Determining the total land mass area of a territory given the global geographical area and percentage contribution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Land Area relative to World Total'.",
+     "a": "India occupies 3.28 million square kilometers, constituting 2.4 percent of total global land mass.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Land Area relative to World Total', in plain ASCII form.",
+     "a": "india_area = (world_area * area_percentage) / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.3",
+   "title": "Calculation of Local Time Lag from Longitudinal Difference",
+   "questions": [
+    {
+     "q": "Calculate the time difference between eastern and western extremities of India.. Use the method 'Calculation of Local Time Lag from Longitudinal Difference'. Work with: longitudinal_diff = 200. Carry the chain through step by step and give the final value of time_lag_hours.",
+     "a": "13.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the time lag between Gujarat and Arunachal Pradesh based on longitudinal difference.. Use the method 'Calculation of Local Time Lag from Longitudinal Difference'. Work with: longitudinal_diff = 20. Carry the chain through step by step and give the final value of time_lag_hours.",
+     "a": "1.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Local Time Lag from Longitudinal Difference' refers to.",
+     "a": "Computing time differences across regions based on longitudinal separation, taking 4 minutes per degree of rotation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Local Time Lag from Longitudinal Difference'.",
+     "a": "Every 1 degree of longitudinal movement creates a 4-minute shift in local solar time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Local Time Lag from Longitudinal Difference', in plain ASCII form.",
+     "a": "time_lag_hours = (longitudinal_diff * 4) / 60",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.4",
+   "title": "Calculation of Reduced Distance via Suez Canal",
+   "questions": [
+    {
+     "q": "Calculate the new sea route distance to Europe after the opening of Suez Canal.. Use the method 'Calculation of Reduced Distance via Suez Canal'. Work with: distance_saved = 12, original_distance = 360. Carry the chain through step by step and give the final value of new_distance.",
+     "a": "348 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the remaining distance between India and Europe given distance saved.. Use the method 'Calculation of Reduced Distance via Suez Canal'. Work with: distance_saved = 40, original_distance = 500. Carry the chain through step by step and give the final value of new_distance.",
+     "a": "460 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Reduced Distance via Suez Canal' refers to.",
+     "a": "Calculating remaining maritime transport distance following shortcut trade route openings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Reduced Distance via Suez Canal'.",
+     "a": "Opening of the artificial waterway reduced the sea transit route length between Europe and India.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Reduced Distance via Suez Canal', in plain ASCII form.",
+     "a": "new_distance = original_distance - distance_saved",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.5",
+   "title": "Strategic Location and Cultural Exchange in World Trade",
+   "questions": [
+    {
+     "q": "Using the method 'Strategic Location and Cultural Exchange in World Trade', work with: central_head_of_indian_ocean = 500. Carry the chain through step by step and give the final value of strategic_position.",
+     "a": "500 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Strategic Location and Cultural Exchange in World Trade' and work with: central_head_of_indian_ocean = 5. Carry the chain through step by step and give the final value of strategic_position.",
+     "a": "5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Strategic Location and Cultural Exchange in World Trade' refers to.",
+     "a": "The ocean-centric positioning of the Indian landmass that connects east-west maritime trade and historical overland routes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Strategic Location and Cultural Exchange in World Trade'.",
+     "a": "Central location in South Asia enabled merchant ships and overland travellers to spread Indian culture and goods globally.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Strategic Location and Cultural Exchange in World Trade', in plain ASCII form.",
+     "a": "strategic_position = central_head_of_indian_ocean",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.6",
+   "title": "Political Division and Land Frontiers with Neighboring States",
+   "questions": [
+    {
+     "q": "Using the method 'Political Division and Land Frontiers with Neighboring States', work with: states = 300, union_territories = 300. Carry the chain through step by step and give the final value of total_units.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Political Division and Land Frontiers with Neighboring States' and work with: states = 20, union_territories = 150. Carry the chain through step by step and give the final value of total_units.",
+     "a": "170 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Political Division and Land Frontiers with Neighboring States' refers to.",
+     "a": "The political categorization of the nation into internal federated units and land border shares with surrounding countries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Division and Land Frontiers with Neighboring States'.",
+     "a": "India features 28 states and 8 union territories, sharing overland boundaries with seven adjacent nations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Political Division and Land Frontiers with Neighboring States', in plain ASCII form.",
+     "a": "total_units = states + union_territories",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.101.7",
+   "title": "Maritime Neighbors and Strait Separations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Maritime Neighbors and Strait Separations' refers to.",
+     "a": "Island nations situated across southern seas and narrow marine channels separating them from India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Maritime Neighbors and Strait Separations'.",
+     "a": "Sri Lanka and Maldives are island neighbors, separated by defined straits and gulf waters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Maritime Neighbors and Strait Separations', in plain ASCII form.",
+     "a": "sea_separator = Palk_Strait + Gulf_of_Mannar",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

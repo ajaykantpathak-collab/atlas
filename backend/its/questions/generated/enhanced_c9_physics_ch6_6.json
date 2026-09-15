@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_6",
+   "title": "c9_physics_ch6_6",
+   "questions": [
+    {
+     "q": "Define electric potential and potential difference. State their unit.",
+     "a": "Electric potential at a point is the potential energy per unit charge at that point. Potential difference (voltage) between two points is the work done per unit charge to move charge between them: V = W/Q. Unit: volt (V), where 1 V = 1 J/C. A wrong answer (e.g., \"potential is the force\") confuses potential (energy per charge) with force — potential is energy, not force.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the potential difference if 24 J of work moves 6 C of charge.",
+     "a": "V = W/Q = 24/6 = 4 V. The potential difference is 4 volts. A wrong answer (e.g., 144 V from multiplying) uses the wrong operation — voltage is work divided by charge, not multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the analogy between potential difference and water pressure.",
+     "a": "Water flows from high pressure to low pressure — the pressure difference drives the flow. Similarly, electric charge flows from high potential to low potential — the potential difference (voltage) drives the current. A battery is like a pump that creates a pressure (potential) difference. A wire is like a pipe. Current is like water flow. Without a pressure (potential) difference, there is no flow (current). A wrong answer (e.g., \"voltage is like water volume\") confuses voltage (pressure/energy) with current (flow rate) — voltage is the push, current is the flow.",
+     "self_check": true
+    },
+    {
+     "q": "How does a battery create a potential difference?",
+     "a": "A battery uses chemical reactions to separate charge: it pushes positive charge to one terminal (positive, high potential) and negative charge to the other (negative, low potential). This creates a potential difference between the terminals (e.g., 1.5 V for a AA battery). When a wire connects the terminals, charge flows from high to low potential, creating a current. The battery maintains the potential difference by continuing the chemical reaction. A wrong answer (e.g., \"the battery stores current\") confuses current (flow) with the battery's role — the battery creates a potential difference, not stores current.",
+     "self_check": true
+    },
+    {
+     "q": "A 9 V battery does 9 J of work on each coulomb. If 3 C of charge pass through, how much energy is delivered?",
+     "a": "V = W/Q, so W = V * Q = 9 * 3 = 27 J. The battery delivers 27 joules of energy. A wrong answer (e.g., 3 J from dividing) inverts the formula — W = V * Q, not W = V/Q.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A higher voltage battery has more current.\" Evaluate this statement.",
+     "a": "The statement is incomplete. Voltage (potential difference) and current are related by Ohm's law: V = IR, so I = V/R. A higher voltage does produce more current IF the resistance is the same. But current also depends on resistance — a high voltage with high resistance can give the same current as a low voltage with low resistance. The correct statement: \"A higher voltage battery produces more current if the resistance is the same; current depends on both voltage and resistance (I = V/R).\" A wrong evaluation (simply agreeing) ignores the role of resistance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

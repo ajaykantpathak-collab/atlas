@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_008",
+   "title": "c11_geo_cbse_15_008",
+   "questions": [
+    {
+     "q": "List the six schedules of the Wildlife Protection Act (1972) and name one flagship species listed under Schedule I.",
+     "a": "Correct answer: Schedule I (highest protection, e.g., Tiger, Indian Elephant, Indian Rhinoceros), Schedule II (high protection, e.g., Himalayan Black Bear), Schedule III (protected, e.g., Chinkara), Schedule IV (protected, lower penalties, e.g., Common Langur), Schedule V (vermin species, e.g., Common Crow, Fruit Bat), Schedule VI (specified plants, e.g., Beddomes' Cycad). A wrong answer (e.g., putting Tiger in Schedule II or omitting Schedule VI) reveals confusion about the gradient of legal protection and the inclusion of plants, which is a Class 11-specific detail often missed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 2006 amendment creating the National Tiger Conservation Authority (NTCA) was a turning point for Project Tiger, referencing the difference between a 'sanctuary' and a 'tiger reserve' legal status.",
+     "a": "Correct answer: The 2006 amendment gave Project Tiger statutory backing via NTCA, enabling mandatory tiger reserve notification (core + buffer), mandatory village relocation packages from core areas, and central funding tied to compliance — unlike sanctuaries where settlement of rights is optional and funding is discretionary. A wrong answer that conflates sanctuary and tiger reserve legal powers shows misunderstanding of how the Act translates ecological goals into enforceable administrative tools (Section 38V), a common error in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data: Tiger population in India — 1,411 (2006), 1,706 (2010), 2,226 (2014), 2,967 (2018), 3,682 (2022). Calculate the Compound Annual Growth Rate (CAGR) for 2006–2022 and interpret whether the growth rate accelerated or decelerated in the second half (2014–2022).",
+     "a": "CAGR 2006–2022 = (3682/1411)^(1/16) - 1 = 0.061 = 6.1% per annum. CAGR 2014–2022 = (3682/2226)^(1/8) - 1 = 0.064 = 6.4% per annum. Growth rate slightly accelerated (6.4% > 6.1%), indicating improved protection efficiency post-2014 (e.g., M-STrIPES monitoring, increased core area inviolate status). A wrong calculation (e.g., using arithmetic mean) or missing the acceleration reveals inability to apply quantitative analysis to conservation biology — a skill tested in competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation trajectory of the Indian Rhinoceros (Kaziranga) and the Asiatic Lion (Gir) using the concepts of 'single population risk' and 'translocation policy'. Why has the rhino recovery been more robust despite higher poaching pressure?",
+     "a": "Correct answer: Rhinos were translocated to multiple sites (Manas, Pobitora, Orang, Dudhwa) under Indian Rhino Vision 2020, creating meta-populations that buffer against stochastic events; lions remain a single population in Gir despite Supreme Court orders (2013) for translocation to Kuno. Rhino recovery is more robust because distributed populations reduce extinction risk from disease, flood, or poaching spikes — a direct application of conservation biology principles (meta-population theory) enabled by the Act's Schedule I protection and central funding. A wrong answer focusing only on anti-poaching ignores the spatial dimension of recovery, a key geographical concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Wildlife Protection Act (1972) succeeds because it imposes strict penalties; community participation is irrelevant.\" Use the Bishnoi community (Rajasthan) and the Forest Rights Act (2006) interface as evidence.",
+     "a": "Correct evaluation: The statement is false. Bishnois' religious prohibition on killing wildlife (blackbuck, chinkara) creates social fencing that reduces enforcement costs — a form of community participation that complements legal penalties. Conversely, the Forest Rights Act (2006) recognises forest dwellers' rights; ignoring it leads to conflict (e.g., relocation resistance in tiger reserves) that undermines protection. Success requires both legal deterrence (Schedule I penalties) and incentive-based coexistence (eco-development committees under Section 38V). A wrong answer that sees law and community as binaries misses the governance nuance tested in case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step conservation action plan for a hypothetical Schedule I species (e.g., Great Indian Bustard) in a human-dominated landscape (agricultural mosaic in Rajasthan), integrating legal tools (WPA 1972), habitat management, and community incentives.",
+     "a": "Good answer criteria: 1) Legal: Notify critical habitat under Section 38V, ban overhead power lines (major mortality cause) via Supreme Court order. 2) Habitat: Restore grassland patches, remove invasive Prosopis juliflora. 3) Community: Compensate crop loss, hire local guardians (GIB mitras), promote bustard-friendly farming (millets). 4) Monitoring: Satellite tagging, population viability analysis. 5) Translocation: Establish second population in safe habitat (e.g., Sorsan). Poor answer lists only anti-poaching or only habitat, ignoring the multi-dimensional approach required for species in shared landscapes — a frequent board exam requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

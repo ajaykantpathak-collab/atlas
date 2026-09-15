@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_004",
+   "title": "c11_eco_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the formula for calculating the annual employment growth rate (%) between two years using workforce data. If the workforce was 400 million in 1999–2000 and 460 million in 2004–05, what is the approximate annual growth rate? (Assume compound growth over 5 years.)",
+     "a": "Formula: Annual Growth Rate (%) = [(Workforce_end / Workforce_start)^(1/n) – 1] × 100, where n = number of years. Calculation: (460/400)^(1/5) = 1.0283 → 2.83% per annum. A wrong answer (e.g., simple difference 60/400 = 15% total, then 15%/5 = 3%) reveals confusion between simple and compound growth — a critical error because employment compounds like population, and Board exams test compound annual growth rate (CAGR) for multi-year trends.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 6.3, explain why the secondary sector's employment share stagnated at ~24% between 2011–12 and 2023–24 despite \"Make in India\" and manufacturing push. Identify two structural reasons from the chapter's logic.",
+     "a": "Correct reasoning: (1) Capital-intensive automation in modern manufacturing reduces labour per unit of output — GDP grows but employment doesn't. (2) Labour-intensive manufacturing (textiles, leather) shifted to informal/home-based work, counted as self-employed or casual, not formal secondary sector. A wrong answer blaming \"policy failure\" alone misses the technological and structural drivers (Chart 6.3 shows GDP-employment gap widening since 1990s, not just post-2014). This misconception ignores that secondary sector *output* grew — only *employment intensity* fell.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the employment elasticity for the tertiary sector between 1993–94 and 2011–12 using Table 6.3 data. Tertiary share: 20% → 26.8%. Assume total workforce grew from 340 million to 470 million. GDP grew at 6.5% CAGR. Employment elasticity = (%Δ Employment in sector) / (%Δ GDP). Show steps.",
+     "a": "Step 1: Tertiary workforce 1993–94 = 20% × 340 = 68 million. Step 2: Tertiary workforce 2011–12 = 26.8% × 470 = 125.96 million. Step 3: %Δ Tertiary employment = [(125.96 – 68)/68] × 100 = 85.2% over 18 years → CAGR = (1.852)^(1/18) – 1 = 3.47%. Step 4: GDP CAGR = 6.5% (given). Step 5: Elasticity = 3.47 / 6.5 = 0.53. A wrong answer using share change (6.8% points) instead of absolute employment change reveals confusion between *share shift* and *job creation* — shares can rise even if absolute jobs fall, if other sectors shrink faster.",
+     "self_check": true
+    },
+    {
+     "q": "Chart 6.3 shows employment growth exceeded 2% only in 1999–2005 and 2022–23. Analyse why the 1999–2005 period saw a spike. Connect to sectoral data in Table 6.3 and the concept of \"jobless growth\" reversal.",
+     "a": "The 1999–2005 spike coincides with: (1) Construction boom (secondary sector share rose 16% → 24.3%) — labour-intensive, absorbing low-skilled rural workers. (2) IT/BPO explosion (tertiary share 20% → 26.8%) — created regular salaried jobs for educated youth. (3) Agricultural distress pushed workers into casual non-farm work (casual labour share peaked at 31.8% in 1993–94, then fell to 30% by 2011–12). This was a *genuine* employment-intensive phase, unlike post-2005 where services grew via high-productivity, low-employment sectors (finance, real estate). A wrong answer citing only \"reforms\" misses the sectoral composition — reforms *enabled* construction/IT, but the *nature* of growth determined jobs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Casualisation of workforce (Table 6.3: casual labour share rose from 23.2% in 1972–73 to 31.8% in 1993–94) proves economic reforms hurt workers.\" Use evidence from the chapter to support or refute.",
+     "a": "Refute with nuance: Casualisation *began* in 1970s–80s (pre-reforms), peaking in 1993–94 *before* major labour market reforms. Post-2004, casual share *fell* to 19.9% (2023–24) while regular salaried rose to 21.7%. The driver was not reforms per se, but: (1) Agrarian distress forcing farmers into casual non-farm work. (2) Formal sector hiring freezes (public sector shrank post-1991). (3) Contractualisation *within* formal firms. Reforms accelerated some trends but also created new regular jobs in services. A one-sided \"reforms hurt workers\" answer ignores the pre-reform casualisation rise and post-2004 regularisation — failing to use the full time-series evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3-panel infographic storyboard for a Class 11 exhibition titled \"India's Employment Journey 1972–2024.\" Panel 1: Sectoral shift. Panel 2: Status shift. Panel 3: The GDP-Employment Gap. For each panel, specify: (a) one key data point from Table 6.3/Chart 6.3, (b) one visual metaphor, (c) one policy implication.",
+     "a": "Panel 1 (Sectoral): Data — Primary 74% → 46%, Services 15% → 30%. Visual — A tractor morphing into a laptop. Policy — Skilling for services, not just manufacturing. Panel 2 (Status): Data — Casual 23% → 32% (peak) → 20%, Regular 15% → 22%. Visual — A permanent ID card turning into a daily wage chit, then back to ID. Policy — Social security portability for gig/casual workers. Panel 3 (Gap): Data — GDP growth ~6%, Employment growth ~1.5% (post-2005). Visual — Two diverging arrows: GDP rocket, employment snail. Policy — Employment-intensive sector incentives (labour-intensive manufacturing, care economy). A weak answer uses generic icons without data anchoring or policy specificity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_009",
+   "title": "c12_geo_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name any three physical infrastructure deficits commonly found in rural settlements of the Himalayan region (e.g., Uttarakhand, Himachal Pradesh) and state the primary geographical reason for each.",
+     "a": "Correct answer: (1) All-weather road connectivity — steep slopes, landslides, and seismic activity make construction and maintenance difficult; (2) Reliable electricity transmission — rugged terrain increases transmission losses and makes grid extension costly; (3) Piped water supply — scattered settlements on slopes raise per-capita infrastructure cost, and springs dry up in lean season. A wrong answer (e.g., listing \"lack of hospitals\" as physical infrastructure, or attributing road deficits only to \"lack of funds\") reveals confusion between physical vs. social infrastructure and ignorance of terrain as a primary geographical constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rural settlements in the Indo-Gangetic Plain (e.g., Uttar Pradesh, Bihar) — despite flat terrain and fertile soil — still suffer from high levels of groundwater contamination (arsenic, fluoride, nitrate) and seasonal water scarcity.",
+     "a": "Correct answer: Flat terrain and intensive agriculture lead to: (a) over-extraction of groundwater for paddy-wheat rotation (green revolution legacy), lowering water tables; (b) leaching of arsenic from alluvial sediments into shallow aquifers (geogenic) and nitrate from excessive urea application (anthropogenic); (c) flood irrigation wastes water and raises salinity; (d) high population density means per-capita water availability is low despite high absolute rainfall. A wrong answer (e.g., \"low rainfall causes scarcity\" or \"industries pollute water\") reveals failure to link cropping pattern, irrigation method, and geological substrate — the core geographical explanation.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Bundelkhand (Central India, hard rock terrain) has 1,200 population. It receives 800 mm annual rainfall (June-Sept). The gram panchayat plans a check dam (storage 15,000 m³) and a solar-powered piped water scheme (demand: 70 lpcd). Calculate: (a) total annual water demand in m³; (b) number of days the check dam can supply the village if it fills once per monsoon; (c) whether the scheme is sustainable without groundwater recharge. Show steps.",
+     "a": "Steps: (a) Demand = 1,200 × 70 lpcd = 84,000 litres/day = 84 m³/day. Annual = 84 × 365 = 30,660 m³. (b) Check dam storage = 15,000 m³. Days of supply = 15,000 / 84 ≈ 179 days (≈6 months). (c) Monsoon lasts ~120 days; check dam fills once. It covers 179 days but leaves ~186 days uncovered. Without groundwater recharge (hard rock aquifers have low recharge), the scheme fails in summer. Answer: (a) 30,660 m³; (b) 179 days; (c) Not sustainable — requires conjunctive use with recharge structures (farm ponds, contour trenches). A wrong calculation (e.g., using 40 lpcd instead of 70 lpcd, or ignoring evaporation losses) reveals inability to apply water budgeting to rural planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rural healthcare access problem in two regions: (i) tribal villages in forested hills of Chhattisgarh (Bastar) and (ii) floodplain villages in North Bihar (Kosi basin). Identify two geographical factors that make the problem distinct in each region, and explain why a uniform \"one sub-centre per 5,000 population\" norm fails in both.",
+     "a": "Correct answer: (i) Bastar: (a) dispersed, small hamlets in dense forest with no roads — travel time to sub-centre >2 hours; (b) Left-wing extremism disrupts staff posting and supply chains. (ii) North Bihar: (a) annual flooding cuts off villages for 3-4 months — sub-centres become inaccessible or submerged; (b) high population density means 5,000 norm gives too few centres per area, but they are useless when flooded. Uniform norm fails because it ignores: (1) terrain-driven dispersal vs. density-driven crowding; (2) seasonal isolation (floods/landslides) that makes physical distance irrelevant. A wrong answer listing only \"poverty\" or \"doctor shortage\" misses the geographical determinants of access.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Pradhan Mantri Gram Sadak Yojana (PMGSY) has solved rural connectivity in India.\" Use three specific geographical or outcome-based arguments with data trends (e.g., habitations connected, road quality, maintenance, tribal/hilly coverage).",
+     "a": "Correct evaluation: Claim is partially true but overstated. Arguments: (1) Coverage: As of 2023, ~99% of eligible habitations (500+ plains, 250+ hills) connected — but \"connected\" means all-weather road exists, not that it is maintained or usable year-round. (2) Quality & Maintenance: Many PMGSY roads deteriorate in 3-5 years due to inadequate maintenance funds, poor drainage in high-rainfall zones (Northeast, Western Ghats), and overloading by heavy vehicles. (3) Excluded habitations: Norms exclude habitations below population threshold — in dispersed tribal areas (e.g., Arunachal, Jharkhand), thousands of hamlets (<250 pop) remain unconnected. (4) Last-mile gap: Road ends at habitation boundary; internal village lanes, bridges over streams, and connectivity to markets/health centres remain gaps. A wrong answer citing only \"roads built = problem solved\" reveals inability to distinguish output (km constructed) from outcome (reliable access).",
+     "self_check": true
+    },
+    {
+     "q": "Design a region-specific rural infrastructure plan for a cluster of 5 villages (total pop. 8,000) in the Sundarbans (West Bengal). Constraints: tidal flooding, saline groundwater, mangrove forest protection laws, high out-migration of men. Specify: (a) water supply strategy; (b) sanitation technology; (c) healthcare delivery model; (d) one livelihood-linked infrastructure. Justify each with geographical reasoning.",
+     "a": "Good answer criteria: (a) Water: Rainwater harvesting (rooftop + community ponds with lining) + solar desalination for drinking — because groundwater is saline, rivers are tidal/saline, and piped supply from mainland is vulnerable to cyclones. (b) Sanitation: Elevated twin-pit pour-flush toilets with sealed chambers — because high water table and flooding make conventional pits contaminate water; ecosan/composting avoids groundwater pollution. (c) Healthcare: Boat clinics + telemedicine hubs at Gram Panchayat level — because roads are absent, villages are island-like, and specialist doctors won't relocate. (d) Livelihood: Solar-powered cold storage + ice plant for fish/crab — because high-value perishable catch loses value without cold chain, and women's SHGs can manage it (men migrate). Poor answer: proposes handpumps, septic tanks, building a PHC, or a generic \"skill centre\" — ignores salinity, flooding, forest laws, and gendered migration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

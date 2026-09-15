@@ -1,0 +1,809 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 2,
+  "chapter_title": "National Income Accounting",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.102.1.1",
+      "title": "Final Goods, Intermediate Goods and Double Counting",
+      "section": "2.1",
+      "definition": "A good bought for end use and not re-entering any production process is final, while one bought as an input and used up in making another good is intermediate; adding both while totaling output would count the same value twice.",
+      "formula": "final_output_value = value_of_final_goods_only (exclude intermediate purchases)",
+      "key_idea": "The use of a good, not its physical nature, decides whether it is final or intermediate; counting inputs twice inflates output.",
+      "textbook_ref": "leec102.txt, section 2.1, cotton-yarn-cloth chain and double counting discussion, pages 10-12",
+      "question_patterns": [
+        "how do you decide whether a good is final or intermediate",
+        "why must intermediate goods be left out while measuring total output",
+        "explain the error of double counting with a production chain example",
+        "when does the same commodity act as a final good and when as an input",
+        "what happens to the estimate of output if raw materials are counted along with finished products",
+        "classify tea leaves bought by a household and by a restaurant as final or intermediate"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ask who buys the good and for what use",
+          "explain": "End use by the ultimate purchaser makes it final; use as an input that is used up makes it intermediate."
+        },
+        {
+          "step": 2,
+          "action": "Check for further transformation",
+          "explain": "A final good exits the production stream once sold; an intermediate good is about to be changed into another commodity."
+        },
+        {
+          "step": 3,
+          "action": "Count only final values in output totals",
+          "explain": "Since the value of inputs is already embedded in the price of the finished product, adding both would exaggerate output."
+        }
+      ]
+    },
+    {
+      "id": "leec.102.1.2",
+      "title": "Consumption Goods, Capital Goods and Consumer Durables",
+      "section": "2.1",
+      "definition": "Final goods split into items consumed on purchase, such as food, and durable items such as machines that aid production for years; long-lived household items like cars or televisions share durability with machines yet still serve consumption.",
+      "formula": "final_goods = consumption_goods + capital_goods (consumer_durables straddle both)",
+      "key_idea": "Durability alone does not make a good capital; its role in production does.",
+      "textbook_ref": "leec102.txt, section 2.1, paragraphs on capital goods and consumer durables, page 11",
+      "question_patterns": [
+        "separate final goods into consumption goods and capital goods",
+        "why are machines treated as capital goods while food is a consumption good",
+        "what makes a television a consumer durable though it lasts many years",
+        "how do capital goods keep the production process running over time",
+        "give examples of goods that are durable yet counted as consumer goods",
+        "explain the difference between consumer durables and capital goods"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Test whether the good is used up at once",
+          "explain": "Goods extinguished by consumption, like food, are consumption goods."
+        },
+        {
+          "step": 2,
+          "action": "Test whether the good assists production",
+          "explain": "Tools, machines and buildings that enable production without being transformed are capital goods."
+        },
+        {
+          "step": 3,
+          "action": "Place long-lived household items",
+          "explain": "Cars, computers and televisions last long and wear out gradually, so they are consumer durables within final consumption goods."
+        }
+      ]
+    },
+    {
+      "id": "leec.102.1.3",
+      "title": "Depreciation, Gross Investment and Net Investment",
+      "section": "2.1",
+      "definition": "Capital wears out as it is used, and the value consumed in a year is depreciation, found by spreading the asset's cost over its expected life; what remains of a year's capital-goods output after replacing worn-out capital is the true addition to the capital stock.",
+      "formula": "net_investment = gross_investment - depreciation_charge",
+      "key_idea": "Gross investment includes replacement of worn-out capital; only the balance raises the capital stock.",
+      "textbook_ref": "leec102.txt, section 2.1, net investment identity and machine example, pages 12-13",
+      "question_patterns": [
+        "work out the annual depreciation of a machine from its cost and working life",
+        "how is net investment obtained from gross investment",
+        "find the addition to capital stock after allowing for wear and tear",
+        "explain why depreciation is deducted while measuring new capital formation",
+        "a machine costing 200 lasts 20 years, what value is used up each year",
+        "define depreciation as consumption of fixed capital and compute it"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Spread the asset cost over its useful life",
+          "explain": "Straight-line depreciation divides the cost of the capital good by the number of years it is expected to serve.",
+          "compute": "depreciation_charge = cost_of_capital_good / useful_life_years"
+        },
+        {
+          "step": 2,
+          "action": "Remove replacement spending from gross investment",
+          "explain": "Subtracting depreciation from gross investment leaves the net addition to the capital stock.",
+          "compute": "net_investment = gross_investment - depreciation_charge"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Depreciation, Gross Investment and Net Investment, compute the result for cost_of_capital_good = 3, useful_life_years = 3, gross_investment = 3.",
+          "solution": "Step 1: Spread the asset cost over its useful life: depreciation_charge = cost_of_capital_good / useful_life_years = 1.0 Step 2: Remove replacement spending from gross investment: net_investment = gross_investment - depreciation_charge = 2.0 Final result: 2.0",
+          "answer": "2.0"
+        },
+        {
+          "question": "Using Depreciation, Gross Investment and Net Investment, compute the result for cost_of_capital_good = 4, useful_life_years = 4, gross_investment = 4.",
+          "solution": "Step 1: Spread the asset cost over its useful life: depreciation_charge = cost_of_capital_good / useful_life_years = 1.0 Step 2: Remove replacement spending from gross investment: net_investment = gross_investment - depreciation_charge = 3.0 Final result: 3.0",
+          "answer": "3.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.1",
+      "title": "Circular Flow of Income and Equivalence of the Three Methods",
+      "section": "2.2",
+      "definition": "In a two-sector economy firms pay households for factor services and households spend those payments back on the firms' products, so the same aggregate can be read as spending, as output value or as factor income, making the product, expenditure and income methods agree.",
+      "formula": "aggregate_expenditure = aggregate_output_value = aggregate_factor_income",
+      "key_idea": "One circular flow means GDP measured at any of three points must give the same figure.",
+      "textbook_ref": "leec102.txt, section 2.2 and Fig 2.1, pages 14-17",
+      "question_patterns": [
+        "explain how income keeps circulating between firms and households",
+        "why do the product expenditure and income methods give the same GDP",
+        "describe the circular flow in a simple two-sector economy",
+        "what happens to aggregate income if households decide to spend more",
+        "name the three phases at which national income can be measured",
+        "how are factor payments and sales revenue linked in the circular flow"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Trace the two money arrows",
+          "explain": "Firms distribute revenue as factor payments; households return those payments as spending on output."
+        },
+        {
+          "step": 2,
+          "action": "Read the flow at three points",
+          "explain": "Measuring spending received (expenditure method), value of final output (product method) or factor payments made (income method) samples one flow."
+        },
+        {
+          "step": 3,
+          "action": "Conclude the identity",
+          "explain": "Because it is one circuit, leakage-free spending must equal output value and equal factor income, so all three totals coincide."
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.2",
+      "title": "Value Added or Product Method of Measuring GDP",
+      "section": "2.2.1",
+      "definition": "Each firm's contribution equals the value of its output less the value of inputs bought from other firms, and GDP is the sum of these net contributions across every producing firm in the economy.",
+      "formula": "value_added_of_firm = value_of_output - value_of_intermediate_goods",
+      "key_idea": "Deducting intermediate consumption per firm removes double counting, and summing value added gives GDP.",
+      "textbook_ref": "leec102.txt, section 2.2.1, farmer-baker example and Table 2.1, pages 17-18",
+      "question_patterns": [
+        "calculate GDP by the value added method for a chain of firms",
+        "find the net contribution of a firm that buys raw material worth 50 and sells output worth 200",
+        "how is gross value added of a firm computed from sales and intermediate consumption",
+        "sum the value added of a farmer and a baker to obtain total output",
+        "use the product method to measure annual output of an economy",
+        "a firm sells cloth for 200 using cotton worth 50, what is its value added"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Deduct intermediate purchases from each firm's output",
+          "explain": "Value added for the first firm removes its (often zero) input cost; the same is done for the second firm.",
+          "compute": "value_added_firm1 = output_firm1 - intermediates_firm1"
+        },
+        {
+          "step": 2,
+          "action": "Repeat for the remaining firm",
+          "explain": "Each firm's net contribution is its sales value minus inputs bought from other firms.",
+          "compute": "value_added_firm2 = output_firm2 - intermediates_firm2"
+        },
+        {
+          "step": 3,
+          "action": "Aggregate the net contributions",
+          "explain": "GDP by the product method is the sum of value added of all firms.",
+          "compute": "gdp_product_method = value_added_firm1 + value_added_firm2"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Value Added or Product Method of Measuring GDP, compute the result for output_firm1 = 3, intermediates_firm1 = 3, output_firm2 = 3, intermediates_firm2 = 2.",
+          "solution": "Step 1: Deduct intermediate purchases from each firm's output: value_added_firm1 = output_firm1 - intermediates_firm1 = 0.0 Step 2: Repeat for the remaining firm: value_added_firm2 = output_firm2 - intermediates_firm2 = 1.0 Step 3: Aggregate the net contributions: gdp_product_method = value_added_firm1 + value_added_firm2 = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Value Added or Product Method of Measuring GDP, compute the result for output_firm1 = 4, intermediates_firm1 = 4, output_firm2 = 4, intermediates_firm2 = 3.",
+          "solution": "Step 1: Deduct intermediate purchases from each firm's output: value_added_firm1 = output_firm1 - intermediates_firm1 = 0.0 Step 2: Repeat for the remaining firm: value_added_firm2 = output_firm2 - intermediates_firm2 = 1.0 Step 3: Aggregate the net contributions: gdp_product_method = value_added_firm1 + value_added_firm2 = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.3",
+      "title": "Inventories: Stock, Flow and Planned versus Unplanned Change",
+      "section": "2.2.1",
+      "definition": "Unsold finished goods, work in progress and raw materials held by a firm form its inventory, a stock measured at a point of time, while the difference between a year's production and sales is the change in inventories, a flow that may be intended or a surprise.",
+      "formula": "change_in_inventories = production_during_year - sales_during_year",
+      "key_idea": "Inventory level is a stock; its change is a flow, and only deviations from the intended change are unplanned.",
+      "textbook_ref": "leec102.txt, section 2.2.1, inventory and shirt examples, pages 18-20",
+      "question_patterns": [
+        "relate change in inventories to production and sales of a firm",
+        "find the closing inventory from opening stock and the change during the year",
+        "when is inventory accumulation planned and when is it a surprise",
+        "distinguish between stock and flow variables using inventories or a water tank",
+        "a firm produces 1000 shirts and sells 600, what happens to its stock",
+        "explain why the change in inventories counts as investment"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the gap between production and sales",
+          "explain": "Output not sold in the year adds to stock; sales beyond current production draw stock down.",
+          "compute": "change_in_inventories = production_during_year - sales_during_year"
+        },
+        {
+          "step": 2,
+          "action": "Update the inventory level",
+          "explain": "Adding the year's change to the opening stock gives the closing inventory, the stock at year end.",
+          "compute": "closing_inventory = opening_inventory + change_in_inventories"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Inventories: Stock, Flow and Planned versus Unplanned Change, compute the result for production_during_year = 3, sales_during_year = 3, opening_inventory = 3.",
+          "solution": "Step 1: Take the gap between production and sales: change_in_inventories = production_during_year - sales_during_year = 0.0 Step 2: Update the inventory level: closing_inventory = opening_inventory + change_in_inventories = 3.0 Final result: 3.0",
+          "answer": "3.0"
+        },
+        {
+          "question": "Using Inventories: Stock, Flow and Planned versus Unplanned Change, compute the result for production_during_year = 4, sales_during_year = 4, opening_inventory = 4.",
+          "solution": "Step 1: Take the gap between production and sales: change_in_inventories = production_during_year - sales_during_year = 0.0 Step 2: Update the inventory level: closing_inventory = opening_inventory + change_in_inventories = 4.0 Final result: 4.0",
+          "answer": "4.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.4",
+      "title": "Expenditure Method: GDP from the Demand Side",
+      "section": "2.2.2",
+      "definition": "GDP can be totaled by adding all final spending on domestically produced goods - household consumption, firms' investment, government purchases and exports - and subtracting the import component embedded in each.",
+      "formula": "gdp_expenditure_method = consumption + investment + government_spending + exports - imports",
+      "key_idea": "Only final expenditures enter, and imports are deducted because they are not produced domestically.",
+      "textbook_ref": "leec102.txt, section 2.2.2, equations 2.3 and 2.4, pages 21-22",
+      "question_patterns": [
+        "compute GDP by the expenditure method from consumption investment government and net exports",
+        "why are imports subtracted while calculating GDP by final spending",
+        "find national output from C I G and the foreign trade balance",
+        "which components of final expenditure enter the demand-side measure of GDP",
+        "given household spending 500 investment 200 government 150 exports 100 and imports 120 find GDP",
+        "state the expenditure identity of gross domestic product"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the four domestic final expenditures",
+          "explain": "Consumption, investment, government spending and export receipts together form total final demand addressed to domestic firms.",
+          "compute": "total_final_demand = consumption + investment + government_spending + exports"
+        },
+        {
+          "step": 2,
+          "action": "Remove the imported content",
+          "explain": "Subtracting imports leaves only the value produced within the domestic territory.",
+          "compute": "gdp_expenditure_method = total_final_demand - imports"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Expenditure Method: GDP from the Demand Side, compute the result for consumption = 3, investment = 3, government_spending = 3, exports = 2, imports = 2.",
+          "solution": "Step 1: Add the four domestic final expenditures: total_final_demand = consumption + investment + government_spending + exports = 11.0 Step 2: Remove the imported content: gdp_expenditure_method = total_final_demand - imports = 9.0 Final result: 9.0",
+          "answer": "9.0"
+        },
+        {
+          "question": "Using Expenditure Method: GDP from the Demand Side, compute the result for consumption = 4, investment = 4, government_spending = 4, exports = 3, imports = 3.",
+          "solution": "Step 1: Add the four domestic final expenditures: total_final_demand = consumption + investment + government_spending + exports = 15.0 Step 2: Remove the imported content: gdp_expenditure_method = total_final_demand - imports = 12.0 Final result: 12.0",
+          "answer": "12.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.5",
+      "title": "Income Method: GDP as Sum of Factor Incomes",
+      "section": "2.2.3",
+      "definition": "Since every firm's revenue ends up as payments to the factors it hires, GDP equals the total of wages, profits, interest and rent earned by all households in a year.",
+      "formula": "gdp_income_method = wages + gross_profits + interest_payments + rents",
+      "key_idea": "The distribution phase of the same circular flow adds up factor incomes to GDP.",
+      "textbook_ref": "leec102.txt, section 2.2.3, equation 2.5 and firms A-B example, pages 22-24",
+      "question_patterns": [
+        "measure GDP by summing wages profits interest and rent",
+        "find national output from the factor incomes of all households",
+        "why must total factor payments equal the value of output produced",
+        "compute income-method GDP when wages are 80 and profits 120",
+        "state the income identity used in national income accounting",
+        "how does the income method view the same circular flow differently"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the four kinds of factor earnings",
+          "explain": "Wages for labour, interest for capital, rent for land and gross profits for entrepreneurship exhaust the firms' revenue.",
+          "compute": "gdp_income_method = wages + gross_profits + interest_payments + rents"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Income Method: GDP as Sum of Factor Incomes, compute the result for wages = 3, gross_profits = 3, interest_payments = 3, rents = 2.",
+          "solution": "Step 1: Add the four kinds of factor earnings: gdp_income_method = wages + gross_profits + interest_payments + rents = 11.0 Final result: 11.0",
+          "answer": "11.0"
+        },
+        {
+          "question": "Using Income Method: GDP as Sum of Factor Incomes, compute the result for wages = 4, gross_profits = 4, interest_payments = 4, rents = 3.",
+          "solution": "Step 1: Add the four kinds of factor earnings: gdp_income_method = wages + gross_profits + interest_payments + rents = 15.0 Final result: 15.0",
+          "answer": "15.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.2.6",
+      "title": "Factor Cost, Basic Prices and Market Prices",
+      "section": "2.2.4",
+      "definition": "Factor cost keeps only payments to factors; adding production taxes net of production subsidies gives GVA at basic prices, and adding product taxes net of product subsidies on top raises it to market prices.",
+      "formula": "gdp_market_prices = gva_basic_prices + net_product_taxes",
+      "key_idea": "Production taxes are fixed per producer while product taxes ride per unit of output; each net pair lifts the valuation one step.",
+      "textbook_ref": "leec102.txt, section 2.2.4, CSO 2015 revision discussion, page 25",
+      "question_patterns": [
+        "how do you move from GVA at factor cost to GDP at market prices",
+        "distinguish production taxes from product taxes with examples",
+        "compute GDP at market prices from GVA at basic prices and net product taxes",
+        "why does India now report GVA at basic prices instead of GDP at factor cost",
+        "where do basic prices lie between factor cost and market prices",
+        "given net production taxes and net product taxes, build the full price ladder"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Raise factor cost by net production taxes",
+          "explain": "Adding production taxes minus production subsidies converts factor-cost valuation to basic prices.",
+          "compute": "gva_basic_prices = gva_factor_cost + net_production_taxes"
+        },
+        {
+          "step": 2,
+          "action": "Raise basic prices by net product taxes",
+          "explain": "Adding product taxes minus product subsidies yields the market-price valuation of GDP.",
+          "compute": "gdp_market_prices = gva_basic_prices + net_product_taxes"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Factor Cost, Basic Prices and Market Prices, compute the result for gva_factor_cost = 3, net_production_taxes = 3, net_product_taxes = 3.",
+          "solution": "Step 1: Raise factor cost by net production taxes: gva_basic_prices = gva_factor_cost + net_production_taxes = 6.0 Step 2: Raise basic prices by net product taxes: gdp_market_prices = gva_basic_prices + net_product_taxes = 9.0 Final result: 9.0",
+          "answer": "9.0"
+        },
+        {
+          "question": "Using Factor Cost, Basic Prices and Market Prices, compute the result for gva_factor_cost = 4, net_production_taxes = 4, net_product_taxes = 4.",
+          "solution": "Step 1: Raise factor cost by net production taxes: gva_basic_prices = gva_factor_cost + net_production_taxes = 8.0 Step 2: Raise basic prices by net product taxes: gdp_market_prices = gva_basic_prices + net_product_taxes = 12.0 Final result: 12.0",
+          "answer": "12.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.3.1",
+      "title": "GNP, NNP and National Income Chain",
+      "section": "2.3",
+      "definition": "Adding net factor income from abroad to GDP gives GNP; deducting depreciation gives NNP at market prices; deducting net indirect taxes from that gives NNP at factor cost, which is national income.",
+      "formula": "national_income = (gdp + net_factor_income_from_abroad - depreciation) - net_indirect_taxes",
+      "key_idea": "Each step removes one wedge: borders (NFIA), capital wear (depreciation) and government price wedges (net indirect taxes).",
+      "textbook_ref": "leec102.txt, section 2.3, GNP NNP NI definitions, pages 25-26",
+      "question_patterns": [
+        "derive national income from GDP using NFIA depreciation and net indirect taxes",
+        "calculate GNP when GDP and net factor income from abroad are given",
+        "find NNP at factor cost from NNP at market prices and net indirect taxes",
+        "how does GNP differ from GDP in treatment of foreign earnings",
+        "a country has GDP 1100 NFIA 100 net indirect taxes 150, find national income after depreciation",
+        "list the steps connecting gross domestic product with national income"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Cross the border with net factor income",
+          "explain": "GNP adds what domestic factors earn abroad and removes what foreign factors earn domestically.",
+          "compute": "gnp = gdp + net_factor_income_from_abroad"
+        },
+        {
+          "step": 2,
+          "action": "Allow for capital wear",
+          "explain": "Subtracting depreciation converts gross to net national product at market prices.",
+          "compute": "nnp_market_prices = gnp - depreciation"
+        },
+        {
+          "step": 3,
+          "action": "Strip out the tax wedge",
+          "explain": "First net indirect taxes are indirect taxes minus subsidies; subtracting them from NNP at market prices leaves national income.",
+          "compute": "net_indirect_taxes = indirect_taxes - subsidies"
+        },
+        {
+          "step": 4,
+          "action": "Arrive at national income",
+          "explain": "NNP at factor cost is what factors actually receive, and that is national income.",
+          "compute": "national_income = nnp_market_prices - net_indirect_taxes"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using GNP, NNP and National Income Chain, compute the result for gdp = 3, net_factor_income_from_abroad = 3, depreciation = 3, indirect_taxes = 2, subsidies = 2.",
+          "solution": "Step 1: Cross the border with net factor income: gnp = gdp + net_factor_income_from_abroad = 6.0 Step 2: Allow for capital wear: nnp_market_prices = gnp - depreciation = 3.0 Step 3: Strip out the tax wedge: net_indirect_taxes = indirect_taxes - subsidies = 0.0 Step 4: Arrive at national income: national_income = nnp_market_prices - net_indirect_taxes = 3.0 Final result: 3.0",
+          "answer": "3.0"
+        },
+        {
+          "question": "Using GNP, NNP and National Income Chain, compute the result for gdp = 4, net_factor_income_from_abroad = 4, depreciation = 4, indirect_taxes = 3, subsidies = 3.",
+          "solution": "Step 1: Cross the border with net factor income: gnp = gdp + net_factor_income_from_abroad = 8.0 Step 2: Allow for capital wear: nnp_market_prices = gnp - depreciation = 4.0 Step 3: Strip out the tax wedge: net_indirect_taxes = indirect_taxes - subsidies = 0.0 Step 4: Arrive at national income: national_income = nnp_market_prices - net_indirect_taxes = 4.0 Final result: 4.0",
+          "answer": "4.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.3.2",
+      "title": "Personal Income and Personal Disposable Income",
+      "section": "2.3",
+      "definition": "Personal income is the slice of national income actually reaching households, found by removing retained earnings, corporate tax and net interest paid by households while adding transfer receipts; disposable income is what remains after personal taxes and fines.",
+      "formula": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments",
+      "key_idea": "Not all national income lands in household hands, and not all household income is freely spendable.",
+      "textbook_ref": "leec102.txt, section 2.3, PI and PDI paragraphs, page 27",
+      "question_patterns": [
+        "derive personal income from national income step by step",
+        "why are undistributed profits and corporate tax deducted while finding personal income",
+        "compute personal disposable income after personal taxes and fines",
+        "what role do transfer payments play in personal income",
+        "find the spendable income of households from national income data",
+        "how do net interest payments by households adjust the personal income figure"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Collect the income that bypasses households",
+          "explain": "Retained earnings, corporate tax and net interest paid by households must come out of national income.",
+          "compute": "household_deductions = undistributed_profits + corporate_tax + net_interest_paid_by_households"
+        },
+        {
+          "step": 2,
+          "action": "Add transfers and deduct the bypassed income",
+          "explain": "Transfer receipts such as pensions are added because households receive them though nothing is produced.",
+          "compute": "personal_income = national_income - household_deductions + transfer_payments"
+        },
+        {
+          "step": 3,
+          "action": "Remove obligatory payments",
+          "explain": "Personal taxes and non-tax payments like fines leave the disposable part households control.",
+          "compute": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Personal Income and Personal Disposable Income, compute the result for undistributed_profits = 3, corporate_tax = 3, net_interest_paid_by_households = 3, national_income = 2, transfer_payments = 2, personal_taxes = 2, non_tax_payments = 1.",
+          "solution": "Step 1: Collect the income that bypasses households: household_deductions = undistributed_profits + corporate_tax + net_interest_paid_by_households = 9.0 Step 2: Add transfers and deduct the bypassed income: personal_income = national_income - household_deductions + transfer_payments = -5.0 Step 3: Remove obligatory payments: personal_disposable_income = personal_income - personal_taxes - non_tax_payments = -8.0 Final result: -8.0",
+          "answer": "-8.0"
+        },
+        {
+          "question": "Using Personal Income and Personal Disposable Income, compute the result for undistributed_profits = 4, corporate_tax = 4, net_interest_paid_by_households = 4, national_income = 3, transfer_payments = 3, personal_taxes = 3, non_tax_payments = 2.",
+          "solution": "Step 1: Collect the income that bypasses households: household_deductions = undistributed_profits + corporate_tax + net_interest_paid_by_households = 12.0 Step 2: Add transfers and deduct the bypassed income: personal_income = national_income - household_deductions + transfer_payments = -6.0 Step 3: Remove obligatory payments: personal_disposable_income = personal_income - personal_taxes - non_tax_payments = -11.0 Final result: -11.0",
+          "answer": "-11.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.4.1",
+      "title": "Nominal GDP, Real GDP and the GDP Deflator",
+      "section": "2.4",
+      "definition": "Nominal GDP values current output at current prices while real GDP values the same output at base-year prices; their ratio, the GDP deflator, isolates the pure price movement between the two years.",
+      "formula": "gdp_deflator = 100 * nominal_gdp / real_gdp",
+      "key_idea": "With quantities fixed at current levels, any gap between nominal and real GDP reflects prices alone.",
+      "textbook_ref": "leec102.txt, section 2.4, bread example 2000-2001, page 30",
+      "question_patterns": [
+        "calculate real GDP of the current year at base year prices",
+        "find the GDP deflator from nominal and real GDP",
+        "why can a doubling of nominal GDP mislead about production growth",
+        "a country makes 110 units priced 15 now against base price 10, give real and nominal GDP and the deflator",
+        "how does the deflator show the rise in the general price level",
+        "compare nominal GDP and real GDP as measures of output"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Value current output at current prices",
+          "explain": "Multiplying this year's quantity by this year's price gives nominal GDP.",
+          "compute": "nominal_gdp = current_year_quantity * current_year_price"
+        },
+        {
+          "step": 2,
+          "action": "Value the same output at base-year prices",
+          "explain": "Multiplying this year's quantity by the base-year price strips price changes out, giving real GDP.",
+          "compute": "real_gdp = current_year_quantity * base_year_price"
+        },
+        {
+          "step": 3,
+          "action": "Ratio the two valuations",
+          "explain": "Nominal divided by real, scaled by 100, is the GDP deflator showing price movement since the base year.",
+          "compute": "gdp_deflator = 100 * nominal_gdp / real_gdp"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Nominal GDP, Real GDP and the GDP Deflator, compute the result for current_year_quantity = 3, current_year_price = 3, base_year_price = 3.",
+          "solution": "Step 1: Value current output at current prices: nominal_gdp = current_year_quantity * current_year_price = 9.0 Step 2: Value the same output at base-year prices: real_gdp = current_year_quantity * base_year_price = 9.0 Step 3: Ratio the two valuations: gdp_deflator = 100 * nominal_gdp / real_gdp = 100.0 Final result: 100.0",
+          "answer": "100.0"
+        },
+        {
+          "question": "Using Nominal GDP, Real GDP and the GDP Deflator, compute the result for current_year_quantity = 4, current_year_price = 4, base_year_price = 4.",
+          "solution": "Step 1: Value current output at current prices: nominal_gdp = current_year_quantity * current_year_price = 16.0 Step 2: Value the same output at base-year prices: real_gdp = current_year_quantity * base_year_price = 16.0 Step 3: Ratio the two valuations: gdp_deflator = 100 * nominal_gdp / real_gdp = 100.0 Final result: 100.0",
+          "answer": "100.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.4.2",
+      "title": "Consumer Price Index and Wholesale Price Index",
+      "section": "2.4",
+      "definition": "The CPI prices a fixed basket bought by a typical consumer in the base year and again in the current year, then expresses the current cost as a percentage of the base cost; the WPI does the same for bulk-traded wholesale goods.",
+      "formula": "consumer_price_index = 100 * current_basket_cost / base_basket_cost",
+      "key_idea": "A fixed basket turns price change into a single index number.",
+      "textbook_ref": "leec102.txt, section 2.4, rice-and-cloth basket example, pages 30-32",
+      "question_patterns": [
+        "compute the consumer price index from basket costs of two years",
+        "price a fixed basket of rice and cloth in base and current years and form the index",
+        "how does CPI differ from the GDP deflator",
+        "why does the consumer price index cover imported goods while the deflator does not",
+        "find the percentage rise in the cost of living between two years",
+        "what basket and weights go into the wholesale price index"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Cost the basket at base-year prices",
+          "explain": "Multiply each basket quantity by its base-year price and add across goods.",
+          "compute": "base_basket_cost = quantity_good1 * base_price_good1 + quantity_good2 * base_price_good2"
+        },
+        {
+          "step": 2,
+          "action": "Cost the same basket at current prices",
+          "explain": "The identical quantities at current prices show what the consumer now pays.",
+          "compute": "current_basket_cost = quantity_good1 * current_price_good1 + quantity_good2 * current_price_good2"
+        },
+        {
+          "step": 3,
+          "action": "Express the current cost as a percentage of base cost",
+          "explain": "Scaling the ratio by 100 gives the CPI for the current year against the base year.",
+          "compute": "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Consumer Price Index and Wholesale Price Index, compute the result for quantity_good1 = 3, base_price_good1 = 3, quantity_good2 = 3, base_price_good2 = 2, current_price_good1 = 2, current_price_good2 = 2.",
+          "solution": "Step 1: Cost the basket at base-year prices: base_basket_cost = quantity_good1 * base_price_good1 + quantity_good2 * base_price_good2 = 15.0 Step 2: Cost the same basket at current prices: current_basket_cost = quantity_good1 * current_price_good1 + quantity_good2 * current_price_good2 = 12.0 Step 3: Express the current cost as a percentage of base cost: consumer_price_index = 100 * current_basket_cost / base_basket_cost = 80.0 Final result: 80.0",
+          "answer": "80.0"
+        },
+        {
+          "question": "Using Consumer Price Index and Wholesale Price Index, compute the result for quantity_good1 = 4, base_price_good1 = 4, quantity_good2 = 4, base_price_good2 = 3, current_price_good1 = 3, current_price_good2 = 3.",
+          "solution": "Step 1: Cost the basket at base-year prices: base_basket_cost = quantity_good1 * base_price_good1 + quantity_good2 * base_price_good2 = 28.0 Step 2: Cost the same basket at current prices: current_basket_cost = quantity_good1 * current_price_good1 + quantity_good2 * current_price_good2 = 24.0 Step 3: Express the current cost as a percentage of base cost: consumer_price_index = 100 * current_basket_cost / base_basket_cost = 85.714286 Final result: 85.714286",
+          "answer": "85.714286"
+        }
+      ]
+    },
+    {
+      "id": "leec.102.5.1",
+      "title": "Limits of GDP as a Welfare Index",
+      "section": "2.5",
+      "definition": "Rising GDP need not mean rising wellbeing because its distribution may be skewed, unpaid non-monetary work and barter escape the accounts, and external harms or benefits carry no market price to correct the measure.",
+      "formula": "welfare_gap = gdp_level - true_wellbeing (distribution, non-monetary exchanges, externalities)",
+      "key_idea": "Three gaps - uneven distribution, unpriced activity and externalities - keep GDP from tracking welfare closely.",
+      "textbook_ref": "leec102.txt, section 2.5, three limitations, pages 31-32",
+      "question_patterns": [
+        "explain why GDP growth may not raise the welfare of most people",
+        "how does unequal distribution of income weaken GDP as a welfare measure",
+        "why are barter exchanges and home services missed by GDP",
+        "what is an externality and how does pollution distort the welfare reading of GDP",
+        "list the limitations of using GDP as an index of wellbeing",
+        "give an example where GDP rises while most people become worse off"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check who receives the output growth",
+          "explain": "If gains concentrate among a few while the majority's income falls, average output rises but welfare does not."
+        },
+        {
+          "step": 2,
+          "action": "Look for unpriced activity",
+          "explain": "Household services and barter deals create real value yet never enter monetary accounts, so GDP understates activity."
+        },
+        {
+          "step": 3,
+          "action": "Weigh external effects",
+          "explain": "Unpaid harms like pollution inflate measured welfare, while unpaid benefits deflate it, since externalities carry no market price."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec102.txt section 2.2.1 farmer-baker table 2.1",
+      "concept": "leec.102.2.2",
+      "question_type": "compute",
+      "question_pattern": "Farmers sell wheat worth 100 with no inputs, bakers buy wheat worth 50 and sell bread worth 200. Use the value added method to find GDP.",
+      "extracted_variables": {
+        "output_firm1": 100,
+        "intermediates_firm1": 0,
+        "output_firm2": 200,
+        "intermediates_firm2": 50
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Value added of farmers",
+          "explain": "100 minus 0 leaves the full 100 as their contribution.",
+          "compute": "value_added_firm1 = output_firm1 - intermediates_firm1"
+        },
+        {
+          "step": 2,
+          "action": "Value added of bakers",
+          "explain": "200 minus the 50 of wheat bought leaves 150.",
+          "compute": "value_added_firm2 = output_firm2 - intermediates_firm2"
+        },
+        {
+          "step": 3,
+          "action": "Aggregate output",
+          "explain": "100 plus 150 gives GDP of 250, avoiding double counting of the wheat.",
+          "compute": "gdp_product_method = value_added_firm1 + value_added_firm2"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec102.txt exercise 7",
+      "concept": "leec.102.3.1",
+      "question_type": "compute",
+      "question_pattern": "A country's GDP at market price is 1100, NFIA is 100, indirect taxes minus subsidies are 150 and national income is 850. Work out the depreciation.",
+      "extracted_variables": {
+        "gdp": 1100,
+        "net_factor_income_from_abroad": 100,
+        "net_indirect_taxes": 150,
+        "national_income": 850
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Move from GDP to GNP",
+          "explain": "Adding NFIA gives GNP of 1200.",
+          "compute": "gnp = gdp + net_factor_income_from_abroad"
+        },
+        {
+          "step": 2,
+          "action": "Move from NNP at factor cost back to NNP at market prices",
+          "explain": "Adding net indirect taxes to national income gives NNP at market prices of 1000.",
+          "compute": "nnp_market_prices = national_income + net_indirect_taxes"
+        },
+        {
+          "step": 3,
+          "action": "The gap between GNP and NNP is depreciation",
+          "explain": "1200 minus 1000 leaves depreciation of 200.",
+          "compute": "depreciation = gnp - nnp_market_prices"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec102.txt section 2.4 rice-cloth CPI example",
+      "concept": "leec.102.4.2",
+      "question_type": "compute",
+      "question_pattern": "A consumer buys 90 kg of rice and 5 pieces of cloth. Rice moves from 10 to 15 and cloth from 100 to 120 between the base and current years. Find the CPI.",
+      "extracted_variables": {
+        "quantity_good1": 90,
+        "quantity_good2": 5,
+        "base_price_good1": 10,
+        "base_price_good2": 100,
+        "current_price_good1": 15,
+        "current_price_good2": 120
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Base-year basket cost",
+          "explain": "90 into 10 plus 5 into 100 gives 1400.",
+          "compute": "base_basket_cost = quantity_good1 * base_price_good1 + quantity_good2 * base_price_good2"
+        },
+        {
+          "step": 2,
+          "action": "Current-year basket cost",
+          "explain": "90 into 15 plus 5 into 120 gives 1950.",
+          "compute": "current_basket_cost = quantity_good1 * current_price_good1 + quantity_good2 * current_price_good2"
+        },
+        {
+          "step": 3,
+          "action": "Index number",
+          "explain": "1950 over 1400 scaled by 100 gives about 139.29.",
+          "compute": "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec102-ex1",
+      "source_ref": "leec102.txt exercise 1",
+      "questions": [
+        "Name the four factors of production and the reward paid to each."
+      ]
+    },
+    {
+      "id": "leec102-ex2",
+      "source_ref": "leec102.txt exercise 2",
+      "questions": [
+        "Explain why an economy's total final spending must match its total factor payments."
+      ]
+    },
+    {
+      "id": "leec102-ex3",
+      "source_ref": "leec102.txt exercise 3",
+      "questions": [
+        "Contrast stock with flow, and say whether net investment or capital is which, using the water tank picture."
+      ]
+    },
+    {
+      "id": "leec102-ex4",
+      "source_ref": "leec102.txt exercise 4",
+      "questions": [
+        "Separate planned from unplanned inventory buildup and link change in inventories to a firm's value added."
+      ]
+    },
+    {
+      "id": "leec102-ex5",
+      "source_ref": "leec102.txt exercise 5",
+      "questions": [
+        "Write the three GDP identities and argue why all three must agree."
+      ]
+    },
+    {
+      "id": "leec102-ex6",
+      "source_ref": "leec102.txt exercise 6",
+      "questions": [
+        "Define budget deficit and trade deficit, then find the trade deficit when investment exceeds saving by 2000 and the budget deficit is 1500."
+      ]
+    },
+    {
+      "id": "leec102-ex7",
+      "source_ref": "leec102.txt exercise 7",
+      "questions": [
+        "Given GDP at market price 1100, NFIA 100, net indirect taxes 150 and national income 850, compute depreciation."
+      ]
+    },
+    {
+      "id": "leec102-ex8",
+      "source_ref": "leec102.txt exercise 8",
+      "questions": [
+        "With NNP at factor cost 1900, no net household interest payments, disposable income 1200, personal taxes 600 and retained earnings 200, find the transfers paid to households."
+      ]
+    },
+    {
+      "id": "leec102-ex9",
+      "source_ref": "leec102.txt exercise 9",
+      "questions": [
+        "From the given data on NDP at factor cost, NFIA, undistributed profits, corporate tax, household interest flows, transfers and personal tax, work out personal income and personal disposable income."
+      ]
+    },
+    {
+      "id": "leec102-ex10",
+      "source_ref": "leec102.txt exercise 10",
+      "questions": [
+        "For a barber collecting 500 a day with equipment depreciation 50, sales tax 30, retained improvements 220, take-home 200 and income tax 20, complete his contribution to GDP, NNP at market price, NNP at factor cost, personal income and personal disposable income."
+      ]
+    },
+    {
+      "id": "leec102-ex11",
+      "source_ref": "leec102.txt exercise 11",
+      "questions": [
+        "Nominal GNP is 2500 while GNP at base-year prices is 3000; find the GNP deflator in percentage terms and say whether prices rose."
+      ]
+    },
+    {
+      "id": "leec102-ex12",
+      "source_ref": "leec102.txt exercise 12",
+      "questions": [
+        "Point out the drawbacks of reading a country's welfare straight off its GDP."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_001",
+   "title": "c7_geo_ch01_001",
+   "questions": [
+    {
+     "q": "In which hemispheres (northern/southern/eastern/western) does India lie entirely or partially based on its coordinates?",
+     "a": "India lies entirely in the Northern and Eastern hemispheres. A student who answers that India is in the Southern hemisphere has confused the equator with the prime meridian or reversed the northern and southern latitude indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the longitudinal extent of India approximately 30 degrees, yet the local time difference between Gujarat in the west and Arunachal Pradesh in the east is about two hours?",
+     "a": "Earth rotates 360 degrees in 24 hours, meaning it takes about 4 minutes to rotate 1 degree of longitude; multiplying roughly 30 degrees by 4 minutes gives 120 minutes or 2 hours. A student who says the time difference is due to latitude misunderstands that longitudes govern time zones while latitudes govern climate and day-length.",
+     "self_check": true
+    },
+    {
+     "q": "If a traveler moves from Kanyakumari (approx. 8°N) to Srinagar (approx. 34°N), how many degrees of latitude have they crossed, and what general change in climate do they experience?",
+     "a": "Steps: 1. Identify Kanyakumari's latitude as 8°N and Srinagar's latitude as 34°N. 2. Subtract the lower latitude from the higher latitude (34 - 8 = 26 degrees). 3. Conclude that the traveler crosses 26 degrees of latitude. 4. Apply the geographical rule that moving away from the equator toward higher latitudes transitions the climate from tropical to subtropical/temperate. A wrong answer usually subtracts longitudes instead or thinks climate stays the same across latitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how India's location in the northern hemisphere influences its seasonal wind patterns (monsoons) compared to a country located entirely in the southern hemisphere.",
+     "a": "India's northern hemispheric position interacts with the shifting pressure belts and the massive Asian landmass to the north, creating a distinct reversal of winds known as the monsoon. A student who thinks southern hemisphere wind dynamics apply directly to India ignores how the vast landmass of Eurasia creates unique thermal lows and highs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the decision to use a single standard meridian (82°30'E) for the entire country of India instead of multiple time zones, considering India's roughly 30-degree longitudinal span.",
+     "a": "Using a single standard meridian (82°30'E passing through Mirzapur) maintains administrative and economic synchronization across the country, preventing confusion in railways, communication, and governance. However, the trade-off is that the sun rises and sets nearly two hours earlier in Arunachal Pradesh than in Gujarat, meaning eastern regions experience daylight hours earlier than official clock times indicate. A student who claims multiple time zones are illegal or impossible misses the practical administrative reasons for a single time zone in developing economies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical country layout that spans 40 degrees of longitude and explain how many standard time zones it would ideally require to keep local sun time within one hour of official time.",
+     "a": "A good response proposes dividing the 40-degree span by 15 degrees per time zone (since 15 degrees equals one hour of Earth's rotation), resulting in 2 or 3 distinct time zones to ensure local solar time matches clock time reasonably well. A poor response suggests a single time zone for a massive longitudinal span without considering the extreme solar time discrepancies it would cause for citizens living on opposite ends.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1046 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 102,
+ "chapter_title": "Electrostatic Potential and Capacitance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph102.txt",
+ "concepts": [
+  {
+   "id": "leph.2.1",
+   "title": "Electrostatic Potential and Potential Difference",
+   "section": "2.1-2.2",
+   "definition": "The electric potential at a point represents the external work needed per unit positive charge to bring it from infinity to that point without acceleration.",
+   "formula": "V = W / q, Delta_V = V_P - V_R = W_RP / q",
+   "key_idea": "Electric potential difference is the path-independent work done per unit test charge between two points in an electric field.",
+   "textbook_ref": "leph102.txt lines 15-95",
+   "question_patterns": [
+    "calculate the electrostatic potential at a point given the work done and test charge",
+    "find the work required to move a charge between two points of known potential difference",
+    "what is the potential difference between two terminals given work and charge",
+    "how much work is done in bringing a charge from infinity to a point",
+    "solve a numerical on electrostatic potential and potential difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate work done using charge and potential difference",
+     "explain": "work done equals the product of the magnitude of charge and the potential difference between the endpoints",
+     "compute": "work = charge * potential_diff"
+    },
+    {
+     "step": 2,
+     "action": "calculate electric potential at a point from work and charge",
+     "explain": "potential equals work done per unit charge to bring the test charge from infinity",
+     "compute": "potential = work / charge"
+    },
+    {
+     "step": 3,
+     "action": "find potential difference between two points",
+     "explain": "potential difference is the work done per unit charge moving between the two points",
+     "compute": "potential_diff = potential_p - potential_r"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.2",
+   "title": "Potential due to a Point Charge",
+   "section": "2.3",
+   "definition": "The electric potential produced by an isolated point charge at a radial distance varies in direct proportion with the source charge and in inverse proportion with the distance.",
+   "formula": "V = (1 / (4 * pi * epsilon_0)) * (Q / r)",
+   "key_idea": "The potential of a point charge falls off as 1/r with distance and keeps the algebraic sign of the charge.",
+   "textbook_ref": "leph102.txt lines 96-150",
+   "question_patterns": [
+    "calculate the potential at a point due to a point charge located at a distance",
+    "find the electric potential at a given distance from a point charge",
+    "what is the potential produced by a charge at a specified separation",
+    "how much is the electric potential at distance r from charge Q",
+    "find the required value in a potential due to a point charge problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute electric potential from point charge",
+     "explain": "use Coulomb constant k = 9e9 N m^2 / C^2 multiplied by charge and divided by distance",
+     "compute": "potential = 9000000000 * charge / distance"
+    },
+    {
+     "step": 2,
+     "action": "determine the sign of the potential from the charge sign",
+     "explain": "potential is positive for positive charges and negative for negative charges since it carries the algebraic sign of the source charge",
+     "compute": "signed_potential = potential"
+    },
+    {
+     "step": 3,
+     "action": "calculate work done to bring a test charge from infinity to the point",
+     "explain": "work done equals the test charge multiplied by the potential at that point",
+     "compute": "work = test_charge * potential"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.3",
+   "title": "Potential due to an Electric Dipole",
+   "section": "2.4",
+   "definition": "The electrostatic potential created by an electric dipole at large distances varies with the dipole moment, the angle with the dipole axis, and falls off inversely with the distance's square.",
+   "formula": "V = (1 / (4 * pi * epsilon_0)) * (p * cos(theta) / (r ** 2))",
+   "key_idea": "Dipole potential falls as 1/r^2 and vanishes everywhere along the equatorial plane where theta is 90 degrees.",
+   "textbook_ref": "leph102.txt lines 151-225",
+   "question_patterns": [
+    "calculate the electric potential due to a dipole at a point on its axis",
+    "find the dipole potential at a given angle and distance",
+    "what is the electric potential on the equatorial plane of a dipole",
+    "determine the potential at distance r from a short electric dipole",
+    "what is the result in this potential due to an electric dipole problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the dipole potential",
+     "explain": "multiply Coulomb constant by dipole moment and cosine of angle, divided by distance squared",
+     "compute": "potential = 9000000000 * dipole_moment * cos_theta / (distance ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the potential on the equatorial plane",
+     "explain": "on the equatorial plane theta is 90 degrees so cos(theta) is zero and the dipole potential vanishes",
+     "compute": "equatorial_potential = 0"
+    },
+    {
+     "step": 3,
+     "action": "find the distance dependence of the dipole potential",
+     "explain": "unlike a point charge, the dipole potential falls off as 1/r^2 with distance due to the cancellation of monopole terms",
+     "compute": "distance_factor = 1 / (distance ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.4",
+   "title": "Potential due to a System of Charges and Superposition",
+   "section": "2.5",
+   "definition": "The total electrostatic potential at a point due to a collection of point charges is the algebraic sum of the potentials produced by each charge individually.",
+   "formula": "V = (1 / (4 * pi * epsilon_0)) * sum(q_i / r_i)",
+   "key_idea": "Electric potential is a scalar quantity, so multiple contributions add algebraically with their proper signs.",
+   "textbook_ref": "leph102.txt lines 226-285",
+   "question_patterns": [
+    "calculate the net potential at the center of a polygon with charges at the vertices",
+    "find the point along the line joining two charges where the net potential is zero",
+    "what is the total potential at a point due to multiple discrete charges",
+    "determine the algebraic sum of electric potentials at a given observation point",
+    "work out the value using potential due to a system of charges and superposition"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate potential contribution from each charge",
+     "explain": "compute individual potentials using k * q / r and sum them up",
+     "compute": "total_potential = 9000000000 * sum_charge_over_dist"
+    },
+    {
+     "step": 2,
+     "action": "include the algebraic sign of each charge in the sum",
+     "explain": "potential is a scalar so each contribution keeps the sign of its source charge and adds algebraically",
+     "compute": "signed_total_potential = total_potential"
+    },
+    {
+     "step": 3,
+     "action": "find the point where net potential is zero",
+     "explain": "set the algebraic sum of individual potentials to zero and solve for the unknown position",
+     "compute": "zero_point_condition = 0"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.5",
+   "title": "Equipotential Surfaces and Electric Field Relation",
+   "section": "2.6",
+   "definition": "An equipotential surface is a geometric locus of all points having identical electric potential, which is always oriented perpendicular to the local electric field lines.",
+   "formula": "E = - dV / dl",
+   "key_idea": "The electric field points in the direction where potential decreases most rapidly, and no work is indeed required to move charges across an equipotential surface.",
+   "textbook_ref": "leph102.txt lines 286-340",
+   "question_patterns": [
+    "identify the equipotential surfaces for a uniform field or point charge",
+    "calculate electric field magnitude from potential gradient",
+    "what is the relation between electric field and potential difference between two surfaces",
+    "find the magnitude of electric field given change in potential over distance",
+    "compute the answer step by step for equipotential surfaces and electric field relation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate electric field magnitude from potential difference and separation",
+     "explain": "electric field magnitude equals potential difference divided by normal separation",
+     "compute": "field_mag = abs(delta_v) / delta_l"
+    },
+    {
+     "step": 2,
+     "action": "determine the direction of the electric field relative to potential",
+     "explain": "the electric field points in the direction where potential decreases most rapidly, hence the negative sign in E = -dV/dl",
+     "compute": "field_direction = -1"
+    },
+    {
+     "step": 3,
+     "action": "verify that no work is needed to move a charge along an equipotential surface",
+     "explain": "on an equipotential surface the potential difference is zero so the work done is zero and the field is perpendicular to the surface",
+     "compute": "work_equipotential = 0"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.6",
+   "title": "Potential Energy of a System of Charges",
+   "section": "2.7",
+   "definition": "The work an external agency must do to assemble a set of charges from infinitely far apart, placing each at its position; that stored work is the configuration's electrostatic potential energy.",
+   "formula": "U = (1 / (4 * pi * epsilon_0)) * (q1 * q2 / r_12)",
+   "key_idea": "Pairwise interaction energies add up to give the total potential energy of a multi-charge system.",
+   "textbook_ref": "leph102.txt lines 341-435",
+   "question_patterns": [
+    "calculate the electrostatic potential energy of a pair of charges",
+    "find the work required to assemble or separate a system of charges",
+    "determine the total interaction energy of charges placed at the corners of a geometric shape",
+    "how much work is needed to separate two point charges to infinity",
+    "what is the result in this potential energy of a system of charges problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute electrostatic potential energy of two charges",
+     "explain": "multiply Coulomb constant with the product of charges divided by their separation",
+     "compute": "potential_energy = 9000000000 * charge1 * charge2 / separation"
+    },
+    {
+     "step": 2,
+     "action": "find work required to separate charges to infinity",
+     "explain": "work done to separate charges completely is the negative of the bound potential energy",
+     "compute": "work_separate = 0 - potential_energy"
+    },
+    {
+     "step": 3,
+     "action": "sum pairwise interaction energies for a multi-charge system",
+     "explain": "for more than two charges, add the potential energy of every unique pair to get the total configuration energy",
+     "compute": "total_energy = sum_pairwise_energies"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.7",
+   "title": "Potential Energy of a Dipole in an External Field",
+   "section": "2.8",
+   "definition": "The potential energy kept in an electric dipole oriented inside a uniform external electric field depends on the scalar product of its dipole moment and the field vector.",
+   "formula": "U = - p * E * cos(theta), W = p * E * (cos(theta_0) - cos(theta_1))",
+   "key_idea": "The dipole has minimum energy in stable alignment parallel to the both field and maximum energy when antiparallel.",
+   "textbook_ref": "leph102.txt lines 436-520",
+   "question_patterns": [
+    "calculate the potential energy of an electric dipole in an external electric field",
+    "find the work done to rotate a dipole from one angle to another in a uniform field",
+    "estimate the heat released when polarized dipoles reorient in an altered field direction",
+    "what is the change in potential energy when a dipole rotates by an angle",
+    "find the required value in a potential energy of a dipole in an external field problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial potential energy",
+     "explain": "potential energy is negative dipole moment times electric field times cos of initial angle",
+     "compute": "u_initial = 0 - dipole_moment * electric_field * cos_theta_0"
+    },
+    {
+     "step": 2,
+     "action": "calculate final potential energy",
+     "explain": "potential energy at final angle",
+     "compute": "u_final = 0 - dipole_moment * electric_field * cos_theta_1"
+    },
+    {
+     "step": 3,
+     "action": "find difference or work done",
+     "explain": "change in energy equals final minus initial energy",
+     "compute": "delta_u = u_final - u_initial"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.8",
+   "title": "Electrostatics of Conductors and Electrostatic Shielding",
+   "section": "2.9",
+   "definition": "In static equilibrium, conductors exhibit zero internal electric field, constant internal potential matching the surface, surface-only excess charge, and zero field inside charge-free cavities.",
+   "formula": "E_inside = 0, E_surface = sigma / epsilon_0, V_inside = V_surface = const",
+   "key_idea": "A metallic enclosure completely shields any internal cavity from outside electrostatic fields regardless of external charge or voltage.",
+   "textbook_ref": "leph102.txt lines 521-610",
+   "question_patterns": [
+    "explain why the electric field inside a conductor in static equilibrium is zero",
+    "show that all excess charge on a conductor resides entirely on its outer surface",
+    "describe the principle and applications of electrostatic shielding",
+    "verify that electrostatic potential is constant throughout the volume of a conductor",
+    "why is electrostatics of conductors and electrostatic shielding important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze equilibrium condition of free mobile charges",
+     "explain": "if internal electric field were non-zero, free electrons would experience force and accelerate; in static state no current flows, implying net internal field must be zero everywhere"
+    },
+    {
+     "step": 2,
+     "action": "apply Gauss law to an internal Gaussian surface",
+     "explain": "since electric flux is zero through any closed surface inside the conductor material, the net enclosed charge is zero, proving excess charges reside on the outer surface"
+    },
+    {
+     "step": 3,
+     "action": "establish constancy of potential",
+     "explain": "zero internal electric field implies line integral of field between any two points vanishes, keeping electric potential uniform across the body and surface"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.9",
+   "title": "Parallel Plate Capacitor",
+   "section": "2.11-2.12",
+   "definition": "A parallel plate capacitor is indeed made up of two planar conducting sheets separated by a dielectric medium, storing charge and electrostatic field energy between them.",
+   "formula": "C = epsilon_0 * A / d, Q = C * V",
+   "key_idea": "Capacitance depends only on the geometry of the conducting plates and the permittivity of the medium between them.",
+   "textbook_ref": "leph102.txt lines 611-730",
+   "question_patterns": [
+    "calculate the capacitance of a parallel plate capacitor in vacuum",
+    "find the charge on capacitor plates connected to a given voltage source",
+    "what plate area is needed to achieve a desired capacitance at a fixed separation",
+    "determine the potential difference across a parallel plate capacitor",
+    "calculate parallel plate capacitor for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate capacitance of parallel plate capacitor",
+     "explain": "multiply permittivity of free space by plate area and divide by plate separation",
+     "compute": "capacitance = 0.000000000008854 * area / separation"
+    },
+    {
+     "step": 2,
+     "action": "calculate charge on the capacitor",
+     "explain": "multiply capacitance by voltage across the plates",
+     "compute": "charge = capacitance * voltage"
+    },
+    {
+     "step": 3,
+     "action": "calculate the plate area needed for a desired capacitance",
+     "explain": "rearrange C = epsilon_0 * A / d to solve for area given the target capacitance and fixed separation",
+     "compute": "area = capacitance * separation / 0.000000000008854"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.10",
+   "title": "Dielectric Insertion in Capacitors",
+   "section": "2.10, 2.13",
+   "definition": "Introducing an insulating dielectric material of dielectric constant K between capacitor plates polarizes the dielectric, reducing the internal electric field and multiplying capacitance by factor K.",
+   "formula": "C = K * C_0, C_0 = epsilon_0 * A / d",
+   "key_idea": "Dielectrics reduce the potential difference for an isolated charged capacitor or increase the stored charge at a constant supply voltage.",
+   "textbook_ref": "leph102.txt lines 731-830",
+   "question_patterns": [
+    "calculate the new capacitance when a dielectric slab is inserted",
+    "find the factor by which capacitance changes when separation is halved and dielectric is introduced",
+    "what is the effect of dielectric insertion on charge and potential difference",
+    "determine the dielectric constant from vacuum and filled capacitance values",
+    "find the required value in a dielectric insertion in capacitors problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute modified capacitance with dielectric and new geometry",
+     "explain": "scale base capacitance by dielectric constant and inverse of plate separation factor",
+     "compute": "new_capacitance = initial_capacitance * dielectric_constant * dist_reduction_factor"
+    },
+    {
+     "step": 2,
+     "action": "find the dielectric constant from vacuum and filled capacitance values",
+     "explain": "the dielectric constant equals the ratio of the filled capacitance to the vacuum capacitance",
+     "compute": "dielectric_constant = new_capacitance / initial_capacitance"
+    },
+    {
+     "step": 3,
+     "action": "determine the effect of dielectric on an isolated charged capacitor",
+     "explain": "for an isolated capacitor the charge stays fixed so inserting a dielectric reduces the potential difference by the factor K",
+     "compute": "new_voltage = voltage / dielectric_constant"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.11",
+   "title": "Combinations of Capacitors",
+   "section": "2.14",
+   "definition": "Multiple capacitors connected end-to-end in series share identical charge with reciprocal addition of capacitances, while in parallel they share identical voltage with direct addition of capacitances.",
+   "formula": "Series: 1/C_eq = sum(1/C_i); Parallel: C_eq = sum(C_i)",
+   "key_idea": "Series combinations decrease the overall equivalent capacitance while parallel arrangements increase the equivalent capacitance.",
+   "textbook_ref": "leph102.txt lines 831-950",
+   "question_patterns": [
+    "calculate the equivalent capacitance of capacitors connected in series",
+    "find the total capacitance of a parallel combination of capacitors",
+    "determine the voltage across each capacitor in a series circuit",
+    "calculate the charge on individual capacitors in a parallel network",
+    "what is the result in this combinations of capacitors problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate equivalent capacitance for series combination",
+     "explain": "for n identical capacitors in series, divide single capacitance by number of capacitors",
+     "compute": "c_series = single_capacitance / num_series"
+    },
+    {
+     "step": 2,
+     "action": "calculate equivalent capacitance for parallel combination",
+     "explain": "sum individual capacitances",
+     "compute": "c_parallel = cap_a + cap_b + cap_c"
+    },
+    {
+     "step": 3,
+     "action": "calculate the charge on each capacitor in the combination",
+     "explain": "in series each capacitor holds the same charge equal to the equivalent capacitance times the supply voltage, while in parallel each holds charge equal to its own capacitance times the common voltage",
+     "compute": "charge_each = c_equivalent * supply_voltage"
+    }
+   ]
+  },
+  {
+   "id": "leph.2.12",
+   "title": "Electrostatic Energy Stored in a Capacitor and Energy Density",
+   "section": "2.15",
+   "definition": "The energy stored in a charged capacitor is the total work done during the charging process, residing in the localized electrostatic field with an energy density proportional to the square of the field strength.",
+   "formula": "U = (1/2) * C * (V ** 2) = (1/2) * (Q ** 2) / C = (1/2) * Q * V; u = (1/2) * epsilon_0 * (E ** 2)",
+   "key_idea": "Energy is stored within the electrostatic field itself, and charge sharing between capacitors generally results in dissipative energy loss.",
+   "textbook_ref": "leph102.txt lines 951-1055",
+   "question_patterns": [
+    "calculate the electrostatic energy stored in a capacitor",
+    "find the energy lost when a charged capacitor is connected to an uncharged capacitor",
+    "calculate the energy density of an electric field",
+    "determine the total stored energy given charge and voltage",
+    "solve a numerical on electrostatic energy stored in a capacitor and energy density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate stored electrostatic energy",
+     "explain": "stored energy equals one half times capacitance times voltage squared",
+     "compute": "stored_energy = 0.5 * capacitance * (voltage ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate energy loss on connecting to identical uncharged capacitor",
+     "explain": "common potential becomes half and final total energy becomes half of initial stored energy",
+     "compute": "energy_lost = stored_energy * 0.5"
+    },
+    {
+     "step": 3,
+     "action": "calculate the energy density of the electric field",
+     "explain": "energy density equals one half times the permittivity of free space times the electric field squared",
+     "compute": "energy_density = 0.5 * 0.000000000008854 * (field ** 2)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2.1",
+   "source_ref": "Example 2.1, page 49",
+   "concept": "leph.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the potential at a point due to a charge of {charge} located {distance} away and obtain work done in bringing charge {test_charge} from infinity.",
+   "extracted_variables": {
+    "charge": "source charge in Coulombs",
+    "distance": "distance in meters",
+    "test_charge": "test charge in Coulombs"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric potential at the point",
+     "explain": "use k * Q / r",
+     "compute": "potential = 9000000000 * charge / distance"
+    },
+    {
+     "step": 2,
+     "action": "calculate work done bringing test charge from infinity",
+     "explain": "work done is test charge multiplied by potential",
+     "compute": "work = test_charge * potential"
+    }
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "Example 2.5, page 59",
+   "concept": "leph.2.6",
+   "question_type": "compute",
+   "question_pattern": "Determine the electrostatic potential energy of a system consisting of two charges {charge1} and {charge2} placed at separation {separation} with no external field.",
+   "extracted_variables": {
+    "charge1": "first point charge in Coulombs",
+    "charge2": "second point charge in Coulombs",
+    "separation": "separation between charges in meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electrostatic potential energy",
+     "explain": "use formula U = k * q1 * q2 / r",
+     "compute": "potential_energy = 9000000000 * charge1 * charge2 / separation"
+    },
+    {
+     "step": 2,
+     "action": "calculate work to separate charges to infinity",
+     "explain": "work equals negative of potential energy",
+     "compute": "work_separate = 0 - potential_energy"
+    }
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "Example 2.6, page 61",
+   "concept": "leph.2.7",
+   "question_type": "compute",
+   "question_pattern": "A mole of substance with total dipole moment {dipole_moment} in field {electric_field} is rotated from angle 0 to {angle_deg} degrees. Estimate the energy released.",
+   "extracted_variables": {
+    "dipole_moment": "total dipole moment in C m",
+    "electric_field": "electric field in V/m",
+    "cos_initial": "cosine of initial angle",
+    "cos_final": "cosine of final angle"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute initial potential energy",
+     "explain": "U_i = - p * E * cos(0)",
+     "compute": "u_initial = 0 - dipole_moment * electric_field * cos_initial"
+    },
+    {
+     "step": 2,
+     "action": "compute final potential energy",
+     "explain": "U_f = - p * E * cos(theta)",
+     "compute": "u_final = 0 - dipole_moment * electric_field * cos_final"
+    },
+    {
+     "step": 3,
+     "action": "compute energy released",
+     "explain": "energy released is the loss in potential energy: U_i - U_f",
+     "compute": "energy_released = u_initial - u_final"
+    }
+   ]
+  },
+  {
+   "id": "ex2.10",
+   "source_ref": "Example 2.10, page 75",
+   "concept": "leph.2.12",
+   "question_type": "compute",
+   "question_pattern": "A {capacitance} capacitor is charged by a {voltage} V battery. How much energy is stored, and what is the final energy when connected to an identical uncharged capacitor?",
+   "extracted_variables": {
+    "capacitance": "capacitance in Farads",
+    "voltage": "battery potential difference in Volts"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial stored energy",
+     "explain": "U_i = (1/2) * C * V^2",
+     "compute": "initial_energy = 0.5 * capacitance * (voltage ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate final total stored energy",
+     "explain": "with two identical capacitors sharing charge, total energy is halved",
+     "compute": "final_energy = initial_energy * 0.5"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "leph102.txt lines 15-95",
+   "concept": "leph.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute electrostatic potential and potential difference step by step",
+   "extracted_variables": {
+    "charge": "value of charge",
+    "potential_diff": "value of potential_diff"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate work done using charge and potential difference",
+     "explain": "work done equals the product of the magnitude of charge and the potential difference between the endpoints",
+     "compute": "work = charge * potential_diff"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "leph102.txt lines 96-150",
+   "concept": "leph.2.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential due to a point charge step by step",
+   "extracted_variables": {
+    "charge": "value of charge",
+    "distance": "value of distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute electric potential from point charge",
+     "explain": "use Coulomb constant k = 9e9 N m^2 / C^2 multiplied by charge and divided by distance",
+     "compute": "potential = 9000000000 * charge / distance"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "leph102.txt lines 151-225",
+   "concept": "leph.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential due to an electric dipole step by step",
+   "extracted_variables": {
+    "dipole_moment": "value of dipole_moment",
+    "cos_theta": "value of cos_theta",
+    "distance": "value of distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the dipole potential",
+     "explain": "multiply Coulomb constant by dipole moment and cosine of angle, divided by distance squared",
+     "compute": "potential = 9000000000 * dipole_moment * cos_theta / (distance ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "leph102.txt lines 226-285",
+   "concept": "leph.2.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential due to a system of charges and superposition step by step",
+   "extracted_variables": {
+    "sum_charge_over_dist": "value of sum_charge_over_dist"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate potential contribution from each charge",
+     "explain": "compute individual potentials using k * q / r and sum them up",
+     "compute": "total_potential = 9000000000 * sum_charge_over_dist"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "leph102.txt lines 286-340",
+   "concept": "leph.2.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute equipotential surfaces and electric field relation step by step",
+   "extracted_variables": {
+    "delta_v": "value of delta_v",
+    "delta_l": "value of delta_l"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric field magnitude from potential difference and separation",
+     "explain": "electric field magnitude equals potential difference divided by normal separation",
+     "compute": "field_mag = abs(delta_v) / delta_l"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "leph102.txt lines 341-435",
+   "concept": "leph.2.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential energy of a system of charges step by step",
+   "extracted_variables": {
+    "charge1": "value of charge1",
+    "charge2": "value of charge2",
+    "separation": "value of separation"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute electrostatic potential energy of two charges",
+     "explain": "multiply Coulomb constant with the product of charges divided by their separation",
+     "compute": "potential_energy = 9000000000 * charge1 * charge2 / separation"
+    },
+    {
+     "step": 2,
+     "action": "find work required to separate charges to infinity",
+     "explain": "work done to separate charges completely is the negative of the bound potential energy",
+     "compute": "work_separate = 0 - potential_energy"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "leph102.txt lines 436-520",
+   "concept": "leph.2.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential energy of a dipole in an external field step by step",
+   "extracted_variables": {
+    "dipole_moment": "value of dipole_moment",
+    "electric_field": "value of electric_field",
+    "cos_theta_0": "value of cos_theta_0",
+    "cos_theta_1": "value of cos_theta_1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial potential energy",
+     "explain": "potential energy is negative dipole moment times electric field times cos of initial angle",
+     "compute": "u_initial = 0 - dipole_moment * electric_field * cos_theta_0"
+    },
+    {
+     "step": 2,
+     "action": "calculate final potential energy",
+     "explain": "potential energy at final angle",
+     "compute": "u_final = 0 - dipole_moment * electric_field * cos_theta_1"
+    },
+    {
+     "step": 3,
+     "action": "find difference or work done",
+     "explain": "change in energy equals final minus initial energy",
+     "compute": "delta_u = u_final - u_initial"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "leph102.txt lines 611-730",
+   "concept": "leph.2.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute parallel plate capacitor step by step",
+   "extracted_variables": {
+    "area": "value of area",
+    "separation": "value of separation",
+    "voltage": "value of voltage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate capacitance of parallel plate capacitor",
+     "explain": "multiply permittivity of free space by plate area and divide by plate separation",
+     "compute": "capacitance = 0.000000000008854 * area / separation"
+    },
+    {
+     "step": 2,
+     "action": "calculate charge on the capacitor",
+     "explain": "multiply capacitance by voltage across the plates",
+     "compute": "charge = capacitance * voltage"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "leph102.txt lines 731-830",
+   "concept": "leph.2.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute dielectric insertion in capacitors step by step",
+   "extracted_variables": {
+    "initial_capacitance": "value of initial_capacitance",
+    "dielectric_constant": "value of dielectric_constant",
+    "dist_reduction_factor": "value of dist_reduction_factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute modified capacitance with dielectric and new geometry",
+     "explain": "scale base capacitance by dielectric constant and inverse of plate separation factor",
+     "compute": "new_capacitance = initial_capacitance * dielectric_constant * dist_reduction_factor"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "leph102.txt lines 831-950",
+   "concept": "leph.2.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute combinations of capacitors step by step",
+   "extracted_variables": {
+    "single_capacitance": "value of single_capacitance",
+    "num_series": "value of num_series",
+    "cap_a": "value of cap_a",
+    "cap_b": "value of cap_b",
+    "cap_c": "value of cap_c"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate equivalent capacitance for series combination",
+     "explain": "for n identical capacitors in series, divide single capacitance by number of capacitors",
+     "compute": "c_series = single_capacitance / num_series"
+    },
+    {
+     "step": 2,
+     "action": "calculate equivalent capacitance for parallel combination",
+     "explain": "sum individual capacitances",
+     "compute": "c_parallel = cap_a + cap_b + cap_c"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "leph102.txt lines 951-1055",
+   "concept": "leph.2.12",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute electrostatic energy stored in a capacitor and energy density step by step",
+   "extracted_variables": {
+    "capacitance": "value of capacitance",
+    "voltage": "value of voltage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate stored electrostatic energy",
+     "explain": "stored energy equals one half times capacitance times voltage squared",
+     "compute": "stored_energy = 0.5 * capacitance * (voltage ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate energy loss on connecting to identical uncharged capacitor",
+     "explain": "common potential becomes half and final total energy becomes half of initial stored energy",
+     "compute": "energy_lost = stored_energy * 0.5"
+    }
+   ]
+  },
+  {
+   "id": "exauto12",
+   "source_ref": "leph102.txt lines 15-95",
+   "concept": "leph.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute electrostatic potential and potential difference step by step",
+   "extracted_variables": {
+    "charge": "value of charge",
+    "potential_diff": "value of potential_diff"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate work done using charge and potential difference",
+     "explain": "work done equals the product of the magnitude of charge and the potential difference between the endpoints",
+     "compute": "work = charge * potential_diff"
+    }
+   ]
+  },
+  {
+   "id": "exauto13",
+   "source_ref": "leph102.txt lines 151-225",
+   "concept": "leph.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential due to an electric dipole step by step",
+   "extracted_variables": {
+    "dipole_moment": "value of dipole_moment",
+    "cos_theta": "value of cos_theta",
+    "distance": "value of distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the dipole potential",
+     "explain": "multiply Coulomb constant by dipole moment and cosine of angle, divided by distance squared",
+     "compute": "potential = 9000000000 * dipole_moment * cos_theta / (distance ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "exauto14",
+   "source_ref": "leph102.txt lines 226-285",
+   "concept": "leph.2.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute potential due to a system of charges and superposition step by step",
+   "extracted_variables": {
+    "sum_charge_over_dist": "value of sum_charge_over_dist"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate potential contribution from each charge",
+     "explain": "compute individual potentials using k * q / r and sum them up",
+     "compute": "total_potential = 9000000000 * sum_charge_over_dist"
+    }
+   ]
+  },
+  {
+   "id": "exauto15",
+   "source_ref": "leph102.txt lines 286-340",
+   "concept": "leph.2.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute equipotential surfaces and electric field relation step by step",
+   "extracted_variables": {
+    "delta_v": "value of delta_v",
+    "delta_l": "value of delta_l"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electric field magnitude from potential difference and separation",
+     "explain": "electric field magnitude equals potential difference divided by normal separation",
+     "compute": "field_mag = abs(delta_v) / delta_l"
+    }
+   ]
+  },
+  {
+   "id": "exauto16",
+   "source_ref": "leph102.txt lines 611-730",
+   "concept": "leph.2.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute parallel plate capacitor step by step",
+   "extracted_variables": {
+    "area": "value of area",
+    "separation": "value of separation",
+    "voltage": "value of voltage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate capacitance of parallel plate capacitor",
+     "explain": "multiply permittivity of free space by plate area and divide by plate separation",
+     "compute": "capacitance = 0.000000000008854 * area / separation"
+    },
+    {
+     "step": 2,
+     "action": "calculate charge on the capacitor",
+     "explain": "multiply capacitance by voltage across the plates",
+     "compute": "charge = capacitance * voltage"
+    }
+   ]
+  },
+  {
+   "id": "exauto17",
+   "source_ref": "leph102.txt lines 731-830",
+   "concept": "leph.2.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute dielectric insertion in capacitors step by step",
+   "extracted_variables": {
+    "initial_capacitance": "value of initial_capacitance",
+    "dielectric_constant": "value of dielectric_constant",
+    "dist_reduction_factor": "value of dist_reduction_factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute modified capacitance with dielectric and new geometry",
+     "explain": "scale base capacitance by dielectric constant and inverse of plate separation factor",
+     "compute": "new_capacitance = initial_capacitance * dielectric_constant * dist_reduction_factor"
+    }
+   ]
+  },
+  {
+   "id": "exauto18",
+   "source_ref": "leph102.txt lines 831-950",
+   "concept": "leph.2.11",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute combinations of capacitors step by step",
+   "extracted_variables": {
+    "single_capacitance": "value of single_capacitance",
+    "num_series": "value of num_series",
+    "cap_a": "value of cap_a",
+    "cap_b": "value of cap_b",
+    "cap_c": "value of cap_c"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate equivalent capacitance for series combination",
+     "explain": "for n identical capacitors in series, divide single capacitance by number of capacitors",
+     "compute": "c_series = single_capacitance / num_series"
+    },
+    {
+     "step": 2,
+     "action": "calculate equivalent capacitance for parallel combination",
+     "explain": "sum individual capacitances",
+     "compute": "c_parallel = cap_a + cap_b + cap_c"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "Exercise 2.1, page 79",
+   "questions": [
+    "Two charges 5 * 10^-8 C and -3 * 10^-8 C are located 16 cm apart. At what point(s) on the line joining the two charges is the electric potential zero? Take the potential at infinity to be zero."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "Exercise 2.2, page 79",
+   "questions": [
+    "A regular hexagon of side 10 cm has a charge 5 micro-C at each of its vertices. Calculate the potential at the centre of the hexagon."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "Exercise 2.3, page 79",
+   "questions": [
+    "Two charges 2 micro-C and -2 micro-C are placed at points A and B 6 cm apart. (a) Identify an equipotential surface of the system. (b) What is the direction of the electric field at every point on this surface?"
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "Exercise 2.4, page 79",
+   "questions": [
+    "A spherical conductor of radius 12 cm has a charge of 1.6 * 10^-7 C distributed uniformly on its surface. What is the electric field (a) inside the sphere (b) just outside the sphere (c) at a point 18 cm from the centre of the sphere?"
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "Exercise 2.5, page 79",
+   "questions": [
+    "A parallel plate capacitor with air between the plates has a capacitance of 8 pF. What will be the capacitance if the distance between the plates is reduced by half, and the space between them is filled with a substance of dielectric constant 6?"
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "Exercise 2.6, page 79",
+   "questions": [
+    "Three capacitors each of capacitance 9 pF are connected in series. (a) What is the total capacitance of the combination? (b) What is the potential difference across each capacitor if the combination is connected to a 120 V supply?"
+   ]
+  },
+  {
+   "id": "ex2.7",
+   "source_ref": "Exercise 2.7, page 79",
+   "questions": [
+    "Three capacitors of capacitances 2 pF, 3 pF and 4 pF are connected in parallel. (a) What is the total capacitance of the combination? (b) Determine the charge on each capacitor if the combination is connected to a 100 V supply."
+   ]
+  },
+  {
+   "id": "ex2.8",
+   "source_ref": "Exercise 2.8, page 79",
+   "questions": [
+    "In a parallel plate capacitor with air between the plates, each plate has an area of 6 * 10^-3 m^2 and the distance between the plates is 3 mm. Calculate the capacitance of the capacitor. If this capacitor is connected to a 100 V supply, what is the charge on each plate of the capacitor?"
+   ]
+  },
+  {
+   "id": "ex2.9",
+   "source_ref": "Exercise 2.9, page 80",
+   "questions": [
+    "Explain what would happen if in the capacitor given in Exercise 2.8, a 3 mm thick mica sheet (of dielectric constant = 6) were inserted between the plates, (a) while the voltage supply remained connected, (b) after the supply was disconnected."
+   ]
+  },
+  {
+   "id": "ex2.10",
+   "source_ref": "Exercise 2.10, page 80",
+   "questions": [
+    "A 12 pF capacitor is connected to a 50 V battery. How much electrostatic energy is stored in the capacitor?"
+   ]
+  },
+  {
+   "id": "ex2.11",
+   "source_ref": "Exercise 2.11, page 80",
+   "questions": [
+    "A 600 pF capacitor is charged by a 200 V supply. It is then disconnected from the supply and is connected to another uncharged 600 pF capacitor. How much electrostatic energy is lost in the process?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

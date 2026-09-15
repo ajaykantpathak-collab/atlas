@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_008",
+   "title": "c12_cs_cbse_11_008",
+   "questions": [
+    {
+     "q": "What is the correct way to create an empty set in Python, and why does `{}` not work?",
+     "a": "The correct way is `empty_set = set()`. `{}` creates an empty dictionary because curly braces without colons are reserved for set literals only when they contain at least one element; otherwise Python interprets them as a dictionary literal. A student who writes `s = {}` and then tries `s.add(1)` will get an `AttributeError: 'dict' object has no attribute 'add'`, revealing confusion between dict and set literal syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Given `s = {1, 2, 2, 3, 3, 3}`, what is `len(s)` and what does `s` contain? Explain why.",
+     "a": "`len(s)` is 3 and `s` contains `{1, 2, 3}`. Sets automatically eliminate duplicate values during creation because they store only unique elements. A student who answers 6 or `{1, 2, 2, 3, 3, 3}` is treating the set like a list and has not internalized the uniqueness property.",
+     "self_check": true
+    },
+    {
+     "q": "You have `attendees = {101, 102, 103}`. Write code to add student 104, then add students 105 and 106 in a single call, then remove 102 safely (no error if absent), and finally pop one arbitrary student. Show the final set after each step.",
+     "a": "Step-by-step:\n1. `attendees.add(104)` → `{101, 102, 103, 104}`\n2. `attendees.update([105, 106])` → `{101, 102, 103, 104, 105, 106}`\n3. `attendees.discard(102)` → `{101, 103, 104, 105, 106}` (no error even if 102 missing)\n4. `popped = attendees.pop()` → removes an arbitrary element, e.g., `{103, 104, 105, 106}` (actual element removed varies)\nA student using `remove(102)` instead of `discard` would crash if 102 were absent; using `add` for multiple elements shows misunderstanding of `update`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `remove()` and `discard()` when the element is not in the set. Then explain why `pop()` on an empty set raises `KeyError` while `clear()` does not.",
+     "a": "`remove(x)` raises `KeyError` if `x` is absent; `discard(x)` does nothing. `pop()` requires at least one element to remove and return, so it raises `KeyError` on an empty set. `clear()` simply empties the set and is defined to succeed even on an already-empty set (idempotent). A student who thinks `pop()` returns `None` on empty set or that `clear()` raises an error has not grasped the contract of each method.",
+     "self_check": true
+    },
+    {
+     "q": "A teammate argues: “Since sets are unordered, iterating over a set with a `for` loop will produce a different order every time you run the program.” Evaluate this claim and provide a correct statement.",
+     "a": "The claim is partially misleading. While sets are *conceptually* unordered and code must not depend on any specific order, CPython 3.7+ preserves insertion order as an implementation detail. However, the order can change after insertions/deletions and differs across Python implementations. The correct statement: “Sets do not guarantee any order; iteration order is arbitrary and may vary between runs, versions, or implementations. Never write logic that relies on a particular iteration order.” A student who says “order is random every run” overstates; one who says “order is fixed” is wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small program fragment that reads a list of roll numbers (with possible duplicates) from input, stores only the unique ones in a set, and prints the count of unique students. Then extend it to also print the roll numbers in sorted order.",
+     "a": "```python\nrolls = list(map(int, input(\"Enter roll numbers: \").split()))\nunique = set(rolls)          # deduplicate\nprint(\"Unique count:\", len(unique))\nprint(\"Sorted rolls:\", sorted(unique))\n```\nA good answer uses `set()` constructor for deduplication and `sorted()` to produce a list in ascending order (since sets have no order). A poor answer tries to sort the set in-place (`unique.sort()` fails) or uses a list and manual duplicate removal, missing the purpose of sets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_011",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_011",
+   "title": "c7_physics_ch02_011",
+   "questions": [
+    {
+     "q": "What is the primary purpose of inserting an unknown solid object into the gap of a testing circuit containing a battery and a bulb?",
+     "a": "The purpose is to determine if the material allows electric current to flow through it by observing whether the bulb lights up. A wrong answer often reveals the misconception that the object itself supplies power to the bulb rather than simply completing or blocking the path for the battery's current.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the metal terminals of the testing wires be pressed directly against the clean surface of the material being tested rather than its painted or rusted outer layer?",
+     "a": "Paint, rust, and dirt act as insulating layers that block the flow of electric current, even if the underlying material is a good conductor like iron. A wrong answer shows that the student does not realize surface conditions can alter electrical contact and falsely label a metal object as an insulator.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests a 10 cm long plastic ruler, an iron nail, and a wooden toothpick in a circuit with a 3 V cell and a small bulb. The bulb glows only when the iron nail is placed across the gap. If the resistance of the iron nail is considered negligible, what can be concluded about the plastic ruler and wooden toothpick?",
+     "a": "Both the plastic ruler and wooden toothpick are electrical insulators because they prevent the electric current from completing the circuit, keeping the bulb unlit. A wrong answer indicates confusion between materials that permit electron flow and those that trap electrons, failing to link the unlit bulb to high resistance.",
+     "self_check": true
+    },
+    {
+     "q": "If a glowing LED in a conductivity tester shines very dimly when testing a moist wooden stick, what does this indicate compared to testing a dry copper wire where the LED shines brightly?",
+     "a": "The dim glow indicates that moist wood permits a very weak electric current to pass through due to dissolved impurities and moisture, whereas copper allows a strong current. A wrong answer suggests the student thinks materials are only strictly \"conductors\" or \"insulators\" with no middle ground, ignoring partial conductivity caused by moisture.",
+     "self_check": true
+    },
+    {
+     "q": "An electrician needs to test whether a thick rubber glove has any tiny pinhole cracks that might let electricity through. Can the simple bulb-and-cell tester be used directly to test the rubber glove's safety for high-voltage household wiring (220 V)?",
+     "a": "No, a low-voltage 3 V cell tester cannot detect whether a rubber glove is safe for 220 V high voltage because high voltage can jump small gaps or break down insulation that blocks a weak 3 V current. A wrong answer shows a failure to understand that insulation breakdown depends on the magnitude of the voltage applied across it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple testing procedure using everyday classroom items to prove whether ordinary tap water conducts electricity while pure distilled water does not.",
+     "a": "To test this, set up a tester circuit with a battery, a bulb, and two free wire ends. Dip the free wire ends into a beaker of distilled water (the bulb will not glow). Then, dissolve a pinch of common salt into the water or use tap water and dip the wires again; the bulb will glow, proving that dissolved minerals enable water to conduct electricity. A poor answer fails to include a control substance or forgets to mention dissolved minerals as the current carrier.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

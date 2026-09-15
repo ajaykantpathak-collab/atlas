@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_001",
+   "title": "c10_chem_cbse_05_001",
+   "questions": [
+    {
+     "q": "State Dobereiner's triad rule for the atomic masses of three elements X, Y, Z arranged in increasing order of atomic mass.",
+     "a": "The atomic mass of the middle element Y is approximately the average of the atomic masses of X and Z: Atomic mass of Y ≈ (Atomic mass of X + Atomic mass of Z)/2.  \nA wrong answer (e.g., \"Y = X + Z\" or \"atomic numbers average\") reveals the student confuses the averaging rule with simple addition or misapplies atomic number instead of atomic mass.",
+     "self_check": true
+    },
+    {
+     "q": "The elements sulphur (S, atomic mass 32), selenium (Se, atomic mass 79), and tellurium (Te, atomic mass 128) have similar properties. Do they form a Dobereiner's triad? Justify with calculation.",
+     "a": "Average of S and Te = (32 + 128)/2 = 80. Atomic mass of Se = 79. Since 79 ≈ 80, they form a triad.  \nA wrong answer (e.g., \"No, because 79 ≠ 80 exactly\") reveals the student misses the word \"approximately\" in the definition and expects exact equality, a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Given the triad: Lithium (7), Sodium (A), Potassium (39). Calculate the atomic mass A of sodium that satisfies Dobereiner's rule.",
+     "a": "Step 1: Write rule: A = (7 + 39)/2.  \nStep 2: Add: 7 + 39 = 46.  \nStep 3: Divide: 46/2 = 23.  \nStep 4: Answer: A = 23 u.  \nA wrong answer (e.g., 46 or 16) reveals arithmetic error or using difference instead of average.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the triads (Li, Na, K) and (Ca, Sr, Ba). What common feature in their chemical behaviour allowed Dobereiner to group them, and how does the atomic mass trend support this?",
+     "a": "Both triads contain elements of the same group (alkali metals and alkaline earth metals) showing similar reactivity (e.g., all react with water to give alkaline solutions). The atomic mass increases down each triad and the middle element's mass is the average, hinting at a periodic pattern.  \nA wrong answer focusing only on \"they are metals\" without linking to group-wise similarity shows the student hasn't connected triads to vertical group relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Dobereiner's triads work for all elements because atomic mass always increases regularly.\" Evaluate this statement.",
+     "a": "The statement is false. Dobereiner could identify only three triads (Li-Na-K, Ca-Sr-Ba, Cl-Br-I) out of the 50+ known elements. For most elements (e.g., Fe, Co, Ni; Cu, Ag, Au) no such triad exists. The \"regular increase\" is not universal.  \nA wrong answer accepting the claim reveals the student overlooks the historical limitation that triads covered < 10% of known elements — a key board-exam limitation point.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-sorting activity using 20 element cards (symbol, atomic mass, one key property) to help a Class 9 student discover Dobereiner's triads themselves.",
+     "a": "Cards: Li(7, reacts vigorously with water), Na(23, reacts vigorously), K(39, reacts vigorously), Ca(40, reacts slowly), Sr(88, reacts slowly), Ba(137, reacts slowly), Cl(35.5, gas), Br(80, liquid), I(127, solid) plus 11 distractors.  \nInstruction: \"Group cards by similar property, then order each group by atomic mass. Check if middle mass ≈ average of extremes.\"  \nA poor answer (e.g., \"sort by atomic mass only\") misses the property-similarity prerequisite, showing the student doesn't grasp that chemical similarity comes first, numerical pattern second.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

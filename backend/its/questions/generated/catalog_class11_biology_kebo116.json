@@ -1,0 +1,120 @@
+{
+ "catalog": "catalog_class11_biology_kebo116",
+ "concepts": [
+  {
+   "id": "kebo.116.1.1",
+   "title": "Nitrogenous Wastes and Modes of Excretion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nitrogenous Wastes and Modes of Excretion' refers to.",
+     "a": "Animals eliminate ammonia, urea or uric acid as nitrogenous wastes, and accordingly are classified as ammonotelic like most aquatic organisms, ureotelic like mammals and terrestrial amphibians, or uricotelic like reptiles, birds and insects that conserve water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nitrogenous Wastes and Modes of Excretion'.",
+     "a": "Ammonia is the most toxic form needing large water for elimination, uric acid is the least toxic and excreted as pellets, which explains why aquatic forms are ammonotelic while desert birds are uricotelic.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nitrogenous Wastes and Modes of Excretion' taught, and from which source text?",
+     "a": "16.1 Modes of Excretion (source: kebo116.txt section 16.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.2.1",
+   "title": "Human Excretory System and the Nephron",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Excretory System and the Nephron' refers to.",
+     "a": "The human excretory system has a pair of kidneys with about a million nephrons each, ureters, a urinary bladder and a urethra; each nephron has Bowman's capsule with a glomerulus, proximal convoluted tubule, loop of Henle, distal convoluted tubule and collecting duct, with cortical and juxtamedullary types.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Excretory System and the Nephron'.",
+     "a": "The juxtaglomerular apparatus of macula densa and juxtaglomerular cells regulates glomerular filtration, and malpighian corpuscles lie in the cortex while loops of Henle run into the medulla.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Human Excretory System and the Nephron' taught, and from which source text?",
+     "a": "16.2 Human Excretory System (source: kebo116.txt section 16.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.3.1",
+   "title": "Urine Formation: Glomerular Filtration Rate and Reabsorption",
+   "questions": [
+    {
+     "q": "How much blood do the kidneys filter per minute? Use the method 'Urine Formation: Glomerular Filtration Rate and Reabsorption'. Work with: blood_filtered = 6, gfr = 500. Carry the chain through step by step and give the final value of filtrate_percent.",
+     "a": "8333.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the percentage of filtrate reabsorbed per day. Use the method 'Urine Formation: Glomerular Filtration Rate and Reabsorption'. Work with: blood_filtered = 50, gfr = 360. Carry the chain through step by step and give the final value of filtrate_percent.",
+     "a": "720 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Urine Formation: Glomerular Filtration Rate and Reabsorption' refers to.",
+     "a": "Urine formation involves glomerular filtration where about 1200 ml of blood is filtered per minute producing a glomerular filtration rate of about 125 ml per minute or 180 litres per day, tubular reabsorption returning nearly 99 per cent of the filtrate, and tubular secretion; the final urine is only about 1.5 litres a day.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Urine Formation: Glomerular Filtration Rate and Reabsorption'.",
+     "a": "Comparing 180 litres of filtrate a day with 1.5 litres of urine shows that nearly 99 per cent of the filtrate is reabsorbed by the renal tubules, chiefly in the proximal convoluted tubule.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Urine Formation: Glomerular Filtration Rate and Reabsorption', in plain ASCII form.",
+     "a": "filtrate_percent = gfr / blood_filtered * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.4.1",
+   "title": "Counter Current Mechanism and Hormonal Control",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Counter Current Mechanism and Hormonal Control' refers to.",
+     "a": "The counter current mechanism of Henle's loop and the vasa recta, with the medullary gradient rising to about 1200 mOsmol per litre in the inner medulla, concentrates the filtrate, while ADH, aldosterone and the juxtaglomerular apparatus with renin regulate water and ion balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Counter Current Mechanism and Hormonal Control'.",
+     "a": "ADH increases water reabsorption from the collecting duct and aldosterone promotes sodium reabsorption, so small changes in their secretion adjust the volume and concentration of urine.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Counter Current Mechanism and Hormonal Control' taught, and from which source text?",
+     "a": "16.4 Counter Current Mechanism, 16.5 Regulation of Kidney Function (source: kebo116.txt sections 16.4, 16.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.116.5.1",
+   "title": "Micturition, Disorders of the Excretory System and Dialysis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Micturition, Disorders of the Excretory System and Dialysis' refers to.",
+     "a": "The neural signalling of micturition releases urine from the bladder when it is full, and disorders include uremia, renal calculi and glomerulonephritis; haemodialysis with a cellophane tube in dialysing fluid removes urea from the blood of uremic patients, and a kidney transplant is the ultimate remedy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Micturition, Disorders of the Excretory System and Dialysis'.",
+     "a": "In haemodialysis blood from an artery passes through cellophane tubes in dialysing fluid and is returned to a vein, clearing nitrogenous wastes that failed renal clearance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Micturition, Disorders of the Excretory System and Dialysis' taught, and from which source text?",
+     "a": "16.6 Micturition, 16.7 Disorders (source: kebo116.txt sections 16.6-16.8)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_11_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_11_014",
+   "title": "c11_eng_w_cbse_11_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student lacks the structural vocabulary for analytical writing and will likely produce disorganised responses that jump between plot summary and vague comments without anchoring each claim in the text.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The poem shows spring is coming because the light is yellow and the bird sings.\" Why is this answer insufficient for a Class 11 exam?",
+     "a": "The answer merely paraphrases literal content without analysing *how* the poet creates meaning. It misses the \"chill\" in the light, the metaphor \"foreheads of houses\", the synaesthesia of \"fresh-peeled voice\", and the thematic link to the speaker's childhood. A wrong diagnosis (e.g., \"it's too short\") shows the student confuses length with analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite this weak point: \"The speaker feels happy at the end.\" Turn it into a PEEL Point sentence that includes a thematic claim about the poem \"Coming\".",
+     "a": "Strong Point: \"Larkin presents the speaker's happiness as a sudden, involuntary regression to a childlike state, triggered by the spring evening's transformative atmosphere.\" Steps: 1) Identify the core emotion (happiness). 2) Add the poem's specific nuance (sudden, involuntary, childlike regression). 3) Name the cause (spring evening's atmosphere). 4) Use analytical vocabulary (\"presents\", \"triggered by\", \"transformative\"). A weak rewrite (\"The speaker becomes happy like a child\") stays at narrative level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two Evidence sentences for the same Point about the thrush: \nA) \"The thrush sings in the garden.\" \nB) \"Its fresh-peeled voice / Astonishing the brickwork.\"\nWhich is better and why?",
+     "a": "B is better because it quotes the exact metaphorical language (\"fresh-peeled voice\", \"astonishing the brickwork\") that carries the analytical weight. A only states plot action. A student choosing A reveals they think \"evidence\" means \"what happens\" rather than \"the specific words the poet chose to create effect\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this Explanation: \"The phrase 'fresh-peeled voice' means the bird's voice is new and clean like a peeled fruit.\" Is this a complete Explanation for Class 11?",
+     "a": "No. It identifies the simile but stops at paraphrase. A complete Explanation must discuss *effect*: \"The adjective 'fresh-peeled' transfers the tactile, olfactory freshness of exposed fruit flesh to an auditory experience, synaesthetically conveying the thrush's song as raw, vulnerable, and startlingly new—mirroring the unmediated perception of the child the speaker becomes.\" A student accepting the first version confuses labelling a device with analysing its function.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 2-sentence Link for an answer about the \"adult reconciling\" image that connects the simile to the poem's title \"Coming\".",
+     "a": "Effective Link: \"Just as the child cannot comprehend the 'unusual laughter' of reconciliation but feels its warmth, the speaker—though unable to articulate why—surrenders to the 'Coming' of spring, suggesting renewal arrives not through intellectual understanding but through bodily, pre-rational acceptance.\" A poor link (\"This shows the title is about spring coming\") merely restates the title without synthesising the argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

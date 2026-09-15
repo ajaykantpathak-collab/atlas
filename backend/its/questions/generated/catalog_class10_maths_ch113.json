@@ -1,0 +1,272 @@
+{
+ "catalog": "catalog_class10_maths_ch113.json",
+ "concepts": [
+  {
+   "id": "jemh.13.1",
+   "title": "Mean of Grouped Data - Direct Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 9, 5, 16, 15, 26.",
+     "a": "14.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 13, 22, 41, 45, 49 (already in increasing order).",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 12, 34. A seventh value 54 is added, making 7 values. Find the median of the 7 values.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 1 and 50. Find the median.",
+     "a": "25.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 3 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 17, 49, 18, 15.",
+     "a": "34",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.2",
+   "title": "Mean of Grouped Data - Assumed Mean Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 19, 6, 16, 2, 34.",
+     "a": "15.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 5, 10, 20, 26, 39 (already in increasing order).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 15, 26. A seventh value 41 is added, making 7 values. Find the median of the 7 values.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 17 and 42. Find the median.",
+     "a": "29.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 14, 47, 58, 6.",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.3",
+   "title": "Mean of Grouped Data - Step Deviation Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 15, 12, 8, 7, 34.",
+     "a": "15.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 5, 25, 41, 49 (already in increasing order).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 22, 40. A seventh value 51 is added, making 7 values. Find the median of the 7 values.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 20 and 55. Find the median.",
+     "a": "37.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 49, 7, 51, 28.",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.4",
+   "title": "Mode of Grouped Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 18, 10, 26, 33, 16.",
+     "a": "20.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 4, 9, 20, 21, 50 (already in increasing order).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 27, 36. A seventh value 50 is added, making 7 values. Find the median of the 7 values.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 13 and 58. Find the median.",
+     "a": "35.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 2 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 23, 40, 31, 33.",
+     "a": "17",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.5",
+   "title": "Median of Grouped Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 8, 22, 5, 24, 15.",
+     "a": "14.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 8, 11, 15, 23, 25 (already in increasing order).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 4, 37. A seventh value 44 is added, making 7 values. Find the median of the 7 values.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 4 and 48. Find the median.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 18, 56, 17, 57.",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.6",
+   "title": "Cumulative Frequency Curve (Ogive)",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 2 * 4 * 4 + 3 * 4 + 6 gives 50",
+     "compute": "val = 2 * 4 * 4 + 3 * 4 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 2x^2 + 3x + 6 as x approaches 4 (direct substitution).",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^3 is 6x^2. Find the derivative's value at x = 4.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 4x + 2, find the slope of the tangent at x = 3.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 4x + 2 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.1",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.13.7",
+   "title": "Relation Between Mean, Median, and Mode",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 35, 24, 10, 39, 27.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 10, 19, 22, 24, 50 (already in increasing order).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 25, 26. A seventh value 46 is added, making 7 values. Find the median of the 7 values.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 2 and 36. Find the median.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 1 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 57, 8, 23, 58.",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

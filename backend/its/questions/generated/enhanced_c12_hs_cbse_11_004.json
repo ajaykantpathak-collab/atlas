@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_004",
+   "title": "c12_hs_cbse_11_004",
+   "questions": [
+    {
+     "q": "A family decides to buy a new washing machine because their old one is making noise. They go to a store, see a model on discount, and buy it immediately without checking capacity, energy rating, or comparing prices online. Which step of the decision-making process did they completely skip?",
+     "a": "They skipped Step 2: Gather Information, and Step 3: Generate Alternatives. A wrong answer (e.g., \"they skipped implementation\") reveals the student confuses the sequence of steps or thinks buying is the first step. The correct identification shows understanding that information search and alternative generation must precede selection — a common board exam trap where students list steps but cannot map them to a scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Classify this decision: \"A family chooses to invest ₹50,000 from their savings in a Public Provident Fund (PPF) account for their child's higher education 12 years later.\" Is it routine, strategic, crisis, or technical? Justify your classification in two sentences.",
+     "a": "This is a strategic decision. It involves long-term resource allocation, goal alignment (education funding), significant financial commitment, and low reversibility — all hallmarks of strategic decisions. A wrong answer like \"routine\" or \"economic\" shows the student focuses only on the money aspect (economic) or frequency (routine) but misses the long-term goal-orientation and irreversibility that define strategic decisions. Board exams often ask for classification with justification — missing the \"why\" loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "During a sudden medical emergency, a family must decide whether to admit an elderly member to a private hospital (₹15,000/day) or a government hospital (₹500/day but longer wait). They have ₹40,000 in accessible savings and insurance covers 60% of private costs after 24 hours. Apply the first three steps of the decision-making process to this situation. Write the specific action for each step.",
+     "a": "Step 1 (Identify Problem): \"Secure immediate quality medical care for the elderly member within financial constraints of ₹40,000 accessible funds.\" Step 2 (Gather Information): \"Private hospital: ₹15,000/day × 60% insurance = ₹6,000/day out-of-pocket after 24h; Government hospital: ₹500/day but 6-hour wait; Condition severity allows 2-hour delay.\" Step 3 (Generate Alternatives): \"A) Admit to private hospital now, pay ₹15,000 day 1, ₹6,000 thereafter; B) Admit to government hospital now, transfer if needed; C) Stabilise at government hospital, move to private after insurance activates.\" A wrong answer that lists generic steps (\"find options\") without context-specific data shows inability to apply the framework — a key competency tested in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a routine decision (e.g., choosing tonight's dinner) and a strategic decision (e.g., deciding to sell the family car to fund a sibling's education) across these dimensions: time horizon, reversibility, information search intensity, and number of family members involved. Present as a 2×4 comparison table.",
+     "a": "| Dimension | Routine Decision (Dinner) | Strategic Decision (Sell Car) |\n|---|---|---|\n| Time Horizon | Immediate (hours) | Long-term (years) |\n| Reversibility | High (can cook differently tomorrow) | Low (car sold, money spent) |\n| Information Search | Low (what's in fridge, preferences) | High (car value, education costs, loan options, transport alternatives) |\n| Family Members Involved | 1-2 (cook, maybe one other) | All stakeholders (parents, sibling, possibly grandparents) |\n\nA wrong answer that swaps \"high/low\" for reversibility or says both involve \"all members\" reveals confusion between decision *impact* and decision *process*. This comparison is a favourite board exam \"distinguish between\" question — missing any dimension loses 1 mark each.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In family decision-making, the 'implement and review' step is optional — if the decision was made carefully, the outcome will be good.\" Defend or refute with two specific reasons from family management context.",
+     "a": "Refute. Reason 1: Implementation reveals hidden constraints (e.g., the chosen tuition centre has no transport, so the child misses classes — a review catches this). Reason 2: Family circumstances change (job loss, health issue) making the original decision suboptimal; review allows adaptation. A wrong answer that agrees (\"good planning prevents problems\") shows the student treats decision-making as a linear, one-time event rather than a cyclic, adaptive process. This misconception costs marks in \"evaluate\" questions where examiners expect recognition of feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new family decision scenario (3-4 sentences) that is a TECHNICAL decision — not economic, social, or crisis. Your scenario must require specialised knowledge to evaluate alternatives. Then list the specific technical information the family must gather in Step 2.",
+     "a": "Scenario: \"The family's 15-year-old roof develops leaks during monsoon. They must choose between patch repair (₹18,000), full re-roofing with clay tiles (₹1.2 lakh), or switching to metal roofing sheets (₹90,000). Each option has different lifespan, insulation, maintenance, and structural load implications.\" Step 2 Technical Information Needed: \"1) Current roof structure load-bearing capacity (kg/m²) to determine if metal sheets (lighter) or clay tiles (heavier) are feasible without reinforcement; 2) Thermal conductivity (W/m·K) of each material for indoor comfort; 3) Waterproofing rating and wind uplift resistance for local monsoon intensity; 4) Maintenance frequency and cost over 20-year lifecycle.\" A poor answer gives a non-technical scenario (e.g., choosing a school) or lists generic info (\"cost, durability\") without technical parameters — showing inability to distinguish technical decisions from economic ones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

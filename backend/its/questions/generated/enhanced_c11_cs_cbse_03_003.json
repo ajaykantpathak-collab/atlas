@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_003",
+   "title": "c11_cs_cbse_03_003",
+   "questions": [
+    {
+     "q": "What are the five essential characteristics that a set of instructions must satisfy to be considered an algorithm?",
+     "a": "The five characteristics are: (1) Finiteness - terminates after a finite number of steps, (2) Definiteness - each step is precisely and unambiguously defined, (3) Input - zero or more well-defined inputs, (4) Output - one or more well-defined outputs, (5) Effectiveness - each step is basic enough to be carried out by a human using only paper and pencil. A wrong answer listing \"loops,\" \"variables,\" or \"programming syntax\" reveals confusion between algorithm properties and programming constructs. A missing \"zero or more inputs\" reveals the common misconception that algorithms must always have inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this instruction set: \"To find the largest of three numbers: Step 1: Input three numbers. Step 2: Compare them. Step 3: Output the largest. Step 4: Stop.\" Does this qualify as an algorithm? Explain why or why not using the characteristics.",
+     "a": "No, it fails the Definiteness characteristic. Step 2 \"Compare them\" is ambiguous - it doesn't specify HOW to compare three numbers (pairwise? all at once? what logic sequence?). An algorithm requires each step to be unambiguously defined so any computing agent can execute it without interpretation. A student saying \"yes\" confuses high-level description with algorithmic precision. The fix: replace Step 2 with explicit comparisons like \"If a > b and a > c then max = a, else if b > c then max = b, else max = c.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write an algorithm to calculate the simple interest given principal (P), rate (R), and time (T). Ensure your algorithm satisfies all five characteristics. Trace it with P=5000, R=8%, T=2 years.",
+     "a": "Algorithm:\n1. Start\n2. Input P, R, T\n3. SI = (P × R × T) / 100\n4. Output SI\n5. Stop\n\nTrace: P=5000, R=8, T=2 → SI = (5000×8×2)/100 = 800. Output: 800.\nAll 5 characteristics satisfied: Finite steps (5), Definite (exact arithmetic formula), Inputs (P,R,T), Output (SI), Effective (basic arithmetic). A wrong answer might omit Start/Stop (finiteness), use vague steps like \"calculate interest\" (definiteness), or forget to divide by 100 (effectiveness - percentage conversion is not a single basic operation).",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two instruction sets for making tea:\nSet A: \"Boil water. Add tea leaves. Add sugar. Add milk. Boil again. Strain. Serve.\"\nSet B: \"Put 200ml water in pan. Heat on high flame for 3 minutes. Add 1 tsp tea leaves. Boil 2 minutes. Add 2 tsp sugar. Stir 10 seconds. Add 50ml milk. Boil 1 minute. Strain into cup.\"\nAnalyze which better satisfies algorithm characteristics and why.",
+     "a": "Set B better satisfies all characteristics, especially Definiteness (exact quantities, times, heat levels) and Effectiveness (each step is a basic action). Set A fails Definiteness (\"boil water\" - how much? how long?) and Effectiveness (\"add sugar\" - how much? what if no measuring spoon?). Set B's precision makes it executable by anyone, even a novice, without ambiguity. A student choosing Set A confuses \"recipe\" with \"algorithm\" - recipes are often ambiguous; algorithms cannot be. This mirrors the difference between pseudocode (Set B) and informal description (Set A).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"An algorithm must always have at least one input and at least one output.\" Evaluate this claim. Is it correct? Justify your answer with examples.",
+     "a": "The claim is partially incorrect. An algorithm MUST have at least one output (otherwise it serves no computational purpose), but it can have ZERO inputs. Example of zero-input algorithm: \"Generate a random number between 1-100\" - no input needed, but produces output. Another: \"Print 'Hello World'\" - no input, has output. A student agreeing with the claim misunderstands that the input characteristic allows \"zero or more\" inputs, not \"one or more\". This is a common textbook misconception stemming from only seeing input-processing-output examples.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real-world algorithm (not mathematical) for a daily task that a Class 11 student does. Write it in 8-10 steps. Then identify which step would most likely fail the Effectiveness characteristic if given to a robot, and explain how you would fix it.",
+     "a": "Example - Algorithm for packing school bag:\n1. Start\n2. Take empty bag\n3. Check timetable for tomorrow\n4. For each subject in timetable: place required textbook in bag\n5. Place completed homework notebook in bag\n6. Place pencil box in bag\n7. Place water bottle in side pocket\n8. Close bag zip\n9. Place bag near door\n10. Stop\n\nStep 3 \"Check timetable\" fails Effectiveness for a robot - it requires reading, interpreting a schedule, mapping subjects to books. Fix: Replace with \"Scan QR code on timetable card → retrieve digital subject list → for each subject code, fetch book ISBN from database → locate book by RFID tag.\" A poor answer gives a mathematical algorithm (missing \"real-world\" requirement) or identifies a trivial step like \"close zip\" as the problem, missing that physical manipulation is also non-effective for a non-embodied agent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

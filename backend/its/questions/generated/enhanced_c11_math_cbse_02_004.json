@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_004",
+   "title": "c11_math_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the definitions of domain, codomain, and range of a relation R from set A to set B.",
+     "a": "Domain(R) = set of all first elements of ordered pairs in R; Codomain(R) = B (the whole target set); Range(R) = set of all second elements of ordered pairs in R. A wrong answer (e.g., confusing codomain with range, or thinking domain is A) reveals the student has not internalized that the domain and range are derived from the relation itself, while the codomain is the pre-specified set B.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1,2,3}, B = {4,5,6,7}. Define R = {(1,4), (2,5), (3,4)}. A student claims the codomain of R is {4,5}. Why is this incorrect?",
+     "a": "The codomain is the entire set B = {4,5,6,7}, not just the elements that appear. The student confused codomain with range. The range is {4,5}. This error shows the student thinks codomain is \"what appears\" rather than the \"target set\" defined before the relation.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {−2, −1, 0, 1, 2}, B = {0, 1, 2, 3, 4}. Define R = {(x, y) ∈ A × B : y = x²}. Write R in roster form and find its domain, codomain, and range.",
+     "a": "R = {(−2,4), (−1,1), (0,0), (1,1), (2,4)}. Domain = {−2,−1,0,1,2} = A. Codomain = B = {0,1,2,3,4}. Range = {0,1,4}. A wrong answer (e.g., missing (−2,4) or saying domain is {0,1,2}) indicates the student cannot generate ordered pairs from a set-builder condition or does not understand that domain includes all first elements that actually appear.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two relations from A = {1,2,3} to B = {a,b,c}: R₁ = {(1,a), (2,b)} and R₂ = {(1,a), (2,b), (3,c)}. Compare their domains, codomains, and ranges. What does this tell you about the relationship between domain and the set A?",
+     "a": "R₁: Domain={1,2}, Range={a,b}, Codomain={a,b,c}. R₂: Domain={1,2,3}=A, Range={a,b,c}=B, Codomain={a,b,c}. The domain of a relation need not equal A; it equals A only if every element of A appears as a first element. This tests whether the student understands that a relation is any subset of A×B, so some elements of A may not be related to anything.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Let R = {(x, y) : x ∈ {1,2,3}, y ∈ {4,5}, x+y is even}. Find domain and range.\" The student writes: Domain = {1,2,3}, Range = {4,5}. Is this correct? Justify.",
+     "a": "Incorrect. R = {(1,5), (2,4), (3,5)}. Domain = {1,2,3} (correct by chance), Range = {4,5} (correct by chance). But the student's method is wrong: they assumed all elements of the given sets appear without checking the condition. The correct method requires listing pairs that satisfy the condition. This error reveals the student treats the defining sets as domain/range directly, ignoring the relation's rule.",
+     "self_check": true
+    },
+    {
+     "q": "Create a relation R from A = {Delhi, Mumbai, Chennai} to B = {10, 20, 30, 40} such that the domain has exactly 2 elements, the range has exactly 2 elements, and the codomain has 4 elements. Write R in roster form and state the three sets.",
+     "a": "Example: R = {(Delhi,10), (Mumbai,20)}. Domain = {Delhi, Mumbai}, Range = {10,20}, Codomain = {10,20,30,40}. A good answer shows the student can design a relation meeting constraints. A poor answer (e.g., using all three cities, or having range size 3) shows they cannot control the size of domain/range independently of the codomain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

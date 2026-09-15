@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_04_011",
+   "title": "c11_hist_cbse_04_011",
+   "questions": [
+    {
+     "q": "In which year did the Anarchy at Samarra begin, marking the start of effective Abbasid central authority collapse, and which Turkish guard commander first installed a puppet caliph?",
+     "a": "The Anarchy at Samarra began in 861 CE after the assassination of Caliph al-Mutawakkil; the Turkish commander Wasif al-Turki (along with Bugha al-Sharabi) installed al-Muntasir as puppet caliph. A wrong answer (e.g., citing 945 Buyid takeover or 1258 Mongol invasion) reveals confusion between the *start* of military dominance over the caliphate and its *final* political extinction, missing the century-long process of \"caliph as figurehead.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Abbasid Caliphs lost control over provincial revenue (kharaj) to regional governors, and how this fiscal crisis accelerated political fragmentation.",
+     "a": "The iqta' (tax-farm) system devolved revenue collection to military commanders who retained surplus locally instead of forwarding it to Baghdad; combined with the Zanj Rebellion (869–883) devastating Iraqi agriculture and the cost of Turkish guard salaries, the treasury emptied. A wrong answer focusing only on \"corruption\" or \"weak rulers\" misses the structural shift from a centralized diwan bureaucracy to a feudal-style military land-grant system that made provincial autonomy financially self-sustaining.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Buyid takeover of Baghdad (945) with the Seljuk takeover (1055): in what ways did each change the Caliph's actual authority, and how did the sectarian affiliation of the new protectors (Shi'a Buyids vs Sunni Seljuks) affect the Caliph's religious legitimacy?",
+     "a": "The Buyids (Shi'a) reduced the Caliph to a salaried pensioner, confined him to the palace, and controlled appointments — but kept him as symbolic head of state; the Seljuks (Sunni) restored the Caliph's ceremonial prestige and Friday sermon (khutba) authority, but real power remained with the Sultan. A wrong answer claiming either \"restored\" or \"destroyed\" the Caliphate entirely fails to distinguish between *political power* and *religious symbolism* — the Caliph became a \"spiritual figurehead\" under both, but the Seljuk era gave him greater *ideological* utility for Sunni unity.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Fatimid Caliphate (909–1171) in Egypt and the Umayyad Caliphate of Córdoba (929–1031) each challenged Abbasid *universal* claims, and why neither succeeded in replacing the Abbasids as the sole legitimate Caliphate across the Islamic world.",
+     "a": "The Fatimids (Isma'ili Shi'a) claimed descent from Fatima and Ali, directly contesting Abbasid lineage legitimacy; the Umayyads of Córdoba (Sunni) revived the pre-Abbasid dynasty's claim. Both failed to displace Abbasids because: (1) geographic distance limited enforcement of allegiance beyond their realms; (2) the Abbasid Caliph retained recognition in the Hijaz (Mecca/Medina), the symbolic heart of Islam; (3) Sunni legal schools (madhhabs) and the ulama largely upheld Abbasid legitimacy as the \"orthodox\" line. A wrong answer treating this as mere \"rivalry\" misses the theological-legal dimension: legitimacy in medieval Islam required *both* lineage *and* recognition by religious scholars.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that \"the Mongol destruction of Baghdad in 1258 was the decisive end of the Abbasid Caliphate.\" Use evidence from the survival of the Abbasid line in Cairo (1261–1517) and the continued use of Abbasid legitimacy by post-Mongol rulers (Ilkhanids, Mamluks, Delhi Sultans).",
+     "a": "1258 ended the *political* Abbasid Caliphate in Iraq, but the *institution* survived: the Mamluk Sultan Baybars installed a refugee Abbasid as Caliph in Cairo (1261), who provided legitimacy for Mamluk rule until the Ottoman conquest (1517). Meanwhile, Ilkhanid Mongols and Delhi Sultans continued citing Abbasid authority in coinage and khutba. A wrong answer treating 1258 as a clean break ignores the *symbolic continuity* of the office — the Caliphate became a portable legitimizing device, detached from territory, which shaped later Islamic political culture including the Ottoman claim.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline-map synthesis: plot the emergence of five major regional dynasties (Buyids, Seljuks, Fatimids, Ghaznavids, Umayyads of Córdoba) with their founding dates, capitals, and sectarian orientation. Then explain the pattern: why did political fragmentation *not* lead to cultural fragmentation in the Islamic world (900–1200)?",
+     "a": "Timeline-map: Buyids (945, Baghdad/Shiraz, Shi'a); Seljuks (1055, Isfahan, Sunni); Fatimids (909/969, Cairo, Isma'ili Shi'a); Ghaznavids (998, Ghazni, Sunni); Umayyads of Córdoba (929, Córdoba, Sunni). Cultural unity persisted because: (1) Arabic remained the language of law, theology, and science; (2) the Hajj and trade networks linked elites; (3) madhhabs (legal schools) operated across dynasties; (4) Persianate court culture spread from Ghazni to Delhi. A poor answer listing dynasties without the *mechanisms of integration* misses the central paradox: political decentralization coincided with *intensified* civilizational cohesion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

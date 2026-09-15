@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_003",
+   "title": "c11_soc_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the precise definition of sociology as a systematic and scientific study according to the NCERT textbook, including the three key criteria that distinguish it from common sense observation.",
+     "a": "Sociology is the study of human social life, groups, and societies that follows scientific canons of procedure where statements must be arrived at through observations of certain rules of evidence that allow others to check, repeat, or develop findings further. The three distinguishing criteria are: (1) empirical investigation based on observable evidence, (2) systematic methodology that can be replicated, and (3) theoretical frameworks that seek causal relationships rather than moral judgments. A wrong answer that only mentions \"study of society\" without the scientific criteria reveals the student conflates sociology with any social commentary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Peter Berger compares the sociologist to a \"spy\" and what this analogy reveals about the sociologist's relationship to values and ideology.",
+     "a": "Berger's spy analogy means the sociologist's primary professional obligation is to report social reality as accurately as possible, free from the ideology or ambitions of any group—including their own—just as a spy must report intelligence without bias to be useful. This does not mean the sociologist has no moral responsibility as a citizen; rather, the act of making value judgments about what *should* be is separate from the sociological act of discovering what *is*. A wrong answer claiming \"sociologists have no values\" or \"sociologists are neutral about everything\" reveals confusion between value-freedom in research (methodological) and value-neutrality as a person (impossible).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sociology is just common sense made complicated. Everyone knows joint families are breaking down in India—why do we need a sociologist to study this?\" Apply the distinction between naturalistic and sociological explanations to refute this claim using a concrete example.",
+     "a": "Step 1: Identify the common sense claim—\"joint families are breaking down because modern youth are selfish/individualistic\" (naturalistic/individualistic explanation).\nStep 2: Identify the sociological approach—examine structural factors: housing shortages in cities, migration for wage labour, changing inheritance laws, rising cost of elderly care, women's workforce participation.\nStep 3: Show how sociological explanation reveals *unsuspected connections*—e.g., the 2011 Census shows joint families *increased* in some urban areas due to housing costs, contradicting the \"breakdown\" narrative.\nStep 4: Conclude that common sense is unreflective (does not question its origins) while sociology systematically tests assumptions against evidence. A wrong answer that lists \"reasons for breakdown\" without contrasting *how* the explanation is constructed misses the epistemological distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the Enlightenment emphasis on reason and the Industrial Revolution's transformation of labour each contributed a distinct intellectual and material foundation for the emergence of sociology in Europe. Identify one way these two foundations interact in early sociological thought.",
+     "a": "The Enlightenment provided the *intellectual* foundation: the conviction that human society can be studied using reason and natural science methods (e.g., Comte's \"social physics\"), shifting poverty from a \"natural phenomenon\" to a \"social problem\" amenable to study. The Industrial Revolution provided the *material* foundation: it created new social realities (factory labour, urban slums, class conflict, clock-time discipline) that demanded explanation. Their interaction: early sociologists like Marx and Spencer used evolutionary models from biology (Darwin, influenced by Enlightenment science) to explain the *stages* of industrial society's development. A wrong answer that treats them as separate lists without showing how Enlightenment *methods* were applied to Industrial *problems* misses the dialectic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Indian sociology is merely an imitation of Western sociology because it uses Western concepts like 'class', 'bureaucracy', and 'modernization'.\" Use the NCERT's discussion of colonialism, the village studies debate, and the sociology/social anthropology distinction to justify your position.",
+     "a": "The claim is partially true in origin but false in practice. True: Indian sociology emerged in colonial universities teaching Western curricula; early work (e.g., Ghurye) used Western frameworks. False: Indian sociologists critically adapted these tools. Three justifications: (1) The \"village studies\" debate (Srinivas vs. Dumont) showed Indian sociologists contesting Western portrayals of the Indian village as \"unchanging\"—revealing internal dynamics of caste, faction, and economy. (2) The sociology/social anthropology distinction *collapsed* in India because, as Srinivas noted, \"the other can be encountered literally next door\"—Indian sociologists studied both modern factories and tribal communities using mixed methods. (3) Concepts like \"Sanskritization\" and \"dominant caste\" are indigenous theoretical contributions now used globally. A wrong answer that only says \"Indian sociology is different\" without specific intellectual evidence shows uncritical nationalism; one that says \"it's all borrowed\" ignores post-colonial reflexivity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-world scenario involving a contemporary Indian social issue (e.g., gig economy workers, digital education divide, caste-based matrimonial apps) where a naturalistic explanation and a sociological explanation would diverge sharply. Write both explanations in 3-4 sentences each.",
+     "a": "Scenario: A food-delivery platform worker dies in a road accident while rushing to meet a 10-minute delivery guarantee.\nNaturalistic explanation: \"He was reckless and valued money over safety. Poor people take risks because they lack discipline and long-term thinking.\"\nSociological explanation: \"The platform's algorithmic management structures time as a scarce commodity; the 10-minute guarantee creates a piece-rate system where each minute of delay risks deactivation (loss of livelihood). The worker bears all risk (vehicle, fuel, insurance) while the platform bears none. This is not individual recklessness but a structural transfer of risk from capital to labour, shaped by labour law exemptions for 'partners' not 'employees'.\"\nA poor answer offers only a \"sociological\" description without contrasting the *logic* of the two explanations, missing the core distinction: naturalistic explanations locate cause in individual traits; sociological explanations locate cause in structural arrangements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

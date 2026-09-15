@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_006",
+   "title": "c12_bio_cbse_12_006",
+   "questions": [
+    {
+     "q": "Define a transgenic animal and give one specific example from the NCERT textbook with the product it produces.",
+     "a": "A transgenic animal carries a stably integrated foreign gene (transgene) in its genome that is expressed and heritable. NCERT example: **Rosie the cow** — transgenic for human α‑lactalbumin gene, producing milk enriched with human α‑lactalbumin (2.4 g/L) that is nutritionally closer to human breast milk.  \n**Wrong answer reveals:** Student confuses transgenic animals with cloned animals (e.g., Dolly) or thinks the foreign protein is simply injected into the animal. They miss that the *gene* is integrated into the host DNA and transmitted to offspring.",
+     "self_check": true
+    },
+    {
+     "q": "Why are transgenic mammals (e.g., goats, cows) preferred over *E. coli* for producing therapeutic human proteins like Factor VIII or erythropoietin (EPO)?",
+     "a": "Mammalian cells perform essential **post‑translational modifications** — N‑linked glycosylation, γ‑carboxylation, correct disulfide bond formation, and proteolytic processing — that are required for the biological activity, serum half‑life, and immunogenicity profile of many human glycoproteins. *E. coli* lacks the ER‑Golgi machinery for glycosylation and often forms insoluble inclusion bodies requiring inefficient refolding.  \n**Wrong answer reveals:** Student thinks it is only about yield or cost, or claims bacteria *can* glycosylate proteins. They fail to link the absence of Golgi apparatus in prokaryotes to the loss of protein function.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company wants to produce human **antithrombin III** (a glycosylated serine protease inhibitor) for clinical use. They have the human cDNA. Should they express it in *E. coli* or create a transgenic goat expressing it in milk? Justify your choice with three specific biochemical reasons.",
+     "a": "**Choose transgenic goat.**  \n1. **Glycosylation:** Antithrombin III requires specific N‑glycans for its anticoagulant activity and circulatory half‑life; goats perform complex mammalian glycosylation, *E. coli* does not.  \n2. **Secretion & folding:** The mammary gland secretory pathway (ER → Golgi → secretory vesicles) ensures correct disulfide bonding and folding; bacterial cytoplasm is reducing and lacks chaperones for complex eukaryotic proteins.  \n3. **Purification from milk:** Milk provides a relatively clean starting matrix; the protein is secreted into the lumen, avoiding intracellular proteases and endotoxin contamination inherent in bacterial lysates.  \n**Wrong answer reveals:** Student selects *E. coli* citing \"faster growth\" or \"higher yield\" without addressing the *functional* requirement for glycosylation. They do not understand that incorrect glycosylation renders the therapeutic ineffective or immunogenic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **Oncomouse** (Harvard mouse carrying a human oncogene) and **transgenic mice expressing the human poliovirus receptor (CD155)** used for oral polio vaccine (OPV) testing. What is the common experimental principle, and how do the *read‑outs* differ?",
+     "a": "**Common principle:** Both use transgenic mice as **in vivo models of human molecular pathology** — the introduced human gene recreates a human‑specific molecular interaction (oncogenic signaling or viral receptor binding) in a tractable mammalian system.  \n**Different read‑outs:**  \n- Oncomouse: **Tumor incidence, latency, and histopathology** — tests if the oncogene drives carcinogenesis.  \n- CD155 mice: **Neurovirulence/paralysis after oral challenge** — tests if vaccine strains have lost neurovirulence (safety) or if challenge virus causes disease (efficacy).  \n**Wrong answer reveals:** Student thinks both are for \"drug production\" or says the read‑out is \"protein yield\" in both cases. They miss that one models *cancer development* and the other models *viral pathogenesis/vaccine safety*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"Transgenic animal models can completely replace human clinical trials for testing drug efficacy and safety.\"*",
+     "a": "**False.** Transgenic animals are **predictive models**, not surrogates.  \n- **Species differences:** Immune system, metabolism, drug targets, and physiology differ (e.g., mouse CYP450 isoforms ≠ human).  \n- **Genetic background effects:** Transgene expression varies with insertion site and mouse strain; human populations are genetically heterogeneous.  \n- **Regulatory requirement:** ICH guidelines mandate **non‑clinical (animal) → Phase I/II/III human trials**; transgenic animals refine pre‑clinical safety (e.g., hERG cardiotoxicity in rabbits) but cannot capture human‑specific adverse events (e.g., TGN1412 cytokine storm).  \n**Wrong answer reveals:** Student agrees, overestimating model fidelity. They confuse \"humanized\" models (e.g., human immune system mice) with complete physiological equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transgenic mouse model to study **cystic fibrosis (CF)** caused by the ΔF508 mutation in the *CFTR* gene. Outline: (a) the genetic construct, (b) the method to introduce the exact point mutation, (c) the expected phenotype, and (d) one limitation of this model.",
+     "a": "**(a) Construct:** Mouse *Cftr* genomic locus (or human *CFTR* cDNA) with the **ΔF508 deletion** (3‑bp deletion removing Phe508) knocked into the endogenous mouse *Cftr* locus via homologous recombination in ES cells, preserving native promoter/enhancers for physiological expression pattern.  \n**(b) Method:** CRISPR/Cas9 with a single‑guide RNA targeting exon 10 + a single‑stranded DNA donor template carrying ΔF508 and silent restriction site for screening.  \n**(c) Phenotype:** Thickened mucus in airways/gut, defective chloride transport in nasal epithelium (transepithelial potential difference), pancreatic insufficiency, male infertility — mimicking human CF.  \n**(d) Limitation:** Mice do not spontaneously develop the severe **lung infections/inflammation** seen in humans because of differences in airway biology (e.g., submucosal glands, alternative chloride channels like CaCC).  \n**Poor answer reveals:** Student suggests \"injecting the mutant protein\" or \"adding the human gene randomly\" without targeting the endogenous locus, and cannot name a specific physiological difference between mouse and human airways.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

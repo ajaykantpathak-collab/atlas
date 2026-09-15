@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_004",
+   "title": "c7_chem_ch01_004",
+   "questions": [
+    {
+     "q": "What type of sound do metals typically produce when struck with a hard object, and what is this property called?",
+     "a": "Metals produce a ringing or resonant sound when struck, and this property is called sonority. If a student answers that metals produce a dull sound, it reveals a confusion between the properties of metals and non-metals, as non-metals like sulfur or coal make dull thuds rather than ringing sounds.",
+     "self_check": true
+    },
+    {
+     "q": "Why does striking a wooden block produce a dull thud, while striking an iron rod produces a ringing sound?",
+     "a": "A wooden block is composed of non-metal molecules and fibers that absorb the impact energy and dampen vibrations, preventing clear sound waves from forming. In contrast, an iron rod has a rigid metallic lattice structure that transmits vibrational energy efficiently, creating a sustained ringing sound. A wrong answer shows a lack of understanding regarding how internal atomic or molecular structures affect energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A school principal wants to replace the old school bell. They are considering an iron plate and a block of compressed plastic. Which material should they choose to ensure the bell can be heard clearly across the school grounds, and why?",
+     "a": "Steps to solve:\n1. Identify the two materials: iron (metal) and compressed plastic (non-metal/polymer).\n2. Recall the property of sonority: metals are sonorous and produce ringing sounds when struck, whereas most non-metals/plastics are non-sonorous.\n3. Evaluate transmission of sound: iron transmits impact vibrations efficiently to create a loud, resonant wave.\n4. Conclude: Choose the iron plate.\nA wrong answer choosing plastic indicates that the student does not know that non-metals lack sonority and cannot serve as effective sounding objects.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"All solid objects in your kitchen, whether made of stainless steel or plastic, are equally sonorous because they are both hard solids.\" Is this statement scientifically valid? Explain why.",
+     "a": "The statement is completely invalid. Hardness alone does not guarantee sonority. While stainless steel is a hard metal with a tightly packed lattice that rings when struck, plastic is a hard polymer whose disordered molecular chains trap and dampen vibrational energy, making it non-sonorous. A wrong answer reveals the misconception that all hard materials share the same acoustic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate an experiment where a student strikes a piece of solid sulfur and a piece of copper wire with a hammer, noting that sulfur crumbles with a dull click while copper produces a ringing sound. The student concludes that copper is sonorous because it is a metal. Is this evaluation correct?",
+     "a": "The student's evaluation is correct. Sulfur is a non-metal that lacks a metallic lattice, so it cannot transmit vibrations efficiently and is non-sonorous. Copper is a transition metal with strong metallic bonding that readily transmits acoustic vibrations, confirming sonority. A wrong answer indicates confusion over elemental classifications and their physical characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom test using everyday items to demonstrate the difference in sonority between a metal spoon and a chalk stick, explaining what observations would confirm the property.",
+     "a": "To design the test, hang or hold both items freely in the air and gently tap each with a small wooden stick. The metal spoon will produce a clear, sustained ringing sound (sonorous), whereas the chalk stick will make a dull clicking sound or break without echoing (non-sonorous). A poor answer fails to isolate the objects or test them under equal conditions, showing a lack of experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

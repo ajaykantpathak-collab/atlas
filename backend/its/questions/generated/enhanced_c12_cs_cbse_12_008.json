@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_008",
+   "title": "c12_cs_cbse_12_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the Information Technology Act, 2000, and which amendment significantly expanded its scope to cover cyber terrorism and identity theft?",
+     "a": "The IT Act 2000 provides legal recognition for electronic commerce and electronic records, defines cyber offenses, and prescribes penalties. The Information Technology (Amendment) Act, 2008 greatly expanded its scope by adding provisions for cyber terrorism (Section 66F), identity theft (Section 66C), privacy violation (Section 66E), and intermediary liability (Section 79). A wrong answer that only mentions \"legal recognition of emails\" reveals the student has not grasped the Act's criminal law dimension; an answer naming the 2000 Act itself as the amendment shows confusion between the original Act and its amendment.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that Section 66A of the IT Act (punishment for sending offensive messages) is still valid law because it appears in the textbook. Explain why this claim is incorrect and what constitutional principle was applied by the Supreme Court.",
+     "a": "Section 66A was struck down in its entirety by the Supreme Court in *Shreya Singhal v. Union of India* (2015) as unconstitutional because it violated Article 19(1)(a) (freedom of speech and expression) and was vague, overbroad, and disproportionate. The Court held that \"offensive\" and \"annoying\" are subjective terms that could chill legitimate speech. A student who says \"it was amended\" or \"it is still valid but rarely used\" misunderstands the doctrine of judicial review: once a provision is declared unconstitutional, it is void ab initio and cannot be enforced.",
+     "self_check": true
+    },
+    {
+     "q": "A hacker gains unauthorized access to a company's server, copies the customer database, and sells it on the dark web. Identify the specific IT Act sections that apply to (a) unauthorized access, (b) data theft, and (c) dishonestly receiving stolen computer resource, and state the maximum penalty for each.",
+     "a": "(a) Unauthorized access: Section 66 (computer related offenses) — up to 3 years imprisonment and/or fine up to ₹5 lakh. (b) Data theft: Section 43(b) (penalty for downloading/copying data without permission) — compensation up to ₹1 crore (civil penalty); also Section 66B (dishonestly receiving stolen computer resource) — up to 3 years and/or ₹1 lakh. (c) Dishonestly receiving stolen computer resource: Section 66B — up to 3 years and/or ₹1 lakh. A wrong answer that cites only Section 43 (civil penalty) for all three shows the student cannot distinguish between civil compensation (Section 43) and criminal offenses (Section 66 series). Another error: citing Section 66A (struck down) for \"offensive messages\" instead of the correct sections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the liability of a social media platform (intermediary) under Section 79 of the IT Act before and after the 2008 amendment, and explain the \"safe harbour\" conditions it must satisfy to avoid liability for user-generated content.",
+     "a": "Before the 2008 amendment, intermediary liability was unclear and platforms could be held liable for third-party content. The 2008 amendment introduced Section 79, granting \"safe harbour\" protection: an intermediary is not liable for third-party information if (i) its role is limited to providing access to a communication system, (ii) it does not initiate the transmission, select the receiver, or modify the content, and (iii) it observes due diligence and follows government guidelines (e.g., IT Rules 2011/2021). A wrong answer that says \"platforms are never liable\" ignores the due diligence and takedown obligations; an answer that says \"platforms are always liable for user posts\" misses the entire purpose of safe harbour.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The IT Act 2000 gives the government unlimited power to intercept, monitor, and decrypt any digital communication without judicial oversight.\" Support your evaluation with specific sections and safeguards.",
+     "a": "The statement is false. Section 69 allows interception, monitoring, and decryption only by the competent authority (Secretary, Ministry of Home Affairs for central; Secretary, Home Department for states) and only for specified purposes (sovereignty, security, public order, etc.). The 2008 amendment added procedural safeguards: the order must be reviewed by a Review Committee (Cabinet Secretary, Law Secretary, Telecom Secretary) within 7 working days. Section 69A permits blocking of information only after following a defined procedure (notice to intermediary, hearing, etc.). Unlimited, warrantless surveillance would violate the right to privacy (Article 21) as affirmed in *K.S. Puttaswamy v. Union of India* (2017). A student who agrees with the statement confuses the broad statutory language with the constitutional and procedural checks that limit it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical cyber incident scenario involving at least three distinct offenses under the IT Act (e.g., ransomware attack, privacy violation, and cyber terrorism). For each offense, name the applicable section, the maximum penalty, and one practical step a victim organization should take immediately.",
+     "a": "Scenario: A hospital's network is hit by ransomware (WannaCry variant) that encrypts patient records and demands Bitcoin. The attacker also exfiltrates patient data and threatens to publish it unless a second ransom is paid. Investigation reveals the attacker is part of a group targeting critical infrastructure to destabilize healthcare services.\nOffenses & Sections:\n1. Ransomware (unauthorized access + data encryption + extortion): Section 66 (hacking) + Section 66F (cyber terrorism, if intent to threaten unity/integrity/security) — max penalty: life imprisonment under 66F; 3 years + fine under 66.\n2. Privacy violation (exfiltration of sensitive health data): Section 66E (violation of privacy) — max 3 years + ₹2 lakh; also Section 72A (disclosure in breach of lawful contract) — max 3 years + ₹5 lakh.\n3. Cyber terrorism (targeting critical infrastructure): Section 66F — max life imprisonment.\nImmediate steps: (i) Isolate affected systems, engage CERT-In for incident response (mandatory under Section 70B). (ii) File FIR under relevant IT Act sections and IPC. (iii) Notify affected patients and data protection authority (as per DPDP Act 2023, though not in IT Act).\nA poor answer lists only one section for all offenses or omits the mandatory CERT-In reporting, showing lack of synthesis across the Act's provisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

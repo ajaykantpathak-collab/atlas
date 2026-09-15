@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_11_002",
+   "title": "c12_eng_f_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the primary structural feature that divides \"Keeping Quiet\" into distinct sections, and how many such sections are there?",
+     "a": "The poem is divided into five stanzas of varying lengths. A wrong answer (e.g., \"four stanzas\" or \"it has no stanzas, it's free verse so structure doesn't matter\") reveals the student hasn't visually mapped the poem's layout or confuses free verse with lack of structure. Free verse still uses stanza breaks as structural units.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the focus of the poem shifts from the first stanza to the last stanza.",
+     "a": "The poem moves from a personal, immediate instruction (\"count to twelve\", \"keep still\") to a universal vision of humanity pausing together, then to a critique of destructive activities (wars, environmental harm), and finally to a reflective conclusion where the poet steps back (\"Now I'll count up to twelve / and you keep quiet and I will go\"). A wrong answer that only describes the first and last lines without the middle expansion shows the student sees the poem as circular but misses the widening scope — a common error where students treat the poem as a simple loop rather than an expanding spiral.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"enjambment\" to the transition between the second and third stanzas. How does the run-on line affect the reading pace and the poem's argument?",
+     "a": "The second stanza ends with \"and not move our arms so much\" and the third begins \"It would be an exotic moment\". The enjambment pulls the reader forward without a pause, mimicking the continuity of the \"moment\" described — the silence flows into its description. A student who says \"enjambment makes it faster\" misses the nuance: here it creates a seamless flow that reinforces the idea of an unbroken, shared silence. The error is treating enjambment as a generic speed-up tool rather than a meaning-making device.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the effect of the varying stanza lengths in \"Keeping Quiet\". Why might Neruda use a single-line stanza (stanza 4) between longer stanzas?",
+     "a": "The single-line stanza (\"If we were not so single-minded / about keeping our lives moving\") acts as a structural caesura — a deliberate pause that isolates the critique of modern busyness. Its brevity forces the reader to stop, mirroring the \"sudden strangeness\" the poem describes. A wrong answer (\"it's just a short stanza\") fails to connect form to content. The misconception is that stanza length is arbitrary; in fact, the short stanza enacts the \"interruption\" the poem advocates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the poem's structure supports its anti-war message effectively. Could the same message be conveyed in a different structure (e.g., a sonnet)?",
+     "a": "The free-verse, expanding structure mirrors the organic, unforced silence the poem celebrates — a rigid sonnet form would impose a \"human-made\" order that contradicts the poem's call to stop engineered violence. The structure *is* the argument. A student who says \"yes, any structure works\" reveals a misunderstanding of form-content unity. The error is treating structure as a container rather than an active participant in meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a three-stanza poem (4-6 lines each) that uses structural progression to argue for a simple daily practice (e.g., drinking water, stretching, greeting a neighbor). Use stanza breaks to show a shift from personal to communal to reflective.",
+     "a": "A strong answer will show: Stanza 1 = direct instruction to self; Stanza 2 = expands to others doing the same; Stanza 3 = reflection on the practice's deeper value. A poor answer writes three disconnected descriptions without progression, revealing the student hasn't internalized how structure builds argument. The key is the *shift* — each stanza must change the scope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

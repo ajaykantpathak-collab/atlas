@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class12_biology_ch109",
+ "concepts": [
+  {
+   "id": "lebo.109.1",
+   "title": "Definition and Scope of Biotechnology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Definition and Scope of Biotechnology' refers to.",
+     "a": "The application of biological systems, organisms, or their components to develop both products and services for human benefit, integrating traditional processes with modern molecular techniques.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Definition and Scope of Biotechnology'.",
+     "a": "Integration of natural both sciences and molecular biology for practical applications.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Definition and Scope of Biotechnology', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.2",
+   "title": "Core Principles of Modern Biotechnology",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Core Principles of Modern Biotechnology' refers to.",
+     "a": "The two fundamental pillars\u2014genetic engineering and bioprocess engineering\u2014that enable the creation and large-scale manufacturing of biotechnological products.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Core Principles of Modern Biotechnology'.",
+     "a": "Altering genetic material and maintaining sterile conditions for mass production.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Core Principles of Modern Biotechnology', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.3",
+   "title": "Restriction Endonucleases",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Restriction Endonucleases' refers to.",
+     "a": "Molecular scissors that read a specific palindromic stretch of double-stranded DNA and slice each backbone at a set point within it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Restriction Endonucleases'.",
+     "a": "Molecular scissors that cut DNA at specific recognition sites, often leaving sticky ends.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Restriction Endonucleases', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.4",
+   "title": "Gel Electrophoresis and Elution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gel Electrophoresis and Elution' refers to.",
+     "a": "A technique used to separate negatively charged DNA fragments by size using an electric field through an agarose gel matrix, followed by extraction of the desired band.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gel Electrophoresis and Elution'.",
+     "a": "Sieving effect of agarose separates DNA fragments; smaller fragments move faster toward the anode.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gel Electrophoresis and Elution', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.5",
+   "title": "Cloning Vectors and Selection of Recombinants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cloning Vectors and Selection of Recombinants' refers to.",
+     "a": "DNA molecules used as vehicles to transfer foreign genetic material into another cell, containing essential features like an origin of replication, selectable markers, and cloning sites.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cloning Vectors and Selection of Recombinants'.",
+     "a": "Vectors facilitate replication of foreign DNA and allow selection of both transformants and recombinants.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cloning Vectors and Selection of Recombinants', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.6",
+   "title": "Methods of Gene Transfer and Host Competence",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Methods of Gene Transfer and Host Competence' refers to.",
+     "a": "Techniques used to introduce recombinant DNA into host cells, including chemical treatment for competence, micro-injection, biolistics, and disarmed pathogens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Methods of Gene Transfer and Host Competence'.",
+     "a": "Overcoming the hydrophilic barrier of DNA to force entry into host cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Methods of Gene Transfer and Host Competence', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.7",
+   "title": "Isolation of Genomic DNA",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Isolation of Genomic DNA' refers to.",
+     "a": "The process of breaking open cells and removing macromolecules like RNA, proteins, and lipids to obtain highly purified DNA.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Isolation of Genomic DNA'.",
+     "a": "Enzymatic digestion of cell walls and membranes followed by selective precipitation of DNA.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Isolation of Genomic DNA', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.8",
+   "title": "Polymerase Chain Reaction (PCR) Amplification",
+   "questions": [
+    {
+     "q": "Calculate the number of DNA copies produced after {cycles} cycles of PCR. Use the method 'Polymerase Chain Reaction (PCR) Amplification'. Work with: cycles = 10, initial_copies = 240. Carry the chain through step by step and give the final value of verify.",
+     "a": "245760 units",
+     "self_check": false
+    },
+    {
+     "q": "How many copies of a gene are generated if we start with {initial_copies} copy and run {cycles} cycles of PCR? Use the method 'Polymerase Chain Reaction (PCR) Amplification'. Work with: cycles = 3, initial_copies = 500. Carry the chain through step by step and give the final value of verify.",
+     "a": "4000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Polymerase Chain Reaction (PCR) Amplification' refers to.",
+     "a": "A laboratory technique used to synthesize multiple copies of a specific DNA segment in vitro using primers and a thermostable DNA polymerase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Polymerase Chain Reaction (PCR) Amplification'.",
+     "a": "Exponential amplification of DNA where each cycle doubles how much target DNA.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Polymerase Chain Reaction (PCR) Amplification', in plain ASCII form.",
+     "a": "final_copies = initial_copies * (2 ** cycles)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.9",
+   "title": "Bioreactors and Large-Scale Production",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bioreactors and Large-Scale Production' refers to.",
+     "a": "Large reaction vessels (100-1000 litres) where raw material is turned into a specific product by cells of microbes, plants, animals or humans, kept under conditions that suit their growth best.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bioreactors and Large-Scale Production'.",
+     "a": "Providing optimal temperature, pH, substrate, oxygen, and mixing for maximum yield of recombinant proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bioreactors and Large-Scale Production', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.109.10",
+   "title": "Downstream Processing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Downstream Processing' refers to.",
+     "a": "The series of post-biosynthetic processes, including separation, purification, formulation with preservatives, and quality control testing, required to prepare a product for marketing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Downstream Processing'.",
+     "a": "Isolating and purifying the desired recombinant product to meet safety and quality standards.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Downstream Processing', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

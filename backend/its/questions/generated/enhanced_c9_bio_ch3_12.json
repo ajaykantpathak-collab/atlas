@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_12",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_12",
+   "title": "c9_bio_ch3_12",
+   "questions": [
+    {
+     "q": "Name any two bacterial STIs and two viral STIs, and state the specific causative organism for each.",
+     "a": "Bacterial: Gonorrhea (Neisseria gonorrhoeae), Syphilis (Treponema pallidum). Viral: HIV/AIDS (Human Immunodeficiency Virus), Genital herpes (Herpes Simplex Virus type 2), Genital warts (Human Papillomavirus). A wrong answer (e.g., listing HIV as bacterial or Candida as a primary STI) reveals the student cannot classify pathogens by biological kingdom, a prerequisite for understanding treatment differences (antibiotics vs antivirals).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with an STI might not show any symptoms but can still transmit the infection to their partner.",
+     "a": "Many STIs have an asymptomatic or latent phase where the pathogen replicates in mucosal tissues or enters a dormant state (e.g., HIV clinical latency, HPV dormancy, chlamydia silent infection) without triggering noticeable inflammation; the infected person remains a carrier and transmits pathogens through body fluids during sex. A wrong answer (e.g., \"they are cured\" or \"only symptomatic people spread it\") reveals the misconception that visible symptoms equal infectivity, ignoring the carrier state critical for contact tracing.",
+     "self_check": true
+    },
+    {
+     "q": "A couple uses a latex condom correctly every time during vaginal intercourse. They ask you if they are 100% protected from all STIs. Apply your knowledge of transmission routes to answer them.",
+     "a": "No. Condoms provide excellent protection against fluid-borne STIs (HIV, gonorrhea, chlamydia, trichomoniasis, hepatitis B) by blocking semen and vaginal secretions. However, they do NOT fully protect against skin-to-skin transmitted infections like HPV (genital warts), herpes (HSV), or syphilis (if chancre is outside condom area) because these pathogens infect skin not covered by the condom. A wrong answer claiming 100% protection reveals failure to distinguish transmission modes (fluid vs skin contact) and overestimates barrier efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the prevention strategy for Hepatitis B (viral STI) with that for Syphilis (bacterial STI). Identify one similarity and one key difference in their prevention approaches.",
+     "a": "Similarity: Both are prevented by consistent condom use and mutual monogamy with an uninfected partner. Difference: Hepatitis B has a highly effective vaccine (part of India's Universal Immunization Programme) providing primary prevention before exposure; syphilis has no vaccine, so prevention relies entirely on behavioral barriers and early antibiotic treatment of partners (secondary prevention). A wrong answer missing the vaccine distinction reveals inability to link pathogen type (viral vs bacterial) to available biomedical prevention tools.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a pregnant woman tests negative for HIV in her first trimester, her baby is safe from HIV infection.\" Justify your evaluation.",
+     "a": "The statement is false. A negative test in the first trimester only rules out infection *before* that test. The mother can acquire HIV later in pregnancy (window period), during delivery, or through breastfeeding. Vertical transmission can occur at any stage; hence, repeat testing in the third trimester and during labor is standard protocol (NACO guidelines). A wrong answer accepting the statement reveals ignorance of the window period, ongoing risk behaviors, and multiple transmission windows in mother-to-child transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple awareness activity for Class 9 students in a rural Indian school to reduce stigma around STI testing, using only locally available resources (no internet, no projectors). Describe the activity steps and the biological concept it reinforces.",
+     "a": "Activity: \"Myth-Busting Role Play\" – Students form groups; each group picks a chit with a common myth (e.g., \"STIs spread by sharing toilets,\" \"Only 'bad character' people get STIs,\" \"Condoms reduce pleasure so don't use them\"). They prepare a 2-minute skit showing the myth, then a narrator explains the biological fact (e.g., pathogens die quickly on dry surfaces; STIs are infections, not moral judgments; condoms prevent fluid exchange). Concept reinforced: STIs are biological infections with specific transmission routes, not social punishments. A poor activity (e.g., just a lecture) fails to address stigma through peer-led normalization and biological fact correction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

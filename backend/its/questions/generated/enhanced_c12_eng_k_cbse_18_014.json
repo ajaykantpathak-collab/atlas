@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_18_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_18_014",
+   "title": "c12_eng_k_cbse_18_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure, and what does each letter stand for in the context of writing a textual answer?",
+     "a": "PEEL stands for Point (topic sentence stating the main idea), Evidence (direct quote or close paraphrase from the text), Explanation (analysis of how the evidence proves the point), and Link (sentence connecting back to the question or thesis). A wrong answer that lists \"Paragraph, Example, Explain, Line\" reveals the student has memorised an acronym without understanding its functional role in analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Sen uses qualifying phrases like \"often enough,\" \"by and large,\" and \"particularly\" in his essay, and how a student should mirror this in their own writing.",
+     "a": "Sen uses qualifications to show intellectual honesty — his claims are nuanced, not absolute — and to model the very argumentative tradition he describes (where multiple perspectives coexist). A student who says \"qualifications make writing weak\" misunderstands that academic writing *requires* hedging to be credible; the correct response is to incorporate similar hedges (e.g., \"Sen suggests that...\", \"The text implies...\") rather than blunt assertions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the question \"How does Sen connect Maitreyi's question to economic development?\", write a PEEL paragraph using two pieces of evidence from the text.",
+     "a": "**Point:** Sen uses Maitreyi's rhetorical question — \"What should I do with that by which I do not become immortal?\" — to argue that development must be measured by human capabilities, not just income.  \n**Evidence 1:** The text states Maitreyi's question illustrates \"the limitations of the material world\" and \"the relation — and the distance — between income and achievement.\"  \n**Explanation 1:** This shows Sen reads the ancient dialogue as a critique of equating wealth with well-being, a core idea in his capability approach.  \n**Evidence 2:** Sen explicitly writes that Maitreyi's worry \"motivated and explained an understanding of development that is not parasitic on judging development by the growth of GNP or GDP\" (referencing his *Development as Freedom*).  \n**Explanation 2:** This direct authorial comment confirms the interpretive bridge from philosophical dialogue to modern economics.  \n**Link:** Thus, Sen repurposes a Upanishadic exchange to ground his argument that true development expands freedoms, not merely opulence.  \nA wrong answer that merely summarises Maitreyi's story without linking to Sen's development theory shows inability to *apply* textual evidence to the specific question asked.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the noun-phrase expansion in these two sentences from the text:  \n(A) \"The ancient Sanskrit epics, the Ramayana and the Mahabharata, are colossally longer...\"  \n(B) \"This concerns the relation — and the distance — between income and achievement.\"  \nAnalyse how each expansion adds meaning and why a student should use both patterns in board answers.",
+     "a": "In (A), the appositional phrase \"the Ramayana and the Mahabharata\" renames and specifies the head noun \"epics,\" while the following relative clause \"which are frequently compared with the Iliad and the Odyssey\" adds comparative context — this *layers* information for precision. In (B), the dash-enclosed phrase \"and the distance\" inserts a crucial nuance (qualitative gap) into the noun phrase \"the relation between income and achievement,\" turning a simple relation into a tension. A student who only uses simple noun phrases (\"Sen discusses income and achievement\") loses analytical depth; mastering both patterns allows them to pack evidence and interpretation into compact, high-scoring sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to \"Talking about the Text Q1: Does Amartya Sen see argumentation as a positive or a negative value?\"  \n*Student answer:* \"Sen sees argumentation as positive because he says India has a long tradition of questioning ideas. He gives examples like the Gita and women debaters. So it's good for democracy.\"  \nIdentify two specific weaknesses and rewrite the answer to meet board-exam standards.",
+     "a": "**Weakness 1:** No textual evidence — \"long tradition\" and \"examples like the Gita\" are vague claims without quotes or precise references (e.g., \"prolixity is not alien to us,\" \"Gargi's sharp interrogation\").  \n**Weakness 2:** No nuance — the answer ignores Sen's caveat that the tradition was \"confined to an exclusive part\" and his qualification \"often enough.\"  \n**Rewritten answer:** Sen *predominantly* values argumentation as a positive force, calling it \"an important part of our public life\" that \"deeply influences Indian politics\" and underpins democracy. However, he qualifies this by noting the tradition historically excluded women and lower castes (\"confined to an exclusive part of the Indian population\"), though he counters with evidence of female participation (Gargi, Draupadi, Sarojini Naidu) and anti-caste arguments (Bharadvaja, Buddhist/Jain protests). Thus, Sen's view is *qualifiedly positive*: argumentation is a vital democratic resource, but its social reach must be continually expanded. This version uses PEEL, hedges (\"predominantly,\" \"qualifiedly\"), and specific textual anchors.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original 100-word argumentative paragraph on the topic: \"The Krishna-Arjuna debate in the Mahabharata is more relevant today than ever.\" Use at least one qualifying phrase, one expanded noun phrase with apposition, and one piece of evidence from Sen's essay.",
+     "a": "The Krishna-Arjuna debate, *a foundational dialogue between deontological duty and consequential ethics*, remains urgently relevant in an age of nuclear deterrence and algorithmic warfare. Sen *persuasively* links Krishna's \"fare forward\" to Oppenheimer's technical compulsion — \"when you see something technically sweet, you go ahead and do it\" — while Arjuna's horror at slaughter mirrors modern ethical scrutiny of collateral damage. *Crucially*, Sen refuses to declare Krishna the victor; the Mahabharata's post-war desolation \"can even be seen as something of a vindication of Arjuna's profound doubts.\" This *qualified* reading insists that no single moral framework suffices; we need *both* duty and consequence in public reasoning. A poor answer would lack the Oppenheimer parallel, the qualification (\"persuasively,\" \"crucially\"), or the appositional noun phrase, resulting in a flat assertion rather than a layered argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_009",
+   "title": "c12_cs_cbse_13_009",
+   "questions": [
+    {
+     "q": "What is the primary distinguishing feature of a MOOC compared to a traditional online university course?",
+     "a": "A MOOC is \"Massive\" (unlimited enrollment), \"Open\" (no formal admission prerequisites), and \"Online\" (delivered entirely via the web). A traditional online university course typically has capped enrollment, admission requirements (prerequisites, fees), and may offer formal credit/degrees. A wrong answer (e.g., \"MOOCs are only free\" or \"MOOCs are always self-paced\") reveals confusion between \"open access\" and \"free of cost\" or between \"massive scale\" and \"self-paced structure\" — some MOOCs charge for certificates, and some have fixed schedules.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"SWAYAM and NPTEL are the same thing because both offer free video lectures from IITs.\" Explain why this statement is incomplete and identify the key structural difference.",
+     "a": "NPTEL (National Programme on Technology Enhanced Learning) is a content repository of recorded lectures primarily from IITs/IISc, focused on engineering/science. SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) is a national MOOC platform that *hosts* NPTEL courses *along with* courses from other bodies (UGC, CEC, NCERT, IGNOU, etc.) and adds interactive features: discussion forums, assignments, proctored exams, and credit transfer into university degrees under UGC regulations. The student's error conflates a content *producer* (NPTEL) with a *platform ecosystem* (SWAYAM) that enables certification and academic integration.",
+     "self_check": true
+    },
+    {
+     "q": "A school in a tier-3 city wants to adopt a blended learning model using DIKSHA for teacher training and SWAYAM for Class 12 Computer Science. List three specific infrastructure or human-resource prerequisites the school must verify before implementation, and explain why each is critical.",
+     "a": "1. **Reliable broadband (≥ 2 Mbps per concurrent user) and backup power** — without sustained connectivity, video streaming and live sessions fail, causing frustration and dropout. 2. **Adequate student-device ratio (ideally 1:1 or shared lab schedule)** — DIKSHA/SWAYAM require individual logins for progress tracking; shared devices break personalized learning paths. 3. **Trained facilitator/teacher mentor** — MOOCs assume self-directed learning; adolescents need scaffolding for time management, doubt resolution, and lab work (e.g., Python coding practice). Missing any one collapses the model: no internet → no content; no device → no access; no mentor → low completion rates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the assessment integrity challenges in a SWAYAM MOOC (proctored final exam for credit) versus a self-paced NPTEL course (no proctoring). How does this difference affect the credibility of the certificate for university admission or employment?",
+     "a": "SWAYAM's proctored exam (often at designated centers with ID verification) ensures the certified learner is the person who took the test, making the certificate eligible for credit transfer under UGC (up to 20% of semester credits). NPTEL's self-paced mode typically offers only an e-certificate based on unproctored assignments — credible for self-learning but not for formal credit. The analysis must recognize that *assessment security directly determines institutional recognition*: employers/universities trust proctored credentials more. A student who claims \"both certificates are equal\" ignores the trust chain: proctoring → identity verification → academic credit eligibility.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"MOOCs will completely replace traditional classroom education in India within 10 years because they are cheaper and more accessible.\" Provide three evidence-based counterarguments grounded in Indian socio-economic realities.",
+     "a": "1. **Digital Divide Persistence**: As of 2023, only ~35% of rural households have internet access (NSSO); device ownership is lower. MOOCs exclude the poorest — exactly those needing education most. 2. **Pedagogical Gaps**: Hands-on labs (physics, chemistry, CS coding), peer collaboration, and socio-emotional development (teamwork, conflict resolution) are poorly replicated online. 3. **Credentialing & Regulation**: UGC currently caps MOOC credit transfer at 20-40%; degrees require residency, internships, and faculty-supervised research. Replacement would require systemic overhaul of accreditation, funding, and labor-market signaling — not just technology. The claim ignores that *access ≠ equity* and *content delivery ≠ holistic education*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week \"Bridge to Python\" MOOC module for Class 10 students transitioning to Class 11 Computer Science in a Hindi-medium government school. Specify: (a) weekly learning outcomes, (b) one asynchronous and one synchronous activity per week, (c) two strategies to mitigate low-bandwidth constraints, and (d) one formative assessment method that works offline.",
+     "a": "**Week 1**: Variables & data types → Async: Hindi video + PDF notes (downloadable); Sync: WhatsApp doubt-clearing (text/voice). **Week 2**: Conditionals → Async: Interactive quiz (Google Forms offline mode); Sync: Live coding demo on Zoom (recorded). **Week 3**: Loops → Async: Practice problems with auto-graded Jupyter notebook (exported as HTML); Sync: Peer code review in breakout rooms. **Week 4**: Functions & mini-project → Async: Project template; Sync: Project showcase. **Low-bandwidth strategies**: (1) All videos < 10 min, 360p, downloadable via DIKSHA app; (2) Text-based alternatives (PDF, WhatsApp messages) for every video. **Offline formative assessment**: Weekly paper-based \"exit ticket\" (3 MCQs + 1 code-tracing question) collected by teacher, photographed, and uploaded when connectivity exists. A good answer shows empathy for constraints, bilingual design, and assessment that doesn't assume continuous connectivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Life Processes in Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu110.txt",
+ "concepts": [
+  {
+   "id": "c7cu.10.1",
+   "title": "Photosynthesis -- Raw Materials, Products and Process",
+   "section": "10.1",
+   "definition": "Photosynthesis is the process by which green plants prepare their own food using carbon dioxide and water in the presence of sunlight and chlorophyll, producing glucose (food) and releasing oxygen.",
+   "formula": "6CO2 + 6H2O --(sunlight, chlorophyll)--> c6h12o6 + 6O2",
+   "key_idea": "Green plants convert light energy into chemical energy stored as glucose, using carbon dioxide and water, while releasing oxygen as a by-product.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is photosynthesis?",
+    "What are the raw materials required for photosynthesis?",
+    "Write the word equation for photosynthesis.",
+    "What is the role of chlorophyll in photosynthesis?",
+    "Why is photosynthesis important for living organisms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the raw materials and conditions",
+     "explain": "The raw materials are carbon dioxide (from air) and water (from soil); the conditions are sunlight and chlorophyll present in the leaves."
+    },
+    {
+     "step": 2,
+     "action": "Write the balanced equation for photosynthesis",
+     "explain": "6CO2 + 6H2O --(sunlight, chlorophyll)--> C6H12O6 + 6O2; the food (glucose) is stored as starch in the leaves."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products and their fate",
+     "explain": "The products are glucose (food) and oxygen; glucose is used for energy or stored as starch, and oxygen is released into the air through the stomata."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the word equation for photosynthesis.",
+     "solution": "Carbon dioxide + Water --(Sunlight, Chlorophyll)--> Glucose (food) + Oxygen. In symbols: 6CO2 + 6H2O -> C6H12O6 + 6O2.",
+     "answer": "Carbon dioxide + Water -> Glucose + Oxygen (in the presence of sunlight and chlorophyll)"
+    },
+    {
+     "question": "Why are leaves called the food factories of a plant?",
+     "solution": "Leaves contain chlorophyll that traps sunlight and uses carbon dioxide and water to prepare glucose through photosynthesis; this food is then transported to all parts of the plant, so leaves are called the food factories.",
+     "answer": "Leaves make food by photosynthesis, so they are the food factories."
+    },
+    {
+     "question": "How can you test a leaf for the presence of starch?",
+     "solution": "Boil the leaf in water, decolourise it with alcohol, rinse in water and add iodine solution. If the leaf turns blue-black, starch is present, showing that photosynthesis has occurred.",
+     "answer": "Iodine turns the leaf blue-black, indicating the presence of starch."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the raw materials and products of photosynthesis.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write the balanced chemical equation for photosynthesis.",
+     "type": "numerical"
+    },
+    {
+     "question": "State the role of chlorophyll in photosynthesis.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.2",
+   "title": "Modes of Nutrition in Plants -- Autotrophic and Heterotrophic",
+   "section": "10.2",
+   "definition": "Green plants are autotrophs that make their own food by photosynthesis. Some plants that lack chlorophyll are heterotrophs and obtain food from other sources -- saprophytic (e.g., mushrooms), parasitic (e.g., Cuscuta) or insectivorous (e.g., pitcher plant).",
+   "formula": "",
+   "key_idea": "Most plants are autotrophic, but some non-green plants are heterotrophic and depend on other organisms for food through saprophytic, parasitic or insectivorous nutrition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is autotrophic nutrition?",
+    "How does a pitcher plant obtain its food?",
+    "Why is Cuscuta called a parasitic plant?",
+    "What is saprophytic nutrition in plants?",
+    "Give two examples of heterotrophic plants."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine whether the plant has chlorophyll",
+     "explain": "Green plants with chlorophyll are autotrophs; non-green plants without chlorophyll are heterotrophs."
+    },
+    {
+     "step": 2,
+     "action": "Classify the heterotrophic mode",
+     "explain": "Saprophytic -- feed on dead matter (mushrooms); parasitic -- draw food from a host (Cuscuta); insectivorous -- trap and digest insects (pitcher plant, Venus flytrap)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the reason for heterotrophic nutrition",
+     "explain": "These plants cannot make their own food because they lack chlorophyll or grow in nitrogen-poor soil, so they obtain nutrients from other organisms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the pitcher plant trap and digest insects?",
+     "solution": "The pitcher plant grows in nitrogen-deficient soil. Although it can photosynthesise, it traps insects to obtain nitrogen and other minerals that are lacking in the soil.",
+     "answer": "The pitcher plant gets nitrogen from insects because the soil is nitrogen-poor."
+    },
+    {
+     "question": "How does Cuscuta (Amarbel) obtain its food?",
+     "solution": "Cuscuta is a non-green plant without chlorophyll. It cannot make its own food, so it climbs over a host plant and sends haustoria into the host to absorb water and nutrients, making it a parasite.",
+     "answer": "Cuscuta absorbs food from a host plant, so it is parasitic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define autotrophic and heterotrophic nutrition with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is Cuscuta called a parasitic plant?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a pitcher plant supplements its nitrogen requirement.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.3",
+   "title": "Respiration in Plants",
+   "section": "10.3",
+   "definition": "Respiration in plants is the process of breaking down glucose to release energy. It occurs in all living cells of the plant, using oxygen (taken in through stomata in leaves and lenticels in stems) and releasing carbon dioxide, water and energy.",
+   "formula": "c6h12o6 + 6O2 -> 6CO2 + 6H2O + energy",
+   "key_idea": "Plants respire throughout day and night in all living cells; the glucose made during photosynthesis is broken down to release the energy needed for growth and other life processes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do plants respire?",
+    "Do plants respire at night? Explain.",
+    "Through which parts do plants exchange gases?",
+    "What is the difference between photosynthesis and respiration in plants?",
+    "Why is respiration important for plants?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the site and gases of respiration",
+     "explain": "Respiration occurs in all living cells of roots, stems and leaves; oxygen is taken in and carbon dioxide is given out."
+    },
+    {
+     "step": 2,
+     "action": "Identify the gas exchange surfaces",
+     "explain": "Leaves exchange gases through stomata; stems and roots use lenticels and the loose surface cells of roots for gas exchange."
+    },
+    {
+     "step": 3,
+     "action": "Relate respiration to photosynthesis",
+     "explain": "During the day, the oxygen released by photosynthesis is used for respiration and the carbon dioxide from respiration is used for photosynthesis; at night, only respiration occurs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do plants respire at night when there is no photosynthesis?",
+     "solution": "Respiration is a continuous process needed to release energy for all life activities. At night, photosynthesis stops but respiration continues, so plants take in oxygen and release carbon dioxide through the stomata.",
+     "answer": "Plants respire continuously to release energy, even at night."
+    },
+    {
+     "question": "How do the roots of a plant get oxygen for respiration?",
+     "solution": "Roots take in oxygen from the air present in the spaces between soil particles through the root hair cells; this is why over-watered plants, whose soil pores are filled with water, may die due to lack of oxygen.",
+     "answer": "Roots absorb oxygen from air in the soil through root hairs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the word equation for respiration in plants.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do leaves and stems exchange gases during respiration?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do plants die if their roots are over-watered?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.4",
+   "title": "Transportation in Plants -- Xylem and Phloem",
+   "section": "10.4",
+   "definition": "Plants have two transport tissues: xylem carries water and dissolved minerals from the roots up to the leaves, and phloem transports food (made by photosynthesis) from the leaves to all other parts of the plant.",
+   "formula": "",
+   "key_idea": "Xylem transports water and minerals upward from roots to leaves; phloem transports food in all directions from the leaves (source) to the rest of the plant (sink).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the function of xylem in plants?",
+    "What does phloem transport?",
+    "How does water move from roots to leaves?",
+    "Distinguish between xylem and phloem.",
+    "Why is the transport system important in plants?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two vascular tissues",
+     "explain": "Xylem and phloem are the conducting tissues that form the vascular bundles in roots, stems and leaves."
+    },
+    {
+     "step": 2,
+     "action": "State what each tissue transports",
+     "explain": "Xylem transports water and minerals from roots to leaves (upward); phloem transports food (glucose) from leaves to all parts of the plant (in all directions)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the direction of transport",
+     "explain": "Xylem flow is unidirectional (upward); phloem flow is bidirectional, moving food from the leaves to storage organs and growing regions as needed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does xylem transport only in the upward direction?",
+     "solution": "Xylem carries water and minerals absorbed by the roots up to the leaves where they are used for photosynthesis; since the source (roots) is below and the site of use (leaves) is above, the flow is upward only.",
+     "answer": "Xylem moves water upward from roots to leaves for photosynthesis."
+    },
+    {
+     "question": "How is food transported from leaves to other parts of the plant?",
+     "solution": "Food made in the leaves is transported by the phloem tissue. It moves in all directions -- to the roots for storage, and to growing parts like buds, fruits and seeds for use.",
+     "answer": "Phloem transports food from leaves to all parts of the plant."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the functions of xylem and phloem.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is phloem transport bidirectional?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does water absorbed by roots reach the leaves?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.5",
+   "title": "Stomata and Water Loss",
+   "section": "10.5",
+   "definition": "Transpiration is the loss of water vapour from the leaves of a plant through the stomata. It creates a suction that pulls water upward from the roots and also cools the plant.",
+   "formula": "",
+   "key_idea": "Transpiration through stomata helps pull water and minerals up the plant and cools the leaf surface, but excessive transpiration can lead to wilting.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is transpiration?",
+    "How does transpiration help plants?",
+    "Through which structures does transpiration occur?",
+    "Why do plants wilt when transpiration is excessive?",
+    "How does transpiration cause the upward movement of water?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define transpiration and its site",
+     "explain": "Transpiration is the evaporation of water from the surface of leaves, mainly through the stomata."
+    },
+    {
+     "step": 2,
+     "action": "Explain the suction effect",
+     "explain": "As water evaporates from the leaves, a suction is created that pulls water upward through the xylem from the roots, helping in the transport of water and minerals."
+    },
+    {
+     "step": 3,
+     "action": "State the benefits and risks of transpiration",
+     "explain": "Transpiration cools the plant and aids water transport, but if water loss exceeds absorption, the plant loses turgidity and wilts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does transpiration help in the upward movement of water?",
+     "solution": "When water evaporates from the leaf surface through stomata, it creates a suction (transpiration pull) that draws water up through the xylem vessels from the roots to the leaves.",
+     "answer": "Transpiration creates a suction pull that draws water upward through xylem."
+    },
+    {
+     "question": "Why do plants look wilted on a hot, dry afternoon?",
+     "solution": "On a hot, dry day, the rate of transpiration exceeds the rate of water absorption by the roots. The cells lose water and turgidity, causing the leaves and stem to droop or wilt.",
+     "answer": "Excess water loss makes cells lose turgidity, causing wilting."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define transpiration and name the structure through which it occurs.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two advantages of transpiration to plants.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do plants wilt on a hot, dry day?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.6",
+   "title": "Absorption of Water and Minerals by Roots",
+   "section": "10.6",
+   "definition": "Roots absorb water and dissolved minerals from the soil through tiny root hair cells that greatly increase the surface area for absorption; the absorbed water and minerals then move upward through the xylem.",
+   "formula": "",
+   "key_idea": "Root hairs increase the surface area for absorbing water and minerals from the soil; the absorbed substances are transported upward through the xylem to the stem and leaves.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do roots absorb water from the soil?",
+    "What is the role of root hairs?",
+    "Why are root hairs important for a plant?",
+    "How are minerals absorbed by the roots?",
+    "What happens to the water after it is absorbed by the roots?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the absorbing structure",
+     "explain": "Root hairs are tiny extensions of root epidermal cells that increase the surface area for absorption of water and minerals from the soil."
+    },
+    {
+     "step": 2,
+     "action": "Explain the absorption process",
+     "explain": "Water moves into the root hairs by osmosis (from a region of higher water concentration in the soil to lower concentration in the root); minerals are absorbed actively from the soil."
+    },
+    {
+     "step": 3,
+     "action": "Trace the path of water upward",
+     "explain": "The absorbed water and minerals pass from the root hairs to the root cortex, then into the xylem vessels that carry them upward to the stem and leaves."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do root hairs increase the efficiency of water absorption?",
+     "solution": "Root hairs are numerous, tiny, finger-like extensions of root cells. They greatly increase the surface area in contact with the soil, allowing more water and minerals to be absorbed efficiently.",
+     "answer": "Root hairs increase surface area, so more water is absorbed."
+    },
+    {
+     "question": "What would happen if a plant's roots were kept in soil with very little water?",
+     "solution": "With little water in the soil, the root hairs cannot absorb enough water. Transpiration would continue, causing the plant to lose more water than it takes in, leading to wilting and eventually death.",
+     "answer": "Insufficient soil water causes wilting as water loss exceeds absorption."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the role of root hairs in absorption of water.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How are minerals absorbed from the soil?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Trace the path of water from the soil to the leaves.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.7",
+   "title": "Reproduction in Plants -- Sexual and Asexual",
+   "section": "10.7",
+   "definition": "Plants reproduce in two main ways: asexual reproduction (e.g., budding, fragmentation, spore formation, vegetative propagation) produces new plants from a single parent without seeds, while sexual reproduction involves the fusion of male and female gametes to form seeds inside flowers.",
+   "formula": "",
+   "key_idea": "Asexual reproduction gives rise to identical offspring quickly from one parent, while sexual reproduction involves flowers, pollination and fertilisation, producing seeds that grow into new plants with variation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the two main modes of reproduction in plants?",
+    "What is vegetative propagation? Give an example.",
+    "How does a yeast reproduce?",
+    "What is pollination?",
+    "Distinguish between sexual and asexual reproduction in plants."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mode of reproduction",
+     "explain": "Determine whether the new plant arises from a single parent (asexual) or from the fusion of male and female gametes (sexual)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the asexual methods",
+     "explain": "Asexual methods include budding (yeast), fragmentation (spirogyra), spore formation (fungi, ferns) and vegetative propagation (potato by tubers, rose by stem cuttings, bryophyllum by leaf buds)."
+    },
+    {
+     "step": 3,
+     "action": "Describe the sexual method",
+     "explain": "Sexual reproduction occurs in flowers: pollen (male gamete) reaches the stigma (pollination), travels to the ovule and fuses with the egg (fertilisation) to form a seed that grows into a new plant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a potato plant reproduce vegetatively?",
+     "solution": "A potato is an underground stem tuber with buds (eyes). When a potato with eyes is planted in soil, each eye can grow into a new potato plant; this is vegetative propagation.",
+     "answer": "Potatoes grow from buds (eyes) on the tuber -- vegetative propagation."
+    },
+    {
+     "question": "How does yeast reproduce by budding?",
+     "solution": "In yeast, a small bulge (bud) forms on the parent cell, grows, and then detaches to form a new yeast cell. This asexual method is called budding and produces identical offspring quickly.",
+     "answer": "Yeast forms a bud that detaches to become a new cell -- budding."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four methods of asexual reproduction in plants.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is vegetative propagation? Give two examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the process of sexual reproduction in flowering plants.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.10.8",
+   "title": "Excretion in Plants",
+   "section": "10.8",
+   "definition": "Plants do not have a dedicated excretory system; they get rid of waste products by storing them in old leaves and bark that are shed, releasing gases through stomata, and excreting excess salts and water through tiny pores or by storing wastes as resins, gums and latex.",
+   "formula": "",
+   "key_idea": "Plants remove waste by shedding leaves and bark, releasing gases through stomata, and storing waste substances as resins, gums and latex in tissues that are eventually lost.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do plants excrete waste products?",
+    "Do plants have an excretory system?",
+    "How do plants get rid of excess water?",
+    "What are resins and gums in plants?",
+    "How do plants remove gaseous waste?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the types of plant waste",
+     "explain": "Plant wastes include gaseous wastes (oxygen, carbon dioxide), excess water, and solid wastes stored as resins, gums, latex and tannins."
+    },
+    {
+     "step": 2,
+     "action": "Explain how gaseous and liquid wastes are removed",
+     "explain": "Gaseous wastes leave through the stomata; excess water is removed by transpiration."
+    },
+    {
+     "step": 3,
+     "action": "Explain how solid wastes are removed",
+     "explain": "Solid wastes are stored in old leaves, bark or as resins and gums; when the leaves fall or the bark is shed, these wastes are removed from the plant body."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do plants get rid of their waste products without an excretory system?",
+     "solution": "Plants store waste in old leaves, bark and as resins or gums, which are removed when leaves fall or bark peels off. Gaseous wastes leave through stomata and excess water is lost by transpiration.",
+     "answer": "Plants shed leaves and bark and release gases through stomata to remove waste."
+    },
+    {
+     "question": "Why do some plants shed their leaves in a particular season?",
+     "solution": "Shedding leaves helps plants remove accumulated waste products stored in the leaves and also reduces water loss during dry or cold seasons, helping the plant survive.",
+     "answer": "Shedding leaves removes stored waste and conserves water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do plants remove gaseous waste products?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do plants store waste as resins and gums?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how shedding of leaves helps in excretion.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.10.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain photosynthesis -- raw materials, products and process with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the raw materials and conditions",
+     "explain": "The raw materials are carbon dioxide (from air) and water (from soil); the conditions are sunlight and chlorophyll present in the leaves."
+    },
+    {
+     "step": 2,
+     "action": "Write the balanced equation for photosynthesis",
+     "explain": "6CO2 + 6H2O --(sunlight, chlorophyll)--> C6H12O6 + 6O2; the food (glucose) is stored as starch in the leaves."
+    },
+    {
+     "step": 3,
+     "action": "Identify the products and their fate",
+     "explain": "The products are glucose (food) and oxygen; glucose is used for energy or stored as starch, and oxygen is released into the air through the stomata."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.10.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain modes of nutrition in plants -- autotrophic and heterotrophic with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine whether the plant has chlorophyll",
+     "explain": "Green plants with chlorophyll are autotrophs; non-green plants without chlorophyll are heterotrophs."
+    },
+    {
+     "step": 2,
+     "action": "Classify the heterotrophic mode",
+     "explain": "Saprophytic -- feed on dead matter (mushrooms); parasitic -- draw food from a host (Cuscuta); insectivorous -- trap and digest insects (pitcher plant, Venus flytrap)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the reason for heterotrophic nutrition",
+     "explain": "These plants cannot make their own food because they lack chlorophyll or grow in nitrogen-poor soil, so they obtain nutrients from other organisms."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

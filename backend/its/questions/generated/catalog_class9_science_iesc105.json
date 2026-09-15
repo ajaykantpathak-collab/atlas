@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc105.json",
+ "concepts": [
+  {
+   "id": "iesc.105.5.1",
+   "title": "Mixtures: Types and Properties",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a mixture?",
+     "a": "Two or more substances physically combined in any ratio, each keeping its properties.",
+     "self_check": true
+    },
+    {
+     "q": "Name two properties of a compound that mixtures lack.",
+     "a": "Fixed composition and properties entirely different from its elements.",
+     "self_check": true
+    },
+    {
+     "q": "Why is air a mixture and water a compound?",
+     "a": "Air's gases can be separated physically and vary in ratio; water has fixed H:O ratio joined chemically.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.105.5.2",
+   "title": "Separation by Filtration, Evaporation and Decantation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does filtration separate a mixture?",
+     "a": "The filter lets the liquid pass while holding back insoluble solid particles.",
+     "self_check": true
+    },
+    {
+     "q": "When is evaporation used for separation?",
+     "a": "To recover a dissolved solid from its solution, as salt from sea water.",
+     "self_check": true
+    },
+    {
+     "q": "What is sedimentation and decantation?",
+     "a": "Heavy particles settle (sedimentation) and the clear liquid above is poured off (decantation).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.105.5.3",
+   "title": "Advanced Separation: Distillation, Chromatography and More",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is distillation used for?",
+     "a": "Separating a liquid from dissolved solids, or two liquids with different boiling points.",
+     "self_check": true
+    },
+    {
+     "q": "What is centrifugation? Give a daily-life example.",
+     "a": "Spinning a mixture so heavy parts settle; washing machines spin-dry clothes and dairies separate cream.",
+     "self_check": true
+    },
+    {
+     "q": "How is chromatography useful for inks?",
+     "a": "Different dyes travel different distances on paper, separating into coloured bands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

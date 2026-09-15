@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_010",
+   "title": "c11_hin_v_cbse_02_010",
+   "questions": [
+    {
+     "q": "From the text, recall the three categories of groundwater (ikuh) classified by the 'kkL=k (scientific system) mentioned in the chapter. Write their Hindi terms and one distinguishing feature of each from the passage.",
+     "a": "Correct answer: (1) ikyjikuh — surface water from rain, flows in rivers/streams, stored in ponds/tanks; (2) ikrkyikuh — groundwater below surface, extracted via wells; (3) jstk.khikuh — artesian water trapped between impermeable layers under pressure, rises automatically when tapped. A wrong answer listing only two categories or confusing ikrkyikuh with jstk.khikuh reveals the student hasn't tracked the author's explicit classification system in the third paragraph of the reference text.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"jstk.khikuh [kfM+;k i^h osQ dkj.k ikrkyhikuh ls vyx cuk jgrk gSA\" Explain in your own words WHY jstk.khikuh forms differently from ikrkyikuh, using the geological conditions described in the text.",
+     "a": "Correct answer: jstk.khikuh forms when water is trapped between two impermeable rock layers (ckYVh) under pressure, so when a well pierces the upper layer, pressure forces water up. ikrkyikuh is simply groundwater in permeable rock without confining pressure. A wrong answer saying \"both come from underground\" misses the critical distinction: confining pressure vs. gravity-fed storage. This misconception shows the student hasn't visualized the geological cross-section the author describes.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"oqaQbZ dh xgjkbZ esa py jgs esgurh dke ij ogk¡ dh xjeh dk vlj iM+sxkA,\" the word \"esgurh\" modifies \"dke.\" Using context clues from the surrounding sentences (laborers working in chains, extreme heat, date palm construction), infer the precise meaning of \"esgurh\" and explain which textual evidence supports your inference.",
+     "a": "Correct answer: \"esgurh\" means arduous/backbreaking/grueling. Evidence: (1) \"rhl&iSarhl gkFk xgjh [kqnkbZ\" — 2-3 km long trenches, (2) \"bruh ladjh txg esa [kksnus dk dke oqQYgkM+h ;k iQkoM+s ls ugha gks ldrk\" — cannot be done by machines, (3) \"psyokath dh ihB vkSj Nkrh ls\" — using hands and feet. A wrong answer like \"difficult\" without citing the physical specifics shows the student treats vocabulary as isolated word-meaning pairs rather than context-embedded concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the author uses \"futh\" (tradition) in two contexts: (a) \"futh vkSj lkoZtfud laifÙk dk foHkktu djus okyh eksVh js[kk\" and (b) \"futh gksrs gq, Hkh lkoZtfud {ks=k esa oaqQb;ksa ij xzke lekt dk vaoqQ'k yxk jgrk gSA\" Analyze whether \"futh\" carries the same connotation in both or shifts meaning.",
+     "a": "Correct answer: In (a), futh = living tradition of collective governance (eksVh js[kk = customary law). In (b), futh = historical legacy that persists as social inertia (\"yxk jgrk gS\" = casts a shadow). The shift is from active regulatory system to residual cultural weight. A wrong answer treating both as \"custom\" misses the author's critique: traditional law once managed water equitably, but now village power structures exploit that legacy. This tests whether the student tracks semantic shift across the text's argument arc.",
+     "self_check": true
+    },
+    {
+     "q": "The chapter ends with: \"blh ueh ls lky&Hkj oqaQb;ksa esa ikuh HkjsxkA\" Evaluate whether \"lky&Hkj\" (perennial/year-round) is an accurate description of oasis water supply based on the hydrological evidence the author presents earlier. Defend your judgment with two textual references.",
+     "a": "Correct answer: No, \"lky&Hkj\" is an aspirational claim, not hydrological fact. Evidence against: (1) \"fnu Hkj esa ,d oqaQbZ eqf'dy ls bruk gh ikuh tek dj ikrh gS fd mlls nks&rhu ?kM+s Hkj losaQ\" — one oasis yields water for only 2-3 months, (2) \"NksVs O;kl dh oqaQbZ esa èkhjs&èkhjs fjl dj vk jgk ikuh nks&pkj gkFk dh mQ¡pkbZ ys ysrk gS\" — water recedes 2-4 ft yearly in large oases. The author shows oases are fragile, not perennial. A wrong answer accepting \"lky&Hkj\" at face value reveals the student doesn't cross-reference vocabulary claims with earlier data.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-term glossary entry for a student from a non-desert region explaining: vkM+kd, pj[kh, [khai, and jLlk. Each entry must include: (a) the term, (b) its function in the oasis system, (c) one textual detail showing HOW it works, and (d) why it would fail if transplanted to a non-desert context.",
+     "a": "Expected answer criteria: Each entry connects form to function to environmental logic. Example for vkM+kd: (a) vkM+kd, (b) irrigation channel distributing water from well to fields, (c) \"vksM+kd vkSj pj[kh pM+lh dks ;gk¡&ogk¡ fcuk Vdjk, lh/s mQij rd ykrh gS\" — channels run along field boundaries without erosion, (d) fails in non-desert because high rainfall would erode unlined channels and waterlogging would occur. A poor answer lists definitions without the \"why it fails elsewhere\" component, showing the student hasn't grasped that these terms name *desert-specific adaptations*, not universal farming tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

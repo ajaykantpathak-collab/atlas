@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_11",
+   "title": "c8_eco_ch2_11",
+   "questions": [
+    {
+     "q": "What is the formula used to calculate Per Capita Income (PCI) of a country?",
+     "a": "Per Capita Income (PCI) = Total National Income / Total Population.\nIf a student incorrectly answers \"Total Population / Total National Income\" or confuses it with total output alone, it reveals that they do not understand that PCI represents the average economic output per individual in a nation.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a country's Total National Income (GDP) increase by 6% in a year, yet its citizens see no improvement in their average standard of living?",
+     "a": "If the country's population also grows by 6% or more during the same year, the increase in total output is completely offset by the increase in the number of consumers, keeping Per Capita Income and individual purchasing power unchanged. A wrong answer (e.g., claiming that total GDP has no connection to standard of living) reveals that the student fails to distinguish between aggregate economic growth and per-individual economic well-being.",
+     "self_check": true
+    },
+    {
+     "q": "Country A has a Total National Income of ₹50,000 crore and a population of 10 crore. Country B has a Total National Income of ₹80,000 crore and a population of 20 crore. Calculate the Per Capita Income for both countries and identify which country offers a higher average income per person.",
+     "a": "For Country A: PCI = ₹50,000 crore / 10 crore = ₹5,000 per person.\nFor Country B: PCI = ₹80,000 crore / 20 crore = ₹4,000 per person.\nCountry A has a higher average income per person.\nA wrong answer (e.g., selecting Country B because ₹80,000 crore is larger than ₹50,000 crore) indicates that the student focuses solely on total economic size rather than accounting for population size.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a high youth dependency ratio (a large percentage of population under 15 years old) affects a government's economic budget choices between social infrastructure and productive physical infrastructure.",
+     "a": "A high youth dependency ratio requires the government to allocate a larger share of its budget toward social infrastructure like basic schooling, childcare, and basic health services to maintain minimum well-being for non-working dependents. As a result, less government capital remains available for investment in revenue-generating physical infrastructure like modern highways, industrial ports, and energy grids, which could slow immediate industrial expansion. A wrong answer indicates the student does not understand how non-working dependent populations alter public resource allocation choices.",
+     "self_check": true
+    },
+    {
+     "q": "Two policy experts are debating population policy in a developing country. Expert X argues that population growth must be drastically restricted immediately to raise per capita income. Expert Y argues that investment in vocational education and healthcare will turn the population into a productive workforce, raising national income faster than population growth. Evaluate which argument is more economically sustainable in the long run.",
+     "a": "Expert Y's argument is more economically sustainable. While population control reduces the denominator in Per Capita Income calculations, investing in human capital through health and education directly increases worker productivity, technological innovation, and Total National Income (the numerator). Over time, educated populations naturally experience lower birth rates while simultaneously generating higher economic value. Expert X's view treats humans only as consumers of resources rather than producers of wealth. A wrong answer shows a misunderstanding of human capital as an engine of economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategic 3-step economic action plan for a rural district experiencing rapid population growth but stagnation in agricultural jobs.",
+     "a": "A complete plan should include:\n1. Establish rural skill development and vocational training centers to build non-agricultural skills (e.g., food processing, machine repair, digital services).\n2. Invest in social infrastructure (primary health centers and secondary schools) to improve worker productivity and demographic quality.\n3. Facilitate micro-loans and rural financial infrastructure to encourage local small-business creation and absorb the expanding labor force.\nA poor answer would simply suggest \"stopping people from having children\" or \"moving everyone to cities\" without addressing local skill formation, capital creation, and job generation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

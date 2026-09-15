@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_008",
+   "title": "c12_biotech_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the fundamental principle that allows a labeled nucleic acid probe to identify a specific DNA sequence in a colony hybridization experiment?",
+     "a": "The fundamental principle is complementary base pairing (Watson-Crick hybridization): the single-stranded probe anneals specifically to its complementary target sequence in the immobilized DNA. A wrong answer (e.g., \"the probe binds to the protein product\" or \"the probe integrates into the genome\") reveals confusion between hybridization (nucleic acid-nucleic acid recognition) and antibody-antigen interaction (Western blot) or transposition.",
+     "self_check": true
+    },
+    {
+     "q": "In a colony hybridization experiment using a nitrocellulose membrane, a student forgets to bake the membrane at 80°C after transferring colonies. What specific step fails, and why does this cause false negatives?",
+     "a": "Baking immobilizes DNA covalently to the membrane via cross-linking; without it, target DNA washes off during hybridization/wash steps, so the probe has nothing to bind → false negatives. A wrong answer (e.g., \"baking denatures DNA\" or \"baking activates the probe\") reveals misunderstanding of the physical chemistry of nucleic acid-membrane binding.",
+     "self_check": true
+    },
+    {
+     "q": "You have a cDNA library made from pancreatic mRNA. You want to screen for the insulin gene using colony hybridization. Which type of probe would be most appropriate: a genomic DNA fragment containing the insulin gene, a synthetic oligonucleotide based on the insulin mRNA sequence, or an antibody against insulin? Justify your choice.",
+     "a": "A synthetic oligonucleotide based on the insulin mRNA sequence (or cDNA probe) is most appropriate because: (1) cDNA library lacks introns, so a genomic probe with intron sequences would not hybridize efficiently; (2) antibody detects protein (Western blot), not nucleic acid. A wrong choice reveals failure to distinguish between genomic vs cDNA library structure and between nucleic acid vs protein detection methods.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Southern, Northern, and Western blotting in a single table with four columns: Target Molecule, Separation Method, Probe/Detector, and Key Chemical Modification for Immobilization. Identify one critical procedural difference between Northern and Southern blotting that prevents RNA degradation.",
+     "a": "| Blot | Target | Separation | Probe/Detector | Immobilization |\n|------|--------|------------|----------------|----------------|\n| Southern | DNA | Agarose gel electrophoresis | Labeled DNA/RNA probe | UV cross-linking or baking (nitrocellulose) |\n| Northern | RNA | Denaturing agarose gel (formaldehyde) | Labeled DNA/RNA probe | UV cross-linking (nylon) or baking |\n| Western | Protein | SDS-PAGE | Primary + labeled secondary antibody | Hydrophobic binding (nitrocellulose/PVDF) |\n\nCritical difference: Northern blotting uses formaldehyde/denaturing gel and lower hybridization temperature (formamide in buffer) to prevent RNA hydrolysis; Southern uses non-denaturing gel and higher temperature. Missing the denaturing gel/formamide point reveals ignorance of RNA's alkali-lability.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher performs colony hybridization with a ³²P-labeled probe but gets high background signal on the autoradiogram. Evaluate three distinct procedural causes and their specific remedies.",
+     "a": "1. Insufficient pre-hybridization blocking → remedy: increase blocking agent (e.g., Denhardt's, salmon sperm DNA) and pre-hybridization time.\n2. Hybridization temperature too low → remedy: increase stringency by raising temperature or decreasing salt concentration (SSC) in hybridization buffer.\n3. Inadequate post-hybridization washes → remedy: increase wash stringency (higher temperature, lower SSC, add SDS). A vague answer like \"wash more\" without specifying stringency parameters reveals lack of understanding of the thermodynamics of probe-target vs probe-non-target binding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a screening strategy to isolate a gene from a genomic library when: (a) you know the protein sequence but not the DNA sequence, (b) the gene contains multiple introns, and (c) you have an antibody against the protein. Explain why colony hybridization alone cannot work in this scenario and how you would combine methods.",
+     "a": "Colony hybridization requires a nucleic acid probe. With only protein sequence, you must deduce possible DNA sequences (degenerate oligonucleotides) — but introns break coding sequence continuity, so genomic library screening with cDNA-derived probes fails. Strategy: (1) Use antibody to screen an *expression library* (λgt11) via Western blot (immunoscreening) to get a cDNA clone; (2) Use that cDNA as probe to screen the genomic library for the full gene with introns. A poor answer tries to use degenerate oligos directly on genomic library, ignoring intron interruption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

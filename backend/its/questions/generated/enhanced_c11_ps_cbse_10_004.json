@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_004",
+   "title": "c11_ps_cbse_10_004",
+   "questions": [
+    {
+     "q": "Which of the following Articles of the Indian Constitution is the clearest example of the \"expressing aspirations\" function rather than \"establishing rules\" or \"limiting government\"?\na) Article 79 (Constitution of Parliament)\nb) Article 13 (Laws inconsistent with Fundamental Rights)\nc) Article 39 (Directive Principles: adequate livelihood, equal pay, etc.)\nd) Article 32 (Right to Constitutional Remedies)",
+     "a": "Correct answer: **c) Article 39**. Article 39 is a Directive Principle – it expresses socio-economic aspirations (e.g., \"equal pay for equal work\") but is non-justiciable (Article 37), so it does not establish enforceable rules or impose legal limits on government. Article 79 establishes a rule (Parliament's composition). Article 13 limits government by voiding rights-violating laws. Article 32 provides a remedy, functioning as a limit-enforcement mechanism. A wrong answer (e.g., picking Article 32) reveals confusion between *enforcing limits* and *expressing goals* – a common error where students treat all constitutional text as legally binding rules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"limiting government\" function requires BOTH substantive constraints (like Fundamental Rights) AND procedural constraints (like separation of powers). Use a concrete Indian example to illustrate what happens if only one type exists.",
+     "a": "Substantive constraints define *what* government cannot do (e.g., Article 21: no deprivation of life/liberty except by procedure established by law). Procedural constraints define *how* power is exercised (e.g., Articles 53/154 vest executive power in President/Governor but require Council of Ministers' aid/advice; judicial review under Articles 32/226). If only substantive rights exist without procedural checks, the executive can ignore rights by controlling the legislature (e.g., Emergency 1975-77: Fundamental Rights suspended via Article 359, but parliamentary dominance allowed unchecked rule). If only procedural separation exists without substantive rights, a legislature could pass oppressive laws by following correct procedure (e.g., a law banning all protests passed by majority vote). A wrong answer that treats them as interchangeable misses the constitutional design insight: **substantive limits set the boundary; procedural limits make the boundary enforceable.**",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 80% of medical college seats for \"domicile students,\" effectively excluding migrants from other states. The law is challenged in the High Court. Identify which constitutional function(s) are at stake, the specific Articles involved, and predict the likely outcome with reasoning.",
+     "a": "**Functions at stake:** \"Limiting government\" (state legislature's power constrained by fundamental rights) and \"Establishing rules\" (federal distribution of legislative competence). **Articles:** Article 14 (equality before law), Article 15(1) (non-discrimination on place of birth), Article 16(2) (equal opportunity in public employment/education), Article 19(1)(e) (freedom to reside/settle anywhere), Article 301 (freedom of trade/commerce – education as service). The Supreme Court in *Saurabh Chaudhri v. Union of India* (2003) and *Pradeep Jain v. Union of India* (1984) struck down excessive domicile reservations as violating Articles 14/15/19. **Outcome:** Law likely struck down as unreasonable classification violating the \"limiting government\" function. A wrong answer focusing only on \"establishing rules\" (state's power over education under Entry 25, List II) misses that federalism itself is a limit – states cannot violate fundamental rights even within their domain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the \"expressing aspirations\" function operates differently in the Indian Constitution (Directive Principles) versus the South African Constitution (Bill of Rights including socio-economic rights). What does this difference reveal about the two constitutional theories?",
+     "a": "Indian model: Aspirations in Part IV (Articles 36-51) are **non-justiciable** (Article 37) – they guide policy but courts cannot enforce them directly. South African model: Socio-economic rights (housing, healthcare, food, water, education) are in the **justiciable Bill of Rights** (Chapter 2) – courts *can* order government to provide them (e.g., *Government of RSA v. Grootboom* 2000 on housing). This reveals a theoretical divide: **India chose political enforceability** (directive to legislature/executive, accountable via elections) while **South Africa chose judicial enforceability** (courts as guarantors of minimum core obligations). A wrong answer saying \"both are same because both express aspirations\" ignores the crucial institutional consequence: justiciability transforms aspirations into legally binding claims, shifting power from elected branches to courts.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"The Preamble's words 'Socialist, Secular, Democratic Republic' (added by 42nd Amendment) are merely expressive aspirations with no legal effect, so they cannot be used to strike down a law.\" Is this argument correct in Indian constitutional law post-*Kesavananda Bharati* (1973)?",
+     "a": "The argument is **incorrect**. In *Kesavananda Bharati*, the Supreme Court held the Preamble is **part of the Constitution** and reflects its \"basic structure.\" While the Preamble itself is not directly justiciable (not a source of power or limitation), it serves as an **interpretive key**: laws or amendments violating the Preamble's declared objectives (e.g., secularism, democracy) can be struck down as violating the basic structure. Example: *S.R. Bommai v. Union of India* (1994) used \"secularism\" in Preamble to strike down dismissal of state governments under Article 356 as anti-secular. Thus, aspirations in the Preamble acquire **derivative legal force** through the basic structure doctrine. A wrong answer treating Preamble as purely hortatory misses the evolution of Indian constitutional jurisprudence where expressive text becomes a substantive limit via judicial interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Preamble\" for a hypothetical constitution of a newly independent island nation that has deep ethnic divisions, a history of military coups, and rich natural resources. Your Preamble must simultaneously express aspirations, signal limits on government, and hint at institutional rules – without using legalistic Articles.",
+     "a": "**Expected criteria:** (1) **Aspirations**: Mentions unity in diversity, equitable resource sharing, democratic governance, human dignity. (2) **Limits**: Explicitly binds military to civilian supremacy, prohibits ethnic discrimination, mandates transparent resource management. (3) **Institutional hints**: References elected legislature, independent judiciary, autonomous election commission, decentralized power-sharing. Example: *\"We, the people of [Island], acknowledging our diverse heritage and past wounds, resolve to build a united, democratic, and prosperous nation where every community shares equitably in our natural wealth, where the military serves under civilian authority, where no law shall discriminate by ethnicity, and where power flows from free elections to a responsible legislature, an independent judiciary, and empowered local councils – so that liberty, justice, and peace endure.\"* A poor answer lists only aspirations (e.g., \"we want peace and prosperity\") without embedding limits or institutional clues, showing failure to integrate the three functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

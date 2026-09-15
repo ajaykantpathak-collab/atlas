@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_001",
+   "title": "c7_physics_ch07_001",
+   "questions": [
+    {
+     "q": "What is the general taste of acidic substances?",
+     "a": "Acidic substances generally have a sour taste. A wrong answer reveals confusion with basic substances, which taste bitter, or neutral substances, which may be sweet or tasteless.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it unsafe to identify laboratory acids and bases by tasting them, even though they have distinct tastes?",
+     "a": "Tasting unknown laboratory chemicals is extremely dangerous because many acids and bases are corrosive, highly toxic, or capable of burning living tissue. A wrong answer reveals a dangerous misconception that all scientific substances are safe to taste if they are mentioned in a lesson.",
+     "self_check": true
+    },
+    {
+     "q": "If a household solution has a bitter taste and feels slippery or soapy when touched, how would you classify it?",
+     "a": "Steps: \n1. Identify the given sensory properties: bitter taste and slippery touch.\n2. Recall that acids are sour and bases are bitter and soapy.\n3. Match the properties to the correct classification.\n4. Conclude that the solution is a base. \nA wrong answer reveals a failure to link physical properties (slippery touch, bitter taste) to the definition of a base.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"All sour substances are strong laboratory acids that can burn skin.\" Is this statement scientifically accurate? Explain why or why not.",
+     "a": "The statement is inaccurate because while acidity causes a sour taste, organic acids found in food (like citric acid in lemons or acetic acid in vinegar) are weak and safe to eat, whereas strong mineral acids (like hydrochloric acid) are corrosive and dangerous. A wrong answer reveals the misconception that all acids share the exact same strength and danger level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate a scenario where a student claims that distilled water must be a strong acid because it is a liquid used in chemical laboratories. Is this claim correct?",
+     "a": "The claim is incorrect because distilled water is neutral, neither acidic nor basic, regardless of being used in a laboratory setting. A wrong answer reveals that the student associates any laboratory liquid automatically with being an acid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a safe, simple method to classify three unknown household liquids (lemon juice, sugar water, and soap solution) without tasting them.",
+     "a": "A good answer involves using natural indicators like turmeric paste or red litmus paper, observing color changes without any ingestion, and recording which liquid turns red litmus blue (base), turns turmeric red (base), or keeps litmus red (acid/neutral). A poor answer suggests tasting the substances or using dangerous testing procedures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

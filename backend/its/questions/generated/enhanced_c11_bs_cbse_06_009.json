@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_009",
+   "title": "c11_bs_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define unfair trade practice and give two distinct examples from the Indian consumer market context that are NOT mere poor service but deliberate deception.",
+     "a": "Correct answer: Unfair trade practice is a deceptive or fraudulent business method used to promote sale, use, or supply of goods/services, including false representation, misleading advertisements, false offers, non-compliance with standards. Examples: (1) A packaged juice labelled \"100% fruit juice\" containing only 15% fruit pulp and added sugar/colours — false representation of composition. (2) A coaching institute advertising \"100% placement guarantee\" with fine print excluding most students — misleading advertisement. A wrong answer listing only \"rude staff\" or \"late delivery\" reveals the student confuses service deficiency with deliberate deceptive practice, missing the intent and illegality elements central to the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"caveat emptor\" (let the buyer beware) has been replaced by \"caveat venditor\" (let the seller beware) in modern consumer protection frameworks, using the concept of information asymmetry.",
+     "a": "Correct answer: Caveat emptor assumed buyers and sellers have equal access to information about product quality, price, and terms. In reality, producers possess superior technical knowledge (ingredients, manufacturing process, side effects) that consumers cannot verify at point of purchase — this is information asymmetry. For example, a consumer cannot test if a medicine contains the declared active ingredient; only the manufacturer knows. Shifting responsibility to sellers (caveat venditor) through mandatory disclosures, quality standards, and liability for defects corrects this power imbalance. A wrong answer focusing only on \"government wants to protect people\" misses the structural economic reasoning — information asymmetry — that makes self-protection impossible for consumers in complex markets.",
+     "self_check": true
+    },
+    {
+     "q": "A popular fairness cream brand claims \"Visible fairness in 7 days\" with before/after photos. The fine print says \"Results may vary.\" Identify the unfair trade practice, the consumer right violated, and why the disclaimer does not absolve the company.",
+     "a": "Correct answer: (1) Unfair trade practice: Misleading advertisement — false/misleading representation of product efficacy using exaggerated claims and potentially doctored images. (2) Consumer right violated: Right to Information (accurate, non-deceptive information about product performance) and Right to Safety (if product contains harmful chemicals like mercury/steroids to deliver fast results). (3) Disclaimer \"results may vary\" does not absolve because: (a) The primary claim \"visible fairness in 7 days\" is an objective performance representation, not subjective opinion; (b) Disclaimers cannot contradict the main message (Supreme Court precedent); (c) The burden of proof for efficacy lies with the advertiser under Consumer Protection Act. A wrong answer accepting the disclaimer as valid protection reveals misunderstanding that disclaimers cannot legitimise false factual claims — a critical distinction in advertising ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"adulteration\" and \"spurious goods\" as unfair trade practices. Give one Indian market example of each where the health impact differs in severity and immediacy.",
+     "a": "Correct answer: Adulteration = intentional degradation of genuine product quality by adding inferior/substitute substances (e.g., argemone oil in mustard oil — causes epidemic dropsy, immediate organ damage). Spurious goods = completely fake/counterfeit products imitating genuine brands (e.g., counterfeit antibiotics with no active ingredient — treatment failure, antibiotic resistance, delayed health impact). Both violate Right to Safety, but adulteration corrupts a real product while spurious goods replace it entirely. Adulteration often has acute toxicity; spurious goods cause harm through therapeutic failure. A wrong answer treating them as synonyms misses the supply chain difference: adulteration occurs within legitimate production/distribution; spurious goods enter via parallel illicit manufacturing — requiring different regulatory responses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ethical business practices towards consumers reduce short-term profits but increase long-term profitability.\" Use the concepts of trust capital, customer lifetime value, and regulatory risk to justify your position.",
+     "a": "Correct answer: The statement is largely valid but incomplete. Ethical practices (fair pricing, accurate labelling, honouring warranties) involve short-term costs: higher quality inputs, compliance systems, lower margins from refusing exploitative practices. However, they build trust capital — the willingness of consumers to pay premium, repurchase, and recommend — which increases customer lifetime value (CLV). A 5% increase in retention can raise profits 25-95% (Bain & Co.). Simultaneously, unethical practices carry escalating regulatory risk: fines under Consumer Protection Act 2019 (up to ₹10 lakh for misleading ads, ₹50 lakh for adulteration), class-action suits, and licence cancellation. The net present value of ethical behaviour is positive when discounting future cash flows from loyal customers against avoided penalties. A wrong answer claiming \"ethics always pays immediately\" ignores the real cash-flow trade-offs that test managerial commitment — the essence of business ethics as voluntary action beyond legal minimums.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Consumer Exploitation Audit Checklist\" for a small retail business (kirana store) with 5 specific, observable indicators each for: (a) weighing/measurement practices, (b) product information disclosure, (c) pricing transparency, (d) grievance redressal. Explain how this operationalises ethical responsibility.",
+     "a": "Expected answer criteria: Checklist must contain specific, verifiable indicators. Example for (a): \"Electronic scale calibrated monthly by Legal Metrology dept; tare weight zeroed before each transaction; customer can verify weight on display; no thumb-on-pan practice; pre-packed goods checked for net weight compliance.\" For (b): \"MRP, expiry, ingredients, manufacturer address visible on all packs; no selling loose items without label info; FSSAI licence displayed.\" For (c): \"No charging above MRP; GST bill issued for every transaction; no hidden charges; discount terms displayed.\" For (d): \"Written complaint register maintained; response within 7 days; contact for Consumer Forum displayed; refund/replacement policy posted.\" This operationalises ethical responsibility by converting abstract duties (Right to Information, Right to Redressal) into daily measurable behaviours that can be audited — embodying the NCERT element \"establishment of compliance mechanisms.\" A poor answer listing vague items like \"be honest\" reveals inability to translate principles into enforceable organisational routines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_009",
+   "title": "c10_bio_cbse_01_009",
+   "questions": [
+    {
+     "q": "Name the four chambers of the human heart and state which chamber receives deoxygenated blood from the body.",
+     "a": "The four chambers are right atrium, right ventricle, left atrium, left ventricle. The right atrium receives deoxygenated blood from the body via the superior and inferior vena cava. A wrong answer (e.g., saying left atrium receives deoxygenated blood) reveals confusion between pulmonary and systemic return vessels, a common board exam error where students mix up the oxygenation state of blood entering each side of the heart.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pulmonary artery is classified as an artery even though it carries deoxygenated blood.",
+     "a": "Arteries are defined as vessels that carry blood away from the heart, not by oxygen content. The pulmonary artery carries blood from the right ventricle to the lungs, so it is an artery. A wrong answer (e.g., \"arteries always carry oxygenated blood\") shows the student is using a simplified rule from earlier classes instead of the structural definition required in Class 10 board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the path of blood as: Body → Right Atrium → Left Ventricle → Lungs → Left Atrium → Right Ventricle → Body. Identify the two major errors in this sequence and correct them.",
+     "a": "Error 1: Blood goes from right atrium to left ventricle — it must pass through right ventricle and pulmonary circuit first. Error 2: Blood goes from lungs to left atrium then to right ventricle — after lungs it goes to left atrium then left ventricle. Correct sequence: Body → Right Atrium → Right Ventricle → Lungs → Left Atrium → Left Ventricle → Body. A wrong answer indicates the student has not grasped the serial nature of double circulation and the strict separation of the two circuits by the septum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thickness of the walls of the left ventricle and right ventricle. Explain the structural reason for this difference in terms of the function each ventricle performs.",
+     "a": "The left ventricle wall is much thicker than the right ventricle wall. The left ventricle pumps blood at high pressure through the systemic circulation to the entire body, requiring greater muscular force. The right ventricle pumps blood only to the nearby lungs at lower pressure. A wrong answer (e.g., \"right ventricle is thicker because it pumps to lungs\") shows confusion about pressure requirements and the relationship between structure and function.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a hole in the interventricular septum (ventricular septal defect). Predict how this would affect the oxygenation level of blood leaving the left ventricle and explain the physiological consequence for the body.",
+     "a": "Oxygenated blood from the left ventricle will mix with deoxygenated blood from the right ventricle through the hole, reducing the oxygen concentration in systemic arterial blood. This leads to cyanosis, fatigue, and increased workload on the heart. A wrong answer (e.g., \"no effect because blood flows one way\") reveals misunderstanding that pressure differences drive shunting and that mixing defeats the purpose of double circulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using colored water (red and blue) and a two-chambered pump model to demonstrate double circulation. List the materials, steps, and what each color represents.",
+     "a": "Materials: Two squeeze bottles (representing right and left ventricles), tubing, red and blue food coloring, two containers labeled \"Lungs\" and \"Body\". Steps: 1) Fill right bottle with blue water (deoxygenated), left with red (oxygenated). 2) Squeeze right bottle → blue water goes to \"Lungs\" container → turn red (oxygenation). 3) Transfer red water to left bottle. 4) Squeeze left bottle → red water goes to \"Body\" container → turn blue (deoxygenation). 5) Return blue water to right bottle. Colors represent oxygenation state. A poor answer (e.g., single loop, no color change) shows the student cannot translate the concept of two serial circuits into a physical model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

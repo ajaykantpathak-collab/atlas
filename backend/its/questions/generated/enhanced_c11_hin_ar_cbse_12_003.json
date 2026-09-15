@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_12_003",
+   "title": "c11_hin_ar_cbse_12_003",
+   "questions": [
+    {
+     "q": "Identify the three primary physical settings explicitly named in the poem and the time of day when the opening stanza occurs.",
+     "a": "The three primary physical settings are the village lane (implied by the postman's arrival), the garden/grove (लकुंज), and the papaya grove (पपी के पत्तों तले); the opening stanza occurs at dusk/evening (साँझ/ढलती शाम). A wrong answer that lists \"post office\" or \"house interior\" reveals the student is importing external knowledge instead of staying with textual evidence; missing \"डकस\" as a time marker shows they cannot distinguish temporal setting from physical setting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the repetition of \"डकस डकस\" (dark dark) in the first stanza functions differently from a single use of \"अंधेरा\" would.",
+     "a": "The reduplication \"डकस डकस\" mimics the spreading, enveloping quality of twilight — it *sounds* like darkness thickening — whereas \"अंधेरा\" is a static noun naming a condition. A wrong answer that treats them as synonyms misses the phonetic enactment (onomatopoeic weight) that creates atmosphere; this reveals the student reads for lexical meaning only, not for sound-as-meaning, a critical gap at Class 11 level.",
+     "self_check": true
+    },
+    {
+     "q": "The poem shifts from \"पकिपकी\" (footsteps/knocking) in stanza 2 to \"कट फकस\" (light the lamp) in the final stanza. Using only textual evidence, explain how this auditory-to-visual shift restructures the atmosphere.",
+     "a": "Stanza 2's \"पकिपकी\" (heavy footsteps/knocking) anchors the atmosphere in *anticipatory tension* — sound travels in darkness, making the unseen postman felt before seen. The final stanza's imperative \"कट फकस\" replaces sound with a visual command; light becomes an *act of agency* (literacy illuminating ignorance). A student who only notes \"mood changes\" without linking the sensory modality shift (auditory → visual) to the thematic arc (passive waiting → active learning) shows they cannot connect formal choices to meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the atmosphere created by the papaya leaves (\"पपी के पत्ते / खड़खड़ाते\") with the atmosphere created by the letter (\"चिी\") in the same spatial setting. What does the contrast reveal about the poem's view of communication?",
+     "a": "The papaya leaves produce a natural, indifferent rustle (खड़खड़ाते) — nature's background noise that *conceals* the postman's approach; the letter is a human artifact that *demands* decoding. The contrast reveals communication as an interruption of natural silence, requiring deliberate effort (literacy) to transform noise into meaning. A wrong answer that calls both \"peaceful\" or \"scary\" flattens the poem's tension between organic environment and cultural intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The poem's atmosphere is predominantly fearful because of the repeated darkness imagery.\" Defend or refute using three specific textual details.",
+     "a": "Refute. (1) \"पकिपकी\" suggests *expectation*, not dread — the speaker *knows* the postman comes. (2) \"पैक कहती है / तू भी पढ़ ले\" frames the encounter as invitation, not threat. (3) The closing \"कट फकस / ढिबरी पर चढ़ा दे\" is a domestic, hopeful act — lighting a lamp for reading. Fear would lack the imperative to *learn*. A student who agrees confuses \"dark setting\" with \"fearful atmosphere,\" ignoring the speaker's agency and the poem's didactic warmth.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza in Hindi (free verse) that *continues* the poem's atmosphere after \"कट फकस,\" using at least two setting details from the original (e.g., papaya leaves, lantern, garden) and introducing one new sensory detail.",
+     "a": "Example: \"पपी के पत्ते अब चुप हैं / ढिबरी की लौ काँपती नहीं / अक्षर फूटते हैं बीज की तरह / रात गंधाती है स्याही और मिट्टी की।\" A strong answer maintains the hushed intimacy, transforms darkness into growth (बीज), and adds olfactory detail (गंध). A weak answer that adds dramatic action (e.g., \"storm comes\") or shifts to abstract sermonising (\"education is good\") shows the student cannot sustain atmospheric consistency — they treat setting as backdrop, not living context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

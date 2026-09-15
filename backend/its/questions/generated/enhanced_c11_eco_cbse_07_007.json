@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_007",
+   "title": "c11_eco_cbse_07_007",
+   "questions": [
+    {
+     "q": "State the four functions of the environment as per NCERT and identify which two functions are compromised when waste generation exceeds assimilative capacity.",
+     "a": "The four functions: (1) supplies resources (renewable and non-renewable), (2) assimilates waste, (3) sustains life via genetic/biodiversity, (4) provides aesthetic services. When waste exceeds assimilative capacity, functions (2) and (3) are compromised — waste accumulates causing pollution, which then damages ecosystems and biodiversity that sustain life. A wrong answer (e.g., listing only \"pollution control\" as a function) reveals the student memorised keywords without understanding the systemic interdependence: waste assimilation failure directly triggers life-support failure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT states \"70% of water in India is polluted\" leads to \"increased incidence of water-borne diseases\" AND \"rising health expenditure\" — trace the complete causal chain from pollution to fiscal burden.",
+     "a": "Pollutants (industrial effluents, sewage, agricultural runoff) → contaminate surface/groundwater → pathogens (bacteria, viruses, parasites) and toxins (heavy metals) enter drinking water → ingestion causes cholera, typhoid, hepatitis, diarrhoea → morbidity increases → households spend on medicines, hospitalisation, transport → out-of-pocket health expenditure rises → government spends more on public health infrastructure, disease surveillance, water treatment → fiscal burden increases. A wrong answer that stops at \"diseases increase\" misses the economic transmission mechanism: health expenditure is a derivative of disease incidence, not a separate phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Using the NCERT data: soil erosion = 5.3 billion tonnes/year, nutrient loss = 0.8 Mt nitrogen, 1.8 Mt phosphorus, 26.3 Mt potassium annually. If NPK fertiliser prices are ₹25/kg (N), ₹30/kg (P), ₹20/kg (K), calculate the annual monetary value of soil nutrient loss. What does this represent economically?",
+     "a": "Step 1: Convert tonnes to kg: 0.8 Mt N = 800 million kg; 1.8 Mt P = 1,800 million kg; 26.3 Mt K = 26,300 million kg.\nStep 2: Calculate value: N = 800M × ₹25 = ₹20,000 crore; P = 1,800M × ₹30 = ₹54,000 crore; K = 26,300M × ₹20 = ₹5,26,000 crore.\nStep 3: Total = ₹5,26,000 + ₹54,000 + ₹20,000 = ₹6,00,000 crore (₹6 lakh crore) annually.\nStep 4: Economic interpretation: This is the replacement cost of nutrients lost — a lower-bound estimate of the annual depletion cost of land degradation. It represents the amount farmers/government must spend on chemical fertilisers to maintain yields, diverting funds from other productive investments. A wrong answer (e.g., only calculating one nutrient) reveals inability to handle multi-component environmental accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the health-economic impact pathway of air pollution (vehicular emissions in Delhi) vs. water pollution (industrial effluents in Damodar Valley). Identify two similarities and two differences in how the externality transmits to the economy.",
+     "a": "Similarities: (1) Both create negative externalities where polluters don't bear full health costs — households/government internalise via medical spending. (2) Both reduce labour productivity — air pollution causes absenteeism from respiratory illness; water pollution causes absenteeism from diarrhoeal disease.\nDifferences: (1) Air pollution (ground-level, vehicular) affects dense urban populations directly and immediately (inhalation pathway); water pollution affects downstream communities with time lag (ingestion pathway). (2) Air pollution health costs are recurring/chronic (asthma, COPD requiring lifelong medication); water pollution costs are often acute/episodic (outbreaks) but can become chronic with heavy metal accumulation (cancer, neurological damage). A wrong answer listing only \"both cause illness\" misses the structural difference in exposure pathways and cost temporal profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The opportunity cost of environmental degradation is zero for a poor household that relies on firewood for cooking because they have no alternative.\" Use the concept of carrying capacity and intergenerational equity.",
+     "a": "The statement is false. Opportunity cost is NOT zero — it is the value of the next best alternative forgone. For a poor household using firewood: (1) Private opportunity cost = time spent collecting firewood (could be used for wage labour/education) + health costs from indoor air pollution (ARI, COPD). (2) Social opportunity cost = forest degradation → loss of watershed protection, biodiversity, carbon sequestration → reduced future productivity for the same household and future generations. (3) Carrying capacity: firewood extraction exceeding regeneration rate depletes the resource stock, making future collection harder/more time-consuming — a dynamic opportunity cost. (4) Intergenerational equity: current extraction reduces the asset base for children. The household's lack of alternatives reflects credit constraints and market failure, not zero opportunity cost. A wrong answer confusing \"no monetary payment\" with \"zero opportunity cost\" reveals a fundamental misunderstanding of economic cost vs. financial outlay.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple environmental health-economic account for a hypothetical Indian village of 5,000 people where groundwater fluoride concentration is 3.5 mg/L (WHO limit: 1.5 mg/L). Estimate annual dental/skeletal fluorosis cases, treatment cost, and productivity loss. State all assumptions.",
+     "a": "Assumptions: (1) 60% population (3,000) uses contaminated groundwater. (2) Fluorosis prevalence at 3.5 mg/L = 25% (dental) + 5% (skeletal) based on ICMR studies. (3) Dental treatment: ₹2,000/case/year; skeletal: ₹15,000/case/year. (4) Productivity loss: dental = 2 days/year; skeletal = 30 days/year; daily wage = ₹300.\nCalculations:\n- Dental cases = 3,000 × 25% = 750; cost = 750 × ₹2,000 = ₹15 lakh; productivity loss = 750 × 2 × ₹300 = ₹4.5 lakh.\n- Skeletal cases = 3,000 × 5% = 150; cost = 150 × ₹15,000 = ₹22.5 lakh; productivity loss = 150 × 30 × ₹300 = ₹13.5 lakh.\n- Total annual cost = ₹15L + ₹4.5L + ₹22.5L + ₹13.5L = ₹55.5 lakh.\n- Per capita cost = ₹55.5L / 5,000 = ₹1,110.\nA good answer includes explicit assumptions, unit consistency, and distinguishes stock (skeletal) vs. flow (dental) impacts. A poor answer uses arbitrary numbers without epidemiological basis or ignores productivity loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

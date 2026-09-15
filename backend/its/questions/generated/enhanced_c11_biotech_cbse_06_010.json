@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_010",
+   "title": "c11_biotech_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the standard symbol used to represent an affected female in a pedigree chart, and how is a mating between two individuals indicated?",
+     "a": "An affected female is represented by a completely shaded circle. A mating (marriage/partnership) between two individuals is indicated by a horizontal line connecting the male (square) and female (circle) symbols. A wrong answer (e.g., using a triangle for female or a dashed line for mating) reveals the student has memorised symbols in isolation without understanding the systematic convention where gender is shape (square/circle) and phenotype is shading (filled/unfilled), and relationships are lines (horizontal for mating, vertical for offspring).",
+     "self_check": true
+    },
+    {
+     "q": "In a pedigree, two unaffected parents have an affected child. The trait appears in both males and females equally across generations. A student claims this must be autosomal dominant because \"dominant traits appear in every generation.\" Explain why this reasoning is incorrect and identify the actual mode of inheritance.",
+     "a": "The reasoning is incorrect because autosomal dominant traits typically appear in every generation (vertical transmission) with an affected parent, but here both parents are unaffected — which is impossible for a fully penetrant autosomal dominant trait. The correct mode is autosomal recessive: unaffected parents can be heterozygous carriers (Aa × Aa), producing affected homozygous recessive (aa) offspring with 25% probability. Equal male/female distribution rules out sex-linkage. A wrong answer reveals confusion between \"dominant phenotype requires affected parent\" (true for dominant) and \"recessive traits skip generations\" (true but not absolute — they can appear in siblings without affected parents).",
+     "self_check": true
+    },
+    {
+     "q": "A pedigree shows an affected father with four children: two affected sons, one affected daughter, and one unaffected son. The mother is unaffected. No other relatives on either side are affected. Determine the mode of inheritance and calculate the probability that the unaffected son is a carrier.",
+     "a": "Mode: Autosomal dominant. Reasoning: Affected father transmits trait to both sons and daughters (ruling out Y-linked). Unaffected mother means she is homozygous recessive (aa). Father must be heterozygous (Aa) since not all children are affected. Each child has 50% chance of inheriting the mutant allele. The unaffected son (aa) cannot be a carrier for a dominant trait — \"carrier\" implies heterozygosity without phenotype, which only applies to recessive traits. Probability = 0. A wrong answer (e.g., saying X-linked recessive or giving 50% carrier probability) reveals failure to recognise that dominant traits don't have asymptomatic carriers and that father-to-son transmission rules out X-linked inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pedigree patterns of X-linked recessive and mitochondrial inheritance. Both show maternal transmission bias. How would you distinguish them using only pedigree data from a three-generation family?",
+     "a": "X-linked recessive: Affected males transmit the mutant allele to all daughters (who become obligate carriers) but to no sons. Carrier females transmit to 50% of sons (affected) and 50% of daughters (carriers). Mitochondrial: Affected females transmit to all children (both sexes); affected males transmit to none. Key test: If an affected male has affected children → X-linked recessive (if daughters affected) or autosomal (if both sexes). If affected male has zero affected children but his sister's children are affected → mitochondrial. A wrong answer (e.g., \"both show only maternal inheritance\") reveals overlooking that X-linked recessive fathers pass X to all daughters, creating a distinct pattern of carrier females linking generations, whereas mitochondrial shows strict maternal lineage with no male transmission ever.",
+     "self_check": true
+    },
+    {
+     "q": "A genetic counsellor examines a pedigree where a rare trait appears in Generation I (male), Generation II (two females, one male), and Generation III (three males, two females). The trait never skips a generation. Affected males have affected daughters but never affected sons. Affected females have affected children of both sexes in roughly 1:1 ratio. The counsellor concludes \"X-linked dominant.\" Critique this conclusion and provide the correct interpretation with evidence.",
+     "a": "The conclusion is correct: X-linked dominant. Evidence: (1) No male-to-son transmission (affected father → unaffected sons) because father gives Y to sons. (2) Affected father → all daughters affected (father gives only X to daughters). (3) Affected mother (heterozygous) → 50% sons affected, 50% daughters affected. (4) No generation skipping (dominant). (5) Both sexes affected but with sex-specific transmission patterns. A wrong critique (e.g., \"could be autosomal dominant\") fails to explain why autosomal dominant would show male-to-son transmission, which is absent here. The sex-specific transmission pattern is the definitive discriminator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-generation pedigree for a family with an autosomal recessive disorder where: (a) the proband is a female in Generation III, (b) her parents are unaffected, (c) she has one affected brother and one unaffected sister, (d) her paternal grandparents are unaffected but have an affected son (the proband's father's brother), and (e) no one on the maternal side is affected. Label all genotypes.",
+     "a": "Generation I: Paternal grandparents (both Aa, unshaded). Maternal grandparents (both AA, unshaded). Generation II: Paternal side — Father (Aa, unshaded), Uncle (aa, shaded). Maternal side — Mother (AA, unshaded). Generation III: Proband female (aa, shaded), Brother (aa, shaded), Sister (AA or Aa, unshaded). Key: Father and Mother must both be carriers (Aa × AA? No — mother must be Aa to have affected children. But condition (e) says no one on maternal side affected — so maternal grandparents could be AA and Aa, making mother Aa. Genotypes: Paternal GM: Aa, GF: Aa; Maternal GM: AA, GF: Aa; Father: Aa, Mother: Aa; Children: aa, aa, A_. A poor answer (e.g., making mother AA) reveals inability to deduce that two unaffected parents of affected children must both be heterozygous carriers, regardless of family history on that side.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

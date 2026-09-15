@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_001",
+   "title": "c11_cs_cbse_03_001",
+   "questions": [
+    {
+     "q": "What are the four main steps of problem solving in computer science, in the correct order?",
+     "a": "The four main steps in order are: 1) Problem Analysis (understanding inputs, outputs, and processing requirements), 2) Algorithm Design (creating a step-by-step logical solution using pseudocode or flowcharts), 3) Coding (translating the algorithm into a programming language), 4) Testing and Debugging (verifying correctness with sample inputs and fixing errors). A wrong answer (e.g., listing coding first or skipping analysis) reveals the student believes programming starts with writing code, ignoring the critical planning phases that prevent logical errors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"writing the code immediately after reading the problem\" is an ineffective problem-solving strategy. Use the kirana store billing example.",
+     "a": "Writing code immediately skips analysis and algorithm design, leading to syntax-focused rather than logic-focused thinking. In the kirana example, a student might write Python code for discount calculation but forget the GST step, or apply discount incorrectly (e.g., on total including GST). Analysis would have identified both discount and GST as separate sequential processes. Algorithm design would have clarified the order: calculate subtotal → check discount condition → apply discount → calculate GST on discounted amount → output final bill. A wrong answer indicates the student conflates coding with problem solving and does not recognize that planning reduces cognitive load during implementation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following algorithm for the kirana store problem: \"Input prices. Calculate total. If total > 500, give 10% discount. Add 5% GST. Print final amount.\" Identify two missing details that would cause incorrect results when coded.",
+     "a": "Two critical missing details: 1) The algorithm does not specify whether GST is calculated on the original total or the discounted total (legally, GST applies on discounted amount). 2) It does not handle multiple items with quantities — \"input prices\" is ambiguous (single total? list of prices?). A correct algorithm would specify: \"Input number of items, then for each item input price and quantity. Compute subtotal = sum(price × quantity). If subtotal > 500, discount = subtotal × 0.10 else discount = 0. Taxable = subtotal - discount. GST = taxable × 0.05. Final = taxable + GST.\" A wrong answer shows the student cannot decompose a problem into precise, unambiguous steps — a core skill in algorithm design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of pseudocode and flowchart in algorithm design. When would you choose one over the other for a problem involving nested conditional logic (e.g., discount slabs: 5% for ₹500-1000, 10% for ₹1000-2000, 15% above ₹2000)?",
+     "a": "Pseudocode uses structured English-like statements to describe logic linearly; flowcharts use standardized symbols (diamonds for decisions, rectangles for processes) to show control flow visually. For nested conditionals like discount slabs, a flowchart becomes cluttered with multiple decision diamonds and crossing arrows, making it hard to follow. Pseudocode handles nesting naturally with indentation (IF...ELIF...ELSE). Choose pseudocode for complex branching/looping logic; choose flowchart for simple sequential processes or when presenting to non-programmers. A wrong answer (e.g., \"always use flowchart\") reveals the student does not understand that representation choice depends on problem complexity and audience.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Testing is only needed after the full program is written; debugging can be done at the end.\" Justify your answer with reference to the problem-solving steps.",
+     "a": "The statement is incorrect. Testing should be incremental: after coding each module (e.g., discount calculation function), test it independently with boundary values (₹499, ₹500, ₹501) before integrating. Debugging at the end makes error isolation exponentially harder because multiple logical errors interact. In the problem-solving framework, testing/debugging is not a single final phase but a continuous activity — algorithm design includes dry runs (manual tracing), coding includes unit testing, and final testing validates integration. A wrong answer shows the student views testing as a checkbox rather than a verification strategy embedded throughout the process.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world problem (different from billing) that requires all four problem-solving steps. Write the analysis step (inputs, processes, outputs) and the first three lines of pseudocode for the algorithm.",
+     "a": "Example problem: \"A school needs a program to determine if a student is eligible for a scholarship. Eligibility: attendance ≥ 75% AND average marks ≥ 60% OR sports participation at state level.\" Analysis: Inputs — attendance percentage, average marks, sports participation (yes/no). Processes — check attendance condition, check marks condition, check sports condition, combine with AND/OR logic. Output — \"Eligible\" or \"Not Eligible\". Pseudocode lines: 1) INPUT attendance, avg_marks, sports_state 2) IF attendance >= 75 AND avg_marks >= 60 THEN 3) eligible = TRUE. A poor answer would omit one input, use vague processes (\"calculate eligibility\"), or write code syntax instead of pseudocode — indicating inability to abstract a problem into computational steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

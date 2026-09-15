@@ -1,0 +1,662 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Exploring Forces",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu105.txt",
+ "concepts": [
+  {
+   "id": "c8cu.5.1",
+   "title": "Force and Its Effects",
+   "section": "5.1",
+   "definition": "A force is a push or a pull on an object that can change its state of motion, direction, or shape.",
+   "formula": "",
+   "key_idea": "A force is any push or pull that can change how an object moves or looks.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a force?",
+    "What are the effects of force on an object?",
+    "How can a force change the shape of an object?",
+    "Give one example where a force changes the speed of an object.",
+    "Can a force change the direction of a moving object? Explain with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the push or pull",
+     "explain": "Recognise that a force is being applied on the object."
+    },
+    {
+     "step": 2,
+     "action": "Observe the effect",
+     "explain": "Check whether the object's speed, direction, or shape changes."
+    },
+    {
+     "step": 3,
+     "action": "State the effect",
+     "explain": "Conclude that the force has caused one of the observed changes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a force?",
+     "solution": "A force is a push or a pull that acts on an object.",
+     "answer": "A force is a push or pull on an object."
+    },
+    {
+     "question": "What are the effects of force on an object?",
+     "solution": "A force can change the speed, direction, or shape of an object.",
+     "answer": "Force can change speed, direction, or shape."
+    },
+    {
+     "question": "Give one example where a force changes the shape of an object.",
+     "solution": "Squeezing a soft ball with the hand changes its shape.",
+     "answer": "Squeezing a soft ball changes its shape."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Can a force change the direction of a moving object? Explain with an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example where a force changes the speed of an object.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can a force change the shape of an object?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.2",
+   "title": "Contact and Non-Contact Forces",
+   "section": "5.2",
+   "definition": "Forces are grouped into contact forces, which need touching, and non-contact forces, which act from a distance.",
+   "formula": "",
+   "key_idea": "Some forces need direct contact while others act from a distance without touching.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are contact forces?",
+    "What are non-contact forces?",
+    "How do contact and non-contact forces differ?",
+    "Give one example of a contact force.",
+    "Give one example of a non-contact force."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for contact",
+     "explain": "Decide whether the force needs the objects to touch."
+    },
+    {
+     "step": 2,
+     "action": "Classify the force",
+     "explain": "If touching is needed it is a contact force; otherwise it is a non-contact force."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "Provide a matching example for the chosen type."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are contact forces?",
+     "solution": "Contact forces act only when objects touch each other, such as pushing a box.",
+     "answer": "Forces that need touching, like pushing a box."
+    },
+    {
+     "question": "What are non-contact forces?",
+     "solution": "Non-contact forces act from a distance, such as a magnet pulling iron.",
+     "answer": "Forces that act from a distance, like a magnet pulling iron."
+    },
+    {
+     "question": "How do contact and non-contact forces differ?",
+     "solution": "Contact forces need touching while non-contact forces act from a distance.",
+     "answer": "Contact forces need touch; non-contact forces do not."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of a contact force.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a non-contact force.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is friction a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.3",
+   "title": "Muscular Force",
+   "section": "5.3",
+   "definition": "Muscular force is the force applied by the muscles of humans or animals to push, pull, or lift objects.",
+   "formula": "",
+   "key_idea": "Muscular force comes from the muscles of living beings and is a contact force.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is muscular force?",
+    "Why is muscular force called a contact force?",
+    "Give one example of muscular force in daily life.",
+    "How do animals use muscular force?",
+    "What part of the body produces muscular force?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Note that the force comes from muscles of a human or animal."
+    },
+    {
+     "step": 2,
+     "action": "Check contact",
+     "explain": "Confirm that the muscles touch the object, so it is a contact force."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "Provide an example such as lifting a bucket with hands."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is muscular force?",
+     "solution": "It is the force applied by muscles of humans or animals.",
+     "answer": "Force applied by muscles of humans or animals."
+    },
+    {
+     "question": "Why is muscular force called a contact force?",
+     "solution": "Because the muscles must touch the object to apply the force.",
+     "answer": "Because muscles must touch the object."
+    },
+    {
+     "question": "Give one example of muscular force in daily life.",
+     "solution": "Lifting a school bag with the hands uses muscular force.",
+     "answer": "Lifting a school bag with the hands."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do animals use muscular force?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What part of the body produces muscular force?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is muscular force a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.4",
+   "title": "Frictional Force",
+   "section": "5.4",
+   "definition": "Frictional force is the contact force that opposes the relative motion between two surfaces in contact.",
+   "formula": "",
+   "key_idea": "Friction always acts against the direction of motion or attempted motion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is frictional force?",
+    "In which direction does friction act?",
+    "Why does a rolling ball eventually stop?",
+    "Give one example where friction is useful.",
+    "How can friction be reduced?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the surfaces",
+     "explain": "Find the two surfaces that are in contact."
+    },
+    {
+     "step": 2,
+     "action": "Find the motion",
+     "explain": "Note the direction in which the object moves or tends to move."
+    },
+    {
+     "step": 3,
+     "action": "State friction direction",
+     "explain": "Friction acts opposite to the direction of motion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is frictional force?",
+     "solution": "It is the force that opposes motion between two surfaces in contact.",
+     "answer": "The force that opposes motion between touching surfaces."
+    },
+    {
+     "question": "In which direction does friction act?",
+     "solution": "Friction acts opposite to the direction of motion or attempted motion.",
+     "answer": "Opposite to the direction of motion."
+    },
+    {
+     "question": "Why does a rolling ball eventually stop?",
+     "solution": "Friction between the ball and the ground opposes its motion and stops it.",
+     "answer": "Friction with the ground stops the ball."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example where friction is useful.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can friction be reduced?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is friction a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.5",
+   "title": "Magnetic Force",
+   "section": "5.5",
+   "definition": "Magnetic force is the non-contact force exerted by a magnet on magnetic materials like iron, nickel, and cobalt.",
+   "formula": "",
+   "key_idea": "A magnet can attract or repel objects from a distance without touching them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is magnetic force?",
+    "Why is magnetic force a non-contact force?",
+    "Which materials are attracted by a magnet?",
+    "Give one example of magnetic force in daily life.",
+    "How do like and unlike poles of a magnet interact?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the magnet",
+     "explain": "Note that a magnet is producing the force."
+    },
+    {
+     "step": 2,
+     "action": "Check the material",
+     "explain": "Confirm the object is magnetic, such as iron."
+    },
+    {
+     "step": 3,
+     "action": "State the effect",
+     "explain": "The magnet attracts or repels without contact, so it is a non-contact force."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is magnetic force?",
+     "solution": "It is the force by which a magnet attracts or repels magnetic materials.",
+     "answer": "The force of a magnet on magnetic materials."
+    },
+    {
+     "question": "Why is magnetic force a non-contact force?",
+     "solution": "Because a magnet can attract iron from a distance without touching it.",
+     "answer": "It acts from a distance without touch."
+    },
+    {
+     "question": "Which materials are attracted by a magnet?",
+     "solution": "Iron, nickel, and cobalt are attracted by a magnet.",
+     "answer": "Iron, nickel, and cobalt."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of magnetic force in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do like and unlike poles of a magnet interact?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is magnetic force a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.6",
+   "title": "Electrostatic Force",
+   "section": "5.6",
+   "definition": "Electrostatic force is the non-contact force exerted by a charged object on other objects, attracting or repelling them.",
+   "formula": "",
+   "key_idea": "A charged object can attract or repel other objects from a distance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is electrostatic force?",
+    "Why is electrostatic force called a non-contact force?",
+    "Give one example of electrostatic force in daily life.",
+    "How does a charged balloon attract paper bits?",
+    "What kind of objects produce electrostatic force?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the charge",
+     "explain": "Note that an object has become electrically charged."
+    },
+    {
+     "step": 2,
+     "action": "Observe the effect",
+     "explain": "The charged object attracts or repels other light objects."
+    },
+    {
+     "step": 3,
+     "action": "Classify the force",
+     "explain": "Since it acts from a distance, it is a non-contact force."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is electrostatic force?",
+     "solution": "It is the force exerted by a charged object on other objects.",
+     "answer": "Force from a charged object on other objects."
+    },
+    {
+     "question": "Why is electrostatic force called a non-contact force?",
+     "solution": "Because a charged object can attract light objects from a distance without touching.",
+     "answer": "It acts from a distance without touch."
+    },
+    {
+     "question": "Give one example of electrostatic force in daily life.",
+     "solution": "A rubbed balloon attracting small bits of paper shows electrostatic force.",
+     "answer": "A rubbed balloon attracting paper bits."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does a charged balloon attract paper bits?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What kind of objects produce electrostatic force?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is electrostatic force a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.7",
+   "title": "Gravitational Force",
+   "section": "5.7",
+   "definition": "Gravitational force is the non-contact force by which the Earth (and all objects) attract other objects towards their centre.",
+   "formula": "",
+   "key_idea": "Gravity pulls every object towards the Earth and is a non-contact force.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is gravitational force?",
+    "Why does an object fall to the ground when released?",
+    "Why is gravitational force a non-contact force?",
+    "Give one example of gravitational force in daily life.",
+    "Does the Moon experience gravitational force from the Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the attraction",
+     "explain": "Note that the Earth is pulling the object downward."
+    },
+    {
+     "step": 2,
+     "action": "Check for contact",
+     "explain": "Confirm that no touching is needed for gravity to act."
+    },
+    {
+     "step": 3,
+     "action": "State the force type",
+     "explain": "Gravity is a non-contact force acting on all objects."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is gravitational force?",
+     "solution": "It is the force by which the Earth attracts objects towards its centre.",
+     "answer": "The force by which the Earth pulls objects down."
+    },
+    {
+     "question": "Why does an object fall to the ground when released?",
+     "solution": "Gravitational force pulls the object towards the Earth.",
+     "answer": "Gravity pulls the object down."
+    },
+    {
+     "question": "Why is gravitational force a non-contact force?",
+     "solution": "Because the Earth pulls objects even when they are not touching it.",
+     "answer": "It acts without contact."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of gravitational force in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does the Moon experience gravitational force from the Earth?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is gravitational force a contact or non-contact force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.8",
+   "title": "Effects of Force on Motion and Shape",
+   "section": "5.8",
+   "definition": "A force can change the speed of a moving object, change its direction, or change its shape.",
+   "formula": "",
+   "key_idea": "Force can change how fast an object moves, where it moves, or how it looks.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three main effects of a force?",
+    "How can a force change the speed of an object?",
+    "How can a force change the direction of an object?",
+    "How can a force change the shape of an object?",
+    "Give one example where a force changes both speed and direction."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the force",
+     "explain": "Note the force being applied on the object."
+    },
+    {
+     "step": 2,
+     "action": "Observe the change",
+     "explain": "Check whether speed, direction, or shape has changed."
+    },
+    {
+     "step": 3,
+     "action": "State the effect",
+     "explain": "Conclude which of the three effects the force produced."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three main effects of a force?",
+     "solution": "A force can change speed, direction, or shape of an object.",
+     "answer": "Speed, direction, or shape."
+    },
+    {
+     "question": "How can a force change the direction of an object?",
+     "solution": "By pushing the object sideways, such as a batsman hitting a cricket ball in a new direction.",
+     "answer": "By pushing the object in a new direction."
+    },
+    {
+     "question": "How can a force change the shape of an object?",
+     "solution": "By pressing or stretching it, such as kneading dough changes its shape.",
+     "answer": "By pressing or stretching the object."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How can a force change the speed of an object?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example where a force changes both speed and direction.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Can a force change the shape of an object? Give an example.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.9",
+   "title": "Balanced and Unbalanced Forces",
+   "section": "5.9",
+   "definition": "Balanced forces are equal and opposite forces that do not change motion, while unbalanced forces cause a change in speed or direction.",
+   "formula": "",
+   "key_idea": "Unbalanced forces change motion; balanced forces do not.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are balanced forces?",
+    "What are unbalanced forces?",
+    "How do balanced and unbalanced forces differ?",
+    "Give one example of balanced forces.",
+    "Give one example of unbalanced forces."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare the forces",
+     "explain": "Check the sizes and directions of the forces acting on the object."
+    },
+    {
+     "step": 2,
+     "action": "Find the net force",
+     "explain": "If forces are equal and opposite the net force is zero; otherwise there is a net force."
+    },
+    {
+     "step": 3,
+     "action": "State the result",
+     "explain": "Balanced forces cause no change in motion; unbalanced forces change motion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are balanced forces?",
+     "solution": "Equal and opposite forces whose net effect is zero.",
+     "answer": "Equal and opposite forces with no net effect."
+    },
+    {
+     "question": "What are unbalanced forces?",
+     "solution": "Forces that are not equal and opposite, causing a change in motion.",
+     "answer": "Forces that cause a change in motion."
+    },
+    {
+     "question": "How do balanced and unbalanced forces differ?",
+     "solution": "Balanced forces do not change motion; unbalanced forces do.",
+     "answer": "Balanced forces cause no motion change; unbalanced forces do."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of balanced forces.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of unbalanced forces.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does a moving object keep moving under balanced forces?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.5.10",
+   "title": "Newton's First Law and Inertia",
+   "section": "5.10",
+   "definition": "Newton's first law states that an object stays at rest or in uniform motion unless acted upon by an unbalanced force; this tendency is called inertia.",
+   "formula": "",
+   "key_idea": "Objects resist changes to their motion; this resistance is inertia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Newton's first law of motion?",
+    "What is inertia?",
+    "Why does a passenger fall forward when a bus stops suddenly?",
+    "How is inertia related to mass?",
+    "Give one example of inertia in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the state of motion",
+     "explain": "Note whether the object is at rest or moving uniformly."
+    },
+    {
+     "step": 2,
+     "action": "Check for unbalanced force",
+     "explain": "See whether an unbalanced force acts on the object."
+    },
+    {
+     "step": 3,
+     "action": "Apply the first law",
+     "explain": "If no unbalanced force acts, the object keeps its state of motion due to inertia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is Newton's first law of motion?",
+     "solution": "An object stays at rest or in uniform motion unless an unbalanced force acts on it.",
+     "answer": "Objects keep their state of motion unless a force acts."
+    },
+    {
+     "question": "What is inertia?",
+     "solution": "Inertia is the tendency of an object to resist any change in its state of motion.",
+     "answer": "The tendency to resist changes in motion."
+    },
+    {
+     "question": "Why does a passenger fall forward when a bus stops suddenly?",
+     "solution": "The passenger's body tends to keep moving due to inertia when the bus stops.",
+     "answer": "Inertia keeps the body moving forward."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is inertia related to mass?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of inertia in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does a moving object keep moving unless a force stops it?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

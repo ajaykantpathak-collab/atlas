@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_007",
+   "title": "c11_math_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the modulus of the complex number \\( z = -5 + 12i \\)? Write the formula and compute the exact value.",
+     "a": "The modulus is \\( |z| = \\sqrt{(-5)^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13 \\). A wrong answer like \\( \\sqrt{-25 + 144} = \\sqrt{119} \\) reveals the student is squaring the imaginary unit \\( i \\) instead of treating the coefficient 12 as a real number, confusing algebraic form with the modulus formula.",
+     "self_check": true
+    },
+    {
+     "q": "If \\( z = 2 - 3i \\), what is \\( z \\cdot \\bar{z} \\)? How does this relate to \\( |z|^2 \\)? Explain why this relationship holds for any complex number.",
+     "a": "\\( \\bar{z} = 2 + 3i \\), so \\( z \\cdot \\bar{z} = (2 - 3i)(2 + 3i) = 4 - 9i^2 = 4 + 9 = 13 \\). Also \\( |z| = \\sqrt{2^2 + (-3)^2} = \\sqrt{13} \\), so \\( |z|^2 = 13 \\). The identity \\( z\\bar{z} = |z|^2 \\) holds because \\( (a+ib)(a-ib) = a^2 - (ib)^2 = a^2 + b^2 = |z|^2 \\). A wrong answer like \\( (2-3i)(2-3i) = 4 - 12i + 9i^2 = -5 -12i \\) shows the student confused conjugate with the original number, missing the sign change in the imaginary part.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify \\( \\frac{3 + 4i}{1 - 2i} \\) by multiplying numerator and denominator by the conjugate of the denominator. Express your answer in standard form \\( a + ib \\).",
+     "a": "Multiply by \\( \\frac{1 + 2i}{1 + 2i} \\): Numerator: \\( (3+4i)(1+2i) = 3 + 6i + 4i + 8i^2 = 3 + 10i - 8 = -5 + 10i \\). Denominator: \\( (1-2i)(1+2i) = 1 - 4i^2 = 1 + 4 = 5 \\). Result: \\( \\frac{-5 + 10i}{5} = -1 + 2i \\). A wrong answer like \\( -5 + 10i \\) (forgetting to divide by 5) or \\( \\frac{-5 + 10i}{1 - 4i} \\) (not simplifying denominator) reveals the student doesn't recognize that the conjugate product yields a real denominator, which is the entire purpose of this technique.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\( z_1 = 1 + i \\) and \\( z_2 = 2 - i \\), verify whether \\( |z_1 z_2| = |z_1| |z_2| \\) and \\( \\overline{z_1 z_2} = \\bar{z_1} \\bar{z_2} \\). What do these properties tell you about the algebraic structure?",
+     "a": "\\( z_1 z_2 = (1+i)(2-i) = 2 - i + 2i - i^2 = 3 + i \\). \\( |z_1 z_2| = \\sqrt{3^2 + 1^2} = \\sqrt{10} \\). \\( |z_1| = \\sqrt{2} \\), \\( |z_2| = \\sqrt{5} \\), product \\( = \\sqrt{10} \\). Equal. \\( \\overline{z_1 z_2} = 3 - i \\). \\( \\bar{z_1} = 1-i \\), \\( \\bar{z_2} = 2+i \\), product \\( = (1-i)(2+i) = 2 + i - 2i - i^2 = 3 - i \\). Equal. These show modulus is multiplicative and conjugation is an automorphism — both preserve the algebraic structure. A wrong answer where the student computes \\( |z_1 z_2| \\) as \\( |z_1| + |z_2| \\) reveals additive thinking instead of multiplicative, a common error when generalizing from real absolute value properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any complex number \\( z \\), \\( |z^2| = |z|^2 \\) and \\( \\overline{z^2} = (\\bar{z})^2 \\).\" Is this always true? Justify your answer with a proof or counterexample.",
+     "a": "Yes, always true. Proof: \\( |z^2| = |z \\cdot z| = |z| \\cdot |z| = |z|^2 \\) (using multiplicativity of modulus). \\( \\overline{z^2} = \\overline{z \\cdot z} = \\bar{z} \\cdot \\bar{z} = (\\bar{z})^2 \\) (using conjugation distributes over multiplication). These are special cases of the general properties \\( |z_1 z_2| = |z_1||z_2| \\) and \\( \\overline{z_1 z_2} = \\bar{z_1}\\bar{z_2} \\). A wrong answer claiming it's false with a counterexample like \\( z = 1+i \\) (where \\( z^2 = 2i \\), \\( |z^2| = 2 \\), \\( |z|^2 = (\\sqrt{2})^2 = 2 \\) — actually equal!) reveals the student made an arithmetic error in computing powers or moduli, not a conceptual flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Create a complex number \\( z \\) such that \\( |z| = 5 \\) and \\( \\text{Re}(z) = 3 \\). How many such numbers exist? Find all of them and plot them on the Argand plane.",
+     "a": "Let \\( z = 3 + iy \\). Then \\( |z| = \\sqrt{3^2 + y^2} = 5 \\Rightarrow 9 + y^2 = 25 \\Rightarrow y^2 = 16 \\Rightarrow y = \\pm 4 \\). Two numbers: \\( 3 + 4i \\) and \\( 3 - 4i \\). They are symmetric about the real axis (conjugates). A poor answer giving only \\( 3 + 4i \\) misses the negative root, revealing the student forgets that modulus uses \\( y^2 \\), losing sign information — a key insight that conjugate pairs share the same modulus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

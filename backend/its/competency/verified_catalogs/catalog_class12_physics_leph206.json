@@ -1,0 +1,553 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 206,
+ "chapter_title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph206.14.2.1",
+   "title": "Conductivity Classes of Solids",
+   "section": "14.2",
+   "definition": "Solids sort into three camps by resistivity: metals around 1e-8 to 1e-2 ohm m, semiconductors in the wide middle stretch near 1e-5 to 1e6 ohm m, and insulators far above at 1e11 to 1e19 ohm m. The ranges overlap loosely; conductivity is a spectrum, not three boxes.",
+   "formula": "resistivity: metal 1e-8 to 1e-2, semiconductor 1e-5 to 1e6, insulator 1e11 to 1e19 ohm m",
+   "key_idea": "Semiconductors earn their name from sitting between metals and insulators on the resistivity ladder.",
+   "textbook_ref": "leph206.txt section 14.2 (resistivity/conductivity ranges for metals, semiconductors, insulators)",
+   "question_patterns": [
+    "classify metals, semiconductors and insulators by their resistivity ranges",
+    "where does the conductivity of a semiconductor stand compared with copper and glass",
+    "give the approximate order of resistivity for an insulator",
+    "why are semiconductors said to have intermediate conductivity",
+    "sort silicon, diamond and copper into conductor, semiconductor and insulator",
+    "state the conductivity spread that separates a metal from an insulator"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the resistivity",
+     "explain": "compare the given resistivity with the three rough bands to name the class"
+    },
+    {
+     "step": 2,
+     "action": "check the extremes",
+     "explain": "metals conduct best, insulators worst, semiconductors sit between and respond strongly to temperature and light"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.2.2",
+   "title": "Energy Bands and the Band Gap",
+   "section": "14.2",
+   "definition": "In a crystal the atomic energy levels merge into bands: a valence band filled with bonding electrons and an empty conduction band above it. The gap Eg between them decides the class -- near zero for metals, under 3 eV for semiconductors, above 3 eV for insulators.",
+   "formula": "eg > 3 ev gives insulator; eg under 3 ev gives semiconductor; eg near zero gives metal",
+   "key_idea": "Silicon at 1.1 eV and germanium at 0.7 eV cross the gap easily with heat; diamond at 5.4 eV cannot, which is why carbon is an insulator.",
+   "textbook_ref": "leph206.txt section 14.2 (Cases I-III, Fig. 14.2, Eg values 5.4/1.1/0.7 eV for C/Si/Ge)",
+   "question_patterns": [
+    "explain the formation of energy bands in a solid",
+    "how does the size of the energy gap decide whether a solid is a metal, insulator or semiconductor",
+    "carbon, silicon and germanium have four valence electrons; order their band gaps",
+    "why does diamond insulate while silicon conducts weakly at room temperature",
+    "what occupies the conduction band at absolute zero in a pure semiconductor",
+    "compare the band gap of a typical insulator with that of silicon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the two bands",
+     "explain": "the valence band holds the bound electrons; the conduction band above it holds free ones"
+    },
+    {
+     "step": 2,
+     "action": "measure the gap",
+     "explain": "Eg under 3 eV lets thermal kicks lift electrons across; a large gap blocks them; overlap or partial fill gives a metal"
+    },
+    {
+     "step": 3,
+     "action": "judge the material",
+     "explain": "compare the stated Eg with the 3 eV dividing line to classify the solid"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.3.1",
+   "title": "Intrinsic Semiconductors and Carrier Pairs",
+   "section": "14.3",
+   "definition": "A chemically pure Si or Ge crystal conducts only through pairs its own thermal energy creates: every electron kicked into the conduction band leaves one hole behind. Hence the free-electron count equals the hole count, both set by the intrinsic concentration ni.",
+   "formula": "carrier_e = carrier_h = carrier_i",
+   "key_idea": "Purity forces electron and hole numbers to match; heat, not impurities, supplies the carriers.",
+   "textbook_ref": "leph206.txt section 14.3 (ne = nh = ni, Eq. 14.1, Example 14.1 on C vs Si vs Ge)",
+   "question_patterns": [
+    "why are electron and hole densities equal in a pure semiconductor",
+    "what is an intrinsic semiconductor and where do its carriers come from",
+    "how does raising the temperature change the carrier count of pure silicon",
+    "why does a pure semiconductor act like an insulator near absolute zero",
+    "define the intrinsic carrier concentration",
+    "explain how a broken covalent bond creates two carriers at once"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pair creation",
+     "explain": "each thermally broken bond yields one conduction electron plus one hole, so the counts stay locked"
+    },
+    {
+     "step": 2,
+     "action": "read the temperature role",
+     "explain": "at 0 K no bonds break and the crystal insulates; warming raises ni rapidly"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.3.2",
+   "title": "Hole Drift and the Total Current",
+   "section": "14.3",
+   "definition": "A hole is a vacant bond that acts like a mobile particle with charge +q: as a bound electron hops into the vacancy, the vacancy itself shifts the opposite way. Under a field, electrons and holes drift in opposite directions, and both push the current the same way, so the currents add.",
+   "formula": "current_total = current_e + current_h",
+   "key_idea": "Hole motion is bookkeeping for bound electrons, yet it carries real current alongside the free electrons.",
+   "textbook_ref": "leph206.txt section 14.3 (hole as apparent free particle, I = Ie + Ih, Eq. 14.2)",
+   "question_patterns": [
+    "what is a hole in a semiconductor and what charge does it carry",
+    "how does a hole move through a crystal when electrons fill vacancies",
+    "write the expression for total current in an intrinsic semiconductor",
+    "in which direction does a hole drift under an applied electric field",
+    "why do electron and hole currents add instead of cancelling",
+    "distinguish the motion of a free electron from that of a hole"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "picture the vacancy hop",
+     "explain": "a neighbouring bound electron slides into the empty bond, so the hole appears one site over"
+    },
+    {
+     "step": 2,
+     "action": "apply the field",
+     "explain": "electrons drift toward the positive terminal, holes toward the negative, and both contributions reinforce the current"
+    },
+    {
+     "step": 3,
+     "action": "add the streams",
+     "explain": "total current equals the electron current plus the hole current"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.4.1",
+   "title": "Donor Doping and n-Type Material",
+   "section": "14.4",
+   "definition": "Adding a trace of pentavalent atoms such as As, Sb or P to Si or Ge plants one loosely bound fifth electron per dopant, freed with only about 0.05 eV in silicon. Electrons then hugely outnumber holes, making an n-type semiconductor with electrons as majority carriers.",
+   "formula": "n-type: carrier_e >> carrier_h when doped with pentavalent donors",
+   "key_idea": "The dopant fixes the majority carrier count almost independent of temperature, unlike intrinsic generation.",
+   "textbook_ref": "leph206.txt section 14.4 (pentavalent donors As, Sb, P; ionisation ~0.01-0.05 eV; Eq. 14.3)",
+   "question_patterns": [
+    "what happens when silicon is doped with a pentavalent impurity",
+    "why is arsenic called a donor impurity in germanium",
+    "which are the majority carriers in n-type silicon",
+    "estimate the ionisation energy of the fifth electron of a donor atom in silicon",
+    "how does donor doping alter the balance between electrons and holes",
+    "why does the electron supply from donors not depend strongly on temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "bond four, free one",
+     "explain": "four dopant electrons complete the neighbour bonds; the fifth sits loosely and escapes at room temperature"
+    },
+    {
+     "step": 2,
+     "action": "recount the carriers",
+     "explain": "donor electrons swamp the intrinsic holes, so electrons dominate and holes become minority carriers"
+    },
+    {
+     "step": 3,
+     "action": "confirm neutrality",
+     "explain": "the crystal stays neutral because each freed electron leaves a fixed positive donor core behind"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.4.2",
+   "title": "Acceptor Doping and p-Type Material",
+   "section": "14.4",
+   "definition": "Trivalent dopants like B, Al or In fall one electron short of bonding to all four silicon neighbours, so each acceptor atom plants a ready-made hole. Holes then far outnumber electrons, giving a p-type semiconductor with holes as majority carriers.",
+   "formula": "p-type: carrier_h >> carrier_e when doped with trivalent acceptors",
+   "key_idea": "One acceptor atom delivers exactly one mobile hole while the dopant core turns negatively charged.",
+   "textbook_ref": "leph206.txt section 14.4 (trivalent acceptors In, B, Al; Eq. 14.4, Fig. 14.8)",
+   "question_patterns": [
+    "how does boron doping turn silicon into p-type material",
+    "which carriers dominate in a trivalent-doped semiconductor",
+    "why is aluminium called an acceptor impurity",
+    "what creates the extra hole when indium replaces a silicon atom",
+    "state the carrier inequality that defines a p-type semiconductor",
+    "explain why the doped crystal remains electrically neutral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "leave a bond open",
+     "explain": "with only three valence electrons the dopant completes three bonds and the fourth bond starts as a hole"
+    },
+    {
+     "step": 2,
+     "action": "let holes roam",
+     "explain": "nearby electrons fall into the vacancy, so the hole wanders and conducts"
+    },
+    {
+     "step": 3,
+     "action": "recount the carriers",
+     "explain": "holes overwhelm the intrinsic electrons and become the majority carriers"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.4.3",
+   "title": "Mass Action Law for Carrier Counts",
+   "section": "14.4",
+   "definition": "In thermal equilibrium the product of the electron and hole densities stays pinned at the square of the intrinsic concentration, whatever the doping. Dopant atoms are counted per million, so a ppm figure times the atomic density gives the majority carrier supply, and the law then fixes the minority count.",
+   "formula": "carrier_e * carrier_h = carrier_i ** 2",
+   "key_idea": "Doping raises one carrier family but the product law crushes the other below its intrinsic value.",
+   "textbook_ref": "leph206.txt section 14.4 (Eq. 14.5, Example 14.2: 1 ppm As in Si gives holes about 4.5e9 per m3)",
+   "question_patterns": [
+    "a pure silicon crystal has 5e28 atoms per m3 and is doped with 1 ppm of arsenic; find the electron and hole densities",
+    "use the mass action law to get the minority carrier concentration for a given doping",
+    "given the donor density and intrinsic concentration, calculate the hole count in n-type material",
+    "why does heavy n-type doping push the hole concentration below its intrinsic value",
+    "apply ne nh equal ni squared to a doped sample in equilibrium",
+    "find how many dopant atoms per cubic metre a 1 ppm dose corresponds to"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert ppm to dopant density",
+     "explain": "one ppm is one dopant atom per million host atoms, so multiply the atomic density by ppm over a million",
+     "compute": "donor_nd = atom_density * (doping_ppm / 1.0e6)"
+    },
+    {
+     "step": 2,
+     "action": "read the majority count",
+     "explain": "donors supply almost all electrons, so the majority density is about the donor density",
+     "compute": "carrier_majority = donor_nd"
+    },
+    {
+     "step": 3,
+     "action": "apply the mass action law",
+     "explain": "divide ni squared by the majority density to expose the minority carriers",
+     "compute": "carrier_minority = (intrinsic_ni ** 2) / carrier_majority"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.5.1",
+   "title": "Junction Formation, Depletion and Barrier",
+   "section": "14.5.1",
+   "definition": "Welding p and n regions into one crystal lets holes diffuse toward the n side and electrons toward the p side. The immobile ionised dopants they abandon form a carrier-free depletion strip whose internal field drives a drift back, and equilibrium locks when the two currents cancel at the barrier potential.",
+   "formula": "at equilibrium: diffusion current = drift current, so net junction current = 0",
+   "key_idea": "The depletion region is emptied of mobile charge but full of fixed ions, and its field is the barrier that bias voltages fight.",
+   "textbook_ref": "leph206.txt section 14.5.1 (diffusion and drift, depletion region thickness ~0.1 micrometre, barrier potential)",
+   "question_patterns": [
+    "describe how the depletion region forms at a p-n junction",
+    "why does a potential barrier appear across an unbiased junction",
+    "what balances the diffusion current in an isolated p-n junction",
+    "why do holes diffuse from the p side to the n side of a junction",
+    "can a p-n junction be made by pressing separate p and n slabs together",
+    "how wide is the depletion layer and why does it have high resistance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "let the gradients act",
+     "explain": "concentration differences drive holes p to n and electrons n to p, creating a diffusion current"
+    },
+    {
+     "step": 2,
+     "action": "expose the fixed ions",
+     "explain": "departing carriers leave immobile ionised dopants, building the positive n-side and negative p-side space charges"
+    },
+    {
+     "step": 3,
+     "action": "let drift answer",
+     "explain": "the junction field sweeps minority carriers back until drift exactly cancels diffusion and the barrier potential stands"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.6.1",
+   "title": "Diode Under Forward and Reverse Bias",
+   "section": "14.6.1",
+   "definition": "Battery plus minus to p and n thins the depletion layer and drops the barrier to V0 minus V, releasing a milliamp-scale forward current through minority carrier injection. Reversed polarity widens the layer, lifts the barrier to V0 plus V, and leaves only a tiny voltage-independent reverse saturation current until breakdown.",
+   "formula": "forward barrier = v0 - v; reverse barrier = v0 + v",
+   "key_idea": "Forward current grows exponentially past about 0.7 V in silicon, while reverse current stays pinned by the minority carrier supply.",
+   "textbook_ref": "leph206.txt sections 14.6.1-14.6.2 (Figs. 14.13-14.16, threshold 0.7 V Si and 0.2 V Ge, breakdown Vbr)",
+   "question_patterns": [
+    "compare the barrier height of a diode under forward and reverse bias",
+    "what is reverse saturation current and why is it nearly independent of voltage",
+    "explain threshold or cut-in voltage for a silicon diode",
+    "what happens inside the junction when the diode is forward biased",
+    "why is the forward current measured in milliamperes but the reverse in microamperes",
+    "what danger awaits a diode pushed past its breakdown voltage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the polarity",
+     "explain": "forward bias opposes the built-in field and shrinks the depletion layer; reverse bias reinforces it"
+    },
+    {
+     "step": 2,
+     "action": "track the carriers",
+     "explain": "forward bias injects minorities across the junction for a large diffusion current; reverse bias sweeps locals away, leaving the small saturation drift"
+    },
+    {
+     "step": 3,
+     "action": "read the V-I curve",
+     "explain": "current crawls until the threshold voltage, then climbs steeply; in reverse it flattens until breakdown"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.6.2",
+   "title": "Dynamic Resistance of a Diode",
+   "section": "14.6.2",
+   "definition": "Because the diode curve bends, its resistance is quoted locally: the small change in voltage across the junction divided by the small change in current it produces. A steep forward stretch gives a few ohms while the flat reverse stretch gives millions.",
+   "formula": "rd = delta_v / delta_i",
+   "key_idea": "Dynamic resistance is the slope of the V-I characteristic, not the ratio of total V to total I.",
+   "textbook_ref": "leph206.txt section 14.6.2 (Eq. 14.6, Example 14.4: 10 ohm forward, 1e7 ohm reverse)",
+   "question_patterns": [
+    "find the dynamic resistance of a diode from two nearby points on its V-I curve",
+    "calculate rd when a 0.1 V rise raises the diode current from 10 mA to 20 mA",
+    "what is the forward resistance of the diode in Example 14.4 at 15 mA",
+    "why is the reverse resistance of a diode so much larger than the forward one",
+    "define dynamic resistance and say how it differs from static resistance",
+    "determine the ac resistance of a diode operating at a stated bias point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the local slope",
+     "explain": "divide the small voltage swing by the current swing it causes, with the current in amperes",
+     "compute": "rd = volt_change / current_change"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.7.1",
+   "title": "Half-Wave Rectifier Action",
+   "section": "14.7",
+   "definition": "One diode in series with the load conducts only while the transformer voltage pushes it forward, so the load sees isolated positive humps and nothing during the other half of every cycle. The output is unidirectional but gappy, delivering one pulse per input cycle.",
+   "formula": "output exists only in the half cycle where the diode is forward biased",
+   "key_idea": "The diode's one-way conductivity is the whole trick: it chops away the unwanted half of the ac wave.",
+   "textbook_ref": "leph206.txt section 14.7 (half-wave rectifier, Fig. 14.18, Exercise 14.6)",
+   "question_patterns": [
+    "explain the working of a half-wave rectifier with a circuit sketch",
+    "what does the output waveform of a half-wave rectifier look like for a sine input",
+    "why does no current flow through the load during the negative half cycle",
+    "how many output pulses per cycle does a half-wave rectifier give",
+    "what protects the rectifier diode from reverse breakdown",
+    "why is a single diode enough for half-wave rectification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the positive half",
+     "explain": "the diode conducts when its p side faces the positive terminal, so the load receives a pulse"
+    },
+    {
+     "step": 2,
+     "action": "block the negative half",
+     "explain": "reversed polarity makes the junction high resistance and the reverse saturation current is negligible"
+    },
+    {
+     "step": 3,
+     "action": "judge the output",
+     "explain": "the load voltage is pulsating and unidirectional, present for exactly half of each input cycle"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.7.2",
+   "title": "Full-Wave Rectifier With Centre Tap",
+   "section": "14.7",
+   "definition": "Two diodes fed from the opposite ends of a centre-tapped secondary take turns: whichever diode's p side is momentarily positive conducts, so both halves of the ac wave reach the load in the same direction. A four-diode bridge does the same job without the centre tap.",
+   "formula": "each diode conducts on alternate half cycles; load receives both halves unidirectionally",
+   "key_idea": "Alternation, not duplication, is the trick -- each diode still rectifies half the cycle, but the pair hands the load a continuous train of pulses.",
+   "textbook_ref": "leph206.txt section 14.7 (full-wave rectifier, Fig. 14.19, centre-tap transformer)",
+   "question_patterns": [
+    "explain how a full-wave rectifier with a centre-tapped transformer works",
+    "why do the two diodes of a full-wave rectifier conduct alternately",
+    "what voltage does each diode of a centre-tap rectifier actually handle",
+    "compare the efficiency of full-wave and half-wave rectification",
+    "how does a bridge rectifier remove the need for a centre tap",
+    "trace the current path through a full-wave rectifier during the negative half cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the secondary",
+     "explain": "the centre tap makes the two ends swing in opposite phase, so one diode sees forward bias while the other sees reverse"
+    },
+    {
+     "step": 2,
+     "action": "watch the handover",
+     "explain": "each half cycle the conducting duty swaps diodes, but both route current through the load the same way"
+    },
+    {
+     "step": 3,
+     "action": "read the output",
+     "explain": "the load voltage is a unidirectional pulse train with a pulse for every half cycle of the input"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.7.3",
+   "title": "Output Frequency of Rectifier Circuits",
+   "section": "14.7",
+   "definition": "Each conducting half cycle stamps one ripple pulse on the load. A half-wave rectifier fires once per input cycle, keeping the ripple frequency equal to the input, while a full-wave rectifier fires on both halves and doubles it.",
+   "formula": "freq_out = pulses_per_cycle * freq_in",
+   "key_idea": "Count pulses per cycle: one for half-wave, two for full-wave, then multiply by the input frequency.",
+   "textbook_ref": "leph206.txt section 14.7 (output waveforms Figs. 14.18-14.19, Exercise 14.6 with 50 Hz input)",
+   "question_patterns": [
+    "the input to a rectifier is 50 Hz; what is the output frequency for half-wave and full-wave rectification",
+    "calculate the ripple frequency of a full-wave rectifier fed with a stated ac frequency",
+    "how does rectification change the frequency of the pulsating output",
+    "why does a full-wave rectifier double the output frequency",
+    "find the pulse rate on the load resistor of a half-wave rectifier at a given mains frequency",
+    "a transformer supplies 60 Hz to a rectifier; state the fundamental frequency of the output"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pulses per cycle",
+     "explain": "one diode passes one half cycle per cycle, so one pulse; the centre-tap pair passes both halves, so two"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the input frequency",
+     "explain": "the ripple frequency is the pulse count times the input frequency",
+     "compute": "freq_out = pulses_per_cycle * freq_in"
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.7.4",
+   "title": "Capacitor Filter for Steady DC",
+   "section": "14.7",
+   "definition": "A capacitor across the rectifier output charges to the pulse peak, then trickles into the load between peaks, bridging the gaps in the pulsating supply. A big capacitance times load resistance means a slow discharge and an output hugging the peak voltage.",
+   "formula": "discharge rate falls as capacitance times load resistance grows",
+   "key_idea": "Filters convert the rippling rectifier output into near-steady dc by storing charge at the peaks.",
+   "textbook_ref": "leph206.txt section 14.7 (capacitor input filter, Fig. 14.20, time constant discussion)",
+   "question_patterns": [
+    "how does a capacitor filter smooth the output of a rectifier",
+    "why should a capacitor input filter use a large capacitance",
+    "what happens to the filter capacitor between successive rectifier peaks",
+    "name two ways to remove the ac ripple from a rectified output",
+    "how does the load resistance affect the smoothness of the filtered output",
+    "what is the time constant that governs the discharge of the filter capacitor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "charge at the peak",
+     "explain": "when the rectifier pulse arrives, the capacitor fills to the peak voltage"
+    },
+    {
+     "step": 2,
+     "action": "discharge into the load",
+     "explain": "between pulses the capacitor feeds the load, so the voltage sags only slightly"
+    },
+    {
+     "step": 3,
+     "action": "slow the sag",
+     "explain": "raising the capacitance or the load resistance lengthens the time constant and flattens the ripple"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph206_1",
+   "source_ref": "leph206.txt Example 14.2",
+   "concept": "leph206.14.4.3",
+   "question_type": "carrier_concentrations",
+   "question_pattern": "A pure silicon crystal holds {atom_density} atoms per cubic metre and is doped with {doping_ppm} ppm of pentavalent arsenic. With intrinsic concentration {intrinsic_ni} per cubic metre, find the electron and hole densities.",
+   "extracted_variables": {"atom_density": 5e+28, "doping_ppm": 1.0, "intrinsic_ni": 1.5e+16},
+   "solution_template": [
+    {"step": 1, "action": "dopant density", "explain": "5e28 * 1e-6 = 5e22 donors per cubic metre", "compute": "donor_nd = atom_density * (doping_ppm / 1.0e6)"},
+    {"step": 2, "action": "electrons from donors", "explain": "donor electrons swamp the intrinsic ones, so ne is about 5e22 per cubic metre", "compute": "carrier_majority = donor_nd"},
+    {"step": 3, "action": "holes from the mass action law", "explain": "(1.5e16)^2 / 5e22 = 4.5e9 holes per cubic metre", "compute": "carrier_minority = (intrinsic_ni ** 2) / carrier_majority"}
+   ]
+  },
+  {
+   "id": "we_leph206_2",
+   "source_ref": "leph206.txt Example 14.4",
+   "concept": "leph206.14.6.2",
+   "question_type": "dynamic_resistance",
+   "question_pattern": "On a silicon diode curve the current swings from {i_low_a} A to {i_high_a} A while the voltage moves from {v_low} V to {v_high} V. Calculate the diode's dynamic resistance in this region.",
+   "extracted_variables": {"v_low": 0.7, "v_high": 0.8, "i_low_a": 0.01, "i_high_a": 0.02},
+   "solution_template": [
+    {"step": 1, "action": "voltage swing", "explain": "0.8 - 0.7 = 0.1 V", "compute": "volt_change = v_high - v_low"},
+    {"step": 2, "action": "current swing", "explain": "0.02 - 0.01 = 0.01 A", "compute": "current_change = i_high_a - i_low_a"},
+    {"step": 3, "action": "slope gives rd", "explain": "0.1 V over 0.01 A = 10 ohm", "compute": "rd = volt_change / current_change"}
+   ]
+  },
+  {
+   "id": "we_leph206_3",
+   "source_ref": "leph206.txt Exercise 14.6",
+   "concept": "leph206.14.7.3",
+   "question_type": "rectifier_frequency",
+   "question_pattern": "A full-wave centre-tap rectifier is fed {freq_in} Hz ac. What is the fundamental frequency of its output? What would it be for a half-wave rectifier on the same input?",
+   "extracted_variables": {"freq_in": 50.0, "pulses_per_cycle": 2.0},
+   "solution_template": [
+    {"step": 1, "action": "pulses per cycle", "explain": "two diodes conduct on alternate halves, so two pulses per cycle; a half-wave unit manages one"},
+    {"step": 2, "action": "output frequency", "explain": "2 * 50 = 100 Hz for the full-wave case, 50 Hz for half-wave", "compute": "freq_out = pulses_per_cycle * freq_in"}
+   ]
+  },
+  {
+   "id": "we_leph206_4",
+   "source_ref": "leph206.txt Exercise 14.1-14.2 style",
+   "concept": "leph206.14.4.1",
+   "question_type": "carrier_type_classification",
+   "question_pattern": "A silicon sample is doped with phosphorus ({dopant_valency} valence electrons per dopant atom). Name the semiconductor type, the dopant kind, and the majority and minority carriers.",
+   "extracted_variables": {"dopant_valency": 5},
+   "solution_template": [
+    {"step": 1, "action": "classify the dopant", "explain": "five valence electrons make phosphorus a pentavalent donor in the tetravalent lattice"},
+    {"step": 2, "action": "name the type", "explain": "donor doping gives n-type material"},
+    {"step": 3, "action": "assign the carriers", "explain": "electrons are majority carriers; the few thermally made holes are minority carriers"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph206_14_1_to_14_3",
+   "source_ref": "leph206.txt end-of-chapter exercises 14.1-14.3",
+   "questions": [
+    "In n-type silicon, decide which statement holds: are electrons or holes the majority carriers, and are the dopant atoms trivalent or pentavalent?",
+    "Repeat the same carrier and dopant classification for a p-type semiconductor.",
+    "Carbon, silicon and germanium each carry four valence electrons but have band gaps EgC, EgSi and EgGe. Arrange the three gaps in the correct order of size."
+   ]
+  },
+  {
+   "id": "ex_leph206_14_4_to_14_6",
+   "source_ref": "leph206.txt end-of-chapter exercises 14.4-14.6",
+   "questions": [
+    "In an unbiased p-n junction, why do holes drift across from the p region toward the n region?",
+    "What does applying a forward bias do to the potential barrier of a p-n junction?",
+    "With a 50 Hz ac input, state the output frequency of a half-wave rectifier and of a full-wave rectifier."
+   ]
+  }
+ ]
+}

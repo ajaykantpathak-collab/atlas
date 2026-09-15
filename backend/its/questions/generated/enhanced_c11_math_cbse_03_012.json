@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_012",
+   "title": "c11_math_cbse_03_012",
+   "questions": [
+    {
+     "q": "Write the product-to-sum formula for 2 sin 3θ cos 2θ as a sum of sine functions. State the formula used and the resulting expression without simplifying further.",
+     "a": "Using 2 sin x cos y = sin(x+y) + sin(x-y) with x=3θ, y=2θ: 2 sin 3θ cos 2θ = sin(5θ) + sin(θ). A wrong answer like sin(5θ) - sin(θ) reveals confusion with the 2 cos x sin y formula; writing cos instead of sin shows failure to distinguish between the four formulas' output functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula 2 cos x cos y = cos(x+y) + cos(x-y) has a positive sign between the terms on the right, while -2 sin x sin y = cos(x+y) - cos(x-y) has a negative sign, even though both equal combinations of cos(x+y) and cos(x-y).",
+     "a": "Adding cos(x+y)=cos x cos y - sin x sin y and cos(x-y)=cos x cos y + sin x sin y cancels the sine terms, leaving 2 cos x cos y with positive signs. Subtracting them cancels the cosine terms, leaving -2 sin x sin y = cos(x+y) - cos(x-y). A student who cannot explain this derivation treats the formulas as arbitrary memorisation rather than logical consequences of sum/difference identities.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression: ∫ cos 5x cos 2x dx using product-to-sum formulas. Show all steps and give the final antiderivative.",
+     "a": "Step 1: Apply 2 cos A cos B = cos(A+B) + cos(A-B) with A=5x, B=2x → cos 5x cos 2x = ½[cos 7x + cos 3x].\nStep 2: ∫ cos 5x cos 2x dx = ½ ∫ (cos 7x + cos 3x) dx.\nStep 3: = ½ [ (sin 7x)/7 + (sin 3x)/3 ] + C.\nStep 4: = (sin 7x)/14 + (sin 3x)/6 + C.\nWrong answers like forgetting the ½ factor or integrating cos 7x as sin 7x (missing division by 7) reveal mechanical application without understanding the chain rule reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Given that sin α sin β = ¼ and cos α cos β = ¾, find the value of cos(α-β) without finding α or β individually. Explain your reasoning.",
+     "a": "From the identity cos(α-β) = cos α cos β + sin α sin β, substitute the given values: cos(α-β) = ¾ + ¼ = 1. A student who attempts to find α and β separately or uses cos(α+β) instead demonstrates inability to recognise the direct application of the sum formula, missing the strategic use of given products.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Express 2 sin 4x cos 3x as a sum\" and wrote: 2 sin 4x cos 3x = sin 7x - sin x. Identify the error, state the correct formula, and give the correct answer.",
+     "a": "Error: Used 2 cos x sin y = sin(x+y) - sin(x-y) instead of 2 sin x cos y = sin(x+y) + sin(x-y). The student swapped the argument order, changing the sign. Correct: 2 sin 4x cos 3x = sin(4x+3x) + sin(4x-3x) = sin 7x + sin x. This reveals the common misconception that the formulas are symmetric in argument order for sine products.",
+     "self_check": true
+    },
+    {
+     "q": "Create a trigonometric equation involving a product of sine and cosine that can be solved by first applying a product-to-sum formula, then solving the resulting simple equation. Provide the equation and its general solution.",
+     "a": "Example: 2 sin 2x cos x = sin 3x. Apply 2 sin x cos y = sin(x+y) + sin(x-y): sin 3x + sin x = sin 3x → sin x = 0 → x = nπ, n∈Z. A poor answer creates an equation that doesn't simplify (e.g., 2 sin x cos x = 1, which uses double-angle instead) or gives an equation with no clear path, showing inability to design problems that exploit the formula's structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

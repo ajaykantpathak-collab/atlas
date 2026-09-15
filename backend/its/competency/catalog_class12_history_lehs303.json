@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 30,
+ "chapter_title": "Mahatma Gandhi and the Nationalist Movement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs303.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.303.1",
+   "title": "Gandhi's Return and Satyagraha",
+   "section": "A Leader Announces Himself",
+   "definition": "Mohandas Karamchand Gandhi returned to India from South Africa in 1915 and tested satyagraha - truth-force through non-violent mass resistance - in local struggles like Champaran and Ahmedabad, building a novel method of moral-political combat.",
+   "formula": "",
+   "key_idea": "Satyagraha made discipline, not violence, the weapon: suffering rather than inflicting suffering moved the opponent.",
+   "textbook_ref": "lehs303.txt Gandhi's 1915 return and early local satyagrahas",
+   "question_patterns": [
+    "when did Gandhi return to India and from where",
+    "define satyagraha as Gandhi practised it",
+    "describe the Champaran and Ahmedabad struggles",
+    "why did Gandhi begin with local movements",
+    "how did satyagraha differ from armed resistance",
+    "relate Gandhi's South African experience to Indian methods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the return",
+     "explain": "Gandhi came back in 1915 after two decades in South Africa"
+    },
+    {
+     "step": 2,
+     "action": "learn the method",
+     "explain": "satyagraha paired non-violence with mass discipline and moral appeal"
+    },
+    {
+     "step": 3,
+     "action": "close with locals",
+     "explain": "Champaran indigo and Ahmedabad mill struggles proved the method locally first"
+    }
+   ]
+  },
+  {
+   "id": "lehs.303.2",
+   "title": "Rowlatt Satyagraha to Non-Cooperation",
+   "section": "The Making and Unmaking of Non-cooperation",
+   "definition": "The Rowlatt Act of 1919 triggered the first nationwide satyagraha, Jallianwala Bagh's massacre deepened anger, and the Non-Cooperation Movement of 1921-22 combined with Khilafat sentiments until Gandhi called it off after Chauri Chaura's violence. The span of Gandhian mass movements is measured by subtracting the Rowlatt year from the Quit India year.",
+   "formula": "",
+   "key_idea": "Between Rowlatt satyagraha (1919) and the Quit India call (1942) lie twenty-three years of cycles between mass movement and negotiation.",
+   "textbook_ref": "lehs303.txt Rowlatt act, Jallianwala, non-cooperation and Chauri Chaura sections",
+   "question_patterns": [
+    "why did Gandhi launch the Rowlatt satyagraha",
+    "what happened at Jallianwala Bagh and its impact",
+    "explain the non-cooperation programme's main planks",
+    "why did Gandhi withdraw the movement at Chauri Chaura",
+    "relate the Khilafat issue to Hindu-Muslim unity",
+    "compute the span from Rowlatt to Quit India"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the two years",
+     "explain": "Rowlatt satyagraha 1919, Quit India 1942",
+     "compute": "rowlatt_year = 1919"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1942 - 1919 = 23 years",
+     "compute": "movement_span = quit_india_year - rowlatt_year"
+    }
+   ]
+  },
+  {
+   "id": "lehs.303.3",
+   "title": "Civil Disobedience and the Salt March",
+   "section": "Civil Disobedience and Beyond",
+   "definition": "In 1930 Gandhi broke the salt law at Dandi, turning a pinch of salt into a nationwide civil disobedience movement that drew women, peasants and students; the movement paused for the Gandhi-Irwin pact, resumed, and was finally called off in 1934.",
+   "formula": "",
+   "key_idea": "Salt symbolised shared deprivation: breaking its law needed no property, only courage, so the poorest could join.",
+   "textbook_ref": "lehs303.txt salt march, Dandi, participation and Gandhi-Irwin pact sections",
+   "question_patterns": [
+    "why was salt chosen as the symbol of protest",
+    "describe the Dandi march and the breaking of the salt law",
+    "which social groups joined civil disobedience and how",
+    "state the terms of the Gandhi-Irwin pact",
+    "compare civil disobedience with non-cooperation",
+    "discuss limits of the movement among dalits and Muslims"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "march to Dandi",
+     "explain": "Gandhi walked to the coast and lifted natural salt in 1930"
+    },
+    {
+     "step": 2,
+     "action": "spread the breach",
+     "explain": "salt law breaking spread to every province with women in front ranks"
+    },
+    {
+     "step": 3,
+     "action": "close with pact",
+     "explain": "the Gandhi-Irwin agreement paused, then the movement resumed and closed by 1934"
+    }
+   ]
+  },
+  {
+   "id": "lehs.303.4",
+   "title": "Quit India, Limits and Legacy",
+   "section": "Quit India",
+   "definition": "The Quit India movement of August 1942 demanded immediate British exit and saw the arrest of leaders with widespread underground and popular action; the chapter also weighs the movement's limits - dalit and Muslim circumspection and rival visions like Subhas Bose's armed struggle - before the 1947 transfer of power.",
+   "formula": "",
+   "key_idea": "Quit India was the last Gandhian mass upsurge: its suppression and the war's end reshaped the road to independence.",
+   "textbook_ref": "lehs303.txt Quit India movement, limits and 1947 transfer sections",
+   "question_patterns": [
+    "state the slogan and timing of the Quit India movement",
+    "how did the government respond to Quit India",
+    "what were the movement's limits among dalits and Muslims",
+    "compare Subhas Bose's path with Gandhian satyagraha",
+    "describe Gandhi's last years and assassination in 1948",
+    "relate Quit India to the 1947 transfer of power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the call",
+     "explain": "Quit India was launched in August 1942"
+    },
+    {
+     "step": 2,
+     "action": "note the suppression",
+     "explain": "leaders were jailed and the movement ran underground"
+    },
+    {
+     "step": 3,
+     "action": "close with limits",
+     "explain": "dalit and Muslim hesitations exposed the movement's social boundaries"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs303_1",
+   "source_ref": "lehs303.txt Rowlatt and Quit India dates",
+   "concept": "lehs.303.2",
+   "question_type": "compute",
+   "question_pattern": "Compute the span of years from the Rowlatt satyagraha (1919) to the Quit India movement (1942).",
+   "extracted_variables": {
+    "rowlatt_year": 1919,
+    "quit_india_year": 1942
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1919 and 1942",
+     "compute": "rowlatt_year = 1919"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1942 - 1919 = 23 years",
+     "compute": "movement_span = quit_india_year - rowlatt_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs303_2",
+   "source_ref": "lehs303.txt salt march section",
+   "concept": "lehs.303.3",
+   "question_type": "short_answer",
+   "question_pattern": "Why did Gandhi choose salt as the target of civil disobedience?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "universal item",
+     "explain": "salt was used by every household, rich or poor"
+    },
+    {
+     "step": 2,
+     "action": "open breach",
+     "explain": "anyone could make salt and break the law non-violently"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the symbol turned a tax grievance into mass participation"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs303_3",
+   "source_ref": "lehs303.txt limits section",
+   "concept": "lehs.303.4",
+   "question_type": "short_answer",
+   "question_pattern": "Identify two limits of the Gandhian mass movements.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "dalit hesitations",
+     "explain": "many dalit leaders sought separate political guarantees"
+    },
+    {
+     "step": 2,
+     "action": "Muslim distance",
+     "explain": "large sections of Muslims stayed apart after the mid-1920s"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "mass movements advanced freedom while exposing unresolved social divisions"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs303_1",
+   "source_ref": "lehs303.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe Gandhi's early satyagrahas after 1915",
+    "trace the movement from Rowlatt to Quit India",
+    "compute the span between Rowlatt and Quit India",
+    "explain the salt satyagraha's design and spread",
+    "evaluate the limits of Gandhian mobilisation"
+   ]
+  },
+  {
+   "id": "ex_lehs303_2",
+   "source_ref": "lehs303.txt project questions, reworded",
+   "questions": [
+    "use contemporary accounts to study the salt march",
+    "compare Bose and Gandhi as strategists of freedom",
+    "relate the Khilafat question to nationalist politics",
+    "assess women's participation across movements",
+    "argue why 1942 mattered to the 1947 transfer"
+   ]
+  }
+ ]
+}

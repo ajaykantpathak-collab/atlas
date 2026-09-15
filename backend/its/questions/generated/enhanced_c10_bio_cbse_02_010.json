@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_010",
+   "title": "c10_bio_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the specific part of the adrenal gland that secretes adrenaline, and what type of cells are responsible for this secretion?",
+     "a": "The adrenal medulla (inner region) secretes adrenaline; the responsible cells are chromaffin cells, which are modified postganglionic sympathetic neurons. A wrong answer such as \"adrenal cortex\" or \"cortical cells\" reveals confusion between the steroid-producing cortex and the catecholamine-producing medulla — a common error because students often memorize \"adrenal gland secretes adrenaline\" without distinguishing its two anatomically and functionally distinct zones.",
+     "self_check": true
+    },
+    {
+     "q": "Why does adrenaline cause both increased heart rate and dilation of bronchioles during a fight-or-flight situation?",
+     "a": "Adrenaline binds to beta-1 adrenergic receptors on the heart's SA node to increase heart rate and contractility, and to beta-2 adrenergic receptors on bronchial smooth muscle to cause relaxation and bronchodilation — both actions enhance oxygen delivery to muscles for rapid action. A wrong answer like \"adrenaline speeds up everything\" shows lack of receptor-specific understanding; students often miss that the same hormone produces different effects on different tissues because of different receptor subtypes, a core concept for explaining hormonal specificity.",
+     "self_check": true
+    },
+    {
+     "q": "A student sees a snake and freezes in fear. Within seconds, their pupils dilate and blood is redirected from the digestive system to skeletal muscles. Trace the complete pathway from visual stimulus to these two specific effects, naming the key structures and signaling modes involved.",
+     "a": "Step 1: Visual stimulus → retina → optic nerve → thalamus → amygdala (threat perception). Step 2: Amygdala activates hypothalamus → sympathetic preganglionic neurons in thoracic spinal cord (T1-L2). Step 3: Sympathetic preganglionic fibers synapse directly on chromaffin cells of adrenal medulla (neural signaling). Step 4: Chromaffin cells release adrenaline into bloodstream (hormonal signaling). Step 5: Adrenaline travels via blood to target organs: binds alpha-1 receptors on radial muscle of iris → pupil dilation (mydriasis); binds alpha-1 receptors on arterioles of gut → vasoconstriction (reducing digestion) and beta-2 receptors on skeletal muscle arterioles → vasodilation (increasing muscle perfusion). A wrong answer omitting the direct neural link to adrenal medulla or confusing it with the HPA axis (cortisol pathway) reveals misunderstanding of the speed and wiring of this emergency response.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the fight-or-flight response mediated by adrenaline with the reflex action studied in c10_bio_cbse_02_003. Identify two similarities and two differences in terms of speed, signaling mode, and duration of effect.",
+     "a": "Similarities: Both are rapid, involuntary responses to stimuli that protect the organism; both involve the nervous system (reflex arc uses interneurons, fight-or-flight uses sympathetic preganglionic fibers). Differences: (1) Reflex action is purely neural (electrical + chemical synapse) and lasts milliseconds to seconds; fight-or-flight combines neural stimulation of adrenal medulla with hormonal broadcast via blood, so it takes seconds to onset but effects last minutes. (2) Reflex is localized to a specific effector (e.g., pulling hand from heat); fight-or-flight is systemic, affecting heart, lungs, liver, skin, gut simultaneously. A wrong answer claiming \"reflex is faster because it's nervous and fight-or-flight is slower because it's hormonal\" misses that the adrenal medulla is neurally stimulated — the hormonal leg only adds broadcast time, not initiation time.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 10 student argues: \"Since adrenaline increases blood glucose by stimulating glycogen breakdown in the liver, a person with a damaged adrenal medulla would have chronic hypoglycemia.\" Evaluate this statement and explain why it is correct or incorrect.",
+     "a": "The statement is incorrect. Adrenaline is a rapid, short-term mobilizer of glucose during acute stress; chronic blood glucose homeostasis is primarily maintained by insulin and glucagon from the pancreas (c10_bio_cbse_02_011), with cortisol from the adrenal cortex providing longer-term gluconeogenic support. A person with damaged adrenal medulla would lack the acute glucose surge during emergencies but would not develop chronic hypoglycemia because pancreatic and cortical mechanisms compensate. A wrong answer agreeing with the student shows confusion between acute hormonal modulation and chronic metabolic regulation — a frequent board exam trap where students over-attribute metabolic control to a single hormone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (no live animals) to model how a single hormonal signal (adrenaline) can produce different effects on different target tissues. List materials, procedure, and the biological principle illustrated.",
+     "a": "Materials: Three beakers labeled \"Heart\", \"Bronchioles\", \"Liver\"; water; red food color (adrenaline); three types of \"receptor\" cards: beta-1 (heart), beta-2 (bronchioles), alpha/beta (liver). Procedure: Pour red water (adrenaline) into a central \"bloodstream\" container. Students dip each beaker's receptor card into the bloodstream; the card's color change or attached label shows the specific response: Heart card → \"increased rate\", Bronchiole card → \"dilation\", Liver card → \"glycogenolysis\". Principle: Same hormone, different receptor subtypes → tissue-specific responses. A poor demonstration that shows identical responses in all beakers reveals the misconception that hormones act uniformly on all cells, ignoring receptor diversity — a key concept for understanding endocrine specificity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

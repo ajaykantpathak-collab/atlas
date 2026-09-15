@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_010",
+   "title": "c11_acc_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the purpose of using Profit and Loss Adjustment Account when rectifying errors after final accounts are prepared?",
+     "a": "The Profit and Loss Adjustment Account is used to rectify nominal account errors (expenses, incomes) from a prior period without affecting the current period's Profit and Loss Account. A wrong answer (e.g., \"to correct the Suspense Account\" or \"to adjust the Balance Sheet directly\") reveals the student confuses the adjustment account's role with suspense account mechanics or thinks current period accounts can be used for prior period corrections.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If we find an error in last year's Rent Expense after final accounts, we should debit Rent Expense and credit Suspense Account this year.\" Why is this reasoning incorrect?",
+     "a": "Debiting Rent Expense in the current year would incorrectly reduce current year's profit for a prior period error. The correct approach is to debit Profit and Loss Adjustment Account (not Rent Expense) and credit Suspense Account (or the relevant account). This misconception shows the student doesn't understand the separation of accounting periods and the need to isolate prior period adjustments.",
+     "self_check": true
+    },
+    {
+     "q": "Last year, ` 20,000 received as commission was wrongly credited to Sales Account. The error is discovered this year. The Suspense Account has a credit balance of ` 20,000 carried forward. Write the rectification entry.",
+     "a": "**Correct Entry:**\nProfit and Loss Adjustment A/c Dr. 20,000\n    To Suspense A/c 20,000\n**Reasoning:** Commission is income (nominal), Sales is income (nominal). The error overstated both last year. To reverse: debit P&L Adjustment (reduces prior profit) and credit Suspense (clears the carried forward credit balance). A wrong answer debiting Sales or Commission this year shows failure to use P&L Adjustment for nominal accounts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rectification entries for these two errors discovered in the next year: (a) ` 5,000 paid for furniture repairs debited to Furniture Account. (b) ` 5,000 paid for furniture purchased debited to Repairs Account. How does the account classification change the entry?",
+     "a": "(a) Furniture (real) debited instead of Repairs (nominal): **Repairs A/c Dr. 5,000 → Furniture A/c 5,000** (direct, no P&L Adjustment because Furniture is real).  \n(b) Repairs (nominal) debited instead of Furniture (real): **Furniture A/c Dr. 5,000 → Profit and Loss Adjustment A/c 5,000** (P&L Adjustment used because Repairs is nominal).  \nA student who uses P&L Adjustment for both or neither fails to distinguish real vs. nominal account treatment in prior period rectification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If the Suspense Account balance is carried forward and all errors are rectified in the next year using Profit and Loss Adjustment Account, the Suspense Account will always close to zero.\" Defend or refute with reasoning.",
+     "a": "**Refute.** The Suspense Account only closes to zero if **all** one-sided errors (affecting trial balance) are located and rectified. Two-sided errors (not affecting trial balance) are rectified without Suspense Account. If some one-sided errors remain undetected, Suspense Account will show a balance carried forward again. A student who agrees misunderstands that Suspense Account only captures errors affecting trial balance agreement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where an error in the previous year involved both a nominal and a real account, and the Suspense Account had a debit balance. Write the full rectification entry in the current year and explain the impact on the Profit and Loss Adjustment Account.",
+     "a": "**Scenario:** ` 12,000 paid for building extension (capital) was debited to Repairs Account (revenue). Suspense Account carried forward debit balance of ` 12,000.  \n**Rectification Entry:**  \nBuilding A/c Dr. 12,000  \n    To Profit and Loss Adjustment A/c 12,000  \n**Impact:** P&L Adjustment is credited (increasing prior period profit) because Repairs was overstated. Building (real) is debited directly. A poor answer would debit/credit Repairs or Building incorrectly or omit P&L Adjustment, showing inability to synthesize account classification and period separation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

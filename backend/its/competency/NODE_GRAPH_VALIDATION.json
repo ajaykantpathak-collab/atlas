@@ -1,0 +1,1427 @@
+{
+ "generated_at": "2026-09-13T23:45:55",
+ "md_dir": "C:\\Users\\Alesha4285\\Desktop\\enhanced_nodes\\md_cache",
+ "parser": "backend/services/enhanced_nodes.py (CACHE_VERSION 1)",
+ "cache_refreshed": true,
+ "fingerprint": {
+  "file_count": 9118,
+  "total_bytes": 194070290,
+  "max_mtime": 1789315678.531972
+ },
+ "corpus_accounting": {
+  "total_dir_entries": 10249,
+  "md_files_on_disk": 9118,
+  "md_err_generation_logs_ignored": 1131,
+  "files_parsed": 9008,
+  "files_skipped_total": 110,
+  "skipped_comp_case_study_unparseable_by_contract": 108,
+  "skipped_malformed_no_core_sections": 2,
+  "accounting_ok": true
+ },
+ "total_nodes": 9008,
+ "meets_9000_plus": true,
+ "final_statement": "Authoritative enhanced-node graph: 9008 validated teaching nodes parsed from 9118 markdown files (10249 entries in the cache dir; 1131 are .md.err generation logs, not markdown). All node ids well-formed, no duplicate ids, no empty bodies; 96241 cross-node references checked.",
+ "per_class_counts": {
+  "6": 420,
+  "7": 575,
+  "8": 550,
+  "9": 406,
+  "10": 636,
+  "11": 3166,
+  "12": 3255
+ },
+ "per_subject_counts": {
+  "acc": 190,
+  "bio": 432,
+  "biology": 23,
+  "biotech": 268,
+  "bs": 223,
+  "ca": 19,
+  "chem": 350,
+  "chemistry": 20,
+  "civ": 143,
+  "civics": 41,
+  "cs": 294,
+  "eco": 341,
+  "economics": 24,
+  "eng_f": 195,
+  "eng_h": 180,
+  "eng_k": 315,
+  "eng_s": 75,
+  "eng_v": 90,
+  "eng_w": 405,
+  "engl": 389,
+  "english": 50,
+  "geo": 614,
+  "geography": 31,
+  "hin_a": 255,
+  "hin_al": 44,
+  "hin_ar": 465,
+  "hin_v": 119,
+  "hist": 437,
+  "history": 56,
+  "hs": 300,
+  "ip": 180,
+  "math": 937,
+  "phy": 344,
+  "physics": 288,
+  "ps": 349,
+  "psy": 169,
+  "soc": 269,
+  "stat": 84
+ },
+ "parse_failures": [
+  {
+   "file": "c12_acc_cbse_01_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_01_011_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_02_011_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_03_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_04_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_05_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_06_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_07_011_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_08_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_acc_cbse_09_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_01_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_001_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_002_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_003_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_004_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_005_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_006_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_007_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_008_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_009_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_010_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_011_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_bio_cbse_02_012_comp.md",
+   "reason": "unparseable_filename"
+  },
+  {
+   "file": "c12_hin_al_cbse_03_011.md",
+   "reason": "malformed: no core sections (DEFINITION/WALKTHROUGH)"
+  },
+  {
+   "file": "c12_hin_v_cbse_03_002.md",
+   "reason": "malformed: no core sections (DEFINITION/WALKTHROUGH)"
+  }
+ ],
+ "duplicate_ids": [],
+ "node_checks": {
+  "ids_wellformed": true,
+  "ids_wellformed_failures": [],
+  "class_subject_parseable": true,
+  "class_subject_failures": [],
+  "schema_fields_complete": true,
+  "schema_field_failures": [],
+  "empty_body_nodes": [],
+  "source_file_mismatches": [],
+  "degraded_missing_required_sections_count": 14,
+  "degraded_nodes": [
+   {
+    "node_id": "c11_eco_cbse_03_010",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c11_eco_cbse_05_010",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c11_eco_cbse_08_001",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c11_eng_h_cbse_03_005",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c11_geo_cbse_23_002",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c11_math_cbse_05_005",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_bio_cbse_12_001",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_eng_f_cbse_08_005",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_eng_k_cbse_02_005",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_eng_k_cbse_06_002",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_geo_cbse_04_001",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c12_geo_cbse_21_004",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c8_bio_ch2_3",
+    "missing": [
+     "DEFINITION"
+    ]
+   },
+   {
+    "node_id": "c8_bio_ch2_8",
+    "missing": [
+     "DEFINITION"
+    ]
+   }
+  ],
+  "nodes_with_zero_diagnostics": [],
+  "nodes_with_lt5_diagnostics": [],
+  "diagnostics_with_empty_q_or_a": [
+   {
+    "node_id": "c12_eng_k_cbse_03_014",
+    "index": 5
+   },
+   {
+    "node_id": "c12_hin_a_cbse_02_007",
+    "index": 6
+   },
+   {
+    "node_id": "c12_hin_a_cbse_12_003",
+    "index": 5
+   },
+   {
+    "node_id": "c12_hin_al_cbse_03_014",
+    "index": 4
+   },
+   {
+    "node_id": "c12_hin_ar_cbse_05_007",
+    "index": 6
+   }
+  ],
+  "diagnostics_total": 54047,
+  "diagnostics_per_node_min": 5,
+  "diagnostics_per_node_max": 6,
+  "diagnostics_per_node_mean": 6.0
+ },
+ "reference_integrity": {
+  "sections_scanned": [
+   "PREREQUISITE_NODE_IDS",
+   "FORWARD_NODE_IDS",
+   "CROSS_SUBJECT_PREREQS",
+   "LEADS_TO",
+   "BUILDS_ON"
+  ],
+  "total_reference_edges": 96241,
+  "unique_referenced_ids": 9137,
+  "exact_matches": 8979,
+  "alias_resolved_padded": 2,
+  "alias_resolved_cross_naming": 1,
+  "broken_unique": 155,
+  "broken_references": [
+   {
+    "ref": "c10_engl_cbse_06_009",
+    "source_node": "c10_engl_cbse_06_008"
+   },
+   {
+    "ref": "c11_eng_h_cbse_XX_008",
+    "source_node": "c12_eng_f_cbse_08_008"
+   },
+   {
+    "ref": "c11_eng_h_cbse_XX_008",
+    "source_node": "c12_eng_k_cbse_10_008"
+   },
+   {
+    "ref": "c11_eng_h_cbse_XX_010",
+    "source_node": "c12_eng_f_cbse_09_010"
+   },
+   {
+    "ref": "c11_eng_h_cbse_XX_011",
+    "source_node": "c12_eng_k_cbse_21_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_",
+    "source_node": "c12_hin_a_cbse_12_007"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_002",
+    "source_node": "c12_hin_a_cbse_13_002"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_002",
+    "source_node": "c12_hin_al_cbse_03_002"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_003",
+    "source_node": "c12_hin_a_cbse_06_003"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_004",
+    "source_node": "c12_hin_a_cbse_05_004"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_004",
+    "source_node": "c12_hin_v_cbse_03_004"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_010",
+    "source_node": "c12_hin_a_cbse_09_010"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_010",
+    "source_node": "c12_hin_ar_cbse_12_010"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_05_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_09_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_11_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_12_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_17_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_ar_cbse_07_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_ar_cbse_10_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_ar_cbse_11_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_011",
+    "source_node": "c12_hin_ar_cbse_13_011"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_012",
+    "source_node": "c12_hin_a_cbse_03_012"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_013",
+    "source_node": "c12_hin_ar_cbse_03_013"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_014",
+    "source_node": "c12_hin_ar_cbse_06_014"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_015",
+    "source_node": "c12_hin_a_cbse_03_015"
+   },
+   {
+    "ref": "c11_hin_ar_cbse_XX_015",
+    "source_node": "c12_hin_ar_cbse_03_015"
+   },
+   {
+    "ref": "c11_hin_v_cbse_06_011",
+    "source_node": "c12_hin_a_cbse_06_011"
+   },
+   {
+    "ref": "c11_hin_v_cbse_XX_002",
+    "source_node": "c12_hin_a_cbse_13_002"
+   },
+   {
+    "ref": "c11_hin_v_cbse_XX_002",
+    "source_node": "c12_hin_al_cbse_03_002"
+   },
+   {
+    "ref": "c11_hin_v_cbse_XX_004",
+    "source_node": "c12_hin_v_cbse_03_004"
+   },
+   {
+    "ref": "c11_hin_v_cbse_XX_011",
+    "source_node": "c12_hin_a_cbse_09_011"
+   },
+   {
+    "ref": "c12_eng_f_cbse_14_015",
+    "source_node": "c12_eng_f_cbse_13_015"
+   },
+   {
+    "ref": "c12_hin_al_cbse_03_011",
+    "source_node": "c12_hin_al_cbse_03_010"
+   },
+   {
+    "ref": "c12_hin_al_cbse_03_011",
+    "source_node": "c12_hin_al_cbse_03_012"
+   },
+   {
+    "ref": "c12_hin_al_cbse_03_011",
+    "source_node": "c12_hin_al_cbse_03_015"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_001"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_003"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_004"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_005"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_006"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_007"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_008"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_010"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_012"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_014"
+   },
+   {
+    "ref": "c12_hin_v_cbse_03_002",
+    "source_node": "c12_hin_v_cbse_03_015"
+   },
+   {
+    "ref": "c6_biology_cellular_energy",
+    "source_node": "c6_biology_ch09_008"
+   },
+   {
+    "ref": "c6_biology_respiration",
+    "source_node": "c6_biology_ch09_008"
+   },
+   {
+    "ref": "c6_civics_ch01",
+    "source_node": "c6_history_ch12_052"
+   },
+   {
+    "ref": "c6_civics_ch03_how_government_works",
+    "source_node": "c6_history_ch12_054"
+   },
+   {
+    "ref": "c6_civics_ch09_family_and_community",
+    "source_node": "c6_civics_ch10_001"
+   },
+   {
+    "ref": "c6_civics_ch10_fundamental_rights",
+    "source_node": "c6_civics_ch10_001"
+   },
+   {
+    "ref": "c6_civics_ch11_grassroots_democracy",
+    "source_node": "c6_civics_ch12_019"
+   },
+   {
+    "ref": "c6_civics_ch11_grassroots_democracy",
+    "source_node": "c6_civics_ch12_020"
+   },
+   {
+    "ref": "c6_civics_ch11_grassroots_democracy_part_1",
+    "source_node": "c6_civics_ch12_017"
+   },
+   {
+    "ref": "c6_civics_ch12_local_government_functions",
+    "source_node": "c6_civics_ch13_026"
+   },
+   {
+    "ref": "c6_civics_ch13_state_laws_and_services",
+    "source_node": "c6_civics_ch12_019"
+   },
+   {
+    "ref": "c6_civics_ch14_010",
+    "source_node": "c6_civics_ch14_029"
+   },
+   {
+    "ref": "c6_civics_ch14_040",
+    "source_node": "c6_civics_ch14_029"
+   },
+   {
+    "ref": "c6_civics_communication_basics",
+    "source_node": "c6_civics_ch15_036"
+   },
+   {
+    "ref": "c6_civics_democracy_basics",
+    "source_node": "c6_civics_ch12_016"
+   },
+   {
+    "ref": "c6_civics_democracy_foundations",
+    "source_node": "c6_civics_ch15_037"
+   },
+   {
+    "ref": "c6_civics_diversity_concepts",
+    "source_node": "c6_civics_ch14_033"
+   },
+   {
+    "ref": "c6_civics_economic_activities",
+    "source_node": "c6_civics_ch16_040"
+   },
+   {
+    "ref": "c6_civics_equality_and_justice",
+    "source_node": "c6_civics_ch14_033"
+   },
+   {
+    "ref": "c6_civics_fundamental_duties",
+    "source_node": "c6_civics_ch10_002"
+   },
+   {
+    "ref": "c6_civics_international_relations",
+    "source_node": "c6_geography_ch05_028"
+   },
+   {
+    "ref": "c6_civics_media_and_democracy",
+    "source_node": "c6_civics_ch15_036"
+   },
+   {
+    "ref": "c6_civics_role_of_government_in_economy",
+    "source_node": "c6_civics_ch16_040"
+   },
+   {
+    "ref": "c6_civics_rules_and_laws",
+    "source_node": "c6_civics_ch10_002"
+   },
+   {
+    "ref": "c6_civics_taxation_basics",
+    "source_node": "c6_civics_ch13_025"
+   },
+   {
+    "ref": "c6_civics_urban_local_bodies",
+    "source_node": "c6_civics_ch12_016"
+   },
+   {
+    "ref": "c6_economics_agriculture",
+    "source_node": "c6_geography_ch03_017"
+   },
+   {
+    "ref": "c6_economics_ch01_understanding_economy",
+    "source_node": "c6_geography_ch05_029"
+   },
+   {
+    "ref": "c6_economics_ch03_001",
+    "source_node": "c6_geography_ch04_024"
+   },
+   {
+    "ref": "c6_economics_ch08_development",
+    "source_node": "c6_economics_ch07_006"
+   },
+   {
+    "ref": "c6_economics_ch09_001",
+    "source_node": "c6_economics_ch08_004"
+   },
+   {
+    "ref": "c6_economics_ch09_financial_institutions",
+    "source_node": "c6_economics_ch08_002"
+   },
+   {
+    "ref": "c6_economics_ch13_economic_activities",
+    "source_node": "c6_economics_ch08_002"
+   },
+   {
+    "ref": "c6_economics_ch14_001",
+    "source_node": "c6_economics_ch11_001"
+   },
+   {
+    "ref": "c6_economics_ch14_economic_activities",
+    "source_node": "c6_economics_ch12_004"
+   },
+   {
+    "ref": "c6_economics_ch14_economic_sectors",
+    "source_node": "c6_economics_ch07_001"
+   },
+   {
+    "ref": "c6_economics_ch14_economic_sectors",
+    "source_node": "c6_economics_ch07_003"
+   },
+   {
+    "ref": "c6_economics_ch14_sectors",
+    "source_node": "c6_economics_ch07_006"
+   },
+   {
+    "ref": "c6_economics_primary_sector_activities",
+    "source_node": "c6_geography_ch04_022"
+   },
+   {
+    "ref": "c6_economics_resource_allocation",
+    "source_node": "c6_civics_ch13_025"
+   },
+   {
+    "ref": "c6_economics_savings_and_investment",
+    "source_node": "c6_economics_ch08_003"
+   },
+   {
+    "ref": "c6_geography_agriculture_india",
+    "source_node": "c6_geography_ch01_003"
+   },
+   {
+    "ref": "c6_geography_basics_of_environment",
+    "source_node": "c6_geography_ch04_022"
+   },
+   {
+    "ref": "c6_geography_ch01_india_location",
+    "source_node": "c6_geography_ch05_027"
+   },
+   {
+    "ref": "c6_geography_ch01_the_earth_as_a_system",
+    "source_node": "c6_geography_ch02_011"
+   },
+   {
+    "ref": "c6_geography_ch03_010",
+    "source_node": "c6_geography_ch03_015"
+   },
+   {
+    "ref": "c6_geography_ch03_010",
+    "source_node": "c6_geography_ch03_016"
+   },
+   {
+    "ref": "c6_geography_ch03_monsoon_and_seasons",
+    "source_node": "c6_geography_ch02_011"
+   },
+   {
+    "ref": "c6_geography_ch05_india_location",
+    "source_node": "c6_geography_ch05_029"
+   },
+   {
+    "ref": "c6_geography_ch05_transportation_and_communication",
+    "source_node": "c6_economics_ch07_001"
+   },
+   {
+    "ref": "c6_geography_ch06_india_climate",
+    "source_node": "c6_geography_ch05_027"
+   },
+   {
+    "ref": "c6_geography_ch08_001",
+    "source_node": "c6_economics_ch07_004"
+   },
+   {
+    "ref": "c6_geography_climate_patterns",
+    "source_node": "c6_geography_ch02_013"
+   },
+   {
+    "ref": "c6_geography_climate_patterns_and_seasons",
+    "source_node": "c6_geography_ch02_012"
+   },
+   {
+    "ref": "c6_geography_climate_zones",
+    "source_node": "c6_geography_ch02_010"
+   },
+   {
+    "ref": "c6_geography_concepts_of_location",
+    "source_node": "c6_geography_ch01_001"
+   },
+   {
+    "ref": "c6_geography_india_climate",
+    "source_node": "c6_geography_ch01_007"
+   },
+   {
+    "ref": "c6_geography_india_climate_and_monsoons",
+    "source_node": "c6_geography_ch05_031"
+   },
+   {
+    "ref": "c6_geography_indian_monsoon_patterns",
+    "source_node": "c6_geography_ch03_018"
+   },
+   {
+    "ref": "c6_geography_landforms",
+    "source_node": "c6_geography_ch03_017"
+   },
+   {
+    "ref": "c6_geography_landforms",
+    "source_node": "c6_geography_ch03_019"
+   },
+   {
+    "ref": "c6_geography_landforms_and_life",
+    "source_node": "c6_geography_ch03_018"
+   },
+   {
+    "ref": "c6_geography_landforms_basics",
+    "source_node": "c6_geography_ch01_004"
+   },
+   {
+    "ref": "c6_geography_landforms_mountains",
+    "source_node": "c6_geography_ch01_003"
+   },
+   {
+    "ref": "c6_geography_locations_of_continents",
+    "source_node": "c6_geography_ch05_026"
+   },
+   {
+    "ref": "c6_geography_lunar_phases",
+    "source_node": "c6_physics_ch12_049"
+   },
+   {
+    "ref": "c6_geography_mineral_distribution",
+    "source_node": "c6_geography_ch01_004"
+   },
+   {
+    "ref": "c6_geography_oceans_and_continents",
+    "source_node": "c6_geography_ch05_031"
+   },
+   {
+    "ref": "c6_geography_physical_divisions_of_india",
+    "source_node": "c6_geography_ch01_001"
+   },
+   {
+    "ref": "c6_geography_rivers_and_settlements",
+    "source_node": "c6_history_ch04_006"
+   },
+   {
+    "ref": "c6_geography_understanding_the_weather",
+    "source_node": "c6_geography_ch02_013"
+   },
+   {
+    "ref": "c6_geography_vegetation",
+    "source_node": "c6_geography_ch03_019"
+   },
+   {
+    "ref": "c6_geography_weather_introduction",
+    "source_node": "c6_geography_ch02_010"
+   },
+   {
+    "ref": "c6_history_ancient_civilizations",
+    "source_node": "c6_geography_ch05_028"
+   },
+   {
+    "ref": "c6_history_ancient_civilizations",
+    "source_node": "c6_history_ch07_022"
+   },
+   {
+    "ref": "c6_history_ancient_civilizations_and_trade_routes",
+    "source_node": "c6_geography_ch05_026"
+   },
+   {
+    "ref": "c6_history_ancient_society_values",
+    "source_node": "c6_history_ch06_017"
+   },
+   {
+    "ref": "c6_history_british_administration_growth",
+    "source_node": "c6_history_ch10_040"
+   },
+   {
+    "ref": "c6_history_british_raj_consolidation",
+    "source_node": "c6_history_ch10_039"
+   },
+   {
+    "ref": "c6_history_ch01_geographical_background",
+    "source_node": "c6_history_ch08_029"
+   },
+   {
+    "ref": "c6_history_ch02_new_kings_and_kingdoms",
+    "source_node": "c6_history_ch09_038"
+   },
+   {
+    "ref": "c6_history_ch03_001",
+    "source_node": "c6_economics_ch11_001"
+   },
+   {
+    "ref": "c6_history_ch03_001",
+    "source_node": "c6_history_ch09_035"
+   },
+   {
+    "ref": "c6_history_ch06_011",
+    "source_node": "c6_history_ch07_024"
+   },
+   {
+    "ref": "c6_history_ch08_025",
+    "source_node": "c6_history_ch08_030"
+   },
+   {
+    "ref": "c6_history_ch09_040",
+    "source_node": "c6_history_ch09_035"
+   },
+   {
+    "ref": "c6_history_ch09_akbar_legacy",
+    "source_node": "c6_history_ch09_037"
+   },
+   {
+    "ref": "c6_history_ch09_regional_cultures",
+    "source_node": "c6_history_ch08_029"
+   },
+   {
+    "ref": "c6_history_ch10_crafts_and_trade",
+    "source_node": "c6_history_ch09_038"
+   },
+   {
+    "ref": "c6_history_ch10_mughal_decline_factors",
+    "source_node": "c6_history_ch09_037"
+   },
+   {
+    "ref": "c6_history_ch12_independence_process",
+    "source_node": "c6_history_ch12_054"
+   },
+   {
+    "ref": "c6_history_civil_disobedience_movement",
+    "source_node": "c6_history_ch11_046"
+   },
+   {
+    "ref": "c6_history_civilisation",
+    "source_node": "c6_history_ch04_001"
+   },
+   {
+    "ref": "c6_history_colonialism_intro",
+    "source_node": "c6_history_ch10_040"
+   },
+   {
+    "ref": "c6_history_colonialism_intro",
+    "source_node": "c6_history_ch10_042"
+   },
+   {
+    "ref": "c6_history_colonialism_introduction",
+    "source_node": "c6_history_ch10_041"
+   },
+   {
+    "ref": "c6_history_delhi_sultanate_decline",
+    "source_node": "c6_history_ch09_033"
+   },
+   {
+    "ref": "c6_history_early_cities_features",
+    "source_node": "c6_history_ch04_002"
+   },
+   {
+    "ref": "c6_history_early_cities_urban_planning",
+    "source_node": "c6_history_ch04_005"
+   },
+   {
+    "ref": "c6_history_early_humans",
+    "source_node": "c6_geography_ch04_020"
+   },
+   {
+    "ref": "c6_history_early_humans",
+    "source_node": "c6_history_ch04_001"
+   },
+   {
+    "ref": "c6_history_early_humans_settlements",
+    "source_node": "c6_history_ch04_003"
+   },
+   {
+    "ref": "c6_history_emergence_of_new_states",
+    "source_node": "c6_history_ch04_006"
+   },
+   {
+    "ref": "c6_history_freedom_struggle_1900s",
+    "source_node": "c6_history_ch10_042"
+   },
+   {
+    "ref": "c6_history_freedom_struggle_basics",
+    "source_node": "c6_history_ch11_046"
+   },
+   {
+    "ref": "c6_history_gupta_empire",
+    "source_node": "c6_history_ch05_012"
+   },
+   {
+    "ref": "c6_history_harappan_drainage_and_sanitation",
+    "source_node": "c6_history_ch04_003"
+   },
+   {
+    "ref": "c6_history_harappan_trade_and_economy",
+    "source_node": "c6_history_ch04_005"
+   },
+   {
+    "ref": "c6_history_human_settlements",
+    "source_node": "c6_geography_ch01_007"
+   },
+   {
+    "ref": "c6_history_independence_movement",
+    "source_node": "c6_history_ch10_044"
+   },
+   {
+    "ref": "c6_history_mauryan_administration",
+    "source_node": "c6_history_ch05_012"
+   },
+   {
+    "ref": "c6_history_medieval_cultural_exchange",
+    "source_node": "c6_history_ch06_018"
+   },
+   {
+    "ref": "c6_history_mughal_administration_akbar",
+    "source_node": "c6_history_ch09_033"
+   },
+   {
+    "ref": "c6_history_mughal_empire",
+    "source_node": "c6_history_ch07_022"
+   },
+   {
+    "ref": "c6_history_sources_of_history",
+    "source_node": "c6_history_ch04_002"
+   },
+   {
+    "ref": "c6_history_sources_of_history",
+    "source_node": "c6_history_ch10_044"
+   },
+   {
+    "ref": "c6_history_timeline_and_sources",
+    "source_node": "c6_history_ch10_039"
+   },
+   {
+    "ref": "c6_history_trade_networks",
+    "source_node": "c6_history_ch06_018"
+   },
+   {
+    "ref": "c6_history_uprising_1857",
+    "source_node": "c6_history_ch10_041"
+   },
+   {
+    "ref": "c6_history_urban_planning",
+    "source_node": "c6_geography_ch04_020"
+   },
+   {
+    "ref": "c6_math_fractional_units",
+    "source_node": "c6_math_ch03_038"
+   },
+   {
+    "ref": "c6_math_mixed_fractions",
+    "source_node": "c6_math_ch03_038"
+   },
+   {
+    "ref": "c6_math_percentages",
+    "source_node": "c6_economics_ch08_003"
+   },
+   {
+    "ref": "c6_physics_conductors_insulators",
+    "source_node": "c6_physics_ch03_012"
+   },
+   {
+    "ref": "c6_physics_energy_sources",
+    "source_node": "c6_physics_ch03_012"
+   },
+   {
+    "ref": "c6_physics_motion_types",
+    "source_node": "c6_physics_ch08_033"
+   },
+   {
+    "ref": "c6_physics_periodic_phenomena",
+    "source_node": "c6_physics_ch08_033"
+   },
+   {
+    "ref": "c6_physics_solar_system",
+    "source_node": "c6_physics_ch12_049"
+   },
+   {
+    "ref": "c6_science_measurement_of_length_and_temperature",
+    "source_node": "c6_geography_ch02_012"
+   },
+   {
+    "ref": "c7_biology_ch01_001",
+    "source_node": "c6_biology_ch10_003"
+   },
+   {
+    "ref": "c7_civics_ch05_001",
+    "source_node": "c6_economics_ch12_005"
+   },
+   {
+    "ref": "c7_civics_media_role_in_society",
+    "source_node": "c6_civics_ch15_037"
+   },
+   {
+    "ref": "c7_civics_state_government_functions",
+    "source_node": "c6_civics_ch12_017"
+   },
+   {
+    "ref": "c7_civics_state_government_structure",
+    "source_node": "c6_civics_ch12_020"
+   },
+   {
+    "ref": "c7_economics_ch01_001",
+    "source_node": "c6_economics_ch11_005"
+   },
+   {
+    "ref": "c7_economics_ch07_human_resource_development",
+    "source_node": "c6_economics_ch07_003"
+   },
+   {
+    "ref": "c7_economics_government_budgeting_basics",
+    "source_node": "c6_civics_ch13_026"
+   },
+   {
+    "ref": "c7_economics_market_structures",
+    "source_node": "c6_economics_ch12_004"
+   },
+   {
+    "ref": "c7_engl_ch04_031",
+    "source_node": "c8_engl_ch2_3"
+   },
+   {
+    "ref": "c7_history_ch09_001",
+    "source_node": "c6_history_ch08_030"
+   },
+   {
+    "ref": "c7_history_medieval_devotion",
+    "source_node": "c6_history_ch06_017"
+   },
+   {
+    "ref": "c9_engl_ch3_011",
+    "source_node": "c11_eng_h_cbse_10_001"
+   },
+   {
+    "ref": "c9_engl_ch5_11",
+    "source_node": "c9_engl_ch5_10"
+   }
+  ],
+  "alias_cross_examples": [
+   {
+    "ref": "c10_geo_ch4_006",
+    "resolved_to": "c10_geo_cbse_04_006",
+    "sources": [
+     "c11_eng_h_cbse_05_001"
+    ]
+   }
+  ]
+ }
+}

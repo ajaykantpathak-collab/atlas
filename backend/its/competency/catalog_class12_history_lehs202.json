@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 20,
+ "chapter_title": "Bhakti-Sufi Traditions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.202.1",
+   "title": "Alvars and Nayanars of Tamilakam",
+   "section": "The Alvars and Nayanars of Tamil Nadu",
+   "definition": "From about the sixth century, Alvar devotees of Vishnu and Nayanar saints of Shiva travelled singing Tamil hymns, criticised caste and ritualism, and included women like Andal and Karaikkal Ammaiyar; their songs were later compiled in the Divya Prabandham and Tevaram and temple-building institutionalised their cults.",
+   "formula": "",
+   "key_idea": "Tamil bhakti made devotion a public, sung and caste-questioning practice, later housed in grand temples.",
+   "textbook_ref": "lehs202.txt alvar-nayanar sections, women saints and compilation",
+   "question_patterns": [
+    "who were the Alvars and Nayanars",
+    "name women saints of Tamil bhakti and their significance",
+    "how did bhakti saints criticise caste and ritual",
+    "what are the Divya Prabandham and Tevaram",
+    "describe the relation of bhakti to temple building",
+    "how did royal patronage engage with the saints"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the streams",
+     "explain": "Vishnu devotees were Alvars, Shiva devotees Nayanars"
+    },
+    {
+     "step": 2,
+     "action": "hear the women",
+     "explain": "Andal's hymns and Karaikkal Ammaiyar's poetry made women voices canonical"
+    },
+    {
+     "step": 3,
+     "action": "close with institutions",
+     "explain": "compiled hymns and temple rituals carried bhakti into daily worship"
+    }
+   ]
+  },
+  {
+   "id": "lehs.202.2",
+   "title": "Philosophy and Virashaiva Tradition",
+   "section": "Philosophy and Bhakti",
+   "definition": "Shankara taught advaita, the doctrine of the oneness of the individual soul and the supreme god, while Ramanuja's vishishtadvaita urged devotion to Vishnu as the path; in twelfth-century Karnataka Basavanna's Virashaiva movement rejected temple worship and caste, questioning rebirth theory.",
+   "formula": "",
+   "key_idea": "Philosophical schools and populist movements both claimed the true path, changing how devotion and doctrine met.",
+   "textbook_ref": "lehs202.txt Shankara, Ramanuja and Basavanna sections",
+   "question_patterns": [
+    "state Shankara's advaita doctrine",
+    "how did Ramanuja's teaching differ from Shankara's",
+    "what did the Virashaivas reject and why",
+    "describe Basavanna's social critique",
+    "relate vachana literature to the movement",
+    "compare philosophical and populist paths to god"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the doctrines",
+     "explain": "advaita asserts oneness; vishishtadvaita keeps qualified difference with devotion"
+    },
+    {
+     "step": 2,
+     "action": "follow Basavanna",
+     "explain": "vachanas attacked temples, caste and rebirth doctrine"
+    },
+    {
+     "step": 3,
+     "action": "close with reach",
+     "explain": "philosophy spoke in Sanskrit academies, vachanas in working people's Kannada"
+    }
+   ]
+  },
+  {
+   "id": "lehs.202.3",
+   "title": "Sufi Silsilas and the Chishti Order",
+   "section": "Growth of Sufism and the Chishtis in the Subcontinent",
+   "definition": "Sufis organised into silsilas - chains of spiritual descent - centred on khanqahs where shaikhs trained disciples; the Chishti silsila of Moinuddin Chishti at Ajmer won pan-Indian fame through qawwali singing, langar hospitality and the cult of ziyarat at dargahs, attracting kings and commoners.",
+   "formula": "",
+   "key_idea": "The Chishti khanqah blended music, food and discipline so effectively that its dargah remains a living pilgrimage.",
+   "textbook_ref": "lehs202.txt silsila, khanqah, Chishti practices and ziyarat sections",
+   "question_patterns": [
+    "define silsila, khanqah and ziyarat",
+    "describe the practices that made the Chishtis popular",
+    "who was Moinuddin Chishti and where is his dargah",
+    "what role did music and langar play in the khanqah",
+    "how did rulers interact with Chishti shaikhs",
+    "compare sufi and bhakti approaches to god"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the chain",
+     "explain": "silsila means chain of master-disciple transmission"
+    },
+    {
+     "step": 2,
+     "action": "list Chishti practices",
+     "explain": "qawwali, langar and openness to all marked the Chishti khanqah"
+    },
+    {
+     "step": 3,
+     "action": "close with pilgrimage",
+     "explain": "ziyarat at Ajmer's dargah crosses religious boundaries to this day"
+    }
+   ]
+  },
+  {
+   "id": "lehs.202.4",
+   "title": "Kabir, Guru Nanak and Vernacular Devotion",
+   "section": "New Devotional Paths: Kabir, Guru Nanak and Mirabai",
+   "definition": "Kabir's poetry in mixed vernaculars mocked both Hindu and Muslim orthodoxy in favour of a formless divine; Guru Nanak preached nam, dan and isnan, and his hymns were collected in the Guru Granth Sahib; Mirabai defied royal household norms for devotion to Krishna.",
+   "formula": "",
+   "key_idea": "Vernacular devotion made faith portable: sung poems crossed sects, and collections like the Granth built new communities.",
+   "textbook_ref": "lehs202.txt Kabir, Guru Granth Sahib and Mirabai sections",
+   "question_patterns": [
+    "describe Kabir's language and religious stance",
+    "what teachings of Guru Nanak are collected in the Granth Sahib",
+    "how did Mirabai challenge royal norms",
+    "define nirguna and saguna devotion",
+    "why is the Guru Granth Sahib a multi-author text",
+    "relate vernacular languages to the spread of bhakti"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "hear Kabir",
+     "explain": "his ulatbansi and plain verses refused temples, qazis and sect labels"
+    },
+    {
+     "step": 2,
+     "action": "follow Nanak",
+     "explain": "nam-japna, kirat karna and vand chhakna organised a community beyond caste"
+    },
+    {
+     "step": 3,
+     "action": "close with Mira",
+     "explain": "a Rajput princess turned Krishna devotee, she chose devotion over palace"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs202_1",
+   "source_ref": "lehs202.txt Chishti sections",
+   "concept": "lehs.202.3",
+   "question_type": "short_answer",
+   "question_pattern": "Explain three practices that made the Chishti khanqah popular.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "qawwali",
+     "explain": "sama with music drew listeners of every faith"
+    },
+    {
+     "step": 2,
+     "action": "langar",
+     "explain": "the open kitchen fed rich and poor alike"
+    },
+    {
+     "step": 3,
+     "action": "openness",
+     "explain": "shaikhs welcomed villagers, travellers and sultans equally"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs202_2",
+   "source_ref": "lehs202.txt alvar-nayanar sections",
+   "concept": "lehs.202.1",
+   "question_type": "short_answer",
+   "question_pattern": "How did Tamil bhakti saints challenge caste? Give two examples.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "low-caste saints",
+     "explain": "Nayanar tradition honoured saints from labouring castes"
+    },
+    {
+     "step": 2,
+     "action": "women's voices",
+     "explain": "Andal and Karaikkal Ammaiyar composed canonical hymns"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "devotion claimed worth beyond birth, unsettling ritual hierarchy"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs202_3",
+   "source_ref": "lehs202.txt Kabir section",
+   "concept": "lehs.202.4",
+   "question_type": "short_answer",
+   "question_pattern": "Why is Kabir hard to place within any single religious tradition?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "mixed language",
+     "explain": "his verses mix Sadhukkadi of Hindi, Persian and local speech"
+    },
+    {
+     "step": 2,
+     "action": "dual citation",
+     "explain": "later Hindus and Muslims both claimed him after death"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "his nirguna critique stands outside sect boundaries"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs202_1",
+   "source_ref": "lehs202.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the alvar and nayanar traditions of Tamilakam",
+    "compare Shankara's and Ramanuja's philosophies",
+    "explain the Chishti practices that drew followers",
+    "discuss Kabir's critique of organised religion",
+    "evaluate the Guru Granth Sahib as a multi-author text"
+   ]
+  },
+  {
+   "id": "ex_lehs202_2",
+   "source_ref": "lehs202.txt project questions, reworded",
+   "questions": [
+    "argue how bhakti questioned caste hierarchies",
+    "relate sufi ziyarat to living pilgrimage traditions",
+    "trace women's roles in devotional movements",
+    "compare vachanas and the songs of the Alvars",
+    "assess why vernacular languages spread devotion"
+   ]
+  }
+ ]
+}

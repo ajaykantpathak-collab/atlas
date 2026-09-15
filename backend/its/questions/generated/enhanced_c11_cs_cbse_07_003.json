@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_003",
+   "title": "c11_cs_cbse_07_003",
+   "questions": [
+    {
+     "q": "What is the result of evaluating the expression `('a', 'b') + ('c',) * 2` in Python?",
+     "a": "The expression evaluates to `('a', 'b', 'c', 'c')`. First, repetition `('c',) * 2` produces `('c', 'c')`. Then concatenation joins `('a', 'b')` with `('c', 'c')`. A wrong answer like `('a', 'b', 'c')` reveals the student thinks repetition applies to the whole left side or misunderstands operator precedence (repetition binds tighter than concatenation).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the statement `t = (1, 2, 3); t[1:3] = (9, 9)` raises a TypeError, while `t = [1, 2, 3]; t[1:3] = [9, 9]` works.",
+     "a": "Tuples are immutable, so slice assignment is not allowed — you cannot replace a slice of a tuple. Lists are mutable, so slice assignment modifies the list in place. A wrong answer that says \"both work\" or \"both fail\" shows confusion between mutability of tuples vs lists, a critical distinction for senior secondary exams.",
+     "self_check": true
+    },
+    {
+     "q": "Given `t = (10, 20, 30, 40, 50)`, write a single slicing expression that extracts every second element starting from index 1 (i.e., 20, 40).",
+     "a": "`t[1:5:2]` or `t[1::2]` both produce `(20, 40)`. The slice `start=1, stop=5 (excluded), step=2`. A wrong answer like `t[1:4:2]` (gives only 20) or `t[::2]` (gives 10, 30, 50) reveals misunderstanding of slice boundaries or step behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and performance implications of `t = (1, 2) * 1000` versus building the same tuple using a loop and repeated concatenation `t = (); for i in range(1000): t += (1, 2)`. Which is more efficient and why?",
+     "a": "Repetition `*` creates the final tuple in one allocation (O(n) time, single memory block). Repeated concatenation creates a new tuple each iteration (O(n²) time, many intermediate objects). The repetition operator is vastly more efficient. A student who says \"both are same\" ignores Python's immutable tuple implementation and quadratic copying cost.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `t = (1, 2, 3); u = t * 2; u[0] = 99` and expects `t` to become `(99, 2, 3, 1, 2, 3)`. Evaluate this expectation and explain the actual outcome.",
+     "a": "The expectation is wrong. `u = t * 2` creates a new tuple `(1, 2, 3, 1, 2, 3)`. The assignment `u[0] = 99` raises `TypeError` because tuples are immutable — you cannot modify any element of `u`. `t` remains `(1, 2, 3)`. A student who thinks `t` changes confuses repetition with aliasing or believes tuples are mutable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use tuple slicing with a negative step to process data. Write the tuple and the slicing expression.",
+     "a": "Scenario: A tuple `temps = (32, 34, 31, 29, 28, 27)` stores daily temperatures in °C for a week in Delhi (Mon-Sat). To get temperatures in reverse order (Sat to Mon), use `temps[::-1]` → `(27, 28, 29, 31, 34, 32)`. A poor answer uses positive step only or gives no context, showing inability to apply slicing creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

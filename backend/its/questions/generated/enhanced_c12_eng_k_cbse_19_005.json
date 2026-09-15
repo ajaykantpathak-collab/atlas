@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_005",
+   "title": "c12_eng_k_cbse_19_005",
+   "questions": [
+    {
+     "q": "List any three mythological creatures Asimov names in Section I and state the common principle he says underlies their creation.",
+     "a": "Asimov names the Centaur (man-horse), Satyr (man-goat), Sphinx (woman-lion), Harpy (woman-hawk), Gryphon (eagle-lion), and Gorgon (snake-woman). The common principle: \"the constant reference to the ordinary in the invention of the unusual\" — imaginations are limited, so we combine known animal/human traits. A wrong answer (e.g., \"they represent gods\" or \"they are aliens\") reveals the student missed Asimov's explicit statement about imaginative limitation and combinatorial creativity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Asimov introduces the priest, magician, wizard, and shaman in Section I. What rhetorical purpose do they serve *collectively*?",
+     "a": "Asimov groups them as the prescientific equivalents of the modern scientist: each was \"perceived as having the secret of controlling the Universe\" through magical formulas. Their collective rhetorical purpose is to establish a *functional parallel* — the *social role* of \"knower/manipulator of hidden laws\" persists, only the *epistemic basis* shifts from magic to science. This supports his thesis that SF and myth fulfil the same emotional needs in different universes. A wrong answer focusing on their differences (e.g., \"one uses magic, one uses science\") misses the structural analogy Asimov is building.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov quotes an imaginary Holmes-Watson dialogue involving a \"pocket-frannistan\" and \"Q-rays.\" Apply Asimov's own criteria for a fair mystery to this dialogue: identify exactly which rule it violates and why.",
+     "a": "The dialogue violates Asimov's core fairness rule: \"the reader must then see and hear everything the investigator sees and hears, and he must be aware of every clue the investigator comes across.\" Holmes produces a previously unknown device (\"pocket-frannistan\") and an undisclosed discovery (\"Q-rays\") *at the moment of solution*, giving the reader zero chance to deduce the outcome. This is the \"sudden change of rules without warning\" Campbell feared. A wrong answer citing \"it uses science fiction elements\" misses the point — Asimov argues SF mysteries *can* be fair if boundary conditions are established *beforehand*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rhetorical functions of John W. Campbell and John Dickson Carr in Section II. How does Asimov use each to advance *different* stages of his argument?",
+     "a": "Campbell functions as the *authoritative skeptic* whose \"failure of nerve\" (claiming SF mysteries impossible) sets up Asimov's refutation — Asimov positions himself as bolder than the genre's greatest editor. Carr functions as a *cautionary exemplum*: his confusion of antimony/antimony potassium tartrate and carbon monoxide/dioxide proves the \"extraordinary pitfalls\" of writing scientific mysteries without mastering the science. Campbell *opens* the debate; Carr *illustrates the stakes*. A wrong answer treating both as mere \"examples of writers\" misses their distinct argumentative positions (opponent vs. negative case study).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Asimov's decision to include the Achilles-Hector duel and the War of 1812 naval battles as analogies for enjoying mythological fiction. Are these effective rhetorical choices for his intended audience? Justify.",
+     "a": "Yes, they are effective. Asimov's audience (SF readers, general literate public) shares cultural literacy about Homer and Napoleonic-era naval warfare. The analogies work because: (1) they concede the *obsolescence* of the technology (spears, wooden ships) while defending the *enduring aesthetic value* — exactly his claim for myth vs. SF; (2) they use *uncontroversial* examples (no one argues we should stop reading the Iliad) to normalize his controversial claim (we shouldn't discard mythological fiction). A weak evaluation would call them \"good examples\" without analyzing the *strategic concession* or *audience alignment*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new mythological hybrid creature following Asimov's \"combinatorial principle\" (combining two familiar animals/humans). Then write a 3-sentence \"catalogue entry\" for it in the style of Asimov's list (Centaur, Satyr, etc.), and explain in one sentence what human desire or fear your creature embodies, paralleling Asimov's claim that such monsters are \"powerful travesties of life.\"",
+     "a": "Creature: **Owl-Cat (Nocturnal Stalker)** — the head, wings, and silent flight of an owl fused with the body, retractable claws, and territorial independence of a cat. Catalogue entry: \"The owl-cat, a feathered feline that hunts by soundless swoop and strikes with velvet paws, haunts the twilight borders between wisdom and instinct.\" Embodies: the human longing for *silent, unseen mastery* over one's environment — the desire to know everything (owl's vision) while remaining completely unaccountable (cat's aloofness). A poor answer creates a creature without the combinatorial logic or fails to link its traits to a recognizable human impulse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

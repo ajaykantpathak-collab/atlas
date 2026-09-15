@@ -1,0 +1,181 @@
+{
+ "catalog": "catalog_class8_maths_hemh103.json",
+ "concepts": [
+  {
+   "id": "hemh.103.3.1",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 55"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 76"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 59"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 21 - 37"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 21"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 118"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 55"
+   ]
+  },
+  {
+   "id": "hemh.103.3.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 37"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 89"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 42"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 87 - 70"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 52"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 126"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.103.3.3",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 74"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 65"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 19"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 93 - 167"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 57"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 98"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.103.3.4",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 120"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (11 + 13)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 28 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((16 / 2) ** 2 + (16 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 7 * 7)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 60 - 80"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "adj = 180 - 120"
+   ]
+  }
+ ]
+}

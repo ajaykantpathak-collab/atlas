@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_098",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_098",
+   "title": "c6_math_ch09_098",
+   "questions": [
+    {
+     "q": "What do the heights of the bars in a bar graph represent?",
+     "a": "The height represents the frequency or the total count of the category it describes. A wrong answer like \"the size of the object\" reveals that the student is confusing the physical drawing with the mathematical data it represents.",
+     "self_check": true
+    },
+    {
+     "q": "If you have data ranging from 0 to 50, why might you choose a scale where 1 unit equals 5 instead of 1 unit equals 1?",
+     "a": "Using 1 unit = 5 makes the graph smaller and easier to draw on a single page, whereas 1 unit = 1 would require a paper 50 units tall. A wrong answer suggests the student does not understand that the scale is a tool for fitting data into a manageable space.",
+     "self_check": true
+    },
+    {
+     "q": "In a bar graph showing the number of books read by 5 students, if the bar for 'Rohan' is twice as high as the bar for 'Meera', what does this tell you?",
+     "a": "It means Rohan read exactly twice as many books as Meera. If a student says \"Rohan read more,\" they are missing the quantitative relationship that the scale provides.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the bars in a bar graph have equal widths and equal spacing?",
+     "a": "To ensure the comparison is fair; if one bar is wider, it might visually mislead the viewer into thinking that category is \"larger\" or \"more important.\" A student who misses this likely views the graph as an artistic drawing rather than a precise mathematical tool.",
+     "self_check": true
+    },
+    {
+     "q": "If a bar graph's vertical axis starts at 0 and goes up by intervals of 10, but the highest value is 45, where should the top of the bar for 45 stop?",
+     "a": "It should stop exactly halfway between the marks for 40 and 50. A student failing this likely struggles with understanding how to represent values that fall between marked intervals on an axis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a plan for a bar graph showing the number of students who walk, cycle, or take a bus to school. What are the three essential parts you must include?",
+     "a": "The essential parts are: labels on the horizontal axis (categories), labels on the vertical axis (frequency/scale), and a clear title. A poor answer that omits labels indicates the student does not understand that a graph is a communication tool, not just a set of bars.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

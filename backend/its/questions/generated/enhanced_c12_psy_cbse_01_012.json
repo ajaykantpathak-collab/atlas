@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_012",
+   "title": "c12_psy_cbse_01_012",
+   "questions": [
+    {
+     "q": "Define Emotional Intelligence according to Salovey and Mayer (1990). How does it differ from Goleman's (1995) conceptualisation?",
+     "a": "Salovey & Mayer define EI as \"the ability to monitor one's own and others' feelings and emotions, to discriminate among them, and to use this information to guide one's thinking and actions\" — a *pure ability model* with four branches: perceiving, using, understanding, managing emotions. Goleman's mixed model adds personality traits (motivation, empathy, social skills) making it broader but less measurable. A wrong answer that merges both or lists only Goleman's traits reveals confusion between ability-based and mixed models — a critical distinction for test construction (MSCEIT vs self-report questionnaires).",
+     "self_check": true
+    },
+    {
+     "q": "A student scores 130 on IQ test but produces only conventional solutions on Torrance Tests of Creative Thinking. Another scores 110 IQ but generates highly original, useful ideas. Explain this using the threshold hypothesis. What minimum IQ level does research suggest for high creativity?",
+     "a": "Threshold hypothesis: IQ and creativity correlate positively up to ~IQ 120; beyond this threshold, the correlation drops to near zero. The first student (IQ 130) is above threshold — high IQ does *not* guarantee high creativity. The second (IQ 110) is near threshold — sufficient intelligence for complex thought but creativity depends on divergent thinking, openness, motivation. Research (Getzels & Jackson, 1962; later meta-analyses) places threshold at IQ 120. A wrong answer claiming \"high IQ always means high creativity\" ignores Terman's longitudinal finding that gifted children (IQ 130+) did not become eminent creators — confusing necessary vs sufficient condition.",
+     "self_check": true
+    },
+    {
+     "q": "A school uses Differential Aptitude Tests (DAT) for Class 10 stream allocation. Student A: Verbal Reasoning 90th percentile, Numerical Reasoning 40th, Abstract Reasoning 85th, Mechanical Reasoning 30th. Student B: Verbal 45th, Numerical 88th, Abstract 50th, Mechanical 92nd. Which stream (Humanities, Commerce, Science, Vocational) fits each? Justify using DAT subtest constructs.",
+     "a": "Student A → Humanities: High Verbal (language comprehension) + High Abstract (conceptual reasoning) align with literature, law, psychology. Low Numerical/Mechanical rules out Commerce/Science/Vocational. Student B → Vocational/Engineering: High Mechanical (understanding physical systems) + High Numerical (quantitative skills) fit technical trades, engineering. Low Verbal/Abstract makes Humanities/Science (theoretical) unsuitable. Wrong assignment (e.g., putting Student B in Commerce because of Numerical) ignores that Commerce requires Verbal for business communication and Abstract for economic modelling — Mechanical is irrelevant. This tests ability to map subtest constructs to real-world domain demands.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *nature* of items in Intelligence Tests vs Creativity Tests. Why do creativity tests use open-ended stimuli (words, figures, actions, sounds) while intelligence tests use closed-ended items? Connect to convergent vs divergent thinking.",
+     "a": "Intelligence tests: convergent thinking — single correct answer, closed-ended (e.g., \"Complete the series: 2, 4, 8, __\"). Measures: memory, logical reasoning, accuracy, perceptual speed. Creativity tests: divergent thinking — multiple acceptable responses, open-ended (e.g., \"List uses of a brick\"). Measures: fluency (number of ideas), flexibility (categories), originality (statistical rarity), elaboration (detail). Open-ended stimuli allow freedom to express spontaneity and imagination — impossible with closed items. Wrong answer focusing only on \"difficulty level\" misses the fundamental *process* difference: intelligence seeks *the* right answer; creativity seeks *many* novel answers.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Emotional Intelligence is more important than IQ for life success.\" Use research evidence (Goleman's claims vs meta-analyses) and the Indian concept of *buddhi* (integral intelligence) to evaluate.",
+     "a": "Goleman claimed EQ accounts for 80% of success; meta-analyses (Joseph & Newman, 2010) show EQ predicts job performance *incrementally* over IQ (ΔR² ~ 2-5%) — strongest for high emotional labour jobs (sales, leadership). IQ remains stronger predictor for complex cognitive jobs (research, engineering). Indian *buddhi* (NCERT) integrates cognitive, emotional, social, entrepreneurial competencies — *not* a hierarchy. Success requires *both*: IQ for threshold cognitive complexity, EQ for interpersonal regulation. Overstating EQ leads to neglecting cognitive skill development. A balanced view: IQ gets you hired; EQ gets you promoted — but only if IQ meets job threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity to assess *creative potential* in Class 9 students using *figural stimuli*. Specify: (a) stimulus, (b) instruction, (c) three scoring dimensions (fluency, flexibility, originality) with examples, (d) how to avoid cultural bias.",
+     "a": "(a) Stimulus: Incomplete figure (like Torrance \"Circle Test\" — 10 circles on a page). (b) Instruction: \"Complete each circle to make a *different* picture. Be as original as possible. You have 5 minutes.\" (c) Scoring: Fluency = count of completed circles (max 10). Flexibility = number of *categories* (e.g., \"sun\" = nature, \"wheel\" = transport, \"face\" = human). Originality = statistical infrequency vs normative sample (e.g., \"clock\" common = 1 pt; \"black hole\" rare = 5 pts). (d) Avoid cultural bias: Use abstract geometric shapes (circles, triangles) not culture-bound objects; allow non-verbal response; provide visual examples not verbal descriptions. Poor answer: using \"draw a Diwali scene\" — privileges specific cultural knowledge, violates culture-fair principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "MOTIONS OF THE EARTH",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees108.txt",
+ "concepts": [
+  {
+   "id": "fess.203.1",
+   "title": "Rotation of the Earth",
+   "section": "3.1",
+   "definition": "The spinning movement of the Earth around its own imaginary axis, which takes approximately 24 hours to complete.",
+   "formula": "rotation_period = 24",
+   "key_idea": "Rotation causes the daily cycle of day and night.",
+   "textbook_ref": "fess203.txt lines 15-35",
+   "question_patterns": [
+    "what is rotation",
+    "how long does one rotation take",
+    "define the daily motion of the earth",
+    "why do we have day and night",
+    "explain rotation of the earth with an example",
+    "short note on rotation of the earth",
+    "why is rotation of the earth important",
+    "give one everyday example of rotation of the earth",
+    "describe rotation of the earth in your own words",
+    "what do you understand by rotation of the earth",
+    "list the main points about rotation of the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the motion",
+     "explain": "The Earth's spin on its axis is defined as rotation."
+    }
+   ]
+  },
+  {
+   "id": "fess.203.2",
+   "title": "Revolution and Leap Year",
+   "section": "3.2",
+   "definition": "The Earth's orbital movement around the Sun, taking 365.25 days, where the extra quarter-days accumulate to form a leap year every four years.",
+   "formula": "leap_year_days = 366",
+   "key_idea": "Revolution causes seasonal changes and the leap year cycle.",
+   "textbook_ref": "fess203.txt lines 45-60",
+   "question_patterns": [
+    "calculate the number of days in a leap year",
+    "what is a leap year",
+    "how many days are in a regular year",
+    "why is february sometimes 29 days",
+    "explain revolution and leap year with an example",
+    "short note on revolution and leap year",
+    "why is revolution and leap year important",
+    "give one everyday example of revolution and leap year",
+    "describe revolution and leap year in your own words",
+    "what do you understand by revolution and leap year",
+    "list the main points about revolution and leap year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total days in 4 years",
+     "explain": "Standard year is 365 days, plus 0.25 days per year.",
+     "compute": "total_days = 365 * 4 + 1"
+    }
+   ]
+  },
+  {
+   "id": "fess.203.3",
+   "title": "Solstice and Equinox",
+   "section": "3.3",
+   "definition": "Solstices are points in the orbit where one hemisphere receives maximum sunlight, while equinoxes are points where the Sun shines directly on the equator.",
+   "formula": "equinox_day_length = night_length",
+   "key_idea": "Tilt of the Earth's axis relative to the orbital plane determines seasonal intensity.",
+   "textbook_ref": "fess203.txt lines 80-110",
+   "question_patterns": [
+    "what is a summer solstice",
+    "when is the equinox",
+    "describe the position of the earth during winter solstice",
+    "how does the sun hit the equator during equinox",
+    "explain solstice and equinox with an example",
+    "short note on solstice and equinox",
+    "why is solstice and equinox important",
+    "give one everyday example of solstice and equinox",
+    "describe solstice and equinox in your own words",
+    "what do you understand by solstice and equinox",
+    "list the main points about solstice and equinox"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare sun position",
+     "explain": "Solstice involves maximum tilt towards/away from the Sun; Equinox involves zero tilt relative to the Sun's rays at the equator."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess203.txt lines 50-55",
+   "concept": "fess.203.2",
+   "question_type": "compute",
+   "question_pattern": "If a year has {days} days, how many days are in 4 years including the leap day?",
+   "extracted_variables": {
+    "days": "365"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply years by standard days",
+     "explain": "Calculate base days for 4 years.",
+     "compute": "base = days * 4"
+    },
+    {
+     "step": 2,
+     "action": "Add leap day",
+     "explain": "Add the accumulated quarter days.",
+     "compute": "total = base + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess203.txt lines 15-35",
+   "concept": "fess.203.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain rotation of the earth with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the motion",
+     "explain": "The Earth's spin on its axis is defined as rotation."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess203.txt lines 120-130",
+   "questions": [
+    "What is the angle of inclination of the earth’s axis with its orbital plane?",
+    "Differentiate between the Summer and Winter Solstice.",
+    "Why do the poles experience about six months day and six months night?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

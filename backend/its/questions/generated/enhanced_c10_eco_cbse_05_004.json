@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_004",
+   "title": "c10_eco_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the pecuniary jurisdiction (maximum value of claim) of the District Consumer Disputes Redressal Commission under the Consumer Protection Act, 2019?",
+     "a": "The District Commission has jurisdiction to entertain complaints where the value of goods/services and compensation claimed does not exceed ₹1 crore. A wrong answer (e.g., ₹20 lakh or ₹10 crore) reveals the student is using outdated limits from the 1986 Act or confusing the tiers. This is a critical board exam fact: the 2019 Act significantly raised the limits.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Consumer Protection Act, 2019 establish a three-tier forum system instead of a single national forum?",
+     "a": "The three-tier system ensures geographical accessibility (District forums in every district), reduces case backlog by distributing cases by value, and provides an appellate hierarchy for review of decisions. A wrong answer like \"to give more power to the National Commission\" shows the student misses the core purpose: decentralised, low-cost, and speedy justice for consumers at the local level.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer in Mumbai buys a luxury car worth ₹45 lakh. The car has a manufacturing defect. The dealer refuses to repair it. The consumer wants to claim a refund of ₹45 lakh plus ₹10 lakh compensation for mental agony. Which forum should the consumer approach? Show your reasoning.",
+     "a": "Step 1: Total claim value = ₹45 lakh (refund) + ₹10 lakh (compensation) = ₹55 lakh.\nStep 2: Under the 2019 Act, District Commission jurisdiction is up to ₹1 crore.\nStep 3: Since ₹55 lakh ≤ ₹1 crore, the consumer must file in the District Consumer Disputes Redressal Commission, Mumbai.\nA wrong answer (e.g., State Commission) reveals the student either adds incorrectly or thinks \"luxury car\" automatically goes to a higher forum. The pecuniary limit is based on total claim value, not product type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the District Commission and the National Commission. How does the difference reflect the complexity of cases they handle?",
+     "a": "District Commission: President + 2 members (one must be a woman). National Commission: President + at least 4 members (one must be a woman). The National Commission has more members because it handles higher-value claims (above ₹10 crore), complex legal questions, and appeals from State Commissions, requiring broader expertise. A wrong answer that states both have the same composition shows the student hasn't grasped the link between case complexity and bench strength.",
+     "self_check": true
+    },
+    {
+     "q": "\"Increasing the pecuniary jurisdiction of District Commissions from ₹20 lakh (1986 Act) to ₹1 crore (2019 Act) has improved access to justice for consumers.\" Evaluate this statement with two arguments for and one argument against.",
+     "a": "For: (1) More cases (especially mid-value like ₹30-50 lakh) can be filed locally without travelling to the state capital, saving time and money. (2) Reduces burden on State Commissions, speeding up disposal at both levels. Against: (1) District Commissions may lack infrastructure/expertise for complex high-value cases, leading to poor quality orders and more appeals. A weak evaluation only lists benefits without considering capacity constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart that a consumer can use to decide which forum to approach, starting from \"Calculate total claim value\" and ending at \"File complaint in appropriate forum\". Include the three forums and their pecuniary limits.",
+     "a": "A good flowchart: Start → Calculate total claim (price + compensation) → Is claim ≤ ₹1 crore? → Yes → District Commission → End. No → Is claim ≤ ₹10 crore? → Yes → State Commission → End. No → National Commission → End. A poor flowchart misses the \"total claim\" concept, uses old limits, or omits the appeal path. This tests if the student can synthesise the jurisdiction rules into a decision tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

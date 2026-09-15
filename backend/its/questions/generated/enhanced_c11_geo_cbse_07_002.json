@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_002",
+   "title": "c11_geo_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define a V-shaped valley and state the dominant erosion process responsible for its formation in the upper course of a river.",
+     "a": "A V-shaped valley is a steep-sided, narrow valley with a cross-profile resembling the letter 'V', formed by dominant vertical erosion (downcutting) in the upper course where river gradient is steep and discharge is low. A wrong answer (e.g., \"lateral erosion forms V-shaped valleys\" or \"deposition forms them\") reveals confusion between upper course (vertical erosion) and middle/lower course (lateral erosion/deposition) processes, indicating the student has not grasped the longitudinal profile concept from c11_geo_cbse_07_001.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why waterfalls form where a band of resistant rock overlies less resistant rock, using the terms 'differential erosion', 'plunge pool', and 'headward erosion'.",
+     "a": "Waterfalls form due to differential erosion: the river erodes the softer underlying rock faster via hydraulic action and abrasion, creating a plunge pool at the base that undercuts the resistant cap rock; the unsupported cap rock eventually collapses, causing the waterfall to retreat upstream (headward erosion). A wrong answer (e.g., \"waterfalls form only by faulting\" or \"soft rock erodes slower\") reveals the misconception that waterfalls are static features or that erosion rate is uniform across rock types, ignoring the feedback loop between plunge pool deepening and cap rock collapse.",
+     "self_check": true
+    },
+    {
+     "q": "On a 1:50,000 topographic map, a river in its upper course shows contour lines forming sharp V-shapes pointing upstream with a contour interval of 20 m. If the valley floor is at 1,200 m and the interfluve (ridge) is at 1,400 m, calculate the valley depth and explain what the V-shape orientation indicates about flow direction.",
+     "a": "Valley depth = 1,400 m - 1,200 m = 200 m. The V-shapes point upstream, meaning the apex of each V points toward the source; the river flows opposite to the V's apex (downstream). Steps: (1) Identify contour values at valley floor and ridge. (2) Subtract to get relief/depth. (3) Recall contour rule: V-shapes point uphill/upstream for valleys. (4) Infer flow direction is opposite to V apex. A wrong answer (e.g., \"V points downstream\" or depth = 100 m) reveals inability to read contour patterns or confusion with spur contours (which point downstream), a common map-reading error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cross-profile of a V-shaped valley in the Himalayas (e.g., Bhagirathi near Gangotri) with a U-shaped valley in the same region (e.g., a glacial trough in Ladakh). Identify three morphological differences and link each to the dominant process (fluvial vs. glacial).",
+     "a": "(1) V-shape vs. U-shape: V-shaped valleys have steep, converging sides from vertical fluvial downcutting; U-shaped valleys have steep, parallel sides and flat floors from glacial abrasion and plucking widening the valley. (2) Valley floor: V-shaped has narrow, river-occupied floor; U-shaped has broad, often lake-dotted or misfit-stream floor. (3) Hanging valleys: Common in glacial troughs (tributary glaciers enter main trough at higher level); absent in youthful fluvial valleys. A wrong answer (e.g., \"both are formed by rivers\" or \"U-shape is just a wider V-shape\") reveals confusion between fluvial and glacial processes, ignoring that node 006 covers glacial landforms separately.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Waterfalls are temporary features in a river's long profile and will eventually disappear as the river grades its profile.\" Support your answer with the concept of nick point migration and base level.",
+     "a": "The statement is correct. Waterfalls represent nick points (breaks in the graded long profile). Through headward erosion driven by plunge pool undercutting and cap rock collapse, the nick point migrates upstream, reducing the gradient discontinuity. Over geological time, the river achieves a smooth, concave-up graded profile adjusted to base level (sea level or local base level like a lake). A wrong answer (e.g., \"waterfalls are permanent\" or \"they move downstream\") reveals misunderstanding of dynamic equilibrium in fluvial systems and the concept of base level controlling longitudinal profile evolution (linked to node 009: Davis's cycle).",
+     "self_check": true
+    },
+    {
+     "q": "Design a field sketch annotation for a waterfall site (e.g., Chitrakote Falls on Indravati River, Chhattisgarh) that demonstrates the sequence of waterfall retreat. Include labels for: cap rock, plunge pool, undercut notch, collapsed blocks, retreat direction, and former positions.",
+     "a": "A good sketch shows: (1) Current waterfall lip with horizontal cap rock layer. (2) Plunge pool at base with turbulent flow annotation. (3) Undercut notch in soft rock beneath cap rock. (4) Collapsed cap rock blocks in plunge pool. (5) Arrow showing upstream retreat direction. (6) Dashed lines marking 2-3 former waterfall positions upstream, each with its own plunge pool remnant. A poor sketch (missing undercut notch, showing downstream retreat, or labeling cap rock as soft rock) reveals the student cannot visualize the process-feedback loop: undercutting → collapse → retreat → new plunge pool formation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

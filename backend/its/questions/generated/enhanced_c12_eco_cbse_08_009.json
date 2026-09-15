@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_009",
+   "title": "c12_eco_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define GDP and state one fundamental reason why it is an incomplete measure of economic welfare.",
+     "a": "GDP is the total market value of all final goods and services produced within a country's domestic territory in a given period. It is incomplete for welfare because it only counts market transactions — excluding unpaid household work, volunteer services, and informal sector production. A wrong answer (e.g., \"GDP excludes exports\") reveals confusion between GDP components and welfare limitations; the student conflates what GDP measures with what it omits for welfare assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rise in GDP after a natural disaster (like the 2018 Kerala floods reconstruction) may not indicate improved welfare, using the concepts of defensive expenditures and stock vs. flow.",
+     "a": "Post-disaster reconstruction increases GDP (flow of new production) but merely replaces destroyed capital stock — welfare does not rise because society is restoring pre-disaster living standards, not advancing. Defensive expenditures (cleanup, rebuilding) are counted as positive GDP but represent welfare maintenance, not gain. A wrong answer (\"GDP rises so welfare rises\") shows the student treats all GDP components as welfare-enhancing, missing the distinction between productive investment and replacement spending.",
+     "self_check": true
+    },
+    {
+     "q": "India's GDP grew 7.2% in FY 2022-23 while the Gini coefficient (inequality measure) rose from 0.35 to 0.38. Calculate the approximate percentage change in GDP per capita if population grew 0.9%, then explain why this GDP per capita increase may overstate welfare improvement for the bottom 40% of households.",
+     "a": "GDP per capita growth ≈ 7.2% - 0.9% = 6.3%. However, with rising inequality (Gini ↑), the bottom 40% likely experienced income growth far below 6.3% — possibly negative in real terms if inflation outpaced their wage growth. GDP per capita assumes equal distribution; it masks that the top 10% captured disproportionate gains. A wrong answer (\"welfare improved by 6.3% for everyone\") reveals the student ignores distributional effects and treats per capita averages as representative of all households.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the welfare implications of two scenarios: (A) A factory increases output by 15%, emitting more pollution; (B) The same factory reduces output by 5% but installs zero-emission technology. How does GDP treat these differently from a welfare perspective?",
+     "a": "GDP rises in (A) (more output counted) but falls in (B) (less output), yet welfare likely improves in (B) due to cleaner air, better health, and sustainability. GDP treats pollution as a free by-product (not subtracting environmental damage) and ignores the value of clean air. A wrong answer (\"Scenario A is better because GDP is higher\") shows the student equates GDP growth with welfare gain, missing that GDP counts \"bads\" (pollution) as \"goods\" (output) and omits negative externalities entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since HDI includes GDP per capita as one component, a country with high GDP will always have high HDI.\" Use India vs. Gulf countries or Indian states as counterexamples.",
+     "a": "False. HDI = (Life Expectancy Index × Education Index × Income Index)^(1/3). Gulf states (e.g., Qatar) have very high GDP per capita but moderate HDI due to lower education/female empowerment indices. Kerala (India) has lower per capita GDP than Gujarat but higher HDI due to superior health/education outcomes. The geometric mean penalizes imbalance — high income cannot compensate for low health/education. A wrong answer (\"High GDP means high HDI\") reveals the student doesn't understand HDI's multiplicative structure and equal weighting of non-income dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Green GDP\" adjustment formula for India that subtracts environmental degradation costs from standard GDP. Specify three data sources you would need and one practical challenge in implementation.",
+     "a": "Green GDP = GDP - (Cost of Air Pollution + Cost of Water Degradation + Cost of Soil Erosion + Forest Depletion Value). Data sources: (1) CPCB air quality monitoring for health cost valuation, (2) Central Water Commission for water treatment costs, (3) Forest Survey of India for timber/ecosystem service loss. Challenge: Valuing non-market ecosystem services (e.g., wetlands' flood protection) requires contested shadow pricing methods. A poor answer (\"just subtract pollution costs\") shows ignorance of valuation methodologies and data gaps in the Indian statistical system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

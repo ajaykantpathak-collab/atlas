@@ -1,0 +1,278 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Sorting Materials into Groups",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fepr102.txt",
+ "concepts": [
+  {
+   "id": "fesc.4.1.1",
+   "title": "Material Categorization",
+   "section": "4.1",
+   "definition": "Objects are classified based on the physical substances they are composed of, such as wood, metal, or plastic.",
+   "formula": "none",
+   "key_idea": "Grouping objects by their constituent material helps in systematic study.",
+   "textbook_ref": "fesc104.txt lines 25-60",
+   "question_patterns": [
+    "what materials are used to make a chair",
+    "list objects made of plastic",
+    "can one object be made of multiple materials",
+    "classify these items by material",
+    "give one everyday example of material categorization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the material each object is made of (wood, metal, plastic, glass, etc.)",
+     "explain": "Determining the constituent material is the first step in any classification by composition."
+    },
+    {
+     "step": 2,
+     "action": "Group objects by their shared material composition",
+     "explain": "Objects made of the same material are placed together to form a category."
+    },
+    {
+     "step": 3,
+     "action": "Verify that each group contains only objects made of the same material",
+     "explain": "Checking each group ensures no object has been misclassified, keeping the grouping systematic."
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.1",
+   "title": "Lustre of Materials",
+   "section": "4.2",
+   "definition": "Lustre is indeed the characteristic shine or reflective quality found on the surfaces of certain materials, especially metals.",
+   "formula": "none",
+   "key_idea": "Freshly cut surfaces of metals often reveal their inherent lustre.",
+   "textbook_ref": "fesc104.txt lines 115-140",
+   "question_patterns": [
+    "which of these materials have lustre",
+    "why do metals lose their shine over time",
+    "how can we test for lustre in a dull object",
+    "is wood a lustrous material",
+    "explain lustre of materials in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the surface of the material under light for shine or reflection",
+     "explain": "Lustre is detected by checking whether the surface reflects light to produce a visible shine."
+    },
+    {
+     "step": 2,
+     "action": "Compare with known lustre materials (metals like gold, silver, copper)",
+     "explain": "Using familiar lustrous materials as a reference helps confirm whether the observed shine matches true lustre."
+    },
+    {
+     "step": 3,
+     "action": "Classify as lustrous (shiny) or non-lustrous (dull) based on reflection",
+     "explain": "The final classification depends on whether the material shows a reflective shine similar to metals or remains dull."
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.2",
+   "title": "Hardness of Materials",
+   "section": "4.2",
+   "definition": "Hardness is the property of a material that determines its resistance to being compressed or scratched.",
+   "formula": "none",
+   "key_idea": "Hard materials are indeed difficult to scratch or compress, while soft materials are easily deformed.",
+   "textbook_ref": "fesc104.txt lines 141-155",
+   "question_patterns": [
+    "differentiate between hard and soft materials",
+    "is iron considered a soft material",
+    "how do we test the hardness of a material",
+    "give examples of soft materials",
+    "what do you understand by hardness of materials"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Attempt to scratch or compress the material using a reference object (like a fingernail or a coin)",
+     "explain": "Testing resistance to scratching and compression is the practical way to assess hardness."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the material shows a scratch, dent, or deformation after the test",
+     "explain": "If the material resists scratching and compression it is hard; if it deforms easily it is soft."
+    },
+    {
+     "step": 3,
+     "action": "Classify the material as hard or soft based on the observed resistance",
+     "explain": "The final classification groups materials into hard (difficult to scratch) and soft (easily deformed) categories."
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.3",
+   "title": "Solubility in Water",
+   "section": "4.2",
+   "definition": "Solubility is the ability of a substance to dissolve completely in a liquid like water to form a uniform mixture.",
+   "formula": "none",
+   "key_idea": "Substances that disappear in water are soluble; those that remain separate are indeed insoluble.",
+   "textbook_ref": "fesc104.txt lines 160-200",
+   "question_patterns": [
+    "is salt soluble in water",
+    "why does sand not dissolve in water",
+    "classify these substances as soluble or insoluble",
+    "do liquids dissolve in water",
+    "list the main features of solubility in water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the substance to a container of water and stir thoroughly",
+     "explain": "Stirring helps the substance interact with water so that dissolution, if possible, can occur."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the substance disappears completely or remains visible in the water",
+     "explain": "A soluble substance dissolves and becomes invisible, forming a uniform mixture, while an insoluble substance stays separate."
+    },
+    {
+     "step": 3,
+     "action": "Classify the substance as soluble or insoluble based on whether it disappeared in the water",
+     "explain": "The classification depends on whether the substance formed a uniform solution or remained as a separate solid or layer."
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.4",
+   "title": "Buoyancy (Float or Sink)",
+   "section": "4.2",
+   "definition": "Buoyancy is indeed the tendency of an object to either stay on the surface of a liquid or descend to the bottom using its density relative to the liquid.",
+   "formula": "none",
+   "key_idea": "Insoluble materials may float on the surface or sink depending on their nature.",
+   "textbook_ref": "fesc104.txt lines 215-235",
+   "question_patterns": [
+    "does a stone float or sink in water",
+    "list five objects that float on water",
+    "why do some objects sink while others float",
+    "would a leaf float in oil",
+    "list the main features of buoyancy (float or sink)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the object gently on the surface of the liquid (such as water)",
+     "explain": "Placing the object carefully ensures that the observation of floating or sinking reflects the object's natural behavior."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the object stays on the surface or descends to the bottom",
+     "explain": "An object that remains on the surface floats, while one that goes to the bottom sinks, indicating the object's density relative to the liquid."
+    },
+    {
+     "step": 3,
+     "action": "Classify the object as floating or sinking based on its observed position",
+     "explain": "The final classification groups objects by their buoyancy, which depends on whether the object is lighter or heavier than the liquid."
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.5",
+   "title": "Transparency",
+   "section": "4.2",
+   "definition": "Transparency is indeed the property that allows light to pass through a material, enabling objects on the other side to be seen.",
+   "formula": "none",
+   "key_idea": "Materials are indeed grouped as transparent (clear), translucent (blurry), or opaque (no light passes).",
+   "textbook_ref": "fesc104.txt lines 240-285",
+   "question_patterns": [
+    "is glass transparent or opaque",
+    "what is a translucent material",
+    "can you see through a wooden box",
+    "how does oil affect the transparency of paper",
+    "short note on transparency"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Hold the material up to a light source and try to see what is behind it",
+     "explain": "Testing how much light passes through the material is the first step in determining its transparency."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether objects behind the material are clearly visible, partially visible, or not visible at all",
+     "explain": "Clear visibility indicates transparency, blurred visibility indicates translucency, and no visibility indicates opacity."
+    },
+    {
+     "step": 3,
+     "action": "Classify the material as transparent, translucent, or opaque based on the observed light passage",
+     "explain": "The final classification groups materials by how clearly light and objects can be seen through them."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fesc104.txt",
+   "concept": "fesc.4.1.1",
+   "question_type": "short_answer",
+   "question_pattern": "what materials are used to make a chair",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the material each object is made of (wood, metal, plastic, glass, etc.)",
+     "explain": "Determining the constituent material is the first step in any classification by composition."
+    },
+    {
+     "step": 2,
+     "action": "Group objects by their shared material composition",
+     "explain": "Objects made of the same material are placed together to form a category."
+    },
+    {
+     "step": 3,
+     "action": "Verify that each group contains only objects made of the same material",
+     "explain": "Checking each group ensures no object has been misclassified, keeping the grouping systematic."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fesc104.txt",
+   "concept": "fesc.4.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "which of these materials have lustre",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Observe the surface of the material under light for shine or reflection",
+     "explain": "Lustre is detected by checking whether the surface reflects light to produce a visible shine."
+    },
+    {
+     "step": 2,
+     "action": "Compare with known lustre materials (metals like gold, silver, copper)",
+     "explain": "Using familiar lustrous materials as a reference helps confirm whether the observed shine matches true lustre."
+    },
+    {
+     "step": 3,
+     "action": "Classify as lustrous (shiny) or non-lustrous (dull) based on reflection",
+     "explain": "The final classification depends on whether the material shows a reflective shine similar to metals or remains dull."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "fesc104.txt",
+   "questions": [
+    "Name five objects which can be made from wood.",
+    "Select those objects from the following which shine: Glass bowl, plastic toy, steel spoon, cotton shirt.",
+    "State whether the following are True or False: Stone is transparent, Chalk dissolves in water, Oil mixes with water.",
+    "Find the odd one out: Aluminium, Iron, Copper, Silver, Sand."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

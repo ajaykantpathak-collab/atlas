@@ -1,0 +1,466 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 105,
+ "chapter_title": "Separation of Substances",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fecu109.txt",
+ "concepts": [
+  {
+   "id": "fesc.105.1",
+   "title": "Handpicking",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "A manual method of separation where larger-sized impurities like stones, husk, or dirt are directly picked out by hand from grains or pulses.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Utilizing differences in size, shape, or color of impurities to manually remove them.",
+   "textbook_ref": "fesc105.txt lines 50-70",
+   "question_patterns": [
+    "how can we separate stones from wheat grains",
+    "explain the method of handpicking with an example",
+    "when is handpicking a convenient method of separation",
+    "what is the process of handpicking",
+    "how to remove dirt and husk from pulses manually"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify physical differences",
+     "explain": "Observe the mixture to find differences in size, shape, or color between the useful component and the impurities."
+    },
+    {
+     "step": 2,
+     "action": "Manually pick out impurities",
+     "explain": "Use hands to select and remove the larger unwanted particles (like stones or husk) from the grains."
+    },
+    {
+     "step": 3,
+     "action": "Verify the cleaned material is free of impurities",
+     "explain": "After removal, re-examine the remaining grains to confirm all visible impurities have been picked out and the material is clean."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.2",
+   "title": "Threshing",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "The process of beating harvested stalks against a hard surface to free and separate the grain seeds from the stalks.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Beating stalks to release smaller, tightly attached grain seeds.",
+   "textbook_ref": "fesc105.txt lines 80-105",
+   "question_patterns": [
+    "how are grain seeds separated from stalks",
+    "what is threshing and how is it done",
+    "explain the process of threshing",
+    "why can we not separate grain seeds from stalks by handpicking",
+    "describe the method used to free grains from dried stalks"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Dry the harvested stalks",
+     "explain": "Stalks are dried in the sun before separation so that the grains loosen."
+    },
+    {
+     "step": 2,
+     "action": "Beat the stalks",
+     "explain": "The dried stalks are beaten against a hard surface (manually, using bullocks, or machines) to free the grain seeds."
+    },
+    {
+     "step": 3,
+     "action": "Separate the freed grains from the stalks",
+     "explain": "After beating, the loosened grain seeds are collected and separated from the broken stalk pieces, completing the threshing process."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.3",
+   "title": "Winnowing",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "A method used to separate heavier constituents from lighter constituents of a mixture using wind or blowing air.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Utilizing the difference in weight of components under the influence of moving air.",
+   "textbook_ref": "fesc105.txt lines 106-140",
+   "question_patterns": [
+    "what is winnowing and where is it used",
+    "how can we separate lighter husk from heavier grain seeds",
+    "explain the principle of winnowing",
+    "describe the process of winnowing with steps",
+    "how do farmers separate husk from grain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Raise the mixture",
+     "explain": "Hold the mixture on a plate or sheet at shoulder height on a raised platform."
+    },
+    {
+     "step": 2,
+     "action": "Allow wind to separate",
+     "explain": "Tilt the plate slightly so the mixture slides out; the blowing wind carries away the lighter husk while the heavier grains fall straight down to form a heap."
+    },
+    {
+     "step": 3,
+     "action": "Collect the separated grains and discard the husk",
+     "explain": "Gather the heap of heavier grains that fell directly below, and sweep away the lighter husk that the wind blew aside, completing the separation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.4",
+   "title": "Sieving",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "A separation technique that uses a mesh or sieve to separate constituents of a mixture using their different particle sizes.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Smaller particles pass through the sieve's holes while larger particles are retained.",
+   "textbook_ref": "fesc105.txt lines 141-170",
+   "question_patterns": [
+    "what is sieving and where is it used",
+    "how to separate pebbles and stones from sand",
+    "can we separate flour and powdered chalk by sieving",
+    "explain the principle of sieving",
+    "how is bran removed from flour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pass mixture through a mesh",
+     "explain": "Pour the mixture onto a sieve with appropriate hole size."
+    },
+    {
+     "step": 2,
+     "action": "Separate by size",
+     "explain": "The fine particles pass through the holes, while the larger impurities remain on the sieve."
+    },
+    {
+     "step": 3,
+     "action": "Collect the separated fractions from each side of the sieve",
+     "explain": "The material that passed through is collected as the fine fraction, and the material left on top is collected as the coarse fraction, completing the separation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.5",
+   "title": "Sedimentation",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "The process where heavier, insoluble solid particles in a liquid mixture settle down at the container's bottom after standing undisturbed.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Gravity pulls down heavier insoluble solids in a liquid.",
+   "textbook_ref": "fesc105.txt lines 171-200",
+   "question_patterns": [
+    "what is sedimentation",
+    "how do dust and soil particles settle when water is added to rice",
+    "explain the process of sedimentation with an example",
+    "what happens when muddy water is left undisturbed",
+    "define sedimentation in separation of mixtures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add liquid and let it stand",
+     "explain": "Mix the solid-liquid mixture and allow it to remain undisturbed for some time."
+    },
+    {
+     "step": 2,
+     "action": "Observe settling",
+     "explain": "The heavier insoluble solid particles settle down at the bottom of the vessel under gravity."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the clear upper liquid layer has formed above the sediment",
+     "explain": "After the solids have settled, a distinct clear liquid layer forms on top, indicating sedimentation is complete and the mixture is ready for the next separation step."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.6",
+   "title": "Decantation",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "The process of pouring out the upper liquid layer without disturbing the settled sediment at the bottom, or separating two immiscible liquids.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Separating the top liquid layer from a settled solid or a different liquid layer.",
+   "textbook_ref": "fesc105.txt lines 180-215",
+   "question_patterns": [
+    "what is decantation",
+    "how can we separate oil and water from their mixture",
+    "explain how to separate sand and water using decantation",
+    "describe the step after sedimentation to remove water",
+    "how is dirty water poured off from soaked rice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Tilt the container carefully",
+     "explain": "Slowly tilt the vessel containing the settled sediment or immiscible layers."
+    },
+    {
+     "step": 2,
+     "action": "Pour out the top layer",
+     "explain": "Pour the upper liquid layer into another container without disturbing the settled solid or the bottom liquid layer."
+    },
+    {
+     "step": 3,
+     "action": "Verify the separated liquid is free of the settled sediment",
+     "explain": "Check that the poured liquid does not carry any solid particles or the other liquid layer, confirming a clean separation has been achieved."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.7",
+   "title": "Filtration",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "A method used to separate insoluble solid particles from a liquid by passing the mixture through a porous medium like a strainer, cloth, or filter paper.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Using a physical barrier with fine pores to trap solid particles while letting liquid pass.",
+   "textbook_ref": "fesc105.txt lines 210-250",
+   "question_patterns": [
+    "what is filtration and give an example",
+    "how to obtain clear water from muddy water using filter paper",
+    "how is cottage cheese or paneer separated from liquid",
+    "which method is better for separating tea leaves: decantation or filtration",
+    "explain the use of filter paper in filtration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pass mixture through a filter",
+     "explain": "Pour the mixture through a porous medium such as a strainer, cloth, or filter paper cone."
+    },
+    {
+     "step": 2,
+     "action": "Collect filtrate and residue",
+     "explain": "The liquid (filtrate) passes through the pores, while the solid particles (residue) are retained on the filter."
+    },
+    {
+     "step": 3,
+     "action": "Verify the filtrate is clear and the residue is fully separated",
+     "explain": "Check that the collected liquid is free of solid particles and that the filter holds all the insoluble solids, confirming a complete separation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.8",
+   "title": "Evaporation",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "The process of converting a liquid into its gaseous or vapour state, used to separate a soluble solid from its liquid solvent.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Heating a solution to vaporize the liquid, leaving the dissolved solid behind.",
+   "textbook_ref": "fesc105.txt lines 251-280",
+   "question_patterns": [
+    "what is evaporation",
+    "how is common salt obtained from sea water",
+    "how to separate salt from salt water mixture",
+    "explain the process of evaporation with an activity",
+    "how does water turn into water vapour continuously"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Heat the solution",
+     "explain": "Heat the liquid containing the dissolved solid until it boils or evaporates."
+    },
+    {
+     "step": 2,
+     "action": "Collect the solid residue",
+     "explain": "The liquid turns into vapour and escapes, leaving the solid solute behind in the container."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the separated solid is dry and free of solvent",
+     "explain": "After all the liquid has evaporated, check that the remaining solid is completely dry, confirming that the soluble substance has been fully recovered from the solution."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.9",
+   "title": "Condensation",
+   "section": "5.1 METHODS OF SEPARATION",
+   "definition": "The action of converting water vapour (or any gas) back into its liquid form by cooling.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Cooling gas to turn it back into liquid.",
+   "textbook_ref": "fesc105.txt lines 295-325",
+   "question_patterns": [
+    "what is condensation",
+    "how to recover water from steam during distillation",
+    "explain the process of condensation with an example",
+    "what happens when steam touches a cold metal plate",
+    "define condensation in the context of separating mixtures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cool the vapour",
+     "explain": "Bring the hot vapour or steam into contact with a cold surface."
+    },
+    {
+     "step": 2,
+     "action": "Collect the liquid",
+     "explain": "The vapour loses heat, condenses into liquid droplets, and is collected."
+    },
+    {
+     "step": 3,
+     "action": "Verify the collected liquid is pure and free of dissolved solids",
+     "explain": "Check that the condensed liquid is clear and contains no impurities, confirming that condensation has successfully separated the pure solvent from the original mixture."
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.10",
+   "title": "Saturated Solution",
+   "section": "Can water dissolve any amount of a substance?",
+   "definition": "A solution where no more solute can indeed be dissolved at a given temperature.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A limit exists on how much solute can dissolve in a fixed volume of solvent at a specific temperature.",
+   "textbook_ref": "fesc105.txt lines 335-385",
+   "question_patterns": [
+    "what is a saturated solution",
+    "how can we dissolve more salt in a saturated solution",
+    "does water dissolve equal amounts of different soluble substances",
+    "what happens when you heat a saturated solution",
+    "how to prepare a saturated solution of sugar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add solute until it stops dissolving",
+     "explain": "Add solute to a fixed quantity of solvent with continuous stirring until some solute remains undissolved at the bottom."
+    },
+    {
+     "step": 2,
+     "action": "Increase solubility by heating",
+     "explain": "Heat the saturated solution to dissolve the remaining solute, demonstrating that solubility increases with temperature."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the solution is saturated by observing undissolved solute at the bottom",
+     "explain": "When no more solute dissolves even after stirring and some solid remains undissolved, the solution is confirmed to be saturated at that temperature."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc105.txt lines 281-325",
+   "concept": "fesc.105.6",
+   "question_type": "verify_property",
+   "question_pattern": "How can you separate a mixture of sand, salt, and water?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sedimentation and Decantation",
+     "explain": "Allow the mixture to stand so that the heavy sand settles at the bottom. Pour out the salty water (decantation) into another container, leaving sand behind."
+    },
+    {
+     "step": 2,
+     "action": "Evaporation and Condensation",
+     "explain": "Heat the decanted salty water in a kettle. The water turns to steam (evaporation), which can be cooled on a cold plate to recover pure water (condensation), leaving salt behind in the kettle."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc105.txt lines 240-250",
+   "concept": "fesc.105.7",
+   "question_type": "verify_property",
+   "question_pattern": "Describe how filtration is used in the preparation of paneer (cottage cheese) at home.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add lemon juice to boiling milk",
+     "explain": "Adding lemon juice to boiling milk forms a mixture of solid paneer particles and a liquid whey."
+    },
+    {
+     "step": 2,
+     "action": "Filter using a cloth",
+     "explain": "Pour the mixture through a fine cloth or strainer. The solid paneer is retained on the cloth (residue) while the liquid passes through."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "fesc105.txt lines 445-446",
+   "questions": [
+    "Why do we need to separate different components of a mixture? Give two examples."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "fesc105.txt line 447",
+   "questions": [
+    "What is winnowing? Where is it used?"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "fesc105.txt lines 448-449",
+   "questions": [
+    "How will you separate husk or dirt particles from a given sample of pulses before cooking."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "fesc105.txt line 450",
+   "questions": [
+    "What is sieving? Where is it used?"
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "fesc105.txt line 451",
+   "questions": [
+    "How will you separate sand and water from their mixture?"
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "fesc105.txt line 452",
+   "questions": [
+    "Is it possible to separate sugar mixed with wheat flour? If yes, how will you do it?"
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "fesc105.txt line 453",
+   "questions": [
+    "How would you obtain clear water from a sample of muddy water?"
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "fesc105.txt lines 454-463",
+   "questions": [
+    "Fill up the blanks:\n(a) The method of separating seeds of paddy from its stalks is called ___________.\n(b) When milk, cooled after boiling, is poured onto a piece of cloth the cream (malai) is left behind on it. This process of separating cream from milk is an example of ___________.\n(c) Salt is obtained from seawater by the process of ___________.\n(d) Impurities settled at the bottom when muddy water was kept overnight in a bucket. The clear water was then poured off from the top. The process of separation used in this example is called ___________."
+   ]
+  },
+  {
+   "id": "ex5.9",
+   "source_ref": "fesc105.txt lines 464-469",
+   "questions": [
+    "True or false?\n(a) A mixture of milk and water can be separated by filtration.\n(b) A mixture of powdered salt and sugar can be separated by the process of winnowing.\n(c) Separation of sugar from tea can be done with filtration.\n(d) Grain and husk can be separated with the process of decantation."
+   ]
+  },
+  {
+   "id": "ex5.10",
+   "source_ref": "fesc105.txt lines 470-472",
+   "questions": [
+    "Lemonade is prepared by mixing lemon juice and sugar in water. You wish to add ice to cool it. Should you add ice to the lemonade before or after dissolving sugar? In which case would it be possible to dissolve more sugar?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

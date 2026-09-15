@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_005",
+   "title": "c12_bio_cbse_05_005",
+   "questions": [
+    {
+     "q": "A man with blood group A and a woman with blood group B have a child with blood group O. What are the genotypes of the parents?",
+     "a": "The father must be *I^A i* and the mother *I^B i*. A group O child has genotype *ii*, meaning each parent contributed an *i* allele. If either parent were homozygous (*I^A I^A* or *I^B I^B*), they could not pass on *i*. A common error is writing the father as *I^A I^A* or mother as *I^B I^B* — this reveals the student forgets that a recessive allele must be present in both parents to produce a recessive phenotype.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with blood group AB has both A and B antigens on their RBCs but no anti-A or anti-B antibodies in their plasma.",
+     "a": "The *I^A* and *I^B* alleles are codominant: both are expressed equally in the heterozygote *I^A I^B*, producing both A and B antigens. The immune system recognizes self-antigens and does not produce antibodies against them; therefore, no anti-A or anti-B antibodies are formed. A wrong answer stating \"AB has no antibodies because it is dominant\" shows confusion between dominance (masking) and codominance (joint expression) and ignores immunological self-tolerance.",
+     "self_check": true
+    },
+    {
+     "q": "A woman with blood group A claims a man with blood group AB is the father of her child with blood group O. Use a Punnett square to evaluate this claim.",
+     "a": "Mother (group A) could be *I^A I^A* or *I^A i*. Father (group AB) is *I^A I^B*. Possible gametes: mother *I^A* or *i*; father *I^A* or *I^B*. Offspring genotypes: *I^A I^A* (group A), *I^A I^B* (group AB), *I^A i* (group A), *I^B i* (group B). No *ii* (group O) possible. The claim is genetically impossible. A student who says \"possible if mother is *I^A i*\" misses that the father lacks an *i* allele to contribute.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic basis of the ABO blood group system with Mendel's monohybrid cross for seed shape (round vs wrinkled). Identify two fundamental differences.",
+     "a": "(1) Mendel's cross involves two alleles (R, r) with complete dominance; ABO has three alleles (*I^A*, *I^B*, *i*) with codominance between *I^A* and *I^B*. (2) Mendel's F2 phenotypic ratio is 3:1; ABO crosses yield varying ratios (e.g., *I^A i* × *I^B i* gives 1:1:1:1 for A, B, AB, O). A student who says \"both follow law of segregation\" is correct but incomplete — the question asks for differences, not similarities.",
+     "self_check": true
+    },
+    {
+     "q": "A hospital receives an unconscious accident victim needing urgent transfusion. Blood group testing is delayed. The doctor orders \"O negative\" blood. Justify this decision using ABO genetics and immunology.",
+     "a": "Group O RBCs lack A and B antigens (genotype *ii*), so they cannot be agglutinated by anti-A or anti-B antibodies present in any recipient's plasma. \"Negative\" refers to Rh factor (absence of D antigen), preventing anti-D reactions. Thus, O negative is the universal donor for emergencies. A wrong answer citing \"O blood has no antibodies\" confuses RBC antigens (donor side) with plasma antibodies (recipient side) — a critical transfusion error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple genetic test using only ABO blood grouping to exclude a man from being the biological father of a child. Provide a specific mother-child blood group combination that would make this possible, and explain the logic.",
+     "a": "Mother: group O (*ii*), Child: group AB (*I^A I^B*). The child must have inherited *I^A* from one parent and *I^B* from the other. The mother can only contribute *i*, so the father must contribute *I^A* or *I^B*. Any man with blood group O (*ii*) cannot be the father. This works because group O has no A or B allele to pass on. A poor answer chooses mother A, child B — this does not exclude group O fathers because mother could be *I^A i* and father *I^B i*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_006",
+   "title": "c12_hs_cbse_14_006",
+   "questions": [
+    {
+     "q": "State the chemical reaction of saponification using a triglyceride (e.g., tripalmitin) and sodium hydroxide. Write the balanced equation and name the products.",
+     "a": "Tripalmitin (C₅₁H₉₈O₆) + 3 NaOH → 3 Sodium palmitate (C₁₅H₃₁COONa) + Glycerol (C₃H₈O₃). A wrong answer (e.g., writing \"soap + water\" or missing glycerol) reveals the student does not understand that saponification is a base-catalysed hydrolysis of ester bonds, not a simple neutralisation. This misconception leads to errors in predicting soap yield and the role of glycerol in commercial soap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why soap fails to clean effectively in hard water, while an anionic detergent (e.g., sodium dodecylbenzene sulfonate) does not. Use the terms \"calcium ion\", \"precipitate\", \"solubility\", and \"micelle\" in your explanation.",
+     "a": "In hard water, Ca²⁺/Mg²⁺ ions react with soap anions (RCOO⁻) to form insoluble calcium/magnesium salts (RCOO)₂Ca — a curdy white precipitate called \"scum\". This removes soap from solution, preventing micelle formation at usable concentrations. Anionic detergents have sulfonate heads (R-SO₃⁻ Na⁺); their calcium salts (R-SO₃⁻)₂Ca are soluble, so micelles still form and cleaning continues. A wrong answer that says \"detergents don't react with hard water\" (they do, but the product stays soluble) shows confusion between *reaction* and *precipitation* — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A household has 200 L of hard water (300 ppm CaCO₃ equivalent). They use a soap-based powder that requires 2 g/L for effective micelle formation in soft water. In hard water, 40% of the soap is precipitated as scum before micellisation. Calculate the extra soap (in grams) needed to achieve the same effective concentration as in soft water.",
+     "a": "Step 1: Soap needed in soft water = 200 L × 2 g/L = 400 g.  \nStep 2: In hard water, only 60% remains active → active soap = 0.60 × total added.  \nStep 3: Set 0.60 × total = 400 g → total = 400 / 0.60 = 666.67 g.  \nStep 4: Extra soap = 666.67 – 400 = 266.67 g ≈ 267 g.  \nA wrong answer (e.g., 40% of 400 = 160 g extra) reveals the student applied the loss to the *required* amount instead of the *added* amount — a unit/logic error common in JEE-style stoichiometry traps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of (a) laundry soap bar, (b) heavy-duty powder detergent (with builders), and (c) neutral liquid detergent for washing: (i) a white cotton bedsheet with oily stains in hard water at 60 °C, (ii) a dark wool sweater with protein stains in soft water at 30 °C. Justify each choice with two chemical/physical reasons.",
+     "a": "(i) Cotton bedsheet, hard water, 60 °C, oily stains → **Heavy-duty powder detergent**.  \nReason 1: Builders (e.g., sodium tripolyphosphate, zeolites) sequester Ca²⁺/Mg²⁺, preventing scum and maintaining alkalinity for saponification of oils.  \nReason 2: High temperature and alkaline pH enhance surfactant solubility and enzymatic action (if bio-detergent) on oils.  \n\n(ii) Wool sweater, soft water, 30 °C, protein stains → **Neutral liquid detergent**.  \nReason 1: Wool is protein fibre; alkaline pH (soap/powder) hydrolyses peptide bonds → fibre damage and shrinkage. Neutral pH (~7) preserves wool.  \nReason 2: Liquid detergents dissolve completely at low temperatures, avoiding residue; they often contain proteases for protein stains without bleaching agents that fade dark colours.  \n\nA wrong assignment (e.g., soap bar for wool) shows ignorance of pH-induced fibre degradation — a frequent board practical viva question.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Detergents are always better than soaps for all laundry purposes because they work in hard water.\" Provide three specific counter-examples where soap is preferred or detergent is unsuitable, with chemical reasoning.",
+     "a": "Counter-example 1: **Washing silk/wool with mild soap flakes** — soap's near-neutral pH (if properly made) and lack of builders/enzymes/bleaches prevent fibre hydrolysis and colour loss; many detergents are alkaline (pH 9–11) and contain proteases that attack wool/silk proteins.  \nCounter-example 2: **Hand-washing delicate lingerie** — soap rinses out more completely from low-surfactant-demand loads, leaving less residue that can cause skin irritation; detergent builders (phosphates/zeolites) may not rinse fully in low-water hand-wash.  \nCounter-example 3: **Biodegradability in septic tanks** — traditional soaps (fatty acid salts) biodegrade rapidly and completely; many branched-chain synthetic detergents (older formulations) persist and disrupt anaerobic digestion.  \nA critique that only says \"soap is natural\" without chemical reasoning earns zero marks in competency-based evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to demonstrate the critical micelle concentration (CMC) of a liquid detergent using only household items (no lab equipment). Describe the procedure, observations, and how you would estimate CMC from the data.",
+     "a": "Procedure: Take 5 identical transparent glasses with 100 mL distilled water each. Add 0, 1, 2, 4, 8 drops of liquid detergent (same brand). Stir gently 10 seconds. Shine a phone torch through each glass sideways; photograph against a dark background.  \nObservations: Glass 0 — clear, no scattering. Glass 1–2 — clear (below CMC). Glass 4 — faint bluish Tyndall scattering (micelles forming). Glass 8 — strong scattering, possible foam.  \nEstimation: The lowest concentration showing visible Tyndall effect approximates CMC. Convert drops to g/L using detergent density (~1 g/mL) and drop volume (~0.05 mL). Plot scattering intensity (qualitative) vs. concentration; inflection point = CMC.  \nA poor answer that uses \"foam height\" as proxy for CMC confuses *surface tension reduction* (foam) with *micellisation* (bulk property) — a common conceptual error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

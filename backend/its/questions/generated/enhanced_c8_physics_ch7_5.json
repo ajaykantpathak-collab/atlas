@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_5",
+   "title": "c8_physics_ch7_5",
+   "questions": [
+    {
+     "q": "What is the approximate duration of a lunar month (synodic month) in days, and which two identical phases does it measure between?",
+     "a": "The lunar month is approximately 29.5 days, measured from one New Moon to the next New Moon (or Full Moon to next Full Moon). A wrong answer (e.g., 27.3 days) reveals the student confuses the synodic month with the sidereal month (Moon's orbital period relative to stars) and hasn't grasped that Earth's revolution around the Sun lengthens the phase cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the lunar month (29.5 days) longer than the Moon's orbital period around Earth (27.3 days)?",
+     "a": "During the 27.3 days the Moon orbits Earth, Earth itself moves about 27° along its orbit around the Sun. The Moon must travel this extra angle to realign with the Sun and Earth for the same phase, taking about 2.2 extra days. A wrong answer suggests the student thinks the Moon's orbit is fixed relative to the Sun and doesn't account for Earth's simultaneous revolution.",
+     "self_check": true
+    },
+    {
+     "q": "If today is a Full Moon (Purnima) on 1st October, on what approximate date will the next Full Moon occur? Show your calculation.",
+     "a": "Step 1: Lunar month = 29.5 days. Step 2: Add 29.5 days to 1st October. Step 3: October has 31 days, so 1st Oct + 29.5 days = 30.5th October (i.e., 30th October around noon). Next Full Moon ≈ 30th October. A wrong answer (e.g., 28th October) reveals the student used 27.3 days or a 28-day approximation instead of 29.5 days.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the Moon orbits Earth in 27.3 days, we should see a Full Moon every 27.3 days.\" Analyze this statement and explain why it is incorrect using the concept of Earth's revolution.",
+     "a": "The statement ignores Earth's motion around the Sun. In 27.3 days, Earth advances ~27° in its orbit, changing the Sun-Earth-Moon angle. The Moon must orbit further to reach the same Sun-Earth-Moon alignment for Full Moon, requiring ~29.5 days total. A wrong analysis indicates the student treats the Sun-Earth line as fixed and doesn't understand the moving reference frame for phases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this method for predicting the Moon phase 100 days from today: \"Divide 100 by 29.5, take the remainder, and count that many days forward in the phase cycle.\" Is this method reliable? Why or why not?",
+     "a": "Yes, the method is reliable for approximate prediction because the lunar cycle repeats every 29.5 days (synodic period). 100 ÷ 29.5 = 3 cycles (88.5 days) with remainder 11.5 days. Counting 11.5 days forward from today's phase gives the approximate phase. A wrong evaluation (saying it's unreliable) shows the student doesn't recognize the periodic nature of phases or misunderstands modular arithmetic in cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation project for your class to measure the lunar month duration without using a calendar. Describe the procedure, data to record, and how you would calculate the result.",
+     "a": "Procedure: Observe and sketch the Moon's shape every clear evening at the same time for 2 months. Record date and phase name (e.g., waxing crescent, first quarter). Identify two identical phases (e.g., two Full Moons). Calculate days between them. A poor answer (e.g., \"watch the Moon for a week\") reveals the student doesn't understand the need for a full cycle between identical phases and the importance of consistent observation timing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

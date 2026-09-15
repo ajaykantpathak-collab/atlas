@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_07_002",
+   "title": "c12_eng_k_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between a narrative poem (like \"The Rime of the Ancient Mariner\") and a lyric argument poem (like Milton's \"On Time\") in terms of plot progression?",
+     "a": "A narrative poem follows a chronological story with characters, events, and settings unfolding in time (exposition → rising action → climax → resolution). A lyric argument poem like \"On Time\" follows an intellectual/emotional progression: thesis → development → volta (turn) → synthesis. The \"plot\" is the movement of thought, not action. A wrong answer (e.g., \"lyric poems have no plot\") reveals the misconception that only event-driven sequences count as structure — missing that idea-development IS a structural arc.",
+     "self_check": true
+    },
+    {
+     "q": "In \"On Time,\" Milton writes: \"Fly envious Time, till thou run out thy race / Call on the lazy leaden-stepping hours.\" Explain how the imperative mood in the opening lines establishes the poem's structural stance and what it signals about the speaker's relationship to Time.",
+     "a": "The imperative \"Fly\" and \"Call on\" positions the speaker as commanding Time, not submitting to it — structurally, this opens the poem in media res with a confrontational stance. It signals the speaker's spiritual authority over Time, framing the entire poem as a declaration of independence rather than a lament. A wrong answer (e.g., \"it shows the speaker is angry\") reduces structural analysis to emotional labeling, missing how grammatical mood shapes the poem's argumentative architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of volta (structural turn) to \"On Shakespeare.\" Identify the exact line where the turn occurs, describe the shift in argument before and after it, and explain how the rhyme scheme reinforces this turn.",
+     "a": "The volta occurs at line 7: \"Dear son of memory, great heir of Fame.\" Before: lines 1-6 reject stone monuments (rhetorical questions, negative diction: \"needs,\" \"weak witness\"). After: lines 7-16 affirm the living monument of readership (positive diction: \"wonder,\" \"Delphic lines,\" \"live-long Monument\"). The rhyme scheme (AA BB CC DD EE FF GG) creates couplet-based argument units — the turn aligns with the fourth couplet, structurally dividing the 16-line poem into two equal 8-line halves (rejection → affirmation). A wrong answer that identifies a different turn line or ignores the couplet structure misses how form enacts content.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural pacing of \"On Time\" (14 lines) and \"On Shakespeare\" (16 lines). How does each poem's line count and stanza organization reflect its thematic concern — Time's brevity vs. Shakespeare's endurance?",
+     "a": "\"On Time\" uses 14 lines (sonnet-like compression) with no stanza breaks — a single dense block mirroring Time's \"heavy Plummets pace\" and the speaker's urgent confrontation. \"On Shakespeare\" uses 16 lines in 8 couplets — a measured, expansive pace reflecting Shakespeare's \"easie numbers flow\" and enduring legacy. The couplets create a sense of balanced permanence; the unbroken 14 lines create pressure. A wrong answer focusing only on \"both are short\" misses how line economy and stanzaation are thematic choices, not accidents.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Milton's 'On Time' follows a classical three-part structure: complaint (lines 1-8), vision (lines 9-12), triumph (lines 13-14).\" Is this an accurate structural reading? Justify with textual evidence.",
+     "a": "Partially accurate but oversimplified. Lines 1-8: complaint against Time's pettiness (accurate). Lines 9-12: \"For when as each thing bad thou hast entomb'd...\" — this is not mere vision but causal consequence (Time's self-consumption LEADS TO Eternity's greeting). Lines 13-14: \"And Joy shall overtake us as a flood...\" — triumph, yes, but specifically communal (\"us\") and sensory (\"flood,\" \"shine\"). The structure is dialectical: thesis (Time's tyranny) → antithesis (Time's self-destruction) → synthesis (Eternity's bliss). A wrong answer accepting the three-part label uncritically misses the logical causality between sections — the \"for\" in line 9 is the structural hinge.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza that mimics the structural logic of \"On Shakespeare\": open by dismissing a physical monument, then turn to a living legacy. Use a volta at line 3 and couplet rhyme (AABB).",
+     "a": "No marble slab nor gilded dome need rise, (A)\nTo guard the name that never truly dies. (A)\nBut in the minds where living thoughts take flight, (B)\nYour words burn bright through every age and night. (B)\nA poor answer would lack a clear volta (no shift from rejection to affirmation), misuse rhyme, or fail to parallel the \"stone vs. living monument\" dialectic. This tests whether the student can internalize and replicate the poem's structural DNA.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

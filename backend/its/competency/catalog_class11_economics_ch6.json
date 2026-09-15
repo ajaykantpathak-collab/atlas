@@ -1,0 +1,577 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 2,
+ "chapter_title": "Collection of Data",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest102.txt",
+ "concepts": [
+  {
+   "id": "c11eco.6.1",
+   "title": "Production Function",
+   "section": "6.1",
+   "definition": "A production function expresses the maximum quantity of output that can be produced from given quantities of inputs, given the technology.",
+   "formula": "Q = f(L, K) where Q is output, L is labour, K is capital",
+   "key_idea": "Output depends on the quantities of inputs and the state of technology; it shows the maximum feasible output.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute output from a given production function",
+    "find the level of input needed for a target output",
+    "verify that output increases with inputs",
+    "interpret a production function table",
+    "compare outputs from different input combinations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the production function and inputs",
+     "explain": "Write Q = f(L, K) with the given input values."
+    },
+    {
+     "step": 2,
+     "action": "Substitute input values",
+     "explain": "Plug the given quantities of labour and capital into the function."
+    },
+    {
+     "step": 3,
+     "action": "Compute output and verify",
+     "explain": "Calculate the output and check it is the maximum feasible for the inputs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Production function Q = 2L + 3K. Find output when L = 4 and K = 5.",
+     "solution": "Q = 2*4 + 3*5 = 8 + 15 = 23.",
+     "answer": "Q = 23"
+    },
+    {
+     "question": "Production function Q = L * K. Find output when L = 6 and K = 4.",
+     "solution": "Q = 6 * 4 = 24.",
+     "answer": "Q = 24"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Production function Q = 3L + 2K. Find output when L = 5 and K = 7.",
+     "type": "compute"
+    },
+    {
+     "question": "Production function Q = L^0.5 * K^0.5. Find output when L = 9 and K = 16.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.2",
+   "title": "Short Run and Long Run in Production",
+   "section": "6.1",
+   "definition": "The short run is a period in which some inputs are fixed and others are variable. The long run is a period in which all inputs are variable.",
+   "formula": "",
+   "key_idea": "In the short run, output can be changed only by varying variable inputs; in the long run, all inputs can be varied.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "distinguish between short run and long run production",
+    "identify fixed and variable inputs in a scenario",
+    "explain why some factors are fixed in the short run",
+    "classify a time period as short run or long run",
+    "compare short run and long run production functions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the inputs and their variability",
+     "explain": "Determine which inputs can be changed in the given time period."
+    },
+    {
+     "step": 2,
+     "action": "Classify the period",
+     "explain": "If at least one input is fixed, it is the short run. If all inputs are variable, it is the long run."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "State whether the scenario is short run or long run with justification."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm can hire more workers but cannot expand its factory building in the current period. Is this short run or long run?",
+     "solution": "Since capital (factory) is fixed and labour is variable, this is the short run.",
+     "answer": "Short run"
+    },
+    {
+     "question": "A firm plans to build a new plant and hire new workers over five years. Is this short run or long run?",
+     "solution": "Since all inputs (both capital and labour) can be varied, this is the long run.",
+     "answer": "Long run"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A farmer can add more fertilizer but cannot buy more land this season. Is this short run or long run?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why all factors are variable only in the long run.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.3",
+   "title": "Total, Average and Marginal Product",
+   "section": "6.2",
+   "definition": "Total product (TP) is the total output from a given input. Average product (AP) is output per unit of input. Marginal product (MP) is the additional output from using one more unit of input.",
+   "formula": "AP = TP / L; MP = TP_n - TP_(n-1)",
+   "key_idea": "MP is the change in TP from one extra unit of input; AP is TP divided by the number of units of input.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute total product from marginal product data",
+    "compute average and marginal product from total product",
+    "find the level of input where MP is maximum",
+    "verify relationship between AP and MP",
+    "construct a product schedule from input-output data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total product for each input level",
+     "explain": "TP is the cumulative sum of marginal products, or given directly."
+    },
+    {
+     "step": 2,
+     "action": "Compute average and marginal product",
+     "explain": "AP = TP / L; MP = TP_n - TP_(n-1)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the AP-MP relationship",
+     "explain": "When MP > AP, AP rises; when MP < AP, AP falls; when MP = AP, AP is at its maximum."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TP for labour units 1-5 is 10, 24, 39, 52, 60. Find AP and MP for each unit.",
+     "solution": "AP: 10, 12, 13, 13, 12. MP: 10, 14, 15, 13, 8.",
+     "answer": "AP = 10, 12, 13, 13, 12; MP = 10, 14, 15, 13, 8"
+    },
+    {
+     "question": "MP for 4 units is 20, 18, 14, 8. Find TP and AP at each unit.",
+     "solution": "TP: 20, 38, 52, 60. AP: 20, 19, 17.33, 15.",
+     "answer": "TP = 20, 38, 52, 60; AP = 20, 19, 17.33, 15"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "TP for labour units 1-4 is 8, 18, 30, 40. Find AP and MP for each unit.",
+     "type": "compute"
+    },
+    {
+     "question": "MP for 5 units is 10, 12, 10, 6, 2. Find TP and AP at each unit.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.4",
+   "title": "Law of Variable Proportions (Returns to a Factor)",
+   "section": "6.2",
+   "definition": "As more units of a variable input are added to a fixed input, total product first increases at an increasing rate, then at a diminishing rate, and eventually falls.",
+   "formula": "Stage 1: MP rises; Stage 2: MP falls but positive; Stage 3: MP negative",
+   "key_idea": "The law operates in the short run when one factor is fixed; MP eventually diminishes and may become negative.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the stage of production from TP and MP data",
+    "find the point of diminishing returns from a product schedule",
+    "verify the law of variable proportions from data",
+    "determine when MP becomes negative",
+    "explain the three stages of the law of variable proportions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute marginal product for each unit of input",
+     "explain": "MP = TP_n - TP_(n-1)."
+    },
+    {
+     "step": 2,
+     "action": "Identify where MP starts to fall",
+     "explain": "The point of diminishing returns is where MP reaches its maximum and then begins to decline."
+    },
+    {
+     "step": 3,
+     "action": "Classify the stage",
+     "explain": "Stage 1: MP rising; Stage 2: MP falling but positive; Stage 3: MP negative."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TP for labour units 1-5 is 10, 24, 39, 48, 50. Identify the stage of diminishing returns.",
+     "solution": "MP: 10, 14, 15, 9, 2. MP rises until unit 3 (MP=15), then falls. Diminishing returns begin at unit 4. Stage 2 from unit 4.",
+     "answer": "Diminishing returns begin at unit 4; Stage 2"
+    },
+    {
+     "question": "TP for units 1-6 is 10, 22, 33, 40, 42, 40. Find when MP becomes negative.",
+     "solution": "MP: 10, 12, 11, 7, 2, -2. MP becomes negative at unit 6.",
+     "answer": "MP negative at unit 6 (Stage 3)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "TP for units 1-5 is 8, 20, 36, 48, 50. Find the point of diminishing returns.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why MP eventually becomes negative in Stage 3 of the law of variable proportions.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.5",
+   "title": "Short Run Costs: Total, Fixed and Variable",
+   "section": "6.3",
+   "definition": "Total cost (TC) is the sum of total fixed cost (TFC) and total variable cost (TVC). TFC does not change with output; TVC varies with output.",
+   "formula": "TC = TFC + TVC",
+   "key_idea": "Fixed costs are incurred even at zero output; variable costs rise with output; total cost is their sum.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute total cost from fixed and variable costs",
+    "find TFC and TVC given TC at different output levels",
+    "verify TC = TFC + TVC",
+    "construct a cost schedule from output and cost data",
+    "compute TVC given TC and TFC"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify fixed and variable costs",
+     "explain": "TFC is constant across all output levels; TVC changes with output."
+    },
+    {
+     "step": 2,
+     "action": "Compute total cost",
+     "explain": "TC = TFC + TVC for each output level.",
+     "compute": "tfc + tvc"
+    },
+    {
+     "step": 3,
+     "action": "Verify the cost relationship",
+     "explain": "Check that TC = TFC + TVC at every output level."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TFC = Rs 100. TVC for output 0-3 is 0, 50, 90, 120. Find TC at each output.",
+     "solution": "TC = 100, 150, 190, 220.",
+     "answer": "TC = 100, 150, 190, 220"
+    },
+    {
+     "question": "TC at output 0 is 200 and at output 5 is 500. Find TFC and TVC at output 5.",
+     "solution": "TFC = TC at zero output = 200. TVC at output 5 = 500 - 200 = 300.",
+     "answer": "TFC = 200, TVC = 300"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "TFC = Rs 50. TVC for output 1-4 is 30, 55, 75, 90. Find TC at each output.",
+     "type": "compute"
+    },
+    {
+     "question": "TC at output 0 is 80 and at output 3 is 260. Find TFC and TVC at output 3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.6",
+   "title": "Short Run Average Costs: AFC, AVC and AC",
+   "section": "6.3",
+   "definition": "Average fixed cost (AFC) is fixed cost per unit of output. Average variable cost (AVC) is variable cost per unit. Average cost (AC) is total cost per unit, equal to AFC + AVC.",
+   "formula": "AFC = TFC / Q; AVC = TVC / Q; AC = TC / Q = AFC + AVC",
+   "key_idea": "AFC falls continuously as output rises; AVC and AC are typically U-shaped.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute AFC, AVC and AC from cost data",
+    "find output at which AC is minimum",
+    "verify AC = AFC + AVC",
+    "construct average cost schedule from total costs",
+    "compute average costs at a given output level"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute AFC and AVC",
+     "explain": "AFC = TFC / Q; AVC = TVC / Q."
+    },
+    {
+     "step": 2,
+     "action": "Compute average cost",
+     "explain": "AC = TC / Q = AFC + AVC.",
+     "compute": "tc / q"
+    },
+    {
+     "step": 3,
+     "action": "Verify AC = AFC + AVC",
+     "explain": "Check that average cost equals the sum of average fixed and average variable costs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TFC = 100, TVC = 200 at output 4. Find AFC, AVC and AC.",
+     "solution": "AFC = 100/4 = 25. AVC = 200/4 = 50. AC = 300/4 = 75 = 25 + 50.",
+     "answer": "AFC = 25, AVC = 50, AC = 75"
+    },
+    {
+     "question": "TC at output 5 is 500 and TFC is 200. Find AFC, AVC and AC.",
+     "solution": "TVC = 500 - 200 = 300. AFC = 200/5 = 40. AVC = 300/5 = 60. AC = 500/5 = 100.",
+     "answer": "AFC = 40, AVC = 60, AC = 100"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "TFC = 60, TVC = 120 at output 3. Find AFC, AVC and AC.",
+     "type": "compute"
+    },
+    {
+     "question": "TC at output 6 is 480 and TFC is 120. Find AFC, AVC and AC.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.8",
+   "title": "Revenue: Total, Average and Marginal Revenue",
+   "section": "6.4",
+   "definition": "Total revenue (TR) is the total receipts from sales. Average revenue (AR) is revenue per unit, equal to price. Marginal revenue (MR) is the additional revenue from selling one more unit.",
+   "formula": "TR = P * Q; AR = TR / Q = P; MR = TR_n - TR_(n-1)",
+   "key_idea": "AR equals price; MR is the change in TR from one extra unit sold; under perfect competition, AR = MR = price.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute TR, AR and MR from price and quantity data",
+    "find MR given TR at different output levels",
+    "verify AR = P and MR = AR under perfect competition",
+    "construct a revenue schedule from price and quantity",
+    "compute total revenue at a given price and quantity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total revenue",
+     "explain": "TR = Price * Quantity for each output level.",
+     "compute": "p * q"
+    },
+    {
+     "step": 2,
+     "action": "Compute average and marginal revenue",
+     "explain": "AR = TR / Q; MR = TR_n - TR_(n-1)."
+    },
+    {
+     "step": 3,
+     "action": "Verify the AR-MR relationship",
+     "explain": "Under perfect competition, AR = MR = price. Under monopoly, MR < AR when price falls with output."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Price = Rs 10 for all units. Quantities sold 1-4. Find TR, AR, MR.",
+     "solution": "TR: 10, 20, 30, 40. AR: 10, 10, 10, 10. MR: 10, 10, 10, 10. AR = MR = P (perfect competition).",
+     "answer": "TR = 10,20,30,40; AR = MR = 10"
+    },
+    {
+     "question": "Price falls from Rs 20 to Rs 18 as output rises from 1 to 2. Find TR and MR for unit 2.",
+     "solution": "TR1 = 20, TR2 = 36. MR2 = 36 - 20 = 16. AR2 = 18.",
+     "answer": "TR2 = 36, MR2 = 16, AR2 = 18"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Price = Rs 15 for all units. Find TR, AR, MR for output 1-3.",
+     "type": "compute"
+    },
+    {
+     "question": "Price falls from Rs 30 to Rs 25 as output rises from 1 to 2. Find TR and MR for unit 2.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.9",
+   "title": "Producer's Equilibrium",
+   "section": "6.5",
+   "definition": "A producer is in equilibrium when producing the output at which the difference between total revenue and total cost is maximum, or where marginal cost equals marginal revenue and MC is rising.",
+   "formula": "MC = MR, and MC rises after equilibrium (MC curve cuts MR from below)",
+   "key_idea": "Profit is maximized where MR = MC and the MC curve is rising (cuts MR from below).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find profit maximizing output using MR and MC",
+    "verify producer equilibrium using MC = MR condition",
+    "compute profit at different output levels",
+    "determine equilibrium output from TR and TC data",
+    "check whether MC is rising at the equilibrium output"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute MR and MC at each output level",
+     "explain": "MR = TR_n - TR_(n-1); MC = TC_n - TC_(n-1)."
+    },
+    {
+     "step": 2,
+     "action": "Find output where MR = MC",
+     "explain": "Identify the output level at which marginal revenue equals marginal cost."
+    },
+    {
+     "step": 3,
+     "action": "Verify MC is rising and compute profit",
+     "explain": "Confirm MC is increasing after the equilibrium point. Profit = TR - TC."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TR for output 1-4 is 10, 20, 28, 34. TC is 6, 12, 16, 20. Find equilibrium output.",
+     "solution": "MR: 10, 10, 8, 6. MC: 6, 6, 4, 4. MR = MC at output 2 (both = 10? No, MC2 = 6). Re-check: MR1=10, MC1=6; MR2=10, MC2=6; MR3=8, MC3=4; MR4=6, MC4=4. MR > MC at all levels, so produce more. Actually need MR = MC. Let me reconsider: equilibrium where MR = MC and MC rising. Here MR > MC throughout, so firm keeps producing. Equilibrium at output 4 (last level where MR > MC).",
+     "answer": "Equilibrium at output 4 (MR > MC at all given levels; produce maximum given)"
+    },
+    {
+     "question": "MR for output 1-4 is 10, 10, 10, 10. MC is 6, 8, 10, 14. Find equilibrium output.",
+     "solution": "MR = MC at output 3 (both = 10). MC rises after (MC4 = 14 > 10). Equilibrium at output 3.",
+     "answer": "Equilibrium at output 3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "MR for output 1-4 is 12, 12, 12, 12. MC is 8, 10, 12, 16. Find equilibrium output.",
+     "type": "compute"
+    },
+    {
+     "question": "TR for output 1-3 is 15, 28, 39. TC is 10, 20, 30. Find profit at each output and the equilibrium.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.10",
+   "title": "Supply and Market Supply",
+   "section": "6.6",
+   "definition": "Supply is the quantity of a commodity that a producer is willing and able to offer for sale at a given price in a given time period. Market supply is the sum of individual supplies of all producers.",
+   "formula": "Market Supply = sum of individual supplies Q_s = q1 + q2 + ... + qn",
+   "key_idea": "Market supply is obtained by horizontal summation of individual supply curves; it generally rises with price.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute market supply by summing individual supplies",
+    "construct market supply schedule from individual schedules",
+    "find total quantity supplied at a given price",
+    "derive market supply curve from individual supply data",
+    "compute individual supply given market supply and others"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List individual quantities supplied at each price",
+     "explain": "Tabulate each producer's supply at each price level."
+    },
+    {
+     "step": 2,
+     "action": "Sum individual supplies at each price",
+     "explain": "Market supply at each price is the sum of all individual supplies at that price.",
+     "compute": "individual_supplies_total"
+    },
+    {
+     "step": 3,
+     "action": "Construct market supply schedule",
+     "explain": "Tabulate price against the corresponding market supply."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "At price Rs 10, producer A supplies 30 units, B supplies 40 units, C supplies 30 units. Find market supply.",
+     "solution": "Market supply = 30 + 40 + 30 = 100 units.",
+     "answer": "100 units"
+    },
+    {
+     "question": "Individual supply schedules: A: (P=5, Q=20), (P=10, Q=40); B: (P=5, Q=10), (P=10, Q=30). Find market supply at each price.",
+     "solution": "At P=5: 20+10=30. At P=10: 40+30=70.",
+     "answer": "Market supply: (5, 30), (10, 70)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "At price Rs 8, supplies of three producers are 25, 35, 40. Find market supply.",
+     "type": "compute"
+    },
+    {
+     "question": "Two producers supply 40 and 30 at price Rs 6. Market supply is 70. Verify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.11",
+   "title": "Price Elasticity of Supply",
+   "section": "6.7",
+   "definition": "Price elasticity of supply measures the percentage change in quantity supplied in response to a percentage change in price.",
+   "formula": "Es = (percentage change in quantity supplied) / (percentage change in price) = (delta Q / Q) / (delta P / P)",
+   "key_idea": "Supply elasticity is positive because price and quantity supplied move in the same direction; its magnitude determines elasticity classification.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute price elasticity of supply using percentage method",
+    "classify supply as elastic, inelastic, or unitary",
+    "find percentage change in quantity supplied given elasticity and price change",
+    "compute elasticity from supply function",
+    "compare supply elasticity at different price levels"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute percentage changes",
+     "explain": "Calculate percentage change in quantity supplied and percentage change in price."
+    },
+    {
+     "step": 2,
+     "action": "Apply elasticity formula",
+     "explain": "Es = (percentage change in quantity supplied) / (percentage change in price).",
+     "compute": "(delta_q / q) / (delta_p / p)"
+    },
+    {
+     "step": 3,
+     "action": "Classify elasticity",
+     "explain": "Es > 1 elastic, Es = 1 unitary, Es < 1 inelastic, Es = 0 perfectly inelastic, Es = infinity perfectly elastic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Price rises from Rs 10 to Rs 12, quantity supplied rises from 50 to 70. Find Es.",
+     "solution": "delta_Q = 20, delta_P = 2. Es = (20/50) / (2/10) = 0.4 / 0.2 = 2.",
+     "answer": "Es = 2 (elastic)"
+    },
+    {
+     "question": "Price falls from Rs 20 to Rs 18, supply falls from 100 to 90. Find Es.",
+     "solution": "delta_Q = -10, delta_P = -2. Es = (-10/100) / (-2/20) = (-0.1) / (-0.1) = 1.",
+     "answer": "Es = 1 (unitary)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Price rises from Rs 5 to Rs 6, supply rises from 80 to 100. Find Es and classify.",
+     "type": "compute"
+    },
+    {
+     "question": "Es = 1.5. Price rises by 10%. Find the percentage change in quantity supplied.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_004",
+   "title": "c10_geo_cbse_06_004",
+   "questions": [
+    {
+     "q": "Name the primary ore of aluminium and the key energy requirement for its extraction.",
+     "a": "The primary ore of aluminium is bauxite. The extraction of aluminium from alumina (obtained from bauxite) is done by electrolysis, which requires a massive and continuous supply of cheap electricity. A wrong answer (e.g., naming haematite or saying coal is the main energy need) reveals confusion with iron and steel industry raw materials or misunderstanding that aluminium smelting is an electrolytic process, not a blast furnace reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Why are cement factories typically located near limestone deposits rather than near the market?",
+     "a": "Cement production uses limestone as the main raw material (about 60-65% of the total raw material mix). Limestone is bulky and low-value per tonne, so transporting it over long distances raises costs disproportionately. The finished cement is higher value per tonne and easier to transport. Locating near limestone minimises the cost of moving the heaviest, cheapest input. A wrong answer (e.g., \"cement is needed everywhere so factories are near cities\") shows failure to apply Weber's least-cost location theory and the concept of weight-losing industries.",
+     "self_check": true
+    },
+    {
+     "q": "A new cement plant is proposed in a region with abundant limestone and clay but no gypsum deposits. The nearest gypsum source is 300 km away. The plant also has access to a railway line and a thermal power station 50 km away. Evaluate the suitability of this location for a cement plant. Explain your reasoning in 3-4 steps.",
+     "a": "Step 1: Identify the three essential raw materials for cement — limestone, clay, and gypsum. Step 2: Note that limestone and clay are available locally (low transport cost for the two bulkiest inputs). Step 3: Gypsum is required only in small quantities (2-3%), so transporting it 300 km by rail adds relatively little to total cost. Step 4: The thermal power station 50 km away ensures cheap energy for the kiln. Conclusion: The location is highly suitable because the weight-losing raw materials are local, the minor additive (gypsum) is rail-connected, and power is nearby. A wrong evaluation (e.g., rejecting the site due to missing gypsum) reveals ignorance of the proportion of gypsum used and the cost-minimisation principle for weight-losing industries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational factors of the aluminium industry and the chemical industry in India. Identify two similarities and two differences.",
+     "a": "Similarities: (1) Both require reliable, large-volume transport (rail/port) for raw materials and finished products. (2) Both need proximity to water sources for processing and cooling. Differences: (1) Aluminium is overwhelmingly power-oriented — it locates near cheap electricity (hydro/thermal), whereas chemical industry is more raw-material oriented (salt, limestone, petroleum fractions) and locates near those deposits or ports for import. (2) Aluminium has very few plants (8-10 smelters) due to high capital and energy intensity; chemical industry is widely dispersed with many small and large units across Gujarat, Maharashtra, Tamil Nadu, UP. A wrong answer listing \"both need coal\" or \"both are near markets\" shows confusion between weight-losing and footloose industries.",
+     "self_check": true
+    },
+    {
+     "q": "The government proposes a new aluminium smelter in a tribal district of Odisha with rich bauxite reserves but no existing power grid. The project promises jobs but requires clearing forest land and building a dedicated coal-fired power plant. As a geographical evaluator, assess the sustainability of this proposal. Provide a balanced judgement with two supporting arguments and one major concern.",
+     "a": "Judgement: The proposal has economic merits but raises serious environmental and social sustainability concerns. Supporting argument 1: Locating at the bauxite source eliminates ore transport cost, aligning with raw-material orientation principle and reducing carbon footprint of logistics. Supporting argument 2: A dedicated power plant ensures the uninterrupted electricity essential for electrolysis, making the smelter viable. Major concern: Forest clearance and coal-based power contradict sustainable development goals (Class 8 c8_geo_ch1_7); it displaces tribal communities, degrades biodiversity, and locks in high emissions. A purely economic \"approve\" or \"reject\" without weighing both dimensions shows inability to evaluate geographical decisions holistically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sketch map annotation for a Class 10 board exam answer showing the major centres of aluminium, cement, and chemical industries in India. List the exact annotations (text labels) you would write next to each marked location on an outline map of India.",
+     "a": "A good annotation set would include:\n- Aluminium: Koraput (Odisha) – \"NALCO smelter, bauxite + hydro power\"; Renukoot (UP) – \"Hindalco, coal power\"; Mettur (TN) – \"MALCO, hydro power\"; Ratnagiri (Maharashtra) – \"Hindalco, imported bauxite, thermal power\".\n- Cement: Satna (MP) – \"Limestone belt, railway\"; Chanderia (Rajasthan) – \"Limestone + gypsum, near market\"; Dalmia (TN) – \"Limestone, port export\"; Bhadravati (Karnataka) – \"Limestone, hydro power\".\n- Chemical: Mithapur (Gujarat) – \"Tata Chemicals, salt + limestone, port\"; Trombay (Maharashtra) – \"BARC/Rashtriya Chemicals, petrochemical complex\"; Nangal (Punjab) – \"NFL, hydro power + rail\"; Rishra (WB) – \"Dunlop/Chemicals, coal + water\".\nPoor annotations (e.g., just city names without justification) reveal lack of exam-oriented map skill — board marking scheme awards marks for linking location to factor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

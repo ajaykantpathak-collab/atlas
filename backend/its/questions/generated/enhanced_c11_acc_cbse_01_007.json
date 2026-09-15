@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_007",
+   "title": "c11_acc_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the five roles of accounting as identified in the NCERT textbook and give a one-line description of what each role means.",
+     "a": "The five roles are: (1) Language of business – communicates financial information using standardised terms; (2) Historical record – chronological recording of transactions at actual amounts; (3) Current economic reality – determines true income as change in wealth over time; (4) Information system – links accountant (source) to external users (receivers) via communication channel; (5) Commodity – specialised information service in demand, provided by accountants. A wrong answer (e.g., listing \"bookkeeping\" or \"auditing\" as roles) reveals the student is confusing accounting functions/sub-fields with the conceptual roles accounting plays in society.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Accounting is just a historical record of past transactions. It cannot help predict the future.\" Using the concept of 'accounting as current economic reality' and 'accounting as an information system', explain why this statement is incomplete.",
+     "a": "Accounting as \"current economic reality\" measures change in wealth (income) which inherently involves comparing past and present to assess performance trends. As an \"information system\", it communicates this processed data to users who USE it for prediction (e.g., investors forecasting returns, banks assessing repayment capacity). The student's error reveals a misconception that accounting's output is ONLY raw historical data, ignoring that the processed information (financial statements, ratios, trends) is explicitly designed for forward-looking decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Match each user group to the PRIMARY role of accounting that serves their need, and justify each match:\n(a) Income Tax Department\n(b) Bank loan officer\n(c) Business owner deciding on expansion\n(d) Competitor benchmarking performance\n(e) Environmental NGO assessing pollution impact",
+     "a": "(a) Tax Dept → Historical record (verifies actual transactions for tax liability); (b) Bank officer → Information system (receives communicated financial reports to assess creditworthiness); (c) Owner → Current economic reality (needs true income/wealth change to decide expansion); (d) Competitor → Language of business (uses standardised financial statements for comparison); (e) NGO → Commodity (demands specialised social/environmental accounting information). Incorrect matches (e.g., assigning \"Language\" to Tax Dept) show the student cannot distinguish between the standardised format (language) and the evidentiary function (historical record).",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the FOUR qualitative characteristics (reliability, relevance, understandability, comparability) collectively enable accounting to function as an effective \"information system\" linking source to receivers. Give a specific example where failure of ONE characteristic breaks the communication chain.",
+     "a": "The information system requires: reliability (receivers trust the signal), relevance (signal addresses receiver's decision need), understandability (receiver decodes signal as sender intended), comparability (receiver compares signals across time/entities). Example: If a company changes depreciation method without disclosure (violating comparability), an investor comparing current year profit with last year's receives a distorted signal – the communication chain breaks because the \"common unit of measurement and format\" condition fails. A weak answer treats characteristics in isolation rather than as an integrated system enabling communication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since accounting information is a commodity sold by accountants, its quality should be determined by market forces (what clients are willing to pay) rather than by mandatory qualitative characteristics.\" Defend your position using the concept of external users who are NOT direct clients of the accountant.",
+     "a": "The claim fails because accounting's \"commodity\" role serves users (tax authorities, creditors, employees, public) who do NOT hire or pay the accountant – they are third-party beneficiaries. Market forces only discipline quality for the paying client (management), creating information asymmetry for external users. Mandatory qualitative characteristics (via Accounting Standards, Companies Act, SEBI) are regulatory corrections for this market failure. A student agreeing with the claim misses the fundamental distinction between private good (client-specific reports) and quasi-public good (general-purpose financial statements).",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a single accounting event (e.g., purchase of machinery for ₹5,00,000) simultaneously demonstrates at least THREE different roles of accounting. Describe how each role manifests in your scenario.",
+     "a": "Scenario: \"GreenTech Pvt Ltd buys solar panel machinery for ₹5,00,000 on 1 April 2024.\" \n(1) Language: Recorded as \"Machinery A/c Dr. ₹5,00,000 to Bank/Creditor\" – standardised debit/credit vocabulary understood by all accountants. \n(2) Historical record: Chronological entry in journal/ledger at actual cost ₹5,00,000, verifiable via invoice. \n(3) Current economic reality: Asset appears on Balance Sheet at cost; depreciation ₹50,000/year reduces reported profit, reflecting wealth consumption. \n(4) Information system: Communicated in Balance Sheet to bank (collateral value), tax dept (depreciation claim), owner (capacity expansion). \n(5) Commodity: CA certifies the asset valuation for loan documentation – a specialised service. A poor answer lists roles generically without anchoring each to the specific event.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

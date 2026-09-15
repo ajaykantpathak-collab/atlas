@@ -1,0 +1,785 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 205,
+ "chapter_title": "Nuclei",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph205.txt",
+ "concepts": [
+  {
+   "id": "leph.205.1",
+   "title": "Weighted Average Atomic Mass",
+   "section": "13.2",
+   "definition": "The atomic mass of a chemical element containing multiple isotopes is calculated as the weighted mean of their individual atomic masses using their natural percentage abundances.",
+   "formula": "average_mass = (abundance1 * mass1 + abundance2 * mass2) / 100",
+   "key_idea": "Isotopic abundance determines the natural atomic weight of an element.",
+   "textbook_ref": "leph205.txt lines 35-50",
+   "question_patterns": [
+    "find the average atomic mass of an element with two isotopes",
+    "calculate the atomic mass given relative percentage abundances",
+    "what is the average mass of chlorine given abundance of its isotopes",
+    "determine the weighted atomic mass from isotopic percentage distribution",
+    "compute the expected atomic mass for a mixture of isotopes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply isotopic masses by abundances and sum",
+     "explain": "find total weighted mass units",
+     "compute": "weighted_sum = abundance1 * mass1 + abundance2 * mass2"
+    },
+    {
+     "step": 2,
+     "action": "divide total weighted mass by 100",
+     "explain": "normalize by total percentage abundance",
+     "compute": "average_mass = weighted_sum / 100"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.2",
+   "title": "Composition of Nucleus and Neutron Number",
+   "section": "13.2",
+   "definition": "The count of neutrons in a given nuclide is obtained by subtracting its atomic number from its mass number.",
+   "formula": "N = A - Z",
+   "key_idea": "Mass number represents the total nucleon count comprising protons and neutrons.",
+   "textbook_ref": "leph205.txt lines 90-115",
+   "question_patterns": [
+    "find the number of neutrons in a nucleus of mass number A and atomic number Z",
+    "calculate neutron count for a given nuclide notation",
+    "what is the number of neutrons in gold nuclide 197Au79",
+    "determine how many neutrons are present in lead 208Pb82",
+    "compute the neutron number N from A and Z"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract atomic number from mass number",
+     "explain": "neutron number equals mass number minus atomic number",
+     "compute": "neutron_count = mass_number - atomic_number"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.3",
+   "title": "Nuclear Radius and Size",
+   "section": "13.3",
+   "definition": "The radius of an atomic nucleus varies directly with the cube root of its mass number, maintaining constant nuclear mass density.",
+   "formula": "R = R0 * (A ** (1/3))",
+   "key_idea": "Nuclear radius scales proportionally with the one-third power of mass number.",
+   "textbook_ref": "leph205.txt lines 140-165",
+   "question_patterns": [
+    "find the radius of a nucleus given its mass number A",
+    "calculate the nuclear size using mass number and R0 constant",
+    "what is the nuclear radius of iron nucleus with mass number 56",
+    "determine the radius of a heavy nucleus from its mass number",
+    "compute nuclear radius using the cube root relationship"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cube root of mass number",
+     "explain": "raise mass number to power 1/3",
+     "compute": "mass_factor = mass_number ** (1 / 3)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by nuclear radius constant",
+     "explain": "scale by nuclear radius constant r0",
+     "compute": "radius = r0 * mass_factor"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.4",
+   "title": "Mass Energy Equivalence",
+   "section": "13.4.1",
+   "definition": "Mass can be converted into an equivalent amount of energy according to relativity theory using the square of the speed of light in vacuum as conversion factor.",
+   "formula": "E = m * (c ** 2)",
+   "key_idea": "Energy released from mass destruction is equal to mass multiplied by speed of light squared.",
+   "textbook_ref": "leph205.txt lines 180-200",
+   "question_patterns": [
+    "calculate the energy equivalent of a given mass in kilograms",
+    "find the energy liberated when mass m is converted into energy",
+    "what is the energy equivalent of 1 gram of matter",
+    "determine energy output from mass loss using mass energy relation",
+    "compute Joules of energy corresponding to a specified mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the speed of light",
+     "explain": "compute c squared constant factor",
+     "compute": "c_squared = c ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass by speed of light squared",
+     "explain": "apply mass energy conversion formula",
+     "compute": "energy = mass_kg * c_squared"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.5",
+   "title": "Mass Defect of a Nucleus",
+   "section": "13.4.2",
+   "definition": "The total mass of isolated constituent protons and neutrons minus the actual rest mass of the bound nucleus defines the mass defect.",
+   "formula": "mass_defect = Z * proton_mass + (A - Z) * neutron_mass - nuclear_mass",
+   "key_idea": "Formation of a stable nucleus results in a loss of total rest mass.",
+   "textbook_ref": "leph205.txt lines 210-235",
+   "question_patterns": [
+    "calculate the mass defect of a nucleus given its atomic and mass numbers",
+    "find the difference between constituent nucleon mass and nuclear mass",
+    "what is the mass defect of oxygen 16 nucleus",
+    "determine mass defect for helium 4 nucleus from constituent masses",
+    "compute mass defect in atomic mass units u"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute combined mass of all protons",
+     "explain": "multiply proton count by single proton mass",
+     "compute": "total_p_mass = atomic_number * proton_mass"
+    },
+    {
+     "step": 2,
+     "action": "compute combined mass of all neutrons",
+     "explain": "multiply neutron count by single neutron mass",
+     "compute": "total_n_mass = (mass_number - atomic_number) * neutron_mass"
+    },
+    {
+     "step": 3,
+     "action": "subtract bound nuclear mass from sum of constituent masses",
+     "explain": "mass defect is constituent sum minus nuclear mass",
+     "compute": "mass_defect = total_p_mass + total_n_mass - nuclear_mass"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.6",
+   "title": "Nuclear Binding Energy and Binding Energy Per Nucleon",
+   "section": "13.4.2",
+   "definition": "The binding energy per nucleon represents the mean energy needed to liberate one nucleon from the atomic nucleus.",
+   "formula": "be_per_nucleon = (mass_defect_u * 931.5) / mass_number",
+   "key_idea": "Higher binding energy per nucleon signifies greater nuclear stability.",
+   "textbook_ref": "leph205.txt lines 235-265",
+   "question_patterns": [
+    "find the binding energy per nucleon for a nuclide in MeV",
+    "calculate nuclear binding energy per nucleon from mass defect",
+    "what is the binding energy per nucleon for nitrogen 14 nucleus",
+    "determine average binding energy per nucleon for iron 56",
+    "compute binding energy per nucleon given mass defect in u"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert mass defect to binding energy in MeV",
+     "explain": "multiply mass defect in u by 931.5 MeV/u",
+     "compute": "total_be = mass_defect_u * 931.5"
+    },
+    {
+     "step": 2,
+     "action": "divide total binding energy by mass number",
+     "explain": "obtain average energy per nucleon",
+     "compute": "be_per_nucleon = total_be / mass_number"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.7",
+   "title": "Properties of Strong Nuclear Force",
+   "section": "13.5",
+   "definition": "The fundamental force holding nucleons together is strongly attractive at distances above 0.8 fm, independent of charge, and short-ranged.",
+   "formula": "none",
+   "key_idea": "Nuclear force dominates over electrostatic repulsion at short range and exhibits saturation.",
+   "textbook_ref": "leph205.txt lines 280-310",
+   "question_patterns": [
+    "explain the key characteristics of nuclear force",
+    "what are the main properties of the force binding nucleons",
+    "state why nuclear forces exhibit saturation property",
+    "verify charge independence of nuclear interaction",
+    "describe the variation of potential energy of two nucleons with distance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify short range and minimum potential energy distance",
+     "explain": "potential energy is minimum near 0.8 fm separation; force is repulsive below 0.8 fm and attractive beyond"
+    },
+    {
+     "step": 2,
+     "action": "check charge independence and strength relative to Coulomb force",
+     "explain": "force is identical between p-p, p-n, n-n pairs and much stronger than Coulomb repulsion"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.8",
+   "title": "Radioactive Decay Types",
+   "section": "13.6",
+   "definition": "Spontaneous emission of alpha particles, beta particles, or gamma rays by unstable atomic nuclei to transform into more stable nuclear configurations.",
+   "formula": "none",
+   "key_idea": "Radioactivity is a nuclear phenomenon involving emission of matter or electromagnetic radiation.",
+   "textbook_ref": "leph205.txt lines 315-335",
+   "question_patterns": [
+    "distinguish between alpha beta and gamma decay modes",
+    "what particles or radiation are emitted in radioactive decay",
+    "explain the nature of alpha particles emitted by heavy nuclei",
+    "describe beta decay process in unstable nuclides",
+    "verify conservation of atomic number and mass number in radioactive decay"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify emitted radiation type",
+     "explain": "alpha decay emits helium nuclei, beta decay emits electrons or positrons, gamma decay emits photons"
+    },
+    {
+     "step": 2,
+     "action": "apply nucleon conservation rules",
+     "explain": "ensure total charge and total nucleon count are conserved across decay equation"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.9",
+   "title": "Q-Value and Energy Release in Nuclear Fission",
+   "section": "13.7.1",
+   "definition": "The net energy liberated during a nuclear fission process computed from mass difference between initial reactants and final reaction products.",
+   "formula": "q_value = (initial_mass - final_mass) * 931.5",
+   "key_idea": "Nuclear fission releases energy due to higher binding energy per nucleon of intermediate fragments.",
+   "textbook_ref": "leph205.txt lines 340-370",
+   "question_patterns": [
+    "calculate the Q value of a nuclear reaction in MeV",
+    "find energy released in nuclear fission of heavy nucleus",
+    "what is the disintegration energy Q in a fission reaction",
+    "determine energy output from mass difference in fission process",
+    "compute Q value using reactant and product masses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract product mass sum from reactant mass sum",
+     "explain": "find mass defect of reaction in atomic mass units",
+     "compute": "mass_diff = initial_mass - final_mass"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass difference by energy equivalence constant",
+     "explain": "convert atomic mass units to MeV energy release",
+     "compute": "q_value = mass_diff * 931.5"
+    }
+   ]
+  },
+  {
+   "id": "leph.205.10",
+   "title": "Coulomb Potential Barrier in Nuclear Fusion",
+   "section": "13.7.2",
+   "definition": "The electrostatic potential energy barrier that two positively charged nuclei must overcome through kinetic energy to undergo fusion.",
+   "formula": "barrier_height = k_coulomb * (charge_e ** 2) / separation_distance",
+   "key_idea": "Mutual electrostatic repulsion creates an energy barrier for fusing nuclei.",
+   "textbook_ref": "leph205.txt lines 375-405",
+   "question_patterns": [
+    "calculate the height of the potential barrier for nuclear fusion",
+    "find the Coulomb repulsion energy between two touching nuclei",
+    "what is the potential energy barrier for two deuterons in contact",
+    "determine kinetic energy required to overcome Coulomb barrier",
+    "compute potential barrier energy in Joules or electronvolts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate electrostatic potential energy at contact distance",
+     "explain": "apply Coulomb potential energy formula for point charges at separation distance",
+     "compute": "barrier_height = k_coulomb * (charge_e ** 2) / separation_distance"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph205.txt Section 13.2",
+   "concept": "leph.205.1",
+   "question_type": "average_atomic_mass",
+   "question_pattern": "Chlorine has two isotopes with masses {mass1} u and {mass2} u with abundances {abundance1} % and {abundance2} %. Find the average mass.",
+   "extracted_variables": {
+    "mass1": 34.98,
+    "mass2": 36.98,
+    "abundance1": 75.4,
+    "abundance2": 24.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply isotopic masses by abundances and sum",
+     "explain": "find total weighted mass units",
+     "compute": "weighted_sum = abundance1 * mass1 + abundance2 * mass2"
+    },
+    {
+     "step": 2,
+     "action": "divide total weighted mass by 100",
+     "explain": "normalize by total percentage abundance",
+     "compute": "average_mass = weighted_sum / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph205.txt Section 13.2",
+   "concept": "leph.205.1",
+   "question_type": "average_atomic_mass",
+   "question_pattern": "An element X consists of isotope 1 of mass {mass1} u with {abundance1} % abundance and isotope 2 of mass {mass2} u with {abundance2} % abundance. Calculate the average mass.",
+   "extracted_variables": {
+    "mass1": 10.0,
+    "mass2": 11.0,
+    "abundance1": 90.0,
+    "abundance2": 10.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply isotopic masses by abundances and sum",
+     "explain": "find total weighted mass units",
+     "compute": "weighted_sum = abundance1 * mass1 + abundance2 * mass2"
+    },
+    {
+     "step": 2,
+     "action": "divide total weighted mass by 100",
+     "explain": "normalize by total percentage abundance",
+     "compute": "average_mass = weighted_sum / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leph205.txt Section 13.2",
+   "concept": "leph.205.2",
+   "question_type": "neutron_count",
+   "question_pattern": "Determine the number of neutrons in a gold nucleus 197Au having mass number {mass_number} and atomic number {atomic_number}.",
+   "extracted_variables": {
+    "mass_number": 197,
+    "atomic_number": 79
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract atomic number from mass number",
+     "explain": "neutron number equals mass number minus atomic number",
+     "compute": "neutron_count = mass_number - atomic_number"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leph205.txt Section 13.2",
+   "concept": "leph.205.2",
+   "question_type": "neutron_count",
+   "question_pattern": "Find the neutron count for lead nuclide 208Pb with mass number {mass_number} and atomic number {atomic_number}.",
+   "extracted_variables": {
+    "mass_number": 208,
+    "atomic_number": 82
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract atomic number from mass number",
+     "explain": "neutron number equals mass number minus atomic number",
+     "compute": "neutron_count = mass_number - atomic_number"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leph205.txt Example 13.1",
+   "concept": "leph.205.3",
+   "question_type": "nuclear_radius",
+   "question_pattern": "Calculate the radius of an iron nucleus with mass number {mass_number} taking R0 = {r0} m.",
+   "extracted_variables": {
+    "mass_number": 56,
+    "r0": 1.2e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cube root of mass number",
+     "explain": "raise mass number to power 1/3",
+     "compute": "mass_factor = mass_number ** (1 / 3)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by nuclear radius constant",
+     "explain": "scale by nuclear radius constant r0",
+     "compute": "radius = r0 * mass_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leph205.txt Section 13.3",
+   "concept": "leph.205.3",
+   "question_type": "nuclear_radius",
+   "question_pattern": "Find the radius of a gold nucleus 197Au with mass number {mass_number} using R0 = {r0} m.",
+   "extracted_variables": {
+    "mass_number": 197,
+    "r0": 1.2e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cube root of mass number",
+     "explain": "raise mass number to power 1/3",
+     "compute": "mass_factor = mass_number ** (1 / 3)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by nuclear radius constant",
+     "explain": "scale by nuclear radius constant r0",
+     "compute": "radius = r0 * mass_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "leph205.txt Example 13.2",
+   "concept": "leph.205.4",
+   "question_type": "mass_energy",
+   "question_pattern": "Calculate the energy equivalent of {mass_kg} kg of matter using speed of light c = {c} m/s.",
+   "extracted_variables": {
+    "mass_kg": 0.001,
+    "c": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed of light",
+     "explain": "compute c squared constant factor",
+     "compute": "c_squared = c ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass by speed of light squared",
+     "explain": "apply mass energy conversion formula",
+     "compute": "energy = mass_kg * c_squared"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "leph205.txt Section 13.4.1",
+   "concept": "leph.205.4",
+   "question_type": "mass_energy",
+   "question_pattern": "Determine the energy liberated when {mass_kg} kg of substance is completely converted to energy with c = {c} m/s.",
+   "extracted_variables": {
+    "mass_kg": 2.5,
+    "c": 300000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed of light",
+     "explain": "compute c squared constant factor",
+     "compute": "c_squared = c ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass by speed of light squared",
+     "explain": "apply mass energy conversion formula",
+     "compute": "energy = mass_kg * c_squared"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "leph205.txt Section 13.4.2",
+   "concept": "leph.205.5",
+   "question_type": "mass_defect",
+   "question_pattern": "Find the mass defect of Oxygen-16 with Z={atomic_number}, A={mass_number}, mp={proton_mass} u, mn={neutron_mass} u, and nuclear mass M={nuclear_mass} u.",
+   "extracted_variables": {
+    "atomic_number": 8,
+    "mass_number": 16,
+    "proton_mass": 1.00727,
+    "neutron_mass": 1.00866,
+    "nuclear_mass": 15.99053
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute combined mass of all protons",
+     "explain": "multiply proton count by single proton mass",
+     "compute": "total_p_mass = atomic_number * proton_mass"
+    },
+    {
+     "step": 2,
+     "action": "compute combined mass of all neutrons",
+     "explain": "multiply neutron count by single neutron mass",
+     "compute": "total_n_mass = (mass_number - atomic_number) * neutron_mass"
+    },
+    {
+     "step": 3,
+     "action": "subtract bound nuclear mass from sum of constituent masses",
+     "explain": "mass defect is constituent sum minus nuclear mass",
+     "compute": "mass_defect = total_p_mass + total_n_mass - nuclear_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "leph205.txt Section 13.4.2",
+   "concept": "leph.205.5",
+   "question_type": "mass_defect",
+   "question_pattern": "Calculate the mass defect for Helium-4 nucleus with Z={atomic_number}, A={mass_number}, mp={proton_mass} u, mn={neutron_mass} u, and nuclear mass M={nuclear_mass} u.",
+   "extracted_variables": {
+    "atomic_number": 2,
+    "mass_number": 4,
+    "proton_mass": 1.00727,
+    "neutron_mass": 1.00866,
+    "nuclear_mass": 4.0015
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute combined mass of all protons",
+     "explain": "multiply proton count by single proton mass",
+     "compute": "total_p_mass = atomic_number * proton_mass"
+    },
+    {
+     "step": 2,
+     "action": "compute combined mass of all neutrons",
+     "explain": "multiply neutron count by single neutron mass",
+     "compute": "total_n_mass = (mass_number - atomic_number) * neutron_mass"
+    },
+    {
+     "step": 3,
+     "action": "subtract bound nuclear mass from sum of constituent masses",
+     "explain": "mass defect is constituent sum minus nuclear mass",
+     "compute": "mass_defect = total_p_mass + total_n_mass - nuclear_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "leph205.txt Exercise 13.1",
+   "concept": "leph.205.6",
+   "question_type": "binding_energy_per_nucleon",
+   "question_pattern": "Obtain the binding energy per nucleon for Nitrogen-14 with mass defect {mass_defect_u} u and mass number {mass_number}.",
+   "extracted_variables": {
+    "mass_defect_u": 0.11235,
+    "mass_number": 14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert mass defect to binding energy in MeV",
+     "explain": "multiply mass defect in u by 931.5 MeV/u",
+     "compute": "total_be = mass_defect_u * 931.5"
+    },
+    {
+     "step": 2,
+     "action": "divide total binding energy by mass number",
+     "explain": "obtain average energy per nucleon",
+     "compute": "be_per_nucleon = total_be / mass_number"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "leph205.txt Exercise 13.2",
+   "concept": "leph.205.6",
+   "question_type": "binding_energy_per_nucleon",
+   "question_pattern": "Find the binding energy per nucleon for Iron-56 with mass defect {mass_defect_u} u and mass number {mass_number}.",
+   "extracted_variables": {
+    "mass_defect_u": 0.52846,
+    "mass_number": 56
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert mass defect to binding energy in MeV",
+     "explain": "multiply mass defect in u by 931.5 MeV/u",
+     "compute": "total_be = mass_defect_u * 931.5"
+    },
+    {
+     "step": 2,
+     "action": "divide total binding energy by mass number",
+     "explain": "obtain average energy per nucleon",
+     "compute": "be_per_nucleon = total_be / mass_number"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "leph205.txt Exercise 13.5",
+   "concept": "leph.205.9",
+   "question_type": "fission_q_value",
+   "question_pattern": "Calculate Q-value in MeV for a nuclear process where initial mass sum is {initial_mass} u and final mass sum is {final_mass} u.",
+   "extracted_variables": {
+    "initial_mass": 236.04556,
+    "final_mass": 235.83961
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract product mass sum from reactant mass sum",
+     "explain": "find mass defect of reaction in atomic mass units",
+     "compute": "mass_diff = initial_mass - final_mass"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass difference by energy equivalence constant",
+     "explain": "convert atomic mass units to MeV energy release",
+     "compute": "q_value = mass_diff * 931.5"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "leph205.txt Exercise 13.6",
+   "concept": "leph.205.9",
+   "question_type": "fission_q_value",
+   "question_pattern": "Determine the Q-value for hypothetical splitting of Fe-56 into two Al-28 fragments with initial mass {initial_mass} u and final mass {final_mass} u.",
+   "extracted_variables": {
+    "initial_mass": 55.93494,
+    "final_mass": 55.96382
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract product mass sum from reactant mass sum",
+     "explain": "find mass defect of reaction in atomic mass units",
+     "compute": "mass_diff = initial_mass - final_mass"
+    },
+    {
+     "step": 2,
+     "action": "multiply mass difference by energy equivalence constant",
+     "explain": "convert atomic mass units to MeV energy release",
+     "compute": "q_value = mass_diff * 931.5"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "leph205.txt Exercise 13.9",
+   "concept": "leph.205.10",
+   "question_type": "coulomb_barrier",
+   "question_pattern": "Calculate Coulomb potential barrier height for two deuterons separated by distance {separation_distance} m with Coulomb constant k={k_coulomb} N m2/C2 and charge e={charge_e} C.",
+   "extracted_variables": {
+    "k_coulomb": 9000000000.0,
+    "charge_e": 1.6e-19,
+    "separation_distance": 4e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electrostatic potential energy at contact distance",
+     "explain": "apply Coulomb potential energy formula for point charges at separation distance",
+     "compute": "barrier_height = k_coulomb * (charge_e ** 2) / separation_distance"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "leph205.txt Section 13.7.2",
+   "concept": "leph.205.10",
+   "question_type": "coulomb_barrier",
+   "question_pattern": "Find the energy barrier for two protons touching at separation distance {separation_distance} m with k={k_coulomb} N m2/C2 and charge e={charge_e} C.",
+   "extracted_variables": {
+    "k_coulomb": 9000000000.0,
+    "charge_e": 1.6e-19,
+    "separation_distance": 2e-15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate electrostatic potential energy at contact distance",
+     "explain": "apply Coulomb potential energy formula for point charges at separation distance",
+     "compute": "barrier_height = k_coulomb * (charge_e ** 2) / separation_distance"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "leph205.txt Exercise 13.1",
+   "questions": [
+    "Obtain the binding energy (in MeV) of a nitrogen nucleus 14N, given m(14N) = 14.00307 u."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "leph205.txt Exercise 13.2",
+   "questions": [
+    "Obtain the binding energy of the nuclei 56Fe and 209Bi in units of MeV from the following data: m(56Fe) = 55.934939 u and m(209Bi) = 208.980388 u."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "leph205.txt Exercise 13.3",
+   "questions": [
+    "A given coin has a mass of 3.0 g. Calculate the nuclear energy that would be required to separate all the neutrons and protons from each other. For simplicity assume that the coin is entirely made of 63Cu atoms (of mass 62.92960 u)."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "leph205.txt Exercise 13.4",
+   "questions": [
+    "Obtain approximately the ratio of the nuclear radii of the gold isotope 197Au and the silver isotope 107Ag."
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "leph205.txt Exercise 13.5",
+   "questions": [
+    "The Q value of a nuclear reaction A + b -> C + d is defined by Q = [mA + mb - mC - md] c^2. Determine from the given data the Q-value of the following reactions and state whether the reactions are exothermic or endothermic: (i) 1H + 3H -> 2H + 2H, (ii) 12C + 12C -> 20Ne + 4He."
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "leph205.txt Exercise 13.6",
+   "questions": [
+    "Suppose we think of fission of a 56Fe nucleus into two equal fragments 28Al. Is the fission energetically possible? Argue by working out Q of the process. Given m(56Fe) = 55.93494 u and m(28Al) = 27.98191 u."
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "leph205.txt Exercise 13.7",
+   "questions": [
+    "The fission properties of 239Pu are very similar to those of 235U. The average energy released per fission is 180 MeV. How much energy, in MeV, is released if all the atoms in 1 kg of pure 239Pu undergo fission?"
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "leph205.txt Exercise 13.8",
+   "questions": [
+    "How long can an electric lamp of 100W be kept glowing by fusion of 2.0 kg of deuterium? Take the fusion reaction as 2H + 2H -> 3He + n + 3.27 MeV."
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "leph205.txt Exercise 13.9",
+   "questions": [
+    "Calculate the height of the potential barrier for a head on collision of two deuterons. (Hint: The height of the potential barrier is given by the Coulomb repulsion between the two deuterons when they just touch each other. Assume that they can be taken as hard spheres of radius 2.0 fm.)"
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "leph205.txt Exercise 13.10",
+   "questions": [
+    "From the relation R = R0 * A^(1/3), where R0 is a constant and A is the mass number of a nucleus, show that the nuclear matter density is nearly constant (i.e. independent of A)."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

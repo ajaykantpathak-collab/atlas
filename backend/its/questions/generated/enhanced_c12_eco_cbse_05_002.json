@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_002",
+   "title": "c12_eco_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the exact effect on equilibrium price and equilibrium quantity when the demand curve shifts rightward (increase in demand) while the supply curve remains unchanged.",
+     "a": "Correct answer: Equilibrium price rises and equilibrium quantity rises. A wrong answer (e.g., \"price rises but quantity falls\" or \"price unchanged\") reveals the student is confusing a **shift in demand** with a **movement along the supply curve** or mistakenly applying the law of demand (which describes movement *along* a fixed demand curve) to a shift. The key is that the demand curve itself moves, creating a temporary shortage at the original price, which bids the price up and increases the quantity transacted.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rightward shift in demand leads to a higher equilibrium quantity even though the law of demand says quantity demanded falls when price rises.",
+     "a": "Correct answer: The law of demand describes movement *along a given demand curve*. When demand shifts rightward, the entire curve moves. At the original price, quantity demanded is now higher (shift effect). The resulting shortage pushes price up. As price rises, quantity demanded falls *along the new demand curve* (law of demand), but it falls **from the higher shifted level**, not from the original level. The new equilibrium quantity is higher than the original because the shift effect dominates the movement-along-the-curve effect. A wrong answer indicates the student conflates \"change in demand\" (shift) with \"change in quantity demanded\" (movement along) and fails to see that the new equilibrium is a comparison between two different demand curves.",
+     "self_check": true
+    },
+    {
+     "q": "Given the initial demand function Qd = 200 – 5P and supply function Qs = 50 + 3P, calculate the initial equilibrium price and quantity. Then suppose demand increases to Qd' = 250 – 5P. Calculate the new equilibrium price and quantity and the changes.",
+     "a": "**Step 1: Initial equilibrium**  \nSet Qd = Qs: 200 – 5P = 50 + 3P → 150 = 8P → P* = 18.75  \nQ* = 200 – 5(18.75) = 200 – 93.75 = 106.25 units  \n\n**Step 2: New equilibrium after demand shift**  \nSet Qd' = Qs: 250 – 5P = 50 + 3P → 200 = 8P → P*' = 25  \nQ*' = 250 – 5(25) = 250 – 125 = 125 units  \n\n**Step 3: Changes**  \nΔP = 25 – 18.75 = +6.25  \nΔQ = 125 – 106.25 = +18.75 units  \n\nA wrong answer (e.g., using the old demand equation for new equilibrium, or adding the shift to quantity instead of intercept) reveals algebraic errors or misunderstanding that a parallel rightward shift increases the intercept by 50 (from 200 to 250) while slope remains –5.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of a rightward demand shift in two markets: Market A has a perfectly elastic (horizontal) supply curve, Market B has a perfectly inelastic (vertical) supply curve. In which market does equilibrium price change more? In which does equilibrium quantity change more? Explain.",
+     "a": "Correct answer:  \n- **Market A (perfectly elastic supply):** Supply is horizontal at price P₀. A rightward demand shift increases equilibrium quantity by the full horizontal distance of the shift; equilibrium price **does not change** (remains P₀).  \n- **Market B (perfectly inelastic supply):** Supply is vertical at quantity Q₀. A rightward demand shift increases equilibrium price; equilibrium quantity **does not change** (remains Q₀).  \n\nThus, price changes more in Market B (infinite change relative to zero), quantity changes more in Market A. A wrong answer (e.g., \"both price and quantity change in both markets\") shows the student has not internalized how supply elasticity determines the division of the adjustment between price and quantity. This is a classic board/JEE comparative statics trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An increase in consumer income will always increase the equilibrium price of a normal good.\" Is this true, false, or uncertain? Justify with a supply-side condition that could make it false.",
+     "a": "Correct answer: **Uncertain / False in a specific case**. For a normal good, higher income shifts demand rightward. If supply is **perfectly elastic (horizontal)**, the equilibrium price remains unchanged — only quantity increases. The statement assumes upward-sloping supply. If supply is perfectly elastic, producers supply any quantity at the same price, so the demand shift is absorbed entirely by quantity. A wrong answer (\"True\") reveals the student ignores supply elasticity and assumes every demand shift must change price. Board exams often ask \"under what condition will price not change?\" — the answer is perfectly elastic supply.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario (Indian context) where a leftward shift in demand occurs for a good. Draw the initial and new equilibrium (describe the diagram in words), and explain the adjustment process step by step. Identify the demand shifter responsible.",
+     "a": "**Scenario:** Electric two-wheelers in India after the FAME-II subsidy reduction in June 2024. The subsidy cut effectively raises the purchase price for consumers, reducing demand at every market price (leftward shift).  \n**Diagram description:** Initial demand D₁, supply S. Equilibrium E₁ at (P₁, Q₁). New demand D₂ left of D₁. New equilibrium E₂ at (P₂, Q₂) with P₂ < P₁, Q₂ < Q₁.  \n**Adjustment:** At P₁, quantity supplied exceeds quantity demanded (excess supply/surplus). Firms cut prices to clear inventory. As price falls, quantity demanded rises along D₂ (law of demand) and quantity supplied falls along S. Process stops at E₂.  \n**Shifter:** Change in government policy (subsidy reduction) — a non-price determinant of demand.  \nA poor answer omits the surplus at the old price, confuses the subsidy cut with a movement along the demand curve, or draws the shift in the wrong direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_001",
+   "title": "c11_stat_cbse_02_001",
+   "questions": [
+    {
+     "q": "A researcher downloads the \"Annual Report on Rural Employment 2023\" published by the Ministry of Rural Development and uses the district-level MGNREGA employment figures for her study on rural livelihoods. Classify this data source as primary or secondary for the researcher, and state the defining criterion used.",
+     "a": "**Answer:** Secondary data. The defining criterion: the data was collected and processed by the Ministry of Rural Development (another agency) for their administrative/reporting purpose, not by the researcher for her specific study on rural livelihoods.  \n**Misconception revealed:** If a student answers \"primary data because it's from a government source\" or \"primary data because it's recent and official,\" they confuse *source credibility* with *collection origin*. They think \"official = primary.\" The correct logic: *Who collected it for the first time for the current research question?* Since the Ministry collected it, not the researcher, it is secondary for her.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Census of India data on literacy rates is primary data for the Office of the Registrar General of India but secondary data for a PhD scholar studying gender gaps in literacy across states.",
+     "a": "**Answer:** For the Registrar General's office, the Census data is primary because they designed the questionnaire, deployed enumerators to every household, and compiled the raw responses—they collected it first-hand for the purpose of creating the Census. For the PhD scholar, the same data is secondary because she did not conduct the Census; she is reusing already-processed tables published by the Census office for a different research question (gender gaps).  \n**Misconception revealed:** If a student says \"It's primary for both because it's the Census\" or \"It's secondary for both because it's published,\" they miss the *relational* nature of the classification. The error is treating \"primary/secondary\" as an intrinsic property of the dataset rather than a relationship between the *collector* and the *user*.",
+     "self_check": true
+    },
+    {
+     "q": "You are studying the impact of a new mid-day meal menu on student attendance in 50 government schools in Haryana. The state education department has a database of daily attendance records for all schools. You decide to use their database instead of visiting schools yourself. Identify the data type you are using, and list two advantages and one limitation of this choice for your specific study.",
+     "a": "**Answer:** You are using **secondary data** (the education department's administrative records).  \n**Advantages:** (1) Saves enormous time and cost—no need to deploy field investigators to 50 schools. (2) Data already exists for all schools, avoiding non-response issues.  \n**Limitation:** The attendance records were collected for administrative monitoring, not for evaluating a menu change. They may lack variables you need (e.g., meal consumption per student, reasons for absence) or have recording inconsistencies across schools.  \n**Misconception revealed:** If a student lists \"data is accurate because it's government data\" as an advantage, they confuse *source authority* with *fitness for purpose*. Administrative data often has gaps for research purposes (missing variables, different definitions).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two scenarios and analyse which involves primary data collection and which involves secondary data use. Justify by identifying the *data generation process* in each.\n- **Scenario A:** NSSO field investigators visit 8,000 households in Round 78 to ask about healthcare expenditure.\n- **Scenario B:** A health economist downloads the NSSO Round 78 unit-level data from the Ministry's data portal and runs regression analysis.",
+     "a": "**Answer:** Scenario A is **primary data collection**—NSSO investigators generate the data by directly interacting with respondents using a designed schedule for the specific purpose of that survey round. Scenario B is **secondary data use**—the economist does not generate any data; she accesses an existing dataset created by NSSO for a different purpose (national estimates) and repurposes it for regression analysis.  \n**Key distinction:** Primary data involves *creating* observations through a designed instrument; secondary data involves *accessing* observations created by others.  \n**Misconception revealed:** If a student says \"Both are primary because NSSO is a primary source,\" they conflate *institutional authority* with *collection role*. NSSO is a primary *collector* but a secondary *source* for downstream users.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Secondary data is always inferior to primary data because it's old and not collected for my research question. We should always collect primary data if possible.\" Evaluate this claim with two counterarguments where secondary data is preferable, and one situation where the student's claim holds.",
+     "a": "**Evaluation:** The claim is **partially correct but overly absolute**.  \n**Counterargument 1 (Time/Cost):** Studying 50-year temperature trends for climate change—primary collection is impossible (cannot go back in time); secondary data (IMD historical records) is the *only* option.  \n**Counterargument 2 (Scale):** Estimating national unemployment rate—primary survey of 100 million households is infeasible for a researcher; NSSO's PLFS (secondary for the researcher) provides a scientifically designed, large-scale alternative.  \n**Where claim holds:** When the research question requires *specific variables not captured* in existing sources (e.g., \"student perception of new textbook layout\")—existing secondary data simply won't have the needed information.  \n**Misconception revealed:** If a student agrees entirely with the claim, they hold a **hierarchy bias**—treating primary as \"gold standard\" and secondary as \"compromise.\" Senior secondary statistics requires understanding that *fitness for purpose* (relevance, timeliness, coverage) matters more than collection mode.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini research plan for this question: \"Has the average monthly expenditure on mobile data by rural households in your district increased after the launch of 5G services?\" Specify: (a) Whether you would use primary or secondary data as your *main* source, (b) The specific source/agency, (c) One variable you would need that is unlikely to exist in secondary sources, and (d) How you would handle that gap.",
+     "a": "**Expected answer criteria:**  \n(a) **Primary data** (main source)—because \"expenditure on mobile data by rural households\" at district level post-5G launch is too specific and recent for existing surveys.  \n(b) **Own field survey** of a sample of rural households in the district (or NSSO's HCES if timing aligns, but likely too old).  \n(c) **Variable unlikely in secondary data:** \"Perception of 5G speed/value for money\" or \"Switching behaviour from 4G to 5G plans\"—subjective/behavioural variables rarely in administrative or large-scale survey data.  \n(d) **Handling gap:** Include Likert-scale questions in the primary questionnaire; or triangulate with telecom operator anonymised recharge data (secondary) for validation.  \n**Poor answer reveals:** Choosing \"NSSO data\" as main source without checking if the latest round covers post-5G period and district-level mobile expenditure—shows failure to assess *currency* and *granularity* of secondary sources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_011",
+   "title": "c11_eng_s_cbse_05_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical voice used in the line \"The arch was built too low\" and name the tense.",
+     "a": "The line uses passive voice in the simple past tense (\"was built\"). A wrong answer (e.g., \"active voice\" or \"past perfect\") reveals the student cannot distinguish passive construction or identify tense in a poetic context where the subject (\"The arch\") receives the action.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet uses the passive voice repeatedly in the first half of the poem (e.g., \"was built\", \"were arranged\", \"was led\", \"must be hanged\").",
+     "a": "The passive voice shifts focus from the doer (the King, the workmen) to the action and its recipient, creating a bureaucratic, impersonal tone that mimics official records — this reinforces the satire of a justice system that follows procedure without logic. A wrong answer (e.g., \"to make it sound poetic\") shows the student misses the link between grammatical choice and satirical purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the reported speech in the stanza beginning \"The chief of builders was led out. / He passed the King. He gave a shout, / 'O King, it was the workmen's fault'\" into direct speech, preserving the original meaning and verse rhythm.",
+     "a": "Direct speech version: The chief of builders shouted, \"O King, the workmen are at fault!\" Steps: 1) Identify reporting verb (\"gave a shout\") and reported clause. 2) Change pronoun \"it\" to \"the workmen\" and verb \"was\" to \"are\" for present relevance. 3) Adjust punctuation to verse. A wrong answer that keeps \"was\" or misses the vocative \"O King\" shows inability to convert reported to direct speech in a poetic register.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure of the King's decree \"I do ordain that you shall be / Hanged\" with the idiot's reply \"A melon.\" What grammatical contrast does this create, and how does it serve the poem's ending?",
+     "a": "The King's decree is a complex periodic sentence with a main clause (\"I do ordain\") and a subordinate noun clause (\"that you shall be hanged\"), using the archaic emphatic \"do ordain\" and modal \"shall\" for legal force. The idiot's reply is a noun phrase fragment (\"A melon\") — no verb, no clause. This contrast grammatically enacts the shift from pseudo-legal verbosity to absurd minimalism, underscoring the collapse of reasoned governance. A wrong answer that only notes \"one is long, one is short\" misses the structural and functional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poet's use of the archaic verb form \"hanged\" (instead of \"hung\") throughout the poem. Does it strengthen or weaken the satirical tone? Justify.",
+     "a": "\"Hanged\" is the correct legal term for execution by hanging, while \"hung\" is used for objects. Seth's consistent use of \"hanged\" mimics precise legal language, heightening the mock-formal tone — the state treats execution as a procedural correctness. This strengthens the satire because the bureaucracy cares about the right word while killing an innocent man. A wrong answer claiming \"hanged/hung doesn't matter\" shows ignorance of register and legal diction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in the style of the poem (rhyming couplets, mock-legal tone) that uses at least two passive constructions and one archaic verb (e.g., \"ordain\", \"proclaim\", \"edify\") to describe a modern bureaucratic absurdity (e.g., a pothole repair, a lost file).",
+     "a": "Example:\nThe file was lost in the office deep,\nThe clerk was told to never sleep.\nThe officer did ordain with sigh:\n\"Refile the form before you die.\"\nCriteria: rhyming couplets, two passives (\"was lost\", \"was told\"), one archaic verb (\"ordain\"), satirical modern context. A poor answer lacking passives or archaic verb shows inability to apply grammatical features creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

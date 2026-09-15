@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_087",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_087",
+   "title": "c6_math_ch08_087",
+   "questions": [
+    {
+     "q": "What is the formula to calculate the area of a rectangle if you are given its length and width?",
+     "a": "The formula is Area = length × width. A student who says \"length + width\" is confusing the formula for perimeter with area; they need to revisit the difference between boundary length and interior space.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a square with a side of 5 cm, why do we call the result \"25 cm²\" instead of just \"25 cm\"?",
+     "a": "We use cm² because area measures two-dimensional space, and we are multiplying centimeters by centimeters (cm × cm). An answer of \"25 cm\" reveals a misunderstanding that area is a length, rather than a measure of surface coverage.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden is 8 meters long and 3 meters wide. How much space does it cover?",
+     "a": "8 meters × 3 meters = 24 square meters (m²). A student who answers \"22 meters\" has likely calculated the perimeter [2 × (8 + 3)] instead of the area, showing they have not distinguished between walking around a shape and filling it.",
+     "self_check": true
+    },
+    {
+     "q": "If a square has an area of 36 cm², what is the length of one of its sides?",
+     "a": "The side length is 6 cm, because 6 × 6 = 36. If a student answers \"18\" or \"9,\" they are incorrectly dividing or guessing, showing they do not yet realize the area of a square is a number multiplied by itself.",
+     "self_check": true
+    },
+    {
+     "q": "Can two different rectangles have the same area but different side lengths? Give an example.",
+     "a": "Yes. A rectangle of 4 cm × 3 cm has an area of 12 cm², and a rectangle of 6 cm × 2 cm also has an area of 12 cm². A student who says \"no\" thinks that area is tied to a specific set of dimensions, ignoring that different factors can produce the same product.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rectangle that has an area of 20 cm². What are the possible dimensions?",
+     "a": "Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm. An answer that doesn't multiply to 20 shows a failure to grasp the relationship between dimensions and total area.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

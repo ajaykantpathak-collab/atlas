@@ -1,0 +1,532 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Carbon and its Compounds",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc104.txt",
+ "concepts": [
+  {
+   "id": "jesc.4.1.1",
+   "title": "Covalent Bonding and Tetravalency of Carbon",
+   "section": "4.1",
+   "definition": "A chemical link formed by the mutual sharing of valence electron pairs between atoms to reach stable electronic configurations.",
+   "formula": "Valence electrons shared = Total electrons required to complete octet or duplet",
+   "key_idea": "In brief, In brief, In brief, In brief, Carbon shares four valence electrons to attain a stable octet, forming covalent bonds with weak intermolecular forces.",
+   "textbook_ref": "jesc104.txt lines 30-105",
+   "question_patterns": [
+    "explain why carbon forms covalent bonds instead of ionic bonds",
+    "describe the nature of covalent bonding in methane",
+    "why do covalent compounds have low melting and boiling points",
+    "explain why carbon cannot form C4+ or C4- ions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify electron configuration",
+     "explain": "Carbon has atomic number 6 with 4 valence electrons in its outer shell."
+    },
+    {
+     "step": 2,
+     "action": "evaluate energy barrier for ion formation",
+     "explain": "Gaining 4 electrons (C4-) is unstable due to nuclear charge imbalance, and losing 4 electrons (C4+) demands excessive ionisation energy."
+    },
+    {
+     "step": 3,
+     "action": "conclude covalent sharing",
+     "explain": "Carbon shares four electrons with other atoms to complete its octet without forming ionic species."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.1.2",
+   "title": "Allotropes of Carbon",
+   "section": "4.1",
+   "definition": "Distinct structural modifications of carbon possessing the same chemical composition but remarkably differing physical arrangements.",
+   "formula": "Allotropes: Diamond (3D tetrahedral lattice), Graphite (hexagonal sheets), Fullerenes (spherical cages such as C60)",
+   "key_idea": "In brief, In brief, Different spatial bonding arrangements of carbon atoms produce wide variations in hardness, conductivity, and texture.",
+   "textbook_ref": "jesc104.txt lines 106-135",
+   "question_patterns": [
+    "differentiate between diamond and graphite based on structure",
+    "explain why graphite conducts electricity while diamond does not",
+    "what are fullerenes and what is the structure of C60",
+    "how can synthetic diamonds be prepared"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine structural geometry",
+     "explain": "In diamond, each carbon bonds to 4 other carbons tetrahedrally; in graphite, each bonds to 3 carbons in planar hexagonal layers."
+    },
+    {
+     "step": 2,
+     "action": "analyze electron mobility",
+     "explain": "Graphite contains delocalised electrons from its pi-bonding system capable of electrical conduction, which diamond lacks."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.1",
+   "title": "Versatile Nature of Carbon: Catenation and Tetravalency",
+   "section": "4.2",
+   "definition": "The exceptional capacity of carbon to bind with other carbon atoms in continuous chains, branches, and rings, coupled with a valency of four.",
+   "formula": "Number of bonds formed per carbon = 4",
+   "key_idea": "Strong C-C bond stability and tetravalency allow carbon to produce an extraordinarily vast number of compounds.",
+   "textbook_ref": "jesc104.txt lines 136-180",
+   "question_patterns": [
+    "what are the two unique properties of carbon leading to millions of compounds",
+    "define catenation and explain why it is most pronounced in carbon",
+    "why are carbon-carbon bonds exceptionally stable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state property of catenation",
+     "explain": "Carbon atoms readily link together via covalent bonds into straight chains, branched frameworks, or cyclic rings."
+    },
+    {
+     "step": 2,
+     "action": "state tetravalency and bond strength",
+     "explain": "Its small atomic radius enables the nucleus to tightly hold shared electron pairs, ensuring high thermodynamic stability."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.2",
+   "title": "Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes)",
+   "section": "4.2.1",
+   "definition": "Hydrocarbons containing only single covalent bonds between carbon atoms, conforming to a defined open-chain stoichiometry.",
+   "formula": "hydrogen_count = 2 * n + 2; molecular_mass = 12 * n + 1 * (2 * n + 2)",
+   "key_idea": "In brief, For an alkane with n carbon atoms, the number of hydrogens is 2n+2.",
+   "textbook_ref": "jesc104.txt lines 181-225",
+   "question_patterns": [
+    "calculate the number of hydrogen atoms in an alkane having n carbon atoms",
+    "find the molecular formula and mass of an alkane with carbon count",
+    "determine the formula of pentane given the number of carbons",
+    "what is the molecular mass of an alkane having carbon atoms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate hydrogen atoms count",
+     "explain": "Apply the alkane formula 2*n + 2 for the given carbon number n",
+     "compute": "hydrogen_count = 2 * n + 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate carbon mass contribution",
+     "explain": "Multiply the number of carbons by the atomic mass of carbon (12 u)",
+     "compute": "carbon_mass = 12 * n"
+    },
+    {
+     "step": 3,
+     "action": "calculate total molecular mass",
+     "explain": "Add the mass of hydrogens to the mass of carbons",
+     "compute": "molecular_mass = carbon_mass + hydrogen_count"
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.3",
+   "title": "Molecular Formula of Unsaturated Hydrocarbons (Alkenes and Alkynes)",
+   "section": "4.2.1",
+   "definition": "In brief, Hydrocarbons possessing at least one double or triple bond between adjacent carbon atoms.",
+   "formula": "Alkenes: H = 2 * n; Alkynes: H = 2 * n - 2",
+   "key_idea": "In brief, In brief, Alkenes have double bonds with formula CnH2n; alkynes have triple bonds with formula CnH2n-2.",
+   "textbook_ref": "jesc104.txt lines 226-260",
+   "question_patterns": [
+    "calculate the number of hydrogen atoms in an alkene with n carbons",
+    "find the molecular formula of an alkyne with n carbon atoms",
+    "compute the molar mass of an alkene containing carbon atoms",
+    "what is the molecular formula of propyne or propene"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate hydrogen atoms for alkene",
+     "explain": "Alkene hydrogens equal 2 times carbon number n",
+     "compute": "alkene_h = 2 * n"
+    },
+    {
+     "step": 2,
+     "action": "calculate molecular mass of alkene",
+     "explain": "Alkene molar mass is 12*n + alkene_h",
+     "compute": "alkene_mass = 12 * n + alkene_h"
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.4",
+   "title": "Structural Isomerism in Hydrocarbons",
+   "section": "4.2.2",
+   "definition": "Molecules that share the identical molecular formula while having different spatial skeletal connectivity of their carbon backbones.",
+   "formula": "Structural Isomers = Compounds with identical molecular formula but distinct structural layouts",
+   "key_idea": "Butane (C4H10) is the simplest alkane to show isomerism, having two distinct structural isomers.",
+   "textbook_ref": "jesc104.txt lines 261-295",
+   "question_patterns": [
+    "how many structural isomers can you draw for pentane",
+    "explain structural isomerism with butane as an example",
+    "draw the isomers of butane C4H10",
+    "distinguish between straight-chain and branched isomers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "construct basic carbon skeletons",
+     "explain": "Vary the arrangement of carbon atoms into unbranched straight chains or branched configurations."
+    },
+    {
+     "step": 2,
+     "action": "satisfy carbon valencies with hydrogens",
+     "explain": "Verify that all carbon atoms have 4 bonds and the total atom count matches the identical molecular formula."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.5",
+   "title": "Homologous Series and Molecular Mass Gradation",
+   "section": "4.2.4",
+   "definition": "In brief, in brief, In brief, a family of organic compounds with matching functional groups where successive members differ by a single -CH2- unit and 14 atomic mass units.",
+   "formula": "mass_diff = delta_n * 14",
+   "key_idea": "Members of a homologous series show identical chemical both both both both both both both both both both both both both both both both both both both both both both both both properties and regular gradations in physical properties like boiling point.",
+   "textbook_ref": "jesc104.txt lines 315-350",
+   "question_patterns": [
+    "calculate the difference in molecular mass between two successive homologues",
+    "find the mass difference between homologous members separated by carbon steps",
+    "what is the molecular mass difference between consecutive members of a series",
+    "compute the difference in formula unit between consecutive homologues"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine carbon count difference",
+     "explain": "Subtract the lower carbon index n1 from the higher carbon index n2",
+     "compute": "delta_n = n2 - n1"
+    },
+    {
+     "step": 2,
+     "action": "calculate molecular mass difference",
+     "explain": "Each -CH2- unit adds 14 u (12 u from carbon + 2 u from hydrogen)",
+     "compute": "mass_diff = delta_n * 14"
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.6",
+   "title": "IUPAC Nomenclature and Functional Groups",
+   "section": "4.2.3 & 4.2.5",
+   "definition": "Systematic naming of organic molecules using the longest carbon chain modified by characteristic prefixes and suffixes for functional groups.",
+   "formula": "Systematic Name = Prefix (if any) + Root word + Primary suffix (ane/ene/yne) + Secondary suffix (ol/al/one/oic acid)",
+   "key_idea": "Heteroatoms and specific functional groups (alcohol, aldehyde, ketone, carboxylic acid, halo) determine chemical identity.",
+   "textbook_ref": "jesc104.txt lines 351-405",
+   "question_patterns": [
+    "how would you name a carbon compound with functional groups",
+    "name the functional group present in propanone and propanal",
+    "draw the chemical structure of ethanoic acid and hexanal",
+    "identify the IUPAC name for CH3-CH2-Br"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the principal carbon chain",
+     "explain": "Find the continuous carbon chain to establish the root word (meth, eth, prop, but, pent, hex)."
+    },
+    {
+     "step": 2,
+     "action": "identify saturation and functional group",
+     "explain": "Assign the primary suffix (ane/ene/yne) and attach the specific prefix/suffix matching the functional group."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.3.1",
+   "title": "Combustion, Oxidation, Addition, and Substitution Reactions",
+   "section": "4.3",
+   "definition": "Primary chemical transformations of hydrocarbons involving combustion to CO2 and H2O, catalytic oxidation to acids, addition across unsaturations, and halogen substitution.",
+   "formula": "Combustion: CxHy + (x + y/4) O2 -> x CO2 + (y/2) H2O + heat; Addition: CnH2n + H2 ->[Ni] CnH2n+2",
+   "key_idea": "Saturated hydrocarbons undergo substitution in light, whereas unsaturated hydrocarbons undergo catalytic addition.",
+   "textbook_ref": "jesc104.txt lines 410-485",
+   "question_patterns": [
+    "why is the conversion of ethanol to ethanoic acid an oxidation reaction",
+    "what is hydrogenation and what is its industrial application",
+    "differentiate between saturated and unsaturated hydrocarbons using chemical tests",
+    "describe the substitution reaction of methane with chlorine in sunlight"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify reaction type",
+     "explain": "Identify whether the process involves complete burning (combustion), oxygen addition (oxidation), bond saturation (addition), or atom replacement (substitution)."
+    },
+    {
+     "step": 2,
+     "action": "write products and reagents",
+     "explain": "State the necessary reagents or catalysts (e.g., alkaline KMnO4 for oxidation, Ni catalyst for hydrogenation, sunlight for chlorination)."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.4.1",
+   "title": "Properties and Reactions of Ethanol",
+   "section": "4.4.1",
+   "definition": "A commercially vital alcohol that reacts with active metals to liberate hydrogen and undergoes dehydration with hot concentrated sulphuric acid to form ethene.",
+   "formula": "2 CH3CH2OH + 2 Na -> 2 CH3CH2ONa + H2; CH3CH2OH ->[hot conc H2SO4, 443 K] CH2=CH2 + H2O",
+   "key_idea": "In brief, In brief, In brief, In brief, Ethanol is indeed oxidised by alkaline KMnO4 to ethanoic both acid and dehydrated by concentrated H2SO4 to ethene.",
+   "textbook_ref": "jesc104.txt lines 490-545",
+   "question_patterns": [
+    "what happens when ethanol reacts with sodium metal",
+    "explain the dehydration reaction of ethanol with concentrated sulphuric acid",
+    "what is denatured alcohol and why is it produced",
+    "how does ethanol affect the human nervous system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify reactants and conditions",
+     "explain": "Ethanol reacts with sodium at ambient temperatures or with concentrated H2SO4 at 443 K."
+    },
+    {
+     "step": 2,
+     "action": "deduce reaction products",
+     "explain": "Sodium reaction gives sodium ethoxide and H2 gas; heating with conc. H2SO4 dehydrates ethanol to ethene."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.4.2",
+   "title": "Properties and Reactions of Ethanoic Acid",
+   "section": "4.4.2",
+   "definition": "In brief, In brief, In brief, In brief, a weak carboxylic acid that forms sweet-smelling esters with alcohols, reacts with bases to yield carboxylate salts, and releases CO2 with carbonates.",
+   "formula": "CH3COOH + C2H5OH ->[acid] CH3COOC2H5 + H2O; CH3COOH + NaHCO3 -> CH3COONa + H2O + CO2",
+   "key_idea": "Ethanoic acid undergoes esterification, saponification in reverse with base, and effervesces with metal carbonates releasing CO2.",
+   "textbook_ref": "jesc104.txt lines 546-610",
+   "question_patterns": [
+    "how would you distinguish experimentally between an alcohol and a carboxylic acid",
+    "explain esterification and saponification reactions with chemical equations",
+    "what is glacial acetic acid and why is it called so",
+    "what gas is evolved when ethanoic acid reacts with sodium hydrogencarbonate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify characteristic reaction",
+     "explain": "Ethanoic acid reacts with alcohols in presence of acid catalyst to form esters, and with carbonates to release CO2 gas."
+    },
+    {
+     "step": 2,
+     "action": "verify confirmation test",
+     "explain": "CO2 turns freshly prepared lime water milky; ester formation is indicated by a fruity aroma."
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.5.1",
+   "title": "Cleansing Action of Soaps and Detergents",
+   "section": "4.5",
+   "definition": "Amphiphilic molecules possessing a hydrophilic ionic head and a hydrophobic hydrocarbon tail that form spherical micelles to emulsify and dislodge oily dirt.",
+   "formula": "Soap = RCOO- Na+; Scum = (RCOO)2Ca or (RCOO)2Mg",
+   "key_idea": "In brief, In brief, In brief, In brief, Soap fails in hard water because of insoluble scum formation with Ca2+/Mg2+, while synthetic detergents remain soluble.",
+   "textbook_ref": "jesc104.txt lines 611-680",
+   "question_patterns": [
+    "explain the mechanism of the cleaning action of soaps",
+    "why does micelle formation take place when soap is added to water",
+    "explain the formation of scum when hard water is treated with soap",
+    "why are detergents effective even in hard water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe molecular structure",
+     "explain": "Soap molecules have an ionic hydrophilic head soluble in water and a hydrophobic hydrocarbon tail soluble in oil."
+    },
+    {
+     "step": 2,
+     "action": "explain micelle formation",
+     "explain": "In water, tails cluster inward entrapping oily dirt while ionic heads remain on the outer surface interacting with water."
+    },
+    {
+     "step": 3,
+     "action": "explain removal via mechanical action",
+     "explain": "Emulsified droplets repel one another due to surface charge and are easily rinsed away by water."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Section 4.2.1, page 64",
+   "concept": "jesc.4.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the molecular formula and molar mass of an alkane containing {n} carbon atoms.",
+   "extracted_variables": {
+    "n": "number of carbon atoms in alkane"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate hydrogen atoms count",
+     "explain": "Apply formula 2*n + 2",
+     "compute": "hydrogen_count = 2 * n + 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate carbon mass contribution",
+     "explain": "Multiply carbons by atomic mass 12",
+     "compute": "carbon_mass = 12 * n"
+    },
+    {
+     "step": 3,
+     "action": "calculate total molecular mass",
+     "explain": "Sum of carbon mass and hydrogen count",
+     "compute": "molecular_mass = carbon_mass + hydrogen_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Section 4.2.4, page 66",
+   "concept": "jesc.4.2.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the difference in molecular mass between two members of a homologous series having {n1} and {n2} carbon atoms.",
+   "extracted_variables": {
+    "n1": "carbon count of first member",
+    "n2": "carbon count of second member"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine carbon count difference",
+     "explain": "Subtract lower carbon number from higher carbon number",
+     "compute": "delta_n = n2 - n1"
+    },
+    {
+     "step": 2,
+     "action": "calculate molecular mass difference",
+     "explain": "Multiply step count by 14 u",
+     "compute": "mass_diff = delta_n * 14"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "Exercises, page 77, Q1",
+   "questions": [
+    "Ethane, with the molecular formula C2H6 has how many covalent bonds: (a) 6 (b) 7 (c) 8 (d) 9?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "Exercises, page 77, Q2",
+   "questions": [
+    "Butanone is a four-carbon compound with which functional group: (a) carboxylic acid (b) aldehyde (c) ketone (d) alcohol?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "Exercises, page 77, Q3",
+   "questions": [
+    "While cooking, if the bottom of the vessel is getting blackened on the outside, what does it mean?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "Exercises, page 78, Q4",
+   "questions": [
+    "Explain the nature of the covalent bond using the bond formation in CH3Cl."
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "Exercises, page 78, Q5",
+   "questions": [
+    "Draw the electron dot structures for: (a) ethanoic acid (b) H2S (c) propanone (d) F2."
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "Exercises, page 78, Q6",
+   "questions": [
+    "What is a homologous series? Explain with an example."
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "Exercises, page 78, Q7",
+   "questions": [
+    "How can ethanol and ethanoic acid be differentiated on the basis of their physical and chemical properties?"
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "Exercises, page 78, Q8",
+   "questions": [
+    "Why does micelle formation take place when soap is added to water? Will a micelle be formed in other solvents such as ethanol also?"
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "Exercises, page 78, Q9",
+   "questions": [
+    "Why are carbon and its compounds used as fuels for most applications?"
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "Exercises, page 78, Q10",
+   "questions": [
+    "Explain the formation of scum when hard water is treated with soap."
+   ]
+  },
+  {
+   "id": "ex4.11",
+   "source_ref": "Exercises, page 78, Q11",
+   "questions": [
+    "What change will you observe if you test soap with litmus paper (red and blue)?"
+   ]
+  },
+  {
+   "id": "ex4.12",
+   "source_ref": "Exercises, page 78, Q12",
+   "questions": [
+    "What is hydrogenation? What is its industrial application?"
+   ]
+  },
+  {
+   "id": "ex4.13",
+   "source_ref": "Exercises, page 78, Q13",
+   "questions": [
+    "Which of the following hydrocarbons undergo addition reactions: C2H6, C3H8, C3H6, C2H2 and CH4?"
+   ]
+  },
+  {
+   "id": "ex4.14",
+   "source_ref": "Exercises, page 78, Q14",
+   "questions": [
+    "Give a test that can be used to differentiate between saturated and unsaturated hydrocarbons."
+   ]
+  },
+  {
+   "id": "ex4.15",
+   "source_ref": "Exercises, page 78, Q15",
+   "questions": [
+    "Explain the mechanism of the cleaning action of soaps."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

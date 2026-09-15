@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_04_010",
+   "title": "c11_eng_h_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the primary strategy for inferring the meaning of an unfamiliar word from context?",
+     "a": "The primary strategy is to examine surrounding sentences for clues such as definitions, examples, contrasts, or cause-effect relationships that explain the word. A wrong answer like \"look it up in a dictionary immediately\" reveals the student relies on external resources instead of developing independent context-analysis skills required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"the movement has not looked back\", what does \"looked back\" mean figuratively, and what context clue helps you decide?",
+     "a": "Figuratively, \"looked back\" means \"regressed or reversed progress\". The context clue is the preceding sentence about the Green Movement starting and then continuing to grow (\"Since then, the movement has not looked back\"), indicating continuous forward momentum. A wrong answer interpreting it literally (turning one's head) shows the student misses figurative language common in persuasive writing.",
+     "self_check": true
+    },
+    {
+     "q": "The text says: \"Forests precede mankind; deserts follow.\" If you encounter \"precede\" here, how would you infer its meaning using the contrast with \"follow\"?",
+     "a": "\"Precede\" means \"come before\" because it is contrasted with \"follow\" (come after) in a cause-effect timeline: forests exist first, then humans, then deserts if forests are destroyed. A wrong answer like \"precede means succeed\" reveals the student ignores the antithetical parallel structure that signals opposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal and figurative meanings of \"dawned upon\" in: (a) \"The sun dawned upon the hills.\" (b) \"A new awareness dawned upon the most dangerous animal.\" What is the key difference in the subject?",
+     "a": "In (a), the subject is the sun (a natural phenomenon) and the meaning is literal: the beginning of daylight. In (b), the subject is \"awareness\" (an abstract idea) and the meaning is figurative: a realization or understanding beginning. A wrong answer that treats both as literal shows inability to distinguish concrete vs. abstract subjects — a key marker for figurative language detection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate which context clue type (definition, example, contrast, or inference) is most useful for understanding \"inter alia\" in: \"One of the early international commissions which dealt, inter alia, with the question of ecology...\"",
+     "a": "Inference is most useful because \"inter alia\" is a Latin phrase not defined in the text; the reader must infer from \"dealt... with the question of ecology\" that the commission dealt with ecology among other things. A wrong answer choosing \"definition\" reveals the student expects explicit definitions for all unfamiliar terms, missing that formal writing often assumes knowledge of standard Latin expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a sentence using \"passport\" figuratively to mean \"a means of access or opportunity\", and another using it literally. Explain the shared concept.",
+     "a": "Literal: \"She showed her passport at the immigration counter.\" Figurative: \"Education is a passport to a better future.\" The shared concept is \"a document or quality that grants entry or access.\" A poor answer that uses \"passport\" only literally or without the access concept shows incomplete grasp of figurative extension — a skill tested in \"Working with words\" board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

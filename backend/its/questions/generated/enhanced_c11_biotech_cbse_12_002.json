@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_002",
+   "title": "c11_biotech_cbse_12_002",
+   "questions": [
+    {
+     "q": "Define centrifugation and state the physical force exploited for separation.",
+     "a": "Centrifugation is a technique that separates particles from a solution by spinning them at high speed around a central axis, exploiting the **centrifugal force** (an inertial force acting outward from the axis of rotation) which is proportional to mass and acceleration. A wrong answer citing \"gravitational force\" or \"centripetal force\" reveals confusion between the actual separating force (centrifugal, in the rotating frame) and the real force (centripetal, in the inertial frame) or the weak natural gravity replaced by artificial high g-force.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Differential centrifugation separates particles based on density differences, while density gradient centrifugation separates based on size differences.\" Identify the error and state the correct principle for each.",
+     "a": "The student has **reversed the principles**. Differential centrifugation separates primarily by **size and mass** (sedimentation rate ∝ mass/shape) using sequential increasing g-force steps. Density gradient centrifugation separates by **buoyant density** (isopycnic) or **sedimentation coefficient/size** (rate-zonal) within a stabilizing density gradient. A wrong answer indicates the student memorizes names without linking the physical basis (size vs. density) to the method's design.",
+     "self_check": true
+    },
+    {
+     "q": "You have a crude liver homogenate containing nuclei (~5-10 µm), mitochondria (~0.5-1 µm), microsomes (vesicles, ~50-100 nm), and ribosomes (~20-30 nm). Design a 3-step differential centrifugation protocol (g-force and time) to obtain a mitochondrial pellet reasonably free of nuclei and microsomes. Justify each step.",
+     "a": "**Step 1: Low speed (600-1,000 ×g, 10 min)** – Pellets nuclei and whole cells (largest/heaviest). Supernatant contains mitochondria, microsomes, ribosomes. **Step 2: Medium speed (10,000-15,000 ×g, 15 min)** – Pellets mitochondria (and lysosomes/peroxisomes). Supernatant contains microsomes, ribosomes. **Step 3: High speed (100,000 ×g, 60 min)** – Pellets microsomes; ribosomes remain in supernatant (require ultracentrifugation). A wrong sequence (e.g., starting at high speed) pellets everything together, failing separation. Missing justification shows lack of understanding of sedimentation rate dependence on size².",
+     "self_check": true
+    },
+    {
+     "q": "Compare rate-zonal and isopycnic density gradient centrifugation on: (a) gradient type, (b) separation criterion, (c) run time relative to particle banding, (d) outcome if centrifugation continues indefinitely.",
+     "a": "**(a) Gradient:** Rate-zonal uses shallow gradient (5-20% sucrose); isopycnic uses steep gradient covering particle density range (e.g., 20-60% sucrose or CsCl). **(b) Criterion:** Rate-zonal separates by **sedimentation coefficient (size/shape)**; isopycnic separates by **buoyant density**. **(c) Run time:** Rate-zonal is **time-limited** (stop before particles reach bottom); isopycnic runs to **equilibrium** (banding at ρ_particle = ρ_gradient). **(d) Infinite run:** Rate-zonal → all particles pellet at bottom (separation lost); isopycnic → particles remain at equilibrium bands (separation maintained). A wrong answer conflating the two reveals failure to grasp the fundamental difference: kinetic vs. thermodynamic separation.",
+     "self_check": true
+    },
+    {
+     "q": "A protocol states: \"Spin at 10,000 rpm for 30 min in a rotor with 8 cm radius.\" Another lab uses a rotor with 14 cm radius. Calculate the rpm needed in the second rotor to achieve the **same RCF**. Evaluate whether \"10,000 rpm\" alone is a sufficient protocol description.",
+     "a": "**RCF₁ = 1.118×10⁻⁵ × 8 × (10,000)² = 8,944 ×g.** For same RCF: 8,944 = 1.118×10⁻⁵ × 14 × rpm₂² → rpm₂² = 5.714×10⁷ → **rpm₂ ≈ 7,560 rpm.** \"10,000 rpm\" alone is **insufficient** because RCF depends on rotor radius. Protocols must specify **RCF (×g)** or both rpm and rotor model/radius. A student giving only rpm shows they treat centrifugation as a \"recipe\" without understanding the physics of scaling across equipment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel separation challenge: You have a mixture of two viruses – Virus A (diameter 50 nm, density 1.15 g/cm³) and Virus B (diameter 80 nm, density 1.15 g/cm³). Propose a centrifugation strategy to separate them. Specify method, gradient, rotor, and expected outcome.",
+     "a": "**Method: Rate-zonal density gradient centrifugation.** Since densities are identical, isopycnic fails. Size difference (80 vs 50 nm) gives different sedimentation coefficients (s ∝ r²). **Gradient:** 5-20% sucrose (shallow, stabilizing). **Rotor:** Swinging-bucket (e.g., SW41) for maximum resolution. **Run:** Layer sample on top; centrifuge at ~150,000 ×g for a calibrated time (e.g., 2-4 h) such that Virus B (larger, faster) bands lower than Virus A, but neither reaches bottom. **Outcome:** Two distinct bands separated by size. A poor answer choosing differential centrifugation ignores similar pelleting times at high g-force; choosing isopycnic ignores identical density.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

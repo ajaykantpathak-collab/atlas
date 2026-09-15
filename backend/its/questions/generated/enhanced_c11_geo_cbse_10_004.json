@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_004",
+   "title": "c11_geo_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the approximate annual rainfall received at Mawsynram (Meghalaya) and Jaisalmer (Rajasthan), and name the primary physiographic feature responsible for this contrast.",
+     "a": "Mawsynram receives ~2,500–2,600 mm (world's highest average), while Jaisalmer receives ~100–150 mm. The primary feature is the orographic barrier: the Khasi-Jaintia Hills force the Bay of Bengal branch to ascend abruptly, while the Aravalli Range lies parallel to the Arabian Sea branch, failing to intercept moisture, leaving western Rajasthan in a rain shadow. A wrong answer (e.g., attributing Jaisalmer's aridity to latitude or distance from sea alone) reveals the student misses the critical role of wind-mountain geometry — the Aravallis run SW-NE, parallel to the Arabian Sea branch, so they do not force uplift.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Coromandel Coast (Tamil Nadu) receives most of its rainfall during October–December, while the Malabar Coast (Kerala) receives its peak rainfall during June–September, despite both being coastal regions.",
+     "a": "The Malabar Coast lies on the windward side of the Western Ghats facing the Arabian Sea branch of the Southwest Monsoon (June–September). The Coromandel Coast lies in the rain shadow of the Western Ghats during the Southwest Monsoon; it receives rainfall from the retreating Northeast Monsoon (October–December) when winds pick up moisture over the Bay of Bengal and strike the Eastern Ghats. A wrong answer (e.g., \"both get rain from the same monsoon\") reveals the student conflates the two monsoon seasons and ignores the rain-shadow effect of the Western Ghats on the eastern peninsula.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following annual rainfall data (in mm) for Station X over 10 years: 820, 760, 910, 680, 850, 720, 890, 650, 940, 780. Calculate the coefficient of variation (CV) and interpret what this implies for cropping risk.",
+     "a": "Step 1: Mean = (820+760+910+680+850+720+890+650+940+780)/10 = 800 mm. Step 2: Deviations squared: (20²+(-40)²+110²+(-120)²+50²+(-80)²+90²+(-150)²+140²+(-20)²) = 400+1600+12100+14400+2500+6400+8100+22500+19600+400 = 88,000. Step 3: Variance = 88,000/10 = 8,800. Step 4: Standard deviation = √8,800 ≈ 93.8 mm. Step 5: CV = (93.8/800) × 100 ≈ 11.7%. Interpretation: CV > 10% indicates moderate variability; Kharif crops face significant yield risk in 2–3 years per decade. A wrong CV (e.g., using n-1 denominator or miscalculating mean) reveals computational error; misinterpreting CV < 10% as \"safe\" reveals ignorance of the threshold for rainfed agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rainfall regimes of the Western Himalaya (e.g., Shimla) and the Eastern Himalaya (e.g., Darjeeling) in terms of annual amount, seasonal distribution, and the monsoon branch responsible. How does this difference manifest in vegetation types?",
+     "a": "Darjeeling (Eastern Himalaya) receives 3,000+ mm, concentrated in June–September from the Bay of Bengal branch, which travels a shorter distance over warm ocean and hits the Himalayan arc perpendicularly. Shimla (Western Himalaya) receives ~1,500 mm with a more bimodal peak (July–August from Arabian Sea branch remnants + winter western disturbances). The Bay of Bengal branch penetrates deeper into the eastern sector. Vegetation: Darjeeling supports subtropical/temperate broadleaf forests (high moisture year-round); Shimla supports temperate coniferous forests (pine, deodar) adapted to summer rain + winter snow. A wrong answer (e.g., \"both get equal rain from the same branch\") misses the moisture trajectory difference and its ecological consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Areas receiving >200 cm annual rainfall in India are guaranteed water security for agriculture.\" Use the concepts of rainfall intensity, rainy days, and seasonal concentration to justify your evaluation.",
+     "a": "The statement is false. High annual total ≠ water security. Example: Western Ghats receive 250–400 cm but in 60–80 rainy days (high intensity), causing rapid runoff, low infiltration, and flash floods — soil moisture depletes quickly post-monsoon. Contrast with areas receiving 100–150 cm spread over 80–100 days (e.g., parts of Madhya Pradesh) where gentle, prolonged rain recharges groundwater. Also, >80% of rain falls in 4 months (June–September); dry months (November–May) require storage. Without reservoirs or groundwater recharge, high-rainfall areas face seasonal scarcity. A wrong evaluation (agreeing with the statement) reveals the student equates total volume with availability, ignoring temporal distribution and hydrological response.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rainfall-based agro-climatic zoning map for a hypothetical district spanning the Western Ghats escarpment to the Deccan Plateau (width 80 km). Annotate three zones with recommended dominant Kharif crops, justifying each with rainfall amount, variability, and soil moisture duration.",
+     "a": "Zone 1 (Windward Ghats, 0–20 km): 300–400 cm, CV ~15%, 80–100 rainy days. Crop: Rice (transplanted), spices (pepper, cardamom) — high moisture, cloud cover suits shade crops. Zone 2 (Crest/Transition, 20–40 km): 150–250 cm, CV ~20%, 60–80 days. Crop: Rice + arecanut, coconut — perennial tree crops buffer variability. Zone 3 (Rain-shadow Plateau, 40–80 km): 60–90 cm, CV >30%, 30–45 days. Crop: Millets (ragi, jowar), pulses (tur), oilseeds (groundnut) — drought-tolerant, short duration. Justification must link CV to risk, rainy days to soil moisture window, and crop water requirement (rice > 120 cm, millets < 60 cm). A poor answer lists crops without quantitative justification or ignores the rain-shadow gradient.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

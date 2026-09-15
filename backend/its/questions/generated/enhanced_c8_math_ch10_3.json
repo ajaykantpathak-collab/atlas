@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_3",
+   "title": "c8_math_ch10_3",
+   "questions": [
+    {
+     "q": "A map has a Representative Fraction of 1 : 200,000. What does this statement mean in your own words?",
+     "a": "Correct answer: 1 unit (cm, mm, inch, etc.) measured on the map corresponds to 200,000 of the same units in reality. A wrong answer like \"1 cm on map = 200,000 km on ground\" reveals the student is confusing the unit-less nature of RF with converted units, or mistakenly inserting \"km\" without conversion.",
+     "self_check": true
+    },
+    {
+     "q": "On a map with RF 1 : 50,000, two towns are 3.5 cm apart. A student calculates the actual distance as 3.5 × 50,000 = 175,000 and writes \"175,000 km\". Explain why this answer is incorrect and what the correct unit should be at this stage.",
+     "a": "Correct answer: The multiplication gives 175,000 cm because the RF uses the same unit for map and ground. The student incorrectly attached \"km\" without converting. 175,000 cm = 1.75 km. A wrong explanation that says \"the answer is 1.75 km\" without identifying the unit mismatch shows the student does not understand that RF preserves units and conversion is a separate step.",
+     "self_check": true
+    },
+    {
+     "q": "A map scale is given as 1 : 250,000. The measured distance between two villages on the map is 6.4 cm. Calculate the actual distance in kilometres. Show all steps including unit conversion.",
+     "a": "Steps: 1) Actual distance in cm = 6.4 × 250,000 = 1,600,000 cm. 2) Convert cm to km: 1 km = 100,000 cm, so 1,600,000 ÷ 100,000 = 16 km. Answer: 16 km. A wrong answer like 160 km or 1.6 km reveals a decimal-place error during division by 100,000, or forgetting to divide by 100,000 altogether.",
+     "self_check": true
+    },
+    {
+     "q": "Two maps show the same region. Map A has RF 1 : 100,000. Map B has RF 1 : 200,000. On Map A, a road measures 5 cm. On Map B, the same road measures 2.5 cm. Without calculating the actual distance, explain how you know both maps represent the same real-world road length.",
+     "a": "Correct answer: The product of map distance and RF denominator is invariant. Map A: 5 × 100,000 = 500,000 cm. Map B: 2.5 × 200,000 = 500,000 cm. Both give the same actual distance. A wrong answer that says \"because the scales are different\" or \"because 5 cm is double 2.5 cm\" without linking to the inverse relationship between map distance and scale denominator shows the student cannot analyse the proportional structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Map scale 1 : 50,000. Map distance = 8 cm. Find actual distance in metres.\" Their working: 8 × 50,000 = 400,000 cm. Then 400,000 ÷ 100 = 4,000 m. Is this correct? Justify your evaluation.",
+     "a": "Correct evaluation: Yes, the method and answer are correct. 1 m = 100 cm, so dividing cm by 100 gives metres. 400,000 cm = 4,000 m. A wrong evaluation that says \"incorrect because you should divide by 1000\" reveals the student confuses conversion to metres (÷100) with conversion to kilometres (÷100,000).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem for a classmate that requires using a map scale to find an actual distance, but include a twist: the map distance is given in millimetres and the final answer must be in kilometres. Write the problem, the scale you choose, and the correct solution.",
+     "a": "Expected answer: A valid problem with RF (e.g., 1 : 1,000,000), map distance in mm (e.g., 45 mm), and correct conversion: 45 mm = 4.5 cm → 4.5 × 1,000,000 = 4,500,000 cm → 45 km. A poor answer that keeps mm throughout (45 × 1,000,000 = 45,000,000 mm and stops) shows the student cannot manage mixed-unit conversions or recognise that RF requires consistent units before multiplication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

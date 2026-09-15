@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_004",
+   "title": "c12_chem_cbse_03_004",
+   "questions": [
+    {
+     "q": "Define a first order reaction and write its differential rate law. What are the units of the rate constant k?",
+     "a": "A first order reaction has a rate directly proportional to the concentration of one reactant raised to the first power: rate = -d[A]/dt = k[A]. The units of k are s⁻¹ (or time⁻¹). A wrong answer (e.g., units mol L⁻¹ s⁻¹) reveals confusion with zero order reactions where rate = k and k has concentration/time units. Students often memorize units without deriving from rate = k[A]ˣ → k = rate/[A]ˣ.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction 2N₂O₅(g) → 4NO₂(g) + O₂(g), the rate law is experimentally found to be rate = k[N₂O₅]. Explain why the stoichiometric coefficient 2 of N₂O₅ does not make this a second order reaction.",
+     "a": "Order is an experimental quantity determined from the rate law, not from the balanced equation. The rate law rate = k[N₂O₅] shows the exponent of [N₂O₅] is 1, so it is first order. The stoichiometric coefficient (2) only indicates 2 moles of N₂O₅ decompose per reaction event; it does not dictate the concentration dependence. A wrong answer claiming \"order = 2 because coefficient is 2\" reveals the common misconception that order equals stoichiometric coefficient — true only for elementary reactions, which this is not.",
+     "self_check": true
+    },
+    {
+     "q": "In a first order reaction, the instantaneous rate is 3.2 × 10⁻⁵ mol L⁻¹ s⁻¹ when the reactant concentration is 0.08 mol L⁻¹. Calculate the rate constant k.",
+     "a": "Using rate = k[A]: k = rate / [A] = (3.2 × 10⁻⁵ mol L⁻¹ s⁻¹) / (0.08 mol L⁻¹) = 4.0 × 10⁻⁴ s⁻¹. A wrong answer (e.g., 2.56 × 10⁻⁶) suggests the student multiplied instead of divided, or used [A]². This tests algebraic manipulation of the differential rate law — a common board exam short-answer question.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots rate versus concentration for a reaction and gets a straight line passing through the origin with slope 2.5 × 10⁻³ s⁻¹. What is the order of the reaction? What is the rate constant?",
+     "a": "The linear rate vs [A] plot through origin indicates rate ∝ [A]¹, so the reaction is first order. The slope equals k, so k = 2.5 × 10⁻³ s⁻¹. A wrong answer (e.g., \"zero order because line is straight\") shows inability to distinguish graphical signatures: zero order gives rate vs [A] as horizontal line; first order gives straight line through origin; second order gives parabola.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a first order reaction, if you double the initial concentration, the half-life also doubles.\" Justify your answer.",
+     "a": "The statement is FALSE. For a first order reaction, t₁/₂ = 0.693/k, which is independent of initial concentration. Doubling [A]₀ does not change t₁/₂. This is a hallmark of first order kinetics (e.g., radioactive decay). A student who agrees likely confuses first order with zero order, where t₁/₂ = [A]₀/(2k) ∝ [A]₀.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a stopwatch and a colorimeter to confirm that the decomposition of H₂O₂ (colorless) catalyzed by I⁻ is first order with respect to H₂O₂. Outline the procedure and the graph you would plot.",
+     "a": "Procedure: Prepare fixed [I⁻] and varying initial [H₂O₂]. Measure absorbance (proportional to [H₂O₂]) at regular time intervals. Plot ln(absorbance) vs time. If linear with negative slope, the reaction is first order in H₂O₂. A poor answer (e.g., \"measure time for complete decomposition\") shows lack of understanding of integrated rate law graphical verification. The colorimeter tracks concentration; the ln plot is the standard test for first order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

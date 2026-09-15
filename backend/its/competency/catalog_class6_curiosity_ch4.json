@@ -1,0 +1,491 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Exploring Magnets",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu104.txt",
+ "concepts": [
+  {
+   "id": "c6cu.4.1",
+   "title": "Properties of Magnets",
+   "section": "4.1",
+   "definition": "A magnet is an object that attracts magnetic materials; it has two poles where the attraction is strongest and the force is weakest at the middle.",
+   "formula": "",
+   "key_idea": "A magnet attracts iron and a few other materials, has two poles, and the magnetic force is strongest at the poles and weakest at the centre.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main properties of a magnet",
+    "where is the magnetic force strongest in a bar magnet",
+    "which materials does a magnet attract",
+    "why does a magnet have two poles",
+    "describe how a magnet interacts with iron objects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the magnet and test object",
+     "explain": "note the type of magnet (bar, horseshoe) and the material being tested."
+    },
+    {
+     "step": 2,
+     "action": "observe the attraction",
+     "explain": "bring the magnet near the object and see whether it is attracted, and where the attraction is strongest."
+    },
+    {
+     "step": 3,
+     "action": "verify the property",
+     "explain": "confirm that attraction happens at the poles, is strongest there, and is weakest at the middle of the magnet."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where is the attracting power of a bar magnet strongest and weakest?",
+     "solution": "The attracting power is strongest at the two ends, called the poles, and weakest at the middle of the bar magnet.",
+     "answer": "Strongest at the poles, weakest at the middle.",
+     "_n": 1
+    },
+    {
+     "question": "A magnet does not attract a wooden pencil but attracts an iron nail. What does this show?",
+     "solution": "A magnet attracts only magnetic materials like iron, not non-magnetic materials like wood. This shows that magnets selectively attract certain materials.",
+     "answer": "Magnets attract iron but not wood, showing selective attraction.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three properties of a magnet.",
+     "type": "list"
+    },
+    {
+     "question": "Why is the middle of a bar magnet unable to pick up many iron pins?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.2",
+   "title": "Magnetic and Non-Magnetic Materials",
+   "section": "4.2",
+   "definition": "Materials that are attracted by a magnet are called magnetic materials (like iron, nickel, cobalt), while materials not attracted by a magnet are called non-magnetic materials (like wood, plastic, glass).",
+   "formula": "",
+   "key_idea": "Only a few metals such as iron, nickel and cobalt are magnetic; most materials around us are non-magnetic.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify the given material as magnetic or non-magnetic",
+    "name three magnetic materials",
+    "is plastic a magnetic material",
+    "which metals are attracted by a magnet",
+    "how can you test whether a material is magnetic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "bring a magnet near the material",
+     "explain": "place a known magnet close to the test material and observe whether there is attraction."
+    },
+    {
+     "step": 2,
+     "action": "classify based on attraction",
+     "explain": "if the material is attracted, it is magnetic; if not, it is non-magnetic."
+    },
+    {
+     "step": 3,
+     "action": "verify with known examples",
+     "explain": "cross-check: iron, nickel and cobalt are magnetic; wood, plastic, rubber and glass are non-magnetic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify iron, copper, wood and nickel as magnetic or non-magnetic.",
+     "solution": "Iron and nickel are attracted by a magnet, so they are magnetic. Copper and wood are not attracted, so they are non-magnetic.",
+     "answer": "Iron and nickel are magnetic; copper and wood are non-magnetic."
+    },
+    {
+     "question": "A coin sticks to a magnet but a gold ring does not. What can you conclude?",
+     "solution": "The coin must contain a magnetic metal such as iron or nickel. Gold is a non-magnetic metal, so the gold ring is not attracted.",
+     "answer": "The coin contains a magnetic metal; gold is non-magnetic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Sort the following into magnetic and non-magnetic: iron nail, plastic scale, cobalt coin, glass marble.",
+     "type": "classify"
+    },
+    {
+     "question": "Name two metals that are magnetic and two that are non-magnetic.",
+     "type": "list"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.3",
+   "title": "Poles of a Magnet",
+   "section": "4.3",
+   "definition": "Every magnet has two ends called poles -- a north pole and a south pole; like poles repel each other and unlike poles attract each other.",
+   "formula": "",
+   "key_idea": "A magnet always has two poles; if a magnet is cut into pieces, each piece still has both a north and a south pole.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how many poles does a magnet have",
+    "what happens when two north poles are brought together",
+    "name the two poles of a magnet",
+    "what happens when a magnet is cut into two pieces",
+    "explain the rule of attraction and repulsion between poles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the poles being brought together",
+     "explain": "note whether the two poles facing each other are both north, both south, or one north and one south."
+    },
+    {
+     "step": 2,
+     "action": "apply the pole rule",
+     "explain": "like poles (N-N or S-S) repel each other, while unlike poles (N-S) attract each other."
+    },
+    {
+     "step": 3,
+     "action": "verify the outcome",
+     "explain": "confirm that the observed push or pull matches the like-repels and unlike-attracts rule."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What happens when the north pole of one magnet is brought near the south pole of another?",
+     "solution": "The north pole and the south pole are unlike poles. Unlike poles attract each other, so the two magnets will pull together and stick.",
+     "answer": "Unlike poles attract, so the magnets stick together."
+    },
+    {
+     "question": "A bar magnet is cut into two equal pieces. How many poles does each piece have?",
+     "solution": "Even after cutting, each piece is still a complete magnet with two poles -- a north pole and a south pole. So each piece has two poles.",
+     "answer": "Each piece has two poles (one north and one south)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the rule for attraction and repulsion between the poles of two magnets.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Can a magnet have only one pole? Give a reason for your answer.",
+     "type": "true_false"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.4",
+   "title": "Finding Directions Using Magnets",
+   "section": "4.4",
+   "definition": "A freely suspended magnet always comes to rest pointing in the north-south direction, which is the principle used to find directions.",
+   "formula": "",
+   "key_idea": "Because a magnet aligns itself along the north-south line, it can be used to identify the four main directions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "in which direction does a freely suspended magnet come to rest",
+    "how can a magnet help us find directions",
+    "why does a suspended bar magnet point north-south",
+    "what happens if you disturb a freely suspended magnet",
+    "explain how to use a magnet to locate north and south"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "suspend the magnet freely",
+     "explain": "hang a bar magnet by a thread so it can rotate without obstruction."
+    },
+    {
+     "step": 2,
+     "action": "let it come to rest",
+     "explain": "wait until the magnet stops moving and settles in a fixed orientation."
+    },
+    {
+     "step": 3,
+     "action": "verify the north-south alignment",
+     "explain": "confirm that the magnet now points along the north-south line, allowing east and west to be found."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A bar magnet is suspended by a thread and allowed to rest. In which direction does it point?",
+     "solution": "A freely suspended magnet always comes to rest pointing in the north-south direction, with one end toward the geographic north and the other toward the south.",
+     "answer": "It points in the north-south direction."
+    },
+    {
+     "question": "Once you know north using a suspended magnet, how do you find east and west?",
+     "solution": "Stand facing the north end of the magnet. Your right hand then points east and your left hand points west, because east and west are perpendicular to the north-south line.",
+     "answer": "Facing north, the right side is east and the left side is west."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why can a freely suspended magnet be used to find directions?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the steps to set up a suspended magnet for finding directions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.5",
+   "title": "Earth as a Magnet",
+   "section": "4.5",
+   "definition": "The Earth itself behaves like a giant magnet with magnetic poles near the geographic poles, which is why a freely suspended magnet aligns along the north-south direction.",
+   "formula": "",
+   "key_idea": "The Earth's magnetic field exerts a force on a suspended magnet, causing its north-seeking end to point toward the geographic north.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how does the earth behave like a magnet",
+    "why does a compass needle point north",
+    "where are the earth's magnetic poles located",
+    "explain the connection between the earth and a suspended magnet",
+    "what causes a magnet to align in the north-south direction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall that the Earth acts as a magnet",
+     "explain": "understand that the Earth has a magnetic field with two poles near the geographic poles."
+    },
+    {
+     "step": 2,
+     "action": "explain the interaction",
+     "explain": "the Earth's magnetic field pulls the suspended magnet so that its north-seeking end points toward the geographic north."
+    },
+    {
+     "step": 3,
+     "action": "verify the alignment",
+     "explain": "confirm that this Earth-magnet interaction is the reason a compass or suspended magnet always settles in the north-south direction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a freely suspended magnet always come to rest in the north-south direction?",
+     "solution": "The Earth itself behaves like a huge magnet. Its magnetic field acts on the suspended magnet and forces it to align along the north-south line.",
+     "answer": "The Earth's magnetic field aligns the suspended magnet north-south."
+    },
+    {
+     "question": "Are the Earth's magnetic poles exactly at the geographic poles?",
+     "solution": "No. The Earth's magnetic north pole is near but not exactly at the geographic North Pole. This small difference is called magnetic declination.",
+     "answer": "No, the magnetic poles are near but not exactly at the geographic poles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Earth acts like a magnet.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What makes a compass needle settle along the north-south line?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.6",
+   "title": "Making a Magnet",
+   "section": "4.6",
+   "definition": "A magnet can be made by stroking a magnetic material like an iron needle repeatedly in one direction with a permanent magnet, or by passing an electric current through it.",
+   "formula": "",
+   "key_idea": "Stroking in a single direction with one pole of a magnet aligns the tiny magnetic regions inside the iron, turning it into a magnet.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how can you make a magnet from an iron needle",
+    "describe the stroking method of magnetisation",
+    "why must the needle be stroked in one direction only",
+    "what happens if you stroke a needle in both directions",
+    "name another method of making a magnet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "select a magnetic material",
+     "explain": "choose a piece of iron or steel, such as a needle or a blade, that can be magnetised."
+    },
+    {
+     "step": 2,
+     "action": "stroke in one direction",
+     "explain": "rub one pole of a permanent magnet along the needle from one end to the other, always in the same direction, several times."
+    },
+    {
+     "step": 3,
+     "action": "verify magnetisation",
+     "explain": "test the needle by bringing it near iron filings; if it attracts them, it has become a magnet."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe how to make a magnet using a bar magnet and an iron needle.",
+     "solution": "Place the iron needle on a table. Stroke it repeatedly with one pole of a bar magnet, moving in the same direction from one end to the other and lifting the magnet away each time. After several strokes, test the needle with iron filings.",
+     "answer": "Stroke the needle in one direction with one pole of a bar magnet; it then becomes a magnet."
+    },
+    {
+     "question": "Why should the stroking always be in one direction and not back and forth?",
+     "solution": "Stroking in one direction aligns the tiny magnetic regions inside the iron in the same direction. Back-and-forth stroking would disturb this alignment and the needle would not become a proper magnet.",
+     "answer": "One-direction stroking aligns the magnetic regions; back-and-forth does not."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the steps to magnetise an iron needle by the stroking method.",
+     "type": "list"
+    },
+    {
+     "question": "Why is it important to lift the magnet away before each new stroke?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.7",
+   "title": "Magnetic Compass",
+   "section": "4.7",
+   "definition": "A magnetic compass is a device with a small magnetic needle pivoted on a pivot so it can rotate freely; the needle always points along the north-south direction and is used to find directions.",
+   "formula": "",
+   "key_idea": "The compass needle is a small magnet that aligns with the Earth's magnetic field, making the compass a reliable direction-finding tool.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a magnetic compass",
+    "how does a compass help in finding directions",
+    "why does the compass needle point north",
+    "describe the parts of a magnetic compass",
+    "in which direction does the compass needle come to rest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the compass parts",
+     "explain": "note the magnetic needle, the pivot on which it rests and the marked dial showing directions."
+    },
+    {
+     "step": 2,
+     "action": "let the needle settle",
+     "explain": "hold the compass level and wait for the needle to stop moving."
+    },
+    {
+     "step": 3,
+     "action": "verify the north-south reading",
+     "explain": "confirm that the marked end of the needle points toward geographic north, allowing the other directions to be read from the dial."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a magnetic compass and how is it used?",
+     "solution": "A magnetic compass has a small magnetised needle pivoted at its centre so it can rotate freely. The needle always comes to rest pointing north-south, so travellers use it to find directions.",
+     "answer": "A compass is a pivoted magnetic needle that points north-south to find directions."
+    },
+    {
+     "question": "Why does the compass needle come to rest pointing north-south?",
+     "solution": "The compass needle is a small magnet. The Earth behaves like a magnet, so its magnetic field forces the needle to align along the north-south direction.",
+     "answer": "The Earth's magnetic field aligns the compass needle north-south."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the main parts of a magnetic compass.",
+     "type": "list"
+    },
+    {
+     "question": "Explain why a compass is useful for sailors and travellers.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.4.8",
+   "title": "Attraction and Repulsion Between Magnets",
+   "section": "4.8",
+   "definition": "Two magnets exert forces on each other: like poles (N-N or S-S) repel or push apart, while unlike poles (N-S) attract or pull together.",
+   "formula": "",
+   "key_idea": "The force between two magnets depends on which poles face each other; attraction pulls them together and repulsion pushes them apart.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what happens when two like poles are brought near each other",
+    "do unlike poles attract or repel",
+    "describe the force between two north poles",
+    "how can you show repulsion using two magnets",
+    "explain attraction and repulsion with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the facing poles",
+     "explain": "note which poles of the two magnets are pointing toward each other."
+    },
+    {
+     "step": 2,
+     "action": "apply the attraction-repulsion rule",
+     "explain": "like poles repel (push away) and unlike poles attract (pull together)."
+    },
+    {
+     "step": 3,
+     "action": "verify the observed force",
+     "explain": "confirm that the magnets either push apart or pull together exactly as the rule predicts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Two bar magnets are placed with their south poles facing each other. What will happen?",
+     "solution": "Both facing poles are south poles, which are like poles. Like poles repel each other, so the magnets will push apart.",
+     "answer": "Like south poles repel, so the magnets push apart."
+    },
+    {
+     "question": "One magnet's north pole faces another magnet's south pole. Describe the result.",
+     "solution": "The facing poles are unlike poles (north and south). Unlike poles attract each other, so the two magnets will pull together and stick.",
+     "answer": "Unlike poles attract, so the magnets pull together."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State whether the magnets attract or repel: N facing N, S facing N, S facing S.",
+     "type": "classify"
+    },
+    {
+     "question": "Describe an activity to demonstrate repulsion between two magnets.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu104.txt",
+   "concept": "c6cu.4.1",
+   "question_type": "short_answer",
+   "question_pattern": "Where is the attracting power of a bar magnet strongest and weakest?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The attracting power is strongest",
+     "explain": "The attracting power is strongest at the two ends, called the poles, and weakest at the middle of the bar magnet."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu104.txt",
+   "concept": "c6cu.4.1",
+   "question_type": "short_answer",
+   "question_pattern": "A magnet does not attract a wooden pencil but attracts an iron nail. What does this show?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A magnet attracts only magnetic",
+     "explain": "A magnet attracts only magnetic materials like iron, not non-magnetic materials like wood. This shows that magnets selectively attract certain materials."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

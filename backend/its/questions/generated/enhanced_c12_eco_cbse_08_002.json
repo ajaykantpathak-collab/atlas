@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_002",
+   "title": "c12_eco_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define consumption of fixed capital and net factor income from abroad. State the formula linking GDPmp to NNPfc using both.",
+     "a": "Consumption of fixed capital (depreciation) is the decline in value of fixed assets due to wear and tear, obsolescence, or accidental damage during production. Net factor income from abroad (NFIA) = factor income earned by residents from abroad – factor income paid to non-residents within the domestic territory. NNPfc = GDPmp – Consumption of Fixed Capital + NFIA – Net Indirect Taxes. A wrong answer reveals the student confuses depreciation with capital loss, or treats NFIA as exports minus imports (which is net exports, not factor income).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why NDPfc is called \"domestic factor income\" while NNPfc is called \"national income\". Use the concept of economic territory vs normal residents.",
+     "a": "NDPfc measures factor income generated within the domestic territory regardless of who owns the factors — it includes income earned by non-residents inside the territory but excludes income earned by residents abroad. NNPfc adds NFIA, capturing factor income of normal residents wherever earned. Thus NDPfc is domestic territory's factor income; NNPfc is normal residents' factor income = national income. A wrong answer shows the student thinks \"domestic\" means \"Indian-owned\" rather than \"within borders\".",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical economy: GDPmp = ₹8,500 crore, Consumption of Fixed Capital = ₹600 crore, NFIA = –₹150 crore, Net Indirect Taxes = ₹400 crore. Calculate NDPfc and NNPfc. Show all steps.",
+     "a": "Step 1: NDPmp = GDPmp – CFC = 8,500 – 600 = ₹7,900 crore.\nStep 2: NDPfc = NDPmp – Net Indirect Taxes = 7,900 – 400 = ₹7,500 crore.\nStep 3: NNPmp = NDPmp + NFIA = 7,900 + (–150) = ₹7,750 crore.\nStep 4: NNPfc = NNPmp – Net Indirect Taxes = 7,750 – 400 = ₹7,350 crore.\n(Alternatively: NNPfc = NDPfc + NFIA = 7,500 – 150 = ₹7,350 crore.) A wrong answer reveals sign errors on NFIA (adding instead of subtracting when negative) or forgetting to subtract net indirect taxes at both market-price stages.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has GNPmp = ₹12,000 crore, NNPfc = ₹10,200 crore, Net Indirect Taxes = ₹800 crore. Find Consumption of Fixed Capital and NFIA. Is the economy a net recipient or net payer of factor income from abroad?",
+     "a": "Step 1: NNPmp = NNPfc + Net Indirect Taxes = 10,200 + 800 = ₹11,000 crore.\nStep 2: NFIA = NNPmp – GNPmp? Wait — GNPmp is Gross National Product at mp. NNPmp = GNPmp – CFC. So CFC = GNPmp – NNPmp = 12,000 – 11,000 = ₹1,000 crore.\nStep 3: Need GDPmp to find NFIA. But we have GNPmp = GDPmp + NFIA ⇒ NFIA = GNPmp – GDPmp. We don't have GDPmp directly. However, NDPmp = GDPmp – CFC. And NNPmp = NDPmp + NFIA = (GDPmp – CFC) + NFIA = GNPmp – CFC (consistent). Without GDPmp, NFIA cannot be uniquely determined from given data alone — the problem is underdetermined. This tests whether the student recognizes missing data. A wrong answer assumes NFIA = 0 or invents a value.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If a country's NFIA is negative, its GNPmp will always be less than its GDPmp.\" Is this always true? Justify with the algebraic relationship.",
+     "a": "True. GNPmp = GDPmp + NFIA. If NFIA < 0, then GNPmp = GDPmp + (negative number) < GDPmp. This holds by definition, regardless of the magnitude of depreciation or net indirect taxes. A wrong answer might confuse GNP with NNP or bring in depreciation, showing the student does not see the direct Domestic→National link.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where GDPmp > GNPmp but NDPfc < NNPfc. Explain how this is possible.",
+     "a": "Impossible. GDPmp > GNPmp ⇔ NFIA < 0. NDPfc = GDPmp – CFC – NIT. NNPfc = GNPmp – CFC – NIT = GDPmp + NFIA – CFC – NIT. Since NFIA < 0, NNPfc = NDPfc + NFIA < NDPfc. So NDPfc < NNPfc cannot happen when NFIA < 0. The student who produces an \"example\" has made a sign error or arithmetic mistake. A correct answer proves the contradiction algebraically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

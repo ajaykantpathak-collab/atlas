@@ -1,0 +1,574 @@
+{
+ "class": "12",
+ "subject": "chemistry",
+ "chapter": 6,
+ "chapter_title": "General Principles and Processes of Isolation of Elements",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lehe207.txt",
+ "concepts": [
+  {
+   "id": "jech.6.1",
+   "title": "Occurrence of Metals: Minerals and Ores",
+   "section": "Occurrence of Metals",
+   "definition": "Minerals are the naturally occurring chemical substances in the earth's crust obtainable by mining. Ores are those minerals from which a metal can be extracted profitably and conveniently. Gangue refers to the impurities such as soil, sand and rocky materials present in ores.",
+   "formula": "",
+   "key_idea": "All ores are minerals, but not all minerals are ores. An ore must be economically viable for metal extraction. Metals occur in combined states (as oxides, sulfides, carbonates, halides, silicates) because they are reactive; only noble metals like gold and platinum occur in free/native state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between minerals and ores with examples.",
+    "Why do metals generally occur in combined states in nature?",
+    "What is gangue and why must it be removed before extraction?",
+    "Name two metals that occur in the native/free state and explain why.",
+    "Classify the given mineral as an ore or not, with justification."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given substance as a mineral (naturally occurring) or not.",
+     "explain": "A mineral must be a naturally occurring inorganic substance from the earth's crust."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the metal can be extracted profitably and conveniently from the mineral.",
+     "explain": "If extraction is economically viable, the mineral qualifies as an ore."
+    },
+    {
+     "step": 3,
+     "action": "Classify the substance and identify the gangue if impurities are present.",
+     "explain": "State the final classification: mineral/ore, and note any associated gangue material."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Bauxite (Al2O3·2H2O) is a mineral of aluminium. Is it an ore? Justify.",
+     "solution": "Bauxite is a naturally occurring mineral of aluminium. Aluminium can be extracted profitably and conveniently from bauxite by electrolytic reduction of alumina. Therefore, bauxite is both a mineral and an ore of aluminium.",
+     "answer": "Yes, bauxite is an ore of aluminium because metal extraction from it is economically viable."
+    },
+    {
+     "question": "Clay (aluminosilicate) also contains aluminium. Why is it not considered an ore of aluminium?",
+     "solution": "Although clay contains aluminium, the extraction of aluminium from clay is not economically viable or convenient. Hence clay is a mineral but not an ore of aluminium.",
+     "answer": "Clay is not an ore because aluminium extraction from it is not profitable."
+    },
+    {
+     "question": "Name two metals that occur in the native state in nature.",
+     "solution": "Gold and platinum are noble metals with low reactivity, so they do not readily form compounds and occur in the free/native state.",
+     "answer": "Gold and platinum occur in the native state."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between minerals and ores. Give one example of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are noble metals like gold found in the native state?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define gangue. Why is its removal necessary before metal extraction?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.2",
+   "title": "Types of Ores: Oxide, Sulfide, Carbonate and Halide Ores",
+   "section": "Occurrence of Metals",
+   "definition": "Ores are classified based on the anion present: oxide ores (e.g., bauxite Al2O3·2H2O, haematite Fe2O3), sulfide ores (e.g., zinc blende ZnS, galena PbS), carbonate ores (e.g., calcite CaCO3, magnesite MgCO3), and halide ores (e.g., rock salt NaCl, fluorspar CaF2).",
+   "formula": "",
+   "key_idea": "The type of ore (oxide/sulfide/carbonate/halide) determines the pre-treatment (roasting vs calcination) and the reduction method used for extraction. Oxide ores are easiest to reduce; sulfide and carbonate ores are first converted to oxides by roasting/calcination.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify the given ore as oxide, sulfide, carbonate or halide type.",
+    "Give one example each of oxide, sulfide, carbonate and halide ore.",
+    "Why are sulfide and carbonate ores converted to oxides before reduction?",
+    "Identify the metal extracted from a given ore formula.",
+    "Match the ore with its chemical formula and type."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the chemical formula of the ore to identify the anion.",
+     "explain": "O2- indicates oxide, S2- indicates sulfide, CO3^2- indicates carbonate, and F-/Cl- indicates halide ore."
+    },
+    {
+     "step": 2,
+     "action": "Classify the ore into the appropriate category.",
+     "explain": "Use the anion to assign the ore type: oxide, sulfide, carbonate, or halide."
+    },
+    {
+     "step": 3,
+     "action": "State the metal extracted and the required pre-treatment.",
+     "explain": "Identify the metal and note whether roasting (sulfide) or calcination (carbonate) is needed before reduction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the following ores: ZnS, Fe2O3, CaCO3, CaF2.",
+     "solution": "ZnS contains sulfide ion (S2-), so it is a sulfide ore. Fe2O3 contains oxide ion (O2-), so it is an oxide ore. CaCO3 contains carbonate ion (CO3^2-), so it is a carbonate ore. CaF2 contains fluoride ion (F-), so it is a halide ore.",
+     "answer": "ZnS - sulfide ore; Fe2O3 - oxide ore; CaCO3 - carbonate ore; CaF2 - halide ore."
+    },
+    {
+     "question": "Why is zinc blende (ZnS) roasted before reduction?",
+     "solution": "ZnS is a sulfide ore. Direct reduction of sulfides is difficult. Roasting converts ZnS to ZnO, an oxide ore which can be reduced with carbon to obtain zinc metal.",
+     "answer": "Roasting converts ZnS to ZnO so that carbon reduction can be applied."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example each of an oxide ore and a sulfide ore with their formulas.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are carbonate ores subjected to calcination before extraction?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the ore galena (PbS) and state the metal obtained from it.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.3",
+   "title": "Concentration of Ores: Crushing, Grinding and Gravity Separation",
+   "section": "Concentration of Ores",
+   "definition": "Concentration (or dressing) of ore is the removal of gangue from the powdered ore. The ore is first crushed and ground to fine powder. In gravity separation (hydraulic washing), the powdered ore is washed with a stream of water; heavier ore particles settle while lighter gangue is washed away.",
+   "formula": "",
+   "key_idea": "Gravity separation works on the principle of difference in densities between ore and gangue. It is suitable for heavy oxide ores like haematite (Fe2O3) and cassiterite (SnO2). Crushing increases surface area for subsequent chemical processing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the principle of gravity separation (hydraulic washing) of ores.",
+    "Which type of ore is best suited for gravity separation and why?",
+    "Describe the steps of crushing and grinding in ore concentration.",
+    "Why is gravity separation not suitable for sulfide ores?",
+    "State the role of water in hydraulic washing of ores."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Crush and grind the ore to a fine powder to liberate ore particles from gangue.",
+     "explain": "Fine grinding ensures ore and gangue particles are separated for effective concentration."
+    },
+    {
+     "step": 2,
+     "action": "Wash the powdered ore with a stream of water on an inclined table.",
+     "explain": "Heavier ore particles settle down while lighter gangue particles are washed away by water."
+    },
+    {
+     "step": 3,
+     "action": "Collect the concentrated ore and verify gangue removal.",
+     "explain": "The concentrated (dressed) ore is collected; it has a higher percentage of metal content than the original ore."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is gravity separation suitable for haematite ore but not for zinc blende?",
+     "solution": "Haematite (Fe2O3) is a heavy oxide ore with density much higher than the gangue, so it settles while gangue washes away. Zinc blende (ZnS) is a sulfide ore whose density is not sufficiently different from gangue, making gravity separation ineffective.",
+     "answer": "Gravity separation suits heavy oxide ores like haematite due to large density difference; sulfide ores like ZnS lack this density contrast."
+    },
+    {
+     "question": "What is the purpose of crushing and grinding the ore before concentration?",
+     "solution": "Crushing and grinding increase the surface area and liberate the ore mineral from the surrounding gangue, enabling effective separation by physical or chemical methods.",
+     "answer": "To liberate ore particles from gangue and increase surface area for concentration."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the principle on which gravity separation of ores is based.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two ores that can be concentrated by hydraulic washing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why must the ore be powdered before concentration?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.4",
+   "title": "Concentration of Ores: Magnetic Separation and Froth Flotation",
+   "section": "Concentration of Ores",
+   "definition": "Magnetic separation uses the difference in magnetic properties of ore and gangue; a magnetic separator attracts magnetic ore (e.g., magnetite Fe3O4) away from non-magnetic gangue. Froth flotation is used for sulfide ores: powdered ore is suspended in water with pine oil (frother) and collectors (e.g., xanthates); sulfide particles attach to air bubbles and rise as froth, leaving gangue behind.",
+   "formula": "",
+   "key_idea": "Magnetic separation exploits magnetic susceptibility differences (magnetite is ferromagnetic). Froth flotation exploits differential wetting: sulfide particles are hydrophobic (wetted by oil/collector) and attach to bubbles, while gangue is hydrophilic (wetted by water) and sinks. Depressants (e.g., NaCN) prevent unwanted sulfides from floating.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the principle of magnetic separation with an example.",
+    "Describe the froth flotation process for concentrating sulfide ores.",
+    "What is the role of collectors and froth stabilizers in froth flotation?",
+    "Why is froth flotation used for sulfide ores and not oxide ores?",
+    "Explain the role of a depressant with an example (e.g., NaCN in PbS-ZnS mixture)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the type of ore and the relevant physical property (magnetic or wetting).",
+     "explain": "Magnetic ores use magnetic separation; sulfide ores use froth flotation based on wetting properties."
+    },
+    {
+     "step": 2,
+     "action": "Apply the appropriate method: magnetic separator or flotation cell with collector and frother.",
+     "explain": "In flotation, collectors (xanthates) make sulfide particles hydrophobic and frothers (pine oil) stabilize the froth."
+    },
+    {
+     "step": 3,
+     "action": "Collect the concentrated ore (magnetic fraction or froth) and discard gangue.",
+     "explain": "The ore-rich fraction is collected; depressants may be added to selectively prevent certain sulfides from floating."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is froth flotation used to concentrate a mixture of galena (PbS) and zinc blende (ZnS)?",
+     "solution": "The powdered ore is suspended in water with pine oil and potassium ethyl xanthate (collector). NaCN acts as a depressant for ZnS, preventing it from floating. PbS particles become hydrophobic, attach to air bubbles and rise as froth, which is skimmed off. ZnS remains in the tank and is concentrated separately later.",
+     "answer": "NaCN depresses ZnS; PbS floats with the froth and is collected, separating the two sulfides."
+    },
+    {
+     "question": "Why is magnetic separation effective for magnetite (Fe3O4) but not for haematite (Fe2O3)?",
+     "solution": "Magnetite (Fe3O4) is ferromagnetic and strongly attracted to a magnet, so it can be separated from non-magnetic gangue. Haematite (Fe2O3) is weakly magnetic (paramagnetic), so magnetic separation is less effective; gravity separation is preferred for haematite.",
+     "answer": "Magnetite is ferromagnetic; haematite is only weakly magnetic, so magnetic separation suits magnetite."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the roles of collector and froth stabilizer in froth flotation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why froth flotation is preferred for sulfide ores.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how magnetic separation is carried out for an ore containing magnetite.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.5",
+   "title": "Extraction of Crude Metal: Roasting and Calcination",
+   "section": "Extraction of Crude Metal from Concentrated Ore",
+   "definition": "Roasting is the process of heating concentrated sulfide ore strongly in excess air below its melting point, converting it to oxide and releasing SO2 (e.g., 2ZnS + 3O2 -> 2ZnO + 2SO2). Calcination is the heating of concentrated ore (carbonate or oxide) in a limited supply of air below its melting point, driving off volatile matter and moisture and decomposing carbonates to oxides (e.g., ZnCO3 -> ZnO + CO2).",
+   "formula": "Roasting: 2ZnS + 3O2 -> 2ZnO + 2SO2; Calcination: ZnCO3 -> ZnO + CO2",
+   "key_idea": "Roasting is used for sulfide ores (oxidation in excess air, SO2 released). Calcination is used for carbonate/hydrated oxide ores (thermal decomposition, limited air, CO2/H2O released). Both convert the ore to an oxide form suitable for reduction. Smelting then reduces the oxide to crude metal using a reducing agent (carbon/coke) and flux at high temperature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between roasting and calcination with one example each.",
+    "Write the chemical equation for roasting of zinc blende.",
+    "Write the equation for calcination of limestone (CaCO3).",
+    "Why is roasting carried out in excess air while calcination uses limited air?",
+    "Explain the role of smelting in extraction of crude metal."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ore type (sulfide vs carbonate/hydrated oxide) to choose roasting or calcination.",
+     "explain": "Sulfide ores require roasting (oxidation); carbonate/hydrated ores require calcination (decomposition)."
+    },
+    {
+     "step": 2,
+     "action": "Write the balanced chemical equation for the conversion to oxide.",
+     "explain": "Roasting: sulfide + O2 -> oxide + SO2; Calcination: carbonate -> oxide + CO2."
+    },
+    {
+     "step": 3,
+     "action": "State the product oxide and the gaseous by-product released.",
+     "explain": "The resulting metal oxide is then reduced by smelting to obtain crude metal; SO2/CO2 are released as gases."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the reactions for roasting of galena (PbS) and calcination of calamine (ZnCO3).",
+     "solution": "Roasting of PbS: 2PbS + 3O2 -> 2PbO + 2SO2. Calcination of ZnCO3: ZnCO3 -> ZnO + CO2. In roasting, sulfide is oxidized to oxide in excess air releasing SO2. In calcination, the carbonate decomposes to oxide releasing CO2 in limited air.",
+     "answer": "2PbS + 3O2 -> 2PbO + 2SO2; ZnCO3 -> ZnO + CO2"
+    },
+    {
+     "question": "Why is roasting done in excess air and calcination in limited/absence of air?",
+     "solution": "Roasting requires excess air (oxygen) to oxidize sulfides to oxides. Calcination is thermal decomposition where limited air prevents oxidation; only volatile impurities, CO2 and moisture are expelled.",
+     "answer": "Roasting needs O2 for oxidation; calcination decomposes without oxidation, so limited air is used."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between roasting and calcination.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write the equation for the roasting of copper pyrites (CuFeS2).",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is smelting? State the role of flux in smelting.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.6",
+   "title": "Thermodynamic Principles of Metallurgy: Ellingham Diagram",
+   "section": "Thermodynamic Principles of Metallurgy",
+   "definition": "The Ellingham diagram plots the variation of Gibbs free energy change (deltaG) with temperature for the formation of oxides (M + O2 -> MO2). It helps predict the feasibility of reducing a metal oxide by a given reducing agent. A reducing agent can reduce an oxide whose formation line lies above it; the line lower in the diagram represents a more stable oxide.",
+   "formula": "deltaG = deltaH - T*deltaS; Ellingham plot: deltaG vs T for M + O2 -> MO2",
+   "key_idea": "The Ellingham diagram shows that carbon (coke) can reduce most metal oxides at sufficiently high temperatures because the C->CO line has a negative slope (entropy increases). Carbon is a better reducing agent than CO at high T. Aluminium (Al2O3 line) can reduce many oxides (thermite process) since Al2O3 is very stable. The diagram predicts the temperature at which reduction becomes feasible (deltaG < 0).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an Ellingham diagram and what is its significance in metallurgy?",
+    "Using the Ellingham diagram, explain why carbon can reduce ZnO but not MgO at moderate temperatures.",
+    "Why does the C->CO line slope downward in the Ellingham diagram?",
+    "Explain the thermite process using the Ellingham diagram.",
+    "Predict whether a given reducing agent can reduce a given metal oxide at a stated temperature."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the formation lines of the metal oxide and the reducing agent oxide on the Ellingham diagram.",
+     "explain": "Each line represents deltaG = deltaH - T*deltaS for the reaction M + O2 -> MO2; lower line means more stable oxide."
+    },
+    {
+     "step": 2,
+     "action": "Compare the positions of the two lines at the given temperature.",
+     "explain": "If the reducing agent oxide line is lower (more negative deltaG) than the metal oxide line at that temperature, reduction is feasible (deltaG < 0)."
+    },
+    {
+     "step": 3,
+     "action": "Compute the net deltaG for the reduction reaction and conclude feasibility.",
+     "compute": "delta_g_net = delta_g_reducing_oxide - delta_g_metal_oxide",
+     "explain": "A negative net deltaG indicates the reducing agent can reduce the metal oxide at that temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using the Ellingham diagram, determine whether carbon can reduce ZnO at 1200 K. (Given: at 1200 K, deltaG for Zn+O2->ZnO is about -480 kJ/mol and for 2C+O2->2CO is about -400 kJ/mol per mole O2.)",
+     "solution": "At 1200 K, the C->CO line is below the Zn->ZnO line in the Ellingham diagram (the C->CO line has a negative slope and crosses below ZnO line above ~950 K). Therefore, carbon can reduce ZnO at 1200 K. The reaction ZnO + C -> Zn + CO has deltaG < 0.",
+     "answer": "Yes, carbon reduces ZnO at 1200 K (deltaG < 0)."
+    },
+    {
+     "question": "Why can aluminium reduce iron oxide in the thermite process?",
+     "solution": "In the Ellingham diagram, the Al->Al2O3 line lies below the Fe->Fe2O3 line at all relevant temperatures, meaning Al2O3 is more stable (more negative deltaG). Hence Al can reduce Fe2O3: 2Al + Fe2O3 -> 2Fe + Al2O3 (deltaG < 0, highly exothermic).",
+     "answer": "Al2O3 is more stable than Fe2O3, so Al reduces Fe2O3 exothermically (thermite process)."
+    },
+    {
+     "question": "Explain why the C->CO line has a negative slope in the Ellingham diagram.",
+     "solution": "For C + O2 -> CO2 (or 2C + O2 -> 2CO), the number of gaseous moles increases (1 mole O2 -> 2 moles CO), so deltaS is positive. Since deltaG = deltaH - T*deltaS, with positive deltaS, deltaG becomes more negative as T increases, giving a downward (negative) slope.",
+     "answer": "Positive deltaS (more gas moles) makes deltaG more negative with temperature, giving a negative slope."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What information does an Ellingham diagram provide?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is carbon a good reducing agent at high temperatures?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Using the Ellingham diagram, explain why MgO cannot be reduced by carbon below 2000 K.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.7",
+   "title": "Electrochemical Principles of Metallurgy",
+   "section": "Electrochemical Principles of Metallurgy",
+   "definition": "Electrochemical principles are used to extract highly reactive metals (like Na, K, Mg, Al) by electrolytic reduction of their molten salts/oxides, since chemical reduction is not feasible. The electrode potential (E) determines the ease of reduction; metals with more negative E require electrolytic reduction. For example, aluminium is extracted by electrolysis of alumina dissolved in molten cryolite (Na3AlF6).",
+   "formula": "deltaG = -nFE; Electrolysis: M(n+) + ne- -> M (at cathode)",
+   "key_idea": "The feasibility of reducing a metal ion is governed by its electrode potential. Highly reactive metals (more negative E) cannot be reduced by common chemical reducing agents and need electrolysis. In electrolytic reduction, the metal ion is reduced at the cathode. Cryolite lowers the melting point of alumina and increases conductivity in aluminium extraction (Hall-Heroult process).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are highly reactive metals extracted by electrolytic reduction?",
+    "Describe the Hall-Heroult process for extraction of aluminium.",
+    "What is the role of cryolite in the electrolytic reduction of alumina?",
+    "Relate electrode potential to the ease of reduction of metal ions.",
+    "Write the cathode and anode reactions in the electrolysis of molten NaCl."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the metal and its electrode potential (E) to determine the reduction method.",
+     "explain": "More negative E means the metal is more reactive and harder to reduce chemically; electrolysis is needed."
+    },
+    {
+     "step": 2,
+     "action": "Set up the electrolytic cell with molten salt/oxide and write the half-reactions.",
+     "explain": "At cathode: M(n+) + ne- -> M (reduction); at anode: oxidation of anion (e.g., O2- -> O2 + 4e-)."
+    },
+    {
+     "step": 3,
+     "action": "Compute the Gibbs free energy for reduction using deltaG = -nFE and confirm feasibility.",
+     "compute": "delta_g = -n * f * e_cell",
+     "explain": "The applied EMF drives the non-spontaneous reduction; the magnitude depends on the metal's E value."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the reactions at cathode and anode during the electrolytic reduction of alumina in the Hall-Heroult process.",
+     "solution": "Alumina (Al2O3) is electrolysed in molten cryolite. Cathode: Al3+ + 3e- -> Al (reduction). Anode: 2O2- -> O2 + 4e- (oxidation). The oxygen liberated reacts with the carbon anode to form CO/CO2, so anodes need periodic replacement.",
+     "answer": "Cathode: Al3+ + 3e- -> Al; Anode: 2O2- -> O2 + 4e-."
+    },
+    {
+     "question": "Why is sodium extracted by electrolysis of molten NaCl and not by carbon reduction?",
+     "solution": "Sodium has a very negative electrode potential (E = -2.71 V), making it highly reactive. Carbon cannot reduce Na+ because the Na->Na2O line lies below the C->CO line in the Ellingham diagram at all practical temperatures. Hence electrolysis of molten NaCl is used: Na+ + e- -> Na at cathode.",
+     "answer": "Na is too reactive (E = -2.71 V) for carbon reduction; electrolysis of molten NaCl is required."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of cryolite in aluminium extraction.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are reactive metals like Mg and Na extracted by electrolytic methods?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write the electrode reactions for electrolysis of molten MgCl2.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.8",
+   "title": "Reduction Methods: Carbon Reduction, Hydrogen Reduction and Electrolytic Reduction",
+   "section": "Extraction of Crude Metal",
+   "definition": "Reduction converts the metal oxide to metal. Carbon reduction uses coke (C/CO) as reducing agent for less reactive metal oxides (e.g., ZnO + C -> Zn + CO). Hydrogen reduction is used for oxides of less reactive metals where carbon would form carbides (e.g., MoO3 + 3H2 -> Mo + 3H2O). Electrolytic reduction is used for highly reactive metals (Na, Al, Mg) by electrolysis of molten salts.",
+   "formula": "Carbon: MO + C -> M + CO; Hydrogen: MO + H2 -> M + H2O; Electrolytic: M(n+) + ne- -> M",
+   "key_idea": "The choice of reducing agent depends on the metal's reactivity (Ellingham diagram/electrode potential). Carbon is cheap and effective for moderately reactive metals (Fe, Zn, Cu). Hydrogen is used when carbon forms carbides with the metal (e.g., tungsten, molybdenum). Electrolytic reduction is reserved for the most reactive metals. Metal displacement reactions also reduce oxides (thermite process with Al).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is carbon the most commonly used reducing agent in metallurgy?",
+    "When is hydrogen preferred over carbon as a reducing agent? Give an example.",
+    "Explain electrolytic reduction with an example.",
+    "Describe the thermite (displacement) reduction process.",
+    "Write the balanced equation for carbon reduction of ZnO and Fe2O3."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the reactivity of the metal from the Ellingham diagram or electrochemical series.",
+     "explain": "Less reactive metals use carbon/hydrogen reduction; highly reactive metals need electrolytic reduction."
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate reducing agent and write the balanced reduction equation.",
+     "explain": "Carbon: MO + C -> M + CO; Hydrogen: MO + H2 -> M + H2O; Electrolytic: M(n+) + ne- -> M at cathode."
+    },
+    {
+     "step": 3,
+     "action": "Verify feasibility by checking deltaG < 0 (Ellingham) or applying sufficient EMF (electrolytic).",
+     "explain": "Ensure the chosen method is thermodynamically feasible at the operating temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the reactions for extraction of iron from haematite using carbon (coke) in a blast furnace.",
+     "solution": "In the blast furnace, coke acts as reducing agent. Fe2O3 + 3C -> 2Fe + 3CO; also Fe2O3 + 3CO -> 2Fe + 3CO2. Limestone (CaCO3) acts as flux to remove gangue as slag (CaSiO3).",
+     "answer": "Fe2O3 + 3C -> 2Fe + 3CO (and Fe2O3 + 3CO -> 2Fe + 3CO2)."
+    },
+    {
+     "question": "Why is hydrogen used to reduce molybdenum oxide (MoO3) instead of carbon?",
+     "solution": "Carbon reduction of MoO3 would form molybdenum carbide (Mo2C) contaminating the metal. Hydrogen reduces MoO3 cleanly: MoO3 + 3H2 -> Mo + 3H2O, giving pure metal without carbide formation.",
+     "answer": "Carbon forms carbides with Mo; hydrogen gives pure Mo: MoO3 + 3H2 -> Mo + 3H2O."
+    },
+    {
+     "question": "Explain the thermite process as a displacement reduction.",
+     "solution": "In the thermite process, aluminium powder reduces a metal oxide (e.g., Fe2O3) because Al2O3 is more stable. 2Al + Fe2O3 -> 2Fe + Al2O3 (highly exothermic). The large heat melts the iron, used for welding railway tracks.",
+     "answer": "2Al + Fe2O3 -> 2Fe + Al2O3; Al displaces Fe from its oxide (thermite welding)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is carbon the most widely used reducing agent?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write the equation for hydrogen reduction of CuO.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one application of the thermite process.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jech.6.9",
+   "title": "Refining of Crude Metal: Distillation, Liquation, Electrolytic and Zone Refining",
+   "section": "Refining",
+   "definition": "Refining removes impurities from crude metal to obtain pure metal. Distillation is used for low-boiling metals (Zn, Hg) where the metal vaporises leaving impurities. Liquation is used for metals with low melting point (Sn) where the metal melts and flows away from refractory impurities. Electrolytic refining uses anode (impure metal) and cathode (pure metal) in an electrolyte; impurities either dissolve or settle as anode mud. Zone refining produces ultra-pure metals (semiconductors) by moving a molten zone along a rod; impurities concentrate in the molten zone and move to one end.",
+   "formula": "",
+   "key_idea": "The refining method depends on the difference in physical properties (boiling point, melting point) or electrochemical behaviour between the metal and impurities. Electrolytic refining also recovers noble metal impurities as anode mud (e.g., Ag, Au from copper refining). Zone refining relies on the principle that impurities are more soluble in the melt than in the solid (segregation coefficient).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain distillation as a refining method with an example.",
+    "Describe electrolytic refining of copper and the formation of anode mud.",
+    "What is zone refining and where is it used?",
+    "Explain liquation refining with an example.",
+    "Why is anode mud valuable in electrolytic refining of copper?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the metal and the property difference (boiling point, melting point, or electrode potential) between metal and impurities.",
+     "explain": "Low boiling point -> distillation; low melting point -> liquation; conductive metal -> electrolytic; ultra-pure need -> zone refining."
+    },
+    {
+     "step": 2,
+     "action": "Apply the appropriate refining process.",
+     "explain": "Distillation: vaporise metal; Liquation: melt metal; Electrolytic: deposit pure metal at cathode; Zone: move molten zone to sweep impurities."
+    },
+    {
+     "step": 3,
+     "action": "Collect the refined metal and recover by-products (e.g., anode mud).",
+     "explain": "Pure metal is obtained; in electrolytic refining, noble metal impurities settle as anode mud which is processed for precious metals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe electrolytic refining of impure copper.",
+     "solution": "Impure copper is the anode; a thin sheet of pure copper is the cathode; acidified CuSO4 is the electrolyte. On passing current, Cu from anode dissolves (Cu -> Cu2+ + 2e-) and pure Cu deposits at cathode (Cu2+ + 2e- -> Cu). Less reactive impurities (Ag, Au, Pt) do not dissolve and settle as anode mud; more reactive impurities (Zn, Fe, Ni) dissolve into solution.",
+     "answer": "Cu dissolves at anode and deposits as pure Cu at cathode; noble metals form anode mud."
+    },
+    {
+     "question": "Explain zone refining and state its use.",
+     "solution": "A circular heater moves along a rod of impure metal, creating a narrow molten zone. As the zone moves, impurities (which are more soluble in the liquid) concentrate in the melt and are swept to one end. The end with impurities is cut off. This gives ultra-pure metals like Si, Ge used in semiconductors.",
+     "answer": "Zone refining gives ultra-pure Si, Ge for semiconductors by sweeping impurities to one end."
+    },
+    {
+     "question": "Why is distillation suitable for refining zinc?",
+     "solution": "Zinc has a low boiling point (1180 K). On heating, zinc vaporises while impurities (with higher boiling points) remain. The zinc vapour is condensed to obtain pure zinc metal.",
+     "answer": "Zinc's low boiling point lets it vaporise, leaving impurities behind; vapour is condensed to pure Zn."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain liquation refining with an example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is anode mud and why is it valuable?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the principle of zone refining.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

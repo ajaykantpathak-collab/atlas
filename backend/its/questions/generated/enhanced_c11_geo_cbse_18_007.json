@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_007",
+   "title": "c11_geo_cbse_18_007",
+   "questions": [
+    {
+     "q": "What were the three core technological components of the Green Revolution package introduced in India during the mid-1960s?",
+     "a": "The three core components were: (1) High-Yielding Variety (HYV) seeds of wheat and rice (e.g., Kalyan Sona, IR-8), (2) assured irrigation (especially groundwater via tubewells), and (3) chemical fertilizers (nitrogenous fertilizers like urea). A wrong answer (e.g., mentioning only \"better seeds\" or \"tractors\") reveals that the student views the Green Revolution as a single innovation rather than a synergistic input package where each component amplifies the others — without irrigation, HYV seeds cannot express their yield potential; without fertilizers, the high nutrient demand of HYVs cannot be met.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Green Revolution initially succeed spectacularly in Punjab, Haryana, and Western Uttar Pradesh but bypassed eastern India (e.g., Bihar, Eastern UP, West Bengal) despite similar agro-climatic potential for rice?",
+     "a": "The northwestern region had a unique combination of preconditions: (a) reliable groundwater aquifers (alluvial plains) enabling tubewell irrigation, (b) existing canal infrastructure (Bhakra-Nangal), (c) large landholdings allowing mechanization and risk-taking, (d) proximity to Delhi's market and procurement centers, and (e) state government support (subsidized electricity, credit). Eastern India lacked assured irrigation (dependence on erratic monsoon), had fragmented landholdings, poor credit access, and weak procurement infrastructure. A wrong answer focusing only on \"soil fertility\" or \"rainfall\" misses the critical role of institutional and infrastructural factors — the Green Revolution was not just biological but socio-technical.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the percentage increase in wheat yield for Punjab between 1960-61 and 1990-91, and explain why this increase was not replicated in Madhya Pradesh during the same period.\n\n| State | Wheat Yield 1960-61 (kg/ha) | Wheat Yield 1990-91 (kg/ha) |\n|-------|----------------------------|----------------------------|\n| Punjab | 1,200 | 3,800 |\n| Madhya Pradesh | 650 | 1,400 |",
+     "a": "**Calculation:**  \nPunjab: ((3800 - 1200) / 1200) × 100 = 216.7% increase.  \nMadhya Pradesh: ((1400 - 650) / 650) × 100 = 115.4% increase.  \n\n**Explanation:** Punjab's yield tripled because it adopted the full package: HYV wheat (Kalyan Sona, later HD varieties), extensive tubewell irrigation (groundwater development >80%), high fertilizer use (>150 kg/ha NPK), and mechanization. Madhya Pradesh, despite having large wheat area, had limited irrigation coverage (<30% in 1990), low fertilizer use, and predominantly rainfed cultivation — HYV seeds alone cannot raise yields without water and nutrients. A wrong answer that only computes percentages without linking to input access shows inability to connect quantitative data to geographical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the Green Revolution on groundwater resources in Punjab versus the impact of traditional tank irrigation in Tamil Nadu. What does this comparison reveal about the sustainability of different agricultural water management systems?",
+     "a": "In Punjab, Green Revolution relied on deep tubewells extracting groundwater at rates far exceeding natural recharge (over 1.5 m/year decline in water table by 1990s), leading to aquifer depletion, energy crisis (free electricity for pumps), and soil salinity in some canal-irrigated areas. In contrast, Tamil Nadu's traditional tank system (erys) harvested surface runoff, recharged groundwater locally, and was managed communally — though many tanks have silted up due to neglect. The comparison reveals that the Green Revolution's \"conquer nature\" approach (extractive, centralized, energy-intensive) is ecologically unsustainable compared to decentralized, community-based systems that work with local hydrology. A wrong answer that praises tubewells as \"modern\" without acknowledging the water table crisis shows a techno-optimist bias ignoring carrying capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Green Revolution solved India's food problem but created a new set of environmental and equity problems.\" Provide three specific pieces of evidence for each side.",
+     "a": "**Evidence for \"solved food problem\":** (1) Food grain production rose from 82 MT (1960-61) to 218 MT (2000-01); (2) India achieved self-sufficiency, ending PL-480 dependence; (3) Per capita availability increased from ~400g/day to ~470g/day despite population doubling.  \n**Evidence for \"new problems\":** (1) Environmental: groundwater depletion (Punjab water table down 10-30m), soil salinity/alkalinity (2.5 M ha), pesticide residues in food chain, loss of agro-biodiversity (traditional varieties displaced); (2) Equity: benefits concentrated on large farmers (>10 ha) who could afford inputs; small/marginal farmers indebted; tenant farmers evicted as land values rose; (3) Regional: widened gap between northwestern and eastern India, creating \"two Indias\" in agriculture. A weak evaluation lists only production gains or only problems, failing to weigh both dimensions — a board exam answer must present a balanced critique with data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable agricultural policy for a district in eastern Uttar Pradesh (e.g., Gorakhpur) that learns from the Green Revolution's failures. Your plan must address: (a) crop choice, (b) water management, (c) soil health, and (d) smallholder inclusion. Justify each element geographically.",
+     "a": "**Good answer criteria:**  \n(a) Crop choice: Promote stress-tolerant rice (Swarna-Sub1 for flood-prone areas), pulses (arhar, moong), and millets — suited to rainfed, low-input conditions, unlike water-guzzling HYV wheat.  \n(b) Water management: Revive traditional ahar-pyne tanks + promote low-cost drip/sprinkler for vegetables; avoid deep tubewells (low groundwater potential).  \n(c) Soil health: Integrate green manuring (dhaincha), vermicompost, and crop rotation (rice-pulse) to rebuild organic carbon — unlike Punjab's fertilizer-only approach.  \n(d) Smallholder inclusion: Group-based custom hiring centers for machinery, FPOs for collective marketing, direct procurement at MSP for pulses/millets — unlike Punjab where large farmers captured subsidies.  \n**Justification:** Eastern UP has high rainfall, shallow groundwater, small holdings, and poverty — the policy must be low-external-input, climate-resilient, and pro-poor. A poor answer replicates the Punjab model (HYV wheat, tubewells, urea) ignoring the region's distinct geography — showing inability to transfer lessons contextually.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

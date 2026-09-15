@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_004",
+   "title": "c10_chem_cbse_04_004",
+   "questions": [
+    {
+     "q": "Write the molecular formula of the alkane, alkene, and alkyne that each contain exactly three carbon atoms.",
+     "a": "Alkane (3 C): C₃H₈ (using CₙH₂ₙ₊₂ → 2×3+2=8 H). Alkene (3 C): C₃H₆ (using CₙH₂ₙ → 2×3=6 H). Alkyne (3 C): C₃H₄ (using CₙH₂ₙ₋₂ → 2×3−2=4 H). A wrong answer (e.g., C₃H₆ for alkane) reveals the student has memorised formulas without understanding how valency determines the hydrogen count.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ethene (C₂H₄) is unsaturated while ethane (C₂H₆) is saturated, referring to the type of carbon‑carbon bond and the number of hydrogen atoms attached.",
+     "a": "Ethene has a carbon‑carbon double bond (C=C); each carbon is bonded to only two hydrogens, so the molecule has fewer hydrogens than the maximum possible for two carbons (which would be 6). Ethane has a carbon‑carbon single bond (C‑C); each carbon carries three hydrogens, giving the maximum hydrogen count (C₂H₆). A student who says “ethene has fewer carbons” or “ethane has more hydrogens because it’s heavier” confuses molecular mass with saturation — the key is bond order, not mass.",
+     "self_check": true
+    },
+    {
+     "q": "A hydrocarbon has the molecular formula C₅H₁₀. Identify its class (alkane/alkene/alkyne) and draw one possible structural formula showing all bonds.",
+     "a": "General formula check: CₙH₂ₙ₊₂ for n=5 → C₅H₁₂ (alkane); CₙH₂ₙ → C₅H₁₀ (alkene); CₙH₂ₙ₋₂ → C₅H₈ (alkyne). C₅H₁₀ matches alkene. One structural formula: CH₃‑CH₂‑CH₂‑CH=CH₂ (pent‑1‑ene). A wrong classification (e.g., calling it an alkane) shows the student cannot apply general formulas to a given molecular formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hydrogen‑to‑carbon ratio (H/C) in methane (CH₄), ethene (C₂H₄), and ethyne (C₂H₂). What trend do you observe as unsaturation increases?",
+     "a": "Methane H/C = 4/1 = 4; ethene H/C = 4/2 = 2; ethyne H/C = 2/2 = 1. As unsaturation increases (single → double → triple bond), the H/C ratio decreases because each additional π‑bond reduces the number of hydrogens by two. A student who calculates ratios incorrectly (e.g., 4, 4, 2) or states “ratio increases” has not linked bond multiplicity to hydrogen deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the structural formula of propyne as CH₃‑C≡C‑H. Is this correct? Justify your answer by counting bonds on each carbon.",
+     "a": "Yes, it is correct. Left carbon (CH₃): three C‑H bonds + one C‑C bond = 4 bonds. Middle carbon: one C‑C bond + one C≡C triple bond (counts as three bonds) = 4 bonds. Right carbon (C‑H): one C‑H bond + triple bond (three bonds) = 4 bonds. All carbons satisfy tetravalency. A student who says “no, because the middle carbon has only two bonds” is counting the triple bond as one bond instead of three — a common error in bond‑order counting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test using bromine water to distinguish between a sample of hexane (C₆H₁₄) and hex‑1‑ene (C₆H₁₂). Describe the observation and the chemical reason.",
+     "a": "Add bromine water (orange‑brown) to each sample in separate test tubes. Hexane (alkane) shows no colour change — bromine water remains orange because alkanes do not react with bromine at room temperature without UV light. Hex‑1‑ene (alkene) decolourises bromine water immediately due to addition across the C=C bond forming a dibromoalkane. A poor answer that says “both decolourise” or “hexane reacts faster” confuses substitution (needs UV) with addition (occurs readily at room temperature).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

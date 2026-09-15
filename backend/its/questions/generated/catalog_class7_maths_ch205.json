@@ -1,0 +1,359 @@
+{
+ "catalog": "catalog_class7_maths_ch205.json",
+ "concepts": [
+  {
+   "id": "gegp.5.1.1",
+   "title": "Statistical Questions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((16, 13, 6, 2, 6)) gives 43",
+     "compute": "total = sum((16, 13, 6, 2, 6))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 8.6",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 16, 13, 6, 2, 6.",
+     "a": "8.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 4, 4, 39, 39 (already in increasing order).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 21, 25. A seventh value 56 is added, making 7 values. Find the median of the 7 values.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 25 and 35. Find the median.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 5, 17, 21, 38.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.1",
+   "title": "Arithmetic Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 11th term of the AP with first term 2 and common difference 8.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP 10, 13, 16, ... .",
+     "a": "465",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 5 and last term 107 with 18 terms. Find its sum.",
+     "a": "1008",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 11 and 15. Find the common difference.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 10, 12, 14, ... up to and including 26?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "The 9th term of an AP is 46 and the 5th term is 26. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.2",
+   "title": "Median of Odd-Sized Dataset",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((12, 36, 12, 29, 18)) gives 107",
+     "compute": "total = sum((12, 36, 12, 29, 18))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 21.4",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 12, 36, 12, 29, 18.",
+     "a": "21.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 7, 12, 15, 15, 20 (already in increasing order).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 9, 40. A seventh value 48 is added, making 7 values. Find the median of the 7 values.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 19 and 56. Find the median.",
+     "a": "37.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 30, 8, 45, 35.",
+     "a": "37",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.3",
+   "title": "Median of Even-Sized Dataset",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 20, 36, 18, 22, 26.",
+     "a": "24.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 3, 4, 12, 12, 48 (already in increasing order).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 23, 36. A seventh value 54 is added, making 7 values. Find the median of the 7 values.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 12 and 54. Find the median.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 35, 23, 15, 19.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.4",
+   "title": "Range of a Dataset",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 12, 14, 8 (two decimal places).",
+     "a": "2.22",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 7, 9, 1, 5 (two decimal places).",
+     "a": "8.75",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 36. Find its standard deviation.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 5 and the mean is 40.",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 24 and 32. Find the interquartile range.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For 11 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.2.5",
+   "title": "Outliers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((24, 18, 32, 30, 16)) gives 120",
+     "compute": "total = sum((24, 18, 32, 30, 16))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 24",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 24, 18, 32, 30, 16.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 24, 37, 40, 44, 47 (already in increasing order).",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 8, 11. A seventh value 41 is added, making 7 values. Find the median of the 7 values.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 10 and 56. Find the median.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 5 times, 5 occurs 3 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 54, 58, 6, 32.",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.1",
+   "title": "Double Bar Graph",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 5 + 6 gives 17",
+     "compute": "total = 6 + 5 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 6, 5 and 6. Find the total frequency.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 10 units. If a row shows 3 symbols, what value does it represent?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 10 units, how many symbols represent 100 units?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 8 units tall. How many books does it show?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 60 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.5.3.2",
+   "title": "Dot Plot",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 8 + 9 gives 24",
+     "compute": "total = 7 + 8 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 7, 8 and 9. Find the total frequency.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 20 units. If a row shows 4 symbols, what value does it represent?",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 20 units, how many symbols represent 240 units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 6 units tall. How many books does it show?",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 20 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 30 out of 120 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

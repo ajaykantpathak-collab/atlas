@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_015",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_015",
+   "title": "c11_chem_cbse_02_015",
+   "questions": [
+    {
+     "q": "State the Aufbau principle and the (n + l) rule for determining the order of orbital filling.",
+     "a": "The Aufbau principle states that electrons fill orbitals in order of increasing energy, starting with the lowest energy orbital. The (n + l) rule: orbitals with lower (n + l) values have lower energy and fill first; if (n + l) is equal, the orbital with lower n fills first. A wrong answer (e.g., \"orbitals fill in order of increasing n only\") reveals the student is still using the Class 9 shell model (2n²) and hasn't integrated quantum numbers to distinguish subshell energies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 4s orbital fills before the 3d orbital, even though n=4 > n=3. Use the (n + l) rule in your explanation.",
+     "a": "For 4s: n=4, l=0 → n+l=4. For 3d: n=3, l=2 → n+l=5. Since 4 < 5, 4s has lower energy and fills first. A wrong answer (e.g., \"4s is farther from nucleus so higher energy\") reveals the misconception that principal quantum number alone determines energy, ignoring the azimuthal quantum number's role in penetration and shielding. The student hasn't grasped that s-orbitals penetrate closer to the nucleus than d-orbitals of the previous shell.",
+     "self_check": true
+    },
+    {
+     "q": "Write the ground state electronic configuration of manganese (Z=25) in both spectroscopic notation and orbital box notation for the 3d and 4s subshells.",
+     "a": "Spectroscopic: 1s²2s²2p⁶3s²3p⁶4s²3d⁵ or [Ar]4s²3d⁵. Orbital box: 4s: ↑↓ ; 3d: ↑ ↑ ↑ ↑ ↑ (five unpaired electrons, all spins parallel). Steps: (1) Total electrons = 25. (2) Fill in order: 1s²(2), 2s²(4), 2p⁶(10), 3s²(12), 3p⁶(18), 4s²(20), 3d⁵(25). (3) For 3d⁵, apply Hund's rule — five electrons singly occupy five d-orbitals with parallel spins before pairing. A wrong configuration (e.g., 3d⁴4s² with paired electrons in 3d) reveals failure to apply Hund's rule or misunderstanding that 4s fills completely before 3d starts.",
+     "self_check": true
+    },
+    {
+     "q": "Chromium (Z=24) has configuration [Ar]4s¹3d⁵ instead of the expected [Ar]4s²3d⁴. Copper (Z=29) has [Ar]4s¹3d¹⁰ instead of [Ar]4s²3d⁹. Analyze why these exceptions occur and what they have in common.",
+     "a": "Both exceptions achieve extra stability: Cr attains half-filled d-subshell (d⁵) and half-filled s-orbital (s¹); Cu attains fully-filled d-subshell (d¹⁰) and half-filled s-orbital (s¹). Half-filled and fully-filled subshells have symmetrical electron distribution (exchange energy maximization) and reduced electron-electron repulsion. A wrong answer (e.g., \"4s electron jumps to 3d to fill it\") reveals the misconception that electrons \"move\" after filling — rather, the ground state configuration itself is 4s¹3d⁵ because that arrangement has lower total energy than 4s²3d⁴. The student is thinking sequentially rather than energetically.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the electronic configuration of Fe²⁺ as [Ar]4s²3d⁴. Evaluate this answer and identify the error.",
+     "a": "Incorrect. Neutral Fe (Z=26): [Ar]4s²3d⁶. For cations, electrons are removed from the highest principal quantum number first (n=4 before n=3). Fe²⁺ loses two 4s electrons: [Ar]3d⁶. The student's error: removing 3d electrons before 4s electrons, treating 3d as \"valence\" because it's written last. This reveals the misconception that the order of writing (4s before 3d) implies 4s is \"more valence\" — actually, once filled, 4s is higher in energy and farther out than 3d, so it ionizes first.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mnemonic or visual tool to remember the orbital filling order up to 5p. Explain how your tool encodes the (n + l) rule.",
+     "a": "Example mnemonic: \"1s, 2s2p, 3s3p, 4s3d4p, 5s4d5p, 6s4f5d6p...\" written diagonally:\n1s\n2s 2p\n3s 3p\n4s 3d 4p\n5s 4d 5p\n6s 4f 5d 6p\nReading down the diagonals gives the filling order. The tool works because each diagonal has constant (n + l): 1s(1), 2s2p(2,3), 3s3p(3,4), 4s3d4p(4,5,5)... A poor answer (e.g., a simple list \"1s, 2s, 2p, 3s...\") reveals the student hasn't internalized the (n + l) pattern and is memorizing by rote, making them prone to errors like placing 3d before 4s.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

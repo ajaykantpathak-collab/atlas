@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_002",
+   "title": "c12_bs_cbse_07_002",
+   "questions": [
+    {
+     "q": "Name the four elements of directing as per the NCERT Class 12 Business Studies textbook.",
+     "a": "The four elements are Supervision, Motivation, Leadership, and Communication. A wrong answer (e.g., listing \"planning\" or \"controlling\") reveals confusion between the functions of management (planning, organising, staffing, directing, controlling) and the elements *within* the directing function. Students often memorise the five functions but forget that directing itself has sub-components.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain the difference between \"supervision\" and \"leadership\" as elements of directing. Use a workplace example to illustrate.",
+     "a": "Supervision is the act of overseeing and guiding subordinates' work at the operative level to ensure targets are met (e.g., a foreman checking if a machine operator follows safety steps). Leadership is the broader process of influencing people to *willingly* strive for group goals through inspiration and interpersonal relations (e.g., the same foreman inspiring the team to adopt a new efficiency mindset). A wrong answer that treats them as synonyms misses that supervision is task-focused and hierarchical, while leadership is influence-focused and can be informal.",
+     "self_check": true
+    },
+    {
+     "q": "A manager notices that employee productivity has dropped. She introduces a \"Employee of the Month\" award with a cash prize. Which *two* elements of directing is she primarily using, and why?",
+     "a": "She is using **Motivation** (the cash prize and recognition stimulate goal-directed behaviour by satisfying esteem and physiological needs) and **Leadership** (she is influencing behaviour by setting a vision of excellence and modelling the path to achieve it). A wrong answer like \"Communication and Supervision\" shows inability to link the *nature* of the intervention (reward/recognition) to the correct element. The award is not primarily about conveying information (communication) or overseeing work (supervision).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"communication\" in directing with the role of \"supervision\". Can effective directing occur if communication is strong but supervision is absent? Justify.",
+     "a": "Communication creates understanding (encoding/decoding messages); supervision ensures work is actually performed as understood (overseeing, guiding, correcting). If communication is strong but supervision absent, employees may *understand* what to do but lack guidance, correction, or accountability — leading to errors, drift, or non-compliance. Directing requires *both*: communication sets the direction, supervision keeps the vehicle on the road. A wrong answer claiming \"yes, communication is enough\" ignores the NCERT principle \"Follow through: Mere giving of an order is not sufficient.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Motivation is the most important element of directing because it addresses the internal drives of employees; the other three are merely supporting tools.\" Defend or refute using the NCERT principles of directing.",
+     "a": "Refute. The NCERT lists **eight principles of directing** (Maximum individual contribution, Harmony of objectives, Unity of command, Appropriateness of direction technique, Managerial communication, Use of informal organisation, Leadership, Follow through). No single element is supreme; the principle \"Appropriateness of direction technique\" explicitly states that the technique must match \"subordinate needs, capabilities, attitudes and other situational variables.\" A situation requiring skill correction needs supervision; one requiring change adoption needs leadership; one requiring clarity needs communication. A wrong answer agreeing with the statement reveals a hierarchical misunderstanding — the elements are interdependent, not ranked.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (3-4 sentences) where a manager uses all four elements of directing in sequence to resolve a team conflict. Label each action with the correct element.",
+     "a": "Example: \"Two designers argue over a client brief. The manager **communicates** the client's exact requirements in a meeting (Communication). She then **supervises** them as they draft a joint proposal, correcting deviations (Supervision). She **motivates** them by announcing the winning design gets presented to the client (Motivation). Finally, she **leads** by facilitating a discussion where they merge ideas, modelling collaboration (Leadership).\" A poor answer lists actions without labeling or uses the same element repeatedly, showing inability to distinguish the four mechanisms in a dynamic situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "catalog": "catalog_class11_maths_ch109.json",
+ "concepts": [
+  {
+   "id": "kemh.109.1.1",
+   "title": "Distance Between Two Points in Coordinate Plane",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (8, 1) and (17, 13).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (2, -3) from the origin.",
+     "a": "3.61",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (8, -6) and (11, -3).",
+     "a": "9.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 2 : 1. Find the x-coordinate of P.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-2, 4), (-5, 5) and (-2, 0) (two decimal places).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-4, 1), (5, 3) and (-3, -2).",
+     "a": "-0.666667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.1",
+   "title": "Slope of a Line Passing Through Two Points",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (6, -6) and (14, 9).",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (4, -7) from the origin.",
+     "a": "8.06",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (8, 0) and (5, 0).",
+     "a": "6.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (7, 0) internally in the ratio 3 : 4. Find the x-coordinate of P.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (2, 5), (-2, -5) and (4, 0) (two decimal places).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (5, 5), (-3, -3) and (-3, 5).",
+     "a": "-0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.2",
+   "title": "Perpendicularity Condition for Straight Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 37 degrees, find the other.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 15 degrees, find the other.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 57 degrees; find the other.",
+     "a": "123",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 66 degrees and 264 degrees, find the remaining angle.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 30 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 30 degrees. Find its co-interior partner.",
+     "a": "150",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.2.3",
+   "title": "Acute Angle Between Two Intersecting Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 76 degrees, find the other.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 79 degrees, find the other.",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 48 degrees; find the other.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 64 degrees and 200 degrees, find the remaining angle.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 58 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 63 degrees. Find its co-interior partner.",
+     "a": "117",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.3.1",
+   "title": "Standard Forms of Equation of a Line",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 6 ** (4 + 2) gives 46656",
+     "compute": "val = 6 ** (4 + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^4 x 6^2.",
+     "a": "46656",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^6 / 4^2.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^2 using the power of a power law.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "1000",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 7^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-2) and give the value as a fraction.",
+     "a": "1/64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.4.1",
+   "title": "Perpendicular Distance of a Point From a Line",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 13 degrees, find the other.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 18 degrees, find the other.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 73 degrees; find the other.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 143 degrees and 155 degrees, find the remaining angle.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 60 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 42 degrees. Find its co-interior partner.",
+     "a": "138",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.4.2",
+   "title": "Distance Between Two Parallel Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 79 degrees, find the other.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 49 degrees, find the other.",
+     "a": "131",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 35 degrees; find the other.",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 126 degrees and 148 degrees, find the remaining angle.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 116 degrees. Find its co-interior partner.",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.109.5.1",
+   "title": "Concurrency Condition for Three Straight Lines",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance of the point (4, -4) from the line 1x + 2y + -2 = 0 (two decimal places).",
+     "a": "2.68",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the parallel lines 2x + 1y + 5 = 0 and 2x + 1y + 6 = 0 (two decimal places).",
+     "a": "0.45",
+     "self_check": false
+    },
+    {
+     "q": "Find the acute angle between lines with slopes -3 and 1 using tan(theta) = |(m2 - m1) / (1 + m1 m2)| (report tan of the angle, two decimal places).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two lines 5x + 2y = -5 and 4x + 5y + k = 0 meet at x = 1 where y = (-5 - 5x)/2. Find k so that the point lies on the second line.",
+     "a": "21.0",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (3, -5) from the line 1x + 5y + -6 = 0 (two decimal places).",
+     "a": "5.49",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance between the parallel lines 3x + 4y + 6 = 0 and 3x + 4y + 10 = 0 (two decimal places).",
+     "a": "0.8",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

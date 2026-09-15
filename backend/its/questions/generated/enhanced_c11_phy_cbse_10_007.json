@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_007",
+   "title": "c11_phy_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the definition of molar specific heat capacity and its SI unit.",
+     "a": "Molar specific heat capacity is the heat required to raise the temperature of one mole of a substance by one kelvin. Its SI unit is \\(\\text{J mol}^{-1} \\text{K}^{-1}\\). A wrong answer (e.g., giving \\(\\text{J kg}^{-1} \\text{K}^{-1}\\)) reveals confusion between specific heat capacity (per unit mass) and molar specific heat capacity (per unit amount of substance).",
+     "self_check": true
+    },
+    {
+     "q": "Why do gases have two molar specific heat capacities (\\(C_p\\) and \\(C_v\\)) while solids and liquids are usually described by only one?",
+     "a": "Gases expand significantly when heated at constant pressure, doing work on the surroundings; thus extra heat is needed compared to constant volume where no work is done. Solids and liquids expand negligibly, so the work done is extremely small and \\(C_p \\approx C_v\\). A wrong answer ignoring the work done during expansion indicates a lack of understanding of the first law of thermodynamics (\\( \\Delta Q = \\Delta U + \\Delta W \\)) applied to thermal processes.",
+     "self_check": true
+    },
+    {
+     "q": "The specific heat capacity of nitrogen gas (\\(N_2\\)) is \\(1040 \\text{ J kg}^{-1} \\text{K}^{-1}\\). Its molar mass is \\(28 \\text{ g mol}^{-1}\\). Calculate the molar specific heat capacity of nitrogen at constant volume. (Assume the given specific heat is \\(c_v\\)).",
+     "a": "Given: \\(c_v = 1040 \\text{ J kg}^{-1} \\text{K}^{-1}\\), \\(M = 28 \\text{ g mol}^{-1} = 0.028 \\text{ kg mol}^{-1}\\).\nFormula: \\(C_v = c_v \\times M\\).\nSubstitution: \\(C_v = 1040 \\times 0.028 = 29.12 \\text{ J mol}^{-1} \\text{K}^{-1}\\).\nUnit check: \\(\\text{J kg}^{-1} \\text{K}^{-1} \\times \\text{kg mol}^{-1} = \\text{J mol}^{-1} \\text{K}^{-1}\\).\nA wrong answer of \\(29120 \\text{ J mol}^{-1} \\text{K}^{-1}\\) reveals the student used molar mass in grams without converting to kilograms, a critical unit conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "For an ideal diatomic gas, \\(C_v = 20.8 \\text{ J mol}^{-1} \\text{K}^{-1}\\) and \\(C_p = 29.1 \\text{ J mol}^{-1} \\text{K}^{-1}\\). If the gas is heated at constant pressure, what fraction of the supplied heat energy goes into increasing the internal energy of the gas?",
+     "a": "At constant pressure, \\(\\Delta Q = n C_p \\Delta T\\). The increase in internal energy is \\(\\Delta U = n C_v \\Delta T\\) (since internal energy of an ideal gas depends only on temperature).\nFraction = \\(\\frac{\\Delta U}{\\Delta Q} = \\frac{C_v}{C_p} = \\frac{20.8}{29.1} \\approx 0.715\\) (or 71.5%).\nA wrong answer using \\(C_p/C_v\\) or \\(1 - C_v/C_p\\) reveals confusion about the energy partition between internal energy and work done during expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"2 moles of oxygen gas are heated at constant volume from 300 K to 350 K. Heat supplied = 5000 J. Find \\(C_v\\).\" The student writes: \\(C_v = \\frac{Q}{n \\Delta T} = \\frac{5000}{2 \\times 50} = 50 \\text{ J mol}^{-1} \\text{K}^{-1}\\). Evaluate this solution.",
+     "a": "The calculation is mathematically correct, but the result \\(50 \\text{ J mol}^{-1} \\text{K}^{-1}\\) is physically unreasonable for oxygen gas (typical \\(C_v \\approx 21 \\text{ J mol}^{-1} \\text{K}^{-1}\\)). The error is likely in the problem data (heat supplied too high) or the student misread \"constant pressure\" as \"constant volume\" (where \\(C_p \\approx 29 \\text{ J mol}^{-1} \\text{K}^{-1}\\)). A student who only checks arithmetic misses the physical plausibility check.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to determine the molar specific heat capacity at constant pressure (\\(C_p\\)) of air using a constant-pressure gas thermometer setup (e.g., a flask with a volume-adjustable syringe). Outline the measurements needed and the calculation steps.",
+     "a": "Apparatus: Conical flask with a movable piston/syringe (constant pressure), heater, thermometer, balance. Procedure: (1) Measure mass of air in flask (by mass difference after flushing). (2) Convert mass to moles using molar mass of air (~29 g/mol). (3) Supply known heat \\(Q\\) (electrical: \\(VIt\\)). (4) Measure temperature rise \\(\\Delta T\\) at constant pressure (piston moves freely). (5) Calculate \\(C_p = Q / (n \\Delta T)\\). A poor answer omits the constant-pressure condition (fixed piston) or forgets to convert mass to moles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

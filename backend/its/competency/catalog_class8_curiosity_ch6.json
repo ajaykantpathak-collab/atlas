@@ -1,0 +1,678 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "Pressure, Winds, Storms, and Cyclones",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu106.txt",
+ "concepts": [
+  {
+   "id": "c8cu.6.1",
+   "title": "Pressure and Its Units",
+   "section": "6.1",
+   "definition": "Pressure is the force acting perpendicularly on a unit area of a surface.",
+   "formula": "pressure = force / area",
+   "key_idea": "Pressure tells how much force acts on each unit area; it rises when force increases or area decreases.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "A force of 20 N acts on an area of 5 m^2. What is the pressure?",
+    "Find the pressure when a force of 50 N acts on 10 m^2.",
+    "A force of 100 N acts on 4 m^2. Calculate the pressure.",
+    "What is the pressure if a 30 N force acts on 2 m^2?",
+    "Calculate the pressure for a force of 12 N on 3 m^2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the force and area",
+     "explain": "Write down the given force and the area on which it acts."
+    },
+    {
+     "step": 2,
+     "action": "Divide force by area",
+     "explain": "Use the formula pressure equals force divided by area.",
+     "compute": "pressure = force / area"
+    },
+    {
+     "step": 3,
+     "action": "State the unit",
+     "explain": "Give the pressure in pascals (Pa), where 1 Pa = 1 N/m^2."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A force of 20 N acts on an area of 5 m^2. What is the pressure?",
+     "solution": "pressure = 20 / 5 = 4 Pa.",
+     "answer": "4 Pa."
+    },
+    {
+     "question": "Find the pressure when a force of 50 N acts on 10 m^2.",
+     "solution": "pressure = 50 / 10 = 5 Pa.",
+     "answer": "5 Pa."
+    },
+    {
+     "question": "A force of 100 N acts on 4 m^2. Calculate the pressure.",
+     "solution": "pressure = 100 / 4 = 25 Pa.",
+     "answer": "25 Pa."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the pressure for a force of 12 N on 3 m^2.",
+     "type": "compute"
+    },
+    {
+     "question": "What is the SI unit of pressure?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does area affect pressure for the same force?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.2",
+   "title": "Atmospheric Pressure",
+   "section": "6.2",
+   "definition": "Atmospheric pressure is the pressure exerted by the weight of the air in the atmosphere on all objects on the Earth.",
+   "formula": "",
+   "key_idea": "The air around us has weight and presses down on everything.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is atmospheric pressure?",
+    "Why do we not feel atmospheric pressure?",
+    "Give one example that shows atmospheric pressure.",
+    "How does atmospheric pressure change with height?",
+    "Why is it harder to breathe at high altitudes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall air has weight",
+     "explain": "Note that the atmosphere is made of air that has mass."
+    },
+    {
+     "step": 2,
+     "action": "Note the pressure",
+     "explain": "The weight of air presses down on objects, creating atmospheric pressure."
+    },
+    {
+     "step": 3,
+     "action": "Explain the effect",
+     "explain": "Atmospheric pressure decreases as we go higher above sea level."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is atmospheric pressure?",
+     "solution": "It is the pressure exerted by the weight of air in the atmosphere.",
+     "answer": "Pressure due to the weight of air."
+    },
+    {
+     "question": "Why do we not feel atmospheric pressure?",
+     "solution": "Because the pressure inside our body balances the atmospheric pressure.",
+     "answer": "Internal body pressure balances it."
+    },
+    {
+     "question": "How does atmospheric pressure change with height?",
+     "solution": "Atmospheric pressure decreases as we go higher.",
+     "answer": "It decreases with height."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example that shows atmospheric pressure.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is it harder to breathe at high altitudes?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does atmospheric pressure increase or decrease with height?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.3",
+   "title": "Pressure in Liquids",
+   "section": "6.3",
+   "definition": "Liquids exert pressure on the walls and base of their container due to their weight.",
+   "formula": "",
+   "key_idea": "Liquids push on the container from all sides because of their weight.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is liquid pressure?",
+    "Why do liquids exert pressure on the walls of a container?",
+    "Give one example that shows liquid pressure.",
+    "Does liquid pressure act in all directions? Explain.",
+    "Why does a deeper hole in a water bottle leak faster?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall liquids have weight",
+     "explain": "Note that a liquid in a container has weight."
+    },
+    {
+     "step": 2,
+     "action": "Note the direction",
+     "explain": "The liquid exerts pressure on the base and the walls of the container."
+    },
+    {
+     "step": 3,
+     "action": "State the result",
+     "explain": "Liquid pressure acts in all directions on the container."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is liquid pressure?",
+     "solution": "It is the pressure exerted by a liquid on the walls and base of its container.",
+     "answer": "Pressure from the weight of a liquid."
+    },
+    {
+     "question": "Why do liquids exert pressure on the walls of a container?",
+     "solution": "Because the liquid has weight and pushes against the walls.",
+     "answer": "Because the liquid has weight."
+    },
+    {
+     "question": "Give one example that shows liquid pressure.",
+     "solution": "Water leaking from a hole in a bottle shows liquid pressure.",
+     "answer": "Water leaking from a hole in a bottle."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Does liquid pressure act in all directions?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example that shows liquid pressure.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does a deeper hole in a water bottle leak faster?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.4",
+   "title": "Variation of Pressure with Depth",
+   "section": "6.4",
+   "definition": "Pressure in a liquid increases with depth because the weight of the liquid above increases.",
+   "formula": "pressure = density * g * depth",
+   "key_idea": "The deeper you go in a liquid, the greater the pressure; it depends on depth, density, and gravity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does liquid pressure change with depth?",
+    "Why does water from a lower hole in a bottle spout travel farther?",
+    "Calculate the pressure at a depth of 2 m in water (density 1000 kg/m^3, g = 10 m/s^2).",
+    "Find the pressure at a depth of 5 m in a liquid of density 1000 kg/m^3 (g = 10).",
+    "What happens to pressure if depth is doubled?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the depth and density",
+     "explain": "Write the depth, density, and value of g."
+    },
+    {
+     "step": 2,
+     "action": "Apply the formula",
+     "explain": "Multiply density, g, and depth to get the pressure.",
+     "compute": "pressure = density * g * depth"
+    },
+    {
+     "step": 3,
+     "action": "State the result",
+     "explain": "Give the pressure in pascals and note it rises with depth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the pressure at a depth of 2 m in water (density 1000 kg/m^3, g = 10 m/s^2).",
+     "solution": "pressure = 1000 * 10 * 2 = 20000 Pa.",
+     "answer": "20000 Pa."
+    },
+    {
+     "question": "Find the pressure at a depth of 5 m in a liquid of density 1000 kg/m^3 (g = 10).",
+     "solution": "pressure = 1000 * 10 * 5 = 50000 Pa.",
+     "answer": "50000 Pa."
+    },
+    {
+     "question": "What happens to pressure if depth is doubled?",
+     "solution": "Pressure also doubles because pressure is proportional to depth.",
+     "answer": "Pressure doubles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does liquid pressure change with depth?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does water from a lower hole in a bottle spout travel farther?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Calculate the pressure at a depth of 3 m in water (density 1000, g = 10).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.5",
+   "title": "Wind and Air Pressure",
+   "section": "6.5",
+   "definition": "Wind is the movement of air from a region of high pressure to a region of low pressure.",
+   "formula": "",
+   "key_idea": "Air flows from high pressure areas to low pressure areas, creating wind.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is wind?",
+    "How is wind related to air pressure?",
+    "Why does air move from high to low pressure?",
+    "Give one example of wind in daily life.",
+    "How does uneven heating of the Earth cause wind?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify pressure regions",
+     "explain": "Note where the air pressure is high and where it is low."
+    },
+    {
+     "step": 2,
+     "action": "Find the air flow",
+     "explain": "Air moves from the high pressure region to the low pressure region."
+    },
+    {
+     "step": 3,
+     "action": "Name the flow",
+     "explain": "This moving air is called wind."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is wind?",
+     "solution": "Wind is moving air that flows from high pressure to low pressure regions.",
+     "answer": "Moving air from high to low pressure."
+    },
+    {
+     "question": "How is wind related to air pressure?",
+     "solution": "Differences in air pressure cause air to move, creating wind.",
+     "answer": "Pressure differences cause wind."
+    },
+    {
+     "question": "Why does air move from high to low pressure?",
+     "solution": "Air naturally flows to balance pressure differences, moving from high to low pressure.",
+     "answer": "To balance pressure differences."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of wind in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does uneven heating of the Earth cause wind?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does air flow from low to high pressure or high to low pressure?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.6",
+   "title": "Factors Affecting Wind",
+   "section": "6.6",
+   "definition": "Wind is affected by differences in temperature and the rotation of the Earth, which change air pressure and direction.",
+   "formula": "",
+   "key_idea": "Temperature differences and Earth's rotation both influence wind direction and speed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What factors affect wind?",
+    "How does temperature affect wind?",
+    "How does the rotation of the Earth affect wind?",
+    "Why do winds not blow in a straight line?",
+    "Give one example of temperature causing wind."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the temperature difference",
+     "explain": "Uneven heating creates pressure differences."
+    },
+    {
+     "step": 2,
+     "action": "Note the Earth's rotation",
+     "explain": "The spinning Earth bends the path of the wind."
+    },
+    {
+     "step": 3,
+     "action": "Combine the effects",
+     "explain": "Both factors together decide the direction and speed of the wind."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What factors affect wind?",
+     "solution": "Temperature differences and the rotation of the Earth affect wind.",
+     "answer": "Temperature and Earth's rotation."
+    },
+    {
+     "question": "How does temperature affect wind?",
+     "solution": "Warm air rises and cooler air rushes in, creating wind.",
+     "answer": "Warm air rises and cool air moves in."
+    },
+    {
+     "question": "How does the rotation of the Earth affect wind?",
+     "solution": "The rotation bends the direction of the wind from a straight path.",
+     "answer": "It bends the wind direction."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do winds not blow in a straight line?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of temperature causing wind.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does the rotation of the Earth change wind speed or direction?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.7",
+   "title": "Thunderstorms and Cyclones",
+   "section": "6.7",
+   "definition": "A thunderstorm is a storm with lightning and heavy rain, while a cyclone is a huge rotating storm formed over warm seas.",
+   "formula": "",
+   "key_idea": "Thunderstorms bring lightning and rain; cyclones are large rotating storms over warm oceans.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a thunderstorm?",
+    "What is a cyclone?",
+    "How do thunderstorms and cyclones differ?",
+    "Where do cyclones usually form?",
+    "How does a cyclone form?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the storm type",
+     "explain": "Note whether it is a small storm with lightning or a large rotating storm."
+    },
+    {
+     "step": 2,
+     "action": "Find the source",
+     "explain": "Thunderstorms form over hot land; cyclones form over warm seas."
+    },
+    {
+     "step": 3,
+     "action": "State the features",
+     "explain": "Thunderstorms have rain and lightning; cyclones have strong winds and low pressure centres."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a thunderstorm?",
+     "solution": "A storm with thunder, lightning, and heavy rain.",
+     "answer": "A storm with thunder, lightning, and rain."
+    },
+    {
+     "question": "What is a cyclone?",
+     "solution": "A large rotating storm with strong winds that forms over warm seas.",
+     "answer": "A large rotating storm over warm seas."
+    },
+    {
+     "question": "Where do cyclones usually form?",
+     "solution": "Cyclones form over warm ocean waters near the equator.",
+     "answer": "Over warm ocean waters."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do thunderstorms and cyclones differ?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a cyclone form?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Does a cyclone have a high or low pressure centre?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.8",
+   "title": "Destruction Caused by Cyclones",
+   "section": "6.8",
+   "definition": "Cyclones cause destruction through strong winds, heavy rain, flooding, and storm surges that damage homes, crops, and trees.",
+   "formula": "",
+   "key_idea": "Cyclones destroy property and lives through wind, rain, and sea surges.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What damage is caused by cyclones?",
+    "How do cyclones cause flooding?",
+    "What is a storm surge?",
+    "Give one example of destruction caused by a cyclone.",
+    "Why are coastal areas more affected by cyclones?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the effects",
+     "explain": "Note the strong winds, heavy rain, and sea surges."
+    },
+    {
+     "step": 2,
+     "action": "Find the damage",
+     "explain": "These effects damage houses, crops, trees, and can flood areas."
+    },
+    {
+     "step": 3,
+     "action": "State the danger",
+     "explain": "Coastal areas face the most danger from storm surges and flooding."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What damage is caused by cyclones?",
+     "solution": "Cyclones damage houses, uproot trees, destroy crops, and cause flooding.",
+     "answer": "Damage to houses, trees, crops, and flooding."
+    },
+    {
+     "question": "How do cyclones cause flooding?",
+     "solution": "Heavy rain and storm surges from the sea flood low lying areas.",
+     "answer": "Through heavy rain and sea surges."
+    },
+    {
+     "question": "What is a storm surge?",
+     "solution": "A storm surge is a rise in sea level caused by a cyclone pushing sea water inland.",
+     "answer": "A rise in sea level pushed inland by a cyclone."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of destruction caused by a cyclone.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are coastal areas more affected by cyclones?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which part of a cyclone causes the most flooding?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.6.9",
+   "title": "Safety Measures During Storms",
+   "section": "6.9",
+   "definition": "Safety measures during storms include staying indoors, avoiding tall trees and water, and following weather warnings to reduce harm.",
+   "formula": "",
+   "key_idea": "Following safety rules during storms saves lives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What safety measures should be taken during a cyclone?",
+    "Why should we stay indoors during a storm?",
+    "Why should we avoid tall trees and electric poles during a storm?",
+    "How can weather warnings help during cyclones?",
+    "What should be kept in an emergency kit for cyclones?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Stay safe indoors",
+     "explain": "Move to a safe indoor place away from windows and doors."
+    },
+    {
+     "step": 2,
+     "action": "Avoid dangers",
+     "explain": "Stay away from tall trees, electric poles, and water bodies."
+    },
+    {
+     "step": 3,
+     "action": "Follow warnings",
+     "explain": "Listen to weather warnings and keep an emergency kit ready."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What safety measures should be taken during a cyclone?",
+     "solution": "Stay indoors, away from windows, trees, and electric poles, and follow weather warnings.",
+     "answer": "Stay indoors and follow warnings."
+    },
+    {
+     "question": "Why should we stay indoors during a storm?",
+     "solution": "To avoid flying objects, falling trees, and lightning.",
+     "answer": "To avoid flying objects and lightning."
+    },
+    {
+     "question": "How can weather warnings help during cyclones?",
+     "solution": "Warnings give people time to move to safety before the cyclone arrives.",
+     "answer": "They give time to reach safety."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why should we avoid tall trees and electric poles during a storm?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What should be kept in an emergency kit for cyclones?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is it unsafe to touch water during a thunderstorm?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.6.1.1",
+   "source_ref": "generated practice sample aligned to hecu106.txt",
+   "concept": "c8cu.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure step by step for a case with {force}, {area}.",
+   "extracted_variables": {
+    "force": "force (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute pressure",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.6.1.2",
+   "source_ref": "generated practice sample aligned to hecu106.txt",
+   "concept": "c8cu.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure step by step for a case with {force}, {area}.",
+   "extracted_variables": {
+    "force": "force (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute pressure",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.6.4.1",
+   "source_ref": "generated practice sample aligned to hecu106.txt",
+   "concept": "c8cu.6.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure step by step for a case with {density}, {g}, {depth}.",
+   "extracted_variables": {
+    "density": "density (given value)",
+    "g": "g (given value)",
+    "depth": "depth (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute pressure",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pressure = density * g * depth"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.6.4.2",
+   "source_ref": "generated practice sample aligned to hecu106.txt",
+   "concept": "c8cu.6.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure step by step for a case with {density}, {g}, {depth}.",
+   "extracted_variables": {
+    "density": "density (given value)",
+    "g": "g (given value)",
+    "depth": "depth (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute pressure",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pressure = density * g * depth"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

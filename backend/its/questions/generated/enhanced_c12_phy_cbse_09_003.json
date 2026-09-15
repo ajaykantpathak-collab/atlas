@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_003",
+   "title": "c12_phy_cbse_09_003",
+   "questions": [
+    {
+     "q": "State Snell's law of refraction in terms of the absolute refractive indices of the two media and the angles of incidence and refraction. Define each symbol and its SI unit.",
+     "a": "Snell's law: n₁ sin i = n₂ sin r. Here n₁ = absolute refractive index of medium 1 (dimensionless), n₂ = absolute refractive index of medium 2 (dimensionless), i = angle of incidence (radian or degree), r = angle of refraction (radian or degree). A wrong answer (e.g., writing sin i / sin r = n₁/n₂ or swapping n₁ and n₂) reveals confusion about which medium's refractive index multiplies which angle. The correct form follows from n = c/v and the fact that the tangential component of the wave vector is continuous across the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light travels from water (n = 1.33) into crown glass (n = 1.52). Will the ray bend towards the normal or away from the normal? Explain using the concept of optical density and the speed of light in the two media.",
+     "a": "The ray bends towards the normal. Crown glass (n=1.52) is optically denser than water (n=1.33) because light travels slower in glass (v = c/1.52) than in water (v = c/1.33). When light enters a medium where its speed decreases, the wavefronts bend such that the ray turns towards the normal. A student who says \"away from the normal\" incorrectly thinks higher refractive index means faster speed, or confuses optical density with mass density (glass has higher mass density than water, but the reasoning must be based on speed of light/optical density).",
+     "self_check": true
+    },
+    {
+     "q": "A light ray in air (n = 1.00) strikes a glass slab (n = 1.50) at an angle of incidence of 35°. Calculate the angle of refraction inside the glass. Give your answer in degrees to one decimal place.",
+     "a": "Given: n₁ = 1.00, n₂ = 1.50, i = 35°. Using n₁ sin i = n₂ sin r → sin r = (n₁/n₂) sin i = (1.00/1.50) × sin 35° = 0.6667 × 0.5736 = 0.3824. r = sin⁻¹(0.3824) = 22.5°. A wrong answer like 57° or 23.5° (using sin 35° ≈ 0.57 without division) reveals either swapping n₁ and n₂ (sin r = 1.5 × sin 35° = 0.86 → r ≈ 59°) or forgetting to take inverse sine. Unit check: refractive indices are dimensionless, angles in degrees, final answer in degrees.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs the glass slab experiment and obtains the following data for sin i and sin r:\n\n| sin i | 0.20 | 0.40 | 0.60 | 0.80 |\n| sin r | 0.13 | 0.26 | 0.39 | 0.52 |\n\nPlot sin i vs sin r mentally. What does the slope represent? If the student accidentally swapped the axes (plotting sin r on y-axis and sin i on x-axis), what would the slope represent then?",
+     "a": "The data shows sin i / sin r = 0.20/0.13 ≈ 1.54 (constant). Plotting sin i (y) vs sin r (x) gives a straight line through origin with slope = n₂₁ = n_glass/n_air ≈ 1.54. If axes are swapped (sin r vs sin i), the slope becomes 1/n₂₁ = n₁₂ ≈ 0.65. A student who says the slope is always n₂₁ regardless of axes does not understand that slope = Δy/Δx. This tests whether they can interpret graphical representation of Snell's law and the reciprocal relationship between relative refractive indices.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light passes from medium A (n = 1.6) to medium B (n = 1.2). The angle of incidence is 40°. A student calculates the angle of refraction as 60°. Evaluate this answer. Is it physically possible? If not, what phenomenon occurs instead?",
+     "a": "The calculation gives sin r = (n_A/n_B) sin i = (1.6/1.2) × sin 40° = 1.333 × 0.6428 = 0.857. Then r = sin⁻¹(0.857) ≈ 59°. The student's 60° is close but not exact. However, the critical angle for this interface is sin⁻¹(n_B/n_A) = sin⁻¹(1.2/1.6) = sin⁻¹(0.75) = 48.6°. Since i = 40° < 48.6°, refraction does occur and the answer is physically possible (ray bends away from normal). If the student had used i = 50°, then sin r > 1, which is impossible, and total internal reflection would occur. A wrong evaluation that says \"60° is impossible because sin r > 1\" reveals the student didn't check the critical angle condition or miscalculated n_A/n_B.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a laser pointer, a semicircular glass block, and a protractor to verify Snell's law and determine the refractive index of glass. Describe how you would ensure the incident ray passes through the centre of the flat face, and why this geometry avoids refraction at the curved surface.",
+     "a": "Place the semicircular block on a protractor with its flat face along the 0°-180° line and its centre at the protractor's centre. Direct the laser at the centre of the flat face at various angles of incidence. The ray enters undeviated at the flat face (normal incidence? No — wait: if the ray hits the flat face at an angle, it refracts. But if we want to measure refraction at the curved surface? Actually, standard method: send ray through curved surface towards centre, so it hits flat face at normal incidence and exits undeviated. Then rotate the block to change angle at curved surface. Better: Place the flat face on the protractor baseline, shine laser at the centre of the flat face at angle i. The ray refracts into glass, travels straight to the curved surface, and exits along the radius (normal to curved surface), so no refraction at exit. Measure the angle of the emergent ray (which equals r inside the glass). Plot sin i vs sin r. The geometry ensures the ray inside the glass is along a radius, so it meets the curved surface normally (angle of incidence = 0) and exits without bending. A poor answer would miss the \"radius-normal\" reasoning or suggest measuring at the curved surface directly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

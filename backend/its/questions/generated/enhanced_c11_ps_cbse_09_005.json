@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_005",
+   "title": "c11_ps_cbse_09_005",
+   "questions": [
+    {
+     "q": "Define *Jus ad bellum* and *Jus in bello* and list the six criteria of *Jus ad bellum*.",
+     "a": "*Jus ad bellum* refers to the justice of resorting to war (the decision to go to war); *Jus in bello* refers to justice in the conduct of war (how war is fought). The six criteria of *Jus ad bellum* are: (1) Just Cause, (2) Legitimate Authority, (3) Right Intention, (4) Probability of Success, (5) Proportionality (of ends), (6) Last Resort.  \n**Misconception alert:** A student who lists \"proportionality\" only once fails to distinguish between *ad bellum* proportionality (overall costs vs. expected benefits of the war) and *in bello* proportionality (military advantage vs. collateral damage of a specific attack). This reveals confusion between the macro and micro levels of moral assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"legitimate authority\" is a necessary criterion in *Jus ad bellum* and how it differs in a modern democratic state versus a medieval feudal context.",
+     "a": "Legitimate authority ensures that the decision to wage war is made by a sovereign entity accountable to the people (in democracies, Parliament/Congress) rather than by private individuals, warlords, or unauthorized commanders. In medieval times, the sovereign (king/emperor) was the sole legitimate authority; today, democratic constitutions (e.g., Article 352/353 in India, War Powers Resolution in the US) vest this power in elected legislatures, making war a public, deliberative act.  \n**Misconception alert:** A student who says \"the Prime Minister decides\" confuses executive implementation with legislative authorization. This reveals a misunderstanding of constitutional separation of powers and democratic accountability in war decisions.",
+     "self_check": true
+    },
+    {
+     "q": "A state launches a pre-emptive strike against a neighboring country claiming \"imminent threat\" intelligence that later proves false. The strike destroys the neighbor's air force but kills 200 civilians. Apply *Jus ad bellum* and *Jus in bello* criteria to evaluate this action.",
+     "a": "*Jus ad bellum* fails on **Just Cause** (imminent threat not substantiated), **Last Resort** (diplomacy/intelligence verification not exhausted), and **Right Intention** (if intelligence was fabricated). *Jus in bello* fails on **Discrimination** (civilians killed) and likely **Proportionality** (200 civilian deaths vs. destroying air force). The war is unjust in both initiation and conduct.  \n**Misconception alert:** A student who says \"it's justified because they destroyed the air force\" focuses only on military success, ignoring the moral criteria. This reveals a consequentialist error — judging war by outcomes rather than by adherence to prior moral constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the *Jus in bello* principle of \"discrimination\" with the principle of \"proportionality\" using a concrete example of an artillery strike on a military target located in a dense urban area.",
+     "a": "**Discrimination** forbids directly targeting non-combatants; the strike must aim only at the military target. **Proportionality** permits *incidental* civilian harm only if it is not excessive relative to the concrete and direct military advantage anticipated. Example: Striking a tank in a city square — discrimination requires aiming at the tank, not the crowd; proportionality asks whether the military value of destroying that one tank justifies the expected 50 civilian casualties. If yes, the strike *may* be permissible; if no, it is prohibited even if discrimination is observed.  \n**Misconception alert:** A student who treats them as the same (\"don't kill civilians\") misses the crucial distinction: discrimination is a *categorical* prohibition on intentional targeting; proportionality is a *calculative* balancing test for collateral damage. This reveals an inability to handle the \"double effect\" doctrine central to Just War Theory.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Nuclear deterrence violates *Jus in bello* because it threatens massive civilian casualties, yet it is credited with preventing great-power war since 1945, satisfying *Jus ad bellum* 'probability of success' and 'proportionality' at the macro level.\" Is this a coherent moral position?",
+     "a": "The position is **internally incoherent** because it applies *Jus ad bellum* criteria (which assess the decision to *start* a war) to a *threat posture* designed to *prevent* war. Deterrence relies on the *credible threat* of violating *Jus in bello* (massive non-discriminatory retaliation) to achieve stability. This creates a \"paradox of deterrence\": one must intend to commit a war crime (indiscriminate nuclear strike) to credibly deter. A coherent Just War assessment would require either (a) rejecting deterrence as immoral (pacifist/abolitionist view) or (b) arguing that *threatening* indiscriminate harm is distinct from *inflicting* it — a contested distinction.  \n**Misconception alert:** A student who says \"it's justified because it kept peace\" conflates *prudential* success with *moral* permissibility. This reveals a category error: Just War Theory is deontological (duty-based), not purely consequentialist.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a three-article \"Just War Code\" for a hypothetical student council authorizing a \"water-balloon fight\" against a rival class, incorporating *Jus ad bellum* and *Jus in bello* principles adapted to this context.",
+     "a": "A strong answer will include:  \n**Article I (Jus ad bellum):** Just Cause (e.g., \"unprovoked soaking of our class mascot\"), Legitimate Authority (Student Council President + Faculty Advisor approval), Last Resort (failed negotiation for apology), Proportionality (response limited to one recess period).  \n**Article II (Jus in bello - Discrimination):** Targets limited to consenting participants wearing colored armbands; no bystanders, teachers, or electronic devices.  \n**Article III (Jus in bello - Proportionality):** One balloon per participant per minute; no ice, no slingshots, no targeting faces.  \n**Poor answer indicator:** A code that only lists \"no hitting girls\" or \"teacher permission\" shows inability to abstract the theoretical structure to a new domain. This reveals a lack of conceptual transfer — the student memorized criteria but cannot operationalize them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+# ISC Class 12 Biology — Step Types for Pedagogy
+# Each step has a unique id, name, description, and validation rule
+
+step_types:
+
+  - id: ST_GIVEN
+    name: "Given Data Extraction"
+    description: "Extract and restate the known quantities from the problem statement"
+    display_name: "Given"
+    validate: "non_empty_list"
+    bloom_level: "Remembering"
+
+  - id: ST_APPLY_FORMULA
+    name: "Apply Formula"
+    description: "State and apply the relevant biological formula or law"
+    display_name: "Apply Formula"
+    validate: "expression_valid"
+    bloom_level: "Applying"
+
+  - id: ST_PUNNETT_SQUARE
+    name: "Construct Punnett Square"
+    description: "Draw the Punnett square and list all possible offspring genotypes"
+    display_name: "Punnett Square"
+    validate: "punnett_valid"
+    bloom_level: "Applying"
+
+  - id: ST_RATIO
+    name: "Compute Ratio"
+    description: "Count genotypes/phenotypes and express as a ratio"
+    display_name: "Ratio"
+    validate: "ratio_sum_correct"
+    bloom_level: "Analyzing"
+
+  - id: ST_PROBABILITY
+    name: "Probability Calculation"
+    description: "Use probability rules (product, sum) to compute cross outcomes"
+    display_name: "Probability"
+    validate: "probability_in_0_1"
+    bloom_level: "Applying"
+
+  - id: ST_COMPLEMENT
+    name: "DNA/RNA Base Complement"
+    description: "Find the complementary strand using Chargaff's rules"
+    display_name: "Complement"
+    validate: "complement_valid"
+    bloom_level: "Understanding"
+
+  - id: ST_TRANSCRIPTION
+    name: "Transcription Step"
+    description: "Write mRNA sequence from DNA template"
+    display_name: "Transcription"
+    validate: "transcription_valid"
+    bloom_level: "Applying"
+
+  - id: ST_TRANSLATION
+    name: "Translation Step"
+    description: "Convert mRNA codons to amino acids using the genetic code"
+    display_name: "Translation"
+    validate: "translation_valid"
+    bloom_level: "Applying"
+
+  - id: ST_HW_SETUP
+    name: "Hardy-Weinberg Setup"
+    description: "Identify dominant/recessive alleles and write p + q = 1"
+    display_name: "H-W Setup"
+    validate: "pq_equals_one"
+    bloom_level: "Understanding"
+
+  - id: ST_HW_CALC
+    name: "Hardy-Weinberg Calculation"
+    description: "Compute p, q, and genotype frequencies from data"
+    display_name: "H-W Calculation"
+    validate: "freq_sum_equals_one"
+    bloom_level: "Applying"
+
+  - id: ST_VERIFY_GENETICS
+    name: "Verify Genetic Cross"
+    description: "Back-substitute to confirm ratios sum correctly"
+    display_name: "Verify Cross"
+    validate: "ratio_verified"
+    bloom_level: "Evaluating"
+
+  - id: ST_NUMERICAL_CHECK
+    name: "Numerical Verification"
+    description: "Plug computed values back into the original equation to verify"
+    display_name: "Numerical Check"
+    validate: "check_pass"
+    bloom_level: "Evaluating"
+
+  - id: ST_MENDEL_LAW
+    name: "Identify Mendel's Law"
+    description: "State which Mendelian law applies (Law of Segregation, Independent Assortment, Dominance)"
+    display_name: "Mendel's Law"
+    validate: "law_applicable"
+    bloom_level: "Understanding"
+
+  - id: ST_EVIDENCE
+    name: "State Evidence"
+    description: "Provide biological/observational evidence for an evolutionary claim"
+    display_name: "Evidence"
+    validate: "non_empty"
+    bloom_level: "Remembering"
+
+  - id: ST_INFERENCE
+    name: "Draw Inference"
+    description: "Draw a biological inference from given data or a scenario"
+    display_name: "Inference"
+    validate: "logical_inference"
+    bloom_level: "Analyzing"
+
+  - id: ST_LINKAGE
+    name: "Linkage Analysis"
+    description: "Determine if genes are linked and whether crossing over occurred"
+    display_name: "Linkage Analysis"
+    validate: "recombination_consistent"
+    bloom_level: "Analyzing"
+
+  - id: ST_METABOLIC_EQN
+    name: "Balance Metabolic Equation"
+    description: "Write and balance the chemical equation for photosynthesis or respiration"
+    display_name: "Metabolic Equation"
+    validate: "atoms_balanced"
+    bloom_level: "Applying"
+
+  - id: ST_ENERGY_CALC
+    name: "Energy/ATP Calculation"
+    description: "Calculate ATP yield or energy released in metabolic reactions"
+    display_name: "Energy Calculation"
+    validate: "positive_integer_or_float"
+    bloom_level: "Applying"
+
+  - id: ST_POPULATION_MODEL
+    name: "Population Growth Model"
+    description: "Apply exponential or logistic growth equation to a population"
+    display_name: "Population Model"
+    validate: "population_positive"
+    bloom_level: "Applying"
+
+  - id: ST_ECOLOGY_CALC
+    name: "Ecology Calculation"
+    description: "Compute energy transfer efficiency or ecological pyramids"
+    display_name: "Ecology Calculation"
+    validate: "efficiency_0_to_100"
+    bloom_level: "Applying"
+
+  - id: ST_CLASSIFY
+    name: "Taxonomic Classification"
+    description: "Use a dichotomous key to identify organism's taxonomic rank"
+    display_name: "Classification"
+    validate: "rank_consistent"
+    bloom_level: "Analyzing"
+
+  - id: ST_INDIAN_APPLY
+    name: "Indian Context Application"
+    description: "Apply biological principle to an Indian crop, disease, or conservation scenario"
+    display_name: "Indian Context"
+    validate: "indian_context_present"
+    bloom_level: "Applying"
+
+  - id: ST_CRITICAL_ANALYSIS
+    name: "Critical Analysis"
+    description: "Analyze data, identify patterns, and draw evidence-based conclusions"
+    display_name: "Critical Analysis"
+    validate: "analysis_supported"
+    bloom_level: "Analyzing"
+
+  - id: ST_INNOVATION
+    name: "Innovation/Design Thinking"
+    description: "Propose a biotech solution to a real-world problem (NEP 2020)"
+    display_name: "Innovation"
+    validate: "proposal_viable"
+    bloom_level: "Creating"
+
+  - id: ST_ART_CALC
+    name: "ART Success Rate Calculation"
+    description: "Calculate probability or statistics related to assisted reproductive technology"
+    display_name: "ART Calculation"
+    validate: "percentage_valid"
+    bloom_level: "Applying"
+
+  - id: ST_ETHICS
+    name: "Bioethics Analysis"
+    description: "Analyze ethical implications of a biological practice"
+    display_name: "Ethics Analysis"
+    validate: "argument_coherent"
+    bloom_level: "Evaluating"

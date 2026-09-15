@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_6",
+   "title": "c8_math_ch6_6",
+   "questions": [
+    {
+     "q": "State the distributive property of multiplication over addition for integers \\(a\\), \\(b\\), and \\(c\\). Then write the version for subtraction.",
+     "a": "The distributive property over addition: \\(a(b + c) = ab + ac\\). Over subtraction: \\(a(b - c) = ab - ac\\). This holds for all integers \\(a, b, c\\). A wrong answer (e.g., writing \\(a(b + c) = ab + c\\) or forgetting the subtraction version) reveals the student has memorized a pattern without understanding the structure, or does not recognize that subtraction is addition of a negative and the property applies identically.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(-4 \\times (6 - 3)\\) equals \\((-4 \\times 6) - (-4 \\times 3)\\) using the concept of multiplication as repeated addition or a number line. Why does the minus sign in front of the 3 become a plus sign in the expanded form?",
+     "a": "\\(6 - 3\\) means \\(6 + (-3)\\). By distributive property, \\(-4 \\times (6 + (-3)) = (-4 \\times 6) + (-4 \\times -3)\\). Since \\(-4 \\times -3 = +12\\), this becomes \\(-24 + 12 = -12\\). The minus sign in front of 3 becomes a plus in the expanded form because subtracting a number is adding its negative, and the distributive property distributes over addition. A wrong answer that says \"the two minuses make a plus\" without explaining the additive inverse shows a rote memorization of sign rules without conceptual understanding of why the property holds for negatives.",
+     "self_check": true
+    },
+    {
+     "q": "Expand and simplify: \\(-7(2x - 5y) + 3(-x + 4y)\\).",
+     "a": "Step 1: Distribute \\(-7\\): \\(-7 \\times 2x = -14x\\); \\(-7 \\times (-5y) = +35y\\). So first part: \\(-14x + 35y\\).\nStep 2: Distribute \\(3\\): \\(3 \\times (-x) = -3x\\); \\(3 \\times 4y = 12y\\). So second part: \\(-3x + 12y\\).\nStep 3: Combine: \\(-14x + 35y - 3x + 12y = (-14x - 3x) + (35y + 12y) = -17x + 47y\\).\nA wrong answer like \\(-14x - 35y\\) (sign error on \\(-7 \\times -5y\\)) or \\(-17x + 23y\\) (combining \\(35y + 12y\\) incorrectly) reveals specific sign-rule gaps or like-term combination errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions: \\(A = -5(3 - 8)\\) and \\(B = (-5 \\times 3) - (-5 \\times 8)\\). Without calculating the final numeric value, explain why they must be equal. Then, identify which expression would be easier to evaluate mentally and why.",
+     "a": "They are equal because the distributive property \\(a(b - c) = ab - ac\\) holds for all integers; here \\(a = -5\\), \\(b = 3\\), \\(c = 8\\). Expression \\(A\\) is easier mentally: \\(3 - 8 = -5\\), then \\(-5 \\times -5 = 25\\). Expression \\(B\\) requires two multiplications and a subtraction of a negative: \\(-15 - (-40) = -15 + 40 = 25\\). A student who says \\(B\\) is easier or cannot articulate why the property guarantees equality without computation shows a lack of structural understanding and flexibility in choosing efficient strategies.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified \\(-2(4 - 9)\\) as follows:\nStep 1: \\(-2 \\times 4 = -8\\)\nStep 2: \\(-2 \\times -9 = -18\\)\nStep 3: \\(-8 - 18 = -26\\)\nIs the student's final answer correct? If not, identify the exact step where the error occurred and explain why it is wrong using the sign rules for integer multiplication.",
+     "a": "The student's answer is incorrect. The error is in Step 2: \\(-2 \\times -9\\) should be \\(+18\\) (negative × negative = positive), not \\(-18\\). The correct simplification: \\(-2(4 - 9) = -2 \\times 4 - (-2 \\times 9) = -8 - (-18) = -8 + 18 = 10\\). Alternatively, \\(-2 \\times -5 = 10\\). A wrong evaluation that says \"the answer is correct\" or misidentifies the error reveals the student does not have fluent sign-rule application and cannot self-monitor when distributing a negative over a subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, temperature, elevation, etc.) that requires using the distributive property with a negative integer to solve. Write the problem, the expression that models it, and the solution steps.",
+     "a": "Example problem: \"The temperature in Leh drops by 3°C every hour for 4 hours, but then rises by 2°C for the next 2 hours. Write an expression for the net change using distributive property and find the net change.\" Expression: \\(-3 \\times 4 + 2 \\times 2\\) or using distributive property on a combined rate: \\(-3(4) + 2(2)\\) doesn't directly show distribution. Better: \"A submarine descends 5 m/min for 6 min, then ascends 3 m/min for 6 min. Net change = \\(-5 \\times 6 + 3 \\times 6 = (-5 + 3) \\times 6 = -2 \\times 6 = -12\\) m.\" A poor answer uses only positive numbers, doesn't require distribution of a negative, or shows no real-world context, indicating inability to connect the abstract property to meaningful situations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

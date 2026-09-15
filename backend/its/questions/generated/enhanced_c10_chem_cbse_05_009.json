@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_009",
+   "title": "c10_chem_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define metallic character and state how it changes across a period from left to right in the Modern Periodic Table.",
+     "a": "Metallic character is the tendency of an atom to lose electrons and form positive ions. Across a period from left to right, metallic character decreases because increasing nuclear charge and decreasing atomic radius make it harder for atoms to lose electrons. A wrong answer (e.g., \"metallic character increases across a period\") reveals the student confuses the trend with atomic size or does not link nuclear charge to electron loss tendency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why non-metallic character increases across a period but decreases down a group, using the concepts of atomic size and nuclear charge.",
+     "a": "Across a period, atomic size decreases and effective nuclear charge increases, so the nucleus attracts incoming electrons more strongly, enhancing non-metallic character (tendency to gain electrons). Down a group, atomic size increases and shielding reduces effective nuclear pull, making electron gain less favourable, so non-metallic character decreases. A wrong answer that only mentions \"atomic size increases down a group\" without linking to shielding and effective nuclear charge shows incomplete understanding of the competing factors.",
+     "self_check": true
+    },
+    {
+     "q": "Element X is in Group 14 and Period 3. Element Y is in Group 14 and Period 5. Which element has greater metallic character? Justify your answer using periodic trends.",
+     "a": "Element Y (Period 5) has greater metallic character than Element X (Period 3). Down a group, atomic size increases and shielding effect increases, reducing the hold of the nucleus on valence electrons, making electron loss easier. Therefore, metallic character increases down the group. A wrong answer choosing X indicates the student may think metallic character decreases down a group or confuses the trend with non-metallic character.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metallic character of aluminium (Al, Group 13, Period 3) and gallium (Ga, Group 13, Period 4). Predict which one forms a more basic oxide and explain why.",
+     "a": "Gallium (Ga) has greater metallic character than aluminium (Al) because it is lower in the same group; increased atomic size and shielding make electron loss easier. Therefore, Ga₂O₃ is more basic than Al₂O₃ (which is amphoteric). A wrong answer stating Al is more metallic or that both oxides are equally basic reveals confusion about the diagonal relationship or the trend down a group.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Silicon is a metal because it is shiny and conducts electricity slightly.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is incorrect. Silicon is a metalloid — it shows properties of both metals (shiny appearance, semiconductivity) and non-metals (brittle, forms covalent bonds). Metallic character is defined by the tendency to lose electrons and form basic oxides, not just physical appearance. Silicon forms acidic oxide (SiO₂) and covalent compounds, confirming its non-metallic dominance. A wrong answer accepting the claim shows the student equates physical properties (lustre, conductivity) with chemical metallic character.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using dilute hydrochloric acid to compare the metallic character of magnesium (Mg), aluminium (Al), and zinc (Zn). State the expected observations and how they relate to periodic trends.",
+     "a": "Place equal masses of Mg, Al, and Zn in separate test tubes with dilute HCl. Observe the rate of hydrogen gas evolution. Mg (Group 2, Period 3) reacts fastest, then Zn (Group 12, Period 4), then Al (Group 13, Period 3) which has a protective oxide layer. The trend in reactivity (metallic character) across Period 3: Mg > Al, but down Group 2: Mg < Ca (not tested). A poor answer that expects Al to react fastest because it's \"more metallic\" or ignores the oxide layer shows lack of application of trends to real chemical behaviour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

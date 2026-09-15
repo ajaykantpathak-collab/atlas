@@ -1,0 +1,203 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 102,
+ "chapter_title": "Nelson Mandela: Long Walk to Freedom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jeff102.txt",
+ "concepts": [
+  {
+   "id": "jeff.102.1.1",
+   "title": "The Inauguration of a Democratic South Africa",
+   "section": "Part I",
+   "definition": "On 10 May 1994 leaders and dignitaries gathered at the Union Buildings amphitheatre in Pretoria for the inauguration of South Africa's first democratic, non-racial government, with military generals saluting Mandela, once a prisoner.",
+   "formula": "",
+   "key_idea": "The sight of jets trailing smoke in the colours of the new flag and generals who would have arrested him saluting him marks the triumph of justice over apartheid.",
+   "textbook_ref": "jeff102.txt lines 60-160",
+   "question_patterns": [
+    "where and when did the inauguration ceremony take place",
+    "why did military generals salute mandela at the inauguration",
+    "what pledge did mandela take at the ceremony",
+    "describe the scene of the inauguration of the new government",
+    "who became the first black president of south africa",
+    "what do the smoke trails of the jets stand for"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "confirm the event and venue",
+     "explain": "Check the details: 10 May, the Union Buildings amphitheatre, Pretoria, with international leaders present."
+    },
+    {
+     "step": 2,
+     "action": "note the symbolic reversals",
+     "explain": "Generals who would once have jailed Mandela now salute him; jets trail the new flag's colours."
+    },
+    {
+     "step": 3,
+     "action": "verify the pledge",
+     "explain": "The two deputies pledged to obey and uphold the Constitution and devote themselves to the well being of the republic."
+    }
+   ]
+  },
+  {
+   "id": "jeff.102.1.2",
+   "title": "Apartheid and Mandela's Idea of Courage",
+   "section": "Part I",
+   "definition": "Apartheid was a system of racial segregation that brutalised South Africa, and Mandela says courage is not the absence of fear but the triumph over it, learned from those who fought oppression.",
+   "formula": "",
+   "key_idea": "Mandela counts himself the sum of all those who sacrificed before him, and defines the brave man as one who conquers fear rather than one who never feels it.",
+   "textbook_ref": "jeff102.txt lines 150-260",
+   "question_patterns": [
+    "what does courage mean to mandela",
+    "which system of segregation did south africa practise",
+    "who does mandela thank for his attainment of freedom",
+    "why does mandela call himself the sum of all african patriots",
+    "is the brave man without fear according to mandela",
+    "what was the greatest wealth of mandela's country"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define apartheid",
+     "explain": "Identify apartheid as political and social separation by race that created white domination."
+    },
+    {
+     "step": 2,
+     "action": "test the definition of courage",
+     "explain": "Courage means not being overcome by fear; fear can be conquered, not abolished."
+    },
+    {
+     "step": 3,
+     "action": "verify the debt to others",
+     "explain": "Mandela sees himself as the product of countless martyrs and heroes, the sum of all African patriots."
+    }
+   ]
+  },
+  {
+   "id": "jeff.102.2.1",
+   "title": "Twin Obligations to Family and Country",
+   "section": "Part II",
+   "definition": "Every person carries twin obligations: one to the family, parents, wife and children, and another to the people, community and country, and Mandela could not fulfil the first without betraying the second under apartheid.",
+   "formula": "",
+   "key_idea": "Honouring family duties brought him isolation as a young man, so he was forced to weigh his people's freedom against personal life.",
+   "textbook_ref": "jeff102.txt lines 260-360",
+   "question_patterns": [
+    "what twin obligations does every man have according to mandela",
+    "how did apartheid interfere with mandela's family obligations",
+    "what happened to mandela when he honoured his family obligation",
+    "why was mandela separated from his family in the struggle",
+    "explain the two kinds of duty described by mandela",
+    "could mandela serve both his family and his people at once"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the two duties",
+     "explain": "Family duty covers parents, wife and children; public duty covers people, community and country."
+    },
+    {
+     "step": 2,
+     "action": "show the clash under apartheid",
+     "explain": "The regime twisted family duty into betrayal of the people, forcing him into isolation from home."
+    },
+    {
+     "step": 3,
+     "action": "verify the choice made",
+     "explain": "Mandela kept the people's freedom first, which cost him family life and personal liberty."
+    }
+   ]
+  },
+  {
+   "id": "jeff.102.2.2",
+   "title": "Transitory Freedoms and Basic Honourable Freedoms",
+   "section": "Part II",
+   "definition": "As a boy Mandela enjoyed transitory freedoms of running in fields, swimming and roasting mealies, while as a student he hungered for basic honourable freedoms of earning his keep, marrying and living where he chose.",
+   "formula": "",
+   "key_idea": "Gradually he saw that his boyhood freedom was an illusion: when he learnt his birth hid chains, his hunger for freedom became the desire for his people's liberty.",
+   "textbook_ref": "jeff102.txt lines 300-420",
+   "question_patterns": [
+    "what did being free mean to mandela as a boy and as a student",
+    "distinguish transitory freedoms from basic and honourable freedoms",
+    "what boyhood freedoms does mandela recall",
+    "when did mandela realise his freedom was an illusion",
+    "why did mandela join the african national congress",
+    "what is the hunger for freedom that mandela describes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the boyhood freedoms",
+     "explain": "Running in fields, swimming in streams, roasting mealies and riding bulls, unaware of chains."
+    },
+    {
+     "step": 2,
+     "action": "list the adult freedoms",
+     "explain": "Earning a livelihood, marrying, having a family and living with dignity wherever one chooses."
+    },
+    {
+     "step": 3,
+     "action": "trace the awakening",
+     "explain": "Discovering that his birth hid chains turned the personal desire for freedom into a longing for his people's liberty."
+    }
+   ]
+  },
+  {
+   "id": "jeff.102.3.1",
+   "title": "The Oppressor and the Oppressed Are Both Robbed",
+   "section": "Part II",
+   "definition": "Mandela holds that the oppressor and the oppressed alike are robbed of humanity: the prisoner loses freedom while the oppressor loses his humanity, and both must be set free.",
+   "formula": "",
+   "key_idea": "No one is born hating another person; people learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart.",
+   "textbook_ref": "jeff102.txt lines 380-460",
+   "question_patterns": [
+    "does mandela think the oppressor is free why or why not",
+    "how are both the oppressed and the oppressor robbed of humanity",
+    "which does mandela think is natural to love or to hate",
+    "explain the idea that love comes more naturally to the human heart",
+    "why does the oppressor need to be set free",
+    "how can a person learn to love according to mandela"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the double robbery",
+     "explain": "The oppressed lose freedom and dignity; the oppressor takes another's freedom and thereby loses their own humanity."
+    },
+    {
+     "step": 2,
+     "action": "trace the learning of hate",
+     "explain": "Hate is learned, so it can be unlearned, and love is the truer instinct of the human heart."
+    },
+    {
+     "step": 3,
+     "action": "verify the conclusion",
+     "explain": "Both oppressor and oppressed must be liberated for a free nation to exist."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jeff102.txt lines 240-560",
+   "questions": [
+    "Where did the ceremonies take place? Can you name any public buildings in India that are made of sandstone?",
+    "Can you say how 10 May is an 'autumn day' in South Africa?",
+    "At the beginning of his speech, Mandela mentions 'an extraordinary human disaster'. What does he mean by this?",
+    "What does Mandela thank the international leaders for?",
+    "What ideals does Mandela set out for the future of South Africa?",
+    "What 'twin obligations' does Mandela mention?",
+    "What did being free mean to Mandela as a boy, and as a student?",
+    "Does Mandela think the oppressor is free? Why/Why not?",
+    "What does courage mean to Mandela?",
+    "Which does he think is natural, to love or to hate?"
+   ]
+  }
+ ]
+}

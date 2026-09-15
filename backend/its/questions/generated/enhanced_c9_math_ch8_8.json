@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_8",
+   "title": "c9_math_ch8_8",
+   "questions": [
+    {
+     "q": "A sequence is given as \\( 5, 15, 45, 135, \\ldots \\). State the first term \\( a \\) and the common ratio \\( r \\) of this geometric progression.",
+     "a": "The first term \\( a = 5 \\). The common ratio \\( r = \\frac{15}{5} = 3 \\) (verified by \\( \\frac{45}{15} = 3 \\) and \\( \\frac{135}{45} = 3 \\)). A wrong answer like \\( r = 10 \\) (using difference instead of ratio) reveals the student is confusing GP with AP and applying additive thinking to a multiplicative pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sequence \\( 2, -6, 18, -54, \\ldots \\) is a geometric progression. What is its common ratio, and why does the sign alternate?",
+     "a": "The sequence is a GP because each term is obtained by multiplying the previous term by \\( -3 \\): \\( 2 \\times (-3) = -6 \\), \\( -6 \\times (-3) = 18 \\), \\( 18 \\times (-3) = -54 \\). The common ratio is \\( r = -3 \\). The sign alternates because multiplying by a negative number flips the sign each time. A wrong answer stating \\( r = 3 \\) (ignoring the sign) reveals the student does not understand that the common ratio carries the sign and magnitude, and that \\( r \\) can be negative.",
+     "self_check": true
+    },
+    {
+     "q": "The first term of a GP is \\( \\frac{1}{2} \\) and the common ratio is \\( \\frac{2}{3} \\). Write the first four terms of this progression.",
+     "a": "Step 1: \\( a = \\frac{1}{2} \\). Step 2: \\( r = \\frac{2}{3} \\). Step 3: Second term \\( = a \\times r = \\frac{1}{2} \\times \\frac{2}{3} = \\frac{1}{3} \\). Step 4: Third term \\( = \\frac{1}{3} \\times \\frac{2}{3} = \\frac{2}{9} \\). Step 5: Fourth term \\( = \\frac{2}{9} \\times \\frac{2}{3} = \\frac{4}{27} \\). The first four terms are \\( \\frac{1}{2}, \\frac{1}{3}, \\frac{2}{9}, \\frac{4}{27} \\). A wrong answer like \\( \\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}, \\frac{1}{5} \\) reveals the student is adding a constant difference to the denominator (pattern matching) instead of multiplying by \\( r \\).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the sequence: \\( 10, 5, 2.5, 1.25, \\ldots \\) and \\( 10, 5, 0, -5, \\ldots \\). Which one is a geometric progression? Justify your answer by comparing the nature of the pattern in each.",
+     "a": "The first sequence \\( 10, 5, 2.5, 1.25, \\ldots \\) is a GP with \\( r = 0.5 \\) (each term is half the previous). The second sequence \\( 10, 5, 0, -5, \\ldots \\) is an AP with \\( d = -5 \\) (subtracting 5 each time), not a GP because the ratio \\( \\frac{5}{10} = 0.5 \\) but \\( \\frac{0}{5} = 0 \\) and \\( \\frac{-5}{0} \\) is undefined. A wrong answer identifying both as GP reveals the student checks only the first ratio and assumes the pattern holds without verifying subsequent terms.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the sequence \\( 0, 0, 0, 0, \\ldots \\) is a geometric progression with common ratio \\( r = 5 \\). Evaluate this claim. Is the student correct? Why or why not?",
+     "a": "The claim is incorrect. While the sequence of all zeros can be considered a trivial GP (with any \\( r \\) if we define \\( 0 \\times r = 0 \\)), the standard definition requires a fixed non-zero first term \\( a \\) and a fixed non-zero common ratio \\( r \\). If \\( a = 0 \\), every term is 0 regardless of \\( r \\), making \\( r \\) indeterminate. By convention, we exclude \\( a = 0 \\) or \\( r = 0 \\) to avoid degenerate cases. A wrong answer accepting the claim reveals the student does not understand the definitional constraints that \\( a \\neq 0 \\) and \\( r \\neq 0 \\) for a meaningful GP.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (in an Indian context) that generates a geometric progression with first term \\( a = 2000 \\) and common ratio \\( r = 1.05 \\). Describe the situation and list the first four terms.",
+     "a": "Situation: \"Riya invests ₹2000 in a savings scheme that gives 5% compound interest per year, compounded annually. The amount at the end of each year forms a GP.\" First term (initial amount) \\( a = 2000 \\). \\( r = 1 + \\frac{5}{100} = 1.05 \\). Terms: Year 0: ₹2000; Year 1: \\( 2000 \\times 1.05 = ₹2100 \\); Year 2: \\( 2100 \\times 1.05 = ₹2205 \\); Year 3: \\( 2205 \\times 1.05 = ₹2315.25 \\). A poor answer using simple interest (adding ₹100 each year) reveals the student cannot distinguish between additive (AP) and multiplicative (GP) growth in financial contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

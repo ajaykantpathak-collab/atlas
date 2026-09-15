@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_3",
+   "title": "c9_geo_ch2_3",
+   "questions": [
+    {
+     "q": "State the standard atmospheric pressure at sea level in millibars and name the instrument used to measure it.",
+     "a": "Standard atmospheric pressure at sea level is 1013.25 mb, measured by a mercury barometer or aneroid barometer. A wrong answer (e.g., 1000 mb or using a thermometer) reveals confusion between pressure units and temperature instruments, indicating the student has not internalized the basic measurement concept from earlier classes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equatorial region experiences low pressure throughout the year while the subtropical zones (around 30°N/S) have high pressure, even though both receive strong solar radiation.",
+     "a": "The equatorial low forms because intense, year-round heating causes air to rise continuously, creating a zone of convergence and low surface pressure. Subtropical highs form because the rising equatorial air moves poleward, cools, and descends around 30° latitude due to Coriolis deflection and radiative cooling, piling up air at the surface. A wrong answer that attributes subtropical highs only to \"cooling\" without mentioning descending air and Coriolis effect shows a missing link between vertical motion and horizontal pressure patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station at 1,500 m above sea level records a pressure of 850 mb. Using the standard approximation that pressure decreases by 1 mb per 10 m of ascent in the lower troposphere, calculate the expected sea-level pressure for this station. Show your steps.",
+     "a": "Step 1: Height difference = 1,500 m. Step 2: Pressure decrease ≈ 1,500 m ÷ 10 m/mb = 150 mb. Step 3: Sea-level pressure = station pressure + decrease = 850 mb + 150 mb = 1,000 mb. Step 4: Compare with standard 1013 mb; the difference (13 mb) reflects local temperature/humidity deviations. A wrong calculation (e.g., subtracting instead of adding) reveals the student does not grasp that pressure increases downward, a fundamental vertical distribution concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the seasonal shift of the Intertropical Convergence Zone (ITCZ) over the Indian subcontinent with its position over the Atlantic Ocean. Why does the ITCZ move farther north over land than over ocean at the same longitude?",
+     "a": "Over India, the ITCZ shifts to 25°N–30°N in summer because the Tibetan Plateau and continental landmass heat intensely, creating a strong thermal low that pulls the equatorial trough northward. Over the Atlantic, the ITCZ stays near 10°N because oceans have higher heat capacity and warm less, producing a weaker thermal contrast. An answer that ignores land-sea thermal contrast or the role of the Tibetan Plateau shows inability to connect horizontal pressure distribution to surface properties and regional geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Vertical pressure distribution is linear; if pressure halves at 5.5 km, it will be zero at 11 km.\" Justify your evaluation using the concept of air compressibility.",
+     "a": "The statement is false. Air is compressible: density decreases with height, so the rate of pressure drop slows aloft. Pressure halves roughly every 5.5 km in the lower troposphere, but at 11 km it is about 250 mb (not zero), and at 50 km it is ~1 mb. A student who agrees with the statement treats air as incompressible like water, missing the exponential nature of the barometric formula and the role of gravity acting on a compressible fluid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a syringe, a small balloon, and a ruler to demonstrate how air pressure changes with volume (simulating altitude). Describe the procedure, what you would measure, and how it relates to vertical pressure distribution in the atmosphere.",
+     "a": "Procedure: Trap air in a sealed syringe, note initial volume (V₁) at room pressure. Pull the plunger to increase volume to V₂, measure the new volume. The trapped air expands, pressure drops (Boyle's Law: P₁V₁ = P₂V₂). Relate: As altitude increases, the \"volume\" available to an air parcel increases because overlying weight decreases, so pressure drops. A poor answer that only describes the syringe without linking volume change to altitude-induced pressure drop shows failure to transfer the lab model to the atmospheric scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

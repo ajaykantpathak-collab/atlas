@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_5",
+   "title": "c9_math_ch7_5",
+   "questions": [
+    {
+     "q": "Define sample space in your own words and give the sample space for tossing a single coin.",
+     "a": "Sample space is the set of all possible outcomes of a random experiment. For a single coin toss, S = {H, T}. A wrong answer like \"sample space is the probability of heads\" reveals confusion between the set of outcomes and the probability measure. If a student writes {H} or {T}, they misunderstand that both outcomes must be included.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why listing outcomes systematically (using a tree diagram or table) is important when the experiment has two stages, like tossing two coins.",
+     "a": "Systematic listing ensures every combination is captured exactly once and prevents missing outcomes (like forgetting TH) or double-counting. A student who says \"it's just to be neat\" misses the mathematical reason: without a system, human intuition often treats HT and TH as the same outcome, leading to an incorrect sample space of size 3 instead of 4.",
+     "self_check": true
+    },
+    {
+     "q": "List the sample space for the experiment: \"Roll a standard six-sided die and toss a coin.\" Use set notation.",
+     "a": "S = {(1,H), (1,T), (2,H), (2,T), (3,H), (3,T), (4,H), (4,T), (5,H), (5,T), (6,H), (6,T)}. There are 12 outcomes. A wrong answer with only 6 outcomes (e.g., {1H, 2H, ...}) reveals the student only paired each die face with one coin side. Missing parentheses or using {1H, 1T, ...} without ordered pairs shows notation confusion but correct counting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sample space for \"rolling one die twice\" and \"rolling two dice simultaneously.\" Are they the same or different? Justify.",
+     "a": "They are the same: both have 36 ordered pairs (1,1) to (6,6). The physical process differs but the set of possible outcomes is identical because each die is distinct in outcome (first roll vs second roll, or die A vs die B). A student who says \"different because one is sequential\" confuses the experiment's procedure with its outcome set. A student who says \"same because both have 36 outcomes\" but cannot explain ordered pairs shows surface-level understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the sample space for tossing two coins as S = {HH, HT, TT}. Evaluate this answer: is it correct? If not, what is the error and why does it matter for probability?",
+     "a": "Incorrect. The outcome TH is missing. The error is treating HT and TH as identical because the coins look alike. This matters because if we use this wrong sample space (size 3), the probability of \"one head and one tail\" becomes 1/3 instead of the correct 2/4 = 1/2. A student who says \"it's correct because order doesn't matter\" reveals the classic misconception that indistinguishable coins produce unordered outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a random experiment that has exactly 12 equally likely outcomes. Describe the experiment and list its sample space.",
+     "a": "Example: Roll a standard die (6 outcomes) and toss a coin (2 outcomes) → 6×2=12 outcomes. Sample space: {(1,H), (1,T), ..., (6,T)}. A poor answer like \"toss a coin 12 times\" shows misunderstanding of \"equally likely outcomes\" (that would have 2^12 outcomes). An answer like \"draw a card from a 12-card deck\" is valid but less creative. The key is the student can construct a compound experiment with a product of 12.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

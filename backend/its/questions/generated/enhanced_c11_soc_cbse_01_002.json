@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_002",
+   "title": "c11_soc_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define \"sociological imagination\" in C. Wright Mills' own words, specifying the two key elements it enables us to grasp.",
+     "a": "Correct answer: \"The sociological imagination enables us to grasp history and biography and the relations between the two within society.\" A wrong answer that only mentions \"understanding society\" or \"seeing things from others' perspective\" reveals the student has confused sociological imagination with empathy or general sociological perspective, missing Mills' precise dual focus on biography/history and their structural interconnection.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Mills argues that \"neither the life of an individual nor the history of a society can be understood without understanding both.\" Use the example of unemployment from the textbook.",
+     "a": "Correct answer: Unemployment appears as a personal trouble (one man jobless) but when millions are unemployed across industries due to investment rate drops or war, it becomes a public issue rooted in economic structure. Understanding only the individual's resume misses the structural cause; understanding only macroeconomic data misses the lived experience. A wrong answer that treats them as separate realms (\"individual psychology vs macroeconomics\") reveals failure to grasp the dialectical unity Mills insists upon.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 girl in a rural Bihar school wants to study Computer Science but is pressured to take Home Science. Using Mills' framework, identify this as a personal trouble and name THREE specific structural/institutional factors that convert it into a public issue.",
+     "a": "Correct answer: Personal trouble = her individual subject choice conflict. Public issue factors: (1) Gendered curriculum tracking (cultural norm), (2) Absence of Computer Science teachers in rural schools (state education policy), (3) Patriarchal family economy prioritizing daughters' marriageability over careers (kinship structure). A wrong answer listing only \"society's mindset\" or \"parental pressure\" reveals inability to distinguish distinct institutional mechanisms (policy, culture, economy) — a key analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"naturalistic explanation\" of poverty (\"people are poor because they are lazy/bad at budgeting\") with the \"sociological explanation\" given in the textbook (\"structure of inequality in class society\"). What specific analytical move does the sociological imagination perform that naturalistic explanation fails to do?",
+     "a": "Correct answer: The sociological imagination shifts the unit of analysis from *individual attributes* (laziness, intelligence) to *structural relations* (class inequality, irregular work, low wages). It asks: \"How does the social structure *produce* these outcomes?\" rather than \"What is wrong with these people?\" A wrong answer that says \"sociological explanation blames society instead of individuals\" reveals a moralistic misunderstanding — sociology explains causation, it doesn't assign blame.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using Mills: \"The Pradhan Mantri Awas Yojana-Gramin solves homelessness by giving houses to poor families. Therefore, homelessness is a solved public issue.\" Evaluate whether this policy response addresses the structural roots Mills would identify.",
+     "a": "Correct answer: The scheme addresses a *symptom* (houselessness) but not necessarily the *structural causes* Mills highlights: rural-urban migration driven by agrarian distress, caste-based landlessness, casualization of labor, or urban planning that excludes the poor. A policy can mitigate a public issue without resolving its structural generation. A wrong answer that praises the scheme uncritically reveals inability to distinguish between amelioration and structural transformation — a core evaluative skill in sociology.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original Indian example (not from textbook) showing a personal trouble that is actually a public issue. Structure it as: (a) the personal trouble, (b) the public issue, (c) three structural mechanisms linking them.",
+     "a": "Good answer example: (a) Personal trouble: A Dalit youth in Tamil Nadu cleans septic tanks manually despite having a degree. (b) Public issue: Manual scavenging persistence despite legal ban. (c) Mechanisms: (1) Caste-based occupational heredity (cultural), (2) Municipal outsourcing to contractors bypassing safety laws (political-economic), (3) Lack of alternative employment in rural non-farm sector (economic). Poor answer: vague \"discrimination\" without naming specific institutions reveals failure to operationalize \"social structure.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

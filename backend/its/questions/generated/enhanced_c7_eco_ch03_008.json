@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_008",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_008",
+   "title": "c7_eco_ch03_008",
+   "questions": [
+    {
+     "q": "What term describes the essential physical and social networks—such as transport, power, and communication—that enable an economy to function and grow?",
+     "a": "The correct answer is infrastructure. A student who answers \"money\" or \"markets\" confuses the medium of exchange or the place of trade with the foundational physical structures that support production and distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the construction of a national highway network typically lead to an increase in manufacturing factories along its route?",
+     "a": "The correct answer is that highways reduce transportation time and shipping costs for raw materials and finished goods, making those locations attractive for business investment. A student who answers \"because land is free near highways\" misunderstands the primary economic driver, which is the reduction of logistical costs rather than zero land cost.",
+     "self_check": true
+    },
+    {
+     "q": "A state government invests 100 crore rupees to build reliable electricity grids in 50 rural districts, reducing factory power outages from 8 hours to zero daily. If a small textile unit previously produced 100 shirts per day due to shutdowns and now produces 250 shirts per day, calculate the percentage increase in daily production.",
+     "a": "The correct answer is a 150% increase. \nWorking steps:\n1. Identify initial output ($Q_1$) = 100 shirts/day.\n2. Identify new output ($Q_2$) = 250 shirts/day.\n3. Calculate the change in output: $250 - 100 = 150$ shirts/day.\n4. Apply the percentage formula: $(\\text{Change} / \\text{Initial}) \\times 100 = (150 / 100) \\times 100 = 150\\%$.\nA student who answers \"150 shirts\" has calculated the absolute change instead of the percentage increase, failing to scale the result against the starting production level.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a breakdown in digital communication infrastructure (such as internet cables and telecom towers) affects the daily financial transactions and supply chains of e-commerce businesses across India.",
+     "a": "The correct answer is that a communication breakdown halts order processing, digital payments, and inventory tracking, causing severe revenue losses and supply chain bottlenecks because modern economic transactions rely heavily on real-time data flow. A student who believes e-commerce can operate normally without internet infrastructure ignores the dependency of digital markets on communication networks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether spending public funds on building rural irrigation canals and storage warehouses is more effective for long-term agricultural development than simply giving direct cash handouts to farmers every year.",
+     "a": "The correct answer is that infrastructure investment creates permanent productive capacity by enabling year-round farming and reducing crop loss, whereas cash handouts provide only temporary relief without solving structural production barriers. A student who claims cash handouts are always superior ignores how infrastructure compounds economic growth by permanently lowering costs and increasing farm yields.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a two-step infrastructure development plan for a landlocked district in central India that has high mineral wealth but low employment and factory presence.",
+     "a": "The correct answer should include: Step 1: Build heavy-duty freight rail and road corridors connecting the district's mines to major industrial ports. Step 2: Establish a stable industrial power grid and digital communication hub near the mining zones to attract private manufacturing and processing units. A poor answer would suggest giving loans to citizens without addressing the physical transport and power bottlenecks preventing factories from opening.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

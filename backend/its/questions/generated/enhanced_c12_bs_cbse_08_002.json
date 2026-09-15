@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_002",
+   "title": "c12_bs_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the first step in the controlling process according to NCERT, and why must standards be set in quantitative terms wherever possible?",
+     "a": "The first step is setting performance standards. Standards should be quantitative (e.g., \"produce 5,000 units/day\") because they make comparison with actual performance objective, precise, and easy. A wrong answer like \"measuring actual performance\" shows the student confuses sequence; saying \"qualitative standards are better\" reveals misunderstanding that qualitative standards (e.g., \"improve morale\") are harder to measure and compare.",
+     "self_check": true
+    },
+    {
+     "q": "A manager measures actual performance only after the task is fully completed. According to the textbook, when should measurement ideally happen, and why?",
+     "a": "Measurement should happen during performance wherever possible (e.g., checking each part before assembly, continuous gas monitoring). This allows early detection and correction. A student who says \"after completion\" misses the textbook's emphasis on concurrent measurement for timely control; they confuse controlling with post-mortem inspection.",
+     "self_check": true
+    },
+    {
+     "q": "In a manufacturing company, labour cost increased by 5% and postal charges increased by 15%. Using critical point control, which deviation should management focus on and why?",
+     "a": "Management should focus on the 5% labour cost increase because labour cost is a Key Result Area (KRA) critical to organisational success, while postal charges are insignificant. A student who picks the 15% postal increase fails to understand that critical point control prioritises impact on goals, not percentage magnitude. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Critical Point Control\" and \"Management by Exception\". How do they work together in the analysing deviations step?",
+     "a": "Critical Point Control identifies Key Result Areas (KRAs) to monitor; Management by Exception states only deviations beyond permissible limits in those KRAs should be reported to top management. Together, they ensure managers focus time on significant deviations in critical areas. A student who says they are the same concept or that Management by Exception means ignoring small deviations in all areas (not just KRAs) shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A company sets a standard of 2% allowable defect rate. Actual defects are 2.5%. The production manager argues this is within acceptable limits because \"it's close\". Evaluate this argument using the controlling process principles.",
+     "a": "The argument is invalid. The controlling process requires pre-defined acceptable deviation ranges. If 2% is the standard, any deviation beyond it (even 0.1%) must be analysed and reported if it's a KRA. \"Close\" is subjective; control demands objectivity. A student who accepts the manager's view misunderstands that standards are benchmarks, not rough targets, and that analysing deviations requires adherence to pre-set limits.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a service organisation uses all five steps of the controlling process. Include at least one qualitative standard and show how management by exception is applied.",
+     "a": "Example: A Bengaluru-based food delivery app sets standards: (1) Quantitative: 30-minute average delivery time; Qualitative: Customer satisfaction ≥ 4.5/5. (2) Measures actual: 35 min avg, 4.2 rating. (3) Compares: Both deviations negative. (4) Analyses: Uses critical point control — delivery time is KRA; satisfaction is secondary. Management by exception: Only delivery time deviation (>5 min beyond limit) escalated to CEO. (5) Corrective: Hires more delivery partners, optimises routing algorithm. A poor answer lacks qualitative standard, misses KRA focus, or doesn't show exception reporting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

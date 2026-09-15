@@ -1,0 +1,439 @@
+{
+ "catalog": "catalog_class12_accountancy_leac103",
+ "concepts": [
+  {
+   "id": "leac.103.1.1",
+   "title": "Amount Due to a Retiring Partner",
+   "questions": [
+    {
+     "q": "Using the method 'Amount Due to a Retiring Partner', work with: capital_plus_entitlements = 500, deductions = 80. Carry the chain through step by step and give the final value of claim_amount.",
+     "a": "420 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Amount Due to a Retiring Partner' and work with: capital_plus_entitlements = 80000, deductions = 10. Carry the chain through step by step and give the final value of claim_amount.",
+     "a": "79990 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Amount Due to a Retiring Partner' refers to.",
+     "a": "The outgoing partner's claim is built up from his capital and current balances, his slice of goodwill, reserves, revaluation gain and profit earned till exit, and cut down by drawings, accumulated losses and revaluation loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Amount Due to a Retiring Partner'.",
+     "a": "Everything the firm owes him on the exit date goes into one claim, then it is settled in cash, as a loan, or in instalments.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Amount Due to a Retiring Partner', in plain ASCII form.",
+     "a": "claim_amount = capital_plus_entitlements - deductions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.2.1",
+   "title": "New Share of a Continuing Partner",
+   "questions": [
+    {
+     "q": "Find the new profit sharing ratio when a partner retires. Use the method 'New Share of a Continuing Partner'. Work with: gain_fraction = 0.3, old_share_fraction = 0.2, outgoing_share_fraction = 0.25. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0.275 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the remaining partner's share after taking over part of the retiring partner's share. Use the method 'New Share of a Continuing Partner'. Work with: gain_fraction = 0.8, old_share_fraction = 0.35, outgoing_share_fraction = 0.3. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0.59 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'New Share of a Continuing Partner' refers to.",
+     "a": "After an outgoing partner leaves, each continuing partner's fresh entitlement is his own old fraction plus whatever part of the leaver's slice he picks up.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'New Share of a Continuing Partner'.",
+     "a": "If the leaver's share is absorbed in the old proportion, the survivors' ratio stays exactly as before.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'New Share of a Continuing Partner', in plain ASCII form.",
+     "a": "partner_new_share = old_share_fraction + acquired_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.3.1",
+   "title": "Gaining Share of a Continuing Partner",
+   "questions": [
+    {
+     "q": "How much share does the continuing partner gain on retirement? Use the method 'Gaining Share of a Continuing Partner'. Work with: new_share_fraction = 0.4, old_share_fraction = 0.2. Carry the chain through step by step and give the final value of gaining_share.",
+     "a": "0.2 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the gaining share of each remaining partner. Use the method 'Gaining Share of a Continuing Partner'. Work with: new_share_fraction = 0.3, old_share_fraction = 0.35. Carry the chain through step by step and give the final value of gaining_share.",
+     "a": "-0.05 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gaining Share of a Continuing Partner' refers to.",
+     "a": "The piece of the departing partner's share that one continuing partner actually picks up equals his fresh fraction less the fraction he held before.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gaining Share of a Continuing Partner'.",
+     "a": "A minus figure would mean the partner gave up share, so he compensates instead of being compensated.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gaining Share of a Continuing Partner', in plain ASCII form.",
+     "a": "gaining_share = new_share_fraction - old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.3.2",
+   "title": "Gaining Ratio",
+   "questions": [
+    {
+     "q": "Calculate the gaining ratio of the remaining partners. Use the method 'Gaining Ratio'. Work with: gains_of_remaining_partners_in_lowest_terms = 60. Carry the chain through step by step and give the final value of gaining_ratio.",
+     "a": "60 times",
+     "self_check": false
+    },
+    {
+     "q": "Find the ratio in which the continuing partners acquire the outgoing partner's share. Use the method 'Gaining Ratio'. Work with: gains_of_remaining_partners_in_lowest_terms = 240. Carry the chain through step by step and give the final value of gaining_ratio.",
+     "a": "240 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gaining Ratio' refers to.",
+     "a": "Placing each continuing partner's gain side by side gives the gaining ratio, the proportion in which goodwill compensation is charged to them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gaining Ratio'.",
+     "a": "The remaining partners who gain compensate the leaver for goodwill strictly in this ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gaining Ratio', in plain ASCII form.",
+     "a": "gaining_ratio = gains_of_remaining_partners_in_lowest_terms",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.4.1",
+   "title": "Retiring Partner's Share of Goodwill",
+   "questions": [
+    {
+     "q": "Calculate the retiring partner's share of goodwill. Use the method 'Retiring Partner's Share of Goodwill'. Work with: firm_goodwill = 50, old_share_fraction = 0.45. Carry the chain through step by step and give the final value of retiring_goodwill_share.",
+     "a": "22.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much goodwill is due to the partner who retires? Use the method 'Retiring Partner's Share of Goodwill'. Work with: firm_goodwill = 40, old_share_fraction = 0.45. Carry the chain through step by step and give the final value of retiring_goodwill_share.",
+     "a": "18 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Retiring Partner's Share of Goodwill' refers to.",
+     "a": "The leaver carried part of the firm's reputation, so his slice equals the valued goodwill times his old profit fraction, charged to the gainers in their gaining ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Retiring Partner's Share of Goodwill'.",
+     "a": "Goodwill earned with everyone's efforts is paid out to the one who exits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Retiring Partner's Share of Goodwill', in plain ASCII form.",
+     "a": "retiring_goodwill_share = firm_goodwill * old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.4.2",
+   "title": "Hidden Goodwill at Settlement",
+   "questions": [
+    {
+     "q": "Find the hidden goodwill when a retiring partner is paid a lump sum. Use the method 'Hidden Goodwill at Settlement'. Work with: amount_due = 500, settlement_amount = 5000. Carry the chain through step by step and give the final value of hidden_goodwill.",
+     "a": "4500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the goodwill implied by a full and final settlement payment. Use the method 'Hidden Goodwill at Settlement'. Work with: amount_due = 500, settlement_amount = 1200. Carry the chain through step by step and give the final value of hidden_goodwill.",
+     "a": "700 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hidden Goodwill at Settlement' refers to.",
+     "a": "If the leaver is paid a lump sum larger than his adjusted capital balance, the extra is treated as his goodwill slice even though no goodwill value was quoted.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hidden Goodwill at Settlement'.",
+     "a": "An over-payment in full settlement quietly reveals the value of goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hidden Goodwill at Settlement', in plain ASCII form.",
+     "a": "hidden_goodwill = settlement_amount - amount_due",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.5.1",
+   "title": "Revaluation Result on Retirement",
+   "questions": [
+    {
+     "q": "Calculate the profit or loss on revaluation when a partner retires. Use the method 'Revaluation Result on Retirement'. Work with: gains_total = 400, losses_total = 12000, old_share_fraction = 0.8. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "-9280 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find each partner's share of the revaluation result including the retiring partner. Use the method 'Revaluation Result on Retirement'. Work with: gains_total = 30, losses_total = 120000, old_share_fraction = 0.2. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "-23994 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revaluation Result on Retirement' refers to.",
+     "a": "Assets and liabilities are restated when a partner leaves, and the net gain or loss from that exercise is shared by every partner, the leaver included, in the old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revaluation Result on Retirement'.",
+     "a": "The outgoing partner also shares revaluation effects, unlike at an admission.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revaluation Result on Retirement', in plain ASCII form.",
+     "a": "partner_share = (gains_total - losses_total) * old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.6.1",
+   "title": "Accumulated Profits and Reserves on Retirement",
+   "questions": [
+    {
+     "q": "Calculate the retiring partner's share of the general reserve. Use the method 'Accumulated Profits and Reserves on Retirement'. Work with: old_share_fraction = 0.8, reserve_amount = 2500. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "2000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the share of accumulated profits credited to the outgoing partner. Use the method 'Accumulated Profits and Reserves on Retirement'. Work with: old_share_fraction = 0.3, reserve_amount = 12000. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "3600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Accumulated Profits and Reserves on Retirement' refers to.",
+     "a": "Reserves and undistributed profits built up before the exit belong to everyone, so each partner including the leaver lifts out his old-ratio slice.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Accumulated Profits and Reserves on Retirement'.",
+     "a": "Accumulated losses travel the same road, debited to all partners in the old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Accumulated Profits and Reserves on Retirement', in plain ASCII form.",
+     "a": "partner_share = reserve_amount * old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.6.2",
+   "title": "Profit Share up to the Exit Date (Time Basis)",
+   "questions": [
+    {
+     "q": "Calculate the retiring partner's share of profit up to the date of retirement. Use the method 'Profit Share up to the Exit Date (Time Basis)'. Work with: annual_profit = 12000, months_elapsed = 10, share_fraction = 0.45. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "4500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the deceased partner's share of profit to the date of death. Use the method 'Profit Share up to the Exit Date (Time Basis)'. Work with: annual_profit = 20000, months_elapsed = 3, share_fraction = 0.5. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "2500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit Share up to the Exit Date (Time Basis)' refers to.",
+     "a": "When a partner leaves mid-year, his profit slice for the elapsed months is estimated from last year's profit, scaled by the fraction of the year gone and his profit share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit Share up to the Exit Date (Time Basis)'.",
+     "a": "Last year's result stands in for the unfinished year, credited through a profit and loss suspense account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit Share up to the Exit Date (Time Basis)', in plain ASCII form.",
+     "a": "partner_share = annual_profit * months_elapsed / 12 * share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.6.3",
+   "title": "Profit Share up to Exit (Average Profits Basis)",
+   "questions": [
+    {
+     "q": "Calculate the profit share to the date of death on the basis of average profits. Use the method 'Profit Share up to Exit (Average Profits Basis)'. Work with: months_elapsed = 40, profits_total = 500, share_fraction = 0.3, years_count = 500. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "1 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Find the interim share using the average profit of the last few years. Use the method 'Profit Share up to Exit (Average Profits Basis)'. Work with: months_elapsed = 5, profits_total = 120000, share_fraction = 0.45, years_count = 100. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "225 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit Share up to Exit (Average Profits Basis)' refers to.",
+     "a": "The interim profit can instead rest on the average of recent years: average first, then scale for the elapsed months, then apply the leaver's fraction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit Share up to Exit (Average Profits Basis)'.",
+     "a": "Averaging smooths out an unusual final year before splitting the interim slice.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit Share up to Exit (Average Profits Basis)', in plain ASCII form.",
+     "a": "partner_share = average_profit * months_elapsed / 12 * share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.6.4",
+   "title": "Profit Share up to Exit (Sales Basis)",
+   "questions": [
+    {
+     "q": "Calculate the profit share to the date of death on the basis of sales. Use the method 'Profit Share up to Exit (Sales Basis)'. Work with: annual_profit = 20000, annual_sales = 50000, period_sales = 25, share_fraction = 0.8. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the interim profit share when profit follows the turnover. Use the method 'Profit Share up to Exit (Sales Basis)'. Work with: annual_profit = 5000, annual_sales = 5000, period_sales = 2600, share_fraction = 0.6. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "1560 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit Share up to Exit (Sales Basis)' refers to.",
+     "a": "If the deed ties profit to turnover, the interim profit is found by growing last year's profit in proportion to the sales of the elapsed period against the full year, then applying the leaver's fraction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit Share up to Exit (Sales Basis)'.",
+     "a": "Turnover during the unfinished period drives the estimated profit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit Share up to Exit (Sales Basis)', in plain ASCII form.",
+     "a": "partner_share = annual_profit * period_sales / annual_sales * share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.7.1",
+   "title": "Interest on Capital up to the Exit Date",
+   "questions": [
+    {
+     "q": "Calculate interest on the retiring partner's capital up to the date of retirement. Use the method 'Interest on Capital up to the Exit Date'. Work with: capital_balance = 80000, months_elapsed = 60, rate = 5. Carry the chain through step by step and give the final value of interest_capital.",
+     "a": "20000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the interest on capital allowed to a partner till the date of death. Use the method 'Interest on Capital up to the Exit Date'. Work with: capital_balance = 80000, months_elapsed = 5, rate = 15. Carry the chain through step by step and give the final value of interest_capital.",
+     "a": "5000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest on Capital up to the Exit Date' refers to.",
+     "a": "The claim of a partner leaving between balance sheet dates includes interest on his capital for the elapsed months, at the agreed yearly rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest on Capital up to the Exit Date'.",
+     "a": "Interest accrues only for the part of the year the partner's money stayed in the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest on Capital up to the Exit Date', in plain ASCII form.",
+     "a": "interest_capital = capital_balance * rate / 100 * months_elapsed / 12",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.7.2",
+   "title": "Interest on a Retiring Partner's Loan",
+   "questions": [
+    {
+     "q": "Calculate the interest on a retiring partner's loan for the year. Use the method 'Interest on a Retiring Partner's Loan'. Work with: interest_rate = 18, loan_balance = 1200. Carry the chain through step by step and give the final value of loan_interest.",
+     "a": "216 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the interest due on the outstanding loan balance. Use the method 'Interest on a Retiring Partner's Loan'. Work with: interest_rate = 5, loan_balance = 120000. Carry the chain through step by step and give the final value of loan_interest.",
+     "a": "6000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest on a Retiring Partner's Loan' refers to.",
+     "a": "When the unpaid claim is turned into a loan, interest is charged on whatever balance is still outstanding at the agreed yearly rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest on a Retiring Partner's Loan'.",
+     "a": "Each year the instalment first covers the interest on what is still owed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest on a Retiring Partner's Loan', in plain ASCII form.",
+     "a": "loan_interest = loan_balance * interest_rate / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.103.8.1",
+   "title": "Capital Adjustment After Retirement",
+   "questions": [
+    {
+     "q": "Calculate the cash paid off or brought in by the continuing partners after a retirement. Use the method 'Capital Adjustment After Retirement'. Work with: existing_capital = 20000, new_share_fraction = 0.25, total_capital = 80000. Carry the chain through step by step and give the final value of capital_adjustment.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the new capital of each remaining partner when the total capital is fixed. Use the method 'Capital Adjustment After Retirement'. Work with: existing_capital = 2500, new_share_fraction = 0.75, total_capital = 5000. Carry the chain through step by step and give the final value of capital_adjustment.",
+     "a": "1250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Adjustment After Retirement' refers to.",
+     "a": "If the survivors fix the new firm's total capital, each one's required capital is his new-ratio slice of that total, and the gap against his existing balance is withdrawn or brought in.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Adjustment After Retirement'.",
+     "a": "Surplus capital is paid off and a shortfall is topped up, keeping capitals in step with the new ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Adjustment After Retirement', in plain ASCII form.",
+     "a": "capital_adjustment = required_capital - existing_capital",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

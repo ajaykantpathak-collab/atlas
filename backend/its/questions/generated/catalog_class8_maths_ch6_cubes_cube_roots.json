@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class8_maths_ch6_cubes_cube_roots.json",
+ "concepts": [
+  {
+   "id": "c8m6.2.1",
+   "title": "Cube Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the cube of 11.",
+     "a": "1331",
+     "self_check": false
+    },
+    {
+     "q": "The volume of a cubical box is 729 cubic units. Find the length of one edge.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the cube root of 27.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "The number 675 has the prime factorisation 3^3 x 5^2. Find the smallest number by which it must be multiplied so that the product is a perfect cube.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The number 80 has the prime factorisation 2^4 x 5. Find the smallest number by which it must be divided so that the quotient is a perfect cube.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "A cube pattern adds consecutive odd numbers: 7^3 - 6^3 equals which odd number?",
+     "a": "127",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m6.2.2",
+   "title": "Adding Consecutive Odd Numbers (Cube Pattern)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 6 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 5 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 8 odd numbers and report the result as a perfect square value.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 4 odd numbers and report the result as a perfect square value.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 11 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "121",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m6.2.3",
+   "title": "Cubes and Their Prime Factors",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 14 and 16 have HCF 2 with coprime multipliers 7 and 8. Verify by computing hcf = 2 x 1; then find the HCF value.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 14 and 16 given their HCF is 2 and HCF x LCM = product of the numbers.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 14 and 16 is 112. Use HCF x LCM = a x b to find their HCF.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 14 cm and 16 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 14 minutes and 16 minutes. After how many minutes will they next ring together?",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 100?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m6.2.4",
+   "title": "Smallest Multiple that is a Perfect Cube",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 18 and 12 have HCF 6 with coprime multipliers 3 and 2. Verify by computing hcf = 6 x 1; then find the HCF value.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 18 and 12 given their HCF is 6 and HCF x LCM = product of the numbers.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 18 and 12 is 36. Use HCF x LCM = a x b to find their HCF.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 18 cm and 12 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 18 minutes and 12 minutes. After how many minutes will they next ring together?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 120?",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m6.3.1",
+   "title": "Cube Roots",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the cube of 8.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "The volume of a cubical box is 64 cubic units. Find the length of one edge.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the cube root of 216.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The number 200 has the prime factorisation 2^3 x 5^2. Find the smallest number by which it must be multiplied so that the product is a perfect cube.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The number 48 has the prime factorisation 2^4 x 3. Find the smallest number by which it must be divided so that the quotient is a perfect cube.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A cube pattern adds consecutive odd numbers: 9^3 - 8^3 equals which odd number?",
+     "a": "217",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m6.3.2",
+   "title": "Cube Root by Prime Factorisation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 8 and 16 have HCF 8 with coprime multipliers 1 and 2. Verify by computing hcf = 8 x 1; then find the HCF value.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 8 and 16 given their HCF is 8 and HCF x LCM = product of the numbers.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 8 and 16 is 16. Use HCF x LCM = a x b to find their HCF.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 8 cm and 16 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 8 minutes and 16 minutes. After how many minutes will they next ring together?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 12 are there up to 96?",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

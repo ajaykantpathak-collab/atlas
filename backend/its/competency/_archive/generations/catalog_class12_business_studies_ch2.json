@@ -1,0 +1,596 @@
+{
+ "class": "12",
+ "subject": "business_studies",
+ "chapter": 2,
+ "chapter_title": "Principles of Management",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_sqp_2173.txt",
+ "concepts": [
+  {
+   "id": "c12bs.2.1",
+   "title": "Meaning and Features of Principles of Management",
+   "section": "2.1",
+   "definition": "Principles of management are broad and general guidelines for decision-making and behaviour of managers, derived from observation and analysis of managerial practices, that establish a cause-and-effect relationship between variables.",
+   "formula": "",
+   "key_idea": "Management principles are general guidelines (not exact rules) that are universally applicable, flexible, based on cause-and-effect, and aim to influence human behaviour toward organisational goals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define principles of management and explain their features.",
+    "Why are principles of management called general guidelines and not exact rules?",
+    "Explain the universal applicability of management principles.",
+    "Why are management principles flexible?",
+    "How do management principles establish a cause-and-effect relationship?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define principles of management",
+     "explain": "Principles of management are broad guidelines derived from the experiences and observations of managers that guide managerial decision-making and action."
+    },
+    {
+     "step": 2,
+     "action": "List the features of management principles",
+     "explain": "Features: they are universal, flexible, aim at influencing human behaviour, establish cause-and-effect relationships, and are general guidelines rather than rigid rules."
+    },
+    {
+     "step": 3,
+     "action": "Explain why they differ from science principles",
+     "explain": "Unlike physical science principles, management principles deal with human behaviour which is complex and unpredictable, so they are not exact and must be applied with judgement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are principles of management not as exact as the principles of physics?",
+     "solution": "Step 1: Physics principles deal with physical objects that behave predictably. Step 2: Management principles deal with human behaviour which is complex and varies with situations. Step 3: Hence management principles are not exact like physics principles.",
+     "answer": "Management principles are not exact because they deal with unpredictable human behaviour."
+    },
+    {
+     "question": "Explain the flexibility of management principles with an example.",
+     "solution": "Step 1: Flexible principles can be modified to suit different situations. Step 2: For example, the principle of division of work can be applied differently in a small shop and a large factory. Step 3: Hence management principles are flexible.",
+     "answer": "Management principles are flexible because they can be adapted to different situations and organisations."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and features of principles of management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are management principles called general guidelines?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.2",
+   "title": "Significance of Principles of Management",
+   "section": "2.2",
+   "definition": "The significance of principles of management lies in providing managers with useful insights into real-world situations, ensuring optimal utilisation of resources, effective administration, scientific decisions, meeting changing requirements, and fulfilling social responsibility.",
+   "formula": "",
+   "key_idea": "Management principles help managers make better decisions, use resources optimally, adapt to change, train future managers, and fulfil social responsibilities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the significance of principles of management.",
+    "How do management principles help in optimal utilisation of resources?",
+    "How do principles of management aid in scientific decisions?",
+    "How do management principles help in meeting changing requirements?",
+    "How do principles of management contribute to fulfilling social responsibility?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the points of significance",
+     "explain": "Significance includes providing insights, optimal use of resources, effective administration, scientific decisions, adapting to change, training managers, and fulfilling social responsibility."
+    },
+    {
+     "step": 2,
+     "action": "Explain each point",
+     "explain": "Insights help understand situations; optimal use avoids waste; effective administration through division of work; scientific decisions based on logic not intuition; adaptation to change; training of future managers; social responsibility through fair practices."
+    },
+    {
+     "step": 3,
+     "action": "Conclude with overall value",
+     "explain": "Principles make management more systematic, logical, and effective, contributing to organisational success and social welfare."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do principles of management help in the optimal utilisation of resources?",
+     "solution": "Step 1: Resources like men, material, and money are limited. Step 2: Principles like division of work and equity ensure the right person does the right job, reducing waste. Step 3: Hence principles help in optimal utilisation of resources.",
+     "answer": "Principles ensure optimal utilisation by assigning the right resources to the right tasks, reducing waste."
+    },
+    {
+     "question": "How do management principles help in making scientific decisions?",
+     "solution": "Step 1: Scientific decisions are based on logic and objective analysis. Step 2: Principles provide a logical framework for analysing situations and choosing actions. Step 3: Hence they help managers make scientific rather than intuitive decisions.",
+     "answer": "Management principles help make scientific decisions by providing a logical and objective framework."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five points of significance of principles of management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do management principles help in training future managers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.3",
+   "title": "Fayol's Principles of Management",
+   "section": "2.3",
+   "definition": "Henri Fayol developed 14 principles of management based on his experience as a mining engineer and manager, providing a general framework for effective administration of organisations.",
+   "formula": "",
+   "key_idea": "Fayol's 14 principles -- division of work, authority and responsibility, discipline, unity of command, unity of direction, subordination of individual interest to general interest, remuneration, centralisation, scalar chain, order, equity, stability of tenure, initiative, and esprit de corps -- guide administrative management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain any five of Fayol's principles of management.",
+    "What is the difference between unity of command and unity of direction?",
+    "Explain the principle of scalar chain with an example.",
+    "What is esprit de corps and why is it important?",
+    "Explain the principle of division of work as given by Fayol."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the 14 principles of Fayol",
+     "explain": "The 14 principles are: division of work, authority and responsibility, discipline, unity of command, unity of direction, subordination of individual interest, remuneration, centralisation, scalar chain, order, equity, stability of tenure, initiative, and esprit de corps."
+    },
+    {
+     "step": 2,
+     "action": "Explain the principle asked in the question",
+     "explain": "Each principle has a specific meaning, e.g., unity of command means one boss for one employee; scalar chain is the formal line of authority from top to bottom."
+    },
+    {
+     "step": 3,
+     "action": "Provide a real-world example",
+     "explain": "Example: In a company, each worker reports to one supervisor (unity of command) and all departments follow one plan for the same objective (unity of direction)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An employee receives orders from two different supervisors and is confused. Which Fayol principle is violated?",
+     "solution": "Step 1: The employee reports to two bosses. Step 2: Unity of command states that an employee should receive orders from one superior only. Step 3: Hence the principle of unity of command is violated.",
+     "answer": "The principle of unity of command is violated."
+    },
+    {
+     "question": "Distinguish between unity of command and unity of direction.",
+     "solution": "Step 1: Unity of command means one boss per employee. Step 2: Unity of direction means one head and one plan for a group of activities having the same objective. Step 3: Unity of command concerns individuals; unity of direction concerns the organisation.",
+     "answer": "Unity of command: one boss per employee. Unity of direction: one plan and one head for activities with the same objective."
+    },
+    {
+     "question": "Explain the principle of esprit de corps.",
+     "solution": "Step 1: Esprit de corps means 'spirit of cooperation'. Step 2: It emphasises team spirit and unity among employees to achieve organisational goals. Step 3: Fayol advised managers to promote teamwork and avoid divide-and-rule.",
+     "answer": "Esprit de corps means promoting team spirit and unity among employees for organisational success."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five of Fayol's 14 principles of management with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the principle of scalar chain? Explain with a diagram.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.4",
+   "title": "Taylor's Scientific Management",
+   "section": "2.4",
+   "definition": "Scientific management, developed by F.W. Taylor, is a systematic approach to improving efficiency by scientifically studying work methods, standardising tools and processes, and matching the right worker to the right job.",
+   "formula": "",
+   "key_idea": "Taylor's scientific management focuses on improving efficiency through systematic study of work, standardisation, time and motion study, and a functional relationship between management and workers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the concept of scientific management given by Taylor.",
+    "What were the main concerns that led Taylor to develop scientific management?",
+    "How does scientific management differ from rule-of-thumb methods?",
+    "Explain the meaning of scientific management.",
+    "Why is Taylor called the father of scientific management?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define scientific management",
+     "explain": "Scientific management is the systematic study of work to find the best method of doing a task, standardising it, and selecting and training workers for it."
+    },
+    {
+     "step": 2,
+     "action": "Explain the background and need",
+     "explain": "Taylor observed rule-of-thumb methods, inefficiency, and conflict between workers and management, and sought to replace them with scientific methods."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the core idea",
+     "explain": "The core idea is to maximise efficiency by matching the right worker to the right job, using the best method, and fostering cooperation between workers and management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did Taylor oppose the rule-of-thumb approach?",
+     "solution": "Step 1: Rule-of-thumb means using traditional, unscientific methods. Step 2: These methods lead to inefficiency and inconsistent output. Step 3: Taylor proposed scientific study to replace rule-of-thumb for better efficiency.",
+     "answer": "Taylor opposed rule-of-thumb because it was unscientific and inefficient."
+    },
+    {
+     "question": "What is the core objective of scientific management?",
+     "solution": "Step 1: Scientific management studies work methods systematically. Step 2: It aims to find the one best method for each task and standardise it. Step 3: The core objective is to maximise efficiency and productivity.",
+     "answer": "The core objective of scientific management is to maximise efficiency by finding and standardising the best method for each task."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and objectives of Taylor's scientific management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is Taylor called the father of scientific management?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.5",
+   "title": "Principles of Scientific Management",
+   "section": "2.5",
+   "definition": "Taylor gave four principles of scientific management: science not rule-of-thumb, harmony not discord, cooperation not individualism, and development of each and every person to his or her greatest efficiency.",
+   "formula": "",
+   "key_idea": "Taylor's four principles replace traditional methods with scientific study, promote harmony between workers and management, encourage cooperation over individualism, and ensure scientific selection and training of workers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the four principles of scientific management given by Taylor.",
+    "What does 'science, not rule of thumb' mean?",
+    "Explain 'harmony, not discord' with an example.",
+    "What is meant by 'cooperation, not individualism'?",
+    "Explain 'development of each and every person to his or her greatest efficiency'."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the four principles",
+     "explain": "The four principles are: science not rule-of-thumb, harmony not discord, cooperation not individualism, and development of each person to greatest efficiency."
+    },
+    {
+     "step": 2,
+     "action": "Explain each principle",
+     "explain": "Science: use scientific study of work; harmony: avoid conflict between workers and management; cooperation: work together for common benefit; development: select, train, and develop workers to their best potential."
+    },
+    {
+     "step": 3,
+     "action": "Give an example for each",
+     "explain": "Example: Using time study to set standard output (science), resolving disputes through discussion (harmony), sharing of bonuses (cooperation), and training workers for specific tasks (development)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manager uses time study to determine the best method of doing a task and sets a standard output. Which principle of scientific management is being followed?",
+     "solution": "Step 1: The manager uses scientific study instead of traditional methods. Step 2: This corresponds to 'science, not rule of thumb'. Step 3: Hence the principle of science not rule-of-thumb is being followed.",
+     "answer": "The principle of 'science, not rule of thumb' is being followed."
+    },
+    {
+     "question": "Workers and management in a factory are in constant conflict. Which Taylor principle is being violated?",
+     "solution": "Step 1: There is conflict between workers and management. Step 2: Taylor's principle 'harmony, not discord' requires peaceful relations. Step 3: Hence the principle of harmony not discord is violated.",
+     "answer": "The principle of 'harmony, not discord' is violated."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the four principles of scientific management given by Taylor.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by 'development of each and every person to his or her greatest efficiency'?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.6",
+   "title": "Techniques of Scientific Management",
+   "section": "2.6",
+   "definition": "Taylor developed several techniques of scientific management including functional foremanship, standardisation and simplification of work, method study, motion study, time study, fatigue study, and differential piece-rate wage system.",
+   "formula": "",
+   "key_idea": "Taylor's techniques -- functional foremanship, method/motion/time/fatigue study, standardisation, and differential wage system -- are practical tools to implement scientific management and improve efficiency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the techniques of scientific management.",
+    "What is functional foremanship? Explain with a diagram.",
+    "Distinguish between time study and motion study.",
+    "What is the differential piece-rate wage system?",
+    "Explain method study and fatigue study."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the techniques of scientific management",
+     "explain": "Techniques include functional foremanship, standardisation and simplification, method study, motion study, time study, fatigue study, and differential piece-rate system."
+    },
+    {
+     "step": 2,
+     "action": "Explain each technique",
+     "explain": "Functional foremanship: eight specialised foremen; method study: best method of doing a job; motion study: eliminating unnecessary movements; time study: standard time for a task; fatigue study: rest intervals; differential wage: higher rate for efficient workers."
+    },
+    {
+     "step": 3,
+     "action": "Show how techniques improve efficiency",
+     "explain": "Together these techniques standardise work, reduce waste, set fair output standards, and motivate workers, leading to higher productivity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manager studies the movements of a worker to identify and eliminate unnecessary motions. Which technique of scientific management is this?",
+     "solution": "Step 1: The manager studies movements of a worker. Step 2: Motion study is the technique of studying movements to find the best set of motions. Step 3: Hence this is motion study.",
+     "answer": "Motion study"
+    },
+    {
+     "question": "A worker is paid Rs. 50 per unit for output up to standard and Rs. 70 per unit for output above standard. Which wage system is this?",
+     "solution": "Step 1: Two different rates are used based on output level. Step 2: The differential piece-rate system pays different rates for standard and above-standard output. Step 3: Hence this is the differential piece-rate wage system.",
+     "answer": "Differential piece-rate wage system"
+    },
+    {
+     "question": "What is the purpose of fatigue study?",
+     "solution": "Step 1: Workers get tired due to continuous work. Step 2: Fatigue study determines the frequency and duration of rest intervals. Step 3: This helps maintain worker efficiency and productivity.",
+     "answer": "Fatigue study determines rest intervals to maintain worker efficiency."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five techniques of scientific management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is functional foremanship? Name the eight functional foremen.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.7",
+   "title": "Time Study and Standard Time Calculation",
+   "section": "2.7",
+   "definition": "Time study is a technique of scientific management that determines the standard time taken by a qualified worker to perform a specific task, used to set fair output standards and wage rates.",
+   "formula": "Standard Time = Normal Time + Allowance",
+   "key_idea": "Time study measures the time taken to complete a task, adds allowances for fatigue and personal needs, and sets the standard time for planning output and wages.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is time study and how is it conducted?",
+    "How is standard time calculated using time study?",
+    "Why is time study important in scientific management?",
+    "How does time study help in setting wage rates?",
+    "Explain the difference between normal time and standard time."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the normal time of the task",
+     "explain": "Normal time is the average time taken by a qualified worker to perform the task under normal conditions.",
+     "compute": "normal_time = observed_time * performance_rating_factor"
+    },
+    {
+     "step": 2,
+     "action": "Compute the allowance for rest and personal needs",
+     "explain": "Allowance is the extra time added to normal time to account for fatigue, personal needs, and delays.",
+     "compute": "allowance = normal_time * allowance_rate"
+    },
+    {
+     "step": 3,
+     "action": "Compute the standard time",
+     "explain": "Standard time is normal time plus allowance, used to set output standards and wage rates.",
+     "compute": "standard_time = normal_time + allowance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A worker takes 10 minutes to complete a task (normal time). An allowance of 20% is added for fatigue. Calculate the standard time.",
+     "solution": "Step 1: Normal time = 10 minutes. Step 2: Allowance = 10 * 0.20 = 2 minutes. Step 3: Standard time = 10 + 2 = 12 minutes.",
+     "answer": "Standard time = 12 minutes"
+    },
+    {
+     "question": "The observed time for a task is 8 minutes and the performance rating factor is 1.1. The allowance rate is 15%. Calculate the standard time.",
+     "solution": "Step 1: Normal time = 8 * 1.1 = 8.8 minutes. Step 2: Allowance = 8.8 * 0.15 = 1.32 minutes. Step 3: Standard time = 8.8 + 1.32 = 10.12 minutes.",
+     "answer": "Standard time = 10.12 minutes"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A worker takes 15 minutes for a task. An allowance of 10% is added. Compute the standard time.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the importance of time study in scientific management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the difference between normal time and standard time?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.8",
+   "title": "Functional Foremanship",
+   "section": "2.8",
+   "definition": "Functional foremanship is a technique of scientific management proposed by Taylor in which supervision of workers is divided among eight specialised foremen, four under the planning incharge and four under the production incharge, so that each worker is supervised by a specialist.",
+   "formula": "",
+   "key_idea": "Functional foremanship separates planning from execution and assigns specialised foremen -- instruction card clerk, route clerk, time and cost clerk, disciplinarian (planning) and speed boss, gang boss, repair boss, inspector (production) -- to supervise workers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain functional foremanship with the help of a diagram.",
+    "Name the four foremen under the planning incharge and their functions.",
+    "Name the four foremen under the production incharge and their functions.",
+    "Why did Taylor advocate functional foremanship?",
+    "How does functional foremanship improve efficiency?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two incharges and eight foremen",
+     "explain": "Under planning incharge: instruction card clerk, route clerk, time and cost clerk, disciplinarian. Under production incharge: speed boss, gang boss, repair boss, inspector."
+    },
+    {
+     "step": 2,
+     "action": "Explain the function of each foreman",
+     "explain": "Instruction card clerk prepares instructions; route clerk specifies the route of production; time and cost clerk records time and cost; disciplinarian ensures discipline; speed boss ensures timely work; gang boss sets up tools and machines; repair boss maintains machines; inspector checks quality."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit of specialisation",
+     "explain": "Each worker gets expert guidance from a specialist in each aspect of work, improving quality and efficiency, unlike a single foreman who may not be expert in all areas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which foreman under functional foremanship is responsible for specifying the sequence of operations for production?",
+     "solution": "Step 1: The task is to specify the route or sequence of operations. Step 2: Under the planning incharge, the route clerk specifies the route of production. Step 3: Hence the route clerk is responsible.",
+     "answer": "Route clerk"
+    },
+    {
+     "question": "Which foreman under functional foremanship is responsible for ensuring the quality of output?",
+     "solution": "Step 1: Quality checking is the task. Step 2: Under the production incharge, the inspector checks the quality of work. Step 3: Hence the inspector is responsible.",
+     "answer": "Inspector"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain functional foremanship with the help of a diagram showing the eight foremen.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the four foremen under the production incharge.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.9",
+   "title": "Comparison of Fayol and Taylor's Contributions",
+   "section": "2.9",
+   "definition": "Fayol and Taylor both contributed to management thought but from different perspectives: Fayol focused on administrative management (top-down, overall administration), while Taylor focused on scientific management (shop-floor, operational efficiency).",
+   "formula": "",
+   "key_idea": "Fayol's approach is administrative and holistic (the whole organisation), while Taylor's approach is operational and specific (the shop floor); both are complementary and together form the foundation of modern management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare and contrast the contributions of Fayol and Taylor.",
+    "How do Fayol's and Taylor's approaches differ in perspective?",
+    "Why are Fayol and Taylor considered complementary rather than contradictory?",
+    "Explain the difference in the focus of Fayol and Taylor.",
+    "Compare the principles of Fayol and Taylor on any four bases."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the focus of each thinker",
+     "explain": "Fayol focused on administrative management and the overall organisation; Taylor focused on scientific management and efficiency at the shop-floor level."
+    },
+    {
+     "step": 2,
+     "action": "Compare on key parameters",
+     "explain": "Fayol: top-level, general administration, 14 principles, universal applicability. Taylor: operational level, production efficiency, scientific techniques, specific to factory work."
+    },
+    {
+     "step": 3,
+     "action": "Show how they are complementary",
+     "explain": "Fayol provides the framework for overall management while Taylor provides tools for operational efficiency; together they give a complete picture of management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Fayol's principles are more applicable to top management while Taylor's techniques are more applicable to the shop floor. Justify.",
+     "solution": "Step 1: Fayol's principles like unity of command and scalar chain deal with overall administration. Step 2: Taylor's techniques like time study and functional foremanship deal with production efficiency. Step 3: Hence Fayol is more relevant to top management and Taylor to the shop floor.",
+     "answer": "Fayol's principles address overall administration (top management) while Taylor's techniques address production efficiency (shop floor)."
+    },
+    {
+     "question": "Why are Fayol and Taylor considered complementary?",
+     "solution": "Step 1: Fayol gives a broad administrative framework. Step 2: Taylor gives specific operational techniques. Step 3: Together they provide a complete approach to management, hence complementary.",
+     "answer": "Fayol and Taylor are complementary because Fayol provides the administrative framework and Taylor provides operational tools."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the contributions of Fayol and Taylor on any five bases.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are Fayol's and Taylor's approaches considered complementary?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.2.10",
+   "title": "Differential Piece-Rate Wage System",
+   "section": "2.10",
+   "definition": "The differential piece-rate wage system is a technique of scientific management in which workers are paid different wage rates based on their output: a higher rate for output at or above standard and a lower rate for output below standard, to motivate workers to achieve the standard.",
+   "formula": "Total Wages = Output * Rate",
+   "key_idea": "The differential piece-rate system links wages directly to output, rewarding efficient workers with a higher rate and penalising inefficient workers with a lower rate, thus motivating higher productivity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the differential piece-rate wage system with an example.",
+    "How does the differential piece-rate system motivate workers?",
+    "How are wages calculated under the differential piece-rate system?",
+    "Why did Taylor introduce the differential piece-rate system?",
+    "Compare the differential piece-rate system with a fixed wage system."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the standard output and the actual output of the worker",
+     "explain": "Standard output is the benchmark set by time study; actual output is what the worker produces.",
+     "compute": "actual_output = units_produced_by_worker"
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate wage rate based on output",
+     "explain": "If actual output is at or above standard, use the higher rate; if below standard, use the lower rate.",
+     "compute": "rate = higher_rate if actual_output >= standard_output else lower_rate"
+    },
+    {
+     "step": 3,
+     "action": "Compute the total wages",
+     "explain": "Total wages equal actual output multiplied by the applicable rate.",
+     "compute": "total_wages = actual_output * rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Standard output is 100 units. Higher rate is Rs. 10 per unit and lower rate is Rs. 8 per unit. A worker produces 120 units. Calculate the total wages.",
+     "solution": "Step 1: Actual output = 120 units, which is above the standard of 100. Step 2: Since output is above standard, the higher rate of Rs. 10 applies. Step 3: Total wages = 120 * 10 = Rs. 1,200.",
+     "answer": "Total wages = Rs. 1,200"
+    },
+    {
+     "question": "Standard output is 100 units. Higher rate is Rs. 10, lower rate is Rs. 8. A worker produces 90 units. Calculate the total wages.",
+     "solution": "Step 1: Actual output = 90 units, which is below the standard of 100. Step 2: Since output is below standard, the lower rate of Rs. 8 applies. Step 3: Total wages = 90 * 8 = Rs. 720.",
+     "answer": "Total wages = Rs. 720"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Standard output is 200 units. Higher rate is Rs. 15, lower rate is Rs. 12. A worker produces 210 units. Compute the total wages.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the differential piece-rate wage system with an example.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did Taylor introduce the differential piece-rate system?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

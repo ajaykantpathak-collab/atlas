@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_007",
+   "title": "c10_math_cbse_13_007",
+   "questions": [
+    {
+     "q": "What is the y-coordinate of the point on the 'less than' ogive that corresponds to the median of a distribution with total frequency N?",
+     "a": "The y-coordinate is N/2 (half of the total frequency). A wrong answer like N or N/4 reveals the student confuses the median position with total frequency or quartile positions. This indicates they have not internalized that median divides the area under the curve into two equal halves.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the x-coordinate of the intersection point of the 'less than' ogive and the 'more than' ogive gives the median of the distribution.",
+     "a": "At the intersection, the cumulative frequency from the lower end ('less than') equals the cumulative frequency from the upper end ('more than'). Since total frequency is N, each must be N/2, which is exactly the median position. A wrong answer stating \"they cross at the middle\" without referencing cumulative frequencies shows lack of understanding of what the curves represent.",
+     "self_check": true
+    },
+    {
+     "q": "The following table shows the marks scored by 80 students in a Mathematics test. Draw a 'less than' ogive and find the median graphically. Verify using the median formula.\nMarks: 0-10, 10-20, 20-30, 30-40, 40-50\nNumber of students: 5, 10, 25, 30, 10",
+     "a": "**Graphical steps:**\n1. Calculate cumulative frequencies (less than): 5, 15, 40, 70, 80.\n2. Plot points (10,5), (20,15), (30,40), (40,70), (50,80) on graph paper with suitable scale.\n3. Join points with a smooth curve.\n4. Mark N/2 = 40 on y-axis. Draw horizontal line to curve, then vertical to x-axis.\n5. Read median ≈ 30 marks.\n**Formula verification:**\nMedian class = 20-30 (cf=40 ≥ 40). l=20, cf=15, f=25, h=10.\nMedian = 20 + ((40-15)/25)×10 = 20 + 10 = 30.\nA wrong graphical reading like 28 or 32 indicates incorrect scaling or misreading the intersection. Formula mismatch suggests calculation error in identifying median class or substitution.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a 'less than' ogive for a distribution with N=60. They mark 30 on the y-axis, draw a horizontal line to the curve, but then mistakenly drop the perpendicular to the y-axis instead of the x-axis. What value will they read, and why is it incorrect?",
+     "a": "They will read the cumulative frequency value (30) again, not the median. The median is a value of the variable (x-axis), not a frequency (y-axis). This error reveals confusion between the axes: the student does not understand that the horizontal axis represents the data values (marks, height, etc.) and the vertical axis represents cumulative frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Two students draw ogives for the same data. Student A uses a 'less than' ogive and gets median = 42.5. Student B uses a 'more than' ogive and gets median = 43.0. The formula method gives 42.8. Evaluate which graphical method is likely more accurate and why discrepancies occur.",
+     "a": "Both graphical methods are approximations; accuracy depends on scale, plotting precision, and curve smoothness. The formula method (42.8) is exact. Student A's 42.5 is closer, but neither is \"more accurate\" inherently. Discrepancies arise from: (1) reading error due to thick pencil lines, (2) scale compression/expansion, (3) curve drawn through points not perfectly smooth. A student claiming one ogive type is inherently better misunderstands that both represent the same data.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution table (with at least 5 classes) for which the 'less than' ogive and 'more than' ogive intersect exactly at a class boundary. Provide the table and explain why this happens.",
+     "a": "Example: Classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 5, 10, 20, 10, 5 (N=50). Median class is 20-30. Median = 20 + ((25-15)/20)×10 = 25. The intersection occurs at x=25, not a boundary. To get intersection at a boundary (say 30), we need N/2 = cumulative frequency up to that boundary. Let N=60, frequencies: 10, 15, 20, 10, 5. Less than cf at 30 = 45. N/2=30 ≠45. Adjust: frequencies 10, 20, 15, 10, 5 (N=60). cf at 30 = 45. Still no. To have intersection at boundary 30, we need N/2 = cf at 30. So cf at 30 = 30, N=60. Example: 0-10:10, 10-20:20, 20-30:0, 30-40:20, 40-50:10. Then cf at 30 = 30. Median = 30 exactly. A poor answer gives a table without verifying N/2 equals a cumulative frequency at a boundary, showing lack of understanding of the intersection condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

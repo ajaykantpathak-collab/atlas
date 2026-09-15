@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_037",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_037",
+   "title": "c6_math_ch03_037",
+   "questions": [
+    {
+     "q": "If you are asked to represent the fraction 2/5 on a number line, into how many equal parts must you divide the space between 0 and 1?",
+     "a": "You must divide the space into 5 equal parts. A wrong answer (like 2) shows the student is confusing the numerator (how many parts to count) with the denominator (how many total parts the unit is cut into).",
+     "self_check": true
+    },
+    {
+     "q": "Does the point 4/4 fall to the left, at, or to the right of the point 1 on the number line? Explain why.",
+     "a": "It falls exactly at 1. If a student thinks it falls to the left or right, they do not understand that a fraction with the same numerator and denominator is equal to one whole unit.",
+     "self_check": true
+    },
+    {
+     "q": "Mark the fraction 3/4 on a number line that starts at 0 and ends at 1.",
+     "a": "Step 1: Draw a line from 0 to 1. Step 2: Divide the line into 4 equal segments. Step 3: Count 3 segments starting from 0. Step 4: Place a dot at the third mark. A student who marks it at the first or fourth spot fails to understand the \"counting\" aspect of the numerator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the positions of 1/3 and 2/3 on the number line. Which one is closer to 0?",
+     "a": "1/3 is closer to 0. If a student says 2/3, they are likely confusing the size of the fraction with the size of the denominator or simply guessing; they need to visualize the segments getting longer as you move right.",
+     "self_check": true
+    },
+    {
+     "q": "A student marks 5/3 on a number line by dividing the interval between 0 and 1 into 3 parts and placing a dot on the 5th mark. Is this correct? Justify your answer.",
+     "a": "No, this is incorrect. Since 5/3 is greater than 1 (it equals 1 2/3), the point must be placed in the interval between 1 and 2. The student failed to recognize that improper fractions extend beyond the first whole unit.",
+     "self_check": true
+    },
+    {
+     "q": "Create a challenge: If you were given a number line with only the marks 0 and 1, how would you precisely locate 1/8?",
+     "a": "The student should describe halving the distance to get 1/2, halving again to get 1/4, and halving once more to get 1/8. A poor answer (like \"just guess\") shows a lack of systematic spatial reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

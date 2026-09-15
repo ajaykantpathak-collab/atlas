@@ -1,0 +1,98 @@
+{
+ "catalog": "catalog_class9_social_science_ch404",
+ "concepts": [
+  {
+   "id": "iess.5.1.1",
+   "title": "Cabinet Decision Making",
+   "questions": [
+    {
+     "q": "Calculate the total size of the council if cabinet has ... and state ministers are .... Use the method 'Cabinet Decision Making'. Work with: cabinet_members = 512, state_ministers = 25. Carry the chain through step by step and give the final value of total.",
+     "a": "537 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total number of ministers given ... cabinet and ... state ministers. Use the method 'Cabinet Decision Making'. Work with: cabinet_members = 2048, state_ministers = 150. Carry the chain through step by step and give the final value of total.",
+     "a": "2198 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cabinet Decision Making' refers to.",
+     "a": "The process where a group of senior ministers makes major policy decisions collectively in the name of the Council of Ministers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cabinet Decision Making'.",
+     "a": "Collective responsibility of the inner ring of ministers for government policy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cabinet Decision Making', in plain ASCII form.",
+     "a": "total_ministers = cabinet_members + state_ministers",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.5.2.1",
+   "title": "Parliamentary Budget Delay",
+   "questions": [
+    {
+     "q": "Calculate the maximum days Rajya Sabha can delay a money bill. Use the method 'Parliamentary Budget Delay'. Work with: limit = 14. Carry the chain through step by step and give the final value of limit.",
+     "a": "14 units",
+     "self_check": false
+    },
+    {
+     "q": "How many days can the upper house hold a budget bill? Use the method 'Parliamentary Budget Delay'. Work with: limit = 14. Carry the chain through step by step and give the final value of limit.",
+     "a": "14 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Parliamentary Budget Delay' refers to.",
+     "a": "The period during which the Rajya Sabha can hold up a money bill passed by the Lok Sabha before it must be returned.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliamentary Budget Delay'.",
+     "a": "Lok Sabha holds supreme power in money matters, limiting Rajya Sabha to a 14-day delay.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Parliamentary Budget Delay', in plain ASCII form.",
+     "a": "max_delay_days = 14",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.5.3.1",
+   "title": "Ministerial Tenure",
+   "questions": [
+    {
+     "q": "Calculate the months a non-MP minister has to get elected. Use the method 'Ministerial Tenure'. Work with: months = 6. Carry the chain through step by step and give the final value of months.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "How many months are allowed for a minister to join parliament? Use the method 'Ministerial Tenure'. Work with: months = 6. Carry the chain through step by step and give the final value of months.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ministerial Tenure' refers to.",
+     "a": "The time limit within which a non-member appointed as a minister must get elected to either House of Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ministerial Tenure'.",
+     "a": "Ministers must secure democratic legitimacy through election within six months.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ministerial Tenure', in plain ASCII form.",
+     "a": "deadline_months = 6",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

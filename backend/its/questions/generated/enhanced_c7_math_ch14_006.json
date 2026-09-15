@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_006",
+   "title": "c7_math_ch14_006",
+   "questions": [
+    {
+     "q": "What is the exact sum of the interior angles meeting at a single vertex point in any valid tiling of a plane?",
+     "a": "The correct answer is $360^\\circ$ (a full turn or complete circle). A wrong answer often suggests $180^\\circ$ or $360^\\circ$ refers to the interior angles of a single triangle, showing confusion between the angle sum of a polygon and the complete angular space around a point where multiple tiles meet.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a regular pentagon (interior angle $108^\\circ$) NOT tile a plane by itself, even though all its sides are equal in length?",
+     "a": "The correct answer is that $360^\\circ$ is not divisible by $108^\\circ$ ($360 \\div 108 = 3.333...$), meaning whole pentagons cannot fit around a vertex without leaving gaps or overlapping. A wrong answer assumes that equal sides alone guarantee tiling, confusing side-length regularity with vertex angle compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "A regular hexagon has an interior angle of $120^\\circ$. How many regular hexagons meet at a single interior vertex in a standard regular hexagonal tiling?",
+     "a": "The correct answer is 3 hexagons.\nStep 1: Identify the interior angle of a regular hexagon, which is given as $120^\\circ$.\nStep 2: Recall that the total angle around a vertex in a tiling must equal $360^\\circ$.\nStep 3: Set up the division equation to find the number of tiles $n$: $n \\times 120^\\circ = 360^\\circ$.\nStep 4: Solve for $n$ using algebraic division: $n = \\frac{360}{120} = 3$.\nStep 5: Verify that 3 regular hexagons meet perfectly at each vertex with no gaps.\nA wrong answer like 4 or 6 shows that the student divided incorrectly or guessed without dividing $360^\\circ$ by the single interior angle.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the vertex angle sum condition if you attempt to tile a plane using regular octagons (interior angle $135^\\circ$). Will there be overlapping or gaps?",
+     "a": "The correct answer is that there will be gaps. Since $360 \\div 135 = 2.666...$, two octagons leave an angle of $360^\\circ - (2 \\times 135^\\circ) = 90^\\circ$, while three octagons require $3 \\times 135^\\circ = 405^\\circ$, which exceeds $360^\\circ$ and causes overlapping. A wrong answer indicates misunderstanding of how fractional or non-integer division results in either gaps or overlaps.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Any scalene triangle of any shape or size can tile a plane without gaps or overlaps.\" Is this statement true or false, and why?",
+     "a": "The correct answer is True. Every triangle (including scalene, isosceles, and right-angled triangles) can tile a plane because the sum of all three interior angles of a triangle is $180^\\circ$, and two identical copies of any triangle form a parallelogram, which can always tile a plane. A wrong answer states false, showing a lack of understanding that non-regular polygons can still form tiling patterns through rotational pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rule or formula to find out if any regular $n$-sided polygon can form a monohedral (single-shape) tiling by itself. What condition must $n$ satisfy?",
+     "a": "The expected answer is that the interior angle of a regular $n$-polygon, given by $\\frac{(n-2) \\times 180^\\circ}{n}$, must be an exact divisor of $360^\\circ$. Solving $\\frac{360^\\circ}{\\frac{(n-2) \\times 180^\\circ}{n}} = \\text{integer}$ simplifies to $\\frac{2n}{n-2}$ being an integer, which yields integer solutions only for $n = 3, 4,$ and $6$. A poor answer merely lists numbers without providing the mathematical proof or algebraic condition based on vertex angles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

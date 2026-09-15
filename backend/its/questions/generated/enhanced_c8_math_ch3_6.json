@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_6",
+   "title": "c8_math_ch3_6",
+   "questions": [
+    {
+     "q": "Name the 9th-century Persian scholar who wrote *Kitab al-Jam' wa'l-Tafriq bi Hisab al-Hind* (Book of Addition and Subtraction According to the Hindu Calculation), which systematically explained the Hindu numeral system to the Islamic world.",
+     "a": "Al-Khwarizmi (c. 780–850 CE). A wrong answer like \"Al-Biruni\" or \"Omar Khayyam\" reveals confusion between scholars who transmitted Indian mathematics (Al-Khwarizmi, Al-Kindi) and later Persian polymaths who built on it. Students may also confuse Al-Khwarizmi with the later Fibonacci who brought the system to Europe.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Hindu-Arabic numeral system spread more rapidly in the Islamic world than in India itself during the 8th-10th centuries?",
+     "a": "The Abbasid Caliphate actively sponsored translation movements in Baghdad's House of Wisdom, creating a unified scholarly language (Arabic) across a vast empire from Spain to Central Asia. Indian texts arrived in a context of thriving trade, tax administration, and astronomy that demanded efficient calculation. A wrong answer focusing only on \"Arab traders liked it\" misses the institutional support (caliphal patronage, madrasas, shared language) that enabled systematic adoption and adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant in 1200 CE Pisa wants to multiply 347 × 268. Using Roman numerals (CCCXLVII × CCLXVIII), explain why this is impractical compared to Hindu-Arabic numerals, and show the Hindu-Arabic multiplication step-by-step.",
+     "a": "Roman numerals lack place value and zero, making written algorithms impossible — multiplication requires repeated addition or an abacus. Hindu-Arabic steps: (1) Write 347 × 268 vertically. (2) Multiply 347 × 8 = 2776. (3) Multiply 347 × 60 = 20820 (shift left). (4) Multiply 347 × 200 = 69400 (shift left twice). (5) Add: 2776 + 20820 + 69400 = 92,996. Wrong answers that attempt Roman multiplication reveal misunderstanding that Roman numerals are additive, not positional.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of Al-Khwarizmi (c. 825 CE) and Fibonacci (1202 CE) in the transmission chain. How did their audiences and purposes differ?",
+     "a": "Al-Khwarizmi wrote in Arabic for Islamic scholars, administrators, and judges needing systematic arithmetic for inheritance, tax, and astronomy — his work was academic and legal. Fibonacci wrote *Liber Abaci* in Latin for European merchants and bankers, emphasising practical commercial problems (currency conversion, profit sharing, interest). A wrong answer treating both as \"mathematicians spreading numbers\" misses the shift from scholarly/legal context to commercial/mercantile context that drove European adoption.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Europeans adopted Hindu-Arabic numerals immediately after Fibonacci's *Liber Abaci* in 1202 because they were clearly better.\" Evaluate this claim with historical evidence.",
+     "a": "The claim is false. Adoption took 300+ years (1202–1500s). Resistance came from: (1) Church suspicion of \"Arabic\" symbols, (2) entrenched abacus/counting-board guilds, (3) Roman numerals' adequacy for record-keeping (not calculation), (4) lack of printing press until 1450. *Liber Abaci* circulated in manuscript; printed arithmetic books (e.g., Treviso Arithmetic 1478) accelerated adoption. Wrong answers ignoring institutional inertia reveal a \"great man\" view of history rather than systemic change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a museum exhibit panel (150 words) showing the evolution of the digit '5' from Brahmi (3rd century BCE) → Gupta (4th century CE) → Arabic (9th century) → Medieval European (12th century) → Modern printed form. Explain one shape change at each stage.",
+     "a": "A good answer traces: Brahmi '5' as two horizontal strokes (≡) → Gupta cursive joins them into a loop with tail → Arabic *khamsa* rotates 90° and opens the loop → European manuscripts add a top stroke for clarity → printing standardises the top horizontal and closed lower loop. Poor answers list shapes without explaining *why* (cursive writing, rotation in right-to-left script, differentiation from '6', printing constraints), showing rote memorisation without understanding material causes of script evolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

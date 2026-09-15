@@ -1,0 +1,762 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 104,
+ "chapter_title": "The d- and f-Block Elements",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech104.txt",
+ "concepts": [
+  {
+   "id": "lech.4.1",
+   "title": "Definition and Position of Transition Elements",
+   "section": "4.1",
+   "definition": "Transition elements mean metallic elements that have incompletely filled d-subshells in their neutral ground state or in any of their common oxidation states.",
+   "formula": "general_outer_config = (n-1)d^(1-10) ns^(1-2)",
+   "key_idea": "Incomplete d-subshell occupancy distinguishes true transition metals from Group 12 elements like Zn, Cd, and Hg.",
+   "textbook_ref": "lech104.txt lines 15-45",
+   "question_patterns": [
+    "Why is zinc not considered a transition element?",
+    "Define transition elements according to IUPAC",
+    "Explain why copper is classified as a transition element despite having filled d orbitals in ground state",
+    "Which group 12 elements are excluded from transition metals and why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check ground state electronic configuration",
+     "explain": "Determine if (n-1)d subshell has between 1 and 9 electrons in ground state."
+    },
+    {
+     "step": 2,
+     "action": "check oxidation state configurations",
+     "explain": "Verify if common ionic states yield an incompletely filled d subshell."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.2",
+   "title": "Electronic Configurations of d-Block Elements",
+   "section": "4.2",
+   "definition": "The outer electron arrangement of d-block elements features electrons filling the inner (n-1)d orbitals while outermost ns orbitals hold one or two electrons, with anomalous stability in half-filled and fully filled d-subshells.",
+   "formula": "d_electrons = atomic_number - 18 - s_electrons",
+   "key_idea": "In brief, In brief, In brief, Extra stability of d5 and d10 configurations causes anomalous configurations in elements like chromium and copper.",
+   "textbook_ref": "lech104.txt lines 46-90",
+   "question_patterns": [
+    "Write the electronic configuration of Cr and Cu",
+    "Explain the exceptional electronic configuration of chromium",
+    "How many d electrons are present in a given transition metal ion?",
+    "Determine the outer orbital electron configuration for 3d series elements"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate valence electrons beyond noble gas core",
+     "explain": "Subtract atomic number of previous noble gas (Argon, 18) from atomic number",
+     "compute": "valence_e = atomic_number - 18"
+    },
+    {
+     "step": 2,
+     "action": "determine remaining d electrons after removing charge",
+     "explain": "Subtract lost electrons (charge) from valence electrons",
+     "compute": "d_count = valence_e - charge"
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.1",
+   "title": "Physical Properties and Enthalpy of Atomisation",
+   "section": "4.3.1",
+   "definition": "Transition elements exhibit strong metallic characteristics, high melting points, and high enthalpies of atomisation because of extensive interatomic metallic bonding involving both ns and (n-1)d electrons.",
+   "formula": "bonding_strength proportional_to count_unpaired_d_electrons",
+   "key_idea": "A higher number of unpaired d-electrons enhances interatomic metallic interaction, raising enthalpy of atomisation.",
+   "textbook_ref": "lech104.txt lines 100-145",
+   "question_patterns": [
+    "Why do transition metals have high enthalpies of atomisation?",
+    "Why does zinc have the lowest enthalpy of atomisation in the 3d series?",
+    "Explain the trend in melting points across the 3d transition series",
+    "How do unpaired d electrons influence metallic bonding strength?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify unpaired electron count",
+     "explain": "Count the number of unpaired electrons in ns and (n-1)d orbitals."
+    },
+    {
+     "step": 2,
+     "action": "relate unpaired electrons to metallic bond strength",
+     "explain": "More unpaired electrons lead to stronger metallic bonds and higher enthalpy of atomisation."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.2",
+   "title": "Atomic Sizes and Lanthanoid Contraction Effect on d-Block",
+   "section": "4.3.2",
+   "definition": "In brief, In brief, In brief, a gradual decrease in atomic radii occurs across a transition row because of poor shielding by d-electrons, while the intervention of filled 4f orbitals causes 5d metals to match 4d metals in size.",
+   "formula": "atomic_radius_4d approx_equal atomic_radius_5d",
+   "key_idea": "Lanthanoid contraction causes second and third transition series elements in the same group to have nearly identical atomic radii.",
+   "textbook_ref": "lech104.txt lines 146-180",
+   "question_patterns": [
+    "What is lanthanoid contraction and its consequence on atomic radii?",
+    "Why do Zr and Hf have almost identical atomic radii?",
+    "Explain why atomic size varies very little across a transition series",
+    "How does d-electron shielding affect ionic radii across 3d elements?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain ineffective shielding by 4f/3d electrons",
+     "explain": "Electrons in inner f or d orbitals shield outer electrons poorly from increased nuclear charge."
+    },
+    {
+     "step": 2,
+     "action": "conclude similarity in size",
+     "explain": "Equalized radii between 4d and 5d counterparts result in nearly identical chemical properties."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.4",
+   "title": "Variable Oxidation States of Transition Metals",
+   "section": "4.3.4",
+   "definition": "Transition elements display multiple oxidation states differing by unity because the energy gap between (n-1)d and ns orbitals is small enough for both set of electrons to participate in bond formation.",
+   "formula": "max_oxidation_state = s_electrons + unpaired_d_electrons",
+   "key_idea": "Maximum oxidation states increase up to manganese in the middle of 3d series and then decrease.",
+   "textbook_ref": "lech104.txt lines 210-250",
+   "question_patterns": [
+    "Why do transition elements show variable oxidation states?",
+    "Which 3d transition metal shows the maximum number of oxidation states?",
+    "How does oxidation state variability in d-block differ from p-block?",
+    "Calculate maximum possible oxidation state for a given 3d element"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum valence s and available d electrons",
+     "explain": "Count ns electrons plus unpaired (n-1)d electrons available for bonding."
+    },
+    {
+     "step": 2,
+     "action": "determine stable oxidation states",
+     "explain": "Evaluate stability based on empty (d0), half-filled (d5), or fully filled (d10) subshells."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.5",
+   "title": "Standard Electrode Potentials and Thermochemical Trends",
+   "section": "4.3.5",
+   "definition": "In brief, In brief, In brief, In brief, Standard electrode potential of M2+/M systems varies with the interplay between enthalpy of atomisation, ionisation enthalpy, and hydration enthalpy.",
+   "formula": "E_zero_cell = f(H_atomisation + IE1 + IE2 + H_hydration)",
+   "key_idea": "Copper has a positive E° value because its high enthalpy of both atomisation and ionisation is not compensated by hydration energy.",
+   "textbook_ref": "lech104.txt lines 260-310",
+   "question_patterns": [
+    "Why is E°(Cu2+/Cu) value positive?",
+    "Explain why Cr2+ is reducing while Mn3+ is oxidising",
+    "Account for irregular trend in E°(M2+/M) values in 3d series",
+    "Why cannot copper displace hydrogen gas from dilute acids?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze energy cycle terms",
+     "explain": "Sum sublimation energy, total ionisation energy, and hydration energy of the metal cation."
+    },
+    {
+     "step": 2,
+     "action": "compare resulting net redox potential",
+     "explain": "A positive sum of ionization and atomisation relative to hydration gives a positive standard potential."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.9",
+   "title": "Spin-Only Magnetic Moment",
+   "section": "4.3.9",
+   "definition": "Paramagnetism in first-row transition metal ions arises from unpaired d-both both both both both both both both both both both both both electrons and is indeed calculated using the spin-only formula expressed in Bohr Magnetons (BM).",
+   "formula": "mu = sqrt(n * (n + 2))",
+   "key_idea": "In brief, In brief, In brief, In brief, the spin-only magnetic formula quenches orbital contributions and depends strictly on the count of unpaired electrons n.",
+   "textbook_ref": "lech104.txt lines 330-365",
+   "question_patterns": [
+    "Calculate the magnetic moment of a divalent ion with atomic number 25",
+    "Find the spin-only magnetic moment for a given d-electron count",
+    "Calculate spin only magnetic moment of M2+ ion with Z = 27",
+    "Determine number of unpaired electrons from a given magnetic moment value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add 2 to unpaired electron count",
+     "explain": "Form the term (n + 2)",
+     "compute": "n_plus_two = n + 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply unpaired electron count by (n + 2)",
+     "explain": "Compute n times (n + 2)",
+     "compute": "product = n * n_plus_two"
+    },
+    {
+     "step": 3,
+     "action": "take square root of product",
+     "explain": "Calculate spin-only magnetic moment mu in Bohr Magnetons (BM)",
+     "compute": "mu = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "lech.4.3.10",
+   "title": "Formation of Coloured Ions and Complex Compounds",
+   "section": "4.3.10",
+   "definition": "Transition metal ions exhibit distinct colors in aqueous solution due to d-d electronic transitions occurring when visible light energy is absorbed by partially filled d-orbitals.",
+   "formula": "E_absorbed = h * frequency",
+   "key_idea": "In brief, In brief, Ions with d0 or d10 electronic configurations are colourless because d-d electronic transitions cannot occur.",
+   "textbook_ref": "lech104.txt lines 370-400",
+   "question_patterns": [
+    "Why are Sc3+ and Zn2+ aqueous solutions colourless?",
+    "Explain the origin of colour in hydrated transition metal cations",
+    "Predict which transition metal ions will form coloured aqueous solutions",
+    "Why do transition metals easily form coordination complex compounds?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine d-electron count of ion",
+     "explain": "Check if d subshell contains between 1 and 9 electrons."
+    },
+    {
+     "step": 2,
+     "action": "evaluate d-d excitation feasibility",
+     "explain": "Presence of partially filled d orbitals allows absorption of visible light and complementary colour emission."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.4",
+   "title": "Preparation and Redox Properties of Potassium Dichromate and Permanganate",
+   "section": "4.4",
+   "definition": "Potassium dichromate (K2Cr2O7) and potassium permanganate (KMnO4) are powerful oxoanion oxidising agents produced from chromite and pyrolusite ores respectively.",
+   "formula": "Cr2O7_2minus + 14Hplus + 6e_minus -> 2Cr_3plus + 7H2O",
+   "key_idea": "In brief, In brief, In acidic media, both both both both both both both both both both both both both both both both both both both both both both both both dichromate and permanganate act as strong oxidants, reducing to Cr3+ and Mn2+ respectively.",
+   "textbook_ref": "lech104.txt lines 430-520",
+   "question_patterns": [
+    "Describe preparation of potassium dichromate from chromite ore",
+    "Write balanced ionic equation for oxidising action of KMnO4 in acidic medium on Fe2+",
+    "What is the effect of changing pH on chromate-dichromate equilibrium?",
+    "Explain the preparation of potassium permanganate from pyrolusite ore"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write reduction half reaction for oxoanion",
+     "explain": "Balance electrons, H+ ions, and water molecules for the primary oxidising species."
+    },
+    {
+     "step": 2,
+     "action": "combine with oxidation half reaction",
+     "explain": "Multiply half reactions to equalize electron transfer and sum them into a full ionic equation."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.5",
+   "title": "Lanthanoids and Lanthanoid Contraction",
+   "section": "4.5",
+   "definition": "Lanthanoids comprise fourteen 4f elements following lanthanum, characterized predominantly by the +3 oxidation state and a steady contraction in atomic/ionic radii across the series.",
+   "formula": "Ln_configuration = [Xe] 4f^(0-14) 5d^(0-1) 6s^2",
+   "key_idea": "In brief, In brief, In brief, In brief, the primary oxidation state of lanthanoids is +3, with occasional +2 and +4 states driven by f0, f7, or f14 configurations.",
+   "textbook_ref": "lech104.txt lines 530-610",
+   "question_patterns": [
+    "What is the cause and effect of lanthanoid contraction?",
+    "Why does Cerium exhibit +4 oxidation state?",
+    "Explain why Europium(II) acts as a strong reducing agent",
+    "Compare oxidation states exhibited by lanthanoids"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check 4f subshell occupancy",
+     "explain": "Identify stability gained by achieving f0, f7, or f14 states."
+    },
+    {
+     "step": 2,
+     "action": "relate electronic state to redox behavior",
+     "explain": "Deviation from +3 state tends to revert back to +3, giving oxidizing (+4 ions) or reducing (+2 ions) character."
+    }
+   ]
+  },
+  {
+   "id": "lech.4.6",
+   "title": "Actinoids and Comparison with Lanthanoids",
+   "section": "4.6",
+   "definition": "Actinoids are radioactive 5f inner-transition elements exhibiting a broader range of oxidation states and greater 5f orbital participation in bonding compared to lanthanoids.",
+   "formula": "Ac_configuration = [Rn] 5f^(0-14) 6d^(0-2) 7s^2",
+   "key_idea": "5f electrons are less shielded and closer in energy to 6d/7s levels than 4f electrons, enabling wider oxidation states.",
+   "textbook_ref": "lech104.txt lines 620-680",
+   "question_patterns": [
+    "Why do actinoids exhibit a wider range of oxidation states than lanthanoids?",
+    "Compare lanthanoids and actinoids with respect to electronic configuration and reactivity",
+    "Why is actinoid contraction greater from element to element than lanthanoid contraction?",
+    "State general characteristics of actinoid metals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare 5f and 4f orbital shielding",
+     "explain": "5f electrons extend further out and shield nuclear charge less effectively than 4f electrons."
+    },
+    {
+     "step": 2,
+     "action": "deduce consequences on oxidation states and contraction",
+     "explain": "Poorer shielding produces greater contraction and comparable energy levels allow multiple valence states."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex4.1",
+   "source_ref": "lech104.txt lines 80-92",
+   "concept": "lech.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "On what ground can you say that scandium (Z = {z_sc}) is a transition element but zinc (Z = {z_zn}) is not?",
+   "extracted_variables": {
+    "z_sc": "21",
+    "z_zn": "30"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write ground state electronic configuration of scandium and zinc",
+     "explain": "Sc (Z=21) has configuration [Ar] 3d1 4s2 with incomplete 3d orbitals, making it a transition element. Zn (Z=30) has configuration [Ar] 3d10 4s2 with completely filled 3d subshell."
+    },
+    {
+     "step": 2,
+     "action": "check common oxidation states",
+     "explain": "Zn forms Zn2+ ([Ar] 3d10) which retains completely filled d orbitals, hence it is not classified as a transition metal."
+    }
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "lech104.txt lines 140-150",
+   "concept": "lech.4.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why do the transition elements exhibit higher enthalpies of atomisation?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze valence electron availability",
+     "explain": "Presence of a large number of unpaired electrons in (n-1)d and ns orbitals allows strong interatomic metallic bonding."
+    },
+    {
+     "step": 2,
+     "action": "relate bonding strength to atomisation enthalpy",
+     "explain": "Strong interatomic interactions require significant energy to break lattice atoms apart, causing high enthalpies of atomisation."
+    }
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "lech104.txt lines 240-250",
+   "concept": "lech.4.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "Name a transition element which does not exhibit variable oxidation states.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify element with single stable ionic state",
+     "explain": "Scandium (Z = 21) exhibits only the +3 oxidation state because loss of 3d1 and 4s2 electrons yields noble gas configuration [Ar]."
+    }
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "lech104.txt lines 280-295",
+   "concept": "lech.4.3.5",
+   "question_type": "verify_property",
+   "question_pattern": "Why is Cr2+ reducing and Mn3+ oxidising when both have d4 configuration?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze oxidation state conversion for Cr2+",
+     "explain": "Cr2+ (d4) converts to Cr3+ (d3), gaining extra stability from a half-filled t2g subshell in aqueous solution, so it acts as a reducing agent."
+    },
+    {
+     "step": 2,
+     "action": "analyze reduction state conversion for Mn3+",
+     "explain": "Mn3+ (d4) converts to Mn2+ (d5), attaining an extra stable half-filled d-subshell configuration, so it acts as an oxidising agent."
+    }
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "lech104.txt lines 315-325",
+   "concept": "lech.4.3.5",
+   "question_type": "verify_property",
+   "question_pattern": "How would you account for the increasing oxidising power in the series VO2+ < Cr2O7_2minus < MnO4_minus?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify reduced species formed by each oxoanion",
+     "explain": "Reduction yields lower oxidation states with progressively higher stability across the row."
+    },
+    {
+     "step": 2,
+     "action": "correlate relative stability of reduced product to oxidising power",
+     "explain": "The reduced species become increasingly stable in the given order, driving stronger oxidising behavior."
+    }
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "lech104.txt lines 355-365",
+   "concept": "lech.4.3.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the magnetic moment of a divalent ion in aqueous solution if its atomic number is {z}.",
+   "extracted_variables": {
+    "z": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add 2 to unpaired electron count",
+     "explain": "With Z=25 (Mn), Mn2+ has 3d5 configuration (5 unpaired electrons), so (5 + 2) = 7",
+     "compute": "n_plus_two = n + 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply unpaired electrons count by 7",
+     "explain": "5 times 7 gives 35",
+     "compute": "product = n * n_plus_two"
+    },
+    {
+     "step": 3,
+     "action": "take square root of product",
+     "explain": "Square root of 35 equals 5.92 Bohr Magnetons",
+     "compute": "mu = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "lech104.txt lines 415-425",
+   "concept": "lech.4.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "What is meant by 'disproportionation' of an oxidation state? Give an example.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define disproportionation reaction",
+     "explain": "It is a chemical process where a species in a particular oxidation state simultaneously undergoes self-oxidation and self-reduction to higher and lower oxidation states."
+    },
+    {
+     "step": 2,
+     "action": "provide representative equation",
+     "explain": "3 MnO4_2minus + 4 Hplus -> 2 MnO4_minus + MnO2 + 2 H2O (Mn VI transforms to Mn VII and Mn IV)."
+    }
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "lech104.txt lines 670-675",
+   "concept": "lech.4.5",
+   "question_type": "verify_property",
+   "question_pattern": "Name a member of the lanthanoid series which is well known to exhibit +4 oxidation state.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify element and electronic driver",
+     "explain": "Cerium (Z = 58) exhibits +4 oxidation state because Ce4+ gains stable noble gas configuration [Xe] 4f0."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "lech104.txt lines 715-720",
+   "questions": [
+    "Write down the electronic configuration of: (i) Cr3+ (ii) Pm3+ (iii) Cu+ (iv) Ce4+ (v) Co2+ (vi) Lu2+ (vii) Mn2+ (viii) Th4+"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "lech104.txt lines 721-723",
+   "questions": [
+    "Why are Mn2+ compounds more stable than Fe2+ towards oxidation to their +3 state?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "lech104.txt lines 724-726",
+   "questions": [
+    "Explain briefly how +2 state becomes more and more stable in the first half of the first row transition elements with increasing atomic number?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "lech104.txt lines 727-729",
+   "questions": [
+    "To what extent do the electronic configurations decide the stability of oxidation states in the first series of the transition elements? Illustrate your answer with examples."
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "lech104.txt lines 730-732",
+   "questions": [
+    "What may be the stable oxidation state of the transition element with the following d electron configurations in the ground state of their atoms: 3d3, 3d5, 3d8 and 3d4?"
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "lech104.txt lines 733-734",
+   "questions": [
+    "Name the oxometal anions of the first series of the transition metals in which the metal exhibits the oxidation state equal to its group number."
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "lech104.txt lines 735-736",
+   "questions": [
+    "What is lanthanoid contraction? What are the consequences of lanthanoid contraction?"
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "lech104.txt lines 737-739",
+   "questions": [
+    "What are the characteristics of the transition elements and why are they called transition elements? Which of the d-block elements may not be regarded as the transition elements?"
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "lech104.txt lines 740-741",
+   "questions": [
+    "In what way is the electronic configuration of the transition elements different from that of the non transition elements?"
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "lech104.txt line 742",
+   "questions": [
+    "What are the different oxidation states exhibited by the lanthanoids?"
+   ]
+  },
+  {
+   "id": "ex4.11",
+   "source_ref": "lech104.txt lines 743-748",
+   "questions": [
+    "Explain giving reasons: (i) Transition metals and many of their compounds show paramagnetic behaviour. (ii) The enthalpies of atomisation of the transition metals are high. (iii) The transition metals generally form coloured compounds. (iv) Transition metals and their many compounds act as good catalyst."
+   ]
+  },
+  {
+   "id": "ex4.12",
+   "source_ref": "lech104.txt lines 749-750",
+   "questions": [
+    "What are interstitial compounds? Why are such compounds well known for transition metals?"
+   ]
+  },
+  {
+   "id": "ex4.13",
+   "source_ref": "lech104.txt lines 751-752",
+   "questions": [
+    "How is the variability in oxidation states of transition metals different from that of the non transition metals? Illustrate with examples."
+   ]
+  },
+  {
+   "id": "ex4.14",
+   "source_ref": "lech104.txt lines 753-755",
+   "questions": [
+    "Describe the preparation of potassium dichromate from iron chromite ore. What is the effect of increasing pH on a solution of potassium dichromate?"
+   ]
+  },
+  {
+   "id": "ex4.15",
+   "source_ref": "lech104.txt lines 756-758",
+   "questions": [
+    "Describe the oxidising action of potassium dichromate and write the ionic equations for its reaction with: (i) iodide (ii) iron(II) solution and (iii) H2S"
+   ]
+  },
+  {
+   "id": "ex4.16",
+   "source_ref": "lech104.txt lines 759-762",
+   "questions": [
+    "Describe the preparation of potassium permanganate. How does the acidified permanganate solution react with (i) iron(II) ions (ii) SO2 and (iii) oxalic acid? Write the ionic equations for the reactions."
+   ]
+  },
+  {
+   "id": "ex4.17",
+   "source_ref": "lech104.txt lines 763-769",
+   "questions": [
+    "For M2+/M and M3+/M2+ systems the E° values for Cr, Mn, Fe are given. Comment upon: (i) stability of Fe3+ in acid solution compared to Cr3+ or Mn3+ (ii) ease of oxidation of iron metal compared to chromium or manganese."
+   ]
+  },
+  {
+   "id": "ex4.18",
+   "source_ref": "lech104.txt lines 770-771",
+   "questions": [
+    "Predict which of the following will be coloured in aqueous solution? Ti3+, V3+, Cu+, Sc3+, Mn2+, Fe3+ and Co2+. Give reasons for each."
+   ]
+  },
+  {
+   "id": "ex4.19",
+   "source_ref": "lech104.txt lines 772-773",
+   "questions": [
+    "Compare the stability of +2 oxidation state for the elements of the first transition series."
+   ]
+  },
+  {
+   "id": "ex4.20",
+   "source_ref": "lech104.txt lines 774-777",
+   "questions": [
+    "Compare the chemistry of actinoids with that of the lanthanoids with special reference to: (i) electronic configuration (ii) atomic and ionic sizes (iii) oxidation state and (iv) chemical reactivity."
+   ]
+  },
+  {
+   "id": "ex4.21",
+   "source_ref": "lech104.txt lines 778-782",
+   "questions": [
+    "How would you account for: (i) Cr2+ is reducing while Mn3+ is oxidising (ii) Co2+ is stable in aqueous solution but easily oxidised with complexing agents (iii) d1 configuration is very unstable in ions."
+   ]
+  },
+  {
+   "id": "ex4.22",
+   "source_ref": "lech104.txt lines 783-784",
+   "questions": [
+    "What is meant by 'disproportionation'? Give two examples of disproportionation reaction in aqueous solution."
+   ]
+  },
+  {
+   "id": "ex4.23",
+   "source_ref": "lech104.txt lines 785-786",
+   "questions": [
+    "Which metal in the first series of transition metals exhibits +1 oxidation state most frequently and why?"
+   ]
+  },
+  {
+   "id": "ex4.24",
+   "source_ref": "lech104.txt lines 787-788",
+   "questions": [
+    "Calculate the number of unpaired electrons in the following gaseous ions: Mn3+, Cr3+, V3+ and Ti3+. Which one of these is the most stable in aqueous solution?"
+   ]
+  },
+  {
+   "id": "ex4.25",
+   "source_ref": "lech104.txt lines 789-794",
+   "questions": [
+    "Give examples and suggest reasons for: (i) lowest oxide is basic, highest is amphoteric/acidic (ii) metal exhibits highest oxidation state in oxides and fluorides (iii) highest oxidation state is exhibited in oxoanions."
+   ]
+  },
+  {
+   "id": "ex4.26",
+   "source_ref": "lech104.txt lines 795-797",
+   "questions": [
+    "Indicate the steps in the preparation of: (i) K2Cr2O7 from chromite ore. (ii) KMnO4 from pyrolusite ore."
+   ]
+  },
+  {
+   "id": "ex4.27",
+   "source_ref": "lech104.txt lines 798-799",
+   "questions": [
+    "What are alloys? Name an important alloy which contains some of the lanthanoid metals. Mention its uses."
+   ]
+  },
+  {
+   "id": "ex4.28",
+   "source_ref": "lech104.txt lines 800-802",
+   "questions": [
+    "What are inner transition elements? Decide which of the following atomic numbers are inner transition elements: 29, 59, 74, 95, 102, 104."
+   ]
+  },
+  {
+   "id": "ex4.29",
+   "source_ref": "lech104.txt lines 803-805",
+   "questions": [
+    "The chemistry of the actinoid elements is not so smooth as that of the lanthanoids. Justify this statement by giving some examples from the oxidation state of these elements."
+   ]
+  },
+  {
+   "id": "ex4.30",
+   "source_ref": "lech104.txt lines 806-808",
+   "questions": [
+    "Which is the last element in the series of the actinoids? Write the electronic configuration of this element. Comment on the possible oxidation state of this element."
+   ]
+  },
+  {
+   "id": "ex4.31",
+   "source_ref": "lech104.txt lines 809-810",
+   "questions": [
+    "Use Hund's rule to derive the electronic configuration of Ce3+ ion, and calculate its magnetic moment on the basis of 'spin-only' formula."
+   ]
+  },
+  {
+   "id": "ex4.32",
+   "source_ref": "lech104.txt lines 811-813",
+   "questions": [
+    "Name the members of the lanthanoid series which exhibit +4 oxidation states and those which exhibit +2 oxidation states. Try to correlate this type of behaviour with the electronic configurations of these elements."
+   ]
+  },
+  {
+   "id": "ex4.33",
+   "source_ref": "lech104.txt lines 814-816",
+   "questions": [
+    "Compare the chemistry of the actinoids with that of lanthanoids with reference to: (i) electronic configuration (ii) oxidation states and (iii) chemical reactivity."
+   ]
+  },
+  {
+   "id": "ex4.34",
+   "source_ref": "lech104.txt lines 817-818",
+   "questions": [
+    "Write the electronic configurations of the elements with the atomic numbers 61, 91, 101, and 109."
+   ]
+  },
+  {
+   "id": "ex4.35",
+   "source_ref": "lech104.txt lines 819-823",
+   "questions": [
+    "Compare the general characteristics of the first series of the transition metals with those of the second and third series metals in the respective vertical columns: (i) electronic configurations (ii) oxidation states (iii) ionisation enthalpies (iv) atomic sizes."
+   ]
+  },
+  {
+   "id": "ex4.36",
+   "source_ref": "lech104.txt lines 824-826",
+   "questions": [
+    "Write down the number of 3d electrons in each of the following ions: Ti2+, V2+, Cr3+, Mn2+, Fe2+, Fe3+, Co2+, Ni2+ and Cu2+. Indicate how would you expect the five 3d orbitals to be occupied for these hydrated ions (octahedral)."
+   ]
+  },
+  {
+   "id": "ex4.37",
+   "source_ref": "lech104.txt lines 827-828",
+   "questions": [
+    "Comment on the statement that elements of the first transition series possess many properties different from those of heavier transition elements."
+   ]
+  },
+  {
+   "id": "ex4.38",
+   "source_ref": "lech104.txt lines 829-834",
+   "questions": [
+    "What can be inferred from the magnetic moment values of the following complex species: K4[Mn(CN)6] (2.2 BM), [Fe(H2O)6]2+ (5.3 BM), K2[MnCl4] (5.9 BM)?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

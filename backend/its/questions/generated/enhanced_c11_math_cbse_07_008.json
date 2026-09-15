@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_008",
+   "title": "c11_math_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the symmetry property of combinations and write the condition under which it holds.",
+     "a": "The symmetry property is nCr = nC(n−r), valid for non-negative integers n and r with 0 ≤ r ≤ n. A wrong answer like nCr = nCr−1 or nCr = (n−1)Cr reveals the student confuses symmetry with Pascal's identity or the multiplicative property. If they omit the condition 0 ≤ r ≤ n, they don't understand the domain restrictions of combination notation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why nCr = nC(n−r) is true using the concept of selecting a committee, without using the factorial formula.",
+     "a": "Choosing r members for a committee from n people automatically leaves (n−r) people not on the committee. There is a one-to-one correspondence between each possible committee of size r and its complement of size (n−r), so the number of ways must be equal. A wrong answer that only manipulates factorials algebraically shows the student lacks conceptual understanding of what combinations represent. If they say \"because the formula gives the same result\" without explaining the selection interpretation, they are memorising rather than understanding.",
+     "self_check": true
+    },
+    {
+     "q": "If nC12 = nC8, find the value of n.",
+     "a": "Using symmetry property nCr = nC(n−r), we have either 12 = 8 (impossible) or 12 = n−8. Thus n = 20. Verification: 20C12 = 20C8. A wrong answer like n = 4 (from 12−8) or n = 96 (from 12×8) reveals the student misapplies the property — they either subtract indices or multiply them instead of using n = r + (n−r). If they write nC12 = nC8 ⇒ 12 = n−8 ⇒ n = 20 but forget to check 12 ≤ n, they miss the domain condition.",
+     "self_check": true
+    },
+    {
+     "q": "Given that 15Cr = 15C(r+3), find all possible values of r. Then determine which value makes the combination largest.",
+     "a": "Using symmetry: r = (r+3) impossible, or r = 15−(r+3) ⇒ 2r = 12 ⇒ r = 6. Check: 15C6 = 15C9, valid. The combination 15Cr is largest when r = 7 or 8 (near n/2). A wrong answer giving r = 6 only without checking domain, or saying r = 7.5, reveals the student doesn't consider that combinations are defined only for integer r. If they don't identify that maximum occurs at r = ⌊n/2⌋ or ⌈n/2⌉, they don't understand the unimodal nature of binomial coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 10C3 = 120 and 10C4 = 210, then 11C4 should be 330 because 120 + 210 = 330.\" Evaluate this reasoning and state the correct property being used.",
+     "a": "The student's reasoning is correct and uses Pascal's identity: nCr + nC(r−1) = (n+1)Cr. Here 10C3 + 10C4 = 11C4, and 120 + 210 = 330. A wrong evaluation saying \"this is coincidence\" or \"you can't add combinations\" reveals the student doesn't recognise Pascal's identity. If they write 10C3 + 10C4 = 20C7, they confuse addition of combinations with addition of indices. The correct property is Pascal's identity, not symmetry or multiplicative property.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires using BOTH symmetry property and Pascal's identity to solve. Provide the solution.",
+     "a": "Problem: \"A school has 12 teachers. A committee of 5 is to be formed. If the principal must be on the committee, how many ways? If the principal refuses to serve with the vice-principal, how many ways?\" \nSolution: With principal: choose 4 from remaining 11 ⇒ 11C4 = 11C7 = 330 (symmetry). Without both: choose 5 from 10 ⇒ 10C5. With exactly one of them: 2 × 10C4. Total = 10C5 + 2×10C4 = 10C5 + 10C4 + 10C4 = 11C5 + 10C4 (Pascal) = 11C5 + 11C4 − 10C3 = 12C5 − 10C3 = 792 − 120 = 672. A poor answer uses only one property or computes factorials directly, showing inability to combine properties strategically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

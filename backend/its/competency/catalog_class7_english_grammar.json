@@ -1,0 +1,195 @@
+{
+  "class": 7,
+  "subject": "english_grammar",
+  "chapter": 1,
+  "chapter_title": "English Grammar II: Agreement, Prepositions, Comparison",
+  "source_file": "original-authored; grammar drill bank (no textbook source)",
+  "license": "original authored content; no textbook passages",
+  "concepts": [
+    {
+      "id": "engram.7.1",
+      "title": "Subject-Verb Agreement: Fill the Blank",
+      "section": "Grammar Drill",
+      "definition": "A singular subject takes a singular verb and a plural subject takes a plural verb. Words like each, every, neither, either and news stay singular; the real subject may sit away from the verb inside a of-phrase.",
+      "formula": "one subject -> singular verb;  two subjects joined by and -> plural verb",
+      "key_idea": "Find the true subject first; ignore the noun inside 'of ...'.",
+      "question_patterns": [
+        "Fill in the blank with the verb that agrees with the subject",
+        "Choose is or are, has or have for the sentence",
+        "Complete the sentence so the verb agrees"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Strike out of-phrases",
+          "explain": "the noun inside 'of ...' is never the subject"
+        },
+        {
+          "step": 2,
+          "action": "Count the subject",
+          "explain": "each, every, neither, either, news, mathematics are singular"
+        },
+        {
+          "step": 3,
+          "action": "Match the verb",
+          "explain": "singular subject -> is/has/verb-s; plural subject -> are/have/base verb"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the correct verb form: The list of items ___ on the desk. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: My friends ___ football after school. (play)",
+          "a": "play"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Each of the boys ___ a pen. (have)",
+          "a": "has"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: The news ___ very good today. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Neither of the answers ___ correct. (be)",
+          "a": "is"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Ravi and his sister ___ to the same school. (go)",
+          "a": "go"
+        },
+        {
+          "q": "Fill in the blank with the correct verb form: Mathematics ___ my favourite subject. (be)",
+          "a": "is"
+        }
+      ]
+    },
+    {
+      "id": "engram.7.2",
+      "title": "Prepositions of Time and Place",
+      "section": "Grammar Drill",
+      "definition": "Prepositions link a noun to the rest of the sentence. In is used for months, years and inside spaces; on for days, dates and surfaces; at for clock times and points; since and across follow fixed senses.",
+      "formula": "in July, on Monday, at 5 o'clock, since Monday",
+      "key_idea": "Time words decide in, on, at: month or year - in; day or date - on; clock time - at.",
+      "question_patterns": [
+        "Fill in the blank with the correct preposition",
+        "Choose in, on or at for the sentence",
+        "Complete the sentence with a preposition"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Ask what kind of time",
+          "explain": "month/year -> in; day/date/surface -> on; clock time -> at"
+        },
+        {
+          "step": 2,
+          "action": "For places",
+          "explain": "inside a space -> in; a surface or line -> on; a point -> at"
+        },
+        {
+          "step": 3,
+          "action": "Since vs for",
+          "explain": "since names the starting point"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Fill in the blank with the correct preposition: We will meet ___ Monday.",
+          "a": "on"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: My birthday falls ___ July.",
+          "a": "in"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: The train arrived ___ 5 o'clock.",
+          "a": "at"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: The dictionary is ___ the bag.",
+          "a": "in"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: She has been unwell ___ Monday.",
+          "a": "since"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: The library is ___ the second floor.",
+          "a": "on"
+        },
+        {
+          "q": "Fill in the blank with the correct preposition: He walked ___ the road carefully.",
+          "a": "across"
+        }
+      ]
+    },
+    {
+      "id": "engram.7.3",
+      "title": "Comparatives and Superlatives: One Word",
+      "section": "Grammar Drill",
+      "definition": "Short adjectives add -er and -est; adjectives ending in a consonant + y change y to ier and iest; long adjectives take more and most. A few adjectives are irregular: good-better-best, bad-worse-worst.",
+      "formula": "tall-taller-tallest; happy-happier-happiest; good-better-best",
+      "key_idea": "Syllables decide: one syllable takes -er/-est, long words take more/most.",
+      "question_patterns": [
+        "Write the comparative or superlative form of the adjective",
+        "Give the -er or -est form of the word",
+        "Complete the degree of comparison"
+      ],
+      "solution_type": "fill_blank",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Count the syllables",
+          "explain": "one syllable -> -er/-est"
+        },
+        {
+          "step": 2,
+          "action": "Consonant + y",
+          "explain": "happy -> happier, happiest"
+        },
+        {
+          "step": 3,
+          "action": "Irregulars",
+          "explain": "good -> better/best, bad -> worse/worst"
+        }
+      ],
+      "worked_examples": [
+        {
+          "q": "Write the comparative form of this adjective: tall",
+          "a": "taller"
+        },
+        {
+          "q": "Write the superlative form of this adjective: tall",
+          "a": "tallest"
+        },
+        {
+          "q": "Write the comparative form of this adjective: big",
+          "a": "bigger"
+        },
+        {
+          "q": "Write the comparative form of this adjective: happy",
+          "a": "happier"
+        },
+        {
+          "q": "Write the superlative form of this adjective: good",
+          "a": "best"
+        },
+        {
+          "q": "Write the comparative form of this adjective: beautiful",
+          "a": "more beautiful"
+        },
+        {
+          "q": "Write the comparative form of this adjective: bad",
+          "a": "worse"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [],
+  "exercises": []
+}

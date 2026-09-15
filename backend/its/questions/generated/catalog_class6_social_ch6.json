@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class6_social_ch6",
+ "concepts": [
+  {
+   "id": "c6ss.6.1",
+   "title": "Indus Valley or Harappan Civilisation Overview",
+   "questions": [
+    {
+     "q": "Using the method 'Indus Valley or Harappan Civilisation Overview', work with: end_year = 100, start_year = 200. Carry the chain through step by step and give the final value of duration.",
+     "a": "100 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indus Valley or Harappan Civilisation Overview' and work with: end_year = 200, start_year = 1000. Carry the chain through step by step and give the final value of duration.",
+     "a": "800 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indus Valley or Harappan Civilisation Overview' refers to.",
+     "a": "The Harappan Civilisation flourished in the Indus valley from about 2600 BCE to 1900 BCE, making it one of the earliest urban civilizations of the world.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indus Valley or Harappan Civilisation Overview'.",
+     "a": "The Harappan Civilisation was a Bronze Age urban culture spread across north-western India and present-day Pakistan, known for its planned cities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indus Valley or Harappan Civilisation Overview', in plain ASCII form.",
+     "a": "duration = end_year - start_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.2",
+   "title": "Town Planning and Drainage",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Town Planning and Drainage' refers to.",
+     "a": "Harappan cities were carefully planned with a grid of streets, rectangular houses of baked bricks, and an advanced covered drainage system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Town Planning and Drainage'.",
+     "a": "The systematic town planning and drainage of Harappan cities show a high level of civic organisation and engineering skill.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Town Planning and Drainage'.",
+     "a": "describe the town planning of Harappan cities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.3",
+   "title": "The Great Bath and Granaries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Great Bath and Granaries' refers to.",
+     "a": "The Great Bath of Mohenjo-daro was a large waterproof tank probably used for ritual bathing, while granaries were large storehouses for surplus grain.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Great Bath and Granaries'.",
+     "a": "Public structures like the Great Bath and granaries reveal the importance of religion, hygiene, and food storage in Harappan society.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'The Great Bath and Granaries'.",
+     "a": "describe the Great Bath of Mohenjo-daro",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.4",
+   "title": "Agriculture and Trade",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Agriculture and Trade' refers to.",
+     "a": "The Harappans practised agriculture along the fertile Indus floodplains and carried out extensive trade with regions within and beyond the subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agriculture and Trade'.",
+     "a": "Surplus agricultural production supported urban life and enabled the Harappans to trade goods such as beads, cotton, and metals over long distances.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Agriculture and Trade'.",
+     "a": "describe the agriculture of the Harappan civilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.5",
+   "title": "Arts and Crafts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Arts and Crafts' refers to.",
+     "a": "The Harappans were skilled artisans who produced beads, pottery, jewellery, metal tools, and figurines, showing advanced craft techniques.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arts and Crafts'.",
+     "a": "Specialised crafts such as bead-making, pottery, and metalworking reflect a prosperous and technologically skilled Harappan society.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Arts and Crafts'.",
+     "a": "describe the arts and crafts of the Harappan civilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.6",
+   "title": "Seals and Writing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Seals and Writing' refers to.",
+     "a": "Harappan seals, usually made of steatite, carry engravings of animals and a script that has not yet been fully deciphered.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Seals and Writing'.",
+     "a": "The seals were likely used for trade and identification, and the undeciphered script points to a literate Harappan society.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Seals and Writing'.",
+     "a": "describe the seals of the Harappan civilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.7",
+   "title": "Decline of the Harappan Civilisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Decline of the Harappan Civilisation' refers to.",
+     "a": "The Harappan Civilisation declined around 1900 BCE, possibly due to a combination of climate change, drying of rivers, floods, and a decline in trade.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Decline of the Harappan Civilisation'.",
+     "a": "The decline of the Harappan cities was gradual and may have resulted from environmental changes and economic factors rather than a single invasion.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Decline of the Harappan Civilisation'.",
+     "a": "explain the possible causes of the decline of the Harappan civilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.6.8",
+   "title": "Legacy of the Harappan Civilisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Legacy of the Harappan Civilisation' refers to.",
+     "a": "The Harappan Civilisation left a lasting legacy in town planning, crafts, agricultural practices, and cultural traditions that influenced later Indian civilization.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Legacy of the Harappan Civilisation'.",
+     "a": "Many elements of Harappan culture, such as planned settlements, craft traditions, and symbols, continued in later periods of Indian history.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Legacy of the Harappan Civilisation'.",
+     "a": "describe the legacy of the Harappan civilisation",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 403,
+ "chapter_title": "Gender, Religion and Caste",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess403.txt",
+ "concepts": [
+  {
+   "id": "jess.403.1.1",
+   "title": "Sexual Division of Labour and Patriarchy",
+   "section": "Gender and politics - Public/private division",
+   "definition": "A customary arrangement where domestic chores and caregiving are allocated primarily to females, while males undertake income-generating activities outside the household under male-dominated authority structures.",
+   "formula": "None",
+   "key_idea": "Gender roles are socially constructed rather than biologically determined, rendering unpaid domestic work undervalued.",
+   "textbook_ref": "jess403.txt lines 30-75",
+   "question_patterns": [
+    "Explain what is meant by the sexual division of labour.",
+    "How does patriarchy influence the allocation of household work?",
+    "Why is unpaid domestic labour performed by women often unrecognised?",
+    "Describe the distinction between public and private division of labour.",
+    "What factors perpetuate male dominance in the domestic sphere?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social allocation",
+     "explain": "Household tasks like cooking and caregiving are socially assigned to women within the family."
+    },
+    {
+     "step": 2,
+     "action": "examine public sphere participation",
+     "explain": "Men predominantly take up income-producing public jobs, devaluing domestic work despite the longer total hours women work."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.2",
+   "title": "Feminist Movements and Gender Inequalities",
+   "section": "Gender and politics - Feminist movements",
+   "definition": "Organised collective mobilisations aimed at achieving equal rights, legal status, career access, and social parity for women across public and family life.",
+   "formula": "None",
+   "key_idea": "Political mobilisation on gender issues improves female literacy, career access, and civic rights.",
+   "textbook_ref": "jess403.txt lines 76-150",
+   "question_patterns": [
+    "Define feminism and state its primary objectives.",
+    "What are the major indicators of gender inequality in India?",
+    "How do feminist movements advocate for personal and family equality?",
+    "Examine the causes behind low female literacy and adverse child sex ratio.",
+    "Illustrate how the Equal Remuneration Act attempts to address gender wage gaps."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define core ideology",
+     "explain": "Advocacy for identical rights, legal protections, and life opportunities for both men and women."
+    },
+    {
+     "step": 2,
+     "action": "identify key grievances",
+     "explain": "Disparities such as female literacy deficits, wage discrimination, and skewed child sex ratios need political intervention."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.3",
+   "title": "Women Political Representation and Quotas",
+   "section": "Gender and politics - Women's political representation",
+   "definition": "The formal inclusion of women in decision-making assemblies ensured through legally mandated reservations in elected political institutions.",
+   "formula": "None",
+   "key_idea": "Statutory reservations empower disadvantaged groups to shape governance and policy priorities.",
+   "textbook_ref": "jess403.txt lines 151-205",
+   "question_patterns": [
+    "Describe the status of women representation in Indian legislatures.",
+    "How has local self-government improved female political empowerment?",
+    "What provisions are made under the Nari Shakti Vandan Adhiniyam 2023?",
+    "Why is legislative reservation deemed necessary for women?",
+    "Compare India female parliamentary representation with international benchmarks."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate existing legislative share",
+     "explain": "Historically low representation in Parliament and State Assemblies made affirmative legal mechanisms essential."
+    },
+    {
+     "step": 2,
+     "action": "apply reservation provisions",
+     "explain": "Mandating one-third quota in Panchayati Raj institutions and legislative assemblies secures direct participation for women."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.1",
+   "title": "Religion and Politics Interface",
+   "section": "Religion, communalism and politics",
+   "definition": "The constructive integration of ethical values, moral principles, and social justice demands derived from religious traditions into democratic governance.",
+   "formula": "None",
+   "key_idea": "Religious values can guide political morality positively when all faiths receive impartial treatment.",
+   "textbook_ref": "jess403.txt lines 206-250",
+   "question_patterns": [
+    "Explain Gandhiji view on the relation between religion and politics.",
+    "How can moral values drawn from religion enrich democratic politics?",
+    "Why do human rights organizations demand protection for minority communities?",
+    "Discuss the demand for reform in discriminatory family laws.",
+    "Under what conditions does the expression of religious interests remain healthy in politics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "clarify moral basis",
+     "explain": "Gandhian philosophy views religion as universal ethics rather than sectarian doctrine."
+    },
+    {
+     "step": 2,
+     "action": "ensure equitable regulation",
+     "explain": "The state may intervene to protect minority rights and reform unfair personal laws while treating all faiths equally."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.2",
+   "title": "Communalism and Forms of Communal Politics",
+   "section": "Religion, communalism and politics - Communalism",
+   "definition": "An exclusionary political ideology founded on the presumption that followers of a single religion constitute an exclusive community with conflicting interests against other faiths.",
+   "formula": "None",
+   "key_idea": "Communalism polarises society by subordinating shared civil identities to sectarian interests.",
+   "textbook_ref": "jess403.txt lines 251-315",
+   "question_patterns": [
+    "What constitutes communal politics?",
+    "List the various forms that communalism takes in politics.",
+    "How do emotional appeals and religious symbols foster communal polarisation?",
+    "Why is the assumption of uniform religious community interests flawed?",
+    "Explain how communalism can escalate into violent riots and conflict."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ideological premise",
+     "explain": "Belief that religion forms the sole foundation of social identity and political loyalty."
+    },
+    {
+     "step": 2,
+     "action": "categorise manifestations",
+     "explain": "Manifests through everyday stereotypes, majoritarian dominance quests, sectarian voting appeals, and physical violence."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.3",
+   "title": "Constitutional Provisions of a Secular State",
+   "section": "Religion, communalism and politics - Secular state",
+   "definition": "A constitutional framework ensuring that the state possesses no official religion, guarantees individual religious freedoms, and prohibits faith-based discrimination.",
+   "formula": "None",
+   "key_idea": "A secular constitution guarantees religious neutrality and empowers the state to reform internal social inequalities.",
+   "textbook_ref": "jess403.txt lines 316-360",
+   "question_patterns": [
+    "Mention the key constitutional provisions that make India a secular state.",
+    "How does the Indian Constitution balance religious freedom with state intervention?",
+    "Why does India have no official religion unlike some neighbouring countries?",
+    "Explain the prohibition of untouchability as a secular reform.",
+    "What measures are needed beyond constitutional law to combat communal prejudices?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify absence of state religion",
+     "explain": "No single faith receives special constitutional status or official recognition in India."
+    },
+    {
+     "step": 2,
+     "action": "verify individual and equality rights",
+     "explain": "Citizens enjoy freedom of conscience and propagation, while discrimination is barred and regressive social practices are outlawed."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.1",
+   "title": "Caste Inequalities and Social Change",
+   "section": "Caste and politics - Caste inequalities",
+   "definition": "An institutionalised, hereditary social hierarchy unique to India that historically enforced occupational restrictions, social exclusion, and untouchability.",
+   "formula": "None",
+   "key_idea": "Urbanisation, educational expansion, and legal bans have eroded traditional caste barriers, though economic disparities persist.",
+   "textbook_ref": "jess403.txt lines 361-440",
+   "question_patterns": [
+    "What distinguishing features characterised the traditional caste system in India?",
+    "How have urbanisation and occupational mobility altered caste hierarchies?",
+    "Describe the contributions of social reformers in challenging caste discrimination.",
+    "In what ways do caste-based economic disparities continue in modern India?",
+    "Why are certain socio-historical advantages still visible among upper castes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe traditional structure",
+     "explain": "Hereditary occupations sanctioned by ritual hierarchy and endogamy enforced rigid social stratification."
+    },
+    {
+     "step": 2,
+     "action": "assess modern transitions",
+     "explain": "Economic modernisation and statutory protections weaken segregation, though wealth gaps linked to historical privileges remain."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.2",
+   "title": "Forms of Caste in Politics",
+   "section": "Caste and politics - Caste in politics",
+   "definition": "The strategic alignment where political entities appeal to caste identities, nominate candidates based on caste demographics, and accommodate varied caste interests in governance.",
+   "formula": "None",
+   "key_idea": "Universal adult suffrage compels politicians to mobilise support across diverse caste communities.",
+   "textbook_ref": "jess403.txt lines 441-490",
+   "question_patterns": [
+    "How do political parties utilise caste equations during elections?",
+    "Explain the role of caste sentiment in candidate selection and cabinet formation.",
+    "What effect did universal adult franchise have on low-caste political consciousness?",
+    "Describe how caste groups function as political constituencies.",
+    "In what manners do election campaigns appeal to caste identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine electoral calculations",
+     "explain": "Parties evaluate caste demographics to select viable candidates and build winning electoral alliances."
+    },
+    {
+     "step": 2,
+     "action": "examine political empowerment",
+     "explain": "One-person-one-vote empowers historically marginalised castes to assert democratic influence."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.3",
+   "title": "Limitations of Caste Factor in Elections",
+   "section": "Caste and politics - Limits of caste in elections",
+   "definition": "The electoral reality that caste alignment alone cannot guarantee victory due to cross-cutting economic interests, multi-caste constituencies, and voter evaluation of government performance.",
+   "formula": "None",
+   "key_idea": "Elections are decided by multiple intersecting factors including governance performance, leadership ratings, and party loyalty rather than pure caste allegiance.",
+   "textbook_ref": "jess403.txt lines 491-540",
+   "question_patterns": [
+    "State two reasons why caste alone cannot determine election results in India.",
+    "Why is no parliamentary constituency completely dominated by a single caste?",
+    "How do economic differences within a single caste affect voting choices?",
+    "Why do sitting legislators and ruling parties regularly lose elections despite caste calculations?",
+    "Explain why the concept of a monolithic caste vote bank is misleading."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze constituency composition",
+     "explain": "Constituencies have diverse multi-caste demographics requiring cross-community appeals."
+    },
+    {
+     "step": 2,
+     "action": "evaluate non-caste voting determinants",
+     "explain": "Economic divisions within castes and public scrutiny of governance track records drive electoral outcomes."
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.4",
+   "title": "Politicisation of Caste and its Dual Impact",
+   "section": "Caste and politics - Politics in caste",
+   "definition": "The reciprocal process through which political engagement alters caste boundaries by fostering coalitions, broader category alignments, and demands for dignity, while risking sectarian conflict.",
+   "formula": "None",
+   "key_idea": "Politics transforms caste groups into negotiated coalitions that demand power sharing, but excessive caste-centrism can generate social strife.",
+   "textbook_ref": "jess403.txt lines 541-595",
+   "question_patterns": [
+    "How does politics influence and reshape caste identities in India?",
+    "What is meant by the politicisation of caste?",
+    "Discuss the positive outcomes of expressing caste differences in politics.",
+    "What are the negative consequences of exclusive caste-based political mobilisation?",
+    "How do new caste coalitions like backward and forward groups emerge?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify structural realignment",
+     "explain": "Caste groups expand through sub-caste coalitions and federate into broader social blocs like backward or forward classes."
+    },
+    {
+     "step": 2,
+     "action": "evaluate democratic consequences",
+     "explain": "Provides backward communities leverage for social dignity while risking distraction from broader developmental goals."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "NCERT Chapter Exercises Q6",
+   "concept": "jess.403.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "Mention constitutional provisions that make India a secular state.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state absence of official religion",
+     "explain": "The Indian Constitution accords no official status or special privilege to any single faith."
+    },
+    {
+     "step": 2,
+     "action": "state fundamental rights to religion",
+     "explain": "All persons are granted freedom to practice, profess, and propagate their chosen faith, with discrimination on grounds of religion explicitly prohibited."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "NCERT Chapter Exercises Q4",
+   "concept": "jess.403.3.3",
+   "question_type": "verify_property",
+   "question_pattern": "State two reasons to say that caste alone cannot determine election results in India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "demonstrate constituency diversity",
+     "explain": "No single parliamentary seat in India has an absolute majority of one caste, making broader multi-caste alliances necessary."
+    },
+    {
+     "step": 2,
+     "action": "demonstrate anti-incumbency and internal divergence",
+     "explain": "Voters from the same caste divide their preferences based on economic class, and sitting representatives frequently lose re-election based on performance."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex403.1",
+   "source_ref": "jess403.txt lines 596-640",
+   "questions": [
+    "Mention different aspects of life in which women are discriminated or disadvantaged in India.",
+    "State different forms of communal politics with one example each.",
+    "State how caste inequalities are still continuing in India.",
+    "State two reasons to say that caste alone cannot determine election results in India.",
+    "What is the status of women representation in India legislative bodies?",
+    "Mention any two constitutional provisions that make India a secular state.",
+    "When we speak of gender divisions, we usually refer to: (a) Biological difference between men and women (b) Unequal roles assigned by the society to men and women (c) Unequal child sex ratio (d) Absence of voting rights for women in democracies",
+    "In India seats are reserved for women in (a) Lok Sabha (b) State legislative assemblies (c) Cabinets (d) Panchayati Raj bodies",
+    "Consider the following statements on the meaning of communal politics and choose the correct combination.",
+    "Which among the following statements about India Constitution is wrong?",
+    "Social divisions based on caste are peculiar to India."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

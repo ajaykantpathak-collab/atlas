@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_005",
+   "title": "c11_math_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the precise condition that distinguishes a function from a general relation between two non-empty sets \\(A\\) and \\(B\\).",
+     "a": "A relation \\(f \\subseteq A \\times B\\) is a function iff (i) \\(\\text{dom}(f) = A\\) (every element of \\(A\\) has at least one image) and (ii) no two ordered pairs in \\(f\\) have the same first element (every element of \\(A\\) has at most one image). Together: every \\(x \\in A\\) has exactly one image in \\(B\\).  \nA wrong answer (e.g., \"each element of \\(A\\) has an image\" without the uniqueness part) reveals confusion between \"relation\" and \"function\"—the student has missed the \"one and only one\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "The relation \\(R = \\{(1,2), (2,3), (3,4), (2,5)\\}\\) is defined from \\(A = \\{1,2,3\\}\\) to \\(B = \\{2,3,4,5\\}\\). Explain why \\(R\\) is NOT a function, referencing the definition.",
+     "a": "\\(R\\) is not a function because the element \\(2 \\in A\\) appears as the first coordinate in two distinct ordered pairs: \\((2,3)\\) and \\((2,5)\\). This violates the \"no two ordered pairs have the same first element\" condition (or equivalently, \"one and only one image\").  \nA wrong answer that only says \"2 has two images\" without linking to the definition shows the student can spot the pattern but cannot articulate the formal criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Let \\(f: \\mathbb{R} \\to \\mathbb{R}\\) be defined by \\(f(x) = \\frac{x^2 - 4}{x - 2}\\). Determine the domain of \\(f\\) and simplify the rule. Is the simplified rule equivalent to the original function? Justify.",
+     "a": "Domain: \\(\\mathbb{R} \\setminus \\{2\\}\\) because denominator \\(x-2 \\neq 0\\).  \nSimplification: \\(\\frac{(x-2)(x+2)}{x-2} = x+2\\) for \\(x \\neq 2\\).  \nThe simplified rule \\(g(x) = x+2\\) has domain \\(\\mathbb{R}\\), so \\(f \\neq g\\) as functions (different domains). They agree on \\(\\mathbb{R} \\setminus \\{2\\}\\) but \\(f\\) is undefined at \\(x=2\\).  \nA wrong answer claiming \\(f(x) = x+2\\) for all real \\(x\\) reveals the common error of cancelling factors without restricting the domain—a senior-secondary algebraic manipulation mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions \\(f(x) = |x|\\) and \\(g(x) = \\sqrt{x^2}\\) for \\(x \\in \\mathbb{R}\\). Are they the same function? Analyse their domains, ranges, and algebraic forms.",
+     "a": "Yes, they are the same function. Both have domain \\(\\mathbb{R}\\), range \\([0, \\infty)\\), and for every \\(x \\in \\mathbb{R}\\), \\(|x| = \\sqrt{x^2}\\) by definition of the principal square root. The algebraic forms differ but the mappings are identical.  \nA wrong answer saying \"they are different because one uses modulus and the other uses square root\" shows the student confuses representation with the function itself; they have not internalised that a function is determined by its domain, codomain, and assignment rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The relation \\(R = \\{(x,y) \\in \\mathbb{Z} \\times \\mathbb{Z} : y^2 = x\\}\\) is a function from \\(\\mathbb{Z}\\) to \\(\\mathbb{Z}\\) because every integer \\(x\\) has a square root.\" Evaluate this claim and correct the reasoning.",
+     "a": "The claim is false. For \\(x = 4\\), both \\(y = 2\\) and \\(y = -2\\) satisfy \\(y^2 = 4\\), so \\(4\\) has two images—violating uniqueness. Moreover, negative integers (e.g., \\(x = -1\\)) have no integer square root, violating the \"every element of domain has an image\" condition. The student confused \"square root exists in \\(\\mathbb{R}\\)\" with \"unique integer image exists\".  \nA wrong evaluation that accepts the claim reveals the student does not check both existence and uniqueness, and ignores the codomain restriction to \\(\\mathbb{Z}\\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-valued function \\(f: \\mathbb{R} \\to \\mathbb{R}\\) that is neither polynomial, nor rational, nor modulus, nor signum, nor greatest-integer, nor identity, nor constant. Define it piecewise and state its domain and range.",
+     "a": "Example:  \n\\(f(x) = \\begin{cases} \\sin x, & x \\in \\mathbb{Q} \\\\ 0, & x \\notin \\mathbb{Q} \\end{cases}\\)  \nDomain: \\(\\mathbb{R}\\), Range: \\([-1,1] \\cap \\mathbb{Q} \\cup \\{0\\}\\) (or simply \\([-1,1]\\)).  \nThis is a valid real function not belonging to the seven NCERT types. A poor answer that only gives a standard type (e.g., \\(f(x)=x^2\\)) shows the student cannot think beyond the listed catalogue and treats the classification as exhaustive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_010",
+   "title": "c11_soc_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define 'gated community' in sociological terms and list two features that distinguish it from a regular residential colony.",
+     "a": "A gated community is an affluent urban neighbourhood physically sealed off by walls, fences, and controlled entry-exit points, with parallel civic infrastructure (water, electricity, security, waste management) independent of municipal systems. Two distinguishing features: (1) privatised governance through Resident Welfare Associations (RWAs) that exercise quasi-municipal authority, and (2) explicit exclusion of non-residents through biometric/ID-based access control. A wrong answer that only mentions \"security guards\" or \"high walls\" reveals a confusion between physical fortification and the sociological significance of *privatised sovereignty* — the transfer of public governance functions to private entities, which undermines universal citizenship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why anonymity in cities is described as a 'double-edged sword' for the urban poor, using the concept of social order.",
+     "a": "Anonymity liberates the poor from the direct, personalised surveillance and caste-based domination characteristic of villages (where dominant castes monitor labourers' movements), allowing them to seek wage labour, join unions, or access services without immediate reprisal. However, it also strips them of the *moral economy* of the village — the customary obligations of patrons to clients during crises — and makes them invisible to state welfare systems that require fixed addresses and identity documents. A wrong answer that calls anonymity purely \"freedom\" ignores how the *bureaucratic invisibility* of slum dwellers (no ration card, no voter ID, no property title) is a structural feature of urban social order, not an accident.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation proposes to redevelop a centrally located slum by offering residents high-rise apartments on 20% of the land and selling the remaining 80% to a private developer for luxury housing. Apply the concept of gentrification to predict the likely long-term outcome for the original residents.",
+     "a": "Step 1: Identify the gentrification mechanism — conversion of low-value to high-value land use via state-enabled private investment. Step 2: Recognise that high-rise maintenance costs (lift charges, common area electricity, property tax) will exceed the paying capacity of informal sector workers. Step 3: Predict distress sales or sub-letting by original allottees within 5-7 years. Step 4: Note that the new luxury housing attracts affluent buyers, shifting the neighbourhood's class composition and raising local service costs (shops, schools, transport). Step 5: Conclude that the slum's social networks — mutual aid, childcare, political mobilisation — are dismantled as residents scatter to peripheral resettlement colonies. A wrong answer focusing only on \"better housing quality\" misses the *accumulation by dispossession* logic where use-value for the poor is replaced by exchange-value for capital.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanisms of social order in a slum settlement versus a gated community. How does each address the problem of 'strangers' in dense urban space?",
+     "a": "In slums, social order emerges through *informal territorial control* by local strongmen ('dadas') who provide protection, dispute resolution, and access to illicit services (water, electricity) in exchange for loyalty and tribute — a personalised, coercive order rooted in extra-legal authority. In gated communities, order is maintained through *contractual exclusion*: RWAs enforce bylaws, private security monitors entry, and CCTV creates panoptic surveillance — a legal-rational order backed by property rights. Both manage 'strangers' but inversely: slums *internalise* strangers (migrants, daily wage workers) into hierarchical patronage networks, while gated communities *externalise* them (domestic workers, delivery personnel) through time-bound passes and service corridors. A wrong answer equating both as \"private governance\" misses the asymmetry: slum governance is *imposed by the powerful on the vulnerable*, while gated governance is *chosen by the privileged to exclude the vulnerable*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Mumbai's suburban local trains are the only truly democratic space in the city because everyone — rich and poor — travels together.\" Use concepts of urban social order and class to justify your position.",
+     "a": "The claim is partially valid but sociologically incomplete. Valid: the *physical proximity* in general compartments forces momentary co-presence across classes, creating a rare shared public sphere where students, vendors, office workers, and domestic helps negotiate space — this fosters a 'commuting public' with emergent subcultures (bhajan groups, card games). Invalid: first-class compartments, air-conditioned locals, and peak-hour crowding patterns *reproduce* class segregation spatially. Moreover, the 'democracy' of the local train is fragile — it collapses during crises (stampedes, floods, terror attacks) where class privilege determines survival (access to information, alternative transport, compensation). A nuanced evaluation recognises the local as a *contested* democratic space, not an achieved one. A wrong answer calling it \"fully democratic\" ignores how transport infrastructure *structures* inequality (e.g., Metro's higher fares exclude the poor from faster, safer travel).",
+     "self_check": true
+    },
+    {
+     "q": "Design a participatory slum upgradation policy that prevents both gentrification-driven displacement and the entrenchment of slumlord power. Specify three institutional safeguards.",
+     "a": "A strong answer proposes: (1) *Community Land Trust (CLT)* model where land title vests in a resident cooperative with permanent affordability covenants (resale price capped at inflation + improvement cost), preventing speculative capture. (2) *In-situ upgrading with phased construction* so residents remain on-site during redevelopment, avoiding transit camps that become permanent peripheral ghettos. (3) *Statutory recognition of tenant unions* with legal standing to negotiate with developers and municipal bodies, breaking slumlord monopolies over representation. Safeguards must address the *triadic power relation*: state (land owner), capital (developer), and residents (users). A poor answer suggesting \"give free flats to slum dwellers\" ignores how without perpetual affordability clauses, these flats enter the market within a generation, completing the gentrification cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

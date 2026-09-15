@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_006",
+   "title": "c12_math_cbse_07_006",
+   "questions": [
+    {
+     "q": "Write the three standard integrals for exponential and logarithmic functions exactly as they appear in the NCERT textbook, including the constant of integration.",
+     "a": "Correct answer:  \n\\(\\int e^x\\,dx = e^x + C\\)  \n\\(\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C\\)  (with \\(a>0, a\\neq 1\\))  \n\\(\\int \\frac{1}{x}\\,dx = \\ln|x| + C\\)  \n\nA wrong answer typically reveals one of three errors: (1) forgetting the constant \\(C\\); (2) writing \\(\\int a^x\\,dx = \\frac{a^{x+1}}{x+1}+C\\) (misapplying the power rule); or (3) writing \\(\\int \\frac{1}{x}\\,dx = \\ln x + C\\) (omitting the absolute value). The absolute value is crucial because the domain of \\(1/x\\) includes negative numbers, and \\(\\ln x\\) is undefined for \\(x<0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain **why** \\(\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C\\) by showing the differentiation step that verifies it. Why does the formula fail if \\(a=1\\)?",
+     "a": "Correct answer:  \nDifferentiate \\(\\frac{a^x}{\\ln a}\\):  \n\\(\\frac{d}{dx}\\left(\\frac{a^x}{\\ln a}\\right) = \\frac{1}{\\ln a}\\cdot \\frac{d}{dx}(a^x) = \\frac{1}{\\ln a}\\cdot a^x \\ln a = a^x\\).  \nHence \\(\\frac{a^x}{\\ln a}\\) is an antiderivative of \\(a^x\\).  \nIf \\(a=1\\), then \\(a^x = 1\\) and \\(\\ln a = 0\\), making the denominator zero. The integral of \\(1\\) is simply \\(x+C\\), which is the correct separate formula.\n\nA wrong answer often shows that the student does not connect the integral to the derivative of \\(a^x\\), or they think the power rule \\(\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}\\) applies to \\(a^x\\). This misconception arises from confusing the variable in the base vs. the exponent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\int \\left(3^x + \\frac{2}{x} - 5e^x\\right)\\,dx\\). Show every step, including the constant of integration.",
+     "a": "Step-by-step solution:  \n\\(\\int \\left(3^x + \\frac{2}{x} - 5e^x\\right)\\,dx = \\int 3^x\\,dx + \\int \\frac{2}{x}\\,dx - \\int 5e^x\\,dx\\)  (sum/difference rule)  \n\\(= \\frac{3^x}{\\ln 3} + 2\\ln|x| - 5e^x + C\\).  \n\nA common error is to write \\(\\int 3^x\\,dx = \\frac{3^{x+1}}{x+1}\\) or to forget the factor \\(2\\) in \\(2\\ln|x|\\). Another error is omitting the absolute value in \\(\\ln|x|\\) or forgetting the constant \\(C\\). Each of these indicates a gap in applying the standard formulas mechanically without understanding the linearity of integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals \\(\\int e^{2x}\\,dx\\) and \\(\\int e^x\\,dx\\). A student writes \\(\\int e^{2x}\\,dx = e^{2x} + C\\). Is this correct? If not, find the correct integral and explain the source of the error using the chain rule.",
+     "a": "The student's answer is incorrect.  \nCorrect integral: \\(\\int e^{2x}\\,dx = \\frac{1}{2}e^{2x} + C\\).  \nVerification: \\(\\frac{d}{dx}\\left(\\frac{1}{2}e^{2x}\\right) = \\frac{1}{2}\\cdot e^{2x}\\cdot 2 = e^{2x}\\).  \nThe error comes from ignoring the chain rule: the derivative of \\(e^{2x}\\) is \\(2e^{2x}\\), so the antiderivative must be divided by \\(2\\). This is a classic case where a simple substitution \\(u=2x\\) is needed. Students who answer \\(e^{2x}+C\\) are treating the exponent as if it were just \\(x\\), not recognising the inner function \\(2x\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\(\\int_{-2}^{-1} \\frac{1}{x}\\,dx\\) as \\(\\left[\\ln x\\right]_{-2}^{-1} = \\ln(-1) - \\ln(-2)\\). Identify the mistake and give the correct evaluation.",
+     "a": "The mistake is using \\(\\ln x\\) instead of \\(\\ln|x|\\) for the antiderivative. The function \\(\\frac{1}{x}\\) is defined on \\([-2,-1]\\) (negative interval), but \\(\\ln x\\) is undefined for negative \\(x\\). The correct antiderivative is \\(\\ln|x|\\).  \nCorrect evaluation:  \n\\(\\int_{-2}^{-1} \\frac{1}{x}\\,dx = \\left[\\ln|x|\\right]_{-2}^{-1} = \\ln|-1| - \\ln|-2| = \\ln 1 - \\ln 2 = 0 - \\ln 2 = -\\ln 2\\).  \n\nA wrong answer reveals that the student has memorised \\(\\int \\frac{1}{x}\\,dx = \\ln x + C\\) without understanding the domain restriction. This is a critical error that leads to nonsensical expressions like \\(\\ln(-1)\\) in definite integrals.",
+     "self_check": true
+    },
+    {
+     "q": "Create an integral problem that requires **both** \\(\\int e^x\\,dx\\) and \\(\\int \\frac{1}{x}\\,dx\\) in its solution, and solve it completely. The integrand should be a single rational expression that you simplify by splitting into two terms.",
+     "a": "Example problem: Evaluate \\(\\int \\frac{x e^x + 1}{x}\\,dx\\).  \nSolution:  \n\\(\\int \\frac{x e^x + 1}{x}\\,dx = \\int \\left(e^x + \\frac{1}{x}\\right)\\,dx = \\int e^x\\,dx + \\int \\frac{1}{x}\\,dx = e^x + \\ln|x| + C\\).  \n\nA good answer shows the algebraic split \\(\\frac{x e^x + 1}{x} = e^x + \\frac{1}{x}\\) and then applies both standard integrals. A poor answer either fails to split the fraction, tries to use substitution unnecessarily, or writes \\(\\ln x\\) without absolute value. This tests whether the student can recognise the standard forms hidden inside a combined expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

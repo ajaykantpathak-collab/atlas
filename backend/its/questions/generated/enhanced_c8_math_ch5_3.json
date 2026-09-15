@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_3",
+   "title": "c8_math_ch5_3",
+   "questions": [
+    {
+     "q": "State the rule: The sum of two consecutive numbers is always ______ (even/odd).",
+     "a": "Correct: odd. A wrong answer (even) reveals the student does not recall the parity property of consecutive numbers – that one must be even and the other odd, and even + odd = odd.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of two consecutive numbers is always odd. Use the concept of even and odd numbers in your explanation.",
+     "a": "Correct: Among any two consecutive integers, one is even and the other is odd. The sum of an even and an odd number is always odd. A wrong answer reveals the student cannot connect the definition of consecutive numbers to parity rules (even+odd=odd) learned in Class 7.",
+     "self_check": true
+    },
+    {
+     "q": "Find the two consecutive numbers whose sum is 47.",
+     "a": "Let the numbers be \\(n\\) and \\(n+1\\). Then \\(n + (n+1) = 47 \\Rightarrow 2n+1=47 \\Rightarrow 2n=46 \\Rightarrow n=23\\). The numbers are 23 and 24. Check: \\(23+24=47\\). A wrong answer (e.g., 22 and 25) reveals the student may be guessing or not setting up the equation correctly, or making an arithmetic error in solving \\(2n=46\\).",
+     "self_check": true
+    },
+    {
+     "q": "Can the odd number 1 be written as the sum of two consecutive positive integers? Why or why not? What about 3?",
+     "a": "1 cannot be written as the sum of two consecutive positive integers because the smallest sum of two positive consecutive integers is \\(1+2=3\\). For 1, the equation \\(2n+1=1\\) gives \\(n=0\\), yielding 0 and 1 (0 is not positive). 3 can be written as \\(1+2\\). A wrong answer reveals the student does not consider the domain restriction (positive integers) or the algebraic condition \\(n \\ge 1\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: 'To find the two consecutive numbers that add up to an odd number, just divide the odd number by 2 and take the integer part and the next integer.' Is this method correct? Explain.",
+     "a": "Yes, the method is correct. If the odd number is \\(O = 2k+1\\), dividing by 2 gives \\(k + 0.5\\). The integer part is \\(k\\) and the next integer is \\(k+1\\). Their sum is \\(k + (k+1) = 2k+1 = O\\). A wrong answer (saying it's incorrect) reveals the student does not see the connection between the algebraic form \\(2k+1\\) and the division algorithm.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem (in an Indian context, e.g., rupees, marbles, books) that requires finding two consecutive numbers that add up to a given odd number. Provide the solution.",
+     "a": "Example: \"Priya has 31 chocolates. She wants to give them to her two brothers such that the elder gets one more than the younger. How many does each get?\" Solution: Let younger get \\(x\\), elder gets \\(x+1\\). \\(x+x+1=31 \\Rightarrow 2x=30 \\Rightarrow x=15\\). Younger gets 15, elder gets 16. A poor answer (e.g., a problem that doesn't match the structure, or an incorrect solution) reveals the student cannot construct a situation that maps to the mathematical model \\(x + (x+1) = \\text{odd}\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

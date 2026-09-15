@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_010",
+   "title": "c7_math_ch13_010",
+   "questions": [
+    {
+     "q": "A shoe store manager wants to stock up on sports shoes for a school tournament. Should she order sizes based on the mean, median, or mode of the student shoe sizes sold last month? Explain why.",
+     "a": "The mode should be used because it represents the most frequently purchased shoe size. If the manager used the mean or median, she might get a decimal value like size 6.4, which does not exist as a manufactured shoe size and would leave the store with unwearable stock. A wrong answer usually shows that the student treats all summary values as interchangeable without considering the practical constraints of categorical or discrete physical items.",
+     "self_check": true
+    },
+    {
+     "q": "The daily wages of 5 workers in a workshop are ₹300, ₹320, ₹310, ₹315, and ₹2500. The factory owner claims that the \"average\" worker earns over ₹700 a day, using the mean. Why is this mean misleading for describing the workers' daily earnings?",
+     "a": "The mean is misleading because the extreme high wage of ₹2500 (an outlier) acts like a heavy weight that artificially inflates the average, even though 4 out of 5 workers earn around ₹300 to ₹320. A wrong answer indicates the student thinks the arithmetic mean is always the best and only true measure of center, ignoring how extreme values distort data sets.",
+     "self_check": true
+    },
+    {
+     "q": "A real estate agent lists the selling prices of 7 houses in a gated community in Bengaluru as: ₹50 lakhs, ₹52 lakhs, ₹55 lakhs, ₹58 lakhs, ₹60 lakhs, ₹62 lakhs, and ₹3 crores. Calculate the median and the mean of these house prices, and state which one better represents the typical house price in this community.",
+     "a": "Steps to solve:\n1. Arrange the data in ascending order: 50, 52, 55, 58, 60, 62, 300 (in lakhs).\n2. Count the number of data points ($n = 7$), which is odd. The median is the middle term, the 4th value, which is ₹58 lakhs.\n3. Calculate the mean by summing all values: $50 + 52 + 55 + 58 + 60 + 62 + 300 = 637$ lakhs. Divide by 7: $637 \\div 7 = 91$ lakhs.\n4. Compare: The median (₹58 lakhs) better represents the community because 6 out of 7 houses are priced near ₹50-62 lakhs, whereas the mean (₹91 lakhs) is pulled way up by the single ₹3 crore mansion.\nA wrong answer shows a computational error in summing large numbers or a failure to recognize that the median resists distortion from outliers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the characteristics of the mean and the median. In what specific type of data distribution will the mean and the median be exactly equal (or extremely close), and why?",
+     "a": "The mean and median are equal (or very close) in a perfectly symmetrical distribution—such as a normal distribution or a balanced data set where values are evenly spread around the center (e.g., 10, 20, 30, 40, 50). In a symmetrical layout, the balance point (mean) and the exact middle position (median) coincide because there are no skewing outliers on either side. A wrong answer suggests the student views mean and median as unrelated formulas rather than complementary measures of center that react differently to asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "A student analyzing test scores of 10 students reported: \"The median score is 75 and the mean score is 74, so both are fine. But since there is an outlier score of 20, I should use the mode.\" Evaluate if the student's reasoning to use the mode is sound.",
+     "a": "The student's reasoning is flawed. While an outlier affects the mean, it does not automatically mean the *mode* should be used. If scores are continuous or mostly unique, a mode might not even exist or might happen to be at an extreme end. In this case, since the mean (74) and median (75) are already very close, the outlier of 20 did not severely distort the data, and either mean or median is appropriate, but mode is likely inappropriate. A wrong answer reveals a blind belief that whenever an outlier is mentioned, mode is the magical cure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of 6 integers where the median is 15, the mean is 20, but the mode is 10. Explain how you constructed it.",
+     "a": "An example data set is: 10, 10, 12, 18, 25, 45. \nVerification: \n- Mode: 10 appears twice (most frequent).\n- Median: The 3rd and 4th terms are 12 and 18, so the median is $(12 + 18) \\div 2 = 15$.\n- Mean: Sum is $10 + 10 + 12 + 18 + 25 + 45 = 120$. Divide by 6: $120 \\div 6 = 20$.\nA poor answer shows arbitrary guessing without verifying all three conditions (mean, median, mode) against the constructed numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

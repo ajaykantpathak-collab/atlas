@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_01_003",
+   "title": "c12_hs_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define livelihood in one sentence and state how it differs from a 'job'.",
+     "a": "Correct answer: Livelihood is the overall means by which a person or household secures the necessities of life, including capabilities, assets, and activities, whereas a job is a specific paid employment position. A wrong answer that equates livelihood with job or salary reveals the misconception that livelihood is only about cash income, ignoring unpaid work, asset base, and resilience to shocks.",
+     "self_check": true
+    },
+    {
+     "q": "A rural weaver household owns a loom, has weaving skills passed down generations, belongs to a cooperative society, and has a small savings account. Identify which of the five livelihood capitals each of these represents.",
+     "a": "Correct mapping: loom → physical capital; weaving skills → human capital; cooperative membership → social capital; savings → financial capital. (Natural capital would be access to raw cotton or dyes.) A wrong answer that misclassifies the loom as financial capital or skills as social capital shows confusion between tangible assets and intangible capabilities, indicating the student hasn't internalized the distinct nature of each capital type.",
+     "self_check": true
+    },
+    {
+     "q": "A fishing community in Kerala faces declining catches due to overfishing by trawlers, seasonal monsoon bans, and rising fuel costs. Using the sustainable livelihood framework, explain which element of the vulnerability context each challenge represents and suggest one livelihood strategy they could adopt.",
+     "a": "Correct analysis: overfishing by trawlers → trend (long-term environmental degradation); monsoon bans → seasonality; rising fuel costs → shock (economic). A viable livelihood strategy: diversify into fish processing (value addition) using existing skills and cooperative networks, reducing dependence on raw catch. A wrong answer that only suggests 'work harder' or 'get a job' misses the framework's core idea: strategies must build on existing capitals and address vulnerability context, not just increase effort.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two households: Household A has high financial capital but low social capital; Household B has low financial capital but strong social networks and collective action. Which household is likely to have more resilient livelihood during a pandemic lockdown? Justify using the framework.",
+     "a": "Correct reasoning: Household B is more resilient because social capital enables mutual aid, information sharing, and collective bargaining for relief — critical when markets and formal institutions fail. Financial capital alone cannot buy unavailable goods or replace trust-based support. A wrong answer choosing Household A reveals the misconception that money is the sole buffer against crises, ignoring the framework's emphasis on capital substitution and social safety nets.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government providing free LPG connections to rural women (Ujjwala Yojana) directly improves their livelihood sustainability.\" Use the framework's 'policies, institutions, and processes' component in your answer.",
+     "a": "Correct evaluation: The policy improves physical capital (LPG stove) and human capital (health from reduced indoor pollution), but livelihood sustainability also depends on whether women can afford refills (financial capital), have agency to decide fuel use (social/gender norms), and whether supply chains are reliable (institutions). A wrong answer that says 'yes, it directly improves sustainability' treats the policy as a magic bullet, ignoring the framework's insistence on interactions between capitals and context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini sustainable livelihood assessment for a street vendor in your city. List the five capitals you would investigate, one key vulnerability factor, and one policy/institution that affects their livelihood. Present as a table.",
+     "a": "Expected answer: Table with columns Capital Type, Indicators (e.g., Human: cooking skills, literacy; Social: vendor association membership; Natural: access to clean water; Physical: cart, utensils; Financial: daily earnings, savings), Vulnerability Factor (e.g., eviction drives, seasonal demand drop), Policy/Institution (e.g., Street Vendors Act 2014, municipal licensing). A poor answer that lists only income and assets misses the multidimensional, structural nature of the framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

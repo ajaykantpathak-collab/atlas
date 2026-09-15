@@ -1,0 +1,171 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip101",
+ "concepts": [
+  {
+   "id": "keip101.1",
+   "title": "Memory Unit Ladder Conversion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Memory Unit Ladder Conversion' refers to.",
+     "a": "Digital storage sizes climb a fixed ladder where every named step is 1024 of the step below it: kilobyte to megabyte to gigabyte to terabyte and onward up to yottabyte. Turning a big unit into bytes means multiplying by 1024 once per step of the climb.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Memory Unit Ladder Conversion'.",
+     "a": "Each rung of the storage ladder multiplies by 1024, so a gigabyte needs three such rungs to become bytes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Memory Unit Ladder Conversion', in plain ASCII form.",
+     "a": "bytes_total = size_gb * 1024 * 1024 * 1024",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip101.2",
+   "title": "Bits, Nibble and Byte Sizes",
+   "questions": [
+    {
+     "q": "Using the method 'Bits, Nibble and Byte Sizes', work with: word_bits = 75. Carry the chain through step by step and give the final value of byte_count.",
+     "a": "9 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bits, Nibble and Byte Sizes' and work with: word_bits = 10. Carry the chain through step by step and give the final value of byte_count.",
+     "a": "1 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bits, Nibble and Byte Sizes' refers to.",
+     "a": "The atom of computer storage is the bit, holding a single 0 or 1. Four bits grouped side by side form a nibble, and two nibbles (eight bits) form a byte. Counting between these sizes is plain division by 4 and then by 2.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bits, Nibble and Byte Sizes'.",
+     "a": "Bits to nibbles is divide by four; nibbles to bytes is divide by two, so a byte always needs eight bits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bits, Nibble and Byte Sizes', in plain ASCII form.",
+     "a": "byte_count = word_bits // 8",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip101.3",
+   "title": "Moore Law Transistor Doubling",
+   "questions": [
+    {
+     "q": "Using the method 'Moore Law Transistor Doubling', work with: base_transistors = 20, years_span = 10. Carry the chain through step by step and give the final value of future_transistors.",
+     "a": "640 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Moore Law Transistor Doubling' and work with: base_transistors = 5, years_span = 50. Carry the chain through step by step and give the final value of future_transistors.",
+     "a": "167772160 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Moore Law Transistor Doubling' refers to.",
+     "a": "An industry observation credited to Gordon Moore (1965) expected the component count packed onto a single microchip to double roughly every two years, with costs halving at the same pace, which is why chip complexity grew exponentially.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Moore Law Transistor Doubling'.",
+     "a": "Two years equal one doubling, so divide the elapsed years by two to get the power of two to apply.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Moore Law Transistor Doubling', in plain ASCII form.",
+     "a": "future_transistors = base_transistors * 2 ** doubling_steps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip101.4",
+   "title": "Primary Memory versus Secondary Memory",
+   "questions": [
+    {
+     "q": "Using the method 'Primary Memory versus Secondary Memory', work with: ram_contents_after_power_off = 0. Carry the chain through step by step and give the final value of ram_contents_after_power_off.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Primary Memory versus Secondary Memory' and work with: ram_contents_after_power_off = 0. Carry the chain through step by step and give the final value of ram_contents_after_power_off.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Primary Memory versus Secondary Memory' refers to.",
+     "a": "Primary memory (RAM and ROM) is the working store the processor touches directly: RAM holds programs and data only while power stays on, while ROM keeps permanent startup code. Secondary memory such as a hard disk, CD or pen drive is the bigger, slower, non-volatile archive whose contents must first be copied into main memory before the CPU can use them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Memory versus Secondary Memory'.",
+     "a": "RAM is volatile working space, ROM is read-only permanent code, and secondary storage is the large non-volatile archive.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Primary Memory versus Secondary Memory', in plain ASCII form.",
+     "a": "ram_contents_after_power_off = 0",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip101.5",
+   "title": "CPU Parts: ALU, Control Unit and Registers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'CPU Parts: ALU, Control Unit and Registers' refers to.",
+     "a": "Inside the processor, the arithmetic logic unit carries out every calculation and comparison, the control unit sequences the instructions and steers data between memory, ALU and input/output devices, and small on-chip registers hold the data and intermediate results currently in use.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'CPU Parts: ALU, Control Unit and Registers'.",
+     "a": "ALU computes, CU directs, registers hold what is being worked on this instant.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'CPU Parts: ALU, Control Unit and Registers', in plain ASCII form.",
+     "a": "alu_operations + cu_control_signals = cpu_work_done",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip101.6",
+   "title": "Software Categories and FOSS Licensing",
+   "questions": [
+    {
+     "q": "Using the method 'Software Categories and FOSS Licensing', work with: foss_source_code_access = 1. Carry the chain through step by step and give the final value of foss_source_code_access.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Software Categories and FOSS Licensing' and work with: foss_source_code_access = 1. Carry the chain through step by step and give the final value of foss_source_code_access.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Software Categories and FOSS Licensing' refers to.",
+     "a": "Programs fall into three broad families: system software that runs the machine (operating systems, utilities, device drivers), programming tools that build new software, and application software that serves end users, split into general purpose and customised kinds. By availability, software may be FOSS with open source code, freeware free to use but closed, or proprietary software bought from its copyright owner.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Software Categories and FOSS Licensing'.",
+     "a": "A computer can run without application software but never without system software, and open source means the code itself is public.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Software Categories and FOSS Licensing', in plain ASCII form.",
+     "a": "foss_source_code_access = 1",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

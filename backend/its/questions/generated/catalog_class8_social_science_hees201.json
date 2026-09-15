@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class8_social_science_hees201",
+ "concepts": [
+  {
+   "id": "hees.201.1.1",
+   "title": "Mapping the Earth: Latitudes and Longitudes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mapping the Earth: Latitudes and Longitudes' refers to.",
+     "a": "The globe is gridded by imaginary lines - latitudes circling the earth parallel to the equator, including the Tropic of Cancer and Tropic of Capricorn, and longitudes running pole to pole - so any place on earth can be fixed precisely at the crossing of its latitude and longitude.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mapping the Earth: Latitudes and Longitudes'.",
+     "a": "Latitude fixes north-south position, longitude east-west; together they pin any location.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mapping the Earth: Latitudes and Longitudes' taught, and from which source text?",
+     "a": "1 (source: hees201.txt lines 53-180 (complexity of mapping the earth, tropics))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.201.1.2",
+   "title": "The Blue Planet: Oceans and Their Depths",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Blue Planet: Oceans and Their Depths' refers to.",
+     "a": "Water dominates the earth - the blue planet - with oceans covering most of the surface; the deepest known point lies in the Mariana Trench, and seas like the Bay of Bengal along with straits such as Malacca shape trade, climate and marine life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Blue Planet: Oceans and Their Depths'.",
+     "a": "Ocean depths like the Mariana Trench dwarf land heights; oceans steer climate and trade.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Blue Planet: Oceans and Their Depths' taught, and from which source text?",
+     "a": "1 (source: hees201.txt lines 106-352 (blue of the blue planet, Mariana Trench, Bay of Bengal, Malacca))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.201.1.3",
+   "title": "Continents: Variety on Land",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Continents: Variety on Land' refers to.",
+     "a": "Seven continents - Asia, Africa, North America, South America, Antarctica, Europe and Australia - carry every kind of landform, from the Great Barrier Reef's tropical seas near Australia to Antarctica's icy wastes, each continent with its own relief, climate and life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Continents: Variety on Land'.",
+     "a": "Seven continents, endlessly varied: mountains, plains, deserts and ice caps share the land.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Continents: Variety on Land' taught, and from which source text?",
+     "a": "1 (source: hees201.txt lines 353-430 (the continents: variety on land), 257-268 (Great Barrier Reef))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.201.1.4",
+   "title": "India in the World Geography",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India in the World Geography' refers to.",
+     "a": "Sitting between the Indian Ocean and the Himalaya, India touches the world's sea lanes and land routes; the Bay of Bengal on its east and the Arabian Sea on its west tie India to monsoon winds and to the trade geography of Asia, Africa and beyond.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India in the World Geography'.",
+     "a": "India's location makes it a monsoon land and a crossroads of ocean trade.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India in the World Geography' taught, and from which source text?",
+     "a": "1 (source: hees201.txt lines 300-352 (Bay of Bengal), India's position in the world picture)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_04_001",
+   "title": "c12_ps_cbse_04_001",
+   "questions": [
+    {
+     "q": "What was the primary objective of the European Coal and Steel Community (ECSC) established by the Treaty of Paris in 1951?",
+     "a": "The ECSC aimed to place French and German coal and steel production under a common High Authority to make war between them \"not merely unthinkable, but materially impossible.\" A wrong answer (e.g., \"to create a common market for all goods\") reveals the student confuses the sectoral ECSC with the broader EEC created six years later, missing the functionalist logic of starting with war-critical resources.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 1957 Treaties of Rome create *two* communities (EEC and Euratom) instead of one?",
+     "a": "The EEC focused on a general common market and customs union, while Euratom targeted nuclear energy cooperation — a strategic sector where France wanted independence from US technology. A wrong answer (e.g., \"EEC was for economics, Euratom for politics\") shows the student misses that both were *economic/technical* communities; the political pillar came only at Maastricht. This tests understanding of the \"Community method\" — sectoral integration first.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Single European Act (1986) amended the Treaty of Rome to introduce qualified majority voting (QMV) for single market legislation, replacing unanimity.\" Apply this to explain why the 1992 Maastricht Treaty could then add political pillars (CFSP, JHA) *without* using the Community method.",
+     "a": "The SEA's QMV made economic integration efficient, proving supranational decision-making works. But CFSP and JHA involved core state sovereignty (foreign policy, policing), so member states chose the *intergovernmental* method (unanimity, no Commission monopoly, no ECJ jurisdiction) for these pillars. A wrong answer (e.g., \"Maastricht used QMV for everything\") reveals the student doesn't grasp the deliberate two-track architecture: Community method for economics, intergovernmental for high politics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional structure of the EEC (1957) and the EU (post-Maastricht, 1993). Which institution gained a new role, and which new institution was created?",
+     "a": "The European Parliament gained co-decision power (legislative role) under Maastricht; the European Council (heads of state/government) was formalised as a distinct institution setting strategic direction. A wrong answer (e.g., \"Commission got stronger\") misses that the Commission's role *relative to the Council* weakened in the new intergovernmental pillars. This tests analytical distinction between supranational vs. intergovernmental institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Maastricht Treaty transformed the European Community into a federal state like the USA.\"",
+     "a": "False. Maastricht created a *union* of states with pillar structure: Pillar I (supranational Communities) kept federal features, but Pillars II (CFSP) and III (JHA) were intergovernmental — no EU sovereignty, no EU army, no EU citizenship replacing national citizenship. A wrong answer (e.g., \"True, because of EU citizenship\") confuses *symbolic* citizenship (rights attached to national citizenship) with *federal* citizenship. This tests evaluative judgment on the federal/confederal spectrum.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-sentence preamble for a hypothetical 1950 treaty that would have created a *European Defence Community* (EDC) — which failed in 1954 — using the same functionalist logic as the Schuman Declaration for ECSC.",
+     "a": "\"Determined to make war in Europe materially impossible by placing the defence forces of France, Germany, Italy, and the Benelux countries under a common European authority, thereby pooling the very instrument of war itself.\" A poor answer (e.g., \"To create a European army for NATO\") misses the *functionalist* phrasing — the EDC was meant to *replace* national armies for European defence, not just coordinate them, mirroring ECSC's pooling of coal/steel.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

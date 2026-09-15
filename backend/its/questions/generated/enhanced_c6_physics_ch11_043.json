@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_043",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_043",
+   "title": "c6_physics_ch11_043",
+   "questions": [
+    {
+     "q": "If you place two mirrors at 90 degrees to each other, how many images of an object placed between them will you see?",
+     "a": "Three images. A wrong answer suggests the student is guessing or confusing the concept with a single reflection, showing they haven't learned the specific relationship between angles and image counts.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a kaleidoscope create a circular, symmetrical pattern rather than just a single blurry reflection?",
+     "a": "The angled mirrors reflect the objects repeatedly in a circle, creating symmetry. A wrong answer (e.g., \"because the beads are colorful\") ignores the mirrors' role, showing a lack of understanding that the *mirrors* are what organize the light into a pattern.",
+     "self_check": true
+    },
+    {
+     "q": "If you have two mirrors and you want to see MORE images than you currently see, what should you do to the angle between them?",
+     "a": "You should decrease the angle. By moving the mirrors closer together, the light bounces more times in the confined space, producing a higher count of images. A wrong answer indicates the student thinks the angle and image count are unrelated.",
+     "self_check": true
+    },
+    {
+     "q": "If a person places a pen between two mirrors angled at 60 degrees, they see 5 images. If they open the mirrors to 180 degrees (making them a single flat surface), what happens to the number of images?",
+     "a": "The number of images decreases to one. When mirrors are flat (180 degrees), there is no \"bouncing\" between mirrors to create extra images, showing the student understands the \"multiple\" part of multiple reflection.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to get infinite images using two mirrors? If so, how?",
+     "a": "Yes, by placing them parallel (0 degrees) to each other facing inward. A wrong answer suggests the student doesn't grasp the extreme limit of the mirror-angle relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test if the number of images changes as you change the angle of two hinged mirrors.",
+     "a": "The student should describe placing an object (like a pencil) between two mirrors joined with tape, then measuring the angle with a protractor and counting the images. A poor answer lacks a controlled method, showing the student cannot translate the concept into an investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

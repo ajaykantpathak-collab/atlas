@@ -1,0 +1,120 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 110,
+ "chapter_title": "Biotechnology and its Applications",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo110.txt",
+ "concepts": [
+  {
+   "id": "lebo.10.1.1",
+   "title": "Micropropagation Efficiency",
+   "section": "10.1",
+   "definition": "A tissue culture technique to generate a large number of genetically identical plant clones from a single explant in a short time.",
+   "formula": "total_plants = explants * propagation_factor",
+   "key_idea": "In brief, In brief, In brief, Rapid asexual multiplication of plants using totipotency.",
+   "textbook_ref": "lebo110.txt lines 45-60",
+   "question_patterns": [
+    "calculate the number of plants produced",
+    "how many plants are obtained from explants",
+    "find total yield of micropropagation",
+    "what is the total number of clones"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply initial explants by the propagation factor",
+     "explain": "Each explant generates a specific number of clones.",
+     "compute": "total_plants = explants * propagation_factor"
+    }
+   ]
+  },
+  {
+   "id": "lebo.10.3.1",
+   "title": "Transgenic Protein Yield",
+   "section": "10.3",
+   "definition": "The production of specific human proteins in the milk or tissues of genetically modified animals.",
+   "formula": "total_protein = volume_litres * concentration_per_litre",
+   "key_idea": "In brief, In brief, In brief, In brief, Using transgenic animals as bioreactors for pharmaceutical production.",
+   "textbook_ref": "lebo110.txt lines 250-265",
+   "question_patterns": [
+    "calculate the total protein yield",
+    "how much protein is produced by the transgenic animal",
+    "find the yield of human protein",
+    "what is the total mass of protein"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply volume by concentration",
+     "explain": "Total protein is the product of volume of milk and protein content per unit volume.",
+     "compute": "total_protein = volume_litres * concentration_per_litre"
+    }
+   ]
+  },
+  {
+   "id": "lebo.10.2.1",
+   "title": "Principles of RNA Interference",
+   "section": "10.1",
+   "definition": "A biological defense mechanism where double-stranded RNA silences specific mRNA, preventing the translation of target genes.",
+   "formula": "silencing_status = (dsRNA_present == 1) ? \"active\" : \"inactive\"",
+   "key_idea": "Post-transcriptional gene silencing via complementary RNA binding.",
+   "textbook_ref": "lebo110.txt lines 140-160",
+   "question_patterns": [
+    "explain the mechanism of RNAi",
+    "how does dsRNA protect the plant",
+    "what is the role of sense and anti-sense RNA",
+    "describe the silencing process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Introduce sense and anti-sense RNA",
+     "explain": "These strands hybridize to form dsRNA."
+    },
+    {
+     "step": 2,
+     "action": "Bind to target mRNA",
+     "explain": "The dsRNA prevents the translation of the nematode-specific mRNA."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo110.txt lines 255-260",
+   "concept": "lebo.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "If a transgenic cow produces {volume_litres} litres of milk with a protein concentration of {concentration_per_litre} grams per litre, find the total protein yield.",
+   "extracted_variables": {
+    "volume_litres": "volume of milk in litres",
+    "concentration_per_litre": "protein concentration in g/L"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total protein",
+     "explain": "Multiply volume by concentration.",
+     "compute": "total_protein = volume_litres * concentration_per_litre"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "lebo110.txt lines 330-340",
+   "questions": [
+    "Which part of the plant is best suited for making virus-free plants and why?",
+    "What is the major advantage of producing plants by micropropagation?",
+    "What are Cry proteins and how has man exploited them?",
+    "Explain the process of gene therapy using ADA deficiency as an example."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

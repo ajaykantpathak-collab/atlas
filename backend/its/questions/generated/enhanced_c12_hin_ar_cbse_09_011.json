@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_09_011",
+   "title": "c12_hin_ar_cbse_09_011",
+   "questions": [
+    {
+     "q": "In the line \"dkx”k dk ,d iUuk] dksbZ vaèkM+ dgha ls vk;k {k.k dk cht ogk¡ cks;k x;k\", identify the figure of speech (alankar) operating in \"dkx”k dk iUuk\" and name the two terms being compared.",
+     "a": "The figure of speech is **Rupak Alankar (Metaphor)** where \"dkx”k\" (head) is the *upameya* (subject) and \"iUuk\" (map) is the *upamana* (vehicle); the comparison is implicit without \"jaise\" or \"sa\". A wrong answer naming \"Upama (Simile)\" reveals the student misses the absence of comparative particles and treats all comparisons as explicit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the phrase \"'kCn osQ vaoqQj iwQVs] iYyo&iq\"iksa ls ufer gqvk fo'ks\"k\" uses syntactic inversion and lexical compression to convey the creative process.",
+     "a": "Standard prose order would be \"'kCnksa dh vaoqQj iwQV jati hai aur iYyo-iq\"iksa se fo'ks\"k ufer hota hai\"; the poem front-loads the object \"'kCn osQ vaoqQj\" and uses the compound \"iYyo&iq\"iksa\" (form-meaning) as a single compressed unit, mimicking the sudden unlocking of meaning. A student who merely paraphrases without noting the fronting and compounding misses how syntax *enacts* the poetic insight.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of *chitrit abhivyakti* (pictorial expression) to the second poem: quote one visual image and one auditory image from \"cxqyksa d ia[k\", then explain how the grammatical form of each (noun phrase vs. verb phrase) shapes the sensory mode.",
+     "a": "Visual: \"dtjkjs cknyksa dh NkbZ uHk Nk;k\" (noun phrase \"NkbZ uHk\" — static, spatial). Auditory: \"rSjrh lk¡> dh lrst 'osr dk;k\" (verb phrase \"dk;k\" — dynamic, temporal). Noun phrases freeze the image; verb phrases release sound into time. A wrong answer that lists images without grammatical categorisation shows inability to link form to sensory effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of personification in both poems: in \"NksVk esjk [ksr\" the map \"cks;k x;k\" (was drawn) and \"cht xy x;k\" (the dot spread), while in \"cxqyksa d ia[k\" the wings \"tkrh eq>s ck¡èk fut ek;k ls\" (seem to fly toward me). Analyse how agency is distributed differently.",
+     "a": "In the first poem, inanimate objects (map, dot) *receive* action passively (\"cks;k x;k\", \"xy x;k\" — passive/ergative), suggesting the mind as a surface acted upon. In the second, the wings *initiate* motion (\"tkrh\" — active intransitive), granting nature autonomous agency. A student who only spots \"personification\" in both misses the shift from passive reception to active volition, which mirrors the thematic shift from introspection to outward connection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The poet's use of Tatsam-heavy vocabulary (e.g., 'vaèkM+', 'cht', 'fo'ks\"k', 'vk'k;', 'HkkoukRed') creates intellectual distance, while Tadbhav/Deshaj words (e.g., 'pkSdksuk', 'Nk;k', 'ck¡èk', 'fut') restore intimacy.\" Defend or refute with evidence from either poem.",
+     "a": "The claim is **partially valid but oversimplified**. \"vaèkM+\" (storm) and \"cht\" (dot) are Tatsam yet denote raw, visceral forces — no distance. Conversely, \"pkSdksuk\" (scaffold/platform) is Tadbhav but functions as a structural metaphor, not intimate speech. The real pattern: *abstract nouns* tend toward Tatsam (\"fo'ks\"k\", \"HkkoukRed\"), *concrete sensory nouns* toward Tadbhav/Deshaj (\"Nk;k\", \"ck¡èk\"). A student who accepts the binary without checking each word's semantic field reveals a vocabulary-classification misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Write four original lines in Hindi that imitate the syntactic pattern of \"jl dk v{k; ik=k lnk dk / NksVk esjk [ksr pkSdksuk\" — i.e., a genitive chain of three nouns ending in a metaphorical noun — to describe a personal object (e.g., your phone, notebook, bicycle).",
+     "a": "Example: \"smartphone dk skreen / duniya dk darvaza / meri jeb ka jagat\" (screen of smartphone / door of world / universe of my pocket). A strong answer maintains the [Noun1 ka/ke/ki Noun2] ×2 → [Metaphorical Noun] structure and yields a fresh insight. A weak answer breaks the chain (e.g., uses adjectives instead of genitives) or produces a cliché (\"dil ka darvaza\"), showing inability to replicate the *generative* syntax.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_011",
+   "title": "c12_biotech_cbse_12_011",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the three mandatory committees (in order from institutional to national) that must approve a recombinant DNA experiment in India under the 1989 Rules.",
+     "a": "Correct answer: Institutional Biosafety Committee (IBSC) → Review Committee on Genetic Manipulation (RCGM) → Genetic Engineering Appraisal Committee (GEAC).  \nA wrong answer (e.g., naming CDSCO, DCGI, or reversing the order) reveals that the student confuses biosafety approvals with clinical trial or drug licensing pathways, or does not know the statutory hierarchy under the Environment Protection Act.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why a laboratory working with a Risk Group 2 bacterium (e.g., Staphylococcus aureus) at Biosafety Level 2 must still seek IBSC approval even if the experiment does not involve recombinant DNA.",
+     "a": "Correct answer: The 1989 Rules define \"hazardous microorganisms\" to include pathogenic agents of Risk Group 2 and above. Any work with such organisms — recombinant or not — falls under the Rules and requires IBSC notification and approval because the IBSC is responsible for certifying that the laboratory’s physical containment and practices match the assigned BSL.  \nA wrong answer (e.g., \"IBSC is only for GMOs\") shows the student mistakenly believes biosafety regulation applies only to genetic engineering, ignoring the broader scope of the Rules that cover any hazardous microorganism.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A startup plans to conduct contained research using a Risk Group 3 virus (e.g., SARS‑CoV‑2) in a BSL‑3 facility. They have IBSC approval. What is the next regulatory step before they can begin work, and which national committee grants it?",
+     "a": "Correct answer: The next step is obtaining approval from the Review Committee on Genetic Manipulation (RCGM) under the Department of Biotechnology. Even though the work may not involve recombinant DNA, Risk Group 3 agents require RCGM clearance because the 1989 Rules mandate RCGM review for all activities involving Risk Group 3 and 4 organisms.  \nA wrong answer (e.g., \"GEAC approval\" or \"no further approval needed\") reveals confusion about the tiered system: RCGM handles Risk Group 3/4 containment certification, while GEAC is required only for large‑scale use or environmental release.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the containment requirements for BSL‑2 and BSL‑3 laboratories. Identify two engineering controls that are mandatory in BSL‑3 but not in BSL‑2, and explain how each control reduces the risk of aerosol transmission.",
+     "a": "Correct answer: (1) Directional airflow (negative pressure) with HEPA‑filtered exhaust — ensures air flows into the lab and pathogens cannot escape via corridors. (2) Double‑door autoclave or pass‑through for material decontamination — allows waste to be sterilized before leaving the containment zone.  \nA wrong answer (e.g., listing PPE like N95 masks as engineering controls) shows the student cannot distinguish between administrative/PPE controls and primary engineering barriers, a distinction critical for compliance audits.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A company claims their new GM crop field trial is \"exempt from GEAC approval because the trait is only a gene deletion (no foreign DNA)\". Critique this claim using the 2017 Recombinant DNA Safety Guidelines.",
+     "a": "Correct answer: The claim is false. The 2017 Guidelines define \"genetically engineered organism\" to include organisms modified by genome editing (e.g., CRISPR‑Cas9) even if no foreign DNA remains. Any field trial of a genome‑edited crop requires GEAC appraisal because the environmental risk assessment must evaluate off‑target effects, trait stability, and ecological impact.  \nA wrong answer (e.g., accepting the exemption) indicates the student relies on outdated \"foreign DNA = GMO\" logic and misses the 2017 regulatory expansion to include gene‑edited organisms.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a one‑page \"Biosafety Compliance Checklist\" for a new biotech incubator that will host startups working at BSL‑1 and BSL‑2. Include at least five items covering institutional, documentation, and training requirements.",
+     "a": "A good answer includes: (1) IBSC registration with DBT and constitution as per guidelines; (2) Biosafety manual specific to the facility; (3) Risk assessment templates for each project; (4) Annual training records for all personnel (including emergency response); (5) Waste decontamination SOPs and validation logs; (6) Incident reporting mechanism to IBSC and RCGM.  \nA poor answer (e.g., only listing PPE or generic lab safety) reveals the student thinks compliance is about personal protection rather than systemic institutional accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

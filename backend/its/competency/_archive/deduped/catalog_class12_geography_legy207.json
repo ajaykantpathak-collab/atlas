@@ -1,0 +1,247 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Transport and Communication",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.207.1",
+   "title": "Road Transport in India",
+   "section": "Roadways",
+   "definition": "Roads carry about 85 per cent of passenger and 70 per cent of freight traffic in India, and are classified into national highways, state highways, major district roads and rural roads, with golden quadrilateral super highways linking the four metro cities.",
+   "formula": "non_road_passenger_share = 100 - road_passenger_share",
+   "key_idea": "Subtracting the road share of passenger traffic from 100 gives the share carried by rail, air and water together.",
+   "textbook_ref": "legy207.txt road classification and traffic shares (85 per cent passenger, 70 per cent freight)",
+   "question_patterns": [
+    "what share of passenger traffic do roads carry",
+    "compute the non-road share of passenger traffic",
+    "classify Indian roads by administration",
+    "what is the golden quadrilateral",
+    "contrast national and state highways",
+    "evaluate rural roads under Pradhan Mantri Gram Sadak Yojana"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the road share",
+     "explain": "roads carry 85 per cent of passengers",
+     "compute": "road_passenger_share = 85"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the rest travels by rail, air and water",
+     "compute": "non_road_passenger_share = 100 - road_passenger_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.207.2",
+   "title": "Railways: Network and Zones",
+   "section": "Railways",
+   "definition": "Indian Railways is the largest public undertaking running the country's biggest network, organised into zones; the dense network of the northern plains contrasts with thin coverage in the Himalaya, desert and north-east, while konkan railway and metro rail extend the system.",
+   "formula": "",
+   "key_idea": "Terrain decides the rails: flat plains support dense grids, mountains raise costs and limit lines.",
+   "textbook_ref": "legy207.txt railway development, zones and difficulty zones sections",
+   "question_patterns": [
+    "describe the regional pattern of railway density in India",
+    "which terrain regions are unsuited to railways and why",
+    "what is the Konkan railway's significance",
+    "how are railway zones organised",
+    "compare rail and road freight for long hauls",
+    "state the role of railways in national integration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the density",
+     "explain": "the northern plains hold the densest network; Himalaya and desert the sparsest"
+    },
+    {
+     "step": 2,
+     "action": "explain the limits",
+     "explain": "high construction cost and diffused demand keep hills and deserts thin"
+    },
+    {
+     "step": 3,
+     "action": "close with zones",
+     "explain": "zonal organisation manages the vast single system"
+    }
+   ]
+  },
+  {
+   "id": "legy.207.3",
+   "title": "Water, Pipeline and Air Transport",
+   "section": "Waterways, Pipelines and Airways",
+   "definition": "Inland waterways on the Ganga-Brahmaputra and the west coast canals, five national waterways, crude oil and product pipelines like the Naharkatia-Nunmati-Barauni line, and air services through Air India and private carriers complete India's transport mix.",
+   "formula": "",
+   "key_idea": "Waterways move cheap bulk, pipelines move fluids without packaging, and airways serve speed and distance rather than weight.",
+   "textbook_ref": "legy207.txt waterways, pipelines and aviation sections",
+   "question_patterns": [
+    "name the national waterways of India",
+    "trace the Naharkatia-Nunmati-Barauni pipeline",
+    "compare waterways with railways for bulk cargo",
+    "why are pipelines suited to crude oil and gas",
+    "describe the growth of private aviation",
+    "state the role of heli routes in remote areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the waterways",
+     "explain": "the Ganga, Brahmaputra and west coast canal systems form the national waterways"
+    },
+    {
+     "step": 2,
+     "action": "follow the pipeline",
+     "explain": "Naharkatia fields feed Nunmati and Barauni refineries by pipeline"
+    },
+    {
+     "step": 3,
+     "action": "close with air",
+     "explain": "private carriers widened air access beyond the national carrier"
+    }
+   ]
+  },
+  {
+   "id": "legy.207.4",
+   "title": "Communication Networks in India",
+   "section": "Communication",
+   "definition": "India's communication spans the postal network - among the world's largest with post offices in nearly every village - landline and mobile telephony with millions of village connections, and broadcasting and internet services that link the country's markets and administration.",
+   "formula": "",
+   "key_idea": "Postal reach plus mobile telephony gives even remote villages at least one channel to the national network.",
+   "textbook_ref": "legy207.txt postal, telecom and internet sections",
+   "question_patterns": [
+    "describe the extent of India's postal network",
+    "how has telephony changed rural communication",
+    "name the national telecom backbone services",
+    "compare printed and electronic media reach",
+    "state the role of communication in disaster management",
+    "relate internet growth to the digital economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the channels",
+     "explain": "posts, telephones, broadcasting and internet form the four channels"
+    },
+    {
+     "step": 2,
+     "action": "note the village reach",
+     "explain": "village post offices and mobile towers extend the network's last mile"
+    },
+    {
+     "step": 3,
+     "action": "close with integration",
+     "explain": "communication knits markets, administration and families together"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy207_1",
+   "source_ref": "legy207.txt road traffic shares",
+   "concept": "legy.207.1",
+   "question_type": "compute",
+   "question_pattern": "Roads carry 85 per cent of passenger traffic. Compute the share of all other modes together.",
+   "extracted_variables": {
+    "road_passenger_share": 85
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the road share",
+     "explain": "85 per cent of passengers move by road",
+     "compute": "road_passenger_share = 85"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 85 = 15 per cent by other modes",
+     "compute": "non_road_passenger_share = 100 - road_passenger_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy207_2",
+   "source_ref": "legy207.txt railway sections",
+   "concept": "legy.207.2",
+   "question_type": "short_answer",
+   "question_pattern": "Why is railway density low in the Himalayan and desert regions?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "construction cost",
+     "explain": "mountain terrain needs tunnels and bridges, raising costs"
+    },
+    {
+     "step": 2,
+     "action": "thin demand",
+     "explain": "low population and freight volumes cannot repay the investment"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "economics, not neglect, keeps these networks thin"
+    }
+   ]
+  },
+  {
+   "id": "we_legy207_3",
+   "source_ref": "legy207.txt waterways section",
+   "concept": "legy.207.3",
+   "question_type": "short_answer",
+   "question_pattern": "State two advantages of inland waterways for freight.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cheap hauling",
+     "explain": "water resistance makes bulk hauling cost far less per tonne-km"
+    },
+    {
+     "step": 2,
+     "action": "no land acquisition",
+     "explain": "rivers are ready-made channels needing little land"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "fuel savings make rivers ideal for coal, ore and grain"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy207_1",
+   "source_ref": "legy207.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "classify Indian roads and give their traffic shares",
+    "compute the non-road share of passenger traffic",
+    "describe the regional pattern of railway development",
+    "name the national waterways and their routes",
+    "evaluate the growth of communication networks"
+   ]
+  },
+  {
+   "id": "ex_legy207_2",
+   "source_ref": "legy207.txt applied questions, reworded",
+   "questions": [
+    "argue the case for freight corridors",
+    "compare pipeline transport with rail for petroleum",
+    "map the golden quadrilateral and its corridors",
+    "relate communication growth to e-governance",
+    "plan last-mile connectivity for a hill district"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_008",
+   "title": "c11_biotech_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define \"interolog\" in the context of protein-protein interaction prediction and state the primary assumption underlying this method.",
+     "a": "An interolog is a conserved protein-protein interaction where orthologous proteins in different species interact in the same manner. The primary assumption is that interaction interfaces are evolutionarily conserved, so if protein A interacts with protein B in species X, their orthologs A' and B' in species Y will also interact. A wrong answer (e.g., defining interolog as \"any predicted interaction\" or citing sequence similarity alone as the assumption) reveals the student confuses homology-based inference with the specific concept of conserved interaction pairs across species.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Protein-protein docking is always more accurate than sequence-based interolog mapping because it uses 3D structural physics.\" Explain why this statement is an oversimplification, referencing at least two limitations of docking and one strength of interologs.",
+     "a": "Docking suffers from (1) conformational flexibility — proteins undergo induced fit upon binding, which rigid-body docking ignores, and (2) scoring function inaccuracies — energy functions often fail to rank near-native poses top. Interologs, when available, provide direct evolutionary evidence of a biologically validated interaction in a living cell, including correct stoichiometry and cellular context, which a static docking simulation cannot guarantee. A wrong answer focusing only on \"docking needs structures\" misses the deeper issue: even with structures, docking accuracy for protein-protein interfaces is significantly lower than for protein-ligand due to larger, flatter interfaces and flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "You have a hypothetical protein \"X\" from a newly sequenced bacterium. No experimental structure exists. You find a homolog in *E. coli* (Protein Y) with 45% sequence identity over 80% length. Protein Y is known to interact with Protein Z in the STRING database (confidence score 0.9). Describe the step-by-step computational workflow to predict the interaction partner of X, naming the specific method and database at each step.",
+     "a": "Step 1: Use BLASTP against UniProt to confirm Protein Y is the top ortholog of X (reciprocal best hit). Step 2: Retrieve the interaction neighborhood of Y from STRING v12.0, filtering for high-confidence (score >0.7) physical interactions. Step 3: Identify Protein Z as a high-confidence interactor of Y. Step 4: Find the ortholog of Z in the target bacterium (reciprocal BLAST). Step 5: Predict X-Z interaction via interolog mapping, annotating with the transferred STRING score. A wrong answer that skips reciprocal best hit verification or uses a generic \"homology search\" without specifying orthology criteria reveals misunderstanding of the difference between homology and orthology for interaction transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"domain-domain interaction (DDI) based prediction\" and \"phylogenetic profiling\" for PPI inference. Create a table with four rows: (i) Input data required, (ii) Evolutionary principle exploited, (iii) Typical false positive source, (iv) Applicability to hypothetical proteins with no close homologs.",
+     "a": "| Feature | DDI-based | Phylogenetic Profiling |\n|---------|-----------|------------------------|\n| Input | Protein domain architectures (Pfam/InterPro) + known DDI databases (3did, DOMINE) | Presence/absence patterns of genes across many genomes |\n| Principle | Physical binding interfaces are mediated by specific domains that co-evolve to maintain complementarity | Functionally linked proteins (e.g., in same pathway/complex) are co-inherited or co-lost during evolution |\n| False Positive | Domain promiscuity: a domain binds many partners in vitro but not in vivo due to spatial/temporal regulation | Non-functional co-occurrence: proteins in same pathway but not physically interacting (e.g., sequential enzymes) |\n| Hypothetical Protein | Works if domain annotation exists (even without full-length homolog) | Fails if the protein's phylogenetic profile is unique or genome sampling is sparse |\n\nA wrong answer that conflates DDI with \"sequence similarity\" or thinks phylogenetic profiling requires 3D structures reveals confusion between physical interaction mechanisms and functional linkage inference.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this research plan: \"To predict interactors for a human transcription factor with a known PDB structure (2.5 Å resolution), we will run ClusPro docking against the entire human proteome (20,000 structures from AlphaFold DB) and take the top 10 lowest energy poses as high-confidence predictions.\" Identify three critical flaws and propose a better strategy.",
+     "a": "Flaw 1: Docking against 20,000 structures is computationally infeasible for exhaustive flexible docking; ClusPro rigid-body mode would generate massive false positives from non-specific surface complementarity. Flaw 2: AlphaFold models have variable per-residue confidence (pLDDT); docking into low-confidence regions (loops, disordered tails) yields meaningless poses. Flaw 3: Transcription factors often bind via disordered regions not resolved in PDB/AlphaFold; docking structured domains misses these. Better strategy: (1) Use known domain-motif interaction databases (ELM, 3did) to predict peptide partners from short linear motifs. (2) Restrict docking to a curated set of nuclear co-factors with high-confidence AlphaFold models (pLDDT>90 at interface). (3) Integrate with co-expression (GTEx) and chromatin co-occupancy (ChIP-seq) data for network-based filtering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel hybrid PPI prediction pipeline for a plant pathogen effector protein that has no homologs in model organisms, no resolved structure, but has a predicted disordered N-terminus and a structured C-terminal domain. Your pipeline must integrate at least three distinct evidence types from this node and output a ranked candidate list with confidence scores. Sketch the logic flow.",
+     "a": "Pipeline: (1) **Disordered region motif scan**: Use ELM/ANCHOR2 on N-terminus to predict short linear motifs (SLiMs) mediating host target binding; score by motif conservation in effector family. (2) **Domain-based interologs**: Run HMMER on C-terminal domain against Pfam; if a domain family (e.g., E3 ligase, kinase) is detected, retrieve known DDIs from 3did/DOMINE and map to host proteome via domain annotations. (3) **Host-pathogen network guilt-by-association**: Construct a bipartite network of known effectors and their host targets from PHI-base; use random walk with restart from query effector's sequence neighbors (even distant) to prioritize host proteins. (4) **Integration**: Combine scores via weighted sum (weights trained on known effectors) or Bayesian network. Output ranked host targets with composite confidence. A poor answer that only lists tools without defining how evidence is combined for a *no-homolog* case shows inability to synthesize methods for edge cases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

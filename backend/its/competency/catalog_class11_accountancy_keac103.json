@@ -1,0 +1,283 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 103,
+ "chapter_title": "Recording of Transactions I",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac103.txt",
+ "concepts": [
+  {
+   "id": "keac.103.1.1",
+   "title": "Business Transactions, Source Documents and Vouchers",
+   "section": "3.1 Business Transactions and Source Document",
+   "definition": "Every business transaction is evidenced by a source document such as a cash memo, invoice, cheque or pay-in-slip, and the accountant prepares an accounting voucher on its basis before the transaction is recorded in the books.",
+   "formula": "",
+   "key_idea": "Source documents provide the evidence for the entry, and vouchers classify the transaction as debit or credit voucher with a narration.",
+   "textbook_ref": "keac103.txt section 3.1",
+   "question_patterns": [
+    "what are source documents and why are they necessary",
+    "how is an accounting voucher prepared",
+    "distinguish between cash voucher and credit voucher",
+    "name the source documents for cash sales credit sales and purchases",
+    "what is a narration in a voucher",
+    "why must every transaction be supported by a document"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the source document",
+     "explain": "Match the transaction type with its document, such as invoice for credit sales."
+    },
+    {
+     "step": 2,
+     "action": "check the voucher preparation",
+     "explain": "Confirm the voucher carries the date, accounts, amount, narration and signatures."
+    },
+    {
+     "step": 3,
+     "action": "verify recording readiness",
+     "explain": "Ensure the voucher gives all details needed to journalise the transaction."
+    }
+   ]
+  },
+  {
+   "id": "keac.103.2.1",
+   "title": "The Accounting Equation",
+   "section": "3.2 Accounting Equation",
+   "definition": "The accounting equation states that assets are equal to capital plus liabilities, so every transaction keeps the two sides equal and capital can always be recovered as assets minus liabilities.",
+   "formula": "assets = capital + liabilities",
+   "key_idea": "Each transaction changes at least two elements of the equation, but the equality of total assets and total claims never breaks.",
+   "textbook_ref": "keac103.txt section 3.2",
+   "question_patterns": [
+    "state the accounting equation",
+    "show the effect of transactions on the accounting equation",
+    "calculate total liabilities when assets and capital are given",
+    "find capital from the accounting equation",
+    "how does credit purchase of furniture affect the accounting equation",
+    "why do assets always equal capital plus liabilities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rearrange the equation for capital",
+     "explain": "Deduct liabilities from total assets to obtain the capital claim",
+     "compute": "capital = assets - liabilities"
+    },
+    {
+     "step": 2,
+     "action": "rearrange the equation for liabilities",
+     "explain": "Deduct capital from total assets to obtain the outsiders claim",
+     "compute": "liabilities = assets - capital"
+    }
+   ]
+  },
+  {
+   "id": "keac.103.3.1",
+   "title": "Rules of Debit and Credit for Accounts",
+   "section": "3.3.1 Rules of Debit and Credit",
+   "definition": "Under the modern approach, increases in assets and expenses are debited while decreases are credited; increases in capital, liabilities and incomes are credited while decreases are debited, keeping total debits equal to total credits.",
+   "formula": "",
+   "key_idea": "Applying the rules to the affected accounts decides which account is debited and which is credited for any transaction.",
+   "textbook_ref": "keac103.txt section 3.3.1",
+   "question_patterns": [
+    "state the rules of debit and credit",
+    "which account is debited when rent is paid in cash",
+    "how is a credit purchase of goods journalised",
+    "explain the modern rules of debit and credit with examples",
+    "why are total debits always equal to total credits",
+    "classify accounts into asset liability capital income and expense"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the accounts",
+     "explain": "Place each affected account under asset, liability, capital, income or expense."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule",
+     "explain": "Decide debit or credit from the direction of change in each account."
+    },
+    {
+     "step": 3,
+     "action": "verify equality",
+     "explain": "Confirm the total debit amount equals the total credit amount."
+    }
+   ]
+  },
+  {
+   "id": "keac.103.4.1",
+   "title": "Journal, Narration and Compound Entries",
+   "section": "3.4 Books of Original Entry",
+   "definition": "The journal is the book of original entry where transactions are first recorded chronologically with a narration; a compound entry records several debits or credits in one entry, and the process is called journalising.",
+   "formula": "",
+   "key_idea": "The journal entry shows date, accounts, amounts, folio and narration, forming the base for posting into the ledger.",
+   "textbook_ref": "keac103.txt journal sections",
+   "question_patterns": [
+    "what is a journal and why is it called a book of original entry",
+    "what is meant by narration and journalising",
+    "what is a compound entry give an example",
+    "journalise the purchase of goods for cash and on credit",
+    "how is a journal entry posted to the ledger",
+    "state the steps of journalising a transaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyse the transaction",
+     "explain": "Identify the accounts affected and the nature of each."
+    },
+    {
+     "step": 2,
+     "action": "apply debit and credit rules",
+     "explain": "Record the debit first and then the credit with equal amounts."
+    },
+    {
+     "step": 3,
+     "action": "write the narration",
+     "explain": "Add a brief narration describing the transaction for future reference."
+    }
+   ]
+  },
+  {
+   "id": "keac.103.5.1",
+   "title": "Trade Discount and Net Invoice Price",
+   "section": "3.1 Source Documents",
+   "definition": "When a trade discount is allowed on the list price of goods, the invoice is prepared at the net price found by deducting the discount from the list price, and the trade discount itself is never recorded in the books.",
+   "formula": "net_price = list_price - trade_discount",
+   "key_idea": "Only the net invoice price enters the journal, so the trade discount is a calculation step and not an account.",
+   "textbook_ref": "keac103.txt discount discussion in source documents",
+   "question_patterns": [
+    "calculate the net invoice price after a trade discount",
+    "what is the difference between trade discount and cash discount",
+    "is trade discount recorded in the books of accounts",
+    "find the invoice amount when the list price and discount are given",
+    "how is cash discount different from trade discount in recording",
+    "compute the amount of trade discount allowed on a sale"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the discount amount",
+     "explain": "Multiply the list price by the discount percentage and divide by 100",
+     "compute": "trade_discount = list_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "deduct the discount from list price",
+     "explain": "Subtract the trade discount from the list price to get the net invoice price",
+     "compute": "net_price = list_price - trade_discount"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac103.txt section 3.2",
+   "concept": "keac.103.2.1",
+   "question_type": "compute_capital_from_equation",
+   "question_pattern": "A business owns assets worth {assets} rupees and owes liabilities of {liabilities} rupees. Using the accounting equation, calculate the capital.",
+   "extracted_variables": {
+    "assets": 850000,
+    "liabilities": 300000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rearrange the equation for capital",
+     "explain": "Deduct liabilities from total assets to obtain the capital claim",
+     "compute": "capital = assets - liabilities"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac103.txt section 3.2",
+   "concept": "keac.103.2.1",
+   "question_type": "compute_liabilities_from_equation",
+   "question_pattern": "The assets of a firm are {assets} rupees and the proprietor's capital is {capital} rupees. Find the total liabilities of the firm.",
+   "extracted_variables": {
+    "assets": 640000,
+    "capital": 400000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rearrange the equation for liabilities",
+     "explain": "Deduct capital from total assets to obtain the outsiders claim",
+     "compute": "liabilities = assets - capital"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac103.txt discount discussion",
+   "concept": "keac.103.5.1",
+   "question_type": "compute_net_invoice",
+   "question_pattern": "Goods listed at {list_price} rupees are sold subject to a trade discount of {discount_percent} per cent. Calculate the net invoice price.",
+   "extracted_variables": {
+    "list_price": 20000,
+    "discount_percent": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the discount amount",
+     "explain": "Multiply the list price by the discount percentage and divide by 100",
+     "compute": "trade_discount = list_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "deduct the discount from list price",
+     "explain": "Subtract the trade discount from the list price to get the net invoice price",
+     "compute": "net_price = list_price - trade_discount"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac103.txt discount discussion",
+   "concept": "keac.103.5.1",
+   "question_type": "compute_net_invoice",
+   "question_pattern": "An invoice is prepared on a list price of {list_price} rupees after allowing {discount_percent} per cent trade discount. Work out the amount credited to the sales account.",
+   "extracted_variables": {
+    "list_price": 45000,
+    "discount_percent": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the discount amount",
+     "explain": "Multiply the list price by the discount percentage and divide by 100",
+     "compute": "trade_discount = list_price * discount_percent / 100"
+    },
+    {
+     "step": 2,
+     "action": "deduct the discount from list price",
+     "explain": "Subtract the trade discount from the list price to get the net invoice price",
+     "compute": "net_price = list_price - trade_discount"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keac103.txt exercises section",
+   "questions": [
+    "What are source documents? Name any three.",
+    "State the meaning and purpose of accounting vouchers.",
+    "Show the effect of the following transactions on the accounting equation.",
+    "State the rules of debit and credit for asset and liability accounts.",
+    "Journalise the following transactions in the books of a trader.",
+    "Distinguish between trade discount and cash discount.",
+    "What is a compound entry? Give one example."
+   ]
+  }
+ ]
+}

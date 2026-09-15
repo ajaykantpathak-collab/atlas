@@ -1,0 +1,576 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Health - The Ultimate Treasure",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu103.txt",
+ "concepts": [
+  {
+   "id": "c8cu.3.1",
+   "title": "Health and Disease",
+   "section": "3.1",
+   "definition": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease, while a disease is any disturbance in the normal functioning of the body that impairs health.",
+   "formula": "",
+   "key_idea": "Health is a positive state of well-being; disease is a negative deviation from the normal healthy state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is meant by health",
+    "define the term disease",
+    "difference between health and disease",
+    "why is health called the ultimate treasure",
+    "what do you understand by health and disease"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the state of well-being",
+     "explain": "Health covers physical, mental and social wellness, not just absence of illness."
+    },
+    {
+     "step": 2,
+     "action": "identify the disturbance",
+     "explain": "A disease is any change from the normal state that causes discomfort or malfunction of the body."
+    },
+    {
+     "step": 3,
+     "action": "relate the two terms",
+     "explain": "Disease is the negation of health; maintaining health through good habits prevents disease."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is a person who has no visible disease always healthy? Explain.",
+     "solution": "No. Health includes physical, mental and social well-being. A person with no obvious disease may still be unhealthy if they are mentally stressed or socially isolated.",
+     "answer": "Not necessarily; health is a complete state of well-being, not merely absence of disease."
+    },
+    {
+     "question": "Why is health considered the ultimate treasure?",
+     "solution": "Without health a person cannot work, learn or enjoy life. All achievements depend on a healthy body and mind, so health is valued above wealth.",
+     "answer": "Because every other achievement depends on good health."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define health according to WHO.",
+     "type": "definition"
+    },
+    {
+     "question": "Give two examples of conditions that are diseases.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why a disease-free person may still not be called healthy.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.2",
+   "title": "Types of Diseases: Infectious and Non-infectious",
+   "section": "3.2",
+   "definition": "Infectious diseases spread from one person to another through agents like air, water or vectors, while non-infectious diseases do not spread and are caused by internal factors such as deficiency, genetic defects or lifestyle.",
+   "formula": "",
+   "key_idea": "Infectious diseases are communicable; non-infectious diseases are non-communicable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are infectious diseases",
+    "what are non-infectious diseases",
+    "difference between infectious and non-infectious diseases",
+    "give examples of communicable diseases",
+    "classify a disease as infectious or non-infectious"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the cause",
+     "explain": "Determine whether the disease is caused by an external agent like a pathogen or an internal factor."
+    },
+    {
+     "step": 2,
+     "action": "check the spread",
+     "explain": "Find out whether the disease can pass from an infected person to a healthy person."
+    },
+    {
+     "step": 3,
+     "action": "classify the disease",
+     "explain": "If it spreads, it is infectious; if it does not spread, it is non-infectious."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify cold and diabetes as infectious or non-infectious.",
+     "solution": "Cold is caused by a virus and spreads through air droplets, so it is infectious. Diabetes is caused by the body's inability to regulate sugar and does not spread, so it is non-infectious.",
+     "answer": "Cold is infectious; diabetes is non-infectious."
+    },
+    {
+     "question": "Is cancer an infectious disease? Give reason.",
+     "solution": "Cancer results from uncontrolled cell division within the body and is not caused by a pathogen that can spread to others, so it is non-infectious.",
+     "answer": "No, cancer is non-infectious because it does not spread from person to person."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three infectious diseases and three non-infectious diseases.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is tuberculosis called an infectious disease?",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one point of difference between infectious and non-infectious diseases.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.3",
+   "title": "Causes of Diseases: Pathogens, Deficiency and Genetic",
+   "section": "3.3",
+   "definition": "Diseases are caused by pathogens such as bacteria, viruses, fungi and protozoa, by deficiency of nutrients such as vitamins and minerals, or by genetic defects inherited from parents.",
+   "formula": "",
+   "key_idea": "Different diseases have different causal agents: living pathogens, lack of nutrients, or faulty genes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the main causes of diseases",
+    "name the types of pathogens that cause disease",
+    "how does nutrient deficiency cause disease",
+    "what is a genetic disease",
+    "give one example each of a pathogenic, deficiency and genetic disease"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the causal agent",
+     "explain": "Check whether the disease is due to a pathogen, a nutrient deficiency or an inherited gene."
+    },
+    {
+     "step": 2,
+     "action": "match to the category",
+     "explain": "Pathogens cause infectious diseases, deficiencies cause deficiency diseases and faulty genes cause genetic diseases."
+    },
+    {
+     "step": 3,
+     "action": "give a representative example",
+     "explain": "For example, malaria is caused by a protozoan, scurvy by vitamin C deficiency and haemophilia by a genetic defect."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Identify the cause of scurvy and the cause of malaria.",
+     "solution": "Scurvy is caused by a deficiency of vitamin C in the diet. Malaria is caused by the protozoan Plasmodium spread by the female Anopheles mosquito.",
+     "answer": "Scurvy: vitamin C deficiency; malaria: protozoan pathogen."
+    },
+    {
+     "question": "Why is haemophilia called a genetic disease?",
+     "solution": "Haemophilia is caused by a defective gene inherited from the parents, so it is passed through generations and not acquired from the environment.",
+     "answer": "Because it is caused by an inherited defective gene."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name four types of pathogens with one disease each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a deficiency disease differs from an infectious disease.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example of a genetic disease.",
+     "type": "definition"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.4",
+   "title": "Transmission of Diseases",
+   "section": "3.4",
+   "definition": "Infectious diseases spread from an infected person to a healthy person through air, water, food, physical contact, sexual contact or vectors such as mosquitoes and flies.",
+   "formula": "",
+   "key_idea": "Pathogens reach a new host through specific routes called modes of transmission.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how do diseases spread from one person to another",
+    "what are the modes of disease transmission",
+    "how does malaria spread",
+    "name the vector that spreads dengue",
+    "explain direct and indirect transmission of diseases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the pathogen and its source",
+     "explain": "Find the microorganism and the infected person or animal that carries it."
+    },
+    {
+     "step": 2,
+     "action": "identify the mode of transmission",
+     "explain": "Determine whether the pathogen travels through air, water, food, contact or a vector."
+    },
+    {
+     "step": 3,
+     "action": "trace the path to the new host",
+     "explain": "Show how the pathogen enters a healthy person and causes the disease."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the common cold spread from one person to another?",
+     "solution": "When an infected person sneezes or coughs, tiny droplets carrying the cold virus are released into the air. A healthy person nearby inhales these droplets and gets infected.",
+     "answer": "Through air droplets released during coughing or sneezing."
+    },
+    {
+     "question": "Explain how cholera is transmitted through water.",
+     "solution": "The cholera bacterium present in the faeces of an infected person can contaminate drinking water. A healthy person who drinks this contaminated water develops cholera.",
+     "answer": "Through contaminated drinking water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two diseases spread by mosquitoes and their vectors.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Differentiate between direct and indirect transmission with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How can transmission through food be prevented?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.5",
+   "title": "Prevention of Diseases: Vaccination and Hygiene",
+   "section": "3.5",
+   "definition": "Diseases can be prevented by vaccination, which builds immunity, and by maintaining personal and public hygiene such as clean water, clean food and sanitation.",
+   "formula": "",
+   "key_idea": "Prevention is better than cure; vaccination and hygiene are the two main preventive measures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how can diseases be prevented",
+    "what is vaccination",
+    "why is hygiene important to prevent disease",
+    "name some common vaccines given to children",
+    "explain how vaccination prevents disease"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build immunity through vaccination",
+     "explain": "Vaccines introduce weakened or dead pathogens so the body makes antibodies and memory cells."
+    },
+    {
+     "step": 2,
+     "action": "maintain personal hygiene",
+     "explain": "Washing hands, bathing and keeping the surroundings clean block the routes of transmission."
+    },
+    {
+     "step": 3,
+     "action": "ensure public health measures",
+     "explain": "Safe drinking water, proper sanitation and clean food prevent the spread of pathogens in the community."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the polio vaccine protect a child from polio?",
+     "solution": "The polio vaccine contains weakened polio virus. When given, the child's immune system produces antibodies and memory cells. If the real virus enters later, the body quickly destroys it.",
+     "answer": "The vaccine trains the immune system to fight the polio virus."
+    },
+    {
+     "question": "Give two hygiene practices that prevent diarrhoeal diseases.",
+     "solution": "Washing hands with soap before eating and after using the toilet, and drinking boiled or filtered water, prevent the entry of disease-causing germs.",
+     "answer": "Hand washing and using safe drinking water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three vaccines given to children under the national immunisation schedule.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the principle of vaccination.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is boiling water recommended before drinking?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.6",
+   "title": "Immune System and Immunity",
+   "section": "3.6",
+   "definition": "The immune system is the body's defence mechanism made of cells, tissues and organs that recognises and destroys pathogens, and immunity is the ability of the body to resist a particular disease.",
+   "formula": "",
+   "key_idea": "Immunity may be innate (present from birth) or acquired (developed after exposure or vaccination).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the immune system",
+    "define immunity",
+    "difference between innate and acquired immunity",
+    "how do antibodies protect the body",
+    "what role do white blood cells play in immunity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the defence components",
+     "explain": "The immune system includes white blood cells, antibodies and lymphoid organs."
+    },
+    {
+     "step": 2,
+     "action": "classify the type of immunity",
+     "explain": "Innate immunity is present from birth; acquired immunity develops after infection or vaccination."
+    },
+    {
+     "step": 3,
+     "action": "explain the protective action",
+     "explain": "Antibodies recognise and neutralise specific pathogens so the body resists the disease."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a person who has recovered from chickenpox usually not get it again?",
+     "solution": "During the first infection the immune system makes memory cells. On a second encounter these cells quickly produce antibodies and destroy the virus before it causes disease.",
+     "answer": "Because memory cells give long-lasting acquired immunity."
+    },
+    {
+     "question": "Distinguish between innate and acquired immunity with one example each.",
+     "solution": "Innate immunity is present from birth, such as the skin acting as a barrier. Acquired immunity develops after exposure, such as immunity against measles after vaccination.",
+     "answer": "Innate: skin barrier; acquired: measles immunity after vaccine."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the main cells of the immune system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how antibodies help in immunity.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example of innate immunity.",
+     "type": "definition"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.7",
+   "title": "First Aid",
+   "section": "3.7",
+   "definition": "First aid is the immediate, basic medical help given to an injured or suddenly ill person before professional medical treatment arrives.",
+   "formula": "",
+   "key_idea": "Prompt and correct first aid prevents the condition from worsening and can save a life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is first aid",
+    "what first aid should be given for a minor burn",
+    "how to give first aid for bleeding",
+    "what to do if a person faints",
+    "explain the importance of first aid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess the situation",
+     "explain": "Check the person's condition and the cause of injury without endangering oneself."
+    },
+    {
+     "step": 2,
+     "action": "give the appropriate basic help",
+     "explain": "Apply the correct first aid measure such as washing a burn with cool water or pressing a clean cloth on a bleeding wound."
+    },
+    {
+     "step": 3,
+     "action": "arrange medical care",
+     "explain": "Call for a doctor or ambulance and keep the person comfortable until help arrives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What first aid should be given for a minor burn on the hand?",
+     "solution": "Hold the burnt area under cool running water for about 10 minutes to reduce heat and pain, then cover it loosely with a clean cloth. Do not apply ice or any ointment without medical advice.",
+     "answer": "Cool the burn with running water and cover it loosely."
+    },
+    {
+     "question": "How would you give first aid to a person with a bleeding wound?",
+     "solution": "Press a clean cloth firmly on the wound to stop the bleeding, raise the injured part if possible, and take the person to a doctor.",
+     "answer": "Apply pressure with a clean cloth and seek medical help."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define first aid.",
+     "type": "definition"
+    },
+    {
+     "question": "List three items found in a basic first aid kit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the steps of first aid for a person who has fainted.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.3.8",
+   "title": "Health and Nutrition",
+   "section": "3.8",
+   "definition": "A balanced diet providing carbohydrates, proteins, fats, vitamins and minerals in correct proportions is essential for maintaining health, and body mass index (BMI) is used to assess whether a person's weight is healthy for their height.",
+   "formula": "BMI = weight(kg) / height(m)^2",
+   "key_idea": "BMI compares weight with height to classify a person as underweight, normal, overweight or obese.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a balanced diet",
+    "how is BMI calculated",
+    "calculate the BMI for a given weight and height",
+    "what does a BMI value indicate about health",
+    "why is nutrition important for health"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record weight and height",
+     "explain": "Note the body weight in kilograms and the height in metres.",
+     "compute": "weight_kg = given_weight"
+    },
+    {
+     "step": 2,
+     "action": "record weight and height",
+     "explain": "Note the body weight in kilograms and the height in metres.",
+     "compute": "height_m = given_height"
+    },
+    {
+     "step": 3,
+     "action": "apply the BMI formula",
+     "explain": "Divide the weight in kg by the square of the height in metres.",
+     "compute": "bmi_v = weight_kg / (height_m * height_m)"
+    },
+    {
+     "step": 4,
+     "action": "interpret the BMI value",
+     "explain": "BMI below 18.5 is underweight, 18.5 to 24.9 is normal, 25 to 29.9 is overweight and 30 or above is obese.",
+     "compute": "result = bmi_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the BMI of a person whose weight is 54 kg and height is 1.5 m.",
+     "solution": "BMI = weight / height^2 = 54 / (1.5 x 1.5) = 54 / 2.25 = 24. Since 24 lies between 18.5 and 24.9, the person has a normal weight.",
+     "answer": "BMI = 24, which falls in the normal range."
+    },
+    {
+     "question": "A student weighs 72 kg and is 1.6 m tall. Find the BMI and classify the student.",
+     "solution": "BMI = 72 / (1.6 x 1.6) = 72 / 2.56 = 28.125. Since 28.125 lies between 25 and 29.9, the student is overweight.",
+     "answer": "BMI = 28.125, overweight."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the BMI for a weight of 45 kg and height of 1.4 m.",
+     "type": "numerical"
+    },
+    {
+     "question": "List the components of a balanced diet.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why a balanced diet is necessary for good health.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.3.8.1",
+   "source_ref": "generated practice sample aligned to hecu103.txt",
+   "concept": "c8cu.3.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_weight}, {given_height}.",
+   "extracted_variables": {
+    "given_weight": "given weight (given value)",
+    "given_height": "given height (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute weight kg",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "weight_kg = given_weight"
+    },
+    {
+     "step": 2,
+     "action": "compute height m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height_m = given_height"
+    },
+    {
+     "step": 3,
+     "action": "compute bmi v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "bmi_v = weight_kg / (height_m * height_m)"
+    },
+    {
+     "step": 4,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = bmi_v"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.3.8.2",
+   "source_ref": "generated practice sample aligned to hecu103.txt",
+   "concept": "c8cu.3.8",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {given_weight}, {given_height}.",
+   "extracted_variables": {
+    "given_weight": "given weight (given value)",
+    "given_height": "given height (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute weight kg",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "weight_kg = given_weight"
+    },
+    {
+     "step": 2,
+     "action": "compute height m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height_m = given_height"
+    },
+    {
+     "step": 3,
+     "action": "compute bmi v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "bmi_v = weight_kg / (height_m * height_m)"
+    },
+    {
+     "step": 4,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = bmi_v"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_004",
+   "title": "c11_ps_cbse_05_004",
+   "questions": [
+    {
+     "q": "According to Locke, what are the three natural rights individuals possess in the state of nature, and what makes them \"inalienable\"?",
+     "a": "The three natural rights are life, liberty, and property. They are inalienable because they derive from natural law (reason/God), not from any human institution; no government can legitimately take them away, and individuals cannot voluntarily surrender them — they can only delegate their enforcement. A wrong answer (e.g., \"rights granted by the Constitution\") reveals confusion between natural rights (pre-political) and legal rights (state-conferred), a category error addressed in c11_ps_cbse_05_002.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Locke argues that the social contract creates a \"trust\" rather than an absolute transfer of power, and what happens when the government breaches this trust.",
+     "a": "Locke's social contract is a fiduciary trust: people surrender only the executive power of natural law (judging and punishing violations) to government, retaining their natural rights as beneficiaries. If government violates this trust — e.g., by arbitrarily seizing property or threatening life — it reverts to a state of war with the people, who regain the right to resist and establish new government. A wrong answer (e.g., \"people give up all rights to the sovereign\") confuses Locke with Hobbes, missing the conditional, limited nature of Lockean consent.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law allowing police to search homes without warrants in \"high-crime areas\" to reduce violence. Using Locke's framework, analyze whether this law violates the social contract. Identify the specific natural right at stake and the governmental obligation breached.",
+     "a": "The law violates the natural right to liberty (and property, as home is an extension of person). Locke argues government's sole legitimate purpose is protecting natural rights; warrantless searches invert this by making the protector the violator. The social contract is breached because the executive power delegated to prevent arbitrary force is itself exercised arbitrarily. A wrong answer focusing only on \"public safety\" misses Locke's core claim: security cannot be purchased by surrendering the very rights government exists to protect — that dissolves the trust.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Locke's view of property in the state of nature with the modern legal concept of property rights under the Indian Constitution (Article 300A). What theoretical shift does this represent?",
+     "a": "Locke sees property as a natural right arising from mixing labour with common resources, existing prior to and limiting the state; Article 300A makes property a constitutional/legal right (\"No person shall be deprived of his property save by authority of law\"), subject to legislative definition. The shift is from natural-rights-as-trumps-against-state to legal-rights-as-state-defined-entitlements. A wrong answer equating the two misses the philosophical stakes: for Locke, unjust property seizure delegitimizes the regime; under Article 300A, it merely requires legislative authorization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Locke's right of revolution is dangerous for democratic stability because it encourages citizens to judge government legitimacy for themselves.\" Use Locke's own reasoning to support or refute.",
+     "a": "Refute: Locke argues the right of revolution is the *ultimate safeguard* of stability, not its threat. Government exists by trust; when it systematically violates natural rights (e.g., arbitrary arrests, property seizure without consent), it *itself* dissolves the social contract and returns society to a state of nature where people may form a new government. The danger lies in *government* breaching trust, not in people recognizing the breach. A wrong answer accepting the claim misunderstands Locke's diagnostic: revolution is the symptom of failed government, not the cause of instability.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Lockean Preamble\" for a hypothetical student council constitution that grounds the council's authority in natural rights theory, explicitly naming the rights protected, the source of authority, and the condition for legitimacy.",
+     "a": "A strong answer: \"We, the students, possessing by nature the rights to personal security (life), freedom of expression and association (liberty), and the fruits of our labour and creativity (property), establish this Council not to grant us rights but to secure them. The Council derives its just powers from our consent, exercised as a trust to protect these rights. Should the Council systematically violate them — suppressing speech, seizing student property, or endorsing harassment — it forfeits legitimacy, and we reserve the right to reform or replace it.\" A poor answer omits the trust structure, treats rights as gifts from the Council, or omits the right of resistance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

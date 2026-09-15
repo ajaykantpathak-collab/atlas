@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_007",
+   "title": "c12_bio_cbse_12_007",
+   "questions": [
+    {
+     "q": "Define the term \"substantial equivalence\" in the context of GM food safety assessment and name the Indian regulatory body that uses this concept for approving GM crops.",
+     "a": "Substantial equivalence is the principle that a GM food is considered as safe as its conventional counterpart if it has the same nutritional, toxicological, and allergenic profile, barring the intended change. The Genetic Engineering Appraisal Committee (GEAC) under the Ministry of Environment, Forest and Climate Change (MoEFCC) uses this for GM crop approval in India. A wrong answer (e.g., naming FSSAI or ICMR as the final approver, or defining substantial equivalence as \"identical DNA\") reveals confusion between food safety regulation (FSSAI) and environmental release regulation (GEAC), and a misunderstanding that substantial equivalence requires molecular identity rather than phenotypic/functional equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Bt cotton is unethical because it contains a bacterial toxin gene, so it is fundamentally unnatural and should be banned.\" Explain why this argument confuses intrinsic ethical concerns with extrinsic risk assessment, and identify which Indian committee evaluates the environmental risk of such crops before commercial release.",
+     "a": "The argument confuses **intrinsic ethical objection** (\"playing God,\" unnaturalness) with **extrinsic risk assessment** (measurable harm to non-target organisms, gene flow, resistance evolution). Bioethics frameworks distinguish between these: intrinsic concerns are value-based and not scientifically testable, while extrinsic risks (e.g., Bt toxin effect on butterflies, horizontal gene transfer) are evaluated empirically by the **Review Committee on Genetic Manipulation (RCGM)** and **GEAC**. A wrong answer that agrees with the student or cites only IBSC shows failure to distinguish philosophical objections from regulatory science and ignorance of the multi-tiered Indian biosafety hierarchy (IBSC → RCGM → GEAC).",
+     "self_check": true
+    },
+    {
+     "q": "In 2018, a researcher in China used CRISPR-Cas9 to edit the CCR5 gene in human embryos to confer HIV resistance, resulting in the birth of twin girls. The scientific community condemned this as a violation of bioethical norms. Using the distinction between somatic and germline gene therapy, explain why this case is ethically far more severe than the SCID gene therapy (c12_bio_cbse_12_003) taught in this chapter.",
+     "a": "SCID gene therapy (c12_bio_cbse_12_003) targets **somatic cells** (patient's T-cells) — changes are not heritable, affect only the individual, and follow established clinical trial protocols with informed consent. The CRISPR baby case edited **germline cells** (embryos) — changes are heritable, affect future generations without consent, violate the international moratorium on human germline editing, and bypassed ethical review. A wrong answer that focuses only on \"CRISPR is risky\" or \"HIV can be treated otherwise\" misses the core ethical boundary: somatic vs. germline. This distinction is explicitly taught in Class 12 NCERT (Biotechnology and Its Applications) and is a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical issue of \"biopiracy\" (e.g., patenting of neem or turmeric by foreign firms) with the issue of \"terminator technology\" (GURT - Genetic Use Restriction Technology) in GM seeds. How do both exploit farmers' traditional knowledge and economic vulnerability, and which Indian law addresses biopiracy?",
+     "a": "**Biopiracy**: Corporations patent products/processes based on indigenous knowledge (e.g., neem fungicide, turmeric wound healing) without benefit-sharing — violates **Convention on Biological Diversity (CBD)** and India's **Biological Diversity Act, 2002** (mandates prior informed consent and benefit sharing via National Biodiversity Authority). **Terminator technology (GURT)**: Seeds engineered to be sterile in second generation, forcing farmers to repurchase seeds annually — exploits economic vulnerability, threatens seed sovereignty and agro-biodiversity. Both represent **asymmetric power**: biopiracy steals past knowledge; terminator technology controls future production. A wrong answer that conflates them or cites the Patents Act 1970 (amended 2005) for biopiracy instead of the Biodiversity Act 2002 shows gaps in legal framework knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The GEAC's approval of Bt brinjal in 2009 was scientifically sound but ethically flawed because it ignored socio-economic impacts on small farmers and consumer choice.\" Use the concepts of **precautionary principle**, **substantial equivalence**, and **labeling rights** to justify your evaluation.",
+     "a": "**Scientifically sound**: GEAC relied on substantial equivalence (nutritional equivalence) and biosafety data (non-target effects, allergenicity) — RCGM recommended approval. **Ethically flawed**: (1) **Precautionary principle** was inadequately applied — long-term ecological monitoring (e.g., resistance evolution, cross-pollination with wild relatives) was not mandated post-release. (2) **Socio-economic impact** (seed cost, debt trap, loss of traditional varieties) was outside GEAC's mandate but critical for small farmers. (3) **Labeling rights**: India's FSSAI labeling regulations for GM foods were not operational then, denying consumer choice. The 2010 moratorium by MoEFCC acknowledged these gaps. A wrong answer that says \"GEAC only does science, ethics is not their job\" ignores that the Rules 1989 require \"ethical, social, and economic considerations\" in the appraisal process — a common board exam misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public consultation framework for a hypothetical GM mustard (DMH-11) release in India that addresses the three major stakeholder groups (farmers, scientists, consumers) and incorporates the **Cartagena Protocol's** requirement for public participation. Specify two measurable outcomes that would indicate the consultation was meaningful, not tokenistic.",
+     "a": "**Framework**: (1) **Pre-consultation**: Translate technical dossiers (environmental risk assessment, molecular characterization) into 10 regional languages; distribute via Krishi Vigyan Kendras (KVKs) and Gram Sabhas 60 days before hearings. (2) **Structured hearings**: Separate sessions for farmers (focus on seed cost, yield stability, contingency plans), scientists (focus on gene flow data, resistance management), consumers (focus on labeling, long-term health monitoring). (3) **Independent oversight**: Panel including social scientists, ethicists, farmer representatives — not just DBT/MoEFCC officials. (4) **Feedback loop**: Publish anonymized summaries of concerns and how each was addressed in final decision. **Measurable outcomes**: (a) ≥30% of Gram Panchayats in mustard-growing districts submit written responses; (b) Final GEAC decision document explicitly references and responds to ≥5 major stakeholder concerns raised. A poor answer proposes only online surveys or town halls without language accessibility, independent oversight, or documented feedback incorporation — revealing tokenism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Squares and Square Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh105.txt",
+ "concepts": [
+  {
+   "id": "hemh.5.1.1",
+   "title": "Square Numbers",
+   "section": "5.1",
+   "definition": "A natural number is considered a square number if it can be represented as the product of another natural number multiplied by itself.",
+   "formula": "m = n * n",
+   "key_idea": "A perfect square is the result of squaring an integer.",
+   "textbook_ref": "hemh105.txt lines 15-30",
+   "question_patterns": [
+    "is the number ... a square number",
+    "calculate the square of ...",
+    "identify if ... is a perfect square",
+    "find the square of the number ...",
+    "check if ... can be expressed as a square"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number by itself",
+     "explain": "the square of n is n times n",
+     "compute": "result = n * n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.2.1",
+   "title": "Square Root via Prime Factorization",
+   "section": "5.5.3",
+   "definition": "The square root of a number is the value which, when multiplied by itself, produces the original number.",
+   "formula": "sqrt(n * n) = n",
+   "key_idea": "Pairing identical prime factors to determine the root.",
+   "textbook_ref": "hemh105.txt lines 260-290",
+   "question_patterns": [
+    "find the square root of ... using prime factorization",
+    "calculate the root of ...",
+    "what is the square root of ...",
+    "determine the root of ... by factoring",
+    "evaluate the square root of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the square root",
+     "explain": "calculate the root of the perfect square n",
+     "compute": "result = sqrt(n)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.3.1",
+   "title": "Pythagorean Triplets",
+   "section": "5.4.2",
+   "definition": "A set of three natural numbers (2m, m^2-1, m^2+1) that satisfy the relationship where the sum of the squares of the two smaller numbers equals the square of the largest.",
+   "formula": "a^2 + b^2 = c^2",
+   "key_idea": "Sets of numbers forming sides of a right triangle.",
+   "textbook_ref": "hemh105.txt lines 200-230",
+   "question_patterns": [
+    "find a pythagorean triplet with one member ...",
+    "write a pythagorean triplet where the smallest member is ...",
+    "identify a triplet containing ...",
+    "calculate the pythagorean triplet for m = ...",
+    "determine the members of a triplet with one value ..."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the property",
+     "explain": "check if the sum of squares of two members equals the square of the third"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh105.txt line 180",
+   "concept": "hemh.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "find the square of {n}",
+   "extracted_variables": {
+    "n": 39
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute square",
+     "explain": "multiply 39 by 39",
+     "compute": "result = n * n"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh105.txt line 215",
+   "concept": "hemh.5.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "find a pythagorean triplet with smallest member {m}",
+   "extracted_variables": {
+    "m": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate triplet",
+     "explain": "use 2m, m^2-1, m^2+1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hemh105.txt line 150",
+   "questions": [
+    "what will be the unit digit of the squares of 81?",
+    "are the following numbers perfect squares: 1057, 23453?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hemh105.txt line 240",
+   "questions": [
+    "find the square of 32.",
+    "write a pythagorean triplet whose one member is 6."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_002",
+   "title": "c10_math_cbse_10_002",
+   "questions": [
+    {
+     "q": "Draw a circle of radius 3 cm. Draw a line that cuts the circle at two points 4 cm apart. What is this line called? If you shift the line parallel to itself until the two intersection points merge, what does the line become?",
+     "a": "The line is initially a **secant** because it intersects the circle at two distinct points. When the two points merge into one, the line becomes a **tangent** touching the circle at that single point.  \n**Wrong answer reveals:** If a student says the line remains a secant or calls it a chord, they confuse the line (infinite) with the segment (chord) or do not grasp the limiting process. They may think \"secant\" and \"tangent\" are just two unrelated names.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A tangent is just a secant that has been moved until it touches the circle at one point instead of two.\" Is this statement correct? Explain why or why not using the concept of limiting case.",
+     "a": "The statement is **correct**. A tangent is the limiting position of a secant when the two points of intersection coincide. As the secant rotates or translates so that its two intersection points approach each other, the chord between them shrinks to zero length, and the secant becomes a tangent at that single point.  \n**Wrong answer reveals:** If the student says \"No, they are completely different lines,\" they miss the fundamental continuity between the two concepts. This misconception prevents understanding later theorems (e.g., tangent as limit of secant in calculus).",
+     "self_check": true
+    },
+    {
+     "q": "From a point P located 5 cm from the centre of a circle of radius 3 cm, how many tangents and how many secants can be drawn to the circle? Justify your answer.",
+     "a": "**Tangents:** 2 (point is outside the circle, distance 5 > radius 3).  \n**Secants:** Infinitely many (any line through P that intersects the circle at two points; there is a continuous range of angles).  \n**Wrong answer reveals:** If the student says \"1 tangent\" or \"0 secants,\" they confuse the conditions for tangents from external/internal points. They may also think secants are finite in number, not realizing a whole pencil of lines through P can be secants.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a circle and a line L that does not intersect it at all. Can L be rotated about a fixed point on L to become first a secant, then a tangent, then a secant again? Describe the sequence of positions.",
+     "a": "Yes. Start with L completely outside the circle (0 intersections). Rotate L about a fixed point on L until it cuts the circle at two points → **secant**. Continue rotating until the two intersection points merge → **tangent** (1 intersection). Rotate further → the line cuts the circle at two points again → **secant**. Finally, rotate until it misses the circle entirely → 0 intersections.  \n**Wrong answer reveals:** If the student cannot visualize the continuous transition or thinks a line can jump from secant to tangent without passing through the intermediate positions, they lack dynamic geometric reasoning. This is crucial for understanding envelope of lines and calculus limits.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"Since a tangent touches the circle at one point and a secant cuts at two points, a line that intersects the circle at exactly one point must always be a tangent.\" Evaluate this claim. Is there any exception?",
+     "a": "The claim is **true** for straight lines in Euclidean plane geometry. By definition, a line intersecting a circle at exactly one point is a tangent. There is no exception for straight lines. (Note: Curves like a parabola can intersect a circle at one point without being tangent, but the statement specifies \"line\".)  \n**Wrong answer reveals:** If the student says \"False, a line can touch at one point and not be a tangent,\" they may be confusing with curves or thinking of a line that just grazes but is not perpendicular to radius (which is impossible — a line intersecting at exactly one point IS the tangent, and the perpendicularity is a theorem, not the definition).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where distinguishing between a secant and a tangent is practically important. Describe the situation and explain what would go wrong if the two were confused.",
+     "a": "**Scenario:** Designing a circular railway track (circle) and a straight crossing road (line). If the road is a **tangent**, it touches the track at one point — a level crossing is needed. If the road is a **secant**, it cuts across the track at two points — two crossings or a bridge/tunnel is required. Confusing them leads to building only one crossing when two are needed, causing accidents.  \n**Poor answer reveals:** If the student gives a vague example like \"a ball hitting a wall\" without specifying the geometric consequence, they cannot translate abstract geometry to engineering decisions. Board exams often ask case-study questions requiring such translation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

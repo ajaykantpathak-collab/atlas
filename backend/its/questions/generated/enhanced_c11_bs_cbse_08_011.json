@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_011",
+   "title": "c11_bs_cbse_08_011",
+   "questions": [
+    {
+     "q": "List the nine factors affecting the choice of source of finance as per NCERT Class 11 Business Studies Chapter 8.",
+     "a": "The nine factors are: (1) Cost, (2) Financial strength and stability of operations, (3) Form of organisation and legal status, (4) Purpose and time period, (5) Risk profile, (6) Control, (7) Effect on credit worthiness, (8) Flexibility and ease, (9) Tax benefits. A wrong answer (e.g., missing \"tax benefits\" or adding \"market reputation\") reveals the student has memorised a partial list or confused it with merits/limitations of specific sources.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"purpose and time period\" is a critical factor in choosing a source of finance. Give an example of a mismatch.",
+     "a": "Purpose and time period must align: long-term needs (e.g., buying machinery) should be funded by long-term sources (equity, debentures), while short-term needs (e.g., inventory) suit trade credit or bank overdraft. A mismatch—like using a bank overdraft (short-term) to fund a factory expansion (long-term)—creates refinancing risk and cash flow crises. A wrong answer that only says \"it matches duration\" without explaining the consequence of mismatch shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A startup tech company with high growth potential but volatile earnings needs ₹5 crore for R&D. It wants to avoid fixed obligations and retain control. Which source—equity shares, debentures, or bank loan—best fits? Justify using at least two factors.",
+     "a": "Equity shares are best. Factor 1: Risk profile—equity has no fixed repayment, suitable for volatile earnings. Factor 2: Control—though equity dilutes voting rights, the founders can retain majority by issuing a limited stake; debentures/bank loans impose restrictive covenants that may erode operational control. A wrong choice of debentures ignores the risk of fixed interest burden during low-earning periods.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on \"control\" when a company raises funds through (a) equity shares, (b) debentures, (c) loan from a financial institution. Which source dilutes control the most and which the least?",
+     "a": "Equity shares dilute control the most because shareholders get voting rights. Debentures do not carry voting rights, so control dilution is minimal, but financial institutions may impose nominee directors or restrictive covenants, indirectly affecting control. A wrong answer that says \"debentures dilute control because they are debt\" confuses ownership with creditor rights.",
+     "self_check": true
+    },
+    {
+     "q": "\"Tax benefits make debentures always cheaper than equity.\" Evaluate this statement. Is it universally true? Why or why not?",
+     "a": "Not universally true. While interest on debentures is tax-deductible (reducing effective cost), equity has no mandatory dividend, so during losses equity imposes zero cash outflow whereas debentures still require interest payment. Also, high debt increases financial risk and may raise the cost of equity. A student who agrees without qualification misses the risk–return trade-off and the conditional nature of tax shields.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision matrix for a medium-sized manufacturing firm choosing between public deposits, commercial paper, and bank loan for a 2-year working capital need. Include at least four factors with weights (sum=100) and score each source (1–5). Show the weighted total.",
+     "a": "Example matrix:\n| Factor (Weight) | Public Deposits | Commercial Paper | Bank Loan |\n|-----------------|-----------------|------------------|-----------|\n| Cost (30)       | 3               | 4                | 2         |\n| Flexibility (20)| 4               | 3                | 3         |\n| Risk (25)       | 3               | 2                | 4         |\n| Control (15)    | 5               | 5                | 3         |\n| Creditworthiness (10)| 3           | 4                | 2         |\nWeighted totals: Public Deposits = 3.4, Commercial Paper = 3.3, Bank Loan = 2.9. A poor answer uses arbitrary weights without linking to the firm's context (e.g., ignoring that CP requires high credit rating).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

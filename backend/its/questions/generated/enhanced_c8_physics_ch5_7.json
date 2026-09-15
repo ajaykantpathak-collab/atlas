@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_7",
+   "title": "c8_physics_ch5_7",
+   "questions": [
+    {
+     "q": "A student adds one spoon of salt to a glass of water and stirs until it disappears. She adds a second spoon, it dissolves. A third spoon settles at the bottom. How would she qualitatively describe the solution after the second spoon (before adding the third)?",
+     "a": "The solution is **unsaturated** (or \"concentrated but unsaturated\"). A wrong answer like \"saturated\" reveals the student thinks any solution with visible solute added is saturated, confusing \"solute added\" with \"solute dissolved.\" A wrong answer like \"dilute\" reveals they equate \"not saturated\" with \"dilute,\" missing that two spoons in one glass is a relatively large amount.",
+     "self_check": true
+    },
+    {
+     "q": "Two beakers contain salt solutions at room temperature. Beaker A has undissolved salt crystals at the bottom. Beaker B is clear with no crystals. A student claims Beaker B is more concentrated because it looks \"pure.\" Is the student correct? Explain why or why not using the terms saturated/unsaturated.",
+     "a": "The student is **incorrect**. Beaker A is saturated (contains maximum dissolved solute at that temperature, excess remains solid). Beaker B is unsaturated (could dissolve more salt). Saturated solutions are *more concentrated* than unsaturated ones at the same temperature. The misconception: equating visual clarity with low concentration. A clear solution can be highly concentrated (saturated); cloudiness/precipitate indicates saturation, not dilution.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul makes three solutions at 30°C: Solution X (saturated salt water), Solution Y (unsaturated salt water with same volume as X), Solution Z (saturated sugar water). Rank them from *most concentrated* to *least concentrated* in terms of solute particles per unit volume. Justify your ranking.",
+     "a": "**Ranking: X > Z > Y** (assuming similar molar solubility; but qualitatively: saturated > unsaturated). Both X and Z are saturated (maximum solute dissolved at 30°C), so they are more concentrated than Y (unsaturated). Between X and Z, we cannot qualitatively rank without solubility data (salt vs sugar solubility differs). A wrong ranking like Y > X reveals the student thinks \"more water\" or \"clearer\" means more concentrated. A ranking X = Z > Y shows understanding that saturated > unsaturated, but misses that different solutes have different saturation concentrations.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher shows two test tubes: Tube 1 contains a pale blue copper sulfate solution. Tube 2 contains a deep blue copper sulfate solution. Both are at the same temperature and have the same volume. The teacher says, \"Tube 2 is more concentrated.\" A student argues, \"But both are unsaturated, so they have the same concentration.\" Analyze the student's argument.",
+     "a": "The student's argument is **flawed**. \"Unsaturated\" is a *range* (any concentration below saturation), not a single concentration. Tube 2 has more solute dissolved per unit volume than Tube 1 (indicated by deeper color), so it is more concentrated *within the unsaturated range*. The misconception: treating qualitative categories (unsaturated/saturated) as having fixed concentration values, rather than understanding saturated as the *upper limit* of a continuous scale.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A dilute solution is always unsaturated, but an unsaturated solution is not always dilute.\" Provide a real-life example (like tea or ORS) to support your evaluation.",
+     "a": "The statement is **correct**. \"Dilute\" means *very low* solute relative to solvent (far from saturation). \"Unsaturated\" means *any* amount below saturation. So all dilute solutions are unsaturated, but an unsaturated solution could be moderately concentrated (e.g., tea with 2 spoons sugar in a cup - unsaturated but not dilute). A student who says \"false\" likely thinks \"unsaturated\" and \"dilute\" are synonyms, not understanding the hierarchy: dilute ⊂ unsaturated ⊂ saturated.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple qualitative experiment using only household items (water, salt, sugar, spoons, glasses) to demonstrate the difference between \"concentrated unsaturated\" and \"saturated\" for salt at room temperature. Write the procedure and the expected observations that would let a classmate distinguish them.",
+     "a": "**Procedure:** Take two glasses with equal water (100 mL). Glass A: Add salt spoon by spoon, stirring, until no more dissolves (crystals remain). Glass B: Add only half the spoons that Glass A took to saturate. **Observations:** Glass A: Crystals at bottom, solution clear (saturated). Glass B: No crystals, solution clear (concentrated unsaturated). **Distinguishing test:** Add one more spoon to each. Glass A: New spoon won't dissolve. Glass B: New spoon *will* dissolve. A poor answer just says \"taste them\" (subjective, unsafe) or doesn't include the \"add one more spoon\" verification step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

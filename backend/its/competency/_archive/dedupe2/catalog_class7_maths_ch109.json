@@ -1,0 +1,515 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Perimeter and Area",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh109.txt",
+ "concepts": [
+  {
+   "id": "gemh.9.1.1",
+   "title": "Area of a Parallelogram",
+   "section": "9.1",
+   "definition": "The surface area contained inside a parallelogram, computed by multiplying the length of any base side by its perpendicular distance to the opposite vertex.",
+   "formula": "area = base * height",
+   "key_idea": "The space covered by a parallelogram matches a rectangle having an identical base and altitude.",
+   "textbook_ref": "gemh109.txt lines 15-45",
+   "question_patterns": [
+    "find the area of a parallelogram with base {base} and height {height}",
+    "calculate the surface region of a parallelogram having base {base} cm and altitude {height} cm",
+    "what is the area of a parallelogram if its base is {base} and corresponding height is {height}",
+    "determine the area enclosed by a parallelogram with given side {base} and perpendicular height {height}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base and perpendicular height",
+     "explain": "area is the product of base and height",
+     "compute": "area = base * height"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.1.2",
+   "title": "Finding Unknown Dimension of a Parallelogram",
+   "section": "9.1",
+   "definition": "Determining an missing base or perpendicular height of a parallelogram when its total area and the other corresponding length are provided.",
+   "formula": "height = area / base",
+   "key_idea": "Divide the total surface area by the known side to isolate the corresponding altitude or base.",
+   "textbook_ref": "gemh109.txt lines 115-140",
+   "question_patterns": [
+    "find the height of a parallelogram if its area is {area} and base is {base}",
+    "calculate the base of a parallelogram given area {area} and height {height}",
+    "what is the missing side length if area of parallelogram is {area} and altitude is {height}",
+    "determine the corresponding perpendicular height for a parallelogram of area {area} and base {base}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide area by given side or altitude",
+     "explain": "rearranging area = base * height gives missing dimension = area / given_dimension",
+     "compute": "missing_dimension = area / given_dimension"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.2.1",
+   "title": "Area of a Triangle",
+   "section": "9.2",
+   "definition": "The measure of two-dimensional space enclosed within three connected line segments, calculated as half the product of base and corresponding height.",
+   "formula": "area = (1/2) * base * height",
+   "key_idea": "A triangular region is exactly half of the parallelogram formed on the same base and height.",
+   "textbook_ref": "gemh109.txt lines 60-95",
+   "question_patterns": [
+    "find the area of a triangle with base {base} and height {height}",
+    "calculate the area of triangle given base {base} cm and altitude {height} cm",
+    "what is the space enclosed by a triangle of base {base} and height {height}",
+    "determine the area of a triangular plot with base {base} and altitude {height}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply half of the base by the height",
+     "explain": "area of a triangle is half of base times altitude",
+     "compute": "area = 0.5 * base * height"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.2.2",
+   "title": "Finding Unknown Dimension of a Triangle",
+   "section": "9.2",
+   "definition": "Computing an unstated altitude or base of a triangle when the overall area and one side length are known.",
+   "formula": "height = (2 * area) / base",
+   "key_idea": "Multiply area by two and divide by the known dimension to evaluate the missing parameter.",
+   "textbook_ref": "gemh109.txt lines 145-170",
+   "question_patterns": [
+    "find the height of a triangle if area is {area} and base is {base}",
+    "calculate the base of a triangle having area {area} and perpendicular height {height}",
+    "what is the altitude of a triangle with area {area} and side {base}",
+    "determine the unknown base of a triangle given total area {area} and height {height}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the area",
+     "explain": "twice the area equals base times height",
+     "compute": "double_area = 2 * area"
+    },
+    {
+     "step": 2,
+     "action": "divide double area by given dimension",
+     "explain": "missing dimension is double area divided by the known side",
+     "compute": "missing_dimension = double_area / given_dimension"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.2.3",
+   "title": "Area and Congruence Relation of Triangles",
+   "section": "9.2",
+   "definition": "The geometric principle stating that identical (congruent) triangles always possess equal surface areas, whereas equal areas do not imply congruence.",
+   "formula": "area(T1) = area(T2) when T1 is congruent to T2",
+   "key_idea": "Congruent figures share identical area, but non-congruent figures can also share equal area.",
+   "textbook_ref": "gemh109.txt lines 100-110",
+   "question_patterns": [
+    "are congruent triangles equal in area",
+    "do triangles with equal areas have to be congruent",
+    "verify if two congruent triangles enclose equal region",
+    "check whether equal area guarantees congruence in triangles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify congruence condition",
+     "explain": "if two triangles superimpose completely, their bounded areas are identical"
+    },
+    {
+     "step": 2,
+     "action": "state converse condition",
+     "explain": "triangles with equal base and height have equal areas regardless of side shape, so equal area does not imply congruence"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.3.1",
+   "title": "Circumference of a Circle",
+   "section": "9.3.1",
+   "definition": "The total boundary length or perimeter along the outer curved edge of a circular shape.",
+   "formula": "circumference = 2 * pi * radius",
+   "key_idea": "The ratio of circular perimeter to diameter is constant and equal to pi.",
+   "textbook_ref": "gemh109.txt lines 180-240",
+   "question_patterns": [
+    "find the circumference of a circle with radius {radius}",
+    "calculate the perimeter of a circular ring of diameter {diameter}",
+    "what is the boundary length around a circle of radius {radius}",
+    "determine the distance around a circular disc with radius {radius}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply radius by two pi",
+     "explain": "circumference equals 2 times pi times radius",
+     "compute": "circumference = 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.3.2",
+   "title": "Finding Radius or Diameter from Circumference",
+   "section": "9.3.1",
+   "definition": "Calculating the inner radius or straight diameter of a circular boundary when given its perimeter length.",
+   "formula": "radius = circumference / (2 * pi)",
+   "key_idea": "Dividing boundary length by two pi gives the radial distance from center to edge.",
+   "textbook_ref": "gemh109.txt lines 245-275",
+   "question_patterns": [
+    "find the radius of a circle having circumference {circumference}",
+    "calculate the diameter of a circular sheet given circumference {circumference}",
+    "what is the radius of a wire loop of total length {circumference}",
+    "determine the diameter of a circle with perimeter {circumference}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide circumference by 2 pi",
+     "explain": "radius is total perimeter divided by 2 times pi",
+     "compute": "radius = circumference / (2 * pi)"
+    },
+    {
+     "step": 2,
+     "action": "calculate diameter if needed",
+     "explain": "diameter is twice the radius",
+     "compute": "diameter = 2 * radius"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.3.3",
+   "title": "Perimeter of a Semicircular Region",
+   "section": "9.3.1",
+   "definition": "The combined boundary measure of a half-circle, formed by its curved semi-circumference plus its linear diameter.",
+   "formula": "perimeter = pi * radius + 2 * radius",
+   "key_idea": "Add the straight bounding diameter to half the perimeter of a full circle.",
+   "textbook_ref": "gemh109.txt lines 270-300",
+   "question_patterns": [
+    "find the perimeter of a semicircular disc of radius {radius}",
+    "calculate the total boundary length of a semicircle with diameter {diameter}",
+    "what is the perimeter of a halved circular shape of radius {radius}",
+    "determine perimeter including diameter for a semicircle of radius {radius}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate curved arc length",
+     "explain": "curved boundary of semicircle is pi times radius",
+     "compute": "arc_length = pi * radius"
+    },
+    {
+     "step": 2,
+     "action": "calculate diameter length",
+     "explain": "straight boundary is twice the radius",
+     "compute": "diameter = 2 * radius"
+    },
+    {
+     "step": 3,
+     "action": "sum arc length and diameter",
+     "explain": "total perimeter is arc length plus diameter",
+     "compute": "perimeter = arc_length + diameter"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.3.4",
+   "title": "Area of a Circle",
+   "section": "9.3.2",
+   "definition": "The total surface extent enclosed within the circular boundary, evaluated using the square of radius times pi.",
+   "formula": "area = pi * (radius ** 2)",
+   "key_idea": "Area scales quadratically with radius multiplied by constant pi.",
+   "textbook_ref": "gemh109.txt lines 305-350",
+   "question_patterns": [
+    "find the area of a circle with radius {radius}",
+    "calculate the surface region of a circular garden of diameter {diameter}",
+    "what is the area enclosed by a circle of radius {radius}",
+    "determine the area of a circular sheet given radius {radius}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute area using pi times radius squared",
+     "explain": "area of circle is pi multiplied by radius squared",
+     "compute": "area = pi * (radius ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "gemh.9.3.5",
+   "title": "Area of Concentric Circular Paths",
+   "section": "9.3.2",
+   "definition": "The region lying between two concentric circles of differing radii, found by subtracting inner circular area from outer area.",
+   "formula": "path_area = pi * (outer_radius ** 2 - inner_radius ** 2)",
+   "key_idea": "Subtract the smaller concentric circle's area from the larger circle's area.",
+   "textbook_ref": "gemh109.txt lines 355-385",
+   "question_patterns": [
+    "find the area of the path between two concentric circles of radii {outer_radius} and {inner_radius}",
+    "calculate the shaded area between an outer circle of radius {outer_radius} and inner circle of radius {inner_radius}",
+    "what is the region bounded between outer radius {outer_radius} and inner radius {inner_radius}",
+    "determine path region around circular flower bed of inner radius {inner_radius} with path width {width}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute outer circle area",
+     "explain": "outer area is pi times outer radius squared",
+     "compute": "outer_area = pi * (outer_radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "compute inner circle area",
+     "explain": "inner area is pi times inner radius squared",
+     "compute": "inner_area = pi * (inner_radius ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner area from outer area",
+     "explain": "path area is difference between outer and inner areas",
+     "compute": "path_area = outer_area - inner_area"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, Page 148",
+   "concept": "gemh.9.1.1",
+   "question_type": "compute",
+   "question_pattern": "One of the sides and the corresponding height of a parallelogram are {base} cm and {height} cm respectively. Find the area of the parallelogram.",
+   "extracted_variables": {
+    "base": 4,
+    "height": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base and perpendicular height",
+     "explain": "area is base times height",
+     "compute": "area = base * height"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 2, Page 148",
+   "concept": "gemh.9.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the height 'x' if the area of the parallelogram is {area} cm2 and the base is {base} cm.",
+   "extracted_variables": {
+    "area": 24,
+    "base": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide area by given side",
+     "explain": "height is area divided by base",
+     "compute": "missing_dimension = area / base"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 4, Page 149",
+   "concept": "gemh.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a triangle with base {base} cm and height {height} cm.",
+   "extracted_variables": {
+    "base": 4,
+    "height": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply half of the base by height",
+     "explain": "area is half of base times height",
+     "compute": "area = 0.5 * base * height"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 5, Page 150",
+   "concept": "gemh.9.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find BC, if the area of the triangle ABC is {area} cm2 and the height AD is {height} cm.",
+   "extracted_variables": {
+    "area": 36,
+    "height": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the area",
+     "explain": "twice area is 2 * area",
+     "compute": "double_area = 2 * area"
+    },
+    {
+     "step": 2,
+     "action": "divide double area by given dimension",
+     "explain": "base is double area divided by height",
+     "compute": "missing_dimension = double_area / height"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Example 8, Page 155",
+   "concept": "gemh.9.3.1",
+   "question_type": "compute",
+   "question_pattern": "What is the circumference of a circular disc of radius {radius} cm? (Use pi = {pi})",
+   "extracted_variables": {
+    "radius": 14,
+    "pi": 3.142857142857143
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply radius by two pi",
+     "explain": "circumference equals 2 times pi times radius",
+     "compute": "circumference = 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Example 11, Page 156",
+   "concept": "gemh.9.3.3",
+   "question_type": "compute",
+   "question_pattern": "Sudhanshu divides a circular disc of radius {radius} cm in two equal parts. What is the perimeter of each semicircular shape disc? (Use pi = {pi})",
+   "extracted_variables": {
+    "radius": 7,
+    "pi": 3.142857142857143
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate curved arc length",
+     "explain": "arc length is pi times radius",
+     "compute": "arc_length = pi * radius"
+    },
+    {
+     "step": 2,
+     "action": "calculate diameter length",
+     "explain": "diameter is 2 times radius",
+     "compute": "diameter = 2 * radius"
+    },
+    {
+     "step": 3,
+     "action": "sum arc length and diameter",
+     "explain": "total perimeter is arc length plus diameter",
+     "compute": "perimeter = arc_length + diameter"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Example 12, Page 157",
+   "concept": "gemh.9.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a circle of radius {radius} cm (use pi = {pi}).",
+   "extracted_variables": {
+    "radius": 30,
+    "pi": 3.14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute area using pi times radius squared",
+     "explain": "area is pi times radius squared",
+     "compute": "area = pi * (radius ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Example 14, Page 157-158",
+   "concept": "gemh.9.3.5",
+   "question_type": "compute",
+   "question_pattern": "Find the shaded area between two concentric circles where outer radius is {outer_radius} cm and inner radius is {inner_radius} cm. (pi = {pi})",
+   "extracted_variables": {
+    "outer_radius": 10,
+    "inner_radius": 4,
+    "pi": 3.14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute outer circle area",
+     "explain": "outer area is pi times outer radius squared",
+     "compute": "outer_area = pi * (outer_radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "compute inner circle area",
+     "explain": "inner area is pi times inner radius squared",
+     "compute": "inner_area = pi * (inner_radius ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "subtract inner area from outer area",
+     "explain": "path area is outer area minus inner area",
+     "compute": "path_area = outer_area - inner_area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "Exercise 9.1, Pages 151-152",
+   "questions": [
+    "1. Find the area of each of the given parallelograms.",
+    "2. Find the area of each of the given triangles.",
+    "3. Find the missing values (Base, Height, Area of Parallelogram).",
+    "4. Find the missing values (Base, Height, Area of Triangle).",
+    "5. PQRS is a parallelogram. QM is the height from Q to SR and QN is height to PS. Find area and missing height.",
+    "6. DL and BM are heights on sides AB and AD of parallelogram ABCD. Find lengths of BM and DL.",
+    "7. Triangle ABC is right angled at A with AD perpendicular to BC. Find area of ABC and length of AD.",
+    "8. Triangle ABC is isosceles. Find area of ABC and height from C to AB."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "Exercise 9.2, Pages 158-159",
+   "questions": [
+    "1. Find the circumference of circles with given radii.",
+    "2. Find the area of circles with given radius or diameter.",
+    "3. If circumference of circular sheet is 154 m, find its radius and area.",
+    "4. A gardener wants to fence a circular garden of diameter 21m with 2 rounds of rope. Find rope length and cost.",
+    "5. From a circular sheet of radius 4 cm, a circle of radius 3 cm is removed. Find remaining area.",
+    "6. Find length and cost of lace required for circular table cover of diameter 1.5 m.",
+    "7. Find perimeter of a semicircle including its diameter.",
+    "8. Find cost of polishing a circular table-top of diameter 1.6 m at given rate.",
+    "9. Wire of length 44 cm bent into circle and square. Compare enclosed areas.",
+    "10. From circular card sheet, two small circles and a rectangle are removed. Find remaining area.",
+    "11. A circle of radius 2 cm is cut out from square aluminium sheet of side 6 cm. Find left over area.",
+    "12. Circumference of circle is 31.4 cm. Find radius and area.",
+    "13. Circular flower bed surrounded by path 4 m wide. Find area of path.",
+    "14. Sprinkler coverage area vs circular garden area.",
+    "15. Find circumference of inner and outer concentric circles.",
+    "16. Number of rotations of wheel of radius 28 cm to cover 352 m.",
+    "17. Distance covered by tip of minute hand of length 15 cm in 1 hour."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

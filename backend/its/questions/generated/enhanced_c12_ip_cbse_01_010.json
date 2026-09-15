@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_010",
+   "title": "c12_ip_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the WHERE clause and the HAVING clause in terms of when they are applied during query execution?",
+     "a": "WHERE filters individual rows *before* any grouping occurs, so it cannot use aggregate functions. HAVING filters groups *after* GROUP BY has created them, so it can use aggregate functions like COUNT, SUM, AVG, etc. A wrong answer that says both can use aggregates reveals the student does not understand the execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the query: `SELECT CustID, COUNT(*) FROM SALE GROUP BY CustID HAVING COUNT(*) > 1;`. A student writes `WHERE COUNT(*) > 1` instead of HAVING. Explain why this query will produce an error in MySQL.",
+     "a": "MySQL evaluates WHERE before GROUP BY, so at the time WHERE runs the groups do not exist yet and aggregate functions are not available. Using an aggregate in WHERE is illegal and raises an error (e.g., \"Invalid use of group function\"). A student who thinks WHERE and HAVING are interchangeable misses the critical distinction in execution sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Using the CARSHOWROOM database, write a query to display each PaymentMode and the number of sales made through that mode, but only for payment modes that have been used in at least 2 sales. Show the complete query with proper clauses in correct order.",
+     "a": "```sql\nSELECT PaymentMode, COUNT(*) AS NumSales\nFROM SALE\nGROUP BY PaymentMode\nHAVING COUNT(*) >= 2;\n```\nSteps: 1) SELECT the grouping column and aggregate. 2) FROM the SALE table. 3) GROUP BY PaymentMode to form groups. 4) HAVING filters groups where the count is at least 2. A wrong answer might put the condition in WHERE, or forget GROUP BY, or use HAVING without GROUP BY (which is allowed but treats the whole table as one group).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two queries and explain which one will execute successfully and why:\nQuery A: `SELECT CarId, SUM(SalePrice) FROM SALE WHERE SUM(SalePrice) > 1000000 GROUP BY CarId;`\nQuery B: `SELECT CarId, SUM(SalePrice) FROM SALE GROUP BY CarId HAVING SUM(SalePrice) > 1000000;`",
+     "a": "Query B executes successfully because HAVING is applied after grouping and can reference the aggregate SUM(SalePrice). Query A fails because WHERE is evaluated before grouping and cannot use aggregate functions. A student who thinks both work does not grasp that aggregate functions are only available after GROUP BY.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"HAVING can only be used with GROUP BY.\" Evaluate this statement and provide a counterexample if it is false, or justify if it is true.",
+     "a": "The statement is false. HAVING *can* be used without GROUP BY; in that case the entire table is treated as a single group. Example: `SELECT COUNT(*) FROM SALE HAVING COUNT(*) > 5;` returns the count only if total rows exceed 5. However, in practice HAVING without GROUP BY is rare because the same logic can be written with a subquery or application logic. A student who insists HAVING requires GROUP BY has not seen the single-group case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new query on the CARSHOWROOM database that uses HAVING with *two* aggregate conditions (e.g., count and average) to find car models that have been sold more than once and whose average sale price exceeds 600000. Write the full query and explain the business insight it provides.",
+     "a": "```sql\nSELECT CarId, COUNT(*) AS SaleCount, AVG(SalePrice) AS AvgPrice\nFROM SALE\nGROUP BY CarId\nHAVING COUNT(*) > 1 AND AVG(SalePrice) > 600000;\n```\nThis identifies car models that are both popular (multiple sales) and high-value (average price above 6 lakh). A poor answer might use WHERE for one condition, or forget to include both aggregates in HAVING, or group by the wrong column.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

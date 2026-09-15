@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_005",
+   "title": "c11_ps_cbse_08_005",
+   "questions": [
+    {
+     "q": "Define \"principled distance\" in one sentence and name the scholar who developed this concept as an alternative to the Western model of secularism.",
+     "a": "Principled distance is a state-religion framework where engagement or disengagement is determined by context-sensitive application of secular values like equality and liberty, rather than a fixed rule of mutual exclusion; it was developed by political theorist Rajeev Bhargava. A wrong answer (e.g., \"equal respect for all religions\" or \"state stays away from religion\") reveals the student conflates principled distance with either the vague \"sarva dharma samabhava\" slogan or the Western strict separation model, missing the core idea of value-based, variable engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Bhargava argues that strict separation (mutual exclusion) is insufficient for a religiously diverse society like India, using the distinction between inter-religious and intra-religious domination.",
+     "a": "Strict separation treats religion as purely private and bars state intervention, which fails to address intra-religious domination (e.g., caste hierarchy, gender inequality within religions) because the state cannot reform oppressive religious practices. It also neglects inter-religious equality by ignoring minority communities' need for institutional support to survive majority dominance. A wrong answer that only mentions \"India has many religions\" without linking to the two types of domination shows the student hasn't grasped the theoretical necessity of principled distance for addressing both dimensions of religious domination.",
+     "self_check": true
+    },
+    {
+     "q": "The Indian state provides financial assistance to minority-run educational institutions (Article 30) but also bans untouchability in Hindu temples (Article 17). Using principled distance, identify the secular principle justifying each action and explain why the same principle leads to opposite modes of engagement (support vs. intervention).",
+     "a": "Article 30 assistance is justified by the principle of inter-religious equality: minorities need state support to preserve their culture and achieve parity with the majority. Article 17 intervention is justified by intra-religious equality: the state opposes caste-based oppression within Hinduism. Both serve the overarching secular value of equality, but one requires positive engagement (support) while the other requires negative engagement (ban). A wrong answer that calls both \"equal respect\" or \"non-interference\" misses the nuanced, principle-driven variation in state action.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Turkish (Atatürk) model of secularism with the Indian model using Bhargava's framework. Why does Bhargava classify Atatürk's model as \"active suppression\" rather than principled distance?",
+     "a": "Atatürk's model imposed top-down cultural transformation (banning fez, changing alphabet, abolishing caliphate) without regard for religious freedom or minority rights, violating the principled distance requirement that engagement must promote liberty and equality. Indian principled distance permits reform only when it advances constitutional values (e.g., banning untouchability enhances equality) and protects minority institutions (Article 30). A wrong answer that says \"both intervene in religion\" fails to distinguish coercive homogenization from value-based, rights-protecting intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Principled distance is just a fancy term for government appeasement of minorities.\" Use Bhargava's distinction between minority rights as protection of fundamental interests versus special privileges.",
+     "a": "Bhargava argues minority rights (e.g., Article 30) are not privileges but necessary accommodations to protect fundamental interests—like a ramp for wheelchair users ensures equal access, not special treatment. Principled distance justifies such measures only when they redress structural disadvantage (inter-religious equality) and are consistent with intra-religious equality (e.g., not protecting patriarchal practices). A wrong answer that equates all differential treatment with appeasement ignores the moral distinction between leveling the playing field and granting undue advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a principled distance decision-flowchart for a secular state facing a demand for state funding of a religious pilgrimage. Include at least three decision nodes with secular principles as criteria.",
+     "a": "A good flowchart: Start → Is the pilgrimage specific to a minority community? (Principle: inter-religious equality) → If yes, does funding redress historical disadvantage or enable equal participation? → If yes, fund with transparency safeguards. → If no (majority pilgrimage), does funding violate equality by favoring majority? → If yes, deny or extend equally to all. → End. A poor flowchart uses \"popular demand\" or \"political benefit\" as criteria, revealing the student hasn't internalized that principled distance requires constitutional values, not political expediency, as the sole basis for engagement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_19_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_19_010",
+   "title": "c11_eng_w_cbse_19_010",
+   "questions": [
+    {
+     "q": "What is the primary contextual clue in the first stanza that helps a reader infer the meaning of \"hemlock\" without a dictionary?",
+     "a": "The primary clue is the syntactic parallelism and semantic association: \"hemlock I had drunk\" is immediately followed by \"Or emptied some dull opiate to the drains,\" linking hemlock to a poisonous, sedative substance that induces forgetfulness (\"Lethe-wards had sunk\"). A wrong answer (e.g., \"hemlock is a tree\") reveals the student is relying on prior botanical knowledge instead of the poem's internal logic of intoxication and oblivion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Keats uses the phrase \"deep-delved earth\" instead of simply \"old wine\" or \"aged wine.\"",
+     "a": "\"Deep-delved earth\" evokes the physical, sensory process of wine-making: \"delved\" means dug or excavated, suggesting the wine has been buried deep underground, acquiring the essence of the soil (\"country green\"), flora (\"Flora\"), and human joy (\"Dance, and Provencal song\"). A wrong answer focusing only on \"age\" misses the **synesthetic imagery** — the word \"delved\" activates touch and depth, preparing the reader for the tactile \"beaded bubbles\" and taste of \"sunburnt mirth\" in the next lines.",
+     "self_check": true
+    },
+    {
+     "q": "In Stanza 7, the speaker says, \"Forlorn! the very word is like a bell / To toll me back from thee to my sole self!\" Apply the concept of **onomatopoeia and semantic shift** to explain how the word \"forlorn\" functions differently here than in its standard dictionary definition.",
+     "a": "Standard definition: \"sad, lonely, abandoned.\" In context: the word **enacts its own meaning through sound** — the long 'or' vowel and the heavy 'l' and 'rn' consonants mimic a funeral bell (\"toll\"). Simultaneously, it triggers a **volta (turn)**: the speaker realizes the \"fancy\" (imagination) cannot sustain the escape (\"deceiving elf\"). The word becomes a structural pivot, not just an adjective. A wrong answer treats it only as a vocabulary definition, ignoring its performative role in breaking the trance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the phrase \"beechen green\" (Stanza 1). How does the compound adjective's morphology (noun + adjective) and its placement (\"In some melodious plot / Of beechen green\") create a specific atmosphere that \"green beech trees\" would not?",
+     "a": "\"Beechen green\" (noun-as-adjective + colour) fuses the **tree species** and the **quality of light** into a single, dense image: it suggests a shaded, dappled, ancient woodland floor, not just the trees. The inversion (\"plot / Of beechen green\") places the atmosphere before the location, immersing the reader in the colour first. \"Green beech trees\" would be a botanical observation; \"beechen green\" is a **synesthetic habitat** for the Dryad. A wrong answer paraphrases the meaning without analyzing the grammatical compression and syntactic ordering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the metaphor \"deceiving elf\" applied to \"fancy\" (imagination) in the penultimate stanza. Does this metaphor resolve or deepen the poem's central tension between escape and reality?",
+     "a": "It **deepens the tension**. \"Elf\" suggests a playful, magical being (linking to \"faery lands forlorn\" in Stanza 7), but \"deceiving\" introduces betrayal. The metaphor acknowledges imagination's power (it *did* transport him) while condemning its impermanence. It resolves nothing — the speaker is left with the unresolved question: \"Was it a vision, or a waking dream?\" A wrong answer claims the metaphor \"solves\" the tension by dismissing imagination, ignoring that the poem ends in ambiguity, not conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-line poetic couplet (rhymed or unrhymed) that uses the word \"plaintive\" in a context that clearly reveals its meaning through imagery and sound, mimicking Keats's technique in \"plaintive anthem.\"",
+     "a": "Example: \"The violin's plaintive cry tore the night, / A grieving ghost bowing strings of light.\"  \n**Criteria for a good answer:** (1) \"Plaintive\" modifies a sound noun (cry, note, song, anthem). (2) Context includes grief/sorrow imagery (ghost, grieving, tore, night). (3) Sound patterning (long 'i' in cry/night/light, assonance) enacts the mournful tone. A poor answer uses \"plaintive\" as a mere adjective for a non-sound noun (e.g., \"plaintive face\") or provides no contextual sorrow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

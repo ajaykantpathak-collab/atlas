@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_008",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_008",
+   "title": "c7_chem_ch01_008",
+   "questions": [
+    {
+     "q": "What are the two essential environmental factors required for the rusting of iron to occur?",
+     "a": "The two essential factors are oxygen (from the air) and moisture (water). \nA student who answers only \"water\" or only \"oxygen\" reveals an incomplete understanding of the combined gas-liquid reaction needed to form hydrated iron oxide. Both agents must be present simultaneously for the chemical oxidation to proceed.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a copper vessel develop a dull green coating when exposed to moist air for a long time, and is this coating the same as iron rust?",
+     "a": "The green coating on copper is a mixture of copper carbonate and copper hydroxide ($CuCO_3 \\cdot Cu(OH)_2$), formed when copper reacts with oxygen, carbon dioxide, and moisture in the air. It is chemically different from iron rust (hydrated iron(III) oxide), which is reddish-brown. \nA student who claims it is iron rust shows confusion between different metal corrosion products and fails to realize that different metals form unique chemical compounds upon reacting with the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "An iron bridge in a coastal town in India corrodes much faster than an identical bridge in a dry, inland city. Calculate or explain chemically why the coastal location accelerates the degradation process.",
+     "a": "Steps:\n1. Identify environmental factors: Coastal air contains moisture and dissolved salt (sodium chloride).\n2. Recall the role of electrolytes: Saltwater acts as an electrolyte, which greatly increases the electrical conductivity of the moisture film on the iron surface.\n3. Apply chemical principles: Increased conductivity accelerates the electrochemical electron transfer between iron and oxygen.\n4. Conclude result: The rate of formation of hydrated iron(III) oxide ($Fe_2O_3 \\cdot xH_2O$) increases dramatically.\nAnswer: Coastal air contains dissolved salts that act as electrolytes, speeding up the electrochemical reactions of corrosion compared to dry inland air. A student who only says \"there is more water\" misses the critical chemical role of dissolved salts in enhancing electron flow.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why coating an iron nail with a layer of zinc (galvanization) protects it from rusting even if the zinc layer gets scratched, whereas coating it with tin does not offer the same scratch protection.",
+     "a": "Zinc is more reactive than iron, so if a galvanized nail is scratched, the zinc oxidizes preferentially, sacrificing itself to protect the iron underneath (sacrificial protection). Tin is less reactive than iron; if a tin-coated iron object is scratched, the exposed iron rusts even faster because iron becomes the anode in the electrochemical cell. \nA student who believes any coating works identically regardless of reactivity order fails to analyze the electrochemical series and metal reactivity differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether applying cooking oil to an iron garden tool is a permanent solution to prevent corrosion, and justify your chemical reasoning.",
+     "a": "Applying cooking oil is NOT a permanent solution. Oil acts as a physical barrier that blocks oxygen and moisture from reaching the iron surface, preventing the chemical reaction. However, oil can be washed away by rain, rubbed off during use, or chemically broken down over time, exposing the metal again. \nA student who says it is permanent ignores the temporary nature of surface barriers subjected to friction and weather.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment using three test tubes, iron nails, boiled water, anhydrous calcium chloride, and ordinary tap water to prove that both air and water are needed for rusting.",
+     "a": "Criteria for a good answer: The student should set up Test Tube 1 with an iron nail, tap water, and air (control, will rust). Test Tube 2 with boiled water and a layer of oil on top plus an iron nail (water only, no air, will not rust). Test Tube 3 with an iron nail and anhydrous calcium chloride to absorb all moisture, sealed tightly (air only, no water, will not rust). \nA poor answer fails to control variables, such as leaving tubes unsealed or omitting the oil/drying agent, which shows a lack of experimental design skills for isolating chemical factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

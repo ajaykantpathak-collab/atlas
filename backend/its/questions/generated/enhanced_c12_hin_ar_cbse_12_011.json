@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_12_011",
+   "title": "c12_hin_ar_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is the primary narrative tense used in \"dkys es?kk ikuh ns\" and how is it formed in Hindi for habitual past actions?",
+     "a": "The primary narrative tense is the **past habitual (अतीत अभ्यस्त)**, formed by adding the suffix **-त/ते/ती** to the verb root followed by the auxiliary **था/थे/थी** (e.g., *करता था, खाते थे, जाती थी*). A wrong answer (e.g., saying \"simple past\" or \"present tense\") reveals the student cannot distinguish between completed actions (simple past: *किया*) and repeated/habitual actions in the past (*करता था*), which is crucial because the story depicts **recurring hunger**, not a one-time event.",
+     "self_check": true
+    },
+    {
+     "q": "In the dialogue of the children (e.g., \"ikuh ns] xqM+èkkuh ns\"), the verb is omitted. Explain why this ellipsis is grammatically acceptable in spoken Hindi and what pragmatic effect it creates.",
+     "a": "The ellipsis of the verb *दो/देना* (imperative) is licensed by **contextual recoverability** — the situation (begging) makes the missing verb predictable. Pragmatically, it creates **urgency and economy**, reflecting the children's desperation and the transactional nature of their interaction. A student who says \"it's incorrect grammar\" misunderstands that spoken language follows **discourse grammar**, not just sentence grammar, and misses how the author uses non-standard forms to characterize marginalized voices.",
+     "self_check": true
+    },
+    {
+     "q": "Identify two sentences from the text where the author uses **passive voice** (कर्मवाच्य) instead of active voice (कर्तृवाच्य). Rewrite them in active voice and explain why the passive choice shifts focus in the narrative.",
+     "a": "Example 1: \"बच्चों को खाना दिया गया\" (passive) → Active: \"किसी ने बच्चों को खाना दिया\". The passive hides the agent (the giver), emphasizing the **receivers (children)** and the **act of receiving** — reinforcing their dependency.  \nExample 2: \"इकट्ठा किया गया\" (passive) → Active: \"लोगों ने इकट्ठा किया\". The passive foregrounds the **collective action** over individual doers, mirroring the community's shared helplessness.  \nA wrong answer that only identifies passive forms without explaining the **focus shift** shows the student treats voice as a labeling exercise, not a rhetorical choice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure in the opening descriptive paragraph (long, compound-complex sentences with multiple subordinate clauses) with the structure during the climax where the protagonist refuses to give food (short, simple, coordinate sentences). What does this syntactic shift reveal about the narrator's psychological state?",
+     "a": "The opening uses **hypotaxis** (subordination: *जब... तब..., जिसने... उसने...*) to build a layered, reflective worldview. The climax shifts to **parataxis** (coordination: *वह आया, उसने मांगा, मैंने मना किया*) — flat, sequential, devoid of justification. This mirrors the narrator's **moral fragmentation**: the complex syntax collapses under the weight of an ethical choice that admits no subordination. A student who only counts sentence length misses the **syntax-psychology mapping** central to the story's tragedy.",
+     "self_check": true
+    },
+    {
+     "q": "The story uses the honorific plural (*आप, थे, करते थे*) for the protagonist but non-honorific (*तू, था, करता था*) for the children. Evaluate whether this grammatical distinction reinforces or undermines the story's theme of human dignity.",
+     "a": "It **reinforces the theme ironically**: the grammatical honorifics granted to the protagonist (a relatively privileged figure) contrast with the bare forms for starving children, exposing how **language itself encodes social hierarchy**. The tragedy deepens when the protagonist — addressed respectfully — commits an act that strips dignity from those grammar already diminishes. A student who says \"it's just politeness\" fails to see grammar as a **site of power**, not merely etiquette.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence micro-narrative in Hindi that mimics the story's grammatical signature: past habitual tense, one elliptical imperative in dialogue, and a final paratactic sentence showing a moral rupture. Use vocabulary from the chapter (e.g., *इकट्ठा, वंचित, लाचारी*).",
+     "a": "**Sample answer:**  \n\"रोज़ शाम को गली में बच्चे इकट्ठा होते थे। 'रोटी दो,' एक ने कहा। मैंने हाथ झटका, दरवाज़ा बंद किया, अंधेरा घिर आया।\"  \n**Criteria:**  \n1. Past habitual (*होते थे*) ✓  \n2. Elliptical imperative (*रोटी दो* — verb *दो* present but subject *तुम* omitted) ✓  \n3. Final parataxis (three coordinate perfective verbs: *झटका, बंद किया, घिर आया*) ✓  \nA poor answer uses present tense, full sentences in dialogue, or subordinate clauses in the finale — showing inability to **replicate grammatical patterning** for thematic effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "catalog": "catalog_class11_accountancy_keac105",
+ "concepts": [
+  {
+   "id": "keac.105.1.1",
+   "title": "Need for Reconciliation of Cash Book and Pass Book",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Need for Reconciliation of Cash Book and Pass Book' refers to.",
+     "a": "The balance of the bank column of the cash book rarely agrees with the pass book balance because the bank records transactions at its own time, so a reconciliation is prepared to explain and verify the difference.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Need for Reconciliation of Cash Book and Pass Book'.",
+     "a": "Reconciliation detects timing differences and errors, and confirms the accuracy of both the cash book and the pass book.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Need for Reconciliation of Cash Book and Pass Book' taught, and from which source text?",
+     "a": "5.1 Need for Reconciliation (source: keac105.txt section 5.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.2.1",
+   "title": "Timing Differences and Errors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Timing Differences and Errors' refers to.",
+     "a": "Timing differences arise when transactions are recorded in one book earlier than the other, as with cheques issued but not yet presented, cheques deposited but not yet credited, and bank charges, interest or direct debits known to the bank only.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Timing Differences and Errors'.",
+     "a": "Cheques issued reduce the cash book at once but the pass book later, while deposits in transit do the reverse, so the two balances drift apart until the bank acts.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Timing Differences and Errors' taught, and from which source text?",
+     "a": "5.1.1 Timing Differences (source: keac105.txt sections 5.1.1, 5.1.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.3.1",
+   "title": "Bank Reconciliation Statement from Cash Book Balance",
+   "questions": [
+    {
+     "q": "Calculate the pass book balance from the cash book balance. Use the method 'Bank Reconciliation Statement from Cash Book Balance'. Work with: cash_book_balance = 12000, cheques_deposited_not_credited = 3, cheques_issued_not_presented = 120. Carry the chain through step by step and give the final value of pass_book_balance.",
+     "a": "12117 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the adjusted bank balance after the given adjustments. Use the method 'Bank Reconciliation Statement from Cash Book Balance'. Work with: cash_book_balance = 500, cheques_deposited_not_credited = 50, cheques_issued_not_presented = 20. Carry the chain through step by step and give the final value of pass_book_balance.",
+     "a": "470 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bank Reconciliation Statement from Cash Book Balance' refers to.",
+     "a": "Starting with the debit balance of the cash book, add cheques issued but not presented and credits recorded by the bank directly, and deduct cheques deposited but not credited and bank charges, to arrive at the pass book balance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bank Reconciliation Statement from Cash Book Balance'.",
+     "a": "Each adjustment reverses the timing difference so that the adjusted figure equals the balance shown by the bank.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bank Reconciliation Statement from Cash Book Balance', in plain ASCII form.",
+     "a": "pass_book_balance = cash_book_balance + cheques_issued_not_presented - cheques_deposited_not_credited",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.4.1",
+   "title": "Reconciliation Starting from an Overdraft",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reconciliation Starting from an Overdraft' refers to.",
+     "a": "When the cash book shows a credit bank balance, the firm enjoys an overdraft, and the reconciliation statement starts with the minus overdraft and applies the opposite adjustments to arrive at the overdraft as per the pass book.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reconciliation Starting from an Overdraft'.",
+     "a": "An overdraft is a liability of the firm to the bank, so its treatment in the statement is the reverse of a favourable balance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reconciliation Starting from an Overdraft' taught, and from which source text?",
+     "a": "5.2 Preparation of Bank Reconciliation Statement (source: keac105.txt overdraft discussion in section 5.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.105.5.1",
+   "title": "Adjusted Cash Book Balance after Bank Items",
+   "questions": [
+    {
+     "q": "Calculate the adjusted cash book balance after bank charges and interest. Use the method 'Adjusted Cash Book Balance after Bank Items'. Work with: bank_charges = 24, cash_book_balance = 2500, interest_credited = 25. Carry the chain through step by step and give the final value of adjusted_cash_book_balance.",
+     "a": "2501 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the true bank balance from the given bank items. Use the method 'Adjusted Cash Book Balance after Bank Items'. Work with: bank_charges = 18, cash_book_balance = 12000, interest_credited = 12. Carry the chain through step by step and give the final value of adjusted_cash_book_balance.",
+     "a": "11994 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Adjusted Cash Book Balance after Bank Items' refers to.",
+     "a": "Items known only from the pass book, such as bank charges, interest credited or direct collections by the bank, first adjust the cash book, and the remaining timing differences then explain the rest of the difference.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Adjusted Cash Book Balance after Bank Items'.",
+     "a": "The corrected cash book balance after bank items is the true bank balance, and the leftover unpresented and uncredited cheques complete the reconciliation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Adjusted Cash Book Balance after Bank Items', in plain ASCII form.",
+     "a": "adjusted_cash_book_balance = cash_book_balance + interest_credited - bank_charges",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

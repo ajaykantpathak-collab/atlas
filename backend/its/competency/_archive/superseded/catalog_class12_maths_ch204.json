@@ -1,0 +1,1322 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 204,
+ "chapter_title": "Vector Algebra",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh204.txt",
+ "concepts": [
+  {
+   "id": "lemh.10.2.1",
+   "title": "Position Vector and Magnitude",
+   "section": "10.2",
+   "definition": "A directed segment originating from the coordinate origin to a given point in space defines its position vector, whose length represents the Euclidean distance from the origin.",
+   "formula": "magnitude = sqrt(x**2 + y**2 + z**2)",
+   "key_idea": "Distance of a point from origin gives the norm of its position vector.",
+   "textbook_ref": "lemh204.txt lines 30-60",
+   "question_patterns": [
+    "find the magnitude of position vector",
+    "calculate length of vector given coordinates",
+    "determine magnitude of xi + yj + zk",
+    "what is the magnitude of vector",
+    "Explain the method of Position Vector and Magnitude."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square components sum",
+     "explain": "sum the squares of the rectangular components",
+     "compute": "sq_sum = x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate magnitude",
+     "explain": "take the square root of the sum of squares",
+     "compute": "magnitude = sqrt(sq_sum)"
+    },
+    {
+     "step": 3,
+     "action": "State the magnitude as the length of the position vector",
+     "explain": "The computed magnitude represents the Euclidean distance from the origin to the point (x, y, z)."
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.2.2",
+   "title": "Direction Cosines and Direction Ratios",
+   "section": "10.2",
+   "definition": "The cosines of angles made by a vector with positive coordinate axes are its direction cosines, which are proportional to the scalar components of the vector.",
+   "formula": "l = x / r, m = y / r, n = z / r where r = sqrt(x**2 + y**2 + z**2)",
+   "key_idea": "Normalizing rectangular components yields direction cosines whose sum of squares equals one.",
+   "textbook_ref": "lemh204.txt lines 65-95",
+   "question_patterns": [
+    "find direction cosines of vector",
+    "calculate direction cosines from vector components",
+    "determine direction ratios and cosines",
+    "what are the direction cosines of xi + yj + zk",
+    "Explain the method of Direction Cosines and Direction Ratios."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate vector length",
+     "explain": "compute magnitude r of the vector",
+     "compute": "r = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "compute direction cosine l",
+     "explain": "divide x component by total length",
+     "compute": "l = x / r"
+    },
+    {
+     "step": 3,
+     "action": "compute direction cosine m",
+     "explain": "divide y component by total length",
+     "compute": "m = y / r"
+    },
+    {
+     "step": 4,
+     "action": "compute direction cosine n",
+     "explain": "divide z component by total length",
+     "compute": "n = z / r"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.5.1",
+   "title": "Unit Vector in Direction of a Vector",
+   "section": "10.5.1",
+   "definition": "A vector having magnitude of unity along the direction of a non-zero vector, obtained by dividing the vector by its own magnitude.",
+   "formula": "a_hat = a / |a|",
+   "key_idea": "Scaling a vector by the reciprocal of its norm creates a unit vector.",
+   "textbook_ref": "lemh204.txt lines 130-170",
+   "question_patterns": [
+    "find unit vector in direction of vector",
+    "calculate unit vector along given vector",
+    "determine unit vector for xi + yj + zk",
+    "what is the unit vector of given vector",
+    "Explain the method of Unit Vector in Direction of a Vector."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute magnitude",
+     "explain": "find length of vector a",
+     "compute": "mag = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "scale x component",
+     "explain": "divide x by magnitude",
+     "compute": "ux = x / mag"
+    },
+    {
+     "step": 3,
+     "action": "scale y component",
+     "explain": "divide y by magnitude",
+     "compute": "uy = y / mag"
+    },
+    {
+     "step": 4,
+     "action": "scale z component",
+     "explain": "divide z by magnitude",
+     "compute": "uz = z / mag"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.5.2",
+   "title": "Vector Joining Two Points",
+   "section": "10.5.2",
+   "definition": "The directed line segment from an initial point to a terminal point, obtained by subtracting the position vector of the initial point from that of the terminal point.",
+   "formula": "PQ = (x2 - x1)i + (y2 - y1)j + (z2 - z1)k",
+   "key_idea": "Difference of terminal and initial coordinates yields components of the displacement vector.",
+   "textbook_ref": "lemh204.txt lines 220-250",
+   "question_patterns": [
+    "find vector joining two points",
+    "calculate vector directed from initial to terminal point",
+    "determine vector between point A and point B",
+    "what is the displacement vector joining P and Q",
+    "Explain the method of Vector Joining Two Points."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find x component difference",
+     "explain": "subtract initial x from terminal x",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "find y component difference",
+     "explain": "subtract initial y from terminal y",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "find z component difference",
+     "explain": "subtract initial z from terminal z",
+     "compute": "dz = z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "compute magnitude of segment",
+     "explain": "calculate length of directed segment",
+     "compute": "mag = sqrt(dx**2 + dy**2 + dz**2)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.5.3",
+   "title": "Section Formula for Vectors",
+   "section": "10.5.3",
+   "definition": "Determines the position vector of a point dividing the line segment joining two given points in a specified ratio internally or externally.",
+   "formula": "r = (m*b + n*a) / (m + n)",
+   "key_idea": "Weighted average of position vectors gives internal division point.",
+   "textbook_ref": "lemh204.txt lines 255-300",
+   "question_patterns": [
+    "find position vector dividing line in given ratio",
+    "calculate internal division point vector",
+    "determine position vector of point R dividing PQ in ratio m:n",
+    "what is the position vector of midpoint",
+    "Explain the method of Section Formula for Vectors."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weight x component",
+     "explain": "apply m*bx + n*ax ratio weighting",
+     "compute": "wx = m * bx + n * ax"
+    },
+    {
+     "step": 2,
+     "action": "weight y component",
+     "explain": "apply m*by + n*ay ratio weighting",
+     "compute": "wy = m * by + n * ay"
+    },
+    {
+     "step": 3,
+     "action": "weight z component",
+     "explain": "apply m*bz + n*az ratio weighting",
+     "compute": "wz = m * bz + n * az"
+    },
+    {
+     "step": 4,
+     "action": "divide by total ratio sum",
+     "explain": "compute internal x coordinate component",
+     "compute": "rx = wx / (m + n)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.6.1",
+   "title": "Scalar (Dot) Product of Two Vectors",
+   "section": "10.6.1",
+   "definition": "An algebraic operation taking two vectors and returning a single scalar equal to the product of their magnitudes and the cosine of the angle between them.",
+   "formula": "a . b = a1*b1 + a2*b2 + a3*b3",
+   "key_idea": "Sum of products of corresponding rectangular components gives the dot product.",
+   "textbook_ref": "lemh204.txt lines 340-380",
+   "question_patterns": [
+    "find scalar product of two vectors",
+    "calculate dot product of vectors",
+    "determine dot product of a and b",
+    "what is the scalar product of two given vectors",
+    "Explain the method of Scalar (Dot) Product of Two Vectors."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply x components",
+     "explain": "product of x components of both vectors",
+     "compute": "p1 = a1 * b1"
+    },
+    {
+     "step": 2,
+     "action": "multiply y components",
+     "explain": "product of y components of both vectors",
+     "compute": "p2 = a2 * b2"
+    },
+    {
+     "step": 3,
+     "action": "multiply z components",
+     "explain": "product of z components of both vectors",
+     "compute": "p3 = a3 * b3"
+    },
+    {
+     "step": 4,
+     "action": "sum component products",
+     "explain": "add all component wise products",
+     "compute": "dot_product = p1 + p2 + p3"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.6.2",
+   "title": "Angle Between Two Vectors",
+   "section": "10.6.2",
+   "definition": "The inclination between two non-zero vectors, whose cosine is the ratio of their scalar product to the product of their individual magnitudes.",
+   "formula": "cos(theta) = (a . b) / (|a| * |b|)",
+   "key_idea": "Dot product normalized by product of magnitudes gives the cosine of inclination.",
+   "textbook_ref": "lemh204.txt lines 385-410",
+   "question_patterns": [
+    "find angle between two vectors",
+    "calculate cosine of angle between vectors",
+    "determine angle between vector a and vector b",
+    "what is the angle between given vectors",
+    "Explain the method of Angle Between Two Vectors."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate dot product",
+     "explain": "compute numerator dot product",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of first vector",
+     "explain": "find length of vector a",
+     "compute": "mag_a = sqrt(a1**2 + a2**2 + a3**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute magnitude of second vector",
+     "explain": "find length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 4,
+     "action": "calculate cosine of angle",
+     "explain": "divide dot product by product of magnitudes",
+     "compute": "cos_theta = dot / (mag_a * mag_b)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.6.3",
+   "title": "Projection of a Vector on Another Vector",
+   "section": "10.6.2",
+   "definition": "The scalar length of the orthogonal projection of one vector along the directional line of another vector.",
+   "formula": "projection = (a . b) / |b|",
+   "key_idea": "Dot product of first vector with unit vector of second gives scalar projection.",
+   "textbook_ref": "lemh204.txt lines 415-445",
+   "question_patterns": [
+    "find projection of vector a on vector b",
+    "calculate scalar projection of a on b",
+    "determine projection of one vector onto another",
+    "what is projection of vector on given vector",
+    "Explain the method of Projection of a Vector on Another Vector."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute dot product",
+     "explain": "calculate scalar product of vectors a and b",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of target vector",
+     "explain": "calculate length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate projection length",
+     "explain": "divide dot product by target magnitude",
+     "compute": "projection = dot / mag_b"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.6.4",
+   "title": "Vector (Cross) Product of Two Vectors",
+   "section": "10.6.3",
+   "definition": "A binary vector operation resulting in a vector perpendicular to both input vectors, with magnitude equal to the product of magnitudes and sine of angle between them.",
+   "formula": "a x b = (a2*b3 - a3*b2)i - (a1*b3 - a3*b1)j + (a1*b2 - a2*b1)k",
+   "key_idea": "Determinant expansion of rectangular components yields perpendicular resultant vector.",
+   "textbook_ref": "lemh204.txt lines 520-560",
+   "question_patterns": [
+    "find vector product of two vectors",
+    "calculate cross product of vectors",
+    "determine cross product of a and b",
+    "what is vector product of two given vectors",
+    "Explain the method of Vector (Cross) Product of Two Vectors."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "compute cross product magnitude",
+     "explain": "calculate length of cross product vector",
+     "compute": "mag_cross = sqrt(cx**2 + cy**2 + cz**2)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.10.6.5",
+   "title": "Area of Triangle and Parallelogram using Cross Product",
+   "section": "10.6.3",
+   "definition": "Geometric area formed by adjacent side vectors, equal to magnitude of cross product for parallelogram and half magnitude for triangle.",
+   "formula": "area_parallelogram = |a x b|, area_triangle = (1/2) * |a x b|",
+   "key_idea": "Norm of vector product measures parallelogram region spanned by two vectors.",
+   "textbook_ref": "lemh204.txt lines 570-600",
+   "question_patterns": [
+    "find area of parallelogram with given adjacent side vectors",
+    "calculate area of triangle formed by two vectors",
+    "determine area of triangle with given vertices",
+    "what is the area of parallelogram spanned by vectors",
+    "Explain the method of Area of Triangle and Parallelogram using Cross Product."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "calculate cross product magnitude",
+     "explain": "find length of vector cross product",
+     "compute": "cross_mag = sqrt(cx**2 + cy**2 + cz**2)"
+    },
+    {
+     "step": 5,
+     "action": "calculate triangle area",
+     "explain": "half of cross product magnitude gives triangle area",
+     "compute": "area_tri = cross_mag / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh204.txt Example 6",
+   "concept": "lemh.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find unit vector in the direction of vector {x} i + {y} j + {z} k",
+   "extracted_variables": {
+    "x": 2,
+    "y": 3,
+    "z": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute magnitude",
+     "explain": "find length of vector a",
+     "compute": "mag = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "scale x component",
+     "explain": "divide x by magnitude",
+     "compute": "ux = x / mag"
+    },
+    {
+     "step": 3,
+     "action": "scale y component",
+     "explain": "divide y by magnitude",
+     "compute": "uy = y / mag"
+    },
+    {
+     "step": 4,
+     "action": "scale z component",
+     "explain": "divide z by magnitude",
+     "compute": "uz = z / mag"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh204.txt Example 10",
+   "concept": "lemh.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the vector joining points P({x1}, {y1}, {z1}) and Q({x2}, {y2}, {z2}) directed from P to Q",
+   "extracted_variables": {
+    "x1": 2,
+    "y1": 3,
+    "z1": 0,
+    "x2": -1,
+    "y2": -2,
+    "z2": -4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find x component difference",
+     "explain": "subtract initial x from terminal x",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "find y component difference",
+     "explain": "subtract initial y from terminal y",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "find z component difference",
+     "explain": "subtract initial z from terminal z",
+     "compute": "dz = z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "compute magnitude of segment",
+     "explain": "calculate length of directed segment",
+     "compute": "mag = sqrt(dx**2 + dy**2 + dz**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh204.txt Example 16",
+   "concept": "lemh.10.6.3",
+   "question_type": "compute",
+   "question_pattern": "Find the projection of vector {a1} i + {a2} j + {a3} k on vector {b1} i + {b2} j + {b3} k",
+   "extracted_variables": {
+    "a1": 2,
+    "a2": 3,
+    "a3": 2,
+    "b1": 1,
+    "b2": 2,
+    "b3": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute dot product",
+     "explain": "calculate scalar product of vectors a and b",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of target vector",
+     "explain": "calculate length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate projection length",
+     "explain": "divide dot product by target magnitude",
+     "compute": "projection = dot / mag_b"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh204.txt Example 22",
+   "concept": "lemh.10.6.4",
+   "question_type": "compute",
+   "question_pattern": "Find magnitude of cross product for vectors {a1} i + {a2} j + {a3} k and {b1} i + {b2} j + {b3} k",
+   "extracted_variables": {
+    "a1": 2,
+    "a2": 1,
+    "a3": 3,
+    "b1": 3,
+    "b2": 5,
+    "b3": -2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "compute cross product magnitude",
+     "explain": "calculate length of cross product vector",
+     "compute": "mag_cross = sqrt(cx**2 + cy**2 + cz**2)"
+    }
+   ]
+  },
+  {
+   "id": "drill5",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.2.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Position Vector and Magnitude chain with z = 2, x = 3, y = 5, sqrt = 4, sq_sum = 7. What value does it produce?",
+   "extracted_variables": {
+    "z": "2",
+    "x": "3",
+    "y": "5",
+    "sqrt": "4",
+    "sq_sum": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square components sum",
+     "explain": "sum the squares of the rectangular components",
+     "compute": "sq_sum = x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate magnitude",
+     "explain": "take the square root of the sum of squares",
+     "compute": "magnitude = sqrt(sq_sum)"
+    }
+   ]
+  },
+  {
+   "id": "drill6",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.2.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Position Vector and Magnitude chain with z = 2, x = 3, y = 5, sqrt = 4, sq_sum = 7. What value does it produce?",
+   "extracted_variables": {
+    "z": "2",
+    "x": "3",
+    "y": "5",
+    "sqrt": "4",
+    "sq_sum": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square components sum",
+     "explain": "sum the squares of the rectangular components",
+     "compute": "sq_sum = x**2 + y**2 + z**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate magnitude",
+     "explain": "take the square root of the sum of squares",
+     "compute": "magnitude = sqrt(sq_sum)"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Direction Cosines and Direction Ratios chain with sqrt = 2, z = 3, x = 5, y = 4, r = 7. What value does it produce?",
+   "extracted_variables": {
+    "sqrt": "2",
+    "z": "3",
+    "x": "5",
+    "y": "4",
+    "r": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate vector length",
+     "explain": "compute magnitude r of the vector",
+     "compute": "r = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "compute direction cosine l",
+     "explain": "divide x component by total length",
+     "compute": "l = x / r"
+    },
+    {
+     "step": 3,
+     "action": "compute direction cosine m",
+     "explain": "divide y component by total length",
+     "compute": "m = y / r"
+    },
+    {
+     "step": 4,
+     "action": "compute direction cosine n",
+     "explain": "divide z component by total length",
+     "compute": "n = z / r"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.2.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Direction Cosines and Direction Ratios chain with sqrt = 2, z = 3, x = 5, y = 4, r = 7. What value does it produce?",
+   "extracted_variables": {
+    "sqrt": "2",
+    "z": "3",
+    "x": "5",
+    "y": "4",
+    "r": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate vector length",
+     "explain": "compute magnitude r of the vector",
+     "compute": "r = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "compute direction cosine l",
+     "explain": "divide x component by total length",
+     "compute": "l = x / r"
+    },
+    {
+     "step": 3,
+     "action": "compute direction cosine m",
+     "explain": "divide y component by total length",
+     "compute": "m = y / r"
+    },
+    {
+     "step": 4,
+     "action": "compute direction cosine n",
+     "explain": "divide z component by total length",
+     "compute": "n = z / r"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Unit Vector in Direction of a Vector chain with sqrt = 2, z = 3, x = 5, y = 4, mag = 7. What value does it produce?",
+   "extracted_variables": {
+    "sqrt": "2",
+    "z": "3",
+    "x": "5",
+    "y": "4",
+    "mag": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute magnitude",
+     "explain": "find length of vector a",
+     "compute": "mag = sqrt(x**2 + y**2 + z**2)"
+    },
+    {
+     "step": 2,
+     "action": "scale x component",
+     "explain": "divide x by magnitude",
+     "compute": "ux = x / mag"
+    },
+    {
+     "step": 3,
+     "action": "scale y component",
+     "explain": "divide y by magnitude",
+     "compute": "uy = y / mag"
+    },
+    {
+     "step": 4,
+     "action": "scale z component",
+     "explain": "divide z by magnitude",
+     "compute": "uz = z / mag"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Vector Joining Two Points chain with x2 = 2, x1 = 3, y2 = 5, y1 = 4, z2 = 7, z1 = 1.5, sqrt = 6, dz = 8, dx = 2, dy = 3. What value does it produce?",
+   "extracted_variables": {
+    "x2": "2",
+    "x1": "3",
+    "y2": "5",
+    "y1": "4",
+    "z2": "7",
+    "z1": "1.5",
+    "sqrt": "6",
+    "dz": "8",
+    "dx": "2",
+    "dy": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find x component difference",
+     "explain": "subtract initial x from terminal x",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "find y component difference",
+     "explain": "subtract initial y from terminal y",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "find z component difference",
+     "explain": "subtract initial z from terminal z",
+     "compute": "dz = z2 - z1"
+    },
+    {
+     "step": 4,
+     "action": "compute magnitude of segment",
+     "explain": "calculate length of directed segment",
+     "compute": "mag = sqrt(dx**2 + dy**2 + dz**2)"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Section Formula for Vectors chain with m = 2, bx = 3, n = 5, ax = 4, by = 7, ay = 1.5, bz = 6, az = 8, wx = 2. What value does it produce?",
+   "extracted_variables": {
+    "m": "2",
+    "bx": "3",
+    "n": "5",
+    "ax": "4",
+    "by": "7",
+    "ay": "1.5",
+    "bz": "6",
+    "az": "8",
+    "wx": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weight x component",
+     "explain": "apply m*bx + n*ax ratio weighting",
+     "compute": "wx = m * bx + n * ax"
+    },
+    {
+     "step": 2,
+     "action": "weight y component",
+     "explain": "apply m*by + n*ay ratio weighting",
+     "compute": "wy = m * by + n * ay"
+    },
+    {
+     "step": 3,
+     "action": "weight z component",
+     "explain": "apply m*bz + n*az ratio weighting",
+     "compute": "wz = m * bz + n * az"
+    },
+    {
+     "step": 4,
+     "action": "divide by total ratio sum",
+     "explain": "compute internal x coordinate component",
+     "compute": "rx = wx / (m + n)"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.5.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Section Formula for Vectors chain with m = 2, bx = 3, n = 5, ax = 4, by = 7, ay = 1.5, bz = 6, az = 8, wx = 2. What value does it produce?",
+   "extracted_variables": {
+    "m": "2",
+    "bx": "3",
+    "n": "5",
+    "ax": "4",
+    "by": "7",
+    "ay": "1.5",
+    "bz": "6",
+    "az": "8",
+    "wx": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weight x component",
+     "explain": "apply m*bx + n*ax ratio weighting",
+     "compute": "wx = m * bx + n * ax"
+    },
+    {
+     "step": 2,
+     "action": "weight y component",
+     "explain": "apply m*by + n*ay ratio weighting",
+     "compute": "wy = m * by + n * ay"
+    },
+    {
+     "step": 3,
+     "action": "weight z component",
+     "explain": "apply m*bz + n*az ratio weighting",
+     "compute": "wz = m * bz + n * az"
+    },
+    {
+     "step": 4,
+     "action": "divide by total ratio sum",
+     "explain": "compute internal x coordinate component",
+     "compute": "rx = wx / (m + n)"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Scalar (Dot) Product of Two Vectors chain with a1 = 2, b1 = 3, a2 = 5, b2 = 4, a3 = 7, b3 = 1.5, p3 = 6, p1 = 8, p2 = 2. What value does it produce?",
+   "extracted_variables": {
+    "a1": "2",
+    "b1": "3",
+    "a2": "5",
+    "b2": "4",
+    "a3": "7",
+    "b3": "1.5",
+    "p3": "6",
+    "p1": "8",
+    "p2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply x components",
+     "explain": "product of x components of both vectors",
+     "compute": "p1 = a1 * b1"
+    },
+    {
+     "step": 2,
+     "action": "multiply y components",
+     "explain": "product of y components of both vectors",
+     "compute": "p2 = a2 * b2"
+    },
+    {
+     "step": 3,
+     "action": "multiply z components",
+     "explain": "product of z components of both vectors",
+     "compute": "p3 = a3 * b3"
+    },
+    {
+     "step": 4,
+     "action": "sum component products",
+     "explain": "add all component wise products",
+     "compute": "dot_product = p1 + p2 + p3"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Scalar (Dot) Product of Two Vectors chain with a1 = 2, b1 = 3, a2 = 5, b2 = 4, a3 = 7, b3 = 1.5, p3 = 6, p1 = 8, p2 = 2. What value does it produce?",
+   "extracted_variables": {
+    "a1": "2",
+    "b1": "3",
+    "a2": "5",
+    "b2": "4",
+    "a3": "7",
+    "b3": "1.5",
+    "p3": "6",
+    "p1": "8",
+    "p2": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply x components",
+     "explain": "product of x components of both vectors",
+     "compute": "p1 = a1 * b1"
+    },
+    {
+     "step": 2,
+     "action": "multiply y components",
+     "explain": "product of y components of both vectors",
+     "compute": "p2 = a2 * b2"
+    },
+    {
+     "step": 3,
+     "action": "multiply z components",
+     "explain": "product of z components of both vectors",
+     "compute": "p3 = a3 * b3"
+    },
+    {
+     "step": 4,
+     "action": "sum component products",
+     "explain": "add all component wise products",
+     "compute": "dot_product = p1 + p2 + p3"
+    }
+   ]
+  },
+  {
+   "id": "drill15",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Angle Between Two Vectors chain with a3 = 2, b3 = 3, a1 = 5, b1 = 4, a2 = 7, b2 = 1.5, sqrt = 6, dot = 8, mag_a = 2, mag_b = 3. What value does it produce?",
+   "extracted_variables": {
+    "a3": "2",
+    "b3": "3",
+    "a1": "5",
+    "b1": "4",
+    "a2": "7",
+    "b2": "1.5",
+    "sqrt": "6",
+    "dot": "8",
+    "mag_a": "2",
+    "mag_b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate dot product",
+     "explain": "compute numerator dot product",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of first vector",
+     "explain": "find length of vector a",
+     "compute": "mag_a = sqrt(a1**2 + a2**2 + a3**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute magnitude of second vector",
+     "explain": "find length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 4,
+     "action": "calculate cosine of angle",
+     "explain": "divide dot product by product of magnitudes",
+     "compute": "cos_theta = dot / (mag_a * mag_b)"
+    }
+   ]
+  },
+  {
+   "id": "drill16",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Angle Between Two Vectors chain with a3 = 2, b3 = 3, a1 = 5, b1 = 4, a2 = 7, b2 = 1.5, sqrt = 6, dot = 8, mag_a = 2, mag_b = 3. What value does it produce?",
+   "extracted_variables": {
+    "a3": "2",
+    "b3": "3",
+    "a1": "5",
+    "b1": "4",
+    "a2": "7",
+    "b2": "1.5",
+    "sqrt": "6",
+    "dot": "8",
+    "mag_a": "2",
+    "mag_b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate dot product",
+     "explain": "compute numerator dot product",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of first vector",
+     "explain": "find length of vector a",
+     "compute": "mag_a = sqrt(a1**2 + a2**2 + a3**2)"
+    },
+    {
+     "step": 3,
+     "action": "compute magnitude of second vector",
+     "explain": "find length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 4,
+     "action": "calculate cosine of angle",
+     "explain": "divide dot product by product of magnitudes",
+     "compute": "cos_theta = dot / (mag_a * mag_b)"
+    }
+   ]
+  },
+  {
+   "id": "drill17",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Projection of a Vector on Another Vector chain with a3 = 2, b3 = 3, a1 = 5, b1 = 4, a2 = 7, b2 = 1.5, sqrt = 6, dot = 8, mag_b = 2. What value does it produce?",
+   "extracted_variables": {
+    "a3": "2",
+    "b3": "3",
+    "a1": "5",
+    "b1": "4",
+    "a2": "7",
+    "b2": "1.5",
+    "sqrt": "6",
+    "dot": "8",
+    "mag_b": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute dot product",
+     "explain": "calculate scalar product of vectors a and b",
+     "compute": "dot = a1*b1 + a2*b2 + a3*b3"
+    },
+    {
+     "step": 2,
+     "action": "compute magnitude of target vector",
+     "explain": "calculate length of vector b",
+     "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate projection length",
+     "explain": "divide dot product by target magnitude",
+     "compute": "projection = dot / mag_b"
+    }
+   ]
+  },
+  {
+   "id": "drill18",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.4",
+   "question_type": "compute",
+   "question_pattern": "Apply the Vector (Cross) Product of Two Vectors chain with a2 = 2, b3 = 3, a3 = 5, b2 = 4, b1 = 7, a1 = 1.5, sqrt = 6, cz = 8, cx = 2, cy = 3. What value does it produce?",
+   "extracted_variables": {
+    "a2": "2",
+    "b3": "3",
+    "a3": "5",
+    "b2": "4",
+    "b1": "7",
+    "a1": "1.5",
+    "sqrt": "6",
+    "cz": "8",
+    "cx": "2",
+    "cy": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "compute cross product magnitude",
+     "explain": "calculate length of cross product vector",
+     "compute": "mag_cross = sqrt(cx**2 + cy**2 + cz**2)"
+    }
+   ]
+  },
+  {
+   "id": "drill19",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area of Triangle and Parallelogram using Cross Product chain with a2 = 2, b3 = 3, a3 = 5, b2 = 4, b1 = 7, a1 = 1.5, sqrt = 6, cz = 8, cx = 2, cy = 3, cross_mag = 5. What value does it produce?",
+   "extracted_variables": {
+    "a2": "2",
+    "b3": "3",
+    "a3": "5",
+    "b2": "4",
+    "b1": "7",
+    "a1": "1.5",
+    "sqrt": "6",
+    "cz": "8",
+    "cx": "2",
+    "cy": "3",
+    "cross_mag": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "calculate cross product magnitude",
+     "explain": "find length of vector cross product",
+     "compute": "cross_mag = sqrt(cx**2 + cy**2 + cz**2)"
+    },
+    {
+     "step": 5,
+     "action": "calculate triangle area",
+     "explain": "half of cross product magnitude gives triangle area",
+     "compute": "area_tri = cross_mag / 2"
+    }
+   ]
+  },
+  {
+   "id": "drill20",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.10.6.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Area of Triangle and Parallelogram using Cross Product chain with a2 = 2, b3 = 3, a3 = 5, b2 = 4, b1 = 7, a1 = 1.5, sqrt = 6, cz = 8, cx = 2, cy = 3, cross_mag = 5. What value does it produce?",
+   "extracted_variables": {
+    "a2": "2",
+    "b3": "3",
+    "a3": "5",
+    "b2": "4",
+    "b1": "7",
+    "a1": "1.5",
+    "sqrt": "6",
+    "cz": "8",
+    "cx": "2",
+    "cy": "3",
+    "cross_mag": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute x component of cross product",
+     "explain": "calculate a2*b3 - a3*b2",
+     "compute": "cx = a2*b3 - a3*b2"
+    },
+    {
+     "step": 2,
+     "action": "compute y component of cross product",
+     "explain": "calculate a3*b1 - a1*b3",
+     "compute": "cy = a3*b1 - a1*b3"
+    },
+    {
+     "step": 3,
+     "action": "compute z component of cross product",
+     "explain": "calculate a1*b2 - a2*b1",
+     "compute": "cz = a1*b2 - a2*b1"
+    },
+    {
+     "step": 4,
+     "action": "calculate cross product magnitude",
+     "explain": "find length of vector cross product",
+     "compute": "cross_mag = sqrt(cx**2 + cy**2 + cz**2)"
+    },
+    {
+     "step": 5,
+     "action": "calculate triangle area",
+     "explain": "half of cross product magnitude gives triangle area",
+     "compute": "area_tri = cross_mag / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "lemh204.txt Exercise 10.1",
+   "questions": [
+    "1. Represent graphically a displacement of 40 km, 30° east of north.",
+    "2. Classify the following measures as scalars and vectors: (i) 10 kg (ii) 2 meters north-west (iii) 40° (iv) 40 watt (v) 10^-19 coulomb (vi) 20 m/s^2",
+    "3. Classify the following as scalar and vector quantities: (i) time period (ii) distance (iii) force (iv) velocity (v) work done"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "lemh204.txt Exercise 10.2",
+   "questions": [
+    "1. Compute the magnitude of the vectors: a = i + j + k, b = 2i - 7j - 3k, c = 1/sqrt(3) i + 1/sqrt(3) j - 1/sqrt(3) k",
+    "4. Find the values of x and y so that the vectors 2i + 3j and xi + yj are equal.",
+    "6. Find the sum of the vectors a = i - 2j + k, b = -2i + 4j + 5k and c = i - 6j - 7k.",
+    "7. Find the unit vector in the direction of the vector a = i + j + 2k.",
+    "8. Find the unit vector in the direction of vector PQ, where P and Q are points (1, 2, 3) and (4, 5, 6).",
+    "12. Find the direction cosines of the vector i + 2j + 3k.",
+    "15. Find the position vector of a point R which divides the line joining two points P and Q with position vectors i + 2j - k and -i + j + k in ratio 2:1 internally and externally."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "lemh204.txt Exercise 10.3",
+   "questions": [
+    "1. Find the angle between two vectors with magnitudes sqrt(3) and 2, having a.b = sqrt(6).",
+    "2. Find the angle between the vectors i - 2j + 3k and 3i - 2j + k.",
+    "3. Find the projection of the vector i - j on the vector i + j.",
+    "4. Find the projection of the vector i + 3j + 7k on the vector 7i - j + 8k.",
+    "8. Find the magnitude of two vectors a and b having same magnitude such that angle between them is 60° and scalar product is 1/2.",
+    "15. If vertices A, B, C of triangle ABC are (1, 2, 3), (-1, 0, 0), (0, 1, 2), find angle ABC."
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "lemh204.txt Exercise 10.4",
+   "questions": [
+    "1. Find |a x b|, if a = i - 7j + 7k and b = 3i - 2j + 2k.",
+    "2. Find a unit vector perpendicular to each of the vector a + b and a - b, where a = 3i + 2j + 2k and b = i + 2j - 2k.",
+    "5. Find lambda and mu if (2i + 6j + 27k) x (i + lambda j + mu k) = 0.",
+    "9. Find the area of the triangle with vertices A(1, 1, 2), B(2, 3, 5) and C(1, 5, 5).",
+    "10. Find the area of the parallelogram whose adjacent sides are determined by the vectors a = i - j + 3k and b = 2i - 7j + k."
+   ]
+  },
+  {
+   "id": "misc10",
+   "source_ref": "lemh204.txt Miscellaneous Exercise Chapter 10",
+   "questions": [
+    "1. Write down a unit vector in XY-plane, making an angle of 30° with the positive direction of x-axis.",
+    "2. Find the scalar components and magnitude of the vector joining points P(x1, y1, z1) and Q(x2, y2, z2).",
+    "6. Find a vector of magnitude 5 units, and parallel to the resultant of vectors a = 2i + 3j - k and b = i - 2j + k.",
+    "10. The two adjacent sides of a parallelogram are 2i - 4j + 5k and i - 2j - 3k. Find the unit vector parallel to its diagonal and find its area."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

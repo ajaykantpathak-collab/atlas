@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_7",
+   "title": "c8_math_ch10_7",
+   "questions": [
+    {
+     "q": "State the mathematical condition that must be true for two quantities \\(x\\) and \\(y\\) to be in inverse proportion.",
+     "a": "The product \\(x \\times y\\) must be constant for all corresponding pairs of values. A wrong answer (e.g., \"the ratio \\(x/y\\) is constant\") reveals the student is confusing inverse proportion with direct proportion, where the ratio is constant. This is the most fundamental misconception and must be corrected before proceeding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product of two inversely proportional quantities remains constant, using the example of speed and time for a fixed distance.",
+     "a": "For a fixed distance, distance = speed × time. Since distance does not change, if speed doubles, time must halve to keep the product (distance) unchanged. The product remains constant because the two quantities change by reciprocal factors. A wrong answer (e.g., \"because they are opposite\") shows the student lacks a mechanistic understanding and is relying on vague language rather than the mathematical structure of the relationship.",
+     "self_check": true
+    },
+    {
+     "q": "The table below shows values of \\(x\\) and \\(y\\). Determine if they are in inverse proportion. Show your check.\n\\(x\\): 3, 6, 9, 12\n\\(y\\): 16, 8, 5, 4",
+     "a": "Compute products: \\(3 \\times 16 = 48\\), \\(6 \\times 8 = 48\\), \\(9 \\times 5 = 45\\), \\(12 \\times 4 = 48\\). The products are not all equal (45 ≠ 48), so \\(x\\) and \\(y\\) are NOT in inverse proportion. A wrong answer stating they are in inverse proportion reveals the student only checked the first two or last two pairs and did not verify the constant product condition for ALL given pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two situations:\n(A) The number of pipes filling a tank and the time taken to fill it.\n(B) The number of pipes and the total cost of the pipes.\nWhich situation represents inverse proportion? Justify your answer by describing how the quantities change relative to each other.",
+     "a": "Situation (A) is inverse proportion: more pipes → less time, and the product (pipes × time) equals the tank capacity (constant). Situation (B) is direct proportion: more pipes → more cost, and the ratio cost/pipes (price per pipe) is constant. A wrong answer selecting (B) or saying both are inverse reveals the student cannot distinguish contexts where the product is conserved (work, distance, capacity) from contexts where the rate is conserved (price, density).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If \\(x\\) and \\(y\\) are inversely proportional, then when \\(x\\) becomes 3 times larger, \\(y\\) becomes 3 times smaller.\" Is this statement correct? Explain your reasoning.",
+     "a": "Yes, the statement is correct. If \\(x \\times y = k\\) and new \\(x' = 3x\\), then \\(x' \\times y' = k \\Rightarrow 3x \\times y' = x \\times y \\Rightarrow y' = y/3\\). The factor of change is exactly reciprocal. A wrong answer (e.g., \"y becomes 1/3 of original\" without justification, or \"y decreases by 3\") reveals the student does not understand the multiplicative nature of the relationship and may be thinking additively (\"3 times smaller\" is ambiguous language; the precise reasoning uses the constant product).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using Indian context: rupees, litres, kg, etc.) that involves inverse proportion. Write the problem clearly and solve it, showing the constant product step.",
+     "a": "Example problem: \"A water tanker supplies 500 litres of water to a village every day. If each family uses 20 litres per day, the water lasts for 25 families. How many families can be served if each family reduces usage to 10 litres per day?\" Solution: Total water = 500 L (constant). Families × Usage = 500. Initially: 25 × 20 = 500. New: \\(f \\times 10 = 500 \\Rightarrow f = 50\\). 50 families can be served. A poor answer creates a direct proportion problem (e.g., \"cost of apples\") or fails to identify the constant product, revealing the student cannot synthesize the inverse relationship structure independently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

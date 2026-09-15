@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_4",
+   "title": "c9_physics_ch1_4",
+   "questions": [
+    {
+     "q": "A student writes: \"My hypothesis is that heavier objects fall faster because gravity pulls them more.\" Identify the two fundamental flaws in this statement that make it unscientific as a hypothesis.",
+     "a": "The statement is not falsifiable (it asserts a \"because\" mechanism without a testable prediction structure) and it confuses hypothesis with explanation — a hypothesis must be a testable prediction (e.g., \"If mass increases, then time of fall decreases\") not a causal claim. A wrong answer reveals the student still treats hypotheses as guesses or explanations rather than structured, testable predictions that can be rejected by evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment to test \"Does the angle of a ramp affect the speed of a toy car at the bottom?\", a student keeps the car mass, ramp length, and surface material constant but changes the ramp height instead of angle. Explain why this invalidates the test of the original hypothesis.",
+     "a": "Changing height while keeping length constant does change the angle, but it also changes the gravitational potential energy independently — the student has introduced a confounding variable (vertical drop) that correlates with angle, so any speed change could be due to height not angle. A wrong answer reveals the student cannot distinguish between correlated variables and truly isolated independent variables, a critical board-level experimental design error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step experimental procedure to test: \"The period of a simple pendulum depends only on its length, not on the mass of the bob.\" Specify: (i) independent variable with range, (ii) dependent variable with measurement method, (iii) three controlled variables, (iv) number of trials per condition, (v) how you will analyse data to accept/reject the hypothesis.",
+     "a": "(i) Independent: pendulum length (20 cm, 30 cm, 40 cm, 50 cm, 60 cm); (ii) Dependent: period T measured by timing 20 oscillations with a stopwatch and dividing by 20; (iii) Controlled: bob mass (use same bob), amplitude (< 10°), string type/rigidity; (iv) 5 trials per length, calculate mean T; (v) Plot T² vs L — if linear through origin with slope 4π²/g, hypothesis supported; if mass variation (separate test) changes T, hypothesis rejected. A wrong answer reveals inability to translate a hypothesis into a valid controlled experiment with quantitative analysis plan.",
+     "self_check": true
+    },
+    {
+     "q": "Two students test \"Does temperature affect the bounce height of a rubber ball?\" Student A drops the ball from 1 m onto a concrete floor at 10°C, 20°C, 30°C, 40°C. Student B drops from 1 m at 10°C, then 1.2 m at 20°C, 1.4 m at 30°C, 1.6 m at 40°C. Compare the validity of their designs and explain which produces interpretable data.",
+     "a": "Student A's design is valid — only temperature (independent) varies, drop height (controlled) is constant, so bounce height differences can be attributed to temperature. Student B's design is invalid — drop height covaries with temperature, creating a confounding variable; any bounce change could be due to height, temperature, or both. A wrong answer reveals the student cannot identify confounding variables or understand that a fair test requires only ONE deliberate change at a time.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 group tests \"Increasing the number of coils in an electromagnet increases its strength.\" They use a 6 V battery, same iron nail, same wire, and add 10, 20, 30, 40, 50 turns. They measure strength by counting paperclips lifted. Their data: 10 turns → 3 clips, 20 → 7, 30 → 12, 40 → 11, 50 → 13. Evaluate whether this data supports their hypothesis. Justify your conclusion considering experimental limitations.",
+     "a": "The trend generally supports the hypothesis (more turns → more clips) but the 40-turn anomaly (11 clips vs 12 at 30 turns) suggests uncontrolled factors (e.g., battery voltage drop, loose winding, contact resistance). With only one trial per condition, random error cannot be distinguished from real effect. The hypothesis is tentatively supported but not confirmed; replication and voltage monitoring are needed. A wrong answer reveals the student treats single-trial data as conclusive and ignores anomalies instead of questioning experimental control.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel physics hypothesis suitable for a Class 9 lab investigation using only school equipment (metre rule, stopwatch, masses, springs, ramps, batteries, wires, magnets). Write it in \"If... then... because...\" format, identify all variables, and explain how your design ensures falsifiability.",
+     "a": "Example: \"If the compression distance of a spring increases, then the launch height of a 20 g mass placed on it increases, because elastic potential energy converts to gravitational potential energy.\" Independent: compression (1 cm to 5 cm in 1 cm steps); Dependent: max height (measured via video/phone); Controlled: spring constant, mass, launch angle (vertical), surface. Falsifiable because if height does not increase with compression (or decreases), hypothesis is rejected. A poor answer proposes an untestable claim, misses variable control, or uses equipment not available.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

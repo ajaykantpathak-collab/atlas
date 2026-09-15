@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch12_003",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch12_003",
+   "title": "c6_economics_ch12_003",
+   "questions": [
+    {
+     "q": "What is the difference between supply and demand?",
+     "a": "Supply is the amount sellers are willing to sell, while demand is the amount buyers are willing to purchase at a specific price. A wrong answer here suggests the student is mixing up the roles of the seller and the buyer.",
+     "self_check": true
+    },
+    {
+     "q": "If a sudden storm destroys half of the apple crop, what happens to the supply of apples in the market?",
+     "a": "The supply decreases. A wrong answer suggests the student thinks \"supply\" refers to the demand or the price, rather than the quantity of goods physically available.",
+     "self_check": true
+    },
+    {
+     "q": "If a popular new toy becomes a trend and every child wants one, what happens to the price if the number of toys stays the same?",
+     "a": "The price will rise because the demand is higher than the supply. A wrong answer shows the student does not understand that high demand creates competition among buyers, pushing prices up.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a scenario where mangoes are in season versus out of season. How does the quantity of mangoes affect their price?",
+     "a": "When in season, supply is high, making prices lower. When out of season, supply is low, making prices higher. If a student gets this wrong, they fail to see the inverse relationship between quantity available and price.",
+     "self_check": true
+    },
+    {
+     "q": "Should a shopkeeper lower prices if they have a huge pile of unsold vegetables that will spoil by tomorrow? Why?",
+     "a": "Yes, they should lower prices to increase demand and sell the goods before they spoil. If the student says \"raise prices,\" they ignore the need to clear stock when supply exceeds current interest.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you own a lemonade stand. How would you change your price if it is a very hot day and you only have one jug of lemonade left?",
+     "a": "You would raise the price because demand is high and supply is very low. A poor answer would suggest keeping the price the same, ignoring the scarcity of the product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_5",
+   "title": "c8_math_ch13_5",
+   "questions": [
+    {
+     "q": "In the expression \\(4x^2y - \\frac{3}{2}xy^2 + 7x - 9\\), list all the terms and state the coefficient of each term.",
+     "a": "The terms are: \\(4x^2y\\) (coefficient 4), \\(-\\frac{3}{2}xy^2\\) (coefficient \\(-\\frac{3}{2}\\)), \\(7x\\) (coefficient 7), and \\(-9\\) (constant term, coefficient -9). A wrong answer such as listing \"4, -3/2, 7, -9\" without the variable parts shows the student confuses coefficient with term. Missing the negative sign on the second or fourth term reveals sign errors when terms are subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expression \\(5x^2 + 3x - 2\\) has three terms but \\(5x^2 + 3x - 2x\\) has only two distinct terms after simplification. What does this tell you about the definition of a term?",
+     "a": "The first expression has three terms separated by + and – signs: \\(5x^2\\), \\(3x\\), and \\(-2\\). The second expression initially appears to have three terms (\\(5x^2\\), \\(3x\\), \\(-2x\\)), but \\(3x\\) and \\(-2x\\) are like terms (same variable part x) and can be combined into \\(x\\), leaving two terms: \\(5x^2\\) and \\(x\\). This shows that \"term\" refers to the parts as written before simplification; after combining like terms, the number of terms can reduce. A wrong answer that says both have three terms confuses the written form with the simplified form.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the coefficient, variable part, and constant in each term of the expression: \\(\\frac{2}{3}a^2b - 4ab^2 + 5a - \\frac{7}{2}\\).",
+     "a": "Term 1: \\(\\frac{2}{3}a^2b\\) → coefficient \\(\\frac{2}{3}\\), variable part \\(a^2b\\).\nTerm 2: \\(-4ab^2\\) → coefficient \\(-4\\), variable part \\(ab^2\\).\nTerm 3: \\(5a\\) → coefficient \\(5\\), variable part \\(a\\).\nTerm 4: \\(-\\frac{7}{2}\\) → constant term, coefficient \\(-\\frac{7}{2}\\), no variable part.\nA wrong answer giving coefficient \"2/3\" for the first term but missing the variable part, or writing coefficient \"4\" for the second term (ignoring the minus), shows sign and fraction handling errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions \\(3x^2y - 2xy^2 + 5\\) and \\(3x^2y - 2xy + 5\\). Are the second terms like terms? Explain how the variable part determines whether terms can be combined later.",
+     "a": "No, the second terms are not like terms. In the first expression the second term is \\(-2xy^2\\) (variable part \\(xy^2\\)), in the second it is \\(-2xy\\) (variable part \\(xy\\)). Like terms must have exactly the same variables raised to the same powers. Since \\(xy^2\\) and \\(xy\\) differ in the exponent of y, they are unlike terms and cannot be combined. A student who says they are like terms because both have x and y misses that the powers must match exactly.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the expression for \"5 less than twice the square of a number\" as \\(2x^2 - 5\\). Another student writes \\(5 - 2x^2\\). Evaluate which is correct and explain the error in the incorrect version using the concept of terms and order of operations.",
+     "a": "The correct expression is \\(2x^2 - 5\\). \"5 less than\" means subtract 5 from the quantity \"twice the square of a number\" (\\(2x^2\\)), so the terms are \\(2x^2\\) and \\(-5\\). The incorrect version \\(5 - 2x^2\\) has terms \\(5\\) and \\(-2x^2\\), which represents \"twice the square of a number less than 5\" – a different order of subtraction. The error is confusing the order of terms in a subtraction; the term representing the first quantity must come first. A student choosing the second version does not understand that subtraction is not commutative and that the term structure reflects the verbal order.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression with exactly four terms that includes: (i) a term with coefficient -3 and variable part \\(x^2y\\), (ii) a term with coefficient \\(\\frac{1}{2}\\) and variable part \\(xy\\), (iii) a constant term 7, and (iv) a term with coefficient 4 and variable part \\(y^3\\). Write the expression and then explain how you would identify the terms if the expression were written without spaces.",
+     "a": "Expression: \\(-3x^2y + \\frac{1}{2}xy + 4y^3 + 7\\). Terms are identified by the + and – signs that separate them; each term includes its preceding sign. Without spaces, \\(-3x^2y+\\frac{1}{2}xy+4y^3+7\\) still has four terms because the signs act as delimiters. A poor answer might write terms without signs (e.g., \\(3x^2y, \\frac{1}{2}xy, 4y^3, 7\\)) showing the student does not treat the sign as part of the term, which leads to errors when combining like terms later.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

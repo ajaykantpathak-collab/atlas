@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_006",
+   "title": "c11_biotech_cbse_09_006",
+   "questions": [
+    {
+     "q": "Define global sequence alignment and state one biological scenario where it is the appropriate choice.",
+     "a": "Global alignment aligns two sequences from end to end, maximizing matches across their entire lengths. It is appropriate when comparing full-length orthologous genes or proteins of similar length (e.g., comparing the complete cytochrome c sequences of human and yeast). A wrong answer (e.g., \"global alignment finds the best local match\") reveals confusion with local alignment and indicates the student cannot distinguish the fundamental scope difference.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a researcher studying a conserved protein domain across diverse species would choose local alignment over global alignment.",
+     "a": "Local alignment identifies the highest-scoring matching subsequences without requiring the rest of the sequences to align. If only a single domain (e.g., a kinase domain) is conserved while flanking regions differ in length and composition, global alignment would force alignment of non-homologous regions, introducing excessive gaps and lowering the overall score. A wrong answer (e.g., \"local alignment is faster\") shows the student focuses on computational convenience rather than biological appropriateness.",
+     "self_check": true
+    },
+    {
+     "q": "Two protein sequences share 40% identity over their full lengths but have a 90% identical region of 50 amino acids in the middle. Which alignment type would yield a higher similarity score for that 50-aa region, and why?",
+     "a": "Local alignment would yield a higher score for the 50-aa region because it evaluates only the best-matching segment, ignoring the poorly matching flanking regions. Global alignment averages the score across the entire length, diluting the high local similarity. A wrong answer (e.g., \"global alignment gives a higher score because it covers more sequence\") indicates misunderstanding of how scoring works across alignment types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of increasing the gap opening penalty in global vs. local alignment. How does it differently impact the resulting alignments?",
+     "a": "In global alignment, a high gap opening penalty forces fewer, longer gaps to maintain end-to-end alignment, potentially forcing mismatches in non-homologous regions. In local alignment, a high gap opening penalty may prevent the extension of a high-scoring segment into adjacent lower-similarity regions, causing the algorithm to report multiple separate high-scoring pairs instead of one longer alignment. A wrong answer (e.g., \"it has the same effect in both\") shows the student does not grasp how the alignment objective (global vs. local) interacts with gap penalties.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since local alignment finds the best match, it is always better than global alignment.\" Evaluate this statement with a counterexample.",
+     "a": "The statement is false. When comparing two full-length orthologs of similar length (e.g., human and mouse beta-globin), global alignment correctly captures the overall evolutionary divergence across the entire sequence. Local alignment might only report the most conserved exon, missing differences in other regions that are biologically meaningful. A wrong evaluation (e.g., agreeing with the student) reveals an inability to match method to biological context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project: You have sequenced a novel viral genome and want to identify all known protein domains in it. Outline the alignment strategy (global/local), database, and tool you would use, and justify each choice.",
+     "a": "Use local alignment (e.g., BLASTP) against a protein domain database (e.g., Pfam or CDD) because viral genomes are compact and may contain multiple domains in different reading frames; global alignment would fail due to length mismatches and non-homologous regions. A poor answer (e.g., \"use global alignment against GenBank\") shows the student cannot translate a real-world problem into appropriate bioinformatics choices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

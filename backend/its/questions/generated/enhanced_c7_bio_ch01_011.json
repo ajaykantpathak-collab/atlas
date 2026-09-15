@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch01_011",
+   "title": "c7_bio_ch01_011",
+   "questions": [
+    {
+     "q": "What is the general term for chemical substances secreted by endocrine glands that act as messengers in the human body?",
+     "a": "The correct answer is hormones. A student who answers \"enzymes\" or \"nutrients\" is confusing metabolic catalysts or food components with chemical signaling molecules that travel through the bloodstream.",
+     "self_check": true
+    },
+    {
+     "q": "Why do hormones travel through the bloodstream rather than through hollow tubes like food or air?",
+     "a": "The correct answer is that endocrine glands are ductless glands, meaning they do not have tubes or ducts to transport their secretions, so they release hormones directly into the rich network of blood vessels surrounding them to reach distant target organs. A student who thinks hormones travel through nerve fibers confuses the endocrine system with the nervous system.",
+     "self_check": true
+    },
+    {
+     "q": "A 13-year-old boy in Class 7 notices his voice is becoming deeper and facial hair is beginning to grow. Which specific gland and hormone are primarily responsible for these secondary sexual characteristics?",
+     "a": "Steps: \n1. Identify the gender and the specific changes (male secondary sexual characteristics: voice deepening, facial hair). \n2. Recall that male reproductive changes are regulated by male sex hormones. \n3. Identify the primary male sex hormone as testosterone, which is secreted by the testes. \n4. Conclude that the testes secrete testosterone, causing these physical changes. \nA student who names estrogen or the ovaries is mixing up male and female reproductive systems and their corresponding hormones.",
+     "self_check": true
+    },
+    {
+     "q": "How do hormones know which specific organ in the body to affect, given that they travel everywhere through the bloodstream?",
+     "a": "The correct answer is that hormones affect only specific target organs because those organs possess special receptor molecules on their cells that recognize and bind to that specific hormone. A student who thinks hormones randomly stop in any organ does not understand the lock-and-key specificity of hormone receptors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that because hormones are secreted in very tiny amounts, they cannot have a significant impact on growth and development. Evaluate this claim using biological reasoning.",
+     "a": "The claim is false. Although hormones are secreted in minute quantities, they are potent chemical messengers that travel to target cells where they trigger massive metabolic and developmental cascades, such as a complete growth spurt and reproductive maturation. A student who agrees with the claim fails to understand the amplification power of chemical signaling in biological systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model or analogy to explain how an endocrine gland and its target organ work together in the human body, similar to how a radio station broadcasts signals.",
+     "a": "A good answer compares an endocrine gland to a radio transmitting tower that broadcasts a signal (hormone) into the air (bloodstream), while target organs are like specific radios tuned to that exact frequency which receive and react to the broadcast. A poor answer simply restates the definition without creating an explanatory analogy, showing a lack of structural comprehension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

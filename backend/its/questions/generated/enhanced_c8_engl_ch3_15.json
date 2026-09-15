@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_15",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_15",
+   "title": "c8_engl_ch3_15",
+   "questions": [
+    {
+     "q": "What is the primary difference between how we identify **alliteration** and how we identify a **pun** in a line of poetry?",
+     "a": "Alliteration is identified through repeating initial consonant **sounds** (an auditory pattern), whereas a pun is identified through decoding **multiple meanings** of a word or homophone (a cognitive/semantic pattern). \n\n*What a wrong answer reveals:* If a student thinks both are based on spelling or sound alone, they do not understand that puns require semantic analysis (understanding word meanings) rather than just listening to phonetic patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the phrase **\"Cute cats chase mice\"** contains alliteration, while **\"Cute cats city-hop\"** does not, even though all three words in both sentences start with the letter 'C'.",
+     "a": "Alliteration is based entirely on the **initial sound**, not the letter. In \"Cute cats chase mice,\" the words \"Cute\" and \"cats\" share the hard **/k/** sound, and \"chase\" starts with **/tʃ/**. In \"Cute cats city-hop,\" \"city\" starts with a soft **/s/** sound, which breaks the phonetic repetition of the hard **/k/** sound found in \"Cute\" and \"cats\".\n\n*What a wrong answer reveals:* The student is relying on visual spelling (looking at the letter 'C') instead of listening to the actual phonetic pronunciation of the words.",
+     "self_check": true
+    },
+    {
+     "q": "Read this short poetic couplet:\n*The clever cook created a sweet treat,*\n*And said, \"This dessert is a peace of cake to eat.\"*\n\nIdentify one instance of alliteration and one pun in these lines. Explain your choices.",
+     "a": "1. **Alliteration:** \"clever cook created\" repeating the hard **/k/** sound.\n2. **Pun:** \"peace of cake.\" The poet uses the homophone \"peace\" instead of \"piece.\" It sounds identical but plays on the double meaning of a \"peaceful/calm\" dessert and a literal \"piece/portion\" of cake.\n\n*What a wrong answer reveals:* If the student misses \"peace of cake\" as a pun, they fail to recognize homophonic wordplay where spelling differences mask identical sounds with contrasting meanings.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following line:\n*\"The sheep shearer shared a story, but it was too baaa-d to hear.\"*\n\nHow do the alliteration and the pun work together here to create a humorous effect?",
+     "a": "1. **Alliteration:** \"sheep shearer shared\" repeats the soft **/ʃ/** (\"sh\") sound, mimicking the quiet rustling of shearing wool, which sets up a gentle, rhythmic flow.\n2. **Pun:** \"baaa-d\" is a pun playing on the homophone \"bad\" (meaning poor quality) and \"baa\" (the sound a sheep makes). \n3. **Synergy:** The rhythmic, soothing alliteration of the \"sh\" sound lulls the reader, making the sudden, goofy sheep-sound pun \"baaa-d\" stand out sharply at the end, delivering a comedic punchline.\n\n*What a wrong answer reveals:* The student can find the devices but cannot explain their structural relationship or how they combine to generate humor.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this line for a funny poem:\n*\"The big blue bird flew beautifully over the branch.\"*\n\nEvaluate whether this line is highly effective in a lighthearted, humorous poem. Suggest how to improve its wordplay.",
+     "a": "The line has strong alliteration (\"big blue bird... beautifully... branch\" repeating the **/b/** sound), but it is **not highly effective** for a humorous poem because it lacks a pun or semantic wordplay. It is merely descriptive. \n\n*Improvement:* To inject humor, we can add a pun, such as: *\"The big blue bird flew beautifully, showing off its high-flying feathers to a branch manager.\"* Here, \"branch manager\" is a pun playing on a corporate job title and a bird sitting on a tree branch.\n\n*What a wrong answer reveals:* The student thinks heavy alliteration automatically makes a line funny, failing to realize that humor requires cognitive twists (like puns) rather than just rhythmic sounds.",
+     "self_check": true
+    },
+    {
+     "q": "Create a original two-line rhyming couplet about a **detective searching for clues** that contains at least one example of alliteration and one pun. Underline both devices.",
+     "a": "*Expected student creation:*\n\"The **d**aring **d**etective **d**iligently **d**ug through the dark,\nAnd said, 'This muddy footprint has left a permanent **mark**!'\" \n*(Or a pun on clues: \"The private eye kept searching, even when he lost his sight/site.\")*\n\n*Criteria for evaluation:*\n1. Line 1 or 2 must have 3+ words beginning with the same consonant sound (Alliteration).\n2. One word must have a clear double meaning relevant to the detective theme (Pun).\n3. The lines must rhyme and maintain a steady rhythm.\n\n*What a poor answer reveals:* Lack of control over rhythm, missing the sound-based nature of alliteration, or writing a literal sentence with no double meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

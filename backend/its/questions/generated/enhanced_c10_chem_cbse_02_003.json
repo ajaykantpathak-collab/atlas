@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_003",
+   "title": "c10_chem_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of an olfactory indicator that distinguishes it from litmus or phenolphthalein?",
+     "a": "An olfactory indicator detects acids and bases through a change in **smell/odour** rather than a change in colour. A wrong answer (e.g., \"it changes colour\") reveals the student confuses olfactory indicators with visual indicators and has not grasped the sensory modality difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds dilute NaOH to onion extract and observes the smell disappears. When she adds dilute HCl to another portion of onion extract, the smell remains strong. Explain WHY the smell disappears in base but not in acid, referring to the chemical nature of the odour-causing compounds.",
+     "a": "The odour of onion is due to volatile sulphur-containing compounds (like thiopropanal S-oxide). In basic medium, these compounds react with OH⁻ ions to form non-volatile, odourless products (e.g., sulfoxides/sulfonates), so the smell vanishes. In acidic medium, no such reaction occurs; the compounds remain volatile and the smell persists. A wrong answer (e.g., \"base absorbs the smell\") shows the student lacks the chemical reasoning linking odour loss to a chemical reaction with hydroxide ions.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three unlabelled test tubes containing dilute HCl, dilute NaOH, and distilled water. Describe a step-by-step procedure using **only vanilla essence** as an indicator to identify each solution. State the expected observation for each.",
+     "a": "**Procedure:**  \n1. Add 2-3 drops of vanilla essence to each test tube and shake gently.  \n2. Smell each test tube carefully (wafting technique).  \n**Observations:**  \n- Test tube retaining strong vanilla smell → **dilute HCl (acid)**  \n- Test tube where vanilla smell disappears → **dilute NaOH (base)**  \n- Test tube retaining vanilla smell (same as acid) → **distilled water (neutral)**  \n**Limitation:** Vanilla essence cannot distinguish between acid and neutral solutions; both retain the smell. A wrong procedure (e.g., \"heat the solutions\") or missing the acid/neutral ambiguity reveals the student does not understand the limitation of olfactory indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of onion extract, vanilla essence, and clove oil as olfactory indicators in acidic and basic media. Are there any differences in their responses? Justify your answer.",
+     "a": "All three — onion extract, vanilla essence, and clove oil — behave **identically**: they retain their characteristic smell in acidic and neutral media, but lose their smell in basic media. There is **no difference** in their qualitative response. A student claiming \"onion works in acid but vanilla works in base\" has memorised isolated facts without understanding the common chemical principle: the odour-causing organic compounds in all three are decomposed or rendered non-volatile by hydroxide ions in basic medium.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Olfactory indicators are better than litmus because they give a clear yes/no answer for both acids and bases.\" Evaluate this statement. Is it fully correct? Why or why not?",
+     "a": "The statement is **partially incorrect**. While olfactory indicators do give a clear response in base (smell vanishes), they **cannot distinguish between acidic and neutral solutions** — both retain the smell. Litmus (red in acid, blue in base) distinguishes all three. A student who agrees fully has overlooked the critical limitation of olfactory indicators and the comparative advantage of visual indicators for complete classification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity for a visually impaired student to identify whether a given household substance (e.g., lemon juice, soap solution, baking soda solution, vinegar) is acidic, basic, or neutral using olfactory indicators. List materials, steps, and how the student interprets results.",
+     "a": "**Materials:** Onion extract (prepared beforehand), vanilla essence, clove oil, droppers, test tubes, test tube rack, labels in Braille/tactile markers.  \n**Steps:**  \n1. Label test tubes 1-4 for the four household substances.  \n2. Add 2 mL of each substance to its labelled tube.  \n3. Add 3 drops of onion extract to each tube, shake, smell (wafting). Record: smell lost = basic; smell retained = acidic/neutral.  \n4. Repeat with vanilla essence and clove oil for confirmation.  \n5. To distinguish acid from neutral: use a **tactile temperature test** (acid + metal → H₂ gas + heat) or a **texture test** (baking soda + acid → fizzing felt by touch).  \n**Interpretation:** Consistent smell loss across all three indicators → basic. Consistent smell retention → acidic or neutral; use secondary tactile test to differentiate. A poor design that relies only on smell and cannot separate acid from neutral reveals the student hasn't addressed the core limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

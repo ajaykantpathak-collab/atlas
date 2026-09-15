@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_003",
+   "title": "c12_bio_cbse_09_003",
+   "questions": [
+    {
+     "q": "List the four major categories of poultry breeds used commercially in India with one example each, and state the primary selection criterion for layer vs. broiler breeds.",
+     "a": "Correct answer: 1) Egg-type (layers) e.g., White Leghorn — selected for high egg production (>300 eggs/year), low body weight, early sexual maturity. 2) Meat-type (broilers) e.g., Cobb 500 — selected for rapid growth (2.5 kg in 6 weeks), high feed conversion ratio (FCR ~1.5), broad breast. 3) Dual-purpose e.g., Rhode Island Red — moderate eggs and meat. 4) Indigenous/desi e.g., Kadaknath — disease resistance, adaptability. A wrong answer (e.g., listing only \"chicken breeds\" without categorization or confusing selection criteria) reveals the student cannot distinguish between genetic selection goals for egg vs. meat production, a fundamental concept in animal husbandry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why deep litter system is preferred over cage system for broiler production in India, but cage system dominates layer farming. Include the role of bird behavior, waste management, and economics.",
+     "a": "Correct answer: Broilers are reared for only 6-7 weeks; deep litter allows natural behavior (dust bathing, scratching), reduces leg problems (contact dermatitis), and litter becomes valuable manure. Cages for broilers cause breast blisters and higher capital cost. Layers are kept 72+ weeks; cages enable higher stocking density, easier egg collection (clean eggs), individual monitoring, better feed efficiency, and manure management (dry droppings). A wrong answer focusing only on \"cost\" or \"space\" misses the biological rationale: broilers' rapid growth causes skeletal stress on wire floors, while layers' long production cycle demands individual health monitoring and clean eggs for market.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer switches from mash to pelleted feed for his 20,000-bird layer farm. Predict the changes in (a) feed conversion ratio (FCR), (b) feed wastage, (c) bird uniformity, and (d) energy expenditure for feeding. Justify each prediction.",
+     "a": "Correct answer: (a) FCR improves (decreases) because pellets reduce selective feeding — birds consume balanced nutrition in every bite. (b) Feed wastage decreases 10-15% as fines are minimized and birds cannot scatter pellets easily. (c) Uniformity improves because all birds get identical nutrient intake, reducing coefficient of variation in body weight. (d) Energy expenditure for feeding decreases — pellets have higher bulk density, reducing number of feed deliveries. A wrong answer (e.g., \"FCR worsens because pellets are expensive\") confuses economic cost with biological efficiency; pellets cost more per tonne but improve FCR, lowering feed cost per dozen eggs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the vaccination schedule for Ranikhet disease (Newcastle disease) in layers vs. broilers. Analyze why the schedule differs in terms of maternal immunity duration, production cycle length, and stress management.",
+     "a": "Correct answer: Layers receive 4-5 doses: day 1 (lasota), day 7 (lasota), day 21 (lasota), week 8 (R2B killed), week 16 (R2B killed), then every 8-10 weeks. Broilers receive 2 doses: day 1 (lasota), day 14 (lasota). Difference: Layers have longer maternal antibody interference (up to 3 weeks) requiring multiple live vaccines; killed vaccine at 8 weeks primes for long-term humoral immunity needed for 72-week lay. Broilers' short cycle (6 weeks) only needs early protection; killed vaccine not economical. Stress: Layers vaccinated during low-stress periods (avoid peak lay); broilers vaccinated with minimal handling stress. A wrong answer giving identical schedules ignores the immunological and economic optimization for different production systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Adding antibiotics to poultry feed as growth promoters is essential for profitable commercial farming in India.\" Consider current regulations, alternatives, antimicrobial resistance (AMR), and gut microbiome health.",
+     "a": "Correct answer: The statement is false. India banned antibiotic growth promoters (AGPs) in 2019 (FSSAI notification). AGPs disrupt gut microbiome, select for resistant bacteria (e.g., E. coli, Salmonella), and residues enter food chain. Alternatives: probiotics (Lactobacillus), prebiotics (MOS, FOS), organic acids, phytogenics (essential oils), and improved biosecurity. These maintain gut health by competitive exclusion, lowering pH, enhancing tight junctions. Profitable farms now use antibiotic-free programs with vaccination, hygiene, and nutrition. A wrong answer supporting AGPs shows ignorance of regulatory changes, AMR crisis, and modern gut health management — critical for NEET biology (human health) and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a biosecurity protocol for a new 5,000-bird layer farm in a region with history of avian influenza outbreaks. Include structural, operational, and emergency response components.",
+     "a": "Expected answer criteria: Structural: Perimeter fence, footbaths at all entries, bird-proof netting, separate clean/dirty zones, dedicated vehicles. Operational: All-in-all-out system, visitor log with shower-in/shower-out, dedicated clothing/boots per shed, rodent/insect control, water sanitization (chlorination), dead bird disposal (incineration/composting). Emergency: Surveillance (daily mortality recording), rapid testing kit access, isolation shed, contact tracing plan, notification to state veterinary authority within 24 hours, vaccination strategy (H5/H7 if permitted). A poor answer listing only \"vaccination and cleaning\" misses the layered defense concept (structural + operational + emergency) and fails to address specific AI transmission routes (wild birds, fomites, aerosols).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

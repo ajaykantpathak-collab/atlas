@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_011",
+   "title": "c12_cs_cbse_09_011",
+   "questions": [
+    {
+     "q": "What is the output of `math.sin(math.pi / 2)` and why might a student incorrectly expect `1.0` exactly?",
+     "a": "Output is `1.0` (within floating-point precision). A student might expect exactly `1.0` because mathematically `sin(π/2) = 1`, but `math.pi` is a floating-point approximation of π, so the result is `0.9999999999999999` or `1.0` depending on rounding. The misconception is treating `math.pi` as the exact mathematical constant π rather than its IEEE-754 double-precision approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `random.random()` and `random.uniform(a, b)`. Give a scenario where using the wrong one would cause a logical error in a simulation.",
+     "a": "`random.random()` returns a float in `[0.0, 1.0)` (uniform distribution). `random.uniform(a, b)` returns a float in `[a, b]` (or `[b, a]` if `b < a`). If a student uses `random.random()` to simulate a dice roll (1-6) by doing `int(random.random() * 6) + 1`, it works but is less direct and slightly biased if not careful; using `random.uniform(1, 7)` with `int()` would include 7 due to inclusive upper bound, causing an off-by-one error. The correct function for discrete integers is `random.randint(1, 6)`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python snippet that calculates the number of days between two dates: `date1 = datetime.date(2023, 2, 28)` and `date2 = datetime.date(2023, 3, 1)`. What is the result and why is it not simply `1` in all calendars?",
+     "a": "```python\nimport datetime\ndate1 = datetime.date(2023, 2, 28)\ndate2 = datetime.date(2023, 3, 1)\ndelta = date2 - date1\nprint(delta.days)  # Output: 1\n```\nResult is `1` because 2023 is not a leap year. In a leap year (e.g., 2024), `datetime.date(2024, 2, 28)` to `datetime.date(2024, 3, 1)` would give `2` days (Feb 28 → Feb 29 → Mar 1). The misconception is assuming every month transition adds 1 day; `datetime` correctly handles variable month lengths and leap years.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `random.seed(42); print(random.randint(1, 10)); random.seed(42); print(random.randint(1, 10))` and gets the same number twice. They claim \"random means different every time\". Analyze the error.",
+     "a": "The student misunderstands *pseudo-randomness*. `random.seed(42)` initializes the deterministic generator to a fixed state, so the sequence repeats exactly. This is *by design* for reproducibility (debugging, testing). The error is confusing \"random\" (statistically uniform) with \"non-deterministic\". In competitive exams, questions often ask \"what is the output?\" given a seed — the answer is deterministic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For calculating the square root of a large integer, `math.sqrt` is always preferable to `** 0.5` because it's more accurate.\" Defend or refute with a concrete example.",
+     "a": "Refute. Both use the same underlying C library `sqrt` function and produce identical IEEE-754 results for floats. Example: `math.sqrt(10**30)` vs `(10**30)**0.5` both yield `1e+15`. However, `math.sqrt` raises `ValueError` for negative input (clearer error), while `**0.5` returns a complex number (unexpected type). For integers, `math.isqrt` (Python 3.8+) gives exact integer floor sqrt without float conversion. The statement is false; the choice depends on error-handling needs, not accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-program that uses **all three modules** to simulate: \"A bank offers a lottery where each customer gets a random 4-digit PIN. The interest rate on their savings is `math.e` percent per annum compounded daily. The lottery draw date is exactly 90 days after account opening.\" Print the PIN, the effective annual rate (EAR), and the draw date for an account opened today.",
+     "a": "```python\nimport math, random, datetime\npin = random.randint(1000, 9999)\nrate_percent = math.e  # ~2.71828%\ndaily_rate = rate_percent / 100 / 365\near = (1 + daily_rate) ** 365 - 1\nopen_date = datetime.date.today()\ndraw_date = open_date + datetime.timedelta(days=90)\nprint(f\"PIN: {pin:04d}\")\nprint(f\"EAR: {ear*100:.4f}%\")\nprint(f\"Draw date: {draw_date.strftime('%d-%b-%Y')}\")\n```\nA good answer shows correct imports, `randint` for 4-digit PIN (1000-9999), `math.e` for rate, compound interest formula with daily compounding, `timedelta` for date arithmetic, and `strftime` for formatting. Poor answers use `random.random()*9000+1000` (float), forget `/100` for percent, or use `datetime.datetime.now()` instead of `date.today()`.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

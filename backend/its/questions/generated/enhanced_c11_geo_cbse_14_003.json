@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_003",
+   "title": "c11_geo_cbse_14_003",
+   "questions": [
+    {
+     "q": "State the exact annual rainfall range (in cm) that separates Tropical Moist Deciduous Forests from Tropical Dry Deciduous Forests in India, and name one dominant tree species for each type.",
+     "a": "Correct answer: The boundary is 100 cm annual rainfall. Moist Deciduous: 100–200 cm, dominant species **sal (Shorea robusta)** or teak; Dry Deciduous: 70–100 cm, dominant species **teak (Tectona grandis)** or axlewood (Anogeissus latifolia). A wrong answer (e.g., giving 150 cm as boundary or naming evergreen species like rosewood) reveals the student is confusing the sub-types or mixing them with Tropical Evergreen/Semi-evergreen forests (c11_geo_cbse_14_002).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Tropical Deciduous trees shed leaves in summer (March–May) even though temperatures are high and sunlight is abundant — conditions that would normally favour photosynthesis.",
+     "a": "Correct answer: Leaf-shedding is a **water-conservation adaptation**, not a temperature response. By April, soil moisture from the previous monsoon is exhausted; transpiration through leaves would cause fatal hydraulic failure. Shedding leaves eliminates transpirational surface, allowing the tree to survive the 2–3 month pre-monsoon drought. A wrong answer citing \"cold winter\" or \"low light\" shows the student is applying temperate deciduous logic (Class 9 plate tectonics/landforms confusion) instead of monsoonal drought physiology.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the 100 cm isohyet runs roughly from Gujarat–Maharashtra border eastward through the Chotanagpur plateau to Odisha. A place X lies at 22°N, 84°E with 130 cm rainfall; place Y lies at 18°N, 76°E with 85 cm rainfall. Classify the natural vegetation at X and Y, and justify using rainfall thresholds.",
+     "a": "Step 1: Identify coordinates — X (22°N, 84°E) = Sundargarh district, Odisha (Chotanagpur plateau); Y (18°N, 76°E) = Latur district, Maharashtra (Deccan plateau rain shadow).  \nStep 2: Compare rainfall — X: 130 cm (>100 cm) → Moist Deciduous; Y: 85 cm (70–100 cm) → Dry Deciduous.  \nStep 3: Verify species — X: sal-dominated; Y: teak/axlewood-dominated.  \nAnswer: X = Tropical Moist Deciduous Forest; Y = Tropical Dry Deciduous Forest.  \nA wrong classification (e.g., both as Moist) reveals inability to apply the 100 cm threshold spatially or confusion between plateau and rain-shadow regimes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the species composition of Moist Deciduous forests in the Chotanagpur plateau (Jharkhand) with Dry Deciduous forests in the central Deccan plateau (Madhya Pradesh). Identify two species common to both and two species that differentiate them, linking each to rainfall tolerance.",
+     "a": "Common (wide ecological amplitude): **Teak (Tectona grandis)** — tolerates 70–250 cm; **Bamboo (Dendrocalamus strictus)** — gregarious flowering in both.  \nDifferentiating: **Sal (Shorea robusta)** — requires >100 cm, dominates Moist Deciduous; **Axlewood (Anogeissus latifolia)** — thrives at 70–100 cm, indicator of Dry Deciduous.  \nA wrong answer listing rosewood or ebony (evergreen species) shows confusion with c11_geo_cbse_14_002; listing khejri (thorn forest species) shows confusion with c11_geo_cbse_14_004.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Tropical Dry Deciduous Forests are degraded versions of Moist Deciduous Forests caused by human deforestation.\" Support your judgment with ecological and biogeographical evidence.",
+     "a": "Judgment: **False** — they are distinct climatic climax communities, not degradation stages.  \nEvidence: (1) Dry Deciduous occurs in rain-shadow zones (leeward Western Ghats, central Deccan) where orography limits rainfall to 70–100 cm naturally; (2) Characteristic species (axlewood, tendu, khair) are xerophytic adaptations (small leaves, thick bark, deep roots) evolved for low rainfall, not stunted sal/teak; (3) Pollen records show Dry Deciduous persisted through Holocene in rain shadows.  \nA \"True\" answer reveals the \"degradation narrative\" misconception — conflating human pressure (which does convert Moist to Dry in ecotones) with the fundamental climatic determinism of the 70–100 cm zone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point field identification key that a forester could use in April to distinguish a Moist Deciduous stand from a Dry Deciduous stand without measuring rainfall, using only visible traits (canopy, bark, leaf litter, species).",
+     "a": "Key:  \n1. **Canopy closure in April**: Moist = 40–60% foliage retained (some evergreen admixture); Dry = <10% foliage, bare branches dominant.  \n2. **Bark texture of dominant trees**: Sal (Moist) — thick, deeply fissured, dark grey; Axlewood/Teak (Dry) — smoother, pale, exfoliating in thin flakes.  \n3. **Leaf litter depth & composition**: Moist — thick (5–8 cm), broad sal/teak leaves decomposing slowly; Dry — thin (1–2 cm), small axlewood/tendu leaves, rapid decomposition.  \nPoor answer (e.g., \"count teak trees\") fails because teak occurs in both; the key must use traits that **diverge** at the 100 cm threshold.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_04_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_04_014",
+   "title": "c11_eng_w_cbse_04_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for writing a literature answer and state the purpose of each component.",
+     "a": "PEEL stands for Point (topic sentence answering the question), Evidence (textual detail/quote), Explanation (analysis of how evidence supports the point), Link (connecting back to the question/broader theme). A wrong answer (e.g., \"PEEL means writing a paragraph with a quote\") reveals the student confuses structure with mere quotation insertion and misses the analytical Explanation and Link steps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Holmes's observation about the advertisement's American spelling (\"plow\", \"buckboards\", \"artesian wells\") is a turning point in the investigation.",
+     "a": "The advertisement purported to be from an English firm (Howard Garrideb, Birmingham) but used American spellings and terms, proving John Garrideb (Killer Evans) planted it to lure Nathan Garrideb out of his rooms. A wrong answer (e.g., \"It shows Holmes reads ads\") misses the inference that the *discrepancy* exposes the ruse and shifts Holmes from curiosity to certainty about Evans's criminal plan.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"How does the story use irony in the fate of Nathan Garrideb's 'castle in the air'?\" Write a 4-sentence response following PEEL.",
+     "a": "Point: Nathan Garrideb's dream of wealth becomes tragic irony when the \"inheritance\" vanishes. Evidence: The text states \"his castle in the air fell down, it buried him beneath the ruins\" and he ends in a nursing home. Explanation: The metaphor of a collapsing castle shows his fragile hope was built on a criminal's lie, not reality. Link: This irony underscores the theme that greed and credulity can destroy innocent lives. A wrong answer that only retells the plot without the \"castle\" metaphor or the irony label shows inability to select and analyse literary evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how Conan Doyle uses Watson's first-person narration to build suspense in the cellar scene (from \"We crouched closer...\" to \"two pistols were pointed at his head\").",
+     "a": "Watson's limited perspective (\"we heard,\" \"we crouched,\" \"the head... emerged\") forces the reader to discover the trapdoor and Evans's actions in real time, creating tension through sensory details (metallic snap, creaking floor, match strike). The sudden shift to \"glare of baffled rage\" and \"shamefaced grin\" delivers the climax through Watson's eyes. A wrong answer that summarises the plot (\"Evans opened the floor and Holmes caught him\") ignores the narrative technique and the effect of restricted point of view on suspense.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"John Garrideb/Killer Evans is a more effective villain because he exploits Nathan Garrideb's harmless eccentricity rather than using violence initially.\" Support your judgment with two textual reasons.",
+     "a": "Effective because: (1) Evans crafts a complex, non-violent ruse (fake will, fake third Garrideb, planted ad) that manipulates Nathan's scholarly obsession and Holmes's curiosity, showing psychological cunning (\"devilish ingenuity\"). (2) He avoids harming Nathan (\"I'm a soft-hearted guy... can't begin shooting unless the other man has a gun\"), making his eventual violence (shooting Watson) more shocking. A wrong answer calling him \"just a clever thief\" undervalues the layered deception and the thematic contrast between intellectual villainy and physical brutality.",
+     "self_check": true
+    },
+    {
+     "q": "Create an alternate ending (80-100 words) where Nathan Garrideb discovers the counterfeiting press *before* Holmes arrives, and write his diary entry that night reflecting on his \"dissipated dreams.\"",
+     "a": "A strong entry uses first-person voice, references specific story details (the \"Syracusan coin,\" \"Hans Sloane\" ambition, the \"rigmarole of lies\"), and shows emotional shift from elation to devastation. Example opening: \"June 30, 1902. The Howard Garrideb advertisement arrived — my ticket to the Hans Sloane dream. By midnight I stood in my own cellar, candle trembling over Presbury's press...\" A poor entry writes in third person, omits textual anchors, or resolves happily, missing the tragic irony central to the story.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

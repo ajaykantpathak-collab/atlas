@@ -1,0 +1,277 @@
+{
+ "catalog": "catalog_class11_economics_ch105",
+ "concepts": [
+  {
+   "id": "keec.105.1",
+   "title": "Defining Rural Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Defining Rural Development' refers to.",
+     "a": "A holistic strategy focused on uplifting the socio-economic conditions of rural areas that have historically lagged in growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Defining Rural Development'.",
+     "a": "Comprehensive progress involving human resources, infrastructure, and land reforms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Defining Rural Development' taught, and from which source text?",
+     "a": "5.2 (source: keec105.txt lines 75-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.2",
+   "title": "Rural Credit and NABARD",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rural Credit and NABARD' refers to.",
+     "a": "The financial support system providing capital to farmers for agricultural inputs and family needs during the long gestation period of crops.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rural Credit and NABARD'.",
+     "a": "NABARD acts as the apex body to coordinate and regulate rural financing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rural Credit and NABARD' taught, and from which source text?",
+     "a": "5.3 (source: keec105.txt lines 150-185)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.3",
+   "title": "Self-Help Groups (SHGs) and Micro-credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Self-Help Groups (SHGs) and Micro-credit' refers to.",
+     "a": "Community-based groups where members pool small savings to provide low-interest loans to one another without requiring formal collateral.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self-Help Groups (SHGs) and Micro-credit'.",
+     "a": "Promoting thrift and providing affordable credit to the rural poor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Self-Help Groups (SHGs) and Micro-credit', in plain ASCII form.",
+     "a": "total_pool = sum(individual_savings)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.4",
+   "title": "Pradhan Mantri Jan-Dhan Yojana",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pradhan Mantri Jan-Dhan Yojana' refers to.",
+     "a": "A national scheme for financial inclusion that encourages every adult to open a bank account to access insurance and direct benefit transfers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pradhan Mantri Jan-Dhan Yojana'.",
+     "a": "Integrating the rural population into the formal banking system.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pradhan Mantri Jan-Dhan Yojana' taught, and from which source text?",
+     "a": "5.3 (source: keec105.txt lines 260-285)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.5",
+   "title": "Agricultural Marketing System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Agricultural Marketing System' refers to.",
+     "a": "The collective process of assembling, storing, processing, transporting, and distributing farm produce across the nation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agricultural Marketing System'.",
+     "a": "Ensuring farmers get a fair price for their produce through organized channels.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Agricultural Marketing System' taught, and from which source text?",
+     "a": "5.4 (source: keec105.txt lines 290-315)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.6",
+   "title": "Government Market Interventions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Government Market Interventions' refers to.",
+     "a": "Policy tools like Minimum Support Price (MSP) and buffer stocks used to protect farmer incomes and ensure food security for the poor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Market Interventions'.",
+     "a": "Stabilizing prices and supply through state-led mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Government Market Interventions' taught, and from which source text?",
+     "a": "5.4 (source: keec105.txt lines 350-380)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.7",
+   "title": "Diversification in Agriculture",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Diversification in Agriculture' refers to.",
+     "a": "The shift of the rural workforce from traditional crop cultivation to allied activities or non-farm sectors to mitigate risks and increase income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Diversification in Agriculture'.",
+     "a": "Reducing dependence on single-crop farming for sustainable livelihoods.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Diversification in Agriculture' taught, and from which source text?",
+     "a": "5.5 (source: keec105.txt lines 410-445)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.8",
+   "title": "Operation Flood and Dairy Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Operation Flood and Dairy Sector' refers to.",
+     "a": "A cooperative system where dairy farmers pool milk for processing and urban marketing, ensuring stable incomes and high production growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operation Flood and Dairy Sector'.",
+     "a": "Successful cooperative model for milk production and distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Operation Flood and Dairy Sector' taught, and from which source text?",
+     "a": "5.5 (source: keec105.txt lines 470-495)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.9",
+   "title": "Fisheries Production Distribution",
+   "questions": [
+    {
+     "q": "Calculate the inland fish production if total production is .... Use the method 'Fisheries Production Distribution'. Work with: total_fish_output = 15, total_val = 300. Carry the chain through step by step and give the final value of the result.",
+     "a": "225 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the total fish output given inland production. Use the method 'Fisheries Production Distribution'. Work with: total_fish_output = 30, total_val = 45. Carry the chain through step by step and give the final value of the result.",
+     "a": "33.75 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Fisheries Production Distribution' refers to.",
+     "a": "The calculation of fish output based on the source, where inland sources dominate the total production in India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fisheries Production Distribution'.",
+     "a": "Inland fisheries contribute three-quarters of India's total fish production.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fisheries Production Distribution', in plain ASCII form.",
+     "a": "inland_output = 0.75 * total_fish_output",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.10",
+   "title": "Horticulture and its Impact",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Horticulture and its Impact' refers to.",
+     "a": "The cultivation of fruits, vegetables, flowers, and plantation crops, contributing significantly to India's GDP and rural employment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Horticulture and its Impact'.",
+     "a": "India is a global leader in fruits and vegetables, improving rural livelihoods.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Horticulture and its Impact' taught, and from which source text?",
+     "a": "5.5 (source: keec105.txt lines 550-580)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.11",
+   "title": "Organic Farming",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Organic Farming' refers to.",
+     "a": "A sustainable agricultural system that relies on natural inputs and ecological balance rather than synthetic chemicals and pesticides.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Organic Farming'.",
+     "a": "Eco-friendly farming that restores soil health and provides safer food.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Organic Farming' taught, and from which source text?",
+     "a": "5.6 (source: keec105.txt lines 620-655)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.105.12",
+   "title": "Livestock Composition: Poultry Share",
+   "questions": [
+    {
+     "q": "Calculate the number of poultry if total livestock is .... Use the method 'Livestock Composition: Poultry Share'. Work with: total_livestock = 45, total_val = 8. Carry the chain through step by step and give the final value of the result.",
+     "a": "4.88 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the poultry count from a total livestock population of .... Use the method 'Livestock Composition: Poultry Share'. Work with: total_livestock = 60, total_val = 24. Carry the chain through step by step and give the final value of the result.",
+     "a": "14.64 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Livestock Composition: Poultry Share' refers to.",
+     "a": "Determining the number of poultry birds within the total livestock population based on its dominant percentage share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Livestock Composition: Poultry Share'.",
+     "a": "Poultry is the largest segment of the livestock sector in India.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Livestock Composition: Poultry Share', in plain ASCII form.",
+     "a": "poultry_count = 0.61 * total_livestock",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

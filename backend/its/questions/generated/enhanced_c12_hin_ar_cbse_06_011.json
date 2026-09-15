@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_06_011",
+   "title": "c12_hin_ar_cbse_06_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical category of the word \"lehj&lkxj\" in the line \"frjrh gS lehj&lkxj ij\" and name the specific समास (compound) type it represents.",
+     "a": "\"lehj&lkxj\" is a संयुक्त पद (compound word) representing the तत्पुरुष समास (specifically, द्वितीया तत्पुरुष) where \"lehj\" (body) is the object/location and \"lkxj\" (heat) modifies it — \"heat on the body\". A wrong answer like \"कर्मधारय समास\" reveals the student cannot distinguish between appositional (कर्मधारय) and case-governed (तत्पुरुष) compounds, a critical error for board exams where समास identification carries 2-3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the poet uses the Braj Bhasha verb form \"gSa\" (in \"g¡lrs gSa NksVs ikSèks y?kqHkkj\") instead of the standard Khari Boli \"hEṅ\" — what grammatical and affective function does this serve?",
+     "a": "\"gSa\" is the Braj Bhasha plural present indicative form (equivalent to Khari Boli \"hEṅ\"), used here to maintain the poem's metrical rhythm (मात्रिक छंद) and regional authenticity. It creates a folk-song cadence that mirrors the children's spontaneous joy. A student who says \"it's just old Hindi\" misses the deliberate metrical and sociolinguistic choice — a common error where students confuse dialectal grammar with \"incorrect\" grammar, losing marks in \"language usage\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"v'kfu&ikr ls 'kkfir mÂr 'kr&'kr ohj\", identify the postpositions and case endings used. Then rewrite the phrase in standard Khari Boli prose order (अन्वय) and explain the grammatical shift.",
+     "a": "Postpositions: \"ls\" (ablative/instrumental), \"mÂr\" (locative, Braj form of \"mẽ\"). Case: \"v'kfu&ikr\" (otzikr) is in कारक (case) governed by \"ls\". अन्वय: \"otzikr se sakal mẽ phir-phir ohj (aata hai)\". The shift: Braj uses \"mÂr\" for locative where Khari Boli uses \"mẽ\"; poetic inversion places \"ohj\" at end for rhyme with \"vpy&'kjhj\". A student who only translates without showing case-postposition mapping fails to demonstrate grammatical analysis — a JEE/NEET humanities trap where surface meaning is mistaken for structural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic structure of the two refrain-like lines: \"ckny jkx\" (repeated 5 times) and \",s foIyo osQ ohj!\" (repeated 3 times). How does the grammatical minimalism (absence of verbs, copulas) in these lines function differently from the full sentences in the stanzas?",
+     "a": "\"ckny jkx\" is a nominal phrase (noun + noun in apposition or vocative) acting as a thematic anchor — no verb, timeless. \",s foIyo osQ ohj!\" is a noun phrase with possessive postposition \"osQ\" + noun \"ohj\", functioning as an exclamatory apostrophe to summer. The full sentences (e.g., \"frjrh gS lehj&lkxj ij\") use copula \"gS\" to assert states. The refrain lines suspend predication, turning grammar into incantation. A student who calls both \"titles\" or \"headings\" misses the syntactic distinction between a bare NP and a possessive NP — a subtle but board-relevant grammatical nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The poem's use of Braj Bhasha grammar is merely decorative; the same meaning could be conveyed in standard Khari Boli without loss.\" Defend or refute using three specific grammatical evidence points from the text.",
+     "a": "Refute. (1) Metrical necessity: \"gSa\" (2 syllables) vs \"hEṅ\" (2 but different weight) — the मात्रिक छंद requires specific laghu/guru patterns only Braj forms satisfy. (2) Semantic density: \"v^kfydk\" (compound: वक् + फटिक? — actually वक् + फटिक? No, वक् + फटिक is not standard; likely वक् + फटिक = वक्फटिक? Wait — from word meaning: \"v^kfydk  ugha gS js\" — \"v^kfydk\" = \"वक् + फटिक\"? Actually word meaning says: \"v^kfydk  ugha gS js\" — no gloss. But \"v^kfydk\" is likely a Braj compound meaning \"fickle\" or \"momentary\". Its internal sandhi/consonant cluster is phonologically Braj. (3) Sociolinguistic indexing: \"v'kfu&ikr\" (otzikr) for \"evening\" marks rural registers. Khari Boli \"shaam\" loses the cultural texture. A student who agrees reveals a fundamental misconception: that grammar is a neutral container for meaning, not a meaning-making system.",
+     "self_check": true
+    },
+    {
+     "q": "Create two new lines in the style of \"ckny jkx\" that use: (a) a तत्पुरुष समास with a body-part noun, (b) a Braj-style verb ending in \"gS\" or \"gSa\", and (c) an inverted word order for rhyme. Gloss your grammatical choices.",
+     "a": "Example:  \n\"nq[k dk dV;k gS nXèk ij\"  \n\"fiQj fiQj vk;k gSa ckny dk th\"  \nGloss: (a) \"nq[k dk dV;k\" — तत्पुरुष (षष्ठी) — \"pain of the nose\" (body part). (b) \"gS\", \"gSa\" — Braj present indicative. (c) Inversion: \"nXèk ij nq[k dk dV;k gS\" → \"nq[k dk dV;k gS nXèk ij\" for rhyme with \"th\". A poor answer uses Khari Boli verbs (\"hai\", \"hain\"), no compound, or normal SVO order — showing inability to internalize the grammatical system as a creative tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

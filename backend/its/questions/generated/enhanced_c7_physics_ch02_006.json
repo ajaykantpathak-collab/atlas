@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_006",
+   "title": "c7_physics_ch02_006",
+   "questions": [
+    {
+     "q": "What is the primary function of connecting wires in a simple electric circuit?",
+     "a": "Connecting wires provide a continuous conducting path for electric current to travel between the power source and the load device. A wrong answer often assumes that wires act as a power source or store electricity, revealing a failure to distinguish between the source of energy and the pathway that channels it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a torch bulb will not light up if there is a tiny gap between one of the connecting wires and the metal casing of the bulb, even though the cell is brand new.",
+     "a": "Electricity requires an unbroken, closed loop to flow; any gap breaks the circuit, stopping the flow of charge instantly. A wrong answer might claim that electricity can jump across small gaps or that the bulb will still glow dimly, which shows a misunderstanding of the necessity of a continuous conducting path.",
+     "self_check": true
+    },
+    {
+     "q": "A simple circuit uses a 1.5 V electric cell and a small bulb. If the total resistance of the circuit components results in a current of 0.25 A flowing through the complete loop for 60 seconds, what is the total charge that passes through a cross-section of the wire? (Hint: Charge equals current multiplied by time, $Q = I \\times t$, where $Q$ is in coulombs C, $I$ is in amperes A, and $t$ is in seconds s).",
+     "a": "Given: Current ($I$) = 0.25 A, Time ($t$) = 60 s. \nStep 1: Identify the formula relating charge, current, and time ($Q = I \\times t$). \nStep 2: Substitute the given values with their units ($Q = 0.25\\text{ A} \\times 60\\text{ s}$). \nStep 3: Multiply the numerical values ($0.25 \\times 60 = 15$). \nStep 4: Combine units (A $\\times$ s = coulombs, C). \nStep 5: Verify the answer is physically reasonable ($15\\text{ C}$). A wrong answer usually stems from incorrect multiplication or improper unit conversion, showing confusion between current intensity and total accumulated charge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a circuit with a broken switch (open circuit) to a circuit with a thick copper wire replacing the switch (closed circuit). How does the behavior of the electric current differ in both scenarios?",
+     "a": "In an open circuit with a broken switch, the path is interrupted, so the current drops to zero and no electrical work is done. In a closed circuit with a copper wire, a continuous path exists, allowing current to flow unimpeded. A wrong answer suggests that current continues to circulate in an open circuit or pools up at the break point, ignoring the fundamental requirement of a closed loop.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the safety and correctness of a student's setup who connects both ends of a single wire directly to the positive and negative terminals of an electric cell without any bulb or load in between.",
+     "a": "This setup creates a dangerous short circuit. Without a load to use up the electrical energy, current flows extremely rapidly, causing the wire and cell to heat up dangerously fast, which can drain the cell or cause burns. A wrong answer might state that nothing happens or that the wire simply acts as a normal circuit, showing a lack of understanding regarding the danger of zero-resistance direct connections.",
+     "self_check": true
+    },
+    {
+     "q": "Design a troubleshooting procedure for a simple circuit kit where a bulb fails to light up, listing at least three specific components you would check and why.",
+     "a": "To troubleshoot, one should check: 1) The battery terminals and orientation to ensure proper contact and correct polarity, 2) The connecting wire fastenings to ensure no loose or broken connections create an open circuit, and 3) The bulb filament to verify it is not fused. A poor answer would suggest randomly shaking the components without a systematic check, showing a lack of understanding of circuit continuity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "catalog": "catalog_class8_maths_hemh110.json",
+ "concepts": [
+  {
+   "id": "hemh.110.10.1",
+   "title": "Powers with Negative Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 2^4 / 2^2.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^3 using the power of a power law.",
+     "a": "19683",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^3 x 4^3 using a^m x b^m = (ab)^m.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^(-3) and give the value as a fraction.",
+     "a": "1/64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.10.2",
+   "title": "Laws of Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^2.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 3^3 / 3^2.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^3 using the power of a power law.",
+     "a": "19683",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "3375",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 8^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9^(-2) and give the value as a fraction.",
+     "a": "1/81",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.10.3",
+   "title": "Standard Form for Very Large and Small Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 7^4 / 7^1.",
+     "a": "343",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2^3)^2 using the power of a power law.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "8000",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^(-3) and give the value as a fraction.",
+     "a": "1/64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.110.10.4",
+   "title": "Comparing Very Large and Very Small Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 14 gives 88",
+     "compute": "circ = 2 * 22 / 7 * 14"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 77 cm. Find its circumference (pi = 22/7).",
+     "a": "242",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 21 cm (pi = 22/7).",
+     "a": "1386",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 49 cm and 77 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "11088",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 60 degrees at the centre of a circle of radius 21 cm (pi = 22/7).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 180 degrees in a circle of radius 77 cm (pi = 22/7).",
+     "a": "9317",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

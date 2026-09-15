@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_003",
+   "title": "c11_bio_cbse_08_003",
+   "questions": [
+    {
+     "q": "List the four major molecular components of the plasma membrane in the Fluid Mosaic Model and state the orientation of phospholipids in the bilayer.",
+     "a": "The four components are: (1) Phospholipids — arranged in a bilayer with polar heads facing aqueous environments (extracellular and cytoplasmic) and hydrophobic tails facing each other in the interior; (2) Cholesterol — intercalated between phospholipids; (3) Proteins — integral (spanning/embedded) and peripheral (surface-attached); (4) Carbohydrates — attached to lipids (glycolipids) or proteins (glycoproteins) on the extracellular surface. A wrong answer (e.g., \"proteins form a layer on both sides\") reveals the outdated Danielli-Davson \"sandwich model\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the plasma membrane remain fluid at body temperature (37°C) despite phospholipids being tightly packed? Explain the role of cholesterol in this context.",
+     "a": "At 37°C, the kinks in unsaturated fatty acid tails (cis double bonds) prevent tight packing, maintaining fluidity. Cholesterol acts as a \"fluidity buffer\": at high temperatures it restrains phospholipid movement (reducing fluidity), and at low temperatures it prevents tight packing by inserting between phospholipids (increasing fluidity). A wrong answer (e.g., \"cholesterol always makes membrane rigid\") shows failure to understand cholesterol's dual, temperature-dependent role — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats human red blood cells with an enzyme that cleaves carbohydrate moieties from membrane glycoproteins. Predict the effect on (a) cell-cell recognition and (b) membrane fluidity. Justify.",
+     "a": "(a) Cell-cell recognition will be impaired — carbohydrates on glycoproteins/glycolipids act as antigenic determinants (e.g., ABO blood group antigens) and ligands for lectins; their removal disrupts immune recognition and adhesion. (b) Membrane fluidity will be unaffected — carbohydrates project outward and do not interact with the hydrophobic core or phospholipid packing. A wrong answer linking carbohydrates to fluidity reveals confusion between extracellular recognition functions and bilayer physical properties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the extraction methods and locations of integral proteins versus peripheral proteins in the fluid mosaic model. Why can integral proteins not be removed by high-salt washes?",
+     "a": "Integral proteins are embedded in the hydrophobic core (transmembrane domains with hydrophobic amino acids interacting with fatty acid tails) and require detergents or organic solvents for extraction. Peripheral proteins are attached via electrostatic/hydrogen bonds to polar heads of phospholipids or to integral proteins and are removed by high-salt washes (disrupts ionic interactions) or pH changes. Integral proteins resist high-salt washes because their hydrophobic interactions with the lipid core are far stronger than electrostatic forces. A wrong answer indicates failure to link protein structure (hydrophobic domains) to membrane topology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The fluid mosaic model implies that all membrane proteins move freely and randomly in the plane of the membrane.\" Is this true? Provide evidence.",
+     "a": "False. While the model proposes lateral mobility, many proteins have restricted movement: (1) Cytoskeletal anchors (e.g., spectrin-ankyrin in RBCs) immobilize proteins; (2) Tight junctions in epithelia fence proteins into apical/basolateral domains; (3) Lipid rafts (cholesterol/sphingolipid microdomains) concentrate specific proteins. FRAP (Fluorescence Recovery After Photobleaching) experiments show *partial* recovery, proving restricted diffusion. A student agreeing with the statement overlooks membrane subdomains and cytoskeletal tethering — a senior-secondary nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using Fluorescence Recovery After Photobleaching (FRAP) to demonstrate lateral mobility of a transmembrane protein in a live mammalian cell. Outline the key steps and the expected observation if the protein is mobile vs. immobilized.",
+     "a": "Steps: (1) Label the transmembrane protein with a fluorescent tag (e.g., GFP fusion or fluorescent antibody). (2) Focus a laser on a small region of the membrane to bleach fluorophores. (3) Monitor fluorescence recovery in the bleached spot over time. (4) If mobile: fluorescence recovers as unbleached proteins diffuse in; calculate diffusion coefficient from recovery half-time. (5) If immobilized (e.g., cytoskeleton-anchored): no recovery. Control: treat with cytochalasin D (disrupts actin) — recovery should increase if cytoskeleton restricts mobility. A poor design omits controls or confuses lateral diffusion with vesicular trafficking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

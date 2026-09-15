@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_006",
+   "title": "c11_eco_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the formula for calculating the sectoral share of a country's Gross Value Added (GVA) and define each variable.",
+     "a": "Sectoral Share (%) = (Sectoral GVA / Total GVA) × 100. Sectoral GVA = value of output minus intermediate consumption for that sector; Total GVA = sum of GVA of all three sectors. A wrong answer (e.g., using GDP instead of GVA, or forgetting to multiply by 100) reveals confusion between gross and net measures or between percentage and proportion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country can have a high share of workforce in agriculture but a low share of agriculture in GVA, using the concept of labour productivity.",
+     "a": "Labour productivity = Sectoral GVA / Workforce in that sector. If agriculture employs 43% of workforce (India) but contributes only 18% to GVA, its labour productivity is far below the national average. A wrong answer that merely states \"agriculture is backward\" without quantifying productivity shows lack of analytical rigour; the student must link the disparity to output per worker.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.3 data, calculate the approximate labour productivity ratio (Industry GVA per worker / Agriculture GVA per worker) for India in 2022. Assume total workforce = 100 units for simplicity.",
+     "a": "Step 1: Agriculture: 43 workers produce 18 GVA → productivity = 18/43 ≈ 0.419. Step 2: Industry: 26 workers produce 28 GVA → productivity = 28/26 ≈ 1.077. Step 3: Ratio = 1.077 / 0.419 ≈ 2.57. A wrong answer (e.g., using shares directly without per-worker calculation) reveals misunderstanding that sectoral share ≠ productivity; the student must compute per-worker output.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sectoral growth trajectories of China (1980-90) and India (2014-18) using Table 8.4. Identify which sector drove growth in each country and explain the structural implication.",
+     "a": "China 1980-90: Industry 10.8%, Services 13.5% — both high, but industry's near double-digit growth created manufacturing jobs absorbing agricultural labour. India 2014-18: Services 7.6%, Industry 6.9% — services led, but industry growth was insufficient to absorb surplus labour, leading to \"jobless growth\" in manufacturing. A wrong answer that only quotes numbers without linking to employment absorption misses the structural transformation narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's direct shift from agriculture to services (bypassing industry) is a sustainable development model for a labour-abundant economy.\" Use evidence from Tables 8.3 and 8.4.",
+     "a": "Unsustainable for labour-abundant India because services (54% GVA, 31% workforce) have high productivity but low employment elasticity; industry (28% GVA, 26% workforce) has higher employment elasticity but stagnant growth (6.9% in 2014-18 vs China's 10.8% in 1980s). Without manufacturing absorbing low-skilled labour, 43% workforce remains trapped in low-productivity agriculture (18% GVA). A wrong answer that praises services-led growth ignores the employment-GVA mismatch and the need for mass employment generation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a policy brief (3 bullet points) for Pakistan's government based on its sectoral data: Agriculture 24% GVA, 36% workforce; Industry 21% GVA, 26% workforce; Services 55% GVA, 38% workforce; and growth rates (2014-18): Agriculture 1.7%, Industry 4.8%, Services 5.0%.",
+     "a": "1. Prioritise agricultural productivity: 36% workforce produces only 24% GVA (productivity gap); invest in irrigation, seeds, supply chains to raise farm incomes. 2. Revitalise manufacturing: Industry employs 26% but grows at only 4.8%; improve power, logistics, skill training to boost employment elasticity. 3. Leverage services for export earnings: Services lead at 55% GVA but only 38% workforce; promote IT/finance exports to earn foreign exchange and fund structural upgrades. A poor answer lists generic reforms without tying each to the specific sectoral imbalance shown in the data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

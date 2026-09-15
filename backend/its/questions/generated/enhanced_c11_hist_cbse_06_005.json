@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_005",
+   "title": "c11_hist_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define the term \"demesne\" in the context of a medieval European manor.",
+     "a": "The demesne was the portion of the manor’s arable land directly cultivated by the lord (using peasant labour services) for his own profit, distinct from the strips allocated to peasants for their subsistence. A wrong answer (e.g., \"the whole village land\" or \"the peasant’s plot\") reveals confusion between the lord’s reserve and peasant holdings, a fundamental error for analysing surplus extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the manor is described as \"largely self-sufficient\" and identify one major exception to this self-sufficiency.",
+     "a": "The manor produced most of its own food, cloth, tools, and building materials locally, minimising the need for market exchange. The major exception was salt (essential for preserving meat) and iron (for ploughshares, weapons), which had to be obtained from distant mines or markets. A wrong answer that claims \"complete self-sufficiency\" ignores the long-distance trade in necessities that linked manors to wider networks.",
+     "self_check": true
+    },
+    {
+     "q": "A serf on a 13th-century French manor owes three days of week-work (corvée) on the demesne, pays an annual tallage of 12 deniers, and gives a portion of his harvest (champart) at a rate of 1/12th. If his household produces 240 bushels of grain in a year, calculate the total grain equivalent of his obligations assuming 1 denier = 2 bushels of grain. Show your reasoning.",
+     "a": "Step 1: Corvée labour is a labour obligation, not directly convertible to grain without knowing the daily output; we note it separately. Step 2: Tallage = 12 deniers × 2 bushels/denier = 24 bushels. Step 3: Champart = 1/12 × 240 bushels = 20 bushels. Step 4: Total grain-equivalent dues = 24 + 20 = 44 bushels (plus unquantified labour). A wrong answer that ignores the conversion rate or adds corvée as bushels shows inability to handle mixed feudal dues – a key analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the obligations of a serf on a European manor with those of a peasant in the *jajmani* system of medieval India. Identify two structural similarities and one critical difference.",
+     "a": "Similarities: (1) Both involve hereditary, caste/status-bound ties to land and service; (2) Both entail payment in kind (grain, craft goods) rather than purely cash. Difference: The *jajmani* relationship is primarily occupational (artisan/service caste serving landowning patrons) and operates within a village council framework, whereas the serf’s obligation is tied to *land tenure* on the lord’s demesne and enforced by the manorial court. A wrong answer that equates serfdom with *jajmani* servitude misses the legal bondage to the soil unique to European serfdom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The three-field system was the technological backbone of the feudal manor’s surplus production.\" Support your judgement with two pieces of evidence.",
+     "a": "The claim is largely valid. Evidence 1: The three-field rotation (winter crop, spring crop, fallow) raised land productivity by 33–50% over the two-field system, directly increasing the surplus available for the demesne. Evidence 2: It required coordinated village-level ploughing schedules, reinforcing the manorial court’s authority over peasant time. A weak evaluation treats the three-field system as merely an agricultural technique without linking it to surplus extraction and social control.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a labelled diagram of a typical open-field manor (plan view) showing: the lord’s demesne strips, peasant strips (villein and free), common pasture, woodland, village housing, and the manor house. Annotate each element with the specific right or obligation attached to it.",
+     "a": "A good diagram uses a rectangular field divided into long strips grouped into three fields (A, B, C), with demesne strips interspersed or consolidated. Annotations: demesne – \"lord’s reserve, worked by corvée\"; villein strips – \"hereditary, owe week-work, tallage, merchet\"; free strips – \"owe rent only, no labour service\"; common pasture – \"grazing rights stinted by holding size\"; woodland – \"pannage, estover rights\"; manor house – \"court, storage, defence\". A poor diagram omits the intermingling of strips or fails to attach obligations, showing a static rather than relational understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,401 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 9,
+ "chapter_title": "Introduction to Bioinformatics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt109.1",
+   "title": "Correlation and Regression in Biological Data",
+   "section": "9.1",
+   "definition": "When two variables such as heart rate and systolic pressure are measured across ten patients, an eyeball check cannot certify their association; regression draws the best-fit line and reports an R-squared between zero and one that measures how tightly points hug it, while correlation only quantifies the connectedness - and a good fit lets the null hypothesis be rejected.",
+   "formula": "hr_mean = hr_sum / patients",
+   "key_idea": "Average each variable first, then let the regression line and its R-squared decide whether the variables truly move together.",
+   "textbook_ref": "kebt109.txt section 9.1, Table 9.1, Fig. 9.1",
+   "question_patterns": [
+    "ten patients record heart rates and systolic pressures - compute the mean of each variable",
+    "what does an R-squared value of 0.85 indicate about the fit of a regression line",
+    "differentiate correlation from regression using the blood pressure and heart rate example",
+    "when should the null hypothesis be rejected in a regression study",
+    "why is a visual estimate insufficient to establish the relationship between two variables",
+    "which software environments do biologists use for regression and visualisation of large datasets"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total each variable",
+     "explain": "Add the readings of every patient for one variable.",
+     "compute": "hr_total = p1_hr + p2_hr + p3_hr + p4_hr + p5_hr"
+    },
+    {
+     "step": 2,
+     "action": "average the heart rates",
+     "explain": "Divide by the number of patients.",
+     "compute": "hr_mean = hr_total / patients"
+    },
+    {
+     "step": 3,
+     "action": "average the pressures",
+     "explain": "Repeat the same arithmetic for the second variable.",
+     "compute": "bp_mean = bp_sum / patients"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which measure reports how tightly points hug the regression line: R-squared or the mean?",
+     "a": "R-squared"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.2",
+   "title": "Statistical Significance and the P-value",
+   "section": "9.1 and Box 1",
+   "definition": "A p-value gives the chance of seeing the observed result if the null hypothesis were true, and a cutoff of 0.05 - that is, ninety-five percent significance - has been the traditional pass mark, although the chapter warns that this threshold breeds false positives and small samples are better shown as all data points rather than averages with standard deviations.",
+   "formula": "significance_pct = (1 - p_cutoff) * 100",
+   "key_idea": "Subtract the cutoff from one and multiply by a hundred to convert it into a significance percentage.",
+   "textbook_ref": "kebt109.txt section 9.1 and Box 1 glossary",
+   "question_patterns": [
+    "convert the conventional p-value cutoff of 0.05 into a percent significance level",
+    "define the null hypothesis and explain what a small p-value does to it",
+    "why does the 0.05 threshold need re-examination according to the chapter",
+    "match the terms p-value t-test and ANOVA with the comparisons they analyse",
+    "why should small samples be plotted as individual points instead of mean with standard deviation",
+    "what is multiple testing correction and when is it applied"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the confidence remainder",
+     "explain": "Significance equals one minus the cutoff probability.",
+     "compute": "confidence = 1 - p_cutoff"
+    },
+    {
+     "step": 2,
+     "action": "convert to percent",
+     "explain": "Multiply by one hundred to express it as a percentage.",
+     "compute": "significance_pct = confidence * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The traditional p-value cutoff of 0.05 means ninety-five percent what?",
+     "a": "significance"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.3",
+   "title": "Scope and Milestones of Bioinformatics",
+   "section": "9.2",
+   "definition": "Bioinformatics fuses biology with computer science, mathematics, statistics and engineering to store, retrieve and interpret molecular data; Margaret Dayhoff's 1965 Atlas of Protein Sequence pioneered it, GenBank opened in 1982, the word itself entered literature around 1991, and the human genome project pushed it into the mainstream of genome-wide analysis.",
+   "formula": "-",
+   "key_idea": "Sequence databases and the genome era turned a quiet support craft into a discipline every biologist now needs.",
+   "textbook_ref": "kebt109.txt sections 9.2-9.2.1",
+   "question_patterns": [
+    "define bioinformatics and name the disciplines that meet at its intersection",
+    "which 1965 publication by Margaret Dayhoff became the model for sequence databases",
+    "in which year was GenBank launched and what does it store",
+    "when did the term bioinformatics begin appearing in the literature",
+    "why did structural bioinformatics precede genome-wide informatics",
+    "how do data mining and hypothesis generation fit the goals of bioinformatics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the milestones",
+     "explain": "1965 Atlas, 1982 GenBank, 1991 first literature use, then the human genome project boom."
+    },
+    {
+     "step": 2,
+     "action": "map the inputs",
+     "explain": "High-throughput sequencers and microarrays feed the pipelines that statistics and algorithms digest."
+    },
+    {
+     "step": 3,
+     "action": "state the outputs",
+     "explain": "Stored, annotated and interpreted data that generate biological insight and new hypotheses."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose 1965 Atlas of Protein Sequence pioneered bioinformatics: Margaret Dayhoff's or Mendel's?",
+     "a": "Margaret Dayhoff's"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.4",
+   "title": "Biological Databases and Data Portals",
+   "section": "9.3",
+   "definition": "A biological database is a machine-searchable library of organised biological information, run by a database management system through query languages for relational designs or NoSQL schemes for scattered unstructured data; the workhorses are GenBank for DNA sequences, PDB for 3D structures, UniProt for proteins, PubMed for literature, KEGG for pathways and OMIM for human genes and disorders.",
+   "formula": "-",
+   "key_idea": "Match the data type to its portal - sequences, structures, pathways or literature - and judge a database by access, documentation and upkeep.",
+   "textbook_ref": "kebt109.txt sections 9.3-9.3.1",
+   "question_patterns": [
+    "match GenBank PDB UniProt PubMed KEGG and OMIM with the data type each archives",
+    "differentiate relational from non-relational databases with reference to SQL",
+    "what makes a biological database a good one - list four desirable characteristics",
+    "why must nucleotide sequences be stored in machine-readable form rather than on shelves",
+    "which database would you search for a 3D structure of a protein complex",
+    "what does the database management system of a repository do"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the data type",
+     "explain": "Sequence, structure, pathway, literature or disease catalog decides the portal."
+    },
+    {
+     "step": 2,
+     "action": "check the architecture",
+     "explain": "Relational stores use structured query language; NoSQL serves large unstructured collections."
+    },
+    {
+     "step": 3,
+     "action": "judge the quality",
+     "explain": "Ease of access, documentation, cross-references and continuous updating mark a reliable repository."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which database stores 3D structures: PDB or PubMed?",
+     "a": "PDB"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.5",
+   "title": "Experimental Technologies for Biomolecule Analysis",
+   "section": "9.2.2",
+   "definition": "Each biomolecule has its profiling tools: PCR amplifies DNA, real-time qPCR reads RNA expression, next-generation sequencers read genes and transcriptomes, gel electrophoresis sorts DNA, RNA and proteins by size and charge, HPLC separates metabolites, mass spectrometry fragments molecules to weigh them, and electron microscopy resolves structure and sequence.",
+   "formula": "-",
+   "key_idea": "Pick the technology by the molecule and the question - amplification, expression, sequence, separation, mass or structure.",
+   "textbook_ref": "kebt109.txt section 9.2.2, Table 9.2",
+   "question_patterns": [
+    "match PCR qPCR next-generation sequencing gel electrophoresis HPLC and mass spectrometry with the biomolecule each assays",
+    "which technology would quantify RNA expression and which would amplify a DNA region of interest",
+    "on what basis does gel electrophoresis separate fragments of DNA RNA and proteins",
+    "which instrument measures the isotopic composition and mass of metabolites",
+    "what data format does capillary electrophoresis sequencing produce",
+    "why is the electron microscope listed among structure-determining technologies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the biomolecule",
+     "explain": "DNA, RNA, protein or metabolite decides the toolset."
+    },
+    {
+     "step": 2,
+     "action": "pick the purpose",
+     "explain": "Amplify, detect expression, sequence, separate, weigh or visualise."
+    },
+    {
+     "step": 3,
+     "action": "link to its data",
+     "explain": "Each technology outputs a characteristic data type - reads, intensity files, chromatograms or mass spectra."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which technology amplifies DNA: PCR or HPLC?",
+     "a": "PCR"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.6",
+   "title": "FASTA and FASTQ Record Arithmetic",
+   "section": "9.4.2",
+   "definition": "Sequences travel as text: a FASTA record opens with a greater-than description line followed by single-letter sequence, while FASTQ spends four lines per read - an at-sign header, the raw letters, a plus line and an equal-length quality line whose exclamation and tilde marks bracket the quality scale - so counting lines and letters sizes any file.",
+   "formula": "reads_in_file = total_lines / 4",
+   "key_idea": "Four lines hide in every FASTQ record, and the quality string must match the sequence letter for letter.",
+   "textbook_ref": "kebt109.txt section 9.4.2, Tables 9.3 and Fig. 9.4",
+   "question_patterns": [
+    "a FASTQ file holds 4000 lines - how many reads does it store",
+    "list the four lines of one FASTQ record and the character that begins the first and third",
+    "a read of 150 letters sits in a FASTQ record - how many quality symbols must its fourth line carry",
+    "which characters mark the lowest and highest quality in the quality line",
+    "how does a FASTA record differ from a FASTQ record in structure",
+    "why do quality scores accompany high-throughput sequencing reads"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the lines by four",
+     "explain": "Every read occupies exactly four lines in FASTQ.",
+     "compute": "reads_in_file = total_lines / 4"
+    },
+    {
+     "step": 2,
+     "action": "total the sequenced bases",
+     "explain": "Multiply the reads by the read length.",
+     "compute": "total_bases = reads_in_file * read_length"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many lines does one FASTQ record hold?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.7",
+   "title": "Sequencing Reads and Coverage Arithmetic",
+   "section": "9.4.3",
+   "definition": "High-throughput instruments emit short reads of roughly 100-150 nucleotides or long reads of a few kilobases; covering a genome therefore needs the genome size divided by the read length, and sequencing centres - the Broad Institute alone passes twenty-four terabytes a day - split such workloads into runs of fixed read capacity.",
+   "formula": "reads_needed = genome_size / read_length",
+   "key_idea": "Divide the genome by the read length for the read count, then by reads per run for the number of runs.",
+   "textbook_ref": "kebt109.txt sections 9.4-9.4.3",
+   "question_patterns": [
+    "how many reads of 150 nucleotides are needed to cover a 3 billion base genome once",
+    "a genome centre produces 24 terabytes of genome data per day - how much does it produce in a week",
+    "differentiate short reads from long reads with their typical lengths",
+    "why must reads be assembled de novo or aligned to a reference genome",
+    "a sequencer delivers 25 million reads per run - how many runs cover a genome needing 200 million reads",
+    "which quality control tools trim adaptors before assembly begins"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide genome by read length",
+     "explain": "Each read tiles that many bases of the genome.",
+     "compute": "reads_needed = genome_size / read_length"
+    },
+    {
+     "step": 2,
+     "action": "split into runs",
+     "explain": "Divide the reads by the per-run capacity.",
+     "compute": "runs_needed = reads_needed / reads_per_run"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Roughly how long are short sequencing reads: 100-150 nucleotides or a million?",
+     "a": "100-150"
+    }
+   ]
+  },
+  {
+   "id": "kebt109.8",
+   "title": "Genome Informatics Workflow and Artificial Intelligence",
+   "section": "9.4.4 and 9.5",
+   "definition": "After quality control, reads either align to a reference or assemble de novo into contigs; the finished genome then gets annotated for genes and repeats, scanned by gene predictors, described through gene ontology terms, and placed in phylogenetic trees with tools like PHYLIP, while machine learning - already calling genomic variants and reading eye images - promises the next leap if multidisciplinary teams keep pace with the data flood.",
+   "formula": "-",
+   "key_idea": "Quality-check, assemble or align, annotate, predict, and finally interpret - with AI joining the pipeline at every step.",
+   "textbook_ref": "kebt109.txt sections 9.4.4-9.5",
+   "question_patterns": [
+    "name the two modalities of analysis that follow sequencing",
+    "what is a contig and how do overlapping reads build one",
+    "differentiate ab initio similarity-based and integrated models of gene prediction",
+    "which three aspects of gene products does gene ontology describe",
+    "what does a phylogenetic tree convey and which tools compute evolutionary distances",
+    "how are machine learning algorithms already used on genomic variants",
+    "why does successful AI in bioinformatics demand multidisciplinary collaboration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "clean the reads",
+     "explain": "Quality control and adaptor trimming precede every workflow."
+    },
+    {
+     "step": 2,
+     "action": "build or map the genome",
+     "explain": "De novo assembly pieces reads by overlap; alignment parks them on a reference."
+    },
+    {
+     "step": 3,
+     "action": "annotate and interpret",
+     "explain": "Gene prediction, ontology, transcript prediction and phylogenetics link sequence to function, increasingly with machine learning."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "After quality control, reads either align to a reference or assemble de novo into what?",
+     "a": "contigs"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt109.txt section 9.1, Table 9.1 (ten patients)",
+   "concept": "kebt109.1",
+   "question_type": "compute",
+   "question_pattern": "Heart rates and systolic pressures of {patients} patients are recorded; the heart rates add to {hr_sum} beats per minute and the pressures add to {bp_sum} mm Hg. Find the mean heart rate and the mean systolic pressure.",
+   "extracted_variables": {
+    "patients": "number of patients",
+    "hr_sum": "sum of heart rates in beats per minute",
+    "bp_sum": "sum of systolic pressures in mm Hg"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the heart rates",
+     "explain": "Divide the summed rates by the patient count.",
+     "compute": "hr_mean = hr_sum / patients"
+    },
+    {
+     "step": 2,
+     "action": "average the pressures",
+     "explain": "Same division for the second variable.",
+     "compute": "bp_mean = bp_sum / patients"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt109.txt section 9.4.2 (four lines per FASTQ record)",
+   "concept": "kebt109.6",
+   "question_type": "compute",
+   "question_pattern": "A FASTQ file of {total_lines} lines stores reads of {read_length} bases each. Find the number of reads stored and the total bases sequenced in the file.",
+   "extracted_variables": {
+    "total_lines": "lines in the FASTQ file",
+    "read_length": "bases per read"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide lines by four",
+     "explain": "One record takes four lines.",
+     "compute": "reads_in_file = total_lines / 4"
+    },
+    {
+     "step": 2,
+     "action": "multiply by read length",
+     "explain": "Each read contributes its bases to the total.",
+     "compute": "total_bases = reads_in_file * read_length"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt109-ex1",
+   "source_ref": "kebt109.txt Exercises (questions 1-11)",
+   "questions": [
+    "Name the two modalities of analysis that follow sequencing.",
+    "Name any three major types of variants and state what disease-specific variants are called.",
+    "Which tool is preferred for transcriptome assembly in de novo and genome-guided modes?",
+    "Differentiate BLAT from BLAST and state which came first - structural bioinformatics or genome informatics.",
+    "In which data formats can DNA sequences be represented - FASTQ, FASTA, AB1 or all of them?",
+    "Can a phylogeny be produced directly from a multi-fasta file - justify your answer.",
+    "Which tool displays variants in a circular layout, and why do we sequence nucleic acids at all?"
+   ]
+  }
+ ]
+}

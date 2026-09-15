@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_008",
+   "title": "c10_math_cbse_06_008",
+   "questions": [
+    {
+     "q": "State the Ratio of Areas Theorem for two similar triangles ΔABC and ΔDEF. Write the formula relating their areas and corresponding sides.",
+     "a": "Correct answer: If ΔABC ~ ΔDEF, then ar(ΔABC)/ar(ΔDEF) = (AB/DE)² = (BC/EF)² = (CA/FD)². A wrong answer such as ar(ΔABC)/ar(ΔDEF) = AB/DE (missing the square) reveals the student thinks area scales linearly with side length, confusing perimeter ratio with area ratio. Another error is writing the ratio inverted, e.g., (DE/AB)², which shows confusion about which triangle corresponds to which in the notation.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles are similar. The ratio of their corresponding altitudes is 2:5. A student claims the ratio of their areas is 2:5. Is the student correct? Explain why or why not using the theorem.",
+     "a": "The student is incorrect. The ratio of areas is the square of the ratio of corresponding altitudes, so it should be (2/5)² = 4/25, i.e., 4:25. A wrong answer that agrees with the student indicates the misconception that all corresponding linear dimensions (sides, altitudes, medians) have the same ratio as the areas, ignoring the square relationship. This confusion often arises from not distinguishing between linear scale factor and area scale factor.",
+     "self_check": true
+    },
+    {
+     "q": "ΔPQR ~ ΔXYZ. The area of ΔPQR is 36 cm² and the area of ΔXYZ is 81 cm². If the length of side QR is 8 cm, find the length of the corresponding side YZ.",
+     "a": "Given: ar(ΔPQR) = 36 cm², ar(ΔXYZ) = 81 cm², QR = 8 cm. Since ΔPQR ~ ΔXYZ, ar(ΔPQR)/ar(ΔXYZ) = (QR/YZ)². So 36/81 = (8/YZ)². Simplify 36/81 = 4/9. Then (8/YZ)² = 4/9. Taking square root (positive since lengths are positive): 8/YZ = 2/3. Cross-multiply: 2 × YZ = 24 → YZ = 12 cm. A wrong answer like YZ = 18 cm (from 8 × 9/4) reveals the student forgot to take the square root of the area ratio, directly using the area ratio as the side ratio.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, DE || BC with D on AB and E on AC. If AD:DB = 2:3 and the area of ΔADE is 16 cm², find the area of ΔABC. Explain how the Basic Proportionality Theorem and the Ratio of Areas Theorem are used together.",
+     "a": "Since DE || BC, by BPT, AD/AB = AE/AC = DE/BC. Given AD:DB = 2:3, so AD/AB = 2/(2+3) = 2/5. Thus ΔADE ~ ΔABC (AA criterion) with side ratio 2:5. Area ratio = (2/5)² = 4/25. Let area of ΔABC = A. Then 16/A = 4/25 → A = 16 × 25/4 = 100 cm². A wrong answer of 40 cm² (using linear ratio 2/5 directly) shows the student did not square the ratio. An answer of 64 cm² (using DB/AD = 3/2) shows confusion about which triangle corresponds to which in the similarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the following problem: \"The areas of two similar triangles are 100 cm² and 64 cm². If a median of the smaller triangle is 5.6 cm, find the corresponding median of the larger triangle.\" The student writes: (100/64) = (5.6/x) → x = 3.584 cm. Identify the error and provide the correct solution.",
+     "a": "The student used the area ratio directly as the median ratio, forgetting to take the square root. Correct method: Ratio of areas = (ratio of corresponding medians)². So (median_large/median_small)² = 100/64 = 25/16. Taking square root: median_large/median_small = 5/4. Thus median_large = (5/4) × 5.6 = 7 cm. The student's error is a classic \"forgetting to square root the area ratio\" mistake, which leads to an answer smaller than the given median despite the larger triangle having larger area.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving two similar triangular signboards where the Ratio of Areas Theorem is needed to find an unknown dimension. The problem must use at least two different corresponding linear elements (e.g., side and altitude, or side and median). Provide the problem statement and a complete solution.",
+     "a": "Example problem: \"Two similar triangular traffic signboards have corresponding sides in the ratio 3:5. The altitude of the smaller signboard is 12 cm. Find (i) the altitude of the larger signboard, (ii) the ratio of their areas, and (iii) if the area of the larger signboard is 250 cm², find the area of the smaller one.\" Solution: (i) Altitude ratio = side ratio = 3:5, so larger altitude = (5/3)×12 = 20 cm. (ii) Area ratio = (3/5)² = 9:25. (iii) Smaller area = (9/25)×250 = 90 cm². A poor answer would use the same ratio for areas as for sides, or fail to set up the proportion correctly, indicating the student cannot transfer the theorem to a self-constructed context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

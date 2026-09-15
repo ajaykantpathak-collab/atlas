@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_008",
+   "title": "c12_biotech_cbse_02_008",
+   "questions": [
+    {
+     "q": "What is the direction of DNA migration in agarose gel electrophoresis and why does DNA move in that direction?",
+     "a": "DNA migrates toward the anode (positive electrode) because its phosphate backbone confers a net negative charge at neutral pH. A wrong answer (e.g., \"toward cathode\" or \"because DNA is positively charged\") reveals a fundamental misunderstanding of DNA's chemical structure and the convention of electrode polarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs a 1% agarose gel at 100 V for 30 minutes and sees that a 10 kb band and a 12 kb band are not resolved (they appear as a single band). The student concludes that the gel percentage is too high. Is this conclusion correct? Explain.",
+     "a": "The conclusion is incorrect. For large fragments (10–12 kb), a lower agarose percentage (e.g., 0.7–0.8%) provides larger pores and better resolution; a higher percentage gel would worsen separation. The student likely confused the rule: \"high percentage for small fragments, low percentage for large fragments.\" This error shows inability to apply the pore-size vs. fragment-size relationship.",
+     "self_check": true
+    },
+    {
+     "q": "You have a DNA ladder with bands at 100, 200, 300, 500, 1000, 2000, and 3000 bp. On your gel, an unknown sample migrates to a position exactly halfway between the 500 bp and 1000 bp bands (measured from the well). Estimate the size of the unknown fragment. Show your reasoning.",
+     "a": "Migration distance is linear with log₁₀(size). Halfway between 500 bp and 1000 bp in distance corresponds to the geometric mean: √(500 × 1000) ≈ 707 bp. A student who answers 750 bp (arithmetic mean) is incorrectly assuming linear relationship with size instead of log size — a common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resolution of a 3 kb fragment on a 0.8% agarose gel run at 50 V for 2 hours versus the same gel run at 120 V for 45 minutes. Which condition gives better separation and why? Consider both pore size and heat effects.",
+     "a": "The 50 V / 2 h run gives better resolution. Lower voltage reduces heat generation, preventing gel melting and band distortion (smiling). While higher voltage speeds up the run, excessive heat causes uneven migration and band broadening, especially for larger fragments like 3 kb. This tests the ability to analyze trade-offs between run time, voltage, and heat — a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher loads a restriction digest of a plasmid on a 1% agarose gel with ethidium bromide. Instead of discrete bands, she sees a continuous smear from the well to the dye front. Evaluate three possible causes and rank them from most to least likely for a standard plasmid digest.",
+     "a": "Most likely: (1) Incomplete restriction digestion (partial cuts yield many fragment sizes). Second: (2) Genomic DNA contamination (sheared chromosomal DNA runs as smear). Least likely: (3) Agarose concentration too low for the fragment sizes (would cause poor resolution, not a full smear). A wrong ranking indicates inability to evaluate experimental artifacts — critical for competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a gel electrophoresis experiment to distinguish between a 2.5 kb linear DNA fragment and a 2.5 kb supercoiled plasmid. Specify agarose percentage, voltage, run time, and how you would interpret the result. (Hint: supercoiled DNA migrates faster than linear DNA of the same mass.)",
+     "a": "Use 1% agarose, 80 V for 60 min in 1× TAE. Load both samples side-by-side with a ladder. The supercoiled plasmid will migrate farther (appear smaller) than the linear 2.5 kb fragment. If the student only says \"they will separate\" without predicting which band runs faster, they lack understanding of DNA topology's effect on mobility — a JEE/NEET advanced concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

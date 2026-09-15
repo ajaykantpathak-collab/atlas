@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "Electricity: Magnetic and Heating Effects",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.104.4.1",
+   "title": "Magnetic Effect of Electric Current",
+   "section": "4.1",
+   "definition": "An electric current flowing through a wire turns it into a magnet-like region: a compass needle near the wire deflects, and a current-carrying coil picks up iron pins, showing that electricity and magnetism are linked.",
+   "formula": "-",
+   "key_idea": "Current makes magnetism: deflection of a compass near a wire is the classic evidence.",
+   "textbook_ref": "hecu104.txt lines 44-140 (current has a magnetic effect)",
+   "question_patterns": [
+    "what happens to a compass needle placed near a current-carrying wire",
+    "how can you show that an electric current has a magnetic effect",
+    "why does a current-carrying coil attract iron pins",
+    "who discovered the magnetic effect of current",
+    "what happens to the deflection when the current is switched off",
+    "design an activity to demonstrate the magnetic effect of electricity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "set up the circuit",
+     "explain": "Connect a wire to a battery through a switch with a compass nearby."},
+    {"step": 2, "action": "switch on and observe",
+     "explain": "The needle deflects only while current flows, proving the magnetic effect."},
+    {"step": 3, "action": "test with materials",
+     "explain": "The energised coil lifts iron objects, confirming magnet-like behaviour."}
+   ]
+  },
+  {
+   "id": "hecu.104.4.2",
+   "title": "Electromagnets",
+   "section": "4.1",
+   "definition": "A coil of wire wound around an iron core becomes an electromagnet when current passes: it acts like a permanent magnet with north and south poles while energised, and its strength grows with more turns, larger current or a soft-iron core.",
+   "formula": "-",
+   "key_idea": "An electromagnet is a switchable magnet - on with current, off without it.",
+   "textbook_ref": "hecu104.txt lines 140-260 (electromagnets, iron core, poles)",
+   "question_patterns": [
+    "how is an electromagnet made",
+    "why is an iron core used in an electromagnet",
+    "how can the strength of an electromagnet be increased",
+    "does an electromagnet have poles - explain",
+    "how does an electromagnet differ from a bar magnet",
+    "name two devices that use electromagnets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "wind the coil",
+     "explain": "Insulated wire is wound closely around an iron nail or core."},
+    {"step": 2, "action": "pass the current",
+     "explain": "Connecting the ends to a battery magnetises the core."},
+    {"step": 3, "action": "test the poles and strength",
+     "explain": "The ends show north and south behaviour, and more turns or current lifts heavier pins."}
+   ]
+  },
+  {
+   "id": "hecu.104.4.3",
+   "title": "Heating Effect of Electric Current",
+   "section": "4.2",
+   "definition": "A current-carrying wire warms up because flowing charge loses energy as heat in the conductor; this heating effect is put to work in appliances like the electric heater, iron and bulb filament, and is guarded against in wiring through fuses.",
+   "formula": "-",
+   "key_idea": "Every current warms its wire - useful in heaters, dangerous in cables.",
+   "textbook_ref": "hecu104.txt lines 319-459 (does a current-carrying wire get hot)",
+   "question_patterns": [
+    "why does a current-carrying wire become hot",
+    "name three appliances that use the heating effect of current",
+    "how is the heating effect of current useful and how harmful",
+    "what is the role of a fuse in a household circuit",
+    "why does a bulb filament glow",
+    "design an activity to show the heating effect of electric current"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pass current through a wire",
+     "explain": "Connect a resistance wire in a simple circuit."},
+    {"step": 2, "action": "feel the warming",
+     "explain": "The wire heats after some time, showing energy turning into heat."},
+    {"step": 3, "action": "apply or guard",
+     "explain": "Heaters exploit the effect; fuses melt to cut off excess heating."}
+   ]
+  },
+  {
+   "id": "hecu.104.4.4",
+   "title": "How a Battery Generates Electricity",
+   "section": "4.3",
+   "definition": "A battery pushes current through chemical action inside: two different electrodes dipped in an electrolyte react, separating charges and maintaining a potential difference that drives current in the external circuit until the chemicals are used up.",
+   "formula": "-",
+   "key_idea": "Chemical energy inside the cell becomes electrical energy outside.",
+   "textbook_ref": "hecu104.txt lines 459-560 (how does a battery generate electricity)",
+   "question_patterns": [
+    "how does a battery produce electric current",
+    "what is the role of the electrolyte in a cell",
+    "name the parts of a simple dry cell",
+    "why does a cell stop working after long use",
+    "distinguish a cell from a battery",
+    "what energy change happens inside a battery"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the parts",
+     "explain": "Two electrodes of different materials sit in an electrolyte paste or liquid."},
+    {"step": 2, "action": "follow the chemical action",
+     "explain": "Reactions separate charges and set up a potential difference between terminals."},
+    {"step": 3, "action": "connect the circuit",
+     "explain": "The stored chemical energy drives current until reactants run out."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hecu104.txt section 4.1",
+   "questions": [
+     "Describe an activity to show the magnetic effect of electric current.",
+     "How will you make an electromagnet and test its poles?",
+     "List three uses of electromagnets."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hecu104.txt sections 4.2-4.3",
+   "questions": [
+     "Why does a wire carrying current heat up?",
+     "How does a fuse protect household wiring?",
+     "Explain how a dry cell generates electricity."
+   ]
+  }
+ ]
+}

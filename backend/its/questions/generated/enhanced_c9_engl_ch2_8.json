@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch2_8",
+   "title": "c9_engl_ch2_8",
+   "questions": [
+    {
+     "q": "What is the primary context clue type used in this sentence from the text: \"Sentila learned **wedging**, the process of kneading clay to remove air bubbles, before she could use the wheel\"?",
+     "a": "The primary context clue is **definition/explanation** (signaled by the comma and the phrase \"the process of...\"). A wrong answer (e.g., \"synonym\" or \"example\") reveals the student cannot distinguish between a direct definition clue and other clue types, which is essential for board-level vocabulary questions asking \"Which context clue helps you understand the meaning of X?\"",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The **kiln** was unlike the open fire her mother used; it was a covered oven that reached much higher temperatures,\" which context clue type helps you understand 'kiln' and why?",
+     "a": "The clue is **contrast/antonym** (signaled by \"unlike\" and the comparison to \"open fire\"). A wrong answer (e.g., \"example\" or \"inference\") shows the student misses the comparative structure that defines the kiln by what it is not, a common board exam pattern where students must identify the clue type.",
+     "self_check": true
+    },
+    {
+     "q": "Read this new sentence: \"After the first firing, the **bisque** ware was porous and ready for glazing.\" Using context clues, write the meaning of 'bisque' and identify the clue type used.",
+     "a": "Meaning: **Pottery that has been fired once but not yet glazed.** Clue type: **Example/Description** (the phrase \"porous and ready for glazing\" describes the state of the object). A wrong meaning (e.g., \"glazed pottery\") or wrong clue type reveals the student cannot extract descriptive details to infer meaning of a technical term.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the author introduces **'centering'** (described as \"the hardest skill: forcing the clay to spin perfectly still in the middle of the wheel\") versus **'glazing'** (described only as \"the final step before the second firing\"). Which term's meaning is more accessible from context and why?",
+     "a": "'Centering' is more accessible because the text provides a **definition + descriptive detail** (\"forcing the clay to spin perfectly still\"), while 'glazing' only gives a **sequence clue** (\"final step before...\") without explaining what the action actually is. A wrong comparison indicates the student cannot evaluate the *quality* of context clues, a higher-order skill needed for \"explain how the author helps the reader understand\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The word **'throwing'** in pottery means 'to hurl something forcefully' because that's what 'throw' means in cricket.\" Evaluate this reasoning using evidence from the pot-making context.",
+     "a": "The reasoning is **incorrect**. In the context of the chapter, 'throwing' is a technical term meaning \"shaping clay on a spinning wheel\" (supported by phrases like \"throwing a pot\" and \"her hands shaped the rising walls\"). The student commits the **polysemy error** – applying a common meaning to a domain-specific term. Board exams penalize this when questions ask \"Why is the word 'throwing' used here?\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence paragraph describing Sentila's morning routine using **four** pottery terms from the chapter (e.g., wedging, centering, throwing, glazing, kiln, bisque, firing) where the context *you write* makes each meaning clear.",
+     "a": "Sample: \"Sentila began with **wedging**, kneading the clay firmly to push out air bubbles. At the wheel, **centering** took intense focus to make the lump spin true. She then started **throwing**, pulling the walls up into a vase shape. Finally, she applied **glaze** by dipping the bisque piece in the liquid glass before the final firing.\" A poor answer uses terms without clarifying context (e.g., \"She did wedging and then throwing\") showing inability to *generate* context clues – the ultimate test of mastery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

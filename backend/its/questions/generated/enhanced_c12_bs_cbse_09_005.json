@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_005",
+   "title": "c12_bs_cbse_09_005",
+   "questions": [
+    {
+     "q": "A student states: \"Dividend decision is simply about how much profit to distribute to shareholders. If a company earns ₹100 crore, it can pay any amount up to ₹100 crore as dividend.\" Identify the fundamental error in this statement and explain why it is incorrect using the concept of 'retained earnings' and 'financing decision'.",
+     "a": "The error: The student treats dividend as a simple distribution of profit without recognising that retained earnings are a critical source of internal financing. The dividend decision directly determines the amount of retained earnings, which affects the financing decision (how much external capital must be raised). If a company pays out all ₹100 crore, retained earnings = ₹0, forcing the firm to raise external funds (debt/equity) for future investments — increasing cost of capital and financial risk. The correct view: Dividend decision = Distribution decision + Financing decision (via retained earnings). A wrong answer reveals the student sees dividend in isolation, not as part of the three-interlinked financial decisions (investment, financing, dividend).",
+     "self_check": true
+    },
+    {
+     "q": "Two companies, A and B, both earn ₹20 crore PAT. Company A operates in a mature FMCG sector with stable demand; Company B is a high-growth tech startup. Both have identical cash balances. Explain why Company A might declare a higher dividend per share than Company B, referencing at least two specific factors from the NCERT list.",
+     "a": "Company A (mature FMCG): (1) Stability of Earnings — FMCG has predictable, recurring revenue, so management is confident future earnings will sustain dividends. (2) Growth Opportunities — Limited high-ROI reinvestment opportunities; retaining excess cash yields low returns. Company B (tech startup): (1) Growth Opportunities — High-return R&D and market expansion projects need funding; retaining earnings avoids costly external equity. (2) Stability of Earnings — Volatile, uncertain earnings make committing to high dividends risky. A wrong answer (e.g., \"Company A is bigger\") reveals the student confuses company size with the economic factors driving dividend policy.",
+     "self_check": true
+    },
+    {
+     "q": "A company reports PAT of ₹30 crore and has ₹5 crore cash balance. It has a loan agreement restricting dividend payout if debt-to-equity exceeds 1.5x. Current D/E = 1.4x. The board proposes ₹25 crore dividend. Apply the factors 'Cash Flow Position' and 'Contractual Constraints' to evaluate this proposal. Show your reasoning step-by-step.",
+     "a": "Step 1: Cash Flow Position — Dividend requires cash outflow. PAT = ₹30 crore (accrual), but cash = ₹5 crore. Paying ₹25 crore dividend is impossible without raising cash (borrowing/selling assets). Factor violated: Cash Flow Position.\nStep 2: Contractual Constraints — Current D/E = 1.4x. Paying ₹25 crore dividend reduces equity (retained earnings) by ₹25 crore, increasing D/E ratio. New D/E = Debt / (Equity - ₹25 cr) > 1.5x (assuming debt constant). This violates loan covenant. Factor violated: Contractual Constraints.\nConclusion: Proposal is infeasible on both counts. A wrong answer (e.g., \"PAT is ₹30 crore so ₹25 crore is fine\") reveals confusion between accounting profit and cash availability, and ignorance of covenant mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"A company should always pay the maximum dividend possible because investors view dividend increases as good news and stock prices react positively (Stock Market Reaction factor), so higher dividend always maximises shareholder wealth.\" Identify the flaw using the 'Growth Opportunities' and 'Taxation Policy' factors.",
+     "a": "The statement commits the fallacy of ignoring opportunity cost and tax asymmetry. Flaw 1 (Growth Opportunities): If the company has projects earning RoI > cost of equity, retaining earnings to fund them creates more value per rupee than paying dividend. Paying \"maximum possible\" starves value-creating projects — share price may fall despite positive dividend signal. Flaw 2 (Taxation Policy): Under current Indian law, dividends are taxed in shareholders' hands at slab rates (up to 30%+), while capital gains (from retained earnings boosting share price) are taxed at lower rates (10-15% LTCG). For high-income shareholders, dividend is tax-inefficient. A wrong answer reveals the student treats stock market reaction as the only factor, ignoring the wealth maximisation objective which requires evaluating all factors simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this dividend policy for a capital-intensive manufacturing company: \"Maintain a constant dividend per share of ₹10 regardless of yearly earnings fluctuations, using reserves to top up in low-earnings years.\" Use the factors 'Stability of Dividends', 'Legal Constraints', and 'Amount of Earnings' in your evaluation.",
+     "a": "Evaluation: (1) Stability of Dividends — Policy aligns with this factor; constant DPS signals confidence and meets income-dependent shareholders' needs. Positive. (2) Legal Constraints — Companies Act prohibits paying dividend out of capital; can only pay from current/past profits (after providing for depreciation). Using reserves to \"top up\" in loss years may violate this if reserves are capital reserves or if accumulated losses exist. Risk: Illegal dividend → director liability. (3) Amount of Earnings — In low-earnings years, paying ₹10 DPS may exceed distributable profits, forcing the company to deplete free reserves unsustainably. Long-term, this erodes financial cushion. Verdict: Policy is desirable for signalling but must be capped by distributable profits test each year; a \"constant DPS\" target should be a guideline, not a rigid rule. A weak evaluation treats all three factors as equally supportive without recognising the legal/earnings constraints that make rigid constant DPS dangerous.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-case (3-4 sentences) for a listed Indian company where the dividend decision involves a genuine trade-off between at least three NCERT factors. State the company's situation, the conflicting factors, and the decision dilemma. Do not solve it — just design the case.",
+     "a": "Good case example: \"GreenPower Ltd., a renewable energy company, earned ₹200 crore PAT with ₹50 crore cash. It has a ₹1,000 crore solar farm expansion project with 14% RoI (cost of equity 12%). Shareholders include retail investors seeking regular income and foreign institutions preferring capital gains. A term loan covenant caps dividend payout at 40% of PAT. The board must decide: pay high dividend to satisfy retail shareholders and signal confidence (Stock Market Reaction, Shareholders' Preference) vs retain earnings to fund the high-ROI project without costly external equity (Growth Opportunities, Access to Capital Market) while staying within the 40% covenant (Contractual Constraints).\" A poor case uses only one factor, lacks financial specifics, or presents a trivial decision (e.g., \"company has no cash\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

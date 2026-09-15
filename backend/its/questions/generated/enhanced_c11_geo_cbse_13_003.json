@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_003",
+   "title": "c11_geo_cbse_13_003",
+   "questions": [
+    {
+     "q": "Name the river, the two dams, the reservoir, and the four beneficiary states (plus one union territory) of the Bhakra-Nangal Project.",
+     "a": "River: Sutlej (Indus tributary). Dams: Bhakra Dam (Himachal Pradesh) and Nangal Dam (Punjab). Reservoir: Gobind Sagar. Beneficiary states: Punjab, Haryana, Rajasthan, Himachal Pradesh; Union Territory: Delhi. A wrong answer (e.g., naming Beas or Ravi, missing Rajasthan or Delhi) reveals the student has not internalised the project's basin-scale geography and the inter-state command area that extends beyond the river's immediate riparian states into the Indira Gandhi Canal (Rajasthan) and Delhi's drinking water supply.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 226 m high gravity dam was necessary at Bhakra rather than a lower barrage, given the Sutlej's hydrological regime and the project's multiple objectives.",
+     "a": "The Sutlej is snow-fed with 70–80% of annual discharge concentrated in April–July (snowmelt + early monsoon), while irrigation demand peaks in Rabi (November–March). A barrage (low head, minimal storage) cannot carry over monsoon surplus to winter; only a high dam with large live storage (7.19 BCM) can temporal-shift water. Additionally, the 200+ m hydraulic head enables high-efficiency hydropower (1,325 MW installed), which a barrage cannot provide. Flood control requires reserving flood cushion space (2.15 BCM dead storage + surcharge), impossible with a barrage. A student who answers \"for more water storage\" without linking to seasonal regime, hydraulic head for power, and flood cushion demonstrates a descriptive rather than functional understanding.",
+     "self_check": true
+    },
+    {
+     "q": "The Gobind Sagar reservoir has a gross storage capacity of 9.34 BCM and live storage of 7.19 BCM. If the annual irrigation demand for the command area is 8.5 BCM and the average annual inflow is 14.2 BCM, calculate the percentage of demand met from live storage in a normal year, assuming 15% conveyance losses in canals and 10% evaporation loss from reservoir surface. Show steps.",
+     "a": "Step 1: Net water available from live storage = 7.19 BCM × (1 – 0.10 evaporation) = 6.471 BCM.\nStep 2: Water reaching field after conveyance loss = 6.471 BCM × (1 – 0.15) = 5.499 BCM ≈ 5.50 BCM.\nStep 3: Percentage of annual demand met = (5.50 / 8.5) × 100 = 64.7%.\nStep 4: Interpretation: Even in a normal year, live storage alone meets only ~65% of demand; the remainder must come from direct river diversion during monsoon (when inflow > release) and groundwater recharge in command area. A student who ignores evaporation or conveyance losses, or uses gross instead of live storage, fails to distinguish between theoretical capacity and utilisable yield—a critical distinction in water resources planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Bhakra-Nangal Project's inter-state allocation mechanism (BBMB) with the Cauvery Water Disputes Tribunal award. Identify two structural differences in how water-sharing is institutionalised and explain which model better accommodates variable annual flows.",
+     "a": "Difference 1: BBMB is a permanent statutory body (under Punjab Reorganisation Act, 1966) with representatives from all partner states and the Centre, managing real-time operations (reservoir levels, releases, power scheduling) on a continuous basis. The Cauvery Tribunal award is a one-time judicial allocation (monthly schedules) enforced by a supervisory committee but lacks a standing operational authority.\nDifference 2: BBMB allocates shares as percentages of available water (Punjab 51.8%, Haryana 37.5%, Rajasthan 15.2%, Himachal 7.19%, Delhi variable for drinking), automatically scaling down in deficit years. The Cauvery award specifies absolute volumes (TMC) per month, creating rigidity during low-flow years.\nBetter accommodation: BBMB's proportional sharing with real-time management adapts better to variability because releases are decided annually based on actual storage and inflow forecasts, whereas fixed volumetric awards trigger disputes when flows fall below the assumed normal. A student who only lists the states or mentions \"BBMB exists\" without contrasting operational flexibility vs. fixed allocation misses the institutional geography of water federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Bhakra-Nangal Project has been an unqualified success for India's food security and energy needs.\" Use three specific geographical criteria (hydrological, socio-economic, environmental) in your evaluation.",
+     "a": "Hydrological criterion: Success in temporal transfer—enabled double cropping (wheat-rice) in Punjab/Haryana, contributing 60% of India's wheat procurement. But induced waterlogging and secondary salinisation in 0.5 M ha of command area due to excessive canal seepage and inadequate drainage—reducing long-term land productivity.\nSocio-economic criterion: Success in benefit magnitude—irrigates 1.4 M ha, powers northern grid, provides drinking water to Delhi. But displacement of 371 villages (21,000 families) in Himachal with inadequate rehabilitation; benefits accrued disproportionately to downstream plains states while upstream hill state bore submergence costs.\nEnvironmental criterion: Fragmented Sutlej's longitudinal connectivity, blocking sediment flux to downstream floodplains and delta (Indus), reducing delta resilience; altered thermal regime affects aquatic biodiversity. Reservoir-induced seismicity (Koyna-type) risk in Himalayan seismic zone V.\nVerdict: Qualified success—high short-term productivity gains offset by long-term sustainability trade-offs and inequitable cost distribution. A student who calls it \"fully successful\" or \"a failure\" demonstrates binary thinking; the geographical lens demands multi-criteria, scalar (local vs. basin), and temporal (immediate vs. decadal) evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a revised operational rule curve for Gobind Sagar that prioritises (a) Rabi irrigation security for Rajasthan's Indira Gandhi Canal command, (b) minimum environmental flow (e-flow) of 50 m³/s in the Sutlej downstream of Nangal Dam year-round, and (c) hydropower generation during peak demand (18:00–22:00). Sketch the monthly target storage levels (as % of live storage) and justify the April–June drawdown strategy.",
+     "a": "Proposed rule curve (month-end target % of live storage): Jan 40%, Feb 30%, Mar 20%, Apr 15%, May 10%, Jun 15%, Jul 40%, Aug 70%, Sep 90%, Oct 85%, Nov 70%, Dec 55%.\nJustification: April–June drawdown to 10–15% creates flood cushion for July–September snowmelt+monsoon inflow (avg 10 BCM in 3 months), while maintaining 50 m³/s e-flow (130 MCM/month) from dead storage + minimal turbine release. Rabi security: January–March releases from stored water (40%→20%) meet Rajasthan's critical wheat irrigation via IGC. Peak power: Daily peaking achieved by cycling 5–10 m head variation within monthly target, not by violating rule curve. A poor answer proposes a flat curve or ignores e-flow, showing inability to balance competing temporal demands— the core challenge of multipurpose reservoir operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

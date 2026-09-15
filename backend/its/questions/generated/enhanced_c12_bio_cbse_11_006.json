@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_006",
+   "title": "c12_bio_cbse_11_006",
+   "questions": [
+    {
+     "q": "What are the three temperature-dependent steps in a standard PCR cycle, their typical temperature ranges, and the key molecular event occurring in each step?",
+     "a": "Correct answer: (1) Denaturation: 94–98°C — hydrogen bonds between complementary strands break, yielding single-stranded DNA templates. (2) Annealing: 50–65°C — primers bind to complementary sequences on single-stranded templates via hydrogen bonding. (3) Extension: 72°C (optimum for Taq polymerase) — DNA polymerase adds dNTPs to 3'-OH of primers, synthesizing new strands. A wrong answer (e.g., swapping annealing/extension temperatures or omitting hydrogen bond breakage) reveals the student memorizes temperatures without understanding the biophysical basis: high temperature melts dsDNA, lower temperature allows specific primer binding, and intermediate temperature maximizes polymerase activity without denaturing primers.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Taq polymerase used in PCR instead of human DNA polymerase or E. coli DNA polymerase I? Explain at the molecular level.",
+     "a": "Correct answer: Taq polymerase is thermostable — it retains activity after repeated exposure to 94–98°C denaturation temperatures because it originates from the thermophilic bacterium Thermus aquaticus (hot springs). Human and E. coli polymerases denature irreversibly at >60°C, requiring fresh enzyme addition each cycle (impractical). A wrong answer citing \"speed\" or \"fidelity\" as the primary reason reveals confusion: Taq is actually slower and lower fidelity (no 3'→5' exonuclease proofreading) than many mesophilic polymerases; its sole indispensable property is thermostability, which enables automation.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up PCR with 1 ng of a 3 kb plasmid template. After 30 cycles, they run the product on an agarose gel and see a single bright band at 3 kb. They claim \"theoretical yield is 2³⁰ = ~1 billion copies, so I have ~1 billion × 3 kb DNA = 3 Gb of product.\" Identify the flaw in this reasoning and calculate the actual maximum mass of product possible.",
+     "a": "Flaw: Theoretical yield assumes unlimited reagents and 100% efficiency every cycle. In reality, dNTPs, primers, and polymerase become limiting; product re-annealing competes with primer binding; and enzyme loses activity. Maximum product mass is limited by initial dNTP concentration. Typical 200 µM dNTP in 50 µL = 10 nmol total dNTPs. Each 3 kb strand incorporates 3000 dNTPs. Max strands = 10 nmol / 3000 = 3.3 pmol = 2×10¹² molecules. Mass = 3.3 pmol × 3000 bp × 660 g/mol/bp ≈ 6.5 µg. The student's claim of 3 Gb (≈3 mg) exceeds reagent capacity by 500-fold. Wrong answers ignoring reagent limitation show misunderstanding of PCR as a chemical reaction with stoichiometric constraints, not just a mathematical doubling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of primers in PCR versus in vivo DNA replication. Include: origin, sequence specificity, and fate after extension.",
+     "a": "Correct comparison: In PCR, primers are synthetic oligonucleotides (18–24 nt) designed to flank a specific target sequence; they are sequence-specific by design and remain incorporated into the 5' ends of amplicons. In vivo, primers are short RNA oligonucleotides (≈10 nt) synthesized by primase at replication origins (prokaryotes) or multiple origins (eukaryotes); they are not sequence-specific beyond requiring a 3'-OH, and are later removed by RNase H/FEN1 and replaced with DNA by DNA polymerase I (prokaryotes) or Pol δ (eukaryotes). A wrong answer stating \"primers are RNA in both\" or \"primers are removed in PCR\" reveals confusion between the engineered in vitro system and the biological replication machinery.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher designs primers for a 500 bp target but gets a 150 bp product instead. The 150 bp product appears even in no-template controls. Evaluate: Is this the target amplicon? What is the most likely explanation? Propose two experimental modifications to fix it.",
+     "a": "Evaluation: The 150 bp product is NOT the target amplicon (wrong size). Appearance in no-template control (NTC) indicates contamination or primer-dimer artifacts. Most likely: primer-dimer formation — primers have 3' complementarity, anneal to each other, and get extended by Taq, creating a short product that amplifies efficiently. Fixes: (1) Redesign primers to eliminate 3' complementarity (check with tools like Primer-BLAST). (2) Increase annealing temperature by 2–5°C to destabilize primer-dimer annealing (less stable than specific primer-template binding). A wrong answer blaming \"template contamination\" for NTC bands misses that primer-dimers are intrinsic to primer design, not external contamination.",
+     "self_check": true
+    },
+    {
+     "q": "Design a PCR-based strategy to distinguish between a wild-type allele (sequence: 5'-ATGCCGTA-3') and a mutant allele with a single-base deletion (5'-ATGCGTA-3') in a diploid human sample. Specify primer placement, expected product sizes, and how you would interpret heterozygous vs homozygous results on a gel.",
+     "a": "Strategy: Design one primer pair flanking the deletion site (e.g., forward 100 bp upstream, reverse 100 bp downstream). Wild-type amplicon = 208 bp (including the 8 bp target); mutant amplicon = 207 bp (1 bp shorter). Resolution: 1 bp difference on standard agarose gel is invisible — use 3–4% metaphor agarose or polyacrylamide gel electrophoresis (PAGE), or introduce a restriction site via primer engineering (RFLP-PCR). Interpretation: Heterozygote shows two bands (208 bp + 207 bp); homozygous wild-type shows one 208 bp band; homozygous mutant shows one 207 bp band. A poor answer suggesting \"just run on agarose gel\" ignores resolution limits; a good answer acknowledges the need for high-resolution separation or an alternative method (ARMS-PCR, TaqMan probe).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

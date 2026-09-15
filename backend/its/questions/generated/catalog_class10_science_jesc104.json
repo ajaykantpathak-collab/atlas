@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class10_science_jesc104.json",
+ "concepts": [
+  {
+   "id": "jesc.104.4.1",
+   "title": "The Versatile Nature of Carbon - Covalent Bonding",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is carbon's covalency called tetravalency?",
+     "a": "One carbon atom forms four covalent bonds by sharing its four outer electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Why does carbon show the property of catenation?",
+     "a": "C-C bonds are strong and stable, so carbon atoms link into long chains and rings.",
+     "self_check": true
+    },
+    {
+     "q": "Why are there so many carbon compounds in nature?",
+     "a": "Tetravalency plus catenation lets carbon build chains, branches and rings with many elements - millions of compounds.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.104.4.2",
+   "title": "Hydrocarbons, Functional Groups and Homologous Series",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a homologous series?",
+     "a": "A family of compounds with the same functional group and general formula where successive members differ by CH2 (14 u).",
+     "self_check": true
+    },
+    {
+     "q": "Give the general formulae of alkanes, alkenes and alkynes.",
+     "a": "Alkanes CnH2n+2, alkenes CnH2n, alkynes CnH2n-2.",
+     "self_check": true
+    },
+    {
+     "q": "Name the functional groups of alcohols, aldehydes, ketones and carboxylic acids.",
+     "a": "-OH (alcohol), -CHO (aldehyde), -CO- (ketone), -COOH (carboxylic acid).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.104.4.3",
+   "title": "Chemical Properties and Reactions of Carbon Compounds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when ethyl alcohol burns in air?",
+     "a": "It burns with a clean blue flame forming CO2 and water, releasing heat - a combustion reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Which reaction turns ethanol into ethene?",
+     "a": "Dehydration with hot concentrated sulphuric acid at 443 K removes water, giving ethene.",
+     "self_check": true
+    },
+    {
+     "q": "What is the reaction between ethanol and ethanoic acid called and what is the product?",
+     "a": "Esterification; the sweet ester ethyl ethanoate plus water form.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.104.4.4",
+   "title": "Soaps and Detergents - Cleansing Action",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is soap ineffective in hard water while detergent works?",
+     "a": "Soap forms insoluble scum with Ca/Mg ions; detergents avoid this and clean in hard water.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the term 'micelle' in soap action.",
+     "a": "A cluster where soap tails trap the oil droplet inside and heads face the water, letting the oil be rinsed away.",
+     "self_check": true
+    },
+    {
+     "q": "Why are carbonaceous fuels called hydrocarbons?",
+     "a": "They contain only hydrogen and carbon, which burn to give CO2, water and heat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

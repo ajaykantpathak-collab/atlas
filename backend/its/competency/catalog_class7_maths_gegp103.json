@@ -1,0 +1,236 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "A Peek Beyond the Point: Smaller Units and Decimals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.3.1",
+   "title": "Why Smaller Units: Tenths and Hundredths",
+   "section": "A Peek Beyond the Point",
+   "definition": "When a unit is too big for a measurement, it is cut into ten equal parts and further hundredths: one tenth is written 0.1 and one hundredth 0.01, so lengths and weights gain the precision the task needs.",
+   "formula": "1 tenth = 0.1, 1 hundredth = 0.01",
+   "key_idea": "Smaller units are fractions of the unit wearing a point: the point opens the door to finer measures.",
+   "textbook_ref": "gegp103.txt, A Peek Beyond the Point",
+   "question_patterns": [
+    "what does the digit just after the point show",
+    "write one tenth and one hundredth in figures",
+    "why do we need smaller units than a centimetre sometimes",
+    "shade 0.3 of the given grid",
+    "which is more 0.5 or 0.05 why",
+    "write 7 tenths as a decimal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.2",
+   "title": "Decimal Place Value: Reading the Point",
+   "section": "Decimal place value",
+   "definition": "After the point, places continue the place-value story in reverse: tenths, hundredths and thousandths, so a number like 4.38 means 4 units, 3 tenths and 8 hundredths.",
+   "formula": "num = w + t / 10 + h / 100",
+   "key_idea": "The point is a mirror: to its right, each place divides by ten instead of multiplying.",
+   "textbook_ref": "gegp103.txt, Decimal place value",
+   "question_patterns": [
+    "read the number 4.38 in units tenths and hundredths",
+    "what is the place value of 7 in 9.72",
+    "write 2 + 5/10 + 6/100 as a decimal number",
+    "which digit of 12.304 is in the hundredths place",
+    "write the decimal for 9 and 4 hundredths",
+    "why does each place after the point divide by ten"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the whole part",
+     "explain": "Write the whole units to the left of the point.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "place tenths and hundredths",
+     "explain": "Each digit after the point adds its fraction of a unit.",
+     "compute": "num = w + t / 10 + h / 100"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.3",
+   "title": "Adding and Comparing Decimals",
+   "section": "Addition and comparison of decimals",
+   "definition": "Decimals are added by lining up the points so that tenths fall under tenths and hundredths under hundredths; to compare decimals, match place values from the left until one digit differs.",
+   "formula": "total = a + b",
+   "key_idea": "Align the point and every place falls in line: comparison and addition both read place by place.",
+   "textbook_ref": "gegp103.txt, Addition and comparison of decimals",
+   "question_patterns": [
+    "add 2.5 and 3.75",
+    "compare 4.09 and 4.9 which is bigger",
+    "add 1.8 and 2.4 and give the answer",
+    "arrange 0.5, 0.45 and 0.55 in increasing order",
+    "why must the points be aligned while adding decimals",
+    "which is greater 7.2 or 7.09 give a reason"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "line up the points",
+     "explain": "Write the numbers with their points in one column.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add place by place",
+     "explain": "Add each column starting from the right; the total keeps the point in place.",
+     "compute": "total = a + b"
+    }
+   ]
+  },
+  {
+   "id": "gegp.3.4",
+   "title": "Decimals in Units of Measurement",
+   "section": "Units of measurement",
+   "definition": "Decimals carry measurements across units: 5 mm is 0.5 cm, 250 g is 0.250 kg, and moving the point converts a measure from one unit to its bigger or smaller neighbour.",
+   "formula": "",
+   "key_idea": "Unit conversion moves the point: dividing by ten shifts it left, multiplying shifts it right.",
+   "textbook_ref": "gegp103.txt, Units of measurement",
+   "question_patterns": [
+    "write 5 mm in centimetres",
+    "express 250 g in kilograms as a decimal",
+    "convert 3.2 cm into millimetres",
+    "which is longer 1.5 m or 150 cm",
+    "write 75 paise in rupees as a decimal",
+    "why does the point move when units change"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp103.txt",
+   "concept": "gegp.3.2",
+   "question_type": "compute",
+   "question_pattern": "Write the decimal number with 4 whole units, 3 tenths and 8 hundredths.",
+   "extracted_variables": {
+    "w": "whole units",
+    "t": "tenths digit",
+    "h": "hundredths digit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "place the whole part",
+     "explain": "The whole units sit left of the point.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the fractional digits",
+     "explain": "Tenths take the first place after the point, hundredths the second.",
+     "compute": "num = w + t / 10 + h / 100"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp103.txt",
+   "concept": "gegp.3.2",
+   "question_type": "compute",
+   "question_pattern": "Write the decimal number with 2 whole units, 0 tenths and 5 hundredths.",
+   "extracted_variables": {
+    "w": "whole units",
+    "t": "tenths digit",
+    "h": "hundredths digit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "place the whole part",
+     "explain": "Two units sit left of the point.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add the fractional digits",
+     "explain": "A zero in the tenths place keeps the value correct.",
+     "compute": "num = w + t / 10 + h / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp103.txt",
+   "concept": "gegp.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "read the number 4.38 in units, tenths and hundredths.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp103.txt, Figure it Out",
+   "questions": [
+    "Write 5 mm in centimetres as a decimal.",
+    "Read the number 4.38 in units, tenths and hundredths.",
+    "Add 2.5 and 3.75.",
+    "Compare 4.09 and 4.9.",
+    "Which digit of 12.304 is in the hundredths place?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_014",
+   "title": "c11_eng_s_cbse_05_014",
+   "questions": [
+    {
+     "q": "What does PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student does not know the standard academic paragraph structure used in CBSE answer writing, leading to disorganized responses that lack analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why embedding a direct quote from the poem (e.g., \"The king was just and placid\") strengthens an answer about irony more than paraphrasing the same idea.",
+     "a": "A direct quote preserves the poet's exact wording, allowing the writer to analyze specific diction (e.g., the juxtaposition of \"just\" and \"placid\") and show how the language itself creates irony. A wrong answer that treats quotes and paraphrases as interchangeable reveals a misunderstanding of textual evidence: quotes are data for close reading; paraphrases are summaries that lose linguistic nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Given this weak answer to \"How is humour created in the poem?\": \"The poem is funny because the king hangs himself and then a melon becomes king.\" Rewrite it as a PEEL paragraph.",
+     "a": "**Steps:** 1. Point: Humour arises from absurd escalation and satirical inversion of justice. 2. Evidence: The king orders the arch hanged, then fits the noose himself (\"He was the King. His Majesty / Was therefore hanged by Royal Decree\"). 3. Explanation: The literal-minded \"justice\" turns the king into the criminal, mocking legal procedure. 4. Link: This absurdity prepares the reader for the melon coronation, extending the satire to governance. A wrong answer that merely adds more plot details without analysis shows the student cannot move from narration to literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"The Tale of Melon City\" with a traditional folk tale (e.g., \"The King and the Spider\"). Identify two structural differences.",
+     "a": "Difference 1: The poem uses a cumulative chain of blame (builder → workmen → masons → architect → king) that circles back to the ruler, whereas folk tales typically have a linear moral test. Difference 2: The poem ends with an anti-climactic, satirical resolution (melon king) that subverts the folk-tale expectation of restored order. A wrong answer that only lists plot events without comparing structure shows the student cannot analyze narrative architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Two sample answers address \"What impression would you form of a state where the King was 'just and placid'?\" Answer A: \"The state is peaceful because the king is fair.\" Answer B: \"The state appears orderly but is actually absurd; the king's passive justice leads to arbitrary executions and a melon ruler, revealing a system where process replaces justice.\" Which answer is better? Justify.",
+     "a": "Answer B is better because it interprets the adjectives ironically, uses textual evidence (arbitrary hangings, melon coronation), and connects to the theme of laissez-faire governance. A wrong choice (Answer A) reveals the student reads the king's description literally and misses the poem's satire, a critical error for Class 11 literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write a new ending for the poem in prose (3-4 sentences) that maintains the satirical tone and comments on modern governance.",
+     "a": "A strong answer will keep the deadpan tone, introduce a contemporary parallel (e.g., \"The melon was replaced by a constitution that no one read, and the people rejoiced in their liberty to ignore it\"), and use irony to critique passive citizenship. A poor answer that writes a happy ending or loses the satirical voice shows the student cannot transfer the poem's mode to a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

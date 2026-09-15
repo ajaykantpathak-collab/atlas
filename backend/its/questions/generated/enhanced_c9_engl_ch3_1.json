@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch3_1",
+   "title": "c9_engl_ch3_1",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a summary for an expository text like \"Evolution of the Pankha\"?",
+     "a": "The primary purpose is to convey the text's main ideas — the chronological stages of the pankha's development, key materials, and cultural shifts — in a condensed, objective form. A wrong answer (e.g., \"to describe the beauty of pankhas\" or \"to give my opinion on fans\") reveals the student confuses summary with descriptive writing or personal response, missing the expository focus on factual progression.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The pankha started as a leaf, then became a status symbol in Mughal courts, and now we have electric fans.\" What critical element of an evolutionary summary is missing?",
+     "a": "The summary misses the intermediate transitional stages (e.g., woven bamboo, painted cloth, mechanized punkahs) and the causal links (e.g., \"as trade expanded, materials diversified\"). A wrong answer like \"nothing, it covers start and end\" reveals the student thinks a summary only needs endpoints, not the developmental steps that explain *how* the evolution occurred.",
+     "self_check": true
+    },
+    {
+     "q": "Given this sentence from the text: \"By the 18th century, the punkah — a large swinging cloth fan operated by a servant via a rope — became essential in British colonial households.\" Rewrite it for a summary in your own words, keeping the chronological marker and the key innovation.",
+     "a": "\"In the 18th century, the rope-operated punkah emerged as a colonial household necessity.\" A wrong answer (e.g., \"The British used big fans pulled by servants\") drops the chronological marker \"18th century\" and the specific term \"punkah,\" showing the student cannot compress information while retaining precision.",
+     "self_check": true
+    },
+    {
+     "q": "The text has four paragraphs: (1) Ancient leaf fans, (2) Medieval woven fans, (3) Mughal ceremonial pankhas, (4) Colonial punkahs and modern electric fans. A student's summary discusses paragraph 3 before paragraph 2. Why does this weaken the summary?",
+     "a": "Reordering paragraphs destroys the chronological logic that defines an evolutionary text — the Mughal ceremonial pankha (para 3) developed *from* medieval woven techniques (para 2). A wrong answer like \"order doesn't matter if all points are there\" reveals the student treats the text as a list of facts rather than a developmental sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Two summaries are written: Summary A uses \"first, next, finally\" but includes a detail about the color of a specific Mughal pankha. Summary B uses no transition words but covers all four historical stages accurately. Which is better for a board exam and why?",
+     "a": "Summary B is better because board exams prioritize accurate coverage of all main stages over transition words, and penalize inclusion of minor details like specific colors. A wrong choice (Summary A) reveals the student overvalues surface-level cohesion markers and undervalues content selection — a common board-level error.",
+     "self_check": true
+    },
+    {
+     "q": "Write a two-sentence summary of this imaginary text snippet: \"The earliest pankhas were single palmyra leaves. By 500 CE, artisans wove bamboo strips into flat fans. The Delhi Sultanate introduced painted cloth fans. The Mughals added gold thread and jewels, making pankhas royal symbols.\"",
+     "a": "\"From simple palmyra leaves, pankhas evolved through woven bamboo and painted cloth under the Delhi Sultanate, reaching peak ornamentation as jeweled gold-threaded symbols of Mughal royalty.\" A poor answer (e.g., listing all four stages without synthesis) shows the student cannot condense — a core summarizing skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

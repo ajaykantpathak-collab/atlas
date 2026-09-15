@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_2",
+   "title": "c8_math_ch10_2",
+   "questions": [
+    {
+     "q": "A map has the statement scale \"1 cm = 3 km\". Write this as a Representative Fraction in the form 1:n.",
+     "a": "Correct answer: 1:300,000. A wrong answer like 1:3 or 1:3000 reveals the student did not convert km to cm before forming the ratio, or doesn't understand that both quantities in a ratio must have the same units. This is the most common error — treating the numbers alone without unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Representative Fraction 1:50,000 has no units written with it, while the statement scale \"1 cm = 500 m\" does have units.",
+     "a": "Correct answer: RF is a ratio of two quantities measured in the same units, so the units cancel out, leaving a pure number. Statement scale compares different units (cm vs m), so units must be stated. A wrong answer suggests the student thinks RF is just a shorthand without understanding the mathematical reason — it reveals confusion between a ratio (dimensionless) and a rate (with units).",
+     "self_check": true
+    },
+    {
+     "q": "A map has RF 1:250,000. If the distance between two towns on the map is 4.8 cm, what is the actual distance between the towns in kilometres? Show your working.",
+     "a": "Step 1: RF 1:250,000 means 1 cm on map = 250,000 cm on ground.\nStep 2: 4.8 cm on map = 4.8 × 250,000 cm = 1,200,000 cm on ground.\nStep 3: Convert cm to km: 1,200,000 cm ÷ 100,000 = 12 km.\nAnswer: 12 km. A wrong answer like 1.2 km or 1200 km reveals errors in decimal multiplication or unit conversion (forgetting 1 km = 100,000 cm). This tests both RF understanding and decimal operations from Class 7 (c7_math_ch12_003).",
+     "self_check": true
+    },
+    {
+     "q": "Two maps of the same city have RFs 1:20,000 and 1:100,000. Which map will show a larger area of the city on the same size paper? Which will show more detail? Justify your answer.",
+     "a": "The 1:100,000 map shows a larger area; the 1:20,000 map shows more detail. Reason: For the same map distance (say 1 cm), 1:100,000 represents 100,000 cm ground distance while 1:20,000 represents only 20,000 cm. So 1:100,000 covers more ground per cm of paper. Conversely, for a fixed ground feature (say a 100 m road), on 1:20,000 it appears as 5 cm on map, while on 1:100,000 it appears as only 1 cm — so 1:20,000 shows it larger/more detailed. A wrong answer indicates the student memorized \"smaller denominator = larger scale\" without understanding the inverse relationship between scale and area covered.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts \"1 cm = 4 km\" to RF and writes 1:4000. They argue: \"4 km = 4000 m, so 1:4000\". Evaluate their reasoning and correct the error.",
+     "a": "The student's reasoning is incorrect. 4 km = 4000 m is true, but RF requires both distances in the SAME units. Since map distance is given in cm, ground distance must also be in cm: 4 km = 400,000 cm. Correct RF is 1:400,000. The error reveals the student converted to metres instead of centimetres, ignoring that the map unit is cm. This is a classic \"unit mismatch\" error — they converted km to m but forgot the map unit is cm, not m.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where a person needs to choose between two maps with different RFs for a specific purpose (e.g., hiking, city navigation, long-distance driving). State the RFs, the purpose, and explain which map they should choose and why.",
+     "a": "Good answer example: \"Riya is hiking in the Western Ghats. Map A has RF 1:50,000; Map B has RF 1:250,000. She should choose Map A (1:50,000) because it shows more detail — trails, small streams, contour lines — which she needs for safe hiking. Map B covers a larger area but lacks detail for navigation on foot.\" A poor answer chooses the wrong map or gives no justification, revealing the student cannot apply the inverse relationship between scale denominator and detail level to a practical decision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

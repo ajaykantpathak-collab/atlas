@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_001",
+   "title": "c11_geo_cbse_11_001",
+   "questions": [
+    {
+     "q": "Define \"natural hazard\" and \"natural disaster\" in your own words, and state the single most critical factor that converts a hazard into a disaster.",
+     "a": "A natural hazard is a potentially damaging physical event (e.g., earthquake, cyclone); a natural disaster is the severe societal disruption caused when that hazard strikes a vulnerable community. The critical converting factor is *human vulnerability* (exposure of people/assets + susceptibility + lack of coping capacity). A wrong answer that equates the two terms or cites \"magnitude of the event\" as the deciding factor reveals the misconception that disasters are purely natural/inevitable rather than socially constructed.",
+     "self_check": true
+    },
+    {
+     "q": "The 2004 Indian Ocean tsunami was triggered by a megathrust earthquake off Sumatra. Classify the *primary hazard* and the *secondary hazard* in this event using the UNISDR five-category classification, and explain why the tsunami caused catastrophic disaster in Tamil Nadu but minimal disaster in the Andaman & Nicobar tribal reserves.",
+     "a": "Primary hazard: geophysical (earthquake); secondary hazard: hydrological (tsunami). The disaster disparity occurred because Tamil Nadu had high exposure (dense coastal population, infrastructure) and high vulnerability (poor building stock, no early warning), whereas tribal reserves had low exposure (sparse population) and high indigenous coping capacity (traditional knowledge of sea recession). A wrong answer that classifies both as \"geophysical\" or attributes the difference solely to wave height misses the vulnerability-exposure framework.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for two hypothetical regions hit by identical cyclones (wind speed 180 km/h, rainfall 300 mm/24h):\nRegion A: Population density 1,200/km², 80% kutcha houses, no early warning, no evacuation plan.\nRegion B: Population density 150/km², 90% pucca cyclone shelters, functional early warning, practiced evacuation drills.\nUsing the conceptual risk formula (Risk = Hazard × Vulnerability × Exposure / Capacity), qualitatively compare the disaster risk in the two regions and predict which will experience a \"disaster\" as per UN definition.",
+     "a": "Region A: Very high vulnerability (weak housing), high exposure (dense population), near-zero capacity → Risk ≈ Very High → Disaster certain. Region B: Low vulnerability (strong shelters), low exposure (sparse population), high capacity (warning + drills) → Risk ≈ Low → Hazard occurs but no disaster. A student who calculates numerically or ignores capacity reveals a mechanistic misunderstanding; the formula is conceptual, not arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"The 2013 Uttarakhand floods were a natural disaster caused by unprecedented cloudburst.\" Identify two geographical inaccuracies in this statement and rewrite it correctly using hazard-disaster terminology.",
+     "a": "Inaccuracies: (1) \"Natural disaster\" implies the disaster itself is natural; correctly, the *cloudburst* was the natural hazard, the *flood* was the resulting disaster. (2) \"Unprecedented\" ignores historical precedents (e.g., 1894, 1978) and anthropogenic amplifiers (unregulated construction on floodplains, deforestation, hydro-project debris). Correct rewrite: \"The 2013 Uttarakhand disaster resulted from a cloudburst hazard (meteorological) whose impact was amplified by high vulnerability due to haphazard hill-slope development and low institutional capacity.\" A student who calls the flood a \"hazard\" or blames only rainfall confuses process with outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Classifying hazards into geophysical, hydrological, meteorological, climatological, and biological is merely academic; for disaster management, all that matters is the emergency response.\" Argue for or against with three distinct reasons grounded in the geography of risk.",
+     "a": "Against. (1) Classification dictates *primary* agency and monitoring technology: geophysical → IMD/seismological networks; meteorological → IMD/INCOIS; biological → Health Ministry/NCDC. (2) Mitigation investments are hazard-specific: earthquake-resistant codes (geophysical) vs. floodplain zoning (hydrological) vs. heat-action plans (climatological). (3) Vulnerability profiles differ: biological hazards require healthcare surge capacity; climatological hazards require long-term livelihood adaptation. A student who agrees reveals a response-centric mindset ignoring the prevention-mitigation-preparedness continuum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Hazard Profile Card\" template that a District Disaster Management Authority could use to summarize the hazard-disaster distinction for any Indian district. The card must include: (a) hazard type(s) with classification, (b) historical frequency, (c) exposure indicators, (d) vulnerability indicators, (e) capacity indicators, and (f) a risk statement. Provide a filled example for a coastal district prone to cyclones and storm surges.",
+     "a": "Template filled for Kendrapara, Odisha: (a) Cyclone & storm surge — Meteorological & Hydrological; (b) 7 severe cyclones 1999-2021; (c) 60% population within 10 km of coast, 40% houses kutcha; (d) High poverty, low literacy, mangrove loss 30% since 1990; (e) 120 cyclone shelters, functional EWS, community task forces trained; (f) \"High hazard frequency × high exposure × high vulnerability ÷ moderate capacity = Very High Disaster Risk.\" A poor answer lists only hazards or copies a generic template without district-specific indicators, showing inability to operationalize the framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch12_002",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch12_002",
+   "title": "c6_economics_ch12_002",
+   "questions": [
+    {
+     "q": "What is a local market?\nA local market is a place where goods are sold within a small area, like a neighborhood or village.",
+     "a": "Correct. A wrong answer (like \"a place where only farmers sell\") reveals a misunderstanding that markets are restricted by the *type* of person selling rather than the *distance* the goods travel.",
+     "self_check": true
+    },
+    {
+     "q": "If a company sells shoes across every state in India, is this a local or national market?\nIt is a national market because it spans an entire country.",
+     "a": "Correct. Choosing \"local\" suggests the student is confused by the size of the *shop* rather than the reach of the *market network*.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer sells mangoes to a merchant who then ships them to a store in London. Which type of market is this?\nThis is a global market because the trade happens between different countries.",
+     "a": "Steps: 1. Identify the origin (India). 2. Identify the destination (London/UK). 3. Recognize that crossing national borders makes it global. A wrong answer shows the student does not yet understand that \"global\" specifically refers to international boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Why might the price of the same brand of soap be different in a local shop versus a large city store?\nBecause local markets are not always directly connected, and costs like transportation and middlemen vary.",
+     "a": "Correct. Failing to see this suggests the student thinks all markets are perfectly linked, ignoring the reality of logistics and geography.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a small village shop to participate in a global market?\nYes, if they sell their local handicrafts through an online platform to international customers.",
+     "a": "This requires understanding that the *platform* determines the reach. A wrong answer suggests the student thinks \"global\" only applies to massive factories.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to set up a business, what would determine whether it becomes a local or national market?\nThe decision depends on the scale of production and the ability to transport goods efficiently across states. A poor answer would ignore the role of logistics and target audience size.",
+     "a": "[Correct answer]\nWhether a business becomes local or national depends primarily on the scale of production and the efficiency of the logistics network required to transport goods to distant regions. Additionally, a business must assess whether its target audience is concentrated in a specific community or spread widely across the country.\n\n[Explanation]\nA wrong answer reveals that the student misunderstands the relationship between **supply chain capacity and market reach**, likely believing that a business’s scale is determined solely by the owner's ambition or a simple choice, rather than the practical constraints of production volume and distribution infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

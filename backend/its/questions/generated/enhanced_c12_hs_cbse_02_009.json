@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_009",
+   "title": "c12_hs_cbse_02_009",
+   "questions": [
+    {
+     "q": "A student writes: \"Water provides energy because it is a nutrient.\" What fundamental error does this reveal about the student's understanding of nutrient classification?",
+     "a": "Correct answer: Water is a non-energy-yielding nutrient; it does not undergo catabolism to produce ATP. The student confuses \"essential nutrient\" with \"macronutrient that supplies calories.\" Only carbohydrates, proteins, fats, and alcohol yield energy. This error leads to wrong RDA calculations (e.g., counting water in energy balance) and misunderstanding of dehydration vs starvation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person on a high-fibre supplement (psyllium husk) but low water intake may develop worse constipation than before starting the supplement.",
+     "a": "Correct answer: Psyllium is highly viscous soluble fibre that absorbs 10-15 times its weight in water to form a gel. Without extra fluid, it draws water from the colonic lumen into the stool mass, making it hard and difficult to pass. The student who misses this mechanism treats fibre as universally laxative without considering hydration dependency — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A 60 kg sedentary woman in Mumbai (humid climate) consumes 1.8 L water from beverages and 0.6 L from food. Her urine output is 1.2 L/day, insensible losses estimated at 0.9 L/day. Is she in positive, negative, or neutral water balance? Show calculation.",
+     "a": "Total intake = 1.8 + 0.6 = 2.4 L. Total output = urine 1.2 + insensible 0.9 + faecal (~0.1) = 2.2 L. Balance = +0.2 L (slightly positive). However, ICMR RDA for 60 kg woman = 35 mL/kg = 2.1 L from beverages + food water; she meets RDA. Common error: forgetting faecal loss or using 30 mL/kg (older guideline) leading to wrong conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism by which soluble fibre lowers serum LDL-cholesterol with the mechanism by which it attenuates postprandial glucose spike. Identify the common physicochemical property.",
+     "a": "Both mechanisms rely on viscosity/gel formation: (1) In small intestine, viscous gel traps bile acids → reduced reabsorption → hepatic conversion of cholesterol to new bile acids → upregulation of LDL receptors → lower serum LDL. (2) Same gel slows gastric emptying and creates unstirred water layer → delays glucose diffusion to brush border → blunts glucose spike. Common property: high viscosity due to soluble fibre hydration. Students often cite \"fermentation\" for both — incorrect for acute glucose effect.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Brown rice and whole wheat flour have the same total fibre content, so they are interchangeable for a diabetic patient.\" Use glycaemic index and fibre solubility concepts.",
+     "a": "Incorrect. Whole wheat flour (atta) has higher insoluble fibre (bran) and moderate GI (~62); brown rice has more soluble fibre (β-glucan) and lower GI (~50-55). For diabetes, soluble fibre's viscosity-mediated glucose slowing is more critical than total fibre. Swapping them changes glycaemic response. Board exams test this nuance: \"total fibre\" ≠ \"metabolic effect.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 30 g fibre day menu for a 70 kg male with hypertension (DASH diet principles) using only Indian foods. List each item, portion, fibre contribution, and sodium check. Total sodium must be <2300 mg.",
+     "a": "Sample menu: Breakfast — oats porridge (40 g dry, 4 g fibre) + 1 apple (2.5 g) + 100 mL skim milk; Lunch — 1 bajra roti (30 g, 3.5 g) + 1 cup chana dal (30 g raw, 7 g) + ½ cup methi sabzi (3 g) + salad (1 g); Evening — 1 guava (5 g) + 10 g roasted chana (2 g); Dinner — 1 cup barley khichdi (50 g barley, 4 g) + ½ cup lauki (1 g) + curd (0 g). Total fibre ≈ 33 g. Sodium: all home-cooked without added salt in dough/dal, <1500 mg. Good answer shows soluble/insoluble split and sodium awareness. Poor answer uses processed \"high-fibre\" biscuits (high sodium).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

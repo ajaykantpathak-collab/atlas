@@ -1,0 +1,166 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 104,
+ "chapter_title": "A Question of Trust: Horace Danby's Last Theft",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jefp104.txt",
+ "concepts": [
+  {
+   "id": "jefp.104.1.1",
+   "title": "Horace Danby: A Safebreaker with a Routine",
+   "section": "Part I",
+   "definition": "Horace Danby, a fifty-year-old locksmith by trade, is good and respectable to his neighbours, yet he robs one safe every year to buy rare books, hiding his secret passion behind an orderly life.",
+   "formula": "",
+   "key_idea": "He suffers bouts of sneezing, studies his targets for two weeks, and robs only enough to spend about fifteen thousand pounds a year on books through an agent.",
+   "textbook_ref": "jefp104.txt lines 1-120",
+   "question_patterns": [
+    "what kind of a person is horace danby",
+    "why does horace danby rob a safe every year",
+    "how does horace plan his robberies",
+    "what is horace danby's passion in life",
+    "why is horace called good and respectable despite stealing",
+    "how much money did horace spend on books each year"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the double life",
+     "explain": "By day a lock maker with two helpers, by secret habit a thief who steals once a year."
+    },
+    {
+     "step": 2,
+     "action": "trace the planning",
+     "explain": "He studies the house's rooms, wiring and paths for about a fortnight before acting."
+    },
+    {
+     "step": 3,
+     "action": "verify the motive",
+     "explain": "The loot buys rare and expensive books through an agent, feeding his love of reading."
+    }
+   ]
+  },
+  {
+   "id": "jefp.104.2.1",
+   "title": "The Robbery at Shotover Grange",
+   "section": "Part II",
+   "definition": "Horace enters Shotover Grange while the family is away, intending to rob the safe holding jewels worth fifteen thousand pounds, but his sneezing fits and the arrival of a woman posing as the owner's wife unsettle his plan.",
+   "formula": "",
+   "key_idea": "Hiding behind a flower vase, he watches the safe's jewels and only needs the correct combination to finish the job quietly.",
+   "textbook_ref": "jefp104.txt lines 120-260",
+   "question_patterns": [
+    "which house did horace plan to rob and what did the safe hold",
+    "why did horace begin sneezing during the robbery",
+    "what was the value of the jewels in the safe at shotover grange",
+    "how did horace enter the house without being seen",
+    "who did horace meet inside the house",
+    "what was horace's plan for the safe at shotover grange"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the scene",
+     "explain": "Shotover Grange stood on a hill, its owners away, and the safe in the drawing room held jewels."
+    },
+    {
+     "step": 2,
+     "action": "note the flaw in his health",
+     "explain": "Flowers in the room set off Hay fever sneezes that threatened his silence."
+    },
+    {
+     "step": 3,
+     "action": "mark the interruption",
+     "explain": "A young woman in the doorway claims to be the mistress of the house, turning the thief into the prey."
+    }
+   ]
+  },
+  {
+   "id": "jefp.104.3.1",
+   "title": "The Clever Stranger and the Safe Opened",
+   "section": "Part III",
+   "definition": "The woman blackmails Horace with the threat of prison, asking him to open the safe because she has forgotten the numbers, and he, trusting her story, opens it and hands over the jewels before slipping away.",
+   "formula": "",
+   "key_idea": "Horace cuts his finger on the knife she offers, breaks into the safe using his skill with locks, and walks free only to be arrested days later.",
+   "textbook_ref": "jefp104.txt lines 260-420",
+   "question_patterns": [
+    "how did the woman in the house trick horace",
+    "why did horace open the safe for the stranger",
+    "what story did the woman tell about the safe",
+    "how did horace's cut finger help the police",
+    "why is the woman called a thief among thieves",
+    "what did horace lose by trusting the stranger"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the deception",
+     "explain": "She pretends to be the wife who needs the jewels for a party and threatens to call the police."
+    },
+    {
+     "step": 2,
+     "action": "note the safe's opening",
+     "explain": "Horace remembers a magazine article about the combination and opens the safe with trembling care."
+    },
+    {
+     "step": 3,
+     "action": "verify the aftermath",
+     "explain": "His fingerprint on the knife betrayed him, since the real mistress had never met the thief's tale before."
+    }
+   ]
+  },
+  {
+   "id": "jefp.104.4.1",
+   "title": "Honour among Thieves: The Story's Irony",
+   "section": "Talking about the text",
+   "definition": "The story asks whether there is honour among thieves, and answers with irony: Horace, the professional thief, is himself robbed by a smoother criminal, and his refusal to confess costs him his freedom.",
+   "formula": "",
+   "key_idea": "Shocked by being tricked, Horace now plans to rob only safes of safe-owners, and in prison he rages at the idea of anyone doubting the honesty of locks.",
+   "textbook_ref": "jefp104.txt lines 1-40, 420-500",
+   "question_patterns": [
+    "does the story prove there is honour among thieves",
+    "why is horace angry in prison",
+    "who was the real thief at shotover grange",
+    "how did horace's own methods turn against him",
+    "explain the irony of the title a question of trust",
+    "what lesson does horace danby's arrest teach"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the two thieves",
+     "explain": "Horace robs safes with tools; the woman robs Horace with a lie, trusting his fear."
+    },
+    {
+     "step": 2,
+     "action": "trace the collapse of trust",
+     "explain": "Horace trusts her story, she betrays him, and his fingerprints complete his downfall."
+    },
+    {
+     "step": 3,
+     "action": "verify the final irony",
+     "explain": "The man who never trusted anyone is undone by his single act of trusting."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jefp104.txt lines 1-500",
+   "questions": [
+    "What does Horace Danby like to collect?",
+    "Why does he steal every year?",
+    "How does he prepare for the robbery at Shotover Grange?",
+    "Who is talking to Horace inside the house and who does she claim to be?",
+    "Why does Horace open the safe although he knows the risk?",
+    "How did Horace's fingerprints lead to his arrest?",
+    "What story did Horace tell the police about the real thief?",
+    "What is the meaning of the saying 'set a thief to catch a thief' in this story?"
+   ]
+  }
+ ]
+}

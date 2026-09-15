@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_008",
+   "title": "c12_cs_cbse_13_008",
+   "questions": [
+    {
+     "q": "Define e-commerce and list two ways it differs from traditional brick-and-mortar retail.",
+     "a": "E-commerce is the buying and selling of goods/services over the internet. Differences: (1) No physical storefront needed — operates via website/app; (2) Transactions are digital (UPI, cards, wallets) vs cash/card at POS. A wrong answer like \"e-commerce is just online shopping\" misses the B2B, B2G, C2C models and the entire backend logistics/payment ecosystem.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how e-commerce can both reduce and increase the carbon footprint of retail. Give one specific example for each.",
+     "a": "Reduces: Consolidated last-mile delivery replaces many individual car trips to stores (e.g., one delivery van serving 50 orders in a locality). Increases: Excessive packaging (plastic, thermocol, multiple boxes for single items) and expedited shipping (air freight for 1-day delivery) raise emissions. A wrong answer focusing only on \"less travel\" ignores the packaging waste and logistics intensity of quick commerce.",
+     "self_check": true
+    },
+    {
+     "q": "A small kirana store owner in Jaipur loses 30% of his monthly revenue after a quick-commerce app (10-minute delivery) starts operating in his area. Analyze three distinct societal impacts of this shift, one each from economic, social, and environmental perspectives.",
+     "a": "Economic: Loss of livelihood for the kirana owner and his employees; concentration of market power in venture-funded platforms. Social: Erosion of community hubs (kirana stores often serve as social nodes); digital exclusion of elderly/low-literacy customers who cannot use apps. Environmental: Surge in single-use packaging and two-wheeler emissions per order due to hyper-fast delivery promises. A wrong answer listing only \"loss of business\" fails to see the multi-dimensional societal ripple effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of e-commerce on women's workforce participation in urban vs rural India. Identify two enabling factors and two barriers in each context.",
+     "a": "Urban: Enabling — flexible work-from-home reselling (Meesho, Instagram shops), access to national markets. Barriers — digital skill gaps, time poverty due to unpaid care work. Rural: Enabling — SHG-linked marketplaces (Amazon Saheli, Flipkart Samarth), supplemental income. Barriers — poor internet connectivity, lack of digital/financial literacy, patriarchal control over earnings. A wrong answer treating \"women\" as monolithic misses the urban-rural digital divide and structural constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"E-commerce democratizes entrepreneurship because anyone with a smartphone can start a business.\" Use evidence from Indian platform economies.",
+     "a": "The statement oversimplifies. While entry barriers are lower (no shop rent, low inventory via dropshipping), success requires: (1) Working capital for ads/logistics — excluded the poorest. (2) Algorithmic visibility — platforms favor high-rated, high-volume sellers. (3) GST compliance — burdens micro-entrepreneurs. (4) Platform fees (20-30%) erode margins. Real democratization needs digital public infrastructure (ONDC), credit access, and skill training — not just a smartphone. A wrong answer agreeing uncritically ignores structural inequalities in platform capitalism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level initiative that mitigates the negative environmental impact of e-commerce packaging in your neighborhood. Specify stakeholders, steps, and measurable outcomes.",
+     "a": "Initiative: \"PackBack\" — a reverse logistics system for packaging reuse. Stakeholders: RWAs, local kirana stores (collection points), delivery partners (pickup), municipal corporation (support). Steps: (1) Standardized reusable boxes/bags with QR codes. (2) Customers opt-in at checkout for \"zero-waste delivery\". (3) Delivery agent drops order in reusable container, picks up empties from previous orders. (4) Containers sanitized at kirana store hub. Outcomes: % orders in reusable packaging, kg of cardboard/plastic diverted monthly, cost per delivery vs single-use. A poor answer suggests only \"recycle cardboard\" — ignores the need for systemic reverse logistics and behavioral nudges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

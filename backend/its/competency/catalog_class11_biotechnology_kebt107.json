@@ -1,0 +1,420 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 7,
+ "chapter_title": "Basic Processes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt107.1",
+   "title": "DNA as the Genetic Material",
+   "section": "7.1",
+   "definition": "Three classic experiments crowned DNA as the hereditary molecule: Griffith's 1928 heat-killed smooth pneumococci passed a 'transforming principle' to harmless rough cells, Avery, MacLeod and McCarty wiped the principle out only with DNase, and Hershey and Chase watched radioactive phosphorus - not sulfur-labelled protein - ride into E. coli inside T2 phages.",
+   "formula": "-",
+   "key_idea": "Whoever destroys DNA destroys the transforming ability, and only the phage's DNA enters the host - so DNA, not protein, carries heredity.",
+   "textbook_ref": "kebt107.txt sections 7.1.1-7.1.3, Figs. 7.1-7.3",
+   "question_patterns": [
+    "describe Griffith's transformation experiment with live smooth heat-killed smooth and rough strains of pneumococcus",
+    "which enzyme treated extract failed to transform rough bacteria in the Avery MacLeod McCarty experiment and why does that settle the case",
+    "why did Hershey and Chase label one phage batch with 32P and another with 35S",
+    "in the blender experiment where did the 35S and 32P radioactivity appear after centrifugation",
+    "who first isolated nuclein and from which cells",
+    "why are proteins an unlikely candidate for the genetic material despite their variety"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the transformation",
+     "explain": "A heat-killed virulent strain converted live harmless cells into killers - something was transferred."
+    },
+    {
+     "step": 2,
+     "action": "eliminate the contenders",
+     "explain": "Protease and RNase extracts still transformed; only DNase stopped it, fingerpointing DNA."
+    },
+    {
+     "step": 3,
+     "action": "confirm with the phage",
+     "explain": "32P-labelled DNA entered the pellet of bacteria while 35S-labelled protein stayed in the supernatant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who observed the transforming principle in 1928: Griffith or Hershey?",
+     "a": "Griffith"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.2",
+   "title": "Gene Packaging in Prokaryotes and Eukaryotes",
+   "section": "7.2",
+   "definition": "Bacteria squeeze one circular chromosome into a nucleoid by negative supercoiling helped by histone-like proteins, while eukaryotes wind linear DNA around histone octamers of H2A, H2B, H3 and H4 into beads-on-string nucleosomes with a single H1 holding the linker, then coil 10 nm fibres through 30 nm and 300 nm stages to 700 nm metaphase chromosomes.",
+   "formula": "-",
+   "key_idea": "Supercoiling packs the bacterial loop; histone spools and progressive folding tuck metres of eukaryotic DNA into a nucleus.",
+   "textbook_ref": "kebt107.txt section 7.2, Figs. 7.4-7.8",
+   "question_patterns": [
+    "how does supercoiling compress the bacterial nucleoid and which direction does most bacterial DNA twist",
+    "name the histones forming the core octamer and the histone that binds linker DNA",
+    "how many base pairs of DNA wrap around one nucleosome and how many base pairs separate successive beads",
+    "trace the packaging ladder from the 2 nm double helix to the 700 nm metaphase chromosome",
+    "what are split genes - define introns and exons with the beta globin example",
+    "differentiate nuclear genome from organellar genome with reference to inheritance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the genome forms",
+     "explain": "Prokaryotes: circular double-stranded DNA plus plasmids; eukaryotes: linear chromosomes inside a nucleus."
+    },
+    {
+     "step": 2,
+     "action": "name the packing unit",
+     "explain": "Nucleosome beads carry 146 bp of DNA on a histone octamer; linker DNA of about 200 bp per repeat separates them."
+    },
+    {
+     "step": 3,
+     "action": "stack the coils",
+     "explain": "Beads fold to 30 nm fibres, loop on scaffolds to 300 nm, and condense maximally to 700 nm at metaphase."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "DNA wound around histone octamers forms structures called what?",
+     "a": "nucleosomes"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.3",
+   "title": "Genome Size Units and the Coding Fraction",
+   "section": "7.2",
+   "definition": "Genome sizes run from a few thousand bases in viruses to billions in mammals, and the reading convention chains them - a thousand base pairs make one kilobase and a thousand kilobases one megabase; the three-billion-base human genome carries over twenty thousand protein-coding genes that fill only about two percent of it, the rest being repetitive and other non-coding DNA.",
+   "formula": "kb_value = bp_total / 1000",
+   "key_idea": "Divide bases by a thousand for kilobases and again for megabases; multiply the megabase total by the coding percent to size the gene share.",
+   "textbook_ref": "kebt107.txt section 7.2, Fig. 7.7",
+   "question_patterns": [
+    "convert 3 billion base pairs of the human genome into kilobases and megabases",
+    "the human genome measures about 3000 megabases - how many base pairs is that",
+    "protein-coding genes occupy about 2 percent of a 3000 megabase genome - how many megabases carry genes",
+    "compare the genome size ranges of bacteria viruses and mammals on the base-pair scale",
+    "why do eukaryotic genomes carry far more non-coding DNA than prokaryotic ones",
+    "what are tandem repeats and where do they sit in the genome"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert bases to kilobases",
+     "explain": "One thousand base pairs make one kilobase.",
+     "compute": "kb_value = bp_total / 1000"
+    },
+    {
+     "step": 2,
+     "action": "convert kilobases to megabases",
+     "explain": "Another thousand-fold step gives megabases.",
+     "compute": "mb_value = kb_value / 1000"
+    },
+    {
+     "step": 3,
+     "action": "price the gene share",
+     "explain": "Coding regions take roughly two percent of the whole.",
+     "compute": "coding_share = mb_value * 2 / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many bases make one kilobase?",
+     "a": "1000"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.4",
+   "title": "Semi-Conservative Replication Machinery",
+   "section": "7.3",
+   "definition": "Each daughter duplex keeps one parental strand and gains one new complement - the semi-conservative rule that Messelson and Stahl proved with heavy nitrogen and caesium chloride gradients; helicase unzips the fork, primase lays 10-12 nucleotide RNA primers, DNA polymerase III extends only 5' to 3', the lagging side is built in 1000-2000 nucleotide Okazaki pieces, polymerase I swaps primers for DNA, and ligase seals the nicks.",
+   "formula": "-",
+   "key_idea": "One old strand plus one new strand per duplex, a continuous leading side and a discontinuous lagging side make replication semi-discontinuous.",
+   "textbook_ref": "kebt107.txt sections 7.3.1-7.3.4, Figs. 7.9-7.16",
+   "question_patterns": [
+    "describe the Messelson and Stahl experiment with 15N and 14N and the band positions after generations I and II",
+    "why does DNA polymerase III need an RNA primer while RNA polymerase does not",
+    "differentiate the leading strand from the lagging strand with reference to Okazaki fragments",
+    "which enzyme removes the RNA primers and which seals the gaps between fragments",
+    "what do helicase topoisomerase and SSB proteins each contribute at the replication fork",
+    "why is bacterial replication bidirectional and how many origins does each eukaryotic chromosome hold"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "open the helix",
+     "explain": "Initiator proteins and helicase separate strands from the origin; SSB proteins hold them apart while topoisomerase relieves the twist."
+    },
+    {
+     "step": 2,
+     "action": "prime and extend",
+     "explain": "Primase lays short RNA primers; polymerase III adds dNTPs only onto a 3'OH, so synthesis runs 5' to 3'."
+    },
+    {
+     "step": 3,
+     "action": "finish the lagging side",
+     "explain": "Okazaki fragments arise; polymerase I replaces each primer with DNA and ligase welds the fragments."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who proved replication semi-conservative with heavy nitrogen: Meselson and Stahl, or Griffith?",
+     "a": "Meselson and Stahl"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.5",
+   "title": "Bacterial Division Timing and Culture Growth",
+   "section": "7.3.1",
+   "definition": "E. coli doubles every twenty minutes, so the generation count of an experiment is simply the elapsed minutes divided by twenty, and the culture size follows a doubling ladder from the starting cells.",
+   "formula": "generations = elapsed_min / 20",
+   "key_idea": "Divide the minutes by twenty for generations, then double the starter culture once per generation.",
+   "textbook_ref": "kebt107.txt section 7.3.1 (E. coli divides after every 20 minutes)",
+   "question_patterns": [
+    "how many generations does an E. coli culture complete in 2 hours of growth",
+    "a culture started with 3 cells and grew for 100 minutes - how many generations elapsed and how many cells stand at the end",
+    "Messelson and Stahl sampled after two rounds of division - how many minutes of growth does that represent",
+    "why did the two-band pattern of the second generation support semi-conservative replication",
+    "starting from one heavy-labelled cell how many hybrid duplexes exist after one generation in light medium",
+    "how long must E. coli grow to run through five generations"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert minutes to generations",
+     "explain": "One E. coli generation takes twenty minutes.",
+     "compute": "generations = elapsed_min / 20"
+    },
+    {
+     "step": 2,
+     "action": "double per generation",
+     "explain": "Each generation doubles the cell number from the starters.",
+     "compute": "cells_after = starter_cells * 2 ** generations"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many minutes does E. coli need to divide: twenty or sixty?",
+     "a": "twenty"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.6",
+   "title": "Genetic Code Triplet Arithmetic",
+   "section": "7.5",
+   "definition": "Gamow's counting settled the code's design: one base gives only four options and a pair sixteen - too few for twenty amino acids - but a three-base code offers sixty-four codons; sixty-one of them specify amino acids, the remaining three are stops, AUG doubles as the start signal, and Nirenberg's poly-U decoded the first word, UUU for phenylalanine.",
+   "formula": "codons_total = 4 ** bases_per_codon",
+   "key_idea": "Four raised to the codon length counts the code; subtract the three stops for the sense codons.",
+   "textbook_ref": "kebt107.txt section 7.5, Fig. 7.25",
+   "question_patterns": [
+    "why must a codon contain three bases - show the counting for one two and three base codes",
+    "how many of the 64 codons code for amino acids and which three signal termination",
+    "which codon starts translation and which amino acid does it carry - state its dual role",
+    "what did the poly-U experiment of Nirenberg and Matthaei establish",
+    "explain degeneracy of the genetic code and name the two amino acids with single codons",
+    "why is the code called unambiguous and universal despite mitochondrial exceptions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the codons",
+     "explain": "Four bases taken three at a time give four cubed combinations.",
+     "compute": "codons_total = 4 ** bases_per_codon"
+    },
+    {
+     "step": 2,
+     "action": "remove the stops",
+     "explain": "UAA, UAG and UGA terminate translation instead of coding.",
+     "compute": "sense_codons = codons_total - stop_codons"
+    },
+    {
+     "step": 3,
+     "action": "size a coding gene",
+     "explain": "Each amino acid costs three bases and the stop adds three more.",
+     "compute": "with_stop = amino_acids * 3 + 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many codons does the genetic code hold in total?",
+     "a": "64"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.7",
+   "title": "Transcription, mRNA Processing and Translation",
+   "section": "7.4-7.6",
+   "definition": "RNA polymerase reads a promoter with its Pribnow box, unwinds about seventeen base pairs and strings ribonucleotides at roughly forty per second until a terminator - with sigma leaving after initiation and rho sometimes ending the run; eukaryotic transcripts then gain a methyl-G cap and a poly-A tail and lose their introns by splicing, before ribosomes translate the message codon by codon from charged tRNAs until a release factor meets a stop codon.",
+   "formula": "-",
+   "key_idea": "Copy only the gene into RNA, dress and trim the eukaryotic transcript, then let tRNAs and the wobble rule translate it at the ribosome.",
+   "textbook_ref": "kebt107.txt sections 7.4.1-7.6, Figs. 7.20-7.32",
+   "question_patterns": [
+    "list the three steps of transcription and state the role of the sigma factor and the Pribnow box",
+    "which RNA polymerase transcribes hnRNA in eukaryotes and which RNAs do polymerases I and III make",
+    "name the three post-transcriptional modifications of eukaryotic pre-mRNA and the purpose of each",
+    "differentiate the coding strand from the template strand of a transcription unit",
+    "describe charging of tRNA by aminoacyl-tRNA synthetase and the wobble pairing at the third codon base",
+    "how does a release factor end translation and what is a polyribosome",
+    "how long an RNA does bacterial polymerase build in one minute at 37 degrees celsius"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "initiate at the promoter",
+     "explain": "Sigma-guided polymerase binds upstream, melts the TATAAT region and starts RNA without a primer."
+    },
+    {
+     "step": 2,
+     "action": "elongate and terminate",
+     "explain": "The transcription bubble advances at about 40 nucleotides per second until rho-dependent or independent termination."
+    },
+    {
+     "step": 3,
+     "action": "process and translate",
+     "explain": "Cap, splice and poly-adenylate in eukaryotes; then initiation, elongation and termination build the polypeptide in the ribosome's A, P and E sites."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Roughly how many nucleotides per second does RNA polymerase string: forty or four?",
+     "a": "forty"
+    }
+   ]
+  },
+  {
+   "id": "kebt107.8",
+   "title": "Gene Mutation and DNA Repair Arithmetic",
+   "section": "7.7-7.8",
+   "definition": "Mutations come as additions, deletions and substitutions - purine-for-purine changes are transitions while purine-for-pyrimidine swaps are transversions, and tautomeric shifts or base analogs like 5-bromouracil sneak such swaps past replication; cells answer with base excision repair through glycosylase-made AP sites, nucleotide excision repair that cuts out UV-induced T-T dimers by clipping upstream and downstream, and mismatch repair led by Mut proteins.",
+   "formula": "excised_length = upstream_cut + downstream_cut",
+   "key_idea": "Add the two cut distances around a lesion to size the patch that excision repair must refill.",
+   "textbook_ref": "kebt107.txt sections 7.7-7.8, Figs. 7.33-7.36",
+   "question_patterns": [
+    "NER clips eight nucleotides upstream and four downstream of a T-T dimer - how many nucleotides are excised in all",
+    "differentiate transition and transversion mutations with one base change example of each",
+    "how does a rare enol tautomer of guanine turn a G-C pair into an A-T pair over two replications",
+    "why does 5-bromouracil pair with adenine in its keto form but with guanine in its enol form",
+    "which enzyme creates the AP site in base excision repair and which enzymes fill and seal it",
+    "name the Mut proteins of mismatch repair and state how far from the mismatch the cut falls",
+    "which mutation class - addition deletion or substitution - disrupts the whole reading frame and why"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cut above the lesion",
+     "explain": "The Uvr system nicks a fixed distance upstream of the damage.",
+     "compute": "upstream_cut = cut_upstream"
+    },
+    {
+     "step": 2,
+     "action": "cut below the lesion",
+     "explain": "A shorter nick lands downstream of the damage.",
+     "compute": "downstream_cut = cut_downstream"
+    },
+    {
+     "step": 3,
+     "action": "add the two cuts",
+     "explain": "The removed patch spans both sides of the lesion.",
+     "compute": "excised_length = upstream_cut + downstream_cut"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A purine-for-purine substitution is called a what: transition or transversion?",
+     "a": "transition"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt107.txt section 7.5 (64 codons, 3 stops, triplet nature)",
+   "concept": "kebt107.6",
+   "question_type": "compute",
+   "question_pattern": "For a genetic code of {bases_per_codon} bases per codon with {stop_codons} stop codons, find the total codons, the sense codons, and the number of coding nucleotides needed for a protein of {amino_acids} amino acids including its stop signal.",
+   "extracted_variables": {
+    "bases_per_codon": "bases per codon (triplet code gives 3)",
+    "stop_codons": "number of stop codons",
+    "amino_acids": "amino acids in the polypeptide"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise four to the length",
+     "explain": "Each position independently takes four bases.",
+     "compute": "codons_total = 4 ** bases_per_codon"
+    },
+    {
+     "step": 2,
+     "action": "drop the stops",
+     "explain": "Termination codons code no amino acid.",
+     "compute": "sense_codons = codons_total - stop_codons"
+    },
+    {
+     "step": 3,
+     "action": "add the stop cost",
+     "explain": "Three bases per residue plus three for the stop.",
+     "compute": "with_stop = amino_acids * 3 + 3"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt107.txt section 7.3.1 (E. coli divides every 20 minutes)",
+   "concept": "kebt107.5",
+   "question_type": "compute",
+   "question_pattern": "An E. coli culture begins with {starter_cells} cells and grows for {elapsed_min} minutes. Find the number of generations completed and the final cell count.",
+   "extracted_variables": {
+    "starter_cells": "cells at the start of growth",
+    "elapsed_min": "minutes of growth"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the generations",
+     "explain": "Twenty minutes per generation.",
+     "compute": "generations = elapsed_min / 20"
+    },
+    {
+     "step": 2,
+     "action": "double per generation",
+     "explain": "Exponential growth doubles the culture each generation.",
+     "compute": "cells_after = starter_cells * 2 ** generations"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt107-ex1",
+   "source_ref": "kebt107.txt Exercises (questions 1-7)",
+   "questions": [
+    "What is the importance of gene expression and which steps carry it out?",
+    "Describe regulation of gene expression in prokaryotes using the lac operon as the example.",
+    "What would follow for DNA replication if all proteins were lost from a cell?",
+    "How do UV rays alter DNA structure - discuss the mutation caused and the repair mechanism that corrects it.",
+    "Differentiate the leading and lagging strands, transcription and translation, transition and transversion mutations, and codon and anticodon.",
+    "Which radiation type is least harmful to cells among gamma rays, ultraviolet rays, X rays and alpha rays?",
+    "In which DNA repair mechanism is an apurinic or apyrimidinic site formed - choose from excision repair, mismatch repair, both, or neither."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_6",
+   "title": "c9_math_ch6_6",
+   "questions": [
+    {
+     "q": "Write down Heron's Formula for the area of a triangle with sides a, b, c. Define what s represents.",
+     "a": "Heron's Formula: Area = √[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2 is the semi-perimeter. A wrong answer where the student writes s = a+b+c (full perimeter instead of semi-perimeter) reveals they don't understand the \"semi\" prefix means half, or they confuse perimeter with semi-perimeter. If they write the formula as √[s(s-a)(s-b)(s-c)] but forget the square root, they misunderstand that the product inside represents the square of the area.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has sides 3 cm, 4 cm, and 5 cm. Without calculating the area, explain why Heron's Formula will give the same result as ½ × base × height for this triangle.",
+     "a": "The 3-4-5 triangle is a right triangle (3²+4²=5²), so the height corresponding to base 4 cm is exactly 3 cm. Area = ½ × 4 × 3 = 6 cm². Heron's Formula: s = 6, Area = √[6(3)(2)(1)] = √36 = 6 cm². Both methods give the same answer because they are mathematically equivalent formulas for area. A student who says \"Heron's Formula is only for triangles without height\" reveals the misconception that it's an alternative method rather than a universal formula that works for ALL triangles, including right triangles where base-height is easier.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of a triangle with sides 7 cm, 8 cm, and 9 cm using Heron's Formula. Show all steps.",
+     "a": "Step 1: s = (7+8+9)/2 = 24/2 = 12 cm\nStep 2: s-a = 12-7 = 5, s-b = 12-8 = 4, s-c = 12-9 = 3\nStep 3: Area = √[12 × 5 × 4 × 3] = √[720]\nStep 4: Simplify: √720 = √(144 × 5) = 12√5 cm² ≈ 26.83 cm²\nA wrong answer of √720 without simplifying to 12√5 shows the student doesn't recognize perfect square factors. An answer of 720 cm² (forgetting the square root) reveals they treat the formula as s(s-a)(s-b)(s-c) without the radical. An s value of 24 (using full perimeter) gives √[24×17×16×15] which is completely wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have the same perimeter: Triangle P has sides 6 cm, 8 cm, 10 cm. Triangle Q has sides 7 cm, 7 cm, 10 cm. Without calculating the exact areas, determine which triangle has the larger area and explain your reasoning.",
+     "a": "Triangle P (6-8-10) is a right triangle, area = ½ × 6 × 8 = 24 cm². Triangle Q (7-7-10) is isosceles. Both have perimeter 24 cm, so s = 12 for both. For P: product = 12×6×4×2 = 576, area = 24. For Q: product = 12×5×5×2 = 600, area = √600 ≈ 24.49 cm². Triangle Q has slightly larger area. A student who says \"same perimeter means same area\" reveals the misconception that perimeter determines area (confusing with the fact that for a given perimeter, the equilateral triangle has MAXIMUM area, but these are not equilateral). The correct reasoning: for fixed perimeter, area is maximized when sides are as equal as possible (closer to equilateral). Q's sides (7,7,10) are more equal than P's (6,8,10), so Q has larger area.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the area of a triangle with sides 5 cm, 6 cm, and 12 cm as follows: s = (5+6+12)/2 = 11.5, Area = √[11.5 × 6.5 × 5.5 × (-0.5)] = √(-205.9375). They say \"the area is imaginary, so the triangle doesn't exist.\" Evaluate this solution.",
+     "a": "The student's conclusion is correct (the triangle doesn't exist) but their reasoning has a flaw: they computed Heron's Formula without first checking the triangle inequality. The correct approach: Check triangle inequality FIRST: 5+6 = 11 < 12, so these sides cannot form a triangle. The negative value under the square root (s-c = -0.5) is a CONSEQUENCE of the triangle inequality violation, not the primary reason. A student who only notices the negative radicand and says \"imaginary area\" without explicitly stating \"5+6<12 violates triangle inequality\" shows they treat Heron's Formula as a black box rather than understanding it requires a valid triangle as a precondition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a triangular plot of land where Heron's Formula is the ONLY practical method to find the area (not base-height). Provide the side lengths in metres and ask for the area in square metres. Then solve your own problem.",
+     "a": "Good problem: \"A triangular garden has sides 13 m, 14 m, and 15 m. The ground is uneven so measuring height is impossible. Find the area to buy grass seed.\" Solution: s = 21, Area = √[21×8×7×6] = √7056 = 84 m². A poor problem would use a right triangle (e.g., 3-4-5 scaled) where base-height is easier, showing the student doesn't understand WHEN Heron's Formula is practically useful. A problem with sides that violate triangle inequality shows they don't grasp the validity condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

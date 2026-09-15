@@ -1,0 +1,457 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 113,
+ "chapter_title": "Wastewater Story",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc113.txt",
+ "concepts": [
+  {
+   "id": "gesc.13.1.1",
+   "title": "Wastewater and its Generation",
+   "section": "13.1",
+   "definition": "Water that has been degraded in quality by domestic, industrial, or commercial activities, containing lather, oils, or organic wastes, making it unsafe for immediate use.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Used water is a valuable resource that must be treated to remove contaminants before being returned to nature.",
+   "textbook_ref": "gesc113.txt lines 20-50",
+   "question_patterns": [
+    "what is wastewater",
+    "explain how wastewater is produced in our homes",
+    "why should we clean up used water",
+    "what are the main sources of wastewater",
+    "short note on wastewater and its generation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of used water",
+     "explain": "Water from sinks, toilets, showers, and laundries becomes dirty and is classified as wastewater."
+    },
+    {
+     "step": 2,
+     "action": "Recognize the necessity of treatment",
+     "explain": "Cleaning wastewater removes pollutants, preventing diseases and protecting aquatic ecosystems."
+    },
+    {
+     "step": 3,
+     "action": "List the main sources of wastewater",
+     "explain": "Domestic activities (sinks, toilets, showers), industrial processes, and commercial operations all generate wastewater that must be managed responsibly."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.2.1",
+   "title": "Composition of Sewage",
+   "section": "13.2",
+   "definition": "Dirty household water carrying dissolved and suspended matter - organic waste, salts, plant nutrients and disease-causing microbes.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Sewage is a hazardous mixture of biological, chemical, and physical contaminants.",
+   "textbook_ref": "gesc113.txt lines 50-95",
+   "question_patterns": [
+    "what is sewage",
+    "list the organic and inorganic impurities present in sewage",
+    "which disease-causing bacteria are found in sewage",
+    "why is untreated sewage harmful to water bodies",
+    "list the main features of composition of sewage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the components of sewage",
+     "explain": "Sewage contains organic impurities (like human faeces and animal waste), inorganic impurities (nitrates, phosphates), nutrients, and microbes."
+    },
+    {
+     "step": 2,
+     "action": "Identify pathogens",
+     "explain": "Bacteria causing cholera and typhoid, along with protozoans causing dysentery, are common biological contaminants in sewage."
+    },
+    {
+     "step": 3,
+     "action": "Explain why untreated sewage is harmful to water bodies",
+     "explain": "Untreated sewage depletes dissolved oxygen, promotes algal blooms from excess nutrients, and spreads disease-causing microbes into rivers and seas."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.3.1",
+   "title": "Sewerage System and Manholes",
+   "section": "13.3",
+   "definition": "An underground network of pipes called sewers that safely transports sewage from the point of generation to a treatment plant.",
+   "formula": "num_manholes = length / spacing",
+   "key_idea": "Closed transport systems prevent contamination, with manholes placed at regular intervals for maintenance access.",
+   "textbook_ref": "gesc113.txt lines 96-125",
+   "question_patterns": [
+    "what is a sewerage system",
+    "why are manholes provided in a sewerage system",
+    "calculate the number of manholes needed for a sewer line of length {length} meters with a spacing of {spacing} meters",
+    "how many manholes are required if they are spaced {spacing} meters apart along a {length} meter street",
+    "compute the answer step by step for sewerage system and manholes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the total length of the sewer line by the spacing interval",
+     "explain": "The number of manholes is estimated by dividing the total length of the sewer line by the distance between consecutive manholes.",
+     "compute": "num_manholes = length / spacing"
+    },
+    {
+     "step": 2,
+     "action": "Round the result to the nearest whole number",
+     "explain": "Since manholes must be whole units, the division result is rounded up to ensure complete coverage of the sewer line."
+    },
+    {
+     "step": 3,
+     "action": "Verify the result against the sewer line layout",
+     "explain": "Check that the computed number of manholes covers the entire length at the given spacing, ensuring maintenance access at regular intervals."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.4.1",
+   "title": "WWTP Physical Treatment: Screening and Grit Removal",
+   "section": "13.4",
+   "definition": "The initial mechanical stages of wastewater treatment that filter out large debris and settle heavy mineral particles.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Bar screens and grit tanks remove large objects, sand, and pebbles through physical separation.",
+   "textbook_ref": "gesc113.txt lines 150-185",
+   "question_patterns": [
+    "Explain wastewater in your own words and add one example of your own.",
+    "what happens in a grit and sand removal tank",
+    "describe the physical treatment steps in a WWTP",
+    "how are large objects like cans and plastic packets removed from wastewater",
+    "give one everyday example of wwtp physical treatment: screening and grit removal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain bar screening",
+     "explain": "Wastewater passes through bar screens to intercept large objects like rags, sticks, cans, and plastics."
+    },
+    {
+     "step": 2,
+     "action": "Explain grit and sand sedimentation",
+     "explain": "The water speed is reduced in a grit tank, allowing heavy sand, grit, and pebbles to settle to the bottom."
+    },
+    {
+     "step": 3,
+     "action": "Describe the outcome of physical treatment",
+     "explain": "After screening and grit removal, large debris and heavy particles are eliminated, preparing the wastewater for subsequent biological and chemical treatment stages."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.4.2",
+   "title": "WWTP Clarification and Sludge Treatment",
+   "section": "13.4",
+   "definition": "The process of settling organic solids at the bottom of a sloped tank and decomposing them anaerobically to produce biogas and manure.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Primary sludge is scraped and digested by anaerobic bacteria, while floatable impurities are skimmed off.",
+   "textbook_ref": "gesc113.txt lines 185-205",
+   "question_patterns": [
+    "what is sludge and how is it treated",
+    "explain the role of a clarifier and skimmer in wastewater treatment",
+    "how is biogas produced during sewage treatment",
+    "what is clarified water",
+    "list the main features of wwtp clarification and sludge treatment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe sedimentation in the clarifier",
+     "explain": "Solids like faeces settle at the bottom as sludge, while floatable grease and oil are removed by a skimmer."
+    },
+    {
+     "step": 2,
+     "action": "Describe anaerobic digestion of sludge",
+     "explain": "The collected sludge is transferred to a separate tank where anaerobic bacteria decompose it, producing biogas and organic manure."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of clarified water",
+     "explain": "After sludge removal, the clarified water still contains dissolved organic matter and is sent onward for biological treatment to complete purification."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.4.3",
+   "title": "WWTP Biological and Chemical Treatment",
+   "section": "13.4",
+   "definition": "The secondary and tertiary treatment stages where aerobic bacteria digest remaining organic matter, followed by chemical disinfection.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Aeration promotes biological purification, and chemicals like chlorine or ozone ensure pathogen destruction.",
+   "textbook_ref": "gesc113.txt lines 205-225",
+   "question_patterns": [
+    "why is air pumped into clarified water during treatment",
+    "what is the role of aerobic bacteria in a WWTP",
+    "name two chemicals used to disinfect water before release",
+    "explain the biological treatment of wastewater",
+    "explain wwtp biological and chemical treatment in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the aeration process",
+     "explain": "Pumping air into clarified water helps aerobic bacteria grow and consume remaining organic wastes."
+    },
+    {
+     "step": 2,
+     "action": "Explain disinfection",
+     "explain": "The treated water is disinfected with chlorine or ozone to kill harmful microbes before discharge."
+    },
+    {
+     "step": 3,
+     "action": "Describe the final discharge of treated water",
+     "explain": "After disinfection, the treated water is released into natural water bodies or reused, meeting safety standards for environmental protection."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.5.1",
+   "title": "Better Housekeeping Practices",
+   "section": "13.5",
+   "definition": "Individual domestic habits designed to minimize waste and prevent toxic substances from entering the drainage system.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Proper disposal of fats, oils, chemicals, and solid wastes prevents pipe blockages and protects treatment microbes.",
+   "textbook_ref": "gesc113.txt lines 226-260",
+   "question_patterns": [
+    "why should cooking oils and fats not be thrown down the drain",
+    "what happens if chemicals like paints and medicines are poured down the sink",
+    "list some better housekeeping practices to reduce wastewater load",
+    "why should solid food remains and tea leaves be thrown in the dustbin",
+    "give one everyday example of better housekeeping practices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the effect of fats and oils",
+     "explain": "Fats and oils harden to block pipes and clog soil pores, reducing filtration efficiency."
+    },
+    {
+     "step": 2,
+     "action": "Explain the effect of chemicals and solids",
+     "explain": "Chemicals kill beneficial water-purifying microbes, while solid wastes choke drains and block oxygen flow."
+    },
+    {
+     "step": 3,
+     "action": "Suggest practical better housekeeping practices",
+     "explain": "Use separate dustbins for solid food waste, avoid pouring oils or chemicals down drains, and minimize water usage to reduce the overall wastewater load on treatment systems."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.6.1",
+   "title": "Sanitation and Water-Borne Diseases",
+   "section": "13.6",
+   "definition": "The direct epidemiological relationship between poor waste management, open defecation, and the transmission of water-borne pathogens.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Untreated human waste pollutes groundwater and surface water, leading to severe diseases.",
+   "textbook_ref": "gesc113.txt lines 261-290",
+   "question_patterns": [
+    "Explain relationship in your own words and add one example of your own.",
+    "why is untreated human excreta considered a health hazard",
+    "which water-borne diseases are caused by contaminated groundwater",
+    "how does open defecation lead to water pollution",
+    "give one everyday example of sanitation and water-borne diseases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pollution pathway",
+     "explain": "Open defecation and untreated waste contaminate surface water and seep into groundwater."
+    },
+    {
+     "step": 2,
+     "action": "Link contamination to diseases",
+     "explain": "Drinking contaminated water transmits pathogens, causing cholera, typhoid, polio, hepatitis, and dysentery."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of proper sanitation in prevention",
+     "explain": "Proper sanitation systems, including sealed toilets and wastewater treatment, break the contamination pathway and protect public health from water-borne diseases."
+    }
+   ]
+  },
+  {
+   "id": "gesc.13.7.1",
+   "title": "Alternative On-Site Sewage Disposal Systems",
+   "section": "13.7",
+   "definition": "Decentralized, low-cost sanitation technologies designed to treat human waste hygienically without a centralized sewer network.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Septic tanks, composting pits, and vermi-processing toilets provide safe sanitation in isolated or rural areas.",
+   "textbook_ref": "gesc113.txt lines 291-320",
+   "question_patterns": [
+    "what are alternative arrangements for sewage disposal",
+    "where are septic tanks suitable",
+    "explain the working of a vermi-processing toilet",
+    "how do on-site human waste disposal technologies work",
+    "why is alternative on-site sewage disposal systems important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify on-site systems",
+     "explain": "Septic tanks, composting pits, and chemical toilets treat waste directly at the location where it is produced."
+    },
+    {
+     "step": 2,
+     "action": "Describe vermi-processing and biogas toilets",
+     "explain": "Vermi-processing toilets use earthworms to convert excreta into vermi cakes, while biogas toilets convert waste to energy."
+    },
+    {
+     "step": 3,
+     "action": "Explain where on-site systems are most suitable",
+     "explain": "These decentralized systems are ideal for rural areas, isolated homes, or places where connecting to a centralized sewer network is impractical or too expensive."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc113.txt lines 110-125",
+   "concept": "gesc.13.3.1",
+   "question_type": "compute",
+   "question_pattern": "A straight sewer line of length {length} meters is being laid. If manholes are to be installed at regular intervals of {spacing} meters, calculate the number of manholes required.",
+   "extracted_variables": {
+    "length": "total length of the sewer line in meters",
+    "spacing": "distance between consecutive manholes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the total length of the sewer line by the spacing interval",
+     "explain": "The number of manholes is estimated by dividing the total length of the sewer line by the distance between consecutive manholes.",
+     "compute": "num_manholes = length / spacing"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc113.txt lines 230-250",
+   "concept": "gesc.13.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why should cooking oils and fats not be thrown down the drain?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the physical effect of fats on pipes",
+     "explain": "Oils and fats can solidify and harden inside the pipes, leading to severe blockages."
+    },
+    {
+     "step": 2,
+     "action": "Explain the effect on soil in open drains",
+     "explain": "In open drains, fats clog the soil pores, which reduces the soil's natural ability to filter water."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "gesc113.txt lines 96-125",
+   "concept": "gesc.13.3.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute sewerage system and manholes step by step",
+   "extracted_variables": {
+    "length": "value of length",
+    "spacing": "value of spacing"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the total length of the sewer line by the spacing interval",
+     "explain": "The number of manholes is estimated by dividing the total length of the sewer line by the distance between consecutive manholes.",
+     "compute": "num_manholes = length / spacing"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "gesc113.txt lines 340-345",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about wastewater."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "gesc113.txt lines 346-347",
+   "questions": [
+    "State clearly what discharge means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "gesc113.txt lines 348-349",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of released described here."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "gesc113.txt lines 350-351",
+   "questions": [
+    "Describe wastewater in your own words."
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "gesc113.txt lines 352-353",
+   "questions": [
+    "State clearly what explain means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "gesc113.txt lines 354-355",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about untreated."
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "gesc113.txt lines 356-357",
+   "questions": [
+    "Name chemicals and characterise it briefly in your own words."
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "gesc113.txt lines 358-359",
+   "questions": [
+    "Write a short note on wastewater using your own phrasing."
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "gesc113.txt lines 360-361",
+   "questions": [
+    "Write a short note on relationship using your own phrasing."
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "gesc113.txt lines 362-363",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about sanitation."
+   ]
+  },
+  {
+   "id": "ex13.12",
+   "source_ref": "gesc113.txt lines 370-380",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about ultraviolet."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

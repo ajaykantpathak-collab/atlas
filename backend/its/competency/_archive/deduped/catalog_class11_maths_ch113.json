@@ -1,0 +1,254 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 113,
+ "chapter_title": "Statistics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh113.txt",
+ "concepts": [
+  {
+   "id": "kemh.13.3.1",
+   "title": "Range of Data",
+   "section": "13.3",
+   "definition": "The range is the simplest measure of dispersion, calculated as the gap between the largest and smallest values in a dataset.",
+   "formula": "range = max_val - min_val",
+   "key_idea": "Difference between extremes.",
+   "textbook_ref": "kemh113.txt lines 135-145",
+   "question_patterns": [
+    "calculate the range of the given data",
+    "find the range for the set of numbers",
+    "what is the range of the following observations",
+    "determine the range of the series",
+    "how much is the range of the provided data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the minimum value from the maximum value",
+     "explain": "range is defined as the difference between the largest and smallest observations",
+     "compute": "max_val - min_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving range of data.",
+     "solution": "Step 1: subtract the minimum value from the maximum value. Working: max_val - min_val.",
+     "answer": "Range of Data applied step by step gives the required result."
+    },
+    {
+     "question": "Apply range of data to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract the minimum value from the maximum value. Working: max_val - min_val.",
+     "answer": "The method of range of data leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.13.4.1",
+   "title": "Mean Deviation about Mean",
+   "section": "13.4.1",
+   "definition": "Mean deviation about the mean is the average of the absolute differences between each data point and the arithmetic mean of the set.",
+   "formula": "md_mean = sum(abs(x - mean)) / n",
+   "key_idea": "Average absolute distance from the mean.",
+   "textbook_ref": "kemh113.txt lines 180-210",
+   "question_patterns": [
+    "find the mean deviation about the mean",
+    "calculate the mean deviation from the mean",
+    "what is the mean deviation about the mean for these values",
+    "determine the mean deviation about mean",
+    "how to compute the mean deviation about the mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the arithmetic mean",
+     "explain": "mean is the sum of observations divided by the number of observations",
+     "compute": "sum_x / n"
+    },
+    {
+     "step": 2,
+     "action": "find the sum of absolute deviations",
+     "explain": "calculate abs(x_i - mean) for each observation and sum them",
+     "compute": "sum_abs_dev"
+    },
+    {
+     "step": 3,
+     "action": "divide the sum of absolute deviations by n",
+     "explain": "this gives the mean of the absolute deviations",
+     "compute": "total_abs_dev / n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving mean deviation about mean.",
+     "solution": "Step 1: calculate the arithmetic mean. Step 2: find the sum of absolute deviations. Step 3: divide the sum of absolute deviations by n. Working: sum_x / n, sum_abs_dev, total_abs_dev / n.",
+     "answer": "Mean Deviation about Mean applied step by step gives the required result."
+    },
+    {
+     "question": "Apply mean deviation about mean to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the arithmetic mean. Step 2: find the sum of absolute deviations. Step 3: divide the sum of absolute deviations by n. Working: sum_x / n, sum_abs_dev, total_abs_dev / n.",
+     "answer": "The method of mean deviation about mean leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.13.5.1",
+   "title": "Variance of Ungrouped Data",
+   "section": "13.5",
+   "definition": "Variance is the arithmetic mean of the squares of the deviations of observations from their mean, representing the degree of scatter.",
+   "formula": "variance = sum((x - mean)**2) / n",
+   "key_idea": "Average squared distance from the mean.",
+   "textbook_ref": "kemh113.txt lines 310-330",
+   "question_patterns": [
+    "calculate the variance of the data",
+    "find the variance of the given observations",
+    "what is the variance for the set",
+    "determine the variance of these numbers",
+    "compute the variance of the series"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the mean",
+     "explain": "find the average of the observations",
+     "compute": "sum_x / n"
+    },
+    {
+     "step": 2,
+     "action": "sum the squared deviations",
+     "explain": "calculate (x_i - mean)**2 for each and sum them",
+     "compute": "sum_sq_dev_vals"
+    },
+    {
+     "step": 3,
+     "action": "divide by n",
+     "explain": "this yields the variance",
+     "compute": "sum_sq_dev / n"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving variance of ungrouped data.",
+     "solution": "Step 1: calculate the mean. Step 2: sum the squared deviations. Step 3: divide by n. Working: sum_x / n, sum_sq_dev_vals, sum_sq_dev / n.",
+     "answer": "Variance of Ungrouped Data applied step by step gives the required result."
+    },
+    {
+     "question": "Apply variance of ungrouped data to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the mean. Step 2: sum the squared deviations. Step 3: divide by n. Working: sum_x / n, sum_sq_dev_vals, sum_sq_dev / n.",
+     "answer": "The method of variance of ungrouped data leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.13.5.2",
+   "title": "Standard Deviation",
+   "section": "13.5.1",
+   "definition": "Standard deviation is the positive square root of the variance, providing a measure of dispersion in the same units as the original data.",
+   "formula": "sd = sqrt(variance)",
+   "key_idea": "Root mean square deviation.",
+   "textbook_ref": "kemh113.txt lines 335-345",
+   "question_patterns": [
+    "calculate the standard deviation",
+    "find the standard deviation of the data",
+    "what is the standard deviation for these values",
+    "determine the standard deviation",
+    "how much is the standard deviation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate variance",
+     "explain": "first find the variance of the dataset",
+     "compute": "sum_sq_dev / n"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "standard deviation is the square root of variance",
+     "compute": "sqrt(variance)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving standard deviation.",
+     "solution": "Step 1: calculate variance. Step 2: take the square root. Working: sum_sq_dev / n, sqrt(variance).",
+     "answer": "Standard Deviation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply standard deviation to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate variance. Step 2: take the square root. Working: sum_sq_dev / n, sqrt(variance).",
+     "answer": "The method of standard deviation leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1",
+   "concept": "kemh.13.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the mean deviation about the mean for the data {data}",
+   "extracted_variables": {
+    "sum_x": 72,
+    "n": 8,
+    "sum_abs_dev": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate mean",
+     "explain": "72 / 8",
+     "compute": "mean = 72 / 8"
+    },
+    {
+     "step": 2,
+     "action": "calculate md",
+     "explain": "22 / 8",
+     "compute": "md_mean = 22 / 8"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 8",
+   "concept": "kemh.13.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the variance of the data {data}",
+   "extracted_variables": {
+    "sum_sq_dev_vals": 330,
+    "n": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate variance",
+     "explain": "330 / 10",
+     "compute": "variance = 330 / 10"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "Exercise 13.1",
+   "questions": [
+    "Find the mean deviation about the mean for 4, 7, 8, 9, 10, 12, 13, 17",
+    "Find the mean deviation about the median for 13, 17, 16, 14, 11, 13, 10, 16, 11, 18, 12, 17"
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "Exercise 13.2",
+   "questions": [
+    "Find the mean and variance for 6, 7, 10, 12, 13, 4, 8, 12",
+    "Find the mean and variance for the first 10 multiples of 3"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

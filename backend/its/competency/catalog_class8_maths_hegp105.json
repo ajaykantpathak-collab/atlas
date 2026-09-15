@@ -1,0 +1,349 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Number Play",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.105.5.1",
+   "title": "Sums of Consecutive Numbers",
+   "section": "5.1",
+   "definition": "A run of whole numbers that grows by one at each step is a consecutive run, and many totals can be rebuilt out of such runs; one total may even come from several runs of different lengths, for instance 15 works as 7+8, as 4+5+6 and as 1+2+3+4+5.",
+   "formula": "total_sum = 4 * first_num + 6 (run of four consecutive terms)",
+   "key_idea": "Four consecutive terms carry 0+1+2+3 = 6 beyond four times the first term, so the first term is (total - 6) / 4.",
+   "textbook_ref": "hegp105.txt lines 1-32 (Anshu's consecutive sums), 696 (Figure it Out Q1)",
+   "question_patterns": [
+    "the sum of four consecutive numbers is 34 - find those numbers",
+    "express 15 as a sum of consecutive numbers in more than one way",
+    "can every odd number be written as a sum of two consecutive numbers - explain",
+    "find the first number of a run of four consecutive numbers whose total is 50",
+    "which numbers resist being written as a sum of consecutive numbers - investigate",
+    "can 0 be written as a sum of consecutive numbers if negative terms are allowed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the fixed offsets of the four terms",
+     "explain": "The terms n, n+1, n+2, n+3 carry 0+1+2+3 = 6 beyond 4n.",
+     "compute": "offset_sum = 0 + 1 + 2 + 3"},
+    {"step": 2, "action": "remove the offset and divide by 4",
+     "explain": "Whatever remains after taking away the offset is 4 times the first term.",
+     "compute": "first_num = (total_sum - offset_sum) // 4"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.2",
+   "title": "Same Parity of a +/- b +/- c +/- d Combinations",
+   "section": "5.1",
+   "definition": "Join four letter-numbers with any mix of plus and minus signs and every one of the eight possible expressions lands on the same parity: swapping any single sign shifts the value by twice that letter-number, an even shift, so an even total stays even and an odd total stays odd.",
+   "formula": "value_shift = 2 * letter_num (even, for any single sign flip)",
+   "key_idea": "Each sign flip moves the total by an even amount, so all eight expressions are parity twins.",
+   "textbook_ref": "hegp105.txt lines 36-161 (eight expressions, Explanations 1-3)",
+   "question_patterns": [
+    "place plus and minus signs between 3 4 5 6 in all eight ways and compare the results",
+    "why do all eight expressions from four numbers share one parity - justify",
+    "if a + b - c - d comes out odd will a - b + c + d also be odd - explain",
+    "by how much does the value change when plus b is replaced by minus b",
+    "does the shared-parity property need the four numbers to be consecutive - reason it out",
+    "check whether any sign placement on 4 5 6 7 can produce an odd total"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "flip one sign and measure the change",
+     "explain": "(a + b - c - d) - (a - b - c - d) = 2b, which is even, so the two values agree in parity."},
+    {"step": 2, "action": "apply the parity rules for sums and differences",
+     "explain": "odd +/- odd = even, even +/- even = even, odd +/- even = odd; hence a +/- b keeps a fixed parity."},
+    {"step": 3, "action": "extend to all eight placements",
+     "explain": "Any two of the eight expressions differ by a chain of even shifts, so every placement shares one parity."}
+   ]
+  },
+  {
+   "id": "hegp.105.5.3",
+   "title": "Spotting Expressions That Are Always Even",
+   "section": "5.1",
+   "definition": "An algebraic expression is guaranteed even exactly when a factor 2 comes out of it cleanly: 4m and 2q each carry a factor 2, so 4m + 2q equals 2(2m + q) and stays even for every integer choice of m and q, while x^2 + 2 switches parity with x and is only sometimes even.",
+   "formula": "even_expr = 2 * (2 * m_val + q_val)",
+   "key_idea": "Factor 2 out of the whole expression; a clean factorisation proves the expression never turns odd.",
+   "textbook_ref": "hegp105.txt lines 165-254 (Breaking Even, 4m + 2q discussion, x^2 + 2 example)",
+   "question_patterns": [
+    "is 4m + 2q even for all integer values of m and q - justify both ways",
+    "decide whether x squared plus 2 is always even and supply an example and a non-example",
+    "which of 2u - 4v and 6m - 3n stay even for every integer input",
+    "write your own algebraic expression that always lands on an even number",
+    "evaluate 4m + 2q for m = 4 and q = -9 and confirm the parity",
+    "explain how pulling out a factor of 2 settles the parity of an expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the first term",
+     "explain": "4m is a multiple of 4, hence always even.",
+     "compute": "term_even = 4 * m_val"},
+    {"step": 2, "action": "add the second term",
+     "explain": "2q is even as well, and even plus even remains even.",
+     "compute": "even_total = term_even + 2 * q_val"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.4",
+   "title": "Remainder Classes of Numbers",
+   "section": "5.1",
+   "definition": "Dividing by a fixed divisor sorts whole numbers into remainder classes: the numbers leaving remainder 3 on division by 5 are exactly those 3 above a multiple of 5, written 5k + 3, and the very same class can be dressed as 5k - 2 with k at least 1, since one class can sit r above one multiple or n - r below the next.",
+   "formula": "class_member = divisor_val * k_val + rem_val",
+   "key_idea": "Remainder r modulo n means n times k plus r; describing the class as n*k - (n - r) gives a second valid form.",
+   "textbook_ref": "hegp105.txt lines 661-693 (What Remains, 5k + 3 and 5k - 2), 711-740 (Q4)",
+   "question_patterns": [
+    "list five numbers that leave remainder 3 when divided by 5",
+    "which of 3k + 5, 5k + 3 and 5k - 2 describe numbers with remainder 3 on division by 5",
+    "write an algebraic form for numbers that are 2 short of a multiple of 5",
+    "find numbers leaving remainder 2 on division by both 3 and 4 and cover them with one expression",
+    "what values does 5k + 3 take when k runs from 0 to 4",
+    "find the smallest number that is 2 mod 3, 3 mod 4 and 4 mod 5 - explain why it is smallest"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the base multiple",
+     "explain": "Members of the class sit on multiples of the divisor, divisor times k.",
+     "compute": "base_mult = divisor_val * k_val"},
+    {"step": 2, "action": "add the remainder",
+     "explain": "Adding r lifts the multiple into the chosen remainder class.",
+     "compute": "class_member = base_mult + rem_val"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.5",
+   "title": "Digit-Sum Test for Divisibility by 9",
+   "section": "5.2",
+   "definition": "Every place value sits exactly one above a multiple of 9, since 1, 10, 100, 1000 are 0+1, 9+1, 99+1, 999+1; a whole number therefore exceeds some multiple of 9 by the total of its digits, so it divides evenly by 9 precisely when that digit total does, and the digit total's residue is the number's remainder.",
+   "formula": "rem_9 = (unit_d + tens_d + hund_d + thous_d) % 9",
+   "key_idea": "Powers of 10 run one ahead of multiples of 9, so the digits alone carry the whole remainder.",
+   "textbook_ref": "hegp105.txt lines 763-972 (shortcut for 9, 427 and 7309 workthroughs)",
+   "question_patterns": [
+    "check without dividing whether 93547 is divisible by 9",
+    "find the remainder when 427 is divided by 9 using digit sums",
+    "why does adding the digits decide divisibility by 9 - explain through place values",
+    "find the smallest multiple of 9 whose digits are all even",
+    "how many multiples of 9 lie between 4300 and 4400",
+    "if the digit total of a number is 45 what remainder does the number leave on division by 9"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the digits",
+     "explain": "Each place value is one above a multiple of 9, so the digits carry the entire excess.",
+     "compute": "digit_total = unit_d + tens_d + hund_d + thous_d"},
+    {"step": 2, "action": "reduce modulo 9",
+     "explain": "The residue of the digit total mod 9 is the residue of the number itself.",
+     "compute": "rem_9 = digit_total % 9"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.6",
+   "title": "Alternating-Sum Test for Divisibility by 11",
+   "section": "5.2",
+   "definition": "Place values alternate between one above and one below multiples of 11, since 1, 10, 100, 1000 give remainders 1, -1, 1, -1; so adding the digits of alternate places and subtracting the rest measures the excess or shortfall, and a number divides by 11 exactly when this alternating total is 0 or a multiple of 11.",
+   "formula": "rem_11 = (unit_d - tens_d + hund_d - thous_d) % 11",
+   "key_idea": "The alternating digit total tells how far the number sits from its nearest multiple of 11.",
+   "textbook_ref": "hegp105.txt lines 990-1158 (shortcut for 11, 320185 workthrough, practice list)",
+   "question_patterns": [
+    "test whether 462 and 841 are divisible by 11 using the alternating sum",
+    "find the remainder of 158 on division by 11 without dividing",
+    "why do place values alternate one above and one below multiples of 11",
+    "check whether 90904 and 857076 pass the divisibility test for 11",
+    "state the divisibility rule for 11 in your own words",
+    "what does an alternating total of minus 3 reveal about the nearest multiple of 11"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "alternate plus and minus signs from the units place",
+     "explain": "Digits in 1, 100, 10000 places are added; digits in 10, 1000, 100000 places are subtracted.",
+     "compute": "alt_total = unit_d - tens_d + hund_d - thous_d"},
+    {"step": 2, "action": "reduce modulo 11",
+     "explain": "A zero or multiple-of-11 result means divisibility; any other residue is the remainder.",
+     "compute": "rem_11 = alt_total % 11"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.7",
+   "title": "Digital Root by Repeated Digit Addition",
+   "section": "5.2",
+   "definition": "Adding a number's digits, then repeating on the outcome until a single digit survives, produces the digital root; this fingerprint equals the remainder on division by 9, with root 9 standing for remainder 0, a checking method recorded in Aryabhata II's Mahasiddhanta around 950 CE.",
+   "formula": "dig_root = number_val % 9 (a residue of 0 is reported as 9)",
+   "key_idea": "The digital root is the mod-9 fingerprint of a number; multiples of 9 always root to 9.",
+   "textbook_ref": "hegp105.txt lines 1235-1281 (digital roots, 489710 example, history note)",
+   "question_patterns": [
+    "find the digital root of 489710 by repeated digit addition",
+    "what is the digital root of 9a + 36b + 13",
+    "an 8-digit number has digital root 5 - what root does the number 10 more have",
+    "describe the digital-root cycle of consecutive multiples of 3",
+    "how does the digital root connect to the remainder on division by 9",
+    "which digital roots can numbers one above a multiple of 6 take"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "peel away the multiples of 9",
+     "explain": "9a and 36b are multiples of 9, so only the leftover 13 = 9 + 4 shapes the root.",
+     "compute": "leftover_val = 9 * a_val + 36 * b_val + 13"},
+    {"step": 2, "action": "read the root modulo 9",
+     "explain": "The residue mod 9 is the digital root; a residue of 0 is reported as root 9.",
+     "compute": "dig_root = leftover_val % 9"}
+   ]
+  },
+  {
+   "id": "hegp.105.5.8",
+   "title": "Divisibility Laws for Always-Sometimes-Never Claims",
+   "section": "5.1",
+   "definition": "Four structural laws settle most divisibility claims: numbers divisible by one divisor stay divisible after adding or subtracting, every multiple of a multiple inherits the divisibility, divisibility by a number forces divisibility by each of its factors, and divisibility by two numbers forces divisibility by their LCM; matching a claim to these laws sorts it into always, sometimes or never true.",
+   "formula": "k divides m_num and k divides n_num implies k divides m_num + n_num",
+   "key_idea": "Classify each claim against a divisibility law, then seal the verdict with an example and a counterexample.",
+   "textbook_ref": "hegp105.txt lines 378-660 (Always Sometimes Never, statements 1-8), 1442-1447 (summary)",
+   "question_patterns": [
+    "if 8 exactly divides two numbers separately must it divide their sum - justify",
+    "a number is divisible by 12 - must it be divisible by every factor of 12",
+    "a number is divisible by 7 - is it necessarily divisible by any multiple of 7",
+    "if a number is divisible by both 9 and 4 must it be divisible by 36 - argue with LCM",
+    "decide whether a multiple of 6 plus a multiple of 9 must be a multiple of 3",
+    "can a number divisible by both 4 and 6 fail to be divisible by 24 - give an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the claim to a divisibility law",
+     "explain": "Sum-difference, multiple-of-multiple, factor and LCM laws each decide one family of claims."},
+    {"step": 2, "action": "back true cases with the algebraic form",
+     "explain": "Writing the numbers as k*p and k*q turns their total into k*(p + q), still divisible by k."},
+    {"step": 3, "action": "refute over-strong claims with a counterexample",
+     "explain": "12 divides by 4 and by 6 yet not by 24, because 4 and 6 share the extra factor 2."}
+   ]
+  },
+  {
+   "id": "hegp.105.5.9",
+   "title": "Cryptarithms - Letters Standing for Digits",
+   "section": "5.3",
+   "definition": "A cryptarithm hides one fixed digit behind each letter, gives different letters different digits, and never allows a leading zero; solving runs column by column from the units place, letting carries and product sizes pin letters down, as when PQ x 8 = RS forces the two-digit factor to stay at most 12.",
+   "formula": "column_sum = units_digit + carry_in; carry_out = column_sum // 10",
+   "key_idea": "Climb the columns: units first, carry forward, and bound each letter by the size of the answer.",
+   "textbook_ref": "hegp105.txt lines 1282-1348 (Digits in Disguise, PQ x 8 and BYE x 6), 1850-1884 (answers)",
+   "question_patterns": [
+    "solve the cryptarithm PQ x 8 = RS and explain why PQ cannot exceed 12",
+    "find the digits in BYE x 6 = RAY starting from the bound on B",
+    "what rules must every cryptarithm obey about letters and leading digits",
+    "solve ON + ON + ON = PO column by column",
+    "why can a two-digit number multiplied by 8 stay two-digit only up to a point",
+    "explain how carries decide the letters in a multiplication cryptarithm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "bound the leading letters",
+     "explain": "The size of the answer limits its hundreds letter, and a two-digit product limits both factors."},
+    {"step": 2, "action": "process the units column",
+     "explain": "The units digit of the sum or product restricts the unit letters modulo 10."},
+    {"step": 3, "action": "carry forward until consistent",
+     "explain": "Each carry narrows the choices; the solve ends with every column consistent and no digit repeated."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp105.txt lines 696, 1484-1486 (Figure it Out Q1, answer 7 8 9 10)",
+   "concept": "hegp.105.5.1",
+   "question_type": "compute",
+   "question_pattern": "The sum of four consecutive numbers is {total_sum}. What are these numbers?",
+   "extracted_variables": {
+    "total_sum": "given total of the four consecutive numbers (34 in the book)"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the fixed offsets of the four terms",
+     "explain": "The terms n, n+1, n+2, n+3 carry 0+1+2+3 = 6 beyond 4n.",
+     "compute": "offset_sum = 0 + 1 + 2 + 3"},
+    {"step": 2, "action": "remove the offset and divide by 4",
+     "explain": "What remains is 4 times the first term; the other three follow by adding 1, 2, 3.",
+     "compute": "first_num = (total_sum - offset_sum) // 4"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp105.txt lines 790-795, 862-873 (remainder of 427 and 7309 by 9)",
+   "concept": "hegp.105.5.5",
+   "question_type": "compute",
+   "question_pattern": "Without dividing, find the remainder when the number with digits {d_thous} {d_hund} {d_tens} {d_unit} is divided by 9.",
+   "extracted_variables": {
+    "d_thous": "thousands digit (7 in the book example 7309)",
+    "d_hund": "hundreds digit (3)",
+    "d_tens": "tens digit (0)",
+    "d_unit": "units digit (9)"
+   },
+   "solution_template": [
+    {"step": 1, "action": "total the digits",
+     "explain": "Each place value is one above a multiple of 9, so the digits carry the whole excess.",
+     "compute": "digit_total = d_thous + d_hund + d_tens + d_unit"},
+    {"step": 2, "action": "reduce modulo 9",
+     "explain": "The residue of the digit total is the number's remainder on division by 9.",
+     "compute": "rem_9 = digit_total % 9"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp105.txt lines 1055-1060, 1156-1158, 1621-1624 (462 test, remainders 4 5 8 7)",
+   "concept": "hegp.105.5.6",
+   "question_type": "compute",
+   "question_pattern": "Using the alternating-sum test, decide whether the number with digits {d_hund} {d_tens} {d_unit} is divisible by 11.",
+   "extracted_variables": {
+    "d_hund": "hundreds digit (4 in the book example 462)",
+    "d_tens": "tens digit (6)",
+    "d_unit": "units digit (2)"
+   },
+   "solution_template": [
+    {"step": 1, "action": "alternate signs from the units place",
+     "explain": "Add the units and hundreds digits, subtract the tens digit.",
+     "compute": "alt_total = d_unit - d_tens + d_hund"},
+    {"step": 2, "action": "reduce modulo 11",
+     "explain": "A zero result certifies divisibility by 11; otherwise the residue is the remainder.",
+     "compute": "rem_11 = alt_total % 11"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hegp105.txt lines 695-740 (Figure it Out, page 122)",
+   "questions": [
+    "The total of four consecutive numbers is 34 - identify all four.",
+    "If p is the largest of five consecutive numbers, describe the other four in terms of p.",
+    "Rule on each claim as always, sometimes or never true, and back the verdict with algebra: the total of two even numbers is a multiple of 3; a number not divisible by 18 is also not divisible by 9; the total of two numbers neither divisible by 6 is again not divisible by 6; a multiple of 6 plus a multiple of 9 gives a multiple of 3; a multiple of 6 plus a multiple of 3 gives a multiple of 9.",
+    "Find numbers that leave remainder 2 on division by both 3 and 4, and give one algebraic expression covering them all.",
+    "Pebble riddle: grouping by 3 leaves one extra, pairing into 2s leaves one odd pebble, grouping by 5 leaves one extra, grouping by 7 is exact, and the count stays below 100 - how many pebbles are there?",
+    "Three numbers each leave remainder 2 on division by 6; a claim says any three such numbers total a multiple of 6 - test and settle the claim.",
+    "On division by 7, 661 leaves remainder 3 and 4779 leaves remainder 5 - predict the remainders of their sum and of their difference without dividing.",
+    "Find the smallest number leaving remainder 2 on division by 3, remainder 3 on division by 4 and remainder 4 on division by 5, and explain why nothing smaller works."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hegp105.txt lines 973-980, 1156-1158, 1268-1281 (Figure it Out, divisibility and digital roots)",
+   "questions": [
+    "Sort 123, 405, 8888, 93547 and 358095 by divisibility by 9, dividing nowhere.",
+    "Find the smallest multiple of 9 whose digits are all even.",
+    "Which multiple of 9 lies closest to 6000?",
+    "Count the multiples of 9 between 4300 and 4400.",
+    "Apply the alternating-sum test to 158, 841, 481, 5529, 90904 and 857076; where the test fails, state the remainder.",
+    "An 8-digit number has digital root 5 - what is the digital root of the number 10 more than it?",
+    "Add 11 to a starting number again and again; what pattern do the digital roots of the sequence show?",
+    "What is the digital root of 9a + 36b + 13?"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hegp105.txt lines 1286-1348, 1350-1373 (cryptarithm sets and Figure it Out)",
+   "questions": [
+    "Solve the addition cryptarithms: A1 + 1B = B0; AB + 37 = 6A; ON + ON + ON = PO; QR + QR + QR = PRR.",
+    "Solve PQ x 8 = RS, and justify why PQ can be at most 12.",
+    "Pick the solution of GH x H = 9K from 11x9, 12x8, 46x2, 24x4, 47x2, 31x3 and 16x6.",
+    "Solve BYE x 6 = RAY, starting from why B must equal 1 and what values Y can take.",
+    "Solve: UT x 3 = PUT; AB x 5 = BC; L2N x 2 = 2NP; XY x 4 = ZX; PP x QQ = PRP; JK x 6 = KKK.",
+    "If 31z5 is a multiple of 9, which digit can z be - and why does the problem have two answers?",
+    "If 48a23b is a multiple of 18, list every possible pair (a, b).",
+    "If 3p7q8 is divisible by 44, list every possible pair (p, q)."
+   ]
+  }
+ ]
+}

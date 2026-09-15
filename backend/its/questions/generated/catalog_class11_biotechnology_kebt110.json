@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt110",
+ "concepts": [
+  {
+   "id": "kebt110.1",
+   "title": "Protein Data Types and Their Uses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protein Data Types and Their Uses' refers to.",
+     "a": "Protein informatics feeds on every raw form a protein can take - micrographs of heat-denatured aggregates, solutions for physico-chemical study, MALDI sequence fragments, assembled sequences, PDB crystal files, interaction maps, NMR and mass spectra, and hypothetical proteins read straight out of genomes - each type answering a different question from marker design to drug-target mapping.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protein Data Types and Their Uses'.",
+     "a": "Match the raw data type to the question: crystals reveal interactions, fragments rebuild full sequences, and genome reads reveal proteins never seen in a lab.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Protein Data Types and Their Uses' taught, and from which source text?",
+     "a": "10.1.1-10.1.2 (source: kebt110.txt sections 10.1.1-10.1.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.2",
+   "title": "Primary Structure Descriptors of a Protein",
+   "questions": [
+    {
+     "q": "Using the method 'Primary Structure Descriptors of a Protein', work with: aliphatic_residues = 15, hydropathy_sum = 60, residues = 4. Carry the chain through step by step and give the final value of aliphatic_pct.",
+     "a": "375 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Primary Structure Descriptors of a Protein' and work with: aliphatic_residues = 300, hydropathy_sum = 45, residues = 80. Carry the chain through step by step and give the final value of aliphatic_pct.",
+     "a": "375 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Primary Structure Descriptors of a Protein' refers to.",
+     "a": "From sequence alone the ProtParam tool of ExPASy prices a protein's habits: its isoelectric point calls the molecule acidic below seven or basic above, the aliphatic index tallies aliphatic side-chain volume as a thermal-stability credit, an instability index under forty predicts a stable protein in the test tube, and the GRAVY value - hydropathy scores summed over the residue count - forecasts how sociably the chain meets water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Structure Descriptors of a Protein'.",
+     "a": "Divide the summed hydropathy by residue count for GRAVY, take the aliphatic share as a percent, and read seven and forty as the pH and stability pivots.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Primary Structure Descriptors of a Protein', in plain ASCII form.",
+     "a": "gravy = hydropathy_sum / residues",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.3",
+   "title": "Predicting Secondary and 3D Protein Structures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Predicting Secondary and 3D Protein Structures' refers to.",
+     "a": "When no crystal exists, computation fills in: APSSP, CFSSP, SOPMA and GOR forecast helices and sheets; homology modelling on MODELLER or SWISS-MODEL copies a solved relative; threading forces the chain onto a known backbone for fold prediction; QUARK builds the model de novo from sequence alone, and InterPRO or CDD carves the chain into domains recorded later as PDB coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Predicting Secondary and 3D Protein Structures'.",
+     "a": "Close relatives give global folds by homology, distant hints give local folds by threading, and sequence alone still yields a de novo model.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Predicting Secondary and 3D Protein Structures' taught, and from which source text?",
+     "a": "10.1.3.2-10.1.3.3 (source: kebt110.txt sections 10.1.3.2-10.1.3.3, Fig. 10.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.4",
+   "title": "Cheminformatics and Virtual Screening",
+   "questions": [
+    {
+     "q": "Using the method 'Cheminformatics and Virtual Screening', work with: sequences_million = 24, substances_million = 300. Carry the chain through step by step and give the final value of sequence_share.",
+     "a": "0.08 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cheminformatics and Virtual Screening' and work with: sequences_million = 15, substances_million = 4. Carry the chain through step by step and give the final value of sequence_share.",
+     "a": "3.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cheminformatics and Virtual Screening' refers to.",
+     "a": "Cheminformatics aims computational power at chemistry - storing property tables, reaction routes and 3D structures - so that virtual screening can score and rank millions of real and hypothetical molecules against ADME and docking filters before any synthesis; the CAS registry alone holds over 219 million substances alongside 70 million sequences and billions of property values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cheminformatics and Virtual Screening'.",
+     "a": "Screen first in silico and synthesize only the survivors; the CAS numbers show the scale such filters must face.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cheminformatics and Virtual Screening', in plain ASCII form.",
+     "a": "sequence_share = sequences_million / substances_million",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.5",
+   "title": "Molecular Graphs and Substructure Searching",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Molecular Graphs and Substructure Searching' refers to.",
+     "a": "Chemicals live in computers as molecular graphs - atoms as nodes, bonds as edges - the same node-edge logic that later draws pathways like glycolysis; searching them often runs in two stages, a bitstring screen that discards obvious non-matches, then a subgraph isomorphism test that confirms every atom and bond of the query sits inside the candidate, and reaction searches add atom mapping from reactants to products.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Molecular Graphs and Substructure Searching'.",
+     "a": "Filter fast with bitstrings, confirm exactly with subgraph isomorphism, and map every atom to its product in reaction searches.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Molecular Graphs and Substructure Searching' taught, and from which source text?",
+     "a": "10.2.4-10.2.6 (source: kebt110.txt sections 10.2.4-10.2.6)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.6",
+   "title": "Pharmacophore Models of Ligand Recognition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pharmacophore Models of Ligand Recognition' refers to.",
+     "a": "A pharmacophore is not a molecule but the abstract set of steric and electronic features - charged groups, rings, hydrophobic patches - arranged in space that a ligand needs to wake a biological target; modelling these features explains how structurally unlike ligands can still dock the same receptor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pharmacophore Models of Ligand Recognition'.",
+     "a": "Collect the features, not the atoms - a pharmacophore maps what must be present and where, not what the molecule is.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pharmacophore Models of Ligand Recognition' taught, and from which source text?",
+     "a": "10.2.7 (source: kebt110.txt section 10.2.7)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.7",
+   "title": "Lipinski's Rule of Five Screening",
+   "questions": [
+    {
+     "q": "Using the method 'Lipinski's Rule of Five Screening', work with: donor_limit = 100, hbond_donors = 360, mol_weight = 75. Carry the chain through step by step and give the final value of donors_over.",
+     "a": "260 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Lipinski's Rule of Five Screening' and work with: donor_limit = 40, hbond_donors = 200, mol_weight = 10. Carry the chain through step by step and give the final value of donors_over.",
+     "a": "160 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lipinski's Rule of Five Screening' refers to.",
+     "a": "Christopher Lipinski's 1997 yardstick flags oral-drug potential: at most five hydrogen-bond donors, at most ten acceptors, molecular weight below five hundred daltons and log P below five, with no more than one violation tolerated and scores under three dropping out of further analysis; intramuscular and intravenous drugs and natural products escape the rule.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lipinski's Rule of Five Screening'.",
+     "a": "Subtract each limit from the measured value - a positive excess marks a violation against donors, acceptors, weight or log P.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lipinski's Rule of Five Screening', in plain ASCII form.",
+     "a": "weight_excess = mol_weight - 500",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt110.8",
+   "title": "The Drug Development Pipeline Timeline",
+   "questions": [
+    {
+     "q": "Using the method 'The Drug Development Pipeline Timeline', work with: clinical_years = 150, development_years = 100, discovery_years = 500. Carry the chain through step by step and give the final value of journey_total.",
+     "a": "750 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Drug Development Pipeline Timeline' and work with: clinical_years = 500, development_years = 2600, discovery_years = 1500. Carry the chain through step by step and give the final value of journey_total.",
+     "a": "4600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Drug Development Pipeline Timeline' refers to.",
+     "a": "A new medicine walks a long road: discovery alone consumes seven to eight years screening thousands of compounds, development trims the field to one to five candidates over one to five years, and clinical trials test the single survivor through phases I to III across five to six years before regulatory approval and patient care.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Drug Development Pipeline Timeline'.",
+     "a": "Add the three stage durations to price the whole lab-to-market journey.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Drug Development Pipeline Timeline', in plain ASCII form.",
+     "a": "journey_total = dev_total + clinical_years",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

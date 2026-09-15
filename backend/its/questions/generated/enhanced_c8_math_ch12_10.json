@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_10",
+   "title": "c8_math_ch12_10",
+   "questions": [
+    {
+     "q": "What is the primary reason for choosing the median over the mean when a data set has extreme outliers?",
+     "a": "The median is resistant to outliers because it depends only on the middle position(s), whereas the mean incorporates every value's magnitude, so extreme values pull the mean toward them. A wrong answer (e.g., \"median is easier to calculate\") reveals the student confuses computational convenience with statistical robustness.",
+     "self_check": true
+    },
+    {
+     "q": "A shoe store owner records the sizes sold in a day: 6, 7, 8, 7, 9, 7, 8, 10, 7, 8. The mean is 7.7, median is 7.5, mode is 7. Which measure should the owner use to decide which size to stock the most? Explain why the other two are less suitable.",
+     "a": "The mode (size 7) is best because the owner needs the most frequently sold size to maximise sales. The mean (7.7) is not a valid shoe size, and the median (7.5) is also not a stockable size. A wrong answer choosing mean or median shows the student does not connect the measure to the decision context (categorical/inventory).",
+     "self_check": true
+    },
+    {
+     "q": "The monthly incomes (in ₹) of 7 families in a village are: 12000, 15000, 14000, 13000, 16000, 15000, 50000. Calculate the mean and median. Which better represents the \"typical\" income? Show steps.",
+     "a": "Mean = (12000+15000+14000+13000+16000+15000+50000)/7 = 135000/7 ≈ ₹19,286. Sorted: 12000, 13000, 14000, 15000, 15000, 16000, 50000. Median = 4th value = ₹15,000. The median (₹15,000) is better because the ₹50,000 outlier inflates the mean above 6 of the 7 incomes. A wrong choice of mean indicates the student ignores the outlier's distortion.",
+     "self_check": true
+    },
+    {
+     "q": "Two data sets have the same mean (50) and median (50). Set A: 40, 45, 50, 55, 60. Set B: 10, 20, 50, 80, 90. Without calculating, explain which set's mean is more \"representative\" of its values and why.",
+     "a": "Set A's mean is more representative because its values are clustered symmetrically around 50 (range 20). Set B is widely spread (range 80) with no values near 50; the mean 50 is not close to any actual data point. A wrong answer suggests the student thinks equal mean/median always implies equal representativeness, missing the role of spread.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"For any numerical data, the mean is the best average because it uses all the data.\" Evaluate this claim. Provide a counterexample data set where the mean is misleading and state which measure should be used instead.",
+     "a": "The claim is false. Counterexample: Ages at a birthday party: 8, 8, 9, 8, 9, 8, 40 (parent). Mean = 90/7 ≈ 12.9, but no child is near 13. Median = 8, mode = 8. The median/mode better represents the children's ages. A student who agrees with the claim has not grasped that \"using all data\" is a weakness when outliers exist.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) with a small data set (5–7 values) where the mode is the only meaningful measure of central tendency, and the mean and median are either impossible to calculate or misleading. Explain your reasoning.",
+     "a": "Example: Favourite ice cream flavours voted by 6 students: \"Mango\", \"Chocolate\", \"Mango\", \"Vanilla\", \"Mango\", \"Butterscotch\". Data is categorical → mean/median undefined. Mode = \"Mango\". Or numerical but multimodal with no centre: Number of siblings: 0, 0, 5, 5, 5, 10, 10. Mean ≈ 5, median = 5, but modes are 0, 5, 10 – no single typical value. A poor answer uses numerical symmetric data, showing confusion about mode's purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

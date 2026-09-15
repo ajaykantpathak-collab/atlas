@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_001",
+   "title": "c11_bs_cbse_11_001",
+   "questions": [
+    {
+     "q": "State the NCERT definition of International Business in one sentence.",
+     "a": "International Business refers to business activities that take place across national frontiers involving not only international movement of goods and services but also of capital, personnel, technology and intellectual property like patents, trademarks, know-how and copyrights. A wrong answer that only mentions \"export and import of goods\" reveals the common misconception that international business equals international trade, ignoring the broader scope of factor movements and intangible assets.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the nationality of buyers and sellers makes international business more complex than domestic business.",
+     "a": "In domestic business, buyers and sellers share the same nationality, language, legal framework, and cultural norms, so communication, contract enforcement, and trust-building are relatively straightforward. In international business, parties come from different countries with different languages, business customs, legal systems, and cultural values, leading to misunderstandings, higher transaction costs, and the need for specialised knowledge (e.g., Incoterms, letters of credit). A student who merely says \"it is harder because they are from different countries\" without elaborating on the specific dimensions (language, law, culture) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A Mumbai-based software firm develops a custom ERP system for a client in Germany. The contract is signed electronically, the development team works from Mumbai and Bengaluru, and the final product is delivered via cloud download. The German client pays in euros, which the Indian firm converts to rupees. Classify this transaction into the correct component of the scope of international business and justify your classification.",
+     "a": "This is \"Service exports\" (invisible trade) under the scope of international business. The firm exports intangible software services across national frontiers; no physical goods cross the border. The receipt of foreign currency (euros) and conversion to rupees confirms it is an international business transaction. A student who classifies it as \"merchandise exports\" fails to recognise that software delivered electronically is a service, not a tangible good, and therefore falls under invisible trade.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mobility of labour and capital in domestic business versus international business. Why does this difference matter for a firm deciding whether to export or set up a foreign subsidiary?",
+     "a": "Within a country, labour and capital move relatively freely across states; across nations, legal restrictions (visas, work permits, capital controls), socio-cultural barriers, and economic disparities severely limit mobility. This matters because if a firm cannot easily move its skilled workers or capital to a foreign market, exporting (which only moves goods) may be the only feasible entry mode, whereas a wholly owned subsidiary requires significant capital and managerial mobility. A student who says \"mobility is lower internationally\" without linking it to the choice of entry mode misses the strategic implication.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"International business is beneficial only for large multinational corporations; small firms should avoid it because of high risks and costs.\"",
+     "a": "The statement is false. While risks (exchange rate, political, cultural) and costs (transport, tariffs, compliance) exist, small firms can benefit from international business through niche markets, higher margins, capacity utilisation, and risk diversification. Modes like indirect exporting, licensing, or contract manufacturing allow small firms to enter with low investment and risk. The NCERT text explicitly states exporting/importing is the easiest way for firms initially getting involved. A student who agrees with the statement overlooks the range of low-commitment entry modes and the benefits of foreign exchange earnings and growth prospects for small firms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving an Indian firm that illustrates at least three distinct components of the scope of international business (e.g., merchandise trade, service trade, licensing, foreign investment) in a single integrated operation.",
+     "a": "Example: \"Tata Motors exports finished vehicles (merchandise exports) to Nepal, provides after-sales technical training to Nepali mechanics (service exports), licenses its electric-vehicle battery technology to a Nepali assembler (licensing), and sets up a joint-venture assembly plant in Kathmandu (foreign direct investment).\" A good answer must name the firm, the foreign country, and explicitly map each activity to a scope component. A poor answer lists activities without classification or uses only one component (e.g., only exporting), showing incomplete grasp of the breadth of international business.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

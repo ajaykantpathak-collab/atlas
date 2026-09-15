@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_009",
+   "title": "c11_psy_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define size constancy and state the specific retinal change that occurs when an object moves closer to the observer.",
+     "a": "Size constancy is the perception of an object's size as relatively stable despite changes in the size of its retinal image. When an object moves closer, the retinal image becomes larger. A wrong answer (e.g., \"retinal image becomes smaller\" or \"retinal image stays the same\") reveals the student has not grasped the inverse relationship between distance and retinal image size, which is foundational to understanding why constancy requires active scaling.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Shape constancy means the retinal image of a door stays rectangular whether it's open or closed.\" Explain why this statement is incorrect and describe what actually happens to the retinal image.",
+     "a": "The statement is incorrect because shape constancy refers to perceptual stability *despite* retinal change, not retinal stability. When a door opens, its retinal image changes from a rectangle to a trapezoid (or a line when fully edge-on), yet we perceive the door as rectangular throughout. A wrong answer indicates the student confuses constancy (a perceptual achievement) with the raw sensory input, missing the core concept that perception constructs stability from changing proximal stimuli.",
+     "self_check": true
+    },
+    {
+     "q": "You are in a brightly lit room holding a white sheet of paper. You walk into a dimly lit hallway still holding the paper. The paper continues to look white. Identify the type of constancy operating here and explain the physical change that your perception is overriding.",
+     "a": "Brightness constancy is operating. The physical change is the amount of light energy reflected from the paper reaching your eyes — it decreases significantly in the dim hallway — yet the perceived whiteness remains constant. A wrong answer (e.g., naming size or shape constancy, or saying the reflected light stays the same) shows the student cannot map the constancy type to the specific physical variable (illumination intensity) that changes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast size constancy and shape constancy in terms of: (a) the retinal variable that changes, (b) the viewing condition that causes the change, and (c) the depth/orientation cue the brain likely uses to achieve constancy.",
+     "a": "(a) Size constancy: retinal image *size* changes; Shape constancy: retinal image *shape/geometry* changes. (b) Size constancy is triggered by *distance* changes; Shape constancy is triggered by *orientation/angle* changes. (c) Size constancy uses distance cues (e.g., interposition, relative size, convergence); Shape constancy uses orientation cues (e.g., texture gradient, linear perspective, binocular disparity for slant). A poor answer conflates distance and orientation or fails to link specific cues to each constancy, revealing a fragmented understanding of how different cues serve different constancies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Perceptual constancies are perfect — we always see objects as their true size, shape, and brightness regardless of conditions.\" Support your evaluation with two specific limitations or boundary conditions.",
+     "a": "The claim is false. Constancies are not perfect; they operate within limits. Limitation 1: Size constancy fails at extreme distances (e.g., the moon illusion — the moon looks larger on the horizon than overhead despite identical retinal size). Limitation 2: Brightness constancy breaks down under very dim or very bright illumination (e.g., a white paper may appear grey in near-darkness). A wrong answer that agrees with the claim or gives vague limitations (\"sometimes it doesn't work\") shows the student treats constancies as absolute laws rather than probabilistic perceptual achievements with known breakdown points.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration to show that shape constancy involves perceptual interpretation rather than direct retinal registration. Specify the stimulus, the viewing manipulation, what the observer should report, and what the result proves.",
+     "a": "Stimulus: A rectangular cardboard (e.g., a book). Manipulation: Hold it upright (rectangular retinal image), then tilt it away sharply (trapezoidal retinal image), then view it edge-on (line retinal image). Observer reports: \"It looks rectangular throughout.\" Result proves: The same physical object produces three different retinal shapes, yet perception remains constant — demonstrating that shape perception is a construction using orientation cues (slant), not a direct readout of retinal geometry. A poor demonstration (e.g., using a circle that stays circular when tilted) fails to create a retinal shape change, so it cannot test constancy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

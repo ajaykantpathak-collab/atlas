@@ -1,0 +1,266 @@
+{
+ "catalog": "catalog_class11_economics_ch102",
+ "concepts": [
+  {
+   "id": "keec.102.1",
+   "title": "Types of Economic Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Economic Systems' refers to.",
+     "a": "An economic framework determining how a society answers the central questions of production, method, and distribution, broadly categorized into capitalist, socialist, and mixed economies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Economic Systems'.",
+     "a": "Societies allocate resources through market forces, central government planning, or a combination of both.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Economic Systems' taught, and from which source text?",
+     "a": "2.1 (source: keec102.txt lines 30-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.2",
+   "title": "Five Year Plans and Perspective Planning",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Five Year Plans and Perspective Planning' refers to.",
+     "a": "A structured national policy framework defining resource allocation and development targets over a five-year period, guided by a long-term vision spanning twenty years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Year Plans and Perspective Planning'.",
+     "a": "Five-year plans operationalize immediate goals while serving the broader objectives of long-term perspective plans.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Five Year Plans and Perspective Planning' taught, and from which source text?",
+     "a": "2.1 (source: keec102.txt lines 86-120)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.3",
+   "title": "Gross Domestic Product and Economic Growth",
+   "questions": [
+    {
+     "q": "Calculate gross domestic product from sectoral contributions. Use the method 'Gross Domestic Product and Economic Growth'. Work with: agri_output = 8, ind_output = 400, service_output = 400. Carry the chain through step by step and give the final value of the result.",
+     "a": "808 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find total GDP given output of agriculture, industry, and services. Use the method 'Gross Domestic Product and Economic Growth'. Work with: agri_output = 18, ind_output = 120, service_output = 75. Carry the chain through step by step and give the final value of the result.",
+     "a": "213 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gross Domestic Product and Economic Growth' refers to.",
+     "a": "Economic growth represents the continuous expansion of a country's total output of goods and services, quantified by the aggregate value produced across all sectors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gross Domestic Product and Economic Growth'.",
+     "a": "GDP expansion reflects an increase in national productive capacity and overall economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gross Domestic Product and Economic Growth', in plain ASCII form.",
+     "a": "gdp = agri_output + ind_output + service_output",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.4",
+   "title": "Structural Composition of GDP",
+   "questions": [
+    {
+     "q": "Calculate the percentage contribution of a sector to GDP. Use the method 'Structural Composition of GDP'. Work with: gdp = 1200, sector_output = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.4167 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the sectoral share of agriculture or industry in total output. Use the method 'Structural Composition of GDP'. Work with: gdp = 20000, sector_output = 15. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.075 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Structural Composition of GDP' refers to.",
+     "a": "The relative proportion or percentage share that agriculture, industry, and service sectors contribute to the overall Gross Domestic Product.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structural Composition of GDP'.",
+     "a": "Economic development typically involves a shift in GDP share from primary agriculture toward industry and services.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structural Composition of GDP', in plain ASCII form.",
+     "a": "sector_share = (sector_output / gdp) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.5",
+   "title": "Planning Goals: Modernisation, Self-Reliance, and Equity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Planning Goals: Modernisation, Self-Reliance, and Equity' refers to.",
+     "a": "The core socioeconomic pillars of planning designed to adopt modern techniques and progressive social mindsets, minimize foreign dependency, and ensure fair distribution of wealth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Planning Goals: Modernisation, Self-Reliance, and Equity'.",
+     "a": "Balancing technological advancement and self-sufficiency with social justice ensures economic benefits reach all strata.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Planning Goals: Modernisation, Self-Reliance, and Equity' taught, and from which source text?",
+     "a": "2.2 (source: keec102.txt lines 191-240)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.6",
+   "title": "Land Reforms and Land Ceiling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Land Reforms and Land Ceiling' refers to.",
+     "a": "Institutional restructuring of agrarian ownership involving the elimination of intermediaries to transfer land to actual tillers, paired with legal limits on maximum land ownership per individual.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Reforms and Land Ceiling'.",
+     "a": "Granting land ownership to cultivators enhances productivity incentives while ceilings curb land concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land Reforms and Land Ceiling' taught, and from which source text?",
+     "a": "2.3 (source: keec102.txt lines 241-310)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.7",
+   "title": "Green Revolution and Marketed Surplus",
+   "questions": [
+    {
+     "q": "Calculate the marketed surplus of food grains. Use the method 'Green Revolution and Marketed Surplus'. Work with: farm_consumption = 15, total_production = 75. Carry the chain through step by step and give the final value of the result.",
+     "a": "60 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the quantity of agricultural produce available for market sale. Use the method 'Green Revolution and Marketed Surplus'. Work with: farm_consumption = 30, total_production = 75. Carry the chain through step by step and give the final value of the result.",
+     "a": "45 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Green Revolution and Marketed Surplus' refers to.",
+     "a": "The dramatic increase in food grain production resulting from High Yielding Variety (HYV) seeds, chemical inputs, and controlled irrigation, enabling farmers to sell surplus grain in open markets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Green Revolution and Marketed Surplus'.",
+     "a": "The excess of crop yield over personal consumption generates marketed surplus, lowering market food prices and building national reserves.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Green Revolution and Marketed Surplus', in plain ASCII form.",
+     "a": "marketed_surplus = total_production - farm_consumption",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.8",
+   "title": "Debate Over Agricultural Subsidies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Debate Over Agricultural Subsidies' refers to.",
+     "a": "The policy disagreement regarding whether government financial assistance on farm inputs should be continued to protect vulnerable farmers or eliminated to prevent fiscal drain and resource waste.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debate Over Agricultural Subsidies'.",
+     "a": "Subsidies lower adoption risks for small farmers but can cause environmental harm and financial strain if misallocated.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Debate Over Agricultural Subsidies' taught, and from which source text?",
+     "a": "2.3 (source: keec102.txt lines 371-430)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.9",
+   "title": "Industrial Policy Resolution 1956 (IPR 1956)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industrial Policy Resolution 1956 (IPR 1956)' refers to.",
+     "a": "A foundational policy document that classified industries into state-monopolized, state-led mixed, and private categories, controlling private activity through mandatory government licensing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industrial Policy Resolution 1956 (IPR 1956)'.",
+     "a": "IPR 1956 prioritized public sector command of core industries while using industrial licensing to promote balanced regional growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industrial Policy Resolution 1956 (IPR 1956)' taught, and from which source text?",
+     "a": "2.4 (source: keec102.txt lines 431-510)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.10",
+   "title": "Small-Scale Industry (SSI) and Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Small-Scale Industry (SSI) and Development' refers to.",
+     "a": "Industrial units defined by capital investment limits on fixed assets, prioritized for their high capacity to generate employment using labor-intensive methods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Small-Scale Industry (SSI) and Development'.",
+     "a": "Small-scale enterprises drive rural employment and distribution of income, requiring state protection from large-scale competitors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Small-Scale Industry (SSI) and Development' taught, and from which source text?",
+     "a": "2.4 (source: keec102.txt lines 511-545)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.102.11",
+   "title": "Import Substitution and Trade Protection",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Import Substitution and Trade Protection' refers to.",
+     "a": "An inward-focused trade policy designed to substitute foreign imports with domestic production using protective tariffs and quantitative import quotas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Import Substitution and Trade Protection'.",
+     "a": "Protecting young domestic industries from foreign competition conserves foreign exchange and promotes domestic self-reliance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Import Substitution and Trade Protection' taught, and from which source text?",
+     "a": "2.5 (source: keec102.txt lines 546-600)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

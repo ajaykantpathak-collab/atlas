@@ -1,0 +1,115 @@
+{
+ "catalog": "catalog_class8_science_hecu105.json",
+ "concepts": [
+  {
+   "id": "hecu.105.5.1",
+   "title": "Force as Push or Pull",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is force?",
+     "a": "A push or pull on an object, arising from interaction between two objects.",
+     "self_check": true
+    },
+    {
+     "q": "Name two effects a force can produce.",
+     "a": "It can move or stop an object, and change its speed, direction or shape.",
+     "self_check": true
+    },
+    {
+     "q": "Is force a push only, a pull only, or both?",
+     "a": "Both - pushing a swing and pulling a rope are both forces.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.105.5.2",
+   "title": "What a Force Can Do to Objects",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can a force change the shape of an object?",
+     "a": "Squeezing or stretching changes shape - pressing dough, stretching a rubber band.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example where force changes an object's direction.",
+     "a": "A batsman's hit turns the ball's direction; so does a steering wheel turning a car.",
+     "self_check": true
+    },
+    {
+     "q": "Can a force act without changing motion? When?",
+     "a": "Yes - balanced forces (equal and opposite) leave the state of motion unchanged.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.105.5.3",
+   "title": "Types of Forces",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two contact forces and two non-contact forces.",
+     "a": "Contact: muscular force, friction. Non-contact: gravity, magnetism (and electrostatic force).",
+     "self_check": true
+    },
+    {
+     "q": "Which force pulls a dropped mango to the ground?",
+     "a": "Gravity - the earth's attraction.",
+     "self_check": true
+    },
+    {
+     "q": "What contact force stops a rolling marble?",
+     "a": "Friction between the marble and the floor.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.105.5.4",
+   "title": "Weight and Its Measurement",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is weight?",
+     "a": "The pull of gravity on a body, measured with a spring balance in newtons.",
+     "self_check": true
+    },
+    {
+     "q": "How do weight and mass differ?",
+     "a": "Mass is the amount of matter (kg), fixed everywhere; weight is a force (N) that changes with gravity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a person weigh less on the moon?",
+     "a": "The moon's gravity is weaker (about one-sixth), so the pull on the body is less.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.105.5.5",
+   "title": "Floating and Sinking",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do some objects float and others sink?",
+     "a": "Those less dense than the liquid float; denser ones sink.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a heavy ship float but a small nail sink?",
+     "a": "The ship's shape traps air, making its average density less than water; the nail is denser.",
+     "self_check": true
+    },
+    {
+     "q": "What is buoyancy?",
+     "a": "The upward push a fluid gives a body placed in it; it decides floating.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

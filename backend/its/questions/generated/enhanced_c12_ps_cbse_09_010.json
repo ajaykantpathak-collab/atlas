@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_09_010",
+   "title": "c12_ps_cbse_09_010",
+   "questions": [
+    {
+     "q": "In the 1967 general elections, the Congress party's Lok Sabha seat tally dropped from 361 (1962) to 283, while its vote share fell only from 44.7% to 40.8%. Which feature of India's electoral system explains this disproportionate seat loss relative to vote loss?",
+     "a": "The First-Past-The-Post (FPTP) system amplifies seat changes when vote shares shift near the winning threshold. In 1952-62, Congress's 45% vote translated to ~74% seats because opposition votes were fragmented. In 1967, a mere 4% vote drop pushed Congress below the winning threshold in many constituencies where opposition votes consolidated, flipping seats disproportionately. A wrong answer (e.g., \"delimitation changes\" or \"lower turnout\") reveals the student doesn't grasp how FPTP converts small vote swings into large seat swings — a core concept from c11_ps_cbse_12_004.",
+     "self_check": true
+    },
+    {
+     "q": "The \"Syndicate\" (Kamaraj, Nijalingappa, Morarji Desai, etc.) initially backed Indira Gandhi as PM in 1966 assuming she would be pliable. Why did this calculation fail, and how did it accelerate Congress's organizational decline?",
+     "a": "The Syndicate underestimated Indira Gandhi's political skill in using the PM's office to build an independent mass base (bank nationalization, privy purse abolition, \"Garibi Hatao\"). When they tried to control her via party discipline, she split the party (1969), taking the majority of MPs with her. This destroyed the Congress's factional accommodation mechanism — the very \"Congress system\" described in c12_ps_cbse_09_009. A wrong answer (e.g., \"Indira was always a dictator\" or \"Syndicate was corrupt\") shows the student misses the structural point: the Syndicate's strategy relied on the party organization controlling the government; when the PM used state power to capture the party, the coalition model collapsed.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"non-Congressism\" (Ram Manohar Lohia's strategy) to explain how opposition parties with incompatible ideologies (Jana Sangh, Socialists, Communists, Swatantra) coordinated in 1967. What was the electoral payoff and its limitation?",
+     "a": "Non-Congressism argued that Congress was the primary obstacle to democracy, so all opposition parties should form anti-Congress fronts regardless of ideological differences. In 1967, this produced SVD (Samyukta Vidhayak Dal) governments in 9 states (Bihar, UP, Punjab, etc.) where opposition MLAs combined to oust Congress. Limitation: these coalitions were ideologically incoherent and collapsed quickly (most fell within 1-2 years), proving that \"anti-Congressism\" was a negative glue, not a governing programme. A wrong answer (e.g., \"they merged into one party\" or \"ideology didn't matter at all\") reveals confusion between electoral coordination and ideological merger — a distinction tested in CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Green Revolution (late 1960s) altered the social base of Congress dominance in North India. Connect to the factional dynamics in c12_ps_cbse_09_009.",
+     "a": "The Green Revolution created a new class of prosperous middle peasants (Jats, Yadavs, Kurmis in UP/Haryana/Punjab) who benefited from procurement prices and input subsidies. Congress's traditional coalition had balanced landlords and tenants; the new peasant capitalists demanded a larger share of power and patronage. The Syndicate (dominated by upper-caste/urban leaders) failed to accommodate them, while Charan Singh (BKD) and later Chaudhary Devi Lal mobilized this class into regional parties. This fractured Congress's \"rainbow coalition\" at the state level. A wrong answer (e.g., \"Green Revolution helped Congress by increasing food production\") misses the political economy link: economic policy creates new interest groups that demand representation — if the dominant party cannot absorb them, they become the core of new opposition parties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The 1969 Congress split was inevitable because the 'Congress system' of factional accommodation had reached its structural limit.\" Use evidence from 1964-69.",
+     "a": "The claim is largely correct but incomplete. Structural limits: (a) Factions had become personalized (Syndicate vs. Young Turks vs. Indira) rather than ideological, making compromise harder; (b) The party had no mechanism to resolve leadership disputes democratically after Nehru — the Syndicate's \"consensus\" method failed in 1964 (Shastri) and 1966 (Indira); (c) State units became fiefdoms of regional bosses, weakening central authority. Counter-evidence: Indira *chose* the split (bank nationalization ordinance, presidential election) to break Syndicate control — it was a strategic rupture, not just structural decay. A poor evaluation treats it as either purely inevitable or purely Indira's ambition, missing the interaction of structure and agency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-column table comparing the Congress party's organizational strength in 1952 vs. 1967 across these dimensions: (a) Territorial reach, (b) Faction management, (c) Leadership authority, (d) Vote-to-seat conversion efficiency. Use one specific fact per cell.",
+     "a": "| Dimension | 1952 | 1967 |\n|---|---|---|\n| Territorial reach | Org. network in every district; contested all 489 LS seats | Weak in South (DMK in TN), East (Bangla Congress in WB), North (BKD in UP); uncontested seats rose |\n| Faction management | Factions balanced by Nehru's authority; \"coalition within party\" worked | Syndicate vs. Indira deadlock; factions became rival power centers; no supreme arbiter |\n| Leadership authority | Nehru: unchallenged mass leader + PM + Congress President (1951-52) | Indira: PM but not Congress President (1966-67); Syndicate controlled party org. |\n| Vote-to-seat conversion | 45% votes → 74% seats (FPTP bonus) | 41% votes → 54% seats (FPTP penalty as opposition consolidated) |\nA poor table uses vague descriptions (\"strong/weak\") without specific evidence — board marking schemes require concrete facts like \"DMK won 25/39 seats in TN 1967\" or \"Syndicate expelled Indira Nov 1969.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_007",
+   "title": "c7_physics_ch04_007",
+   "questions": [
+    {
+     "q": "What is the SI unit of speed, and which two fundamental SI quantities are used to derive it?",
+     "a": "The SI unit of speed is metres per second (m/s), which is derived from the fundamental SI units of length (metre, m) and time (second, s). A wrong answer often confuses the unit of speed with speed limits in kilometres per hour (km/h) or confuses distance with time, showing a failure to recall standard SI definitions.",
+     "self_check": true
+    },
+    {
+     "q": "If a school bus travels twice as far in the exact same amount of time as it did yesterday, what happens to its average speed? Explain why using the relationship between speed and distance.",
+     "a": "Its average speed doubles. According to the formula $v = \\frac{d}{t}$, speed is directly proportional to distance when time remains constant ($t$ is unchanged), meaning doubling the distance ($2d$) while keeping time constant results in twice the speed ($\\frac{2d}{t} = 2v$). A wrong answer usually assumes speed stays constant regardless of distance, indicating a lack of comprehension of how numerator changes affect quotients.",
+     "self_check": true
+    },
+    {
+     "q": "A student cycles from their house to a park, covering a distance of 600 metres in 120 seconds. Calculate the average speed of the student in m/s.",
+     "a": "The speed is 5 m/s. \nStep 1: Identify given values: Distance ($d$) = 600 m, Time ($t$) = 120 s. \nStep 2: State the formula: $v = \\frac{d}{t}$. \nStep 3: Substitute values with units: $v = \\frac{600 \\text{ m}}{120 \\text{ s}}$. \nStep 4: Compute and cancel units: $v = 5 \\text{ m/s}$. \nStep 5: Verify the answer is physically reasonable for a bicycle: 5 m/s is about 18 km/h, which is a normal cycling speed. A wrong answer like 72000 or 0.2 indicates the student multiplied or divided in the wrong order (e.g., $d \\times t$ or $t / d$).",
+     "self_check": true
+    },
+    {
+     "q": "An auto-rickshaw travels at a constant speed of 10 m/s for 3 minutes. Determine the total distance it covers in metres.",
+     "a": "The distance is 1800 metres. \nStep 1: Identify given values: Speed ($v$) = 10 m/s, Time ($t$) = 3 minutes. \nStep 2: Convert time into SI units (seconds): $3 \\text{ min} \\times 60 \\text{ s/min} = 180 \\text{ s}$. \nStep 3: Rearrange the formula to solve for distance: $d = v \\times t$. \nStep 4: Substitute values: $d = 10 \\text{ m/s} \\times 180 \\text{ s} = 1800 \\text{ m}$. \nA wrong answer of 30 metres occurs if the student forgets to convert minutes into seconds, directly multiplying 10 by 3 instead of 180.",
+     "self_check": true
+    },
+    {
+     "q": "Two runners participate in a 100-metre race. Runner A finishes in 10 seconds, and Runner B finishes in 12.5 seconds. A classmate claims Runner B ran faster because they spent more time on the track. Evaluate this claim.",
+     "a": "The classmate's claim is false. Runner A's speed is $\\frac{100 \\text{ m}}{10 \\text{ s}} = 10 \\text{ m/s}$, while Runner B's speed is $\\frac{100 \\text{ m}}{12.5 \\text{ s}} = 8 \\text{ m/s}$. Since time is in the denominator of the speed formula ($v = \\frac{d}{t}$), a smaller time taken to cover the same distance means a higher speed. A wrong answer agrees with the classmate, showing a failure to understand that spending more time to cover a fixed distance means moving slower, not faster.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost experiment using a rolling marble, a metre scale, and a digital stopwatch to verify that doubling the time travelled at a constant speed doubles the distance covered.",
+     "a": "To perform this, release a rolling marble along a smooth floor and use a stopwatch to record how far it travels in 2 seconds, marking the stopping point with chalk and measuring the distance. Then, allow the marble to roll for 4 seconds (double the time) while maintaining a uniform rolling speed, and measure the new distance. You will find that the distance at 4 seconds is twice the distance measured at 2 seconds, verifying direct proportionality ($d = v \\times t$). A poor answer fails to keep speed constant or lacks a method to measure time accurately.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

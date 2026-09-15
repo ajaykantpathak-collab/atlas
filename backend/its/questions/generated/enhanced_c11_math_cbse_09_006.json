@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_006",
+   "title": "c11_math_cbse_09_006",
+   "questions": [
+    {
+     "q": "Write the formula for the sum of the first n terms of a GP with first term a and common ratio r, and state the condition under which this formula is valid.",
+     "a": "The formula is \\(S_n = a\\frac{1-r^n}{1-r}\\) for \\(r \\neq 1\\). If a student writes \\(S_n = a\\frac{r^n-1}{r-1}\\) without noting it's equivalent only when \\(r \\neq 1\\), or forgets the condition \\(r \\neq 1\\), they haven't understood why the derivation fails at \\(r=1\\) (division by zero). A wrong answer like \\(S_n = \\frac{a(r^n-1)}{r}\\) reveals confusion between the nth term formula \\(ar^{n-1}\\) and the sum formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula \\(S_n = a\\frac{1-r^n}{1-r}\\) cannot be used when \\(r = 1\\), and state the correct formula for that case.",
+     "a": "When \\(r = 1\\), the denominator \\(1-r = 0\\), making the formula undefined. The GP becomes \\(a, a, a, \\dots\\) (constant sequence), so the sum is simply \\(n\\) times \\(a\\), i.e., \\(S_n = na\\). If a student says \"the formula still works if we take limit\" or \"use L'Hôpital's rule\", they are overcomplicating a simple case. The correct understanding is that the derivation step \\(S_n(1-r) = a(1-r^n)\\) becomes \\(0 = 0\\) when \\(r=1\\), giving no information about \\(S_n\\).",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 8 terms of the GP: 3, 6, 12, 24, ...",
+     "a": "Given: \\(a = 3\\), \\(r = 6/3 = 2\\), \\(n = 8\\). Since \\(r > 1\\), use \\(S_n = a\\frac{r^n-1}{r-1}\\). \\(S_8 = 3 \\times \\frac{2^8 - 1}{2 - 1} = 3 \\times (256 - 1) = 3 \\times 255 = 765\\). If a student uses \\(S_n = a\\frac{1-r^n}{1-r}\\) and gets \\(3 \\times \\frac{1-256}{-1} = 765\\), it's correct but they should recognize the equivalent form for \\(r>1\\) avoids negative signs. A wrong answer 768 comes from using \\(n=7\\) (confusing term index with count) or 1530 from forgetting to multiply by \\(a=3\\).",
+     "self_check": true
+    },
+    {
+     "q": "The sum of the first 5 terms of a GP is 31 and the first term is 1. Find the common ratio \\(r\\), given that \\(r\\) is a positive integer.",
+     "a": "Given \\(S_5 = 31\\), \\(a = 1\\), \\(n = 5\\). \\(S_5 = \\frac{r^5 - 1}{r - 1} = 31 \\Rightarrow r^5 - 1 = 31(r - 1) \\Rightarrow r^5 - 31r + 30 = 0\\). By trial, \\(r = 2\\) gives \\(32 - 62 + 30 = 0\\). So \\(r = 2\\). If a student tries to use the formula \\(S_n = a\\frac{1-r^n}{1-r}\\) and gets \\(\\frac{1-r^5}{1-r} = 31\\) but cannot solve the polynomial, they lack algebraic manipulation skills for reverse problems. A wrong answer \\(r = 31/5 = 6.2\\) comes from incorrectly assuming \\(S_n \\approx ar^{n-1}\\) or treating it as AP.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find sum of first 6 terms of GP with a=2, r=3\" as follows: \\(S_6 = 2\\frac{3^6-1}{3-1} = 2\\frac{729-1}{2} = 2 \\times 364 = 728\\). Is this correct? If not, identify the error.",
+     "a": "The student's calculation has an arithmetic error: \\(3^6 = 729\\) is correct, \\(729-1 = 728\\), but \\(728/2 = 364\\), and \\(2 \\times 364 = 728\\). The final answer 728 is actually correct! The error is in the intermediate statement \"\\(2 \\times 364 = 728\\)\" — wait, \\(2 \\times 364 = 728\\) is correct. Let me recheck: \\(S_6 = 2 + 6 + 18 + 54 + 162 + 486 = 728\\). The solution is fully correct. If a student flags this as wrong, they may be miscomputing \\(3^6\\) as 243 (which is \\(3^5\\)) or misapplying the formula. This question tests careful evaluation of a complete solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem involving a GP where the sum of the first n terms needs to be found, and the common ratio is a fraction between 0 and 1. Provide the problem statement and solve it.",
+     "a": "Problem: \"A ball is dropped from a height of 10 metres. Each time it bounces, it rebounds to 3/4 of its previous height. Find the total vertical distance travelled by the ball until it hits the ground for the 5th time.\" Solution: Downward distances: 10, 10(3/4), 10(3/4)², 10(3/4)³, 10(3/4)⁴. Upward distances (after 1st to 4th bounce): 10(3/4), 10(3/4)², 10(3/4)³, 10(3/4)⁴. Total = 10 + 2×10[3/4 + (3/4)² + (3/4)³ + (3/4)⁴] = 10 + 20 × \\(\\frac{3/4(1-(3/4)^4)}{1-3/4}\\) = 10 + 20 × 3 × (1 - 81/256) = 10 + 60 × 175/256 = 10 + 41.0156 = 51.0156 m. A poor answer uses only downward distances or treats it as infinite GP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

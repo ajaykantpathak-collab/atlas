@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_002",
+   "title": "c7_math_ch07_002",
+   "questions": [
+    {
+     "q": "What is the measure of each interior angle in an equilateral triangle?",
+     "a": "Each interior angle in an equilateral triangle is 60°. If a student answers 90° or 180°, it reveals a confusion with right angles or the sum of all angles in a triangle rather than recognizing that equal sides force the three angles to be equal and sum to 180° ($180^\\circ \\div 3 = 60^\\circ$).",
+     "self_check": true
+    },
+    {
+     "q": "If you are given only the length of one side of a triangle as 7 cm, and you are told it is an equilateral triangle, what are the lengths of the other two sides? Explain why.",
+     "a": "The other two sides are also 7 cm each because by definition, an equilateral triangle has all three sides equal in length. If a student states the other sides can be any random length, they do not understand the defining characteristic property of equilateral triangles.",
+     "self_check": true
+    },
+    {
+     "q": "An artisan builds a decorative metal frame in the shape of an equilateral triangle. If one side of the frame measures 12.5 cm, what is the total length of metal wire required to make the entire frame?",
+     "a": "Step 1: Identify that an equilateral triangle has 3 sides of equal length.  \nStep 2: Note that the given side length $s = 12.5\\text{ cm}$.  \nStep 3: Set up the perimeter formula for an equilateral triangle: $\\text{Perimeter} = 3 \\times s$.  \nStep 4: Substitute the value: $\\text{Perimeter} = 3 \\times 12.5\\text{ cm} = 37.5\\text{ cm}$.  \nAnswer: 37.5 cm. If a student answers 25 cm, they likely added only two sides (mistaking it for a different shape) or multiplied incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an isosceles triangle and an equilateral triangle. Can every equilateral triangle be classified as an isosceles triangle? Why or why not?",
+     "a": "Yes, every equilateral triangle is an isosceles triangle because an isosceles triangle requires at least two sides to be equal, and an equilateral triangle has three equal sides (which satisfies the condition of having at least two equal sides). If a student says no, they mistakenly believe that \"isosceles\" means \"exactly two equal sides\" rather than \"at least two equal sides.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that they constructed an equilateral triangle where the side lengths are 5 cm, 5 cm, and 7 cm, and the interior angles are 60°, 60°, and 60°. Evaluate this claim and identify the error.",
+     "a": "The claim is false and geometrically impossible. While the angles sum to 180°, the side lengths given (5 cm, 5 cm, 7 cm) form an isosceles triangle, not an equilateral triangle. In a true equilateral triangle, all three sides must be equal in length (e.g., 5 cm, 5 cm, 5 cm). If a student believes this is possible, they are separating angle properties from side properties without checking consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a word problem involving a school garden shaped like an equilateral triangle where students need to calculate the cost of fencing. Provide the side length and the cost per metre.",
+     "a": "Expected response: A problem stating \"A school flower bed is in the shape of an equilateral triangle with each side measuring 8 metres. If wire fencing costs ₹50 per metre, find the total cost of fencing the flower bed.\" A poor response would give inconsistent dimensions or omit the cost rate, showing a failure to connect shape properties (perimeter) with real-world unit pricing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

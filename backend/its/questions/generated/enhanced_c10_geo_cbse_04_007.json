@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_007",
+   "title": "c10_geo_cbse_04_007",
+   "questions": [
+    {
+     "q": "Define 'consolidation of holdings' as an institutional reform. Why was it considered necessary in the Indian context?",
+     "a": "Consolidation of holdings is the process of combining a farmer's scattered, fragmented plots of land into a single, compact block to improve agricultural efficiency. It was necessary because historical inheritance laws led to extreme subdivision of land over generations, making mechanization impossible, increasing boundary disputes, and wasting cultivable area on bunds and paths. A wrong answer (e.g., \"redistributing land from rich to poor\") reveals confusion between consolidation (rearranging existing ownership) and land ceiling/redistribution (changing ownership patterns).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the mere availability of HYV seeds (a technological reform) did not automatically benefit small and marginal farmers in the 1960s without complementary institutional reforms.",
+     "a": "HYV seeds are input-responsive — they require assured irrigation, chemical fertilizers, and pesticides to yield high returns. Small farmers lacked capital to purchase these inputs, access to affordable credit (institutional), and risk-bearing ability if the crop failed. Without institutional reforms like subsidized credit (cooperatives, later KCC), crop insurance, and extension services, HYV technology remained accessible only to resource-rich farmers, widening inter-farmer inequality. A wrong answer focusing only on \"seeds need water\" misses the socio-economic dimension — the *institutional* barriers to accessing that water and those inputs.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab has 4 hectares of land. He wants to adopt drip irrigation (technological reform) and avail a loan under the Kisan Credit Card scheme (institutional reform). The drip system costs ₹1.2 lakh per hectare. The KCC offers a loan limit of ₹1.6 lakh for his land size at 4% interest (with interest subvention). Calculate the maximum area he can bring under drip irrigation using *only* the KCC loan, and state one reason why he might still not adopt it fully.",
+     "a": "Step 1: Total KCC loan limit = ₹1.6 lakh. Step 2: Cost per hectare for drip = ₹1.2 lakh. Step 3: Maximum area = Loan limit / Cost per hectare = 1.6 / 1.2 = 1.33 hectares. Since partial hectare installation is impractical, he can cover **1 hectare fully** (cost ₹1.2 lakh, leaving ₹0.4 lakh). Step 4: Reason for non-adoption: High upfront maintenance cost, lack of technical know-how, or fragmented plots making drip layout inefficient. A wrong calculation (e.g., 4 hectares) reveals ignorance of credit limits; missing the \"reason\" shows inability to link technological adoption to ground-level constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the objectives of the 'Land Ceiling Act' and 'Consolidation of Holdings'. How do they address different dimensions of the land problem in India?",
+     "a": "Land Ceiling Act fixes a maximum limit on land ownership (e.g., 10-18 hectares irrigated) to redistribute surplus land to landless labourers — addressing *inequity in ownership* (vertical dimension). Consolidation of Holdings rearranges fragmented plots of *existing* owners into contiguous blocks — addressing *operational inefficiency* due to fragmentation (horizontal dimension). Ceiling changes *who owns how much*; consolidation changes *how owned land is spatially arranged*. A wrong answer merging them as \"both give land to poor\" fails to distinguish redistribution from reorganization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Pradhan Mantri Fasal Bima Yojana (PMFBY) has successfully eliminated the risk of crop failure for Indian farmers.\" Use two specific limitations of the scheme to support your evaluation.",
+     "a": "The statement is **false**. PMFBY provides financial compensation *after* crop loss but does not *eliminate* the risk of failure itself. Two limitations: (1) Low claim settlement ratio and delays — farmers often receive compensation late or not at all due to bureaucratic hurdles and yield data disputes. (2) Exclusion of certain risks (e.g., post-harvest losses, localized calamities in some states) and low sum insured relative to cost of cultivation. A wrong answer saying \"it gives money so risk is gone\" confuses risk *transfer* (insurance) with risk *elimination* (which would require drought-proofing, resistant seeds, etc.).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-reform package for a tribal district where farmers practice shifting cultivation (jhum) on hill slopes, have no land titles, and depend on moneylenders. Your package must include one technological and two institutional reforms, each targeting a specific problem identified in the scenario.",
+     "a": "Good answer example: (1) Technological: **Terrace farming with soil conservation measures** (contour bunding, agroforestry) — targets soil erosion and low productivity on slopes. (2) Institutional: **Forest Rights Act (FRA) implementation for individual/community land titles** — targets tenure insecurity preventing investment. (3) Institutional: **SHG-linked microcredit at 7% interest** — targets moneylender dependence. Poor answer: \"Give them tractors and bank loans\" — ignores slope unsuitability for tractors, misses land title prerequisite for bank loans, and shows no contextual adaptation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class7_social_science_ch105",
+ "concepts": [
+  {
+   "id": "gess.105.1.1",
+   "title": "Kinship and Economic Patterns of Tribal Communities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kinship and Economic Patterns of Tribal Communities' refers to.",
+     "a": "Communities organized around shared lineage and communal resource management, maintaining distinct traditions outside orthodox Varna social orders.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kinship and Economic Patterns of Tribal Communities'.",
+     "a": "Tribal groups sustained autonomy through joint landholding, ancestral ties, and resource combination.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Kinship and Economic Patterns of Tribal Communities' taught, and from which source text?",
+     "a": "Beyond Big Cities: Tribal Societies (source: gess105.txt lines 15-45)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.1.2",
+   "title": "Regional Distribution of Subcontinent Tribes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regional Distribution of Subcontinent Tribes' refers to.",
+     "a": "The geographic spread of prominent indigenous lineages such as Khokhars, Gakkhars, Nagas, Cheros, Bhils, and Gonds across varied ecological zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regional Distribution of Subcontinent Tribes'.",
+     "a": "Tribal groups dominated diverse habitats from mountainous frontiers to dense central forests.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Regional Distribution of Subcontinent Tribes' taught, and from which source text?",
+     "a": "Who were Tribal People? (source: gess105.txt lines 46-90)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.2.1",
+   "title": "Nomadic Pastoralism and Itinerant Service Groups",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nomadic Pastoralism and Itinerant Service Groups' refers to.",
+     "a": "Mobile populations moving across pastoral territories with animal herds while exchanging animal products with settled farmers for agricultural goods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nomadic Pastoralism and Itinerant Service Groups'.",
+     "a": "Seasonal movement allowed pastoralists to trade animal produce for grain and crafted items.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nomadic Pastoralism and Itinerant Service Groups' taught, and from which source text?",
+     "a": "How Nomads and Mobile People Lived (source: gess105.txt lines 91-115)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.2.2",
+   "title": "The Banjara Nomad Traders and Tanda System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Banjara Nomad Traders and Tanda System' refers to.",
+     "a": "A specialized merchant nomadic community organized into traveling caravans called tandas that carried grain across long distances for markets and military forces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Banjara Nomad Traders and Tanda System'.",
+     "a": "Banjaras linked rural food production with urban supply chains and imperial campaigns.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Banjara Nomad Traders and Tanda System' taught, and from which source text?",
+     "a": "How Nomads and Mobile People Lived (source: gess105.txt lines 116-150)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.3.1",
+   "title": "Emergence of Jatis and Caste Stratification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Emergence of Jatis and Caste Stratification' refers to.",
+     "a": "Sub-caste formations arising from specialized occupational roles and the integration of tribal and artisan groups into the Varna structural framework.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Emergence of Jatis and Caste Stratification'.",
+     "a": "Economic specialization replaced broader varna classifications with detailed sub-caste hierarchies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Emergence of Jatis and Caste Stratification' taught, and from which source text?",
+     "a": "Changing Society: New Castes and Hierarchies (source: gess105.txt lines 151-175)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.3.2",
+   "title": "Rajput Lineages and Social Elevation of Tribal Chiefs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rajput Lineages and Social Elevation of Tribal Chiefs' refers to.",
+     "a": "The process through which emerging warrior lineages and leading tribal families gained Kshatriya status through Brahmana endorsement and state formation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rajput Lineages and Social Elevation of Tribal Chiefs'.",
+     "a": "Political power enabled influential tribal rulers to transition into recognized Rajput ruling dynasties.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rajput Lineages and Social Elevation of Tribal Chiefs' taught, and from which source text?",
+     "a": "Changing Society: New Castes and Hierarchies (source: gess105.txt lines 176-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.4.1",
+   "title": "Gond Kingdom Village Administrative Structure",
+   "questions": [
+    {
+     "q": "Calculate the total number of villages in num_chaurasi chaurasis under the Gond administrative system. Use the method 'Gond Kingdom Village Administrative Structure'. Work with: num_chaurasi = 18. Carry the chain through step by step and give the final value of total_villages.",
+     "a": "1512 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the total village count for num_chaurasi chaurasi units in Garha Katanga. Use the method 'Gond Kingdom Village Administrative Structure'. Work with: num_chaurasi = 50. Carry the chain through step by step and give the final value of total_villages.",
+     "a": "4200 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gond Kingdom Village Administrative Structure' refers to.",
+     "a": "A hierarchical administrative framework in Gondwana dividing a kingdom into garhs, where each garh contained chaurasis of 84 villages subdivided into barhots of 12 villages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gond Kingdom Village Administrative Structure'.",
+     "a": "Gond administrative hierarchy systematically grouped villages into units of 84 and 12.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gond Kingdom Village Administrative Structure', in plain ASCII form.",
+     "a": "total_villages = num_chaurasi * 84",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.4.2",
+   "title": "Rise and Mughal Conquest of Garha Katanga",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rise and Mughal Conquest of Garha Katanga' refers to.",
+     "a": "The political trajectory of the prosperous central Indian Gond state that accumulated wealth through elephant trading before Mughal conquest under Asaf Khan.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rise and Mughal Conquest of Garha Katanga'.",
+     "a": "Garha Katanga achieved regional prominence under Rani Durgawati before facing Mughal invasion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rise and Mughal Conquest of Garha Katanga' taught, and from which source text?",
+     "a": "A Closer Look: The Gonds (source: gess105.txt lines 231-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.5.1",
+   "title": "Ahom State Structure and Forced Labor System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ahom State Structure and Forced Labor System' refers to.",
+     "a": "A centralized administrative organization in Assam where adult males called paiks performed mandatory state labor and served in military forces organized under clan units called khels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ahom State Structure and Forced Labor System'.",
+     "a": "The Ahom state maintained infrastructure and defense through rotational compulsory public labor.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ahom State Structure and Forced Labor System' taught, and from which source text?",
+     "a": "The Ahoms (source: gess105.txt lines 261-295)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.105.5.2",
+   "title": "Ahom Cultural Evolution and Buranji Historical Chronicles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ahom Cultural Evolution and Buranji Historical Chronicles' refers to.",
+     "a": "The cultural synthesis in medieval Assam characterized by royal patronage of literature, temple land grants, and official prose historical registers written in Ahom and Assamese.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ahom Cultural Evolution and Buranji Historical Chronicles'.",
+     "a": "Ahom statecraft fostered sophisticated literary records called Buranjis alongside regional Hindu adoption.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ahom Cultural Evolution and Buranji Historical Chronicles' taught, and from which source text?",
+     "a": "The Ahoms (source: gess105.txt lines 296-330)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

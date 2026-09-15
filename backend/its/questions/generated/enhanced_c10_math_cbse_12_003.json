@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_003",
+   "title": "c10_math_cbse_12_003",
+   "questions": [
+    {
+     "q": "State the volume formula for a solid formed by placing a hemisphere of radius r on top of a cylinder of the same radius r and height h. Write the formula in terms of π, r, and h only.",
+     "a": "Correct answer: V = πr²h + (2/3)πr³. A wrong answer like V = πr²h + (4/3)πr³ reveals the student is using the full sphere formula instead of the hemisphere formula — a very common board exam error where students forget that a hemisphere is exactly half a sphere. Another wrong answer V = πr²h + πr³ shows the student might be confusing volume with surface area formulas or misremembering the coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "A solid toy is made by fixing a cone of height 12 cm on top of a cylinder of height 8 cm. Both have the same base radius of 5 cm. A student calculates the total volume as π(5)²(12) + π(5)²(8) = 500π cm³. Is this correct? Explain why or why not.",
+     "a": "The student's answer is incorrect. They used the cylinder volume formula πr²h for both the cone and the cylinder. The cone volume is (1/3)πr²h, not πr²h. The correct total volume is (1/3)π(5)²(12) + π(5)²(8) = 100π + 200π = 300π cm³. This error reveals the student cannot distinguish between cone and cylinder volume formulas — a critical gap since board exams frequently combine these two solids. The student likely memorised \"πr²h\" as the generic volume formula without understanding the 1/3 factor for cones.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical pencil holder of radius 3.5 cm and height 12 cm has a hemispherical cavity of radius 3.5 cm drilled out from the top. Find the volume of wood used. (Use π = 22/7)",
+     "a": "Step 1: Volume of cylinder = πr²h = (22/7) × (3.5)² × 12 = (22/7) × 12.25 × 12 = 22 × 1.75 × 12 = 462 cm³.\nStep 2: Volume of hemisphere = (2/3)πr³ = (2/3) × (22/7) × (3.5)³ = (2/3) × (22/7) × 42.875 = (2/3) × 22 × 6.125 = 89.833... cm³.\nStep 3: Volume of wood = Cylinder volume − Hemisphere volume = 462 − 89.833... = 372.167 cm³ ≈ 372.17 cm³.\nA wrong answer of 462 + 89.83 = 551.83 cm³ reveals the student added instead of subtracted — they treated the cavity as an added solid rather than removed material. This confusion between \"combination by joining\" (addition) and \"combination by removing\" (subtraction) costs marks in 3-4 mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"A solid is made of a cube of side 7 cm with a hemisphere of radius 3.5 cm on top. Find the total volume.\" Student A computes 7³ + (2/3)π(3.5)³. Student B computes 7³ + (4/3)π(3.5)³. Which student is correct? What conceptual error did the other student make?",
+     "a": "Student A is correct. The solid is a cube + hemisphere, so total volume = cube volume + hemisphere volume = a³ + (2/3)πr³. Student B used the full sphere formula (4/3)πr³ instead of the hemisphere formula. The error is failing to recognise that \"hemisphere on top\" means exactly half a sphere, not a full sphere. In board exams, questions often say \"a hemisphere is surmounted on a cube\" — the word \"surmounted\" means placed on top, and students must automatically halve the sphere volume. This tests whether the student understands \"hemi-\" prefix means half, not just memorising formulas.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"A solid iron pole consists of a cylinder of height 220 cm and base diameter 24 cm, which is surmounted by another cylinder of height 60 cm and radius 8 cm. Find the mass of the pole, given that 1 cm³ of iron has mass 8 g.\" A student writes: \"Total volume = π(12)²(220) + π(8)²(60) = 31680π + 3840π = 35520π cm³. Mass = 35520π × 8 = 284160π g ≈ 892.5 kg.\" Identify the error in the student's working and correct it.",
+     "a": "The student's volume calculation is correct: 35520π cm³. However, the mass calculation uses π ≈ 3.14 implicitly, but the problem expects π = 22/7 for exact computation in CBSE. Using π = 22/7: Volume = 35520 × (22/7) = 111531.43 cm³. Mass = 111531.43 × 8 = 892251.43 g = 892.25 kg. The error is using decimal π instead of 22/7 — CBSE marking scheme deducts marks for not using the prescribed value of π. Also, the student should convert to kg properly: 892.25 kg (not 892.5 kg). This tests attention to board exam instructions: \"Use π = 22/7 unless stated otherwise.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that requires finding the volume of a combination of THREE different basic solids. Specify all dimensions and ask for the total volume. The problem must be solvable using only Class 10 formulas.",
+     "a": "Sample problem: \"A temple kalash (finial) is made of a cubical base of side 20 cm, a cylindrical middle section of radius 7 cm and height 30 cm, and a conical top of radius 7 cm and height 24 cm. Find the total volume of brass required to make the kalash. (Use π = 22/7)\". \nSolution: Cube volume = 20³ = 8000 cm³. Cylinder volume = (22/7)×7²×30 = 4620 cm³. Cone volume = (1/3)×(22/7)×7²×24 = 1232 cm³. Total = 8000 + 4620 + 1232 = 13852 cm³. \nA poor answer would use only two solids, mismatch dimensions (e.g., cone radius ≠ cylinder radius), or ask for surface area instead of volume. This tests whether the student can synthesise a multi-component problem — the highest Bloom level — and understands that combined solids in board exams often have 3 parts (e.g., cube + cylinder + cone).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

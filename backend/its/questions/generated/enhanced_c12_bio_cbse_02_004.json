@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_004",
+   "title": "c12_bio_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the three main parts of a pistil and state the function of the stigma.",
+     "a": "The three main parts are stigma, style, and ovary. The stigma is the receptive surface for pollen grains; it secretes a sugary fluid that stimulates pollen germination. A wrong answer (e.g., \"stigma produces ovules\" or \"style receives pollen\") reveals confusion between male and female structures or between the functions of stigma and ovary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the micropyle is a critical feature of the ovule, and predict what would happen if it were absent.",
+     "a": "The micropyle is a small opening in the integuments that allows the pollen tube to enter the ovule and deliver male gametes to the embryo sac. Without it, fertilization cannot occur because the pollen tube cannot penetrate the integuments. A wrong answer (e.g., \"micropyle is where the funiculus attaches\" or \"it releases the egg\") indicates confusion between micropyle and hilum or between micropyle and the embryo sac's egg apparatus.",
+     "self_check": true
+    },
+    {
+     "q": "A flowering plant has an ovary with ovules attached to a central column formed by the fusion of carpel margins. Identify the placentation type and give one example of a plant showing this condition.",
+     "a": "This is axile placentation, found in plants like tomato, lemon, and china rose. The ovules are borne on the central axis formed by the inward growth of fused carpel margins. A wrong answer (e.g., \"parietal placentation\" or \"free central placentation\") shows inability to distinguish between placentation types based on ovary architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare anatropous and orthotropous ovules with respect to the position of the micropyle relative to the hilum and the curvature of the nucellus.",
+     "a": "In anatropous ovules, the body is completely inverted so the micropyle lies close to the hilum (funiculus attachment), and the nucellus is curved. In orthotropous ovules, the body is straight, with micropyle at the opposite end from the hilum, and the nucellus is not curved. A wrong answer (e.g., swapping the positions) indicates failure to visualize the 180° inversion that defines anatropy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The integuments of the ovule develop into the seed coat after fertilization.\" Is this always true? Justify your answer.",
+     "a": "Yes, the statement is correct for all angiosperms. After fertilization, the outer integument forms the testa and the inner integument forms the tegmen of the seed coat, protecting the embryo. A wrong answer (e.g., \"ovary wall becomes seed coat\" or \"nucellus becomes seed coat\") confuses fruit development (ovary → fruit) with seed development (ovule → seed) or misattributes the origin of the seed coat.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dissection activity using locally available flowers (e.g., hibiscus, mustard, pea) to demonstrate the difference between syncarpous and apocarpous pistils, and between axile and marginal placentation. List the steps and the key observations students should record.",
+     "a": "Steps: (1) Collect fresh flowers of hibiscus (syncarpous, axile), mustard (syncarpous, parietal), and pea (apocarpous, marginal). (2) Remove sepals and petals. (3) Cut the ovary transversely and longitudinally with a blade. (4) Observe under a hand lens: number of locules, position of ovules, fusion of carpels. (5) Draw labeled diagrams. Key observations: Hibiscus — fused carpels, multilocular ovary, ovules on central axis. Mustard — fused carpels, unilocular but two parietal placentae. Pea — separate carpels, each with marginal placentation. A poor answer would omit transverse sections or fail to link carpel fusion to placentation type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_5",
+   "title": "c9_bio_ch2_5",
+   "questions": [
+    {
+     "q": "Name the three basic cell shapes used to classify epithelial tissue and give one location in the human body where each shape is typically found.",
+     "a": "The three basic shapes are squamous (flat, scale-like), cuboidal (cube-shaped), and columnar (tall, pillar-like). Squamous epithelium lines the alveoli of lungs and blood vessels (endothelium); cuboidal epithelium lines kidney tubules and ducts of glands; columnar epithelium lines the stomach, intestines, and gall bladder. A wrong answer (e.g., confusing shapes or giving incorrect locations) reveals the student has memorised names without linking shape to function — such as thinking squamous cells are thick because they \"protect,\" missing that their thinness enables diffusion.",
+     "self_check": true
+    },
+    {
+     "q": "Why is simple squamous epithelium found in the alveoli of lungs but stratified squamous epithelium found in the skin? Explain using the relationship between structure and function.",
+     "a": "Simple squamous epithelium is a single layer of extremely thin cells, minimising diffusion distance for rapid gas exchange (O₂ and CO₂) between air in alveoli and blood in capillaries. Stratified squamous epithelium has multiple layers; the outermost cells are dead and keratinised, forming a tough, waterproof barrier that resists mechanical abrasion, pathogen entry, and water loss — essential for skin exposed to the external environment. A wrong answer (e.g., \"both protect\") shows the student cannot distinguish between protection via barrier thickness (skin) and protection via minimal barrier for exchange (alveoli), confusing the functional demand of each site.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a condition where the ciliated columnar epithelium lining their trachea is damaged and replaced by stratified squamous epithelium. Predict two specific consequences for respiratory function and explain why each occurs.",
+     "a": "Consequence 1: Impaired mucociliary clearance — ciliated columnar epithelium normally beats mucus (with trapped dust, pathogens) upward toward the pharynx; stratified squamous epithelium lacks cilia, so mucus accumulates, increasing infection risk. Consequence 2: Reduced gas exchange efficiency in associated airways — the thick, multi-layered stratified epithelium increases diffusion distance, though the primary gas exchange occurs in alveoli, the loss of ciliary function is the dominant defect. A wrong answer (e.g., \"breathing stops\") reveals the student cannot apply structure-function reasoning to predict physiological outcomes of epithelial metaplasia.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the structural adaptations of simple columnar epithelium in the small intestine versus the gall bladder. How do these adaptations serve their distinct physiological roles?",
+     "a": "Both have tall columnar cells with nuclei at the base, but intestinal epithelium has dense microvilli (brush border) dramatically increasing surface area for nutrient absorption, and contains goblet cells secreting mucus for lubrication and protection. Gall bladder epithelium has fewer, shorter microvilli (absorption of water and electrolytes only) and no goblet cells; instead, its cells have tight junctions preventing bile leakage and a highly folded apical membrane for concentrating bile. A wrong answer (e.g., \"they are identical\") shows the student treats all columnar epithelia as the same, missing that surface modifications (microvilli, cilia, folds) and secretory cell types are tailored to organ-specific function.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"Transitional epithelium is found in the urinary bladder because it can stretch.\" Evaluate this statement. Is it complete? What key structural feature does it omit that enables stretching without tearing?",
+     "a": "The statement is incomplete. Transitional epithelium (urothelium) does stretch, but the critical feature is its unique dome-shaped apical cells (umbrella cells) that can slide over one another and flatten when the bladder fills, while the basal layers remain cuboidal/columnar. Additionally, tight junctions and a specialised plaque-covered apical membrane prevent urine from leaking into underlying tissue during distension. A wrong evaluation (e.g., \"the statement is fully correct\") reveals the student thinks stretching is merely due to \"elastic cells\" rather than a specific cellular rearrangement mechanism coupled with impermeability adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic observation activity using prepared slides that would allow a Class 9 student to distinguish between simple cuboidal epithelium (kidney tubule) and simple columnar epithelium (intestine) without relying on labels. List the steps and the key identifying features to observe.",
+     "a": "Steps: 1) Focus on low power to see overall tube/cyst structure. 2) Switch to high power (400x). 3) Measure cell height vs. width: cuboidal cells appear roughly square (height ≈ width); columnar cells are distinctly taller than wide (height > 2× width). 4) Look for surface modifications: intestinal columnar epithelium shows a distinct brush border (microvilli) as a fuzzy line; kidney tubule cuboidal epithelium lacks this. 5) Check for goblet cells (mucus-secreting, clear vacuoles) — present in intestine, absent in kidney tubules. A poor answer (e.g., \"count layers\") shows the student relies only on layer number (both are simple) and misses the diagnostic shape ratio and apical specialisations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

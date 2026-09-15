@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_009",
+   "title": "c12_ip_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the exact purpose of the viewport meta tag `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">` in a responsive webpage, and what happens if you omit it on a mobile device?",
+     "a": "The viewport meta tag tells the mobile browser to set the layout viewport width equal to the device's physical screen width (in CSS pixels) and set the initial zoom level to 100%. Without it, mobile browsers default to a \"virtual viewport\" of typically 980px, rendering the page as a shrunken desktop version that requires pinch-zoom to read. A wrong answer like \"it makes the site mobile-friendly\" reveals the student doesn't understand the mechanism — they're describing the outcome, not the technical function of width=device-width and initial-scale=1.0.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this media query: `@media screen and (max-width: 768px) { .container { width: 100%; } }`. They claim it applies styles \"on mobile devices.\" Explain why this statement is technically incomplete and what specific scenario it fails to cover.",
+     "a": "The media query applies to ANY viewport with width ≤ 768px, not just mobile devices — it also triggers on tablet portraits, small laptop windows, or even a desktop browser window resized narrow. The student's misconception is equating \"max-width breakpoint\" with \"mobile device.\" Media queries respond to viewport dimensions, not device type. A correct understanding: \"This applies when the viewport is 768px or narrower, regardless of device.\" If the student says \"it works on mobile,\" they're confusing device detection with feature detection.",
+     "self_check": true
+    },
+    {
+     "q": "You have a three-column layout using `display: flex` on a container with three equal-width children. Write the complete CSS (including media queries) to make it stack vertically on screens ≤ 600px, become two columns (first child full width, other two side-by-side) between 601px–1024px, and three equal columns above 1024px. Use mobile-first approach.",
+     "a": "```css\n/* Mobile-first base: stacked */\n.container { display: flex; flex-direction: column; }\n.child { width: 100%; }\n\n/* Tablet: 2 columns */\n@media (min-width: 601px) {\n  .container { flex-direction: row; flex-wrap: wrap; }\n  .child:first-child { width: 100%; }\n  .child:nth-child(2), .child:nth-child(3) { width: 50%; }\n}\n\n/* Desktop: 3 columns */\n@media (min-width: 1025px) {\n  .child { width: 33.33%; }\n}\n```\nA wrong answer using `max-width` queries in descending order (desktop-first) reveals the student hasn't internalized mobile-first thinking — they'll likely override styles unnecessarily and create specificity conflicts. Missing `flex-wrap: wrap` shows they don't understand flexbox wrapping behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two media query conditions: `(min-width: 768px)` vs `(min-device-width: 768px)`. A student uses the second one for responsive breakpoints. Explain why this is a critical error and what actual behavior it produces.",
+     "a": "`min-device-width` refers to the physical device screen resolution (e.g., 375px for iPhone), NOT the CSS viewport width. It ignores zoom level, viewport meta tag, and browser chrome. Using it means a 375px phone in landscape (667px) still matches `(min-device-width: 768px)` as false, but a 1024px tablet matches as true — breaking responsive logic entirely. The correct feature is `min-width` (viewport width). A student using `device-width` confuses hardware pixels with CSS pixels and will create breakpoints that don't trigger when expected.",
+     "self_check": true
+    },
+    {
+     "q": "A client reports: \"On my iPad Pro (1024×1366), your responsive site shows the mobile layout in portrait but desktop layout in landscape — but the text is tiny in landscape.\" You used `@media (min-width: 1024px) { /* desktop styles */ }`. Diagnose the root cause and propose a fix that maintains readability without separate iPad-only code.",
+     "a": "Root cause: iPad Pro portrait viewport is 1024px (matches min-width: 1024px), but landscape is 1366px — both trigger desktop styles. However, the physical pixels are 2× (Retina), so CSS pixels = device pixels / 2. The \"tiny text\" happens because desktop styles assume larger viewport (e.g., 1200px+), but iPad landscape is only 1024px CSS pixels. Fix: Add a middle breakpoint `@media (min-width: 1024px) and (max-width: 1199px) { /* tablet-optimized desktop */ }` with slightly larger base font-size (e.g., 1.1rem) and adjusted spacing. This avoids device-specific hacks while respecting the viewport size range. A student suggesting \"detect iPad user-agent\" reveals they don't understand responsive design is viewport-based, not device-based.",
+     "self_check": true
+    },
+    {
+     "q": "Design a responsive navigation pattern for a site with 5 top-level links and a logo. On mobile (< 600px): show logo + hamburger button, tapping reveals vertical menu. On tablet (600–1024px): show logo + first 3 links, remaining 2 under \"More\" dropdown. On desktop (> 1024px): show all 5 links horizontally. Provide the HTML structure and CSS media queries only (no JavaScript for mobile toggle — assume a checkbox hack). Explain your breakpoint choices.",
+     "a": "HTML: `<nav class=\"nav\"><a class=\"logo\" href=\"#\">Logo</a><input type=\"checkbox\" id=\"menu-toggle\"><label for=\"menu-toggle\" class=\"hamburger\">☰</label><ul class=\"menu\"><li><a href=\"#\">Home</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">Services</a></li><li class=\"more\"><a href=\"#\">More ▼</a><ul class=\"submenu\"><li><a href=\"#\">Blog</a></li><li><a href=\"#\">Contact</a></li></ul></li></ul></nav>`\n\nCSS (mobile-first):\n```css\n.nav { display: flex; justify-content: space-between; align-items: center; }\n.menu { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; }",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

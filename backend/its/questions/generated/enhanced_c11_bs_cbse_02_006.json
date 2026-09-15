@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_006",
+   "title": "c11_bs_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the legal consequence if a partner of an unregistered firm tries to file a suit against the firm for dissolution of partnership?",
+     "a": "The partner cannot file the suit. Under Section 69(1) of the Indian Partnership Act, 1932, a partner of an unregistered firm cannot file a suit against the firm or other partners to enforce any right arising from the partnership contract. A wrong answer (e.g., \"the suit can be filed but may be dismissed later\") reveals the student confuses procedural defects with substantive legal bars - non-registration creates an absolute statutory bar, not a mere irregularity curable by subsequent registration.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm \"A&B Associates\" is unregistered. A third party, Mr. Sharma, supplies goods worth ₹5,00,000 to the firm but the firm fails to pay. Can the firm file a suit against Mr. Sharma for defective goods supplied earlier? Explain why or why not.",
+     "a": "No, the firm cannot file a suit against Mr. Sharma. Section 69(2) bars an unregistered firm from filing any suit against a third party to enforce a right arising from a contract. The disability applies regardless of who breached the contract first. A wrong answer (e.g., \"yes, because Mr. Sharma breached first\") shows the student misunderstands that the bar is on the firm's capacity to sue as a legal entity, not on the merits of the underlying claim.",
+     "self_check": true
+    },
+    {
+     "q": "\"Greenfield Partners\" applies for registration. The application is signed by only 3 of the 5 partners. The Registrar registers the firm. Six months later, a dispute arises. Is the registration valid? What is the consequence?",
+     "a": "The registration is invalid. Section 58(1)(a) requires the application to be signed by ALL partners (or their authorised agents). Registration without all signatures is void ab initio, and the firm remains unregistered for purposes of Section 69 disabilities. A wrong answer (e.g., \"registration is valid but defective\") reveals confusion between void and voidable acts - the statutory requirement is mandatory, not directory, so non-compliance renders the registration a nullity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal position of an unregistered partnership firm with that of an unregistered company under the Companies Act, 2013. What fundamental difference exists in their capacity to sue?",
+     "a": "An unregistered company cannot exist legally - incorporation is mandatory for a company to come into existence. An unregistered partnership firm exists legally but suffers disabilities in enforcing contractual rights in court. The fundamental difference: a company has no legal personality without registration; a partnership firm has legal personality but limited judicial remedies. A wrong answer (e.g., \"both cannot sue\") shows the student conflates \"existence\" with \"capacity to sue\" - a critical distinction between mandatory incorporation and optional registration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since registration of a partnership firm is optional under the Indian Partnership Act, 1932, there is no practical disadvantage in remaining unregistered if the partners trust each other.\"",
+     "a": "The statement is incorrect. While registration is optional, non-registration creates statutory disabilities under Section 69 that operate regardless of mutual trust: (1) The firm cannot sue third parties for contract enforcement (e.g., debt recovery), (2) Partners cannot sue the firm/co-partners for partnership rights (e.g., accounts, dissolution), (3) Third parties CAN sue the firm, creating asymmetry. Trust between partners does not extend to third parties (creditors, clients, suppliers). A wrong answer reveals the student focuses only on inter-partner disputes and ignores external commercial relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partnership firm's registration application is rejected by the Registrar. Specify the exact deficiency in the application and the statutory provision violated.",
+     "a": "Scenario: \"TechSolutions\" applies for registration. The application states the firm's name, principal place of business, and partners' names/addresses, but omits the date when each partner joined the firm. The Registrar rejects the application. Deficiency: Section 58(1)(d) requires \"the date on which each partner joined the firm\" as a mandatory particular. A poor answer (e.g., \"missing address\") shows the student hasn't memorised the complete list of six mandatory particulars under Section 58(1)(a)-(f).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

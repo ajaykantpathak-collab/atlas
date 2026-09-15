@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_009",
+   "title": "c11_eco_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define the formal sector as per the NCERT classification used in Indian employment statistics. State the two main criteria.",
+     "a": "The formal sector includes all public sector establishments and private sector establishments employing 10 or more hired workers. The two criteria are: (1) ownership (public sector automatically formal) and (2) size (private sector with ≥10 hired workers). A wrong answer would omit the 10-worker threshold or confuse formal sector with merely \"registered\" enterprises, ignoring that many registered small enterprises remain informal if they employ fewer than 10 workers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a self-employed software consultant working from home with no hired workers is classified as informal sector, while a peon in a government office is formal sector, even though the consultant may earn more.",
+     "a": "Classification depends on enterprise characteristics, not individual earnings. The consultant's enterprise has zero hired workers (below the 10-worker threshold) and is not a public establishment, so it is informal. The peon works in a public sector establishment, which is automatically formal regardless of workforce size. A wrong answer would focus on income level or skill, revealing a misconception that \"formal\" means \"high-paying\" or \"skilled\" rather than \"legally protected.\"",
+     "self_check": true
+    },
+    {
+     "q": "In 2019-20, India had 535 million total workers and 59 million formal sector workers. Calculate the percentage of workers in the informal sector. If the total workforce grows to 560 million in 2022-23 while formal sector employment remains 59 million, what is the new informal sector percentage?",
+     "a": "Step 1: Informal workers 2019-20 = 535 - 59 = 476 million. Percentage = (476/535)×100 = 88.97% ≈ 89%. Step 2: Informal workers 2022-23 = 560 - 59 = 501 million. Percentage = (501/560)×100 = 89.46%. The informal sector share increased slightly. A wrong answer might miscalculate the base or assume formal sector grows proportionally, missing the \"jobless growth\" phenomenon where GDP rises but formal employment stagnates.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement using the Ahmedabad textile mill case (Box 6.2): \"Casualisation of workforce and informalisation are two sides of the same coin.\" Identify the causal chain linking mill closures to increased informal sector vulnerability.",
+     "a": "Mill closures (formal sector job loss) → 80,000 permanent + 50,000 non-permanent workers lose social security → forced into informal sector (casual labour, beedi rolling, street vending) → loss of union protection, health coverage, pension → increased vulnerability (alcoholism, suicides, child labour). The statement is valid: casualisation (shift to casual wage work) is the mechanism through which informalisation (shift to unprotected employment) occurs. A wrong answer would treat them as independent trends, missing the structural transformation where formal jobs are replaced by informal ones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's development planning failed because the informal sector still employs 89% of the workforce after 70 years.\" Consider the original planning objective and the role of economic reforms post-1991.",
+     "a": "The claim is partially valid but oversimplified. Planning envisaged a Lewis-model transition: surplus labour moves from agriculture (informal) to industry (formal) with rising wages. However, post-1991 reforms accelerated capital-intensive growth, reducing formal employment elasticity. The formal sector share actually declined from 1990s onward (Box 6.1). Yet, the informal sector also provides livelihood absorption when formal jobs are insufficient. A wrong answer would ignore the absorption role or blame planning alone without considering globalisation's impact on labour-intensive manufacturing.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a classification table for the following workers using the formal/informal criteria. Justify each classification in one sentence.\n(a) Driver of a bus company with 15 buses and 30 drivers/conductors\n(b) Owner of a textile shop employing 9 workers\n(c) Nurse in a government hospital\n(d) Cycle-rickshaw puller\n(e) Computer operator in state government office on temporary contract",
+     "a": "(a) Formal - private enterprise with >10 hired workers. (b) Informal - private enterprise with <10 hired workers. (c) Formal - public sector establishment. (d) Informal - self-employed with no hired workers. (e) Formal - public sector establishment (contract status doesn't change enterprise classification). A poor answer would classify (e) as informal due to temporary contract, confusing worker status (casual/regular) with enterprise sector classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

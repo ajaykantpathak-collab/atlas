@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_008",
+   "title": "c12_geo_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the four Census of India criteria used to classify a settlement as urban.",
+     "a": "Correct answer: (1) Statutory town: has a municipality, corporation, cantonment board, or notified town area committee. (2) Census town: meets all three criteria — population ≥5,000, density ≥400 persons/km², ≥75% male main workers in non-agricultural activities. A wrong answer (e.g., \"population >10,000\" or \"has a market\") reveals confusion between statutory and census towns, or mixing state-level definitions with the uniform Census definition. This error leads to misclassification in map-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did India's urban population percentage rise slowly (10.8% to 17.3%) during 1901–1951 but accelerate sharply (17.3% to 31.16%) during 1951–2011?",
+     "a": "Correct answer: 1901–1951: high birth and death rates, limited industrialization, colonial urban policy focused on ports/administrative centres. 1951–2011: post-Independence five-year plans spurred industrial towns (Bhilai, Rourkela), Green Revolution created market towns, partition refugees swelled Delhi/Kolkata, and service-sector growth after 1991 generated million-plus cities. A wrong answer attributing the acceleration solely to \"population growth\" misses the structural shift from primary to secondary/tertiary activities and the role of policy-driven industrial location.",
+     "self_check": true
+    },
+    {
+     "q": "Using Census 2011 data, calculate the rural-urban growth differential (URGD) for India if the decadal growth rate of urban population was 31.8% and rural population was 12.2%. Interpret the result.",
+     "a": "Step 1: URGD = Urban decadal growth rate − Rural decadal growth rate = 31.8% − 12.2% = 19.6 percentage points. Step 2: A positive URGD of 19.6 pp means urban population grew nearly 2.6 times faster than rural population during 2001–2011. Step 3: This signals rapid urbanization driven by migration, reclassification of rural to urban (census towns), and natural increase in cities. A wrong answer subtracting in reverse (rural − urban) or using annual rates instead of decadal rates shows misunderstanding of the differential's purpose: it quantifies the pace of structural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urbanization patterns of Kerala (47.7% urban, 2011) and Bihar (11.3% urban, 2011). Explain how physical geography and historical economy produce this contrast.",
+     "a": "Kerala: narrow coastal plain, high density, historic maritime trade, remittance economy, dispersed rural-urban continuum (census towns every 2–3 km). Bihar: fertile Gangetic plain but landlocked, agrarian feudal legacy, low industrial investment, frequent floods discouraging permanent urban infrastructure. A wrong answer citing only \"literacy\" or \"government policy\" ignores the deep structural roots: Kerala's urbanization is organic and settlement-driven; Bihar's is suppressed by agro-climatic risk and capital deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's urbanization is 'exclusionary' because census towns grow without municipal governance, denying residents basic services.\" Use evidence from the 2011 Census.",
+     "a": "Valid evaluation: 2011 Census added 2,774 new census towns (vs. 242 statutory towns), meaning 30% of urban population lives in settlements without urban local bodies. These areas lack piped water, sewage, regulated building codes — confirming exclusionary outcomes. However, census towns also reflect organic economic transition; labeling all as \"exclusionary\" overlooks that some later gain statutory status. A one-sided answer (\"fully agree\" or \"fully disagree\") fails to weigh both the governance gap and the developmental inevitability of reclassification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-indicator map (choropleth + proportional symbols) to show state-level urbanization level and urban growth rate (2001–2011). Specify data sources, classification intervals, and what spatial hypothesis the map would test.",
+     "a": "Choropleth: % urban population (2011) — 5 classes: <15%, 15–25%, 25–35%, 35–50%, >50% (Census Table A-2). Proportional circles: decadal urban growth rate (2001–2011) — radius ∝ growth rate (Census Table A-4). Hypothesis: \"States with low initial urbanization (<20%) show highest urban growth rates (>30%) due to catch-up reclassification.\" Data sources: Census 2001/2011 Primary Census Abstracts. A poor map would use raw urban population for circles (confounding size with growth) or ignore the distinction between statutory/census towns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

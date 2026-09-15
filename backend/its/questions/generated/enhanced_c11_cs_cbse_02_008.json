@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_008",
+   "title": "c11_cs_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the four laws (two Complement, two Idempotent) using Boolean algebra notation with a variable A and its complement A'.",
+     "a": "Complement Laws: A + A' = 1 and A · A' = 0. Idempotent Laws: A + A = A and A · A = A. A wrong answer (e.g., writing A + A' = A or A · A = 0) reveals confusion between the two law families or misunderstanding of complement as \"opposite\" rather than \"exclusive partner\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why A + A' must equal 1 and A · A' must equal 0, using the concept of a variable and its complement covering all possibilities.",
+     "a": "A and A' are exhaustive and mutually exclusive: exactly one is 1, the other 0. OR gives 1 if either is 1 → always 1. AND gives 1 only if both are 1 → never happens → 0. A wrong answer (e.g., \"because they cancel out\") shows the student treats Boolean complement like arithmetic additive inverse, missing the logical exhaustive-or nature.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression (P + Q) · (P + Q)' using only the laws covered in this node. Show each step and name the law used.",
+     "a": "Step 1: Let X = (P + Q). Expression becomes X · X'. Step 2: Apply Complement Law (A · A' = 0) with A = X → 0. A wrong answer (e.g., expanding to P·P' + ...) shows inability to recognize the complement pattern when the operand is a compound expression, a critical skill for board-level simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Idempotent Law A + A = A with the arithmetic statement x + x = 2x. Why does the Boolean version not produce a coefficient 2?",
+     "a": "Boolean algebra has no coefficients; values are only 0 or 1. 1+1=1 in Boolean (OR), not 2. Arithmetic addition counts quantity; Boolean OR checks \"at least one true\". A wrong answer (e.g., \"because Boolean is different\") without explaining the semantic difference (counting vs. logical existence) indicates superficial memorization.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since A + A = A, then A + A + A must equal A + A = A, so idempotent law extends to any number of terms.\" Evaluate this claim: is it valid? Justify.",
+     "a": "Valid. By associativity, (A + A) + A = A + A = A. Inductively, any finite OR of identical variables equals that variable. A wrong evaluation (e.g., \"not valid because law only says two terms\") shows lack of understanding that laws combine with associativity to generalize — a key analytical skill for multi-variable simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean expression with three variables that simplifies to 0 using only Complement and Idempotent Laws (and Associative/Commutative if needed). Show the simplification steps.",
+     "a": "Example: (X · Y) + (X · Y)' + Z · Z'. Steps: 1. Let A = X·Y → A + A' = 1 (Complement). 2. Z·Z' = 0 (Complement). 3. 1 + 0 = 1 (Identity, but if student uses only these laws, they might stop at 1+0). Better: (X + X') · (Y + Y') · (Z · Z') = 1·1·0 = 0. A poor answer (e.g., random expression that doesn't simplify cleanly) reveals inability to construct complement pairs intentionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

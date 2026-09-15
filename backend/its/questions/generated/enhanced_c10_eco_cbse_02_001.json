@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_001",
+   "title": "c10_eco_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define the Primary sector and give two examples from the Indian context that are NOT agriculture.",
+     "a": "The Primary sector comprises activities that directly use natural resources to produce raw materials. Examples: (1) Coal mining in Jharkhand, (2) Marine fishing off the Kerala coast. A wrong answer (e.g., \"wheat farming and cotton textiles\") reveals the student confuses primary with secondary — cotton textiles is manufacturing (secondary), not extraction. It also shows they think \"primary\" only means agriculture, ignoring mining, forestry, and fishing.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows sugarcane and sells it to a sugar mill. The mill crushes it to produce sugar and sells it to a wholesaler. The wholesaler transports and stores the sugar, then sells to retailers. Classify each underlined activity into primary, secondary, or tertiary and justify in one sentence each.",
+     "a": "Farmer growing sugarcane → Primary (direct extraction of agricultural product from land). Sugar mill crushing cane → Secondary (manufacturing transforms raw material into new product). Wholesaler transporting/storing/selling → Tertiary (services of transport, warehousing, trade facilitate distribution without changing the good). A wrong classification (e.g., calling the mill \"primary because it uses farm produce\") shows the student focuses on input source rather than the **transformation process** — the defining criterion for secondary sector.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following activities into the three sectors with justification:\n(a) A household in Rajasthan weaving khaddar cloth on a handloom for sale.\n(b) An IT company in Bengaluru developing software for a US client.\n(c) A cooperative in Gujarat collecting milk from farmers, pasteurizing it, and selling packed milk.\n(d) A government primary school teacher in Uttar Pradesh.",
+     "a": "(a) Secondary — handloom weaving transforms raw cotton/yarn into fabric (manufacturing, even if small-scale). (b) Tertiary — software development is an intangible service (information technology enabled service). (c) Secondary — pasteurization and packing transform raw milk into a processed good; the cooperative's collection is ancillary to manufacturing. (d) Tertiary — education is a service. A common error: classifying (c) as primary because it starts with milk collection. This ignores that the **core output** is processed milk, a manufactured product. Another error: calling (a) tertiary because it's \"home-based work\" — sector depends on output, not workplace.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this statement: \"All activities in the Primary sector are low-income and all in the Tertiary sector are high-income.\" Identify two Indian counter-examples for each sector and explain why the sector label alone does not determine income.",
+     "a": "Counter-examples: Primary — (1) Diamond mining in Panna (Madhya Pradesh) yields high-value output; (2) Commercial tea plantations in Assam generate significant revenue. Tertiary — (1) A street vendor selling vegetables earns low daily wages; (2) A domestic helper provides services but earns minimal income. Sector classification describes **nature of output**, not productivity, skill requirement, capital intensity, or market value — which determine income. A student who agrees with the statement confuses sectoral classification with the **structural transformation** trend (rising tertiary share in GDP) and ignores intra-sector heterogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For rapid economic development, India should discourage the Primary sector and promote only the Secondary and Tertiary sectors.\" Use the concept of interdependence of sectors and food security in your reasoning.",
+     "a": "The statement is flawed. Sectors are interdependent: Primary supplies raw materials (cotton for textiles, iron ore for steel) and food (wheat, rice) to Secondary and Tertiary. Discouraging agriculture risks food insecurity (India's 2023 wheat procurement was 26.2 million tonnes for PDS) and raises input costs for manufacturing. Secondary provides machinery (tractors, pumps) and inputs (fertilizers, seeds) that raise Primary productivity. Tertiary provides finance, transport, and markets for both. A student endorsing the statement ignores **linkage effects** (backward/forward linkages) and the fact that 42% of India's workforce (PLFS 2022-23) still depends on primary — structural shift requires creating jobs in other sectors first, not suppressing primary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a classification table for 10 economic activities observed in your district/village. Include at least two borderline cases (e.g., fruit processing, cold storage, packaging) and write the decision rule you used for each.",
+     "a": "A good answer lists 10 diverse activities (e.g., farming, brick kiln, hair salon, tuition classes, milk collection, fruit jam factory, cold storage, truck repair, grain mandi auction, solar panel installation) with correct classification and explicit rules: \"If output is a natural resource → Primary; if output is a tangible good made from raw material → Secondary; if output is an intangible service → Tertiary.\" For borderline: fruit jam factory → Secondary (transformation); cold storage → Tertiary (service of preservation without changing the good); packaging → Secondary if it changes the product form (e.g., bottling), Tertiary if it's only labeling/wrapping for transport. A poor answer misclassifies borderline cases by focusing on input (fruit → primary) or location (factory → secondary) rather than the **nature of the final output**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

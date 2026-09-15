@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_005",
+   "title": "c11_soc_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define mechanical solidarity and organic solidarity in one sentence each, using Durkheim's terminology.",
+     "a": "Mechanical solidarity: social cohesion based on similarity of beliefs, values, and routines in societies with low division of labour. Organic solidarity: social cohesion based on interdependence arising from specialized division of labour in complex societies. A wrong answer (e.g., \"mechanical solidarity means people work like machines\") reveals confusion between the *metaphor* and the *actual mechanism* — students often literalize \"mechanical\" as \"machine-like\" rather than \"based on sameness.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a functionalist would argue that competition in a modern capitalist society serves a positive function for system maintenance, even though it creates winners and losers.",
+     "a": "Competition ensures efficient role allocation (best students get best jobs), motivates innovation, and channels conflict into regulated channels (exams, markets) rather than violence — all of which maintain system stability. A wrong answer (e.g., \"competition is good because it makes people work hard\") reflects a *commonsense/individualist* justification, not a *system-level functional* explanation — the student hasn't shifted from \"individual benefit\" to \"system requirement.\"",
+     "self_check": true
+    },
+    {
+     "q": "A tribal community practices shifting cultivation with minimal specialization; a metropolitan city runs on IT, finance, healthcare, and logistics sectors. Apply Durkheim's concepts to explain which type of solidarity dominates in each, and why the *transition* between them creates anomie.",
+     "a": "Tribal community: mechanical solidarity (shared routines, collective conscience). Metropolis: organic solidarity (high specialization, interdependence). Transition creates anomie because old norms (collective rituals, kinship obligations) break down before new norms (professional ethics, contractual trust) fully emerge — leaving individuals without moral guidance. A wrong answer that only labels the solidarities but misses the *anomie mechanism* shows inability to connect Durkheim's *Division of Labour* argument to the *dynamic process* of social change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a functionalist and a conflict theorist would interpret the same phenomenon: \"Women in a patriarchal household cooperate by not claiming natal property rights.\" Identify the key conceptual difference in their explanations.",
+     "a": "Functionalist: interprets this as *accommodation* — a compromise that maintains family solidarity and system stability despite latent conflict. Conflict theorist: interprets this as *enforced cooperation* — women's \"cooperation\" is coerced by patriarchal norms and fear of losing natal family support, masking exploitation. The key difference: functionalist sees *system-preserving compromise*; conflict theorist sees *power-imposed conformity*. A wrong answer that says \"functionalists see it as good, conflict theorists see it as bad\" misses the *analytical distinction* — both may see negative outcomes, but they locate the *source* differently (system needs vs. power relations).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The functionalist perspective is conservative because it treats existing social arrangements as necessary for system survival.\" Use the textbook's discussion of women's property rights to support your judgment.",
+     "a": "The claim is partially valid but incomplete. The textbook shows functionalists *do* recognize latent conflict (women's fear of claiming rights) but frame it as \"accommodation\" — which can legitimize inequality by presenting it as system-maintaining. However, functionalism also identifies *dysfunctions* (e.g., anomie during rapid change) and doesn't inherently oppose change — it analyzes how systems *adapt*. A nuanced evaluation: functionalism's *methodological* focus on system requirements can *appear* conservative, but its *theoretical* tools (e.g., latent functions, dysfunctions) allow critical analysis. A wrong answer that simply agrees (\"yes, it justifies status quo\") or disagrees (\"no, it's scientific\") fails to engage with the *textbook's own evidence* of functionalism acknowledging hidden conflict.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example (not from the textbook) of a social practice in contemporary India that *appears* cooperative but conceals a structural conflict, and explain it using both functionalist (\"accommodation\") and conflict (\"enforced cooperation\") lenses.",
+     "a": "Example: Gig workers (delivery, ride-hail) accepting algorithm-dictated pay cuts without unionizing. Functionalist lens: \"accommodation\" — workers adjust to market demands, platform efficiency is maintained, system adapts. Conflict lens: \"enforced cooperation\" — workers lack bargaining power, algorithmic control masks exploitation, fear of deactivation forces compliance. A poor answer would describe a clear-cut conflict (e.g., a strike) or pure cooperation (e.g., a cooperative society) — missing the *concealed conflict within apparent cooperation* that the textbook emphasizes (e.g., women's property rights, household distribution).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

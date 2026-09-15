@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_011",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_011",
+   "title": "c7_chem_ch02_011",
+   "questions": [
+    {
+     "q": "What type of change is crystallisation, and why is it classified as such?",
+     "a": "Crystallisation is a physical change because no new chemical substances are formed; the dissolved solute merely rearranges itself into an ordered solid lattice as the temperature drops, and the original substance can be recovered by dissolving it again. A wrong answer usually confuses crystallisation with a chemical reaction or precipitation where a brand-new compound is synthesized, showing a failure to recall that physical separation methods do not alter chemical identity.",
+     "self_check": true
+    },
+    {
+     "q": "Why is preparing a concentrated, hot solution and letting it cool slowly more effective for obtaining large, pure crystals than letting the solution boil away completely to dryness?",
+     "a": "Cooling a hot, concentrated solution slowly allows solute particles time to arrange themselves into orderly, repeating geometric patterns (crystals), while trapping impurities in the remaining liquid mother liquor. Boiling to dryness causes rapid, random precipitation where small, impure crystals clump together with all dissolved impurities trapped inside. A wrong answer indicates the student thinks evaporation and crystallisation are identical processes.",
+     "self_check": true
+    },
+    {
+     "q": "A student dissolves 50 g of impure copper sulphate in 100 mL of water at 80°C, filters out 5 g of insoluble sand, and then cools the clear blue filtrate to room temperature. Predict what happens to the dissolved copper sulphate and calculate the maximum mass of pure copper sulphate crystals that can theoretically separate if its solubility drops from 40 g per 100 mL at 80°C to 20 g per 100 mL at room temperature.",
+     "a": "Steps: 1. Identify initial dissolved solute: 50 g - 5 g insoluble sand = 45 g of copper sulphate dissolved in 100 mL at 80°C. 2. Note that the solution is saturated at 80°C with 40 g dissolved (5 g is in excess and settles or fails to dissolve, or the solution is supersaturated; let us adjust: 40 g dissolves at 80°C). 3. Determine solubility at room temperature: 20 g per 100 mL. 4. Calculate precipitated crystals: Initial dissolved at high temp (40 g) minus solubility at low temp (20 g) = 20 g of pure copper sulphate crystals formed. 5. Verify units: 20 g of solid copper sulphate pentahydrate / crystals. A wrong answer shows the student included the insoluble sand in the calculation or did not subtract the lower solubility limit at room temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare simple evaporation of sea water to dryness versus obtaining pure salt crystals via crystallisation. How do the purity and crystal structure differ between the two methods?",
+     "a": "Simple evaporation to dryness removes all water rapidly, leaving behind salt contaminated with all soluble and insoluble impurities present in sea water, forming a fine, crusty powder. Crystallisation involves dissolving the crude salt, filtering insoluble grit, concentrating the solution, and cooling it to precipitate pure, well-defined cubic crystals while keeping soluble impurities dissolved in the remaining liquid. A wrong answer reveals a misunderstanding of how dissolved impurities behave during slow cooling versus rapid evaporation.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims that because copper sulphate crystals change from blue to white when strongly heated (losing water of crystallisation), crystallisation must be a chemical change. Evaluate this claim and explain why they are mistaken.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "The classmate's claim is incorrect because losing water of crystallisation upon heating is a reversible physical hydration/dehydration process, not the creation of a new chemical substance. When water is added back to the white anhydrous copper sulphate, it turns blue again and releases heat, proving the chemical identity of copper sulphate pentahydrate remains unchanged. A wrong answer shows the student mistakes any color change or physical appearance shift for a chemical reaction.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

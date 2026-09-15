@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch08_004",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch08_004",
+   "title": "c6_economics_ch08_004",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a savings account for a student?\nAnswer: A savings account is used to store money safely while earning a small amount of interest and allowing easy access for daily needs. A wrong answer suggests the student thinks it is for business transactions or long-term locking of funds, showing they do not understand the \"everyday management\" aspect.",
+     "a": "[Correct answer] A savings account is a safe place to store money for future goals while earning a small amount of interest. It allows students to keep their funds secure while remaining accessible for planned expenses or emergencies.\n\nA wrong answer reveals that the student confuses a personal savings account with a high-risk investment vehicle or a commercial business account, showing they do not yet understand the distinction between \"liquid\" personal savings and long-term capital growth or complex financial operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why would a business owner prefer a current account over a savings account?\nAnswer: A current account allows for unlimited transactions, which is necessary for a business, whereas savings accounts often have limits. A wrong answer suggests the student thinks it's about earning more interest, missing the point that current accounts usually earn zero interest.",
+     "a": "[Correct answer] A business owner prefers a current account because it offers unlimited transactions and convenient payment features like overdrafts, which are essential for daily operations. In contrast, savings accounts are designed for accumulating interest and often restrict the number of withdrawals allowed.\n\nA wrong answer reveals the student’s misconception that the primary goal of a business account is to earn interest, failing to understand that liquidity and transaction volume are the actual priorities for a business owner.",
+     "self_check": true
+    },
+    {
+     "q": "If your father wants to deposit a large sum of money for 3 years to earn the highest possible interest, which account should he choose?\nAnswer: He should choose a Fixed Deposit (FD) account. The steps are: identify the goal (growth over time), recognize the limitation (money is locked), and select the account that rewards this commitment. Wrong answers reveal confusion between \"accessible\" money and \"invested\" money.",
+     "a": "**Correct Answer:** Your father should choose a Fixed Deposit (FD) account because it offers a higher interest rate in exchange for locking the money away for a set period. This account is the best choice for long-term growth when immediate access to the cash is not required.\n\n**Explanation of Wrong Answer:** A wrong answer, such as choosing a Savings Account, reveals the student’s confusion between the need for **liquidity** (having money available for daily emergencies) and the purpose of **investment** (sacrificing access to money in exchange for higher returns).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interest-earning potential of a Savings Account versus a Fixed Deposit.\nAnswer: Savings accounts earn low interest because the money can be withdrawn anytime, while Fixed Deposits earn higher interest because the bank knows the money will stay for a set period. Wrong answers show a failure to link \"risk/access\" to \"reward/interest.\"",
+     "a": "**Correct Answer:** Fixed Deposits offer higher interest rates because the investor locks their money away for a specific period, providing the bank with stability; in contrast, Savings Accounts offer lower interest rates because the depositor retains the flexibility to withdraw their funds at any time.\n\n**Explanation:** A wrong answer reveals a fundamental misunderstanding of the \"liquidity-premium\" relationship, specifically the misconception that interest is simply a gift from the bank rather than a financial reward for sacrificing the immediate access to one's own money.",
+     "self_check": true
+    },
+    {
+     "q": "Is it a wise decision to put your \"emergency money\" into a Fixed Deposit? Why?\nAnswer: No, because emergency money needs to be accessible instantly, and FDs often have penalties for early withdrawal. Wrong answers indicate a failure to prioritize \"liquidity\" over \"profit.\"",
+     "a": "**Correct Answer:** No, it is not a wise decision because emergency money must be kept in a highly liquid account for immediate access, whereas Fixed Deposits often impose penalties or waiting periods for early withdrawal. Prioritizing instant availability is more critical than earning interest during a financial crisis.\n\n**Explanation:** A wrong answer reveals a misconception that the primary goal of all savings is to maximize profit (interest), failing to understand that the purpose of an emergency fund is **risk management and liquidity** rather than wealth accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a plan for a student who receives a monthly allowance: how should they manage their savings vs. long-term goals?\nAnswer: A good answer suggests keeping part in a savings account for monthly needs and moving surplus to a recurring deposit for a future goal. A poor answer ignores the need for liquidity or suggests inappropriate accounts for a student.",
+     "a": "**Correct Answer:** A student should allocate a portion of their allowance into a liquid savings account for immediate monthly expenses and transfer the remaining surplus into a high-yield savings account or recurring deposit to accumulate interest for a specific long-term goal. This dual-account strategy ensures they have cash on hand for daily needs while protecting their future savings from impulsive spending.\n\n**A wrong answer reveals:** A student’s lack of understanding regarding the distinction between \"liquidity\" (immediate access to cash) and \"capital growth\" (saving for the future), often indicating they view money as a single pool to be spent until it is gone rather than a tool to be managed for different time horizons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

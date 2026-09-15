@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_10",
+   "title": "c8_math_ch6_10",
+   "questions": [
+    {
+     "q": "What is the algebraic expression for the total area of a rectangle divided into four smaller rectangles with dimensions a × c, a × d, b × c, and b × d?",
+     "a": "The total area is ac + ad + bc + bd. A wrong answer like \"ac + bd\" reveals the student thinks only the diagonal rectangles matter, missing the cross terms ad and bc. This shows they do not yet grasp that the whole rectangle's area is the sum of ALL four parts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the area model for (x - 2)(x + 4) must include a region with negative area, and how that region is represented geometrically.",
+     "a": "The term -2 means we subtract a strip of width 2 from the side x. Geometrically, we draw a rectangle of side x and 4, then remove a 2×4 rectangle. The negative area represents the removed part. A wrong answer that ignores the negative sign or treats it as positive shows the student cannot map subtraction to area removal, a crucial step for visualizing (a-b)(c+d).",
+     "self_check": true
+    },
+    {
+     "q": "Use an area model to expand (2y + 3)(y - 4). Show all four sub-rectangles and write the final simplified expression.",
+     "a": "Draw a rectangle with horizontal sides 2y and 3, vertical sides y and -4. Sub-rectangles: (2y)(y)=2y², (2y)(-4)=-8y, (3)(y)=3y, (3)(-4)=-12. Sum: 2y² - 8y + 3y - 12 = 2y² - 5y - 12. A common error is to write -8y + 3y = -11y (sign mistake) or forget the -12. This reveals the student struggles with signed multiplication in the geometric context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area models for (a+b)² and (a-b)². What is the geometric difference between the two models, and how does it explain the algebraic difference between a²+2ab+b² and a²-2ab+b²?",
+     "a": "For (a+b)², the square of side a+b is divided into a², b², and two rectangles each of area ab (total +2ab). For (a-b)², we start with a square of side a, remove two strips of area ab (total -2ab), but then the corner b² has been removed twice, so we add it back once. The difference is that (a+b)² adds two ab rectangles, while (a-b)² subtracts them. A wrong answer that says both have +2ab shows the student does not see subtraction as removing area.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws an area model for (x+5)(x-3) and writes the expansion as x² + 2x - 15. Is this correct? If not, identify the error and give the correct expansion.",
+     "a": "The expansion is incorrect. The correct expansion is x² + 2x - 15? Wait, let's check: (x+5)(x-3) = x² -3x +5x -15 = x² +2x -15. Actually the student's answer is correct! The error would be if they wrote x² -2x -15 (sign error on the middle term) or x² +8x -15 (adding 5 and 3 instead of -3+5). A wrong judgment here reveals the student cannot verify expansions using the area model's signed areas.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using metres, rupees, or kilograms) that requires drawing an area model for a product of two binomials with at least one negative term. Write the problem, draw the model, and give the algebraic expression.",
+     "a": "Example: A rectangular field's length is (x - 2) metres and breadth is (x + 10) metres. Find the area in terms of x. The model shows a large x by x square, a 10x rectangle, a removed 2x rectangle, and a removed 20 square. Expression: x² + 8x - 20. A poor answer uses only positive terms or ignores the context, showing the student cannot connect negative terms to real-world subtraction (e.g., reducing a dimension).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

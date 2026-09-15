@@ -1,0 +1,407 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 3,
+ "chapter_title": "The Constitution and Social Change",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy203.1",
+   "title": "The Constitution as the Basic Norm: Law versus Justice",
+   "section": "Constitutional Norms and Social Justice",
+   "definition": "Law differs from justice in its essence: a law bites because the state stands behind it with the means to compel obedience, while justice is about fairness. The constitution sits above every rule and authority, prescribes how laws are made, and creates the court hierarchy that settles disputes - with the supreme court as the final word on what the document means.",
+   "formula": "law_essence = force_backed_by_state ; justice_essence = fairness ; hierarchy_base = constitution",
+   "key_idea": "Every ordinary law and every court draws its validity from the constitution, so it is india's basic norm rather than one rule among many.",
+   "textbook_ref": "lesy203.txt, opening section Constitutional Norms and Social Justice",
+   "question_patterns": [
+    "distinguish between law and justice in terms of their essence",
+    "why is the indian constitution called the country's basic norm?",
+    "which court is the ultimate interpreter of the constitution and what does that role involve?",
+    "how does a hierarchy of authorities make a system of law function?",
+    "in what sense can the constitution extend the meaning of social justice rather than just list dos and don'ts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the two essences",
+     "explain": "law compels because state power enforces it; justice asks whether outcomes are fair, and the two need not coincide"
+    },
+    {
+     "step": 2,
+     "action": "place the constitution in the hierarchy",
+     "explain": "all rules and authorities derive from the constitution; its courts interpret it, topping out at the supreme court"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A law bites because of what standing behind it: the state's means to compel, or public goodwill?",
+     "a": "the state's means to compel"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.2",
+   "title": "Judicial Expansion of Rights: Article 21, RTI and Equal Pay",
+   "section": "Constitutional Norms and Social Justice (Box 3.1)",
+   "definition": "The supreme court has stretched the substance of fundamental rights by reading into terse articles everything incidental to them. The right to life in article 21 came to cover livelihood, health, shelter, education and dignity - more than animal existence; the right to information was held in 1993 to be part of free speech under article 19(1)(a); and equal pay for equal work was read into the equality guarantee of article 14.",
+   "formula": "expansion = article21_life + article19_rti + article14_equal_pay",
+   "key_idea": "Social movements helped courts reinterpret rights, so relief flowed to tortured prisoners, bonded labourers and plantation and agricultural labourers.",
+   "textbook_ref": "lesy203.txt, Box 3.1 instances of judicial interpretation",
+   "question_patterns": [
+    "how has the supreme court expanded the words of article 21 on the right to life?",
+    "in which year was the right to information held to be part of the freedom of speech and expression, and under which article?",
+    "which directive principle was read into the fundamental right to equality under article 14?",
+    "name two groups of workers who received relief from the equal pay interpretation",
+    "what does the phrase more than mere animal existence signal about judicial interpretation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check each expansion against its article",
+     "explain": "article 21 now carries livelihood, health, shelter, education and dignity; article 19(1)(a) carries the right to information since 1993; article 14 carries equal pay for equal work"
+    },
+    {
+     "step": 2,
+     "action": "check the beneficiaries",
+     "explain": "prisoners facing torture, bonded labourers released and rehabilitated, communities against environmentally degrading activity, and plantation and agricultural labourers gained relief"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The right to information was held part of free speech under which article: 19(1)(a) or 21?",
+     "a": "Article 19(1)(a)"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.3",
+   "title": "The Road to the 73rd Amendment: Gandhi, Ambedkar, Santhanam",
+   "section": "3.1 The Panchayati Raj and the Challenges of Rural Social Transformation",
+   "definition": "Village self-rule drew two opposite warnings at drafting time. Gandhi imagined each village as a self-sufficient unit running its own affairs through gram-swarajya; ambedkar feared entrenched rural elites and upper castes would make local government another machine for exploiting the downtrodden. Panchayats first entered the text only as a directive principle - moved by k. santhanam - and became a constitutional imperative with the 73rd amendment of 1992.",
+   "formula": "vision = gandhi_gram_swarajya ; warning = ambedkar_elite_capture ; milestone = santhanam_directive + 73rd_amendment_1992",
+   "key_idea": "The 73rd amendment gave panchayati raj institutions constitutional status, made five-yearly elections compulsory, and handed control of local resources to elected bodies.",
+   "textbook_ref": "lesy203.txt, section 3.1 Ideals of Panchayati Raj, Box 3.2",
+   "question_patterns": [
+    "what did gandhiji envisage for the village under gram-swarajya?",
+    "why did dr ambedkar argue against local self-government at the time of drafting?",
+    "which directive principle did k santhanam move, and when did it become a constitutional imperative?",
+    "what three changes did the 73rd constitutional amendment bring to panchayati raj institutions?",
+    "for states with what population does the 73rd amendment prescribe the three-tier system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the two founding positions",
+     "explain": "gandhi wanted village republics; ambedkar replied that village elites and upper castes were so entrenched that local rule would prolong exploitation of the downtrodden"
+    },
+    {
+     "step": 2,
+     "action": "check the amendment's provisions",
+     "explain": "since 1992 panchayats hold constitutional status, elections fall due every five years, and elected local bodies control local resources"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who imagined each village as a self-sufficient unit running its own affairs: Gandhi or Ambedkar?",
+     "a": "Gandhi"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.4",
+   "title": "Reservation Shares in Local Bodies",
+   "section": "3.1 The three-tier system of Panchayati Raj Institution",
+   "definition": "The amendment reserves seats in local bodies for scheduled castes and scheduled tribes and keeps one third of every board - gram panchayat, municipality, city corporation, district board - for women, and within the women's quota a seventeenth part goes to women of the scheduled castes and tribes. Shares translate into seat counts by simple proportion, and the 1993-94 elections alone brought 800000 women into politics.",
+   "formula": "women_seats = total_seats / 3 ; scst_women_seats = women_seats * 17 / 100 ; open_seats = total_seats - women_seats",
+   "key_idea": "The pyramid runs from the gram sabha of all village citizens upward; reservation arithmetic decides how its elected tiers are composed.",
+   "textbook_ref": "lesy203.txt, Box 3.2 and the 73rd/74th amendment reservation passage",
+   "question_patterns": [
+    "a district board has 300 seats. how many are reserved for women under the 73rd amendment?",
+    "out of the women's quota, what fraction is reserved for women of the scheduled castes and tribes, and how many seats is that on a 300 member board?",
+    "compute how many seats of a 300 seat local body remain open to both genders after the women's quota",
+    "how many women entered the political process in the single 1993-94 round of elections?",
+    "which three categories of seats does the amendment reserve in gram panchayats and municipalities?",
+    "what role does the gram sabha play at the base of the three-tier pyramid?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the one third quota",
+     "explain": "a third of the total seats are reserved for women",
+     "compute": "women_seats = total_seats / 3"
+    },
+    {
+     "step": 2,
+     "action": "take the scheduled caste and tribe slice of the quota",
+     "explain": "seventeen per cent of the women's seats belong to sc and st women",
+     "compute": "scst_women_seats = women_seats * 17 / 100"
+    },
+    {
+     "step": 3,
+     "action": "subtract the quota from the board",
+     "explain": "the balance shows the seats not covered by the gender reservation",
+     "compute": "open_seats = total_seats - women_seats"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What fraction of every local board is reserved for women: one third or one half?",
+     "a": "one third"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.5",
+   "title": "The Five-Year Election Cycle Arithmetic",
+   "section": "3.1 The Panchayati Raj and the Challenges of Rural Social Transformation",
+   "definition": "Elections to panchayati raj bodies are compulsory every five years since the 73rd amendment took effect in 1992-93. Counting how many full cycles have run since then is a floor division: years of operation divided by five, discarding the incomplete tail.",
+   "formula": "years_active = end_year - start_year ; elections_held = years_active // 5",
+   "key_idea": "A fixed term turns calendar arithmetic into a count of mandatory elections, each one a chance to return or replace the incumbents.",
+   "textbook_ref": "lesy203.txt, five-year election passages (Box 3.2 and the 1992-93 effective date)",
+   "question_patterns": [
+    "elections to panchayat bodies must be held every five years since 1992. how many election cycles had run by 2017?",
+    "compute the number of years a panchayat elected in 1998 served before the next mandatory poll",
+    "a state adopted the three-tier system in 1993. how many full five-year terms complete by 2015?",
+    "why does the amendment make the five-yearly election compulsory rather than optional?",
+    "if the last gram panchayat election fell in 2014, in which year does the next one fall due?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the start year from the end year",
+     "explain": "the difference gives the span of years the system has run",
+     "compute": "years_active = end_year - start_year"
+    },
+    {
+     "step": 2,
+     "action": "floor divide the span by the term",
+     "explain": "only complete five-year blocks count as finished cycles",
+     "compute": "elections_held = years_active // 5"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Elections to panchayati raj bodies are compulsory every how many years: five or fifteen?",
+     "a": "five"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.6",
+   "title": "Powers, Finances and Nyaya Panchayats",
+   "section": "3.1 Powers and Responsibilities of Panchayats",
+   "definition": "The constitution expects panchayats to work as institutions of self-government: they prepare plans for economic development, push schemes of social justice, and levy and collect taxes, duties, tolls and fees. Their funds come from property, profession, animal and vehicle taxes, cess on land revenue and rentals, topped up by zilla panchayat grants, with fund break-ups displayed on office boards as a right to information practice. Nyaya panchayats in some states hear petty civil and criminal matters, fining offenders but never passing sentences.",
+   "formula": "panchayat_funds = property_tax + profession_tax + vehicle_tax + animal_tax + land_cess + rentals ; nyaya_power = fines_only_not_sentences",
+   "key_idea": "Welfare duties run from burning grounds and birth records to child welfare centres, while development covers roads, wells, tanks, schools and minor irrigation.",
+   "textbook_ref": "lesy203.txt, Powers and Responsibilities of Panchayats, Nyaya Panchayats passage",
+   "question_patterns": [
+    "list the sources from which panchayats raise their main income",
+    "which government schemes monitored by panchayat members does the chapter name?",
+    "why must panchayat offices display boards showing the break-up of funds received and used?",
+    "what authority do nyaya panchayats hold, and what punishment lies beyond their powers?",
+    "against which offenders have nyaya panchayats been particularly effective?",
+    "name any four powers and responsibilities delegated to the panchayats by the constitution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the delegated powers",
+     "explain": "panchayats plan economic development, promote social justice schemes, levy taxes and duties, and receive devolved finances"
+    },
+    {
+     "step": 2,
+     "action": "check the village court's limits",
+     "explain": "nyaya panchayats impose fines and mediate settlements but cannot award sentences; they have punished men harassing women for dowry"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Panchayats levy and collect taxes, duties, tolls and what else: fees or votes?",
+     "a": "fees"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.7",
+   "title": "Democratisation versus Local Inequality",
+   "section": "3.1 Democratisation and Inequality",
+   "definition": "Democratisation struggles where caste, community and gender inequalities have deep roots. Meetings and activities can pass without certain groups being informed, and gram sabhas often answer to a small coterie of rich landlords from the upper castes or landed peasantry who decide development and allocate funds while the majority watches. Against this, reserved seats changed lives: kalavati, a dalit member, gained confidence and, in her words, a name of her own instead of being someone's wife or mother.",
+   "formula": "capture = coterie_of_landlords + silent_majority ; change = reservation + women_self_esteem",
+   "key_idea": "Traditional caste panchayats represented dominant groups and took conservative decisions, so formal democracy must battle the village's own hierarchy.",
+   "textbook_ref": "lesy203.txt, Democratisation and Inequality section, Box 3.3 Kalavati, Box 3.4 Van Panchayats",
+   "question_patterns": [
+    "how do rich landlords undermine the working of the gram sabha in many villages?",
+    "what change did panchayat membership bring to kalavati's sense of self, according to the mahila samakhya record?",
+    "why is democratic participation hindered on grounds of gender, caste and class in villages?",
+    "what were the van panchayats of uttarakhand set up to do, and how do they police the forests?",
+    "what message did the cloth phad of sukhipur and dhukipur carry to unlettered women beyond merely voting?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the capture mechanism",
+     "explain": "a coterie of rich landlords, usually upper caste or landed, decides development and funds while the rest stay onlookers or go uninformed"
+    },
+    {
+     "step": 2,
+     "action": "check the empowerment evidence",
+     "explain": "reserved membership gave dalit women standing and self-esteem, and uttarakhand's van panchayats grew nurseries and guarded trees near chipko country"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Gram sabhas often answer to a small coterie of whom: rich landlords or schoolchildren?",
+     "a": "rich landlords"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.8",
+   "title": "Tribal Institutions and the Limits of the 73rd Amendment",
+   "section": "3.1 Panchayati Raj in Tribal Areas",
+   "definition": "Meghalaya's khasis, jaintias and garos ran tiered traditional political institutions for centuries - each khasi clan, for instance, keeping a durbar kur under its headman. Yet a large stretch of tribal areas sits outside the 73rd amendment, and tiplut nongbri cautions that tradition is no guarantee of democracy: stratification exists, women face open intolerance, and social change has blurred which parts are genuinely traditional.",
+   "formula": "tribal_tiers = village + clan + state ; exemption_reason = protect_tradition ; caution = stratification + intolerance_to_women",
+   "key_idea": "The bhuria committee respected traditional institutions but, nongbri argues, missed their internal complexity - egalitarian ethos and hierarchy live side by side.",
+   "textbook_ref": "lesy203.txt, Panchayati Raj in Tribal Areas (Nongbri 2003: 220)",
+   "question_patterns": [
+    "name the three major ethnic tribal groups of meghalaya with traditional political institutions",
+    "what is the durbar kur in the traditional khasi system?",
+    "why do large parts of tribal areas lie outside the 73rd amendment's provisions?",
+    "what two weaknesses does tiplut nongbri point out in treating tribal institutions as democratic?",
+    "how does the bhuria committee's approach fall short, in nongbri's reading?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the tiered structure",
+     "explain": "institutions functioned at village, clan and state levels, the khasi clan council being the durbar kur presided over by the headman"
+    },
+    {
+     "step": 2,
+     "action": "check the caution",
+     "explain": "tribal bodies can be undemocratic: stratification is present despite an egalitarian ethos, women meet open intolerance, and change has distorted what counts as traditional"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Meghalaya's tiered institutions belong to the Khasis, Jaintias and whom: the Garos or the Santhals?",
+     "a": "the Garos"
+    }
+   ]
+  },
+  {
+   "id": "lesy203.9",
+   "title": "Political Parties, Interest Groups and Pressure Groups",
+   "section": "3.2 Political Parties, Pressure and Interest Groups in Democratic Politics",
+   "definition": "A political party is a body built to win lawful control of government through elections and then use that power to carry out its programme, resting on some view of how society should be. Interest groups pursue specific aims mainly by lobbying legislators; when groups feel parties ignore them they may found an alternative party or form pressure groups that lobby the government itself. Weber adds the neat mapping: classes live in the economic order, status groups in the social order, parties in the house of power.",
+   "formula": "party = elections_for_government_power ; interest_group = lobby_legislators ; pressure_group = lobby_government",
+   "key_idea": "Industrialists organise through ficci and assocham, workers through intuc and citu, farmers through bodies like shetkari sangathan - and the budget season shows them all queuing at the finance ministry.",
+   "textbook_ref": "lesy203.txt, section 3.2, Box 3.6 budget meetings, Box 3.7 Weber on Parties",
+   "question_patterns": [
+    "define a political party and state the aim for which it is established",
+    "how do interest groups differ from pressure groups in the way they operate?",
+    "name the associations of industrialists and the trade unions mentioned as organised interest groups",
+    "according to max weber, where do classes, status groups and parties each live?",
+    "when dissatisfied groups consider forming an alternative party, what alternative do they have?",
+    "why do some argue that the idea of pressure groups underestimates dominant social groups?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the three organisational forms",
+     "explain": "parties contest elections for governmental power; interest groups lobby members of legislative bodies; pressure groups lobby the government, and unrecognised contenders count as movements"
+    },
+    {
+     "step": 2,
+     "action": "check the power asymmetry critique",
+     "explain": "groups differ in access and leverage, so critics say dominant classes, castes or genders effectively control the state, though movements and pressure groups still matter"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A body built to win lawful control of government through elections is called a what?",
+     "a": "political party"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy203.we1",
+   "concept_id": "lesy203.4",
+   "problem": "A zilla-level district board works with 300 elected seats. Using the 73rd amendment's quotas, find the seats reserved for women, the seats reserved within that for women of the scheduled castes and tribes, and the seats left outside the gender quota.",
+   "given": {
+    "total_seats": 300
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "apply the one third quota for women",
+     "compute": "women_seats = total_seats / 3"
+    },
+    {
+     "step": 2,
+     "action": "take the scheduled caste and tribe slice of the women's quota",
+     "compute": "scst_women_seats = women_seats * 17 / 100"
+    },
+    {
+     "step": 3,
+     "action": "subtract the quota from the whole board",
+     "compute": "open_seats = total_seats - women_seats"
+    }
+   ],
+   "answer": "women_seats = 100, scst_women_seats = 17, open_seats = 200, so a third of the board is women's, with 17 of those seats for sc and st women"
+  },
+  {
+   "id": "lesy203.we2",
+   "concept_id": "lesy203.5",
+   "problem": "The three-tier system took effect in 1992. Count the complete five-year election cycles that have run by 2017, and the year the sixth poll falls due.",
+   "given": {
+    "start_year": 1992,
+    "end_year": 2017
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "measure the span of years",
+     "compute": "years_active = end_year - start_year"
+    },
+    {
+     "step": 2,
+     "action": "floor divide the span by the five-year term",
+     "compute": "elections_held = years_active // 5"
+    },
+    {
+     "step": 3,
+     "action": "project the next due date from the cycle count",
+     "compute": "next_due = start_year + (elections_held + 1) * 5"
+    }
+   ],
+   "answer": "years_active = 25 and elections_held = 5, so five complete cycles run by 2017 with the sixth due in 2022"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy203.ex1",
+   "source_ref": "lesy203.txt chapter-end Questions 1-6",
+   "questions": [
+    "Have you heard of Bal Panchayats and Mazdoor Kissan Sanghathan? If not, find out and write a note about them in about 200 words.",
+    "The 73rd amendment has been monumental in bringing a voice to the people in the villages. Discuss.",
+    "Write an essay on the ways that the Indian Constitution touches peoples' everyday life, drawing upon different examples.",
+    "What is the significance of political parties in a democracy?",
+    "How are pressure groups formed?",
+    "What is the role of interest groups in a democratic system?"
+   ]
+  }
+ ]
+}

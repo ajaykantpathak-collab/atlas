@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_010",
+   "title": "c12_biotech_cbse_11_010",
+   "questions": [
+    {
+     "q": "What is the primary form in which *Bacillus thuringiensis* delivers its insecticidal toxin, and where in the insect body does this form become activated?",
+     "a": "The toxin is produced as an inactive crystalline (Cry) protein (δ‑endotoxin) during sporulation. It becomes solubilised and proteolytically activated in the alkaline midgut (pH 8‑11) of susceptible lepidopteran larvae. A wrong answer (e.g., “toxin is secreted into soil” or “activation occurs in the insect haemolymph”) reveals confusion between the bacterial life cycle and the insect digestive physiology, and indicates the student cannot link the environmental stability of the crystal to its targeted activation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “*Trichoderma* controls plant diseases only by secreting antibiotics that kill the pathogen.” Explain why this statement is incomplete and name two additional mechanisms *Trichoderma* uses.",
+     "a": "The statement is incomplete because *Trichoderma* employs a multi‑pronged strategy: (1) mycoparasitism — direct coiling and enzymatic degradation of pathogen hyphae, (2) competition for nutrients and niche space (especially carbon and iron), and (3) induced systemic resistance (ISR) — priming the plant’s jasmonate/ethylene‑dependent defence pathways. If the student only mentions antibiotics, they miss the ecological versatility that makes *Trichoderma* effective against a broad range of pathogens and reduces the chance of resistance development.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer applies a Bt‑based formulation to control *Helicoverpa armigera* on chickpea. After three sprays, pest mortality drops from 90 % to 40 %. Propose two scientifically sound reasons for this decline and suggest one management strategy to restore efficacy.",
+     "a": "Reasons: (1) Selection for resistant alleles in the pest population (e.g., mutations in midgut cadherin‑like receptors that bind Cry toxin). (2) UV degradation of the formulation on leaf surface, reducing viable toxin dose. Management strategy: Rotate Bt with a different mode‑of‑action biopesticide (e.g., *Trichoderma* or a baculovirus) and/or use a refuge strategy (plant non‑Bt host plants nearby) to dilute resistant genes. A wrong answer blaming “immunity development in the insect” (immunity ≠ genetic resistance) or suggesting “increase spray concentration” (accelerates resistance) shows misunderstanding of evolutionary principles and formulation stability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the specificity of *Bacillus thuringiensis* and *Trichoderma* at the taxonomic level. Why does this difference matter for non‑target organism safety and resistance management?",
+     "a": "Bt Cry toxins are highly specific — each Cry variant targets a narrow range of insect orders (e.g., Cry1Ac for Lepidoptera, Cry3Aa for Coleoptera) due to specific receptor binding in the midgut. *Trichoderma* has broad‑spectrum antifungal activity (mycoparasitism, antibiosis) against many phytopathogenic fungi across taxonomic groups. High specificity of Bt minimises harm to beneficial insects but creates strong selection pressure for resistance in the target pest; broad activity of *Trichoderma* reduces resistance risk in pathogens (multiple mechanisms) but requires care to avoid affecting beneficial soil fungi (e.g., mycorrhizae). A student who says “both are broad‑spectrum” or “both are narrow‑spectrum” fails to grasp the molecular basis of Bt specificity versus the ecological generality of *Trichoderma*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following farmer’s statement: “I will stop using chemical fungicides entirely and rely only on *Trichoderma* for all my fungal disease problems because it is natural and has no side effects.”",
+     "a": "The statement is over‑optimistic. *Trichoderma* efficacy depends on environmental conditions (moisture, temperature, pH), formulation quality, timing of application (preventive vs. curative), and compatibility with other inputs. It may not control established severe infections (curative limitation) and can be antagonised by certain chemical fungicides. Over‑reliance without integrated disease management (IDM) — including resistant varieties, crop rotation, sanitation — can lead to disease outbreaks. A good critique acknowledges *Trichoderma* as a valuable component of IDM, not a silver bullet. A poor answer simply agrees or dismisses biopesticides altogether, showing lack of systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory bioassay to compare the virulence of two *Bacillus thuringiensis* isolates against *Spodoptera litura* larvae. List the key variables you would control and the endpoint you would measure.",
+     "a": "Bioassay: Surface‑contaminate castor leaves with known spore‑crystal concentrations (e.g., 10⁴, 10⁵, 10⁶ spores‑crystals/cm²) of each isolate. Place 10 neonate larvae per replication (4 reps) on treated leaves in ventilated containers at 27 ± 1 °C, 65 % RH, 14:10 h L:D. Control variables: larval age/starvation, leaf age, formulation carrier, photoperiod, humidity. Endpoint: Larval mortality at 72 h and 96 h; calculate LC₅₀ by probit analysis. A poor design omits concentration series, uses field‑collected larvae of unknown age, or ignores temperature control — indicating the student cannot translate mode‑of‑action knowledge into a controlled experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

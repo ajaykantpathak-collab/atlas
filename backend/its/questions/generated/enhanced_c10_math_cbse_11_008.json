@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_008",
+   "title": "c10_math_cbse_11_008",
+   "questions": [
+    {
+     "q": "A square of side 7 cm is inscribed in a circle. What is the area of the circle not covered by the square?",
+     "a": "Diagonal of square = diameter of circle. Diagonal = 7√2 cm, so radius = 7√2/2 = 7/√2 cm. Area of circle = π(7/√2)² = π × 49/2 = 49π/2 cm². Area of square = 49 cm². Shaded area = 49π/2 − 49 = 49(π/2 − 1) ≈ 49(0.57) ≈ 27.97 cm². A wrong answer (e.g., using side as radius) shows the student does not know that the diagonal of an inscribed square equals the diameter.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangle 20 cm × 14 cm has a semicircle on its shorter side. Find the total area.",
+     "a": "Area of rectangle = 20 × 14 = 280 cm². The semicircle is on the shorter side (14 cm), so its diameter = 14 cm, radius = 7 cm. Area of semicircle = (1/2)π(7)² = 49π/2 ≈ 77 cm². Total area = 280 + 49π/2 ≈ 357 cm². A wrong answer (e.g., using full circle area instead of semicircle) shows the student did not identify the shape correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A sector of a circle of radius 6 cm with central angle 60° contains an equilateral triangle. Find the area of the shaded region (sector minus triangle).",
+     "a": "Area of sector = (60/360) × π × 36 = 6π cm². The triangle inscribed in a 60° sector with two radii as sides is equilateral with side 6 cm. Area = (√3/4) × 36 = 9√3 cm². Shaded area = 6π − 9√3 ≈ 18.85 − 15.59 = 3.26 cm². A wrong answer (e.g., not recognising the triangle is equilateral) shows the student cannot identify the inscribed polygon.",
+     "self_check": true
+    },
+    {
+     "q": "A circle is inscribed in a square of side 14 cm. Find the area between the square and the circle.",
+     "a": "Side of square = diameter of inscribed circle = 14 cm, so radius = 7 cm. Area of square = 196 cm². Area of circle = π × 49 = 49π ≈ 154 cm². Area between = 196 − 49π ≈ 196 − 154 = 42 cm². A wrong answer (e.g., using 14 as radius) confuses the inscribed and circumscribed cases.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we subtract areas in some composite figures and add in others?",
+     "a": "We ADD when the component shapes do not overlap (adjacent regions, like a rectangle with a semicircle on top). We SUBTRACT when one shape is inside another (inscribed figures, like a square in a circle) and we want the area of the outer shape not covered by the inner. The decision depends on whether the shaded region is a UNION (add) or a DIFFERENCE (subtract) of the component areas. A wrong answer (e.g., \"always add\") shows the student does not understand the geometric relationship between the shapes.",
+     "self_check": true
+    },
+    {
+     "q": "A running track consists of a rectangle 100 m × 60 m with semicircles on both shorter sides. Find the total area of the track.",
+     "a": "The two semicircles (on the 60 m sides) together form a full circle of diameter 60 m, radius 30 m. Area of rectangle = 100 × 60 = 6000 m². Area of circle = π × 900 = 900π m². Total area = 6000 + 900π ≈ 6000 + 2827 = 8827 m². A wrong answer (e.g., adding two separate semicircle areas without combining) shows the student does not recognise that two semicircles on opposite sides make a full circle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

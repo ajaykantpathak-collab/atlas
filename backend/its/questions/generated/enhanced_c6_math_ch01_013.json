@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_013",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_013",
+   "title": "c6_math_ch01_013",
+   "questions": [
+    {
+     "q": "Is 7 a factor of 21? Why or why not?",
+     "a": "Yes, 7 is a factor of 21 because 21 ÷ 7 = 3 with no remainder. A wrong answer suggests the student is confused between factors (divisors) and multiples (products).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a factor and a multiple using the number 5.",
+     "a": "A factor of 5 is a number that divides 5 (only 1 and 5), while a multiple of 5 is a result of 5 multiplied by something (like 5, 10, 15). A wrong answer often indicates the student thinks factors and multiples are the same thing.",
+     "self_check": true
+    },
+    {
+     "q": "List all the factors of 16.",
+     "a": "The factors are 1, 2, 4, 8, and 16. If a student misses 2 or 8, they are likely not checking divisibility systematically starting from 1.",
+     "self_check": true
+    },
+    {
+     "q": "Is 1 a prime number? Why or why not?",
+     "a": "No, 1 is not prime because a prime number must have exactly two distinct factors (1 and itself), and 1 only has one factor. Students often mistakenly label 1 as prime because they don't realize the \"two factor\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "If a number is prime, what can you say about its factors?",
+     "a": "A prime number has exactly two factors: 1 and the number itself. If a student says it has \"many factors,\" they have confused prime numbers with composite numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list of numbers between 1 and 10 that are neither prime nor composite (excluding 1).",
+     "a": "There are no such numbers because every number greater than 1 is either prime or composite. A poor answer shows a lack of understanding of the definitions of prime and composite numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

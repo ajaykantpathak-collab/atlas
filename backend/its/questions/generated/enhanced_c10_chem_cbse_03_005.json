@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_005",
+   "title": "c10_chem_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the volume ratio of concentrated nitric acid to concentrated hydrochloric acid in aqua regia, and which two noble metals does it dissolve?",
+     "a": "Aqua regia is prepared by mixing concentrated HNO₃ and concentrated HCl in a 1:3 volume ratio. It dissolves gold (Au) and platinum (Pt). A wrong answer (e.g., 3:1 ratio or listing copper/silver) reveals the student has memorised the name but not the precise composition or the specific metals it affects — a common 1-mark error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why does gold not dissolve in concentrated nitric acid alone, nor in concentrated hydrochloric acid alone, but dissolves in aqua regia?",
+     "a": "Concentrated HNO₃ is a strong oxidizing agent but cannot form a stable soluble complex with gold ions; concentrated HCl provides chloride ions for complexation but lacks oxidizing power to convert Au(s) to Au³⁺. In aqua regia, HNO₃ oxidizes HCl to produce NOCl and Cl₂, which together oxidize gold *and* stabilize Au³⁺ as the soluble [AuCl₄]⁻ complex. A wrong answer that only mentions \"stronger acid\" shows the student misses the dual role of oxidation + complexation — a key conceptual trap in board assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following chemical equation for the reaction of gold with aqua regia:\nAu + HNO₃ + HCl → HAuCl₄ + NO + H₂O",
+     "a": "Balanced equation: **Au + HNO₃ + 4HCl → HAuCl₄ + NO + 2H₂O**\nSteps: (1) Au is oxidized from 0 to +3, N in HNO₃ is reduced from +5 to +2 in NO. (2) Balance Au: 1 on left, 1 on right. (3) Balance Cl: 4 on right (in HAuCl₄), so 4HCl on left. (4) Balance H: 1 (HNO₃) + 4 (HCl) = 5 H on left; right has 1 (HAuCl₄) + 2×2 (2H₂O) = 5 H. (5) Balance O: 3 (HNO₃) = 1 (NO) + 2 (2H₂O) = 3 O. (6) Balance N: 1 each side. A wrong answer with unbalanced Cl or O indicates the student treats it as a simple acid-metal reaction instead of a redox + complexation process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reaction of gold with aqua regia to the reaction of zinc with dilute hydrochloric acid. Identify two fundamental differences in the reaction mechanism and products.",
+     "a": "Difference 1: Zn + 2HCl → ZnCl₂ + H₂↑ is a simple displacement where H⁺ is reduced to H₂ gas; Au + aqua regia produces NO gas (not H₂) because HNO₃ is the oxidizing agent, not H⁺. Difference 2: Zn forms a simple ionic salt (ZnCl₂); Au forms a coordination complex (HAuCl₄) where Cl⁻ acts as a ligand. A wrong answer that says \"both produce hydrogen gas\" or \"both form salts\" shows the student cannot distinguish redox mechanisms — a frequent error in case-based questions comparing metal-acid reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of platinum with aqua regia as:\nPt + 2HNO₃ + 6HCl → H₂PtCl₆ + 2NO₂ + 2H₂O\nIs this equation balanced? Is NO₂ a plausible product? Justify your answer.",
+     "a": "Atom count: Left — Pt:1, H:8, N:2, O:6, Cl:6. Right — Pt:1, H:2+4=6, Cl:6, N:2, O:4+2=6. Hydrogen is **not balanced** (8 vs 6). Also, with concentrated acids, NO is the typical gaseous product (nitrogen reduced from +5 to +2), not NO₂ (+4). The correct balanced equation is: **Pt + 2HNO₃ + 6HCl → H₂PtCl₆ + 2NO + 4H₂O**. A student who only checks Pt and Cl but misses H/O balance or assumes NO₂ reveals a habit of pattern-matching without verifying atom conservation — exactly what costs marks in 3-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a safe, small-scale classroom demonstration (using non-hazardous substitutes) to show that a mixture of two chemicals can achieve what neither can do alone, analogous to aqua regia dissolving gold. Describe the materials, procedure, and the chemical principle illustrated.",
+     "a": "Materials: Copper turnings (low reactivity metal), dilute H₂SO₄ (non-oxidizing acid), KNO₃ (oxidizing salt), test tubes. Procedure: (1) Add Cu to dilute H₂SO₄ — no reaction. (2) Add Cu to KNO₃ solution — no reaction. (3) Add Cu to a mixture of dilute H₂SO₄ + KNO₃ — slow reaction occurs, blue Cu²⁺ solution forms. Principle: H₂SO₄ provides H⁺ and SO₄²⁻; KNO₃ provides NO₃⁻ which, in acidic medium, acts as an oxidizing agent (like HNO₃ in aqua regia). The mixture oxidizes Cu to Cu²⁺ while neither component alone can. A poor answer that uses concentrated acids or real gold shows the student ignores safety and the \"analogous principle\" requirement — board exams often test safe demonstration design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

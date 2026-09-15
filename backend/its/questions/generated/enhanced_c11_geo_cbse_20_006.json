@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_006",
+   "title": "c11_geo_cbse_20_006",
+   "questions": [
+    {
+     "q": "Name the four major types of industrial pollution and give one specific pollutant example for each type with its primary industrial source in India.",
+     "a": "Air pollution: Sulphur dioxide (SO₂) from thermal power plants burning coal. Water pollution: Chemical Oxygen Demand (COD) from textile dyeing units in Tirupur. Soil pollution: Hexavalent chromium (Cr⁶⁺) from tanneries in Kanpur. Noise pollution: 95 dB(A) from forging presses in Ludhiana auto-parts clusters. A wrong answer (e.g., listing \"smoke\" without chemical identity, or confusing municipal sewage with industrial effluent) reveals the student cannot distinguish pollutant *specificity* or link pollutant to *process chemistry*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why electrostatic precipitators (ESPs) are highly efficient for fly ash removal in coal-fired power plants but ineffective for controlling SO₂ emissions, referencing the physical principle of each device.",
+     "a": "ESP charges solid/liquid particles (fly ash) via corona discharge and collects them on oppositely charged plates — it works on *particulate matter* because particles can acquire charge. SO₂ is a *gas molecule*; it does not respond to electrostatic forces in the same way. SO₂ requires *wet scrubbing* (alkaline slurry absorption) or *dry sorbent injection* (chemical reaction with limestone). A student who says \"ESP removes all pollutants\" or \"SO₂ is removed by filters\" confuses *physical separation* (particulates) with *chemical absorption* (gases) — a fundamental process misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "A textile dyeing unit in Tirupur discharges 500 m³/day of effluent with BOD = 450 mg/L and COD = 1200 mg/L. The CPCB standard for inland surface water discharge is BOD ≤ 30 mg/L and COD ≤ 250 mg/L. Calculate the minimum BOD and COD removal efficiency (%) the Effluent Treatment Plant (ETP) must achieve. Show steps.",
+     "a": "Step 1: Identify inlet (BOD_in = 450 mg/L, COD_in = 1200 mg/L) and outlet limits (BOD_out ≤ 30 mg/L, COD_out ≤ 250 mg/L). Step 2: Removal efficiency η = [(C_in - C_out)/C_in] × 100%. Step 3: For BOD: η_BOD = [(450 - 30)/450] × 100% = 93.3%. Step 4: For COD: η_COD = [(1200 - 250)/1200] × 100% = 79.2%. Step 5: ETP must achieve *at least* 93.3% BOD removal and 79.2% COD removal. A wrong answer (e.g., calculating only one parameter, or using wrong formula) shows inability to apply *mass-balance thinking* to regulatory compliance — a core skill for environmental engineers and geographers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pollution load (kg/day) of Suspended Particulate Matter (SPM) from two cement plants: Plant A produces 3000 tonnes clinker/day with ESP outlet concentration 50 mg/Nm³ and gas flow 500,000 Nm³/hr. Plant B produces 2000 tonnes clinker/day with bag filter outlet 20 mg/Nm³ and gas flow 350,000 Nm³/hr. Which plant has lower *absolute* SPM emission? Which has lower *specific* emission (kg/tonne clinker)? Interpret for regulatory inspection.",
+     "a": "Step 1: Calculate daily gas volume: Plant A = 500,000 × 24 = 12,000,000 Nm³/day; Plant B = 350,000 × 24 = 8,400,000 Nm³/day. Step 2: SPM load = concentration × volume. Plant A = 50 mg/Nm³ × 12,000,000 Nm³ = 600,000,000 mg = 600 kg/day. Plant B = 20 mg/Nm³ × 8,400,000 Nm³ = 168,000,000 mg = 168 kg/day. Step 3: Specific emission: Plant A = 600 kg / 3000 t = 0.20 kg/t clinker. Plant B = 168 kg / 2000 t = 0.084 kg/t clinker. Step 4: Plant B is better on *both* absolute and specific basis. Step 5: Regulator checks *specific emission* (kg/t) for technology benchmarking; absolute load matters for *airshed modeling*. A student comparing only outlet concentrations (50 vs 20 mg/Nm³) ignores *production scale* and *gas volume* — a classic error in environmental assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Installing a 30-meter green belt around a chemical factory eliminates the need for an Effluent Treatment Plant because plants absorb all pollutants.\" Use concepts of pollutant pathways, plant physiology, and regulatory law.",
+     "a": "The statement is *scientifically and legally false*. Step 1: Green belts mitigate *air* pollution (dry deposition of PM, NOₓ, SO₂ via stomatal uptake) and *noise* (attenuation), but *cannot treat liquid effluent* — plants do not \"absorb\" dissolved heavy metals or organic toxins from wastewater streams; those require physicochemical/biological ETP processes. Step 2: Even for air, green belts are *supplementary*, not primary control; CPCB mandates *end-of-pipe* devices (ESP, scrubber) *first*. Step 3: The Water (Prevention & Control of Pollution) Act, 1974 *legally requires* ETP for any industry discharging effluent. A student accepting the statement confuses *mitigation* (green belt) with *treatment* (ETP), ignores *medium-specific pathways*, and overlooks *statutory obligation* — a dangerous misconception for environmental compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pollution control strategy for a new integrated steel plant (3 MTPA) in Odisha's Angul-Dhenkanal region. Specify: (a) primary air pollution control device for blast furnace gas, (b) water recycling target (% of total water intake), (c) solid waste utilization plan for blast furnace slag and SMS slag, (d) noise control for 120 dB(A) rolling mill. Justify each choice with techno-economic reasoning.",
+     "a": "(a) Blast furnace gas: *Dry dedusting* (cyclone → venturi scrubber → wet ESP) — recovers sensible heat (300°C) for power generation; wet scrubbing alone wastes energy. (b) Water recycling: ≥95% (CPCB charter for steel) — achieved via cascade cooling, RO/UF for blowdown reuse; reduces freshwater draw from Brahmani river. (c) Slag utilization: BF slag → 100% granulated for cement (GGBS); SMS slag → metal recovery → aggregate for road base/rail ballast; *zero landfill* target per MoEFCC 2019 guidelines. (d) Rolling mill noise: *Enclosure + vibration damping pads + silenced gearboxes* to reduce source to ≤85 dB(A); green belt as secondary barrier. A poor answer lists generic devices without *process-specific justification* (e.g., suggesting bag filter for hot BF gas — fails at temperature) or ignores *regional context* (water scarcity in Angul).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

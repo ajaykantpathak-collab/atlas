@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_1",
+   "title": "c8_physics_ch1_1",
+   "questions": [
+    {
+     "q": "A student wonders, \"Why do shadows change during the day?\" Which of the following rewrites this as a focused, testable question for a Class 8 investigation?\nA) What causes shadows to change?\nB) How does the length of a shadow change when the Sun's position changes?\nC) Why is the Sun higher at noon?\nD) Do all objects make shadows?",
+     "a": "Correct answer: B. It identifies the independent variable (Sun's position / time of day) and dependent variable (shadow length) and implies a measurable relationship. Option A is still broad (\"what causes\"). Option C asks for an explanation, not an investigation. Option D is a yes/no classification, not a variable relationship. A wrong choice reveals the student cannot yet distinguish a testable variable relationship from a general why-question or a fact-recall question.",
+     "self_check": true
+    },
+    {
+     "q": "Riya asks: \"How does the type of surface affect how far a toy car rolls?\" Her teacher says this is a good focused question. Explain WHY this question works for a Class 8 investigation, using the terms independent variable, dependent variable, and controlled variables.",
+     "a": "The question works because: independent variable = type of surface (can be changed deliberately: carpet, tile, cardboard); dependent variable = distance rolled (can be measured with a metre scale); controlled variables = same car, same ramp height, same starting position, same push (kept constant so only surface affects distance). A wrong answer reveals the student thinks a focused question is just \"specific\" rather than structurally identifying what varies and what is held constant.",
+     "self_check": true
+    },
+    {
+     "q": "A group of students wants to investigate \"How does the amount of sugar affect how fast it dissolves in water?\" They list these possible independent variables: (1) water temperature, (2) sugar mass, (3) stirring speed, (4) sugar type (white vs brown). Which ONE should they choose as the independent variable for THIS specific question? For the other three, state whether each should be a controlled variable or a different investigation.",
+     "a": "Correct: (2) sugar mass is the independent variable matching the question. (1) water temperature → controlled variable (keep constant, e.g., 30°C). (3) stirring speed → controlled variable (keep constant, e.g., no stirring or fixed 60 rpm). (4) sugar type → different investigation (would change the question to \"How does sugar type affect dissolving speed?\"). A wrong answer reveals the student cannot map the question's wording to the correct variable role, confusing the factor being tested with factors that must be held constant.",
+     "self_check": true
+    },
+    {
+     "q": "Two students write questions for the same phenomenon — a balloon sticking to a wall after rubbing.\nStudent P: \"Why does the balloon stick?\"\nStudent Q: \"How does the number of rubs affect the time the balloon stays stuck?\"\nAnalyze both questions. Which is investigable in a Class 8 lab? What specific measurement would Student Q need to record? What must Student Q keep constant to make it a fair test?",
+     "a": "Student Q's question is investigable; Student P's is not (seeks explanation, not testable relationship). Student Q must measure time (seconds) the balloon remains stuck — the dependent variable. Controlled variables: same balloon, same wall material, same rubbing material (wool), same rubbing pressure/force, same environmental humidity. A wrong answer reveals the student cannot decompose a question into its measurable components or identify what \"fair test\" means in practice.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook suggests this investigation: \"Find out which brand of paper towel absorbs the most water.\" A student proposes this focused question: \"How does the brand of paper towel affect the mass of water absorbed in 30 seconds?\" Evaluate whether this question improves on the textbook prompt. Identify one strength and one limitation of the student's version for a Class 8 lab.",
+     "a": "Strength: The question specifies the dependent variable (mass of water absorbed in grams, measurable with a balance) and a fixed time (30 s), making data quantitative and comparable. Limitation: \"Brand\" is a categorical variable with hidden differences (thickness, ply, texture) — it does not isolate a single physical property (e.g., pore size, fibre density). A better independent variable might be \"number of plies\" or \"grammage (g/m²)\". A wrong evaluation reveals the student thinks any specific wording is an improvement, missing that the independent variable must be a controllable physical parameter, not a commercial label.",
+     "self_check": true
+    },
+    {
+     "q": "Design a focused question for this scenario: You notice that dough made with yeast rises faster on a sunny windowsill than in a shaded corner. Your question must be investigable in a school lab (not outdoors), use equipment available in Class 8 (thermometer, measuring cylinder, stopwatch, balance, oven/incubator or warm water bath), and identify independent, dependent, and at least two controlled variables. Write the full question and list the variables.",
+     "a": "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?\" Independent variable: temperature (°C) — set using water baths at 20, 30, 35, 40°C. Dependent variable: volume increase (mL) — measured by dough displacement in a measuring cylinder. Controlled variables: (1) same yeast mass (e.g., 5 g), (2) same flour mass (e.g., 100 g), (3) same water volume (e.g., 60 mL), (4) same sugar mass (e.g., 5 g), (5) same container shape/size, (6) same initial dough volume. A poor answer uses vague terms (\"warmth\" not °C), omits controlled variables, or picks an unmeasurable dependent variable (\"how much it rises\" without units).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

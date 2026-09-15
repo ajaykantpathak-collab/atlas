@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_001",
+   "title": "c12_bio_cbse_13_001",
+   "questions": [
+    {
+     "q": "Define habitat and niche. Give one example of an organism where the habitat and niche are clearly distinct.",
+     "a": "Habitat is the physical address (e.g., a pond for a frog); niche is the functional role (e.g., frog eats insects, is eaten by snakes, breeds in water, tadpoles filter-feed). A wrong answer that equates habitat with niche (e.g., \"frog's niche is the pond\") reveals the student conflates location with ecological function — a classic board exam error where students lose marks for not describing trophic and behavioral dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Two species of barnacles, Chthamalus and Balanus, live on the same rocky shore. Chthamalus occupies the upper intertidal zone; Balanus dominates the lower zone. When Balanus is experimentally removed, Chthamalus expands downward. Explain this using niche concepts.",
+     "a": "Chthamalus's fundamental niche includes both zones, but its realized niche is restricted to the upper zone due to competitive exclusion by Balanus in the lower zone. Removing Balanus releases Chthamalus from competition, allowing it to occupy its full fundamental niche. A wrong answer stating \"Chthamalus prefers the upper zone\" ignores experimental evidence and confuses realized niche with fundamental preference — a common NEET trap where students miss the role of biotic interactions in shaping realized niches.",
+     "self_check": true
+    },
+    {
+     "q": "In a forest, two warbler species feed on insects in the same trees. Species A forages on outer branches; Species B forages on inner branches. Is this an example of resource partitioning or character displacement? Justify.",
+     "a": "This is resource partitioning — spatial segregation of foraging microhabitats reduces niche overlap without evolutionary morphological change. Character displacement requires evolutionary divergence in traits (e.g., beak size) driven by competition. A wrong answer labeling it character displacement confuses ecological separation (behavioral, immediate) with evolutionary change (genetic, generational) — a distinction tested in JEE/NEET via case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze: \"The competitive exclusion principle states that two species competing for the same limiting resource cannot coexist at constant population values. Yet, thousands of plankton species coexist in the open ocean (the 'paradox of the plankton').\" Propose two mechanisms that resolve this paradox.",
+     "a": "Mechanisms: (1) Environmental fluctuations (turbulence, nutrient pulses) prevent equilibrium, so exclusion never completes. (2) Niche differentiation along multiple dimensions (light wavelength, nutrient ratios, temporal feeding rhythms) creates multidimensional niche space allowing coexistence. A wrong answer citing only \"they eat different things\" oversimplifies — the paradox persists because resources appear identical; students must invoke non-equilibrium dynamics or fine-scale niche axes, a frequent Olympiad/NEET advanced question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"An organism's niche is determined solely by its abiotic tolerance range.\" Provide a counterexample from Indian ecosystems.",
+     "a": "False. Niche includes biotic interactions: the nilgai (Boselaphus tragocamelus) tolerates arid abiotic conditions (fundamental niche), but its realized niche shrinks where tiger (Panthera tigris) predation risk is high — it avoids certain habitats despite abiotic suitability. A wrong answer ignoring biotic factors (predation, competition, mutualism) reflects a reductionist view that costs marks in board \"explain\" questions and NEET assertion-reason items.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field study to test whether two coexisting frog species in a Western Ghats stream partition their niches by diet, microhabitat, or breeding time. Outline methodology, data to collect, and how you would analyze niche overlap.",
+     "a": "Method: (1) Stomach flushing or fecal metabarcoding for diet composition. (2) Nightly quadrat surveys recording perch height, substrate, distance to water. (3) Call surveys and egg mass counts across breeding season. Analysis: Calculate Pianka's niche overlap index (0–1) for each axis; values <0.6 suggest partitioning. A poor answer that only lists \"observe frogs\" lacks quantitative rigor — competitive exams expect knowledge of overlap indices and multidimensional niche quantification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

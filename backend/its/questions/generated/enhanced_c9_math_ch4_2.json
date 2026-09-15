@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_2",
+   "title": "c9_math_ch4_2",
+   "questions": [
+    {
+     "q": "State the identity a² - b² = (a+b)(a-b) and prove it by expanding the right side.",
+     "a": "Identity: a² - b² = (a+b)(a-b). Proof: (a+b)(a-b) = a² - ab + ab - b² = a² - b². The -ab and +ab terms cancel, leaving a² - b². A wrong answer (e.g., \"a² - b² = a² - b², so it's true\") is circular — it must show the expansion that proves the identity.",
+     "self_check": true
+    },
+    {
+     "q": "Factorise: x² - 49.",
+     "a": "x² - 49 = x² - 7² = (x+7)(x-7). Here a = x and b = 7. A wrong answer (e.g., (x-7)²) confuses difference of squares with perfect square — (x-7)² = x² - 14x + 49, not x² - 49.",
+     "self_check": true
+    },
+    {
+     "q": "Compute 101² - 99² using the identity. Show the steps.",
+     "a": "101² - 99² = (101+99)(101-99) = (200)(2) = 400. Here a = 101, b = 99. A wrong answer (e.g., 101² - 99² = 10201 - 9801 = 400) gets the right answer but misses the point — the identity is meant to avoid direct squaring, not confirm it.",
+     "self_check": true
+    },
+    {
+     "q": "Factorise: 4x² - 25y².",
+     "a": "4x² - 25y² = (2x)² - (5y)² = (2x + 5y)(2x - 5y). Here a = 2x and b = 5y. A wrong answer (e.g., (4x + 25)(4x - 25)) fails to take the square root of the coefficients — 4x² = (2x)², not (4x)².",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (x² - 9) / (x + 3).",
+     "a": "(x² - 9) / (x + 3) = (x+3)(x-3) / (x+3) = x - 3 (for x ≠ -3). The identity factorises the numerator, and the (x+3) terms cancel. A wrong answer (e.g., \"cannot be simplified\") misses that the numerator can be factorised using the difference of squares identity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"a² - b² = (a-b)².\" Evaluate this claim and show why it is wrong using a numerical example.",
+     "a": "The claim is wrong. (a-b)² = a² - 2ab + b², not a² - b². The difference is the -2ab term. Numerical example: Let a = 5, b = 3. a² - b² = 25 - 9 = 16. (a-b)² = (5-3)² = 4. 16 ≠ 4. The correct identity is a² - b² = (a+b)(a-b), not (a-b)². A wrong evaluation (agreeing with the student) confuses difference of squares with square of difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_002",
+   "title": "c12_psy_cbse_04_002",
+   "questions": [
+    {
+     "q": "**REMEMBER**: Name the three broad historical perspectives used to explain abnormal behaviour and give one key figure associated with each perspective.",
+     "a": "Correct answer: (1) Supernatural perspective — associated with shamans/ojhas or medieval demonology; (2) Biological/organic perspective — associated with Hippocrates (four humours) or Galen; (3) Psychological perspective — associated with Freud (psychoanalysis) or Johann Weyer. A wrong answer (e.g., listing \"DSM-5\" as a perspective) reveals confusion between explanatory models and classification systems — the student cannot distinguish *why* a disorder occurs from *how* we categorize it.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: In your own words, explain why the \"four humours\" theory of Galen is considered a biological/organic approach, and how it parallels the Indian concept of three doshas.",
+     "a": "Correct explanation: Galen proposed that four body fluids (blood, black bile, yellow bile, phlegm) determine temperament; imbalance causes disorders — this locates the cause in bodily physiology, making it biological. Similarly, Ayurveda's vata, pitta, kapha are physiological principles whose imbalance causes illness. A wrong answer (e.g., \"Galen studied the mind\") shows the student misses the core of the biological approach: *physical body processes* as the root of abnormal behaviour, not psychological conflicts or spirits.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A 15th-century European villager exhibits convulsions, speaks in tongues, and claims the devil speaks through him. The local priest performs exorcism. A 21st-century psychiatrist sees a patient with identical symptoms and prescribes antipsychotics after diagnosing schizophrenia. Using the historical perspectives, explain what each practitioner assumes is the *cause* and why their treatments differ.",
+     "a": "Correct application: The priest assumes supernatural cause (demonic possession) → treatment = exorcism (counter-magic/prayer). The psychiatrist assumes biological cause (neurotransmitter dysregulation, e.g., excess dopamine) → treatment = antipsychotics (dopamine blockade). Both see the *same symptoms* but their causal model dictates treatment. A wrong answer (e.g., \"the priest was ignorant, the doctor is scientific\") reveals a presentism bias — the student fails to apply the *internal logic* of each historical perspective, which is essential for understanding how models shape practice.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare DSM-5 and ICD-10 on: (a) publishing organization, (b) primary purpose, (c) usage in India, (d) structural approach to diagnosis. Present as a 4-row table.",
+     "a": "Correct analysis:\n| Feature | DSM-5 | ICD-10 |\n|---|---|---|\n| Publisher | American Psychiatric Association (APA) | World Health Organization (WHO) |\n| Primary purpose | Clinical diagnosis & research criteria | Global health statistics & clinical diagnosis |\n| Usage in India | Reference tool for researchers/clinicians | **Official** classification for hospitals, insurance, legal |\n| Structure | Categorical with dimensional elements (severity specifiers) | Categorical with diagnostic guidelines for each disorder |\nA wrong answer (e.g., \"DSM-5 is used in India officially\") shows the student cannot distinguish *clinical reference* from *administrative mandate* — a critical gap for board exams where ICD-10 is explicitly stated as India's official system.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"Classification systems like DSM-5 and ICD-10 are harmful because they label people and create stigma.\" Defend or critique this statement using two arguments from the textbook's rationale for classification.",
+     "a": "Critique with textbook support: (1) Classification enables *communication* among psychologists, psychiatrists, social workers — without shared labels, a \"case of schizophrenia\" means different things to different professionals, harming care coordination. (2) It aids *understanding causes and development* — grouping disorders by shared features allows research on etiology (e.g., GABA in anxiety). Stigma exists *without* diagnosis; classification actually reduces ambiguity. A wrong answer that only agrees (\"yes, labels stigmatize\") shows the student cannot weigh benefits against harms — a key evaluative skill for board case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a one-page \"Historical Timeline of Abnormal Psychology\" for a Class 12 bulletin board. Include 6 milestones from ancient Greece to bio-psycho-social model, each with: period, key figure(s), core idea, and one lasting impact on modern practice.",
+     "a": "Expected timeline (sample milestones):\n1. **Ancient Greece (400 BCE)** — Hippocrates: \"Brain is the organ of mind; imbalances in humours cause disorders\" → Impact: Foundation of biological psychiatry.\n2. **Roman Era (200 CE)** — Galen: Four humours theory systematized → Impact: First physiological typology of temperament.\n3. **Middle Ages (1200 CE)** — Demonology/Witch-hunts → Impact: Cautionary tale: supernatural models lead to persecution, not treatment.\n4. **Renaissance (1563)** — Johann Weyer: \"Witches are mentally ill, need medical care\" → Impact: Birth of medical model for mental illness.\n5. **18th-19th Century** — Pinel/Tuke: Moral treatment, asylum reform → Impact: Humanitarian care, deinstitutionalization roots.\n6. **Late 19th Century** — Freud: Unconscious conflicts from childhood → Impact: Psychodynamic therapy, talk therapy.\n7. **Modern (1980-present)** — DSM-III onward + ICD + neuroscience → Bio-psycho-social model → Impact: Integrated, evidence-based classification.\nA poor answer (random dates, no lasting impact) reveals the student sees history as disconnected facts, not a *causal chain* shaping current practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

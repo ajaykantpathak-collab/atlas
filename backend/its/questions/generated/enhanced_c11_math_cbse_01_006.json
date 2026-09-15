@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_006",
+   "title": "c11_math_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the power set of A = {a, b}? Write it in roster form and state its cardinality.",
+     "a": "P(A) = {φ, {a}, {b}, {a, b}} and n(P(A)) = 4 = 2^2. A wrong answer like {{a}, {b}, {a, b}} (missing φ) reveals the student thinks the empty set is not a subset, or forgets that φ is a subset of every set. Missing {a, b} reveals confusion between proper subsets and all subsets.",
+     "self_check": true
+    },
+    {
+     "q": "If n(P(A)) = 32, what is n(A)? Explain why the answer must be an integer and why n(A) cannot be 5.5.",
+     "a": "n(A) = 5 because 2^5 = 32. The formula n(P(A)) = 2^{n(A)} requires n(A) to be a non-negative integer since it counts elements. A fractional n(A) would imply a set with a fractional number of elements, which is impossible. A student answering n(A) = log₂(32) without simplifying to 5 shows they know the formula but lack fluency with powers of 2.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2, 3}. Write P(A) in roster form. Then find n(P(A)) and verify it equals 2^{n(A)}.",
+     "a": "P(A) = {φ, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}}. n(P(A)) = 8. n(A) = 3, so 2^3 = 8. Verified. A student listing only 7 subsets typically missed φ or the set itself. A student writing 2^3 = 6 reveals confusion between exponentiation and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Two sets A and B have the same power set: P(A) = P(B). Does it follow that A = B? Justify your answer using the definition of power set.",
+     "a": "Yes, A = B. Since A ∈ P(A) and P(A) = P(B), we have A ∈ P(B). But P(B) contains only subsets of B, so A ⊆ B. Similarly, B ∈ P(B) = P(A) implies B ⊆ A. Hence A = B. A student saying \"not necessarily\" or giving a counterexample misunderstands that a set is always an element of its own power set, and equality of power sets forces equality of the maximal elements.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: P({x, y}) = {{x}, {y}, {x, y}}. Identify the error and write the correct power set.",
+     "a": "The error is omitting the empty set φ. The correct power set is {φ, {x}, {y}, {x, y}}. This is the most common error: students forget φ is a subset of every set. Another error would be writing {x, y} as an element without braces, e.g., {x, y} instead of {{x, y}}, confusing elements with subsets.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a set A such that n(P(A)) = 1. Then construct a set B such that n(P(B)) = 2. Explain why there is no set C with n(P(C)) = 3.",
+     "a": "A = φ (empty set), n(A)=0, n(P(A))=2^0=1. B = {a} (singleton), n(B)=1, n(P(B))=2^1=2. No set C exists because n(P(C)) = 2^{n(C)} is always a power of 2, and 3 is not a power of 2. A student suggesting C with 1.5 elements or \"a set with 3 subsets\" reveals they don't grasp that cardinality of power set is restricted to powers of 2.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

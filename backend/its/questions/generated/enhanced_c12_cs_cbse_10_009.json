@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_009",
+   "title": "c12_cs_cbse_10_009",
+   "questions": [
+    {
+     "q": "What does `len(content.split())` return when `content = \"Hello   world\\n\\nPython\"`?",
+     "a": "It returns 3. The `split()` method without arguments splits on ANY whitespace (spaces, tabs, newlines) and treats consecutive whitespace as a single delimiter, so `\"Hello   world\\n\\nPython\"` becomes `['Hello', 'world', 'Python']`. A wrong answer of 5 or 6 reveals the student thinks `split()` only splits on single spaces or counts empty strings from consecutive delimiters.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `lines = len(f.readlines())` to count lines, but gets 0 for a file they know has 5 lines. They confirm the file path is correct. What is the most likely cause?",
+     "a": "The file pointer is at the end of the file because a previous `f.read()` or iteration consumed the content. `readlines()` reads from the current pointer position, which is EOF, so it returns an empty list. A wrong answer blaming file permissions or encoding reveals misunderstanding of file pointer state — the fix is `f.seek(0)` before `readlines()` or reopening the file.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python snippet that correctly counts lines, words, and characters (including spaces and newlines) in `data.txt` using a single `read()` call, handling the empty file edge case.",
+     "a": "```python\nwith open('data.txt', 'r') as f:\n    content = f.read()\nlines = len(content.splitlines()) if content else 0\nwords = len(content.split()) if content else 0\nchars = len(content)\nprint(f\"Lines: {lines}, Words: {words}, Characters: {chars}\")\n```\nA wrong answer using `content.count('\\n') + 1` fails for empty files (returns 1 instead of 0). Using `readlines()` then `join()` works but is less efficient. The key is `splitlines()` handles trailing newline correctly and `split()` handles variable whitespace.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory usage and speed of these three approaches for a 500 MB log file: (A) `content = f.read()` then process, (B) `for line in f:` process line by line, (C) `lines = f.readlines()` then process. Which is best for a system with 256 MB RAM?",
+     "a": "Approach (B) iteration is best for 256 MB RAM. (A) loads entire 500 MB into memory — causes MemoryError. (C) `readlines()` creates a list of all lines, also ~500 MB+ overhead. (B) reads one line at a time, keeping memory usage minimal (O(1) lines in memory). Speed: (A) and (C) are faster for small files due to single syscall, but (B) is only viable option here. A wrong answer choosing (A) or (C) ignores memory constraints — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since `split()` handles multiple spaces, `split(' ')` (with space argument) should work the same for word counting.\" Evaluate this claim with a counterexample.",
+     "a": "The claim is FALSE. `split(' ')` treats each single space as a delimiter and does NOT collapse consecutive spaces. For `\"Hello   world\"`, `split()` gives `['Hello', 'world']` (2 words) but `split(' ')` gives `['Hello', '', '', 'world']` (4 elements, 2 empty strings). This overcounts words. The student confuses `split()`'s default whitespace-regex behavior with explicit delimiter behavior. This exact error appears in board exams when students write `split(' ')` instead of `split()`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `analyze_text_file(filename)` that returns a dictionary with keys `'lines'`, `'words'`, `'chars_total'`, `'chars_no_space'`, and `'avg_word_length'`. It must handle missing files gracefully and work for files up to 100 MB on a 512 MB RAM system.",
+     "a": "```python\ndef analyze_text_file(filename):\n    try:\n        with open(filename, 'r') as f:\n            lines = words = chars_total = chars_no_space = 0\n            for line in f:\n                lines += 1\n                chars_total += len(line)\n                chars_no_space += len(line.replace(' ', '').replace('\\n', '').replace('\\t', ''))\n                words += len(line.split())\n            avg_word_len = chars_no_space / words if words else 0\n            return {\n                'lines': lines,\n                'words': words,\n                'chars_total': chars_total,\n                'chars_no_space': chars_no_space,\n                'avg_word_length': round(avg_word_len, 2)\n            }\n    except FileNotFoundError:\n        return {'error': 'File not found'}\n```\nGood answer uses iteration (memory-safe), accumulates counts in one pass, handles division by zero, and catches `FileNotFoundError`. Poor answer uses `read()` or `readlines()` (memory risk), ignores exceptions, or computes `avg_word_length` incorrectly using `chars_total`.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

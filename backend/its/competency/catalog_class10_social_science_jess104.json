@@ -1,0 +1,471 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 104,
+ "chapter_title": "Agriculture: Types of Farming, Cropping Seasons and Major Crops",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess104.txt",
+ "concepts": [
+  {
+   "id": "jess.104.1.1",
+   "title": "Primitive Subsistence Farming and Slash and Burn",
+   "section": "Types of Farming",
+   "definition": "A small-plot cultivation method that uses hand tools and household labour, where a cleared patch is burnt, cropped briefly, and abandoned once soil fertility declines so a new patch can be cleared.",
+   "formula": "",
+   "key_idea": "Known locally as jhumming in the north-east, bewar in Madhya Pradesh, podu in Andhra Pradesh, and by other regional names; productivity stays low without fertilisers or modern inputs.",
+   "textbook_ref": "jess104.txt lines 21-61",
+   "question_patterns": [
+    "what is slash and burn agriculture and why do farmers shift to a new patch",
+    "by what local names is primitive subsistence farming known in different states of India",
+    "explain two features of primitive subsistence farming",
+    "why is land productivity low under jhumming",
+    "which tools and labour are used in slash and burn cultivation",
+    "what are the world-wide names of shifting cultivation such as milpa and roca"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the farming method",
+     "explain": "Check the markers: small patches, primitive tools like hoe, dao and digging sticks, family or community labour, dependence on monsoon and natural fertility."
+    },
+    {
+     "step": 2,
+     "action": "trace the shifting cycle",
+     "explain": "Confirm the farmer clears and burns a patch, grows cereals for family needs, and moves on when fertility drops, letting nature restore the soil."
+    },
+    {
+     "step": 3,
+     "action": "verify regional names",
+     "explain": "Match the region with its local term, for example jhumming in Assam and Meghalaya, dipa in Bastar, milpa in Mexico, roca in Brazil, ladang in Indonesia."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.1.2",
+   "title": "Intensive Subsistence Farming",
+   "section": "Types of Farming",
+   "definition": "Labour-heavy cultivation on small inherited holdings in densely populated regions, where heavy doses of biochemical inputs and irrigation squeeze the maximum output from limited land.",
+   "formula": "",
+   "key_idea": "Right of inheritance fragments holdings into uneconomical sizes, yet farmers keep raising output from the same plots because they lack other livelihoods.",
+   "textbook_ref": "jess104.txt lines 69-84",
+   "question_patterns": [
+    "why is intensive subsistence farming labour intensive",
+    "how does the right of inheritance affect land holding size",
+    "why do farmers take maximum output from limited land in intensively farmed areas",
+    "distinguish intensive subsistence farming from primitive subsistence farming",
+    "which kind of population pressure leads to intensive subsistence farming",
+    "what role do biochemical inputs and irrigation play in intensive farming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check population pressure",
+     "explain": "Confirm the area carries high population pressure on land, which makes farms small and labour abundant."
+    },
+    {
+     "step": 2,
+     "action": "verify input intensity",
+     "explain": "Look for high doses of biochemical inputs and irrigation used to lift production from small plots."
+    },
+    {
+     "step": 3,
+     "action": "assess holding size",
+     "explain": "Confirm inheritance-driven division has made holdings uneconomical, and the absence of alternative livelihoods keeps pressure on the land."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.1.3",
+   "title": "Commercial Farming and Plantation Agriculture",
+   "section": "Types of Farming",
+   "definition": "Market-oriented cultivation that uses high doses of modern inputs such as HYV seeds, chemical fertilisers and pesticides to raise productivity, with plantation as its single-crop, large-area variant linking farm and factory.",
+   "formula": "",
+   "key_idea": "The same crop can be commercial in one region and subsistence in another, for example rice in Haryana and Punjab versus Odisha; plantations like tea in Assam need capital, migrant labour and strong transport links.",
+   "textbook_ref": "jess104.txt lines 85-116",
+   "question_patterns": [
+    "what are the main characteristics of commercial farming",
+    "how is plantation agriculture linked to industry",
+    "why does the degree of commercialisation vary from region to region",
+    "name the important plantation crops of India",
+    "why do plantations need a well developed network of transport and communication",
+    "how do HYV seeds and chemical fertilisers raise productivity in commercial farming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check input use and market orientation",
+     "explain": "Confirm modern inputs like HYV seeds, fertilisers, insecticides and pesticides are used and the produce is meant for the market."
+    },
+    {
+     "step": 2,
+     "action": "test regional commercialisation",
+     "explain": "Compare whether the same crop is sold commercially in one region and grown for self-use in another, as rice is in Haryana and Punjab versus Odisha."
+    },
+    {
+     "step": 3,
+     "action": "verify plantation traits",
+     "explain": "For plantations, confirm a single crop over a large tract, capital intensive inputs, migrant labourers, and produce flowing to processing industries through transport networks."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.2.1",
+   "title": "Cropping Seasons: Rabi, Kharif and Zaid",
+   "section": "Cropping Pattern",
+   "definition": "India's farm calendar divides the year into three growing seasons: a winter sown rabi season, a monsoon sown kharif season, and a short summer zaid season lying between them.",
+   "formula": "",
+   "key_idea": "Rabi crops like wheat, barley, peas, gram and mustard are harvested in summer; kharif crops like paddy, maize, jowar, bajra and cotton come with the monsoon; zaid covers watermelon, muskmelon, cucumber and fodder.",
+   "textbook_ref": "jess104.txt lines 146-189",
+   "question_patterns": [
+    "distinguish between rabi and kharif crops with examples",
+    "when are rabi crops sown and harvested",
+    "name the crops grown in the zaid season",
+    "which states are important for rabi production and why",
+    "what are the three paddy crops of Assam West Bengal and Odisha",
+    "how do western temperate cyclones help rabi crops"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the crop in its season",
+     "explain": "Match sowing and harvesting windows: rabi sown October to December and harvested April to June; kharif sown with the monsoon onset and harvested in September-October; zaid in the summer months between."
+    },
+    {
+     "step": 2,
+     "action": "check supporting climate",
+     "explain": "Verify the climate support, for example winter precipitation from western temperate cyclones for rabi, and monsoon rainfall for kharif paddy."
+    },
+    {
+     "step": 3,
+     "action": "verify regional distribution",
+     "explain": "Confirm the producing regions, such as Punjab, Haryana and western Uttar Pradesh for wheat, and Assam, West Bengal and coastal Odisha for rice with three paddy crops aus, aman and boro."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.3.1",
+   "title": "Major Food Crops: Rice, Wheat, Millets and Pulses",
+   "section": "Major Crops",
+   "definition": "India's staple cereals each need a specific temperature and rainfall band: rice demands heat above 25 degrees and over 100 cm rain, wheat needs a cool season with 50 to 75 cm rain, millets are hardy coarse grains, and pulses are protein-rich leguminous crops that fix nitrogen.",
+   "formula": "",
+   "key_idea": "Pulses except arhar restore soil fertility by fixing nitrogen and are grown in rotation; jowar, bajra and ragi carry high nutrition; India is the largest producer and consumer of pulses.",
+   "textbook_ref": "jess104.txt lines 198-260, 333-352",
+   "question_patterns": [
+    "describe the geographical conditions required for the growth of rice",
+    "which temperature and rainfall suit wheat cultivation",
+    "why are millets called coarse grains and why do they still matter",
+    "how do leguminous pulses help restore soil fertility",
+    "name the major producing states of jowar bajra and ragi",
+    "which pulse is an exception to nitrogen fixing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check climatic needs",
+     "explain": "Compare the crop's needs: rice above 25 degrees Celsius with over 100 cm rainfall; wheat a cool growing season with 50 to 75 cm rainfall and bright sunshine at ripening."
+    },
+    {
+     "step": 2,
+     "action": "verify soil and region fit",
+     "explain": "Match zones, for example the Ganga-Satluj plains and Deccan black soil for wheat, moist rain-fed tracts for jowar, sandy or shallow black soils for bajra, dry regions for ragi."
+    },
+    {
+     "step": 3,
+     "action": "confirm special properties",
+     "explain": "Check nutritional and agronomic traits: ragi rich in iron and calcium, pulses supplying protein and fixing atmospheric nitrogen except arhar, supporting rotation with other crops."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.3.2",
+   "title": "Beverage, Fibre and Cash Crops: Tea, Coffee, Cotton, Jute and Rubber",
+   "section": "Major Crops",
+   "definition": "Plantation beverages (tea and coffee) and industrial crops (cotton, jute, rubber, sugarcane, oil seeds) each carry distinct climate needs, from frost-free moist slopes for tea to equatorial humidity above 200 cm rain for rubber.",
+   "formula": "",
+   "key_idea": "Jute is the golden fibre of flood-plain soils; cotton needs 210 frost-free days on Deccan black soil; Arabica coffee from Baba Budan Hills grows in the Nilgiris; sericulture rears silkworms for silk.",
+   "textbook_ref": "jess104.txt lines 291-314, 362-417, 487-514, 576-601",
+   "question_patterns": [
+    "name one important beverage crop and specify the geographical conditions required for its growth",
+    "why is jute called the golden fibre",
+    "which climatic conditions suit cotton cultivation",
+    "where was Arabica coffee introduced in India",
+    "what is sericulture",
+    "which rainfall and temperature does the rubber crop require",
+    "list the main oil seeds grown in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match crop to climate",
+     "explain": "Tea needs warm moist frost-free weather, well-drained humus-rich soil and frequent showers; rubber needs over 200 cm rain and temperatures above 25 degrees; cotton needs high temperature, light rainfall and 210 frost-free days."
+    },
+    {
+     "step": 2,
+     "action": "identify crop use",
+     "explain": "Classify the produce: beverages, gunny bags and ropes from jute, cotton textile raw material, cooking oils from groundnut and mustard, industrial raw material from rubber."
+    },
+    {
+     "step": 3,
+     "action": "verify producing regions",
+     "explain": "Confirm regions: Assam and Darjeeling for tea, Nilgiris in Karnataka Kerala and Tamil Nadu for coffee, West Bengal and Bihar for jute, Deccan states for cotton, Kerala and Garo hills for rubber."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.4.1",
+   "title": "Population Dependence on Agriculture",
+   "section": "Technological and Institutional Reforms",
+   "definition": "Agriculture remains the livelihood backbone of the country, supporting roughly three-fifths of the people, so any estimate of the farm-dependent population scales directly with the total population and its dependence percentage.",
+   "formula": "farm_population = total_population * dependence_percent / 100",
+   "key_idea": "Because about 60 per cent of people live off farming, technical and institutional reforms decide the welfare of a very large population share.",
+   "textbook_ref": "jess104.txt lines 1-6, 533-539",
+   "question_patterns": [
+    "calculate how many people depend on agriculture given the total population and dependence percent",
+    "find the farm dependent population for a country of given population",
+    "what share of India's population is engaged in agricultural activities",
+    "compute the number of people engaged in farming when the percentage is known",
+    "how much of the population does agriculture provide livelihood for"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the dependence percentage",
+     "explain": "Multiply the total population by the percentage of people engaged in agriculture and divide by 100",
+     "compute": "farm_population = total_population * dependence_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.104.4.2",
+   "title": "Oilseed Cropping Share of Cropped Area",
+   "section": "Major Crops",
+   "definition": "Oil seeds occupy roughly one-eighth of the gross cropped area, so the land under oilseeds can be worked out directly from the total cropped area using its percentage share.",
+   "formula": "oilseed_area = total_cropped_area * 12 / 100",
+   "key_idea": "Different oil seeds cover about 12 per cent of the total cropped area; groundnut alone accounts for about half of the major oilseeds produced.",
+   "textbook_ref": "jess104.txt lines 291-314",
+   "question_patterns": [
+    "calculate the area under oil seeds from the total cropped area",
+    "find the cropped area covered by oilseeds given its percentage share",
+    "what proportion of the total cropped area do oil seeds cover",
+    "compute land under oilseed cultivation for a state with a known cropped area",
+    "which oil seed accounts for about half of the oilseeds produced"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the twelve percent share",
+     "explain": "Multiply the total cropped area by 12 and divide by 100 to get the land under oil seeds",
+     "compute": "oilseed_area = total_cropped_area * 12 / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.104.5.1",
+   "title": "Bhoodan Land Distribution per Villager",
+   "section": "Bhoodan - Gramdan",
+   "definition": "In the Bhoodan movement a landowner donates a plot for the landless, and the plot is shared equally among the recipient villagers, so each villager's share equals the donated area divided by the number of landless villagers.",
+   "formula": "land_per_villager = donated_land / landless_villagers",
+   "key_idea": "Vinoba Bhave's movement began at Pochampally when Shri Ram Chandra Reddy offered 80 acres for 80 landless villagers; later zamindars donated whole villages as Gramdan.",
+   "textbook_ref": "jess104.txt lines 626-656",
+   "question_patterns": [
+    "calculate the share of land each landless villager receives from a bhoodan donation",
+    "find the per villager land share when donated area and number of villagers are given",
+    "who started the bhoodan gramdan movement and where",
+    "why is the bhoodan gramdan movement called the bloodless revolution",
+    "what is the difference between bhoodan and gramdan",
+    "how many acres were offered at pochampally and to how many villagers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the donated land equally",
+     "explain": "Divide the donated land by the number of landless villagers to get each person's share",
+     "compute": "land_per_villager = donated_land / landless_villagers"
+    }
+   ]
+  },
+  {
+   "id": "jess.104.6.1",
+   "title": "Technological and Institutional Reforms in Agriculture",
+   "section": "Technological and Institutional Reforms",
+   "definition": "Sustained gains in farming require institutional changes such as collectivisation, consolidation of holdings, cooperation and abolition of zamindari, plus technical support like crop insurance, Grameen banks, Kisan Credit Card and minimum support prices.",
+   "formula": "",
+   "key_idea": "The Green Revolution and White Revolution (Operation Flood) raised output but concentrated gains in selected areas, prompting comprehensive land development programmes in the 1980s and 1990s.",
+   "textbook_ref": "jess104.txt lines 519-625",
+   "question_patterns": [
+    "enlist the institutional reform programmes introduced in the interest of farmers",
+    "suggest initiatives taken by the government to increase agricultural production",
+    "what were the strategies of the green revolution and white revolution",
+    "how do kisan credit card and personal accident insurance scheme help farmers",
+    "why was consolidation of holdings necessary after land reforms",
+    "how does minimum support price protect farmers from speculators and middlemen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the reform type",
+     "explain": "Separate institutional steps (land reform, zamindari abolition, consolidation, cooperation) from technical steps (package technology, irrigation, insurance, credit)."
+    },
+    {
+     "step": 2,
+     "action": "link reform to benefit",
+     "explain": "Match each measure to its farmer benefit: loans at lower interest from Grameen banks and cooperative societies, compensation through crop insurance, fair prices through minimum support price."
+    },
+    {
+     "step": 3,
+     "action": "verify the reform timeline",
+     "explain": "Place reforms in sequence: land reform in the First Five Year Plan, Green and White Revolutions in the 1960s and 1970s, comprehensive land development in the 1980s and 1990s."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess104.txt lines 533-539",
+   "concept": "jess.104.4.1",
+   "question_type": "compute_population",
+   "question_pattern": "A district has a total population of {total_population} and about {dependence_percent} per cent of its people depend on agriculture for their livelihood. Calculate the farm-dependent population of the district.",
+   "extracted_variables": {
+    "total_population": 500000,
+    "dependence_percent": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the dependence percentage",
+     "explain": "Multiply the total population by the percentage of people engaged in agriculture and divide by 100",
+     "compute": "farm_population = total_population * dependence_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess104.txt lines 1-6",
+   "concept": "jess.104.4.1",
+   "question_type": "compute_population",
+   "question_pattern": "In a survey region, the total population is {total_population} and the share of people engaged in agricultural activities is {dependence_percent} per cent. Find the number of people engaged in farming.",
+   "extracted_variables": {
+    "total_population": 80000,
+    "dependence_percent": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the dependence percentage",
+     "explain": "Multiply the total population by the percentage of people engaged in agriculture and divide by 100",
+     "compute": "farm_population = total_population * dependence_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess104.txt lines 291-306",
+   "concept": "jess.104.4.2",
+   "question_type": "compute_area_share",
+   "question_pattern": "A state reports a total cropped area of {total_cropped_area} hectares. If oil seeds cover about {oilseed_percent} per cent of the total cropped area, calculate the area under oil seed cultivation.",
+   "extracted_variables": {
+    "total_cropped_area": 40000,
+    "oilseed_percent": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the oilseed share of the area",
+     "explain": "Multiply the total cropped area by the oil seed percentage and divide by 100",
+     "compute": "oilseed_area = total_cropped_area * oilseed_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess104.txt lines 291-306",
+   "concept": "jess.104.4.2",
+   "question_type": "compute_area_share",
+   "question_pattern": "India's total cropped area in a year is {total_cropped_area} million hectares. Work out the land under oil seeds if they cover {oilseed_percent} per cent of the total cropped area.",
+   "extracted_variables": {
+    "total_cropped_area": 140,
+    "oilseed_percent": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the oilseed share of the area",
+     "explain": "Multiply the total cropped area by the oil seed percentage and divide by 100",
+     "compute": "oilseed_area = total_cropped_area * oilseed_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jess104.txt lines 641-645",
+   "concept": "jess.104.5.1",
+   "question_type": "compute_land_share",
+   "question_pattern": "At Pochampally a donor offered {donated_land} acres of land to be distributed equally among {landless_villagers} landless villagers. Calculate the share of land each villager received.",
+   "extracted_variables": {
+    "donated_land": 80,
+    "landless_villagers": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the donated land equally",
+     "explain": "Divide the donated land by the number of landless villagers to get each person's share",
+     "compute": "land_per_villager = donated_land / landless_villagers"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jess104.txt lines 641-656",
+   "concept": "jess.104.5.1",
+   "question_type": "compute_land_share",
+   "question_pattern": "Under a bhoodan drive, {donated_land} acres were gifted for {landless_villagers} landless families. Find the area of land each family gets when the gift is shared equally.",
+   "extracted_variables": {
+    "donated_land": 120,
+    "landless_villagers": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the donated land equally",
+     "explain": "Divide the donated land by the number of landless villagers to get each person's share",
+     "compute": "land_per_villager = donated_land / landless_villagers"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess104.txt lines 667-702",
+   "questions": [
+    "Which one of the following describes a system of agriculture where a single crop is grown on a large area? (a) Shifting Agriculture (b) Plantation Agriculture (c) Horticulture (d) Intensive Agriculture",
+    "Which one of the following is a rabi crop? (a) Rice (b) Gram (c) Millets (d) Cotton",
+    "Which one of the following is a leguminous crop? (a) Pulses (b) Jowar (c) Millets (d) Sesamum",
+    "Name one important beverage crop and specify the geographical conditions required for its growth.",
+    "Name one staple crop of India and the regions where it is produced.",
+    "Enlist the various institutional reform programmes introduced by the government in the interest of farmers.",
+    "Suggest the initiative taken by the government to ensure the increase in agricultural production.",
+    "Describe the geographical conditions required for the growth of rice."
+   ]
+  },
+  {
+   "id": "exq2",
+   "source_ref": "jess104.txt lines 698-715",
+   "questions": [
+    "Group discussion on the necessity of literacy among farmers.",
+    "On an outline map of India show wheat producing areas."
+   ]
+  }
+ ]
+}

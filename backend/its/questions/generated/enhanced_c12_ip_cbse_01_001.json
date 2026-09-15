@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_001",
+   "title": "c12_ip_cbse_01_001",
+   "questions": [
+    {
+     "q": "What is the key difference between MySQL's DECIMAL(10,2) and FLOAT(10,2) when storing a value like 12345.67, and why does it matter for financial data?",
+     "a": "DECIMAL(10,2) stores the value exactly as 12345.67 using fixed-point arithmetic, while FLOAT(10,2) stores an approximate binary representation that may yield 12345.670000000001 or 12345.669999999999. Financial data requires exactness to avoid rounding errors in sums, interest calculations, or audits; FLOAT's approximation can cause discrepancies of paise that accumulate over thousands of transactions. A wrong answer (e.g., \"they are the same\" or \"FLOAT is faster so use it\") reveals the student confuses storage representation with displayed precision and does not understand the exact vs. approximate distinction critical for money.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a column `mobile_no VARCHAR(15)` to store Indian mobile numbers (10 digits). They argue VARCHAR saves space because \"it only uses what you need.\" Explain why CHAR(10) is actually better for this specific case.",
+     "a": "CHAR(10) uses exactly 10 bytes per row (fixed length), while VARCHAR(15) uses 10 bytes for data + 1-2 bytes for length prefix = 11-12 bytes per row. Since every Indian mobile number is exactly 10 digits, the variable-length overhead of VARCHAR makes it larger, not smaller. VARCHAR only saves space when lengths vary significantly (e.g., comments). A wrong answer (e.g., \"VARCHAR is always smaller\" or \"CHAR pads with spaces so it's bigger\") shows the student memorised \"VARCHAR saves space\" without understanding the length-prefix overhead and the fixed-length nature of the data.",
+     "self_check": true
+    },
+    {
+     "q": "Write a CREATE TABLE statement for a table `orders` with columns: `order_id` (auto-increment integer, primary key), `order_date` (date only, no time), `amount` (up to 9999999.99, exact), `status` (fixed 1-character code: 'P', 'S', 'C'), and `notes` (up to 500 characters). Use the most storage-efficient types.",
+     "a": "```sql\nCREATE TABLE orders (\n  order_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,\n  order_date DATE NOT NULL,\n  amount DECIMAL(9,2) NOT NULL,\n  status CHAR(1) NOT NULL,\n  notes VARCHAR(500)\n);\n```\nSteps: 1) order_id: INT UNSIGNED (4 bytes, range 0 to 4.29B) is sufficient; BIGINT would waste 4 extra bytes. 2) order_date: DATE (3 bytes) stores only date; DATETIME (8 bytes) would waste 5 bytes. 3) amount: DECIMAL(9,2) allows 7 digits left of decimal + 2 right = 9999999.99 max; uses 5 bytes (DECIMAL storage is ~1 byte per 2 digits). 4) status: CHAR(1) fixed 1 byte; VARCHAR(1) would add length byte. 5) notes: VARCHAR(500) variable length. Wrong answers using FLOAT for amount, DATETIME for order_date, or VARCHAR(1) for status show inability to match type to exact constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the storage requirements and value ranges of TIMESTAMP vs DATETIME in MySQL 8.0. If you need to store a historical event date from year 1500, which would you choose and why?",
+     "a": "DATETIME: 8 bytes, range '1000-01-01 00:00:00' to '9999-12-31 23:59:59'. TIMESTAMP: 4 bytes, range '1970-01-01 00:00:01' UTC to '2038-01-19 03:14:07' UTC. For year 1500, TIMESTAMP cannot represent it (below 1970), so DATETIME is mandatory despite using double the storage. TIMESTAMP also auto-converts to/from UTC, which may shift the stored value if the session time zone changes — undesirable for a fixed historical date. A wrong answer choosing TIMESTAMP for its smaller size reveals the student ignored the range limitation and timezone behavior, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a column storing Indian PIN codes (6 digits), use INT because it's a number and INT is faster than CHAR.\" Defend or refute with three specific reasons.",
+     "a": "Refute. 1) PIN codes can have leading zeros (e.g., 011001 for Delhi). INT drops leading zeros, corrupting data. 2) PIN codes are identifiers, not quantities — you never do arithmetic on them. INT invites meaningless operations (SUM, AVG). 3) CHAR(6) uses 6 bytes; INT uses 4 bytes — the 2-byte saving is negligible compared to data integrity loss. A student who agrees shows \"number = numeric type\" misconception, ignoring semantic meaning and leading-zero preservation. This is a frequent board exam case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal schema for a `library_fines` table that tracks: member_id (references members table), book_isbn (13-digit ISBN-13), fine_amount (rupees, two decimals, max 9999.99), fine_date (date only), paid_flag (yes/no). Choose types that prevent invalid data at the database level without triggers. Write the CREATE TABLE.",
+     "a": "```sql\nCREATE TABLE library_fines (\n  member_id INT UNSIGNED NOT NULL,\n  book_isbn CHAR(13) NOT NULL,\n  fine_amount DECIMAL(6,2) NOT NULL CHECK (fine_amount >= 0 AND fine_amount <= 9999.99),\n  fine_date DATE NOT NULL,\n  paid_flag ENUM('Y','N') NOT NULL DEFAULT 'N',\n  PRIMARY KEY (member_id, book_isbn, fine_date),\n  FOREIGN KEY (member_id) REFERENCES members(member_id)\n);\n```\nReasons: book_isbn CHAR(13) preserves leading zeros (ISBN-13 can start with 978/979). DECIMAL(6,2) enforces exact precision and range via CHECK. ENUM('Y','N') restricts to valid flags at storage level (1 byte). Composite PK prevents duplicate fines for same member/book/date. A poor answer uses VARCHAR for ISBN, FLOAT for amount, or VARCHAR for flag, showing inability to leverage constraints for data integrity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

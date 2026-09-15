@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_4",
+   "title": "c8_engl_ch3_4",
+   "questions": [
+    {
+     "q": "What is a clue in a detective story?",
+     "a": "A clue is any piece of information—something seen, heard, or found—that helps the investigator solve the mystery. A wrong answer such as “a clue is the criminal’s confession” reveals that the student thinks only a final admission counts as a clue, missing the idea that clues are the smaller hints that lead toward solving the case before the confession.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a direct clue and an indirect clue.",
+     "a": "A direct clue plainly states or shows a fact (e.g., a fingerprint on the window shows someone touched it). An indirect clue requires the detective to make an inference (e.g., muddy shoes suggest the person came from the garden). If a student says both types are the same and need no interpretation, they misunderstand that indirect clues rely on reasoning, not direct observation.",
+     "self_check": true
+    },
+    {
+     "q": "Read the short scene: “During the lunch break, Meena’s notebook went missing. She saw Rohan near her desk, laughing. Later, she found a torn page with a doodle of a rocket stuck to the gym door. Rohan loves drawing rockets and was in the gym at that time.” Identify two clues that suggest Rohan might have taken the notebook and explain why each is a clue.",
+     "a": "Step 1: List all details mentioned – Rohan near desk, laughing; torn page with rocket doodle on gym door; Rohan loves rockets; Rohan was in the gym.  \nStep 2: Decide which details could help solve the mystery – the torn page with a rocket doodle and Rohan’s love of rockets.  \nStep 3: Explain why each is a clue – the doodle links the missing page to Rohan’s interest; his presence in the gym explains how the page got there.  \nStep 4: Connect the clues to the conclusion – together they suggest Rohan had both the motive (likes rockets) and opportunity (was in the gym) to take the page.  \nAnswer: The torn rocket doodle shows Rohan’s interest; his presence in the gym shows he could have placed the page there, indicating he likely took the notebook.  \nA wrong answer that picks only “Rohan was laughing” as a clue shows the student confuses irrelevant behaviour with evidential detail, missing the need for a logical link to the missing item.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Encyclopedia Brown uses clues in “The Case of the Fifth Word” with how you would find a lost library book using clues. What is similar and what is different in the reasoning process?",
+     "a": "Similarities: Both involve gathering observable details (e.g., a out‑of‑place word, a book left on a table), linking those details to a person’s habits or location, and eliminating possibilities that do not fit. Differences: In the story, the clues are part of a fictional plot and the detective uses specialized knowledge (word puzzles); in real life, you rely on everyday memory and physical places (shelves, backpack). If a student says the processes are completely unrelated and that real‑life searching needs no reasoning, they fail to see that both rely on the same logical steps of observation, inference, and elimination.",
+     "self_check": true
+    },
+    {
+     "q": "A detective concludes that the thief must be left‑handed because the broken vase was found on the right side of the room. Evaluate whether this conclusion is justified. Defend your answer using the concept of clues and deduction.",
+     "a": "The conclusion is not justified. A broken vase on the right side only tells us where the pieces landed; it does not directly indicate the thief’s handedness. To infer left‑handedness, we would need additional clues such as the direction of the swing, fingerprints on the handle, or witness testimony about which hand was used. Without such evidence, the deduction is an unsupported assumption. A student who says the conclusion is correct because “the vase fell to the right, so the thrower used the left hand” shows they confuse correlation with causation and ignore the need for corroborating clues.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own short mystery clue that would lead a detective to conclude that the person who left the clue was wearing glasses. Write one sentence that could serve as that clue and explain how it supports the conclusion.",
+     "a": "Example clue: “A smudge of lens‑cleaner fluid was found on the library window.” Explanation: Lens‑cleaner fluid is used to clean glasses; finding it on a surface suggests someone adjusted or wiped their glasses there, indicating they were wearing glasses. A poor answer might give a clue unrelated to glasses (e.g., “a book was left open”) and fail to explain the connection, showing the student does not understand how to craft a clue that logically points to a specific trait.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

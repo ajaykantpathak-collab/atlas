@@ -1,0 +1,427 @@
+{
+ "catalog": "catalog_class8_science_ch108.json",
+ "concepts": [
+  {
+   "id": "hesc.108.1",
+   "title": "Force - A Push or Pull",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is force?",
+     "a": "A push or a pull on an object, arising when two objects interact.",
+     "self_check": true
+    },
+    {
+     "q": "Can force be seen? How do we know it acts?",
+     "a": "No - we infer it from its effects: moving, stopping, changing shape or direction of objects.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of force from daily life.",
+     "a": "Kicking a football (push) and opening a drawer (pull).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.2",
+   "title": "Forces due to Interaction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a force arise from interaction?",
+     "a": "Two bodies must interact - touch or at a distance - for a force to act, like a magnet pulling a nail without contact.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of contact force and one of non-contact force.",
+     "a": "Contact: muscular force or friction. Non-contact: gravity, magnetism, static electricity.",
+     "self_check": true
+    },
+    {
+     "q": "Does a ball thrown upward keep rising forever? Why?",
+     "a": "No - the invisible force of gravity keeps pulling it down till it stops and falls.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.3",
+   "title": "Net Force in Same Direction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "partial_sum",
+     "expr": "force_a + force_b / 2",
+     "explain": "force with half of the second pull"
+    },
+    {
+     "step": 2,
+     "name": "per_puller",
+     "expr": "(force_a + force_b) / 2",
+     "explain": "force shared per puller on average"
+    },
+    {
+     "step": 3,
+     "name": "net_force",
+     "expr": "force_a + force_b",
+     "explain": "forces in the same direction add up"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two boys push a trolley with 30 N and 20 N in the same direction. Find the net force.",
+     "vals": {
+      "force_a": 30,
+      "force_b": 20
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "50 N",
+     "self_check": false
+    },
+    {
+     "q": "Two horses pull a cart with 400 N and 350 N together. What is the total force on the cart?",
+     "vals": {
+      "force_a": 400,
+      "force_b": 350
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "750 N",
+     "self_check": false
+    },
+    {
+     "q": "Wind pushes a sail with 150 N and the rower adds 90 N in the same line. Find the net force.",
+     "vals": {
+      "force_a": 150,
+      "force_b": 90
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "240 N",
+     "self_check": false
+    },
+    {
+     "q": "Two engines drag a coach with 5000 N each in the same direction. Calculate the net force.",
+     "vals": {
+      "force_a": 5000,
+      "force_b": 5000
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "10000 N",
+     "self_check": false
+    },
+    {
+     "q": "A tugboat pulls with 1200 N and a second with 800 N alongside. What total force acts?",
+     "vals": {
+      "force_a": 1200,
+      "force_b": 800
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "2000 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.4",
+   "title": "Net Force in Opposite Directions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "difference",
+     "expr": "force_a - force_b",
+     "explain": "subtract the opposing forces"
+    },
+    {
+     "step": 2,
+     "name": "stronger_force",
+     "expr": "max(force_a, force_b)",
+     "explain": "the stronger of the two forces"
+    },
+    {
+     "step": 3,
+     "name": "net_force",
+     "expr": "abs(difference)",
+     "explain": "net force is the size of the difference"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two teams pull a rope with 300 N and 250 N in opposite directions. Find the net force.",
+     "vals": {
+      "force_a": 300,
+      "force_b": 250
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "50 N",
+     "self_check": false
+    },
+    {
+     "q": "Forces of 45 N and 30 N act on a box from opposite sides. Calculate the net force.",
+     "vals": {
+      "force_a": 45,
+      "force_b": 30
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "15 N",
+     "self_check": false
+    },
+    {
+     "q": "A cart is pushed with 60 N forward and dragged 35 N backward. What is the net force?",
+     "vals": {
+      "force_a": 60,
+      "force_b": 35
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "25 N",
+     "self_check": false
+    },
+    {
+     "q": "Two children pull a toy with 12 N and 12 N in opposite directions. Find the net force.",
+     "vals": {
+      "force_a": 12,
+      "force_b": 12
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "0 N",
+     "self_check": false
+    },
+    {
+     "q": "Currents push a boat with 90 N downstream and 65 N upstream. Compute the net force.",
+     "vals": {
+      "force_a": 90,
+      "force_b": 65
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "25 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.5",
+   "title": "Muscular Force",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is muscular force? Is it contact or non-contact?",
+     "a": "Force applied by muscles (walking, lifting); it is a contact force - the body must touch the object.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of muscular force.",
+     "a": "Chewing food and pushing a cycle pedal.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the force of an animal's muscles touch the object moved?",
+     "a": "Muscles act through limbs or body parts that press on the object, so contact is needed.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.6",
+   "title": "Force of Friction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is friction?",
+     "a": "The force that opposes the sliding or rolling of one surface over another.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a rolling ball slow down and stop?",
+     "a": "Friction between the ball and ground, and with air, drains its motion energy.",
+     "self_check": true
+    },
+    {
+     "q": "Name two ways friction is useful to us.",
+     "a": "It lets us walk without slipping, and lets brakes stop vehicles (also matches striking fire).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.7",
+   "title": "Electrostatic Force",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is electrostatic force?",
+     "a": "The force between charged bodies - a rubbed comb attracts paper bits without touching them.",
+     "self_check": true
+    },
+    {
+     "q": "Is electrostatic force a contact force?",
+     "a": "No - it acts at a distance between charges.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when two similarly charged bodies meet?",
+     "a": "They repel each other; opposite charges attract.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.8",
+   "title": "Gravitational Force",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is gravitational force?",
+     "a": "The attractive pull between any two bodies because of their mass - the earth pulls all objects toward itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why do fruits fall downward from trees?",
+     "a": "The earth's gravity pulls every object toward its centre.",
+     "self_check": true
+    },
+    {
+     "q": "Does the moon also have gravity?",
+     "a": "Yes - the moon's gravity is about one-sixth of earth's, which raised tides and lets astronauts weigh less there.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.9",
+   "title": "Pressure",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "half_area_pressure",
+     "expr": "force / (area / 2)",
+     "explain": "pressure if the contact area halved"
+    },
+    {
+     "step": 2,
+     "name": "per_sq_cm",
+     "expr": "force / (area * 10000)",
+     "explain": "pressure in newtons per square centimetre"
+    },
+    {
+     "step": 3,
+     "name": "pressure",
+     "expr": "force / area",
+     "explain": "pressure is force acting per unit area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A force of 200 N acts on an area of 2 sq m. Find the pressure.",
+     "vals": {
+      "force": 200,
+      "area": 2
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "100 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A 600 N box stands on a 0.5 sq m base. Calculate the pressure on the floor.",
+     "vals": {
+      "force": 600,
+      "area": 0.5
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "1200 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A nail tip of area 0.000001 sq m is hit with 20 N. Find the pressure at the tip.",
+     "vals": {
+      "force": 20,
+      "area": 1e-06
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "20000000 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A student of 400 N stands on both feet of total area 0.04 sq m. Compute the pressure.",
+     "vals": {
+      "force": 400,
+      "area": 0.04
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "10000 N/m2",
+     "self_check": false
+    },
+    {
+     "q": "A knife edge of area 0.0001 sq m cuts with 50 N. What pressure does it apply?",
+     "vals": {
+      "force": 50,
+      "area": 0.0001
+     },
+     "unit": "N/m2",
+     "steps": null,
+     "a": "500000 N/m2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.10",
+   "title": "Pressure Exerted by Liquids",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do liquids exert pressure on container walls?",
+     "a": "Liquid particles press in all directions due to their weight and motion.",
+     "self_check": true
+    },
+    {
+     "q": "How does pressure of a liquid change with depth?",
+     "a": "It grows with depth - water columns at the bottom of a dam wall are thicker to bear it.",
+     "self_check": true
+    },
+    {
+     "q": "Why do divers feel ear pain deep underwater?",
+     "a": "Water pressure rises with depth and presses on the eardrums.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.11",
+   "title": "Atmospheric Pressure",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is atmospheric pressure?",
+     "a": "The pressure the air around us exerts on every surface, about 100000 N per sq m at sea level.",
+     "self_check": true
+    },
+    {
+     "q": "Why are we not crushed by atmospheric pressure?",
+     "a": "The pressure of fluids inside our bodies balances the outside air pressure.",
+     "self_check": true
+    },
+    {
+     "q": "What holds a drinking straw's liquid up?",
+     "a": "Sucking lowers pressure in the straw; the atmospheric pressure on the liquid surface pushes the drink up.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

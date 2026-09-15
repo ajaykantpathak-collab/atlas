@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_002",
+   "title": "c10_civ_cbse_05_002",
+   "questions": [
+    {
+     "q": "According to World Bank data (1950-2000), what was the average annual economic growth rate of democratic regimes compared to dictatorial regimes?",
+     "a": "Democratic regimes averaged 3.95% annual growth while dictatorial regimes averaged 4.42%. A wrong answer (e.g., \"democracies grew faster\") reveals the student has not memorized the key empirical finding from the textbook and may be assuming democracy automatically means better economic performance — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Why do democracies often show lower average economic growth rates than dictatorships despite having institutions like rule of law and property rights?",
+     "a": "Democracies involve deliberation, negotiation, and consensus-building among multiple stakeholders (parliament, opposition, civil society, courts), which slows decision-making. Dictatorships can implement policies rapidly without consultation. A wrong answer (e.g., \"democracies are corrupt\" or \"dictatorships are more efficient\") shows the student confuses structural institutional features with moral judgments or oversimplifies the trade-off between speed and stability.",
+     "self_check": true
+    },
+    {
+     "q": "A country transitions from military dictatorship to democracy. In the first five years, GDP growth falls from 6% to 4%, but infant mortality drops from 45 to 30 per 1000 live births. Using the democracy-development framework, explain this outcome.",
+     "a": "The growth decline reflects democratic transition costs: policy uncertainty, new regulatory frameworks, and inclusion of previously marginalized groups in decision-making. The mortality improvement reflects democratic accountability: governments must respond to public health needs to win elections, leading to better resource allocation for basic services. A wrong answer focusing only on GDP (\"democracy failed\") misses the core textbook argument that development includes human welfare indicators, not just growth rates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic growth trajectories of India (democracy since 1947) and China (authoritarian since 1949) from 1980-2010. What does this comparison reveal about the democracy-development relationship?",
+     "a": "China averaged ~10% growth (1980-2010) vs India's ~6-7%, but China's growth came with suppressed labor rights, environmental degradation, and no political freedom. India's slower growth accompanied steady poverty reduction, democratic consolidation, and institutional resilience. This reveals democracy trades peak growth for stability, equity, and rights — the \"democratic dividend\" is in avoided catastrophes (famines, policy reversals) not maximum velocity. A wrong answer declaring \"China's model is better\" ignores the textbook's emphasis on development as multidimensional.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Democracy is a luxury poor countries cannot afford; they need dictatorship first to generate growth, then democratize.\" Use evidence from the chapter.",
+     "a": "The claim is empirically unsupported. No consistent evidence shows dictatorships outperform democracies in early development stages. Many poor democracies (Botswana, Costa Rica, Kerala model in India) achieved better human development than richer dictatorships. Democracies prevent famines (Sen's thesis: no famine in functioning democracy) because accountable governments must respond to food crises. A wrong answer accepting the claim confuses correlation (East Asian authoritarian growth) with causation, ignoring counterexamples and the role of specific policies vs regime type.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard to assess whether a democracy is delivering \"economic development\" (not just growth) for its citizens. Justify each indicator.",
+     "a": "1) Per capita GDP (PPP-adjusted) — measures average material standard. 2) Gini coefficient or Palma ratio — measures inequality; democracy's legitimacy depends on fair distribution. 3) Multidimensional Poverty Index (health, education, living standards) — captures Amartya Sen's capability approach; democracies must expand freedoms. A poor answer lists only GDP growth or stock market indices, showing the student equates development with aggregate output ignoring distribution and capabilities — a critical board exam distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_008",
+   "title": "c11_geo_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the core difference between how a historian and a geographer would study the 1857 Revolt in the Gangetic plain.",
+     "a": "A historian sequences events chronologically (Meerut → Delhi → Kanpur → Lucknow) focusing on leadership, ideology, and political consequences. A geographer maps the revolt's spatial diffusion along the Grand Trunk Road and river corridors, analysing how alluvial fertility supported troop provisioning and how the Himalayan foothills provided rebel sanctuaries. Wrong answer (e.g., \"both study dates\") reveals confusion between temporal sequencing and spatial patterning — a fundamental disciplinary boundary error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Deccan Trap basalt region historically host fewer large empires than the Gangetic alluvium, despite both being in peninsular India?",
+     "a": "Basalt weathers into shallow, nutrient-poor regur (black cotton soil) with low water-holding capacity, limiting surplus agriculture needed to sustain standing armies and bureaucracies. Gangetic alluvium offers deep, annually renewed, high-fertility soils supporting dense populations and revenue surplus. Wrong answer (e.g., \"Deccan is drier\") misses the soil-depth mechanism linking geology to agricultural surplus and state formation — a classic environmental determinism oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'comparative advantage', explain why the British established jute mills in Bengal (Hooghly) rather than in Punjab where jute was also grown experimentally.",
+     "a": "Step 1: Identify inputs — raw jute, coal, water, labour, port access. Step 2: Map endowments — Bengal had jute-growing delta, Raniganj coal (200 km), Hooghly river water/transport, dense labour, Kolkata port. Punjab had jute trials but no coal, distant port (Karachi 1000 km), canal irrigation competing for water. Step 3: Calculate transport-cost-minimising location — Weber's least-cost theory points to Bengal. Step 4: Verify historically — 60+ mills clustered within 50 km of Kolkata by 1910. Wrong answer (e.g., \"British preference\") ignores the geographic cost calculus that made Bengal the economically rational choice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial impact of the 1876-78 Great Famine and the 1943 Bengal Famine using the concepts of 'carrying capacity' and 'entitlement failure'.",
+     "a": "1876-78: Drought reduced carrying capacity across Deccan and South India; mortality followed ecological vulnerability zones (low rainfall, shallow soils). 1943: Bengal's carrying capacity was adequate (rice surplus existed), but wartime inflation, boat denial policy, and export continuation caused entitlement collapse for rural labourers. Geographer analyses the first as physical-environment trigger, the second as political-economy trigger mediated by transport geography (river/rail control). Wrong answer conflates the two, missing the shift from Malthusian to Senian famine causation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Green Revolution was a technological triumph that overcame geographic constraints in Indian agriculture.\"",
+     "a": "Partially true but geographically incomplete. HYV seeds + irrigation + fertiliser overcame *some* constraints (low rainfall in Punjab via canals, poor soil fertility via NPK). But they *intensified* other constraints: groundwater depletion in Punjab-Haryana (aquifer geometry), salinity in Indira Gandhi Canal command (arid climate + poor drainage), and regional disparity (eastern India's flood-prone, acidic soils unresponsive to wheat HYVs). Evaluation: Technology modifies but does not eliminate geographic constraints; it redistributes them. Wrong answer (uncritical acceptance) reflects technological determinism ignoring second-order geographic feedbacks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-map annotated layout showing (a) the historical shift of India's cotton textile centre from Gujarat/Maharashtra (pre-1850) to Mumbai (1850-1950) to dispersed powerloom towns (post-1980), and (b) the changing locational factors at each stage.",
+     "a": "Map A (Historical): Three phases with arrows. Phase 1: Surat/Ahmedabad — factors: local cotton, port access, merchant capital. Phase 2: Mumbai — factors: railway (cotton from Deccan), coal (imported then Indian), humid climate (spinning), capital, labour. Phase 3: Bhiwandi, Malegaon, Ichalkaranji — factors: decentralised powerlooms, lower wages, proximity to Mumbai market, relaxed regulation. Map B (Factor Table): Columns for Raw Material, Energy, Market, Labour, Policy. Good answer shows factor substitution (coal → electricity, humid climate → artificial humidification, port → road/rail). Poor answer lists cities without linking to shifting geographic factor weights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

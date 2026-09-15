@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_002",
+   "title": "c11_chem_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the Law of Conservation of Mass precisely as formulated by Lavoisier, including the condition about the system being isolated.",
+     "a": "Correct answer: \"In any chemical or physical change occurring in an isolated system, the total mass of the reactants equals the total mass of the products; mass is neither created nor destroyed.\" A wrong answer omitting \"isolated system\" reveals the student confuses the law with open-container observations where gas escape causes apparent mass loss — a classic Class 11 error leading to incorrect stoichiometry in gas-evolution reactions.",
+     "self_check": true
+    },
+    {
+     "q": "When 10.0 g of solid calcium carbonate (CaCO₃) is heated strongly in an OPEN test tube, the solid residue masses 5.6 g. A student claims this violates the Law of Conservation of Mass. Explain why the student is wrong, identifying the missing product and its mass.",
+     "a": "Correct answer: The reaction CaCO₃(s) → CaO(s) + CO₂(g) occurs; CO₂ gas escapes the open tube. Missing product is CO₂ with mass = 10.0 − 5.6 = 4.4 g. Total products (5.6 + 4.4 = 10.0 g) equal reactant mass. A student who says \"mass is lost\" fails to recognise that the system was not isolated — the gas left the apparatus. This misconception causes errors in limiting reagent problems where gas evolution is involved.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction 2Mg(s) + O₂(g) → 2MgO(s), 4.80 g of magnesium ribbon is burned in a sealed 5.00 L vessel containing excess oxygen. After reaction, the vessel mass increases by 3.20 g. Calculate the mass of oxygen consumed and verify mass conservation. (Molar masses: Mg = 24.0, O = 16.0 g mol⁻¹)",
+     "a": "Step 1: Moles of Mg = 4.80/24.0 = 0.200 mol. Step 2: From stoichiometry, 2 mol Mg reacts with 1 mol O₂ → 0.100 mol O₂ consumed. Step 3: Mass of O₂ = 0.100 × 32.0 = 3.20 g. Step 4: Mass of MgO formed = 0.200 mol × 40.0 g mol⁻¹ = 8.00 g. Step 5: Total reactants = 4.80 + 3.20 = 8.00 g; total product = 8.00 g. Conservation verified. A wrong answer using mass increase as O₂ mass (3.20 g) is coincidentally correct here but reveals misunderstanding: the vessel mass increase equals O₂ mass only because Mg was already inside; if Mg were added externally, the increase would be total product mass.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two scenarios: (A) 2H₂(g) + O₂(g) → 2H₂O(l) in a sealed rigid container at 25°C; (B) Same reaction in an open beaker at 100°C. In which scenario does the measured mass of the container + contents remain constant? Justify using the law's conditions and phase changes.",
+     "a": "Correct answer: Scenario (A) only. In (A), the system is isolated — all reactants and products (liquid water) remain inside. In (B), water forms as vapour at 100°C and escapes the open beaker; the system is not isolated, so measured mass decreases. A student choosing (B) or \"both\" fails to apply the \"isolated system\" condition and ignores that gas escape violates the law's premise. This distinction is critical for calorimetry and gas collection experiments in Class 11 practicals.",
+     "self_check": true
+    },
+    {
+     "q": "A student balances the equation: Fe₂O₃ + 3CO → 2Fe + 3CO₂ and claims \"3 molecules of CO react with 1 molecule of Fe₂O₃ to give 2 atoms of Fe and 3 molecules of CO₂, so 3×28 + 160 = 2×56 + 3×44 → 244 = 244. Mass is conserved.\" Evaluate this reasoning — is the conclusion valid? Is the molecular-level interpretation correct?",
+     "a": "Conclusion valid (mass conserved), but interpretation flawed. The equation represents MOLE ratios, not single-molecule events. \"3 molecules of CO\" implies a single microscopic collision of 4 molecules — statistically impossible. Correct interpretation: 3 moles CO (3×Nₐ molecules) react with 1 mole Fe₂O₃. The mass calculation using molar masses (g mol⁻¹) is correct because molar mass numerically equals molecular mass in u. A student treating stoichiometric coefficients as molecular counts confuses macroscopic (mole) and microscopic (molecule) scales — a fundamental error affecting all subsequent stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a school-laboratory experiment to verify the Law of Conservation of Mass for the reaction between barium chloride solution and sodium sulphate solution, producing barium sulphate precipitate. Specify apparatus, procedure to ensure isolation, measurements, and how you would handle the \"apparent mass loss\" if any precipitate adheres to the stirring rod.",
+     "a": "Apparatus: Two small stoppered test tubes (one for BaCl₂, one for Na₂SO₄), a conical flask with rubber stopper, analytical balance (±0.001 g), stirring rod. Procedure: 1) Weigh flask + stopper empty. 2) Add 10 mL BaCl₂ solution to flask, 10 mL Na₂SO₄ to test tube; weigh both assemblies separately. 3) Invert test tube into flask, stopper flask, weigh combined system (initial mass). 4) Mix by shaking; BaSO₄ precipitates. 5) Weigh final system. 6) Open, rinse stirring rod into flask, re-weigh. Conservation holds if initial = final within ±0.005 g. Handling adherent precipitate: rinse rod with distilled water into flask before final weighing — this recovers \"lost\" mass. A design omitting the rinse step or using open beakers shows failure to enforce isolation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_008",
+   "title": "c11_ps_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the fundamental distinction between a collective right and an individual right in terms of who holds the right and what it protects?",
+     "a": "A collective right is held by a group as a corporate entity (e.g., a minority community or tribal group) and protects the group's shared identity, culture, language, or self-governance; an individual right is held by each person separately and protects personal liberties (speech, property, due process). A wrong answer that says \"collective rights are just the sum of individual rights\" reveals the misconception that group rights are reducible to individual claims, missing the irreducible collective dimension (e.g., a language survives only if the community speaks it).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution grant special cultural and educational rights to minorities under Articles 29 and 30, but not to the majority community?",
+     "a": "Articles 29-30 exist because minorities face structural vulnerability to cultural assimilation by the majority; the majority's culture is already protected by default through state institutions, media, and demographic dominance. A wrong answer claiming \"it is reverse discrimination\" or \"majorities don't need rights\" reveals a misunderstanding of substantive equality — the Constitution recognises that formal equality (same rules for all) can perpetuate substantive inequality when groups start from unequal positions of power.",
+     "self_check": true
+    },
+    {
+     "q": "A linguistic minority community in Tamil Nadu establishes a school teaching exclusively in their mother tongue and admits only children from their community. The state government challenges this under the Right to Education Act's non-discrimination clause. Apply Articles 29(1) and 30(1) to analyse whether the community's action is constitutionally protected.",
+     "a": "Yes, it is protected. Step 1: Article 29(1) guarantees any section of citizens with a distinct language, script, or culture the right to conserve it. Step 2: Article 30(1) gives religious and linguistic minorities the right to establish and administer educational institutions of their choice. Step 3: The Supreme Court (St. Stephen's College, TMA Pai) has held that minority institutions may reserve up to 50% seats for their community and prioritize their language. Step 4: The RTE Act's non-discrimination provisions (Section 12(1)(c)) apply to unaided non-minority schools; minority institutions have partial exemption under Article 30. A wrong answer ignoring the minority-specific exemption shows failure to apply the hierarchical reading of constitutional provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Fifth Schedule and Sixth Schedule protections for tribal communities. In what structural way does the Sixth Schedule provide stronger collective self-governance?",
+     "a": "The Fifth Schedule (Article 244(1)) applies to Scheduled Areas in 10 states, giving the Governor regulatory power and establishing Tribes Advisory Councils — but law-making remains with the state legislature. The Sixth Schedule (Article 244(2)) applies to tribal areas in Assam, Meghalaya, Tripura, Mizoram, creating Autonomous District Councils (ADCs) with legislative, executive, and judicial powers over land, forests, inheritance, marriage, and village administration — effectively a \"state within a state.\" A wrong answer saying \"both do the same thing\" misses the federalism dimension: Sixth Schedule councils enact laws; Fifth Schedule councils only advise.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Granting collective rights to minority communities undermines national integration and creates 'a nation within a nation'.\" Use the Indian constitutional framework and at least one Supreme Court judgment to support your evaluation.",
+     "a": "The argument confuses *integration* with *assimilation*. The Constitution's \"unity in diversity\" model (Preamble, Articles 29-30, 350A, Fifth/Sixth Schedules) treats cultural autonomy as essential to integration, not a threat. In *S.R. Bommai v. Union of India* (1994), the Court held secularism means equal respect for all cultures, not erasure of difference. The *TMA Pai* judgment balanced minority autonomy with state regulation (quality, merit), showing collective rights are not absolute. A wrong answer agreeing with the argument reveals a majoritarian conception of nationalism that the Constitution explicitly rejects.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical \"Community Forest Rights Act\" that recognises a tribal Gram Sabha's collective right to manage, conserve, and benefit from community forest resources, while including safeguards against internal elite capture and gender discrimination within the community.",
+     "a": "A strong answer will: (1) vest ownership/management in the Gram Sabha as a collective body (not individuals), (2) require prior informed consent for any diversion, (3) mandate transparent benefit-sharing with equitable distribution, (4) reserve decision-making positions for women (minimum one-third), (5) provide for social audit and grievance redressal, (6) subject the Gram Sabha's decisions to judicial review for violation of fundamental rights. A poor answer that only lists powers without internal accountability mechanisms reveals the blind spot that collective rights can be hijacked by local elites (patriarchs, dominant clans) — the central tension in group rights theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_010",
+   "title": "c11_hs_cbse_08_010",
+   "questions": [
+    {
+     "q": "State the ICMR (2010) Recommended Dietary Allowance for energy and protein for a 9‑year‑old boy and a 10‑year‑old girl.",
+     "a": "For a 9‑year‑old boy (7–9 years group): Energy = 1690 kcal, Protein = 29.5 g. For a 10‑year‑old girl (10–12 years girls): Energy = 2010 kcal, Protein = 40.4 g. A wrong answer (e.g., giving the same values for both or using infant per‑kg figures) reveals that the student has not internalised the age‑gender split at 10 years and may still be applying the infant/preschool per‑kg method.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ICMR RDA for iron jumps from 16 mg (7–9 years) to 27 mg for girls aged 10–12 years, but only to 21 mg for boys of the same age.",
+     "a": "The higher iron RDA for 10–12‑year‑old girls accounts for the onset of menarche and the need to build iron stores for menstrual losses, whereas boys do not have this physiological demand until later. A wrong answer that attributes the difference to body size or activity level alone shows the student misses the gender‑specific physiological milestone (menarche preparation) that drives the ICMR recommendation.",
+     "self_check": true
+    },
+    {
+     "q": "A 11‑year‑old boy’s current daily intake provides 1800 kcal, 35 g protein, 15 mg iron, and 500 mg calcium. Using Table 7, identify which nutrients are below 90% of RDA and suggest one food‑group adjustment from Table 8 to improve the most critical deficit.",
+     "a": "RDA for 10–12‑year‑old boy: Energy 2190 kcal (90% = 1971 kcal), Protein 39.9 g (90% = 35.9 g), Iron 21 mg (90% = 18.9 mg), Calcium 800 mg (90% = 720 mg). Current intake falls short in energy (1800 < 1971), protein (35 < 35.9), iron (15 < 18.9), and calcium (500 < 720). The most critical deficit is iron (only 71% of RDA). To improve iron, increase pulses/legumes from 60 g to 80 g (adding ~2 mg iron) and include a green leafy vegetable serving (100 g provides ~3–4 mg iron). A wrong answer that only increases cereals or milk shows the student does not link specific food groups to micronutrient profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ICMR balanced diet quantities (Table 8) for a 7–9‑year‑old and a 10–12‑year‑old boy. Which food groups show the largest absolute increase and why does this align with the RDA changes in Table 7?",
+     "a": "Cereals increase from 180 g to 300 g (+120 g), fats from 30 g to 35 g (+5 g), and roots/tubers from 100 g to 100 g (no change). The largest absolute increase is in cereals (+120 g), which supply the bulk of the extra 500 kcal and ~10 g protein needed for the boy’s higher energy (2190 vs 1690 kcal) and protein (39.9 vs 29.5 g) RDAs. A wrong answer that highlights milk or pulses (which stay constant) indicates the student cannot connect macro‑nutrient RDA changes to food‑group quantity adjustments.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since school‑age children have lower per‑kg energy needs than infants, we can safely reduce their total calorie intake to prevent obesity.\"",
+     "a": "The statement is flawed. While per‑kg needs drop, absolute energy RDAs rise with age (1690 kcal at 7–9 years to 2190 kcal for 10–12‑year‑old boys) because total body mass and activity levels increase. Arbitrarily cutting calories risks undernutrition, impaired growth, and reduced cognitive performance. Obesity prevention should focus on limiting saturated fats, added sugars, and sedentary behaviour—not on restricting total calories below RDA. A wrong answer that agrees with the statement shows confusion between relative (per‑kg) and absolute requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one‑day vegetarian menu for a 10‑year‑old girl that meets ≥90% of her RDAs for energy, protein, iron, and calcium using only the food groups and quantities in Table 8. Present the menu with approximate gram weights per meal.",
+     "a": "Sample menu (weights in grams):\nBreakfast: 60 g wheat flakes + 200 ml milk + 50 g banana (≈450 kcal, 14 g protein, 1.5 mg iron, 300 mg Ca).\nTiffin: 60 g whole‑wheat roti + 30 g paneer + 50 g grated carrot (≈350 kcal, 12 g protein, 1.2 mg iron, 200 mg Ca).\nLunch: 100 g cooked rice + 40 g cooked dal + 50 g spinach curry + 100 g curd + 50 g cucumber (≈550 kcal, 20 g protein, 5 mg iron, 250 mg Ca).\nSnack: 30 g roasted chana + 50 g guava (≈150 kcal, 6 g protein, 1.5 mg iron, 40 mg Ca).\nDinner: 80 g wheat roti + 40 g rajma + 50 g mixed vegetable + 50 g salad (≈500 kcal, 18 g protein, 4 mg iron, 150 mg Ca).\nTotals: ~2000 kcal, 70 g protein, 13.2 mg iron, 940 mg Ca. Iron is only 63% of RDA (27 mg) — to reach 90% (24.3 mg), add 50 g more GLV at lunch and 20 g jaggery in snack. A poor answer that omits iron‑rich GLV or uses only milk for calcium shows inability to optimise within food‑group constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

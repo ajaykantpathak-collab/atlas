@@ -1,0 +1,226 @@
+{
+ "catalog": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+ "concepts": [
+  {
+   "id": "c8m13.1.1",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 2"
+   ]
+  },
+  {
+   "id": "c8m13.1.2",
+   "family": "data_read",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 + 4 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 12 * 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syms = 240 / 20"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "books = 2 * 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "h = 60 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle = 60 / 240 * 360"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "c8m13.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 + 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 5 * 3 * 3 + 4 * 3 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 5 + 2 - 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 6 * 8 + 6 * 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 8 + 2 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (8 + 8) * 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 2 + 6"
+   ]
+  },
+  {
+   "id": "c8m13.2.2",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 15 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 560 * 1 / (1 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 360 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 8 * 4 / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 2 * 16 - 8 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 30 * 4 / 5"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 15 / 3"
+   ]
+  },
+  {
+   "id": "c8m13.2.3",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 20 / 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 720 * 2 / (2 + 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 240 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 3 * 16 / 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 4 * 12 - 3 * 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 80 * 15 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

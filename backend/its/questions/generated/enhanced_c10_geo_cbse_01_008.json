@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_008",
+   "title": "c10_geo_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define gully erosion and name one region in India where it is prominently found.",
+     "a": "Gully erosion occurs when running water cuts deep channels (gullies) into the soil, making the land unfit for cultivation; it is an advanced stage of rill erosion. Prominent region: Chambal ravines (Madhya Pradesh/Uttar Pradesh) or the Shiwalik hills. A wrong answer (e.g., confusing gully with rill erosion, or naming coastal erosion) reveals the student cannot distinguish erosion stages or link landforms to specific Indian regions.",
+     "self_check": true
+    },
+    {
+     "q": "Why is contour ploughing ineffective on very steep slopes (>20%) but terracing works there? Explain the geographical reasoning.",
+     "a": "Contour ploughing creates ridges that slow runoff but cannot hold large volumes of water on steep gradients; the water breaches the furrows due to high velocity. Terracing converts steep slopes into a series of level platforms with bunds, drastically reducing slope length and gradient, allowing water to infiltrate. A wrong answer (e.g., \"terracing is just expensive contour ploughing\") shows the student misses the structural difference: terracing alters the slope morphology, while contour ploughing only alters plough direction.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in the Palani Hills (Tamil Nadu) grows tea on a 15° slope. The soil is lateritic and receives 1500 mm annual rainfall. Which conservation method — contour ploughing or terracing — should he adopt? Justify with two reasons.",
+     "a": "Terracing. Reason 1: Slope >10% (15° ≈ 27%) exceeds the safe limit for contour ploughing; water velocity would breach contour furrows. Reason 2: Lateritic soil has low cohesion and high erodibility; terraces with bunds provide physical barriers that contour ridges cannot. A wrong choice (contour ploughing) indicates the student ignores the slope threshold and soil erodibility criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of shelter belts in the Thar Desert versus the Indo-Gangetic Plain. Which region benefits more and why?",
+     "a": "Thar Desert benefits more. Shelter belts reduce wind velocity at ground level, trapping sand and protecting crops; the Thar has high wind speeds, sparse vegetation, and sandy soils highly susceptible to wind erosion. The Indo-Gangetic Plain has dense vegetation cover, lower wind erosivity, and erosion is primarily water-driven (floods), where shelter belts are less effective than embankments. A wrong comparison (e.g., \"both benefit equally\") shows the student does not link the method to the dominant erosion agent (wind vs. water).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Contour ploughing alone can solve soil erosion in the Western Ghats.\" Support your evaluation with two arguments.",
+     "a": "The statement is false. Argument 1: Western Ghats have steep slopes (often >20%) and very high rainfall (>2000 mm); contour ploughing cannot handle the runoff volume and velocity — terracing or afforestation is needed. Argument 2: Laterite and red soils in the Ghats are highly leached and fragile; mechanical methods must be combined with vegetative cover (agroforestry) for sustained protection. A student agreeing with the statement reveals an inability to assess method limitations against physiographic and climatic constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a soil conservation plan for a 5-hectare farm in the Bundelkhand region (Uttar Pradesh) with undulating topography, sandy loam soil, and 800 mm erratic rainfall. Specify which methods to use on which parts of the farm and why.",
+     "a": "Good answer: (1) Upper gentle slopes (3-8%): contour ploughing + strip cropping (alternating cereals and legumes) to reduce sheet erosion. (2) Steeper slopes (8-15%): bench terracing with stone bunds to control rill/gully formation. (3) Field boundaries and windward side: shelter belts of Acacia nilotica (babool) and Ziziphus (ber) to check wind erosion during dry summers. (4) Drainage lines: grassed waterways to safely dispose runoff. Poor answer (e.g., \"use terracing everywhere\") shows the student cannot match method to micro-topography and erosion agent variability within a single farm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

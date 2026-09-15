@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy103",
+  "concepts": [
+    {
+      "id": "legy.103.1",
+      "questions": [
+        {"q": "Is growth a quantitative or a qualitative change? (one word)", "a": "quantitative"},
+        {"q": "Is development a value-positive or a value-neutral process? (two words)", "a": "value-positive"},
+        {"q": "A rise in real income is an example of growth or development? (one word)", "a": "growth"},
+        {"q": "Which term implies improvement in the quality of human life, not just an increase? (one word)", "a": "development"},
+        {"q": "Can income grow while human life fails to improve? (yes or no)", "a": "yes"},
+        {"q": "Development is a process towards what kind of goal for human life? (one word)", "a": "improvement"},
+        {"q": "Is development a qualitative or a quantitative improvement in human life? (one word)", "a": "qualitative"}
+      ]
+    },
+    {
+      "id": "legy.103.2",
+      "questions": [
+        {"q": "Which pillar of human development means equal access to opportunities? (one word)", "a": "equity"},
+        {"q": "Which pillar of human development requires opportunities to continue for future generations? (one word)", "a": "sustainability"},
+        {"q": "Which pillar of human development concerns efficient use of resources, especially people? (one word)", "a": "productivity"},
+        {"q": "Which pillar of human development gives people the freedom and power to make choices? (one word)", "a": "empowerment"},
+        {"q": "How many pillars support human development? (number)", "a": "4"},
+        {"q": "Sustainability protects the opportunities of which generation? (two words)", "a": "future generations"},
+        {"q": "Which pillar is violated when women are denied schooling that men receive? (one word)", "a": "equity"}
+      ]
+    },
+    {
+      "id": "legy.103.3",
+      "questions": [
+        {"q": "Which approach equates the level of human development with the level of income? (one word)", "a": "income"},
+        {"q": "Which approach holds the state responsible for welfare spending? (one word)", "a": "welfare"},
+        {"q": "Which approach measures development by meeting minimum needs of food, education and health? (two words)", "a": "basic needs"},
+        {"q": "Which approach, associated with Amartya Sen, builds people's capabilities to choose? (one word)", "a": "capability"},
+        {"q": "Who is the economist behind the capability approach to human development? (two words)", "a": "Amartya Sen"},
+        {"q": "How many approaches to human development are commonly listed? (number)", "a": "4"},
+        {"q": "In the basic needs approach, food, health and what else are counted as minimum needs? (one word)", "a": "education"}
+      ]
+    },
+    {
+      "id": "legy.103.4",
+      "questions": [
+        {"q": "How many equally weighted sub-indices make up the Human Development Index? (number)", "a": "3"},
+        {"q": "Health enters the HDI through which single indicator of lifespan? (two words)", "a": "life expectancy"},
+        {"q": "A country scores 60 on health, 70 on education and 80 on income. What is its HDI? (number)", "a": "70"},
+        {"q": "A country scores 40 on health, 50 on education and 60 on income. What is its HDI? (number)", "a": "50"},
+        {"q": "Access to resources enters the HDI through what kind of measure? (one word)", "a": "income"},
+        {"q": "Education in the HDI is measured through what kind of attainment? (one word)", "a": "schooling"},
+        {"q": "Into how many development classes are countries grouped by HDI (very high to low)? (number)", "a": "4"}
+      ]
+    }
+  ]
+}

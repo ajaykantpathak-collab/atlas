@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_11_010",
+   "title": "c12_hist_cbse_11_010",
+   "questions": [
+    {
+     "q": "On what date did the Muslim League observe Direct Action Day, and in which city did the worst violence initially break out?",
+     "a": "Direct Action Day was observed on 16 August 1946; the worst violence initially broke out in Calcutta (now Kolkata). A wrong answer (e.g., citing 1947, or naming Delhi/Amritsar as the initial epicenter) reveals the student confuses the timeline — they likely conflate Direct Action Day with the Partition riots of mid-1947 or the post-Independence violence in Punjab. This confusion obscures the causal link: Direct Action Day (1946) started the cycle of retaliatory violence that made Partition seem like the only alternative to civil war.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Cabinet Mission Plan (1946) fail to prevent Partition, despite proposing a united India with a loose federal structure?",
+     "a": "The Cabinet Mission Plan failed because the Congress and Muslim League interpreted the \"grouping clause\" differently: Congress wanted provinces to join groups voluntarily, while the League insisted grouping was compulsory for Muslim-majority provinces (B and C) to safeguard Pakistan's viability. When the Mission clarified grouping was compulsory, Congress rejected it; when the Mission later suggested grouping was optional, the League withdrew acceptance. A wrong answer (e.g., \"British didn't want unity\" or \"Gandhi opposed it\") misses the constitutional deadlock over provincial autonomy vs. communal safeguards — the core structural issue that made Partition a negotiated outcome rather than a British imposition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this excerpt from Mountbatten's 3 June 1947 broadcast: \"I am sure that all parties will agree that the most urgent task is to find a way of transferring power... with the least possible delay.\" How did this \"least possible delay\" principle shape the Boundary Commission's work and its consequences?",
+     "a": "Mountbatten's insistence on speed (transfer by 15 Aug 1947, announced 3 June — only 73 days) forced the Radcliffe Boundary Commission to demarcate Punjab and Bengal in 5 weeks with inadequate surveys, no local knowledge, and no time for appeals. Radcliffe relied on outdated census data and tehsil-level majorities, splitting villages, canal systems, and Sikh shrines. A poor answer (e.g., \"British were lazy\" or \"Radcliffe was biased\") misses the structural violence of bureaucratic haste: the Award was deliberately kept secret until 17 Aug (two days after Independence) to avoid British responsibility for the ensuing massacres. This shows Partition's administrative violence was as consequential as its political violence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Congress and Muslim League positions on the Cabinet Mission Plan's \"Grouping\" clause (Sections B and C for Muslim-majority provinces). How did this disagreement reflect deeper ideological differences about sovereignty and minority rights?",
+     "a": "Congress viewed grouping as voluntary — provinces could opt out after the first general election — reflecting its vision of a strong Centre where individual provinces (not communities) were the federal units. The League demanded compulsory grouping — Sections B and C would frame their own constitutions — reflecting the two-nation theory where Muslims were a distinct political nation entitled to self-determination within a loose confederation. A weak answer treats this as mere \"political stubbornness\" rather than a clash between territorial nationalism (Congress) and communal nationalism (League). The disagreement proved that a united India required either a strong Centre (which the League saw as Hindu domination) or a weak Centre (which Congress saw as Balkanization) — no middle ground existed.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Gandhi's fasts in Calcutta (Sept 1947) and Delhi (Jan 1948) were symbolic gestures that did not materially stop Partition violence.\" Use evidence from the NCERT text and historical context.",
+     "a": "The argument is partially correct but incomplete. Symbolically, the fasts dramatized moral accountability: in Calcutta, Gandhi's fast unto death (1-4 Sept 1947) forced Hindu and Muslim leaders to sign a peace pledge, temporarily halting killings in a city of 4 million. In Delhi (13-18 Jan 1948), his fast extracted a ₹55 crore payment to Pakistan and safety guarantees for Muslims. Materially, however, the fasts could not stop the Punjab carnage (where Gandhi was absent) or the systemic ethnic cleansing driven by state collapse. A nuanced evaluation acknowledges: (a) fasts worked where local leadership had agency (Calcutta, Delhi), (b) they failed where violence was organized by militias and state actors (Punjab), and (c) they established a moral template for secular India's Constitution. A one-sided answer (\"Gandhi stopped violence\" or \"Gandhi was irrelevant\") misses this spatial and institutional variation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline with 8 entries showing the causal chain from the 1946 Cabinet Mission to the 1947 Radcliffe Award, labeling each entry as \"Political Decision,\" \"Communal Violence,\" or \"Administrative Action.\"",
+     "a": "A strong timeline:\n1. Mar 1946: Cabinet Mission arrives — Political Decision\n2. May 1946: Mission proposes 3-tier federation — Political Decision\n3. Jul 1946: League withdraws acceptance; calls Direct Action — Political Decision\n4. 16 Aug 1946: Direct Action Day; Calcutta killings begin — Communal Violence\n5. Oct 1946: Noakhali (East Bengal) and Bihar retaliatory violence — Communal Violence\n6. Feb 1947: Mountbatten appointed Viceroy — Administrative Action\n7. 3 Jun 1947: Mountbatten Plan announced (Partition + early transfer) — Political Decision\n8. 17 Aug 1947: Radcliffe Award published (post-dated) — Administrative Action\nA poor timeline mixes categories, omits the Noakhali/Bihar cycle, or treats the Radcliffe Award as simultaneous with Independence Day (15 Aug) rather than two days later — missing the deliberate British strategy of distancing themselves from the boundary's consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

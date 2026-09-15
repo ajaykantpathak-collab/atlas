@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class6_social_science_ch304",
+ "concepts": [
+  {
+   "id": "fess.304.1",
+   "title": "Apartheid and Struggle for Racial Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Apartheid and Struggle for Racial Equality' refers to.",
+     "a": "A policy of legal racial segregation where citizens are categorized by race and denied equal civic rights and shared public spaces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Apartheid and Struggle for Racial Equality'.",
+     "a": "Democratic resistance undermines institutionalized racial discrimination to establish political equality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Apartheid and Struggle for Racial Equality' taught, and from which source text?",
+     "a": "South Africa (source: fess304.txt lines 10-50)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.2",
+   "title": "Democratic Participation through Elections",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Democratic Participation through Elections' refers to.",
+     "a": "The periodic process by which citizens choose political representatives to govern and make public choices on their behalf.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratic Participation through Elections'.",
+     "a": "Regular election cycles enforce accountability and limit governmental power.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Democratic Participation through Elections' taught, and from which source text?",
+     "a": "PARTICIPATION (source: fess304.txt lines 55-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.3",
+   "title": "Government Tenure Calculation",
+   "questions": [
+    {
+     "q": "Calculate total tenure for a government serving multiple terms. Use the method 'Government Tenure Calculation'. Work with: number_of_terms = 4096, term_length_years = 1500. Carry the chain through step by step and give the final value of total_years.",
+     "a": "6144000 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the total years in office for consecutive election terms. Use the method 'Government Tenure Calculation'. Work with: number_of_terms = 4096, term_length_years = 1500. Carry the chain through step by step and give the final value of total_years.",
+     "a": "6144000 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Government Tenure Calculation' refers to.",
+     "a": "Calculating the total duration of governance across multiple fixed election cycles.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Government Tenure Calculation'.",
+     "a": "Overall years in office equal the count of successful election terms multiplied by the single term length.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Government Tenure Calculation', in plain ASCII form.",
+     "a": "total_years = number_of_terms * term_length_years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.4",
+   "title": "Alternative Modes of Civic Participation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Alternative Modes of Civic Participation' refers to.",
+     "a": "Methods outside of voting through which the public expresses opinions and exerts pressure on government policies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Alternative Modes of Civic Participation'.",
+     "a": "Citizens influence administrative decisions using public rallies, signature drives, and media debates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Alternative Modes of Civic Participation' taught, and from which source text?",
+     "a": "Other ways of participating (source: fess304.txt lines 78-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.5",
+   "title": "Participation via Social Movements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Participation via Social Movements' refers to.",
+     "a": "Organized collective efforts by marginalized demographics to challenge state action and secure civil rights.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Participation via Social Movements'.",
+     "a": "Social movements enable minority and vulnerable groups to actively shape democratic decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Participation via Social Movements' taught, and from which source text?",
+     "a": "Other ways of participating (source: fess304.txt lines 106-115)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.6",
+   "title": "Causes and Resolution of Social Conflicts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Causes and Resolution of Social Conflicts' refers to.",
+     "a": "Disagreements arising from social diversity that require legal and constitutional mediation to prevent violence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Causes and Resolution of Social Conflicts'.",
+     "a": "The state enforces constitutional frameworks to resolve societal tensions peacefully.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Causes and Resolution of Social Conflicts' taught, and from which source text?",
+     "a": "NEED TO RESOLVE CONFLICT (source: fess304.txt lines 118-135)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.7",
+   "title": "Role of Police in Resolving Religious Procession Disputes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of Police in Resolving Religious Procession Disputes' refers to.",
+     "a": "Interventions by law enforcement authorities to coordinate routes and prevent clashes during community events.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of Police in Resolving Religious Procession Disputes'.",
+     "a": "Police mediation ensures public safety and prevents violence during religious gatherings.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of Police in Resolving Religious Procession Disputes' taught, and from which source text?",
+     "a": "NEED TO RESOLVE CONFLICT (source: fess304.txt lines 136-148)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.8",
+   "title": "Inter-State River Water Conflict Resolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Inter-State River Water Conflict Resolution' refers to.",
+     "a": "Federal intervention to manage and equitably allocate shared water resources across neighboring state boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inter-State River Water Conflict Resolution'.",
+     "a": "The central authority intervenes to balance resource distribution when river systems span multiple states.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Inter-State River Water Conflict Resolution' taught, and from which source text?",
+     "a": "NEED TO RESOLVE CONFLICT (source: fess304.txt lines 149-170)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.9",
+   "title": "Inseparability of Equality and Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Inseparability of Equality and Justice' refers to.",
+     "a": "The core constitutional precept that fair treatment cannot exist without eliminating systemic social discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inseparability of Equality and Justice'.",
+     "a": "Justice requires total legal prohibition of discriminatory traditions like untouchability.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Inseparability of Equality and Justice' taught, and from which source text?",
+     "a": "EQUALITY AND JUSTICE (source: fess304.txt lines 172-192)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.304.10",
+   "title": "Affirmative Action for Gender Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Affirmative Action for Gender Equality' refers to.",
+     "a": "State policy measures aimed at mitigating socio-cultural biases against marginalized demographics, such as girls.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Affirmative Action for Gender Equality'.",
+     "a": "Government schemes compensate for social discrimination by providing targeted benefits to disadvantaged groups.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Affirmative Action for Gender Equality' taught, and from which source text?",
+     "a": "EQUALITY AND JUSTICE (source: fess304.txt lines 193-210)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

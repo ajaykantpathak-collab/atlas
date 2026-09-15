@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_001",
+   "title": "c12_ip_cbse_06_001",
+   "questions": [
+    {
+     "q": "What is the exact purpose of the `<!DOCTYPE html>` declaration in an HTML5 document?",
+     "a": "The `<!DOCTYPE html>` declaration tells the browser to render the page in standards mode (HTML5) rather than quirks mode. A wrong answer (e.g., \"it defines the root element\" or \"it links the CSS file\") reveals the student confuses the doctype with the `<html>` tag or `<link>` tag, indicating they haven't grasped that the doctype is a mode switch, not an element.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `<head><title>My Page</title><h1>Welcome</h1></head>`. Explain why the `<h1>` will not appear as a heading on the rendered page.",
+     "a": "The `<head>` section only contains metadata — content inside it is never rendered visually. The `<h1>` belongs in `<body>`. If the student says \"the heading will appear but without styling\" or \"browsers automatically move it to body\", they hold the misconception that `<head>` is a visible header area (like `<header>`), confusing semantic structure with layout.",
+     "self_check": true
+    },
+    {
+     "q": "Write the minimal HTML5 code to set the character encoding to UTF-8, make the page responsive on mobile devices, and set the browser tab title to \"Project Demo\".",
+     "a": "```html\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Project Demo</title>\n</head>\n<body></body>\n</html>\n```\nA wrong answer missing `charset` or `viewport` or placing `<title>` outside `<head>` shows the student cannot apply the three essential metadata tags together, often because they memorize tags in isolation rather than as a required set for modern web pages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of `<meta name=\"description\">` and `<meta name=\"viewport\">`. Why would omitting each hurt a real-world website differently?",
+     "a": "`<meta name=\"description\">` provides a snippet for search engine results (SEO); omitting it lets search engines auto-generate a less relevant summary, reducing click-through rates. `<meta name=\"viewport\">` controls mobile layout scaling; omitting it causes desktop-like rendering on phones, forcing horizontal scrolling and hurting usability. A student who says both affect \"appearance\" or \"SEO\" fails to distinguish between search-engine metadata and browser-rendering instructions.",
+     "self_check": true
+    },
+    {
+     "q": "A webpage loads a CSS file via `<link rel=\"stylesheet\" href=\"style.css\">` placed at the bottom of `<body>` instead of in `<head>`. Evaluate the impact on page load performance and visual stability.",
+     "a": "Placing the stylesheet link in `<body>` delays CSS parsing until the browser reaches that point, causing a flash of unstyled content (FOUC) and increasing perceived load time. Best practice is to put `<link rel=\"stylesheet\">` in `<head>` so styles are fetched and parsed early. A student who claims \"it doesn't matter because the browser loads everything anyway\" ignores the critical rendering path and the browser's sequential parsing behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new metadata tag (not in HTML5 standard) that could help a browser automatically detect the primary language of a page's visible text content. Write its syntax and explain how it would differ from the existing `lang` attribute on `<html>`.",
+     "a": "Proposed tag: `<meta name=\"primary-language\" content=\"hi\">` placed in `<head>`. Unlike `lang=\"hi\"` on `<html>` (which declares the document's default language for inheritance), this meta tag would explicitly signal the dominant language of the *rendered text* for translation tools or screen readers, even if the document contains mixed languages. A poor answer merely replicates `lang` or suggests a `<script>` solution, showing inability to innovate within metadata constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

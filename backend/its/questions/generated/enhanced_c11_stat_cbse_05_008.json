@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_008",
+   "title": "c11_stat_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the empirical formula relating Mean, Median, and Mode for a moderately skewed distribution. If the Mean is 50 and the Median is 45, what is the estimated Mode?",
+     "a": "The empirical formula is **Mode = 3 Median – 2 Mean** (or Mean – Mode = 3(Mean – Median)). Substituting: Mode = 3(45) – 2(50) = 135 – 100 = **35**.  \nA wrong answer (e.g., Mode = 55 or Mode = 45) reveals the student either recalls the formula incorrectly (sign errors or coefficient errors) or assumes symmetry (Mean = Median = Mode) without checking skewness direction. It also indicates they may not recognise that Mean > Median implies positive skew where Mode is the smallest of the three.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the empirical relationship Mode = 3 Median – 2 Mean is **not** applicable to: (a) a perfectly symmetric distribution, (b) a bimodal distribution, (c) a highly skewed (J-shaped) distribution.",
+     "a": "(a) In a symmetric distribution, Mean = Median = Mode; the formula gives Mode = 3M – 2M = M, which holds trivially but is unnecessary—the exact equality is known. (b) In a bimodal distribution, there are two modes; the formula assumes a single dominant peak. (c) In highly skewed/J-shaped distributions, the relationship between the three measures breaks down because the \"moderate skewness\" assumption (that the frequency curve can be approximated by a smooth polynomial) is violated.  \nA wrong answer (e.g., \"it works for all distributions\") reveals the misconception that the empirical formula is a universal mathematical identity rather than an approximation derived under specific shape assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "In a frequency distribution of monthly electricity consumption (in kWh) for 100 households, the Mean is 320 kWh and the Mode is 290 kWh. Use the empirical relationship to estimate the Median. Then, state the skewness direction and justify your answer using the relative positions of the three averages.",
+     "a": "Using Mean – Mode = 3(Mean – Median): 320 – 290 = 3(320 – Median) → 30 = 960 – 3 Median → 3 Median = 930 → **Median = 310 kWh**.  \nOrder: Mean (320) > Median (310) > Mode (290). This is **positive skewness** (right-skewed).  \nA wrong median (e.g., 330) indicates algebraic errors or using the formula incorrectly (e.g., Mode = 3 Mean – 2 Median). Failing to identify skewness direction shows the student does not connect the relative magnitude order (Mean > Median > Mode) to the tail of the distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the Mean, Median, and Mode for a dataset as 42, 40, and 38 respectively. They claim the distribution is moderately skewed and the empirical formula holds exactly. Analyse this claim. Is it possible for real-world grouped data to satisfy the formula *exactly*? Why or why not?",
+     "a": "Check: 3 Median – 2 Mean = 3(40) – 2(42) = 120 – 84 = 36, but the reported Mode is 38. The formula does **not** hold exactly (36 ≠ 38). The student's claim is false.  \nIn real-world grouped data, the formula is an **approximation**; exact equality is extremely rare because: (1) grouping into class intervals loses information, (2) the mode formula for grouped data (using D1, D2) is itself an interpolation, and (3) the empirical relationship assumes a specific theoretical curve shape (Pearson Type I). Real data rarely fits this perfectly.  \nA wrong answer (e.g., \"Yes, it holds exactly because the numbers are close\") reveals the misconception that the empirical formula is an exact algebraic identity rather than an approximation, and that grouped data calculations yield exact theoretical values.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If a distribution is positively skewed, the Mean is always the largest and the Mode is always the smallest of the three averages.\" Defend your position with a counterexample or theoretical justification.",
+     "a": "The statement is **generally true for unimodal, moderately skewed continuous distributions** but **not universally true**.  \nCounterexample: Consider a discrete distribution: Values: 10, 10, 10, 20, 30. Mean = 16, Median = 10, Mode = 10. Here Mean > Median = Mode. The mode equals the median, not strictly smaller.  \nAnother edge case: Highly skewed discrete data with extreme outliers can violate the strict ordering. The empirical formula assumes a smooth, unimodal frequency curve. For discrete or highly irregular data, the ordering Mean > Median > Mode may not hold strictly.  \nA wrong answer (e.g., \"Always true by definition of positive skew\") reveals the student confuses the *definition* of positive skew (mean > median) with the *empirical pattern* of the mode, and ignores discrete/distributional edge cases.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small frequency distribution (ungrouped or grouped, n ≤ 20) for which the empirical relationship Mode = 3 Median – 2 Mean holds **exactly**. Provide the data, calculate all three measures, and verify the formula.",
+     "a": "Example: Data: 2, 3, 3, 4, 4, 4, 5, 5, 6 (n=9).  \nMean = (2+3+3+4+4+4+5+5+6)/9 = 36/9 = **4**.  \nMedian = 5th value = **4**.  \nMode = **4** (highest frequency 3).  \nCheck: 3 Median – 2 Mean = 3(4) – 2(4) = 12 – 8 = 4 = Mode. Formula holds exactly (symmetric case).  \nFor a non-symmetric example: Data: 10, 10, 20, 20, 20, 30, 40 (n=7). Mean = 150/7 ≈ 21.43, Median = 20, Mode = 20. Formula: 3(20) – 2(21.43) = 60 – 42.86 = 17.14 ≠ 20. Does not hold exactly.  \nA good answer constructs a symmetric dataset (where all three are equal) or solves 3M - 2X = Mo algebraically for a chosen set. A poor answer (random data without verification) shows inability to reverse-engineer the constraint and misunderstanding that exact equality is a special condition, not a general rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

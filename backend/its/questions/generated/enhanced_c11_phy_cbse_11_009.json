@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_009",
+   "title": "c11_phy_cbse_11_009",
+   "questions": [
+    {
+     "q": "State the Kelvin-Planck statement of the Second Law of Thermodynamics. What is the maximum possible efficiency of a heat engine operating between two reservoirs according to this statement?",
+     "a": "The Kelvin-Planck statement: \"No process is possible whose sole result is the absorption of heat from a reservoir and the complete conversion of this heat into work.\" The maximum possible efficiency is strictly less than 1 (η < 1 or < 100%). A wrong answer stating η = 1 reveals the student thinks the First Law alone governs energy conversion, ignoring the directional constraint of the Second Law. A wrong answer quoting the Clausius statement instead shows confusion between the two distinct but equivalent formulations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The First Law says energy is conserved, so if I build a frictionless engine that absorbs 1000 J from a hot reservoir and does exactly 1000 J of work, I haven't violated any law.\" Explain why this claim is incorrect using the Kelvin-Planck statement.",
+     "a": "The claim is incorrect because the Kelvin-Planck statement explicitly forbids a cyclic process whose *sole effect* is complete conversion of heat from a single reservoir into work. The First Law (ΔQ = ΔU + ΔW) would be satisfied (1000 J = 0 + 1000 J), but the Second Law imposes an additional restriction: some heat *must* be rejected to a colder reservoir (Q₂ > 0), making W < Q₁ and η < 1. A wrong answer that only checks energy conservation reveals the student does not understand that the Second Law is an independent principle, not a consequence of the First Law.",
+     "self_check": true
+    },
+    {
+     "q": "An inventor proposes a refrigerator that transfers 500 J of heat from a cold compartment at 270 K to a hot room at 300 K *without any external electricity or work input*. The inventor argues energy is conserved because the heat lost by the cold compartment equals the heat gained by the room. Does this device violate the Clausius statement? Justify your answer.",
+     "a": "Yes, it violates the Clausius statement. The Clausius statement says: \"No process is possible whose sole result is the transfer of heat from a colder object to a hotter object.\" Here, the sole result is heat transfer from 270 K to 300 K with zero external work (W = 0). Energy conservation (First Law) is satisfied (Q_cold = Q_hot = 500 J), but the Second Law forbids this direction of heat flow without work input. A wrong answer saying \"No, energy is conserved\" reveals the student conflates the First and Second Laws and misses the \"sole result\" clause.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two hypothetical devices operating between the same two reservoirs at T₁ (hot) and T₂ (cold):\nDevice A: A heat engine with efficiency η_A = 0.60.\nDevice B: A refrigerator with coefficient of performance α_B = 4.0.\nIf Device A is used to power Device B (work output of A drives B), analyse whether this combined system violates the Kelvin-Planck or Clausius statement. Assume T₁ = 400 K, T₂ = 300 K.",
+     "a": "First, check if the individual devices violate the Second Law. The Carnot efficiency (maximum possible) is η_Carnot = 1 - T₂/T₁ = 1 - 300/400 = 0.25. Since η_A = 0.60 > 0.25, Device A *itself* violates the Kelvin-Planck statement (it claims to do more work than the maximum allowed). The maximum COP for a refrigerator is α_Carnot = T₂/(T₁ - T₂) = 300/100 = 3.0. Since α_B = 4.0 > 3.0, Device B *itself* violates the Clausius statement. The combined system therefore violates both statements because its components are individually impossible. A wrong answer that only checks the combined energy balance misses that the Second Law limits *individual* device performance, not just the net effect.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"The Kelvin-Planck and Clausius statements are equivalent.\" Evaluate this claim by outlining the logical steps to prove that a violation of the Kelvin-Planck statement leads to a violation of the Clausius statement.",
+     "a": "Proof outline:\n1. Assume a \"Kelvin-Planck violator\" engine E_KP exists: it absorbs Q₁ from hot reservoir T₁, does work W = Q₁, and rejects *zero* heat to cold reservoir T₂ (η = 1).\n2. Take a normal refrigerator R (allowed by both laws) that absorbs Q₂ from T₂, requires work W, and rejects Q₁ + Q₂ to T₁.\n3. Couple E_KP and R so that the work output W of E_KP exactly drives R. The combined system (E_KP + R) now has *sole effect*: heat Q₂ is transferred from cold reservoir T₂ to hot reservoir T₁ with *no external work input*.\n4. This combined system is a \"Clausius violator\". Hence, violation of Kelvin-Planck ⇒ violation of Clausius. The reverse proof is symmetric. A wrong answer that cannot describe the coupling mechanism reveals the student has memorised \"they are equivalent\" without understanding the logical structure of the proof.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment (using only a hot reservoir, a cold reservoir, and hypothetical devices) to demonstrate that if a perfect refrigerator (Clausius violator) existed, one could build a perfect heat engine (Kelvin-Planck violator). Describe the setup and the net effect.",
+     "a": "Setup:\n1. Assume a perfect refrigerator R_C exists: it transfers heat Q from cold reservoir T₂ to hot reservoir T₁ with *zero* work input (W = 0).\n2. Take a normal heat engine E (allowed by both laws) that absorbs Q₁ from T₁, does work W, and rejects Q₂ to T₂.\n3. Choose E such that its rejected heat Q₂ exactly equals the heat Q that R_C transfers from T₂ to T₁.\n4. Couple them: R_C puts Q back into T₁, which E then re-absorbs. The cold reservoir T₂ experiences *zero net heat exchange* (loses Q to E, gains Q from R_C).\n5. Net effect of combined system: Heat Q₁ is absorbed from T₁ and *completely converted* into work W with no other change. This is a Kelvin-Planck violator. A poor answer that cannot specify the heat matching condition (Q₂ = Q) reveals the student does not grasp the quantitative nature of the equivalence proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_001",
+   "title": "c11_ps_cbse_18_001",
+   "questions": [
+    {
+     "q": "What is the primary constitutional provision that empowers Parliament to amend the Constitution, and what theoretical concept describes a constitution that adapts through such formal changes and judicial interpretation?",
+     "a": "Article 368 is the amendment provision; \"living constitution\" or \"constitution as a living document\" is the theoretical concept. A wrong answer (e.g., citing Article 32 or Article 13) reveals confusion between amendment power, judicial review, and fundamental rights enforcement — the student cannot distinguish the mechanism of change from the protection of rights or the remedy for violations.",
+     "self_check": true
+    },
+    {
+     "q": "The original 1950 Constitution did not explicitly mention \"right to privacy\" or \"digital rights.\" Yet the Supreme Court in *Justice K.S. Puttaswamy v. Union of India* (2017) declared privacy a fundamental right under Article 21. Explain why this judicial interpretation is an example of the Constitution functioning as a \"living document\" rather than a violation of original intent.",
+     "a": "The Constitution uses open-textured language (\"personal liberty,\" \"life\") deliberately to encompass unforeseen threats to dignity. The framers (per Constituent Assembly Debates) intended Article 21 to be expansive, not exhaustive. A wrong answer claiming \"the Court invented a new right\" reveals a static, originalist misunderstanding — the student fails to grasp that constitutional interpretation *is* the primary mechanism of evolution between formal amendments, and that the framers explicitly rejected a frozen meaning (CAD Vol. VII, p. 43: \"We do not want to petrify the Constitution\").",
+     "self_check": true
+    },
+    {
+     "q": "A State government argues that the Centre's use of Article 356 (President's Rule) has evolved from \"rare emergency measure\" to \"routine political tool,\" violating the federal spirit. Using the living document framework, analyze whether this evolution represents legitimate constitutional adaptation or constitutional decay. What institutional mechanism should correct it?",
+     "a": "This is constitutional decay — an evolution that undermines a core constitutional principle (federalism) rather than realizing it. The living document concept requires evolution *toward* the Constitution's promises (autonomy, cooperative federalism), not away from them. The corrective mechanism is judicial review (S.R. Bommai v. Union of India, 1994), which reinterpreted Article 356 to impose strict judicial scrutiny — an example of the judiciary enforcing the \"basic structure\" of federalism against political practice. A wrong answer calling this \"healthy evolution\" or \"parliamentary sovereignty\" reveals inability to distinguish adaptive change from structural erosion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Constitution's approach to evolution (Article 368 + basic structure doctrine) with the U.S. Constitution's approach (Article V + judicial review without an explicit basic structure limit). Which system better balances stability and adaptability for a diverse, developing nation? Justify with two specific Indian examples.",
+     "a": "The Indian model is better suited for a diverse, developing nation because: (1) Article 368 allows *graduated* majorities (simple, special, state-ratification) matching the gravity of change — e.g., GST (101st Amendment) required state ratification for fiscal federalism, while the 61st Amendment (voting age 18) needed only special majority. (2) The basic structure doctrine (Kesavananda) prevents majoritarian overwriting of federalism, secularism, or rights — e.g., the 39th Amendment (immunizing PM's election) was struck down. The U.S. model's near-impossible Article V (2/3 Congress + 3/4 states) causes rigidity (no amendment since 1992), forcing all evolution onto courts, creating legitimacy crises. A wrong answer favoring the U.S. model ignores India's need for *democratic* (not just judicial) constitutional updating.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Frequent amendments (105+ in 74 years) prove the Indian Constitution is defective — a good constitution should rarely need changing.\" Use the distinction between *formal amendment frequency* and *constitutional stability* in your evaluation.",
+     "a": "The argument confuses textual stability with constitutional health. India's amendments are mostly *enabling* (extending reservations, GST, anti-defection, Panchayati Raj) — they operationalize the Constitution's transformative promises in changing conditions. The U.S. Constitution's textual stability (27 amendments) masks massive *judicial* evolution (incorporation doctrine, privacy, administrative state) — its \"stability\" is illusory. Granville Austin's \"The Indian Constitution: Cornerstone of a Nation\" shows amendments reflect democratic responsiveness, not defect. A wrong answer equating amendment count with instability reveals a formalistic, ahistorical view — the student cannot distinguish between amendments that *deepen* the constitutional vision (73rd/74th) and those that *subvert* it (42nd Amendment's excesses, later corrected by 44th).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word preamble for a hypothetical \"Constitution Amendment Review Commission\" report that articulates the philosophical criteria for judging whether a proposed amendment strengthens or weakens the Constitution as a living document. Your criteria must reference: (a) the Preamble's values, (b) the basic structure doctrine, (c) federal balance, and (d) intergenerational equity.",
+     "a": "A strong answer will articulate criteria such as: \"Does the amendment expand justice/liberty/equality/fraternity for *future* citizens, or entrench present majoritarian power? Does it preserve the basic structure's federal/secular/democratic pillars? Does it respect State autonomy in Concurrent/State List matters? Does it distribute burdens/benefits fairly across generations (e.g., fiscal, environmental)?\" A poor answer lists procedural checks (majority type, ratification) without engaging the *substantive* philosophical test — revealing the student treats amendment as a mechanical process, not a moral-political choice about the Constitution's evolving identity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

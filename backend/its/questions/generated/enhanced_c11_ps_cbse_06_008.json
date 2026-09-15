@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_008",
+   "title": "c11_ps_cbse_06_008",
+   "questions": [
+    {
+     "q": "What are the three distinct legal modes of losing Indian citizenship under the Citizenship Act, 1955, and which section governs each?",
+     "a": "The three modes are: (1) Renunciation — voluntary declaration under Section 8; (2) Termination — automatic by operation of law upon acquiring foreign citizenship under Section 9; (3) Deprivation — compulsory revocation by Central Government order under Section 10 for fraud, disloyalty, etc. A wrong answer (e.g., confusing termination with deprivation) reveals the student does not grasp that termination is *automatic* and *non-discretionary*, while deprivation is a *discretionary state action* requiring procedural safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Section 9 (termination) operate automatically without a government order, while Section 10 (deprivation) requires a formal inquiry and government satisfaction?",
+     "a": "Section 9 reflects India's constitutional policy against dual citizenship (Article 9): acquiring foreign citizenship *ipso facto* ends Indian citizenship because allegiance cannot be split. No state discretion is needed — the act itself severs the bond. Section 10, however, involves the state *actively stripping* a person of citizenship, which is a severe penalty affecting fundamental rights; hence, natural justice (notice, hearing, inquiry) is mandatory to prevent arbitrariness under Article 14/21. A wrong answer indicates the student misses the constitutional distinction between *automatic consequence of a voluntary act* vs. *state-imposed penalty*.",
+     "self_check": true
+    },
+    {
+     "q": "A naturalised Indian citizen obtained citizenship by concealing a prior conviction for terrorism financing. The Home Ministry issues a deprivation order under Section 10(2)(a) without giving her a hearing. She challenges it in the High Court. Which constitutional principle will the court invoke to strike down the order?",
+     "a": "The court will invoke the principle of *audi alteram partem* (rule of fair hearing) as part of natural justice, implicit in Article 21 (procedure established by law must be fair, just, and reasonable) and Article 14 (non-arbitrariness). Even though Section 10(2) grants discretionary power, the Supreme Court in *State of Andhra Pradesh v. G. Sreenivasa Rao* (1989) held that deprivation of citizenship is a \"civil death\" requiring a pre-decisional hearing. A wrong answer (e.g., citing only Article 11) shows the student does not understand that parliamentary power under Article 11 is subject to constitutional limitations of due process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of termination (Section 9) and deprivation (Section 10) on the citizenship status of the person's minor children. How does the law treat them differently?",
+     "a": "Under Section 9, when a parent loses citizenship by acquiring foreign nationality, minor children *also automatically cease* to be Indian citizens (Section 9(2)), unless they resume citizenship within one year of majority. Under Section 10, deprivation of a parent's citizenship *does not automatically extend* to minor children; the government must pass a separate order for each child after independent satisfaction. This asymmetry exists because termination is a *family-status consequence* of a voluntary act, while deprivation is a *personal penalty* requiring individual culpability. A wrong answer reveals the student overlooks the derivative vs. personal nature of the two modes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since Article 11 gives Parliament unlimited power to regulate citizenship, the government can deprive a naturalised citizen of citizenship solely for criticising government policy, without any inquiry.\" Is this constitutionally valid?",
+     "a": "No. Article 11 is subject to the basic structure of the Constitution, including fundamental rights (Article 14, 19, 21). Deprivation for mere criticism would violate Article 19(1)(a) (free speech) and Article 14 (arbitrariness). Section 10(2) lists exhaustive grounds (fraud, disloyalty, unlawful trade/communication with enemy, imprisonment >2 years within 5 years of naturalisation, 7 years continuous residence abroad). \"Criticism of policy\" is not a ground. The Supreme Court in *Louis De Raedt v. Union of India* (1991) affirmed that citizenship deprivation must follow *strict compliance* with statutory grounds and natural justice. A wrong answer indicates the student treats Article 11 as a plenary power unchecked by Part III.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where a person loses Indian citizenship *without* acquiring any foreign citizenship, and identify the exact legal provision triggered. Explain why this scenario is constitutionally sensitive.",
+     "a": "Scenario: An Indian citizen by naturalisation is convicted of espionage (passing defence secrets to a foreign power) and sentenced to 3 years imprisonment within 4 years of naturalisation. The Central Government deprives citizenship under Section 10(2)(c) (\"shown himself by act or speech to be disloyal or disaffected towards the Constitution\"). This is sensitive because the person becomes *stateless* (no foreign citizenship acquired), engaging Article 21 (right to life/dignity) and international law obligations (1954 Convention on Stateless Persons). The state must prove \"disloyalty\" beyond reasonable doubt in a fair inquiry. A poor answer fails to link statelessness to constitutional scrutiny.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

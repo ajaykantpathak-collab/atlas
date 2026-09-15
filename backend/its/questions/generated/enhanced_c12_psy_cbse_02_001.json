@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_001",
+   "title": "c12_psy_cbse_02_001",
+   "questions": [
+    {
+     "q": "A student writes: \"My personal identity is that I am a Hindu, and my social identity is that I am honest.\" Identify the error in this classification and state the correct categorisation for each attribute.",
+     "a": "The student has reversed the categories. Personal identity refers to unique attributes that differentiate one person from another (e.g., \"I am honest,\" \"I am a classical dancer,\" \"My name is Priya\"). Social identity refers to aspects linking a person to a social/cultural group (e.g., \"I am a Hindu,\" \"I am a Bengali,\" \"I am a daughter\"). The error reveals confusion between *individuating* traits (personal) and *group-membership* traits (social). A correct answer would classify \"honest\" as personal identity and \"Hindu\" as social identity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what it means to say \"the self is both a subject and an object.\" Give a real-life example that shows both roles operating simultaneously.",
+     "a": "As a subject, the self is the active agent — the \"I\" who thinks, feels, decides, and acts (e.g., \"I am studying psychology\"). As an object, the self is the content of awareness — the \"me\" that is observed, described, and evaluated (e.g., \"I am a student who struggles with deadlines\"). In the example, the *act* of studying makes self a subject; the *self-description* \"student who struggles\" makes self an object. A wrong answer typically gives only one role (e.g., \"self is what I know about myself\") missing the active knower role, or gives two separate examples instead of one simultaneous instance.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says: \"When I am with my friends, I am loud and funny. When I am with my grandparents, I am quiet and respectful. So I have two different selves.\" Using the NCERT concepts of personal self and social/relational self, evaluate Rahul's statement. Is he correct that he has \"two different selves\"? Why or why not?",
+     "a": "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*; rather, his *social self* (relational self) shifts its expression depending on the relational context — friends vs grandparents — while his *personal self* (core values, traits) remains relatively stable. The NCERT distinguishes personal self (personal freedom, achievement, comforts) from social self (cooperation, unity, sacrifice, family relationships). Rahul's behaviour shows contextual activation of different *aspects* of his social self, not a fragmented self. A wrong answer would either agree uncritically (\"yes, he has multiple selves\") or deny any change (\"no, self is always the same\"), missing the nuance of *context-dependent expression* of a unified self.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Western and Indian cultural views of the self-other boundary using the diagram description in Figure 2.1 (textbook). Analyse how this difference explains why a Western individual might experience \"guilt\" when prioritising family over career, while an Indian individual might experience \"fulfilment\" in the same choice.",
+     "a": "The Western view draws a *fixed, dichotomous boundary* between self and other (self ≠ other, self ≠ group). The individual is a bounded, autonomous unit; prioritising family over career violates the cultural script of independence, triggering guilt. The Indian view draws a *shifting, permeable boundary*: the self expands to fuse with the group (family, cosmos) in collective contexts and contracts to individual focus in personal-goal contexts. Prioritising family aligns with the expanded-self script, producing fulfilment. A weak answer merely states \"Western = individualistic, Indian = collectivistic\" without linking the *boundary mechanism* (fixed vs shifting) to the *emotional outcome* (guilt vs fulfilment) in the specific scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"The Indian concept of self is superior to the Western concept because it promotes harmony and reduces conflict.\" Use the NCERT's descriptive (not evaluative) framework to justify your position.",
+     "a": "The NCERT presents both views as *cultural models* — descriptive frameworks for how self-boundaries are culturally shaped — not as normative rankings. Each model has adaptive value in its ecological context: the fixed boundary supports autonomy, innovation, and individual rights (functional in urban, mobile societies); the shifting boundary supports interdependence, social cohesion, and collective resilience (functional in kinship-based, interdependent societies). Declaring one \"superior\" imposes an external value judgment and ignores that both can produce psychological distress when mismatched with situational demands (e.g., Indian students in Western universities may struggle with assertiveness; Western managers in Indian firms may misread relational loyalty as nepotism). A poor answer takes a side without acknowledging the *contextual functionality* of each model.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-item \"Self-Boundary Mapping\" activity for Class 12 students that would help them experientially discover the shifting nature of the Indian self-boundary. Each item must be a sentence stem starting with \"I feel most connected to my group when...\" or \"I feel most separate from my group when...\" and must target a distinct life domain (family, peers, academics, culture, digital).",
+     "a": "Sample items (domains in parentheses):\n1. \"I feel most connected to my group when my family celebrates a festival together and I participate in rituals without questioning them.\" (Family/Culture)\n2. \"I feel most separate from my group when my friends plan a trip but I stay back to prepare for a competitive exam.\" (Peers/Academics)\n3. \"I feel most connected to my group when I see a social media trend from my region and I instantly share it with cousins.\" (Digital/Culture)\n4. \"I feel most separate from my group when my parents expect me to choose a 'safe' career but I want to pursue art.\" (Family/Academics)\n5. \"I feel most connected to my group when I defend my community against an unfair stereotype in an online debate.\" (Digital/Peers)\nA strong answer ensures each item: (a) uses the required stem, (b) targets a distinct domain, (c) captures the *shift* (connection vs separation), and (d) reflects Indian socio-cultural realism. A weak answer repeats domains, uses generic stems, or misses the shifting dynamic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

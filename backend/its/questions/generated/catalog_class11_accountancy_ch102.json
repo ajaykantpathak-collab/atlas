@@ -1,0 +1,336 @@
+{
+ "catalog": "catalog_class11_accountancy_ch102",
+ "concepts": [
+  {
+   "id": "keac.102.1",
+   "title": "Generally Accepted Accounting Principles (GAAP)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Generally Accepted Accounting Principles (GAAP)' refers to.",
+     "a": "Standardised directives and regulatory conventions developed over time to bring uniform presentation and comparability across financial records.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Generally Accepted Accounting Principles (GAAP)'.",
+     "a": "Standard rules ensuring comparability and reliability across financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Generally Accepted Accounting Principles (GAAP)', in plain ASCII form.",
+     "a": "GAAP = Accounting Concepts + Accounting Conventions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.1",
+   "title": "Business Entity Concept",
+   "questions": [
+    {
+     "q": "Using the method 'Business Entity Concept', work with: liability_of_business_to_owner = 12000. Carry the chain through step by step and give the final value of capital.",
+     "a": "12000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Business Entity Concept' and work with: liability_of_business_to_owner = 500. Carry the chain through step by step and give the final value of capital.",
+     "a": "500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Business Entity Concept' refers to.",
+     "a": "The principle treating an enterprise as a distinct legal and operational entity separate from its owners for accounting record-keeping.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Business Entity Concept'.",
+     "a": "Business affairs and personal finances of the owner are maintained in isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Business Entity Concept', in plain ASCII form.",
+     "a": "capital = liability_of_business_to_owner",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.2",
+   "title": "Money Measurement Concept",
+   "questions": [
+    {
+     "q": "Using the method 'Money Measurement Concept', work with: monetary_unit_price = 20000, quantity = 300. Carry the chain through step by step and give the final value of recorded_value.",
+     "a": "6000000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Money Measurement Concept' and work with: monetary_unit_price = 50000, quantity = 15. Carry the chain through step by step and give the final value of recorded_value.",
+     "a": "750000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Money Measurement Concept' refers to.",
+     "a": "The convention that only financial events quantifiable in monetary currency are eligible for recording in accounting books.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Money Measurement Concept'.",
+     "a": "Non-monetary qualitative factors are excluded from financial books.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Money Measurement Concept', in plain ASCII form.",
+     "a": "recorded_value = quantity * monetary_unit_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.3",
+   "title": "Going Concern Concept",
+   "questions": [
+    {
+     "q": "Using the method 'Going Concern Concept', work with: estimated_service_years = 50, total_asset_cost = 8000. Carry the chain through step by step and give the final value of annual_depreciation_charge.",
+     "a": "160 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Going Concern Concept' and work with: estimated_service_years = 10, total_asset_cost = 2500. Carry the chain through step by step and give the final value of annual_depreciation_charge.",
+     "a": "250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Going Concern Concept' refers to.",
+     "a": "The foundational assumption that a business will operate indefinitely without the intention or necessity of liquidation in the foreseeable future.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Going Concern Concept'.",
+     "a": "Assets are amortised over operational life rather than fully expensed immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Going Concern Concept', in plain ASCII form.",
+     "a": "annual_depreciation_charge = total_asset_cost / estimated_service_years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.5",
+   "title": "Historical Cost Concept and Asset Valuation",
+   "questions": [
+    {
+     "q": "Calculate total capitalised cost of plant under the cost concept. Use the method 'Historical Cost Concept and Asset Valuation'. Work with: freight_charge = 240, installation_charge = 8, purchase_price = 5000, repair_charge = 18. Carry the chain through step by step and give the final value of total_cost.",
+     "a": "5266 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the recorded value of machinery including installation and freight charges. Use the method 'Historical Cost Concept and Asset Valuation'. Work with: freight_charge = 4, installation_charge = 240, purchase_price = 80000, repair_charge = 360. Carry the chain through step by step and give the final value of total_cost.",
+     "a": "80604 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Historical Cost Concept and Asset Valuation' refers to.",
+     "a": "The rule requiring assets to be entered in account books at their full acquisition cost including all incidental spending to make them ready for operational use.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historical Cost Concept and Asset Valuation'.",
+     "a": "Assets are recorded at verifiable historical acquisition cost rather than fluctuating market value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Historical Cost Concept and Asset Valuation', in plain ASCII form.",
+     "a": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.6",
+   "title": "Dual Aspect Concept and Accounting Equation",
+   "questions": [
+    {
+     "q": "Calculate capital using the basic accounting equation. Use the method 'Dual Aspect Concept and Accounting Equation'. Work with: total_assets = 500, total_liabilities = 6. Carry the chain through step by step and give the final value of capital.",
+     "a": "494 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find total capital when assets and external liabilities are given. Use the method 'Dual Aspect Concept and Accounting Equation'. Work with: total_assets = 50000, total_liabilities = 80. Carry the chain through step by step and give the final value of capital.",
+     "a": "49920 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dual Aspect Concept and Accounting Equation' refers to.",
+     "a": "The fundamental postulate that every financial transaction exerts a balanced two-sided impact across accounts, maintaining structural equality between assets and claims.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dual Aspect Concept and Accounting Equation'.",
+     "a": "Total resources owned by a firm equal the combined claims of owners and creditors.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dual Aspect Concept and Accounting Equation', in plain ASCII form.",
+     "a": "capital = total_assets - total_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.7",
+   "title": "Revenue Recognition and Matching Concepts",
+   "questions": [
+    {
+     "q": "Using the method 'Revenue Recognition and Matching Concepts', work with: period_matched_expenses = 150, period_realised_revenue = 1500. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "1350 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Revenue Recognition and Matching Concepts' and work with: period_matched_expenses = 150, period_realised_revenue = 150. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revenue Recognition and Matching Concepts' refers to.",
+     "a": "Principles dictating that earning is acknowledged when legal right to income accrues and related operational expenses are offset against revenues of the same period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revenue Recognition and Matching Concepts'.",
+     "a": "Revenues and directly linked generating expenses must fall within identical accounting timeframes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revenue Recognition and Matching Concepts', in plain ASCII form.",
+     "a": "net_profit = period_realised_revenue - period_matched_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.2.11",
+   "title": "Prudence, Full Disclosure, and Consistency Principles",
+   "questions": [
+    {
+     "q": "Using the method 'Prudence, Full Disclosure, and Consistency Principles', work with: cost_price = 2500, net_realisable_market_value = 50000. Carry the chain through step by step and give the final value of inventory_valuation.",
+     "a": "2500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Prudence, Full Disclosure, and Consistency Principles' and work with: cost_price = 12000, net_realisable_market_value = 1200. Carry the chain through step by step and give the final value of inventory_valuation.",
+     "a": "1200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Prudence, Full Disclosure, and Consistency Principles' refers to.",
+     "a": "Accounting principles mandating conservative income reporting, complete financial disclosures, and uniform procedural application across periods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prudence, Full Disclosure, and Consistency Principles'.",
+     "a": "Anticipate all prospective losses while ignoring unearned gains, maintaining full disclosure and consistent methods.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prudence, Full Disclosure, and Consistency Principles', in plain ASCII form.",
+     "a": "inventory_valuation = min(cost_price, net_realisable_market_value)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.3",
+   "title": "Systems and Bases of Accounting",
+   "questions": [
+    {
+     "q": "Using the method 'Systems and Bases of Accounting', work with: earned_revenues = 8000, incurred_expenses = 120000. Carry the chain through step by step and give the final value of accrual_profit.",
+     "a": "-112000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Systems and Bases of Accounting' and work with: earned_revenues = 12000, incurred_expenses = 50000. Carry the chain through step by step and give the final value of accrual_profit.",
+     "a": "-38000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Systems and Bases of Accounting' refers to.",
+     "a": "Frameworks for transaction recording (double entry vs single entry) and timing choices for financial entry (cash basis vs accrual basis).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Systems and Bases of Accounting'.",
+     "a": "Double entry accrual accounting provides complete, accurate matching of financial performance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Systems and Bases of Accounting', in plain ASCII form.",
+     "a": "accrual_profit = earned_revenues - incurred_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.5.1",
+   "title": "Intra-State Goods and Services Tax Calculation",
+   "questions": [
+    {
+     "q": "Calculate CGST and SGST on local sale of goods. Use the method 'Intra-State Goods and Services Tax Calculation'. Work with: cgst_rate = 12, invoice_amount = 50000, sgst_rate = 12. Carry the chain through step by step and give the final value of total_gst.",
+     "a": "12000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find total tax payable on intra-state transaction given CGST and SGST rates. Use the method 'Intra-State Goods and Services Tax Calculation'. Work with: cgst_rate = 18, invoice_amount = 5000, sgst_rate = 8. Carry the chain through step by step and give the final value of total_gst.",
+     "a": "1300 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Intra-State Goods and Services Tax Calculation' refers to.",
+     "a": "Computation of Central GST and State GST payable on commercial transactions occurring within a single state boundary.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intra-State Goods and Services Tax Calculation'.",
+     "a": "Intra-state supplies attract equal splits of CGST and SGST.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intra-State Goods and Services Tax Calculation', in plain ASCII form.",
+     "a": "total_gst = (invoice_amount * cgst_rate / 100) + (invoice_amount * sgst_rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.102.5.2",
+   "title": "Inter-State Goods and Services Tax Calculation",
+   "questions": [
+    {
+     "q": "Calculate IGST on inter-state sale of goods. Use the method 'Inter-State Goods and Services Tax Calculation'. Work with: igst_rate = 25, transaction_value = 2500. Carry the chain through step by step and give the final value of igst_amount.",
+     "a": "625 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find integrated tax amount on transfer of goods between two states. Use the method 'Inter-State Goods and Services Tax Calculation'. Work with: igst_rate = 5, transaction_value = 2500. Carry the chain through step by step and give the final value of igst_amount.",
+     "a": "125 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Inter-State Goods and Services Tax Calculation' refers to.",
+     "a": "Computation of Integrated GST charged on commercial movement of goods or services between different states.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inter-State Goods and Services Tax Calculation'.",
+     "a": "Inter-state supply attracts IGST collected centrally for distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Inter-State Goods and Services Tax Calculation', in plain ASCII form.",
+     "a": "igst_amount = transaction_value * igst_rate / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

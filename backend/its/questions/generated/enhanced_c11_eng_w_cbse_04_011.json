@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_04_011",
+   "title": "c11_eng_w_cbse_04_011",
+   "questions": [
+    {
+     "q": "Identify the specific American spelling variants in the advertisement text that Holmes notices, and state the corresponding British spellings for each.",
+     "a": "The advertisement contains: 'plows' (British: ploughs), 'buckboards' (British: carts/wagons), 'artesian' (used in both but more common in US), and 'Grosvenor Buildings, Aston' (formatting suggests US style). A wrong answer typically misses 'buckboards' or fails to articulate that 'plows' is the smoking gun—students often think 'artesian' is the only marker, revealing they haven't compared the full lexical field of agricultural terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Holmes describes the agony columns as his \"favourite covert for putting up a bird\" and why he would not have overlooked \"a cock pheasant as that.\" What does this metaphor reveal about Holmes's investigative method?",
+     "a": "Holmes compares newspaper personal columns to a hunter's covert (hiding place) where game birds shelter; \"putting up a bird\" means flushing it into the open. A \"cock pheasant\" is a prize male bird—conspicuous and valuable. The metaphor reveals Holmes views investigation as strategic hunting: he monitors the columns systematically (the covert), knows exactly what quarry looks like (the pheasant), and expects criminals to reveal themselves there. Wrong answers treat this as mere decoration, missing that Holmes's \"missing nothing there\" claim is validated by the metaphor's precision—he knows the habitat and habits of his prey.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"idiolect as evidence\" to a new scenario: A character in a mystery claims to be a lifelong resident of Mumbai but writes \"elevator\" instead of \"lift,\" \"apartment\" instead of \"flat,\" and \"sidewalk\" instead of \"pavement\" in a ransom note. What conclusion would Holmes draw, and what specific linguistic category does this fall under?",
+     "a": "Holmes would conclude the writer is either not a lifelong Mumbaikar or is deliberately disguising their identity. This falls under lexical variation (dialect/region-specific vocabulary) within sociolinguistics. The three word pairs (elevator/lift, apartment/flat, sidewalk/pavement) are systematic markers of American vs Indian/British English. A wrong answer might call this \"spelling differences\" (it's vocabulary, not orthography) or miss that the consistency across three independent items makes coincidence statistically impossible—revealing the student doesn't grasp idiolect as a system.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the expression \"castle in the air fell down, it buried him beneath the ruins\" operates on three levels: literal imagery, psychological characterization of Nathan Garrideb, and thematic commentary on the story's central deception.",
+     "a": "Level 1 (literal): A castle built in the air is impossible; its collapse buries the builder—physical impossibility made visceral. Level 2 (psychological): Nathan's \"castle\" was his fantasy of becoming \"the Hans Sloane of my age\" with five million dollars; the \"ruins\" are his shattered identity as a scholar/collector. Level 3 (thematic): The Garrideb inheritance itself was a castle in the air—fabricated by Evans; all three men (Nathan, John, Holmes) were \"buried\" by its collapse in different ways (Nathan's breakdown, Evans's capture, Holmes's wound). Wrong answers stop at \"it means his dreams were destroyed,\" missing the structural parallel between Nathan's fantasy and Evans's scheme—both were air-castles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Conan Doyle's use of American vs British spelling as a plot device versus his use of figurative language. Which provides more reliable evidence for Holmes's deduction, and why?",
+     "a": "The spelling evidence is objectively verifiable and indisputable—'plows' vs 'ploughs' is a binary fact requiring no interpretation. The figurative language (covert, pheasant, bolt-hole) supports Holmes's psychological profile of Evans but could be dismissed as colorful speech. Spelling is hard evidence; metaphor is soft evidence. In court, the advertisement would be Exhibit A; Holmes's hunting metaphors would be expert testimony. Wrong answers claim the metaphors are \"more clever\" or \"show Holmes's brilliance,\" confusing literary artistry with evidentiary weight—the student hasn't distinguished between narrative technique and forensic logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short paragraph (50-60 words) from the perspective of a modern-day forensic linguist analyzing the advertisement text, using at least three technical terms from sociolinguistics (e.g., orthographic variation, lexical marker, idiolect, dialect leveling) to explain why the document is fraudulent.",
+     "a": "The advertisement exhibits systematic orthographic variation ('plows', 'buckboards') inconsistent with the purported British issuer. These lexical markers function as shibboleths revealing an American idiolect. The absence of dialect leveling—the writer doesn't adapt to local norms—confirms deliberate fabrication rather than natural variation. A competent answer uses terms precisely; a poor answer drops jargon without syntactic integration (\"The idiolect shows orthographic variation of plows\") revealing superficial mimicry of register.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

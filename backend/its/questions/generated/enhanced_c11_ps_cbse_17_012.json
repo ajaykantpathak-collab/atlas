@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_012",
+   "title": "c11_ps_cbse_17_012",
+   "questions": [
+    {
+     "q": "A student states: \"The 73rd Amendment gave Panchayats all 29 subjects in the Eleventh Schedule, so they have full functional autonomy.\" Identify the factual error and cite the specific constitutional provision that reveals the actual legal position.",
+     "a": "**Error:** The Eleventh Schedule (Article 243-G) lists 29 subjects **on which the State Legislature *may* endow Panchayats with powers and authority** — it is not an automatic transfer. The phrase \"may by law endow\" makes devolution discretionary, not mandatory. **What the wrong answer reveals:** The student confuses the *listing* of subjects with *actual devolution*. They have not grasped that Article 243-G requires a separate state law (Panchayati Raj Act) to operationalize each function, and most states have not devolved all 29 subjects fully.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the \"parallel bodies\" problem (e.g., state-level Water Supply Boards, Health Societies, Education Missions) persist even after the 73rd/74th Amendments mandated activity mapping? Explain using the concept of \"functionaries\" and state bureaucracy incentives.",
+     "a": "**Correct reasoning:** Parallel bodies persist because state line departments retain control over **functionaries** (specialized staff like engineers, doctors, teachers) and **funds** (centrally sponsored scheme budgets). The bureaucracy has no incentive to transfer staff accountable to elected local leaders, as it weakens their administrative control and patronage networks. Activity mapping (function division) remains notional without concomitant transfer of functionaries and funds. **What the wrong answer reveals:** A student blaming \"lack of political will\" alone misses the structural incentive: state officials derive authority from controlling functionaries; transferring them erodes their power base.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat in Karnataka receives ₹15 lakh under the 15th Finance Commission grant (untied) and ₹40 lakh under MGNREGS (tied, wage-only). The Sarpanch wants to use ₹10 lakh from MGNREGS material component for a community hall. The Block Development Officer (BDO) rejects it. Apply the \"Funds\" challenge framework to explain: (a) why the BDO has this power, and (b) which constitutional article is violated in spirit.",
+     "a": "**(a)** MGNREGS is a centrally sponsored scheme with **tied funds** — guidelines issued by the Union Ministry of Rural Development mandate 60:40 wage-material ratio and prescribe permissible works. The BDO, as state government representative, enforces these guidelines. **(b)** Article 243-H (Panchayats' power to impose taxes) and Article 243-I (State Finance Commission) intend **untied, predictable own revenues and formula-based devolution** so Panchayats set local priorities. Tied funds from CSS (Centrally Sponsored Schemes) bypass the SFC mechanism, violating the **spirit of fiscal federalism** embedded in Article 243-I. **What the wrong answer reveals:** A student saying \"BDO is corrupt\" or \"Sarpanch is wrong\" misses the systemic issue: **tied funds + bureaucratic approval = functional unfreedom** even with constitutional status.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Functionaries\" challenge in a Municipal Corporation (e.g., Bengaluru/BBMP) versus a Gram Panchayat. Analyze how the **nature of dual control** differs due to the presence of a Commissioner (IAS) in corporations versus a Panchayat Secretary (state civil servant) in villages.",
+     "a": "**Municipal Corporation:** The Commissioner (IAS, state cadre) holds **executive power** under the Municipal Corporation Act; the Mayor is largely ceremonial. Functionaries (engineers, health officers) report to the Commissioner, not the Mayor. Dual control is **vertical** — state government ↔ Commissioner ↔ staff. **Gram Panchayat:** The Panchayat Secretary (often a lower-level state employee) is *administratively* subordinate to the Block Development Officer but *functionally* accountable to the Sarpanch. Dual control is **diagonal** — state ↔ BDO ↔ Secretary ↔ Sarpanch. **Key difference:** In corporations, the state *replaces* local executive authority; in Panchayats, the state *inserts* a layer between elected head and staff. **What the wrong answer reveals:** Treating both as \"state control\" misses the institutional design variation: 74th Amendment (Article 243-W) left executive power to state legislatures, enabling Commissioner-dominated models; 73rd Amendment (Article 243-G) envisaged Panchayats as self-governing, but state acts created the Secretary-BDO-Sarpanch triad.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Increasing the share of untied grants from the State Finance Commission (SFC) will automatically solve the Funds challenge for local bodies.\" Judge this using evidence from SFC reports and the distinction between **vertical** and **horizontal** fiscal gaps.",
+     "a": "**Judgment: False.** Increasing SFC untied share addresses the **vertical gap** (State ↔ Local), but three structural issues remain: (1) **Horizontal gap** — SFC formulas often use population/area, ignoring revenue-raising capacity (e.g., property tax potential), so poorer Panchayats stay poor; (2) **Predictability** — SFC recommendations are often accepted with cuts or delays by state governments (violating Article 243-I(2)); (3) **Own-source revenue erosion** — untied grants reduce incentive to collect property tax/user charges (moral hazard). Evidence: 15th FC report notes only 15% of Panchayat revenue is own-source; Karnataka SFC 2021 showed 40% shortfall in devolution vs recommendation. **What the wrong answer reveals:** Equating \"more money\" with \"solved funds challenge\" ignores **fiscal autonomy** — the ability to *decide* and *raise* resources, not just receive them.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **three-point reform proposal** for your State Government to address the Functionaries challenge in Panchayats, ensuring each point targets a distinct root cause: (1) recruitment, (2) accountability, (3) capacity. Justify each with a constitutional or administrative principle.",
+     "a": "**Proposal:**\n1. **Recruitment:** Create a **Panchayat Service Cadre** (Group C/D) recruited by a **State Panchayat Service Commission** (independent body), not by line departments. *Principle:* Article 243-G read with Article 309 — local bodies need their own staff to exercise devolved functions; current deputation system violates \"accountability to local electorate.\"\n2. **Accountability:** Amend State Panchayati Raj Act to make **Panchayat Secretary report functionally to Sarpanch/Gram Panchayat** for daily work, with BDO retaining only *administrative* supervision (leave, transfer). *Principle:* Subsidiarity — decisions closest to citizens; dual control must be structured, not ambiguous.\n3. **Capacity:** Mandatory **induction + periodic domain training** (public finance, MGNREGS, water supply, e-governance) funded by SFC, certified by State Institute of Rural Development. *Principle:* Article 243-G \"powers and authority\" includes *competence*; untrained staff cannot exercise authority effectively.\n**What a poor answer reveals:** Proposing \"more training\" without fixing recruitment/accountability treats symptoms; proposing \"transfer all staff\" without a cadre ignores fiscal-administrative feasibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 8,
+ "chapter_title": "Animal Cell Culture",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt108.1",
+   "title": "Animal Cell Culture Media and Serum",
+   "section": "8.2",
+   "definition": "Animal cells drink a broth of amino acids, glucose, salts, vitamins, hormones and serum, the fetal bovine kind being favourite; natural media of plasma and embryo extract reproducibility poorly, synthetic formulations run from serum-containing through serum-free and xeno-free to protein-free and chemically defined salt solutions, and serum itself both feeds and fouls - growth factors and adhesion proteins on one side, batch variability, contaminants and purification headaches on the other.",
+   "formula": "-",
+   "key_idea": "Serum feeds attachment and growth but carries variability and contamination - synthetic serum-free recipes trade convenience for control.",
+   "textbook_ref": "lebt108.txt sections 8.1-8.2, Boxes 2-3",
+   "question_patterns": [
+    "differentiate natural media from artificial synthetic media for animal cell culture",
+    "list three advantages and three disadvantages of serum in culture media",
+    "why is fetal bovine serum commonly used to support cell growth",
+    "which binding proteins of serum carry molecules into cultured cells",
+    "name the four categories of synthetic media and one feature of each",
+    "why do balanced salt solutions maintain physiological pH and osmotic pressure",
+    "which commonly added antibiotics control contamination in culture medium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the medium",
+     "explain": "Natural clots and extracts versus synthetic basal media with defined supplements."
+    },
+    {
+     "step": 2,
+     "action": "weigh the serum",
+     "explain": "Serum donates growth, attachment and transport factors but varies by batch and risks contamination."
+    },
+    {
+     "step": 3,
+     "action": "match to purpose",
+     "explain": "Serum-free, xeno-free, protein-free or chemically defined recipes suit pharmaceutical and selective needs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which serum is the animal-culture favourite: fetal bovine serum or plant sap?",
+     "a": "fetal bovine serum"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.2",
+   "title": "Phenol Red and Culture Buffering Systems",
+   "section": "8.3",
+   "definition": "Cultures breathe in 37 degree incubators gassed with five to ten percent carbon dioxide at about 300 mOsmol osmolality, their pH held by bicarbonate's Le Chatelier dance or by HEPES in the 7.2-7.4 window; phenol red plays traffic light - yellow below 6.8, bright red at the optimal 7.4, pink above 8.2 - while pyruvate lets cells make their own carbon dioxide.",
+   "formula": "colour_span = alkaline_ph - acidic_ph",
+   "key_idea": "Measure the pH window phenol red watches, and compare its midpoint with the optimum to see the buffer's job.",
+   "textbook_ref": "lebt108.txt section 8.3, Fig. 8.1, Box 4",
+   "question_patterns": [
+    "phenol red turns yellow below pH 6.8 and pink above 8.2 - compute the span and midpoint of its colour range",
+    "how does the bicarbonate carbon dioxide buffer hold the medium pH steady",
+    "what advantages does HEPES buffering hold over the natural bicarbonate system",
+    "why are mammalian cells incubated at 37 degrees celsius with five to ten percent carbon dioxide",
+    "what osmolality do commercial media target and which components set it",
+    "why does adding pyruvate reduce dependence on exogenous carbon dioxide",
+    "which colour does phenol red show at optimal pH and at acidic pH"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "span the colours",
+     "explain": "Subtract the acidic turning point from the alkaline one.",
+     "compute": "colour_span = alkaline_ph - acidic_ph"
+    },
+    {
+     "step": 2,
+     "action": "find the midpoint",
+     "explain": "Average the two turning points to locate the middle of the range.",
+     "compute": "mid_ph = (acidic_ph + alkaline_ph) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Animal cell cultures incubate at what temperature: 37 degrees Celsius or 90?",
+     "a": "37"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.3",
+   "title": "Laminar Hoods and CO2 Incubators",
+   "section": "8.4",
+   "description": "",
+   "definition": "Aseptic work happens inside laminar flow cabinets where pre-filters and HEPA filtration wash the bench in sterile air - vertical downflow protecting the operator better than horizontal crossflow - while carbon dioxide incubators hold 37 degrees, five to ten percent carbon dioxide and about 95 percent humidity, and an inverted phase-contrast microscope watches morphology, blebbing and early contamination daily.",
+   "formula": "-",
+   "key_idea": "Filtered airflow guards the culture from you, and the incubator guards it from the world - check both every day.",
+   "textbook_ref": "lebt108.txt section 8.4, Figs. 8.2-8.5",
+   "question_patterns": [
+    "differentiate vertical from horizontal laminar flow hoods on the basis of operator safety",
+    "how do HEPA filters maintain the sterile work area of a biosafety cabinet",
+    "list the conditions a carbon dioxide incubator must hold for mammalian cells",
+    "why is the carbon dioxide cylinder kept outside and piped into the laboratory",
+    "which signs of cell stress can an inverted phase-contrast microscope reveal",
+    "why is a 20x objective usually sufficient for routine culture checking"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "work aseptically",
+     "explain": "Draw air through pre-filter and HEPA into a positive-pressure vertical flow cabinet."
+    },
+    {
+     "step": 2,
+     "action": "incubate steadily",
+     "explain": "Maintain temperature, humidity and carbon dioxide levels with bicarbonate-buffered medium."
+    },
+    {
+     "step": 3,
+     "action": "inspect daily",
+     "explain": "Check medium colour and cell morphology under the inverted microscope for stress or contamination."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which airflow direction protects the operator better: vertical downflow or horizontal crossflow?",
+     "a": "vertical downflow"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.4",
+   "title": "Primary Secondary Finite and Continuous Cell Lines",
+   "section": "8.5",
+   "description": "",
+   "definition": "Cells taken straight from tissue form primary cultures of mixed, parent-like cells; passaging them builds secondary lines where the fastest growers dominate, and lifespan splits the lineage - finite lines senesce after limited divisions while transformed cells immortalise into continuous lines that grow densely, loosely and even in suspension, as HeLa cells have done since George Gey cultured them from Henrietta Lacks in 1951.",
+   "formula": "-",
+   "key_idea": "Fresh tissue gives finite, faithful cultures; transformation buys immortality at the price of tumorigenic change.",
+   "textbook_ref": "lebt108.txt sections 8.5 and Box 1",
+   "question_patterns": [
+    "differentiate primary cell culture from secondary cell culture with respect to how each is obtained",
+    "define finite cell lines and explain senescence in passaged normal cells",
+    "how do cells of a finite line transform into a continuous cell line",
+    "why are continuous cell lines described as immortal and tumorigenic",
+    "what makes the HeLa cell line historically important in animal cell culture",
+    "compare adherent monolayer cultures with suspension cultures giving two examples of each",
+    "what is a passage number and what happens to cells crowded at confluence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "source the cells",
+     "explain": "Disaggregate tissue mechanically or with trypsin and collagenase to seed the primary culture."
+    },
+    {
+     "step": 2,
+     "action": "passage the culture",
+     "explain": "Subculturing generates secondary lines of increasing uniformity."
+    },
+    {
+     "step": 3,
+     "action": "classify the lifespan",
+     "explain": "Finite lines stop at senescence; transformed continuous lines divide indefinitely."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Cells taken straight from tissue form what cultures: primary or secondary?",
+     "a": "primary"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.5",
+   "title": "Subculture and Cryopreservation of Cells",
+   "section": "8.5",
+   "definition": "Crowded monolayers are split by trypsinising cells off the vessel, centrifuging and reseeding into fresh flasks - each split raising the passage number - while long-term stocks sleep in liquid nitrogen at minus 180 to minus 196 degrees celsius, below minus 130 ice crystals fade, a freezing medium of ninety percent serum with ten percent DMSO or glycerol cushions the cells, slow cooling to minus 80 lets water leave, and thawing rushes back at 37 degrees.",
+   "formula": "dmso_volume = freeze_volume * dmso_pct / 100",
+   "key_idea": "Take ten percent of the freezing medium as cryoprotectant, cool slowly, thaw fast.",
+   "textbook_ref": "lebt108.txt sections 8.5-8.6, Fig. 8.6",
+   "question_patterns": [
+    "how is a freezing medium prepared with 90 percent serum and 10 percent DMSO - compute the DMSO in 10 mL",
+    "why must cells be cooled slowly to minus 80 before storage in liquid nitrogen",
+    "at what temperature range are cells stored for cryopreservation and why below minus 130",
+    "which cryoprotective agents reduce freezing damage to cultured cells",
+    "describe the steps of subculturing adherent cells including the enzyme used",
+    "why should thawing be rapid in a 37 degree water bath",
+    "what does the passage number of a cell line record"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "dose the protectant",
+     "explain": "DMSO makes a fixed percent of the freezing medium volume.",
+     "compute": "dmso_volume = freeze_volume * dmso_pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "add the serum share",
+     "explain": "Serum fills the remainder of the freezing medium.",
+     "compute": "serum_volume = freeze_volume - dmso_volume"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Cryopreservation stocks sleep in liquid nitrogen at about what temperature: minus 196 degrees Celsius or plus 196?",
+     "a": "minus 196"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.6",
+   "title": "Cell Viability by Dye Exclusion and MTT",
+   "section": "8.6",
+   "definition": "Counting the living drives toxicology and drug testing through two assays: dye exclusion lets trypan blue, propidium iodide or 7-AAD slip only into membrane-broken dead cells, and metabolic assays such as MTT ask live mitochondria to reduce a yellow tetrazolium salt into purple formazan whose dissolved colour scales with the number of surviving cells.",
+   "formula": "-",
+   "key_idea": "Dead cells leak dye in; live cells turn MTT purple - either signal reads out viability.",
+   "textbook_ref": "lebt108.txt section 8.6, Figs. 8.7-8.8",
+   "question_patterns": [
+    "why do live cells exclude trypan blue while dead cells take it up",
+    "describe the chemistry of the MTT assay and the product it forms in live cells",
+    "which enzyme activity does the MTT assay report in viable cells",
+    "name two dyes used in dye exclusion viability assays besides trypan blue",
+    "how are viability assays applied to pesticide and drug evaluation",
+    "how is the coloured formazan of the MTT assay measured after dissolution in DMSO"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "probe the membrane",
+     "explain": "Add exclusion dye; only membrane-compromised dead cells stain."
+    },
+    {
+     "step": 2,
+     "action": "probe metabolism",
+     "explain": "Offer MTT; mitochondrial dehydrogenases of live cells reduce it to formazan."
+    },
+    {
+     "step": 3,
+     "action": "quantify",
+     "explain": "Count stained or unstained cells, or read formazan absorbance, to score viability."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which dye enters only membrane-broken dead cells: trypan blue or methylene blue?",
+     "a": "trypan blue"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.7",
+   "title": "Growth Timing of Cultured Animal Cells",
+   "section": "8 opening",
+   "definition": "Animal cells divide slowly - eighteen to twenty-four hours per generation - so a culture doubles once a day at best, leaving any stray bacterium to overgrow the flask within a day and making asepsis the difference between a clean line and contamination; population size still follows the doubling rule across days.",
+   "formula": "cells_after = starter_cells * 2 ** divisions",
+   "key_idea": "Double once per division cycle and divide total hours by hours per division to time any culture's expansion.",
+   "textbook_ref": "lebt108.txt chapter opening (18 to 24 hours to divide)",
+   "question_patterns": [
+    "animal cells divide once every 24 hours - how many cells stand after 5 divisions starting from 200 cells",
+    "how long does a culture starting from 100 cells take to reach about 1600 cells at 20 hours per division",
+    "why does the slow growth of animal cells make cultures vulnerable to bacterial contamination",
+    "compute the days needed for a 10-fold population rise when cells divide every 24 hours approximately",
+    "how does a doubling time of 18 to 24 hours shape the schedule of subculturing",
+    "why can a small number of bacteria soon outgrow a larger animal cell population"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double per division",
+     "explain": "Each division cycle doubles the population.",
+     "compute": "cells_after = starter_cells * 2 ** divisions"
+    },
+    {
+     "step": 2,
+     "action": "time the expansion",
+     "explain": "Multiply divisions by the hours each division takes, then convert to days.",
+     "compute": "days_elapsed = divisions * hours_per_div / 24"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Animal cells divide once every how many hours: eighteen to twenty-four, or two?",
+     "a": "eighteen to twenty-four"
+    }
+   ]
+  },
+  {
+   "id": "lebt108.8",
+   "title": "Pharmaceutical Proteins from CHO Cell Culture",
+   "section": "8.8",
+   "definition": "Chinese hamster ovary cells manufacture a pharmacy of human proteins - erythropoietin for anaemia, factors VIII and IX for haemophilia, tissue plasminogen activator for strokes as the first drug ever made in mammalian culture, follicle-stimulating hormone, growth hormone and interleukin-2 - while hybridoma-derived monoclonals from the transplant drug OKT3 to the HER2-blocking trastuzumab treat cancer and autoimmune disease.",
+   "formula": "-",
+   "key_idea": "One cell line, many medicines - CHO bioreactors and hybridomas now supply clotting factors, hormones and targeted antibodies.",
+   "textbook_ref": "lebt108.txt section 8.8, Table 8.3, Figs. 8.9-8.10",
+   "question_patterns": [
+    "which cell line produces erythropoietin and which disease does recombinant EPO treat",
+    "why is tissue plasminogen activator a landmark of mammalian cell culture pharmaceuticals",
+    "differentiate the therapeutic uses of factor VIII and factor IX produced in CHO cells",
+    "how does OKT3 monoclonal antibody reverse acute transplant rejection",
+    "how does trastuzumab act against HER2-positive breast cancer cells",
+    "list four pharmaceutical proteins listed for CHO cells with their clinical uses",
+    "what advantage does recombinant EPO hold over repeated blood transfusion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match protein to disease",
+     "explain": "EPO for anaemia, factors VIII and IX for haemophilias, tPA for clots, antibodies for cancer and rejection."
+    },
+    {
+     "step": 2,
+     "action": "name the factory",
+     "explain": "CHO cells secrete the glycoproteins; hybridomas secrete the monoclonal antibodies."
+    },
+    {
+     "step": 3,
+     "action": "cite the mechanism",
+     "explain": "EPO boosts red cell production, tPA dissolves fibrin clots, OKT3 silences T cells, trastuzumab blocks HER2 signals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which cell line manufactures erythropoietin: CHO or HeLa?",
+     "a": "CHO"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt108.txt chapter opening (18-24 hours per division)",
+   "concept": "lebt108.7",
+   "question_type": "compute",
+   "question_pattern": "A culture of {starter_cells} animal cells divides once every {hours_per_div} hours. Find the cell count after {divisions} division cycles and the elapsed time in days.",
+   "extracted_variables": {
+    "starter_cells": "cells at the start of culture",
+    "hours_per_div": "hours taken per cell division",
+    "divisions": "number of division cycles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double per division",
+     "explain": "Every cycle doubles the population.",
+     "compute": "cells_after = starter_cells * 2 ** divisions"
+    },
+    {
+     "step": 2,
+     "action": "convert to days",
+     "explain": "Total hours divided by twenty-four gives days.",
+     "compute": "days_elapsed = divisions * hours_per_div / 24"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt108.txt section 8.5 (freezing medium 90 percent serum and 10 percent DMSO)",
+   "concept": "lebt108.5",
+   "question_type": "compute",
+   "question_pattern": "A freezing medium of {freeze_volume} mL contains {dmso_pct} percent DMSO with serum making up the rest. Compute the DMSO volume and the serum volume to add.",
+   "extracted_variables": {
+    "freeze_volume": "total volume of freezing medium in mL",
+    "dmso_pct": "percent of DMSO in the freezing medium"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "dose the DMSO",
+     "explain": "DMSO is a fixed percent of the total volume.",
+     "compute": "dmso_volume = freeze_volume * dmso_pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "fill with serum",
+     "explain": "Serum supplies the remainder of the volume.",
+     "compute": "serum_volume = freeze_volume - dmso_volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt108-ex1",
+   "source_ref": "lebt108.txt Exercises (questions 1-21)",
+   "questions": [
+    "Define animal cell culture and describe its media and their types with the merits and demerits of serum.",
+    "Describe any two chemically synthesised media used for animal cells.",
+    "What is primary cell culture and how is it developed - also explain subculture or passaging of cells.",
+    "Differentiate finite and continuous cell lines with the example of the HeLa line.",
+    "How is cell viability measured - compare dye exclusion assays with the MTT assay.",
+    "Write a detailed account of the applications of animal cell culture including CHO-produced pharmaceutical proteins.",
+    "Identify why sodium bicarbonate is added to media, which medium is protein-free, and what the MTT assay tests.",
+    "Evaluate the assertions on serum as a culture component and on finite lines giving rise to continuous lines."
+   ]
+  }
+ ]
+}

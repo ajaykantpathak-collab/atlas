@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_005",
+   "title": "c11_geo_cbse_20_005",
+   "questions": [
+    {
+     "q": "Name the eight major industrial regions of India as per NCERT Class 11 and give one distinctive locational factor for each.",
+     "a": "The eight regions: 1) Mumbai-Pune (cotton hinterland + port + capital), 2) Hugli (jute + coal + river transport + Kolkata port), 3) Bangalore-Tamil Nadu (diverse: textiles, electronics, aerospace + skilled labour + pleasant climate), 4) Gujarat (cotton, petrochemicals, ports + entrepreneurial culture), 5) Chotanagpur (iron ore, coal, power = heavy metallurgy), 6) Vishakhapatnam-Guntur (port + shipbuilding, fertilizers, steel + agricultural hinterland), 7) Gurgaon-Delhi-Meerut (market + transport + policy + IT/auto), 8) Kollam-Thiruvananthapuram (agro-processing, cashew, fisheries + port + literacy). A wrong answer (e.g., missing Kollam or confusing Chotanagpur with Durgapur only) reveals the student memorises a list without linking each region to its *primary* resource base.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Hugli industrial region extend linearly along the river rather than spreading radially like the Mumbai-Pune region?",
+     "a": "Hugli's linearity stems from historical dependence on *riverine transport* (Hooghly River) for raw jute movement from Bengal delta to mills and finished goods to Kolkata port, combined with *coal from Raniganj* brought via rail lines paralleling the river. Mumbai-Pune spreads radially because its advantages (cotton hinterland in all directions, multiple power sources, radial rail/road network from a peninsula port) are multidirectional. A student who answers \"both are near water\" misses the *transport modality* distinction: river vs. sea + rail radiality.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'agglomeration economies', explain why the Bangalore-Tamil Nadu region diversified from textiles into electronics, aerospace, and biotechnology while the Chotanagpur region remains dominantly heavy metallurgical.",
+     "a": "Bangalore-Tamil Nadu benefited from *urbanisation economies*: a large skilled labour pool (engineering colleges), pleasant climate attracting talent, early public investment (HAL, ITI, ISRO), and diversified market access (ports + domestic). This created *knowledge spillovers* enabling sectoral jumping. Chotanagpur exhibits *localisation economies* specific to metallurgy: co-location of iron ore, coking coal, limestone, and power creates huge *transport cost savings* for weight-losing industries, but offers no inherent advantage for footloose sectors. A wrong answer citing only \"government policy\" ignores the *path dependence* locked in by factor endowments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of *ports* in the Gujarat and Vishakhapatnam-Guntur industrial regions. How does the nature of the hinterland modify the port's influence?",
+     "a": "Gujarat's multiple ports (Kandla, Mundra, Pipavav, Dahej) serve a *vast, resource-rich hinterland* (cotton, salt, limestone, oil/gas, minerals) enabling diverse export-oriented clusters (petrochemicals at Dahej, ceramics at Morbi, textiles at Surat). Vishakhapatnam's single deep-water port serves a *narrower hinterland* (iron ore from Bailadila, agricultural produce from Godavari delta), leading to specialised clusters (steel, fertilizers, shipbuilding). A student who says \"both have ports so both are export-oriented\" misses how *hinterland breadth* determines industrial *diversity*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Gurgaon-Delhi-Meerut region's growth is primarily driven by market access rather than raw material availability.\" Support with two pieces of evidence.",
+     "a": "Correct evaluation: The statement is *largely true* for the modern phase (post-1980s). Evidence 1: Dominance of *footloose industries* (ITES, auto assembly, electronics, garments) that use ubiquitous inputs (components, skilled labour) and prioritise proximity to the massive NCR consumer market (30+ million) and airport connectivity. Evidence 2: Absence of significant mineral/energy resources locally — power is imported from distant grids, steel comes from Bhilai/Rourkela. However, early phase (pre-1970s) did utilise *agro-based raw materials* (sugarcane, cotton) from UP/Haryana. A student claiming \"no raw material at all\" ignores the historical agro-industrial base.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision matrix for a new lithium-ion battery gigafactory choosing between the Gujarat and Bangalore-Tamil Nadu regions. Use five locational factors with weighted scores (total 100) and justify the weights.",
+     "a": "A strong answer assigns weights reflecting *battery industry specifics*: 1) Port access for imported lithium/cobalt (25%) — Gujarat wins (multiple deep-draft ports). 2) Skilled chemical/electrical engineering labour (20%) — Bangalore wins (IISc, IITs, established EV ecosystem). 3) Reliable industrial power (20%) — Gujarat wins (surplus grid, renewable integration). 4) R&D ecosystem & policy incentives (20%) — Bangalore wins (startup culture, Karnataka EV policy). 5) Domestic market access (15%) — Tie (both well-connected). Final scores should be close, showing *trade-off analysis*. A poor answer uses generic weights (e.g., equal 20% each) or ignores *sector-specific* needs like hazardous chemical handling infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_7",
+   "title": "c9_eco_ch2_7",
+   "questions": [
+    {
+     "q": "Define 'supply' in economics. How does it differ from 'quantity supplied'?",
+     "a": "Supply is the entire relationship between price and quantity supplied — a schedule or curve showing quantities producers plan to sell at each possible price. Quantity supplied is a single point on that schedule: the specific amount offered at a particular price. A wrong answer (e.g., \"supply is how much is in the warehouse\") reveals the student confuses stock (inventory) with supply (a flow of planned sales), or treats supply as a fixed number rather than a price-dependent plan.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the law of supply state a positive relationship between price and quantity supplied? Explain using the concept of marginal cost.",
+     "a": "As output increases, marginal cost typically rises due to diminishing returns (e.g., overtime wages, less fertile land). Producers only increase output if the market price covers this higher marginal cost. A higher price makes additional units profitable. A wrong answer (e.g., \"producers are greedy\" or \"higher price means more revenue\") reveals confusion between revenue and profit, or ignores the cost side of production decisions. The student must link price to marginal cost, not just total revenue.",
+     "self_check": true
+    },
+    {
+     "q": "A dairy farmer in Gujarat supplies milk at different prices as shown: at ₹40/litre, 200 litres; at ₹50/litre, 280 litres; at ₹60/litre, 350 litres. (a) Construct the supply schedule. (b) Calculate the change in quantity supplied when price rises from ₹40 to ₹60. (c) Is this a change in supply or quantity supplied? Justify.",
+     "a": "(a) Supply Schedule: Price (₹/L) | Qty Supplied (L) — 40 | 200; 50 | 280; 60 | 350. (b) Change = 350 – 200 = 150 litres. (c) This is a change in *quantity supplied* (movement along the supply schedule) because only the own price of milk changed; no determinant of supply (input costs, technology, etc.) shifted. A wrong answer calling it a \"change in supply\" reveals the student cannot distinguish between a movement along a fixed schedule (caused by own price) and a shift of the entire schedule (caused by non-price factors).",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) A shoe factory increases output from 1,000 to 1,500 pairs when the market price rises from ₹500 to ₹700 per pair. (B) The same factory increases output from 1,000 to 1,500 pairs at the *same* price of ₹500 after installing a new automated stitching machine. Identify which scenario illustrates the law of supply and which illustrates a determinant of supply. Explain the economic difference.",
+     "a": "Scenario A illustrates the law of supply: quantity supplied changes *due to a change in the good's own price*, a movement along the supply curve. Scenario B illustrates a change in supply (a shift): output increases *at the same price* due to improved technology (a non-price determinant). The economic difference: A reflects a response to a price signal along a given cost structure; B reflects a change in the cost structure itself (lower marginal cost at every output level), shifting the entire supply schedule rightward. A wrong answer (e.g., both are law of supply) reveals the student cannot separate price-induced movements from determinant-induced shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If the government imposes a minimum support price (MSP) for wheat above the equilibrium price, farmers will supply more wheat, so the MSP always increases farmers' total revenue.\" Is this always true? Use the law of supply and the concept of unsold surplus to justify.",
+     "a": "Not always true. The law of supply says farmers *will offer* more wheat at the higher MSP (quantity supplied rises). However, if the market demand at that price is lower, a surplus emerges — the government must buy the unsold stock, or it rots. Total revenue = price × quantity *actually sold*. If the government does not procure the surplus, farmers may sell *less* than before at the lower equilibrium price. Even with procurement, fiscal cost falls on taxpayers. A wrong answer (\"yes, higher price always means more revenue\") ignores the difference between quantity supplied and quantity sold, and confuses supply-side intention with market clearance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a supply schedule for a hypothetical vegetable vendor in a Delhi weekly market who sells tomatoes. Assume the vendor can source tomatoes from three farms with increasing transport costs: Farm A (local, 100 kg at ₹20/kg), Farm B (50 km, 150 kg at ₹25/kg), Farm C (100 km, 200 kg at ₹35/kg). The vendor sells at the market price. Show the schedule and explain the step-wise shape.",
+     "a": "Supply Schedule: Price (₹/kg) | Qty Supplied (kg) — Below 20 | 0; 20–24 | 100 (only Farm A); 25–34 | 250 (Farms A+B); 35+ | 450 (All three). The step-wise shape occurs because each farm has a minimum price (reservation price) covering its marginal cost (production + transport). The vendor adds sources sequentially as price rises. A poor answer (smooth linear schedule) reveals the student assumes continuous marginal cost increase, not discrete supply sources with fixed capacities — a common error when ignoring real-world supply chain constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

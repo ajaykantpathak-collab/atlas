@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_10_008",
+   "title": "c11_eng_h_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" and \"metaphor\" precisely as literary devices. Give one example of each from general literature (not from this poem).",
+     "a": "Imagery: Language appealing to the five senses to create sensory experiences (e.g., \"The yellow fog rubbed its back upon the window-panes\" — tactile/visual from Eliot). Metaphor: Direct comparison stating A is B (e.g., \"All the world's a stage\" — Shakespeare). A wrong answer listing \"simile\" as metaphor or limiting imagery to only visual description reveals confusion between comparative devices and sensory scope.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Voice of the Rain\", the rain says: \"I am the Poem of Earth.\" Explain why this is a metaphor and not a simile. What two things are being compared, and what quality is transferred?",
+     "a": "It is a metaphor because it directly equates rain (\"I\") with \"Poem of Earth\" without \"like/as\". The tenor = rain/water cycle; vehicle = poem/song. Transferred qualities: structured creativity, eternal recurrence, beauty, communication, origin-from-earth-and-return. A wrong answer identifying \"like/as\" (absent here) or missing the \"poem\" as vehicle shows inability to distinguish metaphor mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Scan the poem and list one word/phrase for each: visual imagery, auditory imagery, tactile imagery, kinesthetic (movement) imagery. Do not reuse the same line for multiple types.",
+     "a": "Visual: \"soft-falling shower\", \"clouds\", \"rain-drops\". Auditory: \"voice\", \"song\", \"singing\". Tactile: \"impalpable\", \"cool\", \"wash\". Kinesthetic: \"rise\", \"descend\", \"fall\", \"return\". A wrong answer missing kinesthetic or duplicating lines reveals inability to distinguish sensory modes or track the cycle's motion.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the imagery in the lines describing the rain's upward journey (\"eternal I rise impalpable...\") differs from the imagery of its downward journey (\"I descend to lave...\"). What does this contrast reveal about the metaphor?",
+     "a": "Upward: abstract, invisible (\"impalpable\", \"vaguely form'd\", \"forever changing\") — suggests potential, mystery, formlessness. Downward: concrete, active (\"lave\", \"wash\", \"bathe\", \"germinate\") — suggests purpose, nurture, tangible effect. The contrast reinforces the metaphor: a poem begins as invisible inspiration (vapor) and becomes concrete expression (rain) that transforms the world. A wrong answer treating both journeys as similar misses the metaphor's developmental arc.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The extended metaphor of rain-as-poem works because both follow a cycle: origin → transformation → expression → return → renewal.\" Defend or refute using specific imagery from the poem.",
+     "a": "Defend. Origin: \"bottomless sea\" (earth) / poet's heart. Transformation: \"rise impalpable\" / drafting. Expression: \"descend to lave\" / publication. Return: \"return to origin\" / reader's response. Renewal: \"forever changing yet same\" / enduring relevance. Imagery evidence: \"eternal\", \"impalpable\", \"lave\", \"germinate\", \"forever\". A wrong answer accepting/refuting without mapping each stage to both poem and rain shows superficial metaphor analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write four lines of free verse where a natural element (wind, river, fire, mountain) speaks as a metaphor for a human creative act (writing, painting, coding, teaching). Use at least two types of imagery.",
+     "a": "Example (Wind as Coding):\n\"I am the debug of the forest,\nInvisible fingers combing through syntax of leaves,\nCompiling green logic from chaotic source,\nReturning clean runtime to the roots.\"\nCriteria: clear metaphor (wind = debugging), two+ imagery types (visual: green, tactile: combing), authentic voice. Poor answer: uses simile, lacks imagery variety, or breaks metaphor consistency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

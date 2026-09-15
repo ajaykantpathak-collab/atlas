@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_005",
+   "title": "c12_hs_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define essential fatty acids and name the two parent essential fatty acids with their omega designations.",
+     "a": "Essential fatty acids (EFAs) are polyunsaturated fatty acids that humans cannot synthesize de novo due to lack of Δ-12 and Δ-15 desaturases and must obtain from diet. The two parent EFAs are linoleic acid (LA, 18:2 n-6, omega-6) and alpha-linolenic acid (ALA, 18:3 n-3, omega-3). A wrong answer (e.g., naming oleic acid or arachidonic acid as essential) reveals confusion between \"essential\" (dietary requirement) and \"important\" (physiological role) — a classic board exam trap where students memorize lists without understanding the enzymatic basis of essentiality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why triglycerides are classified as simple lipids while phospholipids are compound lipids, using structural criteria.",
+     "a": "Simple lipids yield only fatty acids and alcohol (glycerol) on hydrolysis; triglycerides (triacylglycerols) fit this — three fatty acids esterified to glycerol. Compound lipids yield fatty acids, alcohol, and an additional non-lipid component (phosphate, nitrogenous base, carbohydrate) on hydrolysis; phospholipids contain a phosphoric acid group (often with choline/ethanolamine) making them phosphoglycerides. A wrong answer focusing only on \"complexity\" or \"function\" (e.g., \"phospholipids are in membranes so they're compound\") misses the definitional hydrolysis criterion used in CBSE marking schemes.",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old male consumes 30 g visible fat/day (15 g refined soybean oil, 10 g vanaspati, 5 g ghee). Calculate his approximate omega-6:omega-3 ratio and evaluate against ICMR recommendations. (Assume: soybean oil = 50% LA, 7% ALA; vanaspati = 20% LA, 1% ALA, 30% trans; ghee = 3% LA, 1% ALA).",
+     "a": "Step 1: Calculate LA intake = (15×0.50) + (10×0.20) + (5×0.03) = 7.5 + 2.0 + 0.15 = 9.65 g. Step 2: Calculate ALA intake = (15×0.07) + (10×0.01) + (5×0.01) = 1.05 + 0.10 + 0.05 = 1.20 g. Step 3: Ratio = 9.65 / 1.20 ≈ 8.0:1. Step 4: ICMR recommends 5:1 to 10:1 — this ratio is within range BUT vanaspati contributes 30% trans fats (3 g/day), exceeding WHO limit (<1% energy = ~2.2 g/day for 2000 kcal). Step 5: Evaluation — ratio acceptable but trans-fat risk high; replace vanaspati with mustard oil or canola oil. A wrong answer ignoring trans fats or miscalculating ratio (e.g., using total fat not fatty acids) shows inability to apply compositional data to dietary assessment — a core competency for CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metabolic fates of linoleic acid (omega-6) and alpha-linolenic acid (omega-3) in humans, and explain why their ratio influences inflammatory status.",
+     "a": "Both undergo Δ-6 desaturation (rate-limiting) → elongation → Δ-5 desaturation. LA → γ-linolenic acid (GLA) → dihomo-γ-linolenic acid (DGLA) → arachidonic acid (AA, 20:4 n-6). ALA → stearidonic acid → eicosatetraenoic acid → eicosapentaenoic acid (EPA, 20:5 n-3) → docosahexaenoic acid (DHA, 22:6 n-3). AA yields pro-inflammatory eicosanoids (PGE₂, LTB₄, TXA₂); EPA/DHA yield less inflammatory/resolving eicosanoids (PGE₃, LTB₅, resolvins). High omega-6:omega-3 shifts substrate competition toward AA pathway, promoting thrombosis, vasoconstriction, inflammation. A wrong answer stating \"omega-6 is bad, omega-3 is good\" oversimplifies — both are essential; the error is missing competitive enzyme kinetics and eicosanoid balance, which is the mechanistic basis for dietary guidelines.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Coconut oil is unhealthy because it is 90% saturated fat; replace it entirely with sunflower oil for heart health.\" Use lipid biochemistry and Indian dietary context.",
+     "a": "The statement is reductionist. Coconut oil's saturated fats are predominantly medium-chain (lauric 48%, myristic 16%, caprylic 7%, capric 6%) — absorbed directly to portal vein, less prone to adipose storage, raise HDL more than LDL. Sunflower oil is high-LA (omega-6, ~65%), negligible ALA — exclusive use worsens omega-6:omega-3 ratio, promotes oxidative stress (LA peroxidation). Indian diets already omega-6 heavy (soybean, sunflower, safflower oils). Better strategy: rotate oils (coconut for high-heat, mustard/canola for omega-3, groundnut/rice bran for MUFA), limit total visible fat to 25-30 g/day. A wrong answer endorsing the statement shows \"saturated = bad, PUFA = good\" binary thinking — ignoring fatty acid chain length, metabolic handling, and dietary pattern context tested in CBSE case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day lipid-modified menu for a 60-year-old post-MI patient with dyslipidemia (LDL 160 mg/dL, TG 220 mg/dL, HDL 35 mg/dL) using ICMR 2020 guidelines, specifying oil choices, visible fat quantity, and omega-3 sources.",
+     "a": "Menu principles: Total fat 20-25% energy (~45-55 g/day for 1800 kcal), visible fat 20 g/day. SFA <7% energy, MUFA 10-15%, PUFA 8-10% (omega-6:omega-3 5:1). Oils: 10 g rice bran oil (MUFA+PUFA, oryzanol), 5 g mustard oil (ALA 12%), 5 g flaxseed oil (ALA 55%, cold use only). Visible fat = 20 g. Omega-3 sources: 30 g roasted flaxseed powder (5 g ALA), 100 g fatty fish (rohu/mackerel, 1.5 g EPA+DHA) 2×/week, walnuts 15 g/day. Sample: Breakfast — oats porridge with 5 g flaxseed powder, 100 mL skim milk; Lunch — brown rice, dal, mustard-oil sautéed greens, fish curry (rice bran oil); Snack — walnuts 15 g; Dinner — multigrain roti, rajma, salad with 5 g flaxseed oil dressing. A poor answer giving generic \"low fat\" without quantitative oil allocation, omega-3 specification, or cooking method shows inability to translate guidelines into personalized prescription — the core skill of clinical nutrition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

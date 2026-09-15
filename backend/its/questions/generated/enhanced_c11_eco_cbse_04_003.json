@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_003",
+   "title": "c11_eco_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define 'human capital' and 'economic growth' as used in the context of their interrelationship. State one indicator each for human capital and economic growth.",
+     "a": "Correct answer: Human capital refers to the stock of skills, knowledge, and health embodied in the labor force; economic growth is the sustained increase in real national income (or real per capita income). Indicator for human capital: literacy rate or life expectancy; for economic growth: growth rate of real GDP per capita. A wrong answer (e.g., defining human capital as physical capital or economic growth as nominal GDP increase) reveals confusion between physical and human capital or between real and nominal variables.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the relationship between human capital and economic growth is described as 'bidirectional' or 'two-way causality'. Give one reason for each direction.",
+     "a": "Correct answer: Higher human capital (education, health) raises labor productivity and innovation, leading to higher output and income (human capital → growth). Conversely, higher income allows households and government to spend more on education and health, building more human capital (growth → human capital). A wrong answer that only mentions one direction shows incomplete understanding of the feedback loop.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 4.1 data (1951: real per capita income ₹7,651, literacy 16.67%; 2018-22: real per capita income ₹94,054, literacy 78%), calculate the approximate average annual growth rate of real per capita income and the average annual increase in literacy rate over this period. What does this simultaneous growth suggest?",
+     "a": "Steps: 1) Period: 1951 to 2018-22 ≈ 68 years. 2) Real per capita income growth: (94054/7651)^(1/68) - 1 ≈ (12.29)^(0.0147) - 1 ≈ 1.037 - 1 = 3.7% per annum. 3) Literacy increase: (78 - 16.67)/68 ≈ 0.9 percentage points per year. 4) Simultaneous growth suggests correlation but not necessarily causation; could be driven by third factors. Wrong answer (e.g., using simple division for growth rate) reveals misunderstanding of compound growth vs linear approximation.",
+     "self_check": true
+    },
+    {
+     "q": "NCERT states: 'Empirical evidence to prove that increase in human capital causes economic growth is rather nebulous. This may be because of measurement problems.' Analyze two specific measurement problems that make it difficult to establish causality from human capital to growth.",
+     "a": "Correct answer: (1) Education measured by years of schooling or enrollment rates does not capture quality (e.g., learning outcomes, teacher-pupil ratio). (2) Health measured by life expectancy or monetary expenditure may not reflect actual health status (e.g., morbidity, nutrition). These proxies may not reflect true human capital, leading to weak econometric results. Wrong answer (e.g., saying data is unavailable) misses the nuance of proxy vs actual variable.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: 'Since higher income leads to more human capital investment, policymakers should focus only on growth-oriented policies (like infrastructure) and human capital will automatically improve.' Use the concept of externalities and market failures.",
+     "a": "Correct answer: The statement ignores that human capital generates positive externalities (social benefits) that private markets underprovide. Without government intervention in education/health, the poor cannot afford investment, leading to inequality and suboptimal human capital. Also, growth alone may not trickle down to human capital if distribution is skewed. Wrong answer that agrees reveals misunderstanding of market failure and the need for public provision.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple conceptual diagram (describe in words) showing the two-way relationship between human capital and economic growth, including at least two feedback loops (e.g., education → productivity → income → education spending; health → labor supply → output → health expenditure). Label the key variables.",
+     "a": "Expected answer: A diagram with boxes: Human Capital (Education, Health) → Labor Productivity → Real National Income → Public/Private Expenditure on Education/Health → Human Capital. Also: Human Capital → Innovation/Technology Adoption → Growth → R&D Investment → Human Capital. Good answer shows clear loops and labels. Poor answer shows only one direction or missing variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

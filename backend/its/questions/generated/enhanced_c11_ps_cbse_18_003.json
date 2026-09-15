@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_003",
+   "title": "c11_ps_cbse_18_003",
+   "questions": [
+    {
+     "q": "What is the exact voting requirement in each House of Parliament for a constitutional amendment that falls under the 'special majority' category of Article 368?",
+     "a": "The amendment must be passed by a majority of the total membership of that House (i.e., >50% of all members, irrespective of vacancies/absences) AND by a two-thirds majority of members present and voting. A wrong answer (e.g., only two-thirds of those present) reveals confusion between the two simultaneous requirements and ignorance of the 'total membership' threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution require ratification by state legislatures for amendments to provisions like Article 54 (election of President) or Article 73 (extent of Union executive power) but not for amendments to Fundamental Rights?",
+     "a": "These provisions directly affect the federal distribution of powers or the representation of states in the Union; ratification gives states a veto over changes to the federal compact. Fundamental Rights, while supreme, are individual-centric and do not alter the Centre-state balance. A wrong answer (e.g., 'Fundamental Rights are more important') shows misunderstanding of the federalism principle underlying the ratification clause.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill seeks to amend Article 3 (formation of new states) and Article 368 (amendment procedure itself) in a single legislation. Which majority/ratification requirements apply to each part, and can they be combined in one Bill?",
+     "a": "Article 3 amendment requires only a simple majority in Parliament (and prior Presidential reference to the concerned state legislature) because it is excluded from Article 368. Article 368 amendment requires special majority plus ratification by half the states. They can be in one Bill, but each part must satisfy its own requirement; the Bill passes only if both thresholds are met. A wrong answer (e.g., 'both need special majority') indicates failure to distinguish provisions inside vs. outside Article 368.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedure for changing the 'extent of executive power of the Union' (Art. 73) with that for changing the 'salaries of Supreme Court judges' (Art. 125). What does the difference reveal about the Constitution's design priorities?",
+     "a": "Art. 73 requires special majority plus state ratification (federal provision); Art. 125 requires only special majority. The distinction shows the Constitution guards the federal balance more rigidly than internal judicial administration. A wrong answer (e.g., both same) misses the graded rigidity principle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The requirement of ratification by half the states for federal amendments makes the Indian Constitution too rigid and hinders necessary reforms.\" Use the Kesavananda Bharati principle in your assessment.",
+     "a": "The argument overlooks that federalism is a basic structure feature; ratification protects state autonomy from unilateral Central alteration. However, the Basic Structure doctrine (Kesavananda) allows judicial review to strike down amendments that destroy federalism even if procedurally correct. Thus, rigidity is a feature, not a bug, but judicial oversight prevents misuse. A weak evaluation treats rigidity as purely negative without referencing basic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-clause constitutional amendment proposal that would require (a) simple majority, (b) special majority, and (c) special majority plus ratification. Justify each classification by citing the relevant article/provision.",
+     "a": "(a) \"Insert a new Article 371K for special provisions for a new Union Territory\" – simple majority (Art. 239A/240, excluded from Art. 368). (b) \"Amend Article 19 to add a new reasonable restriction on free speech\" – special majority (Fundamental Right, under Art. 368). (c) \"Amend Article 81 to alter Lok Sabha seat allocation among states\" – special majority plus ratification (affects representation of states, proviso to Art. 368). Poor answers misclassify by ignoring the lists in the Constitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_010",
+   "title": "c10_math_cbse_13_010",
+   "questions": [
+    {
+     "q": "A frequency distribution table shows the daily wages (in ₹) of 50 workers in a factory. The class intervals are 100-120, 120-140, 140-160, 160-180, 180-200 with frequencies 12, 14, 8, 6, 10 respectively. What is the lower limit of the modal class?",
+     "a": "The modal class is the class with the highest frequency. Here, the frequencies are 12, 14, 8, 6, 10. The highest frequency is 14, which corresponds to the class interval 120-140. The lower limit of this class is 120. A wrong answer (e.g., 140 or 100) reveals the student confuses upper/lower limits or incorrectly identifies the modal class by looking at class marks instead of frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "In a grouped frequency distribution, the class marks are 15, 25, 35, 45, 55 and the corresponding frequencies are 4, 6, 10, 8, 2. A student calculates the mean using the direct method as Σfixi / Σfi = (4×15 + 6×25 + 10×35 + 8×45 + 2×55) / 30 = 1000/30 = 33.33. Another student says, \"Since the class marks are equally spaced, we must use the step-deviation method.\" Is the second student correct? Explain why or why not.",
+     "a": "The second student is incorrect. The step-deviation method is a computational shortcut for convenience when numbers are large, but it is NOT mandatory. The direct method gives the exact same answer and is perfectly valid here. A wrong answer (saying step-deviation is required) reveals the misconception that certain methods are compulsory based on data structure, rather than being optional tools for simplification. The student fails to understand that all three mean methods are mathematically equivalent.",
+     "self_check": true
+    },
+    {
+     "q": "The following table shows the literacy rate (in %) of 35 cities:\n\n| Literacy Rate | 45-55 | 55-65 | 65-75 | 75-85 | 85-95 |\n|---------------|-------|-------|-------|-------|-------|\n| Number of Cities | 3 | 10 | 11 | 8 | 3 |\n\nFind the median literacy rate. Show all steps including the cumulative frequency table.",
+     "a": "Step 1: Total frequency N = 3+10+11+8+3 = 35.\nStep 2: N/2 = 17.5.\nStep 3: Construct cumulative frequency table:\n45-55: cf = 3\n55-65: cf = 13\n65-75: cf = 24 → This is the median class (since 24 ≥ 17.5)\n75-85: cf = 32\n85-95: cf = 35\nStep 4: Median class = 65-75. l = 65, cf = 13 (cumulative frequency before median class), f = 11, h = 10.\nStep 5: Median = l + ((N/2 - cf)/f) × h = 65 + ((17.5 - 13)/11) × 10 = 65 + (4.5/11) × 10 = 65 + 4.09 = 69.09%.\nA wrong answer (e.g., using cf = 24 instead of 13, or taking median class as 55-65) reveals confusion about \"cumulative frequency before median class\" vs \"cumulative frequency of median class\" — a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"Find the mean of the following distribution using the assumed mean method.\" The distribution has class intervals 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 5, 8, 12, 7, 3. Student A takes assumed mean a = 25 (class mark of 20-30). Student B takes a = 15 (class mark of 10-20). Will they get the same final answer? Explain why or why not, and show how the deviation calculations differ.",
+     "a": "Yes, both will get the same final answer. The assumed mean method uses the formula: Mean = a + (Σfidi / Σfi), where di = xi - a. The choice of 'a' only changes the deviations di, but Σfidi adjusts accordingly so that a + (Σfidi/Σfi) remains invariant. Student A (a=25): deviations are -20, -10, 0, 10, 20. Student B (a=15): deviations are -10, 0, 10, 20, 30. The weighted sum Σfidi will differ, but when added to respective 'a', both yield the same mean. A wrong answer (saying answers will differ) reveals the student treats 'a' as a fixed part of the formula rather than an arbitrary reference point — they don't understand the algebraic invariance.",
+     "self_check": true
+    },
+    {
+     "q": "A CBSE sample paper question: \"The following distribution gives the daily income of 50 workers of a factory. Convert the distribution to a 'less than type' cumulative frequency distribution and draw its ogive. Hence obtain the median daily income.\"\n\n| Daily Income (₹) | 100-120 | 120-140 | 140-160 | 160-180 | 180-200 |\n|------------------|---------|---------|---------|---------|---------|\n| Number of Workers | 12 | 14 | 8 | 6 | 10 |\n\nA student draws the less than ogive correctly but finds the median by locating the point on the x-axis corresponding to the 25th worker on the y-axis, getting ₹138. The actual median by formula is ₹138.57. The student writes: \"Median from ogive = ₹138 (approx).\" Will this get full marks? Evaluate.",
+     "a": "No, this will not get full marks. In CBSE marking scheme, the median from ogive must be read as the x-coordinate of the point where the less than and more than ogives intersect, OR by locating N/2 on the y-axis of the less than ogive and dropping a perpendicular. However, the student must show the construction lines (perpendicular from y-axis to curve, then to x-axis) and state the value read from the graph. Writing \"approx\" without showing the graphical construction steps loses method marks. The correct approach: plot less than ogive, mark 25 on y-axis, draw horizontal line to curve, drop perpendicular to x-axis, read value ≈ 138.57. The student's answer lacks the graphical procedure evidence. A wrong evaluation (saying it gets full marks) reveals ignorance of CBSE's emphasis on showing graphical method steps, not just the final number.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem based on a frequency distribution table that requires finding the mode, where the modal class is NOT the class with the highest frequency in the original table but becomes so after adjusting for class width (i.e., when class intervals are unequal). Provide the table, the question, and the solution steps.",
+     "a": "Good answer example: \"A survey records ages of participants in a marathon. The table has unequal class intervals: 10-20 (width 10, freq 5), 20-30 (width 10, freq 12), 30-50 (width 20, freq 18), 50-60 (width 10, freq 7). Question: Find the modal age. Solution: Since classes are unequal, we must compute frequency density = frequency / class width. Densities: 0.5, 1.2, 0.9, 0.7. Highest density is 1.2 for class 20-30 → modal class = 20-30. Then apply mode formula.\" A poor answer (using raw frequencies and picking 30-50) reveals the student does not know that mode formula for grouped data assumes equal class widths, and fails to recognize the need for frequency density when widths differ — a higher-order concept tested in competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

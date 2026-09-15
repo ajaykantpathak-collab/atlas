@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Why Social Science?",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.1.1",
+   "title": "Why Social Science: The Four Themes",
+   "section": "Introduction",
+   "definition": "Social science studies human life through four connected themes: the land and people of India, the tapestry of the past, our cultural heritage and knowledge traditions, and governance with economic life around us.",
+   "formula": "",
+   "key_idea": "Society is studied through themes that link place, history, culture and governance.",
+   "textbook_ref": "fees101.txt, Introduction",
+   "question_patterns": [
+    "what are the four themes of social science in grade 6",
+    "why should we study society as a subject",
+    "how do the themes of social science connect with each other",
+    "which theme studies family and community",
+    "which theme covers local government in rural and urban areas",
+    "why is the study of economic life a part of social science"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.1.2",
+   "title": "Maps and the Globe",
+   "section": "Introduction, map activity",
+   "definition": "A map is a drawing of a place as seen from above, using symbols and signs; a globe is a small round model of the Earth, and both help us locate places and see the world at a glance.",
+   "formula": "",
+   "key_idea": "Maps shrink large places onto paper so that streets, towns and countries can be studied together.",
+   "textbook_ref": "fees101.txt, Introduction, map activity",
+   "question_patterns": [
+    "what is the difference between a map and a globe",
+    "how does a map of a small city help us find places",
+    "what do the symbols on a map tell us",
+    "why do we use maps instead of photographs to study places",
+    "what can you learn by rotating a globe",
+    "name the places marked on the map of the small city"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.1.3",
+   "title": "The Four Arrows: Directions on a Map",
+   "section": "Introduction, map reading",
+   "definition": "The four arrows at the corner of a map point to the cardinal directions, north, south, east and west; they fix every place on the map relative to every other place.",
+   "formula": "",
+   "key_idea": "Directions turn a flat drawing into a usable map: once north is fixed, every other direction follows.",
+   "textbook_ref": "fees101.txt, Introduction, map reading",
+   "question_patterns": [
+    "what do the four arrows on a map indicate",
+    "how do you find which way is north on a map",
+    "if a place is towards the top of the map which direction is it",
+    "how do directions help you move from one place to another on the map",
+    "which direction is opposite to east",
+    "why are directions printed on maps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.1.4",
+   "title": "Society, Governance and Economic Life",
+   "section": "Introduction",
+   "definition": "The introduction shows that society works because families, communities, governments and economic activities support one another; social science studies each strand and the threads that join them.",
+   "formula": "",
+   "key_idea": "No part of social life stands alone: living together needs governance, culture and work.",
+   "textbook_ref": "fees101.txt, Introduction",
+   "question_patterns": [
+    "why do people living together need rules and governance",
+    "how is family related to the community around it",
+    "what kinds of work keep a town or village running",
+    "how does the past shape the society we live in today",
+    "what questions does social science ask about daily life",
+    "give one example of how culture and economy meet in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees101.txt",
+   "concept": "fees.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What does the globe teach us that a flat map cannot?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the globe",
+     "explain": "A globe is a round model of the Earth, so shapes and distances stay true."
+    },
+    {
+     "step": 2,
+     "action": "compare the two",
+     "explain": "Flat maps stretch or squeeze the round Earth, while the globe shows the whole planet at once."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees101.txt",
+   "concept": "fees.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why do the four arrows matter when reading a city map?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fix north",
+     "explain": "The arrows mark the directions, so every place gets a position."
+    },
+    {
+     "step": 2,
+     "action": "apply them",
+     "explain": "With north fixed, any street or landmark can be reached by naming turns towards east, west or south."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees101.txt, Let us play (Introduction)",
+   "questions": [
+    "What picture of a city does the map in the introduction show?",
+    "Why does the book open with a game played on a city map?",
+    "Name the themes printed at the start of the book.",
+    "Trace the path from your school to the market on the city map.",
+    "Which map features do you use to describe your own neighbourhood?"
+   ]
+  }
+ ]
+}

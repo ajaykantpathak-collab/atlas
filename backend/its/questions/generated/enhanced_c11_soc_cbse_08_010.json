@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_010",
+   "title": "c11_soc_cbse_08_010",
+   "questions": [
+    {
+     "q": "Define \"development-induced displacement\" and distinguish it from \"conservation-induced displacement\" using one example each from the Indian context.",
+     "a": "Development-induced displacement occurs when state-led infrastructure projects (e.g., Sardar Sarovar Dam on Narmada River) acquire land for industrial/urban growth, displacing rural/tribal communities. Conservation-induced displacement occurs when the state creates Protected Areas (e.g., Corbett National Park, Kuno Wildlife Sanctuary) by relocating villages to create \"pristine\" wilderness. A wrong answer that conflates the two (e.g., saying both are only for industrial projects) reveals the student fails to see that *environmentalism itself* can be a driver of displacement when it adopts a \"fortress conservation\" model that views local people as threats to biodiversity.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"The environment as a public interest is a hotly contested arena.\" Explain this statement by analyzing how the \"public interest\" argument is used differently by the state and by local communities in the context of a large dam project.",
+     "a": "The state frames \"public interest\" as aggregate national benefits: electricity for industries, irrigation for farmers, flood control — justifying eminent domain over private/customary land. Local communities (especially tribals) frame \"public interest\" as the survival of their culture, livelihoods, and constitutional rights (e.g., Fifth Schedule, PESA), arguing that the *real* beneficiaries are urban elites and corporations. A wrong answer that says \"both want the same public good\" misses the core sociological point: **competing definitions of 'public' reflect competing class/tribe interests**, and the state's monopoly on defining \"public interest\" legitimizes the transfer of resources from the poor to the powerful.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal village in a proposed tiger reserve area practices shifting cultivation (jhum) and collects minor forest produce. The Forest Department proposes relocation, citing the Wildlife Protection Act. The villagers claim rights under the Forest Rights Act (FRA) 2006. Apply the concept of \"competing property regimes\" to explain why this conflict cannot be resolved by simply looking at legal titles.",
+     "a": "Step 1: Identify the two property regimes — State Regime (Forest Dept. claims ownership via Indian Forest Act, 1927 / Wildlife Protection Act, 1972, viewing forest as state property for conservation revenue) vs. Customary/Communal Regime (Village claims ancestral usufruct rights via FRA 2006, viewing forest as commons for livelihood/culture). Step 2: Recognize that the state regime is backed by bureaucratic power and scientific conservation discourse; the customary regime is backed by historical occupation but lacks documentary \"proof\" acceptable to courts. Step 3: Conclude that conflict persists because the law itself is contradictory (FRA vs. WLPA) and the state controls the interpretation. A wrong answer focusing only on \"who has the paper title\" reveals a misunderstanding of **legal pluralism** and the sociological reality that property is a *social relation*, not just a document.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Narmada Bachao Andolan (NBA) and the Chipko Movement in terms of: (a) the resource contested, (b) the primary social base, (c) the nature of the state's response, and (d) the ideological framing of the conflict.",
+     "a": "(a) NBA: River water/valley land for mega-dam; Chipko: Forest trees for commercial logging vs. subsistence. (b) NBA: Tribal (adivasi) and peasant communities in the submergence zone; Chipko: Hill peasants (mainly women) in Garhwal Himalayas. (c) NBA: State used police force, legal coercion, and \"national interest\" rhetoric; Chipko: State initially repressed, then imposed a 15-year logging ban after national attention. (d) NBA: Framed as human rights vs. destructive development; Chipko: Framed as ecological survival (soil/water) vs. commercial exploitation. A wrong answer that treats both as \"environmental movements\" without distinguishing **class/tribe composition** and **state-corporate nexus vs. state-contractor nexus** fails to analyze how social stratification shapes the *type* of environmentalism (survival vs. livelihood vs. wilderness).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following policy proposal: \"To avoid conflict, the government should provide cash compensation at market rates to all families displaced by a dam, instead of land-for-land rehabilitation.\" Use the concepts of \"social reproduction\" and \"cultural alienation\" in your evaluation.",
+     "a": "Cash compensation fails because: (1) **Social Reproduction**: Tribal/peasant economies are non-monetary; land, forest, and river provide food, fuel, medicine, housing, and social networks. Cash cannot replace these in a market where land is scarce and expensive. (2) **Cultural Alienation**: Displacement severs ties to sacred groves, ancestors' graves, and identity. Cash individualizes what was collective, destroying the *community* as a unit of social reproduction. (3) **Market Vulnerability**: Cash is often misappropriated by middlemen, spent on consumption, or lost to inflation; land-for-land provides a productive asset. A wrong answer supporting cash compensation as \"efficient\" reveals a **neoclassical economic bias** that ignores the sociological reality that displacement is not just loss of assets but **destruction of a way of life** — a point central to the textbook's argument that environmental problems are social problems rooted in inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"Social Impact Assessment (SIA)\" framework for a new protected area proposal in a tribal district that genuinely incorporates the principles of Social Ecology (Bookchin) and the Forest Rights Act. List 4 specific indicators/questions your framework would include that are *missing* from standard government SIAs.",
+     "a": "A good answer includes indicators like: (1) **Customary Governance Mapping**: \"What are the village-level institutions (Gram Sabha, traditional councils) that manage the forest? How will the PA affect their authority?\" (Standard SIA ignores governance.) (2) **Non-Monetary Livelihood Valuation**: \"Quantify the diversity of foods, medicines, fuel, fiber, and spiritual sites accessed *free* from the forest across seasons.\" (Standard SIA only counts market income.) (3) **Inter-Generational Equity Test**: \"Will the PA restrictions allow the next generation to practice their culture and livelihood *in situ*, or force them into wage labour?\" (Standard SIA looks at current adults only.) (4) **Power Asymmetry Audit**: \"Who designed the PA boundaries? Were Gram Sabhas consulted *before* notification (as per FRA Sec 4(1)(e)) or only informed after?\" (Standard SIA treats consultation as a formality.) A poor answer lists only economic indicators (income loss, house size) showing inability to apply **social ecology's core tenet: ecological problems are rooted in social hierarchy and must be solved by democratizing resource control.**",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

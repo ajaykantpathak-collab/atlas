@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_01_008",
+   "title": "c11_hs_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define 'gender-typing' in the specific context of Home Science education in India as described in the NCERT textbook.",
+     "a": "Gender-typing in Home Science is the historical process where the discipline became mentally and institutionally categorized as 'women's education' focused on domestic chores (cooking, laundry, childcare), leading to the exclusion of boys and the perception that the subject lacks scientific rigour. A wrong answer (e.g., \"it means only girls study it\") reveals the student confuses the *outcome* (participation pattern) with the *process* (stereotyping of the discipline's identity), missing the causal link between curriculum labeling and social perception.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"boys were either not admitted to this area by the schools, or they themselves shied away from studying it.\" Explain the difference between these two mechanisms of exclusion and how both stem from gender-typing.",
+     "a": "The first mechanism (not admitted) is *structural/institutional exclusion* — schools actively enforcing gender norms by denying entry. The second (shied away) is *internalized exclusion* — boys self-selecting out due to social stigma and peer pressure. Both stem from gender-typing: the subject's label \"Home Science\" signaled \"female domain,\" giving schools justification to gatekeep and boys reason to avoid it. A wrong answer that treats both as identical \"lack of interest\" misses the power dynamic: one is imposed, the other is internalized oppression.",
+     "self_check": true
+    },
+    {
+     "q": "A co-educational school introduces Home Science as an elective. In the first year, 45 girls and 0 boys enroll. The principal concludes \"boys are simply not interested in domestic skills.\" Using the concept of gender-typing, critique the principal's conclusion and identify the missing analytical step.",
+     "a": "The principal commits the *post-hoc fallacy* by confusing the *symptom* (zero enrollment) with the *cause* (gender-typing). The missing step is analyzing the *pre-enrollment environment*: Was the subject marketed using gendered language? Did the timetable clash with \"male\" subjects? Were male role models (teachers/alumni) visible? Gender-typing operates *before* choice — it shapes the perception of the subject as \"not for me.\" A wrong answer accepts the principal's biological essentialism (\"boys don't like cooking\") and fails to see enrollment as a socially constructed outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of gender-typing on the *perception of academic rigour* versus its impact on *male participation*. How are these two consequences mutually reinforcing?",
+     "a": "Gender-typing creates a feedback loop: (1) Association with \"women's domestic work\" lowers perceived rigour → (2) Low rigour perception discourages serious students (especially boys seeking \"career-oriented\" subjects) → (3) Low male participation reinforces the \"female domain\" label → (4) Further devalues rigour. The textbook explicitly links them: \"wrongly perceived as lacking in rigour\" *and* \"boys shied away.\" A wrong answer treats them as separate parallel effects, missing the cyclic causality where each amplifies the other.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Renaming Home Science to Human Ecology and Family Sciences (HEFS) is merely cosmetic; the gender-typing will persist because the content (food, fabric, family) remains the same.\" Defend your position using the textbook's framing of the discipline.",
+     "a": "The statement is *partially valid but incomplete*. The textbook argues renaming was necessary to \"release it from being associated mainly with the home and with tasks traditionally done by girls.\" However, the textbook also emphasizes the *contemporary curriculum* is \"multi-disciplinary\" (Human Development, Food & Nutrition, Fabric & Apparel, Communication & Extension, Resource Management) and relevant \"whether the person is female or male.\" Renaming signals an *epistemological shift* — from 'domestic training' to 'human ecology.' If content delivery changes to reflect this (e.g., teaching nutrition as biochemistry, resource management as economics), the typing breaks. A poor answer treats naming and content as independent; a strong answer sees naming as a *commitment device* for curricular transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step intervention for a school where boys avoid HEFS due to lingering \"Home Science\" stereotypes. Each step must target a different level: institutional, interpersonal, and intrapersonal.",
+     "a": "**Institutional:** Rename the subject on timetables/report cards to HEFS; mandate gender-neutral prerequisites (e.g., \"HEFS required for all Sports Science students\"). **Interpersonal:** Invite male HEFS professionals (clinical nutritionists, textile engineers, family therapists) for career talks; pair boys with male senior mentors. **Intrapersonal:** Classroom activity: \"Audit your daily life — which HEFS domains (nutrition, finance, communication, textiles, child development) do you *already* use?\" Helps boys recognize HEFS as *life skills*, not 'women's work.' A weak answer proposes only posters or assemblies (superficial); a strong answer changes structures, relationships, and self-concept simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

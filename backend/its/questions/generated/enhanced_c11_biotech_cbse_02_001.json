@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_001",
+   "title": "c11_biotech_cbse_02_001",
+   "questions": [
+    {
+     "q": "A student observes a cell under an electron microscope and notes: (1) genetic material in a nucleoid region, (2) 70S ribosomes, (3) a cell wall containing peptidoglycan, and (4) flagella with a 9+0 microtubule arrangement. Identify the cell type and list the four structural features that confirm this classification.",
+     "a": "The cell is prokaryotic (bacterial). The four confirming features are: (1) nucleoid region lacking a nuclear envelope, (2) 70S ribosomes (50S+30S subunits), (3) peptidoglycan-based cell wall, and (4) flagella with 9+0 microtubule array. A wrong answer (e.g., identifying it as eukaryotic) reveals the student cannot distinguish the defining feature — absence of a true nucleus — or confuses 70S ribosomes in prokaryotes with the 70S ribosomes in eukaryotic mitochondria/chloroplasts, failing to recognize that cytoplasmic ribosomes in eukaryotes are 80S.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the presence of 70S ribosomes in both prokaryotes and eukaryotic mitochondria/chloroplasts does NOT contradict the classification of mitochondria-containing cells as eukaryotic. Use the concept of compartmentalization in your answer.",
+     "a": "Eukaryotic cells are defined by cytoplasmic compartmentalization via internal membranes. The 70S ribosomes in mitochondria/chloroplasts are confined within these double-membrane-bound organelles, while the bulk cytoplasm contains 80S ribosomes. This spatial separation maintains the eukaryotic organizational plan. A wrong answer (e.g., \"mitochondria are prokaryotic\") reveals the student misunderstands that eukaryotic classification depends on the overall cellular architecture (nucleus + endomembrane system), not the ribosomal type in every sub-compartment. It also indicates failure to apply the endosymbiotic evidence correctly — the 70S ribosomes support evolutionary origin, not current classification.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a Gram-negative bacterial culture and a mammalian cell culture with an antibiotic that specifically inhibits peptidoglycan cross-linking. Predict and justify the differential effect on cell wall integrity and cell survival in the two cultures after 2 hours.",
+     "a": "The Gram-negative bacteria will undergo osmotic lysis due to weakened peptidoglycan layer unable to withstand turgor pressure, while mammalian cells remain unaffected because they lack a cell wall entirely (only plasma membrane). Steps: (1) Identify target: peptidoglycan cross-linking is exclusive to bacterial cell walls. (2) Gram-negative bacteria have thin peptidoglycan layer critical for structural integrity. (3) Inhibition prevents new cross-links during growth/division. (4) Osmotic influx of water causes swelling and lysis. (5) Mammalian cells have only plasma membrane (no cell wall), so the antibiotic has no target. A wrong prediction (e.g., both lyse or neither affected) reveals confusion about cell wall presence in animal cells or misunderstanding that peptidoglycan is bacteria-specific.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nuclear envelope of a eukaryotic cell with the nucleoid region of a prokaryote across three parameters: membrane boundary, transport regulation, and spatial relationship to protein synthesis machinery. Explain how each difference contributes to the regulation of gene expression.",
+     "a": "| Parameter | Eukaryotic Nuclear Envelope | Prokaryotic Nucleoid |\n|-----------|----------------------------|---------------------|\n| Membrane boundary | Double lipid bilayer (nuclear envelope) with nuclear pores | No membrane; DNA in direct contact with cytoplasm |\n| Transport regulation | Nuclear pore complexes selectively transport RNA/proteins; separates transcription from translation | No barrier; transcription and translation are coupled |\n| Spatial relationship to ribosomes | Ribosomes in cytoplasm/on ER; mRNA must exit nucleus for translation | Ribosomes bind nascent mRNA during transcription |\n| Gene expression impact | Allows post-transcriptional processing (splicing, capping, polyadenylation), nuclear export control, and spatial regulation | Enables rapid response; no intron splicing; regulation primarily at transcription initiation |\n\nA wrong answer (e.g., \"both have membranes\" or \"both separate transcription/translation\") reveals the student cannot identify the fundamental topological difference that enables eukaryotic gene regulation complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The 9+2 microtubule arrangement in eukaryotic cilia/flagella and the 9+0 arrangement in prokaryotic flagella represent homologous structures because both are used for locomotion.\" Defend or refute using structural and evolutionary reasoning.",
+     "a": "The claim is false. The 9+2 (eukaryotic) and 9+0 (prokaryotic) flagella are **analogous** (convergent evolution), not homologous. Structural evidence: (1) Eukaryotic flagella are membrane-bound extensions of the plasma membrane with dynein-driven microtubule sliding; prokaryotic flagella are extracellular helical filaments of flagellin protein rotated by a basal motor. (2) Eukaryotic basal body is a centriole (9 triplets); prokaryotic basal body is a completely different protein complex. (3) No shared structural proteins or assembly pathway. Evolutionary reasoning: They solve the same functional problem (motility in fluid) with entirely different molecular machinery, indicating independent origins. A student accepting the claim reveals inability to distinguish homology (shared ancestry) from analogy (shared function) and overlooks the radical structural dissimilarity despite similar locomotory function.",
+     "self_check": true
+    },
+    {
+     "q": "Design a diagnostic flowchart (decision tree) with exactly 5 yes/no questions that a microscopist could use to classify an unknown cell as prokaryotic or eukaryotic based solely on ultrastructural features visible in a transmission electron micrograph. Each question must target a single, unambiguous structural criterion from NCERT.",
+     "a": "**Flowchart:**\n1. Is there a double-membrane bound nucleus with nuclear pores? → YES = Eukaryotic; NO → Q2\n2. Are cytoplasmic ribosomes 80S (60S+40S)? → YES = Eukaryotic; NO → Q3\n3. Are membrane-bound organelles (mitochondria with cristae, Golgi cisternae, ER) present? → YES = Eukaryotic; NO → Q4\n4. Does the cell wall contain peptidoglycan (muramic acid)? → YES = Prokaryotic; NO → Q5\n5. Do flagella/cilia show a 9+2 microtubule array? → YES = Eukaryotic; NO = Prokaryotic (9+0 or absent)\n\n**Criteria for good answer:** Questions must be mutually exclusive, based on NCERT-listed features, and lead to a definitive classification in ≤5 steps. A poor answer uses functional criteria (e.g., \"does it photosynthesize?\"), combines multiple features in one question, or fails to distinguish 70S in prokaryotic cytoplasm vs. eukaryotic organelles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

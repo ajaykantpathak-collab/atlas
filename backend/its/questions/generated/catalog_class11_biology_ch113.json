@@ -1,0 +1,256 @@
+{
+ "catalog": "catalog_class11_biology_ch113",
+ "concepts": [
+  {
+   "id": "kebo.13.1.1",
+   "title": "Open Form and Indeterminate Nature of Plant Growth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Open Form and Indeterminate Nature of Plant Growth' refers to.",
+     "a": "Plant growth is an ongoing, unrestricted expansion facilitated by actively dividing meristematic tissues that continuously produce new cells along plant axes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Open Form and Indeterminate Nature of Plant Growth'.",
+     "a": "Persistent activity of apical and lateral meristems allows indefinite elongation and secondary thickening in plants.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Open Form and Indeterminate Nature of Plant Growth' taught, and from which source text?",
+     "a": "13.1.1 (source: kebo113.txt lines 30-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.3",
+   "title": "Phases of Cellular Growth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phases of Cellular Growth' refers to.",
+     "a": "The chronological progression through which newly formed plant cells expand and specialize, moving through division, enlargement, and structural maturation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phases of Cellular Growth'.",
+     "a": "Growing organ tips contain distinct spatial zones: division at the apex, elongation behind it, and maturation furthest back.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Phases of Cellular Growth' taught, and from which source text?",
+     "a": "13.1.3 (source: kebo113.txt lines 85-115)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.1",
+   "title": "Arithmetic Growth Rate Calculation",
+   "questions": [
+    {
+     "q": "Calculate the final length of a root undergoing arithmetic elongation. Use the method 'Arithmetic Growth Rate Calculation'. Work with: initial_length = 4, rate = 12, time = 200. Carry the chain through step by step and give the final value of final_length.",
+     "a": "2404 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total length after a given duration of constant linear growth. Use the method 'Arithmetic Growth Rate Calculation'. Work with: initial_length = 8, rate = 10, time = 40. Carry the chain through step by step and give the final value of final_length.",
+     "a": "408 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Arithmetic Growth Rate Calculation' refers to.",
+     "a": "A linear increase in dimensions over time occurring when only one mitotic daughter cell continues division while the other undergoes differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arithmetic Growth Rate Calculation'.",
+     "a": "A steady addition of constant length per unit time yields a straight line on an organ length versus time graph.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Arithmetic Growth Rate Calculation', in plain ASCII form.",
+     "a": "L_t = L_0 + (r * t)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.2",
+   "title": "Absolute and Relative Growth Rates",
+   "questions": [
+    {
+     "q": "Calculate the absolute growth of an expanding leaf. Use the method 'Absolute and Relative Growth Rates'. Work with: final_size = 256, initial_size = 512. Carry the chain through step by step and give the final value of absolute_increase.",
+     "a": "-256 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the net increase in leaf surface area over a given period. Use the method 'Absolute and Relative Growth Rates'. Work with: final_size = 8192, initial_size = 4096. Carry the chain through step by step and give the final value of absolute_increase.",
+     "a": "4096 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Absolute and Relative Growth Rates' refers to.",
+     "a": "Absolute growth measures total net dimensional increase per unit time, while relative growth expresses that increase per unit of starting dimension.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Absolute and Relative Growth Rates'.",
+     "a": "Absolute growth reflects total magnitude gained, whereas relative rate accounts for initial structural scale.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Absolute and Relative Growth Rates', in plain ASCII form.",
+     "a": "absolute_increase = final_size - initial_size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.2.1",
+   "title": "Differentiation, Dedifferentiation, and Redifferentiation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Differentiation, Dedifferentiation, and Redifferentiation' refers to.",
+     "a": "The cycle by which dividing cells mature into specialized tissues, revert to an active meristematic state under specific signals, and subsequently mature into new functional structures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Differentiation, Dedifferentiation, and Redifferentiation'.",
+     "a": "Plant cells retain developmental flexibility, allowing specialized parenchyma to form cambium and later produce secondary vascular elements.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Differentiation, Dedifferentiation, and Redifferentiation' taught, and from which source text?",
+     "a": "13.2 (source: kebo113.txt lines 220-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.3.1",
+   "title": "Development and Developmental Plasticity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Development and Developmental Plasticity' refers to.",
+     "a": "The overarching life cycle changes combining growth and differentiation, often showing phenotypic adaptability in leaf morphology across life stages or habitats.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Development and Developmental Plasticity'.",
+     "a": "Plasticity enables plants to produce distinct organ morphologies such as terrestrial versus aquatic heterophylly in response to environmental conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Development and Developmental Plasticity' taught, and from which source text?",
+     "a": "13.3 (source: kebo113.txt lines 265-295)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.1",
+   "title": "Auxins: Discovery, Transport, and Physiological Roles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Auxins: Discovery, Transport, and Physiological Roles' refers to.",
+     "a": "Indole-based phytohormones synthesized in expanding apices that regulate apical dominance, stem adventitious rooting, and cell elongation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Auxins: Discovery, Transport, and Physiological Roles'.",
+     "a": "Auxins suppress lateral shoot emergence to maintain apical polarity, promote root initiation on cuttings, and act as selective synthetic herbicides.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Auxins: Discovery, Transport, and Physiological Roles' taught, and from which source text?",
+     "a": "13.4.3.1 (source: kebo113.txt lines 330-390)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.2",
+   "title": "Gibberellins: Bolting, Stem Elongation, and Industrial Applications",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gibberellins: Bolting, Stem Elongation, and Industrial Applications' refers to.",
+     "a": "Terpene-derived acidic hormones that drive internodal axis lengthening, induce bolting in rosette species, and accelerate seed germination enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gibberellins: Bolting, Stem Elongation, and Industrial Applications'.",
+     "a": "Gibberellins overcome genetic dwarfism, expand grape pedicels, enhance sugarcane biomass, and accelerate malting during brewing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gibberellins: Bolting, Stem Elongation, and Industrial Applications' taught, and from which source text?",
+     "a": "13.4.3.2 (source: kebo113.txt lines 395-430)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.3",
+   "title": "Cytokinins: Cell Division, Nutrient Mobilization, and Senescence Delay",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cytokinins: Cell Division, Nutrient Mobilization, and Senescence Delay' refers to.",
+     "a": "Purine-derived phytohormones synthesized in actively dividing zones that stimulate cytokinesis, foster lateral bud outgrowth, and postpone foliar senescence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cytokinins: Cell Division, Nutrient Mobilization, and Senescence Delay'.",
+     "a": "Cytokinins counteract auxin-mediated apical dominance and preserve chlorophyll content via mobilized nutrient delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cytokinins: Cell Division, Nutrient Mobilization, and Senescence Delay' taught, and from which source text?",
+     "a": "13.4.3.3 (source: kebo113.txt lines 435-460)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.4",
+   "title": "Ethylene: Climacteric Fruit Ripening and Abscission",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ethylene: Climacteric Fruit Ripening and Abscission' refers to.",
+     "a": "A volatile hydrocarbon hormone released by aging and ripening tissues that drives respiratory climacteric, organ shedding, and seedling apical hook development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ethylene: Climacteric Fruit Ripening and Abscission'.",
+     "a": "Ethylene promotes rapid fruit maturation, stimulates root hair emergence, and induces petiole elongation in submerged aquatic crops.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ethylene: Climacteric Fruit Ripening and Abscission' taught, and from which source text?",
+     "a": "13.4.3.4 (source: kebo113.txt lines 465-500)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.5",
+   "title": "Abscisic Acid: Stress Adaptation and Dormancy Regulation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Abscisic Acid: Stress Adaptation and Dormancy Regulation' refers to.",
+     "a": "A sesquiterpenoid growth inhibitor that induces stomatal closure under moisture stress and enforces seed dormancy against premature germination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Abscisic Acid: Stress Adaptation and Dormancy Regulation'.",
+     "a": "Acting primarily as a stress hormone and gibberellin antagonist, abscisic acid preserves embryo viability under adverse environmental regimes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Abscisic Acid: Stress Adaptation and Dormancy Regulation' taught, and from which source text?",
+     "a": "13.4.3.5 (source: kebo113.txt lines 505-535)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

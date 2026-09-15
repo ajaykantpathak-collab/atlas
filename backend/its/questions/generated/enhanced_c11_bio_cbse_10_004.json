@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_004",
+   "title": "c11_bio_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the defining event that marks the transition from metaphase to anaphase in mitosis?",
+     "a": "The splitting of centromeres, which separates sister chromatids into individual daughter chromosomes, marks the onset of anaphase. A wrong answer (e.g., \"alignment of chromosomes at the equator\" or \"disappearance of nuclear envelope\") reveals confusion between the events of metaphase and anaphase, indicating the student cannot distinguish the key trigger for chromatid separation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do chromosomes align at the metaphase plate instead of remaining randomly scattered in the cytoplasm?",
+     "a": "Chromosomes align because each sister chromatid's kinetochore is attached to spindle fibres from opposite poles, creating balanced tension that positions them at the equator. A wrong answer (e.g., \"chromosomes are pushed by spindle fibres\" or \"they align due to cytoplasmic streaming\") shows the student does not understand the pulling mechanism mediated by kinetochore–microtubule attachment and the concept of bi-orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A cell in metaphase has 46 chromosomes. How many chromosomes and how much DNA (in C-value) will be present in each daughter nucleus at the end of telophase? Explain your reasoning.",
+     "a": "At metaphase, 46 chromosomes each consist of two sister chromatids (4C DNA). After anaphase, centromeres split, giving 46 daughter chromosomes per pole. Each daughter nucleus at telophase has 46 chromosomes (2N) and 2C DNA. A wrong answer (e.g., 23 chromosomes or 4C DNA) reveals misunderstanding of the difference between chromosome number (count of centromeres) and DNA content, and that mitosis is equational division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of cytokinesis in animal cells and plant cells. Why can't plant cells use the furrow method?",
+     "a": "Animal cells form a contractile actin–myosin furrow that pinches the plasma membrane inward. Plant cells have a rigid cell wall, so they build a cell plate from Golgi-derived vesicles at the centre, which expands outward to fuse with the lateral walls. A wrong answer (e.g., \"plant cells also form a furrow\" or \"cell plate forms from the nucleus\") indicates the student overlooks the structural constraint of the cell wall and the vesicle-trafficking mechanism unique to plants.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats dividing cells with a drug that prevents spindle fibre formation. At which stage will mitosis arrest, and what will be the chromosome morphology in the arrested cells?",
+     "a": "Mitosis will arrest at metaphase because spindle fibres are required for chromosome alignment and subsequent separation. Chromosomes will remain condensed, each composed of two sister chromatids attached at the centromere, scattered in the cytoplasm (no nuclear envelope). A wrong answer (e.g., \"prophase\" or \"anaphase\") shows the student does not link spindle function to the metaphase checkpoint and the dependency of anaphase on proper spindle attachment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips to demonstrate that cytokinesis occurs after karyokinesis and that the two processes can be uncoupled.",
+     "a": "Treat root tips with colchicine (spindle inhibitor) to arrest cells in metaphase, then wash out the drug and add cytochalasin B (actin inhibitor) at different time points. Fix and stain samples at intervals. Observe: without cytochalasin B, binucleate cells appear after telophase (karyokinesis + cytokinesis). With cytochalasin B added after anaphase, binucleate cells form (karyokinesis without cytokinesis). A poor answer (e.g., \"just stain and count nuclei\") fails to show experimental manipulation that separates the two processes and tests their independence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

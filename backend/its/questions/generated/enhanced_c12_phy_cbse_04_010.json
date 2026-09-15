@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_010",
+   "title": "c12_phy_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the expression for the current sensitivity of a moving coil galvanometer, and what are its SI units?",
+     "a": "Current sensitivity = φ/I = NAB/k. Its SI units are radian per ampere (rad/A) or degree per ampere (°/A). A wrong answer (e.g., giving NABk or omitting k) reveals that the student has not equated the magnetic torque NIAB with the restoring torque kφ, or has confused sensitivity with the torque itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the magnetic field in a moving coil galvanometer made radial? What would happen if the field were uniform but not radial (i.e., the coil rotates in a uniform field with fixed direction)?",
+     "a": "The field is made radial so that the plane of the coil is always parallel to the magnetic field lines, making the angle between the magnetic moment (normal to the coil) and B equal to 90° at all deflections. This ensures sinθ = 1 and the magnetic torque is constant (τ = NIAB) independent of deflection, giving a linear scale (φ ∝ I). If the field were uniform but not radial, the torque would be τ = NIAB sinθ where θ changes with deflection, making the scale non-linear. A wrong answer (e.g., \"radial field increases B\" or \"to make the coil rotate freely\") reveals confusion between field strength and field geometry, or missing the condition for linear scale.",
+     "self_check": true
+    },
+    {
+     "q": "A moving coil galvanometer has 100 turns, each of area 2.5 × 10⁻⁴ m². It is placed in a radial magnetic field of 0.2 T. The torsional constant of the suspension spring is 1.0 × 10⁻⁶ N·m/rad. Calculate the current sensitivity in rad/A and in mm/μA if the pointer length is 5 cm. (Assume small angle approximation: deflection in mm ≈ pointer length × φ in rad).",
+     "a": "Step 1: Identify given: N = 100, A = 2.5 × 10⁻⁴ m², B = 0.2 T, k = 1.0 × 10⁻⁶ N·m/rad.\nStep 2: Current sensitivity S_I = φ/I = NAB/k = (100 × 2.5×10⁻⁴ × 0.2) / (1.0×10⁻⁶) = (5×10⁻³) / (1×10⁻⁶) = 5000 rad/A.\nStep 3: Convert to mm/μA: 1 μA = 10⁻⁶ A. Deflection per μA = 5000 rad/A × 10⁻⁶ A = 5×10⁻³ rad.\nStep 4: Linear deflection = pointer length × φ = 0.05 m × 5×10⁻³ rad = 2.5×10⁻⁴ m = 0.25 mm.\nAnswer: Current sensitivity = 5000 rad/A = 0.25 mm/μA.\nA wrong answer (e.g., forgetting to convert μA, or using degrees instead of rad) reveals unit conversion errors or misunderstanding of small-angle approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Two moving coil galvanometers M1 and M2 have identical spring constants and magnetic fields. M1 has N1 = 30, A1 = 3.6 × 10⁻³ m², R1 = 10 Ω. M2 has N2 = 42, A2 = 1.8 × 10⁻³ m², R2 = 14 Ω. Determine the ratio of (a) current sensitivity and (b) voltage sensitivity of M2 to M1.",
+     "a": "(a) Current sensitivity ratio = (N2 A2)/(N1 A1) = (42 × 1.8×10⁻³) / (30 × 3.6×10⁻³) = (75.6×10⁻³) / (108×10⁻³) = 0.7. So M2 has 70% of M1's current sensitivity.\n(b) Voltage sensitivity ratio = (N2 A2 / R2) / (N1 A1 / R1) = (N2 A2 R1) / (N1 A1 R2) = 0.7 × (10/14) = 0.7 × 0.714 = 0.5.\nA wrong answer (e.g., using same ratio for both, or ignoring resistance in voltage sensitivity) reveals confusion between current and voltage sensitivity definitions, or not recognizing that voltage sensitivity depends on coil resistance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we double the number of turns N of a galvanometer coil, its voltage sensitivity will also double because φ/V = NAB/(kR) and N doubles.\" Evaluate this claim. Is it correct? Explain why or why not, considering the resistance of the coil.",
+     "a": "The claim is incorrect. Doubling N doubles the length of the wire (assuming same coil geometry), which approximately doubles the resistance R of the coil. Since voltage sensitivity = NAB/(kR), if both N and R double, the ratio N/R remains unchanged, so voltage sensitivity does not increase. The student's error is assuming R stays constant while N changes. In practice, manufacturers increase voltage sensitivity by using thicker wire (reducing R) or stronger magnets (increasing B), not just by increasing N.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a galvanometer, a battery, a variable resistor, and an ammeter to verify the linear relationship between current and deflection (φ ∝ I) for a moving coil galvanometer. Describe the procedure, the data to be collected, and how you would analyze it to confirm linearity.",
+     "a": "Procedure: Connect the galvanometer in series with a battery, a variable resistor (rheostat), and an ammeter. Adjust the rheostat to get a small current (e.g., 10 μA), record the galvanometer deflection φ (in scale divisions). Increase the current in steps (20, 30, 40, 50 μA) and record φ each time. Plot φ vs I. If the graph is a straight line passing through the origin, φ ∝ I is verified. Calculate the slope to get current sensitivity. A poor answer (e.g., not using an ammeter, or not varying current systematically) reveals lack of understanding of experimental verification and the need for an independent current measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

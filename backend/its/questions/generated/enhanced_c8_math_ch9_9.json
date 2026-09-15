@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_9",
+   "title": "c8_math_ch9_9",
+   "questions": [
+    {
+     "q": "State the Pythagoras theorem formula and identify which side is the hypotenuse in a right-angled triangle.",
+     "a": "The formula is \\(a^2 + b^2 = c^2\\) where \\(c\\) is the hypotenuse (the longest side, opposite the right angle), and \\(a, b\\) are the other two sides. A wrong answer like \"\\(a^2 + b^2 = c\\)\" (missing square on c) or identifying the hypotenuse as \"the vertical side\" reveals the student has memorised the formula without understanding the geometric meaning of each term.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a ladder problem: \"Ladder = 10 m, wall height = 6 m, find distance from wall.\" They write \\(10^2 + 6^2 = x^2\\) and get \\(x = \\sqrt{136} \\approx 11.66\\) m. Explain why this setup is incorrect.",
+     "a": "The ladder is the hypotenuse (longest side), so it must be \\(c\\) in the formula. The correct setup is \\(6^2 + x^2 = 10^2\\). The student's error shows they don't recognise that the hypotenuse is always the side opposite the right angle (the ladder), not just \"the slanted side.\" They added squares of both known sides instead of subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular park is 80 m long and 60 m wide. A person walks diagonally from one corner to the opposite corner. How much distance do they save compared to walking along the two sides? Show all steps.",
+     "a": "Step 1: Identify the right triangle - the diagonal is the hypotenuse, length and width are legs. Step 2: Apply theorem: \\(d^2 = 80^2 + 60^2 = 6400 + 3600 = 10000\\). Step 3: \\(d = \\sqrt{10000} = 100\\) m. Step 4: Distance along sides = 80 + 60 = 140 m. Step 5: Distance saved = 140 - 100 = 40 m. A wrong answer of 100 m (just the diagonal) reveals the student solved for the diagonal but didn't answer the actual question asked (distance saved).",
+     "self_check": true
+    },
+    {
+     "q": "Two problems: (A) A 13 m ladder reaches a 12 m high window. Find base distance. (B) A 13 m rope is tied from the top of a 12 m pole to the ground. Find distance from pole base. Compare the mathematical structure. Are they the same or different? Justify.",
+     "a": "Both are identical mathematically: hypotenuse = 13, one leg = 12, find other leg. Both give \\(x^2 = 13^2 - 12^2 = 169 - 144 = 25\\), so \\(x = 5\\) m. The contexts differ (ladder vs rope) but the right triangle structure is the same: vertical pole/wall, horizontal ground, slanted hypotenuse. A student saying \"different because one is a ladder\" cannot abstract the mathematical model from the context.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi solves: \"A tree casts a 15 m shadow. The distance from tree top to shadow tip is 17 m. Find tree height.\" He writes: \\(h^2 = 17^2 + 15^2 = 289 + 225 = 514\\), so \\(h = \\sqrt{514} \\approx 22.67\\) m. Evaluate his solution and correct it.",
+     "a": "Ravi incorrectly added the squares. The 17 m (tree top to shadow tip) is the hypotenuse. Correct: \\(h^2 + 15^2 = 17^2\\) → \\(h^2 = 289 - 225 = 64\\) → \\(h = 8\\) m. His error reveals he doesn't identify the hypotenuse as the longest side (17 > 15) and defaults to adding squares. He also didn't check reasonableness: a 15 m shadow with a 22.67 m tree implies an extremely steep sun angle.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life problem (Indian context) that requires the Pythagoras theorem to solve. It must involve a right triangle that is NOT a ladder against a wall. Write the problem, draw a labelled diagram, and solve it completely.",
+     "a": "Example: \"A 20 m high mobile tower is supported by a wire tied from its top to a point on the ground 15 m from its base. Find the wire length.\" Diagram: vertical tower (20 m), horizontal ground (15 m), wire (hypotenuse). Solution: \\(w^2 = 20^2 + 15^2 = 400 + 225 = 625\\) → \\(w = 25\\) m. A poor answer uses a non-right triangle scenario (e.g., \"distance between two cities\") or forgets the square root, showing inability to recognise right triangles in new contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

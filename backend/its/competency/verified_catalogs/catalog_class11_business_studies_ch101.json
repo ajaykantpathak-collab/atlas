@@ -1,0 +1,335 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 101,
+ "chapter_title": "Business, Trade and Commerce",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs101.txt",
+ "concepts": [
+  {
+   "id": "kebs.1.1",
+   "title": "Economic and Non-Economic Activities",
+   "section": "1.2",
+   "definition": "Human actions categorized by their intent: economic activities aim to earn a living, while non-economic activities are driven by personal sentiments like love or duty.",
+   "formula": "total_activity = economic_activity + non_economic_activity",
+   "key_idea": "The primary distinction lies in the motive of earning money versus emotional satisfaction.",
+   "textbook_ref": "kebs101.txt lines 260-280",
+   "question_patterns": [
+    "classify the following as economic or non-economic activities",
+    "why is a teacher teaching in school considered an economic activity",
+    "distinguish between economic and non-economic human actions",
+    "is cooking food for family a business activity",
+    "explain economic and non-economic activities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the motive",
+     "explain": "Determine if the activity is performed for monetary gain or emotional satisfaction."
+    },
+    {
+     "step": 2,
+     "action": "Check for regularity",
+     "explain": "Economic activities like business usually require regular engagement."
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.2",
+   "title": "Characteristics of Business",
+   "section": "1.2.1",
+   "definition": "A set of identifying features including profit motive, risk, regularity of dealings, and the exchange of goods or services for value.",
+   "formula": "business = production + exchange + profit_motive + risk",
+   "key_idea": "Business must involve regular transactions and the intent to earn profit through satisfying social needs.",
+   "textbook_ref": "kebs101.txt lines 300-350",
+   "question_patterns": [
+    "list the essential characteristics of business",
+    "why is one-time sale of a personal item not business",
+    "explain the element of risk in business activities",
+    "what defines the fundamental nature of business",
+    "explain characteristics of business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify exchange for value",
+     "explain": "Ensure the activity involves a transfer of goods or services for money."
+    },
+    {
+     "step": 2,
+     "action": "Check for continuity",
+     "explain": "Confirm the transactions happen on a regular basis rather than being isolated events."
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.3",
+   "title": "Classification of Industry",
+   "section": "1.3.1",
+   "definition": "The grouping of business units based on their production stage: primary (extraction), secondary (processing), and tertiary (support services).",
+   "formula": "total_industry = primary + secondary + tertiary",
+   "key_idea": "Industries transform natural resources into finished products through successive stages of value addition.",
+   "textbook_ref": "kebs101.txt lines 400-480",
+   "question_patterns": [
+    "classify industries into primary secondary and tertiary",
+    "what is the difference between genetic and extractive industries",
+    "give examples of analytical and synthetical industries",
+    "how does secondary industry depend on primary industry",
+    "explain classification of industry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of material",
+     "explain": "If it comes directly from nature, it is primary; if it uses processed materials, it is secondary."
+    },
+    {
+     "step": 2,
+     "action": "Determine the process type",
+     "explain": "Categorize as manufacturing (processing) or construction (infrastructure)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.4",
+   "title": "Commerce and Auxiliaries to Trade",
+   "section": "1.3.2",
+   "definition": "Activities that facilitate the smooth flow of goods from producers to consumers by removing hindrances of person, place, time, and risk.",
+   "formula": "commerce = trade + auxiliaries_to_trade",
+   "key_idea": "Commerce bridges the gap between production and consumption through support services.",
+   "textbook_ref": "kebs101.txt lines 490-560",
+   "question_patterns": [
+    "what are the auxiliaries to trade",
+    "how does insurance remove the hindrance of risk",
+    "explain the role of warehousing in commerce",
+    "how does transport facilitate trade",
+    "explain commerce and auxiliaries to trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the hindrance",
+     "explain": "Determine if the problem is related to distance, time, finance, or information."
+    },
+    {
+     "step": 2,
+     "action": "Match with auxiliary service",
+     "explain": "Link the hindrance to the specific service (e.g., transport for place, banking for finance)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.5",
+   "title": "Business Profit Calculation",
+   "section": "1.4",
+   "definition": "The financial gain obtained when the total income generated from business operations exceeds the total expenses incurred.",
+   "formula": "profit = revenue - cost",
+   "key_idea": "Profit is the reward for risk-taking and an indicator of business efficiency.",
+   "textbook_ref": "kebs101.txt lines 600-620",
+   "question_patterns": [
+    "calculate the profit earned by the firm",
+    "find the excess of revenue over cost",
+    "what is the reward for risk taking if revenue is ... and cost is ...",
+    "determine the net gain from sales",
+    "calculate business profit calculation for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate net profit",
+     "explain": "Subtract the total cost of operations from the total revenue earned.",
+     "compute": "profit = revenue - cost"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_kebs.1.5_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "kebs.1.5",
+     "question_type": "compute",
+     "extracted_variables": {
+      "cost": "10",
+      "revenue": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "Calculate net profit",
+       "explain": "Subtract the total cost of operations from the total revenue earned.",
+       "compute": "profit = revenue - cost"
+      }
+     ],
+     "question_pattern": "calculate the profit earned by the firm (given {cost}, {revenue})"
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.6",
+   "title": "Business Productivity",
+   "section": "1.5",
+   "definition": "A measure of operational efficiency calculated by comparing the volume of output produced to the volume of inputs used.",
+   "formula": "productivity = output / input",
+   "key_idea": "Higher productivity indicates better utilization of available resources.",
+   "textbook_ref": "kebs101.txt lines 660-670",
+   "question_patterns": [
+    "calculate the productivity of the factory",
+    "find the efficiency ratio of output to input",
+    "how much output is produced per unit of input",
+    "determine the resource utilization rate",
+    "calculate business productivity for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide output by input",
+     "explain": "Efficiency is the ratio of total output value to total input value.",
+     "compute": "productivity = output / input"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate the productivity of the factory (take input = 10, output = 10)",
+     "solution": "Applying the concept's compute chain with input = 10, output = 10 gives 1.0.",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.7",
+   "title": "Business Risk and its Types",
+   "section": "1.6",
+   "definition": "The potential for financial loss or inadequate profits resulting from uncertain future events or market fluctuations.",
+   "formula": "total_risk = speculative_risk + pure_risk",
+   "key_idea": "Risk is an unavoidable part of business, where higher risks often correlate with higher potential profits.",
+   "textbook_ref": "kebs101.txt lines 690-750",
+   "question_patterns": [
+    "distinguish between speculative and pure risk",
+    "what are the natural causes of business risk",
+    "explain why profit is the reward for risk taking",
+    "can business risk be eliminated",
+    "explain business risk and its types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of uncertainty",
+     "explain": "Determine if the event allows for both gain and loss (speculative) or only loss (pure)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the cause",
+     "explain": "Classify the cause as natural, human, economic, or other."
+    }
+   ]
+  },
+  {
+   "id": "kebs.1.8",
+   "title": "Factors for Starting a Business",
+   "section": "1.7",
+   "definition": "The critical considerations an entrepreneur must evaluate before launching a new enterprise, such as scale, location, and finance.",
+   "formula": "launch_readiness = sum(selection, size, location, finance, workforce)",
+   "key_idea": "Successful business initiation requires systematic planning of resources and legal requirements.",
+   "textbook_ref": "kebs101.txt lines 780-850",
+   "question_patterns": [
+    "what factors should be considered while starting a business",
+    "why is location important for a new enterprise",
+    "how does an entrepreneur decide the size of the firm",
+    "explain the importance of tax planning in starting a business",
+    "explain factors for starting a business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate market requirements",
+     "explain": "Decide the type of business based on customer needs and technical knowledge."
+    },
+    {
+     "step": 2,
+     "action": "Assess resource availability",
+     "explain": "Check for capital, physical facilities, and workforce requirements."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs101.txt lines 600-620",
+   "concept": "kebs.1.5",
+   "question_type": "compute",
+   "question_pattern": "A trader sells goods worth {revenue} and incurs a total expenditure of {cost}. Calculate the profit.",
+   "extracted_variables": {
+    "revenue": "total income from sales",
+    "cost": "total expenses"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract cost from revenue",
+     "explain": "Profit is the surplus remaining after all costs are paid.",
+     "compute": "profit = revenue - cost"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs101.txt lines 660-670",
+   "concept": "kebs.1.6",
+   "question_type": "compute",
+   "question_pattern": "A manufacturing unit produces {output} units of goods using {input} units of raw material. Find the productivity.",
+   "extracted_variables": {
+    "output": "total units produced",
+    "input": "total units of resources used"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate output per unit of input",
+     "explain": "Productivity is the ratio of output to input.",
+     "compute": "productivity = output / input"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "kebs101.txt lines 860-870",
+   "questions": [
+    "Why is business considered as economic activity?",
+    "How does business contribute to the economic development of a country?",
+    "State the different types of economic activities.",
+    "State the meaning of business.",
+    "How would you classify business activities?",
+    "What are the various types of industries?",
+    "Explain any two business activities which are auxiliaries to trade.",
+    "What is the role of profit in business?",
+    "What is meant by business risk?",
+    "State the causes of risks involved in business?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "kebs101.txt lines 880-890",
+   "questions": [
+    "Discuss the development of indigenous banking system in Indian subcontinent.",
+    "Define business. Describe its important characteristics.",
+    "Compare business with profession and employment.",
+    "Define Industry. Explain various types of industries giving examples.",
+    "Describe the activities relating to commerce.",
+    "Explain any five objectives of business.",
+    "Explain the concept of business risk and its causes.",
+    "What factors are to be considered while starting a business? Explain."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

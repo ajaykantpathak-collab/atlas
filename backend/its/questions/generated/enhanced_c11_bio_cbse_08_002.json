@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_002",
+   "title": "c11_bio_cbse_08_002",
+   "questions": [
+    {
+     "q": "A student observes two cells under a microscope: Cell A has a distinct nuclear membrane and 80S ribosomes; Cell B lacks a nuclear membrane and has 70S ribosomes. Which cell is prokaryotic and which is eukaryotic? Justify your answer using two structural criteria.",
+     "a": "Cell A is eukaryotic (presence of nuclear membrane and 80S ribosomes); Cell B is prokaryotic (absence of nuclear membrane and presence of 70S ribosomes). A wrong answer reveals the student cannot distinguish the defining feature - the nuclear envelope - or confuses ribosome sedimentation coefficients, indicating they memorized labels without understanding the structural basis of the prokaryotic-eukaryotic divide.",
+     "self_check": true
+    },
+    {
+     "q": "Why do prokaryotic cells lack membrane-bound organelles like mitochondria and endoplasmic reticulum, yet still carry out aerobic respiration and protein synthesis? Explain the structural adaptation that allows this.",
+     "a": "Prokaryotes perform aerobic respiration using enzymes embedded in their plasma membrane (mesosomes increase surface area) and synthesize proteins on free-floating 70S ribosomes in the cytoplasm. A wrong answer suggests the student thinks prokaryotes cannot perform these functions, or that they possess primitive versions of eukaryotic organelles, revealing a misconception that membrane-bound organelles are absolutely required for these processes rather than being eukaryotic specializations for compartmentalization.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher discovers a new single-celled organism in a hot spring. It has a cell wall containing peptidoglycan, circular DNA not enclosed by a membrane, 70S ribosomes, and divides by binary fission. However, it also has histone-like proteins associated with its DNA. Classify this organism and explain whether the histone-like proteins make it eukaryotic.",
+     "a": "The organism is prokaryotic (bacteria/archaea). Histone-like proteins in archaea and some bacteria organize DNA but do not form a true nucleus with a nuclear envelope. A wrong classification as eukaryotic reveals the student equates any DNA-protein association with eukaryotic chromatin, missing the critical distinction: eukaryotes have histone octamers forming nucleosomes within a membrane-bound nucleus, while prokaryotes have nucleoid-associated proteins without membrane enclosure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cell envelope of Gram-positive bacteria, Gram-negative bacteria, and a typical plant cell. Analyze how the structural differences in their outermost layers relate to their staining properties and mechanical strength.",
+     "a": "Gram-positive bacteria have thick peptidoglycan with teichoic acids (retains crystal violet); Gram-negative have thin peptidoglycan plus outer membrane with lipopolysaccharide (loses crystal violet, takes safranin); plant cells have cellulose-hemicellulose-pectin cell wall outside plasma membrane (no Gram staining). A poor analysis shows the student cannot link chemical composition to staining outcome or confuses bacterial cell envelope layers with eukaryotic cell wall composition, indicating surface-level memorization without structural reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since mitochondrial and chloroplast ribosomes are 70S like prokaryotic ribosomes, mitochondria and chloroplasts must be prokaryotic cells living inside eukaryotic cells.\" Is this reasoning valid? Justify using endosymbiotic theory evidence.",
+     "a": "The reasoning is partially valid but incomplete. The 70S ribosomes, circular DNA, and double membranes support endosymbiotic origin, but mitochondria/chloroplasts are NOT independent prokaryotic cells - they have lost most genes to the nuclear genome, cannot survive independently, and their protein synthesis depends on nuclear-encoded proteins. A student agreeing fully reveals they confuse \"prokaryotic-like features\" with \"being a prokaryote,\" missing the evolutionary transition from endosymbiont to organelle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopy-based experiment to distinguish between a culture of cyanobacteria (prokaryotic) and Chlamydomonas (eukaryotic green alga) without using stains. Specify what you would observe and how each observation confirms the cell type.",
+     "a": "Use phase-contrast microscopy: cyanobacteria will show no distinct nucleus, uniform cytoplasm with thylakoid membranes (no chloroplasts), and possible heterocysts; Chlamydomonas will show a clear nucleus, cup-shaped chloroplast with pyrenoid, two anterior flagella, and contractile vacuoles. A poor design might suggest Gram staining (both are Gram-negative) or size alone (overlap exists), revealing the student doesn't know which structures are visibly distinct in unstained live cells.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

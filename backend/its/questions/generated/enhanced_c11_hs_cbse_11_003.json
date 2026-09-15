@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_003",
+   "title": "c11_hs_cbse_11_003",
+   "questions": [
+    {
+     "q": "List the six stages of the laundry process in the correct sequential order as per the NCERT textbook.",
+     "a": "The six stages in sequence are: (1) Stain removal, (2) Preparation of fabrics for washing (sorting, mending, steeping), (3) Washing (removing dirt using water, soaps/detergents, and mechanical action), (4) Finishing (blueing/optical brighteners and starching/stiffening), (5) Drying, (6) Ironing/pressing. A wrong answer (e.g., placing washing before stain removal or ironing before drying) reveals the student views laundry as a single \"wash\" activity rather than a staged process where each stage prepares the fabric for the next; it also indicates they miss the textbook's explicit statement that \"stain removal is the preparatory step in laundry\" and must be followed by washing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why stain removal must be performed BEFORE the general washing stage, using the example of a protein-based stain (like blood or egg) on cotton fabric.",
+     "a": "Protein stains (blood, egg, milk) coagulate and set permanently when exposed to heat (hot water) or alkaline conditions (soap/detergent solutions) used in general washing. If washed first, the stain becomes insoluble and cannot be removed later. Stain removal uses cold water and specific reagents (e.g., salt solution for blood) that solubilise proteins without coagulation. A wrong answer (e.g., \"stain removal is just extra cleaning\") shows the student does not understand the chemical interaction between stain type, reagent, and washing conditions—specifically that washing parameters can chemically fix stains, making later removal impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A student washes a white cotton shirt with a turmeric stain using hot water and detergent in the first wash cycle. The stain turns red and becomes permanent. Analyse the error using the concept of stain classification and the effect of washing conditions.",
+     "a": "Turmeric contains curcumin, a pH-sensitive dye that turns red in alkaline medium. Detergent solutions are alkaline (pH 9–10). Hot water accelerates the colour change and drives the dye deeper into cotton fibres. The correct sequence: (1) Identify as vegetable/dye stain → (2) Treat with acidic reagent (lemon juice/vinegar) to neutralise alkalinity and solubilise curcumin → (3) Then wash. The error reveals the student applied a generic \"hot water + detergent\" protocol without classifying the stain, violating the principle that \"identification may be done on the basis of colour, smell and feel\" and \"stains can be classified as vegetable stains... acidic by nature and can be removed by alkaline medium\" (but turmeric is an exception requiring acid).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the finishing requirements (blueing vs. optical brighteners vs. starching) for: (a) white cotton bedsheet, (b) coloured polyester-cotton blend shirt, (c) white silk kurta. Justify each choice based on fibre properties and discoloration mechanisms.",
+     "a": "(a) White cotton bedsheet: Yellowing occurs due to incomplete soil removal and alkaline residue. Use optical brighteners (counteract both yellowness and grayness) + light starch (cotton loses body). Blueing only masks yellowness, not grayness. (b) Coloured poly-cotton shirt: Grayness dominates (synthetic fibres). Optical brighteners safe on coloured prints (do not destroy colour). No starch (polyester low moisture regain, starch uneven). No blueing (alters hue). (c) White silk kurta: Silk damaged by strong alkalis; yellowing from protein degradation. Mild blueing (ultramarine) in final rinse at low temperature. No optical brighteners (may require alkaline bath). No starch (silk finished with gum acacia for crispness, not starch). Wrong answers reveal confusion between yellowness (cotton/cellulose) vs. grayness (synthetics) and ignorance that optical brighteners are fluorescent dyes requiring specific pH, not universal \"whiteners.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dry-cleaning is simply washing with a different liquid; therefore, any fabric that can be washed can also be dry-cleaned.\" Defend or refute with three specific fibre-level arguments.",
+     "a": "Refute. Three fibre-level arguments: (1) Fibre swelling: Water penetrates amorphous regions of hydrophilic fibres (cotton, wool, silk, rayon), causing swelling → shrinkage, wrinkling, dye bleeding. Dry solvents (perchloroethylene, petroleum) do not swell fibres → no dimensional change. (2) Mechanical action: Wet fibres have reduced tensile strength (especially wool, silk, rayon). Washing agitation causes felting (wool), yarn slippage, abrasion. Dry-cleaning uses gentle tumbling in non-swelling medium → preserves structure. (3) Finish stability: Water-soluble finishes (starch, softeners, some dyes) are removed in washing. Dry solvents preserve most finishes. Counter-example: Acetate rayon dissolves in acetone (nail polish remover) but not in perchloroethylene—solvent selection is fibre-specific. A wrong answer treating solvents as interchangeable reveals ignorance of polymer-solvent thermodynamics (solubility parameters, hydrogen bonding) that govern fibre-solvent interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete laundry protocol for a heavily soiled white cotton tablecloth with: (i) old coffee stains, (ii) candle wax drippings, (iii) general greasy particulate soil, (iv) yellowing from repeated washes. Specify reagent, temperature, mechanical action, and finishing agent for each stage. Present as a numbered 8-step procedure.",
+     "a": "1. Stain removal—coffee (vegetable/tannin): Sponge fresh with cold water; old stain—apply glycerine, then borax solution (alkaline), rinse. 2. Stain removal—candle wax (oil/wax): Harden with ice, scrape, sponge with perchloroethylene/petrol (grease solvent), rinse. 3. Preparation: Mend tears, steep in cold water 30 min to remove loose dirt. 4. Washing: Hot water (60–90°C), heavy-duty alkaline detergent, friction washing (scrub board/brush) for 15 min—cotton withstands heat/alkali/friction. 5. Rinse: Multiple warm water rinses until foam-free. 6. Finishing—blueing: Dip in ultramarine blue solution (paste powder first) for 2 min, hydro-extract. 7. Finishing—starching: Cook rice starch to medium consistency, knead damp cloth, squeeze, line dry in sun (UV bleaching). 8. Ironing: Damp iron at 210°C (cotton setting), press along threads, fold. A poor answer omits stage-specific reagents, uses hot water for wax (melts deeper), skips blueing for yellowing, or irons bone-dry cotton (scorching).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

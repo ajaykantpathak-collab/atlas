@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_006",
+   "title": "c12_biotech_cbse_09_006",
+   "questions": [
+    {
+     "q": "What are the four Yamanaka factors used to generate induced pluripotent stem cells (iPSCs), and which one is an oncogene that poses a tumorigenicity risk in clinical applications?",
+     "a": "The four Yamanaka factors are Oct4, Sox2, Klf4, and c-Myc (OSKM). c-Myc is a proto-oncogene; its overexpression increases reprogramming efficiency but raises tumorigenicity risk, so later protocols often omit it (using OSK only) or use non-integrating methods. A wrong answer (e.g., listing Nanog instead of Klf4, or missing c-Myc) reveals the student memorised the acronym without understanding each factor's functional role and safety implication.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"iPSCs are exactly identical to embryonic stem cells because both are pluripotent.\" Explain why this statement is incorrect by comparing their origin, epigenetic status, and immunological compatibility for autologous therapy.",
+     "a": "iPSCs are *similar* but not *identical* to ESCs. Origin: ESCs come from the inner cell mass of a blastocyst; iPSCs are derived from somatic cells (e.g., skin fibroblasts) by reprogramming. Epigenetics: iPSCs may retain \"epigenetic memory\" of the donor somatic cell lineage, biasing differentiation. Immunology: Autologous iPSCs (from the patient's own cells) avoid immune rejection, whereas allogeneic ESCs require immunosuppression. A wrong answer that equates them entirely shows the student confuses functional potency (pluripotency) with molecular and clinical equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher reprograms human dermal fibroblasts using a lentiviral vector expressing OSKM. After 21 days, colonies appear. List the *minimum three validation assays* (with one molecular, one functional, and one in vivo test) that must be performed to confirm these colonies are bona fide iPSCs, and state the expected result for each.",
+     "a": "1. Molecular: Immunostaining/qPCR for pluripotency markers (Oct4, Nanog, SSEA-4, TRA-1-60) — expected: positive expression. 2. Functional: In vitro embryoid body (EB) formation showing differentiation into all three germ layers (e.g., β-III-tubulin for ectoderm, α-SMA for mesoderm, AFP for endoderm) — expected: positive for all three. 3. In vivo: Teratoma assay in immunodeficient mice — expected: teratoma containing tissues from ectoderm, mesoderm, and endoderm. Missing any one assay (e.g., skipping teratoma) indicates incomplete validation understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reprogramming efficiency and genomic integration risk of the following delivery methods for Yamanaka factors: (a) integrating retrovirus/lentivirus, (b) non-integrating Sendai virus, (c) episomal plasmids, (d) mRNA transfection. Rank them from highest to lowest efficiency, and from highest to lowest integration risk. Explain the trade-off.",
+     "a": "Efficiency rank (high → low): (a) integrating virus > (b) Sendai virus > (c) episomal plasmids > (d) mRNA. Integration risk rank (high → low): (a) integrating virus > (b) Sendai virus (RNA virus, no DNA integration but persistent) > (c) episomal plasmids (rare integration) > (d) mRNA (zero integration). Trade-off: Higher efficiency methods (integrating viruses) leave permanent genetic modifications, risking insertional mutagenesis; clinical-grade iPSCs require footprint-free methods (mRNA, episomes) despite lower efficiency and higher technical difficulty. A student ranking mRNA as highest efficiency reveals confusion between *efficiency* and *safety*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since iPSCs can be made from a patient's own cells, they completely solve the immune rejection problem in regenerative medicine.\" Defend or refute with three specific immunological or genetic arguments.",
+     "a": "Refute. Three arguments: (1) *Aberrant gene expression*: Reprogramming and culture can cause mutations, copy number variations, or epigenetic aberrations creating neoantigens. (2) *Mitochondrial DNA mismatch*: If donor mitochondria differ (e.g., in heteroplasmic patients), immune recognition may occur. (3) *Differentiation-derived immunogenicity*: Terminally differentiated cells from iPSCs may express minor histocompatibility antigens not present in the original somatic cell. A student accepting the claim uncritically ignores post-reprogramming genomic instability and the difference between *source* compatibility and *product* compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a stepwise experimental workflow to generate clinical-grade, integration-free iPSCs from a 10 mL peripheral blood sample of a Type 1 diabetes patient, differentiate them into pancreatic β-like cells, and validate function *in vitro*. Specify the cell type targeted, reprogramming method, two key validation checkpoints, and one functional assay for β-cell maturity.",
+     "a": "Workflow: (1) Isolate PBMCs (CD34+ erythroblasts or T-cells) from blood. (2) Reprogram using episomal plasmids (pEB-C5: Oct4, Sox2, Klf4, L-Myc, Lin28; pEB-Tg: EBNA1) via nucleofection — footprint-free. (3) Culture on vitronectin in E8 medium; pick colonies at day 20–25. (4) Checkpoint 1: Karyotyping (G-banding) + whole-exome sequencing to exclude mutations. (5) Checkpoint 2: Teratoma assay in NSG mice + trilineage qPCR panel. (6) Differentiate via 7-stage protocol (Activin A → Wnt3a → FGF10 → retinoic acid → exendin-4 → nicotinamide → ALK5 inhibitor). (7) Functional assay: Glucose-stimulated insulin secretion (GSIS) — measure C-peptide release at 2.8 mM vs 16.7 mM glucose; stimulation index >2 indicates maturity. Poor answers omit karyotyping, use integrating vectors, or skip GSIS.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

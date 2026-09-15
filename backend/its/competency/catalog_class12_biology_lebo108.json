@@ -1,0 +1,292 @@
+{
+  "class": 12,
+  "subject": "biology",
+  "chapter": 108,
+  "chapter_title": "Microbes in Human Welfare",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebo108.8.0.1",
+      "title": "Microbe Diversity and Culturing on Nutritive Media",
+      "section": "8.1 (introduction)",
+      "definition": "Microorganisms span protozoa, bacteria, fungi, microscopic plant and animal viruses, viroids and prions, thriving everywhere from hundred-degree thermal vents to acidic pools and deep soil; bacteria and many fungi can be raised on nutritive media into visible colonies, which is what makes laboratory study of them possible.",
+      "formula": "",
+      "key_idea": "Only a handful of microbes cause disease -- the vast majority are neutral or useful, and their tiny size hides an enormous metabolic range.",
+      "textbook_ref": "lebo108.txt lines 1-21 (microbe groups, extreme habitats, colony growth on media)",
+      "question_patterns": [
+        "which groups of organisms count as microbes",
+        "what are prions and viroids",
+        "name the extreme habitats where microbes survive but other life cannot",
+        "how are bacteria and fungi grown in the laboratory for study",
+        "why can microbe colonies be seen with the naked eye",
+        "which kingdoms of living organisms contain micro organisms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "List the players", "explain": "The microbial world includes protozoa, bacteria, fungi, viruses of plants and animals, viroids and the protein-only prions."},
+        {"step": 2, "action": "Note the habitats", "explain": "Microbes occupy soil, water, air and living bodies, and persist in geysers near 100 degrees, metres under snow, highly acidic sites and deep soil."},
+        {"step": 3, "action": "Grow them visibly", "explain": "On nutritive media bacteria and many fungi multiply into colonies big enough to see, the working unit of microbiology studies."}
+      ]
+    },
+    {
+      "id": "lebo108.8.1.1",
+      "title": "Microbes in Household Products: Curd, Dough and Cheese",
+      "section": "8.1",
+      "definition": "Every kitchen runs on microbes: lactic acid bacteria such as lactobacillus turn milk into curd, their acids coagulating and partly digesting milk proteins while boosting vitamin b12 and checking pathogens in the stomach; bacterial fermentation puffs dosa and idli dough with carbon dioxide, baker's yeast raises bread, palm sap ferments into toddy, and propionibacterium sharmanii blows the holes into swiss cheese while a ripening fungus flavours roquefort.",
+      "formula": "",
+      "key_idea": "A spoonful of curd works as starter (inoculum) because millions of lab cells carry the fermentation forward -- the same logic behind every traditional fermented food.",
+      "textbook_ref": "lebo108.txt lines 77-105 (curd/LAB, dosa-idli dough, bread, toddy, Swiss and Roquefort cheese)",
+      "question_patterns": [
+        "how does milk get converted into curd and which bacteria do the work",
+        "why does curd improve the nutritional quality of milk",
+        "what makes dosa and idli dough puff up",
+        "which microbe ferments bread dough and which gas is released",
+        "why does swiss cheese have large holes in it",
+        "how do the bacteria in curd help inside the human stomach"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Curdle the milk", "explain": "Lactobacillus and other lactic acid bacteria added as starter multiply at warm temperatures; the acids they make coagulate and partially break down milk proteins, and vitamin b12 levels rise."},
+        {"step": 2, "action": "Ferment the doughs", "explain": "Dosa and idli batter ferments through bacteria whose carbon dioxide inflates it; bread dough uses saccharomyces cerevisiae, baker's yeast."},
+        {"step": 3, "action": "Ferment the drinks and foods", "explain": "Toddy comes from fermented palm sap, and fish, soyabean and bamboo shoots are fermented into traditional foods."},
+        {"step": 4, "action": "Flavour the cheese", "explain": "Each cheese's texture and taste traces to its microbe: propionibacterium sharmanii's carbon dioxide carves swiss cheese's holes, and a specific fungus ripens roquefort."}
+      ]
+    },
+    {
+      "id": "lebo108.8.2.1",
+      "title": "Fermented Beverages and Brewer's Yeast",
+      "section": "8.2.1",
+      "definition": "Saccharomyces cerevisiae, the same brewer's yeast used in bread, ferments malted cereals and fruit juices into ethanol on an industrial scale inside large vessels called fermentors; wine and beer stop at fermentation, while whisky, brandy and rum take the extra step of distilling the fermented broth.",
+      "formula": "",
+      "key_idea": "One yeast, one reaction, two product families -- distillation is the only divide between wine-and-beer and whisky-brand-rum.",
+      "textbook_ref": "lebo108.txt lines 106-134 (fermentors, Saccharomyces cerevisiae, distilled versus undistilled drinks)",
+      "question_patterns": [
+        "which yeast is used in brewing and what does it produce",
+        "how do wine and beer differ from whisky brandy and rum in processing",
+        "what are fermentors and why does industry need them",
+        "which raw materials are fermented to make alcoholic drinks",
+        "recall the metabolic reactions behind ethanol production by yeast",
+        "why is saccharomyces cerevisiae called brewer's yeast"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Pick the organism and vessel", "explain": "Brewer's yeast, saccharomyces cerevisiae, does the fermenting in huge industrial tanks called fermentors."},
+        {"step": 2, "action": "Run the fermentation", "explain": "Malted cereals or fruit juices supply sugars that yeast converts into ethanol, the reaction behind every alcoholic drink."},
+        {"step": 3, "action": "Distil or not", "explain": "Wine and beer are served straight from the fermented broth; whisky, brandy and rum are distilled from it -- the raw material plus this step decides the drink."}
+      ]
+    },
+    {
+      "id": "lebo108.8.2.2",
+      "title": "Antibiotics: Penicillin and the War on Bacteria",
+      "section": "8.2.2",
+      "definition": "Antibiotics are chemicals some microbes make to kill or stall other microbes -- against microbial life but pro human life; penicillin surfaced by chance when fleming noticed a penicillium notatum mould wiping out staphylococci on an unwashed plate, chain and florey later proved its full power, and the trio shared the 1945 nobel prize as the drug went on to tame plague, diphtheria, whooping cough and leprosy.",
+      "formula": "",
+      "key_idea": "A forgotten dirty plate opened the antibiotic era -- and after penicillin, purified antibiotics from many other microbes followed.",
+      "textbook_ref": "lebo108.txt lines 135-168 (antibiotic definition, Fleming's discovery, Chain and Florey, WWII use, diseases controlled)",
+      "question_patterns": [
+        "define antibiotics and explain the meaning of the word",
+        "recount how alexander fleming discovered penicillin",
+        "which mould produces penicillin and what was it originally named after",
+        "what contribution did chain and florey make to the penicillin story",
+        "name the deadly diseases antibiotics brought under control",
+        "why were fleming chain and florey awarded the nobel prize in 1945"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define the class", "explain": "Antibiotic joins the greek anti (against) with bio (life): these are microbial chemicals that kill or retard disease-causing microbes while helping human patients."},
+        {"step": 2, "action": "Replay the chance discovery", "explain": "Fleming, studying staphylococci, saw a mould on an unwashed plate around which the bacteria could not grow; the mould's chemical was named penicillin after penicillium notatum."},
+        {"step": 3, "action": "Establish and honour it", "explain": "Chain and florey unlocked penicillin's full clinical value, allied troops used it widely in world war ii, and the 1945 nobel prize crowned all three."},
+        {"step": 4, "action": "Measure the payoff", "explain": "Antibiotics purified from further microbes turned plague, whooping cough, diphtheria and leprosy from mass killers into treatable diseases."}
+      ]
+    },
+    {
+      "id": "lebo108.8.2.3",
+      "title": "Industrial Chemicals, Enzymes and Bioactive Molecules",
+      "section": "8.2.3",
+      "definition": "Fermentor-grown microbes also supply organic acids (aspergillus niger for citric, acetobacter aceti for acetic, clostridium butylicum for butyric, lactobacillus for lactic), ethanol from yeast, working enzymes -- lipases for oily laundry stains, pectinases and proteases that clarify bottled juices, streptokinase as a clot buster after heart attacks -- and medicines such as cyclosporin a from trichoderma polysporum for transplant patients plus statins from monascus purpureus that competitively block cholesterol synthesis.",
+      "formula": "",
+      "key_idea": "Match the product to its maker -- each acid, enzyme and drug has one named microbe, and examiners love that pairing.",
+      "textbook_ref": "lebo108.txt lines 169-190 (acid producers, lipases, pectinases, streptokinase, cyclosporin A, statins)",
+      "question_patterns": [
+        "match each organic acid to the microbe that produces it industrially",
+        "which enzymes clarify bottled fruit juices",
+        "how do lipases help in detergent formulations",
+        "what is streptokinase used for and which bacterium yields it",
+        "name the microbe sources of cyclosporin a and statins",
+        "how do statins lower blood cholesterol in the body"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Pair the acids", "explain": "Citric acid comes from the fungus aspergillus niger; acetic acid from acetobacter aceti, butyric acid from clostridium butylicum, lactic acid from lactobacillus -- all bacteria."},
+        {"step": 2, "action": "Add alcohol and enzymes", "explain": "Saccharomyces cerevisiae makes commercial ethanol; lipases strip oily stains in detergents, while pectinases and proteases give bottled juices their clarity."},
+        {"step": 3, "action": "Deploy the clot buster", "explain": "Streptococcus-derived streptokinase, modified by genetic engineering, dissolves blood-vessel clots in patients after myocardial infarction."},
+        {"step": 4, "action": "Deploy the medicines", "explain": "Trichoderma polysporum yields cyclosporin a, the immunosuppressive that protects organ transplants; monascus purpureus yeast makes statins, which competitively inhibit the enzyme that synthesises cholesterol."}
+      ]
+    },
+    {
+      "id": "lebo108.8.3.1",
+      "title": "Sewage Treatment: Primary, Secondary Stages and BOD",
+      "section": "8.3",
+      "definition": "Municipal waste water, or sewage, is scrubbed in two stages at treatment plants: primary treatment removes particles physically by sequential filtration and sedimentation, giving primary sludge and an effluent; secondary treatment aerates that effluent so heterotrophic microbes in flocs eat the organic matter, cutting the biochemical oxygen demand until flocs settle as activated sludge, part of which recycles to the aeration tank while the rest feeds anaerobic digesters that release methane-rich biogas.",
+      "formula": "",
+      "key_idea": "Bod is the yardstick of pollution -- the oxygen microbes would need to oxidise a litre's organic load -- and treatment runs until that number drops enough for rivers to cope.",
+      "textbook_ref": "lebo108.txt lines 191-271 (primary/secondary treatment, flocs, BOD, activated sludge, digesters, Ganga and Yamuna action plans)",
+      "question_patterns": [
+        "differentiate primary from secondary sewage treatment",
+        "what is bod and why does it measure the polluting power of waste water",
+        "what are flocs and what role do they play in aeration tanks",
+        "what is activated sludge and why is part of it pumped back into the tank",
+        "which gases do anaerobic sludge digesters release and what are they worth",
+        "why can sewage not be released straight into rivers and streams"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Filter and settle", "explain": "Primary treatment is purely physical: floating debris goes through sequential filtration, grit settles out, solids collect as primary sludge and the supernatant effluent moves on."},
+        {"step": 2, "action": "Aerate and digest organics", "explain": "In aeration tanks, agitated and air-pumped, useful aerobic microbes grow as flocs -- bacteria tangled with fungal filaments -- and consume most of the organic matter, sharply lowering the effluent's bod."},
+        {"step": 3, "action": "Settle and recycle", "explain": "Once the bod falls, the flocs sediment in a settling tank as activated sludge; a little returns as inoculum for the aeration tank and the bulk goes to anaerobic sludge digesters."},
+        {"step": 4, "action": "Harvest the gas, release the water", "explain": "Anaerobic bacteria digest the sludge, emitting methane, hydrogen sulphide and carbon dioxide -- an inflammable biogas mix -- while the treated effluent is safe enough for rivers; the ganga and yamuna action plans extend this capacity."}
+      ]
+    },
+    {
+      "id": "lebo108.8.4.1",
+      "title": "Biogas: Methanogens and the Gobar Gas Plant",
+      "section": "8.4",
+      "definition": "Methanogens -- anaerobic bacteria such as methanobacterium that grow on cellulosic material -- emit plentiful methane alongside carbon dioxide and hydrogen, making biogas; they flourish in sewage sludge and in the rumen of cattle where they help digest cellulose, so cattle dung (gobar) seeds the typical biogas plant: a 10-15 feet concrete tank of slurry under a floating cover whose pipe delivers cooking and lighting gas, with spent slurry out as fertiliser.",
+      "formula": "",
+      "key_idea": "The rumen connection explains everything -- the same cellulose-digesting methanogens that help cattle digest make gobar gas possible.",
+      "textbook_ref": "lebo108.txt lines 272-324 (methanogens, rumen, gobar gas, plant design, IARI and KVIC)",
+      "question_patterns": [
+        "which bacteria produce biogas and under what conditions",
+        "why are methanogens found in the rumen of cattle",
+        "describe the parts of a typical biogas plant",
+        "why is biogas commonly called gobar gas in india",
+        "what happens to the spent slurry from a biogas plant",
+        "which indian institutions developed biogas technology"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the gas makers", "explain": "Methanogens such as methanobacterium grow without oxygen on cellulosic substrates and give off chiefly methane plus carbon dioxide and hydrogen; fermentation of dough or cheese by contrast yields mainly carbon dioxide."},
+        {"step": 2, "action": "Trace the rumen link", "explain": "In the rumen of cattle these bacteria break down cellulose, aiding the animal's nutrition -- hence dung, or gobar, teems with them and fuels gobar gas."},
+        {"step": 3, "action": "Walk through the plant", "explain": "A concrete tank 10-15 feet deep holds the bio-waste and dung slurry; a floating cover rises as gas collects, an outlet pipes biogas to houses for cooking and lighting, and spent slurry exits as fertiliser."},
+        {"step": 4, "action": "Locate the technology", "explain": "Rural areas suit the plants best since cattle dung is abundant there, and iari together with kvic drove the technology's Indian development."}
+      ]
+    },
+    {
+      "id": "lebo108.8.5.1",
+      "title": "Biocontrol: Ladybirds, Bt, Trichoderma and Baculoviruses",
+      "section": "8.5",
+      "definition": "Biocontrol manages pests with living agents instead of toxic chemicals: ladybird beetles eat aphids and dragonflies hunt mosquitoes; bacillus thuringiensis spores sprayed on brassicas die inside caterpillar guts releasing their toxin; the free-living root fungus trichoderma fights several plant pathogens; and nucleopolyhedrovirus baculoviruses give species-specific, narrow-spectrum control that leaves beneficial insects unharmed -- ideal for organic farming and integrated pest management.",
+      "formula": "",
+      "key_idea": "Organic farming keeps pests at manageable levels through ecological checks and balances rather than eradicating them -- predators need prey to survive too.",
+      "textbook_ref": "lebo108.txt lines 325-386 (organic farming logic, Ladybird, Dragonflies, Bt, Trichoderma, Nucleopolyhedrovirus, IPM)",
+      "question_patterns": [
+        "what is biocontrol and why is it preferred over chemical pesticides",
+        "which insects are controlled by ladybirds and dragonflies",
+        "how does bacillus thuringiensis kill butterfly caterpillars",
+        "what is bt cotton and how was it created",
+        "why is trichoderma a useful biocontrol agent of plant pathogens",
+        "what makes nucleopolyhedrovirus ideal for integrated pest management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Adopt the organic logic", "explain": "Biodiversity keeps a landscape sustainable: pests are held down by a living web of predators and parasites, not exterminated with insecticides that poison soil, water, food and people."},
+        {"step": 2, "action": "Recruit the insects", "explain": "The red-and-black ladybird beetle clears aphids; dragonflies pick off mosquitoes."},
+        {"step": 3, "action": "Spray the bacterium", "explain": "Dried bacillus thuringiensis spores mixed with water are sprayed on brassicas and fruit trees; larvae eating them get the toxin released in their guts and die, other insects stay safe -- and engineered bt toxin genes created bt-cotton."},
+        {"step": 4, "action": "Recruit the fungi and viruses", "explain": "Trichoderma species, free-living in root ecosystems, suppress several plant pathogens; nucleopolyhedrovirus baculoviruses attack only narrow insect targets with no harm to plants, mammals, birds, fish or beneficial insects -- perfect for ipm and ecologically sensitive areas."}
+      ]
+    },
+    {
+      "id": "lebo108.8.6.1",
+      "title": "Biofertilisers: Rhizobium, Mycorrhiza and Cyanobacteria",
+      "section": "8.6",
+      "definition": "Biofertilisers are organisms that enrich soil nutrients, easing the pollution burden of chemical fertilisers: rhizobium in legume root nodules and free-living azospirillum or azotobacter fix atmospheric nitrogen into usable organic forms; glomus mycorrhizal fungi absorb phosphorus for the plant and earn resistance to root pathogens plus salinity and drought tolerance in return; and cyanobacteria such as anabaena, nostoc and oscillatoria fix nitrogen in paddy fields while adding organic matter.",
+      "formula": "",
+      "key_idea": "Symbiosis does the fertilising -- bacteria trade nitrogen, fungi trade phosphorus, and both draw sugars from the plant partner.",
+      "textbook_ref": "lebo108.txt lines 387-421 (chemical fertiliser problems, Rhizobium nodules, Azospirillum/Azotobacter, Glomus mycorrhiza, cyanobacteria in paddy)",
+      "question_patterns": [
+        "what are biofertilisers and why switch to them from chemical fertilisers",
+        "how does rhizobium in legume root nodules help the plant",
+        "name the free living nitrogen fixing bacteria of soil",
+        "what benefits do plants draw from glomus mycorrhizal associations",
+        "which cyanobacteria serve as biofertilisers in paddy fields",
+        "what does the fungus gain from a mycorrhizal partnership"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Fix nitrogen symbiotically", "explain": "Rhizobium lives in nodules on legume roots, turning atmospheric nitrogen into organic forms the plant uses as nutrient."},
+        {"step": 2, "action": "Fix nitrogen free-living", "explain": "Azospirillum and azotobacter do the same trick loose in the soil, raising its nitrogen content without any host."},
+        {"step": 3, "action": "Team up with fungi", "explain": "Glomus members form mycorrhiza whose fungal partner absorbs phosphorus from soil and hands it to the plant, which gains root-pathogen resistance, salinity and drought tolerance and better growth -- while the fungus feeds on the association."},
+        {"step": 4, "action": "Green the paddies", "explain": "Autotrophic cyanobacteria -- anabaena, nostoc, oscillatoria -- fix nitrogen in paddy fields, add organic matter and lift soil fertility, cutting dependence on chemical inputs."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we_lebo108_1",
+      "source_ref": "lebo108.txt lines 470-478 (exercise 11: assigning BOD values to water samples, reworded)",
+      "concept": "lebo108.8.3.1",
+      "question_type": "verify_property",
+      "question_pattern": "Three unlabeled water samples give bod readings of {sample_a}, {sample_b} and {sample_c} mg per litre. Decide which is most polluted and identify the river water, the untreated sewage and the secondary effluent.",
+      "extracted_variables": {
+        "sample_a": "20",
+        "sample_b": "8",
+        "sample_c": "400"
+      },
+      "solution_template": [
+        {"step": 1, "action": "Rank by bod", "explain": "Higher bod means more organic matter for microbes to oxidise, hence more pollution: 400 far exceeds 20 and 8."},
+        {"step": 2, "action": "Assign the labels", "explain": "Sample c (400 mg/l) is untreated sewage; sample a (20 mg/l) is the secondary effluent, cleaned but not pristine; sample b (8 mg/l) is the relatively clean river water."}
+      ]
+    },
+    {
+      "id": "we_lebo108_2",
+      "source_ref": "lebo108.txt lines 181-190 and 494-497 (streptokinase, cyclosporin A, statins; exercise 12)",
+      "concept": "lebo108.8.2.3",
+      "question_type": "verify_property",
+      "question_pattern": "Name the microbial source of {drug_one} and of {drug_two}, and state what each is used for.",
+      "extracted_variables": {
+        "drug_one": "cyclosporin A",
+        "drug_two": "statins"
+      },
+      "solution_template": [
+        {"step": 1, "action": "Source the immunosuppressant", "explain": "Cyclosporin a is produced by the fungus trichoderma polysporum and given to organ-transplant patients to suppress rejection."},
+        {"step": 2, "action": "Source the cholesterol blocker", "explain": "Statins come from the yeast monascus purpureus and lower blood cholesterol by competitively inhibiting its synthesising enzyme."}
+      ]
+    },
+    {
+      "id": "we_lebo108_3",
+      "source_ref": "lebo108.txt lines 99-105 (Swiss cheese holes and Roquefort flavour)",
+      "concept": "lebo108.8.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Swiss cheese is full of large holes while roquefort owes its sharp taste to a mould. Explain which microbe causes each feature.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Blame the gas for the holes", "explain": "Propionibacterium sharmanii releases large amounts of carbon dioxide during fermentation, and the escaping gas carves swiss cheese's holes."},
+        {"step": 2, "action": "Credit the mould for the flavour", "explain": "Roquefort is ripened by growing a specific fungus on it, which supplies the characteristic flavour; cheese variety generally follows the microbe used."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_lebo108_1",
+      "source_ref": "lebo108.txt lines 440-509 (end-of-chapter exercises 1-15, reworded)",
+      "questions": [
+        "Which sample from your home would you carry to the lab to demonstrate microbes under a microscope, and why?",
+        "Give examples showing that microbes release gases during their metabolism.",
+        "In which food do lactic acid bacteria occur, and list some of their useful applications.",
+        "Name traditional indian foods based on wheat, rice or bengal gram whose making involves microbes.",
+        "In what way have microbes helped control diseases caused by harmful bacteria?",
+        "Name two fungal species used in antibiotic production.",
+        "What is sewage and in what ways can it harm us?",
+        "State the key difference between primary and secondary sewage treatment.",
+        "Can microbes serve as a source of energy? Justify your answer.",
+        "Explain how microbes can reduce our use of chemical fertilisers and pesticides.",
+        "Three water samples with bod values 20, 8 and 400 mg/l turn out to be river water, untreated sewage and secondary effluent in scrambled order -- assign each value to its correct source.",
+        "Identify the microbes that yield cyclosporin a and statins.",
+        "Discuss the role of microbes in single cell protein and in soil.",
+        "Rank biogas, citric acid, penicillin and curd by importance for human welfare and defend your ordering.",
+        "How do biofertilisers enrich the fertility of the soil?"
+      ]
+    }
+  ]
+}

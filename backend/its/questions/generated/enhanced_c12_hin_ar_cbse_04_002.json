@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_04_002",
+   "title": "c12_hin_ar_cbse_04_002",
+   "questions": [
+    {
+     "q": "Identify the three distinct voices/speakers that appear across the poem's stanzas and the stanza range each occupies.",
+     "a": "Correct: Stanza 1–3: collective \"हम\" (we the people/poet-citizens); Stanza 4–5: interrogative \"तुम\" (addressed to the complacent citizen/reader); Stanza 6: third-person journalistic voice reporting the pilot incident. A wrong answer that sees only one speaker throughout reveals the student misses the poem's central structural device — the shifting voice that enacts the movement from solidarity to accusation to verification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet places the newspaper report about the pilot (आईयू) at the very end of the poem rather than at the beginning.",
+     "a": "Correct: The report functions as external, factual validation of the poem's internal argument — it proves the \"विकृत\" condition is not poetic exaggeration but documented reality. Placing it last creates a climax where metaphor becomes reportage. A wrong answer saying \"it's just an example\" or \"it summarizes the poem\" reveals the student treats the report as illustration rather than structural climax that converts subjective outrage into objective evidence.",
+     "self_check": true
+    },
+    {
+     "q": "The refrain \"विकृत\" appears in stanzas 1, 2, 4, and 5. Map each occurrence to its grammatical role (adjective, verb, noun) and explain how the shifting grammar tracks the poem's deepening diagnosis.",
+     "a": "Correct: Stanza 1: \"क्या विकृत हैं\" (predicate adjective describing the moon/country); Stanza 2: \"क्यों विकृत हैं\" (adjective questioning cause); Stanza 4: \"तुम्हारी विकृतियाँ\" (noun, plural, possessed — personalizing the condition); Stanza 5: \"विकृत होकर\" (participle, showing active state of being). The grammar moves from describing an external object to naming the addressee's owned flaws to showing the condition as active process. A wrong answer listing only \"adjective\" for all reveals the student misses how grammatical evolution mirrors the argument's penetration from society to self.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural function of the line \"गें हम खुले बाँहों से कहेंगे कि क्या ऐसा है\" (stanza 4) with \"फिर हम चाँद पर लिखेंगे\" (stanza 5). How does the shift from \"कहेंगे\" (will speak) to \"लिखेंगे\" (will write) alter the poem's performative mode?",
+     "a": "Correct: \"कहेंगे\" marks oral, public declaration — a speech act addressed to the present audience. \"लिखेंगे\" shifts to inscription, permanence, testimony for future record. The move from speaking to writing signals escalation: from confrontation to documentation, from dialogue to indictment. A wrong answer treating both as synonyms for \"express\" reveals the student misses the media-shift (oral → written) that structurally parallels the poem's own existence as a written artifact accusing a speaking-but-not-listening society.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the poem's structure is better described as \"circular\" (ending where it began) or \"spiral\" (returning to the starting image at a deeper level). Justify with two textual anchors.",
+     "a": "Correct: Spiral. Anchor 1: The moon (\"चाँद\") opens the poem as a metaphorical site (\"देश में चाँद विकृत\") and returns in stanza 5 as a literal surface for writing (\"चाँद पर लिखेंगे\") — same image, shifted from passive symbol to active medium. Anchor 2: The collective \"हम\" opens as declarative (\"चिल्लाएंगे\") and reappears in stanza 5 as testimonial (\"लिखेंगे\") — same subject, moved from protest to witness. A wrong answer choosing \"circular\" reveals the student sees repetition but not transformation; they miss that structural return in poetry must carry accumulated weight.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-stanza poem that mimics this poem's structural logic: Stanza 1 = collective declaration, Stanza 2 = direct address to a specific \"you\", Stanza 3 = grammatical shift in a key word, Stanza 4 = external document/clipping that validates the argument. Use any contemporary Indian issue.",
+     "a": "A strong answer produces a poem where: (1) Stanza 1 uses \"हम\" + future tense verbs for a shared ideal; (2) Stanza 2 switches to \"तुम\" + interrogatives targeting a complacent figure; (3) Stanza 3 takes a keyword from stanza 1 and changes its part of speech (e.g., \"साफ़\" adjective → \"सफ़ाई\" noun → \"साफ़ करते\" participle); (4) Stanza 4 quotes/paraphrases a real news headline, RTI reply, or court order. A weak answer that merely describes an issue in four stanzas without voice-shift, grammatical evolution, or documentary closure reveals the student cannot operationalize the structural template — they understand the content but not the architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

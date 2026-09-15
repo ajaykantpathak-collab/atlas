@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_009",
+   "title": "c11_biotech_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define bioethics in the context of biotechnology and list the four core principles used to evaluate biotechnological interventions.",
+     "a": "Bioethics is the systematic application of ethical principles—autonomy (respect for decision-making capacity), beneficence (promoting well-being), non-maleficence (avoiding harm), and justice (fair distribution of benefits and burdens)—to assess the moral acceptability of biotechnological applications. A wrong answer that merely states \"bioethics is about what is right or wrong in biology\" reveals the student lacks the precise principled framework and will default to subjective opinion in case analyses.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company develops a drought-tolerant GM maize variety and patents the seed. Farmers must sign contracts prohibiting seed saving. Using the principle of justice, explain why this arrangement may be ethically problematic even if the maize increases yields.",
+     "a": "Justice requires fair distribution of benefits and burdens; patent-restricted seeds shift the burden of recurring seed costs onto resource-poor farmers while the corporation captures disproportionate benefit, creating structural inequity—especially if traditional varieties are displaced and farmers lose food sovereignty. A wrong answer focusing only on \"farmers can choose not to buy\" ignores power asymmetry and the justice principle's concern with systemic fairness, not just individual consent.",
+     "self_check": true
+    },
+    {
+     "q": "A couple uses preimplantation genetic diagnosis (PGD) to select an embryo free of the Huntington's disease allele. They also request selection for a gene variant associated with higher IQ. Apply the therapy vs. enhancement distinction and the principle of non-maleficence to evaluate both requests.",
+     "a": "Selecting against Huntington's is therapeutic (preventing a serious, certain harm) and aligns with non-maleficence; selecting for higher IQ is enhancement (improving beyond normal function) and risks non-maleficence by normalizing eugenic pressures, exacerbating social inequality, and potentially introducing unknown pleiotropic harms. A wrong answer treating both requests identically fails to distinguish restoring health from augmenting traits, a critical boundary in bioethics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical concerns of somatic gene therapy (e.g., correcting ADA-SCID in a child's T-cells) versus germline gene editing (e.g., editing CCR5 in human embryos for HIV resistance). Identify which principle creates the sharpest divergence and why.",
+     "a": "The sharpest divergence arises from **autonomy** and **justice** across generations: somatic therapy affects only the consenting patient (or proxy), while germline edits are heritable, imposing irreversible genetic changes on future persons who cannot consent, violating intergenerational justice. A wrong answer citing only \"safety risks\" misses that somatic therapy also has risks; the ethical distinction is structural—consent and justice across generations—not merely technical.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"Bt cotton has reduced pesticide use in India, so all opposition to GM crops is anti-science and unethical because it denies farmers a beneficial technology.\"",
+     "a": "The argument commits a false dichotomy and conflates *outcome* with *process ethics*. Reduced pesticide use is a beneficence argument, but justice concerns (seed monopoly, debt cycles), autonomy (farmer choice constrained by market power), and non-maleficence (long-term resistance evolution, biodiversity loss) are independent ethical dimensions. Dismissing all critique as \"anti-science\" silences legitimate structural justice concerns. A wrong answer agreeing with the statement reveals inability to hold multiple ethical principles in tension.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question ethical screening checklist that a school biotechnology club could use to evaluate any new GM crop project proposal before endorsing it. Each question must map to a distinct bioethical principle.",
+     "a": "Example checklist: (1) Autonomy: \"Can affected farmers and communities freely accept or reject this crop without coercion or dependency?\" (2) Beneficence: \"Does credible, independent evidence show measurable net benefit to intended beneficiaries?\" (3) Non-maleficence: \"Have long-term ecological and health risks (gene flow, resistance, allergenicity) been rigorously assessed?\" (4) Justice: \"Will benefits and risks be distributed fairly, or will marginalized groups bear disproportionate burden?\" (5) Procedural Justice: \"Has the development process included transparent, inclusive stakeholder participation?\" A poor answer lists only safety questions, missing autonomy and justice dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_2",
+   "title": "c9_bio_ch1_2",
+   "questions": [
+    {
+     "q": "State the three postulates of cell theory as proposed by Schleiden, Schwann, and Virchow.",
+     "a": "The three postulates are: (1) All living organisms are composed of one or more cells. (2) The cell is the basic unit of structure and function in living organisms. (3) All cells arise from pre-existing cells (Omnis cellula e cellula). A wrong answer that omits Virchow's postulate or confuses 'structure' with 'function' reveals the student memorized a list without understanding that the third postulate was a later, critical addition that refuted spontaneous generation.",
+     "self_check": true
+    },
+    {
+     "q": "Why was Schleiden's conclusion that 'all plants are made of cells' (1838) and Schwann's extension to animals (1839) considered a unification of biology? Explain using the concept of 'levels of organisation'.",
+     "a": "Before cell theory, plants and animals were studied as separate kingdoms with no structural commonality. Schleiden and Schwann showed that despite vast differences in form (e.g., a mango tree vs. a goat), both are built from the same fundamental unit — the cell. This placed the 'cell' as the common base level in the hierarchy: cell → tissue → organ → organism, unifying botany and zoology. A wrong answer that only says 'they both studied cells' misses the conceptual leap: the cell became the *reference point* for comparing life processes across kingdoms.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Viruses have genetic material and evolve, so they should be considered living cells according to cell theory.\" Use the postulates of cell theory to evaluate this claim.",
+     "a": "Step 1: Recall postulate 1 — all living organisms are composed of cells. Step 2: Observe that a virus particle (virion) is acellular — it lacks cytoplasm, organelles, and a cell membrane. Step 3: Recall postulate 2 — the cell is the basic unit of function. Viruses cannot metabolize or reproduce independently; they hijack host cells. Step 4: Recall postulate 3 — cells arise from pre-existing cells. Viruses are assembled from synthesized components inside a host, not by division of a parent virus. Conclusion: Viruses violate all three postulates; they are non-living infectious particles. A wrong answer that focuses only on 'genetic material' ignores that cell theory defines life by *cellular organization*, not just heredity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evidence available to Schleiden (plant cells) and Schwann (animal cells) in the 1830s. Why was it harder for Schwann to convince zoologists than for Schleiden to convince botanists?",
+     "a": "Schleiden studied plant tissues (e.g., onion epidermis, cork) which have rigid cell walls, making cells easily visible and clearly demarcated even with simple microscopes. Animal cells lack cell walls; they are smaller, fragile, and often embedded in extracellular matrix, making boundaries blurry. Schwann had to rely on cartilage cells (chondrocytes) in lacunae — the only animal cells with clear borders. Zoologists argued animal 'cells' were just nuclei in a common blastema. A wrong answer that says 'plants are simpler' misses the technical point: cell walls provided *visible evidence* of cellular individuality that animal cells lacked.",
+     "self_check": true
+    },
+    {
+     "q": "In 1855, Virchow added the third postulate: 'Omnis cellula e cellula'. Evaluate how this single statement transformed cell theory from a *structural description* into a *dynamic principle* of biology.",
+     "a": "The first two postulates described *what* living things are made of (static structure). Virchow's postulate described *how* life continues (dynamic process). It linked cell theory to reproduction, growth, repair, and heredity — all explained by cell division. It also refuted spontaneous generation (life from non-life) by asserting continuity of cellular lineage. A wrong answer that treats it as just 'another fact about cells' fails to see that it made cell theory *explanatory* for life cycles, development, and disease (e.g., cancer as uncontrolled cell division).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using materials from a typical Indian kitchen/garden to demonstrate *one* postulate of cell theory to a Class 6 student. Specify the material, method, observation, and which postulate it supports.",
+     "a": "Material: Onion peel (epidermis) and a drop of curd (dahi). Method: Mount onion peel in water on a slide; observe under microscope. Then mount a drop of diluted curd; observe. Observation: Onion peel shows rectangular plant cells with clear walls and nuclei. Curd shows numerous tiny rod-shaped bacteria (Lactobacillus) moving actively. Postulate supported: Postulate 1 — 'All living organisms are composed of cells.' The onion (plant) and bacteria (microorganism) are both made of cells, visible to the student. A poor answer uses only one specimen (e.g., only onion) and cannot show the *universality* of the postulate across kingdoms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

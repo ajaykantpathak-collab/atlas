@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_003",
+   "title": "c12_hs_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define \"utility\" in the context of home management resources. Give one example of a household item that has high utility but zero accessibility in a specific situation.",
+     "a": "Utility is the want-satisfying power of a resource — its ability to meet a need or goal. Example: A pressure cooker has high utility (cooks food fast), but if it is locked in a storage room and the key is lost, its accessibility is zero, so it ceases to function as a resource until the key is found. A wrong answer (e.g., \"utility means usefulness in general\") reveals the student confuses dictionary meaning with the technical resource-management definition that ties utility to specific family goals.",
+     "self_check": true
+    },
+    {
+     "q": "A family has ₹50,000 savings (money resource) and an elderly grandmother who knows traditional herbal remedies (knowledge resource). The grandmother falls ill and cannot share her knowledge. Explain how the accessibility of the knowledge resource has changed and whether the money resource can fully substitute for it via interchangeability.",
+     "a": "Accessibility of the knowledge resource drops to near-zero because the sole holder (grandmother) is unavailable — accessibility depends on the resource being reachable when needed. Money has high interchangeability for many needs (can buy medicine, consult a doctor), but cannot fully substitute for the specific, tacit, culturally embedded herbal knowledge — some resources are partially non-interchangeable. A wrong answer claiming \"money can buy everything\" shows the student misses the nuance that interchangeability is context-dependent and not absolute.",
+     "self_check": true
+    },
+    {
+     "q": "During a city-wide water shortage, a family has: (a) 200 litres stored water, (b) a working hand-pump in the yard, (c) ₹10,000 cash. Rank these three assets by their current accessibility as \"water-procurement resources\" and justify the ranking.",
+     "a": "Ranking (most to least accessible): (a) stored water — immediate, no effort, zero dependency; (b) hand-pump — accessible but requires physical energy and time (lower accessibility than stored water); (c) cash — lowest accessibility for water procurement because it depends on external supply (tankers, market availability) and transaction time. A student who ranks cash highest confuses \"value\" with \"accessibility\" — accessibility is about ease of deployment, not purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the interchangeability of \"time\" and \"energy\" as resources in two scenarios: (i) a working mother preparing dinner after a 10-hour shift; (ii) a retired grandmother preparing the same dinner. How does the interchangeability ratio shift?",
+     "a": "In (i), time is scarce, energy is depleted — low interchangeability: she cannot easily trade energy for time (too tired to cook fast) nor time for energy (no extra time). She may use money (order food) — a third resource. In (ii), time is abundant, energy is moderate — high interchangeability: she can spend more time (slow cooking) to conserve energy, or spend energy (elaborate cooking) to save time. The interchangeability ratio is context-dependent on the resource holder's current state. A wrong answer treating interchangeability as a fixed property misses its situational nature.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If a family has enough money, they don't need to worry about the accessibility of other resources like time, skills, or community support.\" Use the three characteristics to justify your evaluation.",
+     "a": "The statement is false. Money has high interchangeability but not infinite: (1) Some resources are non-interchangeable — e.g., a parent's time for child bonding cannot be bought; a specific skill (emergency first aid) may be inaccessible even with money if no expert is nearby. (2) Accessibility of money itself can fail (bank strike, digital outage, inflation). (3) Over-reliance on money reduces resilience — families with diverse resource portfolios (skills, social networks, time management) cope better in crises. A student agreeing with the statement shows a materialistic bias and fails to apply the characteristic-framework critically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Resource Audit Worksheet\" for a family of four (two working parents, two school-going children) that maps each major asset (car, laptop, savings, grandparents nearby, domestic help, each person's skills) against the three characteristics. Include a column for \"Current Stress Test\" (e.g., what happens if domestic help quits?).",
+     "a": "A good worksheet has rows for each asset, columns for Utility (1–5), Accessibility (1–5), Interchangeability (1–5), and Stress Test notes. Example row: Domestic help — Utility 5 (frees 3 hrs/day), Accessibility 4 (comes daily), Interchangeability 3 (parents can redistribute chores but lose work time), Stress Test: If help quits → Accessibility drops to 0 → parents must interchange time/energy or hire replacement (money interchangeability). A poor worksheet lists assets without scoring or stress-testing, showing the student treats characteristics as labels, not analytical tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

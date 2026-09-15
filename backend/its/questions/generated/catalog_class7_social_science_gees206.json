@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees206",
+ "concepts": [
+  {
+   "id": "gees2.6.1",
+   "title": "The State and the Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The State and the Government' refers to.",
+     "a": "The state is the permanent political community with its territory, people and institutions; the government is only its temporary crew, elected or appointed for a time to run the state's affairs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The State and the Government'.",
+     "a": "Governments come and go, the state remains: criticising a party is not attacking the country.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The State and the Government', in plain ASCII form.",
+     "a": "state = people + territory + institutions; government = the team in office",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.2",
+   "title": "The State's Rulebook: An RWA Example",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The State's Rulebook: An RWA Example' refers to.",
+     "a": "The chapter uses a Resident Welfare Association: its rulebook decides how the committee is elected, how funds are spent and how disputes are heard; a constitution plays the same role for the state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The State's Rulebook: An RWA Example'.",
+     "a": "Small societies need written rules; a huge state cannot function without one supreme rulebook.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The State's Rulebook: An RWA Example' taught, and from which source text?",
+     "a": "Rulebook example (source: gees206.txt, Rulebook example)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.3",
+   "title": "Levels of Government",
+   "questions": [
+    {
+     "q": "Using the method 'Levels of Government', work with: local = 500, state = 200, union = 15. Carry the chain through step by step and give the final value of levels.",
+     "a": "715 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Levels of Government' and work with: local = 4, state = 60, union = 20. Carry the chain through step by step and give the final value of levels.",
+     "a": "84 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Levels of Government' refers to.",
+     "a": "India's government works at three levels, the Union at the centre, states, and local bodies in villages and cities; each level has its own powers and all play different, complementary roles.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Government'.",
+     "a": "A subcontinent-sized democracy divides its work: big questions to the centre, local drains to the local body.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Levels of Government', in plain ASCII form.",
+     "a": "levels = union + state + local",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.4",
+   "title": "Your Part in the State",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Your Part in the State' refers to.",
+     "a": "The state is not someone else: every citizen pays taxes, follows just laws, votes, questions wrongs and can serve; Socrates' warning that shirking rule leaves you ruled by worse men calls citizens to participate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Your Part in the State'.",
+     "a": "Democracy hands the state to its citizens: stepping back is also a choice, with its own price.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Your Part in the State' taught, and from which source text?",
+     "a": "Citizens and the state (source: gees206.txt, Citizens and the state)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class12_sociology_lesy203",
+ "concepts": [
+  {
+   "id": "lesy203.1",
+   "title": "The Constitution as the Basic Norm: Law versus Justice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Constitution as the Basic Norm: Law versus Justice' refers to.",
+     "a": "Law differs from justice in its essence: a law bites because the state stands behind it with the means to compel obedience, while justice is about fairness. The constitution sits above every rule and authority, prescribes how laws are made, and creates the court hierarchy that settles disputes - with the supreme court as the final word on what the document means.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Constitution as the Basic Norm: Law versus Justice'.",
+     "a": "Every ordinary law and every court draws its validity from the constitution, so it is india's basic norm rather than one rule among many.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Constitution as the Basic Norm: Law versus Justice', in plain ASCII form.",
+     "a": "law_essence = force_backed_by_state ; justice_essence = fairness ; hierarchy_base = constitution",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.2",
+   "title": "Judicial Expansion of Rights: Article 21, RTI and Equal Pay",
+   "questions": [
+    {
+     "q": "Using the method 'Judicial Expansion of Rights: Article 21, RTI and Equal Pay', work with: article14_equal_pay = 100, article19_rti = 5, article21_life = 100. Carry the chain through step by step and give the final value of expansion.",
+     "a": "205 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Judicial Expansion of Rights: Article 21, RTI and Equal Pay' and work with: article14_equal_pay = 400, article19_rti = 120, article21_life = 45. Carry the chain through step by step and give the final value of expansion.",
+     "a": "565 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Judicial Expansion of Rights: Article 21, RTI and Equal Pay' refers to.",
+     "a": "The supreme court has stretched the substance of fundamental rights by reading into terse articles everything incidental to them. The right to life in article 21 came to cover livelihood, health, shelter, education and dignity - more than animal existence; the right to information was held in 1993 to be part of free speech under article 19(1)(a); and equal pay for equal work was read into the equality guarantee of article 14.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Judicial Expansion of Rights: Article 21, RTI and Equal Pay'.",
+     "a": "Social movements helped courts reinterpret rights, so relief flowed to tortured prisoners, bonded labourers and plantation and agricultural labourers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Judicial Expansion of Rights: Article 21, RTI and Equal Pay', in plain ASCII form.",
+     "a": "expansion = article21_life + article19_rti + article14_equal_pay",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.3",
+   "title": "The Road to the 73rd Amendment: Gandhi, Ambedkar, Santhanam",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Road to the 73rd Amendment: Gandhi, Ambedkar, Santhanam' refers to.",
+     "a": "Village self-rule drew two opposite warnings at drafting time. Gandhi imagined each village as a self-sufficient unit running its own affairs through gram-swarajya; ambedkar feared entrenched rural elites and upper castes would make local government another machine for exploiting the downtrodden. Panchayats first entered the text only as a directive principle - moved by k. santhanam - and became a constitutional imperative with the 73rd amendment of 1992.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Road to the 73rd Amendment: Gandhi, Ambedkar, Santhanam'.",
+     "a": "The 73rd amendment gave panchayati raj institutions constitutional status, made five-yearly elections compulsory, and handed control of local resources to elected bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Road to the 73rd Amendment: Gandhi, Ambedkar, Santhanam', in plain ASCII form.",
+     "a": "vision = gandhi_gram_swarajya ; warning = ambedkar_elite_capture ; milestone = santhanam_directive + 73rd_amendment_1992",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.4",
+   "title": "Reservation Shares in Local Bodies",
+   "questions": [
+    {
+     "q": "Compute how many seats of a 300 seat local body remain open to both genders after the women's quota. Use the method 'Reservation Shares in Local Bodies'. Work with: total_seats = 4. Carry the chain through step by step and give the final value of open_seats.",
+     "a": "2.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "How many women entered the political process in the single 1993-94 round of elections? Use the method 'Reservation Shares in Local Bodies'. Work with: total_seats = 25. Carry the chain through step by step and give the final value of open_seats.",
+     "a": "16.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reservation Shares in Local Bodies' refers to.",
+     "a": "The amendment reserves seats in local bodies for scheduled castes and scheduled tribes and keeps one third of every board - gram panchayat, municipality, city corporation, district board - for women, and within the women's quota a seventeenth part goes to women of the scheduled castes and tribes. Shares translate into seat counts by simple proportion, and the 1993-94 elections alone brought 800000 women into politics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reservation Shares in Local Bodies'.",
+     "a": "The pyramid runs from the gram sabha of all village citizens upward; reservation arithmetic decides how its elected tiers are composed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reservation Shares in Local Bodies', in plain ASCII form.",
+     "a": "women_seats = total_seats / 3 ; scst_women_seats = women_seats * 17 / 100 ; open_seats = total_seats - women_seats",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.5",
+   "title": "The Five-Year Election Cycle Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'The Five-Year Election Cycle Arithmetic', work with: end_year = 500, start_year = 50. Carry the chain through step by step and give the final value of elections_held.",
+     "a": "90 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Five-Year Election Cycle Arithmetic' and work with: end_year = 150, start_year = 100. Carry the chain through step by step and give the final value of elections_held.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Five-Year Election Cycle Arithmetic' refers to.",
+     "a": "Elections to panchayati raj bodies are compulsory every five years since the 73rd amendment took effect in 1992-93. Counting how many full cycles have run since then is a floor division: years of operation divided by five, discarding the incomplete tail.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Five-Year Election Cycle Arithmetic'.",
+     "a": "A fixed term turns calendar arithmetic into a count of mandatory elections, each one a chance to return or replace the incumbents.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Five-Year Election Cycle Arithmetic', in plain ASCII form.",
+     "a": "years_active = end_year - start_year ; elections_held = years_active // 5",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.6",
+   "title": "Powers, Finances and Nyaya Panchayats",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Powers, Finances and Nyaya Panchayats' refers to.",
+     "a": "The constitution expects panchayats to work as institutions of self-government: they prepare plans for economic development, push schemes of social justice, and levy and collect taxes, duties, tolls and fees. Their funds come from property, profession, animal and vehicle taxes, cess on land revenue and rentals, topped up by zilla panchayat grants, with fund break-ups displayed on office boards as a right to information practice. Nyaya panchayats in some states hear petty civil and criminal matters, fining offenders but never passing sentences.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Powers, Finances and Nyaya Panchayats'.",
+     "a": "Welfare duties run from burning grounds and birth records to child welfare centres, while development covers roads, wells, tanks, schools and minor irrigation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Powers, Finances and Nyaya Panchayats', in plain ASCII form.",
+     "a": "panchayat_funds = property_tax + profession_tax + vehicle_tax + animal_tax + land_cess + rentals ; nyaya_power = fines_only_not_sentences",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.7",
+   "title": "Democratisation versus Local Inequality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Democratisation versus Local Inequality' refers to.",
+     "a": "Democratisation struggles where caste, community and gender inequalities have deep roots. Meetings and activities can pass without certain groups being informed, and gram sabhas often answer to a small coterie of rich landlords from the upper castes or landed peasantry who decide development and allocate funds while the majority watches. Against this, reserved seats changed lives: kalavati, a dalit member, gained confidence and, in her words, a name of her own instead of being someone's wife or mother.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratisation versus Local Inequality'.",
+     "a": "Traditional caste panchayats represented dominant groups and took conservative decisions, so formal democracy must battle the village's own hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Democratisation versus Local Inequality', in plain ASCII form.",
+     "a": "capture = coterie_of_landlords + silent_majority ; change = reservation + women_self_esteem",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.8",
+   "title": "Tribal Institutions and the Limits of the 73rd Amendment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tribal Institutions and the Limits of the 73rd Amendment' refers to.",
+     "a": "Meghalaya's khasis, jaintias and garos ran tiered traditional political institutions for centuries - each khasi clan, for instance, keeping a durbar kur under its headman. Yet a large stretch of tribal areas sits outside the 73rd amendment, and tiplut nongbri cautions that tradition is no guarantee of democracy: stratification exists, women face open intolerance, and social change has blurred which parts are genuinely traditional.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tribal Institutions and the Limits of the 73rd Amendment'.",
+     "a": "The bhuria committee respected traditional institutions but, nongbri argues, missed their internal complexity - egalitarian ethos and hierarchy live side by side.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Tribal Institutions and the Limits of the 73rd Amendment', in plain ASCII form.",
+     "a": "tribal_tiers = village + clan + state ; exemption_reason = protect_tradition ; caution = stratification + intolerance_to_women",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy203.9",
+   "title": "Political Parties, Interest Groups and Pressure Groups",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Political Parties, Interest Groups and Pressure Groups' refers to.",
+     "a": "A political party is a body built to win lawful control of government through elections and then use that power to carry out its programme, resting on some view of how society should be. Interest groups pursue specific aims mainly by lobbying legislators; when groups feel parties ignore them they may found an alternative party or form pressure groups that lobby the government itself. Weber adds the neat mapping: classes live in the economic order, status groups in the social order, parties in the house of power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Parties, Interest Groups and Pressure Groups'.",
+     "a": "Industrialists organise through ficci and assocham, workers through intuc and citu, farmers through bodies like shetkari sangathan - and the budget season shows them all queuing at the finance ministry.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Political Parties, Interest Groups and Pressure Groups', in plain ASCII form.",
+     "a": "party = elections_for_government_power ; interest_group = lobby_legislators ; pressure_group = lobby_government",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

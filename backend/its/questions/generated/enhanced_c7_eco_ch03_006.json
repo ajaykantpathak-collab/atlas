@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_006",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_006",
+   "title": "c7_eco_ch03_006",
+   "questions": [
+    {
+     "q": "What term describes roads, railways, and ports that are built or upgraded to connect different parts of a country over time?",
+     "a": "Physical infrastructure. A student who answers \"social infrastructure\" confuses physical assets like roads and bridges with services like schools and hospitals.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the expansion of the golden quadrilateral and expressways significantly reduce the time it takes to transport goods across Indian states?",
+     "a": "Because upgraded multilane highways eliminate traffic bottlenecks, bypass congested town centers, and allow freight trucks to maintain higher average speeds without stopping frequently. A student who thinks it is solely due to cheaper fuel misses that infrastructure quality itself reduces physical transit friction.",
+     "self_check": true
+    },
+    {
+     "q": "In 1990, a cargo truck traveling from Mumbai to Delhi took an average of 7 days due to poor road conditions and multiple state border checkpoints. By 2023, with modern expressways and digitized toll systems, the travel time dropped to 3 days. If a freight company saves 4 days of transit time, and each day of truck operation costs ₹5,000 in fuel, driver wages, and vehicle wear, what is the total cost saving per trip for one truck?",
+     "a": "Steps: 1. Identify the time saved: 7 days - 3 days = 4 days. 2. Identify the daily operating cost: ₹5,000 per day. 3. Multiply time saved by daily cost: 4 days × ₹5,000/day = ₹20,000. 4. Interpret economically: Improved physical infrastructure lowers logistics costs, boosting business efficiency. Answer: ₹20,000. A student who multiplies 7 days by ₹5,000 or adds the days instead of subtracting fails to calculate the net savings resulting from the infrastructure transformation.",
+     "self_check": true
+    },
+    {
+     "q": "How does the historical shift from traditional analog postal communication to 4G and 5G internet networks impact small businesses in rural Indian towns?",
+     "a": "Modern digital infrastructure allows rural artisans and micro-entrepreneurs to market products directly to national and global consumers online, bypassing local middle-men and receiving payments digitally via UPI. A student who thinks digital networks only help entertainment misses the core economic function of communication infrastructure in expanding market access.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Investing in modernizing railway freight corridors is more important for long-term economic growth than simply building more passenger railway lines.\" Is this economically valid, and why?",
+     "a": "Yes, this statement is largely valid because dedicated freight corridors speed up the movement of raw materials, manufactured goods, and agricultural produce to markets, directly lowering production and supply chain costs for industries and agriculture. A student who disagrees often fails to see that freight infrastructure is the backbone of industrial supply and trade, whereas passenger lines primarily serve human mobility.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a three-step infrastructure upgrade plan for a remote agricultural district in India that currently suffers from frequent power cuts, unpaved roads, and poor mobile network coverage, explaining how each step boosts local economic activity.",
+     "a": "A strong answer must propose: 1. Upgrading energy infrastructure (e.g., installing solar micro-grids) to ensure uninterrupted power for cold storage and irrigation pumps. 2. Constructing all-weather pucca roads to ensure perishable crops reach urban markets without spoiling. 3. Expanding telecom infrastructure (4G towers) to enable farmers to check real-time market prices and sell online. A poor answer focuses only on cosmetic changes without addressing core economic productivity drivers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1216 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 203,
+ "chapter_title": "Thermal Properties of Matter",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph203.txt",
+ "concepts": [
+  {
+   "id": "keph.203.1",
+   "title": "Temperature Scale Conversion between Celsius and Fahrenheit",
+   "section": "10.3",
+   "definition": "Numerical temperature values on Fahrenheit and Celsius scales relate through linear interpolation between the ice point and steam point.",
+   "formula": "t_F = (9/5) * t_C + 32",
+   "key_idea": "An interval of 180 units on the Fahrenheit scale corresponds to 100 units on the Celsius scale.",
+   "textbook_ref": "keph203.txt lines 50-80",
+   "question_patterns": [
+    "convert temperature from celsius to fahrenheit in Class 11 physics",
+    "calculate fahrenheit temperature given celsius value",
+    "convert celsius reading to fahrenheit scale",
+    "find fahrenheit equivalent of celsius temperature",
+    "determine fahrenheit temperature from celsius input"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert celsius to fahrenheit scale",
+     "explain": "multiply celsius temperature by 9/5 and add 32",
+     "compute": "(9 / 5) * t_c + 32"
+    },
+    {
+     "step": 2,
+     "action": "verify the result against known reference points",
+     "explain": "check that 0 celsius gives 32 fahrenheit and 100 celsius gives 212 fahrenheit to confirm the linear conversion"
+    },
+    {
+     "step": 3,
+     "action": "express the final fahrenheit temperature with units",
+     "explain": "state the converted value in degrees fahrenheit for the given celsius input",
+     "compute": "t_f"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving temperature scale conversion between celsius and fahrenheit.",
+     "solution": "Step 1: convert celsius to fahrenheit scale. Step 2: verify the result against known reference points. Step 3: express the final fahrenheit temperature with units. Working: (9 / 5) * t_c + 32, t_f.",
+     "answer": "Temperature Scale Conversion between Celsius and Fahrenheit applied step by step gives the required result."
+    },
+    {
+     "question": "Apply temperature scale conversion between celsius and fahrenheit to a fresh example and interpret the result.",
+     "solution": "Step 1: convert celsius to fahrenheit scale. Step 2: verify the result against known reference points. Step 3: express the final fahrenheit temperature with units. Working: (9 / 5) * t_c + 32, t_f.",
+     "answer": "The method of temperature scale conversion between celsius and fahrenheit leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.2",
+   "title": "Kelvin and Celsius Absolute Temperature Relation",
+   "section": "10.4",
+   "definition": "The absolute thermodynamic scale uses Kelvin units where zero corresponds to minimum kinetic state at -273.15 degrees Celsius.",
+   "formula": "T = t_C + 273.15",
+   "key_idea": "Adding 273.15 to a Celsius reading shifts it to the absolute thermodynamic Kelvin scale.",
+   "textbook_ref": "keph203.txt lines 90-130",
+   "question_patterns": [
+    "convert celsius temperature to kelvin scale in Class 11 thermal properties",
+    "calculate kelvin temperature from celsius reading",
+    "find absolute temperature in kelvin given celsius",
+    "determine kelvin equivalent for a celsius value",
+    "express celsius temperature on kelvin scale"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add offset to obtain kelvin temperature",
+     "explain": "absolute temperature T equals celsius temperature plus 273.15",
+     "compute": "t_c + 273.15"
+    },
+    {
+     "step": 2,
+     "action": "verify the result is non-negative",
+     "explain": "absolute zero corresponds to -273.15 celsius so any valid kelvin temperature must be greater than or equal to zero"
+    },
+    {
+     "step": 3,
+     "action": "express the final kelvin temperature with units",
+     "explain": "state the converted value in kelvin for the given celsius input",
+     "compute": "t_k"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving kelvin and celsius absolute temperature relation.",
+     "solution": "Step 1: add offset to obtain kelvin temperature. Step 2: verify the result is non-negative. Step 3: express the final kelvin temperature with units. Working: t_c + 273.15, t_k.",
+     "answer": "Kelvin and Celsius Absolute Temperature Relation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply kelvin and celsius absolute temperature relation to a fresh example and interpret the result.",
+     "solution": "Step 1: add offset to obtain kelvin temperature. Step 2: verify the result is non-negative. Step 3: express the final kelvin temperature with units. Working: t_c + 273.15, t_k.",
+     "answer": "The method of kelvin and celsius absolute temperature relation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.3",
+   "title": "Linear Thermal Expansion",
+   "section": "10.5",
+   "definition": "Fractional change in length of a solid rod is directly proportional to its change in temperature.",
+   "formula": "delta_l = alpha_l * l * delta_T",
+   "key_idea": "Thermal expansion in one dimension depends on initial length, linear expansivity, and temperature change.",
+   "textbook_ref": "keph203.txt lines 140-180",
+   "question_patterns": [
+    "find the change in length due to thermal expansion in Class 11 physics",
+    "calculate increase in length when rod is heated",
+    "determine expansion in length for a given temperature rise",
+    "compute fractional change in length from linear expansivity",
+    "calculate final length of a rod after heating"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate change in length",
+     "explain": "change in length is product of coefficient, initial length, and temperature difference",
+     "compute": "alpha_l * l * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "compute the final length of the rod",
+     "explain": "add the change in length to the initial length to obtain the expanded length",
+     "compute": "l + delta_l"
+    },
+    {
+     "step": 3,
+     "action": "express the final length with units",
+     "explain": "state the computed final length in metres for the given temperature rise",
+     "compute": "l_final"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving linear thermal expansion.",
+     "solution": "Step 1: calculate change in length. Step 2: compute the final length of the rod. Step 3: express the final length with units. Working: alpha_l * l * delta_t, l + delta_l, l_final.",
+     "answer": "Linear Thermal Expansion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply linear thermal expansion to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate change in length. Step 2: compute the final length of the rod. Step 3: express the final length with units. Working: alpha_l * l * delta_t, l + delta_l, l_final.",
+     "answer": "The method of linear thermal expansion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.4",
+   "title": "Volume Thermal Expansion",
+   "section": "10.5",
+   "definition": "Volumetric thermal expansion describes how three-dimensional bulk volume increases proportionately with temperature rise.",
+   "formula": "delta_V = alpha_v * V * delta_T",
+   "key_idea": "Volume expansion coefficient for isotropic solids equals three times the linear expansion coefficient.",
+   "textbook_ref": "keph203.txt lines 180-220",
+   "question_patterns": [
+    "calculate change in volume due to thermal expansion in Class 11 thermal properties",
+    "find fractional change in volume on heating",
+    "determine volume expansivity effect on liquid or solid",
+    "compute thermal expansion of volume given coefficient",
+    "calculate final volume after temperature increase"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute change in volume",
+     "explain": "volume increase is given by initial volume times volume coefficient times temperature change",
+     "compute": "alpha_v * v * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "compute the final volume",
+     "explain": "add the change in volume to the initial volume to obtain the expanded volume",
+     "compute": "v + delta_v"
+    },
+    {
+     "step": 3,
+     "action": "express the final volume with units",
+     "explain": "state the computed final volume in cubic metres for the given temperature rise",
+     "compute": "v_final"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving volume thermal expansion.",
+     "solution": "Step 1: compute change in volume. Step 2: compute the final volume. Step 3: express the final volume with units. Working: alpha_v * v * delta_t, v + delta_v, v_final.",
+     "answer": "Volume Thermal Expansion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply volume thermal expansion to a fresh example and interpret the result.",
+     "solution": "Step 1: compute change in volume. Step 2: compute the final volume. Step 3: express the final volume with units. Working: alpha_v * v * delta_t, v + delta_v, v_final.",
+     "answer": "The method of volume thermal expansion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.5",
+   "title": "Thermal Stress in Rigidly Fixed Rods",
+   "section": "10.5",
+   "definition": "Restraining the natural thermal expansion or contraction of a solid object generates internal mechanical stress.",
+   "formula": "thermal_stress = Y * alpha_l * delta_T",
+   "key_idea": "Thermal stress equals Young's modulus multiplied by thermal strain caused by temperature shift.",
+   "textbook_ref": "keph203.txt lines 220-250",
+   "question_patterns": [
+    "calculate thermal stress in a fixed rod in Class 11 physics",
+    "find tension developed in a wire cooled between rigid supports",
+    "determine compressive force due to thermal expansion",
+    "compute thermal stress given youngs modulus and linear expansivity",
+    "calculate force exerted by restrained expanding rod"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute thermal strain",
+     "explain": "thermal strain equals linear expansivity times temperature difference",
+     "compute": "alpha_l * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "compute thermal stress",
+     "explain": "thermal stress equals Youngs modulus times thermal strain",
+     "compute": "young_modulus * strain"
+    },
+    {
+     "step": 3,
+     "action": "compute the restraining force on the rod",
+     "explain": "multiply the thermal stress by the cross-sectional area to obtain the force exerted by the fixed supports",
+     "compute": "thermal_stress * area"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving thermal stress in rigidly fixed rods.",
+     "solution": "Step 1: compute thermal strain. Step 2: compute thermal stress. Step 3: compute the restraining force on the rod. Working: alpha_l * delta_t, young_modulus * strain, thermal_stress * area.",
+     "answer": "Thermal Stress in Rigidly Fixed Rods applied step by step gives the required result."
+    },
+    {
+     "question": "Apply thermal stress in rigidly fixed rods to a fresh example and interpret the result.",
+     "solution": "Step 1: compute thermal strain. Step 2: compute thermal stress. Step 3: compute the restraining force on the rod. Working: alpha_l * delta_t, young_modulus * strain, thermal_stress * area.",
+     "answer": "The method of thermal stress in rigidly fixed rods leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.6",
+   "title": "Heat Capacity and Specific Heat Capacity",
+   "section": "10.6",
+   "definition": "Heat energy absorbed or released by a body equals the product of its mass, specific heat capacity, and temperature difference.",
+   "formula": "Q = m * s * delta_T",
+   "key_idea": "Specific heat capacity quantifies thermal energy needed to change temperature of unit mass by one degree.",
+   "textbook_ref": "keph203.txt lines 260-310",
+   "question_patterns": [
+    "calculate heat required to raise temperature of a mass in Class 11 physics",
+    "find heat absorbed during temperature change",
+    "compute energy required given mass specific heat and temperature rise",
+    "determine heat lost when a body cools",
+    "calculate temperature change given heat mass and specific heat"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute heat quantity",
+     "explain": "heat transferred is mass times specific heat capacity times change in temperature",
+     "compute": "m * s * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "determine the sign of heat transfer",
+     "explain": "a positive Q indicates heat absorbed during heating while a negative Q indicates heat released during cooling"
+    },
+    {
+     "step": 3,
+     "action": "express the heat quantity with units",
+     "explain": "state the computed heat energy in joules for the given mass and temperature change",
+     "compute": "q"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving heat capacity and specific heat capacity.",
+     "solution": "Step 1: compute heat quantity. Step 2: determine the sign of heat transfer. Step 3: express the heat quantity with units. Working: m * s * delta_t, q.",
+     "answer": "Heat Capacity and Specific Heat Capacity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply heat capacity and specific heat capacity to a fresh example and interpret the result.",
+     "solution": "Step 1: compute heat quantity. Step 2: determine the sign of heat transfer. Step 3: express the heat quantity with units. Working: m * s * delta_t, q.",
+     "answer": "The method of heat capacity and specific heat capacity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.7",
+   "title": "Principle of Calorimetry",
+   "section": "10.7",
+   "definition": "In an isolated system, total heat lost by hotter components equals total heat gained by cooler components during thermal equilibration.",
+   "formula": "heat_lost = heat_gained",
+   "key_idea": "Energy conservation in isolated thermal mixing ensures thermal equilibrium when net heat exchange is zero.",
+   "textbook_ref": "keph203.txt lines 315-360",
+   "question_patterns": [
+    "find final equilibrium temperature of a mixture in Class 11 calorimetry",
+    "apply principle of calorimetry to calculate unknown specific heat",
+    "determine heat lost and heat gained in calorimeter experiment",
+    "solve calorimetry problem with water and metal sample",
+    "calculate equilibrium state when hot body is placed in cold liquid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "equate heat lost by hot bodies to heat gained by cold bodies",
+     "explain": "energy conservation in an isolated system requires heat lost equals heat gained",
+     "compute": "m * s * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "solve the energy balance equation for the unknown final temperature",
+     "explain": "substitute the heat expressions for each component and rearrange to isolate the equilibrium temperature"
+    },
+    {
+     "step": 3,
+     "action": "verify that the final temperature lies between the initial temperatures",
+     "explain": "the equilibrium temperature must fall between the hottest and coldest initial temperatures confirming a valid thermal balance"
+    }
+   ]
+  },
+  {
+   "id": "keph.203.8",
+   "title": "Latent Heat of Phase Change",
+   "section": "10.8.1",
+   "definition": "Heat absorbed or released per unit mass during phase transition without temperature variation is called latent heat.",
+   "formula": "Q = m * L",
+   "key_idea": "Phase transitions occur at constant temperature with heat input proportional to substance mass and latent heat constant.",
+   "textbook_ref": "keph203.txt lines 370-430",
+   "question_patterns": [
+    "calculate heat required to melt ice at constant temperature in Class 11 physics",
+    "find heat needed to convert water to steam",
+    "compute energy transferred during phase change",
+    "determine mass melted or vaporized using latent heat",
+    "calculate heat of fusion or vaporization"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute heat transferred in phase change",
+     "explain": "heat required is mass multiplied by specific latent heat",
+     "compute": "m * latent_heat"
+    },
+    {
+     "step": 2,
+     "action": "verify the temperature remains constant during the transition",
+     "explain": "phase changes occur at a fixed temperature so no temperature change term is needed in the heat calculation"
+    },
+    {
+     "step": 3,
+     "action": "express the heat transferred with units",
+     "explain": "state the computed latent heat energy in joules for the given mass undergoing phase change",
+     "compute": "q"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving latent heat of phase change.",
+     "solution": "Step 1: compute heat transferred in phase change. Step 2: verify the temperature remains constant during the transition. Step 3: express the heat transferred with units. Working: m * latent_heat, q.",
+     "answer": "Latent Heat of Phase Change applied step by step gives the required result."
+    },
+    {
+     "question": "Apply latent heat of phase change to a fresh example and interpret the result.",
+     "solution": "Step 1: compute heat transferred in phase change. Step 2: verify the temperature remains constant during the transition. Step 3: express the heat transferred with units. Working: m * latent_heat, q.",
+     "answer": "The method of latent heat of phase change leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.9",
+   "title": "Thermal Conduction Rate in Steady State",
+   "section": "10.9.1",
+   "definition": "Rate of heat flow through a cross section of a uniform slab is proportional to thermal conductivity, cross-sectional area, and temperature gradient.",
+   "formula": "H = K * A * delta_T / L",
+   "key_idea": "Heat current across a conductor in steady state depends directly on area and temperature drop, and inversely on length.",
+   "textbook_ref": "keph203.txt lines 440-500",
+   "question_patterns": [
+    "calculate rate of heat conduction through a rod in Class 11 physics",
+    "find heat current through a thermal conductor",
+    "determine temperature gradient and heat flow rate across slab",
+    "compute thermal conductivity or heat flow rate",
+    "calculate steady state heat transfer across metallic bar"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute heat flow rate",
+     "explain": "heat current equals conductivity times area times temperature difference divided by length",
+     "compute": "k * a * delta_t / l"
+    },
+    {
+     "step": 2,
+     "action": "verify the temperature gradient direction",
+     "explain": "heat flows from the hotter end to the colder end so the temperature difference must be taken as the higher temperature minus the lower temperature",
+     "compute": "delta_t / l"
+    },
+    {
+     "step": 3,
+     "action": "express the heat flow rate with units",
+     "explain": "state the computed heat current in watts for the given conductor dimensions and temperature drop",
+     "compute": "h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving thermal conduction rate in steady state.",
+     "solution": "Step 1: compute heat flow rate. Step 2: verify the temperature gradient direction. Step 3: express the heat flow rate with units. Working: k * a * delta_t / l, delta_t / l, h.",
+     "answer": "Thermal Conduction Rate in Steady State applied step by step gives the required result."
+    },
+    {
+     "question": "Apply thermal conduction rate in steady state to a fresh example and interpret the result.",
+     "solution": "Step 1: compute heat flow rate. Step 2: verify the temperature gradient direction. Step 3: express the heat flow rate with units. Working: k * a * delta_t / l, delta_t / l, h.",
+     "answer": "The method of thermal conduction rate in steady state leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.10",
+   "title": "Wiens Law of Blackbody Radiation",
+   "section": "10.9.4",
+   "definition": "The peak emission wavelength of blackbody thermal radiation is inversely proportional to absolute thermodynamic temperature.",
+   "formula": "lambda_m * T = b",
+   "key_idea": "Higher blackbody temperature shifts maximum radiation intensity toward shorter wavelengths.",
+   "textbook_ref": "keph203.txt lines 520-560",
+   "question_patterns": [
+    "calculate peak wavelength of blackbody radiation in Class 11 physics",
+    "find surface temperature of a star using wiens displacement law",
+    "compute temperature corresponding to peak emission wavelength",
+    "determine wiens constant application for celestial body temperature",
+    "calculate blackbody peak emission shift with temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature from peak wavelength",
+     "explain": "temperature equals Wiens displacement constant divided by peak wavelength",
+     "compute": "b / lambda_m"
+    },
+    {
+     "step": 2,
+     "action": "verify the inverse proportionality relationship",
+     "explain": "a shorter peak wavelength corresponds to a higher temperature confirming the inverse relation between peak wavelength and temperature"
+    },
+    {
+     "step": 3,
+     "action": "express the temperature with units",
+     "explain": "state the computed absolute temperature in kelvin for the given peak emission wavelength",
+     "compute": "t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving wiens law of blackbody radiation.",
+     "solution": "Step 1: compute absolute temperature from peak wavelength. Step 2: verify the inverse proportionality relationship. Step 3: express the temperature with units. Working: b / lambda_m, t.",
+     "answer": "Wiens Law of Blackbody Radiation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply wiens law of blackbody radiation to a fresh example and interpret the result.",
+     "solution": "Step 1: compute absolute temperature from peak wavelength. Step 2: verify the inverse proportionality relationship. Step 3: express the temperature with units. Working: b / lambda_m, t.",
+     "answer": "The method of wiens law of blackbody radiation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.11",
+   "title": "Stefan Boltzmann Law of Radiation",
+   "section": "10.9.4",
+   "definition": "Radiative power emitted by a body is proportional to its surface area, emissivity, and fourth power of absolute temperature.",
+   "formula": "H = e * sigma * A * T**4",
+   "key_idea": "Radiant heat energy loss rapidly escalates with absolute temperature raised to fourth power.",
+   "textbook_ref": "keph203.txt lines 560-610",
+   "question_patterns": [
+    "calculate radiant heat power emitted by a body in Class 11 physics",
+    "find energy radiated per second using stefan boltzmann law",
+    "compute rate of radiation heat emission given surface area and emissivity",
+    "determine total radiated power from absolute temperature",
+    "calculate net radiation heat loss rate to surroundings"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute fourth power of temperature",
+     "explain": "raise absolute temperature to power four",
+     "compute": "temp ** 4"
+    },
+    {
+     "step": 2,
+     "action": "compute total emitted radiation power",
+     "explain": "multiply emissivity, Stefan constant, area, and temperature raised to fourth power",
+     "compute": "e * sigma * a * t4"
+    },
+    {
+     "step": 3,
+     "action": "express the radiated power with units",
+     "explain": "state the computed radiant power in watts for the given surface area, emissivity, and absolute temperature",
+     "compute": "h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving stefan boltzmann law of radiation.",
+     "solution": "Step 1: compute fourth power of temperature. Step 2: compute total emitted radiation power. Step 3: express the radiated power with units. Working: temp ** 4, e * sigma * a * t4, h.",
+     "answer": "Stefan Boltzmann Law of Radiation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply stefan boltzmann law of radiation to a fresh example and interpret the result.",
+     "solution": "Step 1: compute fourth power of temperature. Step 2: compute total emitted radiation power. Step 3: express the radiated power with units. Working: temp ** 4, e * sigma * a * t4, h.",
+     "answer": "The method of stefan boltzmann law of radiation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.203.12",
+   "title": "Newtons Law of Cooling",
+   "section": "10.10",
+   "definition": "Rate of temperature drop of a cooling body is directly proportional to temperature difference between body and surroundings.",
+   "formula": "(T_1 - T_2) / time = K * (T_avg - T_env)",
+   "key_idea": "Cooling rate is proportional to excess temperature over ambient environment for small temperature differences.",
+   "textbook_ref": "keph203.txt lines 615-680",
+   "question_patterns": [
+    "calculate time taken for a body to cool in Class 11 physics",
+    "find cooling rate using newtons law of cooling",
+    "compute final temperature after cooling period",
+    "determine cooling constant from temperature change over time",
+    "solve newtons law of cooling problem with ambient temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute average body temperature",
+     "explain": "take average of initial and final temperatures",
+     "compute": "(t_1 + t_2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "compute excess temperature above surroundings",
+     "explain": "subtract ambient environment temperature from average body temperature",
+     "compute": "t_avg - t_env"
+    },
+    {
+     "step": 3,
+     "action": "compute temperature drop rate",
+     "explain": "multiply cooling constant by excess temperature",
+     "compute": "k * delta_t"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving newtons law of cooling.",
+     "solution": "Step 1: compute average body temperature. Step 2: compute excess temperature above surroundings. Step 3: compute temperature drop rate. Working: (t_1 + t_2) / 2, t_avg - t_env, k * delta_t.",
+     "answer": "Newtons Law of Cooling applied step by step gives the required result."
+    },
+    {
+     "question": "Apply newtons law of cooling to a fresh example and interpret the result.",
+     "solution": "Step 1: compute average body temperature. Step 2: compute excess temperature above surroundings. Step 3: compute temperature drop rate. Working: (t_1 + t_2) / 2, t_avg - t_env, k * delta_t.",
+     "answer": "The method of newtons law of cooling leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keph203.txt line 65",
+   "concept": "keph.203.1",
+   "question_type": "compute",
+   "question_pattern": "convert celsius temperature {t_C} to fahrenheit",
+   "extracted_variables": {
+    "t_C": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert celsius to fahrenheit scale",
+     "explain": "multiply celsius temperature by 9/5 and add 32",
+     "compute": "t_f = (9 / 5) * t_c + 32"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keph203.txt line 70",
+   "concept": "keph.203.1",
+   "question_type": "compute",
+   "question_pattern": "find fahrenheit value for {t_C} celsius",
+   "extracted_variables": {
+    "t_C": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert celsius to fahrenheit scale",
+     "explain": "multiply celsius temperature by 9/5 and add 32",
+     "compute": "t_f = (9 / 5) * t_c + 32"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keph203.txt line 110",
+   "concept": "keph.203.2",
+   "question_type": "compute",
+   "question_pattern": "convert celsius temperature {t_C} to kelvin",
+   "extracted_variables": {
+    "t_C": 27
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add offset to obtain kelvin temperature",
+     "explain": "absolute temperature T equals celsius temperature plus 273.15",
+     "compute": "t_k = t_c + 273.15"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keph203.txt line 115",
+   "concept": "keph.203.2",
+   "question_type": "compute",
+   "question_pattern": "find absolute kelvin temperature for {t_C} celsius",
+   "extracted_variables": {
+    "t_C": -273.15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add offset to obtain kelvin temperature",
+     "explain": "absolute temperature T equals celsius temperature plus 273.15",
+     "compute": "t_k = t_c + 273.15"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keph203.txt line 160",
+   "concept": "keph.203.3",
+   "question_type": "compute",
+   "question_pattern": "calculate change in length of a rod with initial length {l}, linear expansivity {alpha_l}, and temperature change {delta_T}",
+   "extracted_variables": {
+    "l": 1.8,
+    "alpha_l": 2e-05,
+    "delta_T": 66
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change in length",
+     "explain": "change in length is product of coefficient, initial length, and temperature difference",
+     "compute": "delta_l = alpha_l * l * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keph203.txt line 165",
+   "concept": "keph.203.3",
+   "question_type": "compute",
+   "question_pattern": "find extension in steel rail of length {l} m with expansivity {alpha_l} when heated by {delta_T} K",
+   "extracted_variables": {
+    "l": 5.0,
+    "alpha_l": 1.2e-05,
+    "delta_T": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change in length",
+     "explain": "change in length is product of coefficient, initial length, and temperature difference",
+     "compute": "delta_l = alpha_l * l * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keph203.txt line 200",
+   "concept": "keph.203.4",
+   "question_type": "compute",
+   "question_pattern": "determine volume expansion for liquid with initial volume {V}, volume expansivity {alpha_v}, and temperature rise {delta_T}",
+   "extracted_variables": {
+    "V": 0.001,
+    "alpha_v": 0.00049,
+    "delta_T": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute change in volume",
+     "explain": "volume increase is given by initial volume times volume coefficient times temperature change",
+     "compute": "delta_v = alpha_v * v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keph203.txt line 205",
+   "concept": "keph.203.4",
+   "question_type": "compute",
+   "question_pattern": "calculate volume expansion of substance with volume {V}, volume coefficient {alpha_v}, and temperature change {delta_T}",
+   "extracted_variables": {
+    "V": 2.0,
+    "alpha_v": 0.00018,
+    "delta_T": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute change in volume",
+     "explain": "volume increase is given by initial volume times volume coefficient times temperature change",
+     "compute": "delta_v = alpha_v * v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "keph203.txt line 235",
+   "concept": "keph.203.5",
+   "question_type": "compute",
+   "question_pattern": "calculate thermal stress in steel rod with Youngs modulus {Y}, linear expansivity {alpha_l}, and temperature rise {delta_T}",
+   "extracted_variables": {
+    "Y": 200000000000,
+    "alpha_l": 1.2e-05,
+    "delta_T": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute thermal strain",
+     "explain": "thermal strain equals linear expansivity times temperature difference",
+     "compute": "strain = alpha_l * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "compute thermal stress",
+     "explain": "thermal stress equals Youngs modulus times thermal strain",
+     "compute": "thermal_stress = young_modulus * strain"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "keph203.txt line 240",
+   "concept": "keph.203.5",
+   "question_type": "compute",
+   "question_pattern": "find stress developed in brass wire of Youngs modulus {Y} and expansion coefficient {alpha_l} when temperature drops by {delta_T}",
+   "extracted_variables": {
+    "Y": 91000000000,
+    "alpha_l": 2e-05,
+    "delta_T": 66
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute thermal strain",
+     "explain": "thermal strain equals linear expansivity times temperature difference",
+     "compute": "strain = alpha_l * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "compute thermal stress",
+     "explain": "thermal stress equals Youngs modulus times thermal strain",
+     "compute": "thermal_stress = young_modulus * strain"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "keph203.txt line 285",
+   "concept": "keph.203.6",
+   "question_type": "compute",
+   "question_pattern": "calculate heat required to heat mass {m} of ice with specific heat {s} through temperature change {delta_T}",
+   "extracted_variables": {
+    "m": 3.0,
+    "s": 2100,
+    "delta_T": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat quantity",
+     "explain": "heat transferred is mass times specific heat capacity times change in temperature",
+     "compute": "Q = m * s * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "keph203.txt line 290",
+   "concept": "keph.203.6",
+   "question_type": "compute",
+   "question_pattern": "find thermal energy absorbed by aluminium mass {m} with specific heat {s} for temperature rise {delta_T}",
+   "extracted_variables": {
+    "m": 8.0,
+    "s": 910,
+    "delta_T": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat quantity",
+     "explain": "heat transferred is mass times specific heat capacity times change in temperature",
+     "compute": "Q = m * s * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "keph203.txt line 395",
+   "concept": "keph.203.8",
+   "question_type": "compute",
+   "question_pattern": "calculate heat required to melt mass {m} of ice given latent heat of fusion {L}",
+   "extracted_variables": {
+    "m": 3.0,
+    "L": 335000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat transferred in phase change",
+     "explain": "heat required is mass multiplied by specific latent heat",
+     "compute": "Q = m * latent_heat"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "keph203.txt line 400",
+   "concept": "keph.203.8",
+   "question_type": "compute",
+   "question_pattern": "find heat energy required to melt ice sample of mass {m} kg with latent heat {L} J/kg",
+   "extracted_variables": {
+    "m": 0.15,
+    "L": 334000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat transferred in phase change",
+     "explain": "heat required is mass multiplied by specific latent heat",
+     "compute": "Q = m * latent_heat"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "keph203.txt line 465",
+   "concept": "keph.203.9",
+   "question_type": "compute",
+   "question_pattern": "calculate heat current across copper rod with conductivity {K}, area {A}, temperature difference {delta_T}, and length {L}",
+   "extracted_variables": {
+    "K": 385,
+    "A": 0.01,
+    "delta_T": 100,
+    "L": 0.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat flow rate",
+     "explain": "heat current equals conductivity times area times temperature difference divided by length",
+     "compute": "H = k * a * delta_t / l"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "keph203.txt line 480",
+   "concept": "keph.203.9",
+   "question_type": "compute",
+   "question_pattern": "find heat conduction rate through composite bar with equivalent conductivity {K}, cross section {A}, temperature drop {delta_T}, and length {L}",
+   "extracted_variables": {
+    "K": 91.6,
+    "A": 0.02,
+    "delta_T": 100,
+    "L": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute heat flow rate",
+     "explain": "heat current equals conductivity times area times temperature difference divided by length",
+     "compute": "H = k * a * delta_t / l"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "keph203.txt line 540",
+   "concept": "keph.203.10",
+   "question_type": "compute",
+   "question_pattern": "calculate surface temperature of a star emitting peak wavelength {lambda_m} with Wiens constant {b}",
+   "extracted_variables": {
+    "b": 0.0029,
+    "lambda_m": 4.753e-07
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature from peak wavelength",
+     "explain": "temperature equals Wiens displacement constant divided by peak wavelength",
+     "compute": "T = b / lambda_m"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "keph203.txt line 545",
+   "concept": "keph.203.10",
+   "question_type": "compute",
+   "question_pattern": "find moon surface temperature given Wiens constant {b} and peak emission wavelength {lambda_m}",
+   "extracted_variables": {
+    "b": 0.0029,
+    "lambda_m": 1.4e-05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature from peak wavelength",
+     "explain": "temperature equals Wiens displacement constant divided by peak wavelength",
+     "compute": "T = b / lambda_m"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "keph203.txt line 580",
+   "concept": "keph.203.11",
+   "question_type": "compute",
+   "question_pattern": "calculate radiant power emitted by blackbody with emissivity {e}, Stefan constant {sigma}, area {A}, and temperature {T}",
+   "extracted_variables": {
+    "e": 1.0,
+    "sigma": 5.67e-08,
+    "A": 2.0,
+    "T": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute fourth power of temperature",
+     "explain": "raise absolute temperature to power four",
+     "compute": "t4 = temp ** 4"
+    },
+    {
+     "step": 2,
+     "action": "compute total emitted radiation power",
+     "explain": "multiply emissivity, Stefan constant, area, and temperature raised to fourth power",
+     "compute": "H = e * sigma * a * t4"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "keph203.txt line 585",
+   "concept": "keph.203.11",
+   "question_type": "compute",
+   "question_pattern": "find power radiated by tungsten filament with emissivity {e}, Stefan constant {sigma}, surface area {A}, and absolute temperature {T}",
+   "extracted_variables": {
+    "e": 0.4,
+    "sigma": 5.67e-08,
+    "A": 3e-05,
+    "T": 3000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute fourth power of temperature",
+     "explain": "raise absolute temperature to power four",
+     "compute": "t4 = temp ** 4"
+    },
+    {
+     "step": 2,
+     "action": "compute total emitted radiation power",
+     "explain": "multiply emissivity, Stefan constant, area, and temperature raised to fourth power",
+     "compute": "H = e * sigma * a * t4"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "keph203.txt line 670",
+   "concept": "keph.203.12",
+   "question_type": "compute",
+   "question_pattern": "calculate cooling rate for body cooling from {T_1} to {T_2} in ambient temperature {T_env} with cooling constant {K}",
+   "extracted_variables": {
+    "T_1": 94,
+    "T_2": 86,
+    "T_env": 20,
+    "K": 0.05714
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute average body temperature",
+     "explain": "take average of initial and final temperatures",
+     "compute": "t_avg = (t_1 + t_2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "compute excess temperature above surroundings",
+     "explain": "subtract ambient environment temperature from average body temperature",
+     "compute": "delta_t = t_avg - t_env"
+    },
+    {
+     "step": 3,
+     "action": "compute temperature drop rate",
+     "explain": "multiply cooling constant by excess temperature",
+     "compute": "rate = k * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "keph203.txt line 675",
+   "concept": "keph.203.12",
+   "question_type": "compute",
+   "question_pattern": "determine rate of cooling when body temperature drops from {T_1} to {T_2} at room temperature {T_env} with constant {K}",
+   "extracted_variables": {
+    "T_1": 71,
+    "T_2": 69,
+    "T_env": 20,
+    "K": 0.05714
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute average body temperature",
+     "explain": "take average of initial and final temperatures",
+     "compute": "t_avg = (t_1 + t_2) / 2"
+    },
+    {
+     "step": 2,
+     "action": "compute excess temperature above surroundings",
+     "explain": "subtract ambient environment temperature from average body temperature",
+     "compute": "delta_t = t_avg - t_env"
+    },
+    {
+     "step": 3,
+     "action": "compute temperature drop rate",
+     "explain": "multiply cooling constant by excess temperature",
+     "compute": "rate = k * delta_t"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "keph203.txt lines 715-717",
+   "questions": [
+    "The triple points of neon and carbon dioxide are 24.57 K and 216.55 K respectively. Express these temperatures on the Celsius and Fahrenheit scales."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "keph203.txt lines 718-720",
+   "questions": [
+    "Two absolute scales A and B have triple points of water defined to be 200 A and 350 B. What is the relation between T_A and T_B?"
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "keph203.txt lines 721-726",
+   "questions": [
+    "The electrical resistance in ohms of a certain thermometer varies with temperature according to R = R_o [1 + alpha (T - T_o)]. The resistance is 101.6 ohm at the triple-point of water 273.16 K, and 165.5 ohm at the normal melting point of lead (600.5 K). What is the temperature when the resistance is 123.4 ohm?"
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "keph203.txt lines 727-742",
+   "questions": [
+    "Answer the following conceptual questions on standard fixed points, absolute Kelvin scale unit size, and Celsius scale definition."
+   ]
+  },
+  {
+   "id": "ex10.5",
+   "source_ref": "keph203.txt lines 743-755",
+   "questions": [
+    "Two ideal gas thermometers A and B use oxygen and hydrogen respectively. Calculate the absolute temperature of normal melting point of sulphur as read by thermometers A and B."
+   ]
+  },
+  {
+   "id": "ex10.6",
+   "source_ref": "keph203.txt lines 756-761",
+   "questions": [
+    "A steel tape 1m long is correctly calibrated for a temperature of 27.0 C. The length of a steel rod measured by this tape is found to be 63.0 cm on a hot day when the temperature is 45.0 C. What is the actual length of the steel rod on that day and on a 27.0 C day?"
+   ]
+  },
+  {
+   "id": "ex10.7",
+   "source_ref": "keph203.txt lines 762-767",
+   "questions": [
+    "A large steel wheel is to be fitted on to a shaft of the same material. At 27 C, outer diameter of shaft is 8.70 cm and central hole diameter is 8.69 cm. At what temperature of shaft does the wheel slip on?"
+   ]
+  },
+  {
+   "id": "ex10.8",
+   "source_ref": "keph203.txt lines 768-771",
+   "questions": [
+    "A hole is drilled in a copper sheet. The diameter of the hole is 4.24 cm at 27.0 C. What is the change in the diameter of the hole when the sheet is heated to 227 C?"
+   ]
+  },
+  {
+   "id": "ex10.9",
+   "source_ref": "keph203.txt lines 772-776",
+   "questions": [
+    "A brass wire 1.8 m long at 27 C is held taut between two rigid supports. If cooled to -39 C, what is the tension developed in the wire of diameter 2.0 mm?"
+   ]
+  },
+  {
+   "id": "ex10.10",
+   "source_ref": "keph203.txt lines 777-782",
+   "questions": [
+    "A brass rod of length 50 cm and diameter 3.0 mm is joined to a steel rod of same length and diameter. What is the change in length of combined rod at 250 C if original lengths are at 40.0 C?"
+   ]
+  },
+  {
+   "id": "ex10.11",
+   "source_ref": "keph203.txt lines 783-785",
+   "questions": [
+    "The coefficient of volume expansion of glycerine is 49 x 10^-5 K^-1. What is the fractional change in its density for a 30 C rise in temperature?"
+   ]
+  },
+  {
+   "id": "ex10.12",
+   "source_ref": "keph203.txt lines 786-789",
+   "questions": [
+    "A 10 kW drilling machine is used to drill a bore in an aluminium block of mass 8.0 kg. How much is the rise in temperature in 2.5 minutes if 50% power is lost?"
+   ]
+  },
+  {
+   "id": "ex10.13",
+   "source_ref": "keph203.txt lines 790-794",
+   "questions": [
+    "A copper block of mass 2.5 kg is heated to 500 C and placed on a large ice block. What is the maximum amount of ice that can melt?"
+   ]
+  },
+  {
+   "id": "ex10.14",
+   "source_ref": "keph203.txt lines 795-800",
+   "questions": [
+    "In an experiment on specific heat of a metal, a 0.20 kg block at 150 C is dropped in a copper calorimeter containing 150 cm3 water at 27 C. Final temperature is 40 C. Compute specific heat of the metal."
+   ]
+  },
+  {
+   "id": "ex10.15",
+   "source_ref": "keph203.txt lines 801-812",
+   "questions": [
+    "Explain the difference between measured molar specific heats of diatomic gases and monatomic gases, and infer why chlorine has a larger value."
+   ]
+  },
+  {
+   "id": "ex10.16",
+   "source_ref": "keph203.txt lines 813-819",
+   "questions": [
+    "A child running temperature 101 F is given antipyrin which increases sweat evaporation rate. If fever drops to 98 F in 20 minutes, calculate average rate of extra evaporation."
+   ]
+  },
+  {
+   "id": "ex10.17",
+   "source_ref": "keph203.txt lines 820-826",
+   "questions": [
+    "A cubical thermacole icebox of side 30 cm and thickness 5.0 cm contains 4.0 kg ice. Estimate the amount of ice remaining after 6 h when outside temperature is 45 C."
+   ]
+  },
+  {
+   "id": "ex10.18",
+   "source_ref": "keph203.txt lines 827-831",
+   "questions": [
+    "A brass boiler with base area 0.15 m2 and thickness 1.0 cm boils water at rate 6.0 kg/min. Estimate the temperature of flame in contact with boiler."
+   ]
+  },
+  {
+   "id": "ex10.19",
+   "source_ref": "keph203.txt lines 832-842",
+   "questions": [
+    "Explain why reflectivity relates to emissivity, brass feels colder than wood, pyrometer calibration shifts in open air, atmosphere warms earth, and steam heating is superior to hot water."
+   ]
+  },
+  {
+   "id": "ex10.20",
+   "source_ref": "keph203.txt lines 843-846",
+   "questions": [
+    "A body cools from 80 C to 50 C in 5 minutes. Calculate time it takes to cool from 60 C to 30 C when surroundings are at 20 C."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file",
+  "keph.203.1: bad compute '(9 / 5) * t_C + 32' (unknown symbol: t_C)",
+  "keph.203.2: bad compute 't_C + 273.15' (unknown symbol: t_C)",
+  "keph.203.3: bad compute 'alpha_l * l * delta_T' (unknown symbol: delta_T)",
+  "keph.203.4: bad compute 'alpha_v * V * delta_T' (unknown symbol: V)",
+  "keph.203.5: bad compute 'alpha_l * delta_T' (unknown symbol: delta_T)",
+  "keph.203.5: bad compute 'Y * strain' (unknown symbol: Y)",
+  "keph.203.6: bad compute 'm * s * delta_T' (unknown symbol: delta_T)"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

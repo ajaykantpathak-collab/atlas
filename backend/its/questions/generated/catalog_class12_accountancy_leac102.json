@@ -1,0 +1,501 @@
+{
+ "catalog": "catalog_class12_accountancy_leac102",
+ "concepts": [
+  {
+   "id": "leac.102.3.1",
+   "title": "New Profit Sharing Ratio",
+   "questions": [
+    {
+     "q": "Find the new profit sharing ratio when a partner is admitted. Use the method 'New Profit Sharing Ratio'. Work with: old_share_fraction = 0.5, surrendered_fraction = 0.45. Carry the chain through step by step and give the final value of new_share.",
+     "a": "0.05 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the new ratio of all partners after the admission. Use the method 'New Profit Sharing Ratio'. Work with: old_share_fraction = 0.5, surrendered_fraction = 0.2. Carry the chain through step by step and give the final value of new_share.",
+     "a": "0.3 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'New Profit Sharing Ratio' refers to.",
+     "a": "Once an incoming partner takes a slice of profit, every old partner's slice shrinks; the full set of revised fractions for all partners together forms the new profit sharing ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'New Profit Sharing Ratio'.",
+     "a": "Profit shares always total one, so whatever the entrant gains must come out of the existing partners' portions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'New Profit Sharing Ratio', in plain ASCII form.",
+     "a": "new_share = old_share_fraction - surrendered_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.3.2",
+   "title": "Remaining Share Method for an Old Partner",
+   "questions": [
+    {
+     "q": "Find the old partner's new share under the remaining share method. Use the method 'Remaining Share Method for an Old Partner'. Work with: new_share_fraction = 0.6, old_share_fraction = 0.45. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0.18 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate A's share when C is admitted for a fraction and no sacrifice detail is given. Use the method 'Remaining Share Method for an Old Partner'. Work with: new_share_fraction = 0.5, old_share_fraction = 0.2. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0.1 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Remaining Share Method for an Old Partner' refers to.",
+     "a": "When the deed is silent about whose shares the entrant buys into, the profit left after the entrant's slice is shared by the old partners in their old proportion; one partner's revised entitlement is his old fraction times that leftover.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Remaining Share Method for an Old Partner'.",
+     "a": "Silence about the source of the entrant's share means the old ratio keeps applying to whatever profit remains.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Remaining Share Method for an Old Partner', in plain ASCII form.",
+     "a": "partner_new_share = old_share_fraction * (1 - new_share_fraction)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.3.3",
+   "title": "New Share After a Fixed Surrender",
+   "questions": [
+    {
+     "q": "Find the new share of a partner who surrendered a stated fraction. Use the method 'New Share After a Fixed Surrender'. Work with: old_share_fraction = 0.6, surrendered_fraction = 0.6. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the share left after giving part of it to the new partner. Use the method 'New Share After a Fixed Surrender'. Work with: old_share_fraction = 0.35, surrendered_fraction = 0.2. Carry the chain through step by step and give the final value of partner_new_share.",
+     "a": "0.15 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'New Share After a Fixed Surrender' refers to.",
+     "a": "If the admission terms name the exact fraction an existing partner gives up, that partner's revised entitlement is just his old fraction reduced by the surrendered piece.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'New Share After a Fixed Surrender'.",
+     "a": "Add up every surrendered piece and the total equals the entrant's share.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'New Share After a Fixed Surrender', in plain ASCII form.",
+     "a": "partner_new_share = old_share_fraction - surrendered_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.4.1",
+   "title": "Sacrifice Share of a Partner",
+   "questions": [
+    {
+     "q": "How much share has the old partner sacrificed? Use the method 'Sacrifice Share of a Partner'. Work with: new_share_fraction = 0.35, old_share_fraction = 0.6. Carry the chain through step by step and give the final value of sacrifice_share.",
+     "a": "0.25 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the sacrifice made by a partner on admission of a new partner. Use the method 'Sacrifice Share of a Partner'. Work with: new_share_fraction = 0.3, old_share_fraction = 0.3. Carry the chain through step by step and give the final value of sacrifice_share.",
+     "a": "0 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sacrifice Share of a Partner' refers to.",
+     "a": "For any continuing partner, the piece of profit handed to the entrant equals the share held before admission minus the share held afterwards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sacrifice Share of a Partner'.",
+     "a": "A minus result flips the meaning: that partner gained share instead of giving it up.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sacrifice Share of a Partner', in plain ASCII form.",
+     "a": "sacrifice_share = old_share_fraction - new_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.4.2",
+   "title": "Sacrificing Ratio",
+   "questions": [
+    {
+     "q": "Calculate the sacrificing ratio of the old partners. Use the method 'Sacrificing Ratio'. Work with: sacrifice_of_each_old_partner_in_lowest_terms = 50. Carry the chain through step by step and give the final value of sacrificing_ratio.",
+     "a": "50 times",
+     "self_check": false
+    },
+    {
+     "q": "Find in what ratio the existing partners sacrificed their profit shares. Use the method 'Sacrificing Ratio'. Work with: sacrifice_of_each_old_partner_in_lowest_terms = 120. Carry the chain through step by step and give the final value of sacrificing_ratio.",
+     "a": "120 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sacrificing Ratio' refers to.",
+     "a": "Setting each old partner's sacrifice side by side gives the sacrificing ratio, the proportion in which the goodwill premium is handed over to them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sacrificing Ratio'.",
+     "a": "The sacrificing ratio compares how much share each old partner gives up; premium money follows it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sacrificing Ratio', in plain ASCII form.",
+     "a": "sacrificing_ratio = sacrifice_of_each_old_partner_in_lowest_terms",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.1",
+   "title": "Goodwill by Average Profits Method",
+   "questions": [
+    {
+     "q": "Calculate goodwill at a given number of years purchase of average profits. Use the method 'Goodwill by Average Profits Method'. Work with: profits_total = 50000, years_count = 200, years_purchase = 2600. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "650000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find goodwill using the simple average profits method. Use the method 'Goodwill by Average Profits Method'. Work with: profits_total = 120000, years_count = 500, years_purchase = 200. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "48000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Goodwill by Average Profits Method' refers to.",
+     "a": "The firm's past profits are averaged over the agreed span, and that average multiplied by the agreed years' purchase is taken as the goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goodwill by Average Profits Method'.",
+     "a": "A steady profit history stands in for the earnings a fresh business would miss in its first years.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Goodwill by Average Profits Method', in plain ASCII form.",
+     "a": "goodwill = average_profit * years_purchase",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.2",
+   "title": "Goodwill by Weighted Average Profits",
+   "questions": [
+    {
+     "q": "Calculate goodwill on the basis of weighted average profits. Use the method 'Goodwill by Weighted Average Profits'. Work with: profit1 = 12000, profit2 = 20000, profit3 = 20000, profit4 = 5000, w1 = 80, w2 = 120, w3 = 120, w4 = 8, years_purchase = 150. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "2652439.0244 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find goodwill using the weighted average with weights one two three four. Use the method 'Goodwill by Weighted Average Profits'. Work with: profit1 = 20000, profit2 = 50000, profit3 = 12000, profit4 = 50000, w1 = 8, w2 = 40, w3 = 500, w4 = 24, years_purchase = 10. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "163636.3636 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Goodwill by Weighted Average Profits' refers to.",
+     "a": "Recent years get larger weights, and goodwill is valued by applying the purchase multiplier to the weighted average rather than the plain average.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goodwill by Weighted Average Profits'.",
+     "a": "Weights tilt the average toward recent performance when profits show a rising or falling trend.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Goodwill by Weighted Average Profits', in plain ASCII form.",
+     "a": "goodwill = weighted_average_profit * years_purchase",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.3",
+   "title": "Goodwill by Super Profits Method",
+   "questions": [
+    {
+     "q": "Calculate goodwill by the super profits method. Use the method 'Goodwill by Super Profits Method'. Work with: average_profit = 1500, capital_employed = 2500, normal_rate = 18, years_purchase = 2600. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "2730000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the super profit and then the goodwill of the firm. Use the method 'Goodwill by Super Profits Method'. Work with: average_profit = 200, capital_employed = 8000, normal_rate = 8, years_purchase = 200. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "-88000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Goodwill by Super Profits Method' refers to.",
+     "a": "Only earnings above the normal return on capital employed count: deduct the normal profit from the average profit, then multiply the excess by the agreed years' purchase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goodwill by Super Profits Method'.",
+     "a": "Goodwill exists only where the firm beats the normal rate of return on its capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Goodwill by Super Profits Method', in plain ASCII form.",
+     "a": "goodwill = super_profit * years_purchase",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.4",
+   "title": "Goodwill by Capitalisation of Average Profits",
+   "questions": [
+    {
+     "q": "Calculate goodwill by capitalisation of average profits. Use the method 'Goodwill by Capitalisation of Average Profits'. Work with: average_profit = 500, net_assets = 50000, normal_rate = 12. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "-45833.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find goodwill as the capitalised value of profits less net assets. Use the method 'Goodwill by Capitalisation of Average Profits'. Work with: average_profit = 200, net_assets = 50000, normal_rate = 20. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "-49000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Goodwill by Capitalisation of Average Profits' refers to.",
+     "a": "Capitalise the average profit at the normal rate to get the implied worth of the business, then subtract the actual net assets; the gap is the goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goodwill by Capitalisation of Average Profits'.",
+     "a": "Goodwill is whatever the capitalized earnings exceed the tangible worth of the business.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Goodwill by Capitalisation of Average Profits', in plain ASCII form.",
+     "a": "goodwill = capitalised_value - net_assets",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.5",
+   "title": "Goodwill by Capitalisation of Super Profits",
+   "questions": [
+    {
+     "q": "Calculate goodwill by capitalising the super profits. Use the method 'Goodwill by Capitalisation of Super Profits'. Work with: average_profit = 1000, capital_employed = 50000, normal_rate = 10. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "-40000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find goodwill when super profits are capitalized at the normal rate. Use the method 'Goodwill by Capitalisation of Super Profits'. Work with: average_profit = 200, capital_employed = 1200, normal_rate = 20. Carry the chain through step by step and give the final value of goodwill.",
+     "a": "-200 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Goodwill by Capitalisation of Super Profits' refers to.",
+     "a": "The excess earning itself is capitalized at the normal rate of return, which gives goodwill straight away without valuing the whole business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Goodwill by Capitalisation of Super Profits'.",
+     "a": "This lands on the same figure as capitalising average profits when both start from the same data.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Goodwill by Capitalisation of Super Profits', in plain ASCII form.",
+     "a": "goodwill = super_profit * 100 / normal_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.6",
+   "title": "Premium for Goodwill of the Incoming Partner",
+   "questions": [
+    {
+     "q": "Calculate the premium for goodwill brought in by the new partner. Use the method 'Premium for Goodwill of the Incoming Partner'. Work with: firm_goodwill = 3, new_share_fraction = 0.35. Carry the chain through step by step and give the final value of premium_amount.",
+     "a": "1.05 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much goodwill premium will the incoming partner pay? Use the method 'Premium for Goodwill of the Incoming Partner'. Work with: firm_goodwill = 500, new_share_fraction = 0.5. Carry the chain through step by step and give the final value of premium_amount.",
+     "a": "250 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Premium for Goodwill of the Incoming Partner' refers to.",
+     "a": "The entrant compensates the old partners by paying for his own slice of the firm's goodwill; that premium equals the firm goodwill times the profit fraction he acquires.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Premium for Goodwill of the Incoming Partner'.",
+     "a": "The premium is then shared by the old partners in their sacrificing ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Premium for Goodwill of the Incoming Partner', in plain ASCII form.",
+     "a": "premium_amount = firm_goodwill * new_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.7",
+   "title": "Hidden Goodwill",
+   "questions": [
+    {
+     "q": "Calculate the hidden goodwill of the firm. Use the method 'Hidden Goodwill'. Work with: combined_capital = 8192, incoming_capital = 50000, new_share_fraction = 0.6. Carry the chain through step by step and give the final value of hidden_goodwill.",
+     "a": "75141.3333 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find goodwill when its value is not given at the time of admission. Use the method 'Hidden Goodwill'. Work with: combined_capital = 256, incoming_capital = 12000, new_share_fraction = 0.75. Carry the chain through step by step and give the final value of hidden_goodwill.",
+     "a": "15744 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hidden Goodwill' refers to.",
+     "a": "When goodwill is not quoted, infer it: gross up the entrant's payment to the whole-firm capital, subtract the capital actually standing, and the difference is the hidden goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hidden Goodwill'.",
+     "a": "The unquoted value is read off from how much capital the entrant paid for his fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hidden Goodwill', in plain ASCII form.",
+     "a": "hidden_goodwill = implied_capital - combined_capital",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.6.1",
+   "title": "Accumulated Profits and Reserves Distribution",
+   "questions": [
+    {
+     "q": "Calculate each old partner's share of the general reserve on admission. Use the method 'Accumulated Profits and Reserves Distribution'. Work with: accumulated_amount = 50000, old_share_fraction = 0.6. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "30000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the share of reserve transferred to a partner's capital account. Use the method 'Accumulated Profits and Reserves Distribution'. Work with: accumulated_amount = 12000, old_share_fraction = 0.8. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "9600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Accumulated Profits and Reserves Distribution' refers to.",
+     "a": "Reserves and undistributed profits earned before admission belong to the old partners alone, so each takes his old-ratio fraction of the accumulated amount.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Accumulated Profits and Reserves Distribution'.",
+     "a": "The entrant must not benefit from profits earned before he joined the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Accumulated Profits and Reserves Distribution', in plain ASCII form.",
+     "a": "partner_share = accumulated_amount * old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.7.1",
+   "title": "Revaluation Profit and Its Distribution",
+   "questions": [
+    {
+     "q": "Calculate the profit or loss on revaluation of assets and liabilities. Use the method 'Revaluation Profit and Its Distribution'. Work with: gains_total = 10, losses_total = 80000, old_share_fraction = 0.4. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "-31996 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the net gain on revaluation transferred to the old partners. Use the method 'Revaluation Profit and Its Distribution'. Work with: gains_total = 15, losses_total = 2500, old_share_fraction = 0.2. Carry the chain through step by step and give the final value of partner_share.",
+     "a": "-497 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Revaluation Profit and Its Distribution' refers to.",
+     "a": "Totalling every upward revision and deducting the downward ones gives the net revaluation result, which the old partners divide in the old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Revaluation Profit and Its Distribution'.",
+     "a": "Only old partners absorb revaluation effects, because the assets and liabilities existed before the admission.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Revaluation Profit and Its Distribution', in plain ASCII form.",
+     "a": "partner_share = (gains_total - losses_total) * old_share_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.8.1",
+   "title": "Proportionate Capital Adjustment",
+   "questions": [
+    {
+     "q": "Calculate the new capital of each partner in the profit sharing proportion. Use the method 'Proportionate Capital Adjustment'. Work with: adjusted_capital = 50000, base_capital = 50000, base_share_fraction = 0.2, partner_share_fraction = 0.2. Carry the chain through step by step and give the final value of capital_adjustment.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find how much capital a partner must bring in or withdraw after the admission. Use the method 'Proportionate Capital Adjustment'. Work with: adjusted_capital = 500, base_capital = 8000, base_share_fraction = 0.35, partner_share_fraction = 0.45. Carry the chain through step by step and give the final value of capital_adjustment.",
+     "a": "9785.7143 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Proportionate Capital Adjustment' refers to.",
+     "a": "If capitals must sit in the profit ratio, the entrant's payment fixes the whole-firm capital; each partner's required capital is his profit fraction of that total, and the gap against his adjusted capital is brought in or withdrawn.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proportionate Capital Adjustment'.",
+     "a": "Capitals are made proportionate to the new profit sharing ratio; a positive gap brings cash in, a negative gap withdraws the excess.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Proportionate Capital Adjustment', in plain ASCII form.",
+     "a": "capital_adjustment = required_capital - adjusted_capital",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.102.9.1",
+   "title": "Share Change on Ratio Revision",
+   "questions": [
+    {
+     "q": "Find which partner gains and which sacrifices when the ratio changes. Use the method 'Share Change on Ratio Revision'. Work with: new_share_fraction = 0.2, old_share_fraction = 0.75. Carry the chain through step by step and give the final value of share_change.",
+     "a": "-0.55 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the change in each partner's share after the profit ratio is revised. Use the method 'Share Change on Ratio Revision'. Work with: new_share_fraction = 0.45, old_share_fraction = 0.35. Carry the chain through step by step and give the final value of share_change.",
+     "a": "0.1 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Share Change on Ratio Revision' refers to.",
+     "a": "When existing partners reshuffle shares among themselves, each one's gain or loss equals the new fraction minus the old fraction; a negative figure marks a sacrifice.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Share Change on Ratio Revision'.",
+     "a": "Whoever gains share compensates the one who gives it up, through a goodwill adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Share Change on Ratio Revision', in plain ASCII form.",
+     "a": "share_change = new_share_fraction - old_share_fraction",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

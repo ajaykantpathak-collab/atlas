@@ -1,0 +1,387 @@
+{
+ "catalog": "catalog_class9_maths_ch101.json",
+ "concepts": [
+  {
+   "id": "iemh.101.1",
+   "family": "set_relation_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "count = 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "count = 5 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 0"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "count = 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "count = 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "count = 5"
+   ]
+  },
+  {
+   "id": "iemh.101.2",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 10 - 1",
+      "dy = 14 - 2",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(0 * 0 + 6 * 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (-8 + -2) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (2 * 5 + 3 * 0) / (2 + 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(4 * (5 - 0) + 3 * (0 - 2) + 5 * (2 - 5))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (0 + -3 + -1) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = 10 - 1",
+    "dy = 14 - 2",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "iemh.101.3",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 2"
+   ]
+  },
+  {
+   "id": "iemh.101.4",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 16 - 7",
+      "dy = 4 - -8",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(7 * 7 + -4 * -4)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (3 + -8) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (1 * 5 + 4 * 0) / (1 + 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(2 * (-5 - 0) + 4 * (0 - 5) + 1 * (5 - -5))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (1 + 2 + -5) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = 16 - 7",
+    "dy = 4 - -8",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "iemh.101.5",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 24 - 4",
+      "dy = 13 - -8",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(-2 * -2 + -4 * -4)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (-3 + -4) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (1 * 5 + 4 * 0) / (1 + 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(-5 * (1 - 0) + 3 * (0 - -4) + 0 * (-4 - 1))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (3 + -5 + 0) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = 24 - 4",
+    "dy = 13 - -8",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "iemh.101.6",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 12 - 6",
+      "dy = 11 - 3",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(-2 * -2 + -4 * -4)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (-3 + 6) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (2 * 5 + 3 * 0) / (2 + 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(-3 * (0 - 0) + 5 * (0 - 5) + 2 * (5 - 0))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (4 + -4 + 0) / 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "iemh.101.7",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = -2 - -7",
+      "dy = 18 - 6",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(-1 * -1 + 1 * 1)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (5 + -3) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (2 * 3 + 1 * 0) / (2 + 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(3 * (0 - 0) + -5 * (0 - 6) + -4 * (6 - 0))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (1 + -3 + 5) / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dx = -2 - -7",
+    "dy = 18 - 6",
+    "dist = sqrt(dx * dx + dy * dy)"
+   ]
+  },
+  {
+   "id": "iemh.101.8",
+   "family": "coord_geom",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dx = 0 - -8",
+      "dy = 11 - -4",
+      "dist = sqrt(dx * dx + dy * dy)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dist = sqrt(9 * 9 + -7 * -7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mx = (-6 + 5) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "px = (4 * 9 + 5 * 0) / (4 + 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "twice = abs(4 * (-5 - 0) + -4 * (0 - -4) + -5 * (-4 - -5))",
+      "area = twice / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gx = (-5 + 4 + -2) / 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

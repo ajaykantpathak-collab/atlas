@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_001",
+   "title": "c11_bio_cbse_19_001",
+   "questions": [
+    {
+     "q": "Name the two types of hormones produced by the hypothalamus and state their effect on anterior pituitary hormone secretion.",
+     "a": "The hypothalamus produces releasing hormones (e.g., GnRH, TRH, CRH) that stimulate anterior pituitary hormone secretion, and inhibiting hormones (e.g., somatostatin, dopamine) that suppress anterior pituitary hormone secretion. A wrong answer that lists only \"stimulating hormones\" or confuses them with pituitary tropic hormones reveals the student has not grasped the hierarchical control: hypothalamus → pituitary → target gland.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the anterior pituitary is called the \"master gland\" even though it is itself controlled by the hypothalamus.",
+     "a": "The anterior pituitary is called the master gland because its six tropic hormones (GH, PRL, TSH, ACTH, LH, FSH) directly regulate the activity of peripheral endocrine glands (thyroid, adrenal cortex, gonads) and somatic growth. However, it is controlled by hypothalamic releasing/inhibiting hormones delivered via the portal system. A student who says \"it controls everything independently\" misses the hierarchical regulation; one who says \"hypothalamus is the real master\" confuses the functional label with the control hierarchy — both statements are partially true but the term \"master gland\" refers to its tropic output, not its autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "A patient presents with excessive thirst, polyuria (large volume of dilute urine), and dehydration despite adequate water intake. Which hormone deficiency is likely, and from which lobe of the pituitary does it originate?",
+     "a": "The symptoms indicate diabetes insipidus due to deficiency of vasopressin (ADH). ADH is synthesized in the hypothalamic neurons (supraoptic and paraventricular nuclei) but stored and released from the posterior pituitary (neurohypophysis/pars nervosa). A wrong answer naming \"anterior pituitary\" or \"GH deficiency\" shows confusion between posterior pituitary hormones (direct neural origin) and anterior pituitary hormones (portal regulation). It also reveals inability to link ADH's renal action (water reabsorption in collecting ducts) to the clinical picture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the route of hormone delivery from hypothalamus to anterior pituitary versus hypothalamus to posterior pituitary. How does this difference explain why hypothalamic lesions affect the two lobes differently?",
+     "a": "Hypothalamic neurons release releasing/inhibiting hormones into the primary capillary plexus of the hypophyseal portal system; these hormones travel via portal veins to the anterior pituitary sinusoids. For the posterior pituitary, hypothalamic neurons extend axons down the infundibular stalk and release oxytocin and ADH directly from their nerve endings into fenestrated capillaries. A lesion destroying the stalk severs the portal vessels (cutting off anterior pituitary regulation) but also severs the axons (preventing ADH/oxytocin release). However, a lesion confined to hypothalamic nuclei spares the posterior pituitary's axonal terminals if the stalk is intact, but abolishes releasing/inhibiting hormone production. A student who says \"both use blood vessels\" misses the neural vs. vascular distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A 25-year-old male develops coarse facial features, enlarged hands and feet, and jaw protrusion over two years. His GH level is elevated and fails to suppress after an oral glucose tolerance test. Evaluate whether this is gigantism or acromegaly and justify your reasoning.",
+     "a": "This is acromegaly, not gigantism. Gigantism occurs when GH excess begins before epiphyseal plate closure (childhood/adolescence), causing proportional long bone growth. Acromegaly occurs after epiphyseal closure (adulthood), causing appositional bone growth (jaw, hands, feet) and soft tissue enlargement. The patient is 25, so epiphyses are fused. The failure of GH suppression by glucose confirms autonomous pituitary adenoma. A wrong answer calling it gigantism ignores the age criterion; one attributing it to hypothalamic GHRH excess without mentioning the glucose suppression test misses the diagnostic standard for pituitary autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flowchart experiment to demonstrate that the anterior pituitary requires hypothalamic factors for hormone secretion, using the concept of the portal system.",
+     "a": "A good answer: 1) Remove pituitary from an animal and place in culture medium — anterior pituitary hormones decline. 2) Add hypothalamic extract to the medium — hormone secretion restores. 3) Sever the portal vessels in vivo — anterior pituitary atrophy occurs while posterior pituitary function remains. 4) Transplant anterior pituitary to a site with portal connection from hypothalamus — function maintains. This shows anterior pituitary depends on hypothalamic factors delivered via portal blood. A poor answer that only says \"measure hormone levels before/after stalk section\" without distinguishing anterior vs. posterior or using portal blood transfer misses the experimental proof of humoral vs. neural control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

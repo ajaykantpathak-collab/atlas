@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class6_science_ch108.json",
+ "concepts": [
+  {
+   "id": "fesc.8.1.1",
+   "title": "Human Skeleton and Bone Count Changes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "adult_ratio",
+     "expr": "adult_bones / infant_bones",
+     "explain": "adult bones as a fraction of infant bones"
+    },
+    {
+     "step": 2,
+     "name": "fusion_fraction",
+     "expr": "1 - adult_ratio",
+     "explain": "fraction of bones that fused"
+    },
+    {
+     "step": 3,
+     "name": "fused_bones",
+     "expr": "infant_bones * fusion_fraction",
+     "explain": "number of bones that fused"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A baby has 300 bones and an adult has 206. How many bones fuse during growth?",
+     "vals": {
+      "infant_bones": 300,
+      "adult_bones": 206
+     },
+     "unit": "bones",
+     "steps": null,
+     "a": "94 bones",
+     "self_check": false
+    },
+    {
+     "q": "If a newborn's 270 bones fuse down to 206, how many joined together?",
+     "vals": {
+      "infant_bones": 270,
+      "adult_bones": 206
+     },
+     "unit": "bones",
+     "steps": null,
+     "a": "64 bones",
+     "self_check": false
+    },
+    {
+     "q": "An infant skeleton shows 305 bones; the adult one 206. Calculate the difference.",
+     "vals": {
+      "infant_bones": 305,
+      "adult_bones": 206
+     },
+     "unit": "bones",
+     "steps": null,
+     "a": "99 bones",
+     "self_check": false
+    },
+    {
+     "q": "Some books say 350 bones at birth. How many fuse to leave the adult 206?",
+     "vals": {
+      "infant_bones": 350,
+      "adult_bones": 206
+     },
+     "unit": "bones",
+     "steps": null,
+     "a": "144 bones",
+     "self_check": false
+    },
+    {
+     "q": "With 290 infant bones becoming 206, find the number that fused.",
+     "vals": {
+      "infant_bones": 290,
+      "adult_bones": 206
+     },
+     "unit": "bones",
+     "steps": null,
+     "a": "84 bones",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.2",
+   "title": "Ball and Socket Joint",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a ball and socket joint? Where is it found?",
+     "a": "The round end of one bone fits in a cup of another, allowing movement in all directions - shoulder and hip.",
+     "self_check": true
+    },
+    {
+     "q": "Which movements does the shoulder joint allow?",
+     "a": "Rotation, lifting, swinging the arm in circles - almost all directions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the hip joint move less freely than the shoulder?",
+     "a": "Deeper socket and stronger ligaments trade some motion for body support.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.3",
+   "title": "Pivotal Joint",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a pivotal joint? Give its location.",
+     "a": "A joint allowing rotation around an axis - the neck joins the skull (head turns side to side).",
+     "self_check": true
+    },
+    {
+     "q": "Which movement does a pivotal joint permit?",
+     "a": "Rotation only - nodding 'no' with the head.",
+     "self_check": true
+    },
+    {
+     "q": "Give one more example of pivotal movement in the body.",
+     "a": "Turning the forearm palm up/down at the elbow's pivot.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.4",
+   "title": "Hinge Joint",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a hinge joint? Where does it occur?",
+     "a": "A joint moving in one direction like a door hinge - elbow and knee.",
+     "self_check": true
+    },
+    {
+     "q": "Which directions can the elbow move?",
+     "a": "Only back and forth - it cannot rotate like the shoulder.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the knee called a hinge joint?",
+     "a": "It bends and straightens in one plane, like a door.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.5",
+   "title": "Fixed Joint",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are fixed joints?",
+     "a": "Joints that allow no movement - the skull bones are joined like this.",
+     "self_check": true
+    },
+    {
+     "q": "Where are fixed joints found in the body?",
+     "a": "In the skull, where plates are locked together protecting the brain.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a fixed skull useful?",
+     "a": "A rigid skull shields the delicate brain from blows.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.6",
+   "title": "Rib Cage Structure and Rib Count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "total_ribs",
+     "expr": "ribs_per_side * 2",
+     "explain": "ribs come in pairs, one on each side"
+    },
+    {
+     "step": 2,
+     "name": "pairs_in_24",
+     "expr": "24 / ribs_per_side",
+     "explain": "rib pairs among the first 24 ribs"
+    },
+    {
+     "step": 3,
+     "name": "floating_ribs_rest",
+     "expr": "total_ribs - 24",
+     "explain": "ribs beyond the 24 true ribs counted separately"
+    }
+   ],
+   "questions": [
+    {
+     "q": "There are 12 ribs on one side of the chest. How many ribs in all, and how many beyond the first 12 pairs?",
+     "vals": {
+      "ribs_per_side": 12
+     },
+     "unit": "ribs",
+     "steps": null,
+     "a": "0 ribs",
+     "self_check": false
+    },
+    {
+     "q": "If a rib cage has 12 pairs of ribs, what is the total rib count?",
+     "vals": {
+      "ribs_per_side": 12
+     },
+     "unit": "ribs",
+     "steps": null,
+     "a": "0 ribs",
+     "self_check": false
+    },
+    {
+     "q": "Count 12 ribs on the left side and 12 on the right: what is the sum, and how many lie beyond 24?",
+     "vals": {
+      "ribs_per_side": 12
+     },
+     "unit": "ribs",
+     "steps": null,
+     "a": "0 ribs",
+     "self_check": false
+    },
+    {
+     "q": "A model shows 12 ribs each side. Compute the total and the extra beyond the 24 front ribs.",
+     "vals": {
+      "ribs_per_side": 12
+     },
+     "unit": "ribs",
+     "steps": null,
+     "a": "0 ribs",
+     "self_check": false
+    },
+    {
+     "q": "Given ribs_per_side = 12, find the paired total and its difference from 24.",
+     "vals": {
+      "ribs_per_side": 12
+     },
+     "unit": "ribs",
+     "steps": null,
+     "a": "0 ribs",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.7",
+   "title": "Cartilage",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is cartilage?",
+     "a": "A smooth, flexible tissue covering bone ends at joints, and shaping ear and nose.",
+     "self_check": true
+    },
+    {
+     "q": "Why is cartilage important at joints?",
+     "a": "It reduces friction and absorbs shock so bones glide smoothly.",
+     "self_check": true
+    },
+    {
+     "q": "Can you bend your ear bones? What makes ears bendable?",
+     "a": "Cartilage, not bone, gives the ear its flexible shape.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.8",
+   "title": "Antagonistic Muscle Pair Action",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do muscles move bones?",
+     "a": "Muscles contract (pull) and relax, pulling the bones they are attached to.",
+     "self_check": true
+    },
+    {
+     "q": "Why must muscles work in pairs?",
+     "a": "Muscles can only pull - one bends the joint while its partner straightens it.",
+     "self_check": true
+    },
+    {
+     "q": "Give the muscle pair that moves the arm.",
+     "a": "Biceps (bends the arm) and triceps (straightens it).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.1",
+   "title": "Earthworm Locomotion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does an earthworm move?",
+     "a": "It alternately lengthens and shortens its body, anchoring with bristles (setae) under the skin.",
+     "self_check": true
+    },
+    {
+     "q": "What are setae?",
+     "a": "Tiny bristles under the earthworm's body that grip the soil while it moves.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an earthworm need moist soil to move?",
+     "a": "Its skin must stay moist for breathing, and slick surfaces ease sliding.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.2",
+   "title": "Snail Locomotion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a snail move?",
+     "a": "It glides on a large muscular foot, laying down slimy mucus that eases sliding.",
+     "self_check": true
+    },
+    {
+     "q": "What is the thickStructure a snail carries?",
+     "a": "Its spiral shell, into which it withdraws for safety.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a snail leave a shiny trail?",
+     "a": "The mucus it secretes dries into a silvery line along its path.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.3",
+   "title": "Cockroach Exoskeleton and Locomotion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How many legs and wings does a cockroach have?",
+     "a": "Three pairs of legs and two pairs of wings.",
+     "self_check": true
+    },
+    {
+     "q": "Which muscles move a cockroach's legs?",
+     "a": "Muscles in the legs and thorax work in pairs to run fast.",
+     "self_check": true
+    },
+    {
+     "q": "How do cockroach wings help it?",
+     "a": "It flies short distances to escape danger.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.4",
+   "title": "Bird Adaptations for Flight",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How are birds' bones suited to flying?",
+     "a": "Their bones are hollow and light, reducing weight for flight.",
+     "self_check": true
+    },
+    {
+     "q": "Which muscles power a bird's wings?",
+     "a": "Strong breast (flight) muscles attached to a boat-shaped breastbone.",
+     "self_check": true
+    },
+    {
+     "q": "Name three bird features that help flight.",
+     "a": "Hollow bones, streamlined body, strong breast muscles and wing feathers.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.5",
+   "title": "Streamlined Body and Fish Swimming",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a streamlined body?",
+     "a": "A shape narrow at both ends that lets water or air flow past easily - as in fish and boats.",
+     "self_check": true
+    },
+    {
+     "q": "How does a fish swim forward?",
+     "a": "It bends its body and tail side to side in curves, pushing water back and itself forward.",
+     "self_check": true
+    },
+    {
+     "q": "What role do fins play in swimming?",
+     "a": "Fins steer, balance and stop the fish.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.6",
+   "title": "Snake Locomotion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a snake move without legs?",
+     "a": "It throws its body into looping curves, pushing against the ground to glide forward.",
+     "self_check": true
+    },
+    {
+     "q": "What is a snake's slithering helped by?",
+     "a": "Broad belly scales that grip the ground as the body curves.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a snake move fast despite no limbs?",
+     "a": "Many muscles press against ground points in rhythm, driving it ahead quickly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_006",
+   "title": "c10_bio_cbse_04_006",
+   "questions": [
+    {
+     "q": "A student writes: \"A blacksmith develops strong arm muscles due to hammering. His son will inherit strong arm muscles.\" Identify the error in this statement and name the type of trait the blacksmith's muscles represent.",
+     "a": "The error is assuming acquired traits are inherited. The blacksmith's muscular arms are an **acquired trait** — developed during his lifetime through use of somatic muscles, not encoded in germ cell DNA. A wrong answer (e.g., \"it is inherited\") reveals the student confuses somatic cell changes with germ line changes, not understanding the Weismann barrier that separates somatic and germ cells.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a person who loses a finger in an accident not pass on the \"missing finger\" trait to their children, but a person with naturally six fingers (polydactyly) can pass this trait to offspring?",
+     "a": "Losing a finger is an acquired trait — it alters somatic body cells only; the DNA in germ cells (sperm/ova) remains unchanged with the normal 5-finger genetic code. Polydactyly is an inherited trait — caused by a mutation in a gene present in germ cells, so the altered DNA can be transmitted to offspring. A wrong answer (e.g., \"both are physical changes\") shows the student does not distinguish between somatic mutation and germ line mutation.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer selects wheat plants with longer ears (due to better fertilizer) and saves their seeds for next season. After 5 years, the ear length returns to original. Explain why the selected trait did not persist, using the terms 'somatic cells', 'germ cells', and 'DNA'.",
+     "a": "The longer ears resulted from environmental influence (fertilizer) on **somatic cells** of the wheat plant — the phenotype changed but the **DNA in germ cells** (pollen/ovule) remained unaltered. Seeds develop from germ cells, so they carry the original genetic code for normal ear length. A wrong answer (e.g., \"fertilizer changes genes\") reveals the misconception that environmental factors directly modify hereditary material in reproductive cells.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following pairs and classify each as acquired or inherited. Justify each classification in one sentence: (a) A scar from a burn vs. freckles; (b) A parrot mimicking human speech vs. a parrot's hooked beak shape; (c) A plant bending toward light vs. a plant's flower color.",
+     "a": "(a) Scar — acquired (somatic tissue damage, no DNA change in germ cells); Freckles — inherited (melanin distribution gene in germ cell DNA). (b) Mimicry — acquired (learned behavior, neural pathways in somatic brain cells); Hooked beak — inherited (structural gene expressed during development from germ cell DNA). (c) Bending — acquired (phototropism, reversible somatic response); Flower color — inherited (pigment synthesis genes in germ cell DNA). Wrong classifications indicate inability to apply the germ cell criterion across diverse organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"If a population of mice has their tails surgically removed for 20 generations, the 21st generation will be born without tails.\" Is this claim scientifically valid? Explain using August Weismann's experiment and the concept of germ plasm.",
+     "a": "The claim is **invalid**. Weismann's tail-cutting experiment (22 generations) proved that surgical removal of tails (somatic change) does not alter the **germ plasm** (hereditary material in germ cells). Each generation is born with tails because the DNA in sperm/ova codes for tail development. A student accepting the claim reveals belief in Lamarckian inheritance of acquired characteristics, not understanding the continuity of germ plasm.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using garden plants (e.g., mustard/radish) to demonstrate that environmentally induced changes in leaf size are not inherited. List materials, procedure, observations, and conclusion.",
+     "a": "Materials: Mustard seeds, two pots, soil, water, fertilizer. Procedure: (1) Grow Plant A with optimal fertilizer (large leaves); Plant B without fertilizer (small leaves). (2) Collect seeds from both. (3) Grow next generation (A1 from A, B1 from B) under identical no-fertilizer conditions. Observation: A1 and B1 show similar leaf sizes. Conclusion: Leaf size difference in parents was acquired (environmental), not inherited (germ cell DNA unchanged). A poor design (e.g., not controlling environment for F1) shows inability to isolate genetic vs environmental effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_004",
+   "title": "c11_stat_cbse_03_004",
+   "questions": [
+    {
+     "q": "A researcher collects data on the monthly income (in ₹) of 200 households in a village. She constructs a frequency table with income classes (0–5000, 5000–10000, etc.) and their frequencies. What type of frequency distribution is this, and how many variables does it involve?",
+     "a": "This is a **univariate frequency distribution** involving **one variable** (monthly income). A wrong answer (e.g., \"bivariate\" or \"two variables\") reveals the student confuses the *number of classes* with the *number of variables* — they see multiple income classes and think multiple variables. The key is: one characteristic measured per observation = univariate.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why constructing two separate univariate frequency distributions (one for Sales, one for Advertisement Expenditure) from the same 20 firms would lose information that a bivariate frequency distribution preserves.",
+     "a": "Two separate univariate tables show the *marginal* distribution of each variable alone — how many firms fall in each sales class, and how many in each ad-expenditure class — but they **break the pairing**. We lose which specific firm's sales correspond to which ad expenditure. A bivariate table keeps the pairing intact: each cell frequency (e.g., 3 firms with Sales 135–145 lakh AND Ad Exp 64–66 thousand) represents a *joint* occurrence. A wrong answer focusing only on \"more detail\" or \"two variables shown together\" misses the core concept of *preserving paired observations*.",
+     "self_check": true
+    },
+    {
+     "q": "Given the raw paired data below for 10 firms (Sales in lakh ₹, Ad Expenditure in thousand ₹), construct a bivariate frequency distribution using classes: Sales (100–120, 120–140, 140–160) and Ad Exp (50–60, 60–70, 70–80).\n\nFirm 1: (110, 55) | Firm 2: (125, 62) | Firm 3: (135, 65) | Firm 4: (115, 58) | Firm 5: (145, 72)  \nFirm 6: (105, 52) | Firm 7: (130, 68) | Firm 8: (155, 75) | Firm 9: (120, 60) | Firm 10: (140, 70)",
+     "a": "**Steps:**  \n1. Draw a 3×3 grid: rows = Ad Exp classes (50–60, 60–70, 70–80), columns = Sales classes (100–120, 120–140, 140–160).  \n2. For each firm, locate the cell: Firm 1 (110,55) → Sales 100–120, Ad Exp 50–60 → cell (row1, col1) gets tally.  \n3. Repeat for all 10 firms:  \n   - (110,55) → (50–60, 100–120)  \n   - (125,62) → (60–70, 120–140)  \n   - (135,65) → (60–70, 120–140)  \n   - (115,58) → (50–60, 100–120)  \n   - (145,72) → (70–80, 140–160)  \n   - (105,52) → (50–60, 100–120)  \n   - (130,68) → (60–70, 120–140)  \n   - (155,75) → (70–80, 140–160)  \n   - (120,60) → (60–70, 120–140) *[boundary: 120 goes to 120–140, 60 goes to 60–70]*  \n   - (140,70) → (70–80, 140–160) *[boundary: 140→140–160, 70→70–80]*  \n4. Convert tallies to frequencies.  \n**Resulting table:**  \n| Ad Exp \\ Sales | 100–120 | 120–140 | 140–160 | Total |  \n|----------------|---------|---------|---------|-------|  \n| 50–60          | 3       | 0       | 0       | 3     |  \n| 60–70          | 0       | 4       | 0       | 4     |  \n| 70–80          | 0       | 0       | 3       | 3     |  \n| Total          | 3       | 4       | 3       | 10    |  \nA wrong answer placing (120,60) in (100–120, 50–60) reveals confusion about **exclusive class intervals** (upper limit excluded) — a carryover error from univariate construction.",
+     "self_check": true
+    },
+    {
+     "q": "In the bivariate frequency table you just constructed, the cell (Ad Exp 60–70, Sales 120–140) has frequency 4. The marginal total for Sales 120–140 is 4, and for Ad Exp 60–70 is 4. What does this perfect alignment of cell frequency with both marginals imply about the relationship between Sales and Ad Expenditure for these 10 firms?",
+     "a": "It implies **perfect positive association** in this sample: every firm with Sales in 120–140 *also* has Ad Exp in 60–70, and vice versa. There is zero \"mismatch\" — no firm in Sales 120–140 falls outside Ad Exp 60–70. The conditional distribution of Ad Exp given Sales 120–140 is degenerate (all mass in one class). A wrong answer like \"they are correlated\" without specifying *perfect* and *positive*, or \"the variables are dependent\" without noting the *deterministic* pattern in this small sample, shows the student cannot read the *structure* of a bivariate table — they only see numbers, not the joint distribution geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"Bivariate frequency distribution is just two univariate distributions written side by side. There's no new concept here.\" Evaluate this claim using the definition of bivariate frequency distribution and the concept of loss of information.",
+     "a": "The claim is **false**. A bivariate distribution is **not** a juxtaposition of two univariate distributions — it is a *cross-classification* where each cell frequency f_ij = count of observations with X in class i *AND* Y in class j. Two univariate tables give only marginal frequencies f_i. and f_.j. From marginals alone, you **cannot** recover the joint frequencies f_ij (unless variables are independent, which is an assumption, not a given). The \"loss of information\" in moving from bivariate to univariate marginals is precisely the loss of *dependence structure*. The student's error is equating *marginal summary* with *joint structure* — a fundamental category mistake that will prevent understanding correlation and regression later.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a **multivariate** frequency distribution (3+ variables) would be necessary, and explain why univariate or bivariate would be insufficient. Specify the variables, their measurement units, and a plausible cross-classification scheme.",
+     "a": "**Scenario:** A rural health survey in Maharashtra collects data on 500 households:  \n(1) **Monthly per capita expenditure (MPCE)** in ₹ (continuous) — classes: <1500, 1500–3000, >3000  \n(2) **Source of drinking water** (qualitative) — categories: Tap, Handpump, Well, Other  \n(3) **Incidence of water-borne disease** in past 6 months (count) — 0, 1, 2+ cases  \n\n**Why multivariate?** Univariate MPCE distribution hides whether poor households use unsafe water. Bivariate (MPCE × Water Source) hides disease outcome. Bivariate (Water Source × Disease) hides poverty dimension. Only a 3-way table (MPCE × Water Source × Disease) can answer: *\"Do low-MPCE households using handpumps have higher disease incidence than high-MPCE households using handpumps?\"* — a policy-relevant interaction. A poor answer listing 3 variables without justifying the *interaction* need (e.g., \"age, income, education\") shows the student treats multivariate as \"more variables\" rather than \"interdependent questions requiring joint conditioning.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 106,
+ "chapter_title": "Population",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iess106.txt",
+ "concepts": [
+  {
+   "id": "iess.106.1",
+   "title": "Population Density",
+   "section": "India's Population Distribution by Density",
+   "definition": "The average number of individuals residing per unit of geographical area, typically calculated per square kilometer.",
+   "formula": "density = population / area",
+   "key_idea": "Measures how crowded a region is by dividing its total population by its land area.",
+   "textbook_ref": "iess106.txt lines 80-110",
+   "question_patterns": [
+    "calculate the population density of a region with a population of {population} and an area of {area}",
+    "what is the population density if {population} people live in {area} square kilometers",
+    "find the average number of persons per square kilometer when population is {population} and area is {area}",
+    "determine the density of population given {population} residents and {area} sq km of land",
+    "compute the population density for an area of {area} square km containing {population} inhabitants"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide population by area",
+     "explain": "The population density is found by dividing the total population by the area.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "iess.106.2",
+   "title": "Absolute Population Increase",
+   "section": "Population Growth",
+   "definition": "The actual number of people added to a population over a specific period, calculated by subtracting the population at the start of the period from the population at the end.",
+   "formula": "absolute_increase = later_population - earlier_population",
+   "key_idea": "The net numerical growth in population size over a given timeframe.",
+   "textbook_ref": "iess106.txt lines 120-140",
+   "question_patterns": [
+    "find the absolute increase in population from {earlier_population} to {later_population}",
+    "calculate the magnitude of population growth if the initial population was {earlier_population} and the final population is {later_population}",
+    "how many people were added to the population if it grew from {earlier_population} million to {later_population} million",
+    "determine the absolute population growth between two censuses with populations of {earlier_population} and {later_population}",
+    "compute the net addition to the population when it increases from {earlier_population} to {later_population}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract earlier population from later population",
+     "explain": "The absolute increase is the difference between the final population and the initial population.",
+     "compute": "absolute_increase = later_population - earlier_population"
+    }
+   ]
+  },
+  {
+   "id": "iess.106.3",
+   "title": "Sex Ratio",
+   "section": "Sex Ratio",
+   "definition": "The demographic metric representing the number of females per one thousand males in a given population.",
+   "formula": "sex_ratio = (females / males) * 1000",
+   "key_idea": "An essential social indicator showing the gender balance in a society.",
+   "textbook_ref": "iess106.txt lines 230-250",
+   "question_patterns": [
+    "calculate the sex ratio of a region with {females} females and {males} males",
+    "what is the sex ratio if there are {females} females and {males} males in a community",
+    "find the number of females per 1000 males when the female population is {females} and male population is {males}",
+    "determine the sex ratio given {females} females and {males} males",
+    "compute the sex ratio for a town having {males} males and {females} females"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide females by males and multiply by 1000",
+     "explain": "The sex ratio is calculated as the number of females per 1000 males.",
+     "compute": "sex_ratio = (females / males) * 1000"
+    }
+   ]
+  },
+  {
+   "id": "iess.106.4",
+   "title": "Natural Increase of Population",
+   "section": "Processes of Population Change/Growth",
+   "definition": "The difference between the birth rate and the death rate in a population, representing growth excluding migration.",
+   "formula": "natural_increase = birth_rate - death_rate",
+   "key_idea": "The net change in population resulting solely from births and deaths.",
+   "textbook_ref": "iess106.txt lines 180-200",
+   "question_patterns": [
+    "calculate the natural increase rate if the birth rate is {birth_rate} and the death rate is {death_rate}",
+    "what is the natural growth rate of a population with a birth rate of {birth_rate} per thousand and a death rate of {death_rate} per thousand",
+    "find the difference between a birth rate of {birth_rate} and a death rate of {death_rate}",
+    "determine the rate of natural increase given birth rate {birth_rate} and death rate {death_rate}",
+    "compute the natural population increase rate when birth rate is {birth_rate} and death rate is {death_rate}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "The natural increase is the birth rate minus the death rate.",
+     "compute": "natural_increase = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "iess.106.5",
+   "title": "Dependency Ratio",
+   "section": "Age Composition",
+   "definition": "The ratio of the dependent population (children below 15 and elderly above 59 years) to the economically active working-age population (15 to 59 years).",
+   "formula": "dependency_ratio = (dependents / working_age) * 100",
+   "key_idea": "Measures the economic burden on the productive portion of the population.",
+   "textbook_ref": "iess106.txt lines 210-230",
+   "question_patterns": [
+    "calculate the dependency ratio if there are {dependents} percent dependents and {working_age} percent working-age people",
+    "find the dependency ratio given {dependents} dependents and {working_age} working adults",
+    "what is the dependency ratio of a population with {dependents} total dependents and {working_age} active workers",
+    "determine the dependency ratio when the dependent group is {dependents} and the productive group is {working_age}",
+    "compute the dependency ratio for a population structure of {dependents} percent dependents and {working_age} percent working age"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide dependents by working age and multiply by 100",
+     "explain": "The dependency ratio is the percentage of dependents relative to the working-age population.",
+     "compute": "dependency_ratio = (dependents / working_age) * 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.106.6",
+   "title": "Age Composition",
+   "section": "Age Composition",
+   "definition": "The classification of a population into distinct age groups, typically categorized as children, working age, and the elderly, which determines its socio-economic structure.",
+   "formula": "",
+   "key_idea": "The distribution of people across different age categories affects economic dependency and resource needs.",
+   "textbook_ref": "iess106.txt lines 205-225",
+   "question_patterns": [
+    "explain the three broad categories of age composition",
+    "what are the main age groups in a population",
+    "how does age composition affect the dependency ratio",
+    "describe the characteristics of the working age group in population structure",
+    "why are children and the aged considered dependent groups"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the three groups",
+     "explain": "The population is grouped into children (under 15), working age (15-59), and aged (above 59)."
+    },
+    {
+     "step": 2,
+     "action": "analyze economic roles",
+     "explain": "Children and aged are economically dependent, while working age is productive."
+    }
+   ]
+  },
+  {
+   "id": "iess.106.7",
+   "title": "Literacy Rate Criteria",
+   "section": "Literacy Rates",
+   "definition": "The standard by which a person is considered literate, defined in India as an individual aged 7 years or older who can read and write with comprehension in any language.",
+   "formula": "",
+   "key_idea": "Literacy requires being at least 7 years old and having the ability to read and write with understanding.",
+   "textbook_ref": "iess106.txt lines 250-265",
+   "question_patterns": [
+    "who is considered a literate person according to the Indian Census",
+    "what are the criteria for literacy in India",
+    "define the literacy rate as per the Census of India",
+    "at what age is a person eligible to be counted as literate",
+    "explain the definition of literacy used in the 2011 census"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check age limit",
+     "explain": "A person must be at least 7 years old to be considered for literacy."
+    },
+    {
+     "step": 2,
+     "action": "verify reading and writing skills",
+     "explain": "The person must be able to read and write with understanding in any language."
+    }
+   ]
+  },
+  {
+   "id": "iess.106.8",
+   "title": "Occupational Structure",
+   "section": "Occupational Structure",
+   "definition": "The distribution of the economically active population across primary, secondary, and tertiary sectors of the economy.",
+   "formula": "",
+   "key_idea": "The proportion of workforce in different sectors indicates the level of economic development.",
+   "textbook_ref": "iess106.txt lines 265-285",
+   "question_patterns": [
+    "what is occupational structure",
+    "distinguish between primary, secondary, and tertiary activities",
+    "how does occupational structure vary between developed and developing countries",
+    "what percentage of India's population is engaged in agriculture",
+    "explain the shift in occupational structure in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize occupations",
+     "explain": "Occupations are split into primary (agriculture, mining), secondary (manufacturing, construction), and tertiary (services, transport)."
+    },
+    {
+     "step": 2,
+     "action": "compare development levels",
+     "explain": "Developed nations have more people in secondary and tertiary sectors, while developing nations have more in primary."
+    }
+   ]
+  },
+  {
+   "id": "iess.106.9",
+   "title": "National Population Policy (NPP 2000)",
+   "section": "National Population Policy",
+   "definition": "A comprehensive policy framework initiated by India to address health, education, and family welfare, with special emphasis on adolescents, immunization, and compulsory schooling.",
+   "formula": "",
+   "key_idea": "A policy aiming to improve quality of life by promoting planned parenthood, education, and health.",
+   "textbook_ref": "iess106.txt lines 300-330",
+   "question_patterns": [
+    "what are the major features of the National Population Policy 2000",
+    "how does NPP 2000 address the needs of adolescents",
+    "what are the objectives of the Family Welfare Programme in India",
+    "explain the policy framework of NPP 2000 regarding education and health",
+    "how does the government plan to reduce infant mortality under NPP 2000"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "outline key objectives",
+     "explain": "NPP 2000 aims for free education up to age 14, reducing infant mortality, and universal immunization."
+    },
+    {
+     "step": 2,
+     "action": "identify adolescent focus",
+     "explain": "The policy targets adolescent nutrition, delayed marriage, and reproductive health awareness."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess106.txt lines 80-110",
+   "concept": "iess.106.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the population density of a region with a population of {population} and an area of {area}",
+   "extracted_variables": {
+    "population": 1200000,
+    "area": 3000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide population by area",
+     "explain": "The population density is found by dividing the total population by the area.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess106.txt lines 80-110",
+   "concept": "iess.106.1",
+   "question_type": "compute",
+   "question_pattern": "what is the population density if {population} people live in {area} square kilometers",
+   "extracted_variables": {
+    "population": 382000,
+    "area": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide population by area",
+     "explain": "The population density is found by dividing the total population by the area.",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess106.txt lines 120-140",
+   "concept": "iess.106.2",
+   "question_type": "compute",
+   "question_pattern": "find the absolute increase in population from {earlier_population} to {later_population}",
+   "extracted_variables": {
+    "earlier_population": 1028.7,
+    "later_population": 1210.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract earlier population from later population",
+     "explain": "The absolute increase is the difference between the final population and the initial population.",
+     "compute": "absolute_increase = later_population - earlier_population"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess106.txt lines 120-140",
+   "concept": "iess.106.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the magnitude of population growth if the initial population was {earlier_population} and the final population is {later_population}",
+   "extracted_variables": {
+    "earlier_population": 846.4,
+    "later_population": 1028.7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract earlier population from later population",
+     "explain": "The absolute increase is the difference between the final population and the initial population.",
+     "compute": "absolute_increase = later_population - earlier_population"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iess106.txt lines 230-250",
+   "concept": "iess.106.3",
+   "question_type": "compute",
+   "question_pattern": "calculate the sex ratio of a region with {females} females and {males} males",
+   "extracted_variables": {
+    "females": 94300,
+    "males": 100000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide females by males and multiply by 1000",
+     "explain": "The sex ratio is calculated as the number of females per 1000 males.",
+     "compute": "sex_ratio = (females / males) * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iess106.txt lines 230-250",
+   "concept": "iess.106.3",
+   "question_type": "compute",
+   "question_pattern": "what is the sex ratio if there are {females} females and {males} males in a community",
+   "extracted_variables": {
+    "females": 1084,
+    "males": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide females by males and multiply by 1000",
+     "explain": "The sex ratio is calculated as the number of females per 1000 males.",
+     "compute": "sex_ratio = (females / males) * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "iess106.txt lines 180-200",
+   "concept": "iess.106.4",
+   "question_type": "compute",
+   "question_pattern": "calculate the natural increase rate if the birth rate is {birth_rate} and the death rate is {death_rate}",
+   "extracted_variables": {
+    "birth_rate": 20.2,
+    "death_rate": 7.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "The natural increase is the birth rate minus the death rate.",
+     "compute": "natural_increase = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iess106.txt lines 180-200",
+   "concept": "iess.106.4",
+   "question_type": "compute",
+   "question_pattern": "determine the rate of natural increase given birth rate {birth_rate} and death rate {death_rate}",
+   "extracted_variables": {
+    "birth_rate": 25.0,
+    "death_rate": 8.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract death rate from birth rate",
+     "explain": "The natural increase is the birth rate minus the death rate.",
+     "compute": "natural_increase = birth_rate - death_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "iess106.txt lines 210-230",
+   "concept": "iess.106.5",
+   "question_type": "compute",
+   "question_pattern": "calculate the dependency ratio if there are {dependents} percent dependents and {working_age} percent working-age people",
+   "extracted_variables": {
+    "dependents": 41.3,
+    "working_age": 58.7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide dependents by working age and multiply by 100",
+     "explain": "The dependency ratio is the percentage of dependents relative to the working-age population.",
+     "compute": "dependency_ratio = (dependents / working_age) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "iess106.txt lines 210-230",
+   "concept": "iess.106.5",
+   "question_type": "compute",
+   "question_pattern": "find the dependency ratio given {dependents} dependents and {working_age} working adults",
+   "extracted_variables": {
+    "dependents": 40.0,
+    "working_age": 60.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide dependents by working age and multiply by 100",
+     "explain": "The dependency ratio is the percentage of dependents relative to the working-age population.",
+     "compute": "dependency_ratio = (dependents / working_age) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iess106.txt lines 340-360",
+   "questions": [
+    "Migrations change the number, distribution and composition of the population in (a) the area of departure (b) the area of arrival (c) both the area of departure and arrival (d) none of the above",
+    "A large proportion of children in a population is a result of (a) high birth rates (b) high life expectancies (c) high death rates (d) more married couples",
+    "The magnitude of population growth refers to (a) the total population of an area (b) the number of persons added each year (c) the rate at which the population increases (d) the number of females per thousand males",
+    "According to the Census, a literate person is one who (a) can read and write his/her name (b) can read and write any language (c) is 7 years old and can read and write any language with understanding (d) knows the 3 Rs (reading, writing, arithmetic)"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "iess106.txt lines 360-380",
+   "questions": [
+    "Why is the rate of population growth in India declining since 1981?",
+    "Discuss the major components of population growth.",
+    "Define age structure, death rate and birth rate.",
+    "How is migration a determinant factor of population change?",
+    "Distinguish between population growth and population change.",
+    "What is the relation between occupational structure and development?",
+    "What are the advantages of having a healthy population?",
+    "What are the significant features of the National Population Policy 2000?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

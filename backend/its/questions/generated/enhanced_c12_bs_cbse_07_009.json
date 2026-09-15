@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_009",
+   "title": "c12_bs_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define 'Hygiene Factors' and 'Motivators' in Herzberg's Two-Factor Theory and give one example of each.",
+     "a": "Hygiene Factors are extrinsic conditions (e.g., salary, company policy, working conditions) whose absence causes dissatisfaction but whose presence only prevents dissatisfaction — they do not motivate. Motivators are intrinsic job elements (e.g., achievement, recognition, responsibility) whose presence creates satisfaction and motivation. A wrong answer that lists salary as a motivator reveals the student confuses \"preventing dissatisfaction\" with \"creating positive motivation\" — the core conceptual error in Herzberg.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager installs air-conditioning, increases lighting, and raises wages by 5%. Workers stop complaining about heat and pay, but productivity does not rise. Using Herzberg, explain why.",
+     "a": "Air-conditioning, lighting, and wages are all hygiene factors. Improving them moves workers from \"dissatisfaction\" to \"no dissatisfaction\" — a neutral state. Productivity requires motivators (e.g., challenging targets, recognition for ideas, autonomy in methods) to create positive satisfaction. A wrong answer claiming \"workers are lazy\" or \"money always motivates\" shows the student hasn't grasped the dual-continuum: hygiene and motivation operate on separate axes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-part intervention for a sales team with high turnover: first, eliminate dissatisfaction; second, build motivation. Specify one hygiene action and one motivator action with justification.",
+     "a": "Hygiene action: Fix erratic commission payout delays (company policy/administration) — removes a source of active dissatisfaction. Motivator action: Let each rep own a product line end-to-end with quarterly \"Revenue Champion\" recognition — provides achievement, responsibility, and recognition. A wrong answer that offers only higher commissions (hygiene) or only \"pep talks\" (vague) fails to address both continua.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Herzberg's hygiene factors with Maslow's lower-level needs (physiological, safety, belonging). Are they identical? Explain the critical difference in how each theory treats \"salary\".",
+     "a": "They overlap but are not identical. Maslow sees salary as satisfying physiological/safety needs — a deficit need that motivates until satisfied. Herzberg classifies salary as hygiene: it prevents dissatisfaction but *never* motivates, even when high. The critical difference: Maslow implies raising pay *can* motivate (until the need is met); Herzberg says pay *cannot* motivate at any level. A wrong answer saying \"they are the same\" misses Herzberg's revolutionary claim that money is not a motivator.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Herzberg's theory proves that managers should ignore pay and focus only on job enrichment.\" Is it a valid application? Why or why not?",
+     "a": "Invalid. Herzberg explicitly states hygiene factors (including pay) *must* be adequate to avoid dissatisfaction; ignoring them creates active demotivation. Job enrichment (motivators) only works *after* hygiene is acceptable. The theory advocates a two-stage approach: first ensure fair pay, safe conditions, good supervision; then enrich jobs. A wrong answer agreeing with the statement shows the student missed the \"necessary but insufficient\" role of hygiene factors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3×2 table for a software startup: list three hygiene factors and three motivators specific to this context. For each, write one measurable indicator the founder can track monthly.",
+     "a": "Example table:\n| Factor Type | Factor | Monthly Indicator |\n|-------------|--------|-------------------|\n| Hygiene | Timely salary credit | % salaries paid by 1st of month |\n| Hygiene | Server uptime / dev tools | % uptime of CI/CD pipeline |\n| Hygiene | Clear leave policy | # policy-related grievances |\n| Motivator | Ownership of feature | # features shipped end-to-end by each engineer |\n| Motivator | Peer recognition | # kudos in monthly demo day |\n| Motivator | Learning budget usage | % of ₹50k annual budget utilized per person |\nA poor answer lists generic factors without startup-specific indicators, showing inability to contextualize theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

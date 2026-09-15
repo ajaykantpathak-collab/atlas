@@ -1,0 +1,401 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 4,
+ "chapter_title": "Introduction to Problem Solving",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs104.1",
+   "title": "Steps for Problem Solving",
+   "section": "4.2",
+   "definition": "Solving a task on a computer runs through four stages: analyse the statement to pin down inputs and outputs, draft an algorithm, translate it into a program (coding), then test and debug until every kind of input yields the right output.",
+   "formula": "analyse -> algorithm -> coding -> testing",
+   "key_idea": "Garbage in, garbage out: a wrong input analysis poisons every later stage of the solution.",
+   "textbook_ref": "kecs104.txt, sections 4.2.1 to 4.2.4 and Figure 4.1",
+   "question_patterns": [
+    "Name the four key stages of problem solving and say what happens in each.",
+    "Why must a problem be analysed before any code is written?",
+    "What is the difference between a syntax error and a logical error during testing?",
+    "List the kinds of testing that the software industry applies to a large application.",
+    "A program runs but prints wrong totals. Which stage was flawed and how will you locate it?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the four stages in order",
+     "explain": "Each stage depends on the previous one: analysis fixes inputs and outputs, the algorithm fixes the method, coding fixes the language form, and testing plus debugging fixes the correctness."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the first stage of solving a task on a computer?",
+     "a": "analysis"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.2",
+   "title": "Area and Perimeter of a Rectangle",
+   "section": "4.4.2",
+   "definition": "A first algorithm records its input, states the processing and names the output; for a rectangle the processing multiplies length by breadth for area, and doubles the sum of the sides for perimeter.",
+   "formula": "perim = 2 * (length + breadth)",
+   "key_idea": "Every algorithm should begin by fixing three things: the input accepted, the processing done, and the output printed.",
+   "textbook_ref": "kecs104.txt, section 4.4.2 and Example 4.4",
+   "question_patterns": [
+    "Write pseudocode to compute the area and perimeter of a rectangle from its length and breadth.",
+    "A field measures 25 m by 12 m. Compute its area and the length of fencing needed around it.",
+    "In the rectangle algorithm, which line represents the processing step?",
+    "Draw a flowchart symbol sequence for input, process and output of a rectangle's area.",
+    "A rectangle's area is 180 square units and its length is 15 units. Find its breadth and then its perimeter."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the area",
+     "explain": "Area multiplies the two side lengths.",
+     "compute": "area = length * breadth"
+    },
+    {
+     "step": 2,
+     "action": "compute the perimeter",
+     "explain": "A rectangle has two lengths and two breadths.",
+     "compute": "perim = 2 * (length + breadth)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter in cm?",
+     "a": "26 cm"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.3",
+   "title": "Average of Five Numbers with a Counter Loop",
+   "section": "4.5.3",
+   "definition": "A counting loop reads one number per pass, adds it to a running total, and bumps a counter; when the counter reaches the loop limit, the total divided by the count of values gives the average.",
+   "formula": "average = total / count",
+   "key_idea": "The counter both decides when the loop ends and records how many values entered the total.",
+   "textbook_ref": "kecs104.txt, section 4.5.3 and Example 4.8",
+   "question_patterns": [
+    "Five readings 6, 7, 4, 8 and 2 enter the loop of Example 4.8. What average is printed?",
+    "Why is a counter incremented inside every pass of the loop?",
+    "Write pseudocode that accepts 5 numbers and prints their average.",
+    "In the averaging loop, what happens if the counter is never incremented?",
+    "A loop collects 8 numbers whose total is 96. What value is printed at the end?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "accumulate the readings",
+     "explain": "Each pass folds one more number into the running total.",
+     "compute": "total = n1 + n2 + n3 + n4 + n5"
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
+     "explain": "The counter equals 5 after the loop, so divide the total by it.",
+     "compute": "average = total / 5"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Five test scores total 360. What is their average?",
+     "a": "72"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.4",
+   "title": "Selection with Conditionals: Even or Odd",
+   "section": "4.5.2",
+   "definition": "Selection lets an algorithm pick between two paths by testing a condition that evaluates to true or false; testing the remainder on division by 2 routes a number to the even or the odd branch.",
+   "formula": "even_check = (number % 2 + 1) % 2",
+   "key_idea": "A zero remainder after dividing by 2 signals an even number; anything else signals odd.",
+   "textbook_ref": "kecs104.txt, section 4.5.2 and Example 4.5",
+   "question_patterns": [
+    "Write pseudocode that prints whether an entered number is even or odd.",
+    "The number 17 enters the parity test. Which branch executes and why?",
+    "What value does number MOD 2 return for 24?",
+    "Which flowchart symbol represents the even-or-odd decision point?",
+    "Rewrite the even-or-odd test using an if-else block and state the output for 0."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the remainder on division by 2",
+     "explain": "MOD returns 0 for even numbers and 1 for odd ones.",
+     "compute": "parity = number % 2"
+    },
+    {
+     "step": 2,
+     "action": "flip it into an even flag",
+     "explain": "Adding 1 and taking MOD 2 again turns 0 into 1 for even and 1 into 0 for odd.",
+     "compute": "even_check = (parity + 1) % 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What remainder does 14 leave on division by 2 -- the test that separates even from odd?",
+     "a": "0"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.5",
+   "title": "Dry Run of a Time-Adding Algorithm",
+   "section": "4.6",
+   "definition": "Verifying an algorithm means walking through its steps with sample inputs, called a dry run; adding two durations exposes a missing carry when the minutes cross 60, which the corrected algorithm folds into the hours.",
+   "formula": "total_hours = hh1 + hh2 + mm_total // 60",
+   "key_idea": "A dry run with a case that crosses the boundary, such as 70 minutes, is what reveals a missing carry step.",
+   "textbook_ref": "kecs104.txt, section 4.6",
+   "question_patterns": [
+    "Add 4 hours 50 minutes and 2 hours 20 minutes using the corrected algorithm and state the result.",
+    "Why did the first time-adding algorithm fail for 4 h 50 min plus 2 h 20 min?",
+    "What is a dry run and why is it performed on an algorithm?",
+    "An algorithm must add 3 h 45 m and 1 h 30 m. Compute the correct total.",
+    "How should an algorithm adjust the minutes when their sum reaches 60 or more?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the minutes",
+     "explain": "Minute parts add first and may cross 59.",
+     "compute": "mm_total = mm1 + mm2"
+    },
+    {
+     "step": 2,
+     "action": "extract the carry",
+     "explain": "Every full 60 minutes is one extra hour.",
+     "compute": "extra_hours = mm_total // 60"
+    },
+    {
+     "step": 3,
+     "action": "keep the leftover minutes",
+     "explain": "The remainder after removing full hours stays in the minutes column.",
+     "compute": "final_mins = mm_total % 60"
+    },
+    {
+     "step": 4,
+     "action": "total the hours",
+     "explain": "Add both hour parts and the carry.",
+     "compute": "total_hours = hh1 + hh2 + extra_hours"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A dry run adds 2 h 45 min and 1 h 30 min. How many minutes pile up before the carry into hours?",
+     "a": "255 minutes"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.6",
+   "title": "Sum of First N Natural Numbers",
+   "section": "4.6",
+   "definition": "The total of the numbers from 1 to N has a closed form: multiply N by N plus one and halve the product; small cases such as N equals 6 give 21, which is how the formula is verified by hand.",
+   "formula": "total = n * (n + 1) / 2",
+   "key_idea": "Checking a formula against small manually computed cases is the simplest way to verify it.",
+   "textbook_ref": "kecs104.txt, section 4.6",
+   "question_patterns": [
+    "Using the formula N times N plus one over 2, find the sum of the first 10 natural numbers.",
+    "Verify the sum formula for N = 6 by listing the numbers and adding them.",
+    "What is the sum of the first 100 natural numbers?",
+    "The first N natural numbers total 55. Find N.",
+    "Why is verifying a formula with small values useful before coding it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply N by its successor",
+     "explain": "The closed form pairs N with N plus 1.",
+     "compute": "product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "Every pair was counted twice, so divide by 2.",
+     "compute": "total = product / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Using the closed formula, what is the sum of the first 100 natural numbers?",
+     "a": "5050"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.7",
+   "title": "Prime Testing and Algorithm Complexity",
+   "section": "4.7",
+   "definition": "A prime check can test divisors up to the number, up to half of it, or only up to its square root; each refinement cuts the divisibility trials, which is exactly the trade-off captured by time complexity and, when a prime list is stored, space complexity.",
+   "formula": "checks_saved = number // 2 - sqrt(number) // 1",
+   "key_idea": "Two algorithms that agree on the answer can still differ hugely in processing time and memory use.",
+   "textbook_ref": "kecs104.txt, section 4.7",
+   "question_patterns": [
+    "Why is it enough to test divisibility only up to the square root of a number?",
+    "For the number 97, how many candidate divisors are skipped by moving from half-of-N to square-root-of-N testing?",
+    "Define time complexity and space complexity of an algorithm.",
+    "Rank the four prime-testing methods of section 4.7 from slowest to fastest.",
+    "What extra resource does the fourth prime-testing method spend to save calculations?",
+    "A number 1009 is tested for primality. Compute its square-root testing limit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the half-range trials",
+     "explain": "Method two tests every divisor up to half the number.",
+     "compute": "half_limit = number // 2"
+    },
+    {
+     "step": 2,
+     "action": "count the square-root trials",
+     "explain": "Method three stops at the square root, floored to a whole divisor.",
+     "compute": "root_limit = sqrt(number) // 1"
+    },
+    {
+     "step": 3,
+     "action": "measure the saving",
+     "explain": "The skipped trials equal the difference of the two limits.",
+     "compute": "checks_saved = half_limit - root_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A prime check tests divisors from 2 up to a number's square root. For 101, how many divisor checks happen at most?",
+     "a": "9"
+    }
+   ]
+  },
+  {
+   "id": "kecs104.8",
+   "title": "Decomposition of Complex Problems",
+   "section": "4.9",
+   "definition": "Decomposition splits a complex job, like a railway reservation system, into smaller sub-problems that can be solved and tested separately, often by different teams, and then joined into one working whole.",
+   "formula": "solution = combine(sub1, sub2, sub3)",
+   "key_idea": "Divide and conquer: each sub-problem is easier than the original and can be assigned to specialist teams.",
+   "textbook_ref": "kecs104.txt, section 4.9 and Figure 4.12",
+   "question_patterns": [
+    "What is decomposition, and why does it suit a railway reservation system?",
+    "Name three sub-problems into which a reservation system could be split.",
+    "Why can different teams work on different sub-problems at the same time?",
+    "After the sub-problems are solved, what must happen before the whole system works?",
+    "Give two everyday situations where decomposition is a natural strategy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split, solve, integrate",
+     "explain": "Break the task into independent sub-problems, solve and test each one, then combine them so the parts interact correctly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Splitting a railway reservation system into booking, payment and printing parts is called what?",
+     "a": "decomposition"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs104.we1",
+   "title": "Dry run of adding two durations",
+   "concept_id": "kecs104.5",
+   "problem": "A journey leg takes 4 h 50 min and the next leg 2 h 20 min. Apply the corrected time-adding algorithm to get the total duration.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "add the minutes",
+     "explain": "50 plus 20 crosses 59.",
+     "compute": "mm_total = 50 + 20"
+    },
+    {
+     "step": 2,
+     "action": "carry into hours",
+     "explain": "70 minutes hold one full hour.",
+     "compute": "extra_hours = mm_total // 60"
+    },
+    {
+     "step": 3,
+     "action": "keep leftover minutes",
+     "explain": "Ten minutes remain after the carry.",
+     "compute": "final_mins = mm_total % 60"
+    },
+    {
+     "step": 4,
+     "action": "add the hours with carry",
+     "explain": "4 plus 2 plus the carried hour.",
+     "compute": "total_hours = 4 + 2 + extra_hours"
+    }
+   ],
+   "answer_note": "The total journey time is 7 hours 10 minutes."
+  },
+  {
+   "id": "kecs104.we2",
+   "title": "Water bill with slab rates",
+   "concept_id": "kecs104.2",
+   "problem": "A household consumes 350 units in a month. The first 100 units cost 5 per unit, the next 150 cost 10 per unit, units beyond 250 cost 20 per unit, and a fixed meter charge of 75 is added. Compute the bill.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "charge the first slab",
+     "explain": "First 100 units at 5 each.",
+     "compute": "slab1 = 100 * 5"
+    },
+    {
+     "step": 2,
+     "action": "charge the second slab",
+     "explain": "Next 150 units at 10 each.",
+     "compute": "slab2 = 150 * 10"
+    },
+    {
+     "step": 3,
+     "action": "count the top-slab units",
+     "explain": "350 consumed minus 250 already charged.",
+     "compute": "rest_units = 350 - 250"
+    },
+    {
+     "step": 4,
+     "action": "charge the top slab",
+     "explain": "Remaining units at 20 each.",
+     "compute": "slab3 = rest_units * 20"
+    },
+    {
+     "step": 5,
+     "action": "add everything",
+     "explain": "Three slabs plus the meter charge.",
+     "compute": "total_bill = slab1 + slab2 + slab3 + 75"
+    }
+   ],
+   "answer_note": "The month's water bill comes to 500 plus 1500 plus 2000 plus 75, that is 4075."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs104.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 4 Exercise (items reworded)",
+   "questions": [
+    "Write pseudocode that reads two numbers, divides one by the other and prints the quotient.",
+    "Write pseudocode to print every multiple of 5 between 10 and 25, both included.",
+    "Write pseudocode that reads marks in three subjects out of 100, then prints the aggregate and the percentage.",
+    "An algorithm must print GREEN, BLUE or ORANGE according as the input lies in 5-15, 15-25 or 25-35, and a fourth message otherwise. Draft it.",
+    "Draw a flowchart to check whether a three-digit number is an Armstrong number, that is, the sum of the cubes of its digits equals the number.",
+    "Verify the classify-numbers algorithm of section 4.7 on the values 5, 9, 47, 99, 100 and 200, and correct it if needed.",
+    "On which inputs does an accept-only-1-to-100 algorithm fail if it checks 0 <= Number AND Number <= 100? Improve it.",
+    "What are conditionals, and when does a program need them?"
+   ]
+  }
+ ]
+}

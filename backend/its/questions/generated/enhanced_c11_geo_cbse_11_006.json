@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_006",
+   "title": "c11_geo_cbse_11_006",
+   "questions": [
+    {
+     "q": "Define 'landslide' and distinguish it from 'soil creep' in terms of velocity, moisture content, and visibility of movement.",
+     "a": "A landslide is a rapid, perceptible downslope movement of relatively dry rock/debris/earth along a distinct failure plane (velocity: cm/sec to m/sec). Soil creep is an imperceptibly slow (mm/yr to cm/yr), continuous downslope movement of surface soil under gravity, often aided by freeze-thaw or wet-dry cycles, without a distinct failure surface. A wrong answer (e.g., calling creep a 'slow landslide') reveals the student fails to grasp the kinematic distinction: landslides are discrete failure events with a rupture surface; creep is distributed, continuous deformation.",
+     "self_check": true
+    },
+    {
+     "q": "The Himalayas are tectonically active and made of sedimentary rocks. Explain why these two factors *together* make the region exceptionally prone to landslides, rather than just one factor alone.",
+     "a": "Tectonic activity (ongoing convergence) creates steep slopes (high driving stress) and fractures rocks (reduces cohesion). Sedimentary rocks (shale, sandstone, limestone) are inherently weaker than crystalline rocks and have bedding planes that act as pre-existing failure planes when dipped towards the slope. Together, tectonics provides the *steep, shattered geometry* and sedimentary lithology provides the *weak material with structural anisotropy*. A student citing only one factor misses the synergistic amplification: steep slopes in strong granite (e.g., parts of the Greater Himalaya crystalline core) fail less frequently than moderate slopes in sheared shale near the Main Central Thrust.",
+     "self_check": true
+    },
+    {
+     "q": "A slope in the Shiwalik Himalayas has an angle of 35°. The material is weathered sandstone with cohesion c = 15 kPa and angle of internal friction φ = 28°. Unit weight γ = 20 kN/m³. Depth of potential failure plane z = 3 m. Pore water pressure ratio ru = 0.3 (monsoon saturation). Calculate the Factor of Safety (FoS) using the infinite slope model: FoS = (c/γz sinβ cosβ) + (tanφ/tanβ)(1 - ru). Is the slope stable? (Use sin35°=0.574, cos35°=0.819, tan35°=0.700, tan28°=0.532).",
+     "a": "Step 1: Compute denominator γz sinβ cosβ = 20 × 3 × 0.574 × 0.819 = 28.18 kPa.\nStep 2: First term = c / denom = 15 / 28.18 = 0.532.\nStep 3: Second term = (tanφ/tanβ)(1 - ru) = (0.532/0.700) × (1 - 0.3) = 0.76 × 0.7 = 0.532.\nStep 4: FoS = 0.532 + 0.532 = 1.064.\nStep 5: FoS > 1.0 but marginally. Slope is *conditionally stable*; a slight increase in ru (e.g., 0.35) or seismic coefficient would trigger failure. A wrong answer (e.g., forgetting ru or misapplying formula) shows inability to quantify the qualitative concepts of 'saturation reduces stability'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the landslide vulnerability of the Main Central Thrust (MCT) zone in Uttarakhand with the Shiwalik foothills in Himachal Pradesh. Analyze how lithology, structure, rainfall, and human activity differ and converge to create high hazard in both.",
+     "a": "MCT zone: High-grade metamorphics (gneiss/schist) but intensely sheared, mylonitized, with steep foliation dipping north — acts as planar failure surfaces. High rainfall (>2000 mm), high seismicity, heavy construction (dams, roads) causing toe cutting. Shiwaliks: Unconsolidated/semi-consolidated sandstone-mudstone alternations (Siwalik Group), bedding dips steeply south, highly susceptible to saturation. Lower rainfall (~1500 mm) but intense cloudbursts; rampant deforestation, quarrying, and toe erosion by rivers. Both converge on: steep dip slopes + weak structural planes + monsoon saturation + anthropogenic toe removal. A student listing factors separately without analyzing their *interaction* (e.g., how toe cutting reduces resisting force) fails to demonstrate systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Afforestation is the most effective long-term mitigation strategy for Himalayan landslides.\" Consider the role of root cohesion, evapotranspiration, and the limitations posed by deep-seated failures and seismic triggering.",
+     "a": "Afforestation increases near-surface root cohesion (c_r) and reduces pore pressure via evapotranspiration, effectively stabilizing *shallow* slides (depth < 2-3 m) and debris flows. However, it is *ineffective for deep-seated rotational slides* (slumps) where failure plane exceeds root zone depth (common in MCT zone), and cannot prevent *seismically triggered* rock falls/avalanches where inertial forces overwhelm root strength. It also takes decades to mature. Thus, the statement is partially true but overgeneralized; a nuanced evaluation recognizes it as necessary but insufficient alone — requires integration with drainage, slope geometry modification, and land-use zoning. A student agreeing fully reveals a shallow understanding of landslide typology and depth scales.",
+     "self_check": true
+    },
+    {
+     "q": "Design a landslide susceptibility zonation map legend for a 1:50,000 scale topographic sheet covering parts of Garhwal Himalaya. Specify at least 5 classes with defining criteria (slope, lithology, structure, land use, drainage proximity) and assign relative weights for a heuristic GIS-based weighting model.",
+     "a": "A good answer proposes classes: Very High, High, Moderate, Low, Very Low. Criteria & Weights (example): Slope (>40°: 30%, 30-40°: 20%, <15°: 5%), Lithology (Sheared phyllite/shale: 25%, Sandstone: 15%, Quartzite: 5%), Structural control (Dip slope parallel to slope: 20%, Dip slope oblique: 10%, Anti-dip: 5%), Land Use (Barren/Construction: 15%, Agriculture: 10%, Dense Forest: 5%), Drainage proximity (<100m: 10%, >500m: 2%). Weights sum to 100%. The map legend must show class breaks based on weighted sum score. A poor answer uses vague classes without quantifiable thresholds or ignores structural dip direction — revealing inability to operationalize concepts for spatial analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

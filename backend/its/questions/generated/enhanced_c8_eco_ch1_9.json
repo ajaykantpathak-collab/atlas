@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_9",
+   "title": "c8_eco_ch1_9",
+   "questions": [
+    {
+     "q": "What is the primary function of a business enterprise when it combines inputs?",
+     "a": "The primary function of a business enterprise is to organize, coordinate, and manage the other three factors of production (land, labour, and capital) to produce goods or services while bearing the financial risk of the venture.\n\n*What a wrong answer reveals:* If a student answers that the primary function is \"only to make money without needing other resources,\" they fail to understand that wealth creation in economics requires the physical transformation and coordination of real inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a pile of wood, a carpenter, and a rented workshop not considered a \"business\" until an enterprise organizes them? Explain using the concept of coordination.",
+     "a": "Without an enterprise, these factors of production remain disconnected, idle, and uncooperative. The enterprise provides the active planning, decision-making, and risk-taking required to bring the carpenter (labour) into the workshop (land) with the wood and tools (capital) to systematically manufacture furniture for sale in a market.\n\n*What a wrong answer reveals:* If a student thinks these elements automatically produce goods just by existing in the same area, they miss the essential role of the entrepreneur/enterprise as the active, organizing force that prevents resource idle-time and coordinates tasks.",
+     "self_check": true
+    },
+    {
+     "q": "A small tailoring business produces 50 school uniforms. The business pays ₹5,000 for shop rent (Land), ₹12,000 in wages to tailors (Labour), and ₹3,000 for cloth and sewing machine maintenance (Capital/Inputs). Calculate the Total Cost of production and the average cost per uniform.",
+     "a": "**Step 1:** Identify the given costs for each factor of production:\n*   Land Cost (Rent) = ₹5,000\n*   Labour Cost (Wages) = ₹12,000\n*   Capital/Material Cost = ₹3,000\n\n**Step 2:** Calculate Total Cost ($TC$) by summing the factor costs:\n$$TC = \\text{Rent} + \\text{Wages} + \\text{Capital Costs}$$\n$$TC = 5,000 + 12,000 + 3,000 = ₹20,000$$\n\n**Step 3:** Identify the total quantity ($Q$) produced:\n$$Q = 50 \\text{ uniforms}$$\n\n**Step 4:** Calculate average cost per uniform:\n$$\\text{Average Cost} = \\frac{TC}{Q} = \\frac{20,000}{50} = ₹400 \\text{ per uniform}$$\n\n*What a wrong answer reveals:* If a student calculates the cost as only the cloth cost (₹3,000) or ignores the rent, it reveals a common misunderstanding that only raw materials count as production costs, ignoring the critical payments made to land and labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Factory A, which uses expensive automated machines to pack spices with only 2 supervisors, and Factory B, which uses 30 manual workers packing spices by hand. How does the enterprise's strategy for combining inputs differ between these two factories?",
+     "a": "Factory A uses a **capital-intensive** strategy, substituting expensive machinery (capital) for human workers. Factory B uses a **labour-intensive** strategy, substituting abundant human effort (labour) for machinery. The enterprise chooses between these combinations based on the relative costs of machinery versus wages in their local economy to minimize total production cost.\n\n*What a wrong answer reveals:* If a student states that Factory A is \"better\" simply because it is modern, they fail to analyze the economic trade-offs of input substitution. They do not realize that in areas with high unemployment and low wages, a labour-intensive setup (Factory B) can be more cost-effective and socially beneficial.",
+     "self_check": true
+    },
+    {
+     "q": "If the government suddenly increases the minimum wage for workers by 50%, evaluate how this policy change will affect an enterprise's decision on how to combine its inputs.",
+     "a": "An increase in the minimum wage makes labour relatively more expensive than capital. To keep production costs low, the enterprise will likely evaluate options to substitute labour with capital, such as investing in automated tools or machinery. If they cannot substitute, their total cost of production will rise, which may force them to increase the price of their goods or reduce total output.\n\n*What a wrong answer reveals:* If a student says \"it will have no effect because businesses have to pay whatever is asked,\" they fail to understand that enterprises dynamically adjust their input ratios in response to changes in relative input prices.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a plan for a school-level enterprise that wants to make and sell handmade recycled notebooks. List how you would acquire and coordinate one specific input for each of the four factors of production.",
+     "a": "A successful plan must categorize and coordinate the inputs as follows:\n1.  **Land:** Securing a small, unused corner of the school craft room (space) to set up operations.\n2.  **Labour:** Organising student volunteers and assigning specific shifts to assemble the pages.\n3.  **Capital:** Procuring scissors, binding glue, and collected scrap paper (tools and raw materials).\n4.  **Enterprise:** Appointing a student coordinator to manage the assembly steps, track expenses, and ensure the notebooks are completed on time for the school fair.\n\n*What a poor answer reveals:* If a student lists items randomly (e.g., \"paper, pens, and a table\") without classifying them into the four economic factors or fails to explain the coordination mechanism, it shows they do not understand how a business systematically structures production.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

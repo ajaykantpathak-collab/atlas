@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_07_014",
+   "title": "c12_hin_ar_cbse_07_014",
+   "questions": [
+    {
+     "q": "What is the full form of PEEL in the context of writing structured answers for CBSE Hindi board exams?",
+     "a": "PEEL stands for **Point** (मुख्य बिंदु), **Evidence** (पाठ्य साक्ष्य/उद्धरण), **Explanation** (व्याख्या/विश्लेषण), **Link** (प्रश्न/केंद्रीय भाव से संबंध). A wrong answer like \"Paragraph, Example, Explanation, Conclusion\" reveals the student confuses English essay structure with Hindi board exam requirements — CBSE Hindi marking scheme explicitly rewards *textual evidence* (उद्धरण) and *link to theme* (भाव से संबंध), not generic paragraphing.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"दशरथ बहुत दुखी थे क्योंकि राम वन चले गए। यह बहुत दुखद प्रसंग है।\" Identify **two** specific flaws in this answer with respect to CBSE Class 12 marking scheme.",
+     "a": "**Flaw 1:** No textual evidence (उद्धरण) — the answer lacks a single quote from the prose piece (e.g., \"हा राम! हा लक्ष्मण!\" or \"मेरा राजपाट उजड़ गया\"). **Flaw 2:** No analysis of *मानसिक दशा* (mental state) — it states \"दुखी थे\" (surface emotion) but doesn't analyze the *conflict* between पुत्रमोह and राजधर्म, or the *guilt* of self-inflicted loss. A wrong answer like \"It's too short\" misses the point: CBSE awards marks for *quality of analysis*, not length. A 3-line answer with a quote and analysis scores higher than a 10-line summary.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence PEEL-structured answer for: \"प्रथम पद (फडलच फडलकु...) में 'सीस' (सिर) का प्रतीकात्मक अर्थ स्पष्ट कीजिए।\" Use the poem's imagery.",
+     "a": "**Point:** 'सीस' (सिर) यहाँ अहंकार और सांसारिक आसक्ति का प्रतीक है। **Evidence:** पद में \"सीस दई सीस धरि सीस दिए\" की पुनरावृत्ति और \"सीस घ डरि सीस दई\" का चित्रण। **Explanation:** सिर झुकाना (सीस धरि) भक्ति में अहंकार त्याग को दर्शाता है, जबकि \"सीस दिए\" (सिर कटवाना) प्रेम में सर्वस्व समर्पण का प्रतीक है — जैसा मीरा/भक्त परंपरा में होता है। **Link:** इस प्रकार तुलसीदास 'सीस' के माध्यम से भक्ति मार्ग में 'अहंकार-विसर्जन' की अनिवार्यता प्रतिपादित करते हैं। A wrong answer describing only literal \"head\" or \"bowing\" misses the *symbolic layer* (प्रतीकात्मकता) which carries 50% marks in such questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **metrical structure** (छंद विधान) of the first poem (पक्तिकबित्त) and the third poem (लसजबक). How does each meter suit the emotional tone of its content? Write 3 points of comparison.",
+     "a": "1. **पक्तिकबित्त (पक्तिकबित्त छंद):** 16-16 मात्राओं की 4 पंक्तियाँ, गेय और लयबद्ध — उपयुक्त है **भक्ति-रस** और **विरह-वेदना** के लिए (पहला पद: \"सीस दई सीस धरि...\"), क्योंकि इसकी मधुर लय भक्त के कोमल भावों को व्यक्त करती है। 2. **लसजबक (लसजबक छंद):** 13-13 मात्राओं की 4 पंक्तियाँ, तीव्र गति और ओजपूर्ण — उपयुक्त है **वीर रस** और **आक्रोश** के लिए (तीसरा पद: \"एकर डगकस...\"), क्योंकि इसकी छंदोबद्ध गति दशरथ के क्रोध और कैकेयी के प्रति तीव्र प्रतिक्रिया को ध्वनित करती है। 3. **यति/विराम का अंतर:** पक्तिकबित्त में मध्ययति (8+8) कोमलता देती है, लसजबक में विषम यति (6+7 या 7+6) तनाव उत्पन्न करती है। A wrong answer listing only matra counts without linking to *rasa* (रस) or *bhava* (भाव) shows mechanical memorization without literary understanding — a common JEE/CUET trap where meter-emotion connection is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"कैकेयी का चरित्र केवल षड्यंत्रकारी है, उसमें कोई मानवीय पक्ष नहीं है।\" Defend or refute using **only** the prose piece (यएवकएवपनकज वकज जकक फोकयक) and the third poem (एकर डगकस...).",
+     "a": "**Refute.** The prose piece shows कैकेयी's **political astuteness** (\"राजा को वचन याद दिलाना\") and **maternal ambition** (\"भरत को राजसिंहासन दिलाना\") — not mere villainy. The third poem reveals her **fear of public censure** (\"लोग क्या कहेंगे\") and **desperation** (\"नृपु नृपु नृपु\" की पुकार) — humanizing her. **Nuanced judgment:** She is a *tragic figure* trapped in patriarchal power structures (पितृसत्तात्मक सत्ता संरचना) where her agency expresses only through manipulation. A wrong answer agreeing with the claim ignores textual complexity — CBSE competency questions (case-based) demand *multi-perspective analysis*, not binary labels. This mirrors JEE Advanced's \"assertion-reason\" where oversimplification loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **diary entry** (दैनिकी) of **दशरथ** on the night Rama leaves for exile, using **at least 3 poetic lines/phrases** from the chapter as his inner thoughts. Write in first person, 100 words.",
+     "a": "**Criteria for a good answer:** (1) First person (\"मैं\"), (2) Date/context (चैत्र कृष्ण पक्ष, अयोध्या), (3) **3+ textual integrations** (e.g., \"हा राम! हा लक्ष्मण!\", \"अपने ही हाथों अपना राजपाट उजाड़ दिया\", \"सीस दई सीस धरि सीस दिए\" — repurposed as self-reproach), (4) Emotional arc: anger → guilt → resignation, (5) Period-appropriate language (ब्रजभाषा मिश्रित खड़ीबोली). **Poor answer reveals:** Using modern slang (\"मैं बहुत टेंशन में हूँ\"), no textual quotes, third-person narration, or ignoring the *specific night* (राम प्रस्थान की रात) — shows inability to *transfer* literary knowledge to creative application, a key CUET/Humanities skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

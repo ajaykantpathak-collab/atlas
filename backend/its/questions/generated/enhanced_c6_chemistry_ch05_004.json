@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_004",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_004",
+   "title": "c6_chemistry_ch05_004",
+   "questions": [
+    {
+     "q": "What are the two forms of energy released during the process of combustion?",
+     "a": "The two forms of energy released are heat and light. A wrong answer here suggests the student is confusing physical changes (like melting) with chemical changes (combustion), or is guessing without recalling the energy output.",
+     "self_check": true
+    },
+    {
+     "q": "If you cover a burning candle with a glass jar, the flame eventually goes out. Why does this happen?",
+     "a": "The flame goes out because the supply of oxygen, a requirement for combustion, is cut off. A wrong answer suggests the student does not understand that oxygen is a necessary reactant, not just an incidental part of the environment.",
+     "self_check": true
+    },
+    {
+     "q": "A piece of wood is left in the sun, but it does not catch fire. Why?",
+     "a": "While the wood is a fuel and oxygen is present, the temperature of the wood has not reached the point required for combustion to start. A wrong answer shows the student ignores the \"heat\" requirement of the combustion triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the burning of a candle to the melting of an ice cube; which one is a chemical change and why?",
+     "a": "Burning a candle is a chemical change because it creates new substances (carbon dioxide and water vapour) and releases energy. Melting ice is a physical change because it remains water. Confusing these shows a lack of understanding of the permanence of chemical changes.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to have combustion if you have plenty of fuel and oxygen, but no way to provide initial heat? Justify your answer.",
+     "a": "No, combustion will not occur because the \"heat\" component of the combustion triangle is missing to trigger the reaction. A wrong answer indicates the student thinks combustion happens spontaneously without an ignition source.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that air is necessary for combustion.",
+     "a": "Place a candle on a plate and light it. Place a glass jar over it and observe the flame until it dies. A poor answer fails to include a control (like a candle burning openly) or fails to mention observing the change in flame status.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_010",
+   "title": "c12_hin_ar_cbse_14_010",
+   "questions": [
+    {
+     "q": "Define \"context clue\" in your own words and give one example from the story \"फकीरचंद\" where a word's meaning changes based on its surrounding sentences.",
+     "a": "A context clue is a hint within the surrounding text (words, phrases, sentences) that helps infer the meaning of an unfamiliar word. Example: In \"फकीरचंद\", the word \"नल फेर\" appears in the sentence \"नल फेर कर वह चला गया\". The verb \"फेर\" (turn) combined with \"नल\" (tap) and the action \"चला गया\" suggests a casual, habitual gesture — but in context, it implies a deliberate, almost ritualistic act of leaving without a trace, revealing the character's calculated nature. A wrong answer (e.g., \"context clue means looking in a dictionary\") reveals the student confuses external resources with internal textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "The word \"वीर्य\" typically means \"semen\" or \"vital fluid\" in biological contexts. In \"फकीरचंद\", the narrator says: \"उसके वीर्य में एक अजीब-सी शक्ति थी।\" Explain why the author uses this word metaphorically here, and what thematic idea it supports.",
+     "a": "The author uses \"वीर्य\" metaphorically to signify फकीरचंद's latent, generative power — not biological but existential. The context (\"अजीब-सी शक्ति\") and the story's theme of hidden strength beneath a frail appearance transform the word into a symbol of creative/destructive potential. This supports the theme that true power is invisible and deceptive. A wrong answer (e.g., \"it means he was physically strong\") shows the student misses the metaphorical layer and reads literally, ignoring the story's irony (covered in node 14_009).",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"फूँक मारकर उसने दीया बुझा दिया\", the word \"फूँक\" is used. But earlier, the glossary defines \"फूँक\" as \"वीर्यल उकेद ओक़्\" (a specialized term). Using ONLY the story context (not the glossary), infer the meaning of \"फूँक\" in this narrative moment and justify with two textual clues.",
+     "a": "Contextual meaning: \"फूँक\" here means a deliberate, controlled breath — an act of will. Clue 1: \"मारकर\" (striking/acting with force) suggests intentionality, not a casual blow. Clue 2: The result \"दीया बुझा दिया\" (extinguished the lamp) in a story about darkness/light imagery (node 14_003) implies symbolic extinction of hope or visibility. A wrong answer (e.g., \"फूँक means wind\") ignores the agentive verb \"मारकर\" and the symbolic weight of the lamp in the setting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the usage of \"आकृति\" in these two excerpts from the story: (a) \"उसकी आकृति धुंधली थी\" and (b) \"आकृति ने आकार लिया\". How does the shift from \"blurred\" to \"taking shape\" reflect the narrative progression of फकीरचंद's characterization?",
+     "a": "In (a), \"आकृति\" (form/figure) is \"धुंधली\" (blurred), mirroring the villagers' vague, superstitious perception of him as a mere phantom. In (b), \"आकृति ने आकार लिया\" (the form took shape) coincides with the revelation of his true identity as a master thief — the narrative moves from ambiguity to concrete reality. This shift parallels the plot structure (node 14_002): exposition's mystery → climax's disclosure. A wrong answer (e.g., \"both mean his body\") fails to link vocabulary change to structural turning points.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"The glossary at the end of the chapter gives the correct meaning of 'वज्रकोट' as 'वीर्यल उकेद ओक़्', so we don't need to analyze its context in the story.\" Defend or refute using evidence from the text.",
+     "a": "Refute. The glossary provides a *lexical* definition (possibly archaic/technical), but in the story, \"वज्रकोट\" appears in \"वज्रकोट-सा शरीर\" (body like vajrakot). Context clues: \"सा\" (simile) + \"शरीर\" (body) + earlier description of his toughness → meaning shifts to \"adamantine, unbreakable\". The glossary's \"वीर्यल उकेद ओक़्\" (virile/strong) is a starting point, but the story *particularizes* it to physical invulnerability as a thematic metaphor for moral impregnability. Relying solely on glossary ignores authorial craft (node 14_008, 14_009). A wrong answer accepting the claim shows dependency on authority over textual reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence using the word \"नल फेर\" that captures its contextual essence in \"फकीरचंद\" — not its literal meaning (turning a tap). Your sentence must imply stealth, finality, and routine.",
+     "a": "Example: \"अपराधी ने नल फेर की तरह बिना आवाज़ किए तिजोरी बंद की और रात में घुलमिल गया।\" (The criminal closed the safe like a नल फेर — silently, finally — and dissolved into the night.) A poor answer (e.g., \"उसने नल फेर दिया\") uses it literally, missing the connotative bundle of stealth/routine/finality built by the story's repeated association of the phrase with फकीरचंद's modus operandi.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

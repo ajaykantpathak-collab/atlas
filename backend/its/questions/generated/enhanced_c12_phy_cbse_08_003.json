@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_08_003",
+   "title": "c12_phy_cbse_08_003",
+   "questions": [
+    {
+     "q": "A student writes: \"Radio waves have wavelength 10⁶ m, gamma rays have wavelength 10⁻¹² m. Therefore radio waves travel slower than gamma rays in vacuum.\" Identify the error and state the correct principle.",
+     "a": "Error: All EM waves travel at the same speed c = 3 × 10⁸ m/s in vacuum regardless of wavelength. The student confused wavelength with speed. Correct principle: c = νλ is constant in vacuum; as λ increases, ν decreases proportionally. Wrong answer reveals confusion between wave parameters (λ, ν) and wave speed (c), a fundamental misconception that undermines all spectrum calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Why are microwaves (λ ~ 1 mm – 30 cm) used in radar for aircraft navigation, while radio waves (λ > 1 m) are not suitable for precise distance measurement? Explain using the relationship between wavelength and resolution.",
+     "a": "Radar resolution (ability to distinguish two close objects) is limited by wavelength: smaller λ gives better angular resolution (θ ~ λ/D for aperture D). Microwaves' cm-scale wavelengths allow compact antennas with narrow beams for precise targeting. Radio waves' metre-scale wavelengths would require impractically large antennas for equivalent resolution. Wrong answer reveals misunderstanding of diffraction limit and the practical engineering trade-off between λ and antenna size.",
+     "self_check": true
+    },
+    {
+     "q": "A microwave oven operates at 2.45 GHz. Calculate: (a) the wavelength in cm, (b) the photon energy in eV. Use h = 6.63 × 10⁻³⁴ J·s, 1 eV = 1.6 × 10⁻¹⁹ J, c = 3 × 10⁸ m/s.",
+     "a": "(a) λ = c/ν = (3 × 10⁸ m/s) / (2.45 × 10⁹ Hz) = 0.122 m = 12.2 cm\n(b) E = hν = (6.63 × 10⁻³⁴)(2.45 × 10⁹) = 1.62 × 10⁻²⁴ J = (1.62 × 10⁻²⁴)/(1.6 × 10⁻¹⁹) = 1.01 × 10⁻⁵ eV\nWrong answer reveals: unit conversion errors (GHz → Hz, m → cm), confusion between photon energy and total wave energy, or forgetting to convert J to eV.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the production mechanisms: (i) Radio waves from accelerating electrons in an antenna, (ii) X-rays from bombarding a metal target with high-energy electrons. What fundamental difference in the *source of acceleration* explains the 10¹⁰-fold frequency difference?",
+     "a": "Radio waves: macroscopic acceleration of conduction electrons in a circuit (kHz–MHz driven by AC voltage). X-rays: microscopic deceleration (bremsstrahlung) and atomic transitions of inner-shell electrons hit by keV-energy electrons. The energy scale differs by ~10¹⁰: eV-scale (radio) vs keV-scale (X-ray). Wrong answer reveals failure to connect production mechanism energy scales to output frequency via E = hν.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Infrared waves are heat waves because they have higher energy than visible light.\" Evaluate this statement. Is it correct? If not, what is the correct explanation for why IR feels like heat?",
+     "a": "Statement is incorrect. IR photons have *lower* energy than visible (E = hν, ν_IR < ν_visible). IR feels like heat because water/CO₂ molecules have vibrational/rotational resonances in IR, so they absorb IR efficiently and convert it to thermal motion. Visible light mostly transmits through or reflects off skin without such resonant absorption. Wrong answer reveals confusion between photon energy and thermal effect, and ignorance of molecular resonance absorption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that UV radiation is blocked by ordinary glass but visible light passes through. Specify: (1) UV source, (2) detector/indicator, (3) control, (4) expected observation.",
+     "a": "(1) Sunlight (contains UV) or UV LED torch. (2) UV-sensitive beads (change color in UV) or fluorescent paper. (3) Same beads/paper exposed to direct sunlight without glass. (4) Beads behind glass window stay white; beads in direct sun change color. Glass absorbs UV (λ < 400 nm) but transmits visible. Poor answer reveals inability to design controlled experiment or identify accessible UV sources/detectors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

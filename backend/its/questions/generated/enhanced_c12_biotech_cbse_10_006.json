@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_006",
+   "title": "c12_biotech_cbse_10_006",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: State the full form of SCID and ADA in the context of this gene therapy. What chromosome carries the human ADA gene?",
+     "a": "SCID = Severe Combined Immunodeficiency; ADA = Adenosine Deaminase. The human ADA gene is located on chromosome 20 (20q13.12). A wrong answer (e.g., \"chromosome 14\" or \"X chromosome\") reveals confusion with X-linked SCID (IL2RG gene on Xq13.1) — a critical distinction because inheritance pattern (autosomal recessive vs. X-linked) dictates genetic counseling and vector design strategy.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why deoxyadenosine accumulation is selectively toxic to lymphocytes but not to most other cell types, referencing the purine salvage pathway and ribonucleotide reductase.",
+     "a": "In ADA deficiency, adenosine and deoxyadenosine accumulate. Deoxyadenosine is phosphorylated by deoxycytidine kinase to dATP. Lymphocytes uniquely express high levels of deoxycytidine kinase and low levels of 5'-nucleotidase, causing massive dATP buildup. dATP allosterically inhibits ribonucleotide reductase (RNR), blocking reduction of ribonucleotides to deoxyribonucleotides — halting DNA synthesis and causing apoptosis in rapidly dividing lymphocytes. Other cells have lower deoxycytidine kinase and higher 5'-nucleotidase, preventing toxic dATP accumulation. A wrong answer focusing only on \"ADA breaks down adenosine\" misses the cell-type-specific kinase/nucleotidase balance that explains lymphocyte-selective toxicity — a classic NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A 6-month-old ADA-SCID patient has 5 × 10^6 CD34+ cells/kg harvested. The lentiviral vector titer is 2 × 10^8 TU/mL. Transduction is performed at MOI 50 in 2 mL culture volume with 1 × 10^6 cells/mL. Calculate: (a) total vector volume needed, (b) theoretical vector copies per cell if transduction efficiency is 40%, (c) whether this meets the FDA guidance of ≥0.1 vector copies/cell for efficacy.",
+     "a": "(a) Cells = 1 × 10^6 cells/mL × 2 mL = 2 × 10^6 cells. MOI 50 → 50 × 2 × 10^6 = 1 × 10^8 TU needed. Volume = 1 × 10^8 TU / (2 × 10^8 TU/mL) = 0.5 mL vector. (b) Actual integrated copies = 40% × 50 = 20 copies/cell theoretical max, but Poisson distribution: P(≥1) = 1 - e^(-MOI×efficiency) = 1 - e^(-20) ≈ 1. Average copies/cell = MOI × efficiency = 50 × 0.4 = 20 VCN. (c) 20 VCN >> 0.1 VCN threshold — meets FDA guidance comfortably. A wrong answer using MOI directly as VCN (50 VCN) ignores transduction efficiency and Poisson statistics — a common error in vector dosing calculations.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare first-generation gammaretroviral vectors (e.g., MFG-ADA) vs. self-inactivating (SIN) lentiviral vectors for ADA-SCID gene therapy across: (i) transduction of non-dividing HSCs, (ii) insertional mutagenesis risk, (iii) transgene silencing in lymphoid lineages, (iv) manufacturing complexity. Which is preferred for current clinical protocols and why?",
+     "a": "(i) Lentiviruses (HIV-1 based) transduce non-dividing HSCs via nuclear pore import; gammaretroviruses require nuclear envelope breakdown during mitosis — critical for quiescent CD34+ cells. (ii) Gammaretroviruses integrate near transcription start sites (TSS) and CpG islands (LMO2 activation caused leukemia in X-SCID trials); SIN-lentiviruses have deleted U3 enhancer, random integration, lower oncogenic risk. (iii) Gammaretroviral LTRs prone to methylation silencing in lymphocytes; SIN-lentiviral internal promoters (EF1α, PGK) resist silencing. (iv) Lentiviral production requires 3-4 plasmid transfection (gag/pol, rev, VSV-G, vector) vs. 2-3 for gammaretroviral — higher complexity but justified by safety. Current standard: SIN-lentiviral (e.g., EFS-ADA, Lentiviral-ADA). A wrong answer claiming \"gammaretroviruses are safer because simpler\" ignores the leukemogenesis history — a fatal misconception for board and NEET.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A clinical team proposes using CRISPR-Cas9 to correct the ADA mutation in situ (homology-directed repair) instead of lentiviral addition. Critique this strategy for ADA-SCID considering: (i) HDR efficiency in quiescent HSCs, (ii) off-target effects in long-lived stem cells, (iii) need for conditioning, (iv) regulatory pathway compared to approved Strimvelis (lentiviral). Would you recommend proceeding to Phase I?",
+     "a": "Not recommended for Phase I currently. (i) HDR requires S/G2 phase; quiescent HSCs are predominantly G0 — <1% HDR efficiency even with NHEJ inhibition. (ii) Off-target edits in HSCs persist lifelong and expand clonally — unacceptable risk without years of deep sequencing data. (iii) Conditioning (busulfan) still required for engraftment — same toxicity as lentiviral approach. (iv) Strimvelis has 10+ year safety data, EMA approval; CRISPR would need full IND-enabling tox studies. Better path: base editing or prime editing in HSCs (no DSB, no HDR needed) — but still preclinical. A wrong answer saying \"CRISPR is more precise so better\" confuses precision at DNA level with cellular context (HDR inefficiency, clonal dynamics) — a trap in competitive exams testing translational thinking.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a next-generation gene therapy protocol for ADA-SCID that eliminates the need for busulfan conditioning. Specify: (a) vector modification, (b) cell source alternative, (c) in vivo targeting strategy, (d) safety switch. Justify each choice with a molecular mechanism.",
+     "a": "(a) Vector: SIN-lentiviral vector with ADA cDNA + truncated CD19 (tCD19) selection marker + iCasp9 suicide gene. (b) Cell source: Gene-edited autologous HSCs with CCR5 knockout (HIV resistance bonus) OR allogeneic gene-corrected iPSC-derived HSCs (off-the-shelf). (c) In vivo: AAV9 vector with CD45-promoter driving ADA, injected IV — but AAV doesn't integrate, episomal loss in dividing HSCs. Better: engineered lentiviral pseudotyped with CD117-binding envelope (c-Kit targeting) for in vivo HSC transduction — avoids harvest/conditioning. (d) Safety switch: iCasp9 activated by AP1903 (rimiducid) — dimerizes caspase-9, triggers apoptosis of transduced cells if malignancy detected. Justification: c-Kit targeting exploits HSC surface receptor for in vivo transduction; iCasp9 eliminates insertional oncogenesis clones. A poor answer proposes \"CRISPR in vivo\" without addressing delivery to bone marrow niche or immunogenicity of Cas9 — misses translational barriers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

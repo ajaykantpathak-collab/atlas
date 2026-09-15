@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_003",
+   "title": "c11_geo_cbse_17_003",
+   "questions": [
+    {
+     "q": "State the three Census of India criteria used to define a statutory town and a census town.",
+     "a": "Statutory town: notified under law by state government (municipal corporation, municipality, cantonment board). Census town: (1) minimum population 5,000, (2) at least 75% of male main workers in non-agricultural activities, (3) density ≥400 persons/sq km. A wrong answer (e.g., using only population or only non-agricultural workers) reveals confusion between statutory notification and Census definition, or missing the density criterion.",
+     "self_check": true
+    },
+    {
+     "q": "A town has a population of 85,000. According to Census 2011 size classification, which class does it belong to? Explain why a town of 99,000 and a city of 1,01,000 fall into different classes despite similar populations.",
+     "a": "Class III (50,000-99,999). The threshold at 1,00,000 marks the boundary between Class III and Class I (1,00,000+). Class II is 50,000-99,999? Wait, Census classes: Class I ≥1,00,000; Class II 50,000-99,999; Class III 20,000-49,999; Class IV 10,000-19,999; Class V 5,000-9,999; Class VI <5,000. So 85,000 is Class II. 99,000 is Class II, 1,01,000 is Class I. The jump crosses the 1 lakh threshold which separates major cities (Class I) from smaller towns. Wrong answer indicates not memorizing the exact thresholds or misunderstanding that Class I starts at 1 lakh, not 50,000.",
+     "self_check": true
+    },
+    {
+     "q": "Given the workforce data for three towns: Town A - 60% in manufacturing, 20% services, 20% agriculture; Town B - 10% manufacturing, 70% government services, 20% agriculture; Town C - 5% manufacturing, 80% trade/commerce, 15% agriculture. Classify each by dominant function and justify using the functional classification scheme.",
+     "a": "Town A: Industrial town (manufacturing dominant). Town B: Administrative town (government services dominant). Town C: Commercial/trading town (trade/commerce dominant). Functional classification uses the single largest non-agricultural sector. Wrong classification (e.g., calling Town B 'service town' without specifying administrative) shows inability to distinguish between functional sub-categories or ignoring the dominance rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional characteristics of a mining town (e.g., Jharia, Dhanbad) and a cantonment town (e.g., Ambala, Meerut). How does their origin affect their spatial layout and population composition?",
+     "a": "Mining town: located near mineral deposits, irregular layout following seams, male-dominated migrant workforce, company housing, high environmental degradation. Cantonment town: planned grid layout for military, permanent defense infrastructure, mixed military-civilian population, better civic amenities. Origin (resource extraction vs. defense strategy) dictates morphology. Wrong comparison (e.g., both called 'planned') misses the organic vs. planned distinction and the gender/composition differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Class I cities in India are primarily administrative capitals.\" Use Census data trends to support your judgment.",
+     "a": "False. Class I cities (≥1 lakh) include diverse functions: industrial (Jamshedpur), commercial (Surat), educational (Kota), religious (Varanasi), tourist (Shimla), and multi-functional metros (Mumbai, Delhi). While many state capitals are Class I, the majority of India's 468 Class I cities (Census 2011) are not administrative capitals. Wrong agreement shows overgeneralization from a few prominent examples and ignoring functional diversity within the same size class.",
+     "self_check": true
+    },
+    {
+     "q": "Design a functional classification flowchart for a new settlement with population 12,000 where workforce is: 40% agriculture, 30% textile manufacturing, 20% retail trade, 10% government services. Determine if it qualifies as urban and its functional class.",
+     "a": "Step 1: Check urban criteria - population 12,000 (>5,000), non-agricultural male workers = 60% (30+20+10) <75% → fails Census town criteria. If statutory notification exists, it's urban; else rural. Step 2: If urban, dominant non-agri sector is manufacturing (30%) → industrial town. Flowchart: Population ≥5,000? → Density ≥400? → Non-agri male workers ≥75? → If all yes, Census town. Then largest non-agri sector → functional class. Poor answer misses the 75% threshold check or misidentifies dominant sector as retail (20%) instead of manufacturing (30%).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

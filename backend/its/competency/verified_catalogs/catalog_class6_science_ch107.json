@@ -1,0 +1,566 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 107,
+ "chapter_title": "Getting to Know Plants",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fecu111.txt",
+ "concepts": [
+  {
+   "id": "fesc.7.1.1",
+   "title": "Classification of Plants by Growth Habit",
+   "section": "7.1",
+   "definition": "Plants are indeed categorized into herbs, shrubs, and trees using their height, stem flexibility, and where their branches originate.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Physical dimensions and stem characteristics define the primary categories of vegetation.",
+   "textbook_ref": "fesc107.txt lines 52-54",
+   "question_patterns": [
+    "How are plants classified based on their stems?",
+    "What is the difference between a herb and a shrub?",
+    "Identify the characteristics of a tree.",
+    "Classify a plant with a green and tender stem.",
+    "why is classification of plants by growth habit important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine stem texture",
+     "explain": "Check if the stem is green and soft (herb) or hard and woody (shrub/tree)."
+    },
+    {
+     "step": 2,
+     "action": "Observe branching point",
+     "explain": "Shrubs branch near the base, while trees branch much higher up the trunk."
+    },
+    {
+     "step": 3,
+     "action": "Measure relative height",
+     "explain": "Herbs are usually short, shrubs are medium-sized, and trees are tall."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.1.2",
+   "title": "Creepers and Climbers",
+   "section": "7.1",
+   "definition": "Plants with fragile stems that either trail along the soil surface or ascend using external structures for support.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Weak-stemmed plants require specific growth strategies to access light and space.",
+   "textbook_ref": "fesc107.txt lines 54-55",
+   "question_patterns": [
+    "What are creepers?",
+    "How do climbers differ from creepers?",
+    "Why do some plants need support to grow upwards?",
+    "Give examples of plants with weak stems.",
+    "what do you understand by creepers and climbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check stem strength",
+     "explain": "Identify if the plant can stand upright on its own."
+    },
+    {
+     "step": 2,
+     "action": "Observe growth direction",
+     "explain": "If it spreads on the ground, it is a creeper; if it climbs a wall or tree, it is a climber."
+    },
+    {
+     "step": 3,
+     "action": "Look for support structures",
+     "explain": "Climbers may have tendrils or hooks to grip supports, while creepers lack these and simply trail along the soil."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.2.1",
+   "title": "Functions of the Stem",
+   "section": "7.2",
+   "definition": "The stem acts as a structural support and a conduit for transporting water, minerals, and food between different plant organs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The stem serves as a two-way transport system for the plant.",
+   "textbook_ref": "fesc107.txt lines 54-55",
+   "question_patterns": [
+    "What is the main function of a stem?",
+    "How does water reach the leaves from the roots?",
+    "Explain the two-way traffic in a stem.",
+    "What structures does a stem bear?",
+    "explain functions of the stem in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify upward transport",
+     "explain": "Stem carries water and minerals from roots to leaves."
+    },
+    {
+     "step": 2,
+     "action": "Identify downward transport",
+     "explain": "Stem carries prepared food from leaves to storage parts."
+    },
+    {
+     "step": 3,
+     "action": "Note structural support role",
+     "explain": "The stem also holds leaves, flowers, and fruits upright so they get sunlight and space to function."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.3.1",
+   "title": "Leaf Structure",
+   "section": "7.3",
+   "definition": "A leaf consists of a stalk called the petiole and a broad, green, flat surface known as the lamina.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The leaf is specialized for light absorption and gas exchange through its flat surface.",
+   "textbook_ref": "fesc107.txt lines 55-56",
+   "question_patterns": [
+    "Name the parts of a leaf.",
+    "What is a petiole?",
+    "Define the lamina of a leaf.",
+    "How is a leaf attached to the stem?",
+    "what do you understand by leaf structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the attachment point",
+     "explain": "The petiole connects the leaf blade to the stem node."
+    },
+    {
+     "step": 2,
+     "action": "Identify the blade",
+     "explain": "The lamina is the expanded green part where photosynthesis occurs."
+    },
+    {
+     "step": 3,
+     "action": "Trace the veins and midrib",
+     "explain": "The midrib runs through the center of the lamina and smaller veins branch from it, supporting the blade and transporting water and food."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.3.2",
+   "title": "Leaf Venation",
+   "section": "7.3",
+   "definition": "The arrangement or pattern of veins on the leaf blade, which can be net-like (reticulate) or parallel.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Vein patterns are distinctive markers for identifying plant groups.",
+   "textbook_ref": "fesc107.txt lines 55-56",
+   "question_patterns": [
+    "What is leaf venation?",
+    "Distinguish between reticulate and parallel venation.",
+    "Identify the midrib in a leaf.",
+    "What type of venation does grass have?",
+    "state two key points about leaf venation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the vein pattern",
+     "explain": "Check if veins form a network or run straight and parallel."
+    },
+    {
+     "step": 2,
+     "action": "Classify the pattern",
+     "explain": "Network patterns are reticulate; straight, non-intersecting lines are parallel."
+    },
+    {
+     "step": 3,
+     "action": "Locate the midrib",
+     "explain": "The prominent central vein running along the leaf is the midrib, from which side veins branch out in reticulate venation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.3.3",
+   "title": "Transpiration",
+   "section": "7.3",
+   "definition": "The biological process where plants release excess water into the air as water vapor through their leaves.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Leaves regulate water balance by evaporating moisture into the atmosphere.",
+   "textbook_ref": "fesc107.txt lines 56-57",
+   "question_patterns": [
+    "Define transpiration.",
+    "How do plants lose water?",
+    "Why do water droplets appear inside a plastic bag tied around a leaf?",
+    "What is the role of leaves in the water cycle?",
+    "describe transpiration with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source",
+     "explain": "Water is absorbed by roots and travels to the leaves."
+    },
+    {
+     "step": 2,
+     "action": "Explain the phase change",
+     "explain": "Liquid water turns into vapor and exits through leaf pores."
+    },
+    {
+     "step": 3,
+     "action": "Observe the evidence",
+     "explain": "Water droplets collecting inside a plastic bag tied around a leaf confirm that water vapor is being released by transpiration."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.3.4",
+   "title": "Photosynthesis",
+   "section": "7.3",
+   "definition": "The process by which green leaves synthesize food using sunlight, carbon dioxide, and water, releasing oxygen as a byproduct.",
+   "formula": "CO2 + Water + Sunlight -> Food (Starch) + Oxygen",
+   "key_idea": "Leaves act as the plant's food factories using solar energy.",
+   "textbook_ref": "fesc107.txt lines 57-58",
+   "question_patterns": [
+    "How do leaves prepare food?",
+    "What is photosynthesis?",
+    "What are the requirements for photosynthesis?",
+    "Which gas is released during food preparation in plants?",
+    "short note on photosynthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify raw materials",
+     "explain": "Leaves take in carbon dioxide from air and water from the stem."
+    },
+    {
+     "step": 2,
+     "action": "Identify energy source",
+     "explain": "Chlorophyll in leaves captures sunlight to power the reaction."
+    },
+    {
+     "step": 3,
+     "action": "Identify products",
+     "explain": "Food is produced (stored as starch) and oxygen is released."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.4.1",
+   "title": "Root Systems: Tap and Fibrous",
+   "section": "7.4",
+   "definition": "Plants have either a single thick main root with smaller branches (taproot) or a cluster of similar-sized thin roots (fibrous roots).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Roots provide anchorage and absorb nutrients from the soil.",
+   "textbook_ref": "fesc107.txt lines 58-59",
+   "question_patterns": [
+    "What are the two main types of roots?",
+    "Define taproot and lateral roots.",
+    "What are fibrous roots?",
+    "How do roots help a plant?",
+    "justify why root systems: tap and fibrous matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the root structure",
+     "explain": "Look for a dominant central root versus a bunch of equal-sized roots."
+    },
+    {
+     "step": 2,
+     "action": "Identify lateral roots",
+     "explain": "In taproot systems, smaller branches coming off the main root are lateral roots."
+    },
+    {
+     "step": 3,
+     "action": "Classify the system",
+     "explain": "A single dominant root with branches is a taproot; a cluster of equal thin roots is a fibrous root system."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.4.2",
+   "title": "Correlation Between Roots and Venation",
+   "section": "7.4",
+   "definition": "A biological relationship where leaf venation patterns predictably correspond to the type of root system a plant has.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Leaf patterns can be used to identify root types without uprooting the plant.",
+   "textbook_ref": "fesc107.txt lines 59-60",
+   "question_patterns": [
+    "How is leaf venation related to root type?",
+    "If a plant has parallel venation, what root type will it have?",
+    "What venation is found in plants with taproots?",
+    "Predict the root type of a plant by looking at its leaves.",
+    "why is correlation between roots and venation important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe leaf venation",
+     "explain": "Check if the leaf has reticulate or parallel venation."
+    },
+    {
+     "step": 2,
+     "action": "Apply the correlation rule",
+     "explain": "Reticulate venation implies a taproot; parallel venation implies a fibrous root."
+    },
+    {
+     "step": 3,
+     "action": "Verify with an example",
+     "explain": "Grass has parallel venation and fibrous roots, while a rose has reticulate venation and a taproot, confirming the correlation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.5.1",
+   "title": "Flower Structure: Sepals and Petals",
+   "section": "7.5",
+   "definition": "The outer parts of a flower include the green leaf-like sepals that protect the bud and the colorful petals that attract pollinators.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Both Sepals and petals are the non-reproductive protective and attractive layers of a flower.",
+   "textbook_ref": "fesc107.txt lines 60-61",
+   "question_patterns": [
+    "What are sepals and petals?",
+    "What is the function of sepals?",
+    "Why are petals usually brightly colored?",
+    "Identify the parts of a flower bud.",
+    "explain flower structure: sepals and petals in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the outermost whorl",
+     "explain": "The small green structures at the base are sepals."
+    },
+    {
+     "step": 2,
+     "action": "Identify the colored whorl",
+     "explain": "The prominent, often scented and colorful parts are petals."
+    },
+    {
+     "step": 3,
+     "action": "Relate each part to its function",
+     "explain": "Sepals protect the flower in the bud stage, while petals attract insects and birds for pollination."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.5.2",
+   "title": "Reproductive Parts: Stamen and Pistil",
+   "section": "7.5",
+   "definition": "The stamen is the male part (anther and filament) and the pistil is the innermost female part (stigma, style, and ovary) of a flower.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Flowers contain specialized organs for producing male and female reproductive cells.",
+   "textbook_ref": "fesc107.txt lines 61-62",
+   "question_patterns": [
+    "Name the male and female parts of a flower.",
+    "What are the components of a stamen?",
+    "Define the parts of a pistil.",
+    "Where is the stigma located?",
+    "give one everyday example of reproductive parts: stamen and pistil"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the stamens",
+     "explain": "Look for the stalks (filaments) topped with pollen sacs (anthers)."
+    },
+    {
+     "step": 2,
+     "action": "Locate the pistil",
+     "explain": "Find the central, innermost structure consisting of the ovary, style, and stigma."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish male from female roles",
+     "explain": "The stamen produces pollen (male gametes), while the pistil's ovary contains ovules that develop into seeds after fertilization."
+    }
+   ]
+  },
+  {
+   "id": "fesc.7.5.3",
+   "title": "Ovary and Ovules",
+   "section": "7.5",
+   "definition": "The ovary is the enlarged base of the pistil containing tiny bead-like structures called ovules which eventually become seeds.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The ovary is the site of seed development within the flower.",
+   "textbook_ref": "fesc107.txt lines 61-62",
+   "question_patterns": [
+    "What is an ovary in a flower?",
+    "What are ovules?",
+    "Where are ovules found?",
+    "Describe the inner structure of a pistil.",
+    "how does ovary and ovules work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basal part of the pistil",
+     "explain": "The swollen bottom portion is the ovary."
+    },
+    {
+     "step": 2,
+     "action": "Examine the interior",
+     "explain": "Cutting the ovary reveals small bead-like ovules inside."
+    },
+    {
+     "step": 3,
+     "action": "Trace the outcome",
+     "explain": "After fertilization, each ovule develops into a seed and the whole ovary becomes a fruit."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc107.txt page 54",
+   "concept": "fesc.7.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "A plant is very tall, has a thick brown woody stem, and branches start high above the ground. Classify this plant.",
+   "extracted_variables": {
+    "height": "very tall",
+    "stem_type": "thick brown woody",
+    "branching": "high above ground"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate height and stem",
+     "explain": "The plant is tall with a thick woody stem, which excludes herbs and shrubs."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate branching",
+     "explain": "Branches are high up, confirming it is a tree."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc107.txt page 59",
+   "concept": "fesc.7.4.2",
+   "question_pattern": "If you observe a grass plant with parallel venation in its leaves, what kind of roots do you expect it to have?",
+   "extracted_variables": {
+    "venation": "parallel"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify venation type",
+     "explain": "The leaf shows parallel venation."
+    },
+    {
+     "step": 2,
+     "action": "Apply correlation rule",
+     "explain": "Plants with parallel venation typically possess fibrous roots."
+    }
+   ],
+   "question_type": "application"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Correct the statement: Stem absorbs water and minerals from the soil.",
+    "Correct the statement: Leaves hold the plant upright.",
+    "Correct the statement: Roots conduct water to the leaves.",
+    "Correct the statement: The number of petals and stamens in a flower is always equal.",
+    "Correct the statement: If the sepals of a flower are joined together, its petals are also joined together.",
+    "Correct the statement: If the petals of a flower are joined together, then the pistil is joined to the petal."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Draw (a) a leaf, (b) a taproot and (c) a flower."
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Can you find a plant in your house or in your neighborhood, which has a long but weak stem? Write its name. In which category will you place it?"
+   ]
+  },
+  {
+   "id": "ex7.4",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "What is the function of a stem?"
+   ]
+  },
+  {
+   "id": "ex7.5",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Which of the following leaves have reticulate venation? Wheat, tulsi, maize, grass, coriander (dhania), China rose"
+   ]
+  },
+  {
+   "id": "ex7.6",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "If a plant has fibrous root, what type of venation do its leaves have?"
+   ]
+  },
+  {
+   "id": "ex7.7",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "If a plant has leaves with reticulate venation, what kind of roots will it have?"
+   ]
+  },
+  {
+   "id": "ex7.8",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Is it possible for you to find out whether a plant has taproot or fibrous roots by looking at the impression of its leaf on a sheet of paper?"
+   ]
+  },
+  {
+   "id": "ex7.9",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "What are the parts of a flower?"
+   ]
+  },
+  {
+   "id": "ex7.10",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "From the following plants, which of them have flowers? Grass, maize, wheat, chilli, tomato, tulsi, peepal, shisham, banyan, mango, jamun, guava, pomegranate, papaya, banana, lemon, sugarcane, potato, groundnut"
+   ]
+  },
+  {
+   "id": "ex7.11",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Name the part of plant which produces food. Name the process."
+   ]
+  },
+  {
+   "id": "ex7.12",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "In which part of a flower, you will find the ovary?"
+   ]
+  },
+  {
+   "id": "ex7.13",
+   "source_ref": "fesc107.txt page 64",
+   "questions": [
+    "Name two plants in which one has joined sepals and the other has separate sepals."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

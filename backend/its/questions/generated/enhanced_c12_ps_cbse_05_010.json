@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_05_010",
+   "title": "c12_ps_cbse_05_010",
+   "questions": [
+    {
+     "q": "Name the treaty that governs sharing of the Indus river system waters between India and Pakistan, specify the year it was signed, and identify which international institution brokered it.",
+     "a": "The Indus Waters Treaty (IWT) was signed in 1960 and brokered by the World Bank. A wrong answer (e.g., naming the Simla Agreement 1972 or the Ganges Treaty 1996) reveals the student conflates different bilateral agreements and does not grasp that the IWT is a unique, World Bank-mediated partition of river *basins* (eastern rivers to India, western rivers to Pakistan) rather than a water-*sharing* formula — a distinction critical for understanding why the treaty survives wars but faces new stress from climate change and hydropower projects.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Teesta water-sharing agreement between India and Bangladesh has remained unsigned since 2011 despite a draft being ready, and identify which Indian state's politics is the primary domestic constraint.",
+     "a": "The Teesta agreement remains unsigned because West Bengal (the riparian state) opposes the proposed water-sharing formula during lean season (December–March), fearing adverse impact on its own irrigation and drinking water needs; the central government cannot override state objections on a subject (water) that falls under the State List (Entry 17, List II, Seventh Schedule) without state consent. A wrong answer blaming only \"Bangladesh's intransigence\" or \"India's big-brother attitude\" reveals the student misses India's federal constraint — a classic case where domestic federalism blocks international treaty-making, unlike the IWT where the Union had exclusive control over international rivers.",
+     "self_check": true
+    },
+    {
+     "q": "A new hydropower project is proposed on the Karnali (Ghaghara) river in Nepal, which flows into the Ganges in India. India worries about reduced lean-season flow; Nepal asserts its sovereign right to develop hydropower. Using the principle of 'equitable and reasonable utilization' from the UN Watercourses Convention (1997), analyze whether either country has a stronger legal claim, and explain why South Asian states have not ratified this convention.",
+     "a": "Neither country has an automatically stronger claim: 'equitable and reasonable utilization' (Article 5, UNWC) requires balancing factors — geography, hydrology, climate, past/existing uses, economic/social needs, population dependence, availability of alternatives, and the obligation not to cause significant harm (Article 7). Nepal's development need and India's existing dependence are both valid factors. South Asian states (except Bangladesh) have not ratified the UNWC because upper riparians (India, Nepal, China) fear it constrains unilateral development, while lower riparians (Pakistan, Bangladesh) want stronger 'no significant harm' guarantees — revealing a regional deadlock where sovereignty trumps basin-wide cooperation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sir Creek maritime boundary dispute (India-Pakistan) and the Kalapani-Limpiyadhura dispute (India-Nepal) on: (a) the colonial-era map/cartographic basis of each claim; (b) the strategic resource or geography driving the dispute; (c) why bilateral mechanisms have failed to resolve either.",
+     "a": "(a) Sir Creek: competing interpretations of a 1914 Bombay Government Resolution map vs. 1925 Survey of India map — whether the boundary follows the eastern bank (Pakistan) or the mid-channel thalweg (India). Kalapani: competing interpretations of the 1816 Treaty of Sugauli — whether the Kali river's source is at Limpiyadhura (Nepal) or Kalapani springs (India). (b) Sir Creek: access to rich fishing grounds and potential offshore hydrocarbon deposits; Kalapani: strategic trijunction with China (Lipulekh Pass) for India's border defence. (c) Both disputes are securitized — Sir Creek by Kashmir's shadow and naval mistrust; Kalapani by China-India border tensions (2020 Ladakh standoff) making India unwilling to cede strategic height. Bilateral talks fail because each dispute is linked to a larger strategic rivalry, not just cartography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Chakma and Hajong refugees from the Chittagong Hill Tracts (CHT) in Bangladesh have been settled in Arunachal Pradesh for over 50 years but remain stateless because India's Citizenship Act does not grant them citizenship by birth, while Bangladesh refuses to take them back.\" Is this an accurate assessment of their legal status and the policy dilemma? Justify with specific constitutional and statutory provisions.",
+     "a": "The statement is largely accurate but incomplete. Chakmas/Hajongs (Buddhist minorities) fled CHT in 1964 (Kaptai Dam) and 1980s (insurgency). They were settled in Arunachal (then NEFA) by the Union government. Under the Citizenship Act 1955 (as amended 1986, 2003, 2019): Section 3(1)(a) grants citizenship by birth only if *both* parents are Indian citizens (post-1987) — which they are not. Section 6 (naturalization) requires 12 years residence and renunciation of foreign citizenship — but Bangladesh does not recognize them as citizens to renounce. The 2019 CAA does not cover them (it covers only Hindus, Sikhs, Buddhists, Jains, Parsis, Christians from Pakistan, Afghanistan, Bangladesh who entered before 2015 — but Chakmas are Buddhists from Bangladesh, so they *are* eligible under CAA 2019 if they entered before 2015; however, Arunachal Pradesh is exempted under Inner Line Permit (ILP) system via the Bengal Eastern Frontier Regulation 1873, and CAA excludes ILP areas). Thus they remain in legal limbo — stateless de facto. A wrong answer claiming \"they are illegal immigrants\" misses the state-sponsored resettlement and the specific CAA/ILP interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-article framework for a hypothetical 'South Asia Transboundary Water Cooperation Charter' that addresses: (a) data sharing on river flows and glacial melt; (b) a dispute resolution mechanism that bypasses SAARC's unanimity rule; (c) a climate adaptation fund financed by riparian states proportional to GDP. Explain why each article is necessary given current gaps.",
+     "a": "**Article 1 (Hydrological Transparency):** Mandates real-time sharing of river flow, sediment, glacial melt, and dam release data through an independent South Asia Hydrological Commission (SAHC) with satellite verification — necessary because India-Nepal, India-Bangladesh, and Pakistan-India currently withhold data citing 'national security', making cooperative management impossible. **Article 2 (Compulsory Dispute Resolution):** Establishes a permanent South Asia Water Tribunal with binding arbitration (not just mediation) accessible by any riparian state *without* requiring consensus of all SAARC members — necessary because SAARC's unanimity rule (Article X of SAARC Charter) allows any one state to block dispute referral, and bilateral talks stall when power asymmetry exists. **Article 3 (Climate Adaptation Fund):** Creates a fund capitalized by annual contributions (0.1% of GDP from each riparian) to finance flood early-warning systems, drought-resilient agriculture, and glacial lake outburst flood (GLOF) mitigation — necessary because climate change makes historical flow data obsolete, and no regional financing mechanism exists; the Green Climate Fund is global and slow. A poor draft omits enforcement teeth or ignores the China factor (upstream on Brahmaputra/Sutlej/Indus).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,526 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 108,
+ "chapter_title": "Microbes in Human Welfare",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo108.txt",
+ "concepts": [
+  {
+   "id": "lebo.108.1",
+   "title": "Microbes in Household Food Products",
+   "section": "8.1",
+   "definition": "Microorganisms like Lactic Acid Bacteria (LAB) and yeasts digest or ferment dietary substrates to enhance food texture, flavor, and nutritional value.",
+   "formula": "milk + LAB -> curd (enriched with vitamin B12)",
+   "key_idea": "Microbial fermentation produces organic acids and gases that transform everyday food items and improve nutritional profile.",
+   "textbook_ref": "lebo108.txt lines 25-60",
+   "question_patterns": [
+    "explain the role of LAB in converting milk to curd",
+    "how do microbes contribute to household food preparation",
+    "which bacteria are responsible for the puffed appearance of dosa dough",
+    "describe the role of microbes in cheese making",
+    "what is the starter or inoculum used in curd formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the microorganism and process",
+     "explain": "Lactic Acid Bacteria (LAB) like Lactobacillus multiply in milk at appropriate temperatures."
+    },
+    {
+     "step": 2,
+     "action": "Describe the biochemical changes",
+     "explain": "LAB produce acids that coagulate and partially digest milk proteins, turning milk into curd."
+    },
+    {
+     "step": 3,
+     "action": "State the nutritional benefit",
+     "explain": "Curd formation enhances nutritional quality by increasing vitamin B12 content and inhibiting disease-causing microbes in the stomach."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.2",
+   "title": "Fermented Beverages and Industrial Fermentation",
+   "section": "8.2.1",
+   "definition": "Industrial scale production of alcoholic drinks uses yeasts to ferment fruit juices or malted cereals inside large vessels called fermentors.",
+   "formula": "fermentable sugars + Saccharomyces cerevisiae -> ethanol + CO2",
+   "key_idea": "Brewer's yeast ferments carbohydrates into ethanol, giving distilled or non-distilled alcoholic beverages depending on processing.",
+   "textbook_ref": "lebo108.txt lines 61-80",
+   "question_patterns": [
+    "what is the role of brewer's yeast in alcoholic beverage production",
+    "differentiate between distilled and non-distilled alcoholic beverages",
+    "name the microbes used in industrial fermentation of ethanol",
+    "how are fermentors utilized in beverage industries",
+    "why is fermented beverages and industrial fermentation important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fermenting organism",
+     "explain": "Saccharomyces cerevisiae (brewer's yeast) ferments malted cereals or fruit juices."
+    },
+    {
+     "step": 2,
+     "action": "Classify drinks by downstream processing",
+     "explain": "Wine and beer are produced without distillation, whereas whisky, brandy, and rum are produced by distillation of the fermented broth."
+    },
+    {
+     "step": 3,
+     "action": "Describe the fermentor setup",
+     "explain": "Large vessels called fermentors provide controlled conditions of temperature, pH, and nutrient supply for optimal yeast growth and ethanol yield."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.3",
+   "title": "Antibiotics Discovery and Function",
+   "section": "8.2.2",
+   "definition": "Antibiotics are microbial chemical secretions that inhibit growth or kill pathogenic microorganisms.",
+   "formula": "Penicillium notatum -> Penicillin (inhibits bacterial pathogens)",
+   "key_idea": "Secondary metabolites produced by specific fungi or bacteria act as metabolic inhibitors against infectious microbes.",
+   "textbook_ref": "lebo108.txt lines 81-105",
+   "question_patterns": [
+    "how was penicillin discovered by Alexander Fleming",
+    "who established the full therapeutic potential of penicillin",
+    "what are antibiotics and how do they act against microbes",
+    "list diseases effectively controlled by antibiotic therapies",
+    "how does antibiotics discovery and function work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe accidental discovery",
+     "explain": "Alexander Fleming noticed that Penicillium notatum mould inhibited the growth of Staphylococci bacteria on unwashed agar plates."
+    },
+    {
+     "step": 2,
+     "action": "Identify key scientists responsible for clinical development",
+     "explain": "Ernest Chain and Howard Florey isolated penicillin and established its full potential as an effective life-saving antibiotic."
+    },
+    {
+     "step": 3,
+     "action": "State the mechanism of antibiotic action",
+     "explain": "Antibiotics act as metabolic inhibitors that block essential bacterial processes such as cell wall synthesis, thereby killing or inhibiting the growth of pathogens."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.4",
+   "title": "Microbial Production of Organic Acids, Enzymes, and Bioactive Molecules",
+   "section": "8.2.3",
+   "definition": "Specific bacterial and fungal species are cultured to yield metabolic products like organic acids, enzymes, immunosuppressants, and cholesterol-lowering agents.",
+   "formula": "Monascus purpureus -> Statins (inhibits HMG-CoA reductase enzyme)",
+   "key_idea": "Microbes synthesize specialized biochemicals like citric acid, streptokinase, cyclosporin A, and statins for both medical and industrial applications.",
+   "textbook_ref": "lebo108.txt lines 106-128",
+   "question_patterns": [
+    "match the organic acid with its producing microbe",
+    "what is the clinical application of streptokinase",
+    "name the organism that produces cyclosporin A and state its function",
+    "how do statins lower blood cholesterol level",
+    "which enzymes are used to clarify bottled fruit juices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Map microbe to bioactive product",
+     "explain": "Trichoderma polysporum produces Cyclosporin A; Monascus purpureus produces Statins; Streptococcus produces Streptokinase."
+    },
+    {
+     "step": 2,
+     "action": "Explain therapeutic mechanism",
+     "explain": "Cyclosporin A acts as an immunosuppressive agent; Statins competitively inhibit cholesterol synthesis enzymes; Streptokinase acts as a clot buster."
+    },
+    {
+     "step": 3,
+     "action": "List the industrial applications",
+     "explain": "Citric acid is produced by Aspergillus niger; pectinases and proteases clarify bottled fruit juices; these products are widely used in medicine and food processing."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.5",
+   "title": "Primary Sewage Treatment",
+   "section": "8.3",
+   "definition": "The physical separation of solid and suspended particles from municipal wastewater through both filtration and gravity sedimentation.",
+   "formula": "raw sewage -> physical filtration + sedimentation -> primary sludge + effluent",
+   "key_idea": "Primary treatment physically extracts floating debris and heavy grit to prepare wastewater for secondary biological treatment.",
+   "textbook_ref": "lebo108.txt lines 129-145",
+   "question_patterns": [
+    "what steps are involved in primary sewage treatment",
+    "differentiate between primary sludge and primary effluent",
+    "how is floating debris removed during physical wastewater treatment",
+    "explain the process of sedimentation in primary sewage treatment",
+    "state two key points about primary sewage treatment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Perform sequential filtration",
+     "explain": "Floating debris in municipal wastewater is physically strained out through sequential filters."
+    },
+    {
+     "step": 2,
+     "action": "Perform sedimentation",
+     "explain": "Coarse soil and small pebbles (grit) settle down by gravity to form primary sludge, leaving the supernatant as primary effluent."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish primary sludge from primary effluent",
+     "explain": "Primary sludge is the settled solid waste removed for disposal, while primary effluent is the liquid supernatant that still carries dissolved organic matter and is directed to secondary biological treatment."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.6",
+   "title": "Secondary Sewage Treatment and Floc Formation",
+   "section": "8.3",
+   "definition": "A biological process where aerobic microbes form mesh-like flocs to digest organic matter in wastewater, followed by anaerobic digestion of settled sludge.",
+   "formula": "primary effluent + aerobic flocs + oxygen -> digested effluent + activated sludge",
+   "key_idea": "Aerobic microbial flocs consume organic pollutants in sewage, reducing water pollution before anaerobic sludge digestion.",
+   "textbook_ref": "lebo108.txt lines 146-175",
+   "question_patterns": [
+    "explain the role of flocs in secondary sewage treatment",
+    "what happens in anaerobic sludge digesters",
+    "how is activated sludge recycled back as inoculum",
+    "describe the steps of biological sewage treatment",
+    "state two key points about secondary sewage treatment and floc formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Agitate primary effluent in aeration tanks",
+     "explain": "Air is constantly pumped into large aeration tanks to encourage rapid growth of aerobic microbes into flocs."
+    },
+    {
+     "step": 2,
+     "action": "Digest organic matter and settle flocs",
+     "explain": "Flocs consume organic matter to reduce pollution; the mixture settles as activated sludge in settling tanks."
+    },
+    {
+     "step": 3,
+     "action": "Transfer to anaerobic sludge digesters",
+     "explain": "Anaerobic bacteria break down activated sludge, generating biogas composed of methane, hydrogen sulfide, and carbon dioxide."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.7",
+   "title": "Biochemical Oxygen Demand (BOD) and Water Pollution Measurement",
+   "section": "8.3",
+   "definition": "The total amount of dissolved oxygen consumed by microorganisms to completely oxidize the organic matter present in one liter of water.",
+   "formula": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
+   "key_idea": "BOD measures organic load indirectly; a higher BOD value indicates greater organic pollution in the water body.",
+   "textbook_ref": "lebo108.txt lines 150-165",
+   "question_patterns": [
+    "calculate the percentage reduction in BOD during sewage treatment",
+    "what does a high BOD value imply about a water sample",
+    "find the change in BOD given initial and final values",
+    "how is BOD used as an indicator of water quality",
+    "compute the answer step by step for biochemical oxygen demand (bod) and water pollution measurement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate BOD reduction",
+     "explain": "Subtract final BOD from initial BOD to determine the oxygen demand reduced.",
+     "compute": "bod_diff = initial_bod - final_bod"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage BOD reduction",
+     "explain": "Divide the BOD difference by the initial BOD and multiply by 100.",
+     "compute": "reduction_percent = bod_diff * 100 / initial_bod"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the BOD reduction result",
+     "explain": "A higher percentage reduction indicates effective sewage treatment; the treated effluent with low BOD is safer for discharge into water bodies.",
+     "compute": "treatment_efficiency = reduction_percent"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Biochemical Oxygen Demand (BOD) and Water Pollution Measurement, compute the result for initial_bod = 3, final_bod = 3.",
+     "solution": "Step 1: Calculate BOD reduction: bod_diff = initial_bod - final_bod = 0.0 Step 2: Calculate percentage BOD reduction: reduction_percent = bod_diff * 100 / initial_bod = 0.0 Step 3: Interpret the BOD reduction result: treatment_efficiency = reduction_percent = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Biochemical Oxygen Demand (BOD) and Water Pollution Measurement, compute the result for initial_bod = 4, final_bod = 4.",
+     "solution": "Step 1: Calculate BOD reduction: bod_diff = initial_bod - final_bod = 0.0 Step 2: Calculate percentage BOD reduction: reduction_percent = bod_diff * 100 / initial_bod = 0.0 Step 3: Interpret the BOD reduction result: treatment_efficiency = reduction_percent = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.8",
+   "title": "Microbial Biogas Production",
+   "section": "8.4",
+   "definition": "Anaerobic digestion of cellulosic agricultural waste and cattle manure by methanogenic bacteria yields inflammable biogas rich in methane.",
+   "formula": "cellulosic waste + Methanobacterium -> CH4 + CO2 + H2",
+   "key_idea": "Methanogens convert cellulosic animal waste into methane-rich combustible gas inside anaerobic digesters.",
+   "textbook_ref": "lebo108.txt lines 176-210",
+   "question_patterns": [
+    "what are methanogens and where are they found",
+    "explain the functioning and structure of a rural biogas plant",
+    "why is cattle dung rich in Methanobacterium",
+    "which organizations developed biogas technology in India",
+    "justify why microbial biogas production matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the methanogenic bacteria and source",
+     "explain": "Methanobacterium present in the rumen of cattle breaks down cellulose and is excreted in cattle dung (gobar)."
+    },
+    {
+     "step": 2,
+     "action": "Describe biogas plant mechanics",
+     "explain": "Dung slurry inside a 10-15 ft deep tank undergoes anaerobic microbial digestion, producing gas that lifts a floating cover for domestic supply."
+    },
+    {
+     "step": 3,
+     "action": "State the composition and uses of biogas",
+     "explain": "Biogas is predominantly methane (CH4) along with CO2 and traces of H2 and H2S; it is used as a clean renewable fuel for cooking, lighting, and electricity generation in rural households."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.9",
+   "title": "Microbes as Biological Control Agents",
+   "section": "8.5",
+   "definition": "The deployment of biological natural enemies, parasites, or pathogens to manage pest and pathogen populations in agricultural ecosystems.",
+   "formula": "Bt spore ingestion -> endotoxin release in insect midgut -> caterpillar death",
+   "key_idea": "Targeted microbial biocontrol agents suppress specific crop pests without destroying harmless beneficial insects or causing toxic chemical pollution.",
+   "textbook_ref": "lebo108.txt lines 211-250",
+   "question_patterns": [
+    "how does Bacillus thuringiensis act as a biocontrol agent",
+    "explain the advantages of using Baculoviruses in pest management",
+    "what is the role of Trichoderma species in controlling plant root pathogens",
+    "differentiate biological pest control from chemical pesticides",
+    "give one everyday example of microbes as biological control agents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify biocontrol agent and host spectrum",
+     "explain": "Bacillus thuringiensis produces toxin spores against caterpillars; Trichoderma controls root pathogens; Nucleopolyhedrovirus offers species-specific narrow-spectrum insecticidal control."
+    },
+    {
+     "step": 2,
+     "action": "Explain mode of action",
+     "explain": "Ingestion of Bt toxin dissolves in the alkaline insect gut, creating pores that kill the larva without impacting non-target species."
+    },
+    {
+     "step": 3,
+     "action": "State the advantages over chemical pesticides",
+     "explain": "Biological control agents are species-specific, do not harm beneficial insects, and avoid toxic chemical residues in the environment, making them ecologically safe alternatives to broad-spectrum chemical pesticides."
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.10",
+   "title": "Microbes as Biofertilisers",
+   "section": "8.6",
+   "definition": "Living organisms like nitrogen-fixing bacteria, mycorrhizal fungi, and cyanobacteria that naturally replenish essential plant nutrients in soil.",
+   "formula": "N2 + nitrogen-fixing microbes -> organic nitrogen (plant nutrient)",
+   "key_idea": "Biofertilisers fix atmospheric nitrogen and solubilize soil phosphorus, offering a sustainable alternative to chemical fertilizers.",
+   "textbook_ref": "lebo108.txt lines 251-285",
+   "question_patterns": [
+    "how do Rhizobium and free-living bacteria enrich soil nitrogen",
+    "explain the fungal role in Glomus mycorrhizal associations",
+    "what is the significance of cyanobacteria in paddy fields",
+    "compare biofertilisers with chemical fertilisers",
+    "what do you understand by microbes as biofertilisers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize biofertiliser groups",
+     "explain": "Symbiotic N2 fixers (Rhizobium), free-living N2 fixers (Azotobacter, Azospirillum), phosphorus absorbers (Glomus mycorrhiza), and cyanobacteria (Anabaena, Nostoc)."
+    },
+    {
+     "step": 2,
+     "action": "Detail physiological benefits",
+     "explain": "Mycorrhiza transfers phosphorus to roots and provides drought tolerance; nitrogen fixers convert gaseous nitrogen into bioavailable ammonium/nitrate forms."
+    },
+    {
+     "step": 3,
+     "action": "Compare biofertilisers with chemical fertilisers",
+     "explain": "Biofertilisers are renewable, eco-friendly, and improve soil health without causing pollution, whereas chemical fertilisers are costly, non-renewable, and can degrade soil and water quality over time."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo108.txt exercise 11",
+   "concept": "lebo.108.7",
+   "question_type": "compute",
+   "question_pattern": "An untreated sewage sample has an initial BOD of {initial_bod} mg/L. After biological secondary treatment, the effluent BOD drops to {final_bod} mg/L. Calculate the percentage reduction in BOD achieved by the treatment plant.",
+   "extracted_variables": {
+    "initial_bod": "400",
+    "final_bod": "20"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate absolute BOD reduction",
+     "explain": "Subtract final BOD from initial BOD to determine total reduction.",
+     "compute": "bod_diff = initial_bod - final_bod"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage reduction",
+     "explain": "Divide the BOD difference by the initial BOD value and multiply by 100.",
+     "compute": "reduction_percent = bod_diff * 100 / initial_bod"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "lebo108.txt lines 150-165",
+   "concept": "lebo.108.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute biochemical oxygen demand (bod) and water pollution measurement step by step",
+   "extracted_variables": {
+    "initial_bod": "value of initial_bod",
+    "final_bod": "value of final_bod"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate BOD reduction",
+     "explain": "Subtract final BOD from initial BOD to determine the oxygen demand reduced.",
+     "compute": "bod_diff = initial_bod - final_bod"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage BOD reduction",
+     "explain": "Divide the BOD difference by the initial BOD and multiply by 100.",
+     "compute": "reduction_percent = bod_diff * 100 / initial_bod"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "lebo108.txt line 290",
+   "questions": [
+    "Bacteria cannot be seen with the naked eyes, but these can be seen with the help of a microscope. If you have to carry a sample from your home to your biology laboratory to demonstrate the presence of microbes with the help of a microscope, which sample would you carry and why?"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "lebo108.txt line 295",
+   "questions": [
+    "Give examples to prove that microbes release gases during metabolism."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "lebo108.txt line 297",
+   "questions": [
+    "In which food would you find lactic acid bacteria? Mention some of their useful applications."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "lebo108.txt line 299",
+   "questions": [
+    "Name some traditional Indian foods made of wheat, rice and Bengal gram (or their products) which involve use of microbes."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "lebo108.txt line 301",
+   "questions": [
+    "In which way have microbes played a major role in controlling diseases caused by harmful bacteria?"
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "lebo108.txt line 303",
+   "questions": [
+    "Name any two species of fungus, which are used in the production of the antibiotics."
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "lebo108.txt line 305",
+   "questions": [
+    "What is sewage? In which way can sewage be harmful to us?"
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "lebo108.txt line 307",
+   "questions": [
+    "What is the key difference between primary and secondary sewage treatment?"
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "lebo108.txt line 309",
+   "questions": [
+    "Do you think microbes can also be used as source of energy? If yes, how?"
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "lebo108.txt line 311",
+   "questions": [
+    "Microbes can be used to decrease the use of chemical fertilisers and pesticides. Explain how this can be accomplished."
+   ]
+  },
+  {
+   "id": "ex8.11",
+   "source_ref": "lebo108.txt line 313",
+   "questions": [
+    "Three water samples namely river water, untreated sewage water and secondary effluent discharged from a sewage treatment plant were subjected to BOD test. The samples were labelled A, B and C; but the laboratory attendant did not note which was which. The BOD values of the three samples A, B and C were recorded as 20mg/L, 8mg/L and 400mg/L, respectively. Which sample of the water is most polluted? Can you assign the correct label to each assuming the river water is relatively clean?"
+   ]
+  },
+  {
+   "id": "ex8.12",
+   "source_ref": "lebo108.txt line 320",
+   "questions": [
+    "Find out the name of the microbes from which Cyclosporin A (an immunosuppressive drug) and Statins (blood cholesterol lowering agents) are obtained."
+   ]
+  },
+  {
+   "id": "ex8.13",
+   "source_ref": "lebo108.txt line 323",
+   "questions": [
+    "Find out the role of microbes in the following and discuss it with your teacher: (a) Single cell protein (SCP) (b) Soil"
+   ]
+  },
+  {
+   "id": "ex8.14",
+   "source_ref": "lebo108.txt line 326",
+   "questions": [
+    "Arrange the following in the decreasing order (most important first) of their importance, for the welfare of human society. Give reasons for your answer: Biogas, Citric acid, Penicillin and Curd"
+   ]
+  },
+  {
+   "id": "ex8.15",
+   "source_ref": "lebo108.txt line 329",
+   "questions": [
+    "How do biofertilisers enrich the fertility of the soil?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

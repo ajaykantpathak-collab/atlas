@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_003",
+   "title": "c12_eng_k_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the literal, physical setting described in the first stanza of the poem?",
+     "a": "The literal setting is a walk taken by two lovers lasting three hours, during which the sun rises until it is directly overhead at noon. Their shadows, initially long, shrink until the lovers are treading on them. A wrong answer (e.g., \"a garden at sunset\" or \"a room at night\") reveals the student has not anchored the poem in its precise temporal coordinates — the three-hour morning walk culminating at solar noon — which is the foundation for the entire conceit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the atmosphere changes from the beginning to the end of the poem.",
+     "a": "The atmosphere shifts from intellectual clarity and controlled openness (\"brave clearnesse,\" shadows manageable) to psychological darkness and mutual deception (\"blind our eyes,\" \"disguise\"). The turning point is noon: before it, love is \"infant\" and shadows are external; after it, love risks decay and shadows become internal, self-generated threats. A wrong answer that describes the atmosphere as consistently \"romantic\" or \"sad\" misses the poem's dramatic pivot at noon and the metaphysical wit that makes the atmosphere *intellectually* charged, not merely emotional.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"pathetic fallacy\" to this poem: does the natural setting (sun/shadows) reflect the lovers' inner state, or does it dictate it? Support with one line from the poem.",
+     "a": "The natural setting *dictates* the lovers' condition — it is an objective cosmological law they cannot escape. The line \"Except our loves at this noone stay / We shall new shadowes make the other way\" shows the sun's movement *forcing* a new phase; the lovers' only agency is to freeze time (\"stay at noon\"). A student who claims the lovers' feelings create the shadows (pathetic fallacy in the traditional sense) has inverted Donne's metaphysical logic: here, the macrocosm (sun) governs the microcosm (love).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poem's three-stanza structure maps onto the three phases of the day (morning, noon, afternoon) and the three corresponding phases of love. What structural device reinforces this mapping?",
+     "a": "Stanza 1 = morning walk / infant love (shadows alongside); Stanza 2 = noon / love's peak (\"high'st degree,\" \"brave clearnesse\"); Stanza 3 = afternoon decline / love's decay or constancy (\"loves day is short, if love decay\"). The structural device is the **conceit's temporal synchrony**: each stanza corresponds to a distinct solar position, and the rhyming couplets (aa bb cc...) create a sense of inevitable, measured progression like the sun's motion. A wrong answer that only lists the phases without noting the *formal* reinforcement (couplets = ticking clock) misses how structure *enacts* the setting.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Donne's choice to title the poem \"A Lecture Upon the Shadow\" rather than \"A Lecture Upon Love.\" How does the title shape the reader's experience of the setting and atmosphere?",
+     "a": "The title forces the reader to *track the physical phenomenon first* (shadows, sun, time) and only secondarily grasp its metaphorical target (love). This creates an atmosphere of intellectual detachment — we are attending a \"lecture,\" a demonstration — which mirrors the speaker's analytical tone. If titled \"A Lecture Upon Love,\" the atmosphere would feel more subjective, emotional, less witty. A student who says \"it doesn't matter\" fails to see that the title *sets the generic expectation* (scientific lecture) that the poem then subverts with metaphysical wit.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza that uses a different natural phenomenon (e.g., tide, seasons, moon phases) as a metaphor for a relationship's stages, maintaining Donne's analytical, \"lecture\" tone.",
+     "a": "A strong response will: (1) pick a phenomenon with clear, irreversible stages (tide: ebb → high → ebb; seasons: spring → summer → autumn); (2) map three distinct phases onto relationship stages; (3) use imperative/instructional voice (\"Observe,\" \"Note,\" \"Mark\"); (4) end with a paradoxical or witty conclusion. Example: \"Mark the tide: at flood we touch the shore / At high water, clear and deep, no more / But ebb returns, and we retreat apart / Love's full sea lasts but a moment in the heart.\" A weak response uses vague nature imagery without structural mapping or analytical tone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_007",
+   "title": "c12_hist_cbse_09_007",
+   "questions": [
+    {
+     "q": "What was the \"Sunset Law\" under the Permanent Settlement, and what immediate consequence did it stipulate for a zamindar who failed to pay revenue by the deadline?",
+     "a": "The Sunset Law required the zamindar to deposit the revenue demand in the Company treasury by sunset on the fixed date; failure meant the zamindari was liable to be auctioned immediately to recover the arrears. A wrong answer (e.g., \"the zamindar got a warning\" or \"the estate was confiscated without auction\") reveals confusion between the Permanent Settlement's theoretical property rights and the coercive collection mechanism that undermined them.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the East India Company deliberately set the initial revenue demand very high under the Permanent Settlement, and how did this backfire in the 1790s?",
+     "a": "The Company pegged demand high to capture anticipated future gains from rising prices and expanded cultivation, arguing the burden would decline over time. In the 1790s, however, agricultural prices were depressed, making it impossible for ryots to pay rent and zamindars to meet the fixed demand. A wrong answer that claims the demand was \"moderate\" or \"based on current yields\" misses the speculative logic of the Settlement and the immediate crisis it created.",
+     "self_check": true
+    },
+    {
+     "q": "A zamindar in 1798 transfers part of his estate to his mother, then allows arrears to accumulate so that portion is auctioned. His agents bid high, refuse to pay the purchase money, forcing re-auction, and eventually buy it back at a low price. Identify this strategy and explain why it worked.",
+     "a": "This is a fictitious (benami) sale. It worked because: (a) women's property was legally protected from seizure, (b) repeated auctions exhausted the state's patience and rival bidders, (c) the zamindar's agents never paid the bid amount, so the estate was resold repeatedly until the zamindar regained it cheaply. A wrong answer that calls this \"fraud\" without explaining the legal loopholes (women's property, auction rules) misses how zamindars weaponized colonial law itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the power of the zamindar and the jotedar in a North Bengal village circa 1800. Why was the jotedar's power more \"effective\" despite the zamindar's superior legal status?",
+     "a": "The zamindar held legal revenue-collecting rights over hundreds of villages but lived in cities, relied on distant amlahs, and had lost police/judicial powers to the Collector. The jotedar resided in the village, controlled local trade and moneylending, cultivated via sharecroppers, and could mobilize dependent ryots to resist zamindari officials. A wrong answer that equates \"legal status\" with \"effective power\" fails to see how colonial rule displaced zamindari authority to the collectorate while empowering local magnates.",
+     "self_check": true
+    },
+    {
+     "q": "The Fifth Report (1813) claimed zamindari collapse was widespread, citing auction statistics. Modern historians argue this exaggerates the collapse. Evaluate the Fifth Report's reliability using evidence from the zamindars' own strategies.",
+     "a": "The Fifth Report is a valuable but partisan source: produced by a parliamentary committee intent on exposing Company misrule, it highlighted auction figures (e.g., 75% zamindaris changed hands) but ignored that over 15% of sales were fictitious (benami) and zamindars often retained de facto control. A wrong answer that treats the Report as transparent fact misses the need to read official sources \"against the grain\" and cross-reference with zamindari archives.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1793–1801) showing the interaction of three factors: (a) revenue demand inflexibility, (b) price depression/recovery, (c) zamindar resistance strategies. Annotate each turning point with the causal mechanism.",
+     "a": "1793: Permanent Settlement fixes demand high (speculative). 1793–96: Price depression → ryots default → zamindars accumulate arrears. 1797: Burdwan auction → fictitious sales begin. 1793–1801: Repeated benami auctions (4 big zamindaris yield Rs 30 lakh in benami purchases). 1800 onward: Prices recover → surviving zamindars consolidate; revenue rules relaxed. A poor timeline lists dates without linking price trends to default and resistance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_008",
+   "title": "c12_ps_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the key institutional difference between GATT (1947) and the WTO (1995) regarding legal status and dispute settlement?",
+     "a": "GATT was a provisional multilateral treaty with no institutional foundation and a weak dispute system where the losing party could block adoption of rulings. The WTO is a formal international organisation with legal personality, a permanent secretariat, and a binding dispute settlement mechanism where rulings are automatically adopted unless there is a consensus to reject (reverse consensus). A wrong answer (e.g., \"GATT had a stronger dispute system\") reveals confusion about the evolution from a treaty to an institution and the significance of the 'reverse consensus' rule.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the principle of 'Most-Favoured-Nation (MFN) treatment' under WTO and give one exception permitted under the agreements.",
+     "a": "MFN (Article I of GATT) requires any advantage granted to one member to be extended immediately and unconditionally to all WTO members — no discrimination among trading partners. A key exception is Regional Trade Agreements (RTAs) under Article XXIV (e.g., free trade areas or customs unions like ASEAN or EU), where members grant preferential tariffs to each other but not to outsiders. A wrong answer (e.g., \"MFN means best treatment for developing countries\") conflates MFN with Special and Differential Treatment (S&DT), showing misunderstanding of non-discrimination vs. flexibilities.",
+     "self_check": true
+    },
+    {
+     "q": "India imposes a higher internal tax on imported solar panels than on domestically produced ones to promote its National Solar Mission. The US challenges this at the WTO. Which core principle is violated, and under which agreement?",
+     "a": "This violates the **National Treatment principle (Article III of GATT 1994)**, which mandates that imported goods be treated no less favourably than domestic goods after they have entered the market. The measure falls under the **Agreement on Trade-Related Investment Measures (TRIMS)** as well, since it involves a local content requirement. A wrong answer citing MFN (Article I) shows confusion between discrimination *among foreign countries* (MFN) and discrimination *between foreign and domestic goods* (National Treatment).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the WTO's Dispute Settlement Body (DSB) with the International Court of Justice (ICJ) in terms of jurisdiction, enforcement, and applicability to trade disputes.",
+     "a": "The DSB has **compulsory and exclusive jurisdiction** over WTO agreement violations — members *must* use it for trade disputes. Its rulings are binding and enforced through authorised retaliation (suspension of concessions) if the loser does not comply. The ICJ has **voluntary jurisdiction** (states must consent) and no direct enforcement mechanism; it relies on UN Security Council for compliance. The DSB is specialised for trade law; the ICJ handles general international law. A wrong answer claiming \"ICJ handles trade disputes\" ignores the lex specialis nature of WTO dispute settlement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The WTO's Single Undertaking approach undermines developing countries' sovereignty because they must accept all agreements (including TRIPS and Services) as a package, with no opt-outs.\"",
+     "a": "The argument is **largely valid**. The Single Undertaking (all-or-nothing acceptance of all WTO agreements) replaced GATT's à la carte approach. Developing countries had to accept TRIPS (intellectual property) and GATS (services) — agreements they had little bargaining power to shape — to gain market access in agriculture and textiles. However, **Special and Differential Treatment (S&DT) provisions** (longer transition periods, technical assistance) and the **consensus-based decision-making** (theoretically giving each member a veto) provide some counterbalance. A weak evaluation ignores S&DT or the fact that developing countries *joined voluntarily* expecting net gains from market access.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph position statement for India at the WTO Ministerial Conference arguing for a permanent solution on Public Stockholding for Food Security, using the concepts of 'Special and Differential Treatment' and 'peace clause'.",
+     "a": "A strong answer will: (1) cite India's obligation under the Right to Food (domestic law) and UN SDG 2; (2) explain that the current 'peace clause' (Bali 2013) is temporary and conditional; (3) invoke S&DT (Article 18 of AoA) to argue developing countries need policy space for food security; (4) demand a permanent amendment to the Agreement on Agriculture to exempt public stockholding programmes from Amber Box subsidy limits. A poor answer merely repeats \"India needs food security\" without linking to WTO legal provisions or the negotiating history.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

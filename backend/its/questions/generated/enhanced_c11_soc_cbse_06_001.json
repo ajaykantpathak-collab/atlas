@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_001",
+   "title": "c11_soc_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define social structure in your own words, distinguishing it from (a) a physical building, (b) a single social interaction, and (c) culture.",
+     "a": "Social structure refers to the enduring, patterned arrangements of statuses, roles, institutions, and norms that organise human interaction into predictable regularities across time and space. Unlike a physical building, it is made of human actions and relationships; unlike a single interaction, it persists beyond any one encounter; unlike culture (shared meanings), it is the relational framework within which culture is enacted. A wrong answer that equates structure with buildings reveals the \"architectural metaphor\" trap warned against in the textbook. Confusing it with culture misses the structural constraint on action. Treating it as a single interaction fails to grasp its temporal endurance and spatial reach.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Durkheim compares social structure to the walls of a room, and why Marx would argue this metaphor is incomplete without the concept of human agency.",
+     "a": "Durkheim uses the room metaphor to illustrate externality and constraint: just as walls define possible movements without our consent, social structure (norms, roles, institutions) exists prior to and independent of any individual, setting limits on action. Marx agrees structure constrains but insists humans \"make their own history, but not under conditions of their choosing\" — the room's walls can be knocked down, doors added, or the room repurposed through collective labour. A wrong answer that treats the metaphor as perfect reveals uncritical acceptance of structural determinism. One that ignores Durkheim's \"social facts\" concept misses the empirical reality of constraint. One that sees Marx as only about revolution misses his emphasis on structural conditions shaping agency.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Social structure doesn't constrain me — I chose my stream (Science), my friends, my hobbies. Structure is just an excuse.\" Using the concept of structured choice, analyse this claim with a concrete example from the Indian education system.",
+     "a": "The student confuses absence of coercion with absence of structure. Structured choice means options exist but are unequally distributed by position in the stratification system. Example: A student in a Delhi elite school \"chooses\" Science with access to coaching, labs, and parental guidance; a student in a rural Bihar government school \"chooses\" from Arts streams with no science teachers, no labs, and pressure to work. Both exercise agency, but the menu of choices is structured by class, region, and school type. The structure is the differential opportunity structure, not a gun to the head. A wrong answer that accepts the student's claim confuses voluntariness with structural neutrality. One that says \"structure determines everything\" falls into determinism. The correct analysis shows how structure shapes the probability distribution of outcomes without eliminating agency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare mechanical and organic solidarity as forms of social structure. Identify one Indian social context where each predominates, and explain why the transition between them creates anomie.",
+     "a": "Mechanical solidarity: structure based on sameness — shared beliefs, minimal division of labour, collective conscience (e.g., a tribal village in Chhattisgarh where everyone farms, shares rituals, and disputes are resolved by elders). Organic solidarity: structure based on interdependence through specialised division of labour (e.g., Mumbai's corporate sector where a coder, HR manager, cleaner, and canteen worker depend on each other's specialised roles). Transition creates anomie because old norms (collective obligation) weaken before new norms (contractual reciprocity) fully crystallise — e.g., migrant workers in cities lose village support networks but lack urban labour protections. A wrong answer that treats them as evolutionary stages misses Durkheim's point that both are structural types, not temporal phases. One that ignores anomie fails to grasp the normative vacuum during structural transition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Competition is a natural human instinct; socialism failed because it went against human nature.\" Use sociological evidence from the textbook to critique this naturalistic fallacy.",
+     "a": "The claim commits the naturalistic fallacy sociology explicitly rejects. Textbook evidence: (1) African children in the anecdote rejected competitive games as distressing, preferring collective play — competition is culturally learned, not innate. (2) Competition became dominant only with capitalism's historical emergence (expansion of trade, division of labour, profit maximisation). (3) J.S. Mill called competition \"generally harmful\" yet necessary under capitalism. (4) Ideology of competition assumes equal starting positions, but stratification research shows differential access to education, health, and capital makes competition structurally unequal. A wrong answer that agrees with the claim accepts common sense over sociological analysis. One that simply says \"it's not natural\" without historical evidence fails the evaluation standard. The critique must show competition as a historically specific social process, not a biological given.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-ethnographic observation (30 minutes) in your school cafeteria that would reveal social structure in action. Specify: (a) what structural elements you would observe, (b) how you would distinguish structure from individual behaviour, and (c) what pattern would confirm structure's constraining and enabling duality.",
+     "a": "(a) Observe: seating patterns by class/caste/gender; queue behaviour; food-sharing norms; waste disposal; teacher-student interaction zones. (b) Structure = patterns repeating across days/individuals (e.g., Group A always sits left, Group B right); individual behaviour = deviations (a student crossing zones). (c) Confirming pattern: Students reproduce segregation by habit (constraint) but a new student deliberately sitting across zones sparks negotiation, eventually shifting the pattern (enablement). A poor answer lists behaviours without identifying structural properties (repetition, externality, constraint). A good answer shows how the same seating norm both limits choice and makes \"sitting with friends\" meaningful.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

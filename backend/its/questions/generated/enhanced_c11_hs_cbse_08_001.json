@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_001",
+   "title": "c11_hs_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define \"nutrition\" in the context of child health and distinguish it from \"diet\" using two specific physiological processes that nutrition encompasses but diet does not.",
+     "a": "Nutrition is the sum of processes—ingestion, digestion, absorption, transport, metabolism, and excretion—by which nutrients from food are utilised for growth, repair, and maintenance. Diet refers only to the foods consumed. A student who defines nutrition as \"eating healthy food\" confuses the *input* (diet) with the *biological process* (nutrition). This reveals a failure to understand that malnutrition can occur even with adequate food intake if absorption or metabolism is impaired (e.g., diarrhoea, parasitic infection).",
+     "self_check": true
+    },
+    {
+     "q": "An infant doubles birth weight by 6 months and triples it by 12 months. Explain why the energy requirement per kg body weight (108 kcal/kg at 0-6 months) is nearly double that of an adult doing heavy work, despite the infant's much smaller absolute size.",
+     "a": "Energy per kg is highest in infancy because: (1) Basal metabolic rate per kg is 2-3× adult due to rapid cellular proliferation and protein synthesis for tissue accretion; (2) Thermogenesis is higher due to larger surface-area-to-volume ratio; (3) Cost of growth—depositing 1 g of protein/fat requires ~5-7 kcal for synthesis beyond the energy stored. A student who says \"infants need more energy because they grow fast\" without quantifying the *metabolic cost of synthesis* misses the physiological mechanism. This misconception leads to underestimating why low-birth-weight infants need even higher kcal/kg (up to 120-130) for catch-up growth.",
+     "self_check": true
+    },
+    {
+     "q": "A 4-year-old preschool child (weight 14 kg) consumes 1200 kcal/day with 20 g protein. Using ICMR RDA (Energy: 1690 kcal, Protein: 30 g for 4-6 years), calculate the percentage deficit for each nutrient. Then explain why protein deficit is more damaging than energy deficit at this age, referencing specific developmental processes.",
+     "a": "Energy deficit: (1690-1200)/1690 × 100 = 29%. Protein deficit: (30-20)/30 × 100 = 33%. Protein deficit is more damaging because ages 1-6 years involve peak synaptic pruning, myelination, and neurotransmitter synthesis—all requiring amino acids (tryptophan for serotonin, tyrosine for dopamine). Energy deficit triggers adaptive reduction in activity (lethargy), but protein deficit causes *irreversible* stunting of linear growth and cognitive impairment due to disrupted IGF-1 signalling and reduced dendritic arborisation. A student who only calculates percentages without linking to developmental biology misses the clinical significance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the iron requirement trajectory: Infant 6-12 months (RDA not explicitly given in text but implied high), Preschool 4-6 years (18 mg), School-age girls 10-12 years (27 mg). Analyse why iron needs *increase* across childhood despite slowing growth velocity, and identify the two distinct physiological drivers at preschool vs. school-age stages.",
+     "a": "Iron needs rise because: (1) Preschool (1-6 y): Expansion of total blood volume from ~250 ml at 1 year to ~1500 ml at 6 years requires haemoglobin iron (~0.5 mg per ml blood); (2) School-age girls (10-12 y): Onset of menarche adds menstrual losses (~0.5-1 mg/day) *plus* continued blood volume expansion for adolescent growth spurt. A student who attributes rising iron needs solely to \"growth\" misses the *qualitative shift* from volumetric expansion to reproductive maturation. This error leads to inadequate supplementation timing—iron-folic acid programs often start too late (adolescence) missing the preschool window for cognitive development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Mid-Day Meal Scheme (MDMS) solves childhood undernutrition in India.\" Use evidence from the text on dual burden (undernutrition + overnutrition), socio-economic gradients, and nutrient density to justify your position.",
+     "a": "The statement is partially true but incomplete. MDMS improves *energy* and *protein* intake for undernourished children (evidence: improved attendance, reduced gender gap), but does not address: (1) Micronutrient density—meals often lack diversity (low vitamin A, iron bioavailability); (2) Overnutrition in higher SES—MDMS may add excess calories to children already consuming energy-dense snacks; (3) Infection-nutrition cycle—deworming and sanitation are co-requisites. A student who calls MDMS a \"complete solution\" ignores the *dual burden* paradigm and the need for *nutrient-dense* not just *calorie-dense* meals. This reveals a policy-level misconception common in exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point nutrition education message for mothers in a tribal community where traditional complementary foods include only rice water and ragi porridge (no animal protein, no green leafy vegetables). Each point must target a specific nutrient gap linked to a developmental consequence in infants 6-12 months.",
+     "a": "1. \"Add one teaspoon of mashed boiled egg yolk or mashed dal to porridge daily\"—targets *iron/zinc* gap preventing impaired hippocampal development and immune dysfunction. 2. \"Mix one teaspoon of cooked mashed spinach/amaranth leaves with a few drops of lemon juice into porridge\"—targets *vitamin A/folate* gap preventing xerophthalmia and neural tube defects in future pregnancies. 3. \"Offer 2-3 teaspoons of thick curd (dahi) after porridge\"—targets *calcium/vitamin B12* gap for bone mineralisation and myelination. A poor answer lists generic advice (\"feed varied foods\") without linking *specific local food* to *specific nutrient* to *specific developmental outcome*—the hallmark of senior secondary competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

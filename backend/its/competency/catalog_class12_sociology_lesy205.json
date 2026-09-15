@@ -1,0 +1,499 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 5,
+ "chapter_title": "Change and Development in Industrial Society",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy205.1",
+   "title": "Alienation and the Detailed Division of Labour",
+   "section": "5.1 Images of Industrial Society",
+   "definition": "A factory breaks production into many narrow steps, so each worker completes only a fragment and never sees the finished good. Marx named the resulting condition alienation: the worker neither enjoys the task nor controls it, treats the job purely as a way of staying alive, and can be dropped altogether once machines leave no room for human effort.",
+   "formula": "alienation = narrow_fragment_work + lost_control + work_as_survival_only",
+   "key_idea": "The classic sociologists tied industry to city living, anonymous workplace ties replacing village familiarity, and repetitive exhausting tasks; marx stressed that piecework without a visible product turns employment into bare survival.",
+   "textbook_ref": "lesy205.txt, section 5.1 (marx, weber, durkheim on industry; alienation passage)",
+   "question_patterns": [
+    "what did marx mean by the alienation of a mill weaver in industrial work",
+    "explain how a detailed division of labour cuts a factory weaver off from the final product",
+    "in what sense does alienated work, like a weaver tending four machines at once, become a mere means of survival",
+    "which early sociologists connected industry with urbanisation and anonymous professional ties in place of village relationships",
+    "give an example of how caste distinctions fade in public settings like trains yet persist inside the workplace",
+    "why can a weaver under alienation lose the job whenever technology no longer needs human labour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the components of alienation",
+     "explain": "fragmented tasks, no sight of the end product, no enjoyment of the work, employment hanging on whether technology still has room for human labour"
+    },
+    {
+     "step": 2,
+     "action": "check the classic trio's picture of industrial society",
+     "explain": "marx, weber and durkheim linked industry with urbanisation and anonymous professional relationships replacing the face-to-face ties of rural life"
+    },
+    {
+     "step": 3,
+     "action": "check the equality paradox",
+     "explain": "caste distinctions weaken in public spaces such as trains, buses and cyber cafes, yet upper-caste men still dominate well-paying professions and women are paid less than men for similar work, while income inequality grows"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Marx named the condition of workers who never see the finished good: what is it?",
+     "a": "alienation"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.2",
+   "title": "Sectoral Shares of Employment in India",
+   "section": "5.2 Industrialisation in India",
+   "definition": "India spreads its workers very unevenly across the economy. In 2018-19 the primary sector - farming at 42.5 percent plus mining at 0.4 percent - still held the biggest block of workers even though farming's slice of income has fallen sharply and services now produce more than half of growth, a mismatch that strands most earners in low-income occupations.",
+   "formula": "nonfarm_share = 100 - agriculture_share - mining_share",
+   "key_idea": "With roughly 43 percent of workers in primary activity and only about a third in services, the sector employing the most people adds comparatively little to what they earn.",
+   "textbook_ref": "lesy205.txt, section 5.2 (2018-19 sector shares: agriculture 42.5, mining 0.4, manufacturing 12.1, trade 12.6, transport 5.9, community services 13.8)",
+   "question_patterns": [
+    "in 2018-19 about 42.5 percent of indian workers were in agriculture and 0.4 percent in mining - find the share of employment outside the primary sector",
+    "calculate the percentage of the workforce not engaged in farming or mining, using the chapter's 2018-19 figures",
+    "if the primary sector absorbs about 43 percent of workers, what percent of employment lies outside it",
+    "a district survey repeats the national pattern with agriculture at 40 percent and mining at 1 percent - what share of its workers are beyond the primary sector",
+    "express the combined 2018-19 share of agriculture and mining as a percentage of total employment and state how much employment remains outside",
+    "why is it a serious problem that the sector employing the most indians generates comparatively little income"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two primary-sector shares",
+     "explain": "farming 42.5 percent plus mining 0.4 percent gives the primary block",
+     "compute": "primary_total = agriculture_share + mining_share"
+    },
+    {
+     "step": 2,
+     "action": "subtract the primary block from 100",
+     "explain": "everything outside farming and mining is the non-farm share of employment",
+     "compute": "nonfarm_share = 100 - primary_total"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What share of Indian workers did farming hold in 2018-19: 42.5 percent or 4.25?",
+     "a": "42.5 percent"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.3",
+   "title": "Employment Status: Self-employed, Regular and Casual Workers",
+   "section": "5.2 Industrialisation in India",
+   "definition": "Only about a quarter of indian workers hold regular salaried posts; over half are self-employed, ranging from plumbers and street vendors to tutors and freelance photographers, and roughly a quarter toil as casual wage earners. This split explains why secure, benefit-backed jobs remain a minority experience even in a growing economy.",
+   "formula": "self_employed_count = total_workers * self_share / 100",
+   "key_idea": "Regular salaried work covers barely 24 percent and casual labour another 24 percent, so more than half of india lives on self-employment without assured wages or benefits.",
+   "textbook_ref": "lesy205.txt, section 5.2 (employment status chart 1972-73 to 2018-19: 52 percent self-employed, 24 percent regular, 24 percent casual)",
+   "question_patterns": [
+    "over 52 percent of indian workers are self-employed - out of 6 lakh workers, how many would be self-employed",
+    "a district has 2,50,000 workers and mirrors the national 52 percent self-employment share; find the number of self-employed workers",
+    "calculate how many workers in a 10 lakh labour force would be self-employed at the chapter's 52 percent rate",
+    "out of 800 workers in a town, how many are likely to be self-employed if the 52 percent share holds",
+    "a mill city has a workforce of 1.5 lakh including badli hands; using the chapter's 52 percent self-employment figure, how many work for themselves"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the percentage share into a fraction",
+     "explain": "dividing 52 by 100 turns the self-employment share into a multiplier",
+     "compute": "self_fraction = self_share / 100"
+    },
+    {
+     "step": 2,
+     "action": "apply the fraction to the workforce",
+     "explain": "multiplying the total workforce by the fraction yields the self-employed headcount",
+     "compute": "self_employed_count = total_workers * self_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what share of Indian workers are self-employed: over half or a tenth?",
+     "a": "over half"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.4",
+   "title": "Organised and Unorganised Sectors",
+   "section": "5.2 Industrialisation in India",
+   "definition": "The organised sector covers registered units employing ten or more people through the year, which entitles staff to proper wages, pension and benefits. In india over nine-tenths of all work - on the farm, in the factory or the office - sits outside this protection in the informal sector, where hiring, raises and dismissal run on personal goodwill rather than written rules.",
+   "formula": "formal_workers = total_workers * formal_share / 100",
+   "key_idea": "Because registration is rare, union membership thin and workplaces small, secure employment reaches very few indians - of those who do hold it, two-thirds work for the government.",
+   "textbook_ref": "lesy205.txt, section 5.2 (organised sector definition, over 90 percent informal, two-thirds of secure jobs in government)",
+   "question_patterns": [
+    "over 90 percent of india's work is unorganised - out of 4 lakh workers in a district, at most how many hold organised-sector jobs",
+    "if 93 percent of workers in a state labour in the unorganised sector, what ceiling does that put on formal jobs in a 10 lakh workforce",
+    "calculate the maximum number of protected jobs in a town of 80,000 workers, assuming the chapter's 90 percent informal estimate",
+    "a city labour force of 12 lakh mirrors the national pattern of 90 percent unorganised work; how many workers can the organised sector employ at most",
+    "given that 88 percent of workers in a block are informal, how many of its 50,000 workers could have registered-sector employment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the informal estimate into its formal complement",
+     "explain": "informal work of 90 percent leaves at most 10 percent formal",
+     "compute": "formal_share = 100 - informal_share"
+    },
+    {
+     "step": 2,
+     "action": "apply the ceiling to the workforce",
+     "explain": "multiplying the workforce by the formal share gives the largest possible organised-sector headcount",
+     "compute": "formal_workers = total_workers * formal_share / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The organised sector covers registered units employing how many or more people: ten or two?",
+     "a": "ten"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.5",
+   "title": "Liberalisation, Privatisation and Disinvestment",
+   "section": "5.2 Industrialisation in India",
+   "definition": "From the 1990s the government threw open areas once reserved for itself - telecom, civil aviation, power - scrapped industrial licensing, and began selling its stake in public companies, a sale known as disinvestment. Foreign and domestic giants bought up indian firms while others grew multinational, and permanent posts shrank as companies pushed work out to smaller firms, contractors and homes.",
+   "formula": "liberalisation = open_reserved_sectors + end_of_licensing + disinvestment + outsourcing",
+   "key_idea": "Workers read the new policy as a threat: at modern foods, the first company privatised, three-fifths of the staff were pushed to retire within five years, and coca cola's advertising budget of 400 crore dwarfed parle's turnover of 250 crore.",
+   "textbook_ref": "lesy205.txt, section 5.2 (liberalisation since the 1990s; parle-coca cola; modern foods; disinvestment)",
+   "question_patterns": [
+    "what does disinvestment mean and why do government employees fear it",
+    "name the 1990s policy change that ended the licence requirement for opening industries and opened the door to disinvestment",
+    "which sectors once reserved for the state were opened to private and foreign investment after liberalisation",
+    "how does the parle takeover by coca cola illustrate the advertising gap between indian brands and multinationals",
+    "in what ways does outsourcing to smaller firms push wages down and weaken trade unions",
+    "what happened to the workforce of modern foods after it became the first privatised company"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the policy package",
+     "explain": "telecom, civil aviation and power opened to private and foreign investment, industrial licences were abolished, and foreign goods entered indian shops freely"
+    },
+    {
+     "step": 2,
+     "action": "check the disinvestment claim",
+     "explain": "disinvestment is the government selling its share in public sector companies; modern foods was privatised first and 60 percent of its workers retired within five years"
+    },
+    {
+     "step": 3,
+     "action": "check the outsourcing trend",
+     "explain": "companies cut permanent staff and contract work out to smaller firms or homes; small suppliers competing for orders keep wages low and unions find them hard to organise"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The government selling its stake in public companies is called what?",
+     "a": "disinvestment"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.6",
+   "title": "Jobbers, Contractors and Badli Workers: How Indians Find Work",
+   "section": "5.3 How People Find Jobs",
+   "definition": "Only a small minority lands jobs through advertisements or the employment exchange; personal contacts carry almost everyone. In kanpur's mills the mistri - a jobber drawn from the workers' own region and community - recruited and bossed hands with the owner's backing; today contractors advance loans to village labour for construction sites, and badli hands substitute for permanent workers on leave without gaining their status or security.",
+   "formula": "recruitment = personal_contacts + jobbers + contractors + badli_substitutes",
+   "key_idea": "Debt still binds labour, but the cash advance owed to a contractor no longer carries the social obligations that tied a farm servant to a landlord, so an industrial worker can break off and seek another employer.",
+   "textbook_ref": "lesy205.txt, section 5.3 (mistris of kanpur; badli workers; contractor advances; mudra, aatmanirbhar bharat, make in india)",
+   "question_patterns": [
+    "who were the mistris of kanpur's textile mills and what power did they hold over fellow workers",
+    "how does the contractor system at construction sites use loan advances to hold casual labour",
+    "what is a badli worker and why does long service with one company not bring permanent status",
+    "in what sense is debt-bound industrial labour freer than the old tied agricultural labourer",
+    "why do self-employed people such as plumbers, tutors and photographers rely on personal contacts rather than advertisements",
+    "which government schemes were floated to generate employment and self-employment among marginalised sections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the jobber's role",
+     "explain": "mistris came from the same regions and communities as the workers, held the owner's backing to boss over them, and also put community-related pressures on them; their importance has since declined"
+    },
+    {
+     "step": 2,
+     "action": "check the contractor's advance",
+     "explain": "the contractor visits villages, lends money including transport cost, treats the loan as an advance wage, and the worker toils unpaid until the debt clears - yet can still break the contract for another employer"
+    },
+    {
+     "step": 3,
+     "action": "check badli work and the new schemes",
+     "explain": "badli workers stand in for permanent staff on leave, some for years without the same security, while mudra, aatmanirbhar bharat and make in india aim at employment and self-employment for sc, st and backward classes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In Kanpur's mills, the jobber drawn from the workers' own region was called the what: mistri or munim?",
+     "a": "mistri"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.7",
+   "title": "Machine-Paced Work and Rest-Time Arithmetic",
+   "section": "5.4 How is work carried out?",
+   "definition": "Management has two levers for squeezing out more output: stretch the working day or raise production within each hour. On a car assembly line the machine sets the tempo, so rest is rationed to the minute - adding the short tea pauses and the lunch break shows how little of the shift actually belongs to the worker.",
+   "formula": "rest_share = rest_minutes * 100 / shift_minutes",
+   "key_idea": "At maruti udyog two cars leave the line every minute while workers get only forty-five minutes of rest in a whole day, and just-in-time delivery of parts every two hours keeps the pace tense; most are worn out by age forty.",
+   "textbook_ref": "lesy205.txt, section 5.4 (maruti udyog: two cars per minute, two 7.5 minute tea breaks, half hour lunch, just-in-time parts)",
+   "question_patterns": [
+    "at maruti udyog workers get two tea breaks of 7.5 minutes each and a half hour lunch - what percent of an eight hour shift is rest",
+    "calculate the share of a 480 minute shift that goes to rest when the breaks total 45 minutes",
+    "a plant allots two 10 minute tea breaks and a 40 minute lunch in a 9 hour day; find the rest percentage of the shift",
+    "if rest time on an assembly line is 45 minutes out of a 540 minute day, what percent of the day is rest",
+    "what percentage of a 480 minute shift remains for rest when the tea and lunch breaks add up to 36 minutes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the tea breaks",
+     "explain": "two breaks of 7.5 minutes each come to 15 minutes of tea time",
+     "compute": "tea_total = first_break + second_break"
+    },
+    {
+     "step": 2,
+     "action": "add the lunch break",
+     "explain": "the tea total plus the half hour lunch gives all the rest time in the day",
+     "compute": "rest_minutes = tea_total + lunch_minutes"
+    },
+    {
+     "step": 3,
+     "action": "express rest as a percentage of the shift",
+     "explain": "dividing rest time by the shift length and scaling by 100 gives the rest share",
+     "compute": "rest_share = rest_minutes * 100 / shift_minutes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "On a car assembly line, what sets the tempo: the machine or the worker?",
+     "a": "the machine"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.8",
+   "title": "Working Conditions, Mines Law and Migrant Hands",
+   "section": "5.5 Working conditions",
+   "definition": "Statutes such as the mines act of 1952, since folded into the 2020 occupational safety code, cap weekly hours, require overtime pay and lay down safety rules - yet small mines and quarries dodge them through sub-contractors who skip proper worker registers, dodging responsibility for accidents and benefits. Underground miners face floods, fires, roof falls and gas leaks, and many develop silicosis or tuberculosis.",
+   "formula": "safety_rules = hour_caps + overtime_pay + inspection_of_mines",
+   "key_idea": "Migrant crews staff the hardest jobs far from home - coal mining alone engages 5.5 lakh workers, and coastal fish processing plants house ten to twelve single young women from the southern states in one small room.",
+   "textbook_ref": "lesy205.txt, section 5.5 (mines act 1952, occupational safety health and working condition code 2020, coal 5.5 lakh workers, fish processing migrants)",
+   "question_patterns": [
+    "which 1952 law governed hours and safety in mines, and which 2020 code absorbed it",
+    "list the dangers underground miners face and two diseases the chapter links to mining work",
+    "how do sub-contractors in small mines and quarries escape responsibility for accidents and benefits",
+    "why do coastal fish processing plants prefer single young women workers and how are they housed",
+    "what does the chapter say about the rate of accidents in india's mines compared with other countries",
+    "what must a mining company do to a worked-out area according to the rules, and what happens in practice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the legal frame",
+     "explain": "the mines act 1952 - now inside the occupational safety, health and working condition code 2020 - fixes maximum weekly hours, overtime pay and safety rules, followed mainly in big companies"
+    },
+    {
+     "step": 2,
+     "action": "check the hazards",
+     "explain": "underground dangers include flooding, fire, collapse of roofs and sides, gas emissions and ventilation failures; overground workers brave sun, rain, blasting and falling objects, and breathing diseases like tuberculosis and silicosis are common"
+    },
+    {
+     "step": 3,
+     "action": "check the migrant pattern",
+     "explain": "fish processing plants on the coast employ mostly single young women from tamil nadu, karnataka and kerala, ten to twelve to a small room, while men migrate singly - trading joint family life for loneliness, though young women gain some economic autonomy"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which act of 1952 laid down safety rules for mines: the Mines Act or the Factories Act?",
+     "a": "the Mines Act"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.9",
+   "title": "Home-Based Work and the Bidi Chain",
+   "section": "5.6 Home-based work",
+   "definition": "Lace, zari, brocade, carpets, agarbattis and bidis are largely made inside homes, chiefly by women and children paid by the piece. An agent delivers raw material and collects the finished lots; in the bidi trade a villager plucking tendu leaves in forest areas can gather about a hundred bundles a day, each holding fifty leaves, before auctions pass the leaves down through contractors to home rollers and on to pan shops.",
+   "formula": "leaf_count = bundles_per_day * leaves_per_bundle",
+   "key_idea": "Piece rates hide a long chain of middlemen - leaves move from collector to forest department to auction to contractor to home worker, and every hand in the sequence keeps the pay thin.",
+   "textbook_ref": "lesy205.txt, section 5.6 (bidi industry: 100 bundles a day, 50 leaves each, agent and piece-rate system)",
+   "question_patterns": [
+    "a bidi leaf collector gathers 100 bundles a day with 50 leaves per bundle - how many leaves does the collector handle daily",
+    "calculate the daily leaf count when a tendu collector brings in 80 bundles of 50 leaves each",
+    "if a collector manages 60 bundles at 50 leaves a bundle, find the total leaves collected in a day",
+    "using the chapter's averages of 100 bundles a day and 50 leaves a bundle, compute the leaves one person collects per day",
+    "in the bidi industry, what work do home-based women workers do on the leaves and tobacco before the contractor collects the bidis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the bundle size",
+     "explain": "each tendu bundle holds fifty leaves",
+     "compute": "leaves_per_bundle = 50"
+    },
+    {
+     "step": 2,
+     "action": "multiply the day's bundles by the bundle size",
+     "explain": "a collector averages one hundred bundles a day, so the daily leaf count is bundles times leaves per bundle",
+     "compute": "leaf_count = bundles_per_day * leaves_per_bundle"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Bidi and lace workers are paid by the what: piece or month?",
+     "a": "piece"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.10",
+   "title": "Strikes, Lockouts and the 1982 Bombay Textile Strike",
+   "section": "5.7 Strikes and unions",
+   "definition": "When bargaining fails, workers stop work together in a strike, while a lockout is the employer's counter of shutting the gate against them. Calling a strike is risky: managers can try substitute labour and families run short without wages. The 1982 bombay textile strike under datta samant held out nearly two years and drew about a quarter of a million workers, yet roughly one lakh never returned to the mills.",
+   "formula": "job_loss_percent = jobs_lost * 100 / strikers_total",
+   "key_idea": "The failed strike remade mumbai - displaced millhands drifted to villages, casual work or powerloom towns like bhiwandi and malegaon, while owners left machinery to rust and now sell mill land to real estate builders.",
+   "textbook_ref": "lesy205.txt, section 5.7 (strike vs lockout; bombay textile strike 1982, datta samant, quarter of a million workers, one lakh jobs lost)",
+   "question_patterns": [
+    "in the strike - the opposite of a lockout - about 2,50,000 workers joined the 1982 bombay textile strike and nearly 1,00,000 lost their jobs; what percent of the strikers lost their jobs",
+    "calculate the percentage of strikers who lost employment when 1,00,000 out of 2,50,000 could not return to the mills",
+    "using the chapter's figures for the bombay strike, where the alternative was a management lockout, how many out of every 100 participants lost their jobs",
+    "if a quarter of a million workers struck and one lakh drifted back to villages or casual labour, find the job-loss percentage",
+    "a mock strike, the reverse of a lockout, ends with 10,000 dismissals out of 40,000 strikers - what percent lost their jobs",
+    "distinguish between a strike and a lockout, and state who led the 1982 bombay textile strike"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the job losses against the strikers",
+     "explain": "divide the jobs lost by the total number of strikers",
+     "compute": "loss_fraction = jobs_lost / strikers_total"
+    },
+    {
+     "step": 2,
+     "action": "convert the fraction to a percentage",
+     "explain": "multiplying by 100 expresses the job-loss share in percent",
+     "compute": "job_loss_percent = loss_fraction * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The employer's counter of shutting the gate is called a what: lockout or strike?",
+     "a": "lockout"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy205.we1",
+   "source_ref": "lesy205.txt section 5.2, 2018-19 sector shares",
+   "concept": "lesy205.2",
+   "question_type": "compute",
+   "question_pattern": "In 2018-19, 42.5 percent of india's workers were in agriculture and 0.4 percent in mining. What share of employment lay outside the primary sector?",
+   "extracted_variables": {
+    "agriculture_share": 42.5,
+    "mining_share": 0.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two primary-sector shares",
+     "explain": "42.5 + 0.4 = 42.9 percent in the primary sector",
+     "compute": "primary_total = agriculture_share + mining_share"
+    },
+    {
+     "step": 2,
+     "action": "subtract the primary block from 100",
+     "explain": "100 - 42.9 = 57.1 percent of employment is outside farming and mining",
+     "compute": "nonfarm_share = 100 - primary_total"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.we2",
+   "source_ref": "lesy205.txt section 5.4, maruti udyog box",
+   "concept": "lesy205.7",
+   "question_type": "compute",
+   "question_pattern": "At maruti udyog, workers get two tea breaks of 7.5 minutes each and a lunch break of half an hour. What percent of an eight hour shift is rest?",
+   "extracted_variables": {
+    "first_break": 7.5,
+    "second_break": 7.5,
+    "lunch_minutes": 30,
+    "shift_minutes": 480
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the tea breaks",
+     "explain": "7.5 + 7.5 = 15 minutes of tea time",
+     "compute": "tea_total = first_break + second_break"
+    },
+    {
+     "step": 2,
+     "action": "add the lunch break",
+     "explain": "15 + 30 = 45 minutes of rest in the whole day",
+     "compute": "rest_minutes = tea_total + lunch_minutes"
+    },
+    {
+     "step": 3,
+     "action": "express rest as a percentage of the shift",
+     "explain": "45 out of 480 minutes gives 9.375 percent of the shift as rest",
+     "compute": "rest_share = rest_minutes * 100 / shift_minutes"
+    }
+   ]
+  },
+  {
+   "id": "lesy205.we3",
+   "source_ref": "lesy205.txt section 5.7, bombay textile strike 1982",
+   "concept": "lesy205.10",
+   "question_type": "compute",
+   "question_pattern": "About 2,50,000 workers joined the 1982 bombay textile strike and nearly 1,00,000 lost their jobs. What percent of the strikers lost their jobs?",
+   "extracted_variables": {
+    "strikers_total": 250000,
+    "jobs_lost": 100000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the job losses against the strikers",
+     "explain": "100000 divided by 250000 gives 0.4",
+     "compute": "loss_fraction = jobs_lost / strikers_total"
+    },
+    {
+     "step": 2,
+     "action": "convert the fraction to a percentage",
+     "explain": "0.4 times 100 = 40 percent of the strikers lost their jobs",
+     "compute": "job_loss_percent = loss_fraction * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy205.ex1",
+   "source_ref": "lesy205.txt chapter-end Questions 1-2",
+   "questions": [
+    "Choose any occupation you see around you - and describe it along the following lines: a) social composition of the work force - caste, gender, age, region; b) labour process - how the work takes place, c) wages and other benefits, d) working conditions - safety, rest times, working hours, etc.",
+    "How has liberalisation affected employment patterns in India?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "catalog": "catalog_class8_maths_hemh112.json",
+ "concepts": [
+  {
+   "id": "hemh.112.12.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 3 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 * 2 * 2 + 4 * 2 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 9 + 8 - 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 3 * 6 + 3 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 3 + 3 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (4 + 6) * 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 3 + 9"
+   ]
+  },
+  {
+   "id": "hemh.112.12.2",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1",
+      "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 7744 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 7 + 7 + 4 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (7 + 7 + 4 + 4) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(85 - 58)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(8 - 5)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1",
+    "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8",
+    "diff = big - small"
+   ]
+  },
+  {
+   "id": "hemh.112.12.3",
+   "family": "identities",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 20 * 20 - 2 * 20 * 8 + 8 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 11 * 11 - 2 * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 8 * 8 + (6 + 4) * 8 + 6 * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 10000 + 2 * 100 * 2 + 2 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 100 * 100 - 2 * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
+   ]
+  },
+  {
+   "id": "hemh.112.12.4",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 4 + 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 4 * 4 + 8 * 4 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 4 + 9 - 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 9 * 3 + 9 * 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 2 + 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (6 + 5) * 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

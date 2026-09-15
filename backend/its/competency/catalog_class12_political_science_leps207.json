@@ -1,0 +1,247 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 7,
+ "chapter_title": "Regional Aspirations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.207.1.1",
+   "title": "Region and the Nation: The Indian Approach to Diversity",
+   "section": "Region and the Nation",
+   "definition": "Indian nationalism set out to balance unity with diversity -- the nation would not negate the region -- so regional aspirations were treated as legitimate democratic expressions rather than anti-national threats, and the answer to language- and identity-based demands was to redraw internal boundaries, as with Punjab and Haryana in 1966 and later Chhattisgarh, Uttarakhand and Jharkhand, even though Kashmir and Nagaland resisted settlement in the first phase of nation-building.",
+   "formula": "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing",
+   "key_idea": "Where European nations saw cultural diversity as a threat, India's democratic framework let regional identities organise, agitate and still belong to the Union.",
+   "textbook_ref": "leps207.txt Region and the Nation, Areas of tension (lines 56-149)",
+   "question_patterns": [
+    "how does indian nationalism balance the principles of unity and diversity",
+    "why are regional aspirations not considered anti national in indian democracy",
+    "how did india meet the challenge of diversity by redrawing internal boundaries",
+    "which linguistic states were created after mass agitations and when",
+    "compare the indian approach to diversity with the european approach",
+    "why could kashmir and nagaland not be settled in the first phase of nation building"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the principle", "explain": "the Constitution's basic stance is that the nation shall not deny regions and linguistic groups the right to keep their own culture, uniting without erasing distinctiveness"},
+    {"step": 2, "action": "verify the democratic mechanism", "explain": "parties may mobilise on regional identity and problems, so aspirations gain voice while policy-making gives them attention and accommodation"},
+    {"step": 3, "action": "verify the settlements", "explain": "agitations won Andhra Pradesh, Karnataka, Maharashtra, Gujarat, then Punjab and Haryana in 1966 and later Chhattisgarh, Uttarakhand and Jharkhand, though pockets of tension persisted"}
+   ]
+  },
+  {
+   "id": "leps.207.2.1",
+   "title": "Jammu and Kashmir: Roots, Article 370 and Competing Grievances",
+   "section": "Roots of the Problem",
+   "definition": "A princely state whose ruler Hari Singh wanted independence, Jammu and Kashmir acceded amid a Pakistani-sponsored tribal invasion of 1947 that left part of the territory as Pakistan occupied Jammu and Kashmir; the state's three regions -- Hindu-majority Jammu, Muslim-majority Kashmir valley and Buddhist-Muslim Ladakh -- sat under Article 370's special status, which critics outside wanted revoked for full integration while many Kashmiris found its practice eroded, citing an unheld plebiscite promise, lost autonomy and an unconsolidated democracy.",
+   "formula": "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances",
+   "key_idea": "Kashmiriyat -- identifying as Kashmiri above all -- sat between Pakistan's religious claim and India's integration, and both external war and internal mistrust grew from that triangle.",
+   "textbook_ref": "leps207.txt Jammu and Kashmir, Roots of the Problem, External and internal disputes (lines 164-507)",
+   "question_patterns": [
+    "what are the three social and political regions of jammu and kashmir",
+    "what is meant by kashmiriyat",
+    "why did pakistan claim the kashmir valley after 1947",
+    "what special status did article 370 confer on jammu and kashmir",
+    "state the three major grievances of kashmiris about article 370",
+    "what is pojk and why is it significant to the dispute"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the accession context", "explain": "Hari Singh sought independent status; a Pakistani-backed tribal invasion in 1947 forced accession and split the state, leaving POJK under Pakistani control"},
+    {"step": 2, "action": "verify the popular politics", "explain": "Sheikh Abdullah's secular National Conference opposed both the Maharaja and joining Pakistan, and the popular sentiment of Kashmiriyat prized Kashmiri identity"},
+    {"step": 3, "action": "verify the two opposite reactions", "explain": "one section demanded revocation of Article 370 for complete integration, while Kashmiris demanded a plebiscite promise kept, restoration of greater state autonomy and genuinely institutionalised democracy"}
+   ]
+  },
+  {
+   "id": "leps.207.3.1",
+   "title": "Kashmir Politics since 1948: From Accord to Insurgency",
+   "section": "Politics since 1948",
+   "definition": "Sheikh Abdullah's land reforms gave way to his 1953 dismissal and long detention; Congress-backed governments and allegations of rigging ruled until the 1974 Indira Gandhi-Sheikh Abdullah accord restored the National Conference, but Farooq Abdullah's 1984 dismissal and the NC-Congress electoral alliance ahead of the widely believed rigged 1987 election bred the resentment that by 1989 became insurgency for a separate Kashmiri nation, pushing the state into a decade of President's rule, violence and the displacement of Kashmiri Pandits before elections returned in 1996 and coalition politics from 2002.",
+   "formula": "kashmir_cycle = centre_interventions + 1974_accord + 1987_rigged_election + insurgency_1989",
+   "key_idea": "Each central interference -- dismissal, alliance, tainted poll -- drained the trust Kashmiris had built in democratic processes and pushed youth toward militancy.",
+   "textbook_ref": "leps207.txt Politics since 1948, Insurgency and After, 2002 and Beyond (lines 539-629)",
+   "question_patterns": [
+    "why was sheikh abdullah dismissed in 1953 and when did he return",
+    "what did the 1974 accord between indira gandhi and sheikh abdullah achieve",
+    "how did the dismissal of farooq abdullah affect kashmiri trust in the centre",
+    "why is the 1987 assembly election considered a turning point",
+    "describe the insurgency that gripped kashmir by 1989",
+    "which coalitions governed jammu and kashmir after the 2002 election"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the early phase", "explain": "after Abdullah's dismissal in 1953, unsupported successors ruled on Centre's support amid rigging charges; the state's Prime Minister was redesignated Chief Minister in 1965 with Ghulam Mohammed Sadiq first in that office"},
+    {"step": 2, "action": "verify the accord and its erosion", "explain": "the 1974 agreement made Abdullah Chief Minister and his revived National Conference won in 1977, but Farooq's dismissal, the 1986 NC-Congress alliance and the disputed 1987 poll wrecked renewed confidence"},
+    {"step": 3, "action": "verify the insurgency and after", "explain": "by 1989 a Pakistan-supported militant movement for a separate Kashmiri nation led to President's rule, violence and the exodus of Kashmiri Pandits; elections resumed in 1996, then PDP-Congress in 2002, NC-Congress under Omar Abdullah in 2009 and PDP-BJP after the record 2014 turnout"}
+   ]
+  },
+  {
+   "id": "leps.207.4.1",
+   "title": "Dravidian Movement: Regionalism through Democratic Means",
+   "section": "Dravidian movement",
+   "definition": "Summed up by the slogan that the north thrives while the south decays, the Dravidian movement of Tamil Nadu opposed Brahmin dominance and north Indian economic and cultural power -- some sections even dreaming of a Dravida nation -- yet it never took to arms, working through public debate and elections: E. V. Ramasami Periyar's Dravidar Kazhagam passed its legacy to the DMK, whose 1953-54 agitations over the Kallakudi station renamed Dalmiapuram, and later anti-Hindi campaigns, carried it to state power and national influence.",
+   "formula": "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform",
+   "key_idea": "A movement that began with secessionist daydreams won more through ballots and banners than bullets, becoming a model of democratic regionalism.",
+   "textbook_ref": "leps207.txt Dravidian movement box (lines 227-279)",
+   "question_patterns": [
+    "what does the slogan vadakku vaazhgiradhu therkku thaeikiradhu express",
+    "what were the aims of the dravidar kazhagam under periyar",
+    "how did the dmk enter electoral politics in 1953-54",
+    "why did the kallakudi dalmiapuram agitation matter symbolically",
+    "compare the dravidian movement's methods with armed regional movements",
+    "how did the dravidian movement limit itself to tamil nadu"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the social critique", "explain": "the movement attacked Brahmin dominance and asserted regional pride against the political, economic and cultural domination of the north"},
+    {"step": 2, "action": "verify the organisational path", "explain": "Periyar's DK split and transferred its political legacy to the DMK, which confined the movement's reach to Tamil Nadu after other southern states withheld support"},
+    {"step": 3, "action": "verify the agitational record", "explain": "the DMK's three-pronged 1953-54 agitation began with restoring the original name of the Kallakudi railway station that had been renamed after a north Indian industrial house, and the movement later led resistance to Hindi's imposition"}
+   ]
+  },
+  {
+   "id": "leps.207.5.1",
+   "title": "Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star",
+   "section": "Political context",
+   "definition": "Sikh agitation for a Punjabi-speaking state led by leaders like Master Tara Singh succeeded in 1966 when Punjab was truncated and Sikhs became a majority, but coalition Akali governments faced dismissal from the Centre, thin Hindu support and a community divided by caste and class; the Anandpur Sahib Resolution of 1973 demanded regional autonomy and redefined centre-state relations while speaking of Sikh qaum and bolbala, and after the 1980 dismissal a water-sharing movement slid from moderate Akali leadership into armed insurgency headquartered in the Golden Temple, answered by Operation Blue Star in June 1984.",
+   "formula": "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984",
+   "key_idea": "A federal demand for autonomy hardened into insurgency when political dismissal and religious identity fed each other.",
+   "textbook_ref": "leps207.txt Political context, Cycle of violence (lines 650-748)",
+   "question_patterns": [
+    "why were the states of punjab and haryana created in 1966",
+    "what did the anandpur sahib resolution of 1973 demand",
+    "what do the terms qaum and bolbala signify in the resolution",
+    "why did akali governments remain politically precarious after 1966",
+    "how did the golden temple become the militants' headquarters",
+    "what was operation blue star and what were its consequences"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the linguistic reorganisation", "explain": "the Punjabi suba agitation of Punjabi speakers was accepted in 1966, creating a Sikh-majority Punjab and Haryana"},
+    {"step": 2, "action": "verify the autonomy demand", "explain": "the 1973 Anandpur Sahib Resolution sought stronger federalism and redefined centre-state ties, with some sections reading its Sikh qaum and bolbala language as identity assertion; the appeal among Sikh masses stayed limited"},
+    {"step": 3, "action": "verify the descent into violence", "explain": "after the 1980 dismissal the Akali movement over river-water sharing passed to extremists who fortified the Golden Temple, and the June 1984 army operation flushed them out while damaging the shrine and wounding Sikh sentiment"}
+   ]
+  },
+  {
+   "id": "leps.207.6.1",
+   "title": "1984 Anti-Sikh Violence and the Road to Peace in Punjab",
+   "section": "Road to peace",
+   "definition": "Indira Gandhi's assassination by her Sikh bodyguards on 31 October 1984 unleashed a week of anti-Sikh violence in which more than two thousand Sikhs died in Delhi alone, crimes the state was slow to punish -- the Nanavati Commission later found systematic organisation of the attacks, and Prime Minister Manmohan Singh apologised in Parliament in 2005; Rajiv Gandhi's July 1985 Punjab Accord with Sant Harchand Singh Longowal promised Chandigarh's transfer, a boundary commission and a Ravi-Beas waters tribunal, yet violence ran nearly a decade more before peace and the 1997 Akali Dal-BJP victory restored normal politics.",
+   "formula": "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997",
+   "key_idea": "Accords end wars slowly: the 1985 agreement pointed the way, but only security victory, elections and time returned Punjab to development politics.",
+   "textbook_ref": "leps207.txt Cycle of violence, Road to peace, Nanavati box (lines 718-891)",
+   "question_patterns": [
+    "what followed the assassination of indira gandhi on 31 october 1984",
+    "what did the justice nanavati commission find about the 1984 violence",
+    "how did prime minister manmohan singh respond to the anti sikh killings in 2005",
+    "what were the main terms of the rajiv gandhi longowal accord",
+    "why was the 1992 punjab election turnout so low",
+    "how did peace finally return to punjab by the mid 1990s"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the violence and accountability", "explain": "over two thousand Sikhs were killed in Delhi and hundreds elsewhere including Kanpur, Bokaro and Chas; the Nanavati report recorded organised attacks with little police fear, and the 2005 parliamentary apology expressed national shame"},
+    {"step": 2, "action": "verify the accord", "explain": "the July 1985 Punjab Accord with Akali president Longowal covered Chandigarh's transfer to Punjab, a commission on the Punjab-Haryana boundary, a tribunal for Ravi-Beas waters among Punjab, Haryana and Rajasthan, compensation for militancy victims and withdrawal of the Armed Forces Special Powers Act"},
+    {"step": 3, "action": "verify the long peace", "explain": "Longowal's assassination and nearly a decade of militancy, police excess and President's rule followed; only 24 per cent voted in 1992, but security forces ended militancy and the 1997 election under Akali Dal (Badal)-BJP returned the state to secular development politics"}
+   ]
+  },
+  {
+   "id": "leps.207.7.1",
+   "title": "North-East: Reorganisation and the Mizo-Naga Secessionist Paths",
+   "section": "Secessionist movements",
+   "definition": "Carved almost wholly from Assam and linked to India by a 22-kilometre corridor, the North-East's politics pivots on autonomy, secession and opposition to outsiders: reorganisation by 1972 created Nagaland, Manipur, Tripura and Meghalaya with Mizoram and Arunachal following in 1987, while two secessionist stories diverged -- Laldenga's Mizo National Front, born of the 1959 famine, fought two decades of guerrilla war until the 1986 Rajiv Gandhi accord gave Mizoram statehood and made him Chief Minister, whereas A. Z. Phizo's Naga declaration of independence from 1951 has still found no final settlement.",
+   "formula": "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved",
+   "key_idea": "Negotiation matured in the hills: where leadership on both sides chose dialogue, insurgency ended in statehood, but where it did not, conflict outlived decades.",
+   "textbook_ref": "leps207.txt The North-East, Demands for autonomy, Secessionist movements (lines 941-1124)",
+   "question_patterns": [
+    "how was the north east reorganised into separate states by 1987",
+    "why did the mizo national front take up arms after 1959",
+    "describe the 1986 accord between rajiv gandhi and laldenga",
+    "compare the mizoram and nagaland movements for secession",
+    "who was a z phizo and what does the naga issue await",
+    "how were bodo, karbi and dimasa autonomy demands accommodated within assam"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the reorganisation", "explain": "non-Assamese resentment at Assamese language imposition grew through the Eastern India Tribal Union into the All Party Hill Leaders Conference, yielding Meghalaya, Mizoram and Arunachal out of Assam and upgraded Tripura and Manipur by 1972-1987"},
+    {"step": 2, "action": "verify the Mizo settlement", "explain": "the famine of 1959 radicalised the Mizo hills; Laldenga's MNF fought from 1966 with Pakistani shelter until negotiations produced the 1986 accord, full statehood with special powers, MNF's renunciation of secession and Laldenga as Chief Minister"},
+    {"step": 3, "action": "verify the Naga contrast", "explain": "Phizo rejected negotiated offers after the 1951 independence declaration, the Naga National Council fought for sovereignty, a partial agreement satisfied only some factions, and a final resolution still awaits"},
+    {"step": 4, "action": "verify intra-state autonomy", "explain": "Bodos, Karbis and Dimasas sought separate states but received an Autonomous Council and District Councils under Assam's federal provisions instead"}
+   ]
+  },
+  {
+   "id": "leps.207.8.1",
+   "title": "The Assam Movement against Outsiders, 1979-1985",
+   "section": "Movements against outsiders",
+   "definition": "Suspecting huge illegal Bengali Muslim migration from Bangladesh and resenting that Assam's oil, tea and coal drained out without local benefit, the non-party All Assam Students' Union led from 1979 an anti-foreigner movement demanding detection and deportation of all entrants after 1951 and protesting faulty electoral rolls; after six years of turmoil including blockade tactics and violent deaths, the 1985 Rajiv Gandhi accord promised deportation of post-Bangladesh-war migrants, and the leaders converted their movement into the Asom Gana Parishad, which won power that year on the promise of a Golden Assam.",
+   "formula": "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad",
+   "key_idea": "A students' movement converted agitation into a regional party, winning office without settling the outsider question that still animates Assam's politics.",
+   "textbook_ref": "leps207.txt Movements against outsiders (lines 1125-1167)",
+   "question_patterns": [
+    "why did the assamese feel threatened by outsiders after 1979",
+    "what role did the all assam students union play in the movement",
+    "what did the movement demand regarding the voters register",
+    "state the main provisions of the assam accord of 1985",
+    "how did the asom gana parishad emerge from the movement",
+    "why does the outsiders issue remain live in assam politics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the grievances", "explain": "fear of becoming a minority under illegal settlers combined with poverty and unemployment despite oil, tea and coal wealth extracted without commensurate local benefit"},
+    {"step": 2, "action": "verify the agitation", "explain": "AASU mobilised all Assamese sections against illegal migration, Bengali domination and rolls containing lakhs of immigrant names, blockading trains and oil supplies at tragic human cost"},
+    {"step": 3, "action": "verify the settlement", "explain": "the 1985 accord required identifying and deporting those who entered during and after the Bangladesh war; AASU and the Asom Gana Sangram Parishad then formed the AGP, victorious in 1985"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps207_1",
+   "source_ref": "leps207.txt External and internal disputes, Kashmiri grievances",
+   "concept": "leps.207.2.1",
+   "question_type": "conceptual",
+   "question_pattern": "One group demands that Article 370 be scrapped while another says the autonomy it promised was never really honoured. Name both positions and the three grievances behind the second.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "name the first position", "explain": "people outside J and K who want full integration argue the special status prevented it and demand revocation"},
+    {"step": 2, "action": "name the second position", "explain": "many Kashmiris hold that Article 370's autonomy was eroded in practice"},
+    {"step": 3, "action": "list the grievances", "explain": "the unfulfilled promise to refer accession to the people, the erosion of special federal status behind the greater autonomy demand, and the incomplete institutionalisation of democracy in the state"}
+   ]
+  },
+  {
+   "id": "we_leps207_2",
+   "source_ref": "leps207.txt Secessionist movements, Mizoram and Nagaland",
+   "concept": "leps.207.7.1",
+   "question_type": "conceptual",
+   "question_pattern": "Two hill movements began with declarations of independence decades apart; one ended with its leader as Chief Minister, the other still simmers. Which accords or failures made the difference?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "identify the successful case", "explain": "Mizoram: the MNF under Laldenga fought from 1966, then negotiations with Rajiv Gandhi produced the 1986 accord, statehood with special powers and Laldenga as Chief Minister"},
+    {"step": 2, "action": "identify the unresolved case", "explain": "Nagaland: Phizo declared independence in 1951 and rejected settlements, so a partial agreement satisfied only some factions and final resolution awaits"},
+    {"step": 3, "action": "draw the lesson", "explain": "the chapter's contrast shows political maturity on both sides converting insurgency into democratic politics through negotiated accords"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps207.txt EXERCISES",
+   "questions": [
+    "match each region -- jammu and kashmir, tamil nadu, punjab, mizoram -- with its regional aspiration or movement",
+    "which slogan captured the dravidian movement's view of north and south",
+    "what did the anandpur sahib resolution say about centre state relations",
+    "name the accord signed between rajiv gandhi and laldenga and its outcome",
+    "which students body led the anti foreigner movement in assam"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps207.txt EXERCISES long answer",
+   "questions": [
+    "describe the indian approach to diversity and how it differs from other nations",
+    "trace the roots of the jammu and kashmir problem and the role of article 370",
+    "how did the punjabi suba demand reshape the politics of punjab",
+    "evaluate the rajiv gandhi longowal accord and its aftermath",
+    "compare the accords that settled the mizo and assam movements with the unresolved naga question"
+   ]
+  }
+ ]
+}

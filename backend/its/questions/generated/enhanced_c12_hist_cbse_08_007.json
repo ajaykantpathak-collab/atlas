@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_007",
+   "title": "c12_hist_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the difference between *jama* and *hasil* in Mughal revenue terminology?",
+     "a": "*Jama* is the **assessed** revenue demand fixed after measurement/estimation; *hasil* is the **actual amount collected**. A wrong answer (e.g., \"jama is collected, hasil is assessed\") reveals confusion between the **normative claim** of the state and the **ground reality** of collection — a distinction critical for understanding revenue shortfalls (node 012).",
+     "self_check": true
+    },
+    {
+     "q": "Why did Akbar classify cultivated land into Polaj, Parauti, Chachar, and Banjar? What revenue principle did this serve?",
+     "a": "The classification reflected **soil fertility and cropping frequency** to **graduate the revenue demand**: Polaj (annually cultivated) paid the highest rate, Parauti (temporarily fallow) lower, Chachar (3–4 years fallow) even lower, Banjar (5+ years fallow) the lowest. A student who says \"to punish fallow land\" misses the **economic logic** — the state wanted to **encourage cultivation** by lowering the burden on less productive land, not penalize it.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 200 bighas of Polaj land growing wheat (rabi) and cotton (kharif). The dastur rate for wheat is 10 dams/bigha, for cotton 15 dams/bigha. If the state follows Zabt, what is the annual jama? Show the calculation steps.",
+     "a": "Step 1: Identify both crops are grown on the same Polaj land (do-fasla). Step 2: Compute rabi demand = 200 bighas × 10 dams = 2,000 dams. Step 3: Compute kharif demand = 200 bighas × 15 dams = 3,000 dams. Step 4: Total jama = 5,000 dams. A wrong answer (e.g., using only one crop or averaging rates) shows failure to grasp that **Zabt assessed each season separately** on the same measured area — a key reason the system was revenue-maximizing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kankut and Batai (bhaoli) in terms of: (a) who bears the risk of crop failure, (b) administrative staff required, (c) peasant's incentive to invest in better seeds/irrigation.",
+     "a": "(a) Kankut: **peasant bears risk** (state demand fixed by estimate); Batai: **state shares risk** (division after harvest). (b) Kankut: **fewer staff** (one appraiser); Batai: **many inspectors** needed to prevent deception (Ain: \"several intelligent inspectors\"). (c) Kankut: **high incentive** (peasant keeps surplus); Batai: **low incentive** (state takes fixed share). A student who says \"both are same\" misses the **core institutional difference** — Kankut is a **fixed-cash-like** estimate, Batai is **true crop-sharing** — which explains why the state preferred Kankut/Zabt for revenue certainty.",
+     "self_check": true
+    },
+    {
+     "q": "Aurangzeb's 1665 order (Source 6) directed amins to survey \"village by village, peasant-wise (asamiwar)\". Evaluate whether this order indicates the Mughal revenue system was becoming **more** or **less** flexible over time.",
+     "a": "The order shows **reduced flexibility**: it demands **granular, standardized data** (maujudat, asamiwar) to maximize jama (\"keeping in view the financial interests of the government\"), leaving less room for local negotiation or crop-sharing methods. A student who claims \"more flexible because it considers peasant welfare\" misreads the phrase \"welfare of the peasantry\" as a concession — it was a **rhetorical cover** for extracting maximum revenue, a pattern seen in later crises (node 012).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a table comparing the four revenue methods described in the Ain (Source 7): Kankut, Batai, Khet-batai, Lang batai. Columns: Method, Stage of Division, Who Divides, Risk Bearer, Best Suited For.",
+     "a": "A good answer produces a table like:\n| Method | Stage | Who Divides | Risk Bearer | Best Suited For |\n|--------|-------|-------------|-------------|-----------------|\n| Kankut | Pre-harvest (estimation) | Appraiser + peasant | Peasant | Measured areas, cash economy |\n| Batai | Post-harvest (heaps) | Inspectors + parties | Shared | Unmeasured, high-value crops |\n| Khet-batai | Post-sowing (fields) | Parties | Shared | Areas where crop not yet grown |\n| Lang batai | Post-cutting (heaps) | Parties | Shared | Quick division, low supervision |\nA poor answer merges Batai variants or misplaces the division stage, showing **inability to extract procedural detail from a primary source** — a skill tested in board source-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

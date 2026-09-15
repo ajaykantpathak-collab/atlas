@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_004",
+   "title": "c10_geo_cbse_05_004",
+   "questions": [
+    {
+     "q": "Name the two major mica-producing belts in India and the specific mineral property that makes mica indispensable in the electrical and electronics industry.",
+     "a": "The two major mica-producing belts are: (1) Koderma-Gaya-Hazaribagh belt in Jharkhand/Bihar, and (2) Nellore belt in Andhra Pradesh. The critical property is perfect basal cleavage allowing mica to split into thin, flexible, transparent sheets combined with high dielectric strength and thermal stability. A wrong answer (e.g., naming Rajasthan as a major mica belt or citing hardness as the key property) reveals confusion between mica and other sheet silicates or misunderstanding that mica's value lies in sheet formation, not hardness.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why limestone deposits are concentrated in sedimentary basins of the Peninsular Plateau (like Cuddapah and Vindhyan systems) rather than in the Himalayan region, despite both having calcium-rich rocks.",
+     "a": "Limestone in Peninsular India formed in stable, shallow marine basins (Cuddapah, Vindhyan) over geological time with minimal tectonic disturbance, creating thick, pure, horizontally bedded deposits ideal for quarrying. The Himalayas, though rich in calcium carbonate rocks, experienced intense folding, faulting, and metamorphism during mountain building, fracturing limestone into impure, steeply dipping bands unsuitable for large-scale cement-grade extraction. A wrong answer citing \"Himalayas have no limestone\" or \"Peninsular rocks are older\" misses the structural geology distinction: depositional environment stability vs. orogenic deformation determines economic viability.",
+     "self_check": true
+    },
+    {
+     "q": "A cement factory requires limestone with ≥90% CaCO₃ and low silica (<2%). Given two samples — Sample A from Cuddapah (92% CaCO₃, 1.5% SiO₂) and Sample B from a Himalayan quarry (85% CaCO₃, 8% SiO₂) — which sample meets the specification? Calculate the maximum allowable silica content for a 100-tonne limestone consignment if the factory's tolerance is 2% SiO₂ by weight.",
+     "a": "Sample A meets specifications (92% CaCO₃ ≥ 90%, 1.5% SiO₂ < 2%). Sample B fails on both counts. Maximum allowable silica = 2% of 100 tonnes = 2 tonnes SiO₂. Steps: (1) Identify specification thresholds from problem statement. (2) Compare each sample's CaCO₃ and SiO₂ against thresholds. (3) Apply percentage calculation to total consignment weight. A wrong answer selecting Sample B or miscalculating 2 tonnes reveals inability to apply industrial grade requirements to real-world quality control — a common board exam application trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological formation processes of mica and limestone. Why does mica occur in pegmatite veins within metamorphic/igneous rocks while limestone forms as stratified beds in sedimentary basins? Relate this to their respective distribution patterns in India.",
+     "a": "Mica crystallizes from late-stage magmatic fluids in pegmatites (coarse-grained igneous veins) during cooling of granitic magma, concentrating in shear zones of ancient crystalline rocks — hence its occurrence in Jharkhand's Chota Nagpur Plateau and Andhra Pradesh's Eastern Ghats metamorphic belts. Limestone forms from accumulation of marine organism shells (biochemical) or direct precipitation (chemical) in calm, shallow seas over millions of years, creating horizontal beds in sedimentary basins like Cuddapah (AP), Vindhyan (MP/UP), and Kachchh (Gujarat). A wrong answer stating both form from \"cooling lava\" or \"river deposition\" confuses igneous vs. sedimentary origins and cannot explain why mica mines follow fault lines while limestone quarries follow bedding planes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's mica production has declined sharply since the 1980s due to environmental regulations, while limestone production has increased steadily.\" Is this assessment accurate? Support your evaluation with two specific reasons for each trend.",
+     "a": "The statement is largely accurate. Mica decline reasons: (1) Forest Conservation Act (1980) restricted mining in Jharkhand's forested mica belts; (2) Synthetic mica substitutes reduced global demand for natural sheet mica. Limestone increase reasons: (1) Cement industry growth (India is 2nd largest cement producer) driving demand; (2) Limestone occurs in thick, accessible beds allowing mechanized open-cast mining unlike mica's labor-intensive underground vein extraction. A wrong answer blaming \"exhaustion of reserves\" for mica decline ignores that reserves exist but are legally inaccessible, or misses that limestone's stratified geometry enables scalable production.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map for a Class 10 board exam answer showing: (a) three major mica belts with state names, (b) three major limestone producing states with one specific district each, (c) one industrial use symbol for each mineral linked to a major industrial city. Include a legend.",
+     "a": "A good answer includes: (a) Mica belts — Koderma-Gaya-Hazaribagh (Jharkhand/Bihar), Nellore (Andhra Pradesh), Bhilwara (Rajasthan); (b) Limestone — Andhra Pradesh (Cuddapah/Kurnool), Rajasthan (Chittorgarh/Jaisalmer), Madhya Pradesh (Katni/Satna); (c) Symbols — Lightning bolt/electronics icon near Bengaluru (mica in electronics), Cement bag/icon near Mumbai/Chennai (limestone in cement). Legend must define all symbols. A poor answer omits district-level specificity, uses generic symbols without industrial linkage, or misplaces belts (e.g., putting mica in Gujarat) — revealing rote memorization without spatial understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,316 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 12,
+ "chapter_title": "Security Aspects",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs112.1",
+   "title": "Scale of a Ransomware Outbreak",
+   "section": "12.2.3",
+   "definition": "Ransomware locks victims out of their data, often by encrypting it, and demands payment; the WannaCry outbreak of May 2017 hit about 200,000 machines across 150 countries, and dividing the infections by the countries shows the average scale per country.",
+   "formula": "per_country = infected / countries",
+   "key_idea": "WannaCry demanded its ransom in Bitcoin, which made the payments hard to trace.",
+   "textbook_ref": "lecs112.txt, section 12.2.3",
+   "question_patterns": [
+    "WannaCry infected about 200000 computers in 150 countries. Estimate the average infections per country.",
+    "How does ransomware extract money from its victims?",
+    "Why is a ransomware that encrypts data harder to escape than one that merely blocks access?",
+    "Name the ransomware attack of May 2017 and the cryptocurrency in which it demanded payment.",
+    "Which other malware types belong to the same family as ransomware?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spread the infections",
+     "explain": "Divide the infected machines by the affected countries.",
+     "compute": "per_country = infected / countries"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "WannaCry hit about 200000 machines across 150 countries. Roughly how many infected machines per country is that, to the nearest thousand?",
+     "a": "1333"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.2",
+   "title": "Pay-per-Click Earnings of Adware",
+   "section": "12.2.6",
+   "definition": "Adware floods a user's screen with pop-ups and web advertisements; once installed on many machines it earns money from advertisers either per display or through the pay-per-click model, charging clients for every click on the shown ads.",
+   "formula": "total_revenue = campaigns * clicks * rate_per_click",
+   "key_idea": "Adware is usually annoying rather than harmful, but its unsafe links often open the door to worse malware.",
+   "textbook_ref": "lecs112.txt, section 12.2.6",
+   "question_patterns": [
+    "An adware serves 40000 clicks at 0.50 per click for 3 advertising campaigns. Compute the total earnings.",
+    "How does an adware generate revenue for its developer?",
+    "Why is adware called mostly harmless yet still dangerous?",
+    "Which malware earns money by the number of clicks on displayed advertisements?",
+    "State two signs that a computer is infected with unwanted advertising software."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "price one campaign's clicks",
+     "explain": "Clicks multiplied by the per-click rate.",
+     "compute": "revenue = clicks * rate_per_click"
+    },
+    {
+     "step": 2,
+     "action": "total across campaigns",
+     "explain": "Each advertising campaign pays the same way.",
+     "compute": "total_revenue = campaigns * revenue"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Adware earns Rs 2 per click across 5000 clicks. What is the revenue in rupees?",
+     "a": "10000"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.3",
+   "title": "Malware: Virus, Worm, Trojan and Spyware",
+   "section": "12.2",
+   "definition": "Malware is any software built to damage systems or steal data: a virus hides inside host programs and needs a user to run them, a worm spreads on its own over networks, a trojan disguises itself as legitimate software, spyware silently reports on the user, and a keylogger records every keystroke.",
+   "formula": "virus needs a host; worm spreads alone; trojan needs a tricked user",
+   "key_idea": "A keylogger's logs can leak passwords, which is why an online virtual keyboard that shuffles its key layout defeats it.",
+   "textbook_ref": "lecs112.txt, sections 12.2.1 to 12.2.7 and 12.2.8",
+   "question_patterns": [
+    "How is a computer worm different from a virus?",
+    "How did a Trojan get its name, and why does it not self-replicate?",
+    "Which malware silently records keyboard presses, and how does an online virtual keyboard defend against it?",
+    "How is a virtual keyboard safer than an on-screen keyboard?",
+    "Name four routes by which malware reaches a computer.",
+    "What does spyware usually do with the information it collects?",
+    "List six common signs of a malware infection."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check host, spread and disguise",
+     "explain": "A virus needs a host file and human action, a worm travels alone, a trojan relies on a deceived user, and spyware or a keylogger hides while watching or recording."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which malware spreads on its own over networks without needing a host program?",
+     "a": "worm"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.4",
+   "title": "Methods Antivirus Uses to Identify Malware",
+   "section": "12.3.1",
+   "definition": "Modern antivirus spots malware in several ways: matching bytes against a continuously updated Virus Definition File, running suspect files in a sandbox, classifying behaviour with data mining, comparing code patterns through heuristics, and watching running programs in real time.",
+   "formula": "outdated VDF -> new malware passes undetected",
+   "key_idea": "Signature matching fails against polymorphic or encrypted malware, which is why behaviour-based methods exist.",
+   "textbook_ref": "lecs112.txt, sections 12.3.1(A) to (E)",
+   "question_patterns": [
+    "Write a short note on the different methods of malware identification used by antivirus software.",
+    "Why is an antivirus with an outdated Virus Definition File nearly useless?",
+    "How does sandbox detection inspect a new application safely?",
+    "Which detection method compares a suspect program's code with known viruses in a heuristic database?",
+    "Why is real-time protection needed for malware that lies dormant and activates later?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the sample to a method",
+     "explain": "Known byte patterns go to signature matching, unknown files to the sandbox or data mining, look-alike code to heuristics, and active processes to real-time protection."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which continuously updated file backs the signature matching of an antivirus?",
+     "a": "Virus Definition File"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.5",
+   "title": "HTTP versus HTTPS",
+   "section": "12.5",
+   "definition": "HTTP transmits data as it is, unscrambled and open to interception, while its secure variant HTTPS encrypts data before sending and decrypts at the receiver, requiring an SSL digital certificate for the website.",
+   "formula": "http -> plain text; https -> encrypted with SSL certificate",
+   "key_idea": "Always check for https:// in the address bar before entering banking or personal details.",
+   "textbook_ref": "lecs112.txt, section 12.5",
+   "question_patterns": [
+    "What are the risks of HTTP, and how does HTTPS resolve them?",
+    "Which two kinds of websites suit HTTP and HTTPS respectively, and why?",
+    "What must a website obtain before it can serve pages over HTTPS?",
+    "Why should you look for the lock icon before making an online payment?",
+    "Expand HTTP and HTTPS and state what each governs."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for encryption",
+     "explain": "Plain HTTP leaves data readable to interceptors; HTTPS scrambles it in transit and decrypts only at the intended receiver."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which protocol encrypts data before sending and needs an SSL certificate?",
+     "a": "HTTPS"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.6",
+   "title": "Firewall between Trusted and Untrusted Networks",
+   "section": "12.6",
+   "definition": "A firewall is a security system, in software, hardware or both, that filters incoming and outgoing traffic between a trusted private network and an untrusted outside one according to predefined rules; it sits between networks as a network firewall or on a single machine as a host-based firewall.",
+   "formula": "traffic -> rules -> allow or block",
+   "key_idea": "A school firewall rule can let the accountant reach the finance server while blocking students from it.",
+   "textbook_ref": "lecs112.txt, sections 12.6 and 12.6.1, Figure 12.5",
+   "question_patterns": [
+    "What is a firewall, and which two firewall types does the chapter describe?",
+    "How does a firewall act as the first barrier against worms?",
+    "Write a firewall rule example for a school LAN where students must not reach the finance server.",
+    "Differentiate a network firewall from a host-based firewall.",
+    "Can a firewall be implemented purely in software? Justify."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the rule set",
+     "explain": "Every packet crossing the boundary is compared with the predefined rules and either allowed, dropped or blocked accordingly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What filters traffic between a trusted private network and an untrusted outside one?",
+     "a": "firewall"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.7",
+   "title": "Cookies Stored by Websites",
+   "section": "12.7",
+   "definition": "A cookie is a small file a website plants on the client's computer to remember shopping carts, login state, language choice or form auto-fill details; session cookies end with a time-out, authentication cookies recognise returning users, and zombie or supercookies raise privacy concerns.",
+   "formula": "cookie = website-created file on the client machine",
+   "key_idea": "Only the website that created a cookie may edit it, but third-party cookies can still track users across sites.",
+   "textbook_ref": "lecs112.txt, sections 12.7 and 12.7.1",
+   "question_patterns": [
+    "List one advantage and one disadvantage of cookies.",
+    "How does an e-commerce site remember the items in your cart between pages?",
+    "Which cookie type logs a user out of a banking site after a time-out?",
+    "What is a zombie cookie, and why is it a privacy worry?",
+    "Why should permission to store cookies be granted carefully?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the cookie's life cycle",
+     "explain": "The site writes the cookie on the first visit, reads it on later requests to restore state, and only well-behaved cookies expire or respect deletion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the small file a website plants on the client's computer called?",
+     "a": "cookie"
+    }
+   ]
+  },
+  {
+   "id": "lecs112.8",
+   "title": "Denial of Service Attacks and Hacker Hats",
+   "section": "12.8 and 12.9",
+   "definition": "Attackers by intent wear different hats: white hats fix flaws, black hats or crackers exploit them for gain, and grey hats hack for thrill; their tools include Denial of Service, which floods a resource with traffic, its distributed form DDoS driven by botnets of zombie machines, plus snooping that copies traffic and real-time eavesdropping on private channels.",
+   "formula": "DoS from one source; DDoS from many zombies",
+   "key_idea": "Blocking one address stops a simple DoS flood, but a DDoS arriving from zombies worldwide has no single source to block.",
+   "textbook_ref": "lecs112.txt, sections 12.8, 12.8.1 to 12.8.3, 12.9.1 and 12.9.3 to 12.9.4",
+   "question_patterns": [
+    "Differentiate a DoS attack from a DDoS attack.",
+    "Write a short note on white, black and grey hat hackers.",
+    "How is snooping different from eavesdropping?",
+    "What is a botnet, and which machines are called zombies?",
+    "Why is a flooding attack harder to recover from than a crash?",
+    "Which hacker class takes system security as a challenge purely for fun?",
+    "Why is unencrypted traffic especially vulnerable to snooping?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "judge intent and origin",
+     "explain": "Fixing flaws marks a white hat, exploiting them a black hat, and thrill-seeking a grey hat; an overload from one source is DoS while a distributed botnet flood is DDoS, and secret copying versus real-time listening separates snooping from eavesdropping."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which attack floods a resource with traffic from one source?",
+     "a": "DoS"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs112.we1",
+   "title": "Average reach of WannaCry",
+   "concept_id": "lecs112.1",
+   "problem": "The WannaCry ransomware struck about 200000 computers across 150 countries. Estimate the average number of infected machines per country.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide infections by countries",
+     "explain": "200000 machines spread over 150 countries.",
+     "compute": "per_country = 200000 / 150"
+    }
+   ],
+   "answer_note": "On average about 1333 machines per country fell to the outbreak, showing its worldwide scale."
+  },
+  {
+   "id": "lecs112.we2",
+   "title": "Earnings of an adware campaign set",
+   "concept_id": "lecs112.2",
+   "problem": "An adware logs 40000 clicks at 0.50 per click for each of 3 advertising campaigns. Compute its total earnings.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "price one campaign",
+     "explain": "40000 clicks times the per-click rate.",
+     "compute": "revenue = 40000 * 0.50"
+    },
+    {
+     "step": 2,
+     "action": "repeat for the campaigns",
+     "explain": "Three campaigns pay the same amount each.",
+     "compute": "total_revenue = 3 * revenue"
+    }
+   ],
+   "answer_note": "One campaign earns 20000, so the three campaigns together yield 60000."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs112.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 12 Exercise (items reworded)",
+   "questions": [
+    "Why is a computer that is not connected to any network considered safe?",
+    "Define a computer virus and name some viruses popular in recent years.",
+    "How is ransomware used to extract money, and how did the Trojan horse get its name?",
+    "Briefly explain two threats that a keylogger installed on a computer can cause.",
+    "List the modes of malware distribution and some preventive measures against infection.",
+    "What risks does HTTP carry, and how does HTTPS remove them?",
+    "Differentiate DoS from DDoS, and snooping from eavesdropping.",
+    "An adware records 25000 clicks at 0.40 per click across 2 campaigns. Compute its total earnings."
+   ]
+  }
+ ]
+}

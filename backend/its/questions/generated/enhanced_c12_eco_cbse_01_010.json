@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_010",
+   "title": "c12_eco_cbse_01_010",
+   "questions": [
+    {
+     "q": "State any four assumptions of the two-sector circular flow model of income.",
+     "a": "The four core assumptions are: (1) The economy consists of only two sectors — households and firms. (2) Households own all factors of production and supply them only to firms. (3) Firms produce all goods and services and sell them only to households. (4) There is no savings — households spend their entire factor income on consumption; firms do not retain earnings. (5) No government sector exists (no taxes, no transfers, no government purchases). (6) No foreign sector exists (closed economy, no exports or imports). A wrong answer that includes \"savings are channelled through banks\" or \"government collects taxes\" reveals the student is confusing the two-sector model with the three- or four-sector extensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the assumption \"no savings\" is critical for the simplest circular flow model to remain a closed loop.",
+     "a": "If households save a part of their income, that money leaks out of the circular flow because it is not spent on current goods and services. The flow of money from households to firms would then be less than the factor payments firms made to households, breaking the equality between aggregate income and aggregate expenditure. The model would no longer be a closed loop unless we introduce a financial sector that borrows savings and lends them to firms for investment — which is a three-sector extension. A student who says \"savings don't matter because they are eventually spent\" misunderstands the leakage concept and the need for an explicit financial sector to close the loop.",
+     "self_check": true
+    },
+    {
+     "q": "In a two-sector economy, households receive ₹1,000 crore as factor payments from firms. If the marginal propensity to consume is 0.8 and the model strictly follows the \"no savings\" assumption, what is the value of consumption expenditure? Show the calculation.",
+     "a": "Under the strict \"no savings\" assumption, the marginal propensity to consume is 1 (MPC = 1) and marginal propensity to save is 0. Therefore, consumption expenditure = factor income = ₹1,000 crore. If the student uses MPC = 0.8 and calculates ₹800 crore, they are incorrectly applying a consumption function that allows savings, which violates the model's assumption. The correct answer is ₹1,000 crore.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two-sector circular flow model with the three-sector model that includes government. Identify two specific flows that appear in the three-sector model but are absent in the two-sector model, and explain their economic significance.",
+     "a": "Two flows added in the three-sector model: (1) Taxes flow from households and firms to government — a leakage from the circular flow. (2) Government purchases of goods/services and transfer payments flow from government to firms and households — an injection into the circular flow. Their significance: taxes reduce disposable income and consumption, while government spending directly adds to aggregate demand. A student who only says \"government collects taxes and spends money\" without identifying the leakage/injection nature misses the analytical purpose of extending the model.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The two-sector circular flow model is useless for analysing the Indian economy because India has a large government sector, significant savings, and substantial foreign trade.\"",
+     "a": "The statement is partially correct but misses the pedagogical purpose. The two-sector model is a theoretical benchmark that isolates the core income-expenditure relationship. It is not meant to be a realistic description of India. Its value lies in showing the basic identity Y = C (income = consumption) before adding leakages (S, T, M) and injections (I, G, X). For policy analysis, we use the four-sector model. A student who agrees entirely fails to appreciate the hierarchy of models; a student who dismisses the model entirely fails to see its role as a building block.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a modified circular flow diagram for a two-sector economy where households save 20% of their income and firms borrow those savings for investment. Label all real and money flows, and state the new equilibrium condition.",
+     "a": "The diagram should show: Households → Factor services → Firms; Firms → Factor payments (Y) → Households; Households → Consumption (C) + Savings (S) → Firms (via financial market); Firms → Investment (I) → Financial market → Households (as borrowing). Equilibrium condition: Y = C + I (or S = I). A poor answer omits the financial market intermediary or labels savings as a direct flow from households to firms without a financial sector, indicating they haven't grasped that the simple two-sector model must be extended to include a financial sector for savings-investment linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

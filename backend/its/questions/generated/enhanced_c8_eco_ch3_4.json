@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_4",
+   "title": "c8_eco_ch3_4",
+   "questions": [
+    {
+     "q": "What is the difference between \"urban growth\" and \"the rate of urbanisation\"?",
+     "a": "Urban growth refers to the absolute increase in the number of people living in urban areas, whereas the rate of urbanisation is the percentage of the total population living in urban areas. \n\nIf a student says they are the same, it reveals that they confuse absolute numbers with relative proportions. They do not realize that a city's population can grow in size while the overall country's urbanisation rate remains unchanged if the rural population is growing at the exact same speed.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the administrative \"reclassification\" of a village into a census town contribute to a state's urbanisation rate without anyone physically moving?",
+     "a": "Reclassification occurs when a rural area grows in density and shifts its livelihood away from agriculture. When the government officially declares it a town, its entire existing population is added to the \"urban\" tally, raising the urbanisation rate structurally without any physical migration.\n\nIf a student answers that reclassification requires people to migrate first, it reveals the misconception that urbanisation is solely driven by the physical travel of migrants from villages to cities.",
+     "self_check": true
+    },
+    {
+     "q": "A district has a total population of 400,000, with 100,000 living in urban areas. Over one year, 20,000 rural residents migrate to the urban areas. Assuming no births or deaths occur, calculate the new urbanisation rate of the district.",
+     "a": "1. **Identify initial data**: Total Population ($P_t$) = 400,000; Initial Urban Population ($P_u$) = 100,000.\n2. **Apply migration change**: 20,000 move from rural to urban. The new urban population ($P_{u2}$) = $100,000 + 20,000 = 120,000$.\n3. **Determine total population change**: Since no births or deaths occurred, the total population ($P_t$) remains 400,000.\n4. **Calculate new urbanisation rate**: \n   $$\\text{New Rate} = \\left( \\frac{P_{u2}}{P_t} \\right) \\times 100 = \\left( \\frac{120,000}{400,000} \\right) \\times 100 = 30\\%$$\n\nIf a student gets an incorrect percentage (such as 25% or 33%), it reveals they either forgot to keep the total population constant or divided the migrating population by the urban population instead of the total population.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a severe, multi-year drought in a rural farming region affects the \"push factors\" of urbanisation.",
+     "a": "A severe drought destroys crop yields and eliminates agricultural incomes. Because farming is no longer viable, rural families are \"pushed\" out of their villages due to economic distress, forcing them to migrate to cities in search of survival wage-labor, thereby accelerating distress-driven urbanisation.\n\nIf a student answers that drought stops urbanisation because farmers have no money to travel, it shows a failure to understand that \"push factors\" operate on economic distress and lack of survival options, forcing migration regardless of initial savings.",
+     "self_check": true
+    },
+    {
+     "q": "A state government decides to heavily subsidize urban bus fares to make city travel cheap, while leaving rural roads unpaved. Evaluate how this policy imbalance will impact the rate of urbanisation.",
+     "a": "This policy will accelerate urbanisation by widening the rural-urban infrastructure gap. Subsidized city transport acts as an economic \"pull factor\" reducing living and commuting costs in cities, while neglected rural roads act as a \"push factor\" by keeping rural trade expensive. This double effect incentivizes rural residents to migrate to urban centers.\n\nIf a student answers that the policy has no effect on urbanisation because \"bus fares are minor,\" they fail to evaluate how municipal subsidies and infrastructure disparities alter the economic calculations of potential rural migrants.",
+     "self_check": true
+    },
+    {
+     "q": "Develop a brief proposal for a local government to convert a large agrarian village of 12,000 people into an officially recognized \"Census Town\" under Indian economic criteria. What structural changes must occur?",
+     "a": "To become a Census Town, the village must undergo the following structural transitions:\n1. **Population expansion**: Ensure the population remains above 5,000 (already met at 12,000).\n2. **Livelihood diversification**: Establish non-farm economic activities (like manufacturing, trading, or local services) so that at least 75% of the male main working population shifts away from agriculture.\n3. **Density increase**: Support compact housing and market construction so population density exceeds 400 persons per square kilometer.\n\nA poor answer would only suggest \"building more houses\" or \"giving farmers money,\" which reveals a failure to understand the specific economic and demographic criteria (density and non-farm employment) that define urban areas in India.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

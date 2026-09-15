@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_005",
+   "title": "c12_hs_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 Recommended Dietary Allowance (RDA) for energy and protein for a 4-year-old girl weighing 16 kg. Include units.",
+     "a": "Energy: 1350 kcal/day; Protein: 20.1 g/day (ICMR 2020 RDA for children 4-6 years). A wrong answer (e.g., quoting 2010 RDAs: 1250 kcal, 22 g protein) reveals the student is using outdated standards — a critical error in board exams where ICMR 2020 is mandatory. Another common error: giving adult RDA (2000 kcal, 50 g) showing failure to grasp that preschool needs are higher per kg body weight.",
+     "self_check": true
+    },
+    {
+     "q": "A mother says, \"My 2-year-old eats only 2 small chapatis and one katori dal daily — that's enough because his stomach is small.\" Explain why this reasoning is flawed using the concept of nutrient density and ICMR RDA values.",
+     "a": "Two chapatis (60 g wheat) + 1 katori dal (30 g raw) provide ~600 kcal and 18 g protein — only 57% of energy RDA (1060 kcal) and 108% of protein RDA (16.7 g) for a 1-3 year old, but grossly deficient in iron (≈2 mg vs 9 mg RDA), vitamin A (≈50 µg vs 400 µg RDA), and calcium (≈100 mg vs 600 mg RDA). The flaw: focusing on volume/satiety instead of nutrient density. A wrong answer that says \"he will eat when hungry\" ignores that preschool appetite is erratic and nutrient gaps during this critical window impair cognitive development irreversibly.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the additional iron (in mg) needed daily to meet the ICMR 2020 RDA for a 5-year-old boy whose current diet provides 7 mg iron from vegetarian sources. Assume 5% bioavailability from his diet. Show steps.",
+     "a": "Step 1: ICMR 2020 RDA for iron, 4-6 years = 13 mg/day (boys). Step 2: Absorbed iron from current diet = 7 mg × 5% = 0.35 mg. Step 3: Required absorbed iron = 13 mg × 5% = 0.65 mg (assuming same bioavailability). Step 4: Additional dietary iron needed = (0.65 - 0.35) / 0.05 = 6 mg. Step 5: Practical solution: add 30 g garden cress seeds (halim) providing 6 mg iron, or 50 g soybean. A wrong answer calculating 13 - 7 = 6 mg ignores bioavailability — a classic board exam trap where students forget vegetarian diets need 1.8× more iron due to low absorption.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the per-kg-body-weight protein requirement (g/kg/day) for a 2-year-old (12 kg) vs a 25-year-old sedentary man (65 kg) using ICMR 2020 RDAs. Explain the physiological reason for the difference.",
+     "a": "2-year-old: RDA 16.7 g / 12 kg = 1.39 g/kg/day. Adult man: RDA 54 g / 65 kg = 0.83 g/kg/day. The preschooler needs 67% more protein per kg. Reason: positive nitrogen balance for tissue synthesis (muscle, bone, brain) during rapid growth velocity (~5-7 cm/year height, ~2 kg/year weight), whereas adult needs only maintenance (zero net growth). A wrong answer stating \"adults need more protein because they are bigger\" confuses absolute with relative needs — a frequent MCQ error in CUET/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this one-day menu for a 4-year-old girl (16 kg) for adequacy against ICMR 2020 RDAs: Breakfast: 1 bread slice + 50 mL milk; Lunch: ½ katori rice + ¼ katori dal + ¼ katori potato sabzi; Evening: 1 biscuit + 50 mL milk; Dinner: 1 roti + ¼ katori dal + ¼ katori carrot peas. Identify the top 3 nutrient gaps and propose one food addition per gap using locally available, low-cost foods.",
+     "a": "Estimated intake: Energy ~850 kcal (63% RDA), Protein ~22 g (109% RDA), Iron ~5 mg (38% RDA), Vitamin A ~200 µg (50% RDA), Calcium ~250 mg (42% RDA). Top 3 gaps: Iron, Calcium, Energy. Additions: (1) Iron: 1 tsp roasted garden cress seeds (halim) in dal — adds 3 mg iron, 15 kcal. (2) Calcium: 100 mL extra milk (total 200 mL/day) — adds 120 mg calcium. (3) Energy: 1 tsp ghee on roti + 1 banana — adds 150 kcal. A poor answer only lists gaps without practical, culturally appropriate solutions — board exams award marks for actionable recommendations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day cyclic menu for an Anganwadi supplementary nutrition programme (SNP) for 3-6 year olds providing 500 kcal and 12-15 g protein per day per child, using only ICDS-approved food items (wheat, rice, bengal gram, soybean, jaggery, groundnut, seasonal vegetables). Include cost per child per day ≤ ₹8. Show calculations for Day 1.",
+     "a": "Day 1: Wheat 30 g (100 kcal, 3.5 g protein) + Bengal gram 20 g (70 kcal, 4 g protein) + Soybean 10 g (45 kcal, 3.5 g protein) + Jaggery 10 g (38 kcal) + Groundnut 5 g (28 kcal, 1.2 g protein) + Spinach 20 g (5 kcal, 0.6 g protein) + Oil 5 g (45 kcal). Total: 331 kcal, 12.8 g protein. To reach 500 kcal: increase wheat to 50 g, bengal gram to 30 g, oil to 8 g → 505 kcal, 16.5 g protein. Cost (2024 avg): ₹1.2 + ₹2.1 + ₹1.0 + ₹0.4 + ₹0.8 + ₹0.3 + ₹0.9 = ₹6.7. A good answer shows stepwise nutrient calculation, costing, and variety across 3 days (e.g., Day 2: khichdi; Day 3: upma) — demonstrating application of meal planning principles to real-world constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

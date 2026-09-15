@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_004",
+   "title": "c12_math_cbse_07_004",
+   "questions": [
+    {
+     "q": "State the integration by parts formula and write the ILATE priority order for choosing the first function.",
+     "a": "The formula is ∫ u v dx = u ∫ v dx - ∫ (du/dx)[∫ v dx] dx. ILATE order: Inverse trigonometric > Logarithmic > Algebraic > Trigonometric > Exponential. A wrong answer like \"LIATE\" or placing Algebraic before Logarithmic reveals the student memorised a mnemonic without understanding why logarithmic functions (which simplify to algebraic upon differentiation) must precede algebraic functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we do NOT add a constant of integration when finding ∫ v dx (the integral of the second function) during integration by parts.",
+     "a": "Adding a constant k to ∫ v dx gives u(v+k) - ∫ u'(v+k)dx = uv + uk - ∫ u'v dx - k∫ u' dx = uv - ∫ u'v dx + uk - k(u + C) = uv - ∫ u'v dx - kC. The extra terms cancel, leaving the same result. A student who says \"it changes the answer\" or \"we must add it for correctness\" misunderstands that the constant gets absorbed into the final arbitrary constant, making it superfluous at the intermediate step.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate ∫ x² eˣ dx using integration by parts. Show all steps.",
+     "a": "Let u = x², dv = eˣ dx → du = 2x dx, v = eˣ.\n∫ x² eˣ dx = x² eˣ - ∫ 2x eˣ dx.\nApply again: u = 2x, dv = eˣ dx → du = 2 dx, v = eˣ.\n∫ 2x eˣ dx = 2x eˣ - ∫ 2 eˣ dx = 2x eˣ - 2eˣ.\nSubstitute back: ∫ x² eˣ dx = x² eˣ - (2x eˣ - 2eˣ) + C = eˣ(x² - 2x + 2) + C.\nA wrong answer like x² eˣ - 2x eˣ + C (missing the final +2eˣ) reveals the student stopped after one iteration or forgot to integrate the remaining ∫ 2eˣ dx.",
+     "self_check": true
+    },
+    {
+     "q": "Compare ∫ x log x dx and ∫ x sin x dx. For each, identify the first function using ILATE and explain why the choice differs.",
+     "a": "For ∫ x log x dx: first function = log x (Logarithmic), second = x (Algebraic). Logarithmic precedes Algebraic in ILATE. For ∫ x sin x dx: first function = x (Algebraic), second = sin x (Trigonometric). Algebraic precedes Trigonometric. The difference arises because log x simplifies to 1/x (algebraic) upon differentiation, while x simplifies to 1 (constant), and sin x remains trigonometric. A student who chooses x as first function in both cases treats ILATE as a rigid rule without analysing which choice actually simplifies the resulting integral.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved ∫ eˣ sin x dx as follows:\nI = ∫ eˣ sin x dx = eˣ(-cos x) - ∫ eˣ(-cos x) dx = -eˣ cos x + ∫ eˣ cos x dx\n= -eˣ cos x + [eˣ sin x - ∫ eˣ sin x dx] = -eˣ cos x + eˣ sin x - I\nThen wrote: I = -eˣ cos x + eˣ sin x - I → I = eˣ(sin x - cos x) + C.\nIs this correct? If not, identify the error and give the correct answer.",
+     "a": "The error is in the final step: I = -eˣ cos x + eˣ sin x - I implies 2I = eˣ(sin x - cos x), so I = ½ eˣ(sin x - cos x) + C. The student forgot to divide by 2 after bringing I to LHS. This reveals a common algebraic oversight when the original integral reappears — students must remember to solve the equation 2I = ... for I, not just drop the -I term.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a definite integral problem of the form ∫ₐᵇ xⁿ eˣ dx (n ∈ ℕ) that requires exactly n+1 applications of integration by parts to evaluate. Provide the limits a, b and the final answer in terms of e.",
+     "a": "Example: ∫₀¹ x³ eˣ dx. Each application reduces the power of x by 1: x³ → x² → x → 1 → 0 (4 steps for n=3). The answer is 6 - 2e. A poor answer would choose n=1 (only 2 steps) or give indefinite integral without limits, showing the student doesn't understand how the algebraic power determines the number of iterations or how definite limits simplify the evaluation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,417 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_002_numerical_application.json",
+ "concepts": [
+  {
+   "id": "am11_002.1",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 8 + 1 / 8",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 4 - 1 / 12",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 150 + 180",
+      "total_t = 2 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 8 * 15 / 24"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (14 - 10) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 24 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.2",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 10 + 1 / 15",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 8 - 1 / 24",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 180 + 120",
+      "total_t = 3 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 6 * 12 / 16"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (12 - 8) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 24 / 8"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.3",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 5 + 1 / 20",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 8 - 1 / 24",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 200 + 100",
+      "total_t = 4 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 12 * 8 / 24"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (11 - 5) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 48 / 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.4",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 4 + 1 / 12",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 6 - 1 / 8",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 120 + 180",
+      "total_t = 3 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 8 * 15 / 24"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (11 - 5) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 36 / 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.5",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 9 * 1000 + 9 * 100 + 8 * 10 + 3",
+      "small = 3 * 1000 + 8 * 100 + 9 * 10 + 9",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 3884 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 3 + 8 + 8 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (3 + 8 + 8 + 4) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(61 - 16)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(1 - 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.6",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 39"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 18"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 72"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 76 - 193"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 59"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 65"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.7",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 16 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 14 * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 9 * 14",
+      "bed = 5 * 10",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 72 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 15 * 11",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 18 * 30 / (6 * 6)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.8",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 3 * 12 * 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (8 * 3 + 3 * 5 + 5 * 8)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 7 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 11 * 11"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 70 * 70 * 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 49 * 19"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_002.9",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 10 + 1 / 15",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 8 - 1 / 24",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 200 + 180",
+      "total_t = 4 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 10 * 6 / 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (13 - 7) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 60 / 7"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_12_002",
+   "title": "c12_math_cbse_12_002",
+   "questions": [
+    {
+     "q": "State Theorem 1 (Corner Point Theorem) for linear programming problems in your own words, including the condition on the feasible region.",
+     "a": "Correct answer: Theorem 1 states that if a linear programming problem has an optimal value (maximum or minimum) of the objective function \\(Z = ax + by\\) subject to linear constraints, then this optimal value must occur at a corner point (vertex) of the feasible region. The feasible region must be a convex polygon (intersection of half-planes). A wrong answer such as \"the optimal value occurs at the centre of the feasible region\" or \"we must test all points inside the region\" reveals that the student has not understood the geometric reason why only vertices need checking — the linearity of \\(Z\\) makes its level lines parallel, pushing the extreme value to the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when the feasible region is unbounded, the smallest value of \\(Z\\) at the corner points might NOT be the true minimum of the problem. Use the concept of an open half-plane in your explanation.",
+     "a": "Correct answer: For an unbounded feasible region, the objective function may decrease indefinitely along a direction inside the region. After finding the smallest corner-point value \\(m\\), we must check whether the open half-plane \\(ax + by < m\\) has any point in common with the feasible region. If it does, we can find feasible points giving values lower than \\(m\\), so no minimum exists. A wrong answer that says \"the smallest corner value is always the minimum even for unbounded regions\" shows the student has missed the crucial Step 3(ii) of the Corner Point Method and does not understand that unbounded regions can extend infinitely in the direction of decreasing \\(Z\\).",
+     "self_check": true
+    },
+    {
+     "q": "Solve graphically: Maximise \\(Z = 4x + 3y\\) subject to \\(x + y \\le 5\\), \\(2x + y \\le 8\\), \\(x \\ge 0\\), \\(y \\ge 0\\). Show all steps: plot constraints, find corner points, evaluate \\(Z\\), state maximum.",
+     "a": "Steps:\n1. Constraints: \\(x+y=5\\) (intercepts (5,0), (0,5)); \\(2x+y=8\\) (intercepts (4,0), (0,8)).\n2. Feasible region: first quadrant, below both lines. Corner points: O(0,0), A(4,0), B(3,2) [intersection of \\(x+y=5\\) and \\(2x+y=8\\)], C(0,5).\n3. Evaluate \\(Z=4x+3y\\): O→0; A→16; B→4(3)+3(2)=18; C→15.\n4. Maximum \\(Z = 18\\) at (3,2).\nA wrong answer obtaining corner point (2,3) instead of (3,2) indicates an algebraic error solving the two equations; a wrong answer missing corner (0,5) shows incomplete identification of vertices.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the LPP: Minimise \\(Z = -x + 2y\\) subject to \\(x \\ge 3\\), \\(x + y \\ge 5\\), \\(x + 2y \\ge 6\\), \\(y \\ge 0\\). The feasible region is unbounded. The corner points are (3,2) and (4,1) with \\(Z\\) values 1 and 2 respectively. Can we conclude the minimum is 1? Justify using the half-plane test.",
+     "a": "Correct answer: No, we cannot conclude yet. The smallest corner value is \\(m=1\\) at (3,2). We must graph the open half-plane \\(-x + 2y < 1\\) (i.e., \\(2y < x+1\\)). If this half-plane intersects the feasible region, values lower than 1 exist and no minimum occurs. In this problem, the feasible region extends infinitely upward and rightward; the line \\(-x+2y=1\\) passes through (3,2) and the half-plane \\(-x+2y<1\\) contains points like (4,1.5) which satisfy all constraints, so the half-plane does intersect the feasible region. Hence \\(Z\\) has no minimum. A student who answers \"Yes, minimum is 1\" has ignored the unbounded-region protocol.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: Maximise \\(Z = 3x + 4y\\) subject to \\(x + 2y \\le 8\\), \\(3x + 2y \\le 12\\), \\(x \\ge 0, y \\ge 0\\). They get corner points (0,0), (4,0), (0,4), (2,3) and \\(Z\\) values 0, 12, 16, 18. They write \"Maximum \\(Z = 18\\) at (2,3)\". Identify the error in their corner points and correct it.",
+     "a": "Error: The point (0,4) does NOT satisfy \\(3x+2y \\le 12\\) because \\(3(0)+2(4)=8 \\le 12\\) is actually true — wait, 8 ≤ 12 is true, so (0,4) is feasible. But (4,0) gives \\(3(4)+2(0)=12 \\le 12\\) ok. The intersection of \\(x+2y=8\\) and \\(3x+2y=12\\) is found by subtracting: \\(2x=4 \\Rightarrow x=2\\), then \\(2+2y=8 \\Rightarrow y=3\\). So (2,3) is correct. All four corners are correct. The student's answer is actually correct. A student who claims there is an error might have miscalculated the intersection or misread the inequality signs. The diagnostic reveals whether the student can verify feasible points against all constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world LPP (Indian context: rupees, items) with two decision variables and three constraints (excluding non-negativity) such that the feasible region is a triangle with vertices (0,0), (10,0), (0,8). Write the objective function to maximise profit, and state the optimal solution.",
+     "a": "Example: A toy maker produces cars (₹200 profit) and dolls (₹150 profit). Each car needs 2 hrs machine time, each doll 1 hr; total 20 hrs available. Each car needs 1 unit paint, each doll 2 units; total 16 units paint. Let \\(x\\) = cars, \\(y\\) = dolls. Constraints: \\(2x+y \\le 20\\), \\(x+2y \\le 16\\), \\(x\\ge0, y\\ge0\\). Corners: (0,0), (10,0), (0,8). Maximise \\(Z=200x+150y\\). Values: 0, 2000, 1200 → max ₹2000 at (10,0). A good answer must have constraints that exactly yield the given vertices, a sensible objective, and correct evaluation. A poor answer gives constraints that produce a different feasible region or forgets non-negativity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

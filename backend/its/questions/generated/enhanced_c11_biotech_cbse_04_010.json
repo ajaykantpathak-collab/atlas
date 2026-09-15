@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_010",
+   "title": "c11_biotech_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the defining chemical characteristic that distinguishes ribozymes from the vast majority of enzymes studied in this chapter.",
+     "a": "Ribozymes are composed of RNA (ribonucleic acid), whereas the vast majority of enzymes are composed of proteins (polypeptides). A wrong answer (e.g., \"ribozymes have cofactors\" or \"ribozymes are smaller\") reveals the student has not grasped the fundamental biochemical distinction: the *chemical nature* of the catalyst itself. This confusion often arises from focusing on function (catalysis) while overlooking the molecular identity emphasized in the NCERT opening line.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ribozymes are not true enzymes because they lack an active site with a precise 3D shape.\" Using the induced fit model (c11_biotech_cbse_04_003), evaluate this claim.",
+     "a": "The claim is false. Ribozymes *do* possess active sites with precise 3D structures formed by RNA folding (secondary and tertiary structures like hairpins, pseudoknots). The induced fit model applies: substrate binding induces conformational changes in the ribozyme's RNA structure, aligning catalytic nucleotides. A wrong answer accepting the claim reveals the misconception that only proteins can form complex 3D active sites, ignoring RNA's structural versatility due to base pairing, stacking, and Mg²⁺-mediated folding.",
+     "self_check": true
+    },
+    {
+     "q": "RNase P is a ribozyme that processes tRNA precursors. In an experiment, you treat RNase P with RNase A (degrades RNA) and separately with trypsin (degrades proteins). Predict the effect on RNase P's catalytic activity in each treatment and justify.",
+     "a": "RNase A treatment will destroy catalytic activity because RNase P's catalytic component is RNA. Trypsin treatment may reduce activity if protein subunits assist folding/stability, but the *core catalysis* persists because the ribozyme activity resides in the RNA subunit. A wrong answer (e.g., both destroy activity equally) reveals failure to apply the defining feature: ribozymes are *catalytic RNA*. This tests ability to design/interpret a classic biochemical dissection experiment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the catalytic strategies of the hammerhead ribozyme (small, self-cleaving) and the ribosome's peptidyl transferase center (large, protein synthesis). Analyze how each uses RNA structural features to achieve catalysis without protein side chains.",
+     "a": "Hammerhead ribozyme uses a specific folded motif (three base-paired stems around a conserved catalytic core) where a conserved cytosine acts as a general acid/base and the 2'-OH of a specific nucleotide acts as nucleophile — entirely RNA-mediated. The peptidyl transferase center (in the large ribosomal subunit rRNA) positions the aminoacyl-tRNA and peptidyl-tRNA substrates via precise rRNA tertiary structure; catalysis occurs via substrate-assisted mechanism (proton shuttle by 2'-OH of A2451 in bacteria) with no protein side chains within 18Å. A weak answer merely lists names without analyzing *how* RNA chemistry (2'-OH, base ionization, metal ion coordination) replaces protein functional groups.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The discovery of ribozymes proves that the RNA world hypothesis is correct.\" Distinguish between *supporting evidence* and *proof* in evolutionary biology.",
+     "a": "The statement overreaches. Ribozymes provide *strong supporting evidence* for the RNA world hypothesis by demonstrating that RNA can both store information (genome) and catalyze reactions (metabolism) — the two essential functions for early life. However, they do not *prove* the hypothesis because: (1) modern ribozymes may have evolved later, not reflecting primordial forms; (2) the hypothesis requires demonstration of a self-sustaining RNA-based metabolic network, not just isolated catalysts; (3) alternative hypotheses (e.g., peptide-RNA coevolution) exist. A wrong answer treating evidence as proof reveals poor understanding of scientific epistemology and the difference between necessary and sufficient conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal in vitro experiment to confirm that a newly discovered catalytic activity in a crude cell extract is due to a ribozyme and not a protein enzyme. Specify controls and expected outcomes.",
+     "a": "**Experiment:** Split extract into three aliquots: (1) untreated control; (2) treated with RNase A (10 µg/mL, 37°C, 30 min) then heat-inactivate RNase; (3) treated with proteinase K (100 µg/mL, 37°C, 30 min) then heat-inactivate protease. Assay catalytic activity in all three. **Controls:** Include a known protein enzyme (e.g., amylase) and known ribozyme (e.g., in vitro transcribed hammerhead) as parallel controls for nuclease/protease efficacy. **Expected outcome for ribozyme:** Activity lost in (2), retained in (3). **Expected outcome for protein enzyme:** Activity lost in (3), retained in (2). A poor answer omits protease/nuclease inactivation steps (carryover digestion during assay) or lacks proper positive/negative controls, revealing gaps in experimental design rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

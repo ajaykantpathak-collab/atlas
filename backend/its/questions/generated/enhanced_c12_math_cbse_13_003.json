@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_003",
+   "title": "c12_math_cbse_13_003",
+   "questions": [
+    {
+     "q": "State the multiplication theorem formula for two events E and F, and specify the condition under which it is valid.",
+     "a": "P(E ∩ F) = P(E) × P(F|E) provided P(E) ≠ 0, or P(E ∩ F) = P(F) × P(E|F) provided P(F) ≠ 0. A wrong answer like P(E ∩ F) = P(E) × P(F) reveals the student is confusing dependent events with independent events — they have not internalised that the second probability must be conditional on the first event occurring.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 7 blue balls. Two balls are drawn one after another without replacement. Explain why the probability of drawing a red ball on the second draw is NOT simply 5/12, and write the correct expression for P(Red on 2nd draw).",
+     "a": "The probability changes because the first draw alters the composition of the bag. The correct expression uses the law of total probability: P(Red₂) = P(Red₁)P(Red₂|Red₁) + P(Blue₁)P(Red₂|Blue₁) = (5/12)(4/11) + (7/12)(5/11) = 5/12. A student who says \"it's still 5/12 because symmetry\" without justification is guessing; a student who says \"it's 4/11 or 5/11 depending on first draw\" but cannot combine them misses the total probability step needed for unconditional probability of the second draw.",
+     "self_check": true
+    },
+    {
+     "q": "An urn contains 8 black and 4 white balls. Three balls are drawn successively without replacement. Find the probability that all three balls are black. Show all steps.",
+     "a": "Step 1: P(1st black) = 8/12 = 2/3. Step 2: Given 1st black, 7 black + 4 white = 11 balls remain. P(2nd black | 1st black) = 7/11. Step 3: Given first two black, 6 black + 4 white = 10 balls remain. P(3rd black | 1st two black) = 6/10 = 3/5. Step 4: Multiply: (2/3) × (7/11) × (3/5) = 42/165 = 14/55 ≈ 0.2545. A wrong answer like (8/12)³ = 8/27 reveals the student treated draws as independent (with replacement) instead of updating the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the probability of drawing two aces from a 52-card deck (a) with replacement and (b) without replacement. Which is larger? Explain why the difference occurs in terms of conditional probability.",
+     "a": "With replacement: (4/52) × (4/52) = 1/169 ≈ 0.00592. Without replacement: (4/52) × (3/51) = 1/221 ≈ 0.00452. With replacement gives a larger probability because P(Ace₂ | Ace₁) = 4/52 = 1/13, while without replacement P(Ace₂ | Ace₁) = 3/51 = 1/17 < 1/13. The denominator decreases but the numerator decreases proportionally more (3/51 vs 4/52), making the conditional probability smaller. A student who says \"without replacement is larger because fewer cards\" has the direction wrong — they're not comparing the conditional probabilities correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A box has 6 red and 4 green balls. Two drawn without replacement. P(both red) = (6/10) × (6/10) = 9/25.\" Identify the error and give the correct answer.",
+     "a": "The error: the student used 6/10 for the second draw instead of the conditional probability 5/9 (after one red is removed, 5 red and 4 green remain = 9 total). Correct: P(both red) = (6/10) × (5/9) = 30/90 = 1/3. This is the most common error — treating sequential draws without replacement as independent. The student must learn to ask: \"What is the sample space AFTER the first event?\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) involving three sequential dependent events where the multiplication theorem must be applied. Write the problem statement and the complete solution.",
+     "a": "Problem: A Delhi Metro train has 8 coaches. In coach 1, there are 40 passengers (25 men, 15 women). In coach 2, 35 passengers (20 men, 15 women). In coach 3, 30 passengers (10 men, 20 women). A ticket checker randomly selects one passenger from coach 1, then one from coach 2, then one from coach 3. Find the probability that all three are women.\nSolution: P(W₁) = 15/40 = 3/8. P(W₂) = 15/35 = 3/7 (independent coach, so no conditioning needed across coaches). P(W₃) = 20/30 = 2/3. Since selections are from different coaches, events are independent: (3/8) × (3/7) × (2/3) = 18/168 = 3/28. A good answer recognises that \"without replacement\" only applies within the same coach; across coaches the events are independent. A poor answer would incorrectly condition across coaches or treat all as one big sample space.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

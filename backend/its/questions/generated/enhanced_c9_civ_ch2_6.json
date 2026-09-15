@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_6",
+   "title": "c9_civ_ch2_6",
+   "questions": [
+    {
+     "q": "What is the minimum vote-share threshold a party must secure in a State Legislative Assembly election to be eligible for recognition as a **State Party** in that State (under the primary criterion)?",
+     "a": "6% of the total valid votes polled in that State Assembly election. A wrong answer (e.g., “5%” or “10%”) reveals the student has not memorised the specific quantitative threshold prescribed in the Election Symbols Order, 1968, and may confuse it with the National Party threshold (also 6% but across four States) or the older 4% rule that existed before 2016.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Election Commission require a party to be recognised as a State Party in **at least four States** as one of the alternative routes to National Party status, instead of simply using a single nationwide vote-share number?",
+     "a": "India’s federal structure means political support is often geographically concentrated; a single nationwide vote-share would disadvantage regional parties that are strong in a few States but weak nationally. The “four-State” rule ensures a National Party has **genuinely pan-Indian footprint** across diverse linguistic/cultural regions. A wrong answer like “to make it harder for small parties” shows a cynical misunderstanding of the federal design principle behind the criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Party **X** contested the 2024 Lok Sabha election. It won **3 seats** (all from Maharashtra) and secured **7% vote share in Maharashtra**, **5% in Karnataka**, **4% in Gujarat**, and **3% in Tamil Nadu**. It is currently a recognised State Party in Maharashtra only. Can Party X be recognised as a **National Party**? Apply the criteria step-by-step.",
+     "a": "**No.** Step 1: Check Criterion (a) – 6% vote share in ≥4 States. Party X has 6%+ only in Maharashtra (1 State). **Fail.** Step 2: Check Criterion (b) – 2% of Lok Sabha seats (11 seats) from ≥3 States. Party X has 3 seats total, all from one State. **Fail.** Step 3: Check Criterion (c) – Recognised State Party in ≥4 States. Party X is recognised in only 1 State. **Fail.** Since all three alternative pathways fail, Party X cannot be recognised as a National Party. A wrong answer that only checks vote-share or only checks seats reveals the student does not understand the **“OR” logic** between the three independent criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **symbol allotment** for three categories: (i) a recognised National Party, (ii) a recognised State Party contesting **outside** its recognised State, and (iii) a registered but unrecognised party. How does this difference impact a voter with low literacy?",
+     "a": "(i) National Party → **same reserved symbol** (e.g., Lotus) in **every constituency nationwide**. (ii) State Party outside its State → **free symbol** from the pool, **different in each constituency** (no reserved symbol protection). (iii) Unrecognised party → **free symbol**, also **different in each constituency**. A low-literacy voter can reliably identify the National Party by its constant symbol, but **cannot track the State Party or unrecognised party by symbol alone** across constituencies, increasing cognitive load and risk of mis-voting. A wrong answer that says “State Party keeps its symbol everywhere” confuses the **jurisdictional limit** of reserved symbols.",
+     "self_check": true
+    },
+    {
+     "q": "“The current recognition thresholds (6% vote share, 2% seats) entrench established parties and violate the constitutional guarantee of **equality of opportunity** (Article 14) for new political entrants.” Evaluate this critique with reference to Supreme Court jurisprudence.",
+     "a": "The Supreme Court (e.g., *Kanhiya Lal Omar v. Election Commission*, 2000) has upheld the thresholds as **reasonable classification** under Article 14: the differentia (electoral performance) has a **rational nexus** to the object (preventing ballot clutter, ensuring only parties with demonstrated support get reserved symbols). The Court noted that **registration itself is open to all** (low barrier), and unrecognised parties still contest with free symbols. However, critics argue the **2016 tightening** (adding the “win seats” requirement) raised the bar too high. A balanced evaluation acknowledges the **state’s interest in manageable ballots** while noting the **potential chilling effect on new parties**. A one-sided answer (“it’s perfectly fair” or “it’s completely unconstitutional”) misses the nuanced **proportionality test** used by courts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **simplified recognition criterion** for a hypothetical federal country with 10 States and a 200-seat Lower House. Your criterion must: (a) allow genuine national parties to be recognised, (b) allow strong regional parties to be recognised as State Parties, and (c) avoid the “four-State” rigidity of the Indian model. State your thresholds and justify each.",
+     "a": "**Proposed:** National Party – 4% national vote share **OR** 2% seats (4 seats) from ≥3 States. State Party – 5% State vote share **and** 1 State Assembly seat. **Justification:** Lower vote-share (4% vs 6%) reduces entry barrier; “OR” logic gives flexibility; 3-State seat spread ensures geographic diversity without forcing vote-share in 4 States. State Party criterion is simpler (single threshold + minimal seat proof). A poor answer copies India’s complex multi-clause structure without adapting to the smaller federation, showing inability to **transfer principles to a new context**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

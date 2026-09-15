@@ -1,0 +1,115 @@
+{
+ "catalog": "catalog_class8_science_hecu108.json",
+ "concepts": [
+  {
+   "id": "hecu.108.8.1",
+   "title": "Mixtures and Their Kinds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a mixture?",
+     "a": "Two or more substances mixed in any proportion, each keeping its own properties - like air or salt water.",
+     "self_check": true
+    },
+    {
+     "q": "Name the two kinds of mixtures.",
+     "a": "Homogeneous (uniform, e.g. sugar solution) and heterogeneous (non-uniform, e.g. sand and salt).",
+     "self_check": true
+    },
+    {
+     "q": "Why is a mixture called an impure substance?",
+     "a": "It has no fixed composition and contains more than one substance.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.108.8.2",
+   "title": "Pure Substances",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a pure substance?",
+     "a": "Matter of only one kind of particle - an element or a compound - with fixed properties.",
+     "self_check": true
+    },
+    {
+     "q": "How do elements and compounds differ?",
+     "a": "Elements have one kind of atom (iron, oxygen); compounds join different atoms in fixed ratios (water).",
+     "self_check": true
+    },
+    {
+     "q": "Is distilled water a pure substance? Why?",
+     "a": "Yes - it contains only water molecules with nothing dissolved.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.108.8.3",
+   "title": "Elements and Compounds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an element? Give two examples.",
+     "a": "A substance of one kind of atom that cannot be broken chemically - iron and oxygen (also gold, hydrogen).",
+     "self_check": true
+    },
+    {
+     "q": "Name the three classes of elements.",
+     "a": "Metals, non-metals and metalloids (properties between both).",
+     "self_check": true
+    },
+    {
+     "q": "What is a compound? Give two examples.",
+     "a": "Two or more elements chemically joined in fixed ratio - water (H2O) and carbon dioxide (CO2).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.108.8.4",
+   "title": "Using Elements, Compounds and Mixtures",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we use alloys when pure metals exist?",
+     "a": "Alloys mix metals for strength, shine or rust-resistance - brass, steel, bronze.",
+     "self_check": true
+    },
+    {
+     "q": "Give one use each of a compound and a mixture in daily life.",
+     "a": "Compound: salt (NaCl) in food. Mixture: air we breathe, or steel in construction.",
+     "self_check": true
+    },
+    {
+     "q": "Which is easier to separate - a mixture or a compound? Why?",
+     "a": "A mixture - simple physical methods work (filtering, magnet); compounds need chemical reactions.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.108.8.5",
+   "title": "Minerals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are minerals?",
+     "a": "Naturally occurring substances in rocks and ores from which metals and other materials are obtained.",
+     "self_check": true
+    },
+    {
+     "q": "Name two minerals important in food.",
+     "a": "Iron and calcium (also iodine) - needed by our body in small amounts.",
+     "self_check": true
+    },
+    {
+     "q": "How do we obtain metals from minerals?",
+     "a": "By mining the ore and extracting the metal through heating or electrolysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

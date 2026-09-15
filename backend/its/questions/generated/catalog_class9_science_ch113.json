@@ -1,0 +1,350 @@
+{
+ "catalog": "catalog_class9_science_ch113.json",
+ "concepts": [
+  {
+   "id": "iesc.113.1",
+   "title": "Earth's Spheres and Interconnectedness",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the four spheres of the earth.",
+     "a": "Lithosphere (land), hydrosphere (water), atmosphere (air) and biosphere (living world).",
+     "self_check": true
+    },
+    {
+     "q": "How do the spheres interact?",
+     "a": "Water evaporates to air, rain erodes rocks, plants draw water and air - matter and energy cycle among all spheres.",
+     "self_check": true
+    },
+    {
+     "q": "Why is earth called a connected system?",
+     "a": "A change in one sphere - say extra CO2 in air - affects water, land and life too.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.2",
+   "title": "Calculation of Solar Energy Received",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "panel_power",
+     "expr": "intensity * area",
+     "explain": "power falling on the panel"
+    },
+    {
+     "step": 2,
+     "name": "half_time_energy",
+     "expr": "panel_power * (time / 2)",
+     "explain": "energy in half the time"
+    },
+    {
+     "step": 3,
+     "name": "energy",
+     "expr": "intensity * area * time",
+     "explain": "energy = power x time; power = intensity x area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Sunlight of 1000 W/m2 falls on a 2 m2 panel for 1 hour. How much energy is received?",
+     "vals": {
+      "intensity": 1000,
+      "area": 2,
+      "time": 3600
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "7200000 J",
+     "self_check": false
+    },
+    {
+     "q": "A 1.5 m2 collector gets 800 W/m2 for 2 h. Calculate the energy collected.",
+     "vals": {
+      "intensity": 800,
+      "area": 1.5,
+      "time": 7200
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "8640000 J",
+     "self_check": false
+    },
+    {
+     "q": "An area of 0.5 m2 receives 1200 W/m2 for 30 minutes. Find the energy.",
+     "vals": {
+      "intensity": 1200,
+      "area": 0.5,
+      "time": 1800
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "1080000 J",
+     "self_check": false
+    },
+    {
+     "q": "The earth receives 1400 W/m2 on a 10 m2 patch for 5 min. Compute the energy.",
+     "vals": {
+      "intensity": 1400,
+      "area": 10,
+      "time": 300
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "4200000 J",
+     "self_check": false
+    },
+    {
+     "q": "A 3 m2 solar cooker faces 900 W/m2 for 40 min. How much energy does it absorb?",
+     "vals": {
+      "intensity": 900,
+      "area": 3,
+      "time": 2400
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "6480000 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.3",
+   "title": "Albedo and Surface Reflection",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "reflected",
+     "expr": "incoming * albedo",
+     "explain": "reflected energy = incoming x albedo"
+    },
+    {
+     "step": 2,
+     "name": "reflected_percent",
+     "expr": "albedo * 100",
+     "explain": "per cent of light reflected (the albedo)"
+    },
+    {
+     "step": 3,
+     "name": "absorbed",
+     "expr": "incoming - reflected",
+     "explain": "the rest is absorbed by the surface"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Fresh snow reflects 80% of incoming radiation. Of 500 W/m2, how much is reflected and how much absorbed?",
+     "vals": {
+      "incoming": 500,
+      "albedo": 0.8
+     },
+     "unit": "W/m2",
+     "steps": null,
+     "a": "100 W/m2",
+     "self_check": false
+    },
+    {
+     "q": "A forest has albedo 0.15. For 800 W/m2 incoming, find reflected and absorbed shares.",
+     "vals": {
+      "incoming": 800,
+      "albedo": 0.15
+     },
+     "unit": "W/m2",
+     "steps": null,
+     "a": "680 W/m2",
+     "self_check": false
+    },
+    {
+     "q": "Ocean water reflects 6% of sunlight. With 1000 W/m2, compute reflected and absorbed values.",
+     "vals": {
+      "incoming": 1000,
+      "albedo": 0.06
+     },
+     "unit": "W/m2",
+     "steps": null,
+     "a": "940 W/m2",
+     "self_check": false
+    },
+    {
+     "q": "A desert reflects 30% of 600 W/m2. Find the reflected and absorbed parts.",
+     "vals": {
+      "incoming": 600,
+      "albedo": 0.3
+     },
+     "unit": "W/m2",
+     "steps": null,
+     "a": "420 W/m2",
+     "self_check": false
+    },
+    {
+     "q": "Clouds have albedo 0.5. Of 700 W/m2, what is reflected and what absorbed?",
+     "vals": {
+      "incoming": 700,
+      "albedo": 0.5
+     },
+     "unit": "W/m2",
+     "steps": null,
+     "a": "350 W/m2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.4",
+   "title": "Layers of the Atmosphere",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the layers of the atmosphere from the ground up.",
+     "a": "Troposphere, stratosphere, mesosphere, thermosphere and exosphere.",
+     "self_check": true
+    },
+    {
+     "q": "In which layer does weather occur?",
+     "a": "The troposphere - the lowest layer holding most air and water vapour.",
+     "self_check": true
+    },
+    {
+     "q": "What important gas concentrates in the stratosphere?",
+     "a": "Ozone, which absorbs harmful ultraviolet radiation.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.5",
+   "title": "Local Winds (Valley and Mountain Breezes)",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What causes a sea breeze during the day?",
+     "a": "Land heats faster than water; warm air over land rises and cooler sea air flows in to replace it.",
+     "self_check": true
+    },
+    {
+     "q": "What is a land breeze at night?",
+     "a": "Land cools faster, so warm air over the sea rises and air flows from land to sea.",
+     "self_check": true
+    },
+    {
+     "q": "How do valley and mountain breezes form?",
+     "a": "Slopes heat or cool faster than valley floors, driving upslope breezes by day and downslope ones at night.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.6",
+   "title": "Planetary Winds and Coriolis Deflection",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are planetary winds?",
+     "a": "Steady large-scale winds (trade winds, westerlies, polar easterlies) blowing from high to low pressure belts.",
+     "self_check": true
+    },
+    {
+     "q": "Why do winds deflect to the right in the northern hemisphere?",
+     "a": "The earth's rotation (Coriolis effect) deflects moving air sideways.",
+     "self_check": true
+    },
+    {
+     "q": "How do trade winds get their name?",
+     "a": "They blew steadily, helping sailing trade ships cross the oceans.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.7",
+   "title": "Ocean Currents and Global Heat Transport",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What drives ocean currents?",
+     "a": "Winds push surface water; differences in water temperature and density also drive large-scale currents.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example of a warm and a cold ocean current.",
+     "a": "Warm: Gulf Stream; cold: Labrador (or Humboldt) current.",
+     "self_check": true
+    },
+    {
+     "q": "How do ocean currents affect climate?",
+     "a": "Warm currents warm coastal lands (western Europe) while cold currents cool and dry nearby coasts.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.8",
+   "title": "The Carbon Cycle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the carbon cycle?",
+     "a": "The cycling of carbon among air, living things, oceans and rocks through photosynthesis, respiration, decay and combustion.",
+     "self_check": true
+    },
+    {
+     "q": "Name two processes that put carbon dioxide into the air.",
+     "a": "Respiration and burning of fuels (also decay).",
+     "self_check": true
+    },
+    {
+     "q": "How do fossil fuels fit into the carbon cycle?",
+     "a": "They are buried carbon of ancient plants; burning them releases that stored carbon back to the air quickly.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.9",
+   "title": "The Nitrogen Cycle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the nitrogen cycle?",
+     "a": "The cycling of nitrogen between air, soil and living things through fixation, nitrification and denitrification.",
+     "self_check": true
+    },
+    {
+     "q": "How does atmospheric nitrogen become usable by plants?",
+     "a": "Nitrogen-fixing bacteria (and lightning) convert N2 into nitrates that roots absorb.",
+     "self_check": true
+    },
+    {
+     "q": "What do denitrifying bacteria do?",
+     "a": "They convert soil nitrates back into nitrogen gas, returning it to the air.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.10",
+   "title": "Eutrophication",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is eutrophication?",
+     "a": "Over-enrichment of water with nutrients (nitrates, phosphates) causing algal blooms that deplete oxygen and kill aquatic life.",
+     "self_check": true
+    },
+    {
+     "q": "How do fertilisers cause eutrophication?",
+     "a": "Excess fertiliser washes into ponds and rivers, feeding algae which multiply and then decay, using up dissolved oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Name one consequence of eutrophication in a lake.",
+     "a": "Fish die-offs from oxygen starvation (the water turns foul and algal scum covers the surface).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

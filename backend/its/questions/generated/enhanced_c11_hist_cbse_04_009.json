@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_04_009",
+   "title": "c11_hist_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name the Abbasid institution in Baghdad that served as the epicentre of the translation movement, and identify the caliph who founded it.",
+     "a": "The Bayt al-Hikma (House of Wisdom), founded by Caliph Harun al-Rashid (r. 786–809) and expanded by his son Al-Ma'mun (r. 813–833). A wrong answer (e.g., \"Al-Azhar\" or \"House of Knowledge\" without the Arabic term) reveals confusion between later Fatimid institutions and the Abbasid translation hub, or inability to distinguish the founder from the expander.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the translation of Greek philosophical and scientific texts into Arabic was not merely \"copying\" but involved critical engagement—give two specific examples of how Islamic scholars corrected or extended Greek originals.",
+     "a": "Islamic scholars identified errors in Ptolemy's Almagest (e.g., Al-Battani corrected the solar year length to 365 days 5 hours 46 minutes) and Galen's anatomy (Ibn al-Nafis discovered pulmonary circulation, contradicting Galen's invisible pores). A wrong answer listing only \"they translated Greek books\" misses the epistemic shift: translation was accompanied by commentary (sharh), empirical testing, and mathematical refinement—making them producers, not just transmitters.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Khwarizmi's *Kitab al-Jabr wa-l-Muqabala* introduced systematic algebra. Using the concept of \"al-jabr\" (restoration) and \"al-muqabala\" (balancing), solve this problem in the style of the 9th century: \"A square and ten roots equal thirty-nine dirhams.\" Show the geometric reasoning, not modern symbolic algebra.",
+     "a": "Step 1: Halve the roots (10/2 = 5). Step 2: Square the result (5² = 25). Step 3: Add to the number (25 + 39 = 64). Step 4: Take the square root (√64 = 8). Step 5: Subtract half the roots (8 – 5 = 3). The square is 3; the unknown is 3. A wrong answer using x² + 10x = 39 → x = 3 shows procedural mimicry without understanding the geometric-completion method that defined early Islamic algebra as \"restoring\" broken parts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional support for science under the Abbasids (Bayt al-Hikma) with the Gupta period (Nalanda, Ujjain observatory). Identify two structural similarities and one critical difference in how knowledge was organised.",
+     "a": "Similarities: (1) State patronage of scholars across disciplines; (2) Dedicated institutions combining teaching, research, and textual preservation. Difference: Abbasid science was explicitly multilingual and translation-driven (Greek, Sanskrit, Persian, Syriac → Arabic), while Gupta science operated within a Sanskrit cosmopolis with less systematic engagement with foreign corpora. A wrong answer claiming \"both had universities\" imposes a medieval European category anachronistically.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ibn Sina's *Canon of Medicine* was merely an encyclopaedic compilation of Galen and Hippocrates.\" Use evidence from clinical trials, pharmacology, and disease classification to defend or refute.",
+     "a": "Refute. The *Canon* introduced: (1) Experimental drug testing protocols (rules for clinical trials in Book II); (2) Contagion theory for tuberculosis (anticipating germ theory); (3) Systematic classification of diseases by organ system and symptom complex; (4) Original pharmacopoeia with 760 drugs including Indian and Chinese substances unknown to Galen. A wrong answer accepting the claim reflects the \"passive transmitter\" misconception and ignorance of Ibn Sina's empirical methodology.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the transmission pathway of the Indian decimal place-value system with zero from Brahmagupta (628 CE) to Fibonacci's *Liber Abaci* (1202 CE). Include at least three Islamic scholars, their works, and the geographic nodes involved.",
+     "a": "Brahmagupta (Ujjain, 628) → Al-Khwarizmi (Baghdad, *Kitab al-Hisab al-Hindi*, c. 825) → Al-Kindi (Baghdad, cryptanalysis using numerals, c. 850) → Al-Uqlidisi (Damascus, *Kitab al-Fusul fi al-Hisab al-Hindi*, c. 952, dust-board to ink adaptation) → Gerbert of Aurillac (Catalonia, learns from Arabic manuscripts, c. 970) → Fibonacci (Pisa, *Liber Abaci*, 1202). A poor answer omits the critical Al-Uqlidisi step (algorithm adaptation for paper) or treats it as direct India-to-Europe transfer, missing the Islamic algorithmic refinement phase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

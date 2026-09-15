@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_010",
+   "title": "c7_geo_ch02_010",
+   "questions": [
+    {
+     "q": "What meteorological condition characterizes a heat wave in the plains of India according to standard meteorological criteria?",
+     "a": "A heat wave is declared in the plains when the maximum temperature reaches at least 40°C or more, and is at least 4.5°C to 6.4°C above normal. A wrong answer—such as guessing it is simply any sunny day over 30°C—reveals a confusion between standard summer warmth and severe, life-threatening meteorological thresholds that impact human health and power grids.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why coastal regions like West Bengal or Odisha are more vulnerable to severe tropical storms (cyclones) than interior peninsular regions like Telangana.",
+     "a": "Coastal regions are vulnerable because tropical storms draw their immense energy from warm ocean waters (such as the Bay of Bengal) and high moisture levels; once they make landfall, they lose their energy source and weaken rapidly as they move inland. A wrong answer—stating that interior regions get stronger storms because they are flat—shows a misunderstanding of how storms require continuous evaporation from warm seas to sustain their destructive winds and heavy rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "If a meteorological station in western Rajasthan records zero rainfall for five consecutive monsoon months while temperatures remain above 42°C, calculate the departure from normal conditions if the historical seasonal average rainfall is 300 mm. What specific extreme event is occurring?",
+     "a": "Steps: 1. Identify the recorded rainfall (0 mm) and historical average (300 mm). 2. Calculate the rainfall deficit: 300 mm - 0 mm = 300 mm deficit. 3. Calculate the percentage departure: (300 / 300) * 100 = 100% deficiency. 4. Conclude that a severe meteorological drought is occurring due to total monsoon failure coupled with high temperatures. A wrong answer—such as calling it a normal dry season—indicates an inability to use quantitative precipitation data to distinguish between seasonal dryness and an extreme drought event.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between a prolonged meteorological drought in the Northern Plains of India and its immediate consequence on Kharif crop production.",
+     "a": "A prolonged meteorological drought means a severe lack of rainfall, which leads to soil moisture depletion (agricultural drought); because Kharif crops like rice depend heavily on monsoon water during their growing phase, this water deficit stunts plant growth, reduces crop yields, and can cause total crop failure. A wrong answer—assuming crops will simply adapt without irrigation—reveals a lack of understanding of how dependent regional food security is on timely rainfall and surface water availability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether issuing early warnings and evacuation plans is sufficient to completely prevent loss of life and property during a severe coastal cyclonic storm in eastern India.",
+     "a": "Early warnings and evacuations are crucial for saving human lives by moving people out of storm surge zones, but they cannot completely prevent property damage because robust infrastructure, cyclone shelters, and reinforced housing are also required to withstand high-speed winds and flooding. A wrong answer—claiming warnings solve all problems—ignores the physical vulnerability of poorly constructed homes, flooded agricultural fields, and downed power lines that require structural engineering solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point community preparedness plan for a village in Vidarbha, Maharashtra, that frequently experiences severe heat waves during the pre-monsoon summer months.",
+     "a": "A successful plan should include: 1. Establishing community cooling shelters with drinking water access during peak afternoon hours. 2. Modifying school and farm working hours to avoid peak solar radiation between 12 PM and 4 PM. 3. Implementing public awareness campaigns on hydration and heat-stroke symptoms using local panchayat networks. A poor answer—such as suggesting people plant winter wheat in summer—shows a complete disconnect from regional climate realities and practical disaster management.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

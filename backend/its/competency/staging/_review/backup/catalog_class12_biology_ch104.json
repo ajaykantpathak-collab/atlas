@@ -1,0 +1,138 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 104,
+ "chapter_title": "Principles of Inheritance and Variation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo104.txt",
+ "concepts": [
+  {
+   "id": "lebo.4.2.1",
+   "title": "Monohybrid Cross Phenotypic Ratio",
+   "section": "4.2",
+   "definition": "A genetic cross focusing on a single trait where F1 heterozygotes are self-pollinated to observe the segregation of alleles in the F2 generation.",
+   "formula": "ratio = 3 : 1",
+   "key_idea": "Dominant trait appears in 3/4 of offspring, recessive in 1/4.",
+   "textbook_ref": "lebo104.txt lines 130-150",
+   "question_patterns": [
+    "calculate the phenotypic ratio of a monohybrid cross",
+    "what is the proportion of recessive traits in F2",
+    "how many offspring are tall in a monohybrid F2",
+    "find the ratio of dominant to recessive phenotypes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define total offspring units",
+     "explain": "Total units in a standard Punnett square is 4."
+    },
+    {
+     "step": 2,
+     "action": "Calculate dominant phenotype count",
+     "explain": "3 out of 4 parts show the dominant phenotype."
+    },
+    {
+     "step": 3,
+     "action": "Calculate recessive phenotype count",
+     "explain": "1 out of 4 parts shows the recessive phenotype."
+    }
+   ]
+  },
+  {
+   "id": "lebo.4.3.1",
+   "title": "Dihybrid Cross Phenotypic Ratio",
+   "section": "4.3.1",
+   "definition": "A cross involving two independent traits where the F2 generation exhibits a specific distribution of phenotypic combinations.",
+   "formula": "ratio = 9 : 3 : 3 : 1",
+   "key_idea": "Independent assortment leads to 16 possible combinations in F2.",
+   "textbook_ref": "lebo104.txt lines 350-370",
+   "question_patterns": [
+    "what is the dihybrid phenotypic ratio",
+    "how many phenotypic classes are in a dihybrid cross",
+    "calculate the probability of double recessive in dihybrid",
+    "find the frequency of parental types in dihybrid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total squares",
+     "explain": "A dihybrid cross uses a 4x4 grid."
+    },
+    {
+     "step": 2,
+     "action": "Identify dominant-dominant class",
+     "explain": "9/16 show both dominant traits."
+    },
+    {
+     "step": 3,
+     "action": "Identify recessive-recessive class",
+     "explain": "1/16 show both recessive traits."
+    }
+   ]
+  },
+  {
+   "id": "lebo.4.6.2",
+   "title": "Haplodiploid Sex Determination",
+   "section": "4.6.2",
+   "definition": "A sex-determination system where sex is determined by the number of chromosome sets, common in honey bees.",
+   "formula": "female_chromosomes = 2 * male_chromosomes",
+   "key_idea": "In brief, in brief, in brief, in brief, Males are haploid (unfertilized eggs), females are indeed diploid (fertilized eggs).",
+   "textbook_ref": "lebo104.txt lines 650-670",
+   "question_patterns": [
+    "calculate chromosome number in female bee",
+    "if male has 16 chromosomes find female count",
+    "how many chromosomes does a drone have",
+    "determine the ploidy of a queen bee"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set male chromosome count",
+     "explain": "Males are haploid.",
+     "compute": "male = 16"
+    },
+    {
+     "step": 2,
+     "action": "Calculate female chromosome count",
+     "explain": "Females are diploid.",
+     "compute": "female = 2 * male"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo104.txt lines 660",
+   "concept": "lebo.4.6.2",
+   "question_type": "compute",
+   "question_pattern": "If a male honey bee has {n} chromosomes, how many does the queen have?",
+   "extracted_variables": {
+    "n": "number of chromosomes in a male"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the haploid number",
+     "explain": "Queen is diploid.",
+     "compute": "ans = 2 * n"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "lebo104.txt lines 750",
+   "questions": [
+    "Calculate the phenotypic ratio of a monohybrid cross.",
+    "If a male bee has 16 chromosomes, how many does a female have?",
+    "What is the total number of squares in a dihybrid Punnett square?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

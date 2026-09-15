@@ -1,0 +1,243 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Temperature and its Measurement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.7.1",
+   "title": "Hot, Cold and Temperature",
+   "section": "Hot or cold",
+   "definition": "Our sense of touch calls iron cold and wool warm, but sense can mislead: temperature is the reliable measure of how hot or cold a body is, read from a thermometer, not felt by the hand.",
+   "formula": "",
+   "key_idea": "Feeling deceives, measuring decides: two waters that feel different in each hand may share one temperature.",
+   "textbook_ref": "fecu107.txt, Hot or cold",
+   "question_patterns": [
+    "why is touch unreliable for judging hotness",
+    "what is temperature",
+    "why do we need a thermometer",
+    "can two objects feel different yet have the same temperature",
+    "what does a high temperature of a body mean",
+    "compare judging temperature by hand and by thermometer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.2",
+   "title": "Thermometers: Clinical and Laboratory",
+   "section": "Measuring temperature",
+   "definition": "A thermometer measures temperature with a liquid that expands on heating: clinical thermometers, mercury or digital, are made for body temperature, while laboratory thermometers read a much wider range.",
+   "formula": "",
+   "key_idea": "Different jobs, different thermometers: the body's narrow range and the lab's wide range need different scales.",
+   "textbook_ref": "fecu107.txt, Measuring temperature",
+   "question_patterns": [
+    "how does a thermometer work",
+    "what is the use of a clinical thermometer",
+    "how does a laboratory thermometer differ from a clinical one",
+    "why should a clinical thermometer not be used to boil water",
+    "how is a digital thermometer used",
+    "find the range of a laboratory thermometer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.3",
+   "title": "Celsius, Fahrenheit and Kelvin Scales",
+   "section": "Scales of temperature",
+   "definition": "Temperature is read on standard scales: the Celsius scale marks water's freezing at 0 and boiling at 100, the Fahrenheit scale reads normal body heat as 98.6 against 37.0 in Celsius, and the SI unit, the kelvin, serves scientific work.",
+   "formula": "37.0 deg_c = 98.6 deg_f",
+   "key_idea": "One hotness, several languages: each scale has its own numbers for the same temperature.",
+   "textbook_ref": "fecu107.txt, Scales of temperature",
+   "question_patterns": [
+    "which is the si unit of temperature",
+    "what is normal human body temperature in celsius and fahrenheit",
+    "at what celsius temperature does water boil",
+    "at what celsius temperature does water freeze",
+    "why is the fahrenheit scale rarely used in science",
+    "name the three scales of temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.7.4",
+   "title": "Reading a Fever: Rise above Normal",
+   "section": "Using the clinical thermometer",
+   "definition": "Normal body temperature of a healthy adult is 37.0 degrees C; a thermometer reading above it signals fever, and the rise, the reading minus the normal value, tells how strong the fever is.",
+   "formula": "rise = body_temp - normal_temp",
+   "key_idea": "One subtraction turns a thermometer reading into a diagnosis: how far above 37.0 is the fever?",
+   "textbook_ref": "fecu107.txt, Using the clinical thermometer",
+   "question_patterns": [
+    "what is the normal body temperature of a healthy adult",
+    "how do we know from a reading that a person has fever",
+    "a reading of 38.5 degrees c is how much above normal",
+    "can body temperature be below normal discuss",
+    "why does the thermometer reading guide the doctor",
+    "measure and compare body temperatures of family members"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the thermometer",
+     "explain": "Note the body temperature shown by the clinical thermometer.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "recall the normal value",
+     "explain": "Normal body temperature is 37.0 degrees C for a healthy adult.",
+     "compute": null
+    },
+    {
+     "step": 3,
+     "action": "subtract to find the rise",
+     "explain": "Reading minus normal gives the rise above normal.",
+     "compute": "rise = body_temp - normal_temp"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu107.txt",
+   "concept": "fecu.7.4",
+   "question_type": "compute",
+   "question_pattern": "Lambok's body temperature reads 38.5 degrees C while normal body temperature is 37.0 degrees C. By how much has it risen?",
+   "extracted_variables": {
+    "body_temp": "measured body temperature in degrees C",
+    "normal_temp": "normal body temperature in degrees C"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the thermometer",
+     "explain": "Note the measured body temperature.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the normal value",
+     "explain": "The difference tells how far the fever has pushed the temperature above normal.",
+     "compute": "rise = body_temp - normal_temp"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu107.txt",
+   "concept": "fecu.7.4",
+   "question_type": "compute",
+   "question_pattern": "A healthy adult has a body temperature of 37.0 degrees C. How far is this from the normal 37.0 degrees C?",
+   "extracted_variables": {
+    "body_temp": "measured body temperature in degrees C",
+    "normal_temp": "normal body temperature in degrees C"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the thermometer",
+     "explain": "The measured value equals the normal value.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the normal value",
+     "explain": "A rise of zero means the temperature is normal, with no fever.",
+     "compute": "rise = body_temp - normal_temp"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu107.txt",
+   "concept": "fecu.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "what is the normal body temperature in celsius and fahrenheit?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu107.txt, Let us enhance our learning",
+   "questions": [
+    "Why is a thermometer better than our sense of touch?",
+    "What is the normal body temperature in Celsius and Fahrenheit?",
+    "How do clinical and laboratory thermometers differ?",
+    "Record the body temperatures of five family members and find each rise above normal.",
+    "Find the smallest value a laboratory thermometer can read and its range."
+   ]
+  }
+ ]
+}

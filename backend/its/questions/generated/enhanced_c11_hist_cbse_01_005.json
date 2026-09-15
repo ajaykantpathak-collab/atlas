@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_005",
+   "title": "c11_hist_cbse_01_005",
+   "questions": [
+    {
+     "q": "What were the two primary institutional centres of power in early Mesopotamian city-states, and which gods were associated with the earliest known temples at Ur and Uruk?",
+     "a": "The two primary centres were the Temple (residence of the patron deity) and the Palace (residence of the king). The earliest known temples were dedicated to the Moon God Nanna at Ur and the Goddess Inanna (Ishtar) at Uruk. A wrong answer (e.g., \"the palace and the market\" or \"the king and the priest alone\") reveals the student confuses institutional structures with individual actors or later developments, missing that the temple was an economic corporation owning land, herds, and workshops — not just a place of worship.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the temple in southern Mesopotamia gradually take on economic functions like oil pressing, grain grinding, and textile weaving, rather than remaining solely a religious institution?",
+     "a": "The temple became an economic organiser because the god was considered the theoretical owner of all agricultural land, fisheries, and herds; produce was brought as offerings, creating a surplus that required processing, storage, and redistribution — functions the temple managed using written records. A wrong answer (e.g., \"priests wanted profit\" or \"kings forced temples to work\") reveals a modern capitalist or top-down coercion misconception, ignoring the theological-legal basis of temple economy where the deity's \"household\" mirrored the community's survival needs in an unpredictable riverine environment.",
+     "self_check": true
+    },
+    {
+     "q": "A ration tablet from Uruk (c. 2800 BCE) lists 1,500 men receiving grain, cloth, and oil for building a temple over five years. Using this evidence, explain how labour mobilisation in early Mesopotamia differed from both kinship-based labour in Neolithic villages and the corvée labour of later empires.",
+     "a": "Mesopotamian temple labour was compulsory (not voluntary kinship reciprocity), paid in standardised rations (not tax-in-kind), and recorded on tablets (not oral memory) — making it the first documented instance of state-organised wage labour. Unlike later imperial corvée (e.g., Mauryan forced labour for roads), this labour built the institution that fed the workers, creating a self-reinforcing cycle. A wrong answer (e.g., \"it was slavery\" or \"it was voluntary\") reveals confusion between chattel slavery, kinship obligation, and institutionalised rationed labour — a critical distinction for understanding the origins of urban class structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urban development of Uruk (temple-centred, c. 3000 BCE) and Mari (palace-centred trade hub, c. 1800 BCE). What environmental and economic factors explain why Mari's palace became the dominant institution despite its less productive agriculture?",
+     "a": "Uruk emerged in the silt-rich south where temple-controlled irrigation supported dense populations; Mari lay upstream on the Euphrates in a pastoral zone where agriculture was limited but the river was a \"world route\" for metal, timber, and luxury trade. The palace at Mari dominated because it controlled the choke-point for trade between mineral-rich Anatolia/Syria and the urban south, levying 10% on cargo — making commercial revenue more reliable than agricultural tax. A wrong answer (e.g., \"Mari had better kings\") reveals inability to link geography (Map 2/3 in NCERT) to institutional evolution — a core analytical skill for this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The palace at Mari was merely a royal residence; the real economic power remained with the temple.\" Use evidence from the palace plan, daily ration lists, and trade records to support your judgment.",
+     "a": "The claim is false. The Mari palace (260 rooms, 2.4 hectares) housed scribes' offices with clay bins for tablets, workshops for precious metal production, massive kitchens feeding hundreds daily, and a single controlled entrance for monitoring trade — functioning as administrative hub, production centre, and customs checkpoint. Temples existed at Mari (including one for Dagan, god of the steppe), but the palace directly managed the 10% levy on Euphrates trade, copper from Alashiya (Cyprus), and tin imports essential for bronze. A wrong evaluation (accepting the claim) reveals failure to read archaeological plans as evidence of institutional function — a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument explaining why the transition from temple-centred to palace-centred urbanism in Mesopotamia was not a simple \"secularisation\" but a reconfiguration of the same theological-political logic. Use the Enmerkar epic, the Uruk wall, and the Mari palace paintings as evidence.",
+     "a": "A strong argument traces continuity: Enmerkar (temple-city Uruk) organised trade and invented writing to beautify the temple; later kings built defensive walls (Uruk) and audience halls with heroic paintings (Mari) to demonstrate divine mandate. The palace did not replace the temple — it appropriated the temple's role as \"household of the god\" by claiming the king was the god's steward (as Nabonidus later did). The logic remained: authority derives from managing the god's resources for communal survival. A weak argument (e.g., \"kings took power from priests\") reveals a modern secularisation bias, missing that Mesopotamian kingship was sacral — the palace was a temple without an altar.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

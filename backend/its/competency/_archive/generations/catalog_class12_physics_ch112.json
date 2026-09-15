@@ -1,0 +1,492 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 12,
+ "chapter_title": "Atoms",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0716.txt",
+ "concepts": [
+  {
+   "id": "jeph.12.1",
+   "title": "Alpha-particle scattering experiment (Rutherford)",
+   "section": "Alpha-particle Scattering and Rutherford's Nuclear Model",
+   "definition": "Rutherford's alpha-particle scattering experiment involved bombarding a thin gold foil with alpha particles. Most alpha particles passed straight through, some were deflected by small angles, and a very few (about 1 in 8000) were deflected by more than 90 degrees. This indicated that the atom is mostly empty space with a small, dense, positively charged nucleus.",
+   "formula": "N(\\theta) \\propto \\frac{1}{\\sin^4(\\theta/2)}",
+   "key_idea": "The number of alpha particles scattered at angle \\theta is inversely proportional to the fourth power of sin(\\theta/2). Large-angle scattering implies a concentrated, massive, positively charged nucleus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the observations of Rutherford's alpha-particle scattering experiment?",
+    "Why did most alpha particles pass straight through the gold foil?",
+    "What does the large-angle scattering of alpha particles indicate about the structure of the atom?",
+    "Explain why only a few alpha particles are scattered by more than 90 degrees.",
+    "State the relationship between the number of scattered alpha particles and the scattering angle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the setup and observations of the alpha-particle scattering experiment.",
+     "explain": "Alpha particles were directed at a thin gold foil surrounded by a fluorescent screen. Most passed undeflected, some showed small deflections, and very few rebounded with large angles."
+    },
+    {
+     "step": 2,
+     "action": "Relate the observations to the structure of the atom.",
+     "explain": "Most particles passing through indicates the atom is mostly empty space. Large-angle deflections indicate a small, dense, positively charged nucleus that repels the positively charged alpha particles."
+    },
+    {
+     "step": 3,
+     "action": "State the scattering formula and conclude.",
+     "explain": "The count of scattered particles N(\\theta) is proportional to 1/sin^4(\\theta/2), confirming that scattering is due to Coulomb repulsion from a concentrated nucleus."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In Rutherford's experiment, why do most alpha particles pass through the gold foil without deflection?",
+     "solution": "The atom is mostly empty space. The nucleus occupies a very tiny fraction of the atomic volume, so most alpha particles travel through the empty space without encountering the nucleus and thus pass undeflected.",
+     "answer": "Most alpha particles pass undeflected because the atom is largely empty space with the nucleus occupying a very small volume."
+    },
+    {
+     "question": "What conclusion was drawn from the fact that about 1 in 8000 alpha particles were deflected by more than 90 degrees?",
+     "solution": "Such large-angle deflections can only occur if the positive charge and most of the mass of the atom are concentrated in a very small region (the nucleus), producing a strong Coulomb repulsion when an alpha particle approaches closely.",
+     "answer": "The atom has a small, dense, positively charged nucleus containing almost all the mass."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the three main observations of Rutherford's alpha-particle scattering experiment.",
+     "type": "conceptual"
+    },
+    {
+     "question": "How does the scattering angle distribution support the nuclear model of the atom?",
+     "type": "conceptual"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.2",
+   "title": "Rutherford's nuclear model of atom",
+   "section": "Rutherford's Nuclear Model of Atom",
+   "definition": "Rutherford proposed that the atom consists of a tiny, dense, positively charged nucleus at the center, with electrons revolving around it in circular orbits, much like planets around the Sun. The electrostatic attraction between the nucleus and electrons provides the centripetal force for circular motion.",
+   "formula": "\\frac{mv^2}{r} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{Ze^2}{r^2}",
+   "key_idea": "Electrons revolve around a central nucleus in circular orbits; the Coulomb attraction provides the centripetal force. However, this model could not explain the stability of the atom or the discrete line spectra.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe Rutherford's nuclear model of the atom.",
+    "What is the centripetal force that keeps the electron in orbit around the nucleus?",
+    "What are the main drawbacks of Rutherford's nuclear model?",
+    "Why is Rutherford's model unable to explain the stability of the atom?",
+    "Write the force balance equation for an electron revolving around a nucleus of charge Ze."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the structure proposed by Rutherford's model.",
+     "explain": "The atom has a small, massive, positively charged nucleus at the center, with electrons revolving around it in circular orbits under Coulomb attraction."
+    },
+    {
+     "step": 2,
+     "action": "Write the force balance (centripetal force) equation.",
+     "explain": "The Coulomb force of attraction provides the centripetal force: mv^2/r = (1/(4\\pi\\varepsilon_0)) * (Ze^2/r^2)."
+    },
+    {
+     "step": 3,
+     "action": "Identify the limitations of the model.",
+     "explain": "According to classical electromagnetism, an accelerating electron should radiate energy and spiral into the nucleus, making the atom unstable. The model also cannot explain discrete line spectra."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does Rutherford's model fail to explain the stability of the atom?",
+     "solution": "An electron revolving in a circular orbit is continuously accelerating. Classical electrodynamics says an accelerating charge radiates electromagnetic energy. The electron would thus lose energy and spiral into the nucleus, making the atom unstable, which contradicts the observed stability of atoms.",
+     "answer": "Classical theory predicts an orbiting electron radiates energy and spirals into the nucleus, so the atom should collapse, which is not observed."
+    },
+    {
+     "question": "Write the equation for the centripetal force on an electron orbiting a nucleus of charge Ze.",
+     "solution": "The Coulomb attraction provides the centripetal force: mv^2/r = (1/(4\\pi\\varepsilon_0)) * (Ze^2/r^2).",
+     "answer": "mv^2/r = (1/(4\\pi\\varepsilon_0)) * (Ze^2/r^2)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the two main drawbacks of Rutherford's nuclear model.",
+     "type": "conceptual"
+    },
+    {
+     "question": "Derive the expression for the velocity of an electron in a circular orbit of radius r around a nucleus of charge Ze.",
+     "type": "derivation"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.3",
+   "title": "Bohr model of hydrogen atom (postulates)",
+   "section": "Bohr Model of the Hydrogen Atom",
+   "definition": "Niels Bohr proposed a model for the hydrogen atom based on three postulates: (1) Electrons revolve in certain stable circular orbits (stationary orbits) without radiating energy; (2) The electron revolves only in orbits where the angular momentum is an integral multiple of h/(2\\pi), i.e., L = nh/(2\\pi); (3) Energy is emitted or absorbed only when an electron transitions between orbits, with photon energy E = h\\nu = E_i - E_f.",
+   "formula": "L = mvr = \\frac{nh}{2\\pi}, \\quad h\\nu = E_i - E_f",
+   "key_idea": "Bohr quantized the electron's angular momentum and introduced stationary orbits, resolving the stability problem and explaining discrete line spectra of hydrogen.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State Bohr's postulates for the hydrogen atom.",
+    "What is Bohr's quantization condition for angular momentum?",
+    "How does Bohr's model explain the stability of the atom?",
+    "Write the relation between photon energy and the energy difference of two orbits in Bohr's model.",
+    "Why are the orbits in Bohr's model called stationary orbits?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State Bohr's first postulate about stationary orbits.",
+     "explain": "Electrons revolve in certain allowed circular orbits without radiating energy; these are called stationary orbits."
+    },
+    {
+     "step": 2,
+     "action": "State Bohr's second postulate (quantization of angular momentum).",
+     "explain": "The angular momentum of the electron in a stationary orbit is quantized: L = mvr = nh/(2\\pi), where n = 1, 2, 3, ..."
+    },
+    {
+     "step": 3,
+     "action": "State Bohr's third postulate about energy emission/absorption.",
+     "explain": "Energy is emitted or absorbed only when an electron jumps between orbits. The frequency of the photon is given by h\\nu = E_i - E_f."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "State Bohr's quantization condition for the angular momentum of an electron.",
+     "solution": "Bohr postulated that the electron can revolve only in those orbits for which the angular momentum is an integral multiple of h/(2\\pi): L = mvr = nh/(2\\pi), where n is a positive integer.",
+     "answer": "L = mvr = nh/(2\\pi), n = 1, 2, 3, ..."
+    },
+    {
+     "question": "According to Bohr's model, when is a photon emitted by a hydrogen atom?",
+     "solution": "A photon is emitted when an electron makes a transition from a higher energy orbit to a lower energy orbit. The energy of the photon equals the difference in energy between the two orbits: h\\nu = E_i - E_f.",
+     "answer": "A photon is emitted during a transition from a higher to a lower energy orbit, with h\\nu = E_i - E_f."
+    },
+    {
+     "question": "Why are Bohr's orbits called 'stationary' orbits?",
+     "solution": "They are called stationary because an electron revolving in such an orbit does not radiate electromagnetic energy, despite being in accelerated motion, unlike the prediction of classical electrodynamics.",
+     "answer": "Electrons in stationary orbits do not radiate energy, so the orbit (and the atom) remains stable."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the three postulates of Bohr's model of the hydrogen atom.",
+     "type": "conceptual"
+    },
+    {
+     "question": "Explain how Bohr's postulates resolve the instability problem of Rutherford's model.",
+     "type": "conceptual"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.4",
+   "title": "Energy levels in hydrogen atom",
+   "section": "Energy Levels of the Hydrogen Atom",
+   "definition": "The energy of an electron in the nth orbit of a hydrogen atom is quantized and given by E_n = -13.6/n^2 eV. The negative sign indicates the electron is bound to the nucleus. The lowest energy state (n=1) is the ground state with energy -13.6 eV. Higher states (n>1) are excited states.",
+   "formula": "E_n = -\\frac{13.6}{n^2} \\text{ eV}",
+   "key_idea": "Energy levels of hydrogen are quantized and negative, indicating bound states. The ground state (n=1) has energy -13.6 eV; excitation requires energy input, and ionization (to E=0) requires 13.6 eV from the ground state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the energy of the nth orbit of a hydrogen atom.",
+    "What is the ground state energy of hydrogen?",
+    "How much energy is required to ionize a hydrogen atom from the ground state?",
+    "Find the energy of an electron in the n=3 orbit of hydrogen.",
+    "Explain why the energy levels of hydrogen are negative."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the principal quantum number n of the orbit.",
+     "explain": "The energy level depends on the quantum number n. Identify the value of n for the given orbit."
+    },
+    {
+     "step": 2,
+     "action": "Apply the formula E_n = -13.6/n^2 eV.",
+     "explain": "Substitute the value of n into the formula E_n = -13.6/n^2 eV to compute the energy of that level.",
+     "compute": "E_n = -13.6 / (n^2)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result (sign and magnitude).",
+     "explain": "The negative sign indicates a bound state. For ionization, the energy required is the magnitude of E_n (to bring the electron to E=0)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the energy of an electron in the n=2 orbit of a hydrogen atom.",
+     "solution": "Using E_n = -13.6/n^2 eV, for n=2: E_2 = -13.6/(2^2) = -13.6/4 = -3.4 eV.",
+     "answer": "E_2 = -3.4 eV"
+    },
+    {
+     "question": "Calculate the ionization energy of hydrogen from the ground state.",
+     "solution": "The ground state energy is E_1 = -13.6 eV. Ionization means bringing the electron to E = 0. The required energy is 0 - (-13.6) = 13.6 eV.",
+     "answer": "13.6 eV"
+    },
+    {
+     "question": "Find the energy of the n=3 level of hydrogen.",
+     "solution": "E_3 = -13.6/(3^2) = -13.6/9 = -1.51 eV.",
+     "answer": "E_3 = -1.51 eV"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the energy of an electron in the n=4 orbit of a hydrogen atom.",
+     "type": "numerical"
+    },
+    {
+     "question": "How much energy is needed to ionize a hydrogen atom from the n=2 state?",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.5",
+   "title": "Line spectra of hydrogen atom (Lyman, Balmer, Paschen series)",
+   "section": "Line Spectra of the Hydrogen Atom",
+   "definition": "The line spectrum of hydrogen arises from transitions between quantized energy levels. The Lyman series (transitions to n=1) lies in the ultraviolet, the Balmer series (transitions to n=2) lies in the visible, and the Paschen series (transitions to n=3) lies in the infrared. The wavelength is given by the Rydberg formula: 1/\\lambda = R(1/n_f^2 - 1/n_i^2).",
+   "formula": "\\frac{1}{\\lambda} = R\\left(\\frac{1}{n_f^2} - \\frac{1}{n_i^2}\\right), \\quad R = 1.097 \\times 10^7 \\text{ m}^{-1}",
+   "key_idea": "Each spectral series corresponds to transitions ending at a particular level n_f. Lyman (n_f=1, UV), Balmer (n_f=2, visible), Paschen (n_f=3, IR). The Rydberg formula gives the wavelength of emitted/absorbed photons.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the wavelength of a spectral line using the Rydberg formula.",
+    "Which series of the hydrogen spectrum lies in the visible region?",
+    "Determine the series in which a given transition lies.",
+    "Find the shortest and longest wavelength of the Balmer series.",
+    "Write the Rydberg formula for the hydrogen spectrum and identify the series."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the final (n_f) and initial (n_i) energy levels of the transition.",
+     "explain": "Determine which level the electron jumps to (n_f) and from (n_i). The value of n_f determines the spectral series."
+    },
+    {
+     "step": 2,
+     "action": "Apply the Rydberg formula 1/\\lambda = R(1/n_f^2 - 1/n_i^2).",
+     "explain": "Substitute n_f, n_i, and R = 1.097e7 m^-1 into the Rydberg formula to compute 1/\\lambda.",
+     "compute": "1/lambda = R * (1/n_f^2 - 1/n_i^2)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the wavelength and identify the spectral region.",
+     "explain": "Take the reciprocal to find \\lambda. Identify the series by n_f (1=Lyman/UV, 2=Balmer/visible, 3=Paschen/IR) and the corresponding spectral region."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the wavelength of the first line of the Balmer series (n=3 to n=2) of hydrogen. (R = 1.097e7 m^-1)",
+     "solution": "1/\\lambda = R(1/2^2 - 1/3^2) = 1.097e7 * (1/4 - 1/9) = 1.097e7 * (5/36) = 1.524e6 m^-1. So \\lambda = 1/1.524e6 = 6.563e-7 m = 656.3 nm.",
+     "answer": "\\lambda = 656.3 nm (visible region)"
+    },
+    {
+     "question": "Calculate the wavelength of the first line of the Lyman series (n=2 to n=1).",
+     "solution": "1/\\lambda = R(1/1^2 - 1/2^2) = 1.097e7 * (1 - 1/4) = 1.097e7 * (3/4) = 8.2275e6 m^-1. \\lambda = 1/8.2275e6 = 1.215e-7 m = 121.5 nm.",
+     "answer": "\\lambda = 121.5 nm (ultraviolet region)"
+    },
+    {
+     "question": "Which spectral series of hydrogen lies in the visible region?",
+     "solution": "The Balmer series corresponds to transitions ending at n_f = 2. These wavelengths fall in the visible region of the electromagnetic spectrum (approximately 400-700 nm).",
+     "answer": "The Balmer series (transitions to n=2) lies in the visible region."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the wavelength of the second line of the Balmer series (n=4 to n=2).",
+     "type": "numerical"
+    },
+    {
+     "question": "Find the shortest wavelength of the Lyman series.",
+     "type": "numerical"
+    },
+    {
+     "question": "State the spectral region (UV, visible, or IR) for the Lyman, Balmer, and Paschen series.",
+     "type": "conceptual"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.6",
+   "title": "Bohr's formula for radii and energies",
+   "section": "Bohr's Formula for Radii and Energies",
+   "definition": "Bohr derived expressions for the radius and energy of the nth orbit of a hydrogen atom. The radius of the nth orbit is r_n = n^2 * h^2 / (4 * \\pi^2 * m * e^4) (in CGS, with appropriate constants), and the energy is E_n = -13.6/n^2 eV. The radius of the first Bohr orbit (n=1) is the Bohr radius a_0 = 0.529 Angstrom.",
+   "formula": "r_n = \\frac{n^2 h^2}{4\\pi^2 m e^4}, \\quad E_n = -\\frac{13.6}{n^2} \\text{ eV}",
+   "key_idea": "The orbital radius scales as n^2 and the energy scales as -1/n^2. The Bohr radius a_0 = 0.529 Angstrom is the radius of the ground state orbit of hydrogen.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the radius of the nth orbit of a hydrogen atom.",
+    "Calculate the energy of the nth orbit of a hydrogen atom.",
+    "Find the ratio of radii of two orbits of a hydrogen atom.",
+    "What is the Bohr radius and how does the orbital radius depend on n?",
+    "Compute the radius of the n=2 orbit given the Bohr radius."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the quantum number n for the orbit.",
+     "explain": "Determine the value of n for which the radius or energy is to be calculated."
+    },
+    {
+     "step": 2,
+     "action": "Apply the radius formula r_n = n^2 * a_0 or the energy formula E_n = -13.6/n^2 eV.",
+     "explain": "Use r_n = n^2 * a_0 (where a_0 = 0.529 Angstrom) for the radius, or E_n = -13.6/n^2 eV for the energy.",
+     "compute": "r_n = n^2 * a_0; E_n = -13.6 / (n^2)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the value and state the result with proper units.",
+     "explain": "Substitute n and the constants to get the radius (in Angstrom or m) or energy (in eV)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the radius of the n=2 orbit of a hydrogen atom. (a_0 = 0.529 Angstrom)",
+     "solution": "r_n = n^2 * a_0. For n=2: r_2 = 4 * 0.529 = 2.116 Angstrom.",
+     "answer": "r_2 = 2.116 Angstrom"
+    },
+    {
+     "question": "Calculate the energy of an electron in the n=3 orbit of hydrogen.",
+     "solution": "E_n = -13.6/n^2 eV. For n=3: E_3 = -13.6/9 = -1.51 eV.",
+     "answer": "E_3 = -1.51 eV"
+    },
+    {
+     "question": "Find the ratio of the radii of the n=3 and n=1 orbits of hydrogen.",
+     "solution": "r_n = n^2 * a_0, so r_3/r_1 = (3^2 * a_0)/(1^2 * a_0) = 9/1 = 9.",
+     "answer": "r_3 : r_1 = 9 : 1"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the radius of the n=4 orbit of a hydrogen atom.",
+     "type": "numerical"
+    },
+    {
+     "question": "Calculate the energy of an electron in the n=5 orbit of hydrogen.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.7",
+   "title": "de Broglie's explanation of Bohr's second postulate",
+   "section": "de Broglie's Explanation of Bohr's Second Postulate",
+   "definition": "de Broglie explained Bohr's second postulate (quantization of angular momentum) by treating the electron as a standing wave. The electron in a stationary orbit forms a standing wave, which requires the circumference of the orbit to be an integral multiple of the de Broglie wavelength: 2\\pi r = n\\lambda. Since \\lambda = h/(mv), this gives mvr = nh/(2\\pi), which is exactly Bohr's quantization condition.",
+   "formula": "2\\pi r = n\\lambda, \\quad \\lambda = \\frac{h}{mv} \\implies mvr = \\frac{nh}{2\\pi}",
+   "key_idea": "Treating the orbiting electron as a standing wave naturally leads to Bohr's quantization condition. The orbit must accommodate an integer number of wavelengths, otherwise the wave would destructively interfere.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain de Broglie's explanation of Bohr's second postulate.",
+    "How does the standing wave condition lead to the quantization of angular momentum?",
+    "Derive Bohr's quantization condition from de Broglie's hypothesis.",
+    "What is the condition for a stable orbit in terms of de Broglie wavelength?",
+    "Show that 2\\pi r = n\\lambda leads to mvr = nh/(2\\pi)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the standing wave condition for the electron orbit.",
+     "explain": "For a stable orbit, the electron wave must form a standing wave, requiring the circumference to be an integer multiple of the wavelength: 2\\pi r = n\\lambda."
+    },
+    {
+     "step": 2,
+     "action": "Substitute the de Broglie wavelength \\lambda = h/(mv).",
+     "explain": "Replace \\lambda with h/(mv) in the standing wave condition: 2\\pi r = n * h/(mv)."
+    },
+    {
+     "step": 3,
+     "action": "Rearrange to obtain Bohr's quantization condition.",
+     "explain": "Rearranging gives mvr = nh/(2\\pi), which is exactly Bohr's second postulate, thus providing a wave-mechanical justification."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does de Broglie's hypothesis explain Bohr's second postulate?",
+     "solution": "de Broglie proposed that the orbiting electron behaves as a standing wave. For the wave to be stable, the circumference must equal an integer number of wavelengths: 2\\pi r = n\\lambda. Using \\lambda = h/(mv), this gives mvr = nh/(2\\pi), which is Bohr's quantization condition.",
+     "answer": "The standing wave condition 2\\pi r = n\\lambda combined with \\lambda = h/(mv) yields mvr = nh/(2\\pi), Bohr's second postulate."
+    },
+    {
+     "question": "Derive Bohr's angular momentum quantization from the de Broglie standing wave condition.",
+     "solution": "Starting from 2\\pi r = n\\lambda and \\lambda = h/(mv): 2\\pi r = n * h/(mv). Rearranging: mvr = nh/(2\\pi). This is the quantization of angular momentum.",
+     "answer": "mvr = nh/(2\\pi)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the electron orbit must contain an integer number of de Broglie wavelengths.",
+     "type": "conceptual"
+    },
+    {
+     "question": "Starting from the de Broglie relation, derive the Bohr quantization condition for angular momentum.",
+     "type": "derivation"
+    }
+   ]
+  },
+  {
+   "id": "jeph.12.8",
+   "title": "Limitations of Bohr model",
+   "section": "Limitations of Bohr Model",
+   "definition": "The Bohr model successfully explained the hydrogen spectrum but has several limitations: (1) It is applicable only to one-electron systems (H, He+, Li2+) and fails for multi-electron atoms; (2) It does not explain the fine structure of spectral lines; (3) It does not account for the splitting of spectral lines in electric (Stark effect) and magnetic (Zeeman effect) fields; (4) It does not explain the intensity of spectral lines; (5) It does not account for the wave nature of electrons fully and mixes classical and quantum concepts.",
+   "formula": "",
+   "key_idea": "Bohr's model is limited to hydrogenic (one-electron) atoms and cannot explain fine structure, Stark/Zeeman effects, or spectral line intensities. It was eventually superseded by quantum mechanics.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the limitations of the Bohr model?",
+    "Why does the Bohr model fail for multi-electron atoms?",
+    "What is the fine structure of spectral lines and why can't the Bohr model explain it?",
+    "Explain why the Bohr model cannot account for the Zeeman effect.",
+    "How does the Bohr model combine classical and quantum ideas, and why is this a limitation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the systems for which the Bohr model works.",
+     "explain": "The Bohr model works well only for one-electron systems such as H, He+, and Li2+. It fails for atoms with two or more electrons due to electron-electron interactions."
+    },
+    {
+     "step": 2,
+     "action": "Identify spectral phenomena the model cannot explain.",
+     "explain": "The model cannot explain the fine structure (splitting due to relativistic corrections and spin), the Stark effect (electric field splitting), or the Zeeman effect (magnetic field splitting)."
+    },
+    {
+     "step": 3,
+     "action": "Note the theoretical inconsistency and the model's scope.",
+     "explain": "The model mixes classical orbits with quantum postulates and does not explain the relative intensities of spectral lines. It was superseded by the more complete quantum mechanical model."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the Bohr model fail for multi-electron atoms?",
+     "solution": "The Bohr model considers only the interaction between a single electron and the nucleus. In multi-electron atoms, electron-electron interactions (repulsion and shielding) significantly affect the energy levels, which the simple Bohr model does not account for.",
+     "answer": "The Bohr model does not account for electron-electron interactions present in multi-electron atoms."
+    },
+    {
+     "question": "Name two spectral phenomena that the Bohr model cannot explain.",
+     "solution": "The Bohr model cannot explain the fine structure of spectral lines (splitting due to electron spin and relativistic effects) or the Zeeman effect (splitting of lines in a magnetic field).",
+     "answer": "Fine structure and the Zeeman effect."
+    },
+    {
+     "question": "What is a key theoretical inconsistency in the Bohr model?",
+     "solution": "The Bohr model mixes classical mechanics (electron moving in well-defined circular orbits) with quantum postulates (quantization of angular momentum, stationary orbits) without a consistent theoretical framework, which was later resolved by full quantum mechanics.",
+     "answer": "It combines classical orbits with quantum postulates without a consistent theoretical basis."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four limitations of the Bohr model of the atom.",
+     "type": "conceptual"
+    },
+    {
+     "question": "Explain why the Bohr model cannot account for the Stark and Zeeman effects.",
+     "type": "conceptual"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

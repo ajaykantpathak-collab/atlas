@@ -1,0 +1,346 @@
+{
+ "catalog": "catalog_class11_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "kemh.3.1",
+   "title": "Degree to Radian Conversion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Compute 8 + 3 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Compute 4 + 3 as a quick check exercise.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 4 as a quick check exercise.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Compute 9 + 4 as a quick check exercise.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Compute 6 + 9 as a quick check exercise.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Compute 3 + 9 as a quick check exercise.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.2",
+   "title": "Radian to Degree Conversion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Compute 5 + 9 as a quick check exercise.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Compute 9 + 6 as a quick check exercise.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 7 as a quick check exercise.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Compute 4 + 7 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Compute 2 + 6 as a quick check exercise.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Compute 6 + 5 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.3",
+   "title": "Arc Length, Radius, and Angle Relation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
+     "a": "528",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 28 cm. Find its circumference (pi = 22/7).",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 77 cm (pi = 22/7).",
+     "a": "18634",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 21 cm and 70 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "14014",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 90 degrees at the centre of a circle of radius 84 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 30 degrees in a circle of radius 84 cm (pi = 22/7).",
+     "a": "1848",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.4",
+   "title": "Finding Trigonometric Functions from One Given Ratio",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 10 and 24, and the hypotenuse is 26. Find sin of the angle opposite the side 10. (give the fraction)",
+     "a": "5/13",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 10 and 24, hypotenuse 26), find cos of the angle opposite the side 24. (give the fraction)",
+     "a": "12/13",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 10 and 24 and hypotenuse 26, find tan of the angle opposite the side 10. (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 10/26, find cosec(A). (give the fraction)",
+     "a": "13/5",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 24/26, find sec(A). (give the fraction)",
+     "a": "13/12",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 10/26 and cos(A) = 24/26, find tan(A). (give the fraction)",
+     "a": "5/12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.5",
+   "title": "Trigonometric Functions of Sum and Difference of Angles",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 7 and 24, and the hypotenuse is 25. Find sin of the angle opposite the side 7. (give the fraction)",
+     "a": "7/25",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 7 and 24, hypotenuse 25), find cos of the angle opposite the side 24. (give the fraction)",
+     "a": "24/25",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 7 and 24 and hypotenuse 25, find tan of the angle opposite the side 7. (give the fraction)",
+     "a": "7/24",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 7/25, find cosec(A). (give the fraction)",
+     "a": "25/7",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 24/25, find sec(A). (give the fraction)",
+     "a": "25/24",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 7/25 and cos(A) = 24/25, find tan(A). (give the fraction)",
+     "a": "7/24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.6",
+   "title": "Double Angle Formulas",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 44 degrees, find the other.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 152 degrees, find the other.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 26 degrees; find the other.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 128 degrees and 94 degrees, find the remaining angle.",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 76 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 39 degrees. Find its co-interior partner.",
+     "a": "141",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.7",
+   "title": "Triple Angle Formulas",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 71 degrees, find the other.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 134 degrees, find the other.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 10 degrees; find the other.",
+     "a": "170",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 65 degrees and 86 degrees, find the remaining angle.",
+     "a": "209",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 59 degrees. Find its co-interior partner.",
+     "a": "121",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.8",
+   "title": "Sum-to-Product and Product-to-Sum Identities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 4 + 4 * 4 gives 256",
+     "compute": "val = 12 * 12 + 2 * 12 * 4 + 4 * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 4 more than 12; report the value.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 28^2 - 2 x 28 x 9 + 9^2.",
+     "a": "361",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 13 x 9 where the numbers are a + b and a - b for a = 11, b = 2.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 4)(x + 6) using the identity x^2 + (a + b)x + ab and evaluate it at x = 3.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "Compute 103^2 using (100 + 3)^2 = 10000 + 2 x 100 x 3 + 3^2.",
+     "a": "10609",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.9",
+   "title": "Half-Angle Formulas",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 112 degrees, find the other.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 30 degrees; find the other.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 139 degrees and 54 degrees, find the remaining angle.",
+     "a": "167",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 71 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 76 degrees. Find its co-interior partner.",
+     "a": "104",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

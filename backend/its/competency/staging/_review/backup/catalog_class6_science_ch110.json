@@ -1,0 +1,343 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 110,
+ "chapter_title": "Motion and Measurement of Distances",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fesc110.txt",
+ "concepts": [
+  {
+   "id": "fesc.110.1",
+   "title": "Definition of Measurement",
+   "section": "10.3",
+   "definition": "In brief, In brief, In brief, In brief, Measurement is indeed the action of comparing an unknown amount with a known fixed amount called a unit.",
+   "formula": "Measurement = Number x Unit",
+   "key_idea": "In brief, In brief, In brief, In brief, Every measurement is made up of a numerical value and a specific unit of reference.",
+   "textbook_ref": "fesc110.txt lines 110-120",
+   "question_patterns": [
+    "What does measurement mean?",
+    "Explain the two parts of a measurement result.",
+    "Why are standard units necessary for measurement?",
+    "How is a measurement expressed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number",
+     "explain": "Find the numerical value obtained from the measuring tool."
+    },
+    {
+     "step": 2,
+     "action": "Identify the unit",
+     "explain": "Determine the standard reference used, such as metres or kilograms."
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.2",
+   "title": "SI Unit of Length",
+   "section": "10.4",
+   "definition": "In brief, In brief, In brief, In brief, the International System of Units (SI) provides a uniform standard for measurement used globally, where the base unit for length is indeed the metre.",
+   "formula": "SI_Length = metre",
+   "key_idea": "Standard units ensure consistency and prevent confusion caused by varying body-part measurements.",
+   "textbook_ref": "fesc110.txt lines 155-165",
+   "question_patterns": [
+    "What is the SI unit of length?",
+    "Name the system of units accepted worldwide.",
+    "Why was the metric system created?",
+    "Identify the standard unit for measuring distance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the standard",
+     "explain": "The International System of Units (SI) is the modern metric system."
+    },
+    {
+     "step": 2,
+     "action": "Specify the unit",
+     "explain": "The metre (m) is the fundamental SI unit for length."
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.3",
+   "title": "Metre to Centimetre and Millimetre Conversion",
+   "section": "10.4",
+   "definition": "In brief, In brief, In brief, a metre is indeed divided into 100 equal parts called centimetres, and each centimetre is further divided into 10 millimetres.",
+   "formula": "cm = m * 100; mm = m * 1000",
+   "key_idea": "In brief, Smaller units like cm and mm are indeed used for measuring shorter objects.",
+   "textbook_ref": "fesc110.txt lines 168-172",
+   "question_patterns": [
+    "Convert metres to centimetres",
+    "How many millimetres are in a metre?",
+    "Express a height of {m_val} metres in cm and mm",
+    "Calculate the number of cm in {m_val} m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert to centimetres",
+     "explain": "Multiply the metre value by 100.",
+     "compute": "cm = m_val * 100"
+    },
+    {
+     "step": 2,
+     "action": "Convert to millimetres",
+     "explain": "Multiply the metre value by 1000 or the cm value by 10.",
+     "compute": "mm = m_val * 1000"
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.4",
+   "title": "Kilometre to Metre Conversion",
+   "section": "10.4",
+   "definition": "In brief, In brief, In brief, the kilometre is a larger unit of length used to measure long distances between places.",
+   "formula": "m = km * 1000",
+   "key_idea": "In brief, In brief, In brief, In brief, One kilometre is exactly equal to one thousand metres.",
+   "textbook_ref": "fesc110.txt lines 174-176",
+   "question_patterns": [
+    "Convert kilometres to metres",
+    "How many metres make {km_val} km?",
+    "Express the distance in metres",
+    "Calculate the value of {km_val} km in m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply by conversion factor",
+     "explain": "Since 1 km = 1000 m, multiply the km value by 1000.",
+     "compute": "m = km_val * 1000"
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.5",
+   "title": "Metre to Kilometre Conversion",
+   "section": "10.4",
+   "definition": "Converting a measurement from metres to kilometres involves dividing the value by the standard factor of 1000.",
+   "formula": "km = m / 1000",
+   "key_idea": "To find kilometres from metres, move the decimal point three places to the left.",
+   "textbook_ref": "fesc110.txt lines 174-176",
+   "question_patterns": [
+    "Convert {m_val} metres to kilometres",
+    "Express the distance of {m_val} m in km",
+    "How many km is {m_val} m?",
+    "Calculate the distance in kilometres"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide by 1000",
+     "explain": "Divide the metre value by 1000 to get the value in kilometres.",
+     "compute": "km = m_val / 1000"
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.6",
+   "title": "Measurement with a Broken Scale",
+   "section": "10.5",
+   "definition": "In brief, In brief, In brief, In brief, When the zero mark of a scale is not visible or broken, the length is found by subtracting the starting mark reading from the final mark reading.",
+   "formula": "length = reading_end - reading_start",
+   "key_idea": "In brief, In brief, In brief, In brief, the actual length is indeed the difference between the two observed points on the scale.",
+   "textbook_ref": "fesc110.txt lines 193-200",
+   "question_patterns": [
+    "Find the length if the scale starts at {reading_start} and ends at {reading_end}",
+    "How to measure with a broken zero mark?",
+    "Calculate the object length from readings {reading_start} cm and {reading_end} cm",
+    "What is the actual length of the needle?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract initial reading",
+     "explain": "Subtract the starting point reading from the end point reading to find the true length.",
+     "compute": "length = reading_end - reading_start"
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.7",
+   "title": "Rectilinear Motion",
+   "section": "10.8",
+   "definition": "Motion where an object moves along a straight path is named rectilinear motion.",
+   "formula": "path = straight_line",
+   "key_idea": "Objects in rectilinear motion do not change direction; they follow a linear track.",
+   "textbook_ref": "fesc110.txt lines 270-280",
+   "question_patterns": [
+    "Define rectilinear motion",
+    "Give examples of motion in a straight line",
+    "What kind of motion do soldiers in a parade perform?",
+    "Is a falling stone an example of rectilinear motion?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the path",
+     "explain": "Check if the object is moving along a straight line."
+    },
+    {
+     "step": 2,
+     "action": "Classify motion",
+     "explain": "If the path is straight, it is rectilinear motion."
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.8",
+   "title": "Circular Motion",
+   "section": "10.8",
+   "definition": "A type of motion where an object moves along a curved path so that its distance from a fixed center point remains constant.",
+   "formula": "distance_from_center = constant",
+   "key_idea": "The object rotates or revolves around a fixed point at a steady radius.",
+   "textbook_ref": "fesc110.txt lines 285-295",
+   "question_patterns": [
+    "What is circular motion?",
+    "Explain the motion of a fan blade",
+    "How does a point on a clock hand move?",
+    "Give examples of circular motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the center",
+     "explain": "Find the fixed point around which the object moves."
+    },
+    {
+     "step": 2,
+     "action": "Check the distance",
+     "explain": "Verify if the distance from the center remains the same during movement."
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.9",
+   "title": "Periodic Motion",
+   "section": "10.8",
+   "definition": "In brief, in brief, in brief, in brief, Motion that repeats itself at regular, fixed intervals of time is named periodic motion.",
+   "formula": "motion_at_t = motion_at_t_plus_T",
+   "key_idea": "The movement follows a cycle that happens again and again in the same time frame.",
+   "textbook_ref": "fesc110.txt lines 305-315",
+   "question_patterns": [
+    "Define periodic motion",
+    "Is the motion of a swing periodic?",
+    "Give two examples of periodic motion",
+    "What kind of motion does a pendulum show?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for repetition",
+     "explain": "Determine if the object returns to its starting position repeatedly."
+    },
+    {
+     "step": 2,
+     "action": "Verify time interval",
+     "explain": "Check if the repetition happens after a fixed amount of time."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc110.txt Exercises Q5",
+   "concept": "fesc.110.3",
+   "question_type": "compute",
+   "question_pattern": "The height of a person is {m_val} m. Express it into cm and mm.",
+   "extracted_variables": {
+    "m_val": 1.65
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert to centimetres",
+     "explain": "Multiply 1.65 by 100",
+     "compute": "cm = m_val * 100"
+    },
+    {
+     "step": 2,
+     "action": "Convert to millimetres",
+     "explain": "Multiply 1.65 by 1000",
+     "compute": "mm = m_val * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc110.txt Exercises Q6",
+   "concept": "fesc.110.5",
+   "question_type": "compute",
+   "question_pattern": "The distance between Radha's home and her school is {m_val} m. Express this distance into km.",
+   "extracted_variables": {
+    "m_val": 3250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide by 1000",
+     "explain": "Convert 3250 metres to kilometres by dividing by 1000",
+     "compute": "km = m_val / 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fesc110.txt Exercises Q7",
+   "concept": "fesc.110.6",
+   "question_type": "compute",
+   "question_pattern": "While measuring the length of a knitting needle, the reading of the scale at one end is {reading_start} cm and at the other end is {reading_end} cm. What is the length of the needle?",
+   "extracted_variables": {
+    "reading_start": 3.0,
+    "reading_end": 33.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract initial reading",
+     "explain": "Actual length = 33.1 - 3.0",
+     "compute": "length = reading_end - reading_start"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.2",
+   "source_ref": "fesc110.txt page 106",
+   "questions": [
+    "One metre is 100 cm.",
+    "Five kilometre is 5000 m.",
+    "Motion of a child on a swing is periodic.",
+    "Motion of the needle of a sewing machine is periodic.",
+    "Motion of wheel of a bicycle is circular and rectilinear."
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "fesc110.txt page 106",
+   "questions": [
+    "Arrange the following lengths in their increasing magnitude: 1 metre, 1 centimetre, 1 kilometre, 1 millimetre."
+   ]
+  },
+  {
+   "id": "ex10.10",
+   "source_ref": "fesc110.txt page 106",
+   "questions": [
+    "Give two examples of periodic motion."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

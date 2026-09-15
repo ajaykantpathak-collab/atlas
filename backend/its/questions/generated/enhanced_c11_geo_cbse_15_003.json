@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_003",
+   "title": "c11_geo_cbse_15_003",
+   "questions": [
+    {
+     "q": "What are the two main zones in a tiger reserve under Project Tiger, and what is the primary management objective of each zone?",
+     "a": "Correct answer: Core Zone (critical tiger habitat, inviolate, no human activity) and Buffer Zone (multi-use area where limited human activity coexists with conservation). A wrong answer such as \"Core Zone for tourism, Buffer Zone for tigers\" reveals confusion about the inviolate principle and the purpose of buffering — students may think buffer is the main habitat, missing that core is breeding nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Project Elephant focus on identifying and securing corridors, whereas Project Tiger emphasises core-buffer zoning within reserves?",
+     "a": "Correct answer: Elephants are wide-ranging megaherbivores requiring seasonal migration between feeding and watering grounds across fragmented landscapes; corridors maintain genetic flow and reduce human-elephant conflict. Tigers are territorial and breed within defined home ranges; core zones protect breeding populations while buffers absorb dispersal. A wrong answer like \"Elephants need more space so they get corridors\" oversimplifies — it misses the ecological distinction between territorial carnivore and migratory herbivore movement patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2022 All India Tiger Estimation figure of 3,682 tigers and the 2017 Synchronised Elephant Census figure of 27,312 elephants, calculate the approximate ratio of elephants to tigers in India. Then explain why this numerical comparison alone is insufficient to assess conservation priority.",
+     "a": "Calculation: 27,312 ÷ 3,682 ≈ 7.4 elephants per tiger. Step 1: Identify latest census figures. Step 2: Divide elephant population by tiger population. Step 3: Interpret ratio. Step 4: Explain insufficiency — tigers are apex predators with large home ranges (60–150 km²) and low densities; elephants are megaherbivores living in herds with different ecological roles. Comparing raw numbers ignores trophic level, habitat requirements, and threat intensity. A wrong answer stating \"elephants are more abundant so lower priority\" reveals inability to link population size to extinction risk and ecological function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the funding pattern of Project Tiger (Centre:State = 60:40 for most states, 90:10 for NE/hill states) with Project Elephant (100% central assistance for specific activities). What does this difference imply about the geographical distribution of threats and state capacity?",
+     "a": "Correct answer: Project Tiger's cost-sharing reflects that tiger reserves are spread across many states with varying fiscal capacity; the higher central share for NE/hill states acknowledges difficult terrain and lower state revenues. Project Elephant's 100% central funding for corridors and conflict mitigation indicates these are national priorities requiring uniform action across elephant range states (many in NE and central India) where state resources are limited. A wrong answer like \"Project Elephant gets more money because elephants are bigger\" misses the federal fiscal logic and the spatial concentration of elephant corridors in economically weaker states.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Project Tiger has been more successful than Project Elephant because tiger numbers have increased while elephant numbers have remained stable.\" Use evidence from monitoring methodologies and threat landscapes.",
+     "a": "Correct evaluation: The statement is flawed. Tiger estimation uses camera-trap mark-recapture (statistically robust, repeated every 4 years), while elephant census relies on direct count and dung decay methods (lower precision, irregular intervals). \"Stable\" elephant numbers may mask range contraction and fragmentation. Threat landscapes differ: tigers face poaching for trade; elephants face habitat loss, conflict, and linear infrastructure. Success must be measured by habitat connectivity, conflict reduction, and demographic parameters — not just headcounts. A wrong answer accepting the statement reveals uncritical acceptance of raw numbers without methodological scrutiny.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conservation plan for a hypothetical landscape where a tiger reserve and an elephant reserve overlap partially in central India. Specify three spatial interventions that serve both species and justify each using ecological principles.",
+     "a": "Good answer criteria: (1) Identify and legally notify the overlapping zone as a \"core conservation area\" with enhanced protection — serves as tiger breeding habitat and elephant foraging ground (umbrella species overlap). (2) Secure a corridor linking this overlap to adjacent elephant range — facilitates elephant migration and tiger dispersal (connectivity). (3) Implement community-based conflict mitigation (e.g., early warning systems, crop compensation) in the buffer — reduces retaliatory killing of both species (human-wildlife coexistence). Poor answers list generic measures like \"plant trees\" without spatial specificity or dual-species justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

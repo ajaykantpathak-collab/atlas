@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class11_maths_ch104.json",
+ "concepts": [
+  {
+   "id": "kemh.4.1",
+   "title": "Complex Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[1, 8], [2, 2]].",
+     "a": "-14",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[3, 1, -3], [5, -2, 5], [-2, 8, -5]] along the first row.",
+     "a": "-183",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[8, -2], [1, 2]] and B = [[-5], [4]] (column), find the (1,1) entry of AB.",
+     "a": "-48",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 2.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 2 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 1. Find det(2A) using det(kA) = k^n det A.",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.2",
+   "title": "Integral Powers of the Imaginary Unit",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[5, 9], [4, -2]].",
+     "a": "-46",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-5, 7, -3], [8, -3, 6], [-3, 1, 7]] along the first row.",
+     "a": "-380",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[8, 8], [1, 2]] and B = [[4], [-3]] (column), find the (1,1) entry of AB.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is -4.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 2. Find det(4A) using det(kA) = k^n det A.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.3",
+   "title": "Algebra of Complex Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[0, -5], [1, -4]].",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-3, -4, 0], [5, 5, -1], [-1, -3, 4]] along the first row.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-4, 2], [1, 2]] and B = [[-3], [5]] (column), find the (1,1) entry of AB.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 3.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 2. Find det(4A) using det(kA) = k^n det A.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.4",
+   "title": "Modulus and Conjugate of a Complex Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-6, 0], [3, -2]].",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-1, -2, -2], [1, -2, 3], [8, 2, -4]] along the first row.",
+     "a": "-94",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-5, -2], [1, 2]] and B = [[4], [6]] (column), find the (1,1) entry of AB.",
+     "a": "-32",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 3 times a matrix whose (1,1) entry is 1.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 1. Find det(3A) using det(kA) = k^n det A.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.5",
+   "title": "Argand Plane and Polar Representation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-3, -1], [6, 7]].",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[7, 0, 1], [3, 6, 1], [6, 8, 7]] along the first row.",
+     "a": "226",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[1, 2], [1, 2]] and B = [[8], [2]] (column), find the (1,1) entry of AB.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 5 times a matrix whose (1,1) entry is -5.",
+     "a": "-25",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 6. Find det(4A) using det(kA) = k^n det A.",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.6",
+   "title": "Quadratic Equations with Complex Roots",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[2, -3], [-6, -6]].",
+     "a": "-30",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[0, -3, 0], [7, 8, 5], [6, -3, 1]] along the first row.",
+     "a": "-69",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-2, -4], [1, 2]] and B = [[-3], [-2]] (column), find the (1,1) entry of AB.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 8.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 2. Find det(3A) using det(kA) = k^n det A.",
+     "a": "18",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

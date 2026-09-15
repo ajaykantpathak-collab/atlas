@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_008",
+   "title": "c11_soc_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the primary focus of classical economics according to the NCERT text, and how does it differ from the sociological approach to economic behaviour?",
+     "a": "Classical economics focuses on the inter-relations of pure economic variables such as price, demand, supply, money flows, and input-output ratios, aiming to formulate precise laws of economic behaviour. Sociology examines economic behaviour within a broader context of social norms, values, practices, and interests (e.g., how advertising reshapes lifestyles and consumption patterns). A wrong answer that says \"economics studies money while sociology studies society\" reveals a superficial understanding that misses the specific methodological contrast: economics abstracts variables to seek predictive laws, whereas sociology contextualises behaviour in social structures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the distinction between sociology and social anthropology has blurred in India, unlike in many Western countries.",
+     "a": "In India, the rigid divide between \"modern complex societies\" (sociology's traditional domain) and \"simple non-Western societies\" (anthropology's traditional domain) does not hold because Indian reality is a complex mix of tradition and modernity, village and city, caste and class existing side by side — often in the same neighbourhood. Indian sociologists therefore borrow eclectic methods from both traditions, studying urban bureaucracies and tribal communities with similar tools. A wrong answer that claims \"anthropology studies tribes and sociology studies cities\" shows the student is applying Western textbook definitions without recognising the Indian context where villages nestle inside metros and call centres operate from small towns.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study why voter turnout in a particular Indian state is lower among young women than young men. Outline how a political scientist and a sociologist would each frame the research question differently, and identify one specific concept each would likely use.",
+     "a": "Political scientist: frames it as \"What institutional barriers (e.g., polling station distance, ID requirements, party mobilisation strategies) reduce young women's formal political participation?\" → concept: *political efficacy* or *voter mobilisation*. Sociologist: frames it as \"How do gendered family norms, caste networks, and educational trajectories intersect to shape young women's sense of political agency and collective action?\" → concept: *gendered socialisation* or *intersectionality*. A wrong answer that lists only \"political scientist studies voting, sociologist studies society\" fails to show the distinct analytical entry points: political science centres on formal power structures; sociology centres on the social relations that mediate access to those structures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a historian and a sociologist would study the 1857 Revolt. Identify two methodological differences and one area where their approaches now converge.",
+     "a": "Differences: (1) Historians traditionally prioritised establishing the factual sequence of events (who did what, when) using archival documents; sociologists seek causal patterns (e.g., how pre-existing agrarian grievances, military recruitment policies, and religious symbols combined to produce collective action). (2) Historians often focused on elite actors (kings, generals); sociologists examine structural conditions affecting peasants, sepoys, and artisans. Convergence: Modern social history adopts sociological concepts (class, gender, patronage networks) to analyse the same revolt, blurring the boundary. A wrong answer that says \"history studies past, sociology studies present\" ignores the NCERT's explicit statement that historians today use sociological methods and sociologists study historical processes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Psychology explains individual behaviour; sociology explains group behaviour — so they don't overlap.\" Use the concept of social psychology and Durkheim's suicide study to support your evaluation.",
+     "a": "The statement is false because social psychology explicitly bridges the two by studying how individuals behave in social groups (e.g., conformity, prejudice, leadership). Durkheim's suicide study demonstrates sociology's focus on *social facts* (integration, regulation) that exist outside any single individual's psychology — he used statistical rates across groups, not individual motives. Yet sociology *does* concern itself with how society shapes personality (e.g., family, economy, culture). A wrong answer that agrees with the statement reveals a compartmentalised view that misses the NCERT's emphasis on social psychology as a bridge and on sociology's interest in the *social organisation* of behaviour, not just aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research project (title, one research question, and two methods) that *requires* integrating insights from at least three of the five disciplines (economics, political science, history, psychology, sociology) to study a contemporary Indian issue of your choice.",
+     "a": "Example: Title: \"Gig Workers' Protests in Bengaluru: Livelihood, Identity, and Policy\". Research question: How do algorithmic wage structures, labour laws, and migrant workers' community networks jointly shape collective action among app-based delivery riders? Methods: (1) Survey with Likert-scale items on economic insecurity (economics), political awareness of labour codes (political science), and caste/regional solidarity (sociology). (2) In-depth interviews exploring psychological stress (psychology) and historical migration trajectories (history). A poor answer proposes a single-discipline study (e.g., only economic survey) or lists disciplines without showing *integration* in the question or methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 1,
+ "chapter_title": "Work, Livelihood and Career",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe101.1",
+   "title": "Meaning and Many Views of Work",
+   "section": "Work and Meaningful Work",
+   "definition": "Purposeful human effort, paid or unpaid, through which a person earns a living, uses personal talent, builds relations and finds a place in society.",
+   "formula": "qualitative idea -- work can be seen as job, duty, dharma, calling or self development",
+   "key_idea": "Work is more than wages: it shapes identity, dignity and contribution to family, employer and society.",
+   "textbook_ref": "lehe101.txt, Work and Meaningful Work (approx lines 50-130)",
+   "question_patterns": [
+    "what do you understand by the term work",
+    "explain any four ways in which work can be viewed",
+    "how does work help a person fit into society",
+    "why do people say work keeps the machine of society running",
+    "list the factors that decide the type of work a person takes up",
+    "state why unpaid family work still counts as work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall that work is purposeful effort, with or without pay",
+     "explain": "the chapter treats paid jobs, housework and volunteering alike as work"
+    },
+    {
+     "step": 2,
+     "action": "list the views: job and living, duty, security, dharma, spiritual practice, joy, status, self development",
+     "explain": "each view highlights a different reward of working"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Purposeful human effort through which a person earns a living and finds a place in society is called what?",
+     "a": "work"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.2",
+   "title": "Meaningful Work",
+   "section": "Work and Meaningful Work",
+   "definition": "Effort that helps society or others, is carried out responsibly, is enjoyed by the worker, and leaves room to apply skill, judgment and creativity.",
+   "formula": "qualitative idea -- usefulness plus responsibility plus enjoyment makes effort meaningful",
+   "key_idea": "Meaningful effort repays the worker with growth, confidence, self worth and recognition.",
+   "textbook_ref": "lehe101.txt, What is meaningful work (approx lines 129-145)",
+   "question_patterns": [
+    "what is meant by meaningful work",
+    "state three qualities that make an occupation meaningful",
+    "how does meaningful work help personal growth",
+    "why may a volunteer without any pay still be doing meaningful work",
+    "distinguish between any work and meaningful work with one example",
+    "which workplace conditions let a worker show creativity and judgment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the effort against the three markers: useful to others, done responsibly, enjoyed",
+     "explain": "all three markers together signal meaningfulness"
+    },
+    {
+     "step": 2,
+     "action": "add the enabling conditions: use of skill and judgment, creativity, recognition and rewards",
+     "explain": "these conditions turn an occupation into a source of confidence and worth"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Effort that helps society, is carried out responsibly and is enjoyed is called what work?",
+     "a": "meaningful work"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.3",
+   "title": "Job versus Career",
+   "section": "Work, Careers and Livelihoods",
+   "definition": "A job is engagement in work mainly for earnings, while a career is a sustained climb inside one chosen field, powered by the wish to grow and excel.",
+   "formula": "qualitative contrast -- job pays now, career builds over a lifetime",
+   "key_idea": "A career needs continual upgrading of skills and knowledge, not just appointment to a post.",
+   "textbook_ref": "lehe101.txt, job and career paragraphs plus boulder anecdote (approx lines 168-248)",
+   "question_patterns": [
+    "differentiate between a job and a career",
+    "state two features that set a career apart from a job",
+    "why is it said that a career is more than just a job",
+    "in the stone cutter story, explain how the three men viewed the same task differently",
+    "give one example of how a person moves from holding a job to building a career",
+    "what does the sculptor in the anecdote teach about vision at work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define job: work taken up for the sake of income or duty",
+     "explain": "the first stone breaker saw only the task at hand"
+    },
+    {
+     "step": 2,
+     "action": "define career: a chosen path of progressive achievement",
+     "explain": "the third man linked every hammer blow to his vision of becoming a sculptor"
+    },
+    {
+     "step": 3,
+     "action": "contrast the mindset: satisfaction from pay versus satisfaction from advancement and mastery",
+     "explain": "career minded workers keep learning and upgrading themselves"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Engagement in work mainly for earnings is called a what: job or career?",
+     "a": "job"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.4",
+   "title": "Livelihood and Career Management",
+   "section": "Work, Careers and Livelihoods",
+   "definition": "Livelihood is the occupation and means through which a person meets basic needs, while a career is the lifelong, evolving sequence of roles each individual manages.",
+   "formula": "qualitative idea -- career growth means balancing paid work, learning and life roles",
+   "key_idea": "Careers are unique and dynamic; managing one means making transitions whenever needed.",
+   "textbook_ref": "lehe101.txt, Work, Careers and Livelihoods (approx lines 192-214)",
+   "question_patterns": [
+    "what is meant by livelihood",
+    "how is a career a life management concept",
+    "explain why careers are described as unique and dynamic",
+    "which balances must a person maintain while growing a career",
+    "how does career development continue through the middle and later years of work life",
+    "name the activities other than paid employment that count as work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the livelihood side: occupation chosen to meet needs and sustain lifestyle",
+     "explain": "livelihood anchors the economic base of a person"
+    },
+    {
+     "step": 2,
+     "action": "state the career side: lifelong process of managing roles and transitions",
+     "explain": "paid and unpaid work, learning and personal roles must stay in balance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The occupation and means through which a person meets basic needs is called what?",
+     "a": "livelihood"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.5",
+   "title": "Traditional Occupations of India",
+   "section": "Traditional Occupations of India",
+   "definition": "Farming, fishing, weaving, handicrafts, regional cuisines and visual arts carried across generations form the inherited occupational base of Indian villages, once passed on as guarded home training.",
+   "formula": "qualitative idea -- inherited craft skill sustained rural livelihood for centuries",
+   "key_idea": "Mass produced goods, poor finance and weak marketing now squeeze artisan incomes, so revival needs design, training and IPR protection.",
+   "textbook_ref": "lehe101.txt, Traditional Occupations of India (approx lines 292-428)",
+   "question_patterns": [
+    "name any four traditional occupations of India",
+    "why is weaving called a cottage industry in India",
+    "what problems do Indian artisans face in the modern market",
+    "list the interventions needed to revive and sustain traditional crafts",
+    "how do traditional occupations support rural livelihood even today",
+    "which crops of economic importance bring India foreign exchange",
+    "how was craft knowledge transferred inside families in the past"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate the occupation groups: farming, fishing, crafts like pottery and embroidery, cuisine, visual arts",
+     "explain": "each region built its own signature craft and food tradition"
+    },
+    {
+     "step": 2,
+     "action": "explain the transmission: skill moved from parents to children inside closed groups",
+     "explain": "secrecy protected the finer nuances of every craft"
+    },
+    {
+     "step": 3,
+     "action": "list the present threats and remedies",
+     "explain": "design innovation, training facilities, eco friendly materials and IPR cover can restore incomes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which inherited craft has sustained Indian village livelihood for centuries: weaving or software?",
+     "a": "weaving"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.6",
+   "title": "Gender, Sex and Women and Work",
+   "section": "Work, Age and Gender",
+   "definition": "Sex sorts people by biology and chromosomes; gender is the social identity and the set of expected roles a culture attaches to being male, female or third gender.",
+   "formula": "qualitative contrast -- sex is biological, gender is socially built",
+   "key_idea": "Household work done by women is a real economic contribution and must be valued like paid work; working women also carry a double burden of job plus home care.",
+   "textbook_ref": "lehe101.txt, Gender Issues in Relation to Work and women and work concerns (approx lines 440-576)",
+   "question_patterns": [
+    "distinguish between sex and gender",
+    "what does it mean to say that gender is socially constructed",
+    "why should the domestic work of women be treated as an economic activity",
+    "what is the double burden carried by working women",
+    "which constitutional article guarantees equality of opportunity in employment",
+    "name the labour laws that protect women workers in India",
+    "what is the Kasturba Gandhi Balika Vidyalaya scheme meant for"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two terms: biology versus social expectation",
+     "explain": "chromosomes decide sex; society writes the gender script"
+    },
+    {
+     "step": 2,
+     "action": "trace the workplace angle: stereotypes, unpaid home work, double burden",
+     "explain": "women's earnings are wrongly treated as secondary even when they are sole earners"
+    },
+    {
+     "step": 3,
+     "action": "recall the safeguards: equality articles, protective Acts, creche and maternity provisions",
+     "explain": "equality articles, protective Acts, creche and maternity clauses; state schemes and women's cells push the empowerment agenda"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which term sorts people by biology and chromosomes: sex or gender?",
+     "a": "sex"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.7",
+   "title": "Quality of Work Life",
+   "section": "Quality of Work Life",
+   "definition": "Quality of Work Life is the degree to which a workplace meets the social and psychological needs of employees alongside economic ones, treating people as assets rather than costs.",
+   "formula": "qualitative idea -- fair treatment plus participation plus balance lifts morale and output",
+   "key_idea": "Job satisfaction flows more from attitude, fair comparison and growth chances than from pay alone.",
+   "textbook_ref": "lehe101.txt, Attitudes and Approaches to Work and Quality of Work Life (approx lines 665-769)",
+   "question_patterns": [
+    "explain the term quality of work life",
+    "why do organisations treat employees as assets",
+    "list any four features of a healthy work environment",
+    "how is job satisfaction linked to attitude rather than to salary alone",
+    "what steps can a manager take to build a positive work climate",
+    "why should comparisons at the workplace include responsibilities and not just pay"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the idea: satisfying social and psychological needs along with economic ones",
+     "explain": "people perform better when conditions feel fair and supportive"
+    },
+    {
+     "step": 2,
+     "action": "list the levers: attention to individual needs, positive climate, motivation, fairness, safety, interesting tasks, team spirit, training, empowerment",
+     "explain": "together these levers create loyalty and better output"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What does QWL stand for in workplace studies?",
+     "a": "Quality of Work Life"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.8",
+   "title": "Life Skills for Livelihood",
+   "section": "Life Skills for Livelihood",
+   "definition": "Practical abilities for adaptive, positive conduct that let people handle everyday demands; experts list ten core sets, from self-awareness and empathy through to coping with emotions and stress.",
+   "formula": "knowledge plus attitudes plus values lead to life skills and psychosocial competence",
+   "key_idea": "Life skills protect health and well being across the lifespan and grow through experience, not lectures.",
+   "textbook_ref": "lehe101.txt, Life Skills for Livelihood (approx lines 774-829)",
+   "question_patterns": [
+    "what are life skills and why are they important",
+    "name the ten core life skills identified by experts",
+    "how do life skills promote and protect health and well being",
+    "which life skill helps you sense another person's feelings",
+    "why can life skills not be picked up from classroom lessons alone",
+    "how do knowledge, attitudes and values combine into psychosocial competence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the term: adaptive and positive abilities for daily demands",
+     "explain": "WHO frames them as thinking, coping and social skills"
+    },
+    {
+     "step": 2,
+     "action": "list the ten core sets: self-awareness, empathy, communication, interpersonal relationships, decision making, problem solving, creative thinking, critical thinking, coping with emotions, coping with stress",
+     "explain": "experiential learning builds these abilities into behaviour"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many core life skill sets do experts list: ten or two?",
+     "a": "ten"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.9",
+   "title": "Dignity of Labour, Values and Ethics",
+   "section": "Work, Ethics and Dignity of Labour",
+   "definition": "Taking pride in every kind of honest effort is the dignity of labour; values are personal beliefs about what is good, while ethics are rule systems that a profession formally adopts.",
+   "formula": "qualitative idea -- respect for every worker plus ethical conduct sustains a workplace",
+   "key_idea": "Ethical behaviour cuts waste, lifts morale and raises productivity for everyone around.",
+   "textbook_ref": "lehe101.txt, Work, Ethics and Dignity of Labour (approx lines 972-1009)",
+   "question_patterns": [
+    "what is meant by dignity of labour",
+    "how did Mahatma Gandhi demonstrate the dignity of labour at his ashram",
+    "distinguish between values and ethics with one example each",
+    "list the six important values named for professional life",
+    "how do values and ethics reduce waste and raise productivity at the workplace",
+    "why does every worker deserve respect irrespective of position or pay"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define dignity of labour: pride in whatever task one performs",
+     "explain": "Gandhi's cleaning of his own quarters is the classic illustration"
+    },
+    {
+     "step": 2,
+     "action": "separate values from ethics",
+     "explain": "values are inner beliefs; ethics are adopted group rules for conduct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Taking pride in every kind of honest effort is called the dignity of what: labour or leisure?",
+     "a": "labour"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.10",
+   "title": "Ergonomics at the Workplace",
+   "section": "Ergonomics",
+   "definition": "Built from Greek roots for work and natural laws, ergonomics studies people on the job and reshapes tools, workstations and methods so the workplace fits the worker instead of the reverse.",
+   "formula": "goal -- adapt work environment to worker for safety, comfort and productivity",
+   "key_idea": "Anthropometry, biomechanics, physiology and industrial psychology are its four pillars; good design cuts injuries, errors and absenteeism.",
+   "textbook_ref": "lehe101.txt, Ergonomics (approx lines 1017-1148)",
+   "question_patterns": [
+    "define ergonomics and trace the origin of the word",
+    "what are the four pillars on which the science of ergonomics rests",
+    "list the benefits of applying ergonomics in a workplace",
+    "why should an office chair be adjustable to the user's body",
+    "how does ergonomics improve productivity and job satisfaction together",
+    "which factors of the work environment do ergonomists study",
+    "why is ergonomics also called human factors engineering"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define and expand the term: study of humans at work, adapting the environment to the worker",
+     "explain": "the Greek roots ergon and nomics give the name"
+    },
+    {
+     "step": 2,
+     "action": "name the four supporting sciences",
+     "explain": "body measurement, body mechanics, physiology and industrial psychology"
+    },
+    {
+     "step": 3,
+     "action": "state the payoffs: fewer injuries and accidents, higher productivity, fewer mistakes, less absenteeism, better morale",
+     "explain": "a matched task-worker pair wastes less and errs less"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which field reshapes tools and workstations so the workplace fits the worker: ergonomics or economics?",
+     "a": "ergonomics"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.11",
+   "title": "Entrepreneurship and the Entrepreneur",
+   "section": "Entrepreneurship",
+   "definition": "The act of building a fresh enterprise, product or service by organising resources and finances and by taking calculated risks to turn a novel idea into reality.",
+   "formula": "qualitative idea -- entrepreneur equals innovator plus organiser plus risk taker",
+   "key_idea": "Social entrepreneurs chase large scale social benefit and measure success by impact, not profit.",
+   "textbook_ref": "lehe101.txt, Entrepreneurship and Characteristics of Entrepreneurs (approx lines 1160-1261)",
+   "question_patterns": [
+    "define entrepreneurship in your own words",
+    "list any six characteristics of a successful entrepreneur",
+    "how does a social entrepreneur differ from a business entrepreneur",
+    "why is an entrepreneur called a calculated risk taker",
+    "name two celebrated Indian entrepreneurs mentioned in the chapter",
+    "what kind of institutions support aspiring entrepreneurs",
+    "how can entrepreneurship range from a micro unit to a large undertaking"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the venture building act",
+     "explain": "innovation changes how a product is made or what it offers"
+    },
+    {
+     "step": 2,
+     "action": "list personal attributes: hard work, planning, finance and time management, courage, coping with setbacks, networking, negotiation, communication",
+     "explain": "these attributes let one person carry an idea to market"
+    },
+    {
+     "step": 3,
+     "action": "contrast social entrepreneurship with profit seeking ventures",
+     "explain": "the social variant serves underserved groups and is judged by benefit delivered"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Building a fresh enterprise by organising resources and taking calculated risks is called what?",
+     "a": "entrepreneurship"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.12",
+   "title": "Creche Rule of the Factories Act",
+   "section": "Constitutional Rights, Acts and The State Initiatives",
+   "definition": "Under Section 48 of the Factories Act, an industry that keeps more than thirty women on its rolls must run a creche for children under age six.",
+   "formula": "women_above_limit = women_employed - 30",
+   "key_idea": "A positive excess over the thirty woman mark means the factory has crossed the creche trigger.",
+   "textbook_ref": "lehe101.txt, Factories Act creche provision (approx lines 546-549)",
+   "question_patterns": [
+    "a factory employs 45 women; by how many does it cross the creche threshold set by the Factories Act",
+    "how many workers above thirty must an industry have before a creche becomes compulsory",
+    "find the excess over the creche trigger when an industrial unit reports W women on its rolls",
+    "a unit has exactly 30 women workers; what is the value of women_above_limit and is a creche required",
+    "calculate by what margin a workforce of 72 women exceeds the number that makes a creche mandatory",
+    "state the strength above which Section 48 of the Factories Act applies and express the excess for a plant with E women"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the threshold from the women employed",
+     "explain": "the Act bites only beyond thirty women, so the excess decides the duty",
+     "compute": "women_above_limit = women_employed - 30"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Under the Factories Act Section 48, more than how many women employees trigger the creche rule: thirty or three?",
+     "a": "thirty"
+    }
+   ]
+  },
+  {
+   "id": "lehe101.13",
+   "title": "Turnover Sharing in a Women's Enterprise",
+   "section": "Organised Efforts for Empowerment of Women",
+   "definition": "When a women's collective reports its sales in crores, each member's share of the business can be found by converting the turnover to rupees and dividing it across the whole membership.",
+   "formula": "per_member_sales = turnover_crores * 10000000 / current_members",
+   "key_idea": "One crore carries one crore rupees, so scale the turnover before dividing by members.",
+   "textbook_ref": "lehe101.txt, Lijjat Papad profile (approx lines 649-660)",
+   "question_patterns": [
+    "a women's collective of 45000 members sells goods worth 1600 crores a year; find the average sale per member in rupees",
+    "how much annual business does each member bring in when total sales of T crores are shared by M members",
+    "compute the per head sales value in rupees for a self employment society that logs S crores with N members",
+    "the yearly turnover of a papad making society is stated in crores; work out one member's share of the sales",
+    "find the average rupee sales contributed by a single worker when the annual turnover in crores and the membership are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert crores to rupees",
+     "explain": "multiply the crore figure by one crore rupees to reach plain rupees",
+     "compute": "turnover_rupees = turnover_crores * 10000000"
+    },
+    {
+     "step": 2,
+     "action": "divide the rupee turnover across all members",
+     "explain": "equal sharing gives the average business each member handles",
+     "compute": "per_member_sales = turnover_rupees / current_members"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many rupees does one crore carry?",
+     "a": "10000000"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe101.txt Factories Act creche provision, Section 48",
+   "concept": "lehe101.12",
+   "question_type": "numeric",
+   "question_pattern": "An industrial unit keeps {women_employed} women on its rolls. By how many workers does it cross the creche threshold of thirty women?",
+   "extracted_variables": {
+    "women_employed": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the threshold from the rolls",
+     "explain": "45 - 30 = 15, so the unit exceeds the trigger by 15 women",
+     "compute": "women_above_limit = women_employed - 30"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe101.txt Lijjat Papad profile (sales turnover and membership figures)",
+   "concept": "lehe101.13",
+   "question_type": "numeric",
+   "question_pattern": "A women's society with {current_members} members records an annual sales turnover of {turnover_crores} crores. Find the average sale per member in rupees.",
+   "extracted_variables": {
+    "turnover_crores": 1600,
+    "current_members": 45000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert crores to rupees",
+     "explain": "1600 crores = 1600 x 10000000 = 16000000000 rupees",
+     "compute": "turnover_rupees = turnover_crores * 10000000"
+    },
+    {
+     "step": 2,
+     "action": "divide by the membership",
+     "explain": "16000000000 / 45000 gives roughly 355556 rupees per member",
+     "compute": "per_member_sales = turnover_rupees / current_members"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe101.txt boulder breaking anecdote",
+   "concept": "lehe101.3",
+   "question_type": "short_answer",
+   "question_pattern": "Three men break boulders; one calls it a job, one a livelihood and one a step towards becoming a sculptor. What does the story teach about a career?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the three outlooks",
+     "explain": "task for wages, task for daily needs, task seen as part of a long term vision"
+    },
+    {
+     "step": 2,
+     "action": "conclude the career lesson",
+     "explain": "only the third man connects present effort to a future self, which is the mark of a career"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe101.txt Life Skills for Livelihood",
+   "concept": "lehe101.8",
+   "question_type": "short_answer",
+   "question_pattern": "List the ten core life skills and explain how any two of them help a worker handle pressure at the workplace.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the ten sets",
+     "explain": "self-awareness, empathy, communication, interpersonal relationships, decision making, problem solving, creative thinking, critical thinking, coping with emotions, coping with stress"
+    },
+    {
+     "step": 2,
+     "action": "apply two of them to pressure",
+     "explain": "coping with stress keeps responses calm; problem solving converts a crisis into an action plan"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe101.txt Review Questions after Work and Meaningful Work",
+   "questions": [
+    "Describe the different ways in which people view work.",
+    "Draw the line between a job and a career with one example.",
+    "What makes an occupation meaningful for the worker and for society?",
+    "How can work become a source of self development and dignity?"
+   ]
+  },
+  {
+   "id": "ex-rv-2",
+   "source_ref": "lehe101.txt Review Questions after Gender Issues in Relation to Work",
+   "questions": [
+    "Separate the ideas of sex and gender.",
+    "Who are home makers and what do they contribute to the family economy?",
+    "How can women gain recognition in family and society?",
+    "Which provisions of the Indian Constitution promise equality to women?",
+    "Name the government schemes and laws that support women workers."
+   ]
+  },
+  {
+   "id": "ex-rv-3",
+   "source_ref": "lehe101.txt Review Questions after Work, Ethics and Dignity of Labour",
+   "questions": [
+    "Explain the terms quality of work life and life skills.",
+    "What is a healthy work environment and how can it be created?",
+    "What is meant by dignity of labour?",
+    "State briefly the role of values and ethics in professional life.",
+    "Define ergonomics and list four of its benefits for a workplace."
+   ]
+  }
+ ]
+}

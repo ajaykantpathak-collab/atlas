@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_007",
+   "title": "c12_ip_cbse_01_007",
+   "questions": [
+    {
+     "q": "Write the exact syntax for a SELECT query that retrieves all columns from a table named PRODUCT, sorts by Price descending, and returns only the first 10 rows.",
+     "a": "Correct answer: `SELECT * FROM PRODUCT ORDER BY Price DESC LIMIT 10;`  \nA wrong answer like `SELECT * FROM PRODUCT LIMIT 10 ORDER BY Price DESC;` reveals the student thinks LIMIT comes before ORDER BY, which is syntactically invalid in MySQL. Another common error is omitting DESC, which would sort ascending by default and return the cheapest products instead of the most expensive.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what the following query does: `SELECT EmpName, Salary FROM EMPLOYEE ORDER BY Designation ASC, Salary DESC LIMIT 3;`",
+     "a": "The query first sorts employees by Designation in alphabetical order (A–Z). For employees with the same Designation, it then sorts by Salary from highest to lowest. Finally, it returns only the first three rows of that sorted result. A wrong answer that says \"sorts by Salary first\" shows the student does not understand that ORDER BY processes columns left‑to‑right. Another misconception is thinking LIMIT 3 applies before the sorting, which would give an arbitrary three rows.",
+     "self_check": true
+    },
+    {
+     "q": "Using the CARSHOWROOM database, write a query to display the InvoiceNo, SaleDate, and SalePrice of the three most recent sales (latest SaleDate first).",
+     "a": "```sql\nSELECT InvoiceNo, SaleDate, SalePrice\nFROM SALE\nORDER BY SaleDate DESC\nLIMIT 3;\n```\nSteps: 1) Identify the table (SALE) and required columns. 2) Sort by SaleDate DESC so the newest dates appear first. 3) Apply LIMIT 3 to keep only the top three rows.  \nA wrong answer using `ORDER BY SaleDate ASC` would return the three oldest sales. Forgetting LIMIT would return all rows, violating the \"three most recent\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of these two queries on a table with a column `Rating` that contains NULL values:  \nQuery A: `SELECT * FROM REVIEWS ORDER BY Rating ASC LIMIT 5;`  \nQuery B: `SELECT * FROM REVIEWS ORDER BY Rating DESC LIMIT 5;`  \nHow does MySQL treat NULLs in each case, and what practical difference does it make for a \"top‑5 ratings\" feature?",
+     "a": "In MySQL, ORDER BY … ASC places NULLs first, while ORDER BY … DESC places NULLs last. Therefore Query A returns the five rows with the lowest non‑NULL ratings (or NULLs if they exist), while Query B returns the five highest non‑NULL ratings. For a \"top‑5 ratings\" feature, Query B is correct because it pushes NULLs to the end and shows the highest actual ratings. A student who thinks NULLs are ignored or sorted randomly reveals a misunderstanding of MySQL's default NULL ordering.",
+     "self_check": true
+    },
+    {
+     "q": "A developer writes: `SELECT * FROM ORDERS ORDER BY OrderDate LIMIT 10 OFFSET 20;` to implement pagination (page 3, 10 rows per page). Evaluate whether this query is correct and explain any edge‑case issues when new orders are inserted between page loads.",
+     "a": "The syntax is correct for MySQL: OFFSET 20 skips the first 20 rows (pages 1 and 2), then LIMIT 10 takes the next 10 rows (page 3). However, if new orders are inserted with OrderDate earlier than existing rows, the sort order shifts, causing duplicates or missing rows across pages. This is a classic pagination instability problem. A student who says \"it always works perfectly\" fails to recognize that OFFSET‑based pagination is not safe for real‑time data without a stable, unique sort key (e.g., OrderDate + OrderID).",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real‑world scenario (different from bookstore or car showroom) that requires sorting by two columns with opposite directions and limiting to a single page of results. Write the complete SQL query for your scenario.",
+     "a": "Scenario: A hospital wants to list the next 15 upcoming appointments for a doctor, sorted by AppointmentDate ascending (earliest first) and for the same date by StartTime ascending.  \nQuery:  \n```sql\nSELECT PatientName, AppointmentDate, StartTime\nFROM APPOINTMENTS\nWHERE DoctorID = 'D101' AND AppointmentDate >= CURDATE()\nORDER BY AppointmentDate ASC, StartTime ASC\nLIMIT 15;\n```  \nA poor answer might use only one sort column, forget the WHERE filter for future dates, or place LIMIT before ORDER BY. This tests the student's ability to synthesize a multi‑column sort with a filter and pagination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

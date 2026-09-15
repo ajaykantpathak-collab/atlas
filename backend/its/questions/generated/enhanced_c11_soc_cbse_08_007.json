@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_007",
+   "title": "c11_soc_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define 'gendered division of labour' in the specific context of environmental resource access, as discussed in the NCERT chapter.",
+     "a": "Gendered division of labour in environmental resource access refers to the systematic assignment of tasks like fetching water, collecting fuelwood, fodder, and non-timber forest produce to women, while men typically control irrigation, commercial cropping, and resource governance decisions. A wrong answer that only defines it as \"men work outside, women work inside\" reveals a misunderstanding: it misses the specific *environmental* dimension (water, forest, land) and the crucial link to *control* vs. *use* — women are primary users but rarely decision-makers or owners.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"In rural India, women are likely to experience resource scarcity more acutely because gathering fuel and fetching water are generally women's tasks but they do not control these resources.\" Explain in your own words why the *lack of control* intensifies scarcity for women, beyond just the physical labour involved.",
+     "a": "Lack of control means women cannot decide where wells are dug, which forest patches are protected, or how common lands are allocated. When scarcity hits (e.g., groundwater drops), women must walk farther, spend more time, and negotiate access — but cannot influence the solution (e.g., demanding a closer handpump, regulating extraction). A wrong answer focusing only on \"women work harder\" misses the structural powerlessness: scarcity is not just physical shortage but *socially mediated exclusion* from decision-making forums (panchayats, water user associations) where allocation rules are set.",
+     "self_check": true
+    },
+    {
+     "q": "A village installs a solar-powered piped water supply with taps in every household. Six months later, a study finds women still spend 2 hours daily on water-related work. Apply the concept of gendered division of labour to explain *three specific reasons* why the technological fix did not reduce women's time burden.",
+     "a": "1. **Task redefinition**: Women now manage household storage, rationing, and quality monitoring (e.g., filtering, boiling) — tasks still defined as \"women's work.\" 2. **Maintenance burden**: When pipes leak or motors fail, women are expected to report, follow up with male plumbers/panchayat, and manage interim fetching — the *responsibility* for water security remains gendered. 3. **Productive use exclusion**: Men control decisions on using surplus water for kitchen gardens/livestock (income-generating); women's use remains reproductive (cooking, cleaning). A wrong answer blaming \"cultural resistance\" ignores how infrastructure design (tap placement, tariff structures) and governance (male-dominated water committees) reproduce the division of labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the relationship to a *common forest* of: (a) a male landless labourer hired by the Forest Department for plantation work, and (b) a female landless labourer collecting fuelwood and mahua flowers for household use and sale. Analyze how gender shapes their *rights, risks, and knowledge* regarding the same resource.",
+     "a": "(a) Male labourer: Holds a contractual, wage-based right; risk is job loss; knowledge is technical (silviculture, planting schedules) valued by the state. (b) Female labourer: Holds customary usufruct rights (often unrecognized); risk is physical violence (guards), legal prosecution (theft), and health hazards (longer walks, heavier loads); knowledge is ecological (species identification, seasonal cycles, sustainable harvesting) but devalued as \"traditional.\" Gender shapes *legitimacy* of access: his is formal/legal, hers is informal/precarious. A wrong answer treating both as \"labourers\" misses how gender intersects with property regimes (state vs. customary) to produce fundamentally different resource citizenship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Providing individual land titles to women (e.g., through joint pattas) automatically solves their environmental resource access problems in agrarian households.\" Justify your position using the concepts of division of labour and property relations.",
+     "a": "The statement is **false**. Land title alone does not alter the gendered division of labour: women may still perform unpaid reproductive labour (fetching water for the *family* plot) while men control cropping choices, credit, and market decisions. Without concurrent changes in (a) intra-household decision-making power, (b) access to irrigation/credit/extension services, and (c) recognition of women as \"farmers\" (not just \"farm wives\"), the title becomes a paper asset. NCERT emphasizes that \"ownership and control over resources is also related to the division of labour in the production process\" — both must shift together. A wrong answer agreeing reveals a \"property-centric\" fallacy: ignoring that resource access is mediated by labour norms, social permissions, and bargaining power within the household.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community forest management rule for a village with 60% tribal households that *explicitly addresses* the gendered division of labour in NTFP (Non-Timber Forest Produce) collection. Your rule must include: (i) a governance mechanism, (ii) a labour-sharing or time-reduction provision, and (iii) a knowledge-validation clause. Explain how each component tackles a specific structural barrier.",
+     "a": "**Rule**: \"The Village Forest Committee (VFC) shall reserve 50% executive positions for women, including the NTFP Sub-Committee Chair. The VFC shall fund and maintain two community-level solar dryers and a shared tool bank (head-load frames, sickles) managed by women's SHGs. The VFC shall formally recognize women's ecological calendars (species-specific harvesting windows, regeneration indicators) as binding for quota-setting.\" \n(i) Governance: 50% reservation breaks male monopoly in VFCs where harvest rules are made. \n(ii) Labour-sharing: Solar dryers reduce post-harvest processing time (traditionally women's work); tool bank reduces physical drudgery. \n(iii) Knowledge-validation: Legitimizes women's phenological knowledge over contractor-driven extraction calendars. A poor answer proposing only \"women members in committee\" without labour/knowledge components treats representation as tokenism, ignoring the material and epistemic dimensions of gendered resource access.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

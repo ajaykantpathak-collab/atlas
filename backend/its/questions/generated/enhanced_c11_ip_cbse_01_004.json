@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_004",
+   "title": "c11_ip_cbse_01_004",
+   "questions": [
+    {
+     "q": "List the four main categories of output devices discussed in this chapter and give one example for each.",
+     "a": "Correct answer: Visual display (monitor, projector), Audio output (speaker, headphone), Hardcopy output (printer, 3D printer), Tactile/assistive output (braille display). A wrong answer that omits one category or includes input devices (e.g., keyboard, scanner) reveals the student has not memorized the basic classification or is confusing the direction of data flow (input vs output).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 3D printer is classified as an output device even though it creates a physical object rather than displaying information on a screen.",
+     "a": "Correct answer: A 3D printer receives digital data (a 3D model file) from the computer and converts it into a tangible physical replica, which is a form of hardcopy output. The defining characteristic of an output device is the direction of data flow: from computer to device. A wrong answer that calls it an input device because raw material is fed in, or says it's not output because it's not visual, reveals a misunderstanding of the data-flow definition and the broad scope of \"output\" beyond screens.",
+     "self_check": true
+    },
+    {
+     "q": "A school needs to print 500 copies of a 20-page text-only report daily. The report contains only black text. Which printer type (inkjet, laser, dot matrix) would be most cost-effective and why? Provide two specific reasons.",
+     "a": "Correct answer: Laser printer. Reasons: (1) Lower cost per page for high-volume monochrome printing due to toner efficiency (typically ₹0.5–1 per page vs ₹2–5 for inkjet). (2) Faster print speed (20+ ppm) suitable for multi-page documents, whereas inkjets are slower and dot matrix is noisy and lower quality. A wrong answer choosing inkjet shows inability to apply running-cost analysis; choosing dot matrix shows ignorance of modern text-printing quality and speed requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the working principle of an inkjet printer and a laser printer. Identify one specific scenario where each would be the preferred choice.",
+     "a": "Correct answer: Inkjet uses liquid ink sprayed through microscopic nozzles onto paper; laser uses a photosensitive drum, toner powder, and heat fusion. Inkjet is preferred for high-quality color photographs (superior color blending); laser is preferred for high-volume black-and-white text documents (speed, cost, sharpness). A wrong answer that swaps the principles or scenarios demonstrates failure to analyze the technical differences and match them to appropriate use cases.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since projectors and monitors both display visual output, they are interchangeable for all purposes.\" Evaluate this statement with three specific technical counterarguments.",
+     "a": "Correct answer: The statement is false. Counterarguments: (1) Ambient light sensitivity: projectors require darkened rooms for acceptable contrast; monitors work in normal lighting. (2) Pixel density (PPI): a 1080p projector on a 100\" screen yields ~22 PPI, while a 24\" 1080p monitor yields ~92 PPI, making monitors far superior for detailed text/graphics. (3) Portability vs permanence: projectors are portable for temporary large-audience setups; monitors are fixed personal workstations. A wrong answer that agrees or cites irrelevant differences (e.g., price) shows inability to evaluate based on optical and ergonomic specifications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a visually impaired user needs to interact with a computer system. Specify the essential output device(s) and explain how they would work together with a braille keyboard (input) to create a complete interaction loop.",
+     "a": "Expected answer: Scenario: A visually impaired programmer writing and debugging Python code. Essential output devices: (1) Refreshable braille display (tactile line-by-line output of code/errors), (2) Screen reader with speaker/headphone (audio feedback for alerts, long texts). Interaction loop: User types on braille keyboard → computer processes → output sent to braille display (current line) and/or speaker (error messages) → user reads tactile/audio feedback → continues editing. A poor answer that only mentions a speaker without a braille display, or fails to describe the bidirectional loop, reveals inability to synthesize assistive technology concepts and the distinction between sequential audio and random-access tactile output.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

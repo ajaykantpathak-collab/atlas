@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_008",
+   "title": "c10_eco_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the exact formula for calculating Body Mass Index (BMI) and the standard unit of measurement.",
+     "a": "BMI = weight in kilograms / (height in meters)²; unit is kg/m². A wrong answer (e.g., using cm without conversion, or reversing numerator/denominator) reveals the student cannot recall the precise mathematical relationship, leading to calculation errors in board exams where unit conversion is frequently tested.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates BMI as 22.5 for an adult. Explain why this value is classified as \"normal weight\" and what it implies about the person's nutritional status in the context of development indicators.",
+     "a": "BMI 22.5 lies within the WHO normal range (18.5–24.9), indicating adequate energy intake relative to height. In development terms, it suggests the person likely has access to sufficient calories and healthcare, contributing positively to human capital. A wrong answer (e.g., \"it means the person is healthy\" without referencing the range) shows the student memorizes categories but cannot link the number to its development significance.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the BMI for a 30-year-old male agricultural worker in Punjab with height 1.70 m and weight 85 kg. Classify his nutritional status and state one policy-relevant implication for the state government.",
+     "a": "Step 1: Height² = 1.70 × 1.70 = 2.89 m². Step 2: BMI = 85 / 2.89 = 29.41 kg/m². Step 3: Classification: overweight (25–29.9). Step 4: Implication: rising overweight in rural Punjab signals dietary transition; government may need nutrition education and NCD screening programs. A wrong calculation (e.g., forgetting to square height) or missing policy link shows inability to apply the formula in real-world analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the BMI profiles of two Indian states: Kerala (average BMI 22.1) and Madhya Pradesh (average BMI 19.8). Analyze what these averages suggest about relative development, considering both undernutrition and overnutrition risks.",
+     "a": "Kerala's average (normal range) indicates better overall nutritional access and healthcare, consistent with its high HDI. Madhya Pradesh's average (near underweight threshold) reflects widespread undernutrition, especially among women and children, pointing to deficits in food security and public health infrastructure. A wrong answer that only notes \"Kerala is higher\" without interpreting the development implications misses the analytical depth required for case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since BMI is a simple ratio, it should replace per capita income as the primary measure of development because it directly captures human well-being.\"",
+     "a": "BMI captures only nutritional status, ignoring education, income, gender equity, environmental sustainability, and political freedom. It also misclassifies muscular individuals as overweight and fails for children/elderly. Per capita income, despite flaws, reflects command over resources. A good critique acknowledges BMI's value as a complementary indicator (as in HDI) but rejects sole reliance. A weak answer either agrees uncritically or dismisses BMI entirely, showing poor evaluation skills.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey plan for your class to collect height/weight data, compute BMI, and present findings in a way that highlights the link between nutrition and learning outcomes. Specify the steps, required tools, and how you would ensure ethical handling of sensitive data.",
+     "a": "Steps: 1) Obtain consent; 2) Use calibrated scale and stadiometer; 3) Record data anonymously (ID codes); 4) Calculate BMI per student; 5) Aggregate by gender/age; 6) Correlate with attendance/grades (if available); 7) Present as bar graphs with WHO cut-off lines. Tools: weighing machine, height chart, spreadsheet. Ethics: no names, opt-out option, counseling referral for extreme values. A poor plan omits consent, uses self-reported data, or ignores privacy, revealing lack of practical research ethics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

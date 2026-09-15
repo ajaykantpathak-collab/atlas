@@ -1,0 +1,455 @@
+{
+ "chapter": 114,
+ "concepts": [
+  {
+   "id": "jemh.14.1",
+   "title": "Classical Definition of Probability",
+   "section": "14.1",
+   "definition": "The classical (theoretical) probability of an event E, written as P(E), is defined as the ratio of the number of outcomes favourable to E to the total number of possible outcomes of the experiment, provided all outcomes are equally likely.",
+   "formula": "P(E) = (Number of favourable outcomes) / (Total number of possible outcomes)",
+   "key_idea": "Probability is a number between 0 and 1. It applies only when every outcome of the experiment is equally likely.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the probability of getting an even number when a die is thrown once.",
+    "A coin is tossed once. What is the probability of getting a head?",
+    "Find the probability of getting a prime number on a single throw of a die.",
+    "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting a king.",
+    "A bag contains 5 red and 3 blue balls. Find the probability of drawing a red ball."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the outcomes",
+     "explain": "Count the total equally likely outcomes and the favourable ones."
+    },
+    {
+     "step": 2,
+     "action": "Divide",
+     "explain": "P(E) = favourable / total.",
+     "compute": "p = favourable / total"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A die is thrown once. Find the probability of getting an even number.",
+     "solution": "Total outcomes = {1,2,3,4,5,6}, so total = 6. Favourable outcomes (even) = {2,4,6}, so favourable = 3. P(E) = 3/6 = 1/2.",
+     "answer": "1/2"
+    },
+    {
+     "question": "A bag contains 4 red and 6 white balls. One ball is drawn at random. Find the probability of getting a red ball.",
+     "solution": "Total balls = 4 + 6 = 10. Favourable (red) = 4. P(red) = 4/10 = 2/5.",
+     "answer": "2/5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A die is thrown once. Find the probability of getting a number greater than 4.",
+     "type": "compute"
+    },
+    {
+     "question": "A coin is tossed once. Find the probability of getting a tail.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.2",
+   "title": "Empirical Probability",
+   "section": "14.1",
+   "definition": "Empirical (experimental) probability is based on actual observation or repeated trials of an experiment. It is the ratio of the number of times an event occurs to the total number of trials performed.",
+   "formula": "P(E) = (Number of trials in which event happened) / (Total number of trials)",
+   "key_idea": "As the number of trials increases, the empirical probability tends to approach the theoretical (classical) probability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "In 50 throws of a die, a 6 appeared 8 times. Find the empirical probability of getting a 6.",
+    "A coin is tossed 100 times and heads appear 47 times. Find the empirical probability of heads.",
+    "In a survey of 200 students, 120 like cricket. Find the empirical probability that a student likes cricket.",
+    "A die is thrown 200 times and odd numbers appear 95 times. Find the empirical probability of an odd number.",
+    "In 80 births recorded, 44 were girls. Find the empirical probability of a girl birth."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the trial counts",
+     "explain": "Trials where the event happened over the total number of trials."
+    },
+    {
+     "step": 2,
+     "action": "Divide",
+     "explain": "P(E) = event count / total trials.",
+     "compute": "p = event_count / total_trials"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A coin is tossed 100 times and heads appear 47 times. Find the empirical probability of getting a head.",
+     "solution": "Total trials = 100. Heads appeared 47 times. P(head) = 47/100 = 0.47.",
+     "answer": "0.47"
+    },
+    {
+     "question": "In 200 throws of a die, the number 5 appeared 30 times. Find the empirical probability of getting a 5.",
+     "solution": "Total trials = 200. Event (5) occurred 30 times. P(5) = 30/200 = 3/20 = 0.15.",
+     "answer": "0.15"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In 80 births, 44 were girls. Find the empirical probability of a girl being born.",
+     "type": "compute"
+    },
+    {
+     "question": "A die is thrown 150 times and a 3 appears 25 times. Find the empirical probability of getting a 3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.3",
+   "title": "Sample Space and Events",
+   "section": "14.1",
+   "definition": "The sample space S of a random experiment is the set of all possible outcomes. An event E is any subset of the sample space.",
+   "formula": "S = {all possible outcomes}; E is a subset of S, so n(E) <= n(S)",
+   "key_idea": "Defining the sample space correctly is the first step in solving any probability problem, since every event is a subset of S.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Write the sample space when a coin is tossed twice.",
+    "Write the sample space when a die is thrown once.",
+    "Write the sample space when two coins are tossed simultaneously.",
+    "For the sample space of throwing a die, list the event of getting a number less than 3.",
+    "Write the sample space when a coin and a die are tossed together."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the sample space",
+     "explain": "Write every possible outcome in set form."
+    },
+    {
+     "step": 2,
+     "action": "Count",
+     "explain": "n(S) is the number of listed outcomes."
+    },
+    {
+     "step": 3,
+     "action": "Describe the event",
+     "explain": "An event is the subset of S holding the favourable outcomes; n(E) <= n(S)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the sample space when a coin is tossed twice.",
+     "solution": "Each toss gives H or T. Two tosses give S = {HH, HT, TH, TT}. n(S) = 4.",
+     "answer": "S = {HH, HT, TH, TT}"
+    },
+    {
+     "question": "A die is thrown once. Write the sample space and the event of getting an even number.",
+     "solution": "S = {1,2,3,4,5,6}. Event E (even number) = {2,4,6}. n(S) = 6, n(E) = 3.",
+     "answer": "S = {1,2,3,4,5,6}; E = {2,4,6}"
+    },
+    {
+     "question": "Two coins are tossed simultaneously. Write the sample space.",
+     "solution": "S = {HH, HT, TH, TT}. n(S) = 4.",
+     "answer": "S = {HH, HT, TH, TT}"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the sample space when a die and a coin are tossed together.",
+     "type": "compute"
+    },
+    {
+     "question": "For a single throw of a die, list the event of getting a number less than 3 and find its probability.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.4",
+   "title": "Complementary Events",
+   "section": "14.1",
+   "definition": "The complement of an event E, denoted 'not E' or E-bar, is the event that E does not occur. For any event E, P(E) + P(not E) = 1.",
+   "formula": "P(E) + P(not E) = 1, so P(not E) = 1 - P(E)",
+   "key_idea": "The probabilities of an event and its complement always add up to 1. Knowing one immediately gives the other.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "If P(E) = 0.35, find P(not E).",
+    "The probability of winning a game is 2/5. Find the probability of losing the game.",
+    "If P(E) = 3/8, find the probability of E not happening.",
+    "The probability that it will rain tomorrow is 0.68. Find the probability that it will not rain.",
+    "A die is thrown once. Find the probability of not getting a 6."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract from one",
+     "explain": "P(not E) = 1 - P(E).",
+     "compute": "p_not = 1 - p_e"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If P(E) = 0.35, find P(not E).",
+     "solution": "Using P(E) + P(not E) = 1, P(not E) = 1 - 0.35 = 0.65.",
+     "answer": "0.65"
+    },
+    {
+     "question": "The probability of winning a game is 2/5. Find the probability of losing the game.",
+     "solution": "P(losing) = P(not winning) = 1 - 2/5 = 3/5.",
+     "answer": "3/5"
+    },
+    {
+     "question": "The probability of winning a game is 2/5. Find the probability of losing it.",
+     "solution": "1 - 2/5 = 3/5",
+     "answer": "3/5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If P(E) = 3/8, find P(not E).",
+     "type": "verify_property"
+    },
+    {
+     "question": "The probability that it will rain tomorrow is 0.68. Find the probability that it will not rain.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.5",
+   "title": "Sure Event and Impossible Event",
+   "section": "14.1",
+   "definition": "A sure event is an event that is certain to occur and has probability 1. An impossible event is an event that can never occur and has probability 0.",
+   "formula": "P(sure event) = 1; P(impossible event) = 0; for any event E, 0 <= P(E) <= 1",
+   "key_idea": "Every probability lies between 0 and 1 inclusive. Probability 1 means certainty and probability 0 means impossibility.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "A die is thrown. Find the probability of getting a number less than 7 (sure event).",
+    "A die is thrown. Find the probability of getting a number greater than 6 (impossible event).",
+    "A coin is tossed. Find the probability of getting a head or a tail (sure event).",
+    "From a bag of red balls only, find the probability of drawing a blue ball (impossible event).",
+    "Classify the event of getting 8 on a die as sure, impossible, or neither."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare E with S",
+     "explain": "A sure event equals the whole sample space; an impossible event is empty."
+    },
+    {
+     "step": 2,
+     "action": "Apply the definition",
+     "explain": "P(sure event) = 1 and P(impossible event) = 0."
+    },
+    {
+     "step": 3,
+     "action": "Range check",
+     "explain": "For any event, 0 <= P(E) <= 1."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A die is thrown once. Find the probability of getting a number less than 7.",
+     "solution": "All outcomes {1,2,3,4,5,6} are less than 7, so E = S. This is a sure event with P(E) = 6/6 = 1.",
+     "answer": "1"
+    },
+    {
+     "question": "A die is thrown once. Find the probability of getting a number greater than 6.",
+     "solution": "No outcome is greater than 6, so E is empty. This is an impossible event with P(E) = 0/6 = 0.",
+     "answer": "0"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A bag contains only red balls. Find the probability of drawing a blue ball.",
+     "type": "verify_property"
+    },
+    {
+     "question": "A coin is tossed. Find the probability of getting either a head or a tail.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.6",
+   "title": "Probability with Dice",
+   "section": "14.1",
+   "definition": "Probability problems involving dice use the sample space of die outcomes. A single die has 6 outcomes; two dice have 36 equally likely ordered outcomes.",
+   "formula": "Single die: n(S) = 6; Two dice: n(S) = 6 x 6 = 36; P(E) = n(E)/n(S)",
+   "key_idea": "When two dice are thrown, each ordered pair (a,b) is a distinct outcome, giving 36 total outcomes. Count favourable pairs carefully.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "A die is thrown once. Find the probability of getting a prime number.",
+    "Two dice are thrown simultaneously. Find the probability of getting a sum of 8.",
+    "Two dice are thrown. Find the probability of getting a doublet (same number on both dice).",
+    "Two dice are thrown. Find the probability of getting a sum greater than 10.",
+    "A die is thrown once. Find the probability of getting a number divisible by 3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count favourable outcomes",
+     "explain": "List or count the outcomes matching the event (6 for one die, 36 for two dice)."
+    },
+    {
+     "step": 2,
+     "action": "Divide",
+     "explain": "P(E) = favourable / total.",
+     "compute": "p = favourable / total"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A die is thrown once. Find the probability of getting a prime number.",
+     "solution": "S = {1,2,3,4,5,6}, n(S) = 6. Prime numbers = {2,3,5}, n(E) = 3. P(E) = 3/6 = 1/2.",
+     "answer": "1/2"
+    },
+    {
+     "question": "Two dice are thrown simultaneously. Find the probability of getting a sum of 8.",
+     "solution": "n(S) = 36. Pairs with sum 8: (2,6),(3,5),(4,4),(5,3),(6,2), so n(E) = 5. P(E) = 5/36.",
+     "answer": "5/36"
+    },
+    {
+     "question": "Two dice are thrown. Find the probability of getting a doublet.",
+     "solution": "n(S) = 36. Doublets: (1,1),(2,2),(3,3),(4,4),(5,5),(6,6), so n(E) = 6. P(E) = 6/36 = 1/6.",
+     "answer": "1/6"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two dice are thrown. Find the probability of getting a sum greater than 10.",
+     "type": "compute"
+    },
+    {
+     "question": "A die is thrown once. Find the probability of getting a number divisible by 3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.7",
+   "title": "Probability with Cards",
+   "section": "14.1",
+   "definition": "A standard deck has 52 cards divided into 4 suits (spades, hearts, diamonds, clubs) of 13 cards each. There are 26 red and 26 black cards, 12 face cards, and 4 aces. Card probability problems use this fixed composition.",
+   "formula": "n(S) = 52; P(E) = n(E)/52",
+   "key_idea": "Knowing the composition of a deck (suits, colours, face cards, aces, number cards) lets you count favourable outcomes quickly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting a king.",
+    "Find the probability of drawing a red face card from a deck of 52 cards.",
+    "Find the probability of drawing a black card from a deck of 52 cards.",
+    "Find the probability of drawing the ace of spades from a deck of 52 cards.",
+    "Find the probability of drawing a card that is not a face card."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count matching cards",
+     "explain": "A 52-card deck holds 4 of each rank, 26 red, 26 black, 12 face cards."
+    },
+    {
+     "step": 2,
+     "action": "Divide by 52",
+     "explain": "P(E) = favourable / 52.",
+     "compute": "p = favourable / total"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting a king.",
+     "solution": "n(S) = 52. There are 4 kings. P(king) = 4/52 = 1/13.",
+     "answer": "1/13"
+    },
+    {
+     "question": "Find the probability of drawing a red face card from a deck of 52 cards.",
+     "solution": "n(S) = 52. Red face cards = 6 (J,Q,K of hearts and diamonds). P = 6/52 = 3/26.",
+     "answer": "3/26"
+    },
+    {
+     "question": "Find the probability of drawing a card that is not a face card.",
+     "solution": "n(S) = 52. Face cards = 12, so non-face cards = 52 - 12 = 40. P = 40/52 = 10/13.",
+     "answer": "10/13"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the probability of drawing a black card from a deck of 52 cards.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the probability of drawing the ace of spades from a deck of 52 cards.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.14.8",
+   "title": "Probability of Combined Events",
+   "section": "14.1",
+   "definition": "Combined events involve the occurrence of one event and not another, or choosing from combined collections. The probability is found by counting the favourable outcomes within the combined sample space, often using the complement rule or addition of counts.",
+   "formula": "P(E) = n(E)/n(S); for combined counts use P(not E) = 1 - P(E) or add favourable counts for disjoint favourable sets",
+   "key_idea": "When an event combines conditions (e.g. not a spade, not an ace, or a red or even-numbered outcome), count favourable outcomes directly or use the complement to simplify.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "One card is drawn from a deck of 52. Find the probability of getting neither a king nor a queen.",
+    "A die is thrown once. Find the probability of getting a number that is even or prime.",
+    "A bag has 5 red, 4 green and 3 blue balls. Find the probability of getting a ball that is not red.",
+    "Two dice are thrown. Find the probability of getting a sum that is neither 7 nor 11.",
+    "One card is drawn from a deck. Find the probability of getting a card that is a red or a face card."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count or complement",
+     "explain": "Either count the combined favourable outcomes directly or count their complement."
+    },
+    {
+     "step": 2,
+     "action": "Divide",
+     "explain": "P(E) = favourable / total.",
+     "compute": "p = favourable / total"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "One card is drawn from a deck of 52. Find the probability of getting neither a king nor a queen.",
+     "solution": "n(S) = 52. Kings = 4, queens = 4, so king or queen = 8. Neither = 52 - 8 = 44. P = 44/52 = 11/13.",
+     "answer": "11/13"
+    },
+    {
+     "question": "A bag has 5 red, 4 green and 3 blue balls. Find the probability of drawing a ball that is not red.",
+     "solution": "Total = 5 + 4 + 3 = 12. Not red = green + blue = 4 + 3 = 7. P = 7/12.",
+     "answer": "7/12"
+    },
+    {
+     "question": "A die is thrown once. Find the probability of getting a number that is even or prime.",
+     "solution": "S = {1,2,3,4,5,6}. Even = {2,4,6}, prime = {2,3,5}. Even or prime = {2,3,4,5,6}, n(E) = 5. P = 5/6.",
+     "answer": "5/6"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two dice are thrown. Find the probability of getting a sum that is neither 7 nor 11.",
+     "type": "compute"
+    },
+    {
+     "question": "One card is drawn from a deck. Find the probability of getting a card that is a red or a face card.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "class": "10",
+ "subject": "maths",
+ "worked_examples": [],
+ "exercises": [],
+ "chapter_title": "Probability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh114.txt"
+}

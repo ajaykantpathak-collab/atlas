@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_012",
+   "title": "c12_ip_cbse_06_012",
+   "questions": [
+    {
+     "q": "What does `document.querySelector('.highlight')` return if there are three `<p class=\"highlight\">` elements in the HTML?",
+     "a": "It returns only the **first** matching element (the first `<p class=\"highlight\">`), not a list. A wrong answer (e.g., \"returns all three\" or \"returns an array\") reveals the student confuses `querySelector` (single) with `querySelectorAll` (NodeList of all matches) — a critical distinction because calling `.style.color = 'red'` on a NodeList throws a TypeError.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `element.innerHTML = '<b>Bold</b>'` and `element.textContent = '<b>Bold</b>'` when applied to a `<div id=\"msg\">`.",
+     "a": "`innerHTML` parses the string as HTML, so the `<b>` tags become actual bold markup — the div will render **Bold**. `textContent` treats the string as literal text, so the user sees the raw characters `<b>Bold</b>` on screen. A wrong answer indicates the student doesn't grasp that `innerHTML` triggers HTML parsing (security risk for user input) while `textContent` is safe for untrusted data — a common board exam trap in \"prevent XSS\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the exact JavaScript statements to: (a) select the `<input id=\"pincode\">`, (b) read its value, (c) create a new `<span>` with class \"error\" containing \"Invalid PIN\", and (d) insert it immediately after the input field.",
+     "a": "```js\nconst input = document.getElementById('pincode');        // (a)\nconst val = input.value;                                 // (b)\nconst span = document.createElement('span');             // (c)\nspan.className = 'error';\nspan.textContent = 'Invalid PIN';\ninput.insertAdjacentElement('afterend', span);           // (d)\n```\nA wrong answer (e.g., using `appendChild` on the input, or `innerHTML +=`) shows the student cannot distinguish between appending *inside* an element vs. inserting *adjacent* to it, or doesn't know `insertAdjacentElement`/`afterend` — a frequent practical exam requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `document.getElementsByClassName('btn').addEventListener('click', fn)`. Why does this fail, and how would you fix it for all buttons with class \"btn\"?",
+     "a": "`getElementsByClassName` returns an **HTMLCollection** (live), not a single element — it has no `addEventListener` method. Fix: use `document.querySelectorAll('.btn').forEach(btn => btn.addEventListener('click', fn))`. A wrong answer (e.g., \"use `getElementById` instead\") reveals the student doesn't understand that collection-returning methods (`getElementsBy*`, `querySelectorAll`) require iteration, while singleton methods (`getElementById`, `querySelector`) do not — a classic JEE-style \"identify the bug\" trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this code for a \"Load More\" button that appends 5 new `<article>` elements to a `<section id=\"feed\">`:\n```js\nconst feed = document.getElementById('feed');\nfor (let i = 0; i < 5; i++) {\n  feed.innerHTML += '<article>New Post</article>';\n}\n```\nIdentify two performance/functional issues and rewrite it correctly.",
+     "a": "**Issues:** (1) `innerHTML +=` re-parses the **entire** feed content on every iteration, destroying event listeners on existing articles and causing O(n²) reflow. (2) It creates a stringly-typed workflow vulnerable to XSS if content is user-generated.  \n**Correct rewrite:**\n```js\nconst feed = document.getElementById('feed');\nconst frag = document.createDocumentFragment();\nfor (let i = 0; i < 5; i++) {\n  const art = document.createElement('article');\n  art.textContent = 'New Post';\n  frag.appendChild(art);\n}\nfeed.appendChild(frag);   // single reflow\n```\nA poor answer misses the reflow/event-listener destruction or suggests `insertAdjacentHTML` (still string-based). This tests deep understanding of DOM performance — a CUET/board competency differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal \"Aadhaar Masking\" feature: an input field where the user types a 12-digit number, and on `blur`, the first 8 digits are replaced with `XXXX XXXX` while the last 4 remain visible. The original value must be stored in a `data-aadhaar` attribute for form submission. Provide the HTML and JavaScript.",
+     "a": "**HTML:** `<input type=\"text\" id=\"aadhaar\" maxlength=\"12\" placeholder=\"Enter 12-digit Aadhaar\">`  \n**JS:**\n```js\nconst inp = document.getElementById('aadhaar');\ninp.addEventListener('blur', () => {\n  const raw = inp.value.replace(/\\s/g, '');\n  if (raw.length === 12 && /^\\d{12}$/.test(raw)) {\n    inp.dataset.aadhaar = raw;                    // store original\n    inp.value = 'XXXX XXXX ' + raw.slice(8);      // masked display\n  }\n});\n```\nA good answer uses `dataset` for custom attributes, `slice` for masking, and validates length/format. A poor answer uses `setAttribute('data-aadhaar', ...)` (works but verbose) or modifies `value` without saving original — revealing ignorance of `dataset` API and form-data separation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

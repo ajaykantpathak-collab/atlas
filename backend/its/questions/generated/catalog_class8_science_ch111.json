@@ -1,0 +1,323 @@
+{
+ "catalog": "catalog_class8_science_ch111.json",
+ "concepts": [
+  {
+   "id": "hesc.11.1",
+   "title": "Electrical Conductivity in Liquids",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Do all liquids conduct electricity?",
+     "a": "No - pure water barely conducts; liquids with dissolved acids, bases or salts conduct well.",
+     "self_check": true
+    },
+    {
+     "q": "Name two conducting and one non-conducting liquid.",
+     "a": "Conducting: salt water, lemon juice. Non-conducting: distilled water (or pure oil).",
+     "self_check": true
+    },
+    {
+     "q": "How can you test whether a liquid conducts?",
+     "a": "Set up a circuit with the liquid, two electrodes, a bulb or LED; glowing shows conduction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.2",
+   "title": "LED as a Weak Current Detector",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is an LED used instead of a bulb in conduction tests?",
+     "a": "A bulb glows only with strong currents; an LED lights up with weak currents many liquids allow.",
+     "self_check": true
+    },
+    {
+     "q": "How many leads does an LED have and how is it connected?",
+     "a": "Two - the longer (positive) lead joins the battery's positive side; reverse and it stays dark.",
+     "self_check": true
+    },
+    {
+     "q": "What does a dim glow in the LED tell us?",
+     "a": "The liquid conducts, but weakly - it is a poor conductor compared with metals.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.3",
+   "title": "Magnetic Effect Tester",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can magnetism show that a current flows in a liquid?",
+     "a": "Place a compass near the circuit - current's magnetic effect deflects the needle even when the current is weak.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to a compass needle when current stops in the tester?",
+     "a": "It swings back to its normal north-south direction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the deflection show conduction?",
+     "a": "Only a current in the liquid can create the magnetic effect that moves the needle.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.4",
+   "title": "Conductivity of Water Types",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is pure water a poor conductor but tap water a good one?",
+     "a": "Dissolved salts of tap (and drinking) water carry ions; pure water has almost none.",
+     "self_check": true
+    },
+    {
+     "q": "What makes sea water the best conductor among natural waters?",
+     "a": "It holds the most dissolved salts, so many free ions carry current.",
+     "self_check": true
+    },
+    {
+     "q": "Should we touch a switch with wet hands? Why?",
+     "a": "No - water with dissolved salts on skin conducts current and can give a shock.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.5",
+   "title": "Chemical Effects of Electric Current",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the chemical effects of electric current?",
+     "a": "Current passing through a conducting liquid causes bubbles of gas, metal deposits or colour changes.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a chemical effect of current.",
+     "a": "Passing current through acidified water splits it into hydrogen and oxygen (electrolysis).",
+     "self_check": true
+    },
+    {
+     "q": "What happens when current passes through copper sulphate solution with carbon electrodes?",
+     "a": "Copper moves to one electrode; gas bubbles appear at the other - a chemical change occurs.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.6",
+   "title": "Electrolysis of Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens during electrolysis of water?",
+     "a": "Water splits into hydrogen and oxygen gases, appearing as bubbles at the two electrodes.",
+     "self_check": true
+    },
+    {
+     "q": "Which gas forms in greater amount at the electrodes of water electrolysis?",
+     "a": "Hydrogen, double the volume of oxygen (water is H2O).",
+     "self_check": true
+    },
+    {
+     "q": "Why is a little acid added to water before electrolysis?",
+     "a": "Pure water hardly conducts; the acid supplies ions that let current flow.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.7",
+   "title": "Electroplating Process",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "seconds",
+     "expr": "minutes * 60",
+     "explain": "convert the plating time to seconds"
+    },
+    {
+     "step": 2,
+     "name": "mass_per_minute",
+     "expr": "rate * 60",
+     "explain": "metal deposited each minute"
+    },
+    {
+     "step": 3,
+     "name": "deposited_mass",
+     "expr": "rate * seconds",
+     "explain": "metal deposited grows with time at a fixed rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Electroplating deposits silver at 0.01 g per second. How much silver deposits in 5 minutes?",
+     "vals": {
+      "rate": 0.01,
+      "minutes": 5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "3 g",
+     "self_check": false
+    },
+    {
+     "q": "A chromium bath lays down 0.002 g of metal each second. Find the deposit in 10 minutes.",
+     "vals": {
+      "rate": 0.002,
+      "minutes": 10
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "1.2 g",
+     "self_check": false
+    },
+    {
+     "q": "Copper deposits at 0.005 g/s. What mass coats an object in 4 minutes?",
+     "vals": {
+      "rate": 0.005,
+      "minutes": 4
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "1.2 g",
+     "self_check": false
+    },
+    {
+     "q": "Gold plating adds 0.0005 g per second. How much gold is laid on in 2 minutes?",
+     "vals": {
+      "rate": 0.0005,
+      "minutes": 2
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "0.06 g",
+     "self_check": false
+    },
+    {
+     "q": "A nickel bath deposits 0.008 g each second. Compute the coating on a spoon left 6 minutes.",
+     "vals": {
+      "rate": 0.008,
+      "minutes": 6
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "2.88 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.8",
+   "title": "Applications of Electroplating",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two uses of electroplating.",
+     "a": "Chromium plating of car parts and taps for shine and rust-proofing; tin plating of cans to keep food safe.",
+     "self_check": true
+    },
+    {
+     "q": "Why is cheaper jewellery electroplated with gold or silver?",
+     "a": "A thin coat of the costly metal gives the look at a fraction of the price.",
+     "self_check": true
+    },
+    {
+     "q": "How does electroplating protect iron objects?",
+     "a": "A coat of zinc or chromium keeps air and moisture away, stopping rust.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.9",
+   "title": "Solution Preparation Ratio",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "concentration",
+     "expr": "solute_tsp / solvent_ml",
+     "explain": "spoons of solute per millilitre of solvent"
+    },
+    {
+     "step": 2,
+     "name": "half_recipe_spoons",
+     "expr": "solute_tsp / 2",
+     "explain": "spoons for half the recipe"
+    },
+    {
+     "step": 3,
+     "name": "spoons_for_100ml",
+     "expr": "concentration * 100",
+     "explain": "spoons needed for 100 mL of the same strength"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An ORS packet says 4 spoons of powder in 200 mL of water. Find the strength and spoons needed for 100 mL.",
+     "vals": {
+      "solute_tsp": 4,
+      "solvent_ml": 200
+     },
+     "unit": "spoons",
+     "steps": null,
+     "a": "2 spoons",
+     "self_check": false
+    },
+    {
+     "q": "A gardener mixes 3 spoons of fertiliser in 600 mL of water. What is the strength per mL, and spoons for 100 mL?",
+     "vals": {
+      "solute_tsp": 3,
+      "solvent_ml": 600
+     },
+     "unit": "spoons",
+     "steps": null,
+     "a": "0.5 spoons",
+     "self_check": false
+    },
+    {
+     "q": "2 spoons of sugar dissolve in 500 mL of solution. Find the concentration and the spoons for 100 mL.",
+     "vals": {
+      "solute_tsp": 2,
+      "solvent_ml": 500
+     },
+     "unit": "spoons",
+     "steps": null,
+     "a": "0.4 spoons",
+     "self_check": false
+    },
+    {
+     "q": "A disinfectant needs 5 spoons in 250 mL. Calculate its strength and spoons for 100 mL.",
+     "vals": {
+      "solute_tsp": 5,
+      "solvent_ml": 250
+     },
+     "unit": "spoons",
+     "steps": null,
+     "a": "2 spoons",
+     "self_check": false
+    },
+    {
+     "q": "A drink mix uses 1 spoon in 50 mL. What is the strength, and how many spoons for 100 mL?",
+     "vals": {
+      "solute_tsp": 1,
+      "solvent_ml": 50
+     },
+     "unit": "spoons",
+     "steps": null,
+     "a": "2 spoons",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

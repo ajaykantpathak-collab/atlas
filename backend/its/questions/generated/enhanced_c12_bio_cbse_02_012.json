@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_012",
+   "title": "c12_bio_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define parthenocarpy and give two examples of naturally parthenocarpic fruits.",
+     "a": "Parthenocarpy is fruit development without fertilization, producing seedless fruits. Natural examples: banana (Musa sapientum), grapes (Vitis vinifera — certain cultivars like Thompson Seedless), pineapple, fig (some varieties). A wrong answer (e.g., \"fruit without seeds\" without mentioning lack of fertilization) reveals confusion with seedlessness from stenospermocarpy (seed abortion after fertilization) or apomixis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why application of auxin (e.g., NAA) or gibberellin (GA3) to unpollinated flowers can induce fruit formation in tomato but not in all plant species.",
+     "a": "In tomato, the ovary is competent to respond to exogenous auxins/GAs by activating cell division and expansion in the pericarp, mimicking the hormonal signal normally produced by developing seeds. Species differ in ovary sensitivity, hormone receptor presence, and requirement for coordinated signals (e.g., some need both auxin and GA; others need pollination stimulus for hormone synthesis). A wrong answer (\"hormones always work\") ignores species-specific hormonal crosstalk and competence — a common NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer sprays GA3 on unpollinated tomato flowers and gets seedless fruits. He then tries the same on apple flowers but gets no fruit set. Propose a biological reason for this difference.",
+     "a": "Tomato is a facultative parthenocarpic species where ovary has high sensitivity to GA; apple requires pollination/fertilization to initiate fruit set because its ovary lacks sufficient GA receptors or has inhibitory factors (e.g., high ABA) that block GA response. Apple fruit set also needs coordinated auxin+GA+cytokinin signals from seeds. Wrong answer (\"GA doesn't work on trees\") shows ignorance of species-specific hormone sensitivity — a JEE-style application error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast parthenocarpy and apomixis in terms of: (i) process, (ii) genetic makeup of offspring, (iii) commercial utility.",
+     "a": "(i) Parthenocarpy: fruit without fertilization → no seeds; apomixis: seed formation without fertilization (embryo from unreduced gamete or somatic cell). (ii) Parthenocarpic fruits are genetically identical to mother (clonal pericarp) but have no embryo; apomictic seeds are maternal clones with embryo. (iii) Parthenocarpy used for seedless fruit quality (grapes, watermelon); apomixis used for hybrid seed fixation. Wrong answer conflating them reveals fundamental misunderstanding of fruit vs seed development pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Parthenocarpic fruits are always superior for commercial cultivation because they are seedless.\" Provide two arguments for and two against.",
+     "a": "For: (1) Consumer preference for seedlessness (table grapes, citrus); (2) No pollinator dependence — reliable yield in greenhouses/poor pollinator areas. Against: (1) Parthenocarpic fruits often smaller, misshapen, or lower sugar content (e.g., seedless watermelon may have hollow heart); (2) Loss of genetic diversity — no seeds for propagation, requiring vegetative cloning; (3) Hormone application adds cost/labor. A one-sided answer shows lack of critical evaluation — a CBSE competency expectation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether a new cucumber variety is facultatively parthenocarpic (sets fruit without pollination but also with pollination). Specify control, treatment, and measurable outcomes.",
+     "a": "Control: flowers bagged before anthesis, hand-pollinated with viable pollen. Treatment: flowers bagged, no pollination (or pollinated with dead pollen). Measure: fruit set %, fruit length, weight, seed count at maturity. If treatment sets seedless fruits comparable to control → facultative parthenocarpy. Poor answer (no control, no replication) reveals inability to design controlled biological experiments — a NEET practical skill gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

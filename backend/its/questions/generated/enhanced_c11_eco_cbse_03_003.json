@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_003",
+   "title": "c11_eco_cbse_03_003",
+   "questions": [
+    {
+     "q": "List the four regulatory mechanisms that characterised the pre-1991 industrial sector in India as described in the NCERT textbook.",
+     "a": "The four mechanisms were: (i) industrial licensing for starting/closing firms and deciding output, (ii) private sector barred from many industries, (iii) certain goods reserved exclusively for small-scale industries, (iv) government controls on price fixation and distribution of selected industrial products. A wrong answer (e.g., mentioning only licensing) reveals the student has not internalised the multi-dimensional nature of the pre-reform regulatory architecture — they see one tool instead of a system of controls.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the government retain industrial licensing for alcohol, cigarettes, hazardous chemicals, industrial explosives, electronics, aerospace, and drugs & pharmaceuticals after 1991? Explain the economic rationale for each category.",
+     "a": "Licensing was retained for: (a) alcohol & cigarettes — demerit goods with negative externalities (health costs), requiring quantity control; (b) hazardous chemicals & industrial explosives — public safety and environmental risks needing strict monitoring; (c) electronics & aerospace — strategic sectors with defence implications and technology sensitivity; (d) drugs & pharmaceuticals — public health criticality, quality assurance, and price affordability concerns. A wrong answer that says \"these are profitable sectors\" reveals a confusion between economic rationale (market failure/strategic interest) and commercial viability — the student is applying a profit motive where the state acts to correct externalities or protect security.",
+     "self_check": true
+    },
+    {
+     "q": "Using the NCERT Table 3.1 data, calculate the average annual industrial growth rate for the periods 1980-91 and 1992-2001. Then explain why the growth rate decreased despite liberalisation.",
+     "a": "Step 1: Identify industrial growth rates from Table 3.1: 1980-91 = 7.1%, 1992-2001 = 6.5%. Step 2: Compute average (already given as period averages). Step 3: The decline from 7.1% to 6.5% occurred because: (i) cheaper imports replaced domestic demand (import liberalisation), (ii) inadequate infrastructure investment (power, transport) raised production costs, (iii) global competition exposed inefficiencies of protected firms, (iv) cyclical downturn in early 1990s. A wrong answer that claims \"liberalisation always raises growth immediately\" reveals a misunderstanding of transition costs — the student ignores the J-curve effect where restructuring, competitive shakeout, and infrastructure gaps cause short-term slowdown before efficiency gains materialise.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-1991 and post-1991 industrial policy on the dimension of \"firm size and scale\". How did dereservation of SSI goods affect economies of scale and market structure?",
+     "a": "Pre-1991: Many goods (e.g., garments, toys, leather products) reserved for SSI — firms legally prevented from expanding beyond investment limits, forcing artificial smallness and preventing economies of scale. Post-1991: Progressive dereservation (e.g., 2005: 500+ items dereserved) allowed firms to grow, adopt modern technology, achieve minimum efficient scale, and compete globally. Market structure shifted from fragmented small firms to more consolidated, scale-efficient units — but also caused displacement of traditional SSI units unable to upgrade. A wrong answer focusing only on \"employment loss in SSI\" reveals a static view — the student misses the dynamic trade-off: short-term dislocation vs long-term productivity and export competitiveness (e.g., India's garment exports surged post-dereservation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Abolition of industrial licensing was sufficient to create a competitive industrial sector in India.\" Use evidence from the NCERT text on infrastructure, import competition, and market access.",
+     "a": "The statement is false. Licensing removal was necessary but not sufficient. NCERT highlights: (i) Infrastructure inadequacy (power, transport) persisted due to low investment — raising costs for domestic firms, (ii) Cheaper imports flooded the market (quantitative restrictions removed, tariffs reduced) — domestic demand shifted to foreign goods, (iii) Developed countries maintained non-tariff barriers (e.g., USA quota on Indian textiles) — Indian firms couldn't access foreign markets symmetrically. Thus, domestic firms faced \"competition without competitiveness\" — exposed to imports but lacking infrastructure and market access to compete globally. A wrong answer that says \"yes, licensing removal created competition\" reveals a one-reform fallacy — the student treats a single policy lever as a magic bullet, ignoring complementary reforms needed in infrastructure, trade symmetry, and factor markets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy brief for a state government that wants to attract manufacturing investment in 2024. Incorporate three lessons from India's 1991 industrial licensing abolition and two caveats from the post-reform experience.",
+     "a": "Lessons: (1) Remove entry permits — replace with simple registration/online single-window clearance. (2) Allow market-determined prices — no state price controls on outputs. (3) Open to private/foreign capital — no sectoral bans except strategic. Caveats: (1) Pair deregulation with parallel infrastructure investment (power, logistics, water) — otherwise firms face high operating costs. (2) Ensure trade policy symmetry — if you open to imports, negotiate market access for exports; otherwise local firms get squeezed. A poor answer that copies 1991 measures verbatim without adapting to 2024 context (e.g., ignoring environmental clearances, labour codes, digital infrastructure) reveals inability to transfer principles across time — the student memorises history but cannot apply institutional economics to new settings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

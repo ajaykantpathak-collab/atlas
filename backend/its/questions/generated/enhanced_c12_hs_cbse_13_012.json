@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_012",
+   "title": "c12_hs_cbse_13_012",
+   "questions": [
+    {
+     "q": "Define \"green consumerism\" in one sentence and name two eco-labels recognized in India that a green consumer would look for on a product.",
+     "a": "Green consumerism is the practice of choosing products based on their minimal environmental impact across the entire life cycle. Two recognized eco-labels in India are the **Eco-mark** (issued by BIS) and **BEE Star Rating** (for energy efficiency).  \nA wrong answer (e.g., \"buying green-colored products\" or naming \"ISO 9001\") reveals the student confuses green consumerism with superficial attributes or quality management standards, not environmental criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"reduce\" is placed before \"reuse\" and \"recycle\" in the 3R hierarchy, using the concept of life cycle impact.",
+     "a": "\"Reduce\" is highest because it prevents resource extraction, manufacturing energy, transportation emissions, and waste generation at the source. Reuse extends product life but still required initial production. Recycling recovers materials but consumes energy and water in reprocessing.  \nA wrong answer (e.g., \"recycle is best because it makes new things\") shows the student thinks downstream waste management outweighs upstream prevention — a common misconception from focusing only on visible waste, not hidden life cycle burdens.",
+     "self_check": true
+    },
+    {
+     "q": "A family replaces ten 60W incandescent bulbs (used 5 hours/day) with 9W LED bulbs. Electricity costs ₹7/kWh. Calculate the annual monetary savings and the reduction in CO₂ emissions if the grid emission factor is 0.82 kg CO₂/kWh. Show steps.",
+     "a": "**Step 1:** Power saved per bulb = 60W – 9W = 51W = 0.051 kW.  \n**Step 2:** Daily energy saved per bulb = 0.051 kW × 5 h = 0.255 kWh.  \n**Step 3:** Annual energy saved per bulb = 0.255 × 365 = 93.075 kWh.  \n**Step 4:** Total annual energy saved for 10 bulbs = 930.75 kWh.  \n**Step 5:** Monetary savings = 930.75 × ₹7 = **₹6,515.25**.  \n**Step 6:** CO₂ reduction = 930.75 kWh × 0.82 kg CO₂/kWh = **763.2 kg CO₂/year**.  \nA wrong answer (e.g., forgetting to convert watts to kilowatts, or using 60W instead of 51W) reveals unit conversion errors or misunderstanding that savings come from the *difference* in wattage, not the LED wattage alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Eco-mark (India) and Energy Star (international) labels on these criteria: (a) scope of products covered, (b) certification process, (c) consumer recognition. Which would you trust more for a refrigerator? Justify.",
+     "a": "**Eco-mark:** Covers a wide range (soaps, detergents, paper, paints, etc.), certified by BIS after testing against Indian standards, moderate consumer awareness.  \n**Energy Star:** Focused on energy-consuming products (appliances, electronics, buildings), certified by third-party testing against international benchmarks, high global recognition.  \n**For a refrigerator:** Energy Star is more trustworthy because it specifically targets energy efficiency — the dominant life cycle impact of a fridge — and uses rigorous, globally harmonized testing. Eco-mark may include energy criteria but is broader and less specialized.  \nA wrong answer (e.g., \"Eco-mark is better because it's Indian\") shows nationalistic bias overriding evidence-based label evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Buying organic cotton T-shirts shipped from overseas is always more sustainable than buying conventional cotton T-shirts made locally.\" Use life cycle thinking.",
+     "a": "The statement is **not always true**. Organic cotton avoids synthetic pesticides/fertilizers (reducing soil/water toxicity), but long-distance shipping adds significant transport emissions. Local conventional cotton may have higher farm-level impacts but near-zero transport footprint. A full life cycle comparison must weigh: farming practices, processing energy, transport mode/distance, durability, and end-of-life. Without data, \"always\" is an overgeneralization.  \nA wrong answer (e.g., \"organic is always better\") reveals binary thinking — ignoring trade-offs between impact categories (toxicity vs. carbon) and system boundaries (cradle-to-gate vs. cradle-to-grave).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week \"Green Consumer Challenge\" for your household. Specify: (a) one measurable target per week, (b) the eco-label or criterion you will use to verify each change, (c) how you will track progress.",
+     "a": "**Week 1:** Replace all single-use plastic bags with reusable cloth bags. *Criterion:* No plastic bags enter home. *Tracking:* Count plastic bags refused at checkout.  \n**Week 2:** Switch to BEE 5-star rated appliances for any new purchase. *Criterion:* BEE label on product. *Tracking:* Photograph labels of new items.  \n**Week 3:** Buy only FSC-certified paper/products. *Criterion:* FSC logo on packaging. *Tracking:* Log purchases with/without FSC.  \n**Week 4:** Reduce food waste by 50% vs. baseline. *Criterion:* Measured compost/landfill weight. *Tracking:* Weigh food waste daily.  \nA poor answer (vague targets like \"be more eco-friendly\") shows inability to translate principles into specific, verifiable, time-bound actions — a key gap in moving from awareness to practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

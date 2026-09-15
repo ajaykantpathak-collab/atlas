@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_09_011",
+   "title": "c11_eng_w_cbse_09_011",
+   "questions": [
+    {
+     "q": "Identify the tense and mood of the verb phrase \"have to sit\" in the line \"you have to sit in the veranda\". Explain in one sentence what grammatical structure this is.",
+     "a": "The verb phrase \"have to sit\" is in the present tense, semi-modal structure expressing external obligation (modal verb phrase). A wrong answer (e.g., \"past tense\" or \"imperative mood\") reveals the student cannot distinguish semi-modals from full modals or main verbs, and misses that the poem uses an instruction framed as necessity, not a direct command.",
+     "self_check": true
+    },
+    {
+     "q": "The poem shifts from \"His loud sharp call / seems to come from nowhere\" (descriptive present) to \"The moment you begin to live / inside the book / A blue shadow will fall over you\" (conditional future). Explain in your own words *why* the poet shifts from present simple to a future-in-conditional structure here.",
+     "a": "The shift moves the poem from observing the peacock's *actual* behaviour to prescribing the *conditions* for seeing it — the future \"will fall\" inside a time clause (\"The moment you begin...\") creates a cause-effect ritual: the reader's absorption in the book *triggers* the peacock's appearance. A wrong answer (e.g., \"just describing what happens next\") shows the student misses the grammatical encoding of the poem's central paradox: the peacock appears only when you stop looking for it.",
+     "self_check": true
+    },
+    {
+     "q": "In the lines \"The wind will change direction, / The steady hum of bees / In the bushes nearby / will stop\", identify the subject-verb agreement pattern and the function of the prepositional phrase \"In the bushes nearby\". Then rewrite the second sentence changing \"will stop\" to present simple (\"stops\") and explain how the meaning changes.",
+     "a": "Subjects: \"The wind\" (singular) + \"will change\"; \"The steady hum of bees\" (singular head noun \"hum\") + \"will stop\". \"In the bushes nearby\" is a prepositional phrase functioning as an adverbial of place modifying \"hum\". Changing to \"stops\" makes it a timeless fact/habitual action, destroying the poem's prophetic, ritualistic future — the peacock's arrival becomes a regular nature event, not a magical consequence of the reader's concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the use of articles in \"a flash of turquoise\" vs \"the pipal tree\" vs \"a book\" vs \"the veranda\". Why does the poet use indefinite article for \"flash\" and \"book\" but definite for \"pipal tree\" and \"veranda\"? Connect this to the theme of the known vs the unknown.",
+     "a": "\"a flash\" and \"a book\" introduce new, non-specific entities (any flash, any favourite book) — the peacock's appearance and the reader's activity are initially open possibilities. \"the pipal tree\" and \"the veranda\" assume shared knowledge/definite location — the setting is fixed and familiar. This article contrast grammatically enacts the poem's core tension: the known, domestic space (veranda, tree) waits for the unknown, wild intrusion (flash, bird). A wrong answer treating articles as random shows inability to link determiners to information structure and theme.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the ellipsis in the final two lines: \"It is the tail that has to blink / For eyes that are always open.\" Argue whether the omitted words (e.g., \"It is the tail that has to blink *for the eyes* that are always open\") strengthen or weaken the paradox. Support with grammatical reasoning.",
+     "a": "The ellipsis strengthens the paradox. The full version \"blink for the eyes\" suggests purpose/beneficiary; the elliptical \"blink / For eyes\" (line break + preposition fronting) forces \"For eyes\" to attach ambiguously to both \"blink\" (purpose) and \"tail\" (substitution: the tail blinks *instead of* eyes). This syntactic compression mirrors the visual fusion of tail-feathers and eye-spots. A student calling it \"just poetic shortening\" misses how grammar *creates* the metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza imitating the poem's grammatical pattern: (1) present simple observation, (2) imperative/semi-modal instruction, (3) time-clause conditional trigger, (4) future consequence with a paradoxical image. Use a different bird or animal.",
+     "a": "Example: \"The kingfisher dives / silent as a needle. / You must kneel by the bank / and wait without breath. / The instant the water forgets your shadow / A turquoise arrow will stitch the surface shut.\" Good answers replicate the tense/mood sequence exactly; poor answers use random tenses or miss the conditional-trigger structure, showing they haven't internalized the grammatical architecture as a meaning-making tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

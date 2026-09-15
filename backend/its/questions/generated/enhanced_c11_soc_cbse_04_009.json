@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_009",
+   "title": "c11_soc_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define \"sub-culture\" as per the NCERT glossary and give one concrete example from an Indian urban context that illustrates the definition's key verbs (borrow, distort, exaggerate, invert).",
+     "a": "A sub-culture is a group within a larger culture that borrows from and often distorts, exaggerates, or inverts the symbols, values, and beliefs of the larger culture to distinguish itself. Example: Mumbai's \"local train gamers\" — young commuters who play mobile games (borrowed from global gaming culture) but develop exaggerated thumb-speed rituals, invent distorted slang (\"full clear\" for winning), and invert the norm of silent travel by loudly celebrating wins, creating a distinct identity recognized by other commuters. A wrong answer that merely lists \"a group with different clothes\" reveals the student misses the *systematic symbolic reworking* central to the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the textbook states: \"Identities are not inherited but fashioned both by the individual and the group through their relationship with others.\" Use the concept of \"recognition\" to show why a sub-culture cannot exist in isolation.",
+     "a": "Identity requires *recognition* — a sub-culture's codes (dress, slang, rituals) only function as identity markers when *others* (both insiders and outsiders) decode them as \"belonging to Group X.\" If a group invents a secret handshake but no one outside recognizes it as distinctive, it remains a private habit, not a sub-cultural identity. The \"relationship with others\" provides the mirror: the dominant culture's norms are the raw material; the sub-culture reshapes them; the dominant culture's reaction (confusion, admiration, hostility) confirms the boundary. A wrong answer focusing only on \"internal bonding\" misses the *dialogic* nature of identity formation — the group defines itself *against* a background of others.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following scenario using the three dimensions of culture (cognitive, normative, material): A group of Delhi University students forms a \"Poetry Slam Collective.\" They meet weekly at a café, use Instagram Reels to share performances, have a rule that everyone must clap in a specific rhythm (snaps instead of applause), and wear thrifted kurtas with slogan badges. Identify one element for each dimension and explain how *together* they produce a sub-cultural identity distinct from both mainstream campus culture and traditional literary circles.",
+     "a": "Cognitive: The collective redefines \"poetry\" as performative, political, and meme-aware (vs. academic/textual). Normative: The snapping rule replaces conventional applause, creating an embodied norm that signals insider status. Material: Thrifted kurtas + badges + smartphones for Reels form a material assemblage that fuses anti-consumerist aesthetics with digital reach. Together, they invert the dominant \"high culture\" literary norm (cognitive), replace polite applause with a coded somatic response (normative), and repurpose old clothes + new tech to materially enact a \"vernacular modernity\" identity. A wrong answer listing elements without showing *systemic interplay* treats dimensions as separate checklists rather than an integrated identity-producing machine.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how \"ethnocentrism\" and \"cosmopolitanism\" (from nodes c11_soc_cbse_04_006 and c11_soc_cbse_04_007) would evaluate the same sub-cultural group (e.g., a Hip-Hop crew in a Tier-2 Indian city using English lyrics, local dialect, and breakdancing). What does each perspective miss about the group's identity work?",
+     "a": "Ethnocentrism (e.g., local elders) evaluates the crew by traditional norms: \"vulgar English,\" \"disrespectful body movements,\" \"Western corruption\" — missing the crew's *indigenization* of Hip-Hop to articulate local caste/class struggles. Cosmopolitanism (e.g., cultural festival curators) celebrates the \"fusion\" and \"global-local dialogue\" — missing the crew's *strategic inversion* of dominant cultural capital (they use English not to mimic the West but to bypass Hindi literary gatekeepers). Both perspectives impose external frames: ethnocentrism denies agency; cosmopolitanism romanticizes hybridity. The group's identity work lies precisely in the *tension* between these readings. A wrong answer that says \"ethnocentrism is bad, cosmopolitanism is good\" fails to analyze how *both* obscure the group's own meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Social media algorithms destroy authentic sub-cultural identity formation by forcing all groups into the same viral templates.\" Defend your position using the textbook's concepts of cultural change (evolutionary vs. revolutionary) and the glossary definition of sub-culture.",
+     "a": "The claim is partially true but sociologically incomplete. Algorithms *do* impose homogenizing templates (evolutionary pressure toward platform-friendly formats), but sub-cultures historically survive by *distorting* dominant forms — today, that means weaponizing the algorithm: using trending audio to deliver counter-narratives, exploiting \"duet\" features for collective inside jokes, or creating \"alt\" accounts to evade surveillance. This is *revolutionary* cultural change: the meaning system (resistance, identity) radically shifts while the material form (Reels, TikTok) appears continuous. The glossary's verbs — \"borrow, distort, exaggerate, invert\" — describe exactly what algorithmic-era sub-cultures do *to* the platform. A wrong answer that simply agrees (\"algorithms kill authenticity\") treats culture as static essence rather than dynamic practice; a wrong answer that disagrees (\"sub-cultures always adapt\") ignores the real power asymmetry of platform capitalism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-ethnographic observation plan (3 steps) to study a sub-cultural group in your neighborhood (e.g., early-morning park yoga group, evening street-food vendors' adda, weekend cycling club). Your plan must specify: (a) which cultural dimensions you will record, (b) how you will identify the \"borrow/distort/exaggerate/invert\" operations, and (c) how you will verify that the group *recognizes itself* as distinct.",
+     "a": "Step 1 (Dimensions): Conduct 3 visits at different times; record field notes on: Cognitive — shared vocabulary/jokes; Normative — unwritten rules (seating order, turn-taking); Material — objects (yoga mats, cycles, specific tea glasses). Step 2 (Symbolic operations): For each recorded element, trace its origin in wider culture (e.g., \"Surya Namaskar\" from traditional yoga) and document the group's modification (e.g., \"we do 108 rounds *only* on Sundays, with a specific playlist\"). Code each as borrow/distort/exaggerate/invert. Step 3 (Recognition test): Ask 2 members: \"How would you explain this group to an outsider?\" and \"What would make someone *not* belong?\" — their answers reveal the emic boundary. A poor plan that only \"observes and takes photos\" misses the analytical decoding of symbolic work and the verification of intersubjective recognition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

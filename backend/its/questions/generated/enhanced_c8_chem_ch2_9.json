@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_9",
+   "title": "c8_chem_ch2_9",
+   "questions": [
+    {
+     "q": "Which state of matter possesses the largest inter-particle space among solids, liquids, and gases?",
+     "a": "Gases possess the largest inter-particle space. If a student answers \"solids\" or \"liquids,\" it reveals a fundamental confusion between density and inter-particle distance, or a failure to recall that gas particles are widely separated and free to move throughout their container.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a gas be easily compressed into a much smaller volume, while a liquid cannot be compressed under normal conditions?",
+     "a": "A gas has very large inter-particle spaces, meaning its particles can be pushed closer together when pressure is applied. Liquids have very small inter-particle spaces (almost touching), so applying pressure cannot force the particles any closer. A wrong answer often claims that liquid particles disappear or melt, showing a lack of understanding of particle permanence and spatial limitations.",
+     "self_check": true
+    },
+    {
+     "q": "A closed 1-litre cylinder contains 50 g of oxygen gas. If this entire gas is transferred into a larger 2-litre cylinder without changing the temperature, what happens to the average inter-particle space between the oxygen molecules?",
+     "a": "Steps: \n1. Identify that the gas occupies the entire volume of its container.\n2. Note the initial volume (1 L) and final volume (2 L).\n3. Recognize that gas particles spread out to evenly fill the available space.\n4. Conclude that increasing the container volume increases the average distance between individual gas particles.\nTherefore, the average inter-particle space increases. A wrong answer stating the space remains constant indicates the misconception that gas particles remain clustered in one corner or do not expand to fill volumes.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why water can take the shape of any container it is poured into (glass, bowl, bottle), yet maintains a constant volume, whereas a brick (solid) maintains both a fixed shape and a fixed volume.",
+     "a": "Liquids have moderate inter-particle spaces that allow particles to slide past one another (granting fluidity and variable shape), but these spaces are still small enough to prevent particles from escaping each other (maintaining constant volume). Solids have negligible inter-particle space and rigid binding, locking particles into fixed positions. A wrong answer suggests liquids have huge gaps like gases, ignoring why liquids do not spontaneously expand into the room.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"When ice melts into liquid water, the water molecules expand in size, which creates more space between them.\" Is this chemically accurate?",
+     "a": "The statement is incorrect. The individual water molecules ($H_2O$) do not expand in size during melting. Instead, thermal energy causes particles to vibrate and move slightly further apart, slightly increasing the inter-particle space (though for water, ice has an open cage-like structure that actually collapses slightly upon melting, but generally melting involves increasing average inter-particle distance or freedom of movement). A wrong answer assumes phase changes alter the physical size of individual molecules rather than their spacing and arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using common kitchen items (such as sugar and a glass of water) to demonstrate that liquids contain inter-particle spaces that can accommodate other soluble particles without significantly changing the total volume.",
+     "a": "A good answer proposes filling a glass to the brim with water, carefully adding a few spoonfuls of sugar, and observing that the water level does not overflow immediately because the sugar particles fit into the empty inter-particle spaces between water molecules. A poor answer fails to connect the dissolution process to microscopic empty spaces, suggesting magic or that sugar vanishes without taking up space.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

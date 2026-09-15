@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_008",
+   "title": "c10_math_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the Division Algorithm for polynomials in your own words, including the condition on the remainder.",
+     "a": "The Division Algorithm: For polynomials \\( p(x) \\) and \\( g(x) \\neq 0 \\), there exist unique polynomials \\( q(x) \\) and \\( r(x) \\) such that \\( p(x) = g(x)q(x) + r(x) \\), where \\( r(x) = 0 \\) or \\( \\deg r(x) < \\deg g(x) \\). A wrong answer (e.g., missing the degree condition, saying remainder is always zero, or confusing dividend/divisor) reveals the student has memorised a formula without understanding the structural guarantee that the remainder must be \"smaller\" than the divisor — a critical concept for checking work in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we write the dividend and divisor in descending order of powers and include zero coefficients for missing terms before starting long division? Explain with an example where skipping this step leads to an error.",
+     "a": "Descending order aligns like-degree terms vertically so that subtraction cancels the correct leading term at each step. Zero coefficients act as placeholders to keep columns aligned. Example: Dividing \\( x^3 + 1 \\) by \\( x + 1 \\) without writing \\( 0x^2 + 0x \\) leads to misalignment: a student might subtract \\( x^2 \\) from nothing, getting wrong quotient \\( x^2 \\) instead of \\( x^2 - x + 1 \\). A wrong answer shows the student treats division as a mechanical symbol-pushing exercise without grasping the place-value logic (extending from integer division in Class 6).",
+     "self_check": true
+    },
+    {
+     "q": "Divide \\( 3x^3 - 5x^2 + 10x - 3 \\) by \\( 3x - 1 \\) using long division. Show all steps and verify your answer.",
+     "a": "**Step 1:** Divide leading terms: \\( 3x^3 \\div 3x = x^2 \\). Quotient starts with \\( x^2 \\).  \n**Step 2:** Multiply divisor by \\( x^2 \\): \\( (3x-1)x^2 = 3x^3 - x^2 \\).  \n**Step 3:** Subtract from dividend: \\( (3x^3 - 5x^2) - (3x^3 - x^2) = -4x^2 \\). Bring down \\( +10x \\).  \n**Step 4:** Divide new leading term: \\( -4x^2 \\div 3x = -\\frac{4}{3}x \\). Add to quotient.  \n**Step 5:** Multiply: \\( (3x-1)(-\\frac{4}{3}x) = -4x^2 + \\frac{4}{3}x \\).  \n**Step 6:** Subtract: \\( (-4x^2 + 10x) - (-4x^2 + \\frac{4}{3}x) = \\frac{26}{3}x \\). Bring down \\( -3 \\).  \n**Step 7:** Divide: \\( \\frac{26}{3}x \\div 3x = \\frac{26}{9} \\). Add to quotient.  \n**Step 8:** Multiply: \\( (3x-1)\\frac{26}{9} = \\frac{26}{3}x - \\frac{26}{9} \\).  \n**Step 9:** Subtract: \\( (\\frac{26}{3}x - 3) - (\\frac{26}{3}x - \\frac{26}{9}) = -3 + \\frac{26}{9} = -\\frac{1}{9} \\).  \nQuotient \\( = x^2 - \\frac{4}{3}x + \\frac{26}{9} \\), Remainder \\( = -\\frac{1}{9} \\).  \nVerification: \\( (3x-1)(x^2 - \\frac{4}{3}x + \\frac{26}{9}) - \\frac{1}{9} = 3x^3 - 5x^2 + 10x - 3 \\).  \nA wrong answer (e.g., forgetting to bring down terms, sign errors in subtraction, or stopping early) reveals procedural gaps in handling fractional coefficients — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long division of \\( p(x) = x^4 - 1 \\) by \\( g(x) = x^2 - 1 \\) with the factorisation \\( x^4 - 1 = (x^2-1)(x^2+1) \\). What does the remainder tell you about the relationship between the zeros of the divisor and the dividend?",
+     "a": "Long division gives quotient \\( x^2 + 1 \\), remainder \\( 0 \\). The zero remainder means \\( g(x) \\) is a factor of \\( p(x) \\), so every zero of \\( g(x) \\) (i.e., \\( x = \\pm 1 \\)) is also a zero of \\( p(x) \\). Factorisation confirms this. A wrong answer (e.g., saying remainder is non-zero, or not connecting remainder to factor theorem) reveals the student sees division and factorisation as isolated procedures rather than inverse operations — a conceptual gap that costs marks in competency questions linking zeros, factors, and division.",
+     "self_check": true
+    },
+    {
+     "q": "A student divides \\( 2x^3 + 3x^2 - 5x + 6 \\) by \\( x + 2 \\) and gets quotient \\( 2x^2 - x - 3 \\) and remainder \\( 0 \\). Without redoing the division, how can you quickly check if this is correct? If it's wrong, identify the likely error.",
+     "a": "Use the Remainder Theorem: evaluate \\( p(-2) \\). \\( p(-2) = 2(-8) + 3(4) - 5(-2) + 6 = -16 + 12 + 10 + 6 = 12 \\neq 0 \\). So remainder cannot be 0; the student's answer is wrong. Likely error: sign mistake in subtraction step when multiplying \\( (x+2) \\) by \\( -x \\) (getting \\( -x^2 - 2x \\) instead of \\( -x^2 - 2x \\)? Actually careful check: \\( (x+2)(2x^2 - x - 3) = 2x^3 - x^2 - 3x + 4x^2 - 2x - 6 = 2x^3 + 3x^2 - 5x - 6 \\), constant term is -6 not +6. The student probably lost the sign on the constant term during multiplication. A wrong answer (e.g., suggesting plugging x=2 instead of -2, or not knowing the Remainder Theorem) shows the student lacks verification strategies expected in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a polynomial division problem where the divisor is quadratic, the dividend is degree 4 with a missing \\( x^3 \\) term, and the remainder is linear. Provide the dividend, divisor, quotient, and remainder — then write the verification equation.",
+     "a": "Example: Dividend \\( p(x) = x^4 + 0x^3 - 5x^2 + 4x + 2 \\), Divisor \\( g(x) = x^2 - 2 \\).  \nQuotient \\( q(x) = x^2 - 3 \\), Remainder \\( r(x) = 4x - 4 \\).  \nVerification: \\( (x^2 - 2)(x^2 - 3) + (4x - 4) = x^4 - 3x^2 - 2x^2 + 6 + 4x - 4 = x^4 - 5x^2 + 4x + 2 = p(x) \\).  \nA poor answer (e.g., remainder degree ≥ 2, missing zero placeholder, or verification not matching) reveals the student cannot construct problems meeting degree constraints — indicating they don't truly understand the degree condition's role in the algorithm's design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

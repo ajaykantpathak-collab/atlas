@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_003",
+   "title": "c12_geo_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define nomadic herding and state two regions where it is traditionally practiced.",
+     "a": "Nomadic herding is a subsistence pastoral system where herders move cyclically with their livestock in search of natural pasture and water, with no fixed settlement. Traditional regions include the Sahel belt in Africa (e.g., Mauritania, Niger) and Central Asian steppes (e.g., Mongolia, Kazakhstan). A wrong answer that describes fixed farms or market-oriented production reveals confusion with commercial livestock rearing; omitting mobility indicates misunderstanding of the core adaptive strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why commercial livestock rearing develops in temperate grasslands rather than in tropical grasslands.",
+     "a": "Commercial livestock rearing thrives in temperate grasslands (e.g., Pampas, Prairies, Downs) because these regions have nutritious grasses, moderate climate allowing year-round grazing with supplementary feed, and proximity to large urban markets in developed countries. Tropical grasslands (e.g., savannas) often have lower nutritional grass, higher disease prevalence (tsetse fly), and less developed transport/market infrastructure. A wrong answer that cites only \"flat land\" or \"low population\" misses the specific climatic, vegetative, and economic factors.",
+     "self_check": true
+    },
+    {
+     "q": "A pastoral community in Rajasthan moves its 500 sheep between summer pastures in the Aravalli hills (elevation 1,200 m) and winter pastures in the Thar Desert plains (elevation 200 m). If the temperature lapse rate is 6.5°C per 1,000 m, calculate the approximate temperature difference between the two pastures and explain how this influences their migration timing.",
+     "a": "Elevation difference = 1,000 m. Temperature difference = 6.5°C. Summer pastures are cooler by ~6.5°C. Herders move to hills in summer to avoid heat stress on livestock and to plains in winter for milder temperatures. A wrong answer that ignores the lapse rate or misapplies it (e.g., using 1°C/100m) shows weak grasp of physical geography principles applied to pastoral decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of nomadic herding and commercial livestock rearing on grassland ecosystems.",
+     "a": "Nomadic herding, with low stocking densities and rotational mobility, generally allows pasture recovery and maintains biodiversity; overgrazing occurs only when mobility is restricted. Commercial livestock rearing, with high stocking densities, fenced ranches, and year-round grazing, often leads to soil compaction, grassland degradation, and water pollution from concentrated waste. A wrong answer that claims both are equally destructive or that nomadic herding is always sustainable ignores the role of mobility and scale.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government policies promoting sedentarization of nomadic herders always improve their livelihoods and reduce environmental degradation.\"",
+     "a": "The statement is false. Sedentarization often disrupts adaptive mobility, leads to overgrazing around fixed settlements, reduces herd diversity, and erodes traditional knowledge, worsening both livelihoods and degradation. Successful policies instead secure migratory routes, provide mobile veterinary services, and integrate pastoralists into markets without forcing settlement. A wrong answer that agrees reveals a lack of critical evaluation of development interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a seasonal migration calendar for a nomadic herding group in the western Himalayas, indicating months, elevation zones, dominant vegetation, and key decision points (e.g., when to move based on snowmelt or grass growth).",
+     "a": "A good answer includes: April–June: subalpine meadows (3,000–4,000 m), alpine grasses, move up after snowmelt; July–August: high alpine pastures (>4,000 m), nutritious sedges, stay until frost; September–October: descend to temperate zone (2,000–3,000 m), broadleaf forest edges, prepare for winter; November–March: subtropical foothills (500–1,500 m), dry grass and crop residues, rely on stored fodder. Decision points: snowmelt timing, grass flowering, first frost. A poor answer lacks elevation-specific vegetation or fixed calendar ignoring interannual climate variability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

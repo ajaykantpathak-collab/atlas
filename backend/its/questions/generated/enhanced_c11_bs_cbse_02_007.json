@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_007",
+   "title": "c11_bs_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the principle that governs voting rights in a cooperative society and explain how it differs from voting in a joint stock company.",
+     "a": "The principle is 'one member, one vote' regardless of capital contribution. In a joint stock company, voting rights are proportional to shareholding (one share, one vote). A wrong answer (e.g., \"voting based on capital contribution\") reveals the student confuses cooperative democracy with company plutocracy and hasn't grasped that cooperatives prioritise human equality over capital power.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 50 small farmers in a village pool their land to cultivate jointly, share modern equipment, and sell the harvest collectively. They register as a cooperative society. Identify the type of cooperative society and explain why it is NOT a marketing cooperative society.",
+     "a": "This is a Farmer's Cooperative Society because members are farmers who jointly undertake farming activities to gain benefits of large-scale farming. It is not a marketing cooperative because marketing cooperatives only pool output for sale — they don't jointly cultivate or share production inputs. A wrong answer (e.g., \"marketing cooperative\") reveals the student focuses only on the selling aspect and misses that farmer cooperatives integrate production AND marketing, while marketing cooperatives only handle post-harvest functions.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan wants to start a cooperative society to provide low-interest loans to salaried employees in his city. He proposes that members contribute ₹1,000 monthly, and loans are given at 6% p.a. while banks charge 12%. List the type of cooperative society, and explain two features from the NCERT definition that make this structure suitable for his purpose.",
+     "a": "Type: Credit Cooperative Society. Features: (1) Limited liability — members risk only their capital contribution, protecting personal assets if the society fails. (2) Service motive — surplus is distributed as dividend per bye-laws, not maximised as profit, aligning with low-interest lending. A wrong answer (e.g., \"consumer cooperative\" or missing \"service motive\") reveals the student cannot match the society's purpose (credit access) to the correct type or doesn't understand that cooperatives exist for member welfare, not profit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a Producer's Cooperative Society and a Marketing Cooperative Society on the basis of: (a) member composition, (b) primary activity, (c) profit distribution basis. Present your answer in a table.",
+     "a": "| Basis | Producer's Cooperative | Marketing Cooperative |\n|-------|------------------------|----------------------|\n| Member composition | Small producers (artisans, manufacturers) | Producers (farmers, artisans) wanting to sell output |\n| Primary activity | Procure inputs, supply equipment, buy members' output for sale | Pool output, perform marketing functions (transport, warehousing, packaging), sell at best price |\n| Profit distribution | Based on contribution to total pool of goods produced/sold | Based on each member's contribution to pool of output |\nA wrong answer (e.g., swapping activities or same profit basis) reveals the student memorises definitions without understanding the functional difference: producer cooperatives integrate production support, marketing cooperatives specialise in post-production sale.",
+     "self_check": true
+    },
+    {
+     "q": "\"Cooperative societies enjoy government support in the form of low taxes and subsidies, yet they often suffer from inefficiency in management.\" Evaluate this statement by explaining why government support does not automatically translate into efficient management, using two specific limitations from the NCERT text.",
+     "a": "Government support addresses financial constraints (low taxes, subsidised loans) but cannot fix structural limitations: (1) Honorary services by members — unpaid volunteers lack professional management skills, leading to operational inefficiency. (2) Government control via auditing and regulatory compliance — bureaucratic interference reduces operational freedom and delays decisions. A wrong answer (e.g., \"government support causes inefficiency\" or listing unrelated limitations) reveals the student cannot distinguish between financial support and managerial capability, or confuses correlation with causation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cooperative society for a group of 30 women artisans in a rural village who make handcrafted textiles. They face three problems: (1) no access to quality raw materials at fair prices, (2) no direct market access — middlemen pay them very little, (3) no working capital for bulk orders. Specify the type(s) of cooperative society you would recommend, and for each problem, explain which cooperative function solves it.",
+     "a": "Recommend a **Producer's Cooperative Society** (integrates all three functions) OR a combination: Producer's (for raw material procurement and production support) + Marketing (for direct market access) + Credit (for working capital). Mapping: Problem 1 → Producer cooperative procures raw materials in bulk at wholesale prices. Problem 2 → Marketing cooperative pools output, handles packaging/transport, sells directly to retailers/exporters. Problem 3 → Credit cooperative provides low-interest loans from member deposits. A poor answer (e.g., only \"consumer cooperative\" or no problem-function mapping) reveals the student cannot synthesise multiple cooperative types to solve a real-world multi-problem scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

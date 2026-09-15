@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_002",
+   "title": "c12_eco_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define the three central problems of an economy and state which scarce resource each problem primarily concerns.",
+     "a": "The three central problems are: (1) **What to produce** — concerns allocation of **land and capital** among alternative goods; (2) **How to produce** — concerns choice of technique, i.e., combination of **labour and capital**; (3) **For whom to produce** — concerns distribution of output, determined by ownership of **factors of production** (land → rent, labour → wages, capital → interest, entrepreneurship → profit). A wrong answer that lists only \"money\" or \"resources\" without linking each problem to specific factors reveals the student has memorised the names but not the underlying factor-income connection.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the problem \"For whom to produce\" not disappear in a market economy even though prices allocate goods? Explain using the concept of factor ownership.",
+     "a": "In a market economy, goods go to those who can pay the market price. But the ability to pay depends on **factor incomes** (wages, rent, interest, profit) which are determined by the **ownership of scarce factors**. Households with more land/capital/skills earn higher factor incomes and thus command more output. The market allocates goods to *effective demand* (backed by purchasing power), not to *need*. A student who says \"market solves it because prices ration goods\" misses that the distribution of purchasing power itself is a result of the **For whom** problem — it is not automatically fair or efficient.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat has 100 hectares of irrigated land. It can allocate the land to either wheat (yield 4 tonnes/hectare, requires 2 labourers/hectare) or cotton (yield 2 tonnes/hectare, requires 5 labourers/hectare). The village has 300 labourers available. If the panchayat wants to maximise total output in tonnes, how many hectares should be allocated to each crop? Show the steps.",
+     "a": "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of cotton. Constraints: \\(x + y = 100\\) (land), \\(2x + 5y \\le 300\\) (labour). Objective: maximise \\(Z = 4x + 2y\\). Substitute \\(x = 100 - y\\): labour constraint → \\(2(100-y) + 5y \\le 300\\) → \\(200 + 3y \\le 300\\) → \\(y \\le 33.33\\). So max integer \\(y = 33\\), \\(x = 67\\). Output = \\(4(67) + 2(33) = 268 + 66 = 334\\) tonnes. If student ignores labour constraint and puts all land to wheat (400 tonnes), they violate the labour limit. If they ignore land constraint, they mis-specify the problem. This tests ability to translate **What** and **How** into a constrained optimisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a pure market economy, a pure planned economy, and India's mixed economy resolve the \"How to produce\" problem. Give one real Indian example for each.",
+     "a": "**Market economy**: Firms choose the cost-minimising technique based on relative factor prices (wage/rental rate). Example: A textile firm in Tamil Nadu adopts automated looms because capital is cheap relative to skilled labour. **Planned economy**: Central planning bureau assigns techniques based on social priorities (e.g., employment generation). Example: Soviet-style five-year plans mandating labour-intensive methods in agriculture. **Mixed economy (India)**: Government influences technique via subsidies (e.g., capital subsidy for MSMEs under PMEGP), labour laws (mandating certain labour standards), and public sector choices (e.g., Indian Railways using labour-intensive track maintenance). A student who says \"India is market so only prices decide\" ignores the role of MGNREGA (labour-intensive by design) or PLI schemes (capital-intensive by incentive).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a market economy, the 'For whom to produce' problem is solved efficiently because goods go to those who value them most.\" Use the concepts of willingness to pay vs ability to pay, and give an Indian context example.",
+     "a": "The statement confuses **willingness to pay** (marginal utility) with **ability to pay** (income). A poor farmer may value a life-saving drug more than a rich urbanite (higher marginal utility), but cannot pay the market price. Market allocates to *effective demand* (ability to pay), not *need*. Example: During COVID-19, oxygen concentrators were sold at high prices — they went to hospitals/wealthy families, not necessarily to the most critical patients in rural areas. Efficiency in economics (Pareto efficiency) does not guarantee equity. A student who agrees without qualification misses the normative dimension: markets solve *allocation* efficiently only under perfect competition and initial endowment fairness, which rarely hold.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple production plan for a school canteen that must decide: (a) What snacks to offer (samosas, sandwiches, fruit), (b) How to prepare them (in-house cooking vs outsourcing), (c) For whom (students, staff, or both). List the scarce resources, the decision criteria for each problem, and one trade-off for each.",
+     "a": "**Scarce resources**: Kitchen space, cooking staff time, budget (capital), raw materials, serving time.  \n(a) **What**: Criteria — student demand (survey), profit margin, nutrition guidelines. Trade-off: Samosas high demand but low nutrition; fruit high nutrition but low demand/perishable.  \n(b) **How**: Criteria — cost per unit, quality control, hygiene standards. Trade-off: In-house gives control but uses staff time; outsourcing saves labour but raises cost and reduces quality oversight.  \n(c) **For whom**: Criteria — affordability (subsidised for students), inclusivity (staff pay full price). Trade-off: Subsidising students reduces revenue; cross-subsidising from staff may cause resentment.  \nA poor answer lists only \"money\" as resource or ignores trade-offs. Good answer shows each problem involves a distinct choice with opportunity cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

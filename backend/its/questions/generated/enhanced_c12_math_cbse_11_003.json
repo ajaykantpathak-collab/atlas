@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_003",
+   "title": "c12_math_cbse_11_003",
+   "questions": [
+    {
+     "q": "State the formula for the cosine of the angle between two lines whose direction ratios are \\(a_1, b_1, c_1\\) and \\(a_2, b_2, c_2\\). Also state the condition for the lines to be perpendicular.",
+     "a": "The formula is \\(\\cos\\theta = \\frac{|a_1a_2 + b_1b_2 + c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\sqrt{a_2^2+b_2^2+c_2^2}}\\). The condition for perpendicular lines is \\(a_1a_2 + b_1b_2 + c_1c_2 = 0\\). A wrong answer (e.g., missing absolute value, using sum of squares in denominator incorrectly, or stating perpendicular condition as \\(\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}\\)) reveals confusion between the angle formula and the parallel condition, or forgetting that the angle is acute so cosine is positive.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\). A student writes \\(\\cos\\theta = l_1l_2 + m_1m_2 + n_1n_2\\) (without absolute value). Is this correct? Explain why or why not, and give a concrete example where omitting the absolute value gives a wrong angle.",
+     "a": "The student's formula is incorrect because the angle between two lines is defined as the acute angle (\\(0 \\le \\theta \\le 90^\\circ\\)), so \\(\\cos\\theta\\) must be non-negative. The dot product of direction cosines can be negative if the lines are oriented such that the angle between their direction vectors is obtuse; the absolute value ensures we get the acute angle. Example: line 1 has direction cosines \\((1,0,0)\\) (along +x axis), line 2 has direction cosines \\((-1,0,0)\\) (along -x axis). The lines are actually the same line but opposite directions; the angle between the lines is \\(0^\\circ\\). Without absolute value: \\(\\cos\\theta = -1 \\Rightarrow \\theta = 180^\\circ\\) (wrong). With absolute value: \\(\\cos\\theta = 1 \\Rightarrow \\theta = 0^\\circ\\) (correct).",
+     "self_check": true
+    },
+    {
+     "q": "Find the angle between the lines \\(\\frac{x-2}{3} = \\frac{y+1}{-4} = \\frac{z-5}{2}\\) and \\(\\frac{x}{1} = \\frac{y-3}{2} = \\frac{z+2}{-3}\\). Show all steps.",
+     "a": "Step 1: Extract direction ratios. Line 1: \\(a_1=3, b_1=-4, c_1=2\\). Line 2: \\(a_2=1, b_2=2, c_2=-3\\).\nStep 2: Compute dot product: \\(a_1a_2+b_1b_2+c_1c_2 = 3(1) + (-4)(2) + 2(-3) = 3 - 8 - 6 = -11\\).\nStep 3: Compute magnitudes: \\(\\sqrt{3^2+(-4)^2+2^2} = \\sqrt{9+16+4} = \\sqrt{29}\\); \\(\\sqrt{1^2+2^2+(-3)^2} = \\sqrt{1+4+9} = \\sqrt{14}\\).\nStep 4: \\(\\cos\\theta = \\frac{|-11|}{\\sqrt{29}\\sqrt{14}} = \\frac{11}{\\sqrt{406}}\\).\nStep 5: \\(\\theta = \\cos^{-1}\\left(\\frac{11}{\\sqrt{406}}\\right) \\approx \\cos^{-1}(0.546) \\approx 56.9^\\circ\\).\nA wrong answer often comes from forgetting the absolute value (giving \\(\\cos\\theta\\) negative), miscalculating the dot product signs, or arithmetic errors in the magnitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given in vector form: \\(\\vec{r} = (2\\hat{i} - \\hat{j} + 3\\hat{k}) + \\lambda(\\hat{i} + 2\\hat{j} - 2\\hat{k})\\) and \\(\\vec{r} = (-\\hat{i} + 4\\hat{k}) + \\mu(3\\hat{i} - 2\\hat{j} + 6\\hat{k})\\). Without calculating the exact angle, determine whether the lines are perpendicular, parallel, or neither. Justify your answer using the direction vectors.",
+     "a": "Direction vectors: \\(\\vec{b_1} = \\hat{i} + 2\\hat{j} - 2\\hat{k}\\) and \\(\\vec{b_2} = 3\\hat{i} - 2\\hat{j} + 6\\hat{k}\\).\nCheck perpendicular: \\(\\vec{b_1} \\cdot \\vec{b_2} = 1(3) + 2(-2) + (-2)(6) = 3 - 4 - 12 = -13 \\neq 0\\) → not perpendicular.\nCheck parallel: Ratios \\(\\frac{1}{3}, \\frac{2}{-2}=-1, \\frac{-2}{6}=-\\frac{1}{3}\\) are not equal → not parallel.\nTherefore, the lines are neither perpendicular nor parallel; they intersect at some angle (skew or intersecting). A wrong answer might incorrectly claim parallelism by comparing only two components, or claim perpendicularity by miscalculating the dot product.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the angle between lines with direction ratios \\((2, -1, 2)\\) and \\((1, 2, -2)\\) and gets \\(\\cos\\theta = \\frac{2(1) + (-1)(2) + 2(-2)}{\\sqrt{4+1+4}\\sqrt{1+4+4}} = \\frac{2-2-4}{3 \\times 3} = \\frac{-4}{9}\\), then writes \\(\\theta = \\cos^{-1}(-4/9) \\approx 116.4^\\circ\\). Identify the error and give the correct angle.",
+     "a": "The error: the student omitted the absolute value in the numerator. The formula requires \\(\\cos\\theta = \\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\dots}\\). The dot product is \\(-4\\), so the absolute value is \\(4\\). Correct \\(\\cos\\theta = \\frac{4}{9}\\), giving \\(\\theta = \\cos^{-1}(4/9) \\approx 63.6^\\circ\\) (acute). The student's answer \\(116.4^\\circ\\) is the obtuse angle between the direction vectors, not the angle between the lines. This is a very common mistake in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of lines in Cartesian form such that the angle between them is exactly \\(60^\\circ\\). Provide the equations and verify your answer.",
+     "a": "We need \\(\\cos 60^\\circ = \\frac{1}{2}\\). Choose simple direction ratios: let line 1 have \\((1,0,0)\\) (x-axis). For line 2, we need \\(\\frac{|1\\cdot a_2 + 0 + 0|}{\\sqrt{1}\\sqrt{a_2^2+b_2^2+c_2^2}} = \\frac{1}{2} \\Rightarrow \\frac{|a_2|}{\\sqrt{a_2^2+b_2^2+c_2^2}} = \\frac{1}{2}\\). Choose \\(a_2=1\\), then \\(\\sqrt{1+b_2^2+c_2^2}=2 \\Rightarrow b_2^2+c_2^2=3\\). Pick \\(b_2=\\sqrt{3}, c_2=0\\). So line 2 direction ratios \\((1, \\sqrt{3}, 0)\\). Equations: Line 1: \\(\\frac{x}{1}=\\frac{y}{0}=\\frac{z}{0}\\) (x-axis). Line 2: \\(\\frac{x}{1}=\\frac{y}{\\sqrt{3}}=\\frac{z}{0}\\). Verification: \\(\\cos\\theta = \\frac{|1\\cdot1+0\\cdot\\sqrt{3}+0\\cdot0|}{\\sqrt{1}\\sqrt{1+3}} = \\frac{1}{2} \\Rightarrow \\theta=60^\\circ\\). A good answer shows the design process and verification. A poor answer might give lines that don't satisfy the condition or fail to verify.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

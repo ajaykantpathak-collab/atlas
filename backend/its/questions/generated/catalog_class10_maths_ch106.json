@@ -1,0 +1,341 @@
+{
+ "catalog": "catalog_class10_maths_ch106.json",
+ "concepts": [
+  {
+   "id": "jemh.106.2.1",
+   "title": "Similarity of Polygons",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
+     "compute": "val = 3 * 9 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 9.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 5x + 5 when x = 3.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 9x + 4x - 9x and give the coefficient of x.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 4 x (5 + 8) equals 4 x 5 + 4 x 8. Compute it.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4 + 6 x 5 (respect the order of operations).",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 2) x 7.",
+     "a": "70",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.3.1",
+   "title": "Basic Proportionality Theorem Segment Calculation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 4 : 24 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is divided between two friends in the ratio 1 : 8. Find the smaller share.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Rs 480 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 4 : 8 = 20 : ?  (give the fourth term).",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 4 : 8 :: 20 : 40 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 60, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.3.2",
+   "title": "Converse of Basic Proportionality Theorem",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 6 gives 2",
+     "compute": "t1 = 12 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 12 : 54 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 660 is divided between two friends in the ratio 3 : 8. Find the smaller share.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "Rs 480 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 3 : 3 = 6 : ?  (give the fourth term).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 3 : 3 :: 6 : 6 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 120, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "480",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.1",
+   "title": "AA and AAA Similarity Criteria",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
+     "compute": "other = 90 - 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 121 degrees, find the other.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 74 degrees; find the other.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 79 degrees and 113 degrees, find the remaining angle.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 48 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 45 degrees. Find its co-interior partner.",
+     "a": "135",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.2",
+   "title": "SSS Similarity Criterion",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 56 - 55 gives 69",
+     "compute": "third = 180 - 56 - 55"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 56 and 55 degrees; the third angle is what? (The third angles must match.)",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 12 cm, 5 cm and 12 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 58 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "61",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.3",
+   "title": "SAS Similarity Criterion",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 40 gives 50",
+     "compute": "other = 90 - 40"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 40 degrees, find the other.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 107 degrees, find the other.",
+     "a": "73",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 55 degrees; find the other.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 138 degrees and 23 degrees, find the remaining angle.",
+     "a": "199",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 53 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 131 degrees. Find its co-interior partner.",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.4",
+   "title": "Indirect Measurement of Heights using Shadows",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 60 : 80 in its simplest form and give the first term of the simplest form.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Rs 500 is divided between two friends in the ratio 1 : 9. Find the smaller share.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 3 : 8 = 15 : ?  (give the fourth term).",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 3 : 8 :: 15 : 40 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 40, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.106.4.5",
+   "title": "Dynamic Shadow Length of a Walking Person",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 3 : 21 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 880 is divided between two friends in the ratio 2 : 9. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 7 = 24 : ?  (give the fourth term).",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 7 :: 24 : 21 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 100, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

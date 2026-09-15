@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_006",
+   "title": "c12_acc_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between \"interest on capital\" as an appropriation of profit versus a charge against profit, and how does this distinction affect the journal entry when the firm incurs a loss?",
+     "a": "Interest on capital is an appropriation of profit, meaning it is paid only if there is sufficient profit. If the firm incurs a loss, no interest on capital is allowed — the Profit and Loss Appropriation Account is not prepared, and the loss is directly transferred to partners' capital accounts in their profit-sharing ratio. A wrong answer (e.g., \"interest is still paid as a charge\") reveals confusion between charges (like rent, salaries to outsiders) which reduce profit regardless of amount, and appropriations (like partner's interest, salary) which distribute profit.",
+     "self_check": true
+    },
+    {
+     "q": "Partner X has a fixed capital of ₹4,00,000 on 1st April. On 1st October, X introduces additional capital of ₹1,00,000. The Partnership Deed provides for interest on capital @ 12% p.a. A student calculates interest as: (₹4,00,000 + ₹1,00,000) × 12% = ₹60,000. Explain why this calculation is incorrect and state the correct method.",
+     "a": "The student incorrectly assumes the additional ₹1,00,000 was invested for the full year. Since it was introduced on 1st October, it remained invested for only 6 months (October to March). Correct method: Use the product method — (₹4,00,000 × 12) + (₹1,00,000 × 6) = ₹48,00,000 + ₹6,00,000 = ₹54,00,000 total product. Interest = ₹54,00,000 × 12/100 × 1/12 = ₹54,000. The error reveals misunderstanding of time-weighting capital contributions.",
+     "self_check": true
+    },
+    {
+     "q": "A and B are partners sharing profits 3:2. Their capitals on 1st April: A ₹3,00,000, B ₹2,00,000. Interest on capital @ 10% p.a. During the year, A withdrew ₹50,000 on 1st July. Profit for the year before interest on capital is ₹40,000. Calculate the interest on capital to be credited to each partner and the journal entry for appropriation.",
+     "a": "Step 1: Compute A's product: (₹3,00,000 × 3) + (₹2,50,000 × 9) = ₹9,00,000 + ₹22,50,000 = ₹31,50,000. B's product: ₹2,00,000 × 12 = ₹24,00,000.\nStep 2: A's interest = ₹31,50,000 × 10/100 × 1/12 = ₹26,250. B's interest = ₹24,00,000 × 10/100 × 1/12 = ₹20,000. Total interest = ₹46,250.\nStep 3: Profit ₹40,000 < ₹46,250 → insufficient. Distribute ₹40,000 in interest ratio 26,250:20,000 = 21:16. A gets ₹21,818, B gets ₹18,182.\nStep 4: Journal: Profit & Loss Appropriation A/c Dr. 40,000 → To A's Capital A/c 21,818, To B's Capital A/c 18,182. A wrong answer (giving full interest) ignores the \"appropriation\" nature and profit limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of interest on capital under the Fixed Capital Method versus the Fluctuating Capital Method. In which method does the capital account balance change due to interest on capital, and why?",
+     "a": "Under Fluctuating Capital Method, interest on capital is credited directly to the Partner's Capital Account (capital balance changes). Under Fixed Capital Method, interest on capital is credited to the Partner's Current Account (capital account remains fixed unless permanent addition/withdrawal). The distinction exists because Fixed Capital Method separates permanent capital from fluctuating items (interest, drawings, salary, profit share) into a Current Account. A student confusing the two methods will pass incorrect journal entries — e.g., crediting Capital Account under Fixed Method.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm has three partners P, Q, R with capitals ₹5,00,000, ₹3,00,000, ₹2,00,000. Deed provides 12% interest on capital. Profit before interest is ₹90,000. P argues: \"My interest is ₹60,000, so I should get that first, then remaining ₹30,000 shared in profit ratio.\" Q argues: \"Total interest is ₹1,20,000 > ₹90,000 profit, so interest should be restricted proportionately.\" Evaluate both arguments and state the correct treatment with reasoning.",
+     "a": "Q's argument is correct. Interest on capital is an appropriation, not a charge. When total interest entitlement (₹1,20,000) exceeds available profit (₹90,000), the profit is distributed in the ratio of interest claims (60,000:36,000:24,000 = 5:3:2). P gets ₹45,000, Q gets ₹27,000, R gets ₹18,000. P's argument treats interest as a charge (priority over profit), which is wrong for partners. This tests understanding of the legal nature of partner's interest vs. outsider's interest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a partner's capital changes three times during the year (opening balance, additional capital introduced, part withdrawal). Design a problem requiring product method calculation, and specify the profit amount that makes the \"insufficient profit\" condition apply. Provide the complete solution with journal entries.",
+     "a": "Scenario: Partner M capital ₹4,00,000 (1 Apr). Adds ₹1,00,000 (1 Jul). Withdraws ₹50,000 (1 Oct). Rate 10% p.a. Profit ₹35,000.\nProducts: (4,00,000×3) + (5,00,000×3) + (4,50,000×6) = 12,00,000 + 15,00,000 + 27,00,000 = 54,00,000.\nInterest = 54,00,000 × 10/100 × 1/12 = ₹45,000. Profit ₹35,000 < ₹45,000.\nDistribute ₹35,000 in ratio of products (12:15:27 = 4:5:9) → M gets ₹35,000 × 4/18 = ₹7,778 (for first period), etc. Actually simpler: distribute total ₹35,000 in ratio of total interest entitlements if multiple partners, but here single partner — M gets entire ₹35,000 as interest. Journal: P&L Appropriation Dr. 35,000 → To M's Capital/Current 35,000. A good answer shows correct product calculation and recognises single partner gets all available profit as interest.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_004",
+   "title": "c11_acc_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define Error of Principle and state one reason why it does not affect the agreement of the trial balance.",
+     "a": "Error of Principle is an error committed due to violation of accounting principles, specifically incorrect classification between capital and revenue items. It does not affect trial balance because the debit and credit amounts recorded are equal (double-entry is maintained), only the account heads are wrong. A wrong answer (e.g., \"it affects trial balance\" or \"it's a clerical error\") reveals the student confuses Error of Principle with Errors of Commission or doesn't understand that trial balance only checks arithmetical accuracy, not conceptual correctness.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchases a delivery van for ₹8,00,000 and debits it to \"Vehicle Running Expenses\". The trial balance agrees. Is this an Error of Principle? Explain why or why not, and identify the correct account that should have been debited.",
+     "a": "Yes, this is an Error of Principle. The delivery van is a capital expenditure (asset providing benefit over multiple years) but was treated as revenue expenditure (expense consumed in current period). The trial balance agrees because ₹8,00,000 was debited to Vehicle Running Expenses and credited to Cash/Bank — equal debits and credits. The correct account is \"Delivery Van Account\" or \"Vehicles Account\" (a fixed asset). A wrong answer (e.g., \"it's an error of commission\" or \"trial balance will not agree\") shows the student cannot distinguish capital vs revenue classification or doesn't realize trial balance agreement is independent of account classification.",
+     "self_check": true
+    },
+    {
+     "q": "Rectify the following Error of Principle by writing the journal entry: \"Wages paid ₹25,000 for construction of a new factory shed were debited to Wages Account.\"",
+     "a": "**Rectification Entry:**\nFactory Shed Account (or Building Account) Dr. 25,000\n    To Wages Account 25,000\n(Being wages for construction of factory shed wrongly debited to Wages Account, now rectified)\n\n**Steps:** 1) Identify wrong entry: Wages A/c Dr. 25,000 → Cash A/c Cr. 25,000. 2) Identify correct entry: Factory Shed A/c Dr. 25,000 → Cash A/c Cr. 25,000. 3) Cancel wrong debit (credit Wages) and give correct debit (debit Factory Shed). A wrong answer (e.g., using Suspense Account or not reversing Wages) reveals the student doesn't know Errors of Principle are two-sided errors rectified by simple journal entry without suspense account.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Error of Principle vs Error of Commission, (b) Why Error of Principle doesn't affect trial balance but Error of Commission often does.",
+     "a": "(a) Error of Principle: Violation of accounting principle (capital vs revenue classification), conceptual error, two-sided error (affects two accounts correctly in amount but wrong heads), does NOT affect trial balance. Error of Commission: Clerical error (wrong amount, wrong account, wrong side, wrong totaling), may be one-sided or two-sided, often affects trial balance. (b) Error of Principle maintains equal debits and credits (e.g., debit Building ₹1L, credit Cash ₹1L — correct amounts, wrong account). Error of Commission often creates inequality (e.g., debit ₹1L to Building, credit ₹90K to Cash — amounts differ). A wrong answer (e.g., \"both affect trial balance\" or \"both are clerical\") shows inability to analyze the structural difference between conceptual vs clerical errors and their impact on the accounting equation's arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since Errors of Principle do not affect the trial balance, they are less harmful than Errors of Commission and can be ignored until the next accounting period.\" Justify your answer with two specific consequences on financial statements.",
+     "a": "The statement is FALSE. Errors of Principle are MORE harmful because they distort financial statements silently (trial balance agrees, so they go undetected). Consequences: (1) Profit misstatement: Capital expenditure treated as revenue expense → profit understated; revenue expenditure treated as capital → profit overstated. (2) Balance Sheet misstatement: Assets understated/overstated, affecting financial ratios, loan eligibility, and tax liability. They cannot be ignored — they must be rectified before final accounts. A wrong answer (agreeing with the statement) reveals the student equates \"trial balance agreement\" with \"accounting accuracy\" and doesn't understand the qualitative impact on financial reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own original example of an Error of Principle involving a revenue receipt incorrectly treated as a capital receipt. Write the wrong entry, correct entry, and rectification entry. Explain why this error would mislead a banker analyzing the company's loan application.",
+     "a": "**Example:** Company receives ₹5,00,000 as rental income (revenue receipt) but credits it to \"Loan from Bank\" (capital receipt/liability).\n**Wrong Entry:** Bank A/c Dr. 5,00,000 → Loan from Bank A/c Cr. 5,00,000\n**Correct Entry:** Bank A/c Dr. 5,00,000 → Rental Income A/c Cr. 5,00,000\n**Rectification Entry:** Loan from Bank A/c Dr. 5,00,000 → Rental Income A/c Cr. 5,00,000\n**Misleading effect:** Banker sees higher liabilities (loan ₹5L extra) and lower revenue (rental income missing), making debt-equity ratio worse and profitability lower — may reject loan or charge higher interest. A poor answer (e.g., using capital expenditure example, or wrong rectification) shows inability to apply the concept to receipts side and understand stakeholder impact.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

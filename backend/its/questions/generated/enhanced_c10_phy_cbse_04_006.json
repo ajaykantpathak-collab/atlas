@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_006",
+   "title": "c10_phy_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the two laws of refraction of light. Define absolute refractive index of a medium and write its formula in terms of speed of light.",
+     "a": "Correct answer: (1) The incident ray, refracted ray, and normal at the point of incidence all lie in the same plane. (2) For a given pair of media and colour of light, the ratio sin i / sin r is constant (Snell's law). Absolute refractive index of a medium (n) = speed of light in vacuum (c) / speed of light in that medium (v). A wrong answer (e.g., stating \"light bends towards normal always\" or giving formula as v/c) reveals the student confuses the law with a general bending rule or confuses the ratio order, indicating they memorised a pattern without understanding the definition of refractive index as a ratio of speeds.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light travels from air (n=1) into water (n=4/3) at an angle of incidence of 30°. Will the angle of refraction be greater than, equal to, or less than 30°? Explain WHY using the concept of optical density and speed of light, without calculating the exact value.",
+     "a": "Correct answer: The angle of refraction will be less than 30°. Water is optically denser than air (n_water > n_air), so light slows down in water. To satisfy Snell's law (n₁ sin i = n₂ sin r) with n₂ > n₁, sin r must be smaller than sin i, hence r < i. The ray bends towards the normal. A wrong answer (e.g., \"r > 30° because water is denser so it bends more\") reveals the student associates \"denser\" with \"bends away\" or thinks \"bending more\" means larger angle, confusing the direction of bending with the magnitude of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light is incident at 45° on a rectangular glass slab of refractive index 1.5. Calculate the angle of refraction inside the glass. Then calculate the angle of emergence when the ray exits the opposite parallel face into air. (Given: sin 45° = 1/√2 ≈ 0.707)",
+     "a": "Step 1: Identify given: n_air = 1, n_glass = 1.5, i = 45°. Find r.\nStep 2: Apply Snell's law at air-glass interface: 1 × sin 45° = 1.5 × sin r → sin r = 0.707 / 1.5 = 0.4713.\nStep 3: r = sin⁻¹(0.4713) ≈ 28.1°.\nStep 4: At glass-air exit face, angle of incidence inside glass = r = 28.1° (alternate angles). Apply Snell's law: 1.5 × sin 28.1° = 1 × sin e → sin e = 1.5 × 0.4713 = 0.707 → e = 45°.\nAnswer: Angle of refraction = 28.1°, Angle of emergence = 45°. A wrong answer (e.g., emergence angle ≠ 45°) reveals the student does not recognise that for parallel faces, the emergent ray is parallel to the incident ray, or they incorrectly used the same angle of incidence at the second face.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs an experiment to trace the path of a ray through a rectangular glass slab for three different angles of incidence: 20°, 40°, and 60°. She measures the corresponding angles of refraction and calculates sin i / sin r for each. She obtains values: 1.48, 1.52, 1.49. Are these results consistent with Snell's law? Justify your answer and explain what the average value represents.",
+     "a": "Correct answer: Yes, the results are consistent. The three values (1.48, 1.52, 1.49) are close to each other, showing the ratio sin i / sin r is nearly constant as required by Snell's law. Small variations are due to experimental errors (pin placement, protractor reading). The average (≈1.50) represents the relative refractive index of glass with respect to air (n_glass/air). A wrong answer (e.g., \"No, because values are not exactly equal\" or \"The average is the absolute refractive index of air\") reveals the student expects perfect theoretical equality in experiments or confuses relative vs absolute refractive index.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light passes from medium A (n=1.6) to medium B (n=1.2). The angle of incidence in A is 30°. A student calculates the angle of refraction in B as 41.8° using Snell's law. Evaluate if this answer is physically possible. If not, identify the error.",
+     "a": "Correct answer: The answer is NOT physically possible. Using Snell's law: 1.6 × sin 30° = 1.2 × sin r → 1.6 × 0.5 = 1.2 × sin r → 0.8 = 1.2 sin r → sin r = 0.8/1.2 = 0.667 → r ≈ 41.8°. Wait, sin r = 0.667 is valid (≤1). The calculation is correct. But check: n_A > n_B, so ray goes from denser to rarer, it should bend away from normal (r > i). Here i=30°, r=41.8° > 30°, so it bends away — this IS physically possible. The student's answer is correct. A wrong evaluation (e.g., \"Not possible because sin r > 1\" or \"Should bend towards normal\") reveals the student confuses the condition for total internal reflection (which requires n₁ > n₂ AND i > critical angle) or misidentifies which medium is denser.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rectangular glass slab, pins, and a protractor to verify that the emergent ray is parallel to the incident ray but laterally displaced. List the steps, measurements needed, and how you would conclude parallelism.",
+     "a": "Expected answer: (1) Fix white paper on board, place glass slab, mark outline. (2) Draw normal at point O on one face. Draw incident ray at angle i (e.g., 30°). Fix two pins P₁, P₂ on this ray. (3) View from opposite face, fix two pins P₃, P₄ such that all four pins appear in straight line. (4) Remove slab, join P₃P₄ to meet slab at O', join OO'. (5) Extend incident ray forward and emergent ray backward; they are parallel. Measure perpendicular distance between them = lateral displacement. Repeat for different i. A poor answer (e.g., \"measure angles only\" or \"use a laser pointer without pins\") reveals the student doesn't understand the pin method for ray tracing or confuses verification of Snell's law with verification of emergent ray parallelism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

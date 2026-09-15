@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_005",
+   "title": "c11_biotech_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define \"Genetically Modified (GM) crop\" and name the soil bacterium that is the source of the insecticidal protein in Bt cotton.",
+     "a": "A GM crop is a plant whose genome has been altered by inserting one or more genes from another organism using recombinant DNA technology to express a novel trait. The insecticidal protein in Bt cotton (Cry1Ac) originates from the soil bacterium *Bacillus thuringiensis*.  \n**Diagnosis:** If a student names *Agrobacterium tumefaciens* as the toxin source, they confuse the *gene delivery vector* with the *trait donor organism*. If they say \"Bt cotton is made by crossing cotton with bacteria,\" they hold a hybridization misconception instead of understanding transgenic technology.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Cry1Ac protein kills cotton bollworm larvae but is harmless to humans and non-target insects like bees.",
+     "a": "Cry1Ac is produced as an inactive protoxin. In the lepidopteran larval midgut, the high pH (9–10) and specific proteases cleave it to an active toxin (~65 kDa). This active toxin binds with high affinity to specific cadherin-like receptors on the brush-border membrane of midgut epithelial cells, forming oligomeric pores that cause osmotic lysis and death. Humans and bees lack both the alkaline gut pH required for protoxin activation and the specific cadherin receptors for toxin binding; mammalian digestive enzymes rapidly degrade the protein.  \n**Diagnosis:** A student claiming \"Bt toxin is natural so it's safe\" shows a naturalistic fallacy. One saying \"it kills all insects\" ignores receptor-mediated specificity. Both indicate lack of mechanistic understanding of mode of action.",
+     "self_check": true
+    },
+    {
+     "q": "A biotechnologist wants to develop a GM rice variety tolerant to the herbicide glyphosate. Which gene should be introduced, from which organism, and what is its biochemical mechanism of action?",
+     "a": "Introduce the *CP4 EPSPS* gene (5-enolpyruvylshikimate-3-phosphate synthase) from *Agrobacterium* sp. strain CP4. Glyphosate inhibits the native plant EPSPS enzyme in the shikimate pathway, blocking aromatic amino acid synthesis. The bacterial CP4 EPSPS has a naturally low affinity for glyphosate (due to a single amino acid substitution) but retains catalytic function, allowing the pathway to operate even when glyphosate is sprayed.  \n**Diagnosis:** If the student suggests the *bar* gene (phosphinothricin acetyltransferase), they confuse glyphosate tolerance with glufosinate tolerance. If they say \"modify the rice EPSPS gene by mutation,\" they describe gene editing, not the transgenic approach used in Roundup Ready crops.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular strategy for virus resistance in transgenic papaya (coat protein-mediated) with the strategy for delayed ripening in Flavr Savr tomato (antisense RNA). How do both exploit gene expression regulation but differ in the nucleic acid intermediate targeted?",
+     "a": "Both strategies use rDNA to introduce a transgene that interferes with a pathogen or endogenous gene. In virus-resistant papaya, the viral *coat protein (CP) gene* is expressed in the plant; the CP protein interferes with viral uncoating or replication (protein-mediated resistance/cross-protection). In Flavr Savr tomato, an *antisense RNA* complementary to the *polygalacturonase (PG) mRNA* is expressed; the antisense RNA binds PG mRNA via base-pairing, forming dsRNA that is degraded or translationally blocked (RNA-level silencing). The former acts at the protein level (dominant negative), the latter at the mRNA level (post-transcriptional gene silencing).  \n**Diagnosis:** A student equating both as \"RNA interference\" misses that CP-mediated resistance is primarily protein-based (though can trigger silencing). Confusing antisense RNA with RNAi (siRNA/miRNA) indicates lack of distinction between single-stranded antisense and double-stranded RNAi triggers.",
+     "self_check": true
+    },
+    {
+     "q": "\"Golden Rice (GR2E) produces β-carotene in the endosperm, potentially alleviating vitamin A deficiency. However, critics argue it is a 'technological fix' that ignores dietary diversity and socio-economic barriers.\" Evaluate this critique using evidence from molecular biology and public health nutrition.",
+     "a": "**Molecular evidence:** GR2E expresses *psy* (phytoene synthase, maize) and *crtI* (phytoene desaturase, *Pantoea ananatis*) under endosperm-specific promoters, reconstructing the β-carotene pathway up to lycopene; endogenous cyclases complete conversion to β-carotene. Bioavailability studies show β-carotene from Golden Rice is efficiently converted to retinol in humans. **Public health critique:** Vitamin A deficiency (VAD) is multifactorial (infection, fat malabsorption, lack of dietary diversity). Golden Rice addresses *one* proximate cause (low provitamin A intake) but requires adoption by farmers, cultural acceptance (yellow grain), and sufficient dietary fat for absorption. It complements, not replaces, supplementation and fortification programs. A balanced evaluation acknowledges the molecular efficacy while demanding equitable delivery systems.  \n**Diagnosis:** A purely technical answer (\"it works biochemically\") ignores the competency of evaluating technology in societal context. A purely sociological answer (\"farmers won't grow it\") ignores the proven biochemical efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical GM crop for a specific abiotic stress prevalent in Indian agriculture (e.g., salinity, drought, heat). Specify: (a) the target trait, (b) a candidate gene with source organism, (c) the promoter choice (constitutive vs. stress-inducible vs. tissue-specific) with justification, and (d) one potential pleiotropic risk to assess during confined field trials.",
+     "a": "**Example answer for drought-tolerant maize:** (a) Trait: Improved water-use efficiency and yield stability under terminal drought. (b) Gene: *DREB1A* (Dehydration-Responsive Element Binding protein 1A) from *Arabidopsis thaliana* — a transcription factor activating multiple downstream stress-responsive genes (e.g., *RD29A*, *COR15A*). (c) Promoter: Stress-inducible *rd29A* promoter — ensures *DREB1A* expression only under drought/salinity/cold, avoiding constitutive growth penalty (stunting) seen with CaMV 35S. (d) Pleiotropic risk: Altered root architecture or reduced biomass under optimal irrigation due to leaky promoter expression; must be quantified in multi-location trials.  \n**Diagnosis:** A student choosing a constitutive promoter (CaMV 35S) for a transcription factor shows ignorance of fitness costs. Omitting a specific pleiotropic risk indicates lack of experience with regulatory field trial design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

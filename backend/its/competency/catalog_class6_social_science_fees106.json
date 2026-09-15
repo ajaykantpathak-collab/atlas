@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The Beginnings of Indian Civilisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.6.1",
+   "title": "What Is a Civilisation?",
+   "section": "What is a civilisation",
+   "definition": "A civilisation is an advanced stage of human society marked by government and administration, urbanism with town planning and cities, and shared systems such as writing, trade and technology.",
+   "formula": "",
+   "key_idea": "A civilisation is more than villages: it is society grown complex, with cities, officials and records.",
+   "textbook_ref": "fees106.txt, What is a civilisation",
+   "question_patterns": [
+    "what is a civilisation and what are its marks",
+    "why is government needed in a civilisation",
+    "what does urbanism mean",
+    "how is a civilisation different from a village settlement",
+    "which technologies helped early societies become civilisations",
+    "what are the big questions of this chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.6.2",
+   "title": "The Harappan Civilisation",
+   "section": "Introduction",
+   "definition": "The most ancient civilisation of the Indian subcontinent is known as the Harappan, Indus or Indus-Sarasvati Civilisation; it flourished along the Indus and the Sarasvati's course over four thousand years ago.",
+   "formula": "",
+   "key_idea": "One civilisation, three names: Harappan from the first site, Indus and Indus-Sarasvati from its rivers.",
+   "textbook_ref": "fees106.txt, Introduction",
+   "question_patterns": [
+    "what are the three names of india's earliest civilisation",
+    "where did the harappan civilisation flourish",
+    "why is the civilisation called indus sarasvati",
+    "how old is the harappan civilisation",
+    "which was the first site excavated of this civilisation",
+    "why do historians admire the harappan society"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.6.3",
+   "title": "Harappan Towns: Planning and Achievements",
+   "section": "Achievements",
+   "definition": "Harappan cities show careful town planning with grid streets, covered drains, fortified areas like Dholavira's castle, standardized bricks and weights, seals and bead work, and trade reaching distant lands.",
+   "formula": "",
+   "key_idea": "Streets, drains and standard weights reveal a government that planned and a people that followed rules together.",
+   "textbook_ref": "fees106.txt, Achievements",
+   "question_patterns": [
+    "describe the town planning of harappan cities",
+    "what is the castle area of dholavira",
+    "why are harappan drains considered remarkable",
+    "what were harappan seals used for",
+    "how do standard weights show organised trade",
+    "which materials and crafts were the harappans known for"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.6.4",
+   "title": "Harappan Society: Decline and Legacy",
+   "section": "Conclusion",
+   "definition": "Harappan society was balanced rather than exploitative, with no glaring gulf between rich and poor; around 1900 BCE the cities declined, yet their farming, crafts, and town ways passed into later Indian life.",
+   "formula": "",
+   "key_idea": "What survives a civilisation's fall is its legacy: the Harappan ways quietly seeded the culture that followed.",
+   "textbook_ref": "fees106.txt, Conclusion",
+   "question_patterns": [
+    "what was special about harappan society according to b b lal",
+    "what theories explain the decline of the harappan civilisation",
+    "what legacy did the harappans leave for later india",
+    "why is mutual accommodation important in a society",
+    "what might a harappan man or woman recognise today",
+    "how do archaeologists piece together the end of the cities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees106.txt",
+   "concept": "fees.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why are the Harappan cities called well planned?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look at the map",
+     "explain": "Streets cut across each other in grids and drains run covered beneath them."
+    },
+    {
+     "step": 2,
+     "action": "read the plan",
+     "explain": "Such order needs shared measurements and some authority, marks of an advanced society."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees106.txt",
+   "concept": "fees.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "How do we know the Harappans traded far away?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the seals",
+     "explain": "Thousands of carved seals and standard weights mark goods and bargains."
+    },
+    {
+     "step": 2,
+     "action": "follow the goods",
+     "explain": "Materials from distant lands found in Harappan cities show ships carried trade across the seas."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees106.txt, Let us explore",
+   "questions": [
+    "What are the characteristics of a civilisation listed in the chapter?",
+    "What does the quotation by B. B. Lal say about Harappan society?",
+    "What does the north gate of Dholavira's castle show?",
+    "Imagine a Harappan man or woman visiting your town: what would look familiar?",
+    "List the Harappan achievements you find most impressive."
+   ]
+  }
+ ]
+}

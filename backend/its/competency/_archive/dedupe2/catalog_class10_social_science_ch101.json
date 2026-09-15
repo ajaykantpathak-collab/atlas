@@ -1,0 +1,399 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 101,
+ "chapter_title": "Resources and Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess101.txt",
+ "concepts": [
+  {
+   "id": "jess.101.1.1",
+   "title": "Meaning and Classification of Resources",
+   "section": "1.1",
+   "definition": "Any element in the surrounding world that satisfies human requirements, provided people possess the technological means, economic capacity, and societal sanction to harness it.",
+   "formula": "none",
+   "key_idea": "Materials become usable resources through the interaction of human capability, technology, and social institutions.",
+   "textbook_ref": "jess101.txt lines 1-28",
+   "question_patterns": [
+    "What defines a resource according to modern geography?",
+    "Classify resources on the basis of exhaustibility and origin.",
+    "How do human activities transform environmental elements into resources?",
+    "Explain the role of technology and institutions in defining a resource.",
+    "Distinguish between potential resources and developed reserves."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify utility and access criteria",
+     "explain": "Verify whether the given item fulfills utility, technological accessibility, economic viability, and cultural acceptance."
+    },
+    {
+     "step": 2,
+     "action": "classify by origin, exhaustibility, ownership, and development status",
+     "explain": "Categorize the resource into biotic or abiotic, renewable or non-renewable, individual, community, national, or international, and potential, stock, or reserve."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.2.1",
+   "title": "Sustainable Development and Agenda 21",
+   "section": "1.2",
+   "definition": "An approach to economic advancement that fulfills present human requirements while preventing ecological harm and safeguarding resource availability for upcoming generations.",
+   "formula": "none",
+   "key_idea": "Balancing economic growth with environmental protection through shared global and local commitments.",
+   "textbook_ref": "jess101.txt lines 30-75",
+   "question_patterns": [
+    "What is meant by sustainable economic development?",
+    "Describe the main objectives of the Rio de Janeiro Earth Summit 1992.",
+    "Explain the key principles outlined in Agenda 21.",
+    "Why is equitable distribution of resources essential for global peace?",
+    "How does local Agenda 21 contribute to environmental protection?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess current resource usage against environmental thresholds",
+     "explain": "Verify that present developmental actions do not damage ecological systems."
+    },
+    {
+     "step": 2,
+     "action": "evaluate intergenerational fairness",
+     "explain": "Ensure that resource extraction rates leave adequate reserves for future needs."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.3.1",
+   "title": "Resource Planning and Conservation in India",
+   "section": "1.3",
+   "definition": "A systematic strategy designed to identify, evaluate, and apportion limited natural wealth across varied regions to achieve balanced nationwide progress.",
+   "formula": "none",
+   "key_idea": "Judicious utilization and technological pairing overcome regional disparities and curb irrational depletion.",
+   "textbook_ref": "jess101.txt lines 76-145",
+   "question_patterns": [
+    "What are the three main stages of resource planning in India?",
+    "Why is balanced resource planning necessary across Indian states?",
+    "Explain Mahatma Gandhi's view on resource conservation and human greed.",
+    "How does technological capability influence resource utilization in backward regions?",
+    "Name the international reports that highlighted global resource conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "survey and map existing assets",
+     "explain": "Perform qualitative and quantitative inventory of regional resources."
+    },
+    {
+     "step": 2,
+     "action": "align institutional framework with national priorities",
+     "explain": "Integrate regional development schemes with broader national Five Year Plans."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.4.1",
+   "title": "Land Utilization and Gross Cropped Area",
+   "section": "1.4",
+   "definition": "The classification of total land surface according to functional activities including agriculture, forests, pastures, and infrastructural development.",
+   "formula": "gross_cropped_area = net_sown_area + multiple_sown_area",
+   "key_idea": "Gross cropped area accounts for the total acreage seeded in an agricultural year by adding multi-cropped land to the net sown extent.",
+   "textbook_ref": "jess101.txt lines 146-200",
+   "question_patterns": [
+    "Calculate the gross cropped area given the net sown area and multiple cropped area.",
+    "Find the gross cropped area when land sown more than once is added to net sown area.",
+    "What is the gross cropped area if a farm has a specific net sown area and double-cropped expanse?",
+    "How much is the gross cropped area for a region with given sowing statistics?",
+    "Determine the total gross cropped land from annual agricultural survey data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add area sown more than once to net sown area",
+     "explain": "Combine the single-count physical extent with the additional multi-cropped acreage.",
+     "compute": "gross_cropped_area = net_sown_area + multiple_sown_area"
+    }
+   ]
+  },
+  {
+   "id": "jess.101.5.1",
+   "title": "Land Use Pattern in India",
+   "section": "1.5",
+   "definition": "The spatial distribution of available terrestrial area among diverse ecological and economic uses, shaped by environmental topography and demographic pressures.",
+   "formula": "reporting_percentage = (reported_area / total_area) * 100",
+   "key_idea": "Physical and socio-economic factors govern how national land is apportioned across forests, net sown tracts, and fallows.",
+   "textbook_ref": "jess101.txt lines 201-260",
+   "question_patterns": [
+    "Why is land use data unavailable for the entire geographical area of India?",
+    "What proportion of national geographical area is recommended for forests under the 1952 policy?",
+    "How does the net sown area vary between Punjab and north-eastern states?",
+    "Calculate the reported land percentage from total geographical area.",
+    "Analyze the causes for low pasture and forest expansion in India."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide reported area by total area and scale to percentage",
+     "explain": "Compute the proportion of surveyed land relative to total national boundaries.",
+     "compute": "reporting_percentage = (reported_area / total_area) * 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.101.6.1",
+   "title": "Land Degradation and Preventive Measures",
+   "section": "1.6",
+   "definition": "The decline in the productive capability and ecological health of land caused by accelerated human intervention and unmanaged natural forces.",
+   "formula": "none",
+   "key_idea": "Mining scars, excessive irrigation, overgrazing, and unmanaged waste trigger soil damage that requires structured conservation practices.",
+   "textbook_ref": "jess101.txt lines 261-310",
+   "question_patterns": [
+    "What are the major human activities responsible for land degradation in India?",
+    "How does excessive irrigation damage soil quality in Punjab and Haryana?",
+    "Explain the impact of mining on land degradation in central Indian states.",
+    "Suggest four practical measures to curb land degradation in arid zones.",
+    "How do shelter belts and afforestation protect land from deterioration?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the regional cause of soil damage",
+     "explain": "Match regional land distress to overgrazing, over-irrigation, industrial effluents, or mining."
+    },
+    {
+     "step": 2,
+     "action": "apply targeted reclamation technique",
+     "explain": "Select appropriate countermeasures such as contour barriers, shelter belts, or regulated drainage."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.7.1",
+   "title": "Soil Formation and Profile",
+   "section": "1.7",
+   "definition": "A dynamic organic-mineral matrix generated over long periods at the Earth's crust through weathering of parent material under climatic and biological influences.",
+   "formula": "none",
+   "key_idea": "Bedrock composition, climate, relief, organisms, and time dictate the distinct vertical layers within a soil column.",
+   "textbook_ref": "jess101.txt lines 311-345",
+   "question_patterns": [
+    "What are the primary factors contributing to the formation of soil?",
+    "Describe the different layers comprising a standard soil profile.",
+    "Why is soil classified as a living system?",
+    "Explain how climate and parent rock influence topsoil characteristics.",
+    "Differentiate between topsoil, subsoil, and substratum layers."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine layer sequence from surface to base",
+     "explain": "Identify topsoil with humus, weathered subsoil, parent substratum, and solid bedrock."
+    },
+    {
+     "step": 2,
+     "action": "verify pedogenetic factors",
+     "explain": "Correlate soil depth and texture with weathering duration and climatic factors."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.8.1",
+   "title": "Alluvial and Black Soils",
+   "section": "1.8",
+   "definition": "Major fertile soil groups of India comprising riverine silt deposits in northern plains and moisture-retentive basaltic clay formations across the Deccan plateau.",
+   "formula": "none",
+   "key_idea": "Alluvial soils offer high mineral fertility for cereals, while volcanic black soils offer exceptional water retention for cotton.",
+   "textbook_ref": "jess101.txt lines 346-410",
+   "question_patterns": [
+    "Differentiate between Khadar and Bangar alluvial soils based on age and texture.",
+    "Why are regions with alluvial soils intensively cultivated and densely populated?",
+    "Describe the physical properties and nutrient content of black soil.",
+    "Why does black cotton soil develop deep cracks during dry seasons?",
+    "Identify the states where black soil is predominantly found."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify soil by origin and geographical domain",
+     "explain": "Assign riverine plains to alluvial and lava-covered trap zones to black regur soil."
+    },
+    {
+     "step": 2,
+     "action": "assess nutrient profile and agricultural suitability",
+     "explain": "Match potash-lime rich alluvium to cereals and clayey regur to moisture-dependent crops like cotton."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.8.2",
+   "title": "Red, Laterite, Arid, and Mountain Soils",
+   "section": "1.9",
+   "definition": "Specialized soil varieties shaped by iron diffusion, intense leaching, dry climates, or mountainous topographies.",
+   "formula": "none",
+   "key_idea": "Climatic extremes and leaching produce diverse soils ranging from acidic laterites to saline arid sands and variable mountain loams.",
+   "textbook_ref": "jess101.txt lines 411-470",
+   "question_patterns": [
+    "Why do red soils appear reddish and turn yellow in hydrated conditions?",
+    "Explain how laterite soils develop in tropical climates with heavy rainfall.",
+    "What makes arid soils saline and poor in humus content?",
+    "Describe the variations in soil texture found in mountainous regions.",
+    "Which plantation crops thrive on treated laterite soils in southern India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify underlying climatic and lithological driver",
+     "explain": "Check for iron oxidation, leaching under wet-dry cycles, excessive evaporation, or slope denudation."
+    },
+    {
+     "step": 2,
+     "action": "determine soil chemistry and crop adaptation",
+     "explain": "Evaluate acidity or salinity to assess suitability for cashew, tea, coffee, or irrigated grains."
+    }
+   ]
+  },
+  {
+   "id": "jess.101.9.1",
+   "title": "Soil Erosion and Conservation Techniques",
+   "section": "1.10",
+   "definition": "The removal and washing away of the upper fertile soil blanket by running water or wind, countered through engineered farming and vegetative barriers.",
+   "formula": "none",
+   "key_idea": "Terracing, contour tilling, strip grass cultivation, and windbreak planting halt gully, sheet, and wind erosion.",
+   "textbook_ref": "jess101.txt lines 471-520",
+   "question_patterns": [
+    "Differentiate between sheet erosion and gully erosion with examples.",
+    "What are ravines and badlands in the context of the Chambal basin?",
+    "How does contour ploughing prevent the rapid runoff of surface water?",
+    "Explain the mechanism of strip cropping in breaking wind velocity.",
+    "What role do shelter belts play in stabilising sand dunes in arid zones?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the erosive agent and mechanism",
+     "explain": "Distinguish between channel carving by runoff, broad sheet wash, and wind deflation."
+    },
+    {
+     "step": 2,
+     "action": "select specific conservation intervention",
+     "explain": "Deploy contour furrows, hillside terraces, alternating crop strips, or tree rows."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess101.txt lines 195-200",
+   "concept": "jess.101.4.1",
+   "question_type": "compute_gross_cropped_area",
+   "question_pattern": "A district reports a net sown area of {net_sown_area} thousand hectares and an area sown more than once of {multiple_sown_area} thousand hectares. Calculate the gross cropped area.",
+   "extracted_variables": {
+    "net_sown_area": 140,
+    "multiple_sown_area": 55
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add area sown more than once to net sown area",
+     "explain": "Combine the single-count physical extent with the additional multi-cropped acreage.",
+     "compute": "gross_cropped_area = net_sown_area + multiple_sown_area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess101.txt lines 195-200",
+   "concept": "jess.101.4.1",
+   "question_type": "compute_gross_cropped_area",
+   "question_pattern": "If the net sown area of a region is {net_sown_area} sq km and the land cultivated multiple times in a year is {multiple_sown_area} sq km, find the gross cropped area.",
+   "extracted_variables": {
+    "net_sown_area": 320,
+    "multiple_sown_area": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add area sown more than once to net sown area",
+     "explain": "Combine the single-count physical extent with the additional multi-cropped acreage.",
+     "compute": "gross_cropped_area = net_sown_area + multiple_sown_area"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess101.txt lines 210-216",
+   "concept": "jess.101.5.1",
+   "question_type": "compute_reporting_percentage",
+   "question_pattern": "Out of a total regional area of {total_area} million hectares, cadastral survey data is available for {reported_area} million hectares. Calculate the percentage of reported area.",
+   "extracted_variables": {
+    "total_area": 328,
+    "reported_area": 305
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide reported area by total area and scale to percentage",
+     "explain": "Compute the proportion of surveyed land relative to total national boundaries.",
+     "compute": "reporting_percentage = (reported_area / total_area) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess101.txt lines 210-216",
+   "concept": "jess.101.5.1",
+   "question_type": "compute_reporting_percentage",
+   "question_pattern": "A state has an administrative extent of {total_area} units and records valid land use for {reported_area} units. Find the reporting percentage.",
+   "extracted_variables": {
+    "total_area": 500,
+    "reported_area": 465
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide reported area by total area and scale to percentage",
+     "explain": "Compute the proportion of surveyed land relative to total national boundaries.",
+     "compute": "reporting_percentage = (reported_area / total_area) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex101.1",
+   "source_ref": "jess101.txt lines 525-545",
+   "questions": [
+    "Which one of the following is the main cause of land degradation in Punjab? (a) Intensive cultivation (b) Deforestation (c) Over irrigation (d) Overgrazing",
+    "In which one of the following states is terrace cultivation practised? (a) Punjab (b) Plains of Uttar Pradesh (c) Haryana (d) Uttarakhand",
+    "In which of the following states black soil is predominantly found? (a) Uttar Pradesh (b) Maharashtra (c) Rajasthan (d) Jharkhand"
+   ]
+  },
+  {
+   "id": "ex101.2",
+   "source_ref": "jess101.txt lines 546-560",
+   "questions": [
+    "Name three states having black soil and the crop which is mainly grown in it.",
+    "What type of soil is found in the river deltas of the eastern coast? Give three main features of this type of soil.",
+    "What steps can be taken to control soil erosion in the hilly areas?"
+   ]
+  },
+  {
+   "id": "ex101.3",
+   "source_ref": "jess101.txt lines 561-575",
+   "questions": [
+    "Explain land use pattern in India and why has the land under forest not increased much since 1960-61?",
+    "How have technical and economic development led to more consumption of resources?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

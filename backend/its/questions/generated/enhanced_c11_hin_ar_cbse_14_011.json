@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_14_011",
+   "title": "c11_hin_ar_cbse_14_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical function of the suffix \"एर\" in the phrase \"एर एप्य\" from the first poem, and state its modern Hindi equivalent.",
+     "a": "The suffix \"एर\" functions as the genitive case marker (कारक चिह्न) equivalent to modern Hindi \"का/के/की\", indicating possession or relationship. A wrong answer (e.g., identifying it as dative \"को\" or locative \"में\") reveals the student cannot distinguish Braj Bhasha case endings from modern Hindi, indicating a gap in recognizing dialectal morphological variation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the poet uses \"पन\" instead of standard Braj \"पर\" or modern Hindi \"पर/में\" in \"रमि एर\" and \"एपक एर मफक्य-इकफक्य\", and what phonological process this represents.",
+     "a": "\"पन\" represents the Braj Bhasha locative postposition where the dental nasal 'न' assimilates to the preceding labial 'प' (from मूल रूप 'पर' > 'पन' through nasal assimilation), creating a metrically convenient heavy syllable. A wrong answer treating \"पन\" as a separate lexical item or modern Hindi \"पन\" (abstract noun suffix) reveals the student cannot apply historical phonology to textual analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In the second poem, analyze the verb form \"हख[ \" in \"हख[ वकÅ¡\" and \"हख[ विSडज\" — identify its grammatical category, person, number, and the syntactic construction it participates in.",
+     "a": "\"हख[\" is the second person plural imperative form of the verb \"होना\" (to be/become), used here as an auxiliary in a causative construction (\"हख[ वकÅ¡\" = \"make it happen\", \"हख[ विSडज\" = \"make him do\"), addressing the listener(s) with authoritative force. A wrong answer identifying it as indicative mood or singular person reveals inability to parse imperative morphology in causative syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the compound formation in \"बू'ओज\" (first poem) and \"िक'कपज\" (second poem) — identify the समास type for each, provide the विग्रह, and explain how the semantic relationship differs between the two compounds.",
+     "a": "\"बू'ओज\" = बहुव्रीहि समास (बू'ओज = बू'ओज यस्य सः — जिसके बाज हैं) functioning as an epithet for the addressee; \"िक'कपज\" = तत्पुरुष समास (िक'कस्य पज — कुछ का पुत्र) denoting a specific relational identity. A wrong answer classifying both as तत्पुरुष or both as बहुव्रीहि reveals inability to distinguish semantic head-modifier relationships in compound typology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poetic effect of retaining archaic Braj forms (\"उहन\", \"इकु\", \"इ<ह्य\", \"टहक\") alongside relatively modern forms (\"हमारे\", \"तुम्हें\", \"करो\") in the same poem — does this linguistic layering enhance or undermine the poem's authenticity as a folk devotional text? Justify with two specific examples.",
+     "a": "The linguistic layering enhances authenticity by mirroring the actual speech continuum of 17th-century Braj region where archaic and innovative forms coexisted; e.g., \"उहन\" (archaic pronoun) preserves oral tradition flavor while \"तुम्हें\" (modernized) ensures comprehensibility, and \"इकु\" (अपभ्रंश < एकु) maintains metrical brevity against \"एक\" — this code-mixing reflects living language, not artificial archaism. A wrong answer claiming inconsistency reveals misunderstanding of diglossia in medieval poetic registers.",
+     "self_check": true
+    },
+    {
+     "q": "Compose two original lines in Braj Bhasha style using at least three grammatical features analyzed above (case marker एर, postposition पन, imperative हख[, compound formation), addressing a deity with a request, and provide the modern Hindi translation with grammatical gloss.",
+     "a": "Example: \"एर चरणन पन हख[ धरहु मोहे / इकु कृपा करहु दीन बंधु सोहे\" — Modern Hindi: \"आपके चरणों में मुझे रख लीजिए / एक कृपा कर दीजिए दीनबंधु शोभते हैं\" — Gloss: एर (का), चरणन (चरणों में - पन assimilation), हख[ (हो जाओ/कर दो - imperative causative), इकु (एक - अपभ्रंश), दीन बंधु (तत्पुरुष समास). A poor answer using only modern Hindi forms or incorrect case markings reveals inability to productively apply analyzed grammatical knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

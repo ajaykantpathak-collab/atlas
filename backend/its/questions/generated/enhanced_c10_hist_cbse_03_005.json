@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_03_005",
+   "title": "c10_hist_cbse_03_005",
+   "questions": [
+    {
+     "q": "In which year and location was the Bretton Woods Conference held, and which two major institutions were created there?",
+     "a": "The Bretton Woods Conference was held in July 1944 at Bretton Woods, New Hampshire, USA, and created the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (World Bank). A wrong answer (e.g., \"1945 at Geneva\" or \"created the WTO\") reveals the student confuses the post-WWII monetary conference with the later UN monetary conferences or the 1995 WTO creation — a common board-exam trap where dates and venues of international meetings are interchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Bretton Woods system choose the US dollar — not the British pound or gold directly — as the anchor currency for fixed exchange rates?",
+     "a": "The US dollar was chosen because by 1944 the USA held about two-thirds of the world's official gold reserves, was the only major economy untouched by war destruction, and ran a massive trade surplus — making the dollar the only currency credible enough to be \"as good as gold.\" A wrong answer (e.g., \"because the US was the most powerful country\" without economic specifics) shows the student misses the concrete material basis (gold reserves, industrial capacity, trade position) that made the dollar the system's linchpin — a distinction CBSE marking schemes reward with full marks.",
+     "self_check": true
+    },
+    {
+     "q": "A country in the Bretton Woods system faces a persistent balance-of-payments deficit. According to the IMF rules of that era, what specific action was the country expected to take, and what role did the IMF play?",
+     "a": "The country was expected to devalue its currency (with IMF approval) to correct the deficit, and the IMF provided short-term loans to finance the deficit during adjustment — but only if the country followed IMF-prescribed austerity policies. A wrong answer (e.g., \"the IMF forced immediate devaluation\" or \"the country could print money freely\") reveals confusion between the Bretton Woods adjustable-peg system (where devaluation required IMF consent) and either the later floating regime or the gold standard's automatic mechanisms — a nuance frequently tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Bretton Woods fixed exchange rate system with the pre-1914 classical gold standard on two dimensions: (a) the role of gold, and (b) the adjustment mechanism for balance-of-payments imbalances.",
+     "a": "(a) Under the classical gold standard, gold circulated directly as money and all currencies were defined in gold weight; under Bretton Woods, only the US dollar was convertible to gold (at $35/ounce), and other currencies were pegged to the dollar — making gold indirect. (b) The gold standard adjusted automatically via gold flows (price-specie flow); Bretton Woods required deliberate policy changes (devaluation with IMF approval) and IMF lending. A wrong answer that says \"both used gold directly\" or \"both adjusted automatically\" shows the student cannot distinguish the managed nature of Bretton Woods from the self-correcting classical system — a comparative analysis skill CBSE competency questions demand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Bretton Woods system collapsed because the US abused its privilege as the issuer of the world's reserve currency.\" Support your judgment with two specific historical developments of the 1960s–1971.",
+     "a": "The statement is largely correct: (1) US military spending on the Vietnam War and domestic \"Great Society\" programs led to massive dollar outflows, so foreign central banks held dollars far exceeding US gold reserves (the Triffin Dilemma); (2) by 1971, US gold reserves fell to $10 billion against $30+ billion in foreign-held dollars, prompting President Nixon to suspend dollar-gold convertibility on August 15, 1971 (\"Nixon Shock\"). A weak evaluation that blames \"inflation\" generally without naming the Vietnam War, Great Society, or the specific gold-dollar mismatch shows the student lacks the evidence-based reasoning CBSE expects in 5-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline with four dated events showing the sequence from the Bretton Woods Conference to the system's collapse, and annotate each event with one cause or consequence.",
+     "a": "A strong timeline: (1) July 1944 — Conference creates IMF/World Bank, pegs currencies to dollar/gold; (2) 1958 — European currencies become fully convertible (system becomes operational); (3) 1968 — Two-tier gold market created (first crack, official price $35, market price higher); (4) August 15, 1971 — Nixon suspends dollar-gold convertibility (system ends). A poor timeline that omits 1958 convertibility or the 1968 two-tier market, or lists events out of order (e.g., puts Nixon Shock before the two-tier market), reveals the student cannot sequence the progressive erosion of the system — a chronological reasoning skill directly tested in board-exam timeline questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

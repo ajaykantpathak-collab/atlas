@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch04_025",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch04_025",
+   "title": "c6_geography_ch04_025",
+   "questions": [
+    {
+     "q": "What are two natural or human-made reasons why Indian farming faces challenges today?",
+     "a": "Two main reasons are water scarcity caused by the over-pumping of groundwater and soil degradation due to the overuse of chemical fertilizers. A wrong answer here suggests the student is confusing environmental challenges with market prices or lack of labor, which are outside the scope of this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the \"monsoon\" considered a challenge for Indian farmers?",
+     "a": "The monsoon is a challenge because it is uncertain—it can be delayed, too weak, or bring excessive rainfall, all of which can destroy a season's crops. A wrong answer suggests the student thinks the monsoon is always helpful, ignoring the risk of floods or droughts.",
+     "self_check": true
+    },
+    {
+     "q": "If a farmer in Punjab notices their tube well is pumping less water than it did five years ago, what is the most likely cause?",
+     "a": "The groundwater level has dropped because it is being used (recharged) faster than it can be refilled by rain. If the student answers \"the pump is broken,\" they are ignoring the environmental context of groundwater depletion in that specific region.",
+     "self_check": true
+    },
+    {
+     "q": "How does the overuse of chemical fertilizers impact the long-term health of the soil?",
+     "a": "Overusing chemicals reduces the natural fertility of the soil over time, making it harder for crops to grow without even more chemicals. A wrong answer indicates the student thinks chemicals always help plants grow, failing to understand the concept of \"degradation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Is free electricity for tube wells always good for the environment? Why or why not?",
+     "a": "No, because free electricity encourages farmers to pump as much groundwater as they want, often leading to the over-depletion of precious water reserves. A wrong answer shows the student is only thinking about the economic benefit to the farmer and not the sustainability of the water source.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, sustainable plan for a village that suffers from both water scarcity and low soil fertility.",
+     "a": "A good plan would include building check dams for rainwater harvesting (to address water) and switching to organic manure or composting (to address soil fertility). A poor answer would suggest \"buying more chemicals\" or \"digging deeper wells,\" which worsens the long-term problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

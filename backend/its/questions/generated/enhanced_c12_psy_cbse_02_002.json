@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_002",
+   "title": "c12_psy_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define self-efficacy and state the theorist associated with its origin. How does it differ from self-esteem in terms of scope (global vs. domain-specific)?",
+     "a": "Self-efficacy is the belief in one's capability to organize and execute actions required to manage prospective situations; it was proposed by Albert Bandura. Self-efficacy is domain-specific (e.g., \"I can solve math problems\"), whereas self-esteem is a global evaluation of self-worth (\"I am a worthwhile person\"). A wrong answer that defines self-efficacy as \"confidence\" without mentioning Bandura or domain-specificity reveals confusion between the two constructs and lack of theoretical grounding.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"I have high self-efficacy for public speaking because I got an A in English last year.\" Identify the source of self-efficacy information this student is using (Bandura's four sources) and explain why this particular source is the most powerful.",
+     "a": "The student is using mastery experiences (past performance accomplishments) — the most powerful source of self-efficacy because it provides direct, authentic evidence of one's capability. Vicarious experiences (observing others), verbal persuasion, and physiological states are the other three sources. A wrong answer that cites \"verbal persuasion\" or \"seeing others speak well\" reveals inability to distinguish between the four sources and misunderstanding of why direct success experiences are most influential.",
+     "self_check": true
+    },
+    {
+     "q": "Priya wants to stop procrastinating on her CUET preparation. She decides to: (a) record her study hours daily in a journal, (b) tell herself \"Start with just 10 minutes\" when she feels resistance, and (c) treat herself to a favourite snack after completing a 2-hour session. Map each strategy to the correct self-regulation technique (self-observation, self-instruction, self-reinforcement) and explain the psychological mechanism of each.",
+     "a": "(a) Recording study hours = self-observation (provides objective data to modify behavior). (b) \"Start with just 10 minutes\" = self-instruction (cognitive restructuring to overcome initiation barrier). (c) Snack after 2 hours = self-reinforcement (positive consequence strengthens the target behavior). A wrong mapping (e.g., calling the snack \"self-instruction\") reveals confusion between antecedent-focused (instruction) and consequence-focused (reinforcement) techniques.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how Bandura's social learning theory explains the development of self-efficacy versus how Skinner's operant conditioning would explain the same behavior change. Use the example of a child learning to ride a bicycle.",
+     "a": "Bandura: Child observes others riding (vicarious learning), forms cognitive representation, believes \"I can do it\" (self-efficacy), then attempts and succeeds — mastery experience strengthens self-efficacy. Skinner: Child's riding behavior is shaped by successive approximations reinforced by praise/parental attention; no cognitive mediation or self-belief construct needed. A wrong answer that equates the two or omits the cognitive mediational processes (observation → expectation → self-efficacy) reveals failure to grasp the social-cognitive vs. behaviorist distinction central to Bandura's theory.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"High self-esteem always leads to high academic achievement.\" Use research evidence from the NCERT text and the distinction between self-esteem and self-efficacy to justify your position.",
+     "a": "The statement is false. NCERT states: \"children with high academic self-esteem perform better in schools than those with low academic self-esteem\" — note the domain-specific qualifier \"academic self-esteem,\" not global self-esteem. Self-efficacy (belief about capability in a specific domain) is a stronger predictor of achievement than global self-esteem. High global self-esteem without domain-specific self-efficacy can lead to unrealistic optimism and poor effort. A wrong answer that agrees with the statement reveals conflation of global self-esteem with domain-specific self-efficacy and ignorance of the directional causality (achievement → self-esteem as much as self-esteem → achievement).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week self-regulation intervention for a Class 12 student who wants to reduce social media usage from 4 hours/day to 1 hour/day. Specify how you would incorporate all three techniques (self-observation, self-instruction, self-reinforcement) and include a method to measure progress.",
+     "a": "Week 1: Self-observation — install screen-time tracker, log daily usage without judgment. Week 2: Add self-instruction — set implementation intention: \"When I feel urge to open Instagram, I will take 3 deep breaths and open NCERT instead.\" Week 3: Add self-reinforcement — reward each day ≤1.5 hrs with 30 min guilt-free leisure; weekly reward for meeting target. Week 4: Fade external rewards, internalize self-praise. Measure: daily screen-time report, weekly average. A poor answer that omits baseline measurement, uses only punishment, or lacks specific self-instruction scripts reveals inability to operationalize abstract techniques into a structured behavior-change plan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,568 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 5,
+ "chapter_title": "Accounting Ratios",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.205.5.1",
+   "title": "Meaning and Groups of Accounting Ratios",
+   "section": "5.1",
+   "definition": "A ratio sets one statement figure against another to expose their relationship; the family splits into liquidity ratios (short-term paying ability), solvency ratios (long-term debt cover), activity or turnover ratios (speed of using assets) and profitability ratios (earning capacity).",
+   "formula": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
+   "key_idea": "Every ratio is just a division, but each division answers one specific question about the business.",
+   "textbook_ref": "leac205.txt sections 5.1-5.5 (lines 24-316)",
+   "question_patterns": [
+    "what is an accounting ratio and why is it computed",
+    "name the groups into which ratios are classified",
+    "which ratios measure short-term solvency of a firm",
+    "what do activity ratios tell about a business",
+    "how do profitability ratios differ from solvency ratios",
+    "state the objectives of computing accounting ratios"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the question's target", "explain": "identify whether the question asks about paying ability, debt safety, asset speed or earning power"},
+    {"step": 2, "action": "pick the ratio family", "explain": "liquidity for current obligations, solvency for long-term debt, activity for turnover, profitability for returns"},
+    {"step": 3, "action": "apply the standing formula", "explain": "each ratio has one fixed numerator and denominator pair drawn from the balance sheet or profit statement"}
+   ]
+  },
+  {
+   "id": "leac.205.4.1",
+   "title": "Advantages and Limitations of Ratio Analysis",
+   "section": "5.3",
+   "definition": "Ratio analysis simplifies statements, helps comparisons across firms and years, and spots weak spots quickly; yet it leans on historical, window-dressable figures, ignores price level shifts and qualitative facts, and means little without a standard or context to compare with.",
+   "formula": "ratio_usefulness = simplification_and_comparison - historical_and_judgement_bias",
+   "key_idea": "Ratios are as honest as the statements behind them and as meaningful as the benchmark beside them.",
+   "textbook_ref": "leac205.txt sections 5.3-5.4 (lines 100-252)",
+   "question_patterns": [
+    "state the advantages of ratio analysis",
+    "what are the limitations of accounting ratios",
+    "how does ratio analysis help in comparing firms",
+    "why can window dressing distort ratio analysis",
+    "does a ratio mean anything without a standard to compare",
+    "how do price level changes affect ratio analysis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the strengths", "explain": "simplifies figures, enables intra- and inter-firm comparison, helps forecasting and locating weakness"},
+    {"step": 2, "action": "list the weaknesses", "explain": "historical data, price level changes ignored, qualitative factors unseen, window dressing possible"},
+    {"step": 3, "action": "note the context need", "explain": "a ratio needs a benchmark -- past figure, industry norm or rule of thumb -- before it can be judged"}
+   ]
+  },
+  {
+   "id": "leac.205.6.1",
+   "title": "Current Ratio",
+   "section": "5.6.1",
+   "definition": "The current ratio divides all current assets by all current liabilities to show how many rupees of near-cash resources stand behind each rupee of near-term obligation, with two to one read as a comfortable norm.",
+   "formula": "current_ratio = current_assets / current_liabilities",
+   "key_idea": "Inventories, receivables, cash, prepaid and advance items all count on top; payables, short-term borrowings and short-term provisions all count below.",
+   "textbook_ref": "leac205.txt section 5.6.1, Illustration 1 (lines 317-391)",
+   "question_patterns": [
+    "calculate the current ratio from the given items",
+    "find the ratio of current assets to current liabilities",
+    "what is the ideal norm for the current ratio and why",
+    "work out the current ratio after totalling the current heads",
+    "does a very high current ratio signal strength or weakness",
+    "compute the short-term solvency ratio of a firm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the current assets", "explain": "add inventories, trade receivables, cash and equivalents, current investments, short-term loans and prepaid or advance items", "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"},
+    {"step": 2, "action": "total the current liabilities", "explain": "add trade payables, short-term borrowings, other current liabilities and short-term provisions", "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"},
+    {"step": 3, "action": "divide", "explain": "current assets over current liabilities, expressed as so many times or as a ratio to one", "compute": "current_ratio = current_assets / current_liabilities"}
+   ]
+  },
+  {
+   "id": "leac.205.6.2",
+   "title": "Quick or Liquid Ratio",
+   "section": "5.6.2",
+   "definition": "The quick ratio strips the least liquid current assets -- inventories and prepayments such as prepaid expenses and advance tax -- out of current assets before dividing by current liabilities, giving a sterner acid-test of paying ability around the one-to-one norm.",
+   "formula": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
+   "key_idea": "Only assets that convert to cash quickly may face the short-term bills; stock that must first be sold does not.",
+   "textbook_ref": "leac205.txt section 5.6.2, Illustrations 2-3 (lines 392-470)",
+   "question_patterns": [
+    "calculate the quick ratio from the given items",
+    "find the acid test ratio after excluding inventories",
+    "why are inventory and prepaid expenses left out of liquid assets",
+    "work out the liquid ratio and compare it with the one to one norm",
+    "compute quick assets first and then the liquidity ratio",
+    "which ratio is stricter than the current ratio in testing liquidity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "peel off the illiquid items", "explain": "deduct inventories and prepayments like prepaid expenses and advance tax from current assets", "compute": "quick_assets = current_assets - inventories - prepaid_expenses"},
+    {"step": 2, "action": "divide by current liabilities", "explain": "quick assets over current liabilities gives the acid test", "compute": "quick_ratio = quick_assets / current_liabilities"}
+   ]
+  },
+  {
+   "id": "leac.205.7.1",
+   "title": "Debt-Equity Ratio",
+   "section": "5.7.1",
+   "definition": "The debt-equity ratio divides long-term debts by shareholders' funds to show how much of the permanent financing came from outsiders; about two to one is the usual comfort line, and a smaller figure means more security for lenders.",
+   "formula": "debt_equity_ratio = long_term_debts / shareholders_funds",
+   "key_idea": "Borrowings plus long-term liabilities and provisions go on top; share capital, reserves, warrant money and pending application money go below.",
+   "textbook_ref": "leac205.txt section 5.7.1, Illustration 7 (lines 657-776)",
+   "question_patterns": [
+    "calculate the debt equity ratio from a balance sheet",
+    "find the proportion of long-term debt to shareholders funds",
+    "what debt equity ratio is considered safe for lenders",
+    "compute long-term debts first and then the leverage ratio",
+    "does a high debt equity ratio always hurt the owners",
+    "which items form the equity base of the debt equity ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the long-term debt", "explain": "long-term borrowings plus other long-term liabilities plus long-term provisions", "compute": "long_term_debts = long_term_borrowings + other_long_term_liabilities + long_term_provisions"},
+    {"step": 2, "action": "total the equity", "explain": "share capital plus reserves and surplus plus money received against warrants (and pending application money)", "compute": "shareholders_funds = share_capital + reserves_and_surplus + money_against_warrants"},
+    {"step": 3, "action": "divide debt by equity", "explain": "the quotient shows the times-cover of owner money by borrowed long-term money", "compute": "debt_equity_ratio = long_term_debts / shareholders_funds"}
+   ]
+  },
+  {
+   "id": "leac.205.7.2",
+   "title": "Total Assets to Debt Ratio",
+   "section": "5.7.4",
+   "definition": "This solvency measure divides total assets by long-term debts to show how fully the asset base covers the long-term borrowing; a bigger figure means owners' money, not outside loans, financed the assets.",
+   "formula": "total_assets_to_debt_ratio = total_assets / long_term_debts",
+   "key_idea": "A high cover tells the lender that even a shrinkage of assets would still protect the long-term loan.",
+   "textbook_ref": "leac205.txt section 5.7.4 (lines 936-950), Illustration 9 (lines 955-993)",
+   "question_patterns": [
+    "calculate the total assets to debt ratio",
+    "how many times do total assets cover the long-term debts",
+    "find the ratio of total assets to long-term borrowings",
+    "does a higher assets to debt ratio comfort the lender",
+    "compute the coverage of debt by the whole asset base",
+    "what does the assets to debt ratio reveal about financing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the assets", "explain": "add non-current assets and current assets from the balance sheet", "compute": "total_assets = non_current_assets + current_assets"},
+    {"step": 2, "action": "divide by the long-term debt", "explain": "total assets over long-term debts gives the cover", "compute": "total_assets_to_debt_ratio = total_assets / long_term_debts"}
+   ]
+  },
+  {
+   "id": "leac.205.7.3",
+   "title": "Interest Coverage Ratio",
+   "section": "5.7.5",
+   "definition": "The interest coverage ratio divides profit before interest and tax by the interest payable on long-term debts, showing how many times over the earnings could pay the year's interest bill.",
+   "formula": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts",
+   "key_idea": "Given profit after tax, climb back up: gross up for tax, add the interest back, then divide by interest.",
+   "textbook_ref": "leac205.txt section 5.7.5, Illustration 11 (lines 1097-1135)",
+   "question_patterns": [
+    "calculate the interest coverage ratio from profit after tax",
+    "how many times does profit cover the interest on debentures",
+    "find the ratio of profit before interest and tax to interest",
+    "gross up the profit after tax for tax and then compute coverage",
+    "what coverage figure keeps the lender safe",
+    "compute interest on long-term debt at the stated coupon"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "gross the profit back up for tax", "explain": "multiply profit after tax by one hundred and divide by the net-of-tax percentage", "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"},
+    {"step": 2, "action": "price the interest bill", "explain": "multiply the long-term debt by its interest rate", "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"},
+    {"step": 3, "action": "add interest back", "explain": "profit before tax plus interest gives profit before interest and tax", "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"},
+    {"step": 4, "action": "divide by interest", "explain": "the quotient is the number of times interest is covered", "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"}
+   ]
+  },
+  {
+   "id": "leac.205.8.1",
+   "title": "Inventory Turnover Ratio",
+   "section": "5.8.1",
+   "definition": "The inventory turnover ratio divides the cost of revenue from operations by the average of opening and closing inventory to show how many times the stock was converted into sales during the year.",
+   "formula": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory",
+   "key_idea": "Gross profit is removed first so the ratio compares cost with cost; a low figure warns of slow-moving or obsolete stock.",
+   "textbook_ref": "leac205.txt section 5.8.1, Illustration 12 (lines 1157-1174, 1247-1290)",
+   "question_patterns": [
+    "calculate the inventory turnover ratio from the given data",
+    "how many times did the stock turn over during the year",
+    "find the cost of revenue from operations and divide by average stock",
+    "compute average inventory from opening and closing balances",
+    "what does a falling inventory turnover warn about",
+    "build up the cost of revenue from purchases, wages and carriage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the cost side", "explain": "opening inventory plus net purchases plus direct expenses such as wages and carriage inwards", "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"},
+    {"step": 2, "action": "average the stock levels", "explain": "opening plus closing inventory halved", "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"},
+    {"step": 3, "action": "divide cost by average stock", "explain": "the quotient is the number of stock turns in the period", "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"}
+   ]
+  },
+  {
+   "id": "leac.205.8.2",
+   "title": "Trade Receivables Turnover Ratio",
+   "section": "5.8.2",
+   "definition": "The trade receivables turnover ratio divides net credit revenue from operations by average trade receivables to show how quickly customers pay, and dividing the days in the period by it yields the average collection period.",
+   "formula": "receivables_turnover_ratio = credit_revenue_from_operations / average_trade_receivables",
+   "key_idea": "Debtors are taken before any provision for doubtful debts, and the collection period is just the period length split by the turnover.",
+   "textbook_ref": "leac205.txt section 5.8.2, Illustration 15 (lines 1388-1460)",
+   "question_patterns": [
+    "calculate the trade receivables turnover ratio",
+    "find the average collection period from the turnover",
+    "separate credit revenue from cash revenue and compute turnover",
+    "average the opening and closing debtors and divide credit sales",
+    "how fast do customers settle their bills on average",
+    "should provision for doubtful debts reduce the debtors figure here"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "isolate the credit revenue", "explain": "total revenue from operations minus cash revenue from operations", "compute": "credit_revenue_from_operations = total_revenue_from_operations - cash_revenue_from_operations"},
+    {"step": 2, "action": "average the receivables", "explain": "opening debtors and bills receivable plus closing, halved, before provisions", "compute": "average_trade_receivables = (opening_trade_receivables + closing_trade_receivables) / 2"},
+    {"step": 3, "action": "divide", "explain": "credit revenue over average receivables gives the turns per period", "compute": "receivables_turnover_ratio = credit_revenue_from_operations / average_trade_receivables"}
+   ]
+  },
+  {
+   "id": "leac.205.8.3",
+   "title": "Trade Payables Turnover Ratio",
+   "section": "5.8.3",
+   "definition": "The trade payables turnover ratio divides net credit purchases by average trade payables to show how fast the firm settles its suppliers, and the period length over the ratio gives the average payment period.",
+   "formula": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
+   "key_idea": "A very low ratio can mean generous supplier credit -- or delayed payments that damage the firm's reputation.",
+   "textbook_ref": "leac205.txt section 5.8.3, Illustration 16 (lines 1461-1505)",
+   "question_patterns": [
+    "calculate the trade payables turnover ratio",
+    "find the average payment period allowed by suppliers",
+    "divide net credit purchases by the average of creditors and bills payable",
+    "how quickly does the firm pay its suppliers on average",
+    "does a lower payables turnover always mean good bargaining",
+    "combine creditors and bills payable into one average figure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "average the payables", "explain": "opening creditors and bills payable plus closing, halved", "compute": "average_trade_payables = (opening_trade_payables + closing_trade_payables) / 2"},
+    {"step": 2, "action": "divide credit purchases by the average", "explain": "net credit purchases over average payables gives the turns", "compute": "payables_turnover_ratio = net_credit_purchases / average_trade_payables"}
+   ]
+  },
+  {
+   "id": "leac.205.8.4",
+   "title": "Capital Employed Turnover Ratio",
+   "section": "5.8.4",
+   "definition": "The capital employed turnover ratio divides revenue from operations by capital employed -- shareholders' funds plus long-term debts, or non-current assets plus working capital -- to show how much revenue each rupee of long-term funds generated.",
+   "formula": "capital_employed_turnover = revenue_from_operations / capital_employed",
+   "key_idea": "Higher turnover of the long-term fund base means the resources entrusted to the firm are being worked harder.",
+   "textbook_ref": "leac205.txt section 5.8.4, Illustration 18 (lines 1597-1767)",
+   "question_patterns": [
+    "calculate the capital employed turnover ratio",
+    "find the net assets turnover of a company",
+    "how much revenue does each rupee of capital employed earn",
+    "build capital employed from funds and long-term debts first",
+    "compare the efficiency of two firms using capital employed turnover",
+    "state the two ways of arriving at capital employed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "assemble capital employed", "explain": "shareholders' funds plus long-term borrowings and debts", "compute": "capital_employed = shareholders_funds + long_term_debts"},
+    {"step": 2, "action": "divide revenue by the fund base", "explain": "revenue from operations over capital employed gives the turnover", "compute": "capital_employed_turnover = revenue_from_operations / capital_employed"}
+   ]
+  },
+  {
+   "id": "leac.205.9.1",
+   "title": "Gross Profit Ratio",
+   "section": "5.9.1",
+   "definition": "The gross profit ratio states gross profit -- revenue from operations minus cost of revenue from operations -- as a percentage of revenue, measuring the margin left to absorb all later expenses.",
+   "formula": "gross_profit_ratio = gross_profit / revenue_from_operations * 100",
+   "key_idea": "A thicker gross margin means room for operating costs; a thin one exposes the firm to any cost rise.",
+   "textbook_ref": "leac205.txt section 5.9.1, Illustrations 19-20 (lines 1796-1856, 1892-1941)",
+   "question_patterns": [
+    "calculate the gross profit ratio as a percentage",
+    "find the gross margin on revenue from operations",
+    "deduct cost of revenue from sales and express the profit percent",
+    "why is a higher gross profit ratio considered good",
+    "compute gross profit first and then the ratio",
+    "what changes in price or cost move the gross profit ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "measure the gross profit", "explain": "revenue from operations less cost of revenue from operations", "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"},
+    {"step": 2, "action": "express it as a percentage", "explain": "gross profit over revenue, times one hundred", "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"}
+   ]
+  },
+  {
+   "id": "leac.205.9.2",
+   "title": "Operating Ratio",
+   "section": "5.9.2",
+   "definition": "The operating ratio puts the cost of operations -- cost of revenue from operations plus operating expenses like selling, administration and depreciation -- as a percentage of revenue from operations, deliberately leaving out non-operating items and interest.",
+   "formula": "operating_ratio = (cost_of_revenue_from_operations + operating_expenses) / revenue_from_operations * 100",
+   "key_idea": "The lower the operating ratio, the healthier the cost structure; it excludes financing charges by design.",
+   "textbook_ref": "leac205.txt section 5.9.2, Illustration 20 (lines 1857-1870, 1892-1941)",
+   "question_patterns": [
+    "calculate the operating ratio of a company",
+    "express cost of operations as a percentage of revenue",
+    "which expenses enter the operating cost and which stay out",
+    "find the operating ratio after adding selling and administrative expenses",
+    "why is interest excluded from the operating ratio",
+    "does a lower operating ratio indicate efficiency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the operating cost", "explain": "cost of revenue from operations plus operating expenses", "compute": "operating_cost = cost_of_revenue_from_operations + operating_expenses"},
+    {"step": 2, "action": "state it as a percentage of revenue", "explain": "operating cost over revenue from operations, times one hundred", "compute": "operating_ratio = operating_cost / revenue_from_operations * 100"}
+   ]
+  },
+  {
+   "id": "leac.205.9.3",
+   "title": "Operating Profit Ratio",
+   "section": "5.9.3",
+   "definition": "The operating profit ratio is the mirror of the operating ratio: one hundred minus the operating ratio, or operating profit over revenue from operations as a percentage, showing the margin earned purely from operations.",
+   "formula": "operating_profit_ratio = 100 - operating_ratio",
+   "key_idea": "Operating profit is revenue less operating cost, so the two ratios must together exhaust the hundred percent.",
+   "textbook_ref": "leac205.txt section 5.9.3 (lines 1871-1891)",
+   "question_patterns": [
+    "calculate the operating profit ratio from the operating ratio",
+    "find the operating margin as a percentage of revenue",
+    "subtract the operating ratio from one hundred to get the profit ratio",
+    "compute operating profit first and then its percentage of revenue",
+    "do the operating and operating profit ratios always sum to one hundred",
+    "why is the operating profit ratio the residual of the operating ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the residual of one hundred", "explain": "operating profit ratio equals one hundred minus the operating ratio", "compute": "operating_profit_ratio = 100 - operating_ratio"}
+   ]
+  },
+  {
+   "id": "leac.205.9.4",
+   "title": "Net Profit Ratio",
+   "section": "5.9.4",
+   "definition": "The net profit ratio relates net profit -- usually after tax and including both operating and non-operating results -- to revenue from operations as a percentage, summarising the overall profitability of every rupee of sales.",
+   "formula": "net_profit_ratio = net_profit / revenue_from_operations * 100",
+   "key_idea": "This all-inclusive margin is the base investors look at, and it feeds straight into return on investment sums.",
+   "textbook_ref": "leac205.txt section 5.9.4, Illustration 21 (lines 1945-1985)",
+   "question_patterns": [
+    "calculate the net profit ratio of a company",
+    "express net profit as a percentage of revenue from operations",
+    "does the net profit ratio use profit before or after tax",
+    "find the net margin after indirect expenses",
+    "why is the net profit ratio significant for investors",
+    "compute the net margin from gross profit less indirect expenses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "confirm the net profit", "explain": "profit after all expenses and incomes, generally taken after tax", "compute": "net_profit = revenue_from_operations - indirect_expenses"},
+    {"step": 2, "action": "state it as a percentage of revenue", "explain": "net profit over revenue from operations, times one hundred", "compute": "net_profit_ratio = net_profit / revenue_from_operations * 100"}
+   ]
+  },
+  {
+   "id": "leac.205.9.5",
+   "title": "Return on Capital Employed",
+   "section": "5.9.5",
+   "definition": "Return on capital employed divides profit before interest and tax by capital employed -- the long-term funds of shareholders, debenture holders and long-term lenders -- as a percentage, testing how well the whole permanent fund base was used.",
+   "formula": "return_on_capital_employed = profit_before_interest_and_tax / capital_employed * 100",
+   "key_idea": "Interest and tax are added back so the return can fairly be compared against the cost of borrowed funds.",
+   "textbook_ref": "leac205.txt section 5.9.5 (lines 1986-2006)",
+   "question_patterns": [
+    "calculate return on capital employed for the year",
+    "find the return on investment as a percentage",
+    "compute profit before interest and tax and divide by capital employed",
+    "what return did the long-term funds earn in the business",
+    "should interest and tax be added back before this return",
+    "compare the return on capital employed with the interest rate paid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "assemble the capital base", "explain": "shareholders' funds plus long-term borrowings and debts", "compute": "capital_employed = shareholders_funds + long_term_debts"},
+    {"step": 2, "action": "state the return", "explain": "profit before interest and tax over capital employed, times one hundred", "compute": "return_on_capital_employed = profit_before_interest_and_tax / capital_employed * 100"}
+   ]
+  },
+  {
+   "id": "leac.205.9.6",
+   "title": "Return on Shareholders Funds",
+   "section": "5.9.6",
+   "definition": "Return on shareholders' funds (return on net worth) divides profit after tax by shareholders' funds as a percentage, answering the owners' own question of what their money earned inside the business.",
+   "formula": "return_on_shareholders_funds = profit_after_tax / shareholders_funds * 100",
+   "key_idea": "For leverage to help the owners, this return must beat the return earned on the whole capital employed.",
+   "textbook_ref": "leac205.txt section 5.9.6 (lines 2007-2018)",
+   "question_patterns": [
+    "calculate the return on shareholders funds",
+    "find the return on net worth of a company",
+    "divide profit after tax by shareholders funds and express as percent",
+    "what return did the owners' capital generate this year",
+    "how does this return relate to return on capital employed",
+    "is the owners' money earning more than the interest cost of debt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "confirm the equity base", "explain": "share capital plus reserves and surplus plus warrant money", "compute": "shareholders_funds = share_capital + reserves_and_surplus"},
+    {"step": 2, "action": "state the owners' return", "explain": "profit after tax over shareholders' funds, times one hundred", "compute": "return_on_shareholders_funds = profit_after_tax / shareholders_funds * 100"}
+   ]
+  },
+  {
+   "id": "leac.205.9.7",
+   "title": "Earnings per Share",
+   "section": "5.9.7",
+   "definition": "Earnings per share splits the profit left for equity shareholders -- profit after tax minus preference dividend -- equally across every equity share outstanding.",
+   "formula": "earnings_per_share = (profit_after_tax - preference_dividend) / number_of_equity_shares",
+   "key_idea": "Preference dividend must leave first; what remains belongs entirely to the ordinary shares.",
+   "textbook_ref": "leac205.txt section 5.9.7 (lines 2019-2029)",
+   "question_patterns": [
+    "calculate earnings per share of the company",
+    "find the profit available for each equity share",
+    "deduct preference dividend and divide by the number of equity shares",
+    "why is preference dividend removed before computing EPS",
+    "compute basic earnings per share from the profit statement",
+    "how does EPS guide the market price of a share"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "reserve the preference claim", "explain": "profit after tax minus the preference dividend is what equity owns", "compute": "earnings_for_equity = profit_after_tax - preference_dividend"},
+    {"step": 2, "action": "spread over the shares", "explain": "divide by the number of equity shares outstanding", "compute": "earnings_per_share = earnings_for_equity / number_of_equity_shares"}
+   ]
+  },
+  {
+   "id": "leac.205.9.9",
+   "title": "Dividend Payout Ratio",
+   "section": "5.9.9",
+   "definition": "The dividend payout ratio sets dividend per share against earnings per share to show what slice of the profit the company handed to shareholders and what slice stayed back for growth.",
+   "formula": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
+   "key_idea": "A high payout favours income now; a low payout feeds future expansion through retained earnings.",
+   "textbook_ref": "leac205.txt section 5.9.9 (lines 2038-2045)",
+   "question_patterns": [
+    "calculate the dividend payout ratio",
+    "what portion of earnings was paid out as dividend",
+    "compare dividend per share with earnings per share",
+    "what does a low payout ratio say about growth plans",
+    "compute the retention implied by the payout ratio",
+    "state the ratio showing the share of profit distributed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "put dividend over earnings", "explain": "dividend per share divided by earnings per share, times one hundred", "compute": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac205.txt Illustration 1 (current ratio)",
+   "concept": "leac.205.6.1",
+   "question_type": "numeric",
+   "question_pattern": "From inventories Rs.{inventories}, trade receivables Rs.{trade_receivables}, advance tax Rs.{prepaid_expenses}, cash Rs.{cash_and_equivalents}, trade payables Rs.{trade_payables} and bank overdraft Rs.{short_term_borrowings}, calculate the current ratio.",
+   "extracted_variables": {
+    "inventories": 50000,
+    "trade_receivables": 50000,
+    "prepaid_expenses": 4000,
+    "cash_and_equivalents": 30000,
+    "trade_payables": 100000,
+    "short_term_borrowings": 4000,
+    "short_term_provisions": 0
+   },
+   "solution_template": [
+    {"step": 1, "action": "total the current assets", "explain": "50000 + 50000 + 4000 + 30000 = 134000", "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"},
+    {"step": 2, "action": "total the current liabilities", "explain": "100000 + 4000 + 0 = 104000", "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"},
+    {"step": 3, "action": "divide", "explain": "134000 / 104000 = 1.2885, about 1.29 : 1", "compute": "current_ratio = current_assets / current_liabilities"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac205.txt Illustration 2 (quick ratio)",
+   "concept": "leac.205.6.2",
+   "question_type": "numeric",
+   "question_pattern": "Current assets are Rs.{current_assets}, inventories Rs.{inventories} and advance tax Rs.{prepaid_expenses}; current liabilities stand at Rs.{current_liabilities}. Find the quick ratio.",
+   "extracted_variables": {
+    "current_assets": 134000,
+    "inventories": 50000,
+    "prepaid_expenses": 4000,
+    "current_liabilities": 104000
+   },
+   "solution_template": [
+    {"step": 1, "action": "peel off the illiquid items", "explain": "134000 - 50000 - 4000 = 80000", "compute": "quick_assets = current_assets - inventories - prepaid_expenses"},
+    {"step": 2, "action": "divide by current liabilities", "explain": "80000 / 104000 = 0.7692, about 0.77 : 1", "compute": "quick_ratio = quick_assets / current_liabilities"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac205.txt Illustration 11 (interest coverage)",
+   "concept": "leac.205.7.3",
+   "question_type": "numeric",
+   "question_pattern": "Profit after tax is Rs.{profit_after_tax}, the tax rate is {tax_rate_percent} percent, and fifteen percent long-term debt totals Rs.{long_term_debts}. Compute the interest coverage ratio.",
+   "extracted_variables": {
+    "profit_after_tax": 60000,
+    "tax_rate_percent": 40,
+    "long_term_debts": 1000000,
+    "interest_rate": 0.15
+   },
+   "solution_template": [
+    {"step": 1, "action": "gross the profit back up for tax", "explain": "60000 x 100 / (100 - 40) = 100000", "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"},
+    {"step": 2, "action": "price the interest bill", "explain": "1000000 x 0.15 = 150000", "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"},
+    {"step": 3, "action": "add interest back", "explain": "100000 + 150000 = 250000", "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"},
+    {"step": 4, "action": "divide by interest", "explain": "250000 / 150000 = 1.6667 times", "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac205.txt Illustration 12 (inventory turnover)",
+   "concept": "leac.205.8.1",
+   "question_type": "numeric",
+   "question_pattern": "Opening inventory Rs.{opening_inventory}, closing inventory Rs.{closing_inventory}, net purchases Rs.{net_purchases}, wages Rs.{wages}, carriage inwards Rs.{carriage}: find the inventory turnover ratio.",
+   "extracted_variables": {
+    "opening_inventory": 18000,
+    "closing_inventory": 22000,
+    "net_purchases": 46000,
+    "direct_expenses": 18000
+   },
+   "solution_template": [
+    {"step": 1, "action": "build the cost side", "explain": "18000 + 46000 + (14000 + 4000) = 82000", "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"},
+    {"step": 2, "action": "average the stock levels", "explain": "(18000 + 22000) / 2 = 20000", "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"},
+    {"step": 3, "action": "divide cost by average stock", "explain": "82000 / 20000 = 4.1 times", "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leac205.txt Illustration 20 (gross profit and operating ratio)",
+   "concept": "leac.205.9.1",
+   "question_type": "numeric",
+   "question_pattern": "Revenue from operations is Rs.{revenue_from_operations} and cost of revenue from operations is Rs.{cost_of_revenue_from_operations}. What is the gross profit ratio?",
+   "extracted_variables": {
+    "revenue_from_operations": 340000,
+    "cost_of_revenue_from_operations": 120000
+   },
+   "solution_template": [
+    {"step": 1, "action": "measure the gross profit", "explain": "340000 - 120000 = 220000", "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"},
+    {"step": 2, "action": "express it as a percentage", "explain": "220000 / 340000 x 100 = 64.71 percent", "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac205.txt Questions for Practice, Short Answer Q1-Q7",
+   "questions": [
+    "what do accounting ratios offer to the users of statements",
+    "state the meaning of liquidity ratio and name its kinds",
+    "how is the debt equity ratio read as a safety signal",
+    "explain inventory turnover and its warning signs",
+    "what does the interest coverage ratio reveal",
+    "define working capital turnover ratio",
+    "state the objective of computing activity ratios"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac205.txt Questions for Practice, Long Answer Q1-Q4",
+   "questions": [
+    "explain the usefulness and the limits of ratio analysis",
+    "discuss the liquidity ratios with their norms and significance",
+    "describe the solvency ratios a firm may compute",
+    "set out the profitability ratios from gross margin to return on funds"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac205.txt Illustrations 1-3, 7, 9",
+   "questions": [
+    "total the current heads and compute the current ratio and quick ratio",
+    "from a balance sheet, compute the debt equity ratio and total assets to debt ratio"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac205.txt Illustrations 12, 15, 16, 19-21",
+   "questions": [
+    "compute inventory turnover from purchases, wages and stock balances",
+    "find receivables turnover and the collection period after splitting cash and credit sales",
+    "calculate gross profit ratio and operating ratio from revenue, cost and expense figures"
+   ]
+  }
+ ]
+}

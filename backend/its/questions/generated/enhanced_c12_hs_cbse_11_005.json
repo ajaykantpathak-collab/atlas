@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_005",
+   "title": "c12_hs_cbse_11_005",
+   "questions": [
+    {
+     "q": "Define \"time use pattern\" and list the four standard categories used to classify daily activities in home science.",
+     "a": "Time use pattern is the distribution of a person's 24 hours across different types of activities. The four standard categories are: (1) Obligatory (work, school), (2) Committed (household chores, caregiving), (3) Discretionary (leisure, hobbies, social media), and (4) Personal maintenance (sleep, meals, hygiene). A wrong answer that omits \"personal maintenance\" or merges obligatory and committed reveals the student has not internalized the NCERT classification and will misallocate time in a plan.",
+     "self_check": true
+    },
+    {
+     "q": "A student records her day and finds she spends 9 hours sleeping, 2 hours eating, 6 hours in school, 1 hour commuting, 3 hours on homework, 2 hours on phone, and 1 hour exercising. Classify each activity into the four categories and explain why \"commuting\" is not discretionary.",
+     "a": "Obligatory: school (6 h). Committed: commuting (1 h), homework (3 h). Discretionary: phone (2 h), exercise (1 h) — though exercise could be personal maintenance if for health. Personal maintenance: sleep (9 h), meals (2 h). Commuting is committed because it is a necessary consequence of attending school; the student has no control over its duration once the school is chosen. Misclassifying commuting as discretionary shows the student confuses \"choice of activity\" with \"choice of time allocation\" — a common error that leads to unrealistic time plans.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data from Question 2, calculate the percentage of waking hours (15 h) spent on discretionary activities. Then propose a reallocation that increases homework by 30 minutes without reducing sleep or meals.",
+     "a": "Total discretionary = phone (2 h) + exercise (1 h) = 3 h. Percentage = (3/15) × 100 = 20%. To add 30 min to homework, reduce phone use from 2 h to 1.5 h. New homework = 3.5 h, phone = 1.5 h. A wrong answer that reduces sleep or meals violates physiological minimums; a student who does this has not grasped that personal maintenance is non-negotiable in time planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"time diary method\" and the \"recall method\" for recording time use. Identify two advantages and two limitations of each for a family with two working parents and school-going children.",
+     "a": "Time diary: Advantages — real-time accuracy, captures sequence and duration simultaneously; Limitations — high respondent burden, may alter natural behavior (Hawthorne effect). Recall method: Advantages — low burden, quick for large samples; Limitations — recall bias (overestimation of productive tasks, underestimation of leisure), poor at capturing multitasking. A student who claims recall is \"more accurate because people remember important things\" misunderstands systematic bias; this misconception leads to flawed time-use data in research and personal planning.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this weekly time plan for a Class 12 student: \"Study 4 h/day, Sleep 6 h, Meals 1 h, School 6 h, Commuting 2 h, Phone 3 h, Exercise 0 h, Family time 2 h.\" Use the concepts of physiological minimums, buffer time, and goal alignment.",
+     "a": "The plan violates three principles: (1) Sleep 6 h < 7 h minimum → cognitive impairment. (2) Zero exercise and zero buffer → no contingency for overruns, no health maintenance. (3) Phone 3 h is 20% of waking hours, disproportionate to stated goal of board exam preparation. A student who defends this plan by saying \"I can catch up on sleep on weekends\" shows a misconception that sleep debt is fully reversible; research shows chronic partial sleep loss accumulates. The plan must be redesigned with sleep ≥ 7 h, exercise ≥ 30 min, buffers of 15 min between major blocks, and phone capped at 1 h.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day time plan for a homemaker who manages a home-based tailoring business, has two school-age children, and wants to include 30 minutes of skill-upgradation (online course). The plan must show time blocks, category labels, and at least two buffers. Present it in a table format.",
+     "a": "A good answer will produce a table with 24 rows (or half-hour blocks) showing: sleep 7 h (personal maintenance), meals 2 h (personal maintenance), childcare 3 h (committed), tailoring 5 h (obligatory), household chores 2 h (committed), online course 0.5 h (discretionary/skill), family time 1 h (discretionary), buffers 2 × 15 min (between tailoring and chores, after children's bedtime), and 3.5 h discretionary/leisure. A poor answer that omits buffers, schedules the course at 11 pm after a 14-hour workday, or does not label categories reveals the student cannot translate theory into a realistic, labeled schedule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_002",
+   "title": "c11_bs_cbse_11_002",
+   "questions": [
+    {
+     "q": "State the two fundamental reasons why countries cannot produce all goods equally well or cheaply, as given in the textbook.",
+     "a": "The two reasons are: (1) unequal distribution of natural resources among nations, and (2) differences in productivity levels due to socio-economic, geographical, and political factors. A wrong answer that mentions only \"different costs\" or \"different currencies\" reveals the student has not grasped the root cause — factor endowment and productivity differences — and is confusing symptoms with causes.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why international business is based on the same principle of territorial division of labour that operates between states within a country.",
+     "a": "Just as West Bengal specialises in jute and Maharashtra in cotton textiles because of their respective resource advantages, countries specialise in goods they can produce more efficiently (e.g., labour-abundant nations in garments, capital-abundant nations in machinery) and trade the surplus. A wrong answer that says \"countries trade because they want to\" or \"to earn money\" shows the student misses the efficiency rationale and treats trade as arbitrary rather than driven by comparative advantage.",
+     "self_check": true
+    },
+    {
+     "q": "Country A has abundant skilled labour but little capital. Country B has abundant capital but scarce skilled labour. According to the principle discussed, which type of goods should Country A export and which should it import? Justify in two sentences.",
+     "a": "Country A should export labour-intensive, skill-intensive goods (e.g., software services, garments) and import capital-intensive goods (e.g., heavy machinery, semiconductors). A wrong answer that reverses the pattern or says \"both should produce everything\" indicates the student cannot apply factor-endowment logic to a concrete country pair.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus of benefits to nations versus benefits to firms. Identify one benefit that appears on both lists but operates at a different level, and explain the difference.",
+     "a": "\"Employment\" appears for nations (job creation for citizens) and \"capacity utilisation\" for firms (using idle plant to maintain jobs). The national benefit is macroeconomic (aggregate employment, social stability); the firm benefit is microeconomic (lower unit cost, higher profit). A wrong answer that lists identical benefits without distinguishing the level of analysis shows the student treats the two lists as interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"International business benefits only large multinational corporations; small domestic firms gain nothing from going global.\" Use at least two firm-level benefits from the chapter to support your critique.",
+     "a": "The statement is false. Small firms can gain higher profits by selling in markets with higher prices, and they can utilise surplus capacity that would otherwise lie idle, achieving economies of scale. A wrong answer that agrees with the statement or cites only \"foreign exchange\" (a national benefit) reveals the student cannot differentiate firm-level incentives and overlooks the textbook's explicit mention of \"way out to intense competition in domestic market\" for small firms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief scenario (3-4 sentences) where an Indian firm decides to enter international business. Identify the primary motivating benefit for the firm and the primary benefit for the nation, and justify why each fits.",
+     "a": "Example: \"GreenFab, a Tamil Nadu textile firm, faces saturated domestic demand and idle looms. It begins exporting organic cotton shirts to Europe, earning higher margins and running at full capacity.\" Firm benefit: higher profits and capacity utilisation. Nation benefit: foreign exchange earnings and employment retention. A poor scenario that only mentions \"making more money\" without linking to specific textbook benefits shows the student cannot map real situations to the conceptual framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

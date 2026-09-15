@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_005",
+   "title": "c11_ps_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the core difference between formal equality and substantive equality in the context of the Indian Constitution?",
+     "a": "Formal equality requires identical treatment of all individuals by the state (Article 14: equality before law), while substantive equality permits differential treatment (e.g., reservations, special provisions for women and children under Article 15(3), for socially and educationally backward classes under Article 15(4)) to address historical disadvantages and ensure equal outcomes. A wrong answer that equates the two or claims substantive equality violates Article 14 reveals a misunderstanding that the Constitution itself envisages exceptions to formal equality for achieving real equality.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT textbook argue that formal equality (equality before law) is necessary but not sufficient for a just society? Use the example of disabled access to public buildings.",
+     "a": "Formal equality would treat disabled and able-bodied persons identically (e.g., only stairs at building entrance), but this denies disabled persons actual access. Substantive equality requires ramps/lifts (differential treatment) so they can enjoy the same right to enter. A wrong answer that says \"formal equality already gives them the right to enter, so ramps are extra privilege\" misses that identical treatment can perpetuate exclusion; the Constitution recognizes this via reasonable accommodation.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a policy: \"All government job applications must be submitted online only.\" A tribal rights group challenges this as violating substantive equality for candidates from remote areas with no internet. Analyze this using the formal vs substantive equality framework.",
+     "a": "The policy applies formal equality (same online process for all) but ignores structural barriers (digital divide) that disproportionately affect tribal candidates. Substantive equality would require alternative offline modes or facilitation centers. The correct analysis identifies that identical procedure can be discriminatory in effect; the state must take positive steps to ensure equal opportunity (Article 16). A wrong answer that defends the policy as \"equal treatment\" fails to see indirect discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional basis for formal equality (Article 14) and substantive equality (Articles 15(3), 15(4), 16(4)). How do these provisions relate to each other? Are they in conflict?",
+     "a": "Article 14 guarantees equality before law and equal protection of laws (formal equality). Articles 15(3), 15(4), 16(4) are enabling provisions that allow the state to make special provisions for women/children, socially/educationally backward classes, SCs/STs (substantive equality). They are not in conflict; the latter are exceptions carved out to achieve the true spirit of Article 14. A wrong answer that sees them as contradictory misunderstands that substantive equality is a means to fulfill the promise of formal equality for disadvantaged groups.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Reservation in promotions for SC/ST employees violates formal equality because it treats similarly situated employees differently based on caste.\" Provide a reasoned judgment using the concept of substantive equality.",
+     "a": "The statement reflects a formal equality perspective. Substantive equality argues that historical exclusion and ongoing structural barriers mean SC/ST employees are not \"similarly situated\" in terms of access to networks, mentorship, and implicit bias. Reservations in promotions (upheld in M. Nagaraj v. Union of India with conditions) are a compensatory measure to ensure adequate representation at higher levels. Judgment: The policy is consistent with substantive equality if it meets the criteria of backwardness, inadequacy of representation, and administrative efficiency. A wrong answer that simply calls it \"reverse discrimination\" ignores the constitutional mandate for substantive equality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a school admission policy for a prestigious public university that balances formal equality (merit-based entrance exam) with substantive equality (addressing educational disparities). Outline the key features and justify each using constitutional principles.",
+     "a": "A good policy would: (1) Retain a common entrance exam (formal equality), (2) Reserve seats for SC/ST/OBC/EWS (Article 15(4), 16(4)), (3) Provide weightage for students from rural/remote schools or first-generation learners (substantive equality), (4) Offer bridge courses and financial aid. Justification: Formal equality ensures transparency; substantive measures address unequal starting points. A poor answer that proposes only merit-based admission ignores structural inequality; one that proposes only reservations without merit basis may violate the \"creamy layer\" and efficiency principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 105,
+ "chapter_title": "Magnetism and Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph105.txt",
+ "concepts": [
+  {
+   "id": "leph.105.1",
+   "title": "Magnetic Field Lines and Properties",
+   "section": "5.2.1",
+   "definition": "Visual continuous curves used to represent the magnitude and directional orientation of a magnetic field in space.",
+   "formula": "net_flux = 0",
+   "key_idea": "Magnetic field lines form continuous closed loops without start or end points.",
+   "textbook_ref": "leph105.txt lines 30-70",
+   "question_patterns": [
+    "in Class 12 magnetism what are the main properties of magnetic field lines",
+    "verify why magnetic field lines must form continuous closed loops",
+    "explain why two magnetic field lines can never cross each other",
+    "compare electric dipole field lines with magnetic field lines of a bar magnet",
+    "describe how the density of field lines relates to magnetic field strength"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify field line loop continuity",
+     "explain": "Magnetic field lines run from north to south pole outside and south to north inside, forming unbroken loops."
+    },
+    {
+     "step": 2,
+     "action": "verify non-intersection property",
+     "explain": "If field lines intersected, two different directions of magnetic field would exist at one point, which is physically impossible."
+    },
+    {
+     "step": 3,
+     "action": "relate field line density to field strength",
+     "explain": "The crowding of field lines indicates a stronger magnetic field region, while sparse lines indicate a weaker field, consistent with the net zero flux through any closed loop."
+    }
+   ]
+  },
+  {
+   "id": "leph.105.2",
+   "title": "Axial Magnetic Field of a Short Bar Magnet",
+   "section": "5.2.2",
+   "definition": "The magnetic field produced along the extended axis of a magnetic dipole at a far distance from its center.",
+   "formula": "B_axial = (2 * 1e-7 * m) / (r ** 3)",
+   "key_idea": "The axial magnetic field of a short dipole decreases inversely with the cube of the distance.",
+   "textbook_ref": "leph105.txt lines 80-120",
+   "question_patterns": [
+    "in Class 12 physics calculate the axial magnetic field of a short bar magnet",
+    "find the magnetic flux density on the axis of a magnetic dipole",
+    "what is the magnetic field strength at distance r along the axis of a bar magnet",
+    "determine the axial field produced by a solenoid of known magnetic moment",
+    "compute the axial field for a magnetic moment m at distance r"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate axial magnetic field strength",
+     "explain": "Use the dipole far-field formula where B_axial = (mu_0 / 4pi) * (2m / r^3).",
+     "compute": "B_axial = (2 * 1e-7 * m) / (r ** 3)"
+    },
+    {
+     "step": 2,
+     "action": "substitute given magnetic moment and distance values",
+     "explain": "Insert the known magnetic moment m and axial distance r into the formula, ensuring r is much larger than the magnet length for the short-dipole approximation to hold.",
+     "compute": "B_axial = (2 * 1e-7 * m) / (r ** 3)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate axial field magnitude and direction",
+     "explain": "Compute the numerical value of B_axial; the field points along the dipole axis in the same direction as the magnetic moment vector on the axial line.",
+     "compute": "B_axial = (2 * 1e-7 * m) / (r ** 3)"
+    }
+   ]
+  },
+  {
+   "id": "leph.105.3",
+   "title": "Torque on a Magnetic Dipole in a Uniform Field",
+   "section": "5.2.3",
+   "definition": "The twisting force experienced by a magnetic moment vector when oriented at an angle relative to a uniform magnetic field.",
+   "formula": "torque = m * B * sin_theta",
+   "key_idea": "Torque acts to align the magnetic dipole moment parallel to the external magnetic field direction.",
+   "textbook_ref": "leph105.txt lines 125-150",
+   "question_patterns": [
+    "in Class 12 magnetism determine the torque on a magnetic dipole in a uniform field",
+    "calculate the magnitude of torque acting on a bar magnet",
+    "find the torque experienced by a magnetic needle aligned at angle theta in magnetic field B",
+    "what is the maximum torque on a bar magnet of moment m in field B",
+    "evaluate how torque varies with orientation angle in a uniform field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic torque",
+     "explain": "Torque equals magnetic moment times magnetic field strength times sine of the inclination angle.",
+     "compute": "torque = m * b * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "identify orientation angle and sine value",
+     "explain": "Determine the angle theta between the magnetic moment vector m and the external field B, then find sin_theta; maximum torque occurs at 90 degrees where sin_theta equals one.",
+     "compute": "sin_theta = sin(theta)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate torque magnitude and rotational sense",
+     "explain": "Substitute m, B, and sin_theta to obtain the torque magnitude; the torque acts to rotate the dipole toward alignment with the field, reducing theta.",
+     "compute": "torque = m * b * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "leph.105.4",
+   "title": "Potential Energy of a Magnetic Dipole",
+   "section": "5.2.3",
+   "definition": "The stored orientational energy of a magnetic dipole positioned within an external uniform magnetic field.",
+   "formula": "U = -1 * m * B * cos_theta",
+   "key_idea": "Potential energy is minimal at parallel alignment and maximal at anti-parallel orientation.",
+   "textbook_ref": "leph105.txt lines 135-160",
+   "question_patterns": [
+    "in Class 12 physics find the magnetic potential energy of a dipole in a magnetic field",
+    "calculate the work required to rotate a magnetic dipole from theta1 to theta2",
+    "determine the potential energy of a bar magnet in stable and unstable equilibrium",
+    "what is the potential energy when a magnetic moment is perpendicular to field B",
+    "compute potential energy change when aligning dipole opposite to magnetic field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate dipole potential energy",
+     "explain": "Potential energy U is the negative scalar product of magnetic moment and magnetic field.",
+     "compute": "U = -1 * m * b * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "determine orientation angle and cosine value",
+     "explain": "Identify the angle theta between the magnetic moment and the field; stable equilibrium at theta = 0 gives cos_theta = 1 (minimum U), while unstable equilibrium at theta = 180 gives cos_theta = -1 (maximum U).",
+     "compute": "cos_theta = cos(theta)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate potential energy and equilibrium state",
+     "explain": "Substitute m, B, and cos_theta to compute U; the negative sign ensures parallel alignment is the lowest energy stable state.",
+     "compute": "U = -1 * m * b * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "leph.105.5",
+   "title": "Gauss's Law for Magnetism",
+   "section": "5.3",
+   "definition": "A fundamental law stating that total net magnetic flux passing through any arbitrary closed Gaussian surface is identically zero.",
+   "formula": "net_magnetic_flux = 0",
+   "key_idea": "Absence of isolated magnetic monopoles implies zero net magnetic flux through any closed surface.",
+   "textbook_ref": "leph105.txt lines 210-260",
+   "question_patterns": [
+    "state Gauss law for magnetism in Class 12 physics",
+    "explain why total magnetic flux through a closed surface is always zero",
+    "verify how Gauss law for magnetism implies non-existence of magnetic monopoles",
+    "contrast Gauss law for electrostatics with Gauss law for magnetism",
+    "evaluate field line configurations using Gauss law for magnetic fields"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply zero magnetic flux condition",
+     "explain": "Because every field line entering a closed surface must also exit it, the integral of B dot dS over any closed surface equals zero."
+    },
+    {
+     "step": 2,
+     "action": "contrast with electrostatics Gauss law",
+     "explain": "Unlike electrostatics where net electric flux equals enclosed charge over epsilon_0, magnetism has no isolated monopoles, so the enclosed magnetic charge is always zero."
+    },
+    {
+     "step": 3,
+     "action": "verify absence of magnetic monopoles",
+     "explain": "Since the surface integral of B over any closed Gaussian surface is identically zero, no net magnetic charge can be enclosed, confirming that isolated magnetic monopoles do not exist."
+    }
+   ]
+  },
+  {
+   "id": "leph.105.6",
+   "title": "Magnetic Intensity inside a Solenoid",
+   "section": "5.4",
+   "definition": "The external current drive per unit length that generates a magnetic field, independent of core material properties.",
+   "formula": "H = n * I",
+   "key_idea": "Magnetic intensity H depends exclusively on free excitation currents and turn density.",
+   "textbook_ref": "leph105.txt lines 290-340",
+   "question_patterns": [
+    "calculate magnetic intensity H inside a solenoid in Class 12 physics",
+    "find the magnetic intensity given turn density n and current I",
+    "determine H field inside a long current-carrying solenoid",
+    "what is the relation between magnetic intensity current and turns per unit length",
+    "compute the magnetic intensity in units of amperes per meter"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic intensity",
+     "explain": "Magnetic intensity H equals turns per unit length multiplied by current.",
+     "compute": "H = n * i"
+    },
+    {
+     "step": 2,
+     "action": "identify turn density and current values",
+     "explain": "Determine the number of turns per unit length n and the free current i flowing through the solenoid windings; H depends only on these free excitation quantities, not on the core material.",
+     "compute": "H = n * i"
+    },
+    {
+     "step": 3,
+     "action": "evaluate magnetic intensity in amperes per meter",
+     "explain": "Compute the numerical value of H; the result is in A/m and represents the magnetizing force applied to the core independent of permeability.",
+     "compute": "H = n * i"
+    }
+   ]
+  },
+  {
+   "id": "leph.105.7",
+   "title": "Total Magnetic Field in a Material Core",
+   "section": "5.4",
+   "definition": "The total flux density within a material core subjected to magnetic intensity, determined by relative permeability.",
+   "formula": "B = mu_0 * mu_r * H",
+   "key_idea": "The internal magnetic field is amplified by the relative magnetic permeability of the core material.",
+   "textbook_ref": "leph105.txt lines 320-370",
+   "question_patterns": [
+    "in Class 12 physics calculate total magnetic field B inside a core material",
+    "find B field in a core given relative permeability mu_r and intensity H",
+    "determine total magnetic flux density using relative permeability and vacuum permeability",
+    "compute magnetic induction inside a magnetic core material",
+    "what is the total magnetic field inside a solenoid filled with magnetic core"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set free space permeability constant",
+     "explain": "Vacuum permeability mu_0 is equal to 4 pi times 10 to the power minus 7.",
+     "compute": "mu_0 = 4 * pi * 1e-7"
+    },
+    {
+     "step": 2,
+     "action": "calculate total core magnetic field",
+     "explain": "Multiply permeability of free space, relative permeability, and magnetic intensity.",
+     "compute": "B = mu_0 * mu_r * h"
+    },
+    {
+     "step": 3,
+     "action": "evaluate total field and verify amplification",
+     "explain": "Compute the numerical value of B; the relative permeability mu_r amplifies the free-space field, so a ferromagnetic core produces a much larger B than vacuum for the same H.",
+     "compute": "B = mu_0 * mu_r * h"
+    }
+   ]
+  },
+  {
+   "id": "leph.105.8",
+   "title": "Classification of Magnetic Materials",
+   "section": "5.5",
+   "definition": "Categorization of bulk substances into diamagnetic, paramagnetic, and ferromagnetic based on susceptibility and atomic dipole response.",
+   "formula": "chi_dia < 0, 0 < chi_para < 1, chi_ferro >> 1",
+   "key_idea": "Susceptibility determines whether materials are repelled, weakly attracted, or strongly attracted by magnetic fields.",
+   "textbook_ref": "leph105.txt lines 375-450",
+   "question_patterns": [
+    "classify materials as diamagnetic paramagnetic or ferromagnetic in Class 12 physics",
+    "compare magnetic susceptibility values for diamagnetic and paramagnetic materials",
+    "explain the domain mechanism of ferromagnetism",
+    "describe the behavior of diamagnetic materials in non-uniform magnetic fields",
+    "verify how temperature affects paramagnetic and ferromagnetic substances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify material class by magnetic susceptibility",
+     "explain": "Diamagnetic substances have small negative susceptibility, paramagnetic have small positive susceptibility, and ferromagnetic have very large positive susceptibility."
+    },
+    {
+     "step": 2,
+     "action": "analyze atomic dipole response to external field",
+     "explain": "Diamagnetic materials develop an induced dipole moment opposing the applied field and are weakly repelled; paramagnetic materials have permanent atomic dipoles that weakly align with the field and are weakly attracted; ferromagnetic materials form domains of strongly aligned dipoles producing large net magnetization."
+    },
+    {
+     "step": 3,
+     "action": "verify classification using temperature and field behavior",
+     "explain": "Diamagnetic susceptibility is essentially temperature-independent, paramagnetic susceptibility follows Curie law (inversely proportional to temperature), and ferromagnetic materials lose their strong magnetization above the Curie temperature, reverting to paramagnetic behavior."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph105.txt Section 5.2.2 / Exercise 5.7",
+   "concept": "leph.105.2",
+   "question_type": "compute",
+   "question_pattern": "A short bar magnet has a magnetic moment of {m} J/T. Calculate the magnitude of magnetic field at distance {r} m on its axis.",
+   "extracted_variables": {
+    "m": 0.48,
+    "r": 0.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate axial magnetic field strength",
+     "explain": "Use the dipole far-field axial formula B_axial = (2 * 1e-7 * m) / (r^3).",
+     "compute": "B_axial = (2 * 1e-7 * m) / (r ** 3)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph105.txt Section 5.2.2 / Axial Calculation",
+   "concept": "leph.105.2",
+   "question_type": "compute",
+   "question_pattern": "Find the axial magnetic field of a short dipole with magnetic moment {m} A m2 at a distance of {r} m.",
+   "extracted_variables": {
+    "m": 0.3,
+    "r": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate axial magnetic field strength",
+     "explain": "Substitute values into the dipole axial field formula.",
+     "compute": "B_axial = (2 * 1e-7 * m) / (r ** 3)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leph105.txt Exercise 5.1",
+   "concept": "leph.105.3",
+   "question_type": "compute",
+   "question_pattern": "A short bar magnet placed with axis at angle theta experiencing torque in field {B} T has moment {m} J/T and sin_theta = {sin_theta}. Compute torque.",
+   "extracted_variables": {
+    "m": 0.36,
+    "B": 0.25,
+    "sin_theta": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate magnetic torque",
+     "explain": "Torque is torque = m * B * sin_theta.",
+     "compute": "torque = m * b * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leph105.txt Exercise 5.4",
+   "concept": "leph.105.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate magnitude of torque on a solenoid of magnetic moment {m} J/T in field {B} T when sin_theta is {sin_theta}.",
+   "extracted_variables": {
+    "m": 0.6,
+    "B": 0.25,
+    "sin_theta": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate magnetic torque",
+     "explain": "Compute torque = m * B * sin_theta.",
+     "compute": "torque = m * b * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leph105.txt Exercise 5.2a",
+   "concept": "leph.105.4",
+   "question_type": "compute",
+   "question_pattern": "A magnetic dipole of moment {m} J/T is placed in field {B} T at stable equilibrium where cos_theta = {cos_theta}. Find its potential energy.",
+   "extracted_variables": {
+    "m": 0.32,
+    "B": 0.15,
+    "cos_theta": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate dipole potential energy",
+     "explain": "Use formula U = -1 * m * B * cos_theta.",
+     "compute": "U = -1 * m * b * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leph105.txt Exercise 5.2b",
+   "concept": "leph.105.4",
+   "question_type": "compute",
+   "question_pattern": "A magnetic dipole of moment {m} J/T is placed in field {B} T at unstable equilibrium where cos_theta = {cos_theta}. Find its potential energy.",
+   "extracted_variables": {
+    "m": 0.32,
+    "B": 0.15,
+    "cos_theta": -1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate dipole potential energy",
+     "explain": "Compute U = -1 * m * B * cos_theta.",
+     "compute": "U = -1 * m * b * cos_theta"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "leph105.txt Example 5.5 Part a",
+   "concept": "leph.105.6",
+   "question_type": "compute",
+   "question_pattern": "A solenoid has turn density {n} turns per meter and carries current {I} A. Compute the magnetic intensity H inside.",
+   "extracted_variables": {
+    "n": 1000.0,
+    "I": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate magnetic intensity",
+     "explain": "H = n * I.",
+     "compute": "H = n * i"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "leph105.txt Section 5.4 Solenoid Calculation",
+   "concept": "leph.105.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate magnetic intensity inside a solenoid with {n} turns per meter carrying {I} A current.",
+   "extracted_variables": {
+    "n": 500.0,
+    "I": 3.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate magnetic intensity",
+     "explain": "H = n * I.",
+     "compute": "H = n * i"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "leph105.txt Example 5.5 Part b",
+   "concept": "leph.105.7",
+   "question_type": "compute",
+   "question_pattern": "A core of relative permeability {mu_r} is placed in a solenoid where H = {H} A/m. Calculate total magnetic field B inside.",
+   "extracted_variables": {
+    "mu_r": 400.0,
+    "H": 2000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set free space permeability constant",
+     "explain": "Vacuum permeability constant mu_0.",
+     "compute": "mu_0 = 4 * pi * 1e-7"
+    },
+    {
+     "step": 2,
+     "action": "calculate total core magnetic field",
+     "explain": "B = mu_0 * mu_r * H.",
+     "compute": "B = mu_0 * mu_r * h"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "leph105.txt Section 5.4 Core Calculation",
+   "concept": "leph.105.7",
+   "question_type": "compute",
+   "question_pattern": "Find magnetic field B inside a material of relative permeability {mu_r} subjected to magnetic intensity H = {H} A/m.",
+   "extracted_variables": {
+    "mu_r": 500.0,
+    "H": 1000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set free space permeability constant",
+     "explain": "Vacuum permeability constant mu_0.",
+     "compute": "mu_0 = 4 * pi * 1e-7"
+    },
+    {
+     "step": 2,
+     "action": "calculate total core magnetic field",
+     "explain": "B = mu_0 * mu_r * H.",
+     "compute": "B = mu_0 * mu_r * h"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "leph105.txt line 460",
+   "questions": [
+    "A short bar magnet placed with its axis at 30 degrees with a uniform external magnetic field of 0.25 T experiences a torque of magnitude equal to 4.5 x 10^-2 J. What is the magnitude of magnetic moment of the magnet?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "leph105.txt line 465",
+   "questions": [
+    "A short bar magnet of magnetic moment m = 0.32 J T^-1 is placed in a uniform magnetic field of 0.15 T. If the bar is free to rotate in the plane of the field, which orientation would correspond to its (a) stable, and (b) unstable equilibrium? What is the potential energy of the magnet in each case?"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "leph105.txt line 471",
+   "questions": [
+    "A closely wound solenoid of 800 turns and area of cross section 2.5 x 10^-4 m^2 carries a current of 3.0 A. Explain the sense in which the solenoid acts like a bar magnet. What is its associated magnetic moment?"
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "leph105.txt line 476",
+   "questions": [
+    "If the solenoid in Exercise 5.3 is free to turn about the vertical direction and a uniform horizontal magnetic field of 0.25 T is applied, what is the magnitude of torque on the solenoid when its axis makes an angle of 30 degrees with the direction of applied field?"
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "leph105.txt line 481",
+   "questions": [
+    "A bar magnet of magnetic moment 1.5 J T^-1 lies aligned with the direction of a uniform magnetic field of 0.22 T. (a) What is the amount of work required by an external torque to turn the magnet so as to align its magnetic moment: (i) normal to the field direction, (ii) opposite to the field direction? (b) What is the torque on the magnet in cases (i) and (ii)?"
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "leph105.txt line 488",
+   "questions": [
+    "A closely wound solenoid of 2000 turns and area of cross-section 1.6 x 10^-4 m^2, carrying a current of 4.0 A, is suspended through its centre allowing it to turn in a horizontal plane. (a) What is the magnetic moment associated with the solenoid? (b) What is the force and torque on the solenoid if a uniform horizontal magnetic field of 7.5 x 10^-2 T is set up at an angle of 30 degrees with the axis of the solenoid?"
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "leph105.txt line 496",
+   "questions": [
+    "A short bar magnet has a magnetic moment of 0.48 J T^-1. Give the direction and magnitude of the magnetic field produced by the magnet at a distance of 10 cm from the centre of the magnet on (a) the axis, (b) the equatorial lines (normal bisector) of the magnet."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "leph.105.3: bad compute 'm * B * sin_theta' (unknown symbol: B)",
+  "leph.105.4: bad compute '-1 * m * B * cos_theta' (unknown symbol: B)",
+  "leph.105.6: bad compute 'n * I' (unknown symbol: I)",
+  "leph.105.7: bad compute 'mu_0 * mu_r * H' (unknown symbol: H)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

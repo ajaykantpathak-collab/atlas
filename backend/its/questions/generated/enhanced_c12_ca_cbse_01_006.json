@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_006",
+   "title": "c12_ca_cbse_01_006",
+   "questions": [
+    {
+     "q": "State the five advantages of Computerised Accounting System as per NCERT Class 12, in the exact order they appear in the textbook.",
+     "a": "Correct answer: (1) Timely generation of reports and information in desired format, (2) Efficient record keeping, (3) Ensures effective control over the system, (4) Economy in the processing of accounting data, (5) Confidentiality of data is maintained. A wrong answer (e.g., listing “speed” and “accuracy” as separate points, or adding “scalability” which is a *feature* from Section 1.3.4, not an *advantage* from 1.6) reveals the student is conflating *salient features* (Section 1.3) with *advantages* (Section 1.6) — a direct board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: “CAS ensures confidentiality because data is stored in computers which are hard to steal.” Explain why this reasoning is incomplete and what the NCERT actually specifies as the confidentiality mechanism.",
+     "a": "Correct explanation: NCERT Section 1.6 lists confidentiality as an advantage *supported by* three security features described in Section 1.5: (i) Password Security — role-based access control, (ii) Data Audit — audit trail logging every change, (iii) Data Vault — encryption scrambling data. Merely “storing in computers” does not guarantee confidentiality; unprotected files are *more* vulnerable to remote copying than physical ledgers. A student who misses the link to 1.5 security features will lose the 1-mark “reason” component in board Q11 (“What is encryption and how is it helpful in CAS?”).",
+     "self_check": true
+    },
+    {
+     "q": "A mid-sized firm processes 15,000 transactions/month. Under manual accounting, 4 clerks take 12 days to close monthly books at ₹18,000/month labour cost. After implementing CAS, 1 operator closes books in 2 days at ₹12,000/month (including software AMC). Calculate the *monthly economy* achieved and state which NCERT advantage this illustrates.",
+     "a": "Steps: (1) Manual cost = ₹18,000. (2) CAS cost = ₹12,000. (3) Monthly economy = ₹18,000 − ₹12,000 = ₹6,000. (4) This illustrates “Economy in the processing of accounting data” (Advantage #4). A wrong answer calculating only time saved (10 days) without monetary quantification misses the NCERT phrasing “economy … of accounting *data*” which implies cost-per-transaction reduction, not just speed. Board exams often ask “How does CAS lead to economy?” — expecting the cost comparison, not just “faster”.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: In manual accounting, a missing voucher is discovered only at year-end audit. In CAS, the *Data Audit* feature flags it within hours. Analyse how this difference maps to *two* distinct NCERT advantages simultaneously.",
+     "a": "The scenario maps to: (1) **Effective control** — Data Audit (Section 1.5) creates an immutable log of *who* entered/changed *what* and *when*, enabling real-time anomaly detection, which manual systems lack. (2) **Timely generation of reports** — because errors are caught early, the trial balance and final statements are not delayed by year-end fire-fighting. A student citing only “control” or only “timely reports” shows fragmented understanding; the *integration* of control → timeliness is the deeper NCERT logic.",
+     "self_check": true
+    },
+    {
+     "q": "“CAS eliminates all accounting errors.” Evaluate this statement using NCERT advantages and limitations. Provide a reasoned judgment with two specific counter-examples.",
+     "a": "Judgment: **False**. NCERT Advantage #3 (“effective control”) reduces *unauthorised* changes and arithmetic errors, but Limitation #4 (“Un-programmed and un-specified reports cannot be generated”) implies CAS *cannot* self-correct logical errors like wrong account selection (e.g., debiting “Purchase” instead of “Asset”) or missing entries — these are *errors of principle/commission* (Class 11 Ch6) that software validates only if validation rules are pre-coded. Counter-example 1: A ₹50,000 machine purchase wrongly coded to “Repairs” — CAS accepts it if both accounts exist. Counter-example 2: Entire month’s cash sales omitted — CAS shows perfect arithmetic but incomplete data. The statement confuses *arithmetic accuracy* (built-in) with *accounting correctness* (human-dependent).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column table for a Class 12 presentation: Column A = Manual Accounting Pain Point, Column B = NCERT CAS Advantage that solves it, Column C = Underlying Security/Feature (from Section 1.5 or 1.3) enabling that advantage. Fill 5 rows — one per advantage.",
+     "a": "Expected table (row order matches NCERT 1.6 sequence):\n| Manual Pain Point | CAS Advantage (Sec 1.6) | Enabling Feature (Sec 1.3/1.5) |\n|---|---|---|\n| Month-end reports take weeks | Timely generation of reports | Pre-defined templates (1.3.3) + integrated modules (1.3.1) |\n| Physical ledgers lost/damaged | Efficient record keeping | Digital storage + Data Vault encryption (1.5) |\n| Unauthorised edits undetected | Effective control | Data Audit trail (1.5) + Password Security (1.5) |\n| High clerk cost per transaction | Economy in processing | Scalability (1.3.4) + single-operator workflow |\n| Competitor sees profit margins | Confidentiality of data | Role-based Password + Encryption (1.5) |\nA poor answer lists generic features (“software”, “computer”) in Column C without tying to specific Section 1.3/1.5 mechanisms — indicating rote memorisation without structural mapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

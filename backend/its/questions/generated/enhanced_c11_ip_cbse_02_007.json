@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_007",
+   "title": "c11_ip_cbse_02_007",
+   "questions": [
+    {
+     "q": "What is the data type of the value returned by `input()` when the user enters `42` at the prompt?",
+     "a": "The data type is `str` (string). `input()` always returns a string, regardless of what the user types. A wrong answer (e.g., `int` or `float`) reveals the misconception that `input()` automatically detects and converts numeric input, which leads to TypeError when attempting arithmetic operations directly on the returned value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code prints `55` instead of `10` when the user enters `5` for both inputs:\n```python\na = input(\"Enter first number: \")\nb = input(\"Enter second number: \")\nprint(a + b)\n```",
+     "a": "Because `input()` returns strings, `a` and `b` are `'5'` and `'5'`. The `+` operator on strings performs concatenation, yielding `'55'`. A wrong explanation (e.g., \"Python adds numbers as strings\") reveals confusion between string concatenation and numeric addition, and failure to recognize that explicit conversion with `int()` or `float()` is required before arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python statement that reads a floating-point number from the user and stores its square in a variable `result`.",
+     "a": "```python\nresult = float(input(\"Enter a number: \")) ** 2\n```\nSteps: (1) `input()` reads string, (2) `float()` converts to float, (3) `** 2` computes square, (4) assignment stores in `result`. A wrong answer omitting `float()` (e.g., `input(...) ** 2`) reveals the persistent error of treating `input()` output as numeric, causing TypeError: unsupported operand type(s) for **: 'str' and 'int'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of these two print statements when `x = 10` and `y = 20`:\n```python\nprint(x, y, sep='-')\nprint(x, y, end='-')\n```\nWhat is printed in each case, and why?",
+     "a": "First prints `10-20` followed by newline (default `end='\\n'`). Second prints `10 20-` with no newline (default `sep=' '`). A wrong answer confusing `sep` and `end` (e.g., both print `10-20-`) reveals misunderstanding that `sep` controls separation *between* arguments while `end` controls termination *after* all arguments.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `print(\"Price: ₹\", 250, sep='', end='')` to print `Price: ₹250` without trailing newline. Will this work as intended? Justify your answer.",
+     "a": "Yes, it works. `sep=''` removes the default space between `\"Price: ₹\"` and `250`, producing `Price: ₹250`. `end=''` suppresses the newline. A \"No\" answer with justification like \"print adds space automatically\" reveals the misconception that `sep` and `end` cannot be empty strings, or that `print` formatting is rigid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python program that asks the user for their name and age, then prints exactly: `Hello, <name>! You are <age> years old.` (with the period at the end and no extra spaces or newlines before the period). Use only one `print()` statement.",
+     "a": "```python\nname = input(\"Enter name: \")\nage = input(\"Enter age: \")\nprint(\"Hello,\", name, \"! You are\", age, \"years old.\", sep='')\n```\nA poor answer uses multiple print statements, includes unwanted spaces (default `sep=' '`), or forgets `sep=''` causing `Hello, Rahul ! You are 17 years old .` — revealing inability to control output formatting precisely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

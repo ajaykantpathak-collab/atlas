@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_010",
+   "title": "c12_psy_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the primary goal of Gestalt Therapy according to Fritz Perls, and what does the German word \"gestalt\" signify in this context?",
+     "a": "The primary goal is to increase the client's self-awareness and self-acceptance by integrating fragmented parts of the personality into a coherent whole. \"Gestalt\" means \"whole\" or \"configuration\" — the therapy views the person as more than the sum of parts. A wrong answer (e.g., \"goal is behaviour modification\" or \"gestalt means 'form' without the integration aspect\") reveals confusion with Behaviour Therapy or a superficial vocabulary recall without conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A client in Gestalt Therapy says, \"I feel angry at my boss but I can't show it.\" The therapist asks the client to imagine the boss sitting in an empty chair and express the anger directly. Which Gestalt concept does this technique illustrate, and how does it differ from Catharsis as a healing factor?",
+     "a": "This illustrates the \"Empty Chair\" technique targeting *unfinished business* — unexpressed emotions from past conflicts that linger in the present. The technique creates awareness *in the moment* (here-and-now), whereas Catharsis (healing factor #3) is the *initial emotional unburdening* during early sessions without necessarily integrating the experience. A wrong answer conflating the technique with catharsis (\"it's just venting\") misses Gestalt's emphasis on *awareness leading to integration*, not mere release.",
+     "self_check": true
+    },
+    {
+     "q": "In a therapy case, a client with social anxiety shows improvement after 8 sessions of CBT. The therapist used cognitive restructuring and behavioural experiments. The client also reports feeling \"safe and understood\" with the therapist and entered therapy expecting it to work. Map each improvement source to the four healing factors (Technique, Alliance, Catharsis, Non-specific) and justify.",
+     "a": "Technique: Cognitive restructuring + behavioural experiments (specific CBT methods). Alliance: \"Safe and understood\" reflects warmth, empathy, regular availability. Catharsis: Likely occurred in Sessions 1-2 when client first shared fears (emotional unburdening). Non-specific (client variable): Expectation of improvement (placebo/hope effect). Non-specific (therapist variable): Therapist's competence and positive regard. A wrong answer listing only \"CBT techniques\" ignores the research-backed contribution of alliance (30% variance) and non-specific factors — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Gestalt Therapy's view of \"resistance\" with Psychoanalysis's view. How does this difference reflect their contrasting theories of change?",
+     "a": "In Psychoanalysis, resistance = unconscious defence against revealing repressed material; interpreted by therapist to uncover conflict. In Gestalt, resistance = *creative adjustment* at the contact boundary (e.g., deflection, retroflection) that once served survival; the therapist *heightens awareness* of the resistance itself (e.g., \"Notice how you change the topic\") so the client owns it. Psychoanalysis sees change via *insight into past*; Gestalt sees change via *present-moment awareness and integration*. A wrong answer equating both as \"client blocking progress\" misses the phenomenological vs. interpretive distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Gestalt Therapy is just role-play and emotional dramatisation; it lacks scientific rigour compared to CBT.\" Use the NCERT's classification parameters (cause, method, relationship, benefit, duration) to structure your evaluation.",
+     "a": "The statement is reductionist. Per NCERT parameters: (1) Cause: Gestalt locates distress in *blocked awareness/unfinished business* (not just \"irrational thoughts\" like CBT) — a valid phenomenological model. (2) Method: Uses *experiments* (empty chair, exaggeration) to *evoke awareness*, not just talk — these are structured interventions. (3) Relationship: Therapist is *active and directive* in designing experiments, unlike non-directive Client-Centred. (4) Benefit: *Integration and self-regulation* (not just symptom reduction). (5) Duration: Short-term (like CBT). Gestalt has outcome research for depression, anxiety, and personality issues. A wrong answer accepting the critique confuses *experiential methods* with *lack of rigour* — a competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-session Gestalt Therapy plan for a 17-year-old student, Meera, who suppresses grief over her grandmother's death by over-achieving academically. Specify the experiment for each session and the awareness goal.",
+     "a": "Session 1 (Contact & Catharsis): \"Stay with the tightness in your chest when you mention Dadi. Breathe into it. If it had a voice, what would it say?\" Goal: Awareness of somatic grief (catharsis begins). Session 2 (Unfinished Business): Empty chair — Dadi in chair. Meera says unsaid things. Therapist: \"Now switch chairs — be Dadi responding.\" Goal: Dialogue with internalized figure, integrate split-off grief. Session 3 (Integration & Future): \"Imagine graduating. Dadi is watching. What do you notice in your body?\" Goal: Re-own capacity for joy *with* grief present (integration). A poor answer lists generic \"talk about feelings\" without Gestalt-specific experiments or the *awareness → integration* arc.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

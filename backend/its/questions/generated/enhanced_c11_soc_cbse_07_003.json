@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_003",
+   "title": "c11_soc_cbse_07_003",
+   "questions": [
+    {
+     "q": "List the five sources of social change identified in the NCERT textbook and give one original example (not from the text) for each.",
+     "a": "The five sources are: Environmental (e.g., the 2018 Kerala floods altering housing patterns and migration), Technological (e.g., UPI transforming rural payment systems), Economic (e.g., GST implementation restructuring small trader networks), Political (e.g., Article 370 abrogation reshaping Kashmir's demographic policies), Cultural (e.g., #MeToo movement changing workplace harassment norms). A wrong answer that lists \"industrialization\" or \"urbanization\" as sources reveals the misconception that processes/outcomes are causes; these are types or consequences of change, not sources.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states environmental influence on society is 'changing rather than simply declining' due to technology. Explain this statement in your own words using the example of air conditioning and urban settlement patterns in India.",
+     "a": "Technology (AC) allows humans to overcome climatic constraints (extreme heat), enabling dense urban settlements in previously inhospitable regions (e.g., Gurugram, Hyderabad), thus reducing environmental determinism. Simultaneously, AC usage alters the environment through increased energy demand, heat island effects, and greenhouse emissions, creating new environmental pressures (rising temperatures, water scarcity) that feedback into social change (migration, health crises). A wrong answer claiming technology 'conquers' nature permanently misses the dialectical relationship: technology mediates but also generates new environmental challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the five-source framework to analyze the social changes triggered by the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) in a tribal village in Jharkhand. Identify at least three sources and specify the mechanism for each.",
+     "a": "1. Political: The Act itself is a political decision redistributing state resources to rural poor, altering power dynamics between panchayats, contractors, and laborers. 2. Economic: Guaranteed wage employment changes labor market dynamics, raising reservation wages, reducing distress migration, and enabling asset creation (wells, roads). 3. Cultural: Women's participation in paid public work challenges gender norms around mobility and income control; new norms of entitlement vs. patronage emerge. 4. Environmental: Water conservation works alter local ecology, affecting agriculture and livelihoods. 5. Technological: Use of biometric attendance, direct benefit transfer (DBT), and geo-tagging introduces new accountability technologies. A weak answer listing only 'economic' or 'political' fails to see the interlocking nature; e.g., DBT (technological) reduces corruption (political) which ensures wages (economic) empower women (cultural).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of technology in the Industrial Revolution (18th-19th century Britain) and the Digital Revolution (late 20th century India). How does the relationship between technology and economic structure differ in the two cases?",
+     "a": "In the Industrial Revolution, steam-powered machinery (technology) directly reorganized production spatially (factories) and temporally (shift work), creating a new class structure (bourgeoisie/proletariat) and destroying Indian handlooms via colonial economic integration. In India's Digital Revolution, ICT technology (mobile internet, Aadhaar, UPI) has been layered onto an existing informal economy, initially bypassing traditional banking (economic inclusion) but also enabling platform capitalism (gig work) that fragments labor protections. The key analytical difference: Industrial tech was production-centric and required massive fixed capital; Digital tech is communication/transaction-centric with low marginal cost, allowing leapfrogging but also precarization. An answer focusing only on 'speed' or 'scale' misses the structural repositioning of labor and capital.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In contemporary India, cultural sources of social change are more consequential than political sources.\" Defend your position with two concrete examples.",
+     "a": "The claim is partially valid but context-dependent. Cultural change (e.g., rising aspiration for English-medium education across castes) drives structural shifts in labor markets and marriage markets more pervasively than many political Acts. However, political sources (e.g., constitutional amendments for OBC reservations in NEET, or the Citizenship Amendment Act) can rapidly restructure access to resources and citizenship rights, overriding cultural inertia. The 2019 Supreme Court verdict on Sabarimala (political/legal) triggered massive cultural contestation but also demonstrated the state's power to mandate normative change. A nuanced evaluation recognizes that political sources often set the boundary conditions within which cultural change operates; they are not ranked but nested. A one-sided answer ignoring the state's coercive/legislative power or the grassroots cultural shifts reveals deterministic bias.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario set in 2035 where a major social change in an Indian megacity (e.g., Mumbai or Delhi) results from the simultaneous interaction of all five sources. Describe the change and trace the causal pathway for each source.",
+     "a": "Scenario: By 2035, Mumbai's coastal neighborhoods undergo 'managed retreat' due to sea-level rise. Environmental: Rising seas and cyclone frequency make current settlements uninhabitable. Technological: AI-driven early warning systems and modular floating housing prototypes enable planned relocation. Economic: Insurance markets withdraw coverage; state-funded buyouts and new livelihood programs (aquaculture, tourism) reshape local economy. Political: New coastal regulation zones (CRZ) and a metropolitan climate authority override land mafia and builder lobbies. Cultural: Community rituals adapt to floating platforms; narratives shift from 'conquering the sea' to 'living with water'. A good answer shows non-linear feedback (e.g., cultural resistance delays political action, which worsens environmental risk). A poor answer lists five independent factors without showing how they condition each other.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

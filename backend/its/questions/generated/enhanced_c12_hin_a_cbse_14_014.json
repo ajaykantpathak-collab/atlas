@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_14_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_14_014",
+   "title": "c12_hin_a_cbse_14_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for literature answers and state what each letter stands for.",
+     "a": "PEEL stands for: **P**oint (topic sentence stating your argument), **E**vidence (specific textual reference — quote or close paraphrase), **E**xplanation (analysis of how the evidence proves your point), **L**ink (connect back to the question/central theme/author's intent). A wrong answer (e.g., \"PEEL means Point, Example, Explain, Link\" with \"Example\" instead of \"Evidence\") reveals the student confuses *illustration* with *textual proof* — they think any example works, not necessarily one rooted in the text. This leads to vague, unsupported answers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes for 'pkj gkFk': \"The four legs represent the four pillars of democracy.\" Is this a valid analytical point? Explain why or why not using the concept of *textual warrant*.",
+     "a": "No, it is not a valid analytical point because it lacks *textual warrant* — the story never mentions democracy, pillars, or political metaphor. The four legs are literal (the owner tries to make the animal work on 4, 3, 2, 1 legs) and symbolize *exploitation of labor*, not democratic structure. A student who says \"yes\" reveals the misconception that **any symbolic reading is acceptable if it sounds intellectual**, ignoring the constraint that literary analysis must be grounded in the text's internal logic and authorial context (Otkar's focus on feudal/exploitative systems). This is the \"over-interpretation\" trap.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL method to answer: \"How does the ending of 'ksj' reinforce the story's central theme? Write a 60-word response.\"",
+     "a": "**P:** The ending of 'ksj' cements the theme that *fear sustains oppression only until resistance becomes inevitable*.  \n**E:** When the narrator confronts the Ksaj, it \"ngkM+dj [kM+k gks x;k\" (stood up trembling) and the narrator's \"rjiQ >iV iM+k\" (courage swelled).  \n**E:** The physical reversal — the oppressor shrinking, the victim expanding — dramatizes that the Ksaj's power was performative, dependent on the narrator's silence.  \n**L:** Otkar thus shows that tyranny collapses when its psychological hold is broken, not by force but by conscious defiance.  \nA weak answer would describe the ending without the thematic link (missing L) or state the theme without the trembling/standing evidence (missing E).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative perspective in 'ksj' (first-person) and 'igpku' (third-person omniscient). How does each serve its story's thematic purpose? Analyze in 4 steps.",
+     "a": "1. **Identify perspectives:** 'ksj' = first-person (\"eSaus ns[kk\", \"eSaus iwNk\"); 'igpku' = third-person omniscient (\"jktk us gqDe fn;k\", \"yksxksa us ,slk gh fd;k\").  \n2. **Map to theme:** 'ksj' explores *internal psychological liberation* — first-person lets us feel the narrator's fear turning to courage viscerally. 'igpku' exposes *systemic mechanism of power* — omniscient view shows the king's decrees AND the people's collective compliance simultaneously.  \n3. **Contrast effect:** First-person isolates the individual's breakthrough; omniscient reveals the societal machinery.  \n4. **Synthesize:** Otkar chooses perspective strategically: intimate for personal awakening ('ksj'), panoramic for institutional critique ('igpku').  \nA student who only lists perspectives without linking to theme (step 2) treats technique as decoration, not meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In 'lk>k', the gkFkh (owner) is the villain.\" Defend or refute using textual evidence and the concept of *systemic complicity*.",
+     "a": "Refute. The gkFkh is an *agent* of the system, not its sole author. Evidence: (1) The gkFkh says \"ge nksuksa us feydj esgur dh Fkh\" (we both made the deal) — implicating the fdlku (buyer) equally. (2) The fdlku initiates the exploitation by demanding \"[ksr dh j[kokyh\" (guarantee of ploughing) and later \"i^h i<+kbZ\" (taught to read/write) to increase the animal's utility. (3) The ending — they eat together (\"vkvks] ge feydj xUus [kk,¡\") — shows *shared beneficiary status*. The villainy is the *exploitative contract* binding owner, buyer, and societal indifference (the tax collector \"xk¡o\" who enables the sale). A student calling only the gkFkh \"villain\" commits the *individualist fallacy* — blaming a person for a structural condition Otkar explicitly critiques.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 80-word PEEL paragraph answering: \"How does Otkar use animal imagery across 'pkj gkFk' and 'lk>k' to critique human exploitation?\" Invent the content but follow the structure strictly.",
+     "a": "**P:** Otkar deploys animal bodies as metaphors for *disposable labor* in both stories.  \n**E (pkj gkFk):** The owner sequentially removes legs — \"pkj gkFk\", \"ydM+h osQ gkFk\", \"yksgs osQ gkFk\" — reducing the beast to a torso that still must work.  \n**E (lk>k):** The gkFkh sells the animal after extracting maximum labor, then casually replaces it: \"vkneh ls dgk] ¶vkvks [kk,¡\" — the animal is a consumed commodity.  \n**E (Synthesis):** In both, the animal's suffering is narrated with clinical detachment (\"e”knwj ej x,A\"), mirroring how exploiters normalize violence.  \n**L:** By refusing sentimentality, Otkar forces readers to confront the *mechanics* of dehumanization.  \nA poor answer would list animals without the \"clinical detachment\" analysis or miss the cross-story synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

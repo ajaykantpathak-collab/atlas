@@ -1,0 +1,604 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 106,
+ "chapter_title": "Respiration in Organisms",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jesc107.txt",
+ "concepts": [
+  {
+   "id": "gesc.6.1.1",
+   "title": "Aerobic Cellular Respiration",
+   "section": "6.1",
+   "definition": "The biochemical process in which glucose is fully degraded in the presence of oxygen within cells to produce carbon dioxide, water, and biological energy.",
+   "formula": "glucose + oxygen -> carbon_dioxide + water + energy",
+   "key_idea": "Cells oxidize food completely in the presence of oxygen to liberate maximum energy.",
+   "textbook_ref": "gesc106.txt lines 15-35",
+   "question_patterns": [
+    "what is aerobic respiration",
+    "describe the breakdown of food in the presence of oxygen",
+    "write the word equation for aerobic respiration",
+    "explain how cellular respiration produces energy using oxygen",
+    "explain aerobic cellular respiration in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify substrate and conditions",
+     "explain": "Glucose undergoes breakdown inside living cells utilizing available molecular oxygen."
+    },
+    {
+     "step": 2,
+     "action": "determine end products and energy release",
+     "explain": "The oxidation yields carbon dioxide and water molecules along with cellular energy."
+    },
+    {
+     "step": 3,
+     "action": "verify aerobic condition",
+     "explain": "The presence of oxygen ensures complete breakdown of glucose, which distinguishes aerobic respiration from anaerobic respiration."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.1.2",
+   "title": "Anaerobic Respiration in Microorganisms",
+   "section": "6.1",
+   "definition": "A form of cellular respiration occurring without oxygen where organisms like yeast convert glucose into ethyl alcohol, carbon dioxide, and energy.",
+   "formula": "glucose -> alcohol + carbon_dioxide + energy",
+   "key_idea": "Yeast breaks down nutrients anaerobically to yield ethanol and carbon dioxide.",
+   "textbook_ref": "gesc106.txt lines 35-50",
+   "question_patterns": [
+    "what is anaerobic respiration in yeast",
+    "how do yeasts produce alcohol during respiration",
+    "state the products formed when glucose breaks down without oxygen in microbes",
+    "explain why yeasts are used in brewing industries",
+    "why is anaerobic respiration in microorganisms important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify anaerobic condition",
+     "explain": "Organisms called anaerobes metabolize glucose in the complete absence of atmospheric oxygen."
+    },
+    {
+     "step": 2,
+     "action": "specify fermentation end products",
+     "explain": "The biochemical reaction yields ethanol and carbon dioxide while discharging energy."
+    },
+    {
+     "step": 3,
+     "action": "relate to practical application",
+     "explain": "The production of alcohol and CO2 by yeast underpins its use in brewing and baking industries."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.1.3",
+   "title": "Anaerobic Respiration in Muscle Cells",
+   "section": "6.1",
+   "definition": "Temporary breakdown of glucose without sufficient oxygen in heavily working muscle tissue, yielding lactic acid which gives muscle fatigue and cramps.",
+   "formula": "glucose -> lactic_acid + energy",
+   "key_idea": "Oxygen deficit during strenuous exercise prompts partial glucose breakdown into lactic acid.",
+   "textbook_ref": "gesc106.txt lines 50-70",
+   "question_patterns": [
+    "why do muscles cramp during intense exercise",
+    "what substance accumulates in muscles during vigorous physical activity",
+    "how does a hot water bath relieve muscle cramps",
+    "explain anaerobic respiration in human muscle tissue",
+    "short note on anaerobic respiration in muscle cells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify oxygen deficit during high physical exertion",
+     "explain": "High energy demand exceeds rapid oxygen delivery, forcing muscle cells to respire anaerobically."
+    },
+    {
+     "step": 2,
+     "action": "trace lactic acid accumulation and its relief",
+     "explain": "Partial glucose breakdown produces lactic acid causing cramps, which degrades into carbon dioxide and water once circulation restores oxygen."
+    },
+    {
+     "step": 3,
+     "action": "explain the remedy for cramps",
+     "explain": "A hot water bath or massage improves blood circulation, supplying oxygen that breaks down the accumulated lactic acid and relieves the cramps."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.2.1",
+   "title": "Breathing Rate Calculation",
+   "section": "6.2",
+   "definition": "The frequency of respiratory cycles performed by an organism, where one complete breath consists of one inhalation followed by one exhalation.",
+   "formula": "breathing_rate = total_breaths / time_minutes",
+   "key_idea": "Breathing rate measures breaths taken per unit time in minutes.",
+   "textbook_ref": "gesc106.txt lines 80-120",
+   "question_patterns": [
+    "calculate the breathing rate given number of breaths and time",
+    "find the breathing rate of a person taking breaths over a duration",
+    "how many breaths per minute does an individual take",
+    "determine breathing rate from total inhalation exhalation cycles",
+    "find the required value in a breathing rate calculation problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute breathing rate per minute",
+     "explain": "Divide total complete breaths by duration in minutes",
+     "compute": "breathing_rate = total_breaths / time_minutes"
+    },
+    {
+     "step": 2,
+     "action": "verify the units of the result",
+     "explain": "Confirm the result is expressed as breaths per minute, which is the standard unit for breathing rate.",
+     "compute": "unit = breaths / minute"
+    },
+    {
+     "step": 3,
+     "action": "interpret the breathing rate value",
+     "explain": "Compare the calculated rate to the average resting human breathing rate of about 15 to 20 breaths per minute to assess whether it is normal, elevated, or reduced."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.1",
+   "title": "Mechanism of Human Breathing",
+   "section": "6.3",
+   "definition": "The physical process of ventilation where coordinated contractions of the both diaphragm and rib cage alter chest cavity volume and air pressure to move air into and out of lungs.",
+   "formula": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction",
+   "key_idea": "Inhalation moves ribs upward-outward and diaphragm downward; exhalation reverses these motions.",
+   "textbook_ref": "gesc106.txt lines 135-175",
+   "question_patterns": [
+    "describe the mechanism of breathing in humans",
+    "what happens to the diaphragm and ribs during inhalation",
+    "explain how air is pushed out of lungs during exhalation",
+    "how do changes in the chest cavity drive ventilation",
+    "give one everyday example of mechanism of human breathing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze inhalation phase",
+     "explain": "Ribs swing up and out while the diaphragm flattens downward, expanding the chest cavity and sucking air in."
+    },
+    {
+     "step": 2,
+     "action": "analyze exhalation phase",
+     "explain": "Ribs descend inward and the diaphragm relaxes upward, reducing cavity space and expelling air outward."
+    },
+    {
+     "step": 3,
+     "action": "link pressure changes to air movement",
+     "explain": "Expansion lowers pressure inside the chest drawing air in, while contraction raises pressure pushing air out, completing the breathing cycle."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.2",
+   "title": "Chest Expansion Measurement",
+   "section": "6.3",
+   "definition": "The quantitative difference between the circumference of the chest measured at full inhalation versus normal exhalation.",
+   "formula": "chest_expansion = chest_inhalation - chest_exhalation",
+   "key_idea": "Chest perimeter increases during deep inhalation compared to exhalation.",
+   "textbook_ref": "gesc106.txt lines 180-210",
+   "question_patterns": [
+    "calculate the chest expansion of a student",
+    "find the difference in chest size between inhalation and exhalation",
+    "how much does the chest expand during deep breathing",
+    "determine the extent of chest expansion from measured dimensions",
+    "what is the result in this chest expansion measurement problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate expansion difference",
+     "explain": "Subtract exhalation chest size from inhalation chest size",
+     "compute": "chest_expansion = chest_inhalation - chest_exhalation"
+    },
+    {
+     "step": 2,
+     "action": "verify the result is positive",
+     "explain": "The inhalation circumference should be larger than the exhalation circumference, so a positive value confirms correct measurement order."
+    },
+    {
+     "step": 3,
+     "action": "interpret the expansion value",
+     "explain": "A larger expansion value indicates greater lung capacity and chest flexibility, which reflects healthy respiratory function."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.4.1",
+   "title": "Composition of Inhaled and Exhaled Air",
+   "section": "6.4",
+   "definition": "The quantitative proportion of respiratory gases entering and leaving the body, showing oxygen uptake and carbon dioxide output.",
+   "formula": "oxygen_consumed_pct = inhaled_o2_pct - exhaled_o2_pct",
+   "key_idea": "Exhaled air contains less oxygen and more carbon both dioxide and moisture than inhaled air.",
+   "textbook_ref": "gesc106.txt lines 220-250",
+   "question_patterns": [
+    "calculate the percentage of oxygen absorbed from inhaled air",
+    "find the difference between exhaled and inhaled carbon dioxide percentages",
+    "compare the percentage composition of gases in inhaled and exhaled air",
+    "how much oxygen is removed during one respiratory cycle",
+    "compute the answer step by step for composition of inhaled and exhaled air"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine net oxygen absorbed percentage",
+     "explain": "Subtract exhaled oxygen percentage from inhaled oxygen percentage",
+     "compute": "oxygen_consumed_pct = inhaled_o2_pct - exhaled_o2_pct"
+    },
+    {
+     "step": 2,
+     "action": "determine net carbon dioxide enriched percentage",
+     "explain": "Subtract inhaled carbon dioxide percentage from exhaled carbon dioxide percentage",
+     "compute": "co2_produced_pct = exhaled_co2_pct - inhaled_co2_pct"
+    },
+    {
+     "step": 3,
+     "action": "summarize the gas exchange outcome",
+     "explain": "The consumed oxygen and produced carbon dioxide values together demonstrate that respiration enriches exhaled air with CO2 while depleting oxygen.",
+     "compute": "gas_exchange_summary = (oxygen_consumed_pct, co2_produced_pct)"
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.5.1",
+   "title": "Tracheal Respiration in Insects",
+   "section": "6.5",
+   "definition": "Insects breathe through a tube network: air enters through side pores (spiracles) and travels along branching tracheae to the tissues.",
+   "formula": "gas_transport = spiracles -> tracheae -> body_cells",
+   "key_idea": "Insects transport air directly to cells via spiracles and tracheal tubes without blood involvement.",
+   "textbook_ref": "gesc106.txt lines 255-280",
+   "question_patterns": [
+    "how do cockroaches breathe",
+    "describe the function of spiracles and tracheae in insects",
+    "explain the respiratory system of insects",
+    "through which structures does gas exchange occur in a cockroach",
+    "explain tracheal respiration in insects in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify air entry ports",
+     "explain": "Oxygen-rich air enters through lateral body openings termed spiracles."
+    },
+    {
+     "step": 2,
+     "action": "trace tracheal distribution",
+     "explain": "Air traverses through branching tracheal tubes, diffusing oxygen directly into cells while taking away carbon dioxide."
+    },
+    {
+     "step": 3,
+     "action": "contrast with blood-based transport",
+     "explain": "Unlike humans, insects do not use blood to carry gases; the tracheal network delivers air straight to every tissue, making respiration highly efficient for their small bodies."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.5.2",
+   "title": "Cutaneous and Amphibian Respiration",
+   "section": "6.5",
+   "definition": "Gas exchange taking place across a thin, vascularized, moist skin surface as observed in annelids like both earthworms and dual-respiratory amphibians like frogs.",
+   "formula": "diffusion = moist_skin_surface -> capillaries",
+   "key_idea": "Dissolved atmospheric gases diffuse directly across both moist and slimy cutaneous surfaces.",
+   "textbook_ref": "gesc106.txt lines 280-295",
+   "question_patterns": [
+    "how does an earthworm breathe through its skin",
+    "explain dual respiratory modes in frogs",
+    "why must an earthworm skin remain moist for respiration",
+    "describe cutaneous gas exchange in amphibians",
+    "short note on cutaneous and amphibian respiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify moist skin requirement",
+     "explain": "Gases dissolve across the damp mucous covering the outer body surface."
+    },
+    {
+     "step": 2,
+     "action": "note amphibian versatility",
+     "explain": "Frogs utilize both pulmonary lungs on land and cutaneous gas exchange across wet skin."
+    },
+    {
+     "step": 3,
+     "action": "explain why moisture is essential",
+     "explain": "Gases must dissolve before diffusing, so a moist skin surface is required; if the skin dries out, gas exchange stops and the organism suffocates."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.6.1",
+   "title": "Aquatic Respiration via Gills",
+   "section": "6.6",
+   "definition": "Respiratory mechanism in aquatic animals like fish using feather-like gill projections rich in blood capillaries to extract oxygen dissolved in water.",
+   "formula": "dissolved_o2_in_water -> gill_filaments -> blood_vessels",
+   "key_idea": "Water flowing over richly vascularized gills allows extraction of dissolved oxygen.",
+   "textbook_ref": "gesc106.txt lines 300-320",
+   "question_patterns": [
+    "how do fish breathe underwater",
+    "what is the function of gills in aquatic respiration",
+    "explain how dissolved oxygen is extracted by fish",
+    "describe the role of blood vessels in gills",
+    "state two key points about aquatic respiration via gills"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify gill structure",
+     "explain": "Gills represent projected skin flaps extensively packed with microscopic blood capillaries."
+    },
+    {
+     "step": 2,
+     "action": "trace gas exchange from water",
+     "explain": "Oxygen dissolved in water diffuses directly into gill capillaries while carbon dioxide diffuses out."
+    },
+    {
+     "step": 3,
+     "action": "explain the role of water flow",
+     "explain": "A continuous flow of water over the gills is necessary so that fresh oxygen is always available; without water movement, the surrounding oxygen would be quickly depleted."
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.7.1",
+   "title": "Respiration in Plant Organs and Roots",
+   "section": "6.7",
+   "definition": "Gas exchange in plants where leaves utilize stomatal openings and subterranean root hairs absorb atmospheric air residing between soil particles.",
+   "formula": "soil_pore_air -> root_hair -> root_cells",
+   "key_idea": "Every plant part independently exchanges gases; roots rely on air pockets among soil grains.",
+   "textbook_ref": "gesc106.txt lines 325-355",
+   "question_patterns": [
+    "how do plant roots respire underground",
+    "what happens to plant roots when soil is waterlogged",
+    "through which structures do leaves and roots exchange gases",
+    "explain why plants need oxygen for cellular energy",
+    "state two key points about respiration in plant organs and roots"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify gas entry sites in plants",
+     "explain": "Foliage exchanges respiratory gases through stomatal pores while roots utilize single-celled hair extensions."
+    },
+    {
+     "step": 2,
+     "action": "examine soil aeration effect",
+     "explain": "Root cells tap air spaces amidst soil grains; flooding expels this air and starves roots of oxygen."
+    },
+    {
+     "step": 3,
+     "action": "connect gas exchange to plant energy needs",
+     "explain": "Like animals, plants require oxygen for cellular respiration to release energy from food, so every living plant part must have access to air for survival."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc106.txt lines 105-115",
+   "concept": "gesc.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "A student counts {total_breaths} breaths over a period of {time_minutes} minutes. Find the breathing rate.",
+   "extracted_variables": {
+    "total_breaths": "total number of complete breaths counted",
+    "time_minutes": "duration in minutes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute breathing rate per minute",
+     "explain": "Divide the total breaths by the time in minutes",
+     "compute": "breathing_rate = total_breaths / time_minutes"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc106.txt lines 180-195",
+   "concept": "gesc.6.3.2",
+   "question_type": "compute",
+   "question_pattern": "During a physical checkup, a child's chest measures {chest_inhalation} cm during deep inhalation and {chest_exhalation} cm upon exhalation. Calculate the chest expansion.",
+   "extracted_variables": {
+    "chest_inhalation": "chest circumference when fully inflated",
+    "chest_exhalation": "chest circumference when deflated"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate expansion difference",
+     "explain": "Subtract exhalation measurement from inhalation measurement",
+     "compute": "chest_expansion = chest_inhalation - chest_exhalation"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gesc106.txt lines 240-250",
+   "concept": "gesc.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "If the inhaled air has {inhaled_o2_pct} percent oxygen and exhaled air contains {exhaled_o2_pct} percent oxygen, while inhaled carbon dioxide is {inhaled_co2_pct} percent and exhaled carbon dioxide is {exhaled_co2_pct} percent, find the consumed oxygen percentage and produced carbon dioxide percentage.",
+   "extracted_variables": {
+    "inhaled_o2_pct": "percentage of oxygen in inspired air",
+    "exhaled_o2_pct": "percentage of oxygen in expired air",
+    "inhaled_co2_pct": "percentage of carbon dioxide in inspired air",
+    "exhaled_co2_pct": "percentage of carbon dioxide in expired air"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine net oxygen absorbed percentage",
+     "explain": "Subtract exhaled oxygen percentage from inhaled oxygen percentage",
+     "compute": "oxygen_consumed_pct = inhaled_o2_pct - exhaled_o2_pct"
+    },
+    {
+     "step": 2,
+     "action": "determine net carbon dioxide enriched percentage",
+     "explain": "Subtract inhaled carbon dioxide percentage from exhaled carbon dioxide percentage",
+     "compute": "co2_produced_pct = exhaled_co2_pct - inhaled_co2_pct"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "gesc106.txt lines 80-120",
+   "concept": "gesc.6.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute breathing rate calculation step by step",
+   "extracted_variables": {
+    "total_breaths": "value of total_breaths",
+    "time_minutes": "value of time_minutes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute breathing rate per minute",
+     "explain": "Divide total complete breaths by duration in minutes",
+     "compute": "breathing_rate = total_breaths / time_minutes"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "gesc106.txt lines 180-210",
+   "concept": "gesc.6.3.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute chest expansion measurement step by step",
+   "extracted_variables": {
+    "chest_inhalation": "value of chest_inhalation",
+    "chest_exhalation": "value of chest_exhalation"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate expansion difference",
+     "explain": "Subtract exhalation chest size from inhalation chest size",
+     "compute": "chest_expansion = chest_inhalation - chest_exhalation"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "gesc106.txt lines 220-250",
+   "concept": "gesc.6.4.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute composition of inhaled and exhaled air step by step",
+   "extracted_variables": {
+    "inhaled_o2_pct": "value of inhaled_o2_pct",
+    "exhaled_o2_pct": "value of exhaled_o2_pct",
+    "exhaled_co2_pct": "value of exhaled_co2_pct",
+    "inhaled_co2_pct": "value of inhaled_co2_pct"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine net oxygen absorbed percentage",
+     "explain": "Subtract exhaled oxygen percentage from inhaled oxygen percentage",
+     "compute": "oxygen_consumed_pct = inhaled_o2_pct - exhaled_o2_pct"
+    },
+    {
+     "step": 2,
+     "action": "determine net carbon dioxide enriched percentage",
+     "explain": "Subtract inhaled carbon dioxide percentage from exhaled carbon dioxide percentage",
+     "compute": "co2_produced_pct = exhaled_co2_pct - inhaled_co2_pct"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "gesc106.txt lines 375-377",
+   "questions": [
+    "Why does an athlete breathe faster and deeper than usual after finishing the race?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "gesc106.txt lines 378-379",
+   "questions": [
+    "List the similarities and differences between aerobic and anaerobic respiration."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "gesc106.txt lines 380-381",
+   "questions": [
+    "Why do we often sneeze when we inhale a lot of dust-laden air?"
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "gesc106.txt lines 382-386",
+   "questions": [
+    "Take three test-tubes. Fill 3/4th of each with water. Label them A, B and C. Keep a snail in test-tube A, a water plant in test-tube B and in C, keep snail and plant both. Which test-tube would have the highest concentration of CO2?"
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "gesc106.txt lines 387-401",
+   "questions": [
+    "In cockroaches, air enters the body through (i) lungs (ii) gills (iii) spiracles (iv) skin.",
+    "During heavy exercise, we get cramps in the legs due to the accumulation of (i) carbon dioxide (ii) lactic acid (iii) alcohol (iv) water.",
+    "Normal range of breathing rate per minute in an average adult person at rest is: (i) 9-12 (ii) 15-18 (iii) 21-24 (iv) 30-33.",
+    "During exhalation, the ribs (i) move outwards (ii) move downwards (iii) move upwards (iv) do not move at all."
+   ]
+  },
+  {
+   "id": "ex6.6",
+   "source_ref": "gesc106.txt lines 402-414",
+   "questions": [
+    "Match the items in Column I with Column II: (a) Yeast - (iii) Alcohol, (b) Diaphragm - (iv) Chest cavity, (c) Skin - (i) Earthworm, (d) Leaves - (v) Stomata, (e) Fish - (ii) Gills, (f) Frog - (vi) Lungs and skin."
+   ]
+  },
+  {
+   "id": "ex6.7",
+   "source_ref": "gesc106.txt lines 415-424",
+   "questions": [
+    "Mark True or False: During heavy exercise the breathing rate of a person slows down.",
+    "Mark True or False: Plants carry out photosynthesis only during the day and respiration only at night.",
+    "Mark True or False: Frogs breathe through their skins as well as their lungs.",
+    "Mark True or False: The fishes have lungs for respiration.",
+    "Mark True or False: The size of the chest cavity increases during inhalation."
+   ]
+  },
+  {
+   "id": "ex6.8",
+   "source_ref": "gesc106.txt lines 425-450",
+   "questions": [
+    "Identify the term: The air tubes of insects.",
+    "Identify the term: Skeletal structures surrounding chest cavity.",
+    "Identify the term: Muscular floor of chest cavity.",
+    "Identify the term: Tiny pores on the surface of leaf.",
+    "Identify the term: Small openings on the sides of the body of an insect.",
+    "Identify the term: The respiratory organs of human beings.",
+    "Identify the term: The openings through which we inhale.",
+    "Identify the term: An anaerobic organism.",
+    "Identify the term: An organism with tracheal system."
+   ]
+  },
+  {
+   "id": "ex6.9",
+   "source_ref": "gesc106.txt lines 451-460",
+   "questions": [
+    "Why do mountaineers carry oxygen with them at high altitudes?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

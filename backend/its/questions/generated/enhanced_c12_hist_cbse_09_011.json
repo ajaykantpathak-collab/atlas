@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_011",
+   "title": "c12_hist_cbse_09_011",
+   "questions": [
+    {
+     "q": "In which decade was the first Ryotwari revenue settlement introduced in the Bombay Deccan, and what was the revision period for revenue rates?",
+     "a": "The first Ryotwari settlement was introduced in the 1820s, and lands were resurveyed every 30 years with revenue rates increased at each revision. A wrong answer (e.g., \"1790s\" or \"permanent settlement\") reveals confusion with the Bengal Permanent Settlement or misunderstanding that Ryotwari rates were fixed forever.",
+     "self_check": true
+    },
+    {
+     "q": "Why did British officials in the 1820s adopt Ricardian rent theory to justify a revenue system that taxed the \"surplus\" above average rent, and how did this differ from the logic of the Permanent Settlement?",
+     "a": "Officials believed Bengal's Permanent Settlement had created a class of rentier zamindars who appropriated the surplus without improving land; Ricardian theory argued the state should capture this surplus to ensure productive investment. A wrong answer that says \"Ricardian theory aimed to protect peasants\" or \"the surplus was left with zamindars\" shows a misunderstanding of the theory's application and the colonial state's revenue-maximizing motive.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot in 1840s Deccan borrows Rs 100 at 3.125% per month (37.5% per annum) to pay revenue. After three years, the moneylender forces a new bond for principal plus accumulated interest at the same rate. Calculate the effective principal on the new bond after three years if no repayment was made. (Use simple interest for this diagnostic step.)",
+     "a": "Interest per year = Rs 37.5; three years = Rs 112.5. New principal = Rs 212.5. A student who calculates Rs 137.5 (using simple interest on original principal only) misses the compounding effect that the moneylender enforced by rolling over the debt — a key mechanism of debt trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the 1860s cotton boom on Deccan ryots with the post-1865 credit contraction. Why did the boom not lead to lasting prosperity for most cultivators?",
+     "a": "During the boom, ryots got easy credit (Rs 100/acre advance) and expanded cotton acreage, but most borrowed heavily for inputs; when the boom ended, credit dried up, revenue demand doubled (50–100% increase in new settlement), and moneylenders refused new loans while demanding repayment. A response that claims \"ryots became rich\" ignores that the majority fell into deeper debt because the boom was export-driven and did not increase their control over land or capital.",
+     "self_check": true
+    },
+    {
+     "q": "The Deccan Riots Commission (1878) concluded that government revenue demand was not the cause of the revolt, blaming moneylenders instead. Evaluate this conclusion using evidence from the ryots' petitions and the revenue settlement timeline.",
+     "a": "The conclusion is flawed: the Commission was explicitly asked to judge whether revenue demand caused the revolt, creating a conflict of interest. Ryots' petitions show revenue pressure forced them to borrow; the 1865 settlement doubled demand while cotton prices collapsed. Moneylender exploitation was real but was enabled by the state's rigid, high revenue demand. A student who accepts the Commission's verdict uncritically fails to read official sources against the grain.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1818–1875) linking five key events: first Ryotwari settlement, price fall of 1832, famine 1832–34, cotton boom 1861–65, Deccan Riots 1875. Annotate each event with one cause and one consequence for the peasant economy.",
+     "a": "A strong answer will show: 1818 settlement → high demand → desertion; 1832 price fall → income drop → debt; 1832–34 famine → asset loss → deeper borrowing; 1861–65 cotton boom → credit expansion → acreage increase but debt accumulation; 1875 riots → bond burning → Commission inquiry. A weak timeline lists events without causal links or misses the revenue revisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

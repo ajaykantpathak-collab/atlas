@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_001",
+   "title": "c12_acc_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the primary objective of a Cash Flow Statement as per AS-3.",
+     "a": "The primary objective is to provide useful information about cash flows (inflows and outflows) of an enterprise during a particular period under three heads: operating, investing, and financing activities, to help users assess the ability of the enterprise to generate cash and cash equivalents and the timing and certainty of their generation. A wrong answer (e.g., \"to show profit\" or \"to show financial position\") reveals confusion between the Income Statement, Balance Sheet, and Cash Flow Statement — the student has not grasped that this statement focuses exclusively on cash movements, not accrual-based profit.",
+     "self_check": true
+    },
+    {
+     "q": "A company purchases machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this transaction treated in the Cash Flow Statement? Explain why.",
+     "a": "This transaction is NOT shown in the Cash Flow Statement because it is a non-cash transaction (no cash or cash equivalents involved). As per AS-3, investing and financing transactions that do not require the use of cash or cash equivalents are excluded from the Cash Flow Statement but disclosed elsewhere in the financial statements. A student who classifies this as an investing outflow and financing inflow has missed the critical \"cash\" criterion — they are applying the classification logic without checking for actual cash movement.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following for a non-financial enterprise: (a) Interest paid on debentures, (b) Dividend received on shares held as investment, (c) Cash receipts from sale of goods, (d) Purchase of goodwill.",
+     "a": "(a) Financing activity (outflow) — AS-3 treats interest paid as financing for non-financial enterprises. (b) Investing activity (inflow) — dividend received is investing for non-financial enterprises. (c) Operating activity (inflow) — core revenue generation. (d) Investing activity (outflow) — acquisition of intangible asset. A wrong classification of (a) as operating or (b) as operating reveals the student hasn't memorized the specific AS-3 rule for non-financial enterprises (interest/dividend paid = financing; interest/dividend received = investing). This is a high-frequency board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Interest paid\" in the Cash Flow Statement of a financial enterprise (e.g., a bank) vs. a non-financial enterprise (e.g., a manufacturing company). Why does AS-3 differentiate?",
+     "a": "For a financial enterprise, interest paid is an operating activity (core business is lending/borrowing). For a non-financial enterprise, interest paid is a financing activity (cost of borrowing capital). AS-3 differentiates because the nature of the enterprise changes the economic substance: for a bank, interest is revenue-generating operating cash flow; for a manufacturer, it's a cost of financing. A student who gives the same classification for both has not understood that classification depends on the \"nature of the enterprise\" — a key conceptual point tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A company reports a net profit of ₹10,00,000. During the year, trade receivables increased by ₹2,00,000, inventory decreased by ₹50,000, and trade payables increased by ₹1,00,000. Depreciation charged was ₹1,50,000. Evaluate whether the cash generated from operations is higher or lower than net profit, and by how much, without doing the full calculation. Justify your reasoning.",
+     "a": "Cash from operations will be HIGHER than net profit by ₹50,000. Reasoning: Depreciation (+₹1,50,000, non-cash added back), Increase in receivables (-₹2,00,000, more sales on credit), Decrease in inventory (+₹50,000, less cash tied up), Increase in payables (+₹1,00,000, delayed cash outflow). Net adjustment = +1,50,000 - 2,00,000 + 50,000 + 1,00,000 = +₹50,000. A student who says \"lower\" or calculates incorrectly has not internalized the working capital adjustment logic: increase in current assets = cash outflow (deduct), increase in current liabilities = cash inflow (add). This tests analytical application of the indirect method concept.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario for a \"Software Development Company\" where the same activity — \"Purchase of shares\" — could be classified as operating for one company and investing for another. Explain both classifications.",
+     "a": "Scenario: Company A is a share brokerage firm (operating activity — shares are inventory held for trading). Company B is a software firm investing surplus funds in shares (investing activity — shares are long-term investments). AS-3 explicitly states: \"An enterprise may hold securities for dealing or trading purposes... cash flows arising from purchase and sale of dealing or trading securities are classified as operating activities.\" A poor answer would give generic definitions without linking to the \"nature of enterprise\" principle. This tests the highest-level understanding that classification is not absolute but context-dependent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

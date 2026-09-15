@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "State and Society up to 1000 CE",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.105.5.1",
+   "title": "How State and Society Organised Themselves",
+   "section": "5",
+   "definition": "Before 1000 CE Indian society organised itself through kingdoms, varna-based social order and village communities: rulers collected taxes and protected land, Brahmanas, chiefs and guilds held influence, and local assemblies managed everyday affairs in many regions.",
+   "formula": "-",
+   "key_idea": "King, community and custom together ran early states - power was shared, not absolute.",
+   "textbook_ref": "iest105.txt opening sections (how society and state organised before 1000 CE)",
+   "question_patterns": [
+    "how did society and state organise themselves prior to 1000 CE",
+    "what were the sources of revenue of early kingdoms",
+    "describe the role of village assemblies in early states",
+    "how was society divided in this period - describe the social order",
+    "what duties did a king perform according to the texts",
+    "compare the power of the king and the local assemblies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sketch the state",
+     "explain": "Kings with court, army and revenue system governed territories."},
+    {"step": 2, "action": "sketch the society",
+     "explain": "Varna order, guilds and village communities structured daily life."},
+    {"step": 3, "action": "note the sharing",
+     "explain": "Assemblies and local chiefs limited and shared royal power."}
+   ]
+  },
+  {
+   "id": "iest.105.5.2",
+   "title": "Land, Revenue and Grants",
+   "section": "5",
+   "definition": "Land was the backbone of the early economy: peasants produced grain, a share went to the ruler as tax, and kings made land grants to Brahmanas and temples recorded on copper plates - grants that also pushed agriculture into new areas.",
+   "formula": "-",
+   "key_idea": "Land fed the state; land grants bound kings, priests and temples in one economy.",
+   "textbook_ref": "iest105.txt sections on land revenue and grants",
+   "question_patterns": [
+    "what were land grants and why were they given",
+    "what do copper plate inscriptions record - explain",
+    "how did peasants support the early state system",
+    "what was the share of produce taken as tax",
+    "how did grants help spread agriculture",
+    "discuss the effects of land grants on society and polity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "follow the produce",
+     "explain": "Grain moved from peasant to state and temple as tax and offering."},
+    {"step": 2, "action": "read the inscriptions",
+     "explain": "Copper plates recorded grants, boundaries and privileges."},
+    {"step": 3, "action": "weigh the consequences",
+     "explain": "Grants created landed elites and expanded cultivation."}
+   ]
+  },
+  {
+   "id": "iest.105.5.3",
+   "title": "Trade, Cities and Cultural Life",
+   "section": "5",
+   "definition": "Guilds of merchants and craftspeople, busy port and inland cities, coinage and temple towns marked the economic vigour of the age, while Sanskrit, Prakrit and Tamil literatures, temples and philosophy enriched its cultural life up to 1000 CE.",
+   "formula": "-",
+   "key_idea": "Trade fed cities, cities fed culture: economy and ideas grew together.",
+   "textbook_ref": "iest105.txt sections on trade, cities and cultural life",
+   "question_patterns": [
+    "what were guilds and what role did they play",
+    "describe the trade connections of early India",
+    "how did temple towns grow into economic centres",
+    "name the languages and literatures flourishing before 1000 CE",
+    "what was the role of ports in this period",
+    "describe the cultural achievements of the age with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "map the trade",
+     "explain": "Routes linked coasts, cities and distant lands; coins eased exchange."},
+    {"step": 2, "action": "note the guilds",
+     "explain": "Merchant and craft guilds organised production and trade."},
+    {"step": 3, "action": "enter the culture",
+     "explain": "Temples, texts and tournaments of ideas filled the cities."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iest105.txt exercises",
+   "questions": [
+     "Describe the organisation of the state before 1000 CE.",
+     "Explain the significance of land grants with an inscription example.",
+     "Discuss trade and cultural life of the period."
+   ]
+  }
+ ]
+}

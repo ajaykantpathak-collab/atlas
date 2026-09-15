@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_005",
+   "title": "c11_psy_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the three levels of processing in Craik and Lockhart's theory in order from shallowest to deepest.",
+     "a": "Structural (physical features) → Phonemic (sound) → Semantic (meaning). A wrong answer that reverses the order or substitutes \"acoustic\" for \"phonemic\" reveals the student has memorised labels without understanding the depth hierarchy; they may think deeper processing means \"more complex sound analysis\" rather than meaning extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why elaborative rehearsal leads to better long-term retention than maintenance rehearsal, using the concept of processing depth.",
+     "a": "Maintenance rehearsal (e.g., rote repetition) keeps information at structural/phonemic levels—shallow processing—so the trace is fragile. Elaborative rehearsal connects new information to existing semantic networks, forcing deep processing; the richer associative network creates multiple retrieval paths, making the memory more durable. A wrong answer that says \"elaborative rehearsal takes more time\" confuses effort with depth; time alone does not guarantee semantic encoding.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher asks students to learn the word \"photosynthesis\". Group A counts the syllables; Group B writes a sentence using the word; Group C draws the chemical equation. Predict the recall order from best to worst after 24 hours and justify using levels of processing.",
+     "a": "Best: Group C (semantic – drawing the equation requires understanding meaning), then Group B (semantic – sentence generation requires meaning), worst: Group A (phonemic – syllable counting is sound-based). If a student ranks Group B above Group C, they may not recognise that generating a sentence can sometimes stay at a shallow syntactic level, whereas drawing a biochemical equation forces deeper conceptual integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Stage Model's view of rehearsal (maintenance vs. elaborative) with the Levels of Processing view. Identify one key similarity and one key difference.",
+     "a": "Similarity: Both distinguish shallow (maintenance/structural-phonemic) from deep (elaborative/semantic) rehearsal. Difference: Stage Model treats rehearsal as a control process that moves information *into* LTM; Levels of Processing argues rehearsal *type* determines trace durability *within* a single memory system—there is no separate STM/LTM structural boundary. A wrong answer that says \"they are the same theory\" misses the fundamental architectural disagreement.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"To maximise memory, always use semantic encoding.\" Provide two limitations of this advice based on the theory or subsequent research.",
+     "a": "1) Transfer-appropriate processing: If the test requires rhyme recognition (phonemic), semantic encoding may not help as much as phonemic encoding. 2) Cognitive load: Deep processing demands more attentional resources; under divided attention, shallow processing may be the only feasible option. A student who says \"semantic is always best\" ignores context-dependency and resource constraints, showing an overgeneralised understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute classroom activity that forces semantic encoding of the term \"cognitive dissonance\" for Class 11 students. Specify the task, the processing level targeted, and how you would verify depth.",
+     "a": "Task: \"Write a real-life dilemma where you experienced cognitive dissonance, explain the conflicting cognitions, and describe how you resolved it.\" Target: Semantic (personal meaning, elaboration). Verification: Collect responses; check for accurate use of \"conflicting beliefs/behaviours\" and \"resolution strategy\" – not just dictionary definition. A poor activity would be \"memorise the definition\" (shallow) or \"list synonyms\" (phonemic/structural).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

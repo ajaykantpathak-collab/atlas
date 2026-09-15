@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_004",
+   "title": "c12_geo_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the four settlement pattern types recognized in NCERT Class 12 Geography for rural India and give one characteristic feature of each.",
+     "a": "The four types are: (1) Clustered/Nucleated — houses grouped closely around a central feature (temple, pond, market); (2) Semi-clustered/Fragmented — distinct hamlets separated by fields, often reflecting caste/segregation; (3) Dispersed/Isolated — individual farmsteads scattered over large area; (4) Linear/Ribbon — houses strung along a road, river, canal, or contour line. A wrong answer (e.g., listing \"circular, rectangular\" as patterns) reveals confusion between *shape* (previous node) and *pattern* (this node).",
+     "self_check": true
+    },
+    {
+     "q": "A village in the Thar Desert has houses clustered around a stepwell (baoli) with narrow winding lanes. The dominant occupation is pastoralism with some rainfed millet cultivation. Identify its functional type and settlement pattern, and explain why this pattern suits the environment.",
+     "a": "Functional type: **pastoral/agro-pastoral village**; Pattern: **clustered/nucleated**. Clustering around the stepwell minimizes water-fetching distance in an arid zone, provides mutual shade/wind protection, and enables collective defense of livestock. A student who answers \"dispersed because population is low\" misunderstands that *low density ≠ dispersed pattern*; clustered settlements can have low total population but high local density.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) a clustered farming village in the Punjab-Haryana plain, (b) a dispersed settlement in the Western Ghats (Kerala), (c) a linear fishing hamlet along the Chilika Lake coast (Odisha), (d) a semi-clustered village in the Chotanagpur plateau (Jharkhand). Justify each placement in one sentence.",
+     "a": "(a) Clustered farming village — e.g., near Karnal: fertile alluvium, canal irrigation, high land value encourages compact nucleation. (b) Dispersed in Western Ghats — e.g., Wayanad: steep slopes, heavy rainfall, plantation/perennial crops require scattered farmsteads on terraces. (c) Linear fishing hamlet — e.g., Satapada (Chilika): houses along lagoon shore for boat access and net-drying space. (c) Semi-clustered in Chotanagpur — e.g., near Ranchi: undulating terrain, tribal hamlets (tolas) separated by forest/fields reflecting clan segregation. Wrong placements (e.g., putting dispersed in Punjab) show failure to link pattern to *specific* physiographic region.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factors causing **semi-clustered (fragmented)** pattern in two contrasting regions: (i) the middle Ganga plain (Uttar Pradesh/Bihar) and (ii) the tribal belt of central India (Chotanagpur, Bastar). How do social structure and land tenure differ in their influence?",
+     "a": "In the middle Ganga plain, semi-clustering arises from **caste-based residential segregation** — each caste group forms a distinct hamlet (tola) within the same revenue village, driven by ritual purity/pollution norms; land tenure is individual peasant proprietorship. In the tribal belt, semi-clustering reflects **clan/lineage territoriality** — each hamlet is a kin-based unit practicing shifting/jhum or settled cultivation on communally held land; fragmentation follows forest clearance patches. A student attributing both solely to \"caste\" misses the tribal clan dimension and the role of communal vs. individual land rights.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dispersed settlement pattern is always an indicator of low population density and extensive farming.\" Use Indian examples to support or refute.",
+     "a": "**Refuted.** Dispersed pattern in Kerala's midlands (e.g., Kottayam) coexists with **high population density** (>800 persons/km²) and **intensive homestead farming** (coconut, rubber, spices on small plots) — dispersion results from each household living on its own cultivated holding, not from low density. Conversely, low-density pastoral areas like Ladakh show **clustered** settlements for water/defense. The statement confuses *pattern* (spatial arrangement) with *density* (people per unit area). A correct evaluation distinguishes the two concepts and cites the Kerala counterexample.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sketch map of a hypothetical revenue village in the Malwa plateau (Madhya Pradesh) showing a **semi-clustered pattern** with three hamlets. Annotate: (i) physical features influencing hamlet location, (ii) land use between hamlets, (iii) a central facility shared by all hamlets, (iv) transport links. Explain the functional rationale.",
+     "a": "Sketch: Three hamlets (A, B, C) on gentle basaltic rises separated by black cotton soil valleys. Annotations: (i) Hamlets on elevated, well-drained ground avoiding waterlogging; (ii) Valleys under intensive soybean/wheat cultivation (kharif/rabi); (iii) Central village pond + primary school + panchayat ghar at geometric center accessible to all; (iv) Unmetalled cart-tracks connecting hamlets to main district road. Rationale: Semi-clustering balances **flood avoidance** (Malwa's vertisols crack/swell) with **communal resource sharing** (pond, school) while keeping farms contiguous. A poor answer places hamlets randomly without linking to vertisol hydrology or shared infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

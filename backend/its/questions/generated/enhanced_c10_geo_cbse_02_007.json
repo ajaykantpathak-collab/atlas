@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_007",
+   "title": "c10_geo_cbse_02_007",
+   "questions": [
+    {
+     "q": "What is a sacred grove, and name one Indian state where they are prominently found?",
+     "a": "A sacred grove is a patch of forest protected by local communities due to religious beliefs that a deity resides there; prominently found in Maharashtra (Western Ghats), Meghalaya (Khasi/Jaintia Hills), and Rajasthan (Aravallis). A wrong answer (e.g., \"a government-declared national park\" or \"a plantation\") reveals the student confuses community-based conservation with state-led protected areas and misses the cultural-religious driver.",
+     "self_check": true
+    },
+    {
+     "q": "Why do sacred groves often harbor higher biodiversity than surrounding managed forests, even without formal legal protection?",
+     "a": "Sacred groves retain native species because total extraction bans (no logging, hunting, grazing) enforced by cultural taboos create de facto strict protection, unlike managed forests where selective logging or NTFP collection occurs. A wrong answer focusing only on \"religious fear\" without linking to the *ecological outcome* of zero disturbance shows the student misses the functional equivalence to a strict nature reserve.",
+     "self_check": true
+    },
+    {
+     "q": "A village in the Western Ghats has a 12-hectare sacred grove. The Forest Department proposes to include it in a new Wildlife Sanctuary. The villagers oppose this. Using the concept of 'community conserved areas', explain the likely reason for their opposition in two sentences.",
+     "a": "Villagers fear loss of traditional management rights and access to non-timber forest products (NTFPs) under sanctuary rules, which centralize control with the Forest Department, whereas the sacred grove is currently governed by their own customary institutions. A wrong answer citing \"religious opposition to government\" misses the specific governance conflict: community control vs. state control, which is the core of the ICCA (Indigenous and Community Conserved Areas) debate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Chipko Movement (1973) and Joint Forest Management (JFM, 1990 onwards) on: (a) who initiated it, (b) the role of the Forest Department, and (c) the outcome for local rights.",
+     "a": "(a) Chipko: local villagers (esp. women); JFM: Forest Department via government resolution. (b) Chipko: opposed Department's commercial logging; JFM: Department partners with Village Forest Committees. (c) Chipko: won 15-year logging ban but no formal rights; JFM: gives usufruct rights (NTFPs, share in timber) but on Department's terms. A wrong answer treating both as \"people's movements\" misses the fundamental shift from resistance to co-option.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Sacred groves are relics of the past; modern conservation requires scientific management by the Forest Department, not cultural taboos.\" Argue for or against using two geographical reasons.",
+     "a": "Against: (1) Sacred groves act as biodiversity reservoirs and gene banks for native species, often outperforming nearby scientifically managed forests in species richness because cultural taboos enforce stricter protection than patrols. (2) They provide ecosystem services (water regulation, pollinator habitats) to surrounding agricultural landscapes at zero state cost. A wrong answer agreeing with the statement ignores the empirical evidence of their ecological effectiveness and the principle of \"free, prior, informed consent\" in modern conservation ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step plan for a District Collector to integrate 5 sacred groves in her district into the district's biodiversity strategy without alienating the communities that manage them.",
+     "a": "Step 1: Map and document each grove's biodiversity and the community's management rules via participatory rural appraisal (PRA). Step 2: Legally recognize them as \"Community Reserves\" under Section 36 of the Wildlife Protection Act, 1972, *with the community's consent*, ensuring their governance authority remains intact. Step 3: Provide technical/financial support (e.g., invasive species removal, fire lines) only as requested by the community. A poor answer proposes \"taking them over as protected areas\" or \"ignoring them,\" violating the principle of subsidiarity in conservation governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,299 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Exploring Some Geometric Themes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.204.4.1",
+   "title": "Fractals and Self-Similarity",
+   "section": "4.1",
+   "definition": "A fractal is a shape built by repeating the same pattern at smaller and smaller scales, so parts look like copies of the whole - fern leaves, tree limbs, coastlines, clouds, temple tiers at Khajuraho and Escher's lizard prints all carry this self-similar structure.",
+   "formula": "-",
+   "key_idea": "Same rule, applied forever: every piece mirrors the whole at a smaller scale.",
+   "textbook_ref": "hegp204.txt lines 5-30 (fractals in nature), 100-150 (fractals in art)",
+   "question_patterns": [
+    "what is a fractal - define self-similarity with an example from nature",
+    "why does a fern show the same pattern at smaller scales",
+    "name two fractal-like structures found in Indian temples",
+    "which artist is famous for fractal art such as Smaller and Smaller",
+    "how are coastlines and clouds examples of fractals",
+    "describe the self-similar pattern on a Fulani wedding blanket"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the repeating unit",
+     "explain": "Find the copy of the whole shape that appears inside itself."},
+    {"step": 2, "action": "check the shrinking rule",
+     "explain": "Each new generation must reproduce the pattern at a smaller scale."},
+    {"step": 3, "action": "match with known examples",
+     "explain": "Ferns, trees, temple tiers and Escher prints follow exactly this repetition."}
+   ]
+  },
+  {
+   "id": "hegp.204.4.2",
+   "title": "Sierpinski Carpet Counts",
+   "section": "4.1",
+   "definition": "The Sierpinski Carpet starts from a square cut into 9 with the centre removed; every surviving square spawns 8 squares at the next step, so the count of remaining squares at step n is 8 to the power n, while holes accumulate as 1 + 8 + 64 + ... after each step.",
+   "formula": "remaining = 8 ** n",
+   "key_idea": "Each survivor makes 8 children: R0 = 1, R1 = 8, R2 = 64.",
+   "textbook_ref": "hegp204.txt lines 30-70 (Sierpinski carpet, Rn = 8n, Hn recurrence)",
+   "question_patterns": [
+    "how many squares remain at step 2 of the Sierpinski carpet",
+    "find the number of holes at step 3 of the Sierpinski carpet",
+    "write the formula for the remaining squares at the nth step",
+    "why does every remaining square give rise to 8 squares",
+    "calculate H2 for the carpet construction",
+    "how does the recurrence R(n+1) = 8 Rn lead to 8 to the power n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "raise 8 to the step number",
+     "explain": "Each step multiplies the surviving squares by 8.",
+     "compute": "remaining = 8 ** n"},
+    {"step": 2, "action": "grow the hole count",
+     "explain": "Every survivor of the previous step leaves one new hole, so holes add the previous survivors.",
+     "compute": "holes_next = holes + remaining"}
+   ]
+  },
+  {
+   "id": "hegp.204.4.3",
+   "title": "Sierpinski Triangle Counts",
+   "section": "4.1",
+   "definition": "Joining midpoints of an equilateral triangle makes 4 identical triangles and removing the centre one leaves 3; each survivor repeats this, so the number of shaded triangles at step n is 3 to the power n, and holes build up as 1 + 3 + 9 + ...",
+   "formula": "remaining = 3 ** n",
+   "key_idea": "One triangle becomes 3 survivors: 1, 3, 9, 27 at successive steps.",
+   "textbook_ref": "hegp204.txt lines 70-100 (Sierpinski gasket and its figure it out)",
+   "question_patterns": [
+    "how many triangles remain at step 3 of the Sierpinski triangle",
+    "why does joining the midpoints divide a triangle into 4 identical triangles",
+    "find the number of holes at step 4 of the Sierpinski gasket",
+    "write the count of remaining triangles at the nth step",
+    "how many triangles are removed at step 2",
+    "compare the growth of the Sierpinski triangle and carpet counts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "raise 3 to the step number",
+     "explain": "Each surviving triangle produces 3 survivors.",
+     "compute": "remaining = 3 ** n"},
+    {"step": 2, "action": "add the new holes",
+     "explain": "Each previous survivor leaves one hole in the next step.",
+     "compute": "holes_next = holes + remaining"}
+   ]
+  },
+  {
+   "id": "hegp.204.4.4",
+   "title": "Koch Snowflake Sides and Perimeter",
+   "section": "4.1",
+   "description": "",
+   "definition": "In the Koch snowflake every side splits into 3 and the middle third becomes a bump of two new sides, so each step quadruples the side count and thirds the side length; starting from 3 unit sides, step n has 3 x 4 to the n sides and perimeter 3 x (4/3) to the n.",
+   "formula": "side_count = 3 * 4 ** n",
+   "key_idea": "Sides multiply by 4, length divides by 3, so the perimeter keeps growing by 4/3 each step.",
+   "textbook_ref": "hegp204.txt lines 100-135 (Koch snowflake construction and figure it out)",
+   "question_patterns": [
+    "how many sides does the Koch snowflake have at step 2",
+    "find the perimeter at step 1 when the starting triangle has sidelength 1",
+    "write the number of sides at the nth step of the Koch snowflake",
+    "why does each step multiply the sides by 4 and divide the length by 3",
+    "calculate the perimeter of the shape at step 3",
+    "describe how the bump replaces the middle third of a side"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the sides",
+     "explain": "Each step replaces every side by 4 smaller sides.",
+     "compute": "side_count = 3 * 4 ** n"},
+    {"step": 2, "action": "find one segment length",
+     "explain": "Each side shrinks to a third of the previous, so the length is 1 over 3 to the n.",
+     "compute": "seg = 1 / 3 ** n"},
+    {"step": 3, "action": "multiply for the perimeter",
+     "explain": "Total perimeter is the side count times one segment length.",
+     "compute": "perimeter = side_count * seg"}
+   ]
+  },
+  {
+   "id": "hegp.204.4.5",
+   "title": "Visualising Solids Through Profiles",
+   "section": "4.2",
+   "definition": "Seeing a solid really means seeing its outline, or profile, from one viewpoint; the same cylinder can show a rectangle from the side and a circle from above, and imagination drills like cutting a square's corners at edge midpoints reveal hidden shapes such as a smaller square or an octagon.",
+   "formula": "-",
+   "key_idea": "One solid, many profiles: viewpoint decides whether you see a square, circle or triangle.",
+   "textbook_ref": "hegp204.txt lines 152-260 (build it in your imagination, profiles 5-12)",
+   "question_patterns": [
+    "name a solid whose profile is a square from one viewpoint",
+    "which solid gives a circular profile from above and a rectangular one from the side",
+    "what shape is left when the four corners of a square are cut at edge midpoints",
+    "can one solid show a triangular profile from one view and circular from another - give an example",
+    "why does the outline of a solid change with the viewpoint",
+    "imagine cutting the corners of an equilateral triangle at third marks - what shape remains"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the viewpoint",
+     "explain": "Decide whether the eye is above, in front or beside the solid."},
+    {"step": 2, "action": "project the outline",
+     "explain": "Trace the silhouette the solid casts from that direction."},
+    {"step": 3, "action": "match solid and profiles",
+     "explain": "Cylinders, cones and prisms each pair particular profiles with particular views."}
+   ]
+  },
+  {
+   "id": "hegp.204.4.6",
+   "title": "Making Solids and Their Nets",
+   "section": "4.2",
+   "definition": "Basic solids like cuboids, cylinders and cones can be built from flat sheets, and reading or drawing their unfoldings connects 2D outlines to 3D objects; hands-on construction confirms which faces glue together and how the flat pattern wraps into the solid.",
+   "formula": "-",
+   "key_idea": "Flat patterns fold into solids: the net lists every face exactly once.",
+   "textbook_ref": "hegp204.txt lines 260-330 (making solids section)",
+   "question_patterns": [
+    "draw a net of a cylinder and name its parts",
+    "which flat shapes make the net of a cone",
+    "how many rectangles and squares make the net of a cuboid",
+    "match a given net to the solid it folds into",
+    "why must a net include exactly the faces of the solid",
+    "build a parallelopiped from its net - describe the folding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the faces of the solid",
+     "explain": "Count and name each surface of the target solid."},
+    {"step": 2, "action": "arrange the faces flat",
+     "explain": "Lay the faces edge to edge so folds reconstruct the solid."},
+    {"step": 3, "action": "verify by folding",
+     "explain": "Every edge pairs with exactly one partner when the net is right."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp204.txt lines 44-58, Rn = 8n derivation",
+   "concept": "hegp.204.4.2",
+   "question_type": "compute",
+   "question_pattern": "How many squares remain at step {n} of the Sierpinski carpet?",
+   "extracted_variables": {
+    "n": "step number of the construction"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise 8 to the step number",
+     "explain": "Each step multiplies survivors by 8.",
+     "compute": "remaining = 8 ** n"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp204.txt lines 58-70, Hn growth",
+   "concept": "hegp.204.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the number of holes at step {n} of the Sierpinski carpet, given {holes} holes at the previous step and {remaining} remaining squares there.",
+   "extracted_variables": {
+    "n": "current step number",
+    "holes": "hole count at the previous step",
+    "remaining": "remaining squares at the previous step"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise 8 to the step number",
+     "explain": "Survivors at the current step follow 8 to the n.",
+     "compute": "remaining = 8 ** n"},
+    {"step": 2, "action": "add the new holes",
+     "explain": "Each previous survivor leaves one hole.",
+     "compute": "holes_next = holes + remaining"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp204.txt lines 76-96, Sierpinski gasket",
+   "concept": "hegp.204.4.3",
+   "question_type": "compute",
+   "question_pattern": "How many shaded triangles remain at step {n} of the Sierpinski triangle?",
+   "extracted_variables": {
+    "n": "step number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "raise 3 to the step number",
+     "explain": "Every survivor leaves 3 survivors.",
+     "compute": "remaining = 3 ** n"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp204.txt Figure it Out Q2, lines 96-100",
+   "concept": "hegp.204.4.3",
+   "question_type": "compute",
+   "question_pattern": "Given {holes} holes at step {prev_n} of the Sierpinski gasket and {remaining} surviving triangles, find the holes at the next step.",
+   "extracted_variables": {
+    "prev_n": "previous step number",
+    "holes": "holes so far",
+    "remaining": "surviving triangles at the previous step"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the survivors at the next step",
+     "explain": "Survivors treble each step.",
+     "compute": "remaining = 3 ** n"},
+    {"step": 2, "action": "add new holes",
+     "explain": "Each previous survivor leaves one hole.",
+     "compute": "holes_next = holes + remaining"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp204.txt Figure it Out Q2, Koch snowflake sides",
+   "concept": "hegp.204.4.4",
+   "question_type": "compute",
+   "question_pattern": "Find the number of sides of the Koch snowflake at step {n}.",
+   "extracted_variables": {
+    "n": "step number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "quadruple per step from 3 sides",
+     "explain": "Every side becomes 4 sides each step.",
+     "compute": "side_count = 3 * 4 ** n"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp204.txt Figure it Out Q3, Koch snowflake perimeter",
+   "concept": "hegp.204.4.4",
+   "question_type": "compute",
+   "question_pattern": "Find the perimeter of the Koch snowflake at step {n} when the starting triangle has sidelength 1.",
+   "extracted_variables": {
+    "n": "step number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the sides",
+     "explain": "3 times 4 to the n sides exist at step n.",
+     "compute": "side_count = 3 * 4 ** n"},
+    {"step": 2, "action": "find one segment length",
+     "explain": "Each segment has length 1 over 3 to the n.",
+     "compute": "seg = 1 / 3 ** n"},
+    {"step": 3, "action": "multiply for the perimeter",
+     "explain": "Sides times segment length is the perimeter.",
+     "compute": "perimeter = side_count * seg"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hegp204.txt Figure it Out, lines 84-100 and 125-135",
+   "questions": [
+    "Draw the first steps of the Sierpinski carpet and triangle sequences.",
+    "Find the number of holes and remaining shapes at each step of the Sierpinski triangle.",
+    "Find the number of sides and the perimeter of the Koch snowflake at step n.",
+    "Find the area remaining at the nth step if the starting shape has area 1 sq unit."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hegp204.txt lines 152-330",
+   "questions": [
+    "Describe solids with contrasting profiles such as circle from above and triangle from the side.",
+    "What shape remains after cutting a square's corners at the midpoints of adjacent edges?",
+    "Draw and fold the net of a cylinder."
+   ]
+  }
+ ]
+}

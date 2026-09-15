@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_006",
+   "title": "c11_bio_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a herbarium in taxonomic studies, and what critical information must be included on its label?",
+     "a": "A herbarium provides a permanent, dried, pressed plant specimen that serves as a voucher for species identification and future reference; its label must include the scientific name, collector’s name, collection date, exact locality (with GPS coordinates), habitat description, and field notes on habit, flower colour, and scent. A wrong answer—such as saying the label only needs the common name or omitting locality data—reveals the student does not understand that herbaria are legal scientific vouchers requiring traceable, reproducible metadata.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a botanical garden considered a superior taxonomic aid for studying vegetative characters compared to a herbarium?",
+     "a": "A botanical garden maintains living plants in their natural growth form, allowing observation of seasonal changes, branching pattern, root architecture, and phenology—all lost when a plant is pressed and dried for a herbarium. If a student claims herbaria are better because they are easier to store, they confuse convenience with taxonomic completeness; living collections are indispensable for characters like latex presence, tendril coiling, or flowering time.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher collects a rare orchid in Arunachal Pradesh. She prepares a herbarium specimen, preserves the flowers in FAA (formalin-acetic acid-alcohol) for the museum, and sends live rhizomes to a botanical garden. Explain the specific taxonomic problem each aid solves for this single species.",
+     "a": "The herbarium fixes the vegetative morphology and overall habit for future comparison; the FAA-preserved flowers in the museum retain three-dimensional floral architecture (column structure, pollinia arrangement) that pressing distorts; the botanical garden cultivates the live plant to study pollination biology, mycorrhizal associations, and seed germination—data impossible from dead material. A wrong answer that treats all three as redundant backups misses the complementary nature of the aids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term utility of a type specimen deposited in a herbarium versus a living accession in a botanical garden for a species that is now extinct in the wild.",
+     "a": "The herbarium type specimen remains the permanent nomenclatural standard (holotype) for the species name forever, even if the living accession dies; the botanical garden accession provides genetic material for potential reintroduction and biochemical studies but is vulnerable to disease, climate mismatch, and genetic drift. A student who says the garden accession replaces the type specimen misunderstands the International Code of Nomenclature: only the herbarium type fixes the application of the name.",
+     "self_check": true
+    },
+    {
+     "q": "A museum curator argues that wet-preserved specimens in jars are obsolete because high-resolution CT scans can now digitize internal morphology. Evaluate this claim for taxonomic practice.",
+     "a": "The claim is flawed: CT scans cannot replace voucher specimens because (1) scans are interpretations dependent on resolution and staining, (2) physical specimens allow future techniques (DNA extraction, isotope analysis) not yet invented, and (3) the International Code requires a physical type specimen for nomenclatural acts. A student agreeing with the curator overlooks that museums are repositories of biological reality, not just image libraries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a protocol for a college biology department to establish a teaching herbarium of 50 local medicinal plant species, ensuring each specimen meets international standards for citation in a revisionary taxonomic paper.",
+     "a": "A good protocol includes: (1) field collection with GPS-tagged vouchers, (2) pressing in a standard plant press (45×30 cm) with daily newspaper changes, (3) drying at 45–50°C for 48 hours, (4) poisoning with mercuric chloride or deep-freezing, (5) mounting on acid-free herbarium sheets (42×29 cm) with archival adhesive, (6) labeling with all mandatory fields (family, genus, species, author, collector, number, date, locality, habitat, habit, phenology), (7) deposition in a recognized herbarium (acronym registered in Index Herbariorum), and (8) digitization at 600 dpi with barcode. A poor answer omits poisoning, uses non-archival paper, or skips Index Herbariorum registration—making specimens unusable for formal taxonomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_010",
+   "title": "c12_cs_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the base exception class for all mysql.connector errors, and which two specific subclasses would you catch to distinguish between \"lost network connection to MySQL server\" and \"SQL syntax error in your query\"?",
+     "a": "The base class is `mysql.connector.Error`. Catch `mysql.connector.InterfaceError` for lost network connection and `mysql.connector.ProgrammingError` for SQL syntax errors. A wrong answer (e.g., naming only `Exception` or confusing `DatabaseError` with `InterfaceError`) reveals the student hasn't memorized the exception hierarchy — they'll write bare `except:` or catch the wrong subclass, leading to silent failures or unhandled crashes in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code for a fund transfer:\n```python\ntry:\n    cursor.execute(\"UPDATE accounts SET balance = balance - 500 WHERE id = 1\")\n    cursor.execute(\"UPDATE accounts SET balance = balance + 500 WHERE id = 2\")\n    conn.commit()\nexcept:\n    pass\n```\nExplain why this is dangerous in a banking context, referencing at least two specific risks.",
+     "a": "Two risks: (1) Bare `except:` catches `KeyboardInterrupt` and `SystemExit`, preventing the user from stopping the program — the transfer runs forever. (2) No `conn.rollback()` means if the second UPDATE fails (e.g., account 2 doesn't exist), the first UPDATE stays committed — money vanishes from account 1 but never reaches account 2. A student who misses these shows they don't understand atomicity or exception specificity — both are board-exam favorites.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `transfer_funds(conn, from_id, to_id, amount)` that uses parameterized queries, starts a transaction implicitly, rolls back on any mysql.connector.Error, commits only on success, and ensures cursor closure. Use `mysql.connector.Error` as the caught exception class.",
+     "a": "```python\ndef transfer_funds(conn, from_id, to_id, amount):\n    cursor = conn.cursor()\n    try:\n        cursor.execute(\"UPDATE accounts SET balance = balance - %s WHERE id = %s\", (amount, from_id))\n        cursor.execute(\"UPDATE accounts SET balance = balance + %s WHERE id = %s\", (amount, to_id))\n        conn.commit()\n    except mysql.connector.Error as err:\n        conn.rollback()\n        print(f\"Transfer failed: {err}\")\n        raise\n    finally:\n        cursor.close()\n```\nA wrong answer (missing rollback, missing finally, using f-strings instead of parameterized queries) reveals the student cannot synthesize transaction control with exception handling — a guaranteed 3-mark loss in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of these two snippets when a `IntegrityError` (duplicate primary key) occurs during `cursor.execute()`. Which snippet prints \"Duplicate entry\" and which prints \"Other DB error\"? Explain why.\n\nSnippet A:\n```python\nexcept mysql.connector.IntegrityError:\n    print(\"Duplicate entry\")\nexcept mysql.connector.Error:\n    print(\"Other DB error\")\n```\n\nSnippet B:\n```python\nexcept mysql.connector.Error:\n    print(\"Other DB error\")\nexcept mysql.connector.IntegrityError:\n    print(\"Duplicate entry\")\n```",
+     "a": "Snippet A prints \"Duplicate entry\" because `IntegrityError` is caught first. Snippet B prints \"Other DB error\" because `Error` (the parent class) catches `IntegrityError` first, making the second `except` unreachable. A student who reverses this shows they don't understand Python's exception resolution order — a classic JEE/NEET trap where inheritance hierarchy matters.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"Why must `cursor.close()` and `conn.close()` be placed in a `finally` block rather than at the end of the `try` block?\" Evaluate this statement: \"Placing cleanup in `finally` is only necessary if an exception occurs; otherwise `try` block end is sufficient.\" Defend your evaluation.",
+     "a": "The statement is false. `finally` executes **always** — after `try` succeeds, after `except` handles an error, even after `return`/`break`/`continue` inside `try`/`except`. If cleanup is at the end of `try`, a premature `return` or an unhandled exception (e.g., `KeyboardInterrupt`) skips it, leaking cursors/connections. Board marking scheme awards 1 mark for \"always executes\" and 1 for \"resource leak prevention\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a new exception-handling pattern for a bulk-insert operation that inserts 10,000 student records. The requirement: if any single record fails (e.g., duplicate roll number), skip that record, log its roll number to a file `failed_inserts.log`, continue with the rest, and commit only the successful ones at the end. Provide the core loop structure with try-except.",
+     "a": "```python\nfailed = []\nfor roll, name, marks in student_data:\n    try:\n        cursor.execute(\"INSERT INTO students VALUES (%s, %s, %s)\", (roll, name, marks))\n        conn.commit()   # commit each successful insert immediately\n    except mysql.connector.IntegrityError as err:\n        failed.append(f\"{roll}: {err}\")\n    except mysql.connector.Error as err:\n        failed.append(f\"{roll}: {err}\")\n        # optionally break on non-duplicate errors\nwith open(\"failed_inserts.log\", \"w\") as f:\n    f.write(\"\\n\".join(failed))\n```\nA poor answer uses a single transaction for all 10,000 rows (rollback loses all work) or puts `commit()` outside the loop (defeats \"skip and continue\"). This tests synthesis of exception handling, transaction granularity, and file I/O — a CUET-style competency question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

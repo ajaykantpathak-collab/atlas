@@ -1,0 +1,280 @@
+{
+ "catalog": "catalog_class6_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "fegp.8.1.1",
+   "title": "Definition of a Circle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 14 cm. Find its circumference (pi = 22/7).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 63 cm (pi = 22/7).",
+     "a": "12474",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 63 cm and 147 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "55440",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 270 degrees at the centre of a circle of radius 14 cm (pi = 22/7).",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 90 degrees in a circle of radius 70 cm (pi = 22/7).",
+     "a": "3850",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.1.2",
+   "title": "Radius of a Semicircular Wave",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 4 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 9 with a set of size 7?",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 9 elements have?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 1 at a time.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2.1",
+   "title": "Properties of a Rectangle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 24 gives 66",
+     "compute": "other = 90 - 24"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 24 degrees, find the other.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 83 degrees, find the other.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 62 degrees; find the other.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 57 degrees and 127 degrees, find the remaining angle.",
+     "a": "176",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 79 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 132 degrees. Find its co-interior partner.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.2.2",
+   "title": "Properties of a Square",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 21 ** 2 gives 441",
+     "compute": "sq = 21 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 21.",
+     "a": "441",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 36 m. What is the number of square metres in its area?",
+     "a": "1296",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 3^2 and 4^2? (Rule: 2 x n)",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 58?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 30. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "226",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.4.1",
+   "title": "Dividing Rectangles into Identical Squares",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 16.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 21 m. What is the number of square metres in its area?",
+     "a": "441",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 2^2 and 3^2? (Rule: 2 x n)",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 13 x 11.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 74?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 30. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "226",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.5.1",
+   "title": "Diagonals of a Rectangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 4 cm and 6 cm. Find its perimeter.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 20 cm, what is the length of each half of it?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 20 cm and 14 cm (two decimal places).",
+     "a": "12.21",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 12 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "16.97",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 80 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 80 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.8.5.2",
+   "title": "Diagonal Angle Bisector in Squares",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 100 degrees. Find the adjacent angle.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 6 cm and 10 cm. Find its perimeter.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 20 cm, what is the length of each half of it?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 18 cm and 6 cm (two decimal places).",
+     "a": "9.49",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 9 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "12.73",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "240",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

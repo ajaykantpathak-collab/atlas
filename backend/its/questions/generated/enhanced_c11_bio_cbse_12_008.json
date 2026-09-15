@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_008",
+   "title": "c11_bio_cbse_12_008",
+   "questions": [
+    {
+     "q": "Define the term 'amphibolic pathway' and name the specific respiratory intermediate that serves as the direct entry point for fatty acid oxidation and the direct precursor for fatty acid synthesis.",
+     "a": "An amphibolic pathway is a metabolic pathway that participates in both catabolism (breakdown) and anabolism (synthesis). Acetyl-CoA is the intermediate: fatty acids are β-oxidized to acetyl-CoA for entry into the Krebs cycle (catabolism), and acetyl-CoA is withdrawn from the mitochondrial pool (via citrate shuttle) for fatty acid synthesis (anabolism). A wrong answer that only defines it as 'both breakdown and synthesis' without naming acetyl-CoA reveals the student memorized the label but not the mechanistic link; a wrong intermediate (e.g., pyruvate) reveals confusion between carbohydrate and lipid entry points.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the Krebs cycle oxidizes acetyl-CoA to CO₂, it is purely catabolic; the cell cannot use Krebs cycle intermediates to build new molecules because they would be lost as CO₂.\" Explain why this reasoning is incorrect using the concept of anaplerotic reactions and intermediate withdrawal.",
+     "a": "The Krebs cycle is a cycle, not a linear pathway: for every acetyl-CoA that enters, two carbons leave as CO₂, but the four-carbon oxaloacetate is regenerated. Intermediates like α-ketoglutarate and oxaloacetate are continuously withdrawn for amino acid synthesis (glutamate, aspartate families) and gluconeogenesis. Anaplerotic reactions (e.g., pyruvate carboxylase forming oxaloacetate) replenish the cycle. The student's error is viewing the cycle as a one-way oxidative machine; the correct view is a dynamic pool where carbon flux partitions between oxidation and biosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "During intense exercise, muscle cells take up large amounts of branched-chain amino acids (BCAAs) and transaminate them to form glutamate, which enters the Krebs cycle as α-ketoglutarate. Simultaneously, the liver performs gluconeogenesis using alanine. Trace the carbon fate of BCAA carbons in muscle vs. liver and explain how this illustrates the amphibolic nature of the respiratory pathway.",
+     "a": "Step 1: In muscle, BCAAs (valine, leucine, isoleucine) are transaminated → glutamate → α-ketoglutarate (Krebs intermediate). Step 2: α-ketoglutarate enters Krebs cycle → oxidized to CO₂ for ATP (catabolism) OR can be used for synthesis if needed. Step 3: In liver, alanine (from muscle) is transaminated → pyruvate → oxaloacetate (via pyruvate carboxylase) → gluconeogenesis (anabolism). Step 4: Both tissues use the same Krebs cycle intermediates (α-ketoglutarate, oxaloacetate) but for opposite purposes: muscle oxidizes for energy, liver withdraws for glucose synthesis. This dual use in different tissues simultaneously proves the pathway is amphibolic. A wrong answer that says 'muscle only does catabolism, liver only anabolism' misses that both tissues can do both depending on conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the respiratory quotient (RQ) of a germinating castor seed (storing triacylglycerols) with that of a germinating wheat grain (storing starch). Calculate the approximate RQ for each and explain how the amphibolic pathway intermediates account for the difference.",
+     "a": "Castor seed (fat substrate): tripalmitin C₅₁H₉₈O₆ + 72.5 O₂ → 51 CO₂ + 49 H₂O → RQ = 51/72.5 ≈ 0.7. Wheat grain (carbohydrate): C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O → RQ = 1.0. The difference arises because fats are more reduced (more C-H bonds) and require more O₂ per carbon oxidized. In the amphibolic pathway, fatty acids enter as acetyl-CoA (2C) and are fully oxidized in Krebs cycle, but the carbons from glycerol (converted to PGAL) can be used for gluconeogenesis (anabolism) in the germinating seedling, temporarily lowering CO₂ evolution relative to O₂ consumption. A student who only memorizes RQ values without linking to substrate entry points and intermediate diversion misses the metabolic basis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If a cell needs to synthesize large amounts of cholesterol, it should upregulate glycolysis and pyruvate dehydrogenase to maximize acetyl-CoA production.\" Identify the metabolic flaw and propose a correct regulatory strategy.",
+     "a": "The flaw: glycolysis + pyruvate dehydrogenase produce mitochondrial acetyl-CoA, but cholesterol synthesis occurs in the cytosol. Mitochondrial acetyl-CoA cannot cross the inner membrane directly. Correct strategy: upregulate citrate export from mitochondria (via citrate shuttle) → cytosolic ATP-citrate lyase cleaves citrate to acetyl-CoA + oxaloacetate. This uses the amphibolic intermediate citrate as a carbon carrier. Additionally, NADPH from pentose phosphate pathway (fed by glucose-6-phosphate from glycolysis) is needed for reductive steps. A student who ignores compartmentalization and the role of citrate as a shuttle reveals a middle-school level understanding of metabolism as a single homogeneous pool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using germinating seeds to demonstrate that respiratory intermediates are used for biosynthesis (anabolism) and not just energy production. Specify the seeds, measurements, and expected outcome that would confirm amphibolic function.",
+     "a": "Use castor (fat-storing) and mung bean (protein-storing) seeds. Germinate in dark (no photosynthesis) with ¹⁴C-labeled acetate (enters as acetyl-CoA). Measure: (a) ¹⁴CO₂ evolution (catabolism), (b) ¹⁴C incorporation into amino acids (protein synthesis) and fatty acids (membrane synthesis) in the growing seedling. Expected: significant ¹⁴C in newly synthesized proteins and lipids, not just CO₂. Control: heat-killed seeds show only CO₂ (no synthesis). A poor design that only measures O₂ consumption/CO₂ evolution (respirometer) cannot distinguish catabolism from anabolism; the student must track carbon into biomass.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

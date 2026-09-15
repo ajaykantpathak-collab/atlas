@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_010",
+   "title": "c11_soc_cbse_10_010",
+   "questions": [
+    {
+     "q": "Define Sanskritisation in one precise sentence using Srinivas's original formulation. What specific phrase did he use to describe the reference group whose customs are imitated?",
+     "a": "Sanskritisation is the process by which a lower caste or tribe adopts the customs, rituals, beliefs, and lifestyle of a higher, usually 'twice-born' (dvija) caste to raise its position in the local caste hierarchy. A wrong answer that says \"adopts Brahmin customs\" is incomplete — Srinivas explicitly said 'twice-born' (dvija) castes, which includes Kshatriyas and Vaishyas, not just Brahmins. Students who miss 'twice-born' confuse the reference group and cannot explain why some groups Sanskritise towards Kshatriya models (e.g., Rajputisation).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Sanskritisation and Westernisation are the same thing — both are about lower castes copying upper castes to become modern.\" Explain why this is incorrect by contrasting the *direction*, *reference group*, and *relationship to the caste system* for each concept.",
+     "a": "Sanskritisation: direction is upward within the caste hierarchy; reference group is a locally dominant 'twice-born' caste; it *reinforces* the caste system by validating its hierarchy. Westernisation: direction is not hierarchical but cultural; reference group is Western (British/European) culture; it *undermines* the caste system by introducing equality, rationality, and individualism. A wrong answer that conflates them fails to see that Sanskritisation seeks *ritual purity* while Westernisation often involves *ritual pollution* (e.g., eating beef, drinking alcohol). This confusion leads to misreading social movements — e.g., interpreting the Arya Samaj as Westernisation when it was Sanskritisation.",
+     "self_check": true
+    },
+    {
+     "q": "In a village in western Uttar Pradesh, the Jat caste owns 60% of cultivable land, constitutes 35% of the village population, and is ranked locally as a 'clean' Shudra caste (touchable, but not twice-born). The Brahmin caste is 5% of the population and owns 5% of land. The Dalit caste is 40% of the population and owns no land. Using Srinivas's criteria, which caste is the Dominant Caste? Explain why ritual rank alone does not determine dominance.",
+     "a": "The Jat caste is the Dominant Caste. Srinivas's three criteria are: (1) substantial control over arable land, (2) numerical strength, (3) reasonably high ritual status (not necessarily the highest). Jats meet all three: land control (60%), numbers (35%), and 'clean' Shudra status. Brahmins have high ritual status but fail on land and numbers. Dalits have numbers but fail on land and ritual status. A wrong answer choosing Brahmins reveals the misconception that 'dominant' means 'ritually highest' — Srinivas explicitly argued against this textual view, showing dominance is a *secular* power configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of status change in Sanskritisation with the mechanism of power change in the Dominant Caste concept. Why did Srinivas argue that Sanskritisation does not lead to structural change, while the rise of a new Dominant Caste can?",
+     "a": "Sanskritisation is *positional* mobility: a caste moves up the *existing* hierarchy by adopting the *symbols* of the higher caste (diet, dress, rituals). The structure (hierarchy itself) remains intact — it's a zero-sum game within fixed slots. Dominant Caste power is *structural*: it derives from control over material resources (land, water, credit) and numbers, enabling the caste to *set the rules* (e.g., which festivals are public holidays, who gets panchayat tickets). A new Dominant Caste (e.g., Reddys in Andhra post-land reform) can restructure village power because it controls the *means of coercion and patronage*. A wrong answer saying \"both change the hierarchy\" misses that Sanskritisation is *cultural emulation* while Dominant Caste is *material domination*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using Srinivas's framework: \"Westernisation has completely replaced Sanskritisation in modern India because everyone now wants to be 'modern' not 'traditional'.\" Provide a concrete example where both processes operate simultaneously in the same community.",
+     "a": "The statement is false. Srinivas showed Westernisation and Sanskritisation *coexist* and *interact*. Example: The Lingayat community in Karnataka sends children to English-medium schools (Westernisation: education, dress, jobs) while simultaneously funding Vedic rituals, building mathas, and asserting Kshatriya status through Sanskritised rites (Sanskritisation). Westernisation provides *economic mobility* (jobs, migration); Sanskritisation provides *ritual legitimacy* and *political cohesion* for collective action (e.g., demanding OBC quotas). A wrong answer that sees them as sequential stages ignores Srinivas's insight that the Indian middle class is *both* Westernised *and* Sanskritised — they are complementary strategies for different kinds of capital (economic vs. symbolic).",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical village case study (with caste names, landholding %, population %, ritual rank) where: (a) the Dominant Caste is *not* the ritually highest caste, (b) a lower caste is undergoing Sanskritisation *towards* the Dominant Caste (not the Brahmin), and (c) Westernisation is weakening the Dominant Caste's power. Explain all three dynamics in 150 words.",
+     "a": "Good answer criteria: Village has 4 castes — Marathas (45% pop, 55% land, Kshatriya-status), Brahmins (5% pop, 5% land, highest ritual), Mahars (25% pop, 0% land, Dalit), Malis (25% pop, 10% land, Shudra). (a) Marathas are Dominant Caste (land + numbers + high-but-not-highest ritual). (b) Malis adopt Maratha customs (wearing turban, Maratha deity worship, meat-eating on festivals) — Sanskritisation *towards* the locally dominant caste, not Brahmins. (c) Maratha youth migrate to Pune for IT jobs (Westernisation), sell land to developers, weaken Maratha control over labour and panchayat; Mahars gain education/reservations, challenge Maratha authority. Poor answer: makes Dominant Caste = Brahmin, or has Sanskritisation only towards Brahmins, or treats Westernisation as only \"wearing jeans\" without structural consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

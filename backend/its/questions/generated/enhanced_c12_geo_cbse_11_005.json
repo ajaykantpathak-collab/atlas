@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_005",
+   "title": "c12_geo_cbse_11_005",
+   "questions": [
+    {
+     "q": "A student writes: \"Kharif crops are sown in June and harvested in October everywhere in India.\" Identify the geographical inaccuracy in this statement and correct it using the concept of monsoon onset variability.",
+     "a": "The statement assumes a uniform June sowing date across India. In reality, the Southwest Monsoon onset progresses from Kerala (1 June) to Rajasthan (15 July), shifting Kharif sowing by up to 6 weeks. A correct statement: \"Kharif sowing follows monsoon onset, varying from early June in the south to mid-July in the northwest; harvest similarly shifts from September in the east to November in the northwest.\" A wrong answer reveals the student treats monsoon as a single-date event rather than a propagating system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same piece of land in Tamil Nadu can grow three rice crops a year (aus, aman, boro analogues) while land in Punjab typically grows only one rice crop (Kharif) followed by wheat (Rabi).",
+     "a": "Tamil Nadu lies in the tropical zone where temperatures remain >20°C year-round, so thermal constraints never halt rice growth; soil moisture from Northeast Monsoon (Oct–Dec) and irrigation enables sequential crops. Punjab experiences winter temperatures <10°C (Jan), which stops rice but suits wheat; the thermal window for rice closes by October. A wrong answer (e.g., \"more rainfall in Tamil Nadu\") reveals confusion between moisture availability and thermal limits — the real differentiator is temperature, not just water.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Net Sown Area (NSA) of a district = 1,20,000 ha; Gross Cropped Area (GCA) = 1,80,000 ha. Calculate the Cropping Intensity (CI). If the district introduces Zaid cultivation on 30,000 ha of currently fallow land, what is the new CI? Show steps.",
+     "a": "Step 1: CI = (GCA / NSA) × 100 = (1,80,000 / 1,20,000) × 100 = 150%.  \nStep 2: New GCA = 1,80,000 + 30,000 = 2,10,000 ha (NSA unchanged).  \nStep 3: New CI = (2,10,000 / 1,20,000) × 100 = 175%.  \nA wrong answer (e.g., adding 30,000 to NSA) reveals confusion between net and gross area — NSA is physical land, GCA counts multiple crops on the same land.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cropping season logic in the Indo-Gangetic Plain (IGP) vs. the Deccan Plateau. Why does the IGP exhibit a sharp Kharif–Rabi–Zaid sequence while the Deccan shows overlapping, less distinct seasons?",
+     "a": "IGP: Strong continental climate — hot summer (Zaid possible with irrigation), intense monsoon (Kharif), cold winter (Rabi). Thermal amplitude >25°C creates discrete windows. Deccan: Maritime influence moderates temperatures (annual range ~10°C); no severe winter, so Rabi crops (wheat, mustard) cannot thrive. Instead, Kharif and Rabi merge — e.g., ragi, jowar grown in both seasons with moisture from SW and NE monsoons. A wrong answer citing \"soil difference\" misses the primary driver: temperature seasonality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Expanding Zaid cultivation is the most sustainable way to raise cropping intensity in India.\" Consider water availability, energy costs, and climate change.",
+     "a": "Zaid depends entirely on irrigation (groundwater/canal) during peak summer evaporation. In Punjab/Haryana, Zaid rice/paddy accelerates groundwater depletion (NASA GRACE data: -3 cm/yr). In Maharashtra, Zaid sugarcane competes with drinking water. Sustainable alternatives: (a) short-duration Kharif/Rabi varieties enabling double cropping without summer irrigation, (b) millets/pulses in rainfed Zaid slots. A wrong answer endorsing Zaid uncritically ignores the water–energy–climate nexus and the distinction between protective vs. productive irrigation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping calendar for a 2-ha farm in western Uttar Pradesh (irrigated, alluvial soil) that maximizes annual income while maintaining soil health. Specify crops for Kharif, Rabi, Zaid, and justify each choice with moisture, temperature, and market factors.",
+     "a": "Kharif: Basmati rice (Jun–Oct) — high value, export demand, uses monsoon + supplemental irrigation.  \nRabi: Wheat (Nov–Apr) + Mustard (intercrop) — wheat ensures food security, mustard adds oil income, both use winter irrigation efficiently.  \nZaid: Moong (Apr–Jun) — 60-day legume, fixes N, low water, fits before next Kharif; or fodder sorghum for dairy income.  \nAvoid Zaid rice — depletes water table. A poor answer lists crops without linking to thermal windows, water budget, or crop rotation benefits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

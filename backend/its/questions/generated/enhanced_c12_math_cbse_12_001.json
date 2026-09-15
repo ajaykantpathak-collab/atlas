@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_12_001",
+   "title": "c12_math_cbse_12_001",
+   "questions": [
+    {
+     "q": "State the three essential components of a Linear Programming Problem in standard form.",
+     "a": "The three essential components are: (1) Decision variables (non‑negative), (2) A linear objective function to be maximised or minimised, (3) A set of linear constraints (inequalities/equations) that the variables must satisfy.  \nA wrong answer (e.g., listing only \"objective function and constraints\" but omitting non‑negativity) reveals that the student does not recognise non‑negativity restrictions as a separate, mandatory component — a frequent source of errors in board exams where forgetting \\(x, y \\ge 0\\) leads to an unbounded feasible region and incorrect solutions.",
+     "self_check": true
+    },
+    {
+     "q": "In the furniture dealer example from NCERT, the investment constraint is \\(2500x + 500y \\le 50000\\) and the storage constraint is \\(x + y \\le 60\\). Explain why both constraints are necessary and why they are written as inequalities (≤) rather than equations (=).",
+     "a": "The investment constraint limits total spending to *at most* ₹50,000 (the dealer may not spend all money), and the storage constraint limits total pieces to *at most* 60 (space may not be fully used). Inequalities (≤) capture \"at most\" — the dealer can choose any combination that does not exceed the limits. Writing them as equations would force the dealer to spend exactly ₹50,000 and store exactly 60 pieces, which is not required and would eliminate feasible options like buying only 20 tables (₹50,000 spent, 20 pieces stored).  \nA student who says \"equations are simpler\" or \"the dealer wants to use all resources\" misunderstands that LPP constraints are *restrictions*, not *requirements* to use everything. This misconception leads to infeasible formulations in word problems where resources are not fully utilised.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer has 10 hectares of land. He grows wheat (profit ₹5000/hectare) and barley (profit ₹3000/hectare). Wheat requires 2 hours of labour per hectare, barley requires 1 hour. Total labour available is 15 hours. Fertiliser: wheat needs 3 kg/hectare, barley needs 2 kg/hectare; maximum fertiliser is 24 kg. Formulate the LPP to maximise profit. Write the objective function and all constraints explicitly.",
+     "a": "Let \\(x\\) = hectares of wheat, \\(y\\) = hectares of barley.  \nObjective: Maximise \\(Z = 5000x + 3000y\\)  \nConstraints:  \nLand: \\(x + y \\le 10\\)  \nLabour: \\(2x + y \\le 15\\)  \nFertiliser: \\(3x + 2y \\le 24\\)  \nNon‑negativity: \\(x \\ge 0,\\ y \\ge 0\\)  \nA common error is writing the land constraint as \\(x + y = 10\\) (forcing full use of land) or swapping coefficients in labour/fertiliser constraints. Another error is omitting non‑negativity. The correct formulation shows all resources as \"≤\" because the farmer may not use all land, labour, or fertiliser.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two LPP formulations:  \n(A) Maximise \\(Z = 3x + 4y\\) subject to \\(x + y \\le 5,\\ x \\ge 0,\\ y \\ge 0\\).  \n(B) Maximise \\(Z = 3x + 4y\\) subject to \\(x + y \\le 5,\\ x \\ge 0,\\ y \\ge 0,\\ x \\le 3\\).  \nCompare the feasible regions of (A) and (B). How does adding the constraint \\(x \\le 3\\) change the set of feasible solutions and the possible optimal value?",
+     "a": "In (A), the feasible region is the triangle with vertices \\((0,0), (5,0), (0,5)\\). In (B), the extra constraint \\(x \\le 3\\) cuts off the part of the triangle where \\(x > 3\\), making the feasible region a quadrilateral with vertices \\((0,0), (3,0), (3,2), (0,5)\\). The maximum of \\(Z = 3x + 4y\\) in (A) occurs at \\((0,5)\\) giving \\(Z=20\\). In (B), the corner points are \\((0,0): Z=0\\), \\((3,0): Z=9\\), \\((3,2): Z=17\\), \\((0,5): Z=20\\). The maximum remains 20 at \\((0,5)\\) because \\((0,5)\\) still satisfies \\(x \\le 3\\). Adding a constraint can only shrink or leave unchanged the feasible region; the optimal value can stay the same or decrease (for maximisation), never increase.  \nA student who thinks the optimal value must change or that the new constraint is redundant without checking corner points fails to analyse the geometric effect of constraints — a key skill for JEE/NEET where constraint modification questions appear.",
+     "self_check": true
+    },
+    {
+     "q": "A student formulates the following LPP for a factory producing two products A and B:  \nMaximise \\(Z = 50x + 40y\\)  \nSubject to:  \n\\(2x + 3y \\ge 100\\) (machine hours)  \n\\(x + 2y \\le 80\\) (labour hours)  \n\\(x \\ge 0, y \\ge 0\\)  \nThe student claims: \"Since machine hours must be at least 100, the constraint is \\(\\ge\\); labour hours at most 80 gives \\(\\le\\). This is correct.\" Evaluate this formulation. Is the machine‑hours constraint correctly represented? Justify.",
+     "a": "The formulation is **incorrect**. Machine hours available are a *limited resource*; the factory cannot *exceed* the available hours. If the machine is available for 100 hours, the constraint should be \\(2x + 3y \\le 100\\) (usage ≤ availability). Writing \\(\\ge 100\\) means the factory must use *at least* 100 hours, which would force production to consume more machine time than available — an infeasible or unrealistic requirement. The student confused \"minimum requirement\" (like a demand constraint) with \"resource availability\". In LPP, resource constraints are always ≤ (for maximisation) because you cannot use more than you have.  \nThis error is extremely common in board exams: students write \\(\\ge\\) for any \"minimum\" word without checking whether it's a resource limit or a demand requirement. The correct interpretation: resource availability → ≤; minimum demand/order → ≥.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real‑world scenario (Indian context) that leads to a Linear Programming Problem with **exactly three constraints** (excluding non‑negativity) and **two decision variables**. The objective must be **minimisation**. Write the complete formulation and explain why each constraint is linear.",
+     "a": "**Scenario:** A hospital in Mumbai needs to prepare a daily diet for patients using two food mixes: Mix A (cost ₹50/kg, provides 10 units protein, 5 units vitamins) and Mix B (cost ₹40/kg, provides 5 units protein, 10 units vitamins). Minimum daily requirements: protein ≥ 100 units, vitamins ≥ 80 units. The kitchen can store at most 15 kg total of the two mixes. Minimise cost.  \n**Formulation:**  \nLet \\(x\\) = kg of Mix A, \\(y\\) = kg of Mix B.  \nMinimise \\(Z = 50x + 40y\\)  \nSubject to:  \nProtein: \\(10x + 5y \\ge 100\\)  \nVitamins: \\(5x + 10y \\ge 80\\)  \nStorage: \\(x + y \\le 15\\)  \n\\(x \\ge 0,\\ y \\ge 0\\)  \n**Linearity explanation:** Each constraint is a linear combination of \\(x\\) and \\(y\\) with constant coefficients (protein/vitamin content per kg, storage capacity per kg). The objective is a linear cost function. All relations are first‑degree — no products, powers, or non‑linear functions of variables.  \nA poor answer might give a scenario with non‑linear constraints (e.g., \"cost per kg decreases after 10 kg\") or forget non‑negativity, showing inability to distinguish linear from non‑linear relationships — a critical gap for competitive exams where non‑linear problems are not LPP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

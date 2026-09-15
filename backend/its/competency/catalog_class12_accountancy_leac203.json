@@ -1,0 +1,384 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 3,
+ "chapter_title": "Financial Statements of a Company",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.203.1.1",
+   "title": "Meaning of Financial Statements",
+   "section": "3.1",
+   "definition": "Financial statements are the formal yearly reports through which a company's management tells outsiders how the business fared: the balance sheet at period end, the statement of profit and loss for the period, and the cash flow statement.",
+   "formula": "financial_statements = balance_sheet + statement_of_profit_and_loss + cash_flow_statement",
+   "key_idea": "They are the summarised end product of the whole accounting cycle, built to help owners, lenders and the state take economic decisions.",
+   "textbook_ref": "leac203.txt section 3.1 (lines 25-67)",
+   "question_patterns": [
+    "what do financial statements of a company comprise",
+    "name the annual reports through which management communicates results",
+    "which statements together form the financial statements of a company",
+    "who are the readers a company reports to through its financial statements",
+    "why are financial statements called the end product of accounting",
+    "state the purpose behind preparing annual financial statements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the components", "explain": "position statement (balance sheet), performance statement (profit and loss) and the cash flow statement"},
+    {"step": 2, "action": "state the audience", "explain": "owners and external parties such as investors, tax authorities, government, employees and creditors"},
+    {"step": 3, "action": "state the role", "explain": "the statements condense chronological monetary records into a form usable for profitability and solvency judgements"}
+   ]
+  },
+  {
+   "id": "leac.203.2.1",
+   "title": "Nature of Financial Statements",
+   "section": "3.2",
+   "definition": "The figures in financial statements rest on recorded facts expressed in money, on accounting conventions the preparers adopt, and on personal judgements about matters like asset lives and provision levels, so the statements describe but never photograph reality.",
+   "formula": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
+   "key_idea": "Because conventions and judgement enter the numbers, two honest accountants can produce slightly different statements for the same business.",
+   "textbook_ref": "leac203.txt section 3.2 (lines 68-135)",
+   "question_patterns": [
+    "on what foundations are financial statement figures built",
+    "explain how personal judgement enters the financial statements",
+    "why do accounting conventions shape reported numbers",
+    "are financial statements exact pictures of a business",
+    "what role do recorded facts play in the statements",
+    "describe the nature of financial statement information"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start from the records", "explain": "chronologically recorded events, valued in money for a defined period, supply the raw figures"},
+    {"step": 2, "action": "add the conventions", "explain": "concepts such as going concern, accrual and consistency decide how events are recognised and matched"},
+    {"step": 3, "action": "add the judgement", "explain": "estimates like useful lives, bad debt percentages and provision sizes inject personal judgement into the reported amounts"}
+   ]
+  },
+  {
+   "id": "leac.203.3.1",
+   "title": "Objectives of Financial Statements",
+   "section": "3.3",
+   "definition": "The statements exist to hand shareholders and outsiders reliable information about operating results and financial health, and to give management a base for planning, decision making and control.",
+   "formula": "reporting_objective = profitability_information + position_information + management_needs",
+   "key_idea": "One package, two jobs: prove performance to outsiders and feed internal decisions.",
+   "textbook_ref": "leac203.txt section 3.3 (lines 136-178)",
+   "question_patterns": [
+    "what are the aims of preparing financial statements",
+    "whom do the financial statements primarily serve",
+    "how do statements help management in decision making",
+    "what information about profitability do the statements convey",
+    "state the objectives behind corporate financial reporting",
+    "why must shareholders receive periodic financial statements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the performance goal", "explain": "show the operating results -- profit or loss -- for the period just ended"},
+    {"step": 2, "action": "state the position goal", "explain": "show the financial position -- assets, liabilities and equity -- at the closing date"},
+    {"step": 3, "action": "state the management goal", "explain": "supply the internal base for planning, decision making and control"}
+   ]
+  },
+  {
+   "id": "leac.203.4.1",
+   "title": "Types of Financial Statements",
+   "section": "3.4",
+   "definition": "A company prepares a balance sheet and a statement of profit and loss for external reporting, plus a cash flow statement that tracks fund movements, and every company registered under the Act follows the revised Schedule III format for all of them.",
+   "formula": "statement_set = balance_sheet + profit_and_loss_statement + cash_flow_statement + notes_to_accounts",
+   "key_idea": "Schedule III dictates the shape; accounting standards dictate the meaning.",
+   "textbook_ref": "leac203.txt section 3.4 (lines 179-250)",
+   "question_patterns": [
+    "list the statements a company must prepare each year",
+    "what does the cash flow statement add beyond the balance sheet",
+    "under which schedule must a company present its statements",
+    "explain the two statements needed for external reporting",
+    "what are notes to accounts attached to the statements",
+    "which law prescribes the form of a company balance sheet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the external pair", "explain": "balance sheet (position) and statement of profit and loss (performance)"},
+    {"step": 2, "action": "add the movement statement", "explain": "the cash flow statement reports inflows and outflows of funds"},
+    {"step": 3, "action": "fix the format source", "explain": "revised Schedule III of the Companies Act 2013 prescribes the vertical form and disclosure for all companies"}
+   ]
+  },
+  {
+   "id": "leac.203.4.2",
+   "title": "Schedule III Balance Sheet Heads",
+   "section": "3.4.1",
+   "definition": "The Schedule III balance sheet runs vertically: first Equity and Liabilities split into shareholders' funds, non-current liabilities and current liabilities; then Assets split into non-current and current, each head carrying fixed sub-items with figures for both reporting dates.",
+   "formula": "total_equity_and_liabilities = shareholders_funds + non_current_liabilities + current_liabilities",
+   "key_idea": "Every item has a fixed home in the format -- debentures under long-term borrowings, loose tools inside inventories -- and notes carry the details.",
+   "textbook_ref": "leac203.txt section 3.4.1, Exhibit 3.1, Illustrations 2 and 6 (lines 192-250, 504-640, 927-1041)",
+   "question_patterns": [
+    "show the main heads of a Schedule III balance sheet",
+    "where do debentures appear in the company balance sheet",
+    "classify loose tools, goodwill and bank balance in the vertical format",
+    "prepare the equity and liabilities side of a company balance sheet",
+    "which sub-heads sit under shareholders funds",
+    "draw the asset side of the prescribed balance sheet format"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "stack the liability side", "explain": "shareholders' funds, then non-current liabilities, then current liabilities, each with its Schedule III sub-items"},
+    {"step": 2, "action": "stack the asset side", "explain": "non-current assets (fixed, investments, deferred tax, long-term loans) then current assets (inventories, receivables, cash)"},
+    {"step": 3, "action": "attach the notes", "explain": "broad heads stay on the face of the statement; the item-by-item detail moves to notes to accounts"}
+   ]
+  },
+  {
+   "id": "leac.203.4.3",
+   "title": "Current versus Non-current Classification",
+   "section": "3.4.1",
+   "definition": "An asset or liability is current when the business expects to realise or settle it within twelve months or the operating cycle, whichever fits; loans repayable on demand are always short-term, and deferred tax always stays non-current.",
+   "formula": "classification_horizon = twelve_months_or_operating_cycle",
+   "key_idea": "The operating cycle, not the calendar alone, decides the split; the portion of long-term debt due within a year moves to current maturities.",
+   "textbook_ref": "leac203.txt section 3.4.1 borrowings and trade payables paras (lines 641-730)",
+   "question_patterns": [
+    "how do you separate current assets from non-current assets",
+    "when is a loan shown as short-term borrowing",
+    "where does the yearly instalment of a long-term loan appear",
+    "why is deferred tax always non-current",
+    "what does the operating cycle mean for classification",
+    "classify trade payables due beyond twelve months"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the time test", "explain": "realise or settle within twelve months or one operating cycle means current; anything longer is non-current"},
+    {"step": 2, "action": "apply the demand test", "explain": "loans repayable on demand are short-term borrowings regardless of history"},
+    {"step": 3, "action": "split the long-term debt", "explain": "the slice of a long-term loan falling due within the year is reported under other current liabilities as current maturities"}
+   ]
+  },
+  {
+   "id": "leac.203.4.4",
+   "title": "Reserves and Surplus Note",
+   "section": "3.4.1",
+   "definition": "In the note, reserves and surplus starts with the securities premium, knocks out unwritten preliminary expenses, and adds the credit balance of the statement of profit and loss to arrive at the single figure shown under shareholders' funds.",
+   "formula": "reserves_and_surplus = securities_premium - preliminary_expenses + surplus_in_profit_and_loss",
+   "key_idea": "Preliminary expenses must be written off at once -- first from premium, the rest from profit -- so they shrink the reserve note immediately.",
+   "textbook_ref": "leac203.txt section 3.4.1, Illustration 2 (lines 504-565)",
+   "question_patterns": [
+    "compute the reserves and surplus figure for the balance sheet note",
+    "how are preliminary expenses treated while preparing the note",
+    "show the reserves and surplus note with securities premium and surplus",
+    "what nets against securities premium in the shareholders funds",
+    "prepare the shareholders funds portion of a company balance sheet",
+    "calculate the reserve figure when preliminary expenses exceed the premium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "net the premium against the write-off", "explain": "preliminary expenses are written off first from the securities premium balance", "compute": "netted_premium = securities_premium - preliminary_expenses"},
+    {"step": 2, "action": "add the accumulated surplus", "explain": "the credit balance of the statement of profit and loss joins the note", "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"}
+   ]
+  },
+  {
+   "id": "leac.203.4.5",
+   "title": "Balance Sheet Total",
+   "section": "3.4.1",
+   "definition": "The grand total of the company balance sheet is the sum of shareholders' funds, non-current liabilities and current liabilities, and it must equal the total of non-current and current assets on the other side.",
+   "formula": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
+   "key_idea": "Both sides carry the same total by construction; any gap means an item landed in the wrong head.",
+   "textbook_ref": "leac203.txt section 3.4.1, Exhibit 3.1 and Illustration 8 (lines 192-250, 1180-1214)",
+   "question_patterns": [
+    "find the total of the balance sheet from the given items",
+    "total the equity and liabilities side of a company balance sheet",
+    "check that assets equal the sum of all liabilities and funds",
+    "compute the closing balance sheet total after classifying items",
+    "what must the asset side add up to in a company balance sheet",
+    "aggregate shareholders funds and all borrowings into one total"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add up shareholders' funds", "explain": "share capital plus reserves and surplus plus money against warrants", "compute": "funds_total = share_capital + reserves_and_surplus"},
+    {"step": 2, "action": "join the liability layers", "explain": "non-current liabilities and current liabilities sit on top of the funds", "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"}
+   ]
+  },
+  {
+   "id": "leac.203.4.6",
+   "title": "Statement of Profit and Loss Format",
+   "section": "3.4.2",
+   "definition": "The Schedule III profit statement runs from revenue from operations plus other income, through classified expenses (materials, employees, finance, depreciation, others), to profit before tax, then tax, to the profit for the period, ending with earnings per share.",
+   "formula": "profit_before_tax = total_revenue - total_expenses",
+   "key_idea": "Employee benefit expenses collect wages and salaries into one line; finance cost holds only interest -- bank charges go elsewhere.",
+   "textbook_ref": "leac203.txt section 3.4.2, Exhibit 3.2 (lines 1042-1179)",
+   "question_patterns": [
+    "draw the format of the statement of profit and loss",
+    "which line items come before profit before tax",
+    "what is clubbed under employee benefit expenses",
+    "where do finance costs appear in the profit statement",
+    "distinguish revenue from operations and other income",
+    "how does the statement end after tax is deducted"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "build total revenue", "explain": "revenue from operations (sales of goods and services) plus other income such as interest and dividend for a non-finance company"},
+    {"step": 2, "action": "build total expenses", "explain": "cost of materials, purchases and inventory changes, employee benefits, finance costs, depreciation and other expenses"},
+    {"step": 3, "action": "step down to the bottom line", "explain": "profit before tax less tax expense gives profit for the period, followed by basic and diluted earnings per share"}
+   ]
+  },
+  {
+   "id": "leac.203.4.7",
+   "title": "Profit before Tax under Schedule III",
+   "section": "3.4.2",
+   "definition": "Profit before tax is what remains of revenue from operations and other income after meeting the classified expense lines, with the expense sub-totals such as employee benefits built up in the notes.",
+   "formula": "profit_before_tax = (revenue_from_operations + other_income) - (cost_of_materials + employee_benefits + finance_costs + depreciation)",
+   "key_idea": "Each expense head is one note line, so the statement face stays short while the arithmetic sits in the notes.",
+   "textbook_ref": "leac203.txt section 3.4.2, Illustration 8 (lines 1180-1257)",
+   "question_patterns": [
+    "compute profit before tax as per Schedule III",
+    "work out the profit a company reports before tax from given balances",
+    "total the expense heads and derive profit for the period",
+    "prepare the profit statement up to the tax line",
+    "how is employee benefit expense built from wages and salaries",
+    "find profit before tax after charging depreciation and finance cost"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "combine the revenue lines", "explain": "revenue from operations plus other income", "compute": "total_revenue = revenue_from_operations + other_income"},
+    {"step": 2, "action": "build the employee benefits line", "explain": "wages plus salaries and like staff costs form the employee benefits head", "compute": "employee_benefits = wages + salaries"},
+    {"step": 3, "action": "combine the expense heads", "explain": "materials, employee benefits, finance costs and depreciation land in one total", "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"},
+    {"step": 4, "action": "take the difference", "explain": "profit before tax is revenue total minus expense total", "compute": "profit_before_tax = total_revenue - total_expenses"}
+   ]
+  },
+  {
+   "id": "leac.203.5.1",
+   "title": "Uses and Users of Financial Statements",
+   "section": "3.5",
+   "definition": "Management, investors, lenders, employees, government and the public each read the same statements for their own reason -- performance, security, wages, taxation or regulation -- which is why the disclosures must stay standard.",
+   "formula": "statement_users = management + investors + creditors + government + employees",
+   "key_idea": "One standard package serves many decisions: lending, taxing, investing, bargaining and regulating.",
+   "textbook_ref": "leac203.txt section 3.5 (lines 1258-1314)",
+   "question_patterns": [
+    "who uses company financial statements and why",
+    "how do bankers use the financial statements of a firm",
+    "why does the government need corporate financial statements",
+    "what use is the statement to employees of the company",
+    "explain the importance of financial statements to investors",
+    "how does management benefit from its own statements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the internal reader", "explain": "management reads results and position to plan and control operations"},
+    {"step": 2, "action": "list the capital readers", "explain": "shareholders and investors judge returns; bankers and creditors judge security and repayment capacity"},
+    {"step": 3, "action": "list the public readers", "explain": "government and tax authorities check compliance and levy taxes; employees link wages to performance"}
+   ]
+  },
+  {
+   "id": "leac.203.6.1",
+   "title": "Limitations of Financial Statements",
+   "section": "3.6",
+   "definition": "The statements report only what money can measure, lean on historical cost, hide qualitative strengths, and depend on estimates and window dressing, so they guide but cannot guarantee a full picture of the business.",
+   "formula": "statement_reliability = full_picture - unmeasured_factors",
+   "key_idea": "Intangibles like skill and brand, inflation effects and management bias stay outside the numbers.",
+   "textbook_ref": "leac203.txt section 3.6 (lines 1315-1363)",
+   "question_patterns": [
+    "state the drawbacks of financial statements",
+    "why do financial statements ignore non-monetary factors",
+    "how does historical cost distort the reported position",
+    "what is meant by window dressing in the statements",
+    "can financial statements capture employee skill or brand value",
+    "list the limitations a reader must keep in mind"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the monetary cage", "explain": "only events expressible in money enter the statements; skills, reputation and morale stay out"},
+    {"step": 2, "action": "note the time lag", "explain": "figures are historical, so inflation and current values may make them stale"},
+    {"step": 3, "action": "note the judgement risk", "explain": "estimates and deliberate window dressing can bend the reported numbers"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac203.txt Illustration 2 (Amba Ltd)",
+   "concept": "leac.203.4.4",
+   "question_type": "numeric",
+   "question_pattern": "Amba Ltd reports securities premium of Rs.{securities_premium}, unwritten preliminary expenses of Rs.{preliminary_expenses} and a profit and loss credit of Rs.{surplus_in_profit_and_loss}. What goes under reserves and surplus?",
+   "extracted_variables": {
+    "securities_premium": 20000,
+    "preliminary_expenses": 40000,
+    "surplus_in_profit_and_loss": 150000
+   },
+   "solution_template": [
+    {"step": 1, "action": "net the premium against the write-off", "explain": "20000 - 40000 = -20000", "compute": "netted_premium = securities_premium - preliminary_expenses"},
+    {"step": 2, "action": "add the accumulated surplus", "explain": "-20000 + 150000 = 130000", "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac203.txt Illustration 8 (company balances)",
+   "concept": "leac.203.4.7",
+   "question_type": "numeric",
+   "question_pattern": "A company shows sales of Rs.{revenue_from_operations}, adjusted purchases of Rs.{cost_of_materials}, wages Rs.{wages} plus salaries Rs.{salaries}, interest on debentures Rs.{finance_costs} and depreciation Rs.{depreciation}. Find profit before tax.",
+   "extracted_variables": {
+    "revenue_from_operations": 1000000,
+    "other_income": 0,
+    "cost_of_materials": 400000,
+    "wages": 120000,
+    "salaries": 80000,
+    "finance_costs": 10000,
+    "depreciation": 16000
+   },
+   "solution_template": [
+    {"step": 1, "action": "combine the revenue lines", "explain": "1000000 + 0 = 1000000", "compute": "total_revenue = revenue_from_operations + other_income"},
+    {"step": 2, "action": "build the employee benefits line", "explain": "120000 + 80000 = 200000", "compute": "employee_benefits = wages + salaries"},
+    {"step": 3, "action": "combine the expense heads", "explain": "400000 + 200000 + 10000 + 16000 = 626000", "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"},
+    {"step": 4, "action": "take the difference", "explain": "1000000 - 626000 = 374000", "compute": "profit_before_tax = total_revenue - total_expenses"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac203.txt Illustration 8 items (balance sheet side)",
+   "concept": "leac.203.4.5",
+   "question_type": "numeric",
+   "question_pattern": "Equity capital Rs.{share_capital}, preference capital inside reserves line Rs.{preference_capital}, ten percent debentures Rs.{non_current_liabilities} and bank overdraft Rs.{current_liabilities}: what is the balance sheet total on the liabilities side?",
+   "extracted_variables": {
+    "share_capital": 200000,
+    "reserves_and_surplus": 100000,
+    "non_current_liabilities": 100000,
+    "current_liabilities": 200000,
+    "preference_capital": 100000
+   },
+   "solution_template": [
+    {"step": 1, "action": "add up shareholders' funds", "explain": "200000 + 100000 = 300000", "compute": "funds_total = share_capital + reserves_and_surplus"},
+    {"step": 2, "action": "join the liability layers", "explain": "300000 + 100000 + 200000 = 600000", "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac203.txt Questions for Practice, Short Answer Q1-Q6",
+   "questions": [
+    "state the meaning of financial statements of a company",
+    "list the statements that fall in the annual reporting package",
+    "what is a statement of profit and loss meant to show",
+    "explain the nature of information found in the statements",
+    "state the meaning of notes to accounts",
+    "what is the role of the cash flow statement"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac203.txt Questions for Practice, Long Answer Q1-Q5",
+   "questions": [
+    "describe the objectives a company pursues through financial reporting",
+    "discuss the kinds of statements a company prepares and their formats",
+    "explain how Schedule III shapes the presentation of the balance sheet",
+    "give the uses of financial statements for different user groups",
+    "discuss the limitations of financial statements with reasons"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac203.txt Illustrations 1-2",
+   "questions": [
+    "place equity share capital, debentures, premium, preliminary expenses and bank items in the Schedule III format",
+    "show how securities premium less preliminary expenses plus surplus forms the reserve note"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac203.txt Illustrations 6-8",
+   "questions": [
+    "classify given balances into the Schedule III heads and total both sides",
+    "prepare a profit statement up to profit before tax from purchases, wages, salaries, depreciation and interest figures"
+   ]
+  }
+ ]
+}

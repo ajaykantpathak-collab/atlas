@@ -1,0 +1,468 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 105,
+ "chapter_title": "Rural Development",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees104.txt",
+ "concepts": [
+  {
+   "id": "keec.105.1",
+   "title": "Defining Rural Development",
+   "section": "5.2",
+   "definition": "A holistic strategy focused on uplifting the socio-economic conditions of rural areas that have historically lagged in growth.",
+   "formula": "none",
+   "key_idea": "Comprehensive progress involving human resources, infrastructure, and land reforms.",
+   "textbook_ref": "keec105.txt lines 75-110",
+   "question_patterns": [
+    "What is meant by rural development?",
+    "Identify the key areas of focus in rural development",
+    "Why is rural development crucial for India?",
+    "Explain the scope of rural development",
+    "Explain defining rural development in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify lagging sectors",
+     "explain": "Focus on areas like literacy, health, and infrastructure in villages."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate productivity",
+     "explain": "Assess both farm and non-farm activities for potential improvement."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.2",
+   "title": "Rural Credit and NABARD",
+   "section": "5.3",
+   "definition": "The financial support system providing capital to farmers for agricultural inputs and family needs during the long gestation period of crops.",
+   "formula": "none",
+   "key_idea": "NABARD acts as the apex body to coordinate and regulate rural financing.",
+   "textbook_ref": "keec105.txt lines 150-185",
+   "question_patterns": [
+    "What is the role of NABARD in rural credit?",
+    "Why do farmers need credit?",
+    "Discuss the institutional structure of rural banking",
+    "How did the 1969 reforms change rural credit?",
+    "Explain rural credit and nabard in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify credit needs",
+     "explain": "Farmers need funds for seeds, fertilizers, and social ceremonies."
+    },
+    {
+     "step": 2,
+     "action": "Locate regulatory authority",
+     "explain": "NABARD coordinates all institutions involved in rural financing."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.3",
+   "title": "Self-Help Groups (SHGs) and Micro-credit",
+   "section": "5.3",
+   "definition": "Community-based groups where members pool small savings to provide low-interest loans to one another without requiring formal collateral.",
+   "formula": "total_pool = sum(individual_savings)",
+   "key_idea": "Promoting thrift and providing affordable credit to the rural poor.",
+   "textbook_ref": "keec105.txt lines 190-220",
+   "question_patterns": [
+    "How do SHGs help in rural credit?",
+    "What is the significance of micro-credit programmes?",
+    "Explain the functioning of Self-Help Groups",
+    "How have SHGs empowered rural women?",
+    "Explain self-help groups (shgs) and micro-credit in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pooling savings",
+     "explain": "Members contribute small amounts to a collective fund."
+    },
+    {
+     "step": 2,
+     "action": "Disbursing loans",
+     "explain": "Credit is given to needy members for consumption or productive use."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.4",
+   "title": "Pradhan Mantri Jan-Dhan Yojana",
+   "section": "5.3",
+   "definition": "A national scheme for financial inclusion that encourages every adult to open a bank account to access insurance and direct benefit transfers.",
+   "formula": "none",
+   "key_idea": "Integrating the rural population into the formal banking system.",
+   "textbook_ref": "keec105.txt lines 260-285",
+   "question_patterns": [
+    "What are the benefits of Jan-Dhan Yojana?",
+    "How does Jan-Dhan Yojana promote rural development?",
+    "Explain the features of the Jan-Dhan scheme",
+    "How does this scheme help in social security payments?",
+    "Explain pradhan mantri jan-dhan yojana in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Account opening",
+     "explain": "Adults open bank accounts with zero minimum balance."
+    },
+    {
+     "step": 2,
+     "action": "Accessing benefits",
+     "explain": "Accounts provide insurance, overdrafts, and direct transfer of government wages."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.5",
+   "title": "Agricultural Marketing System",
+   "section": "5.4",
+   "definition": "The collective process of assembling, storing, processing, transporting, and distributing farm produce across the nation.",
+   "formula": "none",
+   "key_idea": "Ensuring farmers get a fair price for their produce through organized channels.",
+   "textbook_ref": "keec105.txt lines 290-315",
+   "question_patterns": [
+    "Define agricultural marketing",
+    "What are the components of the agricultural marketing process?",
+    "What problems did farmers face before market regulation?",
+    "How does storage affect agricultural marketing?",
+    "Explain agricultural marketing system in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assembling and Grading",
+     "explain": "Produce is collected and sorted based on quality."
+    },
+    {
+     "step": 2,
+     "action": "Distribution",
+     "explain": "Goods are transported and sold through various market channels."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.6",
+   "title": "Government Market Interventions",
+   "section": "5.4",
+   "definition": "Policy tools like Minimum Support Price (MSP) and buffer stocks used to protect farmer incomes and ensure food security for the poor.",
+   "formula": "none",
+   "key_idea": "Stabilizing prices and supply through state-led mechanisms.",
+   "textbook_ref": "keec105.txt lines 350-380",
+   "question_patterns": [
+    "What is Minimum Support Price (MSP)?",
+    "Explain the role of Food Corporation of India (FCI) in marketing",
+    "How does the Public Distribution System (PDS) work?",
+    "Discuss government measures to improve agricultural marketing",
+    "Explain government market interventions in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Price Assurance",
+     "explain": "Government guarantees a minimum price (MSP) to farmers."
+    },
+    {
+     "step": 2,
+     "action": "Stock Maintenance",
+     "explain": "FCI maintains buffer stocks for food security and PDS distribution."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.7",
+   "title": "Diversification in Agriculture",
+   "section": "5.5",
+   "definition": "The shift of the rural workforce from traditional crop cultivation to allied activities or non-farm sectors to mitigate risks and increase income.",
+   "formula": "none",
+   "key_idea": "Reducing dependence on single-crop farming for sustainable livelihoods.",
+   "textbook_ref": "keec105.txt lines 410-445",
+   "question_patterns": [
+    "Why is diversification essential for rural people?",
+    "Distinguish between cropping pattern change and workforce shift",
+    "What are the two aspects of diversification?",
+    "How does diversification reduce agricultural risk?",
+    "Explain diversification in agriculture in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cropping Shift",
+     "explain": "Changing the variety of crops grown in a season."
+    },
+    {
+     "step": 2,
+     "action": "Sectoral Shift",
+     "explain": "Moving labor to livestock, poultry, or non-farm industries."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.8",
+   "title": "Operation Flood and Dairy Sector",
+   "section": "5.5",
+   "definition": "A cooperative system where dairy farmers pool milk for processing and urban marketing, ensuring stable incomes and high production growth.",
+   "formula": "none",
+   "key_idea": "Successful cooperative model for milk production and distribution.",
+   "textbook_ref": "keec105.txt lines 470-495",
+   "question_patterns": [
+    "What is Operation Flood?",
+    "How did milk cooperatives transform rural Gujarat?",
+    "Discuss the importance of animal husbandry in India",
+    "How does the dairy sector provide food security?",
+    "Explain operation flood and dairy sector in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pooling and Grading",
+     "explain": "Farmers bring milk to cooperatives where it is graded by quality."
+    },
+    {
+     "step": 2,
+     "action": "Marketing",
+     "explain": "Processed milk is sold to urban centers, providing fair returns to farmers."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.9",
+   "title": "Fisheries Production Distribution",
+   "section": "5.5",
+   "definition": "The calculation of fish output based on the source, where inland sources dominate the total production in India.",
+   "formula": "inland_output = 0.75 * total_fish_output",
+   "key_idea": "Inland fisheries contribute three-quarters of India's total fish production.",
+   "textbook_ref": "keec105.txt lines 515-530",
+   "question_patterns": [
+    "Calculate the inland fish production if total production is ...",
+    "What is the share of marine sector in total fish production?",
+    "Find the total fish output given inland production",
+    "How much does the inland sector contribute to fisheries?",
+    "Explain fisheries production distribution in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total production",
+     "explain": "The total fish output is given as total_fish_output.",
+     "compute": "total_fish_output"
+    },
+    {
+     "step": 2,
+     "action": "Calculate inland share",
+     "explain": "Inland sources account for 75% of the total.",
+     "compute": "75 * total_val / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the share of marine sector in total fish production?",
+     "solution": "Step 1: Identify total production. Step 2: Calculate inland share. Working: total_fish_output, 75 * total_val / 100.",
+     "answer": "Fisheries Production Distribution applied step by step gives the required result."
+    },
+    {
+     "question": "How much does the inland sector contribute to fisheries?",
+     "solution": "Step 1: Identify total production. Step 2: Calculate inland share. Working: total_fish_output, 75 * total_val / 100.",
+     "answer": "The method of fisheries production distribution leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.10",
+   "title": "Horticulture and its Impact",
+   "section": "5.5",
+   "definition": "The cultivation of fruits, vegetables, flowers, and plantation crops, contributing significantly to India's GDP and rural employment.",
+   "formula": "none",
+   "key_idea": "India is a global leader in fruits and vegetables, improving rural livelihoods.",
+   "textbook_ref": "keec105.txt lines 550-580",
+   "question_patterns": [
+    "What is the contribution of horticulture to India's GDP?",
+    "Why is horticulture called a successful sustainable livelihood option?",
+    "Identify crops covered under horticulture",
+    "How has horticulture improved the condition of small farmers?",
+    "Explain horticulture and its impact in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify crop diversity",
+     "explain": "Includes fruits, vegetables, spices, and aromatic plants."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate economic contribution",
+     "explain": "Contributes one-third of agricultural output value."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.11",
+   "title": "Organic Farming",
+   "section": "5.6",
+   "definition": "A sustainable agricultural system that relies on natural inputs and ecological balance rather than synthetic chemicals and pesticides.",
+   "formula": "none",
+   "key_idea": "Eco-friendly farming that restores soil health and provides safer food.",
+   "textbook_ref": "keec105.txt lines 620-655",
+   "question_patterns": [
+    "What are the benefits of organic farming?",
+    "Explain the limitations of organic farming in the initial years",
+    "How does organic farming promote sustainable development?",
+    "Why is organic food more expensive?",
+    "Explain organic farming in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Input substitution",
+     "explain": "Replace chemical fertilizers with locally produced organic manure."
+    },
+    {
+     "step": 2,
+     "action": "Ecological restoration",
+     "explain": "Enhance soil fertility and ecosystem health over the long term."
+    }
+   ]
+  },
+  {
+   "id": "keec.105.12",
+   "title": "Livestock Composition: Poultry Share",
+   "section": "5.5",
+   "definition": "Determining the number of poultry birds within the total livestock population based on its dominant percentage share.",
+   "formula": "poultry_count = 0.61 * total_livestock",
+   "key_idea": "Poultry is the largest segment of the livestock sector in India.",
+   "textbook_ref": "keec105.txt lines 460-470",
+   "question_patterns": [
+    "Calculate the number of poultry if total livestock is ...",
+    "What is the percentage share of poultry in India's livestock?",
+    "Find the poultry count from a total livestock population of ...",
+    "How much of the livestock sector is comprised of poultry?",
+    "Explain livestock composition: poultry share in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total livestock",
+     "explain": "The total livestock population is given as total_livestock.",
+     "compute": "total_livestock"
+    },
+    {
+     "step": 2,
+     "action": "Calculate poultry count",
+     "explain": "Poultry accounts for 61% of the total livestock.",
+     "compute": "61 * total_val / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the percentage share of poultry in India's livestock?",
+     "solution": "Step 1: Identify total livestock. Step 2: Calculate poultry count. Working: total_livestock, 61 * total_val / 100.",
+     "answer": "Livestock Composition: Poultry Share applied step by step gives the required result."
+    },
+    {
+     "question": "How much of the livestock sector is comprised of poultry?",
+     "solution": "Step 1: Identify total livestock. Step 2: Calculate poultry count. Working: total_livestock, 61 * total_val / 100.",
+     "answer": "The method of livestock composition: poultry share leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keec105.txt lines 515-530",
+   "concept": "keec.105.9",
+   "question_type": "compute",
+   "question_pattern": "If the total fish production in a region is {total_fish_output} tonnes, calculate the production from inland sources based on national averages.",
+   "extracted_variables": {
+    "total_fish_output": "total fish production in tonnes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total production",
+     "explain": "The total fish output is {total_fish_output} tonnes.",
+     "compute": "total_val = total_fish_output"
+    },
+    {
+     "step": 2,
+     "action": "Calculate inland share",
+     "explain": "Inland sources account for 75% of the total production.",
+     "compute": "inland_output = 75 * total_val / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keec105.txt lines 460-470",
+   "concept": "keec.105.12",
+   "question_type": "compute",
+   "question_pattern": "A district has a total livestock population of {total_livestock} animals. Calculate the estimated number of poultry birds.",
+   "extracted_variables": {
+    "total_livestock": "total number of livestock animals"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total livestock",
+     "explain": "The total livestock population is {total_livestock}.",
+     "compute": "total_val = total_livestock"
+    },
+    {
+     "step": 2,
+     "action": "Calculate poultry count",
+     "explain": "Poultry accounts for 61% of the total livestock.",
+     "compute": "poultry_count = 61 * total_val / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "keec105.txt lines 710-712",
+   "questions": [
+    "What do you mean by rural development? Bring out the key issues in rural development."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "keec105.txt lines 715-716",
+   "questions": [
+    "Explain the role of micro-credit in meeting credit requirements of the poor."
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "keec105.txt lines 724",
+   "questions": [
+    "What do you mean by agricultural marketing?"
+   ]
+  },
+  {
+   "id": "ex5.15",
+   "source_ref": "keec105.txt lines 740-741",
+   "questions": [
+    "What is organic farming and how does it promote sustainable development?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

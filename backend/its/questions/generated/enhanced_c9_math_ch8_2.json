@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_2",
+   "title": "c9_math_ch8_2",
+   "questions": [
+    {
+     "q": "Write the explicit rule for the sequence: 3, 7, 11, 15, ... in the form aₙ = f(n).",
+     "a": "Correct answer: aₙ = 4n - 1. A wrong answer like aₙ = 3 + 4n reveals the student used n instead of (n-1) for the term offset, confusing the first term's position. An answer aₙ = 3n + 4 shows they incorrectly identified the common difference as 3 instead of 4.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the explicit rule for the sequence 2, 6, 18, 54, ... is aₙ = 2 × 3^(n-1) and not aₙ = 2 × 3^n.",
+     "a": "Correct explanation: For n=1, the first term must be 2. Using aₙ = 2 × 3^(n-1) gives 2 × 3^0 = 2. Using aₙ = 2 × 3^n gives 2 × 3^1 = 6, which is the second term. The exponent (n-1) ensures the first term corresponds to n=1. A wrong explanation indicates the student does not understand the role of the exponent in aligning the term position with the geometric progression's first term.",
+     "self_check": true
+    },
+    {
+     "q": "Find the 20th term of the sequence whose explicit rule is aₙ = n² + 2n - 1.",
+     "a": "Correct answer: 439. Steps: Substitute n=20 → a₂₀ = (20)² + 2(20) - 1 = 400 + 40 - 1 = 439. A wrong answer like 479 (from 20² + 2×20 + 1) reveals a sign error in the constant term. An answer of 839 (from 20² + 2×20² - 1) shows the student squared the coefficient 2 as well, misapplying the order of operations.",
+     "self_check": true
+    },
+    {
+     "q": "The sequence 5, 11, 19, 29, ... has constant second difference. Determine its explicit rule and explain how the second difference relates to the coefficient of n².",
+     "a": "Correct answer: aₙ = n² + 3n + 1. First differences: 6, 8, 10. Second difference: 2 (constant). For a quadratic sequence aₙ = An² + Bn + C, the second difference equals 2A. Here 2A = 2 → A = 1. Then solve for B and C using n=1,2. A wrong rule like aₙ = 2n² + ... shows the student used the second difference directly as A instead of halving it. An answer with no n² term indicates they did not recognize constant second difference implies a quadratic rule.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the explicit rule for the sequence 4, 9, 14, 19, ... is aₙ = 5n + 4. Evaluate this claim and correct it if necessary.",
+     "a": "The claim is incorrect. For n=1, 5(1)+4 = 9, but the first term is 4. The correct rule is aₙ = 5n - 1 (or 4 + (n-1)×5). The error: the student used the common difference 5 as the coefficient of n but added the first term 4 as the constant, forgetting that the formula aₙ = a₁ + (n-1)d simplifies to aₙ = dn + (a₁ - d). A wrong evaluation that says \"it's correct\" reveals the student does not test the formula against the given first term.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (using Indian context: rupees, metres, etc.) that generates a quadratic sequence, write its first five terms, and derive the explicit rule.",
+     "a": "Example scenario: A child builds a square pattern with matchsticks where the nth figure has side length n cm and uses matchsticks for the perimeter plus one diagonal. Terms: n=1 → 5, n=2 → 12, n=3 → 21, n=4 → 32, n=5 → 45. Rule: aₙ = n² + 4n. A poor answer gives an arithmetic scenario (linear) or cannot derive the rule, showing they cannot distinguish quadratic growth situations from linear ones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

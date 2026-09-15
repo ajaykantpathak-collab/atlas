@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_010",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_010",
+   "title": "c6_math_ch01_010",
+   "questions": [
+    {
+     "q": "What is the definition of multiplication in terms of addition?",
+     "a": "Multiplication is repeated addition of the same number. A wrong answer suggests the student views multiplication as an abstract, disconnected process rather than a shortcut for adding equal groups.",
+     "self_check": true
+    },
+    {
+     "q": "When multiplying 456 by 23, why do we put a zero at the end of the second partial product (the result of 456 × 2)?",
+     "a": "Because the '2' in 23 represents 20, not 2; the zero acts as a placeholder to shift the value to the tens place. If a student ignores the zero, they are treating a tens-place digit as a ones-place digit, which shows a failure to understand place value.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate 312 × 14 using the standard algorithm.",
+     "a": "(312 × 4 = 1248) + (312 × 10 = 3120) = 4368. An incorrect result often shows a failure to carry numbers during addition or a mistake in the place-value shift of the second partial product.",
+     "self_check": true
+    },
+    {
+     "q": "If you know 15 × 10 = 150, how does that help you solve 15 × 11?",
+     "a": "You can add one more group of 15 to the result (150 + 15 = 165). This demonstrates that multiplication is about groups; failing to see this connection suggests the student relies solely on memorized algorithms rather than number sense.",
+     "self_check": true
+    },
+    {
+     "q": "Is 25 × 12 the same as (25 × 10) + (25 × 2)? Why or why not?",
+     "a": "Yes, because 12 can be broken down into 10 + 2, and the distributive property allows us to multiply each part separately. A student who says \"no\" likely does not understand that multiplication can be decomposed to make large calculations easier.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where you would need to multiply a 3-digit number by a 2-digit number.",
+     "a": "A bus carries 145 passengers, and there are 25 buses in the fleet; how many passengers total? A poor answer would just be a random math string without a logical real-world context like tickets, items in a carton, or time calculations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

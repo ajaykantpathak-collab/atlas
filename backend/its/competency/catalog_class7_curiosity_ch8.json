@@ -1,0 +1,596 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Measurement of Time and Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu108.txt",
+ "concepts": [
+  {
+   "id": "c7cu.8.1",
+   "title": "Measurement of Time in Ancient Times",
+   "section": "8.1",
+   "definition": "In ancient times, people measured time using natural events and devices such as the sundial, the water clock, and the hourglass.",
+   "formula": "",
+   "key_idea": "Early time-measuring devices used the position of the Sun, the flow of water, or the falling of sand to track time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did people measure time in ancient times?",
+    "What is a sundial and how does it work?",
+    "What is a water clock?",
+    "Name two ancient devices used to measure time.",
+    "Why were ancient time-measuring devices not very accurate?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ancient device",
+     "explain": "Note the device such as a sundial, water clock, or hourglass used to measure time."
+    },
+    {
+     "step": 2,
+     "action": "Explain its working",
+     "explain": "Describe how the device uses the Sun's shadow, flowing water, or falling sand to show the passage of time."
+    },
+    {
+     "step": 3,
+     "action": "State a limitation",
+     "explain": "Mention that these devices depended on natural conditions and were not very accurate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a sundial and how does it work?",
+     "solution": "A sundial uses the shadow of a pointer cast by the Sun to show the time of day.",
+     "answer": "A sundial shows time using the Sun's shadow."
+    },
+    {
+     "question": "What is a water clock?",
+     "solution": "A water clock measures time by the steady flow of water from one container to another.",
+     "answer": "A water clock measures time by the flow of water."
+    },
+    {
+     "question": "Why were ancient time-measuring devices not very accurate?",
+     "solution": "They depended on natural conditions like sunlight and the flow of water, which could change.",
+     "answer": "They depended on changing natural conditions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did people measure time in ancient times?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name two ancient devices used to measure time.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why was the sundial not useful at night?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.2",
+   "title": "Units of Time",
+   "section": "8.2",
+   "definition": "The SI unit of time is the second, and larger units such as minute and hour are built from it.",
+   "formula": "1 minute = 60 seconds; 1 hour = 60 minutes = 3600 seconds",
+   "key_idea": "Time is measured in seconds, minutes, and hours, where 1 minute equals 60 seconds and 1 hour equals 60 minutes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the SI unit of time?",
+    "How many seconds are there in one minute?",
+    "How many minutes are there in one hour?",
+    "Convert 2 hours into seconds.",
+    "How many seconds are there in 3 minutes?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given time and its unit",
+     "explain": "Note the value of time and whether it is in seconds, minutes, or hours."
+    },
+    {
+     "step": 2,
+     "action": "Apply the conversion factor",
+     "explain": "Use 1 minute = 60 seconds and 1 hour = 60 minutes to convert the time.",
+     "compute": "result = given * conversion_factor"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Check that the conversion has been done correctly and the units match."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many seconds are there in 3 minutes?",
+     "solution": "3 minutes x 60 seconds/minute = 180 seconds.",
+     "answer": "180 seconds."
+    },
+    {
+     "question": "Convert 2 hours into seconds.",
+     "solution": "2 hours x 60 minutes/hour x 60 seconds/minute = 7200 seconds.",
+     "answer": "7200 seconds."
+    },
+    {
+     "question": "How many minutes are there in 5 hours?",
+     "solution": "5 hours x 60 minutes/hour = 300 minutes.",
+     "answer": "300 minutes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the SI unit of time?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Convert 4 minutes into seconds.",
+     "type": "compute"
+    },
+    {
+     "question": "How many seconds are there in 1 hour?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.3",
+   "title": "Periodic Motion",
+   "section": "8.3",
+   "definition": "A motion that repeats itself after equal intervals of time is called periodic motion.",
+   "formula": "",
+   "key_idea": "Periodic motion repeats at regular time intervals, such as the swing of a pendulum or the hands of a clock.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is periodic motion?",
+    "Give two examples of periodic motion.",
+    "Why is the motion of a pendulum called periodic?",
+    "Is the motion of the hands of a clock periodic? Explain.",
+    "How is periodic motion different from non-periodic motion?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the motion",
+     "explain": "Note whether the motion repeats itself after equal intervals of time."
+    },
+    {
+     "step": 2,
+     "action": "Check for repetition",
+     "explain": "Confirm that the motion comes back to the same state after a fixed time interval."
+    },
+    {
+     "step": 3,
+     "action": "Classify as periodic",
+     "explain": "If the motion repeats at equal intervals, it is called periodic motion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is periodic motion?",
+     "solution": "Periodic motion is a motion that repeats itself after equal intervals of time.",
+     "answer": "Periodic motion repeats after equal time intervals."
+    },
+    {
+     "question": "Give two examples of periodic motion.",
+     "solution": "The swing of a pendulum and the motion of the hands of a clock are examples of periodic motion.",
+     "answer": "Pendulum swing and clock hands."
+    },
+    {
+     "question": "Why is the motion of a pendulum called periodic?",
+     "solution": "A pendulum repeats its to-and-fro motion after equal intervals of time, so it is periodic.",
+     "answer": "A pendulum repeats its motion at equal time intervals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Is the motion of the hands of a clock periodic? Explain.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How is periodic motion different from non-periodic motion?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one daily-life example of periodic motion.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.4",
+   "title": "Simple Pendulum and its Time Period",
+   "section": "8.4",
+   "definition": "A simple pendulum consists of a small bob suspended by a string, and its time period is the time taken to complete one full oscillation.",
+   "formula": "time period = total time / number of oscillations",
+   "key_idea": "The time period of a pendulum is the time for one complete to-and-fro swing and can be found by dividing total time by the number of oscillations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a simple pendulum?",
+    "Define the time period of a simple pendulum.",
+    "A pendulum completes 20 oscillations in 40 seconds. Find its time period.",
+    "How is the time period of a pendulum measured?",
+    "Does the time period of a pendulum depend on the amplitude?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the total time and number of oscillations",
+     "explain": "Record the total time taken and the number of complete oscillations of the pendulum."
+    },
+    {
+     "step": 2,
+     "action": "Divide total time by number of oscillations",
+     "explain": "The time period is the total time divided by the number of oscillations.",
+     "compute": "time_period = total_time / n"
+    },
+    {
+     "step": 3,
+     "action": "Verify the time period",
+     "explain": "Check that the time period is the time for one complete oscillation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A pendulum completes 20 oscillations in 40 seconds. Find its time period.",
+     "solution": "Time period = total time / number of oscillations = 40 / 20 = 2 seconds.",
+     "answer": "2 seconds."
+    },
+    {
+     "question": "A pendulum completes 10 oscillations in 15 seconds. Find its time period.",
+     "solution": "Time period = 15 / 10 = 1.5 seconds.",
+     "answer": "1.5 seconds."
+    },
+    {
+     "question": "If the time period of a pendulum is 2 seconds, how many oscillations will it complete in 20 seconds?",
+     "solution": "Number of oscillations = total time / time period = 20 / 2 = 10 oscillations.",
+     "answer": "10 oscillations."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a simple pendulum?",
+     "type": "verify_property"
+    },
+    {
+     "question": "A pendulum completes 30 oscillations in 60 seconds. Find its time period.",
+     "type": "compute"
+    },
+    {
+     "question": "Does the time period of a pendulum depend on the amplitude?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.5",
+   "title": "Speed",
+   "section": "8.5",
+   "definition": "Speed is the distance travelled by an object per unit of time.",
+   "formula": "speed = distance / time",
+   "key_idea": "Speed tells us how fast or slow an object is moving and is calculated by dividing distance by time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is speed?",
+    "A car travels 120 km in 3 hours. Find its speed.",
+    "Write the formula for speed.",
+    "What is the SI unit of speed?",
+    "A boy covers 100 m in 20 seconds. Find his speed."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the distance and time",
+     "explain": "Record the distance travelled by the object and the time taken."
+    },
+    {
+     "step": 2,
+     "action": "Divide distance by time",
+     "explain": "Speed is calculated by dividing the distance travelled by the time taken.",
+     "compute": "speed = distance / time"
+    },
+    {
+     "step": 3,
+     "action": "Verify the speed",
+     "explain": "Check that the units of speed are correct, such as m/s or km/h."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A car travels 120 km in 3 hours. Find its speed.",
+     "solution": "Speed = distance / time = 120 / 3 = 40 km/h.",
+     "answer": "40 km/h."
+    },
+    {
+     "question": "A boy covers 100 m in 20 seconds. Find his speed.",
+     "solution": "Speed = 100 / 20 = 5 m/s.",
+     "answer": "5 m/s."
+    },
+    {
+     "question": "A train travels 300 km in 5 hours. Find its speed.",
+     "solution": "Speed = 300 / 5 = 60 km/h.",
+     "answer": "60 km/h."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is speed?",
+     "type": "verify_property"
+    },
+    {
+     "question": "A bus travels 180 km in 4 hours. Find its speed.",
+     "type": "compute"
+    },
+    {
+     "question": "What is the SI unit of speed?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.6",
+   "title": "Uniform and Non-Uniform Motion",
+   "section": "8.6",
+   "definition": "An object has uniform motion if it covers equal distances in equal intervals of time, and non-uniform motion if it covers unequal distances in equal intervals of time.",
+   "formula": "",
+   "key_idea": "Uniform motion means constant speed, while non-uniform motion means the speed keeps changing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is uniform motion?",
+    "What is non-uniform motion?",
+    "Give one example of uniform motion.",
+    "Give one example of non-uniform motion.",
+    "How is uniform motion different from non-uniform motion?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check the distances in equal time intervals",
+     "explain": "Note the distances covered by the object in equal intervals of time."
+    },
+    {
+     "step": 2,
+     "action": "Compare the distances",
+     "explain": "If the distances are equal, the motion is uniform; if they are unequal, the motion is non-uniform."
+    },
+    {
+     "step": 3,
+     "action": "Classify the motion",
+     "explain": "State whether the motion is uniform or non-uniform based on the comparison."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is uniform motion?",
+     "solution": "Uniform motion is when an object covers equal distances in equal intervals of time.",
+     "answer": "Equal distances in equal time intervals is uniform motion."
+    },
+    {
+     "question": "Give one example of non-uniform motion.",
+     "solution": "A car moving through a busy city traffic covers unequal distances in equal intervals of time, so its motion is non-uniform.",
+     "answer": "A car in city traffic shows non-uniform motion."
+    },
+    {
+     "question": "How is uniform motion different from non-uniform motion?",
+     "solution": "In uniform motion, equal distances are covered in equal time, while in non-uniform motion, unequal distances are covered in equal time.",
+     "answer": "Uniform: equal distances; non-uniform: unequal distances in equal time."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of uniform motion.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is non-uniform motion?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is the motion of a freely falling ball uniform or non-uniform?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.7",
+   "title": "Measurement of Speed",
+   "section": "8.7",
+   "definition": "The speed of an object can be measured by finding the distance it travels and the time it takes, then using the formula speed = distance / time.",
+   "formula": "speed = distance / time",
+   "key_idea": "To measure speed, we need a measuring device for distance and a timing device such as a stopwatch.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do we measure the speed of an object?",
+    "What devices are needed to measure speed?",
+    "A student runs 200 m in 40 seconds. Find the speed.",
+    "How is a stopwatch used to measure speed?",
+    "Why do we need both distance and time to find speed?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Measure the distance and time",
+     "explain": "Use a measuring tape for distance and a stopwatch for time to record the values."
+    },
+    {
+     "step": 2,
+     "action": "Apply the speed formula",
+     "explain": "Calculate speed by dividing the measured distance by the measured time.",
+     "compute": "speed = distance / time"
+    },
+    {
+     "step": 3,
+     "action": "Verify the speed",
+     "explain": "Check that the speed has the correct unit, such as m/s."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student runs 200 m in 40 seconds. Find the speed.",
+     "solution": "Speed = distance / time = 200 / 40 = 5 m/s.",
+     "answer": "5 m/s."
+    },
+    {
+     "question": "A cyclist covers 600 m in 120 seconds. Find the speed.",
+     "solution": "Speed = 600 / 120 = 5 m/s.",
+     "answer": "5 m/s."
+    },
+    {
+     "question": "A ball rolls 50 m in 10 seconds. Find its speed.",
+     "solution": "Speed = 50 / 10 = 5 m/s.",
+     "answer": "5 m/s."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do we measure the speed of an object?",
+     "type": "verify_property"
+    },
+    {
+     "question": "A swimmer covers 100 m in 50 seconds. Find the speed.",
+     "type": "compute"
+    },
+    {
+     "question": "Why do we need both distance and time to find speed?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.8.8",
+   "title": "Distance-Time Graph",
+   "section": "8.8",
+   "definition": "A distance-time graph is a graph that shows how the distance travelled by an object changes with time.",
+   "formula": "",
+   "key_idea": "For uniform motion, the distance-time graph is a straight line, and for non-uniform motion, it is a curved line.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a distance-time graph?",
+    "What does a straight-line distance-time graph indicate?",
+    "What does a curved distance-time graph indicate?",
+    "How do you plot a distance-time graph?",
+    "How can speed be found from a distance-time graph?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Collect distance and time data",
+     "explain": "Note the distances travelled by the object at different times."
+    },
+    {
+     "step": 2,
+     "action": "Plot the points on the graph",
+     "explain": "Mark time on the x-axis and distance on the y-axis, and plot the points for each pair of values."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the graph",
+     "explain": "A straight line shows uniform motion, while a curved line shows non-uniform motion; the slope gives the speed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a distance-time graph?",
+     "solution": "A distance-time graph shows how the distance travelled by an object changes with time.",
+     "answer": "It shows distance against time for a moving object."
+    },
+    {
+     "question": "What does a straight-line distance-time graph indicate?",
+     "solution": "A straight line on a distance-time graph indicates that the object is moving with uniform motion.",
+     "answer": "A straight line indicates uniform motion."
+    },
+    {
+     "question": "How can speed be found from a distance-time graph?",
+     "solution": "The speed of the object is given by the slope of the distance-time graph, which is distance divided by time.",
+     "answer": "Speed is the slope of the distance-time graph."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What does a curved distance-time graph indicate?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do you plot a distance-time graph?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is the distance-time graph a straight line for uniform motion?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.8.2",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {given} = 6, {conversion_factor} = 9, compute the units of time step by step.",
+   "extracted_variables": {
+    "given": "6",
+    "conversion_factor": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the given time and its unit",
+     "explain": "Note the value of time and whether it is in seconds, minutes, or hours."
+    },
+    {
+     "step": 2,
+     "action": "Apply the conversion factor",
+     "explain": "Use 1 minute = 60 seconds and 1 hour = 60 minutes to convert the time.",
+     "compute": "result = given * conversion_factor"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Check that the conversion has been done correctly and the units match."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.8.4",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {total_time} = 6, {n} = 9, compute the simple pendulum and its time period step by step.",
+   "extracted_variables": {
+    "total_time": "6",
+    "n": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Note the total time and number of oscillations",
+     "explain": "Record the total time taken and the number of complete oscillations of the pendulum."
+    },
+    {
+     "step": 2,
+     "action": "Divide total time by number of oscillations",
+     "explain": "The time period is the total time divided by the number of oscillations.",
+     "compute": "time_period = total_time / n"
+    },
+    {
+     "step": 3,
+     "action": "Verify the time period",
+     "explain": "Check that the time period is the time for one complete oscillation."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

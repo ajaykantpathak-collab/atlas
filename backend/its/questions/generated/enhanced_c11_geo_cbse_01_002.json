@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_002",
+   "title": "c11_geo_cbse_01_002",
+   "questions": [
+    {
+     "q": "Identify the scholar who first used the term \"geography\" (*geographia*) and the approximate century, then name the specific work in which he calculated Earth's circumference using solar angles at Syene and Alexandria.",
+     "a": "Eratosthenes (276–194 BCE), 3rd century BCE, in his work *Geographika* (now lost, known through Strabo). He measured the angle of the Sun's rays at Alexandria (7.2°) on summer solstice when the Sun was directly overhead at Syene (modern Aswan), knowing the distance between them (~5,000 stadia), and calculated Earth's circumference as 250,000 stadia (~39,375 km, remarkably close to 40,075 km). A wrong answer (e.g., Ptolemy, Hipparchus, or \"Greeks generally\") reveals confusion between the *term's originator* and later systematizers like Ptolemy who compiled *Geographia* (c. 150 CE) with coordinate grids — a senior-secondary error of conflating conceptual invention with methodological codification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Al-Idrisi's *Tabula Rogeriana* (1154 CE) represents a methodological advance over Ptolemy's *Geographia* despite both using coordinate grids, focusing on the *source of data* and *purpose of the map*.",
+     "a": "Ptolemy relied on second-hand traveler accounts and mathematical projection for a *static* world map; Al-Idrisi synthesized first-hand observations from merchants, envoys, and his own travels for King Roger II of Sicily to create a *practical* navigational and administrative tool oriented with South at top (Islamic convention). The advance: shift from *mathematical astronomy* as geography's foundation to *empirical field compilation* — a precursor to Humboldt's insistence on \"terrestrial physics\" from measured data. A wrong answer citing \"better accuracy\" or \"more places\" misses the epistemological shift: Al-Idrisi treated geography as *actionable knowledge for governance*, not cosmic order — a distinction board exams test via \"geography as an integrating discipline\" (c11_geo_cbse_01_009).",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student claims: \"Alexander von Humboldt and Carl Ritter founded modern geography together because they both worked in Berlin and wrote multi-volume works.\" Using specific concepts from each scholar, evaluate this claim in 4–5 sentences.",
+     "a": "The claim is partially true institutionally but false epistemologically. Humboldt (*Kosmos*, 1845–62) pursued *nomothetic* laws: isotherms, plant geography zones, unity of nature via measurable physical forces — a *systematic physical geography* rooted in Newtonian physics. Ritter (*Erdkunde*, 1817–59) pursued *idiographic* teleology: each region as an \"organ\" with divinely ordained purpose for human history — a *regional human geography* rooted in historical theology. Their only shared Berlin context was the university chair; their methods were antagonistic. Board exams ask: \"Contrast Humboldt's and Ritter's approaches\" — the correct answer must name *isotherms/plant zones* vs. *regional teleology*, not just \"both German.\" A student giving the claim above confuses *co-location* with *conceptual unity* — a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the French School (Vidal de la Blache) and the American School (Ellsworth Huntington, Ellen Semple) on environmental determinism vs. possibilism. Identify the specific concept Vidal introduced to mediate this debate and explain how it reshaped regional geography methodology.",
+     "a": "Huntington (*Civilization and Climate*, 1915) and Semple (*Influences of Geographic Environment*, 1911) argued climate *determines* civilization levels (determinism). Vidal (*Principes de géographie humaine*, 1922) rejected this, introducing *genre de vie* (mode of life): a historically evolved, culturally specific adaptation of a society to its *milieu* (natural setting), showing humans as *active agents* choosing from environmental *possibilities* (possibilism). This reshaped regional geography: instead of mapping climate→culture causality, Vidal's *pays* (region) studies (e.g., *La France de l'Est*) documented how *genre de vie* (e.g., bocage farming) *co-evolved* with *milieu* over centuries. Board exam pattern: \"Explain *genre de vie* with an Indian example\" — answer must link a specific livelihood (e.g., *jhum* cultivation in Northeast) to its *milieu* (hilly, humid) and cultural history, not just \"farming adapts to soil.\"",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"The Quantitative Revolution (1950s–60s) made geography scientific by replacing descriptive regional studies with mathematical models, so it was an unambiguous improvement.\" Use at least two critiques from the 1970s critical turns (behavioral, humanistic, radical) to justify your evaluation.",
+     "a": "The statement is reductionist. The Quantitative Revolution (Berry, Bunge, Haggett) *did* introduce hypothesis testing, spatial statistics (gravity models, central place theory), and generalizable laws — addressing regional geography's \"exceptionalism\" (every place unique). However, three critiques expose its limits: (1) **Behavioral** (Gould, Wolpert): models assumed *homo economicus* (rational optimizer), but mental maps show decisions use *satisficing* and cognitive distance, not Euclidean optimization. (2) **Humanistic** (Tuan, Relph): models erased *lived experience* (topophilia, place identity) — a slum and a planned township may have identical density statistics but radically different *sense of place*. (3) **Radical** (Harvey, Peet): models served capitalist spatial planning (location theory for profit), ignoring *uneven development* and class power. Board exams ask: \"Evaluate the Quantitative Revolution\" — full marks require naming *specific critiques with proponents*, not just \"it ignored humans.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-panel conceptual diagram for a Class 11 exhibition titled \"Geography's Three Great Dualisms\" showing: (i) the dualism, (ii) key protagonists on each side, (iii) the synthesis or current resolution. Use only concepts from this node's scope.",
+     "a": "**Panel 1: Idiographic vs. Nomothetic** — *Idiographic*: Ritter (regional uniqueness), Hartshorne (areal differentiation); *Nomothetic*: Humboldt (isotherms), Quantitative Revolution (spatial laws); *Synthesis*: Modern geography accepts *both* — systematic processes (climate models) explain regional patterns (monsoon variability over India). **Panel 2: Determinism vs. Possibilism** — *Determinism*: Semple, Huntington (climate controls culture); *Possibilism*: Vidal (*genre de vie*), Febvre (*geographical possibilism*); *Resolution*: **Probabilism** (Taylor, 1940s) — environment sets *probability ranges* for human action (e.g., Rajasthan desert *allows* pastoralism, *constrains* rice farming, but technology shifts probabilities). **Panel 3: Physical vs. Human Geography** — *Physical*: Davis (geomorphological cycles); *Human*: Vidal (*pays*); *Resolution*: **Integrated geography** (c11_geo_cbse_01_009) — e.g., *coupled human-environment systems* (CHES) studying how Himalayan glacial retreat (physical) alters downstream agriculture (human). A poor diagram lists names without showing *epistemological tension* and *resolution* — board exams reward the \"how it was resolved\" column.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

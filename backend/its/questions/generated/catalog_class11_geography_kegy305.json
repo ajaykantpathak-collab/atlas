@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy305",
+  "concepts": [
+    {
+      "id": "kegy.305.1.1",
+      "questions": [
+        {"q": "Which national agency draws India's topographical maps? (three words)", "a": "Survey of India"},
+        {"q": "What colour shows water features on topo sheets? (one word)", "a": "blue"},
+        {"q": "What colour marks contour lines on a topo sheet? (one word)", "a": "brown"},
+        {"q": "What colour shows vegetation on a topo sheet? (one word)", "a": "green"},
+        {"q": "Which colours mark roads and built-up areas on topo sheets? (two colours)", "a": "red, yellow"},
+        {"q": "What colour carries names and lettering on topo sheets? (one word)", "a": "black"},
+        {"q": "Relief on topo maps is shown by contours and what single-point heights? (two words)", "a": "spot heights"}
+      ]
+    },
+    {
+      "id": "kegy.305.2.1",
+      "questions": [
+        {"q": "Contours join points of equal what? (one word)", "a": "height"},
+        {"q": "Widely spaced contours indicate a gentle or a steep slope? (one word)", "a": "gentle"},
+        {"q": "Closely spaced contours indicate a steep or a gentle slope? (one word)", "a": "steep"},
+        {"q": "What letter shape do contours crossing a river valley make? (one letter)", "a": "V"},
+        {"q": "What shape do contours form around a hilltop: closed circles or open lines? (two words)", "a": "closed circles"},
+        {"q": "How many slope types do contour patterns reveal (concave, convex, uniform, terraced)? (number)", "a": "4"},
+        {"q": "A low point between two hills on a ridge line is called a what? (one word)", "a": "pass"}
+      ]
+    },
+    {
+      "id": "kegy.305.3.1",
+      "questions": [
+        {"q": "Which settlement pattern has houses built close together? (one word)", "a": "nucleated"},
+        {"q": "Which settlement pattern spreads homesteads far apart? (one word)", "a": "dispersed"},
+        {"q": "Which topo colour hints at cultivated and forested land use? (one word)", "a": "green"},
+        {"q": "Wells and which other village water features are marked on topo sheets? (one word)", "a": "tanks"},
+        {"q": "Which cultural feature on a topo sheet indicates a place of worship? (one word)", "a": "temples"},
+        {"q": "Which service building marks communication links on a topo sheet? (two words)", "a": "post offices"},
+        {"q": "Can an interpreter reconstruct a region's economy from conventional signs? (yes or no)", "a": "yes"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_history_lehs202",
+  "concepts": [
+    {
+      "id": "lehs.202.1",
+      "questions": [
+        {"q": "Alvar saints were devotees of which god? (one word)", "a": "Vishnu"},
+        {"q": "Nayanar saints were devotees of which god? (one word)", "a": "Shiva"},
+        {"q": "From about which century did the Alvar and Nayanar saints sing across Tamilakam? (give the century)", "a": "6th century"},
+        {"q": "Which woman saint is counted among the Alvars? (one word)", "a": "Andal"},
+        {"q": "Which woman Nayanar saint, a devotee of Shiva, is celebrated in Tamil tradition? (two words)", "a": "Karaikkal Ammaiyar"},
+        {"q": "In which language did the Alvars and Nayanars compose their hymns? (one word)", "a": "Tamil"},
+        {"q": "What is the compilation of Alvar hymns called? (one word)", "a": "Divya Prabandham"}
+      ]
+    },
+    {
+      "id": "lehs.202.2",
+      "questions": [
+        {"q": "Which doctrine of the oneness of the individual soul and the supreme god did Shankara teach? (one word)", "a": "advaita"},
+        {"q": "Which philosopher urged devotion to Vishnu through his vishishtadvaita doctrine? (one word)", "a": "Ramanuja"},
+        {"q": "Which twelfth-century Karnataka movement rejected temple worship and caste under Basavanna? (one word)", "a": "Virashaiva"},
+        {"q": "Who led the Virashaiva movement in Karnataka? (one word)", "a": "Basavanna"},
+        {"q": "In which century did Basavanna's movement arise? (give the century)", "a": "12th century"},
+        {"q": "What did the Virashaivas question as a theory behind caste inequality? (short phrase)", "a": "rebirth theory"},
+        {"q": "In which present-day state did the Virashaiva tradition take shape? (one word)", "a": "Karnataka"}
+      ]
+    },
+    {
+      "id": "lehs.202.3",
+      "questions": [
+        {"q": "What are chains of Sufi spiritual descent called? (one word)", "a": "silsilas"},
+        {"q": "What were the Sufi lodge-centres where shaikhs trained disciples called? (one word)", "a": "khanqahs"},
+        {"q": "Which Sufi silsila, based at Ajmer, won the widest following in India? (one word)", "a": "Chishti"},
+        {"q": "Which Chishti shaikh's dargah at Ajmer draws devotees of all faiths? (two words)", "a": "Moinuddin Chishti"},
+        {"q": "What devotional musical form is associated with Chishti gatherings? (one word)", "a": "qawwali"},
+        {"q": "What term for pilgrimage to the tombs of Sufi saints drew visitors to dargahs? (one word)", "a": "ziyarat"},
+        {"q": "What community kitchen practice made khanqahs famous for hospitality? (one word)", "a": "langar"}
+      ]
+    },
+    {
+      "id": "lehs.202.4",
+      "questions": [
+        {"q": "Which poet-saint's verses in mixed vernaculars mocked both Hindu and Muslim orthodoxy? (one word)", "a": "Kabir"},
+        {"q": "What kind of divine did Kabir preach: with form or formless? (one word)", "a": "formless"},
+        {"q": "Guru Nanak preached nam, dan and isnan: how many practices are these? (number)", "a": "3"},
+        {"q": "In which scripture were Guru Nanak's hymns collected? (three words)", "a": "Guru Granth Sahib"},
+        {"q": "Which woman saint defied royal household norms for devotion to Krishna? (one word)", "a": "Mirabai"},
+        {"q": "Guru Nanak's teachings are remembered through hymns composed in which kind of language of the people? (one word)", "a": "vernacular"},
+        {"q": "Which god was the focus of Mirabai's devotion? (one word)", "a": "Krishna"}
+      ]
+    }
+  ]
+}

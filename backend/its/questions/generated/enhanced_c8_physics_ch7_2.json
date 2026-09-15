@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_2",
+   "title": "c8_physics_ch7_2",
+   "questions": [
+    {
+     "q": "A student draws the Sun, Earth, and Moon in a straight line with Earth in the middle. What phase of the Moon would be seen from Earth, and why?",
+     "a": "The phase would be **Full Moon**. With Earth in the middle, the Sun and Moon are on opposite sides of Earth. Sunlight hits the entire hemisphere of the Moon facing Earth, so we see the fully illuminated circle. A wrong answer (e.g., \"New Moon\" or \"Lunar Eclipse\") reveals the student confuses the alignment for phases with the alignment for eclipses, or does not realize that Earth's shadow only causes an eclipse when the Moon passes exactly through it (which is rare due to orbital tilt).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon show phases at all, instead of always looking like a half-lit circle? Explain using the fact that the Moon is a sphere and sunlight comes from one direction.",
+     "a": "The Moon is a sphere, so sunlight always illuminates exactly half of it (the dayside). However, from Earth we see different fractions of that lit hemisphere depending on the viewing angle. As the Moon orbits Earth, our viewing angle changes, so we see a varying mix of the lit and unlit sides. A wrong answer (e.g., \"Earth's shadow covers part of the Moon\" or \"The Moon rotates to show different sides\") reveals the common misconception that phases are caused by Earth's shadow or by the Moon's rotation, rather than by the changing viewing geometry of a half-lit sphere.",
+     "self_check": true
+    },
+    {
+     "q": "The Moon is at a 90° angle from the Sun as seen from Earth (i.e., the Sun-Earth-Moon angle is 90°). What phase is observed, and what fraction of the Moon's visible disk is illuminated?",
+     "a": "The phase is **First Quarter (or Last Quarter, depending on orbital direction)**. At a 90° angle, we see exactly half of the Moon's sunlit hemisphere, so **50% of the visible disk is illuminated**. A wrong answer (e.g., \"Crescent\" or \"Gibbous\") reveals the student cannot map the geometric angle to the resulting phase. A wrong fraction (e.g., 25% or 75%) reveals confusion between the angle at Earth and the fraction of the disk lit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Moon's phase when the Sun-Earth-Moon angle is 45° versus 135°. How does the illuminated fraction change, and are both phases \"waxing\" or \"waning\"?",
+     "a": "At 45°, the Moon is a **waxing crescent** (if moving from New to Full) with **<50% illumination**. At 135°, the Moon is a **waxing gibbous** with **>50% illumination**. Both are waxing (increasing illumination) if the Moon is moving from New toward Full. A wrong answer that says one is waning reveals the student does not connect the orbital motion direction to the waxing/waning label. A wrong illumination comparison reveals inability to visualize the geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"When it is Full Moon in India, it must be New Moon in America because they are on opposite sides of Earth.\" Evaluate this statement.",
+     "a": "The statement is **false**. The Moon's phase is determined by the **global** Sun-Earth-Moon geometry, not the observer's local position on Earth. All observers on Earth see essentially the same phase at the same time (within a few hours' difference due to parallax, but the phase name is the same). The student incorrectly applies the day/night logic (which depends on local rotation) to the Moon's phase (which depends on the Moon's orbital position). A wrong evaluation reveals confusion between Earth's rotation (causing day/night) and Moon's revolution (causing phases).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple tabletop model using a lamp, a ball, and your head to demonstrate why the Moon has phases. Describe the setup and what you would observe at three key positions.",
+     "a": "**Setup:** Dark room. Lamp (Sun) at one end. Hold a white ball (Moon) at arm's length. Your head is Earth. **Position 1:** Ball between you and lamp → ball's lit side faces away → you see dark ball (New Moon). **Position 2:** Ball to your left, lamp in front → you see right half lit (First Quarter). **Position 3:** You between lamp and ball → ball fully lit facing you (Full Moon). A poor answer (e.g., moving the lamp instead of the ball, or casting a shadow of the head on the ball) reveals the student still thinks Earth's shadow causes phases or cannot adopt the Earth-centered perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_009",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_009",
+   "title": "c7_geo_ch04_009",
+   "questions": [
+    {
+     "q": "What physical feature primarily dictates why terrace farming is practiced in the Himalayan region rather than large, continuous flat-field farming?",
+     "a": "The steep, mountainous terrain prevents large-scale flat plowing, requiring steps cut into slopes to hold soil and water. A wrong answer suggests the student confuses plain landforms with mountain relief, missing how relief controls farm layout.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the agricultural landscapes of the Thar Desert feature scattered, drought-resistant crops like bajra with vast distances between settlements, unlike the dense farming patterns of the Indo-Gangetic plain?",
+     "a": "Low, erratic rainfall and sandy soils limit water availability, forcing farmers to leave large fallow areas and grow deep-rooted millets. A wrong answer shows a misunderstanding of how aridity forces lower cropping intensity and dispersed settlement patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A region in Punjab receives reliable canal irrigation and has flat, alluvial soil. Which cropping pattern and landscape feature are most likely to dominate this region?",
+     "a": "Steps: 1) Identify flat alluvial soil and canal water availability. 2) Recall that high water and flat land support intensive commercial cultivation. 3) Conclude that continuous, grid-like fields of wheat and rice dominate. 4) Verify with regional agricultural data. A wrong answer indicates the student does not link modern irrigation and flat terrain to intensive commercial cropping patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural landscape of coastal Kerala with that of the Deccan Plateau. How do water sources shape the difference between these two regions?",
+     "a": "Coastal Kerala features high tropical rainfall and backwaters, supporting year-round plantation and paddy landscapes (coconut, rice, spices), whereas the Deccan Plateau relies on seasonal monsoon rain and irrigation tanks, leading to dryland farming of millets and cotton. A wrong answer reveals a failure to connect regional climate and water availability to distinct crop assemblies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Modern technology and tube wells have completely erased regional differences in India's agricultural landscapes.\" Is this accurate?",
+     "a": "This statement is false. While tube wells and fertilizers allow intensive farming in some dry areas, fundamental regional constraints like steep mountain slopes, hard rocky plateau bases, and extreme desert aridity still dictate where terrace farming, dryland cropping, or intensive plains farming occur. A wrong answer shows over-reliance on human technology without acknowledging permanent physical limits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regional agricultural plan for a semi-arid plateau district in central India, specifying which crop types and water management features should be introduced to create a sustainable landscape.",
+     "a": "A good plan proposes drought-resistant millets or pulses, contour bunding for soil conservation, and check dams for rainwater harvesting, reflecting the plateau's rocky terrain and low rainfall. A poor answer suggests water-intensive crops like paddy without irrigation safeguards, ignoring physical limitations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

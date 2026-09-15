@@ -1,0 +1,520 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Conic Sections",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh110.txt",
+ "concepts": [
+  {
+   "id": "jemh.11.1",
+   "title": "Sections of a Cone",
+   "section": "11.1",
+   "definition": "The curves obtained by intersecting a double-napped right circular cone with a plane are called conic sections, namely circle, ellipse, parabola, and hyperbola, depending on the angle of the cutting plane relative to the cone axis.",
+   "formula": "General conic: Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0",
+   "key_idea": "The type of conic is decided by the angle at which the plane cuts the cone.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the conic section formed by the given plane cut",
+    "classify the curve as circle ellipse parabola or hyperbola",
+    "which section of the cone is produced when the plane is parallel to the generator",
+    "match the angle of the plane to the resulting conic",
+    "Explain the method of Sections of a Cone."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find plane angle",
+     "explain": "Determine the angle the cutting plane makes with the axis of the cone."
+    },
+    {
+     "step": 2,
+     "action": "compare with generator angle",
+     "explain": "Compare the plane angle to the cone generator angle to classify the section."
+    },
+    {
+     "step": 3,
+     "action": "classify conic",
+     "explain": "If perpendicular to axis it is a circle, steeper than generator gives ellipse, parallel to generator gives parabola, and shallower gives hyperbola."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A plane cuts a right circular cone parallel to its generator. Name the conic section formed.",
+     "solution": "When the cutting plane is parallel to the generator of the cone, the section is a parabola.",
+     "answer": "Parabola"
+    },
+    {
+     "question": "A plane cuts a double-napped cone perpendicular to the axis. Identify the conic.",
+     "solution": "A plane perpendicular to the axis of the cone produces a circular section.",
+     "answer": "Circle"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A plane cuts a cone at an angle steeper than the generator but not perpendicular to the axis. Identify the conic.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which conic is formed when the cutting plane is parallel to the axis of the cone?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.2",
+   "title": "Degenerate Conic Sections",
+   "section": "11.1.1",
+   "definition": "When the cutting plane passes through the vertex of the cone, the conic degenerates into a point, a single line, or a pair of intersecting lines instead of a regular conic section.",
+   "formula": "Degenerate cases: point, line, pair of intersecting lines",
+   "key_idea": "A plane through the vertex produces a degenerate conic.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the degenerate conic section",
+    "state when a conic degenerates into a point",
+    "what degenerate form results when the plane passes through the vertex and the base",
+    "classify the degenerate conic from the given plane position",
+    "Explain the method of Degenerate Conic Sections."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check if plane passes through vertex",
+     "explain": "Determine whether the cutting plane passes through the apex of the cone."
+    },
+    {
+     "step": 2,
+     "action": "note plane orientation",
+     "explain": "Observe whether the plane touches only the vertex, one generator, or two generators."
+    },
+    {
+     "step": 3,
+     "action": "identify degenerate form",
+     "explain": "A point, a single line, or a pair of intersecting lines is the resulting degenerate conic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A plane passes through the vertex of the cone and is perpendicular to the axis. What degenerate conic is formed?",
+     "solution": "The plane through the vertex perpendicular to the axis meets the cone only at the vertex, giving a point.",
+     "answer": "A point"
+    },
+    {
+     "question": "A plane passes through the vertex and along a generator of the cone. Identify the degenerate conic.",
+     "solution": "The plane through the vertex containing one generator produces a single straight line.",
+     "answer": "A single line"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A plane through the vertex cuts both nappes of the cone. What degenerate conic results?",
+     "type": "verify_property"
+    },
+    {
+     "question": "State the three possible degenerate conic sections.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.3",
+   "title": "Standard Equation of a Circle",
+   "section": "11.2",
+   "definition": "A circle is the locus of all points in a plane that are at a fixed distance (radius) from a fixed point (centre). Its standard equation centred at (h, k) with radius r is (x-h)^2 + (y-k)^2 = r^2.",
+   "formula": "(x-h)^2 + (y-k)^2 = r^2",
+   "key_idea": "Every point on the circle is equidistant from the centre.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the equation of the circle with centre and radius",
+    "find the centre and radius of the given circle",
+    "write the equation of the circle passing through given points",
+    "determine the radius of the circle from its equation",
+    "Explain the method of Standard Equation of a Circle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify centre and radius",
+     "explain": "Read off the centre (h, k) and radius r from the data or equation."
+    },
+    {
+     "step": 2,
+     "action": "apply standard form",
+     "explain": "Substitute the centre and radius into the standard equation of the circle."
+    },
+    {
+     "step": 3,
+     "action": "simplify equation",
+     "explain": "Expand and simplify to obtain the required form of the circle equation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the equation of the circle with centre (2, -3) and radius 4.",
+     "solution": "Using (x-h)^2 + (y-k)^2 = r^2 with h=2, k=-3, r=4: (x-2)^2 + (y+3)^2 = 16.",
+     "answer": "(x-2)^2 + (y+3)^2 = 16"
+    },
+    {
+     "question": "Find the centre and radius of the circle x^2 + y^2 - 8x + 10y - 12 = 0.",
+     "solution": "Completing the square: (x^2-8x) + (y^2+10y) = 12 gives (x-4)^2 + (y+5)^2 = 53. Centre is (4, -5), radius is sqrt(53).",
+     "answer": "Centre (4, -5), radius sqrt(53)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the equation of the circle with centre (0, 0) and radius 5.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the centre and radius of the circle x^2 + y^2 + 6x - 4y - 3 = 0.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.4",
+   "title": "Standard Equation of a Parabola",
+   "section": "11.3",
+   "definition": "A parabola is the locus of a point that moves in a plane such that its distance from a fixed point (focus) equals its distance from a fixed line (directrix). The standard equation with vertex at the origin and axis along the x-axis is y^2 = 4ax.",
+   "formula": "y^2 = 4ax",
+   "key_idea": "Distance to focus equals distance to directrix.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the equation of the parabola with given focus and directrix",
+    "find the focus and directrix of the parabola y^2 = 4ax",
+    "determine the value of a from the given parabola",
+    "write the standard equation of the parabola",
+    "Explain the method of Standard Equation of a Parabola."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify focus and directrix",
+     "explain": "Locate the focus (a, 0) and the directrix x = -a from the standard form."
+    },
+    {
+     "step": 2,
+     "action": "apply distance equality",
+     "explain": "Use the definition that distance to focus equals distance to directrix."
+    },
+    {
+     "step": 3,
+     "action": "derive equation",
+     "explain": "Simplify the distance equality to obtain y^2 = 4ax."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the coordinates of the focus and the equation of the directrix of the parabola y^2 = 12x.",
+     "solution": "Comparing y^2 = 12x with y^2 = 4ax gives 4a = 12, so a = 3. Focus is (3, 0) and directrix is x = -3.",
+     "answer": "Focus (3, 0), directrix x = -3"
+    },
+    {
+     "question": "Find the equation of the parabola with focus (5, 0) and directrix x = -5.",
+     "solution": "Here a = 5, so the standard equation is y^2 = 4(5)x = 20x.",
+     "answer": "y^2 = 20x"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the focus and directrix of the parabola y^2 = 8x.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the equation of the parabola with focus (4, 0) and directrix x = -4.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.5",
+   "title": "Properties of a Parabola",
+   "section": "11.3",
+   "definition": "For the standard parabola y^2 = 4ax, the focus is at (a, 0), the directrix is the line x = -a, the axis is the x-axis, and the length of the latus rectum is 4a.",
+   "formula": "Latus rectum length = 4a; endpoints (a, 2a) and (a, -2a)",
+   "key_idea": "The latus rectum is the chord through the focus perpendicular to the axis.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the length of the latus rectum of the parabola",
+    "find the coordinates of the focus of the parabola",
+    "write the equation of the directrix of the parabola",
+    "find the endpoints of the latus rectum",
+    "Explain the method of Properties of a Parabola."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find parameter a",
+     "explain": "Compare the given equation with y^2 = 4ax to determine the value of a."
+    },
+    {
+     "step": 2,
+     "action": "state focus and directrix",
+     "explain": "The focus is (a, 0) and the directrix is x = -a."
+    },
+    {
+     "step": 3,
+     "action": "compute latus rectum",
+     "explain": "The length of the latus rectum equals 4a with endpoints (a, 2a) and (a, -2a).",
+     "compute": "4 * a"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the length of the latus rectum of the parabola y^2 = 16x.",
+     "solution": "Comparing with y^2 = 4ax gives 4a = 16, so a = 4. Length of latus rectum = 4a = 16.",
+     "answer": "16"
+    },
+    {
+     "question": "Find the focus and the endpoints of the latus rectum of y^2 = 24x.",
+     "solution": "4a = 24 gives a = 6. Focus is (6, 0). Endpoints of latus rectum are (6, 12) and (6, -12).",
+     "answer": "Focus (6, 0); endpoints (6, 12) and (6, -12)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the length of the latus rectum of the parabola y^2 = -10x.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the focus and directrix of the parabola y^2 = 20x.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.6",
+   "title": "Standard Equation of an Ellipse",
+   "section": "11.4",
+   "definition": "An ellipse is the locus of a point in a plane such that the sum of its distances from two fixed points (foci) is constant. The standard equation with centre at the origin and major axis along the x-axis is x^2/a^2 + y^2/b^2 = 1, where a > b.",
+   "formula": "x^2/a^2 + y^2/b^2 = 1, a > b",
+   "key_idea": "Sum of distances from the two foci is constant and equals the major axis 2a.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the equation of the ellipse with given foci and major axis",
+    "find the foci and vertices of the given ellipse",
+    "determine the value of a and b from the ellipse equation",
+    "write the standard equation of the ellipse",
+    "Explain the method of Standard Equation of an Ellipse."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify a and b",
+     "explain": "Read off the denominators to get a^2 and b^2, with a > b for a horizontal major axis."
+    },
+    {
+     "step": 2,
+     "action": "write standard form",
+     "explain": "Substitute the values into x^2/a^2 + y^2/b^2 = 1."
+    },
+    {
+     "step": 3,
+     "action": "compute c if needed",
+     "explain": "Use the relation c^2 = a^2 - b^2 to find the foci at (c, 0) and (-c, 0)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the equation of the ellipse whose foci are (4, 0) and (-4, 0) and whose major axis length is 10.",
+     "solution": "Major axis 2a = 10 gives a = 5. c = 4, so b^2 = a^2 - c^2 = 25 - 16 = 9. Equation is x^2/25 + y^2/9 = 1.",
+     "answer": "x^2/25 + y^2/9 = 1"
+    },
+    {
+     "question": "Find the foci of the ellipse x^2/25 + y^2/16 = 1.",
+     "solution": "a^2 = 25, b^2 = 16, so c^2 = 25 - 16 = 9, c = 3. Foci are (3, 0) and (-3, 0).",
+     "answer": "Foci (3, 0) and (-3, 0)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the equation of the ellipse with foci (3, 0) and (-3, 0) and major axis 8.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the foci and vertices of the ellipse x^2/36 + y^2/20 = 1.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.7",
+   "title": "Properties of an Ellipse",
+   "section": "11.4",
+   "definition": "For the ellipse x^2/a^2 + y^2/b^2 = 1 with a > b, the foci are at (c, 0) and (-c, 0) where c^2 = a^2 - b^2, the eccentricity e = c/a satisfies 0 < e < 1, and the length of the latus rectum is 2b^2/a.",
+   "formula": "e = c/a = sqrt(1 - b^2/a^2); latus rectum = 2b^2/a",
+   "key_idea": "Eccentricity of an ellipse is always between 0 and 1.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the eccentricity of the ellipse",
+    "find the length of the latus rectum of the ellipse",
+    "find the foci of the given ellipse",
+    "determine the eccentricity and latus rectum",
+    "Explain the method of Properties of an Ellipse."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find a and b",
+     "explain": "Extract a^2 and b^2 from the standard equation."
+    },
+    {
+     "step": 2,
+     "action": "compute eccentricity",
+     "explain": "Use e = sqrt(1 - b^2/a^2) to find the eccentricity."
+    },
+    {
+     "step": 3,
+     "action": "compute latus rectum",
+     "explain": "The length of the latus rectum is 2b^2/a.",
+     "compute": "2 * b**2/a"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the eccentricity and the length of the latus rectum of the ellipse x^2/25 + y^2/9 = 1.",
+     "solution": "a^2 = 25, b^2 = 9. e = sqrt(1 - 9/25) = sqrt(16/25) = 4/5. Latus rectum = 2*9/5 = 18/5.",
+     "answer": "e = 4/5, latus rectum = 18/5"
+    },
+    {
+     "question": "Find the eccentricity of the ellipse x^2/16 + y^2/9 = 1.",
+     "solution": "a^2 = 16, b^2 = 9. e = sqrt(1 - 9/16) = sqrt(7/16) = sqrt(7)/4.",
+     "answer": "e = sqrt(7)/4"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the eccentricity and latus rectum of the ellipse x^2/49 + y^2/36 = 1.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the foci and eccentricity of the ellipse x^2/100 + y^2/64 = 1.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.8",
+   "title": "Standard Equation of a Hyperbola",
+   "section": "11.5",
+   "definition": "A hyperbola is the locus of a point in a plane such that the absolute difference of its distances from two fixed points (foci) is constant. The standard equation with centre at the origin and transverse axis along the x-axis is x^2/a^2 - y^2/b^2 = 1.",
+   "formula": "x^2/a^2 - y^2/b^2 = 1",
+   "key_idea": "Difference of distances from the two foci is constant and equals the transverse axis 2a.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the equation of the hyperbola with given foci and transverse axis",
+    "find the foci and vertices of the given hyperbola",
+    "determine the values of a and b from the hyperbola equation",
+    "write the standard equation of the hyperbola",
+    "Explain the method of Standard Equation of a Hyperbola."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify a and b",
+     "explain": "Read off the denominators to get a^2 and b^2 from the standard form."
+    },
+    {
+     "step": 2,
+     "action": "write standard form",
+     "explain": "Substitute the values into x^2/a^2 - y^2/b^2 = 1."
+    },
+    {
+     "step": 3,
+     "action": "compute c if needed",
+     "explain": "Use the relation c^2 = a^2 + b^2 to find the foci at (c, 0) and (-c, 0)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the equation of the hyperbola with foci (5, 0) and (-5, 0) and transverse axis length 8.",
+     "solution": "Transverse axis 2a = 8 gives a = 4. c = 5, so b^2 = c^2 - a^2 = 25 - 16 = 9. Equation is x^2/16 - y^2/9 = 1.",
+     "answer": "x^2/16 - y^2/9 = 1"
+    },
+    {
+     "question": "Find the foci of the hyperbola x^2/9 - y^2/16 = 1.",
+     "solution": "a^2 = 9, b^2 = 16, so c^2 = 9 + 16 = 25, c = 5. Foci are (5, 0) and (-5, 0).",
+     "answer": "Foci (5, 0) and (-5, 0)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the equation of the hyperbola with foci (6, 0) and (-6, 0) and transverse axis 10.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the foci and vertices of the hyperbola x^2/16 - y^2/9 = 1.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.9",
+   "title": "Properties of a Hyperbola",
+   "section": "11.5",
+   "definition": "For the hyperbola x^2/a^2 - y^2/b^2 = 1, the foci are at (c, 0) and (-c, 0) where c^2 = a^2 + b^2, the eccentricity e = c/a is greater than 1, the length of the latus rectum is 2b^2/a, and the asymptotes are the lines y = (b/a)x and y = -(b/a)x.",
+   "formula": "e = c/a = sqrt(1 + b^2/a^2); latus rectum = 2b^2/a; asymptotes y = (b/a)x",
+   "key_idea": "Eccentricity of a hyperbola is always greater than 1.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the eccentricity of the hyperbola",
+    "find the length of the latus rectum of the hyperbola",
+    "find the equations of the asymptotes of the hyperbola",
+    "determine the foci and eccentricity of the hyperbola",
+    "Explain the method of Properties of a Hyperbola."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find a and b",
+     "explain": "Extract a^2 and b^2 from the standard equation."
+    },
+    {
+     "step": 2,
+     "action": "compute eccentricity",
+     "explain": "Use e = sqrt(1 + b^2/a^2) to find the eccentricity, which is greater than 1."
+    },
+    {
+     "step": 3,
+     "action": "compute latus rectum and asymptotes",
+     "explain": "The latus rectum length is 2b^2/a and the asymptotes are y = (b/a)x and y = -(b/a)x."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the eccentricity, latus rectum, and asymptotes of the hyperbola x^2/9 - y^2/16 = 1.",
+     "solution": "a^2 = 9, b^2 = 16. e = sqrt(1 + 16/9) = sqrt(25/9) = 5/3. Latus rectum = 2*16/3 = 32/3. Asymptotes: y = (4/3)x and y = -(4/3)x.",
+     "answer": "e = 5/3, latus rectum = 32/3, asymptotes y = (4/3)x and y = -(4/3)x"
+    },
+    {
+     "question": "Find the eccentricity of the hyperbola x^2/16 - y^2/9 = 1.",
+     "solution": "a^2 = 16, b^2 = 9. e = sqrt(1 + 9/16) = sqrt(25/16) = 5/4.",
+     "answer": "e = 5/4"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the eccentricity, latus rectum, and asymptotes of the hyperbola x^2/25 - y^2/144 = 1.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the foci and eccentricity of the hyperbola x^2/4 - y^2/12 = 1.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

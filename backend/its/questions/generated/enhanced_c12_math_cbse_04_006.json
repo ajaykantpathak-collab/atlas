@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_006",
+   "title": "c12_math_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the adjoint of the matrix \\( A = \\begin{bmatrix} 2 & -3 \\\\ 4 & 5 \\end{bmatrix} \\)?",
+     "a": "The adjoint is \\( \\text{adj } A = \\begin{bmatrix} 5 & 3 \\\\ -4 & 2 \\end{bmatrix} \\). A wrong answer like \\( \\begin{bmatrix} 5 & -3 \\\\ 4 & 2 \\end{bmatrix} \\) reveals the student interchanged diagonal elements correctly but forgot to change signs of off-diagonal elements. Another common error \\( \\begin{bmatrix} 2 & 4 \\\\ -3 & 5 \\end{bmatrix} \\) shows the student only transposed the original matrix without using cofactors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \\((1,2)\\) entry of \\( \\text{adj } A \\) for a \\( 3 \\times 3 \\) matrix \\( A \\) is the cofactor \\( A_{21} \\) (not \\( A_{12} \\)) of \\( A \\).",
+     "a": "By definition, \\( \\text{adj } A \\) is the transpose of the cofactor matrix \\( [A_{ij}] \\). The \\((1,2)\\) entry of the transpose comes from the \\((2,1)\\) entry of the original cofactor matrix, which is \\( A_{21} \\). A student who says it's \\( A_{12} \\) has confused the order of indices and does not understand that \"adjoint = transpose of cofactor matrix\" means rows and columns are swapped.",
+     "self_check": true
+    },
+    {
+     "q": "Find \\( \\text{adj } A \\) for \\( A = \\begin{bmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 4 \\\\ 5 & 6 & 0 \\end{bmatrix} \\). Show all cofactor calculations.",
+     "a": "Cofactors: \\( A_{11} = -24, A_{12} = 20, A_{13} = -5 \\); \\( A_{21} = 18, A_{22} = -15, A_{23} = 4 \\); \\( A_{31} = 5, A_{32} = -4, A_{33} = 1 \\).\nCofactor matrix \\( = \\begin{bmatrix} -24 & 20 & -5 \\\\ 18 & -15 & 4 \\\\ 5 & -4 & 1 \\end{bmatrix} \\).\n\\( \\text{adj } A = \\text{transpose} = \\begin{bmatrix} -24 & 18 & 5 \\\\ 20 & -15 & -4 \\\\ -5 & 4 & 1 \\end{bmatrix} \\).\nA wrong answer with signs flipped on the off-diagonals of the cofactor matrix (e.g., \\( A_{12} = -20 \\)) shows the student forgot the \\( (-1)^{i+j} \\) factor. An answer that is just the transpose of \\( A \\) shows confusion between transpose and adjoint.",
+     "self_check": true
+    },
+    {
+     "q": "If \\( A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\), verify algebraically that \\( A(\\text{adj } A) = |A|I \\). What does this tell you about the relationship between \\( A \\) and its adjoint?",
+     "a": "\\( \\text{adj } A = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix} \\).\n\\( A(\\text{adj } A) = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix} = \\begin{bmatrix} ad - bc & -ab + ab \\\\ cd - dc & -bc + ad \\end{bmatrix} = \\begin{bmatrix} |A| & 0 \\\\ 0 & |A| \\end{bmatrix} = |A|I \\).\nThis shows the adjoint is constructed precisely so that multiplication with \\( A \\) cancels all off-diagonal terms and yields the determinant on the diagonal. A student who cannot carry out the multiplication step-by-step lacks fluency in matrix multiplication; one who gets non-zero off-diagonals made a sign error in the adjoint.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes \\( \\text{adj } A \\) for \\( A = \\begin{bmatrix} 2 & 1 & -1 \\\\ 0 & 3 & 2 \\\\ 1 & -1 & 1 \\end{bmatrix} \\) and gets \\( \\begin{bmatrix} 5 & 0 & 5 \\\\ 2 & 3 & -4 \\\\ -3 & 3 & 6 \\end{bmatrix} \\). Without recomputing the entire adjoint, how can you quickly check if this answer is plausible?",
+     "a": "Compute \\( |A| = 2(3\\cdot1 - 2\\cdot(-1)) - 1(0\\cdot1 - 2\\cdot1) + (-1)(0\\cdot(-1) - 3\\cdot1) = 2(5) - 1(-2) - 1(-3) = 10 + 2 + 3 = 15 \\).\nThen check if \\( A(\\text{adj } A) \\) gives \\( 15I \\). Multiply first row of \\( A \\) with first column of claimed adjoint: \\( 2\\cdot5 + 1\\cdot2 + (-1)\\cdot(-3) = 10 + 2 + 3 = 15 \\) ✓.\nFirst row with second column: \\( 2\\cdot0 + 1\\cdot3 + (-1)\\cdot3 = 0 + 3 - 3 = 0 \\) ✓.\nFirst row with third column: \\( 2\\cdot5 + 1\\cdot(-4) + (-1)\\cdot6 = 10 - 4 - 6 = 0 \\) ✓.\nSince the first row checks out, the adjoint is likely correct. A student who cannot devise this verification strategy does not understand the defining property \\( A(\\text{adj } A) = |A|I \\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \\( 3 \\times 3 \\) matrix \\( A \\) with integer entries such that \\( \\text{adj } A = A \\). Explain your reasoning.",
+     "a": "One example: \\( A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} \\) (identity matrix). Here \\( |A| = 1 \\), cofactor matrix is \\( I \\), so \\( \\text{adj } A = I = A \\).\nAnother: \\( A = \\begin{bmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & -1 \\end{bmatrix} \\). \\( |A| = 1 \\), cofactor matrix equals \\( A \\), so \\( \\text{adj } A = A^T = A \\) since \\( A \\) is symmetric.\nA student who cannot produce any example does not grasp the relationship between a matrix and its adjoint. A student who only gives the identity matrix shows limited creativity but understands the definition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

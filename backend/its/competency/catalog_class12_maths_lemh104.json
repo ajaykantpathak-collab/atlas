@@ -1,0 +1,762 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 4,
+  "chapter_title": "Determinants and Matrices",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter agent author-first draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "lemh.104.4.2.1",
+      "title": "Determinant of a Square Matrix",
+      "section": "4.2",
+      "definition": "Each square matrix carries exactly one attached number, denoted det A or |A|; only square matrices get one, and |A| here names the determinant, never a modulus. A one by one matrix [a] has determinant a.",
+      "formula": "det A = |A| = the single number attached to a square matrix A",
+      "key_idea": "Determinant is a matrix-to-number function defined on square matrices only.",
+      "textbook_ref": "lemh104.txt section 4.2 (lines ~78-112)",
+      "question_patterns": [
+        "what does the notation |A| stand for when A is a matrix",
+        "explain why a rectangular matrix has no determinant",
+        "state the determinant of the one by one matrix whose single entry is given",
+        "which matrices qualify for a determinant and why",
+        "define the number attached to a square matrix in your own words",
+        "is |A| a modulus or a determinant for a matrix A"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Confirm the matrix is square",
+          "explain": "Non-square matrices carry no determinant at all."
+        },
+        {
+          "step": 2,
+          "action": "Read |A| as det A, not as modulus",
+          "explain": "The vertical bars denote the determinant of the matrix."
+        },
+        {
+          "step": 3,
+          "action": "For order one, take the lone entry as the value",
+          "explain": "A 1x1 matrix [a] has determinant equal to a."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.2.2",
+      "title": "Determinant of Order Two",
+      "section": "4.2.2",
+      "definition": "For a two by two grid the determinant is the product along the main diagonal minus the product along the other diagonal.",
+      "formula": "det2 = a11 * a22 - a21 * a12",
+      "key_idea": "Main diagonal product minus anti-diagonal product.",
+      "textbook_ref": "lemh104.txt section 4.2.2 with examples 1-2 (lines ~115-162)",
+      "question_patterns": [
+        "evaluate the determinant of the 2 by 2 matrix with the given entries",
+        "find the value of the second order determinant",
+        "what is the determinant of the matrix with rows a b and c d",
+        "compute the 2x2 determinant by the diagonal rule",
+        "calculate a11 a22 minus a21 a12 for the supplied values",
+        "how do you expand a determinant of order two"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Multiply the main diagonal entries",
+          "explain": "The main diagonal runs from top left a11 to bottom right a22.",
+          "compute": "main_prod = a11 * a22"
+        },
+        {
+          "step": 2,
+          "action": "Multiply the other two entries",
+          "explain": "The anti-diagonal runs from bottom left a21 to top right a12.",
+          "compute": "off_prod = a21 * a12"
+        },
+        {
+          "step": 3,
+          "action": "Subtract the anti-diagonal product from the main",
+          "explain": "The difference is the determinant of the 2x2 matrix.",
+          "compute": "det2 = main_prod - off_prod"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.2.3",
+      "title": "Expansion of a Third Order Determinant",
+      "section": "4.2.3",
+      "definition": "A three by three determinant breaks into three second order pieces: each entry of the chosen row (or column) multiplies the smaller determinant left after deleting that entry's row and column, with signs alternating plus, minus, plus.",
+      "formula": "det3 = a11 * (a22 * a33 - a32 * a23) - a12 * (a21 * a33 - a31 * a23) + a13 * (a21 * a32 - a31 * a22)",
+      "key_idea": "Expanding along any row or column yields the same number; pick the line with the most zeros.",
+      "textbook_ref": "lemh104.txt section 4.2.3 with examples 3-4 (lines ~163-283, 475-581)",
+      "question_patterns": [
+        "evaluate the 3 by 3 determinant by expanding along the first row",
+        "find the value of the third order determinant with the given entries",
+        "compute the determinant of the 3x3 matrix using cofactor expansion",
+        "which row or column is best for expanding when two entries are zero",
+        "calculate the determinant whose entries involve trigonometric ratios",
+        "expand the determinant along the column with the most zeros"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Weight the first entry by its minor determinant",
+          "explain": "a11 multiplies the 2x2 determinant left after deleting row 1 and column 1.",
+          "compute": "term_first = a11 * (a22 * a33 - a32 * a23)"
+        },
+        {
+          "step": 2,
+          "action": "Weight the second entry negatively",
+          "explain": "a12 carries a minus sign times its minor from deleting row 1 and column 2.",
+          "compute": "term_second = a12 * (a21 * a33 - a31 * a23)"
+        },
+        {
+          "step": 3,
+          "action": "Weight the third entry positively",
+          "explain": "a13 carries a plus sign times its minor from deleting row 1 and column 3.",
+          "compute": "term_third = a13 * (a21 * a32 - a31 * a22)"
+        },
+        {
+          "step": 4,
+          "action": "Combine the three signed terms",
+          "explain": "The alternating sum is the value of the 3x3 determinant.",
+          "compute": "det3 = term_first - term_second + term_third"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.2.4",
+      "title": "Determinant of a Scalar Multiple",
+      "section": "4.2.3",
+      "definition": "Multiplying every entry of an order-n square matrix by k multiplies its determinant by k raised to n, since each of the n rows donates one factor of k.",
+      "formula": "det_scaled = det_b * k ** n_order",
+      "key_idea": "An order-n scaling contributes k to the power n, not k itself.",
+      "textbook_ref": "lemh104.txt remark after 4.2.3 (lines ~448-474), exercise 4.1 Q3-Q4",
+      "question_patterns": [
+        "if each entry of a 3 by 3 matrix is multiplied by 4, how does the determinant change",
+        "find the determinant of 2A when the determinant of A is given for an order two matrix",
+        "calculate the determinant of kA from the determinant of A and the order",
+        "show that |3A| equals 27|A| for a matrix of order three",
+        "what power of the scaling factor multiplies the determinant of an n order matrix"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Raise the scaling factor to the matrix order",
+          "explain": "Each of the n rows contributes one factor of k.",
+          "compute": "scale_factor = k ** n_order"
+        },
+        {
+          "step": 2,
+          "action": "Scale the original determinant",
+          "explain": "Multiply the known determinant by that power of k.",
+          "compute": "det_scaled = det_b * scale_factor"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.3.1",
+      "title": "Area of a Triangle from Vertices",
+      "section": "4.3",
+      "definition": "Half the magnitude of a determinant assembled from the three vertex coordinates equals the triangle's area; taking the magnitude keeps the area positive whichever way the corners wind.",
+      "formula": "tri_area = abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2",
+      "key_idea": "Vertex coordinates fill a 3x3 determinant; half of its absolute value is the area.",
+      "textbook_ref": "lemh104.txt section 4.3 with example 6 (lines ~757-835)",
+      "question_patterns": [
+        "find the area of the triangle whose vertices are given",
+        "calculate the area enclosed by the three coordinate points",
+        "what is the area of the triangle joining the given corners",
+        "use determinants to get the triangle area from its vertices",
+        "how much area does the triangle with these three vertices cover",
+        "determine the area of the triangle with corners at the listed points"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Expand the vertex determinant",
+          "explain": "Each x entry multiplies the difference of the other two y values.",
+          "compute": "cross_sum = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"
+        },
+        {
+          "step": 2,
+          "action": "Halve the magnitude",
+          "explain": "Area stays positive, so wrap the expansion in an absolute value and divide by 2.",
+          "compute": "tri_area = abs(cross_sum) / 2"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.3.2",
+      "title": "Collinearity by Zero Determinant",
+      "section": "4.3",
+      "definition": "Three points lie on one straight line exactly when the determinant built from their coordinates works out to zero, since the triangle they would form then has no area.",
+      "formula": "x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2) = 0 for collinear points",
+      "key_idea": "Zero area from the vertex determinant is the collinearity test.",
+      "textbook_ref": "lemh104.txt section 4.3 remark (iii) with example 7 (lines ~788-876)",
+      "question_patterns": [
+        "show that the given points are collinear using determinants",
+        "check whether the three points lie on the same straight line",
+        "prove the collinearity of the three coordinate points",
+        "for what value of k do the given points become collinear",
+        "decide if the triangle formed by the three points is degenerate",
+        "verify that no triangle is formed by the listed vertices"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Form the vertex determinant",
+          "explain": "Place the three points with x values in one column and y values in the next."
+        },
+        {
+          "step": 2,
+          "action": "Evaluate the expansion",
+          "explain": "Compute x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)."
+        },
+        {
+          "step": 3,
+          "action": "Compare with zero",
+          "explain": "A zero value proves the points are collinear; a non-zero value rules it out."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.4.1",
+      "title": "Minor of an Element",
+      "section": "4.4",
+      "definition": "Strike out the row and the column holding a chosen entry; the smaller determinant left behind is that entry's minor, and it has order one less than the original.",
+      "formula": "Mij = determinant remaining after deleting row i and column j",
+      "key_idea": "A minor is a sub-determinant of one lower order.",
+      "textbook_ref": "lemh104.txt definition 1 with example 8 (lines ~902-926)",
+      "question_patterns": [
+        "find the minor of the element in the second row and third column",
+        "write the minor M23 of the given determinant",
+        "what is the minor of the entry 6 in the 3 by 3 determinant",
+        "obtain the second order minor from a third order determinant",
+        "how do you form the minor of a chosen element",
+        "determine M11 for the supplied determinant"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Locate the entry's row and column",
+          "explain": "The position (i, j) fixes which line and column get deleted."
+        },
+        {
+          "step": 2,
+          "action": "Delete that row and that column",
+          "explain": "The remaining entries form a determinant of one lower order."
+        },
+        {
+          "step": 3,
+          "action": "Evaluate the leftover determinant",
+          "explain": "Its value is the minor Mij of the chosen entry."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.4.2",
+      "title": "Cofactor with Alternating Sign",
+      "section": "4.4",
+      "definition": "A cofactor is the matching minor carrying a sign: plus when the entry's row and column indices add to an even total, minus when that total is odd.",
+      "formula": "cofactor = (-1) ** (i_row + j_col) * minor_val",
+      "key_idea": "Cofactor equals signed minor; the sign alternates by position parity.",
+      "textbook_ref": "lemh104.txt definition 2 with examples 9-11 (lines ~927-944, 1080-1165)",
+      "question_patterns": [
+        "find the cofactor of the given element of the determinant",
+        "calculate A12 from the minor of that entry",
+        "what sign multiplies the cofactor at row 1 column 2",
+        "compute the cofactors of every element of the determinant",
+        "determine the cofactor when the minor is already known",
+        "write the sign pattern used for cofactors of a 3x3 determinant"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add the row and column indices",
+          "explain": "The sum i_row + j_col decides the parity.",
+          "compute": "parity = i_row + j_col"
+        },
+        {
+          "step": 2,
+          "action": "Take the alternating sign",
+          "explain": "(-1) raised to that sum is plus one for even, minus one for odd.",
+          "compute": "sign = (-1) ** parity"
+        },
+        {
+          "step": 3,
+          "action": "Apply the sign to the minor",
+          "explain": "Multiply the minor by the sign to get the cofactor.",
+          "compute": "cofactor = sign * minor_val"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.4.3",
+      "title": "Cofactor Expansion Identity",
+      "section": "4.4",
+      "definition": "Pairing each entry of one row or column with its own cofactor and adding reproduces the determinant, while pairing a row's entries with a different row's cofactors always totals zero.",
+      "formula": "|A| = a11 * A11 + a12 * A12 + a13 * A13",
+      "key_idea": "Own-row cofactor products rebuild the determinant; foreign-row pairings cancel to zero.",
+      "textbook_ref": "lemh104.txt remark and note after examples 10-11 (lines ~991-1075)",
+      "question_patterns": [
+        "evaluate the determinant using the cofactors of the second row",
+        "show that entries times cofactors of another row add to zero",
+        "verify that a11 A31 plus a12 A32 plus a13 A33 equals zero",
+        "expand the determinant in terms of the cofactors of the third column",
+        "prove that expansion along any row gives the same value",
+        "why do cross row cofactor products vanish"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compute the cofactors along one chosen line",
+          "explain": "Take every entry of that row or column and its cofactor."
+        },
+        {
+          "step": 2,
+          "action": "Add the entry times cofactor products",
+          "explain": "The sum equals the determinant value."
+        },
+        {
+          "step": 3,
+          "action": "Cross-check against another line",
+          "explain": "Any other row or column must reproduce the same total."
+        },
+        {
+          "step": 4,
+          "action": "Test a foreign pairing",
+          "explain": "Entries of one line with another line's cofactors must sum to zero."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.5.1",
+      "title": "Adjoint of a Matrix",
+      "section": "4.5.1",
+      "definition": "Replace every entry of the square matrix by its cofactor, then transpose the resulting grid; that transposed cofactor grid is the adjoint of the matrix.",
+      "formula": "adj A = transpose of the cofactor grid of A",
+      "key_idea": "Adjoint means cofactor grid transposed.",
+      "textbook_ref": "lemh104.txt definition 3 with example 12 (lines ~1261-1397)",
+      "question_patterns": [
+        "find the adjoint of the given 2 by 2 matrix",
+        "compute adj A for the three by three matrix",
+        "write the adjoint by transposing the cofactor grid",
+        "obtain the adjoint of a square matrix of order two",
+        "how are the cofactors arranged to build adj A",
+        "determine the adjoint of the supplied matrix"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compute every cofactor",
+          "explain": "Find Aij for each position of the matrix."
+        },
+        {
+          "step": 2,
+          "action": "Assemble the cofactor grid",
+          "explain": "Put each cofactor in the matching position."
+        },
+        {
+          "step": 3,
+          "action": "Transpose the grid",
+          "explain": "Swapping rows and columns turns the cofactor grid into adj A."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.5.2",
+      "title": "Invertibility by Singularity Test",
+      "section": "4.5",
+      "definition": "A square matrix is singular when its determinant is zero and non-singular otherwise; only in the non-singular case does an inverse exist, given by the adjoint divided by the determinant.",
+      "formula": "A_inverse = adj A / det A when det A is not 0",
+      "key_idea": "Non-zero determinant is the exact licence for an inverse to exist.",
+      "textbook_ref": "lemh104.txt definitions 4-5, theorem 4, examples 13-15 (lines ~1528-1674, 1675-2262)",
+      "question_patterns": [
+        "find the inverse of the matrix using the adjoint formula",
+        "check whether the given matrix is singular or non-singular",
+        "compute A inverse for the supplied 3 by 3 matrix",
+        "why does a singular matrix have no inverse",
+        "verify that the matrix times its inverse gives the identity",
+        "for what value of x does the matrix become singular",
+        "obtain the inverse by dividing the adjoint by the determinant"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Evaluate the determinant",
+          "explain": "A zero determinant marks a singular matrix with no inverse."
+        },
+        {
+          "step": 2,
+          "action": "Build the adjoint",
+          "explain": "Transpose the cofactor grid of the matrix."
+        },
+        {
+          "step": 3,
+          "action": "Divide the adjoint by the determinant",
+          "explain": "The quotient is A_inverse."
+        },
+        {
+          "step": 4,
+          "action": "Check the product with the identity",
+          "explain": "A times A_inverse must reproduce the identity matrix."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.5.3",
+      "title": "Determinant of the Adjoint",
+      "section": "4.5",
+      "definition": "For a square matrix of order n, the adjoint's own determinant equals the original determinant raised to the power n minus one.",
+      "formula": "adj_det = det_a ** (n_order - 1)",
+      "key_idea": "Order three turns |adj A| into the square of |A|.",
+      "textbook_ref": "lemh104.txt remark after theorem 3 and exercise 4.4 Q17 (lines ~1588-1624, 2554-2559)",
+      "question_patterns": [
+        "find |adj A| when |A| and the order are given",
+        "what is the determinant of the adjoint of a 3 by 3 matrix",
+        "calculate the adjoint determinant for a matrix of order n",
+        "if the determinant of A is 5 for a 3x3 matrix, evaluate the determinant of adj A",
+        "how does the adjoint determinant relate to the original determinant"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Subtract one from the order",
+          "explain": "The exponent for the adjoint rule is n_order - 1.",
+          "compute": "adj_power = n_order - 1"
+        },
+        {
+          "step": 2,
+          "action": "Raise the determinant to that power",
+          "explain": "This gives the determinant of the adjoint matrix.",
+          "compute": "adj_det = det_a ** adj_power"
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.6.1",
+      "title": "Matrix Method for a Linear System",
+      "section": "4.6.1",
+      "definition": "Pack the equations as AX = B; when the coefficient matrix is non-singular, the solution column follows as the inverse of A multiplied by B, giving the unique answer.",
+      "formula": "X = A_inverse * B",
+      "key_idea": "Premultiply by the inverse to isolate the unknown column.",
+      "textbook_ref": "lemh104.txt section 4.6.1 with examples 16-18 (lines ~2582-3219)",
+      "question_patterns": [
+        "solve the system of equations by the matrix method",
+        "use the inverse of the coefficient matrix to solve the pair of equations",
+        "find x, y and z by writing the equations as AX = B",
+        "solve the two linear equations with the matrix inverse method",
+        "determine the solution of the simultaneous equations using matrices",
+        "resolve the word problem into equations and solve by matrices"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Assemble A, X and B",
+          "explain": "Coefficients fill A, unknowns fill X, right sides fill B."
+        },
+        {
+          "step": 2,
+          "action": "Test the determinant of A",
+          "explain": "A non-zero determinant guarantees a unique solution."
+        },
+        {
+          "step": 3,
+          "action": "Compute A_inverse",
+          "explain": "Divide the adjoint of A by its determinant."
+        },
+        {
+          "step": 4,
+          "action": "Multiply A_inverse with B",
+          "explain": "The product column lists the values of the unknowns."
+        }
+      ]
+    },
+    {
+      "id": "lemh.104.4.6.2",
+      "title": "Consistency of a System",
+      "section": "4.6",
+      "definition": "A set of equations is consistent when at least one solution exists; a non-zero determinant already guarantees one, while a zero determinant with a non-zero adjoint product rules every solution out.",
+      "formula": "|A| not 0 means the system is consistent with a unique solution",
+      "key_idea": "Classify the system from the determinant together with the adjoint product.",
+      "textbook_ref": "lemh104.txt section 4.6 case I-II and exercise 4.5 Q1-6 (lines ~2568-2581, 2698-2721, 3220-3238)",
+      "question_patterns": [
+        "examine the consistency of the given system of equations",
+        "does the pair of equations have a solution",
+        "check whether the equations are consistent or inconsistent",
+        "determine when the system has no solution at all",
+        "test the consistency of the equations using determinants",
+        "classify the system as consistent with unique, many or no solutions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Evaluate the determinant of the coefficient matrix",
+          "explain": "Write the equations as AX = B first."
+        },
+        {
+          "step": 2,
+          "action": "Non-zero case",
+          "explain": "A non-zero determinant means consistent with exactly one solution."
+        },
+        {
+          "step": 3,
+          "action": "Zero determinant case",
+          "explain": "Compute the product of the adjoint with B."
+        },
+        {
+          "step": 4,
+          "action": "Classify from the adjoint product",
+          "explain": "A non-zero product means inconsistent; a zero product leaves infinitely many solutions possible."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "lemh104.txt example 1 (lines ~136-145)",
+      "concept": "lemh.104.4.2.2",
+      "question_type": "evaluate 2x2 determinant",
+      "question_pattern": "Evaluate the determinant of the matrix with rows {a11} {a12} and {a21} {a22}.",
+      "extracted_variables": {"a11": 2, "a12": 4, "a21": -1, "a22": 2},
+      "solution_template": [
+        {"step": 1, "action": "Multiply the main diagonal entries", "explain": "2 times 2.", "compute": "main_prod = a11 * a22"},
+        {"step": 2, "action": "Multiply the other diagonal", "explain": "-1 times 4.", "compute": "off_prod = a21 * a12"},
+        {"step": 3, "action": "Subtract", "explain": "4 minus -4 gives 8.", "compute": "det2 = main_prod - off_prod"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "lemh104.txt exercise 4.1 style item (lines ~583-598)",
+      "concept": "lemh.104.4.2.2",
+      "question_type": "evaluate 2x2 determinant",
+      "question_pattern": "Find the value of the second order determinant with first row {a11} {a12} and second row {a21} {a22}.",
+      "extracted_variables": {"a11": 3, "a12": -5, "a21": 2, "a22": 6},
+      "solution_template": [
+        {"step": 1, "action": "Multiply the main diagonal entries", "explain": "3 times 6.", "compute": "main_prod = a11 * a22"},
+        {"step": 2, "action": "Multiply the other diagonal", "explain": "2 times -5.", "compute": "off_prod = a21 * a12"},
+        {"step": 3, "action": "Subtract", "explain": "18 minus -10 gives 28.", "compute": "det2 = main_prod - off_prod"}
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "lemh104.txt example 3 (lines ~475-505)",
+      "concept": "lemh.104.4.2.3",
+      "question_type": "evaluate 3x3 determinant",
+      "question_pattern": "Evaluate the 3 by 3 determinant with rows {a11} {a12} {a13}, {a21} {a22} {a23} and {a31} {a32} {a33} by expanding along the third column.",
+      "extracted_variables": {"a11": 1, "a12": 2, "a13": 4, "a21": -1, "a22": 3, "a23": 0, "a31": 4, "a32": 1, "a33": 0},
+      "solution_template": [
+        {"step": 1, "action": "Weight the first entry", "explain": "a11 times its minor.", "compute": "term_first = a11 * (a22 * a33 - a32 * a23)"},
+        {"step": 2, "action": "Weight the second entry negatively", "explain": "a12 with a minus sign.", "compute": "term_second = a12 * (a21 * a33 - a31 * a23)"},
+        {"step": 3, "action": "Weight the third entry positively", "explain": "a13 with a plus sign.", "compute": "term_third = a13 * (a21 * a32 - a31 * a22)"},
+        {"step": 4, "action": "Combine", "explain": "0 minus 0 plus -52 gives -52.", "compute": "det3 = term_first - term_second + term_third"}
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "lemh104.txt exercise 4.1 Q6 (lines ~696-717)",
+      "concept": "lemh.104.4.2.3",
+      "question_type": "evaluate 3x3 determinant",
+      "question_pattern": "Find the determinant of the matrix with rows {a11} {a12} {a13}, {a21} {a22} {a23}, {a31} {a32} {a33}.",
+      "extracted_variables": {"a11": 1, "a12": 1, "a13": -2, "a21": 2, "a22": 1, "a23": -3, "a31": 5, "a32": 4, "a33": -9},
+      "solution_template": [
+        {"step": 1, "action": "Weight the first entry", "explain": "1 times its minor.", "compute": "term_first = a11 * (a22 * a33 - a32 * a23)"},
+        {"step": 2, "action": "Weight the second entry negatively", "explain": "a12 with a minus sign.", "compute": "term_second = a12 * (a21 * a33 - a31 * a23)"},
+        {"step": 3, "action": "Weight the third entry positively", "explain": "-2 times its minor.", "compute": "term_third = a13 * (a21 * a32 - a31 * a22)"},
+        {"step": 4, "action": "Combine", "explain": "3 minus -3 plus -6 gives 0.", "compute": "det3 = term_first - term_second + term_third"}
+      ]
+    },
+    {
+      "id": "ex5",
+      "source_ref": "lemh104.txt remark with A = 2B (lines ~448-474)",
+      "concept": "lemh.104.4.2.4",
+      "question_type": "scalar multiple rule",
+      "question_pattern": "The determinant of a second order matrix B is {det_b}. Find the determinant of the matrix obtained by multiplying every entry of B by {k_scale}.",
+      "extracted_variables": {"det_b": -2, "k_scale": 2, "n_order": 2},
+      "solution_template": [
+        {"step": 1, "action": "Raise the factor to the order", "explain": "2 squared is 4.", "compute": "scale_factor = k_scale ** n_order"},
+        {"step": 2, "action": "Scale the determinant", "explain": "-2 times 4 gives -8.", "compute": "det_scaled = det_b * scale_factor"}
+      ]
+    },
+    {
+      "id": "ex6",
+      "source_ref": "lemh104.txt example 6 (lines ~790-835)",
+      "concept": "lemh.104.4.3.1",
+      "question_type": "triangle area",
+      "question_pattern": "Find the area of the triangle whose vertices are ({x1}, {y1}), ({x2}, {y2}) and ({x3}, {y3}).",
+      "extracted_variables": {"x1": 3, "y1": 8, "x2": -4, "y2": 2, "x3": 5, "y3": 1},
+      "solution_template": [
+        {"step": 1, "action": "Expand the vertex determinant", "explain": "3(2-1) + (-4)(1-8) + 5(8-2).", "compute": "cross_sum = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
+        {"step": 2, "action": "Halve the magnitude", "explain": "61 over 2 gives 30.5 square units.", "compute": "tri_area = abs(cross_sum) / 2"}
+      ]
+    },
+    {
+      "id": "ex7",
+      "source_ref": "lemh104.txt exercise 4.2 Q1(ii) (lines ~878-882)",
+      "concept": "lemh.104.4.3.1",
+      "question_type": "triangle area",
+      "question_pattern": "Calculate the area of the triangle with corners ({x1}, {y1}), ({x2}, {y2}) and ({x3}, {y3}).",
+      "extracted_variables": {"x1": 2, "y1": 7, "x2": 1, "y2": 1, "x3": 10, "y3": 8},
+      "solution_template": [
+        {"step": 1, "action": "Expand the vertex determinant", "explain": "2(1-8) + 1(8-7) + 10(7-1).", "compute": "cross_sum = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
+        {"step": 2, "action": "Halve the magnitude", "explain": "47 over 2 gives 23.5 square units.", "compute": "tri_area = abs(cross_sum) / 2"}
+      ]
+    },
+    {
+      "id": "ex8",
+      "source_ref": "lemh104.txt example 9 (lines ~929-944)",
+      "concept": "lemh.104.4.4.2",
+      "question_type": "cofactor of an element",
+      "question_pattern": "Find the cofactor of the element at row {i_row} column {j_col} whose minor is {minor_val}.",
+      "extracted_variables": {"i_row": 1, "j_col": 1, "minor_val": 3},
+      "solution_template": [
+        {"step": 1, "action": "Add the indices", "explain": "1 plus 1 is 2.", "compute": "parity = i_row + j_col"},
+        {"step": 2, "action": "Take the sign", "explain": "(-1) squared is 1.", "compute": "sign = (-1) ** parity"},
+        {"step": 3, "action": "Apply to the minor", "explain": "1 times 3 gives 3.", "compute": "cofactor = sign * minor_val"}
+      ]
+    },
+    {
+      "id": "ex9",
+      "source_ref": "lemh104.txt example 8 follow-up (lines ~910-926)",
+      "concept": "lemh.104.4.4.2",
+      "question_type": "cofactor of an element",
+      "question_pattern": "The minor of the entry in row {i_row} column {j_col} of a determinant is {minor_val}. Determine that entry's cofactor.",
+      "extracted_variables": {"i_row": 2, "j_col": 3, "minor_val": -6},
+      "solution_template": [
+        {"step": 1, "action": "Add the indices", "explain": "2 plus 3 is 5.", "compute": "parity = i_row + j_col"},
+        {"step": 2, "action": "Take the sign", "explain": "(-1) to the fifth is -1.", "compute": "sign = (-1) ** parity"},
+        {"step": 3, "action": "Apply to the minor", "explain": "-1 times -6 gives 6.", "compute": "cofactor = sign * minor_val"}
+      ]
+    },
+    {
+      "id": "ex10",
+      "source_ref": "lemh104.txt example 17 determinant value (lines ~2808-2867)",
+      "concept": "lemh.104.4.5.3",
+      "question_type": "adjoint determinant",
+      "question_pattern": "For a matrix of order {n_order} with |A| = {det_a}, find the determinant of adj A.",
+      "extracted_variables": {"det_a": -17, "n_order": 3},
+      "solution_template": [
+        {"step": 1, "action": "Subtract one from the order", "explain": "3 minus 1 is 2.", "compute": "adj_power = n_order - 1"},
+        {"step": 2, "action": "Raise the determinant", "explain": "-17 squared gives 289.", "compute": "adj_det = det_a ** adj_power"}
+      ]
+    },
+    {
+      "id": "ex11",
+      "source_ref": "lemh104.txt exercise 4.4 Q17 style (lines ~2554-2559)",
+      "concept": "lemh.104.4.5.3",
+      "question_type": "adjoint determinant",
+      "question_pattern": "If the determinant of a {n_order} by {n_order} matrix A equals {det_a}, what is |adj A|?",
+      "extracted_variables": {"det_a": 5, "n_order": 3},
+      "solution_template": [
+        {"step": 1, "action": "Subtract one from the order", "explain": "3 minus 1 is 2.", "compute": "adj_power = n_order - 1"},
+        {"step": 2, "action": "Raise the determinant", "explain": "5 squared gives 25.", "compute": "adj_det = det_a ** adj_power"}
+      ]
+    },
+    {
+      "id": "ex12",
+      "source_ref": "lemh104.txt section 4.3 remark (iii) (lines ~788-789)",
+      "concept": "lemh.104.4.3.2",
+      "question_type": "collinearity check",
+      "question_pattern": "Show that the points ({x1}, {y1}), ({x2}, {y2}) and ({x3}, {y3}) are collinear using determinants.",
+      "extracted_variables": {"x1": 1, "y1": 2, "x2": 2, "y2": 4, "x3": 3, "y3": 6},
+      "solution_template": [
+        {"step": 1, "action": "Expand the vertex determinant", "explain": "1(4-6) + 2(6-2) + 3(2-4) = -2 + 8 - 6."},
+        {"step": 2, "action": "Compare with zero", "explain": "The expansion is 0, so the three points sit on one line."}
+      ]
+    },
+    {
+      "id": "ex13",
+      "source_ref": "lemh104.txt example 16 (lines ~2722-2807)",
+      "concept": "lemh.104.4.6.1",
+      "question_type": "matrix method",
+      "question_pattern": "Solve the equations {eq1} and {eq2} by the matrix method.",
+      "extracted_variables": {"eq1": 0, "eq2": 0},
+      "solution_template": [
+        {"step": 1, "action": "Write AX = B", "explain": "Coefficients 2 and 5, then 3 and 2 fill A; the constants fill B."},
+        {"step": 2, "action": "Check the determinant", "explain": "2(2) - 3(5) = -11, so the inverse exists."},
+        {"step": 3, "action": "Multiply the inverse with B", "explain": "The product gives x = 3 and y = -1."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex4.1",
+      "source_ref": "lemh104.txt exercise 4.1 (lines ~582-756)",
+      "questions": [
+        "Evaluate the given 2x2 determinants, including one with cosine and sine entries.",
+        "Show that a matrix scaled by 2 or 3 has determinant scaled by the order power.",
+        "Evaluate four given 3x3 determinants.",
+        "Find the determinant of a supplied 3x3 matrix.",
+        "Find the values of x that make two second order determinants equal.",
+        "Multiple choice: identify x for a determinant equation."
+      ]
+    },
+    {
+      "id": "ex4.2",
+      "source_ref": "lemh104.txt exercise 4.2 (lines ~877-898)",
+      "questions": [
+        "Find the area of triangles with given vertex triples.",
+        "Show that three symbolically given points are collinear.",
+        "Find k when the triangle area is given in square units.",
+        "Find the equation of the line through two points using determinants.",
+        "Multiple choice: recover k from a given triangle area."
+      ]
+    },
+    {
+      "id": "ex4.3",
+      "source_ref": "lemh104.txt exercise 4.3 (lines ~1169-1256)",
+      "questions": [
+        "Write minors and cofactors of the elements of given 2x2 and 3x3 determinants.",
+        "Evaluate a determinant using the cofactors of its second row.",
+        "Evaluate a determinant using the cofactors of its third column.",
+        "Multiple choice: identify the correct cofactor expansion of a determinant."
+      ]
+    },
+    {
+      "id": "ex4.4",
+      "source_ref": "lemh104.txt exercise 4.4 (lines ~2263-2567)",
+      "questions": [
+        "Find adjoints of given 2x2 and 3x3 matrices.",
+        "Verify A adj A equals adj A A equals |A| I for supplied matrices.",
+        "Find inverses of the given matrices where they exist.",
+        "Verify the inverse of a product equals the reversed product of inverses.",
+        "Show a matrix satisfies a polynomial equation and use it to get the inverse.",
+        "Multiple choice on |adj A| and det of A inverse."
+      ]
+    },
+    {
+      "id": "ex4.5",
+      "source_ref": "lemh104.txt exercise 4.5 (lines ~3220-3296)",
+      "questions": [
+        "Examine consistency of six supplied systems of equations.",
+        "Solve seven systems in two variables by the matrix method.",
+        "Solve systems in three variables by the matrix method.",
+        "Find an inverse and use it to solve a supplied system.",
+        "Recover per kg costs of three items from a word problem via matrices."
+      ]
+    },
+    {
+      "id": "ex4.misc",
+      "source_ref": "lemh104.txt miscellaneous exercises on chapter 4 (lines ~3659-4004)",
+      "questions": [
+        "Prove a trigonometric determinant is independent of the angle.",
+        "Evaluate determinants with symbolic entries.",
+        "Verify identities involving adjoints and inverses.",
+        "Solve a supplied 3x3 system of equations.",
+        "Multiple choice items on inverses of diagonal-pattern matrices and determinant ranges."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_004",
+   "title": "c11_ip_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the x-axis in a bar chart created with `plt.bar(categories, values)` and the x-axis in a line chart created with `plt.plot(x_values, y_values)`?",
+     "a": "In a bar chart, the x-axis represents discrete categorical labels (strings like 'Apple', 'Banana') positioned at evenly spaced integer indices (0, 1, 2...), while in a line chart, the x-axis represents continuous numerical values where the distance between points reflects actual numerical differences. A wrong answer (e.g., \"both are numerical\") reveals the student confuses categorical vs continuous data representation and may incorrectly use line charts for categories.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `plt.bar([10, 20, 30], [5, 15, 10])` and gets three bars at positions 10, 20, 30 with gaps between them. They expected the bars to be adjacent like in a histogram. Why does this happen, and how should they fix it to get adjacent bars for categories 'A', 'B', 'C'?",
+     "a": "`plt.bar()` treats the first argument as x-coordinates (numerical positions), not category labels. When given numbers [10,20,30], it places bars at those exact positions with default width 0.8, creating gaps. To get adjacent bars for categories, pass string labels: `plt.bar(['A','B','C'], [5,15,10])` which maps them to indices 0,1,2. A wrong answer reveals the student doesn't understand that bar charts for categorical data require string labels, not numerical positions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the code below, what will be the x-axis labels on the resulting bar chart?\n```python\nimport matplotlib.pyplot as plt\nsubjects = ['Physics', 'Chemistry', 'Maths']\nmarks = [85, 90, 95]\nplt.bar(subjects, marks)\nplt.xlabel('Subjects')\nplt.ylabel('Marks')\nplt.title('Term 1 Marks')\nplt.show()\n```",
+     "a": "The x-axis will show 'Physics', 'Chemistry', 'Maths' as tick labels because when the first argument to `plt.bar()` is a list of strings, Matplotlib uses them directly as categorical tick labels at positions 0,1,2. A wrong answer (e.g., \"0, 1, 2\" or \"Subjects\") reveals the student confuses the axis label (set by `xlabel`) with the categorical tick labels derived from the data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two visualizations for the same data: `plt.plot(['Jan','Feb','Mar'], [100,150,120])` vs `plt.bar(['Jan','Feb','Mar'], [100,150,120])`. Which is more appropriate for showing monthly sales, and why? What misleading implication does the line chart create?",
+     "a": "The bar chart is more appropriate because months are discrete categories (not continuous time points). The line chart implies continuous interpolation between months (e.g., sales on Jan 15th), suggesting a trend that doesn't exist in discrete monthly aggregates. A wrong answer reveals the student doesn't distinguish between discrete categorical comparison (bar chart) and continuous trend visualization (line chart).",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to compare the population of 5 Indian cities. They have city names and populations in two lists. They write `plt.bar(populations, cities)` (swapped arguments). What error or unexpected output will occur, and why?",
+     "a": "`plt.bar()` expects first argument as x-positions (categories) and second as heights (values). Swapping them passes strings as heights (causing TypeError: \"height must be scalar\") or if cities were numbers, would plot populations as categories. The correct order is `plt.bar(cities, populations)`. A wrong answer reveals the student doesn't understand the parameter order: `plt.bar(x_categories, y_values)`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a bar chart to compare the number of gold medals won by India in the last 4 Olympic Games (2012: 0, 2016: 0, 2020: 1, 2024: 1). Write the complete Python code. Should the years be strings or integers? Justify your choice.",
+     "a": "```python\nimport matplotlib.pyplot as plt\nyears = ['2012', '2016', '2020', '2024']  # strings\ngold = [0, 0, 1, 1]\nplt.bar(years, gold, color='gold')\nplt.xlabel('Olympic Year')\nplt.ylabel('Gold Medals')\nplt.title('India Gold Medals in Last 4 Olympics')\nplt.show()\n```\nYears should be strings because Olympics are discrete events (categories), not continuous time. Using integers would imply numerical continuity and might show intermediate years on axis. A poor answer uses integers without justification, revealing confusion between categorical and continuous axes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

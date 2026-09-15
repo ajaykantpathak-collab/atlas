@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_03_007",
+   "title": "c10_hist_cbse_03_007",
+   "questions": [
+    {
+     "q": "What was the primary condition imposed by the IMF and World Bank on developing countries seeking loans during the 1980s debt crisis?",
+     "a": "The primary condition was Structural Adjustment Programmes (SAPs) requiring privatisation, trade liberalisation, fiscal austerity, and deregulation. A wrong answer like \"they required higher tariffs to protect local industries\" reveals the student confuses SAPs with the import-substitution policies of the 1950s-60s that SAPs explicitly dismantled.",
+     "self_check": true
+    },
+    {
+     "q": "Why did East Asian economies like South Korea and Taiwan benefit from globalisation while many African nations did not, despite both receiving foreign investment?",
+     "a": "East Asian states maintained strategic control over capital flows, directed credit to export industries, invested heavily in education, and sequenced liberalisation gradually — unlike African nations forced into rapid, unconditional liberalisation under SAPs that destroyed nascent industries. A wrong answer attributing the difference solely to \"culture\" or \"corruption\" misses the critical role of state capacity and policy autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "A developing country discovers large oil reserves. An MNC offers to extract it, promising jobs and revenue. The government signs a contract giving the MNC 80% of profits for 30 years with minimal environmental regulation. Using the concept of \"unequal exchange,\" explain why this may deepen underdevelopment.",
+     "a": "This reflects unequal exchange: the country exports a finite, high-value resource cheaply while importing manufactured goods at high prices, capturing little value-added. The MNC repatriates profits, uses transfer pricing to avoid taxes, and leaves environmental damage. A wrong answer focusing only on \"jobs created\" ignores the net resource outflow and lost sovereignty over natural wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of globalisation on India's pharmaceutical industry (1970s-1990s) versus its textile sector post-1995 WTO Agreement on Textiles and Clothing. What explains the difference?",
+     "a": "India's 1970 Patent Act allowed process patents only, enabling reverse-engineering of drugs — building a generic pharma giant. Post-1995, textile quotas ended, exposing small powerlooms to Chinese competition without similar state support. The difference: pharma had decades of protected capability-building; textiles faced instant liberalisation. A wrong answer saying \"both benefited equally\" ignores sector-specific timing and state policy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Globalisation has reduced global inequality because China and India grew rapidly.\" Evaluate this claim using the distinction between between-country and within-country inequality.",
+     "a": "The claim is partially true for between-country inequality (China/India narrowed the gap with the West) but false for within-country inequality (both saw soaring Gini coefficients). Globally, the top 1% captured 27% of growth (1980-2016) while the bottom 50% got 12%. A wrong answer citing only average GDP growth per capita misses the distributional reality that matters for human development.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-point argument either defending or criticising the Washington Consensus as a development strategy for a hypothetical mineral-rich, low-industrialised African nation in 1990. Use historical evidence from at least two real countries.",
+     "a": "A strong critique: (1) Zambia's rapid copper privatisation (1990s) led to tax revenue collapse; (2) Malawi's fertiliser subsidy removal caused famine (2002); (3) Botswana avoided SAPs, used diamond revenue for education/health, achieved upper-middle income; (4) Ethiopia's state-led industrial parks (2010s) created manufacturing jobs without full liberalisation. A poor answer lists only GDP growth figures without structural analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

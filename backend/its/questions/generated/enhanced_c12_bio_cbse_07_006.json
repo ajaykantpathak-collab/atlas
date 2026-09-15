@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_006",
+   "title": "c12_bio_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define microevolution in terms of allele frequencies and name the five evolutionary forces that cause it.",
+     "a": "Microevolution is the change in allele frequencies in a population over generations. The five forces are: natural selection, genetic drift, gene flow (migration), mutation, and non-random mating. A wrong answer (e.g., \"microevolution is speciation\" or listing only \"natural selection\") reveals confusion between micro- and macroevolution, or failure to recognize that drift/migration/mutation also alter frequencies without selection.",
+     "self_check": true
+    },
+    {
+     "q": "A population of 10,000 diploid individuals has allele frequencies p = 0.6 (A) and q = 0.4 (a). After one generation of complete selection against aa homozygotes (fitness = 0), what are the new allele frequencies? Show your calculation.",
+     "a": "Initial genotype frequencies (H-W): AA = p² = 0.36, Aa = 2pq = 0.48, aa = q² = 0.16. After selection against aa (fitness 0), only AA and Aa survive. Total survivors = 0.36 + 0.48 = 0.84 of original. New frequencies: AA' = 0.36/0.84 = 0.4286, Aa' = 0.48/0.84 = 0.5714. New p' = freq(AA') + ½freq(Aa') = 0.4286 + 0.2857 = 0.7143. New q' = ½freq(Aa') = 0.2857. A wrong answer (e.g., p' = 0.6, q' = 0.4) shows the student thinks selection doesn't change allele frequencies in one generation, or forgets to renormalize after removing aa individuals.",
+     "self_check": true
+    },
+    {
+     "q": "In a small island population of 50 birds, a neutral allele has frequency 0.5. After 10 generations, the frequency is 0.7. No migration, mutation, or selection occurred. Which force caused this change? Explain why this force is stronger in small populations.",
+     "a": "Genetic drift. In small populations, random sampling of gametes each generation causes allele frequencies to fluctuate by chance. The variance in allele frequency change per generation is pq/2N; with N=50, variance = 0.5×0.5/100 = 0.0025, so standard deviation ≈ 0.05 per generation. Over 10 generations, cumulative drift can easily shift frequency by 0.2. A wrong answer (\"natural selection\" or \"mutation\") reveals the student associates any frequency change with selection, not understanding that drift is a stochastic force independent of fitness, and its magnitude scales inversely with population size.",
+     "self_check": true
+    },
+    {
+     "q": "Two populations of the same plant species have allele frequencies for a drought-tolerance gene: Population 1 (mainland, large): p = 0.2; Population 2 (island, small): p = 0.8. Pollen from Population 1 migrates to Population 2 at rate m = 0.1 per generation. Calculate the allele frequency in Population 2 after one generation of migration. What happens to genetic differentiation (F_ST) between them?",
+     "a": "New frequency in Population 2: p₂' = (1-m)p₂ + m·p₁ = 0.9×0.8 + 0.1×0.2 = 0.72 + 0.02 = 0.74. Gene flow homogenizes populations — it reduces genetic differentiation (F_ST decreases). The allele frequency difference shrinks from 0.6 to 0.54. A wrong answer (e.g., p₂' = 0.8, or claiming F_ST increases) shows the student doesn't grasp migration as a blending force or confuses its direction. They may also think migration only introduces new alleles, not shift existing frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Microevolution always leads to adaptation because natural selection is the strongest evolutionary force.\" Provide a counterexample using genetic drift.",
+     "a": "The claim is false. Microevolution is any allele frequency change — not all such changes are adaptive. Counterexample: In a population of 20 mice, a neutral allele for tail length (no fitness effect) drifts to fixation (frequency 1.0) by chance. The population is now monomorphic for that allele, but no adaptation occurred — the change was random. Drift can even fix slightly deleterious alleles in small populations. A student who agrees with the claim conflates \"evolution\" with \"adaptation by natural selection,\" ignoring that drift, mutation, and migration are non-adaptive forces. This is a critical JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a microcosm experiment using Drosophila to demonstrate that genetic drift causes greater allele frequency variance in small populations than in large ones. Specify: starting allele frequency, population sizes, number of replicates, generations, and how you would quantify drift.",
+     "a": "Start with a heterozygous population (p = q = 0.5) for a visible marker (e.g., sepia vs. wild-type eyes). Set up 20 replicate populations of N=10 and 20 replicates of N=100. Maintain discrete generations for 10 generations by random sampling of parents each generation. Measure allele frequency in each replicate at generation 10. Calculate variance of p across replicates for each size. Expect variance ≈ pq/2N per generation; cumulative variance after 10 gens ≈ 10×pq/2N. For N=10, variance ≈ 0.125; for N=100, variance ≈ 0.0125. A poor design (e.g., no replicates, or not controlling for selection) shows the student doesn't understand drift as a stochastic process requiring replication to observe its variance signature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

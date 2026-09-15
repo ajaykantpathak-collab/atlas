@@ -1,0 +1,612 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Natural Resources and Their Use",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees101.txt",
+ "concepts": [
+  {
+   "id": "c8ss.1.1",
+   "title": "Types of Natural Resources",
+   "section": "1.1",
+   "definition": "Natural resources are materials obtained from nature that satisfy human needs. They are classified as renewable (replenish naturally) and non-renewable (finite, cannot be replenished quickly).",
+   "formula": "",
+   "key_idea": "Resources are grouped by whether they naturally renew within a human timescale.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify a given resource as renewable or non-renewable",
+    "list examples of renewable and non-renewable resources",
+    "distinguish between renewable and non-renewable resources",
+    "explain why coal is a non-renewable resource",
+    "identify which resources are replenished naturally"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the resource",
+     "explain": "Note the name and origin of the resource."
+    },
+    {
+     "step": 2,
+     "action": "Check renewal timescale",
+     "explain": "Determine if the resource regenerates within a human lifespan."
+    },
+    {
+     "step": 3,
+     "action": "Classify",
+     "explain": "If renewable, mark renewable; otherwise mark non-renewable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify solar energy and petroleum as renewable or non-renewable.",
+     "solution": "Solar energy is replenished naturally by the Sun, so it is renewable. Petroleum takes millions of years to form, so it is non-renewable.",
+     "answer": "Solar energy = renewable; petroleum = non-renewable"
+    },
+    {
+     "question": "Is groundwater a renewable or non-renewable resource?",
+     "solution": "Groundwater is replenished by the water cycle, but overuse can deplete it faster than it recharges. In principle it is renewable.",
+     "answer": "Renewable (if used sustainably)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify coal, wind, and natural gas as renewable or non-renewable.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why a forest is considered a renewable resource only if managed properly.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.2",
+   "title": "Renewable Resources",
+   "section": "1.1",
+   "definition": "Renewable resources are those that can be replenished naturally over a short period of time, such as sunlight, wind, water, and biomass.",
+   "formula": "",
+   "key_idea": "Renewable resources flow continuously or regenerate within a human timescale when used sustainably.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list five examples of renewable resources",
+    "explain why solar energy is inexhaustible",
+    "compare flow resources with stock resources",
+    "determine if a given resource is continuously available",
+    "justify classification of wind as a renewable resource"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the definition of renewable resource",
+     "explain": "A renewable resource regenerates naturally within a short period."
+    },
+    {
+     "step": 2,
+     "action": "Examine the given resource",
+     "explain": "Check whether the resource is naturally replenished on a human timescale."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If it regenerates naturally in a short time, it is renewable; otherwise it is not."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is wind energy classified as a renewable resource?",
+     "solution": "Wind is caused by atmospheric processes driven by the Sun and is continuously available, so it regenerates naturally.",
+     "answer": "Wind is renewable because it is naturally and continuously replenished."
+    },
+    {
+     "question": "Explain another aspect of Renewable Resources.",
+     "solution": "Renewable resources flow continuously or regenerate within a human timescale when used sustainably.",
+     "answer": "Renewable resources flow continuously or regenerate within a human timescale whe"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why flowing water is a renewable resource.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List any five renewable resources used in daily life.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.3",
+   "title": "Non-Renewable Resources",
+   "section": "1.1",
+   "definition": "Non-renewable resources are those that exist in fixed quantities and cannot be replenished once used, such as coal, petroleum, and natural gas.",
+   "formula": "",
+   "key_idea": "Non-renewable resources form over geological time and are exhausted with use.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify a resource as non-renewable with reasons",
+    "explain why petroleum is non-renewable",
+    "list examples of non-renewable resources",
+    "compare renewable and non-renewable resources",
+    "justify why minerals are non-renewable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the definition of non-renewable resource",
+     "explain": "A non-renewable resource exists in limited stock and does not regenerate on a human timescale."
+    },
+    {
+     "step": 2,
+     "action": "Examine the resource",
+     "explain": "Check whether the resource forms over millions of years and is finite in quantity."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If it is finite and forms over geological time, it is non-renewable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is coal classified as a non-renewable resource?",
+     "solution": "Coal forms from buried plant matter over millions of years and exists in limited quantities, so it cannot be replenished quickly.",
+     "answer": "Coal is non-renewable because it forms over geological time and is finite."
+    },
+    {
+     "question": "Explain another aspect of Non-Renewable Resources.",
+     "solution": "Non-renewable resources form over geological time and are exhausted with use.",
+     "answer": "Non-renewable resources form over geological time and are exhausted with use."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why natural gas is a non-renewable resource.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three non-renewable resources and one use of each.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.4",
+   "title": "Forests and Their Conservation",
+   "section": "1.2",
+   "definition": "Forests are large areas covered chiefly with trees that provide timber, fuel, fodder, and maintain ecological balance. Conservation means using forests wisely and replanting to ensure their continued availability.",
+   "formula": "",
+   "key_idea": "Forests are renewable only if the rate of use does not exceed the rate of regeneration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the importance of forests",
+    "list methods of forest conservation",
+    "describe the effects of deforestation",
+    "justify why afforestation is necessary",
+    "compare conservation and preservation of forests"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the forest resource issue",
+     "explain": "Note whether the question concerns use, loss, or conservation of forests."
+    },
+    {
+     "step": 2,
+     "action": "Apply conservation principle",
+     "explain": "Use rate of use <= rate of regeneration to decide sustainability."
+    },
+    {
+     "step": 3,
+     "action": "Recommend action",
+     "explain": "Suggest afforestation, reduced felling, or protected areas as needed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A forest is being felled at 200 hectares per year but regenerates at 80 hectares per year. Is this sustainable?",
+     "solution": "Since 200 > 80, the rate of use exceeds regeneration, so it is not sustainable.",
+     "answer": "Not sustainable; afforestation and reduced felling are needed."
+    },
+    {
+     "question": "List three methods of forest conservation.",
+     "solution": "Afforestation, controlled grazing, and declaring protected areas conserve forests.",
+     "answer": "Afforestation, controlled grazing, protected areas"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain two harmful effects of deforestation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Suggest three measures to conserve forests in your region.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.5",
+   "title": "Water Resources",
+   "section": "1.3",
+   "definition": "Water resources include all forms of water available for human use -- surface water (rivers, lakes), groundwater, and rainwater. Fresh water is a small fraction of total water on Earth.",
+   "formula": "fresh_water_fraction = fresh_water / total_water",
+   "key_idea": "Only about 3% of Earth's water is fresh, and much of it is locked in ice; hence water must be conserved.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the percentage of fresh water on Earth",
+    "list sources of surface water",
+    "explain the need for water conservation",
+    "describe methods of rainwater harvesting",
+    "compare surface water and groundwater"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify water source",
+     "explain": "Note whether the question concerns surface, ground, or rain water."
+    },
+    {
+     "step": 2,
+     "action": "Compute fraction or quantity",
+     "explain": "Use fresh_water_fraction = fresh_water / total_water if computing a ratio.",
+     "compute": "fraction = fresh_water / total_water"
+    },
+    {
+     "step": 3,
+     "action": "Interpret result",
+     "explain": "State whether the resource is abundant or scarce and suggest conservation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If fresh water is about 3% of total water on Earth, express this as a fraction and a decimal.",
+     "solution": "3% = 3/100 = 0.03",
+     "answer": "3/100 or 0.03"
+    },
+    {
+     "question": "Of the 3% fresh water, about 2% is locked in ice. What fraction of total water is available as liquid fresh water?",
+     "solution": "Available fresh water = 3% - 2% = 1% = 0.01 of total water.",
+     "answer": "1% or 0.01"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three methods of rainwater harvesting.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why groundwater is a renewable resource only if recharged properly.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.6",
+   "title": "Mineral Resources",
+   "section": "1.4",
+   "definition": "Mineral resources are naturally occurring substances obtained from the Earth's crust, such as iron ore, copper, bauxite, and limestone. They are non-renewable and formed over millions of years.",
+   "formula": "",
+   "key_idea": "Minerals are finite and non-renewable, so they must be used judiciously and recycled where possible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify minerals as metallic or non-metallic",
+    "list uses of common minerals",
+    "explain why minerals are non-renewable",
+    "describe methods of mineral conservation",
+    "identify minerals used in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mineral",
+     "explain": "Note the mineral name and its type."
+    },
+    {
+     "step": 2,
+     "action": "Classify type",
+     "explain": "Determine if the mineral is metallic or non-metallic."
+    },
+    {
+     "step": 3,
+     "action": "State uses and conservation",
+     "explain": "List uses and suggest recycling or reduced use."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify iron ore, bauxite, and limestone as metallic or non-metallic.",
+     "solution": "Iron ore and bauxite yield metals (iron and aluminium), so they are metallic. Limestone does not yield a metal, so it is non-metallic.",
+     "answer": "Iron ore = metallic, bauxite = metallic, limestone = non-metallic"
+    },
+    {
+     "question": "List two uses of copper.",
+     "solution": "Copper is used in electrical wiring and in making alloys like brass.",
+     "answer": "Electrical wiring and alloys"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why mineral conservation is important.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three minerals and one use of each.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.7",
+   "title": "Land Resources and Soil",
+   "section": "1.5",
+   "definition": "Land resources include the soil and terrain used for agriculture, forestry, and settlement. Soil is the upper layer of land that supports plant growth and is formed slowly by weathering of rocks.",
+   "formula": "soil_formation_rate ~ 1 cm per 1000 years",
+   "key_idea": "Soil forms very slowly, so erosion must be controlled to keep land productive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list methods of soil conservation",
+    "explain causes of soil erosion",
+    "describe the importance of land resources",
+    "compare terrace farming and contour ploughing",
+    "justify why soil is a precious resource"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the land issue",
+     "explain": "Note whether the question concerns erosion, fertility, or conservation."
+    },
+    {
+     "step": 2,
+     "action": "Select conservation method",
+     "explain": "Match the method (terracing, contour ploughing, afforestation) to the issue."
+    },
+    {
+     "step": 3,
+     "action": "Estimate effect",
+     "explain": "State how the method reduces erosion or improves fertility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If soil forms at about 1 cm per 1000 years, how long does it take to form 5 cm of soil?",
+     "solution": "5 cm * 1000 years/cm = 5000 years.",
+     "answer": "5000 years"
+    },
+    {
+     "question": "List two methods to prevent soil erosion on slopes.",
+     "solution": "Terrace farming and contour ploughing reduce runoff and erosion on slopes.",
+     "answer": "Terrace farming and contour ploughing"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how deforestation leads to soil erosion.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three methods of soil conservation.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.8",
+   "title": "Conventional Energy Resources",
+   "section": "1.6",
+   "definition": "Conventional energy resources are traditional sources such as coal, petroleum, natural gas, and hydropower that have been used for a long time. Most are non-renewable except hydropower.",
+   "formula": "",
+   "key_idea": "Conventional sources are widely used but most are finite and polluting.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list conventional sources of energy",
+    "compare coal and petroleum as energy sources",
+    "explain disadvantages of conventional energy",
+    "classify an energy source as conventional or non-conventional",
+    "describe uses of coal and petroleum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the energy source",
+     "explain": "Note the source name."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "Determine if it is conventional (traditional, long-used) or non-conventional."
+    },
+    {
+     "step": 3,
+     "action": "State advantages and disadvantages",
+     "explain": "Note renewability and pollution level."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify coal, petroleum, and hydropower as renewable or non-renewable.",
+     "solution": "Coal and petroleum form over millions of years, so they are non-renewable. Hydropower relies on the water cycle, so it is renewable.",
+     "answer": "Coal = non-renewable, petroleum = non-renewable, hydropower = renewable"
+    },
+    {
+     "question": "List two disadvantages of using coal as an energy source.",
+     "solution": "Coal is non-renewable and burning it releases pollutants such as carbon dioxide and sulphur dioxide.",
+     "answer": "Non-renewable and polluting"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why conventional energy sources are being depleted.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three conventional energy sources and one use of each.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.9",
+   "title": "Non-Conventional Energy Resources",
+   "section": "1.6",
+   "definition": "Non-conventional energy resources are renewable and cleaner alternatives such as solar energy, wind energy, biogas, and tidal energy that have been developed more recently.",
+   "formula": "",
+   "key_idea": "Non-conventional sources are renewable and cause less pollution, making them sustainable long-term options.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list non-conventional sources of energy",
+    "explain advantages of solar energy",
+    "compare conventional and non-conventional energy",
+    "describe how biogas is produced",
+    "justify the need to shift to non-conventional energy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the definition of non-conventional energy",
+     "explain": "Non-conventional sources are renewable and cleaner alternatives developed in recent times."
+    },
+    {
+     "step": 2,
+     "action": "Examine the source",
+     "explain": "Check whether the source is renewable and causes low pollution."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If it is renewable and clean, it is a non-conventional energy source."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is solar energy considered a non-conventional energy source?",
+     "solution": "Solar energy is renewable, causes no pollution, and has been harnessed using modern technology in recent times.",
+     "answer": "Solar energy is renewable and clean, hence non-conventional."
+    },
+    {
+     "question": "Explain another aspect of Non-Conventional Energy Resources.",
+     "solution": "Non-conventional sources are renewable and cause less pollution, making them sustainable long-term options.",
+     "answer": "Non-conventional sources are renewable and cause less pollution, making them sus"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain two advantages of wind energy over coal.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List four non-conventional energy sources.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.1.10",
+   "title": "Sustainable Development and Conservation of Resources",
+   "section": "1.7",
+   "definition": "Sustainable development means using resources at a rate that meets present needs without compromising the ability of future generations to meet their needs. Conservation is the careful and planned use of resources to prevent depletion.",
+   "formula": "sustainable = use_rate <= regeneration_rate",
+   "key_idea": "Resources must be used so that they last for future generations; the three R's -- reduce, reuse, recycle -- guide conservation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "define sustainable development",
+    "explain the three R's of conservation",
+    "justify the need for resource conservation",
+    "describe how individuals can conserve resources",
+    "compare conservation and sustainable development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the resource and its use",
+     "explain": "Note the resource and how it is being used."
+    },
+    {
+     "step": 2,
+     "action": "Compare use and regeneration",
+     "explain": "Check if use_rate <= regeneration_rate."
+    },
+    {
+     "step": 3,
+     "action": "Recommend action",
+     "explain": "If not sustainable, suggest reduce, reuse, recycle or alternative resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A groundwater source is used at 150 units per year but recharges at 100 units per year. Is this use sustainable?",
+     "solution": "Since 150 > 100, use exceeds recharge, so it is not sustainable.",
+     "answer": "Not sustainable; reduce use to at most 100 units per year."
+    },
+    {
+     "question": "State the three R's of conservation and give one example of each.",
+     "solution": "Reduce (use less water), reuse (use shopping bags again), recycle (recycle paper into new paper).",
+     "answer": "Reduce, reuse, recycle"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why sustainable development is necessary for future generations.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three ways individuals can conserve water at home.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8ss.1.5.1",
+   "source_ref": "generated practice sample aligned to hees101.txt",
+   "concept": "c8ss.1.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the fraction step by step for a case with {fresh_water}, {total_water}.",
+   "extracted_variables": {
+    "fresh_water": "fresh water (given value)",
+    "total_water": "total water (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute fraction",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "fraction = fresh_water / total_water"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8ss.1.5.2",
+   "source_ref": "generated practice sample aligned to hees101.txt",
+   "concept": "c8ss.1.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the fraction step by step for a case with {fresh_water}, {total_water}.",
+   "extracted_variables": {
+    "fresh_water": "fresh water (given value)",
+    "total_water": "total water (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute fraction",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "fraction = fresh_water / total_water"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

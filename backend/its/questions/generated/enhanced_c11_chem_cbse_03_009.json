@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_009",
+   "title": "c11_chem_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the precise IUPAC definition of first electron gain enthalpy, including the physical states of all species and the standard conditions. Write the thermochemical equation for chlorine.",
+     "a": "First electron gain enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of gaseous atoms in their ground state to form one mole of gaseous anions at 298 K and 1 bar: Cl(g) + e⁻ → Cl⁻(g); ΔegH = -349 kJ mol⁻¹. A wrong answer omitting \"gaseous\" or \"ground state\" reveals confusion with electron affinity measured at 0 K or solution-phase processes; missing the \"per mole\" quantifier shows lack of thermodynamic rigor required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first electron gain enthalpy of fluorine (-328 kJ mol⁻¹) is less negative than that of chlorine (-349 kJ mol⁻¹) despite fluorine having higher effective nuclear charge and smaller atomic radius.",
+     "a": "Fluorine's 2p subshell is compact (n=2); adding an electron forces it into an already crowded orbital, causing large electron-electron repulsion that offsets the stronger nuclear attraction. Chlorine's 3p subshell (n=3) is more diffuse, so the added electron experiences less repulsion while still feeling significant effective nuclear charge. A student attributing the anomaly solely to \"small size\" without specifying orbital crowding and repulsion in the n=2 shell demonstrates incomplete understanding of quantum mechanical origin.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data: ΔegH(O) = -141 kJ mol⁻¹, ΔegH(S) = -200 kJ mol⁻¹, ΔegH(F) = -328 kJ mol⁻¹, ΔegH(Cl) = -349 kJ mol⁻¹. Predict the sign and relative magnitude of the second electron gain enthalpy for oxygen (O⁻ + e⁻ → O²⁻) and justify using electrostatic principles.",
+     "a": "Second electron gain enthalpy for oxygen is positive and large (+744 kJ mol⁻¹ approx). Adding an electron to an already negative anion (O⁻) requires overcoming strong electrostatic repulsion between the incoming electron and the excess negative charge. The first ΔegH is exothermic (negative); the second is endothermic (positive) because the anion-electron attraction is repulsive. A student predicting negative second ΔegH confuses it with first electron gain or ignores charge-charge repulsion in Coulomb's law.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trends in first ionisation enthalpy (ΔiH) and first electron gain enthalpy (ΔegH) across Period 2 (Li to Ne). Identify where the trends oppose each other and explain why using effective nuclear charge and orbital penetration arguments.",
+     "a": "Both generally increase (ΔiH more positive, ΔegH more negative) from Li to Ne due to rising Zeff. They oppose at B (ΔiH dips) and O (ΔegH less negative than N). B: removal of 2p¹ electron (higher energy, less penetration) vs Be 2s². O: added electron pairs in 2p⁴ causing repulsion vs N 2p³ half-filled stability. A student stating \"both increase uniformly\" misses the anomalies that prove orbital-specific effects dominate over simple Zeff trends.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Electron gain enthalpy and electronegativity are the same thing because both measure an atom's attraction for electrons.\" Evaluate this statement and provide two distinct differences with examples.",
+     "a": "The claim is false. Difference 1: ΔegH is a measurable thermodynamic quantity (kJ mol⁻¹) for an isolated gaseous atom gaining an electron; electronegativity (Pauling scale) is a dimensionless relative scale for an atom in a covalent bond. Difference 2: Noble gases have positive ΔegH (unfavourable) but are assigned electronegativity values (e.g., Xe = 2.6) because they form compounds. A student equating them conflates gas-phase thermodynamics with bonded-atom electron-pulling ability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using Born-Haber cycle concepts to estimate the lattice energy of NaCl if the electron gain enthalpy of chlorine were hypothetically +200 kJ mol⁻¹ (endothermic) instead of -349 kJ mol⁻¹. What does this reveal about the role of ΔegH in ionic bond formation?",
+     "a": "In the Born-Haber cycle for NaCl: ΔHf = ΔHsub(Na) + ΔiH(Na) + ½ΔHdiss(Cl₂) + ΔegH(Cl) + U(lattice). If ΔegH(Cl) = +200 kJ mol⁻¹, the cycle would require a much more exothermic lattice energy (U) to compensate and still yield the observed ΔHf(NaCl) = -411 kJ mol⁻¹. This reveals that highly negative ΔegH of halogens is essential for spontaneous ionic compound formation with alkali metals; without it, lattice energy alone might not offset the endothermic steps. A student unable to trace the cycle shows weak integration of thermodynamics and periodicity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

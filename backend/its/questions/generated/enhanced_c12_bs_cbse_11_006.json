@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_006",
+   "title": "c12_bs_cbse_11_006",
+   "questions": [
+    {
+     "q": "List any four factors that affect the pricing decision of a product.",
+     "a": "Correct factors include: product cost (fixed and variable), utility and demand (price elasticity), extent of competition, government and legal regulations, pricing objectives (profit maximisation, market share, survival), and marketing methods (distribution, promotion). A wrong answer that lists only internal factors like cost and profit margin reveals the student ignores external market forces such as competitor actions and consumer perception.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a firm cannot set prices based solely on cost-plus pricing in a highly competitive market.",
+     "a": "In a highly competitive market, prices are driven by market forces and competitors' pricing. Cost-plus pricing ignores demand elasticity and competitor reactions, which may lead to overpricing (losing price-sensitive customers) or underpricing (leaving profit on the table when demand is inelastic). A wrong answer claiming cost-plus is always safe reveals a misunderstanding of how competitive dynamics constrain pricing freedom.",
+     "self_check": true
+    },
+    {
+     "q": "A company manufacturing pens has a fixed cost of ₹2,00,000 and variable cost of ₹5 per pen. It expects to sell 50,000 pens. If it uses cost-plus pricing with a 20% markup on total cost per unit, calculate the selling price per pen.",
+     "a": "Step 1: Total variable cost = ₹5 × 50,000 = ₹2,50,000.  \nStep 2: Total cost = Fixed cost + Total variable cost = ₹2,00,000 + ₹2,50,000 = ₹4,50,000.  \nStep 3: Cost per unit = ₹4,50,000 ÷ 50,000 = ₹9.  \nStep 4: Markup = 20% of ₹9 = ₹1.80.  \nStep 5: Selling price = ₹9 + ₹1.80 = ₹10.80.  \nA wrong answer that calculates markup on variable cost only (₹5 × 1.20 = ₹6) reveals confusion between full cost and variable cost.",
+     "self_check": true
+    },
+    {
+     "q": "Compare penetration pricing and price skimming strategies in terms of objectives, market conditions, and product life cycle stage.",
+     "a": "Penetration pricing: low initial price to gain market share quickly; used when demand is elastic, competition is high or imminent, and product is in introduction stage. Price skimming: high initial price to maximise revenue from early adopters; used when demand is inelastic, product is innovative with few substitutes, and competition is low. A wrong answer that says skimming suits elastic demand reveals failure to distinguish the demand conditions each strategy requires.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The best pricing strategy for a new luxury car in India is penetration pricing.\"",
+     "a": "Penetration pricing is unsuitable for luxury cars because luxury buyers associate high price with exclusivity, status, and quality; a low price damages brand image and erodes the very appeal of luxury. Luxury cars face relatively inelastic demand among the target segment, so premium pricing or price skimming is more appropriate. A wrong answer that agrees without considering brand positioning reveals inability to evaluate strategy in context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pricing strategy for a new organic food brand entering a market dominated by established non-organic brands. Justify your choice of strategy and list three factors you considered.",
+     "a": "A strong answer would propose a premium/value-based pricing strategy (e.g., 20-30% above non-organic prices) because organic products command higher willingness-to-pay due to perceived health benefits. Factors: (1) Target segment's willingness to pay a premium, (2) Higher production and certification costs, (3) Competitors' prices for non-organic alternatives (reference point). A poor answer suggesting penetration pricing without justification shows inability to create a context-appropriate strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

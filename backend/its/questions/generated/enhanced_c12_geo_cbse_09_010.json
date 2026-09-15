@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_010",
+   "title": "c12_geo_cbse_09_010",
+   "questions": [
+    {
+     "q": "What are the three time-bound objectives of the National Population Policy (2000) in correct chronological order?",
+     "a": "Correct answer: Immediate objective (address unmet contraceptive needs, healthcare infrastructure, health personnel by 2000), Medium-term objective (reduce TFR to replacement level 2.1 by 2010), Long-term objective (achieve stable population by 2045). A wrong answer that reverses the order (e.g., stable population first) reveals the student misunderstands the policy's sequential logic — immediate health system strengthening must precede fertility decline, which must precede stabilization. Missing the 2010 TFR target date indicates confusion with later policies like NHP 2017.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why NPP 2000 shifted from the 'target-oriented approach' of the 1976 policy to a 'target-free approach' based on reproductive rights and informed choice.",
+     "a": "Correct answer: The 1976 policy's sterilization targets during Emergency led to coercion, human rights violations, and public backlash, damaging trust in family planning. NPP 2000 adopted a rights-based framework aligning with ICPD 1994 (Cairo), emphasizing voluntary choice, quality of care, and women's autonomy. A wrong answer citing only \"international pressure\" misses the domestic political trauma of forced sterilizations; an answer focusing only on \"women's rights\" ignores the operational failure of target-driven camps that inflated numbers without reducing fertility sustainably.",
+     "self_check": true
+    },
+    {
+     "q": "Using the formula for Total Fertility Rate (TFR = Σ age-specific fertility rates × 5), calculate the approximate TFR for a hypothetical state where age-specific fertility rates (per 1000 women) are: 15-19: 45, 20-24: 210, 25-29: 180, 30-34: 100, 35-39: 50, 40-44: 15, 45-49: 5. Is this state likely to have met NPP 2000's medium-term objective?",
+     "a": "Step 1: Convert rates per 1000 to per woman: divide each by 1000. Step 2: Sum the rates: (45+210+180+100+50+15+5)/1000 = 605/1000 = 0.605. Step 3: Multiply by 5 (width of age group): TFR = 0.605 × 5 = 3.025. Step 4: Compare to NPP 2000 target of 2.1 by 2010. Answer: TFR ≈ 3.03, well above replacement level. This state would NOT have met the medium-term objective. A wrong answer forgetting the ×5 factor yields 0.605, revealing confusion between crude birth rate and TFR calculation. A student using 7 age groups × 5 = 35 years reproductive span but missing that TFR sums 5-year intervals shows partial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kerala (TFR 1.6, 2011) and Bihar (TFR 3.4, 2011) — both implemented NPP 2000. Analyze why the same national policy produced divergent outcomes using three factors from c12_geo_cbse_09_003 (distribution factors) and c12_geo_cbse_09_006 (composition).",
+     "a": "Correct analysis: (1) Female literacy — Kerala 92% vs Bihar 51% (2011) directly affects contraceptive awareness and autonomy (c12_geo_cbse_09_006). (2) Age at marriage — Kerala mean 22+ years vs Bihar ~18 years reduces reproductive span (c12_geo_cbse_09_003 socio-economic factor). (3) Healthcare access — Kerala's decentralized PHC network (immediate objective met) vs Bihar's infrastructure gaps. A wrong answer citing only \"poverty\" or \"culture\" ignores the policy's own strategic pillars: NPP 2000 explicitly linked female education, delayed marriage, and health infrastructure to fertility decline. Missing the literacy-marriage-contraception pathway shows failure to connect composition (literacy, age structure) to policy mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"NPP 2000 failed because India's TFR reached 2.1 only in 2019-21 (NFHS-5), nine years after the 2010 target.\" Consider the policy's long-term objective and demographic momentum.",
+     "a": "Correct evaluation: The statement is partially true but incomplete. NPP 2000's medium-term target (TFR 2.1 by 2010) was missed nationally, but the policy's long-term objective (stable population by 2045) remains viable due to demographic momentum — even at replacement fertility, population grows for decades because of large youth cohorts (c12_geo_cbse_09_006 adolescent population 20.9%). The policy succeeded in establishing institutional architecture (NRHM 2005, ASHA workers, decentralized planning) that enabled later acceleration. A wrong answer calling it \"total failure\" ignores that 23 states/UTs achieved TFR ≤2.1 by 2015-16; a \"total success\" answer ignores the persistent high-TFR states (UP, Bihar, MP) where policy implementation gaps (vacant health posts, low female literacy) remain. Judgment must weigh structural legacy against timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level implementation checklist for NPP 2000's 'decentralized planning' strategy that a District Collector could use. Include 5 measurable indicators linking health infrastructure, gender equity, and community participation.",
+     "a": "Expected answer criteria: (1) % of PHCs with 24/7 delivery services and trained staff (immediate objective: infrastructure). (2) Contraceptive prevalence rate (CPR) by method mix — spacing vs limiting (informed choice). (3) Mean age at marriage for females (gender equity proxy). (4) % of Gram Panchayats with functional Village Health Sanitation & Nutrition Committees (community participation). (5) Female literacy rate 15-49 years (enabling factor). A poor answer lists only health inputs (doctors, beds) ignoring gender and community pillars — revealing a biomedical rather than socio-demographic understanding of NPP 2000's multi-sectoral design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

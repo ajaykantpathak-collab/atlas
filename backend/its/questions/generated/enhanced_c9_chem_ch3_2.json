@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_2",
+   "title": "c9_chem_ch3_2",
+   "questions": [
+    {
+     "q": "State the Law of Constant Proportions in your own words and give one example of a compound that follows this law with its specific mass ratio.",
+     "a": "Correct answer: The law states that a chemical compound always contains the same elements combined in the same fixed proportion by mass, irrespective of its source or method of preparation. Example: Water (H₂O) always contains hydrogen and oxygen in a 1:8 mass ratio (2g H : 16g O). A wrong answer reveals the student may confuse this law with the Law of Conservation of Mass (which deals with total mass before/after reaction) or think mixtures also have fixed ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student heats 10g of copper carbonate and obtains 6.4g of copper oxide. In a separate experiment, 10g of copper nitrate yields 6.4g of copper oxide. Explain why this result supports the Law of Constant Proportions, and identify what the student must check about the copper oxide samples to confirm the law.",
+     "a": "Correct answer: Both samples of copper oxide (CuO) were formed from different precursors but yield the same product. To confirm the law, the student must verify that the copper-to-oxygen mass ratio is identical in both CuO samples (it should be 63.5:16 ≈ 4:1). A wrong answer suggests the student thinks the law is about total mass of product being equal, rather than the internal element ratio being constant.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment, 2.0g of hydrogen combines completely with 16.0g of oxygen to form water. Using the Law of Constant Proportions, calculate the mass of oxygen required to combine completely with 5.0g of hydrogen. Show your working.",
+     "a": "Correct answer: Mass ratio H:O = 2:16 = 1:8. For 5.0g H, oxygen needed = 5.0 × 8 = 40.0g. Working: Step 1: Find ratio from given data (2g H : 16g O). Step 2: Simplify to 1g H : 8g O. Step 3: Multiply by 5.0g H → 40.0g O. A wrong answer (e.g., 18g or 32g) reveals the student may be using molar mass logic (18g/mol water) instead of direct proportion, or incorrectly setting up the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Two samples of a compound containing only carbon and oxygen are analysed. Sample A: 12.0g C, 32.0g O. Sample B: 6.0g C, 16.0g O. A third sample C contains 9.0g C and 20.0g O. Determine whether all three samples obey the Law of Constant Proportions. Justify your conclusion with calculations.",
+     "a": "Correct answer: Sample A ratio C:O = 12:32 = 3:8. Sample B ratio = 6:16 = 3:8. Sample C ratio = 9:20 = 0.45, which is not 3:8 (0.375). Samples A and B obey the law; Sample C does not — it is either a different compound (CO vs CO₂) or an impure mixture. A wrong answer indicates the student cannot reduce ratios to simplest form or thinks any carbon-oxygen compound must follow one fixed ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the Law of Constant Proportions says compounds have fixed composition, a mixture of iron filings and sulphur powder in a 7:4 mass ratio is also a compound because the ratio is fixed.\" Evaluate this claim and explain the error using the distinction between compounds and mixtures.",
+     "a": "Correct answer: The claim is false. In a mixture, the 7:4 ratio is arbitrarily chosen and can be changed (e.g., 3:2 or 1:1) without changing the identity of the components — they remain physically mixed iron and sulphur. In a compound (like FeS), the ratio is fixed by chemical bonding (56:32 = 7:4) and cannot be altered without forming a different substance. The error is confusing a deliberately fixed mixture ratio with a chemically determined fixed proportion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory investigation to verify the Law of Constant Proportions using magnesium and oxygen. List the materials, outline the procedure (3-4 steps), state what measurements you would take, and explain how you would use the data to confirm or refute the law.",
+     "a": "Correct answer: Materials: Magnesium ribbon, crucible with lid, tongs, balance, Bunsen burner. Procedure: (1) Measure mass of empty crucible+lid. (2) Add known mass of Mg ribbon, measure total mass. (3) Heat strongly with lid slightly ajar until Mg fully converts to white MgO ash. (4) Cool and measure final mass. Measurements: Initial Mg mass (by difference), final MgO mass, oxygen mass gained (final - initial). Calculate Mg:O mass ratio. Repeat with different initial Mg masses. If ratio is constant (~3:2), law is supported. A poor answer omits mass measurements, doesn't repeat with different amounts, or confuses the law with conservation of mass.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

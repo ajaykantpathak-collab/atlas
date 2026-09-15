@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_001",
+   "title": "c11_ps_cbse_14_001",
+   "questions": [
+    {
+     "q": "What is the primary constitutional basis for the existence of Parliament in India, and which article defines its composition?",
+     "a": "Article 79 establishes Parliament consisting of the President and two Houses (Lok Sabha and Rajya Sabha). A wrong answer (e.g., \"Article 326\" or \"the Prime Minister creates Parliament\") reveals confusion between the electoral basis (universal adult franchise) and the institutional constitutional foundation, or mixing up the executive's role with the legislature's constitutional origin.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't the Council of Ministers (executive) simply make laws through executive orders without Parliament, even if they have a majority in Lok Sabha?",
+     "a": "Because Article 107 requires every bill to pass both Houses (except Money Bills) and receive Presidential assent; executive orders (ordinances under Article 123) are temporary, require Parliament's approval within six weeks, and cannot amend the Constitution. A wrong answer (e.g., \"the executive can make laws if they have majority\") confuses political control with constitutional procedure, ignoring the deliberate design of legislative deliberation and bicameral checks.",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to implement a new agricultural marketing law. The Union government argues it falls under the Union List. Which legislative function and constitutional mechanism resolves this dispute, and which body ultimately decides?",
+     "a": "The legislative function is law-making within the federal distribution of powers (Seventh Schedule). The Supreme Court resolves disputes under its original jurisdiction (Article 131), interpreting whether the subject falls under Union, State, or Concurrent List. A wrong answer (e.g., \"the Prime Minister decides\" or \"the Election Commission decides\") shows misunderstanding of separation of powers and the judiciary's role in federal disputes, not the legislature's.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the representation logic of Lok Sabha (direct election, population-based) and Rajya Sabha (indirect election, state-based equality with population weight). How does this dual logic strengthen democratic legitimacy in a diverse federation like India?",
+     "a": "Lok Sabha embodies \"one person, one vote, one value\" — popular sovereignty. Rajya Sabha embodies federal equality — states as units. Together they ensure laws reflect both majority will and minority/state interests (e.g., GST Council requires both). A wrong answer (e.g., \"both represent people directly\" or \"Rajya Sabha is just a revising chamber\") misses the federal design principle: bicameralism balances demographic and territorial representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since the executive is drawn from the legislature and usually commands a majority, parliamentary oversight is a myth — the legislature cannot effectively control the executive.\" Use the concepts of Question Hour, No-Confidence Motion, and Committee System in your reasoning.",
+     "a": "While party discipline often limits overt opposition, oversight tools remain potent: Question Hour forces ministers to answer publicly; Committees (PAC, Estimates) scrutinize expenditure bipartisanly; No-Confidence Motion is the ultimate nuclear option. Historical examples: 1999 Vajpayee government fell by one vote; 2G spectrum scandal exposed by PAC. A wrong answer (e.g., \"oversight is useless because of majority\") ignores institutional design that creates accountability moments even within party systems.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a student council constitution explaining why the council (legislature) must have separate law-making power from the principal (executive), using the principles of representation, deliberation, and checks and balances.",
+     "a": "A strong answer will argue: (1) Rules made by elected student representatives reflect collective will, not one person's preference; (2) Deliberation in council meetings allows debate, amendment, and compromise — producing better policies; (3) Separation prevents arbitrary decisions (e.g., sudden fee hikes) and ensures the principal implements, not dictates, rules. A poor answer focuses only on \"fairness\" without constitutional reasoning or confuses the council's role with advisory-only function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

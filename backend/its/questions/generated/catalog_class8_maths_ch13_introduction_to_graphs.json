@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class8_maths_ch13_introduction_to_graphs.json",
+ "concepts": [
+  {
+   "id": "c8m13.1.1",
+   "title": "Line Graphs",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m13.1.2",
+   "title": "Reading Values from a Graph",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 7, 4 and 8. Find the total frequency.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 20 units. If a row shows 12 symbols, what value does it represent?",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 20 units, how many symbols represent 240 units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 20 books. A bar is 2 units tall. How many books does it show?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 60 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m13.2.1",
+   "title": "Independent and Dependent Variables",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 2 + 6 gives 12",
+     "compute": "val = 3 * 2 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 4x + 5 when x = 3.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 5x + 2x - 6x and give the coefficient of x.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 6 x (8 + 3) equals 6 x 8 + 6 x 3. Compute it.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8 + 2 x 7 (respect the order of operations).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 8) x 4.",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m13.2.2",
+   "title": "Drawing a Linear Graph",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 15 / 3 gives 5",
+     "compute": "t1 = 15 / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 15 : 24 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 560 is divided between two friends in the ratio 1 : 6. Find the smaller share.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Rs 360 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 2 : 8 = 4 : ?  (give the fourth term).",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 2 : 8 :: 4 : 16 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 30, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m13.2.3",
+   "title": "Using Graphs of Direct Variation (Quantity-Cost, Time-Distance)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 20 : 44 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 720 is divided between two friends in the ratio 2 : 7. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 4 : 3 = 16 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 4 : 3 :: 16 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 80, what will 15 notebooks cost at the same rate (direct proportion)?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

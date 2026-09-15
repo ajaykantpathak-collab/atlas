@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_12",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_12",
+   "title": "c8_math_ch4_12",
+   "questions": [
+    {
+     "q": "What is the sum of interior angles of any quadrilateral? State the value in degrees.",
+     "a": "360 degrees. A wrong answer (e.g., 180° or 540°) reveals the student is confusing the quadrilateral angle sum with the triangle angle sum (180°) or the pentagon sum (540°), indicating they have not internalised the \"two triangles\" reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sum of interior angles of a quadrilateral is 360° using the concept of triangles. Draw a rough diagram to support your explanation.",
+     "a": "Drawing a diagonal divides the quadrilateral into two triangles. Each triangle has an angle sum of 180°, so total = 180° + 180° = 360°. A wrong answer that just states \"it's a rule\" or \"measured it\" reveals the student lacks conceptual understanding of the derivation and cannot justify the property for irregular quadrilaterals.",
+     "self_check": true
+    },
+    {
+     "q": "In a quadrilateral ABCD, ∠A = 75°, ∠B = 110°, ∠C = 85°. Find ∠D.",
+     "a": "Step 1: Sum of all angles = 360°. Step 2: Sum of known angles = 75° + 110° + 85° = 270°. Step 3: ∠D = 360° − 270° = 90°. A wrong answer (e.g., 180° − 270° = −90° or 360° − 75° = 285°) reveals the student either uses the triangle sum (180°) instead of 360°, or subtracts only one angle instead of the sum of three.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has angles in the ratio 1:2:3:4. Find the measure of each angle. Then compare: which angle is a right angle? Which is obtuse?",
+     "a": "Let the angles be x, 2x, 3x, 4x. Sum = 10x = 360° → x = 36°. Angles: 36°, 72°, 108°, 144°. The 90° angle is not present; 108° and 144° are obtuse. A wrong ratio setup (e.g., 1+2+3+4=10 but using 180° instead of 360°) reveals the student cannot translate ratio problems into the angle sum equation, or misidentifies angle types.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says: \"In a concave quadrilateral, one interior angle is greater than 180°, so the angle sum must be more than 360°.\" Is Ravi correct? Justify your answer.",
+     "a": "Ravi is incorrect. The angle sum property (360°) holds for concave quadrilaterals too. The reflex interior angle (>180°) is balanced by the other three angles summing to less than 180°. The diagonal division proof still works if we consider the triangle formed by the diagonal and the two adjacent sides (the reflex angle is split into two parts by the diagonal). A student who agrees with Ravi misunderstands that the property is universal and does not depend on convexity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using an Indian context like a kite, a field, or a floor tile) that requires using the angle sum property of a quadrilateral to find a missing angle. Write the problem and solve it.",
+     "a": "Example: A farmer has a quadrilateral field. Three corners measure 80°, 100°, and 110°. What is the fourth angle? Solution: 360° − (80°+100°+110°) = 70°. A poor problem (e.g., using a triangle, or not providing three angles) reveals the student cannot distinguish quadrilaterals from other polygons or does not understand what information is needed to apply the property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

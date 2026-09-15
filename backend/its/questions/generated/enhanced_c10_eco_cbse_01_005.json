@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_005",
+   "title": "c10_eco_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define \"public facilities\" in the context of economic development and give two examples each of physical infrastructure and social infrastructure.",
+     "a": "Public facilities are essential services and infrastructure provided by the government for collective benefit, characterised by non-excludability and positive externalities. Physical infrastructure examples: roads, electricity grid, irrigation canals. Social infrastructure examples: government schools, public hospitals, anganwadi centres. A wrong answer (e.g., listing private hospitals or toll roads as public facilities) reveals the student confuses \"publicly accessible\" with \"publicly provided\" — they miss the government provision and non-excludability criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the government need to provide health and education facilities instead of leaving them entirely to private markets? Explain using the concept of positive externalities.",
+     "a": "Health and education generate positive externalities — when one person gets vaccinated or educated, society benefits through reduced disease spread and a more skilled workforce. Private markets only consider private benefits (e.g., individual's higher income), leading to under-consumption. Government provision corrects this market failure. A wrong answer (e.g., \"government provides because poor people can't afford it\") reveals the student confuses equity (fairness) with efficiency (market failure) — both matter, but the core economic rationale is the externality argument.",
+     "self_check": true
+    },
+    {
+     "q": "Study the data below for two Indian states (hypothetical but realistic) and answer: Which state has better human development outcomes despite lower per capita income? What does this imply about the role of public facilities?\n\n| Indicator | State A | State B |\n|-----------|---------|---------|\n| Per Capita Income (₹/year) | 1,20,000 | 95,000 |\n| Infant Mortality Rate (per 1000 live births) | 45 | 12 |\n| Literacy Rate (%) | 72 | 94 |\n| % Villages with PHC | 40 | 95 |\n| % Schools with Toilets | 55 | 98 |",
+     "a": "State B has better human development outcomes (lower IMR, higher literacy) despite lower per capita income. This implies public facilities (PHCs, school toilets) drive health/education outcomes more directly than income alone. Steps: (1) Compare income — State A is richer. (2) Compare health — State B's IMR (12) is far lower than State A's (45). (3) Compare education — State B's literacy (94%) far exceeds State A's (72%). (4) Link to infrastructure — State B has 95% PHC coverage vs 40%, 98% school toilets vs 55%. (5) Conclude: Public facility provision explains the divergence. A wrong answer (choosing State A) reveals the student equates development solely with income, ignoring the Chapter 1 core message.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which correctly explains the Kerala-Punjab development paradox. Justify your choice.\nStatement X: \"Kerala has higher per capita income than Punjab, so it has better health and education.\"\nStatement Y: \"Kerala has lower per capita income than Punjab but better health/education because of sustained public investment in schools and hospitals.\"",
+     "a": "Statement Y is correct. Kerala's per capita income has historically been lower than Punjab's, yet Kerala achieves near-universal literacy, lowest IMR, and highest life expectancy due to decades of public investment in education (e.g., free schooling, high teacher-pupil ratio) and health (e.g., PHC network, immunisation). Statement X is factually wrong on income and reverses causality. A wrong choice (X) reveals the student hasn't internalised the Kerala case study — they default to \"income determines everything\" despite repeated textbook evidence to the contrary.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this policy proposal: \"The government should stop funding government schools and instead give every family an education voucher of ₹10,000/year to spend at any private school.\" Assess from the perspective of (a) access for the poorest, (b) quality assurance, and (c) positive externalities.",
+     "a": "The proposal is flawed on all three counts. (a) Access: ₹10,000/year is insufficient for quality private schools (fees often ₹50,000+); poorest families cannot top up, leading to exclusion. (b) Quality: No regulation mechanism — vouchers could fund unrecognised schools with untrained teachers. (c) Externalities: Vouchers individualise education benefits, weakening the collective norm of universal schooling that drives social cohesion and intergenerational mobility. Government schools, despite flaws, remain the only guaranteed access point for the marginalised. A wrong answer (supporting vouchers uncritically) reveals the student applies market logic to a merit good without considering equity or externality dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a mini-case study (4-5 sentences) showing how lack of a specific public facility (choose one: electricity, sanitation, or public transport) in a rural Indian village creates a \"poverty trap\" that low household income alone cannot explain.",
+     "a": "Example (sanitation): In Village X, 80% households lack toilets. Girls drop out at puberty due to no school toilets. Women spend 2 hours daily fetching water, losing wage labour time. Frequent diarrhoea from open defecation raises medical costs (₹2,000/year/household) and reduces work days. Even if a family's income rises to ₹20,000/month, they cannot \"buy\" a sewer system individually — the trap persists until the gram panchayat builds a community toilet complex and drainage. A poor answer (e.g., \"they are poor so they can't build toilets\") reveals the student misses the collective action problem — sanitation is a public facility requiring coordinated government provision, not individual purchase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_002",
+   "title": "c7_math_ch09_002",
+   "questions": [
+    {
+     "q": "If $\\triangle PQR \\cong \\triangle XYZ$, which side corresponds to side $QR$?\nA) $XY$\nB) $YZ$\nC) $XZ$\nD) $YX$",
+     "a": "The correct answer is B) $YZ$. In a congruence statement like $\\triangle PQR \\cong \\triangle XYZ$, the order of the letters shows the exact correspondence of vertices: $P \\leftrightarrow X$, $Q \\leftrightarrow Y$, and $R \\leftrightarrow Z$. Therefore, side $QR$ (formed by the second and third letters) corresponds to side $YZ$ (also formed by the second and third letters). A student who chooses A ($XY$) has matched the first two letters incorrectly or assumed the order doesn't matter, failing to realize that vertex position dictates correspondence.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that if two triangles have all three pairs of corresponding angles equal, they are always congruent, so $\\triangle ABC \\cong \\triangle PQR$ just because their angles match. Is Rahul correct, and why?\nA) Yes, equal angles mean identical size and shape.\nB) No, triangles with equal angles can be different sizes (similar), just like a small photo and its enlarged copy.\nC) Yes, because angle sum is always 180 degrees.\nD) No, triangles can only be congruent if their perimeters are equal.",
+     "a": "The correct answer is B) No, triangles with equal angles can be different sizes (similar), just like a small photo and its enlarged copy. Congruence requires both identical shape AND identical size. A student who chooses A believes that shape alone determines congruence, confusing congruence with similarity and ignoring that side lengths can be scaled up or down while keeping angles identical.",
+     "self_check": true
+    },
+    {
+     "q": "In two congruent triangles, $\\triangle DEF \\cong \\triangle LMN$. If side $DE = 5\\text{ cm}$, angle $\\angle E = 60^\\circ$, and side $EF = 7\\text{ cm}$, what is the length of side $MN$ and the measure of angle $\\angle N$ if $LN = 5\\text{ cm}$ and $EM$ is not given? Find the length of $LM$.",
+     "a": "The correct answer is $LM = 5\\text{ cm}$ and angle $\\angle M = 60^\\circ$ (or dependent on the specific vertex matching). \nSteps:\n1. Identify the given congruence: $\\triangle DEF \\cong \\triangle LMN$.\n2. Match the corresponding sides using vertex order: $DE \\leftrightarrow LM$, $EF \\leftrightarrow MN$, and $DF \\leftrightarrow LN$.\n3. Since $DE = 5\\text{ cm}$ and $DE$ corresponds to $LM$, length $LM = 5\\text{ cm}$.\n4. Match corresponding angles: $\\angle D \\leftrightarrow \\angle L$, $\\angle E \\leftrightarrow \\angle M$, and $\\angle F \\leftrightarrow \\angle N$.\n5. Since $\\angle E = 60^\\circ$ and $\\angle E$ corresponds to $\\angle M$, angle $\\angle M = 60^\\circ$.\nA student who computes incorrect values usually scrambles the vertex order, matching $DE$ with $MN$ instead of $LM$, demonstrating a failure to map corresponding positions using letter sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why writing $\\triangle ABC \\cong \\triangle FED$ is incorrect when vertex $A$ corresponds to $D$, vertex $B$ corresponds to $E$, and vertex $C$ corresponds to $F$. What does the incorrect notation imply about the triangles?",
+     "a": "The correct answer is that vertex order must reflect exact point-to-point matching. Writing $\\triangle ABC \\cong \\triangle FED$ implies that $A$ matches $F$, $B$ matches $E$, and $C$ matches $D$, which contradicts the actual given pairing where $A$ matches $D$ and $C$ matches $F$. A student who thinks the letter order is arbitrary misses that geometric congruence statements are precise mappings where position defines relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if $\\triangle ABC \\cong \\triangle PQR$, then triangle $ACB$ is also congruent to triangle $PRQ$ under the same vertex correspondence. Evaluate this claim.",
+     "a": "The statement is false regarding the specific vertex-to-vertex correspondence notation. While the geometric shape remains the same, changing the letter order from $\\triangle ABC$ to $\\triangle ACB$ changes the sequence of vertices, meaning side $AC$ is now paired with $PR$ instead of $AB$ with $PQ$. A student who agrees with the claim does not understand that a congruence statement is a strict ordered sequence where swapping letters alters the specified vertex matching.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a scenario where two triangles are drawn on grid paper in different orientations (one rotated or flipped). Describe how you would prove they are congruent by identifying their corresponding vertices, sides, and angles.",
+     "a": "The expected answer should describe drawing a triangle on a grid, rotating or reflecting it to create a second triangle, and then listing coordinates or measuring side lengths and angles to show that all three pairs of sides and three pairs of angles match perfectly. A poor answer merely states \"they look the same\" without providing a systematic method for checking corresponding vertices and measurements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

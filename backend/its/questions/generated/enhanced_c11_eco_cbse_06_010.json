@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_010",
+   "title": "c11_eco_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the statutory guarantee provided by the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005, to every rural household whose adult members volunteer to do unskilled manual work?",
+     "a": "MGNREGA guarantees **100 days of wage employment per household per financial year** at the notified minimum wage. If work is not provided within 15 days of application, the state must pay an unemployment allowance (1/4 wage for first 30 days, 1/2 thereafter). A wrong answer (e.g., \"100 days per person\" or \"guaranteed job for life\") reveals confusion between *household* vs *individual* entitlement and confusion between *guaranteed wage employment* vs *permanent government job*.",
+     "self_check": true
+    },
+    {
+     "q": "MGNREGA is described as a \"demand-driven\" programme. Explain what this means operationally and why it is a critical design difference from earlier programmes like Jawahar Rozgar Yojana (JRY).",
+     "a": "\"Demand-driven\" means work is opened **only when workers apply** for it (via Gram Sabha/GP), and the administration *must* provide work within 15 days or pay unemployment allowance. Under JRY (supply-driven), the government decided *what* work to do and *where* based on budget allocation, often leading to \"work for the sake of work\" without local need. A wrong answer focusing only on \"people want work\" misses the **legal obligation on the state to provide work within a timeframe**, which is the enforcement mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "In a Gram Panchayat, 1,200 households demanded work under MGNREGA in 2023-24. 950 households were provided employment. The average days of employment per household was 42 days. The wage rate was ₹230/day. Calculate: (a) Total person-days generated, (b) Total wage expenditure, (c) Percentage of households that demanded work but were not provided employment.",
+     "a": "(a) Person-days = 950 households × 42 days = **39,900 person-days**.\n(b) Wage expenditure = 39,900 person-days × ₹230 = **₹91.77 lakh**.\n(c) Households not provided work = 1,200 - 950 = 250. Percentage = (250/1,200) × 100 = **20.83%**.\nA wrong answer using 1,200 households for (a) and (b) reveals confusion between *demand* (registration) and *actual employment provided*. Using 100 days instead of 42 reveals confusion between *entitlement ceiling* and *actual utilisation*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the asset creation focus of MGNREGA (water conservation, land development, rural connectivity) with the Prime Minister's Employment Generation Programme (PMEGP). How does the *type of asset* created differ in terms of ownership and economic multiplier?",
+     "a": "MGNREGA creates **community/public assets** (ponds, roads, check dams) owned by Gram Panchayat/Government → benefits are non-excludable, long-term productivity gains for the village (irrigation, transport). PMEGP creates **private micro-enterprise assets** (machinery, tools, shop) owned by individual entrepreneur → benefits are private, immediate income generation, higher risk of failure. A wrong answer stating both create \"assets for the poor\" misses the **public vs private good distinction** and the different multipliers: MGNREGA's multiplier works through land productivity and wage floor; PMEGP's through entrepreneurial profit and employment of others.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"MGNREGA has successfully raised rural wage rates but has increased the fiscal burden without proportionate increase in agricultural productivity.\" Use the concepts of wage floor, labour supply, and asset durability.",
+     "a": "**Valid points:** MGNREGA acts as a binding wage floor (W_mgnrega > W_market in lean season), raising reservation wages and bargaining power, evidenced by rising agricultural wages post-2006. Fiscal burden is real (₹60,000-₹1.1 lakh crore/year). **Counter-points:** Asset durability is questionable (many structures non-functional due to poor maintenance design), but studies show *water conservation assets* do raise land productivity and cropping intensity. The \"fiscal burden\" argument ignores the counterfactual: cost of distress migration, malnutrition, and social unrest. A one-sided answer (only burden or only benefit) fails to **weigh the wage floor benefit against asset quality and fiscal cost** using evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal urban employment guarantee scheme for a municipal corporation with 5 lakh urban poor households. Specify: (i) Guarantee days, (ii) Wage rate principle, (iii) Type of works (list 3), (iv) Funding ratio (Centre:State), (v) One key difference from MGNREGA necessitated by urban context.",
+     "a": "**Good answer criteria:** (i) 100 days/household (or 150 for vulnerability), (ii) Wage = State urban minimum wage (notified), (iii) Works: Solid waste management, urban afforestation/parks, stormwater drain cleaning/maintenance, (iv) Funding: 75:25 or 90:10 (Centre:State) — urban ULBs have weaker finances, (v) **Key difference:** Works must be on *public land/ULB assets* (no private land works like farm ponds); must include **skilled/semi-skilled** work (construction, services) not just unskilled manual; **registration** via digital portal + ward committees, not just Gram Sabha. A poor answer copies MGNREGA verbatim, ignoring **urban density, land tenure, skill diversity, and ULB capacity constraints**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

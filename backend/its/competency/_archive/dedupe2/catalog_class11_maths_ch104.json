@@ -1,0 +1,435 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Complex Numbers and Quadratic Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kemh104.txt",
+ "concepts": [
+  {
+   "id": "kemh.104.2.0",
+   "title": "Definition of Complex Numbers",
+   "section": "4.2",
+   "definition": "A mathematical expression combining a real quantity and an imaginary quantity involving the square root of negative one.",
+   "formula": "z = a + ib",
+   "key_idea": "Extension of the real number system to include solutions for negative square roots.",
+   "textbook_ref": "kemh104.txt lines 20-35",
+   "question_patterns": [
+    "identify the real and imaginary parts of",
+    "express the number in standard a + ib form",
+    "what is the imaginary part of the complex number",
+    "state the real component of",
+    "write the following as a complex number"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify components",
+     "explain": "The term without i is the real part, and the coefficient of i is the imaginary part."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.2.1",
+   "title": "Equality of Complex Numbers",
+   "section": "4.2",
+   "definition": "Two complex expressions are considered identical if and only if their respective real parts and imaginary parts are equal.",
+   "formula": "a + ib = c + id implies a = c and b = d",
+   "key_idea": "Comparing corresponding components to solve for unknowns.",
+   "textbook_ref": "kemh104.txt lines 36-44",
+   "question_patterns": [
+    "find the value of x given the equality",
+    "solve for the unknown real variable in the complex equation",
+    "equate the real components to find the unknown",
+    "calculate the missing coefficient from the identity",
+    "determine the value of the variable by comparing parts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate real parts",
+     "explain": "Set the real part of the left side equal to the real part of the right side.",
+     "compute": "x = real_target / real_coeff"
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.3.1",
+   "title": "Addition and Subtraction of Complex Numbers",
+   "section": "4.3.1",
+   "definition": "The process of combining two complex numbers by independently summing or subtracting their real and imaginary components.",
+   "formula": "(a + ib) + (c + id) = (a + c) + i(b + d)",
+   "key_idea": "Real parts combine with real parts; imaginary parts combine with imaginary parts.",
+   "textbook_ref": "kemh104.txt lines 45-70",
+   "question_patterns": [
+    "find the sum of two complex numbers",
+    "subtract one complex number from another",
+    "calculate the result of adding z1 and z2",
+    "simplify the sum of the given complex expressions",
+    "what is the difference between these complex numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group real parts",
+     "explain": "Collect all terms that do not contain i."
+    },
+    {
+     "step": 2,
+     "action": "Group imaginary parts",
+     "explain": "Collect all terms that are coefficients of i."
+    },
+    {
+     "step": 3,
+     "action": "Combine",
+     "explain": "Sum the real parts and the imaginary parts separately."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.3.3",
+   "title": "Multiplication of Complex Numbers",
+   "section": "4.3.3",
+   "definition": "The product of two complex numbers calculated using the distributive property and the identity i squared equals negative one.",
+   "formula": "(a + ib)(c + id) = (ac - bd) + i(ad + bc)",
+   "key_idea": "Expansion using FOIL method while replacing i**2 with -1.",
+   "textbook_ref": "kemh104.txt lines 75-95",
+   "question_patterns": [
+    "multiply the complex numbers",
+    "find the product of z1 and z2",
+    "expand the product of two complex expressions",
+    "calculate the result of multiplication in a + ib form",
+    "simplify the product of the given complex numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distribute terms",
+     "explain": "Multiply each part of the first number by each part of the second."
+    },
+    {
+     "step": 2,
+     "action": "Apply i squared identity",
+     "explain": "Replace any occurrence of i**2 with -1."
+    },
+    {
+     "step": 3,
+     "action": "Simplify",
+     "explain": "Combine the resulting real and imaginary terms."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.3.5",
+   "title": "Integral Powers of Iota",
+   "section": "4.3.5",
+   "definition": "The cyclic behavior of the imaginary unit i when raised to integer powers, repeating every four steps.",
+   "formula": "i**(4k) = 1, i**(4k+1) = i, i**(4k+2) = -1, i**(4k+3) = -i",
+   "key_idea": "Reducing large powers of i by finding the remainder when divided by 4.",
+   "textbook_ref": "kemh104.txt lines 125-145",
+   "question_patterns": [
+    "evaluate the power of i",
+    "simplify i raised to the power of",
+    "find the value of i to the power n",
+    "what is the simplified form of i**k",
+    "calculate the value of the imaginary unit power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find remainder",
+     "explain": "Divide the exponent by 4 and find the remainder."
+    },
+    {
+     "step": 2,
+     "action": "Map to base case",
+     "explain": "Use the remainder to determine if the result is 1, i, -1, or -i."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.3.6",
+   "title": "Square Roots of Negative Real Numbers",
+   "section": "4.3.6",
+   "definition": "The representation of square roots of negative values using the imaginary unit i.",
+   "formula": "sqrt(-a) = i * sqrt(a)",
+   "key_idea": "Extracting the negative sign as the imaginary unit i.",
+   "textbook_ref": "kemh104.txt lines 146-160",
+   "question_patterns": [
+    "find the square root of a negative number",
+    "express sqrt(-x) in terms of i",
+    "simplify the radical of a negative real",
+    "what is the imaginary representation of the square root",
+    "calculate the square root of -25"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Factor out -1",
+     "explain": "Write the negative number as -1 times the positive magnitude."
+    },
+    {
+     "step": 2,
+     "action": "Apply iota",
+     "explain": "Replace the square root of -1 with i."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.4.1",
+   "title": "Modulus of a Complex Number",
+   "section": "4.4",
+   "definition": "The non-negative real value representing the distance of a complex number from the origin in the Argand plane.",
+   "formula": "modulus = sqrt(a**2 + b**2)",
+   "key_idea": "Magnitude calculation using the Pythagorean theorem on real and imaginary parts.",
+   "textbook_ref": "kemh104.txt lines 165-175",
+   "question_patterns": [
+    "find the modulus of the complex number",
+    "calculate the magnitude of z",
+    "what is the absolute value of the complex number",
+    "determine the distance of the point from the origin",
+    "compute the modulus for a + ib"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the real part",
+     "explain": "Multiply the real component by itself.",
+     "compute": "a_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "Square the imaginary part",
+     "explain": "Multiply the imaginary component by itself.",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 3,
+     "action": "Sum the squares",
+     "explain": "Add the two squared values together.",
+     "compute": "sum_sq = a_sq + b_sq"
+    },
+    {
+     "step": 4,
+     "action": "Take square root",
+     "explain": "The modulus is the square root of the sum of squares.",
+     "compute": "result = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.4.2",
+   "title": "Conjugate of a Complex Number",
+   "section": "4.4",
+   "definition": "A complex number obtained by changing the sign of the imaginary part of the original number.",
+   "formula": "conjugate(a + ib) = a - ib",
+   "key_idea": "Reflection of the complex number across the real axis in the Argand plane.",
+   "textbook_ref": "kemh104.txt lines 168-180",
+   "question_patterns": [
+    "find the conjugate of the complex number",
+    "what is the reflection of z across the real axis",
+    "determine the conjugate of a - ib",
+    "write the conjugate for the given z",
+    "calculate the conjugate of the expression"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify imaginary sign",
+     "explain": "Locate the sign preceding the imaginary part."
+    },
+    {
+     "step": 2,
+     "action": "Reverse sign",
+     "explain": "Change positive to negative or negative to positive for the imaginary part only."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.4.3",
+   "title": "Multiplicative Inverse of a Complex Number",
+   "section": "4.3.3",
+   "definition": "The reciprocal of a non-zero complex number which, when multiplied by the original, results in one.",
+   "formula": "z_inv = conjugate(z) / (modulus(z)**2)",
+   "key_idea": "Using the conjugate and the square of the modulus to find the reciprocal.",
+   "textbook_ref": "kemh104.txt lines 96-105",
+   "question_patterns": [
+    "find the multiplicative inverse of",
+    "calculate the reciprocal of the complex number",
+    "determine z inverse for z =",
+    "what is the inverse of the given complex number",
+    "compute the multiplicative inverse in a + ib form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find conjugate",
+     "explain": "Calculate the conjugate of the given complex number."
+    },
+    {
+     "step": 2,
+     "action": "Calculate modulus squared",
+     "explain": "Find the sum of the squares of the real and imaginary parts."
+    },
+    {
+     "step": 3,
+     "action": "Divide",
+     "explain": "Divide each part of the conjugate by the squared modulus."
+    }
+   ]
+  },
+  {
+   "id": "kemh.104.5.1",
+   "title": "Argand Plane Representation",
+   "section": "4.5",
+   "definition": "A geometric plane where complex numbers are represented as points, with the x-axis as the real axis and the y-axis as the imaginary axis.",
+   "formula": "P(x, y) corresponds to x + iy",
+   "key_idea": "Mapping complex numbers to ordered pairs on a coordinate system.",
+   "textbook_ref": "kemh104.txt lines 215-235",
+   "question_patterns": [
+    "represent the complex number in the Argand plane",
+    "plot the point corresponding to z",
+    "what are the coordinates of z in the complex plane",
+    "identify the point P for the complex number",
+    "locate the complex number on the XY plane"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Extract real part",
+     "explain": "The real part a becomes the x-coordinate."
+    },
+    {
+     "step": 2,
+     "action": "Extract imaginary part",
+     "explain": "The imaginary part b becomes the y-coordinate."
+    },
+    {
+     "step": 3,
+     "action": "Plot point",
+     "explain": "Identify the point (a, b) on the Cartesian plane."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh104.txt lines 36-44",
+   "concept": "kemh.104.2.1",
+   "question_type": "compute",
+   "question_pattern": "If {coeff_x}x = {real_target}, find the value of x.",
+   "extracted_variables": {
+    "coeff_x": "coefficient of x",
+    "real_target": "target real value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide target by coefficient",
+     "explain": "Isolate x by dividing the real target by the coefficient of x.",
+     "compute": "x = real_target / coeff_x"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh104.txt lines 165-175",
+   "concept": "kemh.104.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the modulus of {a} + {b}i.",
+   "extracted_variables": {
+    "a": "real part",
+    "b": "imaginary part"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square real part",
+     "explain": "Square the real component.",
+     "compute": "a_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "Square imaginary part",
+     "explain": "Square the imaginary component.",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 3,
+     "action": "Sum and root",
+     "explain": "Add squares and take the square root.",
+     "compute": "result = sqrt(a_sq + b_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh104.txt lines 165-175",
+   "concept": "kemh.104.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the magnitude of {a} - {b}i.",
+   "extracted_variables": {
+    "a": "real part",
+    "b": "imaginary part magnitude"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square real part",
+     "explain": "Square the real component.",
+     "compute": "a_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "Square imaginary part",
+     "explain": "Square the imaginary component.",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 3,
+     "action": "Sum and root",
+     "explain": "Add squares and take the square root.",
+     "compute": "result = sqrt(a_sq + b_sq)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "4.1",
+   "source_ref": "kemh104.txt lines 195-210",
+   "questions": [
+    "(5i)(-3/5 i)",
+    "i**9 + i**19",
+    "i**-39",
+    "3(7 + i7) + i(7 + i7)",
+    "(1 - i) - (-1 + i6)",
+    "Find the multiplicative inverse of 4 - 3i",
+    "Find the multiplicative inverse of sqrt(5) + 3i",
+    "Find the multiplicative inverse of -i"
+   ]
+  },
+  {
+   "id": "misc_4",
+   "source_ref": "kemh104.txt lines 255-280",
+   "questions": [
+    "Evaluate [i**18 + (1/i)**25]**3",
+    "If x - iy = sqrt((a-ib)/(c-id)), prove that (x**2 + y**2)**2 = (a**2 + b**2)/(c**2 + d**2)",
+    "Find the modulus of (1+i)/(1-i) - (1-i)/(1+i)",
+    "Find the least positive integral value of m such that ((1+i)/(1-i))**m = 1"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

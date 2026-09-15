@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_002",
+   "title": "c11_biotech_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define the term \"transcription unit\" and list its three essential cis-acting DNA elements in the 5'→3' direction along the coding strand.",
+     "a": "A transcription unit is the stretch of DNA transcribed into a single RNA molecule. Its three essential elements in 5'→3' order on the coding strand are: (1) Promoter (upstream, contains -35/-10 or TATA box), (2) RNA-coding region (transcribed sequence), (3) Terminator (downstream, signals transcription stop). A wrong answer listing \"operator\" or \"enhancer\" as essential elements reveals confusion between basal transcription machinery (required for all transcription) and regulatory elements (modulate frequency). A wrong answer reversing the order (terminator before promoter) reveals failure to understand 5'→3' directionality of transcription.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In eukaryotes, RNA polymerase II binds directly to the TATA box to initiate transcription.\" Explain why this statement is incorrect and describe the actual sequence of events for pre-initiation complex formation.",
+     "a": "The statement is incorrect because eukaryotic RNA polymerase II cannot bind promoters directly - it requires general transcription factors (GTFs). The correct sequence: (1) TFIID (containing TBP) binds TATA box, (2) TFIIA and TFIIB bind, (3) TFIIF escorts Pol II to form the core complex, (4) TFIIE and TFIIH bind, (5) TFIIH helicase activity unwinds DNA at start site, (6) TFIIH kinase phosphorylates Pol II CTD, triggering promoter escape. A wrong answer stating \"Pol II binds TATA box\" reveals the prokaryotic misconception (sigma factor = direct binding) incorrectly transferred to eukaryotes. A wrong answer omitting CTD phosphorylation reveals missing the critical switch from initiation to elongation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the template strand sequence 3'-TACTCGGATCCG-5', write the complete mRNA sequence produced (include 5'/3' labels). Then calculate how many phosphodiester bonds are formed during synthesis of this transcript.",
+     "a": "Template: 3'-T A C T C G G A T C C G-5'\nmRNA: 5'-A U G A G C C U A G G C-3' (12 nucleotides)\nPhosphodiester bonds = n-1 = 11 bonds.\nSteps: (1) Identify template strand runs 3'→5', so mRNA synthesised 5'→3' complementary to template. (2) Apply base pairing: A→U, T→A, C→G, G→C. (3) First nucleotide (A) has 5' triphosphate, no phosphodiester bond at 5' end. (4) Each subsequent nucleotide adds one phosphodiester bond between its 5'α-phosphate and the 3'-OH of previous nucleotide. (5) 12 nucleotides → 11 bonds. A wrong answer giving 12 bonds reveals confusion between nucleotide count and bond count. A wrong answer writing mRNA 3'→5' reveals fundamental misunderstanding of polymerase directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare rho-dependent and rho-independent termination in prokaryotes. For each mechanism, specify: (a) the cis-acting DNA/RNA sequence feature, (b) the trans-acting protein factor (if any), and (c) the molecular trigger for polymerase release.",
+     "a": "Rho-independent: (a) GC-rich inverted repeat in DNA → hairpin in nascent RNA followed by poly-U tract (6-8 U), (b) none (rho protein not required), (c) hairpin formation in RNA-DNA hybrid destabilises the 8-9 bp hybrid; weak rU-dA bonds in poly-U tract allow RNA to dissociate. Rho-dependent: (a) rut site (rho utilisation site) - C-rich, G-poor, unstructured RNA region upstream of termination point, (b) Rho protein (hexameric ATPase/helicase), (c) Rho binds rut site, translocates 5'→3' along RNA using ATP hydrolysis, catches up to paused polymerase at termination site, unwinds RNA-DNA hybrid via helicase activity. A wrong answer swapping the triggers (e.g., saying rho unwinds hairpin) reveals failure to distinguish the two mechanistically distinct pathways. A wrong answer stating \"rho binds DNA\" reveals confusion - rho is an RNA-binding translocase.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a prokaryotic transcription system with rifampicin (binds β subunit of RNA polymerase, blocks elongation after 2-3 nucleotides). Predict the effect on: (a) initiation frequency, (b) transcript length distribution, (c) sigma factor release. Justify each prediction.",
+     "a": "(a) Initiation frequency: Unaffected or slightly increased. Rifampicin blocks elongation, not promoter binding or open complex formation. Polymerases accumulate at promoter, potentially increasing abortive initiation cycles. (b) Transcript length distribution: Sharp peak at 2-3 nucleotides (abortive transcripts). No full-length transcripts. (c) Sigma factor release: Delayed or prevented. Sigma release normally coincides with promoter escape (~10 nt synthesised). Since polymerase stalls at 2-3 nt, sigma remains bound, trapping polymerase in initiation mode. A wrong answer claiming \"initiation decreases\" reveals confusion between initiation and elongation steps. A wrong answer claiming \"sigma releases normally\" reveals misunderstanding that sigma release is coupled to promoter escape, not time.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal synthetic transcription unit for high-level expression of a toxic protein in E. coli that can be tightly induced. Specify: promoter type, operator placement, terminator choice, and one genetic element to prevent basal transcription. Explain how each choice contributes to tight regulation.",
+     "a": "Strong answer: (1) Promoter: T7 promoter (recognized only by T7 RNAP, not E. coli RNAP) - eliminates host basal transcription. (2) Operator: LacO placed between -10 and +1 of T7 promoter - allows LacI repression of T7 RNAP binding. (3) Terminator: Strong rho-independent terminator (e.g., T7Te or rrnB T1) - prevents read-through into vector backbone. (4) Anti-basal element: LacIq allele (high-copy lacI) on same plasmid - ensures excess repressor for tight LacO occupancy. Each choice addresses a specific leakage pathway: T7 promoter removes host polymerase recognition; LacO blocks T7 RNAP access; strong terminator prevents transcriptional read-through; LacIq ensures repressor saturation. A poor answer using native E. coli promoter (e.g., lacUV5) with just LacO reveals failure to understand that host RNAP still initiates at low frequency even with repressor bound. A poor answer omitting terminator choice reveals ignorance of transcriptional interference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

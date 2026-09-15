@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_03_001",
+   "title": "c12_ca_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the formula for Basic Pay Earned (BPE) in terms of Basic Pay (BP), Number of Effective Days Present (NOEDP), and Number of Days in Month (NODM)?",
+     "a": "BPE = BP × NOEDP / NODM. A wrong answer like BPE = BP × NODM / NOEDP or BPE = BP - (BP/NODM × LWP) reveals the student confuses the proportion of days worked with days lost, or misunderstands that BPE is a direct proportion of days present, not a deduction from full pay.",
+     "self_check": true
+    },
+    {
+     "q": "In the payroll spreadsheet, the DA rate for the month is stored in cell G4. When writing the formula for DA in column H for the first employee (row 12), why must the reference to G4 be written as $G$4 and not G4?",
+     "a": "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc., it still refers to the single DA rate cell. Using relative G4 would shift to G5, G6, etc., picking up wrong values (like HRA rates) and corrupting all subsequent DA calculations. A student who misses this confuses relative vs absolute addressing — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "An employee has Basic Pay ₹25,000, NODM = 30, LWP = 2 days, Unauthorised Absence = 1 day. DA rate = 35%, HRA rate = 30% (non-supervisory), TRA = ₹500, PF rate = 12%, TDS = ₹1,500, Loan = ₹2,000. Calculate Net Salary step by step.",
+     "a": "Step 1: NOEDP = 30 - 2 - 1 = 27. Step 2: BPE = 25000 × 27/30 = ₹22,500. Step 3: DA = 22500 × 35% = ₹7,875. Step 4: HRA = 22500 × 30% = ₹6,750. Step 5: TRA = ₹500. Step 6: TE = 22500 + 7875 + 6750 + 500 = ₹37,625. Step 7: PF = 22500 × 12% = ₹2,700. Step 8: TD = 2700 + 1500 + 2000 = ₹6,200. Step 9: NS = 37625 - 6200 = ₹31,425. A wrong answer often comes from using full BP (₹25,000) instead of BPE for DA/HRA/PF, or forgetting to subtract both LWP and unauthorised absence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the HRA calculation for a Supervisory employee (HRA = 40% of BPE) and a Non-supervisory employee (HRA = 30% of BPE) in the nested IF formula: =IF(C12=\"Sup\", G12*$G$5, IF(C12=\"Nsup\", G12*$G$6, 0)). What happens if an employee type is entered as \"sup\" (lowercase) instead of \"Sup\"?",
+     "a": "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails), and the false branch returns 0. The employee loses HRA entirely. This reveals the student doesn't understand exact string matching in spreadsheet logical functions — a common error in board practical exams where data entry inconsistencies break formulas.",
+     "self_check": true
+    },
+    {
+     "q": "The company decides to change the PF calculation base from BPE to (BPE + DA) as per a new rule. Evaluate the impact on the spreadsheet: which columns must change, and why is simply changing the PF formula in column N insufficient if the PF rate cell ($G$9) still says \"12% of BPE\"?",
+     "a": "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9. (2) Update the label/rate description in the parameter area (cell G9) to reflect \"12% of (BPE+DA)\" for documentation and audit trail. If only the formula changes but the parameter label remains \"12% of BPE\", future users/auditors will misinterpret the rate, causing compliance errors. This tests whether the student thinks beyond syntax to spreadsheet governance — a competency CBSE emphasizes in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a payroll template for a company with three employee types: \"Manager\" (HRA 50% of BPE, TRA ₹2000), \"Clerk\" (HRA 25% of BPE, TRA ₹800), \"Intern\" (HRA 0%, TRA ₹0). Write the nested IF formula for HRA in column I (assuming BPE in G12, HRA rates in $J$5, $J$6, $J$7) and for TRA in column J (TRA amounts in $K$5, $K$6, $K$7).",
+     "a": "HRA formula: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, IF(C12=\"Intern\", G12*$J$7, 0))) — but since Intern HRA is 0%, the last IF can be simplified to 0. Better: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, 0)). TRA formula: =IF(C12=\"Manager\", $K$5, IF(C12=\"Clerk\", $K$6, 0)). A poor answer uses separate IFs without nesting, or forgets absolute references, or hardcodes percentages instead of using parameter cells — showing inability to design scalable, maintainable templates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

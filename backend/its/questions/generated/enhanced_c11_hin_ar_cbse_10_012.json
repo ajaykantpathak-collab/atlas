@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_10_012",
+   "title": "c11_hin_ar_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal comprehension question has its answer directly stated in the text, while an inferential comprehension question requires the reader to draw a conclusion based on textual evidence and context. A wrong answer (e.g., \"literal questions are easy, inferential are hard\") reveals the student confuses difficulty with the source of the answer, missing the core distinction of explicit vs. implicit information.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, Kabir says: \"esjs rks fxjèkj xksiky] nwljks u dksbZ tk osQ flj eksj&eqoqQV] esjks ifr lksbZ\". If a question asks, \"Who does Kabir consider his family?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is a literal question because the poem explicitly lists Kabir's family as \"eksj&eqoqQV\" (the poor and the downtrodden) and \"ifr lksbZ\" (everyone is my friend). A wrong classification (e.g., inferential) suggests the student thinks any question about relationships requires interpretation, not realizing the text directly states the answer.",
+     "self_check": true
+    },
+    {
+     "q": "Given the line \"vc r csfy iSQfy x;h] vk.kan&iQy gks;h\", a question asks: \"What does the poet imply about the change in his social status?\" Demonstrate how to answer this inferential question using textual clues.",
+     "a": "Step 1: Identify the literal meaning – \"now the touch has become impure, it has become contaminated.\" Step 2: Note the contrast with earlier lines where Kabir associated with the lowly. Step 3: Infer that the poet is criticizing the caste-based pollution concept – his touch is now considered impure by orthodox society because he embraces the marginalized. Step 4: Support with the poem's theme of rejecting caste hierarchy. A wrong answer that only paraphrases the line without connecting to the social critique shows the student cannot move beyond literal translation to inference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two questions: (a) \"What does Kabir say about his birth?\" (b) \"Why does Kabir reject the label of a weaver (julaha)?\" Analyze the cognitive demand of each.",
+     "a": "Question (a) is literal – the poem states \"tUe % lu~ 1498] oqQM+dh xk¡o\". Question (b) is inferential – the poem never explicitly says \"I reject the label\"; instead, we infer rejection from his assertion of divine identity over caste identity (\"Ñ\".k dh mikfldk gksus osQ dkj.k mudh dfork esa lxq.k HkfDr eq[; :i ls ekStwn gS\"). A student who treats both as literal fails to see that (b) requires synthesizing multiple textual hints about Kabir's philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"Kabir rejects rituals because he was illiterate.\" The question was: \"Why does Kabir emphasize inner devotion over rituals?\" Justify your evaluation.",
+     "a": "The answer is poor because it introduces an external assumption (illiteracy) not supported by the text. The poem shows Kabir's rejection stems from his realization that rituals are hollow without true knowledge (\"Kku ls eqfDr feyrh gS\") and his direct experience of the Divine. A good evaluation would note that the student's answer ignores textual evidence (e.g., \"fojg dh osnuk gS vkSj feyu dk mYykl Hkh\") and substitutes a biographical stereotype. This reveals the student doesn't know inferences must be text-grounded.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the poem's last stanza (\"nfèk efFk ?k`r dkf<+ fy;ks] Mkfj n;h Nks;h...\") and provide a model answer with textual support.",
+     "a": "Question: \"What does the image of 'the deer caught in the trap' symbolize about the human condition in Kabir's view?\" Model answer: The deer represents the soul entangled in worldly illusions (Maya) and the trap is the cycle of birth-death; Kabir suggests only the Guru's grace (implied by \"Hkxr nsf[k jkth gq;h\") can free it. A poor answer would describe the literal deer without connecting to the poem's spiritual theme, showing the student cannot create inferential questions that target deeper meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

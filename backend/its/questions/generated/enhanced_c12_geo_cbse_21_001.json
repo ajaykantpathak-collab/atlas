@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_001",
+   "title": "c12_geo_cbse_21_001",
+   "questions": [
+    {
+     "q": "Define \"field survey\" in geography and state one fundamental way it differs from using topographical maps or satellite imagery as data sources.",
+     "a": "A field survey is the systematic collection of primary geographic data through direct observation, measurement, or inquiry in the actual study area. Unlike topographical maps or satellite imagery (which are secondary sources representing past, generalized, or remotely sensed conditions), field surveys capture current, ground-level, site-specific reality — including features too small, temporary, or subtle for remote sensors (e.g., household water sources, soil moisture, informal settlements). A wrong answer that equates field surveys with \"map reading\" reveals confusion between secondary data interpretation and primary data generation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a field survey necessary even when high-resolution satellite imagery and detailed census data are available for a study area? Give two distinct reasons with geographic examples.",
+     "a": "1. **Temporal currency**: Satellite imagery may be months/years old; census data is decadal. Field surveys capture *current* conditions — e.g., a new slum cluster, recent flood damage, or crop pattern change this season. 2. **Attribute depth**: Remote sensors detect physical form (roof type, vegetation index) but not socio-economic attributes (income, migration status, water quality perception). A household survey in a village reveals *why* farmers shifted crops — imagery only shows *what* changed. A wrong answer focusing only on \"accuracy\" misses the critical distinction between *physical detection* and *human/process understanding*.",
+     "self_check": true
+    },
+    {
+     "q": "A student plans to study \"groundwater depletion in a semi-arid block of Rajasthan.\" They have: (a) 10-year rainfall data from IMD, (b) GRACE satellite groundwater anomaly maps, (c) village-level census data on wells. List **three specific field survey tasks** they must still do, and explain *why* each cannot be replaced by the existing datasets.",
+     "a": "1. **Measure actual water table depth in 30+ wells using a tape/sonar** — GRACE gives coarse (~300 km) regional anomalies, not well-level data. 2. **Interview farmers on irrigation practices, pump types, and crop water use** — Census gives well counts, not extraction rates or farmer decisions. 3. **Test water quality (TDS, fluoride) at drinking water sources** — Neither rainfall nor GRACE nor census captures chemical suitability. Each task addresses a *process* or *human dimension* invisible to secondary data. A wrong answer listing \"take photos\" or \"record GPS points\" without linking to unresolvable data gaps shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of field surveys in **physical geography** (e.g., soil erosion assessment) vs. **human geography** (e.g., rural livelihood study). How do the *observation targets*, *instruments*, and *validation needs* differ? Use a table or structured comparison.",
+     "a": "| Aspect | Physical Geography (Soil Erosion) | Human Geography (Rural Livelihood) |\n|--------|-----------------------------------|-------------------------------------|\n| **Observation Target** | Rill/gully dimensions, sediment load, slope gradient, vegetation cover | Household income sources, migration history, asset ownership, market access |\n| **Instruments** | Measuring tape, clinometer, runoff plot, sediment sampler, penetrometer | Questionnaire, interview guide, focus group checklist, GPS for asset mapping |\n| **Validation Need** | Cross-check with historical aerial photos, USLE model predictions | Triangulate with Panchayat records, NGO reports, direct observation of assets |\n| **Key Challenge** | Accessing steep/remote terrain; temporal variability (post-storm) | Respondent bias, recall error, sensitivity of income/caste data |\n\nA wrong answer that uses the same instruments (e.g., \"questionnaire for both\") or ignores validation reveals failure to distinguish *biophysical measurement* from *socio-economic inquiry*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"With advances in drones, LiDAR, and real-time satellite data, field surveys are becoming obsolete for geographic research.\" Argue for or against using three evidence-based points from Indian geographic contexts.",
+     "a": "**Against — field surveys remain irreplaceable because:**\n1. **Sub-surface/under-canopy invisibility**: LiDAR penetrates canopy but not soil; drones cannot measure groundwater salinity in Punjab's cotton belt or aquifer recharge in Maharashtra's basalt — only borewell logging and farmer interviews can.\n2. **Human agency & perception**: Satellite sees *land use change* (forest to farm) but not *why* (tribal displacement, policy incentivization, market forces) — e.g., shifting cultivation in Northeast India requires participatory mapping with communities.\n3. **Ground-truthing for calibration**: Every remote sensing classification (e.g., Bhuvan's land cover maps) *requires* field verification points (training/validation samples) — without them, AI models hallucinate. A wrong answer agreeing with the statement confuses *data volume* with *explanatory depth*; technology extends but never replaces the geographer's boots on the ground.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **one-day field survey plan** to investigate \"Impact of a new highway bypass on agricultural land use and farmer livelihoods in a peri-urban village near Bengaluru.\" Specify: (a) 3 hypotheses to test, (b) 2 primary data methods with justification, (c) 1 secondary data source to integrate, (d) 1 ethical precaution.",
+     "a": "**Good answer includes:**\n(a) Hypotheses: (1) Land conversion from agriculture to non-farm uses is higher within 2 km of bypass. (2) Smallholders (<2 ha) are more likely to sell land than large farmers. (3) Non-farm income share has increased for households near bypass.\n(b) Methods: (1) **Structured questionnaire** (stratified random sample by landholding size) — quantifies land sale, income shift, crop change. (2) **Transect walk with GPS mapping** of current land use along perpendicular transects — validates satellite classification, captures informal changes (warehouses, brick kilns).\n(c) Secondary data: **Bhuvan land use layers (2015 vs 2023)** or **village land records (Pahani/RTC)** for ownership change.\n(d) Ethical precaution: **Informed consent in local language (Kannada), anonymize landholding data, share findings with Gram Panchayat.**\nA poor answer uses only one method, ignores stratification, or omits ethics — showing lack of survey design rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

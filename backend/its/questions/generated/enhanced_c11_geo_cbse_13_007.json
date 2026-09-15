@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_007",
+   "title": "c11_geo_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define \"physical water scarcity\" and \"economic water scarcity\" and give one Indian basin example for each.",
+     "a": "Physical water scarcity: demand exceeds renewable freshwater resources due to arid climate or low runoff (e.g., Indus basin — per capita availability ~1,400 m³/year). Economic water scarcity: renewable resources exist but lack of infrastructure/investment prevents access (e.g., parts of Brahmaputra basin in Northeast — high runoff but low storage, per capita availability >10,000 m³/year yet seasonal shortages). A wrong answer that swaps the examples reveals confusion between hydrological endowment and institutional capacity; a student giving only rainfall-based definitions misses the human-dimension central to Class 11 analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Cauvery water dispute persists despite the 2007 Tribunal final award and the 2018 Supreme Court judgment.",
+     "a": "The dispute persists because: (a) the tribunal allocated water based on 50% dependability (normal year) but did not mandate a distress-sharing formula for deficit years; (b) Karnataka’s upper-riparian position gives it physical control over reservoir releases, enabling non-compliance during droughts; (c) both states expanded irrigated area (especially water-intensive paddy/sugarcane) beyond the allocated quantum, increasing demand beyond the award’s assumptions; (d) political mobilisation around \"water as identity\" prevents compromise. A wrong answer focusing only on \"Karnataka not releasing water\" misses the structural drivers: institutional rigidity, demand-side mismanagement, and federal asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Using the Falkenmark Water Stress Indicator, classify the water scarcity status of the following basins given their annual renewable freshwater (km³) and population (millions): (A) Sabarmati: 3.8 km³, 25M; (B) Mahanadi: 66.9 km³, 30M; (C) Pennar: 6.3 km³, 15M. Show calculations.",
+     "a": "Falkenmark: Per capita availability = (Annual renewable freshwater × 10⁹ m³/km³) / (Population × 10⁶).\nThresholds: >1700 m³ = no stress; 1000–1700 = stress; 500–1000 = scarcity; <500 = absolute scarcity.\n(A) Sabarmati: (3.8×10⁹)/(25×10⁶) = 152 m³/capita/year → **Absolute scarcity**.\n(B) Mahanadi: (66.9×10⁹)/(30×10⁶) = 2,230 m³/capita/year → **No stress**.\n(C) Pennar: (6.3×10⁹)/(15×10⁶) = 420 m³/capita/year → **Scarcity**.\nA wrong calculation (e.g., forgetting unit conversion) or misclassification reveals inability to apply quantitative geography — a core Class 11 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional position of water in the Indian federal system with the mechanism for resolving inter-state disputes. Why does this create a \"structural conflict\"?",
+     "a": "Water is a State subject (Entry 17, List II) — states legislate on water supply, irrigation, drainage. Inter-state rivers fall under Union legislation (Entry 56, List I) and Article 262 empowers Parliament to adjudicate disputes, excluding Supreme Court jurisdiction (until 2018 judicial review). Structural conflict: States have exclusive executive control over water *use* but no authority over *allocation* from shared basins; the Centre has legislative power but no executive machinery for implementation. Tribunals (under ISRWD Act 1956) are ad hoc, slow (decades), and their awards are not self-executing — requiring Centre’s Gazette notification and state compliance. A wrong answer stating \"water is a Central subject\" or \"Supreme Court directly decides\" shows fundamental misunderstanding of federal design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Inter-State River Water Disputes (Amendment) Act, 2019 in addressing the delays and enforceability issues of the original 1956 Act.",
+     "a": "The 2019 Amendment introduces: (a) a single permanent tribunal with multiple benches (replacing ad hoc tribunals), (b) strict timelines (3 years + 1 year extension), (c) a Dispute Resolution Committee (DRC) for pre-tribunal negotiation, (d) automatic notification of award (no Gazette delay), (e) data-sharing mandate. Effectiveness: Positives — reduces institutional vacuum, speeds process. Limitations: (i) DRC is non-binding; states may use it for delay; (ii) Tribunal still lacks enforcement teeth — relies on Centre/state cooperation; (iii) Does not address root cause: demand-side management (cropping patterns, groundwater over-extraction); (iv) No provision for climate-change-adjusted allocations. A purely descriptive answer listing features without critical assessment of enforceability gaps fails the \"evaluate\" command.",
+     "self_check": true
+    },
+    {
+     "q": "Design a demand-management framework for the Krishna basin that reduces inter-state conflict between Maharashtra, Karnataka, and Telangana/Andhra Pradesh. Your framework must integrate: (i) crop diversification, (ii) groundwater-surface water conjunctive use, (iii) institutional coordination.",
+     "a": "A strong framework includes:\n1. **Crop diversification**: Shift 30% of paddy/sugarcane area (high water footprint) to millets/pulses/oilseeds in upper (Maharashtra/Karnataka) and lower (Telangana/AP) reaches — incentivised by MSP/procurement reform.\n2. **Conjunctive use**: Mandate aquifer mapping; regulate groundwater extraction in command areas via community-managed borewell sharing; use canal water for recharge during monsoon.\n3. **Institutional**: Establish a permanent Krishna Basin Authority (statutory, not ad hoc) with representatives from all three states + Centre + technical experts; real-time reservoir data sharing; distress-sharing formula embedded in allocation.\n4. **Monitoring**: Satellite-based evapotranspiration tracking (e.g., OpenET) for transparent water accounting.\nA poor answer lists generic \"water conservation\" without basin-specific hydrology, cropping data, or federal coordination mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

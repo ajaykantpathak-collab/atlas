@@ -1,0 +1,228 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 206,
+ "chapter_title": "Constructions and Tilings",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp206.txt",
+ "concepts": [
+  {
+   "id": "gegp.6.1.1",
+   "title": "Perpendicular Bisector Construction",
+   "section": "6.1",
+   "definition": "A line that divides a segment into two equal halves while meeting it at a right angle.",
+   "formula": "none",
+   "key_idea": "Any point equidistant from the segment endpoints lies on the perpendicular bisector.",
+   "textbook_ref": "gegp206.txt lines 137-140",
+   "question_patterns": [
+    "construct the perpendicular bisector of a line segment",
+    "how to draw a perpendicular bisector using a compass",
+    "find the midpoint of a line segment geometrically",
+    "justify why the intersection of arcs forms a perpendicular bisector",
+    "explain perpendicular bisector construction with an example",
+    "short note on perpendicular bisector construction",
+    "why is perpendicular bisector construction important",
+    "give one everyday example of perpendicular bisector construction",
+    "describe perpendicular bisector construction in your own words",
+    "what do you understand by perpendicular bisector construction",
+    "list the main points about perpendicular bisector construction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw arcs",
+     "explain": "Draw arcs of equal radius from both endpoints X and Y above and below the line."
+    },
+    {
+     "step": 2,
+     "action": "Connect intersections",
+     "explain": "The line joining the two intersection points is the perpendicular bisector."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.1.2",
+   "title": "Angle Bisection",
+   "section": "6.1",
+   "definition": "Dividing an angle into two equal smaller angles using a compass and ruler.",
+   "formula": "bisected_angle = original_angle / 2",
+   "key_idea": "Constructing congruent triangles ensures the line through the vertex and arc intersection bisects the angle.",
+   "textbook_ref": "gegp206.txt lines 143-144",
+   "question_patterns": [
+    "bisect a given angle",
+    "construct a 45 degree angle",
+    "how to divide an angle into two equal parts",
+    "calculate the angle after bisection",
+    "explain angle bisection with an example",
+    "short note on angle bisection",
+    "why is angle bisection important",
+    "give one everyday example of angle bisection",
+    "describe angle bisection in your own words",
+    "what do you understand by angle bisection",
+    "list the main points about angle bisection"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Mark equidistant points",
+     "explain": "Mark points A and B on the arms such that OA = OB."
+    },
+    {
+     "step": 2,
+     "action": "Find intersection",
+     "explain": "Draw arcs from A and B with the same radius to find intersection C."
+    },
+    {
+     "step": 3,
+     "action": "Calculate result",
+     "explain": "The line OC bisects the angle.",
+     "compute": "result = angle / 2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.1.3",
+   "title": "Angle Copying",
+   "section": "6.1",
+   "definition": "Replicating an existing angle at a different location using congruence properties.",
+   "formula": "none",
+   "key_idea": "Constructing an identical triangle (SSS congruence) at the new vertex copies the angle.",
+   "textbook_ref": "gegp206.txt lines 145-146",
+   "question_patterns": [
+    "copy a given angle",
+    "replicate an angle without measuring",
+    "construct an angle equal to another",
+    "use compass to transfer an angle",
+    "explain angle copying with an example",
+    "short note on angle copying",
+    "why is angle copying important",
+    "give one everyday example of angle copying",
+    "describe angle copying in your own words",
+    "what do you understand by angle copying",
+    "list the main points about angle copying"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw arc",
+     "explain": "Draw an arc from the original vertex to define two points on the arms."
+    },
+    {
+     "step": 2,
+     "action": "Transfer arc",
+     "explain": "Draw an identical arc from the new vertex."
+    },
+    {
+     "step": 3,
+     "action": "Transfer chord",
+     "explain": "Measure the distance between the two points on the original arc and transfer it to the new arc."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.1.4",
+   "title": "Tiling Feasibility",
+   "section": "6.2",
+   "definition": "Determining if a region can be perfectly covered by specific shapes without gaps or overlaps.",
+   "formula": "total_area = tiles * tile_area",
+   "key_idea": "A region is tileable if its properties (like parity or color count) match the tiling unit.",
+   "textbook_ref": "gegp206.txt lines 157-160",
+   "question_patterns": [
+    "is the grid tileable with 2x1 tiles",
+    "determine if a region can be covered",
+    "calculate if tiling is possible",
+    "why is this region not tileable",
+    "explain tiling feasibility with an example",
+    "short note on tiling feasibility",
+    "why is tiling feasibility important",
+    "give one everyday example of tiling feasibility",
+    "describe tiling feasibility in your own words",
+    "what do you understand by tiling feasibility",
+    "list the main points about tiling feasibility"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count squares",
+     "explain": "Count total squares in the grid and squares covered by one tile.",
+     "compute": "total = rows * cols"
+    },
+    {
+     "step": 2,
+     "action": "Check parity",
+     "explain": "Check if total squares is divisible by tile area.",
+     "compute": "remainder = total % 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp206.txt line 157",
+   "concept": "gegp.6.1.4",
+   "question_type": "compute",
+   "question_pattern": "Can a {rows} x {cols} grid be tiled with 2x1 tiles?",
+   "extracted_variables": {
+    "rows": "number of rows in the grid",
+    "cols": "number of columns in the grid"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total area",
+     "compute": "total = rows * cols"
+    },
+    {
+     "step": 2,
+     "action": "Check divisibility",
+     "compute": "is_tileable = total % 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp206.txt lines 143-144",
+   "concept": "gegp.6.1.2",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {angle} = 6, compute the angle bisection step by step.",
+   "extracted_variables": {
+    "angle": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Mark equidistant points",
+     "explain": "Mark points A and B on the arms such that OA = OB."
+    },
+    {
+     "step": 2,
+     "action": "Find intersection",
+     "explain": "Draw arcs from A and B with the same radius to find intersection C."
+    },
+    {
+     "step": 3,
+     "action": "Calculate result",
+     "explain": "The line OC bisects the angle.",
+     "compute": "result = angle / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "gegp206.txt line 140",
+   "questions": [
+    "Is it necessary to use the same radius for arcs above and below the line?",
+    "Can you construct a 90 degree angle at a point on a line using a rope?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

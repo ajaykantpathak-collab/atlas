@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_010",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_010",
+   "title": "c6_chemistry_ch04_010",
+   "questions": [
+    {
+     "q": "What are the two requirements for something to be classified as \"matter\"?",
+     "a": "To be matter, an object must occupy space (have volume) and possess mass. Answering only one of these suggests the student is confusing \"matter\" with just \"weight\" or just \"size,\" missing the complete scientific definition.",
+     "self_check": true
+    },
+    {
+     "q": "If you can see through a glass window clearly, but you cannot see through a wooden door, how would you classify these two materials?",
+     "a": "The glass is transparent, and the wood is opaque. A wrong answer here indicates the student has not grasped the interaction between light and material surfaces, which is the core of this property.",
+     "self_check": true
+    },
+    {
+     "q": "You have a sugar cube and a pebble. You place both in separate glasses of water and stir. What happens, and what property does this demonstrate?",
+     "a": "The sugar dissolves (soluble), while the pebble remains unchanged (insoluble). This demonstrates the property of solubility, showing that not all materials behave the same way in a solvent like water.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a gold ring and a piece of coal. Why might we classify them differently based on appearance?",
+     "a": "The gold ring is lustrous (shiny), while the coal is non-lustrous (dull). This shows the student understands the difference between metallic surfaces and non-metallic surfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend says that a large balloon filled with air is not matter because it is \"light.\" How would you correct them?",
+     "a": "You would explain that even though air feels light, it occupies space inside the balloon (volume) and has mass, therefore it is definitely matter. A wrong answer here reveals a misconception that \"matter\" must be heavy or solid.",
+     "self_check": true
+    },
+    {
+     "q": "If you were asked to design a new type of umbrella, what properties would you look for in a material?",
+     "a": "The material must be opaque, insoluble in water, and likely flexible. A poor answer would ignore the function (e.g., choosing a material that dissolves in water) and fail to connect property to purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

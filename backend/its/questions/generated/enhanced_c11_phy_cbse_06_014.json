@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_014",
+   "title": "c11_phy_cbse_06_014",
+   "questions": [
+    {
+     "q": "State the condition for pure rolling without slipping for a cylinder of radius R rolling on a horizontal surface. Give the total kinetic energy formula in terms of v_cm and I_cm.",
+     "a": "Condition: v_cm = ωR (centre of mass speed equals angular speed times radius). Total KE = ½mv_cm² + ½I_cmω² = ½mv_cm²(1 + I_cm/mR²). A wrong answer like v_cm = ω (missing R) reveals confusion between linear and angular speed dimensions. Writing KE = ½mv² + ½Iv²/R² without the factor ½ on the second term shows failure to substitute ω = v/R correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A solid sphere and a hollow sphere of same mass and radius roll without slipping at the same centre of mass speed. Which has greater total kinetic energy? Explain without calculating numerical values.",
+     "a": "The hollow sphere has greater total KE. Both have same translational KE (½mv²). Rotational KE = ½Iω² = ½I(v²/R²). Hollow sphere has larger I (⅔mR² vs ⅖mR²), so larger rotational KE. A student saying \"same KE because same mass and speed\" ignores rotational contribution. Saying \"solid sphere has more KE because it's denser\" confuses mass distribution with density.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform disc of mass 2 kg and radius 0.5 m rolls without slipping on a horizontal floor with centre of mass speed 4 m/s. Calculate its total kinetic energy. (I_disc = ½mR²)",
+     "a": "Given: m = 2 kg, R = 0.5 m, v_cm = 4 m/s. I = ½mR² = ½(2)(0.5)² = 0.25 kg·m². ω = v/R = 4/0.5 = 8 rad/s. K_trans = ½(2)(4)² = 16 J. K_rot = ½(0.25)(8)² = 8 J. K_total = 16 + 8 = 24 J. Alternatively: K_total = ½mv²(1 + I/mR²) = 16(1 + 0.5) = 24 J. A wrong answer of 16 J means student forgot rotational KE. 32 J means they used I = mR² (ring formula) instead of disc.",
+     "self_check": true
+    },
+    {
+     "q": "A cylinder rolls without slipping down an incline of height h. Using energy conservation, derive the expression for its speed at the bottom in terms of g, h, and the dimensionless factor β = I/mR². Compare the speeds for a solid cylinder (β = ½) and a hollow cylinder (β = 1).",
+     "a": "Initial PE = mgh. Final KE = ½mv²(1 + β). mgh = ½mv²(1 + β) → v = √[2gh/(1 + β)]. For solid cylinder: v = √[2gh/1.5] = √(4gh/3). For hollow cylinder: v = √[2gh/2] = √(gh). Solid cylinder is faster because smaller β means more energy goes into translation. A student writing v = √(2gh) for both ignores rotational energy. Writing v = √(gh) for solid cylinder used β = 1 instead of ½.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a rolling body, the kinetic energy of rotation about the centre of mass is always less than the kinetic energy of translation.\" Is this statement correct? Justify with examples.",
+     "a": "The statement is FALSE. K_rot/K_trans = I/mR² = β. For a ring, β = 1, so K_rot = K_trans. For a thin-walled hollow cylinder, β = 1, equal. For a body with mass concentrated near the rim (e.g., a hoop with spokes), β can approach 1 but not exceed 1 for standard symmetric bodies. However, if mass is concentrated at the rim (I = mR²), they are equal. A student saying \"always less\" hasn't considered the ring/hollow cylinder case where β = 1. Saying \"rotational is always more\" confuses moment of inertia magnitude with energy comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that a solid cylinder reaches the bottom of an incline before a hollow cylinder of same mass and radius when both roll without slipping. List measurements needed and how you would verify the theoretical prediction v = √[2gh/(1+β)].",
+     "a": "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius. Release from rest on a wooden plank inclined at ~30°. Measure incline length L and height h. Time descent with stopwatch (5 trials each). Calculate experimental v = √(2L²/t²) from s = ½at², v² = 2as. Compare ratio v_solid/v_hollow with theoretical √[(1+β_hollow)/(1+β_solid)] = √[2/1.5] = √(4/3) ≈ 1.15. A poor answer uses different masses/radii, ignores timing errors, or claims \"heavier rolls faster\" showing misunderstanding of mass independence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

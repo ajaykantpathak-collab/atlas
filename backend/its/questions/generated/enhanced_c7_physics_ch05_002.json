@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_002",
+   "title": "c7_physics_ch05_002",
+   "questions": [
+    {
+     "q": "Which of the following is a luminous object: a glowing electric bulb, a shining steel spoon, the planet Venus, or a wooden chair?",
+     "a": "The glowing electric bulb is a luminous object because it produces and emits its own light using electrical energy. A wrong answer like choosing the shining steel spoon reveals that the student confuses shining or reflecting light with actually generating light from an internal source.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Moon is classified as a non-luminous object even though it shines brightly in the night sky.",
+     "a": "The Moon is non-luminous because it does not produce its own light; it is visible only because it reflects the sunlight falling on its surface. A wrong answer stating that the Moon is luminous because we can see it at night shows a failure to understand that visibility relies on reflected light rather than self-emission.",
+     "self_check": true
+    },
+    {
+     "q": "If a candle burns in a completely sealed, pitch-dark room, how many luminous objects are present in that room? Identify them.",
+     "a": "There is exactly 1 luminous object: the burning candle (its flame). Steps: 1) Identify objects in the room. 2) Check which object generates its own light through a chemical process (combustion). 3) Conclude that only the burning flame emits light. A wrong answer indicating other objects in the room reveals confusion between objects that emit light and objects that are merely illuminated and visible.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a situation where you switch off all lights in a windowless room. Can you see a non-luminous object like your textbook? Why or why not?",
+     "a": "No, you cannot see the textbook because non-luminous objects do not emit their own light, and in the absence of an external light source, there is no light to reflect off the textbook into your eyes. A wrong answer assuming your eyes eventually adjust to see the book in absolute darkness shows a misconception about human vision requiring light rays from an object to enter the eye.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a newly polished silver mirror must be a luminous object because it is extremely bright when sunlight falls on it. Evaluate this statement.",
+     "a": "The student's claim is incorrect. Brightness caused by reflecting intense sunlight is a property of regular reflection off a smooth surface, not self-emission. A mirror requires an external light source to shine, proving it is non-luminous. A wrong answer agreeing with the student indicates a failure to separate the concepts of reflection intensity and self-generation of light.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classification test using a cardboard box to prove whether a given plastic toy is luminous or non-luminous.",
+     "a": "To test the toy, place it inside a closed cardboard box with a small viewing hole and no internal light sources. If the toy is invisible inside the dark box, it is non-luminous because it requires external light to be seen. A poor answer that suggests looking at the toy in a bright room does not test its self-emission property, as reflected light would interfere with the conclusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

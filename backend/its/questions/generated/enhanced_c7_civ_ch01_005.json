@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_civ_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_civ_ch01_005",
+   "title": "c7_civ_ch01_005",
+   "questions": [
+    {
+     "q": "What is the primary characteristic that distinguishes a republic from a constitutional monarchy?",
+     "a": "In a republic, the head of state is elected by the people or their representatives, whereas in a constitutional monarchy, the head of state inherits the position through royal lineage. A wrong answer often reveals confusion between the form of government and the presence of a prime minister or parliament, missing the crucial distinction regarding how the highest office is attained.",
+     "self_check": true
+    },
+    {
+     "q": "Why is having an elected head of state considered a key protection of equality in a political system?",
+     "a": "An elected head of state ensures that the highest office in the nation is open to any ordinary citizen regardless of birth, family name, or social status, upholding the principle that all citizens are born equal. A wrong answer shows a misunderstanding of how hereditary privileges conflict with the democratic right to equality before the law.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that because Country X has regular elections for its parliament and prime minister, it cannot be a monarchy, even though the country's head of state inherits the throne from a royal family. Is this student correct? Explain why or why not using civic concepts.",
+     "a": "The student is incorrect; Country X is a constitutional monarchy, not a republic. While the parliament and prime minister are elected, the defining feature of a republic—an elected head of state—is missing because the head of state is hereditary. A wrong answer indicates the student is confusing parliamentary elections with the selection of the head of state.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the structural difference between a President in a republic and a King or Queen in a constitutional monarchy regarding their accountability to the people.",
+     "a": "A President in a republic is either directly or indirectly accountable to the citizens and holds office for a fixed term, after which they must step down or seek re-election. Conversely, a monarch rules for life by birthright and is not politically accountable to the electorate through an electoral process. A wrong answer reveals a failure to understand that fixed terms and electoral accountability are unique to republican governance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Any country that calls itself a republic automatically protects the fundamental rights of all its citizens.\" Is this statement valid? Defend your reasoning.",
+     "a": "This statement is invalid. While a republic means the head of state is elected, historical and contemporary examples show that a nation can hold elections for a head of state while still denying civil liberties or suppressing minority rights. True protection of rights requires constitutional limits, independent courts, and democratic practices beyond simply holding an election for the top office. A wrong answer shows a superficial understanding that equates the title of \"republic\" with complete democratic freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple constitutional rule for a newly formed democratic nation that ensures its head of state can never become a dictator or a hereditary monarch. What provisions would you include?",
+     "a": "A good proposal would include: (1) A mandatory fixed term of office (e.g., 5 years) for the head of state, (2) A strict prohibition against family members inheriting the office or running immediately after, and (3) An independent electoral commission to oversee transparent public elections. A poor answer fails to include limits on terms or allows for appointment without public oversight, missing the core safeguards of a republic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_002",
+   "title": "c11_bio_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define \"cellular level of organisation\" and name the phylum that exclusively exhibits this level. Explain why sponges cannot be classified at the tissue level despite having specialised cells like choanocytes and pinacocytes.",
+     "a": "Cellular level of organisation: cells are arranged as loose aggregates with some division of labour but no true tissue formation; cells function relatively independently. Phylum Porifera exclusively exhibits this level. Sponges lack true tissues because their cells (choanocytes, pinacocytes, amoebocytes) do not form cohesive layers with shared extracellular matrix and coordinated function; they can dissociate and reassemble (demonstrated by Wilson's experiment), proving absence of stable cell-cell adhesion and tissue-level integration. A wrong answer revealing \"sponges have tissues because they have different cell types\" indicates confusion between cellular differentiation and tissue organisation - the student hasn't grasped that tissue requires functional cell collectives with common origin and extracellular matrix.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cnidaria and Ctenophora both show tissue level of organisation, so they must have identical digestive system complexity.\" Evaluate this statement using specific structural and functional differences in their gastrovascular cavities.",
+     "a": "The statement is incorrect. While both are diploblastic with tissue-level organisation, Cnidaria have a simple sac-like gastrovascular cavity (incomplete digestive system) with a single opening serving as both mouth and anus, where digestion is both extracellular (in cavity) and intracellular (in gastrodermal cells). Ctenophora have a more complex gastrovascular system with branched canals extending from the pharynx, anal pores for waste expulsion, and specialised meridional canals - showing incipient organ-level complexity in digestive organisation despite remaining at tissue level overall. A wrong answer accepting the claim reveals the student equates \"level of organisation\" with \"identical system complexity\" - missing that tissue-level organisation permits variation in organ rudiments (like digestive canal complexity) while lacking true organs.",
+     "self_check": true
+    },
+    {
+     "q": "Given an unknown triploblastic animal with organ-level organisation, bilateral symmetry, and an incomplete digestive system (single opening), identify its likely phylum and explain why this combination of features is phylogenetically significant.",
+     "a": "Phylum Platyhelminthes. This combination is significant because it represents the first appearance of true organs (brain, eyespots, excretory protonephridia with flame cells, reproductive organs) formed from three germ layers, yet retains the ancestral incomplete digestive system (gastrovascular cavity). The organ level allows specialised structures for osmoregulation (flame cells) and nervous coordination (cerebral ganglia), but the blind sac gut limits body size and metabolic rate - a key constraint driving evolution of complete digestive systems in higher phyla. A wrong answer suggesting Aschelminthes (which has organ-system level and complete digestive system) or Porifera (cellular level) reveals inability to correlate germ layer status, organisation level, and digestive system type as an integrated suite of characters.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the circulatory system organisation in Annelida (earthworm) and Arthropoda (cockroach) at the organ-system level. Explain how both achieve organ-system level organisation despite having fundamentally different circulatory designs (closed vs open).",
+     "a": "Both achieve organ-system level because they possess distinct, integrated systems (digestive, circulatory, excretory, nervous, reproductive) where organs work in coordinated physiological networks. Annelida: closed circulation with dorsal vessel as heart, ventral vessel, capillaries in each segment - blood confined to vessels, enabling high-pressure delivery to segmental organs (nephridia, body wall). Arthropoda: open circulation with dorsal tubular heart, sinuses (hemocoel), no capillaries - hemolymph bathes organs directly, suitable for tracheal respiration where oxygen delivery doesn't depend on blood. The organ-system level is defined by system integration, not circulatory type; both phyla show system-level coordination (e.g., nephridia/Malpighian tubules linked to circulatory waste transport). A wrong answer claiming \"open circulation means lower organisation level\" confuses system type with organisational hierarchy - the student must understand that organ-system level refers to presence of multiple integrated systems, not their internal design.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher discovers a new marine worm with these features: triploblastic, bilateral symmetry, true coelom, metameric segmentation, complete digestive system, closed circulation, but NO specialised respiratory organs (gas exchange through body surface). At which level of organisation would you classify it, and which phylum does it most likely belong to? Justify why it cannot be placed in Arthropoda or Mollusca.",
+     "a": "Organ-system level; Phylum Annelida. Justification: All listed features (true coelom, metameric segmentation, closed circulation, complete gut) are hallmarks of annelid organisation. It cannot be Arthropoda because arthropods have open circulation, chitinous exoskeleton, jointed appendages, and specialised respiratory organs (tracheae/book lungs/gills). It cannot be Mollusca because molluscs lack metameric segmentation, have open circulation (except cephalopods), and possess mantle, radula, and muscular foot - none mentioned. The absence of specialised respiratory organs is consistent with cutaneous respiration in many annelids (e.g., earthworms). A wrong answer placing it in Arthropoda due to \"segmentation\" or \"complete gut\" reveals failure to use the full character suite - the student must integrate multiple systems (circulatory, respiratory, integumentary) for phylum-level classification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table that would allow a Class 11 student to distinguish between the four levels of organisation using ONLY these criteria: (a) cell arrangement pattern, (b) presence/absence of true tissues, (c) presence/absence of true organs, (d) presence/absence of integrated organ systems, (e) example phylum, (f) digestive system type. Include one row per level.",
+     "a": "Expected table structure with correct entries:\n| Level | Cell Arrangement | True Tissues | True Organs | Organ Systems | Example Phylum | Digestive System |\n|-------|------------------|--------------|-------------|---------------|----------------|------------------|\n| Cellular | Loose aggregates | Absent | Absent | Absent | Porifera | Absent (intracellular) |\n| Tissue | Tissue layers (ecto/endo) | Present | Absent | Absent | Cnidaria, Ctenophora | Incomplete (gastrovascular cavity) |\n| Organ | Tissues grouped into organs | Present | Present | Absent | Platyhelminthes | Incomplete (gastrovascular cavity) |\n| Organ System | Organs integrated into systems | Present | Present | Present | Annelida, Arthropoda, Mollusca, Echinodermata, Chordata | Complete (mouth + anus) |\nA poor answer that merges tissue and organ levels, or assigns complete gut to Platyhelminthes, or gives \"open circulation\" as a criterion, reveals the student cannot operationalise the hierarchy into discrete, non-overlapping diagnostic criteria - essential for exam classification questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

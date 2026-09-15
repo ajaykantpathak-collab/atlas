@@ -1,0 +1,1809 @@
+--- 
+- reaction_id: "CHM_RXN_001"
+  name: "Hydrolysis of tert-butyl chloride (SN1)"
+  reactants: ["(CH3)3C-Cl", "H2O"]
+  products: ["(CH3)3C-OH", "HCl"]
+  conditions: "aqueous, warm"
+  mechanism: "sn1"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn1","carbocation","racemization","tertiary_halide","unimolecular"]
+  notes: "Tertiary halide undergoes SN1 via carbocation intermediate. Rate depends only on [RX]."
+
+- reaction_id: "CHM_RXN_002"
+  name: "Hydrolysis of methyl bromide (SN2)"
+  reactants: ["CH3-Br", "NaOH"]
+  products: ["CH3-OH", "NaBr"]
+  conditions: "aqueous NaOH"
+  mechanism: "sn2"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn2","inversion","primary_halide","bimolecular","back_attack"]
+  notes: "Primary halide undergoes SN2 with inversion of configuration. Rate depends on [RX][OH-]."
+
+- reaction_id: "CHM_RXN_003"
+  name: "Dehydrohalogenation of 2-bromobutane (E2)"
+  reactants: ["CH3-CH(Br)-CH2-CH3", "KOH(alc)"]
+  products: ["CH3-CH=CH-CH3", "KBr", "H2O"]
+  conditions: "alc. KOH, heat"
+  mechanism: "e2"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["e2","anti_periplanar","saytzeff","alkene","secondary_halide"]
+  notes: "E2 is bimolecular elimination. Major product follows Zaitsev (Saytzeff) rule: more substituted alkene."
+
+- reaction_id: "CHM_RXN_004"
+  name: "Dehydration of tert-butyl alcohol (E1)"
+  reactants: ["(CH3)3C-OH", "H2SO4"]
+  products: ["CH2=C(CH3)2", "H2O"]
+  conditions: "conc. H2SO4, 85°C"
+  mechanism: "e1"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["e1","carbocation","tertiary_alcohol","saytzeff","acid_catalyzed"]
+  notes: "E1 elimination via carbocation. Tertiary alcohol dehydrates most easily. Forms 2-methylpropene."
+
+- reaction_id: "CHM_RXN_005"
+  name: "Addition of HBr to propene (Markovnikov)"
+  reactants: ["CH3-CH=CH2", "HBr"]
+  products: ["CH3-CH(Br)-CH3"]
+  conditions: "room temperature"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","markovnikov","hbr","propene","alkyl_halide"]
+  notes: "H adds to less substituted carbon (more H's). Br adds to more substituted carbon. Follows Markovnikov rule."
+
+- reaction_id: "CHM_RXN_006"
+  name: "Addition of H2O to ethene (acid-catalyzed hydration)"
+  reactants: ["CH2=CH2", "H2O"]
+  products: ["CH3-CH2-OH"]
+  conditions: "H2SO4, 300°C, high pressure"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","hydration","ethene","ethanol","markovnikov","industrial"]
+  notes: "Industrial method for ethanol. H adds to less substituted carbon; OH adds to more substituted."
+
+- reaction_id: "CHM_RXN_007"
+  name: "Anti-Markovnikov addition of HBr to propene (peroxide effect)"
+  reactants: ["CH3-CH=CH2", "HBr", "ROOR"]
+  products: ["CH3-CH2-CH2-Br"]
+  conditions: "peroxides (ROOR)"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["anti_markovnikov","peroxide_effect","free_radical","hbr","n_bromo"]
+  notes: "Only HBr shows peroxide (Kharasch) effect. H and Br add opposite to Markovnikov rule."
+
+- reaction_id: "CHM_RXN_008"
+  name: "Halogenation of ethene (bromine addition)"
+  reactants: ["CH2=CH2", "Br2"]
+  products: ["Br-CH2-CH2-Br"]
+  conditions: "CCl4 solvent, room temperature"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","bromine_test","dihalide","alkene","decolorization"]
+  notes: "Bromine water decolorizes; used as test for unsaturation. Forms 1,2-dibromoethane."
+
+- reaction_id: "CHM_RXN_009"
+  name: "Addition of HOCl to ethene"
+  reactants: ["CH2=CH2", "HOCl"]
+  products: ["HO-CH2-CH2-Cl"]
+  conditions: "aqueous"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class12","jee_main"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","halohydrin","ethene","chlorohydrin"]
+  notes: "Cl adds to more substituted carbon; OH adds to less substituted (Markovnikov for halogen)."
+
+- reaction_id: "CHM_RXN_010"
+  name: "Oxymercuration-demercuration of cyclohexene"
+  reactants: ["cyclohexene", "Hg(OAc)2", "H2O"]
+  products: ["cyclohexanol"]
+  conditions: "Hg(OAc)2, H2O; then NaBH4"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxymercuration","anti_markovnikov","hydration","alkene","alcohol"]
+  notes: "Gives Markovnikov alcohol without rearrangement. Anti-Markovnikov hydration."
+
+- reaction_id: "CHM_RXN_011"
+  name: "Hydroboration-oxidation of propene"
+  reactants: ["CH3-CH=CH2", "BH3", "H2O2", "NaOH"]
+  products: ["CH3-CH2-CH2-OH"]
+  conditions: "BH3·THF; then H2O2, NaOH"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["hydroboration","anti_markovnikov","alkene","primary_alcohol"]
+  notes: "Anti-Markovnikov hydration. Gives primary alcohol from terminal alkene. Syn addition."
+
+- reaction_id: "CHM_RXN_012"
+  name: "Nitration of benzene"
+  reactants: ["C6H6", "HNO3", "H2SO4"]
+  products: ["C6H5-NO2", "H2O"]
+  conditions: "conc. H2SO4, 50-55°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["nitration","electrophilic_aromatic_substitution","benzene","nitronium_ion","ortho_para"]
+  notes: "NO2+ (nitronium ion) is the electrophile. Deactivating and meta-directing group. Yellow oil."
+
+- reaction_id: "CHM_RXN_013"
+  name: "Sulfonation of benzene"
+  reactants: ["C6H6", "H2SO4"]
+  products: ["C6H5-SO3H", "H2O"]
+  conditions: "fuming H2SO4, 80°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["sulfonation","electrophilic_aromatic_substitution","benzene","so3h","reversible"]
+  notes: "Reversible reaction. Used in synthesis of detergents and dyes."
+
+- reaction_id: "CHM_RXN_014"
+  name: "Halogenation of benzene (chlorination)"
+  reactants: ["C6H6", "Cl2"]
+  products: ["C6H5-Cl", "HCl"]
+  conditions: "FeCl3 or AlCl3 catalyst, room temperature"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["halogenation","electrophilic_aromatic_substitution","benzene","chlorobenzene","lewis_acid"]
+  notes: "FeCl3 polarizes Cl2 to generate Cl+. Chlorobenzene is the product."
+
+- reaction_id: "CHM_RXN_015"
+  name: "Friedel-Crafts alkylation of benzene"
+  reactants: ["C6H6", "CH3-Cl"]
+  products: ["C6H5-CH3", "HCl"]
+  conditions: "anhydrous AlCl3"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["friedel_crafts_alkylation","electrophilic_aromatic_substitution","benzene","toluene","alcl3","polyalkylation"]
+  notes: "Suffers from polyalkylation and carbocation rearrangement. Not effective with deactivated rings."
+
+- reaction_id: "CHM_RXN_016"
+  name: "Friedel-Crafts acylation of benzene"
+  reactants: ["C6H6", "CH3-CO-Cl"]
+  products: ["C6H5-CO-CH3", "HCl"]
+  conditions: "anhydrous AlCl3"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["friedel_crafts_acylation","electrophilic_aromatic_substitution","benzene","acetophenone","alcl3"]
+  notes: "No rearrangement; no polyacylation. Acyl group is deactivating and meta-directing."
+
+- reaction_id: "CHM_RXN_017"
+  name: "Nitration of toluene"
+  reactants: ["C6H5-CH3", "HNO3", "H2SO4"]
+  products: ["o-NO2-C6H4-CH3", "p-NO2-C6H4-CH3"]
+  conditions: "conc. H2SO4, 50°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["nitration","ortho_para","activating","toluene","methyl_activates"]
+  notes: "Methyl is ortho-para directing and activating. Mixture of ortho and para isomers."
+
+- reaction_id: "CHM_RXN_018"
+  name: "Sulfonation of benzene (fuming sulfuric acid)"
+  reactants: ["C6H6", "H2SO4"]
+  products: ["C6H5-SO3H", "H2O"]
+  conditions: "fuming H2SO4 (oleum), 80°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["sulfonation","electrophilic_aromatic_substitution","benzenesulfonic_acid","oleum"]
+  notes: "Benzenesulfonic acid formed. Sulfonic acid group is strongly deactivating and meta-directing."
+
+- reaction_id: "CHM_RXN_019"
+  name: "Halogenation of chlorobenzene (Friedel-Crafts)"
+  reactants: ["C6H5-Cl", "Cl2"]
+  products: ["o-Cl-C6H4-Cl", "p-Cl-C6H4-Cl"]
+  conditions: "anhydrous FeCl3"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["halogenation","chlorination","chlorobenzene","ortho_para","deactivating","friedel_crafts_fails"]
+  notes: "Cl is ortho-para directing but deactivating. ortho:para ratio ~30:70 due to steric hindrance."
+
+- reaction_id: "CHM_RXN_020"
+  name: "Friedel-Crafts alkylation of toluene"
+  reactants: ["C6H5-CH3", "CH3-Cl"]
+  products: ["o-CH3-C6H4-CH3", "p-CH3-C6H4-CH3"]
+  conditions: "anhydrous AlCl3"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["friedel_crafts_alkylation","toluene","xylene","ortho_para","polyalkylation"]
+  notes: "Produces xylene isomers (o-xylene + p-xylene). Polyalkylation is a problem."
+
+- reaction_id: "CHM_RXN_021"
+  name: "Friedel-Crafts acylation of chlorobenzene"
+  reactants: ["C6H5-Cl", "CH3-CO-Cl"]
+  products: ["o-CH3-CO-C6H4-Cl", "p-CH3-CO-C6H4-Cl"]
+  conditions: "anhydrous AlCl3"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["friedel_crafts_acylation","chlorobenzene","ortho_para","acetanilide"]
+  notes: "Acylation works even with deactivated rings. ortho:para ~30:70."
+
+- reaction_id: "CHM_RXN_022"
+  name: "Nitration of naphthalene"
+  reactants: ["C10H8", "HNO3", "H2SO4"]
+  products: ["1-NO2-C10H7", "2-NO2-C10H7"]
+  conditions: "conc. H2SO4, 50°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["nitration","naphthalene","alpha_position","beta_position","kinetic_control"]
+  notes: "Kinetic product is 1-nitronaphthalene (alpha). Thermodynamic product is 2-nitronaphthalene."
+
+- reaction_id: "CHM_RXN_023"
+  name: "Halogenation of phenol (without catalyst)"
+  reactants: ["C6H5-OH", "Br2(aq)"]
+  products: ["2,4,6-Br3-C6H2-OH"]
+  conditions: "room temperature, aqueous Br2"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["halogenation","phenol","tribromophenol","activating","no_catalyst"]
+  notes: "Phenol is highly activated. Forms 2,4,6-tribromophenol white precipitate; test for phenol."
+
+- reaction_id: "CHM_RXN_024"
+  name: "Nitration of aniline (mild conditions)"
+  reactants: ["C6H5-NH2", "HNO3(dilute)"]
+  products: ["p-NO2-C6H4-NH2", "o-NO2-C6H4-NH2"]
+  conditions: "dilute HNO3, low temperature"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["nitration","aniline","ortho_para","activating","protonation_problem"]
+  notes: "NH2 is strongly activating. Must protect amino group (acetylate to acetanilide) to avoid meta product."
+
+- reaction_id: "CHM_RXN_025"
+  name: "Sulfonation of benzene (reversible)"
+  reactants: ["C6H6", "H2SO4"]
+  products: ["C6H5-SO3H", "H2O"]
+  conditions: "conc. H2SO4, reversible"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class11","class12","jee_main"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["sulfonation","reversible","thermodynamic","meta_directing","benzenesulfonic_acid"]
+  notes: "Reversible. SO3H is a strong deactivator and meta-director. Used in synthesis of detergents."
+
+- reaction_id: "CHM_RXN_026"
+  name: "Addition of HCN to formaldehyde"
+  reactants: ["HCHO", "HCN"]
+  products: ["HO-CH2-CN"]
+  conditions: "aqueous KCN or NaCN, weak base"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["nucleophilic_addition","cyanohydrin","formaldehyde","hcn","aldol_precursor"]
+  notes: "CN- adds to carbonyl carbon. Forms hydroxymethylacetonitrile (cyanohydrin)."
+
+- reaction_id: "CHM_RXN_027"
+  name: "Addition of NaBH4 to acetone"
+  reactants: ["CH3-CO-CH3", "NaBH4"]
+  products: ["CH3-CH(OH)-CH3"]
+  conditions: "methanol or ethanol solvent"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["nucleophilic_addition","reduction","nabh4","secondary_alcohol","selective"]
+  notes: "NaBH4 selectively reduces aldehydes and ketones to alcohols. Does not reduce esters or carboxylic acids."
+
+- reaction_id: "CHM_RXN_028"
+  name: "Addition of Grignard reagent to formaldehyde"
+  reactants: ["HCHO", "CH3-MgBr"]
+  products: ["CH3-CH2-OH(after hydrolysis)"]
+  conditions: "dry ether, then H3O+ workup"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","formaldehyde","primary_alcohol","nucleophilic_addition","extended_carbon_chain"]
+  notes: "Grignard adds to carbonyl. Gives primary alcohol (one C more than aldehyde)."
+
+- reaction_id: "CHM_RXN_029"
+  name: "Addition of Grignard reagent to acetaldehyde"
+  reactants: ["CH3-CHO", "CH3-MgBr"]
+  products: ["CH3-CH(OH)-CH3(after hydrolysis)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","acetaldehyde","secondary_alcohol","nucleophilic_addition"]
+  notes: "Gives secondary alcohol after hydrolysis. Key method for alcohol synthesis."
+
+- reaction_id: "CHM_RXN_030"
+  name: "Addition of Grignard reagent to acetone"
+  reactants: ["CH3-CO-CH3", "CH3-MgBr"]
+  products: ["(CH3)3C-OH(after hydrolysis)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","acetone","tertiary_alcohol","nucleophilic_addition","t_butyl_alcohol"]
+  notes: "Gives tertiary alcohol (2-methylpropan-2-ol). Two methyl groups from Grignard."
+
+- reaction_id: "CHM_RXN_031"
+  name: "Aldol addition of acetaldehyde"
+  reactants: ["2 CH3-CHO"]
+  products: ["CH3-CH(OH)-CH2-CHO"]
+  conditions: "dilute NaOH, 20°C"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["aldol_condensation","beta_hydroxy_aldehyde","acetaldehyde","self_condensation"]
+  notes: "Beta-hydroxy aldehyde (aldol). Forms via enolate addition to carbonyl. Reversible."
+
+- reaction_id: "CHM_RXN_032"
+  name: "Aldol condensation (dehydrated product)"
+  reactants: ["2 CH3-CHO"]
+  products: ["CH3-CH=CH-CHO", "H2O"]
+  conditions: "conc. NaOH, heat"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["aldol_condensation","alpha_beta_unsaturated","crotonaldehyde","dehydration"]
+  notes: "Elimination of water gives alpha,beta-unsaturated aldehyde (crotonaldehyde)."
+
+- reaction_id: "CHM_RXN_033"
+  name: "Crossed aldol condensation (acetaldehyde + benzaldehyde)"
+  reactants: ["CH3-CHO", "C6H5-CHO"]
+  products: ["C6H5-CH=CH-CHO", "H2O"]
+  conditions: "dilute NaOH"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["crossed_aldol","benzaldehyde","cinnamaldehyde","no_alpha_h"]
+  notes: "Only acetaldehyde has alpha-H; benzaldehyde cannot self-condense."
+
+- reaction_id: "CHM_RXN_034"
+  name: "Intramolecular aldol condensation (diethyl succinate)"
+  reactants: ["CH3-CO-CH2-CO-OEt"]
+  products: ["2-ethyl-3-methylbut-2-en-1-ol derivative"]
+  conditions: "NaOEt, then acid"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["intramolecular_aldol","cyclic_product","diester","ring_formation"]
+  notes: "Intramolecular aldol gives cyclic products when ring size is favorable."
+
+- reaction_id: "CHM_RXN_035"
+  name: "Cannizzaro reaction (formaldehyde disproportionation)"
+  reactants: ["2 HCHO", "NaOH"]
+  products: ["CH3-OH", "HCOONa"]
+  conditions: "50% NaOH, warm"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["cannizzaro","disproportionation","formaldehyde","no_alpha_h","methanol","formate"]
+  notes: "Aldehydes without alpha-H undergo disproportionation. One oxidized to acid salt, other reduced to alcohol."
+
+- reaction_id: "CHM_RXN_036"
+  name: "Cannizzaro reaction (benzaldehyde disproportionation)"
+  reactants: ["2 C6H5-CHO", "NaOH"]
+  products: ["C6H5-CH2-OH", "C6H5-COONa"]
+  conditions: "conc. NaOH"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["cannizzaro","benzaldehyde","disproportionation","no_alpha_h","benzyl_alcohol","benzoate"]
+  notes: "Benzaldehyde (no alpha-H) gives benzyl alcohol + sodium benzoate. Crossed Cannizzaro with formaldehyde is common."
+
+- reaction_id: "CHM_RXN_037"
+  name: "Crossed Cannizzaro reaction (benzaldehyde + formaldehyde)"
+  reactants: ["C6H5-CHO", "HCHO", "NaOH"]
+  products: ["C6H5-CH2-OH", "HCOONa"]
+  conditions: "conc. NaOH"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["crossed_cannizzaro","formaldehyde","benzyl_alcohol","selective_reduction"]
+  notes: "Formaldehyde is preferentially oxidized. Benzaldehyde is selectively reduced."
+
+- reaction_id: "CHM_RXN_038"
+  name: "Formation of acid chloride from acetic acid"
+  reactants: ["CH3-COOH", "PCl5"]
+  products: ["CH3-CO-Cl", "POCl3", "HCl"]
+  conditions: "dry conditions"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["acid_chloride","pcl5","acyl_chloride","carboxylic_acid_derivative","reagent"]
+  notes: "PCl5, PCl3, or SOCl2 convert acids to acid chlorides. SOCl2 (thionyl chloride) is preferred (gaseous byproducts)."
+
+- reaction_id: "CHM_RXN_039"
+  name: "Esterification of acetic acid (Fischer esterification)"
+  reactants: ["CH3-COOH", "C2H5-OH"]
+  products: ["CH3-CO-O-C2H5", "H2O"]
+  conditions: "conc. H2SO4, reflux"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["esterification","fischer","acetic_acid","ethyl_acetate","acid_catalyzed","reversible"]
+  notes: "Acid-catalyzed equilibrium reaction. Removal of water or excess alcohol drives reaction forward."
+
+- reaction_id: "CHM_RXN_040"
+  name: "Hydrolysis of ethyl acetate (saponification)"
+  reactants: ["CH3-CO-O-C2H5", "NaOH"]
+  products: ["CH3-COONa", "C2H5-OH"]
+  conditions: "aqueous NaOH, reflux"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["saponification","hydrolysis","ester","base_catalyzed","irreversible","soap_formation"]
+  notes: "Base-catalyzed hydrolysis is irreversible. Produces soap from fats."
+
+- reaction_id: "CHM_RXN_041"
+  name: "Formation of acetamide from acetyl chloride"
+  reactants: ["CH3-CO-Cl", "NH3"]
+  products: ["CH3-CO-NH2", "HCl"]
+  conditions: "anhydrous, cold"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["amide","acyl_chloride","ammonia","nucleophilic_acylation","acetamide"]
+  notes: "NH3 attacks acyl chloride to form amide. Excess NH3 prevents diacylation."
+
+- reaction_id: "CHM_RXN_042"
+  name: "Base hydrolysis of acetamide"
+  reactants: ["CH3-CO-NH2", "NaOH"]
+  products: ["CH3-COONa", "NH3"]
+  conditions: "aqueous NaOH, heat"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["amide_hydrolysis","base_catalyzed","acetate","ammonia","carboxylate"]
+  notes: "Amides hydrolyze under basic conditions to give carboxylate salt and ammonia."
+
+- reaction_id: "CHM_RXN_043"
+  name: "Reduction of acetamide to ethylamine (LiAlH4)"
+  reactants: ["CH3-CO-NH2", "LiAlH4"]
+  products: ["CH3-CH2-NH2"]
+  conditions: "dry ether, reflux"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["amide_reduction","lialh4","primary_amine","hydride_donor"]
+  notes: "LiAlH4 reduces amides to amines. CH3CONH2 → CH3CH2NH2."
+
+- reaction_id: "CHM_RXN_044"
+  name: "Reduction of methyl acetate to ethanol (LiAlH4)"
+  reactants: ["CH3-CO-O-CH3", "LiAlH4"]
+  products: ["CH3-CH2-OH", "CH3-OH"]
+  conditions: "dry ether"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["ester_reduction","lialh4","primary_alcohol","reduction"]
+  notes: "LiAlH4 reduces ester to two alcohols. Methyl acetate → ethanol + methanol."
+
+- reaction_id: "CHM_RXN_045"
+  name: "Chlorination of methane (free radical)"
+  reactants: ["CH4", "Cl2"]
+  products: ["CH3-Cl", "HCl"]
+  conditions: "UV light or heat"
+  mechanism: "free_radical"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Hydrocarbons"
+  subject: "chemistry"
+  concept_tags: ["free_radical","chlorination","methane","haloalkane","uv_light","initiation"]
+  notes: "Chain reaction: Initiation (Cl2 → 2Cl·), Propagation (CH4 + Cl· → CH3· + HCl; CH3· + Cl2 → CH3Cl + Cl·)."
+
+- reaction_id: "CHM_RXN_046"
+  name: "Bromination of benzene (free radical)"
+  reactants: ["C6H6", "Br2"]
+  products: ["C6H5-Br", "HBr"]
+  conditions: "FeBr3 catalyst"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["bromination","benzene","bromobenzene","electrophilic_aromatic"]
+  notes: "Free radical halogenation of benzene ring with FeBr3 catalyst."
+
+- reaction_id: "CHM_RXN_047"
+  name: "Benzylic bromination of toluene"
+  reactants: ["C6H5-CH3", "Br2"]
+  products: ["C6H5-CH2-Br", "HBr"]
+  conditions: "UV light, heat"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["free_radical","benzylic","toluene","benzyl_bromide","uv_light"]
+  notes: "Side-chain halogenation of alkylbenzene. Benzylic radical is resonance stabilized."
+
+- reaction_id: "CHM_RXN_048"
+  name: "Wurtz reaction (methyl iodide coupling)"
+  reactants: ["2 CH3-I", "Na"]
+  products: ["CH3-CH3", "2 NaI"]
+  conditions: "dry ether, heat"
+  mechanism: "free_radical"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["wurtz","coupling","alkane","sodium","dry_ether","symmetrical"]
+  notes: "Coupling of alkyl halides using sodium metal. Only works well with one type of halide."
+
+- reaction_id: "CHM_RXN_049"
+  name: "Wurtz reaction (ethyl bromide coupling)"
+  reactants: ["2 C2H5-Br", "Na"]
+  products: ["C4H10", "2 NaBr"]
+  conditions: "dry ether, heat"
+  mechanism: "free_radical"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["wurtz","butane","coupling","symmetrical","sodium"]
+  notes: "Produces n-butane. Mixture of products if different alkyl halides are used."
+
+- reaction_id: "CHM_RXN_050"
+  name: "Wurtz-Fittig reaction"
+  reactants: ["CH3-I", "C6H5-Br", "Na"]
+  products: ["C6H5-CH3", "NaI", "NaBr"]
+  conditions: "dry ether, heat"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["wurtz_fittig","aryl_alkyl","toluene","coupling","mixed_halide"]
+  notes: "Coupling of alkyl halide with aryl halide. Gives alkylbenzene."
+
+- reaction_id: "CHM_RXN_051"
+  name: "Fittig reaction"
+  reactants: ["2 C6H5-Br", "Na"]
+  products: ["C6H5-C6H5", "2 NaBr"]
+  conditions: "dry ether, heat"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["fittig","biphenyl","aryl_coupling","sodium"]
+  notes: "Coupling of two aryl halides. Produces biphenyl."
+
+- reaction_id: "CHM_RXN_052"
+  name: "Kolbe electrolytic reaction"
+  reactants: ["2 CH3-COONa"]
+  products: ["CH3-CH3", "2 CO2"]
+  conditions: "electrolysis, aqueous"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["kolbe","electrolysis","alkane","decarboxylation","carboxylate"]
+  notes: "Electrolytic oxidation of sodium carboxylate gives alkane. CH3COONa → ethane."
+
+- reaction_id: "CHM_RXN_053"
+  name: "Hunsdiecker reaction (acetic acid to methyl bromide)"
+  reactants: ["CH3-COOAg", "Br2"]
+  products: ["CH3-Br", "CO2", "AgBr"]
+  conditions: "Br2, CCl4"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["hunsdiecker","carboxylic_acid","alkyl_bromide","decarboxylative","silver_salt"]
+  notes: "Silver carboxylate + Br2 → alkyl bromide + CO2. Reduces chain length by one carbon."
+
+- reaction_id: "CHM_RXN_054"
+  name: "Reimer-Tiemann reaction on phenol"
+  reactants: ["C6H5-OH", "CHCl3", "NaOH"]
+  products: ["2-HO-C6H4-CHO", "3-HO-C6H4-CHO"]
+  conditions: "CHCl3, NaOH, 70°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["reimer_tiemann","phenol","salicylaldehyde","ortho_directing","formylation"]
+  notes: "Forms salicylaldehyde (ortho) as major product. CHO is ortho-para directing."
+
+- reaction_id: "CHM_RXN_055"
+  name: "Hofmann exhaustive methylation (degradation)"
+  reactants: ["C2H5-NH2", "CH3I"]
+  products: ["CH2=CH2", "N(CH3)3", "HI"]
+  conditions: "excess CH3I; then Ag2O, heat"
+  mechanism: "elimination"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["hofmann","exhaustive_methylation","alkene","amine_degradation","less_substituted"]
+  notes: "Quaternary ammonium hydroxide decomposes to alkene. Hofmann product (less substituted alkene) is major."
+
+- reaction_id: "CHM_RXN_056"
+  name: "Diels-Alder reaction: butadiene + ethene"
+  reactants: ["CH2=CH-CH=CH2", "CH2=CH2"]
+  products: ["cyclohexene"]
+  conditions: "heat or pressure"
+  mechanism: "pericyclic"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Hydrocarbons"
+  subject: "chemistry"
+  concept_tags: ["diels_alder","cycloaddition","butadiene","ethene","cyclohexene","concerted"]
+  notes: "[4+2] cycloaddition. Stereospecific, suprafacial. Forms six-membered ring."
+
+- reaction_id: "CHM_RXN_057"
+  name: "Diels-Alder: cyclopentadiene + maleic anhydride"
+  reactants: ["C5H6", "C4H2O3"]
+  products: ["endo-bicyclo[2.2.1]hept-5-ene-2,3-dicarboxylic anhydride"]
+  conditions: "room temperature"
+  mechanism: "pericyclic"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Hydrocarbons"
+  subject: "chemistry"
+  concept_tags: ["diels_alder","endo_product","norbornene","dienophile","stereospecific"]
+  notes: "Endo product predominates due to secondary orbital interactions."
+
+- reaction_id: "CHM_RXN_058"
+  name: "Williamson ether synthesis (diethyl ether)"
+  reactants: ["C2H5-OH", "C2H5-Br"]
+  products: ["C2H5-O-C2H5", "HBr"]
+  conditions: "Na, dry ether, reflux"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["williamson","ether","diethyl_ether","sn2","alkoxide","unsymmetrical"]
+  notes: "SN2 reaction of alkoxide with alkyl halide. Best with primary alkyl halides."
+
+- reaction_id: "CHM_RXN_059"
+  name: "Williamson ether synthesis (anisole formation)"
+  reactants: ["C6H5-OH", "CH3-I"]
+  products: ["C6H5-O-CH3", "HI"]
+  conditions: "NaOH, then CH3I"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["williamson","anisole","phenol","methyl_iodide","ether"]
+  notes: "Phenoxide acts as nucleophile. Gives methyl phenyl ether (anisole)."
+
+- reaction_id: "CHM_RXN_060"
+  name: "Clemmensen reduction (acetophenone to ethylbenzene)"
+  reactants: ["C6H5-CO-CH3"]
+  products: ["C6H5-CH2-CH3"]
+  conditions: "Zn-Hg, conc. HCl, heat"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["clemmensen","reduction","carbonyl_to_methylene","acidic_conditions"]
+  notes: "Converts C=O to CH2. Used in synthesis of alkanes from ketones."
+
+- reaction_id: "CHM_RXN_061"
+  name: "Wolff-Kishner reduction (acetone to propane)"
+  reactants: ["CH3-CO-CH3", "NH2-NH2", "KOH"]
+  products: ["CH3-CH2-CH3"]
+  conditions: "hydrazine, strong base, heat"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["wolff_kishner","reduction","carbonyl_to_methylene","basic_conditions","hydrazine"]
+  notes: "Converts C=O to CH2 under basic conditions. Complementary to Clemmensen (acidic)."
+
+- reaction_id: "CHM_RXN_062"
+  name: "Ozonolysis of ethene"
+  reactants: ["CH2=CH2", "O3"]
+  products: ["2 HCHO"]
+  conditions: "ozone, then Zn/H2O or H2O2"
+  mechanism: "oxidative_cleavage"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["ozonolysis","alkene","cleavage","formaldehyde","oxidative"]
+  notes: "Alkene cleaved to two carbonyl compounds. Reductive workup (Zn) gives aldehydes/ketones."
+
+- reaction_id: "CHM_RXN_063"
+  name: "Ozonolysis of cyclohexene"
+  reactants: ["cyclohexene", "O3"]
+  products: ["adipic dialdehyde (OHC-(CH2)4-CHO)"]
+  conditions: "ozone; then Zn, H2O"
+  mechanism: "oxidative_cleavage"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["ozonolysis","cyclohexene","dialdehyde","cleavage"]
+  notes: "Cyclic alkene gives dialdehyde on ozonolysis. Used to determine alkene position."
+
+- reaction_id: "CHM_RXN_064"
+  name: "Perkin condensation (benzaldehyde + acetic anhydride)"
+  reactants: ["C6H5-CHO", "(CH3CO)2O"]
+  products: ["C6H5-CH=CH-COOH"]
+  conditions: "CH3COONa, heat"
+  mechanism: "condensation"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["perkin","condensation","cinnamic_acid","benzaldehyde","alpha_beta_unsaturated"]
+  notes: "Condensation of aromatic aldehyde with acid anhydride gives alpha,beta-unsaturated acid."
+
+- reaction_id: "CHM_RXN_065"
+  name: "Diazotization of aniline"
+  reactants: ["C6H5-NH2", "NaNO2", "HCl"]
+  products: ["C6H5-N2+ Cl-", "H2O"]
+  conditions: "0-5°C, HCl, NaNO2"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["diazotization","aniline","diazonium_salt","nitrous_acid","cold_conditions"]
+  notes: "Primary aromatic amine reacts with HNO2 (from NaNO2 + HCl) at 0-5°C to form diazonium salt."
+
+- reaction_id: "CHM_RXN_066"
+  name: "Sandmeyer reaction (diazonium to chlorobenzene)"
+  reactants: ["C6H5-N2+Cl-", "CuCl"]
+  products: ["C6H5-Cl", "N2"]
+  conditions: "CuCl, HCl"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["sandmeyer","chlorobenzene","diazonium","copper_catalyst","halogenation"]
+  notes: "Diazonium salt + CuCl gives chloroarene. CuBr gives bromoarene."
+
+- reaction_id: "CHM_RXN_067"
+  name: "Gattermann reaction (chlorination of benzene)"
+  reactants: ["C6H6", "HCl", "HCN", "Cu"]
+  products: ["C6H5-Cl"]
+  conditions: "HCl, HCN, Cu powder"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["gattermann","chlorination","copper_catalyst","diazonium_free"]
+  notes: "Similar to Sandmeyer but without isolating diazonium salt."
+
+- reaction_id: "CHM_RXN_068"
+  name: "Étard reaction (toluene to benzaldehyde)"
+  reactants: ["C6H5-CH3", "CrO2Cl2"]
+  products: ["C6H5-CHO"]
+  conditions: "CS2 or CCl4 solvent, reflux"
+  mechanism: "oxidation"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["etard","oxidation","benzaldehyde","chromyl_chloride","side_chain"]
+  notes: "Selective oxidation of toluene to benzaldehyde using chromyl chloride. Side-chain oxidation."
+
+- reaction_id: "CHM_RXN_069"
+  name: "Rosenmund reduction (acetyl chloride to acetaldehyde)"
+  reactants: ["CH3-CO-Cl", "H2"]
+  products: ["CH3-CHO"]
+  conditions: "H2, Pd/BaSO4 (poisoned), heat"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["rosenmund","reduction","acyl_chloride","aldehyde","poisoned_catalyst"]
+  notes: "Hydrogenation of acyl chloride to aldehyde. Poisoned catalyst prevents over-reduction to alcohol."
+
+- reaction_id: "CHM_RXN_070"
+  name: "Stephen reaction (benzonitrile to benzaldehyde)"
+  reactants: ["C6H5-CN", "SnCl2", "HCl"]
+  products: ["C6H5-CHO"]
+  conditions: "SnCl2, HCl, then H2O"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["stephen","reduction","nitrile","aldehyde","stannous_chloride"]
+  notes: "Nitrile reduced to imine salt, then hydrolyzed to aldehyde."
+
+- reaction_id: "CHM_RXN_071"
+  name: "Gabriel phthalimide synthesis (primary amine from phthalimide)"
+  reactants: ["phthalimide", "KOH", "C2H5-Br"]
+  products: ["C2H5-NH2", "phthalhydrazide"]
+  conditions: "KOH (alc), then RX, then H2O/H+"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["gabriel","primary_amine","phthalimide","alkylation","no_secondary_tertiary"]
+  notes: "Synthesis of pure primary amine. No secondary or tertiary amines formed."
+
+- reaction_id: "CHM_RXN_072"
+  name: "Coupling reaction (benzenediazonium + phenol)"
+  reactants: ["C6H5-N2+Cl-", "C6H5-OH"]
+  products: ["4-HO-C6H4-N=N-C6H5"]
+  conditions: "NaOH, cold (0-5°C)"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["coupling","azo_dye","benzenediazonium","phenol","para_position","color"]
+  notes: "Electrophilic aromatic substitution where diazonium ion couples with activated ring. Forms azo dyes."
+
+- reaction_id: "CHM_RXN_073"
+  name: "Pinacol rearrangement (pinacol to pinacolone)"
+  reactants: ["(CH3)2C(OH)-C(OH)(CH3)2"]
+  products: ["(CH3)3C-CO-CH3"]
+  conditions: "H2SO4, heat"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["pinacol","rearrangement","carbocation","methyl_shift","pinacolone","diol"]
+  notes: "Vicinal diol undergoes dehydration and 1,2-methyl shift in acid to form ketone."
+
+- reaction_id: "CHM_RXN_074"
+  name: "Beckmann rearrangement (acetoxime to acetamide)"
+  reactants: ["CH3-CH=N-OH", "H+"]
+  products: ["CH3-CO-NH2"]
+  conditions: "H2SO4, PCl5, or SOCl2"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["beckmann","rearrangement","ketoxime","amide","migration","anti_periplanar"]
+  notes: "Group anti to OH migrates. Acetoxime → acetamide. Used in caprolactam synthesis."
+
+- reaction_id: "CHM_RXN_075"
+  name: "Claisen rearrangement (allyl phenyl ether to o-allylphenol)"
+  reactants: ["C6H5-O-CH2-CH=CH2"]
+  products: ["2-CH2=CH-CH2-C6H4-OH"]
+  conditions: "300°C, heat"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["claisen","rearrangement","allyl_phenyl_ether","ortho_allylphenol","pericyclic"]
+  notes: "[3,3]-sigmatropic rearrangement. Aryl allyl ether → ortho-allylphenol."
+
+- reaction_id: "CHM_RXN_076"
+  name: "Fries rearrangement (phenyl acetate to hydroxyacetophenone)"
+  reactants: ["C6H5-O-CO-CH3"]
+  products: ["o-HO-C6H4-CO-CH3", "p-HO-C6H4-CO-CH3"]
+  conditions: "AlCl3, heat"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["fries","rearrangement","phenyl_acetate","alcl3","acylation_of_phenol"]
+  notes: "Acyl group migrates from oxygen to carbon. AlCl3 catalyzes. Para product predominates."
+
+- reaction_id: "CHM_RXN_077"
+  name: "Oxidation of glucose to gluconic acid (Tollens)"
+  reactants: ["C6H12O6", "[Ag(NH3)2]+"]
+  products: ["C6H12O7", "Ag"]
+  conditions: "Tollens reagent, warm"
+  mechanism: "oxidation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["glucose","tollens","gluconic_acid","reducing_sugar","aldehyde_group","silver_mirror"]
+  notes: "Aldehyde group of glucose oxidized to carboxylic acid. Gives silver mirror. Proves glucose is reducing sugar."
+
+- reaction_id: "CHM_RXN_078"
+  name: "Glucose + phenylhydrazine (osazone formation)"
+  reactants: ["C6H12O6", "3 C6H5-NH-NH2"]
+  products: ["glucosazone", "3 NH3", "H2O"]
+  conditions: "excess phenylhydrazine, heat"
+  mechanism: "condensation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["osazone","glucose","phenylhydrazine","characteristic_crystals","reducing_sugar"]
+  notes: "Forms characteristic yellow needle-shaped crystals. Used for sugar identification."
+
+- reaction_id: "CHM_RXN_079"
+  name: "Peptide bond formation (glycine + alanine)"
+  reactants: ["H2N-CH2-COOH", "H2N-CH(CH3)-COOH"]
+  products: ["H2N-CH2-CO-NH-CH(CH3)-COOH", "H2O"]
+  conditions: "condensing agent, mild conditions"
+  mechanism: "condensation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["peptide_bond","dipeptide","condensation","glycine","alanine","amide_linkage"]
+  notes: "Condensation of carboxyl group of one amino acid with amino group of another. Forms amide bond (peptide bond)."
+
+- reaction_id: "CHM_RXN_080"
+  name: "Acid hydrolysis of proteins to amino acids"
+  reactants: ["Protein", "HCl", "H2O"]
+  products: ["Amino acids (mixture)"]
+  conditions: "6M HCl, 110°C, sealed tube"
+  mechanism: "hydrolysis"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["protein_hydrolysis","peptide_bond_cleavage","amino_acids","acid_hydrolysis"]
+  notes: "Hydrolysis of all peptide bonds yields constituent amino acids. Tryptophan destroyed."
+
+- reaction_id: "CHM_RXN_081"
+  name: "Phosphodiester bond hydrolysis in DNA"
+  reactants: ["DNA strand", "H2O"]
+  products: ["Nucleotides or nucleosides"]
+  conditions: "acid or enzyme (nuclease)"
+  mechanism: "hydrolysis"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["dna","hydrolysis","phosphodiester_bond","nucleotides","nucleic_acids"]
+  notes: "DNA structure held by phosphodiester bonds between 3'-OH and 5'-phosphate of adjacent nucleotides."
+
+- reaction_id: "CHM_RXN_082"
+  name: "Electrophilic addition of H2O to propene"
+  reactants: ["CH3-CH=CH2", "H2O"]
+  products: ["CH3-CH(OH)-CH3"]
+  conditions: "H2SO4 catalyst"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","hydration","propene","isopropyl_alcohol","markovnikov"]
+  notes: "H adds to C1, OH adds to C2. Follows Markovnikov rule. Gives isopropyl alcohol."
+
+- reaction_id: "CHM_RXN_083"
+  name: "Addition of Br2 to propene"
+  reactants: ["CH3-CH=CH2", "Br2"]
+  products: ["CH3-CH(Br)-CH2-Br"]
+  conditions: "CCl4, room temperature"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","bromine","1,2-dibromopropane","bromine_test"]
+  notes: "Anti addition via bromonium ion intermediate. Bromine decolorization test for unsaturation."
+
+- reaction_id: "CHM_RXN_084"
+  name: "SN2 hydrolysis of 1-bromobutane"
+  reactants: ["CH3-CH2-CH2-CH2-Br", "NaOH"]
+  products: ["CH3-CH2-CH2-CH2-OH", "NaBr"]
+  conditions: "aqueous NaOH"
+  mechanism: "sn2"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn2","primary_halide","inversion","butanol","hydrolysis"]
+  notes: "Primary alkyl halide undergoes SN2. Inversion of configuration. Rate = k[RX][OH-]."
+
+- reaction_id: "CHM_RXN_085"
+  name: "SN1 hydrolysis of 2-bromo-2-methylpropane"
+  reactants: ["(CH3)3C-Br", "H2O"]
+  products: ["(CH3)3C-OH", "HBr"]
+  conditions: "aqueous, warm"
+  mechanism: "sn1"
+  grade_range: ["class11","class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn1","carbocation","tertiary_halide","racemization","t_butyl_alcohol"]
+  notes: "Tertiary alkyl halide undergoes SN1 via (CH3)3C+ carbocation. Rate = k[RX] only."
+
+- reaction_id: "CHM_RXN_086"
+  name: "Nitration of chlorobenzene"
+  reactants: ["C6H5-Cl", "HNO3", "H2SO4"]
+  products: ["o-O2N-C6H4-Cl", "p-O2N-C6H4-Cl"]
+  conditions: "conc. H2SO4, 50°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["nitration","chlorobenzene","ortho_para","deactivating","meta_ratio"]
+  notes: "Cl is ortho-para directing but deactivating. ortho:para ~30:70."
+
+- reaction_id: "CHM_RXN_087"
+  name: "Friedel-Crafts alkylation of phenol"
+  reactants: ["C6H5-OH", "CH3-Cl"]
+  products: ["o-CH3-C6H4-OH", "p-CH3-C6H4-OH"]
+  conditions: "anhydrous AlCl3 or ZnCl2"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["friedel_crafts_alkylation","phenol","ortho_para","activating","cresols"]
+  notes: "Phenol is strongly activating. Without catalyst also reacts. Forms o- and p-cresol."
+
+- reaction_id: "CHM_RXN_088"
+  name: "Formation of benzyl alcohol from benzaldehyde (NaBH4)"
+  reactants: ["C6H5-CHO", "NaBH4"]
+  products: ["C6H5-CH2-OH"]
+  conditions: "methanol, 0°C to RT"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["reduction","benzaldehyde","benzyl_alcohol","nabh4","aldehyde_reduction"]
+  notes: "NaBH4 selectively reduces aldehyde to primary alcohol. Mild conditions."
+
+- reaction_id: "CHM_RXN_089"
+  name: "Formation of acetal from acetone"
+  reactants: ["CH3-CO-CH3", "2 C2H5-OH"]
+  products: ["CH3-CH(OC2H5)2", "H2O"]
+  conditions: "dry HCl gas"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["acetal","ketone","protection","ethylene_glycol","nucleophilic_addition"]
+  notes: "Acetone reacts with two equivalents of ethanol in presence of dry HCl to form acetal. Protects carbonyl group."
+
+- reaction_id: "CHM_RXN_090"
+  name: "Formation of cyanohydrin from acetaldehyde"
+  reactants: ["CH3-CHO", "HCN"]
+  products: ["CH3-CH(OH)-CN"]
+  conditions: "KCN, dilute H2SO4"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["cyanohydrin","acetaldehyde","hcn","nucleophilic_addition","precursor"]
+  notes: "Cyanohydrin is precursor to alpha-hydroxy acids and alpha-amino acids via hydrolysis."
+
+- reaction_id: "CHM_RXN_091"
+  name: "Formation of imine from acetone and aniline"
+  reactants: ["CH3-CO-CH3", "2 C6H5-NH2"]
+  products: ["(CH3)2C=N-C6H5", "H2O"]
+  conditions: "acid catalyst, Dean-Stark apparatus"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["imine","schiff_base","acetone","aniline","nucleophilic_addition","water_removal"]
+  notes: "Imine (Schiff base) forms from ketone + primary amine. Reversible. Water removal drives forward."
+
+- reaction_id: "CHM_RXN_092"
+  name: "Reaction of acetic acid with NaHCO3"
+  reactants: ["CH3-COOH", "NaHCO3"]
+  products: ["CH3-COONa", "CO2", "H2O"]
+  conditions: "room temperature"
+  mechanism: "acid_base"
+  grade_range: ["class11","class12","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["carboxylic_acid","acid_base","carboxylate","co2_evolution","test_for_acid"]
+  notes: "Carboxylic acids are stronger than carbonic acid. CO2 evolution confirms carboxylic acid group."
+
+- reaction_id: "CHM_RXN_093"
+  name: "Acetylation of salicylic acid (Aspirin synthesis)"
+  reactants: ["C6H4(OH)-COOH", "(CH3CO)2O"]
+  products: ["C6H4(OCOCH3)-COOH"]
+  conditions: "conc. H2SO4 or H3PO4, warm"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["aspirin","salicylic_acid","acetylation","ester","anti_inflammatory"]
+  notes: "Phenolic -OH of salicylic acid acetylated to form aspirin (acetylsalicylic acid)."
+
+- reaction_id: "CHM_RXN_094"
+  name: "Saponification of fat (tristearin example)"
+  reactants: ["(C17H35COO)3-C3H5", "3 NaOH"]
+  products: ["C3H5(OH)3", "3 C17H35COONa"]
+  conditions: "boiling NaOH solution"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["saponification","fat","glycerol","soap","alkaline_hydrolysis","ester"]
+  notes: "Fats (triglycerides) undergo saponification with alkali to give glycerol + soap (fatty acid salts)."
+
+- reaction_id: "CHM_RXN_095"
+  name: "Haloform reaction of acetone"
+  reactants: ["CH3-CO-CH3", "3 Cl2", "4 NaOH"]
+  products: ["CHCl3", "CH3-COONa", "3 NaCl", "3 H2O"]
+  conditions: "NaOCl or NaOBr, NaOH"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["haloform","acetone","chloroform","methyl_ketone","carboxylic_acid"]
+  notes: "Methyl ketones (CH3-CO-) give haloform (CHX3) with X2/NaOH. CHI3 is yellow precipitate; test for methyl ketone."
+
+- reaction_id: "CHM_RXN_096"
+  name: "Oxidation of ethanol to acetic acid (KMnO4)"
+  reactants: ["CH3-CH2-OH", "2 [O] (KMnO4)"]
+  products: ["CH3-COOH"]
+  conditions: "KMnO4, H2SO4, heat"
+  mechanism: "oxidation"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","primary_alcohol","acetic_acid","kmno4","strong_oxidant"]
+  notes: "Primary alcohol oxidized to carboxylic acid with strong oxidizing agents (KMnO4, K2Cr2O7)."
+
+- reaction_id: "CHM_RXN_097"
+  name: "Oxidation of ethanol to acetaldehyde (PCC)"
+  reactants: ["CH3-CH2-OH"]
+  products: ["CH3-CHO"]
+  conditions: "PCC in CH2Cl2"
+  mechanism: "oxidation"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","primary_alcohol","pcc","acetaldehyde","mild","anhydrous"]
+  notes: "PCC selectively oxidizes primary alcohol to aldehyde (stops at aldehyde). No overoxidation."
+
+- reaction_id: "CHM_RXN_098"
+  name: "Oxidation of propan-2-ol to acetone"
+  reactants: ["CH3-CH(OH)-CH3"]
+  products: ["CH3-CO-CH3"]
+  conditions: "K2Cr2O7, H2SO4"
+  mechanism: "oxidation"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","secondary_alcohol","acetone","ketone","chromic_acid"]
+  notes: "Secondary alcohol oxidized to ketone. No further oxidation under normal conditions."
+
+- reaction_id: "CHM_RXN_099"
+  name: "Dehydration of butan-2-ol to but-2-ene (E1)"
+  reactants: ["CH3-CH(OH)-CH2-CH3"]
+  products: ["CH3-CH=CH-CH3", "H2O"]
+  conditions: "conc. H2SO4, 170°C"
+  mechanism: "e1"
+  grade_range: ["class11","class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["dehydration","secondary_alcohol","butene","saytzeff","e1"]
+  notes: "Secondary alcohol dehydrates via E1 to give more substituted alkene (Saytzeff product)."
+
+- reaction_id: "CHM_RXN_100"
+  name: "Reduction of nitrobenzene to aniline"
+  reactants: ["C6H5-NO2", "6 H"]
+  products: ["C6H5-NH2", "2 H2O"]
+  conditions: "Sn + HCl or H2/Pd or Fe + HCl"
+  mechanism: "reduction"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["reduction","nitrobenzene","aniline","iron_hcl","hydrogenation"]
+  notes: "Multiple methods: Sn+HCl (acidic), Fe+HCl (economical), catalytic H2/Pd."
+
+- reaction_id: "CHM_RXN_101"
+  name: "Acid-catalyzed dehydration of cyclohexanol"
+  reactants: ["C6H11-OH"]
+  products: ["cyclohexene", "H2O"]
+  conditions: "conc. H2SO4, 170°C"
+  mechanism: "e1"
+  grade_range: ["class11","class12","jee_main","jee_advanced","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["dehydration","cyclohexanol","cyclohexene","e1","secondary_alcohol"]
+  notes: "E1 dehydration of secondary alcohol. Forms alkene via carbocation intermediate."
+
+- reaction_id: "CHM_RXN_102"
+  name: "SN2 reaction of ethyl bromide with potassium hydroxide"
+  reactants: ["C2H5-Br", "KOH"]
+  products: ["C2H5-OH", "KBr"]
+  conditions: "aqueous KOH"
+  mechanism: "sn2"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn2","primary_halide","ethanol","hydrolysis","bimolecular"]
+  notes: "Primary alkyl halides undergo SN2 readily. Rate depends on [RX] and [OH-]."
+
+- reaction_id: "CHM_RXN_103"
+  name: "E2 elimination of 2-bromopropane"
+  reactants: ["CH3-CH(Br)-CH3", "KOH(alc)"]
+  products: ["CH3-CH=CH2", "KBr", "H2O"]
+  conditions: "alc. KOH, heat"
+  mechanism: "e2"
+  grade_range: ["class11","class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["e2","propene","secondary_halide","saytzeff","anti_periplanar"]
+  notes: "E2 elimination gives alkene. Zaitsev product (more substituted alkene) is major."
+
+- reaction_id: "CHM_RXN_104"
+  name: "SN1 solvolysis of 2-chloro-2-methylpropane"
+  reactants: ["(CH3)3C-Cl", "H2O"]
+  products: ["(CH3)3C-OH", "HCl"]
+  conditions: "aqueous acetone, warm"
+  mechanism: "sn1"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn1","carbocation","tertiary_halide","solvolysis","racemization"]
+  notes: "Tertiary halide forms stable tertiary carbocation. Solvolysis rate depends only on [RX]."
+
+- reaction_id: "CHM_RXN_105"
+  name: "Addition of HI to propene (Markovnikov)"
+  reactants: ["CH3-CH=CH2", "HI"]
+  products: ["CH3-CH(I)-CH3"]
+  conditions: "room temperature"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","hi","markovnikov","isopropyl_iodide"]
+  notes: "H adds to less substituted C; I to more substituted C. Markovnikov rule."
+
+- reaction_id: "CHM_RXN_106"
+  name: "Addition of Cl2 to ethene"
+  reactants: ["CH2=CH2", "Cl2"]
+  products: ["Cl-CH2-CH2-Cl"]
+  conditions: "CCl4, dark"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alkenes"
+  subject: "chemistry"
+  concept_tags: ["electrophilic_addition","chlorine","1,2-dichloroethane","addition","decolorization"]
+  notes: "Anti addition via chloronium ion. Decolorization of bromine/chlorine water tests for unsaturation."
+
+- reaction_id: "CHM_RXN_107"
+  name: "Hydroboration-oxidation of ethene"
+  reactants: ["CH2=CH2", "BH3", "H2O2", "NaOH"]
+  products: ["CH3-CH2-OH"]
+  conditions: "BH3·THF, then H2O2/NaOH"
+  mechanism: "electrophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["hydroboration","ethene","ethanol","anti_markovnikov","syn_addition"]
+  notes: "Anti-Markovnikov addition. B and H add syn, then oxidation replaces B with OH."
+
+- reaction_id: "CHM_RXN_108"
+  name: "Nitration of anisole"
+  reactants: ["C6H5-O-CH3", "HNO3", "H2SO4"]
+  products: ["o-NO2-C6H4-OCH3", "p-NO2-C6H4-OCH3"]
+  conditions: "dilute HNO3, H2SO4, 0°C"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["nitration","anisole","methoxy","ortho_para","strongly_activating"]
+  notes: "OCH3 is strongly activating and ortho-para directing. ortho:para ~30:70."
+
+- reaction_id: "CHM_RXN_109"
+  name: "Formation of acetaldehyde from ethanol (PCC)"
+  reactants: ["CH3-CH2-OH"]
+  products: ["CH3-CHO"]
+  conditions: "PCC in CH2Cl2"
+  mechanism: "oxidation"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","primary_alcohol","acetaldehyde","pcc","mild","anhydrous"]
+  notes: "PCC in anhydrous CH2Cl2 selectively oxidizes primary alcohol to aldehyde."
+
+- reaction_id: "CHM_RXN_110"
+  name: "Oxidation of ethanol to acetic acid (K2Cr2O7)"
+  reactants: ["CH3-CH2-OH"]
+  products: ["CH3-COOH"]
+  conditions: "K2Cr2O7, H2SO4, heat"
+  mechanism: "oxidation"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","ethanol","acetic_acid","k2cr2o7","strong_oxidant"]
+  notes: "Primary alcohol oxidized to carboxylic acid with strong oxidant. Orange Cr2O7^2- turns green Cr3+."
+
+- reaction_id: "CHM_RXN_111"
+  name: "Oxidation of propan-2-ol to acetone (Na2Cr2O7)"
+  reactants: ["CH3-CH(OH)-CH3"]
+  products: ["CH3-CO-CH3"]
+  conditions: "Na2Cr2O7, H2SO4"
+  mechanism: "oxidation"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","secondary_alcohol","acetone","ketone","na2cr2o7"]
+  notes: "Secondary alcohols oxidize to ketones. No further oxidation under normal conditions."
+
+- reaction_id: "CHM_RXN_112"
+  name: "Oxidation of benzyl alcohol to benzoic acid"
+  reactants: ["C6H5-CH2-OH"]
+  products: ["C6H5-COOH"]
+  conditions: "KMnO4, NaOH, heat"
+  mechanism: "oxidation"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["oxidation","benzyl_alcohol","benzoic_acid","primary_alcohol","aromatic"]
+  notes: "Primary alcohol oxidizes through aldehyde to carboxylic acid. Benzylic position is activated."
+
+- reaction_id: "CHM_RXN_113"
+  name: "Oxidation of toluene to benzoic acid"
+  reactants: ["C6H5-CH3"]
+  products: ["C6H5-COOH"]
+  conditions: "KMnO4, NaOH, heat"
+  mechanism: "oxidation"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["oxidation","toluene","benzoic_acid","side_chain","kmno4"]
+  notes: "Alkyl side chain on aromatic ring oxidizes to COOH. Ring remains intact."
+
+- reaction_id: "CHM_RXN_114"
+  name: "Oxidation of isopropylbenzene (cumene hydroperoxide route)"
+  reactants: ["C6H5-CH(CH3)2", "O2"]
+  products: ["C6H5-OOH (cumene hydroperoxide)"]
+  conditions: "O2, radical initiator, heat"
+  mechanism: "free_radical"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["oxidation","cumene","hydroperoxide","free_radical","industrial","phenol_synthesis"]
+  notes: "Industrial process for phenol synthesis (Hock process). Free radical oxidation of cumene."
+
+- reaction_id: "CHM_RXN_115"
+  name: "Reduction of benzil to hydrobenzoin"
+  reactants: ["C6H5-CO-CO-C6H5", "NaBH4"]
+  products: ["C6H5-CH(OH)-CH(OH)-C6H5"]
+  conditions: "ethanol, NaBH4"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["reduction","benzil","hydrobenzoin","1,2-diol","nabh4"]
+  notes: "NaBH4 reduces diketone to diol. Stereoselective reduction."
+
+- reaction_id: "CHM_RXN_116"
+  name: "Reduction of acetanilide to aniline"
+  reactants: ["C6H5-NHCOCH3", "Sn", "HCl"]
+  products: ["C6H5-NH2", "CH3-COOH"]
+  conditions: "Sn + conc. HCl, heat"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["reduction","acetanilide","aniline","sn_hcl","hydrolysis"]
+  notes: "Amide hydrolysis under reducing conditions gives aniline."
+
+- reaction_id: "CHM_RXN_117"
+  name: "Hydrolysis of benzenediazonium chloride to phenol"
+  reactants: ["C6H5-N2+Cl-", "H2O"]
+  products: ["C6H5-OH", "N2", "HCl"]
+  conditions: "warm water"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["diazonium","hydrolysis","phenol","sandmeyer_hydrolysis","n2_evolution"]
+  notes: "Diazonium ion hydrolyzes to give phenol. Industrial method for phenol production."
+
+- reaction_id: "CHM_RXN_118"
+  name: "Reduction of nitrobenzene with iron and HCl"
+  reactants: ["C6H5-NO2", "6 Fe", "14 HCl"]
+  products: ["C6H5-NH2", "6 FeCl2", "4 H2O"]
+  conditions: "Fe + HCl, heat"
+  mechanism: "reduction"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["reduction","nitrobenzene","aniline","iron_hcl","economical"]
+  notes: "Economical method for aniline production. Fe acts as reducing agent."
+
+- reaction_id: "CHM_RXN_119"
+  name: "Reduction of benzaldehyde to benzyl alcohol (NaBH4)"
+  reactants: ["C6H5-CHO", "NaBH4"]
+  products: ["C6H5-CH2-OH"]
+  conditions: "methanol or ethanol"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["reduction","benzaldehyde","benzyl_alcohol","nabh4","mild"]
+  notes: "NaBH4 reduces aldehyde to primary alcohol selectively."
+
+- reaction_id: "CHM_RXN_120"
+  name: "Etard reaction: oxidation of toluene to benzaldehyde"
+  reactants: ["C6H5-CH3", "CrO2Cl2"]
+  products: ["C6H5-CHO"]
+  conditions: "CS2 solvent, reflux"
+  mechanism: "oxidation"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Benzene and Aromatic Compounds"
+  subject: "chemistry"
+  concept_tags: ["etard","oxidation","toluene","benzaldehyde","chromyl_chloride"]
+  notes: "Chromyl chloride selectively oxidizes toluene to benzaldehyde. (C6H5-CH2CrO2Cl)2 intermediate."
+
+- reaction_id: "CHM_RXN_121"
+  name: "Reaction of benzyl chloride with KOH"
+  reactants: ["C6H5-CH2-Cl", "KOH"]
+  products: ["C6H5-CH2-OH", "KCl"]
+  conditions: "aqueous KOH"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn2","benzyl_halide","benzyl_alcohol","primary_benzylic"]
+  notes: "Benzylic halides are more reactive due to resonance stabilization of carbocation (SN1) or transition state (SN2)."
+
+- reaction_id: "CHM_RXN_122"
+  name: "Elimination of HBr from 2-bromobutane (E2)"
+  reactants: ["CH3-CH(Br)-CH2-CH3", "KOH(alc)"]
+  products: ["CH3-CH=CH-CH3", "KBr", "H2O"]
+  conditions: "alc. KOH, heat"
+  mechanism: "e2"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["e2","2-bromobutane","but-2-ene","saytzeff","anti_periplanar"]
+  notes: "E2 gives Zaitsev product predominantly. Mixture of cis and trans but-2-ene."
+
+- reaction_id: "CHM_RXN_123"
+  name: "SN1 hydrolysis of chlorobenzene (extreme conditions)"
+  reactants: ["C6H5-Cl", "NaOH"]
+  products: ["C6H5-OH", "NaCl"]
+  conditions: "623 K, 300 atm, NaOH"
+  mechanism: "sn1"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Haloalkanes and Haloarenes"
+  subject: "chemistry"
+  concept_tags: ["sn1","chlorobenzene","phenol","extreme_conditions","unreactive"]
+  notes: "Aryl halides do not undergo SN1/SN2 under normal conditions. Requires extreme conditions."
+
+- reaction_id: "CHM_RXN_124"
+  name: "Addition of Grignard to benzophenone"
+  reactants: ["(C6H5)2C=O", "CH3-MgBr"]
+  products: ["(C6H5)2C(OH)-CH3(after H3O+)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","benzophenone","diphenylmethanol","tertiary_alcohol"]
+  notes: "Grignard adds to ketone to give tertiary alcohol after hydrolysis."
+
+- reaction_id: "CHM_RXN_125"
+  name: "Reduction of acetophenone to 1-phenylethanol"
+  reactants: ["C6H5-CO-CH3", "NaBH4"]
+  products: ["C6H5-CH(OH)-CH3"]
+  conditions: "methanol, 0°C"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["reduction","acetophenone","1-phenylethanol","secondary_alcohol","nabh4"]
+  notes: "NaBH4 reduces ketone to secondary alcohol."
+
+- reaction_id: "CHM_RXN_126"
+  name: "Reduction of acetonitrile to ethylamine (LiAlH4)"
+  reactants: ["CH3-CN", "LiAlH4"]
+  products: ["CH3-CH2-NH2"]
+  conditions: "dry ether, reflux"
+  mechanism: "reduction"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["reduction","nitrile","ethylamine","lialh4","primary_amine"]
+  notes: "LiAlH4 reduces nitrile to primary amine. Chain length preserved."
+
+- reaction_id: "CHM_RXN_127"
+  name: "Reaction of acetic acid with sodium bicarbonate"
+  reactants: ["CH3-COOH", "NaHCO3"]
+  products: ["CH3-COONa", "CO2", "H2O"]
+  conditions: "room temperature"
+  mechanism: "acid_base"
+  grade_range: ["class11","class12","jee_main","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["carboxylic_acid","test","sodium_bicarbonate","co2_evolution"]
+  notes: "Test to distinguish carboxylic acid from phenol. Effervescence with NaHCO3."
+
+- reaction_id: "CHM_RXN_128"
+  name: "Reaction of salicylic acid with acetic anhydride (Aspirin)"
+  reactants: ["C6H4(OH)-COOH", "(CH3CO)2O"]
+  products: ["C6H4(OCOCH3)-COOH"]
+  conditions: "warm, acid catalyst"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["aspirin","salicylic_acid","acetylation","ester","pharmaceutical"]
+  notes: "Aspirin (acetylsalicylic acid) formed by acetylation of phenolic OH of salicylic acid."
+
+- reaction_id: "CHM_RXN_129"
+  name: "Saponification of glyceryl tristearate (fat)"
+  reactants: ["(C17H35COO)3-C3H5", "3 NaOH"]
+  products: ["C3H5(OH)3", "3 C17H35COONa"]
+  conditions: "boiling NaOH solution"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["saponification","fat","glycerol","soap","sodium_stearate"]
+  notes: "Soap from animal/vegetable fat. Glycerol recovered as byproduct."
+
+- reaction_id: "CHM_RXN_130"
+  name: "Haloform reaction of acetaldehyde"
+  reactants: ["CH3-CHO", "3 I2", "4 NaOH"]
+  products: ["CHI3", "HCOONa", "3 NaI", "3 H2O"]
+  conditions: "NaOI (NaOCl/NaOH), I2"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced","neet"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["haloform","acetaldehyde","iodoform","yellow_precipitate","test_for_ch3co"]
+  notes: "Acetaldehyde (and methyl ketones) give yellow CHI3 precipitate with I2/NaOH. Iodoform test."
+
+- reaction_id: "CHM_RXN_131"
+  name: "Haloform reaction of methyl ethyl ketone"
+  reactants: ["CH3-CO-C2H5", "NaOBr", "NaOH"]
+  products: ["CHBr3", "C2H5-COONa"]
+  conditions: "NaOBr, NaOH"
+  mechanism: "nucleophilic_substitution"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["haloform","methyl_ethyl_ketone","chloroform","carboxylic_acid"]
+  notes: "Any methyl ketone R-CO-CH3 gives haloform CHX3 with NaOX."
+
+- reaction_id: "CHM_RXN_132"
+  name: "Pinacol rearrangement: pinacol to pinacolone"
+  reactants: ["(CH3)2C(OH)-C(OH)(CH3)2"]
+  products: ["(CH3)3C-CO-CH3"]
+  conditions: "H2SO4, heat"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["pinacol","rearrangement","carbocation","methyl_shift","pinacolone","diol"]
+  notes: "Vicinal diol undergoes dehydration and 1,2-methyl shift in acid to form ketone."
+
+- reaction_id: "CHM_RXN_133"
+  name: "Beckmann rearrangement: acetophenone oxime to acetanilide"
+  reactants: ["C6H5-C(CH3)=N-OH", "H2SO4"]
+  products: ["C6H5-NH-CO-CH3"]
+  conditions: "conc. H2SO4 or PCl5"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carboxylic Acids"
+  subject: "chemistry"
+  concept_tags: ["beckmann","rearrangement","ketoxime","amide","migration","anti_periplanar"]
+  notes: "Group anti to OH migrates to N. Acetophenone oxime → N-phenylacetamide (acetanilide)."
+
+- reaction_id: "CHM_RXN_134"
+  name: "Hofmann rearrangement: acetamide to methylamine"
+  reactants: ["CH3-CO-NH2", "Br2", "NaOH"]
+  products: ["CH3-NH2", "Na2CO3", "NaBr", "H2O"]
+  conditions: "Br2, NaOH (aq)"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_main","jee_advanced"]
+  chapter: "Amines"
+  subject: "chemistry"
+  concept_tags: ["hofmann","rearrangement","amide","amine","carbon_loss","isocyanate"]
+  notes: "Converts primary amide to primary amine with one fewer carbon. Loss of CO2."
+
+- reaction_id: "CHM_RXN_135"
+  name: "Claisen rearrangement: allyl phenyl ether to o-allylphenol"
+  reactants: ["C6H5-O-CH2-CH=CH2"]
+  products: ["2-CH2=CH-CH2-C6H4-OH"]
+  conditions: "300°C, heat, neat"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["claisen","rearrangement","allyl_phenyl_ether","ortho_allylphenol","pericyclic"]
+  notes: "[3,3]-sigmatropic rearrangement. Allyl group migrates to ortho position of phenol."
+
+- reaction_id: "CHM_RXN_136"
+  name: "Fries rearrangement: phenyl acetate to hydroxyacetophenone"
+  reactants: ["C6H5-O-CO-CH3"]
+  products: ["o-HO-C6H4-CO-CH3", "p-HO-C6H4-CO-CH3"]
+  conditions: "AlCl3, 160°C"
+  mechanism: "rearrangement"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["fries","rearrangement","phenyl_acetate","hydroxyacetophenone","alcl3"]
+  notes: "Acyl group migrates from O to C. Para product predominates at higher temperatures."
+
+- reaction_id: "CHM_RXN_137"
+  name: "Glucose mutarotation in aqueous solution"
+  reactants: ["alpha-D-glucose (aq)"]
+  products: ["equilibrium mixture of alpha and beta anomers"]
+  conditions: "aqueous solution, room temperature"
+  mechanism: "tautomerism"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["glucose","mutarotation","anomer","alpha_beta","optical_rotation","hemiacetal"]
+  notes: "Alpha-D-glucose ([alpha] = +112°) equilibrates with beta-D-glucose ([alpha] = +18.7°). Equilibrium [alpha] = +52.7°."
+
+- reaction_id: "CHM_RXN_138"
+  name: "Tollens test for glucose (reducing sugar)"
+  reactants: ["C6H12O6", "[Ag(NH3)2]OH"]
+  products: ["C6H12O7", "Ag (mirror)"]
+  conditions: "warm"
+  mechanism: "oxidation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["tollens","glucose","reducing_sugar","silver_mirror","gluconic_acid","test"]
+  notes: "Aldehyde group reduces Tollens reagent (ammoniacal AgNO3) to metallic Ag. Positive = silver mirror."
+
+- reaction_id: "CHM_RXN_139"
+  name: "Benedict's test for glucose"
+  reactants: ["C6H12O6", "CuSO4·5H2O", "Na2CO3"]
+  products: ["C6H12O7", "Cu2O (brick red)"]
+  conditions: "warm"
+  mechanism: "oxidation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["benedicts","glucose","reducing_sugar","cuprous_oxide","brick_red_precipitate","test"]
+  notes: "Blue Cu2+ reduced to red Cu2O. Used for detection of glucose in urine (diabetes test)."
+
+- reaction_id: "CHM_RXN_140"
+  name: "Osazone formation from glucose"
+  reactants: ["C6H12O6", "excess C6H5NHNH2"]
+  products: ["glucosazone", "3 NH3"]
+  conditions: "excess phenylhydrazine, heat"
+  mechanism: "condensation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["osazone","glucose","phenylhydrazine","characteristic_crystals","reducing_sugar"]
+  notes: "Forms characteristic yellow needle-shaped crystals (D-glucosazone). C1 and C2 react."
+
+- reaction_id: "CHM_RXN_141"
+  name: "Formation of glycylglycine dipeptide"
+  reactants: ["H2N-CH2-COOH", "H2N-CH2-COOH"]
+  products: ["H2N-CH2-CO-NH-CH2-COOH", "H2O"]
+  conditions: "condensing agent"
+  mechanism: "condensation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["peptide_bond","dipeptide","glycylglycine","condensation","amide"]
+  notes: "Condensation of two glycine molecules. Peptide bond (-CO-NH-) forms with loss of H2O."
+
+- reaction_id: "CHM_RXN_142"
+  name: "Biuret test for proteins/peptides"
+  reactants: ["R-CH(NH2)-CO-NH-CH(R')-COOH", "CuSO4"]
+  products: ["violet-colored complex"]
+  conditions: "alkaline solution, CuSO4, warm"
+  mechanism: "complex_formation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["biuret_test","protein","peptide_bond","copper_complex","violet_color"]
+  notes: "Peptide bonds form violet-colored coordination complex with Cu2+ in alkaline solution."
+
+- reaction_id: "CHM_RXN_143"
+  name: "Reaction of alanine with HNO2 (decarboxylation)"
+  reactants: ["CH3-CH(NH2)-COOH", "HNO2"]
+  products: ["CH3-CH2-OH", "CO2", "N2", "H2O"]
+  conditions: "cold NaNO2 + HCl"
+  mechanism: "decarboxylation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["amino_acid","nitrous_acid","decarboxylation","alcohol","n2_evolution","alanine"]
+  notes: "Amino acid reacts with HNO2 to give alcohol. NH2 replaced by OH with loss of CO2 and N2."
+
+- reaction_id: "CHM_RXN_144"
+  name: "Nitration of phenylalanine"
+  reactants: ["C6H5-CH2-CH(NH2)-COOH", "HNO3"]
+  products: ["nitrophenylalanine (yellow)"]
+  conditions: "dilute HNO3, cold"
+  mechanism: "electrophilic_aromatic_substitution"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["phenylalanine","nitration","aromatic_amino_acid","protein_test","yellow_precipitate"]
+  notes: "Aromatic amino acids give characteristic reactions. Test for proteins containing phenylalanine."
+
+- reaction_id: "CHM_RXN_145"
+  name: "Protein precipitation with lead acetate"
+  reactants: ["albumin (protein)", "Pb(CH3COO)2"]
+  products: ["coagulated protein (precipitate)"]
+  conditions: "aqueous Pb2+ solution"
+  mechanism: "precipitation"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["protein","precipitation","heavy_metal","denaturation","albumin","test"]
+  notes: "Heavy metal salts (Pb2+, Hg2+) cause protein precipitation. Denaturation of protein."
+
+- reaction_id: "CHM_RXN_146"
+  name: "Acid hydrolysis of DNA"
+  reactants: ["DNA strand", "H2O", "HCl"]
+  products: ["deoxyribonucleotides", "deoxyribonucleosides"]
+  conditions: "1M HCl, 100°C"
+  mechanism: "hydrolysis"
+  grade_range: ["class12","neet"]
+  chapter: "Biomolecules"
+  subject: "chemistry"
+  concept_tags: ["dna","hydrolysis","phosphodiester_bond","nucleotide","nucleoside","acid"]
+  notes: "Phosphodiester bonds cleaved by acid. DNA → nucleotides or nucleosides."
+
+- reaction_id: "CHM_RXN_147"
+  name: "Grignard reaction: methyl magnesium iodide + formaldehyde"
+  reactants: ["HCHO", "CH3MgI"]
+  products: ["CH3-CH2-OH(after H3O+)"]
+  conditions: "dry ether, then dilute H2SO4"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","formaldehyde","primary_alcohol","nucleophilic_addition"]
+  notes: "Gives primary alcohol after hydrolysis. Two-carbon unit added from Grignard."
+
+- reaction_id: "CHM_RXN_148"
+  name: "Grignard reaction: ethyl magnesium bromide + benzaldehyde"
+  reactants: ["C6H5-CHO", "C2H5MgBr"]
+  products: ["C6H5-CH(OH)-C2H5(after H3O+)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","benzaldehyde","secondary_alcohol","1-phenylethanol"]
+  notes: "Gives 1-phenylethanol (secondary alcohol) after hydrolysis."
+
+- reaction_id: "CHM_RXN_149"
+  name: "Grignard reaction: methyl magnesium bromide + acetone"
+  reactants: ["CH3-CO-CH3", "CH3MgBr"]
+  products: ["(CH3)3C-OH(after H3O+)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","acetone","tert_butyl_alcohol","tertiary_alcohol"]
+  notes: "Gives tertiary alcohol (tert-butanol) after hydrolysis. Two methyl groups added."
+
+- reaction_id: "CHM_RXN_150"
+  name: "Grignard reaction: methyl magnesium bromide + methyl acetate"
+  reactants: ["CH3-CO-OCH3", "2 CH3MgBr"]
+  products: ["(CH3)3C-OH(after H3O+)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Alcohols, Phenols and Ethers"
+  subject: "chemistry"
+  concept_tags: ["grignard","methyl_acetate","tertiary_alcohol","tert_butanol"]
+  notes: "Ester reacts with 2 eq Grignard to give tertiary alcohol. First gives ketone intermediate."
+
+- reaction_id: "CHM_RXN_151"
+  name: "Grignard reaction: phenyl magnesium bromide + acetonitrile"
+  reactants: ["CH3-CN", "C6H5MgBr"]
+  products: ["C6H5-CO-CH3(after H3O+)"]
+  conditions: "dry ether, then H3O+"
+  mechanism: "nucleophilic_addition"
+  grade_range: ["class12","jee_advanced"]
+  chapter: "Aldehydes, Ketones and Carb

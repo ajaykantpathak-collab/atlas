@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_8",
+   "title": "c9_math_ch1_8",
+   "questions": [
+    {
+     "q": "State the midpoint formula for the line segment joining points A(x₁, y₁) and B(x₂, y₂). Also, write the section formula for internal division in ratio m:n and show how setting m = n gives the midpoint formula.",
+     "a": "The midpoint formula is M = ((x₁ + x₂)/2, (y₁ + y₂)/2). The section formula for internal division is P = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)). Setting m = n = 1 gives P = ((x₂ + x₁)/2, (y₂ + y₁)/2), which is the midpoint formula. A wrong answer (e.g., writing (x₁ - x₂)/2 or forgetting to divide by 2) reveals the student has memorized the formula without understanding its derivation from the section formula, or confuses it with the distance formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the midpoint of the segment joining (-4, 6) and (8, -2) is (2, 2) because they added the x-coordinates and y-coordinates separately and got (4, 4). Is the student correct? Explain why or why not, and identify the exact step they missed.",
+     "a": "The student is incorrect. The correct midpoint is (2, 2) because (-4 + 8)/2 = 4/2 = 2 and (6 + (-2))/2 = 4/2 = 2. The student added the coordinates correctly to get (4, 4) but forgot to divide by 2. This reveals the misconception that the midpoint is simply the sum of coordinates, not the average. The student treats the formula as (x₁ + x₂, y₁ + y₂) instead of ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the midpoint of the line segment joining the points A(3, -5) and B(-7, 9). Then, if this midpoint is also the midpoint of another segment with one endpoint at C(1, 2), find the coordinates of the other endpoint D.",
+     "a": "Step 1: Midpoint M of AB = ((3 + (-7))/2, (-5 + 9)/2) = (-4/2, 4/2) = (-2, 2).\nStep 2: Let D = (x, y). Midpoint of CD = ((1 + x)/2, (2 + y)/2) = (-2, 2).\nStep 3: (1 + x)/2 = -2 → 1 + x = -4 → x = -5.\nStep 4: (2 + y)/2 = 2 → 2 + y = 4 → y = 2.\nStep 5: D = (-5, 2). A wrong answer like (2, 2) for the first part indicates sign errors with negative coordinates. For the second part, setting (1 + x)/2 = 2 (using the wrong coordinate) shows inability to equate coordinates correctly.",
+     "self_check": true
+    },
+    {
+     "q": "The points A(1, 2), B(5, 6), C(7, 2), and D(3, -2) form a quadrilateral. Without plotting, determine if the diagonals AC and BD bisect each other. What does this imply about the quadrilateral? Use the midpoint formula to justify your answer.",
+     "a": "Midpoint of AC = ((1+7)/2, (2+2)/2) = (4, 2). Midpoint of BD = ((5+3)/2, (6+(-2))/2) = (4, 2). Since the midpoints are the same, the diagonals bisect each other. This implies the quadrilateral is a parallelogram. A wrong answer (e.g., midpoints not matching due to arithmetic errors) reveals the student cannot connect the midpoint formula to geometric properties. If they say it's a rectangle, they are assuming extra properties not proven.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find the midpoint of (2, 3) and (4, 7)\" as follows: x = (2+4)/2 = 3, y = (3+7)/2 = 5. Midpoint = (3, 5). Another student wrote: x = (2+4) = 6, y = (3+7) = 10. Midpoint = (6, 10). Evaluate both solutions and explain which is correct and why the other is a common error.",
+     "a": "The first student is correct. The midpoint formula requires dividing the sum by 2. The second student forgot to divide by 2, giving the sum of coordinates instead of the average. This is a common error because students remember \"add the coordinates\" but forget \"and divide by 2\". The error leads to a point that is not on the segment but lies on the extension. A wrong evaluation (saying both are correct or both wrong) shows the student cannot identify the structural requirement of averaging.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving the midpoint formula set in an Indian context (e.g., a road between two villages, a railway line, a school playground). The problem must require finding a midpoint and then using it to find a missing endpoint. Write the problem statement and solve it completely.",
+     "a": "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map. A health centre is built at the midpoint of the straight road connecting them. Later, a new village C is established such that the health centre is also the midpoint between Village B and Village C. Find the coordinates of Village C.\nSolution: Midpoint (health centre) = ((10+30)/2, (20+40)/2) = (20, 30). Let C = (x, y). Midpoint of B(30,40) and C(x,y) = ((30+x)/2, (40+y)/2) = (20,30). So (30+x)/2 = 20 → x = 10; (40+y)/2 = 30 → y = 20. Village C is at (10, 20) – same as Village A! A poor answer would just give numbers without context or miss the reverse midpoint step. This reveals inability to apply the formula bidirectionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

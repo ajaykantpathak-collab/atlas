@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_008",
+   "title": "c7_math_ch11_008",
+   "questions": [
+    {
+     "q": "What is the prime factorisation of 36 expressed in exponential form?",
+     "a": "The correct answer is $2^2 \\times 3^2$. A wrong answer like $2 \\times 3^3$ reveals that the student has confused the counts of prime factors or made a multiplication error when dividing by prime numbers (e.g., $36 \\div 2 = 18$, $18 \\div 2 = 9$, $9 \\div 3 = 3$, $3 \\div 3 = 1$).",
+     "self_check": true
+    },
+    {
+     "q": "When finding the LCM of two numbers using prime factorisation, why do we choose the highest power of each prime factor instead of the lowest power?",
+     "a": "The correct answer is that taking the highest power ensures the resulting multiple is large enough to contain all the prime factors of each original number completely, which is required for it to be a true multiple of both numbers. A student who incorrectly chooses the lowest power is confusing the rule for LCM with the rule for finding the HCF (Highest Common Factor).",
+     "self_check": true
+    },
+    {
+     "q": "Find the LCM of 24 and 36 using prime factorisation.",
+     "a": "The correct answer is 72. \nSteps: \n1. Prime factorise 24: $24 = 2 \\times 2 \\times 2 \\times 3 = 2^3 \\times 3^1$.\n2. Prime factorise 36: $36 = 2 \\times 2 \\times 3 \\times 3 = 2^2 \\times 3^2$.\n3. Identify all unique prime factors involved, which are 2 and 3.\n4. Select the highest power for each: highest power of 2 is $2^3$, and highest power of 3 is $3^2$.\n5. Multiply these highest powers together: $LCM = 2^3 \\times 3^2 = 8 \\times 9 = 72$. \nA wrong answer like 12 shows the student found the HCF instead of the LCM by taking the lowest powers ($2^2 \\times 3^1$).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the prime factorisation of numbers $A = 2^3 \\times 5^2$ and $B = 2^2 \\times 5^3 \\times 7$. Without calculating the final numbers, what is their LCM?",
+     "a": "The correct answer is $2^3 \\times 5^3 \\times 7$. A wrong answer that omits 7 or uses incorrect powers shows the student does not understand that the LCM must include *every* prime factor present across all numbers, raised to its maximum encountered power.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul states that the LCM of 15 and 25 is $3 \\times 5 = 15$ because both numbers share a factor of 5. Evaluate his statement and correct any errors in his reasoning.",
+     "a": "Rahul's statement is incorrect. His method gives the HCF, not the LCM. To find the LCM, we prime factorise: $15 = 3^1 \\times 5^1$ and $25 = 5^2$. We then take the highest power of each prime factor, which gives $3^1 \\times 5^2 = 3 \\times 25 = 75$. A wrong evaluation indicates the student cannot distinguish between the definitions and rules for HCF and LCM.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of two-digit numbers whose LCM found by prime factorisation is exactly 180, and show their prime factorisations.",
+     "a": "An acceptable answer is 20 and 45. Prime factorisation: $20 = 2^2 \\times 5^1$ and $45 = 3^2 \\times 5^1$. Their LCM is $2^2 \\times 3^2 \\times 5^1 = 4 \\times 9 \\times 5 = 180$. A poor answer features numbers whose LCM does not equal 180, showing a failure to work backward from a target LCM using prime powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

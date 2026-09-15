@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_03_006",
+   "title": "c11_hist_cbse_03_006",
+   "questions": [
+    {
+     "q": "In which year did the Battle of Yarmouk take place, and which two major powers were the primary combatants?",
+     "a": "The Battle of Yarmouk occurred in 636 CE between the Rashidun Caliphate (Arab Muslim forces) and the Byzantine Empire. A wrong answer (e.g., naming the Sassanids instead of Byzantines, or giving 634/638) reveals confusion between the simultaneous Arab conquests of Syria (Byzantine) and Iraq/Persia (Sassanid), indicating the student has not distinguished the two fronts of early Islamic expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Byzantine Empire lose control of Egypt to the Arabs in the 640s despite having a larger, professional army?",
+     "a": "Byzantium lost Egypt because: (1) the empire was financially and militarily exhausted after the 602–628 war with the Sassanids; (2) religious alienation of Coptic (Miaphysite) Egyptians from Chalcedonian Constantinople weakened local loyalty; (3) Arab forces used mobile desert warfare and naval support to bypass static Byzantine fortifications. A wrong answer focusing only on \"Arab military superiority\" misses the structural Byzantine weaknesses and the crucial role of local religious disaffection—a common oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "A 7th-century Byzantine tax register shows a sharp decline in revenue from the *dioikesis* (province) of Egypt after 642 CE. Using this evidence, explain how the loss of Egypt specifically undermined the Byzantine state's capacity to resist further Arab advances.",
+     "a": "Egypt supplied approximately 30% of Constantinople's grain and a disproportionate share of tax revenue. Its loss forced the emperor to: (1) abolish the free grain dole, causing urban unrest; (2) shift taxation burden to Anatolia, prompting the *theme* system where soldiers were paid in land grants rather than cash; (3) reduce naval expenditure, ceding Mediterranean control to the Arab fleet. A student who only mentions \"less money\" fails to connect fiscal collapse to the specific institutional innovation (theme system) that defined medieval Byzantium.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Rashidun Caliphate's method of governing newly conquered Byzantine territories (e.g., Syria, Egypt) with the Byzantine provincial administration it replaced. Identify two continuities and two ruptures.",
+     "a": "Continuities: (1) Retention of Greek as administrative language alongside Arabic for decades; (2) Use of existing Byzantine tax categories (*kapnikon*, land tax) and local bureaucrats (often Christian). Ruptures: (1) Introduction of *jizya* (poll tax on non-Muslims) and *kharaj* (land tax) replacing the complex Byzantine tax code; (2) Military garrison towns (*amsar* like Fustat, Kufa) replacing civilian city-centered administration, separating Arab conquerors from local populations. A wrong answer that claims \"total replacement\" ignores the pragmatic continuity that facilitated imperial integration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Arab conquests succeeded primarily because Byzantium was weakened by the Plague of Justinian (541–549) and the Sassanid War (602–628).\" Support your judgment with evidence.",
+     "a": "The claim is partially correct but incomplete. The plague and war *created the opportunity* (depopulation, fiscal ruin, loss of veteran troops), but Arab success also required: (1) ideological cohesion of the *umma* transcending tribal divisions; (2) tactical mobility (camel cavalry, desert navigation) unsuited to Byzantine static defense; (3) diplomatic exploitation of Miaphysite and Jewish disaffection. A student who agrees wholly ignores the agency of Arab state-building; one who disagrees ignores the documented 30% population decline in Byzantine cities. The highest evaluation weighs both structural precondition and contingent agency.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (610–750 CE) with six entries showing the causal chain from Muhammad's first revelation to the Abbasid revolution, highlighting moments where Byzantine responses shaped Islamic expansion (or vice versa).",
+     "a": "A strong timeline includes: 610 (Muhammad's first revelation) → 622 (Hijra, founding of *umma*) → 630 (Conquest of Mecca, unification of Arabia) → 634–636 (Abu Bakr/Umar invade Syria; Heraclius' counter-offensive fails at Yarmouk) → 642 (Fall of Alexandria; Byzantine navy withdraws) → 661 (Umayyad capital moves to Damascus, adopting Byzantine administrative models) → 750 (Abbasid revolution; shift to Baghdad, ending Arab tribal privilege). Poor answers list isolated events without showing Byzantine-Arab interaction (e.g., omitting Heraclius' 636 campaign or the Umayyad adoption of *diwan* bureaucracy).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_001",
+   "title": "c10_math_cbse_08_001",
+   "questions": [
+    {
+     "q": "In a right triangle ABC, right-angled at B, if angle A = θ, which side is opposite to θ and which side is adjacent to θ? Write the expressions for sin θ, cos θ, and tan θ in terms of the sides AB, BC, and AC.",
+     "a": "In triangle ABC right-angled at B, with angle A = θ: side BC is opposite to θ, side AB is adjacent to θ, and AC is the hypotenuse. Therefore, sin θ = BC/AC, cos θ = AB/AC, tan θ = BC/AB. A wrong answer (e.g., swapping opposite and adjacent) reveals the student cannot correctly identify sides relative to the given angle — a fundamental skill needed for all trigonometry. This error often stems from not fixing the reference angle first.",
+     "self_check": true
+    },
+    {
+     "q": "Two right triangles have the same acute angle θ = 30°. In the first triangle, the opposite side is 3 cm and the hypotenuse is 6 cm. In the second triangle, the opposite side is 5 cm. Explain why the hypotenuse of the second triangle must be 10 cm, using the concept of trigonometric ratios.",
+     "a": "Since sin θ = opposite/hypotenuse and θ is the same (30°) in both triangles, the ratio opposite/hypotenuse must be equal. For the first triangle, sin 30° = 3/6 = 1/2. For the second triangle, opposite/hypotenuse = 5/hypotenuse = 1/2, so hypotenuse = 10 cm. A wrong answer (e.g., saying hypotenuse is 8 cm by adding 2) shows the student does not understand that trigonometric ratios are constant for a given angle — they treat the ratio as a one-time calculation rather than a property of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "In a right triangle PQR, right-angled at Q, PQ = 12 cm and QR = 5 cm. Find sin R, cos R, and tan R. (Angle R is at vertex R.)",
+     "a": "Step 1: Identify sides relative to angle R. Opposite side = PQ = 12 cm, Adjacent side = QR = 5 cm.\nStep 2: Find hypotenuse PR using Pythagoras: PR² = PQ² + QR² = 12² + 5² = 144 + 25 = 169, so PR = 13 cm.\nStep 3: sin R = opposite/hypotenuse = 12/13.\nStep 4: cos R = adjacent/hypotenuse = 5/13.\nStep 5: tan R = opposite/adjacent = 12/5.\nA wrong answer (e.g., sin R = 5/13) reveals the student confused opposite and adjacent sides for angle R. This is the most common error — not re-labelling sides when the reference angle changes.",
+     "self_check": true
+    },
+    {
+     "q": "In right triangle XYZ, right-angled at Y, sin X = 3/5. Without finding the actual side lengths, determine the value of cos X and tan X. Explain your reasoning.",
+     "a": "Given sin X = 3/5 = opposite/hypotenuse. Let opposite = 3k, hypotenuse = 5k. By Pythagoras, adjacent² = (5k)² - (3k)² = 25k² - 9k² = 16k², so adjacent = 4k. Then cos X = adjacent/hypotenuse = 4k/5k = 4/5, and tan X = opposite/adjacent = 3k/4k = 3/4. A wrong answer (e.g., cos X = 3/5) shows the student does not connect sin and cos through the Pythagorean relationship — they treat each ratio as independent rather than linked by the triangle's geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the following problem: \"In right triangle ABC, right-angled at B, AB = 6 cm, BC = 8 cm. Find tan A.\" The student writes: tan A = AB/BC = 6/8 = 3/4. Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The student's answer is incorrect. For angle A, the opposite side is BC = 8 cm and the adjacent side is AB = 6 cm. So tan A = opposite/adjacent = BC/AB = 8/6 = 4/3. The student used adjacent/opposite instead of opposite/adjacent — a classic confusion between tan and cot (though cot is not yet taught). This error reveals the student memorised \"tan = side/side\" without internalising which side is which relative to the angle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, kg, litres) that requires finding an unknown side of a right triangle using one of sin, cos, or tan. The problem must include a diagram description and specify which angle is known. Provide the solution steps.",
+     "a": "Example problem: A ladder 10 metres long leans against a vertical wall. The foot of the ladder is 6 metres away from the wall. Find the height at which the ladder touches the wall, and the angle the ladder makes with the ground.\nSolution: Let θ be the angle with ground. cos θ = adjacent/hypotenuse = 6/10 = 0.6 → θ ≈ 53°. Height = opposite = hypotenuse × sin θ = 10 × sin 53° ≈ 10 × 0.8 = 8 m. (Or use Pythagoras: height = √(10² - 6²) = 8 m). A poor answer (e.g., using tan with wrong sides) shows the student cannot map a word problem to a right triangle diagram and assign sides correctly to the trigonometric ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_005",
+   "title": "c6_math_ch01_005",
+   "questions": [
+    {
+     "q": "In the Indian number system, where do you place the first comma when writing a number?",
+     "a": "The first comma is placed after the third digit from the right (the hundreds place). A wrong answer here suggests the student is trying to force international grouping (every three digits) onto the Indian system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we write 1,00,000 instead of 100,000 in the Indian system.",
+     "a": "We write 1,00,000 to show the transition from the \"thousands\" period to the \"lakhs\" period. A wrong answer shows the student does not understand that commas serve as visual separators for different unit periods.",
+     "self_check": true
+    },
+    {
+     "q": "Write the number \"fifty-five lakh twenty thousand four hundred\" using the correct comma placement.",
+     "a": "The correct answer is 55,20,400. If the student writes 5,520,400, they are confusing the Indian system with the international system (grouping by threes).",
+     "self_check": true
+    },
+    {
+     "q": "Compare 10 lakh and 1 crore. Which one is larger, and how many times larger is it?",
+     "a": "1 crore is larger; it is 10 times larger than 10 lakh. If a student says 100 times, they are miscounting the zeros in the place value transition.",
+     "self_check": true
+    },
+    {
+     "q": "If someone writes a number as 10,00,00,000, can you tell if they are using the Indian system? Why?",
+     "a": "Yes, because the commas are placed after the hundreds, thousands, and lakhs periods, which is unique to the Indian system. If the student focuses only on the zeros, they miss the purpose of the comma structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 7-digit number and write it in words using the Indian system.",
+     "a": "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety.\" A poor answer lacks the correct place-value names or fails to group digits into the correct lakhs/thousands periods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_001",
+   "title": "c12_phy_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the formula for the magnetic force on a charge \\(q\\) moving with velocity \\(\\vec{v}\\) in a magnetic field \\(\\vec{B}\\). What is its SI unit? Give the condition for the force to be maximum.",
+     "a": "**Correct answer:** \\(\\vec{F}_m = q(\\vec{v} \\times \\vec{B})\\); magnitude \\(F_m = q v B \\sin\\theta\\). SI unit: newton (N). Force is maximum when \\(\\theta = 90^\\circ\\) (\\(\\sin\\theta = 1\\)), i.e., velocity perpendicular to magnetic field.  \n**Why a wrong answer reveals misunderstanding:** If a student writes \\(F = qvB\\) without \\(\\sin\\theta\\), they confuse the special case (perpendicular) with the general formula. If they give the unit as tesla or coulomb, they confuse force with field or charge. If they say maximum at \\(\\theta = 0^\\circ\\), they misunderstand the cross product.",
+     "self_check": true
+    },
+    {
+     "q": "An electron moves horizontally northward at \\(2 \\times 10^6 \\, \\text{m/s}\\) in a uniform magnetic field directed vertically downward. Explain why the magnetic force does no work on the electron, and state the direction of the force.",
+     "a": "**Correct answer:** Magnetic force \\(\\vec{F}_m = q(\\vec{v} \\times \\vec{B})\\) is always perpendicular to velocity \\(\\vec{v}\\). Work done \\(W = \\int \\vec{F} \\cdot d\\vec{s} = \\int \\vec{F} \\cdot \\vec{v} \\, dt = 0\\) because \\(\\vec{F} \\perp \\vec{v}\\). For an electron (\\(q = -e\\)), \\(\\vec{v}\\) is north, \\(\\vec{B}\\) is downward. \\(\\vec{v} \\times \\vec{B}\\) (north \\(\\times\\) down) points east by right-hand rule. Since charge is negative, force is **west**.  \n**Why a wrong answer reveals misunderstanding:** If the student says work is non-zero, they confuse magnetic force with electric force (which can have a component along velocity). If they give direction as east, they forgot to reverse for the negative charge. If they say force is vertical, they think force is along \\(\\vec{B}\\) (like electric force along \\(\\vec{E}\\)).",
+     "self_check": true
+    },
+    {
+     "q": "A proton (\\(q = +1.6 \\times 10^{-19} \\, \\text{C}\\)) moves with speed \\(5 \\times 10^5 \\, \\text{m/s}\\) at an angle of \\(30^\\circ\\) to a uniform magnetic field of magnitude \\(0.4 \\, \\text{T}\\). Calculate the magnitude of the magnetic force on the proton.",
+     "a": "**Correct answer with steps:**  \n1. Given: \\(q = 1.6 \\times 10^{-19} \\, \\text{C}\\), \\(v = 5 \\times 10^5 \\, \\text{m/s}\\), \\(B = 0.4 \\, \\text{T}\\), \\(\\theta = 30^\\circ\\).  \n2. Formula: \\(F = q v B \\sin\\theta\\).  \n3. Substitute: \\(F = (1.6 \\times 10^{-19}) \\times (5 \\times 10^5) \\times 0.4 \\times \\sin 30^\\circ\\).  \n4. Compute: \\(\\sin 30^\\circ = 0.5\\). \\(F = 1.6 \\times 10^{-19} \\times 5 \\times 10^5 \\times 0.4 \\times 0.5 = 1.6 \\times 10^{-19} \\times 1 \\times 10^5 = 1.6 \\times 10^{-14} \\, \\text{N}\\).  \n5. Units: C \\(\\cdot\\) m/s \\(\\cdot\\) T = C \\(\\cdot\\) m/s \\(\\cdot\\) (N·s/C·m) = N. ✓  \n**Answer:** \\(1.6 \\times 10^{-14} \\, \\text{N}\\).  \n**Why a wrong answer reveals misunderstanding:** If the student uses \\(\\cos 30^\\circ\\) or omits \\(\\sin\\theta\\), they misremember the cross product magnitude. If they get \\(3.2 \\times 10^{-14} \\, \\text{N}\\), they used \\(\\sin 30^\\circ = 1\\) (forgetting the 0.5). If units come out as T·C·m/s without simplifying to N, they lack unit analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnetic force on a proton and an electron moving with the **same velocity** in the **same magnetic field**. How do the magnitudes and directions differ? What about their accelerations?",
+     "a": "**Correct answer:** Magnitudes are equal: \\(|q|\\) is same (\\(e\\)), \\(v\\), \\(B\\), \\(\\theta\\) same \\(\\Rightarrow F = evB\\sin\\theta\\) same. Directions are **opposite** because charges have opposite signs: \\(\\vec{F}_p = +e(\\vec{v} \\times \\vec{B})\\), \\(\\vec{F}_e = -e(\\vec{v} \\times \\vec{B}) = -\\vec{F}_p\\). Accelerations differ greatly: \\(\\vec{a} = \\vec{F}/m\\). Proton mass \\(m_p \\approx 1.67 \\times 10^{-27} \\, \\text{kg}\\), electron mass \\(m_e \\approx 9.1 \\times 10^{-31} \\, \\text{kg}\\). So \\(a_e \\approx 1836 \\times a_p\\) (electron accelerates much more).  \n**Why a wrong answer reveals misunderstanding:** If the student says magnitudes differ, they confuse charge magnitude with sign. If they say directions are same, they ignore the sign of \\(q\\). If they say accelerations are same, they forget Newton's second law (\\(a = F/m\\)) and the huge mass difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a charged particle moves parallel to a uniform magnetic field, it experiences the maximum magnetic force because the field lines are aligned with its motion.\" Evaluate this statement and correct it.",
+     "a": "**Correct answer:** The statement is **false**. When \\(\\vec{v} \\parallel \\vec{B}\\), \\(\\theta = 0^\\circ\\) (or \\(180^\\circ\\)), \\(\\sin\\theta = 0\\), so magnetic force \\(F = qvB\\sin\\theta = 0\\). The force is **zero**, not maximum. Maximum force occurs at \\(\\theta = 90^\\circ\\) (perpendicular). The student likely confuses \"parallel\" with \"perpendicular\" or thinks magnetic force acts along the field like electric force.  \n**Why a wrong answer reveals misunderstanding:** If the student agrees, they fundamentally misunderstand the cross product: \\(\\vec{v} \\times \\vec{B} = 0\\) when parallel. They may be visualizing field lines as \"pushing\" along their direction (like electric field lines). This is a critical conceptual error that leads to wrong predictions in all subsequent topics (circular motion, velocity selector, etc.).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment (using a cathode-ray tube or a simulation) to demonstrate that the magnetic force on a moving charge is always perpendicular to its velocity. Describe the setup, what you would observe, and how it proves the perpendicular nature.",
+     "a": "**Expected answer:**  \n**Setup:** Use a cathode-ray tube (CRT) with a fluorescent screen. Apply a uniform magnetic field perpendicular to the electron beam (e.g., using a pair of Helmholtz coils or a strong bar magnet placed suitably).  \n**Observation:** The electron beam (visible as a glowing spot/line on the screen) deflects into a **circular arc** on the screen. The deflection is in a plane perpendicular to the magnetic field. If the magnetic field is parallel to the beam, no deflection occurs (spot stays centered).  \n**Proof:** Circular motion requires a centripetal force **perpendicular to velocity** at every instant. Since the magnetic force provides this centripetal force (\\(F = qvB = mv^2/r\\)), it must be perpendicular to \\(\\vec{v}\\). The radius \\(r = mv/(qB)\\) is constant, confirming constant speed (no work done).  \n**Why a poor answer reveals misunderstanding:** If the student describes the beam speeding up or slowing down, they think magnetic force does work. If they say the beam deflects along the field lines, they confuse magnetic with electric force. If they cannot explain why the path is circular, they haven't connected force direction to centripetal acceleration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

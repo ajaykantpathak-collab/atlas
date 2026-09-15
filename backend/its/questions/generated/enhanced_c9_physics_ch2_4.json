@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_4",
+   "title": "c9_physics_ch2_4",
+   "questions": [
+    {
+     "q": "A car moves on a straight highway. Its odometer readings at 10:00 AM, 10:05 AM, 10:10 AM, and 10:15 AM are 1200 km, 1205 km, 1210 km, and 1215 km respectively. Is the car in uniform motion? State the condition for uniform motion.",
+     "a": "Yes, the car is in uniform motion because it covers equal displacements (5 km) in equal time intervals (5 minutes). The condition for uniform motion is constant velocity: equal displacements in equal intervals of time along a straight line. A wrong answer (e.g., saying speed is constant but not checking direction) reveals the student confuses uniform speed with uniform velocity, ignoring the straight-line requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A boy runs around a square track of side 50 m at a constant speed of 5 m/s. Is his motion uniform or non-uniform? Explain why, referencing the definition of velocity.",
+     "a": "The motion is non-uniform. Although speed is constant (5 m/s), the direction changes at each corner of the square track. Velocity is a vector (magnitude + direction); since direction changes, velocity changes. Uniform motion requires constant velocity. A wrong answer (claiming uniform because speed is constant) reveals the misconception that uniform motion only requires constant speed, neglecting the vector nature of velocity.",
+     "self_check": true
+    },
+    {
+     "q": "An object moves along a straight line. Its displacements in successive 3-second intervals are: 6 m, 6 m, 6 m, 9 m, 6 m. Calculate the average velocity for the first 12 seconds and for the total 15 seconds. Is the motion uniform throughout? Justify.",
+     "a": "First 12 s: total displacement = 6+6+6+6 = 24 m (four intervals of 3 s each). Average velocity = 24 m / 12 s = 2 m/s. Total 15 s: total displacement = 24+9 = 33 m. Average velocity = 33 m / 15 s = 2.2 m/s. Motion is NOT uniform throughout because the displacement in the fourth interval (9 m) differs from the others (6 m), indicating changing velocity. A wrong calculation (e.g., averaging speeds) reveals inability to apply the definition of uniform motion to discrete data.",
+     "self_check": true
+    },
+    {
+     "q": "Two distance-time graphs are shown: Graph A is a straight line passing through origin with slope 4 m/s. Graph B is a curve that gets steeper with time. (a) Which graph represents uniform motion? (b) What does the slope of Graph A represent? (c) If Graph B represents a car accelerating from rest, what can you say about its velocity at different times?",
+     "a": "(a) Graph A represents uniform motion because a straight line on a distance-time graph indicates constant speed (equal distances in equal times). (b) The slope of Graph A represents the speed (magnitude of velocity) of the object, which is 4 m/s. (c) For Graph B, the slope increases with time, meaning the velocity increases with time; the car is accelerating. A wrong answer (e.g., saying Graph B is uniform because it's smooth) reveals inability to interpret graphical slope as velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A satellite orbiting Earth at constant speed is in uniform motion because its speed doesn't change.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. Uniform motion requires constant velocity (both magnitude and direction). A satellite in orbit continuously changes direction (towards Earth's center), so its velocity changes even though speed is constant. This is uniform circular motion, which is a type of non-uniform motion. A student who agrees reveals the misconception that constant speed alone defines uniform motion, ignoring the vector nature of velocity and the role of centripetal acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a toy car, a measuring tape, and a stopwatch to determine whether the car moves with uniform or non-uniform motion on a tilted wooden plank. Describe the procedure, data to collect, and how you will conclude.",
+     "a": "Procedure: Mark positions at 20 cm intervals along the plank. Release the car from rest at the top. Use the stopwatch to record the time when the car passes each mark. Calculate displacement per time interval (e.g., 0-20 cm, 20-40 cm). If displacements per equal time intervals are equal, motion is uniform; if they increase, motion is non-uniform (accelerated). A poor answer (e.g., only measuring total time) reveals inability to design an experiment that tests the definition of uniform motion through equal intervals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_002",
+   "title": "c12_eng_k_cbse_06_002",
+   "questions": [
+    {
+     "q": "What are the three distinct times of day referenced in the poem, and what shadow behavior corresponds to each?",
+     "a": "Morning: shadows are long and stretch behind the lovers. Noon: the sun is overhead, shadows disappear beneath their feet. Afternoon: shadows lengthen again but now fall in front of them. A wrong answer (e.g., only two times, or confusing morning/afternoon shadow direction) reveals the student hasn't tracked the spatial logic of the conceit — the foundation for the poem's argument about love's stages.",
+     "self_check": true
+    },
+    {
+     "q": "The poem is divided into two stanzas of 12 lines each. How does the argument shift from the first stanza to the second?",
+     "a": "The first stanza describes the natural phenomenon (shadows shortening to noon) and maps it to love's growth (\"infant loves did grow\"). The second stanza projects the metaphor forward: if love doesn't stay at noon, afternoon shadows will blind the lovers themselves, turning love into \"night\". A wrong answer that only summarizes content without identifying the shift from description to warning shows the student misses the poem's persuasive structure — it's a lecture, not just an observation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the poem's central conceit: if a couple's love is at the \"noone\" stage, what specific danger does the speaker warn about, and what structural feature of the poem mirrors that danger?",
+     "a": "The danger is that love will \"westwardly decline\" into afternoon, producing shadows that \"worke upon our selves, and blind our eyes\" — i.e., self-deception and mutual betrayal. The poem mirrors this by reversing the shadow direction: morning shadows fell behind (blinding others), afternoon shadows fall forward (blinding themselves). A wrong answer that only mentions \"love fading\" without linking to the shadow reversal shows the student hasn't applied the conceit's mechanics to the emotional claim.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poem's rhyme scheme (AABBCCDDEEFF in each stanza) contributes to its lecture-like tone and logical progression.",
+     "a": "The couplets create a step-by-step, declarative rhythm — each pair feels like a completed logical unit (\"Stand still... / ...philosophy\", \"These three houres... / ...produc'd\"). This mimics a lecture's structured reasoning: premise, evidence, conclusion. The regularity contrasts with the poem's warning about chaos (blindness, disguise), reinforcing the speaker's intellectual control. A wrong answer that only identifies the rhyme scheme without connecting it to tone or argument shows the student treats form and content separately.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the speaker's claim: \"Love is a growing, or full constant light; / And his first minute, after noone, is night.\" Is this a realistic view of love, or does the poem's structure undermine it?",
+     "a": "The poem's structure *enacts* the claim: it presents love as binary (growing/constant vs. declining/night) with no middle ground, just as the sun has only one noon. However, the very fact that the speaker must *lecture* his beloved (\"Stand still and I will read to thee\") suggests anxiety — the structure's rigidity may mask fear of inevitable decline. A strong evaluation acknowledges both the logical force of the conceit and the emotional tension beneath it. A weak answer takes the claim at face value or dismisses it without textual support.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza that uses a different natural cycle (e.g., tides, seasons, moon phases) to argue the same idea: love must be constant or it turns into its opposite.",
+     "a": "Example: \"High tide lifts our boat to heaven's gate, / But ebb will drag us to the rocks of hate. / Love must be the moon that holds the sea, / Or drown in darkness, never more to be.\" A good answer maps the cycle's peak to love's perfection and its decline to betrayal, maintaining the cause-effect logic. A poor answer describes the cycle without the argumentative \"or\" structure that makes Donne's poem a lecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_007",
+   "title": "c11_soc_cbse_02_007",
+   "questions": [
+    {
+     "q": "Define deviance in sociological terms and state the two key reasons why an act considered deviant in one society may be normative in another.",
+     "a": "Correct answer: Deviance refers to modes of action that do not conform to norms or values held by most members of a group or society. An act's deviance status varies because (1) norms differ across cultures/subcultures (e.g., beef consumption is normative in Kerala but deviant in parts of North India), and (2) norms change over historical time (e.g., widow remarriage was deviant in 19th century India but is normative today). A wrong answer that defines deviance as 'breaking the law' or 'immoral behaviour' reveals the student conflates legal/moral categories with the sociological concept — they miss that deviance is defined by social reaction, not by the act's intrinsic nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Deviance is objective — murder is deviant everywhere, so deviance cannot be socially constructed.\" Explain why this argument is flawed using the sociological distinction between the act and the social definition of the act.",
+     "a": "Correct answer: The argument confuses the physical act (killing) with the social category 'murder'. All societies have killing, but what counts as 'murder' (unjustified, punishable killing) versus justified killing (war, self-defence, capital punishment, honour killing in some contexts) is socially defined. In medieval Europe, killing a thief was not murder; in some historical contexts, killing a lower-caste person by an upper-caste person was not treated as murder. The social construction lies in the collective definition of which killings are 'deviant' and which are 'legitimate'. A wrong answer that insists 'murder is always wrong' reveals the student cannot separate moral absolutism from sociological analysis — they treat the social definition as a natural fact.",
+     "self_check": true
+    },
+    {
+     "q": "In a corporate office, an employee wears jeans on a day when the unwritten norm is formal wear. Colleagues give disapproving looks and exclude the employee from lunch conversations. Identify: (a) the type of norm violated, (b) the type of sanction applied, (c) the mechanism of social control operating, and (d) whether this is formal or informal social control.",
+     "a": "Correct answer: (a) Folkway / informal norm (unwritten dress code), (b) Negative informal sanction (disapproving looks, social exclusion), (c) Informal social control mechanism (peer pressure, ridicule, ostracism), (d) Informal social control — no codified rule, no official agency, enforced through interpersonal interaction. Steps: 1) Identify the norm — not written in employee handbook, so informal. 2) Identify the sanction — not a fine or firing, but social disapproval. 3) Match to control type — family/peer/kinship agencies, uncodified. 4) Conclude informal. A wrong answer labeling this 'formal control' or 'legal sanction' reveals the student cannot distinguish codified/systematic mechanisms (law, state) from interpersonal/uncodified ones — a core Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a functionalist and a conflict theorist would explain the existence of honour killings in North Indian villages. Your answer must reference: (i) the function of social control, (ii) the role of dominant groups, and (iii) the concept of social order vs. social inequality.",
+     "a": "Correct answer: Functionalist: Honour killings (as extreme informal control) function to maintain caste endogamy norms, reinforce collective conscience, and preserve social cohesion/order by punishing norm-violators — stability is the goal. Conflict theorist: Honour killings are a mechanism by which dominant castes/men impose control over women and lower castes to protect patriarchal property rights and caste hierarchy — 'order' is actually the writ of the powerful over the subordinate. The functionalist sees social control as integrating; the conflict theorist sees it as enforcing inequality. A wrong answer that gives identical explanations for both perspectives reveals the student has not grasped the fundamental theoretical divide: consensus vs. coercion as the basis of social order.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The decriminalisation of homosexuality in India (Navtej Johar v. Union of India, 2018) proves that deviance is socially constructed.\" Provide two supporting arguments and one limitation of this evidence.",
+     "a": "Correct answer: Supporting: (1) The same act (consensual same-sex relations) shifted from 'criminal/deviant' (under Section 377) to 'constitutionally protected/non-deviant' solely through a change in legal-normative definition — no change in the act itself. (2) The judgment explicitly recognised that social morality ≠ constitutional morality, showing deviance definitions reflect power struggles, not natural facts. Limitation: Legal change ≠ full social acceptance; informal sanctions (family rejection, workplace discrimination, violence) persist, showing deviance is also sustained by extra-legal normative orders. A wrong answer that says 'this proves deviance is not real' reveals the student confuses social construction with 'not real' — sociologists argue deviance is *real in its consequences* (Thomas theorem) even if socially constructed.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel example (not from the textbook) of an act that is deviant in one Indian subculture but normative in another, and explain the specific norm, sanction, and social control agency in each context. Your example must involve a status-related norm (caste, gender, or class).",
+     "a": "Expected answer criteria: (1) Clear act (e.g., a Dalit man entering a temple sanctum / a woman riding a motorcycle in a conservative village / a lower-class student speaking English in an elite college). (2) Context A: Identify the norm violated (caste purity / gendered mobility / class-coded language), the sanction (physical assault, social boycott, mockery), the agency (temple priests/dominant caste / khap panchayat/family / peer group/professors). (3) Context B: Identify where the same act is normative (urban temple with anti-discrimination rules / metropolitan city / English-medium professional space) and why norms differ (legal framework, economic modernity, cosmopolitan exposure). A poor example that uses a purely individual preference (e.g., 'eating pizza vs. roti') without status-based norm violation reveals the student cannot link deviance to structural inequality — they treat deviance as lifestyle choice rather than power-laden boundary maintenance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 115,
+  "chapter_title": "Letter-writing",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb115.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb115.1.1",
+      "title": "Letters as Communication: Types and Purposes",
+      "section": "5",
+      "definition": "Letters bridge distance between people, and their form follows their purpose: personal letters to family and friends move between affection and news, while business and official letters -- enquiries, orders, complaints, applications -- follow fixed conventions because they are addressed to strangers and institutions.",
+      "formula": "",
+      "key_idea": "Write to the relationship -- warm and free with friends, formal and exact with strangers.",
+      "textbook_ref": "kehb115.txt opening (letters between distant people, informal letters, formal letters, purposes of letter writing)",
+      "question_patterns": [
+        "what are the main types of letters and their purposes",
+        "in class 11 letter writing: distinguish informal letters from formal letters",
+        "when do we write business letters",
+        "why do official letters follow fixed conventions",
+        "classify given letter topics as formal or informal",
+        "what purposes can a letter serve in daily life"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "identify the recipient",
+          "explain": "Ask who will read it -- a dear one or an office -- since that decides tone and format."
+        },
+        {
+          "step": 2,
+          "action": "match type to purpose",
+          "explain": "News and affection suit personal letters; enquiries, orders, complaints and applications demand formal shape."
+        },
+        {
+          "step": 3,
+          "action": "adopt the conventions",
+          "explain": "Formal letters carry addresses, dates, salutations of title and signed designation; personal letters need only warmth and clarity."
+        }
+      ]
+    },
+    {
+      "id": "kehb115.1.2",
+      "title": "Formal Letters: Layout and Conventions",
+      "section": "5",
+      "definition": "A formal letter follows a strict layout: writer's address and date, receiver's address, a formal salutation, a subject line stating the matter in a phrase, an organised body -- purpose, details, expectation of action -- and a courteous close with signature and name.",
+      "formula": "",
+      "key_idea": "Address, subject, body, close -- the formal letter's four-step etiquette leaves nothing to guesswork.",
+      "textbook_ref": "kehb115.txt formal letter sections (layout, sender address, date, receiver address, subject line, salutation, complimentary close, signature)",
+      "question_patterns": [
+        "describe the layout of a formal letter",
+        "in class 11 letter writing: why is a subject line used in formal letters",
+        "how should the salutation and complimentary close of a formal letter be chosen",
+        "write an application to the principal for leave using the correct format",
+        "where do the writer's and receiver's addresses go in a formal letter",
+        "draft a complaint letter about a defective product"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "set the frame",
+          "explain": "Place writer's address and date at the top, then the receiver's designation and address."
+        },
+        {
+          "step": 2,
+          "action": "state the matter",
+          "explain": "Open with a formal salutation and a crisp subject line; the first paragraph announces the purpose."
+        },
+        {
+          "step": 3,
+          "action": "close properly",
+          "explain": "Request the action expected, sign off with the fitting complimentary close, name and designation."
+        }
+      ]
+    },
+    {
+      "id": "kehb115.1.3",
+      "title": "Personal Letters: Tone and Content",
+      "section": "5",
+      "definition": "Personal letters trade formality for voice: an informal salutation, conversational sentences, news and feelings shared in natural order, enquiries after the reader's health, and an affectionate close. Clarity still matters -- one matter at a time, told so a distant reader can follow.",
+      "formula": "",
+      "key_idea": "Sound like yourself on paper -- warmth, news and affection, still arranged so the reader follows.",
+      "textbook_ref": "kehb115.txt personal letter sections (informal salutation, sharing news, asking about welfare, affectionate close, conversational tone)",
+      "question_patterns": [
+        "what are the features of a personal letter",
+        "in class 11 letter writing: how does the tone of a personal letter differ from a formal one",
+        "write a letter to a friend describing a festival you attended",
+        "what courtesies open and close a personal letter",
+        "should personal letters have a subject line discuss",
+        "share news of a school event in a letter to your brother"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "open warmly",
+          "explain": "Greet with affection and ask after the reader before launching into your news."
+        },
+        {
+          "step": 2,
+          "action": "tell it in order",
+          "explain": "Narrate events or feelings in a natural sequence, in your own conversational voice."
+        },
+        {
+          "step": 3,
+          "action": "close with love",
+          "explain": "End with regards and an affectionate signature -- no subject line, no designation needed."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb115.txt formal letter guidance",
+      "concept": "kehb115.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Point out the faults in a leave application that begins 'Dear Sir, I will not come to school because I have a wedding at home' and lacks addresses.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the missing frame",
+          "explain": "No addresses or date -- the formal frame is absent."
+        },
+        {
+          "step": 2,
+          "action": "note the missing subject",
+          "explain": "A formal application needs a subject line naming its purpose."
+        },
+        {
+          "step": 3,
+          "action": "repair",
+          "explain": "Add sender address, date, receiver's designation, subject 'Leave of absence', a proper salutation, and a signed close."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb115.txt personal letter guidance",
+      "concept": "kehb115.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A student writes to a friend using 'Respected Sir' and a subject line 'Regarding my visit'. Why is this letter mis-typed, and how should it read?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "spot the borrowed formality",
+          "explain": "These are formal-letter conventions transplanted into a personal letter."
+        },
+        {
+          "step": 2,
+          "action": "apply the tone rule",
+          "explain": "To a friend, the salutation is affectionate ('Dear Ravi') and no subject line is used."
+        },
+        {
+          "step": 3,
+          "action": "rewrite the frame",
+          "explain": "Open with warmth, share the visit news conversationally, and close with an affectionate sign-off."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb115.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Write a formal letter to a company enquiring about a product.",
+        "Write a letter of complaint about delayed delivery of books.",
+        "Write a personal letter to a cousin describing your new school.",
+        "Identify the errors in a given faulty formal letter.",
+        "Explain the parts of a formal letter with their positions.",
+        "Why does tone change between formal and personal letters?"
+      ]
+    }
+  ]
+}

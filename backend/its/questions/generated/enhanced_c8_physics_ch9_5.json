@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_5",
+   "title": "c8_physics_ch9_5",
+   "questions": [
+    {
+     "q": "What is the SI unit of weight, and how does it differ from the SI unit of mass?",
+     "a": "Weight is measured in newtons (N), mass in kilograms (kg). A wrong answer (e.g., \"weight in kg\") reveals the student confuses mass (amount of matter) with weight (force due to gravity), a fundamental misconception that prevents understanding why gravity's pull is a force.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Earth have a thick atmosphere while the Moon has almost none, even though both have gravity?",
+     "a": "Earth's stronger gravity (due to larger mass) pulls gas molecules down hard enough to prevent most from reaching escape velocity; the Moon's weaker gravity cannot retain them. A wrong answer (e.g., \"Moon has no air because it's smaller\") shows the student doesn't connect gravitational strength to atmospheric retention – they state a fact without the causal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A school bag has a mass of 5 kg. Calculate its weight on Earth. (Take g = 9.8 m/s²)",
+     "a": "Step 1: Identify given: m = 5 kg, g = 9.8 m/s². Find: W.\nStep 2: Formula W = m × g. Units: kg × m/s² = N.\nStep 3: Substitute: W = 5 kg × 9.8 m/s².\nStep 4: Compute: 5 × 9.8 = 49. Unit: kg·m/s² = N.\nStep 5: Weight = 49 N. Reasonable: a 5 kg bag weighs ~5 kgf ≈ 49 N.\nA wrong answer (e.g., 5 N or 49 kg) reveals either forgetting to multiply by g or confusing weight units with mass units.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two planets: Planet A has mass 2× Earth's mass and radius 2× Earth's radius. Planet B has mass 4× Earth's mass and radius 2× Earth's radius. Which planet has stronger surface gravity? Explain without calculating exact g.",
+     "a": "Surface gravity g ∝ M/R². Planet A: g_A ∝ 2M/(2R)² = 2M/4R² = 0.5 (M/R²). Planet B: g_B ∝ 4M/(2R)² = 4M/4R² = 1 (M/R²). Planet B has stronger gravity (same as Earth), Planet A has half. A wrong answer (e.g., \"Planet A because it's more massive\") shows the student ignores the radius squared dependence – they think only mass matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If gravity pulls everything down, a helium balloon should fall too, but it rises. So gravity doesn't act on it.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Gravity acts on the balloon (it has mass), but buoyant force (upward push from denser surrounding air) exceeds its weight, causing net upward motion. Gravity still pulls it down. A wrong evaluation (agreeing with the student) reveals the misconception that gravity only acts on falling objects, not understanding that multiple forces can act simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a kitchen scale, a balloon, and a pump to demonstrate that air has weight because of gravity.",
+     "a": "Weigh an empty balloon on the scale (tare it). Inflate the balloon with the pump, tie it, and place it on the scale again. The reading increases, showing the added air has weight. A poor answer (e.g., \"measure the balloon's size\") fails to isolate the weight of air from the balloon's material, missing the key idea that gravity gives air measurable weight.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

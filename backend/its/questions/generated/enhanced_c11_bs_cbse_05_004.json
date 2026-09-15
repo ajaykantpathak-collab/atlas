@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_004",
+   "title": "c11_bs_cbse_05_004",
+   "questions": [
+    {
+     "q": "State any three bases of distinction between traditional business and e-business from NCERT Table 5.1.",
+     "a": "Correct answer: Any three from: Ease of formation, Physical presence, Locational requirements, Cost of setting up, Operating cost, Nature of contact with suppliers/customers, Nature of internal communication, Response time, Shape of organisational structure, Business processes and cycle length, Opportunity for interpersonal touch, Opportunity for physical pre-sampling, Ease of going global, Government patronage, Nature of human capital, Transaction risk. \nA wrong answer (e.g., \"profit margin\" or \"number of employees\") reveals the student has not memorized the specific comparative bases from the textbook table and is confusing general business concepts with the prescribed comparison framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"shape of organisational structure\" differs between traditional business (vertical/tall) and e-business (horizontal/flat).",
+     "a": "Correct answer: Traditional business relies on hierarchical chain of command (top→middle→lower→operatives) for communication and control, creating many management layers (tall). E-business uses networked communication (intranet, email, video conferencing) enabling direct vertical, horizontal, and diagonal communication across departments, removing middle layers (flat). \nA wrong answer focusing only on \"less managers\" or \"technology makes it flat\" without explaining the shift from hierarchical to networked communication flow reveals the student memorized the labels but not the causal mechanism linking communication mode to structure.",
+     "self_check": true
+    },
+    {
+     "q": "A traditional bookstore owner wants to start selling online. Using the \"Business processes and length of the cycle\" basis, explain how the order-to-delivery cycle changes when moving from traditional to e-business.",
+     "a": "Correct answer: Traditional: Sequential cycle — purchase inventory → store → market → sell → deliver (long cycle). E-business: Simultaneous processes — online order triggers inventory check, payment processing, and shipping label generation concurrently; digital products (e-books) deliver instantly (short cycle). \nA wrong answer describing only \"faster delivery\" without contrasting sequential vs simultaneous process flow reveals the student confuses speed with structural process redesign.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Transaction risk\" in traditional vs e-business. Why is risk higher in e-business despite secure payment gateways?",
+     "a": "Correct answer: Traditional: Low risk due to arm's-length, face-to-face contact allowing physical verification of parties and goods. E-business: High risk due to anonymity (cyber personalities), non-traceability (unknown location), impersonation, data leakage, virus/hacking — even with SSL, identity verification remains probabilistic, not physical. \nA wrong answer citing only \"online fraud\" or \"hacking\" without contrasting the fundamental difference in verification mechanism (physical vs digital identity) reveals superficial understanding of risk nature.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"E-business completely eliminates the need for physical infrastructure.\" Defend or refute using at least three bases from Table 5.1.",
+     "a": "Correct answer: Refute. 1) Physical presence: E-business still needs warehouses, logistics, server farms. 2) Locational requirements: Proximity to raw materials/market still matters for fulfilment speed. 3) Operating cost: Low but not zero — logistics, packaging, returns handling remain physical. 4) Pre-sampling: Physical goods (garments, furniture) still need touch/feel; only digitizable products eliminate this. \nA wrong answer agreeing with the statement reveals the misconception that \"virtual\" means \"zero physical assets,\" ignoring the physical fulfilment layer.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new comparison basis not in Table 5.1 that is relevant for a service-based business (e.g., tutoring, consulting) choosing between traditional and e-mode. Define the basis and describe both sides.",
+     "a": "Correct answer example: Basis: \"Scalability of service delivery.\" Traditional: Limited by physical space, teacher hours, local demand — linear scaling (add center, hire tutor). E-business: One recorded course serves unlimited students globally; live sessions scale via group webinars — exponential scaling with near-zero marginal cost. \nA poor answer repeating existing bases (e.g., \"global reach\") or giving vague descriptions reveals inability to synthesize a novel analytical dimension from the core concept of digitisation vs physical constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

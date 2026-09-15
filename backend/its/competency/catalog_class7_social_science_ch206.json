@@ -1,0 +1,366 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 206,
+ "chapter_title": "Human Environment Interactions: The Tropical and the Subtropical Region (Forests and River Basins)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\gess206.txt",
+ "concepts": [
+  {
+   "id": "gess.206.1",
+   "title": "Location and Physical Geography of the Amazon Basin",
+   "section": "Life in the Amazon Basin",
+   "definition": "The equatorial geographic region in South America situated between 10 degrees North and 10 degrees South latitudes surrounding the Amazon river system.",
+   "formula": "none",
+   "key_idea": "The Amazon drainage network forms the globe's largest river basin directly straddling the equator.",
+   "textbook_ref": "gess206.txt lines 20-50",
+   "question_patterns": [
+    "in Class 7 geography: where is the Amazon Basin located",
+    "identify the equatorial latitude boundaries of the Amazon region",
+    "name the ocean into which the river Amazon discharges its waters",
+    "which South American countries form part of the Amazon river catchment area",
+    "what is meant by a river mouth and river basin in equatorial geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify latitude range",
+     "explain": "The equatorial region stretches between 10 degrees North and 10 degrees South."
+    },
+    {
+     "step": 2,
+     "action": "trace river path",
+     "explain": "The river originates in western mountains and flows east into the Atlantic Ocean."
+    },
+    {
+     "step": 3,
+     "action": "identify the catchment countries",
+     "explain": "The Amazon basin spans several South American countries including Brazil, Peru, Colombia, and Bolivia, making it the largest river basin in the world."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.2",
+   "title": "Climate and Biodiversity of the Amazon Rainforest",
+   "section": "Climate and Rainforests",
+   "definition": "A hot and wet tropical forest biome near the equator characterized by constant heavy rain, a thick foliage roof, epiphytic plants, and diverse fauna.",
+   "formula": "none",
+   "key_idea": "Constant warmth and heavy precipitation nurture dense evergreen canopy layers and exotic species.",
+   "textbook_ref": "gess206.txt lines 51-110",
+   "question_patterns": [
+    "describe the daily climatic conditions of the Amazon equatorial forest",
+    "what types of parasitic and water-storing plants grow in the dense Amazon canopy",
+    "identify major animal and bird species found in the Amazon rainforest",
+    "explain why the ground inside an Amazon forest remains dark and damp",
+    "what special structural features distinguish Amazonian birds like toucans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe atmospheric conditions",
+     "explain": "High heat and moisture remain constant throughout day and night with daily rainfall."
+    },
+    {
+     "step": 2,
+     "action": "examine vegetation structure",
+     "explain": "Thick leaf roof blocks solar radiation, favoring shade-tolerant parasites like orchids and bromeliads."
+    },
+    {
+     "step": 3,
+     "action": "identify key fauna species",
+     "explain": "The rainforest supports diverse animals including monkeys, sloths, anteaters, and birds like toucans with large beaks adapted for reaching fruit in the dense canopy."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.3",
+   "title": "Human Adaptation and Farming Practices in the Amazon Rainforest",
+   "section": "People of the Rainforests",
+   "definition": "Forest settlement practices centered on slash-and-burn farming, root crops like manioc, communal Maloca housing, and modern highway impacts.",
+   "formula": "none",
+   "key_idea": "Shifting cultivation and traditional architecture adapt to rainforest conditions, though modern access leads to habitat depletion.",
+   "textbook_ref": "gess206.txt lines 111-160",
+   "question_patterns": [
+    "explain the process and benefits of slash and burn agriculture",
+    "what is manioc or cassava and how is it cultivated in the Amazon",
+    "describe the traditional housing structures known as Maloca",
+    "how has the Trans-Amazon highway impacted indigenous rainforest communities",
+    "what causes environmental depletion in the Amazon rainforest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain slash and burn cycle",
+     "explain": "Trees are felled and burned to release mineral nutrients into soil for initial planting."
+    },
+    {
+     "step": 2,
+     "action": "assess environmental impact",
+     "explain": "Infrastructure projects and continuous land clearance cause topsoil erosion and forest loss."
+    },
+    {
+     "step": 3,
+     "action": "describe traditional food and housing adaptations",
+     "explain": "Indigenous communities grow manioc as a staple root crop and live in communal Maloca houses with slanting roofs designed to handle heavy equatorial rainfall."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.4",
+   "title": "Geography and Climate of the Ganga-Brahmaputra Basin",
+   "section": "Life in the Ganga-Brahmaputra Basin",
+   "definition": "A subtropical Asian river basin located between 10 degrees North and 30 degrees North latitudes, characterized by vast alluvial plains, Himalayan mountain slopes, and monsoon seasons.",
+   "formula": "none",
+   "key_idea": "Extensive lowlands fed by major Himalayan snowfed streams and seasonal monsoon currents support high settlement densities.",
+   "textbook_ref": "gess206.txt lines 161-210",
+   "question_patterns": [
+    "in Class 7 geography: specify the latitudinal extent of the Ganga-Brahmaputra basin",
+    "name the principal tributaries feeding into the Ganga and Brahmaputra rivers",
+    "describe the dominant seasonal climate governing the Ganga-Brahmaputra plain",
+    "what are ox-bow lakes and where are they found in river plains",
+    "identify the prominent landform regions comprising the Ganga-Brahmaputra basin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate geographical bounds",
+     "explain": "The basin lies in the subtropical zone between 10 degrees North and 30 degrees North."
+    },
+    {
+     "step": 2,
+     "action": "characterize climate and terrain",
+     "explain": "Monsoons bring heavy summer rain across flat plains, Sundarbans delta, ox-bow lakes, and mountain foothills."
+    },
+    {
+     "step": 3,
+     "action": "identify major tributaries and landforms",
+     "explain": "The Ganga is fed by tributaries like Yamuna, Ghaghra, and Kosi, while the basin includes alluvial plains, the Sundarbans delta, and Himalayan mountain slopes."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.5",
+   "title": "Population Density Calculation in Regional Demography",
+   "section": "Population Density",
+   "definition": "The mathematical measurement of human concentration calculated by dividing total headcount by the corresponding surface land area in square kilometers.",
+   "formula": "density = population / area",
+   "key_idea": "Dividing resident population count by territorial area yields average human spatial concentration.",
+   "textbook_ref": "gess206.txt lines 211-230",
+   "question_patterns": [
+    "in Class 7 geography: calculate the population density of a region given population and area",
+    "find the population density when a total population of people lives in a square km area",
+    "compute average human concentration per square kilometer for a given district",
+    "determine the settlement density from total headcount and surface expanse",
+    "what is the population density if a land area contains a specified number of residents"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total headcount by area",
+     "explain": "Population density equals total population count divided by total land area in square kilometers",
+     "compute": "density = population / area"
+    },
+    {
+     "step": 2,
+     "action": "round the result to a meaningful precision",
+     "explain": "The raw division result is rounded to one or two decimal places to express population density in persons per square kilometer."
+    },
+    {
+     "step": 3,
+     "action": "interpret the computed density value",
+     "explain": "A higher density value indicates greater human concentration, helping compare settlement patterns across different regions of the basin."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.6",
+   "title": "Agricultural Systems and Terrace Farming in the Ganga-Brahmaputra Basin",
+   "section": "Agriculture and Topography",
+   "definition": "Farming practices adapted to regional terrain, ranging from water-intensive paddy on plain alluvium to stepped terraces on mountain slopes.",
+   "formula": "none",
+   "key_idea": "Flat fertile plains enable high-yield paddy and cash crops while stepped hill terraces reduce soil water runoff.",
+   "textbook_ref": "gess206.txt lines 231-270",
+   "question_patterns": [
+    "why is paddy the dominant agricultural crop in the Ganga-Brahmaputra plains",
+    "how does terrace farming prevent soil erosion on mountain slopes",
+    "list the major cash crops and plantation crops grown in West Bengal and Assam",
+    "explain the relationship between topography and crop selection in northern India",
+    "what role does silk production play in the local economy of Bihar and Assam"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze lowland cropping",
+     "explain": "Abundant rain and fertile plain soils make paddy cultivation primary."
+    },
+    {
+     "step": 2,
+     "action": "explain terrace mechanism",
+     "explain": "Carving flat steps along hillside gradients retards steep water runoff."
+    },
+    {
+     "step": 3,
+     "action": "identify major cash crops and plantations",
+     "explain": "West Bengal and Assam grow cash crops like jute, tea, and sugarcane, while Bihar and Assam support silk production through sericulture."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.7",
+   "title": "Natural Vegetation, Wildlife and River Ecosystem Health",
+   "section": "Vegetation and Wildlife",
+   "definition": "Diverse ecological zones containing deciduous forests, delta mangroves, mountain conifers, and bio-indicator fauna like the Susu dolphin.",
+   "formula": "none",
+   "key_idea": "Elevation variations govern natural flora while species like blind dolphins reveal river water purity.",
+   "textbook_ref": "gess206.txt lines 271-330",
+   "question_patterns": [
+    "identify vegetation types corresponding to plain, delta, and mountain zones",
+    "where are the one-horned rhinoceros and Bengal tiger naturally found",
+    "what is the Susu dolphin and why is it an indicator of river health",
+    "how do untreated urban pollutants affect freshwater species in the Ganga",
+    "which coniferous tree species thrive in cold high-altitude mountain slopes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map vegetation zones",
+     "explain": "Deciduous trees cover plain lands, mangroves dot deltas, and conifers grow on cold mountain slopes."
+    },
+    {
+     "step": 2,
+     "action": "evaluate bio-indicator status",
+     "explain": "Susu blind dolphins require clean fresh river water and perish under heavy industrial chemical discharge."
+    },
+    {
+     "step": 3,
+     "action": "identify key wildlife species and their habitats",
+     "explain": "The one-horned rhinoceros is found in Kaziranga, Assam, the Bengal tiger inhabits the Sundarbans delta, and coniferous trees like deodar and fir grow on cold high-altitude slopes."
+    }
+   ]
+  },
+  {
+   "id": "gess.206.8",
+   "title": "Urbanization, Transport Networks, Conservation and Tourism",
+   "section": "Cities, Transport and Tourism",
+   "definition": "Demographic centers along river corridors supported by multiple transit options, federal river restoration initiatives, and cultural heritage sites.",
+   "formula": "none",
+   "key_idea": "Dense riverfront cities stimulate trade and transport networks, necessitating conservation programs like Namami Gange.",
+   "textbook_ref": "gess206.txt lines 331-380",
+   "question_patterns": [
+    "name major riverine cities with population over ten lakhs situated along the Ganga",
+    "describe the four modes of transportation available in the Ganga-Brahmaputra plain",
+    "what is the main objective of the Namami Gange programme",
+    "identify major historical and wildlife tourism sites in the Ganga-Brahmaputra basin",
+    "why is Kolkata an important port city on the river Hooghly"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify urban infrastructure",
+     "explain": "Populous urban centers line the Ganga connected by roads, railways, inland water routes, and airways."
+    },
+    {
+     "step": 2,
+     "action": "state conservation objectives",
+     "explain": "Programs such as Namami Gange focus on treating municipal wastewater to protect river health."
+    },
+    {
+     "step": 3,
+     "action": "identify tourism and cultural heritage sites",
+     "explain": "The basin hosts major tourism destinations including the Taj Mahal at Agra, wildlife sanctuaries like Kaziranga, and pilgrimage cities such as Varanasi along the Ganga."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess206.txt page 44",
+   "concept": "gess.206.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the population density of a province with a total population of {population} people and a total surface land area of {area} square kilometers.",
+   "extracted_variables": {
+    "population": 10088700,
+    "area": 53380
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total population by land area",
+     "explain": "Population density equals human headcount divided by total land surface area",
+     "compute": "density = population / area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess206.txt page 44",
+   "concept": "gess.206.5",
+   "question_type": "compute",
+   "question_pattern": "A region has an estimated population of {population} inhabitants living over an expanse of {area} square km. Compute the population density.",
+   "extracted_variables": {
+    "population": 91276000,
+    "area": 88752
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide population by surface area",
+     "explain": "Population density is computed by taking population divided by surface area",
+     "compute": "density = population / area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gess206.txt page 47 exercise 1",
+   "questions": [
+    "Name continent and characterise it briefly in your own words.",
+    "State clearly what amazon means in this chapter and why it matters.",
+    "Name rainforests and characterise it briefly in your own words.",
+    "State clearly what located means in this chapter and why it matters.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about rhinoceros."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "gess206.txt page 47 exercise 2",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about animals.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about africa.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about bhagirathi.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about coniferous.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about mountains."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "gess206.txt page 47 exercise 3",
+   "questions": [
+    "Match the items: Cotton textile, Maloca, Piranha, Silk worm, Kaziranga with Assam, Terrace farming, Sericulture, Slanting roof, Ganga plain, Varanasi, Fish."
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "gess206.txt page 47 exercise 4",
+   "questions": [
+    "Give reason: The rainforests are depleting.",
+    "Give reason: Paddy is grown in the Ganga-Brahmaputra plains."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

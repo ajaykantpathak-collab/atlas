@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_004",
+   "title": "c11_geo_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the total geographical area of India, and what is its rank in the world by area?",
+     "a": "The total geographical area of India is 3.287 million square kilometres (3,287,263 km²), making it the seventh-largest country in the world. A wrong answer (e.g., 2.5 million km² or rank 5th) reveals that the student has not memorised the key statistical fact about India's size, which is a fundamental datum for understanding its geographical scale.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India have a large number of states and union territories compared to many other countries of similar size?",
+     "a": "India's administrative divisions reflect its immense linguistic, cultural, ethnic, and geographical diversity. The Constitution allows for the creation of states based on language (States Reorganisation Act, 1956), historical princely state boundaries, and administrative convenience. A wrong answer that attributes it only to population size or British legacy shows the student misses the multifaceted basis (linguistic, cultural, geographical) of Indian federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Using the political map of India, identify the state that shares its boundary with the maximum number of other states/UTs. How many does it share boundaries with?",
+     "a": "Uttar Pradesh shares boundaries with 9 states/UTs: Uttarakhand, Himachal Pradesh, Haryana, Delhi, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, and Bihar. (Also touches Nepal internationally). Steps: 1) Locate Uttar Pradesh on the map. 2) Count all adjacent states/UTs. 3) Verify with a list. A wrong answer (e.g., Madhya Pradesh or Maharashtra) indicates the student cannot visually analyse inter-state boundaries on a map, a key spatial skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area of Rajasthan (largest state) and Goa (smallest state). What is the approximate ratio of their areas, and what geographical factors explain this disparity?",
+     "a": "Rajasthan (~342,239 km²) is about 92 times larger than Goa (~3,702 km²). The disparity arises because Rajasthan covers a vast arid plateau and desert region (Thar Desert) with low population density historically, while Goa is a small coastal strip on the Western Ghats with a distinct historical identity (Portuguese colony) and high population density. A wrong answer that attributes size only to population or only to physical geography shows the student cannot synthesise historical and physical factors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the decision to create Union Territories (UTs) instead of states for certain regions like Chandigarh, Delhi, and Puducherry. Is this classification still justified today?",
+     "a": "UTs were created for regions that were too small, strategically vital, or had distinct administrative needs (e.g., Delhi as capital, Chandigarh as shared capital, Puducherry as former French enclave). Some UTs like Delhi and Puducherry now have legislatures, blurring the line. The classification remains justified for strategic/central control but demands review for democratic representation. A wrong answer that sees UTs as merely \"small states\" misses the strategic and historical nuances.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new state or UT based on geographical, cultural, and administrative criteria. Justify your proposal with at least three reasons.",
+     "a": "A good proposal might suggest creating a new state from a large existing state (e.g., splitting Uttar Pradesh into Purvanchal, Bundelkhand, etc.) citing: 1) Large area/population making governance difficult, 2) Distinct cultural/linguistic region (e.g., Bhojpuri-speaking), 3) Economic backwardness needing focused development. A poor proposal lacks geographical reasoning (e.g., arbitrary boundaries) or ignores constitutional provisions (Article 3).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

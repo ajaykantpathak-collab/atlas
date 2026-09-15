@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_006",
+   "title": "c11_soc_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the three defining characteristics of a 'social fact' according to Durkheim, using the exact terminology from *The Rules of Sociological Method*.",
+     "a": "The three characteristics are: (1) **Externality** — social facts exist outside individual consciousness; (2) **Constraint** — they exert coercive pressure on individuals to conform; (3) **Collectivity/Generality** — they are collective representations, not individual attributes. A wrong answer that lists only 'norms' or 'values' misses the crucial ontological claim: social facts are *sui generis* realities, not mere summaries of individual preferences. If a student says 'social facts are things people believe', they have confused the *content* (beliefs) with the *mode of existence* (external and constraining).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: 'Durkheim's suicide study proves that society causes suicide, so individual psychology is irrelevant.' Explain why this misrepresents Durkheim's argument, using the distinction between *suicide rates* and *individual suicides*.",
+     "a": "Durkheim explicitly states that each individual suicide has its own unique psychological causes; sociology explains the *rate* — the statistical tendency of a group — not the individual case. The rate is a social fact because it is external to any one person, constrains the group's collective behaviour, and varies with social structure (integration/regulation). A wrong answer that claims 'Durkheim ignores psychology' reveals a category error: the student conflates *explanatory level* (social vs individual) with *causal exclusivity*. Durkheim's method requires *both* levels: psychology explains the mechanism, sociology explains the distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following hypothetical data for two communities in a given year, calculate the suicide rate per 100,000 population for each and identify which community's rate Durkheim would predict to be higher based on *integration* theory. Community A: Population 50,000, 15 suicides, predominantly Catholic, strong parish networks. Community B: Population 40,000, 20 suicides, predominantly Protestant, weak congregational ties.",
+     "a": "**Step 1:** Formula: Suicide Rate = (Number of Suicides / Total Population) × 100,000.  \n**Step 2:** Community A: (15 / 50,000) × 100,000 = 30 per 100,000.  \n**Step 3:** Community B: (20 / 40,000) × 100,000 = 50 per 100,000.  \n**Step 4:** Durkheim's integration theory predicts higher rates where social integration is lower. Protestantism (emphasis on individual interpretation) yields weaker integration than Catholicism (strong collective ritual/authority).  \n**Step 5:** Community B has the higher rate (50 vs 30), consistent with Durkheim's finding that Protestant communities exhibit higher *egoistic* suicide rates due to lower integration. A wrong answer that only calculates rates without linking to integration theory shows mechanical computation without sociological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Durkheim's explanation for the *increase* in suicide rates during economic crises (booms or busts) with a purely economic explanation (e.g., 'poverty causes suicide'). Use the concepts of *anomie* and *regulation* to show how Durkheim's account differs in causal logic.",
+     "a": "An economic explanation treats poverty (material deprivation) as the direct cause: less money → more despair → more suicide. Durkheim's *anomic* suicide explanation treats *deregulation* — the breakdown of normative limits on desires — as the cause, which occurs in *both* sudden poverty (bust) and sudden wealth (boom). In a boom, old norms restrain new appetites inadequately; in a bust, old expectations clash with new reality. Both disrupt the *moral regulation* of aspirations. A wrong answer that says 'Durkheim agrees poverty causes suicide' misses the theoretical inversion: for Durkheim, it is not the *material condition* but the *normative vacuum* that is pathogenic. The evidence: suicide rates often *fall* during wars (increased regulation) despite greater material hardship.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim using Durkheim's methodology: 'Since Japan has a high suicide rate, Japanese culture must be inherently suicidal.' Your critique must address (a) the ecological fallacy, (b) the distinction between rate and case, and (c) the need for comparative analysis of social structure.",
+     "a": "(a) **Ecological fallacy**: A high *national* rate does not imply every Japanese individual or subgroup has high risk; rates vary by region, age, gender, and integration level. (b) **Rate vs case**: The rate is a social fact (collective, constraining); attributing it to 'culture' as a monolithic essence reifies a statistical pattern into a cultural stereotype, ignoring structural variables (e.g., labour market precarity, family isolation, mental health stigma). (c) **Comparative method**: Durkheim would demand comparison *within* Japan (e.g., urban vs rural, employed vs unemployed, married vs single) and *across* societies with similar cultural traits but different rates (e.g., South Korea vs Japan) to isolate structural determinants. A weak critique that merely says 'culture is complex' fails to deploy Durkheim's specific methodological tools: social facts require structural, not essentialist, explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research proposal (200 words) to test Durkheim's hypothesis that 'suicide varies inversely with the degree of integration of the social groups of which the individual forms a part' using contemporary Indian data. Specify: (i) the social groups to compare, (ii) the integration indicators, (iii) the data sources, and (iv) the expected pattern if Durkheim holds.",
+     "a": "**Proposal**: Compare suicide rates (NCRB data) across Indian states stratified by (i) **religious minority concentration** (Muslims, Christians, Sikhs as distinct groups with varying communal integration), (ii) **household structure** (joint vs nuclear family prevalence from Census), (iii) **caste-based occupational segregation** (SC/ST workforce participation in traditional vs modern sectors). **Integration indicators**: (a) participation in collective rituals (survey data), (b) density of community organisations per capita, (c) inter-caste marriage rates (proxy for boundary permeability). **Data sources**: NCRB Accidental Deaths & Suicides in India (annual), Census 2011/2021, India Human Development Survey (IHDS), National Family Health Survey (NFHS). **Expected pattern**: States/districts with higher ritual participation, denser community organisations, and lower inter-caste marriage (stronger group boundaries) will show *lower* suicide rates *within* those groups, controlling for economic variables. A poor proposal uses only state-level aggregates without group-level disaggregation, committing the ecological fallacy Durkheim warned against.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

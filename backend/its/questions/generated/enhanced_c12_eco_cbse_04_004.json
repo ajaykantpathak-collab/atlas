@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_004",
+   "title": "c12_eco_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define supernormal profit, normal profit, and loss for a perfectly competitive firm in the short run using the relationship between price, average total cost, and average variable cost.",
+     "a": "Supernormal profit: Price > ATC at the profit-maximizing output. Normal profit: Price = ATC (firm covers all explicit and implicit costs). Loss: AVC < Price < ATC (firm covers variable costs and part of fixed costs, so it continues production). A wrong answer that says \"loss occurs when price < AVC\" reveals confusion between the loss-minimizing production decision and the shutdown condition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the condition MR = MC is necessary but not sufficient for profit maximization, and why the MC curve must be rising at the equilibrium output.",
+     "a": "MR = MC identifies points where total profit is stationary (could be maximum, minimum, or inflection). The rising MC condition (MC cutting MR from below) ensures that moving away from that output reduces profit. If MC is falling at the intersection, the firm can increase profit by expanding output. A wrong answer that only states \"MR = MC\" without the rising MC condition shows incomplete understanding of second-order conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A firm in perfect competition faces a market price of ₹500. Its total cost function is TC = 1000 + 50Q + 2Q². Calculate the profit-maximizing output, total revenue, total cost, and profit/loss. State whether the firm earns supernormal profit, normal profit, or a loss.",
+     "a": "Step 1: MR = Price = ₹500. Step 2: MC = d(TC)/dQ = 50 + 4Q. Step 3: Set MR = MC → 500 = 50 + 4Q → Q = 112.5 units. Step 4: Check MC slope: d(MC)/dQ = 4 > 0 (rising). Step 5: TR = 500 × 112.5 = ₹56,250. TC = 1000 + 50(112.5) + 2(112.5)² = 1000 + 5625 + 25312.5 = ₹31,937.5. Profit = TR - TC = ₹24,312.5 > 0 → supernormal profit. A wrong output (e.g., Q=100) reveals algebraic error or ignoring the derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two firms A and B in the same perfectly competitive market with price ₹300. Firm A has ATC = ₹250 at its MR=MC output; Firm B has ATC = ₹350 at its MR=MC output. Both have AVC < ₹300. Analyze their short-run equilibrium positions and explain why Firm B continues to produce despite making a loss.",
+     "a": "Firm A: P(300) > ATC(250) → supernormal profit of ₹50 per unit. Firm B: P(300) < ATC(350) but P > AVC → loss of ₹50 per unit. Firm B continues because its revenue covers all variable costs and contributes ₹50 per unit toward fixed costs; shutting down would mean losing the entire fixed cost. A wrong answer saying Firm B should shut down immediately confuses loss with shutdown condition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the short run, a perfectly competitive firm always produces at the minimum point of its average total cost curve.\" Provide a counterexample using a diagram or numerical example.",
+     "a": "The statement is false. Short-run equilibrium occurs where MR = MC (with MC rising), which is not necessarily at the minimum ATC. Minimum ATC is a long-run equilibrium outcome. Counterexample: Price = ₹400, MC = 100 + 2Q, ATC = 1000/Q + 100 + Q. MR=MC gives Q=150, ATC at Q=150 = 1000/150+100+150 ≈ 256.67, min ATC occurs at Q=√1000≈31.6. The firm produces at Q=150, not at min ATC. A wrong answer agreeing with the statement confuses short-run and long-run equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a scenario where a perfectly competitive firm earns zero economic profit (normal profit) but positive accounting profit. Explain the difference using the concept of opportunity cost.",
+     "a": "Example: A farmer owns land (opportunity rent ₹2 lakh/year) and works as manager (opportunity wage ₹3 lakh/year). Explicit costs (seeds, fertilizer, hired labor) = ₹5 lakh. Revenue = ₹10 lakh. Accounting profit = ₹10 lakh - ₹5 lakh = ₹5 lakh. Economic profit = ₹10 lakh - (₹5 lakh + ₹2 lakh + ₹3 lakh) = ₹0 (normal profit). The firm covers all opportunity costs. A poor answer that equates accounting profit with economic profit misses implicit costs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

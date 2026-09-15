@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_002",
+   "title": "c12_chem_cbse_06_002",
+   "questions": [
+    {
+     "q": "Write the IUPAC name for CH₃CH₂CH(Cl)CH₃. Identify whether it is a primary, secondary, or tertiary haloalkane.",
+     "a": "2-Chlorobutane; secondary haloalkane. The parent chain is butane (4 carbons). Numbering from the end nearer to Cl gives locant 2. The carbon bearing Cl is attached to two other carbons (CH₃ and CH₂CH₃), making it secondary. A wrong answer like \"1-chlorobutane\" reveals the student numbered from the wrong end. \"Chlorobutane\" without locant reveals ignorance of the lowest locant rule. \"Butyl chloride\" reveals reliance on common names instead of IUPAC.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the IUPAC name of CH₂=CHCl is chloroethene and not vinyl chloride, and why the carbon bearing Cl is sp² hybridised.",
+     "a": "Chloroethene follows IUPAC: parent = ethene (2-carbon chain with double bond), halogen prefix = chloro at C-1. \"Vinyl chloride\" is a common name. The carbon bearing Cl is part of C=C, so it is sp² hybridised (trigonal planar, 120°). A student writing \"chloroethane\" misses the double bond. Writing \"1-chloroethene\" is redundant (locant 1 is implied for terminal double bond). Confusing sp² with sp³ reveals misunderstanding of hybridisation's role in classification (vinylic vs alkyl halide).",
+     "self_check": true
+    },
+    {
+     "q": "Draw the structure and give the IUPAC name for the compound with molecular formula C₄H₈Br₂ that has both bromine atoms on the same carbon.",
+     "a": "Structure: CH₃CH₂CBr₂CH₃ (or CH₃CBr₂CH₂CH₃). IUPAC name: 2,2-dibromobutane. Parent = butane (4 carbons). Both Br on C-2 → \"2,2-dibromo\". A student drawing CH₃CHBrCHBrCH₃ (2,3-dibromobutane) confuses geminal (same carbon) with vicinal (adjacent carbons). Writing \"dibromobutane\" without locants violates the lowest locant rule. Naming it \"butane-2,2-dibromide\" uses incorrect suffix style (halogens are prefixes, not suffixes).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IUPAC naming of 1-bromo-2-methylbenzene and 1-bromo-3-methylbenzene. Why does the common name system use \"o-\" and \"m-\" while IUPAC uses numbers?",
+     "a": "1-Bromo-2-methylbenzene (ortho) and 1-bromo-3-methylbenzene (meta) have the same substituents but different relative positions on the benzene ring. IUPAC uses numbers (1,2 and 1,3) because they are unambiguous for all substitution patterns, including tri- and higher-substituted benzenes where o/m/p fail. Common names o-/m-/p- only work for disubstituted benzenes. A student saying \"o-bromotoluene\" for the first is using common name, not IUPAC. Writing \"2-bromo-1-methylbenzene\" violates alphabetical order (bromo before methyl) and lowest locant set (1,2 vs 2,1 — same set, but alphabetical decides numbering direction).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the IUPAC name of (CH₃)₃CCH₂Br as \"1-bromo-2,2-dimethylpropane\". Evaluate if this is correct. If not, give the correct name and explain the error.",
+     "a": "Correct. Parent chain = propane (3 carbons: C-CH₂-Br with two CH₃ on C-2). Numbering from Br end gives Br at C-1, two methyls at C-2 → 1-bromo-2,2-dimethylpropane. Common error: choosing butane chain (CH₃)₃C-CH₂Br as 1-bromo-2,2-dimethylbutane — wrong because longest chain is 3 carbons (the neopentyl system). Another error: \"neopentyl bromide\" (common name). The student must identify the longest continuous chain, not the total carbons.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of three structural isomers with formula C₅H₁₁Cl, name each by IUPAC, and classify each as primary, secondary, or tertiary. Explain your reasoning for the parent chain selection in each.",
+     "a": "1. CH₃CH₂CH₂CH₂CH₂Cl → 1-chloropentane (1°). Parent = pentane (5C straight chain). Cl on terminal C.\n2. CH₃CH₂CH₂CH(Cl)CH₃ → 2-chloropentane (2°). Parent = pentane. Cl on C-2 (attached to 2 carbons).\n3. (CH₃)₃CCH₂Cl → 1-chloro-2,2-dimethylpropane (1°). Parent = propane (longest chain = 3C). Cl on primary CH₂.\nOther valid isomers: 3-chloropentane (2°), 1-chloro-3-methylbutane (1°), 2-chloro-3-methylbutane (2°), 2-chloro-2-methylbutane (3°). A poor answer misses isomers, misclassifies, or picks wrong parent chain (e.g., calling isomer 3 \"neopentyl chloride\" without IUPAC).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

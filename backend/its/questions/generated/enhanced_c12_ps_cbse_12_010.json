@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_12_010",
+   "title": "c12_ps_cbse_12_010",
+   "questions": [
+    {
+     "q": "Which provision of the 44th Constitutional Amendment Act, 1978, explicitly requires that a proclamation of Emergency under Article 352 must be approved by both Houses of Parliament within one month by a special majority of the total membership and not less than two-thirds of members present and voting?",
+     "a": "The 44th Amendment substituted a new clause (3) in Article 352 requiring parliamentary approval within one month by a majority of the total membership of each House and by a majority of not less than two-thirds of members present and voting. A wrong answer (e.g., citing the old simple majority or the 42nd Amendment's extension of Emergency duration) reveals confusion between the pre-Emergency, Emergency-era, and post-Emergency amendment frameworks — a common error when students memorise amendment numbers without tracking the directional change in safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court, in the Minerva Mills case (1980), strike down Section 4 of the 42nd Amendment which gave primacy to Directive Principles over Fundamental Rights, even though the 42nd Amendment had been passed by Parliament using its constituent power under Article 368?",
+     "a": "The Court held that Parliament's amending power under Article 368 is not unlimited; it cannot destroy the \"basic structure\" of the Constitution, and the balance between Fundamental Rights and Directive Principles is part of that basic structure. A wrong answer that says \"Parliament can amend anything because Article 368 says so\" reveals the pre-Kesavananda misconception that constituent power is sovereign — precisely the error the Emergency-era amendments tried to entrench and the post-Emergency Court rejected.",
+     "self_check": true
+    },
+    {
+     "q": "A state government declares a \"public order\" Emergency under Article 352 in 2025 citing widespread protests. The proclamation suspends Article 19 freedoms and authorises preventive detention under a new law that excludes judicial review for 90 days. Applying the 44th Amendment safeguards and the basic structure doctrine, identify which two features of this scenario are constitutionally impermissible.",
+     "a": "First, Article 352 (as amended by the 44th Amendment) permits suspension of Article 19 only during a \"war or external aggression\" Emergency, not an \"armed rebellion\" (formerly \"internal disturbance\") Emergency — so a public order/protest-based proclamation cannot suspend Article 19. Second, excluding judicial review of preventive detention for 90 days violates the basic structure doctrine (Kesavananda Bharati) and Article 22 safeguards, which the 44th Amendment reinforced by reducing maximum detention without advisory board review from 3 months to 2 months. A wrong answer that misses the \"armed rebellion vs war\" distinction or treats judicial review as a statutory privilege rather than a constitutional basic structure feature shows incomplete internalisation of post-Emergency safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Supreme Court's approach to habeas corpus petitions in ADM Jabalpur v. Shivkant Shukla (1976) and the post-Emergency expansion of locus standi in S.P. Gupta v. Union of India (1981). What does this shift reveal about the Court's self-conception before and after the Emergency?",
+     "a": "In ADM Jabalpur, the majority held that during Emergency no person could approach the Court for habeas corpus because Article 21 was the sole repository of the right to life and it stood suspended — the Court saw itself as a subordinate interpreter of executive will. In S.P. Gupta, the Court liberalised locus standi, allowing any public-spirited citizen to file PIL for enforcement of others' rights — the Court re-imagined itself as a proactive guardian of the Constitution's transformative promise. A wrong answer that treats both as mere \"procedural changes\" misses the constitutional-philosophical rupture: the Emergency taught the Court that textual formalism enables authoritarianism; only a purposive, structure-sensitive reading preserves democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Emergency's most durable legacy is the 44th Amendment; everything else — judicial activism, coalition politics, civil society — would have happened anyway.\" Provide two pieces of historical evidence supporting the claim and two contradicting it.",
+     "a": "Supporting: (1) The 44th Amendment's textual changes (Article 352, 358, 359, 22) are concrete, irreversible legal barriers that did not exist before 1978. (2) No subsequent government has repealed these safeguards despite having parliamentary majorities. Contradicting: (1) The basic structure doctrine (Kesavananda, 1973) pre-dated the Emergency, but its aggressive application (Minerva Mills, 1980; Waman Rao, 1981; Bommai, 1994) was directly energised by judicial remorse over ADM Jabalpur — the Court's activism is a post-Emergency atonement. (2) The 1977 election created the first non-Congress government and legitimised opposition politics; the 1989–2014 coalition era traces its competitive multi-party DNA to the 1977 rupture. A wrong answer that treats the 44th Amendment as a standalone legal fix ignores the political-culture shift that made the Amendment enforceable.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a new constitutional clause (maximum 50 words) to be inserted in Article 352 that would prevent a future government from using \"internal disturbance\" as a ground for Emergency while preserving the Centre's ability to act against secessionist armed rebellion. The clause must reference an independent institutional check.",
+     "a": "\"Article 352(1) Explanation: 'Armed rebellion' means organised violent insurrection against the State's territorial integrity or constitutional order, certified as such by a two-thirds resolution of the National Integration Council comprising the Prime Minister, Leader of Opposition, Chief Justice of India, and three Chief Ministers selected by rotation; 'internal disturbance' shall not constitute a ground for Proclamation.\" A poor answer that omits the opposition/CJI check or retains \"internal disturbance\" reveals failure to grasp the core Emergency lesson: unilateral executive determination of crisis is the constitutional danger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

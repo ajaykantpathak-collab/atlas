@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_011",
+   "title": "c12_hs_cbse_12_011",
+   "questions": [
+    {
+     "q": "List any four personal qualities an extension worker must possess to gain trust in a conservative rural community, and explain why each matters in that specific context.",
+     "a": "Correct answer: Empathy (to understand unspoken constraints like gender norms), patience (behaviour change is slow, e.g., adopting new weaning practices), cultural sensitivity (respecting food taboos while introducing nutrition), and honesty (admitting when you don't know an answer builds credibility). A wrong answer listing only technical knowledge or communication skills reveals the misconception that extension is about information delivery rather than relationship-building; students often confuse \"qualities\" with \"qualifications\" or \"skills\".",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker introduces improved kitchen gardens to a village. After three months, adoption is near zero. The worker blames \"farmer resistance to change\". Analyse this statement using the concept of extension worker roles.",
+     "a": "Correct analysis: The worker has failed in the diagnostic/facilitator role — not assessing felt needs, resource constraints (water, fencing, time), or power dynamics (men control land decisions). Blaming \"resistance\" reflects a top-down technology-transfer mindset, ignoring the linker role (connecting to input suppliers, markets) and evaluator role (monitoring adoption barriers). A wrong answer accepting \"resistance\" as the cause shows the student views extension as persuasion rather than participatory problem-solving.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-month in-service professional development plan for a newly recruited extension worker who has strong technical knowledge in food preservation but weak facilitation skills and limited understanding of gender dynamics in the target community.",
+     "a": "Correct plan: Month 1-2: Shadowing senior worker + PRA training (skill: facilitation); Month 3-4: Gender analysis workshop + community immersion living with a family (attitude: gender sensitivity); Month 5-6: Action research on a local problem with women's group (integrated application). Steps must be sequenced, context-specific, and include reflection. A wrong answer listing generic \"training programmes\" or \"reading books\" reveals the misconception that professional development is event-based rather than a structured, field-embedded, reflective cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of an extension worker as a \"linker\" versus a \"leader\" in the context of forming a farmer producer organisation (FPO). When does each role become inappropriate?",
+     "a": "Correct comparison: As linker, the worker connects the group to banks, input dealers, market intelligence — remaining outside decision-making. As leader, the worker chairs meetings, resolves conflicts, sets agenda — holding authority. Linker role becomes inappropriate when the worker starts making decisions for the group (creating dependency). Leader role becomes inappropriate when the group is mature enough for self-governance (stunting ownership). A wrong answer treating them as interchangeable shows failure to distinguish facilitation from authority, a critical boundary error in participatory extension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Professional development of extension workers is the sole responsibility of the employing organisation.\" Use the concept of self-directed learning and changing field realities.",
+     "a": "Correct evaluation: The statement is false. Organisations provide structured in-service training, but field realities (new pests, climate shifts, policy changes, digital tools) evolve faster than institutional curricula. Self-directed learning — reading research summaries, joining professional networks, reflecting on field failures — is essential for relevance. A worker waiting for organisational training becomes obsolete. A wrong answer agreeing with the statement reveals a passive professional identity, confusing \"training\" (organisation-driven) with \"development\" (self-owned, lifelong).",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"Extension Worker Competency Framework\" table with 4 domains (Personal, Technical, Process, Contextual), 3 competencies per domain, and one observable behavioural indicator for each competency. Ensure it reflects the Indian rural context.",
+     "a": "Expected answer: A 4x3 table. Example: Personal → Integrity → \"Refuses bribe for input distribution\"; Technical → Nutrition assessment → \"Correctly identifies SAM child using MUAC tape\"; Process → Facilitation → \"Enables silent women to speak in SHG meeting\"; Contextual → Language → \"Explains composting in local dialect using folk analogies\". Poor answer: generic competencies like \"communication\" without context-specific indicators, showing inability to translate theory into measurable field behaviour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

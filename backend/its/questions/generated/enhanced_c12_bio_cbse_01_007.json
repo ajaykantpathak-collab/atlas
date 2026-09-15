@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_007",
+   "title": "c12_bio_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the two products of double fertilization in angiosperms and state the ploidy of each nucleus involved in their formation.",
+     "a": "The two products are: (1) diploid zygote (2n) formed by syngamy — fusion of one male gamete (n) with egg cell (n); (2) triploid primary endosperm nucleus (3n) formed by triple fusion — fusion of second male gamete (n) with two polar nuclei (n+n). A wrong answer revealing confusion between syngamy and triple fusion (e.g., stating zygote is triploid) indicates the student has not distinguished the two separate fusion events or tracked ploidy correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Why does endosperm development always precede embryo development in angiosperms? Explain the adaptive significance using the concept of resource allocation.",
+     "a": "Endosperm develops first because it serves as the nutrient reservoir for the embryo. The primary endosperm cell divides repeatedly to form a triploid tissue packed with starch, proteins, and oils before the zygote undergoes its first division. This ensures assured nutrition — if the embryo developed first without endosperm, it would lack energy reserves and likely abort. A wrong answer suggesting \"zygote divides first\" or \"they develop simultaneously\" reveals a misunderstanding of the developmental checkpoint: most zygotes divide only after a critical amount of endosperm is formed, an adaptation preventing wasteful embryo development in resource-poor conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a coconut seed and notes: \"The coconut water is liquid endosperm and the white kernel is solid endosperm.\" Is this correct? Identify the developmental stage each represents and explain the transition between them.",
+     "a": "Yes, correct. Coconut water = free-nuclear endosperm stage (thousands of nuclei in common cytoplasm, no cell walls). White kernel = cellular endosperm stage (after cell wall formation partitions the nuclei into individual cells). Transition: successive mitotic divisions of primary endosperm nucleus produce free nuclei → at a species-specific nuclear number, cytokinesis occurs simultaneously forming cell walls → endosperm becomes cellular. A wrong answer calling both \"cellular endosperm\" or confusing the sequence reveals the student hasn't grasped that free-nuclear precedes cellular stage, and that coconut uniquely retains both stages visibly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mature embryo structure of a dicot (e.g., bean) and a monocot (e.g., maize). Identify THREE structural differences and explain how each relates to their germination strategy.",
+     "a": "Three differences: (1) Cotyledon number: dicots have two (food storage + photosynthetic), monocots have one scutellum (absorptive, not photosynthetic) — dicots often show epigeal germination (cotyledons emerge), monocots hypogeal (scutellum stays underground). (2) Protective sheaths: monocots have coleoptile (protects plumule) and coleorrhiza (protects radicle); dicots lack these, using root cap and exposed plumule. (3) Embryonal axis orientation: in monocots, scutellum is lateral to axis; in dicots, cotyledons are terminal on axis. A wrong answer listing only cotyledon number misses the functional link: coleoptile/coleorrhiza are adaptations for monocot emergence through soil (e.g., grasses pushing through crust), while dicot cotyledons become first photosynthetic leaves.",
+     "self_check": true
+    },
+    {
+     "q": "In a plant breeding program, F1 hybrid seeds must be produced annually because progeny segregate. How does apomixis solve this problem? Evaluate whether apomictic hybrids would maintain heterosis over generations.",
+     "a": "Apomixis bypasses meiosis and fertilization — the embryo develops from an unreduced diploid egg cell (or nucellar cells) without genetic recombination. Since no segregation occurs, the hybrid genotype is faithfully cloned into seeds. Yes, apomictic hybrids would maintain heterosis indefinitely because the exact heterozygous genotype is preserved. A wrong answer claiming \"apomixis involves meiosis\" or \"heterosis is lost\" reveals confusion: apomixis is asexual reproduction mimicking sexual reproduction; the genetic makeup is fixed, so hybrid vigor persists. This is why transferring apomixis genes into crops is a major biotech goal.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to demonstrate that endosperm development precedes embryo development in a dicot seed. Specify the plant material, time intervals, observations, and how you would confirm the sequence.",
+     "a": "Plant material: Developing pea (Pisum sativum) pods at 2-day intervals post-anthesis (days 2, 4, 6, 8, 10). Method: Dissect ovules, fix in FAA, section, stain with acetocarmine, observe under microscope. Observations: Day 2-4 — primary endosperm nucleus dividing (free-nuclear stage); Day 6 — endosperm cellularizing; Day 8 — zygote divides (proembryo visible); Day 10 — globular embryo in cellular endosperm. Confirmation: Embryo stages appear only after endosperm reaches cellular stage. A poor answer suggesting \"observe mature seeds\" misses the developmental timing — the sequence is only visible in young, developing ovules, not mature seeds where endosperm may be consumed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_15_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_15_007",
+   "title": "c12_soc_cbse_15_007",
+   "questions": [
+    {
+     "q": "What were the three categories of indicators (social, educational, economic) used by the Mandal Commission to identify \"Socially and Educationally Backward Classes\" (SEBCs), and how many indicators were there in total?",
+     "a": "The Mandal Commission used 11 indicators grouped into three categories: Social (3 indicators: castes considered low by others, dependence on manual labour, early marriage), Educational (4 indicators: children never enrolled, drop-out rates, matriculation rates), Economic (4 indicators: asset value, household income, landholding, drinking water source). A wrong answer (e.g., \"only caste names\" or \"income alone\") reveals the student thinks identification was purely ritual or economic, missing the Commission's multi-dimensional approach to capture *structural* backwardness.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mandal Commission recommended 27% reservation for OBCs when the Constitution permits up to 50% total reservation, and SC/ST already had 22.5% combined.",
+     "a": "The 27% figure was calculated to stay within the 50% ceiling (22.5% + 27% = 49.5%) while proportionally representing OBCs' estimated 52% population share. A wrong answer (e.g., \"it was arbitrary\" or \"they wanted maximum possible\") shows the student misses the Commission's deliberate legal strategy: maximizing OBC quota without breaching the judicial ceiling later affirmed in Indra Sawhney, revealing ignorance of the constitutional-legal constraints shaping policy design.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes 68% total reservation (SC 15%, ST 7.5%, OBC 27%, EWS 10%, plus a new 8.5% for \"most backward\" OBC sub-category). Using the Indra Sawhney framework, identify which constitutional principles this violates and why.",
+     "a": "This violates two Indra Sawhney principles: (1) the 50% ceiling on total reservation (68% > 50%), and (2) the prohibition on sub-categorisation within OBCs without empirical justification and exclusion of creamy layer. The 8.5% sub-quota also risks breaching the \"creamy layer\" test if applied without income thresholds. A wrong answer focusing only on \"too much reservation\" misses the *legal architecture*: the 50% rule isn't a policy preference but a constitutional interpretation of Article 16(4) as an exception to equality of opportunity under Article 16(1).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"horizontal stretch\" of caste (M.N. Srinivas) in the Backward Classes Movement with the Dalit Movement's vertical challenge to caste hierarchy. How do their political logics differ?",
+     "a": "The Backward Classes Movement used \"horizontal stretch\" — horizontally allied similarly-placed castes across regions (e.g., Yadavs, Kurmis, Vokkaligas) to form a *numerical majority* voting bloc for state patronage, accepting caste as a secular political category. The Dalit Movement vertically *rejected* caste hierarchy itself, seeking annihilation of caste (Ambedkar) not just better placement within it. A wrong answer conflating them as \"both caste-based\" misses the fundamental difference: one seeks *inclusion within* the system via demographic weight, the other seeks *transformation of* the system via moral critique.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument: \"The creamy layer exclusion for OBCs (introduced in Indra Sawhney) should be applied identically to SC/ST reservations because economic advancement means they no longer face social disability.\"",
+     "a": "This argument is flawed because SC/ST backwardness originates in *untouchability* and *isolation* — disabilities that persist regardless of income (e.g., temple entry, marriage discrimination, atrocities). OBC backwardness is primarily *educational/economic* (Art. 340), so economic criteria can proxy for social advancement. The Supreme Court in *Jarnail Singh (2018)* explicitly refused creamy layer for SC/ST, noting untouchability's unique stigma. A wrong answer treating all reserved categories identically reveals a category error: confusing *class-like* disadvantage (OBC) with *caste-specific* oppression (SC/ST).",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question to investigate whether the Mandal Commission's 11 indicators still validly identify backwardness today, given urbanisation, occupational diversification, and the rise of a OBC middle class. Specify your methodology.",
+     "a": "Research question: \"Do the Mandal Commission's 11 indicators (1979) accurately capture contemporary backwardness among OBCs in urban vs. rural settings?\" Methodology: Mixed-methods — (1) Quantitative: Survey 2,000 households across 4 states using updated indicators (add digital access, English proficiency, inter-caste marriage rates), compare with 1979 indicators via factor analysis; (2) Qualitative: Focus groups with OBC youth in metros and villages to assess perceived barriers. A poor answer (e.g., \"just check income\") ignores that backwardness is multi-dimensional and spatially variable — the core sociological insight the Commission pioneered.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

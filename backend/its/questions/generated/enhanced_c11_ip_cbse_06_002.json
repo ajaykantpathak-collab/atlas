@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_002",
+   "title": "c11_ip_cbse_06_002",
+   "questions": [
+    {
+     "q": "What are the two mandatory arguments for the `open()` function when opening a text file in Python, and what does the function return?",
+     "a": "The two mandatory arguments are the file path (string) and the mode (string such as 'r', 'w', 'a'). The function returns a file object (also called a file handle) that is used for subsequent operations. A wrong answer (e.g., saying only the file name is needed, or that it returns the file content) reveals the student confuses opening a file with reading its content, or does not know that a mode must be specified.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `f = open('data.txt', 'r')` and then immediately prints `f`. The output is `<_io.TextIOWrapper name='data.txt' mode='r' encoding='cp1252'>`. The student thinks the file content is now stored in `f`. Explain why this is incorrect and what `f` actually represents.",
+     "a": "`f` is a file object (a wrapper) that provides methods to read/write the file; it does not contain the file's data. The content must be explicitly read using methods like `read()`, `readline()`, or `readlines()`. If the student believes the content is in `f`, they misunderstand the role of the file object as a conduit rather than a container.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python statement to open the file `marks.txt` in write mode with UTF‑8 encoding, assign the file object to a variable `fp`, and then close it properly.",
+     "a": "```python\nfp = open('marks.txt', 'w', encoding='utf-8')\nfp.close()\n```\nA wrong answer might omit the encoding, use 'r' instead of 'w', or forget `close()`. This reveals gaps in knowing the default mode is 'r', that encoding is a separate parameter, or that closing is a separate step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of opening a file with mode `'w'` versus mode `'a'` when the file already exists and contains data. What happens to the existing data in each case?",
+     "a": "Mode `'w'` truncates the file to zero length, destroying existing data. Mode `'a'` preserves existing data and positions the file pointer at the end for appending. If a student says both preserve data or both delete data, they confuse the fundamental difference between overwriting and appending.",
+     "self_check": true
+    },
+    {
+     "q": "A program opens a file in write mode, writes some data, but crashes before calling `close()`. Evaluate the likely state of the file on disk and justify whether the data is guaranteed to be saved.",
+     "a": "The data may be partially or completely lost because Python buffers output; `close()` flushes the buffer. Without it, the operating system may not have written the buffered data to disk. A student who claims the data is always saved misunderstands buffering and the critical role of `close()` (or `flush()`) in ensuring persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python code snippet that safely opens a file `log.txt` for appending, writes a single line `\"System started\"`, and guarantees the file is closed even if an error occurs during writing—without using the `with` statement.",
+     "a": "```python\nfp = open('log.txt', 'a', encoding='utf-8')\ntry:\n    fp.write('System started\\n')\nfinally:\n    fp.close()\n```\nA poor answer might omit `try/finally`, place `close()` only after `write()`, or use `with` (which is not allowed per the question). This reveals the student does not understand exception‑safe resource management or the risk of unclosed files on errors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

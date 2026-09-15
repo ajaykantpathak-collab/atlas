@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_004",
+   "title": "c11_cs_cbse_04_004",
+   "questions": [
+    {
+     "q": "What are the five categories of tokens in Python, and give one example of each?",
+     "a": "The five token categories are: (1) Keywords - reserved words like `if`, `else`; (2) Identifiers - user-defined names like `score`, `student_name`; (3) Literals - constant values like `42`, `3.14`, `\"hello\"`; (4) Operators - symbols performing operations like `+`, `-`, `*`, `/`; (5) Punctuators (delimiters) - structural symbols like `(`, `)`, `[`, `]`, `:`, `,`. A wrong answer (e.g., listing \"variables\" as a token category) reveals confusion between runtime concepts (variables) and lexical concepts (tokens).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `2total = 100` is an invalid Python statement in terms of token formation rules, even though all individual characters belong to the Python character set.",
+     "a": "The sequence `2total` is scanned as a single token during lexical analysis. Since identifiers cannot start with a digit (token rule), `2total` cannot be recognized as an identifier token. It also doesn't match any other token category (not a keyword, not a numeric literal because of trailing letters, not an operator). The lexical analyzer therefore produces an error. A wrong answer focusing on \"variable naming rules\" instead of \"token formation rules\" shows the student hasn't distinguished between lexical analysis (tokenization) and semantic rules.",
+     "self_check": true
+    },
+    {
+     "q": "Given the code fragment `price = 299.99; discount = 0.15`, list every token in order with its category.",
+     "a": "Tokens in order: `price` (identifier), `=` (operator), `299.99` (literal - float), `;` (punctuator), `discount` (identifier), `=` (operator), `0.15` (literal - float). A wrong answer that misses the semicolon or misclassifies `=` as punctuator reveals incomplete understanding of operator vs punctuator distinction (assignment is an operator, not a delimiter).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how the Python lexical analyzer treats `# This is a comment` versus `\"# This is not a comment\"` in terms of token production.",
+     "a": "In `# This is a comment`, the `#` token signals the start of a comment; the lexical analyzer discards everything until end-of-line, producing NO tokens for the comment text. In `\"# This is not a comment\"`, the double quotes delimit a string literal token; the entire sequence including `#` and spaces becomes a SINGLE string literal token. A wrong answer claiming both produce tokens or both are ignored shows misunderstanding of context-sensitive tokenization (comments vs string literals).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that since Python supports Unicode, `राशि = 5000` (using Devanagari characters) should work as a valid assignment. Evaluate this claim with reference to token categories and identifier rules.",
+     "a": "The claim is CORRECT. Python 3 identifiers can contain Unicode letters (Lu, Ll, Lt, Lm, Lo categories) and underscores, not just ASCII. `राशि` consists of Unicode letters, so it forms a valid identifier token. The assignment `राशि = 5000` produces tokens: `राशि` (identifier), `=` (operator), `5000` (literal). A wrong answer claiming it's invalid reveals the misconception that Python identifiers are restricted to ASCII letters only, ignoring Python 3's Unicode identifier support (PEP 3131).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python code snippet that uses all five token categories at least once. Explain your choices.",
+     "a": "Example: `if x > 10: print(\"ok\")`. Tokens: `if` (keyword), `x` (identifier), `>` (operator), `10` (literal), `:` (punctuator), `print` (identifier), `(` (punctuator), `\"ok\"` (literal), `)` (punctuator). A poor answer might use `=` instead of `>` and miss the comparison operator category, or forget punctuators. This tests whether the student can distinguish operators from punctuators and keywords from identifiers in a real snippet.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

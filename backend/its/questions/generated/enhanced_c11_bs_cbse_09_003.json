@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_003",
+   "title": "c11_bs_cbse_09_003",
+   "questions": [
+    {
+     "q": "A micro enterprise in the handloom sector has an investment in plant and machinery of ₹80 lakh and an annual turnover of ₹4 crore. According to the MSMED Act 2006 (as amended in 2020), this enterprise is classified as a micro enterprise. State TRUE or FALSE and justify your answer using the investment and turnover criteria.",
+     "a": "FALSE. Under the revised classification (2020), a micro enterprise has investment ≤ ₹1 crore AND turnover ≤ ₹5 crore. This enterprise meets both criteria (₹80 lakh ≤ ₹1 crore and ₹4 crore ≤ ₹5 crore), so it IS a micro enterprise. A wrong answer reveals the student is using the pre-2020 definition (investment ≤ ₹25 lakh for manufacturing) or confusing the investment/turnover thresholds, indicating they have not updated their knowledge to the current MSMED Act amendment.",
+     "self_check": true
+    },
+    {
+     "q": "\"MSMEs face a finance problem because banks charge high interest rates.\" Explain why this statement is an incomplete explanation of the finance problem faced by MSMEs. Use at least three distinct reasons from the NCERT text.",
+     "a": "The statement is incomplete because: (1) The core issue is non-availability of adequate finance, not just cost—many MSMEs lack creditworthiness to access capital markets at all. (2) They depend on local moneylenders who exploit them, not just formal banks. (3) They suffer from inadequate working capital due to delayed payments from buyers and capital locked in unsold stocks. (4) Banks require collateral security and margin money which MSMEs cannot provide. A wrong answer focusing only on interest rates reveals the student conflates \"cost of credit\" with \"access to credit\" and misses the structural barriers like collateral requirements and delayed receivables.",
+     "self_check": true
+    },
+    {
+     "q": "A small spice processing unit in Kerala purchases raw chillies from local farmers. During a poor harvest season, chilli prices triple. The unit cannot build inventory because it lacks cold storage, and its small order quantities give it no bargaining power with traders. Identify which TWO of the seven MSME problems this scenario illustrates, and explain how they interact to force the unit to either compromise on quality or shut down temporarily.",
+     "a": "The scenario illustrates (1) Raw Material Procurement and (2) Capacity Utilisation. They interact as follows: Scarcity + no storage → cannot buy in bulk → low bargaining power → forced to pay high prices or accept poor quality → higher input cost reduces margins → if they pass cost to customers, demand falls → if they absorb cost, losses mount → either way, production drops below break-even → capacity utilisation falls → fixed costs per unit rise → vicious cycle toward sickness. A wrong answer listing \"Finance\" or \"Marketing\" shows the student cannot map specific operational constraints to the correct problem categories.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Managerial Skills\" problem and the \"Marketing\" problem for MSMEs. In what way does the former CAUSE the latter? Provide a logical chain of reasoning with at least four steps.",
+     "a": "Causal chain: (1) MSMEs are typically single-promoter enterprises where the owner possesses technical skill but lacks formal management training. (2) The owner cannot afford to hire professional managers for finance, marketing, HR, operations separately. (3) The owner's time is consumed by production/operations, leaving zero bandwidth for market research, brand building, or distribution network development. (4) Without dedicated marketing expertise, the firm cannot understand customer needs, segment markets, or negotiate with buyers. (5) Result: excessive dependence on middlemen who exploit the firm through low prices and delayed payments. A weak answer treats these as parallel problems rather than seeing managerial deficiency as the root cause of marketing weakness.",
+     "self_check": true
+    },
+    {
+     "q": "\"Quality problems in MSMEs are primarily due to the owner's lack of commitment to excellence.\" Evaluate this statement. Is it a fair assessment or does it ignore structural constraints? Defend your position with evidence from the NCERT description of the quality problem.",
+     "a": "The statement is UNFAIR and ignores structural constraints. NCERT explicitly states: \"They do not have adequate resources to invest in quality research and maintain the standards of the industry, nor do they have the expertise to upgrade technology. In fact maintaining quality is their weakest point, when competing in global markets.\" The quality problem stems from (1) resource constraints preventing investment in testing labs/certification, (2) technology gaps making precision manufacturing impossible, (3) cost-pressure forcing trade-offs between quality and survival pricing. Blaming owner commitment confuses a resource allocation problem with an attitudinal problem. A student agreeing with the statement reveals a fundamental attribution error—ignoring systemic resource constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column table for a hypothetical MSME case study. Column 1: Each of the 7 MSME problems. Column 2: A specific, measurable symptom the owner would observe (e.g., \"Current ratio < 1.2 for 3 consecutive quarters\"). Column 3: The root cause that is NOT simply \"lack of money\" (e.g., for finance: \"Inability to provide collateral acceptable to scheduled banks due to informal property titles\"). Create the complete table with all 7 rows filled.",
+     "a": "Expected table structure (sample row for Finance):\n| Problem | Measurable Symptom | Root Cause (Non-Financial) |\n|---------|-------------------|---------------------------|\n| Finance | Current ratio < 1.2 for 3+ quarters; >60 days receivables | Informal property titles prevent collateralisation; no credit history for formal scoring |\n| Raw Material | >15% production stoppages due to stockouts; input cost 20% above market | No warehousing → cannot bulk purchase; small lots → no negotiating power |\n| Managerial | Owner works 70+ hrs/week; zero strategic planning days in 6 months | Cannot afford professional managers; no succession planning; technical skill ≠ management skill |\n| Marketing | >80% sales through 2 middlemen; avg payment delay 90 days | No distribution network; no brand visibility; no market research capability |\n| Quality | >5% rejection rate; no ISO/BIS certification; customer complaints rising | No testing lab access; outdated machinery cannot hold tolerances; no R&D budget |\n| Capacity Utilisation | Operating at <50% installed capacity for 2+ years | Erratic orders due to marketing weakness; raw material stockouts; machine breakdowns |\n| Global Competition | Export orders lost to Vietnam/Bangladesh quotes 30% lower | No scale economies; higher per-unit compliance cost; no trade fair participation |\n\nA poor answer uses \"lack of funds\" as root cause for all rows, showing inability to distinguish structural from financial constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

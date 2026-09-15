@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_010",
+   "title": "c11_ip_cbse_03_010",
+   "questions": [
+    {
+     "q": "What is the total number of times the inner loop body executes in the following code snippet?\n```python\nfor i in range(3):\n    for j in range(4):\n        print(i, j)\n```",
+     "a": "The inner loop executes 12 times (3 × 4). A wrong answer like 7 (3+4) reveals the student thinks loops add their iterations instead of multiplying them, confusing sequential and nested execution. An answer of 3 or 4 shows they only count outer or inner iterations, missing the multiplicative nature of nesting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code prints a triangle instead of a rectangle:\n```python\nfor i in range(1, 5):\n    for j in range(1, i+1):\n        print(\"*\", end=\" \")\n    print()\n```\nHow does the inner loop's range depend on the outer loop variable?",
+     "a": "The inner loop's upper bound `i+1` changes with each outer iteration: when i=1 it runs 1 time, i=2 runs 2 times, up to i=4 runs 4 times, creating rows of increasing length. A wrong explanation that says \"both loops run 4 times\" reveals the student doesn't grasp that `range(1, i+1)` is re-evaluated each outer iteration, treating the inner range as fixed rather than dynamic.",
+     "self_check": true
+    },
+    {
+     "q": "Write a nested loop program to print this pattern for n=4:\n```\n1\n2 3\n4 5 6\n7 8 9 10\n```\nUse a single counter variable initialized before the outer loop. Show the code and trace the first two outer iterations.",
+     "a": "```python\nn = 4\ncount = 1\nfor i in range(1, n+1):\n    for j in range(i):\n        print(count, end=\" \")\n        count += 1\n    print()\n```\nIteration 1 (i=1): inner runs once, prints 1, count=2. Iteration 2 (i=2): inner runs twice, prints 2 3, count=4. A wrong trace showing count reset each row reveals the student places `count=1` inside the outer loop, not understanding variable scope and persistence across inner loop completions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of these two code fragments. Are they equivalent? Justify.\nFragment A:\n```python\nfor i in range(3):\n    for j in range(3):\n        print(i, j)\n```\nFragment B:\n```python\nfor i in range(3):\n    for j in range(3):\n        print(j, i)\n```",
+     "a": "No, they are not equivalent. Fragment A prints (0,0), (0,1), (0,2), (1,0)... — row-major order with i as row, j as column. Fragment B swaps the printed order to (j,i), effectively transposing the coordinate pairs. A student saying \"they print the same pairs\" confuses the set of pairs with the order of generation, missing that nested loop order defines traversal sequence critical for patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to print a 3×3 multiplication table but gets wrong output. Identify the logical error and correct it:\n```python\nfor i in range(1, 4):\n    for j in range(1, 4):\n        print(i * j, end=\" \")\nprint()\n```",
+     "a": "The `print()` for newline is outside the outer loop, so all 9 values print on one line. It should be indented to be inside the outer loop but outside the inner loop. A student who only fixes indentation of `print()` but keeps it inside the inner loop reveals they don't distinguish between \"after each row\" (outer loop body) vs \"after each element\" (inner loop body), confusing loop scope boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nested loop program that prints a hollow square of stars (only border) for side length n=5. The output should be:\n```\n* * * * *\n*       *\n*       *\n*       *\n* * * * *\n```\nWrite the condition inside the inner loop that decides whether to print star or space.",
+     "a": "```python\nn = 5\nfor i in range(n):\n    for j in range(n):\n        if i == 0 or i == n-1 or j == 0 or j == n-1:\n            print(\"*\", end=\" \")\n        else:\n            print(\" \", end=\" \")\n    print()\n```\nA poor answer using multiple separate loops for each border reveals inability to unify border logic into a single condition using loop indices, missing the analytical skill of mapping 2D grid coordinates to geometric boundaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

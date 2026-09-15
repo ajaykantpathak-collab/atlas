@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 101,
+ "chapter_title": "Business, Trade and Commerce",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs101.txt",
+ "concepts": [
+  {
+   "id": "kebs.101.1.1",
+   "title": "Concept of Business: Economic Activity with Profit Motive",
+   "section": "Business",
+   "definition": "Business is an economic activity involving the production or purchase and sale of goods and services with the objective of earning profit by satisfying human needs in society.",
+   "formula": "",
+   "key_idea": "Business undertakings deal in goods and services on a regular basis, bear risk and uncertainty, and reward the entrepreneur with profit for bearing it.",
+   "textbook_ref": "kebs101.txt business concept section",
+   "question_patterns": [
+    "define business as an economic activity",
+    "state the characteristics of business",
+    "why is business regarded as an economic activity",
+    "explain the profit motive of business",
+    "how does business deal with risk and uncertainty",
+    "distinguish business from employment and profession"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the features",
+     "explain": "Check sale or exchange of goods and services, regularity, profit motive and risk."
+    },
+    {
+     "step": 2,
+     "action": "compare with employment and profession",
+     "explain": "Separate wage work and professional practice from business undertaking."
+    },
+    {
+     "step": 3,
+     "action": "verify the social purpose",
+     "explain": "Confirm the activity satisfies human needs in society."
+    }
+   ]
+  },
+  {
+   "id": "kebs.101.2.1",
+   "title": "Industry and Its Types: Primary, Secondary and Tertiary",
+   "section": "Industry",
+   "definition": "Industry refers to economic activities that convert resources into useful goods, grouped as primary industries extracting nature's products, secondary industries manufacturing and construction, and tertiary industries providing support services.",
+   "formula": "",
+   "key_idea": "Genetic industries like poultry and mining extractive work sit beside manufacturing industries that process materials into finished goods.",
+   "textbook_ref": "kebs101.txt industry types section",
+   "question_patterns": [
+    "classify industries into primary secondary and tertiary",
+    "what are genetic industries with examples",
+    "how does manufacturing differ from construction industry",
+    "define extractive industries with examples",
+    "give the classification of industry on the basis of size and ownership",
+    "which industries provide support services to business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the conversion stage",
+     "explain": "See whether the activity extracts, processes or supports."
+    },
+    {
+     "step": 2,
+     "action": "assign the category",
+     "explain": "Place the industry in primary, secondary or tertiary group."
+    },
+    {
+     "step": 3,
+     "action": "confirm with examples",
+     "explain": "Match with mining, textiles or banking style examples."
+    }
+   ]
+  },
+  {
+   "id": "kebs.101.3.1",
+   "title": "Commerce: Trade and Aids to Trade",
+   "section": "Commerce",
+   "definition": "Commerce includes all activities that remove the hindrances of person, place, time, risk, finance and knowledge between producers and consumers, and it has two branches, namely trade and aids to trade.",
+   "formula": "",
+   "key_idea": "Trade is the buying and selling of goods, while banking, insurance, transport, warehousing, advertising and communication act as aids to trade.",
+   "textbook_ref": "kebs101.txt commerce section",
+   "question_patterns": [
+    "define commerce and name its two branches",
+    "how do aids to trade remove hindrances of business",
+    "distinguish between internal trade and external trade",
+    "what is the role of warehousing and insurance in commerce",
+    "explain the hindrance of place and its remedy",
+    "how does advertising remove the hindrance of knowledge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the hindrance",
+     "explain": "Note the obstacle between producer and consumer."
+    },
+    {
+     "step": 2,
+     "action": "match the aid",
+     "explain": "Pair transport for place, insurance for risk, banking for finance."
+    },
+    {
+     "step": 3,
+     "action": "verify trade versus aid",
+     "explain": "Separate buying and selling from supporting services."
+    }
+   ]
+  },
+  {
+   "id": "kebs.101.4.1",
+   "title": "Business Risk: Nature and Causes",
+   "section": "Business risk",
+   "definition": "Business risk refers to the possibility of inadequate profits or losses because of uncertainties or unexpected events, and it arises from natural, human, economic and other causes.",
+   "formula": "",
+   "key_idea": "Risk is an essential part of business, its degree depends on the scale of operations, and profit is the reward for taking risk.",
+   "textbook_ref": "kebs101.txt business risk section",
+   "question_patterns": [
+    "define business risk and state its nature",
+    "what are the causes of business risk",
+    "why is profit called the reward of risk taking",
+    "how does the scale of operations affect business risk",
+    "distinguish insurable and non insurable risks",
+    "explain natural and human causes of business risk"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the uncertainty",
+     "explain": "Identify the unexpected event behind the possible loss."
+    },
+    {
+     "step": 2,
+     "action": "classify the cause",
+     "explain": "Place the cause as natural, human, economic or physical."
+    },
+    {
+     "step": 3,
+     "action": "link risk to profit",
+     "explain": "State how risk bearing earns the reward of profit."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs101.txt exercises",
+   "questions": [
+    "Define business. Describe its characteristics.",
+    "Explain the concept of business risk and its causes.",
+    "Compare business with employment and profession.",
+    "Distinguish between industry and commerce.",
+    "State the meaning of aids to trade with examples."
+   ]
+  }
+ ]
+}

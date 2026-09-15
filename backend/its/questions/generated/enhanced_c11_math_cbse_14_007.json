@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_007",
+   "title": "c11_math_cbse_14_007",
+   "questions": [
+    {
+     "q": "Write the following statement in symbolic form using quantifiers: \"Every integer is either even or odd.\" Identify the domain and the predicate explicitly.",
+     "a": "Correct answer: Domain: ℤ (integers). Predicate: P(x) = \"x is even or x is odd\". Symbolic form: ∀x∈ℤ, P(x) or ∀x∈ℤ, (x is even ∨ x is odd). A wrong answer like ∃x∈ℤ, P(x) reveals the student confuses \"every\" (universal) with \"some\" (existential). Writing just ∀x, P(x) without specifying the domain ℤ reveals the student doesn't understand that the domain must be explicitly stated for the statement to be mathematically precise.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"There exists a real number x such that x² = -1.\" Is this statement true or false? Now write its negation in symbolic form and in words. Explain why the negation is true/false.",
+     "a": "The statement ∃x∈ℝ, x² = -1 is FALSE because no real number squared gives a negative number. Its negation: ¬(∃x∈ℝ, x² = -1) ≡ ∀x∈ℝ, x² ≠ -1, which in words is \"For all real numbers x, x² ≠ -1.\" This negation is TRUE because every real number squared is non-negative. A wrong answer claiming the original is true reveals the student doesn't know that squares of real numbers are never negative. A wrong negation like ∃x∈ℝ, x² ≠ -1 reveals the student doesn't apply the negation rule correctly (must flip quantifier AND negate predicate).",
+     "self_check": true
+    },
+    {
+     "q": "Determine the truth value of each statement over the domain of natural numbers ℕ = {1, 2, 3, ...}:\n(a) ∀n∈ℕ, n² ≥ n\n(b) ∃n∈ℕ, n² < n\n(c) ∀n∈ℕ, ∃m∈ℕ, m > n\n(d) ∃m∈ℕ, ∀n∈ℕ, m > n",
+     "a": "(a) TRUE: For n=1, 1²=1≥1; for n≥2, n²≥2n>n. (b) FALSE: No natural number satisfies n²<n (since n≥1 implies n²≥n). (c) TRUE: For any n∈ℕ, choose m=n+1∈ℕ, then m>n. (d) FALSE: This claims there is a SINGLE natural number m greater than ALL natural numbers — impossible since ℕ has no maximum. A wrong answer on (d) (saying TRUE) reveals the critical misconception: confusing ∃m∀n with ∀n∃m. The order of quantifiers completely changes the meaning!",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two statements:\nS₁: ∀x∈ℝ, ∃y∈ℝ, x + y = 0\nS₂: ∃y∈ℝ, ∀x∈ℝ, x + y = 0\nAre they logically equivalent? If not, give a counterexample for the false one and explain the difference in meaning.",
+     "a": "They are NOT equivalent. S₁ is TRUE: For every real x, choose y = -x, then x + (-x) = 0. The y DEPENDS on x. S₂ is FALSE: It claims there is a SINGLE real number y that works for ALL x. If such y existed, then for x=0 we'd have 0+y=0 ⇒ y=0, but then for x=1 we'd have 1+0=0 which is false. A wrong answer claiming equivalence reveals the student doesn't grasp that quantifier order matters: ∀∃ means \"for each x there's a (possibly different) y\" while ∃∀ means \"there's one y that works for all x\".",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the negation of \"For all real numbers x, x² > 0\" as \"For all real numbers x, x² ≤ 0.\" Identify the error, write the correct negation, and explain why the student's version is incorrect using a specific counterexample.",
+     "a": "Error: The student kept the universal quantifier ∀ instead of flipping it to existential ∃. Correct negation: ¬(∀x∈ℝ, x² > 0) ≡ ∃x∈ℝ, x² ≤ 0. In words: \"There exists a real number x such that x² ≤ 0.\" The student's version \"∀x∈ℝ, x² ≤ 0\" is FALSE (e.g., x=2 gives 4≤0 false), while the correct negation is TRUE (x=0 gives 0²=0≤0). This reveals the student memorized \"negate the predicate\" but forgot the crucial rule: ¬∀ ≡ ∃¬ and ¬∃ ≡ ∀¬.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own mathematical statement using BOTH quantifiers (∀ and ∃) that is TRUE over the domain of integers ℤ. Then create a similar-looking statement (same quantifiers, same domain) that is FALSE. Explain the key difference that makes one true and the other false.",
+     "a": "Example TRUE statement: ∀n∈ℤ, ∃m∈ℤ, m = n + 1 (every integer has a successor). Example FALSE statement: ∃m∈ℤ, ∀n∈ℤ, m = n + 1 (there is an integer that is one more than EVERY integer). The difference: in the true statement, m depends on n (for each n, pick a different m); in the false statement, a single m must work for all n simultaneously. A poor answer that only changes the predicate but keeps the same quantifier order shows the student hasn't internalized that quantifier ORDER is the critical factor, not just the predicate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

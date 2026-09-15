@@ -1,0 +1,195 @@
+{
+ "catalog": "catalog_class9_maths_iemh103.json",
+ "concepts": [
+  {
+   "id": "iemh.103.3.1",
+   "family": "int_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 25 + (24)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pos = 9 + (-25)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prod = 6 * (3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "q = 101 / (2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inv = -(-10)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 4 * (2 + 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 25 + (24)"
+   ]
+  },
+  {
+   "id": "iemh.103.3.2",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 7 * 9 + 7 * 2",
+      "den = 2 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -9 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 3 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (2 / 2 + 6 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(15 / 3 - 9 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (16 / 14) / (2 / 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "num = 7 * 9 + 7 * 2",
+    "den = 2 * 9",
+    "val = num / den"
+   ]
+  },
+  {
+   "id": "iemh.103.3.3",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "iemh.103.3.4",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  }
+ ]
+}

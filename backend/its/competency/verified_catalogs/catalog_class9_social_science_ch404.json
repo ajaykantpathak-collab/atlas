@@ -1,0 +1,138 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 404,
+ "chapter_title": "Working of Institutions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees110.txt",
+ "concepts": [
+  {
+   "id": "iess.5.1.1",
+   "title": "Cabinet Decision Making",
+   "section": "5.1",
+   "definition": "The process where a group of senior ministers makes major policy decisions collectively in the name of the Council of Ministers.",
+   "formula": "total_ministers = cabinet_members + state_ministers",
+   "key_idea": "Collective responsibility of the inner ring of ministers for government policy.",
+   "textbook_ref": "iess404.txt lines 80-87",
+   "question_patterns": [
+    "calculate the total size of the council if cabinet has ... and state ministers are ...",
+    "find the total number of ministers given ... cabinet and ... state ministers",
+    "how many ministers are there in total if cabinet is ... and state is ...",
+    "determine the sum of cabinet and state ministers for a council of ...",
+    "compute the total ministerial strength given ... cabinet members and ... state ministers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add cabinet members to state ministers",
+     "explain": "The council of ministers is the sum of its different ranks.",
+     "compute": "total = cabinet_members + state_ministers"
+    }
+   ]
+  },
+  {
+   "id": "iess.5.2.1",
+   "title": "Parliamentary Budget Delay",
+   "section": "5.2",
+   "definition": "The period during which the Rajya Sabha can hold up a money bill passed by the Lok Sabha before it must be returned.",
+   "formula": "max_delay_days = 14",
+   "key_idea": "Lok Sabha holds supreme power in money matters, limiting Rajya Sabha to a 14-day delay.",
+   "textbook_ref": "iess404.txt lines 84-85",
+   "question_patterns": [
+    "calculate the maximum days Rajya Sabha can delay a money bill",
+    "how many days can the upper house hold a budget bill",
+    "find the limit in days for Rajya Sabha to suggest changes",
+    "what is the maximum duration for delaying money bills",
+    "determine the constitutional limit for delaying money legislation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign the constant limit",
+     "explain": "The constitution restricts the Rajya Sabha's power to delay money bills to 14 days.",
+     "compute": "limit = 14"
+    }
+   ]
+  },
+  {
+   "id": "iess.5.3.1",
+   "title": "Ministerial Tenure",
+   "section": "5.3",
+   "definition": "The time limit within which a non-member appointed as a minister must get elected to either House of Parliament.",
+   "formula": "deadline_months = 6",
+   "key_idea": "Ministers must secure democratic legitimacy through election within six months.",
+   "textbook_ref": "iess404.txt lines 87-88",
+   "question_patterns": [
+    "calculate the months a non-MP minister has to get elected",
+    "how many months are allowed for a minister to join parliament",
+    "find the time limit in months for election of a minister",
+    "what is the grace period in months for a non-member minister",
+    "determine the deadline in months for ministerial election"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign the constitutional deadline",
+     "explain": "A minister who is not a member of parliament must be elected within six months.",
+     "compute": "months = 6"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess404.txt lines 87",
+   "concept": "iess.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "If the cabinet has {cabinet_members} ministers and there are {state_ministers} state ministers, find the total size.",
+   "extracted_variables": {
+    "cabinet_members": 20,
+    "state_ministers": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the values",
+     "explain": "Total = 20 + 60",
+     "compute": "total = 20 + 60"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess404.txt lines 87",
+   "concept": "iess.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the council size if there are {cabinet_members} cabinet ministers and {state_ministers} state ministers.",
+   "extracted_variables": {
+    "cabinet_members": 25,
+    "state_ministers": 55
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the values",
+     "explain": "Total = 25 + 55",
+     "compute": "total = 25 + 55"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iess404.txt lines 93-95",
+   "questions": [
+    "If a minister is appointed without being an MP, how many months do they have to get elected?",
+    "How many days can the Rajya Sabha delay a money bill passed by the Lok Sabha?",
+    "If a cabinet has 22 ministers and 58 state ministers, what is the total council size?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

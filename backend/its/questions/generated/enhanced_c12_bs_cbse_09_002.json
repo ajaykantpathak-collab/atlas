@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_002",
+   "title": "c12_bs_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the primary objective of financial management according to the wealth maximisation concept.",
+     "a": "The primary objective is to maximise the market value of equity shares (shareholders' wealth). A wrong answer such as \"maximise profit\" reveals confusion between profit maximisation (short-term, accounting focus) and wealth maximisation (long-term, market-value focus, considers risk and timing of cash flows).",
+     "self_check": true
+    },
+    {
+     "q": "A company chooses to finance a new plant entirely through a 12% bank loan instead of issuing equity. Explain why this might increase financial risk even if the loan lowers the overall cost of capital.",
+     "a": "Debt creates fixed obligations (interest + principal repayment) that must be paid regardless of profit. If earnings fall, the firm may default, leading to liquidation. Equity has no such compulsion. A student who says \"debt is always better because it's cheaper\" misses the risk dimension and the concept of financial leverage.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has stable earnings, strong cash flows, and good growth opportunities. Its shareholders prefer regular income. Using the factors affecting dividend decision, recommend whether the firm should pay high or low dividends. Justify with at least three factors.",
+     "a": "**Recommendation: Moderate to high dividend.** Factors: (1) Stable earnings → supports higher payout. (2) Strong cash flow → can afford cash outflow. (3) Shareholder preference for income → management should respect it. (4) Growth opportunities → argue for retention, but stable earnings and cash flow may allow both. A wrong answer that ignores growth opportunities or cash flow shows inability to weigh conflicting factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Investment Decision and the Financing Decision on: (a) focus of analysis, (b) impact on the balance sheet, (c) reversibility.",
+     "a": "(a) Investment Decision analyses project cash flows and returns; Financing Decision analyses cost, risk, and control of sources. (b) Investment Decision changes the asset side (fixed/current assets); Financing Decision changes the liability/equity side (debt vs. equity mix). (c) Investment decisions are often irreversible (capital budgeting); Financing decisions can be restructured (refinancing, buybacks) though with cost. A student who conflates the two sides of the balance sheet misunderstands the fundamental separation of asset allocation and fund sourcing.",
+     "self_check": true
+    },
+    {
+     "q": "\"Trading on equity is always beneficial for shareholders because it increases EPS.\" Evaluate this statement using the concept of ROI vs. cost of debt.",
+     "a": "The statement is false. Trading on equity (using debt to boost EPS) is beneficial **only when ROI > cost of debt**. If ROI < cost of debt (Example II in NCERT), EPS falls with more debt. A student who agrees without the ROI condition ignores the core condition for favourable financial leverage and the risk of insolvency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (3-4 sentences) where a manufacturing firm faces a conflict between the Investment Decision and the Financing Decision. Show how the CFO resolves it using the wealth maximisation criterion.",
+     "a": "**Example case:** \"XYZ Ltd. must invest ₹50 cr in a new robotic line (expected ROI 14%). It can raise funds via 10% debt (increasing debt-equity from 0.5 to 1.2) or 16% equity. The CFO chooses debt because ROI (14%) > cost of debt (10%), EPS rises, and the debt-equity ratio, though higher, remains within industry norms. Wealth maximisation is served as the value added (14% - 10% after tax) exceeds the incremental financial risk.\" A poor answer would ignore ROI vs. cost comparison or ignore risk constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

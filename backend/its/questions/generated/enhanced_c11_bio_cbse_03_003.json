@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_003",
+   "title": "c11_bio_cbse_03_003",
+   "questions": [
+    {
+     "q": "Name the dominant photosynthetic pigment responsible for the characteristic colour of each class: Chlorophyceae, Phaeophyceae, and Rhodophyceae.",
+     "a": "Chlorophyceae: chlorophyll a and b (grass green); Phaeophyceae: chlorophyll a, c and fucoxanthin (brown); Rhodophyceae: chlorophyll a, d and r-phycoerythrin (red). A wrong answer (e.g., stating chlorophyll b for brown algae) reveals the student has memorized colours but not the underlying pigment biochemistry, which is essential for understanding light-harvesting adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Rhodophyceae can grow at greater ocean depths than Phaeophyceae, linking your answer to their pigment composition and light absorption properties.",
+     "a": "Rhodophyceae contain phycoerythrin which absorbs blue-green light (450-550 nm) that penetrates deepest in water, while Phaeophyceae rely on fucoxanthin absorbing blue light (450-540 nm) but lack efficient green-light harvesting. A student who only states \"red algae live deeper\" without connecting pigment absorption spectra to light penetration demonstrates rote memorization without mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "An unknown marine alga has cellulose cell walls with algin coating, stores mannitol, and produces pear-shaped biflagellate zoospores with laterally inserted unequal flagella. Identify its class and justify using three diagnostic features.",
+     "a": "Phaeophyceae. Justification: (1) Cell wall of cellulose covered by algin (gelatinous coating) is characteristic of brown algae. (2) Mannitol/laminarin storage is unique to Phaeophyceae. (3) Pear-shaped biflagellate zoospores with laterally attached unequal flagella are diagnostic. If a student identifies it as Chlorophyceae, they likely overlooked the algin coating and flagellar insertion pattern, confusing it with green algal zoospores.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evolutionary significance of flagellar absence in Rhodophyceae versus flagellar presence in Chlorophyceae and Phaeophyceae. How does this relate to their reproductive strategies and habitat colonization?",
+     "a": "Rhodophyceae lack motile stages entirely (no flagella on spores/gametes), relying on water currents for passive dispersal of non-motile spermatia and carpospores, which limits them to marine environments where water movement is reliable. Chlorophyceae and Phaeophyceae retain flagellated motile cells (zoospores/gametes) enabling active swimming toward light or mates, facilitating colonization of diverse freshwater and marine habitats. A student who says \"red algae are primitive because they lack flagella\" misunderstands that flagellar loss is a derived adaptation to stable marine conditions, not an ancestral trait.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since both Chlorophyceae and Rhodophyceae store starch-like polysaccharides, they must be more closely related to each other than to Phaeophyceae which stores mannitol.\" Evaluate this claim using modern phylogenetic principles.",
+     "a": "The claim is flawed. Floridean starch (Rhodophyceae) and starch (Chlorophyceae) are both α-1,4/1,6 glucans but evolved convergently; Rhodophyceae lack chloroplast endoplasmic reticulum and have unstacked thylakoids, while Chlorophyceae share stacked thylakoids and chloroplast ER with land plants. Phaeophyceae (stramenopiles) are phylogenetically distant from both. Storage product alone is insufficient for inferring relationships; ultrastructure and molecular data override it. A student agreeing with the claim shows over-reliance on single characters without considering total evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory protocol using only a light microscope and iodine solution to distinguish between a filamentous Chlorophyceae (e.g., Spirogyra) and a filamentous Rhodophyceae (e.g., a simple red alga) specimen.",
+     "a": "Mount filaments in water, observe chloroplast morphology (spiral/ribbon vs. discoid), then add iodine solution: blue-black starch granules confirm Chlorophyceae; reddish-brown floridean starch (iodine-positive but different hue) or no reaction suggests Rhodophyceae. Also note absence of pyrenoids in Rhodophyceae. A poor answer would only mention colour difference without a biochemical test, missing the opportunity to demonstrate stored food distinction which is a key taxonomic criterion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

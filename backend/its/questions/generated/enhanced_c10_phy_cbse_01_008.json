@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_008",
+   "title": "c10_phy_cbse_01_008",
+   "questions": [
+    {
+     "q": "State Joule's Law of heating in words and write its mathematical formula with SI units for each quantity.",
+     "a": "Joule's Law: The heat produced (H) in a resistor is directly proportional to the square of the current (I), the resistance (R), and the time (t). Formula: H = I²Rt, where H is in joules (J), I in amperes (A), R in ohms (Ω), and t in seconds (s). A wrong answer (e.g., writing H = IRT or H = VI²t) reveals the student has memorised the formula incorrectly and does not understand the square dependence on current.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical resistors are connected to the same battery. In the first case, they are connected in series; in the second, in parallel. In which case is more heat produced per minute? Explain using Joule's Law.",
+     "a": "More heat is produced in the parallel combination. For the same battery voltage, the equivalent resistance in parallel is lower (R/2) than in series (2R). Since heat produced per unit time is power P = V²/R, lower R gives higher power. Alternatively, using H = I²Rt: in parallel, total current is higher (I_total = V/(R/2) = 2V/R) and heat ∝ I²R, so net heat is higher. A wrong answer (saying series produces more heat because resistance is higher) reveals the common misconception that \"more resistance always means more heat\" without considering that current changes with resistance for a fixed voltage source.",
+     "self_check": true
+    },
+    {
+     "q": "An electric kettle rated 1500 W, 220 V is used for 10 minutes. Calculate the heat produced in joules. (Hint: First find the current, then use H = I²Rt, or use H = Pt directly.)",
+     "a": "Given: P = 1500 W, V = 220 V, t = 10 min = 600 s.\nMethod 1 (using H = Pt): H = 1500 × 600 = 9,00,000 J = 9 × 10⁵ J.\nMethod 2 (using H = I²Rt): I = P/V = 1500/220 = 6.818 A. R = V²/P = 220²/1500 = 32.27 Ω. H = (6.818)² × 32.27 × 600 = 9,00,000 J.\nA wrong answer (e.g., forgetting to convert minutes to seconds, giving 15,000 J) reveals a unit conversion error — a frequent board exam mistake where students use time in minutes instead of seconds.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots a graph of heat produced (H) versus current (I) for a fixed resistor and fixed time. What will be the shape of the graph? If the resistance is doubled while keeping current and time same, how will the graph change?",
+     "a": "The graph of H vs I is a parabola passing through the origin (H ∝ I²). If resistance is doubled, the new graph will be a steeper parabola (since H = (2R)I²t = 2 × original H for same I). A wrong answer (drawing a straight line) reveals the student thinks H ∝ I linearly, ignoring the square relationship — a fundamental conceptual error that leads to incorrect predictions in circuit analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In a circuit, a 4 Ω resistor produces 100 J of heat in 5 seconds. The same resistor is now replaced by a 2 Ω resistor, and the voltage across it is kept the same. Will the heat produced in 5 seconds increase, decrease, or stay the same? Justify quantitatively.",
+     "a": "Heat will increase. For the 4 Ω resistor: H = I²Rt = 100 J → I² = 100/(4×5) = 5 → I = √5 A. Voltage V = IR = 4√5 V. For the 2 Ω resistor at same V: I' = V/R' = (4√5)/2 = 2√5 A. New heat H' = I'²R't = (2√5)² × 2 × 5 = 20 × 2 × 5 = 200 J. Heat doubles. A wrong answer (saying heat decreases because resistance decreased) reveals the student applied H ∝ R without realising that for constant voltage, I changes as 1/R, and H ∝ I²R ∝ (1/R)² × R = 1/R. So heat is inversely proportional to resistance when voltage is constant.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a nichrome wire, water in a calorimeter, and a thermometer to verify Joule's Law. List the variables you will control, the measurements you will take, and how you will analyse the data to confirm H ∝ I².",
+     "a": "Control: resistance (same nichrome wire), time (e.g., 2 min), mass of water. Vary: current by changing number of cells in series (1 cell, 2 cells, 3 cells). Measure: initial and final temperature of water. Calculate heat absorbed by water: H = mcΔθ. Plot H vs I. If parabolic, H ∝ I² is confirmed. A poor answer (e.g., \"measure temperature after 2 minutes for different wires\") reveals the student does not understand controlled variables — they would change resistance instead of current, confusing the two factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

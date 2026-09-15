@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_011",
+   "title": "c11_acc_cbse_09_011",
+   "questions": [
+    {
+     "q": "What are the two financial statements where every adjustment must be reflected to complete the double entry?",
+     "a": "Every adjustment must be reflected in the Trading and Profit & Loss Account (or either Trading Account or Profit & Loss Account depending on the nature) and the Balance Sheet. A wrong answer (e.g., only in Profit & Loss Account) reveals the student has not grasped the dual aspect concept: adjustments simultaneously affect profit determination and financial position.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why closing stock is credited to the Trading Account but also shown on the asset side of the Balance Sheet.",
+     "a": "Closing stock is credited to Trading Account because it represents unsold goods that reduce the cost of goods sold (matching concept). It appears as a current asset in the Balance Sheet because it is an unsold resource owned by the business at year-end. A wrong answer (e.g., \"it's income\") shows confusion between revenue recognition and asset valuation.",
+     "self_check": true
+    },
+    {
+     "q": "A Trial Balance shows Debtors ₹50,000, Bad Debts ₹2,000, and Provision for Doubtful Debts ₹1,500. Additional information: \"Write off further bad debts ₹1,000 and maintain provision at 5% on debtors.\" Calculate the amount debited to Profit & Loss Account for provision for doubtful debts.",
+     "a": "Step 1: Debtors after further bad debts = ₹50,000 - ₹1,000 = ₹49,000.\nStep 2: New provision required = 5% of ₹49,000 = ₹2,450.\nStep 3: Old provision = ₹1,500.\nStep 4: Additional provision needed = ₹2,450 - ₹1,500 = ₹950 (debit to P&L).\nA wrong answer (e.g., ₹2,450) reveals the student forgets to adjust for the existing provision balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Outstanding Expenses\" and \"Prepaid Expenses\" in the Profit & Loss Account and Balance Sheet. How does each affect net profit?",
+     "a": "Outstanding expenses are added to the respective expense in P&L (increasing expense, decreasing profit) and shown as a current liability in Balance Sheet. Prepaid expenses are deducted from the respective expense in P&L (decreasing expense, increasing profit) and shown as a current asset in Balance Sheet. A wrong comparison (e.g., both increase profit) indicates the student hasn't internalized the accrual concept: expenses must match the period they belong to.",
+     "self_check": true
+    },
+    {
+     "q": "A manager is entitled to 10% commission on net profit after charging such commission. The net profit before commission is ₹1,10,000. Evaluate whether the commission amount is ₹11,000 or ₹10,000 and justify.",
+     "a": "Commission is on profit AFTER commission, so formula: Commission = Profit before commission × Rate/(100+Rate) = ₹1,10,000 × 10/110 = ₹10,000. ₹11,000 would be correct only if commission were on profit BEFORE commission. Choosing ₹11,000 shows the student cannot distinguish between the two bases of commission calculation – a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case with a Trial Balance (5 accounts) and 3 adjustments that require the student to prepare a Trading Account, Profit & Loss Account, and Balance Sheet. Ensure one adjustment affects Trading Account, one affects Profit & Loss Account, and one affects both.",
+     "a": "Example: Trial Balance: Capital ₹1,00,000, Purchases ₹60,000, Sales ₹90,000, Wages ₹10,000, Furniture ₹20,000. Adjustments: (1) Closing Stock ₹15,000 (Trading), (2) Outstanding Wages ₹2,000 (Trading), (3) Depreciation on Furniture 10% (P&L and Balance Sheet). A poor answer would miss the dual effect of depreciation or misplace closing stock, showing inability to synthesize multiple adjustments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_004",
+   "title": "c12_bs_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the one-line definition of an Initial Public Offer (IPO) as per the Companies Act, 2013 and SEBI ICDR Regulations.",
+     "a": "Correct: An IPO is the first sale of shares by a private company to the public, resulting in listing on a stock exchange, where the company issues *fresh* shares (or existing shareholders offer shares) to raise capital and the company becomes a publicly listed entity.  \nA wrong answer like \"any public issue of shares\" reveals the student confuses IPO with FPO (Follow-on Public Offer) or thinks every public issue is an IPO. The critical distinction is *first-time* listing and the *change in status* from private to public company.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an Offer for Sale (OFS) does not increase the company's share capital, whereas a Rights Issue does.",
+     "a": "Correct: In OFS, existing shareholders (promoters/investors) sell their *already issued* shares to the public — money goes to the selling shareholders, not the company; the total number of shares outstanding remains unchanged. In a Rights Issue, the company *issues new shares* to existing shareholders proportionally — money flows to the company, increasing its share capital and total shares outstanding.  \nA wrong answer like \"both bring money to the company\" shows the student misses the fundamental difference between *primary issuance* (company receives funds) and *secondary transfer* (seller receives funds), a confusion that leads to errors in calculating post-issue capital structure.",
+     "self_check": true
+    },
+    {
+     "q": "GreenEnergy Ltd. (unlisted) has 1 crore shares of ₹10 face value. It plans an IPO of 20 lakh fresh shares at ₹500 per share. Calculate: (a) Post-IPO paid-up capital, (b) Funds raised, (c) Promoters' holding % if they held 80% pre-IPO and do not participate.",
+     "a": "Step 1: Pre-IPO shares = 1,00,00,000; face value ₹10 → paid-up capital = ₹10 crore.  \nStep 2: Fresh issue = 20,00,000 shares → post-IPO shares = 1,20,00,000.  \nStep 3: (a) Post-IPO paid-up capital = 1,20,00,000 × ₹10 = ₹12 crore.  \nStep 4: (b) Funds raised = 20,00,000 × ₹500 = ₹1,000 crore (issue price, not face value).  \nStep 5: (c) Promoters' pre-IPO shares = 80 lakh; post-IPO % = 80,00,000 / 1,20,00,000 = 66.67%.  \nA wrong answer using face value for funds raised (₹2 crore) or forgetting that fresh issue dilutes non-participating promoters reveals misunderstanding of *issue price vs face value* and *dilution mechanics*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare IPO and Rights Issue on these four dimensions: (i) Regulatory approval timeline, (ii) Cost of issuance, (iii) Investor base, (iv) Certainty of capital raise. Which method would a cash-strapped listed company with a volatile share price prefer, and why?",
+     "a": "Correct comparison:  \n(i) IPO: SEBI approval + 6-12 months; Rights Issue: Board + shareholders' approval, ~2-3 months.  \n(ii) IPO: High (merchant bankers, underwriters, marketing, legal); Rights Issue: Low (no underwriting mandatory, minimal marketing).  \n(iii) IPO: Open to all (retail, QIB, NII); Rights Issue: Only existing shareholders (pro-rata).  \n(iv) IPO: Uncertain (depends on subscription); Rights Issue: High certainty (existing shareholders usually subscribe, can be underwritten).  \nA cash-strapped listed company with volatile share price would prefer **Rights Issue** — faster, cheaper, and assured capital; IPO timing risk and cost could be fatal.  \nA wrong answer choosing IPO for \"larger capital\" ignores the *urgency* and *cost* constraints — a classic competitive-exam trap where students pick the \"biggest\" option without analysing context.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"An Offer for Sale (OFS) is always better than an IPO for promoters who want to exit because it avoids dilution of earnings per share (EPS).\"",
+     "a": "The statement is **partially correct but misleading**.  \nCorrect part: OFS avoids *equity dilution* — no new shares issued, so denominator (shares outstanding) unchanged; EPS unaffected by share count increase.  \nFlaw 1: OFS *only* works if the company is *already listed* (minimum 1 year listing for promoter OFS per SEBI). An unlisted company *cannot* do OFS — must do IPO first.  \nFlaw 2: OFS does not bring *fresh capital* to the company; if the firm needs funds for growth, OFS fails that objective.  \nFlaw 3: Promoter OFS is capped at 20% of equity per SEBI; large exits need multiple tranches or IPO.  \nA student who agrees fully misses the *listing status prerequisite* and *capital needs* — a board exam answer would lose marks for incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a listed company *simultaneously* announces a Rights Issue and an OFS. Specify the company's objectives, shareholder reactions, and SEBI constraints that must be satisfied for both to proceed.",
+     "a": "Good answer criteria:  \n- Company: Listed ≥1 year, needs ₹2,000 cr for expansion (Rights Issue) + promoters want to sell 10% stake (OFS).  \n- Rights Issue: 1:4 ratio at ₹200 (market ₹300) → raises ₹2,000 cr from existing shareholders.  \n- OFS: Promoters sell 10% via stock exchange platform (T+1 settlement), floor price set.  \n- SEBI constraints: (a) Rights Issue: Board + postal ballot approval; record date fixed; minimum 90% subscription if not underwritten. (b) OFS: Only through exchange platform; non-promoter OFS allowed only for top 200 companies; promoter OFS ≥1 year listing; 25% reservation for mutual funds/insurance.  \n- Shareholder reaction: Rights Issue seen as positive (discount to market); OFS may signal promoter lack of confidence → stock price pressure.  \nA poor answer treats them as independent without addressing *simultaneous* signalling conflict or SEBI's separate regulatory tracks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

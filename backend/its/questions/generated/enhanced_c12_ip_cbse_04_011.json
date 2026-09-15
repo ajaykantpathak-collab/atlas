@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_011",
+   "title": "c12_ip_cbse_04_011",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: Define the term 'digital gender divide' as used in Indian policy documents (e.g., NFHS-5, TRAI reports). State one quantitative indicator used to measure it.",
+     "a": "The digital gender divide is the gap between men and women in access to, use of, and benefits from digital technologies. A key quantitative indicator is the percentage point difference in internet usage: NFHS-5 (2019-21) shows 57.1% men vs 33.3% women used the internet (23.8 pp gap). A wrong answer (e.g., 'women don't like technology') reveals a misconception that the divide is about preference/ability rather than structural barriers (cost, permission, literacy, relevance).",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why 'mobile phone ownership' alone is an insufficient metric for measuring women's technology access in India. Give two reasons with examples.",
+     "a": "Ownership ≠ meaningful access. Reason 1: Shared/controlled usage — a woman may 'own' a phone but require husband's permission to use it, or it may be a basic feature phone without internet. Reason 2: Time poverty — domestic labor limits time for digital skill-building. Example: NFHS-5 shows 54% women have a mobile phone, but only 33% use internet. A wrong answer focusing only on purchase price misses the socio-cultural control layer.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A school adopts an e-learning platform for Class 12. The platform uses drag-and-drop for coding exercises, has no keyboard navigation, videos lack captions, and color-coding (red/green) indicates errors. Identify which WCAG 2.1 Level AA success criteria are violated for a student with (a) motor disability unable to use mouse, (b) deafness, (c) color blindness.",
+     "a": "(a) Violates 2.1.1 Keyboard (all functionality via keyboard) and 2.1.2 No Keyboard Trap. (b) Violates 1.2.2 Captions (Prerecorded). (c) Violates 1.4.1 Use of Color (color not sole visual means of conveying information). A wrong answer listing only 'accessibility issues' without citing specific WCAG criteria shows inability to map real barriers to testable standards — a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the 'medical model' vs 'social model' of disability in the context of technology access. How does each model lead to different design solutions for a visually impaired user accessing a banking app?",
+     "a": "Medical model: disability is a defect in the person → solution: user must adapt (e.g., buy expensive screen reader, memorize complex gestures). Social model: disability is mismatch between design and user diversity → solution: fix the design (app natively supports TalkBack/VoiceOver, semantic labels, logical focus order, scalable text). Medical model blames user; social model demands inclusive design. Wrong answer conflating the two leads to 'special add-on' thinking rather than universal design.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: Critique the statement: \"Providing free smartphones to all rural women under a government scheme will eliminate the digital gender divide.\" Use at least three distinct barrier categories (infrastructure, socio-cultural, design, affordability, literacy) in your evaluation.",
+     "a": "The statement is insufficient. 1) Infrastructure: no reliable electricity/4G in many villages → phone unusable. 2) Socio-cultural: patriarchal norms may restrict usage (monitoring, time limits, 'not for girls'). 3) Design: apps in English, complex UI, no voice support for low-literacy users. 4) Affordability: data costs recurring. 5) Literacy: digital literacy training absent. A wrong answer focusing only on device cost reveals a 'hardware-only' fallacy ignoring systemic barriers.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a low-cost, low-tech intervention to help a non-literate, visually impaired rural woman access her MNREGA wage payment status on a feature phone (no smartphone, no internet). Describe the solution in 4 steps, specifying the technology used (USSD/IVR/SMS) and how it addresses both gender and disability barriers.",
+     "a": "Solution: IVR-based callback system in local language. Step 1: Woman gives missed call to toll-free number (no cost, works on feature phone). Step 2: System calls back immediately (overcomes 'no credit' barrier). Step 3: IVR menu in her dialect with voice prompts: \"Press 1 for wage status, 2 for job card info\" (addresses visual impairment + non-literacy). Step 4: System reads out last payment date, amount, days worked (audio output). Addresses gender: no need to visit male-dominated kiosk; disability: no screen reading needed. Poor answer: suggests smartphone app — ignores device/internet constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

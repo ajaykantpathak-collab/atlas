@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_001",
+   "title": "c10_geo_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define a mineral in geographical terms. Give two examples of ferrous metallic minerals found in India.",
+     "a": "A mineral is a naturally occurring inorganic solid with a definite chemical composition and crystalline structure. Two ferrous metallic minerals in India are haematite (iron ore) and manganese. A wrong answer (e.g., \"minerals are only metals\" or \"coal is a mineral\") reveals the student confuses minerals with metals or includes organic fuels; they have not grasped the inorganic, crystalline, definite-composition criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why minerals are classified into metallic and non-metallic categories. What is the practical significance of this classification for mining and usage?",
+     "a": "Metallic minerals contain metals in raw form (can be melted to obtain new products) and are further divided into ferrous (iron content) and non-ferrous; non-metallic minerals do not contain extractable metals (e.g., mica, limestone). The classification determines extraction method (smelting vs. quarrying), end-use (industrial metal vs. construction/chemical), and economic value. A wrong answer focusing only on \"shine\" or \"hardness\" shows the student misses the chemical/extractive basis and the link to industrial processing.",
+     "self_check": true
+    },
+    {
+     "q": "Bauxite in the Amarkantak plateau (Madhya Pradesh) is found as a residual mass in laterite soil. Identify the mode of occurrence and explain the geological process responsible for this concentration.",
+     "a": "Mode: Residual mass (formed by weathering). Process: Chemical weathering of aluminum-rich rocks in hot, humid climate leaches away silica, leaving behind concentrated aluminum oxides (bauxite) in situ. Steps: 1) Identify mineral (bauxite) and location (Amarkantak). 2) Recall laterite soil forms by intense leaching. 3) Connect leaching to residual concentration. 4) Conclude mode is residual mass. A wrong answer citing \"alluvial deposit\" or \"vein\" reveals confusion between transported vs. in-situ concentration and ignorance of laterite-bauxite link.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of occurrence of mica in Jharkhand (Koderma) with that of coal in the Damodar Valley. How does the difference affect the mining technique used?",
+     "a": "Mica occurs in veins/lodes within pegmatite intrusions (igneous) — narrow, deep, requiring shaft mining. Coal occurs in beds/layers (sedimentary) — horizontal, extensive, allowing open-cast mining. The vein mode is discontinuous and deep; bed mode is stratified and near-surface. A wrong answer stating both are mined similarly (e.g., both open-cast) shows failure to link mode of occurrence to mining technology and economic viability.",
+     "self_check": true
+    },
+    {
+     "q": "\"Ocean water contains vast quantities of dissolved minerals like magnesium and bromine, yet commercial extraction is limited.\" Evaluate this statement considering technological, economic, and environmental factors.",
+     "a": "The statement is valid. Technological: extraction requires energy-intensive evaporation or ion-exchange. Economic: low concentration makes it costlier than land-based sources except for high-value magnesium/bromine. Environmental: large-scale evaporation ponds disrupt coastal ecosystems. A good evaluation weighs these against land-resource depletion. A wrong answer saying \"it's easy because ocean is big\" ignores concentration economics and shows lack of cost-benefit geographical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart that traces the geological journey of a mineral from its formation in the earth's crust to its final mode of occurrence, using one metallic and one non-metallic Indian example.",
+     "a": "Expected flowchart: Magmatic crystallisation → cooling → veins/lodes (e.g., copper in Khetri) OR Sedimentation → compaction → beds/layers (e.g., limestone in Chhattisgarh) OR Weathering → leaching → residual mass (e.g., bauxite in Odisha) OR Erosion → transport → alluvial deposits (e.g., gold in Subarnarekha river sands) OR Dissolution → ocean water (magnesium). A poor flowchart mixes processes (e.g., shows coal in veins) or omits the geological agent, revealing fragmented understanding of process-mode linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

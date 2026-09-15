@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class9_social_science_ch202",
+ "concepts": [
+  {
+   "id": "iess.202.1",
+   "title": "Concept of Human Capital and People as Resource",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Concept of Human Capital and People as Resource' refers to.",
+     "a": "The working segment of a country considered in terms of its skills, technical abilities, and productive capacities that contribute to national output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concept of Human Capital and People as Resource'.",
+     "a": "Investing in human beings turns population from a liability into a productive economic asset.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Concept of Human Capital and People as Resource' taught, and from which source text?",
+     "a": "Overview (source: iess202.txt lines 1-60)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.2",
+   "title": "Virtuous and Vicious Cycles in Human Capital Formation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Virtuous and Vicious Cycles in Human Capital Formation' refers to.",
+     "a": "A developmental pattern where educated parents invest substantially in their children creating positive compounding gains, contrasted with disadvantaged parents perpetuating deprivation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Virtuous and Vicious Cycles in Human Capital Formation'.",
+     "a": "Sustained family investment in child health and learning creates intergenerational upward mobility.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Virtuous and Vicious Cycles in Human Capital Formation' taught, and from which source text?",
+     "a": "Story of Sakal and Vilas (source: iess202.txt lines 61-160)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.3",
+   "title": "Classification of Economic Activities into Three Sectors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification of Economic Activities into Three Sectors' refers to.",
+     "a": "The categorisation of all output generating activities into primary extraction, secondary manufacturing, and tertiary service provision.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Economic Activities into Three Sectors'.",
+     "a": "All three sectors jointly contribute goods and services to the Gross National Product.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Economic Activities into Three Sectors' taught, and from which source text?",
+     "a": "Economic Activities by Men and Women (source: iess202.txt lines 161-200)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.4",
+   "title": "Market versus Non-Market Activities and Gender Division of Labour",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Market versus Non-Market Activities and Gender Division of Labour' refers to.",
+     "a": "The distinction between tasks performed for remuneration or profit and unpaid tasks performed for self consumption or domestic upkeep.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market versus Non-Market Activities and Gender Division of Labour'.",
+     "a": "Unpaid household work by women is excluded from national income calculations due to the non-market nature of domestic chores.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Market versus Non-Market Activities and Gender Division of Labour' taught, and from which source text?",
+     "a": "Economic Activities by Men and Women (source: iess202.txt lines 201-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.5",
+   "title": "Education and Quality of Population",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Education and Quality of Population' refers to.",
+     "a": "The development of human knowledge, values, and literacy that improves individual earning potential and strengthens social governance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Education and Quality of Population'.",
+     "a": "Universal elementary education policies like Sarva Shiksha Abhiyan and Mid-Day Meals improve school retention and literacy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Education and Quality of Population' taught, and from which source text?",
+     "a": "Quality of Population - Education (source: iess202.txt lines 261-360)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.6",
+   "title": "Health Indicators and Human Development",
+   "questions": [
+    {
+     "q": "Using the method 'Health Indicators and Human Development', work with: val_final = 8, val_initial = 500. Carry the chain through step by step and give the final value of pct_change.",
+     "a": "98.4 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Health Indicators and Human Development' and work with: val_final = 50, val_initial = 200. Carry the chain through step by step and give the final value of pct_change.",
+     "a": "75 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Health Indicators and Human Development' refers to.",
+     "a": "The physiological well-being of the population measured through statistical indicators like life expectancy, infant mortality rate, crude birth rate, and crude death rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Health Indicators and Human Development'.",
+     "a": "A healthy workforce maximizes output and prevents loss of working potential due to illness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Health Indicators and Human Development', in plain ASCII form.",
+     "a": "imr = (infant_deaths / live_births) * 1000",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.7",
+   "title": "Unemployment and Workforce Demographics",
+   "questions": [
+    {
+     "q": "Using the method 'Unemployment and Workforce Demographics', work with: employed_count = 24, labour_force = 150. Carry the chain through step by step and give the final value of unemployment_rate.",
+     "a": "84 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Unemployment and Workforce Demographics' and work with: employed_count = 40, labour_force = 50. Carry the chain through step by step and give the final value of unemployment_rate.",
+     "a": "20 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Unemployment and Workforce Demographics' refers to.",
+     "a": "A condition in which individuals within the active working age bracket who are seeking employment at prevailing wages cannot secure jobs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Unemployment and Workforce Demographics'.",
+     "a": "Only individuals aged 15 to 59 years actively seeking paid work are counted in unemployment statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Unemployment and Workforce Demographics', in plain ASCII form.",
+     "a": "unemployed_count = labour_force - employed_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.8",
+   "title": "Types of Unemployment: Seasonal, Disguised, and Educated",
+   "questions": [
+    {
+     "q": "Using the method 'Types of Unemployment: Seasonal, Disguised, and Educated', work with: required_workers = 25000, total_workers = 2500. Carry the chain through step by step and give the final value of surplus_labour.",
+     "a": "-22500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Types of Unemployment: Seasonal, Disguised, and Educated' and work with: required_workers = 12000, total_workers = 2500. Carry the chain through step by step and give the final value of surplus_labour.",
+     "a": "-9500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Types of Unemployment: Seasonal, Disguised, and Educated' refers to.",
+     "a": "Distinct forms of joblessness including agricultural off-season idleness, invisible surplus workers on family plots, and educated degree holders lacking suitable jobs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Unemployment: Seasonal, Disguised, and Educated'.",
+     "a": "Disguised unemployment occurs when marginal productivity of surplus workers is zero.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Unemployment: Seasonal, Disguised, and Educated', in plain ASCII form.",
+     "a": "surplus_labour = total_workers - required_workers",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.202.9",
+   "title": "Consequences of Unemployment and Sectoral Absorption",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consequences of Unemployment and Sectoral Absorption' refers to.",
+     "a": "The socio-economic costs of joblessness that transform assets into liabilities, increase dependency ratios, and prompt labour migration to secondary and tertiary sectors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consequences of Unemployment and Sectoral Absorption'.",
+     "a": "Unemployment increases economic overload and leads to loss of human capital potential.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Consequences of Unemployment and Sectoral Absorption' taught, and from which source text?",
+     "a": "Unemployment / Story of a Village (source: iess202.txt lines 541-620)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

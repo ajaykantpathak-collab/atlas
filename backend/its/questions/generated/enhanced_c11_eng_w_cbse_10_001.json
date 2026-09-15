@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_001",
+   "title": "c11_eng_w_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme and stanza structure of a Shakespearean sonnet?",
+     "a": "A Shakespearean sonnet consists of three quatrains (four-line stanzas) followed by a final couplet (two lines), with the rhyme scheme ABAB CDCD EFEF GG. A wrong answer (e.g., ABBA ABBA CDE CDE) reveals confusion with the Petrarchan sonnet form, indicating the student has not distinguished between the two major sonnet traditions — a critical gap for analyzing why Shakespeare chose this structure for his argument about love.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a poet choose to define something by stating what it is NOT (using negatives) rather than what it is?",
+     "a": "Using negatives (e.g., \"Love is not love / Which alters...\") creates a process of elimination that narrows the definition to an absolute ideal, making the positive assertion (\"It is an ever-fixed mark\") more forceful by contrast. It also mimics legal or philosophical argumentation, establishing the speaker's authority. A wrong answer that merely says \"for emphasis\" misses the logical and rhetorical strategy: the negatives systematically dismantle false versions of love to isolate the true one, which is central to the poem's argumentative structure.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to write a quatrain in Shakespearean sonnet form about friendship that mirrors the logical structure of the first quatrain of Sonnet 116, what would be the rhyme scheme and the pattern of argument?",
+     "a": "The quatrain would follow ABAB rhyme scheme. The argument pattern: Line 1 states the ideal (\"Let me not to the friendship of true hearts / Admit obstacles\"), Line 2 defines by negative (\"Friendship is not friendship / Which changes when it alteration finds\"), Line 3 extends the negative (\"Or bends with the remover to remove\"), Line 4 concludes the negative definition. A wrong answer that only focuses on rhyme without the logical progression (statement → negative definition → extension) shows the student sees form as decorative rather than functional — a senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two central metaphors in the poem — the \"ever-fixed mark\" (lighthouse) and the \"star\" (Polaris) — in terms of what each conveys about love's nature that the other does not.",
+     "a": "The \"ever-fixed mark\" (lighthouse) suggests love as a human-made, stationary guide that withstands storms (tempests) — emphasizing reliability and endurance. The \"star\" (Polaris) suggests a natural, celestial, distant guide whose \"worth's unknown, although his height be taken\" — emphasizing love's immeasurable value and universal constancy beyond human measurement. Together they cover both steadfastness and transcendence. A wrong answer that treats them as mere decoration misses how the metaphors complement each other: one earthly/active, one heavenly/passive, jointly constructing love as both accessible guide and absolute standard.",
+     "self_check": true
+    },
+    {
+     "q": "Is the poet's claim in the final couplet — \"If this be error, and upon me proved, / I never writ, nor no man ever loved\" — a logically sound defense of his definition, or a rhetorical trap? Justify your evaluation.",
+     "a": "It is a rhetorical trap, not a logical proof. By staking his entire literary reputation and the universal human experience of love on his definition, Shakespeare makes disagreement practically impossible: to disprove him, one must prove either he didn't write (false) or no one has ever truly loved (absurd). This shifts the burden of proof impossibly high. A wrong answer that calls it \"logical\" confuses rhetorical force with logical validity — a common senior-secondary error when students conflate persuasive devices with philosophical argument.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Shakespearean sonnet couplet (two lines, iambic pentameter, rhyming GG) that stakes your own reputation on a definition of a human value (e.g., courage, honesty, loyalty) in the same way Shakespeare does.",
+     "a": "Example: \"If loyalty be false when tested sore, / I never stood for truth, nor friend swore more.\" A good answer maintains iambic pentameter (da-DUM da-DUM da-DUM da-DUM da-DUM), rhymes GG, and mirrors the conditional \"If this be error... I never...\" structure. A poor answer that ignores meter or rhyme, or writes a generic moral statement without the self-referential stakes, reveals the student hasn't internalized how the couplet's form enacts the poem's ultimate argument: the poet's identity is inseparable from the truth he declares.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

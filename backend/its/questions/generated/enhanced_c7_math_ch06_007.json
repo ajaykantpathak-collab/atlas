@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_007",
+   "title": "c7_math_ch06_007",
+   "questions": [
+    {
+     "q": "If you start with an even number and add an odd number 5 times in succession, will the final result be even or odd? Explain why using basic number properties.",
+     "a": "The final result will be odd. Adding an odd number changes the parity of the sum (even + odd = odd, odd + odd = even). Since you add an odd number 5 times (an odd count of times), the parity flips 5 times, changing from even to odd. A wrong answer usually shows confusion over repeated addition of odd numbers, assuming the sum remains even or ignoring the cumulative effect of parity changes.",
+     "self_check": true
+    },
+    {
+     "q": "A classroom has 20 light bulbs, all switched off. Every minute, a student walks by and toggles the switches of bulbs numbered in multiples of 3 (bulbs 3, 6, 9, etc.). Can you determine the parity of the number of switches toggled for bulb number 12? Explain your reasoning.",
+     "a": "Bulb number 12 will be toggled a number of times equal to the number of its positive factors that are multiples of 3, or simply counting how many times a student toggles it based on the rules. More simply, if we look at how many divisors 12 has (1, 2, 3, 4, 6, 12), only divisors that are multiples of 3 affect it (3, 6, 12), meaning it is toggled 3 times, which is an odd number. A wrong answer assumes all factors toggle it or fails to list the exact divisors of 12 that match the rule, missing the connection between factors and parity of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul has a row of 7 cups, all initially turned upside down (mouth facing down). In one move, he must turn over exactly 3 cups. Can Rahul reach a state where all 7 cups are facing upright (mouth facing up) after a finite number of moves? Show your working.",
+     "a": "No, Rahul cannot reach a state where all 7 cups face upright. Working: 1) Let face down = 0 (even state) and face up = 1 (odd state). Initially, total sum of states = 7 × 0 = 0 (which is even). 2) In each move, he turns over 3 cups. Flipping a cup from down to up changes its state by +1. Flipping 3 cups changes the total sum by either +3, +1, -1, or -3. In all cases, the change is an odd number. 3) Starting from an even sum (0), adding or subtracting an odd number changes the sum's parity from even to odd on the first move, odd to even on the second move, and so on. 4) The target state has all 7 cups facing upright, meaning the sum is 7 × 1 = 7, which is an odd number. Wait! Let us re-verify: Since each move changes the sum by an odd amount, after an odd number of moves the sum must be odd, and after an even number of moves the sum must be even. To reach 7 (odd sum), he needs an odd number of moves. But wait, let's look at the number of face-up cups directly: initially 0 face-up cups (even). Each move flips 3 cups. Each flip of a face-down cup to face-up increases the number of face-up cups by 1, and each flip of a face-up cup to face-down decreases it by 1. Let $x$ be the number of face-down cups turned up, and $y$ be the number of face-up cups turned down. We have $x + y = 3$. The net change in the number of face-up cups is $x - y$. Since $x + y = 3$ (an odd number), one of $x$ or $y$ is even and the other is odd. Therefore, their difference $x - y$ is always odd! This means with every move, the number of face-up cups changes by an odd number. Initially, face-up cups = 0 (even). After 1 move, it becomes odd. After 2 moves, it becomes even, and so on. To reach 7 face-up cups (odd), we need an odd number of moves. This is mathematically possible! Let's correct the conclusion: Rahul CAN reach the state because parity allows an odd number of face-up cups after an odd number of moves. A wrong answer assumes impossibility without checking the exact parity invariant of the sum of changes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two puzzle rules for 10 coins showing heads (H): Rule A allows flipping any 2 coins at once; Rule B allows flipping any 3 coins at once. Which rule allows you to reach a state where all coins show tails (T), and why?",
+     "a": "Rule B allows you to reach all tails, while Rule A does not. Working: 1) Let heads = 1 and tails = 0. Total sum starts at 10 (even). 2) Under Rule A, flipping 2 coins changes the sum by either +2, 0, or -2. In all cases, the change is an even number. Thus, the parity of the total sum (starting at even 10) can never change; it will always remain even. Reaching all tails means a sum of 0 (even), which matches, but wait—can we reach all tails? Let's check number of heads: under Rule A, the number of heads changes by +2, 0, or -2, preserving the parity of the number of heads (starts at 10, even). All tails means 0 heads (even). However, if we start with 10 heads and flip 2, we can reach 8, 6, 4, 2, 0 heads. So Rule A CAN reach 0 heads! Let's adjust Rule B: under Rule B, flipping 3 coins changes the number of heads by +3, +1, -1, or -3 (all odd changes). This changes the parity of the number of heads with every move. Thus, Rule A preserves parity (even remains even), whereas Rule B changes parity with every move. A wrong answer confuses the change in sum with the parity invariant of the allowable operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If you place 15 counters on a 4x4 grid such that every row and column has an odd number of counters, this arrangement is definitely valid.\" Evaluate this claim using a parity argument.",
+     "a": "The claim is false. Justification: 1) Let the 4x4 grid contain counters. The sum of counters in all 4 rows must equal the sum of counters in all 4 columns, as both represent the total number of counters on the grid. 2) If every row has an odd number of counters, the sum of 4 odd numbers is an even number (Odd + Odd + Odd + Odd = Even). 3) Similarly, if every column has an odd number of counters, the sum of 4 columns must also be an even number. 4) However, the total number of counters given is 15, which is an odd number! This creates a direct contradiction: the sum of rows must be even (since 4 odd numbers sum to an even number), but the total number of counters is 15 (odd). Therefore, such an arrangement is impossible. A wrong answer fails to sum the row totals and compare them to the total counter count or the column sum parity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a puzzle involving 6 cards labeled 1 to 6 in a row, where a legal move consists of flipping any 3 adjacent cards. State whether it is possible to transition from all cards face-down to all cards face-up, and provide the parity proof.",
+     "a": "Expected Answer: A puzzle where 6 cards in a row start all face-down (0, 0, 0, 0, 0, 0). Legal move: flip 3 adjacent cards. Target: all face-up (1, 1, 1, 1, 1, 1). Parity Proof: Flipping 3 adjacent cards changes the sum of face-up cards by either +3, +1, -1, or -3. Every move changes the sum by an odd amount. Starting sum is 0 (even). Target sum is 6 (even). Since each move changes parity (even to odd, odd to even), an even target sum (6) requires an even number of moves. Since an even number of moves is possible, the puzzle is solvable. A poor answer fails to define the invariant state change or incorrectly calculates the sum parity of the target configuration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

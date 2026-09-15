@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_6",
+   "title": "c8_math_ch14_6",
+   "questions": [
+    {
+     "q": "State the formula for the area of a trapezium and explain what each letter represents.",
+     "a": "The formula is Area = ½ × (a + b) × h, where a and b are the lengths of the two parallel sides and h is the perpendicular distance (height) between them. A wrong answer such as Area = (a + b) × h (missing the half) reveals the student does not understand the derivation from a parallelogram. Writing a × b × h shows confusion with rectangle or cuboid volume formulas.",
+     "self_check": true
+    },
+    {
+     "q": "A trapezium has parallel sides of 6 cm and 10 cm. The height is 4 cm. A student calculates the area as ½ × 6 × 10 × 4 = 120 cm². Is this correct? Explain why or why not.",
+     "a": "The calculation is incorrect. The student multiplied the two parallel sides together (6 × 10) instead of adding them (6 + 10). The correct working is ½ × (6 + 10) × 4 = ½ × 16 × 4 = 32 cm². This error reveals the student treats the formula like a triangle's (½ × base × height) but uses both parallel sides as if they were base and height, not understanding that a and b are summed first.",
+     "self_check": true
+    },
+    {
+     "q": "The area of a trapezium is 56 cm². Its parallel sides are 8 cm and 6 cm. Find the height.",
+     "a": "Given: Area = 56 cm², a = 8 cm, b = 6 cm.\nStep 1: Write formula: 56 = ½ × (8 + 6) × h\nStep 2: Simplify sum: 56 = ½ × 14 × h\nStep 3: Multiply: 56 = 7 × h\nStep 4: Divide: h = 56 ÷ 7 = 8 cm.\nA wrong answer like h = 4 cm (from 56 ÷ 14) shows the student forgot the factor ½. An answer of h = 56 cm shows they did not isolate h correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area formulas of a parallelogram and a trapezium. How does the trapezium formula reduce to the parallelogram formula when the two parallel sides become equal?",
+     "a": "Parallelogram area = base × height = b × h. Trapezium area = ½ × (a + b) × h. If a = b (both parallel sides equal), then ½ × (b + b) × h = ½ × 2b × h = b × h, which matches the parallelogram formula. This shows a parallelogram is a special case of a trapezium. A student who cannot make this connection treats the formulas as unrelated facts to memorize.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Find the area of a trapezium with parallel sides 9 cm and 5 cm, and height 6 cm.\" Their working: Area = ½ × (9 + 5) × 6 = ½ × 14 × 6 = 7 × 6 = 42 cm². Is the student's answer correct? If not, identify the exact step where the error occurs.",
+     "a": "The student's answer is correct. The steps are accurate: sum = 14, half = 7, times height 6 = 42 cm². If a student claims it is wrong, they might mistakenly think the order of operations requires multiplying ½ × 6 first, but multiplication is commutative. A wrong judgment here reveals confusion about order of operations or a belief that the half must multiply the height first.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life problem (with numbers) where you need to find the area of a trapezium, but one of the parallel sides is unknown and must be found first using the total area and the other dimensions. Provide the full problem statement and the solution steps.",
+     "a": "Example problem: \"A garden bed is shaped like a trapezium. Its area is 72 m². The height is 6 m and one parallel side is 8 m. Find the length of the other parallel side.\"\nSolution: 72 = ½ × (8 + x) × 6 → 72 = 3 × (8 + x) → 24 = 8 + x → x = 16 m.\nA poor answer gives a problem that doesn't require finding a missing side, or provides numbers that don't work out evenly, indicating the student cannot reverse-engineer the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

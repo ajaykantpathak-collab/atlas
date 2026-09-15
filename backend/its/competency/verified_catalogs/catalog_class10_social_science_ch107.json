@@ -1,0 +1,422 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 107,
+ "chapter_title": "Lifelines of National Economy: Transport and Communication",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess107.txt",
+ "concepts": [
+  {
+   "id": "jess.107.1.1",
+   "title": "Classification and Advantages of Roadways",
+   "section": "Roadways",
+   "definition": "Road transport provides direct point-to-point transit and can traverse rugged terrains more easily than rail infrastructure.",
+   "formula": "",
+   "key_idea": "Roads offer cost-effective short-distance transport and serve as feeder networks to other transit modes.",
+   "textbook_ref": "jess107.txt lines 30-70",
+   "question_patterns": [
+    "what are the main advantages of road transport over railways",
+    "explain why roadways have an edge over railways in India",
+    "describe how roads serve as feeder routes to other modes of transport",
+    "list the six categories of roads in India based on capacity",
+    "why is the construction cost of roads lower than railway lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify transport features",
+     "explain": "Analyze features such as construction cost, terrain adaptability, slope negotiation, and door-to-door service."
+    },
+    {
+     "step": 2,
+     "action": "compare modes",
+     "explain": "Compare road flexibility with rail rigidity for short distances and feeder connectivity."
+    },
+    {
+     "step": 3,
+     "action": "verify feeder connectivity role",
+     "explain": "Confirm that roads act as feeder networks linking villages and remote areas to railways, ports, and airports, completing the multi-modal transport chain."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.1.2",
+   "title": "Super Highways, National Highways, and Border Roads",
+   "section": "Roadways",
+   "definition": "High-density road corridors connect major industrial hubs, national capitals, and border areas to facilitate rapid transit and strategic movement.",
+   "formula": "",
+   "key_idea": "Projects like Golden Quadrilateral and Border Roads enhance national connectivity and strategic access.",
+   "textbook_ref": "jess107.txt lines 71-120",
+   "question_patterns": [
+    "what is the main objective of the Golden Quadrilateral Super Highways",
+    "which authority constructs and maintains border roads in India",
+    "identify the terminal points of the North-South and East-West corridors",
+    "explain the strategic importance of border roads in India",
+    "which agency implements national highway expansion projects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify highway corridor",
+     "explain": "Locate terminal nodes such as Srinagar to Kanniyakumari or Silchar to Porbandar."
+    },
+    {
+     "step": 2,
+     "action": "determine managing agency",
+     "explain": "Match project type with maintaining body such as NHAI or Border Roads Organisation."
+    },
+    {
+     "step": 3,
+     "action": "verify strategic and economic purpose",
+     "explain": "Confirm the highway or border road serves strategic defence access or rapid industrial corridor connectivity, linking the project objective to national integration goals."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.2.1",
+   "title": "Railways Network and Distribution Factors",
+   "section": "Railways",
+   "definition": "Railways are the primary bulk freight and long-distance passenger transit system operating across varied geographic zones.",
+   "formula": "",
+   "key_idea": "Topography, population density, and agricultural resources determine the density of railway lines.",
+   "textbook_ref": "jess107.txt lines 121-170",
+   "question_patterns": [
+    "why are northern plains most favourable for railway growth",
+    "how do relief and physiography affect railway density in India",
+    "what challenges do railways face in desert and marshy terrains",
+    "explain the significance of Konkan railway for the west coast",
+    "list key operational problems faced by Indian Railways"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze geographical constraints",
+     "explain": "Examine impact of flat terrain versus undulating relief and river bed widths."
+    },
+    {
+     "step": 2,
+     "action": "evaluate economic and demographic impact",
+     "explain": "Connect high population density and rich resources with dense rail distribution."
+    },
+    {
+     "step": 3,
+     "action": "verify regional connectivity challenges",
+     "explain": "Check for specific terrain obstacles such as deserts, marshes, or dissected relief that limit rail extension, and identify special projects like the Konkan Railway that overcome them."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.3.1",
+   "title": "Pipeline Transportation Networks",
+   "section": "Pipelines",
+   "definition": "Underground conduit systems transport liquids, gases, and slurried solids directly between production points and distant processing sites.",
+   "formula": "",
+   "key_idea": "Pipelines eliminate trans-shipment delays and losses despite high initial installation costs.",
+   "textbook_ref": "jess107.txt lines 180-210",
+   "question_patterns": [
+    "what are the main advantages of pipeline transport",
+    "identify the major cross-country gas pipeline network in India",
+    "how can solid materials be transported through pipelines",
+    "explain why inland oil refineries rely on pipeline networks",
+    "which states are connected by the Hazira-Vijaipur-Jagdishpur pipeline"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify transported material state",
+     "explain": "Verify liquid, gas, or slurry state for continuous pipeline flow."
+    },
+    {
+     "step": 2,
+     "action": "trace pipeline network route",
+     "explain": "Map origin fields to target industrial and fertilizer plants across states."
+    },
+    {
+     "step": 3,
+     "action": "verify trans-shipment advantage",
+     "explain": "Confirm that pipeline transport eliminates intermediate loading and unloading, reducing losses and delays despite high initial installation cost."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.4.1",
+   "title": "Inland Waterways and National Waterways",
+   "section": "Waterways",
+   "definition": "Navigable rivers, canals, and backwaters provide fuel-efficient and eco-friendly transportation for bulk cargo.",
+   "formula": "",
+   "key_idea": "Designated National Waterways enable cost-effective inland transport across river systems.",
+   "textbook_ref": "jess107.txt lines 211-250",
+   "question_patterns": [
+    "why are waterways considered fuel efficient and eco friendly",
+    "identify National Waterway No. 1 and its stretch",
+    "which river stretch forms National Waterway No. 2",
+    "explain the role of inland waterways in heavy cargo transit",
+    "list key inland water stretches used for navigation in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify river stretch and designation",
+     "explain": "Match river channel boundaries with assigned National Waterway index."
+    },
+    {
+     "step": 2,
+     "action": "assess economic efficiency",
+     "explain": "Evaluate low energy requirement per unit weight transported."
+    },
+    {
+     "step": 3,
+     "action": "verify navigability and cargo suitability",
+     "explain": "Confirm the waterway supports continuous navigability for heavy bulk cargo and is officially designated, ensuring year-round operational viability."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.5.1",
+   "title": "Major Sea Ports and Maritime Trade",
+   "section": "Major Sea Ports",
+   "definition": "Coastal maritime gateways handle overseas trade and domestic coastal traffic along India's extensive coastline.",
+   "formula": "",
+   "key_idea": "Natural and artificial ports along eastern and western coasts facilitate international bulk commerce.",
+   "textbook_ref": "jess107.txt lines 251-310",
+   "question_patterns": [
+    "which port was developed to relieve congestion on Mumbai port",
+    "identify the deepest landlocked and well-protected port on the east coast",
+    "which major sea port in Goa specializes in iron ore exports",
+    "describe the tidal nature and hinterland of Deendayal Port Kandla",
+    "why is Kolkata classified as an inland riverine port"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify coastal location and harbor type",
+     "explain": "Determine whether port is natural, artificial, tidal, or riverine."
+    },
+    {
+     "step": 2,
+     "action": "match primary trade cargo",
+     "explain": "Link specific ports like Mormugao or Paradwip with ore exports."
+    },
+    {
+     "step": 3,
+     "action": "verify hinterland and port function",
+     "explain": "Confirm the port's hinterland region and its role in relieving congestion at nearby ports or serving as a tidal, riverine, or deep-water gateway."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.6.1",
+   "title": "Airways and Regional Connectivity",
+   "section": "Airways",
+   "definition": "Air transportation provides rapid long-distance travel and access across formidable geographic barriers.",
+   "formula": "",
+   "key_idea": "Air travel connects remote areas and boosts regional accessibility through government initiatives like UDAN.",
+   "textbook_ref": "jess107.txt lines 311-340",
+   "question_patterns": [
+    "why is air travel essential in north-eastern states of India",
+    "what is the main goal of the UDAN regional connectivity scheme",
+    "which company provides helicopter services for off-shore petroleum operations",
+    "explain the advantages of air transport in difficult mountain terrains",
+    "how does air travel overcome physical barriers to connectivity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze terrain challenge",
+     "explain": "Identify geographic barriers like dissected relief, floods, or high peaks."
+    },
+    {
+     "step": 2,
+     "action": "evaluate aviation scheme or service",
+     "explain": "Connect regional schemes like UDAN or operators like Pawan Hans to specific operational needs."
+    },
+    {
+     "step": 3,
+     "action": "verify regional connectivity benefit",
+     "explain": "Confirm that air transport overcomes physical barriers where surface transport is impractical, enabling rapid access to remote and difficult terrains."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.7.1",
+   "title": "Communication Networks and Postal Channels",
+   "section": "Communication",
+   "definition": "Communication channels enable instant or written exchange of ideas and messages through personal, postal, and mass broadcasting media.",
+   "formula": "",
+   "key_idea": "Postal mail channels, telecom networks, and mass media support national connectivity and information flow.",
+   "textbook_ref": "jess107.txt lines 341-390",
+   "question_patterns": [
+    "what is the distinction between personal and mass communication",
+    "list the six mail channels introduced for quick delivery in urban places",
+    "how does space technology integrate with telecom facilities like STD",
+    "what role does Doordarshan play as a national broadcast channel",
+    "explain the function of Central Board of Film Certification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize communication mode",
+     "explain": "Classify communication medium into personal (letters, phone) or mass (TV, radio, press)."
+    },
+    {
+     "step": 2,
+     "action": "identify delivery channel or regulatory agency",
+     "explain": "Map urban mail channels or certification bodies to their functional roles."
+    },
+    {
+     "step": 3,
+     "action": "verify integration with national information flow",
+     "explain": "Confirm how the communication medium integrates with telecom, space technology, or mass broadcasting to sustain national connectivity and information exchange."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.8.1",
+   "title": "International Trade and Balance of Trade",
+   "section": "International Trade",
+   "definition": "International trade involves cross-border goods movement, where balance of trade equals total export value minus import value.",
+   "formula": "balance_of_trade = export_value - import_value",
+   "key_idea": "A trade surplus occurs when export value exceeds import value, creating a favourable trade balance.",
+   "textbook_ref": "jess107.txt lines 391-430",
+   "question_patterns": [
+    "calculate the balance of trade given exports and imports",
+    "find the trade balance when export value and import value are provided",
+    "what is the difference between favourable and unfavourable balance of trade",
+    "determine whether trade balance is favourable or unfavourable",
+    "why is international trade considered the economic barometer of a nation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute balance of trade",
+     "explain": "Subtract total import value from total export value",
+     "compute": "balance_of_trade = export_value - import_value"
+    },
+    {
+     "step": 2,
+     "action": "determine trade balance type",
+     "explain": "Check whether the computed balance is positive, zero, or negative to classify the trade balance."
+    },
+    {
+     "step": 3,
+     "action": "interpret economic significance",
+     "explain": "Relate the trade balance sign to the nation's economic position: a surplus indicates export strength, while a deficit indicates reliance on imports."
+    }
+   ]
+  },
+  {
+   "id": "jess.107.9.1",
+   "title": "Economic Significance of Tourism",
+   "section": "Tourism as a Trade",
+   "definition": "Travel for culture, business, health, or leisure creates economic trade by earning foreign currency and supporting local livelihoods.",
+   "formula": "",
+   "key_idea": "Tourism fosters national integration, preserves local heritage, and generates widespread employment.",
+   "textbook_ref": "jess107.txt lines 431-460",
+   "question_patterns": [
+    "why is tourism considered an invisible export and trade",
+    "list key types of tourism practiced by foreign visitors in India",
+    "how does tourism support local handicrafts and cultural pursuits",
+    "explain the objective of schemes like Swadesh Darshan and PRASHAD",
+    "describe how tourism promotes national integration and regional economic growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify economic benefits of tourism",
+     "explain": "Analyze foreign exchange earnings and employment generation."
+    },
+    {
+     "step": 2,
+     "action": "link cultural and developmental outcomes",
+     "explain": "Connect heritage preservation and local craft promotion with national integration."
+    },
+    {
+     "step": 3,
+     "action": "verify tourism as invisible trade",
+     "explain": "Confirm that tourism functions as an invisible export by earning foreign exchange without physical goods crossing borders, and that schemes like Swadesh Darshan and PRASHAD support this sector."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess107.txt lines 395-415",
+   "concept": "jess.107.8.1",
+   "question_type": "compute_balance",
+   "question_pattern": "A nation exports goods worth {export_value} billion dollars and imports goods worth {import_value} billion dollars in a financial year. Calculate its balance of trade.",
+   "extracted_variables": {
+    "export_value": 450,
+    "import_value": 380
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute balance of trade",
+     "explain": "Subtract total import value from total export value",
+     "compute": "balance_of_trade = export_value - import_value"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess107.txt lines 395-415",
+   "concept": "jess.107.8.1",
+   "question_type": "compute_balance",
+   "question_pattern": "In a given trade quarter, a country records total exports of {export_value} million dollars against total imports of {import_value} million dollars. Find the net balance of trade.",
+   "extracted_variables": {
+    "export_value": 210,
+    "import_value": 290
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute balance of trade",
+     "explain": "Subtract total import value from total export value",
+     "compute": "balance_of_trade = export_value - import_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "jess107.txt lines 465-495",
+   "questions": [
+    "Which two of the following extreme locations are connected by the east-west corridor? (a) Mumbai and Nagpur (b) Silchar and Porbandar (c) Mumbai and Kolkata (d) Nagpur and Siligudi",
+    "Which mode of transportation reduces trans-shipment losses and delays? (a) Railways (b) Roadways (c) Pipeline (d) Waterways",
+    "Which one of the following states is not connected with the H.V.J. pipeline? (a) Madhya Pradesh (b) Maharashtra (c) Gujarat (d) Uttar Pradesh",
+    "Which one of the following ports is the deepest land-locked and well-protected port along the east coast? (a) Chennai (b) Paradwip (c) V.O. Chidambaranar (Tuticorin) (d) Vishakhapatnam",
+    "Which one of the following is the most important modes of transportation in India? (a) Pipeline (b) Railways (c) Roadways (d) Airways",
+    "Which one of the following terms is used to describe trade between two or more countries? (a) Internal trade (b) International trade (c) External trade (d) Local trade"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess107.txt lines 496-510",
+   "questions": [
+    "State any three merits of roadways.",
+    "Where and why is rail transport the most convenient means of transportation?",
+    "What is the significance of the border roads?",
+    "What is meant by trade? What is the difference between international and local trade?"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess107.txt lines 511-520",
+   "questions": [
+    "Why are the means of transportation and communication called the lifelines of a nation and its economy?",
+    "Write a note on the changing nature of the international trade in the last fifteen years."
+   ]
+  }
+ ]
+}

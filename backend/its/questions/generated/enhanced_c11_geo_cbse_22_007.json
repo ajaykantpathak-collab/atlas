@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_007",
+   "title": "c11_geo_cbse_22_007",
+   "questions": [
+    {
+     "q": "Define \"developable surface\" in map projections and name the three geometric surfaces used. Why can a sphere not be a developable surface?",
+     "a": "A developable surface is a geometric form (cylinder, cone, plane) that can be flattened onto a plane without stretching or tearing. The three are cylinder, cone, and plane. A sphere cannot be developed because it has positive Gaussian curvature — its surface cannot be unrolled without distortion, proven by Gauss's Theorema Egregium. A wrong answer (e.g., \"sphere can be developed by cutting\") reveals confusion between topological cutting and isometric mapping — the student doesn't understand that projection requires mathematical transformation, not physical cutting.",
+     "self_check": true
+    },
+    {
+     "q": "A map projection preserves angles between intersecting curves at every point (conformal). Explain why this projection CANNOT simultaneously preserve areas correctly. Use the concept of scale factor in your answer.",
+     "a": "Conformality requires equal scale factor in all directions at a point (h = k), so the Tissot indicatrix is a circle. Equal-area requires the product of scale factors to equal 1 (h × k = 1). For both to hold simultaneously: h = k and h² = 1 → h = k = 1, meaning no distortion anywhere — only possible on a sphere, not a flat map. A wrong answer (e.g., \"they can both be preserved in Mercator\") reveals the student memorizes projection names without understanding the mathematical incompatibility of scale factor conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following projections by developable surface AND preserved property: (a) Mercator, (b) Lambert Equal-Area Conic, (c) Azimuthal Equidistant, (d) Sinusoidal. Which one is a pseudocylindrical projection?",
+     "a": "(a) Mercator: Cylindrical, Conformal. (b) Lambert Equal-Area Conic: Conical, Equal-area. (c) Azimuthal Equidistant: Planar/Zenithal, Equidistant. (d) Sinusoidal: Pseudocylindrical, Equal-area. Sinusoidal is pseudocylindrical (parallels are straight lines, meridians are curved). A wrong classification (e.g., calling Mercator \"equal-area\") reveals confusion between projection shape (cylindrical) and property (conformal vs equal-area) — the student hasn't internalized the two independent classification dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distortion patterns of a normal aspect cylindrical projection and a normal aspect conical projection for mapping India (8°4'N–37°6'N, 68°7'E–97°25'E). Which would produce less distortion for India's shape and why? Consider standard parallels.",
+     "a": "Cylindrical (e.g., Mercator): Standard parallel at equator → extreme east-west stretching at India's latitudes (scale factor sec φ ≈ 1.25 at 37°N). Conical (e.g., Lambert Conformal Conic): Two standard parallels can be placed at ~12°N and ~30°N to bracket India → scale factor ≈1 between them, minimal distortion. Conical is superior for India's mid-latitude, east-west extent. A wrong answer choosing cylindrical reveals failure to apply the concept of \"standard parallel placement\" to a specific latitudinal range — the student treats projections as universally good/bad rather than context-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a world map showing global climate zones, the Robinson projection is better than the Mercator projection.\" Justify using distortion properties and the map's thematic purpose.",
+     "a": "Robinson is a compromise projection (neither conformal nor equal-area) that minimizes overall distortion visually — good for thematic world maps where relative area perception matters for climate zones. Mercator is conformal but grossly exaggerates polar areas (Greenland appears larger than Africa), distorting the visual comparison of climate zone extents. The statement is correct. A wrong evaluation (choosing Mercator) reveals the student prioritizes \"familiar projection\" over \"fit for purpose\" — a classic board exam error where students don't match projection property to thematic requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a projection specification for a new Indian topographic map series at 1:50,000 scale covering 7.5' × 7.5' quadrangles. Specify: projection type, developable surface, preserved property, standard parallels/central meridian, and justify each choice for topographic mapping.",
+     "a": "Projection: Lambert Conformal Conic (LCC). Developable surface: Cone. Preserved property: Conformal (shape preservation critical for terrain recognition). Standard parallels: 12°N and 30°N (bracket India's extent). Central meridian: 82°30'E (India's standard meridian). Justification: Topographic maps require accurate angles/shapes for slope, drainage, contour interpretation; LCC minimizes scale distortion within India's latitudinal band; central meridian aligns with national grid. A poor answer (e.g., choosing Mercator or equal-area) reveals inability to link projection property to map function — topographic ≠ thematic ≠ navigational.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

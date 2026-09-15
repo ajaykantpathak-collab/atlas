@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_002",
+   "title": "c10_geo_cbse_07_002",
+   "questions": [
+    {
+     "q": "Name the authority responsible for the construction and maintenance of National Highways in India and state the numbering pattern used for them since 2010.",
+     "a": "The National Highways Authority of India (NHAI) under the Ministry of Road Transport and Highways (MoRTH) constructs and maintains National Highways. Since 2010, all National Highways are numbered with a two-digit number for primary routes (e.g., NH 44) and three-digit numbers for subsidiary routes (e.g., NH 444). A wrong answer (e.g., \"state PWD maintains NHs\" or \"old single-digit numbering\") reveals confusion between central and state jurisdiction or outdated knowledge of the re-numbering scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the density of National Highways (km per 100 sq km) is significantly lower in the Himalayan states (like Himachal Pradesh) compared to the Northern Plains states (like Uttar Pradesh), even though both have similar administrative importance.",
+     "a": "The Himalayan region has rugged terrain, steep slopes, and geological instability, making construction of wide, high-standard National Highways extremely costly and technically challenging per kilometre. The Northern Plains have flat, stable alluvial terrain allowing easier, cheaper construction and higher road density. A wrong answer attributing it solely to \"lower population\" or \"less funding\" misses the core physical geography constraint (terrain) that Class 6 (c6_geography_ch01_002) and Class 9 (c9_geo_ch1_4) established.",
+     "self_check": true
+    },
+    {
+     "q": "A district in Maharashtra has a total road length of 2,450 km and an area of 10,500 sq km. Calculate its road density (km per 100 sq km). If the state average road density is 150 km/100 sq km, classify this district's road density as 'above average', 'average', or 'below average'.",
+     "a": "Step 1: Road density formula = (Total road length / Total area) × 100. Step 2: (2450 / 10500) × 100 = 23.33 km/100 sq km. Step 3: Compare 23.33 with state average 150. Step 4: 23.33 < 150, so the district is 'below average'. A wrong calculation (e.g., forgetting ×100) or misclassification reveals inability to apply the density formula or interpret the result geographically.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional roles of State Highways and Major District Roads in linking production centres to markets. Use the example of a sugarcane-growing district in western Uttar Pradesh.",
+     "a": "State Highways connect the district headquarters (e.g., Meerut) to the state capital (Lucknow) and other major cities, carrying long-distance freight like sugar to distant markets. Major District Roads connect taluka/block headquarters (e.g., Sardhana) to the district headquarters (Meerut), aggregating produce from village collection points (linked by Rural Roads) to the district-level market/mill. A wrong answer that swaps the roles or says both serve the same function shows failure to grasp the hierarchical funnel: Rural → District → State → National.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Pradhan Mantri Gram Sadak Yojana (PMGSY) has eliminated the problem of rural connectivity in India.\" Provide two geographical reasons to support your evaluation.",
+     "a": "The statement is an over-evaluation. While PMGSY has significantly increased all-weather road access to eligible habitations (population >500 in plains, >250 in hills), two geographical gaps remain: (1) Many habitations below the population threshold remain unconnected, especially in dispersed tribal/forest areas (e.g., parts of Chhattisgarh, Jharkhand). (2) Maintenance sustainability is a challenge in high-rainfall/landslide-prone regions (Western Ghats, Northeast) where roads degrade faster than maintenance cycles. A purely positive evaluation ignores these spatial inequalities and physical geography constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-tier road improvement plan for a hypothetical backward district in Odisha with high tribal population, dense forests, and frequent flooding. Specify which road tier (NH, SH, MDR, Rural) gets what intervention and justify each using geographical reasoning.",
+     "a": "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience). (2) Convert key SHs linking block HQs to district HQ to all-weather double-lane with cross-drainage (SH tier: reduces travel time for agricultural produce). (3) Construct new Rural Roads under PMGSY-II to connect unconnected habitations >250 population using flood-resilient specifications (Rural tier: addresses last-mile connectivity in floodplains). Justification must link terrain (forests → need for wildlife corridors), climate (floods → elevated roads), and demography (tribal dispersal → lower population threshold). A poor answer proposes uniform upgrades without tier-specific justification or ignores physical constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

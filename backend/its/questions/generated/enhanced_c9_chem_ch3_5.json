@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_5",
+   "title": "c9_chem_ch3_5",
+   "questions": [
+    {
+     "q": "Define ionic bond and state the type of elements (metals/non-metals, group numbers) that typically form ionic compounds. Give one example with chemical formula.",
+     "a": "An ionic bond is the electrostatic force of attraction between oppositely charged ions formed by complete transfer of valence electrons from a metal (Groups 1, 2, 13) to a non-metal (Groups 15, 16, 17). Example: Sodium chloride, NaCl. A wrong answer reveals confusion between ionic and covalent bonding - if student says \"sharing of electrons\" or gives H₂O as example, they haven't grasped the transfer mechanism. If they name transition metals like Fe or Cu without specifying fixed valency, they're overextending Class 9 scope.",
+     "self_check": true
+    },
+    {
+     "q": "Magnesium (atomic number 12) reacts with oxygen (atomic number 8) to form magnesium oxide. Draw the electron dot structures showing electron transfer for Mg and O atoms, write the ions formed, and explain why the formula is MgO and not Mg₂O or MgO₂.",
+     "a": "Mg (2,8,2) loses 2 electrons → Mg²⁺ (2,8); O (2,6) gains 2 electrons → O²⁻ (2,8). Formula MgO because charges balance: +2 and -2 cancel in 1:1 ratio. A wrong answer like Mg₂O reveals the student thinks \"two Mg atoms needed because Mg has 2 valence electrons\" - they're counting atoms not balancing charges. MgO₂ error shows they think oxygen needs two magnesium atoms because it gains 2 electrons, missing that each Mg loses 2 electrons. This exposes the core misconception: confusing electron count with charge balance.",
+     "self_check": true
+    },
+    {
+     "q": "Calcium (atomic number 20) reacts with chlorine (atomic number 17). Write the balanced chemical equation for the reaction. Then calculate how many chlorine atoms are needed to react with 5 calcium atoms, and explain your reasoning using electron transfer.",
+     "a": "Ca (2,8,8,2) → Ca²⁺ + 2e⁻; 2Cl (2,8,7) + 2e⁻ → 2Cl⁻. Overall: Ca + Cl₂ → CaCl₂. For 5 Ca atoms: each Ca loses 2 electrons, total 10 electrons. Each Cl gains 1 electron, so 10 Cl atoms needed (5 Cl₂ molecules). Equation: 5Ca + 5Cl₂ → 5CaCl₂. Wrong answer of 5 Cl atoms (instead of 10) shows student forgot each Cl₂ molecule provides 2 Cl atoms, or they balanced by atoms not electrons. This tests application of electron transfer to stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electron transfer process in NaCl formation vs MgO formation. Why does NaCl have formula unit mass 58.5 u while MgO has 40 u, even though both are 1:1 ionic compounds? Analyse using atomic masses and electron transfer.",
+     "a": "NaCl: Na (23 u) loses 1e⁻ → Na⁺; Cl (35.5 u) gains 1e⁻ → Cl⁻. Formula mass = 23 + 35.5 = 58.5 u. MgO: Mg (24 u) loses 2e⁻ → Mg²⁺; O (16 u) gains 2e⁻ → O²⁻. Formula mass = 24 + 16 = 40 u. Both are 1:1 because charges balance (+1/-1 and +2/-2), but atomic masses differ. Wrong answer claiming \"MgO should be heavier because more electrons transferred\" reveals confusion between electron count and atomic mass - they think transferred electrons add mass, but electron mass is negligible. This analyses the distinction between charge balance and mass calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formation of aluminium oxide as: 2Al + 3O → Al₂O₃, then draws electron dots showing each Al losing 3 electrons and each O gaining 2 electrons. They claim \"6 electrons lost, 6 electrons gained - balanced!\" Evaluate if this is correct and identify any error in the reactant representation.",
+     "a": "The electron transfer logic is correct: 2Al lose 6e⁻ total, 3O gain 6e⁻ total. But the reactant \"3O\" is wrong - oxygen exists as diatomic O₂ gas. Correct equation: 4Al + 3O₂ → 2Al₂O₃. The student balanced atoms and electrons but ignored the natural state of elements. A wrong evaluation accepting \"3O\" reveals they don't know oxygen is O₂ in standard state - a Class 9 board exam error. This tests evaluation of chemical equation writing conventions alongside electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate that ionic compounds conduct electricity in solution but not in solid state. List materials, procedure, observation, and conclusion linking to ion mobility.",
+     "a": "Materials: Table salt (NaCl), two copper wires, 9V battery, small LED bulb, two beakers, water. Procedure: (1) Set up circuit with battery, LED, wires - leave gap between wires. (2) Place solid NaCl in gap - LED doesn't glow. (3) Dissolve NaCl in water in beaker, dip wire ends in solution - LED glows. Observation: Solid salt doesn't conduct; salt solution conducts. Conclusion: In solid, ions fixed in lattice; in solution, ions mobile and carry current. Poor answer using sugar solution (covalent) shows they can't distinguish ionic vs covalent. Missing \"molten state\" mention is acceptable for household experiment but should be noted as limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

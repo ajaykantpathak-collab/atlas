@@ -1,0 +1,243 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Measurement of Time and Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.8.1",
+   "title": "Measurement of Time",
+   "section": "Measurement of time",
+   "definition": "Time is measured by anything that repeats regularly: from the ancients' sundials and water clocks to pendulum clocks and modern quartz watches, a periodic event becomes a clock.",
+   "formula": "",
+   "key_idea": "A clock is a steady repeater: the more regular the repeat, the better the timekeeper.",
+   "textbook_ref": "gecu108.txt, Measurement of time",
+   "question_patterns": [
+    "what is periodic motion and how does it measure time",
+    "how did people measure time before clocks",
+    "how does a pendulum clock work",
+    "what makes quartz watches accurate",
+    "can your pulse act as a timekeeper",
+    "construct a simple time measuring device"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.2",
+   "title": "Slow or Fast: Comparing Motion",
+   "section": "Slow or fast",
+   "definition": "Motion is judged slow or fast by comparing the distance covered in the same time: the runner who covers more metres in one second is faster, which is why races are timed to a blink.",
+   "formula": "",
+   "key_idea": "Same time, more distance means faster: comparison needs a common clock.",
+   "textbook_ref": "gecu108.txt, Slow or fast",
+   "question_patterns": [
+    "how do we decide which of two motions is faster",
+    "why do we compare distances in the same time",
+    "who is faster, one covering 100 m in 12 s or 100 m in 15 s",
+    "how are races decided when runners finish together",
+    "give two examples of slow and fast motion",
+    "compare the speeds of a bicycle and a bus from data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.3",
+   "title": "Speed and Its Calculation",
+   "section": "Speed",
+   "definition": "Speed is the distance covered in unit time, calculated as total distance divided by total time; its SI unit is metre per second, and kilometres per hour serve longer journeys.",
+   "formula": "speed = distance / time",
+   "key_idea": "One formula compresses a journey: distance over time gives a number everyone can compare.",
+   "textbook_ref": "gecu108.txt, Speed",
+   "question_patterns": [
+    "define speed and write its formula",
+    "what is the si unit of speed",
+    "find the speed of a cyclist covering 100 m in 20 s",
+    "a car covers 60 km in one hour what is its speed",
+    "convert km per hour into metre per second",
+    "calculate which of two walkers is faster"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the total distance",
+     "explain": "Write the distance covered with its unit.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "note the total time",
+     "explain": "Write the time taken with its unit.",
+     "compute": null
+    },
+    {
+     "step": 3,
+     "action": "divide distance by time",
+     "explain": "The quotient is the speed in metre per second when units are si.",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "gecu.8.4",
+   "title": "Uniform and Non-uniform Linear Motion",
+   "section": "Uniform and non-uniform motion",
+   "definition": "Motion along a straight line is uniform when equal distances pass in equal times, as a metro cruising between stations, and non-uniform when the pace changes, as city traffic that speeds, slows and halts.",
+   "formula": "",
+   "key_idea": "Equal beats in equal times mark uniform motion: unequal distances in equal times betray non-uniform motion.",
+   "textbook_ref": "gecu108.txt, Uniform and non-uniform motion",
+   "question_patterns": [
+    "what is uniform linear motion",
+    "how does non uniform motion differ from uniform motion",
+    "give two examples of uniform and non uniform motion",
+    "is the motion of a metro train between stations uniform",
+    "why is city traffic non uniform motion",
+    "record distances covered in equal times and classify the motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gecu108.txt",
+   "concept": "gecu.8.3",
+   "question_type": "compute",
+   "question_pattern": "Prerna runs the 100 metre sprint in 12.5 seconds. Calculate her speed in m/s.",
+   "extracted_variables": {
+    "distance": "distance covered in metres",
+    "time": "time taken in seconds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the quantities",
+     "explain": "Distance 100 m, time 12.5 s.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide distance by time",
+     "explain": "Speed equals total distance divided by total time.",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gecu108.txt",
+   "concept": "gecu.8.3",
+   "question_type": "compute",
+   "question_pattern": "Swati cycles 3.6 km to school in 15 minutes. Find her speed in m/s.",
+   "extracted_variables": {
+    "distance": "distance covered in metres",
+    "time": "time taken in seconds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert to si units",
+     "explain": "3.6 km is 3600 m and 15 minutes is 900 s.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide distance by time",
+     "explain": "3600 m in 900 s gives the speed in m/s.",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu108.txt",
+   "concept": "gecu.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "how is the speed of an object calculated?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu108.txt, Let us enhance our learning",
+   "questions": [
+    "How is time measured with periodic events?",
+    "How is the speed of an object calculated?",
+    "Distinguish uniform and non-uniform linear motion.",
+    "Calculate the speed of five objects around you in m/s.",
+    "Use your pulse as a stopwatch to time one minute of walking."
+   ]
+  }
+ ]
+}

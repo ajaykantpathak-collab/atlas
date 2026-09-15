@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_8",
+   "title": "c8_math_ch3_8",
+   "questions": [
+    {
+     "q": "Write the Hindu-Arabic equivalents for these Roman numerals: (a) CDXLIV (b) DCCLXXXIX (c) MCMXCIX",
+     "a": "(a) 444 = CD (400) + XL (40) + IV (4) (b) 789 = DCC (700) + LXXX (80) + IX (9) (c) 1999 = M (1000) + CM (900) + XC (90) + IX (9). A wrong answer reveals the student either misapplies subtractive notation (e.g., reading CD as 600 instead of 400) or doesn't recognise that subtractive pairs must be treated as single value units before adding remaining symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Roman numeral \"IL\" for 49 is invalid, but \"XLIX\" is correct. Use the subtractive notation rules in your explanation.",
+     "a": "Subtractive notation only allows I before V or X (making 4, 9), X before L or C (making 40, 90), and C before D or M (making 400, 900). \"IL\" attempts to subtract I (1) from L (50), but I can only subtract from V and X — the symbols must be adjacent in the value hierarchy (powers of ten). \"XLIX\" correctly uses XL (40 = 50-10) and IX (9 = 10-1). A wrong answer shows the student treats subtractive notation as \"any smaller before larger\" rather than the restricted adjacent-pair rule.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the year India gained independence (1947) and the current year (2024) into Roman numerals. Show your grouping by place value.",
+     "a": "1947 = 1000 + 900 + 40 + 7 = M + CM + XL + VII = MCMXLVII. 2024 = 2000 + 20 + 4 = MM + XX + IV = MMXXIV. Steps: break into thousands/hundreds/tens/ones, convert each group using subtractive rules where needed (900=CM, 40=XL, 4=IV), concatenate. A wrong answer (e.g., MDCCCCXLVII for 1947) reveals the student uses additive notation for 900 (DCCCC) instead of subtractive CM, not recognising the efficiency and standard requirement of subtractive pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare adding 48 + 37 in Hindu-Arabic versus Roman numerals (XLVIII + XXXVII). Show both methods and explain why the Roman method is more error-prone.",
+     "a": "Hindu-Arabic: 48 + 37 = 85 (align place values, add columns, carry 1). Roman: XLVIII + XXXVII → combine symbols: XXXXLVIIIIIII → group: XXXXX (50) + L (50) + V (5) + III (3) → C (100) + V + III = CVIII (108) — wait, that's wrong! Correct grouping: XLVIII (48) + XXXVII (37) = LXXXV (85). The Roman method requires: (1) expand subtractive pairs (XL→XXXX), (2) combine all symbols, (3) regroup by fives (IIIII→V, VV→X, XXXXX→L), (4) reapply subtractive rules. Multiple regrouping steps with no fixed place value columns make errors likely. A student who says \"Roman is just as easy\" hasn't experienced the cognitive load of symbol regrouping without place value anchors.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes 1999 as MIM (1000 + (1000-1)). Evaluate this: is it mathematically equivalent to 1999? Is it a valid standard Roman numeral? Justify.",
+     "a": "Mathematically: MIM = 1000 + (1000 - 1) = 1999, so the value is correct. However, it is NOT a valid standard Roman numeral because subtractive notation only allows I before V/X, X before L/C, C before D/M — I cannot subtract from M (1000) since they are not adjacent in the hierarchy (I=10⁰, M=10³). The standard form is MCMXCIX (1000 + 900 + 90 + 9). A student who accepts MIM as valid confuses mathematical equivalence with notational convention — the system's rules exist for consistency, not just value representation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) where using Roman numerals would cause a significant practical problem that Hindu-Arabic numerals solve easily. Explain the problem and the solution.",
+     "a": "Scenario: A shopkeeper in Delhi needs to calculate GST (18%) on a ₹2,499 item and give change from ₹5,000. In Roman: MMCDXCIX × XVIII/ C → impossible to do mentally or on paper without converting. Hindu-Arabic: 2499 × 0.18 = 449.82, total = 2948.82, change = 5000 - 2948.82 = 2051.18. The problem: Roman numerals have no decimal representation, no zero for placeholding, and multiplication requires repeated addition with regrouping at every step. A good answer identifies at least two specific limitations (e.g., no decimals, no zero, multiplication difficulty) and shows the Hindu-Arabic calculation. A poor answer gives a trivial example like \"reading a clock\" where Roman numerals are actually still used conventionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

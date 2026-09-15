@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_006",
+   "title": "c11_ps_cbse_01_006",
+   "questions": [
+    {
+     "q": "Name the seminal text associated with each thinker: Plato, Aristotle, Kautilya.",
+     "a": "Plato – *The Republic*; Aristotle – *Politics*; Kautilya – *Arthashastra*. A wrong answer (e.g., assigning *Arthashastra* to Aristotle) reveals the student cannot anchor each thinker to their primary work, making it impossible to trace specific arguments later.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Aristotle classify constitutions into six types (three true, three perverted) while Plato focuses on a single ideal state (kallipolis)?",
+     "a": "Aristotle's empirical study of 158 constitutions led him to see politics as a practical science requiring typology; Plato's dialectical method seeks the eternal Form of Justice, making real regimes mere shadows. A student who says \"Aristotle was more democratic\" confuses classification with preference—Aristotle favors polity (mixed), not democracy.",
+     "self_check": true
+    },
+    {
+     "q": "A modern constitutional court cites \"rule of law\" to strike down an executive order. Which thinker—Plato, Aristotle, or Kautilya—provides the strongest classical foundation for this principle, and why?",
+     "a": "Aristotle. In *Politics* III.16, he argues \"law should govern\" and rulers must be \"guardians of the laws,\" making rule of law superior to rule of men. Plato's philosopher-king stands above law; Kautilya's king is bound by dharma but wields extensive discretionary power (danda). Choosing Plato or Kautilya shows confusion between rule *by* law and rule *of* law.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Plato's \"philosopher-king\" and Kautilya's \"rajarshi\" (sage-king). What does the difference reveal about their theories of political knowledge?",
+     "a": "Plato's philosopher-king possesses metaphysical knowledge of the Forms (especially the Good), acquired through dialectic; Kautilya's rajarshi masters practical sciences (anvikshaki, trayi, varta, dandaniti) to ensure yogakshema. The contrast shows Plato sees political knowledge as contemplative and universal, Kautilya as instrumental and context-dependent. Equating them as \"wise rulers\" misses this epistemic divide.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Kautilya's *Arthashastra* is merely a manual for authoritarian control, unlike the democratic spirit of Aristotle's *Politics*.\"",
+     "a": "The claim is reductive. Kautilya mandates the king's happiness in the subjects' happiness (sukham syat pravrajitanam), prescribes welfare measures (famine relief, public works), and subjects the king to dharma and mantriparishad counsel. Aristotle excludes women, slaves, and foreigners from citizenship and defends natural slavery. Both reflect their historical contexts; neither maps neatly onto modern democracy/authoritarianism. A one-sided answer ignores textual evidence of welfare obligations in Kautilya and exclusion in Aristotle.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 50-word preamble for a hypothetical \"Classical Political Theory Club\" that integrates one core insight each from Plato, Aristotle, and Kautilya.",
+     "a": "Example: \"We inquire, with Plato, what justice truly is; with Aristotle, how constitutions actually work; with Kautilya, how power serves welfare. Philosophy, empiricism, and statecraft—three lenses, one quest: the good political order.\" A poor answer lists names without synthesizing their distinct methodological contributions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

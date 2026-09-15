@@ -1,0 +1,424 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Expressions Using Letter-Numbers",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp104.txt",
+ "concepts": [
+  {
+   "id": "gegp.104.1",
+   "title": "Concept of Letter-Numbers (Variables)",
+   "section": "4.1",
+   "definition": "Symbols, typically alphabets, used to represent numbers whose values are either unknown or can change within a mathematical context.",
+   "formula": "s = a + k",
+   "key_idea": "Letters act as placeholders for numerical values in general relationships.",
+   "textbook_ref": "gegp104.txt lines 10-35",
+   "question_patterns": [
+    "If a person is k years older than another, write the expression",
+    "Represent the relationship between two ages using letters",
+    "What letter-number can represent the unknown age?",
+    "Write a shorthand form for the given age relation",
+    "explain concept of letter-numbers (variables) with an example",
+    "short note on concept of letter-numbers (variables)",
+    "why is concept of letter-numbers (variables) important",
+    "give one everyday example of concept of letter-numbers (variables)",
+    "describe concept of letter-numbers (variables) in your own words",
+    "what do you understand by concept of letter-numbers (variables)",
+    "list the main points about concept of letter-numbers (variables)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the base value",
+     "explain": "Identify the variable representing the reference age or quantity."
+    },
+    {
+     "step": 2,
+     "action": "Apply the difference",
+     "explain": "Add or subtract the constant difference to find the second quantity.",
+     "compute": "result = base_val + difference"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.2",
+   "title": "Translating Phrases to Algebraic Expressions",
+   "section": "4.1",
+   "definition": "The process of converting verbal descriptions of mathematical operations into symbolic forms using numbers and variables.",
+   "formula": "expression = n + k or n - k",
+   "key_idea": "Keywords like 'more than' imply addition, while 'less than' imply subtraction.",
+   "textbook_ref": "gegp104.txt lines 110-125",
+   "question_patterns": [
+    "Write an expression for 5 more than a number",
+    "Express 4 less than a number algebraically",
+    "What is 2 less than 13 times a number?",
+    "Convert the phrase into a mathematical expression",
+    "explain translating phrases to algebraic expressions with an example",
+    "short note on translating phrases to algebraic expressions",
+    "why is translating phrases to algebraic expressions important",
+    "give one everyday example of translating phrases to algebraic expressions",
+    "describe translating phrases to algebraic expressions in your own words",
+    "what do you understand by translating phrases to algebraic expressions",
+    "list the main points about translating phrases to algebraic expressions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the variable and multiplier",
+     "explain": "Determine the number being multiplied by the variable.",
+     "compute": "product = multiplier * n"
+    },
+    {
+     "step": 2,
+     "action": "Apply the constant offset",
+     "explain": "Add or subtract the constant as specified in the phrase.",
+     "compute": "final_expr = product + offset"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.3",
+   "title": "Evaluating Algebraic Expressions",
+   "section": "4.2",
+   "definition": "Finding the numerical value of an expression by replacing its variables with specific given numbers.",
+   "formula": "value = expression(variable = n)",
+   "key_idea": "Substitution turns an algebraic expression into a simple arithmetic calculation.",
+   "textbook_ref": "gegp104.txt lines 145-155",
+   "question_patterns": [
+    "Find the value of the expression when x = 5",
+    "Calculate the result if the variable is replaced by a number",
+    "What is the value of 5m + 3 when m = 2?",
+    "Substitute the given values into the formula",
+    "explain evaluating algebraic expressions with an example",
+    "short note on evaluating algebraic expressions",
+    "why is evaluating algebraic expressions important",
+    "give one everyday example of evaluating algebraic expressions",
+    "describe evaluating algebraic expressions in your own words",
+    "what do you understand by evaluating algebraic expressions",
+    "list the main points about evaluating algebraic expressions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Substitute the variable",
+     "explain": "Replace every instance of the letter with the provided number.",
+     "compute": "term_val = coefficient * variable_value"
+    },
+    {
+     "step": 2,
+     "action": "Perform arithmetic",
+     "explain": "Add or subtract the remaining constants to get the final answer.",
+     "compute": "total = term_val + constant"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.4",
+   "title": "Omission of Multiplication Symbol",
+   "section": "4.3",
+   "definition": "The standard mathematical convention of writing a number and a variable side-by-side to indicate multiplication.",
+   "formula": "a * n = an",
+   "key_idea": "Juxtaposition of a coefficient and a variable implies multiplication.",
+   "textbook_ref": "gegp104.txt lines 165-175",
+   "question_patterns": [
+    "How is 4 times n written in short form?",
+    "What does the expression 7k represent?",
+    "Simplify the notation for multiplication of a number and a letter",
+    "Write the product of 5 and m without the multiplication sign",
+    "explain omission of multiplication symbol with an example",
+    "short note on omission of multiplication symbol",
+    "why is omission of multiplication symbol important",
+    "give one everyday example of omission of multiplication symbol",
+    "describe omission of multiplication symbol in your own words",
+    "what do you understand by omission of multiplication symbol",
+    "list the main points about omission of multiplication symbol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coefficient and variable",
+     "explain": "The number is the coefficient and the letter is the variable."
+    },
+    {
+     "step": 2,
+     "action": "Remove the symbol",
+     "explain": "Place the number immediately before the letter to denote multiplication."
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.5",
+   "title": "Perimeter of Regular Polygons as Expressions",
+   "section": "4.1",
+   "definition": "General formulas for the total boundary length of shapes with equal sides, expressed using a variable for side length.",
+   "formula": "perimeter = n * side_length",
+   "key_idea": "The perimeter of a regular polygon is the product of the number of sides and the length of one side.",
+   "textbook_ref": "gegp104.txt lines 95-105",
+   "question_patterns": [
+    "Write the formula for the perimeter of a square",
+    "Express the perimeter of a regular pentagon using side s",
+    "What is the perimeter of a regular hexagon with side length a?",
+    "Find the perimeter expression for an equilateral triangle",
+    "explain perimeter of regular polygons as expressions with an example",
+    "short note on perimeter of regular polygons as expressions",
+    "why is perimeter of regular polygons as expressions important",
+    "give one everyday example of perimeter of regular polygons as expressions",
+    "describe perimeter of regular polygons as expressions in your own words",
+    "what do you understand by perimeter of regular polygons as expressions",
+    "list the main points about perimeter of regular polygons as expressions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the sides",
+     "explain": "Identify the number of sides in the regular polygon."
+    },
+    {
+     "step": 2,
+     "action": "Multiply by side length",
+     "explain": "Multiply the number of sides by the variable representing side length.",
+     "compute": "perimeter = num_sides * s"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.6",
+   "title": "Like and Unlike Terms",
+   "section": "4.4",
+   "definition": "Terms in an expression that contain the exact same variables are 'like', while those with different variables are 'unlike'.",
+   "formula": "like: {ax, bx}, unlike: {ax, by}",
+   "key_idea": "Only like terms can be combined into a single term through addition or subtraction.",
+   "textbook_ref": "gegp104.txt lines 245-255",
+   "question_patterns": [
+    "Identify like terms in the expression",
+    "Are 18c and 11d like or unlike terms?",
+    "Can these terms be simplified further?",
+    "Group the terms that have the same letter-numbers",
+    "explain like and unlike terms with an example",
+    "short note on like and unlike terms",
+    "why is like and unlike terms important",
+    "give one everyday example of like and unlike terms",
+    "describe like and unlike terms in your own words",
+    "what do you understand by like and unlike terms",
+    "list the main points about like and unlike terms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare variables",
+     "explain": "Check if the letters in the terms are identical."
+    },
+    {
+     "step": 2,
+     "action": "Classify terms",
+     "explain": "If letters match, they are like terms; otherwise, they are unlike."
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.7",
+   "title": "Simplification by Combining Like Terms",
+   "section": "4.4",
+   "definition": "Reducing the number of terms in an expression by adding or subtracting the coefficients of terms that share the same variable.",
+   "formula": "ac + bc = (a + b)c",
+   "key_idea": "The distributive property allows us to sum the multipliers of identical variables.",
+   "textbook_ref": "gegp104.txt lines 225-240",
+   "question_patterns": [
+    "Simplify the expression 5c + 3c + 10c",
+    "Reduce the expression to its simplest form",
+    "Combine the like terms in the given algebraic sum",
+    "What is the simplified form of 40x - 6x?",
+    "explain simplification by combining like terms with an example",
+    "short note on simplification by combining like terms",
+    "why is simplification by combining like terms important",
+    "give one everyday example of simplification by combining like terms",
+    "describe simplification by combining like terms in your own words",
+    "what do you understand by simplification by combining like terms",
+    "list the main points about simplification by combining like terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group coefficients",
+     "explain": "Collect all numbers multiplying the same variable.",
+     "compute": "coeff_sum = c1 + c2 + c3"
+    },
+    {
+     "step": 2,
+     "action": "Write simplified term",
+     "explain": "Multiply the sum of coefficients by the common variable.",
+     "compute": "result = coeff_sum * variable"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.8",
+   "title": "Perimeter of a Rectangle as an Expression",
+   "section": "4.4",
+   "definition": "The algebraic representation of the total distance around a rectangle using variables for length and breadth.",
+   "formula": "p = 2*l + 2*b",
+   "key_idea": "The perimeter is the sum of twice the length and twice the breadth.",
+   "textbook_ref": "gegp104.txt lines 200-215",
+   "question_patterns": [
+    "Write the expression for the perimeter of a rectangle",
+    "Simplify the expression l + b + l + b",
+    "Find the perimeter if length is l and breadth is b",
+    "Calculate the perimeter of a rectangle using the formula 2(l + b)",
+    "explain perimeter of a rectangle as an expression with an example",
+    "short note on perimeter of a rectangle as an expression",
+    "why is perimeter of a rectangle as an expression important",
+    "give one everyday example of perimeter of a rectangle as an expression",
+    "describe perimeter of a rectangle as an expression in your own words",
+    "what do you understand by perimeter of a rectangle as an expression",
+    "list the main points about perimeter of a rectangle as an expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum length and breadth",
+     "explain": "Add the length and breadth variables.",
+     "compute": "sum_lb = l + b"
+    },
+    {
+     "step": 2,
+     "action": "Double the sum",
+     "explain": "Multiply the sum by 2 to account for all four sides.",
+     "compute": "perimeter = 2 * sum_lb"
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.9",
+   "title": "Generalizing Patterns (nth Term)",
+   "section": "4.5",
+   "definition": "Creating a general algebraic rule to determine the value or position of any element in a repeating sequence.",
+   "formula": "position = a*n + b",
+   "key_idea": "Algebraic expressions allow us to predict values for any step in a pattern without manual counting.",
+   "textbook_ref": "gegp104.txt lines 315-330",
+   "question_patterns": [
+    "Find the nth term of the sequence 4, 8, 12...",
+    "What is the position of the nth design in the saree pattern?",
+    "Write an expression for the number of matchsticks in step y",
+    "Determine the rule for the given number sequence",
+    "explain generalizing patterns (nth term) with an example",
+    "short note on generalizing patterns (nth term)",
+    "why is generalizing patterns (nth term) important",
+    "give one everyday example of generalizing patterns (nth term)",
+    "describe generalizing patterns (nth term) in your own words",
+    "what do you understand by generalizing patterns (nth term)",
+    "list the main points about generalizing patterns (nth term)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the common difference",
+     "explain": "Determine how much the value increases at each step.",
+     "compute": "diff = val2 - val1"
+    },
+    {
+     "step": 2,
+     "action": "Determine the offset",
+     "explain": "Find the value at step 0 or adjust for step 1.",
+     "compute": "offset = val1 - diff"
+    },
+    {
+     "step": 3,
+     "action": "Formulate nth term",
+     "explain": "Combine the difference and offset into a linear expression.",
+     "compute": "nth_term = diff * n + offset"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp104.txt lines 10-25",
+   "concept": "gegp.104.1",
+   "question_type": "compute",
+   "question_pattern": "Shabnam is {k} years older than Aftab. If Aftab's age is {a}, what is Shabnam's age?",
+   "extracted_variables": {
+    "k": "age difference",
+    "a": "Aftab's age"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the relation",
+     "explain": "Shabnam's age is Aftab's age plus the difference.",
+     "compute": "s = a + k"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp104.txt lines 65-80",
+   "concept": "gegp.104.3",
+   "question_type": "compute",
+   "question_pattern": "Find the total cost for {c} coconuts at \u20b935 each and {j} kg jaggery at \u20b960 each.",
+   "extracted_variables": {
+    "c": "number of coconuts",
+    "j": "quantity of jaggery"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate coconut cost",
+     "explain": "Multiply number of coconuts by price per unit.",
+     "compute": "cost_c = c * 35"
+    },
+    {
+     "step": 2,
+     "action": "Calculate jaggery cost",
+     "explain": "Multiply kg of jaggery by price per kg.",
+     "compute": "cost_j = j * 60"
+    },
+    {
+     "step": 3,
+     "action": "Sum total",
+     "explain": "Add the two costs together.",
+     "compute": "total = cost_c + cost_j"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "gegp104.txt lines 100-125",
+   "questions": [
+    "Write formulas for the perimeter of a triangle with all sides equal.",
+    "Write formulas for the perimeter of a regular pentagon.",
+    "Write formulas for the perimeter of a regular hexagon.",
+    "Give the expression for the combined length of a 20m pipe and another pipe of length k.",
+    "Write algebraic expressions for: 5 more than a number.",
+    "Write algebraic expressions for: 4 less than a number.",
+    "Write algebraic expressions for: 2 less than 13 times a number.",
+    "Write algebraic expressions for: 13 less than 2 times a number."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "gegp104.txt lines 410-440",
+   "questions": [
+    "Simplify: 3a + 9b \u2013 6 + 8a \u2013 4b \u2013 7a + 16",
+    "Simplify: 2 (2x \u2013 3) + 8x + 12",
+    "Add: 4d \u2013 7c + 9 and 8c \u2013 11 + 9d",
+    "Subtract: 9a \u2013 6b + 14 from 6a + 9b \u2013 18",
+    "Find the number of matchsticks required to make w squares in the given pattern."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

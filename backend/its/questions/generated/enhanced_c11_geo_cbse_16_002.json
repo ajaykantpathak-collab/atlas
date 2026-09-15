@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_002",
+   "title": "c11_geo_cbse_16_002",
+   "questions": [
+    {
+     "q": "What was the approximate decadal growth rate of India's population during 1901-1911, and why is this period classified as part of the stagnant growth phase?",
+     "a": "The decadal growth rate was about 5.75% (population increased from 238.4 million to 252.1 million). This low growth, combined with negative growth in 1911-1921 due to the 1918 influenza pandemic and famines, defines the stagnant phase (1901-1921). A wrong answer (e.g., citing high growth) reveals confusion between absolute population size and growth rate, or missing the impact of mortality crises on early 20th-century demography.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the year 1921 is called the \"Great Divide\" in India's demographic history, referencing both mortality and fertility trends.",
+     "a": "1921 marks the shift from fluctuating high mortality (famines, epidemics) to a sustained decline in death rates due to improved sanitation, disease control, and famine relief, while birth rates remained high. This initiated steady population growth. A wrong answer that only mentions \"population started increasing\" misses the dual role of mortality decline and persistent high fertility, and fails to connect to the demographic transition model's Stage 2 onset.",
+     "self_check": true
+    },
+    {
+     "q": "Using the census data below, calculate the decadal growth rate for 1951-1961 and determine which phase it belongs to.\nCensus 1951: 361.1 million\nCensus 1961: 439.2 million",
+     "a": "Step 1: Absolute increase = 439.2 - 361.1 = 78.1 million.\nStep 2: Growth rate = (78.1 / 361.1) × 100 = 21.6%.\nStep 3: This exceeds 20%, placing it in the rapid growth phase (1951-1981). A wrong calculation (e.g., using 439.2 as denominator) or misclassification (e.g., calling it steady growth) shows inability to apply the growth rate formula or match rates to phase thresholds (steady: 10-15%, rapid: >20%).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decadal growth rates of 1981-1991 (23.9%) and 2001-2011 (17.7%). What does the decline indicate about India's demographic transition, and why did the absolute population increase still remain large?",
+     "a": "The decline signals progression toward Stage 3 of demographic transition: birth rates are falling due to rising literacy, later marriage, and family planning, but population momentum from a large youth cohort keeps absolute additions high. A wrong answer attributing the decline solely to \"family planning success\" ignores momentum, while one saying \"population is decreasing\" confuses growth rate decline with absolute decline.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 1991-2001 decadal growth rate of 21.5% shows India's population growth is accelerating again after the 1981-1991 rate of 23.9%.\" Use census data concepts to justify your evaluation.",
+     "a": "The statement is false. 21.5% is lower than 23.9%, indicating deceleration, not acceleration. The growth rate has declined consistently since 1981-1991 (23.9% → 21.5% → 17.7%). A student agreeing with the statement misreads the numbers or confuses absolute increase (which rose due to larger base) with percentage growth rate. This reveals a critical misunderstanding of rate vs. absolute change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic for a district health office that uses 1901-2011 census trends to argue for increased investment in adolescent reproductive health services. Specify the data points, visual elements, and key message.",
+     "a": "A strong answer includes: (1) line graph of decadal growth rates showing peak in 1981-1991 and decline; (2) bar chart of crude birth rate decline from 1971 onward; (3) pyramid diagrams for 1991 and 2011 showing widening base of adolescents; (4) key message: \"Declining growth rate ≠ declining need; 253 million adolescents (2011) require services to sustain fertility decline.\" A weak answer uses only total population numbers, omits the youth bulge, or fails to link trends to policy action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

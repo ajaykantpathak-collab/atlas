@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_009",
+   "title": "c11_geo_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name the three types of plate boundaries and state the crustal process (creation, destruction, or conservation) associated with each.",
+     "a": "Divergent boundaries involve crustal creation (new lithosphere forms from upwelling magma). Convergent boundaries involve crustal destruction (subduction) or deformation (collisional orogeny). Transform boundaries involve crustal conservation (lithosphere is neither created nor destroyed, only sheared). A wrong answer (e.g., saying convergent boundaries create crust) reveals confusion between crustal generation at ridges and crustal recycling at trenches.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Himalayas experience shallow-focus earthquakes while the Japan Trench experiences deep-focus earthquakes, linking each to its specific convergent boundary sub-type.",
+     "a": "The Himalayas form at a continental-continental convergent boundary where neither plate subducts; collision causes crustal thickening and shallow thrust faulting (0-70 km depth). The Japan Trench is an oceanic-oceanic convergent boundary where the Pacific Plate subducts beneath the Okhotsk Plate, generating a Benioff zone with earthquakes down to 700 km. A wrong answer (e.g., attributing deep quakes to Himalayas) shows failure to distinguish subduction zones from collision zones.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map showing a mid-ocean ridge offset by a series of perpendicular faults, identify the boundary types at the ridge segments and the offset faults, and explain the relative motion direction at the transform faults.",
+     "a": "The ridge segments are divergent boundaries (plates moving apart perpendicular to the ridge). The offset faults are transform boundaries (plates sliding horizontally). At the transform faults, motion is parallel to the fault trace, opposite to the ridge-perpendicular divergence. If the ridge spreads N-S, the transform faults move E-W. A wrong answer (e.g., saying transform faults move perpendicular to the ridge) indicates misunderstanding of the geometric relationship between ridge and transform segments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volcanic landforms produced at an oceanic-oceanic convergent boundary (e.g., Mariana Arc) versus a continental-continental convergent boundary (e.g., Himalayas). Why does one produce an island arc and the other not?",
+     "a": "Oceanic-oceanic convergence: subducting slab releases water, flux-melting the mantle wedge → calc-alkaline magma → volcanic island arc (e.g., Mariana Islands). Continental-continental convergence: no subduction of buoyant continental crust → no mantle wedge melting → no volcanic arc; instead, crustal thickening creates fold mountains (Himalayas). A wrong answer (e.g., claiming Himalayas have volcanoes) shows ignorance of the role of slab dehydration and crustal buoyancy in magma generation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Transform boundaries are aseismic because crust is neither created nor destroyed.\" Provide evidence from a real-world example.",
+     "a": "The statement is false. Transform boundaries are highly seismic due to frictional locking and sudden release along strike-slip faults. The San Andreas Fault (Pacific-North America transform) generates frequent shallow earthquakes (e.g., 1906 San Francisco M7.9). Crustal conservation refers to *net lithosphere area*, not absence of strain accumulation. A wrong answer accepting the statement reveals confusion between crustal budget and seismic hazard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-sectional diagram for a divergent boundary on a continent (e.g., East African Rift) showing the progression from initial rifting to mature ocean basin. Label key features: asthenosphere upwelling, normal faults, rift valley, volcanic cones, and eventual oceanic crust.",
+     "a": "A good answer shows: (1) Continental lithosphere thinning, (2) Asthenosphere upwelling and decompression melting, (3) Normal faults bounding a central graben (rift valley), (4) Bimodal volcanism (basaltic fissures, rhyolitic centers), (5) Continued extension → seafloor spreading with new oceanic crust, (6) Passive margins on either side. A poor answer omits the asthenospheric upwelling or shows symmetric subduction, indicating failure to grasp the rift-to-drift transition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

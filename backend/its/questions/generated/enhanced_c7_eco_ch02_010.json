@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_010",
+   "title": "c7_eco_ch02_010",
+   "questions": [
+    {
+     "q": "What is an \"information gap\" in a market transaction?\n- A) The physical distance between the buyer's home and the marketplace\n- B) A situation where one party has more or better knowledge than the other party about the product or price\n- C) The time gap between placing an order and receiving the delivery\n- D) The difference between wholesale price and retail price",
+     "a": "The correct answer is B. An information gap (or information asymmetry) occurs when either the buyer or the seller possesses critical knowledge that the other party lacks. A student who chooses A is confusing an economic term with physical distance, while someone choosing C or D is confusing it with delivery time or profit margins, showing a lack of understanding of market knowledge dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a small farmer who has no access to weather or market price reports more vulnerable to exploitation by local traders?\n- A) Because the farmer produces fewer crops than large corporations\n- B) Because the farmer lacks information on prevailing market prices, allowing traders to offer unfairly low rates\n- C) Because the farmer must pay higher transportation costs to reach the city market\n- D) Because the government bans farmers from selling directly to consumers",
+     "a": "The correct answer is B. When a farmer has no information about current market prices, they cannot negotiate a fair value for their produce, leaving them at the mercy of the buyer. Choosing A wrongly attributes vulnerability to farm size, whereas C and D miss the core issue of asymmetric information and lack of alternative buyers.",
+     "self_check": true
+    },
+    {
+     "q": "A local shopkeeper sells 1 kilogram of pulses for ₹90, claiming they are premium organic pulses, but actually mixes in 200 grams of cheaper, inferior quality grains. If the true value of the mixed pulses is only ₹60 per kilogram, how much extra money does the shopkeeper unfairly extract from a customer buying 5 kilograms?\n- A) ₹30 total\n- B) ₹60 total\n- C) ₹150 total\n- D) ₹450 total",
+     "a": "The correct answer is C. \nStep 1: Identify the claimed price per kg (₹90) and the true value per kg (₹60).\nStep 2: Calculate the unfair extra charge per kilogram: ₹90 - ₹60 = ₹30 extra per kg.\nStep 3: Multiply the extra charge per kg by the total quantity purchased (5 kg): ₹30 × 5 = ₹150.\nStep 4: Conclude that the shopkeeper extracts ₹150 unfairly due to the information gap regarding product purity.\nA student choosing D calculated ₹90 × 5 instead of the difference, while someone choosing A forgot to multiply by the 5 kilograms.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two market scenarios: Scenario A involves two competing vegetable vendors selling tomatoes side by side with clear price boards. Scenario B involves a single remote village shopkeeper selling essential medicines at double the normal price because no other shop is within 20 kilometers. Which scenario presents a higher risk of market exploitation and why?\n- A) Scenario A, because competition always leads to unfair pricing\n- B) Scenario B, because monopoly power and lack of alternative sellers eliminate consumer choice and enable exploitation\n- C) Both scenarios have equal risk because all markets involve profit-seeking\n- D) Neither scenario involves exploitation because buyers choose to pay",
+     "a": "The correct answer is B. In Scenario B, the shopkeeper holds a localized monopoly and the consumers face high travel costs to reach other options, creating severe vulnerability to overpricing. Choosing A is incorrect because competition actually protects consumers, and choosing C or D ignores how market power and lack of alternatives create exploitative conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Information gaps in markets can be completely eliminated if every buyer spends hours researching every product before making a purchase.\" Is this statement economically sound?\n- A) Yes, absolute research guarantees zero risk in all market transactions.\n- B) No, because gathering complete information takes time and effort (transaction costs), and sellers often deliberately hide defects.\n- C) Yes, because digital technology makes all products identical in quality.\n- D) No, because prices never change once information is shared.",
+     "a": "The correct answer is B. Complete information is rarely possible because gathering data involves time and resources (known as information costs), and sellers may engage in deceptive marketing. A student choosing A ignores the reality of time costs and hidden information, while C and D make incorrect assumptions about technology and price rigidity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-step strategy that a consumer group in a local weekly market (haat) can use to protect buyers from information gaps and unfair weights used by dishonest vendors.",
+     "a": "A strong response should include: \n1. Setting up a public weighing scale or consumer awareness booth at the entrance of the haat so buyers can cross-check weights.\n2. Displaying standardized price charts or making announcements of daily wholesale rates to eliminate price ignorance.\n3. Establishing a grievance redressal desk to report and penalize vendors using faulty weights or adulterated goods. \nA poor response would simply state \"punish bad sellers\" without practical, verifiable mechanisms for transparency and empowerment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

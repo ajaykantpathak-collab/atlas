@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_006",
+   "title": "c7_physics_ch03_006",
+   "questions": [
+    {
+     "q": "What is the primary difference between conduction, convection, and radiation regarding how they transfer heat?",
+     "a": "Conduction and convection require a material medium (solids, liquids, or gases) made of particles to transfer heat, whereas radiation can transfer heat through a vacuum (empty space) without any medium. A wrong answer reveals that the student is confusing radiation with convection or conduction, failing to realize that heat from the Sun crosses the vacuum of space where no air or matter exists.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person sitting near a glowing bonfire feels warm on their face even when a cool breeze is blowing directly from them toward the fire.",
+     "a": "The person feels warm because thermal radiation travels in electromagnetic waves straight from the fire to the face, independent of the air currents. A wrong answer reveals the misconception that heat can only travel if carried by moving air, ignoring the direct line-of-sight energy transfer of radiation through space.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the distance traveled by thermal radiation from the Sun in 5 seconds, assuming it travels at the speed of light ($3 \\times 10^8 \\text{ m/s}$).",
+     "a": "Step 1: Identify given speed $v = 3 \\times 10^8 \\text{ m/s}$ and time $t = 5 \\text{ s}$. \nStep 2: Use the formula for distance $d = v \\times t$. \nStep 3: Substitute values: $d = (3 \\times 10^8 \\text{ m/s}) \\times (5 \\text{ s})$. \nStep 4: Compute and cancel units: $d = 15 \\times 10^8 \\text{ m} = 1.5 \\times 10^9 \\text{ m}$. \nStep 5: Verify the answer is physically reasonable (light travels very fast). A wrong answer reveals an error in multiplication of powers of ten or incorrect tracking of units where seconds do not cancel properly.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why cooking utensils often have polished, shiny outer surfaces while their bottoms are painted black.",
+     "a": "Black surfaces are good absorbers and emitters of thermal radiation, helping the utensil absorb heat quickly from the stove at the bottom. The shiny, polished outer walls reflect radiant heat back inward and minimize heat loss by radiation to the surroundings. A wrong answer reveals a misunderstanding of how different surface colors interact with radiant heat absorption and emission.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A vacuum flask (thermos) completely stops heat transfer because it contains a vacuum layer.\" Is this statement fully accurate? Justify your reasoning.",
+     "a": "The statement is partially inaccurate. While the vacuum layer stops heat transfer by conduction and convection (since both need particles), it does not completely stop heat transfer by radiation. Radiant heat can still cross the vacuum via electromagnetic waves unless the inner walls are silvered to reflect radiation back. A wrong answer reveals the misconception that a vacuum blocks all forms of heat transfer equally.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple domestic setup using everyday items found in an Indian home to demonstrate that dark surfaces absorb more radiant heat than light surfaces.",
+     "a": "Take two identical tin cans, paint one black and leave the other silver or white. Fill both with equal amounts of water at room temperature and place them equidistant from a single table lamp or under direct sunlight for one hour. Measure the final temperatures using a thermometer; the black can will show a higher temperature, proving it absorbs more radiation. A poor answer fails to control variables (like distance from the light source or initial water temperature) or omits measuring tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

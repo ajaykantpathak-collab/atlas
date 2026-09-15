@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_12",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_12",
+   "title": "c8_math_ch12_12",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a line plot (dot plot) and a bar graph in how they represent data frequency?",
+     "a": "A line plot uses individual dots/X marks above a number line for each data point, preserving every value. A bar graph uses bars whose heights represent the total frequency of each category, aggregating the data. A wrong answer (e.g., \"line plots connect dots with lines\") reveals confusion with line graphs (trend over time) or misunderstanding that line plots show individual observations, not just counts.",
+     "self_check": true
+    },
+    {
+     "q": "Why would a line plot be more informative than a bar graph for the data set: 12, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16, 16, 17, 17, 18 (ages of students in a club)?",
+     "a": "A line plot shows the exact distribution shape, clusters (e.g., four 16s), gaps (no 19), and each individual value, which is lost when a bar graph only shows bar heights. A wrong answer (e.g., \"bar graph is always better\") reveals the misconception that bar graphs are universally superior, ignoring that line plots excel for small, discrete numerical data where seeing each dot matters.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a line plot for the following data (number of books read by 10 students in a month): 2, 4, 1, 3, 5, 2, 4, 3, 2, 4. Then state the mode and range directly from your plot.",
+     "a": "**Steps:** 1) Range of data: 1 to 5. 2) Draw number line 1-5. 3) Place dots: 1: one dot; 2: three dots; 3: two dots; 4: three dots; 5: one dot. 4) Mode = 2 and 4 (bimodal, both have 3 dots). 5) Range = 5 - 1 = 4. A wrong answer (e.g., mode = 3) reveals miscounting dots or confusing the value with the highest frequency. Missing dots indicates not plotting each observation.",
+     "self_check": true
+    },
+    {
+     "q": "Two graphs represent the same data: daily sales (in ₹) of a snack stall for 7 days: 120, 150, 130, 120, 160, 150, 120. Graph A is a line plot, Graph B is a bar graph. Which graph makes it easier to see that ₹120 occurred most frequently? Which makes it easier to compare the frequency of ₹120 vs ₹150? Justify.",
+     "a": "The line plot makes the mode (₹120) immediately visible as the tallest stack of dots. The bar graph makes comparing frequencies of ₹120 (3 days) and ₹150 (2 days) easier because bars are aligned on a common baseline with a frequency scale. A wrong answer (e.g., \"bar graph is better for both\") shows inability to recognize that line plots excel at showing distribution shape and individual values, while bar graphs excel at comparing aggregate frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a bar graph for \"Favorite Cricket Players\" with players on horizontal axis and number of votes on vertical axis. The bars touch each other. Identify the error and explain why it matters.",
+     "a": "Error: Bars touch each other. In a bar graph for categorical data, bars must have gaps to indicate discrete categories. Touching bars imply continuous data (like a histogram), misleading the reader. A wrong answer (e.g., \"touching bars look better\") reveals confusion between bar graphs (discrete categories) and histograms (continuous intervals). This is a critical convention error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a survey question for your class that would generate data best displayed by a line plot. Then design a different question for a bar graph. Explain your choices.",
+     "a": "Line plot question: \"How many siblings do you have?\" (Discrete numerical, small range 0-5, small class size ~30). Bar graph question: \"Which is your favorite subject: Math, Science, English, Hindi, Social Studies?\" (Categorical, nominal data). A poor answer (e.g., using line plot for favorite subject) shows misunderstanding that line plots require numerical values on a number line, not categories.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

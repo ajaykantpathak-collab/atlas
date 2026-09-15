@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_9",
+   "title": "c9_hist_ch2_9",
+   "questions": [
+    {
+     "q": "Name the script invented in Mesopotamia, the material it was written on, and the approximate period when it first appeared.",
+     "a": "Cuneiform script, written on clay tablets, first appearing c. 3200 BCE in Uruk. A wrong answer (e.g., \"hieroglyphics on papyrus\" or \"Brahmi script on stone\") reveals the student conflates Mesopotamian writing with Egyptian or later Indian scripts, missing the distinct material culture (clay) and chronological priority of cuneiform.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mesopotamian cities develop around temple complexes rather than citadels like in the Harappan Civilisation?",
+     "a": "Mesopotamian temples functioned as redistributive economic centres—storing surplus, organizing labour, and managing trade—making them the administrative heart of city-states. Harappan citadels show no clear evidence of temple-economy integration; their urban logic centred on civic planning (drainage, standardization) rather than religious redistribution. A wrong answer (e.g., \"Mesopotamians were more religious\") confuses theological motive with institutional function, missing the *economic role* of temples as early state apparatus.",
+     "self_check": true
+    },
+    {
+     "q": "A clay tablet from Uruk (c. 3000 BCE) shows pictographs of barley, a jar, and numerical signs. What does this tablet *most likely* record, and what does this reveal about the *origin* of writing in Mesopotamia?",
+     "a": "It records a transaction—likely grain allocation or tax—revealing writing originated as an *administrative tool for accounting*, not for literature or royal propaganda. A wrong answer (e.g., \"a religious hymn\" or \"a king's decree\") reflects the common misconception that writing began for \"high culture\" purposes, ignoring the archaeological evidence that 90% of early tablets are economic records.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *role of geography* in shaping urbanisation in Mesopotamia and the Indus Valley. Use two specific environmental differences to explain two distinct urban features in each civilisation.",
+     "a": "Mesopotamia: unpredictable floods + lack of resources → cities built on mounds with defensive walls, dependent on long-distance trade for metal/timber. Indus: predictable monsoon floods + resource-rich alluvium → grid-planned cities with standardized bricks, less emphasis on fortifications. A weak answer lists features without linking *cause (geography) to effect (urban form)*, or treats both regions as \"river valley civilisations\" without differentiating their specific environmental pressures.",
+     "self_check": true
+    },
+    {
+     "q": "Some historians argue that cuneiform's shift from pictographs to abstract wedge-signs was driven by *efficiency*, others by *bureaucratic standardization*. Which argument is better supported by the evidence, and why?",
+     "a": "Bureaucratic standardization is better supported: the earliest \"proto-cuneiform\" tablets (Uruk IV-III) show *consistent sign-lists* across multiple sites, imposed by central institutions—not gradual simplification by individual scribes. Efficiency would produce *idiosyncratic* shorthand; standardization produces *uniform* sign repertoires. A wrong answer choosing \"efficiency\" without citing the *archaeological pattern of uniform sign-lists* misses how state institutions shape writing systems.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-event timeline showing the *causal chain* from environmental challenge to writing to urban institution in early Mesopotamia (c. 4000–3000 BCE). Label each event with a specific archaeological site or artifact type.",
+     "a": "1. c. 4000 BCE – Ubaid period: Irrigation canals at Eridu manage unpredictable Euphrates floods (environmental adaptation). 2. c. 3500 BCE – Uruk expansion: Clay tokens in bullae at Susa/Uruk record commodity transfers (pre-writing accounting). 3. c. 3200 BCE – Uruk IV: Pictographic tablets (e.g., \"blau monuments\") standardize signs for temple administration (writing invention). 4. c. 3000 BCE – Early Dynastic: Temple complexes at Lagash control land, labour, and trade (urban institution). A poor timeline lists events without *causal links* (e.g., \"writing invented → cities built\") or uses generic labels without site-specific evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

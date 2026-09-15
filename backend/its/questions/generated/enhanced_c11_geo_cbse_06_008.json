@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_008",
+   "title": "c11_geo_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define \"creep\" in the context of mass movement and state one visible field indicator of its occurrence.",
+     "a": "Creep is the imperceptibly slow, continuous downslope movement of soil and regolith under gravity, typically <1 cm/year. A visible indicator is curved tree trunks (pistol-butt trees) or tilted fence posts/telephone poles. A wrong answer (e.g., \"fast movement of mud\") reveals confusion with mudflow/earthflow and inability to recognise the timescale distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why earthflows are more common in humid regions with thick clay-rich regolith, whereas landslides dominate in steep, jointed bedrock areas like the Himalayas.",
+     "a": "Earthflows require fine-grained, water-saturated material that behaves viscously; humid climates provide sustained moisture, and clay-rich regolith (from chemical weathering) supplies the material. Landslides need coherent rock masses that fail along discrete planes; steep, tectonically jointed bedrock in the Himalayas provides such planes. A wrong answer (e.g., \"earthflows happen only in deserts\") shows failure to link material properties, climate, and movement mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "A slope in the Western Ghats has a 30° gradient, deep lateritic soil, and receives 3000 mm annual rainfall. After a cloudburst, a 2 m thick layer of saturated soil moves 50 m downslope in 10 minutes as a chaotic, fluid mass. Classify this mass movement and justify using three diagnostic criteria.",
+     "a": "Classification: Mudflow. Justification: (1) High water content (saturated soil, cloudburst) → fluid behaviour. (2) Velocity ~30 m/h (50 m in 10 min) → rapid, not slow like earthflow/creep. (3) Material: fine-grained lateritic soil, not coherent rock blocks → excludes landslide. A wrong classification (e.g., \"landslide\") indicates overlooking water content and material texture as discriminators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of \"Very High Vulnerability\" landslide zones in the Himalayas versus the Western Ghats using the controlling factors: geology, slope, rainfall, and human activity.",
+     "a": "Himalayas: young, tectonically active, jointed sedimentary/metamorphic rocks; very steep slopes; high seismicity; intense monsoon rainfall; heavy construction (roads, dams). Western Ghats: old, weathered basalt/ laterite; steep escarpments; extremely high orographic rainfall; deforestation/plantation agriculture. Both share steep slopes and high rainfall, but Himalayas add seismic shaking and weaker rock structure, while Ghats add deep weathering profiles. A wrong answer (e.g., \"only rainfall matters\") misses the multi-factor interplay.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Afforestation alone can eliminate landslide risk in the Himalayas.\" Provide two supporting and two limiting arguments.",
+     "a": "Supporting: (1) Roots increase soil cohesion and shear strength. (2) Vegetation intercepts rainfall, reducing infiltration and pore pressure. Limiting: (1) Deep-seated bedrock failures (planar slides along joints) occur below root zone. (2) Seismic shaking and toe erosion by rivers can override root reinforcement. A wrong evaluation (e.g., \"yes, trees stop all landslides\") shows oversimplification of failure mechanisms and scale mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field observation checklist for a student team visiting a slopes in the Nilgiris to distinguish between active creep, dormant earthflow, and recent landslide scars. Include at least five observable features with the process each indicates.",
+     "a": "Checklist: (1) Pistol-butt trees / tilted poles → creep. (2) Hummocky, lobate terrain with intact vegetation → dormant earthflow. (3) Fresh, steep head scarp with exposed bedrock and debris tongue → recent landslide. (4) Tension cracks parallel to slope → incipient landslide/earthflow. (5) Soil texture: clay-rich, plastic → earthflow potential; coarse, blocky → landslide potential. A poor checklist (e.g., only \"look for cracks\") misses diagnostic morphology and material clues.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

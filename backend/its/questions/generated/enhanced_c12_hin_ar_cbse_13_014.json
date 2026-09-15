@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_13_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_13_014",
+   "title": "c12_hin_ar_cbse_13_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Plot, Event, Ending, Lesson\") reveals the student confuses narrative elements with the analytical writing framework. This misunderstanding leads to answers that retell the story instead of building an argument.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why simply summarizing the plot of \"इग्योकु की क्षयद\" in a board exam answer does not earn full marks for an analytical question.",
+     "a": "Summarizing only shows *what* happens (literal comprehension) but does not demonstrate *how* the text conveys meaning (inferential/analytical skill). Board marking schemes allocate marks for \"analysis and interpretation\" (विश्लेषण और व्याख्या) which require the student to make a claim (Point), support it with textual detail (Evidence), and explain the significance (Explanation). A wrong answer that says \"summary shows understanding\" reveals the student conflates comprehension with analysis — a major reason for losing 2–3 marks per long answer.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL paragraph (4–5 sentences) on the theme \"Art vs Power\" using the incident where the king orders Igyoku to sing continuously until he collapses.",
+     "a": "**Point:** The story exposes how political power exploits art for its own gratification, stripping the artist of dignity.  \n**Evidence:** When the king commands Igyoku to sing \"पवँ–एक्क, फ्क्स+–एक्क\" for hours despite the child's exhaustion, the court watches silently.  \n**Explanation:** The onomatopoeic repetition mimics the mechanical, inhuman demand placed on a child's body, reducing a living art form to a spectacle of endurance.  \n**Link:** This moment establishes the central conflict: art as a vehicle for truth (Igyoku's innocent expression) versus power as a machine that consumes it.  \nA wrong answer that merely narrates the scene without the Explanation and Link steps shows the student can retrieve evidence but cannot connect it to the theme — the core of analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the king's attitude toward Igyoku at the beginning of the story (when he \"adopts\" him) and at the end (when he discards him). What does this shift reveal about the nature of authority in the text?",
+     "a": "Initially, the king treats Igyoku as a prized possession — \"राजा ने उसकी कला को अपनी शोभा बढ़ाने का साधन माना\" — but once the new ruler arrives, Igyoku is discarded like \"फज़ूल\" material. The shift reveals that authority in the story values art only as ornamentation, not as human expression. A wrong answer that says \"the king was good then became bad\" oversimplifies into moral judgment and misses the structural critique: the *institution* of royalty treats artists as disposable resources regardless of individual ruler's whims.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following student answer for a 5-mark question: \"इग्योकु एक गरीब लड़का है जो अच्छा गाता है। राजा उसे पसंद करता है फिर निकाल देता है। यह बहुत दुखद है।\" Identify three specific weaknesses.",
+     "a": "1. **No analytical Point** — the answer states facts, not an interpretive claim.  \n2. **No textual Evidence** — no reference to specific scenes, dialogues, or language.  \n3. **No Explanation/Link** — \"दुखद है\" is an emotional reaction, not an analysis of how the text constructs that emotion.  \nA wrong critique that says \"the answer is too short\" misses the structural deficiencies. The issue is not length but the absence of the PEEL architecture — a pattern that costs 3–4 marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Write a diary entry (80–100 words) from Igyoku's perspective on the night he leaves the palace, expressing his inner conflict between the safety of the court and the call of his village.",
+     "a": "A strong entry will: (a) use first-person voice (\"मैं\"), (b) reference sensory details from the text (the smell of *धूप*, the sound of *पखावज*, the cold palace floor), (c) show conflict — gratitude for food/shelter vs. suffocation of forced performance, (d) end with a decision that aligns with his character (choosing the uncertain village). A poor entry that writes \"I am sad. I miss my mother. I will go home\" reveals the student cannot inhabit the character's psychological depth or use textual details to ground the imagination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

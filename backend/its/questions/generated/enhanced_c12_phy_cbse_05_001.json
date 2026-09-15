@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_05_001",
+   "title": "c12_phy_cbse_05_001",
+   "questions": [
+    {
+     "q": "A student draws magnetic field lines around a bar magnet as straight lines radiating outward from the north pole and terminating at the south pole, similar to electric field lines of a dipole. What fundamental property of magnetic field lines does this drawing violate, and what does it imply about magnetic monopoles?",
+     "a": "The drawing violates the property that magnetic field lines form **continuous closed loops** — they do not begin at the north pole and end at the south pole. Outside the magnet, lines go from N to S; inside the magnet, they continue from S to N, completing the loop. This implies that **isolated magnetic monopoles do not exist** — cutting a magnet produces two smaller dipoles, never a single pole. A wrong answer (e.g., \"lines start at N and end at S\") reveals the student is incorrectly applying electrostatic dipole concepts to magnetism and has not grasped Gauss's law for magnetism (∮B·dA = 0).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical bar magnets are placed with their north poles facing each other, separated by 10 cm. A student claims the magnetic field at the exact midpoint is zero because the fields from the two magnets cancel. Is this correct? Explain using the direction of magnetic field lines.",
+     "a": "**No, the claim is incorrect.** At the midpoint between two north poles, the magnetic field due to each magnet points **away from its own north pole**. Since both north poles face each other, the field from the left magnet points rightward, and the field from the right magnet points leftward — they are in **opposite directions** and **do cancel** at the exact midpoint. However, the student's reasoning \"fields cancel\" is only true at that exact point; the fields do not cancel everywhere. A wrong answer (e.g., \"fields add up\" or \"field is non-zero because magnets repel\") reveals confusion between **force on a pole** (repulsion) and **field superposition**. The field is a vector; at the midpoint, equal magnitude + opposite direction = zero net field. This tests vector addition of B fields, not just pole interactions.",
+     "self_check": true
+    },
+    {
+     "q": "A bar magnet of magnetic moment m = 0.50 A·m² is placed in a uniform magnetic field B = 0.20 T. The magnet's axis makes an angle of 30° with the field direction. Calculate (a) the torque acting on the magnet, and (b) the potential energy of the magnet (taking zero potential energy at θ = 90°). Give answers in SI units.",
+     "a": "**Given:** m = 0.50 A·m², B = 0.20 T, θ = 30°  \n**Step 1:** Torque magnitude τ = mB sinθ = (0.50)(0.20) sin 30° = 0.10 × 0.50 = **0.050 N·m**  \n**Step 2:** Direction of τ = m × B (right-hand rule) — tends to align m with B.  \n**Step 3:** Potential energy U = –m·B = –mB cosθ = –(0.50)(0.20) cos 30° = –0.10 × (√3/2) = **–0.0866 J**  \n**Step 4:** Check units: m (A·m²) × B (T = N/(A·m)) = N·m = J. Correct.  \n**Step 5:** Physical reasonableness: τ > 0 at 30° (restoring), U < 0 (stable orientation).  \nA wrong answer (e.g., using cosθ for torque or sinθ for energy, or forgetting the negative sign in U) reveals confusion between the cross product (torque) and dot product (energy) — a common JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "The magnetic field lines of a bar magnet are plotted in a plane containing its axis. In region A (near the poles), the lines are dense; in region B (far from the magnet), the lines are sparse. A student says: \"The magnetic field is stronger in region A because there are more lines per unit area.\" Another student says: \"The magnetic field is stronger in region A because the lines are closer together.\" Are both statements equivalent? Explain the precise meaning of \"number of field lines crossing per unit area\" and its relation to |B|.",
+     "a": "**Yes, both statements are equivalent and correct.** \"Number of field lines crossing per unit area\" means the **flux density** — if we draw field lines such that the number of lines crossing a unit area perpendicular to the field is proportional to |B|, then denser lines = stronger field. The key is **perpendicular area**: the count is for area ⊥ to the field direction. In region A (near poles), lines are crowded → high flux density → large |B|. In region B (far away), lines spread out → low flux density → small |B|. A wrong answer (e.g., \"lines represent force on a moving charge\" or \"density means total flux, not field strength\") reveals the misconception that field lines are \"lines of force\" (they are not — magnetic force is qv×B, always ⊥ to B) or confusion between flux (∫B·dA) and flux density (|B|).",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook shows a diagram of magnetic field lines around a bar magnet where some lines appear to intersect at a point P. The caption says: \"At point P, the magnetic field has two directions.\" Evaluate this diagram and caption. Is it physically possible? If not, what principle is violated, and how should the diagram be corrected?",
+     "a": "**The diagram and caption are physically impossible.** Magnetic field lines **never intersect** because at any point in space, the magnetic field **B has a unique direction** (the tangent to the field line). If two lines intersected, there would be two tangents → two directions for B → ambiguity, which violates the definition of a vector field. The principle violated is the **uniqueness of the magnetic field vector at each point**. To correct the diagram: the lines must be redrawn as smooth, non-intersecting curves that form continuous closed loops. If the diagram shows lines crossing, it likely represents a **superposition of fields from two sources** plotted incorrectly — the correct approach is to compute the resultant B vector at each point first, then draw field lines of the resultant field. A student who accepts the diagram reveals they treat field lines as physical \"strings\" rather than a mathematical representation of a vector field.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a bar magnet, a small compass needle, a sheet of paper, and a pencil to plot the magnetic field lines of the bar magnet in a plane perpendicular to its axis (equatorial plane). Describe the procedure step-by-step, and explain how you would determine the direction of the field lines on the paper.",
+     "a": "**Procedure:**  \n1. Place the bar magnet horizontally on a table with its axis along the north-south direction (align using the compass).  \n2. Place a sheet of paper over the magnet, centered on its midpoint.  \n3. Place the small compass at a point on the paper near one pole. Mark the position of the compass center with a dot.  \n4. Mark the direction of the compass needle's north pole with a second dot ahead of the first.  \n5. Move the compass so its center coincides with the second dot, and repeat — this traces a field line.  \n6. Repeat from different starting points to map multiple lines.  \n7. Draw smooth curves through the dots; add arrows pointing from N to S outside the magnet.  \n**Direction determination:** The compass needle aligns **tangent to the field line**; its north pole points in the direction of **B**. In the equatorial plane, B points **toward the magnet's south pole** (i.e., opposite to the axial direction).  \nA poor answer (e.g., \"sprinkle iron filings\" — not allowed per materials list, or \"compass points to geographic north\" — ignores magnet's field) reveals inability to design a controlled field-mapping experiment and confusion between Earth's field and the magnet's field.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

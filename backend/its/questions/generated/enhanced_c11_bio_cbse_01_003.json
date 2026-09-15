@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_003",
+   "title": "c11_bio_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define cellular organisation and consciousness as two defining characteristics of living organisms. Give one example of each from the animal kingdom and one from the plant kingdom.",
+     "a": "Cellular organisation: All living organisms are composed of cells arranged hierarchically (cell→tissue→organ→system) enabling division of labour — e.g., human (animal) has epithelial, muscular, nervous tissues forming organs; mango tree (plant) has xylem, phloem tissues forming roots/stems/leaves. Consciousness: Ability to sense and respond to stimuli — e.g., human withdrawing hand from heat (nervous system); Mimosa pudica folding leaves on touch (turgor pressure changes). A wrong answer (e.g., \"cellular organisation means having a nucleus\") reveals confusion between cell structure and organisational hierarchy; missing plant consciousness example reveals the misconception that consciousness requires a brain.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Amoeba and human both show cellular organisation because both are made of cells.\" Explain why this statement is incomplete. What specific feature of multicellular organisation does it miss?",
+     "a": "The statement misses division of labour and hierarchical organisation. In Amoeba (unicellular), a single cell performs ALL life processes (nutrition, respiration, excretion, reproduction, response). In humans (multicellular), cells differentiate into specialised types (neurons, muscle cells, RBCs) forming tissues (nervous, muscular, blood) → organs (brain, heart) → systems (nervous, circulatory) — each level has a specific function. A wrong answer focusing only on \"both have cell membrane\" reveals inability to distinguish between cellular composition and organisational complexity.",
+     "self_check": true
+    },
+    {
+     "q": "When you touch a hot pan, you withdraw your hand in <0.5 seconds. When a Mimosa pudica leaf is touched, it folds in ~1-2 seconds. Identify the stimulus, receptor, and effector in each case. What does this comparison reveal about consciousness mechanisms across kingdoms?",
+     "a": "Human: Stimulus = heat; Receptor = thermoreceptors in skin; Effector = skeletal muscles (via interneuron + motor neuron in spinal cord reflex arc). Mimosa: Stimulus = mechanical touch; Receptor = mechanosensitive ion channels in pulvinus cells; Effector = pulvinus motor cells (water efflux → loss of turgor → leaf folding). Both show stimulus→receptor→signal transmission→effector response, but animals use electrical impulses (action potentials) via neurons; plants use electrical + hydraulic signals via ion channels and water movement. A wrong answer naming \"brain\" as receptor for human reveals confusion between reflex arc (spinal) and voluntary response.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the levels of organisation in a flowering plant (e.g., mustard) and a mammal (e.g., human). Create a table with 5 rows (Cell, Tissue, Organ, Organ System, Organism) and fill in ONE specific example for each level in both organisms.",
+     "a": "Mustard plant: Cell = mesophyll cell; Tissue = palisade parenchyma (photosynthetic); Organ = leaf; Organ System = shoot system (stem+leaves) / root system; Organism = whole plant. Human: Cell = neuron; Tissue = nervous tissue; Organ = brain; Organ System = nervous system; Organism = human. A wrong answer listing \"xylem\" as organ (it's tissue) or \"heart\" as tissue (it's organ) reveals inability to distinguish hierarchical levels — a common error when memorising definitions without concrete mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Viruses show cellular organisation because they contain genetic material (DNA/RNA) enclosed in a protein coat, and they respond to host cells by attaching to specific receptors — so they meet both criteria for life.\" Is this correct? Justify using the definitions of cellular organisation and consciousness.",
+     "a": "Incorrect. Cellular organisation requires a CELL — the basic structural and functional unit with cytoplasm, organelles, and ability to carry out metabolism independently. Viruses are acellular (no cytoplasm, no organelles, no metabolism). Consciousness requires an organised response mechanism (receptor→signal→effector) for survival; viral attachment is passive molecular recognition (lock-and-key), not an active response. A wrong answer accepting the claim reveals confusion between \"having genetic material\" and \"being cellularly organised\" — a critical board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate that plants exhibit consciousness (response to stimuli) without a nervous system. Specify: (a) plant material, (b) stimulus, (c) measurable response, (d) control, (e) expected observation if consciousness is present.",
+     "a": "(a) Mimosa pudica (touch-me-not) potted plant; (b) Mechanical stimulus — gentle touch to one leaflet with a glass rod; (c) Measurable response = time (seconds) for leaflet folding + angle of folding (protractor); (d) Control = identical leaflet on same plant NOT touched, observed simultaneously; (e) Expected: Touched leaflet folds within 1-2 seconds; control leaflet remains open. This demonstrates stimulus-specific, rapid, reversible response — hallmark of consciousness. A poor design (e.g., \"water the plant and see if it grows\") tests growth (tropism), not consciousness (nastic response), revealing confusion between the two response types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

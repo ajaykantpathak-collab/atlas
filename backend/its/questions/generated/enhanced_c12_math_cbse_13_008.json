@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_008",
+   "title": "c12_math_cbse_13_008",
+   "questions": [
+    {
+     "q": "A random variable X has the probability distribution: P(X=1)=0.2, P(X=2)=0.5, P(X=3)=0.3. Write the formula for E(X) and compute its value.",
+     "a": "E(X) = Σ x_i P(X=x_i) = 1×0.2 + 2×0.5 + 3×0.3 = 0.2 + 1.0 + 0.9 = 2.1. A wrong answer (e.g., 2.0 or 6) reveals the student either averaged the values without weights (forgetting probabilities) or summed the values instead of the weighted sum.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula Var(X) = E(X²) - [E(X)]² is equivalent to Var(X) = Σ (x_i - μ)² P(X=x_i). Which one is computationally easier for the distribution in Question 1 and why?",
+     "a": "Expand (x_i - μ)² = x_i² - 2μx_i + μ². Multiply by P(X=x_i) and sum: Σ x_i² p_i - 2μ Σ x_i p_i + μ² Σ p_i = E(X²) - 2μ·μ + μ² = E(X²) - μ². The shortcut is easier because it avoids subtracting the mean from each x_i and squaring, reducing arithmetic errors. A student who cannot derive this equivalence lacks conceptual understanding of variance as an expectation.",
+     "self_check": true
+    },
+    {
+     "q": "A game costs ₹50 to play. You roll a fair die. If you get 6, you win ₹200; if you get 4 or 5, you win ₹50; otherwise you win nothing. Let X be your net gain (winnings minus cost). Find the mean and variance of X.",
+     "a": "Outcomes: X = 200-50=150 (prob 1/6), X = 50-50=0 (prob 2/6), X = 0-50=-50 (prob 3/6).  \nE(X) = 150×(1/6) + 0×(2/6) + (-50)×(3/6) = 25 + 0 - 25 = 0.  \nE(X²) = 150²×(1/6) + 0²×(2/6) + (-50)²×(3/6) = 22500/6 + 0 + 7500/6 = 3750 + 1250 = 5000.  \nVar(X) = 5000 - 0² = 5000.  \nA common error: forgetting to subtract the cost from winnings, leading to wrong X values. Another error: using probabilities 1/6, 1/6, 4/6 instead of 1/6, 2/6, 3/6.",
+     "self_check": true
+    },
+    {
+     "q": "Two random variables X and Y have the same mean μ = 10. Distribution A: P(X=0)=0.5, P(X=20)=0.5. Distribution B: P(Y=10)=1. Compare their variances. What does this tell you about the meaning of variance?",
+     "a": "For A: E(X²) = 0²×0.5 + 20²×0.5 = 200, Var = 200 - 10² = 100. For B: E(Y²) = 10²×1 = 100, Var = 100 - 10² = 0. Variance measures spread: A has high variability (values far from mean), B has zero variability (always exactly the mean). A student who says variances are equal because means are equal confuses central tendency with dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the variance of X with distribution P(X=1)=0.3, P(X=2)=0.4, P(X=3)=0.3 as follows:  \nE(X) = 1×0.3 + 2×0.4 + 3×0.3 = 2.0  \nE(X²) = 1×0.3 + 4×0.4 + 9×0.3 = 0.3 + 1.6 + 2.7 = 4.6  \nVar(X) = 4.6 - 2.0 = 2.6  \nIs this correct? If not, identify the exact mistake.",
+     "a": "Incorrect. The mistake is in the last step: Var(X) = E(X²) - [E(X)]², but the student computed E(X²) - E(X) (forgetting to square the mean). Correct: Var(X) = 4.6 - (2.0)² = 4.6 - 4.0 = 0.6. This is a very common algebraic slip — students must write the square explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a probability distribution for a discrete random variable Z (with at least 3 values) such that E(Z) = 5 and Var(Z) = 4. Show your work and verify.",
+     "a": "One simple solution: Let Z take values 3, 5, 7 with probabilities 0.25, 0.5, 0.25.  \nE(Z) = 3×0.25 + 5×0.5 + 7×0.25 = 0.75 + 2.5 + 1.75 = 5.  \nE(Z²) = 9×0.25 + 25×0.5 + 49×0.25 = 2.25 + 12.5 + 12.25 = 27.  \nVar(Z) = 27 - 25 = 2. Not 4. Adjust: try 1, 5, 9 with probabilities 0.25, 0.5, 0.25.  \nE(Z) = 1×0.25 + 5×0.5 + 9×0.25 = 0.25 + 2.5 + 2.25 = 5.  \nE(Z²) = 1×0.25 + 25×0.5 + 81×0.25 = 0.25 + 12.5 + 20.25 = 33.  \nVar = 33 - 25 = 8. Too high.  \nBetter: Use two values: Z = 3 with prob 0.5, Z = 7 with prob 0.5. E(Z)=5, E(Z²)= (9+49)/2=29, Var=29-25=4. This works! A good answer shows systematic trial or solving equations. A poor answer just guesses without verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

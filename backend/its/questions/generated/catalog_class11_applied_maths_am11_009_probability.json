@@ -1,0 +1,280 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_009_probability.json",
+ "concepts": [
+  {
+   "id": "am11_009.1",
+   "title": "Random Experiments and Sample Spaces",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 4 (there are 2 such outcomes). (give the fraction)",
+     "a": "1/18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.2",
+   "title": "Probability of an Event and Its Complement",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 6 (there are 4 such outcomes). (give the fraction)",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.3",
+   "title": "Types of Events",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 4 / 6 gives 0.666667",
+     "compute": "p = 4 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 4 (there are 2 such outcomes). (give the fraction)",
+     "a": "1/18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.4",
+   "title": "Conditional Probability",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 6 (there are 4 such outcomes). (give the fraction)",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.5",
+   "title": "Independent Events and Combined Occurrence",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 1? (give the fraction)",
+     "a": "5/6",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 6 (there are 4 such outcomes). (give the fraction)",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.6",
+   "title": "Theorem of Total Probability",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
+     "a": "2/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 5 (there are 3 such outcomes). (give the fraction)",
+     "a": "1/12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_009.7",
+   "title": "Bayes Theorem and Posterior Probability",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 1? (give the fraction)",
+     "a": "5/6",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 7 (there are 5 such outcomes). (give the fraction)",
+     "a": "5/36",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

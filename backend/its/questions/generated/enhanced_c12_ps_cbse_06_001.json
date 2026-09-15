@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_001",
+   "title": "c12_ps_cbse_06_001",
+   "questions": [
+    {
+     "q": "What is the primary reason states establish international organisations, according to the collective-action perspective?",
+     "a": "The primary reason is to overcome collective action problems — situations where individual states acting in their own self-interest produce outcomes worse for all (e.g., overfishing, arms races, climate inaction). International organisations provide rules, monitoring, and enforcement mechanisms that make cooperation sustainable. A wrong answer (e.g., \"to create a world government\" or \"to replace state sovereignty\") reveals a confusion between supranational authority and intergovernmental cooperation — the student conflates pooling sovereignty with surrendering it.",
+     "self_check": true
+    },
+    {
+     "q": "Why does globalisation increase the demand for international organisations rather than decrease it?",
+     "a": "Globalisation intensifies cross-border flows (capital, pollutants, pathogens, information) which creates new externalities and interdependencies that no single state can internalise or manage alone. This expands the agenda of issues requiring coordinated rules — trade standards, financial regulation, cyber norms, climate mitigation. A wrong answer (e.g., \"globalisation makes states more powerful so they don't need IOs\") shows the student misses the core paradox: greater interdependence reduces unilateral control, increasing the need for multilateral institutions.",
+     "self_check": true
+    },
+    {
+     "q": "A small island state faces rising sea levels due to climate change. It contributes negligible emissions but suffers disproportionate harm. Which function of international organisations is most directly relevant to this situation, and why?",
+     "a": "The most relevant function is providing a forum for negotiating burden-sharing agreements based on \"common but differentiated responsibilities\" (CBDR) — as seen in the UNFCCC and Paris Agreement. The island state uses the IO to amplify its voice, access climate finance, and hold major emitters accountable. A wrong answer (e.g., \"the IO will force big countries to pay\") reveals a misconception about enforcement: IOs facilitate negotiation and legitimise claims but lack independent coercive power; outcomes depend on state consent and political pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the United Nations in maintaining international peace and security with the role of the World Trade Organization in regulating global trade. Identify one structural similarity and one fundamental difference in their decision-making logic.",
+     "a": "Similarity: Both are rule-based, member-driven organisations where states negotiate obligations and use dispute settlement mechanisms. Difference: The UN Security Council operates on great-power privilege (veto) reflecting power asymmetry, while the WTO operates on consensus/majority voting with binding dispute rulings that apply equally — reflecting a legalistic, market-integration logic versus a security/political logic. A wrong answer (e.g., \"both work the same way\") misses the critical distinction between security organisations (where power trumps law) and economic organisations (where legal equality is the norm).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"International organisations are ineffective because they lack an army and cannot enforce decisions; therefore, states should rely solely on bilateral diplomacy.\"",
+     "a": "The argument overlooks three key functions: (1) IOs reduce transaction costs of repeated negotiations by providing standing forums and standardised procedures; (2) they generate focal points and norms that shape state expectations even without enforcement (e.g., the taboo on chemical weapons); (3) they enable multilateral coalitions that amplify pressure on violators — something bilateral talks cannot do. A weak critique (e.g., \"IOs are useful because they exist\") fails to engage with the enforcement limitation and does not explain how soft power, legitimacy, and institutionalised cooperation substitute for hard enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal international organisation to address the problem of plastic pollution in the oceans. Specify its membership, decision-making rule, core functions, and one enforcement mechanism — justifying each choice in 2-3 sentences.",
+     "a": "A good answer: Membership = all coastal states plus major plastic producers (universality for a global commons problem). Decision-making = consensus for norms, qualified majority for technical standards (balance legitimacy and speed). Core functions: (a) set binding targets for plastic reduction, (b) monitor via satellite/AI reporting, (c) manage a fund for waste-management capacity building in developing states. Enforcement = trade restrictions on non-compliant members (WTO-compatible under environmental exceptions). Justification links each design choice to the collective-action problem: universality prevents free-riding, majority voting avoids gridlock, monitoring solves information asymmetry, trade measures provide credible sanctions. A poor answer copies the UN structure without adapting to the specific problem (e.g., giving veto power to five states) showing inability to match institutional design to problem characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

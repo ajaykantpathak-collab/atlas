@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "Tertiary and Quaternary Activities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.106.1",
+   "title": "Nature of Tertiary Activities",
+   "section": "Tertiary Activities",
+   "definition": "Tertiary activities involve the provision of services and exchange of produced goods - trade, transport, communication and commercial services; unlike secondary work they do not transform matter but support production and connect producers with consumers.",
+   "formula": "",
+   "key_idea": "Services have outgrown manufacturing in developed economies, making the tertiary sector the largest employer of the modern age.",
+   "textbook_ref": "legy106.txt tertiary activities definition and trade-transport sections",
+   "question_patterns": [
+    "define tertiary activities and give examples",
+    "how do tertiary activities support secondary production",
+    "distinguish tertiary from secondary activities",
+    "name the components of the service economy",
+    "why are services called the exchange of knowledge",
+    "relate urbanisation to growth of services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the sector",
+     "explain": "service provision, not matter transformation, defines the tertiary sector"
+    },
+    {
+     "step": 2,
+     "action": "link the sectors",
+     "explain": "transport and trade complete what factories begin"
+    },
+    {
+     "step": 3,
+     "action": "close with employment",
+     "explain": "service jobs now dominate developed economies' workforce"
+    }
+   ]
+  },
+  {
+   "id": "legy.106.2",
+   "title": "Tourism: The Largest Tertiary Activity",
+   "section": "Tourism",
+   "definition": "Tourism has become the world's single largest tertiary activity with about 250 million registered jobs and revenue near 40 per cent of total GDP, fed by cultural, adventure and historical tourism; coastal, mountain and heritage resources drive the flows.",
+   "formula": "tourism_jobs = 250",
+   "key_idea": "Tourism sustains about 250 million jobs worldwide, its share of world revenue being around 40 per cent of total GDP.",
+   "textbook_ref": "legy106.txt tourism scale (250 million jobs, 40 per cent of GDP) and tourism types",
+   "question_patterns": [
+    "state the size of tourism in jobs and GDP share",
+    "compute or recall the world tourism job count",
+    "name the types of tourism described in the chapter",
+    "why do coastal and mountain areas attract tourists",
+    "what is eco-tourism",
+    "how does tourism alter local economies and environments"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the job count",
+     "explain": "tourism registers about 250 million jobs worldwide",
+     "compute": "tourism_jobs = 250"
+    },
+    {
+     "step": 2,
+     "action": "note the revenue share",
+     "explain": "revenue equals about 40 per cent of total GDP",
+     "compute": "tourism_gdp_share = 40"
+    }
+   ]
+  },
+  {
+   "id": "legy.106.3",
+   "title": "Medical Services and Medical Tourism",
+   "section": "Medical Services",
+   "definition": "Medical tourism draws foreign patients to countries offering skilled care at lower cost; about 55,000 patients from the USA visited India in 2005 for treatment, showing how services are traded across borders.",
+   "formula": "",
+   "key_idea": "When services cross borders, wages and standards arbitrage: skilled doctors and low costs make India a destination, not a source, of patients.",
+   "textbook_ref": "legy106.txt medical services for overseas patients (55,000 US patients in 2005)",
+   "question_patterns": [
+    "what is medical tourism and why does it grow",
+    "how many US patients visited India in 2005 for treatment",
+    "which Indian centres attract overseas patients",
+    "compare medical tourism with conventional tourism",
+    "what infrastructure supports medical tourism",
+    "discuss the risks of export-oriented health services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "quote the flow",
+     "explain": "55,000 US patients came to India in 2005 for treatment"
+    },
+    {
+     "step": 2,
+     "action": "explain the economics",
+     "explain": "low cost plus internationally comparable skill draws patients across borders"
+    },
+    {
+     "step": 3,
+     "action": "close with caution",
+     "explain": "balancing export care with domestic needs is the policy challenge"
+    }
+   ]
+  },
+  {
+   "id": "legy.106.4",
+   "title": "Quaternary and Quinary Activities",
+   "section": "Quaternary Activities",
+   "definition": "Quaternary activities are knowledge-based services - research, information generation, consultancy, data processing and outsourcing - carried by professionals; quinary activities are the highest-level decision-making by top executives and officials.",
+   "formula": "",
+   "key_idea": "Outsourcing shifts quaternary tasks to distant countries, making knowledge work as tradable as goods.",
+   "textbook_ref": "legy106.txt quaternary-quinary sections and outsourcing discussion",
+   "question_patterns": [
+    "define quaternary activities with examples",
+    "how do quinary activities differ from quaternary",
+    "what is outsourcing and why do firms outsource",
+    "name the skills demanded by quaternary work",
+    "which cities lead global outsourcing and why",
+    "relate the digital divide to quaternary services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the levels",
+     "explain": "knowledge services are quaternary; top-level executive decisions are quinary"
+    },
+    {
+     "step": 2,
+     "action": "spot the geography",
+     "explain": "back offices in Bangalore and Manila serve clients in distant time zones"
+    },
+    {
+     "step": 3,
+     "action": "close with skills",
+     "explain": "education and digital access decide who participates in this sector"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy106_1",
+   "source_ref": "legy106.txt tourism scale",
+   "concept": "legy.106.2",
+   "question_type": "compute",
+   "question_pattern": "Recall the size of world tourism in jobs and GDP share as given in the chapter.",
+   "extracted_variables": {
+    "tourism_jobs": 250,
+    "tourism_gdp_share": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the job count",
+     "explain": "about 250 million registered jobs",
+     "compute": "tourism_jobs = 250"
+    },
+    {
+     "step": 2,
+     "action": "state the GDP share",
+     "explain": "revenue equals about 40 per cent of total GDP",
+     "compute": "tourism_gdp_share = 40"
+    }
+   ]
+  },
+  {
+   "id": "we_legy106_2",
+   "source_ref": "legy106.txt medical services",
+   "concept": "legy.106.3",
+   "question_type": "short_answer",
+   "question_pattern": "Explain medical tourism with the chapter's India example.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define the trade",
+     "explain": "foreign patients travel for skilled, lower-cost treatment"
+    },
+    {
+     "step": 2,
+     "action": "quote the data",
+     "explain": "about 55,000 US patients visited India in 2005"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "service trade follows skill-cost differentials like any export"
+    }
+   ]
+  },
+  {
+   "id": "we_legy106_3",
+   "source_ref": "legy106.txt quaternary section",
+   "concept": "legy.106.4",
+   "question_type": "short_answer",
+   "question_pattern": "Distinguish quaternary from quinary activities with one example each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "quaternary",
+     "explain": "research analysts and IT service workers generate and process knowledge"
+    },
+    {
+     "step": 2,
+     "action": "quinary",
+     "explain": "CEOs, ministers and university vice-chancellors take highest-level decisions"
+    },
+    {
+     "step": 3,
+     "action": "contrast",
+     "explain": "the first creates knowledge services, the second exercises top authority"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy106_1",
+   "source_ref": "legy106.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "define tertiary activities and their components",
+    "state the size of world tourism in jobs and GDP share",
+    "explain medical tourism with the 2005 India example",
+    "differentiate quaternary and quinary activities",
+    "discuss outsourcing and its geography"
+   ]
+  },
+  {
+   "id": "ex_legy106_2",
+   "source_ref": "legy106.txt applied questions, reworded",
+   "questions": [
+    "argue why services dominate developed economies",
+    "evaluate eco-tourism as sustainable development",
+    "compare trade in goods with trade in services",
+    "map the leading destinations of medical tourism",
+    "relate the digital divide to quaternary employment"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "catalog": "catalog_class11_economics_ch2",
+ "concepts": [
+  {
+   "id": "c11eco.2.1",
+   "title": "Sources of Data: Primary and Secondary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of Data: Primary and Secondary' refers to.",
+     "a": "Primary data is collected first-hand by the investigator for a specific purpose, while secondary data is obtained from already published or existing sources such as reports, journals, and government publications.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of Data: Primary and Secondary'.",
+     "a": "Primary data is original and collected for the current study; secondary data is borrowed from existing sources.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Sources of Data: Primary and Secondary'.",
+     "a": "What are the sources of data in statistics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.2",
+   "title": "Methods of Collecting Primary Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Methods of Collecting Primary Data' refers to.",
+     "a": "Primary data can be collected through direct personal investigation, indirect oral investigation, information from local sources or correspondents, mailed questionnaires, and telephonic interviews.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Methods of Collecting Primary Data'.",
+     "a": "The choice of method depends on the purpose, budget, time, and the nature of the respondents.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Methods of Collecting Primary Data'.",
+     "a": "What are the main methods of collecting primary data?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.3",
+   "title": "Census and Sampling Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Census and Sampling Methods' refers to.",
+     "a": "The census method collects data from every unit of the population, while the sampling method collects data from a selected representative part (sample) of the population and generalises the results.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Census and Sampling Methods'.",
+     "a": "Census gives complete and accurate data but is costly; sampling is economical and faster but results are estimates.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Census and Sampling Methods'.",
+     "a": "What is the difference between census and sampling?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.4",
+   "title": "Frequency Distribution",
+   "questions": [
+    {
+     "q": "Using the method 'Frequency Distribution', work with: max_value = 20000, min_value = 5000, number_of_classes = 4096, range = 360. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.0879 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Frequency Distribution' and work with: max_value = 1200, min_value = 12000, number_of_classes = 512, range = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.0098 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Frequency Distribution' refers to.",
+     "a": "A frequency distribution is a tabular arrangement of data showing the number of observations (frequency) falling within each class or category.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Frequency Distribution'.",
+     "a": "A frequency distribution groups raw data into classes and counts how many observations fall in each class.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Frequency Distribution', in plain ASCII form.",
+     "a": "frequency of class = count of observations in that class",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.5",
+   "title": "Types of Variables",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Variables' refers to.",
+     "a": "A variable is a characteristic that can take different values. Discrete variables take only whole number values (like number of children), while continuous variables can take any value within a range (like height or weight).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Variables'.",
+     "a": "Discrete variables have gaps between values; continuous variables can take any fractional value within an interval.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Types of Variables'.",
+     "a": "What is a variable in statistics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.6",
+   "title": "Tabular Presentation of Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tabular Presentation of Data' refers to.",
+     "a": "Tabular presentation is the systematic arrangement of data in rows and columns, usually with a title, stub (row headings), caption (column headings), body, and source note.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tabular Presentation of Data'.",
+     "a": "A table organises data into rows and columns so that comparisons and relationships can be seen at a glance.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Tabular Presentation of Data'.",
+     "a": "What is tabular presentation of data?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.7",
+   "title": "Bar Diagrams",
+   "questions": [
+    {
+     "q": "Using the method 'Bar Diagrams', work with: available_height = 60, max_value = 2500, scale = 8, value = 80000, value_i = 80000. Carry the chain through step by step and give the final value of the result.",
+     "a": "10000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bar Diagrams' and work with: available_height = 6, max_value = 5000, scale = 300, value = 20000, value_i = 12000. Carry the chain through step by step and give the final value of the result.",
+     "a": "66.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bar Diagrams' refers to.",
+     "a": "A bar diagram is a visual presentation of data using rectangular bars of equal width whose heights or lengths are proportional to the values they represent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bar Diagrams'.",
+     "a": "Bar diagrams compare values across categories using bars of equal width with heights proportional to the values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bar Diagrams', in plain ASCII form.",
+     "a": "height of bar = value represented (to a chosen scale)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.8",
+   "title": "Pie Diagram",
+   "questions": [
+    {
+     "q": "Using the method 'Pie Diagram', work with: all_values_total = 120000, total = 300, value_i = 500. Carry the chain through step by step and give the final value of the result.",
+     "a": "166.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pie Diagram' and work with: all_values_total = 120000, total = 18, value_i = 1200. Carry the chain through step by step and give the final value of the result.",
+     "a": "6666.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pie Diagram' refers to.",
+     "a": "A pie diagram is a circular diagram in which the circle is divided into sectors, and the angle of each sector is proportional to the value it represents out of the total.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pie Diagram'.",
+     "a": "A pie diagram shows the share of each component as a sector of a circle, where the full circle (360 degrees) represents the total.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pie Diagram', in plain ASCII form.",
+     "a": "angle of sector = (value / total) * 360",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.9",
+   "title": "Histogram and Frequency Polygon",
+   "questions": [
+    {
+     "q": "Using the method 'Histogram and Frequency Polygon', work with: available_height = 150, frequency_i = 360, lower_limit_i = 40, max_frequency = 18, scale = 4, upper_limit_i = 3. Carry the chain through step by step and give the final value of the result.",
+     "a": "21.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Histogram and Frequency Polygon' and work with: available_height = 500, frequency_i = 18, lower_limit_i = 80, max_frequency = 20, scale = 500, upper_limit_i = 150. Carry the chain through step by step and give the final value of the result.",
+     "a": "115 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Histogram and Frequency Polygon' refers to.",
+     "a": "A histogram is a bar diagram of a frequency distribution in which bars are drawn for each class interval with no gaps between them, and their heights represent the class frequencies. A frequency polygon is formed by joining the midpoints of the tops of the bars of a histogram with straight lines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Histogram and Frequency Polygon'.",
+     "a": "A histogram shows the shape of a frequency distribution using adjacent bars; a frequency polygon connects the midpoints of those bars.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Histogram and Frequency Polygon', in plain ASCII form.",
+     "a": "area of bar = class_width * frequency (for equal class widths, height = frequency)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.2.10",
+   "title": "Ogive and Time Series Graphs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ogive and Time Series Graphs' refers to.",
+     "a": "An ogive is a cumulative frequency curve drawn by plotting cumulative frequencies against the upper or lower class boundaries. A time series graph plots values of a variable against time to show how it changes over a period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ogive and Time Series Graphs'.",
+     "a": "An ogive shows cumulative totals and helps find the median; a time series graph shows the trend of a variable over time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ogive and Time Series Graphs', in plain ASCII form.",
+     "a": "cumulative frequency = running total of frequencies up to that class",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

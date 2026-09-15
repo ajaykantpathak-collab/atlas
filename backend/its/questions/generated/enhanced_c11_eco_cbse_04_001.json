@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_001",
+   "title": "c11_eco_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define human capital and physical capital in one sentence each, highlighting the fundamental difference in tangibility.",
+     "a": "Human capital is the intangible stock of knowledge, skills, and health embodied in individuals that enhances labour productivity; physical capital is the tangible stock of man-made assets (machinery, buildings, infrastructure) used in production. A wrong answer—e.g., \"human capital is educated people\"—reveals the student confuses the *carrier* (people) with the *capital* (embodied skills), missing that human capital is a property of the person, not the person themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why human capital is described as \"inseparable from its owner\" while physical capital is \"separable from its owner,\" and give one consequence of this difference for production.",
+     "a": "Human capital (skills, knowledge) resides inside the person's body and mind—it cannot be transferred without the person being present; physical capital (a truck, a loom) can be owned by one person and operated by another, or sold/leased independently. Consequence: the human capital owner *must* be physically present at the production site, limiting geographic mobility compared to physical capital. A wrong answer focusing only on \"ownership rights\" misses the production-process implication: a factory owner can hire drivers for their trucks, but cannot hire someone to \"use\" their engineering degree for them.",
+     "self_check": true
+    },
+    {
+     "q": "A firm spends ₹5 lakh on a new CNC machine (physical capital) and ₹3 lakh on specialized training for its operators (human capital). After 5 years, the machine's market value falls to ₹2 lakh due to wear and newer models. The trained operators' productivity has increased by 20%. Analyze the depreciation pattern difference.",
+     "a": "Physical capital depreciates through physical wear and technological obsolescence—value declines monotonically (₹5L → ₹2L). Human capital *can appreciate* through experience and complementary learning—the 20% productivity rise shows human capital depreciation (ageing, skill obsolescence) is offset by continuous investment. A wrong answer stating \"both depreciate equally\" ignores that human capital depreciation is reversible via education/health spending, while machine obsolescence is irreversible without new capital expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mobility of physical capital and human capital across international borders. Why does the NCERT state \"physical capital formation can be built even through imports, whereas human capital formation is to be done through conscious policy formulations\"?",
+     "a": "Physical capital (machines, equipment) moves freely across borders barring trade restrictions—a country can import factories. Human capital faces nationality, visa, cultural, and language barriers—a doctor cannot simply \"import\" their licence to practice abroad. Therefore, physical capital gaps can be filled by FDI/imports; human capital gaps require domestic policy (education, health systems). A wrong answer citing only \"visa restrictions\" misses the deeper point: human capital formation is *endogenous* to the socio-cultural-institutional framework, not a tradable commodity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since human capital creates positive externalities (social benefits), the government *must* fully fund all education and health expenditure.\" Consider efficiency and equity arguments.",
+     "a": "The statement is partially correct but incomplete. Positive externalities (educated citizens strengthening democracy, healthy people reducing disease spread) justify *government intervention* (subsidies, public provision, regulation) to correct underinvestment by private agents. However, \"fully fund all\" ignores: (a) private returns are also large (higher wages), so cost-sharing improves efficiency; (b) fiscal constraints require prioritization (e.g., elementary vs. tertiary); (c) private provision with regulation can increase choice and innovation. A wrong answer agreeing fully misses the nuance that *market failure* warrants intervention, not necessarily *full public financing*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-life Indian scenario where a household's decision to invest in a child's education illustrates the NCERT claim: \"Human capital formation is partly a social process and partly a conscious decision of the possessor.\" Identify the social and individual decision elements.",
+     "a": "Scenario: A rural family in Bihar sends their 10-year-old daughter to a government school (social process: compulsory schooling norms, peer pressure, free midday meals, parental aspiration shaped by community). At 18, she *chooses* to take a loan for a nursing diploma (conscious decision: comparing expected salary ₹3L/year vs. loan cost, assessing her aptitude). Social element: early schooling driven by external norms/subsidies; individual element: tertiary choice based on personal cost-benefit. A poor answer listing only \"parents decide\" misses the shift from socially-determined to individually-chosen investments over the lifecycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

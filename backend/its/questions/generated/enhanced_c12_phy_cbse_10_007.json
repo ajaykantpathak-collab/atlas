@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_007",
+   "title": "c12_phy_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the exact condition for the first minimum in a single-slit diffraction pattern and give its angular position for a slit of width \\(a = 0.2\\,\\text{mm}\\) illuminated by light of wavelength \\(\\lambda = 600\\,\\text{nm}\\).",
+     "a": "Condition: \\(a \\sin\\theta = n\\lambda\\) with \\(n = \\pm 1\\). For the first minimum, \\(\\sin\\theta_1 = \\lambda/a = 600\\times10^{-9} / 0.2\\times10^{-3} = 3\\times10^{-3}\\). Thus \\(\\theta_1 \\approx 3\\times10^{-3}\\,\\text{rad} \\approx 0.17^\\circ\\). A wrong answer (e.g., using \\(n=1/2\\) or \\(a\\sin\\theta = \\lambda/2\\)) reveals confusion with the double-slit constructive interference condition or the approximate secondary maxima condition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the central maximum in a single-slit pattern is twice as wide (angularly) as the secondary maxima, using the concept of pairing Huygens wavelets from the slit.",
+     "a": "The first minima occur at \\(a\\sin\\theta = \\pm\\lambda\\). The central maximum extends from \\(-\\lambda/a\\) to \\(+\\lambda/a\\), giving an angular width of \\(2\\lambda/a\\). The first secondary maximum lies between the first and second minima, i.e., between \\(\\lambda/a\\) and \\(2\\lambda/a\\), so its angular width is \\(\\lambda/a\\) — half of the central maximum. A student who says \"all maxima have the same width\" has not understood the destructive interference pairing argument that locates minima at integer multiples of \\(\\lambda/a\\).",
+     "self_check": true
+    },
+    {
+     "q": "A parallel beam of light of wavelength \\(500\\,\\text{nm}\\) falls normally on a single slit of width \\(0.1\\,\\text{mm}\\). The diffraction pattern is observed on a screen \\(2\\,\\text{m}\\) away. Calculate the linear distance between the first minima on either side of the central maximum.",
+     "a": "Given: \\(\\lambda = 500\\times10^{-9}\\,\\text{m}\\), \\(a = 0.1\\times10^{-3}\\,\\text{m}\\), \\(D = 2\\,\\text{m}\\). First minimum: \\(\\sin\\theta_1 = \\lambda/a = 5\\times10^{-3}\\). Small-angle: \\(y_1 = D\\tan\\theta_1 \\approx D\\theta_1 = 2 \\times 5\\times10^{-3} = 0.01\\,\\text{m} = 10\\,\\text{mm}\\). Distance between the two first minima = \\(2y_1 = 20\\,\\text{mm}\\). A wrong answer like \\(10\\,\\text{mm}\\) (giving only one side) or using \\(n=2\\) shows unit conversion errors or misidentification of \"distance between first minima\" as the half-width.",
+     "self_check": true
+    },
+    {
+     "q": "In a single-slit experiment, the slit width is gradually reduced while keeping \\(\\lambda\\) and \\(D\\) fixed. Describe how the diffraction pattern on the screen changes, and explain why the total light energy reaching the screen decreases even though the central maximum becomes wider.",
+     "a": "As \\(a\\) decreases, the angular width of the central maximum \\(2\\lambda/a\\) increases, so the pattern spreads out. The linear width on the screen \\(2\\lambda D/a\\) also increases. However, the total power passing through the slit is proportional to the slit area (width \\(a\\) times length). Reducing \\(a\\) reduces the total incident energy, so the integrated intensity over the whole pattern decreases. The central peak becomes wider but lower in peak intensity such that the total energy is conserved (minus the energy blocked by the slit). A student who says \"the central maximum gets brighter\" confuses width with intensity and ignores energy conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The condition for minima in single-slit diffraction is \\(a\\sin\\theta = n\\lambda\\), and the condition for maxima in double-slit interference is \\(d\\sin\\theta = n\\lambda\\). Since both have \\(n\\lambda\\), the first minimum of the single slit will always coincide with the first maximum of the double slit if \\(a = d\\).\" Evaluate this statement.",
+     "a": "The statement is false. In a double-slit setup, each slit has width \\(a\\) and separation \\(d\\). The overall pattern is the product of the single-slit diffraction envelope (minima at \\(a\\sin\\theta = n\\lambda\\)) and the double-slit interference (maxima at \\(d\\sin\\theta = m\\lambda\\)). If \\(a = d\\), the first single-slit minimum (\\(n=1\\)) coincides with the first double-slit maximum (\\(m=1\\)), causing that maximum to be missing — this is the \"missing order\" phenomenon. The student's error is assuming the patterns simply add; they multiply. The first minimum of the envelope does not \"always coincide\" unless \\(a = d\\) exactly; if \\(a \\neq d\\), the coincidence occurs at different orders.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to observe single-slit diffraction using household items. List the materials, procedure, and what measurements you would take to estimate the wavelength of the light source.",
+     "a": "Materials: Two sharp razor blades (or a single slit made in aluminium foil), a clear filament bulb (or a laser pointer), a ruler, a white wall/screen. Procedure: Hold the blades to form a narrow slit (adjust width by eye), view the filament through the slit at a distance \\(D \\approx 2\\,\\text{m}\\) from the wall. Observe the central bright fringe and the first dark fringes on the wall. Measure the distance \\(2y\\) between the first minima. Knowing \\(a\\) (estimate from blade thickness or use a micrometer if available) and \\(D\\), compute \\(\\lambda = a y / D\\). A good answer includes safety warning (don't look directly at the sun), acknowledges the crude estimation of \\(a\\), and notes that white light produces coloured fringes so a coloured filter improves accuracy. A poor answer omits the measurement of \\(a\\) or \\(D\\), or suggests using the sun directly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

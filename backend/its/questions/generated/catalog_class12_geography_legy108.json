@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy108",
+  "concepts": [
+    {
+      "id": "legy.108.1",
+      "questions": [
+        {"q": "Which ancient overland route carried silk between China and Europe? (two words)", "a": "Silk Route"},
+        {"q": "Which medieval high-value cargo from the East drew European traders to India? (one word)", "a": "spices"},
+        {"q": "International trade arises from differences in what between nations? (one word)", "a": "resources"},
+        {"q": "Trade across national boundaries is called international what? (one word)", "a": "trade"},
+        {"q": "Which coerced migration of Africans fed colonial-era Atlantic trade? (two words)", "a": "slave trade"},
+        {"q": "Which economic difference, besides resource endowments, drives trade between nations? (one word)", "a": "technology"},
+        {"q": "Industrial-era trade exchanged raw materials for what from industrial nations? (one word)", "a": "manufactures"}
+      ]
+    },
+    {
+      "id": "legy.108.2",
+      "questions": [
+        {"q": "A country exports goods worth 500 units and imports 400 units. What is its balance of trade? (number)", "a": "100"},
+        {"q": "A country exports goods worth 300 units and imports 450 units. What is its balance of trade? (number)", "a": "-150"},
+        {"q": "When exports exceed imports, is the balance of trade favourable or unfavourable? (one word)", "a": "favourable"},
+        {"q": "Balance of trade is the difference between the value of exports and what? (one word)", "a": "imports"},
+        {"q": "A country exports goods worth 250 units and imports 250 units. What is its trade balance? (number)", "a": "0"},
+        {"q": "When imports exceed exports, the balance is called negative or what other word? (one word)", "a": "unfavourable"},
+        {"q": "Trade balance is measured over what period of time? (one word)", "a": "year"}
+      ]
+    },
+    {
+      "id": "legy.108.3",
+      "questions": [
+        {"q": "Which global body frames the rules of multilateral trade? (short form)", "a": "WTO"},
+        {"q": "Developed countries chiefly export manufactures and what else in world trade? (one word)", "a": "services"},
+        {"q": "Developing countries mainly export products of which sector: primary or tertiary? (one word)", "a": "primary"},
+        {"q": "Which European regional bloc liberalises trade among its members? (short form)", "a": "EU"},
+        {"q": "Which North American trade bloc links the USA, Canada and Mexico? (short form)", "a": "NAFTA"},
+        {"q": "Which countries export low-skill manufactures in world trade: developed or developing? (one word)", "a": "developing"},
+        {"q": "Which kind of trade rules does the WTO regulate: bilateral or multilateral? (one word)", "a": "multilateral"}
+      ]
+    },
+    {
+      "id": "legy.108.4",
+      "questions": [
+        {"q": "Which kind of port handles general cargo for trade? (one word)", "a": "commercial"},
+        {"q": "Which port type serves tankers and bulk hydrocarbons? (one word)", "a": "oil"},
+        {"q": "Which port type handles refrigerated catches from the sea? (one word)", "a": "fishing"},
+        {"q": "Which modern port type moves standardised steel boxes of cargo? (one word)", "a": "container"},
+        {"q": "London and Singapore are classic examples of which kind of commanding port? (one word)", "a": "gateway"},
+        {"q": "What is the inland area served by a port called? (one word)", "a": "hinterland"},
+        {"q": "What is the seaward area of overseas markets linked by a port called? (one word)", "a": "foreland"}
+      ]
+    }
+  ]
+}

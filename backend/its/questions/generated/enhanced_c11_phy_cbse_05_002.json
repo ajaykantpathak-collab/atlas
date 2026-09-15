@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_002",
+   "title": "c11_phy_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the mathematical expression for work done by a one-dimensional variable force \\( F(x) \\) when an object moves from position \\( x_i \\) to \\( x_f \\). Write the SI unit of the result.",
+     "a": "The work done is \\( W = \\int_{x_i}^{x_f} F(x) \\, dx \\). The SI unit is joule (J). A wrong answer like \\( W = F \\cdot \\Delta x \\) (using only final force) reveals the student still treats variable force as constant. Writing unit as newton (N) instead of joule shows confusion between force and work dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A force \\( F(x) = 3x^2 \\) N acts on a block moving along the x-axis from \\( x = 1 \\) m to \\( x = 3 \\) m. Explain why we cannot calculate work as \\( W = F(3) \\times (3 - 1) \\) and what physical quantity the integral \\( \\int_1^3 3x^2 \\, dx \\) actually represents.",
+     "a": "We cannot use \\( F(3) \\times \\Delta x \\) because the force is not constant; it varies from 3 N at \\( x=1 \\) to 27 N at \\( x=3 \\). Using the final force overestimates the work. The integral represents the *exact* total work done, geometrically equal to the area under the \\( F \\)-\\( x \\) curve between \\( x=1 \\) and \\( x=3 \\). A student who says \"the integral gives average force times distance\" partially understands but misses that the integral *is* the limit of the Riemann sum, not an approximation.",
+     "self_check": true
+    },
+    {
+     "q": "A force \\( F(x) = (5x + 2) \\) N acts on a 2 kg block initially at rest at \\( x = 0 \\). Calculate the work done by this force as the block moves to \\( x = 4 \\) m, and find the block's speed at \\( x = 4 \\) m using the work-energy theorem.",
+     "a": "Work done: \\( W = \\int_0^4 (5x + 2) \\, dx = \\left[ \\frac{5x^2}{2} + 2x \\right]_0^4 = \\frac{5(16)}{2} + 8 = 40 + 8 = 48 \\) J.\nBy work-energy theorem: \\( W = \\Delta K = \\frac{1}{2} m v_f^2 - 0 \\).\n\\( 48 = \\frac{1}{2} \\times 2 \\times v_f^2 \\Rightarrow v_f^2 = 48 \\Rightarrow v_f = \\sqrt{48} = 4\\sqrt{3} \\approx 6.93 \\) m/s.\nA student who forgets to integrate and uses \\( F(4) \\times 4 = 22 \\times 4 = 88 \\) J makes the constant-force error. A student who integrates correctly but writes \\( v_f = 48 \\) m/s forgets the \\( \\frac{1}{2}mv^2 \\) formula.",
+     "self_check": true
+    },
+    {
+     "q": "The force-displacement graph for a variable force is a straight line passing through (0, 10 N) and (5 m, 0 N). Without performing integration, determine the work done from \\( x = 0 \\) to \\( x = 5 \\) m. Explain how the sign of work would change if the force values were negative (below the x-axis) for the same displacement.",
+     "a": "The graph forms a right triangle with base 5 m and height 10 N. Work done = area = \\( \\frac{1}{2} \\times 5 \\times 10 = 25 \\) J. If the force values are negative (graph below x-axis), the area is still 25 J but work done is \\( -25 \\) J because the force opposes displacement. A student who answers 25 J for the negative-force case without the minus sign fails to understand that work is a signed scalar; the integral \\( \\int F(x) \\, dx \\) automatically accounts for sign via the function's sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Force \\( F(x) = 4x^3 \\) N acts from \\( x = 1 \\) m to \\( x = 2 \\) m. Work done = \\( \\int_1^2 4x^3 \\, dx = [x^4]_1^2 = 16 - 1 = 15 \\) J.\" Another student claims the answer should be 15 N. Evaluate both responses and identify the conceptual error in the second student's claim.",
+     "a": "The first student is correct: the integration yields 15 J. The second student's claim of 15 N is dimensionally wrong; work/energy has units of joule (N·m), not newton. The error reveals confusion between force (N) and work (J). Even if the integral of force over distance gives a number, the *physical quantity* is work, so the unit must be joule. A student writing \"15\" without units makes an incomplete answer; writing \"15 N\" makes a conceptual error about dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a force sensor (or spring balance), and a ruler to verify that the work done in stretching a spring from \\( x = 0 \\) to \\( x = x_0 \\) equals \\( \\frac{1}{2} k x_0^2 \\). Describe the measurements, the graph to plot, and how to calculate work from the graph.",
+     "a": "Fix one end of a spring. Attach a force sensor to the free end. Stretch the spring slowly in small steps (e.g., 1 cm increments). At each extension \\( x \\), record the force \\( F \\) from the sensor. Plot \\( F \\) (y-axis) vs \\( x \\) (x-axis). The graph should be a straight line through origin (Hooke's law: \\( F = kx \\)). The work done is the area under this line from 0 to \\( x_0 \\): a triangle of area \\( \\frac{1}{2} \\times x_0 \\times (k x_0) = \\frac{1}{2} k x_0^2 \\). A poor answer might suggest measuring only final force and multiplying by \\( x_0 \\), or plotting force vs time instead of force vs displacement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

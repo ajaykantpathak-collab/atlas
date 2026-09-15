@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u5_045",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u5_045",
+   "title": "c6_english_u5_045",
+   "questions": [
+    {
+     "q": "What is an acrostic poem?",
+     "a": "An acrostic poem is one where the first letter of each line spells out a word vertically. A wrong answer suggests the student is confusing it with a regular paragraph, indicating they need to practice looking at the left-hand margin of poems.",
+     "self_check": true
+    },
+    {
+     "q": "If a poem describes a \"scorching, dry, golden desert,\" which poetic device is the author using?",
+     "a": "The author is using imagery. A wrong answer (like \"repetition\") shows the student does not yet distinguish between descriptive sensory language and word patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Find the repetition in this line: \"The wind sings, the wind calls, the wind dances.\" How does it change the feeling?",
+     "a": "The repetition is \"the wind.\" It emphasizes that the wind is the main character or focus of the scene. A wrong answer suggests the student is looking for rhyming words rather than repeated phrases.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this: Why might a poet choose to spell the word \"BRAVE\" in an acrostic poem about soldiers?",
+     "a": "The poet chooses \"BRAVE\" to reinforce the poem's theme and make the reader think about the qualities of a soldier immediately. A wrong answer shows the student sees the acrostic as just a \"puzzle\" rather than a tool for meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this: \"A poem without imagery is just as good as a poem with imagery.\" Do you agree?",
+     "a": "I disagree because imagery allows the reader to visualize the experience, making the poem personal and emotional. A student who agrees likely struggles to connect with the sensory details in text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-line acrostic poem about a \"PET\" using the letters P-E-T.",
+     "a": "P-Playing in the sun, E-Eating all my food, T-Tail wags at me. A poor answer uses words that don't relate to a pet, showing a lack of focus on the theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

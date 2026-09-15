@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_004",
+   "title": "c11_stat_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the exact formula to convert a component's percentage value into its central angle in a pie diagram, and why is the multiplier 3.6° used?",
+     "a": "The formula is: Central Angle = Percentage × 3.6°. The multiplier 3.6° comes from 360°/100 = 3.6° per 1% — since a full circle is 360° representing 100%, each 1% corresponds to 3.6°. A wrong answer (e.g., \"multiply by 360\" or \"divide by 100\") reveals the student doesn't grasp that percentages are parts per hundred and the circle's total angle is fixed at 360°, so the conversion factor must be 360/100.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a pie diagram for 5 categories with calculated angles: 85°, 92°, 78°, 65°, and 40°. They claim it's correct because \"all angles are different.\" Why is this diagram mathematically impossible, and what specific error did the student likely make?",
+     "a": "The sum of angles is 85+92+78+65+40 = 360° — wait, that sums to 360° exactly. But the student's reasoning \"all angles are different\" is flawed — angles can repeat if percentages are equal. The real issue: if these angles came from percentages, they must be multiples of 3.6° (since Percentage = Angle/3.6). 85/3.6 = 23.61% (not a clean percentage from integer frequencies). This reveals the student likely used raw frequencies as degrees directly (e.g., frequency 85 → 85°) without converting to percentages of total first. The correct check: each angle must be a multiple of 3.6° for integer percentage data.",
+     "self_check": true
+    },
+    {
+     "q": "The monthly expenditure (in ₹) of a family is: Food 12,000; Rent 8,000; Education 5,000; Transport 3,000; Savings 2,000. Construct the pie diagram by calculating all central angles. Show your work.",
+     "a": "Step 1: Total = 12,000+8,000+5,000+3,000+2,000 = 30,000.\nStep 2: Percentages: Food = (12,000/30,000)×100 = 40%; Rent = 26.67%; Education = 16.67%; Transport = 10%; Savings = 6.67%.\nStep 3: Angles: Food = 40×3.6 = 144°; Rent = 26.67×3.6 = 96°; Education = 16.67×3.6 = 60°; Transport = 10×3.6 = 36°; Savings = 6.67×3.6 = 24°.\nStep 4: Verify sum = 144+96+60+36+24 = 360° ✓.\nA wrong answer (e.g., using raw values as angles: 12,000° etc.) reveals the student doesn't understand normalization to a fixed total (360°). An answer with angles not summing to 360° reveals arithmetic or percentage calculation errors.",
+     "self_check": true
+    },
+    {
+     "q": "Given the same family expenditure data, you create both a pie diagram and a component bar diagram. The component bar shows Food (40%), Rent (26.67%), Education (16.67%), Transport (10%), Savings (6.67%) as segments of a 100-unit bar. Compare the two diagrams for: (a) ease of comparing Food vs Rent, (b) ease of comparing Transport vs Savings, (c) suitability if a 6th category \"Medical: ₹1,500\" is added.",
+     "a": "(a) Pie: Compare 144° vs 96° — moderate ease (angle comparison). Bar: Compare 40 units vs 26.67 units — easier (linear length comparison). (b) Pie: 36° vs 24° — harder (small angles, similar sizes). Bar: 10 vs 6.67 units — easier. (c) Adding Medical (5%) makes pie have 6 sectors — still acceptable but getting crowded; bar diagram handles extra category trivially by extending segmentation. A wrong answer claiming \"pie is always better for comparison\" reveals misunderstanding that linear comparison (bar) is cognitively easier than angular comparison (pie), especially for small/adjacent sectors.",
+     "self_check": true
+    },
+    {
+     "q": "A news channel shows a pie diagram with 12 sectors representing vote shares of 12 political parties in an election. The smallest 4 parties have 2%, 1.5%, 1%, 0.5% shares. The anchor says \"This pie chart clearly shows the vote distribution.\" Evaluate this claim and propose a better visualization.",
+     "a": "The claim is flawed. With 12 sectors, the pie is cluttered; the 4 smallest sectors (7.2°, 5.4°, 3.6°, 1.8°) are too thin to distinguish visually — viewers cannot compare 1.5% vs 1% accurately. Better alternatives: (1) Bar diagram — all 12 parties as bars, heights proportional to vote share, easy to compare even tiny differences. (2) Pie diagram for top 7 parties + \"Others\" combined (2+1.5+1+0.5=5%), with a note or inset table for the 4 small parties. A wrong answer defending the 12-sector pie reveals ignorance of pie diagram limitations: cognitive overload beyond 6-7 categories, inability to resolve small angles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world dataset with 4 categories where two categories have percentages differing by less than 2% (e.g., 24% and 25.5%). Create the pie diagram angles. Explain why a viewer would struggle to determine which category is larger just by looking at the pie, and suggest a labeling strategy to resolve this.",
+     "a": "Dataset: Company Q3 sales by region (₹ crores): North 48, South 51, East 30, West 21. Total = 150. Percentages: North 32%, South 34%, East 20%, West 14%. Angles: North 115.2°, South 122.4°, East 72°, West 50.4°. Difference between North and South = 7.2° (2% of 360°). A viewer cannot reliably distinguish 115.2° vs 122.4° by eye — the sectors appear nearly identical. Labeling strategy: Write percentage values directly on or beside each sector (e.g., \"North: 32%\", \"South: 34%\") rather than relying on visual angle comparison. A poor answer that says \"the larger angle looks bigger\" reveals the misconception that human angle perception is precise for small differences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

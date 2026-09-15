@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_6",
+   "title": "c8_physics_ch4_6",
+   "questions": [
+    {
+     "q": "What is the typical height of the mercury column in a barometer at sea level, and what does this height represent?",
+     "a": "The typical height is 760 mm (76 cm) of mercury, representing the atmospheric pressure at sea level (≈ 1.013 × 10⁵ Pa). A wrong answer (e.g., 76 cm of water) reveals the student confuses the fluid used or does not know the standard reference value for mercury.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the mercury column in a barometer not fall completely into the trough, leaving a vacuum at the top?",
+     "a": "Atmospheric pressure pushing down on the mercury surface in the trough balances the weight of the mercury column; the space above the column is a near-vacuum (Torricellian vacuum). If a student says \"mercury is heavy so it stays\" or \"the tube holds it\", they misunderstand that it is the external air pressure, not the tube or mercury's cohesion, that supports the column.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the atmospheric pressure in pascals if the mercury column height is 74.5 cm. (Density of mercury = 13,600 kg/m³, g = 9.8 m/s²)",
+     "a": "Step 1: Convert height to meters: h = 74.5 cm = 0.745 m. Step 2: Use P = hρg. Step 3: P = 0.745 m × 13,600 kg/m³ × 9.8 m/s² = 99,333.2 Pa ≈ 9.93 × 10⁴ Pa. Step 4: Check units: m × kg/m³ × m/s² = kg/(m·s²) = Pa. A wrong answer often comes from forgetting to convert cm to m, giving 9.93 × 10⁶ Pa (off by 100×).",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a mercury barometer from the ground floor to the third floor of a school building. The mercury column height decreases slightly. Explain why this happens and what it tells us about atmospheric pressure.",
+     "a": "At higher altitude, the air column above is shorter, so its weight (atmospheric pressure) decreases; the mercury column falls until its weight again balances the lower air pressure. If a student says \"temperature changed\" or \"mercury expands\", they are not linking altitude to reduced air column weight.",
+     "self_check": true
+    },
+    {
+     "q": "A weather forecast says \"pressure falling rapidly\". A student claims this means the mercury column in a barometer will rise. Is the student correct? Justify.",
+     "a": "No, the student is incorrect. Falling atmospheric pressure means the air column weighs less, so it pushes down less on the mercury trough; the mercury column will fall (height decreases). A wrong judgment reveals confusion between \"pressure falling\" and \"mercury rising\" — they may think lower pressure pulls mercury up.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a plastic bottle, a straw, and water to demonstrate the principle of a barometer. Explain how it models atmospheric pressure.",
+     "a": "Fill a bottle partially with water, insert a straw through a sealed cap so it dips into the water, and suck air out to raise water in the straw; then seal the straw top. The water stays up because atmospheric pressure on the bottle's water surface pushes it up the straw. A poor answer might just describe a drinking straw without sealing the top, missing the role of trapped air pressure vs. atmospheric pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

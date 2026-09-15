@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_004",
+   "title": "c11_ip_cbse_02_004",
+   "questions": [
+    {
+     "q": "List the five categories of tokens in Python and give one example of each.",
+     "a": "The five token categories are: 1) Keywords (e.g., `if`), 2) Identifiers (e.g., `total_marks`), 3) Literals (e.g., `42`, `\"hello\"`), 4) Operators (e.g., `+`), 5) Punctuators (e.g., `:`). A wrong answer that misses punctuators or confuses operators with keywords shows the student hasn't internalized the token classification hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code raises a TabError: \n```python\nif True:\n\tprint(\"tab\")\n    print(\"spaces\")\n```",
+     "a": "The first indented line uses a tab character (`\\t`) while the second uses spaces. Python 3 forbids mixing tabs and spaces for indentation in the same block because their visual width differs across editors, leading to ambiguous block structure. A student who says \"indentation is wrong\" without mentioning the tab/space mix shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Given the line `roll_no = 101`, break it into tokens and label each token's category.",
+     "a": "Tokens: `roll_no` (Identifier), `=` (Operator), `101` (Literal). A student who labels `=` as a punctuator or `101` as an identifier reveals confusion between operator/punctuator roles and literal vs. identifier distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two snippets and state which one will execute without IndentationError, and why.\nSnippet A:\n```python\nfor i in range(3):\n  print(i)\n print(\"done\")\n```\nSnippet B:\n```python\nfor i in range(3):\n  print(i)\nprint(\"done\")\n```",
+     "a": "Snippet B executes correctly. In Snippet A, the second `print` is indented by one space while the first uses two spaces, causing inconsistent indentation within the same block. Snippet B dedents `print(\"done\")` to zero spaces, marking it outside the loop. A student who picks Snippet A thinks any indentation works as long as it's non-zero, missing the consistency rule.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Python's use of indentation instead of braces makes code less readable because whitespace is invisible.\" Defend your position with two concrete arguments.",
+     "a": "The statement is flawed. Argument 1: Indentation forces a consistent visual structure that matches logical structure, reducing \"brace style\" wars. Argument 2: Modern editors highlight whitespace and show indentation guides, making it visible. A student who agrees without qualification shows they haven't experienced how indentation enforces readable block structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a minimal Python program (3-5 lines) that uses at least one token from each of the five categories and includes a nested block. Ensure it runs without errors.",
+     "a": "Example:\n```python\ndef greet(name):   # def (keyword), greet (identifier), name (identifier), : (punctuator)\n    msg = \"Hello\"  # msg (identifier), = (operator), \"Hello\" (literal)\n    print(msg)     # print (identifier), ( ) (punctuators), msg (identifier)\ngreet(\"Asha\")      # greet (identifier), ( ) (punctuators), \"Asha\" (literal)\n```\nA poor answer might miss a category (e.g., no punctuator) or cause an IndentationError, revealing incomplete token recognition or indentation practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

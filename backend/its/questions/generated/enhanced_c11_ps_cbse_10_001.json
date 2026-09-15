@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_001",
+   "title": "c11_ps_cbse_10_001",
+   "questions": [
+    {
+     "q": "What does \"supreme law of the land\" mean in the Indian constitutional context, and which specific article establishes that laws violating Fundamental Rights are void?",
+     "a": "\"Supreme law of the land\" means the Constitution is the highest legal authority; all other laws (central, state, local), executive actions, and judicial decisions must conform to it. Article 13(2) explicitly states: \"The State shall not make any law which takes away or abridges the rights conferred by this Part [Fundamental Rights] and any law made in contravention of this clause shall, to the extent of the contravention, be void.\" A wrong answer (e.g., \"Parliament is supreme\" or citing Article 32) reveals confusion between parliamentary sovereignty (UK model) and constitutional supremacy (India/US model), or confusion between the remedy (Article 32) and the supremacy clause itself (Article 13).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Indian Constitution described as \"supreme law\" rather than merely \"the highest law passed by Parliament\"? Explain the difference in the source of authority.",
+     "a": "The Constitution is supreme because it derives its authority from the sovereign people (via the Constituent Assembly), not from Parliament. Parliament is a *creature* of the Constitution — its powers, composition, and limits are defined by the Constitution (Articles 79-122). In the UK, Parliament is sovereign and can make/unmake any law; no court can strike down an Act of Parliament. In India, the Constitution *constitutes* Parliament and binds it. A wrong answer (e.g., \"because Parliament passed it\" or \"because the Supreme Court says so\") reveals the misconception that Parliament is the ultimate source of legal authority, confusing the *constituent power* (making the Constitution) with *legislative power* (making laws under the Constitution).",
+     "self_check": true
+    },
+    {
+     "q": "A state legislature passes a law on a Concurrent List subject that directly contradicts a central law on the same subject. The matter reaches the Supreme Court. Which constitutional principle resolves this conflict, and why does constitutional supremacy matter here?",
+     "a": "Article 254 resolves this: the central law prevails, and the state law is void to the extent of repugnancy — *unless* the state law was reserved for Presidential assent and received it. Constitutional supremacy matters because *both* laws derive validity from the Constitution (Seventh Schedule distribution of powers). The Constitution itself provides the conflict rule. A wrong answer (e.g., \"the older law wins\" or \"the state law wins because states are sovereign\") reveals ignorance of the constitutional hierarchy: Constitution → Union List/Concurrent List (central law) → State List (state law), and that the Constitution is the *source* of the division, not a neutral umpire.",
+     "self_check": true
+    },
+    {
+     "q": "Compare constitutional supremacy (India) with parliamentary sovereignty (UK) on three dimensions: (a) Can the legislature amend the constitution/basic law by ordinary majority? (b) Can courts strike down primary legislation? (c) Where does ultimate legal authority reside?",
+     "a": "(a) India: No — constitutional amendments require special majority (Article 368); UK: Yes — Parliament can change constitutional statutes by simple majority. (b) India: Yes — Supreme Court/High Courts can strike down laws violating Fundamental Rights (Articles 13, 32, 226); UK: No — courts cannot strike down Acts of Parliament, only interpret them. (c) India: The Constitution (as interpreted by judiciary within basic structure limits); UK: Parliament. A wrong answer (e.g., \"both allow judicial review of primary legislation\") reveals confusion between the two models and failure to grasp that constitutional supremacy *entails* judicial review as a necessary mechanism, whereas parliamentary sovereignty *excludes* it.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since Parliament can amend the Constitution under Article 368, the Constitution is not truly supreme — Parliament is.\" Evaluate this statement with reference to the Basic Structure doctrine established in Kesavananda Bharati (1973).",
+     "a": "The statement is incorrect. While Parliament has *constituent power* to amend the Constitution (Article 368), the Supreme Court in Kesavananda Bharati held that this power does not extend to destroying the \"basic structure\" of the Constitution (e.g., supremacy of the Constitution, republican/democratic form, secularism, federalism, judicial review). Thus, the Constitution's *core identity* is supreme even over Parliament's amendment power. A wrong answer (e.g., \"Parliament can amend anything, so it is supreme\") reveals a pre-1973 understanding and failure to distinguish between *ordinary legislative power* (subject to Article 13) and *constituent power* (subject to basic structure limits). The Constitution remains supreme because its unamendable core binds even the amending body.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a single constitutional provision (one sentence) for a new democracy that would establish constitutional supremacy, judicial review of legislation, and the binding nature of the constitution on all state organs — without using the word \"supreme.\"",
+     "a": "A strong answer: \"This Constitution is the fundamental law of the Republic; all laws, executive actions, and judicial decisions shall derive their authority from and conform to its provisions; any law inconsistent with this Constitution shall, to the extent of such inconsistency, be void; and the Constitutional Court shall have the power to declare such invalidity.\" A poor answer (e.g., \"The Constitution is the highest law and courts can cancel bad laws\") reveals inability to translate the concept into precise constitutional language — missing key elements: (1) source of authority for *all* state action, (2) automatic voidness (not just unenforceability), (3) explicit judicial review power, (4) binding on all three organs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_06_010",
+   "title": "c12_hin_a_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the literal meaning (वाच्यार्थ) of the Braj Bhasha word \"लुसग़\" as used in the line \"लुसग़ लुसग़ लुसग़ लुसग़\" from Raskhan's poem, and what is its grammatical form?",
+     "a": "The word \"लुसग़\" (लुसग) is a present participle (वर्तमान कृदंत) from the root लुस् (to shine/gleam), meaning \"shining, gleaming, glittering\" — used here as an adverbial modifier describing the continuous shimmering of Krishna's form. A wrong answer like \"trembling\" or \"dancing\" reveals the student is guessing from sound similarity to \"लहर\" or \"ललच\" rather than consulting the NCERT gloss or recognizing the root लुस्. This error shows lack of dictionary discipline and unfamiliarity with Braj phonology where स़ represents a retroflex flap.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"मृदु मृदु मृदु मृदु\" from the same poem, the word \"मृदु\" is a Tatsama adjective. Explain why Raskhan repeats it four times instead of using a degree modifier like \"अत्यन्त मृदु\", and what poetic effect this repetition (अनुप्रास/पुनरुक्ति) creates in the context of Krishna's flute music.",
+     "a": "The quadruple repetition \"मृदु मृदु मृदु मृदु\" mimics the continuous, unbroken, gentle flow of the flute melody — each utterance is a separate note, creating an auditory iconicity (ध्वन्यानुकरण) that \"अत्यन्त मृदु\" (a single intellectual assessment) cannot. A student who says \"for emphasis\" or \"to show intensity\" misses the mimetic function: the form *enacts* the content. This error reveals a tendency to treat poetic devices as decorative rather than structural, a gap carried from Class 11 where repetition was taught only as \"अनुप्रास अलंकार\" without linking to sensory enactment.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT gloss gives \"चकित\" = \"आश्चर्यचकित\" (astonished). In the line \"चकित चकित चकित चकित\", the word appears four times. Rewrite this line in standard Khari Boli Hindi preserving the poetic effect, and explain what is lost in translation.",
+     "a": "Khari Boli rendering: \"आश्चर्य से भरा हुआ, आश्चर्य से भरा हुआ, आश्चर्य से भरा हुआ, आश्चर्य से भरा हुआ\" or \"हतप्रभ, हतप्रभ, हतप्रभ, हतप्रभ\". What is lost: (1) the monosyllabic brevity of \"चकित\" (2 syllables) vs. the polysyllabic expansion (6+ syllables), destroying the staccato rhythm mirroring a startled heartbeat; (2) the Braj phonetic flavour — the retroflex ट् in चकित adds a percussive click absent in \"हतप्रभ\"; (3) the participial force (कृदंत) implying a *state entered suddenly*, whereas \"हतप्रभ\" is a static adjective. A student who only substitutes synonyms misses the prosodic and morphological dimensions — evidence of treating vocabulary as interchangeable labels rather than sound-sense units.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the compounds \"रसिक\" (रस + इक) and \"रसखान\" (रस + खान). Both contain \"रस\" (aesthetic sentiment/devotional nectar). Analyse how the suffixes \"-इक\" (tatsama, denoting 'possessor of') and \"-खान\" (Persian, denoting 'mine/treasure house') reflect Raskhan's dual cultural identity and his theological synthesis in the poems.",
+     "a": "\"रसिक\" (Sanskrit suffix -इक) frames Raskhan within the classical Sanskrit aesthetic tradition: a connoisseur of rasa, aligned with Bharata's Natyashastra. \"रसखान\" (Persian खान = mine/treasure) frames him in the Indo-Islamic tradition: a *repository* of rasa, suggesting abundance and generosity. Together they encode his synthesis — he *masters* the tradition (रसिक) and *embodies* it as a gift (रसखान). A student who defines both merely as \"lover of Krishna\" or \"poet of rasa\" flattens the etymological tension that is the poem's subtext. This error stems from memorising glosses without analysing morphological ancestry — a skill explicitly built in Class 11 node c11_hin_ar_cbse_01_010 but rarely applied to proper nouns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The word 'खान' in 'रसखान' is merely an honorific title like 'Khan' in Mughal court names, and has no semantic connection to the poem's imagery of Krishna's form as a treasure-house.\" Defend or refute using evidence from the poem \"हरि झर झर\".",
+     "a": "Refute. In \"हरि झर झर\", Krishna's form is described as \"रतन की खान\" (mine of jewels) implicitly through words like \"रतन\", \"ज्योति\", \"कान्ति\" — the poet *sees* the divine body as a treasure-mine. \"रसखान\" thus means \"one who *is* a mine of rasa\" — not just a title but a metaphysical claim: the poet's identity *is* the reservoir of the very rasa Krishna embodies. A student accepting the claim reveals a compartmentalised reading: treating vocabulary as isolated dictionary entries rather than nodes in the poem's semantic network. This is the \"label fallacy\" — assuming a word's meaning is exhausted by its gloss.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line verse (चौपाई/दोहा) in Khari Boli or Braj using at least THREE key words from the NCERT glossary (e.g., लुसग़, मृदु, चकित, रसिक, रसखान, अहर्निश, फुल्कि) such that each word retains its contextual poetic force from Raskhan's poems. Explain your choices in 2 sentences.",
+     "a": "Example verse:\n\"मृदु मृदु बाजत बंसी धुनि, लुसग़ लुसग़ अंग कान्ति।\nचकित चकित मन रसिक भयो, रसखान बने अनन्त॥\"\nChoices: \"मृदु\" repeated for mimetic softness; \"लुसग़\" for visual shimmer; \"चकित\" for sudden awe; \"रसिक\" and \"रसखान\" as identity progression. A poor answer uses the words as decorative insertions (e.g., \"रसखान कवि मृदु बोलत लुसग़\") without phonetic or semantic enactment — showing the student cannot transfer *usage* from analysis to creation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_005",
+   "title": "c7_math_ch03_005",
+   "questions": [
+    {
+     "q": "What is $35\\text{ centimetres}$ expressed in metres using decimal notation?",
+     "a": "$0.35\\text{ m}$. A wrong answer like $3.5\\text{ m}$ or $0.035\\text{ m}$ shows that the student is confused about the conversion factor between centimetres and metres ($100\\text{ cm} = 1\\text{ m}$), leading to incorrect placement of the decimal point for hundredths.",
+     "self_check": true
+    },
+    {
+     "q": "Why is $4\\text{ rupees and } 5\\text{ paise}$ written as $₹4.05$ and not $₹4.5$ in decimal notation?",
+     "a": "$₹4.5$ represents $4\\text{ rupees and } 50\\text{ paise}$ because the first digit after the decimal point stands for tenths ($\\frac{10}{100}$ or 10 paise coins). Since $1\\text{ rupee} = 100\\text{ paise}$, $5\\text{ paise}$ is $\\frac{5}{100}$ of a rupee, which occupies the hundredths place, making it $₹4.05$. A wrong answer indicates confusion between tenths and hundredths place values when converting smaller monetary units.",
+     "self_check": true
+    },
+    {
+     "q": "A tailor has a ribbon of length $3\\text{ m } 45\\text{ cm}$. He cuts off $1\\text{ m } 80\\text{ cm}$. Express both lengths in metres using decimals, and find the remaining length of the ribbon in metres.",
+     "a": "Initial length = $3.45\\text{ m}$, Cut length = $1.80\\text{ m}$. Remaining length = $3.45\\text{ m} - 1.80\\text{ m} = 1.65\\text{ m}$. A wrong answer often stems from borrowing incorrectly in column subtraction of decimals (e.g., getting $2.65\\text{ m}$) or failing to convert centimetres to hundredths of a metre properly before subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the measurements $4.08\\text{ kg}$ and $4.8\\text{ kg}$. Which quantity is greater, and what error do students commonly make when comparing them?",
+     "a": "$4.8\\text{ kg}$ is greater. Students often mistakenly think $4.08\\text{ kg}$ is larger because $80$ is larger than $8$, forgetting that $4.8$ is equivalent to $4.80\\text{ kg}$, where the tenths digit ($8$) is greater than the tenths digit ($0$) in $4.08\\text{ kg}$.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"To convert $7\\text{ grams}$ to kilograms, we divide by $100$, so $7\\text{ g} = 0.07\\text{ kg}$.\" Is this correct or incorrect? Justify your answer.",
+     "a": "The statement is incorrect. Since $1\\text{ kg} = 1000\\text{ g}$, converting grams to kilograms requires dividing by $1000$, not $100$. Therefore, $7\\text{ g} = \\frac{7}{1000}\\text{ kg} = 0.007\\text{ kg}$. A wrong answer shows a failure to recall the correct metric conversion factor for mass (thousandths instead of hundredths).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving capacity (litres and millilitres) where three liquid containers contain $2\\text{ L } 45\\text{ mL}$, $1.5\\text{ L}$, and $750\\text{ mL}$. Write their total volume in litres using decimal notation.",
+     "a": "Container 1 = $2.045\\text{ L}$, Container 2 = $1.500\\text{ L}$, Container 3 = $0.750\\text{ L}$. Total = $2.045 + 1.500 + 0.750 = 4.295\\text{ L}$. A poor answer reveals an inability to convert millilitres to litres ($1\\text{ mL} = 0.001\\text{ L}$) or misaligning place values during decimal addition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

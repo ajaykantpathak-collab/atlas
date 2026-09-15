@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_001",
+   "title": "c10_eco_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define a Multinational Corporation (MNC) and give one example of an Indian MNC.",
+     "a": "An MNC is a company that owns or controls production in two or more countries. Example: Tata Motors (India) owns Jaguar Land Rover (UK) and operates in multiple countries. A wrong answer that says \"a company that exports to other countries\" reveals confusion between exporting and foreign direct investment (FDI) — the student thinks mere cross-border sales make a firm an MNC, but ownership/control of foreign production is the defining feature.",
+     "self_check": true
+    },
+    {
+     "q": "Why do MNCs spread different stages of production across different countries instead of producing everything in one country?",
+     "a": "MNCs spread production to minimize total cost by locating each stage where the specific factor of production it needs intensively (skilled labour, cheap unskilled labour, natural resources, infrastructure) is most abundant and least expensive. For example, design requires high-skilled labour (available in the USA), while assembly requires low-cost unskilled labour (available in India or Vietnam). A wrong answer like \"to avoid taxes\" or \"because of government rules\" shows the student misses the core economic driver: factor-cost optimization based on comparative advantage.",
+     "self_check": true
+    },
+    {
+     "q": "An MNC produces sports shoes. The design stage needs 100 hours of skilled labour at $30/hour in the USA. The stitching stage needs 500 hours of unskilled labour at $2/hour in Vietnam. The sole moulding needs specialized machinery costing $50,000 (available in China). Calculate the total labour + machinery cost for these three stages if done in their respective countries. Then explain why the MNC would not do all stages in the USA where unskilled labour costs $15/hour.",
+     "a": "Step 1: Design cost = 100 hrs × $30 = $3,000. Step 2: Stitching cost in Vietnam = 500 hrs × $2 = $1,000. Step 3: Machinery cost in China = $50,000 (fixed). Total = $54,000. If all stages in USA: Stitching = 500 hrs × $15 = $7,500 (vs $1,000), Design same $3,000, Machinery same $50,000 → Total = $60,500. The MNC saves $6,500 by locating stitching in Vietnam. A wrong answer that only compares total costs without breaking down per-stage factor intensity shows the student cannot apply the concept of factor-specific location decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the global production chain of a car manufacturer (e.g., engine from Germany, electronics from Japan, assembly in India) with that of a garment brand (design in Italy, fabric from Bangladesh, stitching in Vietnam). Identify two similarities and one key difference in the factor requirements that drive their location choices.",
+     "a": "Similarities: (1) Both separate high-skill stages (design, engineering) from low-skill stages (assembly, stitching). (2) Both locate low-skill stages in countries with abundant cheap labour. Difference: Car production requires heavy capital-intensive machinery and specialized intermediate goods (engines, electronics) that need advanced industrial infrastructure, so those stages stay in developed nations. Garment production is labour-intensive throughout; even fabric production can shift to low-wage countries. A wrong answer that says \"both use cheap labour everywhere\" misses the capital-intensity distinction and shows inability to analyze factor proportions across industries.",
+     "self_check": true
+    },
+    {
+     "q": "\"Global production chains benefit developing countries by creating jobs, but they also make these countries dependent on MNCs' decisions.\" Evaluate this statement with two arguments for and two against, using economic reasoning.",
+     "a": "For: (1) Job creation in labour-abundant countries raises employment and wages over time (e.g., India's IT services, Vietnam's manufacturing). (2) Technology spillovers: local firms learn advanced techniques from MNCs. Against: (1) MNCs may shift production suddenly if costs rise elsewhere, causing unemployment (footloose capital). (2) Developing countries may engage in a \"race to the bottom\" by lowering labour/environmental standards to attract MNCs. A wrong answer that only lists benefits or only costs shows inability to evaluate trade-offs — a key board exam skill for \"impact\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple global production chain for a wooden toy. Specify the country for each stage (design, raw material sourcing, component making, assembly, packaging) and justify each choice based on factor endowments (land, labour, capital).",
+     "a": "Example: Design in Germany (skilled labour, R&D capital), raw wood from Brazil (abundant forest land), component cutting in China (cheap labour + machinery), assembly in India (low-cost labour), packaging in Mexico (proximity to US market). A good answer matches each stage to a factor advantage. A poor answer that puts all stages in one country or gives random countries without factor justification reveals the student hasn't grasped the core idea: production follows factor endowments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

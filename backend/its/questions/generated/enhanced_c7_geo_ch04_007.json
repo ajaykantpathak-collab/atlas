@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_007",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_007",
+   "title": "c7_geo_ch04_007",
+   "questions": [
+    {
+     "q": "What is the primary power source traditionally used for plowing agricultural fields in most parts of rural India before modern mechanization?",
+     "a": "Bullock or oxen power (cattle). A student who answers \"tractors\" or \"electricity\" is confusing traditional farming with modern mechanized farming. A student who says \"hand tools only\" misses the crucial role of draft animals in tilling larger plots of land in traditional Indian agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Why do traditional Indian farmers often practice mixed cropping (growing two or more crops simultaneously on the same piece of land), such as growing wheat and mustard together?",
+     "a": "Mixed cropping reduces the risk of total crop failure due to pests or erratic weather, as different crops have different vulnerabilities and root depths. A student who thinks it is done just to make the field look colorful does not understand the ecological and risk-mitigation strategy of traditional agriculture. A student who thinks it depletes soil faster is confusing it with monoculture without rotation.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in a semi-arid region of Rajasthan with low annual rainfall (less than 400 mm) wants to conserve soil moisture using traditional methods. Which traditional practice should they prioritize, and how does it work?",
+     "a": "The farmer should prioritize mulching (covering the soil surface with crop residues or dry leaves) or deep plowing followed by leveling to trap moisture. Step 1: Identify that semi-arid regions suffer from high evaporation rates. Step 2: Recall that exposed soil loses moisture rapidly under the sun. Step 3: Apply the principle of organic mulching, which creates a physical barrier against heat and reduces evaporation. Step 4: Conclude that this preserves underground moisture for crop roots without needing tube-well irrigation. A student who suggests frequent flooding of fields does not understand water scarcity in semi-arid environments.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the geographical relationship between the terrace farming practiced in the Himalayan region and the flat-field bunding practiced in the Northern Plains. Why are different land-shaping techniques used in these two regions?",
+     "a": "Terrace farming is used in steep Himalayan slopes to slow down runoff, prevent soil erosion, and create flat patches for water retention. In contrast, flat-field bunding is used in the gentle slopes of the Northern Plains to retain floodwaters or rainwater uniformly across large alluvial plots. A student who thinks terrace farming is used in plains simply because of space limits ignores how slope gradient dictates gravity-driven soil erosion and water flow.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Traditional farming practices are entirely unscientific and should be completely replaced by modern chemical-based farming to feed India's growing population.\" Is this statement fully accurate?",
+     "a": "The statement is only partially accurate. While modern farming boosts short-term yields using chemical fertilizers, traditional farming incorporates deep ecological wisdom—such as crop rotation, natural pest repellents, and soil organic matter management—that maintains long-term soil health and biodiversity. Completely discarding traditional methods risks severe soil degradation, groundwater depletion, and loss of indigenous seed varieties. A student who blindly agrees ignores the environmental crises caused by chemical overuse, while a student who rejects all modern science ignores food security challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a traditional farming plan for a small plot of land in a plateau region with erratic monsoon rainfall. Include your choice of crop combination, soil management method, and water conservation technique.",
+     "a": "A successful plan would include: (1) Growing drought-resistant millets (like jowar or ragi) mixed with pulses (like pigeon pea) for nitrogen fixation; (2) Applying farmyard manure (FYM) to improve soil water-holding capacity; (3) Constructing small earthen bunds (contour bunds) across the slope to harvest rainwater runoff. A poor answer would suggest water-intensive crops like paddy without irrigation or recommend chemical NPK fertilizers without considering organic moisture retention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

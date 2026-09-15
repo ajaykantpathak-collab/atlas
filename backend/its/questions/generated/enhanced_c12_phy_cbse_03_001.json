@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_001",
+   "title": "c12_phy_cbse_03_001",
+   "questions": [
+    {
+     "q": "A student writes: \"Current I = 5 C flowing through a wire.\" Identify the error and state the correct quantity with its unit.",
+     "a": "Error: Current is a rate, not an amount of charge. The student confused charge (Q, unit coulomb) with current (I, unit ampere = C/s). Correct statement: \"Current I = 5 A\" or \"Charge Q = 5 C passed in 1 s.\" This reveals the student does not grasp the \"per unit time\" in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "In a copper wire, electrons drift from the negative terminal to the positive terminal of a battery. What is the direction of conventional current? Why was this convention chosen historically?",
+     "a": "Conventional current direction is from positive terminal to negative terminal outside the battery (opposite to electron drift). The convention was established before the discovery of the electron; early scientists assumed positive charges moved. It is retained for consistency in circuit analysis. A wrong answer (e.g., \"same as electron flow\") shows the student memorizes direction without understanding the historical convention.",
+     "self_check": true
+    },
+    {
+     "q": "A steady current of 2.5 A flows through a household fan motor for 10 minutes. Calculate the total charge that passes through any cross-section of the wire. Express in coulombs.",
+     "a": "Given: I = 2.5 A, t = 10 min = 600 s. Using I = Q/t → Q = I × t = 2.5 A × 600 s = 1500 C. Steps: (1) convert time to seconds, (2) multiply current by time, (3) check unit: A·s = C. A wrong answer like 25 C (using 10 instead of 600) reveals failure to convert minutes to seconds.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires A and B carry currents 3 A and 5 A respectively. Wire A has electrons drifting at 0.2 mm/s; wire B has electrons drifting at 0.1 mm/s. Which wire has higher charge carrier density n (assuming same cross-sectional area and charge per carrier)? Justify using I = nAev_d.",
+     "a": "From I = nAev_d, n ∝ I/v_d (since A, e constant). For wire A: n_A ∝ 3/0.2 = 15. For wire B: n_B ∝ 5/0.1 = 50. Thus n_B > n_A. Wire B has higher carrier density. A student who picks wire A because \"higher drift speed means more charge\" confuses drift speed with current magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a circuit problem and writes: \"Current entering junction = 3 A, leaving = 2 A + 2 A = 4 A. Since 3 ≠ 4, Kirchhoff's junction rule is violated, so the problem is wrong.\" Evaluate this reasoning.",
+     "a": "The student's reasoning is flawed. Kirchhoff's junction rule is a law of nature (conservation of charge), not a condition that can be \"violated\" in a real circuit. If the numbers don't add up, the student's assumed current values or directions are incorrect, not the rule. The correct approach: assign unknown currents with arrows, apply junction rule to get equations, then solve. This error shows the student treats the rule as a check rather than a solving tool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, an ammeter, a variable resistor, and a stopwatch to verify that current is the rate of flow of charge. Describe the procedure, measurements, and how you would calculate charge from current readings.",
+     "a": "Procedure: (1) Connect battery, ammeter, and variable resistor in series. (2) Set resistor to a value, close switch, start stopwatch. (3) Record steady current I at regular intervals (e.g., every 10 s) for 1 minute. (4) Open switch. (5) Plot I vs t; if constant, area under graph = I × Δt = Q. (6) Repeat for different resistor values. A good answer includes: constant current assumption, area under I-t graph gives charge, unit consistency (A·s = C). A poor answer measures only one current value and multiplies by total time without verifying steadiness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

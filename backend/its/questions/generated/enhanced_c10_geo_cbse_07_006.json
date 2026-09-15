@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_006",
+   "title": "c10_geo_cbse_07_006",
+   "questions": [
+    {
+     "q": "Name the authority responsible for creating, upgrading, maintaining, and managing civil aviation infrastructure in India.",
+     "a": "Airports Authority of India (AAI). A wrong answer like \"Air India\" or \"Ministry of Civil Aviation\" reveals confusion between the infrastructure manager (AAI) and the airline operator (Air India) or the policy-making ministry.",
+     "self_check": true
+    },
+    {
+     "q": "Why is air transport considered a lifeline for the North-Eastern states of India? Explain using two geographical factors.",
+     "a": "The North-Eastern states have rugged mountainous terrain (Eastern Himalayas, Patkai hills) and dense forests with heavy rainfall, making road/rail construction extremely difficult and expensive; air transport bypasses these physical barriers, providing swift connectivity. A wrong answer focusing only on \"speed\" misses the geographical necessity — the terrain makes other modes impractical, not just slower.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to fly from Mumbai to Dubai. Identify the airport code for the departure airport and name the international airport in Dubai. (Hint: Use IATA codes.)",
+     "a": "Departure: Chhatrapati Shivaji Maharaj International Airport, Mumbai (BOM); Arrival: Dubai International Airport (DXB). A wrong code (e.g., BOM for Bangalore or confusing DXB with DWC) reveals inability to map major international gateways — a common map-based board question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Pawan Hans Helicopters Ltd. with that of scheduled airlines (like IndiGo, Air India) in India's air transport system.",
+     "a": "Pawan Hans provides helicopter services for offshore oil exploration (ONGC), inaccessible areas, and difficult terrains (e.g., North-East, J&K, islands) where fixed-wing aircraft cannot land; scheduled airlines operate fixed-wing aircraft on fixed routes between airports for mass passenger/cargo transport. A wrong answer treating them as identical misses the niche role of helicopters in last-mile connectivity for strategic/economic activities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The UDAN (Ude Desh ka Aam Nagrik) scheme has made air travel affordable for the common citizen in India.\" Provide two supporting arguments and one limitation.",
+     "a": "Supporting: (1) Caps fares at ₹2,500 per hour of flight on regional routes, (2) Viability Gap Funding (VGF) incentivizes airlines to operate on unserved/underserved routes. Limitation: Many regional airports lack adequate infrastructure (night landing, weather monitoring), and airline participation remains uneven, leaving some routes unserved. A wrong answer listing only benefits ignores critical infrastructure gaps — a typical evaluation trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map sketch for a Class 10 board answer showing: (a) four major international airports (one in each cardinal direction), (b) the headquarters of AAI, and (c) one UDAN route connecting a tier-2 city to a metro.",
+     "a": "A good sketch includes: (a) Delhi (North), Mumbai (West), Chennai (South), Kolkata (East) — labeled with airport names and IATA codes; (b) AAI HQ: Rajiv Gandhi Bhawan, New Delhi; (c) Example UDAN route: Shimla (tier-2) → Delhi (metro) with airline name. A poor sketch omits IATA codes, misplaces airports, or shows a non-UDAN route — losing marks for precision in map work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

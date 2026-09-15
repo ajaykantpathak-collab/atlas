@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_001",
+   "title": "c11_biotech_cbse_05_001",
+   "questions": [
+    {
+     "q": "A student draws the cell cycle as a circle with four equal quadrants labeled G1, S, G2, M. What is the **most significant scientific inaccuracy** in this representation regarding the relative duration of phases in a typical human somatic cell?",
+     "a": "The inaccuracy is depicting all phases as equal duration. In a typical 24-hour human somatic cell cycle, Interphase (G1+S+G2) occupies ~23 hours (G1 ~11h, S ~8h, G2 ~4h), while M phase lasts only ~1 hour. A wrong answer (e.g., \"the order is wrong\") reveals the student memorized labels but lacks quantitative intuition about the cell cycle as a predominantly preparatory process. This misconception leads to underestimating the time required for DNA repair and growth.",
+     "self_check": true
+    },
+    {
+     "q": "A cell in G1 phase detects significant DNA double-strand breaks. The p53 protein is activated and halts the cycle. Explain **why** this arrest occurs specifically at the G1/S transition (Restriction Point) rather than later in S or G2 phase, referencing the consequence of entering S phase with damaged DNA.",
+     "a": "The G1/S checkpoint (Restriction Point) is the **last chance to prevent replication of damaged DNA**. If the cell enters S phase with double-strand breaks, the replication machinery will convert those breaks into permanent mutations, chromosomal rearrangements, or replication fork collapse. Arrest in G1 allows time for repair *before* the template is copied. A wrong answer focusing only on \"p53 stops the cycle\" without explaining the *timing logic* (pre-replication vs. post-replication) reveals a misunderstanding of checkpoints as generic \"brakes\" rather than phase-specific quality gates.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a culture of human fibroblasts with a drug that **irreversibly inhibits DNA polymerase**. The cells are currently in early G1. Predict the **exact phase** where these cells will arrest, and justify your answer by naming the specific checkpoint involved and the molecular signal it detects.",
+     "a": "The cells will complete G1, enter S phase, initiate replication, but arrest **within S phase** (intra-S checkpoint) or at the **G2/M checkpoint**. They cannot complete DNA synthesis. The G2/M checkpoint detects **incomplete DNA replication** (via ATR/Chk1 signaling sensing single-stranded DNA/replication stress) and prevents entry into mitosis. A wrong answer saying \"G1/S checkpoint\" reveals the student thinks checkpoints only exist at phase boundaries, not monitoring ongoing processes. A wrong answer saying \"M phase\" reveals confusion between completing replication and segregating chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **G2/M checkpoint** and the **Spindle Assembly Checkpoint (SAC)**. Both prevent aneuploidy, but they monitor fundamentally different physical states. Create a 2x2 table contrasting: (1) What is monitored? (2) What is the \"Wait\" signal? (3) Key effector kinase? (4) Consequence of failure.",
+     "a": "| Feature | G2/M Checkpoint | Spindle Assembly Checkpoint (SAC) |\n| :--- | :--- | :--- |\n| **Monitored State** | DNA integrity & replication completion | Chromosome-microtubule attachment (kinetochore tension) |\n| **\"Wait\" Signal** | DNA damage / Unreplicated DNA (ATR/ATM → Chk1/Chk2) | Unattached kinetochores (Mad2/BubR1 → MCC) |\n| **Key Effector** | Inhibits Cyclin B-CDK1 (via Wee1/Myt1, Cdc25 inhibition) | Inhibits APC/C (via MCC binding Cdc20) |\n| **Failure Consequence** | Mitosis with broken/incomplete DNA → Chromosome shattering | Anaphase with misaligned chromosomes → Aneuploidy |\nA wrong answer conflating \"DNA damage\" for SAC reveals confusion between genome integrity (content) and segregation mechanics (distribution).",
+     "self_check": true
+    },
+    {
+     "q": "\"Checkpoints are fail-safe mechanisms that make the cell cycle error-proof.\" **Evaluate** this statement. Is it true, false, or conditionally true? Defend your position using the concepts of checkpoint adaptation, slippage, and the distinction between *repair* and *arrest*.",
+     "a": "**Conditionally true / False in absolute terms.** Checkpoints are **surveillance mechanisms**, not repair mechanisms. They *arrest* the cycle to *buy time* for repair. If damage is irreparable, cells may undergo **checkpoint adaptation** (override arrest despite damage) or **mitotic slippage** (exit mitosis without division), leading to genomic instability. Cancer cells often have defective checkpoints (e.g., p53 mutation disabling G1/S). A \"True\" answer reveals a dangerous misconception: that checkpoints *fix* errors. They only *detect* and *halt*. The repair machinery is separate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **hypothetical experiment** using fluorescence microscopy (e.g., FUCCI system: red fluorescent protein in G1, green in S/G2/M) to visually distinguish between a **quiescent (G0) cell** and a **G1-arrested cell** (e.g., due to contact inhibition) in a live culture. Describe the expected color dynamics over 48 hours for each.",
+     "a": "**FUCCI System Logic:** Cdt1 (Red) accumulates in G1; Geminin (Green) accumulates in S/G2/M.\n- **G0 Cell (Quiescent):** Remains **persistently Red** (high Cdt1, no Geminin) for 48h. No cell cycle progression. If stimulated (e.g., growth factors), it *may* transition to Green (S phase entry).\n- **G1-Arrested Cell (Contact Inhibition):** Also **persistently Red** initially. **Key difference:** Upon wounding (removing contact inhibition), the arrested cell rapidly transitions to **Green (S/G2/M)** within hours, proving it was *competent* but *actively suppressed*. The G0 cell may not respond or responds slower.\nA poor answer treats both as identical \"Red cells,\" missing that G0 is a *reversible withdrawal* from the cycle, while G1 arrest is an *active block within* the cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

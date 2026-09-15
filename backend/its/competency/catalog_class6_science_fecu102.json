@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Diversity in the Living World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.2.1",
+   "title": "Diversity in the Living World",
+   "section": "Introduction and nature walk",
+   "definition": "A single garden after rain shows dozens of different plants, insects and birds; the living world is richly diverse, and noticing this variety is the first lesson of biology.",
+   "formula": "",
+   "key_idea": "No two living things are exactly alike: diversity is the signature of life.",
+   "textbook_ref": "fecu102.txt, Introduction and nature walk",
+   "question_patterns": [
+    "what is diversity in the living world",
+    "how many different plants and animals can you find near your home",
+    "why do scientists record the variety of living things",
+    "what did the nature walk in the chapter reveal",
+    "why is diversity important for nature",
+    "name five plants and five animals of your region"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.2",
+   "title": "Grouping by Features",
+   "section": "Activities 2.3 and 2.4",
+   "definition": "To handle diversity we group living things by shared features, leaf shape, stem type, number of legs, wings or habitat; the chosen feature is the basis of the grouping, and a different basis gives different groups.",
+   "formula": "",
+   "key_idea": "Classification is a lens: pick a feature, and order appears in the variety.",
+   "textbook_ref": "fecu102.txt, Activities 2.3 and 2.4",
+   "question_patterns": [
+    "on what basis can we group plants",
+    "how do we group animals by their features",
+    "why do we classify living things",
+    "give one feature to group leaves",
+    "how can the same set of animals give different groups",
+    "what is the basis of your own grouping of classmates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.3",
+   "title": "Habitats of Plants and Animals",
+   "section": "Plants and animals in different habitats",
+   "definition": "Every living thing makes its home in a habitat, a pond, a desert, a forest or the sea, whose water, light and food suit its body; fish cannot live where cacti thrive, and each is fitted to its own place.",
+   "formula": "",
+   "key_idea": "Habitat decides who lives where: bodies are matched to the places that feed and shelter them.",
+   "textbook_ref": "fecu102.txt, Plants and animals in different habitats",
+   "question_patterns": [
+    "what is a habitat",
+    "name the plants of a desert habitat",
+    "how is a fish suited to its habitat",
+    "why can a cactus not survive in a pond",
+    "compare a forest habitat with a pond habitat",
+    "which animals share your own habitat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.2.4",
+   "title": "Comparing and Recording Observations",
+   "section": "Activities 2.5 to 2.10",
+   "definition": "Careful study means comparing, relating and analysing: measure and draw leaves, compare two birds, relate a beak to its food, and record everything in tables and drawings so patterns stand out.",
+   "formula": "",
+   "key_idea": "Records turn watching into science: compared and tabulated observations reveal what memory alone would miss.",
+   "textbook_ref": "fecu102.txt, Activities 2.5 to 2.10",
+   "question_patterns": [
+    "why should observations be recorded",
+    "how do you compare two plants systematically",
+    "what is a table of observations",
+    "how does a drawing help in studying nature",
+    "relate the beak of a bird to its food",
+    "what pattern did comparing leaves reveal in the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu102.txt",
+   "concept": "fecu.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "what varieties of plants and animals did dr raghu's garden show?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu102.txt",
+   "concept": "fecu.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "on which bases did the activities group the leaves and animals?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu102.txt, Let us enhance our learning",
+   "questions": [
+    "What varieties of plants and animals did Dr Raghu's garden show?",
+    "On which bases did the activities group the leaves and animals?",
+    "How do plants and animals of different habitats differ?",
+    "Go on a nature walk and record ten living things with one feature each.",
+    "Group your recorded things by a chosen basis and compare with a friend's groups."
+   ]
+  }
+ ]
+}

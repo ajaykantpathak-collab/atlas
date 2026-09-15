@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_002",
+   "title": "c10_eco_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define \"development goals beyond income\" in one sentence using the three core dimensions from the chapter.",
+     "a": "Development goals beyond income are the non-monetary aspirations — freedom (autonomy in choices), equality (fair access and treatment), and security (protection from vulnerabilities) — that determine the real quality of life. A wrong answer like \"goals like education and health\" reveals the student conflates specific services with the underlying dimensions; they miss that these services are *means* to achieve freedom/equality/security, not the goals themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Two neighbouring villages have identical average per capita income. Village A has a functioning primary health centre, panchayat elections with women's participation, and no reported caste violence. Village B has none of these. Explain why Village A is more developed despite equal income, using the three non-income goals.",
+     "a": "Village A achieves higher development because: (1) Health centre provides health security (security goal); (2) Women in panchayat reflects gender equality and political freedom (equality + freedom); (3) Absence of caste violence indicates social equality and security. A wrong answer focusing only on \"better facilities\" misses the *goals* — facilities are instruments; the goals are the freedoms and securities they enable. This confusion between means and ends is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A government scheme gives ₹6,000/year to each farming household. After two years, per capita income rose 8%, but survey data shows: (a) women's land ownership unchanged at 12%, (b) 40% households still migrate for work, (c) Dalit households report no reduction in discrimination. Evaluate whether this scheme achieved \"development\" using non-income goals.",
+     "a": "The scheme improved income (a means) but failed on all three non-income goals: (1) Equality — gender (land ownership) and caste (discrimination) gaps persist; (2) Security — migration indicates livelihood insecurity; (3) Freedom — no expansion of choices for marginalized groups. A wrong answer saying \"yes, income rose\" commits the income-reductionism error: treating income as synonymous with development. Board exams explicitly test this distinction in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"public facilities\" (Class 6: c6_economics_ch07_003) in achieving non-income goals versus the role of \"markets\" (Class 6: c6_economics_ch12_001). Why can markets alone not deliver freedom, equality, and security for all?",
+     "a": "Public facilities (schools, hospitals, water) are provided universally/equitably by the state, directly advancing equality (access for all), security (health/education as safety nets), and freedom (capabilities to choose). Markets allocate by purchasing power, excluding the poor — they cannot guarantee equality or security for those without income. A wrong answer claiming \"markets provide choices, so they give freedom\" ignores that market choices require money; the freedom to choose healthcare is meaningless if you cannot pay. This is a core Class 10 conceptual leap from Class 6.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"If we ensure high per capita income growth, freedom, equality, and security will automatically follow.\" Use the concept of \"capability deprivation\" (Amartya Sen) and an Indian example.",
+     "a": "The statement is false. High income growth does not automatically translate to capabilities: Gujarat (high income) has lower child nutrition than Kerala (lower income) due to unequal public provisioning. Capability deprivation — being unable to do/be what you value (e.g., live without discrimination, participate in decisions) — persists despite income if social structures (caste, patriarchy) and state failures (poor public health) block conversion of income into freedoms. A wrong answer agreeing with the statement reflects the \"trickle-down\" fallacy explicitly rejected in the NCERT chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator \"Non-Income Development Index\" for your district. For each indicator, specify: (a) the goal it measures (freedom/equality/security), (b) data source, (c) why income data cannot capture it.",
+     "a": "Example: (1) % women in local governance — Equality — Election Commission data — Income doesn't reveal political voice. (2) % households with piped water — Security — Jal Jeevan Mission data — Rich households buy tankers; poor cannot, but income averages hide this. (3) % youth enrolled in vocational/college — Freedom — UDISE+ data — Income doesn't show if choices are expanding or if youth are trapped in distress work. A poor answer lists generic indicators (literacy rate) without linking each to a specific goal or explaining the income-blindness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

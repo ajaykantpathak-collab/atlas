@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs112",
+ "concepts": [
+  {
+   "id": "lecs112.1",
+   "title": "Scale of a Ransomware Outbreak",
+   "questions": [
+    {
+     "q": "Using the method 'Scale of a Ransomware Outbreak', work with: countries = 20, infected = 100. Carry the chain through step by step and give the final value of per_country.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Scale of a Ransomware Outbreak' and work with: countries = 20, infected = 100. Carry the chain through step by step and give the final value of per_country.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Scale of a Ransomware Outbreak' refers to.",
+     "a": "Ransomware locks victims out of their data, often by encrypting it, and demands payment; the WannaCry outbreak of May 2017 hit about 200,000 machines across 150 countries, and dividing the infections by the countries shows the average scale per country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scale of a Ransomware Outbreak'.",
+     "a": "WannaCry demanded its ransom in Bitcoin, which made the payments hard to trace.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Scale of a Ransomware Outbreak', in plain ASCII form.",
+     "a": "per_country = infected / countries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.2",
+   "title": "Pay-per-Click Earnings of Adware",
+   "questions": [
+    {
+     "q": "Using the method 'Pay-per-Click Earnings of Adware', work with: campaigns = 30, clicks = 45, rate_per_click = 20. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "27000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pay-per-Click Earnings of Adware' and work with: campaigns = 75, clicks = 360, rate_per_click = 12. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "324000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pay-per-Click Earnings of Adware' refers to.",
+     "a": "Adware floods a user's screen with pop-ups and web advertisements; once installed on many machines it earns money from advertisers either per display or through the pay-per-click model, charging clients for every click on the shown ads.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pay-per-Click Earnings of Adware'.",
+     "a": "Adware is usually annoying rather than harmful, but its unsafe links often open the door to worse malware.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pay-per-Click Earnings of Adware', in plain ASCII form.",
+     "a": "total_revenue = campaigns * clicks * rate_per_click",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.3",
+   "title": "Malware: Virus, Worm, Trojan and Spyware",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Malware: Virus, Worm, Trojan and Spyware' refers to.",
+     "a": "Malware is any software built to damage systems or steal data: a virus hides inside host programs and needs a user to run them, a worm spreads on its own over networks, a trojan disguises itself as legitimate software, spyware silently reports on the user, and a keylogger records every keystroke.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Malware: Virus, Worm, Trojan and Spyware'.",
+     "a": "A keylogger's logs can leak passwords, which is why an online virtual keyboard that shuffles its key layout defeats it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Malware: Virus, Worm, Trojan and Spyware', in plain ASCII form.",
+     "a": "virus needs a host; worm spreads alone; trojan needs a tricked user",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.4",
+   "title": "Methods Antivirus Uses to Identify Malware",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Methods Antivirus Uses to Identify Malware' refers to.",
+     "a": "Modern antivirus spots malware in several ways: matching bytes against a continuously updated Virus Definition File, running suspect files in a sandbox, classifying behaviour with data mining, comparing code patterns through heuristics, and watching running programs in real time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Methods Antivirus Uses to Identify Malware'.",
+     "a": "Signature matching fails against polymorphic or encrypted malware, which is why behaviour-based methods exist.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Methods Antivirus Uses to Identify Malware', in plain ASCII form.",
+     "a": "outdated VDF -> new malware passes undetected",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.5",
+   "title": "HTTP versus HTTPS",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'HTTP versus HTTPS' refers to.",
+     "a": "HTTP transmits data as it is, unscrambled and open to interception, while its secure variant HTTPS encrypts data before sending and decrypts at the receiver, requiring an SSL digital certificate for the website.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'HTTP versus HTTPS'.",
+     "a": "Always check for https:// in the address bar before entering banking or personal details.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'HTTP versus HTTPS', in plain ASCII form.",
+     "a": "http -> plain text; https -> encrypted with SSL certificate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.6",
+   "title": "Firewall between Trusted and Untrusted Networks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Firewall between Trusted and Untrusted Networks' refers to.",
+     "a": "A firewall is a security system, in software, hardware or both, that filters incoming and outgoing traffic between a trusted private network and an untrusted outside one according to predefined rules; it sits between networks as a network firewall or on a single machine as a host-based firewall.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Firewall between Trusted and Untrusted Networks'.",
+     "a": "A school firewall rule can let the accountant reach the finance server while blocking students from it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Firewall between Trusted and Untrusted Networks', in plain ASCII form.",
+     "a": "traffic -> rules -> allow or block",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.7",
+   "title": "Cookies Stored by Websites",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cookies Stored by Websites' refers to.",
+     "a": "A cookie is a small file a website plants on the client's computer to remember shopping carts, login state, language choice or form auto-fill details; session cookies end with a time-out, authentication cookies recognise returning users, and zombie or supercookies raise privacy concerns.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cookies Stored by Websites'.",
+     "a": "Only the website that created a cookie may edit it, but third-party cookies can still track users across sites.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cookies Stored by Websites', in plain ASCII form.",
+     "a": "cookie = website-created file on the client machine",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs112.8",
+   "title": "Denial of Service Attacks and Hacker Hats",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Denial of Service Attacks and Hacker Hats' refers to.",
+     "a": "Attackers by intent wear different hats: white hats fix flaws, black hats or crackers exploit them for gain, and grey hats hack for thrill; their tools include Denial of Service, which floods a resource with traffic, its distributed form DDoS driven by botnets of zombie machines, plus snooping that copies traffic and real-time eavesdropping on private channels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Denial of Service Attacks and Hacker Hats'.",
+     "a": "Blocking one address stops a simple DoS flood, but a DDoS arriving from zombies worldwide has no single source to block.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Denial of Service Attacks and Hacker Hats', in plain ASCII form.",
+     "a": "DoS from one source; DDoS from many zombies",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

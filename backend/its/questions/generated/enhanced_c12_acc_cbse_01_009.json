@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_009",
+   "title": "c12_acc_cbse_01_009",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a guarantee of profit given by the firm and a guarantee given by one or more partners individually?",
+     "a": "A firm guarantee means the deficiency is borne by all partners (including the guaranteed partner) in their profit-sharing ratio, effectively reducing the total distributable profit. A partner guarantee means only the guaranteeing partners bear the deficiency in their agreed ratio (usually their profit-sharing ratio), and the guaranteed partner's share remains protected at the guaranteed amount. A wrong answer (e.g., \"both are the same\") reveals the student does not distinguish the incidence of burden — a critical error in journal entries and final capital account balances.",
+     "self_check": true
+    },
+    {
+     "q": "A, B, and C are partners sharing profits 3:2:1. They admit D with 1/6 share guaranteed at ₹60,000 by A and B in 3:2 ratio. Firm earns ₹2,40,000 profit. D's actual share = ₹40,000. Deficiency = ₹20,000. How much deficiency will A and B bear? If a student says A bears ₹12,000 and B bears ₹8,000, is that correct? Explain why or why not.",
+     "a": "Yes, correct. Deficiency ₹20,000 distributed between A and B in 3:2 ratio → A: 3/5 × 20,000 = ₹12,000; B: 2/5 × 20,000 = ₹8,000. A wrong answer (e.g., A ₹10,000, B ₹10,000) reveals the student used equal ratio or old profit-sharing ratio (3:2:1) instead of the guarantee ratio (3:2) — a common error when the guarantee ratio differs from profit-sharing ratio.",
+     "self_check": true
+    },
+    {
+     "q": "X, Y, Z share profits 5:3:2. Z is guaranteed ₹50,000 by the firm. Profit = ₹1,50,000. Z's share = 2/10 × 1,50,000 = ₹30,000. Deficiency = ₹20,000. Pass the journal entry for adjusting the deficiency. Show the complete entry with narration.",
+     "a": "Profit and Loss Appropriation A/c Dr. 20,000  \n  To Z's Capital A/c 20,000  \n(Deficiency of guaranteed profit borne by firm, credited to Z's capital)  \nA wrong entry (e.g., debiting X and Y's capital directly) reveals the student thinks the firm guarantee is borne by partners individually — but firm guarantee means the appropriation account absorbs it first, reducing total profit for all partners including Z. The deficiency is not charged to specific partners' capitals.",
+     "self_check": true
+    },
+    {
+     "q": "P and Q share profits 2:1. They admit R with 1/4 share guaranteed at ₹80,000 by P alone. Profit = ₹2,00,000. R's actual share = 1/4 × 2,00,000 = ₹50,000. Deficiency = ₹30,000. P bears full ₹30,000. After adjustment, what is P's final profit share? Show calculation. If a student says P's final share = ₹1,00,000, what is the error?",
+     "a": "P's original share = 2/3 × 2,00,000 = ₹1,33,333. Minus deficiency borne ₹30,000 = ₹1,03,333 (final). Student saying ₹1,00,000 likely computed P's share as 2/3 of (2,00,000 - 80,000) = 2/3 × 1,20,000 = ₹80,000 — wrong because guarantee by one partner does not reduce total profit before distribution; it's an appropriation adjustment after initial distribution. The error reveals misunderstanding of sequence: first distribute full profit, then adjust deficiency from guaranteeing partner's share.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"When a partner is guaranteed a minimum profit, the firm's total profit decreases by the amount of deficiency.\" Is it true or false? Justify with reference to firm guarantee vs. partner guarantee.",
+     "a": "False. Total profit (net profit from P&L) does not change — it is an appropriation decision. In firm guarantee, the deficiency reduces the amount available for distribution to all partners (including guaranteed partner) but profit figure remains same. In partner guarantee, total distributed profit remains same; only the sharing between partners changes. The statement confuses accounting profit with profit distribution. A student agreeing reveals confusion between Profit and Loss Account (determines profit) and Profit and Loss Appropriation Account (distributes profit).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: Three partners A, B, C share profits 4:3:2. They admit D with 1/5 share guaranteed at ₹1,00,000 by A and C in ratio 2:1. Firm profit = ₹4,50,000. Write the full problem statement with all data needed, then solve it completely showing: (i) D's actual share, (ii) deficiency, (iii) distribution of deficiency, (iv) final profit shares of all four partners, (v) journal entry for deficiency adjustment.",
+     "a": "Problem: A, B, C share 4:3:2. D admitted 1/5 guaranteed ₹1,00,000 by A and C 2:1. Profit ₹4,50,000.  \nSolution:  \nD's actual = 1/5 × 4,50,000 = ₹90,000. Deficiency = ₹10,000.  \nA bears 2/3 × 10,000 = ₹6,667; C bears 1/3 × 10,000 = ₹3,333.  \nOriginal shares: A = 4/9 × 4,50,000 = ₹2,00,000; B = 3/9 × 4,50,000 = ₹1,50,000; C = 2/9 × 4,50,000 = ₹1,00,000; D = ₹90,000.  \nAfter adjustment: A = 2,00,000 - 6,667 = ₹1,93,333; B = ₹1,50,000; C = 1,00,000 - 3,333 = ₹96,667; D = 90,000 + 10,000 = ₹1,00,000.  \nJournal:  \nA's Capital A/c Dr. 6,667  \nC's Capital A/c Dr. 3,333  \n  To D's Capital A/c 10,000  \n(Deficiency borne by A and C in 2:1)  \nA poor answer (missing steps, wrong ratio, no journal) reveals inability to synthesize the full adjustment process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

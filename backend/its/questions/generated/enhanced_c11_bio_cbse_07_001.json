@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_001",
+   "title": "c11_bio_cbse_07_001",
+   "questions": [
+    {
+     "q": "A student examines a tissue slide and sees a single layer of flat, scale-like cells with disc-shaped nuclei. What is the specific epithelial type, and name one location in the human body where it is found.",
+     "a": "Simple squamous epithelium; found in the alveolar walls of lungs (for gas diffusion), endothelium lining blood vessels, and mesothelium of serous cavities (pericardium, pleura, peritoneum). A wrong answer (e.g., \"stratified squamous\" or \"simple cuboidal\") reveals the student cannot distinguish cell shape (flat vs. cube vs. column) or layer number (single vs. multiple) — the two fundamental classification criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the epithelium lining the proximal convoluted tubule (PCT) of the nephron possess a dense brush border of microvilli, whereas the glomerular endothelium has large fenestrations? Explain the functional reason for this structural difference.",
+     "a": "PCT epithelium needs maximal apical surface area for reabsorption of filtrate (glucose, amino acids, ions, water) — microvilli amplify area ~30-fold. Glomerular endothelium requires high permeability for bulk filtration of plasma — fenestrations (pores ~70 nm) allow water and solutes to pass while retaining blood cells and large proteins. A wrong answer (e.g., \"both are for absorption\") shows the student memorises structures but cannot link apical modifications to the specific transport direction (reabsorption vs. filtration) and driving forces (active transport vs. hydrostatic pressure).",
+     "self_check": true
+    },
+    {
+     "q": "A patient suffers from a genetic defect causing non-functional claudin proteins in tight junctions of the intestinal epithelium. Predict the physiological consequence and explain the mechanism.",
+     "a": "Paracellular leak of ions, water, and even bacteria/luminal antigens into the interstitial space — leading to diarrhoea (uncontrolled water loss), electrolyte imbalance, and potential inflammation. Claudins are the sealing strands of tight junctions; their loss destroys the \"gate\" function, converting a tight epithelium (high transepithelial electrical resistance) into a leaky one. A wrong answer (e.g., \"cells fall apart\") confuses tight junctions (seal paracellular space) with desmosomes/adherens junctions (mechanical adhesion between cells).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the epithelial lining of the oesophagus and the stomach. How does each structure suit its function?",
+     "a": "Oesophagus: stratified squamous non-keratinised epithelium — multiple layers protect against mechanical abrasion from food bolus; surface cells are sloughed and replaced rapidly. Stomach: simple columnar epithelium with gastric pits (invaginations) lined by mucus-secreting surface mucous cells — single layer allows rapid secretion of HCl/enzymes and mucus; tight junctions prevent acid back-diffusion; surface cells replaced every 3–5 days. A wrong answer (e.g., \"both are stratified\") misses that stomach needs a secretory surface (simple) while oesophagus needs a wear-resistant surface (stratified).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Pseudostratified columnar epithelium is functionally equivalent to stratified epithelium because both have multiple cell layers.\" Evaluate this statement.",
+     "a": "The claim is FALSE. Pseudostratified epithelium is a single layer — every cell contacts the basement membrane, but not all reach the free surface (nuclei at different levels create illusion of stratification). It functions in secretion and mucociliary clearance (trachea), not mechanical protection. Stratified epithelium has true multiple layers; only basal layer divides, superficial layers provide barrier function. The statement confuses nuclear arrangement (histological appearance) with developmental/functional layering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple histological test to distinguish between simple cuboidal epithelium of kidney tubules and simple columnar epithelium of intestinal mucosa using only light microscopy and standard stains (H&E).",
+     "a": "Measure nuclear height-to-width ratio and cell height in multiple fields: cuboidal cells have height ≈ width (nuclei round, central); columnar cells have height ≥ 2× width (nuclei elongated, basal). Additionally, look for apical brush border (microvilli) — prominent in intestinal columnar epithelium (PCT also has it, but cell height distinguishes). A poor answer (e.g., \"just look at shape\") lacks quantitative criteria and ignores that sectioning angle can distort apparent shape; systematic measurement is required.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_001",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_001",
+   "title": "c7_geo_ch04_001",
+   "questions": [
+    {
+     "q": "What primary economic sector does agriculture belong to in India, and what percentage of the population does it traditionally engage?",
+     "a": "Agriculture belongs to the primary sector and engages over half of India's population. A wrong answer usually confuses primary activities with manufacturing (secondary) or services (tertiary), showing a weak grasp of basic economic geography.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Indian agriculture often described as a \"gamble with the monsoon\" rather than a fully predictable industrial process?",
+     "a": "Indian farming relies heavily on seasonal monsoon rainfall, which can vary greatly in timing and volume from year to year, unlike controlled factory processes. A wrong answer assumes that all Indian farms have advanced artificial irrigation systems, ignoring that many regions still depend entirely on seasonal rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the proportion of agricultural land use if a state has a total geographical area of 200,000 square kilometers, and 120,000 square kilometers of that area is under active cultivation.",
+     "a": "Step 1: Identify total geographical area (200,000 sq km). Step 2: Identify cultivated area (120,000 sq km). Step 3: Divide cultivated area by total area (120,000 / 200,000 = 0.6). Step 4: Multiply by 100 to find the percentage (0.6 * 100 = 60%). The proportion is 60%. A wrong answer often divides the wrong way around or makes calculation errors, showing poor spatial data interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the flat terrain of the Northern Plains versus the rugged terrain of the Peninsular Plateau influences the characteristics of agricultural practices in those regions.",
+     "a": "The Northern Plains feature deep, fertile alluvial soils and flat land that allow for large-scale mechanized farming and extensive canal irrigation. In contrast, the Peninsular Plateau features uneven terrain, rocky patches, and relies heavily on tank irrigation or seasonal rainfall, resulting in smaller, scattered farming plots. A wrong answer treats all Indian landforms as identical, ignoring how relief and soil type dictate farming methods.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because India has modern tractors and chemical fertilizers, the traditional dependence on seasonal climate patterns is completely eliminated.\" Is this true or false?",
+     "a": "This statement is false. While modern technology helps improve yields and provides supplemental water through tube wells, agriculture still fundamentally depends on water replenishment from monsoons and groundwater tables, which are governed by climate. A wrong answer overestimates human technology while ignoring that groundwater recharge and overall hydrological cycles rely on natural precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short profile for an idealized Indian farm that highlights both a physical advantage (like soil or water) and a human characteristic (like family labor or market access) that makes it successful.",
+     "a": "An acceptable profile includes a specific physical feature (e.g., located in the fertile Ganga basin with silt-rich soil) paired with a human factor (e.g., intensive family labor and proximity to a local market town for selling grain). A poor answer lists random traits without connecting physical environment to human effort, showing a lack of integrated geographical thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

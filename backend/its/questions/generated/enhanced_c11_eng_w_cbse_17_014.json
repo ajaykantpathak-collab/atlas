@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_17_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_17_014",
+   "title": "c11_eng_w_cbse_17_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for poetry?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorised a mnemonic without understanding its function: Point = topic sentence answering the question; Evidence = embedded quote; Explanation = analysis of language/device; Link = connection to theme/question. Without this precision, answers become descriptive summaries rather than analytical arguments.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In 'Refugee Blues', Auden uses the line 'two tickets to Happiness' to show they want to be happy.\" Identify the specific weakness in this response relative to board exam expectations.",
+     "a": "The response states the obvious without analysing the irony: \"Happiness\" is capitalised as a destination, yet \"every coach was full\" — the metaphor exposes systemic exclusion. The student misses the device (metaphor/irony), the contrast between desire and reality, and the link to statelessness. Board examiners award marks for analysing *how* language creates meaning, not for paraphrasing plot.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a PEEL-structured paragraph: \"The poem shows refugees have no home. The consul says if you have no passport you're dead. But they are alive. This is irony.\" (Use the exact lines: consul's dialogue and \"we are still alive, my dear\".)",
+     "a": "**Point:** Auden employs situational irony to expose the absurdity of bureaucratic power over human existence. **Evidence:** The consul declares, \"If you've got no passport you're officially dead,\" yet the speaker asserts, \"But we are still alive, my dear.\" **Explanation:** The consul's performative authority reduces legal identity to a document, while the refrain \"my dear\" reclaims biological and emotional reality — life persists despite administrative erasure. **Link:** This irony underscores the poem's central conflict: state machinery declares non-existence, but human connection affirms it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how displacement is presented in \"Refugee Blues\" (poem) and \"The Last Lesson\" (prose, Class 12 Flamingo). Identify one structural difference and one thematic similarity in your comparison.",
+     "a": "**Structural difference:** \"Refugee Blues\" uses a ballad refrain (\"my dear\") and twelve three-line stanzas to create a musical, cumulative lament; \"The Last Lesson\" uses first-person narrative prose with chronological scenes to build a moment of epiphany. **Thematic similarity:** Both depict displacement as the loss of language and identity imposed by political power — Auden's refugees lose legal belonging; Hamel's students lose their mother tongue. A strong answer would embed \"the birds in the trees / They had no politicians and sang at their ease\" and \"Vive la France!\" as evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The colour 'blue' in the title only refers to sadness.\" Defend or refute using evidence from the poem and the \"Try This Out\" question on colours.",
+     "a": "Refute. \"Blue\" operates on three levels: (1) musical form — the blues tradition of African American lament, structuring the poem's rhythm; (2) political — \"German Jews\" targeted by Nazi ideology; (3) emotional — the \"falling snow\" and \"thunder rumbling\" create a cold, bruised palette. The \"Try This Out\" question explicitly asks for \"other colours and the emotions they carry,\" signalling that 'blue' is a deliberate symbolic choice, not a single-emotion label. A board answer must unpack this multiplicity.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word response to: \"How does the reference to the yew tree in stanza 3 deepen the poem's theme of statelessness?\" Use PEEL and embed one quote.",
+     "a": "**Point:** The yew tree symbolises rootedness and renewal denied to refugees. **Evidence:** \"In the village churchyard there grows an old yew, / Every spring it blossoms anew: / Old passports can't do that, my dear.\" **Explanation:** The yew's cyclical rebirth contrasts with the passport's finality — a document cannot regenerate like nature. The churchyard setting implies ancestral belonging; the refugees have no such ground. **Link:** This natural permanence highlights the artificial, fragile construct of legal identity that strips them of home.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_011",
+   "title": "c11_phy_cbse_07_011",
+   "questions": [
+    {
+     "q": "What is the orbital velocity of a satellite in a circular orbit just above Earth's surface (h ≈ 0)? Express in terms of g and R_E, and give the numerical value using g = 9.8 m/s², R_E = 6400 km.",
+     "a": "v₀ = √(gR_E) = √(9.8 × 6.4×10⁶) ≈ 7920 m/s ≈ 7.92 km/s. A wrong answer like v = √(2gR_E) reveals confusion with escape velocity; v = gR_E reveals dimensional inconsistency (m²/s² vs m/s); forgetting to convert km to m reveals unit negligence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we double the altitude of a satellite, its orbital velocity becomes half.\" Is this correct? Explain why or why not using the formula v = √(GM_E/(R_E+h)).",
+     "a": "Incorrect. Velocity varies as 1/√r, not 1/r. Doubling altitude means r changes from R_E to R_E+2h, not 2R_E. Even if h=0, doubling r gives v_new = v₀/√2 ≈ 0.707v₀, not v₀/2. A student saying \"yes\" confuses inverse proportionality with inverse square root proportionality and ignores that altitude is added to R_E, not multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the orbital period of a satellite at height h = 400 km above Earth's surface. Given: G = 6.67×10⁻¹¹ N·m²/kg², M_E = 6.0×10²⁴ kg, R_E = 6400 km. Show all unit conversions.",
+     "a": "r = 6400 + 400 = 6800 km = 6.8×10⁶ m. T = 2π√(r³/GM_E) = 2π√((6.8×10⁶)³/(6.67×10⁻¹¹ × 6.0×10²⁴)) = 2π√(3.14×10²⁰/4.0×10¹⁴) = 2π√(7.85×10⁵) = 2π × 886 ≈ 5567 s ≈ 92.8 minutes. Wrong answer 5567 s without converting to minutes shows incomplete interpretation; using h instead of r shows misunderstanding of orbital radius.",
+     "self_check": true
+    },
+    {
+     "q": "Two satellites A and B orbit Earth in circular orbits. Satellite A is at altitude h_A = 200 km, satellite B at h_B = 800 km. Compare their orbital velocities and periods. Which satellite has greater angular momentum per unit mass (L/m = vr)? Justify without calculating exact values.",
+     "a": "v_A > v_B because v ∝ 1/√r and r_A < r_B. T_A < T_B because T ∝ r^(3/2). Angular momentum per unit mass L/m = vr = √(GM_E r), so L/m increases with r. Thus satellite B has greater L/m despite lower speed. A student claiming A has greater L/m because it's faster ignores that r is larger for B and L/m ∝ √r.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed solution states: \"For a satellite at height h, T = 2π√((R_E+h)/g) because g' = g(R_E/(R_E+h))² and T = 2π√(r/g').\" Identify the error and give the correct expression.",
+     "a": "The error: using g' (gravity at altitude) in T = 2π√(r/g') is dimensionally correct but physically wrong — this formula is for a simple pendulum, not orbital motion. Correct: T = 2π√(r³/GM_E) = 2π√(r²/g') = 2π√((R_E+h)³/GM_E). The student confused the centripetal acceleration v²/r = g' with the pendulum formula. Correct derivation: g' = GM_E/r², v = √(g'r), T = 2πr/v = 2π√(r/g') — wait, this actually gives the same result! Let me recheck: v²/r = GM_E/r² = g', so v = √(g'r), T = 2πr/√(g'r) = 2π√(r/g'). So T = 2π√(r/g') IS correct! The error is in the student's expression: they wrote T = 2π√((R_E+h)/g) using surface g, not g'. The correct form with g is T = 2π√((R_E+h)³/(gR_E²)). A student missing the cube and R_E² reveals algebraic manipulation error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine Earth's mass M_E using only measurements of a satellite's orbital period T and orbital radius r (measured from Earth's centre). Explain the steps and the formula you would use.",
+     "a": "Measure T (e.g., by timing successive passes overhead) and r (e.g., by radar ranging). Use Kepler's third law derived from Newton's gravitation: T² = 4π²r³/(GM_E). Rearrange: M_E = 4π²r³/(GT²). This is how Cavendish \"weighed the Earth\" using the Moon's orbit. A poor answer uses g = GM_E/R_E² (requires knowing g and R_E separately) or suggests measuring force directly (impossible for distant satellite).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

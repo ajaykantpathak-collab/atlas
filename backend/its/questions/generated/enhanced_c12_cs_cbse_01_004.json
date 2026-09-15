@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_004",
+   "title": "c12_cs_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three categories of guided transmission media covered in the CBSE Class 12 syllabus and state one distinguishing physical feature of each.",
+     "a": "The three are Twisted Pair (pairs of insulated copper wires twisted together), Coaxial Cable (central conductor, dielectric insulator, braided metal shield, outer jacket), and Optical Fiber (glass/plastic core, cladding, buffer coating). A wrong answer that lists \"Radio waves\" or \"Microwave\" reveals confusion between guided and unguided media; missing the twist in twisted pair or the shield in coaxial shows lack of structural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why twisting the two wires in a twisted‑pair cable reduces electromagnetic interference (EMI) from external sources.",
+     "a": "Twisting makes both wires experience nearly identical external electromagnetic fields, so the induced noise voltages are equal in magnitude and phase; the receiver takes the differential voltage (difference between the two wires), which cancels the common‑mode noise. If a student says \"twisting blocks the noise\" or \"the insulation stops interference\", they misunderstand the common‑mode rejection principle and think the twist acts as a physical barrier rather than a symmetry technique.",
+     "self_check": true
+    },
+    {
+     "q": "A school lab needs a 150 m backbone link between two switches. The budget allows either Cat 6 UTP (100 m max segment) or Multi‑mode fiber (550 m at 1 Gbps). Which medium should they choose and why? Show the decision steps.",
+     "a": "Step 1: Note required distance = 150 m. Step 2: Cat 6 UTP maximum segment length = 100 m (per TIA/EIA‑568). Step 3: Multi‑mode fiber (OM3/OM4) supports 550 m at 1 Gbps. Step 4: Since 150 m > 100 m, UTP cannot guarantee error‑free operation without a repeater/switch mid‑span. Step 5: Fiber meets distance and bandwidth; choose Multi‑mode fiber. A wrong choice of UTP ignoring the 100 m limit shows inability to apply specification tables to real constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Single‑Mode Fiber (SMF) and Multi‑Mode Fiber (MMF) on core diameter, light source, modal dispersion, and typical maximum reach at 10 Gbps.",
+     "a": "SMF: core ≈ 9 µm, laser source, no modal dispersion (single path), reach up to 40 km (OS2). MMF: core 50/62.5 µm, LED/VCSEL, significant modal dispersion (multiple paths), reach 300‑550 m (OM3/OM4) at 10 Gbps. An answer that swaps core sizes or claims MMF has longer reach confuses the dispersion‑limited bandwidth‑distance product of MMF with the attenuation‑limited reach of SMF.",
+     "self_check": true
+    },
+    {
+     "q": "A network engineer claims: \"Coaxial cable is obsolete; we should always use fiber because it has infinite bandwidth.\" Evaluate this statement with two technical arguments.",
+     "a": "Argument 1: Coaxial (especially RG‑6) is still the standard for cable TV (DOCSIS 3.1 delivers 10 Gbps downstream over existing coax) and many CCTV installations; replacing it end‑to‑end with fiber is often cost‑prohibitive for last‑mile. Argument 2: Fiber bandwidth is not infinite — it is limited by chromatic dispersion, polarization mode dispersion, and nonlinear effects; practical single‑mode fiber systems operate in the C‑band (≈4.5 THz) with finite spectral efficiency. A student who agrees entirely misses the economic and physical‑layer nuances that keep coax relevant in specific niches.",
+     "self_check": true
+    },
+    {
+     "q": "Design a guided‑media selection guide (flowchart or decision table) for a network installer choosing between UTP, Coaxial, and Fiber for a new installation. Include at least four decision criteria.",
+     "a": "A good guide uses criteria: (1) Required distance (≤100 m → UTP; ≤500 m → MMF; >500 m → SMF); (2) Bandwidth need (≤10 Gbps short → UTP; >10 Gbps or future‑proof → Fiber); (3) EMI environment (high EMI → Fiber or STP); (4) Budget/installer skill (low budget/existing coax plant → Coax/RG‑6; fiber needs fusion splicer). A poor guide omits distance limits or treats fiber as always superior regardless of cost/termination complexity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

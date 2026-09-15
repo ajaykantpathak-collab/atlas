@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_009",
+   "title": "c10_math_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the Division Algorithm for polynomials and write the condition on the remainder \\(r(x)\\).",
+     "a": "**Answer:** For polynomials \\(p(x)\\) and \\(g(x)\\) with \\(g(x) \\neq 0\\), there exist unique polynomials \\(q(x)\\) and \\(r(x)\\) such that \\(p(x) = g(x)q(x) + r(x)\\), where either \\(r(x) = 0\\) or \\(\\deg(r(x)) < \\deg(g(x))\\).  \n**Misconception revealed:** If a student writes \\(\\deg(r) \\le \\deg(g)\\) or forgets the condition entirely, they do not understand the strict degree requirement that makes the quotient and remainder unique. This leads to incorrect division stopping points in later steps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, if \\(\\alpha\\) is a zero of \\(p(x)\\), then dividing \\(p(x)\\) by \\((x-\\alpha)\\) must give a remainder of zero. Connect this to the Factor Theorem.",
+     "a": "**Answer:** By the Division Algorithm, \\(p(x) = (x-\\alpha)q(x) + r\\), where \\(r\\) is a constant (since divisor is linear). Substituting \\(x = \\alpha\\) gives \\(p(\\alpha) = 0 \\cdot q(\\alpha) + r = r\\). Since \\(\\alpha\\) is a zero, \\(p(\\alpha)=0\\), so \\(r=0\\). Hence the remainder is zero.  \n**Misconception revealed:** A student who says \"because \\((x-\\alpha)\\) is a factor\" is circular — they are using the Factor Theorem without proving why the remainder vanishes. The correct reasoning uses the Division Algorithm to *prove* the Factor Theorem. Confusing the two indicates a lack of understanding of the logical dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Find all zeros of \\(p(x) = x^3 - 6x^2 + 11x - 6\\) given that \\(x=1\\) is a zero.",
+     "a": "**Answer with steps:**  \n1. Known zero: \\(\\alpha = 1\\) → divisor: \\(x-1\\).  \n2. Divide \\(p(x)\\) by \\(x-1\\) using long division:  \n   \\[\n   \\begin{array}{r|l}\n   x-1 & x^3 - 6x^2 + 11x - 6 \\\\\n   \\hline\n   & x^2 - 5x + 6 \\\\\n   & x^3 - x^2 \\\\\n   \\hline\n   & -5x^2 + 11x \\\\\n   & -5x^2 + 5x \\\\\n   \\hline\n   & 6x - 6 \\\\\n   & 6x - 6 \\\\\n   \\hline\n   & 0\n   \\end{array}\n   \\]  \n   Quotient: \\(q(x) = x^2 - 5x + 6\\).  \n3. Factorise \\(q(x)\\): \\(x^2 - 5x + 6 = (x-2)(x-3)\\).  \n4. Zeros: \\(x = 1, 2, 3\\).  \n**Misconception revealed:** If a student writes the quotient as \\(x^2 - 5x + 6\\) but then solves \\(x^2 - 5x + 6 = 0\\) incorrectly (e.g., \\(x = -2, -3\\)), they have a sign error in factorisation. If they forget to include the original zero \\(1\\), they miss the complete set. Both are common board-exam errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Division Algorithm method with the method of factorising by grouping for the polynomial \\(p(x) = x^3 - 3x^2 - 4x + 12\\). When is each method preferable?",
+     "a": "**Answer:**  \n- Division Algorithm: Requires a known zero (e.g., \\(x=2\\) by trial). Divide by \\((x-2)\\) to get \\(x^2 - x - 6 = (x-3)(x+2)\\). Zeros: \\(2, 3, -2\\). Systematic, works even when grouping is not obvious.  \n- Grouping: \\(x^2(x-3) -4(x-3) = (x-3)(x^2-4) = (x-3)(x-2)(x+2)\\). Faster if the polynomial groups neatly.  \n**Prefer Division Algorithm** when no obvious grouping exists or when a zero is given in the question (common in board exams). Prefer grouping for simple 4-term polynomials with a common binomial factor.  \n**Misconception revealed:** A student who says \"grouping is always easier\" fails to recognise that many cubic polynomials in board exams do not group nicely and a zero is often provided to force the division method.",
+     "self_check": true
+    },
+    {
+     "q": "A student divides \\(p(x) = 2x^3 - 5x^2 - 4x + 3\\) by \\((x-3)\\) and gets quotient \\(2x^2 + x - 1\\) with remainder \\(0\\). They claim the zeros are \\(3, 1, -\\frac{1}{2}\\). Evaluate whether this is correct. If not, identify the error.",
+     "a": "**Answer:** The division is correct: \\((x-3)(2x^2 + x - 1) = 2x^3 - 5x^2 - 4x + 3\\). Factorising the quotient: \\(2x^2 + x - 1 = (2x-1)(x+1)\\). Zeros of quotient: \\(x = \\frac{1}{2}, -1\\). Including the known zero \\(3\\), the zeros are \\(3, \\frac{1}{2}, -1\\). The student's zeros \\(3, 1, -\\frac{1}{2}\\) are wrong because they factorised \\(2x^2 + x - 1\\) incorrectly as \\((x-1)(2x+1)\\) instead of \\((2x-1)(x+1)\\).  \n**Misconception revealed:** The student confused the coefficients when splitting the middle term. This is a classic sign error: for \\(2x^2 + x - 1\\), the product is \\(-2\\) and sum is \\(+1\\); the correct split is \\(+2x - x\\), giving \\((2x-1)(x+1)\\). The student likely used \\(-2x + x\\) leading to \\((x-1)(2x+1)\\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cubic polynomial with integer coefficients that has zeros \\(2, -3, 4\\). Then, assuming only the zero \\(2\\) is known, show how the Division Algorithm would find the other two zeros.",
+     "a": "**Answer:**  \nPolynomial: \\(p(x) = (x-2)(x+3)(x-4) = (x-2)(x^2 - x - 12) = x^3 - 3x^2 - 10x + 24\\).  \nDivision by \\((x-2)\\):  \n\\[\n\\begin{array}{r|l}\nx-2 & x^3 - 3x^2 - 10x + 24 \\\\\n\\hline\n& x^2 - x - 12 \\\\\n& x^3 - 2x^2 \\\\\n\\hline\n& -x^2 - 10x \\\\\n& -x^2 + 2x \\\\\n\\hline\n& -12x + 24 \\\\\n& -12x + 24 \\\\\n\\hline\n& 0\n\\end{array}\n\\]  \nQuotient: \\(x^2 - x - 12 = (x-4)(x+3)\\). Zeros: \\(4, -3\\).  \n**Criteria for good answer:** Correct expansion, correct long division with all terms shown, correct factorisation of quotient, and explicit statement of all three zeros.  \n**Poor answer reveals:** If the student expands incorrectly (e.g., sign errors in the polynomial) or skips the division steps, they cannot demonstrate the algorithm. If they just write the zeros without division, they miss the point of the method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_003",
+   "title": "c12_ps_cbse_06_003",
+   "questions": [
+    {
+     "q": "Which five countries are the permanent members of the UN Security Council, and what specific constitutional provision in the UN Charter grants them veto power?",
+     "a": "The P5 are USA, UK, France, Russia (successor to USSR), and China (represented by PRC since 1971). Veto power derives from Article 27(3) of the UN Charter, which requires \"an affirmative vote of nine members including the concurring votes of the permanent members\" for substantive decisions. A wrong answer (e.g., listing Germany or Japan, citing Article 24, or confusing veto with simple majority) reveals the student hasn't memorized the fixed P5 identity or the exact Charter article — a basic recall gap that undermines all further analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a permanent member's abstention or absence from a vote does NOT constitute a veto, while a negative vote does. Use the distinction between \"concurring votes\" and \"affirmative vote of nine members\" in Article 27(3).",
+     "a": "Article 27(3) requires \"concurring votes of the permanent members\" — established practice (since 1946) interprets \"concurring\" as not voting against. Abstention or absence means the member does not object, so the resolution can pass if it gets 9 affirmative votes total. A negative vote is an explicit non-concurrence, blocking adoption. A wrong answer (e.g., \"abstention counts as veto\" or \"all P5 must vote yes\") shows the student confuses the textual requirement with a misunderstanding of diplomatic practice — a critical error for analyzing real UNSC voting records.",
+     "self_check": true
+    },
+    {
+     "q": "A resolution condemning a specific country's military action receives 10 votes in favor (including 3 P5), 1 vote against (from a P5), and 4 abstentions (including 2 P5). Does the resolution pass? Explain step-by-step using Article 27(3).",
+     "a": "No, the resolution fails. Step 1: Identify it's a substantive matter (condemnation of military action = Chapter VII enforcement action). Step 2: Article 27(3) requires 9 affirmative votes including concurring votes of all P5. Step 3: Count affirmative votes = 10 (meets 9-vote threshold). Step 4: Check P5 concurrence — 1 P5 voted against (non-concurrence), 2 P5 abstained (concurring by practice), 3 P5 voted yes. Step 5: The single negative vote from a P5 constitutes a veto. Resolution fails. A wrong answer (e.g., \"passes because 10 > 9\" or \"fails because abstentions count as veto\") reveals inability to apply the voting formula to a concrete scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the veto usage patterns of the USA and USSR/Russia during the Cold War (1945–1991) versus the post-Cold War period (1992–present). What does this shift reveal about the changing function of the veto?",
+     "a": "During Cold War: USSR cast ~120 vetoes (mostly blocking Western-backed resolutions on colonial issues, Korea, Middle East); USA cast few vetoes initially, then increased after 1970 (protecting Israel, opposing anti-apartheid measures). Post-Cold War: Total vetoes dropped sharply; USA became most frequent user (protecting Israel, Iraq War); Russia used veto on Syria, Ukraine, Georgia; China increased usage (Taiwan, Myanmar, Syria). The shift reveals veto transformed from East-West ideological deadlock tool to a shield for P5 national interests and allies. A wrong answer (e.g., \"usage stayed same\" or \"only USA uses veto now\") shows failure to analyze historical data and connect veto patterns to geopolitical context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The veto power makes the UN Security Council ineffective because it allows one country to paralyze collective action.\" Consider both the paralysis critique and the counter-argument that veto prevents great power withdrawal from the UN.",
+     "a": "The critique is partially valid but incomplete. Paralysis evidence: Syria (12+ Russian/Chinese vetoes blocked action), Palestine (40+ US vetoes shielded Israel), Ukraine (Russian vetoes blocked condemnation). Counter-argument: Without veto, P5 would likely ignore or leave the UN (as League of Nations failed without great power buy-in). Veto forces P5 to negotiate — many resolutions pass with P5 compromise (e.g., Iran nuclear deal, Libya 2011). The veto is a \"price of admission\" for great power participation. A wrong answer (e.g., \"veto is purely bad\" or \"veto is purely good\") shows inability to weigh institutional design trade-offs — a key evaluative skill for board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a \"veto restraint\" mechanism that could reduce paralysis while preserving P5 participation. Your proposal must reference at least one existing voluntary initiative (e.g., French-Mexican initiative, ACT Code of Conduct) and explain how it would work procedurally.",
+     "a": "A strong answer proposes: \"Building on the French-Mexican Political Declaration (2015) and ACT Code of Conduct (2015), P5 should voluntarily commit to refrain from vetoing resolutions on genocide, crimes against humanity, or war crimes where the ICC Prosecutor has opened an investigation. Procedurally: when such a resolution is tabled, the P5 member intending to veto must publicly justify its veto in an open UNSC debate within 48 hours, referencing specific legal grounds under international law. This creates political cost without Charter amendment.\" A poor answer (e.g., \"remove veto\" or \"let GA override\") ignores Charter amendment difficulty (Article 108 requires P5 ratification) and shows no knowledge of actual reform initiatives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 103,
+  "chapter_title": "The Rocking-horse Winner",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww103.1.1",
+      "title": "A House Whispering for Money",
+      "section": "1",
+      "definition": "D.H. Lawrence opens on a genteel house with a subtle secret: it is haunted by the unspoken phrase 'there must be more money'. The parents, handsome and genteel, have no luck -- the mother Hester feels her loveless marriage and her children's questioning eyes -- and the children hear the walls whisper their need.",
+      "formula": "",
+      "key_idea": "Greed as a haunting -- a house that whispers what its owners never say aloud.",
+      "textbook_ref": "keww103.txt opening sections (house whispering there must be more money, hester the mother, luck versus money, loveless household)",
+      "question_patterns": [
+        "what did the children hear whispering in the house",
+        "in class 11 the rocking horse winner: why is the mother described as unable to love her children",
+        "distinguish luck from money as the mother explains it to paul",
+        "how does the house symbolise the family's greed",
+        "why does paul want to be lucky",
+        "describe the atmosphere of the opening of the story"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "hear the whisper",
+          "explain": "The phrase 'there must be more money' runs through the house though nobody says it aloud -- greed unspoken but omnipresent."
+        },
+        {
+          "step": 2,
+          "action": "meet the loveless centre",
+          "explain": "Hester cannot love her children, and luck -- not money -- is what she says she lacks, confusing the two for her son."
+        },
+        {
+          "step": 3,
+          "action": "set the child's mission",
+          "explain": "Paul takes the burden on himself: if luck brings money, he will find luck to stop the voices."
+        }
+      ]
+    },
+    {
+      "id": "keww103.1.2",
+      "title": "Paul's Rocking-horse and the Winning Secrets",
+      "section": "1",
+      "definition": "Paul discovers that riding his rocking-horse furiously, in a trance, delivers the names of race winners -- he 'knows' by luck, he says. With gardener Bassett and uncle Oscar he bets, wins, and secretly banks money, even sending his mother a thousand pounds a year anonymously on her birthday -- yet the house only screams louder.",
+      "formula": "",
+      "key_idea": "A boy rides a toy toward fortune -- and every gift only feeds the hunger it was meant to silence.",
+      "textbook_ref": "keww103.txt rocking horse sections (paul rides the rocking horse, bassett the gardener, uncle oscar, winning bets, birthday gift of thousand pounds)",
+      "question_patterns": [
+        "how does paul claim to know the winners of races",
+        "in class 11 the rocking horse winner: what role does bassett play in paul's betting",
+        "how does uncle oscar get drawn into paul's secret",
+        "what gift does paul arrange for his mother and why anonymously",
+        "why did the voices in the house grow louder after the money arrived",
+        "describe the scene of paul riding the rocking horse"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "watch the trance",
+          "explain": "Paul rocks the horse wildly, eyes fixed, until the name of the next winner arrives to him."
+        },
+        {
+          "step": 2,
+          "action": "follow the winnings",
+          "explain": "With Bassett holding the money and Uncle Oscar joining, Paul's predictions pile up a secret fortune."
+        },
+        {
+          "step": 3,
+          "action": "note the irony",
+          "explain": "The anonymous birthday gift makes the flowers and letters scream louder -- money multiplies the appetite it feeds."
+        }
+      ]
+    },
+    {
+      "id": "keww103.1.3",
+      "title": "The Final Ride and the Theme of Destructive Desire",
+      "section": "1",
+      "definition": "To silence the house Paul rides his horse through the night before the Derby, falls ill with brain fever after shouting the winner's name -- Malabar. He wins eighty thousand pounds, but dies that night. Lawrence's theme stands complete: the hunger for money, especially money bought for love, destroys the lover and the loved alike.",
+      "formula": "",
+      "key_idea": "The horse rides to death -- love replaced by luck, luck paid for with a child's life.",
+      "textbook_ref": "keww103.txt climax sections (derby night ride, malabar, brain fever, paul's death, uncle oscar's final words, theme of money and love)",
+      "question_patterns": [
+        "what happens to paul on the night before the derby",
+        "in class 11 the rocking horse winner: what is the significance of the word malabar",
+        "how does paul die and what does his death signify",
+        "what did uncle oscar say about the family at the end",
+        "explain the theme of money destroying love in the story",
+        "is paul a victim of the house or of his mother discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "ride the last ride",
+          "explain": "Paul rocks through the feverish night until he collapses, crying the Derby winner's name -- Malabar."
+        },
+        {
+          "step": 2,
+          "action": "win and lose together",
+          "explain": "The bet wins eighty thousand pounds, delivered to a dying boy who never hears his mother say she is lucky."
+        },
+        {
+          "step": 3,
+          "action": "state the moral picture",
+          "explain": "Lawrence indicts a values-system where love is measured in money -- the whispering house wins, the child loses."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww103.txt opening sections",
+      "concept": "keww103.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the difference between luck and money as the story presents it, using the mother's answers to Paul.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "take the mother's terms",
+          "explain": "Asked why they are poor, Hester answers that it is because they have no luck, not merely no money."
+        },
+        {
+          "step": 2,
+          "action": "read the child's logic",
+          "explain": "Paul concludes that luck causes money, so being lucky is the way to give his mother what the house wants."
+        },
+        {
+          "step": 3,
+          "action": "spot the tragedy seed",
+          "explain": "Her careless distinction becomes the boy's fatal mission -- the miscommunication drives the plot."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww103.txt climax sections",
+      "concept": "keww103.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Comment on the irony of Paul's final victory in the Derby.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the double event",
+          "explain": "The same night brings the winning name Malabar and Paul's collapse into brain fever."
+        },
+        {
+          "step": 2,
+          "action": "weigh the winnings",
+          "explain": "Eighty thousand pounds arrive to a boy who is dying -- the goal achieved precisely as its purpose fails."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The irony indicts the desire itself: money won to purchase love arrives when nothing can be purchased any more."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain the significance of the whispering house in the story.",
+        "How does Paul 'know' the winners of the races?",
+        "Describe the characters of Bassett and Uncle Oscar.",
+        "What is the role of Hester in her son's tragedy?",
+        "Discuss the theme of luck, money and love in the story.",
+        "Comment on the ending of The Rocking-horse Winner."
+      ]
+    }
+  ]
+}

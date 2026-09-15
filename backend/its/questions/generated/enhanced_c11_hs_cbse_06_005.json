@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_005",
+   "title": "c11_hs_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define verbal communication and non-verbal communication as per NCERT Class 11, and give one example of para-language that is often mistakenly classified as purely non-verbal.",
+     "a": "Verbal communication uses auditory-verbal modes (speaking, singing, tone of voice, reading aloud). Non-verbal communication uses gestures, facial expressions, posture, eye contact, touch, para-language, writing, clothing, hairstyles, architecture, symbols, and sign language. Para-language example: tone of voice — it accompanies speech (verbal) but conveys meaning through vocal qualities rather than words (non-verbal). A wrong answer that classifies tone as purely non-verbal reveals the student misses the bridging nature of para-language; classifying writing as verbal reveals confusion between \"written words\" and \"spoken auditory modes.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since we spend 70% of our active time in verbal communication, verbal communication is more important than non-verbal communication.\" Using the sensory retention data from NCERT, explain why this reasoning is flawed.",
+     "a": "The 70% figure refers to time spent, not effectiveness or information retention. NCERT data shows: reading (verbal) = 10% retention; hearing (verbal) = 20-25%; seeing (non-verbal visual) = 30-35%; seeing + hearing (audio-visual) = 50%+; seeing + hearing + doing = 90%+. Non-verbal channels (visual, tactile, kinesthetic) dominate higher-retention combinations. The flaw is equating time-spent with communicative impact. A student who agrees with the claim confuses quantity of exposure with quality of retention and misses that non-verbal cues carry disproportionate weight in emotional/authentic communication.",
+     "self_check": true
+    },
+    {
+     "q": "In a parent-teacher meeting, the teacher says \"Your child is doing well\" (verbal) while avoiding eye contact, speaking in a flat monotone, and keeping arms crossed (non-verbal). The parent feels uneasy. Analyze this using the concept of congruence/incongruence between verbal and non-verbal channels. Which channel should the parent trust more, and why?",
+     "a": "This is incongruent communication: verbal channel says \"positive,\" non-verbal channel says \"discomfort/withholding.\" The parent should trust the non-verbal channel more because: (1) non-verbal cues are harder to consciously control (micro-expressions, posture, tone), (2) they evolved earlier phylogenetically for survival (detecting threat), (3) para-language (flat monotone) and kinesics (crossed arms, gaze avoidance) are leakage signals of genuine affect. The verbal message is socially scripted; the non-verbal message is emotionally authentic. A wrong answer trusting the verbal channel reveals the \"verbal bias\" misconception — overvaluing words because they are explicit and propositional.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the communication effectiveness of three scenarios using the NCERT sensory retention hierarchy: (A) Teacher reads textbook aloud (audio only), (B) Teacher shows diagram while explaining (audio-visual), (C) Students build a model while teacher explains (audio-visual-kinesthetic). Rank them by expected retention percentage and justify the gaps between ranks.",
+     "a": "Rank: C (90%+) > B (50%+) > A (20-25%). Gap A→B (~25-30%): adding visual channel engages dual coding (verbal + visual memory traces). Gap B→C (~40%+): adding kinesthetic/active doing creates procedural memory, embodied cognition, and personal agency — the learner becomes a co-constructor of meaning. The hierarchy is not additive but multiplicative: each new sensory modality creates new neural pathways and retrieval cues. A student ranking B > C misses that \"doing\" transforms passive reception into active schema construction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Writing is a form of verbal communication because it uses words.\" Consider NCERT's classification where writing appears under non-verbal means, and the distinction between auditory-verbal modes and visual-symbolic modes.",
+     "a": "The statement is incorrect per NCERT. Verbal communication is defined by auditory-verbal modes (speaking, singing, tone, reading aloud) — it is channel-specific: sound waves received by ears. Writing uses words but transmits via visual symbols (graphemes) received by eyes; it is classified under non-verbal means alongside gestures, clothing, architecture. The distinction is modal (auditory vs. visual), not lexical (words vs. no words). Reading aloud bridges both: the written text is non-verbal source, the spoken output is verbal. A student calling writing \"verbal\" conflates linguistic content with sensory modality — a category error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2-minute classroom activity that demonstrates the dominance of non-verbal communication over verbal communication. Specify: (1) the verbal message, (2) the contradictory non-verbal cues, (3) what observers record, and (4) the debrief question that reveals the hierarchy of credibility.",
+     "a": "Activity: \"Say It Like You Don't Mean It.\" (1) Verbal message: \"I am thrilled to be here today\" — all students say identical words. (2) Non-verbal cues assigned randomly: Group A = genuine smile, open posture, warm tone; Group B = flat face, crossed arms, monotone; Group C = nervous giggle, fidgeting, high pitch. (3) Observers record: \"How convinced are you of the speaker's thrill?\" on 1-10 scale. (4) Debrief: \"Why did Group B score lowest despite identical words?\" Reveals: non-verbal channel is the credibility benchmark; verbal channel is treated as claim, non-verbal as evidence. Poor answer: activity that only varies verbal content — misses the cross-channel contradiction that proves non-verbal dominance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

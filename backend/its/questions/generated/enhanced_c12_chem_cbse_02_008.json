@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_008",
+   "title": "c12_chem_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the anode, cathode, electrolyte, and approximate cell potential of a commercial dry cell (Leclanche cell).",
+     "a": "Anode: Zinc container (Zn), Cathode: Graphite rod surrounded by MnO₂ and carbon, Electrolyte: Moist paste of NH₄Cl and ZnCl₂, Cell potential: ~1.5 V. A wrong answer (e.g., naming carbon as anode or KOH as electrolyte) reveals confusion between dry cell and mercury cell components, or failure to recall that zinc container itself acts as anode.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the voltage of a mercury cell remains constant throughout its life while a dry cell voltage decreases gradually.",
+     "a": "Mercury cell overall reaction: Zn(Hg) + HgO(s) → ZnO(s) + Hg(l) — all reactants and products are solids/liquids with constant activity (unity), so reaction quotient Q = 1 always. By Nernst equation, E = E° - (RT/nF)lnQ = E° (constant). Dry cell reaction consumes NH₄⁺ and produces Zn²⁺, changing concentrations, so Q changes and E decreases. A wrong answer citing \"mercury cell has no electrolyte\" or \"dry cell has no concentration change\" shows misunderstanding of Nernst equation application to solid vs. aqueous species.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced overall cell reaction for a lead storage battery during discharge, and calculate the theoretical cell potential given E°(PbO₂/PbSO₄) = +1.69 V and E°(PbSO₄/Pb) = -0.36 V.",
+     "a": "Discharge reaction: Pb(s) + PbO₂(s) + 2H₂SO₄(aq) → 2PbSO₄(s) + 2H₂O(l).\nE°cell = E°cathode - E°anode = 1.69 - (-0.36) = 2.05 V.\nSteps: Identify cathode (PbO₂ reduction) and anode (Pb oxidation). Use given reduction potentials. A wrong answer reversing the potentials (giving -2.05 V) or using oxidation potential directly shows sign convention error. Forgetting the 2H₂SO₄ stoichiometry reveals incomplete balancing.",
+     "self_check": true
+    },
+    {
+     "q": "A nickel-cadmium cell is being charged. Write the half-reactions at each electrode during charging and state the overall charging reaction.",
+     "a": "During charging (reverse of discharge):\nAnode (oxidation): 2Ni(OH)₂(s) + 2OH⁻ → 2Ni(OH)₃(s) + 2e⁻\nCathode (reduction): CdO(s) + H₂O(l) + 2e⁻ → Cd(s) + 2OH⁻\nOverall: CdO(s) + 2Ni(OH)₂(s) + H₂O(l) → Cd(s) + 2Ni(OH)₃(s)\nA wrong answer writing the discharge reaction instead shows failure to recognize \"charging\" means reversing current direction. Misidentifying which electrode becomes anode/cathode during charging reveals confusion about electrolytic vs. galvanic mode.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A dry cell can be recharged by passing direct current through it in the opposite direction.\" Justify your answer using the electrode reactions.",
+     "a": "False. Dry cell reactions: Anode: Zn → Zn²⁺ + 2e⁻; Cathode: 2MnO₂ + 2NH₄⁺ + 2e⁻ → 2MnO(OH) + 2NH₃. The products Zn²⁺ (as [Zn(NH₃)₄]²⁺ complex), MnO(OH), and NH₃ are not easily converted back to Zn, MnO₂, and NH₄⁺ by simple current reversal. The chemistry is irreversible. A student saying \"yes, all galvanic cells are rechargeable\" confuses primary vs. secondary classification. A student saying \"no, because Zn dissolves\" identifies the right electrode but wrong reason — Zn dissolution happens in rechargeable lead battery too.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to distinguish between a fresh and a used dry cell without using a voltmeter. Explain the chemical basis.",
+     "a": "Drop the cell vertically on a hard surface from ~2 cm height. Fresh cell: thud, stays upright (dense, moist paste). Used cell: bounces (paste dries, becomes porous, gas evolution creates internal pressure). Chemical basis: As cell discharges, NH₄Cl/ZnCl₂ paste loses moisture, MnO₂ reduces to MnO(OH), and NH₃ gas forms — increasing porosity and decreasing density. A poor answer suggesting \"weigh the cell\" (mass change negligible) or \"shake and listen\" (subjective) shows lack of connection between electrochemistry and physical properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

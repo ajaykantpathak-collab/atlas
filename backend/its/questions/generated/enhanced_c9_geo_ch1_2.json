@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_2",
+   "title": "c9_geo_ch1_2",
+   "questions": [
+    {
+     "q": "Name the three types of plate boundaries based on the relative movement of plates.",
+     "a": "The three types are divergent (plates move apart), convergent (plates move towards each other), and transform (plates slide past each other horizontally). A wrong answer (e.g., listing \"subduction\" or \"rift valley\" as boundary types) reveals the student is confusing the boundary classification with the specific processes or landforms that occur at those boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why convection currents in the mantle cause tectonic plates to move.",
+     "a": "Heat from the core creates rising hot magma and sinking cooler magma in the asthenosphere, forming circular convection cells; the dragging force of these moving currents on the base of the lithospheric plates pushes or pulls them. A wrong answer (e.g., \"plates move because the Earth is spinning\" or \"plates float like boats on water\") reveals the student lacks the mechanistic link between internal heat energy and horizontal plate motion.",
+     "self_check": true
+    },
+    {
+     "q": "On a world map, the Mid-Atlantic Ridge runs down the center of the Atlantic Ocean. Identify the type of plate boundary it represents and name the two major plates separating there.",
+     "a": "Step 1: Recognize Mid-Atlantic Ridge as an underwater mountain chain. Step 2: Recall that ridges form where plates move apart (divergent boundary). Step 3: Identify the plates on either side: South American Plate and African Plate (south), North American Plate and Eurasian Plate (north). Step 4: Conclude it is a divergent boundary between these pairs. A wrong answer (e.g., identifying it as convergent) reveals the student cannot associate the landform with the boundary process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological activity at the Himalayan boundary (Indian Plate vs Eurasian Plate) with the Andes boundary (Nazca Plate vs South American Plate). What is similar and what is different in the convergence process?",
+     "a": "Similarity: Both are convergent boundaries where plates collide. Difference: Himalayas form by continental-continental collision (both plates buoyant, crust crumples upward); Andes form by oceanic-continental collision (dense Nazca Plate subducts under South American Plate, creating volcanic arc). A wrong answer (e.g., saying both have volcanoes) reveals the student does not distinguish between collision types based on plate composition (continental vs oceanic crust).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Transform boundaries are the most destructive plate boundaries because they produce the strongest earthquakes.\" Justify your answer with geographical reasoning.",
+     "a": "The statement is partially incorrect. While transform boundaries (e.g., San Andreas Fault) produce shallow, frequent, and damaging earthquakes, the *strongest* earthquakes (highest magnitude) occur at convergent boundaries (subduction zones) like the 1960 Chile (9.5 Mw) or 2004 Sumatra (9.1 Mw) due to larger rupture areas. A wrong evaluation (agreeing fully) reveals the student equates frequency/damage with magnitude and overlooks the energy release potential of subduction zones.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple diagram annotation for a divergent boundary at a mid-ocean ridge showing: (a) direction of plate movement, (b) mantle convection cell, (c) new crust formation, and (d) magnetic striping pattern. Label each part.",
+     "a": "A good answer includes a cross-section with two plates moving apart, upward rising convection limb between them, magma rising and solidifying at the ridge axis to form new crust, and symmetrical magnetic stripes (normal/reversed polarity) moving outward. A poor answer (missing convection cell or showing random stripes) reveals the student cannot integrate the driving mechanism, crustal creation, and paleomagnetic evidence into a single coherent model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

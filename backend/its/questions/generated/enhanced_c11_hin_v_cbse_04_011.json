@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_04_011",
+   "title": "c11_hin_v_cbse_04_011",
+   "questions": [
+    {
+     "q": "Identify the samasa type in the compound word 'lkfgR;laxhrdyk' (लक्फ्गर्‍लक्ष्र्द्यक) from the shloka cited on page 64 and state its vigraha (विग्रह).",
+     "a": "The compound 'lkfgR;laxhrdyk' is a **Tatpurusha Samasa (तत्पुरुष समास)** specifically **Shashthi Tatpurusha (षष्ठी तत्पुरुष)**. Vigraha: *lkfgR; ds laxhr dyk* (लक्फ्गर्‍ के लक्फ्गर्‍द्यक). A wrong answer (e.g., calling it Dvandva or Bahuvrihi) reveals the student cannot distinguish possessive/genitive relationships in compounds from coordinative or attributive ones — a critical gap for decoding technical Sanskritized terminology in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the author uses the present habitual tense (*gh gSA*, *feyrs gSa*, *tkrh gSa*) throughout the descriptive sections rather than simple present or past tense.",
+     "a": "The present habitual (vartaman abhyasa) conveys **timeless, recurring cultural truths** — art forms *continue to exist* and *characteristically behave* in certain ways across generations. Simple present would sound like a momentary observation; past tense would wrongly imply these traditions have ceased. A student who says \"it's just the normal tense\" misses how tense-aspect encodes the *living continuity* of the traditions described.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"bu fp=kksa dh fo'ks\"krk gS budh fofHkUu çdkj dh 'kSfy;k¡\" (page 62), identify the karak of 'bu fp=kksa' and 'fofHkUu çdkj dh 'kSfy;k¡' and justify why the agent (karta) is not marked with 'ne' (ने).",
+     "a": "'bu fp=kksa' = **Karta (कर्ता)** in nominative (prathamā) because the verb 'gS' (है) is stative/intransitive; 'fofHkUu çdkj dh 'kSfy;k¡' = **Karma (कर्म)** in nominative as the predicate nominative. 'Ne' is absent because the sentence is **equational (copular)**, not transitive — no action is performed *on* an object. A student marking 'bu fp=kksa ne' reveals confusion between transitive action verbs and stative copular structures, a persistent Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic density of the sentence \"gekjs ;gk¡ vkxs pydj laxhr dk tks fodkl gqvk bldh tkudkjh cgqr ugha feyrhA\" (page 65) with \"fp=kdkjh çkphu dky ls gh gekjs thou dk vfHkUu vax jgk gSA\" (page 61). Which uses more subordinate clauses and what is the rhetorical effect?",
+     "a": "The first sentence has **three subordinate clauses** (*gekjs ;gk¡*, *vkxs pydj*, *bldh tkudkjh cgqr ugha feyrh*) creating layered causality — it builds an argument about historical evidence. The second has **one non-finite clause** (*çkphu dky ls gh*) establishing temporal authority. The first's density mimics scholarly reasoning; the second's simplicity asserts foundational fact. A student calling both \"complex sentences\" misses how clause hierarchy maps to epistemic weight.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to use Sanskritized technical vocabulary (*ukV~;'kkL=k*, *uR;Z*, *vfHku;*, *laLdkjxhr*, *Írqxhr*) alongside regional terms (*jaxksyh*, *dksye*, *ck¡l u`R;*) in the same paragraphs. Is this code-mixing effective for the text's purpose?",
+     "a": "**Yes, highly effective.** The Sanskritized terms (tat-samaj) provide **pan-Indian conceptual precision** (defining *what* the art *is* structurally), while regional terms (deshaj) provide **ethnographic authenticity** (naming *how* it lives locally). This mirrors the text's central thesis: classical and folk are inseparable layers of one tradition. A student calling it \"confusing\" or \"inconsistent\" fails to see register-switching as a deliberate rhetorical strategy enacting the content's unity-in-diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence expository paragraph in the *exact grammatical register* of the chapter describing a fictional folk art form \"Nilgiri Pottery\" — use at least two tat-samaj compounds, one present habitual verb, one karak-marked noun phrase, and one non-finite clause.",
+     "a": "*Sample answer:* \"Nilgiri mRik-kala (tat-samaj: मृद् + कला) ukV~;'kkL=k ds fu;eksa ij vikisat gqbZ gS (present habitual). ykds ] fofHkUu çdkj ds lkexzh ;kpkjksa ls (karak: instrumental) cus tkus okyh ;s dyk çkphu parampara dks ifj\"Ñr djrh gS (non-finite: ड्ज्र्द्ज).\" A poor answer uses colloquial vocabulary (*bana hua hai*), misses habitual aspect (*hai* instead of *gqbZ gS*), or omits non-finite subordination — showing inability to replicate the text's grammatical \"voice.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

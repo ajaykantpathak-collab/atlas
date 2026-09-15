@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_009",
+   "title": "c11_hist_cbse_06_009",
+   "questions": [
+    {
+     "q": "Name the three hierarchical ranks within a craft guild and state the typical duration (in years) an apprentice served before becoming a journeyman.",
+     "a": "The three ranks are Master, Journeyman, and Apprentice. Apprenticeship typically lasted 7 years (range 5–9 years depending on the craft and region). A wrong answer (e.g., \"2 years\" or \"Master–Apprentice–Worker\") reveals confusion with modern vocational training or factory hierarchy, missing the guild's strict, time-bound skill transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a town's merchant guild often secured a royal charter granting it a monopoly over long-distance trade, and how this differed from a craft guild's monopoly.",
+     "a": "Merchant guilds obtained royal charters to exclude outsiders from wholesale trade, control weights/measures, and negotiate toll exemptions — their monopoly was over *trade routes and commodities*. Craft guilds' monopolies were *local and production-based*: only masters could sell finished goods (e.g., cloth, shoes) within town walls. A wrong answer conflating the two shows the student misses the spatial scale distinction: merchant guilds operated across regions; craft guilds operated within a single urban jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "A 13th-century Flemish cloth merchant wants to bypass the local drapers' craft guild by distributing raw wool directly to rural spinners. Identify the guild regulation he violates and the economic term for this practice.",
+     "a": "He violates the craft guild's *monopoly on production stages* — only guild masters could organise the sequence from raw material to finished cloth. The practice is called the *putting-out system* (or *Verlagssystem*). A wrong answer (\"free trade\" or \"capitalism\") shows the student cannot identify the specific guild rule (control over the production chain) or the historical term for its circumvention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the guild court in resolving a dispute between two masters over a journeyman's wages with the role of the manorial court (from node c11_hist_cbse_06_005) in a serf-lord dispute. Highlight one structural similarity and one fundamental difference.",
+     "a": "Similarity: both were *customary courts* applying unwritten local laws, not royal statute. Difference: the guild court judged *contractual peers* (masters bound by guild oath), while the manorial court judged *status-bound subjects* (serfs owing labour to a lord). A wrong answer focusing only on \"both were local\" misses the legal-personhood contrast: guild members were freemen with corporate rights; serfs were unfree persons with customary obligations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The guild system's decline after 1500 was primarily caused by the rise of nation-states granting monopoly charters to joint-stock companies.\" Support your judgement with two pieces of evidence.",
+     "a": "The claim is *partially correct but incomplete*. Evidence 1: Nation-states *did* charter companies (e.g., English East India Company, 1600) that bypassed guild monopolies. Evidence 2: The *putting-out system* and merchant capitalists eroded craft guild control from *within* decades before state charters — e.g., Augsburg merchants controlling weavers by 1450. A wrong answer citing only state action ignores the endogenous decay of guild discipline (masters hiring unskilled labour, quality dilution).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-entry timeline (1100–1550) showing the guild system's evolution, including one event each for: merchant guild peak, craft guild formalisation, putting-out system emergence, state charter to a trading company, and a guild revolt. Annotate each entry with the causal link to the next.",
+     "a": "Sample timeline: 1150 – Merchant guilds dominate town charters (causes: urban growth → need for trade regulation); 1250 – Craft guilds gain legal recognition in Paris/London (causes: specialisation → quality disputes); 1350 – Putting-out spreads in Flanders/England (causes: Black Death labour shortage → masters seek cheaper rural labour); 1450 – Augsburg merchant-capitalists control production (causes: capital accumulation → guild hierarchy bypassed); 1600 – English East India Company chartered (causes: state needs revenue → grants monopolies guilds cannot compete with). A poor answer lists dates without causal arrows, treating events as isolated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

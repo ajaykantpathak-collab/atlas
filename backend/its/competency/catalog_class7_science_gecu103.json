@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Electricity: Circuits and their Components",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.3.1",
+   "title": "A Torchlight: Source of the Idea",
+   "section": "A torchlight",
+   "definition": "Opening a torch shows the essentials of an electric circuit in miniature: cells that push the current, a bulb that glows, and metal strips that join them into one closed path.",
+   "formula": "",
+   "key_idea": "A torch is a circuit you can hold: current, source and path together make light.",
+   "textbook_ref": "gecu103.txt, A torchlight",
+   "question_patterns": [
+    "what parts of a circuit does a torch show",
+    "what makes the bulb of a torch glow",
+    "why do torch cells get used up",
+    "draw the inside arrangement of a torch",
+    "what happens when a torch cell is inserted the wrong way",
+    "how does the switch of a torch work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.2",
+   "title": "A Simple Electrical Circuit",
+   "section": "Simple electrical circuit",
+   "definition": "Join a cell, wires and a bulb into a closed loop and the bulb glows: this complete, unbroken path is a closed circuit; a gap anywhere, an open circuit, stops the current and the light.",
+   "formula": "closed circuit = cell + wires + bulb joined end to end",
+   "key_idea": "Current flows only in a closed loop: one break, one glowless bulb.",
+   "textbook_ref": "gecu103.txt, Simple electrical circuit",
+   "question_patterns": [
+    "what is a closed circuit",
+    "why does the bulb stop glowing when a wire is removed",
+    "what is the difference between open and closed circuit",
+    "draw a circuit with one cell and one bulb",
+    "what is the role of the cell in a circuit",
+    "will two cells make the bulb glow brighter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.3",
+   "title": "Circuit Diagrams and Symbols",
+   "section": "Circuit diagrams",
+   "definition": "Electricians shorten circuits to paper: standard symbols for cell, bulb, wire and switch let anyone draw a circuit diagram that another person anywhere can rebuild exactly.",
+   "formula": "",
+   "key_idea": "Symbols are the grammar of circuits: a neat diagram carries the whole design.",
+   "textbook_ref": "gecu103.txt, Circuit diagrams",
+   "question_patterns": [
+    "why do we draw circuit diagrams",
+    "draw the symbols of cell bulb wire and switch",
+    "how is a battery of two cells shown in a diagram",
+    "read a given circuit diagram and describe it",
+    "what does the long and short line of a cell symbol mean",
+    "convert a real circuit into a diagram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.4",
+   "title": "Conductors, Insulators and the Switch",
+   "section": "Conductors and insulators",
+   "definition": "Materials differ at carrying current: metals conduct and light the bulb, while plastic, rubber and cloth block it as insulators; a switch uses this fact, opening and closing the metal path at will.",
+   "formula": "",
+   "key_idea": "Conduction decides design: wires of conductors, covers of insulators, and a switch to command the loop.",
+   "textbook_ref": "gecu103.txt, Conductors and insulators",
+   "question_patterns": [
+    "which materials conduct electricity",
+    "why is a switch covered with plastic",
+    "test which objects complete a circuit",
+    "what is the function of a switch in a circuit",
+    "why are electric wires made of copper",
+    "is pure water a conductor discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu103.txt",
+   "concept": "gecu.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "what did nihal's class learn at the bhakra nangal power house?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu103.txt",
+   "concept": "gecu.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "construct a simple circuit with a cell, wires and a bulb.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu103.txt, Let us enhance our learning",
+   "questions": [
+    "What did Nihal's class learn at the Bhakra Nangal power house?",
+    "Construct a simple circuit with a cell, wires and a bulb.",
+    "Which materials in the activity conducted electricity?",
+    "Draw the circuit diagram of a torch with a switch.",
+    "Test five objects in a circuit and sort conductors from insulators."
+   ]
+  }
+ ]
+}

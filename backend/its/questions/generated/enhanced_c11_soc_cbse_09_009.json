@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_009",
+   "title": "c11_soc_cbse_09_009",
+   "questions": [
+    {
+     "q": "Define 'ideal type' in Weber's methodology and state its primary function in sociological analysis.",
+     "a": "An ideal type is a logically constructed analytical model that accentuates the most significant characteristics of a social phenomenon by deliberate exaggeration and purification; its primary function is to serve as a comparative tool (a \"measuring rod\") for systematically comparing empirical cases and identifying causal relationships, not to describe reality accurately. A wrong answer that calls it \"an average case\" or \"a moral ideal\" reveals confusion between statistical norms, normative ideals, and Weber's heuristic constructs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Weber's ideal type of bureaucracy describes how real bureaucracies actually work.\" Explain why this statement misunderstands the concept, using the distinction between *construct* and *reality*.",
+     "a": "The statement confuses the ideal type (a one-sided, logically pure conceptual tool) with empirical reality (which is always messy, hybrid, and deviates from the model). Weber explicitly said ideal types \"may exaggerate some features... and ignore others\" and are judged by analytical usefulness, not descriptive accuracy. A wrong answer that defends the statement shows the student treats ideal types as hypotheses to be verified rather than as methodological instruments for comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a mini ideal type for \"a traditional Indian joint family\" by selecting and purifying **four** defining characteristics. For each characteristic, state the purified (ideal-typical) form and briefly note how real families typically deviate.",
+     "a": "Example characteristics: (1) **Common property** — ideal: all assets pooled, no individual ownership; real: partial separation, personal savings. (2) **Patriarchal authority** — ideal: eldest male has absolute decision power; real: negotiated authority, women's influence. (3) **Coresidence** — ideal: all members live under one roof; real: migrant members, nuclear offshoots. (4) **Ritual unity** — ideal: shared kitchen, common deities, collective rites; real: dietary differences, individual worship. A poor answer lists descriptive features without purification or fails to contrast with empirical deviations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **value neutrality** in Weber's sense with **moral indifference**. Why did Weber insist that value neutrality requires an \"iron will\" rather than mere detachment?",
+     "a": "Value neutrality is the *methodological* suspension of the researcher's values during analysis to faithfully reconstruct actors' subjective meanings; moral indifference is an *ethical* stance of not caring about outcomes. Weber demanded \"iron will\" because researchers are inevitably value-laden beings — neutrality is an active, continuous discipline of self-restraint, not a passive absence of values. A wrong answer equating the two misses the active, effortful character of Weberian objectivity.",
+     "self_check": true
+    },
+    {
+     "q": "A sociologist studying farmer protests in India writes: \"The protesters' demand for MSP guarantee is economically irrational and will burden the fiscal deficit.\" Evaluate this statement against Weber's criterion of value neutrality. What should the sociologist have done instead?",
+     "a": "The statement violates value neutrality by importing the researcher's policy judgment (\"economically irrational\", \"burden\") instead of reconstructing the protesters' *subjective rationality* (e.g., \"farmers perceive MSP as security against market volatility and state withdrawal\"). The sociologist should have used empathetic understanding to describe the meanings actors attach to their demands, then separately analysed structural consequences — keeping evaluation distinct from interpretation. A wrong answer that defends the statement as \"objective analysis\" conflates policy analysis with interpretive sociology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research exercise for Class 11 students to practice **both** ideal type construction and value neutrality. Specify: (a) a social phenomenon to study, (b) steps to build the ideal type, (c) a biased statement to neutralise, and (d) the neutralised version.",
+     "a": "(a) Phenomenon: *Student council elections in school*. (b) Steps: (i) List all observable features (campaigning, voting, teacher oversight, etc.). (ii) Select 4–5 analytically central features (e.g., formal rules, universal suffrage, secret ballot, elected representation, limited tenure). (iii) Purify each to logical extreme (e.g., \"rules are codified, known to all, applied uniformly\"). (iv) Name the model: \"Ideal-typical student council\". (c) Biased statement: \"The elections are a farce because teachers manipulate results.\" (d) Neutralised: \"Students perceive teacher involvement as influencing outcomes; they attribute this to the council's advisory (not decision-making) mandate.\" A poor exercise uses a phenomenon too simple (e.g., \"a queue\") or fails to separate the two skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

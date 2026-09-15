@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_008",
+   "title": "c12_biotech_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define gene therapy and name the three main approaches classified by functional strategy.",
+     "a": "**Correct answer:** Gene therapy is a technique designed to repair faulty genes by introducing correct genetic material into cells. The three functional approaches are: (i) gene replacement/addition, (ii) gene inhibition, and (iii) gene repair/editing.\n\n**What a wrong answer reveals:** If a student lists \"ex vivo and in vivo\" as the three approaches, they are confusing **delivery strategy** with **functional strategy**. This is the most common classification error. If they list \"somatic and germ-line\", they are confusing **target cell type** with functional approach. The NCERT explicitly separates these three classification axes (Section 4.3.1 and 4.3.2). Students must memorise the three distinct categorisation schemes.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a dominant gain-of-function mutation causing a toxic protein. Which functional gene therapy approach is most appropriate, and why would gene augmentation NOT work?",
+     "a": "**Correct answer:** **Gene inhibition therapy** (using antisense RNA, RNAi, or CRISPRi) is appropriate because the disease is caused by a **toxic product of a dominant mutant allele**. Adding a normal gene (augmentation) would not remove the toxic protein; the mutant allele would still express the harmful product. Inhibition silences the dominant mutant allele.\n\n**What a wrong answer reveals:** If a student chooses \"gene augmentation\", they fail to recognise that dominant gain-of-function disorders require **removal or silencing** of the defective allele, not addition of a normal one. This tests the critical distinction between **loss-of-function** (recessive, treatable by augmentation) and **gain-of-function** (dominant, requires inhibition/editing) — a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher proposes treating cystic fibrosis (CFTR loss-of-function) by delivering an adenoviral vector carrying the normal CFTR gene directly into the patient's lungs via aerosol. Identify: (a) delivery strategy, (b) target cell type, (c) functional approach. Explain one major limitation of this specific in vivo approach for CF.",
+     "a": "**Correct answer:** (a) **In vivo gene therapy** (direct delivery to target tissue). (b) **Somatic cells** (lung epithelial cells). (c) **Gene augmentation therapy** (adding functional CFTR copy). **Major limitation:** Adenoviral vectors trigger strong **immune/inflammatory responses** in the lung, and the effect is transient because the vector DNA does not integrate into the host genome — it remains episomal and is diluted as cells divide. Repeated administration is needed, but immunity against the vector prevents re-dosing.\n\n**What a wrong answer reveals:** If the student says \"ex vivo\" they misunderstand that cells are not removed. If they say \"germ-line\" they confuse target cell type. If they cite \"random integration causing cancer\" as the main adenovirus limitation, they are confusing **integrating vectors (retrovirus/lentivirus)** with **non-integrating adenovirus**. This tests vector-specific knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast ex vivo and in vivo gene therapy on these parameters: (i) technical complexity, (ii) immune response risk, (iii) suitability for haematopoietic stem cells (HSCs) vs solid tissues, (iv) control over gene integration site.",
+     "a": "**Correct answer:**  \n| Parameter | Ex Vivo | In Vivo |\n|-----------|---------|---------|\n| (i) Technical complexity | Higher (cell culture, selection, expansion, reinfusion) | Lower (direct injection) but requires efficient tissue targeting |\n| (ii) Immune response risk | Lower (vector exposure limited to cultured cells; can wash vector away) | Higher (systemic/local vector exposure triggers immunity) |\n| (iii) Suitability | Ideal for HSCs (easily isolated, cultured, transplanted) | Essential for solid tissues (brain, muscle, lung) not easily biopsied |\n| (iv) Integration control | Better (can select correctly integrated clones before reinfusion) | Poor (random integration in vivo; no selection possible) |\n\n**What a wrong answer reveals:** If a student claims ex vivo has higher immune risk because of \"foreign cells\", they miss that **autologous** (patient's own) cells are used. If they say in vivo allows better integration control, they ignore that ex vivo permits **clonal selection** — a key advantage for safety. This tests analytical comparison, not just recall.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Germ-line gene therapy should be permitted for monogenic diseases like Huntington's because it eradicates the disease from the lineage permanently.\" Provide two scientific arguments for and two ethical arguments against.",
+     "a": "**Scientific arguments FOR:** (1) Permanent cure in all cells of the offspring, including germ cells, eliminating transmission. (2) Avoids need for repeated somatic therapy in each generation.  \n**Ethical arguments AGAINST:** (1) **Irreversible, heritable changes** affect future generations without their consent; off-target effects could introduce new genetic diseases. (2) **Slippery slope to enhancement** — once allowed for therapy, difficult to regulate use for intelligence, athleticism, etc. (3) **Equity/access** — only wealthy could afford, creating genetic divide.\n\n**What a wrong answer reveals:** If a student focuses only on \"designer babies\" without mentioning **off-target mutations** or **lack of consent of future generations**, they give a superficial ethical answer. If they claim germ-line therapy is \"already routine\", they are factually wrong — it is **banned globally** for clinical use. Board exams expect balanced scientific + ethical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a gene therapy strategy for a fictional disorder: \"Protein X deficiency\" caused by a recessive loss-of-function mutation in a liver-specific gene. The protein is secreted into blood. Choose delivery strategy, vector type, and functional approach. Justify each choice in 1-2 sentences.",
+     "a": "**Expected answer:**  \n- **Functional approach:** Gene augmentation (recessive loss-of-function → add functional copy).  \n- **Target cells:** Somatic hepatocytes (liver is accessible, secretes protein into blood).  \n- **Delivery strategy:** In vivo (liver biopsy/ex vivo hepatocyte transplant is high-risk; direct IV/portal vein injection feasible).  \n- **Vector:** AAV (adeno-associated virus) serotype 8 or 9 — high hepatotropism, non-integrating (low oncogenic risk), long-term episomal expression in non-dividing hepatocytes, low immunogenicity.  \n- **Promoter:** Liver-specific promoter (e.g., albumin or transthyretin) to restrict expression.\n\n**What a poor answer reveals:** Choosing retrovirus (integrates, needs dividing cells — hepatocytes are quiescent). Choosing ex vivo (unnecessary invasive procedure for liver). Using a ubiquitous promoter (risk of off-target expression). Not justifying vector tropism. This tests synthesis of vector biology, disease genetics, and anatomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

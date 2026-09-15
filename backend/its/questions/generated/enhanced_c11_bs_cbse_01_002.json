@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_002",
+   "title": "c11_bs_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the mode of establishment for a profession and explain how it differs from that of a business.",
+     "a": "A profession is established through membership of a professional body and obtaining a certificate of practice (e.g., ICAI for CAs, Bar Council for lawyers), whereas a business is established by the entrepreneur's decision and any required legal formalities like registration. A wrong answer (e.g., \"both need registration\") reveals the student confuses legal registration of a business entity with the mandatory professional certification that defines a profession.",
+     "self_check": true
+    },
+    {
+     "q": "A person sells homemade pickles once at a school fair and earns ₹2,000. Is this a business activity? Explain using the characteristic of 'regularity of dealings'.",
+     "a": "No, this is not a business activity because business requires dealings in goods or services on a regular basis. A single transaction, even if profitable, does not constitute business. A wrong answer (e.g., \"yes, because profit was earned\") reveals the student equates profit-making with business, ignoring the essential characteristic of continuity and regularity of transactions.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following: Dr. Mehta runs a private clinic, Ms. Roy works as a software engineer at TCS, and Mr. Shah owns a chain of grocery stores. Justify each classification using at least two distinguishing criteria.",
+     "a": "Dr. Mehta: Profession — requires medical degree and MCI registration (qualification), earns professional fees (reward), follows Medical Council code of conduct. Ms. Roy: Employment — appointment letter and service agreement (mode), fixed salary (reward), no capital investment, negligible risk. Mr. Shah: Business — entrepreneur's decision to establish (mode), profit earning (reward), capital investment required, bears risk, no prescribed code of conduct. A wrong classification (e.g., calling Dr. Mehta's clinic a business) reveals inability to distinguish personalised expert service (profession) from goods/services provision (business).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk profiles of business, profession, and employment. Why is it said that 'profit is the reward for risk-taking' only in business?",
+     "a": "Business: profits uncertain/irregular, high risk (market changes, competition, natural calamities). Profession: fees generally regular/certain, some risk (reputation, malpractice). Employment: fixed/regular pay, no/little risk. 'Profit is reward for risk-taking' applies only to business because business income is residual after all contractual obligations (wages, rent, interest, professional fees) are paid, and it fluctuates with uncertainty. Professionals and employees have contractual claims. A wrong answer (e.g., \"professionals also take high risk\") reveals confusion between professional liability risk and business's residual claimant risk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A chartered accountant who sets up a CA firm with partners is running a business, not a profession.\" Defend or refute with reference to the distinction criteria.",
+     "a": "Refute. The CA firm is a professional partnership, not a business. Mode: established by partners' professional certification and ICAI membership, not just entrepreneurial decision. Nature: renders personalised expert services (audit, taxation), not goods/services to public. Reward: professional fees, not profit from trading. Code: bound by ICAI code of conduct. Capital: limited for establishment. Risk: fees generally regular. Transfer: interest not freely transferable. The firm is a vehicle for professional practice; the core activity remains profession. A wrong evaluation (e.g., \"it's a business because they earn profit\") reveals conflation of organisational form (partnership) with the nature of economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario of a person transitioning from employment to profession to business over their career. For each phase, specify the exact change in mode of establishment, reward, risk, and code of conduct.",
+     "a": "Example: Phase 1 (Employment): Rohan works as junior accountant at a firm — appointment letter, salary, no risk, employer's conduct rules. Phase 2 (Profession): Clears CA exams, gets ICAI membership, starts practice — certificate of practice, professional fees, some risk (reputation), ICAI code. Phase 3 (Business): Launches a fintech startup offering automated accounting software — entrepreneurial decision + company registration, profit from software sales/subscriptions, high market/tech risk, no prescribed professional code. A poor answer (e.g., vague phases without specific criteria changes) reveals inability to operationalise the nine distinguishing bases in a dynamic career context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

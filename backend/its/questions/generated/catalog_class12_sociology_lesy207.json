@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class12_sociology_lesy207",
+ "concepts": [
+  {
+   "id": "lesy207.1",
+   "title": "Mass Media as a Social Institution",
+   "questions": [
+    {
+     "q": "Using the method 'Mass Media as a Social Institution', work with: dialectical_society = 30, large_organisation = 60, state_market_roles = 25. Carry the chain through step by step and give the final value of media_institution.",
+     "a": "115 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mass Media as a Social Institution' and work with: dialectical_society = 6, large_organisation = 50, state_market_roles = 30. Carry the chain through step by step and give the final value of media_institution.",
+     "a": "86 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mass Media as a Social Institution' refers to.",
+     "a": "Television, newspapers, films, magazines, radio, advertisements, video games and cds count as mass media because they reach enormous audiences at once. Unlike a chat between friends, mass communication needs a formally organised structure with big capital, production plants and management, which is why the state and the market dominate it. Media and society shape each other in both directions, and sections of the public differ sharply in how easily they can use media - the digital divide.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mass Media as a Social Institution'.",
+     "a": "Like any social institution, media changes its structure and content with the economic, political and socio-cultural setting - the state led in the early decades after independence, the market took over after the 1990s.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mass Media as a Social Institution', in plain ASCII form.",
+     "a": "media_institution = large_organisation + state_market_roles + dialectical_society",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.2",
+   "title": "Print Beginnings and the Imagined Community",
+   "questions": [
+    {
+     "q": "Using the method 'Print Beginnings and the Imagined Community', work with: national_belonging = 300, nationalist_press = 3, shared_news = 0.45. Carry the chain through step by step and give the final value of imagined_community.",
+     "a": "303.45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Print Beginnings and the Imagined Community' and work with: national_belonging = 8, nationalist_press = 200, shared_news = 0.6. Carry the chain through step by step and give the final value of imagined_community.",
+     "a": "208.6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Print Beginnings and the Imagined Community' refers to.",
+     "a": "Modern mass media started with johann gutenberg's printing press of 1440, first used for religious books; industrial growth, better transport and rising literacy carried newspapers to a mass public only by the mid-nineteenth century. Benedict anderson argued that reading or hearing the same news gave strangers a shared belonging - he called the nation an imagined community - and india's nationalist press, punished by censorship during the 1883 ilbert bill agitation, nurtured anti-colonial opinion.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Print Beginnings and the Imagined Community'.",
+     "a": "Papers like kesari, mathrubhumi and amrita bazar patrika suffered the colonial state's displeasure yet kept demanding an end to colonial rule, and their influence outran their small circulation through word of mouth in markets, courts and towns.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Print Beginnings and the Imagined Community', in plain ASCII form.",
+     "a": "imagined_community = shared_news + national_belonging + nationalist_press",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.3",
+   "title": "Media as Watchdog in the Development Decades",
+   "questions": [
+    {
+     "q": "Using the method 'Media as Watchdog in the Development Decades', work with: newsreels_documentaries = 300, social_reform_message = 150, watchdog_role = 200. Carry the chain through step by step and give the final value of development_media.",
+     "a": "650 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Media as Watchdog in the Development Decades' and work with: newsreels_documentaries = 4, social_reform_message = 500, watchdog_role = 150. Carry the chain through step by step and give the final value of development_media.",
+     "a": "654 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Media as Watchdog in the Development Decades' refers to.",
+     "a": "Jawaharlal nehru wanted the free press to act as democracy's watchdog and a partner in national development: informing citizens about development efforts, attacking untouchability, child marriage, the ostracism of widows, witchcraft beliefs and faith healing, and promoting a rational scientific ethos. The state's films division made newsreels and documentaries shown before every feature film, and all india radio ran a decade-long countryside campaign on high-yielding varieties from 1967.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Media as Watchdog in the Development Decades'.",
+     "a": "Crises pushed air to grow - the 1962 china war brought a daily talks unit, the 1971 bangladesh crisis brought hourly news from 6 am to midnight, and the 1991 assassination of rajiv gandhi brought round-the-clock bulletins.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Media as Watchdog in the Development Decades', in plain ASCII form.",
+     "a": "development_media = watchdog_role + social_reform_message + newsreels_documentaries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.4",
+   "title": "Radio Reach Arithmetic at Independence",
+   "questions": [
+    {
+     "q": "Calculate the number of receiver sets per thousand when 280,000 sets served a population of 350 million. Use the method 'Radio Reach Arithmetic at Independence'. Work with: population = 60000, receiver_sets = 3. Carry the chain through step by step and give the final value of sets_per_thousand.",
+     "a": "0.05 units",
+     "self_check": false
+    },
+    {
+     "q": "How many radio stations existed at independence and which cities did they serve? Use the method 'Radio Reach Arithmetic at Independence'. Work with: population = 1200, receiver_sets = 15. Carry the chain through step by step and give the final value of sets_per_thousand.",
+     "a": "12.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Radio Reach Arithmetic at Independence' refers to.",
+     "a": "Radio grew from amateur ham clubs in kolkata and chennai in the 1920s into a wartime propaganda instrument and then a public broadcasting system. At independence there were six radio stations, 280,000 receiver sets and 350 million people - fewer than one set per thousand - while by 1950 licences had reached 5,46,200, and by 2000 about 110 million households, two-thirds of all indian homes, listened in 24 languages and 146 dialects.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Radio Reach Arithmetic at Independence'.",
+     "a": "The transistor revolution of the 1960s made sets mobile, battery-run and far cheaper, and air has since grown to 480 stations and 681 transmitters covering 99 percent of the people across 92 percent of the land.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Radio Reach Arithmetic at Independence', in plain ASCII form.",
+     "a": "sets_per_thousand = receiver_sets * 1000 / population",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.5",
+   "title": "Television from SITE to the Epics",
+   "questions": [
+    {
+     "q": "Using the method 'Television from SITE to the Epics', work with: colour_broadcasting = 50, rural_development_start = 240, site_experiment = 75, soap_operas = 80. Carry the chain through step by step and give the final value of tv_growth.",
+     "a": "445 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Television from SITE to the Epics' and work with: colour_broadcasting = 25, rural_development_start = 3, site_experiment = 400, soap_operas = 240. Carry the chain through step by step and give the final value of tv_growth.",
+     "a": "668 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Television from SITE to the Epics' refers to.",
+     "a": "Television began experimentally in 1959 to promote rural development; the satellite instructional television experiment (site) then beamed four hours of programmes daily to 2,400 community sets across six states between august 1975 and july 1976. Doordarshan stations stood in four cities by 1975 with three more added within a year, colour transmission arrived with the 1982 asian games, and the first long-running hindi soap hum log (1984-85, 156 episodes) drew about 50 million viewers a broadcast, ahead of buniyaad, ramayana and mahabharata.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Television from SITE to the Epics'.",
+     "a": "Once programmes could carry sponsor advertisements, entertainment aimed at the urban consuming class expanded and doordarshan earned heavy advertising revenue - the maggi noodles campaign rode in on hum log.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Television from SITE to the Epics', in plain ASCII form.",
+     "a": "tv_growth = rural_development_start + site_experiment + colour_broadcasting + soap_operas",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.6",
+   "title": "Satellite Television Homes and Viewers Growth",
+   "questions": [
+    {
+     "q": "Calculate the percentage growth in weekly satellite viewers from 134 million in 2002 to 190 million in 2005. Use the method 'Satellite Television Homes and Viewers Growth'. Work with: earlier_count = 4, later_count = 40. Carry the chain through step by step and give the final value of growth_percent.",
+     "a": "900 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How many private television networks were broadcasting by 2020, against doordarshan's how many channels? Use the method 'Satellite Television Homes and Viewers Growth'. Work with: earlier_count = 240, later_count = 75. Carry the chain through step by step and give the final value of growth_percent.",
+     "a": "-68.75 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Satellite Television Homes and Viewers Growth' refers to.",
+     "a": "Private satellite television exploded after star tv and zee tv arrived in 1991-92: weekly satellite viewers climbed from 134 million in 2002 to 190 million in 2005, homes with satellite access jumped from 40 million to 61 million over the same years, and satellite subscription now reaches 56 percent of all tv homes - with india, per trai, holding the world's second largest tv market after china.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Satellite Television Homes and Viewers Growth'.",
+     "a": "From a single state channel in 1991 to almost 70 channels by 1998, doordarshan's 35-plus channels now share the air with roughly 900 private networks broadcasting in 2020.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Satellite Television Homes and Viewers Growth', in plain ASCII form.",
+     "a": "growth_percent = added_count * 100 / earlier_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.7",
+   "title": "Cable Television Operator Growth Chain",
+   "questions": [
+    {
+     "q": "Using the method 'Cable Television Operator Growth Chain', work with: operators_1984 = 20, operators_1988 = 45, operators_1992 = 300, operators_1999 = 240. Carry the chain through step by step and give the final value of overall_multiple.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cable Television Operator Growth Chain' and work with: operators_1984 = 8, operators_1988 = 12, operators_1992 = 80, operators_1999 = 60. Carry the chain through step by step and give the final value of overall_multiple.",
+     "a": "7.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cable Television Operator Growth Chain' refers to.",
+     "a": "While doordarshan expanded in the 1980s, cable television mushroomed in the big cities: vcrs multiplied viewing choices, and by 1984 entrepreneurs in mumbai and ahmedabad were wiring apartment buildings to screen several films a day. The number of cable operators exploded from 100 in 1984 to 1,200 in 1988, 15,000 in 1992 and about 60,000 by 1999 - a six-hundredfold multiplication in fifteen years.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cable Television Operator Growth Chain'.",
+     "a": "Each interval of the chain roughly multiplied the operators a dozen-fold - twelve times by 1988, twelve and a half times by 1992, four times more by 1999.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cable Television Operator Growth Chain', in plain ASCII form.",
+     "a": "overall_multiple = operators_final / operators_start",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.8",
+   "title": "Indian Language Newspaper Revolution and CAGR",
+   "questions": [
+    {
+     "q": "Using the method 'Indian Language Newspaper Revolution and CAGR', work with: copies_2006 = 5, copies_2016 = 15. Carry the chain through step by step and give the final value of cagr_pct.",
+     "a": "11.6123 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indian Language Newspaper Revolution and CAGR' and work with: copies_2006 = 8, copies_2016 = 30. Carry the chain through step by step and give the final value of cagr_pct.",
+     "a": "14.1309 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indian Language Newspaper Revolution and CAGR' refers to.",
+     "a": "Contrary to predictions of print's decline, indian language newspapers boomed - hindi, telugu and kannada grew fastest. Average daily circulation rose from 39.1 million copies in 2006 to 62.8 million in 2016, an addition of 23.7 million copies, which the audit bureau reports as a compound annual growth rate of 4.87 percent; the north zone led at 7.83 percent while the south, west and east grew 4.95, 2.81 and 2.63 percent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indian Language Newspaper Revolution and CAGR'.",
+     "a": "Working the compound rate out from the two circulation totals reproduces the published figure - the ratio of about 1.61 over ten years compounds to roughly 4.9 percent a year.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indian Language Newspaper Revolution and CAGR', in plain ASCII form.",
+     "a": "cagr_pct = (growth_ratio ** (1/10) - 1) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.9",
+   "title": "Hindi Belt Migration and the Delhi Newspaper Market",
+   "questions": [
+    {
+     "q": "Using the method 'Hindi Belt Migration and the Delhi Newspaper Market', work with: delhi_population = 2500, migrant_pct = 100. Carry the chain through step by step and give the final value of migrant_count.",
+     "a": "2500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Hindi Belt Migration and the Delhi Newspaper Market' and work with: delhi_population = 2500, migrant_pct = 240. Carry the chain through step by step and give the final value of migrant_count.",
+     "a": "6000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hindi Belt Migration and the Delhi Newspaper Market' refers to.",
+     "a": "Migrants power the indian language press: of delhi's population of about one crore forty-seven lakh, 52 percent came from the hindi belt of uttar pradesh and bihar, and of these migrants 47 percent have rural roots while 60 percent are under forty. This is why the hindustan's delhi edition could leap from 64,000 copies in 2003 to 425,000 by 2005, and why papers like malayala manorama and eenadu built district and block editions for small-town readers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hindi Belt Migration and the Delhi Newspaper Market'.",
+     "a": "Indian language papers serve needs city papers ignore - local news, colloquial language, consumer contact programmes and door-to-door surveys - which is how dainik bhaskar and eenadu conquered the hinterland.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hindi Belt Migration and the Delhi Newspaper Market', in plain ASCII form.",
+     "a": "migrant_count = delhi_population * migrant_fraction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.10",
+   "title": "Transnational Channels and the Localisation Strategy",
+   "questions": [
+    {
+     "q": "Using the method 'Transnational Channels and the Localisation Strategy', work with: foreign_channel = 60, hindi_content = 120, regional_networks = 30. Carry the chain through step by step and give the final value of localisation.",
+     "a": "210 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Transnational Channels and the Localisation Strategy' and work with: foreign_channel = 15, hindi_content = 15, regional_networks = 360. Carry the chain through step by step and give the final value of localisation.",
+     "a": "390 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Transnational Channels and the Localisation Strategy' refers to.",
+     "a": "Until the 1970s media firms worked within national markets and separate sectors; globalisation fused once-distinct forms and threw the industry open. The gulf war of 1991 popularised cnn, star tv launched that year and zee tv followed in 1992; transnational players learned that the familiar sells best - sony began with ten hindi films a week, mtv india added hindi programming, star sports took hindi commentary, and star plus converted entirely to hindi by february 1999 with the slogan aapki boli, aapka plus point.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transnational Channels and the Localisation Strategy'.",
+     "a": "By 2000 forty private cable and satellite channels were available, several broadcasting only in regional languages such as sun tv, eenadu tv, udaya tv, raj tv and asianet, while zee built marathi and bengali networks.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transnational Channels and the Localisation Strategy', in plain ASCII form.",
+     "a": "localisation = foreign_channel + hindi_content + regional_networks",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.11",
+   "title": "Infotainment, 24x7 News and the Voyeurism Debate",
+   "questions": [
+    {
+     "q": "Using the method 'Infotainment, 24x7 News and the Voyeurism Debate', work with: audience_ratings = 5, infotainment = 8, round_the_clock_coverage = 100. Carry the chain through step by step and give the final value of new_news.",
+     "a": "113 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Infotainment, 24x7 News and the Voyeurism Debate' and work with: audience_ratings = 5, infotainment = 400, round_the_clock_coverage = 150. Carry the chain through step by step and give the final value of new_news.",
+     "a": "555 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Infotainment, 24x7 News and the Voyeurism Debate' refers to.",
+     "a": "Segmented reading habits pushed newspapers towards infotainment - a blend of information and entertainment - turning the paper into a consumer product where big numbers decide what sells. Television channels now run round the clock with lively informal news, fostering public debate yet raising the worry that serious political and economic issues get sidelined, as in the live rescue of little prince, where two channels suspended everything for two days and asked viewers to send sms messages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infotainment, 24x7 News and the Voyeurism Debate'.",
+     "a": "The prince rescue in kurukshetra - a 5-year-old trapped in a 55-ft borewell for 50 hours - split opinion between praising television for highlighting rural distress and condemning cameras for voyeurism into private moments.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Infotainment, 24x7 News and the Voyeurism Debate', in plain ASCII form.",
+     "a": "new_news = infotainment + round_the_clock_coverage + audience_ratings",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy207.12",
+   "title": "FM Radio and Community Broadcasting",
+   "questions": [
+    {
+     "q": "Using the method 'FM Radio and Community Broadcasting', work with: community_radio_potential = 50, film_music = 240, private_stations = 6. Carry the chain through step by step and give the final value of fm_era.",
+     "a": "296 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'FM Radio and Community Broadcasting' and work with: community_radio_potential = 20, film_music = 240, private_stations = 240. Carry the chain through step by step and give the final value of fm_era.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'FM Radio and Community Broadcasting' refers to.",
+     "a": "Privately owned fm stations, allowed from 2002, turned radio towards entertainment: barred from political news bulletins, they specialise in popular music for young urban listeners, and big media houses own them - radio mirchi belongs to the times of india group, red fm to living media, radio city to the star network - while an independent public radio like npr or the bbc is missing from india. In bihar, raghav mahato's mansoorpur fm shows community radio's promise: a 50-rupee transmission kit, a 20 km radius and twelve hours of songs and local alerts daily.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'FM Radio and Community Broadcasting'.",
+     "a": "Raghav's shack station - films songs, hiv and polio messages, missing-children alerts and bhojpuri devotional songs at dawn and dusk - won more listeners than local politicians, though it runs without a government license.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'FM Radio and Community Broadcasting', in plain ASCII form.",
+     "a": "fm_era = private_stations + film_music + community_radio_potential",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

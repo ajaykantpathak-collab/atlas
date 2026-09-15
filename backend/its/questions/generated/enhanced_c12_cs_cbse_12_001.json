@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_001",
+   "title": "c12_cs_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the primary difference between a computer virus and a computer worm in terms of how they spread?",
+     "a": "A virus requires a host program and human action (like opening an infected file) to replicate and spread, whereas a worm is a standalone program that can self-replicate and spread automatically across networks without user interaction.  \nA wrong answer (e.g., \"both need a host file\" or \"both spread only via email\") reveals the student confuses the replication mechanism — a critical distinction because worms can cause faster, uncontrolled outbreaks (e.g., WannaCry) while viruses often rely on social engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why HTTPS is considered secure for online banking while HTTP is not, using the terms \"encryption\" and \"plain text\" in your answer.",
+     "a": "HTTPS encrypts data before transmission, so even if intercepted, the information appears as unreadable ciphertext; HTTP sends data in plain text, allowing anyone monitoring the network to read passwords, card numbers, or personal details directly.  \nA wrong answer (e.g., \"HTTPS is just faster\" or \"HTTP uses a firewall\") shows the student misunderstands the core security mechanism — encryption — and may incorrectly believe visual cues (like a padlock icon) alone guarantee safety without understanding the underlying protocol.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses a free public Wi‑Fi at a café to log into their school email. They see \"http://\" in the address bar. Identify the specific cyber threat this exposes them to and name one tool that could mitigate it.",
+     "a": "The threat is **snooping (or sniffing)** — an attacker on the same network can capture unencrypted HTTP traffic and read the login credentials in plain text. A tool to mitigate this is a **VPN (Virtual Private Network)**, which encrypts all traffic between the device and the VPN server, making snooping ineffective.  \nA wrong answer (e.g., \"phishing\" or \"antivirus\") indicates the student cannot match the threat to the vulnerability (unencrypted channel) or selects a tool that doesn't address network-level interception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a DoS attack and a DDoS attack in terms of source, scale, and difficulty of mitigation. Which is more dangerous for a large e‑commerce site during a sale? Justify.",
+     "a": "A DoS attack originates from a single source, making it easier to block by filtering that IP; a DDoS attack uses a botnet of compromised devices (zombies) distributed globally, generating massive traffic from thousands of IPs, making filtering extremely difficult without blocking legitimate users. For a large e‑commerce site during a sale, **DDoS is far more dangerous** because the distributed nature mimics legitimate high traffic, overwhelming the server while evading simple IP-based defenses.  \nA wrong answer (e.g., \"DoS is worse because it's faster\" or \"both are same\") shows the student misses the critical role of distribution in evading mitigation — a key concept in network security design.",
+     "self_check": true
+    },
+    {
+     "q": "A company installs a firewall but still suffers a data breach because an employee clicked a malicious email attachment that installed a keylogger. Evaluate whether the firewall failed, and explain what additional layer of defense was missing.",
+     "a": "The firewall did **not** necessarily fail — it is designed to filter *network traffic* based on rules, not to inspect user actions like opening email attachments. The missing layer is **endpoint protection** (antivirus/anti‑malware with real‑time scanning) and **user awareness training** to prevent social engineering. Firewalls are perimeter defenses; they cannot stop threats that originate from inside the trusted network via user interaction.  \nA wrong answer (e.g., \"firewall should have blocked the email\" or \"firewall is useless\") reveals a misconception that firewalls inspect content of all user actions — they don't. This confusion leads to over‑reliance on a single control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3‑step \"Cyber Safety Checklist\" for a Class 12 student who uses a shared computer in a school lab for online exam registration. Each step must address a different threat category covered in this node.",
+     "a": "A strong checklist (example):\n1. **Verify HTTPS & Padlock** before entering any credentials — prevents snooping/eavesdropping on unencrypted HTTP (network threat).\n2. **Use the on‑screen virtual keyboard** (randomized layout) for password entry — defeats hardware/software keyloggers (malware threat).\n3. **Log out completely, clear browser cache/cookies, and avoid saving passwords** — prevents session hijacking and data leakage via cookies (privacy/threat from shared device).  \nA poor answer (e.g., \"install antivirus, use strong password, don't click links\") mixes generic advice without mapping each step to a distinct threat category from this node (malware, network, privacy), showing the student cannot categorize threats or apply layered defense.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

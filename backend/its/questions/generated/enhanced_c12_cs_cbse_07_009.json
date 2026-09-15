@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_009",
+   "title": "c12_cs_cbse_07_009",
+   "questions": [
+    {
+     "q": "Write the canonical SOP (Σm) expression for a 3-variable function F(A,B,C) that is 1 only for minterms 1, 3, and 6.",
+     "a": "Correct answer: F(A,B,C) = Σm(1,3,6) = A'B'C + A'BC + AB'C'. A wrong answer like Σm(1,3,5) reveals the student cannot map decimal indices to binary variable patterns (e.g., 5 is 101 → AB'C, not AB'C'). This indicates a gap in converting between decimal minterm numbers and their literal forms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the canonical POS form uses maxterms corresponding to the 0-rows of the truth table, and how the maxterm for row 000 becomes (A+B+C).",
+     "a": "Correct explanation: A maxterm is a sum that is 0 for exactly one input combination. For row 000, we need a sum that is 0 only when A=0, B=0, C=0. Since 0+0+0=0 but any 1 makes the sum 1, the literals must be A, B, C (true form) so that when all are 0 the sum is 0. A wrong answer that writes (A'+B'+C') for row 000 shows the student confuses the polarity: they think complemented literals give 0 when inputs are 0, but actually A'=1 when A=0, making the sum 1. This is the classic \"maxterm polarity\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Given the truth table for F(A,B) below, write both canonical SOP and canonical POS expressions.\n| A | B | F |\n|---|---|---|\n| 0 | 0 | 1 |\n| 0 | 1 | 0 |\n| 1 | 0 | 0 |\n| 1 | 1 | 1 |",
+     "a": "SOP: F = Σm(0,3) = A'B' + AB. POS: F = ΠM(1,2) = (A+B')(A'+B). A wrong SOP like A'B + AB' (minterms 1 and 2) means the student selected the 0-rows instead of 1-rows. A wrong POS like (A+B)(A'+B') (maxterms 0 and 3) means they selected the 1-rows for POS. This exposes confusion between \"SOP uses 1-rows\" and \"POS uses 0-rows\".",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The canonical SOP of a function is the complement of its canonical POS.\" Is this true? Justify your answer with a 2-variable example.",
+     "a": "False. The canonical SOP and canonical POS represent the *same* function, not complements. For F(A,B)=A⊕B (XOR), SOP = Σm(1,2)=A'B+AB', POS = ΠM(0,3)=(A+B)(A'+B'). They are equal, not complements. The complement of F would be Σm(0,3) or ΠM(1,2). A student who answers \"true\" likely confuses the relationship between minterms and maxterms of the *complement* function: F' = Σm(indices not in F) = ΠM(indices in F). This is a critical distinction for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"For any Boolean function, the number of minterms in its canonical SOP plus the number of maxterms in its canonical POS always equals 2^n, where n is the number of variables.\" Is this always true? Provide a proof or counterexample.",
+     "a": "True. A truth table has 2^n rows. Each row is either a 1-row (giving a minterm in SOP) or a 0-row (giving a maxterm in POS), never both. Hence #minterms + #maxterms = total rows = 2^n. A student who says \"false\" might think of don't-care conditions, but canonical forms assume a completely specified function. This tests understanding of the exhaustive partition of the truth table.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-variable Boolean function F(A,B,C) such that its canonical SOP contains exactly four minterms and its canonical POS contains exactly four maxterms. Write both forms and verify they are equivalent.",
+     "a": "Any function with four 1-rows and four 0-rows works. Example: F = Σm(0,1,2,3) = A'B'C' + A'B'C + A'BC' + A'BC = A' (since it's independent of B,C). POS = ΠM(4,5,6,7) = (A+B+C)(A+B+C')(A+B'+C)(A+B'+C') = A'. A poor answer might give a function with 3 minterms and 5 maxterms (sum=8) but then the forms wouldn't match the requirement of \"exactly four each\". This checks if the student can design a balanced truth table and simplify to verify equivalence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

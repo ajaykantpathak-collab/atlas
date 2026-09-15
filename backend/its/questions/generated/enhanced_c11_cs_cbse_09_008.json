@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_008",
+   "title": "c11_cs_cbse_09_008",
+   "questions": [
+    {
+     "q": "What is the return value of `f.tell()` immediately after executing `f = open('data.txt', 'r'); f.read(10)` assuming the file contains at least 10 characters?",
+     "a": "The return value is 10 (or possibly more if newline translation occurs in text mode on Windows). A wrong answer like 0 reveals the student thinks `tell()` returns the number of characters *remaining* or resets after each read; an answer like \"depends on encoding\" shows confusion between text and binary mode pointer semantics — in text mode, `tell()` returns an opaque cookie, not a reliable byte count, which is why binary mode is required for predictable arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `f.seek(5, 1)` moves the pointer 5 bytes forward from the *current* position in a binary file, but may raise `io.UnsupportedOperation` or behave unpredictably in a text file opened with `open('data.txt', 'r')`.",
+     "a": "In binary mode, the file pointer is a true byte offset, so `whence=1` (SEEK_CUR) adds the offset to the current byte position. In text mode, the pointer is an opaque \"cookie\" because of variable-width encoding (UTF-8) and newline translation (`\\r\\n` → `\\n`); Python only guarantees `seek(offset, 0)` with `offset=0` or an offset previously returned by `tell()`. A student who says \"it works the same\" misunderstands that text mode abstracts away byte positions for portability.",
+     "self_check": true
+    },
+    {
+     "q": "A binary file `records.bin` contains fixed-length records of exactly 32 bytes each. Write a code snippet to read the 5th record (0-indexed) directly without reading the first four records.",
+     "a": "```python\nwith open('records.bin', 'rb') as f:\n    f.seek(4 * 32, 0)  # 4 records × 32 bytes = byte 128\n    record = f.read(32)\n```\nA wrong answer using `f.read(128)` then `f.read(32)` shows the student still thinks sequentially; using `seek(5*32)` reveals off-by-one confusion (0-indexed vs 1-indexed); omitting `,0` (default is 0 anyway) is acceptable but explicit `0` (SEEK_SET) demonstrates clearer understanding of the reference point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effect of `f.seek(-10, 2)` on a file opened as `'rb'` versus `'r'` when the file ends with a Windows-style `\\r\\n` newline sequence. What does `f.tell()` return after each?",
+     "a": "In `'rb'`: pointer moves 10 bytes before the physical end of file; `tell()` returns `file_size - 10`. In `'r'` (text mode on Windows): the file size reported by the OS includes `\\r\\n` as two bytes, but Python translates them to `\\n` (one character), so the logical position is not a simple byte offset; `seek(-10, 2)` may raise `UnsupportedOperation` or land at an unpredictable logical position because `whence=2` (SEEK_END) is not guaranteed in text mode. A student who claims both return the same value ignores newline translation and encoding layers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to print the last line of a large text file efficiently:\n```python\nwith open('large_log.txt', 'r') as f:\n    f.seek(-100, 2)\n    last_chunk = f.read()\n    print(last_chunk.split('\\n')[-1])\n```\nCritique this approach: identify two specific failure modes and propose a robust binary-mode alternative.",
+     "a": "Failure mode 1: `seek(-100, 2)` is not supported in text mode (raises `UnsupportedOperation` on many platforms). Failure mode 2: even if it worked, the last 100 *characters* might split a multi-byte UTF-8 character or fall in the middle of a line, and `split('\\n')[-1]` would return a fragment, not the full last line. Robust alternative: open in `'rb'`, seek from end in small chunks (e.g., 1024 bytes), decode each chunk, find the last `\\n`, and handle multi-byte boundaries correctly. A student who only mentions \"encoding issues\" misses the text-mode `seek` restriction entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python function `tail_n_lines(filename: str, n: int) -> list[str]` that returns the last `n` lines of a text file *without reading the entire file into memory*, using only `seek`, `tell`, `read`, and binary mode operations. Handle files smaller than the read buffer and multi-byte UTF-8 characters correctly.",
+     "a": "A strong answer implements a reverse chunk reader: start at `SEEK_END`, read 4KB chunks backward, accumulate bytes in a buffer, decode with `errors='ignore'` or incremental decoder, split on `b'\\n'`, and stop when `n` lines are found. Key details: use `f.seek(max(0, pos - chunk_size), 0)` to avoid negative positions, handle the final partial chunk, and reverse the collected lines at the end. A poor answer uses `readlines()` or assumes fixed line length, showing inability to compose random-access primitives into a higher-level algorithm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

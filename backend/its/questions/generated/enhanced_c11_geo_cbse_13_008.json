@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_008",
+   "title": "c11_geo_cbse_13_008",
+   "questions": [
+    {
+     "q": "List three major benefits of large multipurpose dams in India and name one iconic dam associated with each benefit.",
+     "a": "Correct answer: (1) Irrigation — Bhakra-Nangal Dam (Sutlej) enables irrigation of ~1.4 million hectares in Punjab, Haryana, Rajasthan. (2) Hydroelectric power — Tehri Dam (Bhagirathi) with 1,000 MW installed capacity. (3) Flood control — Damodar Valley Corporation dams (Damodar) tame the \"Sorrow of Bengal\". A wrong answer (e.g., naming only power benefits or confusing dams with barrages) reveals the student cannot differentiate between the multiple objectives of a single project or link specific dams to their primary functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why large dams cause disproportionate displacement of tribal and forest-dwelling communities in India, referencing the Forest Rights Act, 2006.",
+     "a": "Correct answer: Dam reservoirs submerge valley floors and lower slopes where tribal communities have historically practiced shifting cultivation and gathered forest produce. The Forest Rights Act, 2006 recognizes their customary rights, but compensation often relies on individual land titles, ignoring community forest rights. A wrong answer focusing only on \"lack of land records\" misses the structural issue: the spatial overlap of dam sites (narrow gorges in forested hills) with tribal habitats, and the legal gap between individual vs. community tenure.",
+     "self_check": true
+    },
+    {
+     "q": "Given a river with annual sediment load of 120 million tonnes and a dam that traps 85% of incoming sediment, calculate the annual sediment outflow downstream and the percentage reduction in delta sediment supply if the pre-dam delta received the full load.",
+     "a": "Step 1: Sediment trapped = 120 × 0.85 = 102 million tonnes/year. Step 2: Sediment outflow = 120 − 102 = 18 million tonnes/year. Step 3: Reduction in delta supply = (102/120) × 100 = 85%. A wrong answer (e.g., calculating trapped sediment as 15% or confusing outflow with trapped amount) reveals the student cannot apply the sediment trap efficiency concept to quantify downstream geomorphic impact.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impacts of the Bhakra-Nangal Dam (Sutlej, Himachal Pradesh) and the Tehri Dam (Bhagirathi, Uttarakhand) on riverine ecology and seismic risk.",
+     "a": "Correct answer: Bhakra-Nangal (gravity dam, 1963) altered Sutlej’s flow regime, reducing downstream sediment and affecting Punjab’s aquifer recharge; located in moderate seismic zone (Zone IV). Tehri (rock-fill dam, 2006) submerged 42 km² of forest in a high seismic zone (Zone V), raising reservoir-induced seismicity concerns; blocks migratory fish (mahseer) more severely due to greater height (260 m vs 226 m). A wrong answer treating both as identical \"large dams\" ignores how dam type, height, geological setting, and river ecology create distinct impact profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the Sardar Sarovar Dam’s irrigation benefits (1.8 million hectares in Gujarat) justify the displacement of ~250,000 people (mostly tribal) and the loss of estuarine fisheries in the Gulf of Khambhat.",
+     "a": "Justified evaluation: Benefits are concentrated in water-scarce Gujarat (agricultural GDP, drinking water for 131 towns), but costs are borne by Maharashtra/Madhya Pradesh tribals with inadequate rehabilitation (land-for-land not fulfilled). Estuarine fishery collapse affects 10,000+ fishing families. A purely economic cost-benefit ratio may favor the dam, but a sustainability lens incorporating inter-generational equity, cultural rights, and ecosystem services suggests the trade-off is unfavorable without full compliance with rehabilitation norms and environmental flow releases. A wrong answer giving a simple \"yes/no\" without weighting distributional justice reveals an inability to integrate socio-ecological dimensions into geographical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rehabilitation and ecological mitigation plan for a proposed 150 m high dam on the Subansiri River (Arunachal Pradesh) that would submerge 3,000 hectares of tropical forest and displace 5,000 Adi tribal families.",
+     "a": "A strong answer includes: (1) Land-for-land compensation with community forest rights titles under FRA 2006 before submergence. (2) Livelihood restoration: horticulture, fisheries in reservoir, skill training. (3) Environmental flows: mimic natural flood pulse (monsoon peak, lean season base flow) for downstream wetlands and fish migration. (4) Biodiversity offset: fund equivalent forest conservation in adjacent Dibang Valley. (5) Seismic monitoring network and emergency action plan. A poor answer focusing only on cash compensation or ignoring environmental flows shows the student cannot translate geographical concepts (flow regime, tribal tenure, seismic hazard) into actionable policy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

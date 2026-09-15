@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_005",
+   "title": "c10_geo_cbse_04_005",
+   "questions": [
+    {
+     "q": "Name the two main cropping seasons in which pulses are grown in India, and give one example of a pulse crop for each season.",
+     "a": "Pulses are grown in both Kharif (e.g., arhar/tur, urad, moong) and Rabi (e.g., gram/chana, masoor, peas) seasons. A wrong answer (e.g., \"only Kharif\" or naming wheat/rice as pulses) reveals the student hasn't grasped that pulses are unique among major crops for spanning both seasons, and confuses cereals with legumes — a distinction critical for understanding crop rotation and nitrogen fixation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sugarcane cultivation concentrated in Uttar Pradesh and Maharashtra despite both states having very different climatic zones? Explain using temperature and rainfall requirements.",
+     "a": "Sugarcane requires high temperature (21–27°C) and high rainfall (75–100 cm) or assured irrigation. Uttar Pradesh (subtropical Gangetic plain) meets this via monsoon rain plus canal irrigation; Maharashtra (Deccan Plateau) relies on irrigation (dams/canals) to compensate for lower rainfall. A wrong answer citing \"both have high rainfall\" ignores Maharashtra's rain-shadow region and misses the role of irrigation — a classic board exam trap where students overlook human modification of water availability.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Madhya Pradesh wants to grow soyabean (Kharif oilseed) and mustard (Rabi oilseed) in rotation. The region receives 90 cm annual rainfall, mostly June–September, with black cotton soil. Identify which crop is better suited and why, using soil moisture retention and seasonal rainfall distribution.",
+     "a": "Soyabean (Kharif) is better suited: it uses the June–September monsoon rainfall (90 cm) directly during its growing period, and black cotton soil retains moisture well for its 90–120 day cycle. Mustard (Rabi) would face moisture stress post-monsoon unless irrigated. A wrong choice (mustard) shows the student doesn't link seasonal rainfall timing to crop water needs — a frequent error in case-based questions where rainfall distribution matters more than annual total.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical reasons why tea is grown on the hill slopes of Assam and Darjeeling, while coffee is confined to the Western Ghats (Karnataka, Kerala, Tamil Nadu). Focus on temperature range, rainfall, and slope requirements.",
+     "a": "Tea (Assam/Darjeeling): 20–30°C, 150–250 cm rainfall, well-drained hill slopes prevent waterlogging. Coffee (Western Ghats): 15–28°C, 150–250 cm rainfall, shade-loving, requires well-drained laterite soil on slopes. Both need high rain and drainage, but coffee's narrower temperature tolerance and shade requirement restrict it to the Western Ghats' specific microclimate, while tea adapts to broader sub-tropical hill zones. A wrong answer listing identical conditions for both misses the critical distinction: coffee cannot tolerate direct sun or frost, unlike tea — a nuance tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of expanding sugarcane cultivation in Maharashtra's Marathwada region, which receives only 60–70 cm annual rainfall and faces recurring groundwater depletion. Justify using the crop's water requirement and the concept of virtual water.",
+     "a": "Unsustainable. Sugarcane needs 1500–2500 mm water (via rain + irrigation); Marathwada's 600–700 mm rainfall creates a massive deficit met by groundwater extraction, lowering water tables and reducing water for drinking/other crops. Virtual water export (water embedded in sugar) from a water-scarce region worsens local scarcity. A \"sustainable\" verdict ignoring groundwater data or virtual water concept shows inability to evaluate resource use beyond textbook definitions — a key competency-based question skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping pattern for a 5-hectare farm in the Bundelkhand region (Uttar Pradesh/Madhya Pradesh) with low rainfall (80 cm), rocky terrain, and poor soil fertility. The farmer wants food security, soil improvement, and cash income. Specify crops for Kharif, Rabi, and Zaid with geographical justification.",
+     "a": "Kharif: Arhar/tur (pulse) — drought-tolerant, deep roots, fixes nitrogen, grows on poor soil. Rabi: Gram/chana (pulse) — low water need, cold-tolerant, further enriches soil. Zaid: Moong (short-duration pulse) or sesame (oilseed) if residual moisture exists. Justification: Pulses match low rainfall, improve fertility for subsequent crops, provide protein (food security), and arhar/gram have market demand (cash). A pattern using water-intensive crops (rice, sugarcane) or ignoring soil fertility shows failure to apply agro-climatic matching to real constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 116,
+  "chapter_title": "Mother Tongue",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww116.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww116.1.1",
+      "title": "Asking the Reed for a Quill",
+      "section": "1",
+      "definition": "Padma Sachdev's poem begins as a folk-tale request: the speaker approaches a swinging reed and asks it for a quill. The reed, irritated, protests that it gave one only the other day -- a new one -- and asks how many quills she intends to write with.",
+      "formula": "",
+      "key_idea": "A quill from a living reed -- language imagined as a gift that nature grants, and keeps granting.",
+      "textbook_ref": "keww116.txt opening stanzas (approached a stem swinging on a reed, asked for a quill, irritated reply, how many quills do you need)",
+      "question_patterns": [
+        "what does the speaker ask the reed for in mother tongue",
+        "in class 11 mother tongue: why is the reed irritated with the speaker",
+        "explain the folk tale quality of the opening stanzas",
+        "how many quills does the speaker ask for and what does she plan to write",
+        "what is a quill traditionally used for",
+        "why does the poet personify the reed"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the request",
+          "explain": "The speaker personifies the reed, asking it for a quill as one would ask a friend for a pen."
+        },
+        {
+          "step": 2,
+          "action": "note the protest",
+          "explain": "The reed's irritation -- didn't I give you one just days ago? -- makes the gift of language a repeated, precious transaction."
+        },
+        {
+          "step": 3,
+          "action": "sense the dialogue",
+          "explain": "The chatty exchange gives the poem a fairy-tale door into its real subject: the mother tongue."
+        }
+      ]
+    },
+    {
+      "id": "keww116.1.2",
+      "title": "The Quill for the Mother Tongue, and the Vanishing Script",
+      "section": "1",
+      "definition": "The speaker explains herself: she needs the quill to write letters in her mother tongue, Dogri -- to keep alive a language whose script is vanishing, its words carried now in borrowed letters. The reed, softened by the answer, becomes generous, offering quill after quill, moved that its gift serves the tongue of a people.",
+      "formula": "",
+      "key_idea": "A reed's feather keeps a language breathing -- writing as an act of cultural rescue.",
+      "textbook_ref": "keww116.mp3 later stanzas (keww116.txt: dogri language, vanishing script, letters to keep the language alive, reed softened and generous, quills offered again)",
+      "question_patterns": [
+        "why does the speaker want the quill in mother tongue",
+        "in class 11 mother tongue: what does the poem say about the dogri language and its script",
+        "how does the reed react when it learns the purpose",
+        "what does the poem suggest about vanishing languages",
+        "why is the mother tongue compared to something to be preserved",
+        "explain the change in the reed's attitude in the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "reveal the purpose",
+          "explain": "The quill is for letters in Dogri, the speaker's mother tongue, keeping a fading language in daily use."
+        },
+        {
+          "step": 2,
+          "action": "note the loss",
+          "explain": "The script of the language is vanishing -- writing in the tongue is rescue work."
+        },
+        {
+          "step": 3,
+          "action": "watch the generosity",
+          "explain": "Moved by the cause, the reed abandons its grumbling and offers its quills freely."
+        }
+      ]
+    },
+    {
+      "id": "keww116.1.3",
+      "title": "The Mother Tongue as Heritage to Protect",
+      "section": "1",
+      "definition": "The poem's larger theme is heritage: a mother tongue, like the reed standing on the riverbank, is a living inheritance that asks to be used, not discarded. Writing letters in Dogri becomes the speaker's small daily act of protecting a language whose fate rests with its ordinary speakers.",
+      "formula": "",
+      "key_idea": "Languages survive in daily letters, not in museums -- using the mother tongue is protecting it.",
+      "textbook_ref": "keww116.txt whole poem (mother tongue as living inheritance, daily use in letters, responsibility of speakers to the language)",
+      "question_patterns": [
+        "what does the poem suggest about our duty to the mother tongue",
+        "in class 11 mother tongue: why must a language be used to stay alive",
+        "how is the mother tongue compared to a living inheritance in the poem",
+        "what happens to languages their speakers stop using",
+        "explain the connection between the reed, the quill and language preservation",
+        "what small acts can keep a mother tongue alive according to the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the inheritance",
+          "explain": "The tongue learnt at the mother's knee is received like an heirloom -- held in trust."
+        },
+        {
+          "step": 2,
+          "action": "read the practice",
+          "explain": "Every letter written in Dogri exercises the inheritance, keeping speech and script alive."
+        },
+        {
+          "step": 3,
+          "action": "read the warning",
+          "explain": "Neglect lets a language fade as its script fades; use is the only preservation the poem recommends."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww116.txt later stanzas",
+      "concept": "keww116.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why is the reed's changed attitude significant in the poem?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the irritation",
+          "explain": "At first the reed grumbles at being asked for quills so often."
+        },
+        {
+          "step": 2,
+          "action": "recall the cause",
+          "explain": "Learning that the quills serve the mother tongue, Dogri, and its vanishing script, the reed softens."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Nature itself becomes an ally of language preservation -- the poem's gentliest irony turned warm."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww116.txt opening stanzas",
+      "concept": "keww116.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "What folk-tale elements do you find in the opening of Mother Tongue?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the talking nature",
+          "explain": "A reed that speaks, grumbles and grants wishes belongs to the world of folk tales."
+        },
+        {
+          "step": 2,
+          "action": "note the simple quest",
+          "explain": "A single request -- a quill -- drives the little narrative like a tale's premise."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The folk frame carries a serious modern concern -- the fate of a small language."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww116.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What request does the speaker make to the reed and why?",
+        "Why is the reed irritated at first?",
+        "What does the poem say about the Dogri language?",
+        "Explain the significance of the title Mother Tongue.",
+        "How does the poem combine folk tale and modern concern?",
+        "What message does the poem carry about languages today?"
+      ]
+    }
+  ]
+}

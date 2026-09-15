@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_01_014",
+   "title": "c12_hin_ar_cbse_01_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing structured answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorized a mnemonic without understanding the function of each component — they will likely write answers that list quotes without explaining their significance.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"vkyksd èkUok\", the speaker says \"eSa tx&thou dk Hkkj fy, fiQjrk gw¡\". If a student writes: \"The speaker wants to sacrifice for the nation because he loves his country,\" what critical element of PEEL is missing?",
+     "a": "The student states a Point but provides no Evidence (direct textual reference) and no Explanation of how the quoted line supports the claim. The answer remains an unsupported assertion. A correct PEEL response would quote the line, explain the metaphor of 'yajna' (sacrifice) as a voluntary offering of self, and link it to the speaker's rejection of imposed identities.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a strong PEEL paragraph: \"The poem shows the poet is rebellious. He doesn't listen to anyone. He wants to be free. This is shown in the lines where he says he doesn't know fear.\"",
+     "a": "Strong answer: \"The poem establishes the speaker's rebellion through a deliberate rejection of external authority (Point). In the stanza beginning 'eSa Lusg&lqjk dk iku fd;k djrk gw¡', the speaker declares he has never learnt fear (Evidence). The verb 'fd;k djrk' (have done/made) implies a conscious lifelong choice, not mere ignorance, framing fearlessness as a cultivated ethos (Explanation). This self-fashioned courage directly enables the speaker's assertion of individuality against societal pressure, which is the poem's central conflict (Link).\" The weak answer lacks textual precision, analytical depth, and thematic linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two student responses to the question \"Discuss the significance of the line 'eSa nqfu;k dk g¡w ,d u;k nhokuk!'\". Response A: \"The speaker says he is a unique gift of nature.\" Response B: \"The metaphor 'nhokuk' (gift) positions the speaker as nature's exclusive creation, not a mass-produced entity. The adjective 'u;k' (unique) and the exclamatory tone assert irreducible individuality, directly challenging the collectivist mindset critiqued in the poem.\" Which response demonstrates ANALYZE-level thinking? Why?",
+     "a": "Response B demonstrates ANALYZE-level thinking because it breaks down the metaphor ('nhokuk'), examines word choice ('u;k'), considers tone (exclamatory), and connects the line to the poem's broader critique of collectivism. Response A merely paraphrases (REMEMBER level). A student who cannot distinguish these levels will write descriptive answers that score 2/6 instead of 5/6.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes in the exam: \"The poet uses irony when he says 'tx Hko&lkxj rjus dks uko cuk,] eSa Hko ekStksa ij eLr cgk djrk gw¡' because he is actually afraid of defeat.\" Evaluate this interpretation. Is it valid? Justify.",
+     "a": "The interpretation is invalid. The lines describe the speaker transforming defeat (Hko) into a platform (ekStksa) by standing on its shoulders — a metaphor for resilience, not irony. Irony would require a contrast between literal and intended meaning; here the meaning is direct and affirmative. The student confuses 'paradox' with 'irony' and misreads the agency of the speaker. This error costs marks because it shows misunderstanding of both the device and the speaker's persona.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence PEEL paragraph answering: \"How does the repetition of 'fy, fiQjrk gw¡' (I am ready to sacrifice) structure the poem's argument?\"",
+     "a": "The anaphoric repetition of 'fy, fiQjrk gw¡' creates a rhythmic manifesto of voluntary self-offering (Point). It appears in seven stanzas, each attaching the refrain to a different domain — nation, love, truth, marginalized, etc. (Evidence). This syntactic parallelism transforms abstract willingness into a concrete, expanding inventory of commitments, showing that the speaker's identity is defined by chosen sacrifices, not imposed labels (Explanation). Thus, the refrain structurally enacts the poem's core thesis: selfhood is forged through deliberate, conscious giving (Link). A poor answer would merely count repetitions without analyzing their cumulative rhetorical effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

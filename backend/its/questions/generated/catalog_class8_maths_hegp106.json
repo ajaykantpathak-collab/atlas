@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class8_maths_hegp106.json",
+ "concepts": [
+  {
+   "id": "hegp.106.6.1",
+   "title": "Distributive Property of Multiplication over Addition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -2 + (-6) gives -8",
+     "compute": "total = -2 + (-6)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers -2 and -6.",
+     "a": "-8",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -8 on a number line and moves 25 steps (negative means left). Where does it finish?",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 6 and -9.",
+     "a": "-54",
+     "self_check": false
+    },
+    {
+     "q": "Divide -137 by -4.",
+     "a": "34.25",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 8 and return it.",
+     "a": "-8",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 9 x 7 + 9 x 7 as 9 x (7 + 7).",
+     "a": "126",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.106.6.2",
+   "title": "How Products Increase When Factors Grow",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 4 when x = 8.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4x^2 + 5x + 5 when x = 6.",
+     "a": "179",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 6x + 8x - 5x and give the coefficient of x.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 5 x (3 + 7) equals 5 x 3 + 5 x 7. Compute it.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 4 x 3 (respect the order of operations).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3 + 9) x 6.",
+     "a": "72",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.106.6.3",
+   "title": "Square of a Sum (Identity 1A)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 20.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 47 m. What is the number of square metres in its area?",
+     "a": "2209",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 3^2 and 4^2? (Rule: 2 x n)",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 11 x 9.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 76?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 8. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "17",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.106.6.4",
+   "title": "Square of a Difference (Identity 1B)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 14.",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 26 m. What is the number of square metres in its area?",
+     "a": "676",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 8^2 and 9^2? (Rule: 2 x n)",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 5 x 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 89?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 10. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.106.6.5",
+   "title": "Sum Times Difference (Identity 1C)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 2 more than 12; report the value.",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 12^2 - 2 x 12 x 7 + 7^2.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 14 x 6 where the numbers are a + b and a - b for a = 10, b = 4.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 6)(x + 3) using the identity x^2 + (a + b)x + ab and evaluate it at x = 7.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "Compute 102^2 using (100 + 2)^2 = 10000 + 2 x 100 x 2 + 2^2.",
+     "a": "10404",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.106.6.6",
+   "title": "Twice the Sum of Squares Pattern",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 32 ** 2 gives 1024",
+     "compute": "sq = 32 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 32.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 48 m. What is the number of square metres in its area?",
+     "a": "2304",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 2^2 and 3^2? (Rule: 2 x n)",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 4 x 2.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 26?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 20. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "101",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

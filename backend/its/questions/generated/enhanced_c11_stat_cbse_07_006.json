@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_006",
+   "title": "c11_stat_cbse_07_006",
+   "questions": [
+    {
+     "q": "Write the complete formula for Karl Pearson's correlation coefficient using the assumed mean method, defining every symbol used.",
+     "a": "r = [NΣdxdy - (Σdx)(Σdy)] / √[NΣdx² - (Σdx)²] × √[NΣdy² - (Σdy)²] where dx = X - A_x, dy = Y - A_y, A_x and A_y are assumed means for X and Y series respectively, N is number of pairs. A wrong answer (e.g., missing the N factor, using actual mean symbols, or omitting the cross-product term) reveals the student has memorised the actual mean formula but doesn't understand how the assumed mean substitution alters each component.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates r using assumed means A_x = 10, A_y = 15 and gets r = 0.85. They then recalculate using A_x = 12, A_y = 18 and get r = 0.72. Explain why this is impossible and identify the likely error.",
+     "a": "The correlation coefficient is invariant to change of origin (choice of assumed mean). Both calculations must yield identical r. The student likely made an arithmetic error in the second calculation - most commonly, forgetting to update Σdx and Σdy when changing assumed means, or incorrectly computing new dx, dy values. This misconception shows they treat assumed mean as a parameter affecting the result rather than a computational convenience.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: X: 12, 15, 18, 21, 24 and Y: 25, 30, 35, 40, 45. Calculate r using assumed means A_x = 18, A_y = 35. Show the complete table and all summation values.",
+     "a": "Table:\nX | Y | dx=X-18 | dy=Y-35 | dx² | dy² | dxdy\n12 | 25 | -6 | -10 | 36 | 100 | 60\n15 | 30 | -3 | -5 | 9 | 25 | 15\n18 | 35 | 0 | 0 | 0 | 0 | 0\n21 | 40 | 3 | 5 | 9 | 25 | 15\n24 | 45 | 6 | 10 | 36 | 100 | 60\nΣ | | 0 | 0 | 90 | 250 | 150\nr = [5(150) - (0)(0)] / √[5(90)-0] × √[5(250)-0] = 750 / √450 × √1250 = 750 / (21.213 × 35.355) = 750/750 = 1. A wrong answer (e.g., r ≠ 1) reveals computational errors in deviations or summations, or misunderstanding that perfect linear relationship gives r = ±1 regardless of assumed mean.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the assumed mean method with the actual mean method for the data in Question 3. Prove algebraically that both yield identical r. What property of correlation does this demonstrate?",
+     "a": "Actual means: X̄ = 18, Ȳ = 35. Deviations from actual mean are identical to dx, dy above since A_x = X̄ and A_y = Ȳ. Thus all summations match exactly. Algebraically: Σ(X-X̄)(Y-Ȳ) = Σ[(X-A_x)-(X̄-A_x)][(Y-A_y)-(Ȳ-A_y)] = Σdxdy - N(X̄-A_x)(Ȳ-A_y). But Σdx = N(X̄-A_x) and Σdy = N(Ȳ-A_y). Substituting into assumed mean formula numerator: NΣdxdy - ΣdxΣdy = N[Σdxdy - N(X̄-A_x)(Ȳ-A_y)] = NΣ(X-X̄)(Y-Ȳ). Denominator terms simplify similarly. This demonstrates the **origin invariance** property of correlation coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"For large datasets, the assumed mean method is obsolete because computers use the actual mean method directly.\" Evaluate this claim. When might the assumed mean method still be preferred in practice?",
+     "a": "The claim is partially true for automated computation but false for human calculation and pedagogical understanding. The assumed mean method remains valuable when: (1) Manual calculation is required (board exams), (2) Data has large values where actual mean yields awkward decimals, (3) Teaching the origin-invariance property, (4) Quick mental estimation - choosing A_x, A_y near data centre minimises deviation magnitudes. A poor evaluation would ignore exam context or the conceptual insight about invariance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a bivariate dataset of 6 pairs where the actual means are non-integers but choosing appropriate assumed means makes all deviations integers. Calculate r using your chosen assumed means. Verify by computing actual means and showing the deviations match.",
+     "a": "Example dataset: X: 14, 17, 20, 23, 26, 29 (X̄ = 21.5) Y: 32, 38, 44, 50, 56, 62 (Ȳ = 47)\nChoose A_x = 20, A_y = 44.\ndx: -6, -3, 0, 3, 6, 9 → Σdx = 9, Σdx² = 171\ndy: -12, -6, 0, 6, 12, 18 → Σdy = 18, Σdy² = 648\ndxdy: 72, 18, 0, 18, 72, 162 → Σdxdy = 342\nr = [6(342) - (9)(18)] / √[6(171)-81] × √[6(648)-324] = [2052-162] / √[1026-81] × √[3888-324] = 1890 / √945 × √3564 = 1890 / (30.74 × 59.70) = 1890/1835 ≈ 1.03 (rounding error; exact = 1).\nActual mean deviations: X-21.5 = -7.5, -4.5, -1.5, 1.5, 4.5, 7.5; Y-47 = -15, -9, -3, 3, 9, 15. Cross-products identical. A poor answer would choose assumed means that don't simplify calculations or fail to verify the match.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_010",
+   "title": "c11_bio_cbse_05_010",
+   "questions": [
+    {
+     "q": "List the correct sequence of characters described in a semi-technical description of a flowering plant as per NCERT convention.",
+     "a": "The correct sequence is: Habit → Vegetative characters (Root, Stem, Leaf) → Floral characters (Inflorescence, Flower: Calyx, Corolla, Androecium, Gynoecium) → Floral diagram → Floral formula. A wrong answer (e.g., starting with flower or mixing vegetative/floral) reveals the student hasn't internalized the standardized descriptive framework essential for taxonomic communication – they're treating description as a list rather than a structured protocol.",
+     "self_check": true
+    },
+    {
+     "q": "In a floral diagram, the mother axis is represented by a dot at the top of the diagram. Explain why this specific position and symbol are used, and what would be misinterpreted if the dot were placed at the bottom.",
+     "a": "The dot at the top represents the position of the mother axis (the stem bearing the flower) relative to the flower – it shows the posterior side. Since the flower is a modified shoot, the mother axis lies above the floral whorls in the diagram's orientation. If placed at the bottom, it would incorrectly suggest the mother axis is on the anterior side, reversing the interpretation of floral part arrangement (e.g., vexillary aestivation would appear inverted) and making the diagram taxonomically misleading.",
+     "self_check": true
+    },
+    {
+     "q": "Given the floral formula: ⊕ ⚥ Br K(5) C(5) A5 G(2), describe the flower's symmetry, sexuality, bract condition, calyx, corolla, androecium, and gynoecium including cohesion/adhesion and ovary position.",
+     "a": "Step 1: ⊕ = actinomorphic (radial symmetry). Step 2: ⚥ = bisexual. Step 3: Br = bracteate. Step 4: K(5) = calyx of 5 sepals, united (gamosepalous) – brackets indicate cohesion. Step 5: C(5) = corolla of 5 petals, united (gamopetalous). Step 6: A5 = androecium of 5 stamens, free (polyandrous) – no brackets, no line above. Step 7: G(2) = gynoecium of 2 fused carpels (syncarpous), superior ovary (no line above/below G). A wrong answer (e.g., interpreting K(5) as 5 free sepals or missing superior ovary) reveals confusion between cohesion notation (brackets) and adhesion notation (line above symbols), or ignorance of ovary position convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the floral formulas of Brassicaceae (⊕ K2+2 C4 A2+4 G(2)) and Solanaceae (⊕ ⚥ K(5) C(5) A5 G(2)). What do the differences in calyx notation (2+2 vs (5)), androecium notation (2+4 vs 5), and corolla notation (C4 vs C(5)) reveal about the key morphological distinctions between these families?",
+     "a": "Brassicaceae: K2+2 indicates 4 sepals in two whorls of 2 (dimerous calyx, often with outer pair smaller); C4 = 4 free petals (polypetalous), typically cruciform; A2+4 = 6 stamens in two whorls (2 outer short, 4 inner long) – tetradynamous condition, a diagnostic family trait. Solanaceae: K(5) = 5 united sepals (gamosepalous); C(5) = 5 united petals (gamopetalous); A5 = 5 stamens, typically epipetalous (adhesion shown by line above A and C in full formula). The formulas encode fundamental differences: Brassicaceae has free petals, tetradynamous androecium, dimerous calyx; Solanaceae has united petals and sepals, 5 stamens. A student missing the significance of \"2+4\" vs \"5\" fails to grasp how floral formula captures taxonomic synapomorphies.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the floral formula for pea (Fabaceae) as: ⊕ ⚥ K5 C5 A10 G1. Identify three specific errors in this formula and explain why each is incorrect based on Fabaceae morphology.",
+     "a": "Error 1: K5 should be K(5) or K2+2+1 – pea has gamosepalous calyx (5 united sepals) with often 2 upper + 2 lateral + 1 lower, not 5 free sepals. Error 2: C5 should be C1+2+(2) – pea has polypetalous corolla with vexillary aestivation: 1 standard (large), 2 wings, 2 keel petals (united). Writing C5 implies 5 free equal petals. Error 3: A10 should be A(9)+1 or A(10) – pea has diadelphous stamens (9 united + 1 free), not 10 free stamens. Error 4 (bonus): Missing ovary position notation – pea has superior ovary, should be G1 with line above. A student making these errors cannot distinguish cohesion patterns (gamosepalous vs polysepalous, vexillary corolla, diadelphous androecium) – the core taxonomic characters of Fabaceae.",
+     "self_check": true
+    },
+    {
+     "q": "Design a floral formula for a hypothetical flower with these characteristics: zygomorphic, bisexual, bracteate, calyx of 5 united sepals (valvate), corolla of 5 petals united into a bilabiate tube, androecium of 4 didynamous stamens (epipetalous), gynoecium of 2 united carpels with superior ovary and axile placentation. Justify each symbol choice.",
+     "a": "Formula: % ⚥ Br K(5) C(5) A(4) G(2) with line above G for superior ovary, and line connecting A to C for epipetalous adhesion. Justification: % = zygomorphic (bilateral symmetry); ⚥ = bisexual; Br = bracteate; K(5) = 5 united sepals (brackets = cohesion); C(5) = 5 united petals (brackets = cohesion, bilabiate implied by zygomorphy); A(4) = 4 stamens united in two pairs (didynamous = 2 long + 2 short, brackets show cohesion); line above A-C = epipetalous adhesion; G(2) = 2 fused carpels (syncarpous); line above G = superior ovary. A poor answer (e.g., using ⊕, missing adhesion line, writing A2+2 without brackets) reveals inability to translate morphological details into symbolic notation – the reverse skill of interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,613 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 13,
+ "chapter_title": "India and the World-I",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\9th-Indian-and-the-Contemporary-World-1.txt",
+ "concepts": [
+  {
+   "id": "c9ss.13.1",
+   "title": "India's Contacts with the World",
+   "section": "India's Contacts with the World",
+   "definition": "India has had continuous contacts with the world through trade, migration, religion and culture, connecting it with Central Asia, West Asia, Southeast Asia, China and Europe since ancient times.",
+   "formula": "",
+   "key_idea": "India's location at the crossroads of Asia made it a hub of cultural and commercial exchange with distant civilisations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did India maintain contact with the world in ancient times?",
+    "Why was India's geographical location favourable for global contacts?",
+    "Name the regions with which ancient India had trade and cultural links.",
+    "How did Indian culture spread to other parts of Asia?",
+    "What role did traders play in India's contacts with the world?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain India's location",
+     "explain": "India's central position in Asia, with both land routes in the north and sea routes in the south, made it a natural meeting point of cultures."
+    },
+    {
+     "step": 2,
+     "action": "List the main contacts",
+     "explain": "India had contacts with Central Asia, West Asia, China, Southeast Asia, Greece, Rome and East Africa through trade, religion and migration."
+    },
+    {
+     "step": 3,
+     "action": "Describe the nature of exchange",
+     "explain": "These contacts involved trade in goods, spread of religions like Buddhism, exchange of art and science, and movement of scholars and pilgrims."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was India's geographical location favourable for global contacts?",
+     "solution": "India lay at the crossroads of land routes to Central Asia and sea routes across the Indian Ocean, making it a natural hub for trade and cultural exchange.",
+     "answer": "Its central position linked land routes to Central Asia and sea routes across the Indian Ocean."
+    },
+    {
+     "question": "Name three regions with which ancient India had cultural contacts.",
+     "solution": "Ancient India had contacts with Central Asia, Southeast Asia and the Roman Empire through trade, religion and scholarship.",
+     "answer": "Central Asia, Southeast Asia and the Roman Empire."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did India's location help its contacts with the world?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two regions connected to India by sea routes.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What was exchanged through India's global contacts?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.2",
+   "title": "Trade Routes -- Silk Route and Sea Routes",
+   "section": "Trade Routes",
+   "definition": "The Silk Route was an overland network connecting China to the Mediterranean through Central Asia, while sea routes across the Indian Ocean linked India to Arabia, East Africa and Southeast Asia.",
+   "formula": "",
+   "key_idea": "India sat at the junction of the Silk Route and the Indian Ocean sea routes, making it a major centre of international trade.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Silk Route and why was it important?",
+    "How did the Silk Route connect India to the world?",
+    "What goods were traded along the sea routes from India?",
+    "Why were sea routes important for Indian trade?",
+    "How did the Silk Route help the spread of Buddhism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Silk Route",
+     "explain": "The Silk Route was an overland trade network from China through Central Asia to the Mediterranean, passing through north-west India."
+    },
+    {
+     "step": 2,
+     "action": "Describe the sea routes",
+     "explain": "Sea routes across the Indian Ocean connected Indian ports like Muziris and Broach to Arabia, East Africa, Southeast Asia and China."
+    },
+    {
+     "step": 3,
+     "action": "Explain India's role",
+     "explain": "India was a central node on both routes, trading spices, cotton, gems and ivory, and also spreading Buddhism and Indian culture along these paths."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Silk Route and why was it important for India?",
+     "solution": "The Silk Route was an overland trade route from China to the Mediterranean through Central Asia; it brought trade and Buddhist pilgrims to and from India.",
+     "answer": "An overland trade route linking China to the Mediterranean through India, carrying goods and Buddhism."
+    },
+    {
+     "question": "Name two Indian ports that were important in ancient sea trade.",
+     "solution": "Muziris on the Malabar coast and Broach (Bharuch) on the Gujarat coast were major ports for Indian Ocean trade with Rome and Arabia.",
+     "answer": "Muziris and Broach."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What was the Silk Route?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why were sea routes important for Indian trade?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two goods exported from India along these routes.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.3",
+   "title": "Cultural Exchanges with the World",
+   "section": "Cultural Exchanges",
+   "definition": "Cultural exchanges through trade and travel spread Indian art, architecture, language, science and literature to other regions, while India also absorbed ideas from Greece, Persia and Central Asia.",
+   "formula": "",
+   "key_idea": "India both influenced and was influenced by other cultures, creating a rich two-way exchange of knowledge, art and ideas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Indian culture spread to other countries?",
+    "What elements of Indian culture were adopted by Southeast Asian societies?",
+    "How did India absorb ideas from Greece and Persia?",
+    "What role did Sanskrit play in cultural exchange?",
+    "How did Indian art and architecture influence other regions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain Indian influence abroad",
+     "explain": "Indian art, architecture, Sanskrit, the epics and styles of temple-building spread to Central and Southeast Asia through traders and monks."
+    },
+    {
+     "step": 2,
+     "action": "Explain foreign influence on India",
+     "explain": "India absorbed Greek sculptural styles (Gandhara art), Persian administrative ideas and Central Asian musical and culinary influences."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the two-way exchange",
+     "explain": "This two-way exchange enriched Indian civilisation and helped shape the cultures of regions from Central Asia to Indonesia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Indian culture influence Southeast Asia?",
+     "solution": "Indian epics, Sanskrit, temple architecture and Hindu-Buddhist beliefs spread to Southeast Asia, shaping the cultures of Cambodia, Indonesia and Thailand.",
+     "answer": "Through Sanskrit, epics, temple architecture and Hindu-Buddhist beliefs."
+    },
+    {
+     "question": "What is Gandhara art and how does it show cultural exchange?",
+     "solution": "Gandhara art blended Indian Buddhist themes with Greek sculptural styles, showing the influence of Greek culture brought by Indo-Greek rulers.",
+     "answer": "A blend of Indian Buddhist themes and Greek sculptural styles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two elements of Indian culture that spread abroad.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did Greece influence Indian art?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What role did Sanskrit play in cultural exchange?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.4",
+   "title": "Spread of Buddhism",
+   "section": "Spread of Buddhism",
+   "definition": "Buddhism spread from India to Central Asia, China, Korea, Japan, Sri Lanka and Southeast Asia through the efforts of monks, traders and royal patrons like Emperor Ashoka.",
+   "formula": "",
+   "key_idea": "Buddhism was one of India's most important cultural exports, carried along trade routes by monks and merchants to large parts of Asia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Buddhism spread from India to other countries?",
+    "What role did Emperor Ashoka play in spreading Buddhism?",
+    "How did the Silk Route help the spread of Buddhism?",
+    "Name two countries where Buddhism spread from India.",
+    "What role did Buddhist monasteries play in cultural exchange?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain Ashoka's role",
+     "explain": "Emperor Ashoka sent missionaries to Sri Lanka, Central Asia and Southeast Asia after the Kalinga war, making Buddhism a world religion."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of trade routes",
+     "explain": "Buddhist monks travelled along the Silk Route and sea routes with traders, establishing monasteries that became centres of learning and exchange."
+    },
+    {
+     "step": 3,
+     "action": "List the regions reached",
+     "explain": "Buddhism spread to Sri Lanka, Central Asia, China, Korea, Japan, Tibet and Southeast Asian countries like Cambodia and Indonesia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Emperor Ashoka contribute to the spread of Buddhism?",
+     "solution": "After the Kalinga war, Ashoka embraced Buddhism and sent missionaries like Mahendra and Sanghamitra to Sri Lanka and other regions to spread the faith.",
+     "answer": "He sent missionaries across Asia to spread Buddhism."
+    },
+    {
+     "question": "How did trade routes help the spread of Buddhism?",
+     "solution": "Buddhist monks travelled with traders along the Silk Route and sea routes, setting up monasteries at trading centres that became centres of Buddhist teaching.",
+     "answer": "Monks travelled with traders along trade routes, setting up monasteries."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two countries to which Buddhism spread from India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the Silk Route help Buddhism spread?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What was Ashoka's role in spreading Buddhism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.5",
+   "title": "Indian Influence on Southeast Asia",
+   "section": "Indian Influence on Southeast Asia",
+   "definition": "Indian culture deeply influenced Southeast Asia through the spread of Hinduism, Buddhism, Sanskrit, the Ramayana and Mahabharata, temple architecture and the idea of kingship.",
+   "formula": "",
+   "key_idea": "Indian influence shaped the art, language, religion and statecraft of Southeast Asian kingdoms like Funan, Srivijaya and the Khmer Empire.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Indian culture influence Southeast Asia?",
+    "Name two Southeast Asian kingdoms influenced by India.",
+    "How did the Ramayana spread to Southeast Asia?",
+    "What evidence shows Indian influence in the Khmer Empire?",
+    "How did Indian ideas of kingship affect Southeast Asian states?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the channels of influence",
+     "explain": "Indian traders, Brahmin priests and Buddhist monks brought Hinduism, Buddhism, Sanskrit and Indian ideas of kingship to Southeast Asia."
+    },
+    {
+     "step": 2,
+     "action": "Describe the cultural impact",
+     "explain": "Sanskrit was used in inscriptions, the Ramayana and Mahabharata were adapted, and temples like Angkor Wat blended Indian and local styles."
+    },
+    {
+     "step": 3,
+     "action": "Name key kingdoms",
+     "explain": "Kingdoms like Funan (Cambodia), Srivijaya (Indonesia) and the Khmer Empire adopted Indian religion, language and statecraft."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Ramayana spread to Southeast Asia?",
+     "solution": "Indian traders and Brahmins carried the Ramayana to Southeast Asia, where it was adapted into local versions like the Thai Ramakien and the Javanese Kakawin.",
+     "answer": "It was carried by traders and Brahmins and adapted into local versions."
+    },
+    {
+     "question": "What does Angkor Wat show about Indian influence in Southeast Asia?",
+     "solution": "Angkor Wat, built by the Khmer kings, is a Hindu-Buddhist temple complex based on Indian temple architecture and mythology, showing deep Indian influence.",
+     "answer": "It shows Indian temple architecture and Hindu-Buddhist influence in the Khmer Empire."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two Southeast Asian kingdoms influenced by Indian culture.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did Sanskrit influence Southeast Asian languages?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What evidence of Indian influence is seen at Angkor Wat?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.6",
+   "title": "Contacts with Greece and Rome",
+   "section": "Contacts with Greece and Rome",
+   "definition": "India had active trade and cultural contacts with the Greek and Roman civilisations, exchanging spices, textiles and gems for gold, wine and silver, and sharing ideas in science and art.",
+   "formula": "",
+   "key_idea": "The Indo-Greek, Indo-Roman and Indo-Greek cultural contacts enriched both sides through trade and the exchange of knowledge, especially in art and astronomy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did India trade with the Roman Empire?",
+    "What goods did India export to Rome?",
+    "What was the Indo-Greek influence on Indian art?",
+    "How did Greek and Indian scholars exchange knowledge?",
+    "Why was Roman gold important in Indo-Roman trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Indo-Roman trade",
+     "explain": "India exported spices, pearls, gems, cotton and silk to Rome, and imported gold, silver, wine and olive oil, with Roman gold flowing into India."
+    },
+    {
+     "step": 2,
+     "action": "Explain Greek cultural influence",
+     "explain": "Indo-Greek rulers in north-west India introduced Greek sculptural styles, coins and astronomy, blending with Indian traditions in Gandhara art."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the exchange",
+     "explain": "These contacts enriched Indian art, coinage and science, while India supplied luxury goods that Roman elites highly valued."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What goods did India export to the Roman Empire?",
+     "solution": "India exported spices (especially pepper), cotton textiles, pearls, gems and silk to Rome, which were in great demand among Roman elites.",
+     "answer": "Spices, cotton, pearls, gems and silk."
+    },
+    {
+     "question": "How did the Greeks influence Indian art?",
+     "solution": "Indo-Greek rulers introduced Greek sculptural techniques and motifs, which blended with Indian Buddhist themes to create the Gandhara school of art.",
+     "answer": "Through the Gandhara school blending Greek and Indian styles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two goods India exported to Rome.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did Greek culture influence Indian art?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why was Roman gold important in Indo-Roman trade?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.7",
+   "title": "Medieval Trade and Indian Merchants",
+   "section": "Medieval Trade",
+   "definition": "In medieval times, India continued to be a major trading power, with merchant guilds like the Manigramam and Ayyavole carrying trade across the Indian Ocean and to West Asia.",
+   "formula": "",
+   "key_idea": "Medieval Indian merchant guilds organised long-distance trade, financing voyages and maintaining trading posts across the Indian Ocean world.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Indian trade continue in medieval times?",
+    "What were merchant guilds and why were they important?",
+    "Name two medieval Indian merchant guilds.",
+    "How did Indian merchants finance long-distance trade?",
+    "What role did Indian ports play in medieval world trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe medieval trade",
+     "explain": "India traded textiles, spices, gems and indigo with West Asia, East Africa and Southeast Asia, with ports like Calicut and Cambay as major hubs."
+    },
+    {
+     "step": 2,
+     "action": "Explain merchant guilds",
+     "explain": "Guilds like the Manigramam, Ayyavole (Aihole) and Nanadeshi organised trade, financed voyages and protected merchants' interests across regions."
+    },
+    {
+     "step": 3,
+     "action": "Explain their significance",
+     "explain": "These guilds were so powerful that they financed temples, endowed villages and even lent money to kings, showing the wealth of medieval Indian trade."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the Ayyavole and Manigramam guilds?",
+     "solution": "The Ayyavole (Five Hundred) and Manigramam were powerful medieval South Indian merchant guilds that organised long-distance trade across the Indian Ocean.",
+     "answer": "Medieval South Indian merchant guilds organising long-distance trade."
+    },
+    {
+     "question": "Name two major medieval Indian trading ports.",
+     "solution": "Calicut on the Malabar coast and Cambay (Khambhat) in Gujarat were major ports linking India to West Asia and Southeast Asia.",
+     "answer": "Calicut and Cambay."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What was the role of merchant guilds in medieval India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two medieval Indian merchant guilds.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why were ports like Calicut important in medieval trade?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.8",
+   "title": "Computing Trade Distances and Times",
+   "section": "Medieval Trade",
+   "definition": "By estimating sailing speeds and distances between ports, we can compute the approximate time medieval ships took to travel between Indian and foreign ports.",
+   "formula": "travel_time = distance / speed",
+   "key_idea": "Using the distance between ports and an assumed sailing speed, we can estimate how long trade voyages took in the medieval Indian Ocean.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "If a ship sails at 4 knots, how long does it take to cover 1200 nautical miles from Calicut to Aden?",
+    "Compute the travel time for a 2000 km voyage at a speed of 5 km per hour.",
+    "How many days does a 960 nautical mile journey take at 4 knots (24 hours a day)?",
+    "If the distance from Muziris to Rome is 4800 nautical miles and speed is 4 knots, find the travel time in days.",
+    "Estimate the time for a 1500 km sea route at 50 km per day."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify distance and speed",
+     "explain": "Note the distance between the two ports and the assumed sailing speed of the ship."
+    },
+    {
+     "step": 2,
+     "action": "Compute travel time in hours",
+     "explain": "Divide the distance by the speed to get the travel time in hours.",
+     "compute": "time_hours = distance / speed"
+    },
+    {
+     "step": 3,
+     "action": "Convert to days",
+     "explain": "Divide the hours by 24 to express the travel time in days.",
+     "compute": "time_days = time_hours / 24"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A ship sails at 4 knots (nautical miles per hour). How long does it take to cover 1200 nautical miles from Calicut to Aden?",
+     "solution": "Time = 1200 / 4 = 300 hours = 300 / 24 = 12.5 days.",
+     "answer": "12.5 days."
+    },
+    {
+     "question": "Estimate the time for a 1500 km sea route at a speed of 50 km per day.",
+     "solution": "Time = 1500 / 50 = 30 days.",
+     "answer": "30 days."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the travel time for a 2000 km voyage at a speed of 5 km per hour. Give the answer in days.",
+     "type": "compute"
+    },
+    {
+     "question": "If the distance from Muziris to Rome is 4800 nautical miles and speed is 4 knots, find the travel time in days.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.9",
+   "title": "Impact of Global Connections",
+   "section": "Impact of Global Connections",
+   "definition": "India's global connections shaped its economy, culture, religion and technology, bringing wealth through trade, spreading Indian culture abroad and bringing new ideas and techniques into India.",
+   "formula": "",
+   "key_idea": "India's long history of global contact made it both a giver and receiver of culture, enriching its civilisation and influencing many parts of the world.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the impact of India's global connections on its culture?",
+    "How did global trade benefit India's economy?",
+    "What did India give to the world through its global contacts?",
+    "How did foreign contacts influence Indian science and technology?",
+    "Why are India's global connections important for understanding its history?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain economic impact",
+     "explain": "Global trade brought wealth to India through exports of spices, textiles and gems, making India one of the richest regions of the ancient and medieval world."
+    },
+    {
+     "step": 2,
+     "action": "Explain cultural impact",
+     "explain": "India spread Buddhism, Hinduism, Sanskrit and art abroad, while absorbing Greek, Persian and Central Asian ideas in return."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the legacy",
+     "explain": "These connections made India a cosmopolitan civilisation and left a lasting cultural imprint on regions from Central Asia to Southeast Asia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did global trade benefit India's economy?",
+     "solution": "Exports of spices, textiles and gems brought gold and silver into India, making it a wealthy trading hub of the ancient and medieval world.",
+     "answer": "It brought wealth through exports of spices, textiles and gems."
+    },
+    {
+     "question": "What did India give to the world through its global contacts?",
+     "solution": "India gave Buddhism, Hinduism, Sanskrit, the decimal system, art and literature to many parts of Asia and the world.",
+     "answer": "Religion, Sanskrit, mathematics, art and literature."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State two benefits India gained from global connections.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two things India gave to the world through its contacts.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did foreign contacts influence Indian science?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.13.10",
+   "title": "Timeline of India's Global Contacts",
+   "section": "Timeline of India's Global Contacts",
+   "definition": "A timeline of India's global contacts spans from the ancient Silk Route (around 2nd century BCE) to medieval Indian Ocean trade, showing centuries of continuous exchange.",
+   "formula": "time_span = later_year - earlier_year",
+   "key_idea": "By computing the span between key milestones we can see how long India's global connections have shaped its history.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the span between the opening of the Silk Route (c. 130 BCE) and Ashoka's missions (c. 250 BCE).",
+    "How many years passed between Indo-Roman trade (c. 1st century CE) and the peak of the Khmer Empire (c. 12th century CE)?",
+    "Compute the gap between the spread of Buddhism to China (c. 1st century CE) and the founding of Srivijaya (c. 7th century CE).",
+    "Find the span between the Gandhara school (c. 1st century CE) and Angkor Wat (c. 12th century CE).",
+    "How many centuries of global contact does the timeline from 130 BCE to 1200 CE cover?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two milestone years",
+     "explain": "Note the years of the two events on the timeline of India's global contacts."
+    },
+    {
+     "step": 2,
+     "action": "Compute the time span",
+     "explain": "Subtract the earlier year from the later year to find the span in years.",
+     "compute": "time_span = year_2 - year_1"
+    },
+    {
+     "step": 3,
+     "action": "Convert to centuries if needed",
+     "explain": "Divide the span in years by 100 to express it in centuries.",
+     "compute": "centuries = time_span / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many years passed between Indo-Roman trade (c. 1st century CE, year 50) and the peak of the Khmer Empire (c. 12th century CE, year 1150)?",
+     "solution": "Time span = 1150 - 50 = 1100 years = 11 centuries.",
+     "answer": "1100 years (11 centuries)."
+    },
+    {
+     "question": "Compute the gap between the spread of Buddhism to China (c. 50 CE) and the founding of Srivijaya (c. 670 CE).",
+     "solution": "Time span = 670 - 50 = 620 years.",
+     "answer": "620 years."
+    },
+    {
+     "question": "How many centuries of global contact does the timeline from 130 BCE to 1200 CE cover?",
+     "solution": "Time span = 1200 - (-130) = 1330 years = 13.3 centuries.",
+     "answer": "About 13.3 centuries."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the span between the Gandhara school (c. 50 CE) and Angkor Wat (c. 1150 CE).",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the gap between Ashoka's missions (c. 250 BCE) and Indo-Roman trade (c. 50 CE).",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

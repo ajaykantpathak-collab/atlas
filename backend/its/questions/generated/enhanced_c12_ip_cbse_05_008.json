@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_008",
+   "title": "c12_ip_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the primary function of a web crawler (spider) in a search engine?",
+     "a": "A web crawler systematically browses the World Wide Web by following hyperlinks from known pages to discover new or updated pages, downloading their content (HTML, images, etc.) for later indexing.  \n**Wrong answer analysis**: If a student says \"crawlers rank pages\" or \"crawlers answer user queries\", they confuse crawling with ranking or serving. This reveals a misunderstanding of the pipeline stages — crawling is only about discovery and fetching, not evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a search engine builds an inverted index instead of scanning every web page live when a user submits a query.",
+     "a": "An inverted index maps each word to the list of pages containing it, allowing the engine to retrieve candidate pages in milliseconds by simple lookups. Scanning billions of pages live for every query would take far too long (hours or days) and would require fetching each page over the network again.  \n**Wrong answer analysis**: If a student says \"index stores whole pages\" or \"index makes crawling faster\", they miss the purpose of the index: it trades storage for query-time speed. This is a classic confusion between storage structure and retrieval speed.",
+     "self_check": true
+    },
+    {
+     "q": "A new website `www.example.in` publishes a page about \"organic farming tips\". The page has no incoming links from other sites. Will a typical search engine's crawler eventually find this page? Why or why not?",
+     "a": "Not unless the crawler discovers the URL through other means (e.g., XML sitemap submission, manual URL submission, or links from indexed pages). Crawlers primarily follow links; a page with zero inbound links from the known web graph is unreachable by link-following alone.  \n**Wrong answer analysis**: If a student says \"yes, crawlers visit every domain automatically\", they overestimate crawler coverage and ignore the link-graph dependency. This is a common misconception about how discovery works.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of **term frequency (TF)** and **inverse document frequency (IDF)** in ranking. Why is IDF necessary even if a query term appears many times in a page?",
+     "a": "TF measures how often a term appears in a page (local relevance), while IDF down-weights terms that appear in many pages across the corpus (global rarity). A term like \"the\" has high TF in almost every page but low IDF because it's ubiquitous; without IDF, common words would dominate scores and drown out distinctive terms.  \n**Wrong answer analysis**: If a student says \"IDF boosts frequent terms\" or \"TF alone is enough\", they invert the purpose of IDF. This shows they haven't grasped the signal-to-noise problem in information retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "A search engine ranks two pages for the query \"buy smartphones online\". Page A has 500 backlinks from low-quality directories; Page B has 50 backlinks from reputable tech review sites. Which page is likely to rank higher and why? Evaluate based on modern ranking principles.",
+     "a": "Page B will likely rank higher. Modern algorithms (e.g., PageRank variants) weight links by the authority and trustworthiness of the linking pages, not just raw count. Links from reputable, topic-relevant sites pass more \"link equity\" than hundreds of low-quality directory links, which may even be flagged as spam.  \n**Wrong answer analysis**: If a student chooses Page A because \"more links = higher rank\", they apply a naive PageRank understanding and ignore link quality, trust signals, and anti-spam measures — a frequent error in competitive-exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified ranking formula for a search engine that combines (a) keyword match score, (b) page authority score, and (c) freshness score. Define each component, assign weights, and explain how you would handle a query where the user explicitly wants the latest information (e.g., \"COVID-19 guidelines 2024\").",
+     "a": "**Example formula**: `Score = 0.5 × KeywordMatch + 0.3 × Authority + 0.2 × Freshness`.  \n- `KeywordMatch`: TF-IDF cosine similarity between query and page (0–1).  \n- `Authority`: Normalized PageRank or trust score (0–1).  \n- `Freshness`: Exponential decay based on page age (1 for today, near 0 for years old).  \nFor \"latest information\" queries, dynamically increase the freshness weight (e.g., 0.5) and reduce authority weight, because recency outweighs established authority.  \n**Poor answer analysis**: A formula that ignores freshness or uses fixed weights for all queries shows inability to adapt ranking to query intent — a key competency in modern IR systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

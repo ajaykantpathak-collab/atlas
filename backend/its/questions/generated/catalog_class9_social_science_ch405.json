@@ -1,0 +1,399 @@
+{
+ "catalog": "catalog_class9_social_science_ch405",
+ "concepts": [
+  {
+   "id": "iess.601.1",
+   "title": "Testimony Weighting Ratio",
+   "questions": [
+    {
+     "q": "Calculate the number of female witnesses required for {men_witnesses} male witnesses.. Use the method 'Testimony Weighting Ratio'. Work with: men_witnesses = 100. Carry the chain through step by step and give the final value of women_needed.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total women required to equal the testimony of {men_witnesses} men.. Use the method 'Testimony Weighting Ratio'. Work with: men_witnesses = 3. Carry the chain through step by step and give the final value of women_needed.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Testimony Weighting Ratio' refers to.",
+     "a": "A legal standard where the evidentiary value of a male witness is considered equivalent to that of two female witnesses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Testimony Weighting Ratio'.",
+     "a": "Gender-based disparity in the legal weight of testimony.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Testimony Weighting Ratio', in plain ASCII form.",
+     "a": "women_needed = men_witnesses * 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.602.1",
+   "title": "Definition of Rights",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Definition of Rights' refers to.",
+     "a": "Legitimate entitlements that individuals claim from their community and government, which are socially accepted and legally protected.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Definition of Rights'.",
+     "a": "Rights are reasonable claims recognized by society and sanctioned by law.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Definition of Rights', in plain ASCII form.",
+     "a": "Rights = reasonable_claims + social_recognition + legal_sanction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.1",
+   "title": "Right to Equality",
+   "questions": [
+    {
+     "q": "Using the method 'Right to Equality', work with: non_discrimination = 150, rule_of_law = 20. Carry the chain through step by step and give the final value of equality.",
+     "a": "170 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Right to Equality' and work with: non_discrimination = 80, rule_of_law = 30. Carry the chain through step by step and give the final value of equality.",
+     "a": "110 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Right to Equality' refers to.",
+     "a": "The constitutional guarantee that the state will not discriminate against citizens and that everyone is equal before the law.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right to Equality'.",
+     "a": "Uniform legal protection and opportunity for all citizens regardless of status.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Right to Equality', in plain ASCII form.",
+     "a": "equality = rule_of_law + non_discrimination",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.2",
+   "title": "Right to Freedom",
+   "questions": [
+    {
+     "q": "Using the method 'Right to Freedom', work with: absence_of_interference = 50, reasonable_restrictions = 20. Carry the chain through step by step and give the final value of freedom.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Right to Freedom' and work with: absence_of_interference = 15, reasonable_restrictions = 3. Carry the chain through step by step and give the final value of freedom.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Right to Freedom' refers to.",
+     "a": "A cluster of liberties including speech, assembly, movement, and profession, allowing citizens to act without arbitrary constraints.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right to Freedom'.",
+     "a": "The liberty to live and express oneself without violating the rights of others.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Right to Freedom', in plain ASCII form.",
+     "a": "freedom = absence_of_interference - reasonable_restrictions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.3",
+   "title": "Arrest Production Deadline",
+   "questions": [
+    {
+     "q": "Calculate the 24-hour deadline for a magistrate visit for an arrest at {arrest_hour}.. Use the method 'Arrest Production Deadline'. Work with: arrest_hour = 3. Carry the chain through step by step and give the final value of deadline.",
+     "a": "27 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the production time limit for an arrest occurring at {arrest_hour}.. Use the method 'Arrest Production Deadline'. Work with: arrest_hour = 400. Carry the chain through step by step and give the final value of deadline.",
+     "a": "424 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Arrest Production Deadline' refers to.",
+     "a": "The legal requirement that any person arrested must be presented before a magistrate within twenty-four hours.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arrest Production Deadline'.",
+     "a": "Judicial oversight must begin within one day of police detention.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Arrest Production Deadline', in plain ASCII form.",
+     "a": "production_deadline = arrest_hour + 24",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.4",
+   "title": "Right against Exploitation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Right against Exploitation' refers to.",
+     "a": "Constitutional prohibitions against human trafficking, forced unpaid labor (begar), and child labor in hazardous industries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right against Exploitation'.",
+     "a": "Preventing the abuse of vulnerable groups like women, children, and the poor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Right against Exploitation', in plain ASCII form.",
+     "a": "protection = ban(trafficking) + ban(begar) + ban(child_labor)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.5",
+   "title": "Right to Freedom of Religion",
+   "questions": [
+    {
+     "q": "Using the method 'Right to Freedom of Religion', work with: force = 25, practice = 40, propagate = 60. Carry the chain through step by step and give the final value of religious_freedom.",
+     "a": "75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Right to Freedom of Religion' and work with: force = 10, practice = 50, propagate = 40. Carry the chain through step by step and give the final value of religious_freedom.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Right to Freedom of Religion' refers to.",
+     "a": "The entitlement of every citizen to follow, practice, and spread their chosen faith within a secular framework.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right to Freedom of Religion'.",
+     "a": "Individual religious liberty maintained by state neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Right to Freedom of Religion', in plain ASCII form.",
+     "a": "religious_freedom = practice + propagate - force",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.6",
+   "title": "Cultural and Educational Rights",
+   "questions": [
+    {
+     "q": "Using the method 'Cultural and Educational Rights', work with: conservation_of_culture = 360, right_to_establish_institutions = 45. Carry the chain through step by step and give the final value of minority_rights.",
+     "a": "405 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cultural and Educational Rights' and work with: conservation_of_culture = 120, right_to_establish_institutions = 300. Carry the chain through step by step and give the final value of minority_rights.",
+     "a": "420 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cultural and Educational Rights' refers to.",
+     "a": "Protections for minorities to preserve their distinct language and culture and to run their own educational institutions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cultural and Educational Rights'.",
+     "a": "Safeguarding the unique identity of linguistic and religious minorities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cultural and Educational Rights', in plain ASCII form.",
+     "a": "minority_rights = conservation_of_culture + right_to_establish_institutions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.7",
+   "title": "Right to Constitutional Remedies",
+   "questions": [
+    {
+     "q": "Using the method 'Right to Constitutional Remedies', work with: court_access = 75, enforcement = 45, writs = 20. Carry the chain through step by step and give the final value of remedy.",
+     "a": "140 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Right to Constitutional Remedies' and work with: court_access = 45, enforcement = 15, writs = 8. Carry the chain through step by step and give the final value of remedy.",
+     "a": "68 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Right to Constitutional Remedies' refers to.",
+     "a": "The fundamental right that allows citizens to approach the Supreme Court or High Courts to enforce their other rights.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Right to Constitutional Remedies'.",
+     "a": "The mechanism that makes all other fundamental rights effective.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Right to Constitutional Remedies', in plain ASCII form.",
+     "a": "remedy = court_access + writs + enforcement",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.8",
+   "title": "National Human Rights Commission (NHRC)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'National Human Rights Commission (NHRC)' refers to.",
+     "a": "An independent body established in 1993 to investigate human rights violations and recommend corrective actions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Human Rights Commission (NHRC)'.",
+     "a": "Independent oversight to protect human rights beyond the judiciary.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'National Human Rights Commission (NHRC)', in plain ASCII form.",
+     "a": "NHRC_action = inquiry + recommendation + intervention",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.9",
+   "title": "Public Interest Litigation (PIL)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Interest Litigation (PIL)' refers to.",
+     "a": "A legal procedure where any citizen can approach the courts for the protection of public interest against government actions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Interest Litigation (PIL)'.",
+     "a": "Expanding judicial access for social and public causes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Public Interest Litigation (PIL)', in plain ASCII form.",
+     "a": "PIL = public_interest + court_petition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.604.1",
+   "title": "Expanding Scope of Rights",
+   "questions": [
+    {
+     "q": "Using the method 'Expanding Scope of Rights', work with: court_judgments = 300, fundamental_rights = 12, new_laws = 20. Carry the chain through step by step and give the final value of expanded_rights.",
+     "a": "332 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Expanding Scope of Rights' and work with: court_judgments = 360, fundamental_rights = 30, new_laws = 10. Carry the chain through step by step and give the final value of expanded_rights.",
+     "a": "400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Expanding Scope of Rights' refers to.",
+     "a": "The process where new legal and human rights emerge through judicial interpretation, international treaties, and new legislation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Expanding Scope of Rights'.",
+     "a": "Rights are dynamic and evolve as society develops.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Expanding Scope of Rights', in plain ASCII form.",
+     "a": "expanded_rights = fundamental_rights + new_laws + court_judgments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.10",
+   "title": "Rule of Law",
+   "questions": [
+    {
+     "q": "Using the method 'Rule of Law', work with: no_privilege = 120, universal_application = 150. Carry the chain through step by step and give the final value of rule_of_law.",
+     "a": "270 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rule of Law' and work with: no_privilege = 50, universal_application = 12. Carry the chain through step by step and give the final value of rule_of_law.",
+     "a": "62 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rule of Law' refers to.",
+     "a": "The principle that the law applies equally to all individuals and no person is above the law.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rule of Law'.",
+     "a": "Equality of all citizens before the legal system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rule of Law', in plain ASCII form.",
+     "a": "rule_of_law = universal_application + no_privilege",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.603.11",
+   "title": "Secularism in India",
+   "questions": [
+    {
+     "q": "Using the method 'Secularism in India', work with: religious_freedom = 75, state_neutrality = 4. Carry the chain through step by step and give the final value of secularism.",
+     "a": "79 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Secularism in India' and work with: religious_freedom = 40, state_neutrality = 24. Carry the chain through step by step and give the final value of secularism.",
+     "a": "64 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Secularism in India' refers to.",
+     "a": "A state policy of maintaining a principled distance from all religions and treating them with equal respect.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secularism in India'.",
+     "a": "The state has no official religion and remains impartial.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Secularism in India', in plain ASCII form.",
+     "a": "secularism = state_neutrality + religious_freedom",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

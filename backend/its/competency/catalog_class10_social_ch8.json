@@ -1,0 +1,577 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 8,
+ "chapter_title": "Water Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess103.txt",
+ "concepts": [
+  {
+   "id": "c10ss.8.1",
+   "title": "Water Scarcity and its Causes",
+   "section": "Water Scarcity and the Need for Water Conservation",
+   "definition": "Water scarcity refers to the shortage of water supply relative to demand, caused by over-exploitation, unequal access, and increasing demand due to population growth, urbanisation, and industrialisation.",
+   "formula": "",
+   "key_idea": "Water scarcity arises from the growing gap between water demand and availability, driven by over-exploitation, pollution, and unequal distribution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define water scarcity and explain its causes.",
+    "How does over-exploitation of water resources lead to scarcity?",
+    "Explain the role of population growth in water scarcity.",
+    "How does industrialisation contribute to water scarcity?",
+    "Differentiate between physical and economic water scarcity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define water scarcity",
+     "explain": "Water scarcity is the lack of sufficient freshwater resources to meet water demand."
+    },
+    {
+     "step": 2,
+     "action": "Identify causes",
+     "explain": "Causes include over-exploitation of groundwater, population growth, urbanisation, industrialisation, and unequal access to water."
+    },
+    {
+     "step": 3,
+     "action": "Explain consequences",
+     "explain": "Water scarcity leads to food insecurity, health problems, and conflicts over water resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is water scarcity? Mention any two causes.",
+     "solution": "Water scarcity is the shortage of water supply relative to demand. Two causes are over-exploitation of groundwater and increasing demand due to population growth.",
+     "answer": "Water scarcity is insufficient water supply; causes include over-exploitation and population growth."
+    },
+    {
+     "question": "How does industrialisation contribute to water scarcity?",
+     "solution": "Industries consume large amounts of freshwater and discharge polluted water, reducing the availability of clean water for domestic and agricultural use.",
+     "answer": "Industrialisation increases water demand and pollution, reducing clean water availability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define water scarcity and explain its causes.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between physical and economic water scarcity.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.2",
+   "title": "Multi-purpose River Projects",
+   "section": "Multi-purpose River Projects",
+   "definition": "Multi-purpose river projects are large-scale dams built on rivers to serve multiple purposes such as irrigation, hydroelectricity generation, flood control, water supply, and navigation.",
+   "formula": "",
+   "key_idea": "Multi-purpose river projects integrate several uses of water -- irrigation, hydropower, flood control, and water supply -- through a single dam or project.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are multi-purpose river projects?",
+    "Explain the advantages of multi-purpose river projects.",
+    "Describe the disadvantages of multi-purpose river projects.",
+    "How do multi-purpose projects contribute to agricultural development?",
+    "Why have multi-purpose river projects faced criticism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define multi-purpose river projects",
+     "explain": "These are projects that integrate several water-use functions in a single dam or reservoir."
+    },
+    {
+     "step": 2,
+     "action": "List the purposes served",
+     "explain": "Irrigation, hydroelectricity, flood control, domestic and industrial water supply, fish breeding, navigation, and recreation."
+    },
+    {
+     "step": 3,
+     "action": "Explain criticisms",
+     "explain": "Criticisms include displacement of people, environmental degradation, sedimentation, and inequitable distribution of benefits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are multi-purpose river projects? Mention any three purposes they serve.",
+     "solution": "Multi-purpose river projects are dams built on rivers to serve multiple purposes. Three purposes are irrigation, hydroelectricity generation, and flood control.",
+     "answer": "Multi-purpose projects serve irrigation, hydropower, and flood control."
+    },
+    {
+     "question": "Why have multi-purpose river projects faced criticism in recent years?",
+     "solution": "They have been criticised for causing large-scale displacement of people, environmental degradation, loss of biodiversity, and inequitable distribution of benefits.",
+     "answer": "Multi-purpose projects are criticised for displacement and environmental damage."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the advantages and disadvantages of multi-purpose river projects.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why have multi-purpose river projects faced criticism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.3",
+   "title": "Rainwater Harvesting",
+   "section": "Rainwater Harvesting",
+   "definition": "Rainwater harvesting is the technique of collecting and storing rainwater for future use, either by recharging groundwater or storing it in tanks and reservoirs.",
+   "formula": "",
+   "key_idea": "Rainwater harvesting is a sustainable method of conserving water by capturing and storing rainwater for recharge or direct use.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define rainwater harvesting.",
+    "Explain the methods of rainwater harvesting.",
+    "Describe the traditional water harvesting systems in India.",
+    "Why is rainwater harvesting important?",
+    "How does rainwater harvesting help in groundwater recharge?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define rainwater harvesting",
+     "explain": "Rainwater harvesting is the collection and storage of rainwater for future use."
+    },
+    {
+     "step": 2,
+     "action": "Describe methods",
+     "explain": "Methods include rooftop harvesting, surface runoff harvesting, and recharge pits. Traditional systems include khadins, tankas, and surangams."
+    },
+    {
+     "step": 3,
+     "action": "Explain benefits",
+     "explain": "Benefits include groundwater recharge, reduced dependence on monsoons, and improved water availability in dry regions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is rainwater harvesting? Mention two methods.",
+     "solution": "Rainwater harvesting is the technique of collecting and storing rainwater. Two methods are rooftop harvesting and recharge pits.",
+     "answer": "Rainwater harvesting collects rainwater; methods include rooftop harvesting and recharge pits."
+    },
+    {
+     "question": "Describe any two traditional water harvesting systems in India.",
+     "solution": "Khadins in Rajasthan and tankas in Bikaner are traditional water harvesting systems. Khadins store rainwater for agriculture, while tankas store water for domestic use.",
+     "answer": "Khadins and tankas are traditional rainwater harvesting systems in Rajasthan."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the methods and importance of rainwater harvesting.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe two traditional water harvesting systems in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.4",
+   "title": "Dams and their Impact",
+   "section": "Dams",
+   "definition": "Dams are barriers constructed across rivers to impound water for irrigation, hydropower, flood control, and water supply, but they also cause environmental and social impacts.",
+   "formula": "",
+   "key_idea": "Dams store and regulate river water for multiple uses but bring significant environmental and social consequences including displacement and habitat loss.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a dam? Explain its purposes.",
+    "Describe the environmental impacts of large dams.",
+    "Explain the social impacts of dam construction.",
+    "Why is the Narmada Bachao Andolan significant?",
+    "How do dams contribute to hydropower generation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define dams and their purposes",
+     "explain": "Dams are barriers across rivers to store water for irrigation, hydropower, flood control, and water supply."
+    },
+    {
+     "step": 2,
+     "action": "Explain environmental impacts",
+     "explain": "Impacts include loss of biodiversity, deforestation, sedimentation, and disruption of aquatic ecosystems."
+    },
+    {
+     "step": 3,
+     "action": "Explain social impacts",
+     "explain": "Social impacts include displacement of local communities, loss of agricultural land, and conflicts over rehabilitation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a dam? Mention any two purposes of building dams.",
+     "solution": "A dam is a barrier constructed across a river to store water. Two purposes are irrigation and hydroelectricity generation.",
+     "answer": "Dams store river water for irrigation and hydropower."
+    },
+    {
+     "question": "Explain the environmental impacts of large dams.",
+     "solution": "Large dams cause deforestation, loss of biodiversity, sedimentation of reservoirs, and disruption of the natural flow of rivers, affecting aquatic ecosystems.",
+     "answer": "Large dams cause deforestation, biodiversity loss, and river disruption."
+    },
+    {
+     "question": "What is the Narmada Bachao Andolan?",
+     "solution": "The Narmada Bachao Andolan is a social movement against the construction of large dams on the Narmada river, highlighting issues of displacement and inadequate rehabilitation.",
+     "answer": "The Narmada Bachao Andolan protests large dams on the Narmada river."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the purposes and impacts of large dams.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the social and environmental impacts of dam construction.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.5",
+   "title": "Water Conservation",
+   "section": "Water Scarcity and the Need for Water Conservation",
+   "definition": "Water conservation is the practice of using water efficiently and protecting water resources from depletion and pollution to ensure sustainable availability for future generations.",
+   "formula": "",
+   "key_idea": "Water conservation involves efficient use, protection, and management of water resources to ensure long-term availability and sustainability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is water conservation necessary?",
+    "Describe the methods of water conservation.",
+    "How can individuals contribute to water conservation?",
+    "Explain the role of watershed management in conservation.",
+    "How does water conservation contribute to sustainable development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the need for conservation",
+     "explain": "Water conservation is needed due to increasing demand, depleting resources, and the need for sustainable development."
+    },
+    {
+     "step": 2,
+     "action": "List conservation methods",
+     "explain": "Methods include rainwater harvesting, drip irrigation, watershed management, recycling and reuse of water, and reducing wastage."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of individuals and communities",
+     "explain": "Individuals can conserve water by fixing leaks, using water-efficient fixtures, and practising rainwater harvesting at home."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is water conservation necessary?",
+     "solution": "Water conservation is necessary because freshwater resources are limited, demand is increasing due to population growth, and over-exploitation is depleting groundwater.",
+     "answer": "Water conservation is needed due to limited resources and growing demand."
+    },
+    {
+     "question": "Mention any three methods of water conservation.",
+     "solution": "Three methods are rainwater harvesting, drip irrigation, and recycling and reuse of water.",
+     "answer": "Rainwater harvesting, drip irrigation, and water recycling are conservation methods."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the need and methods of water conservation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How can individuals contribute to water conservation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.6",
+   "title": "Hydel Power",
+   "section": "Multi-purpose River Projects",
+   "definition": "Hydropower is electricity generated by harnessing the energy of flowing water, typically through dams and turbines, and is a renewable and clean source of energy.",
+   "formula": "",
+   "key_idea": "Hydropower is a renewable energy source generated by converting the kinetic energy of flowing water into electricity using turbines.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is hydropower? How is it generated?",
+    "Explain the advantages of hydropower.",
+    "Describe the limitations of hydropower.",
+    "How does hydropower contribute to India's energy needs?",
+    "Compare hydropower with thermal power."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define hydropower",
+     "explain": "Hydropower is electricity generated by harnessing the energy of flowing or falling water through turbines."
+    },
+    {
+     "step": 2,
+     "action": "Explain advantages",
+     "explain": "Advantages include being renewable, clean (no air pollution), and useful for flood control and irrigation alongside power generation."
+    },
+    {
+     "step": 3,
+     "action": "Explain limitations",
+     "explain": "Limitations include high construction costs, displacement of people, environmental impacts, and dependence on rainfall."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is hydropower? Mention two advantages.",
+     "solution": "Hydropower is electricity generated by harnessing the energy of flowing water. Two advantages are that it is renewable and produces no air pollution.",
+     "answer": "Hydropower is renewable energy from flowing water; it is clean and renewable."
+    },
+    {
+     "question": "Mention two limitations of hydropower.",
+     "solution": "Two limitations are high construction costs and environmental impacts such as displacement of people and loss of biodiversity.",
+     "answer": "Hydropower has high costs and environmental impacts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the advantages and limitations of hydropower.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How is hydropower generated?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.7",
+   "title": "Irrigation and its Importance",
+   "section": "Multi-purpose River Projects",
+   "definition": "Irrigation is the artificial application of water to soil for crop production, essential for agriculture in regions with inadequate or erratic rainfall.",
+   "formula": "",
+   "key_idea": "Irrigation is the artificial supply of water to crops, crucial for agricultural productivity in regions with insufficient rainfall.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is irrigation? Why is it important?",
+    "Describe the different methods of irrigation in India.",
+    "How does irrigation contribute to agricultural productivity?",
+    "Explain the role of canals in irrigation.",
+    "What are the problems associated with irrigation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define irrigation",
+     "explain": "Irrigation is the artificial application of water to land for crop growth."
+    },
+    {
+     "step": 2,
+     "action": "Describe methods",
+     "explain": "Methods include canal irrigation, well irrigation, tank irrigation, and drip and sprinkler irrigation."
+    },
+    {
+     "step": 3,
+     "action": "Explain importance and problems",
+     "explain": "Irrigation increases crop yields and enables multiple cropping, but over-irrigation can cause waterlogging and soil salinity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is irrigation? Why is it important for Indian agriculture?",
+     "solution": "Irrigation is the artificial application of water to crops. It is important because much of India depends on monsoon rainfall, which is erratic and unevenly distributed.",
+     "answer": "Irrigation supplies water to crops; it is vital due to erratic monsoons."
+    },
+    {
+     "question": "Mention any three methods of irrigation practised in India.",
+     "solution": "Three methods are canal irrigation, well (tube well) irrigation, and tank irrigation.",
+     "answer": "Canal, well, and tank irrigation are three methods in India."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of irrigation in Indian agriculture.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the different methods of irrigation in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.8",
+   "title": "Pollution of Water",
+   "section": "Water Scarcity and the Need for Water Conservation",
+   "definition": "Water pollution is the contamination of water bodies by human activities such as industrial discharge, agricultural runoff, and domestic sewage, making water unsafe for use.",
+   "formula": "",
+   "key_idea": "Water pollution is the degradation of water quality due to contaminants from industrial, agricultural, and domestic sources, threatening health and ecosystems.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define water pollution and state its sources.",
+    "Explain the effects of water pollution on human health.",
+    "How does agricultural runoff contribute to water pollution?",
+    "Describe the impact of industrial effluents on water bodies.",
+    "Suggest measures to control water pollution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define water pollution",
+     "explain": "Water pollution is the contamination of water bodies by harmful substances."
+    },
+    {
+     "step": 2,
+     "action": "Identify sources",
+     "explain": "Sources include industrial effluents, agricultural chemicals (fertilisers and pesticides), domestic sewage, and solid waste."
+    },
+    {
+     "step": 3,
+     "action": "Explain effects and control measures",
+     "explain": "Effects include waterborne diseases and ecosystem damage. Control measures include treatment of sewage, regulation of industrial discharge, and reduced use of chemicals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is water pollution? Mention two sources.",
+     "solution": "Water pollution is the contamination of water by harmful substances. Two sources are industrial effluents and domestic sewage.",
+     "answer": "Water pollution contaminates water; sources include industrial effluents and sewage."
+    },
+    {
+     "question": "How does agricultural runoff contribute to water pollution?",
+     "solution": "Agricultural runoff carries fertilisers and pesticides into water bodies, causing eutrophication and contamination of groundwater.",
+     "answer": "Agricultural runoff carries chemicals into water, causing eutrophication."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes and effects of water pollution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Suggest measures to control water pollution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.9",
+   "title": "Interstate Water Disputes",
+   "section": "Multi-purpose River Projects",
+   "definition": "Interstate water disputes are conflicts between states over the sharing of river waters, arising from competing demands for irrigation, drinking water, and hydropower.",
+   "formula": "",
+   "key_idea": "Interstate water disputes arise when states sharing a river basin have conflicting claims over water allocation for various uses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are interstate water disputes?",
+    "Explain the causes of interstate water disputes in India.",
+    "Describe the Cauvery water dispute.",
+    "How are interstate water disputes resolved in India?",
+    "Why are interstate water disputes a challenge to federalism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define interstate water disputes",
+     "explain": "These are conflicts between states over the sharing of river waters within a common river basin."
+    },
+    {
+     "step": 2,
+     "action": "Identify causes",
+     "explain": "Causes include competing demands for irrigation, drinking water, hydropower, and unequal distribution of water resources."
+    },
+    {
+     "step": 3,
+     "action": "Explain resolution mechanisms",
+     "explain": "Resolution is through tribunals established under the Interstate River Water Disputes Act 1956, such as the Cauvery and Krishna water disputes tribunals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are interstate water disputes? Give one example.",
+     "solution": "Interstate water disputes are conflicts between states over sharing river waters. An example is the Cauvery water dispute between Karnataka and Tamil Nadu.",
+     "answer": "Interstate water disputes are river-sharing conflicts; example: Cauvery dispute."
+    },
+    {
+     "question": "How are interstate water disputes resolved in India?",
+     "solution": "Interstate water disputes are resolved through tribunals set up under the Interstate River Water Disputes Act 1956, which give binding awards to the states involved.",
+     "answer": "Disputes are resolved through tribunals under the 1956 Act."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes and resolution of interstate water disputes in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the Cauvery water dispute.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.8.10",
+   "title": "Watershed Management",
+   "section": "Water Scarcity and the Need for Water Conservation",
+   "definition": "Watershed management is the integrated management of land, water, and vegetation resources within a watershed to conserve soil and water and improve livelihoods.",
+   "formula": "",
+   "key_idea": "Watershed management integrates the management of land, water, and vegetation in a drainage basin to conserve resources and support rural livelihoods.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is watershed management?",
+    "Explain the objectives of watershed management.",
+    "How does watershed management help in water conservation?",
+    "Describe the role of community participation in watershed management.",
+    "Give an example of a successful watershed management project in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define watershed management",
+     "explain": "Watershed management is the holistic management of land, water, and vegetation within a watershed."
+    },
+    {
+     "step": 2,
+     "action": "Explain objectives",
+     "explain": "Objectives include soil and water conservation, increasing agricultural productivity, and improving rural livelihoods."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "The Hivrebazar watershed project in Maharashtra is a successful example of community-based watershed management."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is watershed management? Mention two objectives.",
+     "solution": "Watershed management is the integrated management of land, water, and vegetation in a watershed. Two objectives are soil and water conservation and improving agricultural productivity.",
+     "answer": "Watershed management conserves soil and water; objectives include conservation and productivity."
+    },
+    {
+     "question": "Give an example of a successful watershed management project in India.",
+     "solution": "The Hivrebazar watershed project in Maharashtra transformed a drought-prone village into a water-sufficient one through community participation and soil conservation.",
+     "answer": "The Hivrebazar project in Maharashtra is a successful watershed project."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept and objectives of watershed management.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the role of community participation in watershed management.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

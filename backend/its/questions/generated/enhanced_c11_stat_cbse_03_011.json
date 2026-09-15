@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_011",
+   "title": "c11_stat_cbse_03_011",
+   "questions": [
+    {
+     "q": "A researcher collects data on the \"mode of transport\" (bus, metro, car, walk) used by 500 commuters. She presents the data in a table showing each transport mode and the number of commuters using it. What type of table is this, and how many variables does it classify?",
+     "a": "This is a one-way table classifying a single variable (mode of transport). A wrong answer (e.g., \"two-way table\" or \"two variables\") reveals the student confuses the number of categories (4 transport modes) with the number of variables. The categories are values of ONE variable, not separate variables.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a two-way table is also called a \"cross-tabulation\" and what the \"marginal totals\" represent. Use the example of a table showing \"Stream (Science/Commerce/Arts) vs Result (Pass/Fail)\" for 300 students.",
+     "a": "A two-way table cross-tabulates two variables by placing one variable's categories as rows and the other's as columns, so each cell shows the frequency of a specific row-column combination (e.g., Science-Pass). \"Cross-tabulation\" literally means tabulating the cross/combination of two variables. Marginal totals are the row totals (total per stream) and column totals (total pass/fail) — they appear in the margins and give the univariate distribution of each variable separately. A wrong answer that says marginal totals are \"averages\" or \"percentages\" reveals confusion between frequency counts and derived measures.",
+     "self_check": true
+    },
+    {
+     "q": "Given the raw data below for 20 employees, construct a two-way table with \"Department\" (HR, IT, Finance) as rows and \"Performance Rating\" (Excellent, Good, Average) as columns. Include marginal totals.\nData: (HR,Excellent), (IT,Good), (Finance,Average), (HR,Good), (IT,Excellent), (Finance,Good), (HR,Average), (IT,Average), (Finance,Excellent), (HR,Excellent), (IT,Good), (Finance,Good), (HR,Good), (IT,Excellent), (Finance,Average), (HR,Average), (IT,Good), (Finance,Excellent), (HR,Excellent), (IT,Average)",
+     "a": "**Step 1:** List row categories (HR, IT, Finance) and column categories (Excellent, Good, Average).\n**Step 2:** Create 3×3 grid with cells for each combination.\n**Step 3:** Tally each data pair: HR-Excellent: 3, HR-Good: 2, HR-Average: 2; IT-Excellent: 2, IT-Good: 4, IT-Average: 2; Finance-Excellent: 2, Finance-Good: 2, Finance-Average: 2.\n**Step 4:** Compute row totals: HR=7, IT=8, Finance=6. Column totals: Excellent=7, Good=8, Average=6. Grand total=21 (check: 20 data points? Recount: actually 20 pairs listed, so grand total=20. Row totals: HR=7, IT=7, Finance=6 → 20. Column totals: Excellent=7, Good=8, Average=5 → 20. Correct.)\n**Step 5:** Present table with proper labels. A wrong answer with mismatched totals reveals failure to verify grand total consistency — a critical checking step.",
+     "self_check": true
+    },
+    {
+     "q": "A two-way table shows \"Gender (Male/Female) vs Employment Status (Employed/Unemployed)\" for a village. The cell for (Male, Employed) = 120, (Male, Unemployed) = 30, (Female, Employed) = 80, (Female, Unemployed) = 70. Calculate: (a) The conditional distribution of employment status GIVEN male; (b) The conditional distribution of gender GIVEN employed. Explain what each distribution tells you that the marginal totals do not.",
+     "a": "(a) Given Male: Total males = 150. Employed|Male = 120/150 = 0.80 (80%), Unemployed|Male = 30/150 = 0.20 (20%).\n(b) Given Employed: Total employed = 200. Male|Employed = 120/200 = 0.60 (60%), Female|Employed = 80/200 = 0.40 (40%).\nMarginal totals only give overall counts (150 males, 200 employed). Conditional distributions reveal relationships: 80% of males are employed vs only 53.3% of females (80/150), and among the employed, 60% are male. A wrong answer that gives joint percentages (e.g., 120/300 = 40% for Male-Employed) confuses joint, marginal, and conditional distributions — a fundamental error in two-way table interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A three-way table is always better than a two-way table because it contains more information.\" Consider a study with variables: Region (North/South), Crop (Wheat/Rice), and Fertilizer Used (Yes/No). When would a three-way table be misleading or unnecessary?",
+     "a": "The statement is flawed. A three-way table (Region × Crop × Fertilizer) creates 2×2×2 = 8 cells. With limited data, many cells may have very low frequencies (e.g., <5), making patterns unreliable and statistical tests invalid. It's misleading when: (1) Sample size is small relative to number of cells (sparse data problem); (2) The third variable is not of research interest (e.g., if we only care about Region-Crop relationship, adding Fertilizer complicates without benefit); (3) The third variable is a confounding variable that should be controlled via stratification, not just tabulation. A two-way table (Region × Crop) with 4 cells gives clearer, more stable estimates. A wrong answer that agrees uncritically reveals inability to evaluate trade-offs between detail and reliability — a key statistical thinking skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario requiring a three-way table. Specify: (a) The three categorical variables with their categories; (b) A research question that needs all three variables; (c) How you would present the three-way table (since paper is 2D); (d) One specific insight you could only get from the three-way table, not from any two-way table.",
+     "a": "(a) Variables: School Type (Govt/Private), Medium (English/Hindi), Board Result (Pass/Fail). (b) Research question: \"Does the effect of school type on pass rate differ by medium of instruction?\" (c) Present as two separate 2×2 tables: one for English medium (School Type × Result), one for Hindi medium. Or as a single table with School Type × Result as rows/columns and Medium as panel header. (d) Insight: In English medium, Private schools have 90% pass vs Govt 70% (20% gap). In Hindi medium, Private 60% vs Govt 65% (Govt better!). This interaction — school type effect REVERSES by medium — is ONLY visible in the three-way table. A poor answer that gives three variables but no interaction insight (e.g., just \"more detail\") misses the core purpose of three-way tables: detecting effect modification/interaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

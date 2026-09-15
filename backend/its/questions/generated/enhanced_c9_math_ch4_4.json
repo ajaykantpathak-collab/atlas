@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_4",
+   "title": "c9_math_ch4_4",
+   "questions": [
+    {
+     "q": "Draw a square of side (a+b) and partition it to represent the identity (a+b)² = a² + 2ab + b². Label all four sub-regions with their areas in terms of a and b.",
+     "a": "The square of side (a+b) is divided by drawing one vertical and one horizontal line at distance a from the left and bottom edges. This creates four regions: a square of side a (area a²) at bottom-left, a square of side b (area b²) at top-right, and two rectangles each of dimensions a×b (area ab each) at bottom-right and top-left. The sum of areas is a² + ab + ab + b² = a² + 2ab + b². If a student draws only two regions or labels the rectangles as a² and b², they confuse the side lengths with the areas and do not understand that the partition lines must be at distance a (not b) from the edges to get the correct sub-areas.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the identity (a-b)² = a² - 2ab + b² cannot be represented by a single square of side (a-b) in the same straightforward way as (a+b)², and describe how the \"missing area\" method works using a square of side a.",
+     "a": "A square of side (a-b) only exists when a > b, but the identity holds for all real numbers including a < b. The \"missing area\" method starts with a square of side a (area a²). Remove two rectangles of area ab each (total 2ab) but note the overlapping square of side b (area b²) was removed twice, so add it back once. The remaining L-shaped figure has area a² - 2ab + b², which equals the area of a square of side (a-b). If a student says \"just draw a square of side (a-b)\", they miss the conceptual limitation that geometric lengths must be positive, and they fail to see the subtraction as a removal process that requires compensation for double-counting.",
+     "self_check": true
+    },
+    {
+     "q": "Use an area model to factorise the expression 4x² - 9y². Draw the figure, label dimensions, and write the factorised form.",
+     "a": "4x² - 9y² = (2x)² - (3y)². Draw a large square of side 2x (area 4x²). Remove a smaller square of side 3y (area 9y²) from one corner. The remaining L-shaped figure can be rearranged into a rectangle with dimensions (2x+3y) and (2x-3y). Therefore, 4x² - 9y² = (2x+3y)(2x-3y). If a student writes (4x-9y)(4x+9y) or (2x-3y)², they are not recognising the expression as a difference of squares and are not taking square roots of the coefficients correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area model for (a+b+c)² with the model for (a+b)². How many sub-regions does each have? What pattern do you notice in the number and types of terms (squares vs rectangles) as the number of terms in the sum increases from 2 to 3?",
+     "a": "(a+b)² has 4 sub-regions: 2 squares (a², b²) and 2 rectangles (ab, ab). (a+b+c)² has 9 sub-regions: 3 squares (a², b², c²) and 6 rectangles (ab, ab, ac, ac, bc, bc). The pattern: for n terms, there are n² sub-regions total, consisting of n squares and n(n-1) rectangles (each cross-term appears twice). If a student says (a+b+c)² has 6 regions or misses the doubled cross-terms, they are not systematically partitioning the square and are likely just memorising the algebraic expansion without geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the identity a² - b² = (a+b)(a-b) can be visualised by drawing a rectangle of sides (a+b) and (a-b) directly. Evaluate this claim: is the rectangle's area equal to a² - b²? If yes, explain how the rectangle's dimensions relate to the squares of side a and b. If no, explain the error.",
+     "a": "The claim is correct. A rectangle with sides (a+b) and (a-b) has area (a+b)(a-b). Geometrically, this rectangle can be obtained by taking a square of side a (area a²), cutting off a square of side b (area b²) from one corner, and then rearranging the remaining two rectangles into a single rectangle of dimensions (a+b) by (a-b). The (a+b) dimension comes from the full side a plus the extra b from the cut piece; the (a-b) dimension comes from the side a minus the removed b. If a student says \"no, you cannot multiply (a+b) and (a-b) directly\", they are confusing the algebraic manipulation with the geometric construction and not seeing that the rectangle is the end result of the rearrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires the use of the geometric visualisation of (a+b)² to solve, and write the solution steps including the diagram description.",
+     "a": "Problem: A square courtyard of side (x+5) metres is to be paved. The central square of side x metres uses premium tiles costing ₹200/m², and the border uses standard tiles costing ₹50/m². Find the total cost in terms of x.\nSolution: Draw square of side (x+5). Partition into: central square (x×x = x² m²), four border pieces: two rectangles x×5 (area 5x each) and two squares 5×5 (area 25 each). Total border area = 2(5x) + 2(25) = 10x + 50. Cost = 200(x²) + 50(10x+50) = 200x² + 500x + 2500. A poor answer would just expand (x+5)² algebraically without the geometric partition, missing the point that the visualisation helps separate the two tile regions and their costs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

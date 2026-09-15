@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_10_008",
+   "title": "c12_hin_ar_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define 'imagery' (बिम्ब) and 'metaphor' (रूपक) in your own words, giving one example of each from the text \"HkfDru\" (do not quote more than one phrase per example).",
+     "a": "**Correct answer:** Imagery = sensory language creating mental pictures (e.g., \"काले-काले हाथ... काली मिट्टी के ढेले\" — visual + tactile). Metaphor = direct equation of two unlike things without 'like/as' (e.g., society as \"पिंजरा\" for HkfDru).  \n**Why wrong answers reveal misunderstanding:** If a student gives \"HkfDru's hands were black\" as imagery, they confuse *plot detail* with *sensory evocation*. If they cite \"HkfDru is like a bird\" as metaphor, they confuse *simile* (उपमा) with *metaphor* (रूपक) — a classic Class 12 error that costs 1 mark per instance in board marking.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the description \"उनकी उँगलियाँ... खेतों की मेड़ों जैसी उभरी हुई\" is **imagery** but NOT a metaphor, whereas \"समाज का पिंजरा\" **is** a metaphor. Use the terms 'tenor' (उपमेय) and 'vehicle' (उपमान) in your explanation.",
+     "a": "**Correct answer:** \"खेतों की मेड़ों जैसी\" uses 'जैसी' (like) → explicit comparison → **simile/उपमा**, a *type* of imagery. Tenor = fingers, Vehicle = field ridges. \"समाज का पिंजरा\" has no comparative word; tenor (society) and vehicle (cage) are *fused* → **metaphor/रूपक**.  \n**Why wrong answers reveal misunderstanding:** Students who say \"both compare two things\" miss the *structural* difference: simile *keeps* tenor/vehicle separate; metaphor *merges* them. This distinction is explicitly tested in CBSE 2023-24 sample paper Q3(b) and CUET Hindi 2023.",
+     "self_check": true
+    },
+    {
+     "q": "In the paragraph beginning \"हक़दरू बहुत बड़ी है...\" (p. 66), locate **one visual image**, **one tactile image**, and **one metaphor**. For each, write the exact phrase and state its effect on the reader's understanding of HkfDru's character.",
+     "a": "**Correct answer (sample):**  \n- Visual: \"काले-काले हाथ\" → emphasises her labour, dark skin, marginalised identity.  \n- Tactile: \"खुरदुरी... मिट्टी के ढेले\" → conveys hardness of her life, connection to earth.  \n- Metaphor: \"जिंदगी की धूप में झुलसी\" (life's sun scorched her) → equates suffering with burning heat; no 'like'.  \n**Why wrong answers reveal misunderstanding:** Picking \"बहुत बड़ी है\" as metaphor (it's literal). Missing tactile entirely → shows 'imagery = only visual' misconception. Quoting whole sentences instead of *phrases* → fails board's \"concise evidence\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **extended metaphor of the \"cage\" (पिंजरा)** for society (pp. 68-69) with the **repeated \"bird\" imagery** for HkfDru (pp. 64, 72). How do they work together to structure the chapter's central conflict? Answer in 4-5 sentences.",
+     "a": "**Correct answer:** The \"cage\" metaphor frames society as an *active, confining structure* (tenor = patriarchy/caste, vehicle = cage). The \"bird\" imagery (visual: \"पंख\", auditory: \"चहचहाहट\", kinetic: \"उड़ान\") portrays HkfDru as *innately free, fragile, vocal*. Together they create a **dynamic tension**: the cage exists *to* suppress the bird; the bird's song *proves* the cage's cruelty. This structural pairing mirrors the chapter's arc: HkfDru's voice (bird) vs. social silence (cage).  \n**Why wrong answers reveal misunderstanding:** Listing them separately without *interaction* → misses \"extended metaphor\" concept. Calling both \"symbols\" → confuses metaphor (this node) with symbolism (next node). Ignoring *sensory progression* (visual→auditory→kinetic) → loses analytical depth needed for 5-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The metaphor 'माँ की ममता... एक ऐसी नदी है जो कभी सूखती नहीं' (implied in the text) is more powerful than the explicit simile 'माँ की ममता समुद्र जैसी गहरी है'.\" Defend or challenge this statement using *two* criteria from Hindi literary criticism (e.g., *raktmikata* रक्तिमिकता, *sadrishya* सादृश्य).",
+     "a": "**Correct answer (defend):** Metaphor scores higher on **raktmikata** (organic fusion) — tenor/vehicle become inseparable, making maternal love *felt* as perpetual flow, not just *compared* to it. On **sadrishya** (aptness of resemblance), metaphor avoids the 'distance' created by 'जैसी', allowing reader to *experience* the inexhaustibility directly. Simile keeps love and sea *apart*; metaphor *makes* love the river.  \n**Why wrong answers reveal misunderstanding:** Saying \"metaphor is always better\" → ignores context (simile can clarify complex ideas). Using only English terms (\"show don't tell\") → fails to demonstrate *Hindi critical vocabulary* required in CBSE marking scheme (2022 onwards).",
+     "self_check": true
+    },
+    {
+     "q": "Write a **four-line Hindi poem/stanza** about a domestic worker you know, using **at least two distinct images** (different senses) and **one original metaphor** (no 'like/as'). Label each device in brackets.",
+     "a": "**Sample answer:**  \nसुबह की चाय की भाप में (घ्राण बिम्ब - olfactory image)  \nउसके हाथों की रेखाएँ पढ़ती हूँ — (दृश्य बिम्ब - visual image)  \nवह **लोहे की चाबी** है (रूपक - metaphor: she = iron key, unlocking households)  \nजो हर ताला खोल दे, खुद न खुले।  \n**Criteria for good answer:** Two *different* senses (not both visual), metaphor without comparative word, clear tenor/vehicle.  \n**Why poor answers reveal misunderstanding:** Using \"जैसे/वैसी\" → simile, not metaphor. Two visual images → sensory monotony. Metaphor with no clear ground of comparison (e.g., \"वह चाँद है\" without context) → *asangat rupak* (असंगत रूपक), a specific error in Hindi poetics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

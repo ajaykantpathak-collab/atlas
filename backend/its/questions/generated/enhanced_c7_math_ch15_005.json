@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_005",
+   "title": "c7_math_ch15_005",
+   "questions": [
+    {
+     "q": "What does it mean for an equation to have \"variables on both sides\"? Give an example of such an equation.",
+     "a": "An equation with variables on both sides has the unknown letter (like $x$) appearing in expressions on both the left-hand side and the right-hand side of the equals sign, such as $4x - 2 = 2x + 10$. A wrong answer often shows confusion between algebraic expressions and equations, or mistakes an equation with multiple variables (like $x$ and $y$) for an equation with the variable on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "When solving the equation $7x = 3x + 16$, why is our first strategic goal usually to subtract $3x$ from both sides rather than adding $16$ to both sides?",
+     "a": "Subtracting $3x$ from both sides collects all the variable terms onto a single side of the equation ($7x - 3x = 16$), which simplifies it into a standard one-variable equation we already know how to solve. If a student adds $16$ first, they end up with $7x + 16 = 3x + 32$, which still leaves variables on both sides and makes the expression more complicated instead of isolating the unknown.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the equation: $5x - 7 = 2x + 8$. Find the value of $x$.",
+     "a": "Step 1: Subtract $2x$ from both sides to gather variables on the left: $5x - 2x - 7 = 8 \\implies 3x - 7 = 8$. \nStep 2: Add $7$ to both sides to isolate the variable term: $3x = 8 + 7 \\implies 3x = 15$. \nStep 3: Divide both sides by $3$: $x = 15 \\div 3 = 5$. \nA wrong answer like $x = -5$ or $x = 3$ usually indicates a sign error when transposing terms or an arithmetic mistake during division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two equations: Equation A ($4x + 3 = 4x + 7$) and Equation B ($4x + 3 = 2x + 7$). Without fully solving them, explain how their solutions will differ fundamentally.",
+     "a": "In Equation A, if we subtract $4x$ from both sides, we get $3 = 7$, which is a false statement, meaning Equation A has no solution. In Equation B, the variable coefficients are different ($4$ and $2$), so subtracting $2x$ from both sides leaves a valid variable term ($2x + 3 = 7$), which leads to a unique single solution ($x = 2$). A wrong answer reveals a misunderstanding of what happens to variable terms when they have identical coefficients on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul tried to solve $6 - 2x = 3x - 9$. His steps were:\n1) $6 = 5x - 9$ (by adding $2x$ to both sides)\n2) $15 = 5x$ (by adding $9$ to both sides)\n3) $x = 3$ (by dividing by $5$)\nEvaluate Rahul's solution. Is it correct, and if not, where did he make his error?",
+     "a": "Rahul's solution is completely correct! He successfully added $2x$ to both sides to eliminate the negative variable term, then added $9$ to isolate the variable, and correctly divided by $5$ to get $x = 3$. A wrong evaluation usually stems from students panicking when they see a negative coefficient for the variable, falsely believing that variables must always be moved to the left-hand side.",
+     "self_check": true
+    },
+    {
+     "q": "Create a linear equation with variables on both sides where the final solution is a negative integer, specifically $x = -4$. Show the step-by-step verification that your created equation works.",
+     "a": "A valid equation is $3x + 5 = 2x + 1$. Verification: Substitute $x = -4$ into LHS: $3(-4) + 5 = -12 + 5 = -7$. Substitute into RHS: $2(-4) + 1 = -8 + 1 = -7$. Since LHS = RHS, the equation works. A poor answer provides an equation that does not balance when $x = -4$ is substituted, showing a lack of understanding of how equations are constructed from known solutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

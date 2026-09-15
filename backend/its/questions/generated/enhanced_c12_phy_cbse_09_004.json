@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_004",
+   "title": "c12_phy_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the two necessary conditions for Total Internal Reflection to occur. Write the formula for critical angle in terms of the refractive indices of the two media.",
+     "a": "Correct answer: (1) Light must travel from an optically denser medium to an optically rarer medium. (2) The angle of incidence in the denser medium must be greater than the critical angle (i > ic). Formula: sin(ic) = n2/n1 = 1/n12, where n1 is the refractive index of the denser medium and n2 is that of the rarer medium. A wrong answer (e.g., saying light goes from rarer to denser, or stating i < ic) reveals the student has not internalised the direction of bending (away from normal) and the mathematical limit sin r ≤ 1. They are likely memorising the formula without understanding the physical constraint that sine cannot exceed 1.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light travels from glass (n = 1.5) to air (n = 1.0). The angle of incidence is 40°. Will total internal reflection occur? Justify your answer by calculating the critical angle and comparing.",
+     "a": "Correct answer: Critical angle ic = sin⁻¹(1/1.5) = sin⁻¹(0.6667) ≈ 41.8°. Since the given angle of incidence (40°) is less than the critical angle (41.8°), TIR will NOT occur; the ray will be partially reflected and partially refracted into air. A wrong answer (e.g., claiming TIR occurs because 40° is \"large\") reveals the student is comparing the angle of incidence to 45° or 90° instead of calculating the actual critical angle. They may also incorrectly use n1/n2 instead of n2/n1, giving ic = sin⁻¹(1.5) which is undefined — if they don't catch this domain error, they lack understanding of the physical meaning of refractive index ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the critical angle for a diamond-air interface (refractive index of diamond = 2.42). If a light ray inside diamond strikes the diamond-air interface at an angle of incidence of 30°, what is the angle of refraction in air? Explain why this property makes diamonds sparkle.",
+     "a": "Correct answer: ic = sin⁻¹(1/2.42) = sin⁻¹(0.4132) ≈ 24.4°. For i = 30°, since i > ic (30° > 24.4°), TIR occurs — there is NO refracted ray in air. The angle of refraction is undefined (or we say the ray is totally internally reflected). Diamonds sparkle because their low critical angle (24.4°) means most rays entering the diamond hit internal faces at angles > 24.4° and undergo multiple TIRs before exiting through the top facets, concentrating light. A wrong answer (e.g., calculating r = sin⁻¹(2.42 × sin 30°) = sin⁻¹(1.21) and not recognising the domain error) shows the student is blindly applying Snell's law without checking the TIR condition first. They miss the physical insight that sin r > 1 signals total reflection.",
+     "self_check": true
+    },
+    {
+     "q": "An optical fiber has a core of refractive index 1.68 and cladding of refractive index 1.44. (a) Calculate the critical angle for the core-cladding interface. (b) A ray enters the fiber from air at the maximum acceptance angle such that it undergoes TIR at the core-cladding interface. Derive the expression for the numerical aperture (NA) of the fiber in terms of n_core and n_cladding, and compute its value.",
+     "a": "Correct answer: (a) ic = sin⁻¹(n_cladding/n_core) = sin⁻¹(1.44/1.68) = sin⁻¹(0.8571) ≈ 59.0°. (b) For TIR at core-cladding, the angle of incidence at the interface must be > ic. The angle inside the core with respect to the axis is (90° - r_core), where r_core is the refraction angle at the air-core entrance. For maximum acceptance, (90° - r_core) = ic ⇒ r_core = 90° - ic. By Snell's law at entrance: sin(θ_acceptance) = n_core sin(r_core) = n_core sin(90° - ic) = n_core cos(ic). Using cos(ic) = √(1 - sin²(ic)) = √(1 - (n_cladding/n_core)²), we get NA = sin(θ_acceptance) = √(n_core² - n_cladding²) = √(1.68² - 1.44²) = √(2.8224 - 2.0736) = √0.7488 ≈ 0.865. A wrong answer (e.g., using NA = n_core - n_cladding, or forgetting the square root) reveals confusion between the geometric derivation and the final formula. The student may not see the connection between the acceptance angle and the critical angle at the side wall.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a mirage, the inverted image of a tree is formed because light from the tree undergoes total internal reflection at a layer of hot air near the ground. This is exactly like reflection from a mirror.\" Evaluate this statement. Identify what is correct and what is misleading. Explain the actual mechanism of mirage formation, including the role of the refractive index gradient.",
+     "a": "Correct evaluation: The statement is partially correct but misleading. Correct: Light from the tree (traveling from cooler, denser air to hotter, rarer air near the ground) does undergo TIR when the angle of incidence exceeds the critical angle at the interface between air layers of different temperatures. Misleading: It is not \"exactly like reflection from a mirror\" because (1) there is no sharp interface — the refractive index changes continuously with height due to temperature gradient, causing the ray to bend gradually (curved path) rather than reflect at a single plane. (2) The \"mirror\" is not a physical surface but a region where the ray curves upward. The inverted image forms because rays from the top of the tree bend upward more strongly and reach the observer's eye from below the horizontal, making the tree appear below the horizon. A wrong evaluation (e.g., agreeing completely, or saying mirage is due to reflection from water on the road) shows the student confuses TIR at a sharp boundary with continuous refraction in a gradient, and does not understand that the \"water\" appearance is the sky's image, not actual water.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a semi-circular glass block, a laser pointer, and a protractor to verify the critical angle for glass-air interface. Describe the procedure, the measurements you would take, and how you would calculate the critical angle from your data. What precaution must be taken to ensure the incident ray hits the center of the flat face?",
+     "a": "Expected answer: Place the semi-circular block on a paper with its flat face vertical. Direct the laser beam through the curved surface so it travels along a radius and hits the center of the flat face (this ensures normal incidence at the curved surface, so no bending there). Rotate the laser to vary the angle of incidence at the flat face (measured from the normal). Observe the refracted ray on a screen. Increase the angle until the refracted ray just grazes the flat face (disappears along the interface). Record this angle as ic. Repeat 5 times and average. Calculate n_glass = 1/sin(ic). Precaution: The laser must be aimed at the exact center of the flat face; otherwise, the ray hits the curved surface at an angle, refracts there, and the geometry becomes complicated. A poor answer (e.g., shining the laser through the flat face directly, or not using the curved surface to guarantee normal entry) reveals the student doesn't understand that we need the ray to hit the flat face from inside the glass at a known angle without prior deviation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

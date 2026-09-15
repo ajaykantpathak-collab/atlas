@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_005",
+   "title": "c11_geo_cbse_17_005",
+   "questions": [
+    {
+     "q": "According to the Census of India, what is the minimum population threshold for a city to be classified as a \"Million-Plus City\" or \"Metropolitan City\"?",
+     "a": "The minimum population threshold is 1 million (10 lakh) as per the Census of India. A wrong answer (e.g., 5 lakh or 50 lakh) reveals the student confuses Class I town threshold (1 lakh) with metropolitan threshold, or confuses \"metro\" with \"megacity\" (10 million+). This indicates inability to apply the specific Census classification hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Census of India use \"Urban Agglomeration\" (UA) rather than \"Municipal Corporation\" boundaries when classifying metropolitan cities?",
+     "a": "Urban Agglomeration includes the core city plus contiguous outgrowths (railway colonies, university campuses, port areas) and adjoining towns that form a continuous urban spread, capturing the true functional urban extent. Municipal boundaries often exclude rapidly growing peri-urban areas. A wrong answer suggests the student thinks administrative boundaries equal functional urban areas, missing the geographical concept of \"continuous built-up area\" critical for metropolitan analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2011 Census data, identify which state has the highest number of million-plus cities and calculate what percentage of India's total million-plus cities it contains. (Total million-plus cities in India 2011: 53)",
+     "a": "Step 1: Recall 2011 Census - Maharashtra has 7 million-plus cities (Greater Mumbai, Pune, Nagpur, Nashik, Vasai-Virar, Aurangabad, Solapur). Step 2: Total million-plus cities = 53. Step 3: Percentage = (7/53) × 100 = 13.2%. A wrong answer (e.g., Uttar Pradesh or Tamil Nadu) reveals the student cannot recall the state-wise distribution pattern or misapplies total city count. This tests both factual recall and quantitative geographical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of million-plus cities in the Northern Plains versus the Peninsular Plateau. What geographical factors explain the difference in density and clustering?",
+     "a": "Northern Plains: High density linear clustering along Ganga-Yamuna corridor (Delhi, Meerut, Kanpur, Lucknow, Prayagraj, Varanasi, Patna) due to fertile alluvial soil, dense river network, historical trade routes, and flat terrain enabling transport. Peninsular Plateau: Dispersed, isolated metropolitan nodes (Bengaluru, Hyderabad, Chennai, Coimbatore, Madurai) due to rugged terrain, scattered mineral/industrial resources, and historical princely state capitals. A wrong answer listing only \"population\" or \"industrialisation\" misses the physical geography template (relief, soil, drainage) that pre-conditions urban location.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The emergence of new million-plus cities in Kerala (Kochi, Kozhikode, Thrissur, Malappuram, Kannur, Kollam) between 2001-2011 represents genuine urbanisation rather than statistical reclassification.\" Support your judgment with geographical evidence.",
+     "a": "This is largely statistical reclassification, not genuine urbanisation. Evidence: Kerala's urbanisation is characterised by \"rural-urban continuum\" - high density rural areas with non-agricultural employment. The 2011 Census redefined \"urban\" to include Census Towns (population >5000, density >400/km², >75% male non-agricultural workers). Kerala added 36 Census Towns in 2011. True metropolitan functions (corporate HQs, specialised services, transport hubs) remain concentrated in Kochi/Thiruvananthapuram. A wrong evaluation accepting the statement at face value shows inability to distinguish between demographic threshold crossing and functional metropolitan transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thematic map annotation scheme to show the hierarchical relationship between India's 7 megacities (10 million+), 53 million-plus cities, and 468 Class I towns (1 lakh+) using 2011 Census data. Specify symbols, colours, and label hierarchy.",
+     "a": "Good answer: Use proportional circles - Megacities: Red circle (radius ∝ log population), bold label with UA name. Million-plus (non-mega): Orange circle, medium label. Class I towns: Yellow dot, small label. Inset: Pie chart showing state-wise share. Colour gradient from red→orange→yellow shows hierarchy. Poor answer: Uses same symbol for all, or only maps megacities, missing the hierarchical urban system concept. This reveals inability to translate quantitative Census hierarchy into cartographic representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

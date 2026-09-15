@@ -1,0 +1,259 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 106,
+ "chapter_title": "Trial Balance and Rectification of Errors",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac106.txt",
+ "concepts": [
+  {
+   "id": "keac.106.1.1",
+   "title": "Meaning and Preparation of Trial Balance",
+   "section": "6.1 Meaning of Trial Balance",
+   "definition": "A trial balance is a statement of the debit and credit balances of all ledger accounts taken out on a date, prepared to test the arithmetical accuracy of the books, where the two columns must agree in total.",
+   "formula": "difference = debit_total - credit_total",
+   "key_idea": "The equality of the two sides proves that double entry has been applied throughout, though it does not certify the absence of all errors.",
+   "textbook_ref": "keac106.txt sections 6.1, 6.2",
+   "question_patterns": [
+    "what is a trial balance and state its objectives",
+    "how does a trial balance check arithmetical accuracy of ledger accounts",
+    "calculate the difference between the debit and credit columns",
+    "state the methods of preparing a trial balance",
+    "which accounts show debit balances and which credit balances",
+    "why must the two sides of a trial balance agree"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the difference of the two columns",
+     "explain": "Deduct the credit total from the debit total of the trial balance to find the difference",
+     "compute": "difference = debit_total - credit_total"
+    }
+   ]
+  },
+  {
+   "id": "keac.106.2.1",
+   "title": "Objectives and Limitations of the Trial Balance",
+   "section": "6.2 Objectives of Preparing the Trial Balance",
+   "definition": "The trial balance ascertains the arithmetical accuracy of ledger accounts, helps in locating errors, and provides the basis for preparing final accounts; yet errors of principle, complete omission and compensating errors do not disturb its agreement.",
+   "formula": "",
+   "key_idea": "A tallied trial balance is only a presumption of accuracy, since several classes of errors leave the two sides equal.",
+   "textbook_ref": "keac106.txt sections 6.2, 6.2.1, 6.2.2",
+   "question_patterns": [
+    "state the objectives of preparing the trial balance",
+    "which errors are not disclosed by the trial balance",
+    "what are errors of principle with examples",
+    "what is a compensating error",
+    "how does the trial balance help in locating errors",
+    "can a tallied trial balance still contain errors explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the objectives",
+     "explain": "Recall accuracy testing, error location and basis of final accounts."
+    },
+    {
+     "step": 2,
+     "action": "identify undetected errors",
+     "explain": "Note errors of omission, principle, commission in the same side, and compensating errors."
+    },
+    {
+     "step": 3,
+     "action": "state the limitation",
+     "explain": "Conclude that agreement of the trial balance is not conclusive proof of accuracy."
+    }
+   ]
+  },
+  {
+   "id": "keac.106.3.1",
+   "title": "Classification of Errors: Omission, Commission, Principle and Compensating",
+   "section": "6.3 Kinds of Errors",
+   "definition": "Accounting errors are classified as errors of complete or partial omission, errors of commission such as wrong posting or casting, errors of principle that break the accounting rules, and compensating errors that cancel one another.",
+   "formula": "",
+   "key_idea": "Classifying an error first decides whether it can be rectified through the suspense account or needs a correcting journal entry.",
+   "textbook_ref": "keac106.txt section 6.3",
+   "question_patterns": [
+    "classify the errors of accounting with examples",
+    "what is the difference between error of omission and error of commission",
+    "explain error of principle with an example",
+    "how do compensating errors affect the trial balance",
+    "which errors affect the agreement of the trial balance",
+    "give examples of errors disclosed and not disclosed by the trial balance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the nature of the mistake",
+     "explain": "Check whether the transaction is omitted, wrongly posted, wrongly classified or doubly offset."
+    },
+    {
+     "step": 2,
+     "action": "assign the class",
+     "explain": "Place the mistake in omission, commission, principle or compensating category."
+    },
+    {
+     "step": 3,
+     "action": "note the trial balance effect",
+     "explain": "State whether the error keeps the trial balance tallied or disturbs it."
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4.1",
+   "title": "Rectification through the Suspense Account",
+   "section": "6.4 Rectification of Errors",
+   "definition": "One-sided errors that leave the trial balance suspended are rectified through the suspense account, while two-sided errors are rectified by a journal entry that cancels the wrong effect and records the right one.",
+   "formula": "suspense_balance = difference",
+   "key_idea": "The suspense account carries the trial balance difference until all one-sided errors are located and rectified, after which it closes automatically.",
+   "textbook_ref": "keac106.txt sections 6.4, 6.5",
+   "question_patterns": [
+    "what is a suspense account and when is it opened",
+    "rectify the one-sided errors through the suspense account",
+    "how are two-sided errors rectified by journal entries",
+    "give the rectifying entry for goods returned wrongly debited",
+    "when does the suspense account stand closed",
+    "distinguish one-sided errors from two-sided errors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine the error type",
+     "explain": "Check whether the error affects one side only or both sides."
+    },
+    {
+     "step": 2,
+     "action": "choose the rectification route",
+     "explain": "Use the suspense account for one-sided errors and journal entries for two-sided errors."
+    },
+    {
+     "step": 3,
+     "action": "verify closure",
+     "explain": "Confirm the suspense account closes once all errors are rectified."
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5.1",
+   "title": "Rectified Totals after Correction of Errors",
+   "section": "6.4 Rectification of Errors",
+   "definition": "After a wrong amount is replaced, the corrected total follows by deducting the excess or adding the shortfall from the old total, as when a purchase book is overcast or undercast.",
+   "formula": "corrected_total = wrong_total - excess_amount",
+   "key_idea": "Overcasting inflates a total by the excess, so the rectified figure is the wrong total less the excess; undercasting works in reverse.",
+   "textbook_ref": "keac106.txt rectification examples",
+   "question_patterns": [
+    "calculate the corrected total when a book is overcast",
+    "find the rectified figure after an undercast is removed",
+    "the purchase book is overcast by how much should it be reduced",
+    "correct the sales book total after the given error",
+    "how does overcasting affect the trial balance",
+    "compute the true total from the wrong total and the excess"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct the excess from the wrong total",
+     "explain": "Subtract the excess amount from the wrong total to get the corrected total",
+     "compute": "corrected_total = wrong_total - excess_amount"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac106.txt sections 6.1, 6.2",
+   "concept": "keac.106.1.1",
+   "question_type": "compute_trial_balance_difference",
+   "question_pattern": "The debit column of a trial balance totals {debit_total} rupees and the credit column totals {credit_total} rupees. Calculate the difference to be carried to the suspense account.",
+   "extracted_variables": {
+    "debit_total": 186500,
+    "credit_total": 184700
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference of the two columns",
+     "explain": "Deduct the credit total from the debit total of the trial balance to find the difference",
+     "compute": "difference = debit_total - credit_total"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac106.txt sections 6.1, 6.2",
+   "concept": "keac.106.1.1",
+   "question_type": "compute_trial_balance_difference",
+   "question_pattern": "A trial balance shows debit total of {debit_total} rupees and credit total of {credit_total} rupees. Find the shortfall in the credit column.",
+   "extracted_variables": {
+    "debit_total": 96400,
+    "credit_total": 95150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the difference of the two columns",
+     "explain": "Deduct the credit total from the debit total of the trial balance to find the difference",
+     "compute": "difference = debit_total - credit_total"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac106.txt rectification examples",
+   "concept": "keac.106.5.1",
+   "question_type": "compute_corrected_total",
+   "question_pattern": "The purchases book of a firm was overcast by {excess_amount} rupees and its total stands at {wrong_total} rupees. Calculate the corrected total.",
+   "extracted_variables": {
+    "wrong_total": 45200,
+    "excess_amount": 800
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct the excess from the wrong total",
+     "explain": "Subtract the excess amount from the wrong total to get the corrected total",
+     "compute": "corrected_total = wrong_total - excess_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac106.txt rectification examples",
+   "concept": "keac.106.5.1",
+   "question_type": "compute_corrected_total",
+   "question_pattern": "A sales book total of {wrong_total} rupees includes an excess casting of {excess_amount} rupees. Work out the true total of the book.",
+   "extracted_variables": {
+    "wrong_total": 78900,
+    "excess_amount": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct the excess from the wrong total",
+     "explain": "Subtract the excess amount from the wrong total to get the corrected total",
+     "compute": "corrected_total = wrong_total - excess_amount"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keac106.txt exercises section",
+   "questions": [
+    "State the meaning of a trial balance.",
+    "Objectives of preparing the trial balance - explain.",
+    "Rectify the following errors through the suspense account.",
+    "Give journal entries to rectify the following two-sided errors.",
+    "What is a suspense account? When is it opened and closed?",
+    "Classify the following errors into omission, commission, principle and compensating errors.",
+    "The purchases book was overcast - show the rectification."
+   ]
+  }
+ ]
+}

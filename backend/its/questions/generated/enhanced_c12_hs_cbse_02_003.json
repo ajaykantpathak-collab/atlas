@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_003",
+   "title": "c12_hs_cbse_02_003",
+   "questions": [
+    {
+     "q": "A student writes: \"Carbohydrates are classified as monosaccharides, disaccharides, and polysaccharides based on the number of sugar units.\" Is this classification complete from a *nutritional* perspective? Explain why or why not in 2-3 sentences.",
+     "a": "No, this chemical classification is incomplete nutritionally because it does not distinguish between *available* (digestible) and *unavailable* (indigestible/dietary fibre) carbohydrates, nor does it separate *free sugars* (added sugars + sugars naturally present in honey, syrups, fruit juices) from *intrinsic sugars* (intact within cell walls of whole fruits/vegetables/milk) — a critical distinction for health outcomes. A wrong answer reveals the student is repeating Class 11 biochemical definitions without adapting to the nutritional science framework where physiological fate and health impact drive classification.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rice and table sugar both provide 4 kcal/g, so they are nutritionally equivalent carbohydrate sources.\" Identify the flaw in this statement and explain using the concepts of glycaemic response, nutrient density, and food matrix.",
+     "a": "The statement ignores that rice (especially unpolished/brown) delivers carbohydrate within a food matrix containing fibre, B-vitamins, minerals, and phytonutrients, resulting in lower glycaemic response and higher nutrient density, whereas table sugar is a purified disaccharide (sucrose) providing \"empty calories\" with rapid glucose absorption, no micronutrients, and displacement of nutrient-dense foods. A wrong answer reveals the student conflates *energy equivalence* with *nutritional equivalence* — a fundamental error in diet planning that leads to recommending sugar-rich processed foods as substitutes for whole grains.",
+     "self_check": true
+    },
+    {
+     "q": "A 30-year-old sedentary woman (RDA: 1900 kcal) consumes the following in one day: 200g rice (raw weight), 60g wheat flour, 100g potato, 150g banana, 20g sugar in tea. Calculate her total available carbohydrate intake (g), percentage of total energy from carbohydrate, and assess whether it meets ICMR's 50-60% recommendation. Use: cereal ≈ 70% CHO, potato ≈ 20% CHO, banana ≈ 23% CHO, sugar = 100% CHO.",
+     "a": "Step 1: Calculate CHO from each source: Rice = 200g × 0.70 = 140g; Wheat flour = 60g × 0.70 = 42g; Potato = 100g × 0.20 = 20g; Banana = 150g × 0.23 = 34.5g; Sugar = 20g × 1.00 = 20g. Step 2: Total CHO = 140 + 42 + 20 + 34.5 + 20 = 256.5g. Step 3: Energy from CHO = 256.5g × 4 kcal/g = 1026 kcal. Step 4: % Energy from CHO = (1026 ÷ 1900) × 100 = 54%. Step 5: Assessment: 54% falls within 50-60% range — meets recommendation. A wrong answer (e.g., using cooked weights, forgetting sugar, or miscalculating %) reveals inability to apply food composition data to real dietary assessment — a core skill for board practicals and community nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the physiological roles of *soluble fibre* (e.g., β-glucan in oats, pectin in guava) and *insoluble fibre* (e.g., cellulose in wheat bran, hemicellulose in millets) in the human body. Structure your answer as a table with 4 rows: mechanism in gut, effect on blood glucose, effect on blood lipids, and effect on bowel function.",
+     "a": "| Aspect | Soluble Fibre | Insoluble Fibre |\n|---|---|---|\n| Mechanism in gut | Forms viscous gel, delays gastric emptying, fermented by colonic bacteria to SCFAs | Adds bulk, binds water, minimally fermented, accelerates transit |\n| Blood glucose | Lowers postprandial glucose by slowing carbohydrate absorption | Minimal direct effect; indirect via reduced energy density |\n| Blood lipids | Lowers LDL-cholesterol via bile acid binding & SCFA-mediated hepatic synthesis reduction | Negligible direct effect |\n| Bowel function | Softens stool, supports beneficial microbiota | Increases stool weight, prevents constipation, reduces diverticular risk |\nA wrong answer (e.g., swapping effects, claiming both lower cholesterol equally) reveals confusion between fibre *types* — a specific Class 12 board error where students memorise \"fibre is good\" without mechanistic differentiation needed for therapeutic diet planning (c12_hs_cbse_02_001).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this meal plan for a 12-year-old child (RDA: 2190 kcal, CHO 55%): Breakfast — white bread 60g + jam 20g + milk 200ml; Lunch — polished rice 150g + dal 30g + potato sabzi 100g; Snack — biscuits 30g + juice 200ml; Dinner — white rice 150g + dal 30g + cucumber 50g. Identify 3 specific carbohydrate-quality problems and propose one concrete modification per problem.",
+     "a": "Problem 1: *Excess free sugars* — jam (20g), biscuits (~15g sugar), juice (20g sugar) = ~55g free sugars ≈ 10% of total energy, at the upper limit; Modification: Replace jam with mashed banana, biscuits with roasted chana, juice with whole orange. Problem 2: *Refined cereals dominate* — white bread, polished rice (×2) provide minimal fibre and high GI; Modification: Use whole wheat bread, brown rice/millet rice for one meal. Problem 3: *Low dietary fibre diversity* — only cucumber (insoluble) and dal (some soluble); no whole fruits, vegetables, or whole grains; Modification: Add 1 serving green leafy vegetable at lunch + 1 whole fruit at snack. A poor critique (e.g., \"too much rice\" without specifying *polished* vs *unpolished*, or ignoring free sugars) reveals superficial understanding of carbohydrate quality — a competitive exam trap where quantity masks quality deficits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 1-day vegetarian meal plan for a 45-year-old male with pre-diabetes (RDA: 2300 kcal, CHO 55%, free sugars <5%, dietary fibre ≥30g) using *only* traditional Indian foods (no oats, quinoa, supplements). List foods with raw weights, calculate total available CHO (g), % energy from CHO, free sugars (g), and total dietary fibre (g). Use ICMR food composition: whole wheat flour 65% CHO, 12% fibre; brown rice 72% CHO, 3% fibre; bajra 67% CHO, 11% fibre; chana dal 60% CHO, 15% fibre; methi leaves 4% CHO, 4% fibre; guava 14% CHO, 5% fibre; curd 4% CHO, 0% fibre.",
+     "a": "Sample plan: Breakfast — Bajra roti (60g) + Methi sabzi (100g) + Curd (150g); Lunch — Brown rice (80g) + Chana dal (50g) + Methi sabzi (50g); Snack — Guava (150g); Dinner — Whole wheat roti (90g) + Chana dal (30g). Calculations: CHO = (60×0.67)+(100×0.04)+(150×0.04)+(80×0.72)+(50×0.60)+(50×0.04)+(150×0.14)+(90×0.65)+(30×0.60) = 40.2+4+6+57.6+30+2+21+58.5+18 = 237.3g. Energy from CHO = 237.3×4 = 949.2 kcal. %CHO = (949.2/2300)×100 = 41.3% — *below* 55%, needs adjustment (increase cereal portions). Free sugars = 0g (no added sugar, intrinsic only). Fibre = (60×0.11)+(100×0.04)+(80×0.03)+(50×0.15)+(50×0.04)+(150×0.05)+(90×0.12)+(30×0.15) = 6.6+4+2.4+7.5+2+7.5+10.8+4.5 = 45.3g — meets ≥30g. A good answer shows iterative adjustment (e.g., increase brown rice to 120g, add 1 more roti) to hit 55% CHO while keeping free sugars 0 and fibre >30g. A poor answer misses the %CHO shortfall or ignores the \"traditional Indian foods only\" constraint — revealing inability to integrate multiple constraints in diet design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

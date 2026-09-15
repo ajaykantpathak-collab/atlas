@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_5",
+   "title": "c8_eco_ch1_5",
+   "questions": [
+    {
+     "q": "Which of the following best defines capital as a factor of production in an Indian textile factory?\nA) The open plot of land on which the factory is constructed\nB) The textile workers weaving cloth on the machines\nC) The power looms, sewing machines, and cash used to buy raw cotton\nD) The natural rainwater used in the dying process",
+     "a": "The correct answer is C. Power looms, sewing machines, and cash are man-made goods and funds used to produce other items, which is the exact economic definition of capital. A student who chooses A confuses capital with land, while choosing B confuses capital with labour, showing a lack of distinction among the four factors of production.",
+     "self_check": true
+    },
+    {
+     "q": "Why is money classified as capital when it is used by a shopkeeper to buy stock, but not necessarily when a student spends pocket money on a movie ticket?\nA) Because shopkeepers earn higher interest than students\nB) Because capital refers to funds used specifically for producing goods or generating economic value, whereas personal consumption satisfies immediate wants\nC) Because money printed by the Reserve Bank of India changes its economic category\nD) Because money cannot be used for consumption purposes",
+     "a": "The correct answer is B. Capital must be applied toward production or business operations to generate future economic value. A student who chooses C or D misunderstands the dual nature of money, thinking money has an inherent fixed label rather than being categorized by its economic use (production versus consumption).",
+     "self_check": true
+    },
+    {
+     "q": "A small-scale pottery unit in Rajasthan purchases a motorized wheel for ₹15,000, clay worth ₹3,000, and packaging boxes worth ₹2,000. How much is invested in fixed capital versus working capital?\nA) Fixed capital is ₹15,000; Working capital is ₹5,000\nB) Fixed capital is ₹5,000; Working capital is ₹15,000\nC) Fixed capital is ₹20,000; Working capital is ₹3,000\nD) Fixed capital is ₹3,000; Working capital is ₹17,000",
+     "a": "The correct answer is A. \nSteps:\n1. Identify fixed capital items (durable, long-lasting assets used repeatedly): Motorized wheel = ₹15,000.\n2. Identify working capital items (raw materials and circulating funds used up during production): Clay (₹3,000) + Packaging boxes (₹2,000) = ₹5,000.\n3. Compare totals: Fixed = ₹15,000, Working = ₹5,000.\nA student who chooses B has inverted fixed and working capital definitions, failing to recognize that durable machinery remains for multiple production cycles.",
+     "self_check": true
+    },
+    {
+     "q": "An artisan hand-weaves 2 carpets per week. Upon investing ₹10,000 in a semi-automatic loom (fixed capital), output rises to 8 carpets per week. Analyze the economic impact of this capital investment.\nA) Capital investment reduces the total cost of production to zero\nB) Capital investment multiplies labour productivity by making the production process faster and more efficient\nC) Capital investment replaces human labour entirely, converting labour into land\nD) Capital investment decreases the quality of carpets while increasing physical exhaustion",
+     "a": "The correct answer is B. Tools and machinery (capital) act as productivity multipliers that augment human effort rather than eliminating production costs entirely. A student who chooses A ignores the initial expenditure and maintenance costs of capital, while choosing C incorrectly assumes capital completely substitutes labour in all artisanal settings.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country can achieve rapid economic growth simply by printing more currency notes and distributing them as cash capital to factories.\"\nA) True, because more money automatically creates more physical machinery and raw materials\nB) False, because physical capital requires real savings, investment, and the production of tools/machinery, whereas printing paper money without productive backing causes inflation\nC) True, because financial capital is identical to physical capital in every economic system\nD) False, because factories do not need money to purchase raw materials or pay wages",
+     "a": "The correct answer is B. Real capital consists of productive physical assets and genuine financial savings; simply increasing the supply of paper money without a corresponding rise in real goods and services leads to inflation rather than true economic growth. A student who chooses A confuses nominal financial tokens with actual physical productive capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a capital budget for a new student-run school stationery store requiring ₹10,000 initial investment, clearly separating fixed capital and working capital items with estimated costs.",
+     "a": "A valid response should list durable assets under fixed capital (e.g., display shelf for ₹4,000, calculator for ₹500 = ₹4,500 total fixed capital) and circulating assets/raw stock under working capital (e.g., notebooks and pens stock for ₹4,500, daily float cash for change ₹1,000 = ₹5,500 total working capital), totaling ₹10,000. A poor answer lumps all expenses together without distinguishing between long-term durable equipment and short-term circulating inventory or cash.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

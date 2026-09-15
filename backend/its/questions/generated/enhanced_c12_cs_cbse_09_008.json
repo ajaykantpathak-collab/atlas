@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_008",
+   "title": "c12_cs_cbse_09_008",
+   "questions": [
+    {
+     "q": "What is the definition of a recursive function, and what is the role of the base case in recursion?",
+     "a": "A recursive function is a function that calls itself to solve a problem by dividing it into smaller sub‑problems of the same type. The base case is the condition that stops the recursion by providing a direct answer without further self‑calls. If a student omits the base case or describes it as \"the last call\", they confuse the base case with the final recursive call; the base case must be a non‑recursive return. If they say the base case is optional, they do not understand that without it the recursion becomes infinite, causing a stack overflow.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a recursive function must have a base case and why each recursive call must progress toward that base case.",
+     "a": "The base case provides the stopping condition; without it the function would call itself indefinitely, exhausting the call stack and raising a RecursionError. Each recursive call must progress toward the base case (e.g., by reducing a positive integer argument) so that the chain of calls eventually reaches the base case. A wrong answer might claim that the base case is only for \"efficiency\" or that the recursive call can sometimes increase the argument — both indicate a misunderstanding of termination and stack growth.",
+     "self_check": true
+    },
+    {
+     "q": "Write a recursive Python function `factorial(n)` that returns the factorial of a non‑negative integer `n`. Include the base case and the recursive step. Then trace the calls for `factorial(4)`.",
+     "a": "```python\ndef factorial(n):\n    if n == 0:          # base case\n        return 1\n    else:               # recursive step\n        return n * factorial(n-1)\n```\nTrace for `factorial(4)`:\n- factorial(4) calls 4 * factorial(3)\n- factorial(3) calls 3 * factorial(2)\n- factorial(2) calls 2 * factorial(1)\n- factorial(1) calls 1 * factorial(0)\n- factorial(0) returns 1 (base case)\n- Then returns unwind: 1*1=1, 2*1=2, 3*2=6, 4*6=24.\nIf a student writes `return n * factorial(n)` (no progress) or forgets the base case, they will cause infinite recursion. If they use `n <= 1` as base case but return `n` instead of `1`, they get wrong results for `n=0`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recursive and iterative implementations of factorial for `n = 5` in terms of (a) number of function calls, (b) memory usage (call stack), and (c) readability. Which would you prefer for a large `n` and why?",
+     "a": "(a) Recursive: 6 calls (including base case); Iterative: 1 function call with a loop. (b) Recursive uses O(n) stack frames; iterative uses O(1) extra memory. (c) Recursive is often more readable for mathematical definitions. For large `n`, iterative is preferred because Python’s recursion depth limit (default 1000) will be exceeded, causing a RecursionError. A student who says recursion is always better or that memory usage is the same does not grasp stack frame overhead and Python’s recursion limit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following recursive function. Is it correct? If not, explain the error and fix it.\n```python\ndef sum_digits(n):\n    if n == 0:\n        return 0\n    else:\n        return n % 10 + sum_digits(n // 10)\n```",
+     "a": "The function is correct for non‑negative integers. Base case `n == 0` returns 0. Recursive step adds the last digit (`n % 10`) to the sum of digits of the remaining number (`n // 10`). Each call reduces `n` (integer division by 10) so it eventually reaches 0. A student might incorrectly claim it fails for single‑digit numbers (it works because `n // 10` becomes 0, triggering base case). If they suggest changing base case to `n < 10`, that also works but is less general. The key is to verify that the argument strictly decreases and the base case is reachable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a recursive function `count_vowels(s)` that returns the number of vowels (a, e, i, o, u, case‑insensitive) in a string `s`. Provide the base case, recursive step, and a brief explanation of how the string shrinks.",
+     "a": "```python\ndef count_vowels(s):\n    if s == \"\":                 # base case: empty string\n        return 0\n    first = s[0].lower()\n    rest_count = count_vowels(s[1:])   # recursive call on substring\n    return (1 if first in 'aeiou' else 0) + rest_count\n```\nBase case: empty string has 0 vowels. Recursive step: check first character, then recurse on the rest of the string (`s[1:]`). The string shrinks by one character each call, guaranteeing termination. A poor answer might use `s[:-1]` (removing last char) but then the logic for checking the first character becomes misaligned, or they might forget to handle case insensitivity. If they don’t reduce the string, recursion becomes infinite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

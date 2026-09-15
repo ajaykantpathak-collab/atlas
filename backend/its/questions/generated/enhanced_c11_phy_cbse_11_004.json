@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_004",
+   "title": "c11_phy_cbse_11_004",
+   "questions": [
+    {
+     "q": "State the formula for work done by an ideal gas in a quasi-static isothermal process and give the SI unit of each variable in the formula.",
+     "a": "The formula is W = μRT ln(V₂/V₁). Variables: W (work) in joules (J), μ (amount of substance) in moles (mol), R (universal gas constant) in J mol⁻¹ K⁻¹, T (absolute temperature) in kelvin (K), V₂ and V₁ (final and initial volumes) in cubic metres (m³). The ratio V₂/V₁ is dimensionless. A wrong answer (e.g., using Celsius for T, or omitting the logarithm) reveals confusion between isothermal and isobaric work formulas or misunderstanding that temperature must be in absolute scale for the ideal gas equation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the internal energy of an ideal gas does not change during an isothermal process, and how this relates to the first law of thermodynamics for this process.",
+     "a": "For an ideal gas, internal energy U depends only on temperature (U = f/2 μRT, where f is degrees of freedom). Since temperature is constant in an isothermal process, ΔU = 0. By the first law, ΔQ = ΔU + ΔW, so ΔQ = ΔW. This means all heat supplied to the gas is converted entirely into work done by the gas (in expansion), or all work done on the gas is released as heat (in compression). A wrong answer (e.g., saying ΔU changes because volume changes) reveals the misconception that internal energy depends on volume or pressure, confusing ideal gas with real gases where intermolecular forces exist.",
+     "self_check": true
+    },
+    {
+     "q": "Two moles of an ideal gas at 300 K expand isothermally from 0.02 m³ to 0.05 m³. Calculate the work done by the gas. (R = 8.31 J mol⁻¹ K⁻¹)",
+     "a": "Given: μ = 2 mol, T = 300 K, V₁ = 0.02 m³, V₂ = 0.05 m³, R = 8.31 J mol⁻¹ K⁻¹.\nFormula: W = μRT ln(V₂/V₁)\nSubstitute: W = (2 mol) × (8.31 J mol⁻¹ K⁻¹) × (300 K) × ln(0.05/0.02)\nCompute ratio: 0.05/0.02 = 2.5\nln(2.5) ≈ 0.9163\nW = 2 × 8.31 × 300 × 0.9163 = 4566.5 J ≈ 4.57 × 10³ J\nWork done by the gas is positive (expansion), so W = +4.57 kJ.\nA wrong answer (e.g., using log₁₀ instead of ln, or getting negative sign) reveals confusion between natural and common logarithms, or misunderstanding that work done by the gas is positive for expansion.",
+     "self_check": true
+    },
+    {
+     "q": "An ideal gas undergoes an isothermal compression from volume V₁ to V₂ (V₂ < V₁) at temperature T. Compare the magnitude of work done ON the gas in this process with the magnitude of work done BY the gas in an isothermal expansion from V₂ to V₁ at the same temperature. Are they equal? Justify.",
+     "a": "Yes, the magnitudes are equal. For compression: W_on = -μRT ln(V₂/V₁) = μRT ln(V₁/V₂) (positive value for work done on gas). For expansion: W_by = μRT ln(V₁/V₂) (positive value for work done by gas). Both have the same magnitude μRT ln(V₁/V₂) because the integral ∫P dV depends only on the endpoints and the path (isotherm), and the isotherm is reversible. The sign differs because work done by the gas is positive for expansion and negative for compression. A wrong answer (e.g., saying magnitudes differ because compression requires more effort) reveals confusion between reversible quasi-static processes and real irreversible processes where dissipative effects would make them unequal.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In an isothermal expansion of an ideal gas, the gas does work, so its internal energy must decrease unless heat is supplied. But the temperature is constant, so internal energy is constant. Therefore, heat must be supplied exactly equal to the work done.\" Evaluate this statement and identify if there is any error in reasoning.",
+     "a": "The student's statement is entirely correct. For an ideal gas, internal energy U depends only on temperature (ΔU = 0 for isothermal process). The first law ΔQ = ΔU + ΔW gives ΔQ = ΔW. In expansion, work done by gas is positive (ΔW > 0), so heat supplied ΔQ must be positive and equal in magnitude to the work done. The reasoning correctly links constant temperature → constant internal energy → heat input equals work output. No error. A wrong evaluation (e.g., saying heat is not needed because temperature is constant) reveals the misconception that heat and temperature change are directly coupled in all processes, ignoring that heat can be converted to work without temperature change in isothermal processes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a syringe, a water bath, and a pressure sensor to verify the work done formula for an isothermal process. Describe the procedure, measurements needed, and how you would calculate work from the data.",
+     "a": "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T. (3) Connect pressure sensor to syringe. (4) Slowly push/pull plunger to change volume quasi-statically, recording P and V at each step. (5) Plot P vs V; it should follow PV = constant. (6) Calculate work by numerical integration of P dV (area under curve) or use W = μRT ln(V_f/V_i) using initial and final volumes. Compare the two values. A poor answer (e.g., not immersing in water bath, or moving plunger quickly) reveals misunderstanding of the need for thermal equilibrium with a reservoir to maintain constant temperature and the quasi-static requirement for the formula to apply.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_05_010",
+   "title": "c11_hist_cbse_05_010",
+   "questions": [
+    {
+     "q": "Name the founder of the Il-Khanate, the year he captured Baghdad, and the caliphate he ended.",
+     "a": "Hulagu Khan, 1258, Abbasid Caliphate. A wrong answer (e.g., naming Batu or Chagatai, or giving 1260/1241) reveals confusion between the three khanates' founders and the sequence of Mongol westward expansion — specifically, inability to distinguish the Persian campaign (Hulagu, 1250s) from the Russian campaign (Batu, 1230s–40s) and the Central Asian appanage (Chagatai, 1220s).",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Golden Horde's conversion to Islam under Berke (1250s) and Uzbek Khan (1313) produce a different political outcome than the Il-Khanate's conversion under Ghazan (1295)?",
+     "a": "The Golden Horde ruled a predominantly non-Muslim subject population (Orthodox Russians, Caucasians) and used Islam as a elite identity marker without imposing it, preserving the yasak (tribute) system from Russian princes; the Il-Khanate ruled a Muslim-majority population where Ghazan's conversion was a legitimacy bid that required dismantling Buddhist/Persian administrative factions, triggering factionalism. A wrong answer treating both as \"simple Islamisation\" misses how demographic context shaped religious policy — a senior-secondary error of ignoring subject-population composition.",
+     "self_check": true
+    },
+    {
+     "q": "A 14th-century merchant travels from Tabriz (Il-Khanate) to Sarai (Golden Horde) to Bukhara (Chagatai Khanate). Identify ONE shared institution and ONE divergent practice he would encounter in tax collection across the three courts.",
+     "a": "Shared: use of the Mongol *jarliqs* (patents) and *paiza* (passports) for merchant protection across all three. Divergent: Il-Khanate adopted Persian *divan* tax-farming (*ijara*) with Jewish/Muslim contractors; Golden Horde retained *baskak* direct collection from Russian princes; Chagatai Khanate used mixed *baj* (customs) on caravan trade and pastoral *qaban* (livestock tax). A wrong answer listing only \"tax farming\" for all three fails to distinguish sedentary fiscal complexity (Il-Khanate) from steppe tribute simplicity (Golden Horde) — a common oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse why the Il-Khanate collapsed in 1335 (after Abu Sa'id's death) while the Golden Horde persisted until 1502, despite both facing succession crises and the Black Death.",
+     "a": "Il-Khanate lacked a clear succession principle (no *altan urugh* consensus), had no cohesive nomadic base (Hulagu's armies were settled in Azerbaijan), and its Persian bureaucracy fragmented into rival amirates (Jalayirids, Muzaffarids, Sarbadars). Golden Horde maintained the *ulus* structure: the Jochid lineage retained steppe legitimacy, the *keshig* guard provided continuity, and the Volga trade route (fur, slaves, silver) funded central authority even during the \"Great Troubles\" (1359–80). A wrong answer citing only \"Black Death\" or \"civil war\" for both misses the structural difference: sedentary-state fragility vs. steppe-confederation resilience.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Chagatai Khanate's split into Moghulistan (east) and Transoxiana (west) after 1340 was inevitable due to ecological determinism.\"",
+     "a": "The claim overstates geography. While the Tian Shan mountains and desert basins created distinct pastoral (Moghulistan) and oasis (Transoxiana) zones, the split was driven by political agency: the Dughlat amirs backed Tughlugh Timur in the east to preserve nomadic *yasa*, while western amirs (Barlas, Arlat) allied with Timur to control Silk Route cities. Ecological zones enabled but did not determine the split — human choices about *where to draw legitimacy* (steppe vs. city) were decisive. A wrong answer accepting \"inevitable\" reveals deterministic thinking that ignores the role of amir factions and Timur's deliberate exploitation of the division.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative argument: which khanate left the most enduring institutional legacy for its successor states — the Il-Khanate for the Safavids, the Golden Horde for Muscovy, or the Chagatai Khanate for the Timurids/Mughals? Justify with two specific institutions per khanate.",
+     "a": "Strongest case: **Golden Horde → Muscovy**. Institutions: (1) *yarlik* system of patent-granting became Muscovite *gramoty* legitimising grand princely authority; (2) *yam* relay network became the *povoz* postal system and basis for Muscovite territorial administration. Il-Khanate legacy to Safavids: (1) *divan* bureaucracy Persianised but Shi'a theology replaced Sunni *shariat*; (2) *iltizam* tax-farming continued but *soyurghal* land grants became *tiyul*. Chagatai → Timurids/Mughals: (1) *tuman* military decimal system became Mansabdari; (2) Chagatai Turkic literary culture became court language. A poor answer lists cultural traits (architecture, language) without identifying *administrative mechanisms* that were directly transplanted.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

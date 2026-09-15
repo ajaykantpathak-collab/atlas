@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_9",
+   "title": "c8_math_ch3_9",
+   "questions": [
+    {
+     "q": "Write the Egyptian hieroglyphic representation for the number 3,204. (You may describe the symbols in words: e.g., \"two lotus flowers, three coils...\")",
+     "a": "Correct: 3 lotus flowers (1000 each), 2 coils (100 each), 0 hobbles (10), 4 strokes (1). A wrong answer like \"3 lotus, 2 coils, 4 strokes\" but missing the zero for tens reveals the student thinks a placeholder is needed — they are imposing place-value thinking on an additive system. Another error: writing 324 instead of 3204 shows they dropped the zero digit entirely, not understanding that \"no tens\" means simply drawing zero hobble symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Egyptian system not need a symbol for zero, while our Hindu-Arabic system absolutely requires it? Explain using the number 205 as an example.",
+     "a": "Correct: In Egyptian, 205 = two coils (100) + five strokes (1). The absence of hobbles (10) naturally means zero tens — no symbol is drawn. In Hindu-Arabic, the digit '0' in 205 holds the tens place so that '2' stays in hundreds; without it, \"25\" would be twenty-five. A wrong answer claiming \"Egyptians had zero but didn't write it\" shows confusion between explicit placeholder and implicit absence. Another error: \"Egyptians used a blank space\" — they did not; they simply omitted the symbol.",
+     "self_check": true
+    },
+    {
+     "q": "An Egyptian scribe wrote: 🌸🌸🌸 ∩∩∩∩ | | | | | (three lotus, four coils, five strokes). What Hindu-Arabic number does this represent? Show your conversion steps.",
+     "a": "Step 1: Identify symbols: 🌸 = 1000 (lotus), ∩ = 100 (coil), | = 1 (stroke).\nStep 2: Count each: 3 lotus = 3 × 1000 = 3000; 4 coils = 4 × 100 = 400; 5 strokes = 5 × 1 = 5.\nStep 3: Add: 3000 + 400 + 5 = 3405.\nStep 4: Verify no other symbols (no hobbles for 10, no fingers for 10000, etc.).\nAnswer: 3,405. A wrong answer like 345 (ignoring the lotus as 100) reveals the student doesn't know the symbol values. An answer of 3000+40+5=3045 shows they confuse coil (100) with hobble (10).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Egyptian and Roman numeral systems for writing 2,400. Which system uses fewer symbols? Which system's representation changes if you reorder the symbols? Explain.",
+     "a": "Egyptian: two lotus (1000) + four coils (100) = 6 symbols. Roman: MMCD (M=1000, CD=400) = 4 symbols. Roman uses fewer symbols for this number. Egyptian representation is unchanged if reordered (additive). Roman changes meaning if reordered (e.g., MMDC = 2600, not 2400) because it uses subtractive notation (CD = 400). A wrong answer saying \"both are additive\" shows they missed Roman's subtractive rule. Saying \"Egyptian changes if reordered\" shows they think position matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Egyptian system is better than ours because you can write symbols in any order and the value stays the same.\" Evaluate this claim. Give one advantage and one disadvantage of the Egyptian system compared to the Hindu-Arabic system.",
+     "a": "Evaluation: The claim highlights a real feature (order independence) but ignores major drawbacks. Advantage: No need to learn place-value rules or zero; intuitive for counting physical objects. Disadvantage: Writing large numbers requires many symbols (e.g., 999,999 needs 54 symbols), making arithmetic cumbersome and error-prone. A wrong answer listing only advantages shows lack of critical evaluation. Saying \"Egyptian is better for calculation\" is false — try multiplying 345 × 12 in hieroglyphs!",
+     "self_check": true
+    },
+    {
+     "q": "Create a new number system inspired by the Egyptian method but using only THREE symbols. Define your symbols and their values (must be powers of 10). Show how to write 4,720 in your system. Explain one way your system improves on the Egyptian system and one way it is worse.",
+     "a": "Example: Symbol A = 1000, Symbol B = 100, Symbol C = 10. (Missing 1, 10000, etc. — but that's the student's design choice.) 4,720 = AAAA (4×1000) + BBBBBBB (7×100) + CC (2×10). Improvement: Fewer symbols to memorize. Worse: Cannot represent numbers not multiples of 10 (like 4,721) or numbers above 9,990 without new symbols. A good answer shows creative but mathematically consistent design. A poor answer uses non-powers-of-10 (e.g., 5, 50) which breaks the base-10 pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

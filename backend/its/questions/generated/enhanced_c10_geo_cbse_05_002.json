@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_002",
+   "title": "c10_geo_cbse_05_002",
+   "questions": [
+    {
+     "q": "Name the two main types of iron ore found in India and state the typical iron percentage range for each.",
+     "a": "Haematite (Fe₂O₃) — 60–70% iron; Magnetite (Fe₃O₄) — up to 72% iron. A wrong answer (e.g., naming limonite/siderite as main types, or swapping percentages) shows the student has not memorised the NCERT-specific classification and may confuse minor ores with the principal ones tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why are India's major iron-ore deposits concentrated in the Peninsular Plateau and not in the Himalayas or the Northern Plains?",
+     "a": "The Peninsular Plateau consists of ancient Precambrian crystalline rocks (Dharwar/Cuddapah systems) that host Banded Iron Formations (BIF) formed 2.5–3.5 billion years ago. The Himalayas are young fold mountains with sedimentary/metamorphic rocks lacking BIF, and the Northern Plains are recent alluvial deposits with no bedrock exposure. A wrong answer citing \"high rainfall\" or \"volcanic activity\" reveals confusion between mineral formation processes and surface processes.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, a student marks the **Ballari-Chitradurga-Chikkamagaluru-Tumakuru belt** only in Karnataka. Is this correct? Justify using the states covered by this belt.",
+     "a": "The marking is **incomplete**. The Ballari-Chitradurga-Chikkamagaluru-Tumakuru belt lies **entirely in Karnataka** — so marking only Karnataka is correct for this belt. However, if the student labelled it as crossing into Andhra Pradesh or Tamil Nadu, that would be wrong. A common error is confusing this belt with the **Maharashtra-Goa belt** (which spans two states). The student must memorise each belt's exact state extent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Odisha-Jharkhand belt and the Durg-Bastar-Chandrapur belt in terms of (a) dominant ore type, (b) key mining centres, and (c) geological formation.",
+     "a": "(a) Both are **haematite**-dominant. (b) Odisha-Jharkhand: Badampahar, Mayurbhanj, Keonjhar (Odisha); Noamundi, Gua (Jharkhand). Durg-Bastar-Chandrapur: Durg, Bastar (Chhattisgarh); Chandrapur (Maharashtra). (c) Both occur in **Banded Iron Formations (BIF)** of the **Dharwar Supergroup** (Precambrian). A wrong answer claiming magnetite dominance in Durg-Bastar or listing Bailadila (which is in Bastar but often confused) without distinguishing states shows poor map-memory and inability to compare spatially.",
+     "self_check": true
+    },
+    {
+     "q": "\"India exports high-grade haematite but imports coking coal for steel plants.\" Evaluate this statement in the context of resource distribution and industrial location.",
+     "a": "**Partially correct.** India has **large haematite reserves** (high-grade, low phosphorus) suitable for export, but **coking coal reserves are limited and high-ash**, forcing imports for blast furnaces. Steel plants (e.g., Jamshedpur, Bhilai, Rourkela) are located near iron-ore belts (Odisha-Jharkhand, Chhattisgarh) but still import coking coal. A student saying \"India has no coal\" is wrong — India has thermal coal; the shortage is specifically **coking coal**. This tests understanding of resource complementarity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page map annotation for a Class 10 board exam answer showing the four iron-ore belts, two major mines per belt, and the dominant ore type (haematite/magnetite) using standard symbols.",
+     "a": "A good annotation includes: (1) Outline map with four shaded belts labelled; (2) Symbol key: ◆ = haematite mine, ■ = magnetite mine; (3) Mines: Odisha-Jharkhand — Badampahar◆, Noamundi◆; Durg-Bastar-Chandrapur — Bailadila◆, Dalli-Rajhara◆; Ballari-Chitradurga... — Kudremukh■ (magnetite), Donimalai◆; Maharashtra-Goa — Goa◆ (haematite). Poor answers miss the magnetite symbol for Kudremukh, omit a belt, or use no key — losing 1–2 marks in the 3-mark map question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

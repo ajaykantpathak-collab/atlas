@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_012",
+   "title": "c10_math_cbse_06_012",
+   "questions": [
+    {
+     "q": "State the Basic Proportionality Theorem (Thales' Theorem) and its converse.",
+     "a": "BPT: If a line is drawn parallel to one side of a triangle intersecting the other two sides, then it divides those sides in the same ratio. Converse: If a line divides two sides of a triangle in the same ratio, then it is parallel to the third side. A wrong answer reveals confusion between the theorem and its converse, or missing the condition 'parallel' or 'same ratio'.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, DE is drawn parallel to BC with D on AB and E on AC. If AD/DB = 2/3, explain why AE/EC must also equal 2/3. Which theorem justifies this and why does it work?",
+     "a": "BPT justifies it because a line parallel to one side divides the other two sides proportionally. The theorem works due to similarity of triangles ADE and ABC (by AA criterion). A wrong answer reveals the student does not connect BPT to similarity, or thinks the ratio is arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, S and T are points on PQ and PR respectively such that ST || QR. If PS = 4 cm, SQ = 6 cm, and PT = 5 cm, find TR.",
+     "a": "By BPT, PS/SQ = PT/TR → 4/6 = 5/TR → TR = (5×6)/4 = 7.5 cm. A wrong answer reveals misapplication such as inverting the ratio (PS/PQ = PT/TR) or incorrect cross-multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Given ΔABC with points D on AB and E on AC such that AD/DB = AE/EC. Prove that DE || BC. Now, if also ∠ADE = ∠ABC, explain how this provides an alternative proof using similarity criteria.",
+     "a": "First part: By Converse of BPT, DE || BC. Second part: With ∠ADE = ∠ABC and ∠A common, ΔADE ~ ΔABC (AA), so AD/AB = AE/AC, which implies AD/DB = AE/EC (by invertendo and componendo/dividendo), thus DE || BC. A wrong answer reveals inability to see the connection between BPT and similarity, or not knowing how to derive the ratio from similarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: 'In ΔABC, if D and E are on AB and AC such that AD/DB = AE/EC, then ΔADE ~ ΔABC.' Evaluate this statement. Is it fully correct? If not, correct it.",
+     "a": "The claim is correct but requires justification: By Converse of BPT, DE || BC. Then ∠ADE = ∠ABC (corresponding angles) and ∠A is common, so ΔADE ~ ΔABC (AA). A wrong answer reveals the student may assume similarity directly from the ratio without establishing parallelism first, or may confuse the similarity with the ratio condition alone (which is SSS similarity but requires all three sides proportional).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a geometry problem where you need to prove that a line segment divides two sides of a triangle in the ratio 3:4, using either BPT or similarity criteria. Provide the given information, a diagram description, and the proof outline.",
+     "a": "Example: In ΔXYZ, line PQ is drawn parallel to YZ with P on XY, Q on XZ. Given XP = 6 cm, PY = 8 cm, prove that XQ/QZ = 3/4. Proof: By BPT, XP/PY = XQ/QZ = 6/8 = 3/4. A poor answer reveals inability to design a problem with appropriate given data, or confusion between BPT and similarity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

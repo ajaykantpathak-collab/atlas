@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_7",
+   "title": "c9_math_ch5_7",
+   "questions": [
+    {
+     "q": "State the theorem relating the angle subtended by an arc at the centre and the angle subtended by the same arc at any point on the remaining part of the circle.",
+     "a": "The angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle. A wrong answer (e.g., \"they are equal\" or \"half\") reveals the student has not internalized the 2:1 relationship and may be confusing it with the chord theorem or angles in the same segment.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, O is the centre of the circle. Arc AB subtends ∠AOB = 100° at the centre and ∠APB at point P on the major arc. A student claims ∠APB = 50° because \"the angle at the centre is twice the angle at the circumference.\" Is the student correct? Explain why or why not, referencing the position of P.",
+     "a": "Yes, the student is correct. ∠APB = 50° because P lies on the major arc (the remaining part of the circle), so the theorem applies directly. A wrong answer (e.g., \"No, because P is on the major arc\") shows the student misunderstands \"remaining part of the circle\" – they may think the theorem only works for the minor arc or confuse major/minor segments.",
+     "self_check": true
+    },
+    {
+     "q": "In a circle with centre O, chord AB subtends ∠AOB = 130° at the centre. Find the angle subtended by the same chord AB at a point C on the minor arc AB (i.e., the angle in the minor segment).",
+     "a": "Given ∠AOB = 130°. For point C on the minor arc, the angle subtended is the reflex angle at the centre? Wait: The theorem states angle at centre = 2 × angle at circumference on the remaining part. If C is on the minor arc, the \"remaining part\" is the major arc, so the angle at the centre corresponding to the minor arc is the reflex ∠AOB = 360° - 130° = 230°. Then ∠ACB = 230°/2 = 115°. Steps: 1) Identify minor/major arc. 2) Compute reflex angle at centre for the arc opposite to C. 3) Apply theorem. A wrong answer of 65° reveals the student applied the theorem to the given 130° without considering which arc C lies on.",
+     "self_check": true
+    },
+    {
+     "q": "Two chords AB and CD intersect at point P inside the circle (not at the centre). A student argues that ∠APC = ½(∠AOC + ∠BOD) where O is the centre. Is this a valid extension of the arc-angle theorem? Analyze and justify your answer.",
+     "a": "Yes, it is a valid extension (the intersecting chords theorem). ∠APC is an exterior angle to ΔAPD or can be derived by joining AD and BC. ∠APC = ∠PAD + ∠PDA = ∠CAD + ∠DBC = ½∠COD + ½∠AOB = ½(∠AOB + ∠COD). A wrong answer (\"No, the theorem only applies to angles at the circumference\") shows the student cannot synthesize the basic theorem with triangle exterior angle property to derive new results.",
+     "self_check": true
+    },
+    {
+     "q": "A solution to a problem states: \"In the circle, ∠AOB = 80°, so ∠ACB = 40° for any point C on the circle.\" Evaluate this statement. Is it always true? If not, give a counterexample and correct the statement.",
+     "a": "The statement is NOT always true. It is only true if C lies on the major arc AB (the arc not containing the centre's angle). If C lies on the minor arc AB, then ∠ACB = ½(360°-80°) = 140°. The student's statement omits the crucial condition \"on the remaining part of the circle.\" A wrong evaluation (\"It is always true\") reveals the student treats the theorem as unconditional and ignores the arc/segment distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a student must use the arc-angle theorem twice in succession (e.g., involving two different arcs sharing a common chord) to find an unknown angle. Provide the problem statement and a full solution.",
+     "a": "Problem: In a circle with centre O, chords AB and BC are drawn. ∠AOB = 100° and ∠BOC = 120°. Find ∠BAC. Solution: 1) Arc AB subtends ∠AOB=100° at centre → ∠ACB = 50° (on remaining arc). 2) Arc BC subtends ∠BOC=120° at centre → ∠BAC = 60° (on remaining arc). Answer: ∠BAC = 60°. A poor answer (e.g., only using one arc or misidentifying which angle corresponds to which arc) reveals the student cannot chain the theorem across multiple arcs or track which angle stands on which arc.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

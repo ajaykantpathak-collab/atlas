@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_008",
+   "title": "c11_geo_cbse_09_008",
+   "questions": [
+    {
+     "q": "Name the tectonic plates involved in the formation of the Andaman-Nicobar Islands and state the type of plate boundary responsible for their volcanic arc character.",
+     "a": "Correct: Indian Plate subducting beneath the Burma Plate (a minor plate of the Eurasian Plate system) at a convergent oceanic-oceanic plate boundary, creating the Andaman-Java trench and volcanic arc. A wrong answer (e.g., \"Indian Plate and Eurasian Plate at a transform boundary\" or \"divergent boundary\") reveals the student confuses the Himalayan collision zone (continent-continent convergence) with the Andaman subduction zone (oceanic-oceanic convergence), or misidentifies the overriding plate as the major Eurasian Plate instead of the Burma microplate.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Lakshadweep islands have freshwater lenses while Andaman-Nicobar islands generally rely on surface runoff and springs, linking your answer to geological origin and island morphology.",
+     "a": "Correct: Lakshadweep atolls are porous coral limestone (high permeability) with low elevation, allowing rainwater to percolate and form a Ghyben-Herzberg freshwater lens floating on denser seawater; Andaman-Nicobar islands are volcanic/sedimentary with impermeable bedrock, steep slopes, and higher elevation, causing rapid surface runoff and spring formation instead of lens development. A wrong answer focusing only on rainfall differences (both get 2000-3000 mm) reveals the student misses the controlling role of lithology and porosity — a classic error of attributing hydrological differences solely to climate while ignoring geological substrate.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 10° Channel as a reference, calculate the approximate latitudinal extent of the Andaman group vs. Nicobar group if the channel lies at 10°N, the Andaman group extends to 13°40'N, and the Nicobar group extends to 6°45'N. Show your working.",
+     "a": "Working: Andaman group extent = 13°40'N - 10°N = 3°40' = 3.67° latitude ≈ 407 km (1° ≈ 111 km). Nicobar group extent = 10°N - 6°45'N = 3°15' = 3.25° latitude ≈ 361 km. Total N-S extent ≈ 768 km. A wrong answer (e.g., subtracting 6°45' from 13°40' directly) reveals the student treats the 10° Channel as a degree marker rather than a geographic separator, failing to compute each group's extent separately — an error in spatial reasoning and map interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biodiversity conservation challenges of Great Nicobar Biosphere Reserve (Andaman-Nicobar) and Pitti Bird Sanctuary (Lakshadweep) in terms of: (a) endemic species vulnerability, (b) invasive species threat, and (c) climate change exposure. Structure your answer as a comparative table.",
+     "a": "Correct comparison: (a) Great Nicobar: high terrestrial endemism (Nicobar megapode, Nicobar tree shrew) vulnerable to habitat fragmentation; Pitti: seabird endemism (sooty tern, noddy) vulnerable to nesting site loss. (b) Great Nicobar: severe invasive threats (chital deer, elephant, cane) altering forest regeneration; Pitti: rats and cats devastating ground-nesting seabirds. (c) Great Nicobar: sea-level rise threatens coastal forests but interior refugia exist; Pitti: entire island <2 m ASL — existential threat from sea-level rise and coral bleaching. A wrong answer listing generic threats (deforestation, pollution) without linking to island-specific physiography reveals inability to analyze how geological origin (continental fragment vs. coral atoll) creates fundamentally different conservation contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The strategic value of Andaman-Nicobar Islands for India's maritime security is primarily due to their location astride the Malacca Strait, while Lakshadweep's value is primarily due to its Exclusive Economic Zone (EEZ) extension.\" Justify with three specific geographical arguments for each island group.",
+     "a": "Correct evaluation: Statement is partially correct but oversimplified. Andaman-Nicobar: (1) Malacca Strait chokepoint control (90% of India's trade passes through), (2) forward operating base for Indian Navy's Eastern Fleet and tri-services command, (3) surveillance of Chinese naval ingress into Indian Ocean via Coco Channel. Lakshadweep: (1) EEZ extension of 400,000 sq km enhancing resource rights (fisheries, polymetallic nodules), (2) monitoring western approaches to India (Arabian Sea choke points: Hormuz, Aden), (3) strategic depth for INS Dweeprakshak (Kavaratti) and future airfield expansion at Minicoy. A wrong answer focusing only on \"nearness to trade routes\" without distinguishing Malacca Strait (Andaman) from Hormuz/Aden (Lakshadweep) reveals lack of mental map of Indian Ocean chokepoints and their island linkages.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable tourism zoning plan for a hypothetical new eco-resort project on Havelock Island (Andaman) and Bangaram Atoll (Lakshadweep). Specify: (a) core protection zone criteria, (b) buffer zone activities, (c) tourism zone carrying capacity indicators, and (d) one island-specific regulation for each based on physiography.",
+     "a": "Expected criteria: Havelock (volcanic/hilly): Core = primary forest catchments + tribal reserves (Jarawa buffer); Buffer = guided treks, birdwatching; Tourism zone = beachfront with max 50 persons/hectare, sewage treatment mandatory; Island-specific rule: no construction on slopes >20° (landslide risk from seismic activity). Bangaram (coral atoll): Core = lagoon coral reefs + Pitti nesting sanctuary; Buffer = snorkeling trails with mooring buoys (no anchoring); Tourism zone = 20 persons/hectare on beach, zero freshwater extraction (lens protection); Island-specific rule: all structures on stilts ≥1.5 m above highest tide (storm surge + sea-level rise). A poor answer applying identical zoning to both reveals failure to internalize that volcanic islands need slope/seismic regulations while atolls need lens/reef regulations — the core geographical distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

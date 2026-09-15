@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class10_social_science_jess107",
+ "concepts": [
+  {
+   "id": "jess.107.1.1",
+   "title": "Roadways and Their Advantages",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Roadways and Their Advantages' refers to.",
+     "a": "Road transport, spread over about 62.16 lakh km of network, offers construction ease over uneven terrain, door-to-door service and lower cost over short distances, which keeps it ahead of railways as a feeder system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Roadways and Their Advantages'.",
+     "a": "Roads climb slopes of up to 100 per cent gradient where railways cannot, and they link villages, railway stations, ports and airports into one chain.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Roadways and Their Advantages' taught, and from which source text?",
+     "a": "Roadways (source: jess107.txt lines 53-125)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.2.1",
+   "title": "Railways as the Principal Mode of Transport",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Railways as the Principal Mode of Transport' refers to.",
+     "a": "Railways carry freight and passengers over long distances and bind the economic life of the country, operating as the largest public sector undertaking organised into 17 zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Railways as the Principal Mode of Transport'.",
+     "a": "The first train ran from Mumbai to Thane in 1853 over 34 km; the rail network became a great integrating force over more than 150 years.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Railways as the Principal Mode of Transport' taught, and from which source text?",
+     "a": "Railways (source: jess107.txt lines 160-215)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.3.1",
+   "title": "Pipeline Transport Networks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pipeline Transport Networks' refers to.",
+     "a": "Pipelines move crude oil, petroleum products, natural gas and even solids converted to slurry from fields to refineries, fertilizer factories and thermal plants, with high initial laying cost but minimal running cost and no trans-shipment losses.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pipeline Transport Networks'.",
+     "a": "Three important networks run from Upper Assam to Kanpur, Salaya to Jalandhar, and the 1,700 km Hazira-Vijaipur-Jagdishpur line, and the grid has grown to 18,500 km.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pipeline Transport Networks' taught, and from which source text?",
+     "a": "Pipelines (source: jess107.txt lines 280-310)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.4.1",
+   "title": "National Waterways and Inland Navigation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'National Waterways and Inland Navigation' refers to.",
+     "a": "Waterways are the cheapest transport means for heavy and bulky goods, fuel-efficient and environment friendly, with 14,500 km of inland navigation now organised under the National Waterways Act, 2016.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Waterways and Inland Navigation'.",
+     "a": "The 2016 Act declared 111 inland waterways as National Waterways, including the 5 declared earlier, to promote water transport as an economical supplement to rail and road.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'National Waterways and Inland Navigation' taught, and from which source text?",
+     "a": "Waterways (source: jess107.txt lines 240-268)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.5.1",
+   "title": "Major Sea Ports and Airways Connectivity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Major Sea Ports and Airways Connectivity' refers to.",
+     "a": "Sea ports on the east and west coasts handle overseas trade while airways, the fastest yet costliest mode, serve long distance traffic and difficult terrains, with UDAN extending regional connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Major Sea Ports and Airways Connectivity'.",
+     "a": "Ports were developed to relieve pressure on earlier ones, and Pawan Hans helicopter services support oil sector operations; UDAN (Ude Desh ka Aam Nagrik) is the regional connectivity scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Major Sea Ports and Airways Connectivity' taught, and from which source text?",
+     "a": "Major Sea Ports (source: jess107.txt lines 355-460)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.6.1",
+   "title": "Personal and Mass Communication Networks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Personal and Mass Communication Networks' refers to.",
+     "a": "Communication lets ideas travel without the physical movement of the communicator, spanning personal channels like the postal network and mass channels like television, radio, press and films.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Personal and Mass Communication Networks'.",
+     "a": "The Indian postal network is the largest in the world; six mail channels named Rajdhani, Metro, Green, Business, Bulk Mail and Periodical speed up delivery in big cities, and the Central Board of Film Certification clears films.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Personal and Mass Communication Networks' taught, and from which source text?",
+     "a": "Communication (source: jess107.txt lines 466-522)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.7.1",
+   "title": "Balance of Trade from Exports and Imports",
+   "questions": [
+    {
+     "q": "Calculate the balance of trade given export and import values. Use the method 'Balance of Trade from Exports and Imports'. Work with: export_value = 2500, import_value = 2500. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Find whether the balance of trade is favourable or unfavourable. Use the method 'Balance of Trade from Exports and Imports'. Work with: export_value = 20000, import_value = 8000. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "12000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balance of Trade from Exports and Imports' refers to.",
+     "a": "The balance of trade of a country is the difference between the value of its exports and imports; a surplus when exports exceed imports is favourable, while a deficit is unfavourable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance of Trade from Exports and Imports'.",
+     "a": "International trade is called the economic barometer of a country because it rises in prosperity and falls in adversity, and its composition has shifted toward commodities and services.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance of Trade from Exports and Imports', in plain ASCII form.",
+     "a": "balance_of_trade = export_value - import_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.7.2",
+   "title": "Growth of the Cross-Country Gas Pipeline Grid",
+   "questions": [
+    {
+     "q": "Calculate how many kilometres of pipeline were added after the HVJ line. Use the method 'Growth of the Cross-Country Gas Pipeline Grid'. Work with: expanded_length = 200, original_length = 150. Carry the chain through step by step and give the final value of added_pipeline.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the expansion of the gas pipeline grid from its original length. Use the method 'Growth of the Cross-Country Gas Pipeline Grid'. Work with: expanded_length = 200, original_length = 24. Carry the chain through step by step and give the final value of added_pipeline.",
+     "a": "176 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth of the Cross-Country Gas Pipeline Grid' refers to.",
+     "a": "The gas pipeline infrastructure that began with the 1,700 km HVJ line has expanded into a nationwide cross-country grid, so the newly added length is the difference between the expanded and original lengths.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth of the Cross-Country Gas Pipeline Grid'.",
+     "a": "From 1,700 km at the HVJ stage, cross-country pipelines have grown to 18,500 km, an expansion of roughly seventeen thousand kilometres.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth of the Cross-Country Gas Pipeline Grid', in plain ASCII form.",
+     "a": "added_pipeline = expanded_length - original_length",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.107.8.1",
+   "title": "Tourism as a Trade",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tourism as a Trade' refers to.",
+     "a": "Tourism has grown into a trade that earns foreign exchange and supports local handicrafts and cultural pursuits, with heritage, eco, adventure, cultural, medical and business tourism drawing foreign visitors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tourism as a Trade'.",
+     "a": "Government schemes such as Swadesh Darshan 2.0, Vibrant Village Programme, PRASHAD and Paryatan Mitra promote tourism, which also builds national integration and international understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tourism as a Trade' taught, and from which source text?",
+     "a": "Tourism as a Trade (source: jess107.txt lines 605-625)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

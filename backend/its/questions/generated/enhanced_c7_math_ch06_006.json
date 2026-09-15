@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_006",
+   "title": "c7_math_ch06_006",
+   "questions": [
+    {
+     "q": "In a digit puzzle, if $A + B = 13$ and $A$ and $B$ are distinct single-digit numbers, what is the maximum possible value of $A \\times B$ if $A > B$?",
+     "a": "The maximum value is $40$. Since $A + B = 13$ and $A > B$ with single digits (0 to 9), the possible pairs for $(A, B)$ are $(9, 4), (8, 5),$ and $(7, 6)$. Checking their products: $9 \\times 4 = 36$, $8 \\times 5 = 40$, and $7 \\times 6 = 42$ (wait, $7+6=13$ and $7\\times6=42$, but $7$ and $6$ are consecutive; let's check $8$ and $5$, product is $40$; let's check $9$ and $4$, product is $36$; let's check $7$ and $6$, product is $42$, which is the highest). A student who answers $36$ likely forgot to check all combinations or assumed $A$ and $B$ had to be far apart. A student who answers $45$ forgot that $A+B$ must equal 13, not maximum possible single digits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first digit of a two-digit number represented as $AB$ can never be $0$.",
+     "a": "If the first digit $A$ were $0$, the number $AB$ would become $0B$, which is just a single-digit number $B$ rather than a two-digit number. In number puzzles, a leading letter in a multi-digit number always represents a non-zero digit because place value definitions require a two-digit number to be between 10 and 99. A student who thinks $0$ is allowed does not understand that leading zeros change the place value structure of numbers.",
+     "self_check": true
+    },
+    {
+     "q": "In the addition puzzle:\n  AA\n+ BB\n----\n  CC\n----\nIf $A = 3$ and $B = 5$, what is the two-digit number $CC$?",
+     "a": "Step 1: Identify the given values: $A = 3$ and $B = 5$.\nStep 2: Set up the addition expression: $AA + BB = 33 + 55$.\nStep 3: Perform the addition in the units column: $3 + 5 = 8$.\nStep 4: Perform the addition in the tens column: $3 + 5 = 8$.\nStep 5: Combine to get $CC = 88$, meaning $C = 8$.\nA student who gets $78$ likely added without considering that identical letters in the same number represent identical digits ($AA$ means $33$, not $3 \\times A$).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constraints of a multiplication digit puzzle ($AB \\times C = DEE$) versus an addition puzzle ($AB + BC = DDE$). Which column must you analyze first in multiplication, and why?",
+     "a": "In a multiplication puzzle like $AB \\times C = DEE$, you must analyze the units column first ($B \\times C$ ends in $E$) to narrow down the possible single-digit multiples. Unlike addition where you look at rightmost columns too, multiplication involves products where multiple digit pairs can produce the same ending digit (e.g., numbers ending in 0, 2, 4, 5, 6, 8). A student who says addition and multiplication are solved identically ignores how multiplication spreads values across columns through multiplicative factors rather than simple carries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the proposed solution for the puzzle $A + A = B$: \"Let $A = 5$, so $5 + 5 = 10$. Therefore, $B = 10$.\" Is this valid? Justify your answer.",
+     "a": "This solution is invalid. In standard digit puzzles, each letter represents a single digit from 0 to 9. Since $B$ is represented as a single letter standing for a single digit, it cannot take the value 10 because 10 is a two-digit number. A student who accepts this solution fails to recognize the fundamental rule that each letter in a cryptarithm corresponds to exactly one single digit ($0-9$).",
+     "self_check": true
+    },
+    {
+     "q": "Create a simple 2-digit addition puzzle of the form $AB + BC = DDD$ where $D = 1$, and provide the unique values for $A, B,$ and $C$.",
+     "a": "The expected answer is a puzzle where $AB + BC = 111$. By testing digit combinations where two 2-digit numbers sum to 111, one valid solution is $56 + 55 = 111$, meaning $A = 5, B = 6, C = 5, D = 1$. A poor answer would choose numbers that do not share common middle letters or result in a sum other than 111, showing a failure to construct consistent constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

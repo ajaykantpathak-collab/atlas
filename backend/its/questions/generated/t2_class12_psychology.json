@@ -1,0 +1,295 @@
+{
+ "catalog": "t2_class12_psychology",
+ "note": "Wave-2 graded items for class 12 Psychology pools (lepy101-107). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "lepy101.1", "title": "Intelligence Quotient (IQ)", "questions": [
+    {"q": "A 10-year-old solves problems like a typical 12-year-old. Using mental age / real age * 100, what is the child's IQ?", "a": "120"}
+  ]},
+  {"id": "lepy101.2", "title": "IQ Classification Bands and Population Shares", "questions": [
+    {"q": "An IQ score of 100 falls in which band: average, superior or borderline?", "a": "average"}
+  ]},
+  {"id": "lepy101.3", "title": "Intellectual Giftedness and Intellectual Disability", "questions": [
+    {"q": "Beyond which IQ score does giftedness begin?", "a": "130"},
+    {"q": "Intellectual disability applies only below which IQ score?", "a": "70"},
+    {"q": "Besides a low IQ, which deficits before age 18 must accompany intellectual disability?", "a": "adaptive behaviour"}
+  ]},
+  {"id": "lepy101.4", "title": "Psychometric Theories and the Guilford Cell Count", "questions": [
+    {"q": "Guilford crosses 6 operations, 5 contents and 6 products. How many ability cells does his model hold?", "a": "180"}
+  ]},
+  {"id": "lepy101.5", "title": "Gardner's Theory of Multiple Intelligences", "questions": [
+    {"q": "How many relatively independent intelligences does Gardner's theory list?", "a": "8"},
+    {"q": "Which Gardner intelligence fits a sportsperson: bodily-kinaesthetic or spatial?", "a": "bodily-kinaesthetic"},
+    {"q": "Which Gardner intelligence fits a skilled singer: musical or naturalistic?", "a": "musical"}
+  ]},
+  {"id": "lepy101.6", "title": "Sternberg's Triarchic Theory of Intelligence", "questions": [
+    {"q": "Which Sternberg strand is street-smart coping with daily demands: componential, experiential or contextual?", "a": "contextual"}
+  ]},
+  {"id": "lepy101.7", "title": "PASS Model of Intelligence", "questions": [
+    {"q": "What does the P in the PASS model of intelligence stand for?", "a": "planning"}
+  ]},
+  {"id": "lepy101.8", "title": "Twin-Study Correlations: Nature and Nurture in Intelligence", "questions": [
+    {"q": "Identical twins reared together correlate near what value in intelligence studies? (Give one decimal.)", "a": "0.9"}
+  ]},
+  {"id": "lepy101.9", "title": "Aptitude: Nature and Measurement", "questions": [
+    {"q": "What is a person's specific capacity to acquire a particular skill after training called?", "a": "aptitude"},
+    {"q": "Which multi-area aptitude battery is abbreviated DAT?", "a": "Differential Aptitude Tests"},
+    {"q": "Aptitude predicts future performance, while interest is a mere what?", "a": "preference"}
+  ]},
+  {"id": "lepy101.10", "title": "Creativity and Its Relation to Intelligence", "questions": [
+    {"q": "Which thinking does an intelligence test reward: convergent or divergent?", "a": "convergent"},
+    {"q": "Which thinking runs in many directions toward open-ended answers?", "a": "divergent"},
+    {"q": "Creativity needs a minimum base of which attribute before it can flourish?", "a": "intelligence"}
+  ]},
+  {"id": "lepy102.1", "title": "Concept of Self: Personal and Social Identity", "questions": [
+    {"q": "Which identity marks one person off from everybody else: personal or social?", "a": "personal identity"},
+    {"q": "Which identity ties a person to a group?", "a": "social identity"},
+    {"q": "In the self as knower and known, the knower is the what: subject or object?", "a": "subject"}
+  ]},
+  {"id": "lepy102.2", "title": "Self-esteem, Self-efficacy and Self-regulation", "questions": [
+    {"q": "The value judgment a person passes on her own worth is called what?", "a": "self-esteem"},
+    {"q": "The belief that one personally controls life outcomes, not luck or fate, is called what?", "a": "self-efficacy"},
+    {"q": "Delaying gratification is part of which capacity: self-regulation or self-esteem?", "a": "self-regulation"}
+  ]},
+  {"id": "lepy102.3", "title": "Culture and Self: Indian versus Western Views", "questions": [
+    {"q": "Which culture keeps a comparatively fixed boundary between self and others: Western or Indian?", "a": "Western"},
+    {"q": "In which view may the self fuse with the cosmos or the group: the Indian or the Western view?", "a": "Indian"},
+    {"q": "Collectivistic Asian cultures keep the self in harmony with its what?", "a": "group"}
+  ]},
+  {"id": "lepy102.4", "title": "Type and Trait Approaches to Personality", "questions": [
+    {"q": "Sorting people into broad behavioural patterns is which approach: type or trait?", "a": "type"},
+    {"q": "How many source traits does Cattell's theory list?", "a": "16"},
+    {"q": "Jung sorted people into introverts and whom?", "a": "extraverts"}
+  ]},
+  {"id": "lepy102.5", "title": "Freud: Structure of Personality and Defence Mechanisms", "questions": [
+    {"q": "Which Freudian structure obeys the pleasure principle?", "a": "id"},
+    {"q": "Which Freudian structure obeys the reality principle?", "a": "ego"},
+    {"q": "Pushing painful memories out of awareness is which defence mechanism?", "a": "repression"}
+  ]},
+  {"id": "lepy102.6", "title": "Psychosexual Stages and Post-Freudian Theories", "questions": [
+    {"q": "How many psychosexual stages did Freud propose?", "a": "5"},
+    {"q": "In which stage is the Oedipus complex resolved: phallic or anal?", "a": "phallic"},
+    {"q": "Which post-Freudian theorist named the inferiority complex?", "a": "Adler"}
+  ]},
+  {"id": "lepy102.7", "title": "Humanistic, Behavioural and Cultural Approaches", "questions": [
+    {"q": "Which need crowns Maslow's hierarchy: self-actualisation or safety?", "a": "self-actualisation"},
+    {"q": "Rogers's fully functioning person shows a match between which two selves?", "a": "real and ideal self"},
+    {"q": "Children of hunting-gathering societies learn which trait: independence or obedience?", "a": "independence"}
+  ]},
+  {"id": "lepy102.8", "title": "Self-Report Measures and Rating-Scale Scoring", "questions": [
+    {"q": "How many true-false statements does the MMPI carry?", "a": "567"}
+  ]},
+  {"id": "lepy102.9", "title": "Projective Techniques: Rorschach and TAT", "questions": [
+    {"q": "How many symmetric inkblots does the Rorschach test hold?", "a": "10"}
+  ]},
+  {"id": "lepy103.1", "title": "Nature, Types and Sources of Stress", "questions": [
+    {"q": "The helpful level of stress that sharpens performance is called what?", "a": "eustress"},
+    {"q": "Stressors are the events and strain is the what: reaction or cause?", "a": "reaction"},
+    {"q": "Whether an event stresses you at all depends above all on how you what it?", "a": "perceive"}
+  ]},
+  {"id": "lepy103.2", "title": "Cognitive Appraisal in the Stress Process", "questions": [
+    {"q": "Which appraisal labels a situation positive, neutral or negative: primary or secondary?", "a": "primary"},
+    {"q": "Which appraisal weighs one's coping resources against the event's demands?", "a": "secondary"},
+    {"q": "A negative event that can still be overcome appraises as what: harm, threat or challenge?", "a": "challenge"}
+  ]},
+  {"id": "lepy103.3", "title": "Signs and Effects of Stress on Functioning", "questions": [
+    {"q": "Prolonged exhaustion of body and mind in a demanding setting with little support is called what?", "a": "burnout"}
+  ]},
+  {"id": "lepy103.4", "title": "Stress-Related Illness Percentages", "questions": [
+    {"q": "About how many medical visits in every hundred are made chiefly for stress-related symptoms?", "a": "60"}
+  ]},
+  {"id": "lepy103.5", "title": "General Adaptation Syndrome (GAS)", "questions": [
+    {"q": "Selye's three-stage syndrome runs alarm, resistance and then what?", "a": "exhaustion"}
+  ]},
+  {"id": "lepy103.6", "title": "Coping with Stress: Strategies and Focus", "questions": [
+    {"q": "Which coping tries to alter the stressful event itself: problem-focused or emotion-focused?", "a": "problem-focused"},
+    {"q": "Which Endler-Parker strategy sidesteps the situation altogether: avoidance-oriented or task-oriented?", "a": "avoidance-oriented"},
+    {"q": "People generally reach for which coping more often: problem-focused or emotion-focused?", "a": "problem-focused"}
+  ]},
+  {"id": "lepy103.7", "title": "Stress Management Techniques and the Exercise Prescription", "questions": [
+    {"q": "The chapter's exercise prescription is at least four sessions a week of how many minutes each?", "a": "30"}
+  ]},
+  {"id": "lepy103.8", "title": "Scoring the Stressful Life Events Scale", "questions": [
+    {"q": "What severity value does death of a spouse carry on the stressful life events scale?", "a": "95"}
+  ]},
+  {"id": "lepy103.9", "title": "Hardiness and Resilience", "questions": [
+    {"q": "Kobasa's hardiness is built from three Cs: commitment, control and what?", "a": "challenge"},
+    {"q": "The dynamic capacity to bounce back under adversity is called what?", "a": "resilience"},
+    {"q": "Name the three resilience resources: I HAVE, I AM and I what?", "a": "I CAN"}
+  ]},
+  {"id": "lepy103.10", "title": "Life Skills, Positive Health and Social Support", "questions": [
+    {"q": "Which life skill lets you say no without self-consciousness: assertiveness or time management?", "a": "assertiveness"},
+    {"q": "Which breathing style does self-care teach: slow diaphragmatic or rapid chest breathing?", "a": "diaphragmatic"},
+    {"q": "Optimists use which coping style: problem-focused or denial?", "a": "problem-focused"}
+  ]},
+  {"id": "lepy103.11", "title": "Stress and the Immune System", "questions": [
+    {"q": "Which immune cells manufacture antibodies: T cells or B cells?", "a": "B cells"},
+    {"q": "Which immune cells fight viruses and tumours directly: natural killer cells or B cells?", "a": "natural killer cells"},
+    {"q": "HIV attacks which of the immune guardians?", "a": "T-helper cells"}
+  ]},
+  {"id": "lepy104.1", "title": "Four Ds of Abnormality and Views of Abnormal Behaviour", "questions": [
+    {"q": "Behaviour that blocks constructive daily activity shows which D of abnormality: dysfunction or deviance?", "a": "dysfunction"},
+    {"q": "Name the four Ds of abnormality: deviance, distress, danger and what?", "a": "dysfunction"},
+    {"q": "The better view labels behaviour abnormal when it is what: maladaptive or merely unusual?", "a": "maladaptive"}
+  ]},
+  {"id": "lepy104.2", "title": "Historical Perspectives and Classification Systems", "questions": [
+    {"q": "Which perspective treated abnormality with exorcism or the shaman: supernatural, biological or psychological?", "a": "supernatural"},
+    {"q": "Which classification manual does the APA publish: DSM-5 or ICD-10?", "a": "DSM-5"},
+    {"q": "Which organisation publishes the ICD-10: WHO or APA?", "a": "WHO"}
+  ]},
+  {"id": "lepy104.3", "title": "Models of Abnormal Behaviour and the Diathesis-Stress Model", "questions": [
+    {"q": "Low levels of which neurotransmitter accompany anxiety disorders: GABA or dopamine?", "a": "GABA"},
+    {"q": "Excess of which neurotransmitter is linked with schizophrenia?", "a": "dopamine"},
+    {"q": "Which model explains disorder as a predisposition triggered by stress?", "a": "diathesis-stress model"}
+  ]},
+  {"id": "lepy104.4", "title": "Anxiety Disorders: Generalised, Panic, Phobias and Separation Anxiety", "questions": [
+    {"q": "Objectless prolonged fear with hypervigilance marks which anxiety disorder: generalised or panic?", "a": "generalised anxiety disorder"},
+    {"q": "Recurrent surges of intense terror mark which disorder?", "a": "panic disorder"},
+    {"q": "Fear of crowded public places is which phobia: agoraphobia or social phobia?", "a": "agoraphobia"}
+  ]},
+  {"id": "lepy104.5", "title": "Obsessive-Compulsive and Trauma-Related Disorders", "questions": [
+    {"q": "In OCD, the intrusive unwanted idea is the what: obsession or compulsion?", "a": "obsession"},
+    {"q": "The repeated act such as counting or washing is the what?", "a": "compulsion"},
+    {"q": "Recurrent dreams and flashbacks after a disaster mark which disorder: PTSD or OCD?", "a": "PTSD"}
+  ]},
+  {"id": "lepy104.6", "title": "Somatic Symptom and Dissociative Disorders", "questions": [
+    {"q": "Sudden paralysis or blindness after stress with no biological cause is which disorder: conversion or illness anxiety?", "a": "conversion disorder"},
+    {"q": "Constant worry about developing a serious disease is which disorder?", "a": "illness anxiety disorder"},
+    {"q": "Which disorders sever memory and identity: dissociative or somatic?", "a": "dissociative"}
+  ]},
+  {"id": "lepy104.7", "title": "Depressive and Bipolar Disorders", "questions": [
+    {"q": "Alternating mania and depression mark which disorder: bipolar or major depression?", "a": "bipolar disorder"},
+    {"q": "What is the strongest risk factor for suicide: a previous attempt or gender?", "a": "a previous attempt"},
+    {"q": "Loss of interest and pleasure in most activities marks which disorder: major depressive disorder or panic disorder?", "a": "major depressive disorder"}
+  ]},
+  {"id": "lepy104.8", "title": "Schizophrenia: Positive, Negative and Psychomotor Symptoms", "questions": [
+    {"q": "Delusions and hallucinations are which kind of schizophrenic symptom: positive or negative?", "a": "positive"}
+  ]},
+  {"id": "lepy104.9", "title": "Neurodevelopmental Disorders and the Autism-Disability Link", "questions": [
+    {"q": "About how many of every hundred children on the autism spectrum also have intellectual disabilities?", "a": "70"}
+  ]},
+  {"id": "lepy104.10", "title": "Eating Disorders and Substance-Related Disorders", "questions": [
+    {"q": "Which eating disorder rests on a distorted body image with refusal to eat: anorexia nervosa or bulimia nervosa?", "a": "anorexia nervosa"},
+    {"q": "Which eating disorder alternates binges with purging?", "a": "bulimia nervosa"},
+    {"q": "Alcohol first depresses the brain areas governing which two faculties: judgment and inhibition, or speech and memory?", "a": "judgment and inhibition"}
+  ]},
+  {"id": "lepy105.1", "title": "Nature and Goals of Psychotherapy", "questions": [
+    {"q": "What is a voluntary relationship in which a trained professional helps a client solve psychological problems called?", "a": "psychotherapy"},
+    {"q": "Roughly how many therapy types pursue these ends today: about 400 or about 40?", "a": "400"},
+    {"q": "Psychotherapy centres on whom: the client or the therapist?", "a": "the client"}
+  ]},
+  {"id": "lepy105.2", "title": "Therapeutic Alliance: Empathy and Unconditional Positive Regard", "questions": [
+    {"q": "Therapist warmth that does not depend on what the client reveals is called what?", "a": "unconditional positive regard"},
+    {"q": "Feeling the client's plight from inside her own perspective is what: empathy or sympathy?", "a": "empathy"},
+    {"q": "Strictly keeping the client's disclosures private is called what?", "a": "confidentiality"}
+  ]},
+  {"id": "lepy105.3", "title": "Classifying Psychotherapies: Three Groups, Six Parameters", "questions": [
+    {"q": "Which therapy group appeared first: psychodynamic, behaviour or existential?", "a": "psychodynamic"},
+    {"q": "Which group is called the third force: behaviour or existential?", "a": "existential"},
+    {"q": "On how many parameters are the three therapy groups compared?", "a": "6"}
+  ]},
+  {"id": "lepy105.4", "title": "Behaviour Therapy: Behavioural Analysis and Techniques", "questions": [
+    {"q": "Which therapy applies learning principles to correct faulty behaviour patterns?", "a": "behaviour therapy"},
+    {"q": "Pairing an unwanted behaviour with an unpleasant stimulus is which technique: aversive conditioning or desensitisation?", "a": "aversive conditioning"},
+    {"q": "Systematic desensitisation pairs relaxation with what ordered list?", "a": "anxiety hierarchy"}
+  ]},
+  {"id": "lepy105.5", "title": "Token Economy: Computing Rewards", "questions": [
+    {"q": "A client earns 2 tokens per wanted behaviour, performs 10 behaviours, and a reward costs 5 tokens. How many rewards can be claimed?", "a": "4"}
+  ]},
+  {"id": "lepy105.6", "title": "Cognitive Therapies: Ellis's RET and Beck's Restructuring", "questions": [
+    {"q": "Whose therapy runs the antecedent-belief-consequence analysis: Ellis's or Beck's?", "a": "Ellis's"},
+    {"q": "Which therapy targets cognitive restructuring of negative automatic thoughts: Beck's or Ellis's?", "a": "Beck's"},
+    {"q": "Cognitive therapy typically spans how many sessions: 10-20 or 100-200?", "a": "10-20"}
+  ]},
+  {"id": "lepy105.7", "title": "Humanistic-Existential Therapies: Logotherapy, Client-centred, Gestalt", "questions": [
+    {"q": "Whose logotherapy treats the soul by finding meaning: Frankl's or Rogers's?", "a": "Frankl's"},
+    {"q": "Which therapy did Carl Rogers develop: client-centred or Gestalt?", "a": "client-centred"},
+    {"q": "Which therapy targets self-awareness and self-acceptance: Gestalt or logotherapy?", "a": "Gestalt"}
+  ]},
+  {"id": "lepy105.8", "title": "Factors of Healing and Ethics in Psychotherapy", "questions": [
+    {"q": "The emotional unburdening of the first interviews is called what?", "a": "catharsis"},
+    {"q": "Factors that operate across every therapy, client and therapist are called what factors?", "a": "non-specific factors"},
+    {"q": "Motivation and expectation of improvement are which variables: patient or therapist?", "a": "patient"}
+  ]},
+  {"id": "lepy105.9", "title": "Alternative Therapies: Yoga, Meditation and Daily Practice", "questions": [
+    {"q": "Which yoga's rapid breathing has proven a low-cost aid against depression: Sudarshana Kriya or Ashtanga?", "a": "Sudarshana Kriya"}
+  ]},
+  {"id": "lepy105.10", "title": "Rehabilitation of the Mentally Ill", "questions": [
+    {"q": "Which rehabilitation arm teaches crafts like candle making and weaving: occupational therapy or social skills training?", "a": "occupational therapy"}
+  ]},
+  {"id": "lepy106.1", "title": "Nature and A-B-C Components of Attitude", "questions": [
+    {"q": "Name the three A-B-C components of attitude: affective, behavioural and what?", "a": "cognitive"},
+    {"q": "Which component is the feeling side of an attitude: affective or cognitive?", "a": "affective"},
+    {"q": "A belief carrying an ought-aspect is called a what?", "a": "value"}
+  ]},
+  {"id": "lepy106.2", "title": "Features of Attitudes and the Extremeness Score", "questions": [
+    {"q": "On the chapter's five-point attitude scale, which rating marks the neutral midpoint?", "a": "3"}
+  ]},
+  {"id": "lepy106.3", "title": "Attitude Formation: Processes and Influencing Factors", "questions": [
+    {"q": "Liking a subject because of the teacher forms attitude through what: association or modelling?", "a": "association"},
+    {"q": "Building an attitude by observing others uses which process: modelling or reward?", "a": "modelling"},
+    {"q": "Media and biographies shape attitudes through exposure to what?", "a": "information"}
+  ]},
+  {"id": "lepy106.4", "title": "Attitude Change: Balance, Dissonance and the Two-Step Concept", "questions": [
+    {"q": "Whose balance concept draws the P-O-X triangle: Heider's or Festinger's?", "a": "Heider's"},
+    {"q": "Conflicting cognitions create what, in Festinger's account: dissonance or balance?", "a": "dissonance"},
+    {"q": "In the two-step concept of attitude change, which changes first: the source or the target?", "a": "the source"}
+  ]},
+  {"id": "lepy106.5", "title": "Factors that Influence Attitude Change", "questions": [
+    {"q": "Which kind of change is easier: congruent or incongruent?", "a": "congruent"},
+    {"q": "A credible expert persuades which group more easily: adults or children?", "a": "adults"},
+    {"q": "Too much of which appeal in a message backfires: fear or humour?", "a": "fear"}
+  ]},
+  {"id": "lepy106.6", "title": "Attitude-Behaviour Relationship", "questions": [
+    {"q": "In LaPiere's study the Chinese couple was served almost everywhere, yet most hotel managers later wrote that they would do what?", "a": "refuse"}
+  ]},
+  {"id": "lepy106.7", "title": "Prejudice, Stereotype and Discrimination: Sources", "questions": [
+    {"q": "The cognitive component of prejudice is the what: stereotype or discrimination?", "a": "stereotype"},
+    {"q": "Treating the target group less positively is called what?", "a": "discrimination"},
+    {"q": "Blaming a weaker group for one's own troubles is called what: scapegoating or modelling?", "a": "scapegoating"}
+  ]},
+  {"id": "lepy106.8", "title": "Strategies for Handling Prejudice", "questions": [
+    {"q": "Intergroup contact works only when groups meet cooperatively rather than how?", "a": "competitively"},
+    {"q": "Highlighting individual identity weakens which distinction: ingroup-outgroup or rich-poor?", "a": "ingroup-outgroup"},
+    {"q": "Which strategy corrects stereotypes through information: education or avoidance?", "a": "education"}
+  ]},
+  {"id": "lepy106.9", "title": "Interpersonal Rating Exercise: Means and Rating Gaps", "questions": [
+    {"q": "A zero rating gap between your self-rating and your friend's rating of you means you know each other how well: perfectly or poorly?", "a": "perfectly"}
+  ]},
+  {"id": "lepy107.1", "title": "Nature and Characteristics of Groups", "questions": [
+    {"q": "How many members must a group have at minimum: two or ten?", "a": "two"},
+    {"q": "An unorganised chance gathering with no structure or belongingness is a what: crowd or group?", "a": "crowd"},
+    {"q": "Members with complementary skills and mutual accountability form a what?", "a": "team"}
+  ]},
+  {"id": "lepy107.2", "title": "Why People Join Groups", "questions": [
+    {"q": "Borrowed importance from a prestigious membership supplies what: status or security?", "a": "status"}
+  ]},
+  {"id": "lepy107.3", "title": "Group Formation: Conditions and Tuckman's Stages", "questions": [
+    {"q": "Living in the same colony eases group formation through what: proximity or similarity?", "a": "proximity"},
+    {"q": "Name Tuckman's second stage of group development.", "a": "storming"},
+    {"q": "Name Tuckman's final stage of group development.", "a": "adjourning"}
+  ]},
+  {"id": "lepy107.4", "title": "Group Structure: Roles, Norms, Status and Cohesiveness", "questions": [
+    {"q": "Socially defined expectations attached to a position are called what?", "a": "roles"},
+    {"q": "Status fixed by seniority is what kind: ascribed or achieved?", "a": "ascribed"},
+    {"q": "Extreme cohesiveness can breed which failure: groupthink or loafing?", "a": "groupthink"}
+  ]},
+  {"id": "lepy107.5", "title": "Groupthink and Its Prevention", "questions": [
+    {"q": "Who identified groupthink: Janis or Latane?", "a": "Janis"},
+    {"q": "Which president's circle escalated the Vietnam War against advice, the classic groupthink case?", "a": "Johnson"},
+    {"q": "Inviting outside experts is a safeguard against what: groupthink or polarisation?", "a": "groupthink"}
+  ]},
+  {"id": "lepy107.6", "title": "Types of Groups and Tajfel's Minimal Group Paradigm", "questions": [
+    {"q": "Family, caste and religion are which type of group: primary or secondary?", "a": "primary"},
+    {"q": "A political party joined by choice with impersonal ties is which type of group?", "a": "secondary"},
+    {"q": "Even a flimsy arbitrary criterion triggers favouritism toward the ingroup. Whose finding is this: Tajfel's or Janis's?", "a": "Tajfel's"}
+  ]},
+  {"id": "lepy107.7", "title": "Social Facilitation and Social Loafing", "questions": [
+    {"q": "The reduction in individual effort on a collective task is called social what?", "a": "loafing"}
+  ]},
+  {"id": "lepy107.8", "title": "Group Polarisation", "questions": [
+    {"q": "Strengthening of a group's initial position through discussion is called group what?", "a": "polarisation"},
+    {"q": "Which driver supplies newer arguments for your view: like-minded company or outsiders?", "a": "like-minded company"},
+    {"q": "Group decisions tend to be more extreme or more moderate than individual ones?", "a": "more extreme"}
+  ]}
+ ]
+}

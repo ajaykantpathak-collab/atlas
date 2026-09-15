@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_24_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_24_013",
+   "title": "c11_eng_w_cbse_24_013",
+   "questions": [
+    {
+     "q": "State the central thesis of 'Science and the Sense of Wonder' in one sentence.",
+     "a": "The central thesis is that scientific understanding does not diminish wonder but rather deepens and expands it by revealing the intricate, vast, and elegant mechanisms underlying natural phenomena. A wrong answer (e.g., 'Science explains things so we don't need wonder') reveals the student has accepted the very misconception the essay refutes, confusing explanation with reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author argues that the 'sense of wonder' is not the exclusive property of the unscientific mind.",
+     "a": "The author contends that wonder arises from confronting the unknown, and science continuously reveals new unknowns at every level of explanation — each answer generates deeper questions — so the scientific mind experiences wonder more frequently and more profoundly. A wrong answer (e.g., 'Scientists are smart so they wonder more') reveals a misunderstanding of the essay's epistemological claim: it is not about intelligence but about the structural relationship between knowledge and mystery.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: 'We are star-stuff contemplating the stars.' Apply this metaphor to explain how the essay connects human consciousness to cosmic processes. Use one specific scientific fact from the essay to support your interpretation.",
+     "a": "The metaphor means the carbon, nitrogen, and oxygen atoms in our brains were forged in stellar nucleosynthesis; thus, when we study stars, the universe is literally examining itself. A specific fact: the essay notes that all elements heavier than helium were created in supernova explosions. A wrong answer that treats this as mere poetry misses the essay's core argument that scientific fact *is* the source of the deepest wonder.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the author's view of 'mystery' with the traditional romantic view that mystery requires ignorance. How does the author redefine the term?",
+     "a": "The romantic view equates mystery with the unexplained; the author redefines mystery as the *inexhaustibility* of explanation — each scientific layer reveals a more profound puzzle (e.g., Newton's gravity explained planetary motion but opened the mystery of *what* gravity is, resolved by Einstein's spacetime curvature, which opens quantum gravity). A wrong answer that says 'the author likes mystery' fails to analyze the conceptual shift from static ignorance to dynamic, expanding inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the strength of the author's argument that 'pseudo-science and superstition offer cheap wonder, while science offers earned wonder.' What evidence would weaken this claim?",
+     "a": "The argument is strong because it distinguishes wonder based on epistemic warrant: earned wonder survives scrutiny and grows with knowledge; cheap wonder collapses under it. Evidence weakening it would be historical cases where scientific consensus initially dismissed phenomena later validated (e.g., continental drift, prions), suggesting the boundary between 'pseudo-science' and 'frontier science' is sometimes porous. A wrong answer that simply agrees/disagrees without engaging the epistemic criterion shows evaluative failure.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word paragraph from the perspective of a 17th-century alchemist reading this essay, responding to the claim that 'science deepens wonder.' Use one direct phrase from the essay.",
+     "a": "\"You speak of 'star-stuff contemplating stars,' yet you strip the world of anima, reducing the philosopher's stone to mere nuclear fusion. My wonder lived in the marriage of matter and spirit; yours dissects the bride. I sought transformation; you catalogue composition. Both gaze upward — but I kissed the mystery, you measure it.\" A poor answer merely summarizes the essay without adopting the persona or engaging the tension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch6_4",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch6_4",
+   "title": "c9_engl_ch6_4",
+   "questions": [
+    {
+     "q": "Define \"stage direction\" and give two examples of different types of stage directions found in a play script.",
+     "a": "A stage direction is a playwright's written instruction (typically in brackets/italics) that guides performance elements beyond dialogue—such as setting, character movement, line delivery, lighting, or sound. Examples: \"[Enter Shruti, carrying a violin case]\" (movement/entrance) and \"[Softly, almost to herself]\" (delivery/tone). A wrong answer that only gives \"instructions for actors\" without distinguishing types reveals the student sees stage directions as monolithic rather than functional categories; missing the bracketed format indicates they haven't recognized the textual convention.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Twin Melodies,\" the first scene opens with stage directions describing \"the tanpura's drone\" and \"morning light filtering through the window.\" Explain how these two directions work together to establish the play's opening mood and cultural context before any dialogue is spoken.",
+     "a": "The tanpura's drone instantly signals an Indian classical music environment—rooting the play in the guru-shishya tradition and Shruti's world—while the morning light suggests a beginning, purity, and the daily ritual of riyaaz (practice). Together, they create a meditative, disciplined atmosphere that contrasts with the conflict to come. A wrong answer that treats them as separate \"setting details\" misses their synergistic function: sound + light = sensory immersion into a specific cultural ritual. If the student only mentions \"setting,\" they haven't grasped how stage directions *prime* the audience's emotional expectation.",
+     "self_check": true
+    },
+    {
+     "q": "Given this stage direction from a hypothetical scene in \"Twin Melodies\": \"[Guru Nabin stops tuning the tanpura. Long silence. He turns slowly. The afternoon light catches the edge of his spectacles.]\" — Identify the type of each instruction (movement, pause, lighting, etc.) and explain the dramatic effect of the *sequence* on the audience's perception of Guru Nabin's internal state.",
+     "a": "Types: \"stops tuning\" (movement cessation), \"Long silence\" (temporal pause/beat), \"turns slowly\" (deliberate movement), \"afternoon light catches...\" (lighting/reveal). Sequence effect: The cessation of the familiar tanpura sound creates auditory vacuum; the silence stretches tension; the slow turn delays confrontation; the light on spectacles acts as a visual metaphor for scrutiny/insight—together portraying controlled authority masking emotional weight. A wrong answer listing types without linking sequence to psychological portrayal shows mechanical classification without dramatic analysis. Missing the \"light on spectacles\" as symbolic reveals literal-only reading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural function of the act break in \"Twin Melodies\" (if it has one) versus a scene break within the same act. How does each control pacing and audience experience differently? Use specific transitions from the play.",
+     "a": "An act break typically marks a major turning point (e.g., Shruti's decision to audition for the fusion concert)—a macro-shift in the protagonist's journey, often followed by a time jump or location change, giving the audience intermission to absorb consequence. A scene break marks a micro-shift: same act, continuous time, new beat (e.g., moving from practice room to dining table)—maintaining momentum while changing dynamic. The act break says \"something fundamental has changed\"; the scene break says \"the conversation continues elsewhere.\" A wrong answer that treats them as merely \"longer vs shorter\" misses the qualitative difference in narrative weight and audience processing time.",
+     "self_check": true
+    },
+    {
+     "q": "A director chooses to *ignore* the stage direction \"[Shruti's hands tremble as she lifts the bow]\" in a key audition scene, instructing the actor to play it with \"confident stillness.\" Evaluate this directorial choice: does it betray the playwright's intent, or can it be a valid interpretive layer? Justify using the concept of subtext.",
+     "a": "It *can* be valid if the trembling is played as *internal* (micro-tension in shoulders, breath) rather than external—subtext means the character *feels* the tremor but *chooses* stillness as control. However, if the actor shows zero physical manifestation, the audience loses access to Shruti's vulnerability, flattening her courage into mere competence. The playwright's direction is an *offer* of visible humanity; the director may translate it, not erase it. A wrong answer saying \"director is always right\" or \"must follow exactly\" reveals binary thinking; board-level analysis requires evaluating *how* the choice serves or undermines the character's arc and the theme of \"individual identity vs legacy.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stage direction sequence for a *new* scene in \"Twin Melodies\" where Shruti first hears a Western violin concerto on her phone. Your directions must include: (a) a sound cue, (b) a movement revealing her reaction, (c) a lighting shift reflecting internal change, and (d) a delivery instruction for her first spoken line. Format correctly.",
+     "a": "[The tanpura drone fades. From Shruti's phone: the soaring opening of Vivaldi's \"Winter\" — sharp, fast, alien. Shruti freezes, phone mid-air. Her fingers tighten. A cool blue wash cuts the warm morning light, isolating her face. [Whispered, awed] \"It speaks... but it doesn't breathe.\"] — Criteria: all four elements present, formatted with brackets/italics, sound contrasts tradition/modernity, movement shows arrest, lighting shifts palette to signal psychological shift, delivery instruction reveals subtext (awe + critique). A poor answer misses one element, uses prose not script format, or writes directions that don't *show* the internal shift (e.g., \"She looks surprised\" instead of a specific physical tell).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,541 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 101,
+ "chapter_title": "Introduction to Accounting",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac101.txt",
+ "concepts": [
+  {
+   "id": "keac.101.1",
+   "title": "Meaning and Definition of Accounting",
+   "section": "1.1",
+   "definition": "A structured methodology for tracking, quantifying, documenting, and sharing financial data of a business entity to assist stakeholders in making choices.",
+   "formula": "",
+   "key_idea": "Accounting acts as an information system that translates business activities into financial reports.",
+   "textbook_ref": "keac101.txt lines 35-70",
+   "question_patterns": [
+    "define the term accounting",
+    "what is the meaning of accounting",
+    "explain the concept of accounting as an information system",
+    "how is accounting defined by the AICPA",
+    "describe the fundamental meaning of accounting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core components of the accounting definition",
+     "explain": "Accounting involves identifying, measuring, recording, and communicating financial information."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.2",
+   "title": "Economic Events",
+   "section": "1.1.1",
+   "definition": "Significant financial occurrences within or outside an enterprise that involve measurable transactions expressed in monetary units.",
+   "formula": "",
+   "key_idea": "Transactions must be measurable in monetary terms to be considered economic events.",
+   "textbook_ref": "keac101.txt lines 110-145",
+   "question_patterns": [
+    "what is an economic event in accounting",
+    "distinguish between internal and external economic events",
+    "give examples of external economic events",
+    "how do you define an economic event",
+    "explain internal economic events with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the event as internal or external",
+     "explain": "External events involve transactions with outsiders, while internal events occur entirely within the enterprise."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.3",
+   "title": "The Accounting Process",
+   "section": "1.1.2",
+   "definition": "The series of actions involving the recognition, monetary valuation, chronological bookkeeping, and reporting of business transactions to interested parties.",
+   "formula": "",
+   "key_idea": "The process begins with identification of transactions and ends with communication of financial statements.",
+   "textbook_ref": "keac101.txt lines 146-190",
+   "question_patterns": [
+    "what are the steps in the accounting process",
+    "explain identification and measurement in accounting",
+    "how are economic events recorded and communicated",
+    "describe the chronological recording of transactions",
+    "what does communication of accounting information involve"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the sequence from identification to communication",
+     "explain": "Transactions are first identified, then measured in money, recorded in books, and finally communicated via reports."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.4",
+   "title": "Users of Accounting Information",
+   "section": "1.1.4",
+   "definition": "Various stakeholders, split into inside managers and outside entities like lenders or regulators, who utilize financial statements for their specific analytical needs.",
+   "formula": "",
+   "key_idea": "Different stakeholders utilize accounting data to assess performance, solvency, and compliance.",
+   "textbook_ref": "keac101.txt lines 198-250",
+   "question_patterns": [
+    "who are the users of accounting information",
+    "distinguish between internal and external users of accounting",
+    "why do creditors need accounting information",
+    "identify the external users of financial statements",
+    "list the internal users of accounting reports"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine if the user is internal or external",
+     "explain": "Internal users are inside the management team, whereas external users are outside parties like investors and tax authorities."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.5",
+   "title": "Sub-disciplines of Accounting",
+   "section": "1.2",
+   "definition": "Distinct fields of study within accountancy designed for different purposes, including historical reporting to outsiders, tracking production expenses, and aiding internal managerial strategy.",
+   "formula": "",
+   "key_idea": "Different branches serve distinct informational needs of internal and external stakeholders.",
+   "textbook_ref": "keac101.txt lines 270-315",
+   "question_patterns": [
+    "what are the branches of accounting",
+    "explain the difference between financial and cost accounting",
+    "describe the role of management accounting",
+    "how does cost accounting assist management",
+    "list the sub-disciplines of accounting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the branch based on the primary objective",
+     "explain": "Financial accounting records past transactions, cost accounting analyzes manufacturing expenses, and management accounting aids future planning."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.6",
+   "title": "Qualitative Characteristics of Accounting Information",
+   "section": "1.2.1",
+   "definition": "Core features of financial reports - such as being dependable, timely, clear, and consistent - that ensure the presented data is highly valuable for analysis.",
+   "formula": "",
+   "key_idea": "Information must be timely, verifiable, clear, and consistent across periods and entities.",
+   "textbook_ref": "keac101.txt lines 316-370",
+   "question_patterns": [
+    "what are the qualitative characteristics of accounting information",
+    "explain reliability and relevance in accounting",
+    "how is comparability achieved in financial reports",
+    "why is understandability important in accounting",
+    "describe the attributes that make accounting information useful"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess the qualitative attributes of the information",
+     "explain": "The four main attributes are reliability, relevance, understandability, and comparability."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.7",
+   "title": "Objectives of Accounting",
+   "section": "1.3",
+   "definition": "The fundamental aims of bookkeeping, which center on keeping orderly transaction logs, determining net income, showing assets and liabilities, and distributing reports.",
+   "formula": "",
+   "key_idea": "Accounting aims to provide a true and fair view of financial performance and position.",
+   "textbook_ref": "keac101.txt lines 371-440",
+   "question_patterns": [
+    "what are the main objectives of accounting",
+    "how does accounting help in depicting financial position",
+    "explain the objective of maintaining systematic records",
+    "why is calculation of profit and loss an objective of accounting",
+    "describe the primary goals of accounting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary goal of the accounting activity",
+     "explain": "The main goals are record maintenance, profit calculation, financial position depiction, and information communication."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.8",
+   "title": "Basic Accounting Terms: Assets and Liabilities",
+   "section": "1.5.3",
+   "definition": "Assets represent valuable properties or rights controlled by a firm that yield future utility, whereas liabilities denote outstanding financial debts owed to external parties.",
+   "formula": "",
+   "key_idea": "Assets represent what the business owns, and liabilities represent what it owes to outsiders.",
+   "textbook_ref": "keac101.txt lines 480-535",
+   "question_patterns": [
+    "define assets and liabilities",
+    "what is the difference between current and non-current assets",
+    "explain current liabilities with examples",
+    "how are assets classified in a balance sheet",
+    "what do liabilities represent in accounting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify items into assets or liabilities",
+     "explain": "Owned resources are assets, while obligations to pay in the future are liabilities."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.9",
+   "title": "Calculation of Accounting Profit",
+   "section": "1.3.2",
+   "definition": "The positive net earnings realized when a business's total periodic revenues exceed its corresponding operating costs.",
+   "formula": "profit = revenue - expenses",
+   "key_idea": "Profit is the positive difference between total revenue and total expenses.",
+   "textbook_ref": "keac101.txt lines 380-410",
+   "question_patterns": [
+    "calculate the profit when revenue is {revenue} and expenses are {expenses}",
+    "what is the profit if the total revenue is {revenue} and total expenses are {expenses}",
+    "find the profit earned by a business with revenue of {revenue} and expenses of {expenses}",
+    "determine the profit given revenue {revenue} and expenses {expenses}",
+    "how much profit is made when revenue is {revenue} and expenses are {expenses}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate profit by subtracting expenses from revenue",
+     "explain": "Profit is the excess of revenue over expenses.",
+     "compute": "profit = revenue - expenses"
+    }
+   ]
+  },
+  {
+   "id": "keac.101.10",
+   "title": "Calculation of Accounting Loss",
+   "section": "1.3.2",
+   "definition": "The negative financial outcome that occurs when a firm's total operating expenditures surpass its total earned revenues over a given timeframe.",
+   "formula": "loss = expenses - revenue",
+   "key_idea": "Loss is the excess of expenses over revenues.",
+   "textbook_ref": "keac101.txt lines 380-410",
+   "question_patterns": [
+    "calculate the loss when expenses are {expenses} and revenue is {revenue}",
+    "what is the loss if total expenses are {expenses} and total revenue is {revenue}",
+    "find the loss incurred by a business with expenses of {expenses} and revenue of {revenue}",
+    "determine the loss given expenses {expenses} and revenue {revenue}",
+    "how much loss is suffered when expenses are {expenses} and revenue is {revenue}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate loss by subtracting revenue from expenses",
+     "explain": "Loss is the excess of expenses over revenue.",
+     "compute": "loss = expenses - revenue"
+    }
+   ]
+  },
+  {
+   "id": "keac.101.11",
+   "title": "Calculation of Gain on Sale of Asset",
+   "section": "1.5.11",
+   "definition": "An irregular financial benefit resulting from non-operating transactions, such as disposing of a long-term resource for more than its carrying value.",
+   "formula": "gain = selling_price - cost_price",
+   "key_idea": "Gain is the excess of the selling price of an asset over its cost or book value.",
+   "textbook_ref": "keac101.txt lines 610-630",
+   "question_patterns": [
+    "calculate the gain when an asset costing {cost_price} is sold for {selling_price}",
+    "what is the gain if a machine of cost {cost_price} is sold for {selling_price}",
+    "find the gain on sale of an asset with cost price {cost_price} and selling price {selling_price}",
+    "determine the gain when selling price is {selling_price} and cost is {cost_price}",
+    "how much gain is earned if an asset worth {cost_price} is sold for {selling_price}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate gain by subtracting cost price from selling price",
+     "explain": "Gain is the excess of selling price over cost price.",
+     "compute": "gain = selling_price - cost_price"
+    }
+   ]
+  },
+  {
+   "id": "keac.101.12",
+   "title": "Total Expenses and Losses",
+   "section": "1.5.8",
+   "definition": "The combined total of standard business operating costs and sudden non-reciprocal damages or asset destructions within a period.",
+   "formula": "total_outflow = expenses + losses",
+   "key_idea": "Combining operational expenses and incidental losses to find total financial outflows.",
+   "textbook_ref": "keac101.txt lines 580-640",
+   "question_patterns": [
+    "calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}",
+    "what is the total amount of expenses and losses if expenses are {expenses} and losses are {losses}",
+    "find the sum of expenses of {expenses} and losses of {losses}",
+    "determine the total financial outflow given expenses {expenses} and losses {losses}",
+    "how much is the total of expenses {expenses} and losses {losses}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total outflow by adding expenses and losses",
+     "explain": "Total outflow is the sum of expenses and losses.",
+     "compute": "total_outflow = expenses + losses"
+    }
+   ]
+  },
+  {
+   "id": "keac.101.13",
+   "title": "Basic Accounting Terms: Capital and Drawings",
+   "section": "1.5.5",
+   "definition": "Capital is the financial investment made by a proprietor into a business, while drawings represent the extraction of cash or goods by the owner for personal use.",
+   "formula": "",
+   "key_idea": "Capital increases owner's equity, whereas drawings reduce it.",
+   "textbook_ref": "keac101.txt lines 540-560, 650-670",
+   "question_patterns": [
+    "define capital and drawings in accounting",
+    "what is the difference between capital and drawings",
+    "how do drawings affect the owner's capital",
+    "explain the term capital with examples",
+    "what does drawings mean in business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast capital and drawings",
+     "explain": "Capital is the owner's investment in the business, whereas drawings are the owner's personal withdrawals from the business."
+    }
+   ]
+  },
+  {
+   "id": "keac.101.14",
+   "title": "Basic Accounting Terms: Debtors and Creditors",
+   "section": "1.5.19",
+   "definition": "Debtors are customers or entities who owe money to the business for credit sales, while creditors are suppliers to whom the business owes money for credit purchases.",
+   "formula": "",
+   "key_idea": "Debtors are current assets, whereas creditors are current liabilities.",
+   "textbook_ref": "keac101.txt lines 690-720",
+   "question_patterns": [
+    "distinguish between debtors and creditors",
+    "who is a debtor in business",
+    "explain the term creditors with examples",
+    "how are debtors and creditors shown in the balance sheet",
+    "what is the meaning of sundry debtors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between debtors and creditors",
+     "explain": "Debtors represent amounts receivable from customers, whereas creditors represent amounts payable to suppliers."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex_profit_1",
+   "source_ref": "keac101.txt lines 380-410",
+   "concept": "keac.101.9",
+   "question_type": "compute",
+   "question_pattern": "calculate the profit when revenue is {revenue} and expenses are {expenses}",
+   "extracted_variables": {
+    "revenue": 600000,
+    "expenses": 540000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate profit by subtracting expenses from revenue",
+     "explain": "Profit is the excess of revenue over expenses.",
+     "compute": "profit = revenue - expenses"
+    }
+   ]
+  },
+  {
+   "id": "ex_profit_2",
+   "source_ref": "keac101.txt lines 380-410",
+   "concept": "keac.101.9",
+   "question_type": "compute",
+   "question_pattern": "what is the profit if the total revenue is {revenue} and total expenses are {expenses}",
+   "extracted_variables": {
+    "revenue": 150000,
+    "expenses": 120000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate profit by subtracting expenses from revenue",
+     "explain": "Profit is the excess of revenue over expenses.",
+     "compute": "profit = revenue - expenses"
+    }
+   ]
+  },
+  {
+   "id": "ex_loss_1",
+   "source_ref": "keac101.txt lines 380-410",
+   "concept": "keac.101.10",
+   "question_type": "compute",
+   "question_pattern": "calculate the loss when expenses are {expenses} and revenue is {revenue}",
+   "extracted_variables": {
+    "expenses": 500000,
+    "revenue": 420000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate loss by subtracting revenue from expenses",
+     "explain": "Loss is the excess of expenses over revenue.",
+     "compute": "loss = expenses - revenue"
+    }
+   ]
+  },
+  {
+   "id": "ex_loss_2",
+   "source_ref": "keac101.txt lines 380-410",
+   "concept": "keac.101.10",
+   "question_type": "compute",
+   "question_pattern": "what is the loss if total expenses are {expenses} and total revenue is {revenue}",
+   "extracted_variables": {
+    "expenses": 80000,
+    "revenue": 65000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate loss by subtracting revenue from expenses",
+     "explain": "Loss is the excess of expenses over revenue.",
+     "compute": "loss = expenses - revenue"
+    }
+   ]
+  },
+  {
+   "id": "ex_gain_1",
+   "source_ref": "keac101.txt lines 610-630",
+   "concept": "keac.101.11",
+   "question_type": "compute",
+   "question_pattern": "calculate the gain when an asset costing {cost_price} is sold for {selling_price}",
+   "extracted_variables": {
+    "cost_price": 40000,
+    "selling_price": 45000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate gain by subtracting cost price from selling price",
+     "explain": "Gain is the excess of selling price over cost price.",
+     "compute": "gain = selling_price - cost_price"
+    }
+   ]
+  },
+  {
+   "id": "ex_gain_2",
+   "source_ref": "keac101.txt lines 610-630",
+   "concept": "keac.101.11",
+   "question_type": "compute",
+   "question_pattern": "what is the gain if a machine of cost {cost_price} is sold for {selling_price}",
+   "extracted_variables": {
+    "cost_price": 10000,
+    "selling_price": 12000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate gain by subtracting cost price from selling price",
+     "explain": "Gain is the excess of selling price over cost price.",
+     "compute": "gain = selling_price - cost_price"
+    }
+   ]
+  },
+  {
+   "id": "ex_outflow_1",
+   "source_ref": "keac101.txt lines 580-640",
+   "concept": "keac.101.12",
+   "question_type": "compute",
+   "question_pattern": "calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}",
+   "extracted_variables": {
+    "expenses": 5000,
+    "losses": 30000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total outflow by adding expenses and losses",
+     "explain": "Total outflow is the sum of expenses and losses.",
+     "compute": "total_outflow = expenses + losses"
+    }
+   ]
+  },
+  {
+   "id": "ex_outflow_2",
+   "source_ref": "keac101.txt lines 580-640",
+   "concept": "keac.101.12",
+   "question_type": "compute",
+   "question_pattern": "what is the total amount of expenses and losses if expenses are {expenses} and losses are {losses}",
+   "extracted_variables": {
+    "expenses": 12000,
+    "losses": 4000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total outflow by adding expenses and losses",
+     "explain": "Total outflow is the sum of expenses and losses.",
+     "compute": "total_outflow = expenses + losses"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keac101.txt lines 780-820",
+   "questions": [
+    "Define accounting.",
+    "State the end product of financial accounting.",
+    "Enumerate main objectives of accounting.",
+    "Who are the users of accounting information.",
+    "State the nature of accounting information required by long-term lenders.",
+    "Who are the external users of information?",
+    "Enumerate information needs of management.",
+    "Give any three examples of revenues.",
+    "Distinguish between debtors and creditors; profit and gain",
+    "Accounting information should be comparable. Do you agree with this statement. Give two reasons.",
+    "If the accounting information is not clearly presented, which of the qualitative characteristic of the accounting information is violated?",
+    "The role of accounting has changed over the period of time - Do you agree? Explain.",
+    "Giving examples, explain each of the following accounting terms: Fixed assets, Revenue, Expenses, Short-term liability, Capital.",
+    "Define revenues and expenses?",
+    "What is the primary reason for the business students and others to familiarise themselves with the accounting discipline?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac101.txt lines 821-840",
+   "questions": [
+    "What is accounting? Define its objectives.",
+    "Explain the factors which necessitated systematic accounting.",
+    "Describe the informational needs of external users.",
+    "What do you mean by an asset and what are different types of assets?",
+    "Explain the meaning of gain and profit. Distinguish between these two terms.",
+    "Explain the qualitative characteristics of accounting information.",
+    "Describe the role of accounting in the modern world."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

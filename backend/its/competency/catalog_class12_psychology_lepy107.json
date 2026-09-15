@@ -1,0 +1,373 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 7,
+ "chapter_title": "Social Influence and Group Processes",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy107.1",
+   "title": "Nature and Characteristics of Groups",
+   "section": "Nature and Formation of Groups",
+   "definition": "A group is an organised system of two or more interacting, interdependent individuals who share common motives, occupy role relationships and live by norms; this separates it from a crowd that gathers by chance with no structure or belongingness, an audience assembled to watch passively, a mob with one polarised purpose and impulsive homogeneous action, and a team whose members carry complementary skills, shared commitment and mutual accountability that produce positive synergy.",
+   "formula": "group = two_or_more_members + interdependence + common_motives + roles + norms ; team = group + complementary_skills + mutual_accountability",
+   "key_idea": "A dropped catch by one fielder punishes the whole team - that interdependence, not mere presence at one place, is what makes a family, class or playing set a true group.",
+   "textbook_ref": "lepy107.txt, What is a Group? (six salient characteristics, Fig 7.1 football team vs audience, crowd, mob, team differences)",
+   "question_patterns": [
+    "define a group and list its salient characteristics in Class 12 social psychology",
+    "how does a group differ from a crowd and from an audience?",
+    "distinguish a team from an ordinary group on responsibility and synergy",
+    "why does an accident on the road produce a crowd rather than a group?",
+    "what turns an audience into a mob according to the chapter?",
+    "why are members of a cricket team called interdependent?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the defining features",
+     "explain": "perceived membership, common motives and goals, interdependence, mutual influence, interaction and role-norm structure mark a genuine group"
+    },
+    {
+     "step": 2,
+     "action": "check the contrasts",
+     "explain": "crowds lack structure and belongingness, audiences stay passive, mobs act with polarised impulsive purpose, and teams add complementary skills with mutual accountability"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many members must a group have at minimum: two or ten?",
+     "a": "two"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.2",
+   "title": "Why People Join Groups",
+   "section": "Why Do People Join Groups?",
+   "definition": "Group membership pays in several currencies: security against the insecurity of being alone, status borrowed from a group others consider important, self-esteem and positive social identity from prestigious membership, satisfaction of psychological and social needs such as belongingness, attention, love and power, goal achievement that no individual could manage alone, and knowledge and information that widen one's view.",
+   "formula": "join_reasons = security + status + self_esteem + psychological_social_needs + goal_achievement + knowledge_information",
+   "key_idea": "Because different groups feed different needs, everyone holds several memberships at once - which is why competing demands and expectations press on us.",
+   "textbook_ref": "lepy107.txt, Why Do People Join Groups? (six reasons with school debate and slum teaching examples)",
+   "question_patterns": [
+    "what motivated you to join a group you belong to - discuss the reasons the chapter names",
+    "how does group membership supply security and status to a member?",
+    "which joining reason explains the pride when your school wins an inter-institutional debate?",
+    "why can some goals be achieved only through groups rather than alone?",
+    "how do groups provide knowledge and information that an individual lacks?",
+    "what competing pressures arise from holding several group memberships?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the six joining reasons",
+     "explain": "security, status, self-esteem, psychological and social needs, goal achievement, and knowledge or information are the chapter's list"
+    },
+    {
+     "step": 2,
+     "action": "check the multi-membership tension",
+     "explain": "simultaneous memberships create competing demands and expectations that members must usually manage"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Borrowed importance from a prestigious membership supplies what: status or security?",
+     "a": "status"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.3",
+   "title": "Group Formation: Conditions and Tuckman's Stages",
+   "section": "Group Formation / Stages of Group Formation",
+   "definition": "Groups arise where contact and interaction are eased by proximity (same colony, school or playground), similarity (consistent, validating company whose views reinforce ours), and common motives or goals such as teaching slum children together. Tuckman then splits development into five stages - forming with uncertainty and excitement, storming with conflict over control and tasks until a leadership hierarchy appears, norming when behaviour norms and positive identity form, performing when the accepted structure drives the goal, and adjourning when a committee disbands after its function ends.",
+   "formula": "formation_conditions = proximity + similarity + common_motives_goals ; tuckman_stages = forming + storming + norming + performing + adjourning",
+   "key_idea": "Groups need not march through the stages neatly - some stages run together, some repeat, and some are skipped entirely.",
+   "textbook_ref": "lepy107.txt, Group Formation (three conditions, television-violence validation example), Stages of Group Formation, Activity 7.1 open house committee",
+   "question_patterns": [
+    "how does Tuckman's stage model help in understanding the formation of groups?",
+    "name the five developmental stages of a group in their order",
+    "why does similarity make people like each other - give the two psychologist explanations",
+    "which stage brings intragroup conflict and how does it end?",
+    "what happens in the norming and performing stages of group development?",
+    "when does the adjourning stage apply, and which groups never reach it?",
+    "how do proximity and common goals turn classmates into a teaching group for slum children?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three formation conditions",
+     "explain": "repeated nearby contact, validated similarity, and shared motives or goals start the group"
+    },
+    {
+     "step": 2,
+     "action": "check the stage sequence and its flexibility",
+     "explain": "forming, storming, norming, performing and adjourning normally follow in order, though real groups may overlap, reverse or skip stages"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Living in the same colony eases group formation through what: proximity or similarity?",
+     "a": "proximity"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.4",
+   "title": "Group Structure: Roles, Norms, Status and Cohesiveness",
+   "section": "Group Structure (four elements)",
+   "definition": "As members interact, a structure regularises the group through four elements: roles, the socially defined expectations attached to a position such as son, daughter or team captain; norms, the agreed and enforced standards or unspoken rules of behaviour and belief; status, the relative social position that may be ascribed by seniority or achieved by expertise and hard work; and cohesiveness, the togetherness, we-feeling and mutual attraction that makes members think and act as one unit and holds them in the group.",
+   "formula": "structure_elements = roles + norms + status + cohesiveness ; status = ascribed or achieved",
+   "key_idea": "The cricket captain outranks teammates in status though all matter equally; extreme cohesiveness, however, can breed groupthink.",
+   "textbook_ref": "lepy107.txt, four important elements of group structure (roles, norms, status, cohesiveness)",
+   "question_patterns": [
+    "name the four elements of group structure and define each",
+    "differentiate ascribed status from achieved status with one example of each",
+    "what are norms in a group and why are they called unspoken rules?",
+    "how does cohesiveness change the way members think, feel and act?",
+    "why is it difficult to leave a highly cohesive group?",
+    "how do role expectations shape the behaviour of a son or daughter in the family?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four structural elements",
+     "explain": "roles fix expected behaviour, norms set shared standards, status ranks members, and cohesiveness binds them into a we-feeling unit"
+    },
+    {
+     "step": 2,
+     "action": "check the status division",
+     "explain": "status may be ascribed, as with seniority, or achieved through expertise and hard work, and it varies even inside one group"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Socially defined expectations attached to a position are called what?",
+     "a": "roles"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.5",
+   "title": "Groupthink and Its Prevention",
+   "section": "Box 7.1 Groupthink",
+   "definition": "Groupthink, identified by Irving Janis, is the failure of extremely cohesive, like-minded groups whose concern for unanimity overrides realistic appraisal: everyone assumes consensus, dissent stays unspoken for fear of breaking cohesion, the group inflates its own power, and warnings from the real world are minimised - as when President Johnson's circle escalated the Vietnam War against advice. Countermeasures are rewarding critical thinking and disagreement, presenting alternative courses of action, inviting outside experts, and seeking feedback from trusted outsiders.",
+   "formula": "groupthink_risk = high_cohesion + homogeneity + isolation + no_alternatives + high_cost_decision ; prevention = critical_thinking + alternatives + outside_experts + trusted_feedback",
+   "key_idea": "The Vietnam escalation of 1964-67 cost 56000 American and over a million Vietnamese lives - the textbook price of unanimity pressure inside an isolated leadership group.",
+   "textbook_ref": "lepy107.txt, Box 7.1 Groupthink (Janis, consensus appearance, Vietnam War example, four preventive ways)",
+   "question_patterns": [
+    "what is groupthink and why does extreme cohesiveness produce it?",
+    "name the conditions under which groupthink is most likely to occur",
+    "how did the Vietnam War escalation illustrate groupthink among President Johnson's advisors?",
+    "suggest any four ways to counteract or prevent groupthink in a decision-making group",
+    "why does no one voice a dissenting opinion in a groupthink situation?",
+    "how does the appearance of consensus mislead a cohesive group about reality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the defining process",
+     "explain": "concern for unanimity overrides realistic appraisal, producing irrational, uncritical decisions cloaked in apparent consensus"
+    },
+    {
+     "step": 2,
+     "action": "check the preventive list",
+     "explain": "critical thinking, alternative courses, outside experts and feedback from trusted others are the four counteractions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who identified groupthink: Janis or Latane?",
+     "a": "Janis"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.6",
+   "title": "Types of Groups and Tajfel's Minimal Group Paradigm",
+   "section": "Type of Groups / Box 7.2",
+   "definition": "Groups come in contrasted types: primary groups like family, caste and religion are pre-existing, face-to-face and emotionally warm with impermeable boundaries, while secondary groups such as a political party are joined by choice with impersonal, infrequent ties; formal groups like a university spell out functions, rules and roles, unlike close informal groups; and the ingroup of 'we' is viewed favourably while the outgroup of 'they' is often perceived negatively. Tajfel's minimal group paradigm proved the point: British schoolboys grouped by mere preference for Kandinsky or Klee paintings still distributed money in favour of their own group.",
+   "formula": "type_pairs = primary_vs_secondary + formal_vs_informal + ingroup_vs_outgroup ; minimal_group -> ingroup_favouritism",
+   "key_idea": "Even a flimsy criterion with no past or future is enough to trigger favouritism, though such categories are created by us - and India's composite culture celebrates plurality instead.",
+   "textbook_ref": "lepy107.txt, Type of Groups (three pairs), Box 7.2 minimal group paradigm with the allocation matrix, Activity 7.2",
+   "question_patterns": [
+    "compare and contrast formal and informal groups, and ingroups and outgroups",
+    "why are family and caste called primary groups while a political party is secondary?",
+    "what makes the boundary of a primary group less permeable than that of a secondary group?",
+    "describe Tajfel's minimal group paradigm experiment with the Kandinsky and Klee groups",
+    "what did the schoolboys' money distribution matrix reveal about ingroup favouritism?",
+    "how do the words 'we' and 'they' categorise people as similar or different?",
+    "which type pair describes membership taken by choice rather than given at birth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three type contrasts",
+     "explain": "primary-secondary turns on given versus chosen membership, formal-informal on explicit rules and roles, ingroup-outgroup on we-versus-they categorisation"
+    },
+    {
+     "step": 2,
+     "action": "check the minimal group finding",
+     "explain": "boys who knew their group only by painting preference and code numbers still favoured their own group, proving how little a category needs to bias behaviour"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Family, caste and religion are which type of group: primary or secondary?",
+     "a": "primary"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.7",
+   "title": "Social Facilitation and Social Loafing",
+   "section": "Influence of Group on Individual Behaviour - Social Loafing",
+   "definition": "Social facilitation shows that the presence of others arouses and can lift the performance of someone already good, provided individual effort is evaluated; but when outputs are pooled, as in tug-of-war, individuals work less hard - social loafing, the reduction in individual effort on a collective task that lets members become free riders. Latane's clapping and cheering experiments made the point: total noise rose with group size of two, four and six, yet each participant's noise dropped as the group grew, because responsibility diffuses, individual contribution goes unmeasured, comparison with other groups is absent, coordination is poor, and membership alone does not matter to members. Loafing shrinks when each person's effort is identifiable, pressure to work hard rises, the task gains apparent importance, individual contribution is valued, and cohesiveness strengthens.",
+   "formula": "effort_per_head = total_group_output / group_size ; loafing_gap = output_alone - effort_per_head",
+   "key_idea": "Larger groups divide attention and responsibility, so the per-person share of effort falls even while the group total climbs.",
+   "textbook_ref": "lepy107.txt, Social Loafing (tug-of-war example, Latane noise experiments with groups of 2, 4 and 6, five causes, five reducers)",
+   "question_patterns": [
+    "define social loafing and explain why it occurs in groups with pooled outputs",
+    "in Latane's experiment a group of 6 produced 60 units of noise while one person alone produced 15 - find the per-head output and the loafing gap",
+    "how can social loafing be reduced in a school project group? give any three ways",
+    "why does making each member's effort identifiable reduce free riding?",
+    "distinguish social facilitation from social loafing in terms of evaluated individual effort",
+    "name any three explanations offered for why social loafing happens",
+    "compute the per-participant noise when a group of 4 makes a total of 48 units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the group's total output by the number of members",
+     "explain": "pooled output hides individual contribution, so the average per member shows what each actually gave",
+     "compute": "effort_per_head = total_group_output / group_size"
+    },
+    {
+     "step": 2,
+     "action": "subtract the per-head figure from the solo output",
+     "explain": "the gap measures how much effort each member sheds while working in the group",
+     "compute": "loafing_gap = output_alone - effort_per_head"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The reduction in individual effort on a collective task is called social what?",
+     "a": "loafing"
+    }
+   ]
+  },
+  {
+   "id": "lepy107.8",
+   "title": "Group Polarisation",
+   "section": "Group Polarisation",
+   "definition": "Group polarisation is the strengthening of a group's initial position through discussion, so that groups take more extreme decisions than individuals would - colleagues may let a bribed employee go scot-free or demand dismissal instead of a proportionate punishment. It happens because like-minded company supplies newer arguments for your view, the visible agreement of others acts as a bandwagon that validates the view as public opinion, and perceived ingroup membership breeds conformity that hardens the stance.",
+   "formula": "polarisation = initial_position strengthened by group_discussion ; drivers = new_arguments + bandwagon_validation + ingroup_conformity",
+   "key_idea": "Discussing capital punishment among supporters hardens both pro and anti camps - the danger is that positions may swing from very weak to very strong.",
+   "textbook_ref": "lepy107.txt, Group Polarisation (employee punishment example, capital punishment discussion, three reasons, Activity 7.3 attitude scale)",
+   "question_patterns": [
+    "what is group polarisation and why do groups take extreme decisions?",
+    "explain the three reasons why views harden after discussion with like-minded people",
+    "how does the bandwagon effect validate an opinion during group discussion?",
+    "give the employee-punishment example that shows polarisation in decision making",
+    "in Activity 7.3 how would you test whether class positions hardened after discussion?",
+    "how does identifying with an ingroup strengthen conformity to its view?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the strengthening claim",
+     "explain": "whatever the group's initial stance, interaction and discussion push that stance to a stronger, more extreme version"
+    },
+    {
+     "step": 2,
+     "action": "check the three drivers",
+     "explain": "newer arguments favouring the view, public validation through the bandwagon effect, and ingroup identification with conformity account for the hardening"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Strengthening of a group's initial position through discussion is called group what?",
+     "a": "polarisation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy107.we1",
+   "concept_id": "lepy107.7",
+   "problem": "In a repetition of Latane's noise experiment, a group of 6 students clapping together produces a total of 60 units of noise, whereas a student clapping alone produces 15 units. Find the per-head output and the social loafing gap.",
+   "given": {
+    "total_group_output": 60,
+    "group_size": 6,
+    "output_alone": 15
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide total group output by group size",
+     "compute": "effort_per_head = 60 / 6"
+    },
+    {
+     "step": 2,
+     "action": "subtract the per-head figure from the solo output",
+     "compute": "loafing_gap = 15 - effort_per_head"
+    }
+   ],
+   "answer": "effort_per_head = 10 and loafing_gap = 5, so each member gives one-third less effort than when clapping alone"
+  },
+  {
+   "id": "lepy107.we2",
+   "concept_id": "lepy107.7",
+   "problem": "A tug-of-war team of 4 pulls with a total force of 48 units. Working alone on a practice rope, each member had pulled 15 units. Compute the per-head force in the team and the loafing gap.",
+   "given": {
+    "total_group_output": 48,
+    "group_size": 4,
+    "output_alone": 15
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide the team total by the number of pullers",
+     "compute": "effort_per_head = 48 / 4"
+    },
+    {
+     "step": 2,
+     "action": "subtract the team per-head force from the solo pull",
+     "compute": "loafing_gap = 15 - effort_per_head"
+    }
+   ],
+   "answer": "effort_per_head = 12 and loafing_gap = 3 units of force lost per member - exactly the free-riding the chapter describes for pooled tasks"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy107.ex1",
+   "source_ref": "lepy107.txt Review Questions (chapter-end)",
+   "questions": [
+    "Compare and contrast formal and informal groups, and ingroups and outgroups.",
+    "Are you a member of a certain group? Discuss what motivated you to join it.",
+    "How does Tuckman's stage model help you understand the formation of groups?",
+    "How do groups influence our behaviour?",
+    "How can you reduce social loafing in groups? Recall two incidents of social loafing in school and how you overcame them."
+   ]
+  },
+  {
+   "id": "lepy107.ex2",
+   "source_ref": "lepy107.txt Activities 7.1 to 7.3",
+   "questions": [
+    "Form a 10-member open house committee and record which of Tuckman's stages appear, their order, and which are skipped.",
+    "Write a paragraph about your school and a rival school; list the characteristics assigned to each and identify the ingroup-outgroup bias.",
+    "After the two-room capital punishment discussion, re-administer the 5-item attitude scale: if a member's mean score rises from 3.0 to 4.2, what has happened to the position?"
+   ]
+  }
+ ]
+}

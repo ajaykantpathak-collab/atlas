@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_004",
+   "title": "c12_bs_cbse_09_004",
+   "questions": [
+    {
+     "q": "A company has ₹20 crore equity share capital and ₹10 crore 12% debentures. What is its debt-equity ratio and debt-to-total-capital ratio?",
+     "a": "Debt-equity ratio = Debt/Equity = 10/20 = 0.5 or 1:2. Debt-to-total-capital ratio = Debt/(Debt+Equity) = 10/(10+20) = 1/3 ≈ 33.33%. A wrong answer (e.g., 2:1 or 50%) reveals the student confuses numerator/denominator or uses equity/(debt+equity) instead of debt/(debt+equity). This indicates a fundamental misunderstanding of what \"debt ratio\" measures — it is the proportion of borrowed funds, not owners' funds.",
+     "self_check": true
+    },
+    {
+     "q": "\"Debt is always cheaper than equity because interest rates are lower than dividend expectations, so a company should maximize debt in its capital structure.\" Explain why this statement is flawed using the concepts of financial risk and cost of equity.",
+     "a": "The statement ignores that increased debt raises financial risk (obligatory interest/principal payments), which increases the cost of equity as shareholders demand higher returns for bearing higher risk. Beyond a point, the rising cost of equity outweighs the benefit of cheap debt, increasing the overall WACC and reducing share price. A student who agrees with the statement fails to grasp the risk-return trade-off and the concept of optimal capital structure — they treat cost of debt in isolation without considering its impact on cost of equity and financial distress probability.",
+     "self_check": true
+    },
+    {
+     "q": "Company P has EBIT of ₹80 lakh, total investment ₹10 crore, and is considering two capital structures: (A) Zero debt, 10 lakh shares of ₹10 each; (B) ₹4 crore debt at 10%, 6 lakh shares of ₹10 each. Tax rate 30%. Calculate EPS for both structures and determine if trading on equity is favourable. (Hint: First find ROI = EBIT/Total Investment).",
+     "a": "ROI = 80,00,000 / 10,00,00,000 = 8%. Cost of debt = 10%. Since ROI (8%) < Cost of debt (10%), trading on equity is UNFAVOURABLE.\nStructure A: EBIT 80L, Interest 0, EBT 80L, Tax 24L, EAT 56L, Shares 10L, EPS = ₹5.60.\nStructure B: EBIT 80L, Interest 40L, EBT 40L, Tax 12L, EAT 28L, Shares 6L, EPS = ₹4.67.\nEPS falls from 5.60 to 4.67 with debt. A student who calculates EPS incorrectly (e.g., forgets tax, uses wrong share count) or concludes trading on equity is favourable reveals they cannot link ROI vs cost of debt comparison to the EBIT-EPS outcome — they treat the calculation as mechanical without conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the following two factors on capital structure choice: (i) High fixed operating costs vs (ii) Strong cash flow position. How does each push the decision toward debt or equity, and why might they conflict?",
+     "a": "High fixed operating costs → High business risk → Lower capacity for financial risk → Prefer EQUITY (to avoid compounding fixed charges). Strong cash flow position → Ability to service debt obligations → Prefer DEBT (to gain tax shield and lower WACC). They conflict when a capital-intensive firm (high fixed operating costs) also generates strong cash flows (e.g., a utility company). The student must recognize that business risk and financial risk are substitutes in total risk — the firm must balance them. A wrong answer that says \"both favor debt\" or \"both favor equity\" shows inability to analyze opposing forces and synthesize a balanced judgment.",
+     "self_check": true
+    },
+    {
+     "q": "A startup founder argues: \"We should issue equity only because we want to avoid any risk of bankruptcy. Debt creates fixed obligations we might not meet.\" Evaluate this position considering the objective of wealth maximization and the concept of trading on equity.",
+     "a": "While avoiding debt eliminates financial risk, it may forgo value-creating leverage if the startup's ROI exceeds the cost of debt. Wealth maximization requires optimal, not zero, debt. If the startup has high growth prospects and stable projected cash flows, some debt can enhance EPS and share value via tax shield. However, for early-stage startups with uncertain cash flows and high business risk, the founder's caution is justified — the cost of financial distress (agency costs, loss of flexibility) likely exceeds tax benefits. A student who says \"founder is right/wrong\" without qualifying based on ROI, cash flow stability, and growth stage shows binary thinking instead of contingent analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario (with numbers) where a company with ROI of 15% and cost of debt of 12% should still NOT increase its debt beyond 30% of capital structure. Specify at least three factors from the NCERT list that justify this restraint.",
+     "a": "Example: TechGrow Ltd., ROI 15%, cost of debt 12%, tax rate 30%. Despite favourable trading on equity (ROI > cost of debt), it caps debt at 30% because: (1) High business risk (volatile tech sector earnings) — low Interest Coverage Ratio in downturns; (2) Control considerations — promoters hold 35% equity, further dilution risk from equity issue is low but debt covenants may restrict operations; (3) Flexibility — preserve borrowing capacity for future R&D investments; (4) Floatation costs — equity issue via private placement cheaper than public debt issue for this size. A poor answer lists generic factors without linking to the specific scenario or ignores that favourable ROI alone doesn't dictate maximum debt.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

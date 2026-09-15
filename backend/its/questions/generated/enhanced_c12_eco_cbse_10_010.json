@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_010",
+   "title": "c12_eco_cbse_10_010",
+   "questions": [
+    {
+     "q": "If the MPC in an economy is 0.75 and autonomous investment increases by ₹200 crore, what is the total increase in equilibrium income after all rounds of the multiplier process are complete?",
+     "a": "The total increase in equilibrium income is ₹800 crore. Calculation: Multiplier k = 1/(1-MPC) = 1/(1-0.75) = 1/0.25 = 4. Total ΔY = k × ΔI = 4 × ₹200 crore = ₹800 crore. A wrong answer of ₹600 crore (3 × 200) reveals the student incorrectly used k = 1/MPC instead of 1/(1-MPC). A wrong answer of ₹150 crore reveals confusion between MPC and MPS (using MPS = 0.25 as the multiplier directly).",
+     "self_check": true
+    },
+    {
+     "q": "In the round-by-round multiplier process with MPC = 0.8 and initial ΔI = ₹100 crore, the third round induced consumption is ₹64 crore. Explain why this amount is exactly 0.8³ × ₹100 crore, and why the process does not continue indefinitely in real life even though the mathematical series is infinite.",
+     "a": "Round 1: ΔY₁ = ΔI = 100. Induced C₁ = 0.8 × 100 = 80. Round 2: ΔY₂ = 80. Induced C₂ = 0.8 × 80 = 64 = 0.8² × 100. Round 3: ΔY₃ = 64. Induced C₃ = 0.8 × 64 = 51.2 = 0.8³ × 100. The pattern is ΔYₙ = MPCⁿ⁻¹ × ΔI. The process converges mathematically because MPC < 1, so terms approach zero. In reality, leakages (savings, taxes, imports) and discrete time periods mean the process effectively stops after 5-10 rounds. A student who says \"income keeps growing forever\" misunderstands that the geometric series sum is finite even with infinite terms.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has MPC = 0.6. The government increases spending by ₹500 crore. Trace the first four rounds of the multiplier process in a table showing: Round, Income Generated (ΔY), Induced Consumption (ΔC), Cumulative Income. Then compute the total multiplier effect using the formula and verify it matches the sum of the infinite series.",
+     "a": "Round 1: ΔY = 500, ΔC = 300, Cum = 500. Round 2: ΔY = 300, ΔC = 180, Cum = 800. Round 3: ΔY = 180, ΔC = 108, Cum = 980. Round 4: ΔY = 108, ΔC = 64.8, Cum = 1088. Formula: k = 1/(1-0.6) = 2.5. Total ΔY = 2.5 × 500 = 1,250. The cumulative after 4 rounds (1088) approaches 1250. A student who stops at cumulative 1088 and calls it the final answer fails to understand the infinite series sum. A student computing k = 1/0.6 = 1.67 confuses MPC with MPS.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Economy A has MPC = 0.9, Economy B has MPC = 0.5. Both receive an autonomous export boost of ₹1,000 crore. Which economy experiences a larger total income increase? By what factor? Explain the economic intuition behind why a higher MPC leads to a larger multiplier, referencing the leakages concept.",
+     "a": "Economy A: k = 1/(1-0.9) = 10, ΔY = 10 × 1000 = ₹10,000 crore. Economy B: k = 1/(1-0.5) = 2, ΔY = 2 × 1000 = ₹2,000 crore. Economy A's increase is 5 times larger. Intuition: MPC = 0.9 means only 10% leaks out as savings each round (MPS = 0.1), so the spending chain sustains longer. With MPC = 0.5, half leaks out immediately (MPS = 0.5), truncating the chain. A student who says \"higher MPC means people consume more so multiplier is larger\" gives a correct but incomplete answer — the key is the lower leakage rate (MPS) allowing more rounds of spending.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If MPC = 1, the multiplier becomes infinite (k = 1/0), so an economy where people consume all their income would generate infinite income from any tiny investment. This means we should encourage 100% consumption to maximize growth.\" Evaluate this argument using economic reasoning. What happens to the multiplier process when MPC = 1?",
+     "a": "The argument is flawed. If MPC = 1, MPS = 0, meaning zero savings. In the simple Keynesian model with no leakages, the multiplier formula gives k = ∞, implying the income generation process never converges — each round replicates the full previous income (ΔC = ΔY). However, this is theoretically impossible in a real economy because: (1) Without savings, there is no investment finance — the economy cannot sustain capital formation. (2) Physical capacity constraints would bind, causing inflation not real income growth. (3) The model assumes fixed prices and unused capacity, which fails at full employment. A student who agrees with the argument misunderstands that savings are necessary for investment and that the multiplier model assumes spare capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a numerical example showing the round-by-round multiplier process for an economy with MPC = 0.75 where the autonomous component is a combination of investment (₹200 crore) and government spending (₹300 crore). Show the first 5 rounds and the total multiplier effect. Then explain how the process would change if a proportional tax rate of 20% is introduced (i.e., disposable income Yd = Y - 0.2Y).",
+     "a": "Total autonomous injection ΔA = 200 + 300 = ₹500 crore. MPC = 0.75. k = 1/(1-0.75) = 4. Total ΔY = 4 × 500 = ₹2,000 crore.\nRounds: 1: ΔY=500, ΔC=375, Cum=500. 2: ΔY=375, ΔC=281.25, Cum=875. 3: ΔY=281.25, ΔC=210.94, Cum=1156.25. 4: ΔY=210.94, ΔC=158.20, Cum=1367.19. 5: ΔY=158.20, ΔC=118.65, Cum=1525.39.\nWith 20% tax: Disposable income Yd = 0.8Y. Induced consumption ΔC = MPC × ΔYd = 0.75 × 0.8 × ΔY = 0.6 × ΔY. Effective MPC out of national income = 0.6. New k = 1/(1-0.6) = 2.5. Total ΔY = 2.5 × 500 = ₹1,250 crore. Taxes act as a leakage, reducing the multiplier from 4 to 2.5. A student who keeps MPC = 0.75 and ignores the tax effect misses that the marginal propensity to consume out of national income falls to MPC(1-t).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_011",
+   "title": "c11_acc_cbse_01_011",
+   "questions": [
+    {
+     "q": "State the Accounting Equation and name the three components with one-line definitions for each.",
+     "a": "**Correct Answer:** Assets = Liabilities + Capital. Assets are economic resources owned by the business measurable in monetary terms (e.g., cash, machinery, debtors). Liabilities are obligations to outsiders payable in money or money's worth (e.g., creditors, loans). Capital is the owner's claim/residual interest = Assets – Liabilities.  \n**What a wrong answer reveals:** If a student writes \"Assets = Liabilities – Capital\" or defines Capital as \"money invested\" without the residual claim concept, they have memorised the formula without understanding the claim-hierarchy logic. If they list \"profit\" as a separate component, they confuse the expanded equation with the basic form.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"When a business earns profit, Assets increase and Liabilities increase too, because profit is a liability to the owner.\" Explain why this reasoning is incorrect using the Accounting Equation.",
+     "a": "**Correct Answer:** Profit increases Capital (owner's equity), not Liabilities. Liabilities are claims of *outsiders* (creditors, lenders). Capital is the *owner's* claim. When revenue exceeds expenses, the net profit belongs to the owner and is added to Capital. The equation becomes Assets = Liabilities + (Capital + Profit). Treating profit as a liability confuses internal vs. external claims — a fundamental classification error.  \n**What a wrong answer reveals:** If the student argues \"owner is also a creditor so it's a liability,\" they misunderstand the entity concept — the business is separate from the owner. If they say \"profit increases assets only,\" they miss the dual aspect: every asset increase must have a corresponding claim increase (either liability or capital).",
+     "self_check": true
+    },
+    {
+     "q": "A business starts with Capital ₹2,00,000. During the month: (a) Purchased goods for cash ₹50,000, (b) Sold goods costing ₹30,000 for ₹45,000 cash, (c) Paid rent ₹10,000, (d) Withdrew ₹5,000 cash for personal use. Calculate the final Assets, Liabilities, and Capital. Show the equation after each transaction.",
+     "a": "**Correct Answer with Steps:**  \nStart: Assets ₹2,00,000 (Cash) = Liabilities 0 + Capital ₹2,00,000  \n(a) Cash -₹50,000, Stock +₹50,000 → Assets unchanged (₹2,00,000) = 0 + ₹2,00,000  \n(b) Cash +₹45,000, Stock -₹30,000 → Assets = ₹2,00,000 + ₹15,000 profit = ₹2,15,000 = 0 + ₹2,15,000 (Capital + Profit)  \n(c) Cash -₹10,000 (expense) → Assets = ₹2,15,000 - ₹10,000 = ₹2,05,000 = 0 + ₹2,05,000 (Capital - Expense)  \n(d) Cash -₹5,000 (drawings) → Assets = ₹2,05,000 - ₹5,000 = ₹2,00,000 = 0 + ₹2,00,000 (Capital - Drawings)  \nFinal: Assets ₹2,00,000 = Liabilities 0 + Capital ₹2,00,000.  \n**What a wrong answer reveals:** If the student shows Assets = ₹2,15,000 after (b) but forgets to reduce Capital for rent/drawings, they treat revenue/expense/drawings as asset-only changes. If they show Liabilities ₹5,000 for drawings, they misclassify drawings as a liability instead of capital reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the Accounting Equation of: (i) Purchase of machinery on credit ₹1,00,000, (ii) Purchase of machinery by cheque ₹1,00,000. Use a table showing Assets, Liabilities, Capital before and after each. Explain why the *final* equation differs in composition but not in total.",
+     "a": "**Correct Answer:**  \n| Transaction | Assets Before | Liabilities Before | Capital Before | Assets After | Liabilities After | Capital After |  \n|---|---|---|---|---|---|---|  \n| (i) Credit purchase | A | L | C | A+₹1,00,000 (Machinery) | L+₹1,00,000 (Creditors) | C |  \n| (ii) Cash purchase | A | L | C | A+₹1,00,000 (Machinery) -₹1,00,000 (Bank) = A | L | C |  \n**Explanation:** In (i), both sides increase by ₹1,00,000 — new asset financed by new liability. In (ii), asset composition changes (machinery replaces bank) but total assets unchanged; no liability created. The equation balances in both because dual aspect is satisfied: every asset acquisition has a source (liability or existing asset).  \n**What a wrong answer reveals:** If the student shows Capital changing in either case, they confuse financing source with owner's equity. If they show Assets increasing in (ii) without reducing Bank, they violate the conservation of total assets — a failure to apply the \"give and take\" principle.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Accounting Equation is just a mathematical identity; it has no practical use for decision-making because it always balances by construction.\" Defend or refute with two specific business scenarios.",
+     "a": "**Correct Answer:** Refute. The equation is a *control framework*, not just an identity.  \n**Scenario 1 (Solvency check):** A lender sees Assets ₹50 lakh, Liabilities ₹45 lakh → Capital ₹5 lakh. The thin equity signals high risk — the equation *reveals* leverage.  \n**Scenario 2 (Error detection):** Trial balance tallies but equation shows Assets ≠ Liabilities + Capital → indicates missing transaction (e.g., unrecorded liability) or misclassification (expense debited to asset). The equation *diagnoses* recording errors.  \n**What a wrong answer reveals:** If the student agrees, they view accounting as mechanical balancing rather than an information system. If they cite only \"it helps make balance sheet,\" they miss the equation's role in ratio analysis (debt-equity, current ratio) and internal control.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic 4-transaction scenario for a small bakery where: (a) the owner invests additional capital, (b) a loan is taken, (c) revenue is earned on credit, (d) an expense is paid in advance. Write the Accounting Equation after each step with amounts in ₹. Ensure the final Capital includes profit.",
+     "a": "**Expected Answer Criteria:**  \n- Start: Capital ₹1,00,000 (Cash) = 0 + ₹1,00,000  \n- (a) Additional capital ₹50,000 cash → Assets ₹1,50,000 = 0 + ₹1,50,000  \n- (b) Loan ₹2,00,000 → Assets ₹3,50,000 = ₹2,00,000 + ₹1,50,000  \n- (c) Credit sales ₹80,000 (cost ₹50,000) → Assets: Cash unchanged, Debtors +₹80,000, Stock -₹50,000 = Net +₹30,000 → Assets ₹3,80,000 = ₹2,00,000 + ₹1,80,000 (Capital + Profit ₹30,000)  \n- (d) Prepaid rent ₹10,000 → Assets: Cash -₹10,000, Prepaid Rent +₹10,000 = No net change → Assets ₹3,80,000 = ₹2,00,000 + ₹1,80,000  \n**What a poor answer reveals:** If prepaid rent is shown as expense reducing capital immediately, the student confuses *payment* with *expense recognition* (accrual concept). If credit sales don't create a debtor, they miss the asset-creation aspect of revenue. If loan increases capital, they violate entity concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

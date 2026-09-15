@@ -1,0 +1,237 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "A Tale of Three Intersecting Lines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.7.1",
+   "title": "Triangles: Three Lines, Three Angles",
+   "section": "A Tale of Three Intersecting Lines",
+   "definition": "A triangle is the most basic closed shape: three line segments joining three points make three sides, three vertices and three angles, and every triangle story begins with these six facts.",
+   "formula": "",
+   "key_idea": "Three intersecting lines lock each other into a rigid frame: the triangle is geometry's strongest small figure.",
+   "textbook_ref": "gegp107.txt, A Tale of Three Intersecting Lines",
+   "question_patterns": [
+    "name the sides vertices and angles of the given triangle",
+    "draw a triangle and label it PQR",
+    "how many angles does a triangle have",
+    "what makes a triangle a closed shape",
+    "give examples of triangles from your surroundings",
+    "why are triangles used in bridges and towers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.2",
+   "title": "The Angle Sum of a Triangle",
+   "section": "Angle sum",
+   "definition": "However a triangle is shaped, its three angles together always make a straight angle: tearing the corners of a paper triangle and joining them shows the 180 degrees, and the rule finds any missing angle.",
+   "formula": "third = 180 - a - b",
+   "key_idea": "The 180-degree rule is the triangle's promise: two angles chosen, the third is already decided.",
+   "textbook_ref": "gegp107.txt, Angle sum",
+   "question_patterns": [
+    "find the third angle when two angles are 60 and 70 degrees",
+    "what do the three angles of a triangle add up to",
+    "a triangle has angles 45 and 85 find the third",
+    "can a triangle have two right angles justify",
+    "show the angle sum by folding a paper triangle",
+    "check the angle sum in the given triangle figure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the angle sum",
+     "explain": "All three angles together make 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract the known angles",
+     "explain": "Remove the two known angles from 180 to get the third.",
+     "compute": "third = 180 - a - b"
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.3",
+   "title": "Types of Triangles by Sides and Angles",
+   "section": "Kinds of triangles",
+   "definition": "Triangles come in families: by sides they are scalene, isosceles or equilateral, and by angles acute, right-angled or obtuse, so every triangle carries two names at once.",
+   "formula": "",
+   "key_idea": "Two labels per triangle: one from its sides, one from its biggest angle.",
+   "textbook_ref": "gegp107.txt, Kinds of triangles",
+   "question_patterns": [
+    "name the triangle with all sides equal",
+    "what is a right angled triangle",
+    "classify the given triangles by sides and by angles",
+    "can a triangle be both right angled and isosceles",
+    "draw an obtuse angled triangle",
+    "which triangle has all angles less than 90"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp.7.4",
+   "title": "Checking Triangle Stories",
+   "section": "Triangle questions",
+   "definition": "Angle-sum and side facts settle triangle puzzles: whether three given angles can form a triangle, which triangle has a bigger angle opposite a longer side, and what happens when a triangle is doubled in size.",
+   "formula": "",
+   "key_idea": "Rules answer questions: test any claimed triangle against the 180-degree promise before believing it.",
+   "textbook_ref": "gegp107.txt, Triangle questions",
+   "question_patterns": [
+    "can angles of 50 60 and 80 make a triangle",
+    "in the given triangle which side is the longest",
+    "what happens to the angles if a triangle is enlarged",
+    "find the unknown angle marked x in the figure",
+    "why cannot a triangle have angles 90 90 and 10",
+    "make a triangle question for your partner from the rules"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp107.txt",
+   "concept": "gegp.7.2",
+   "question_type": "compute",
+   "question_pattern": "Two angles of a triangle measure 60 and 70 degrees. Find the third angle.",
+   "extracted_variables": {
+    "a": "first angle in degrees",
+    "b": "second angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the angle sum",
+     "explain": "The three angles of a triangle together make 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract both angles",
+     "explain": "Take both known angles away from 180.",
+     "compute": "third = 180 - a - b"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp107.txt",
+   "concept": "gegp.7.2",
+   "question_type": "compute",
+   "question_pattern": "A triangle has angles of 45 and 85 degrees. Find the remaining angle.",
+   "extracted_variables": {
+    "a": "first angle in degrees",
+    "b": "second angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the angle sum",
+     "explain": "All three angles together are 180 degrees.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract both angles",
+     "explain": "Subtract 45 and 85 from 180.",
+     "compute": "third = 180 - a - b"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp107.txt",
+   "concept": "gegp.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "what do the three angles of a triangle add up to?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp107.txt, Figure it Out",
+   "questions": [
+    "Find the third angle of a triangle with angles 60 and 70 degrees.",
+    "What do the three angles of a triangle add up to?",
+    "Name the triangle with all sides equal and all angles 60 degrees.",
+    "Can a triangle have two right angles? Justify.",
+    "Show the angle sum by folding a paper triangle."
+   ]
+  }
+ ]
+}

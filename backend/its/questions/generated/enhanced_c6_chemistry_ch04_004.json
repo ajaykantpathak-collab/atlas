@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_004",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_004",
+   "title": "c6_chemistry_ch04_004",
+   "questions": [
+    {
+     "q": "What is the green coating that forms on copper objects exposed to air for a long time called?",
+     "a": "It is called patina. A wrong answer (like \"rust\") suggests the student is confusing all metal color changes with iron corrosion, failing to recognize that different metals form different compounds.",
+     "self_check": true
+    },
+    {
+     "q": "If aluminium and iron both react with air, why does an aluminium window frame not crumble away like an old iron gate?",
+     "a": "Aluminium forms a protective oxide layer that shields the metal underneath from further damage, whereas iron rust flakes off. A wrong answer suggests the student hasn't grasped the concept of a \"protective\" versus \"destructive\" coating.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper tells you a ring is made of \"pure gold\" because it hasn't lost its shine after ten years. Is this a good way to test for gold? Why?",
+     "a": "Yes, because gold is inert and does not react with air or moisture, meaning it does not lose its luster or develop a coating. If a student says \"No,\" they likely don't understand that inertness is a specific property of noble metals like gold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"skin\" formed on copper to the \"skin\" formed on iron. How do they affect the metal's structure?",
+     "a": "The copper patina protects the metal underneath and keeps it sound, while iron rust weakens the metal by flaking off and exposing new layers to damage. Failing to compare these shows the student sees corrosion as a single, uniform process for all metals.",
+     "self_check": true
+    },
+    {
+     "q": "If you found an old, green-colored metal pipe and a dull, flaky, reddish-brown pipe, which one would you expect to be structurally stronger?",
+     "a": "The green pipe (copper) is likely stronger because its surface layer protects the structure, while the reddish-brown pipe (iron) is likely weakened by rust. This tests the ability to apply the concept of protection vs. destruction to real-world objects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that gold is more inert than copper.",
+     "a": "Place a copper coin and a gold ring in a moist, open container for several weeks. The copper coin will show a color change (patina), while the gold ring will remain unchanged. An answer failing to mention \"time\" or \"moisture\" shows an incomplete understanding of how these reactions occur.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

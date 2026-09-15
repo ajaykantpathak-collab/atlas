@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_010",
+   "title": "c11_biotech_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is the minimum sequence identity threshold generally considered reliable for homology modelling of a globular protein's global fold, and why is this threshold significant?",
+     "a": "The generally accepted threshold is 30% sequence identity over the aligned region. Below this \"twilight zone,\" the alignment becomes unreliable and the structural divergence increases exponentially, making global fold prediction error-prone. A wrong answer (e.g., 50% or 20%) reveals the student doesn't understand the relationship between sequence divergence and structural conservation, or confuses the threshold for safe modelling with the ideal range (>50%).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"SWISS-MODEL and MODELLER produce identical results because both use the same template structures from PDB.\" Explain why this statement is incorrect by comparing their alignment algorithms and model building approaches.",
+     "a": "SWISS-MODEL uses ProMod3 with automated template selection, HHblits/HHsearch for alignment, and builds models by copying conserved coordinates while rebuilding loops. MODELLER uses spatial restraints derived from the template and optimises them via conjugate gradients/molecular dynamics, allowing user-defined restraints. They differ in alignment method (profile-profile vs user-supplied), loop modelling (automated vs flexible), and restraint handling. A wrong answer indicates the student thinks tools are interchangeable \"black boxes\" without understanding algorithmic differences affecting model quality.",
+     "self_check": true
+    },
+    {
+     "q": "You have a target protein (350 residues) and find two templates in PDB: Template A (2XYZ) with 40% identity over 85% coverage, and Template B (3ABC) with 55% identity over 60% coverage. Which template would you prioritise for MODELLER-based modelling of the full-length protein, and what additional step would be essential?",
+     "a": "Prioritise Template A (40% identity, 85% coverage) because coverage is critical for full-length modelling; Template B misses 40% of the target. Essential step: build a hybrid model using Template A for the aligned region and ab initio/loop modelling for the uncovered C-terminal 15%, or search for a second template covering the missing region. A wrong choice (Template B) reveals misunderstanding that high identity on a fragment is less useful than moderate identity on full coverage for complete structure prediction.",
+     "self_check": true
+    },
+    {
+     "q": "During homology modelling of a TIM-barrel enzyme, the initial MODELLER run produces a model with DOPE score -45,000 but the Ramachandran plot shows 12% outliers in loop regions. Analyse the likely causes and propose a targeted refinement strategy without changing the template.",
+     "a": "The outliers likely stem from inaccurate loop modelling (MODELLER's default loop refinement may be insufficient) or alignment errors in loop regions causing steric clashes. Strategy: (1) Identify outlier residues from Ramachandran plot, (2) Extract loop regions (typically 5-12 residues), (3) Use MODELLER's `loopmodel` class with enhanced sampling (e.g., `loop.assess.DOPE` with 50-100 loop models per region), (4) Apply spatial restraints from template for conserved secondary structures, (5) Re-evaluate with MolProbity. A poor answer suggests generic \"refine the model\" without targeting loop-specific protocols.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since homology modelling doesn't require physical force fields, it's faster and more accurate than molecular dynamics simulations for structure prediction.\" Defend your position with three specific arguments.",
+     "a": "The statement is flawed. (1) Homology modelling DOES use physical restraints (bond lengths, angles, van der Waals) via spatial restraints in MODELLER or force fields in refinement — it's not physics-free. (2) Accuracy depends entirely on template quality; for low homology (<30%), MD-based ab initio may outperform. (3) Speed comparison is context-dependent: SWISS-MODEL takes minutes, but MODELLER with extensive loop sampling can take hours, comparable to short MD. A wrong evaluation shows confusion between \"knowledge-based\" (statistical potentials) and \"physics-based\" methods, and ignores template-dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a homology modelling pipeline for a hypothetical membrane protein (GPCR family) with 28% sequence identity to the best template (PDB: 6XYZ), including specific tool choices, validation metrics, and handling of transmembrane helix packing.",
+     "a": "Pipeline: (1) Template search with HHblits against PDB70 (membrane-specific), (2) Alignment with PROMALS3D incorporating secondary structure predictions (PSIPRED) and membrane topology (TOPCONS), (3) MODELLER with `automodel` + `loopmodel` using membrane-specific restraints (implicit membrane model), (4) Generate 100 models, select by DOPE-HR score, (5) Refine in membrane mimetic (CHARMM-GUI + short MD in POPC bilayer), (6) Validate with QMEANDisCo, MolProbity, and transmembrane helix packing metrics (CHOPIN). A poor design uses generic globular protein tools, ignores membrane environment, or relies solely on SWISS-MODEL which lacks membrane-specific restraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 104,
+ "chapter_title": "Indian Art and Architecture",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keks104.txt",
+ "concepts": [
+  {
+   "id": "keks.104.1",
+   "title": "Six Limbs of Painting (Shadanga)",
+   "section": "Painting Traditions",
+   "definition": "The six essential elements of painting as defined in the Kamasutra, covering aspects from perception and proportion to color analysis and grace.",
+   "formula": "shadanga_score = rupabheda + pramana + bhava + lavanya_yojana + sadrishyam + varnikabhanga",
+   "key_idea": "A holistic framework for evaluating artistic quality and technique.",
+   "textbook_ref": "keks104.txt lines 50-60",
+   "question_patterns": [
+    "what are the six limbs of painting?",
+    "list the shadanga elements",
+    "define rupabheda and pramana",
+    "how is varnikabhanga described in the text?",
+    "Explain six limbs of painting (shadanga) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the six limbs",
+     "explain": "The six limbs are Rūpabheda, Pramāṇa, Bhāva, Lāvaṇya yojana, Sādṛśyam, and Varṇikabhaṅga."
+    }
+   ]
+  },
+  {
+   "id": "keks.104.2",
+   "title": "Lost Wax Casting Technique",
+   "section": "Indian Bronze Sculptures",
+   "definition": "A metal casting process (cire-perdue) where a wax model is used to create a mold, allowing for intricate bronze sculptures.",
+   "formula": "final_bronze = (copper + zinc + tin) / mold_process",
+   "key_idea": "An ancient, sophisticated method for creating detailed metal icons.",
+   "textbook_ref": "keks104.txt lines 250-260",
+   "question_patterns": [
+    "explain the lost wax technique",
+    "what is cire-perdue?",
+    "how were bronze sculptures made?",
+    "describe the bronze casting process",
+    "Explain lost wax casting technique in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the alloy",
+     "explain": "Bronze is an alloy of copper, zinc, and tin."
+    },
+    {
+     "step": 2,
+     "action": "Describe the process",
+     "explain": "A wax model is created, covered in clay, and melted out to leave a cavity for molten metal."
+    }
+   ]
+  },
+  {
+   "id": "keks.104.3",
+   "title": "Nagara Temple Architecture",
+   "section": "Nagara Style of Indian Temple",
+   "definition": "A North Indian temple style characterized by a stone platform, a garbhagriha, and a towering shikhara.",
+   "formula": "nagara_structure = platform + garbhagriha + shikhara",
+   "key_idea": "Verticality and geometric progression are core to Nagara design.",
+   "textbook_ref": "keks104.txt lines 350-370",
+   "question_patterns": [
+    "what are the features of Nagara architecture?",
+    "describe the latina type of shikhara",
+    "how does phamsana differ from latina?",
+    "what is a valabhi type temple?",
+    "Explain nagara temple architecture in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify shikhara types",
+     "explain": "Latina (curving), Phamsana (sloping/straight), and Valabhi (vaulted)."
+    }
+   ]
+  },
+  {
+   "id": "keks.104.4",
+   "title": "Dravida Temple Architecture",
+   "section": "Dravida Temple Style",
+   "definition": "A South Indian temple style defined by a walled compound, a monumental gopuram entrance, and a stepped-pyramid vimana.",
+   "formula": "dravida_temple = compound_wall + gopuram + stepped_vimana",
+   "key_idea": "Emphasis on horizontal enclosure and pyramidal verticality.",
+   "textbook_ref": "keks104.txt lines 400-415",
+   "question_patterns": [
+    "how does the Dravida style differ from Nagara?",
+    "what is a gopuram?",
+    "describe the vimana in Dravida temples",
+    "identify key features of Chola temple architecture",
+    "Explain dravida temple architecture in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast with Nagara",
+     "explain": "Dravida uses compound walls and stepped pyramids, unlike the curved Nagara shikhara."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keks104.txt",
+   "concept": "keks.104.2",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "Explain the composition of bronze in {era} art.",
+   "extracted_variables": {
+    "era": "Indus Valley or Chola"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify metals",
+     "explain": "Bronze is an alloy of copper, zinc, and tin."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "keks104.txt",
+   "questions": [
+    "Prepare a timeline of Indian art sites from the beginning to the 10th century.",
+    "Describe the architectural differences between Nagara and Dravida styles.",
+    "What role did the Shilpashastras play in ancient Indian architecture?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_004",
+   "title": "c11_bio_cbse_14_004",
+   "questions": [
+    {
+     "q": "Define the oxygen dissociation curve and state the percentage saturation of haemoglobin at a pO₂ of 100 mm Hg under normal physiological conditions.",
+     "a": "The oxygen dissociation curve is a sigmoidal graph plotting percentage saturation of haemoglobin with oxygen against partial pressure of oxygen (pO₂). At pO₂ = 100 mm Hg (alveolar capillary), haemoglobin is approximately 97–98% saturated. A wrong answer (e.g., 100% saturation or a linear curve) reveals the student has not grasped the asymptotic nature of the curve or the concept that 100% saturation is never fully reached at physiological pO₂.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the oxygen dissociation curve is sigmoidal rather than hyperbolic, linking your answer to the molecular structure of haemoglobin.",
+     "a": "The sigmoidal shape arises from positive cooperativity: binding of the first O₂ molecule to one subunit of the haemoglobin tetramer induces a conformational change (T → R state) that increases the affinity of the remaining three subunits for O₂. A hyperbolic curve would indicate non-cooperative binding (like myoglobin). If a student says \"haemoglobin has four binding sites so it binds four O₂\", they miss the cooperative mechanism — the key is that affinity changes with each binding event.",
+     "self_check": true
+    },
+    {
+     "q": "A person ascends to high altitude (3500 m) where atmospheric pO₂ drops to 90 mm Hg. Predict the effect on arterial oxygen saturation and explain the physiological compensation that occurs over days.",
+     "a": "Arterial pO₂ falls to ~60 mm Hg, moving onto the steep part of the curve; saturation drops from ~97% to ~89% (approx 8% decrease). Over days, increased 2,3-BPG in RBCs shifts the curve rightward, further lowering affinity to enhance tissue unloading, while hyperventilation raises alveolar pO₂ slightly. A wrong answer that claims saturation remains unchanged or that the curve shifts left reveals confusion between acute hypoxemia and chronic adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxygen dissociation curves of adult haemoglobin (HbA) and fetal haemoglobin (HbF) at the same pO₂. Which has higher affinity and why is this advantageous for the fetus?",
+     "a": "HbF has higher oxygen affinity (curve shifted left) because its γ-subunits bind 2,3-BPG less strongly than β-subunits of HbA. This allows oxygen to diffuse from maternal blood (lower affinity) to fetal blood (higher affinity) across the placenta. A student who says \"fetal curve is right-shifted\" confuses the direction of shift and fails to understand the transplacental gradient.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"During vigorous exercise, the Bohr effect reduces oxygen loading in the lungs because increased CO₂ and H⁺ shift the curve rightward.\"",
+     "a": "The statement is partially incorrect. In the lungs, hyperventilation blows off CO₂, lowering pCO₂ and raising pH, which shifts the curve leftward — enhancing loading. The rightward shift occurs in tissues where CO₂/H⁺ are high, promoting unloading. A student who agrees completely misunderstands that the Bohr effect is spatially compartmentalized: left shift in lungs, right shift in tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spectrophotometer to demonstrate the effect of pH on oxygen binding to haemoglobin. Specify the wavelength, samples, and expected absorbance changes.",
+     "a": "Use 540 nm (isosbestic point for Hb/HbO₂) or dual-wavelength (e.g., 577 nm for HbO₂). Prepare haemoglobin solutions at pH 7.4 and pH 7.2, equilibrate with air (21% O₂), measure absorbance. Lower pH sample will show lower HbO₂ absorbance (right shift). A poor design omits temperature control, uses non-physiological pH, or ignores that CO₂ must be controlled separately to isolate pH effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

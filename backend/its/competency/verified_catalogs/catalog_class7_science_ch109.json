@@ -1,0 +1,632 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 109,
+ "chapter_title": "Motion and Time",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fecu105.txt",
+ "concepts": [
+  {
+   "id": "gesc.109.1",
+   "title": "Types of Motion",
+   "section": "9.1",
+   "definition": "The classification of how an object moves, which can indeed be along a straight path, in a circular loop, or repeating periodically over regular intervals.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Motion can be linear, circular, or oscillatory depending on the path traced by the moving body.",
+   "textbook_ref": "gesc109.txt lines 10-50",
+   "question_patterns": [
+    "classify the motion of the hands of an athlete in a race",
+    "what type of motion is shown by a pendulum",
+    "classify the motion of a train on a straight bridge",
+    "identify the type of motion for a child on a swing",
+    "what do you understand by types of motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the path of motion",
+     "explain": "Determine if the object moves along a straight line (rectilinear), in a circle (circular), or back and forth about a mean position (oscillatory/periodic)."
+    },
+    {
+     "step": 2,
+     "action": "Match the path to a motion category",
+     "explain": "Compare the observed path against the three categories: rectilinear (straight line), circular (closed loop around a center), or oscillatory (repeating back-and-forth about a fixed point)."
+    },
+    {
+     "step": 3,
+     "action": "State the classification with reasoning",
+     "explain": "Confirm the chosen category by citing the defining feature of that motion type, ensuring the answer aligns with the key_idea that motion type depends on the path traced."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.2",
+   "title": "Average Speed",
+   "section": "9.2",
+   "definition": "The total distance covered by a moving object divided by the total duration of time taken to cover that distance.",
+   "formula": "speed = distance / time",
+   "key_idea": "Speed represents the speed with which distance is covered per unit of time.",
+   "textbook_ref": "gesc109.txt lines 70-110",
+   "question_patterns": [
+    "calculate the speed of the train",
+    "find the average speed of a car covering a distance of",
+    "what is the speed of an object that travels",
+    "how fast is a vehicle moving if it covers",
+    "find the required value in a average speed problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given distance and time values",
+     "explain": "Extract the total distance covered and the total time taken from the problem statement, ensuring both are in compatible units."
+    },
+    {
+     "step": 2,
+     "action": "Calculate speed",
+     "explain": "Divide the total distance covered by the total time taken.",
+     "compute": "speed = distance / time"
+    },
+    {
+     "step": 3,
+     "action": "Express the result with proper units",
+     "explain": "Attach the correct unit (m/s or km/h) to the computed value and verify it is reasonable for the given scenario."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.3",
+   "title": "Uniform and Non-Uniform Motion",
+   "section": "9.2",
+   "definition": "Uniform motion occurs when an object travels along a straight line at a constant speed, whereas non-uniform motion occurs when its speed changes over time.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Constant speed along a straight line signifies uniform motion, while varying speed signifies non-uniform motion.",
+   "textbook_ref": "gesc109.txt lines 105-120",
+   "question_patterns": [
+    "distinguish between uniform and non-uniform motion",
+    "is a car moving with changing speed in uniform motion",
+    "what does a straight line distance-time graph indicate about motion",
+    "how does uniform and non-uniform motion work",
+    "list the main features of uniform and non-uniform motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check speed consistency",
+     "explain": "If the speed remains constant, the motion is uniform. If the speed varies, the motion is non-uniform."
+    },
+    {
+     "step": 2,
+     "action": "Examine the distance-time graph",
+     "explain": "A straight line on the distance-time graph indicates uniform motion, while a curved or non-linear graph indicates non-uniform motion."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the motion type",
+     "explain": "Combine the speed consistency check and graph analysis to classify the motion as uniform or non-uniform, citing the key_idea that constant speed along a straight line means uniform motion."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.4",
+   "title": "Time Period of a Simple Pendulum",
+   "section": "9.3",
+   "definition": "The duration of time required by a simple pendulum to complete one full back-and-forth oscillation.",
+   "formula": "time_period = total_time / oscillations",
+   "key_idea": "The time period is determined by dividing the total measured time by the total number of oscillations completed.",
+   "textbook_ref": "gesc109.txt lines 145-195",
+   "question_patterns": [
+    "calculate the time period of the pendulum",
+    "what is the time period if a pendulum takes",
+    "find the time taken for one oscillation of a pendulum",
+    "find the required value in a time period of a simple pendulum problem",
+    "solve a numerical on time period of a simple pendulum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total time and number of oscillations",
+     "explain": "Extract the total measured time and the count of complete oscillations from the problem statement."
+    },
+    {
+     "step": 2,
+     "action": "Calculate time period",
+     "explain": "Divide the total time taken by the number of oscillations completed.",
+     "compute": "time_period = total_time / oscillations"
+    },
+    {
+     "step": 3,
+     "action": "Express the time period with units",
+     "explain": "State the result in seconds (s) per oscillation and confirm it is consistent with the definition of one full back-and-forth swing."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.5",
+   "title": "Distance Covered",
+   "section": "9.4",
+   "definition": "The total length of path traversed by an object moving at a given speed over a specific interval of time.",
+   "formula": "distance = speed * time",
+   "key_idea": "Distance is the speed of the object multiplied by the time it travels.",
+   "textbook_ref": "gesc109.txt lines 255-265",
+   "question_patterns": [
+    "calculate the distance between",
+    "how far does a car travel in",
+    "find the distance covered by a bicycle moving at",
+    "calculate distance covered for the given values",
+    "find the required value in a distance covered problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the speed and time values",
+     "explain": "Extract the object's speed and the travel time from the problem, converting units so both are compatible (e.g., m/s with seconds, or km/h with hours)."
+    },
+    {
+     "step": 2,
+     "action": "Calculate distance",
+     "explain": "Multiply the speed by the time taken.",
+     "compute": "distance = speed * time"
+    },
+    {
+     "step": 3,
+     "action": "Express the distance with proper units",
+     "explain": "State the result in the appropriate distance unit (meters or kilometers) and verify it matches the units used for speed and time."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.6",
+   "title": "Time Taken",
+   "section": "9.4",
+   "definition": "The duration required for an object to cover a specific distance while moving at a constant speed.",
+   "formula": "time = distance / speed",
+   "key_idea": "Time taken is calculated by dividing the total distance by the constant speed of travel.",
+   "textbook_ref": "gesc109.txt lines 260-270",
+   "question_patterns": [
+    "how much time does a train take to cover",
+    "calculate the time taken to travel",
+    "find the time duration for a journey of",
+    "solve a numerical on time taken",
+    "compute the answer step by step for time taken"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the distance and speed values",
+     "explain": "Extract the total distance to be covered and the constant speed of travel from the problem, ensuring compatible units."
+    },
+    {
+     "step": 2,
+     "action": "Calculate time",
+     "explain": "Divide the distance by the speed.",
+     "compute": "time = distance / speed"
+    },
+    {
+     "step": 3,
+     "action": "Express the time with proper units",
+     "explain": "State the result in the appropriate time unit (seconds, minutes, or hours) and verify it is consistent with the units of distance and speed."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.7",
+   "title": "Speed Unit Conversion",
+   "section": "9.3",
+   "definition": "The process of converting a speed value from kilometers per hour (km/h) to meters per second (m/s) or vice versa.",
+   "formula": "speed_ms = speed_kmh * 1000 / 3600",
+   "key_idea": "To convert km/h to m/s, multiply by 1000 and divide by 3600 (or multiply by 5/18).",
+   "textbook_ref": "gesc109.txt lines 200-215, 290-300",
+   "question_patterns": [
+    "convert speed from km/h to m/s",
+    "express the speed in m/s",
+    "what is the speed in meters per second",
+    "work out the value using speed unit conversion",
+    "calculate speed unit conversion for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the speed in km/h",
+     "explain": "Extract the given speed value in kilometers per hour that needs to be converted to meters per second."
+    },
+    {
+     "step": 2,
+     "action": "Convert speed to m/s",
+     "explain": "Multiply the speed in km/h by 1000 to convert kilometers to meters, and divide by 3600 to convert hours to seconds.",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    },
+    {
+     "step": 3,
+     "action": "Simplify and express the result",
+     "explain": "Simplify the fraction (equivalent to multiplying by 5/18) and state the final speed in m/s, confirming the conversion is correct."
+    }
+   ]
+  },
+  {
+   "id": "gesc.109.8",
+   "title": "Odometer Distance and Speed",
+   "section": "9.4",
+   "definition": "Calculating the distance traveled using the difference between final and initial odometer readings, and subsequently finding the speed.",
+   "formula": "distance = final_reading - initial_reading",
+   "key_idea": "The odometer measures cumulative distance; subtracting the initial reading from the final reading gives the trip's distance.",
+   "textbook_ref": "gesc109.txt lines 270-290",
+   "question_patterns": [
+    "calculate the distance moved using odometer readings",
+    "find the speed of the car from odometer readings",
+    "what is the distance covered if the odometer reading changes from",
+    "work out the value using odometer distance and speed",
+    "calculate odometer distance and speed for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate distance covered",
+     "explain": "Subtract the initial odometer reading from the final odometer reading.",
+     "compute": "distance = final_reading - initial_reading"
+    },
+    {
+     "step": 2,
+     "action": "Calculate speed",
+     "explain": "Divide the calculated distance by the elapsed time.",
+     "compute": "speed = distance / time_taken"
+    },
+    {
+     "step": 3,
+     "action": "Express the speed with proper units",
+     "explain": "State the speed in the appropriate unit (km/min or km/h) based on the time unit used, and verify the result is reasonable for a vehicle trip."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc109.txt Exercise 3",
+   "concept": "gesc.109.4",
+   "question_type": "compute",
+   "question_pattern": "A simple pendulum takes {total_time} s to complete {oscillations} oscillations. What is the time period of the pendulum?",
+   "extracted_variables": {
+    "total_time": "time taken to complete oscillations",
+    "oscillations": "number of oscillations completed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate time period",
+     "explain": "Divide the total time taken by the number of oscillations.",
+     "compute": "time_period = total_time / oscillations"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc109.txt Exercise 4",
+   "concept": "gesc.109.2",
+   "question_type": "compute",
+   "question_pattern": "The distance between two stations is {distance} km. A train takes {time} hours to cover this distance. Calculate the speed of the train.",
+   "extracted_variables": {
+    "distance": "distance between the two stations",
+    "time": "time taken to travel the distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate speed",
+     "explain": "Divide the distance by the time taken.",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gesc109.txt Exercise 6",
+   "concept": "gesc.109.5",
+   "question_type": "compute",
+   "question_pattern": "Salma takes {time_minutes} minutes from her house to reach her school on a bicycle. If the bicycle has a speed of {speed} m/s, calculate the distance between her house and the school.",
+   "extracted_variables": {
+    "time_minutes": "time taken in minutes",
+    "speed": "speed of the bicycle in meters per second"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert time to seconds",
+     "explain": "Multiply the minutes by 60 to convert them into seconds.",
+     "compute": "time_seconds = time_minutes * 60"
+    },
+    {
+     "step": 2,
+     "action": "Calculate distance",
+     "explain": "Multiply speed by the time in seconds to find the distance in meters.",
+     "compute": "distance = speed * time_seconds"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "gesc109.txt lines 70-110",
+   "concept": "gesc.109.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average speed step by step",
+   "extracted_variables": {
+    "distance": "value of distance",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate speed",
+     "explain": "Divide the total distance covered by the total time taken.",
+     "compute": "speed = distance / time"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "gesc109.txt lines 145-195",
+   "concept": "gesc.109.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute time period of a simple pendulum step by step",
+   "extracted_variables": {
+    "total_time": "value of total_time",
+    "oscillations": "value of oscillations"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate time period",
+     "explain": "Divide the total time taken by the number of oscillations completed.",
+     "compute": "time_period = total_time / oscillations"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "gesc109.txt lines 255-265",
+   "concept": "gesc.109.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute distance covered step by step",
+   "extracted_variables": {
+    "speed": "value of speed",
+    "time": "value of time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate distance",
+     "explain": "Multiply the speed by the time taken.",
+     "compute": "distance = speed * time"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "gesc109.txt lines 260-270",
+   "concept": "gesc.109.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute time taken step by step",
+   "extracted_variables": {
+    "distance": "value of distance",
+    "speed": "value of speed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate time",
+     "explain": "Divide the distance by the speed.",
+     "compute": "time = distance / speed"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "gesc109.txt lines 200-215, 290-300",
+   "concept": "gesc.109.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute speed unit conversion step by step",
+   "extracted_variables": {
+    "speed_kmh": "value of speed_kmh"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert speed to m/s",
+     "explain": "Multiply the speed in km/h by 1000 to convert kilometers to meters, and divide by 3600 to convert hours to seconds.",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "gesc109.txt lines 270-290",
+   "concept": "gesc.109.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute odometer distance and speed step by step",
+   "extracted_variables": {
+    "final_reading": "value of final_reading",
+    "initial_reading": "value of initial_reading",
+    "time_taken": "value of time_taken"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate distance covered",
+     "explain": "Subtract the initial odometer reading from the final odometer reading.",
+     "compute": "distance = final_reading - initial_reading"
+    },
+    {
+     "step": 2,
+     "action": "Calculate speed",
+     "explain": "Divide the calculated distance by the elapsed time.",
+     "compute": "speed = distance / time_taken"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "gesc109.txt lines 260-270",
+   "concept": "gesc.109.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute time taken step by step",
+   "extracted_variables": {
+    "distance": "value of distance",
+    "speed": "value of speed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate time",
+     "explain": "Divide the distance by the speed.",
+     "compute": "time = distance / speed"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "gesc109.txt lines 200-215, 290-300",
+   "concept": "gesc.109.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute speed unit conversion step by step",
+   "extracted_variables": {
+    "speed_kmh": "value of speed_kmh"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert speed to m/s",
+     "explain": "Multiply the speed in km/h by 1000 to convert kilometers to meters, and divide by 3600 to convert hours to seconds.",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "gesc109.txt lines 270-290",
+   "concept": "gesc.109.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute odometer distance and speed step by step",
+   "extracted_variables": {
+    "final_reading": "value of final_reading",
+    "initial_reading": "value of initial_reading",
+    "time_taken": "value of time_taken"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate distance covered",
+     "explain": "Subtract the initial odometer reading from the final odometer reading.",
+     "compute": "distance = final_reading - initial_reading"
+    },
+    {
+     "step": 2,
+     "action": "Calculate speed",
+     "explain": "Divide the calculated distance by the elapsed time.",
+     "compute": "speed = distance / time_taken"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "gesc109.txt lines 451-462",
+   "questions": [
+    "Classify the following as motion along a straight line, circular or oscillatory motion: (i) Motion of your hands while running. (ii) Motion of a horse pulling a cart on a straight road. (iii) Motion of a child in a merry-go-round. (iv) Motion of a child on a see-saw. (v) Motion of the hammer of an electric bell. (vi) Motion of a train on a straight bridge."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "gesc109.txt lines 463-470",
+   "questions": [
+    "Which of the following are not correct? (i) The basic unit of time is second. (ii) Every object moves with a constant speed. (iii) Distances between two cities are measured in kilometres. (iv) The time period of a given pendulum is constant. (v) The speed of a train is expressed in m/h."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "gesc109.txt lines 471-472",
+   "questions": [
+    "A simple pendulum takes 32 s to complete 20 oscillations. What is the time period of the pendulum?"
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "gesc109.txt lines 473-474",
+   "questions": [
+    "The distance between two stations is 240 km. A train takes 4 hours to cover this distance. Calculate the speed of the train."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "gesc109.txt lines 475-478",
+   "questions": [
+    "The odometer of a car reads 57321.0 km when the clock shows the time 08:30 AM. What is the distance moved by the car, if at 08:50 AM, the odometer reading has changed to 57336.0 km? Calculate the speed of the car in km/min during this time. Express the speed in km/h also."
+   ]
+  },
+  {
+   "id": "ex9.6",
+   "source_ref": "gesc109.txt lines 479-481",
+   "questions": [
+    "Salma takes 15 minutes from her house to reach her school on a bicycle. If the bicycle has a speed of 2 m/s, calculate the distance between her house and the school."
+   ]
+  },
+  {
+   "id": "ex9.7",
+   "source_ref": "gesc109.txt lines 482-485",
+   "questions": [
+    "Show the shape of the distance-time graph for the motion in the following cases: (i) A car moving with a constant speed. (ii) A car parked on a side road."
+   ]
+  },
+  {
+   "id": "ex9.8",
+   "source_ref": "gesc109.txt lines 486-491",
+   "questions": [
+    "Which of the following relations is correct? (i) Speed = Distance * Time (ii) Speed = Distance / Time (iii) Speed = Time / Distance (iv) Speed = 1 / (Distance * Time)"
+   ]
+  },
+  {
+   "id": "ex9.9",
+   "source_ref": "gesc109.txt lines 492-494",
+   "questions": [
+    "The basic unit of speed is: (i) km/min (ii) m/min (iii) km/h (iv) m/s"
+   ]
+  },
+  {
+   "id": "ex9.10",
+   "source_ref": "gesc109.txt lines 495-498",
+   "questions": [
+    "A car moves with a speed of 40 km/h for 15 minutes and then with a speed of 60 km/h for the next 15 minutes. The total distance covered by the car is: (i) 100 km (ii) 25 km (iii) 15 km (iv) 10 km"
+   ]
+  },
+  {
+   "id": "ex9.11",
+   "source_ref": "gesc109.txt lines 499-502",
+   "questions": [
+    "Suppose the two photographs, shown in Fig. 9.1 and Fig. 9.2, had been taken at an interval of 10 seconds. If a distance of 100 metres is shown by 1 cm in these photographs, calculate the speed of the fastest car."
+   ]
+  },
+  {
+   "id": "ex9.12",
+   "source_ref": "gesc109.txt lines 503-505",
+   "questions": [
+    "Fig. 9.15 shows the distance-time graph for the motion of two vehicles A and B. Which one of them is moving faster?"
+   ]
+  },
+  {
+   "id": "ex9.13",
+   "source_ref": "gesc109.txt lines 506-508",
+   "questions": [
+    "Which of the following distance-time graphs shows a truck moving with speed which is not constant?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

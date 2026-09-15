@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_006",
+   "title": "c6_math_ch01_006",
+   "questions": [
+    {
+     "q": "What is the rule for rounding a digit when the number to its right is 4 or less?",
+     "a": "If the digit to the right is 4 or less, you \"round down,\" meaning the target digit stays the same and all digits to its right become zero. A wrong answer suggests the student confuses \"round down\" with changing the target digit to a lower value instead of keeping it constant.",
+     "self_check": true
+    },
+    {
+     "q": "When rounding 167 to the nearest ten, why do we focus on the number 7?",
+     "a": "We focus on 7 because it is in the ones place, which determines whether the tens digit (6) stays at 6 or increases to 7. Choosing the wrong digit reveals a misunderstanding of place value positions relative to the target place.",
+     "self_check": true
+    },
+    {
+     "q": "Round 342 to the nearest ten and then round 342 to the nearest hundred.",
+     "a": "Nearest ten: 340 (since 2 < 5). Nearest hundred: 300 (since 4 < 5). An error here shows the student is not identifying the correct \"neighbor\" digit for different target places.",
+     "self_check": true
+    },
+    {
+     "q": "If a stadium holds 855 people, why might rounding to 900 be a better estimate than 800?",
+     "a": "855 is closer to 900 than to 800 on the number line, and the rule for rounding 5 is to round up. Students who prefer 800 are ignoring the rule that 5 or more requires rounding up to the next hundred.",
+     "self_check": true
+    },
+    {
+     "q": "Is it always better to round to the nearest hundred than the nearest ten? Why or why not?",
+     "a": "No, it depends on the context; rounding to the nearest ten provides more precision, while rounding to the nearest hundred provides a quicker, rougher estimate. An answer stating \"yes\" shows the student doesn't understand that precision levels change based on the need for detail.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-digit number that rounds to 500 when rounded to the nearest hundred, but rounds to 490 when rounded to the nearest ten.",
+     "a": "A valid answer is 492, 493, or 494. A poor answer (like 501) indicates the student does not understand how rounding to different place values creates different results.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

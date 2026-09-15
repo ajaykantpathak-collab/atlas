@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_009",
+   "title": "c11_phy_cbse_04_009",
+   "questions": [
+    {
+     "q": "A block of mass 2 kg rests on a horizontal table. The coefficient of static friction between the block and table is 0.4. What is the maximum value of static friction that can act on the block? (Take g = 10 m/s²)",
+     "a": "Maximum static friction f_s(max) = μ_s N = μ_s mg = 0.4 × 2 kg × 10 m/s² = 8 N. A wrong answer (e.g., 0.8 N or 80 N) reveals the student either forgot to multiply by g (confusing mass with weight) or misplaced the decimal point, indicating poor unit tracking or confusion between mass and weight.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Static friction is always equal to μ_s N.\" Explain why this statement is incorrect using the concept of a book resting on a horizontal table with no horizontal forces applied.",
+     "a": "Static friction is a self-adjusting force that matches the applied force up to its maximum limit μ_s N. When no horizontal force acts on the book, static friction is zero, not μ_s N. The statement confuses the maximum possible value with the actual value. A wrong explanation reveals the student treats static friction as a constant force like kinetic friction, not understanding its variable, self-adjusting nature.",
+     "self_check": true
+    },
+    {
+     "q": "A 5 kg block is pulled horizontally by a force of 30 N on a rough surface with μ_k = 0.2. Calculate the acceleration of the block. (Take g = 10 m/s²)",
+     "a": "Step 1: Weight = mg = 5 × 10 = 50 N. Normal reaction N = 50 N (vertical equilibrium).\nStep 2: Kinetic friction f_k = μ_k N = 0.2 × 50 = 10 N.\nStep 3: Net horizontal force = F - f_k = 30 - 10 = 20 N.\nStep 4: Acceleration a = F_net/m = 20/5 = 4 m/s².\nA wrong answer (e.g., 6 m/s² ignoring friction, or 2 m/s² using μ_s) reveals the student either forgot to subtract friction or confused static and kinetic coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A block slides down an inclined plane at constant velocity. The angle of inclination is θ. Derive the relationship between θ and the coefficient of kinetic friction μ_k. If the same block is placed on the same plane at a smaller angle θ' < θ, describe its motion and justify.",
+     "a": "For constant velocity: mg sinθ = f_k = μ_k mg cosθ → μ_k = tanθ.\nFor θ' < θ: mg sinθ' < μ_k mg cosθ' (since tanθ' < tanθ = μ_k). The component of weight down the plane is less than maximum static friction, so the block remains at rest. A wrong answer (e.g., saying it slides slower) reveals confusion between static and kinetic friction regimes and inability to compare force magnitudes at different angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 10 kg block on a rough horizontal surface (μ_s = 0.5, μ_k = 0.3) is pushed with a force of 40 N. Find acceleration.\" The student calculates: f_s(max) = 0.5 × 100 = 50 N. Since 40 N < 50 N, the block doesn't move, so a = 0. Evaluate this solution. Is it correct? If not, identify the error.",
+     "a": "The solution is INCORRECT. The student correctly found f_s(max) = 50 N and that 40 N < 50 N, but then wrongly concluded the block doesn't move. Static friction will exactly equal the applied force (40 N) to maintain equilibrium, so net force is zero and acceleration is indeed zero - but the reasoning \"doesn't move\" is incomplete. The correct reasoning: static friction self-adjusts to 40 N, net force = 0, a = 0. A student who says \"correct\" without noting the flawed reasoning reveals they don't understand static friction's self-adjusting nature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a wooden block, a plank, a protractor, and a few known masses to determine the coefficient of static friction between the block and plank. Describe the procedure, measurements needed, and the calculation.",
+     "a": "Procedure: Place block on plank. Gradually increase inclination angle θ until block just starts to slide. Measure this critical angle θ_c (angle of repose). Repeat 3 times for average. Calculation: At impending motion, mg sinθ_c = f_s(max) = μ_s mg cosθ_c → μ_s = tanθ_c. No masses needed! A poor answer (e.g., pulling horizontally with spring balance) reveals the student doesn't know the angle of repose method and relies only on horizontal pull methods, showing limited experimental repertoire.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

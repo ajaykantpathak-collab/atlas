@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_003",
+   "title": "c12_hs_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the three main morphological components of a wool fibre and name the primary chemical constituent of each.",
+     "a": "Correct answer: (1) Cuticle — overlapping epithelial scales, primarily keratin (hard keratin, high cystine content). (2) Cortex — makes up 90% of fibre mass, composed of cortical cells (ortho-cortical and para-cortical) filled with macrofibrils of intermediate filaments in a matrix, primarily keratin (soft keratin, lower cystine). (3) Medulla — central hollow core (present in coarse fibres), mostly air and degraded cellular material, minimal keratin. A wrong answer that lists \"epidermis, dermis, medulla\" reveals confusion with skin anatomy; listing \"cellulose, lignin, pectin\" reveals confusion with cotton; omitting the ortho/para cortical distinction shows incomplete understanding of crimp origin.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why wool felts when subjected to heat, moisture, and agitation, but a smooth synthetic fibre like polyester does not.",
+     "a": "Correct answer: Wool felts because its cuticle scales are directional (pointing from root to tip) and have a high coefficient of friction in the against-scale direction. Under heat and moisture, the fibre swells and scales lift; agitation causes fibres to migrate. The ratchet-like scales allow movement root-wards but resist tip-wards movement, causing irreversible entanglement. Polyester lacks scales — its surface is smooth and isotropic — so fibres slide past each other reversibly without mechanical interlocking. A wrong answer citing \"wool is protein and polyester is synthetic\" misses the structural mechanism; saying \"wool has scales but not explaining directional friction\" shows partial understanding; claiming \"felting is due to hydrogen bonding alone\" confuses intermolecular forces with macro-mechanical interlocking.",
+     "self_check": true
+    },
+    {
+     "q": "A wool sample has the following specifications: mean fibre diameter 21 µm, staple length 75 mm, crimp frequency 4 crimps/cm, clean yield 65%. Determine whether this wool is more suitable for woollen or worsted processing and justify your choice with three specific reasons.",
+     "a": "Correct answer: Suitable for **worsted processing**. Reasons: (1) Staple length 75 mm > 60 mm threshold — long enough to withstand combing without excessive noil (short fibre waste). (2) Fibre diameter 21 µm (fine Merino range) — supports high twist insertion in worsted spinning for smooth, strong yarn; woollen system typically uses coarser fibres (>25 µm). (3) Crimp frequency 4 crimps/cm (moderate) — worsted requires lower crimp for fibre alignment during combing; woollen thrives on high crimp (>7 crimps/cm) for bulk. A wrong answer choosing \"woollen\" because \"wool is for woollen\" ignores specifications; choosing worsted but citing only length shows incomplete analysis; missing the clean yield relevance (65% is good, low vegetable matter aids combing) misses a practical processing constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the woollen and worsted processing routes by completing this table with the *key difference* at each stage:\n\n| Stage | Woollen Route | Worsted Route | Key Difference |\n|-------|---------------|---------------|----------------|\n| Scouring | | | |\n| Carding | | | |\n| Combing | | | |\n| Drawing / Gilling | | | |\n| Spinning | | | |",
+     "a": "Correct completed table:\n| Stage | Woollen Route | Worsted Route | Key Difference |\n|-------|---------------|---------------|----------------|\n| Scouring | Aqueous detergent, 50-60°C, removes suint/grease | Same but often more rigorous, lower residual grease target (<0.5%) | Worsted demands cleaner fibre for combing efficiency |\n| Carding | Single swift card, produces sliver with random fibre orientation | Multiple cards (breaker, finisher) + condenser, produces rovings | Woollen carding aims for openness/bulk; worsted for parallelisation |\n| Combing | **Absent** | **Essential** — rectilinear combing (Noble/Franklin) removes noil, short fibres, neps, parallels fibres | **Fundamental differentiator** — worsted = combed; woollen = uncombed |\n| Drawing / Gilling | **Absent** (direct to spinning) | 2-4 gilling passages + auto-leveller drawing | Worsted requires drafting control for evenness; woollen tolerates irregularity |\n| Spinning | Woollen frame (mule/ring), low twist (200-400 tpm), long draft | Ring/spinning frame, high twist (600-1000 tpm), short draft | Woollen = soft, bulky, low twist; worsted = smooth, dense, high twist |\n\nA wrong answer putting combing in woollen route or omitting gilling in worsted reveals confusion of the core sequence difference.",
+     "self_check": true
+    },
+    {
+     "q": "A textile designer claims: \"For a winter coat fabric requiring maximum thermal insulation and minimal weight, a woollen-spun yarn made from fine Merino wool (18 µm) is superior to a worsted-spun yarn of the same fibre.\" Evaluate this claim and state whether you agree or disagree, with justification.",
+     "a": "Correct evaluation: **Disagree**. While woollen yarns trap more air (higher bulk) due to random fibre orientation and low twist, using *fine* Merino (18 µm) in the woollen system is inefficient and counterproductive. Fine fibres have low bending rigidity — they collapse under load, reducing loft retention. Woollen spinning of fine fibres also creates excessive fibre breakage during carding (short staple relative to fineness) and yields weak yarn (low twist). For maximum warmth-to-weight, a **worsted-spun yarn from fine Merino** made into a **lightweight, tightly woven fabric with a raised finish (e.g., melton or doeskin)** is superior: the smooth yarn allows dense construction (high cover factor), the finish creates a controlled insulating nap, and the fibre's natural crimp recovery maintains loft. The claim confuses \"woollen = warm\" as an absolute rule, ignoring fibre diameter/yarn structure interaction. A partial agreement citing only \"woollen traps more air\" misses the fibre suitability constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step practical investigation that a Class 12 student could conduct in a school lab to demonstrate the directional friction effect (root vs. tip migration) responsible for wool felting. Specify materials, procedure, and the observable outcome that confirms the mechanism.",
+     "a": "Good answer criteria:\n1. **Materials**: Two identical bundles of clean wool fibres (5 cm staple), water bath at 40°C, mild detergent, two glass plates, weights (100 g), ruler, timer.\n2. **Procedure**: (a) Mark root and tip ends of each fibre bundle with coloured thread. (b) Place Bundle A on glass plate with all roots facing left, tips right; Bundle B with roots right, tips left. (c) Apply detergent solution, cover with second glass plate, place weight. (d) Apply cyclic lateral agitation (hand-rocking) for 5 min. (e) Measure net displacement of root/tip markers relative to starting line.\n3. **Observable outcome**: Bundle A fibres migrate predominantly root-wards (towards root direction); Bundle B fibres migrate tip-wards. Net displacement is asymmetric — greater in against-scale direction.\n4. **Control**: Repeat with polyester fibres — no net directional migration.\n5. **Conclusion**: Directional scale structure causes ratchet-like migration under agitation + moisture, confirming felting mechanism.\nPoor answer: using whole fabric instead of fibres (confounds yarn structure), omitting directional marking, using dry friction only (misses swelling role), or expecting \"felting\" as visible mat (requires hours, not a lab demo).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_003",
+   "title": "c7_math_ch04_003",
+   "questions": [
+    {
+     "q": "What is the coefficient of $y$ in the arithmetic expression $7 - 3y + 12$?",
+     "a": "The correct answer is $-3$. A wrong answer like $3$ or $7$ reveals that the student is ignoring the negative sign attached to the term or confusing the constant term with the coefficient of the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the expression $4(x + 5)$ become $4x + 20$ instead of $4x + 5$? Explain using arithmetic properties.",
+     "a": "The correct answer requires explaining the distributive property of multiplication over addition, where the factor 4 outside the bracket must multiply every term inside the bracket ($4 \\times x$ and $4 \\times 5$). A wrong answer assuming $4x + 5$ shows a common misconception where students multiply only the first term inside the brackets and forget the second term.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate and simplify the arithmetic expression with a variable: $3(2x + 4) - 5x + 10$ when $x = 3$.",
+     "a": "The correct answer is $25$. Step 1: Expand the brackets using multiplication: $3(2x) + 3(4) - 5x + 10 = 6x + 12 - 5x + 10$. Step 2: Group like terms together: $(6x - 5x) + (12 + 10) = x + 22$. Step 3: Substitute $x = 3$: $3 + 22 = 25$. A wrong answer like $41$ often occurs if the student multiplies 3 by 4 incorrectly or fails to distribute the negative sign properly, or adds all numbers blindly without grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two expressions: Expression A is $5(x + 2) + 3$ and Expression B is $5x + 2 + 3$. Are they equivalent? Justify your answer.",
+     "a": "No, they are not equivalent. Expression A expands to $5x + 10 + 3 = 5x + 13$, because the 5 multiplies both $x$ and 2. Expression B is $5x + 5$. A wrong answer stating they are equivalent reveals a failure to apply the distributive property to all terms inside the parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student's work: A student simplifies $15 - 3(x - 2)$ as $12(x - 2) = 12x - 24$. Identify the error and provide the correct simplification.",
+     "a": "The student's error is subtracting $15 - 3$ first, which violates the order of operations (BODMAS/PEMDAS) because multiplication must be performed before subtraction. The correct simplification is: $15 - 3(x - 2) = 15 - 3x + (-3)(-2) = 15 - 3x + 6 = 21 - 3x$. A wrong evaluation accepting the student's work shows a lack of understanding regarding the priority of operations and distribution of negative signs.",
+     "self_check": true
+    },
+    {
+     "q": "Create an arithmetic expression with a variable $y$ representing the total cost of buying 4 notebooks priced at ₹$y$ each and a school bag priced at ₹250, after receiving a ₹20 discount on the total.",
+     "a": "The expected answer is $4y + 250 - 20$, which simplifies to $4y + 230$. A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the constant subtraction, showing confusion between quantities of items and monetary discounts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

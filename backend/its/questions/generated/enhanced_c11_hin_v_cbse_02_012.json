@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_012",
+   "title": "c11_hin_v_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question in the CBSE Class 11 Hindi examination context?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What are the three types of soil mentioned?\"), while an inferential question asks for implied meaning requiring logical deduction from textual clues (e.g., \"Why is jstk.khikuh considered most suitable for embankments?\"). A wrong answer that defines both as \"questions from the text\" reveals the student cannot distinguish retrieval from reasoning, leading to vague answers lacking evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the passage, the author describes three soil types: ikyjikuh, ikrkyikuh, and jstk.khikuh. If a question asks, \"Which soil type is best for embankment construction and why?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is an inferential question. The text states properties of each soil (literal facts) but does not explicitly declare one as \"best\"; the student must compare permeability, stability, and labor requirements across paragraphs to infer jstk.khikuh's superiority. A wrong answer labeling it literal shows the student mistakes explicit comparison for direct statement, missing the need to synthesize evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"Why do laborers continue dangerous embankment work?\": \"Because they are poor and need money.\" Using the PEEL structure, identify the missing component and rewrite the answer with two textual evidences from the passage.",
+     "a": "The answer lacks Evidence (E) and Explanation (E) from the text. A PEEL rewrite: Point: Economic compulsion drives laborers. Evidence 1: Text states workers receive annual advance (o\"kZ Hkj) binding them to contractors. Evidence 2: Daily wages are minimal (nks&rhu ?kM+k Hkj) barely sustaining families. Explanation: The advance system creates debt bondage; low wages prevent escape. Link: This systemic exploitation, not mere choice, forces continued risk. A wrong answer adding only \"text says so\" without quotes reveals inability to locate specific textual support.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal detail \"embankments are built in flood-prone areas\" with the inferential claim \"the state prioritizes embankments over permanent flood solutions.\" What textual evidence supports the inference, and what logical gap must the student bridge?",
+     "a": "Evidence: Text notes embankments are recurring (izÑfr dh mnkjrk), require annual repair (futh gksrs gq, Hkh), and displacing villages (xk¡o lekt dh lkoZtfud \"kehu). Gap: The student must connect recurring expenditure + displacement + lack of alternatives → state's short-term policy preference. A wrong answer citing only \"embankments break every year\" without linking to policy priority shows failure to bridge description to implication.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The author romanticizes the laborers' suffering by describing the soil types in poetic detail.\" Defend or refute using the author's tone and purpose as evidenced in the text.",
+     "a": "Refute. The soil classification (ikyjikuh, ikrkyikuh, jstk.khikuh) serves technical exposition: it explains *why* construction fails (permeability, stability) and *why* specific labor is needed. Tone is observational (\"oqaQbZ dk eq¡g NksVk j[kus osQ rhu cM+s dkj.k\"), not emotive. A wrong answer agreeing with \"romanticizes\" reveals confusion between descriptive precision and literary embellishment, missing the text's documentary purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the passage's description of the \"advance system\" (o\"kZ Hkj) and the laborers' cycle of debt, then provide a model PEEL answer.",
+     "a": "Question: \"How does the advance system perpetuate intergenerational bondage among embankment laborers?\" Model Answer: Point: The advance system creates hereditary debt bondage. Evidence 1: Text states workers' names are recorded in \"fo'ks\"k Hkkst dk vk;kstu\" (special labor register) from first day. Evidence 2: Children inherit parents' unfinished advances (\"vkSj blh dkj.k mu xk¡oksa osQ uke Hkh ikj ij gh gSa\"). Explanation: Annual advances exceed repayment capacity; debt transfers to next generation. Link: This institutionalizes a caste-like labor hierarchy, making escape structurally impossible. A poor answer listing only \"they owe money\" misses the systemic, intergenerational mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

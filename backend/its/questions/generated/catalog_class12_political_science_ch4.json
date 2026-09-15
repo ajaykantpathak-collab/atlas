@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_political_science_ch4",
+ "concepts": [
+  {
+   "id": "c12ps.4.1",
+   "title": "Need for International Organizations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Need for International Organizations' refers to.",
+     "a": "International organizations are needed to manage global interdependence, maintain peace and security, coordinate economic and social development, and address transnational problems that no single state can solve alone.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Need for International Organizations'.",
+     "a": "In an interdependent world, states require collective institutions to manage shared challenges like war, poverty, health and environmental crises.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Need for International Organizations' taught, and from which source text?",
+     "a": "Introduction: Need for International Organizations",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.2",
+   "title": "The United Nations and Its Principal Organs",
+   "questions": [
+    {
+     "q": "Using the method 'The United Nations and Its Principal Organs', work with: un_principal_organs = 6, un_founded = 1945. Carry the chain through step by step and give the final value of result.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The United Nations and Its Principal Organs' and work with: un_principal_organs = 6, un_founded = 1945. Carry the chain through step by step and give the final value of result.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The United Nations and Its Principal Organs' refers to.",
+     "a": "The United Nations (UN) was established in 1945 after World War II with six principal organs -- the General Assembly, Security Council, Secretariat, Economic and Social Council, Trusteeship Council and International Court of Justice -- to maintain international peace and promote cooperation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The United Nations and Its Principal Organs'.",
+     "a": "The UN is the principal global organization for maintaining peace and security, with six principal organs each performing distinct functions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The United Nations and Its Principal Organs', in plain ASCII form.",
+     "a": "un_principal_organs = 6",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.3",
+   "title": "The General Assembly",
+   "questions": [
+    {
+     "q": "Using the method 'The General Assembly', work with: member_states = 2048, votes_per_member = 1. Carry the chain through step by step and give the final value of result.",
+     "a": "2048 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The General Assembly' and work with: member_states = 1024, votes_per_member = 1. Carry the chain through step by step and give the final value of result.",
+     "a": "1024 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The General Assembly' refers to.",
+     "a": "The General Assembly is the main deliberative organ of the UN in which all member states are represented equally, with each state having one vote, making it the most representative body of the world organization.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The General Assembly'.",
+     "a": "The General Assembly embodies the principle of sovereign equality of all member states, with each state having one vote regardless of size or power.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The General Assembly', in plain ASCII form.",
+     "a": "votes_per_member = 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.4",
+   "title": "The Security Council",
+   "questions": [
+    {
+     "q": "Using the method 'The Security Council', work with: permanent_members = 5. Carry the chain through step by step and give the final value of result.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Security Council' and work with: permanent_members = 5. Carry the chain through step by step and give the final value of result.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Security Council' refers to.",
+     "a": "The Security Council is the most powerful organ of the UN, responsible for maintaining international peace and security, composed of 5 permanent and 10 non-permanent members, with the five permanent members holding veto power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Security Council'.",
+     "a": "The Security Council reflects the power structure of 1945, with five permanent members wielding veto power, making it both the most powerful and the most criticized organ of the UN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Security Council', in plain ASCII form.",
+     "a": "security_council_members = permanent_members + non_permanent_members",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.5",
+   "title": "Role of the UN in Peacekeeping",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of the UN in Peacekeeping' refers to.",
+     "a": "UN peacekeeping involves the deployment of military and civilian personnel from member states to conflict zones to maintain peace, monitor ceasefires and support post-conflict reconstruction, under the authority of the Security Council.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of the UN in Peacekeeping'.",
+     "a": "UN peacekeeping operations are a vital tool for maintaining international peace, combining military, police and civilian components to stabilise conflict zones.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of the UN in Peacekeeping' taught, and from which source text?",
+     "a": "Peacekeeping and the UN",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.6",
+   "title": "Reforms of the United Nations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reforms of the United Nations' refers to.",
+     "a": "Reform of the UN, especially the Security Council, has been demanded to make the organization more representative, democratic and effective in light of changed global realities since 1945, with countries like India seeking permanent membership.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reforms of the United Nations'.",
+     "a": "The UN's power structure reflects 1945 realities; reforms are needed to make the Security Council more representative of contemporary global politics.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reforms of the United Nations' taught, and from which source text?",
+     "a": "Reforms of the UN",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.7",
+   "title": "The IMF and the World Bank",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The IMF and the World Bank' refers to.",
+     "a": "The International Monetary Fund (IMF) and the World Bank are Bretton Woods institutions established in 1944 to provide financial stability and development finance respectively, with voting power weighted by the financial contribution of each member.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The IMF and the World Bank'.",
+     "a": "The IMF and World Bank are dominated by the wealthy industrialised countries because voting power is based on financial contribution, not sovereign equality.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The IMF and the World Bank' taught, and from which source text?",
+     "a": "International Financial Institutions: IMF and World Bank",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.8",
+   "title": "The World Trade Organization (WTO)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The World Trade Organization (WTO)' refers to.",
+     "a": "The World Trade Organization (WTO), established in 1995 as the successor to GATT, is the global body that sets and enforces rules for international trade, aiming to reduce trade barriers and resolve trade disputes among members.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The World Trade Organization (WTO)'.",
+     "a": "The WTO governs the multilateral trading system, but its rules and negotiations are often seen as favouring developed countries over developing ones.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The World Trade Organization (WTO)' taught, and from which source text?",
+     "a": "International Economic Institutions: WTO",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.9",
+   "title": "Non-Governmental Organizations and Global Governance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Governmental Organizations and Global Governance' refers to.",
+     "a": "Non-governmental organizations (NGOs) are voluntary, non-profit organizations that operate independently of governments to address social, environmental and humanitarian issues, playing an increasingly important role in global governance alongside international organizations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Governmental Organizations and Global Governance'.",
+     "a": "NGOs complement international organizations by mobilising public opinion, delivering services and holding both states and international bodies accountable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-Governmental Organizations and Global Governance' taught, and from which source text?",
+     "a": "Non-Governmental Organizations",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.10",
+   "title": "India and UN Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India and UN Reforms' refers to.",
+     "a": "India has been an active supporter of UN reform, particularly the expansion of the Security Council, and has sought a permanent seat to reflect its status as the world's largest democracy, a major economy and a leading contributor to UN peacekeeping.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and UN Reforms'.",
+     "a": "India's claim to a permanent Security Council seat is based on its population, democratic credentials, economic strength and contributions to UN peacekeeping.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India and UN Reforms' taught, and from which source text?",
+     "a": "India and the UN",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,667 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 12,
+ "chapter_title": "Lifelines of National Economy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess107.txt",
+ "concepts": [
+  {
+   "id": "c10ss.12.1",
+   "title": "Transport - Roadways",
+   "section": "Transport",
+   "definition": "Roadways are the most economical and convenient mode of transport for short and medium distances; India has one of the largest road networks in the world, including national highways, state highways, district roads and rural roads.",
+   "formula": "",
+   "key_idea": "Roads provide door-to-door service and flexibility, making them the most vital link for freight and passenger movement, especially where railways cannot reach.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are roads considered the most important mode of transport in India?",
+    "Classify the different types of roads in India.",
+    "What is the significance of national highways?",
+    "Explain the role of border roads in India.",
+    "How do roads supplement railways?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the road network",
+     "explain": "List the road types: national highways, state highways, district roads, rural roads and border roads."
+    },
+    {
+     "step": 2,
+     "action": "Compute the share of national highways",
+     "explain": "Calculate the percentage of total road length that national highways carry, noting they handle a large share of traffic despite being a small fraction of length.",
+     "compute": "share_pct = (nh_length / total_road_length) * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the advantage",
+     "explain": "Relate the door-to-door flexibility of roads to their dominance in short-distance freight and passenger movement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are roads considered the most important mode of transport in India?",
+     "solution": "Roads provide door-to-door service, can be built on hills and deserts where railways cannot go, and connect remote villages. They are economical for short distances and flexible, making them the most widely used mode.",
+     "answer": "Roads offer door-to-door service and reach areas railways cannot."
+    },
+    {
+     "question": "Classify the different types of roads in India.",
+     "solution": "Roads are classified into national highways (maintained by NHAI), state highways (state PWD), district roads, rural roads (Pradhan Mantri Gram Sadak Yojana) and border roads (maintained by BRO).",
+     "answer": "National highways, state highways, district roads, rural roads and border roads."
+    },
+    {
+     "question": "If national highways are 2% of total road length but carry 40% of traffic, what does this indicate?",
+     "solution": "National highways form a small fraction of the road network but carry a very large share of traffic, showing they are the most important arteries connecting major cities and ports.",
+     "answer": "National highways carry a disproportionately large share of traffic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the different types of roads in India.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain the significance of national highways.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If national highways are 2% of 5,000,000 km of roads, calculate their length.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.2",
+   "title": "Transport - Railways",
+   "section": "Transport",
+   "definition": "Railways are the principal mode of transport for heavy goods and large numbers of passengers over long distances; the Indian Railways is the largest public sector undertaking in the country.",
+   "formula": "",
+   "key_idea": "Railways bind the economic life of the country by moving bulky raw materials and goods over long distances cheaply, and by accelerating the development of agriculture and industry.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are railways important for the Indian economy?",
+    "Explain the three gauge systems of Indian Railways.",
+    "How do railways contribute to the development of agriculture and industry?",
+    "What are the challenges faced by Indian Railways?",
+    "Why is the railway network unevenly distributed in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the gauge systems",
+     "explain": "List the three gauges: broad gauge (1.676 m), metre gauge (1 m) and narrow gauge (0.762 m)."
+    },
+    {
+     "step": 2,
+     "action": "Compute the gauge difference",
+     "explain": "Calculate the difference between broad and narrow gauge to understand the incompatibility of tracks."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the network pattern",
+     "explain": "Relate the uneven distribution of railways to terrain, with the northern plains having a dense network and mountainous regions a sparse one."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are railways important for the Indian economy?",
+     "solution": "Railways carry bulky goods such as coal, iron ore and food grains over long distances at low cost and transport millions of passengers daily, binding the economic life of the country and supporting agriculture and industry.",
+     "answer": "They move heavy goods and passengers cheaply over long distances."
+    },
+    {
+     "question": "Explain the three gauge systems of Indian Railways.",
+     "solution": "Indian Railways uses three gauges: broad gauge (1.676 m), metre gauge (1 m) and narrow gauge (0.762 m). Today, the network is being converted to a single broad gauge for uniformity.",
+     "answer": "Broad (1.676 m), metre (1 m) and narrow (0.762 m) gauge."
+    },
+    {
+     "question": "Calculate the difference in width between broad gauge (1.676 m) and narrow gauge (0.762 m).",
+     "solution": "Difference = 1.676 - 0.762 = 0.914 m. This large difference means separate tracks and trains are needed, which is why unification to broad gauge is underway.",
+     "answer": "The gauge difference is 0.914 m."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are railways called the lifeline of the economy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the three gauge systems of Indian Railways.",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the gauge difference between broad (1.676 m) and metre (1 m) gauge.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.3",
+   "title": "Transport - Pipelines",
+   "section": "Transport",
+   "definition": "Pipelines are used to transport crude oil, petroleum products and natural gas from oil fields to refineries and to consumption centres; they rule out delays and losses during transit.",
+   "formula": "",
+   "key_idea": "Pipeline transport provides a continuous, reliable and low-loss mode for liquids and gases over long distances, connecting oil fields, refineries and cities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the advantages of pipeline transport?",
+    "Name the major pipeline networks in India.",
+    "Why are pipelines used to transport petroleum and gas?",
+    "Explain the route of the Hazira-Bijaipur-Jagdishpur pipeline.",
+    "How do pipelines rule out transit losses?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the uses of pipelines",
+     "explain": "Note that pipelines transport crude oil, refined petroleum products and natural gas from fields to refineries and markets."
+    },
+    {
+     "step": 2,
+     "action": "Verify the advantages",
+     "explain": "Check that pipelines provide continuous flow, rule out delays and losses, and are economical for liquids and gases over long distances."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the network",
+     "explain": "Confirm that major networks like the Hazira-Bijaipur-Jagdishpur pipeline link gas fields to fertiliser and power plants."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the advantages of pipeline transport?",
+     "solution": "Pipelines provide a continuous supply, rule out delays and transit losses, and are economical for transporting liquids and gases over long distances without the need for repeated loading and unloading.",
+     "answer": "Continuous supply, no transit loss and economical for liquids and gases."
+    },
+    {
+     "question": "Explain the route of the Hazira-Bijaipur-Jagdishpur pipeline.",
+     "solution": "This pipeline transports natural gas from the Hazira gas field to the fertiliser plant at Jagdishpur via Bijaipur, serving industries and power plants along the route.",
+     "answer": "It links Hazira to Jagdishpur via Bijaipur, supplying gas to industries."
+    },
+    {
+     "question": "How do pipelines rule out transit losses?",
+     "solution": "Since the product flows in a sealed pipe from source to destination without handling, there is no spillage, evaporation or theft, eliminating transit losses common in road or rail transport.",
+     "answer": "Sealed pipes prevent spillage, evaporation and theft."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two advantages of pipeline transport.",
+     "type": "recall"
+    },
+    {
+     "question": "Name a major pipeline network in India.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why pipelines are economical for petroleum transport.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.4",
+   "title": "Transport - Waterways",
+   "section": "Transport",
+   "definition": "Waterways are the cheapest mode of transport for heavy and bulky goods over long distances; India has inland waterways on rivers and national waterways, and oceanic routes along the coast.",
+   "formula": "",
+   "key_idea": "Water transport is the most economical for heavy and bulky goods because it requires low fuel and maintenance, but it is slow and limited by the navigability of rivers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is water transport the cheapest mode of transport?",
+    "Name the major national waterways of India.",
+    "What are the advantages and limitations of inland waterways?",
+    "Explain the importance of oceanic routes for India.",
+    "Why are inland waterways not widely developed in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the types of waterways",
+     "explain": "List inland waterways (rivers, canals) and oceanic routes (coastal shipping) as the two categories."
+    },
+    {
+     "step": 2,
+     "action": "Verify the cost advantage",
+     "explain": "Check that waterways need no track construction, use little fuel and carry heavy loads, making them the cheapest mode for bulky goods."
+    },
+    {
+     "step": 3,
+     "action": "Relate to limitations",
+     "explain": "Confirm that waterways are slow and depend on river navigability, which is seasonal in many Indian rivers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is water transport the cheapest mode of transport?",
+     "solution": "Waterways require no track construction, use minimal fuel relative to the load carried, and can move very heavy and bulky goods, so the cost per tonne-kilometre is the lowest of all modes.",
+     "answer": "Low fuel use and no track construction make waterways the cheapest."
+    },
+    {
+     "question": "Name the major national waterways of India.",
+     "solution": "Major national waterways include the Ganga river between Allahabad and Haldia (NW-1), the Brahmaputra between Sadiya and Dhubri (NW-2), and the West Coast Canal in Kerala (NW-3).",
+     "answer": "Ganga (NW-1), Brahmaputra (NW-2) and West Coast Canal (NW-3)."
+    },
+    {
+     "question": "Why are inland waterways not widely developed in India?",
+     "solution": "Many Indian rivers are seasonal, have silting, waterfalls and cataracts, and lack sufficient water depth throughout the year, limiting navigation by large boats.",
+     "answer": "Seasonal flow, silting and shallow depth limit inland navigation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is water transport the cheapest mode?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two national waterways of India.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain the limitations of inland waterways.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.5",
+   "title": "Transport - Airways",
+   "section": "Transport",
+   "definition": "Airways are the fastest and most comfortable mode of transport, essential for remote, hilly and inaccessible areas; they are useful during natural disasters but are costly and carry limited cargo.",
+   "formula": "",
+   "key_idea": "Air transport is the fastest mode and reaches remote and difficult terrain where other modes cannot, but its high cost limits it to passengers, perishable goods and emergencies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are airways important for a vast country like India?",
+    "What are the advantages and limitations of air transport?",
+    "Explain the role of airways in the north-eastern region of India.",
+    "Why is air transport costly compared to other modes?",
+    "How do airways help during natural disasters?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the advantages",
+     "explain": "List speed, reach to remote areas, comfort and disaster relief as the main advantages of airways."
+    },
+    {
+     "step": 2,
+     "action": "Compute a cost comparison",
+     "explain": "Compare the cost per tonne-kilometre of air transport with that of rail or road to show it is the most expensive.",
+     "compute": "cost_ratio = air_cost / rail_cost"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the high cost to the limited use of airways for passengers, perishables and emergencies only."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are airways important for a vast country like India?",
+     "solution": "Airways can reach remote, hilly and inaccessible areas such as the north-eastern states and Ladakh, where roads and railways are difficult to build. They are also the fastest mode, saving time over long distances.",
+     "answer": "They reach remote areas and are the fastest mode."
+    },
+    {
+     "question": "What are the limitations of air transport?",
+     "solution": "Air transport is the most expensive mode, carries limited cargo, and is affected by bad weather. It is therefore used mainly for passengers, perishables and emergencies, not for bulky goods.",
+     "answer": "High cost, limited cargo and weather dependence."
+    },
+    {
+     "question": "If air transport costs 10 times as much as rail per tonne-km, what does this imply about its use?",
+     "solution": "A cost ratio of 10 means air transport is far more expensive than rail, so it is reserved for high-value or time-sensitive goods such as passengers, perishables and emergency supplies, not for bulky freight.",
+     "answer": "Airways are used only for high-value or time-sensitive cargo."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are airways important for remote regions?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List two limitations of air transport.",
+     "type": "recall"
+    },
+    {
+     "question": "If air costs 8 times rail per tonne-km, what is the cost ratio?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.6",
+   "title": "Communication - Personal and Mass",
+   "section": "Communication",
+   "definition": "Communication includes personal communication (postcards, letters, telephones, internet) and mass communication (radio, television, newspapers, films) which transmit messages, news and entertainment across the country.",
+   "formula": "",
+   "key_idea": "The Indian postal network is the largest in the world, and mass communication through radio, television and print media connects people, spreads information and supports education and national integration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between personal and mass communication.",
+    "Describe the Indian postal network.",
+    "What is the role of radio and television in mass communication?",
+    "Explain the importance of the English language in the Indian press.",
+    "How has the internet changed communication in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the modes",
+     "explain": "Separate personal communication (letters, telephone, internet) from mass communication (radio, TV, newspapers, films)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the postal network",
+     "explain": "Check that the Indian postal network is the largest in the world, handling first-class and second-class mail across the country."
+    },
+    {
+     "step": 3,
+     "action": "Relate to national integration",
+     "explain": "Confirm that mass media like AIR and Doordarshan spread news, education and culture, supporting national integration."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between personal and mass communication.",
+     "solution": "Personal communication (letters, telephone, internet) is between individuals, while mass communication (radio, television, newspapers, films) reaches a large audience simultaneously with news, entertainment and information.",
+     "answer": "Personal = between individuals; mass = to a large audience."
+    },
+    {
+     "question": "Describe the Indian postal network.",
+     "solution": "The Indian postal network is the largest in the world, with over 1.5 lakh post offices handling first-class mail (letters, cards) and second-class mail (book packets, registered newspapers) across the country.",
+     "answer": "It is the world's largest postal network with over 1.5 lakh post offices."
+    },
+    {
+     "question": "What is the role of radio and television in mass communication?",
+     "solution": "All India Radio (Akashvani) and Doordarshan broadcast news, educational programmes and entertainment to millions across the country, including remote areas, supporting information, education and national integration.",
+     "answer": "They broadcast news, education and entertainment, aiding national integration."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between personal and mass communication.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the Indian postal network.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of television in mass communication.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.7",
+   "title": "International Trade",
+   "section": "International Trade",
+   "definition": "International trade is the exchange of goods and services between countries; exports are goods sold abroad and imports are goods bought from abroad, and the balance of trade is the difference between their values.",
+   "formula": "",
+   "key_idea": "A favourable balance of trade occurs when exports exceed imports; trade connects producers and consumers across nations and is essential for economic growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is international trade?",
+    "Distinguish between exports and imports.",
+    "What is the balance of trade and how is it calculated?",
+    "Explain the difference between favourable and unfavourable balance of trade.",
+    "Why is international trade important for a country?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define exports and imports",
+     "explain": "Identify exports as goods sold to other countries and imports as goods bought from other countries.",
+     "compute": "exports = value_of_goods_sold_abroad"
+    },
+    {
+     "step": 2,
+     "action": "Compute the balance of trade",
+     "explain": "Calculate the balance as the difference between export value and import value.",
+     "compute": "balance_of_trade = exports - imports"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "If the balance is positive, trade is favourable; if negative, it is unfavourable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is international trade?",
+     "solution": "International trade is the exchange of goods and services between countries. Goods sent out are exports and goods brought in are imports; trade allows countries to obtain goods they cannot produce themselves.",
+     "answer": "Exchange of goods and services between nations."
+    },
+    {
+     "question": "What is the balance of trade and how is it calculated?",
+     "solution": "The balance of trade is the difference between the value of exports and the value of imports of a country. Balance = Exports - Imports. A positive value is favourable and a negative value is unfavourable.",
+     "answer": "Balance of trade = Exports - Imports."
+    },
+    {
+     "question": "If a country's exports are worth 500 crore and imports 650 crore, calculate and interpret the balance of trade.",
+     "solution": "Balance = 500 - 650 = -150 crore. Since the value is negative, the country has an unfavourable balance of trade.",
+     "answer": "Balance is -150 crore, an unfavourable balance of trade."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between exports and imports.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define balance of trade.",
+     "type": "recall"
+    },
+    {
+     "question": "If exports are 800 crore and imports 700 crore, calculate the balance of trade and state whether it is favourable.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.8",
+   "title": "Tourism as Trade",
+   "section": "Tourism as a Trade",
+   "definition": "Tourism is an important trade that earns foreign exchange, generates employment and promotes local crafts and culture; foreign tourists bring foreign currency that boosts the economy of the host region.",
+   "formula": "",
+   "key_idea": "Tourism contributes to foreign exchange earnings and employment; the money spent by foreign tourists is counted as an invisible export and supports handicrafts, transport and hospitality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does tourism contribute to the economy?",
+    "Why is tourism considered an invisible export?",
+    "Explain the employment generated by tourism in India.",
+    "What are the advantages of tourism for local crafts and culture?",
+    "How does foreign tourism earn foreign exchange for India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the economic contributions",
+     "explain": "List foreign exchange earnings, employment generation and promotion of handicrafts as the main contributions of tourism."
+    },
+    {
+     "step": 2,
+     "action": "Compute foreign exchange earnings",
+     "explain": "Calculate total earnings as the number of foreign tourists multiplied by average spending per tourist.",
+     "compute": "earnings = tourist_count * avg_spending"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the earnings to the creation of jobs in hospitality, transport and handicrafts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does tourism contribute to the economy?",
+     "solution": "Tourism earns foreign exchange, generates employment in hotels, transport and handicrafts, and promotes local art and culture. It supports over 15 million jobs directly in India.",
+     "answer": "It earns foreign exchange and generates employment."
+    },
+    {
+     "question": "Why is tourism considered an invisible export?",
+     "solution": "When foreign tourists spend money in India, they bring foreign currency just as exports do, but no physical goods leave the country. Hence tourism is called an invisible export.",
+     "answer": "Foreign tourist spending brings foreign currency without goods leaving the country."
+    },
+    {
+     "question": "If 5 million foreign tourists visit India and each spends on average 40,000, calculate the total foreign exchange earnings.",
+     "solution": "Earnings = 5,000,000 x 40,000 = 200,000,000,000 (2,00,000 crore). This shows the large foreign exchange contribution of tourism.",
+     "answer": "Total earnings = 2,00,000 crore."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does tourism contribute to the economy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why tourism is called an invisible export.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If 2 million tourists spend 50,000 each, calculate total earnings.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.9",
+   "title": "Trade and Globalisation",
+   "section": "Trade and Globalisation",
+   "definition": "Globalisation is the integration of national economies with the world economy through trade, investment and technology; it has expanded markets, increased competition and connected producers and consumers across the globe.",
+   "formula": "",
+   "key_idea": "Globalisation links local producers to world markets, increases the flow of goods, services and capital, and raises competition and quality, but it can also challenge small producers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is globalisation?",
+    "How has globalisation affected Indian trade?",
+    "Explain the role of transport and communication in globalisation.",
+    "What are the advantages and disadvantages of globalisation for producers?",
+    "How does globalisation connect local markets to world markets?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define globalisation",
+     "explain": "Note that globalisation integrates national economies with the world economy through trade, investment and technology flows."
+    },
+    {
+     "step": 2,
+     "action": "Verify the role of transport and communication",
+     "explain": "Check that faster transport and communication (internet, containers, air cargo) have made global trade quicker and cheaper."
+    },
+    {
+     "step": 3,
+     "action": "Relate to producers and consumers",
+     "explain": "Confirm that globalisation gives producers a larger market and consumers more choice, but increases competition for small firms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is globalisation?",
+     "solution": "Globalisation is the process of integrating the national economy with the world economy through the free flow of goods, services, capital and technology across national borders.",
+     "answer": "Integration of national economies with the world economy."
+    },
+    {
+     "question": "How has globalisation affected Indian trade?",
+     "solution": "Globalisation has expanded India's exports of software, textiles and gems, increased imports, brought foreign investment and technology, and connected Indian producers to global markets, raising competition and quality.",
+     "answer": "It expanded exports, imports, investment and market access."
+    },
+    {
+     "question": "Explain the role of transport and communication in globalisation.",
+     "solution": "Faster transport (air cargo, container shipping) and communication (internet, mobile phones) reduce time and cost, allowing producers and consumers across the world to connect instantly and trade efficiently.",
+     "answer": "Faster transport and communication make global trade quick and cheap."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define globalisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of communication in globalisation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one advantage and one disadvantage of globalisation for small producers.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.12.10",
+   "title": "Role of Transport, Communication and Logistics",
+   "section": "Transport, Communication and Trade",
+   "definition": "Transport, communication and trade together form the lifelines of the national economy; transport moves goods and people, communication transmits information, and logistics combines storage and transport to deliver goods efficiently.",
+   "formula": "",
+   "key_idea": "Efficient transport, communication and trade connect producers to markets, integrate the economy and promote national development; logistics ensures goods reach the right place at the right time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are transport and communication called the lifelines of the national economy?",
+    "Explain the relationship between transport and trade.",
+    "What is logistics and why is it important?",
+    "How do transport and communication support national integration?",
+    "Why is an efficient transport network necessary for economic development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three lifelines",
+     "explain": "List transport (movement of goods and people), communication (transmission of information) and trade (exchange of goods) as the lifelines of the economy."
+    },
+    {
+     "step": 2,
+     "action": "Verify their interdependence",
+     "explain": "Check that transport carries trade goods, communication coordinates the movement, and logistics combines storage and transport for timely delivery."
+    },
+    {
+     "step": 3,
+     "action": "Relate to national development",
+     "explain": "Confirm that together they connect producers to markets, integrate regions and promote economic growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are transport and communication called the lifelines of the national economy?",
+     "solution": "Transport moves goods and people across the country, communication transmits information that coordinates this movement, and together they connect producers to consumers, integrate markets and promote development.",
+     "answer": "They connect producers to markets and integrate the economy."
+    },
+    {
+     "question": "Explain the relationship between transport and trade.",
+     "solution": "Trade requires goods to be moved from producers to consumers; transport makes this movement possible. Efficient and cheap transport increases the volume and distance of trade, expanding markets.",
+     "answer": "Transport enables trade by moving goods to markets."
+    },
+    {
+     "question": "What is logistics and why is it important?",
+     "solution": "Logistics is the management of storage, transport and distribution of goods from origin to destination. It ensures goods reach the right place at the right time, reducing cost and delays, which is vital for trade.",
+     "answer": "Logistics combines storage and transport for timely, cost-effective delivery."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are transport and communication called the lifelines of the economy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the relationship between transport and trade.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define logistics and state its importance.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

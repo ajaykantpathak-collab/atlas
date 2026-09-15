@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_03_002",
+   "title": "c12_eng_k_cbse_03_002",
+   "questions": [
+    {
+     "q": "Identify the three distinct narrative layers in \"A Wedding in Brownsville\" and give one textual marker (phrase or sentence) that signals the transition into each layer.",
+     "a": "The three layers are: (1) Present reality — the wedding night in Brownsville, marked by \"Dr Solomon Margolin took a last look in the mirror and left the house\" (para 25). (2) Memory layer — Margolin's past in Sencimin/Germany, triggered by \"During the years, he had stopped attending functions of the Senciminer Society; meanwhile the town of Sencimin had been destroyed\" (para 22). (3) Surreal/liminal layer — the post-accident hallucination or afterlife, signaled by \"An eerie suspicion came over him: perhaps he had been more than a witness? Perhaps he himself had been the victim of that accident!\" (para 34). A wrong answer (e.g., listing only two layers or citing random quotes) reveals the student cannot distinguish structural shifts from mere content changes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Singer places the taxi ride *before* the wedding hall scene instead of starting directly at the wedding. What structural work does the taxi sequence perform?",
+     "a": "The taxi ride functions as a liminal corridor — a physical and psychological transition space where Margolin detaches from his domestic reality (Gretl, Central Park routine) and enters the displaced world of the Senciminers. It compresses his entire existential crisis (Holocaust guilt, professional emptiness, fear of death) into a moving vehicle, making the wedding hall feel like an interior projection rather than an external event. A wrong answer (e.g., \"it sets the scene\" or \"shows he's tired\") treats setting as decoration, missing how structure *is* meaning: the taxi's motion mirrors the narrative's slide from linear time into associative memory.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"frame narrative\" to this story: What is the outer frame, what is the inner frame, and at what precise moment does the frame collapse? Quote the exact sentence where the collapse becomes undeniable.",
+     "a": "Outer frame: Dr Margolin's consciousness on a Sunday wedding night (from waking up to entering the hall). Inner frame: the wedding celebration as a communal ritual. Collapse moment: \"He could find no trace of pulse or breathing. And he felt oddly deflated as if some physical dimension were missing\" (para 34). This is where the narrative frame (a doctor observing a wedding) shatters, revealing the protagonist may already be dead. A wrong answer that points to the Raizel encounter (para 31) as the collapse misses that the frame holds *until* the bodily verification fails — Raizel could be a ghost; the absent pulse makes the narrator a ghost.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Singer uses parallel narrative strands — the wedding's communal chaos and Margolin's private mental dissolution — to structure the story's central tension. Provide two specific textual contrasts.",
+     "a": "Strand A (communal): \"The hall resounded with stamping, screaming, laughing, clapping... Flash bulbs went off blindingly\" (para 27). Strand B (private): \"Dr Margolin leaned back, shut his eyes, and retreated into his own warmth... Wasn't the world, like this taxi, plunging away somewhere into the unknown toward a cosmic destination?\" (para 26). Contrast 1: Sensory overload vs. sensory withdrawal. Contrast 2: Collective survival performance (dancing, drinking, \"Lechayim!\") vs. individual metaphysical interrogation (\"Why did God... create a Hitler?\"). The structure forces these strands to occupy the same physical space until the private strand hijacks the narrative entirely in the chapel. A wrong answer that merely lists wedding details vs. thoughts misses the *structural* interplay: the wedding noise doesn't just background Margolin — it's the trigger that fragments his timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The story's surreal ending is a narrative cheat — it invalidates the realistic buildup.\" Defend or refute using structural evidence.",
+     "a": "Refute. The surreal ending is *prepared* structurally from paragraph 1: Margolin's \"half-hour nap\" (para 25), the taxi's \"plunging away somewhere into the unknown\" (para 26), the accident victim who \"might even have been going to the same wedding as I\" (para 26), the wallet's inexplicable disappearance (para 33). These aren't random; they form a covert structural spine. The ending doesn't invalidate realism — it reveals the \"realistic\" wedding was always filtered through a dying consciousness. A wrong answer that calls it a \"twist ending\" or \"dream sequence\" fails to see Singer's structural discipline: every apparently realistic detail (the snow, the taxi meter, the tuxedo) doubles as a death omen.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph alternative opening for the story that would *change* the narrative structure from psychological realism to conventional linear realism. Explain in one sentence what thematic effect is lost.",
+     "a": "Alternative opening: \"Dr Solomon Margolin drove his Cadillac through the snow to Brownsville, annoyed at missing his Central Park walk but determined to honor his pledge to the Senciminer Society.\" (Removes: the nap, the taxi, the metaphysical musings, the accident witness, the bodily dissolution.) Lost effect: The structural equivalence between Margolin's personal death and his people's historical death — without the liminal opening, the wedding becomes just an event, not a judgment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class6_social_science_ch306",
+ "concepts": [
+  {
+   "id": "fess.306.1",
+   "title": "Area of Jurisdiction of a Police Station",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Area of Jurisdiction of a Police Station' refers to.",
+     "a": "The defined geographic territory assigned to a specific police post, within which officers are authorised to register and investigate complaints.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Area of Jurisdiction of a Police Station'.",
+     "a": "Every police station has a designated geographic boundary for reporting and investigating local cases.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Area of Jurisdiction of a Police Station' taught, and from which source text?",
+     "a": "Area of the Police Station (source: fess306.txt lines 50-70)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.2",
+   "title": "Role and Work at the Police Station",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role and Work at the Police Station' refers to.",
+     "a": "The official duties of police personnel and the Station House Officer, including logging written complaints, investigating offenses, and preserving peace.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role and Work at the Police Station'.",
+     "a": "The Station House Officer records written complaints and dispatches officers to investigate reported incidents.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role and Work at the Police Station' taught, and from which source text?",
+     "a": "The work at the Police Station (source: fess306.txt lines 70-100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.3",
+   "title": "Role and Duties of the Patwari",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role and Duties of the Patwari' refers to.",
+     "a": "A local administrative official tasked with measuring land plots, maintaining ownership registers, and updating village maps.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role and Duties of the Patwari'.",
+     "a": "The Patwari measures land plots, keeps records updated, and assists in land revenue collection for a cluster of villages.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role and Duties of the Patwari' taught, and from which source text?",
+     "a": "Maintenance of Land Records (source: fess306.txt lines 100-130)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.4",
+   "title": "Khasra Records and Land Maps",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Khasra Records and Land Maps' refers to.",
+     "a": "A official village register kept by land officials detailing individual plot numbers, owners, area sizes, crop types, and irrigation sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Khasra Records and Land Maps'.",
+     "a": "Khasra records provide accurate tabular details that correspond directly to village land maps.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Khasra Records and Land Maps' taught, and from which source text?",
+     "a": "Maintenance of Land Records (source: fess306.txt lines 130-160)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.5",
+   "title": "Structure and Role of the Revenue Department",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structure and Role of the Revenue Department' refers to.",
+     "a": "The government administrative hierarchy headed by the District Collector and Tehsildars that oversees land record management and resolves property disputes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structure and Role of the Revenue Department'.",
+     "a": "Tehsildars supervise Patwaris, resolve land disputes, collect revenue, and issue essential government certificates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Structure and Role of the Revenue Department' taught, and from which source text?",
+     "a": "Maintenance of Land Records (source: fess306.txt lines 160-190)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.6",
+   "title": "Equal Land Share Calculation under Hindu Succession Amendment Act, 2005",
+   "questions": [
+    {
+     "q": "Calculate the equal land share allocated to each family member. Use the method 'Equal Land Share Calculation under Hindu Succession Amendment Act, 2005'. Work with: total_heirs = 240, total_land = 100. Carry the chain through step by step and give the final value of share.",
+     "a": "0.4167 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of inherited land received per heir. Use the method 'Equal Land Share Calculation under Hindu Succession Amendment Act, 2005'. Work with: total_heirs = 40, total_land = 2500. Carry the chain through step by step and give the final value of share.",
+     "a": "62.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Equal Land Share Calculation under Hindu Succession Amendment Act, 2005' refers to.",
+     "a": "The mathematical division of inherited ancestral land equally among all eligible legal heirs, including sons, daughters, and mother, under legal reform guidelines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equal Land Share Calculation under Hindu Succession Amendment Act, 2005'.",
+     "a": "The total agricultural land is divided equally among all eligible heirs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Equal Land Share Calculation under Hindu Succession Amendment Act, 2005', in plain ASCII form.",
+     "a": "share = total_land / total_heirs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.7",
+   "title": "Equal Rights under Hindu Succession Amendment Act, 2005",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equal Rights under Hindu Succession Amendment Act, 2005' refers to.",
+     "a": "A legal reform that ensures sons, daughters, and mothers possess identical ownership rights in ancestral family agricultural land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equal Rights under Hindu Succession Amendment Act, 2005'.",
+     "a": "The 2005 amendment removed gender discrimination in the inheritance of family agricultural land.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Equal Rights under Hindu Succession Amendment Act, 2005' taught, and from which source text?",
+     "a": "A New Law (source: fess306.txt lines 190-220)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.306.8",
+   "title": "Public Services and Local Amenities in Rural Areas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Services and Local Amenities in Rural Areas' refers to.",
+     "a": "Government facilities and local civic administration networks, such as fair price shops, healthcare centers, and milk cooperatives, serving rural citizens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Services and Local Amenities in Rural Areas'.",
+     "a": "Government departments manage essential public facilities that require civic monitoring and continuous improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Services and Local Amenities in Rural Areas' taught, and from which source text?",
+     "a": "Other Public Services - A survey (source: fess306.txt lines 220-260)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

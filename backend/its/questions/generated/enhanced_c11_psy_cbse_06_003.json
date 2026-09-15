@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_003",
+   "title": "c11_psy_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define Short-Term Memory (STM) according to the Atkinson-Shiffrin Stage Model, specifying its capacity, duration, and primary encoding format.",
+     "a": "According to the Atkinson-Shiffrin model, STM is a memory store with a limited capacity of approximately 7±2 items (Miller's magic number), a brief duration of 15-30 seconds without rehearsal, and primarily acoustic (sound-based) encoding. A wrong answer that states \"unlimited capacity\" or \"semantic encoding as primary\" reveals confusion with Long-Term Memory characteristics; stating \"duration of several minutes\" confuses STM with Working Memory's active maintenance; stating \"visual encoding as primary\" confuses it with the Visuospatial Sketchpad component of Working Memory.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads a phone number once, closes their eyes, and repeats it aloud continuously for 20 seconds until they dial it. They successfully recall it. However, when asked to recall the same number 5 minutes later without further rehearsal, they fail. Explain this pattern using the concepts of maintenance rehearsal, the Phonological Loop, and the distinction between STM/Working Memory and Long-Term Memory.",
+     "a": "The student used maintenance rehearsal (simple repetition) which keeps information active in the Phonological Loop component of Working Memory for immediate recall, but does not create strong semantic links in Long-Term Memory. The Phonological Loop holds acoustic information for ~2 seconds unless refreshed by subvocal rehearsal; the 20-second repetition successfully refreshed the trace. However, without elaborative rehearsal (connecting the number to meaningful existing knowledge), the memory trace was not consolidated into LTM, so it decayed once rehearsal stopped. A wrong answer attributing failure solely to \"capacity limits\" or \"interference from other numbers\" misses the critical role of rehearsal type (maintenance vs. elaborative) in determining long-term retention versus short-term maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate the existence of the Visuospatial Sketchpad as a separate component from the Phonological Loop in Working Memory. Specify the dual-task paradigm, the two concurrent tasks, the predicted outcome if they share a common resource vs. separate resources, and the independent variable.",
+     "a": "**Experiment:** Use a dual-task paradigm. Task 1 (Visual-Spatial): Participants track a moving dot on a screen with a joystick (continuous visuospatial tracking). Task 2 (Verbal): Participants repeat a sequence of digits aloud (articulatory suppression) OR silently remember a list of words. **Independent Variable:** Type of concurrent task (visuospatial tracking vs. verbal rehearsal vs. control/no concurrent task). **Dependent Variable:** Performance on a primary visuospatial memory task (e.g., remembering locations of objects on a grid) OR primary verbal memory task (e.g., digit span). **Prediction:** If Visuospatial Sketchpad and Phonological Loop are separate, a concurrent verbal task (articulatory suppression) will impair verbal memory span but NOT visuospatial memory performance, while a concurrent visuospatial tracking task will impair visuospatial memory but NOT verbal span. If they share a single unitary STM resource, both concurrent tasks should impair both types of memory equally. A wrong answer proposing two verbal tasks or two visual tasks fails to test the dissociation; confusing the dependent variable (measuring tracking speed instead of memory accuracy) misses the memory-specific component test.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the case of patient KF (Shallice & Warrington, 1970) who had impaired Short-Term Memory (digit span of 2) but intact Long-Term Memory formation after left parietal damage. How does this case challenge the Atkinson-Shiffrin model's assumption that STM is a necessary gateway to LTM? How does Baddeley's Working Memory model accommodate this finding?",
+     "a": "The Atkinson-Shiffrin model posits a strict serial flow: Sensory Memory → STM → LTM, implying STM is a necessary structural gateway; KF's intact LTM learning despite severely impaired STM contradicts this. Baddeley's model resolves this by proposing that the Phonological Loop (impaired in KF, affecting verbal STM/span) is only ONE component of Working Memory; the Central Executive and Visuospatial Sketchpad can still process information and, crucially, the Episodic Buffer (added later) or direct Central Executive-LTM interactions can encode information into LTM without requiring an intact Phonological Loop. A wrong answer claiming \"KF proves STM and LTM are the same store\" confuses the dissociation (double dissociation with amnesiacs who have intact STM but impaired LTM); claiming \"KF had normal STM but couldn't retrieve\" misreads the digit span deficit as retrieval failure rather than storage/processing capacity loss.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Chunking increases the *capacity* of Short-Term Memory.\" Is this statement accurate? Justify your answer by distinguishing between *capacity in chunks* vs. *capacity in bits of information*, and explain the role of Long-Term Memory knowledge in effective chunking.",
+     "a": "The claim is **inaccurate** if interpreted as increasing the fundamental architectural limit of STM (which remains ~4±1 *chunks* in modern estimates, or 7±2 *items* in Miller's original). Chunking increases the *amount of information* (bits) held per chunk by recoding multiple items into a single meaningful unit using LTM knowledge (e.g., \"1947\" as one chunk: \"Indian Independence Year\"). Thus, STM capacity in *chunks* is relatively fixed, but capacity in *information content* expands via LTM-supported recoding. A wrong answer stating \"chunking increases STM capacity from 7 to 20 items\" confuses the *unit* of capacity (chunks vs. items) and ignores the prerequisite of LTM knowledge (you cannot chunk \"XQJ\" unless it becomes meaningful). This distinction is critical: chunking is a strategic *recoding* process, not a structural expansion of the STM store.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, real-world scenario (Indian context) that simultaneously loads the Central Executive, Phonological Loop, and Visuospatial Sketchpad of Working Memory. Describe the scenario and explicitly map each cognitive demand to the specific Working Memory component engaged.",
+     "a": "**Scenario:** A Class 11 student in Delhi is navigating a crowded Metro station to change lines: they mentally rehearse the next station names (\"Rajiv Chowk, Mandi House, Barakhamba Road\" — **Phonological Loop** for verbal sequence maintenance), visually track the moving crowd and platform signage to avoid collisions and find the correct corridor (**Visuospatial Sketchpad** for spatial navigation and visual pattern recognition), and simultaneously decide whether to board the arriving train or wait for the next less crowded one based on the time, their bag weight, and the likelihood of getting a seat (**Central Executive** for attentional control, decision-making, integrating LTM knowledge of train frequency, and coordinating the two slave systems). **Criteria for good answer:** Must include distinct, simultaneous demands on all three components; verbal rehearsal must be separable from visual-spatial processing; Central Executive role must involve coordination/decision-making, not just passive storage. A poor answer lists three separate sequential tasks (e.g., \"first they remember numbers, then they look at a map, then they decide\") which fails to demonstrate the *simultaneous* multi-component nature of Working Memory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

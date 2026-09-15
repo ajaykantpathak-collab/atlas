@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_005",
+   "title": "c12_cs_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the syntax to create an empty dictionary in Python? Provide two ways.",
+     "a": "Correct answer: Empty dictionary can be created using `{}` or `dict()`. A wrong answer like `[]` or `()` reveals confusion with list or tuple creation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a KeyError: `d = {'a': 1}; print(d['b'])`. How would you modify it to avoid the error and return a default value?",
+     "a": "Correct answer: `'b'` is not a key in the dictionary, so square bracket access raises KeyError. Using `d.get('b')` returns `None`, or `d.get('b', 0)` returns `0`. A wrong answer might suggest using try-except without knowing `get()`, indicating lack of awareness of the get method.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that creates a dictionary mapping Indian states to their capitals (at least 5 entries). Then access the capital of 'Maharashtra' and print it. Also, try to access the capital of a state not in the dictionary using get() with a default message.",
+     "a": "Correct answer: Provide code with dictionary literal, access via `d['Maharashtra']`, and `d.get('Unknown', 'Not found')`. A wrong answer might use list of tuples or incorrect syntax, showing inability to translate real-world mapping to dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of accessing a value in a list by index vs accessing a value in a dictionary by key. Why is dictionary access generally faster for large datasets when searching by a unique identifier?",
+     "a": "Correct answer: List access by index is O(1) but finding the index of a value is O(n). Dictionary access by key is O(1) average due to hashing. A wrong answer might claim both are O(1) without distinguishing between index-based and key-based lookup, missing the hashing concept.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `d = {['a', 'b']: 1}`. This raises a TypeError. Explain why this is not allowed. Evaluate whether using a tuple instead would work and why.",
+     "a": "Correct answer: Lists are mutable and unhashable, so cannot be dictionary keys. Tuples are immutable and hashable, so can be keys. A wrong answer might say \"because lists are not allowed\" without mentioning mutability/hashability, showing superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary to represent a student's marks in multiple subjects where each subject can have multiple test scores. Show how to create it and access the list of scores for 'Physics'.",
+     "a": "Correct answer: Dictionary with subject as key and list of scores as value, e.g., `marks = {'Physics': [85, 90, 78], 'Chemistry': [88, 92]}`. Access via `marks['Physics']`. A poor answer might use nested dictionaries incorrectly or not use a list for multiple scores.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

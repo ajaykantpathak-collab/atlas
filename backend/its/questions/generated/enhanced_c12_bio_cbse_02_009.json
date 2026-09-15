@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_009",
+   "title": "c12_bio_cbse_02_009",
+   "questions": [
+    {
+     "q": "In a flowering plant, if the male gametes are haploid (n) and the polar nuclei are each haploid (n), what is the ploidy of the primary endosperm nucleus immediately after triple fusion?",
+     "a": "The primary endosperm nucleus is triploid (3n). Triple fusion involves the fusion of one male gamete (n) with two polar nuclei (n + n), resulting in a 3n nucleus. A wrong answer (e.g., 2n or n) reveals the student does not understand that both polar nuclei participate in fusion, or confuses triple fusion with syngamy (which produces a 2n zygote).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the pollen tube typically enter the embryo sac through the micropyle and release its contents into one of the synergids rather than directly into the egg cell or central cell?",
+     "a": "The synergids secrete chemical attractants (chemotropic factors) that guide the pollen tube to the micropyle; the filiform apparatus of the synergids is the site of pollen tube rupture. Releasing gametes into a synergid ensures controlled delivery: the degenerating synergid provides a pathway, and the two male gametes can then migrate to their specific targets (egg and central cell). A wrong answer suggests the student thinks the pollen tube randomly bursts anywhere, missing the precise cellular choreography.",
+     "self_check": true
+    },
+    {
+     "q": "A geneticist crosses a diploid (2n) plant as female with a tetraploid (4n) plant as male. Assuming normal gamete formation, what will be the ploidy of the zygote and the primary endosperm nucleus in the resulting seeds?",
+     "a": "Female gametes (egg, polar nuclei) are n (from 2n mother); male gametes are 2n (from 4n father). Syngamy: egg (n) + male gamete (2n) → zygote = 3n. Triple fusion: two polar nuclei (n+n) + male gamete (2n) → primary endosperm nucleus = 4n. A wrong answer (e.g., zygote 2n, endosperm 3n) reveals the student assumes male gametes are always n, ignoring that gamete ploidy depends on parental ploidy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast syngamy and triple fusion in terms of: (a) participating nuclei, (b) product, (c) genetic composition of product, and (d) biological significance.",
+     "a": "(a) Syngamy: male gamete (n) + egg nucleus (n); Triple fusion: male gamete (n) + two polar nuclei (n+n). (b) Syngamy → zygote (2n); Triple fusion → primary endosperm nucleus (3n). (c) Zygote is genetically biparental (one allele from each parent); Endosperm nucleus is typically 2 maternal : 1 paternal genome ratio. (d) Syngamy restores diploidy and initiates embryo; Triple fusion forms nutritive tissue (endosperm) only after fertilization, preventing waste. A poor answer conflates the two fusions or misses the maternal:paternal genome ratio significance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Double fertilization is an energy-wasteful process because the plant produces two male gametes but only one forms the embryo; the other just makes endosperm which is eventually consumed.\" Is this correct? Justify.",
+     "a": "The statement is incorrect. Double fertilization is energy-efficient: endosperm development is triggered ONLY after fertilization (via triple fusion), so the plant does not invest resources in nutritive tissue unless an embryo is formed. In gymnosperms (no double fertilization), the female gametophyte itself acts as nutritive tissue and is produced before fertilization — if fertilization fails, that investment is wasted. A wrong evaluation shows the student misunderstands the evolutionary advantage of coupling endosperm formation to fertilization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a flowering plant (e.g., Petunia) to demonstrate that both male gametes from a single pollen tube participate in fertilization. Describe the key observation that would confirm double fertilization.",
+     "a": "Use a transgenic line where one male gamete expresses a fluorescent marker (e.g., GFP) and the other expresses a different marker (e.g., RFP), or use pollen from a heterozygous genetic marker line. Pollinate emasculated flowers, then isolate embryo sacs at early post-fertilization stages and observe under fluorescence/confocal microscopy. Confirmation: one marker appears in the zygote, the other in the primary endosperm nucleus. A poor design might only check for seed set, which doesn't prove both gametes fused.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

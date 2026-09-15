@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_001",
+   "title": "c11_hist_cbse_02_001",
+   "questions": [
+    {
+     "q": "Name the three continents spanned by the Roman Empire at its peak and the two major rivers that formed its northern frontier.",
+     "a": "The Roman Empire spanned Europe, Africa, and Asia. Its northern frontier was formed by the Rhine and Danube rivers. A wrong answer (e.g., naming the Atlantic Ocean or the Nile as frontiers) reveals the student is confusing the empire's *core connectivity* (Mediterranean) with its *political boundaries* — a critical distinction for understanding Roman strategic logic.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mediterranean Sea function as the \"heart\" of the Roman Empire rather than a barrier? Explain using two geographical and one administrative reason.",
+     "a": "Geographically: (1) it connected three continents with predictable sailing seasons; (2) its enclosed nature allowed naval dominance. Administratively: Latin/Greek bilingual administration operated *around* its shores, not across land barriers. A student who says \"it was easy to cross\" misses the *institutional integration* — the sea linked *civitates* (self-governing cities) that collected taxes for Rome, making it an administrative circuit, not just a transport route.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the *civitas* (city) in Roman provincial administration with the role of the *nagara* (city) in the Mauryan Empire (Class 6). Identify one similarity and one key difference in how each empire used cities to extract resources.",
+     "a": "Similarity: Both used cities as administrative hubs for tax collection from surrounding countryside. Difference: Roman *civitates* were *self-governing* entities where local elites *voluntarily* collaborated for Roman citizenship/status; Mauryan *nagaras* had royal officials (*nagaraka*) directly appointed by the emperor. A wrong answer that claims both had \"direct royal control\" misses the Roman reliance on *local elite co-option* — a unique feature enabling low-cost administration across 60 million people.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the Roman Empire stopped expanding after the early 2nd century CE despite having a professional army of 600,000. Use the concepts of \"ecological frontiers\" and \"marginal returns\" in your answer.",
+     "a": "The Rhine-Danube line marked the ecological limit of Mediterranean agriculture (olive/wine/wheat zone). Beyond it lay dense forests and pastoral lands with low tax yields. The Sahara and Arabian Desert were similarly unproductive. Trajan's Mesopotamian campaign (113-117 CE) proved conquests beyond the Euphrates cost more to garrison than they yielded in revenue. A student who says \"the army got weak\" confuses *strategic choice* with *capacity* — the army remained strong, but emperors rationally chose *consolidation* over *expansion* at negative marginal returns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Principate (27 BCE – 284 CE) was a monarchy disguised as a republic.\" Support your judgment with two pieces of institutional evidence from the Augustan settlement.",
+     "a": "The claim is *largely accurate but incomplete*. Evidence for \"disguise\": Augustus held *imperium maius* (supreme command) and *tribunicia potestas* (tribunician power) while pretending to be *princeps* (first among equals); the Senate retained prestige but lost real power. Evidence against \"pure disguise\": The Senate *did* control some provinces, mint bronze coinage, and try treason cases — real powers that emperors like Tiberius respected. A student calling it \"just a monarchy\" misses the *negotiated fiction* that stabilized succession for two centuries — a sophisticated political technology absent in the Mauryan or Gupta systems.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-event annotated timeline showing how geography determined the *sequence* of Roman imperial expansion from 27 BCE to 117 CE. Each event must include a geographical reason for *why then, why there*.",
+     "a": "A strong answer sequences: (1) 27 BCE: Augustus secures Mediterranean \"lake\" after Actium — *naval control of enclosed sea*; (2) 15 BCE: Alpine campaigns — *securing land routes to Gaul/Illyricum*; (3) 9 CE: Teutoburg Forest defeat — *Rhine fixed as frontier due to forest terrain*; (4) 43 CE: Claudius invades Britain — *access to tin/silver, short Channel crossing*; (5) 101-106 CE: Trajan's Dacian Wars — *gold mines in Carpathians justify crossing Danube*. Weak answers list battles without linking each to a *geographical resource or barrier* that explains the timing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_011",
+   "title": "c12_biotech_cbse_10_011",
+   "questions": [
+    {
+     "q": "A student defines a biosensor as \"a device that uses biology to detect chemicals.\" What critical component is missing from this definition, and why does its absence make the definition incomplete for a Class 12 board answer?",
+     "a": "The definition misses the **transducer** — the component that converts the biological recognition event (e.g., enzyme-substrate reaction, antibody-antigen binding) into a measurable physical signal (electrical, optical, thermal). Without a transducer, there is only a biochemical reaction, not a *sensor*. Board examiners deduct marks for omitting \"transducer\" or \"signal conversion\" because the NCERT definition explicitly requires \"a biological element integrated with a physicochemical transducer.\" A wrong answer reveals the student thinks the biological reaction itself is the output, confusing biorecognition with signal generation.",
+     "self_check": true
+    },
+    {
+     "q": "In a glucose biosensor strip, glucose oxidase (GOx) catalyzes: Glucose + O₂ → Gluconic acid + H₂O₂. The H₂O₂ is oxidized at the anode: H₂O₂ → O₂ + 2H⁺ + 2e⁻. A student claims the measured current is directly proportional to glucose concentration at *all* concentrations. Is this correct? Explain using enzyme kinetics.",
+     "a": "No, the claim is incorrect. At low glucose concentrations ([S] << Kₘ), current ∝ [glucose] (first-order kinetics). At high concentrations ([S] >> Kₘ), the enzyme saturates (Vₘₐₓ), current plateaus, and linearity is lost. The linear range is typically 20–400 mg/dL for commercial strips. A wrong answer (claiming linearity at all concentrations) reveals the student has not connected Class 11 Michaelis-Menten kinetics (c11_biotech_cbse_04_004) to biosensor calibration curves — a classic NEET trap where they forget enzyme saturation limits the dynamic range.",
+     "self_check": true
+    },
+    {
+     "q": "A pregnancy test strip uses anti-hCG antibodies conjugated to gold nanoparticles (AuNPs) on a nitrocellulose membrane. When urine flows, hCG binds anti-hCG–AuNP complexes, which then bind to immobilized anti-hCG antibodies at the test line, producing a red color. Identify the bioreceptor, transducer, and signal processor in this lateral flow immunoassay. Is this a \"biosensor\" by strict NCERT definition?",
+     "a": "Bioreceptor: anti-hCG antibody (on AuNP and test line). Transducer: **optical** — gold nanoparticle surface plasmon resonance (color change). Signal processor: **human eye** (qualitative) or portable reflectance photometer (quantitative). Yes, it is a biosensor — NCERT includes optical transducers and lateral flow assays under biosensors for POCT. A wrong answer (e.g., calling the membrane the transducer) shows confusion between the *support matrix* (nitrocellulose) and the *signal conversion mechanism* (AuNP optics). This distinction appears in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an amperometric glucose biosensor (first-generation, O₂-dependent) and a mediated (second-generation) glucose biosensor using ferrocene as electron mediator. Which performs better in hypoxic tissue (e.g., ischemic wound) and why? Use the reaction stoichiometry to justify.",
+     "a": "Second-generation (mediated) performs better. First-generation: GOx + Glucose → GOx(red) + Gluconolactone; GOx(red) + O₂ → GOx(ox) + H₂O₂. Current depends on O₂ co-substrate — in hypoxia, O₂ limitation causes false low readings. Second-generation: GOx(red) + 2Fc⁺ → GOx(ox) + 2Fc + 2H⁺ (Fc = ferrocene). Mediator shuttles electrons directly to electrode, **independent of O₂**. A wrong answer (choosing first-gen) ignores the stoichiometric O₂ dependence — a common JEE/NEET application question testing if students see O₂ as a variable substrate, not just a reactant.",
+     "self_check": true
+    },
+    {
+     "q": "A research team proposes a DNA biosensor for TB diagnosis: a thiolated probe DNA immobilized on gold electrode hybridizes with target Mycobacterium tuberculosis DNA in sputum, detected by methylene blue (MB) intercalation and differential pulse voltammetry. They claim \"single-copy sensitivity without PCR.\" Critique this claim using signal-to-noise and amplification principles.",
+     "a": "The claim is **not credible** for direct detection in crude sputum. Without target amplification (PCR/RPA), a single DNA molecule yields ~1 MB intercalation event → current in femtoampere range, buried in thermal/1/f noise and non-specific adsorption signals from sputum proteins. Commercial DNA biosensors achieve attomolar sensitivity *only* with pre-amplification or enzymatic signal amplification (e.g., HRP-labeled probe + tyramide). A wrong answer (accepting the claim) reveals ignorance of: (a) stochastic binding at single-molecule level, (b) matrix interference in POCT samples, (c) the fundamental need for amplification — a concept linking to PCR (c12_biotech_cbse_10_009) and enzyme kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual biosensor for **real-time lactate monitoring in sweat** during athletic training. Specify: (a) bioreceptor (enzyme + cofactor), (b) transduction mode, (c) strategy to handle variable sweat rate/pH, (d) one advantage over blood lactate analyzer. Justify each choice.",
+     "a": "(a) **Lactate oxidase (LOx) + FAD** — oxidizes lactate to pyruvate + H₂O₂, FAD/FADH₂ redox couple. (b) **Amperometric (H₂O₂ oxidation at +0.6 V vs Ag/AgCl)** — simple, low-power, miniaturizable. (c) **Integrated microfluidic sweat channel with reference electrode + pH sensor**; use ratiometric signal (lactate current / pH-corrected reference) and flow-rate normalization via conductivity sensor. (d) **Non-invasive, continuous, no finger-prick** — enables dynamic lactate threshold tracking during exercise. A poor answer picks glucose oxidase (wrong substrate), ignores sweat variability, or cites \"painless\" without technical justification — showing lack of systems thinking for POCT design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

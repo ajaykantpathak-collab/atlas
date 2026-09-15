@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_002",
+   "title": "c11_stat_cbse_06_002",
+   "questions": [
+    {
+     "q": "**REMEMBER:** State the fundamental difference between an absolute measure of dispersion and a relative measure of dispersion in terms of units.",
+     "a": "**Correct Answer:** An absolute measure of dispersion is expressed in the same units as the original data (e.g., rupees, kilograms, centimeters), whereas a relative measure of dispersion is a unit-free pure number (ratio or percentage) obtained by dividing an absolute measure by a central value (like mean or median).  \n**Misconception Alert:** If a student says \"absolute measures are bigger numbers\" or \"relative measures are always percentages,\" they are confusing magnitude with the defining characteristic (units). The key is units: absolute measures have them; relative measures do not.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A researcher calculates the standard deviation of monthly wages (in ₹) for Factory A as ₹500 and for Factory B as ₹800. She concludes Factory B has more variable wages. Why might this conclusion be flawed even if the calculations are correct?",
+     "a": "**Correct Answer:** The conclusion is flawed if the two factories have vastly different average wage levels (e.g., Factory A mean = ₹2,000; Factory B mean = ₹20,000). Absolute standard deviation (₹500 vs ₹800) cannot be compared directly when the means differ significantly because the *context* of the spread changes. A ₹500 spread on a ₹2,000 mean (25% CV) represents higher relative variability than ₹800 on ₹20,000 (4% CV). The researcher should have used the Coefficient of Variation (a relative measure) for a valid comparison.  \n**Misconception Alert:** If the student thinks \"higher SD always means more variability,\" they are ignoring the scale/level of the data—a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** The heights of 100 students are measured in centimeters (Mean = 165 cm, SD = 6 cm). Their weights are measured in kilograms (Mean = 55 kg, SD = 4 kg). Calculate the appropriate relative measure to determine whether heights or weights show greater relative variability among these students.",
+     "a": "**Correct Answer with Steps:**  \n1. Identify that units differ (cm vs kg), so absolute SD (6 vs 4) cannot be compared directly.  \n2. Select Coefficient of Variation (CV) = (SD / Mean) × 100 as the appropriate relative measure.  \n3. CV(Height) = (6 / 165) × 100 ≈ 3.64%  \n4. CV(Weight) = (4 / 55) × 100 ≈ 7.27%  \n5. Conclusion: Weights show greater relative variability (7.27% > 3.64%).  \n**Misconception Alert:** If a student compares 6 cm and 4 kg directly, or forgets to multiply by 100 and compares 0.036 vs 0.072 without interpreting as percentages, they miss the unit-free comparison logic.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Consider two datasets:  \nDataset X: 10, 20, 30, 40, 50 (Mean=30, Range=40)  \nDataset Y: 100, 200, 300, 400, 500 (Mean=300, Range=400)  \nCalculate the Coefficient of Range for both. What does the result reveal about the *structure* of these two datasets?",
+     "a": "**Correct Answer:**  \nCoefficient of Range = (L - S) / (L + S)  \nFor X: (50 - 10) / (50 + 10) = 40/60 = 2/3 ≈ 0.667  \nFor Y: (500 - 100) / (500 + 100) = 400/600 = 2/3 ≈ 0.667  \n**Revelation:** Both datasets have the *identical* Coefficient of Range because Dataset Y is simply Dataset X multiplied by 10 (change of scale). Relative measures are invariant to change of scale, exposing that the *relative spread* is identical despite absolute ranges differing by a factor of 10.  \n**Misconception Alert:** If a student says \"Y is more variable because its range is 400 vs 40,\" they are treating absolute measures as comparable across scales—the exact error relative measures are designed to prevent.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A Class 11 student claims: \"Coefficient of Variation (CV) is always the best relative measure of dispersion because it uses standard deviation, which is the best absolute measure.\" Critique this statement with two specific counter-scenarios where CV would be inappropriate or misleading.",
+     "a": "**Correct Critique:** The claim is false. Two counter-scenarios:  \n1. **Open-ended distributions / Extreme outliers:** If data has extreme values (e.g., income data with a few billionaires), SD is heavily influenced, making CV unstable. Coefficient of Quartile Deviation (based on Q1, Q3) is more robust.  \n2. **Mean close to zero or negative:** If mean temperature is 2°C (or -5°C), CV = SD/Mean becomes huge or negative, rendering it meaningless. Coefficient of Mean Deviation about Median is preferred.  \n**Misconception Alert:** If the student thinks \"best absolute measure → best relative measure,\" they ignore that the *denominator* (mean) in CV has its own limitations. Senior-secondary exams often test this nuance.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a real-world Indian scenario (with plausible numbers) where a policymaker *must* use a relative measure of dispersion (not absolute) to make a correct decision. Specify the variable, units, the two groups being compared, and which relative measure they should use.",
+     "a": "**Expected Answer Criteria:**  \n- Scenario involves comparing variability across **different units** (e.g., rainfall in mm vs temperature in °C) or **vastly different means** (e.g., per capita income of Maharashtra vs Bihar).  \n- Example: \"Comparing variability of monthly rainfall (mm) in Cherrapunji (Mean=1000mm, SD=200mm) vs monthly temperature (°C) in Delhi (Mean=25°C, SD=5°C). Policymaker needs Coefficient of Variation to decide which variable is more relatively variable for climate adaptation planning.\"  \n**Poor Answer Reveals:** If the student creates a scenario comparing two datasets with the *same units and similar means* (e.g., wages in two factories both in ₹ with similar averages), they haven't grasped the *necessity* of relative measures—they've just created a situation where absolute measures would work fine.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

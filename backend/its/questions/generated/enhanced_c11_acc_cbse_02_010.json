@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_010",
+   "title": "c11_acc_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the fundamental difference between cash basis and accrual basis of accounting in one sentence.",
+     "a": "Cash basis recognises transactions only when cash is received or paid, whereas accrual basis recognises revenues when earned and expenses when incurred, irrespective of cash flow. A wrong answer (e.g., \"accrual basis means recording on credit\") reveals the student confuses credit transactions with the accrual principle; accrual applies even to cash transactions if they belong to a different period than the cash flow.",
+     "self_check": true
+    },
+    {
+     "q": "A firm pays ₹12,000 on 1st July 2024 for insurance covering July 2024 to June 2025. Under accrual basis, how much insurance expense belongs to the accounting year ending 31st March 2025? Explain why cash basis would show a different amount.",
+     "a": "₹9,000 (9 months × ₹1,000/month) belongs to the year ending 31st March 2025. Cash basis would show the full ₹12,000 as expense in 2024-25 because it was paid in July 2024, violating the matching concept by charging future periods' expenses to the current period. A wrong answer (e.g., ₹12,000 or ₹3,000) reveals the student cannot apportion prepaid expenses across periods or does not understand that accrual basis splits costs based on benefit period.",
+     "self_check": true
+    },
+    {
+     "q": "M/s Sharma Traders sold goods worth ₹50,000 on 25th March 2025 on credit. Payment was received on 10th April 2025. The accounting year ends 31st March 2025. Show the revenue recognised in 2024-25 under both cash and accrual basis. What is the effect on reported profit?",
+     "a": "Accrual basis: ₹50,000 revenue in 2024-25 (sale occurred, legal right to receive arose). Cash basis: ₹0 revenue in 2024-25 (cash received in April 2025). Profit under accrual basis is ₹50,000 higher for 2024-25. A wrong answer (e.g., revenue in 2025-26 under accrual) reveals the student thinks revenue recognition follows cash receipt even under accrual basis, missing the \"legal right to receive\" criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of cash basis vs. accrual basis on the Balance Sheet of a business that has outstanding expenses and accrued income at year-end. Which assets and liabilities appear only under accrual basis?",
+     "a": "Under accrual basis, the Balance Sheet shows \"Accrued Income\" (asset) for revenue earned but not received, and \"Outstanding Expenses\" (liability) for expenses incurred but not paid. Cash basis shows neither; it only shows cash/bank balances. A wrong answer (e.g., \"both show debtors and creditors\") reveals the student confuses credit transactions (which create debtors/creditors) with accruals/prepayments that arise from timing differences between economic activity and cash flow.",
+     "self_check": true
+    },
+    {
+     "q": "\"Cash basis is simpler and therefore better for small businesses.\" Evaluate this statement considering the needs of external users like banks and tax authorities.",
+     "a": "The statement is flawed. While cash basis is simpler, it violates the matching concept, making profits unreliable for decision-making. Banks assessing loan repayment capacity need accrual-based profits to see true earning power; tax authorities (under Income Tax Act) often require accrual basis for business income (Section 145). A wrong answer (e.g., \"simplicity justifies it\") reveals the student ignores the qualitative characteristics of accounting information (reliability, comparability) and legal requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario with at least four transactions (mix of cash/credit, prepaid/accrued) where cash basis profit differs from accrual basis profit by exactly ₹15,000 for a year. Show the calculation for both.",
+     "a": "Example: (1) Credit sales ₹40,000 (not received), (2) Cash sales ₹20,000, (3) Rent paid ₹12,000 (includes ₹3,000 for next year), (4) Salary outstanding ₹5,000. Accrual profit = (40,000+20,000) - (9,000+5,000) = ₹46,000. Cash profit = 20,000 - 12,000 = ₹8,000. Difference = ₹38,000 (adjust numbers to get ₹15,000). A good answer shows correct classification and arithmetic. A poor answer (e.g., missing outstanding salary) reveals inability to identify all accruals/prepayments affecting the period.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

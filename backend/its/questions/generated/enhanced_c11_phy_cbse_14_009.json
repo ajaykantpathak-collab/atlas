@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_009",
+   "title": "c11_phy_cbse_14_009",
+   "questions": [
+    {
+     "q": "State the exact mathematical condition on the two frequencies ν₁ and ν₂ for the phenomenon of beats to be audible to a human ear, and give the formula for beat frequency with its SI unit.",
+     "a": "Condition: |ν₁ - ν₂| should be small enough that the waxing/waning is perceptible, typically 1-10 Hz (if the difference is too large, the beats merge into a rough tone; if too small, the period exceeds auditory memory). Formula: ν_beat = |ν₁ - ν₂|, SI unit: hertz (Hz). A wrong answer (e.g., stating ν_beat = ν₁ + ν₂ or omitting the absolute value) reveals the student has not understood that beats arise from the envelope frequency, not the sum frequency, and that frequency is a positive scalar.",
+     "self_check": true
+    },
+    {
+     "q": "Two tuning forks A and B produce 4 beats per second when sounded together. Fork A is known to be 512 Hz. A student claims fork B must be 516 Hz. Is the student necessarily correct? Explain why or why not using the definition of beat frequency.",
+     "a": "The student is NOT necessarily correct. Beat frequency is |ν_A - ν_B| = 4 Hz, so ν_B could be 512 + 4 = 516 Hz OR 512 - 4 = 508 Hz. The absolute value means two possible frequencies satisfy the observed beat frequency. A wrong answer (insisting only 516 Hz) reveals the student treats beat frequency as a signed difference and ignores the physical fact that we only hear the magnitude of the difference, not its sign.",
+     "self_check": true
+    },
+    {
+     "q": "A sitar string tuned to 320 Hz produces 6 beats/s with a reference tuning fork. When the string tension is slightly increased, the beat frequency decreases to 2 beats/s. Calculate the original frequency of the sitar string and the frequency of the tuning fork. Show all steps.",
+     "a": "Let ν_s = string frequency, ν_f = fork frequency. Initially |ν_s - ν_f| = 6 Hz. Tension increase → ν_s increases (since ν ∝ √T). New beat frequency = 2 Hz. If ν_s were originally > ν_f, increasing ν_s would increase |ν_s - ν_f|, but beats decreased. Therefore ν_s < ν_f originally. So ν_f - ν_s = 6 Hz. After increase, ν_s' = ν_s + Δν, and ν_f - ν_s' = 2 Hz. Subtracting: (ν_f - ν_s) - (ν_f - ν_s') = 6 - 2 → Δν = 4 Hz. Thus ν_f = ν_s + 6. Since Δν = 4 Hz, the new string frequency is ν_s + 4, giving ν_f - (ν_s + 4) = 2 → ν_f - ν_s = 6 (consistent). Original ν_s = ν_f - 6. But we know ν_f = 320 Hz? Wait — the problem says \"tuned to 320 Hz\" but that is the string's nominal frequency? Actually, the string is \"tuned to 320 Hz\" meaning its intended frequency is 320 Hz, but it's out of tune. The fork frequency is the standard. Let's re-read: \"A sitar string tuned to 320 Hz produces 6 beats/s with a reference tuning fork.\" This implies the string's actual frequency is near 320 Hz, and the fork is the reference. So let ν_f be the fork frequency. The string's actual frequency ν_s is either 320+6 or 320-6? No, \"tuned to 320 Hz\" means the player thinks it's 320 Hz, but the beats reveal it's not. The fork frequency is unknown? Typically the fork is a standard (e.g., 320 Hz). Let's assume the fork is 320 Hz. Then |ν_s - 320| = 6 → ν_s = 326 or 314 Hz. Tension increase raises ν_s. If ν_s = 326, raising it increases difference → beats increase (contradiction). So ν_s = 314 Hz. After tension increase, ν_s' = 314 + Δν, |320 - ν_s'| = 2. Since ν_s' > 314, if ν_s' < 320, difference = 320 - ν_s' = 2 → ν_s' = 318 Hz. This works (Δν = 4 Hz). If ν_s' > 320, difference = ν_s' - 320 = 2 → ν_s' = 322 Hz (Δν = 8 Hz). Both are possible but the smaller change is more likely for \"slightly increased\". So original string frequency = 314 Hz, fork = 320 Hz. A wrong answer (e.g., 326 Hz) reveals the student doesn't use the tension-change clue to resolve the sign ambiguity.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle due to two superposing sound waves is given by s(t) = 0.02 cos(2π×440 t) + 0.02 cos(2π×446 t) (SI units). Determine: (a) the frequency of the resultant sound heard, (b) the beat frequency, and (c) the time interval between successive maxima of intensity. Explain the physical meaning of each.",
+     "a": "(a) Resultant frequency = average = (440 + 446)/2 = 443 Hz (the pitch heard). (b) Beat frequency = |446 - 440| = 6 Hz (rate of waxing/waning). (c) Time interval between intensity maxima = 1/ν_beat = 1/6 ≈ 0.167 s. A wrong answer for (a) as 440 or 446 Hz shows confusion between carrier frequency and envelope; wrong (c) as 1/443 s shows confusion between wave period and beat period.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a beat problem: \"Two flutes produce 5 beats/s. One flute is 262 Hz. The other flute's frequency is 267 Hz.\" The student writes: ν₂ = ν₁ ± ν_beat = 262 ± 5 = 267 or 257 Hz. Then they say \"Since frequency cannot be negative, both are valid.\" Evaluate this reasoning and identify the missing physical step needed to choose the correct value.",
+     "a": "The reasoning is incomplete. While both 267 Hz and 257 Hz are mathematically valid (positive), the physical situation requires additional information to resolve the ambiguity (e.g., loading one flute with wax to lower its frequency and observing whether beats increase or decrease). The student's statement \"both are valid\" as a final answer is incorrect — a unique physical frequency exists. The missing step is an experimental intervention (changing tension, length, or loading) to determine the sign of the difference. This reveals the student treats physics as pure algebra without connecting to measurable cause-effect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two identical smartphones with tone-generator apps to demonstrate beats and measure the beat frequency. Specify the frequencies you would set, how you would detect the beats, and how you would verify ν_beat = |ν₁ - ν₂|.",
+     "a": "Set Phone A to 440 Hz (A4) and Phone B to 445 Hz. Place them side by side on a table. Use a third phone with a sound-level-meter app (or simply human ear) to detect the periodic loudness variation. Count the number of loudness maxima in 10 seconds → beat frequency = count/10. Should be ≈5 Hz. Repeat with 440 Hz and 442 Hz → beat frequency ≈2 Hz. Plot measured ν_beat vs |ν₁ - ν₂|; slope should be 1. A poor answer (e.g., \"just listen\") lacks quantitative measurement, control of amplitude, or verification of the formula, revealing inability to translate theory into experimental design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_008",
+   "title": "c11_bio_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define metabolism and name its two subdivisions. Give one example of a pathway for each subdivision.",
+     "a": "Metabolism is the sum of all enzyme-catalyzed chemical reactions in a living organism. Its two subdivisions are: (1) Catabolism — energy-releasing breakdown pathways, e.g., glycolysis (glucose → pyruvate); (2) Anabolism — energy-requiring biosynthetic pathways, e.g., gluconeogenesis (pyruvate → glucose). A wrong answer (e.g., \"metabolism is only digestion\" or \"metabolism is only breaking down food\") reveals the student confuses organism-level digestion with cellular metabolism, or equates metabolism solely with catabolism, ignoring the essential biosynthetic half.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A living cell at steady state is at thermodynamic equilibrium because its internal concentrations remain constant.\" Explain why this statement is incorrect using the concept of entropy and energy flow.",
+     "a": "The statement is incorrect because thermodynamic equilibrium implies maximum entropy, zero net free energy change, and no net flux — a dead state. A living cell at steady state maintains constant concentrations **despite** continuous flux (inflow = outflow) by constantly expending energy (from catabolism) to build and maintain low-entropy structures (proteins, membranes, ion gradients). This requires a continuous input of high-free-energy substrates and output of low-free-energy waste. A wrong answer (e.g., \"steady state means equilibrium\") reveals the student conflates constant macroscopic concentrations with microscopic thermodynamic equilibrium, missing the essential role of continuous energy dissipation in maintaining life.",
+     "self_check": true
+    },
+    {
+     "q": "Cyanide inhibits cytochrome c oxidase (Complex IV) in the mitochondrial electron transport chain. Predict the immediate effect on: (a) ATP synthesis via oxidative phosphorylation, (b) NAD+/NADH ratio in the mitochondrial matrix, (c) glycolytic rate in a hepatocyte. Justify each prediction.",
+     "a": "(a) ATP synthesis via oxidative phosphorylation stops because proton motive force cannot be generated without electron flow to O₂. (b) NAD+/NADH ratio decreases (more NADH) because NADH cannot be reoxidized by the blocked ETC. (c) Glycolytic rate increases (Pasteur effect) because low ATP/ADP and low NAD+ relieve inhibition of phosphofructokinase-1, forcing reliance on substrate-level phosphorylation. A wrong answer (e.g., \"glycolysis stops because mitochondria are damaged\") reveals failure to understand metabolic regulation via energy charge and redox state, and the compensatory cross-talk between pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the metabolic state of a dormant wheat seed (12% moisture) and a 3-day-old wheat seedling. Analyze both in terms of: (i) proximity to thermodynamic equilibrium, (ii) major carbon flux direction, (iii) ATP source and turnover rate, (iv) role of stored macromolecules.",
+     "a": "(i) Dormant seed: near equilibrium (minimal flux, low entropy production); Seedling: far from equilibrium (high flux, high energy dissipation). (ii) Dormant: negligible net flux (some repair only); Seedling: strong anabolic flux (starch → sucrose → cellulose, proteins, lipids). (iii) Dormant: minimal ATP turnover, possibly from residual glycolysis/fermentation; Seedling: high ATP turnover from mitochondrial respiration (and glycolysis), coupled to biosynthesis. (iv) Dormant: macromolecules (storage proteins, starch, lipids) are inert reserves; Seedling: macromolecules are actively hydrolyzed (amylases, proteases, lipases) to provide carbon skeletons and energy for growth. A wrong answer (e.g., \"both are alive so both are far from equilibrium\") reveals inability to apply the steady-state concept quantitatively — dormancy is a protected near-equilibrium state, not a steady state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"ATP is the energy currency of the cell because it stores large amounts of energy in its high-energy phosphate bonds.\" Identify the correct and incorrect parts of this statement and rewrite it accurately.",
+     "a": "Correct part: ATP is the universal energy currency coupling exergonic and endergonic processes. Incorrect parts: (1) ATP does not \"store large amounts of energy\" — cellular ATP pools are tiny (~5 mM) and turn over in seconds; it's a **transmitter**, not a long-term store (that's glycogen/fat). (2) \"High-energy phosphate bonds\" is a misleading colloquialism; the free energy of hydrolysis (ΔG ≈ -30.5 kJ/mol under standard conditions, -50 to -65 kJ/mol in vivo) arises from **electrostatic repulsion** between adjacent phosphates, resonance stabilization of products (ADP + Pi), and solvation effects — not a special bond property. Accurate rewrite: \"ATP is the universal energy coupler in cells; its hydrolysis releases a large, tunable free energy change under cellular conditions, allowing it to drive endergonic reactions via enzyme-coupled phosphoryl group transfer, while its rapid turnover matches immediate energy demand.\" A wrong evaluation (accepting the claim verbatim) reveals the common textbook oversimplification that obscures the kinetic/thermodynamic distinction between energy storage and energy coupling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using baker's yeast (Saccharomyces cerevisiae) to demonstrate that living cells maintain a non-equilibrium steady state. Specify: (i) measurable parameters, (ii) control vs experimental setup, (iii) expected data pattern proving steady state, (iv) how you would distinguish steady state from equilibrium.",
+     "a": "(i) Measure: dissolved O₂, CO₂ evolution rate, ethanol production, cell density (OD₆₀₀), and extracellular glucose — every 30 min for 24h in a sealed, temperature-controlled bioreactor with defined medium. (ii) Control: live yeast culture; Experimental: identical medium + yeast killed by autoclaving (or 0.1% sodium azide). (iii) Live culture shows: exponential then linear CO₂/ethanol production, glucose decline, biomass increase — **constant specific rates** (qCO₂, qglucose) during mid-exponential phase = steady state. Dead control shows no change after initial abiotic equilibrium. (iv) Steady state proof: constant metabolite concentrations **with** continuous flux (glucose → ethanol + CO₂ + biomass) requiring constant energy dissipation. Equilibrium proof: dead control reaches final state with **zero net flux**, maximum entropy, no further change without external perturbation. A poor answer (e.g., \"measure CO₂ bubbles\") misses the need for constant-rate quantitative flux measurements and the critical dead control to distinguish thermodynamic equilibrium from biological steady state.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_07_007",
+   "title": "c12_bs_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define motivation as per the NCERT textbook definition used in Class 12 Business Studies.",
+     "a": "Motivation is the process of stimulating people to action to accomplish desired goals. A wrong answer (e.g., \"motivation is giving money\") reveals the student confuses *motivators* (external tools) with *motivation* (the internal process). The NCERT definition emphasises the *process* of stimulating action toward goals, not the specific reward.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a 'motive' and a 'motivator' using a workplace example.",
+     "a": "A motive is an internal need (e.g., an employee's desire for recognition); a motivator is the external technique used to address that need (e.g., an 'Employee of the Month' award). If a student says \"salary is a motive,\" they have reversed the terms: salary is a motivator (external), while the need for food/shelter it satisfies is the motive (internal).",
+     "self_check": true
+    },
+    {
+     "q": "A senior accountant rejects a 20% raise to stay in her current role because \"I mentor juniors and feel valued here.\" Using Maslow's hierarchy, identify the dominant need level and explain why the raise (a lower-level motivator) failed.",
+     "a": "The dominant need is *Esteem* (Level 4: recognition, respect, feeling valued). The raise targets *Physiological/Safety* (Levels 1-2), which are already satisfied. Maslow states a satisfied need no longer motivates; only the next unsatisfied higher need drives behaviour. A wrong answer citing \"Safety needs\" shows the student ignores the hierarchy's sequential nature.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT motivation process shows: Unsatisfied Need → Tension → Drive → Search Behaviour → Satisfied Need → Tension Reduction. An employee works overtime for a promotion, gets it, but feels empty and quits three months later. Analyse which stage of the process likely broke down and why.",
+     "a": "The breakdown occurred at *Satisfied Need → Tension Reduction*. The promotion satisfied the *Esteem* need temporarily, but the new role lacked autonomy/growth, so *Self-Actualisation* (Level 5) remained unsatisfied, creating new tension. A student who says \"the process ended at satisfaction\" misses that motivation is cyclic — a newly satisfied need reveals the next higher need.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Maslow assumption: \"A satisfied need can no longer motivate a person; only the next higher level need can motivate him.\" Is this always true in a modern workplace? Give a concrete counterexample.",
+     "a": "Not always. If a satisfied lower need is *threatened*, it reactivates as a powerful motivator. Example: A tenured professor (Self-Actualisation satisfied) faces sudden salary cuts — *Safety/Physiological* needs become dominant again. A student who agrees uncritically fails to see that need satisfaction is not permanent; regression occurs under threat, which Maslow later acknowledged.",
+     "self_check": true
+    },
+    {
+     "q": "Design a motivation plan for a team of 10 junior sales executives (aged 22-25) in a mid-sized FMCG firm. Specify ONE concrete action for each of Maslow's five levels, ensuring the plan is implementable within a ₹50,000/month budget.",
+     "a": "A good answer maps each level to a low-cost action: (1) Physiological — subsidised healthy snacks (₹5,000); (2) Safety — clear written job contracts + health insurance top-up (₹15,000); (3) Affiliation — weekly team huddle + monthly offsite lunch (₹10,000); (4) Esteem — \"Star Seller\" rotating trophy + LinkedIn shoutout (₹0); (5) Self-Actualisation — ₹20,000 fund for skill-upgradation courses chosen by employee. A poor answer lists only monetary rewards or ignores budget constraints, showing inability to translate theory into contextualised practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

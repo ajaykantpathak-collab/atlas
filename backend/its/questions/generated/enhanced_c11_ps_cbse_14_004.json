@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_004",
+   "title": "c11_ps_cbse_14_004",
+   "questions": [
+    {
+     "q": "What is the maximum strength of the Rajya Sabha as per Article 80, and how are its members constituted between elected and nominated categories?",
+     "a": "The maximum strength is 250: 238 members elected by State Legislative Assemblies (and UTs with legislatures) via proportional representation with single transferable vote, and 12 members nominated by the President for distinguished expertise in literature, science, art, or social service. A wrong answer (e.g., \"545 like Lok Sabha\" or \"directly elected\") reveals confusion between the two houses' composition principles — Lok Sabha represents people (territorial constituencies), Rajya Sabha represents states (federal units).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution make Rajya Sabha a permanent body not subject to dissolution, unlike Lok Sabha which has a fixed 5-year term?",
+     "a": "Rajya Sabha's permanence ensures continuous federal representation — states remain represented even when Lok Sabha is dissolved for elections. This prevents a legislative vacuum in federal matters and allows long-term policy scrutiny. A wrong answer like \"to give politicians job security\" misses the constitutional design: federalism requires an institutional anchor that outlives electoral cycles. The staggered retirement (1/3 every 2 years) balances continuity with periodic renewal.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill to create a new All India Service (e.g., Indian Judicial Service) is introduced in Parliament. Which house can initiate it, what majority is needed in Rajya Sabha, and under which Article?",
+     "a": "The Bill can be introduced in either house, but Rajya Sabha must pass a resolution supported by not less than two-thirds of members present and voting under Article 312, declaring it necessary in the national interest. Only then can Parliament legislate. A wrong answer (e.g., \"Lok Sabha initiates with simple majority\") confuses All India Services creation (Rajya Sabha's special power) with ordinary legislation or Money Bills. This tests application of Article 312 to a concrete scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Rajya Sabha's role in a Money Bill (Article 110) versus a Constitutional Amendment Bill (Article 368). How do the two reflect different constitutional philosophies?",
+     "a": "In Money Bills, Rajya Sabha has only recommendatory power — it cannot reject or amend; Lok Sabha may accept/reject recommendations (Article 110). In Constitutional Amendments, both houses have equal power — each must pass by special majority (2/3 present and voting + majority of total membership). The difference reflects: financial accountability to the directly elected house ( लोकसभा supremacy on money) versus federal consensus on constitutional change (states as equal partners via Rajya Sabha). A wrong answer claiming \"Rajya Sabha can reject Money Bills\" or \"Lok Sabha alone amends Constitution\" reveals misunderstanding of the dual philosophy: popular sovereignty for finance, federal compact for Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Rajya Sabha's nominated members (12) undermine democratic representation because they are not elected.\" Consider the constitutional purpose of nomination.",
+     "a": "The nomination provision (Article 80(1)(a)) brings domain expertise (literature, science, art, social service) into legislative deliberation — voices that electoral politics may exclude. It does not undermine democracy because: (i) nominated members are only 12/245 (<5%), (ii) they cannot vote in Presidential elections (Article 55), (iii) they serve as a deliberative bridge, not a power bloc. A poor critique ignores the constitutional balance: pure majoritarianism can marginalize minority expertise; nomination enriches debate without shifting power. The error is equating \"democratic\" only with \"directly elected.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where Rajya Sabha uses Article 249 to authorize Parliament to legislate on a State List subject (e.g., \"Public Health\"). Specify: (a) the resolution wording, (b) the majority required, (c) the duration of the authorization, and (d) what happens after it expires.",
+     "a": "(a) \"Resolved that it is necessary in the national interest that Parliament should make laws with respect to public health and sanitation, a subject in the State List.\" (b) Not less than two-thirds of members present and voting. (c) Authorization lasts for one year, renewable by another such resolution (max one year at a time). (d) After expiry, Parliament loses power to legislate on that subject unless renewed; laws made during authorization cease to operate after six months (Article 249(3)). A weak answer omits the time limit or renewal mechanism, missing the built-in safeguard against permanent centralization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

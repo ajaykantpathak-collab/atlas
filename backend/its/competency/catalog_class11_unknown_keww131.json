@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 131,
+  "chapter_title": "Essays: An Introduction",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww131.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww131.1.1",
+      "title": "What an Essay Is",
+      "section": "intro",
+      "definition": "An essay is a short composition in prose that undertakes to discuss a matter, express a point of view, or persuade us to accept a thesis. Its family name, from Montaigne's 'essai' or attempt, marks it as exploratory -- an intelligence trying out its thoughts on paper.",
+      "formula": "",
+      "key_idea": "An essay is an attempt in prose -- a mind thinking on paper to discuss, persuade or express.",
+      "textbook_ref": "keww131.txt introduction (essay as short composition in prose, discuss a matter, express a point of view, persuade, montaigne attempt)",
+      "question_patterns": [
+        "define an essay and explain its origin",
+        "in class 11 essays introduction: what are the purposes an essay can serve",
+        "why is the essay called an attempt or trial",
+        "distinguish an essay that discusses from one that persuades",
+        "what does prose composition imply about the essay form",
+        "name the essayist credited with founding the essay form"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the form",
+          "explain": "Brevity, prose and a single governing matter define the essay against longer, more varied works."
+        },
+        {
+          "step": 2,
+          "action": "define the aims",
+          "explain": "An essay may discuss, express or persuade -- three registers of the same prose instrument."
+        },
+        {
+          "step": 3,
+          "action": "recall the founder",
+          "explain": "Montaigne's essais -- attempts -- gave the form its exploratory name and manner."
+        }
+      ]
+    },
+    {
+      "id": "keww131.1.2",
+      "title": "Types of Essays: Formal and Informal",
+      "section": "intro",
+      "definition": "Essays divide into formal and informal. The formal essay treats serious subjects with organised argument and impersonal tone; the informal or familiar essay is conversational, personal and light, sharing the essayist's moods and whimsies as if talking with a friend.",
+      "formula": "",
+      "key_idea": "Two voices of the same form -- the lecture hall's formality, the fireside's familiar chat.",
+      "textbook_ref": "keww131.txt types sections (formal essay, informal or familiar essay, tone and organisation, charles lamb mention)",
+      "question_patterns": [
+        "distinguish formal essays from informal essays",
+        "in class 11 essays introduction: what is a familiar essay",
+        "which type of essay uses impersonal argument and which uses personal chat",
+        "give examples of subjects suited to formal and informal essays",
+        "why is the informal essay compared to conversation",
+        "match given essay titles to formal or informal type"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the formal pole",
+          "explain": "Serious subject, structured argument, impersonal voice -- the formal essay argues its case."
+        },
+        {
+          "step": 2,
+          "action": "mark the informal pole",
+          "explain": "Everyday subject, rambling charm, personal voice -- the familiar essay confides in its reader."
+        },
+        {
+          "step": 3,
+          "action": "see the spectrum",
+          "explain": "Most real essays move between the poles, blending argument with personality."
+        }
+      ]
+    },
+    {
+      "id": "keww131.1.3",
+      "title": "Reading the Essays of This Section",
+      "section": "intro",
+      "definition": "The section gathers four essays of very different temper -- Russell's passionate autobiography of passions, Chandrasekhar's meditation on creativity and science, Devy's defence of tribal expression, and Ruskin's discriminating theory of the good book -- showing the essay's power to argue, personalise, defend and evaluate.",
+      "formula": "",
+      "key_idea": "One form, four tempers -- passion, science, advocacy and criticism displayed in four essays.",
+      "textbook_ref": "keww131.txt preview sections (bertrand russell my three passions, chandrasekhar patterns of creativity, devy tribal verse, ruskin what is a good book)",
+      "question_patterns": [
+        "name the essays and essayists included in this section",
+        "in class 11 essays introduction: what theme unites russell's essay",
+        "which essay deals with science and creativity",
+        "what subject does g n devy's essay defend",
+        "what standard does ruskin propose in his essay",
+        "compare the temper of any two essays in the section"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the essays",
+          "explain": "Russell, Chandrasekhar, Devy and Ruskin head the section's contents."
+        },
+        {
+          "step": 2,
+          "action": "note their registers",
+          "explain": "Personal passion, scientific biography, cultural advocacy and aesthetic criticism -- four distinct essayistic modes."
+        },
+        {
+          "step": 3,
+          "action": "state the training value",
+          "explain": "Reading across them teaches how one prose form can carry many intellectual tempers."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww131.txt types sections",
+      "concept": "keww131.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Classify these subjects into formal and informal essays: 'The Evils of War', 'My First Umbrella', 'On Saying Please', 'Confessions of a Glutton'.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "spot the formal subjects",
+          "explain": "War and social courtesy ('On Saying Please') invite organised argument -- formal essays."
+        },
+        {
+          "step": 2,
+          "action": "spot the informal subjects",
+          "explain": "Umbrellas and gluttony invite personal whim and anecdote -- familiar essays."
+        },
+        {
+          "step": 3,
+          "action": "note the overlap",
+          "explain": "Even light subjects can be treated formally -- the treatment, not the topic, decides."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww131.txt introduction",
+      "concept": "keww131.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Why did Montaigne call his prose pieces 'essais'? What does the name promise the reader?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "translate the title",
+          "explain": "Essai means attempt or trial in French."
+        },
+        {
+          "step": 2,
+          "action": "read the promise",
+          "explain": "The reader is offered a mind testing its thoughts, not delivering verdicts from on high."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The essay's modest name is its honest contract: exploration, not finality."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww131.txt end-of-section questions, reworded",
+      "questions": [
+        "Define the essay and trace the origin of its name.",
+        "Distinguish formal and informal essays with examples.",
+        "Name the essayists of this section and their subjects.",
+        "What purposes can an essay serve according to the introduction?",
+        "How does the essay differ from a short story and a poem?",
+        "Why is the essay called an attempt rather than a verdict?"
+      ]
+    }
+  ]
+}

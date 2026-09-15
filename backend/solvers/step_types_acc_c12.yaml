@@ -1,0 +1,183 @@
+# ISC Class 12 Accountancy – Step Types (pedagogical rule catalog)
+# Each step_type has: id, name, rule_description, when_to_apply, formula_template
+
+step_types:
+  # ── Partnership ──────────────────────────────────────────────────────────
+  - id: PART-01
+    name: Old Ratio
+    rule_description: "The original profit-sharing ratio between partners before any change."
+    formula_template: "Old Ratio = A:{oa}:B:{ob}:C:{oc}"
+
+  - id: PART-02
+    name: New Ratio
+    rule_description: "The revised profit-sharing ratio after a partner is admitted or retires."
+    formula_template: "New Ratio = A:{na}:B:{nb}:C:{nc}"
+
+  - id: PART-03
+    name: Sacrifice Ratio
+    rule_description: "Sacrifice = Old Share − New Share. Positive value = sacrifice, negative = gain."
+    formula_template: "Sacrifice of A = {oa} − {na} = {sa}"
+
+  - id: PART-04
+    name: Gaining Ratio
+    rule_description: "Gain = New Share − Old Share. Used on retirement to distribute goodwill."
+    formula_template: "Gain of A = {na} − {oa} = {ga}"
+
+  - id: PART-05
+    name: Goodwill Valuation – Super Profit Method
+    rule_description: "Goodwill = Super Profit × Number of Years. Super Profit = Average Profit − Normal Profit."
+    formula_template: "Normal Profit = {cap} × {nrr}% = {np}; Super Profit = {ap} − {np} = {sp}; GW = {sp} × {yrs} = {gw}"
+
+  - id: PART-06
+    name: Goodwill Valuation – Capitalization Method
+    rule_description: "Goodwill = Capitalized Value of Firm − Net Assets (Capital Employed)."
+    formula_template: "Capitalized Value = {ap} × 100/{nrr}; GW = {cv} − {cap}"
+
+  - id: PART-07
+    name: Revaluation Account (Debit/Credit Rule)
+    rule_description: "Increase in asset → Credit (gain). Decrease in asset → Debit (loss). Increase in liability → Debit. Decrease in liability → Credit."
+    formula_template: "Asset {name} ↑ Rs{diff} → Credit; Asset {name} ↓ Rs{diff} → Debit"
+
+  - id: PART-08
+    name: Accumulated Profit/Loss Distribution
+    rule_description: "General Reserve, Profit & Loss A/c balance distributed according to OLD RATIO."
+    formula_template: "A's share = {balance} × {oa}/{total} = {share_a}"
+
+  - id: PART-09
+    name: Piecemeal Distribution
+    rule_description: "Deficiency of insolvent partner borne by solvent partners in Gaining Ratio (Garner vs. Murray rule)."
+    formula_template: "Deficiency of C = Rs{Dc}; Borne by A:Rs{Da}, B:Rs{Db} in Gaining Ratio"
+
+  - id: PART-10
+    name: Dissolution – Realisation Account
+    rule_description: "Assets transferred at book value (Dr); Liabilities at book value (Cr). Sold for cash (Dr Bank; Cr Asset). Gain/Loss shared in PR (Dr/Cr Realisation; Dr/Cr Capital)."
+    formula_template: "Dr {Asset} Rs{bv}; Cr Bank Rs{sale_price}; Dr/Cr Realisation Rs{gl}"
+
+  # ── Company Accounts ──────────────────────────────────────────────────────
+  - id: COMP-01
+    name: Share Application
+    rule_description: "Application money received from shareholders. Under-subscription: pro-rata allotment. Over-subscription: excess refunded or adjusted."
+    formula_template: "Application = {shares} × Rs{appl_per_share} = Rs{appl_total}"
+
+  - id: COMP-02
+    name: Share Allotment
+    rule_description: "Allotment money due. Securities premium (if any) charged at this stage."
+    formula_template: "Allotment = {shares} × Rs{allot} = Rs{allot_total}"
+
+  - id: COMP-03
+    name: Calls
+    rule_description: "First call, second call as per Articles. Calls in Arrears debited separately."
+    formula_template: "Call = {shares} × Rs{call_amt} = Rs{call_total}"
+
+  - id: COMP-04
+    name: Forfeiture of Shares
+    rule_description: "Amount Forfeited = Amount paid up by member. Balance in Forfeited Shares A/c → Capital Reserve after reissue."
+    formula_template: "Forfeited = {shares} × Rs{paid_up_each} = Rs{forfeited_total}"
+
+  - id: COMP-05
+    name: Reissue of Forfeited Shares
+    rule_description: "If reissue price > paid-up, excess credited to Securities Premium. Balance (if any) → Capital Reserve."
+    formula_template: "Reissue = {shares} × Rs{reissue_price} = Rs{reissue_total}"
+
+  - id: COMP-06
+    name: Issue of Debentures at Par
+    rule_description: "Debentures issued at face value. Coupon interest paid periodically."
+    formula_template: "Dr Bank Rs{total}; Cr {Debenture} A/c Rs{total}"
+
+  - id: COMP-07
+    name: Issue of Debentures at Premium
+    rule_description: "Premium credited to Securities Premium Reserve."
+    formula_template: "Dr Bank Rs{total}; Cr Debentures Rs{face_total}; Cr Sec. Premium Rs{prem_total}"
+
+  - id: COMP-08
+    name: Issue of Debentures with Collateral Security
+    rule_description: "Assets mortgaged as security. Mortgage debenture A/c credited."
+    formula_template: "Dr Bank Rs{amount}; Cr {type} Debentures Rs{amount}"
+
+  # ── Financial Statements ──────────────────────────────────────────────────
+  - id: FS-01
+    name: Outstanding Expenses Adjustment
+    rule_description: "Expenses incurred but not paid → Add to expense, Credit Outstanding (Liability)."
+    formula_template: "Dr {Expense} Rs{amt}; Cr Outstanding {Expense} Rs{amt}"
+
+  - id: FS-02
+    name: Prepaid Expenses Adjustment
+    rule_description: "Expenses paid in advance → Deduct from expense, Credit Prepaid (Asset)."
+    formula_template: "Dr Prepaid {Expense} Rs{amt}; Cr {Expense} Rs{amt}"
+
+  - id: FS-03
+    name: Depreciation (SLM)
+    rule_description: "Depreciation = (Cost − Scrap Value) / Useful Life."
+    formula_template: "SLM Dep = ({cost} − {scrap}) / {life} = {dep}"
+
+  - id: FS-04
+    name: Depreciation (WDV Method)
+    rule_description: "Depreciation = WDV × Rate%. New WDV = Old WDV − Dep."
+    formula_template: "Dep = {wdv} × {rate}% = {dep}; New WDV = {wdv} − {dep} = {new_wdv}"
+
+  - id: FS-05
+    name: Provision for Doubtful Debts
+    rule_description: "Provision = Debtors × Rate%. Dr P&L A/c; Cr Provision for Doubtful Debts."
+    formula_template: "Provision = {debtors} × {rate}% = Rs{prov}"
+
+  - id: FS-06
+    name: Bad Debts
+    rule_description: "Debts irrecoverable → Dr Bad Debts A/c; Cr Debtors A/c."
+    formula_template: "Dr Bad Debts Rs{amt}; Cr Debtors Rs{amt}"
+
+  - id: FS-07
+    name: Manager's Commission
+    rule_description: "Commission = Net Profit × Rate%. If 'on net profit after commission' → use backwards formula."
+    formula_template: "Commission = {np} × {rate}% = Rs{comm}; After comm. NP = {np} − {comm}"
+
+  - id: FS-08
+    name: Interest on Drawings
+    rule_description: "Interest charged on drawings → Dr Interest on Drawings A/c (expense); Cr Drawings A/c."
+    formula_template: "Interest = {avg_drawings} × {rate}% × {months}/12 = Rs{int}"
+
+  # ── Cash Flow Statement ────────────────────────────────────────────────────
+  - id: CF-01
+    name: Operating Activities (Indirect)
+    rule_description: "NP + Non-cash expenses ± changes in Working Capital (WC). WC Increase = Outflow, WC Decrease = Inflow."
+    formula_template: "CFO = {np} + {dep} + ... + WC Changes = Rs{cfo}"
+
+  - id: CF-02
+    name: Investing Activities
+    rule_description: "Purchase/Sale of Fixed Assets, Investments. Inflow = Sale; Outflow = Purchase."
+    formula_template: "CFI = Σ(Inflows) − Σ(Outflows) = Rs{cfi}"
+
+  - id: CF-03
+    name: Financing Activities
+    rule_description: "Issue of Shares/Debentures, Loans, Dividends."
+    formula_template: "CFF = Σ(Proceeds) − Σ(Repayments) = Rs{cff}"
+
+  - id: CF-04
+    name: Net Change in Cash
+    rule_description: "Net change = CFO + CFI + CFF. Closing Cash = Opening Cash + Net Change."
+    formula_template: "Net = {cfo} + {cfi} + {cff} = Rs{net}; Closing Cash = {opening} + {net}"
+
+  # ── Ratio Analysis ─────────────────────────────────────────────────────────
+  - id: RA-01
+    name: Liquidity Ratios
+    rule_description: "Current Ratio = CA/CL (ideal 2:1). Quick Ratio = (CA−Inventory)/CL (ideal 1:1)."
+    formula_template: "Current Ratio = {ca}/{cl} = {cr}:1; Quick Ratio = ({ca}−{inv})/{cl} = {qr}:1"
+
+  - id: RA-02
+    name: Solvency Ratios
+    rule_description: "Debt-Equity = LT Debt/Equity. Debt Ratio = Total Debt/Total Assets."
+    formula_template: "D/E = {debt}/{equity} = {de:.2f}; Debt Ratio = {tot_debt}/{tot_assets} = {dr:.2f}"
+
+  - id: RA-03
+    name: Activity Ratios
+    rule_description: "Inventory Turnover = COGS/Avg Inventory. Debtor Turnover = Credit Sales/Avg Debtors."
+    formula_template: "IT = {cogs}/{avg_inv} = {it:.1f}×/yr; DT = {cred_sales}/{avg_debt} = {dt:.1f}×/yr"
+
+  - id: RA-04
+    name: Profitability Ratios
+    rule_description: "GP Ratio = GP/Net Sales ×100. NP Ratio = NP/Net Sales ×100. ROCE = EBIT/Capital Employed ×100."
+    formula_template: "GP% = {gp}/{sales}×100 = {gpr:.2f}%; NP% = {np}/{sales}×100 = {npr:.2f}%"
+
+  - id: RA-05
+    name: Interpretation of Ratios
+    rule_description: "Interpret ratio values against industry standards and trend. Higher CR is better up to 2.5; >4 may indicate idle funds."
+    formula_template: "Interpretation: {interp}"

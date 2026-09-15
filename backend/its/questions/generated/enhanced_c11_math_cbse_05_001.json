@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_001",
+   "title": "c11_math_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the defining property of the imaginary unit \\(i\\)? State it as an equation.",
+     "a": "\\(i^2 = -1\\). A wrong answer like \\(i = \\sqrt{-1}\\) is ambiguous because \\(-\\sqrt{-1}\\) also squares to \\(-1\\); the defining property is the algebraic relation \\(i^2 = -1\\), not a square-root notation which assumes a principal branch.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the equation \\(x^2 + 4 = 0\\) have no real solution? Explain using the properties of real numbers.",
+     "a": "For any real number \\(x\\), \\(x^2 \\ge 0\\), so \\(x^2 + 4 \\ge 4 > 0\\). Thus \\(x^2 + 4 = 0\\) cannot hold for any real \\(x\\). A wrong answer might say \"because the discriminant is negative\" without linking it to the non-negativity of squares, or might incorrectly claim \\(x = 2i\\) is a real solution.",
+     "self_check": true
+    },
+    {
+     "q": "Solve \\(2x^2 + 7 = 0\\) and express the solutions in terms of \\(i\\).",
+     "a": "\\(2x^2 = -7 \\Rightarrow x^2 = -\\frac{7}{2} \\Rightarrow x = \\pm \\sqrt{\\frac{7}{2}}\\,i = \\pm \\frac{\\sqrt{14}}{2}\\,i\\). Steps: isolate \\(x^2\\), factor out \\(-1\\), apply \\(i^2=-1\\). A wrong answer might forget the \\(\\pm\\), leave \\(\\sqrt{-\\frac{7}{2}}\\) unsimplified, or incorrectly write \\(\\frac{\\sqrt{7}}{\\sqrt{2}}i\\) without rationalising (though rationalising is not strictly required at this stage).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equations \\(x^2 - 9 = 0\\) and \\(x^2 + 9 = 0\\). How do their solution sets differ, and what does this reveal about the completeness of \\(\\mathbb{R}\\) versus \\(\\mathbb{C}\\)?",
+     "a": "\\(x^2 - 9 = 0\\) has real solutions \\(\\pm 3\\); \\(x^2 + 9 = 0\\) has no real solutions but has complex solutions \\(\\pm 3i\\). This shows \\(\\mathbb{R}\\) is not algebraically closed (some polynomials lack roots), while \\(\\mathbb{C}\\) is algebraically closed (every non-constant polynomial has a root). A wrong answer might say both have \"two solutions\" without specifying the number system, or claim \\(x^2+9=0\\) has no solutions at all.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The equation \\(x^2 + 1 = 0\\) has no solution because you cannot take the square root of a negative number.\" Evaluate this statement.",
+     "a": "The statement is true only within the real number system. By extending to complex numbers with \\(i^2 = -1\\), the equation gains two solutions: \\(x = i\\) and \\(x = -i\\). The student's error is assuming the number system is fixed; mathematics historically extends number systems to solve previously unsolvable equations (e.g., negatives for \\(x+5=3\\), rationals for \\(2x=3\\), irrationals for \\(x^2=2\\)). A wrong evaluation would agree with the student or deny the existence of any solution.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a quadratic equation with real coefficients whose roots are \\(5i\\) and \\(-5i\\). Show how you used the sum and product of roots.",
+     "a": "Sum \\(= 0\\), product \\(= (5i)(-5i) = -25i^2 = 25\\). Equation: \\(x^2 - 0\\cdot x + 25 = 0 \\Rightarrow x^2 + 25 = 0\\). A poor answer might give an equation with non-real coefficients, or fail to use the conjugate-pair property that guarantees real coefficients.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

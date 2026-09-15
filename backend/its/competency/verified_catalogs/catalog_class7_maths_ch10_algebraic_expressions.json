@@ -1,0 +1,407 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 10,
+ "chapter_title": "Algebraic Expressions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh102.txt",
+ "concepts": [
+  {
+   "id": "c7m10.2.1",
+   "title": "How Expressions are Formed",
+   "section": "10.2",
+   "definition": "Algebraic expressions are formed by combining variables and constants using operations (add, subtract, multiply, divide). x*x = x^2, x*x*x = x^3.",
+   "formula": "expression = variables + constants + operations",
+   "key_idea": "Combine variables and constants with operations.",
+   "textbook_ref": "gemh110.txt lines 14-56",
+   "question_patterns": [
+    "how are expressions formed",
+    "describe how expression is obtained",
+    "form expression from variables and constants",
+    "get the algebraic expression",
+    "subtraction of z from y",
+    "one half of sum of x and y",
+    "number z multiplied by itself",
+    "one fourth of product of p and q",
+    "x and y squared and added",
+    "5 added to three times product of m and n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify variables and constants",
+     "explain": "Find what changes (variable) and what is fixed (constant)"
+    },
+    {
+     "step": 2,
+     "action": "identify operations",
+     "explain": "Determine which operations (add, subtract, multiply, divide) to use"
+    },
+    {
+     "step": 3,
+     "action": "form expression",
+     "explain": "Combine using the operations in correct order"
+    }
+   ]
+  },
+  {
+   "id": "c7m10.3.1",
+   "title": "Terms of an Expression",
+   "section": "10.3",
+   "definition": "Terms are parts of an expression formed separately and then added. Each term is a product of factors. The numerical factor is the coefficient.",
+   "formula": "expression = sum of terms; term = product of factors",
+   "key_idea": "Expression = sum of terms. Term = product of factors. Coefficient = numerical factor.",
+   "textbook_ref": "gemh110.txt lines 57-130",
+   "question_patterns": [
+    "identify terms in expression",
+    "what are the terms",
+    "show terms and factors by tree diagram",
+    "identify terms and factors",
+    "find numerical coefficients",
+    "coefficient of x in expression",
+    "coefficient of y in expression",
+    "identify terms which contain x"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split into terms",
+     "explain": "Separate parts connected by + or - (minus sign belongs to following term)"
+    },
+    {
+     "step": 2,
+     "action": "find factors",
+     "explain": "Each term is a product of factors (numerical and algebraic)"
+    },
+    {
+     "step": 3,
+     "action": "find coefficient",
+     "explain": "Numerical factor is the coefficient"
+    }
+   ]
+  },
+  {
+   "id": "c7m10.4.1",
+   "title": "Like and Unlike Terms",
+   "section": "10.4",
+   "definition": "Like terms have the same algebraic factors (same variables with same powers). Unlike terms have different algebraic factors. Numerical coefficients and order of variables don't matter.",
+   "formula": "like terms: same variables, same powers; unlike: different",
+   "key_idea": "Like terms: same variables and powers. Coefficients don't matter.",
+   "textbook_ref": "gemh110.txt lines 169-245",
+   "question_patterns": [
+    "are these like or unlike terms",
+    "state whether like or unlike",
+    "identify like terms",
+    "group like terms together",
+    "which pairs are like terms",
+    "7x and 12y like or unlike",
+    "15x and -21x like or unlike"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ignore numerical coefficients",
+     "explain": "Focus on algebraic part only"
+    },
+    {
+     "step": 2,
+     "action": "check variables",
+     "explain": "Variables must be the same"
+    },
+    {
+     "step": 3,
+     "action": "check powers",
+     "explain": "Powers of each variable must match"
+    },
+    {
+     "step": 4,
+     "action": "conclude",
+     "explain": "Same variables and powers = like terms. Otherwise unlike."
+    }
+   ]
+  },
+  {
+   "id": "c7m10.5.1",
+   "title": "Monomials, Binomials, Trinomials, Polynomials",
+   "section": "10.5",
+   "definition": "Monomial: one term. Binomial: two unlike terms. Trinomial: three unlike terms. Polynomial: one or more terms (includes all of above).",
+   "formula": "monomial=1 term; binomial=2 unlike; trinomial=3 unlike; polynomial=1+",
+   "key_idea": "Count unlike terms: 1=monomial, 2=binomial, 3=trinomial.",
+   "textbook_ref": "gemh110.txt lines 186-210",
+   "question_patterns": [
+    "classify as monomial binomial trinomial",
+    "is this a monomial",
+    "is this a binomial",
+    "is this a trinomial",
+    "classify the expression",
+    "is 10pq a binomial"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count unlike terms",
+     "explain": "Count the number of unlike terms in the expression"
+    },
+    {
+     "step": 2,
+     "action": "classify",
+     "explain": "1 = monomial, 2 = binomial, 3 = trinomial, 4+ = polynomial (not specifically named)"
+    },
+    {
+     "step": 3,
+     "action": "verify polynomial",
+     "explain": "All classifications (monomial, binomial, trinomial) are types of polynomials, so confirm the expression is a polynomial with one or more unlike terms"
+    }
+   ]
+  },
+  {
+   "id": "c7m10.6.1",
+   "title": "Finding Value of an Expression",
+   "section": "10.6",
+   "definition": "To find the value of an expression, substitute the given value(s) of variable(s) and compute. For two variables, both values are needed.",
+   "formula": "value = substitute variable values and compute",
+   "key_idea": "Substitute variable values, then compute following order of operations.",
+   "textbook_ref": "gemh110.txt lines 297-361",
+   "question_patterns": [
+    "find value of expression for x = ",
+    "find value when n = ",
+    "find value if m = 2",
+    "find value if p = -2",
+    "find value when x = -1",
+    "find value for a = 3 b = 2",
+    "find value if a = 2 b = -2",
+    "simplify and find value if x = 2",
+    "simplify and find value if x = 3 a = -1 b = -2",
+    "what should value of a if expression equals 5"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute values",
+     "explain": "Replace each variable with its given value"
+    },
+    {
+     "step": 2,
+     "action": "compute powers first",
+     "explain": "Calculate x^2, x^3 etc. first"
+    },
+    {
+     "step": 3,
+     "action": "multiply and divide",
+     "explain": "Perform multiplication and division"
+    },
+    {
+     "step": 4,
+     "action": "add and subtract",
+     "explain": "Perform addition and subtraction last"
+    },
+    {
+     "step": 5,
+     "action": "if simplifying first",
+     "explain": "Combine like terms, then substitute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh110.txt lines 132-147",
+   "concept": "c7m10.3.1",
+   "question_type": "identify_terms_coefficients",
+   "question_pattern": "identify terms which are not constants and give numerical coefficients",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list terms",
+     "explain": "Separate each term (with sign)"
+    },
+    {
+     "step": 2,
+     "action": "exclude constants",
+     "explain": "Identify terms that are pure numbers"
+    },
+    {
+     "step": 3,
+     "action": "find coefficient",
+     "explain": "Numerical factor of each non-constant term"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh110.txt lines 149-168",
+   "concept": "c7m10.3.1",
+   "question_type": "find_coefficient_of_variable",
+   "question_pattern": "what is the coefficient of {var} in {expression}",
+   "extracted_variables": {
+    "var": "variable to find coefficient of",
+    "expression": "the algebraic expression"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find term with variable",
+     "explain": "Identify which term contains the variable"
+    },
+    {
+     "step": 2,
+     "action": "remaining part is coefficient",
+     "explain": "The rest of the term (besides the variable) is the coefficient"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gemh110.txt lines 212-236",
+   "concept": "c7m10.4.1",
+   "question_type": "classify_like_unlike",
+   "question_pattern": "state whether pairs are like or unlike terms with reasons",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "extract factors",
+     "explain": "List factors of each term"
+    },
+    {
+     "step": 2,
+     "action": "compare algebraic factors",
+     "explain": "Check if variables and powers match"
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "Same = like, different = unlike"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gemh110.txt lines 311-324",
+   "concept": "c7m10.6.1",
+   "question_type": "find_value_one_variable",
+   "question_pattern": "find value of expressions for x = {val}",
+   "extracted_variables": {
+    "val": "value of x"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute",
+     "explain": "Replace x with the given value"
+    },
+    {
+     "step": 2,
+     "action": "compute powers",
+     "explain": "Calculate x^2, x^3 first"
+    },
+    {
+     "step": 3,
+     "action": "multiply",
+     "explain": "Perform multiplications"
+    },
+    {
+     "step": 4,
+     "action": "add/subtract",
+     "explain": "Complete the calculation"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gemh110.txt lines 326-341",
+   "concept": "c7m10.6.1",
+   "question_type": "find_value_negative",
+   "question_pattern": "find value of expressions when n = {val}",
+   "extracted_variables": {
+    "val": "value of n (possibly negative)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute",
+     "explain": "Replace n with the given value"
+    },
+    {
+     "step": 2,
+     "action": "compute powers",
+     "explain": "Note: (-n)^2 = n^2, (-n)^3 = -n^3"
+    },
+    {
+     "step": 3,
+     "action": "combine",
+     "explain": "Add/subtract the parts"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "gemh110.txt lines 349-361",
+   "concept": "c7m10.6.1",
+   "question_type": "find_value_two_variables",
+   "question_pattern": "find value of expressions for a = {av}, b = {bv}",
+   "extracted_variables": {
+    "av": "value of a",
+    "bv": "value of b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute both",
+     "explain": "Replace a and b with given values"
+    },
+    {
+     "step": 2,
+     "action": "compute powers",
+     "explain": "Calculate a^2, b^2, a^3, b^3"
+    },
+    {
+     "step": 3,
+     "action": "multiply",
+     "explain": "Calculate products like 2ab"
+    },
+    {
+     "step": 4,
+     "action": "combine",
+     "explain": "Add/subtract to get final value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "gemh110.txt lines 247-296",
+   "questions": [
+    "Get algebraic expressions: subtraction of z from y; half of sum of x and y; z multiplied by itself; one fourth of product p and q; x and y squared and added; 5 added to three times product m and n; product y and z subtracted from 10; sum a and b subtracted from their product",
+    "Identify terms and factors with tree diagrams: x-3; 1+x+x^2; y-y^3; 5xy^2+7x^2y; -ab+2b^2-3a^2; -4x+5; -4x+5y; 5y+3y^2; xy+2x^2y^2; pq+q; 1.2ab-2.4b+3.6a; x+3/4+1/4; 0.1p^2+0.2q^2",
+    "Identify numerical coefficients: 5-3t^2; 1+t+t^2+t^3; x+2xy+3y; 100m+1000n; -p^2q^2+7pq; 1.2a+0.8b; 3.14r^2; 2(l+b); 0.1y+0.01y^2",
+    "Identify terms with x and coefficient of x: y^2x+y; 13y^2-8yx; x+y+2; 5+z+zx; 1+x+xy; 12xy^2+25; 7x+xy^2. Identify terms with y^2 and coefficient.",
+    "Classify as monomials, binomials, trinomials: 4y-7z; y^2; x+y-xy; 100; ab-a-b; 5-3t; 4p^2q-4pq^2; 7mn; z^2-3z+8; a^2+b^2; z^2+z; 1+x+x^2",
+    "State like or unlike: 1,100; -7x,x; -29x,-29y; 14xy,42yx; 4m^2p,4mp^2; 12xz,12x^2z^2",
+    "Identify like terms in: -xy^2,-4yx^2,8x^2,2xy^2,7y,-11x^2,-100x,-11yx,20x^2y,-6x^2,y,2xy,3x; 10pq,7p,8q,-p^2q^2,-7qp,-100q,-23,12q^2p^2,-5p^2,41,2405p,78qp,13p^2q,qp^2,701p^2"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "gemh110.txt lines 363-393",
+   "questions": [
+    "If m=2, find value: m-2; 3m-5; 9-5m; 3m^2-2m-7; 5m/4",
+    "If p=-2, find value: 4p+7; -3p^2+4p+7; -2p^3-3p^2+4p+7",
+    "Find value when x=-1: 2x-7; -x+2; x^2+2x+1; 2x^2-x-2",
+    "If a=2, b=-2, find value: a^2+b^2; a^2+ab+b^2; a^2-b^2",
+    "When a=0, b=-1, find value: 2a+2b; 2a^2+b^2+1; 2a^2b+2ab^2+ab; a^2+ab+2",
+    "Simplify and find value if x=2: x+7+4(x-5); 3(x+2)+5x-7; 6x+5(x-2); 4(2x-1)+3x+11",
+    "Simplify and find value if x=3, a=-1, b=-2: 3x-5-x+9; 2-8x+4x+4; 3a+5-8a+1; 10-3b-4-5b; 2a-2b-4-5+a",
+    "If z=10, find z^3-3(z-10). If p=-10, find p^2-2p-100",
+    "What should value of a if 2x^2+x-a equals 5 when x=0?",
+    "Simplify and find value when a=5, b=-3: 2(a^2+ab)+3-ab"
+   ]
+  }
+ ],
+ "source_link": "title-matched to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_002",
+   "title": "c11_biotech_cbse_09_002",
+   "questions": [
+    {
+     "q": "A researcher performs Sanger sequencing of a novel human gene and submits the raw chromatogram and base-called sequence to a public repository. Which database category does this submission belong to, and why?",
+     "a": "Primary database — because the data is original experimental output deposited directly by the generator without curation or analysis. A wrong answer (e.g., \"secondary\" or \"composite\") reveals the student confuses data origin with data utility; they may think any publicly accessible database is secondary because it's \"processed\" by the website interface, not understanding that primary refers to the *source* of the data, not the access method.",
+     "self_check": true
+    },
+    {
+     "q": "UniProtKB/Swiss-Prot entries contain manually reviewed protein sequences with annotated function, domains, and literature citations. A student claims: \"Since UniProt has protein sequences, it must be a primary database like GenBank.\" Explain why this reasoning is incorrect.",
+     "a": "UniProt is a secondary database because its sequences are *derived* from primary nucleotide databases (GenBank/EMBL/DDBJ) through translation and expert curation — the protein sequences are not submitted directly by wet-lab experimenters. The student's error reveals a \"content-type confusion\": they classify by molecular entity (DNA vs protein) rather than by data provenance (original submission vs curated derivation). This is a senior-secondary specific misconception where molecular biology knowledge overrides bioinformatics classification logic.",
+     "self_check": true
+    },
+    {
+     "q": "You are studying the BRCA1 gene and need: (i) the original submitted genomic sequence, (ii) the curated protein sequence with known pathogenic variants, and (iii) a single page linking the gene, protein, pathways, and associated diseases. Name one database for each requirement and justify your choice using the primary/secondary/composite framework.",
+     "a": "(i) GenBank (primary) — stores original submitted genomic sequences. (ii) UniProtKB/Swiss-Prot (secondary) — provides expert-curated protein sequences with variant annotations. (iii) OMIM or KEGG (composite) — integrates gene, protein, pathway, and disease data from multiple sources. A wrong answer reveals inability to match task requirements to database tier: e.g., choosing GenBank for (ii) shows the student doesn't understand that primary databases lack curated variant annotations, or choosing UniProt for (iii) shows they miss that secondary databases focus on one data type (protein) rather than multi-entity integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the update propagation delay across the three database tiers. If a researcher corrects a base-call error in their GenBank entry today, explain the sequence and approximate timing of updates in a related UniProt entry and an OMIM entry. What does this reveal about data flow direction?",
+     "a": "GenBank (primary) updates immediately upon researcher submission. UniProt (secondary) updates after curation pipeline runs — typically days to weeks, as curators must re-translate, re-annotate, and review. OMIM (composite) updates last — weeks to months — as it aggregates from multiple secondary sources and requires editorial review. This reveals unidirectional data flow: primary → secondary → composite. A wrong answer (e.g., \"all update simultaneously\" or \"OMIM updates first\") reveals the student doesn't grasp the dependency chain: secondary databases *depend* on primary data, composites *depend* on secondary curation.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"Composite databases are always better because they have everything in one place. We should never use primary or secondary databases directly.\" Evaluate this claim with two specific counterexamples where a researcher *must* use primary or secondary databases instead.",
+     "a": "Claim is false. Counterexample 1: A structural biologist needs the *exact* deposited PDB coordinates (primary) to reproduce an electron density map — composite databases may show simplified or outdated coordinates. Counterexample 2: A curator building a new motif database needs UniProt's (secondary) manually reviewed annotations with evidence codes — composites like KEGG don't expose curation metadata. The student's error reveals \"convenience bias\": assuming integration always adds value without loss of granularity, provenance, or timeliness. Senior-secondary students often miss that each tier serves distinct scientific purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text-based) that a bioinformatician would use to choose between primary, secondary, and composite databases for a new project. Include at least four decision nodes with yes/no branches, covering data rawness, curation need, multi-entity integration, and version control requirements.",
+     "a": "```\nSTART: What is your primary need?\n├─ Need raw experimental data with original submitter metadata? → YES → PRIMARY (GenBank, PDB, SRA)\n│   └─ NO → Need expert-curated, annotated, non-redundant data for one molecular type?\n├─ YES → SECONDARY (UniProt, Pfam, PROSITE)\n│   └─ NO → Need integrated view across genes, proteins, pathways, diseases, literature?\n├─ YES → COMPOSITE (OMIM, KEGG, NCBI Entrez, Ensembl)\n│   └─ NO → Need to track exact version history for reproducibility?\n├─ YES → PRIMARY (accession.version system)\n│   └─ NO → Re-evaluate requirements\n```\nA poor answer (e.g., a linear list without branching) reveals the student cannot model the multi-criteria decision process that defines bioinformatics workflow design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

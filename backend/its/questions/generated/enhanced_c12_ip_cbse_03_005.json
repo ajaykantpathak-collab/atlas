@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_005",
+   "title": "c12_ip_cbse_03_005",
+   "questions": [
+    {
+     "q": "Name the OSI layer at which a switch operates and state its primary forwarding criterion.",
+     "a": "A switch operates at **Layer 2 (Data Link Layer)** and forwards frames based on **destination MAC address**. A wrong answer (e.g., “Layer 3 / IP address”) reveals confusion between switching and routing — a critical error in board exams where “switch forwards by MAC, router forwards by IP” is a frequent 1‑mark differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a hub is considered less efficient than a switch in a LAN with more than 5 active devices.",
+     "a": "A hub is a **Layer 1 repeater** that broadcasts every incoming bit to **all ports**, creating a single collision domain; all devices share bandwidth and collisions increase with traffic. A switch creates **separate collision domains per port** and forwards only to the intended MAC, giving dedicated bandwidth. If a student says “hub is slower because it’s old” without mentioning collision domains or broadcasting, they lack the conceptual understanding needed for “compare hub vs switch” board questions.",
+     "self_check": true
+    },
+    {
+     "q": "A small office has two separate LANs (LAN‑A: 192.168.1.0/24, LAN‑B: 192.168.2.0/24) that need to communicate. Which device is required, and at which OSI layer does it operate? Justify your choice.",
+     "a": "A **router (Layer 3)** is required because it routes packets between **different IP networks** using IP addresses and routing tables. A switch or hub cannot cross subnet boundaries; a gateway could but is overkill for simple inter‑LAN routing. A wrong choice (e.g., “switch with VLANs”) shows inability to map the problem (inter‑network communication) to the correct device function — a common JEE/CUET trap where “Layer 3 = routing between networks” is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of a **modem** and a **router** in a home broadband connection. Why are both needed even though a “Wi‑Fi router” often integrates both?",
+     "a": "A **modem (Layer 1)** converts the ISP’s physical signal (coax/fiber/DSL) to digital Ethernet; a **router (Layer 3)** performs NAT, DHCP, firewall, and Wi‑Fi access point functions for the home LAN. An integrated “Wi‑Fi router” contains both internally, but logically they remain distinct: without the modem, no digital signal enters the premises; without the router, multiple devices cannot share the single public IP. A student who says “they’re the same thing” misses the layer separation and cannot troubleshoot “modem lights OK but no internet” vs “router WAN port down” scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: “A gateway is just a router with extra software; therefore, in a pure TCP/IP network, a gateway is unnecessary.” Defend or refute with technical reasoning.",
+     "a": "**Refute.** A gateway operates at **Layers 4‑7** to translate **application‑layer protocols** (e.g., HTTP ↔ MQTT, IPv4 ↔ IPv6, email SMTP ↔ X.400). A router only handles Layer 3 packet forwarding. In a pure TCP/IP network, a gateway is still needed when **application protocols differ** (e.g., connecting a legacy mainframe using SNA to an IP network). Board exams often ask “gateway vs router” — the key differentiator is **protocol conversion**, not just routing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal network diagram for a school with three labs (each 25 PCs), an admin block (10 PCs), and a single 100 Mbps fiber internet connection. Label every device (hub/switch/router/repeater/gateway/modem) and justify each placement. Assume max cable run 100 m; labs are 80 m from the central rack.",
+     "a": "**Expected answer criteria:**  \n- One **modem/ONT** at fiber termination (Layer 1).  \n- One **router** (Layer 3) connecting to modem, performing NAT/DHCP for the whole school.  \n- One **gateway** (Layer 4‑7) only if protocol translation is needed (e.g., legacy admin software); otherwise router suffices.  \n- A **core switch** (Layer 2) in the central rack uplinked to router.  \n- One **access switch per lab** (Layer 2) connected to core switch via 80 m runs (no repeater needed).  \n- Admin block similarly on an access switch.  \n- **No hubs** (obsolete, single collision domain).  \n- **Repeater** only if any run >100 m.  \nA poor answer uses hubs, omits the router, places repeater unnecessarily, or confuses gateway with router. This tests synthesis of all six devices in a realistic topology — a CUET/IPMAT case‑based pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

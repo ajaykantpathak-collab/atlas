@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_8",
+   "title": "c8_physics_ch3_8",
+   "questions": [
+    {
+     "q": "Name the three types of non-contact forces and give one everyday example where each force acts without physical contact.",
+     "a": "The three non-contact forces are: (1) Gravitational force — Earth pulling a falling mango downwards; (2) Magnetic force — a magnet attracting iron pins from a short distance; (3) Electrostatic force — a rubbed plastic ruler attracting small paper pieces without touching them. A wrong answer that lists friction or muscular force reveals the student still confuses contact and non-contact categories; missing any one of the three shows incomplete recall of the classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Magnetic force and electrostatic force are the same because both can attract objects without touching.\" Explain why this statement is incorrect, using the source of each force and the nature of interaction.",
+     "a": "The statement is incorrect because magnetic force originates from magnets or moving charges and acts only on magnetic materials (iron, nickel, cobalt) or other magnets, with distinct north-south poles causing attraction or repulsion; electrostatic force originates from stationary electric charges and acts on any charged object, with like charges repelling and unlike charges attracting. A wrong answer that focuses only on \"both attract\" shows the student has not grasped the different physical origins (magnetism vs static charge) and the different rules for attraction/repulsion.",
+     "self_check": true
+    },
+    {
+     "q": "A bar magnet is brought near a heap containing iron nails, aluminium foil pieces, and plastic bits. Predict which materials will be attracted and explain why the others remain unaffected.",
+     "a": "Only the iron nails will be attracted because magnetic force acts strongly on ferromagnetic materials like iron, nickel, and cobalt; aluminium is paramagnetic (very weak attraction not visible in this setup) and plastic is non-magnetic, so neither responds noticeably. A wrong answer claiming aluminium or plastic gets attracted reveals the student thinks magnetic force works on all metals or all objects, confusing it with gravity which acts on all masses.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balloons are rubbed with a wool cloth and then hung by strings so they hang freely side by side. Describe what happens and explain the non-contact force responsible, including why the force is repulsive.",
+     "a": "The balloons will move apart (repel) because rubbing transfers electrons from wool to each balloon, giving both a negative charge; like charges repel through electrostatic force acting across the air gap. A wrong answer saying they attract shows the student thinks rubbing gives opposite charges or confuses electrostatic attraction (between unlike charges) with this like-charge situation.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"Gravity is the strongest non-contact force because it pulls everything down.\" Evaluate this claim by comparing the relative strengths of gravitational, magnetic, and electrostatic forces for small objects like a paper clip.",
+     "a": "The claim is false for small objects: a small magnet can lift a paper clip against the entire Earth's gravitational pull, showing magnetic force is far stronger than gravity at short distances; similarly, a charged comb can lift paper bits against gravity. The student's error comes from experiencing gravity constantly (weight) while magnetic/electrostatic forces are less obvious in daily life, leading to an incorrect strength comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a plastic ruler, wool cloth, and small paper pieces to demonstrate that electrostatic force is a non-contact force. List the steps and the observation that proves the force acts without touching.",
+     "a": "Steps: (1) Tear paper into tiny bits and spread on table. (2) Rub plastic ruler vigorously with wool cloth for 30 seconds. (3) Slowly bring ruler close to paper bits without touching them. (4) Observe paper bits jumping up to stick to the ruler. The key observation: paper bits move upward and attach to the ruler while a visible air gap remains, proving the force acted across distance without contact. A poor answer that requires the ruler to touch the paper first shows the student has not internalised the \"non-contact\" aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

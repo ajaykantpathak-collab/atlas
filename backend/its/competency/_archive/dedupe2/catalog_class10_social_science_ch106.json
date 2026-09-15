@@ -1,0 +1,487 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 106,
+ "chapter_title": "Manufacturing Industries",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess106.txt",
+ "concepts": [
+  {
+   "id": "jess.106.1",
+   "title": "Definition and Economic Importance of Manufacturing",
+   "section": "Importance of Manufacturing",
+   "definition": "The process of converting primary raw materials into more valuable, finished goods in large quantities using machinery.",
+   "formula": "",
+   "key_idea": "Manufacturing forms the economic backbone by modernizing agriculture and generating secondary and tertiary jobs.",
+   "textbook_ref": "jess106.txt lines 15-58",
+   "question_patterns": [
+    "What is meant by the term manufacturing?",
+    "Explain why the manufacturing sector is considered the backbone of economic development.",
+    "How does industrial development help in eradicating poverty and unemployment?",
+    "Analyze the relationship between agriculture and manufacturing industries.",
+    "In what ways does the export of manufactured goods benefit a nation's economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define manufacturing",
+     "explain": "Define it as the large-scale processing of raw materials into finished, high-value goods."
+    },
+    {
+     "step": 2,
+     "action": "Explain economic linkages",
+     "explain": "Analyze how it modernizes agriculture and reduces dependence on farm incomes by creating alternative jobs."
+    },
+    {
+     "step": 3,
+     "action": "Highlight national benefits",
+     "explain": "Discuss its role in reducing regional disparities, boosting exports, and earning foreign exchange."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.2",
+   "title": "Classification of Industries",
+   "section": "Classification of Industries",
+   "definition": "Categorizing manufacturing units based on raw materials, main role, capital investment, ownership, and bulk or weight of goods.",
+   "formula": "",
+   "key_idea": "Systematic grouping helps analyze industrial characteristics, scale, and operational models.",
+   "textbook_ref": "jess106.txt lines 59-115",
+   "question_patterns": [
+    "Classify industries on the basis of source of raw materials used.",
+    "What is the difference between a basic industry and a consumer industry?",
+    "How are industries classified on the basis of capital investment?",
+    "Distinguish between public sector, private sector, joint sector, and cooperative sector industries.",
+    "Identify whether a given industry is heavy or light based on its raw materials."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify classification criteria",
+     "explain": "Determine the basis of categorization (e.g., raw material source, ownership, capital, or bulk)."
+    },
+    {
+     "step": 2,
+     "action": "Group the industry",
+     "explain": "Apply the specific criteria to classify the industry (e.g., agro-based vs. mineral-based, or public vs. private)."
+    },
+    {
+     "step": 3,
+     "action": "Verify with examples",
+     "explain": "Confirm the classification using standard textbook examples like BHEL, TISCO, or cooperative sugar mills."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.3",
+   "title": "Cotton and Jute Textile Industries",
+   "section": "Agro-based Industries",
+   "definition": "Industries that process agricultural fibers like cotton and raw jute into yarns, fabrics, and finished textile products.",
+   "formula": "",
+   "key_idea": "These industries are highly labor-intensive and localized near raw material sources, water bodies, and transport hubs.",
+   "textbook_ref": "jess106.txt lines 120-185",
+   "question_patterns": [
+    "Why was the cotton textile industry historically concentrated in Maharashtra and Gujarat?",
+    "Explain the factors responsible for the concentration of jute mills along the Hugli basin.",
+    "What challenges did traditional Indian cotton weavers face during the colonial period?",
+    "Describe the unique position of the textile industry in India's economy.",
+    "How does the jute industry support the agricultural and transport sectors in West Bengal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify geographical factors",
+     "explain": "Analyze factors like proximity to raw materials, moist climate, or water bodies."
+    },
+    {
+     "step": 2,
+     "action": "Analyze socio-economic factors",
+     "explain": "Examine the availability of cheap labor, transport networks, and port facilities."
+    },
+    {
+     "step": 3,
+     "action": "Explain industry linkages",
+     "explain": "Highlight the industry's connection with agriculture and employment generation."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.4",
+   "title": "Sugar Industry Characteristics",
+   "section": "Sugar Industry",
+   "definition": "An agro-based, seasonal industry that processes sugarcane to produce sugar, gur, and khandsari.",
+   "formula": "",
+   "key_idea": "Sugarcane is bulky and loses sucrose content during long transit, making proximity to fields and cooperative ownership critical.",
+   "textbook_ref": "jess106.txt lines 186-210",
+   "question_patterns": [
+    "Why is the sugar industry seasonal in nature and suited to the cooperative sector?",
+    "Explain the factors causing the sugar industry to shift from northern to southern and western states in India.",
+    "What is the main raw material of the sugar industry and why must it be crushed quickly?",
+    "Where are the majority of sugar mills located in India?",
+    "How does cooler climate benefit the sugar crushing season in Maharashtra?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain raw material constraints",
+     "explain": "Describe the bulky nature of sugarcane and the rapid decline of sucrose content after harvest."
+    },
+    {
+     "step": 2,
+     "action": "Analyze cooperative suitability",
+     "explain": "Explain why cooperative models work best for seasonal harvesting and processing."
+    },
+    {
+     "step": 3,
+     "action": "Contrast regional shifts",
+     "explain": "Compare the climatic conditions and sucrose yields of northern states with southern and western states."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.5",
+   "title": "Iron and Steel Industry Raw Material Requirements",
+   "section": "Iron and Steel Industry",
+   "definition": "A basic heavy industry where iron ore, coking coal, and limestone are blended in a specific ratio to produce steel.",
+   "formula": "iron_ore = 4 * limestone",
+   "key_idea": "Production of steel requires raw materials (iron ore, coking coal, limestone) in an approximate ratio of 4:2:1.",
+   "textbook_ref": "jess106.txt lines 215-245",
+   "question_patterns": [
+    "Calculate the amount of iron ore required if a steel plant uses limestone of weight ...",
+    "What is the required mass of coking coal when the limestone used is ...",
+    "Find the quantity of iron ore needed for a steel production batch using ... tons of limestone.",
+    "Determine the coking coal requirement given ... tons of limestone based on the standard 4:2:1 ratio.",
+    "How much iron ore is needed to match a limestone input of ... kilograms?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the limestone input weight",
+     "explain": "The limestone mass is given as the base unit in the 4:2:1 ratio.",
+     "compute": "limestone_mass = limestone"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 4 to find iron ore mass",
+     "explain": "The ratio of iron ore to limestone is 4:1.",
+     "compute": "iron_ore = 4 * limestone_mass"
+    }
+   ]
+  },
+  {
+   "id": "jess.106.6",
+   "title": "Aluminium Smelting Process and Location Factors",
+   "section": "Aluminium Smelting",
+   "definition": "The metallurgical process of extracting aluminium from bauxite ore, requiring massive electrical energy and raw materials.",
+   "formula": "",
+   "key_idea": "Light weight, corrosion resistance, and high conductivity make aluminium a crucial substitute for steel, copper, and zinc.",
+   "textbook_ref": "jess106.txt lines 246-270",
+   "question_patterns": [
+    "Why is aluminium smelting the second most important metallurgical industry in India?",
+    "What are the two prime location factors for setting up an aluminium smelting plant?",
+    "Name the raw material used in aluminium smelters and describe its physical properties.",
+    "In which Indian states are the major aluminium smelting plants located?",
+    "Explain how aluminium acts as a substitute for steel, copper, and zinc."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify raw materials",
+     "explain": "Identify bauxite as the bulky, dark reddish raw material."
+    },
+    {
+     "step": 2,
+     "action": "Analyze location factors",
+     "explain": "Highlight the dependency on a continuous, cheap supply of electricity and proximity to bauxite sources."
+    },
+    {
+     "step": 3,
+     "action": "List key properties",
+     "explain": "Explain the properties (lightness, conductivity, corrosion resistance) that drive its demand."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.7",
+   "title": "Chemical, Fertilizer, and Cement Industries",
+   "section": "Chemical Industries",
+   "definition": "Heavy and light manufacturing sectors producing inorganic/organic chemicals, plant nutrients, and construction binders.",
+   "formula": "",
+   "key_idea": "These industries rely heavily on bulk minerals, fossil fuels, and chemical processing, serving both industrial and consumer markets.",
+   "textbook_ref": "jess106.txt lines 271-315",
+   "question_patterns": [
+    "Distinguish between organic and inorganic chemical industries in India.",
+    "Why is the fertilizer industry centered around nitrogenous, phosphatic, and complex fertilizers?",
+    "Why does India have to import all of its potash requirements?",
+    "What are the essential raw materials required for the cement industry?",
+    "Explain the strategic significance of locating cement plants in Gujarat."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate chemical types",
+     "explain": "Distinguish organic chemicals (petrochemicals) from inorganic chemicals (acids, alkalies, soda ash)."
+    },
+    {
+     "step": 2,
+     "action": "Explain fertilizer components",
+     "explain": "Explain the NPK (Nitrogen, Phosphate, Potash) fertilizer components and the complete import of potash."
+    },
+    {
+     "step": 3,
+     "action": "Identify cement raw materials",
+     "explain": "List heavy raw materials for cement (limestone, silica, gypsum) and explain market access factors."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.8",
+   "title": "Automobile and Information Technology Industries",
+   "section": "Automobile Industry",
+   "definition": "High-tech and assembly sectors manufacturing transport vehicles and electronic/telecommunication hardware and software.",
+   "formula": "",
+   "key_idea": "Liberalization and rapid technological growth have made these sectors major drivers of employment and urban industrial hubs.",
+   "textbook_ref": "jess106.txt lines 316-345",
+   "question_patterns": [
+    "How did economic liberalization stimulate the growth of the automobile industry in India?",
+    "Which city has emerged as the electronic capital of India and why?",
+    "What is the major impact of the IT and electronics industry on employment in India?",
+    "Name the key centers of the automobile industry in India.",
+    "Describe the range of products covered by the electronics industry."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze liberalization impact",
+     "explain": "Explain the post-liberalization demand boost for automobiles with new models."
+    },
+    {
+     "step": 2,
+     "action": "Identify IT clusters",
+     "explain": "Identify Bengaluru as the electronic capital and map other major IT clusters."
+    },
+    {
+     "step": 3,
+     "action": "Highlight employment generation",
+     "explain": "Highlight the employment generation capacity, especially for women, in the IT sector."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.9",
+   "title": "Industrial Pollution and Environmental Degradation",
+   "section": "Industrial Pollution and Environmental Degradation",
+   "definition": "The contamination of air, water, land, and acoustic environments due to untreated industrial emissions, effluents, and wastes.",
+   "formula": "",
+   "key_idea": "Industrial growth causes severe environmental externalities, including toxic gas releases, thermal water pollution, and noise stress.",
+   "textbook_ref": "jess106.txt lines 346-400",
+   "question_patterns": [
+    "What are the four main types of pollution caused by industries?",
+    "How do chemical and paper factories contribute to air pollution?",
+    "Explain the causes and consequences of thermal pollution of water.",
+    "How does soil pollution lead to the contamination of groundwater reserves?",
+    "Describe the physiological effects of noise pollution caused by industrial machinery."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify pollution categories",
+     "explain": "Identify the four categories of industrial pollution: air, water, land, and noise."
+    },
+    {
+     "step": 2,
+     "action": "Describe specific pollutants",
+     "explain": "Describe the specific pollutants (e.g., sulfur dioxide, heavy metals, fly ash, thermal discharge)."
+    },
+    {
+     "step": 3,
+     "action": "Explain ecological impacts",
+     "explain": "Explain the ecological and health impacts of these pollutants on humans and ecosystems."
+    }
+   ]
+  },
+  {
+   "id": "jess.106.10",
+   "title": "Industrial Wastewater Pollution and Mitigation",
+   "section": "Control of Environmental Degradation",
+   "definition": "The quantitative multiplying effect of industrial wastewater on freshwater resources, and the methods to treat and reduce it.",
+   "formula": "polluted_freshwater = 8 * waste_water",
+   "key_idea": "One liter of industrial wastewater pollutes eight times its volume of clean freshwater.",
+   "textbook_ref": "jess106.txt lines 401-435",
+   "question_patterns": [
+    "Calculate the volume of freshwater polluted by ... liters of industrial wastewater.",
+    "How much freshwater is contaminated if a factory discharges ... liters of untreated effluents?",
+    "Find the total volume of clean water ruined when ... kiloliters of waste water are released.",
+    "Determine the freshwater pollution caused by ... cubic meters of industrial discharge.",
+    "If a chemical plant releases ... liters of effluent, how much freshwater does it pollute?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the volume of industrial wastewater discharged",
+     "explain": "The wastewater volume is given as the base unit.",
+     "compute": "waste_water_volume = waste_water"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the wastewater volume by 8",
+     "explain": "One liter of wastewater pollutes eight times the quantity of freshwater.",
+     "compute": "polluted_freshwater = 8 * waste_water_volume"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess106.txt lines 215-245",
+   "concept": "jess.106.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the amount of iron ore required if a steel plant uses {limestone} tons of limestone.",
+   "extracted_variables": {
+    "limestone": 150
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the limestone mass",
+     "explain": "The limestone mass is given as 150 tons.",
+     "compute": "limestone_mass = limestone"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 4 to find iron ore mass",
+     "explain": "The ratio of iron ore to limestone is 4:1.",
+     "compute": "iron_ore = 4 * limestone_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess106.txt lines 215-245",
+   "concept": "jess.106.5",
+   "question_type": "compute",
+   "question_pattern": "Find the quantity of iron ore needed for a steel production batch using {limestone} tons of limestone.",
+   "extracted_variables": {
+    "limestone": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the limestone mass",
+     "explain": "The limestone mass is given as 500 tons.",
+     "compute": "limestone_mass = limestone"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 4 to find iron ore mass",
+     "explain": "The ratio of iron ore to limestone is 4:1.",
+     "compute": "iron_ore = 4 * limestone_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess106.txt lines 401-435",
+   "concept": "jess.106.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate the volume of freshwater polluted by {waste_water} liters of industrial wastewater.",
+   "extracted_variables": {
+    "waste_water": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the volume of industrial wastewater discharged",
+     "explain": "The wastewater volume is 250 liters.",
+     "compute": "waste_water_volume = waste_water"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the wastewater volume by 8",
+     "explain": "One liter of wastewater pollutes eight times the quantity of freshwater.",
+     "compute": "polluted_freshwater = 8 * waste_water_volume"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess106.txt lines 401-435",
+   "concept": "jess.106.10",
+   "question_type": "compute",
+   "question_pattern": "If a chemical plant releases {waste_water} liters of effluent, how much freshwater does it pollute?",
+   "extracted_variables": {
+    "waste_water": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the volume of industrial wastewater discharged",
+     "explain": "The wastewater volume is 1200 liters.",
+     "compute": "waste_water_volume = waste_water"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the wastewater volume by 8",
+     "explain": "One liter of wastewater pollutes eight times the quantity of freshwater.",
+     "compute": "polluted_freshwater = 8 * waste_water_volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess106.txt lines 441-445",
+   "questions": [
+    "Which one of the following industries uses bauxite as a raw material? (a) Aluminium Smelting (b) Cement (c) Paper (d) Steel"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "jess106.txt lines 446-450",
+   "questions": [
+    "Which one of the following industries manufactures telephones, computer, etc.? (a) Steel (b) Electronic (c) Aluminium Smelting (d) Information Technology"
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "jess106.txt lines 451-453",
+   "questions": [
+    "What is manufacturing?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "jess106.txt lines 454-456",
+   "questions": [
+    "What are basic industries? Give an example."
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "jess106.txt lines 457-460",
+   "questions": [
+    "How do industries pollute the environment?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "jess106.txt lines 461-464",
+   "questions": [
+    "Discuss the steps to be taken to minimise environmental degradation by industry."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

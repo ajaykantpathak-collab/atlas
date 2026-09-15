@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_002",
+   "title": "c10_chem_cbse_02_002",
+   "questions": [
+    {
+     "q": "A student dips a strip of blue litmus paper into a colourless solution. The paper turns red. What is the nature of the solution? Name the ion responsible for this colour change.",
+     "a": "The solution is acidic. The hydrogen ion (H⁺) or hydronium ion (H₃O⁺) is responsible for turning blue litmus red.  \n**Wrong answer analysis:** If the student says \"basic\" or \"neutral\", they have reversed the litmus colour rule — a classic board-exam error. If they name \"OH⁻ ion\", they confuse the ion that affects red litmus (turns blue) with the one affecting blue litmus.",
+     "self_check": true
+    },
+    {
+     "q": "Phenolphthalein is colourless in acidic solution but turns pink in basic solution. Explain why this happens at the molecular level, using the equilibrium between the acidic (HIn) and basic (In⁻) forms of the indicator.",
+     "a": "Phenolphthalein (HIn) is a weak acid. In acidic medium, high [H⁺] shifts equilibrium HIn ⇌ H⁺ + In⁻ to the left (Le Chatelier's principle), so the colourless HIn form dominates. In basic medium, OH⁻ consumes H⁺, shifting equilibrium right, producing pink In⁻ ions.  \n**Wrong answer analysis:** If the student says \"phenolphthalein reacts with OH⁻ to form a pink compound\", they treat it as an irreversible chemical reaction instead of an equilibrium shift. This misconception leads to errors in titration questions where indicator choice depends on pH range, not stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three unlabelled test tubes containing dilute HCl, dilute NaOH, and distilled water. You have only turmeric indicator solution. Describe the step-by-step procedure to identify each solution using only this indicator. Write the expected observation for each.",
+     "a": "**Procedure:**  \n1. Add a few drops of turmeric indicator to each test tube.  \n2. Observe colour change.  \n**Observations:**  \n- Test tube with NaOH (base): Yellow turmeric turns red/reddish-brown.  \n- Test tube with HCl (acid): Yellow turmeric remains yellow (no change).  \n- Test tube with water (neutral): Yellow turmeric remains yellow (no change).  \n3. To distinguish acid from water, take the two unchanged solutions and add a drop of NaOH to each. The one that turns red was originally water; the one that stays yellow (or turns yellow if acid neutralises base) was acid — but simpler: add a known base to both; the acid will neutralise and may not turn red immediately, while water will turn red.  \n**Wrong answer analysis:** If the student says \"turmeric turns red in acid\", they confuse turmeric with litmus. Turmeric is base-specific — a frequent board trap. Also, if they cannot distinguish acid from water after step 2, they miss the need for a confirmatory step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of litmus and phenolphthalein for detecting the endpoint of a titration between a strong acid and a strong base. Why is phenolphthalein preferred in school labs for this specific titration?",
+     "a": "Litmus changes colour over a wide pH range (4.5–8.3), giving a gradual colour transition (purple) that makes the exact endpoint hard to pinpoint. Phenolphthalein changes sharply at pH 8.2–10 (colourless to pink), which coincides with the steep pH jump at the equivalence point of strong acid–strong base titration (pH ~7). The sharp, single-drop colour change of phenolphthalein gives a more accurate endpoint.  \n**Wrong answer analysis:** If the student says \"phenolphthalein is more sensitive\" without mentioning pH range or equivalence point alignment, they lack the conceptual link between indicator transition range and titration curve — a common competency-question failure.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds china rose indicator to a solution and observes a green colour. The student concludes the solution is a strong base. Evaluate this conclusion. Is it necessarily correct? Justify.",
+     "a": "The conclusion is **not necessarily correct**. China rose indicator turns green in basic medium, but it does not distinguish between strong and weak bases — a weak base like NaHCO₃ (pH ~8.3) also turns it green. The green colour only indicates basic nature (pH > 7), not base strength. To determine strength, one would need pH paper, a pH meter, or conductivity test.  \n**Wrong answer analysis:** If the student agrees, they confuse \"basic nature\" with \"base strength\" — a conceptual error that appears in assertion-reason questions. Board exams often test this distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using only household materials (no lab chemicals) to prepare a natural acid-base indicator and test it on three common kitchen substances (e.g., lemon juice, baking soda solution, tap water). List the materials, steps, and a table for recording observations.",
+     "a": "**Materials:** Red cabbage / beetroot / rose petals (any anthocyanin source), water, stove/pan, strainer, three small bowls, lemon juice, baking soda, tap water.  \n**Steps:**  \n1. Boil chopped red cabbage in water for 10 min to extract purple pigment. Cool and strain — this is the indicator.  \n2. Pour equal amounts of indicator into three bowls.  \n3. Add 1 tsp lemon juice to Bowl 1, 1 tsp baking soda solution to Bowl 2, 1 tsp tap water to Bowl 3. Stir.  \n4. Record colour: Bowl 1 (acid) → red/pink; Bowl 2 (base) → green/blue; Bowl 3 (neutral) → purple (no change).  \n**Table:** Columns: Substance | Nature (Acid/Base/Neutral) | Observed Colour.  \n**Poor answer reveals:** If the student uses turmeric as the \"prepared\" indicator (turmeric is already a powder, not prepared), or if they cannot predict the colour changes for cabbage indicator (red in acid, green in base), they lack transfer of the indicator concept to new natural sources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

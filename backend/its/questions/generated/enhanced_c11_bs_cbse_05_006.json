@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_006",
+   "title": "c11_bs_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define outsourcing in one sentence using the terms \"non-core activity,\" \"external agency,\" and \"core competency.\"",
+     "a": "Outsourcing is the delegation of non-core activities to an external agency so the firm can concentrate on its core competency. A wrong answer that says \"outsourcing means sending jobs to another country\" reveals the offshoring misconception; a response missing \"core competency\" shows the student views outsourcing as mere cost-cutting rather than strategic focus.",
+     "self_check": true
+    },
+    {
+     "q": "A textile manufacturer in Tirupur outsources its fabric dyeing to a specialised effluent-treatment-compliant dyeing unit. Explain why this is outsourcing and not merely subcontracting, using the concept of \"strategic control over the process.\"",
+     "a": "In outsourcing, the client retains strategic control over *what* is done and *quality standards* while the vendor decides *how* to execute; in subcontracting, the principal often dictates the method. The textile firm sets colour fastness and environmental standards (strategic control) but lets the dyeing unit choose chemicals and machinery (operational control). A wrong answer equating the two indicates the student cannot distinguish governance models.",
+     "self_check": true
+    },
+    {
+     "q": "A Mumbai-based fintech startup is deciding whether to outsource its customer-onboarding KYC verification. List the three decision bases (cost, expertise, focus) and give one specific data point the startup should collect for *each* base to make an evidence-based decision.",
+     "a": "Cost: compare in-house KYC cost per customer (salary + software + office space) vs. vendor quote per verification. Expertise: verify vendor’s RBI-compliance track record and error-rate percentage. Focus: estimate management hours currently spent on KYC audits that could shift to product development. Missing any base or giving generic \"saves money\" without a measurable metric shows inability to apply the framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of outsourcing in a traditional brick-and-mortar retail chain versus a pure-play e-commerce platform. Identify two activities each would likely outsource and two they would keep in-house, justifying with \"core vs. non-core\" logic.",
+     "a": "Retail chain: outsource (1) store cleaning/security (non-core, standardised), (2) payroll processing (non-core, compliance-heavy); keep in-house (1) merchandise buying (core — defines brand), (2) store layout design (core — customer experience). E-commerce: outsource (1) last-mile delivery (non-core, scale-intensive), (2) payment gateway management (non-core, specialised tech); keep in-house (1) recommendation algorithm (core — differentiation), (2) seller onboarding policy (core — platform trust). Wrong classifications reveal fuzzy understanding of \"core competency\" in different business models.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Outsourcing always reduces operational risk because the vendor bears the responsibility.\" Use the concepts of \"vendor lock-in,\" \"data confidentiality,\" and \"service-level agreements\" in your evaluation.",
+     "a": "The statement is false. Outsourcing *transfers* execution risk but *creates* new risks: vendor lock-in (switching costs make the firm dependent), data confidentiality breaches (vendor accesses sensitive customer/financial data), and SLA disputes (downtime penalties may not cover reputational loss). A student agreeing without caveats shows inability to evaluate risk trade-offs — a senior-secondary analytical gap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column \"Outsourcing Decision Matrix\" for a mid-sized Indian auto-component manufacturer. Columns: Activity, Core/Non-Core (with 1-line reason), Outsource? (Yes/No with primary basis: Cost/Expertise/Focus). Include at least 6 activities spanning manufacturing, R&D, and support functions.",
+     "a": "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost; (3) Material science research — Core (future IP) — No; (4) Prototype 3D printing — Non-core (intermittent need) — Yes, Expertise; (5) Canteen services — Non-core (zero strategic value) — Yes, Cost; (6) GST return filing — Non-core (compliance) — Yes, Expertise. A matrix missing \"reason\" column or using only \"Cost\" basis shows superficial application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

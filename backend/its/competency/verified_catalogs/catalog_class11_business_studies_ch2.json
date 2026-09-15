@@ -1,0 +1,662 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 2,
+ "chapter_title": "Forms of Business Organisation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs102.txt",
+ "concepts": [
+  {
+   "id": "c11bs.2.1",
+   "title": "Sole Proprietorship",
+   "section": "2.1",
+   "definition": "Sole proprietorship is a form of business organisation owned, managed, and controlled by a single individual who bears all the risk and receives all the profit.",
+   "formula": "",
+   "key_idea": "Sole proprietorship is the simplest form of business where one person owns, runs, and is fully liable for the business.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define sole proprietorship and list its features.",
+    "Explain the merits of sole proprietorship.",
+    "What are the limitations of sole proprietorship?",
+    "Why is sole proprietorship suitable for small business?",
+    "Explain unlimited liability in sole proprietorship."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sole proprietorship",
+     "explain": "Sole proprietorship is a business owned, controlled, and managed by one person who contributes capital, takes decisions, and receives all profits."
+    },
+    {
+     "step": 2,
+     "action": "List the merits",
+     "explain": "Merits include quick decision-making, direct incentive to work, personal contact with customers, flexibility of operations, and ease of formation and closure."
+    },
+    {
+     "step": 3,
+     "action": "List the demerits",
+     "explain": "Demerits include limited capital, limited managerial ability, unlimited liability, lack of continuity, and limited scope for expansion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define sole proprietorship and state any two merits.",
+     "solution": "Sole proprietorship is a one-person owned business. Two merits are quick decision-making and direct incentive to work hard since the owner keeps all profits.",
+     "answer": "Sole proprietorship is owned by one person; merits are quick decisions and direct incentive."
+    },
+    {
+     "question": "Explain unlimited liability in sole proprietorship.",
+     "solution": "In sole proprietorship the owner's personal assets can be used to pay business debts, meaning liability is not limited to the capital invested.",
+     "answer": "Unlimited liability means personal assets can be used to settle business debts."
+    },
+    {
+     "question": "Why is sole proprietorship suitable for small business?",
+     "solution": "It needs little capital, is easy to start and close, allows quick decisions, and suits small-scale operations where personal supervision is possible.",
+     "answer": "Low capital need, easy formation, and quick decisions make it suitable for small business."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the merits and demerits of sole proprietorship.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is sole proprietorship considered the simplest form of business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the effect of unlimited liability on the sole proprietor.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.2",
+   "title": "Partnership",
+   "section": "2.2",
+   "definition": "Partnership is a form of business organisation where two or more persons agree to share the profits of a business carried on by all or any of them acting for all.",
+   "formula": "",
+   "key_idea": "Partnership is an association of two or more persons who jointly own, manage, and share profits of a business under a partnership deed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define partnership and list its features.",
+    "Explain the merits of partnership.",
+    "What are the limitations of partnership?",
+    "What is a partnership deed and why is it important?",
+    "Explain unlimited liability in partnership."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define partnership",
+     "explain": "Partnership is an agreement between two or more persons to share the profits of a business carried on by all or any of them acting for all, governed by a partnership deed."
+    },
+    {
+     "step": 2,
+     "action": "List the merits",
+     "explain": "Merits include ease of formation, more capital than sole proprietorship, balanced decision-making, sharing of risk, and secrecy of affairs."
+    },
+    {
+     "step": 3,
+     "action": "List the demerits",
+     "explain": "Demerits include unlimited liability, limited capital (still small), lack of continuity, possibility of conflict among partners, and restricted transfer of interest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define partnership and state any two features.",
+     "solution": "Partnership is an agreement between two or more persons to share profits of a business. Two features are two or more members and an agreement (partnership deed) among them.",
+     "answer": "Partnership is a profit-sharing agreement among two or more persons."
+    },
+    {
+     "question": "Explain the merits of partnership over sole proprietorship.",
+     "solution": "Partnership has more capital, shared risk, combined managerial skills, and balanced decision-making compared to sole proprietorship.",
+     "answer": "More capital, shared risk, and combined skills are merits of partnership."
+    },
+    {
+     "question": "What is a partnership deed?",
+     "solution": "A partnership deed is a written agreement among partners stating terms such as profit-sharing ratio, capital contribution, duties, and rules of the firm.",
+     "answer": "A partnership deed is the written agreement governing the partnership."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the merits and demerits of partnership.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is a partnership deed and what does it contain?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does partnership suffer from lack of continuity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.3",
+   "title": "Joint Hindu Family Business",
+   "section": "2.3",
+   "definition": "Joint Hindu Family business is a form of business organisation owned by members of a Hindu Undivided Family governed by the Hindu Law, where the eldest male member called the Karta manages the business.",
+   "formula": "",
+   "key_idea": "A Joint Hindu Family business is governed by Hindu Law, managed by the Karta, and members share profits by birthright; liability of members other than Karta is limited.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Joint Hindu Family business and explain its features.",
+    "Who is a Karta and what is his role?",
+    "Explain the merits of Joint Hindu Family business.",
+    "What are the limitations of Joint Hindu Family business?",
+    "How does membership arise in a Joint Hindu Family business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the form",
+     "explain": "A Joint Hindu Family business is owned by members of a Hindu Undivided Family and is governed by Hindu Law, with the Karta as the manager."
+    },
+    {
+     "step": 2,
+     "action": "Explain membership and the Karta",
+     "explain": "Membership is by birth in the family, and the eldest male member, called the Karta, has the right to manage and take decisions for the business."
+    },
+    {
+     "step": 3,
+     "action": "State merits and demerits",
+     "explain": "Merits include stability, shared control, limited liability of members, and quick decisions; demerits include limited capital, lack of outside talent, and dominance of the Karta."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define Joint Hindu Family business and state the role of the Karta.",
+     "solution": "It is a business owned by members of a Hindu Undivided Family governed by Hindu Law. The Karta, the eldest male member, manages and controls the business and has unlimited liability.",
+     "answer": "Joint Hindu Family business is governed by Hindu Law and managed by the Karta."
+    },
+    {
+     "question": "How does membership arise in a Joint Hindu Family business?",
+     "solution": "A person becomes a member by birth in the family; no agreement or capital contribution is required for membership, which is acquired by virtue of being born into the family.",
+     "answer": "Membership is acquired by birth in the Hindu Undivided Family."
+    },
+    {
+     "question": "Explain the liability of members in a Joint Hindu Family business.",
+     "solution": "The Karta has unlimited liability, while the other members (co-parceners) have liability limited to their share in the family property.",
+     "answer": "Karta has unlimited liability; other members have limited liability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features, merits, and demerits of Joint Hindu Family business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Who is a Karta and what are his powers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two limitations of Joint Hindu Family business.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.4",
+   "title": "Cooperative Society",
+   "section": "2.4",
+   "definition": "A cooperative society is a voluntary association of persons joined together with the motive of welfare of the members, governed by the Cooperative Societies Act, where each member has one vote.",
+   "formula": "",
+   "key_idea": "A cooperative society is formed on the principle of 'one member one vote' and works for mutual benefit rather than profit maximisation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define cooperative society and list its features.",
+    "Explain the merits of a cooperative society.",
+    "What are the limitations of a cooperative society?",
+    "Explain the principle of one member one vote.",
+    "How is a cooperative society formed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define cooperative society",
+     "explain": "A cooperative society is a voluntary association of persons who join together for mutual welfare, registered under the Cooperative Societies Act."
+    },
+    {
+     "step": 2,
+     "action": "List the merits",
+     "explain": "Merits include ease of formation, limited liability, stable life, democratic control through one member one vote, and service motive."
+    },
+    {
+     "step": 3,
+     "action": "List the demerits",
+     "explain": "Demerits include limited capital, lack of secrecy, lack of managerial skills, government control, and conflicts among members due to diverse interests."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define cooperative society and state any two features.",
+     "solution": "A cooperative society is a voluntary association of persons for mutual welfare. Two features are voluntary membership and the principle of one member one vote.",
+     "answer": "Cooperative society is a voluntary welfare association with one member one vote."
+    },
+    {
+     "question": "Explain the principle of one member one vote in a cooperative society.",
+     "solution": "Regardless of the capital contributed, every member has only one vote in the management, ensuring democratic control and equality among members.",
+     "answer": "Each member has one vote irrespective of capital contributed."
+    },
+    {
+     "question": "State two limitations of a cooperative society.",
+     "solution": "Two limitations are limited capital (members are often of limited means) and lack of managerial expertise (members may not be professionally skilled).",
+     "answer": "Limited capital and lack of managerial skills are limitations of a cooperative society."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the merits and demerits of a cooperative society.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is a cooperative society called a democratic form of business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How is a cooperative society registered?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.5",
+   "title": "Joint Stock Company",
+   "section": "2.5",
+   "definition": "A joint stock company is an artificial person created by law, having a separate legal entity, perpetual succession, and common seal, with capital divided into transferable shares.",
+   "formula": "",
+   "key_idea": "A company is an artificial legal person formed by law, owned by shareholders, managed by directors, with limited liability and perpetual existence.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define joint stock company and list its features.",
+    "Explain separate legal entity in a company.",
+    "What is perpetual succession of a company?",
+    "Explain limited liability of shareholders.",
+    "How is a company different from partnership?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a company",
+     "explain": "A joint stock company is an artificial person created by law with a separate legal entity, formed by an association of persons who contribute capital divided into shares."
+    },
+    {
+     "step": 2,
+     "action": "List the features",
+     "explain": "Features include separate legal entity, perpetual succession, limited liability, transferability of shares, common seal, and separation of ownership and management."
+    },
+    {
+     "step": 3,
+     "action": "Explain ownership and management",
+     "explain": "Shareholders own the company but elect directors to manage it, so ownership and management are separated, allowing professional management of large capital."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define joint stock company and state any two features.",
+     "solution": "A joint stock company is an artificial legal person created by law. Two features are separate legal entity and perpetual succession.",
+     "answer": "A company is an artificial legal person with separate entity and perpetual succession."
+    },
+    {
+     "question": "Explain separate legal entity of a company.",
+     "solution": "A company is distinct from its members; it can own property, enter contracts, and sue or be sued in its own name, independent of its shareholders.",
+     "answer": "A company exists independently of its members and can act in its own name."
+    },
+    {
+     "question": "What is perpetual succession of a company?",
+     "solution": "A company continues to exist irrespective of changes in membership due to death or transfer of shares; only law can end it, so it has perpetual succession.",
+     "answer": "A company's life is not affected by changes in its members."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the features of a joint stock company.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain limited liability of shareholders with an example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is a company called an artificial person?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.6",
+   "title": "Types of Companies: Private and Public",
+   "section": "2.6",
+   "definition": "A private company restricts the right to transfer shares, limits the number of members, and prohibits public invitation to subscribe to shares; a public company invites the public to subscribe to its shares and has a larger minimum membership.",
+   "formula": "",
+   "key_idea": "Private companies are closely held with restricted share transfer and limited members, while public companies raise capital from the public and have wider membership.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between private and public company.",
+    "What are the features of a private company?",
+    "Explain the features of a public company.",
+    "How does share transfer differ in private and public companies?",
+    "Why can a public company raise more capital than a private company?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a private company",
+     "explain": "A private company restricts the right to transfer shares, limits the number of members, and prohibits any invitation to the public to subscribe to its shares."
+    },
+    {
+     "step": 2,
+     "action": "Define a public company",
+     "explain": "A public company is one which is not a private company, has a minimum number of members, and can invite the public to subscribe to its shares through a prospectus."
+    },
+    {
+     "step": 3,
+     "action": "Compare key features",
+     "explain": "Compare on minimum members, share transfer, public invitation, minimum capital, number of directors, and scope of raising capital."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between a private company and a public company on any four bases.",
+     "solution": "Private company: minimum 2 members, restricts share transfer, no public issue, minimum 2 directors. Public company: minimum 7 members, free share transfer, can issue shares to public, minimum 3 directors.",
+     "answer": "Private companies restrict share transfer and have fewer members; public companies raise capital from the public."
+    },
+    {
+     "question": "Why can a public company raise more capital than a private company?",
+     "solution": "A public company can invite the public to buy its shares through a stock exchange, so it can raise large capital, unlike a private company which cannot approach the public.",
+     "answer": "Public companies can issue shares to the public, enabling larger capital."
+    },
+    {
+     "question": "Explain restriction on share transfer in a private company.",
+     "solution": "A private company's articles restrict the right of members to transfer shares, so shares cannot be freely sold in the open market without the consent of the company.",
+     "answer": "Share transfer in a private company is restricted by its articles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a private company and a public company.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two features of a private company.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is a public company suitable for large-scale business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.7",
+   "title": "Choice of Form of Business Organisation",
+   "section": "2.7",
+   "definition": "The choice of form of business organisation depends on factors such as nature of business, capital requirement, degree of control, extent of liability, continuity, and scale of operations.",
+   "formula": "",
+   "key_idea": "No single form is best for all businesses; the choice depends on capital, risk, control, continuity, and the scale of operations required.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the factors affecting the choice of form of business organisation.",
+    "How does capital requirement affect the choice of form?",
+    "Why does degree of control matter in choosing a form of business?",
+    "Explain the role of liability in selecting a form of business.",
+    "How does scale of operations influence the choice of form?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the factors",
+     "explain": "The main factors are nature of business, capital requirement, degree of control, extent of liability, continuity, and management ability."
+    },
+    {
+     "step": 2,
+     "action": "Explain capital and control",
+     "explain": "Small capital and full control suggest sole proprietorship; larger capital and shared control suggest partnership or company form."
+    },
+    {
+     "step": 3,
+     "action": "Explain liability and continuity",
+     "explain": "Where risk and liability are high, a company with limited liability is preferred; where long-term continuity is needed, a company or cooperative is better than proprietorship."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the factors that determine the choice of form of business organisation.",
+     "solution": "The factors are nature of business, capital needed, degree of control desired, extent of liability, need for continuity, and scale of operations.",
+     "answer": "Capital, control, liability, continuity, and scale determine the choice of form."
+    },
+    {
+     "question": "How does capital requirement affect the choice of form?",
+     "solution": "A business needing small capital can be a sole proprietorship, while one needing very large capital should adopt the company form to raise funds from the public.",
+     "answer": "Large capital needs favour the company form; small needs favour proprietorship."
+    },
+    {
+     "question": "Why is degree of control important in choosing a form of business?",
+     "solution": "An owner who wants full and direct control should choose sole proprietorship, while those willing to share control may opt for partnership or company form.",
+     "answer": "Full control favours proprietorship; shared control suits partnership or company."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the factors affecting the choice of form of business organisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does extent of liability affect the choice of form?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is a company preferred for large-scale business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.8",
+   "title": "Merits and Demerits of Joint Stock Company",
+   "section": "2.8",
+   "definition": "A joint stock company offers merits such as limited liability, large capital, continuity, and professional management, but suffers from demerits such as complexity of formation, lack of secrecy, delay in decisions, and conflict of interest.",
+   "formula": "",
+   "key_idea": "The company form suits large-scale business due to limited liability and large capital, but it involves complex regulation and separation of ownership and control.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the merits of a joint stock company.",
+    "What are the demerits of a joint stock company?",
+    "Why is a company said to have professional management?",
+    "Explain the problem of separation of ownership and control in a company.",
+    "Why is formation of a company complex?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the merits",
+     "explain": "Merits include limited liability, large capital, perpetual existence, transferability of shares, and professional management through elected directors."
+    },
+    {
+     "step": 2,
+     "action": "List the demerits",
+     "explain": "Demerits include complexity and cost of formation, lack of secrecy, delay in decisions, more regulations, and conflict of interest between owners and managers."
+    },
+    {
+     "step": 3,
+     "action": "Explain the trade-off",
+     "explain": "The company form is best for large-scale business needing huge capital, but the benefits come at the cost of regulation and reduced personal control."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any four merits of a joint stock company.",
+     "solution": "Four merits are limited liability of shareholders, ability to raise large capital, perpetual succession, and professional management through directors.",
+     "answer": "Limited liability, large capital, perpetual succession, and professional management are merits."
+    },
+    {
+     "question": "State two demerits of a joint stock company.",
+     "solution": "Two demerits are complexity and high cost of formation, and lack of secrecy since accounts and reports must be disclosed to shareholders and the public.",
+     "answer": "Complex formation and lack of secrecy are demerits of a company."
+    },
+    {
+     "question": "Explain the conflict of interest in a company.",
+     "solution": "Owners (shareholders) want higher dividends while managers may pursue growth or perks, leading to a conflict of interest due to separation of ownership and control.",
+     "answer": "Separation of ownership and control causes conflict of interest in a company."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the merits and demerits of a joint stock company.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does a company lack secrecy?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the separation of ownership and management in a company.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.9",
+   "title": "Comparison of Forms of Business Organisations",
+   "section": "2.9",
+   "definition": "The main forms of business organisation -- sole proprietorship, partnership, Joint Hindu Family, cooperative society, and company -- differ in formation, capital, liability, control, continuity, and scale of operations.",
+   "formula": "",
+   "key_idea": "Each form of business organisation has distinct merits and demerits, and the best form depends on the specific needs of capital, risk, control, and continuity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compare sole proprietorship, partnership, and company.",
+    "Which form of business has limited liability?",
+    "Compare the continuity of different forms of business.",
+    "Which form is best for large-scale business and why?",
+    "Compare the capital-raising ability of different forms."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set the comparison bases",
+     "explain": "Compare the forms on formation, capital, liability, control, continuity, and scale of operations."
+    },
+    {
+     "step": 2,
+     "action": "Compare liability and capital",
+     "explain": "Sole proprietorship and partnership have unlimited liability and limited capital; cooperative and company have limited liability and can raise more capital."
+    },
+    {
+     "step": 3,
+     "action": "Compare continuity and scale",
+     "explain": "Company and cooperative have perpetual succession and suit large scale; proprietorship and partnership lack continuity and suit small scale."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Compare sole proprietorship, partnership, and company on liability and capital.",
+     "solution": "Sole proprietorship: unlimited liability, limited capital. Partnership: unlimited liability, more capital than proprietorship. Company: limited liability, large capital from public.",
+     "answer": "Company has limited liability and largest capital; proprietorship and partnership have unlimited liability."
+    },
+    {
+     "question": "Which form of business is best for large-scale operations and why?",
+     "solution": "The joint stock company is best for large-scale operations because it can raise huge capital from the public, has limited liability, perpetual succession, and professional management.",
+     "answer": "The company form is best for large-scale business due to large capital and limited liability."
+    },
+    {
+     "question": "Compare the continuity of sole proprietorship and a company.",
+     "solution": "Sole proprietorship ends with the death or insolvency of the owner, while a company has perpetual succession and continues regardless of changes in membership.",
+     "answer": "Proprietorship lacks continuity; a company has perpetual succession."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the various forms of business organisation on any five bases.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which form of business has perpetual succession?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is sole proprietorship not suitable for large business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.2.10",
+   "title": "Formation and Registration of a Company",
+   "section": "2.10",
+   "definition": "Formation of a company involves promotion, incorporation, and commencement of business, requiring documents such as the Memorandum of Association and Articles of Association, followed by registration with the Registrar of Companies.",
+   "formula": "",
+   "key_idea": "A company is formed in three stages -- promotion, incorporation, and capital subscription/commencement -- and comes into existence only after registration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the stages in the formation of a company.",
+    "What is promotion in the formation of a company?",
+    "What is the Memorandum of Association and why is it important?",
+    "Explain the role of the Articles of Association.",
+    "How does a company commence business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain promotion",
+     "explain": "Promotion is the first stage where a promoter identifies a business opportunity, prepares plans, and arranges initial resources to start the company."
+    },
+    {
+     "step": 2,
+     "action": "Explain incorporation",
+     "explain": "Incorporation involves filing the Memorandum, Articles, and other documents with the Registrar of Companies, who issues a Certificate of Incorporation that brings the company into existence."
+    },
+    {
+     "step": 3,
+     "action": "Explain commencement of business",
+     "explain": "After incorporation, a public company raises capital and obtains a Certificate of Commencement of Business from the Registrar before it can start operations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the three stages in the formation of a company.",
+     "solution": "The three stages are promotion (identifying the opportunity), incorporation (registration with the Registrar), and capital subscription/commencement (raising capital and starting business).",
+     "answer": "Promotion, incorporation, and commencement are the three stages of company formation."
+    },
+    {
+     "question": "What is the Memorandum of Association?",
+     "solution": "The Memorandum of Association is the charter of the company that defines its name, objects, registered office, capital, and liability of members; it is the most important document in incorporation.",
+     "answer": "The Memorandum of Association is the charter defining the company's objects and scope."
+    },
+    {
+     "question": "How does a company commence business?",
+     "solution": "A public company must file a prospectus, raise the minimum subscription, and obtain a Certificate of Commencement of Business from the Registrar before starting operations.",
+     "answer": "A company commences business after obtaining the Certificate of Commencement from the Registrar."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the stages in the formation of a company.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between Memorandum and Articles of Association.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the role of a promoter in company formation?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

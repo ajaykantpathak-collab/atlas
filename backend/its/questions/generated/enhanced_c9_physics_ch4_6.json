@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_6",
+   "title": "c9_physics_ch4_6",
+   "questions": [
+    {
+     "q": "A 2 kg book is placed on a shelf 1.5 m above the floor. What is the gravitational potential energy of the book-Earth system relative to the floor? (Take g = 10 m/s² for simplicity.)",
+     "a": "30 J. The student must recall U = mgh = 2 kg × 10 m/s² × 1.5 m = 30 J. A wrong answer (e.g., 3 J or 300 J) reveals the student either forgot to multiply by g, used wrong units for height (cm instead of m), or confused mass with weight. If the student answers \"0 J because the book is not moving\", they confuse potential energy with kinetic energy.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical springs are compressed by the same distance x. Spring A has spring constant k, Spring B has spring constant 2k. How does the elastic potential energy stored in Spring B compare to Spring A? Explain why the energy is not simply doubled when the spring constant is doubled if the compression distance is the same.",
+     "a": "Spring B stores twice the energy of Spring A (U_B = 2U_A). The formula U = ½kx² shows energy is directly proportional to k when x is constant. A wrong answer like \"four times\" reveals the student incorrectly thinks energy depends on k², perhaps confusing with the force formula F = kx. If the student says \"same energy\", they think energy depends only on displacement, ignoring the stiffness of the spring.",
+     "self_check": true
+    },
+    {
+     "q": "A 500 g toy car is launched from a spring (k = 200 N/m) compressed by 5 cm on a horizontal frictionless track. Calculate the elastic potential energy stored in the spring before release. If all this energy converts to kinetic energy, what is the car's speed? (Use g = 10 m/s² where needed.)",
+     "a": "Elastic potential energy = ½ × 200 N/m × (0.05 m)² = 0.25 J. Kinetic energy = ½mv² = 0.25 J → ½ × 0.5 kg × v² = 0.25 J → v² = 1 → v = 1 m/s. A wrong answer of 0.25 J for energy but 0.5 m/s for speed reveals the student forgot the ½ in kinetic energy formula or made a unit error (using 5 cm instead of 0.05 m gives 250 J, which is physically unreasonable for a toy car).",
+     "self_check": true
+    },
+    {
+     "q": "A student lifts a 3 kg box from the floor to a table (height 0.8 m) and then carries it horizontally 2 m across the room. Another student lifts an identical box directly onto a shelf 1.5 m high. Compare the gravitational potential energy gained by each box relative to the floor. Does the horizontal carrying add to the potential energy? Justify.",
+     "a": "First box: U = 3 × 10 × 0.8 = 24 J. Second box: U = 3 × 10 × 1.5 = 45 J. Horizontal displacement does not change gravitational potential energy because the height relative to the floor remains constant; work done against gravity is zero when displacement is perpendicular to the force. A wrong answer adding energy for horizontal motion (e.g., 24 J + something) reveals the student thinks any displacement stores potential energy, confusing work done against friction with gravitational potential energy.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook claims: \"The gravitational potential energy of a 1 kg mass at height 10 m is 100 J. If we take the reference level at the top of a 5 m tall building instead of the ground, the potential energy becomes 50 J. Therefore, potential energy is not a physically meaningful quantity because it changes with reference level.\" Evaluate this claim.",
+     "a": "The claim is incorrect. While the numerical value of potential energy depends on the reference level, the *difference* in potential energy between two points is independent of the reference level and is physically meaningful (it equals the work done by gravity). Only changes in potential energy affect dynamics. A student who agrees with the claim misunderstands that absolute potential energy is arbitrary, but potential energy differences are invariant and measurable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a set of masses, a ruler, and a clamp stand to verify that the elastic potential energy stored in a spring is proportional to the square of the extension (U ∝ x²). Describe the procedure, measurements, and how you would analyze the data.",
+     "a": "Hang the spring vertically, attach a mass, measure extension x. The gravitational potential energy lost by the mass (mgx) equals the elastic potential energy gained (½kx²) at equilibrium? Actually, at equilibrium mg = kx, so mgx = kx². But the energy stored is ½kx² = ½mgx. Better: Use a spring launcher horizontally. Compress spring by known x, launch a mass m, measure speed v using a photogate or video analysis. Plot ½mv² (kinetic energy) vs x². Slope gives ½k. A poor answer would just say \"measure extension for different masses\" without connecting to energy conversion or plotting x².",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

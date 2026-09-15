@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_010",
+   "title": "c11_psy_cbse_08_010",
+   "questions": [
+    {
+     "q": "Define \"coping\" according to Lazarus and Folkman's transactional model and distinguish it from \"defense mechanisms\" in terms of consciousness and flexibility.",
+     "a": "Coping refers to constantly changing cognitive and behavioral efforts to manage specific external/internal demands appraised as taxing or exceeding resources; it is conscious, effortful, and flexible. Defense mechanisms are unconscious, rigid, automatic processes that distort reality (e.g., denial, projection). A wrong answer that equates coping with \"any way of handling stress\" or calls suppression a coping strategy reveals confusion between conscious regulation and unconscious defense — a critical error for board exam questions asking to \"explain the difference between coping and defense mechanisms with examples.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student fails a pre-board exam and thinks, \"I'm a total failure; my parents will be ashamed.\" She then spends three hours reorganizing her stationery instead of studying. Identify the cognitive distortion and the maladaptive coping strategy illustrated. Explain why this is emotion-focused but dysfunctional.",
+     "a": "The cognitive distortion is \"all-or-nothing thinking\" (categorizing self as total failure based on one event) and \"mind reading\" (assuming parents' shame without evidence). The maladaptive strategy is behavioral avoidance (displacement activity — reorganizing stationery) which is emotion-focused because it targets distress reduction, not the stressor (exam preparation). It is dysfunctional because it provides short-term relief but increases long-term threat by reducing study time. A wrong answer labeling this as \"problem-focused coping\" or missing the cognitive distortion shows inability to analyze the thought-feeling-behavior chain — essential for \"analyze the coping strategy used in the following case study\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step cognitive restructuring plan for a Class 11 student who experiences catastrophic thinking before every test (\"If I don't get 95%, my life is ruined\"). Use the NCERT framework of \"perceptual reorganization and cognitive restructuring\" and include how to test the belief behaviorally.",
+     "a": "Step 1: Identify the automatic thought (\"I must get 95% or life is ruined\") and rate distress (0-100). Step 2: Examine evidence for/against (past scores, college cut-offs, alternative paths). Step 3: Generate balanced thought (\"I want to do well, but one test doesn't determine my future; I have multiple attempts and options\"). Step 4: Behavioral experiment — take a mock test aiming for 85%, observe outcome and emotional consequence. Step 5: Re-rate distress and consolidate learning. A wrong answer that skips behavioral experiment or only lists positive affirmations misses the empirical testing core of cognitive restructuring — a common error in \"suggest a coping strategy with steps\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"monitoring\" (vigilance) and \"blunting\" (avoidance) coping styles for examination anxiety using the NCERT Box 8.2 strategies. Under what conditions is each adaptive? Provide one real example for each.",
+     "a": "Monitoring (problem-focused): preparation, rehearsal, inoculation, positive thinking, seeking support — adaptive when stressor is controllable (exam weeks away, syllabus defined). Example: Creating a 30-day revision timetable with mock tests. Blunting (emotion-focused): relaxation, exercise, distraction — adaptive when stressor is imminent/uncontrollable (night before exam, waiting for results). Example: Doing 10 minutes of diaphragmatic breathing before entering exam hall. A wrong answer claiming one style is universally \"better\" or misclassifying \"seeking support\" as blunting reveals failure to grasp the contingency principle (match strategy to controllability) — directly tested in \"evaluate the effectiveness of different coping strategies\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Anger is always destructive and should be suppressed.\" Use the NCERT anger management principles (thought control, constructive expression, time) and physiological evidence (sympathetic arousal, immune impact) to justify your position.",
+     "a": "The statement is false. Anger is an adaptive emotion signaling goal obstruction; suppression increases sympathetic arousal (cardiovascular risk) and impairs immune function. NCERT emphasizes: anger results from *thoughts* (not events), is controllable via cognitive change (\"resist irrational beliefs,\" \"don't ascribe intentions\"), and requires *constructive expression* with controlled degree/duration. Adaptive anger motivates problem-solving (e.g., asserting boundaries calmly). A wrong answer agreeing with suppression or calling anger a \"reflex\" shows confusion between emotion and behavior, and ignores the cognitive-mediational model — a frequent error in \"anger management\" long-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a personalized \"Emotional Regulation Toolkit\" for a Class 11 student preparing for JEE/NEET, integrating at least four NCERT strategies (from self-monitoring to community service) with specific triggers, implementation cues, and review schedule. Justify each inclusion.",
+     "a": "Toolkit example: (1) Daily 5-min self-monitoring journal (trigger: bedtime; cue: alarm; reviews weekly patterns of anxiety peaks). (2) Cognitive restructuring worksheet for catastrophic thoughts (trigger: mock test score <60%; cue: red pen on paper; reviews monthly with teacher). (3) 4-7-8 breathing + 10-min walk (trigger: physiological arousal >7/10; cue: smartwatch vibration; reviews after each use). (4) Weekly peer-study session + monthly volunteering at NGO (trigger: isolation/burnout; cue: calendar invite; reviews quarterly). Justification links each to NCERT: self-monitoring → insight; restructuring → appraisal change; relaxation → physiological down-regulation; relationships/service → meaning/buffer. A poor answer lists generic \"study hard, relax\" without triggers/cues/review or NCERT linkage — fails \"design an intervention\" competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

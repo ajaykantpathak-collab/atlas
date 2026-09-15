@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_002",
+   "title": "c12_cs_cbse_01_002",
+   "questions": [
+    {
+     "q": "A student says: \"My home Wi-Fi network connecting my laptop, phone, and smart TV is a WAN because it connects to the internet.\" Is this statement correct? Explain why or why not in 2–3 sentences.",
+     "a": "The statement is incorrect. A home Wi-Fi network is a LAN — it spans a single residence (typically <100 m), uses wireless (802.11) or wired media, is privately owned, and offers high speed (100 Mbps–1 Gbps+). The internet connection itself is a WAN link provided by the ISP, but the local network remains a LAN. A wrong answer reveals confusion between the local network infrastructure and the upstream internet connection; students often conflate \"accessing the internet\" with \"being a WAN.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast MAN and WAN in terms of (a) geographical span, (b) typical ownership, and (c) transmission media. Give one real-world example of each.",
+     "a": "MAN: spans a city (5–50 km), often owned by a consortium or service provider (e.g., city government, telecom), uses fibre optic or microwave links; example: a city-wide CCTV surveillance network. WAN: spans countries/continents (50 km–global), owned by multiple telecom operators, uses leased lines, satellites, undersea cables; example: the internet backbone connecting Mumbai to London. A wrong answer that says \"MAN is just a bigger LAN\" misses the ownership and media shift; students often forget MANs frequently use microwave or Metro Ethernet, not just extended Ethernet cables.",
+     "self_check": true
+    },
+    {
+     "q": "A company has offices in three buildings within a 1.5 km radius on the same campus. They want to interconnect all computers with high speed (1 Gbps), low latency, and full control over the infrastructure. Which network type should they implement? Justify your choice with three specific reasons.",
+     "a": "They should implement a LAN (specifically a Campus Area Network, a LAN variant). Reasons: (1) Geographical span 1.5 km fits LAN range (up to a few km); (2) They can own and control the fibre/Ethernet infrastructure, ensuring security and performance; (3) LAN technologies (Gigabit Ethernet, fibre) provide 1 Gbps+ speed with sub-millisecond latency, unlike MAN/WAN which involve third-party links and higher latency. A wrong answer choosing MAN reveals misunderstanding that MAN implies third-party/provider ownership and typically spans a city, not a single campus.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this scenario: \"A wearable fitness tracker syncs data to a smartphone via Bluetooth. The smartphone uploads the data to a cloud server over 4G. The cloud server is accessed by a doctor in another country via a hospital LAN.\" Identify the network type at each of the four links: (a) tracker↔phone, (b) phone↔cell tower, (c) cell tower↔cloud data centre, (d) doctor's PC↔hospital server.",
+     "a": "(a) PAN — Bluetooth, <10 m, personal devices. (b) WAN — 4G cellular link connects to the telecom's wide-area infrastructure. (c) WAN — backhaul from cell tower to data centre uses fibre/microwave across long distances, operated by telecom. (d) LAN — hospital network is a local, privately owned, high-speed network within one building/campus. A wrong answer labeling (b) as MAN shows confusion: cellular networks are WANs (they span cities/regions via core networks), not MANs. Students often think \"city-wide = MAN\" but cellular architecture is fundamentally WAN.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a small business with two branches 40 km apart in the same city, a MAN is always better than a WAN because it's faster and cheaper.\" Provide a reasoned judgment with at least two supporting arguments and one condition where the claim fails.",
+     "a": "The claim is conditionally true but not universal. Supporting arguments: (1) A Metro Ethernet MAN (fibre ring) can offer 1–10 Gbps symmetric latency <5 ms at lower recurring cost than leased-line WAN. (2) Single-provider MAN simplifies management vs. multi-operator WAN. Condition where it fails: if no MAN provider serves that specific 40 km path, or if the business needs global connectivity beyond the city — then a WAN (MPLS, IPsec VPN over internet) is the only viable option. A wrong answer that agrees unconditionally ignores availability, SLA requirements, and the fact that MANs are not ubiquitous in all cities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (Indian context) that involves all four network types (PAN, LAN, MAN, WAN) interacting in sequence. Describe the data flow and name the network type at each hop.",
+     "a": "Scenario: A farmer in Punjab uses a soil-moisture sensor (PAN: Bluetooth to phone). Phone sends data via 4G to a district agricultural server (WAN: cellular + fibre backhaul). District server aggregates data and forwards to a state-level MAN (fibre ring connecting district offices). State MAN connects to the national agricultural cloud hosted in a data centre in Pune (WAN: national fibre backbone). A researcher in Kerala accesses the cloud via her institute's LAN (campus network). Good answer must show sequential PAN→WAN→MAN→WAN→LAN with correct media/ownership at each step. Poor answer mixes up MAN/WAN or omits one type.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

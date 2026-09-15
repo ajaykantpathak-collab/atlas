@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_006",
+   "title": "c11_chem_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define atomic radius for a non-metal like chlorine and a metal like sodium. Why are two different definitions (covalent radius vs metallic radius) necessary?",
+     "a": "For chlorine (non-metal), atomic radius = covalent radius = half the Cl-Cl bond distance in Cl₂ molecule (99 pm). For sodium (metal), atomic radius = metallic radius = half the internuclear distance between adjacent Na atoms in metallic crystal (186 pm). Two definitions are needed because non-metals form discrete covalent molecules with directional bonds, while metals exist as a lattice of cations in a sea of electrons with non-directional metallic bonding. A wrong answer (e.g., using same definition for both) reveals the student doesn't understand bonding differences affect how \"size\" is physically measured.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why atomic radius decreases from Li (152 pm) to F (64 pm) across Period 2, even though the number of electrons increases from 3 to 9.",
+     "a": "Across Period 2, electrons fill the same n=2 shell (2s, 2p). Nuclear charge Z increases from +3 to +9, but shielding σ by the 1s² core remains nearly constant. Effective nuclear charge Z_eff = Z - σ increases significantly, pulling all valence electrons closer. The added electrons don't shield each other effectively in the same shell. A wrong answer (e.g., \"more electrons = larger size\") reveals the student thinks electron count alone determines size, ignoring the dominant role of increasing nuclear attraction without proportional shielding increase.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Atomic radii - Na (186 pm), Mg (160 pm), Al (143 pm), Si (117 pm), P (110 pm), S (104 pm), Cl (99 pm). Predict the atomic radius of argon and justify whether it follows the same trend.",
+     "a": "Argon's atomic radius (van der Waals radius ≈ 188 pm) is LARGER than chlorine's covalent radius (99 pm), breaking the decreasing trend. Argon is monoatomic with closed shell (3s²3p⁶); its \"size\" is measured as van der Waals radius (half the distance between non-bonded atoms in solid Ar), which is inherently larger than covalent radii. The trend holds only for bonded radii (covalent/metallic). A wrong prediction (e.g., Ar < Cl) reveals the student doesn't distinguish between bonded and non-bonded radius measurements for noble gases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare atomic radii down Group 1: Li (152 pm), Na (186 pm), K (231 pm), Rb (244 pm), Cs (262 pm). The increase from Rb to Cs (18 pm) is smaller than from K to Rb (13 pm) despite both adding one shell. Analyze why.",
+     "a": "From K (n=4) to Rb (n=5), the 4d¹⁰ electrons are added, which shield poorly due to diffuse orbitals. From Rb (n=5) to Cs (n=6), the 4f¹⁴ electrons (lanthanoids) are added before 5d/6s - these shield even more poorly (lanthanoid contraction effect), pulling the 6s orbital closer than expected. Thus Cs is smaller than predicted by simple shell addition. A wrong answer (e.g., \"each step adds a shell so increase should be constant\") reveals the student ignores differential shielding by d/f electrons and the lanthanoid contraction concept introduced in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Atomic radius always increases down a group because a new shell is added.\" Evaluate this statement using data for Group 13: B (88 pm), Al (143 pm), Ga (135 pm), In (167 pm), Tl (170 pm). Is the claim fully correct?",
+     "a": "The claim is NOT fully correct. Ga (135 pm) is SMALLER than Al (143 pm) despite being below it. This anomaly occurs because between Al (ends at 3p¹) and Ga (starts 4s²3d¹⁰4p¹), the 3d¹⁰ electrons are added. These d-electrons shield poorly, so Z_eff increases sharply, contracting the atom. The claim ignores transition metal d-block insertion between Period 3 and 4 p-block elements. A wrong evaluation (agreeing with the student) reveals the student hasn't connected d-block filling to p-block size anomalies - a key Class 11 concept linking c11_chem_cbse_03_005 (d-block) to this trend.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to estimate the covalent radius of hydrogen using only the H-H bond distance in H₂ molecule (74 pm) and the covalent radius of fluorine (64 pm) from the H-F bond distance (92 pm). Show your reasoning.",
+     "a": "In H₂, bond distance = 2 × r_cov(H) → r_cov(H) = 74/2 = 37 pm. In HF, bond distance = r_cov(H) + r_cov(F) = 92 pm. Using r_cov(F) = 64 pm gives r_cov(H) = 92 - 64 = 28 pm. The discrepancy (37 vs 28 pm) arises because covalent radii aren't perfectly additive due to electronegativity difference (polar covalent bond shortens distance). A good answer notes this limitation. A poor answer (just averaging) reveals the student treats covalent radii as strictly additive constants, ignoring bond polarity effects - a nuance needed for higher studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

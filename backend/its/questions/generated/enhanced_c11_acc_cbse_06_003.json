@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_003",
+   "title": "c11_acc_cbse_06_003",
+   "questions": [
+    {
+     "q": "A bookkeeper records a credit purchase of goods worth ₹20,000 from supplier Rahul. The entry is correctly made in the Purchases Book, but while posting to the ledger, Rahul's account is credited with ₹2,000 instead of ₹20,000. Will this error be disclosed by the trial balance? State Yes or No with one-sentence reasoning.",
+     "a": "Yes, this error will be disclosed by the trial balance. The Purchases Account is debited with the correct ₹20,000 (from the Purchases Book total), but Rahul's Account is credited with only ₹2,000, creating an ₹18,000 short credit. Since total debits (₹20,000) will exceed total credits (₹2,000 for this transaction), the trial balance will not tally. A wrong answer (No) reveals the student thinks any posting error is hidden — they haven't grasped that partial posting to one account creates a one-sided error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an error of principle (e.g., debiting Repairs Account instead of Machinery Account for ₹50,000 spent on machine overhaul) does NOT affect the agreement of the trial balance, even though the financial statements will be wrong.",
+     "a": "An error of principle involves debiting/crediting the wrong account head but with the correct amount and on the correct side. Here, Machinery Account should be debited ₹50,000, but Repairs Account is debited ₹50,000 instead. Both are debit entries of equal amount, so total debits in the ledger remain unchanged. The trial balance only checks if total debits = total credits — it doesn't verify if the *correct* accounts were used. A wrong answer (e.g., \"it affects trial balance because the amount is wrong\") reveals confusion between error of principle and error of commission with wrong amount.",
+     "self_check": true
+    },
+    {
+     "q": "A trial balance shows excess credit of ₹9,000. The accountant finds two errors: (a) Sales Book overcast by ₹5,000, (b) Purchase Returns Book undercast by ₹4,000. After rectifying both, will the trial balance tally? Show calculations.",
+     "a": "Yes, the trial balance will tally after rectification.  \nStep 1: Sales Book overcast ₹5,000 → Sales Account credited excess ₹5,000 → Credit side excess ₹5,000.  \nStep 2: Purchase Returns Book undercast ₹4,000 → Purchase Returns Account credited short ₹4,000 → Credit side short ₹4,000 (equivalent to Debit side excess ₹4,000).  \nStep 3: Net effect on credit side = +₹5,000 (excess) - ₹4,000 (short) = +₹1,000 excess credit.  \nStep 4: Original difference = ₹9,000 excess credit. After removing ₹1,000 net excess credit from these two errors, remaining difference = ₹8,000. But wait — the question implies these are the ONLY errors. If so, original difference should equal net effect of all errors. Since ₹5,000 - ₹4,000 = ₹1,000 ≠ ₹9,000, there must be other errors. The trial balance will NOT tally yet. A wrong answer (Yes, it will tally) reveals the student doesn't check whether the sum of identified errors explains the full difference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Error of Complete Omission vs Error of Partial Omission. For each, state (i) whether it affects trial balance, (ii) which accounts are impacted, and (iii) whether suspense account is needed for rectification.",
+     "a": "Error of Complete Omission: (i) Does NOT affect trial balance — neither debit nor credit recorded, so equality maintained. (ii) Impacts two accounts (e.g., Debtor and Sales both missing). (iii) No suspense account needed — rectified by normal journal entry.  \nError of Partial Omission: (i) AFFECTS trial balance — one account posted, other omitted, creating one-sided error. (ii) Impacts one account (e.g., Sales posted but Debtor not posted). (iii) Suspense account NEEDED — rectified via suspense.  \nA wrong answer (e.g., \"both affect trial balance\" or \"both need suspense\") reveals the student confuses \"omission from books\" with \"omission from posting\" and doesn't see the one-sided vs two-sided distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If the trial balance tallies, the books are 100% accurate.\" Evaluate this statement. Is it true, false, or partially true? Justify with two specific examples of errors that would not be detected.",
+     "a": "False. Trial balance agreement only proves arithmetical accuracy of debits = credits, not accounting accuracy. Two examples of undetected errors:  \n1. Error of Principle: ₹1,00,000 paid for building extension debited to Repairs Account instead of Building Account. Trial balance tallies (correct amount, correct side), but asset understated and expense overstated.  \n2. Compensating Errors: Purchases Book overcast by ₹10,000 (excess debit ₹10,000) AND Sales Book overcast by ₹10,000 (excess credit ₹10,000). Net effect zero — trial balance tallies, but both Purchases and Sales are overstated.  \nA wrong answer (True or \"partially true\" without correct examples) reveals the student treats trial balance as a complete accuracy check, not understanding its limited scope.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (Indian context, ₹ amounts) where THREE different types of errors occur simultaneously: one disclosed by trial balance, one not disclosed, and one compensating pair. Write the scenario and identify each error with its classification.",
+     "a": "Scenario: M/s Gupta Traders, Mumbai.  \n1. Disclosed error: Credit sales to Sharma ₹25,000 recorded in Sales Book but posted to Sharma's Account as ₹2,500 (partial posting → one-sided → disclosed).  \n2. Not disclosed (Error of Principle): ₹50,000 paid for new delivery van debited to Vehicle Repairs Account instead of Vehicles Account (wrong head, correct side/amount → two-sided → not disclosed).  \n3. Compensating pair: Purchases Book overcast by ₹8,000 (excess debit ₹8,000) AND Sales Returns Book undercast by ₹8,000 (short debit ₹8,000 = excess credit ₹8,000). Net zero effect on trial balance.  \nA poor answer (e.g., all errors same type, or compensating pair not actually compensating) reveals the student cannot independently construct multi-error scenarios or verify compensating logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

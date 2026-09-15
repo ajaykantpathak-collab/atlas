@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_007",
+   "title": "c10_phy_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the absolute refractive index of a medium in which the speed of light is 2.0 × 10⁸ m/s? (Take speed of light in vacuum = 3.0 × 10⁸ m/s)",
+     "a": "1.5 (dimensionless). A wrong answer of 0.67 reveals the student inverted the ratio (v/c instead of c/v). An answer with units (e.g., \"1.5 m/s\") reveals confusion that refractive index is a ratio of speeds and therefore has no units.",
+     "self_check": true
+    },
+    {
+     "q": "A ray of light passes from medium A (refractive index 1.5) to medium B (refractive index 1.33). Will the ray bend towards the normal or away from the normal? Explain using the concept of optical density.",
+     "a": "The ray bends away from the normal because it moves from a denser medium (higher n = 1.5) to a rarer medium (lower n = 1.33). Light speeds up when entering the rarer medium, bending away from the normal. A wrong answer (\"towards the normal\") reveals the student thinks higher refractive index always means bending towards the normal, ignoring the direction of travel.",
+     "self_check": true
+    },
+    {
+     "q": "The speed of light in glass is 2.0 × 10⁸ m/s and in water is 2.25 × 10⁸ m/s. Calculate the refractive index of glass with respect to water.",
+     "a": "n_glass_water = v_water / v_glass = (2.25 × 10⁸) / (2.0 × 10⁸) = 1.125. Steps: (1) Identify formula n₂₁ = v₁/v₂ where medium 1 is water, medium 2 is glass. (2) Substitute speeds with units. (3) Cancel 10⁸. (4) Compute 2.25/2.0 = 1.125. (5) State answer is dimensionless. A wrong answer of 0.889 reveals the student used v_glass/v_water (inverted the relative index definition).",
+     "self_check": true
+    },
+    {
+     "q": "Two media X and Y have absolute refractive indices 1.6 and 1.4 respectively. A student claims: \"Since n_X > n_Y, light always bends towards the normal when going from X to Y.\" Is this claim correct? Justify.",
+     "a": "The claim is incorrect. When light travels from X (n=1.6) to Y (n=1.4), it moves from denser to rarer medium, so it bends AWAY from the normal. The direction of bending depends on the direction of travel, not just the magnitude of refractive indices. A wrong agreement reveals the student memorized \"higher n bends towards normal\" without considering which medium the light is entering.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment, a student measures the speed of light in a transparent liquid as 2.4 × 10⁸ m/s. She calculates the absolute refractive index as 1.25. Another student uses the same data but gets 0.8. Which student is correct? Identify the error in the incorrect calculation.",
+     "a": "The first student (1.25) is correct. n = c/v = (3.0 × 10⁸)/(2.4 × 10⁸) = 1.25. The second student computed v/c = 0.8, which is the reciprocal of refractive index. This error occurs when students confuse \"refractive index of medium\" with \"refractive index of vacuum with respect to medium\". The correct definition always has vacuum speed in numerator.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rectangular glass slab, pins, and a protractor to verify that the refractive index of glass is constant for different angles of incidence. Outline the steps and what you would plot.",
+     "a": "Fix the glass slab on paper. Draw normal at point O. For 4-5 angles of incidence (30°, 40°, 50°, 60°), place pins to trace incident and emergent rays. Measure angle of refraction r inside the slab for each. Plot sin i vs sin r. The graph should be a straight line through origin; its slope gives n_glass. A poor answer would omit the graph or suggest measuring only one angle, missing the verification of constancy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,651 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Earth, Moon, and the Sun",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu112.txt",
+ "concepts": [
+  {
+   "id": "c7cu.12.1",
+   "title": "The Earth - Shape, Structure, and Atmosphere",
+   "section": "12.1",
+   "definition": "The Earth is an oblate spheroid planet with layers (crust, mantle, core) and an atmosphere of gases that supports life.",
+   "formula": "",
+   "key_idea": "The Earth is round, has a layered structure, and is surrounded by an atmosphere that makes life possible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the shape of the Earth?",
+    "Name the main layers of the Earth.",
+    "What is the atmosphere and why is it important?",
+    "Why is the Earth called a unique planet?",
+    "Which gases make up the Earth's atmosphere?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the shape",
+     "explain": "State that the Earth is round, slightly flattened at the poles, called an oblate spheroid."
+    },
+    {
+     "step": 2,
+     "action": "List the layers",
+     "explain": "Name the crust, mantle, and core as the three main layers of the Earth."
+    },
+    {
+     "step": 3,
+     "action": "Explain the atmosphere",
+     "explain": "Describe the blanket of gases (nitrogen, oxygen, etc.) that surrounds the Earth and supports life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the shape of the Earth?",
+     "solution": "The Earth is round but slightly flattened at the poles, which is called an oblate spheroid.",
+     "answer": "An oblate spheroid, slightly flattened at the poles."
+    },
+    {
+     "question": "Name the main layers of the Earth.",
+     "solution": "The three main layers are the crust, the mantle, and the core.",
+     "answer": "Crust, mantle, and core."
+    },
+    {
+     "question": "Why is the Earth called a unique planet?",
+     "solution": "The Earth is unique because it has water, a life-supporting atmosphere, and suitable temperatures for living things.",
+     "answer": "It has water, a life-supporting atmosphere, and right temperatures."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the atmosphere and why is it important?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which gases make up the Earth's atmosphere?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one reason why the Earth supports life.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.2",
+   "title": "Rotation and Revolution of the Earth",
+   "section": "12.2",
+   "definition": "Rotation is the spinning of the Earth on its axis, and revolution is the movement of the Earth around the Sun in an orbit.",
+   "formula": "rotation period = 24 hours; revolution period = 365.25 days",
+   "key_idea": "The Earth spins on its axis (rotation) causing day and night, and moves around the Sun (revolution) causing a year.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between rotation and revolution of the Earth?",
+    "How long does the Earth take to complete one rotation?",
+    "How long does the Earth take to complete one revolution?",
+    "What causes day and night on Earth?",
+    "What is the axis of the Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the motion",
+     "explain": "Determine whether the question is about spinning on the axis (rotation) or orbiting the Sun (revolution)."
+    },
+    {
+     "step": 2,
+     "action": "Recall the period",
+     "explain": "Use the known period: rotation takes 24 hours and revolution takes 365.25 days."
+    },
+    {
+     "step": 3,
+     "action": "State the answer",
+     "explain": "Give the time taken for the identified motion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How long does the Earth take to complete one rotation?",
+     "solution": "The Earth takes about 24 hours to complete one rotation on its axis.",
+     "answer": "24 hours."
+    },
+    {
+     "question": "How long does the Earth take to complete one revolution?",
+     "solution": "The Earth takes about 365.25 days to complete one revolution around the Sun.",
+     "answer": "365.25 days."
+    },
+    {
+     "question": "What is the difference between rotation and revolution of the Earth?",
+     "solution": "Rotation is the Earth spinning on its axis, while revolution is the Earth moving around the Sun in an orbit.",
+     "answer": "Rotation is spinning on the axis; revolution is orbiting the Sun."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What causes day and night on Earth?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the axis of the Earth?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How many rotations does the Earth make in one year approximately?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.3",
+   "title": "Day and Night Cycle",
+   "section": "12.3",
+   "definition": "The day and night cycle occurs because the Earth rotates on its axis, causing one half to face the Sun (day) while the other half faces away (night).",
+   "formula": "",
+   "key_idea": "Day and night are caused by the rotation of the Earth; the side facing the Sun has day and the opposite side has night.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What causes day and night on the Earth?",
+    "Why does the Sun appear to rise in the east?",
+    "How long is one day on the Earth?",
+    "Why do different places have different times of day?",
+    "Explain the day and night cycle with a diagram."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the rotation",
+     "explain": "Note that the Earth spins on its axis from west to east."
+    },
+    {
+     "step": 2,
+     "action": "Relate to sunlight",
+     "explain": "The half of the Earth facing the Sun has day, and the half facing away has night."
+    },
+    {
+     "step": 3,
+     "action": "Explain the cycle",
+     "explain": "As the Earth rotates, each place moves into and out of sunlight, creating the day and night cycle."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What causes day and night on the Earth?",
+     "solution": "Day and night are caused by the rotation of the Earth on its axis.",
+     "answer": "The rotation of the Earth on its axis."
+    },
+    {
+     "question": "Why does the Sun appear to rise in the east?",
+     "solution": "Because the Earth rotates from west to east, the Sun appears to rise in the east and set in the west.",
+     "answer": "The Earth rotates west to east, so the Sun appears to rise in the east."
+    },
+    {
+     "question": "How long is one day on the Earth?",
+     "solution": "One day on the Earth is about 24 hours, which is the time for one rotation.",
+     "answer": "24 hours."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do different places have different times of day?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the day and night cycle with a diagram.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does the Sun appear to move across the sky?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.4",
+   "title": "Seasons and Their Causes",
+   "section": "12.4",
+   "definition": "Seasons are caused by the tilt of the Earth's axis and its revolution around the Sun, which changes the amount of sunlight different parts of the Earth receive.",
+   "formula": "",
+   "key_idea": "The tilt of the Earth's axis combined with its revolution causes seasons by changing how directly sunlight falls on different regions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What causes the seasons on the Earth?",
+    "Why is it summer in one hemisphere and winter in the other at the same time?",
+    "How does the tilt of the Earth's axis affect seasons?",
+    "Name the four seasons in order.",
+    "Why do places near the equator not have distinct seasons?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the tilt",
+     "explain": "Note that the Earth's axis is tilted at about 23.5 degrees from the vertical."
+    },
+    {
+     "step": 2,
+     "action": "Relate tilt to sunlight",
+     "explain": "As the Earth revolves, the tilt causes one hemisphere to receive more direct sunlight than the other."
+    },
+    {
+     "step": 3,
+     "action": "Explain the season",
+     "explain": "The hemisphere tilted towards the Sun has summer, and the one tilted away has winter."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What causes the seasons on the Earth?",
+     "solution": "Seasons are caused by the tilt of the Earth's axis and its revolution around the Sun, which changes how much sunlight each part receives.",
+     "answer": "The tilt of the axis and revolution around the Sun."
+    },
+    {
+     "question": "Why is it summer in one hemisphere and winter in the other at the same time?",
+     "solution": "Because the axis is tilted, one hemisphere leans towards the Sun (summer) while the other leans away (winter).",
+     "answer": "One hemisphere tilts towards the Sun and the other away."
+    },
+    {
+     "question": "Name the four seasons in order.",
+     "solution": "The four seasons in order are summer, autumn, winter, and spring.",
+     "answer": "Summer, autumn, winter, spring."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does the tilt of the Earth's axis affect seasons?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do places near the equator not have distinct seasons?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of how seasons affect daily life.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.5",
+   "title": "The Moon - Phases and Surface",
+   "section": "12.5",
+   "definition": "The Moon is the Earth's natural satellite; its phases change as its position relative to the Earth and Sun changes, and its surface has craters, mountains, and plains.",
+   "formula": "",
+   "key_idea": "The Moon shows different phases because we see different portions of its sunlit side as it orbits the Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the phases of the Moon?",
+    "Why does the Moon change its shape?",
+    "What is the surface of the Moon like?",
+    "Why does the Moon shine?",
+    "How long does the Moon take to orbit the Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Moon's position",
+     "explain": "Note where the Moon is in its orbit around the Earth relative to the Sun."
+    },
+    {
+     "step": 2,
+     "action": "Determine the sunlit portion",
+     "explain": "Find how much of the Moon's sunlit side is visible from the Earth."
+    },
+    {
+     "step": 3,
+     "action": "Name the phase",
+     "explain": "Identify the phase (new moon, crescent, half, gibbous, or full moon) based on the visible portion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the phases of the Moon?",
+     "solution": "The main phases are new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, last quarter, and waning crescent.",
+     "answer": "New moon, crescent, quarter, gibbous, and full moon."
+    },
+    {
+     "question": "Why does the Moon change its shape?",
+     "solution": "The Moon's shape appears to change because we see different portions of its sunlit side as it orbits the Earth.",
+     "answer": "We see different portions of the sunlit side as the Moon orbits the Earth."
+    },
+    {
+     "question": "Why does the Moon shine?",
+     "solution": "The Moon shines because it reflects sunlight falling on its surface; it does not produce its own light.",
+     "answer": "The Moon reflects sunlight."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the surface of the Moon like?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How long does the Moon take to orbit the Earth?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do we see only one side of the Moon from the Earth?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.6",
+   "title": "Eclipses - Solar and Lunar",
+   "section": "12.6",
+   "definition": "A solar eclipse occurs when the Moon comes between the Sun and the Earth, blocking sunlight; a lunar eclipse occurs when the Earth comes between the Sun and the Moon, casting a shadow on the Moon.",
+   "formula": "",
+   "key_idea": "Eclipses happen when the Sun, Moon, and Earth align so that one body blocks light from reaching another.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a solar eclipse?",
+    "What is a lunar eclipse?",
+    "What is the difference between a solar and a lunar eclipse?",
+    "Why do eclipses not occur every month?",
+    "Why should we not look at a solar eclipse with naked eyes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the alignment",
+     "explain": "Check which body is between the other two: Moon between Sun and Earth, or Earth between Sun and Moon."
+    },
+    {
+     "step": 2,
+     "action": "Determine the shadow",
+     "explain": "See which body is in shadow: the Earth during a solar eclipse, or the Moon during a lunar eclipse."
+    },
+    {
+     "step": 3,
+     "action": "Classify the eclipse",
+     "explain": "If the Moon blocks the Sun it is a solar eclipse; if the Earth blocks sunlight from the Moon it is a lunar eclipse."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a solar eclipse?",
+     "solution": "A solar eclipse occurs when the Moon comes between the Sun and the Earth and blocks the Sun's light from reaching the Earth.",
+     "answer": "The Moon blocks the Sun's light from reaching the Earth."
+    },
+    {
+     "question": "What is a lunar eclipse?",
+     "solution": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon and casts its shadow on the Moon.",
+     "answer": "The Earth casts a shadow on the Moon."
+    },
+    {
+     "question": "Why do eclipses not occur every month?",
+     "solution": "Eclipses do not occur every month because the Moon's orbit is tilted relative to the Earth's orbit around the Sun, so alignment is rare.",
+     "answer": "The Moon's orbit is tilted, so perfect alignment is rare."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the difference between a solar and a lunar eclipse?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should we not look at a solar eclipse with naked eyes?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Draw a diagram showing a lunar eclipse.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.7",
+   "title": "The Sun and Sunlight",
+   "section": "12.7",
+   "definition": "The Sun is a star at the centre of the solar system made of hot gases; it provides light and heat energy that sustains life on Earth.",
+   "formula": "",
+   "key_idea": "The Sun is a huge ball of hot gases that provides the energy needed for life and drives weather and seasons on Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Sun made of?",
+    "Why is the Sun important for life on Earth?",
+    "What is the structure of the Sun?",
+    "How does the Sun produce energy?",
+    "Give one effect of the Sun on the Earth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Sun",
+     "explain": "State that the Sun is a star made of hot gases, mainly hydrogen and helium."
+    },
+    {
+     "step": 2,
+     "action": "Explain its structure",
+     "explain": "Mention the main parts such as the core, photosphere, and corona."
+    },
+    {
+     "step": 3,
+     "action": "State its importance",
+     "explain": "Explain that the Sun provides light and heat that support life, weather, and the water cycle on Earth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Sun made of?",
+     "solution": "The Sun is made of hot gases, mainly hydrogen and helium.",
+     "answer": "Hot gases, mainly hydrogen and helium."
+    },
+    {
+     "question": "Why is the Sun important for life on Earth?",
+     "solution": "The Sun provides light and heat energy needed for plants to make food, for warmth, and for the water cycle, all of which support life.",
+     "answer": "It provides light and heat energy that support life."
+    },
+    {
+     "question": "Give one effect of the Sun on the Earth.",
+     "solution": "The Sun's heat causes water to evaporate, which drives the water cycle and weather.",
+     "answer": "It drives the water cycle and weather."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the structure of the Sun?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does the Sun produce energy?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one reason why the Sun is called a star.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.8",
+   "title": "Stars and Constellations",
+   "section": "12.8",
+   "definition": "Stars are huge balls of hot glowing gases that produce their own light; a constellation is a group of stars that forms a recognisable pattern in the night sky.",
+   "formula": "",
+   "key_idea": "Stars make their own light and appear small because they are very far away; constellations are patterns formed by groups of stars.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a star?",
+    "Why do stars appear so small?",
+    "What is a constellation?",
+    "Name one well-known constellation.",
+    "Why do stars twinkle?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a star",
+     "explain": "State that a star is a huge ball of hot gases that produces its own light."
+    },
+    {
+     "step": 2,
+     "action": "Explain apparent size",
+     "explain": "Note that stars appear small because they are very far away from the Earth."
+    },
+    {
+     "step": 3,
+     "action": "Describe a constellation",
+     "explain": "Explain that a constellation is a recognised pattern formed by a group of stars in the sky."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a star?",
+     "solution": "A star is a huge ball of hot glowing gases that produces its own light and heat.",
+     "answer": "A huge ball of hot gases that makes its own light."
+    },
+    {
+     "question": "Why do stars appear so small?",
+     "solution": "Stars appear small because they are very, very far away from the Earth.",
+     "answer": "Because they are very far away."
+    },
+    {
+     "question": "Name one well-known constellation.",
+     "solution": "The Big Dipper (Saptarshi in India) is a well-known constellation shaped like a ladle.",
+     "answer": "The Big Dipper (Saptarshi)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a constellation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do stars twinkle?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one constellation visible in the winter sky.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.12.9",
+   "title": "Solar System Overview",
+   "section": "12.9",
+   "definition": "The solar system consists of the Sun at the centre and eight planets, along with their moons, asteroids, and comets, that orbit the Sun.",
+   "formula": "number of planets = 8",
+   "key_idea": "The solar system has the Sun at its centre and eight planets that revolve around it in fixed paths called orbits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the solar system?",
+    "Name the eight planets of the solar system in order.",
+    "Which planet is closest to the Sun?",
+    "What is an orbit?",
+    "Name one dwarf planet in the solar system."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the centre",
+     "explain": "Note that the Sun is at the centre of the solar system."
+    },
+    {
+     "step": 2,
+     "action": "Count the planets",
+     "explain": "Recall that there are eight planets that orbit the Sun.",
+     "compute": "planet_count = 8"
+    },
+    {
+     "step": 3,
+     "action": "List the planets in order",
+     "explain": "Name the planets from the Sun outward: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the eight planets of the solar system in order.",
+     "solution": "The eight planets in order from the Sun are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+     "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+     "question": "Which planet is closest to the Sun?",
+     "solution": "Mercury is the planet closest to the Sun.",
+     "answer": "Mercury."
+    },
+    {
+     "question": "What is the solar system?",
+     "solution": "The solar system is the Sun and all the objects that orbit it, including the eight planets, their moons, asteroids, and comets.",
+     "answer": "The Sun and everything that orbits it."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an orbit?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one dwarf planet in the solar system.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How many planets are there in the solar system?",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.12.9",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain the solar system overview with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the centre",
+     "explain": "Note that the Sun is at the centre of the solar system."
+    },
+    {
+     "step": 2,
+     "action": "Count the planets",
+     "explain": "Recall that there are eight planets that orbit the Sun.",
+     "compute": "planet_count = 8"
+    },
+    {
+     "step": 3,
+     "action": "List the planets in order",
+     "explain": "Name the planets from the Sun outward: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.12.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain the earth - shape, structure, and atmosphere with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the shape",
+     "explain": "State that the Earth is round, slightly flattened at the poles, called an oblate spheroid."
+    },
+    {
+     "step": 2,
+     "action": "List the layers",
+     "explain": "Name the crust, mantle, and core as the three main layers of the Earth."
+    },
+    {
+     "step": 3,
+     "action": "Explain the atmosphere",
+     "explain": "Describe the blanket of gases (nitrogen, oxygen, etc.) that surrounds the Earth and supports life."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

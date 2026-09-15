@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_002",
+   "title": "c6_math_ch01_002",
+   "questions": [
+    {
+     "q": "Is the number 0 a natural number? Why or why not?",
+     "a": "No, 0 is not a natural number. Natural numbers are defined as \"counting numbers,\" and we always start counting objects from 1, not 0. A student who says \"yes\" often confuses the set of whole numbers with the set of natural numbers.",
+     "self_check": true
+    },
+    {
+     "q": "If I have a set of natural numbers, can I always find a predecessor for every number in that set? Explain.",
+     "a": "No, because the number 1 has no predecessor in the set of natural numbers. Students who say \"yes\" are failing to identify the boundary of the set at 1, forgetting that there is no natural number before 1.",
+     "self_check": true
+    },
+    {
+     "q": "Find the successor of 999 and the predecessor of 1,000.",
+     "a": "The successor of 999 is 1,000 (999 + 1), and the predecessor of 1,000 is 999 (1,000 - 1). A student who gets this wrong might be miscalculating the place value during the addition or subtraction of 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sets of Natural Numbers and Whole Numbers. Which set is \"larger\" and why?",
+     "a": "The set of Whole Numbers is larger because it contains everything in the Natural Number set plus the number 0. A student who says the sets are equal misses the inclusion of the unique element, zero.",
+     "self_check": true
+    },
+    {
+     "q": "Can a whole number ever NOT be a natural number? Defend your answer.",
+     "a": "Yes, the number 0 is a whole number but not a natural number. This is the only element that differentiates the two sets. If a student says \"no,\" they do not understand that whole numbers are a broader category.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where you would need a \"Whole Number\" but a \"Natural Number\" would not be enough.",
+     "a": "Counting the number of mangoes in a basket that is completely empty requires the number 0. A natural number (starting at 1) would be insufficient to describe the empty basket. A poor answer would just provide a random number without explaining the concept of \"emptiness.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

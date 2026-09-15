@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_007",
+   "title": "c11_ps_cbse_14_007",
+   "questions": [
+    {
+     "q": "What are the specific matters listed in Article 110 that qualify a bill as a Money Bill? List at least four.",
+     "a": "Article 110 lists: (1) imposition, abolition, remission, alteration or regulation of any tax; (2) regulation of borrowing by the government; (3) custody of the Consolidated Fund or Contingency Fund, payment into or withdrawal from such funds; (4) appropriation of money from the Consolidated Fund; (5) declaring expenditure as charged on the Consolidated Fund; (6) receipt of money on account of the Consolidated Fund or public account; (7) any matter incidental to the above. A wrong answer (e.g., including \"salaries of judges\" without linking to charged expenditure) reveals confusion between Money Bills and general financial legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution require that a Money Bill can only be introduced in the Lok Sabha and not in the Rajya Sabha?",
+     "a": "The Lok Sabha is directly elected by the people and represents the popular will; financial matters (taxation, spending) directly affect citizens, so the Constitution ensures that the house accountable to the people controls the purse. A wrong answer (e.g., \"because Rajya Sabha is weaker\") reveals a misunderstanding of the principle of financial accountability and the federal rationale for bicameralism.",
+     "self_check": true
+    },
+    {
+     "q": "A bill proposes to impose a new tax on digital services and also creates a new regulatory authority for digital services with its own fund. The Speaker certifies it as a Money Bill. Is this certification correct? Explain using Article 110.",
+     "a": "The certification is likely incorrect because the bill contains provisions (creating a regulatory authority) that are not merely incidental to the tax imposition. Article 110 requires that the bill deal ONLY with matters listed; if it has substantial non-financial provisions, it is a Financial Bill, not a Money Bill. A wrong answer (e.g., \"yes, because it has a tax\") shows inability to distinguish between Money Bills and Financial Bills (Category I).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the powers of Rajya Sabha in passing a Money Bill versus an Ordinary Bill. What constitutional principle explains this difference?",
+     "a": "For a Money Bill, Rajya Sabha can only recommend amendments within 14 days; Lok Sabha may accept or reject them, and the bill is deemed passed. For an Ordinary Bill, Rajya Sabha has equal powers (can reject, amend, and cause a joint sitting). The principle is that financial sovereignty resides in the directly elected house, while legislative sovereignty is shared in a federal bicameral system. A wrong answer (e.g., \"Rajya Sabha has no role in Money Bills\") ignores the 14-day recommendation power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Speaker's certification of a Money Bill is final and cannot be challenged in court, which undermines judicial review.\" Use constitutional provisions and case law.",
+     "a": "Article 110(3) states the Speaker's decision is final, but the Supreme Court in *Kihoto Hollohan* (1992) and later cases has held that this finality is subject to judicial review for constitutional violations (e.g., mala fide, violation of Article 110). The argument is partially valid but overstated; judicial review acts as a check. A wrong answer (e.g., \"Speaker's decision is absolutely final\") ignores the basic structure doctrine and judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where a bill is incorrectly certified as a Money Bill to bypass the Rajya Sabha. Identify the constitutional safeguards that could prevent such misuse.",
+     "a": "Scenario: A bill amending the Prevention of Corruption Act includes a clause imposing a nominal fee (tax) and is certified as a Money Bill. Safeguards: (1) Speaker's certification must be bona fide and strictly within Article 110; (2) Judicial review can strike down certification if it violates the Constitution; (3) Political accountability of the Speaker and government. A poor answer lists only \"judicial review\" without explaining the standard of review.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

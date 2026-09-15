@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_11",
+   "title": "c8_math_ch4_11",
+   "questions": [
+    {
+     "q": "State the exact condition that makes a quadrilateral a kite. How many pairs of equal adjacent sides must it have?",
+     "a": "A kite must have two distinct pairs of adjacent sides that are equal in length (e.g., AB = AD and CB = CD, but AB ≠ BC). A wrong answer like \"two pairs of opposite sides equal\" reveals confusion with a parallelogram; \"all four sides equal\" reveals confusion with a rhombus; \"one pair of adjacent sides equal\" shows incomplete understanding of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "In kite ABCD with AB = AD and CB = CD, diagonal AC is drawn. Explain why ∠ABC = ∠ADC using triangle congruence. Which congruence criterion applies and why?",
+     "a": "ΔABC ≅ ΔADC by SSS (AB=AD, CB=CD, AC common). Therefore ∠ABC = ∠ADC (CPCT). A wrong answer citing SAS or ASA reveals the student doesn't recognize that all three sides are known equal; saying \"angles are equal because it looks symmetric\" shows reliance on appearance rather than proof.",
+     "self_check": true
+    },
+    {
+     "q": "In kite PQRS, PQ = PS = 8 cm, QR = RS = 5 cm. Diagonal PR = 10 cm and intersects QS at right angles at O. If QO = 4 cm, find the length of QS and the perimeter of the kite.",
+     "a": "Step 1: In a kite, one diagonal bisects the other perpendicularly. Here PR bisects QS, so QO = OS = 4 cm. Thus QS = 8 cm.  \nStep 2: Perimeter = 2 × (PQ + QR) = 2 × (8 + 5) = 26 cm.  \nA wrong answer calculating QS as 4 cm (forgetting bisection) or perimeter as 8+5=13 cm (missing the factor 2) reveals misunderstanding of \"bisect\" or \"two pairs\".",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has perpendicular diagonals where one diagonal bisects the other. Is it necessarily a kite? Give a counterexample or proof.",
+     "a": "No. A generic quadrilateral with perpendicular diagonals where one bisects the other could be a kite, but also a rhombus (which is a special kite) or an irregular shape where the bisected diagonal is not the axis of symmetry. The defining feature is two pairs of equal adjacent sides. A wrong answer saying \"yes, always\" shows the student confuses a property with the definition; they must learn that properties are necessary but not always sufficient.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi claims: \"In any kite, both diagonals bisect each other.\" Evaluate his statement. If false, correct it and draw a labelled diagram showing the correct property.",
+     "a": "Ravi is incorrect. Only one diagonal (the one joining the equal angles) bisects the other. The diagonal joining the unequal angles is bisected, but does not bisect the other. Correct statement: \"In a kite, the diagonal joining the vertices where equal sides meet bisects the other diagonal at right angles.\" A wrong agreement reveals confusion with parallelogram/rhombus properties where both diagonals bisect each other.",
+     "self_check": true
+    },
+    {
+     "q": "Design a kite-shaped garden patch where the two long sides are 6 m each, the two short sides are 4 m each, and the angle between the long sides is 120°. Calculate the length of the diagonal that joins the long sides. (Hint: Use cosine rule or split into two triangles.)",
+     "a": "The diagonal joining the long sides splits the 120° angle into two 60° angles? Wait: In a kite, the diagonal between equal sides bisects the angles. So the 120° is at the vertex where the two 6 m sides meet. That diagonal bisects it, creating two triangles with sides 6, 6, and included angle 60°? Actually, the diagonal is opposite the 120° angle in each of the two congruent triangles formed? Let's think: Kite ABCD with AB=AD=6 (long sides), CB=CD=4 (short sides). ∠BAD = 120°. Diagonal AC joins the equal sides. By symmetry, AC bisects ∠BAD, so ∠BAC = 60°. In ΔABC, AB=6, BC=4, ∠ABC is unknown. Better: Use the two triangles ΔABC and ΔADC. They are congruent. AC is common. We know AB=AD=6, CB=CD=4. We don't know angles directly. But we can use the fact that the diagonal BD is perpendicular to AC? No, the diagonal between equal sides (AC) is the axis of symmetry and is perpendicular to BD. But we need AC. We can use the law of cosines in ΔABD? Wait, ΔABD has sides AB=6, AD=6, ∠BAD=120°. So BD² = 6²+6²-2·6·6·cos120° = 72 - 72·(-1/2) = 72+36=108, BD=√108=6√3. Then since diagonals are perpendicular and AC bisects BD, BO=OD=3√3. In right ΔAOB, AB=6, BO=3√3, so AO=√(36-27)=3. Similarly, in right ΔCOB, CB=4, BO=3√3, so CO=√(16-27) imaginary! Contradiction. So such a kite cannot exist with those dimensions. A good answer recognizes the triangle inequality violation or impossibility. A poor answer computes mechanically without checking feasibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

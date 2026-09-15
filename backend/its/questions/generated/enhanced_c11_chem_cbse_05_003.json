@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_003",
+   "title": "c11_chem_cbse_05_003",
+   "questions": [
+    {
+     "q": "Which of the following molecules can participate in hydrogen bonding as a hydrogen bond donor? (i) CH₄ (ii) NH₃ (iii) HCl (iv) CH₃OH. Select all that apply.",
+     "a": "Correct: (ii) NH₃ and (iv) CH₃OH. Hydrogen bond donors require H bonded directly to N, O, or F. NH₃ has N–H bonds; CH₃OH has O–H bond. CH₄ has C–H (C not electronegative enough); HCl has H–Cl (Cl is electronegative but larger size reduces charge density, making H-bonding very weak – not considered significant in Class 11). A wrong answer reveals confusion between electronegativity alone vs. the combined requirement of high electronegativity AND small atomic size (high charge density).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why HF forms stronger hydrogen bonds than H₂O, yet water has a higher boiling point (100°C vs 19.5°C).",
+     "a": "Correct: F is more electronegative than O, so the H–F bond is more polar, giving stronger individual H-bonds in HF. However, each H₂O molecule can form up to four H-bonds (two as donor via two H atoms, two as acceptor via two lone pairs on O), creating an extensive 3D network. HF can form only two H-bonds per molecule (one H as donor, three lone pairs on F but steric hindrance limits acceptance). The cooperative network in water requires more energy to break, raising its boiling point. A wrong answer focusing only on bond polarity reveals failure to consider the number of H-bonds per molecule and network dimensionality.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in order of increasing boiling point: CH₄, NH₃, H₂O, HF. Justify your answer using intermolecular forces.",
+     "a": "Correct order: CH₄ (–161°C) < NH₃ (–33°C) < HF (19.5°C) < H₂O (100°C). CH₄ has only weak London forces. NH₃, HF, H₂O have H-bonding. Among H-bonded species: NH₃ forms weaker H-bonds (N less electronegative than O/F) and each N has only one lone pair. HF has strong H-bonds but limited network (linear chains). H₂O forms the most extensive 3D H-bond network (two donors + two acceptors). A wrong order reveals inability to weigh both H-bond strength AND number of H-bonds per molecule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the density of ice and liquid water at 0°C. Explain the structural reason using hydrogen bonding geometry.",
+     "a": "Correct: Ice (0.917 g cm⁻³) is less dense than liquid water (0.9998 g cm⁻³ at 0°C). In ice, each water molecule is tetrahedrally H-bonded to four neighbors, creating an open hexagonal crystalline structure with large empty spaces. On melting, some H-bonds break, molecules move closer, and density increases. This is anomalous – most substances are denser as solids. A wrong answer (e.g., ice denser) reveals misunderstanding of H-bond directionality and tetrahedral geometry creating voids.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ethanol (C₂H₅OH) has a higher boiling point than water because it has a larger molar mass (46 vs 18 g mol⁻¹) and also forms hydrogen bonds.\" Evaluate this claim.",
+     "a": "Claim is false. Ethanol boils at 78°C, water at 100°C. While both H-bond, water forms a 3D network (two H-donors, two lone-pair acceptors per molecule). Ethanol has only one O–H group (one donor, two acceptors) and a bulky nonpolar ethyl group that disrupts the H-bond network. London forces from the ethyl group are insufficient to compensate. The student incorrectly assumes molar mass dominates over H-bond network extent. This reveals confusion between additive London forces and cooperative H-bond networking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household materials to demonstrate that hydrogen bonding affects surface tension. Describe procedure, observation, and explanation.",
+     "a": "Good answer: Float a clean steel needle on water in a bowl (surface tension supports it). Add a drop of detergent (disrupts H-bonding at surface). Needle sinks. Explanation: Water's high surface tension (72 mN m⁻¹) arises from strong cohesive H-bonding pulling surface molecules inward. Detergent molecules insert between water molecules, breaking H-bonds and lowering surface tension. Poor answer (e.g., \"mix oil and water\") shows confusion between surface tension and immiscibility, or inability to link molecular H-bonding to macroscopic property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

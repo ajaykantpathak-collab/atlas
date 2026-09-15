@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_11",
+   "title": "c8_physics_ch4_11",
+   "questions": [
+    {
+     "q": "What are the three color-coded cyclone warning stages issued by the India Meteorological Department (IMD), and what action does each stage trigger for coastal communities?",
+     "a": "The three stages are: (1) Yellow Alert (Watch) – cyclone may affect area in 72 hours; prepare emergency kits and monitor updates. (2) Orange Alert (Alert) – cyclone likely in 48 hours; evacuate vulnerable areas, secure property. (3) Red Alert (Warning) – cyclone imminent in 24 hours; complete evacuation, take shelter immediately. A wrong answer (e.g., confusing Orange and Red timing) reveals the student doesn't understand the progressive urgency and lead-time critical for evacuation logistics.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it dangerous to stay in a kutcha (mud/thatch) house during a cyclone even if it is not in the direct storm surge zone?",
+     "a": "Kutcha houses cannot withstand cyclonic wind speeds (>90 km/h for Severe Cyclonic Storm) because their walls and roofs lack structural integrity – wind pressure (Force/Area) exceeds the binding strength of mud/thatch, causing collapse. Flying debris becomes lethal projectiles. A wrong answer (e.g., \"only surge is dangerous\") reveals the misconception that wind damage is secondary; in reality, wind destroys shelter first, exposing occupants to all other hazards.",
+     "self_check": true
+    },
+    {
+     "q": "A family in a low-lying village in Andhra Pradesh receives an Orange Alert at 10:00 AM. The nearest cyclone shelter is 3 km away. They have an elderly grandparent (walks 2 km/h), a motorbike (carries 2 people at 30 km/h), and a bullock cart (carries 4 people at 5 km/h). They must reach the shelter before the Red Alert at 10:00 AM tomorrow. Plan the evacuation trips minimizing total time.",
+     "a": "Step 1: Identify constraints – 24 hours until Red Alert, but travel should complete well before landfall. Step 2: Motorbike round trip = 6 km / 30 km/h = 0.2 h = 12 min per trip. Bullock cart round trip = 6 km / 5 km/h = 1.2 h = 72 min per trip. Step 3: Motorbike takes 2 people per trip; need 2 trips for 4 people = 24 min. Bullock cart takes 4 people in 1 trip = 72 min. Step 4: Optimal: Motorbike makes 2 trips (24 min) for 4 able-bodied; bullock cart takes grandparent + 3 others in 1 trip (72 min). All reach shelter in 72 min. Step 5: Leaves 22+ hours buffer. A wrong answer (e.g., walking grandparent 3 km = 1.5 h one way) reveals failure to optimize transport modes for vulnerable members.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the safety of two houses during a cyclone: House A is a pucca (concrete) single-story house on stilts 2 m above ground in a coastal zone. House B is a pucca two-story house at ground level 500 m inland. Which is safer against storm surge? Which is safer against wind? Justify.",
+     "a": "House A is safer against storm surge because stilts elevate living space above typical surge heights (1-3 m for Severe cyclones), allowing water to pass underneath. House B is safer against wind because its lower profile and ground anchoring reduce wind load and overturning moment compared to elevated House A which acts like a sail. A wrong answer (e.g., \"House B is safer for both\") reveals inability to analyze trade-offs between surge elevation and wind exposure – a key design dilemma in cyclone-prone architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"We don't need to prepare early; cyclones change track often, so IMD warnings are usually wrong.\" Evaluate this statement using the concept of the \"cone of uncertainty\" and the cost of false alarms vs. missed evacuations.",
+     "a": "The statement is flawed. The cone of uncertainty narrows as landfall approaches; at 72h (Yellow) track error is ~150 km, at 24h (Red) it's ~50 km. Early preparation (Yellow/Orange) has low cost (securing loose items, checking kits) but high benefit if cyclone hits. Waiting for certainty (Red) leaves no time for evacuation. False alarm cost is low (few hours effort); missed evacuation cost is lives. A wrong answer reveals confusion between forecast precision and decision-making under uncertainty – a core concept in disaster management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Cyclone Ready\" checklist for a school in a cyclone-prone district that can be completed by students during a 45-minute drill. Include 5 specific, verifiable items covering structure, supplies, communication, and vulnerable students.",
+     "a": "Good answer example: (1) Verify all window shutters/boards are present and labeled for each classroom (structural). (2) Check emergency water (2L/student) and dry food stock expiry dates (supplies). (3) Test school PA system and confirm 3 contact numbers for district control room (communication). (4) Identify 2 students per class needing mobility assistance and assign buddies (vulnerable). (5) Confirm designated safe room (interior, no windows) capacity fits all (shelter). A poor answer lists vague items like \"be ready\" showing inability to translate concepts into actionable, measurable steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

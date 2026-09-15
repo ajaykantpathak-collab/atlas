@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_01_011",
+   "title": "c12_eng_k_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the principle of end-focus in English sentence structure, and which position in a sentence typically receives the least emphasis according to the NCERT explanation?",
+     "a": "The principle of end-focus states that the most emphatic position in a sentence is its end, the next most emphatic is the beginning, and the least emphatic is the middle. A wrong answer (e.g., \"beginning is most emphatic\" or \"all positions are equal\") reveals the student has not internalised the information-flow principle that underpins both literary analysis and effective writing — they will miss why authors delay key revelations to sentence ends.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening sentence of \"I Sell My Dreams,\" the author places the time (\"One morning at nine o'clock\") and setting (\"on the terrace of the Havana Riviera Hotel under a bright sun\") at the beginning of the sentence. Explain why this placement is rhetorically effective for a story opening, using the concept of information flow.",
+     "a": "The opening position establishes the spatiotemporal frame (given/known information) before introducing the disruptive new event (the wave). This follows the given-new contract: known context first, unknown event last. A student who says \"it's just chronological order\" misses the rhetorical strategy — the calm beginning lulls the reader, making the violent end-clause (\"embedded one of them in the side of the hotel\") more shocking by contrast.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from the text by moving the adverbial phrase to the front, then explain how the emphasis shifts: \"The cheerful Cuban volunteers, with the help of the fire department, picked up the debris in less than six hours.\"",
+     "a": "Fronted version: \"In less than six hours, the cheerful Cuban volunteers, with the help of the fire department, picked up the debris.\" The original emphasises the speed (\"in less than six hours\") by placing it at the end (end-focus). The fronted version emphasises the timeframe itself, making the speed the topic/focus of the sentence. A student who only rewrites without explaining the shift shows mechanical application without understanding the functional grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the sentence: \"Three tables away sat an intrepid woman in an old-fashioned felt hat and a purple scarf, eating without haste and staring at him.\" Identify the syntactic structure used and explain why the author chooses this inversion over the standard SVO order (\"An intrepid woman sat three tables away...\").",
+     "a": "This is locative inversion (adverbial phrase \"Three tables away\" fronted, triggering subject-verb inversion: \"sat an intrepid woman\"). The inversion delays the subject (\"an intrepid woman\") to the end-focus position, making her appearance the new information climax. It also mimics the narrator's gaze scanning the room — the spatial frame comes first, then the figure within it. A student who calls it \"passive voice\" or \"just descriptive\" fails to recognise inversion as a deliberate focus-management tool.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the cleft sentence structure in this hypothetical rewrite of a text sentence: \"It was the snake ring with emerald eyes that the author recognised immediately.\" Compare with the original non-cleft version implied in the text. Which better serves the story's mystery theme and why?",
+     "a": "The cleft (\"It was... that...\") places exclusive focus on \"the snake ring,\" implying no other feature mattered — this heightens the ring's symbolic weight as the sole identifier. The original text (\"I recognised her right away. She had grown old and fat, but it was Frau Frieda, with the snake ring on her index finger\") uses a more distributed focus: the ring is the confirming detail within a larger recognition. For mystery, the cleft over-emphasises; the original's embedded focus mirrors the narrator's gradual certainty. A student who prefers the cleft \"because it's more emphatic\" misses that literary emphasis is about calibration, not maximisation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence paragraph describing a sudden, dramatic event (e.g., a power cut during an exam) that uses end-focus in the first sentence and fronting in the second to control pacing and emphasis. Label which structure you used in each.",
+     "a": "Example: \"The fluorescent lights flickered once and died, plunging the hall into sudden darkness. [End-focus: 'sudden darkness' lands at the end.] Into the silence rushed a collective gasp from three hundred students. [Fronting: 'Into the silence' sets the scene before the sound.]\"\nA poor answer uses standard SVO in both (\"The lights went out. The students gasped.\") — showing inability to manipulate syntax for rhetorical effect. The task tests whether the student can *produce* the structures, not just identify them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

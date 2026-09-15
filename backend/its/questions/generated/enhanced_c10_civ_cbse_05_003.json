@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_003",
+   "title": "c10_civ_cbse_05_003",
+   "questions": [
+    {
+     "q": "Which part of the Indian Constitution explicitly directs the State to strive to minimize inequalities in income and eliminate inequalities in status, facilities, and opportunities?",
+     "a": "Directive Principles of State Policy, specifically Article 38(2) and Article 39(c). A wrong answer (e.g., \"Fundamental Rights\" or \"Preamble\") reveals the student confuses justiciable rights with non-justiciable governance directives, a common error when distinguishing between what courts can enforce and what guides policy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why democracies are theoretically more likely to adopt redistributive policies than authoritarian regimes, even though both may face poverty.",
+     "a": "In democracies, the poor constitute a large voting bloc; parties compete for their votes by promising welfare schemes (political competition mechanism). Authoritarian regimes lack this electoral incentive and may suppress poor citizens' demands. A wrong answer focusing only on \"democracies are kinder\" shows a moralistic misunderstanding instead of the institutional incentive structure (median voter theorem logic).",
+     "self_check": true
+    },
+    {
+     "q": "A state government launches a new cash-transfer scheme for landless agricultural laborers. Identify the democratic mechanism that ensures the scheme actually reaches beneficiaries, and name one institutional check that could prevent leakage.",
+     "a": "Mechanism: Electoral accountability — local MLAs face re-election and must show delivery to retain votes of laborers. Institutional check: Social audit (mandated under MGNREGA) or Right to Information (RTI) Act enabling citizens to track fund flow. A wrong answer citing \"bureaucratic efficiency\" ignores the political drivers of implementation in democracies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kerala and Bihar (two Indian states with similar democratic structures) on poverty reduction outcomes. Identify two political-institutional factors that could explain divergent results despite both being democracies.",
+     "a": "Factors: (1) Historical strength of left-wing mobilization and unionization in Kerala creating sustained pressure for redistribution; (2) Higher bureaucratic capacity and lower clientelism in Kerala's local governance (Panchayati Raj). A wrong answer attributing difference solely to \"better leaders\" misses structural factors like party systems and administrative legacy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's democracy has failed to reduce economic inequality because the Gini coefficient has risen since 1991.\" Provide a nuanced judgment using the distinction between inequality and poverty.",
+     "a": "The claim is partially valid but incomplete. Democracy has enabled significant poverty reduction (headcount ratio fell from ~45% in 1993 to ~22% in 2011) through schemes like PDS and MGNREGA, even as inequality rose due to unequal growth benefits. Democracy's record is mixed: it reduces absolute deprivation better than relative inequality. A wrong answer saying \"democracy failed\" ignores poverty decline; saying \"democracy succeeded\" ignores rising inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a local Gram Panchayat to reduce gender-based income inequality in its village, using only powers granted under the 73rd Amendment and existing centrally sponsored schemes.",
+     "a": "A strong proposal: \"Leverage MGNREGA's mandatory 33% women quota by reserving all worksite supervisor roles for women SHG members; use Panchayat's own revenue (property tax) to fund childcare centers at worksites; converge with NRLM to provide skill training for women in non-farm activities.\" A poor proposal ignores constitutional mandates (73rd Amendment) or suggests actions beyond Panchayat's fiscal/legal powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

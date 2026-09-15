@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_003",
+   "title": "c12_cs_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the exact syntax to insert a new row into a table `Employee(EmpID, Name, Dept, Salary)` providing values only for EmpID, Name, and Dept, assuming Salary has a DEFAULT constraint?",
+     "a": "Correct answer: `INSERT INTO Employee (EmpID, Name, Dept) VALUES (101, 'Amit', 'IT');` — the column list explicitly names only the three columns being supplied; Salary is omitted so its DEFAULT value is used. A wrong answer like `INSERT INTO Employee VALUES (101, 'Amit', 'IT');` (without column list) reveals the student believes values must be supplied for ALL columns in table order, ignoring DEFAULT handling. Another wrong answer `INSERT INTO Employee (EmpID, Name, Dept, Salary) VALUES (101, 'Amit', 'IT', NULL);` shows confusion between DEFAULT and NULL.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement `UPDATE Student SET Class = 'XII' WHERE AdmNo = 105;` is safer than `UPDATE Student SET Class = 'XII';` and describe the exact difference in row-level effect.",
+     "a": "The first statement updates ONLY the row where AdmNo = 105 (at most one row because AdmNo is PRIMARY KEY). The second statement updates EVERY row in the table, changing Class to 'XII' for all students. A wrong answer that says \"both do the same thing\" or \"the second gives an error\" reveals the student does not understand that omitting WHERE in UPDATE/DELETE applies the operation to all rows — a critical board-exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Given table `Product(PID, PName, Price, Qty)` with data: (1,'Pen',10,100), (2,'Book',50,20), (3,'Eraser',5,200). Write the DELETE statement to remove products with Price < 20 AND Qty > 50, and show the resulting table.",
+     "a": "Statement: `DELETE FROM Product WHERE Price < 20 AND Qty > 50;` — this deletes rows 1 (Pen) and 3 (Eraser). Resulting table: only (2,'Book',50,20) remains. A wrong answer deleting only one row or using OR instead of AND reveals inability to combine multiple conditions correctly. A student who writes `DELETE FROM Product WHERE Price < 20 OR Qty > 50;` would delete all three rows, showing confusion between AND/OR logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of `INSERT INTO T1 SELECT * FROM T2;` versus `INSERT INTO T1 (col1, col2) SELECT colA, colB FROM T2 WHERE colC > 100;` in terms of column matching, filtering, and error scenarios.",
+     "a": "First form: inserts ALL rows and ALL columns from T2 into T1 — requires T1 and T2 to have identical column count, order, and compatible data types; fails if structures differ. Second form: explicitly maps columns (col1←colA, col2←colB), filters rows (colC>100), and allows T1/T2 structures to differ. A wrong answer claiming both are identical reveals the student misses the critical role of explicit column lists in enabling schema flexibility and filtering.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `UPDATE Marks SET Total = Math + Science + English WHERE RollNo = 10;` but the table has columns Math, Science, English, Total. The statement executes without error but Total remains unchanged for RollNo=10. Identify the likely cause and correct it.",
+     "a": "Likely cause: RollNo=10 does not exist in the table, so WHERE matches zero rows — UPDATE succeeds (0 rows affected) but changes nothing. Correct approach: first verify existence with `SELECT * FROM Marks WHERE RollNo=10;`. A wrong answer blaming syntax error or expression evaluation reveals the student does not understand that UPDATE with non-matching WHERE is not an error — it silently affects zero rows, a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you must insert multiple rows into `Orders(OrderID, CustID, OrderDate, Amount)` from a staging table `NewOrders` but only for customers from 'Delhi' (column City in Customers table), using a single INSERT...SELECT statement with a JOIN. Write the full statement.",
+     "a": "`INSERT INTO Orders (OrderID, CustID, OrderDate, Amount) SELECT n.OrderID, n.CustID, n.OrderDate, n.Amount FROM NewOrders n JOIN Customers c ON n.CustID = c.CustID WHERE c.City = 'Delhi';` — this demonstrates multi-table INSERT...SELECT with JOIN and filtering. A poor answer using subquery instead of JOIN or omitting column list shows inability to compose advanced DML combining multiple concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

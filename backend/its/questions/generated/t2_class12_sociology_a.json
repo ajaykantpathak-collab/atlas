@@ -1,0 +1,251 @@
+{
+ "catalog": "t2_class12_sociology_a",
+ "note": "Wave-2 graded items for class 12 Sociology pools (lesy101-107). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "lesy.101.1.1", "title": "Sociology and the Need to Unlearn Common Sense", "questions": [
+    {"q": "Common sense is learned from one's own social group, so it is partial or complete?", "a": "partial"},
+    {"q": "The first job of learning sociology is to what common sense?", "a": "unlearn"}
+  ]},
+  {"id": "lesy.101.2.1", "title": "Self-Reflexivity", "questions": [
+    {"q": "Turning the outward gaze back and inspecting yourself critically is called what?", "a": "self-reflexivity"},
+    {"q": "The sociologist's first field of observation is what?", "a": "the sociologist's own standpoint"}
+  ]},
+  {"id": "lesy.101.3.1", "title": "The Social Map", "questions": [
+    {"q": "Young people form roughly what percent of India's population?", "a": "40 percent"},
+    {"q": "Who you are socially is a set of what on many maps at once?", "a": "coordinates"}
+  ]},
+  {"id": "lesy.101.4.1", "title": "Personal Troubles and Social Issues", "questions": [
+    {"q": "Which sociologist distinguished personal troubles from social issues: C. Wright Mills or Malthus?", "a": "C. Wright Mills"},
+    {"q": "A worry belonging to a single individual is a personal what?", "a": "trouble"}
+  ]},
+  {"id": "lesy.101.5.1", "title": "A Preview of the Book", "questions": [
+    {"q": "Which basic institutions form the building blocks of Indian society: caste, tribe and family, or banks and malls?", "a": "caste, tribe and family"},
+    {"q": "The market entered India as a vehicle of change from which era: colonialism or the Vedic age?", "a": "colonialism"}
+  ]},
+  {"id": "lesy.102.1.1", "title": "Demography and Social Demography", "questions": [
+    {"q": "What is the systematic study of population called?", "a": "demography"},
+    {"q": "The word demography joins demos with which Greek word for describing?", "a": "graphein"}
+  ]},
+  {"id": "lesy.102.2.1", "title": "Malthusian Theory of Population Growth", "questions": [
+    {"q": "Malthus said population grows in which progression: geometric or arithmetic?", "a": "geometric"},
+    {"q": "In which year was Malthus's Essay on population published?", "a": "1798"}
+  ]},
+  {"id": "lesy.102.3.1", "title": "Theory of Demographic Transition", "questions": [
+    {"q": "In which stage of demographic transition do death rates fall while birth rates stay high?", "a": "the transitional stage"},
+    {"q": "India sits in which part of the demographic transition: the middle or the end?", "a": "the middle"}
+  ]},
+  {"id": "lesy.102.4.1", "title": "Demographic Concepts and Indicators", "questions": [
+    {"q": "Birth rate counts live births per how many of the population?", "a": "1000"},
+    {"q": "Growth rate equals birth rate minus what?", "a": "death rate"}
+  ]},
+  {"id": "lesy.102.5.1", "title": "Size and Growth of India's Population", "questions": [
+    {"q": "Census 2011 counted how many crores of Indians?", "a": "121"},
+    {"q": "In which decade was India's population growth actually negative: 1911-21 or 1961-81?", "a": "1911-21"},
+    {"q": "Which pandemic killed about 5 percent of Indians in 1918?", "a": "influenza"},
+    {"q": "Population growth jumped to 2.2 percent during which decades: 1961-81 or 1981-2001?", "a": "1961-81"}
+  ]},
+  {"id": "lesy.102.6.1", "title": "Age Structure and Dependency Ratio", "questions": [
+    {"q": "The dependency ratio compares dependents with which age group: 15-64 or 0-6?", "a": "15-64"},
+    {"q": "India's under-15 share fell from 42 percent in 1971 to what in 2011?", "a": "29 percent"}
+  ]},
+  {"id": "lesy.102.7.1", "title": "The Declining Sex Ratio", "questions": [
+    {"q": "India's sex ratio in 2011 stood at how many females per 1000 males?", "a": "943"},
+    {"q": "The declining sex ratio signals preference for which child: sons or daughters?", "a": "sons"}
+  ]},
+  {"id": "lesy.102.8.1", "title": "Literacy Levels and Gaps", "questions": [
+    {"q": "About what share of Indians are literate now: two-thirds or one-tenth?", "a": "two-thirds"},
+    {"q": "Women trail men in literacy by how many percentage points as of 2011: 16.3 or 2.3?", "a": "16.3"}
+  ]},
+  {"id": "lesy.102.9.1", "title": "Rural-Urban Differences and Population Policy", "questions": [
+    {"q": "What share of Indians lived in villages in 2011: 68.8 percent or 12 percent?", "a": "68.8 percent"},
+    {"q": "Which country was the first to frame a national population policy: India or Britain?", "a": "India"}
+  ]},
+  {"id": "lesy103.1", "title": "Caste in the Past: Varna and Jati", "questions": [
+    {"q": "The four-fold all-India division of caste is called what: varna or jati?", "a": "varna"},
+    {"q": "The hundreds of regional sub-castes are called what?", "a": "jati"},
+    {"q": "Caste membership is fixed by what: birth or wealth?", "a": "birth"}
+  ]},
+  {"id": "lesy103.2", "title": "Principles of the Caste System", "questions": [
+    {"q": "Caste ranking rests on the opposition of purity and what?", "a": "pollution"},
+    {"q": "Rules keeping every caste strictly apart express which principle: separation or wholism?", "a": "separation"},
+    {"q": "Each caste occupies a fixed rung on a ladder of what?", "a": "hierarchy"}
+  ]},
+  {"id": "lesy103.3", "title": "Colonialism and Caste", "questions": [
+    {"q": "Under which census officer did the 1901 census record the social rank order of castes: Herbert Risley or Ambedkar?", "a": "Herbert Risley"},
+    {"q": "Which act of 1935 gave legal recognition to scheduled lists of castes?", "a": "the Government of India Act 1935"},
+    {"q": "Colonial counting made caste identities more fluid or more rigid?", "a": "more rigid"}
+  ]},
+  {"id": "lesy103.4", "title": "Counting the Colonial Census Cycles", "questions": [
+    {"q": "The caste census became a ten-yearly exercise from which year: 1881 or 1901?", "a": "1881"}
+  ]},
+  {"id": "lesy103.5", "title": "Caste in the Present", "questions": [
+    {"q": "Raising one's caste status by copying a higher caste's practices is called what?", "a": "sanskritisation"},
+    {"q": "The numerous intermediate castes with local dominance are called what, in Srinivas's term?", "a": "dominant caste"},
+    {"q": "Caste-based parties rose in electoral politics from which decade: the 1980s or the 1950s?", "a": "the 1980s"}
+  ]},
+  {"id": "lesy103.6", "title": "Tribal Communities: Classification", "questions": [
+    {"q": "Is mode of livelihood a permanent or an acquired trait in tribal classification?", "a": "an acquired trait"},
+    {"q": "By language, tribes fall into how many groups: three or thirty?", "a": "three"},
+    {"q": "Which tribe numbers over a million in central India: the Gonds or the Andamanese?", "a": "the Gonds"}
+  ]},
+  {"id": "lesy103.7", "title": "Tribal Population Shares", "questions": [
+    {"q": "Tribals formed about what percent of India's population at Census 2011: 8.6 or 20?", "a": "8.6"}
+  ]},
+  {"id": "lesy103.8", "title": "Tribal Identity and Development Costs", "questions": [
+    {"q": "By the 1970s, standard criteria for the tribe-caste distinction had done what: failed or held?", "a": "failed"},
+    {"q": "The two great tribal movement issues are control over land and forests, and what kind of identity?", "a": "ethnic-cultural identity"},
+    {"q": "Tribal identities come from interaction with the mainstream or from primordial traits?", "a": "interaction with the mainstream"}
+  ]},
+  {"id": "lesy103.9", "title": "Family and Kinship", "questions": [
+    {"q": "A family of one set of parents and their children is called what: nuclear or extended?", "a": "nuclear"},
+    {"q": "Residence with the husband's family is called what: patrilocal or matrilocal?", "a": "patrilocal"},
+    {"q": "Authority resting with the eldest male is called what: patriarchy or matriarchy?", "a": "patriarchy"}
+  ]},
+  {"id": "lesy104.1", "title": "Sociological versus Economic Views of Markets", "questions": [
+    {"q": "Who wrote the Wealth of Nations: Adam Smith or Karl Marx?", "a": "Adam Smith"},
+    {"q": "Which metaphor describes self-interested exchanges building an ordered system: the invisible hand or the iron cage?", "a": "the invisible hand"},
+    {"q": "Sociology holds that markets are embedded in what: culture and social groups, or a vacuum?", "a": "culture and social groups"}
+  ]},
+  {"id": "lesy104.2", "title": "The Weekly Tribal Haat", "questions": [
+    {"q": "The weekly tribal market is called a what: haat or mall?", "a": "haat"},
+    {"q": "In the Bastar haat, buyers are mostly adivasis and sellers mainly whom: caste Hindus or officials?", "a": "caste Hindus"},
+    {"q": "Beyond trade, the haat is a place to meet kin and arrange what?", "a": "marriages"}
+  ]},
+  {"id": "lesy104.3", "title": "Caste-based Trading Networks", "questions": [
+    {"q": "A bill of exchange honoured within a caste-kin network is called a what?", "a": "hundi"},
+    {"q": "Which Tamil Nadu community ran a caste-based banking system: the Nakarattars or the Marwaris?", "a": "the Nakarattars"},
+    {"q": "What kept Nakarattar banking sound: a government central bank or shared reputation?", "a": "shared reputation"}
+  ]},
+  {"id": "lesy104.4", "title": "Colonialism and New Markets", "questions": [
+    {"q": "Which Indian industry died under cheap English textiles: handlooms or steel?", "a": "handlooms"},
+    {"q": "Colonialism turned India into a supplier of what and a consumer of finished goods?", "a": "raw materials"},
+    {"q": "Which community rose from migrant traders to industrialists: the Marwaris or the Nakarattars?", "a": "the Marwaris"}
+  ]},
+  {"id": "lesy104.5", "title": "Capitalism and Wage Labour", "questions": [
+    {"q": "In capitalism, workers must sell their what: labour power or land?", "a": "labour power"}
+  ]},
+  {"id": "lesy104.6", "title": "Commodification and Status Symbols", "questions": [
+    {"q": "Things once outside trade becoming commodities is called what?", "a": "commodification"},
+    {"q": "Who coined the term status symbol: Weber or Marx?", "a": "Weber"},
+    {"q": "Name the coaching-based service that has been commodified: education or rainfall?", "a": "education"}
+  ]},
+  {"id": "lesy104.7", "title": "Globalisation and Culture as Commodity", "questions": [
+    {"q": "Since the late 1980s, economies, cultures and politics have been interlinked by what process?", "a": "globalisation"},
+    {"q": "Which Indian traditions are marketed globally as wellness exports: yoga and ayurveda or kabaddi?", "a": "yoga and ayurveda"},
+    {"q": "When the Pushkar fair becomes a tourism product, what turns into a commodity: a market itself or a mountain?", "a": "a market itself"}
+  ]},
+  {"id": "lesy104.8", "title": "Liberalisation and Support Prices", "questions": [
+    {"q": "The government buying farm produce at guaranteed prices is called what: support price or disinvestment?", "a": "support price"}
+  ]},
+  {"id": "lesy105.1", "title": "Social Inequality and Three Forms of Capital", "questions": [
+    {"q": "Social inequality divides groups or individuals?", "a": "groups"},
+    {"q": "Assets and income form which capital, in Bourdieu's terms: economic or cultural?", "a": "economic"},
+    {"q": "Networks of contacts and connections form which capital?", "a": "social capital"}
+  ]},
+  {"id": "lesy105.2", "title": "Social Stratification and its Principles", "questions": [
+    {"q": "Ranking categories of people in a hierarchy is called social what?", "a": "stratification"},
+    {"q": "Stratification arises once a society produces a what beyond basic needs: surplus or famine?", "a": "surplus"},
+    {"q": "Stratification persists over generations because position is what: ascribed or achieved?", "a": "ascribed"}
+  ]},
+  {"id": "lesy105.3", "title": "Prejudice, Stereotype, Discrimination", "questions": [
+    {"q": "An opinion formed before evidence is called what?", "a": "prejudice"},
+    {"q": "Fixed, inflexible characterisations of a whole community are called what?", "a": "stereotypes"},
+    {"q": "Prejudice put into behaviour is called what?", "a": "discrimination"}
+  ]},
+  {"id": "lesy105.4", "title": "Caste-Based Inequality", "questions": [
+    {"q": "In 2011-12, what percent of rural Scheduled Tribes lived below the poverty line: 45.3 or 5.3?", "a": "45.3"}
+  ]},
+  {"id": "lesy105.5", "title": "Race and Caste Compared", "questions": [
+    {"q": "Under apartheid, Black workers earned on average what fraction of white earnings: one-fourth or three-fourths?", "a": "one-fourth"}
+  ]},
+  {"id": "lesy105.6", "title": "Reservations and Anti-Discrimination Laws", "questions": [
+    {"q": "Seats in legislatures and government jobs set aside for Scheduled Castes and Tribes are called what?", "a": "reservations"},
+    {"q": "Which article of the Constitution abolishes untouchability: Article 17 or Article 21?", "a": "Article 17"},
+    {"q": "Reservations were extended to the Other Backward Classes from which period: the early 1990s or the 1950s?", "a": "the early 1990s"}
+  ]},
+  {"id": "lesy105.7", "title": "Adivasi Struggles", "questions": [
+    {"q": "Adivasi, coined in the 1930s, means what: original inhabitants or new settlers?", "a": "original inhabitants"},
+    {"q": "Colonial forests were reserved from the late nineteenth century for what: timber or grazing?", "a": "timber"},
+    {"q": "Which tribal region won separate statehood: Jharkhand or Vidarbha?", "a": "Jharkhand"}
+  ]},
+  {"id": "lesy105.8", "title": "Struggle for Women's Equality", "questions": [
+    {"q": "Who led the fight against sati: Raja Rammohun Roy or Ranade?", "a": "Raja Rammohun Roy"},
+    {"q": "Name the matrilineal community of Kerala cited against gender determinism: the Nairs or the Marathas?", "a": "the Nairs"},
+    {"q": "Whose 1882 text is an early Indian feminist statement: Tarabai Shinde's or Ranade's?", "a": "Tarabai Shinde's"}
+  ]},
+  {"id": "lesy105.9", "title": "Disability as a Social Construction", "questions": [
+    {"q": "The differently abled are disabled by impairment and by what else: a society built without them, or fate alone?", "a": "a society built without them"},
+    {"q": "Which scholar likens the disabled's invisibility to Ellison's Invisible Man: Anita Ghai or Kalavati?", "a": "Anita Ghai"},
+    {"q": "Is the link between disability and poverty one-directional or two-way?", "a": "two-way"}
+  ]},
+  {"id": "lesy106.1", "title": "Cultural Diversity as a Challenge", "questions": [
+    {"q": "Diversity stresses difference rather than what: inequality or language?", "a": "inequality"},
+    {"q": "How many markers does the text list for India's cultural diversity: five or fifty?", "a": "five"},
+    {"q": "The diversity challenge sharpens when identities ride on economic and social what?", "a": "inequalities"}
+  ]},
+  {"id": "lesy106.2", "title": "Community Identity", "questions": [
+    {"q": "Identity resting on birth rather than achievement is called what kind of identity: ascriptive or achieved?", "a": "ascriptive"},
+    {"q": "Community identity is felt as total and almost what: inescapable or optional?", "a": "inescapable"},
+    {"q": "Is community identity universal or rare?", "a": "universal"}
+  ]},
+  {"id": "lesy106.3", "title": "Nation, State and the Nation-State", "questions": [
+    {"q": "A community wanting to share one political collectivity is called a what?", "a": "nation"},
+    {"q": "Who defined the state as a body successfully claiming a monopoly of legitimate force: Max Weber or Durkheim?", "a": "Max Weber"},
+    {"q": "Nations are communities that have a what of their own: state or flag?", "a": "state"}
+  ]},
+  {"id": "lesy106.4", "title": "Assimilation, Integration and the State-Nation", "questions": [
+    {"q": "Forcing all citizens toward the dominant culture is called what: assimilation or integration?", "a": "assimilation"},
+    {"q": "Which policy allows minority cultures only in the private sphere: integration or annihilation?", "a": "integration"},
+    {"q": "India's alternative accommodates multiple complementary identities and is called a state-what?", "a": "state-nation"}
+  ]},
+  {"id": "lesy106.5", "title": "India's Religious Composition", "questions": [
+    {"q": "Muslims form what percent of India's population per Census 2011: 14.2 or 42?", "a": "14.2"}
+  ]},
+  {"id": "lesy106.6", "title": "Regionalism and Linguistic States", "questions": [
+    {"q": "Whose 1953 fast unto death forced the creation of Andhra: Potti Sriramulu or Jinnah?", "a": "Potti Sriramulu"},
+    {"q": "Which commission reorganised states on a linguistic basis in 1956: the States Reorganisation Commission or the Finance Commission?", "a": "the States Reorganisation Commission"},
+    {"q": "Accommodation of regional diversity runs through what arrangement: federalism or unitary rule?", "a": "federalism"}
+  ]},
+  {"id": "lesy106.7", "title": "Minority Rights", "questions": [
+    {"q": "In sociology, minority implies small numbers plus what: relative disadvantage or height?", "a": "relative disadvantage"},
+    {"q": "Left-handed people are not a minority because they lack what: group solidarity forged by prejudice, or numbers?", "a": "group solidarity"},
+    {"q": "Which two articles shield religious and cultural minorities: Articles 29 and 30, or 14 and 15?", "a": "Articles 29 and 30"}
+  ]},
+  {"id": "lesy106.8", "title": "Communalism and Secularism", "questions": [
+    {"q": "Aggressive political chauvinism built on religious identity is called what?", "a": "communalism"},
+    {"q": "Indian secularism means equal respect for all religions or strict separation of religion and state?", "a": "equal respect for all religions"},
+    {"q": "Communalism is an ideology or a faith?", "a": "an ideology"}
+  ]},
+  {"id": "lesy106.9", "title": "State, Civil Society and RTI", "questions": [
+    {"q": "The arena beyond family, state and market where citizens form voluntary associations is called what?", "a": "civil society"},
+    {"q": "Under the right to information rules, replies are due within how many days: thirty or three hundred?", "a": "thirty"},
+    {"q": "Which body of the state is listed alongside legislature and judiciary: the bureaucracy or a trade union?", "a": "the bureaucracy"}
+  ]},
+  {"id": "lesy107.1", "title": "Choosing a Research Question and Method", "questions": [
+    {"q": "Before choosing a method, a broad topic must be narrowed into one specific what?", "a": "question"},
+    {"q": "What must match before a study begins: question and method, or mood and method?", "a": "question and method"},
+    {"q": "Practical constraints on method choice include time, people, materials and what else?", "a": "circumstances"}
+  ]},
+  {"id": "lesy107.2", "title": "Survey Method", "questions": [
+    {"q": "A survey asks a large number of people the same what of questions: fixed set or changing set?", "a": "fixed set"}
+  ]},
+  {"id": "lesy107.3", "title": "Interview Method", "questions": [
+    {"q": "An interview is always conducted in what way: in person or by post?", "a": "in person"}
+  ]},
+  {"id": "lesy107.4", "title": "Observation Method", "questions": [
+    {"q": "Observation requires watching and recording how: systematically or casually?", "a": "systematically"},
+    {"q": "A group never seen entering a public space shows the value of what method?", "a": "observation"},
+    {"q": "Observation must log events fairly before any what?", "a": "judgement"}
+  ]},
+  {"id": "lesy107.5", "title": "Combining Methods", "questions": [
+    {"q": "Studying today's media by survey and past media by archives combines methods by doing what: pairing them or dropping one?", "a": "pairing them"},
+    {"q": "Combining methods covers each method's what: blind side or strong side?", "a": "blind side"},
+    {"q": "Is combining methods highly recommended or forbidden?", "a": "highly recommended"}
+  ]},
+  {"id": "lesy107.6", "title": "Project Themes and Methods", "questions": [
+    {"q": "Behaviour and etiquette at a bus station suit which method: observation or a census?", "a": "observation"},
+    {"q": "Opinions on household appliances suit which method: a survey or a coin toss?", "a": "a survey"},
+    {"q": "Which theme tracks hopes across age groups: changing aspirations or the biography of a commodity?", "a": "changing aspirations"}
+  ]}
+ ]
+}

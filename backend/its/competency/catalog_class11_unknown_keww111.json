@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 111,
+  "chapter_title": "Poetry: An Introduction",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww111.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww111.1.1",
+      "title": "Poetry as Making: The Origin of the Word",
+      "section": "intro",
+      "definition": "The word poetry originates from a Greek word meaning 'to make'. A poet is thus a maker, and a poem something made -- language crafted, not merely used. This framing places emphasis on the poem as an artefact of deliberate artistry.",
+      "formula": "",
+      "key_idea": "A poem is a made thing -- the etymology itself teaches that poetry is craft before it is confession.",
+      "textbook_ref": "keww111.txt introduction (greek origin meaning to make, poet as maker, poem as something made)",
+      "question_patterns": [
+        "from which greek word does poetry originate and what does it mean",
+        "in class 11 poetry introduction: why is a poet called a maker",
+        "what does the etymology of poetry suggest about reading poems",
+        "distinguish making a poem from merely expressing feelings",
+        "why is a poem compared to a crafted artefact",
+        "explain the idea that a poem is something that is made"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the word",
+          "explain": "The Greek root meaning 'to make' underlies both poetry and poet."
+        },
+        {
+          "step": 2,
+          "action": "unfold the meaning",
+          "explain": "Making implies choice of words, shape and sound -- a poem is built, not poured out."
+        },
+        {
+          "step": 3,
+          "action": "apply to reading",
+          "explain": "Readers should attend to craft -- how the poem is made -- as much as to what it says."
+        }
+      ]
+    },
+    {
+      "id": "keww111.1.2",
+      "title": "How a Poem Communicates: Compression, Music and Suggestion",
+      "section": "intro",
+      "definition": "Unlike prose, a poem communicates through compression -- maximum meaning in minimum words -- through the music of rhythm and sound, and through suggestion, where images carry meanings that statement cannot. Reading poetry asks for attention to these, not just extraction of a paraphrase.",
+      "formula": "",
+      "key_idea": "Say more with less, sing while saying -- a poem works by compression, music and suggestion together.",
+      "textbook_ref": "keww111.txt reading sections (compression of language, rhythm and sound patterns, imagery and suggestion, how to read a poem)",
+      "question_patterns": [
+        "how does a poem compress meaning into few words",
+        "in class 11 poetry introduction: what role does sound and rhythm play in a poem",
+        "explain suggestion and imagery as poetic devices",
+        "why should a poem not be reduced to a prose paraphrase",
+        "how is reading poetry different from reading prose",
+        "give an example of a line where sound reinforces meaning"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the density",
+          "explain": "Each word in a poem carries weight -- there is no filler in good verse."
+        },
+        {
+          "step": 2,
+          "action": "hear the music",
+          "explain": "Rhythm, rhyme and repetition organise the poem for ear and memory."
+        },
+        {
+          "step": 3,
+          "action": "follow the suggestions",
+          "explain": "Images and associations carry surplus meaning that paraphrase would destroy."
+        }
+      ]
+    },
+    {
+      "id": "keww111.1.3",
+      "title": "The Poems of This Section: A Preview",
+      "section": "intro",
+      "definition": "The introduction previews the anthology's range: sonnets and odes, lyrics and narrative verse, poets from Shakespeare and Wordsworth to modern voices -- poems of love, nature, alienation, language and loss -- each chosen to display poetry's variety of form and feeling.",
+      "formula": "",
+      "key_idea": "A doorway to an anthology -- forms from sonnet to free verse, feelings from love to exile.",
+      "textbook_ref": "keww111.txt preview sections (range of poems in the anthology, shakespeare wordsworth keats auden hughes, variety of themes and forms)",
+      "question_patterns": [
+        "name the poets and poems included in the poetry section",
+        "in class 11 poetry introduction: what variety of themes does the anthology cover",
+        "distinguish a sonnet from an ode as forms mentioned",
+        "which poems deal with nature and which with human relationships",
+        "how does the section balance old and modern poets",
+        "what unites such different poems in one anthology"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "survey the poets",
+          "explain": "From Shakespeare and Wordsworth to Auden and modern Indian poets, the range spans centuries and cultures."
+        },
+        {
+          "step": 2,
+          "action": "survey the themes",
+          "explain": "Love, nature, war, exile, language and everyday family life all find their poems."
+        },
+        {
+          "step": 3,
+          "action": "state the design",
+          "explain": "The variety is deliberate -- an anthology training readers in poetry's many shapes."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww111.txt introduction",
+      "concept": "keww111.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A friend says poems are just overflowing emotions. Use the 'making' etymology to answer.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant the emotion",
+          "explain": "Feeling often starts a poem -- but feeling alone is not a poem."
+        },
+        {
+          "step": 2,
+          "action": "apply the etymology",
+          "explain": "Poetry means making: emotion must be given form -- words ordered, sound shaped."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The poet is a maker first; the emotion arrives to us already crafted."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww111.txt reading sections",
+      "concept": "keww111.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the introduction warn against reducing a poem to a prose paraphrase?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state what paraphrase keeps",
+          "explain": "A paraphrase preserves the statement or content of the poem."
+        },
+        {
+          "step": 2,
+          "action": "state what it loses",
+          "explain": "It loses rhythm, sound patterning, image and suggestion -- half the poem's meaning."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Reading poetry means experiencing the made thing whole, not extracting a summary."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww111.txt end-of-section questions, reworded",
+      "questions": [
+        "Explain the origin of the word poetry and its implications.",
+        "What makes reading poetry different from reading prose?",
+        "How do sound and rhythm contribute to a poem's meaning?",
+        "Name the poems and poets of this section with one theme each.",
+        "Why is a poem called a made thing?",
+        "Discuss the role of imagery and suggestion in poetry."
+      ]
+    }
+  ]
+}

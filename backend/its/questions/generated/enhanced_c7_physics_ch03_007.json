@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_007",
+   "title": "c7_physics_ch03_007",
+   "questions": [
+    {
+     "q": "Which of the three methods of heat transfer can take place through a vacuum (empty space) without any material medium?",
+     "a": "Radiation is the only method of heat transfer that can travel through a vacuum, as it uses electromagnetic waves. A wrong answer reveals that the student confuses radiation with conduction or convection, forgetting that conduction requires solid contact and convection requires fluids (liquids or gases).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why convection currents always move upwards in a room or a vessel of liquid, whereas radiation can travel in all directions.",
+     "a": "Convection occurs because heated fluid expands, becomes less dense, and floats upward due to buoyancy, while cooler, denser fluid sinks. Radiation consists of electromagnetic waves radiating outward in all directions from a hot source without depending on fluid density or gravity. A wrong answer shows the student has not distinguished between bulk matter movement governed by gravity and wave propagation.",
+     "self_check": true
+    },
+    {
+     "q": "A metal spoon left in a bowl of hot dal gets hot at the handle. If the dal is at 80 °C and the handle is 20 cm long, and heat travels through the 50 g stainless steel spoon ($c = 500\\text{ J/kg}\\cdot\\text{°C}$) by conduction at a constant rate of 0.5 J/s, how much heat energy is transferred to the handle in 2 minutes?",
+     "a": "Steps: \n1. Identify given values: Rate of heat transfer ($P$ or $Q/t$) = 0.5 J/s, time ($t$) = 2 minutes. \n2. Convert time into SI units: $t = 2 \\times 60\\text{ s} = 120\\text{ s}$. \n3. Use the relationship for total heat energy: $Q = \\text{Rate} \\times t$. \n4. Substitute values with units: $Q = 0.5\\text{ J/s} \\times 120\\text{ s} = 60\\text{ J}$. \n5. Verify unit cancellation: seconds cancel out, leaving Joules (J), which is correct for energy. \nAnswer: 60 J. A wrong answer indicates a failure to convert minutes to seconds or a mix-up between power (rate of heat transfer) and total energy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how heat reaches the upper layers of water in a vessel when heated from the bottom versus how heat reaches the bottom if heated from the top. Why is heating water from the top much slower?",
+     "a": "When heated from the bottom, hot water at the base becomes less dense and rises (convection), quickly distributing heat throughout the vessel. When heated from the top, warm water stays at the top because it is less dense and lighter, meaning convection cannot occur downward; heat must travel downward solely via water's poor thermal conduction, which is extremely slow. A wrong answer reveals that the student believes convection currents can push heat downward against buoyancy forces.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that \"Radiation is the fastest method of heat transfer because it happens at the speed of light, while conduction and convection depend on slow particle collisions or fluid flow.\" Evaluate this statement scientifically.",
+     "a": "The statement is scientifically correct. Radiation travels via electromagnetic waves at the speed of light ($c \\approx 3 \\times 10^8\\text{ m/s}$), making it instantaneous over distances compared to conduction, which relies on gradual atomic vibrations, and convection, which relies on bulk fluid movement. A wrong answer shows a misconception that all heat transfer methods travel at the same speed regardless of the medium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment using everyday items to demonstrate all three modes of heat transfer simultaneously while boiling water with a submerged electric rod and a metal spoon resting on the rim.",
+     "a": "Criteria for a good answer: Must identify the electric rod heating water (convection), the handle of the metal spoon getting hot (conduction), and feeling warmth by holding a hand near the side of the pot without touching it (radiation). A poor answer fails to isolate the three distinct mechanisms or invents impossible scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

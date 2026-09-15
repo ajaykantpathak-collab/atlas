@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_012",
+   "title": "c11_chem_cbse_07_012",
+   "questions": [
+    {
+     "q": "A student measures the pH of 0.01 M HCl and 0.01 M CH₃COOH (Ka = 1.8 × 10⁻⁵) at 298 K. Without calculation, predict which solution has lower pH and explain why the difference exists despite identical molar concentrations.",
+     "a": "0.01 M HCl has lower pH (pH = 2.00) than 0.01 M CH₃COOH (pH ≈ 3.37). HCl is a strong acid and dissociates completely giving [H⁺] = 0.01 M, while CH₃COOH is a weak acid with partial dissociation (α ≈ 1.3%), so [H⁺] << 0.01 M. A wrong answer (e.g., \"same pH because same concentration\") reveals the student confuses analytical concentration with equilibrium [H⁺] and hasn't internalized the strong vs weak acid distinction from c11_chem_cbse_07_011.",
+     "self_check": true
+    },
+    {
+     "q": "For a 0.10 M NH₃ solution (Kb = 1.8 × 10⁻⁵), a student writes the equilibrium as NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ and sets up: Kb = x²/(0.10 - x). They approximate 0.10 - x ≈ 0.10 and get x = 1.34 × 10⁻³ M, pOH = 2.87, pH = 11.13. Is the 5% approximation valid here? Show the check.",
+     "a": "Yes, the approximation is valid. x = 1.34 × 10⁻³ M, initial [NH₃] = 0.10 M. % dissociation = (1.34 × 10⁻³ / 0.10) × 100 = 1.34% < 5%. The approximation holds. A wrong answer (e.g., \"not valid, must use quadratic\") reveals the student either miscalculates x or doesn't know the 5% rule threshold. This tests understanding of when approximations are justified - a critical skill for board exam time management.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pH of a buffer solution prepared by mixing 100 mL of 0.20 M CH₃COOH (Ka = 1.8 × 10⁻⁵) with 150 mL of 0.15 M CH₃COONa. Show all steps including the dilution effect on concentrations.",
+     "a": "Step 1: Total volume = 250 mL. [CH₃COOH] = (0.20 × 100)/250 = 0.080 M. [CH₃COO⁻] = (0.15 × 150)/250 = 0.090 M.\nStep 2: pKa = -log(1.8 × 10⁻⁵) = 4.74.\nStep 3: pH = pKa + log([salt]/[acid]) = 4.74 + log(0.090/0.080) = 4.74 + log(1.125) = 4.74 + 0.051 = 4.79.\nA wrong answer (e.g., using initial concentrations without dilution: pH = 4.74 + log(0.15/0.20) = 4.62) reveals the student forgets that mixing changes molarities - a common error in buffer problems. The Henderson-Hasselbalch equation requires equilibrium concentrations, which for buffers equal the diluted analytical concentrations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pH of 0.01 M NaCl, 0.01 M NaCN (Kb of CN⁻ = 2.5 × 10⁻⁵), and 0.01 M NH₄Cl (Ka of NH₄⁺ = 5.6 × 10⁻¹⁰). Rank them from lowest to highest pH and justify each using hydrolysis concepts.",
+     "a": "Lowest to highest pH: NH₄Cl (acidic, pH ≈ 5.63) < NaCl (neutral, pH = 7.00) < NaCN (basic, pH ≈ 10.70).\nNH₄⁺ hydrolyzes: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺, Ka = 5.6 × 10⁻¹⁰ → [H⁺] = √(Ka·C) = 2.37 × 10⁻⁶ M → pH = 5.63.\nNaCl: neither ion hydrolyzes → pH = 7.\nCN⁻ hydrolyzes: CN⁻ + H₂O ⇌ HCN + OH⁻, Kb = 2.5 × 10⁻⁵ → [OH⁻] = √(Kb·C) = 5.0 × 10⁻⁴ M → pOH = 3.30 → pH = 10.70.\nA wrong ranking reveals confusion about which ion hydrolyzes and whether it produces H⁺ or OH⁻. Students often forget that salts of weak acid + strong base are basic, weak base + strong acid are acidic.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the pH of 10⁻⁸ M HCl as pH = -log(10⁻⁸) = 8.0 and claims the solution is basic. Evaluate this claim. What is the correct pH and why does the simple formula fail?",
+     "a": "The claim is wrong. At 10⁻⁸ M HCl, [H⁺] from water autoionization (10⁻⁷ M) is significant. Total [H⁺] = 10⁻⁷ + 10⁻⁸ = 1.1 × 10⁻⁷ M. pH = -log(1.1 × 10⁻⁷) = 6.96 (slightly acidic, not basic). The simple formula fails because it ignores water's contribution when acid concentration approaches 10⁻⁷ M. A student giving pH = 8 reveals they treat pH = -log[H⁺] as a blind formula without considering the physical meaning of [H⁺] in aqueous systems - a classic senior secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to determine the Ka of a weak monoprotic acid HA using only a pH meter, standard NaOH solution, and the acid solution of unknown concentration. Explain the measurements needed and the calculation at the half-equivalence point.",
+     "a": "Procedure: (1) Titrate 25.0 mL of HA with standardized NaOH while monitoring pH. (2) Plot pH vs volume NaOH added. (3) Identify equivalence point volume (Veq) from steepest pH jump. (4) At half-equivalence point (Veq/2), pH = pKa because [HA] = [A⁻]. (5) Read pH at Veq/2 from graph → pKa = pH at half-equivalence. (6) Ka = 10⁻ᵖᴷᵃ.\nGood answer shows understanding that at half-neutralization, the buffer ratio [A⁻]/[HA] = 1, so log term = 0. A poor answer (e.g., \"measure initial pH and use Ka = [H⁺]²/(C-[H⁺])\") reveals the student doesn't recognize the experimental advantage of the half-equivalence method which eliminates need for exact acid concentration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

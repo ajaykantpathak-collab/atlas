@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_002",
+   "title": "c11_bs_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the approximate percentage contribution of MSMEs to India's GDP and exports as per the NCERT textbook.",
+     "a": "MSMEs contribute approximately 29.7% of GDP and 49.66% of exports. A wrong answer (e.g., \"50% of GDP\") reveals the student is confusing GDP share with export share or memorising rounded figures without understanding the distinct magnitudes of each contribution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why MSMEs are described as \"more labour intensive and less capital intensive\" and why this is a \"boon for a labour surplus country like India.\"",
+     "a": "MSMEs generate more employment per unit of capital invested compared to large industries, meaning they create jobs without requiring massive machinery investment. This suits India where labour is abundant but capital is scarce. A wrong answer that only defines \"labour intensive\" without linking to India's factor endowments shows the student cannot connect textbook phrasing to the underlying economic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A micro enterprise in Uttar Pradesh invests ₹80 lakh in plant and machinery and achieves a turnover of ₹4 crore. Classify this enterprise under the MSMED Act, 2006 criteria and explain how its classification enables it to contribute to balanced regional development.",
+     "a": "Classification: Micro Enterprise (investment ≤ ₹1 crore, turnover ≤ ₹5 crore). It contributes to balanced regional development because micro enterprises can be set up anywhere using local resources and simple technology, spreading industrialisation benefits to backward regions. A wrong classification (e.g., Small Enterprise) indicates the student hasn't memorised the threshold values; a missing explanation shows inability to link classification criteria to the developmental role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of MSMEs in \"balanced regional development\" with the role of large industries. Use the concepts of locational constraints and use of local resources in your analysis.",
+     "a": "MSMEs can be widely spread without locational constraints because they use locally available materials and labour, allowing every region to reap industrialisation benefits. Large industries often require specific infrastructure, large capital, and proximity to ports or mineral deposits, concentrating development in few areas. A weak answer that only lists MSME advantages without contrasting with large industries fails the analysis requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The low cost of production enjoyed by MSMEs is their competitive strength.\" Consider both the advantages and potential limitations of this strength in a globalised market.",
+     "a": "The statement is valid because locally available resources and low overheads reduce per-unit costs, making MSME products price-competitive. However, in global markets, low cost alone is insufficient if quality standards, technology, and scale economies of multinational competitors outweigh price advantages. A one-sided answer that ignores global competition limitations shows lack of evaluative depth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical MSME venture in your district that leverages local raw materials and indigenous skills to create employment for at least 20 people. Briefly describe the product, the local resources used, and how it fulfills at least three roles of MSMEs discussed in the chapter.",
+     "a": "Example: A bamboo furniture unit in Assam using locally grown bamboo and traditional weaving skills. It fulfills: (1) balanced regional development by operating in a rural area, (2) employment generation (labour-intensive), (3) entrepreneurship opportunity for local youth with low capital. A poor answer proposes a venture requiring imported raw materials or high-tech machinery, missing the core concept of using local resources and skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

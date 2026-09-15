@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch08_005",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch08_005",
+   "title": "c6_economics_ch08_005",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a cheque?",
+     "a": "A cheque is a written order to a bank to pay a specific amount of money to a named person. If a student says \"it is money,\" they misunderstand that the cheque is a *request* for money transfer, not the currency itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why is an ATM more convenient than visiting a bank branch during office hours?",
+     "a": "ATMs are available 24/7, allowing users to withdraw cash or check balances even when the bank building is closed. A student who says \"it's for saving money\" misses the point that an ATM is a service terminal, not a vault for long-term storage.",
+     "self_check": true
+    },
+    {
+     "q": "If you want to send money to a friend instantly from your home using a mobile app, which service are you using?",
+     "a": "You are using online banking or a UPI-based mobile service. If a student says \"cheque,\" they haven't grasped the difference between physical documentation and instant digital transfers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a physical cash transaction with an online bank transfer. Which is better for large payments and why?",
+     "a": "Online transfers are better because they are safer and provide a digital record, whereas carrying large amounts of cash is risky. An answer focusing only on \"speed\" misses the vital aspect of security.",
+     "self_check": true
+    },
+    {
+     "q": "Is using an ATM to withdraw money considered an economic activity? Why?",
+     "a": "Yes, because accessing and managing money is a vital part of the process that supports economic activities like buying goods or paying wages. If a student says \"no,\" they fail to see that banking is the \"engine\" that powers exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a business person would prefer using a cheque over an ATM.",
+     "a": "A business person would use a cheque to pay a supplier for a large order (e.g., ₹50,000) because it is safer than carrying that much cash and provides a clear paper trail for accounting. A poor answer would just mention \"it's easier,\" without explaining the security or tracking benefits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

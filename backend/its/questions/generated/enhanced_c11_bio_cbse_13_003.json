@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_003",
+   "title": "c11_bio_cbse_13_003",
+   "questions": [
+    {
+     "q": "Name the natural auxin first isolated from human urine and the two synthetic auxins widely used in horticulture and as herbicides.",
+     "a": "Natural auxin: Indole-3-acetic acid (IAA). Synthetic auxins: NAA (naphthalene acetic acid) and 2,4-D (2,4-dichlorophenoxyacetic acid). A wrong answer (e.g., naming gibberellic acid or kinetin) reveals confusion between auxin and other PGR classes, indicating the student hasn't memorized the distinct chemical identities of the five PGR groups.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 2,4-D is used to prepare weed-free lawns but does not harm mature monocotyledonous grasses, linking this to auxin transport or metabolism differences.",
+     "a": "2,4-D is a synthetic auxin that mimics IAA but is not readily degraded by monocots; dicots absorb and translocate it efficiently, causing uncontrolled growth and death. Monocots (grasses) possess enzymes that rapidly inactivate 2,4-D or limit its translocation. A wrong answer (e.g., \"monocots don't have auxin receptors\") reveals misunderstanding of selective herbicide action - it's about differential metabolism/transport, not receptor absence.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer applies NAA paste to the cut end of a mango stem cutting to induce rooting. Predict what would happen if the same paste were applied to the apical bud of an intact mango sapling, and justify using auxin's polar transport property.",
+     "a": "Applied to the apical bud, exogenous NAA would supplement endogenous auxin, strengthening apical dominance and further suppressing lateral bud outgrowth, making the sapling taller but less branched. Auxin moves basipetally (tip to base); applying at the tip enhances downward flow. A wrong answer (e.g., \"it would induce rooting at the tip\") shows failure to apply polar transport directionality - rooting occurs at the basal end where auxin accumulates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of auxin in (a) preventing premature fruit drop and (b) promoting abscission of mature fruits. How can the same hormone have opposite effects?",
+     "a": "At low concentrations in young fruits, auxin maintains the abscission zone in an inactive state by suppressing ethylene synthesis and cell wall hydrolytic enzymes. In mature fruits, declining auxin levels (due to reduced synthesis/transport) remove this suppression, allowing ethylene to trigger abscission. Thus, auxin *delays* abscission when present; its *absence* permits it. A wrong answer (e.g., \"auxin directly causes abscission\") confuses correlation with causation and misses the concentration-dependent, permissive role.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Apical dominance proves auxin is the only hormone controlling lateral bud growth.\" Provide evidence from cytokinin interactions.",
+     "a": "The statement is false. Decapitation releases lateral buds, but applying auxin to the cut stump restores suppression - showing auxin is *necessary*. However, cytokinin (synthesized in roots, moving upward) *promotes* lateral bud growth. The balance of basipetal auxin and acropetal cytokinin determines bud fate. A wrong answer accepting the statement ignores the antagonistic interaction central to NCERT's \"PGRs act synergistically or antagonistically\" principle.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using agar blocks and oat coleoptiles to demonstrate that auxin moves polarly (only basipetally) and not by simple diffusion. State the control and expected results.",
+     "a": "Place auxin-containing agar block on *one side* of a decapitated coleoptile stump (asymmetric). If polar: bending *away* from the block (auxin moves down that side, elongates cells). If diffusion: symmetric elongation, no bending. Control: symmetric block placement → no bending. Expected: asymmetric block → curvature away from block, proving directional transport. A poor design (e.g., no control, or measuring only length) fails to isolate polarity from diffusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

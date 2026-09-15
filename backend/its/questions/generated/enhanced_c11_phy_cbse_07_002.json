@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_002",
+   "title": "c11_phy_cbse_07_002",
+   "questions": [
+    {
+     "q": "State the mathematical form of Newton's law of universal gravitation for the magnitude of the force between two point masses \\(m_1\\) and \\(m_2\\) separated by distance \\(r\\). Write the SI unit and the accepted approximate value of the universal gravitational constant \\(G\\).",
+     "a": "The magnitude of the gravitational force is \\(F = G \\frac{m_1 m_2}{r^2}\\). The SI unit of \\(G\\) is \\(\\text{N m}^2 \\text{kg}^{-2}\\) and its accepted value is \\(6.67 \\times 10^{-11} \\, \\text{N m}^2 \\text{kg}^{-2}\\). A wrong answer (e.g., writing \\(F = G \\frac{m_1 m_2}{r}\\) or giving \\(G = 9.8 \\, \\text{m/s}^2\\)) reveals the student has memorised the formula for weight \\(mg\\) instead of the universal law, or confuses the constant \\(G\\) with the acceleration due to gravity \\(g\\).",
+     "self_check": true
+    },
+    {
+     "q": "The vector form of the gravitational force on mass \\(m_2\\) due to \\(m_1\\) is \\(\\vec{F}_{21} = -G \\frac{m_1 m_2}{r^3} \\vec{r}_{21}\\), where \\(\\vec{r}_{21} = \\vec{r}_2 - \\vec{r}_1\\). Explain the physical significance of the negative sign and why the force is called a \"central force\".",
+     "a": "The negative sign indicates that the force on \\(m_2\\) is directed opposite to the vector \\(\\vec{r}_{21}\\) (which points from \\(m_1\\) to \\(m_2\\)), meaning the force is attractive and pulls \\(m_2\\) towards \\(m_1\\). It is a central force because the force vector always points along the line joining the two particles (towards the centre of the other mass), resulting in zero torque about the centre and conservation of angular momentum. A wrong answer that says the negative sign means \"repulsion\" or that \"central force means constant magnitude\" shows confusion between the mathematical notation and the physical nature of attraction, or a misunderstanding of the definition of a central force.",
+     "self_check": true
+    },
+    {
+     "q": "Two uniform spheres of mass \\(5.0 \\, \\text{kg}\\) and \\(10.0 \\, \\text{kg}\\) are placed with their centres \\(0.50 \\, \\text{m}\\) apart. Calculate the magnitude of the gravitational force between them. Use \\(G = 6.67 \\times 10^{-11} \\, \\text{N m}^2 \\text{kg}^{-2}\\).",
+     "a": "**Step 1:** Identify given: \\(m_1 = 5.0 \\, \\text{kg}\\), \\(m_2 = 10.0 \\, \\text{kg}\\), \\(r = 0.50 \\, \\text{m}\\), \\(G = 6.67 \\times 10^{-11} \\, \\text{N m}^2 \\text{kg}^{-2}\\). Find \\(F\\).\n**Step 2:** Formula: \\(F = G \\frac{m_1 m_2}{r^2}\\).\n**Step 3:** Substitute: \\(F = (6.67 \\times 10^{-11}) \\frac{(5.0)(10.0)}{(0.50)^2}\\).\n**Step 4:** Compute: \\(F = (6.67 \\times 10^{-11}) \\frac{50.0}{0.25} = (6.67 \\times 10^{-11}) \\times 200 = 1.334 \\times 10^{-8} \\, \\text{N}\\).\n**Step 5:** The force is extremely small (\\(10^{-8} \\, \\text{N}\\)), which is physically reasonable for everyday masses. A wrong answer like \\(1.33 \\times 10^{-9} \\, \\text{N}\\) usually comes from forgetting to square the distance (\\(r\\) instead of \\(r^2\\)) or misplacing the decimal in \\(G\\).",
+     "self_check": true
+    },
+    {
+     "q": "Three identical point masses \\(m\\) are placed at the vertices of an equilateral triangle of side \\(a\\). Find the magnitude and direction of the net gravitational force on one mass due to the other two.",
+     "a": "**Magnitude:** Each force has magnitude \\(F_0 = G m^2 / a^2\\). The angle between the two force vectors is \\(60^\\circ\\). Net force \\(F_{\\text{net}} = \\sqrt{F_0^2 + F_0^2 + 2 F_0^2 \\cos 60^\\circ} = \\sqrt{3} F_0 = \\sqrt{3} G m^2 / a^2\\).\n**Direction:** The net force acts along the line joining the vertex to the centroid of the triangle (i.e., along the angle bisector), directed towards the interior of the triangle. A wrong answer that adds the magnitudes directly (\\(2F_0\\)) or uses \\(\\cos 120^\\circ\\) reveals the student treats forces as scalars or misidentifies the angle between the force vectors (the angle between the lines joining the vertex to the other two vertices is \\(60^\\circ\\), not \\(120^\\circ\\)).",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the force between two \\(1 \\, \\text{kg}\\) masses placed \\(1 \\, \\text{m}\\) apart as \\(F = 6.67 \\times 10^{-11} \\, \\text{N}\\). They then claim: \"If I double the distance to \\(2 \\, \\text{m}\\), the force becomes half, i.e., \\(3.33 \\times 10^{-11} \\, \\text{N}\\).\" Evaluate this claim and correct it if necessary.",
+     "a": "The claim is **incorrect**. The force follows an inverse-square law: \\(F \\propto 1/r^2\\). Doubling the distance (\\(r \\to 2r\\)) reduces the force by a factor of \\(2^2 = 4\\), not 2. The correct new force is \\(F_{\\text{new}} = F/4 = 1.67 \\times 10^{-11} \\, \\text{N}\\). A student making this error is applying an inverse-first-power relationship (like Coulomb's law for a line charge or intensity of light from a line source) instead of the inverse-square law for point sources. This confusion often arises from not squaring the distance ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that the gravitational force between two ordinary objects (e.g., two cricket balls) is non-zero but too small to measure with a spring balance. Specify the masses, distance, expected force magnitude, and why a spring balance fails.",
+     "a": "**Setup:** Two cricket balls, mass \\(m = 0.16 \\, \\text{kg}\\) each, placed with centres \\(r = 0.1 \\, \\text{m}\\) apart (touching).\n**Calculation:** \\(F = G \\frac{m^2}{r^2} = (6.67 \\times 10^{-11}) \\frac{(0.16)^2}{(0.1)^2} \\approx 1.7 \\times 10^{-10} \\, \\text{N}\\).\n**Reason for failure:** A typical spring balance has a least count of \\(0.01 \\, \\text{N}\\) (or \\(1 \\, \\text{gf} \\approx 0.01 \\, \\text{N}\\)). The gravitational force is \\(10^8\\) times smaller than the least count. Also, friction, air currents, and electrostatic forces would completely swamp this tiny force. A poor answer would suggest using a more sensitive spring balance without addressing the signal-to-noise ratio from environmental disturbances, or would claim the force is zero because \"gravity only works for planets\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

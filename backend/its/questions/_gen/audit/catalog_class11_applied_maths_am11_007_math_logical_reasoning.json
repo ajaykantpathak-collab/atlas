@@ -1,0 +1,488 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_007_math_logical_reasoning.json",
+ "concepts": [
+  {
+   "id": "am11_007.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 3 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 5 * 4"
+   ]
+  },
+  {
+   "id": "am11_007.2",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 8 * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 6 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (5 * 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 4 * 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_007.3",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 7 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 8 * 7 * 6 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_007.4",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 4 * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 3 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_007.5",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 3 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 9 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (2 * 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_007.6",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 6 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (2 * 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 6 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am11_007.7",
+   "family": "ratio_prop",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t1 = 36 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "share = 260 * 4 / (4 + 9)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "share = 180 * 3 / (1 + 2 + 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "d = 3 * 24 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cross = 6 * 12 - 3 * 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cost = 30 * 4 / 10"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t1 = 36 / 6"
+   ]
+  },
+  {
+   "id": "am11_007.8",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 6 * 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 6 * 3"
+   ]
+  },
+  {
+   "id": "am11_007.9",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 4 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (4 * 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 9 * 8"
+   ]
+  },
+  {
+   "id": "am11_007.10",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 4 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 8 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 4 * 8"
+   ]
+  },
+  {
+   "id": "am11_007.11",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 2 * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 4 * 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

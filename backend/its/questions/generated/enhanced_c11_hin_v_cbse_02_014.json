@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_014",
+   "title": "c11_hin_v_cbse_02_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for writing a literature-based answer in CBSE Class 11 Hindi Core.",
+     "a": "PEEL stands for Point (main claim in one sentence), Evidence (specific textual detail or quote), Explanation (how the evidence proves the point), and Link (connect back to the question/theme). A wrong answer—such as \"PEEL means writing a summary\"—reveals the student confuses structure with content and will produce narrative retellings instead of analytical paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The chapter tells us about khadins in Rajasthan. They are built by piling earth. People work together. It is very important for water.\" Identify why this answer would score poorly on a 5-mark \"analyze\" question.",
+     "a": "The answer is a plot summary lacking a thematic Point, specific Evidence (no terms like *jstk.khikuh* or *pal*), analytical Explanation, or thematic Link. It shows the student mistakes \"writing about the chapter\" for \"analyzing the chapter\"—a fundamental category error that yields 1-2 marks instead of 5.",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL framework, write a 4-sentence paragraph answering: \"How does the construction of the *pal* (embankment) demonstrate the builders' knowledge of capillary action?\" Use the terms *jstk.khikuh* and *ikrkyikuh*.",
+     "a": "Point: The *pal* design exploits capillary rise to irrigate crops without surface water. Evidence: The text describes *jstk.khikuh* (capillary moisture) rising from *ikrkyikuh* (sub-surface moisture) through the embankment's fine soil. Explanation: By raising the *pal* with layered *vija* (silt) and *mitti*, builders create a wick that pulls moisture upward into the root zone. Link: This engineering of *jstk.khikuh* proves the *khadin* is a precision hydro-technology, not a crude dam. A wrong answer omitting *jstk.khikuh* reveals the student cannot map textual terminology to physical processes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the traditional *khadin* community-labor model (*paledar*, *khai*, *johad*) with the modern contractor-driven approach described in the text's later paragraphs. What core value shifts?",
+     "a": "Traditional model: labor as reciprocal duty (*paledar* system), knowledge embedded in community, *khai* ceremony binds social-ecological contract. Modern model: wage labor, external contractors, *khai* reduced to ritual, knowledge displaced by machinery. Core shift: from *collective stewardship* to *extractive transaction*. A wrong answer listing only \"machines replaced people\" misses the cultural-epistemic rupture the text foregrounds.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this claim using textual evidence: \"The author romanticizes the *khadin* system; modern canals are objectively more efficient for Rajasthan's water security.\"",
+     "a": "The text never claims *khadins* yield more water per hectare; it argues they match *local ecology* (low evaporation, salinity control, zero energy). Evidence: \"NksVs O;kl dh oqaQbZ esa èkhjs&èkhjs fjl dj vk jgk ikuh nks&pkj gkFk dh mQ¡pkbZ ys ysrk gSA\" (In large *khadins*, capillary moisture rises 2-3 ft). Canals bring *ek=kk* (flood irrigation) causing waterlogging and salinity—exactly what *khadins* avoid. The author values *sustainability in situ*, not volumetric efficiency. A wrong answer agreeing with the claim shows inability to distinguish the text's evaluative framework (ecological fit) from an external metric (yield volume).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 100-word \"report for the school magazine\" describing the *khai* ceremony as a socio-ecological contract, using at least three chapter-specific terms (*khai*, *pal*, *johad*, *paledar*, *jstk.khikuh*).",
+     "a": "Expected criteria: (1) Opens with *khai* as ceremonial inauguration of *pal* repair. (2) Names *paledar* households contributing labor per *bigha*. (3) Links ceremony to *johad* desilting and *jstk.khikuh* recharge. (4) Closes with *khai* as renewal of community-water covenant. A poor answer treats *khai* as a festival alone, omitting the labor-ecology contract—revealing the student reads ritual as culture, not as resource governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

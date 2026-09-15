@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_006",
+   "title": "c11_bio_cbse_02_006",
+   "questions": [
+    {
+     "q": "What are the specific terms for the fungal and algal partners in a lichen, and which partner is autotrophic versus heterotrophic?",
+     "a": "The fungal partner is called the mycobiont (heterotrophic) and the algal/cyanobacterial partner is the phycobiont (autotrophic). A wrong answer (e.g., \"mycobiont is the alga\" or \"both are autotrophic\") reveals the student has memorized the word \"symbiosis\" but not the specific nutritional roles – they confuse which partner performs photosynthesis and which absorbs minerals, a critical distinction for understanding the resource exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a lichen thallus appear as a single organism rather than two distinct organisms living side by side?",
+     "a": "The mycobiont's hyphae envelop and penetrate the phycobiont cells, forming a structured thallus where algal cells are embedded in a fungal matrix (medulla/cortex); the fungus controls the morphology so completely that the alga loses its independent form. If a student says \"they just grow together\" or \"they're mixed like a salad,\" they miss the developmental integration – the mycobiont determines the thallus shape (crustose, foliose, fruticose) and the phycobiont cannot survive outside this matrix, indicating obligate co-evolution.",
+     "self_check": true
+    },
+    {
+     "q": "A student collects a foliose lichen from a polluted industrial area and another from a pristine forest. The industrial specimen shows bleached, damaged thalli. Explain the physiological mechanism linking air pollution (SO₂) to lichen damage.",
+     "a": "SO₂ dissolves in the lichen's surface moisture forming sulfurous acid (H₂SO₃), which dissociates to H⁺ and bisulfite (HSO₃⁻); bisulfite inhibits photosynthesis by destroying chlorophyll and disrupting the phycobiont's Calvin cycle, while acidity damages fungal enzymes and membrane integrity. Since lichens are poikilohydric (no cuticle, no stomata), they cannot regulate water loss or exclude pollutants – they absorb everything. A wrong answer citing \"SO₂ kills the fungus directly\" or \"lichens have stomata that close\" reveals misunderstanding of their unique poikilohydric physiology and the specific biochemical target (phycobiont photosynthesis).",
+     "self_check": true
+    },
+    {
+     "q": "Compare ectomycorrhiza and endomycorrhiza (arbuscular mycorrhiza) in terms of: (a) fungal penetration of root tissue, (b) structures formed for nutrient exchange, and (c) typical host plant groups.",
+     "a": "Ectomycorrhiza: (a) fungal hyphae form a sheath (mantle) around root tip and grow between cortical cells (Hartig net) but do NOT penetrate cell walls; (b) exchange occurs across Hartig net interface; (c) common in woody perennials (Pinaceae, Fagaceae, Betulaceae). Endomycorrhiza/AM: (a) hyphae penetrate cortical cell walls and form highly branched arbuscules inside cells; (b) exchange occurs across arbuscule membrane (periarbuscular membrane); (c) widespread in herbaceous plants, grasses, tropical trees. A student confusing Hartig net with arbuscules or stating both penetrate cells shows they haven't distinguished the two structural paradigms of symbiotic interface.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mycorrhizal fungi are parasitic on plants because they consume 10-20% of the host's photosynthate.\" Justify your answer with the concept of net carbon benefit.",
+     "a": "The statement is incorrect – it confuses cost with net outcome. While the fungus receives 10-20% of host photosynthate (cost), it provides phosphorus (especially immobile Pi), water, and micronutrients (Zn, Cu) that the plant cannot efficiently access alone due to depletion zones around roots. In phosphorus-limited soils (most natural ecosystems), the growth enhancement from fungal P-uptake far exceeds the carbon cost, yielding a net positive carbon balance. Calling it parasitic ignores the mutualistic net benefit; a student agreeing with the statement treats carbon flow as unidirectional loss rather than investment with returns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment to test whether a particular legume species forms arbuscular mycorrhiza in your school garden soil, using only a hand lens, forceps, and a microscope available in the biology lab.",
+     "a": "Collect fine lateral roots from the legume and a non-mycorrhizal control (e.g., Brassica). Wash gently, clear in 10% KOH (heat), rinse, acidify with 1% HCl, stain with trypan blue (0.05% in lactoglycerol), destain. Mount root segments on slides. Under microscope (40x), look for: (1) hyphae entering root cortex, (2) vesicles (storage structures), (3) arbuscules (branched tree-like structures inside cortical cells). Presence of arbuscules confirms AM. A poor design would skip clearing/staining (can't see internal structures) or only check for external sheath (misses endomycorrhiza). This reveals whether the student understands that AM structures are intracellular and require microscopic visualization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

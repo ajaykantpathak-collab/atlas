@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_010",
+   "title": "c12_math_cbse_03_010",
+   "questions": [
+    {
+     "q": "What are the three elementary row operations on a matrix? Write the standard notation for each.",
+     "a": "The three elementary row operations are: (1) Interchange of two rows: Rᵢ ↔ Rⱼ; (2) Multiply a row by a non-zero scalar k: Rᵢ → kRᵢ; (3) Add k times another row to a row: Rᵢ → Rᵢ + kRⱼ (i ≠ j, k ≠ 0). A wrong answer (e.g., allowing k=0, or writing Rᵢ → Rᵢ + Rⱼ without scalar) reveals the student doesn't understand the \"non-zero\" condition or the need for a scalar multiplier in the third operation — a common error that leads to invalid transformations in JEE problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying a row by zero (Rᵢ → 0·Rᵢ) is NOT allowed as an elementary transformation, even though it seems like a special case of Rᵢ → kRᵢ.",
+     "a": "Multiplying a row by zero destroys information — it replaces the entire row with zeros, making the operation irreversible. Elementary transformations must be invertible (reversible) to preserve the solution set of the associated linear system or the rank of the matrix. If k=0 were allowed, we could turn any matrix into a zero matrix, losing all information about the original system. A student who says \"it's allowed because k can be any number\" confuses the algebraic form with the mathematical requirement of reversibility — a conceptual gap that causes errors in proving matrix equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the following sequence of elementary row operations to matrix A = [[2, 1, -1], [0, 3, 2], [1, -1, 4]]: (i) R₁ ↔ R₃, (ii) R₂ → 2R₂, (iii) R₃ → R₃ - 3R₁. Write the final matrix.",
+     "a": "Step 1: R₁ ↔ R₃ gives [[1, -1, 4], [0, 3, 2], [2, 1, -1]].\nStep 2: R₂ → 2R₂ gives [[1, -1, 4], [0, 6, 4], [2, 1, -1]].\nStep 3: R₃ → R₃ - 3R₁: new R₃ = [2,1,-1] - 3[1,-1,4] = [2-3, 1-(-3), -1-12] = [-1, 4, -13].\nFinal matrix: [[1, -1, 4], [0, 6, 4], [-1, 4, -13]].\nA wrong answer (e.g., subtracting 3×old R₃ instead of new R₁ in step 3) reveals the student applies operations to the original matrix rather than sequentially — a critical procedural error in board exams where each step must use the current matrix.",
+     "self_check": true
+    },
+    {
+     "q": "Matrix B = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] undergoes: R₂ → R₂ - 4R₁, then R₃ → R₃ - 7R₁. The resulting matrix has a row of zeros. Does this mean the original matrix B had a row of zeros? Explain why or why not.",
+     "a": "No. The row of zeros appears because rows 2 and 3 were linear combinations of row 1 in the original matrix (R₂ = 4R₁ + [0,-3,-6], R₃ = 7R₁ + [0,-6,-12]). The elementary operations eliminated the first column entries below the pivot, revealing linear dependence. The original matrix had no zero row — the zero row is a result of the transformation exposing rank deficiency. A student who says \"yes, elementary operations don't change the matrix\" confuses equivalence (same solution set/rank) with equality (identical entries) — a fundamental misconception that leads to errors in JEE questions about matrix rank and invertibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I apply R₁ → R₁ + 2R₂ and then R₂ → R₂ - 3R₁ to a matrix, the net effect is the same as applying R₂ → R₂ - 3R₁ first and then R₁ → R₁ + 2R₂.\" Evaluate this claim. Is the student correct? Justify.",
+     "a": "The student is incorrect. Elementary row operations do NOT commute in general. The second operation in each sequence uses the *updated* row from the first step. Example: Start with A = [[1,0],[0,1]]. Sequence 1: R₁→R₁+2R₂ gives [[1,2],[0,1]]; then R₂→R₂-3R₁ gives [[1,2],[-3,-5]]. Sequence 2: R₂→R₂-3R₁ gives [[1,0],[-3,1]]; then R₁→R₁+2R₂ gives [[-5,2],[-3,1]]. Results differ. A student who says \"they're the same because addition is commutative\" fails to see that the operations act on *changing* rows — a subtle but critical error in multi-step reduction problems.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3×3 matrix and a sequence of exactly 4 elementary row operations that transforms it into an upper triangular matrix (zeros below main diagonal). Show each step with notation.",
+     "a": "Example: A = [[2, 1, 3], [4, 3, 5], [6, 5, 7]].\nStep 1: R₂ → R₂ - 2R₁ → [[2,1,3], [0,1,-1], [6,5,7]]\nStep 2: R₃ → R₃ - 3R₁ → [[2,1,3], [0,1,-1], [0,2,-2]]\nStep 3: R₃ → R₃ - 2R₂ → [[2,1,3], [0,1,-1], [0,0,0]]\nStep 4: R₁ → R₁ - R₂ → [[2,0,4], [0,1,-1], [0,0,0]] (optional cleanup).\nA poor answer uses column operations, skips notation, or produces a non-upper-triangular result — revealing inability to plan a reduction strategy, a key skill for finding inverses and solving systems in competitive exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

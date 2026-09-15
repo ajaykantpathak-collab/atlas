@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_03_004",
+   "title": "c10_hist_cbse_03_004",
+   "questions": [
+    {
+     "q": "In which month and year did the US stock market crash that triggered the Great Depression occur?",
+     "a": "October 1929 (specifically 24 October \"Black Thursday\" and 29 October \"Black Tuesday\"). A wrong answer (e.g., 1930, 1931, or \"after WWI\") reveals the student has not anchored the central chronological marker, making it impossible to sequence subsequent events like the 1931 European banking crisis or the 1932 Ottawa Conference.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Great Depression cause a sharper fall in peasant income in India than in industrial wages in Britain?",
+     "a": "Indian peasants produced primary commodities (wheat, cotton, jute) whose prices fell 50–60% between 1928–1934, while land revenue (fixed in cash) and rent remained unchanged, forcing distress sales of assets. In Britain, industrial wages were sticky downward and unemployment benefits (however meagre) provided a floor. A wrong answer that says \"both fell equally\" or \"peasants were better off because they grew food\" shows misunderstanding of the terms-of-trade collapse and the rigidity of colonial revenue extraction.",
+     "self_check": true
+    },
+    {
+     "q": "The Reserve Bank of India was established in 1935. Using the Depression's impact on India's currency and gold flows, explain why the colonial government felt the need for a central bank at that specific moment.",
+     "a": "During 1931–1934, India exported ₹360 crores of gold (net) as peasants sold ornaments to pay revenue, while the rupee was pegged to sterling at 1s 6d. The government had no institution to manage liquidity, sterilise gold outflows, or regulate credit — leaving the currency board helpless. A wrong answer focusing only on \"banking regulation\" misses the direct link between the Depression's gold drain and the urgent demand for monetary sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the gold standard in transmitting the Depression to (a) the USA and (b) colonial India. What does this comparison reveal about the asymmetry of the inter-war global economy?",
+     "a": "In the USA, the gold standard forced deflationary policy (high interest rates) to protect reserves, deepening the domestic slump. In India, the gold standard operated through the sterling-exchange mechanism: the rupee-peg forced gold exports when prices fell, transferring wealth from peasants to London and helping Britain maintain parity. The asymmetry: the core country (USA/UK) used the standard to defend financial stability at the expense of domestic employment, while the colony bore the adjustment cost through forced asset liquidation. A wrong answer treating the gold standard as a neutral technical rule misses the power hierarchy it enforced.",
+     "self_check": true
+    },
+    {
+     "q": "\" The Great Depression was the decisive turning point that made Indian industrialisation inevitable.\" Evaluate this statement with evidence from the 1930s.",
+     "a": "Partially true but overstated. The Depression did create import-substitution space: Indian textiles, steel (TISCO), and sugar expanded as British imports became expensive and the Ottawa Agreement (1932) gave imperial preference. However, colonial financial controls (sterling balances, lack of tariff autonomy) and WWII — not the Depression alone — drove the major industrial leap. A student who agrees wholly ignores the continued structural constraints; one who disagrees wholly misses the 1930s growth spurt in consumer goods industries.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-event annotated timeline (1928–1935) that shows how the Great Depression moved from a US financial crisis to a catalyst for Indian nationalist economic demands (e.g., the 1934 Congress demand for rupee devaluation).",
+     "a": "A strong timeline links: (1) Oct 1929 US crash → (2) 1930 Smoot-Hawley Tariff → (3) 1931 Austrian Creditanstalt collapse → (4) Sep 1931 Britain leaves gold standard, rupee pegged at overvalued 1s 6d → (5) 1931–34 massive gold exports from India → (6) 1934 Congress Karachi resolution demands rupee devaluation and tariff autonomy. A weak timeline lists disconnected dates without showing the causal chain from financial contagion to colonial policy grievance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

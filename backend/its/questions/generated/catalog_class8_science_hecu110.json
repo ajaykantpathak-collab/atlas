@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class8_science_hecu110.json",
+ "concepts": [
+  {
+   "id": "hecu.110.10.1",
+   "title": "Spherical Mirrors: Concave and Convex",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the two kinds of spherical mirrors?",
+     "a": "Concave (inner curved surface reflects) and convex (outer surface reflects).",
+     "self_check": true
+    },
+    {
+     "q": "Which mirror is used as a dentist's mirror and why?",
+     "a": "Concave - it gives an enlarged, upright image of the tooth when close.",
+     "self_check": true
+    },
+    {
+     "q": "Which mirror is used in vehicle rear-views and why?",
+     "a": "Convex - it gives a wide, upright view of traffic behind.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.110.10.2",
+   "title": "Images Formed by Spherical Mirrors",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What kind of image does a concave mirror form when the object is far away?",
+     "a": "A small, inverted, real image in front of the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "What image does a convex mirror always form?",
+     "a": "A small, upright (virtual) image, whatever the object's position.",
+     "self_check": true
+    },
+    {
+     "q": "What is a real image?",
+     "a": "One where rays actually meet and can be caught on a screen, like cinema images.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.110.10.3",
+   "title": "Laws of Reflection",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the two laws of reflection.",
+     "a": "Angle of incidence equals angle of reflection, and the rays and normal lie in one plane.",
+     "self_check": true
+    },
+    {
+     "q": "What is the normal in reflection?",
+     "a": "The perpendicular line to the mirror surface at the point where the ray strikes.",
+     "self_check": true
+    },
+    {
+     "q": "Which surface reflects light regularly - mirror or wall? Why?",
+     "a": "A mirror - its smooth surface sends parallel rays back parallel; a wall scatters them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.110.10.4",
+   "title": "Lenses: Convex and Concave",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a convex lens differ from a concave lens?",
+     "a": "A convex lens is thicker in the middle and converges light; a concave lens is thinner in the middle and diverges it.",
+     "self_check": true
+    },
+    {
+     "q": "Which lens is used to correct short-sightedness?",
+     "a": "A concave (diverging) lens.",
+     "self_check": true
+    },
+    {
+     "q": "Give one use of a convex lens.",
+     "a": "Magnifying glass, camera, or eye lens - it forms images of objects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

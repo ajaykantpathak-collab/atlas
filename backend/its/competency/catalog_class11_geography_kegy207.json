@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 207,
+ "chapter_title": "Composition and Structure of Atmosphere",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy207.txt",
+ "concepts": [
+  {
+   "id": "kegy.207.1.1",
+   "title": "Composition of the Atmosphere: Gases, Vapour and Particulates",
+   "section": "",
+   "definition": "The atmosphere is a mixture of nitrogen about 78 per cent, oxygen about 21 per cent, argon, carbon dioxide and traces of other gases, along with water vapour and dust particulates, which together absorb heat, sustain life and shape weather.",
+   "formula": "",
+   "key_idea": "Carbon dioxide and water vapour are the heat absorbing gases of the atmosphere, and particulates act as condensation nuclei for clouds.",
+   "textbook_ref": "kegy207.txt composition section",
+   "question_patterns": [
+    "state the composition of the atmosphere in percentages",
+    "why is carbon dioxide important though small in share",
+    "what is the role of water vapour in the atmosphere",
+    "how do dust particulates affect weather and climate",
+    "name the permanent and variable gases of air",
+    "which layer holds most of the atmospheric mass"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.207.2.1",
+   "title": "Structure of the Atmosphere: Troposphere to Exosphere",
+   "section": "",
+   "definition": "The atmosphere is layered into the troposphere where weather occurs and temperature falls with height, the stratosphere holding the ozone layer, the mesosphere, the thermosphere or ionosphere reflecting radio waves, and the exosphere merging into space, separated by pauses of equal temperature.",
+   "formula": "",
+   "key_idea": "The tropopause, stratopause and mesopause mark the boundaries, and the ozone layer in the stratosphere shields life from ultraviolet radiation.",
+   "textbook_ref": "kegy207.txt structure of atmosphere section",
+   "question_patterns": [
+    "describe the layers of the atmosphere in order",
+    "in which layer does all weather occur and why",
+    "what is the ozone layer and why is it important",
+    "define tropopause stratopause and mesopause",
+    "why is the ionosphere useful for radio communication",
+    "compare temperature change in troposphere and stratosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.207.3.1",
+   "title": "Weather, Climate and the Role of the Atmosphere for Life",
+   "section": "Composition and structure",
+   "definition": "The atmosphere shields the earth from harmful ultraviolet rays, holds oxygen for breathing and carbon dioxide for plants, and through its water vapour and heat absorbing gases keeps the planet warm enough for life, while its motions produce weather and climate.",
+   "formula": "",
+   "key_idea": "Human activities that alter atmospheric composition, as in ozone depletion and greenhouse gas build up, directly threaten this life support system.",
+   "textbook_ref": "kegy207.txt significance discussion",
+   "question_patterns": [
+    "how does the atmosphere protect life on the earth",
+    "distinguish weather and climate with examples",
+    "why are greenhouse gases both useful and harmful",
+    "what human activities change the composition of the atmosphere",
+    "state the importance of ozone for the biosphere",
+    "how do atmospheric gases regulate the earth's temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy207.txt exercises",
+   "questions": [
+    "Multiple choice on the atmosphere's composition and layers.",
+    "Describe the composition of the atmosphere with percentages.",
+    "Explain the structure of the atmosphere with a diagram.",
+    "Why is the troposphere called the weather layer?",
+    "What is the importance of the ozone layer?"
+   ]
+  }
+ ]
+}

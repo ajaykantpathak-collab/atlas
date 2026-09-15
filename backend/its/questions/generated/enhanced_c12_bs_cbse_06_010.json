@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_010",
+   "title": "c12_bs_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define performance appraisal in one sentence as per the CBSE Class 12 Business Studies textbook.",
+     "a": "Performance appraisal means evaluating an employee's current and/or past performance against predetermined standards, providing feedback, and using the results for decisions like promotion, compensation, and training. A wrong answer (e.g., \"it is just giving a salary hike\") reveals the student confuses appraisal with its outcomes and misses the systematic, standards-based, feedback-oriented nature of the process.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an organisation needs a formal performance appraisal system instead of relying on informal manager impressions.",
+     "a": "A formal system ensures objectivity, consistency, legal defensibility, and developmental focus by using predetermined standards and documented feedback, whereas informal impressions are subjective, prone to bias (halo effect, recency), and do not provide a basis for employee growth or organisational decisions. A wrong answer that says \"informal is fine because managers know their team\" shows the student underestimates bias and the need for transparency and fairness in decisions affecting careers.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing supervisor uses a Graphic Rating Scale to rate a machine operator on five traits (Quality, Speed, Safety, Attendance, Teamwork) each on a 1–5 scale. The operator scores 4, 5, 3, 5, 2 respectively. Calculate the total and average score. Which trait needs immediate attention, and what specific developmental action would you recommend?",
+     "a": "Total = 19, Average = 3.8. Teamwork (score 2) is the lowest. Recommend: assign a mentor, include the operator in cross-functional improvement projects, and set a quarterly teamwork goal with monthly check-ins. A wrong answer that only computes the average without identifying the low trait or suggesting action shows the student can calculate but cannot apply appraisal results for development — the core purpose of appraisal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Critical Incident Method and Management by Objectives (MBO) on the dimensions of: (a) focus (behaviour vs results), (b) frequency of recording, (c) suitability for creative/R&D roles. Which would you choose for a software development team and why?",
+     "a": "Critical Incident focuses on specific behaviours (what the employee did), recorded continuously; MBO focuses on achievement of pre-set objectives (results), reviewed periodically. For creative/R&D roles, MBO is better because it allows autonomy in how goals are met and aligns with project milestones. For a software team, MBO (or OKRs) is preferred as it measures output (features delivered, bugs fixed) rather than subjective behaviours. A wrong answer that picks Critical Incident for software developers because \"it captures daily coding habits\" shows the student does not understand that creative work requires outcome-based evaluation, not behavioural surveillance.",
+     "self_check": true
+    },
+    {
+     "q": "\"Performance appraisal is primarily a tool for deciding salary increments and bonuses.\" Evaluate this statement with two arguments for and two against, and state your conclusion.",
+     "a": "For: (1) Appraisal outcomes directly feed into compensation budgets; (2) It provides documented justification for pay differentials. Against: (1) Overemphasis on pay creates fear, defensiveness, and gaming, undermining honest feedback and development; (2) Research shows developmental appraisal improves future performance more than evaluative appraisal. Conclusion: Appraisal must serve both purposes but be structurally separated (e.g., developmental review quarterly, compensation review annually) to avoid conflict. A wrong answer that agrees wholly reveals the student sees appraisal only as a control mechanism, not a growth tool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page performance appraisal form for a junior sales executive in an FMCG company. The form must combine two methods: one traditional and one modern. Specify the sections, rating scales, and how the final score will be used.",
+     "a": "Good answer includes: (1) Employee details, (2) Graphic Rating Scale (traditional) for 5 competencies (Product Knowledge, Customer Handling, Territory Coverage, Reporting, Discipline) rated 1–5, (3) MBO (modern) with 3 quarterly objectives (e.g., \"Achieve ₹50 lakh sales in Q2\", \"Add 10 new retailers\", \"Reduce outstanding receivables to <15 days\") each with weightage and achievement %, (4) Overall score = 40% Graphic Rating + 60% MBO, (5) Strengths, Improvement Areas, Training Needs, (6) Reviewer and Reviewee signatures. A poor answer that uses only one method or lacks weightages shows the student cannot integrate methods to balance behavioural and result-based assessment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

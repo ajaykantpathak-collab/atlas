@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_006",
+   "title": "c11_biotech_cbse_10_006",
+   "questions": [
+    {
+     "q": "Define the φ (phi) and ψ (psi) torsion angles in a polypeptide backbone, specifying the four atoms that define each angle and the bond about which rotation occurs.",
+     "a": "φ (phi) is the dihedral angle defined by atoms C(i-1)-N(i)-Cα(i)-C(i), measuring rotation about the N-Cα bond. ψ (psi) is defined by atoms N(i)-Cα(i)-C(i)-N(i+1), measuring rotation about the Cα-C bond. A wrong answer (e.g., defining φ as N-Cα-C-N or confusing the atom order) reveals the student cannot visualize the polypeptide backbone connectivity and will misinterpret Ramachandran plot axes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Ramachandran plot for glycine shows a much larger allowed region compared to other amino acids, and why proline's φ angle is restricted to approximately -60°.",
+     "a": "Glycine has no side chain (R=H), so steric clashes between Cβ (absent) and backbone atoms are eliminated, allowing φ/ψ combinations forbidden for other residues. Proline's side chain forms a five-membered ring bonding back to the backbone nitrogen, locking the N-Cα bond in a rigid conformation that restricts φ to ≈-60° (cis-proline allows φ≈+60°). A wrong answer attributing glycine's flexibility to \"small size\" without mentioning absent Cβ, or claiming proline's restriction is due to \"rigid ring\" without specifying the N-Cα bond lock, shows incomplete understanding of steric constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A homology model of a 250-residue protein yields the following Ramachandran statistics from PROCHECK: 210 residues in most favored regions, 30 in additionally allowed, 8 in generously allowed, and 2 in disallowed regions. Calculate the percentage in favored regions and determine if this model meets the standard validation threshold for a high-quality structure.",
+     "a": "Favored % = (210/250) × 100 = 84%. Outlier % = (2/250) × 100 = 0.8%. Standard threshold: ≥90% in favored regions and <0.5% outliers. This model FAILS validation (84% < 90%, 0.8% > 0.5%). A student who only calculates favored % but ignores outlier threshold, or uses total allowed (favored+additionally+generously) instead of \"most favored\" alone, misunderstands the strict criteria for publication-quality structures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Ramachandran plot signatures of an α-helix, a parallel β-sheet, and a left-handed α-helix (α_L). Why is the α_L region sparsely populated in native proteins despite being sterically allowed?",
+     "a": "α-helix: φ≈-60°, ψ≈-45° (lower-left quadrant); parallel β-sheet: φ≈-120°, ψ≈+120° (upper-left quadrant); α_L-helix: φ≈+60°, ψ≈+40° (upper-right quadrant). The α_L region is sterically allowed but rarely populated because L-amino acids favor right-handed helices due to chiral preference of the Cα center — the α_L conformation places side chains in less favorable rotamers and disrupts hydrogen bonding patterns. A student who confuses quadrant locations or claims α_L is \"disallowed\" confuses steric allowance with thermodynamic preference.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a protein structure has 95% residues in favored regions of the Ramachandran plot, it is definitely a correct native structure.\" Evaluate this claim and provide a counterexample.",
+     "a": "The claim is FALSE. High Ramachandran statistics are NECESSARY but NOT SUFFICIENT for correctness. A model can have excellent backbone geometry yet incorrect topology (e.g., swapped domains, wrong fold), incorrect side-chain packing, or non-native disulfide bonds. Counterexample: A homology model built on a wrong template may have 96% favored residues but completely misplace the active site. A student who agrees with the claim confuses local stereochemical validity with global topological accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a validation workflow for a newly predicted protein structure that integrates Ramachandran analysis with at least two other independent quality metrics. Justify why each metric is needed.",
+     "a": "Workflow: (1) Ramachandran plot (PROCHECK/MolProbity) — validates backbone φ/ψ geometry; (2) Verify3D/ERRAT — assesses residue environment compatibility (hydrophobic burial, charge pairing) in 3D context; (3) ProSA-web Z-score — evaluates overall energy profile against native structures of similar size; (4) MolProbity clashscore — detects steric clashes between non-bonded atoms beyond backbone. Justification: Ramachandran only checks backbone torsion; Verify3D checks 3D-1D compatibility; ProSA checks global fold energy; clashscore catches side-chain packing errors. A poor answer listing only Ramachandran or generic \"energy minimization\" misses the orthogonal nature of validation metrics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

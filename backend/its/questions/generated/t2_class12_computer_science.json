@@ -1,0 +1,425 @@
+{
+ "catalog": "t2_class12_computer_science",
+ "note": "Wave-2 graded top-ups for class 12 Computer Science pools (lecs101-113). Numeric answers or one-term factual keys; no self_check flags, so every item is machine-graded.",
+ "concepts": [
+  {"id": "lecs101.1", "title": "Syntax Errors versus Exceptions", "questions": [
+    {"q": "Which error kind stops a program before any statement runs?", "a": "syntax error"},
+    {"q": "An error that appears mid-execution in a perfectly well-formed program is called what?", "a": "exception"},
+    {"q": "Division by zero at runtime is an example of a syntax error or an exception?", "a": "exception"}
+  ]},
+  {"id": "lecs101.2", "title": "Built-in Exceptions of Python", "questions": [
+    {"q": "Which built-in exception fires when a program divides by zero?", "a": "ZeroDivisionError"},
+    {"q": "Which built-in exception fires when a subscript is out of range?", "a": "IndexError"},
+    {"q": "Which built-in exception fires for a value of the right type but wrong content?", "a": "ValueError"}
+  ]},
+  {"id": "lecs101.3", "title": "Guarded Division and Remainder", "questions": [
+    {"q": "A guarded division computes 22 // 5 as 4. What remainder does 22 % 5 leave?", "a": "2"}
+  ]},
+  {"id": "lecs101.4", "title": "Raising IndexError beyond the List", "questions": [
+    {"q": "A list named numbers holds 5 elements and a demo demands a length of 8 before raising IndexError. What is the gap between demand and real size?", "a": "3"}
+  ]},
+  {"id": "lecs101.5", "title": "The raise and assert Statements", "questions": [
+    {"q": "Which statement throws an exception on demand?", "a": "raise"},
+    {"q": "Which statement throws AssertionError when its expression evaluates false?", "a": "assert"},
+    {"q": "In the chapter demo, which value passes the assert that the number is not negative: 100 or -350?", "a": "100"}
+  ]},
+  {"id": "lecs101.6", "title": "The try, except and else Clauses", "questions": [
+    {"q": "Which block holds the suspicious statements?", "a": "try"},
+    {"q": "Which optional clause runs only when no exception occurred at all?", "a": "else"},
+    {"q": "Once an exception fires inside a try block, what happens to the remaining statements of that block?", "a": "they are skipped"}
+  ]},
+  {"id": "lecs101.7", "title": "Multiple Handlers and the Bare except", "questions": [
+    {"q": "A final except written without any exception name acts as the what for everything the named handlers miss?", "a": "catch-all"},
+    {"q": "Should the bare except come first or last among the handlers?", "a": "last"},
+    {"q": "A try block has handlers for ValueError and ZeroDivisionError plus one bare except. How many handlers guard it in total?", "a": "3"}
+  ]},
+  {"id": "lecs101.8", "title": "The finally Clause", "questions": [
+    {"q": "Which clause runs no matter what happened above it?", "a": "finally"},
+    {"q": "Which cleanup chore conventionally lives in the finally clause?", "a": "file closing"},
+    {"q": "An unhandled exception is re-raised after which block finishes?", "a": "finally"}
+  ]},
+  {"id": "lecs102.1", "title": "write() Returns the Character Count", "questions": [
+    {"q": "f.write('Hello') stores 5 letters plus a newline. What does write() return?", "a": "6"}
+  ]},
+  {"id": "lecs102.2", "title": "Binary File Size from Record Count", "questions": [
+    {"q": "Two dumped records produce 216 bytes. How many bytes does one record occupy?", "a": "108"}
+  ]},
+  {"id": "lecs102.3", "title": "Moving the File Offset with seek", "questions": [
+    {"q": "Which call rewinds a file object to the very start before reading again?", "a": "seek(0)"}
+  ]},
+  {"id": "lecs102.4", "title": "Employee Salary Total in a Binary Record", "questions": [
+    {"q": "An employee record stores basic salary 32600 and allowances 4400. What total salary gets computed?", "a": "37000"}
+  ]},
+  {"id": "lecs102.5", "title": "Text File versus Binary File", "questions": [
+    {"q": "Which file type stores bytes that encode readable characters?", "a": "text file"},
+    {"q": "Opening which file type in a text editor shows garbage?", "a": "binary file"},
+    {"q": "What marks the end of one line in a text file?", "a": "newline"}
+  ]},
+  {"id": "lecs102.6", "title": "File Access Modes of open()", "questions": [
+    {"q": "Which access mode overwrites an existing file or creates it fresh?", "a": "w"},
+    {"q": "Which access mode appends at the end of a file?", "a": "a"},
+    {"q": "Which letter switches open() to byte-level binary handling?", "a": "b"}
+  ]},
+  {"id": "lecs102.7", "title": "Reading Methods: read, readline, readlines", "questions": [
+    {"q": "Which method returns every line of a text file as one list?", "a": "readlines()"},
+    {"q": "Which method returns exactly one line up to its newline?", "a": "readline()"},
+    {"q": "What does the empty string returned by readline() signal?", "a": "end of file"}
+  ]},
+  {"id": "lecs102.8", "title": "Pickling and the dump, load Methods", "questions": [
+    {"q": "Which module serialises Python objects into byte streams?", "a": "pickle"},
+    {"q": "Which pickle function writes an object into a binary file?", "a": "dump()"},
+    {"q": "A file opened for pickle load() must use which mode: rb or wb?", "a": "rb"}
+  ]},
+  {"id": "lecs103.1", "title": "Stack Size after Pushes and Pops", "questions": [
+    {"q": "A stack starts with 3 elements. After two PUSH operations and one POP, how many elements does it hold?", "a": "4"}
+  ]},
+  {"id": "lecs103.2", "title": "Applications of the Stack in Practice", "questions": [
+    {"q": "Which linear structure obeys LIFO?", "a": "stack"},
+    {"q": "Which editor feature is a classic stack application: undo or the print queue?", "a": "undo"},
+    {"q": "Two BACK clicks from page P3 in a browser land on which page?", "a": "P1"}
+  ]},
+  {"id": "lecs103.3", "title": "Infix, Prefix and Postfix Notations", "questions": [
+    {"q": "Which notation places operators before their operands?", "a": "prefix"},
+    {"q": "Which notation places operators after their operands?", "a": "postfix"},
+    {"q": "Which notation needs parentheses and precedence rules to fix evaluation order?", "a": "infix"}
+  ]},
+  {"id": "lecs103.4", "title": "Evaluating a Postfix Expression", "questions": [
+    {"q": "Evaluate the postfix expression 7 8 2 * 4 / +.", "a": "11"}
+  ]},
+  {"id": "lecs103.5", "title": "Postfix Evaluation with Letter Operands", "questions": [
+    {"q": "With A=3, B=5 and C=1, what does the postfix expression A B + C * evaluate to?", "a": "8"}
+  ]},
+  {"id": "lecs103.6", "title": "Converting Infix to Postfix", "questions": [
+    {"q": "During infix to postfix conversion, which items go straight to the output string?", "a": "operands"},
+    {"q": "During conversion, which items wait on the stack?", "a": "operators"},
+    {"q": "Convert (x + y) / (z * 8) to postfix notation.", "a": "x y + z 8 * /"}
+  ]},
+  {"id": "lecs103.7", "title": "Matching Parentheses with a Stack", "questions": [
+    {"q": "In the expression ((2+3)*(4/2))+2, how many opening parentheses get pushed?", "a": "2"},
+    {"q": "For an expression to be balanced, the stack must end up in what state?", "a": "empty"},
+    {"q": "Every closing parenthesis must pop its matching what?", "a": "opening parenthesis"}
+  ]},
+  {"id": "lecs103.8", "title": "Stack Implementation Using a List", "questions": [
+    {"q": "Which list method plays the role of PUSH on a Python-list stack?", "a": "append()"},
+    {"q": "Which list method plays the role of POP?", "a": "pop()"},
+    {"q": "A pop attempted on an empty stack reports which condition?", "a": "underflow"}
+  ]},
+  {"id": "lecs104.1", "title": "Queue Size after Enqueues and Dequeues", "questions": [
+    {"q": "A queue starts with 2 elements. After three enqueues and three dequeues, how many elements remain?", "a": "2"}
+  ]},
+  {"id": "lecs104.2", "title": "First In First Out Principle", "questions": [
+    {"q": "Which principle makes the earliest entrant leave a queue first?", "a": "FIFO"},
+    {"q": "At which end does enqueue insert an element?", "a": "rear"},
+    {"q": "At which end does dequeue remove an element?", "a": "front"}
+  ]},
+  {"id": "lecs104.3", "title": "Applications of Queue in Daily Life", "questions": [
+    {"q": "Which waiting-list position of a railway booking confirms first?", "a": "W/L1"},
+    {"q": "A web server capped at 50 concurrent requests does what with the remaining visitors?", "a": "queues them"},
+    {"q": "Vehicles exiting a single-lane road leave in entry order, modelling which structure?", "a": "queue"}
+  ]},
+  {"id": "lecs104.4", "title": "Enqueue, Dequeue and Peek Operations", "questions": [
+    {"q": "What is the insert-at-rear operation of a queue called?", "a": "enqueue"},
+    {"q": "What is the remove-from-front operation called?", "a": "dequeue"},
+    {"q": "An enqueue attempted on a full queue causes which condition?", "a": "overflow"}
+  ]},
+  {"id": "lecs104.5", "title": "Queue Implementation Using a Python List", "questions": [
+    {"q": "Which list call enqueues at the rear of a Python-list queue?", "a": "append()"},
+    {"q": "Which list call dequeues from the front?", "a": "pop(0)"},
+    {"q": "Which index peeks at the front element of a list-based queue?", "a": "0"}
+  ]},
+  {"id": "lecs104.6", "title": "Deque Size after End Operations", "questions": [
+    {"q": "A deque takes 3 insertions and 3 deletions. How many elements remain?", "a": "0"}
+  ]},
+  {"id": "lecs104.7", "title": "Deque Applications and Palindrome Checking", "questions": [
+    {"q": "Which structure checks palindromes by comparing characters removed from both ends?", "a": "deque"},
+    {"q": "Checking 'madam' from both ends: how many matching pairs are removed before one character remains?", "a": "2"},
+    {"q": "From which end may a ticket holder re-join a counter queue: front or rear?", "a": "front"}
+  ]},
+  {"id": "lecs104.8", "title": "Queue versus Stack versus Deque", "questions": [
+    {"q": "Which linear structure uses exactly one end for both its operations?", "a": "stack"},
+    {"q": "Which structure permits insertion and deletion at both ends?", "a": "deque"},
+    {"q": "Restricting a deque to same-end operations makes it act as which structure?", "a": "stack"}
+  ]},
+  {"id": "lecs105.1", "title": "Passes and Comparisons in Bubble Sort", "questions": [
+    {"q": "Bubble sorting 6 elements needs how many passes?", "a": "5"}
+  ]},
+  {"id": "lecs105.2", "title": "Percentile Index from Sorted Marks", "questions": [
+    {"q": "The 90th percentile of 120 students sits at which index?", "a": "108"}
+  ]},
+  {"id": "lecs105.3", "title": "Median of an Even List", "questions": [
+    {"q": "A sorted even-length list has middle values 70 and 80. What is its median?", "a": "75"}
+  ]},
+  {"id": "lecs105.4", "title": "Quadratic Time of Nested Loops", "questions": [
+    {"q": "A loop nested inside a loop over n elements costs order n to which power?", "a": "2"}
+  ]},
+  {"id": "lecs105.5", "title": "Bubble Sort Pass by Pass", "questions": [
+    {"q": "In bubble sort, a pair is swapped when the left element is what relative to the right one?", "a": "larger"},
+    {"q": "After pass 1 of bubble sort on [8, 7, 13, 1], which element sits at the end?", "a": "13"},
+    {"q": "A full pass with no swap proves the list is already what?", "a": "sorted"}
+  ]},
+  {"id": "lecs105.6", "title": "Selection Sort Minimum Swaps", "questions": [
+    {"q": "At most how many swaps happen in one selection-sort pass?", "a": "1"},
+    {"q": "Selection sort scans the unsorted part looking for its what?", "a": "minimum"},
+    {"q": "Selection sorting 8 elements needs at most how many swaps in total?", "a": "7"}
+  ]},
+  {"id": "lecs105.7", "title": "Insertion Sort Shifting", "questions": [
+    {"q": "Which sort keeps a sorted prefix and pulls the first unsorted element aside in temp?", "a": "insertion sort"},
+    {"q": "In which direction does insertion sort walk the sorted prefix: backwards or forwards?", "a": "backwards"},
+    {"q": "Which input makes insertion sort cheapest: already sorted or reverse sorted?", "a": "already sorted"}
+  ]},
+  {"id": "lecs106.1", "title": "Comparisons Made by Linear Search", "questions": [
+    {"q": "Finding 17 in [8, -4, 7, 17, 0, 2, 19] costs how many linear-search comparisons?", "a": "4"}
+  ]},
+  {"id": "lecs106.2", "title": "Best and Worst Work of Linear Search", "questions": [
+    {"q": "What is the best-case comparison count for linear search?", "a": "1"},
+    {"q": "An absent key in a 12-element list forces how many comparisons?", "a": "12"},
+    {"q": "Which position of the list guarantees a one-comparison linear-search hit?", "a": "first"}
+  ]},
+  {"id": "lecs106.3", "title": "Middle Position in Binary Search", "questions": [
+    {"q": "Binary search keeps first = 0 and last = 9 on a sorted list. Which midpoint index does (first + last) // 2 probe?", "a": "4"}
+  ]},
+  {"id": "lecs106.4", "title": "Halving the Search Area", "questions": [
+    {"q": "A 15-element binary-search area halves after each unsuccessful comparison. How many elements remain after the first comparison?", "a": "7"}
+  ]},
+  {"id": "lecs106.5", "title": "Linear versus Binary Workload", "questions": [
+    {"q": "For 2^30 records, how many comparisons does a middle-position hit cost binary search?", "a": "1"}
+  ]},
+  {"id": "lecs106.6", "title": "Hash Value by Remainder Method", "questions": [
+    {"q": "Using the remainder method with a table of size 10, which zero-based slot does element 16 land in?", "a": "6"}
+  ]},
+  {"id": "lecs106.7", "title": "Collision and Perfect Hash Functions", "questions": [
+    {"q": "Two elements mapping to one hash slot is called what?", "a": "collision"},
+    {"q": "A hash function that gives every element a unique slot is called what?", "a": "perfect"},
+    {"q": "Under a perfect hash function, how many comparisons does a presence check need?", "a": "1"}
+  ]},
+  {"id": "lecs106.8", "title": "Sorted List Requirement for Binary Search", "questions": [
+    {"q": "Binary search demands that the list is already what?", "a": "sorted"},
+    {"q": "A dictionary search for 'Zoology' starts in which half: first or second?", "a": "second"},
+    {"q": "Each midpoint comparison lets binary search discard how much of the remaining list?", "a": "half"}
+  ]},
+  {"id": "lecs107.1", "title": "Mean of a Data Set", "questions": [
+    {"q": "Five plants measure 90, 102, 110, 115 and 85 cm. What is their mean height in cm?", "a": "100.4"}
+  ]},
+  {"id": "lecs107.2", "title": "Median Position in Sorted Values", "questions": [
+    {"q": "Sort 90, 102, 110, 115 and 85. Which value sits exactly in the middle?", "a": "102"}
+  ]},
+  {"id": "lecs107.3", "title": "Range between Extremes", "questions": [
+    {"q": "Heights span 85 cm to 115 cm. What is the range in cm?", "a": "30"}
+  ]},
+  {"id": "lecs107.4", "title": "Standard Deviation of the Data", "questions": [
+    {"q": "What is the midrange of heights spanning 85 cm to 115 cm?", "a": "100"}
+  ]},
+  {"id": "lecs107.5", "title": "Mode as Highest Frequency", "questions": [
+    {"q": "Which measure of central tendency names the value occurring most often?", "a": "mode"},
+    {"q": "A data set where every value appears once has no what?", "a": "mode"},
+    {"q": "Several values tying at the top frequency make the data what?", "a": "multi-modal"}
+  ]},
+  {"id": "lecs107.6", "title": "Structured and Unstructured Data", "questions": [
+    {"q": "Data in fixed rows and columns with named attributes is called what?", "a": "structured data"},
+    {"q": "Newspaper pages, emails and videos follow no fixed record format. What are they called?", "a": "unstructured data"},
+    {"q": "Summing one column of a table works only because the data are what?", "a": "structured"}
+  ]},
+  {"id": "lecs107.7", "title": "Metadata: Data about Data", "questions": [
+    {"q": "An email's subject, recipient and attachment list describe other data. What is such data called?", "a": "metadata"},
+    {"q": "Image size, format and resolution are the what of a phone photo?", "a": "metadata"},
+    {"q": "Metadata carries the content itself or data about data?", "a": "data about data"}
+  ]},
+  {"id": "lecs107.8", "title": "Data Processing Cycle", "questions": [
+    {"q": "Which cycle turns raw data into decisions, beginning with collection?", "a": "data processing cycle"},
+    {"q": "Which stage follows collection in that cycle: preparation or output?", "a": "preparation"},
+    {"q": "What does an ATM print at the end of a withdrawal?", "a": "slip"}
+  ]},
+  {"id": "lecs108.1", "title": "Degree and Cardinality of a Relation", "questions": [
+    {"q": "A relation has degree 4 and cardinality 5. How many data values does it store?", "a": "20"}
+  ]},
+  {"id": "lecs108.2", "title": "Attendance Percentage from Working Days", "questions": [
+    {"q": "A student attended 45 of 50 working days. What is the attendance percentage?", "a": "90 percent"}
+  ]},
+  {"id": "lecs108.3", "title": "Manual Register Record Count", "questions": [
+    {"q": "Fifty students across 26 working days produce how many attendance entries per month?", "a": "1300"}
+  ]},
+  {"id": "lecs108.4", "title": "Limitations of the File System", "questions": [
+    {"q": "Storing the same data in two separate files is called what?", "a": "redundancy"},
+    {"q": "Duplicated copies drifting apart is called what?", "a": "inconsistency"},
+    {"q": "Related files staying unlinked is called what?", "a": "isolation"}
+  ]},
+  {"id": "lecs108.5", "title": "Database Management System Basics", "questions": [
+    {"q": "What is software that creates and manages databases called?", "a": "DBMS"},
+    {"q": "What is the design of a database called?", "a": "schema"},
+    {"q": "What is a snapshot of the database state called?", "a": "instance"}
+  ]},
+  {"id": "lecs108.6", "title": "Attribute, Tuple and Domain", "questions": [
+    {"q": "What is a column of a relation called?", "a": "attribute"},
+    {"q": "What is a row of a relation called?", "a": "tuple"},
+    {"q": "What is the set of permitted values for an attribute called?", "a": "domain"}
+  ]},
+  {"id": "lecs108.7", "title": "Candidate, Primary, Composite and Foreign Keys", "questions": [
+    {"q": "Which key is the designer's chosen unique identifier of a relation?", "a": "primary key"},
+    {"q": "Which key in one relation refers to the primary key of another?", "a": "foreign key"},
+    {"q": "A primary key formed by two or more attributes together is called what?", "a": "composite key"}
+  ]},
+  {"id": "lecs108.8", "title": "Properties of a Relation and NULL", "questions": [
+    {"q": "What marks an unknown or inapplicable value in a relation?", "a": "NULL"},
+    {"q": "Each value in a relation must be atomic and single-valued, drawn from one what?", "a": "domain"},
+    {"q": "Is the order of attributes in a relation material or immaterial?", "a": "immaterial"}
+  ]},
+  {"id": "lecs109.1", "title": "POWER and MOD Math Functions", "questions": [
+    {"q": "What does POWER(2, 3) return in SQL?", "a": "8"}
+  ]},
+  {"id": "lecs109.2", "title": "GST and FinalPrice of a Car", "questions": [
+    {"q": "A car is priced at Rs 582613. With 12 percent GST added, what is its FinalPrice in rupees?", "a": "652526.56"}
+  ]},
+  {"id": "lecs109.3", "title": "Aggregate Functions on Car Prices", "questions": [
+    {"q": "Eight car prices sum to 4608733. What does AVG(Price) return?", "a": "576091.625"}
+  ]},
+  {"id": "lecs109.4", "title": "Cartesian Product of Two Relations", "questions": [
+    {"q": "DANCE has 4 tuples and MUSIC has 5. How many rows does their cartesian product hold?", "a": "20"}
+  ]},
+  {"id": "lecs109.5", "title": "SELECT Statement with WHERE Clause", "questions": [
+    {"q": "Which clause filters rows in a SELECT statement?", "a": "WHERE"},
+    {"q": "Which keyword keeps both boundary values in a range test?", "a": "BETWEEN"},
+    {"q": "Which keyword removes duplicate values from the output?", "a": "DISTINCT"}
+  ]},
+  {"id": "lecs109.6", "title": "LIKE Operator and Wildcard Patterns", "questions": [
+    {"q": "Which LIKE wildcard stands for zero or more characters?", "a": "%"},
+    {"q": "Which LIKE wildcard stands for exactly one character?", "a": "_"},
+    {"q": "Which pattern catches names with 'a' as the second letter: '_a%' or 'a%'?", "a": "_a%"}
+  ]},
+  {"id": "lecs109.7", "title": "GROUP BY with the HAVING Clause", "questions": [
+    {"q": "Which clause collects rows sharing one column value before aggregates run?", "a": "GROUP BY"},
+    {"q": "Which clause filters the groups after grouping?", "a": "HAVING"},
+    {"q": "Keeping only customers who bought more than one car needs which condition: COUNT(*) > 1 or COUNT(*) = 1?", "a": "COUNT(*) > 1"}
+  ]},
+  {"id": "lecs109.8", "title": "JOIN and NATURAL JOIN on Two Tables", "questions": [
+    {"q": "Four tables are linked by joins. How many joins are needed?", "a": "3"},
+    {"q": "Which join drops the duplicate common column automatically?", "a": "NATURAL JOIN"},
+    {"q": "A join usually matches a primary key with the matching what from the other table?", "a": "foreign key"}
+  ]},
+  {"id": "lecs110.1", "title": "Cabling a Mesh Topology", "questions": [
+    {"q": "How many cables does a full mesh of 5 nodes need?", "a": "10"}
+  ]},
+  {"id": "lecs110.2", "title": "File Transfer over a Gigabit LAN", "questions": [
+    {"q": "A 700 MB file crosses a Gigabit Ethernet rated at 1000 Mbps. About how many seconds does it take?", "a": "5.6"}
+  ]},
+  {"id": "lecs110.3", "title": "Bit Structure of a MAC Address", "questions": [
+    {"q": "How many bits long is a MAC address?", "a": "48 bits"}
+  ]},
+  {"id": "lecs110.4", "title": "Address Space of IPv4", "questions": [
+    {"q": "How many bits does an IPv4 address carry?", "a": "32 bits"}
+  ]},
+  {"id": "lecs110.5", "title": "Network Types: PAN, LAN, MAN and WAN", "questions": [
+    {"q": "Which network type links personal devices within about 10 metres?", "a": "PAN"},
+    {"q": "Which network type spans a city of 30 to 40 km?", "a": "MAN"},
+    {"q": "The Internet is the largest example of which network type?", "a": "WAN"}
+  ]},
+  {"id": "lecs110.6", "title": "Devices: Modem, Hub, Switch, Router and Gateway", "questions": [
+    {"q": "Which device converts between digital bits and analog signals?", "a": "modem"},
+    {"q": "Which device broadcasts incoming data to all of its lines?", "a": "hub"},
+    {"q": "Which device forwards packets only to the addressed device?", "a": "switch"}
+  ]},
+  {"id": "lecs110.7", "title": "Comparing Ring, Bus, Star and Tree Topologies", "questions": [
+    {"q": "Which topology wires every node to a central hub or switch?", "a": "star"},
+    {"q": "Which topology shares one backbone wire among all nodes?", "a": "bus"},
+    {"q": "Which topology connects each node to exactly two neighbours in a loop?", "a": "ring"}
+  ]},
+  {"id": "lecs110.8", "title": "Internet, Web and Domain Name System", "questions": [
+    {"q": "Which server resolves a domain name into its IP address?", "a": "DNS"},
+    {"q": "The World Wide Web serves interlinked pages written in which markup language?", "a": "HTML"},
+    {"q": "Which protocol carries web pages to browsers?", "a": "HTTP"}
+  ]},
+  {"id": "lecs111.1", "title": "Data Rate for Uploading Pages", "questions": [
+    {"q": "Ten pages of 1600 eight-bit characters upload in 20 seconds. What bit rate in bps does that need?", "a": "6400"}
+  ]},
+  {"id": "lecs111.2", "title": "Bandwidth of a Composite Signal", "questions": [
+    {"q": "A composite signal spans 500 MHz to 1 GHz. What bandwidth in MHz does it occupy?", "a": "500"}
+  ]},
+  {"id": "lecs111.3", "title": "Converting Gbps into Bits per Second", "questions": [
+    {"q": "One Gbps equals 2 raised to what power bps?", "a": "30"},
+    {"q": "How many bits per second does an 18 Gbps link carry?", "a": "19327352832"},
+    {"q": "One Mbps equals 2 raised to what power bps?", "a": "20"}
+  ]},
+  {"id": "lecs111.4", "title": "Bluetooth Piconet Device Limits", "questions": [
+    {"q": "A Bluetooth piconet has one master and 7 active slaves. How many devices are actively communicating?", "a": "8"}
+  ]},
+  {"id": "lecs111.5", "title": "Simplex, Half-duplex and Full-duplex Modes", "questions": [
+    {"q": "Which mode sends data one way only, like a keyboard to a computer?", "a": "simplex"},
+    {"q": "Which mode exchanges both ways but never at once, like a walkie-talkie?", "a": "half-duplex"},
+    {"q": "Which mode carries both directions simultaneously, like a telephone call?", "a": "full-duplex"}
+  ]},
+  {"id": "lecs111.6", "title": "Circuit Switching versus Packet Switching", "questions": [
+    {"q": "Which switching establishes one dedicated path before any data moves?", "a": "circuit switching"},
+    {"q": "Which switching chops each message into packets that travel independently?", "a": "packet switching"},
+    {"q": "A packet carries the message part plus a what holding the destination address?", "a": "header"}
+  ]},
+  {"id": "lecs111.7", "title": "Guided and Unguided Transmission Media", "questions": [
+    {"q": "Which guided media carries light signals?", "a": "fibre optic"},
+    {"q": "Which unguided waves span 3 KHz to 1 GHz and penetrate walls?", "a": "radio waves"},
+    {"q": "Which waves from 1 GHz to 300 GHz need line of sight?", "a": "microwaves"}
+  ]},
+  {"id": "lecs111.8", "title": "Protocols: HTTP, FTP, SMTP and TCP/IP", "questions": [
+    {"q": "Which protocol serves web pages?", "a": "HTTP"},
+    {"q": "Which protocol moves files between machines?", "a": "FTP"},
+    {"q": "Which protocol handles outgoing mail queues?", "a": "SMTP"}
+  ]},
+  {"id": "lecs112.1", "title": "Scale of a Ransomware Outbreak", "questions": [
+    {"q": "WannaCry hit about 200000 machines across 150 countries. Roughly how many infected machines per country is that, to the nearest thousand?", "a": "1333"}
+  ]},
+  {"id": "lecs112.2", "title": "Pay-per-Click Earnings of Adware", "questions": [
+    {"q": "Adware earns Rs 2 per click across 5000 clicks. What is the revenue in rupees?", "a": "10000"}
+  ]},
+  {"id": "lecs112.3", "title": "Malware: Virus, Worm, Trojan and Spyware", "questions": [
+    {"q": "Which malware spreads on its own over networks without needing a host program?", "a": "worm"},
+    {"q": "Which malware disguises itself as legitimate software?", "a": "trojan"},
+    {"q": "Which malware records every keystroke a user types?", "a": "keylogger"}
+  ]},
+  {"id": "lecs112.4", "title": "Methods Antivirus Uses to Identify Malware", "questions": [
+    {"q": "Which continuously updated file backs the signature matching of an antivirus?", "a": "Virus Definition File"},
+    {"q": "Which antivirus method runs suspect files in an isolated environment?", "a": "sandbox"},
+    {"q": "Which antivirus method watches running programs as they work?", "a": "real-time monitoring"}
+  ]},
+  {"id": "lecs112.5", "title": "HTTP versus HTTPS", "questions": [
+    {"q": "Which protocol encrypts data before sending and needs an SSL certificate?", "a": "HTTPS"},
+    {"q": "Which digital certificate does an HTTPS website require?", "a": "SSL"},
+    {"q": "Before entering banking details, what should the address bar show: http:// or https://?", "a": "https://"}
+  ]},
+  {"id": "lecs112.6", "title": "Firewall between Trusted and Untrusted Networks", "questions": [
+    {"q": "What filters traffic between a trusted private network and an untrusted outside one?", "a": "firewall"},
+    {"q": "A firewall installed on a single machine is a network firewall or a host-based one?", "a": "host-based"},
+    {"q": "A firewall allows or blocks traffic according to predefined what?", "a": "rules"}
+  ]},
+  {"id": "lecs112.7", "title": "Cookies Stored by Websites", "questions": [
+    {"q": "What is the small file a website plants on the client's computer called?", "a": "cookie"},
+    {"q": "Which cookies end with a time-out?", "a": "session cookies"},
+    {"q": "Which cookies recognise returning users?", "a": "authentication cookies"}
+  ]},
+  {"id": "lecs112.8", "title": "Denial of Service Attacks and Hacker Hats", "questions": [
+    {"q": "Which attack floods a resource with traffic from one source?", "a": "DoS"},
+    {"q": "Which distributed attack is driven by botnets of zombie machines?", "a": "DDoS"},
+    {"q": "Which hat colour describes hackers who fix flaws: white, black or grey?", "a": "white"}
+  ]},
+  {"id": "lecs113.1", "title": "Billing an Order at the Restaurant", "questions": [
+    {"q": "A kiosk bills price 120 with quantity 3, and price 60 with quantity 2. What is the bill amount in rupees?", "a": "480"}
+  ]},
+  {"id": "lecs113.2", "title": "Time Frame for Project Modules", "questions": [
+    {"q": "Four modules take 5 days each and integration needs 4 more days. What is the total project time in days?", "a": "24"}
+  ]},
+  {"id": "lecs113.3", "title": "Steps in Project Based Learning", "questions": [
+    {"q": "What is the first step of project based learning: identify the project or integrate modules?", "a": "identify the project"},
+    {"q": "Who provides guidance and monitoring during a school project?", "a": "teacher"},
+    {"q": "What refines the project outcome near the end?", "a": "peer feedback"}
+  ]},
+  {"id": "lecs113.4", "title": "Modular, Top Down and Bottom Up Approaches", "questions": [
+    {"q": "Which approach starts from the whole and splits downwards?", "a": "top down"},
+    {"q": "Which approach builds from small parts upwards?", "a": "bottom up"},
+    {"q": "The modular approach is also known by which name: structured or random?", "a": "structured"}
+  ]},
+  {"id": "lecs113.5", "title": "Components of Teamwork", "questions": [
+    {"q": "How many components does the chapter list for teamwork: communicating, listening, sharing, respecting, helping and participating?", "a": "6"}
+  ]},
+  {"id": "lecs113.6", "title": "Project Ideas: Puzzle and Educational Games", "questions": [
+    {"q": "The sample puzzle runs on a fixed board of which size: 6x6 or 9x9?", "a": "6x6"},
+    {"q": "How many bombs hide on the sample puzzle board?", "a": "6"},
+    {"q": "The edutainment game removes digit pairs that sum to what?", "a": "10"}
+  ]}
+ ]
+}

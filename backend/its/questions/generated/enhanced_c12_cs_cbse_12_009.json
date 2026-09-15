@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_009",
+   "title": "c12_cs_cbse_12_009",
+   "questions": [
+    {
+     "q": "What is the primary subject matter protected by copyright under the Indian Copyright Act, 1957?",
+     "a": "Copyright protects original literary, dramatic, musical, and artistic works, including computer programs (software code). A wrong answer might confuse copyright with patent (which protects inventions) or trademark (which protects brand identifiers), revealing that the student cannot distinguish the subject matter of each IPR.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a computer program is protected by copyright and not by patent in India, even though it involves an inventive logic.",
+     "a": "In India, computer programs per se are protected as literary works under copyright (Section 2(o) of Copyright Act), while patents are granted for inventions that are new, involve an inventive step, and are capable of industrial application; a mere algorithm or program without a technical effect is not patentable. A wrong answer might claim software is patentable, showing confusion about the exclusion of \"computer programs per se\" under Section 3(k) of the Patents Act.",
+     "self_check": true
+    },
+    {
+     "q": "A student develops a mobile app and wants to protect the app's name and logo. Which IPR should they apply for, and what is the first step in the registration process?",
+     "a": "The student should apply for a trademark. The first step is to conduct a trademark search in the Indian Trademark Registry database to ensure the mark is not already registered or similar to an existing one. A wrong answer might suggest copyright or patent, indicating the student does not associate brand identifiers with trademark.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the duration of protection for copyright, patent, and trademark in India. Why do these durations differ?",
+     "a": "Copyright lasts for the author's lifetime plus 60 years; patent lasts 20 years from filing; trademark lasts 10 years but can be renewed indefinitely. The differences reflect the nature of the creation: copyright protects expressive works that benefit from long-term cultural preservation; patents protect technical inventions that should enter public domain quickly to spur further innovation; trademarks protect commercial identity that can last as long as the business uses it. A wrong answer that gives identical durations shows lack of analytical understanding of the policy rationale.",
+     "self_check": true
+    },
+    {
+     "q": "A company uses an open-source library (licensed under GPL) in their proprietary software without releasing the source code. Evaluate whether this violates IPR, and justify your answer.",
+     "a": "Yes, it violates the GPL license, which is a copyright license requiring derivative works to be distributed under the same license (copyleft). By not releasing source code, the company breaches the license terms, infringing the copyright of the library authors. A wrong answer might say \"open source means free to use\" ignoring license conditions, revealing a misunderstanding of copyright licensing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a single product (e.g., a smartphone) involves all three types of IPR. Identify which aspect is protected by copyright, which by patent, and which by trademark.",
+     "a": "Example: Smartphone — the operating system code is protected by copyright; the novel touchscreen sensor technology is patented; the brand name and logo are trademarked. A poor answer might assign the same IPR to multiple aspects or miss one, showing inability to synthesize the distinct roles of each IPR in a real product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

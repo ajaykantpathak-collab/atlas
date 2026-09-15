@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_5",
+   "title": "c8_math_ch6_5",
+   "questions": [
+    {
+     "q": "What is the algebraic expansion of (x + 1)(y - 1) using the distributive property?",
+     "a": "(x + 1)(y - 1) = xy - x + y - 1 = xy + (y - x) - 1. A wrong answer like xy - 1 reveals the student forgot to distribute both terms and missed the -x + y part, treating it as a simple difference of squares pattern incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "If we have two numbers where the first number is larger than the second (a > b), and we increase the first by 1 while decreasing the second by 1, will the product increase, decrease, or stay the same? Explain why using the formula.",
+     "a": "The product will decrease. According to the formula, the change is (b - a) - 1. Since a > b, (b - a) is negative, and subtracting 1 makes it even more negative, so the new product is less than the original. A wrong answer of \"increase\" shows the student thinks increasing a factor always increases the product, ignoring the simultaneous decrease and the magnitude of the change.",
+     "self_check": true
+    },
+    {
+     "q": "The product of two numbers is 72. One number is 8 and the other is 9. If we increase 8 by 1 and decrease 9 by 1, what is the new product? Show your steps.",
+     "a": "Original: 8 × 9 = 72. New: (8+1)(9-1) = 9 × 8 = 72. Using formula: change = (9 - 8) - 1 = 0, so new product = 72 + 0 = 72. A wrong answer like 71 or 73 reveals the student either miscalculated the formula or didn't notice the numbers are consecutive, making the change zero.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the product when (i) we increase the larger factor by 1 and decrease the smaller by 1, versus (ii) we increase the smaller factor by 1 and decrease the larger by 1. Use a = 10, b = 6 to illustrate.",
+     "a": "Case (i): larger is 10, smaller is 6. Increase 10→11, decrease 6→5: new product = 55. Change = (6-10)-1 = -5. Original = 60, so 60-5=55. Case (ii): increase 6→7, decrease 10→9: new product = 63. Change = (10-6)-1 = 3. Original = 60, so 60+3=63. The product increases when we increase the smaller factor and decreases when we increase the larger factor. A wrong answer that says both give the same result shows the student thinks the operation is symmetric, ignoring that the formula uses (b - a) where order matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that (a+1)(b-1) is always less than ab because one factor goes up and the other goes down. Is this claim correct? Provide a counterexample or proof.",
+     "a": "The claim is incorrect. Counterexample: a=3, b=10. Original = 30. New = 4×9 = 36, which is greater than 30. The change is (10-3)-1 = 6 > 0. The product increases when the factor being decreased (b) is sufficiently larger than the factor being increased (a). A student who agrees with the claim has not analyzed the formula (b - a) - 1 and assumes the decrease always outweighs the increase.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using rupees, metres, or kilograms) where increasing one quantity by 1 and decreasing another by 1 results in the product staying exactly the same. State the original numbers and verify.",
+     "a": "Example: A rectangle has length 7 m and breadth 6 m. Area = 42 m². If length increases to 8 m and breadth decreases to 5 m, new area = 40 m² (not same). To stay same, we need (b - a) - 1 = 0 → b - a = 1. So choose consecutive numbers like 5 and 6. Problem: \"A farmer has 5 rows of 6 trees each (30 trees). He adds 1 row but removes 1 tree from each row. Now he has 6 rows of 5 trees = 30 trees.\" A poor answer uses non-consecutive numbers, showing the student hasn't grasped that the product stays same only when the factors differ by exactly 1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

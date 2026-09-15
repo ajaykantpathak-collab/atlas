@@ -1,0 +1,326 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 103,
+ "chapter_title": "Water Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess103.txt",
+ "concepts": [
+  {
+   "id": "jess.103.1",
+   "title": "Water Scarcity and Qualitative-Quantitative Drivers",
+   "section": "Water Scarcity and the Need for Water Conservation and Management",
+   "definition": "Inadequacy of usable freshwater triggered by excessive usage, unequal social distribution, or chemical contamination of available water bodies.",
+   "formula": "",
+   "key_idea": "Water stress stems both from quantitative over-exploitation and qualitative pollution.",
+   "textbook_ref": "jess103.txt lines 1-50",
+   "question_patterns": [
+    "explain the primary causes of water scarcity in urban areas",
+    "what factors contribute to quantitative and qualitative water shortage",
+    "how does excessive population pressure lead to water scarcity",
+    "identify the social and economic reasons behind water stress",
+    "describe why water scarcity occurs even in areas with abundant rainfall"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify quantitative causes",
+     "explain": "Rapid population expansion, expanded irrigation for dry-season agriculture, and growing industrial water consumption depletes freshwater supplies."
+    },
+    {
+     "step": 2,
+     "action": "Identify qualitative causes",
+     "explain": "Discharge of domestic sewage, industrial effluence, pesticides, and agricultural fertilizers renders available water unusable."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.2",
+   "title": "Government Initiatives for Rural Water Security",
+   "section": "Water Scarcity and the Need for Water Conservation and Management",
+   "definition": "National programs aimed at guaranteeing tap water supply to rural households and managing stressed underground aquifers through community action.",
+   "formula": "",
+   "key_idea": "Jal Jeevan Mission targets 55 litres per capita daily piped water while Atal Bhujal Yojana promotes community groundwater management.",
+   "textbook_ref": "jess103.txt lines 40-60",
+   "question_patterns": [
+    "explain the objectives of Jal Jeevan Mission in rural India",
+    "what is the goal of Atal Bhujal Yojana for groundwater management",
+    "how much piped water per capita does Jal Jeevan Mission target daily",
+    "identify the key focus areas of Atal Jal in water stressed blocks",
+    "describe government schemes implemented to manage water resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail Jal Jeevan Mission target",
+     "explain": "Ensures every rural household receives 55 litres per capita per day of potable piped water regularly."
+    },
+    {
+     "step": 2,
+     "action": "Detail Atal Bhujal Yojana coverage",
+     "explain": "Targets community-led groundwater conservation across 8220 water-stressed Gram Panchayats in seven states."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.3",
+   "title": "Ancient Indian Hydraulic Engineering",
+   "section": "Hydraulic Structures in Ancient India",
+   "definition": "Historical water conservation infrastructure comprising stone masonry dams, artificial lakes, embankments, and channel systems engineered in ancient India.",
+   "formula": "",
+   "key_idea": "Ancient Indian kingdoms developed sophisticated hydraulic systems like Sringaverapura flood channels, Bhopal Lake, and Hauz Khas tank.",
+   "textbook_ref": "jess103.txt lines 65-85",
+   "question_patterns": [
+    "list major hydraulic structures built in ancient India",
+    "what water harvesting system was developed at Sringaverapura",
+    "identify the historic tank constructed by Allauddin Khilji in Delhi",
+    "describe the water management accomplishments during the Mauryan empire",
+    "explain how ancient Indian kingdoms managed river floodwaters and storage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List key ancient hydraulic structures",
+     "explain": "Sringaverapura Ganga flood channel (1st century B.C.), Mauryan dams and lakes, Bhopal Lake (11th century), and Hauz Khas tank by Allauddin Khilji (14th century)."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.4",
+   "title": "Multipurpose River Valley Projects",
+   "section": "Multi-Purpose River Projects and Integrated Water Resources Management",
+   "definition": "Integrated river basin structures that dam flowing rivers to serve multiple purposes such as power generation, irrigation, flood management, and water supply.",
+   "formula": "",
+   "key_idea": "Multipurpose river projects combine flood control, power generation, navigation, and farming, famously termed temples of modern India.",
+   "textbook_ref": "jess103.txt lines 86-120",
+   "question_patterns": [
+    "what are multi-purpose river projects and their main objectives",
+    "explain why Jawahar Lal Nehru called dams the temples of modern India",
+    "how do multi-purpose dams contribute to irrigation and power generation",
+    "identify major multipurpose projects like Bhakra Nangal and Hirakud",
+    "describe the role of Sardar Sarovar dam across Narmada river"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State primary functions of multipurpose projects",
+     "explain": "Integrate irrigation, hydroelectricity production, municipal water supply, flood control, fish breeding, and inland navigation."
+    },
+    {
+     "step": 2,
+     "action": "Cite prominent examples",
+     "explain": "Bhakra-Nangal on Sutlej-Beas basin, Hirakud on Mahanadi basin, and Sardar Sarovar on Narmada river."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.5",
+   "title": "Ecological and Social Impacts of Large Dams",
+   "section": "Multi-Purpose River Projects and Integrated Water Resources Management",
+   "definition": "Adverse ecological, environmental, and social consequences of damming rivers, including sedimentation, habitat destruction, soil degradation, and displacement.",
+   "formula": "",
+   "key_idea": "Damming interrupts river sediment flow, floods vegetation, degrades aquatic habitats, alters cropping patterns, and triggers inter-state disputes.",
+   "textbook_ref": "jess103.txt lines 121-150",
+   "question_patterns": [
+    "discuss the environmental drawbacks associated with large dams",
+    "how do dams cause river fragmentation and excessive sedimentation",
+    "what triggers inter-state water disputes like the Krishna-Godavari conflict",
+    "explain how multi-purpose projects can lead to soil salinization and flooding",
+    "identify ecological disruption caused by damming natural river channels"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain ecological impacts",
+     "explain": "Damming causes poor sediment flow, rocky river beds, aquatic migration barriers, reservoir siltation, soil salinization, and submerged floodplain vegetation."
+    },
+    {
+     "step": 2,
+     "action": "Explain socio-economic impacts",
+     "explain": "Displacement of local communities, flood risk during excessive rainfall, and inter-state conflicts over water diversion like Krishna-Godavari dispute."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.6",
+   "title": "Traditional Regional Water Harvesting Techniques",
+   "section": "Rainwater Harvesting",
+   "definition": "Indigenous systems engineered by local communities to store rainwater, floodwater, or mountain streams based on regional geography and climate.",
+   "formula": "",
+   "key_idea": "Diverse traditional systems like Western Himalayan guls, Rajasthan khadins and johads, and Bengal inundation channels address local water needs.",
+   "textbook_ref": "jess103.txt lines 151-175",
+   "question_patterns": [
+    "describe traditional water harvesting structures like guls and kuls",
+    "what are khadins and johads used for in semi-arid Rajasthan",
+    "how do inundation channels function in the flood plains of Bengal",
+    "explain how indigenous communities adapted water storage to local climate",
+    "identify traditional rainwater harvesting methods across different regions of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize techniques by geography",
+     "explain": "Guls/Kuls in Western Himalayas (diversion channels), Khadins and Johads in Rajasthan (agricultural rain-fed storage), and Inundation channels in Bengal."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.7",
+   "title": "Rooftop Rainwater Harvesting Systems",
+   "section": "Rainwater Harvesting",
+   "definition": "Method of collecting rain from house roofs through pipes into underground storage tanks (tankas) or recharge pits for drinking and household use.",
+   "formula": "",
+   "key_idea": "Rooftop harvesting yields pure drinking water (palar pani) in Rajasthan and satisfies daily water needs in Shillong and Gendathur.",
+   "textbook_ref": "jess103.txt lines 176-215",
+   "question_patterns": [
+    "describe how rooftop rainwater harvesting is carried out using tankas",
+    "what is palar pani and why is it valued in western Rajasthan",
+    "explain why Shillong relies heavily on rooftop rainwater harvesting",
+    "how does Gendathur village in Karnataka manage its water requirements",
+    "which state in India made rooftop rainwater harvesting compulsory for all houses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain tanka mechanism",
+     "explain": "Sloping rooftops collect rainwater, conveying it via PVC pipes to underground tankas after discarding the initial cleaning shower."
+    },
+    {
+     "step": 2,
+     "action": "Highlight key geographical implementations",
+     "explain": "Palar pani stored in Rajasthan tankas; Shillong satisfies 15-25% water needs via rooftops; Tamil Nadu mandates rooftop harvesting legally."
+    }
+   ]
+  },
+  {
+   "id": "jess.103.8",
+   "title": "Rainwater Harvesting Yield Calculation",
+   "section": "Rainwater Harvesting",
+   "definition": "Estimation of total community rainwater collected by taking the product of total household units and individual household yield.",
+   "formula": "total_harvest = num_households * yield_per_household",
+   "key_idea": "Community water collection capacity scales directly with participating households.",
+   "textbook_ref": "jess103.txt lines 195-205",
+   "question_patterns": [
+    "calculate total rainwater harvested by {num_households} households yielding {yield_per_household} litres each",
+    "find the net annual rainwater collected in a village with {num_households} houses storing {yield_per_household} litres per home",
+    "what is the community rainwater yield for {num_households} homes with {yield_per_household} litres annual capacity",
+    "determine total water stored when {num_households} families each harvest {yield_per_household} litres",
+    "how much total rainwater is harvested across {num_households} households collecting {yield_per_household} litres per year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply number of households by yield per household",
+     "explain": "net annual yield equals total participating households multiplied by yield of one home",
+     "compute": "total_harvest = num_households * yield_per_household"
+    }
+   ]
+  },
+  {
+   "id": "jess.103.9",
+   "title": "Bamboo Drip Irrigation System",
+   "section": "Bamboo Drip Irrigation System",
+   "definition": "Centuries-old technique in Meghalaya that taps hill stream water using interconnected bamboo pipes to convey controlled water drops directly to plant roots.",
+   "formula": "",
+   "key_idea": "Gravity-fed bamboo pipe networks transport spring water over long distances, reducing heavy flow to precise root-level drops.",
+   "textbook_ref": "jess103.txt lines 216-235",
+   "question_patterns": [
+    "explain the working of the 200-year-old bamboo drip irrigation system in Meghalaya",
+    "how do bamboo pipes transport stream water to crop roots in hill areas",
+    "what volume of spring water enters bamboo channel systems in hilltop farms",
+    "describe how water flow is regulated in bamboo drip irrigation",
+    "identify the advantages of gravity-based bamboo pipe irrigation systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe channel transport",
+     "explain": "Hilltop spring water enters bamboo pipes and flows hundreds of metres downward using gravity."
+    },
+    {
+     "step": 2,
+     "action": "Describe flow regulation",
+     "explain": "Initial intake of 18-20 litres per minute gets reduced at successive branching stages down to 20-80 drops per minute near plant roots."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess103.txt lines 195-205",
+   "concept": "jess.103.8",
+   "question_type": "compute",
+   "question_pattern": "A village with {num_households} households collects {yield_per_household} litres of rainwater per house annually. Calculate the total annual rainwater harvested.",
+   "extracted_variables": {
+    "num_households": 200,
+    "yield_per_household": 50000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply number of households by yield per household",
+     "explain": "net annual yield equals total participating households multiplied by yield of one home",
+     "compute": "total_harvest = num_households * yield_per_household"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess103.txt lines 195-205",
+   "concept": "jess.103.8",
+   "question_type": "compute",
+   "question_pattern": "Find the total volume of harvested rainwater when {num_households} houses each store {yield_per_household} litres of water.",
+   "extracted_variables": {
+    "num_households": 150,
+    "yield_per_household": 40000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply number of households by yield per household",
+     "explain": "net annual yield equals total participating households multiplied by yield of one home",
+     "compute": "total_harvest = num_households * yield_per_household"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess103.txt lines 236-255",
+   "questions": [
+    "Based on the information given below classify each of the situations as 'suffering from water scarcity' or 'not suffering from water scarcity': (a) Region with high annual rainfall. (b) Region having high annual rainfall and large population. (c) Region having high annual rainfall but water is highly polluted. (d) Region having low rainfall and low population.",
+    "Which one of the following statements is not an argument in favour of multi-purpose river projects? (a) Multi-purpose projects bring water to those areas which suffer from water scarcity. (b) Multi-purpose projects by regulating water flow helps to control floods. (c) Multi-purpose projects lead to large scale displacements and loss of livelihood. (d) Multi-purpose projects generate electricity for our industries and our homes.",
+    "Identify the mistakes and rewrite the false statements correctly: (a) Multiplying urban centres with large and dense populations and urban lifestyles have helped in proper utilisation of water resources. (b) Regulating and damming of rivers does not affect the river's natural flow and its sediment flow. (c) Today in Rajasthan, the practice of rooftop rainwater harvesting has gained popularity despite high water availability due to the Indira Gandhi Canal."
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "jess103.txt lines 256-265",
+   "questions": [
+    "Explain how water becomes a renewable resource.",
+    "What is water scarcity and what are its main causes?",
+    "Compare the advantages and disadvantages of multi-purpose river projects."
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "jess103.txt lines 266-275",
+   "questions": [
+    "Discuss how rainwater harvesting in semi-arid regions of Rajasthan is carried out.",
+    "Describe how modern adaptations of traditional rainwater harvesting methods are being carried out to conserve and store water."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

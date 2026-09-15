@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_010",
+   "title": "c6_geography_ch02_010",
+   "questions": [
+    {
+     "q": "What is the name of the instrument used to measure the amount of rainfall?",
+     "a": "The instrument is called a rain gauge. Answering incorrectly suggests the student is confusing it with other weather instruments like a thermometer or barometer, which measure temperature or pressure instead of volume of precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "If a region records 10 mm of rainfall, what does that number actually mean in terms of a layer of water?",
+     "a": "It means if the water spread out perfectly flat on the ground without soaking in or flowing away, it would be 10 mm high. A wrong answer shows the student thinks '10 mm' refers to the total volume (like a bucket full) rather than the depth (height) of the water layer.",
+     "self_check": true
+    },
+    {
+     "q": "A rain gauge shows 25 mm of water after a storm. If you empty that into a wider container of the same shape, will the height of the water change?",
+     "a": "Yes, because the funnel concentrates the rain into a narrow measuring tube to make it easier to read. If you move it to a wider container, the water spreads out, and the depth (height) will decrease even though the total amount of water is the same.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we usually measure rainfall in millimetres instead of litres?",
+     "a": "Millimetres tell us the 'depth' of the rain covering an area, which helps us understand how much the ground is saturated regardless of the size of the area. Using litres would only tell us the total volume, which would change depending on whether you measured a small backyard or a large city.",
+     "self_check": true
+    },
+    {
+     "q": "If two different cities receive the same amount of 'depth' in rainfall, does that mean the same amount of water fell in both places?",
+     "a": "No, because depth is an average height over an area; a large city would have a much higher volume of water than a small garden even if both record 10 mm of rain. Students who answer 'yes' are failing to distinguish between the 'depth of a layer' and the 'total volume' of a substance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate how a funnel helps measure rain more accurately than just leaving a bucket open.",
+     "a": "A good answer explains that a funnel catches rain from a large area and directs it into a thin tube, making the water level rise higher and making it easier to see and measure the depth. A poor answer fails to mention the concentration of water into a narrower space to improve readability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

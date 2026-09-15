@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_05_005",
+   "title": "c11_hist_cbse_05_005",
+   "questions": [
+    {
+     "q": "In what year and at what assembly did Genghis Khan formally proclaim the Yasa as the law of the unified Mongol tribes?",
+     "a": "The Yasa was proclaimed in 1206 CE at the Kurultai (great assembly) on the Onon River where Temujin was elected Genghis Khan. A wrong answer (e.g., 1227 at his death, or 1260 under Kublai) reveals confusion between the Yasa's origin and later imperial developments, or conflation with the Yuan legal codes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Yasa mandate the death penalty for stealing a horse but only a fine for stealing a sheep, and what does this reveal about Mongol pastoral economy?",
+     "a": "Horses were the foundation of Mongol military mobility, communication, and pastoral wealth — losing a horse crippled a warrior's capacity; sheep were replaceable herd assets. A wrong answer focusing only on \"horses were more valuable\" misses the structural link between law, military organisation, and steppe ecology established in nodes c11_hist_cbse_05_001 and c11_hist_cbse_05_004.",
+     "self_check": true
+    },
+    {
+     "q": "A Persian chronicler writes: \"The Yasa commanded that no woman be taken as a wife without her consent, yet also permitted a man to marry his stepmother after his father's death.\" Using your knowledge of Mongol kinship (node c11_hist_cbse_05_002), explain this apparent contradiction.",
+     "a": "The first rule protected women's agency in marriage alliances between clans; the second (levirate marriage) ensured widows and their children remained within the patrilineal clan's protection and inheritance structure. A wrong answer treating these as \"hypocrisy\" fails to see how the Yasa balanced individual consent with collective clan survival — a nuance requiring application of kinship concepts from the sibling node.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Yasa's approach to religious tolerance with Ashoka's Dhamma (Class 6, node c6_history_ch05_009) and Akbar's Sulh-i-kul (Class 7, node c7_hist_ch04_004). What fundamental difference in *source of legitimacy* distinguishes the Mongol code?",
+     "a": "Ashoka and Akbar derived religious policy from personal spiritual conviction and imperial ideology articulated in edicts; the Yasa's tolerance (exempting clergy from taxes, forbidding preference for any faith) stemmed from Genghis Khan's *pragmatic need to prevent rebellion in multi-ethnic conquests* — it was a military-administrative necessity, not a moral doctrine. A wrong answer equating all three as \"secularism\" misses the distinct political logic of nomadic imperialism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that \"the Yasa was merely a codification of existing Mongol customs\" by analysing three specific innovations Genghis Khan introduced that had no precedent in steppe tradition.",
+     "a": "Valid critique: the Yasa introduced (1) a *written* legal code using Uighur script (adopted c.1204), replacing oral tradition; (2) *merit-based promotion* in military and administration regardless of clan lineage, breaking tribal aristocracy; (3) *centralised judicial authority* — the Khan as supreme judge, with *jarquchis* (judges) appointed empire-wide, replacing clan-based dispute resolution. A weak answer lists customs without identifying these structural breaks.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The Yasa's greatest weakness was its dependence on the person of the Great Khan.\" Support with evidence from the succession crises after 1227 and 1259.",
+     "a": "Strong argument: The Yasa lacked institutionalised succession rules (unlike primogeniture in sedentary monarchies); after Genghis Khan's death (1227), the Kurultai elected Ögedei only after two years of regency; after Möngke's death (1259), rival Kurultais elected Ariq Böke and Kublai, triggering civil war. The law could not resolve the *source of sovereignty* — it resided in the Khan's charisma, not the code itself. A poor answer describes the wars without linking them to the Yasa's structural silence on succession.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

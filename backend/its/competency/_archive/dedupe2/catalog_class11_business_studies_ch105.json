@@ -1,0 +1,158 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 105,
+ "chapter_title": "Emerging Modes of Business",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebs105.txt",
+ "concepts": [
+  {
+   "id": "kebs.5.2.1",
+   "title": "Scope of e-Business",
+   "section": "5.2.1",
+   "definition": "The range of electronic business activities, categorized by the parties involved in the transactions.",
+   "formula": "scope = B2B + B2C + Intra-B + C2C",
+   "key_idea": "e-Business encompasses interactions between businesses, customers, and internal organizational departments.",
+   "textbook_ref": "kebs105.txt lines 115-119",
+   "question_patterns": [
+    "what are the major constituents of e-business",
+    "define the scope of e-business",
+    "how are electronic transactions classified",
+    "explain the different directions of e-business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four primary transaction types",
+     "explain": "The scope is defined by the interaction between Business-to-Business (B2B), Business-to-Consumer (B2C), Intra-Business (Intra-B), and Consumer-to-Consumer (C2C)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.5.3.1",
+   "title": "Benefits of e-Business",
+   "section": "5.3",
+   "definition": "Operational advantages gained by firms and consumers through the use of electronic networks.",
+   "formula": "net_benefit = (cost_reduction + market_expansion + efficiency_gain)",
+   "key_idea": "e-Business lowers costs, increases speed, and removes geographical barriers.",
+   "textbook_ref": "kebs105.txt lines 121-123",
+   "question_patterns": [
+    "list the benefits of e-commerce to business organizations",
+    "how does e-business facilitate global reach",
+    "why is e-business considered more efficient",
+    "what are the advantages of e-business for consumers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize benefits",
+     "explain": "Benefits are divided into organizational gains (cost, reach, speed) and consumer benefits (flexibility, convenience, choice)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.5.4.1",
+   "title": "Limitations of e-Business",
+   "section": "5.4",
+   "definition": "Inherent challenges and risks associated with conducting business activities in a digital environment.",
+   "formula": "risk_index = (security_threats + anonymity_issues + technical_resistance)",
+   "key_idea": "Digital business faces hurdles like lack of personal touch, security risks, and technological dependency.",
+   "textbook_ref": "kebs105.txt lines 123-125",
+   "question_patterns": [
+    "what are the limitations of e-business",
+    "why is e-business considered risky",
+    "explain the problem of low personal touch in e-business",
+    "how does anonymity affect online transactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key constraints",
+     "explain": "Major limitations include low personal touch, order fulfillment speed incongruence, security risks, and ethical concerns."
+    }
+   ]
+  },
+  {
+   "id": "kebs.5.5.1",
+   "title": "Online Transaction Process",
+   "section": "5.5",
+   "definition": "The sequential stages involved in executing a commercial transaction over the internet.",
+   "formula": "transaction_cycle = pre_purchase + purchase + delivery",
+   "key_idea": "Online trading involves registration, order placement, payment, and delivery.",
+   "textbook_ref": "kebs105.txt lines 125-127",
+   "question_patterns": [
+    "describe the steps in online trading",
+    "what is the process of online buying",
+    "how does a customer complete an online transaction",
+    "what are the stages of online business"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define process stages",
+     "explain": "The process flows from information seeking to payment and final fulfillment.",
+     "compute": "total_stages = 3"
+    }
+   ]
+  },
+  {
+   "id": "kebs.5.6.1",
+   "title": "Security Risks in e-Business",
+   "section": "5.6",
+   "definition": "Potential threats to financial, reputational, or data integrity during electronic exchanges.",
+   "formula": "total_risk = transaction_risk + data_risk + privacy_risk",
+   "key_idea": "Security is the most critical concern, involving risks like hacking, virus attacks, and identity theft.",
+   "textbook_ref": "kebs105.txt lines 128-130",
+   "question_patterns": [
+    "what are the security concerns in e-business",
+    "explain transaction risks in e-commerce",
+    "how can data storage risks be mitigated",
+    "what is the role of cryptography in e-business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify security threats",
+     "explain": "Threats are categorized into transaction-based (default), data-based (virus/hacking), and privacy-based (intellectual property)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs105.txt",
+   "concept": "kebs.5.5.1",
+   "question_type": "process_flow",
+   "question_pattern": "List the {stage_count} stages of online transaction.",
+   "extracted_variables": {
+    "stage_count": "number of stages"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define stages",
+     "explain": "The stages are pre-purchase, purchase, and delivery.",
+     "compute": "stage_count = 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "kebs105.txt",
+   "questions": [
+    "State any three differences between e-business and traditional business.",
+    "Describe briefly any two applications of e-business.",
+    "Describe briefly the data storage and transmission risks in e-business."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

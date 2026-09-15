@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_001",
+   "title": "c10_eco_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define the term 'double coincidence of wants' in the context of the barter system.",
+     "a": "Double coincidence of wants refers to a situation in a barter economy where two parties can only trade if each party possesses exactly the good the other party desires and wants to acquire exactly the good the other party offers. A wrong answer (e.g., \"when two people want to trade\" or \"when wants coincide\") reveals the student confuses simple mutual interest with the strict requirement that both parties' wants must simultaneously and exactly match in good, quantity, quality, and timing.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows mangoes and wants to buy a bicycle. Explain why the lack of a common measure of value makes this barter transaction difficult, even if the farmer finds a bicycle seller who likes mangoes.",
+     "a": "Without a common measure of value, the farmer and bicycle seller must negotiate an exchange ratio (e.g., how many mangoes = 1 bicycle) for every single transaction. This ratio is arbitrary, time-consuming to determine, and changes with each trade partner. A wrong answer (e.g., \"they can just decide a fair price\") reveals the student does not grasp that in barter, every good must be priced in terms of every other good (n(n-1)/2 prices for n goods), making valuation complex and dispute-prone, unlike money where each good has a single money price.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh, a carpenter in Lucknow, makes wooden tables. He wants to trade one table (worth ₹5,000) for a second-hand motorcycle (worth ₹40,000). The motorcycle owner does not need a table. List the specific barter limitation this illustrates and explain why money resolves it in exactly two sentences.",
+     "a": "This illustrates the double coincidence of wants limitation: the motorcycle owner does not want a table, so direct exchange is impossible. Money resolves it because Ramesh can sell the table to a furniture buyer for ₹5,000, accumulate money from multiple sales until he has ₹40,000, and then buy the motorcycle from any seller regardless of whether that seller wants a table. A wrong answer (e.g., \"money is easier\") reveals the student cannot articulate the mechanism of how money decouples the two legs of the transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of exchange rates (prices) required in a barter economy with 50 distinct goods versus a money economy with the same 50 goods. Calculate the difference and explain the economic significance of this reduction in terms of transaction costs.",
+     "a": "In a barter economy with 50 goods, the number of pairwise exchange rates = 50 × 49 / 2 = 1,225. In a money economy, only 50 money prices are needed (one per good). The reduction is 1,225 - 50 = 1,175 fewer prices. This drastically lowers information search costs, negotiation time, and the likelihood of pricing errors or disputes, making markets more efficient. A wrong calculation or explanation reveals the student cannot quantify the informational advantage of money as a numeraire.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The barter system works perfectly well in a small village where everyone knows each other and produces different goods.\" Use at least two limitations of barter to justify your evaluation.",
+     "a": "The statement is incorrect. Even in a small village, the double coincidence of wants remains a barrier: a potter needing grain must find a farmer who simultaneously needs pots. Additionally, indivisibility persists: if the farmer only needs one pot but the potter needs a large sack of grain, the pot cannot be divided without loss of value. Money (or a commonly accepted commodity) would still reduce transaction costs. A wrong evaluation (e.g., \"it works because they trust each other\") reveals the student confuses social trust with the structural economic limitations of barter.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a realistic three-person barter chain scenario in an Indian village (e.g., a weaver, a dairy farmer, a grain merchant) where double coincidence of wants is resolved through a chain of exchanges, and then explain why this chain method is still inferior to using money as a medium of exchange.",
+     "a": "Example chain: Weaver wants milk → gives cloth to dairy farmer → dairy farmer wants grain → gives milk to grain merchant → grain merchant wants cloth → gives grain to weaver. This chain resolves double coincidence but fails because: (1) it requires all three to meet simultaneously and agree on three exchange ratios, (2) if any link breaks (e.g., grain merchant already has cloth), the entire chain collapses, (3) it cannot handle indivisibility or deferred payments. Money allows each bilateral trade independently. A poor answer (e.g., \"chain is too long\") reveals the student cannot identify the systemic fragility and informational burden of multilateral barter chains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

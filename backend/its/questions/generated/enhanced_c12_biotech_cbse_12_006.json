@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_006",
+   "title": "c12_biotech_cbse_12_006",
+   "questions": [
+    {
+     "q": "A student writes: \"Biotechnology parks are just real estate projects where biotech companies rent lab space at subsidized rates.\" Identify the critical flaw in this statement and explain what three additional pillars make a biotech park distinct from a commercial lab rental facility.",
+     "a": "The statement reduces a biotech park to physical infrastructure only, ignoring the integrated ecosystem. A biotech park has three additional pillars: (1) Technical services — shared GMP/GLP facilities, analytical testing, animal house, and pilot-scale manufacturing that individual startups cannot afford; (2) Business enablement — technology transfer offices, IP facilitation cells, regulatory consultants, and market linkage programs; (3) Funding access — embedded incubation centers with seed funds (e.g., BIRAC’s BioNEST, DBT’s BigCat), venture debt partners, and investor connect events. A commercial lab rental provides only space; a biotech park provides the full \"lab-to-market\" continuum.",
+     "self_check": true
+    },
+    {
+     "q": "The Bangalore Bioinnovation Centre (BBC) and Biotech Park Lucknow are both DBT-supported biotechnology parks. BBC focuses heavily on medtech and diagnostics incubation, while Lucknow emphasizes agro-biotech and herbal products. Explain how the \"anchor institutions\" and \"regional bio-resource base\" of each location drive this sectoral specialization.",
+     "a": "BBC leverages anchor institutions like IISc, NCBS, and St. John's Medical College for clinical validation and medtech prototyping, plus Bengaluru's dense hospital network for early adoption — driving medtech/diagnostics focus. Lucknow draws on CSIR-CIMAP, CSIR-NBRI, and the Indo-Gangetic plain's herbal/medicinal plant diversity, with CIMAP's agronomy expertise enabling agro-biotech and phytopharmaceutical specialization. The park's sectoral focus emerges from the intersection of local research anchors (supply of IP/talent) and regional bio-resources (raw material/clinical trial access), not from arbitrary policy choice.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup developing a novel biosimilar needs to produce 200 L pilot batches for preclinical toxicology studies. The founder compares two options: (A) renting a standalone contract manufacturing organization (CMO) slot at ₹15 lakh/batch with 6-month wait, or (B) using the shared pilot plant at a biotech park at ₹3 lakh/batch with 2-week scheduling, but requiring the startup to provide its own cell bank and SOPs. Calculate the cost saving for 3 batches and explain two non-monetary risks the founder must evaluate before choosing Option B.",
+     "a": "Cost saving = 3 × (₹15 lakh − ₹3 lakh) = ₹36 lakh. Non-monetary risks: (1) IP contamination risk — shared facility means concurrent processing of other clients' cell lines; inadequate changeover validation could lead to cross-contamination or regulatory observation during audits. (2) Tech transfer burden — the startup must have fully documented, GMP-compliant master cell bank, SOPs, and analytical methods ready; the park provides equipment but not process expertise, unlike a full-service CMO that offers process development support. The founder must assess regulatory readiness of their own process package before opting for shared infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"incubation center\" model (e.g., C-CAMP at NCBS) with the \"accelerator\" model (e.g., Axilor Ventures' biotech track) on four dimensions: equity taken, program duration, mentorship structure, and follow-on funding mechanism. Which model suits a pre-revenue startup with a lab-validated prototype but no regulatory strategy?",
+     "a": "Incubation center (C-CAMP): 0–2% equity (often grant-linked), 12–24 months, resident mentors + domain experts on call, follow-on via BIRAC/DBT grants and investor demo days. Accelerator (Axilor): 5–8% equity, 3–6 months, cohort-based with intensive sprint mentors, follow-on via VC network and demo day. For a pre-revenue startup with lab prototype but no regulatory strategy, the incubation center is better: longer runway for regulatory pathway development (CDSCO pre-submission meetings, toxicology study design), grant access for expensive preclinical work, and resident regulatory consultants — accelerators optimize for rapid scaling and fundraise, not regulatory navigation.",
+     "self_check": true
+    },
+    {
+     "q": "The Draft National Biotech Development Strategy 2020–24 proposes \"Bio-clusters\" linking academia, industry, and parks. Critique this proposal: identify one structural strength and one implementation risk specific to the Indian context, referencing the current fragmentation between DBT-funded parks, state-level biotech policies, and CSIR lab tech transfer offices.",
+     "a": "Strength: Creates a formal governance layer (proposed National Biotech Cluster Authority) to align DBT park funding, state incentives (e.g., Karnataka's Biotech Policy, Telangana's Life Sciences Policy), and CSIR lab licensing — currently each operates in silos, causing duplicate infrastructure (e.g., three separate animal houses within 50 km in Bengaluru) and conflicting IP policies. Risk: States guard policy autonomy; a central authority may become advisory without fiscal teeth — e.g., Gujarat's biotech park operates under state industrial policy with separate single-window clearance, unlikely to cede control to a national body. Success hinges on tying central grant disbursement (BIRAC, DBT) to cluster-level KPIs (shared facility utilization, cross-institute tech transfers), not just park-level metrics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"minimum viable biotech park\" for a Tier-2 city (e.g., Bhubaneswar) with ₹50 crore capital budget. Allocate budget across: (a) shared instrumentation core, (b) pilot plant, (c) incubation space, (d) animal facility, (e) regulatory support office. Justify each allocation with a specific startup use-case that would otherwise leave the city.",
+     "a": "Allocation (₹ crore): (a) 18 — HPLC, LC-MS, flow cytometer, confocal microscope; use-case: diagnostic kit startup needing analytical validation for CDSCO submission. (b) 15 — 50 L/100 L bioreactor suite with downstream (TFF, chromatography); use-case: biosimilar startup producing preclinical batches. (c) 10 — 20 wet-lab modules (500 sq ft each) with shared cell culture rooms; use-case: 5–10 early-stage teams from local universities (IIT Bhubaneswar, AIIMS Bhubaneswar). (d) 5 — small animal (rodent) facility for PK/PD; use-case: peptide therapeutic startup needing rodent toxicity data. (e) 2 — regulatory consultant retainer + CDSCO liaison officer; use-case: all startups needing clinical trial approval (CTA) drafting. Total ₹50 cr. Omitted: large animal facility, GMP fill-finish — these can be accessed at nearby Odisha Biotech Park (proposed) or via CMO partnerships. The design prioritizes \"valley of death\" capabilities (analytics, pilot scale, regulatory) over comprehensive infrastructure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "catalog": "catalog_class12_business_studies_lebs201",
+ "concepts": [
+  {
+   "id": "lebs.201.1.1",
+   "title": "Financial Management and Wealth Maximisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Financial Management and Wealth Maximisation' refers to.",
+     "a": "The discipline of raising funds at the lowest workable cost and deploying them where returns beat that cost, all aimed at lifting the market price of the equity shares -- the wealth of the shareholders who own the company.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Financial Management and Wealth Maximisation'.",
+     "a": "Every financial choice should add value: if a decision's benefit exceeds its cost the share price rises, and if it does not, the decision is a poor one.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Financial Management and Wealth Maximisation' taught, and from which source text?",
+     "a": "1.1 (source: lebs201.txt lines 83-302 (Financial Management, importance, objectives, wealth maximisation))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.2.1",
+   "title": "Investment Decision and Capital Budgeting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Investment Decision and Capital Budgeting' refers to.",
+     "a": "The choice of where the firm's scarce funds go: long-term commitments such as a new machine, plant or branch are capital budgeting decisions that shape growth, profitability and competitiveness for years and are almost impossible to reverse, while short-term commitments in cash, inventory and receivables run the daily business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Investment Decision and Capital Budgeting'.",
+     "a": "Three screens for a project -- its cash flows over the years, its rate of return against the risk taken, and the capital budgeting technique applied before selection.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Investment Decision and Capital Budgeting' taught, and from which source text?",
+     "a": "2.1 (source: lebs201.txt lines 303-423 (Investment Decision; capital budgeting; factors a-c))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.2.2",
+   "title": "Financing Decision",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Financing Decision' refers to.",
+     "a": "The choice of how much money to raise from which long-term source -- shareholders' funds such as equity and retained earnings, or borrowed funds such as debentures and loans -- balancing the cheapness of debt against the fixed payment burden it brings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Financing Decision'.",
+     "a": "Debt is cheapest and its interest is tax-deductible, but interest and repayment are compulsory; equity carries no such compulsion. Cost, risk, floatation cost, cash flow position, fixed operating costs, control worries and capital market conditions all steer the choice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Financing Decision' taught, and from which source text?",
+     "a": "2.2 (source: lebs201.txt lines 424-533 (Financing Decision; financial risk; factors a-g))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.2.3",
+   "title": "Dividend Decision",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dividend Decision' refers to.",
+     "a": "The split of after-tax profit between what is paid out to shareholders as current income and what is retained to build future earning capacity, taken always with an eye to maximising shareholder wealth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dividend Decision'.",
+     "a": "Earnings, their stability, growth opportunities, cash position, shareholder preference, tax policy, market reaction, access to capital markets and legal or loan constraints all decide the payout.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Dividend Decision' taught, and from which source text?",
+     "a": "2.3 (source: lebs201.txt lines 534-674 (Dividend Decision; factors a-k))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.3.1",
+   "title": "Financial Planning and Its Objectives",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Financial Planning and Its Objectives' refers to.",
+     "a": "Advance sketching of the firm's future money needs and their timing, so that the right amount of funds arrives at the right time -- neither a shortage that stalls commitments nor a surplus that sits idle and adds cost.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Financial Planning and Its Objectives'.",
+     "a": "Twin objectives: ensure funds are available whenever required, and see that no unnecessary resources are raised; it starts from a sales forecast, estimates retained earnings, and locates sources for the external gap.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Financial Planning and Its Objectives' taught, and from which source text?",
+     "a": "3.1 (source: lebs201.txt lines 675-847 (Financial Planning; twin objectives; importance i-vii))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4.1",
+   "title": "Capital Structure and Financial Risk",
+   "questions": [
+    {
+     "q": "Using the method 'Capital Structure and Financial Risk', work with: debt = 200, equity = 10. Carry the chain through step by step and give the final value of debt_equity_ratio.",
+     "a": "20 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Capital Structure and Financial Risk' and work with: debt = 300, equity = 45. Carry the chain through step by step and give the final value of debt_equity_ratio.",
+     "a": "6.6667 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Structure and Financial Risk' refers to.",
+     "a": "The mix between owners' funds and borrowed funds in the long-term financing of a firm, measured as the debt-equity ratio or as debt's share of total capital; the blend is optimal when it pushes the value of the equity share highest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Structure and Financial Risk'.",
+     "a": "Debt is cheaper -- assured return to lenders plus tax-deductible interest -- but obligatory payments raise the financial risk, the chance of failing to meet fixed payment obligations; equity is costlier yet riskless for the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Structure and Financial Risk', in plain ASCII form.",
+     "a": "debt_equity_ratio = debt / equity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4.2",
+   "title": "Trading on Equity and Financial Leverage",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Trading on Equity and Financial Leverage' refers to.",
+     "a": "The practice of borrowing at a rate below the return the firm earns on its funds so that the surplus accrues to the equity holders, lifting their earnings per share; the share of debt in the capital is the financial leverage that makes this possible.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trading on Equity and Financial Leverage'.",
+     "a": "Leverage is favourable when the return on investment beats the interest rate -- debt raises EPS as in Company X at 13.33 per cent RoI against 10 per cent interest; when RoI falls below the interest rate, as in Company Y, debt drags EPS down and trading on equity should be avoided.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Trading on Equity and Financial Leverage' taught, and from which source text?",
+     "a": "4.1 (source: lebs201.txt lines 979-1174 (EBIT-EPS analysis, Examples I and II, favourable and unfavourable leverage))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4.3",
+   "title": "EBIT-EPS Analysis",
+   "questions": [
+    {
+     "q": "Calculate the earnings per share when ebit is {ebit} interest is {interest} tax rate is {tax_rate} and shares are {num_shares}. Use the method 'EBIT-EPS Analysis'. Work with: ebit = 8, interest = 8, num_shares = 200, tax_rate = 10. Carry the chain through step by step and give the final value of eps.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute eps from earnings before interest and tax after servicing debt. Use the method 'EBIT-EPS Analysis'. Work with: ebit = 8, interest = 10, num_shares = 8, tax_rate = 15. Carry the chain through step by step and give the final value of eps.",
+     "a": "3.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'EBIT-EPS Analysis' refers to.",
+     "a": "The workings that show how a capital structure choice lands on the shareholder: earnings before interest and tax are reduced by interest, taxed, and then divided among the equity shares to give earnings per share under each debt plan.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'EBIT-EPS Analysis'.",
+     "a": "Interest is paid before tax, so debt shields earnings; the last line of the workings -- earnings after tax divided by the number of shares -- tells whether the leverage helped or hurt.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'EBIT-EPS Analysis', in plain ASCII form.",
+     "a": "eps = (ebit - interest) * (1 - tax_rate) / num_shares",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4.4",
+   "title": "Return on Investment",
+   "questions": [
+    {
+     "q": "Calculate the return on investment when ebit is {ebit} on a total investment of {total_investment}. Use the method 'Return on Investment'. Work with: ebit = 300, total_investment = 10. Carry the chain through step by step and give the final value of roi.",
+     "a": "3000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the return on investment for the capital employed. Use the method 'Return on Investment'. Work with: ebit = 15, total_investment = 12. Carry the chain through step by step and give the final value of roi.",
+     "a": "125 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Return on Investment' refers to.",
+     "a": "The profitability yardstick that relates a firm's operating earnings to the total funds employed, telling the manager whether the business earns more than the interest it would pay on borrowed money.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Return on Investment'.",
+     "a": "RoI above the cost of debt makes trading on equity profitable; RoI below it makes extra debt a losing move -- the comparison decides the borrowing choice.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Return on Investment', in plain ASCII form.",
+     "a": "roi = ebit / total_investment * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4.5",
+   "title": "Interest Coverage Ratio",
+   "questions": [
+    {
+     "q": "Calculate the interest coverage ratio when ebit is {ebit} and interest is {interest}. Use the method 'Interest Coverage Ratio'. Work with: ebit = 5, interest = 15. Carry the chain through step by step and give the final value of interest_coverage_ratio.",
+     "a": "0.3333 times",
+     "self_check": false
+    },
+    {
+     "q": "How many times does the company cover its interest obligation? Use the method 'Interest Coverage Ratio'. Work with: ebit = 100, interest = 8. Carry the chain through step by step and give the final value of interest_coverage_ratio.",
+     "a": "12.5 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest Coverage Ratio' refers to.",
+     "a": "The safety gauge for lenders and managers alike: how many times the operating earnings can cover the interest obligation, with a higher count meaning a smaller chance of defaulting on interest payments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest Coverage Ratio'.",
+     "a": "Higher ICR means lower risk of missing interest obligations -- but the ratio alone is not enough, since cash balances and principal repayment also matter, which is why the debt service coverage ratio exists.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest Coverage Ratio', in plain ASCII form.",
+     "a": "interest_coverage_ratio = ebit / interest",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.5.1",
+   "title": "Fixed Capital and Its Determinants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fixed Capital and Its Determinants' refers to.",
+     "a": "The investment in long-lived assets such as land, plant and machinery that stays in the business for over a year; how much a firm must lock up depends on its line of business, scale of operations, capital or labour intensity, the pace at which its technology turns obsolete, growth and diversification plans, leasing options and shared facilities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fixed Capital and Its Determinants'.",
+     "a": "Capital budgeting in another name: the amounts are large, the commitments long-term and nearly irreversible -- a trading concern needs far less than a manufacturer, and a capital-intensive firm far more than a labour-intensive one.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fixed Capital and Its Determinants' taught, and from which source text?",
+     "a": "5.1 (source: lebs201.txt lines 1380-1570 (fixed capital; importance of the decisions; factors 1-8))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.5.2",
+   "title": "Working Capital and Net Working Capital",
+   "questions": [
+    {
+     "q": "Using the method 'Working Capital and Net Working Capital', work with: current_assets = 2500, current_liabilities = 60. Carry the chain through step by step and give the final value of net_working_capital.",
+     "a": "2440 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Working Capital and Net Working Capital' and work with: current_assets = 120000, current_liabilities = 10. Carry the chain through step by step and give the final value of net_working_capital.",
+     "a": "119990 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Working Capital and Net Working Capital' refers to.",
+     "a": "The funds tied up in current assets -- cash, securities, bills receivable, debtors, inventories -- that keep the daily operations running; what remains of them after paying off the obligations due within a year is the net working capital, the cushion financed from long-term sources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Working Capital and Net Working Capital'.",
+     "a": "Current assets give liquidity but earn little; current liabilities like creditors and bills payable cost less; striking the balance between liquidity and profitability is the whole art of working capital management.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Working Capital and Net Working Capital', in plain ASCII form.",
+     "a": "net_working_capital = current_assets - current_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.5.3",
+   "title": "Factors Affecting Working Capital Requirement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Affecting Working Capital Requirement' refers to.",
+     "a": "The forces that size a firm's short-term funding need: the nature of the business and its scale, the phase of the business cycle and the season, the length of the production cycle, the credit it gives customers and receives from suppliers, its operating efficiency, the availability of raw materials and their lead time, growth prospects, competition and inflation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Affecting Working Capital Requirement'.",
+     "a": "Trading and service firms need less than manufacturers, booms need more than depressions, liberal customer credit raises the need while supplier credit lowers it, and long lead times or rising prices swell it further.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Affecting Working Capital Requirement' taught, and from which source text?",
+     "a": "5.2 (source: lebs201.txt lines 1623-1773 (Factors 1-12 affecting working capital requirement))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

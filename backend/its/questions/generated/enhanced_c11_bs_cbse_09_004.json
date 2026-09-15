@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_004",
+   "title": "c11_bs_cbse_09_004",
+   "questions": [
+    {
+     "q": "Name the scheme that provides collateral-free credit guarantee cover to Micro and Small Enterprises for loans up to ₹5 crore, and state the maximum guarantee coverage percentage available under it.",
+     "a": "The Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) provides collateral-free credit guarantee for loans up to ₹5 crore. The maximum guarantee coverage is 85% for micro enterprises (up to ₹5 crore) and 75% for others. A wrong answer (e.g., naming MUDRA or PMEGP) reveals the student confuses credit *guarantee* (risk-sharing with banks) with direct *lending* (MUDRA) or *subsidy* (PMEGP), indicating they have not distinguished the financial instrument type each scheme employs.",
+     "self_check": true
+    },
+    {
+     "q": "A first-generation entrepreneur wants to set up a manufacturing unit with a project cost of ₹15 lakh. She has no collateral and belongs to the General category. Explain why PMEGP is more suitable than MUDRA for her, and calculate the maximum margin money subsidy she can avail under PMEGP (urban area, general category).",
+     "a": "PMEGP provides a capital subsidy (margin money) of 15% (urban, general) on project cost up to ₹25 lakh for manufacturing, reducing her own contribution to 10%. MUDRA only provides a loan without subsidy. Maximum subsidy = 15% of ₹15 lakh = ₹2.25 lakh. A wrong answer (e.g., choosing MUDRA or calculating 25% subsidy) reveals the student does not understand that PMEGP is a *subsidy-linked credit* scheme for *new* enterprises with project cost limits, while MUDRA is a *pure refinance* scheme for *existing* micro units up to ₹10 lakh, and they confuse the subsidy rates across categories/locations.",
+     "self_check": true
+    },
+    {
+     "q": "An existing micro enterprise manufacturing auto components has an outstanding MUDRA Kishore loan of ₹3 lakh. It now needs ₹40 lakh to upgrade machinery. The owner has no additional collateral. Which scheme should the bank use to sanction the new loan, and why can't the same scheme cover the existing MUDRA loan?",
+     "a": "The bank should use CGTMSE guarantee for the new ₹40 lakh term loan. CGTMSE covers *new* credit facilities sanctioned by member lending institutions; it cannot be applied retrospectively to an already-disbursed MUDRA loan because MUDRA loans are refinanced through NCGTC's separate portfolio guarantee, not CGTMSE. A wrong answer (e.g., suggesting MUDRA Tarun or PMEGP) reveals the student thinks schemes are interchangeable \"loan products\" rather than distinct risk-mitigation tools with specific eligibility triggers (new vs. existing credit, project vs. working capital, subsidy vs. guarantee).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of NSIC's Single Point Registration Scheme (SPRS) and the Government e-Marketplace (GeM) in solving the marketing problem of MSMEs. Which addresses *market access* and which addresses *procurement preference*? Justify.",
+     "a": "SPRS registers MSMEs for participation in government tenders, granting exemption from Earnest Money Deposit (EMD) and free tender documents—addressing *procurement preference* in traditional tendering. GeM is an online procurement portal enabling direct selling to government buyers—addressing *market access* by removing intermediaries and geographical barriers. A wrong answer (swapping the roles or saying both do the same) reveals the student sees \"government marketing help\" as a monolith, missing the distinction between *registration-based tender benefits* (SPRS) and *platform-based direct market access* (GeM), which is critical for answering case-study questions on marketing support.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Startup India benefits are available to all new MSMEs registered under Udyam.\" Identify two specific eligibility conditions that make this statement false.",
+     "a": "The statement is false. Startup India recognition requires: (1) Entity age ≤ 10 years from incorporation, (2) Turnover ≤ ₹100 crore in any financial year, (3) Working towards innovation/improvement of products/processes/services *or* scalable business model with high employment/wealth creation potential. A traditional trading MSME or a 12-year-old manufacturing unit registered on Udyam is ineligible. A wrong answer (e.g., listing only turnover or age) reveals the student conflates *Udyam registration* (statutory classification for all MSMEs) with *DPIIT recognition* (innovation-linked status for startups), missing the core policy distinction between \"small business\" and \"innovation-driven startup.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a scheme-mix for a woman entrepreneur from a Scheduled Caste community in a backward district of Uttar Pradesh setting up a ₹50 lakh food processing unit (manufacturing). She has no collateral, limited own funds, and needs marketing support. Specify the exact schemes, sequence of application, and the combined financial advantage (subsidy + guarantee + concession) she can leverage.",
+     "a": "Sequence: (1) Apply for **Stand-Up India** (SC/ST/woman, greenfield, ₹10 lakh–₹1 crore) → collateral-free composite loan (term + working capital) with 15% margin money (borrower) and 85% bank finance. (2) Bank covers the loan under **CGTMSE** (85% guarantee for SC/ST/woman) → reduces bank risk. (3) Apply **State Industrial Policy** (UP) → capital investment subsidy (e.g., 25% up to ₹30 lakh in backward district), interest subsidy (5–7% for 5 years), power tariff exemption, SGST reimbursement (75–100% for 5–7 years). (4) Register on **GeM** and **NSIC SPRS** for government procurement access. Combined advantage: ~₹12.5 lakh capital subsidy + ~₹3.5 lakh/year interest subvention + collateral-free ₹42.5 lakh bank credit + tax refunds + market access. A poor answer (listing schemes without sequence, missing category-specific benefits, or ignoring state policy) reveals the student cannot integrate Central + State + category-specific (SC/woman/backward district) layers—a key competency for board case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "Elections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.107.7.1",
+   "title": "Why Elections Matter in a Democracy",
+   "section": "7",
+   "definition": "Elections are essential to a democratic system because they convert the people's will into a government: citizens choose their representatives, reward or punish performance, and keep power changing hands peacefully.",
+   "formula": "-",
+   "key_idea": "Elections are democracy's heartbeat: votes decide who rules and how long.",
+   "textbook_ref": "iest107.txt opening sections (why elections are essential)",
+   "question_patterns": [
+    "why are elections essential to a democratic system",
+    "how do elections make the government accountable",
+    "what would happen if elections stopped being held - explain",
+    "how do voters reward or punish a government",
+    "compare elections with other ways of choosing rulers",
+    "explain the phrase elections are the voice of the people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the choice",
+     "explain": "Elections let citizens pick between candidates and parties."},
+    {"step": 2, "action": "state the accountability",
+     "explain": "Fear of losing the next election disciplines rulers."},
+    {"step": 3, "action": "state the peace",
+     "explain": "Regular elections transfer power without violence."}
+   ]
+  },
+  {
+   "id": "iest.107.7.2",
+   "title": "The Election Machinery: Commission and Process",
+   "section": "7",
+   "definition": "An independent Election Commission supervises elections: preparing voter rolls, announcing schedules, enforcing the model code of conduct, overseeing campaigning, polling and counting - so that the whole process stays free, fair and uniform across the country.",
+   "formula": "-",
+   "key_idea": "A referee above the players: the Election Commission keeps the contest fair.",
+   "textbook_ref": "iest107.txt sections on the election commission and process",
+   "question_patterns": [
+    "what are the functions of the Election Commission",
+    "describe the steps of the election process from notification to counting",
+    "what is the model code of conduct - why is it needed",
+    "how are voter lists prepared and updated",
+    "why must the commission be independent of the government",
+    "explain polling day procedures at a booth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "prepare the voters",
+     "explain": "Rolls list every eligible citizen aged eighteen and above."},
+    {"step": 2, "action": "run the campaign window",
+     "explain": "Schedules and the code of conduct frame fair campaigning."},
+    {"step": 3, "action": "poll and count",
+     "explain": "Secret ballots and transparent counting declare the verdict."}
+   ]
+  },
+  {
+   "id": "iest.107.7.3",
+   "title": "Challenges and the Citizen's Role",
+   "section": "7",
+   "definition": "Elections face challenges of money power, muscle power, fake promises and uneven turnout; a vigilant citizen answers by voting without inducement, questioning candidates, checking information and participating beyond election day.",
+   "formula": "-",
+   "key_idea": "A vote is a trust: informed, un bribed voting is the citizen's duty to democracy.",
+   "textbook_ref": "iest107.txt sections on challenges and citizen participation",
+   "question_patterns": [
+    "what challenges do elections face in India - discuss",
+    "how does money power affect election fairness",
+    "why should voters not sell their votes - explain",
+    "how can voters evaluate candidates before voting",
+    "what duties do citizens have beyond casting a vote",
+    "suggest reforms to make elections fairer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the distortions",
+     "explain": "Money, muscle and misinformation bend the voter's will."},
+    {"step": 2, "action": "arm the voter",
+     "explain": "Information, scrutiny and dialogue strengthen choices."},
+    {"step": 3, "action": "sustain the vigil",
+     "explain": "Participation between elections keeps representatives honest."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "iest107.txt exercises",
+   "questions": [
+     "Explain the importance of elections in democracy.",
+     "Describe the role of the Election Commission in conducting elections.",
+     "Discuss the challenges of elections and the duties of voters."
+   ]
+  }
+ ]
+}

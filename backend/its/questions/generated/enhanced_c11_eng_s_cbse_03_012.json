@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_03_012",
+   "title": "c11_eng_s_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"What is Mrs Pearson doing when the curtain rises?\" — \"telling fortune with cards\"). An inferential question requires reading between the lines (e.g., \"Why does Mrs Pearson smile apologetically when Mrs Fitzgerald tells her to put her foot down?\" — because she is timid and avoids conflict). A wrong answer that says \"inferential questions are just opinions\" reveals the misconception that inference lacks textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the play, Mrs Fitzgerald says: \"Who's the better for being spoilt — grown man, lad or girl? Nobody.\" Is the answer to \"What does Mrs Fitzgerald think about spoiling children?\" literal or inferential? Explain.",
+     "a": "It is literal because Mrs Fitzgerald explicitly states her opinion in the dialogue. The answer is directly quoted: she believes nobody benefits from being spoilt. A wrong answer labeling it inferential shows the student cannot distinguish explicit statements from implied meanings.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this question: \"Why does Doris run out crying after her mother criticizes Charlie Spence?\" Provide one literal clue and one inference you would use.",
+     "a": "Literal clue: Stage direction says \"Doris runs out left\" and \"nearly in tears\" after Mrs Pearson says \"Buck teeth and half-witted.\" Inference: Doris is hurt because she values her mother's approval and feels attacked personally; the criticism of her boyfriend feels like criticism of her judgment. A wrong answer that only gives the literal clue misses the inferential step; one that only gives the inference without textual evidence shows guessing.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following question: \"How does the personality swap serve as a dramatic device to reveal the family's true dynamics?\" Identify whether it is literal or inferential and justify.",
+     "a": "It is inferential. The play never explicitly states \"the swap reveals family dynamics.\" You must infer from multiple scenes: Mrs Pearson's (as Fitzgerald) bold behavior exposes the children's selfishness and George's pomposity, which were previously hidden by routine. A wrong answer calling it literal indicates the student thinks the theme is directly stated; a wrong answer that cannot cite specific scenes shows weak evidence-gathering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Mrs Pearson changes because she wants to teach her family a lesson.\" Is this a sufficient inference? Why or why not?",
+     "a": "It is insufficient. The inference oversimplifies: Mrs Pearson does not initiate the change; Mrs Fitzgerald forces it. The real inference is that Mrs Pearson's passivity enables the family's exploitation, and the swap externalizes her suppressed assertiveness. A wrong answer accepting the student's version shows the evaluator cannot distinguish between surface plot and deeper character motivation.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the play's ending (the family playing rummy) that requires combining textual evidence with the theme of gender roles. Provide the question and a model answer.",
+     "a": "Question: \"Why does Mrs Pearson suggest a family game of rummy instead of continuing her 'strike'?\" Model answer: The suggestion signals a return to normalcy but on new terms — she asserts control by directing the activity and delegating supper prep, showing she expects respect without aggression. This infers from her \"smiling\" and \"firm hand\" that lasting change comes from consistent expectation, not rebellion. A poor question would be literal (\"What game do they play?\"); a poor answer would miss the thematic link to gender roles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

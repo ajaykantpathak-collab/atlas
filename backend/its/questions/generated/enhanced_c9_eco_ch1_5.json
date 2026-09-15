@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_5",
+   "title": "c9_eco_ch1_5",
+   "questions": [
+    {
+     "q": "Define \"labour-intensive technique\" and \"capital-intensive technique\" in the context of the choice of production method. Give one real-world example of each from the Indian economy.",
+     "a": "A labour-intensive technique uses a larger proportion of labour relative to capital per unit of output (e.g., handloom weaving in Varanasi employing many weavers per loom). A capital-intensive technique uses a larger proportion of capital (machinery, equipment) relative to labour per unit of output (e.g., automated bottling plant at a Coca-Cola factory in Haryana using few workers per machine). A wrong answer — such as defining labour-intensive as \"using only labour\" or capital-intensive as \"using only machines\" — reveals the student thinks techniques are mutually exclusive categories rather than relative proportions on a continuum.",
+     "self_check": true
+    },
+    {
+     "q": "India is a labour-abundant, capital-scarce economy. Explain why, despite this, many modern Indian factories (e.g., automobile plants in Pune) still choose capital-intensive techniques. Use the concept of relative factor prices in your answer.",
+     "a": "Even in a labour-abundant economy, if the wage rate is relatively high compared to the rental rate of capital (due to labour laws, skill premiums, or subsidised credit for machinery), the cost-minimising choice may be capital-intensive. Automobile plants require precision and scale that make capital relatively cheaper per unit of output than skilled labour. A wrong answer — \"India has too much labour so all factories should be labour-intensive\" — reveals the misconception that factor endowments alone determine technique, ignoring the crucial role of relative factor prices (w/r ratio) in the cost-minimisation decision.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab can harvest 1 hectare of wheat using either:\n- Technique A (Labour-intensive): 10 labourers × 8 hours @ ₹200 per labourer-day\n- Technique B (Capital-intensive): 1 combine harvester @ ₹4,500 per day + 1 operator @ ₹300 per day\nCalculate the total cost for each technique. Which technique should the farmer choose to minimise cost? Show your working.",
+     "a": "**Technique A Cost** = 10 labourers × ₹200 = ₹2,000.\n**Technique B Cost** = ₹4,500 (harvester) + ₹300 (operator) = ₹4,800.\n**Choice**: Technique A (₹2,000 < ₹4,800). The farmer should choose the labour-intensive technique.\nA wrong answer choosing Technique B reveals the student may have ignored the operator cost, miscalculated the labour cost (e.g., using hourly rate incorrectly), or assumed \"modern machine = always cheaper\" without computing actual costs.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the choice in Diagnostic Question 3 would change if:\n(a) The daily wage rate rises to ₹500 per labourer due to a new minimum wage law.\n(b) The combine harvester rental falls to ₹2,000 per day due to a government subsidy.\nFor each scenario, recalculate and state the new optimal choice.",
+     "a": "**(a) Wage rise to ₹500**: Technique A Cost = 10 × ₹500 = ₹5,000. Technique B Cost = ₹4,800 (unchanged). **New choice: Technique B (capital-intensive)**.\n**(b) Harvester rental falls to ₹2,000**: Technique A Cost = ₹2,000 (unchanged). Technique B Cost = ₹2,000 + ₹300 = ₹2,300. **Choice remains Technique A (labour-intensive)**.\nA wrong answer that says \"Technique B becomes cheaper in both cases\" reveals the student cannot isolate the effect of a single price change on the cost comparison, a key analytical skill for \"How to Produce\" decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"To solve unemployment, the Indian government should legally mandate that all manufacturing firms use labour-intensive techniques.\" Consider efficiency, output levels, and long-term competitiveness in your evaluation.",
+     "a": "Mandating labour-intensive techniques would raise production costs where capital is actually cheaper, reducing firms' profits and international competitiveness. Higher costs lead to higher prices, lower demand, and potentially *less* employment overall if firms shrink or close. It also discourages technological adoption, hurting long-term productivity growth. A better policy is investing in labour-intensive sectors (textiles, food processing) through infrastructure and credit, while allowing firms in capital-intensive sectors (steel, chips) to choose efficient techniques. A wrong answer supporting the mandate reveals the student conflates \"creating jobs\" with \"mandating technique\" without analysing the cost-efficiency trade-off central to the \"How to Produce\" problem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision-making framework for a small entrepreneur in Jaipur setting up a pottery unit. The entrepreneur has ₹5 lakh capital and access to 5 skilled artisans. List the 4 key pieces of data they need, the 3-step process to choose between hand-moulding (labour-intensive) and machine-moulding (capital-intensive), and the final economic criterion for the decision.",
+     "a": "**Key Data Needed**: (1) Daily wage rate for artisans, (2) Daily rental cost of moulding machine, (3) Output per day per artisan (hand) vs per machine, (4) Number of artisans vs machines needed for target output.\n**3-Step Process**: \n1. Calculate total daily cost of hand-moulding for target output (wage × artisans needed).\n2. Calculate total daily cost of machine-moulding for same output (rental × machines needed + operator wages).\n3. Compare total costs.\n**Final Criterion**: Choose the technique with the **lower total cost per unit of output** (cost-minimisation).\nA poor answer listing only \"buy machine if cheap\" or \"hire workers if many available\" without the cost-comparison framework reveals the student treats the decision as a rule-of-thumb rather than a systematic economic calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

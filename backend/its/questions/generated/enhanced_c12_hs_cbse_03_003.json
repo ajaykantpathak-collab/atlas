@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_003",
+   "title": "c12_hs_cbse_03_003",
+   "questions": [
+    {
+     "q": "A 4-year-old watches her mother pour juice from a short wide glass into a tall thin glass and cries, \"You gave me less!\" Which Piagetian concept explains this, and in which stage does it typically occur?",
+     "a": "The child lacks conservation of liquid quantity, a hallmark of the preoperational stage (ages 2–7). She centers on the height of the liquid (perceptual dominance) and cannot mentally reverse the pouring. A wrong answer like \"sensorimotor stage\" reveals confusion about stage boundaries; \"egocentrism\" confuses a different preoperational limitation (inability to take another's perspective) with conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a 6-month-old does not search for a toy hidden under a blanket, but a 10-month-old does. Use the terms \"schema\" and \"object permanence.\"",
+     "a": "The 6-month-old lacks the schema of object permanence — the understanding that objects exist independently of perception. Her \"out of sight, out of mind\" behavior shows she cannot mentally represent the hidden toy. The 10-month-old has constructed this schema through repeated sensorimotor interactions (e.g., peek-a-boo), allowing her to maintain a mental representation and search. A wrong answer focusing only on \"memory\" misses the constructive, schema-based nature of Piaget's theory.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student designs a pendulum experiment to test what affects swing period: length, weight, or push force. She systematically varies one factor at a time while keeping others constant. Which stage and specific cognitive operation does this demonstrate?",
+     "a": "Formal operational stage (11+ years); hypothetico-deductive reasoning. The student generates hypotheses (length matters, weight doesn't), deduces testable predictions, and isolates variables — all requiring abstract, combinatorial logic. A wrong answer like \"concrete operational\" ignores that concrete operational children can only reason about tangible, present objects, not abstract variables and systematic experimentation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a preoperational child and a concrete operational child would explain why a clay ball flattened into a pancake has the same amount of clay. What does this reveal about the shift in cognitive structure?",
+     "a": "Preoperational child: \"It's different now, it's flat\" — focuses on irreversible perceptual change, lacks conservation. Concrete operational child: \"You didn't add or take away clay, you just squashed it; if you roll it back it's the same ball\" — uses reversibility and compensation (width vs. height). This reveals the shift from static, perception-bound schemas to dynamic, logically coordinated operations that can mentally undo transformations.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Piaget's stages are rigid — a child in the preoperational stage cannot solve any conservation task, even with training.\" Use evidence from cross-cultural or training studies.",
+     "a": "The statement overstates rigidity. While Piaget emphasized stage invariance, studies (e.g., Gelman, 1972; cross-cultural work by Dasen) show that with simplified language, familiar materials, or brief training, preoperational children can succeed on some conservation tasks earlier than Piaget predicted. This suggests performance depends on task demands and cultural experience, not just stage maturation. However, the sequence of stages remains robust. A wrong answer dismissing all training effects ignores decades of neo-Piagetian research.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-minute role-play script for an Anganwadi worker explaining to a mother why her 2-year-old repeatedly drops a spoon from the high chair. Use Piaget's concepts of \"circular reactions\" and \"schema building\" in everyday language.",
+     "a": "Good script: \"Didi, when little Rohan drops the spoon again and again, he's not being naughty — he's doing science! Each time he watches it fall, hears the clang, sees you pick it up, he's building a 'dropping schema' — learning cause-effect, gravity, sound, and your reaction. This 'tertiary circular reaction' (trying variations: drop softly, throw hard, drop left/right) is how he constructs knowledge. Let him explore safely; it's his job right now.\" Poor script omits schema terminology or frames it as misbehavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

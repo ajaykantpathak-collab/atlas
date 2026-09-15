@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_7",
+   "title": "c8_geo_ch2_7",
+   "questions": [
+    {
+     "q": "Which is the largest and deepest ocean on Earth, containing the Mariana Trench?",
+     "a": "The Pacific Ocean is the largest and deepest ocean on Earth. If a student answers \"Atlantic Ocean,\" it indicates they are confusing ocean surface area with commercial shipping density, or misinterpreting map projections like the Mercator projection that exaggerate Atlantic northern landmasses and shrink the expansive Pacific basin.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Atlantic Ocean described as having a highly indented coastline compared to the Pacific, and how does this shape benefit global trade?",
+     "a": "The Atlantic Ocean's landmass boundaries feature numerous bays, gulfs, and seas creating an irregular, indented coastline, which naturally provides sheltered natural harbors and ports ideal for shipping. A wrong answer stating that indented coastlines hinder shipping indicates a failure to understand how natural coastal inlets protect ships from open ocean waves and facilitate port infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "A cargo vessel leaves Mumbai port (India) to travel to London (UK) via the shortest existing maritime route. Trace the major ocean and sea bodies the ship will pass through in correct sequence.",
+     "a": "The ship departs from Mumbai through the Arabian Sea (part of the Indian Ocean), passes through the Red Sea and Suez Canal into the Mediterranean Sea, exits through the Strait of Gibraltar into the North Atlantic Ocean, and enters the English Channel to reach London. A wrong answer omitting the Red Sea/Suez path or going south around the Cape of Good Hope indicates the student cannot apply map knowledge to determine modern sea routes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Ocean and the Arctic Ocean in terms of their geographic location, boundary landmasses, and seasonal physical conditions.",
+     "a": "The Indian Ocean lies predominantly in the Southern Hemisphere bounded by Asia to the north, Africa to the west, and Australia to the east, remaining warm and driving tropical monsoons. In contrast, the Arctic Ocean surrounds the North Pole within the Arctic Circle, surrounded by northern North America and Eurasia, and remains largely covered by sea ice throughout most of the year. A wrong answer assuming both oceans have similar temperatures reveals a misconception that geographic latitude does not dictate oceanic physical conditions.",
+     "self_check": true
+    },
+    {
+     "q": "An environmental strategist claims that the melting of Arctic sea ice will drastically shorten shipping routes between East Asia and Europe, but creates serious ecological risks. Evaluate whether opening the Northern Sea Route in the Arctic Ocean is an overall benefit or hazard.",
+     "a": "The Northern Sea Route significantly reduces distance and fuel consumption between ports like Shanghai and Rotterdam compared to the Suez route, saving transit time and emissions. However, increased ship traffic in the fragile Arctic Ocean poses severe ecological hazards including oil spill risks in freezing waters, habitat destruction for ice-dependent species like polar bears, and black carbon pollution accelerating ice melt. A response focusing only on economic benefits ignores environmental geography principles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a spatial chart or concept layout that categorizes all five world oceans based on three criteria: relative size ranking, hemisphere distribution, and key physical or climatic feature.",
+     "a": "A complete layout correctly orders sizes (1-Pacific, 2-Atlantic, 3-Indian, 4-Southern, 5-Arctic); identifies hemisphere presence (Pacific: Both; Atlantic: Both; Indian: Mostly Eastern/Southern; Southern: Southern entirely; Arctic: Northern entirely); and lists key features (Pacific: Ring of Fire/Deep Trenches; Atlantic: S-shaped/Mid-Atlantic Ridge/Indented coast; Indian: Monsoons/Warm waters; Southern: Circumpolar current/Antarctic ice boundary; Arctic: Frozen sea ice/North Pole). An incomplete layout indicates confusion in ocean hierarchy or spatial extent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

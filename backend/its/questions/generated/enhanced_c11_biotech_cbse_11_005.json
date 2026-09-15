@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_005",
+   "title": "c11_biotech_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the full form of R in the context of the programming language named R, and who developed it?",
+     "a": "R is named after its developers Robert Gentleman and Robert Ihaka. A wrong answer (e.g., \"R stands for Regression\" or \"developed by Ross Ihaka\") reveals confusion with other statistical software or incomplete recall of the textbook fact.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why R is preferred over general-purpose languages like Python for certain biological statistical analyses, even though Python has libraries like SciPy and pandas.",
+     "a": "R was built by statisticians for statistics; its syntax, built-in functions, and vast CRAN/Bioconductor packages are tailored for data analysis, visualization, and reproducible research, making complex statistical workflows more concise. A wrong answer that only mentions \"R is free\" or \"R has more packages\" without explaining the statistical design philosophy shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Given a CSV file \"gene_expression.csv\" with columns \"SampleID\", \"Condition\" (Cancer/Normal), and \"GeneX_Expression\", write the R code to read the file, compute the mean expression for each condition, and perform an independent two-sample t-test assuming equal variance.",
+     "a": "```r\ndata <- read.csv(\"gene_expression.csv\")\nmean_cancer <- mean(data$GeneX_Expression[data$Condition == \"Cancer\"])\nmean_normal <- mean(data$GeneX_Expression[data$Condition == \"Normal\"])\nt.test(GeneX_Expression ~ Condition, data = data, var.equal = TRUE)\n```\nA wrong answer that uses `t.test(data$GeneX_Expression ~ data$Condition)` without `data=` or forgets `var.equal=TRUE` reveals gaps in applying the correct function arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `summary()` on a numeric vector in R with the output of `describe()` from the psych package. What additional information does `describe()` provide that is crucial for biological data with outliers?",
+     "a": "`summary()` gives min, 1st quartile, median, mean, 3rd quartile, max. `describe()` adds n, standard deviation, median absolute deviation, skew, kurtosis, and standard error. Skewness and kurtosis are crucial for detecting non-normality in gene expression data, which violates t-test assumptions. A wrong answer that only lists \"more numbers\" misses the analytical purpose of those moments.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since R has a built-in `t.test()` function, I don't need to check assumptions like normality and equal variance before using it.\" Critique this statement.",
+     "a": "The statement is dangerously incorrect. `t.test()` will run and produce a p-value regardless of whether assumptions hold; violating them inflates Type I/II errors. Responsible analysis requires Shapiro-Wilk test for normality and Levene's test for equal variance, or using non-parametric alternatives like `wilcox.test()`. A wrong answer that agrees with the student shows a lack of critical evaluation of statistical validity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project workflow in R to analyze a publicly available RNA-seq dataset (e.g., from GEO) to identify differentially expressed genes between two conditions. Outline the steps, key R packages (from Bioconductor), and the statistical rationale for each step.",
+     "a": "A good answer includes: 1) Download data with `GEOquery`; 2) Preprocess with `DESeq2` (normalization, dispersion estimation); 3) Differential expression with negative binomial GLM; 4) Multiple testing correction (Benjamini-Hochberg); 5) Visualization (MA plot, volcano plot, heatmap). Rationale: RNA-seq counts are over-dispersed, requiring negative binomial model; FDR control essential for thousands of tests. A poor answer lists generic steps without Bioconductor packages or statistical justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

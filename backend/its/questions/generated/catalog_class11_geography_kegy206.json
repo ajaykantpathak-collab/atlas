@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy206",
+  "concepts": [
+    {
+      "id": "kegy.206.1.1",
+      "questions": [
+        {"q": "What is the crescent-shaped lake left when a meander is cut off called? (two words)", "a": "ox-bow lake"},
+        {"q": "Which natural embankments do rivers build along their floodplains? (one word)", "a": "levees"},
+        {"q": "What is the triangular deposit at a river's mouth called? (one word)", "a": "delta"},
+        {"q": "Which limestone landform is a hollow created by collapse of a cave roof? (one word)", "a": "sinkhole"},
+        {"q": "What is a deep, narrow valley with steep sides cut by a river called? (one word)", "a": "gorge"},
+        {"q": "In which climate do gorges and V-shaped valleys evolve: humid or arid? (one word)", "a": "humid"},
+        {"q": "What is the largest of the karst hollows named (dolines, uvalas, sinkholes)? (one word)", "a": "uvalas"}
+      ]
+    },
+    {
+      "id": "kegy.206.2.1",
+      "questions": [
+        {"q": "What is the armchair-shaped hollow at a glacier's source called? (one word)", "a": "cirque"},
+        {"q": "What is the glacial deposit of mixed debris called? (one word)", "a": "moraines"},
+        {"q": "Which streamlined hill of till does a depositing glacier leave? (one word)", "a": "drumlins"},
+        {"q": "Which long winding ridge of sand and gravel marks a meltwater channel under ice? (one word)", "a": "eskers"},
+        {"q": "Which wind-carved rock resembles a mushroom? (two words)", "a": "mushroom rocks"},
+        {"q": "Which crescent-shaped sand dune forms in deserts with limited sand? (one word)", "a": "barchans"},
+        {"q": "What is the steep rock face that waves cut at the coast called? (one word)", "a": "cliffs"}
+      ]
+    },
+    {
+      "id": "kegy.206.3.1",
+      "questions": [
+        {"q": "Knowledge of landforms guides the selection of what structures across rivers? (two words)", "a": "dam sites"},
+        {"q": "Which slope practice of cutting steps checks erosion on hill farms? (one word)", "a": "terracing"},
+        {"q": "Which two hazards should roads and settlements avoid? (two words)", "a": "landslide, flood"},
+        {"q": "Which industry benefits from conserving scenic landforms? (one word)", "a": "tourism"},
+        {"q": "Which kind of planning reads landforms before building? (two words)", "a": "practical planning"},
+        {"q": "On which slopes does terracing convert hillside to farmland? (one word)", "a": "hill slopes"},
+        {"q": "Name one infrastructure element besides roads whose siting depends on landforms. (one word)", "a": "settlements"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_011",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_011",
+   "title": "c7_eco_ch03_011",
+   "questions": [
+    {
+     "q": "What is the primary goal of integrating environmental considerations into infrastructure development?",
+     "a": "The correct answer is to balance economic growth and public service delivery with the preservation of natural resources and reduction of environmental damage for future generations. A wrong answer—such as believing sustainable infrastructure means stopping all construction—reveals a common misunderstanding that environmental protection completely opposes economic progress, rather than enhancing its long-term viability.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a traditional coal-fired power plant be considered economically unsustainable in the long run compared to a solar park, even if the initial setup cost of coal is lower?",
+     "a": "While coal may have lower initial setup costs, it generates massive long-term environmental costs through heavy carbon emissions, air pollution, and health burdens that society must pay for later. A wrong answer—such as stating that coal is cheaper forever because of lower upfront equipment costs—ignores the hidden long-term economic and environmental damages, known as negative externalities.",
+     "self_check": true
+    },
+    {
+     "q": "A local government in India is planning a 50 km transport corridor. Option A (Traditional Road) costs ₹100 crores to build and causes high carbon emissions. Option B (Green Highway with solar-powered lights and electric vehicle lanes) costs ₹130 crores to build, but reduces annual carbon emissions by 40% and saves ₹15 crores per year in electricity and maintenance. In how many years of operation will the cumulative savings of Option B recover the extra ₹30 crores initial cost?",
+     "a": "The correct answer is 2 years. \nWorking steps:\n1. Identify the extra initial cost of Option B over Option A: ₹130 crores - ₹100 crores = ₹30 crores.\n2. Identify the annual operational savings of Option B: ₹15 crores per year.\n3. Divide the extra initial cost by the annual savings: ₹30 crores ÷ ₹15 crores/year = 2 years.\n4. Conclude that after just 2 years, Option B becomes more economically advantageous than Option A while protecting the environment.\nA wrong answer—such as stating it takes 10 years or rejecting Option B outright due to the higher upfront cost—shows a failure to calculate payback periods and evaluate long-term cost-benefit efficiencies in sustainable investments.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how building a water pipeline network with rainwater harvesting integration affects local groundwater tables during a drought year compared to a conventional concrete-only drainage system.",
+     "a": "A network with rainwater harvesting captures surface runoff and recharges underground aquifers, keeping water tables stable and ensuring sustained water availability for agriculture and households during droughts. Conversely, a conventional concrete-only system speeds up runoff, prevents water from soaking into the soil, and depletes local groundwater tables faster. A wrong answer suggests that concrete drainage is always better because it removes water quickly, ignoring the long-term economic crisis of groundwater depletion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Spending extra money on green building materials for public schools and hospitals is a waste of taxpayer funds because it does not directly increase immediate industrial production.\" Do you agree or disagree, and why?",
+     "a": "I disagree with the argument. While green materials (such as energy-efficient insulation and solar panels) cost more initially, they significantly lower public utility bills over time, reduce air pollution that causes illness, and provide healthier indoor environments that improve student learning and patient recovery rates. A wrong answer agrees with the statement by focusing only on short-term monetary expenses while ignoring the long-term economic savings and social benefits of healthy public infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-point checklist for a municipal corporation in India to determine if a proposed bridge construction project meets sustainable infrastructure standards.",
+     "a": "The expected checklist should include: \n1. Ecological Impact Assessment: Does the design minimize destruction of local flora/fauna and include passages for wildlife or water flow? \n2. Material and Energy Efficiency: Are recycled or locally sourced low-carbon building materials used, and can the bridge support future public transit like electric buses rather than just personal cars? \nA poor answer would focus only on whether the bridge is made of iron or cement without considering ecological disruption or energy efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

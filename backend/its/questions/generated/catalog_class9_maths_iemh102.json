@@ -1,0 +1,116 @@
+{
+ "catalog": "catalog_class9_maths_iemh102.json",
+ "concepts": [
+  {
+   "id": "iemh.102.2.1",
+   "title": "Linear Expressions and Their Values",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 4.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 8x + 5 when x = 6.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 6x + 5x - 7x and give the coefficient of x.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (5 + 5) equals 7 x 5 + 7 x 5. Compute it.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6 + 9 x 3 (respect the order of operations).",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2 + 4) x 4.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.2.2",
+   "title": "Exploring Linear Patterns",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 42 cm. Find its circumference (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 56 cm (pi = 22/7).",
+     "a": "9856",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 42 cm and 112 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "33880",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 90 degrees at the centre of a circle of radius 70 cm (pi = 22/7).",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 60 degrees in a circle of radius 70 cm (pi = 22/7).",
+     "a": "2566.67",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.2.3",
+   "title": "Rate of Change in Linear Relations",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 2x + 15 = 19.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 15 = 3.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 22 = 6.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 37 = 5.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x + 6 = 1x + 62.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 3) = 36.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

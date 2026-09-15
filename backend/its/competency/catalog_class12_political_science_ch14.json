@@ -1,0 +1,500 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": "14",
+ "chapter_title": "Regional Aspirations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps207.txt",
+ "concepts": [
+  {
+   "id": "c12ps.14.1",
+   "title": "Tamil Nadu and the Dravidian Movement",
+   "section": "Tamil Nadu and the Dravidian Movement",
+   "definition": "The Dravidian movement in Tamil Nadu emerged from non-Brahmin mobilisation and later took the form of demands for an independent Dravid Nadu, which were eventually accommodated within the Indian Union through democratic politics.",
+   "formula": "",
+   "key_idea": "The Dravidian movement shows how regional and linguistic aspirations can be accommodated through democratic negotiation rather than confrontation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the origins of the Dravidian movement?",
+    "How did the demand for Dravid Nadu evolve over time?",
+    "How was the Dravidian movement accommodated within Indian federalism?",
+    "What role did language play in the politics of Tamil Nadu?",
+    "How did the DMK and AIADMK shape Tamil Nadu politics?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origins",
+     "explain": "The movement began as a non-Brahmin social justice movement in the early 20th century.",
+     "compute": "origin = non_brahmin_mobilisation"
+    },
+    {
+     "step": 2,
+     "action": "Trace the political demand",
+     "explain": "It evolved into a demand for a separate Dravid Nadu, later given up."
+    },
+    {
+     "step": 3,
+     "action": "Note the accommodation",
+     "explain": "Regional aspirations were channelled through democratic parties like the DMK and AIADMK.",
+     "compute": "accommodation = democratic_politics"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Dravidian movement and what did it demand?",
+     "solution": "It was a non-Brahmin movement that later demanded a separate Dravid Nadu, but eventually accepted integration within India.",
+     "answer": "The Dravidian movement sought social justice and regional autonomy, later accommodated democratically.",
+     "_n": 1
+    },
+    {
+     "question": "How was the Dravidian movement accommodated within the Indian Union?",
+     "solution": "Through democratic politics, the DMK and AIADMK gave up separatism and participated in electoral politics within the federal framework.",
+     "answer": "Regional aspirations were accommodated through democratic and electoral politics.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the evolution of the Dravidian movement in Tamil Nadu.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did language politics shape the politics of Tamil Nadu?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.2",
+   "title": "Punjab and the Khalistan Movement",
+   "section": "Punjab and Khalistan",
+   "definition": "The Khalistan movement in Punjab was a Sikh separatist movement that sought an independent Sikh state, leading to armed conflict, militancy, and eventual resolution through a combination of security measures and political settlement.",
+   "formula": "",
+   "key_idea": "The Punjab crisis illustrates how unresolved regional and communal demands can escalate into violent conflict requiring both firm action and political accommodation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the causes of the Khalistan movement in Punjab?",
+    "How did the Anandpur Sahib Resolution contribute to the Punjab crisis?",
+    "What was the impact of Operation Blue Star?",
+    "How was the Punjab problem eventually resolved?",
+    "What lessons does the Punjab crisis offer for managing regional conflicts?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causes",
+     "explain": "Religious identity, political demands, and the Anandpur Sahib Resolution fuelled the movement."
+    },
+    {
+     "step": 2,
+     "action": "Trace the escalation",
+     "explain": "Militancy grew, leading to Operation Blue Star in 1984 and subsequent violence.",
+     "compute": "escalation = operation_blue_star + militancy"
+    },
+    {
+     "step": 3,
+     "action": "Note the resolution",
+     "explain": "A combination of security operations and political accommodation eventually restored peace.",
+     "compute": "resolution = security_measures + political_settlement"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What led to the rise of the Khalistan movement in Punjab?",
+     "solution": "Demands for greater autonomy, the Anandpur Sahib Resolution, and religious mobilisation contributed to the rise of Khalistan militancy.",
+     "answer": "The Khalistan movement arose from political, religious, and regional grievances."
+    },
+    {
+     "question": "What was Operation Blue Star and why was it significant?",
+     "solution": "It was a military operation in 1984 to flush out militants from the Golden Temple, which deepened the Punjab crisis.",
+     "answer": "Operation Blue Star was a military action that intensified the Punjab conflict."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the causes and consequences of the Khalistan movement in Punjab.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How was the Punjab crisis eventually resolved?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.3",
+   "title": "Jammu and Kashmir",
+   "section": "Jammu and Kashmir",
+   "definition": "Jammu and Kashmir's accession to India was based on special provisions under Article 370, and the region has experienced ongoing political controversy, separatist sentiment, and conflict over its constitutional status.",
+   "formula": "",
+   "key_idea": "The Kashmir issue reflects the tension between regional autonomy and national integration, shaped by history, geography, and politics.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the basis of Jammu and Kashmir's accession to India?",
+    "Explain the significance of Article 370 in Jammu and Kashmir.",
+    "What were the main political issues in Jammu and Kashmir?",
+    "How did the Kashmir issue affect India-Pakistan relations?",
+    "How has the constitutional status of Jammu and Kashmir evolved?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the accession basis",
+     "explain": "Jammu and Kashmir acceded to India in 1947 under special circumstances."
+    },
+    {
+     "step": 2,
+     "action": "Examine Article 370",
+     "explain": "Article 370 provided special autonomy to the state within the Indian Union."
+    },
+    {
+     "step": 3,
+     "action": "Assess the ongoing controversy",
+     "explain": "Separatist sentiment, internal diversity, and external conflict shaped the issue."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the basis of Jammu and Kashmir's relationship with India?",
+     "solution": "The state acceded to India in 1947, and Article 370 provided it special autonomy within the Union.",
+     "answer": "Jammu and Kashmir acceded to India with special status under Article 370."
+    },
+    {
+     "question": "Why has Kashmir been a source of conflict between India and Pakistan?",
+     "solution": "Both countries claim the territory, leading to wars and ongoing disputes over its status.",
+     "answer": "Kashmir is disputed between India and Pakistan, causing repeated conflict."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of Article 370 in the politics of Jammu and Kashmir.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the Kashmir issue affect India-Pakistan relations?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.4",
+   "title": "Northeast India",
+   "section": "Northeast India",
+   "definition": "The Northeast region of India, comprising diverse ethnic and tribal communities, has experienced multiple movements for autonomy and secession, requiring special constitutional and political arrangements for accommodation.",
+   "formula": "",
+   "key_idea": "The Northeast demonstrates the challenge of integrating diverse ethnic identities within a federal framework through accommodation and special provisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What makes the Northeast a distinct region in Indian politics?",
+    "What are the main demands of movements in the Northeast?",
+    "How has the Indian state responded to autonomy demands in the Northeast?",
+    "What special constitutional provisions apply to the Northeast?",
+    "Why has the Northeast experienced multiple separatist movements?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the regional context",
+     "explain": "The Northeast has diverse ethnic communities and a distinct geography.",
+     "compute": "context = ethnic_diversity + distinct_geography"
+    },
+    {
+     "step": 2,
+     "action": "Trace the demands",
+     "explain": "Movements sought autonomy, statehood, and in some cases secession."
+    },
+    {
+     "step": 3,
+     "action": "Note the accommodation",
+     "explain": "Special provisions and state reorganisation were used to address demands.",
+     "compute": "accommodation = special_provisions + state_reorganisation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What makes the Northeast a politically distinct region?",
+     "solution": "Its ethnic diversity, geography, and history of distinct political arrangements make it different from the rest of India.",
+     "answer": "The Northeast is distinct due to ethnic diversity and special political arrangements."
+    },
+    {
+     "question": "How has the Indian state accommodated demands in the Northeast?",
+     "solution": "Through creation of new states, autonomous councils, and special constitutional provisions.",
+     "answer": "Demands were accommodated through state reorganisation and autonomous councils."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the political significance of the Northeast region in Indian federalism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What special provisions apply to the states of the Northeast?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.5",
+   "title": "The Assam Movement",
+   "section": "Assam Movement",
+   "definition": "The Assam movement (1979-1985) was a popular agitation led by the AASU against illegal migration from Bangladesh, demanding detection and deportation of foreigners and protection of Assamese identity.",
+   "formula": "",
+   "key_idea": "The Assam movement shows how concerns about demographic change and identity can mobilise regional politics and lead to the Assam Accord.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main demands of the Assam movement?",
+    "Who led the Assam movement and what was its duration?",
+    "What was the Assam Accord and what did it provide?",
+    "How did the Assam movement affect the politics of the state?",
+    "What was the role of illegal migration in the Assam movement?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the trigger",
+     "explain": "Concern over illegal migration from Bangladesh and its impact on Assamese identity.",
+     "compute": "trigger = illegal_migration"
+    },
+    {
+     "step": 2,
+     "action": "Trace the agitation",
+     "explain": "The AASU led a six-year movement demanding detection and deportation of foreigners."
+    },
+    {
+     "step": 3,
+     "action": "Note the outcome",
+     "explain": "The Assam Accord was signed in 1985, and the AGP formed the government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main demands of the Assam movement?",
+     "solution": "Detection and deportation of illegal migrants, and protection of Assamese cultural and political identity.",
+     "answer": "The Assam movement demanded action against illegal migration and protection of identity."
+    },
+    {
+     "question": "What was the Assam Accord?",
+     "solution": "An agreement signed in 1985 between the movement leaders and the government, leading to the formation of the AGP government.",
+     "answer": "The Assam Accord of 1985 resolved the movement and brought the AGP to power."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the causes and outcomes of the Assam movement.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the significance of the Assam Accord?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.6",
+   "title": "Mizoram and Nagaland",
+   "section": "Mizoram and Nagaland",
+   "definition": "Mizoram and Nagaland in the Northeast experienced armed separatist movements that were eventually accommodated through political settlements, leading to the creation of new states and peace accords.",
+   "formula": "",
+   "key_idea": "The experiences of Mizoram and Nagaland show that even armed separatist movements can be resolved through political accommodation and statehood.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main features of the Mizo movement?",
+    "How was the Mizo conflict resolved?",
+    "What was the Naga movement and what did it demand?",
+    "How did statehood help in accommodating Mizo and Naga aspirations?",
+    "What lessons do Mizoram and Nagaland offer for conflict resolution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the movements",
+     "explain": "Mizoram and Nagaland both saw armed separatist movements seeking independence or autonomy."
+    },
+    {
+     "step": 2,
+     "action": "Examine the settlements",
+     "explain": "Mizoram became a state in 1987 after the Mizo Accord; Nagaland was granted statehood in 1963."
+    },
+    {
+     "step": 3,
+     "action": "Verify the outcome",
+     "explain": "Political accommodation through statehood and accords brought relative peace."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was the Mizo conflict resolved?",
+     "solution": "Through the Mizo Peace Accord of 1986, Mizoram became a state and the militant leadership joined mainstream politics.",
+     "answer": "The Mizo conflict was resolved through the 1986 Peace Accord and statehood."
+    },
+    {
+     "question": "What was the Naga movement and how was it addressed?",
+     "solution": "It demanded a separate Naga identity; Nagaland was created as a state in 1963 to accommodate Naga aspirations.",
+     "answer": "The Naga movement was addressed through the creation of Nagaland state in 1963."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare the Mizo and Naga movements and their resolution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did statehood contribute to peace in Mizoram and Nagaland?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.7",
+   "title": "Regional Aspirations and National Unity",
+   "section": "Regional Aspirations and National Unity",
+   "definition": "Regional aspirations reflect the diversity of India and, when accommodated through democratic and federal mechanisms, can strengthen rather than weaken national unity.",
+   "formula": "",
+   "key_idea": "Recognising and accommodating regional aspirations within a federal framework is essential for maintaining both diversity and national integration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How can regional aspirations be reconciled with national unity?",
+    "Why is accommodation of regional demands important for Indian democracy?",
+    "What role does federalism play in managing regional aspirations?",
+    "How does diversity contribute to national unity in India?",
+    "What are the risks of ignoring regional aspirations?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the tension",
+     "explain": "Regional aspirations can challenge national unity if ignored."
+    },
+    {
+     "step": 2,
+     "action": "Examine the mechanism",
+     "explain": "Federalism and democratic accommodation channel demands peacefully.",
+     "compute": "mechanism = federalism + democratic_accommodation"
+    },
+    {
+     "step": 3,
+     "action": "Synthesise the outcome",
+     "explain": "Accommodation strengthens unity by recognising diversity.",
+     "compute": "outcome = unity_through_diversity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can regional aspirations strengthen national unity?",
+     "solution": "When accommodated through federal and democratic means, regional demands make citizens feel included and strengthen the union.",
+     "answer": "Accommodation of regional aspirations strengthens national unity."
+    },
+    {
+     "question": "Why is it risky to ignore regional aspirations?",
+     "solution": "Ignoring them can lead to alienation, militancy, and threats to national integration.",
+     "answer": "Ignoring regional aspirations can lead to conflict and disintegration."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between regional aspirations and national unity.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does federalism help in managing regional aspirations?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.14.8",
+   "title": "Accommodation of Regional Demands",
+   "section": "Accommodation of Regional Demands",
+   "definition": "The Indian state has accommodated regional demands through state reorganisation, autonomous councils, special constitutional provisions, and political negotiations, balancing unity with diversity.",
+   "formula": "",
+   "key_idea": "Flexible and democratic accommodation of regional demands has been key to India's success in managing diversity and maintaining integration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What mechanisms has India used to accommodate regional demands?",
+    "How has state reorganisation helped in addressing regional aspirations?",
+    "What role do autonomous councils play in the Northeast?",
+    "How have political negotiations resolved regional conflicts?",
+    "What is the significance of special constitutional provisions for regional accommodation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mechanisms",
+     "explain": "State reorganisation, autonomous councils, special provisions, and negotiations."
+    },
+    {
+     "step": 2,
+     "action": "Examine their application",
+     "explain": "Each mechanism was applied in specific regional contexts like Punjab, Northeast, and Tamil Nadu."
+    },
+    {
+     "step": 3,
+     "action": "Verify the effectiveness",
+     "explain": "Democratic accommodation has largely maintained unity while recognising diversity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What mechanisms has India used to accommodate regional demands?",
+     "solution": "Creation of new states, autonomous councils, special constitutional provisions, and political negotiations.",
+     "answer": "India uses state reorganisation, autonomous councils, and special provisions for accommodation."
+    },
+    {
+     "question": "How did autonomous councils help in the Northeast?",
+     "solution": "They provided self-governance to tribal communities, reducing conflict and accommodating identity demands.",
+     "answer": "Autonomous councils provided self-governance and reduced conflict in the Northeast."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the mechanisms used by India to accommodate regional demands.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How have political negotiations contributed to resolving regional conflicts?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps207.txt",
+   "concept": "c12ps.14.1",
+   "question_type": "short_answer",
+   "question_pattern": "What was the Dravidian movement and what did it demand?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "It was a non-Brahmin movement",
+     "explain": "It was a non-Brahmin movement that later demanded a separate Dravid Nadu, but eventually accepted integration within India."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps207.txt",
+   "concept": "c12ps.14.1",
+   "question_type": "short_answer",
+   "question_pattern": "How was the Dravidian movement accommodated within the Indian Union?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Through democratic politics, the DMK",
+     "explain": "Through democratic politics, the DMK and AIADMK gave up separatism and participated in electoral politics within the federal framework."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

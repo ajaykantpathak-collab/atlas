@@ -1,0 +1,586 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 102,
+ "chapter_title": "Human Reproduction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo102.txt",
+ "concepts": [
+  {
+   "id": "lebo.2.1",
+   "title": "Male Reproductive System Anatomy",
+   "section": "2.1",
+   "definition": "The essential biological system in males comprising gonads located within an external sac, along with connected conduits, accessory secretory organs, and copulatory structures.",
+   "formula": "none",
+   "key_idea": "Spermatogenesis requires lower scrotal temperatures while accessory glands secrete nutrient-rich fluid.",
+   "textbook_ref": "lebo102.txt lines 15-85",
+   "question_patterns": [
+    "describe the structural components of the human male reproductive system",
+    "explain the functional role of scrotum in temperature regulation for spermatogenesis",
+    "identify the accessory glands involved in male reproductive system and their functions",
+    "trace the pathway of sperm transport from seminiferous tubules to urethral meatus",
+    "what are the main cell types inside seminiferous tubules and their respective roles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify scrotal adaptation",
+     "explain": "Scrotum maintains testicular temperature 2 to 2.5 C lower than core body temperature."
+    },
+    {
+     "step": 2,
+     "action": "Outline internal testicular structure",
+     "explain": "Each testis contains roughly 250 testicular lobules housing 1 to 3 seminiferous tubules."
+    },
+    {
+     "step": 3,
+     "action": "Describe cell types in tubules and interstitium",
+     "explain": "Germ cells undergo meiosis, Sertoli cells nourish germ cells, and Leydig cells secrete testosterone."
+    },
+    {
+     "step": 4,
+     "action": "Detail duct network and accessory glands",
+     "explain": "Sperms pass through rete testis, vasa efferentia, epididymis, and vas deferens while seminal vesicles, prostate, and bulbourethral glands produce seminal plasma."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.2",
+   "title": "Female Reproductive System Anatomy",
+   "section": "2.2",
+   "definition": "The female biological apparatus comprising paired primary gonads, reproductive ducts, uterine layers, external vulval structures, and functional mammary tissue.",
+   "formula": "none",
+   "key_idea": "Primary ovarian tissue produces gametes and steroids while accessory ducts facilitate fertilisation and gestation.",
+   "textbook_ref": "lebo102.txt lines 86-160",
+   "question_patterns": [
+    "describe the structural organization of the human female reproductive organs",
+    "explain the functions of infundibulum, ampulla, and isthmus in the fallopian tube",
+    "identify the three tissue layers of the human uterine wall and their roles",
+    "what are the structural components of the external female genitalia",
+    "trace the path of milk flow through mammary structures during lactation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify primary female gonad and its regions",
+     "explain": "Ovaries lie in the lower pelvis, bound by thin epithelium enclosing a cortex and medulla."
+    },
+    {
+     "step": 2,
+     "action": "Delineate fallopian tube segments",
+     "explain": "Fimbriated infundibulum collects released ova, leading to ampulla where fertilisation occurs, and isthmus joining the uterus."
+    },
+    {
+     "step": 3,
+     "action": "Specify uterine wall layers",
+     "explain": "Perimetrium is outer membrane, myometrium contracts during birth, and endometrium undergoes cyclic shedding."
+    },
+    {
+     "step": 4,
+     "action": "Map mammary gland architecture",
+     "explain": "Lactiferous structures progress from alveoli to mammary tubules, lobes, ampullae, and nipples."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.3",
+   "title": "Spermatogenesis Process and Endocrine Regulation",
+   "section": "2.3",
+   "definition": "The multi-stage meiotic and differentiation pathway by which diploid spermatogonia in seminiferous tubules form haploid spermatozoa under hormonal control.",
+   "formula": "none",
+   "key_idea": "GnRH stimulates LH and FSH to drive androgen synthesis and spermiogenesis.",
+   "textbook_ref": "lebo102.txt lines 161-220",
+   "question_patterns": [
+    "describe the sequence of cellular divisions during male gametogenesis",
+    "explain how hypothalamic and pituitary hormones regulate spermatogenesis",
+    "distinguish between the terms spermiogenesis and spermiation",
+    "what are the primary actions of luteinizing hormone and follicle stimulating hormone in males",
+    "identify the structural parts of a human sperm cell and their functions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail mitotic expansion and meiotic reduction",
+     "explain": "Spermatogonia (2n=46) divide mitotically; primary spermatocytes undergo meiosis I to form haploid secondary spermatocytes (n=23), which complete meiosis II into spermatids."
+    },
+    {
+     "step": 2,
+     "action": "Define spermiogenesis and spermiation",
+     "explain": "Spermiogenesis transforms rounded spermatids into spermatozoa; spermiation releases matured sperms from Sertoli cells."
+    },
+    {
+     "step": 3,
+     "action": "Summarize hormonal control mechanism",
+     "explain": "Hypothalamic GnRH stimulates LH (triggers Leydig androgen release) and FSH (acts on Sertoli cells for spermiogenesis factors)."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.4",
+   "title": "Meiotic Spermatocyte Yield Calculation",
+   "section": "2.3",
+   "definition": "Quantitative determination of haploid male gametes produced from a known starting population of primary spermatocytes through completed meiotic divisions.",
+   "formula": "spermatids = primary_spermatocytes * 4",
+   "key_idea": "Each diploid primary spermatocyte undergoes two meiotic divisions yielding four haploid spermatids.",
+   "textbook_ref": "lebo102.txt lines 165-195",
+   "question_patterns": [
+    "calculate the number of spermatozoa formed from primary spermatocytes",
+    "how many haploid spermatids are produced by a given number of primary spermatocytes",
+    "determine total sperm yield from diploid meiotic precursor cells",
+    "find the total spermatid count derived from primary spermatocyte precursors",
+    "what is the final count of sperms produced starting with primary spermatocytes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply primary spermatocytes by four",
+     "explain": "A single primary spermatocyte completes meiosis I and II to yield four equal haploid spermatids.",
+     "compute": "spermatids = primary_spermatocytes * 4"
+    },
+    {
+     "step": 2,
+     "action": "Equate spermatids to final spermatozoa count",
+     "explain": "Each spermatid undergoes spermiogenesis without further division to become one spermatozoon.",
+     "compute": "total_sperms = spermatids"
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.5",
+   "title": "Ejaculated Sperm Quality and Motility Quantitation",
+   "section": "2.3",
+   "definition": "Calculation of functional or vigorously motile sperm numbers in a human ejaculate based on percentage fertility criteria.",
+   "formula": "motile_sperms = total_ejaculated * motility_percentage / 100",
+   "key_idea": "Normal human fertility requires minimum standard percentages of normal morphologic shape and motility.",
+   "textbook_ref": "lebo102.txt lines 210-225",
+   "question_patterns": [
+    "calculate the number of vigorously motile sperms in a given semen sample",
+    "how many sperms in an ejaculate possess normal morphology based on standard percentages",
+    "find the total count of functional motile sperms ejaculated during coitus",
+    "determine how many sperms must show vigorous motility for normal human fertility",
+    "compute the effective sperm count given total ejaculated volume and motility percentage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply total ejaculated count by motility percentage and divide by 100",
+     "explain": "Normal fertility criteria require a specific fraction of total ejaculated sperms to display active motility.",
+     "compute": "motile_sperms = total_ejaculated * motility_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.6",
+   "title": "Oogenesis and Follicular Development",
+   "section": "2.3",
+   "definition": "The embryonic initiation and post-pubertal monthly maturation of oogonia into functional female haploid gametes within specialized ovarian follicles.",
+   "formula": "none",
+   "key_idea": "Oogenesis begins in the fetus, halts at prophase-I, and completes unequal meiotic divisions upon follicular maturation.",
+   "textbook_ref": "lebo102.txt lines 226-285",
+   "question_patterns": [
+    "describe the key stages of oogenesis from embryonic fetal development to puberty",
+    "explain the morphological transition from primary to Graafian follicle in ovary",
+    "what is the significance of unequal cytoplasmic division during primary oocyte meiosis",
+    "identify the follicle stage characterized by a fluid-filled cavity called antrum",
+    "contrast the key physiological differences between spermatogenesis and oogenesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace embryonic formation and meiotic arrest",
+     "explain": "Millions of oogonia form before birth, arrest at meiotic prophase-I as primary oocytes, and degenerate until 60000 to 80000 remain per ovary at puberty."
+    },
+    {
+     "step": 2,
+     "action": "Describe follicular maturation sequence",
+     "explain": "Primary follicles gain granulosa layers and theca to form secondary follicles; fluid antrum forms in tertiary follicles."
+    },
+    {
+     "step": 3,
+     "action": "Detail unequal division and ovulation",
+     "explain": "Primary oocyte completes meiosis I producing a large haploid secondary oocyte and tiny first polar body; rupture of Graafian follicle releases the secondary oocyte."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.7",
+   "title": "Menstrual Cycle Phases and Endocrine Control",
+   "section": "2.4",
+   "definition": "The recurring 28 to 29 day reproductive cycle in primate females involving coordinated ovarian and uterine wall changes regulated by pituitary and gonadal hormones.",
+   "formula": "none",
+   "key_idea": "Mid-cycle LH surge triggers ovulation, while progesterone from corpus luteum maintains the endometrium.",
+   "textbook_ref": "lebo102.txt lines 286-350",
+   "question_patterns": [
+    "explain the four main phases of the human menstrual cycle and their durations",
+    "what physiological event is directly triggered by the mid-cycle LH surge",
+    "describe the role of corpus luteum and progesterone during the luteal phase",
+    "how do pituitary gonadotropins LH and FSH fluctuate during the menstrual cycle",
+    "explain why menstruation is absent during pregnancy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify menstrual phase events",
+     "explain": "Days 1 to 5 involve breakdown of endometrial lining and liquid discharge when fertilization fails."
+    },
+    {
+     "step": 2,
+     "action": "Describe follicular phase and LH surge",
+     "explain": "FSH and estrogen induce primary follicle maturation and uterine proliferation; LH surge around day 14 triggers ovulation."
+    },
+    {
+     "step": 3,
+     "action": "Outline luteal phase function",
+     "explain": "Ruptured follicle converts to corpus luteum secreting progesterone; absence of pregnancy leads to degeneration and new cycle."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.8",
+   "title": "Fertilisation, Sex Determination, and Implantation",
+   "section": "2.5",
+   "definition": "The union of male and female gametes in the fallopian ampulla, genetic sex assignment via paternal sex chromosomes, and blastocyst embedding in the uterine lining.",
+   "formula": "none",
+   "key_idea": "Gamete fusion occurs in the ampulla, paternal sperms (X or Y) determine gender, and blastocyst implants in endometrium.",
+   "textbook_ref": "lebo102.txt lines 351-420",
+   "question_patterns": [
+    "describe the sequence of events during fertilization in the fallopian tube",
+    "explain how zona pellucida prevents polyspermy during sperm entrance",
+    "why is the genetic sex of the fetus determined solely by the male parent",
+    "trace embryonic cleavage from zygote to morula and blastocyst formation",
+    "explain the mechanism of blastocyst implantation into the uterine endometrium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate fertilization site and block to polyspermy",
+     "explain": "Sperm contacts zona pellucida in ampulla, inducing membrane depolarization to block additional sperms."
+    },
+    {
+     "step": 2,
+     "action": "Explain chromosomal sex determination",
+     "explain": "Female ova carry X chromosome while male sperms carry 50 percent X and 50 percent Y; paternal chromosome choice dictates XX (female) or XY (male)."
+    },
+    {
+     "step": 3,
+     "action": "Map cleavage and implantation steps",
+     "explain": "Mitotic cleavage produces 2, 4, 8, 16 blastomeres forming a morula, then blastocyst whose trophoblast embeds into endometrium."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.9",
+   "title": "Pregnancy, Placental Hormones, and Embryogenesis",
+   "section": "2.6",
+   "definition": "The structural linkage between fetus and mother providing exchange and endocrine signaling, alongside sequential germ layer and organ development.",
+   "formula": "none",
+   "key_idea": "Placenta supplies metabolic needs and hormones (hCG, hPL, relaxin) while germ layers differentiate into fetal tissues.",
+   "textbook_ref": "lebo102.txt lines 421-485",
+   "question_patterns": [
+    "describe the structural and functional role of the placenta during gestation",
+    "list the specific hormones produced exclusively during pregnancy in women",
+    "explain the embryonic origin of body tissues from three primary germ layers",
+    "what developmental milestones occur at 1 month, 12 weeks, and 24 weeks of gestation",
+    "identify the role of inner cell mass stem cells in embryonic differentiation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain placental interdigitation and transport",
+     "explain": "Chorionic villi interdigitate with uterine wall to deliver oxygen/nutrients and remove fetal wastes via umbilical cord."
+    },
+    {
+     "step": 2,
+     "action": "List pregnancy-specific endocrine factors",
+     "explain": "Placenta secretes hCG, hPL, estrogens, and progestogens, while ovary secretes relaxin in late pregnancy."
+    },
+    {
+     "step": 3,
+     "action": "Outline trimester milestone events",
+     "explain": "Heart forms at 1 month; limbs and external organs by 12 weeks; hair, separate eyelids, and eyelashes by 24 weeks."
+    }
+   ]
+  },
+  {
+   "id": "lebo.2.10",
+   "title": "Parturition and Lactation Dynamics",
+   "section": "2.7",
+   "definition": "The neuroendocrine reflex mechanism triggering labor contractions for child delivery and subsequent maternal milk production containing protective antibodies.",
+   "formula": "none",
+   "key_idea": "Foetal ejection reflex stimulates oxytocin release for labor, while early milk (colostrum) imparts immunity.",
+   "textbook_ref": "lebo102.txt lines 486-530",
+   "question_patterns": [
+    "explain the neuroendocrine mechanism responsible for inducing human parturition",
+    "what is the foetal ejection reflex and how does it trigger oxytocin release",
+    "describe the composition and immunological significance of colostrum",
+    "why is breastfeeding strongly recommended by doctors during early infant growth",
+    "identify the endocrine factors involved in milk production and expulsion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail neuroendocrine initiation of parturition",
+     "explain": "Mature fetus and placenta induce mild contractions (foetal ejection reflex), stimulating maternal pituitary oxytocin release."
+    },
+    {
+     "step": 2,
+     "action": "Explain positive feedback loop of labor",
+     "explain": "Oxytocin causes stronger uterine smooth muscle contractions, driving further oxytocin release until expulsion."
+    },
+    {
+     "step": 3,
+     "action": "Define colostrum and maternal immunity",
+     "explain": "Initial breast milk (colostrum) contains abundant antibodies essential for building newborn disease resistance."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo102.txt lines 170-185",
+   "concept": "lebo.2.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total number of spermatozoa formed from {primary_spermatocytes} primary spermatocytes.",
+   "extracted_variables": {
+    "primary_spermatocytes": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply primary spermatocyte count by four",
+     "explain": "Each primary spermatocyte undergoes completed meiosis to yield 4 haploid spermatids.",
+     "compute": "spermatids = primary_spermatocytes * 4"
+    },
+    {
+     "step": 2,
+     "action": "Equate spermatids to spermatozoa",
+     "explain": "Every spermatid differentiates into one spermatozoon during spermiogenesis.",
+     "compute": "total_sperms = spermatids"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo102.txt lines 170-185",
+   "concept": "lebo.2.4",
+   "question_type": "compute",
+   "question_pattern": "Find the total spermatid count produced by {primary_spermatocytes} primary spermatocytes inside seminiferous tubules.",
+   "extracted_variables": {
+    "primary_spermatocytes": 120
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply primary spermatocyte count by four",
+     "explain": "Two meiotic divisions transform one diploid primary spermatocyte into 4 haploid spermatids.",
+     "compute": "spermatids = primary_spermatocytes * 4"
+    },
+    {
+     "step": 2,
+     "action": "Set total sperm count equal to spermatids",
+     "explain": "Spermiogenesis converts all spermatids directly into spermatozoa.",
+     "compute": "total_sperms = spermatids"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lebo102.txt lines 210-220",
+   "concept": "lebo.2.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of vigorously motile sperms in a coitus sample containing {total_ejaculated} million sperms assuming {motility_percentage} percent display vigorous motility.",
+   "extracted_variables": {
+    "total_ejaculated": 300,
+    "motility_percentage": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate percentage of total ejaculated sperms showing active motility",
+     "explain": "Multiply total ejaculated count in millions by percentage motility divided by 100.",
+     "compute": "motile_sperms = total_ejaculated * motility_percentage / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lebo102.txt lines 210-220",
+   "concept": "lebo.2.5",
+   "question_type": "compute",
+   "question_pattern": "Determine how many sperms show normal morphology in an ejaculate of {total_ejaculated} million sperms if {motility_percentage} percent meet normal shape requirements.",
+   "extracted_variables": {
+    "total_ejaculated": 200,
+    "motility_percentage": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply total ejaculated count by percentage of normal sperms divided by 100",
+     "explain": "Normal fertility requires at least 60 percent of ejaculated sperms to exhibit normal morphological shape.",
+     "compute": "motile_sperms = total_ejaculated * motility_percentage / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "lebo102.txt lines 535-560",
+   "questions": [
+    "Fill in the blanks: (a) Humans reproduce sexually. (b) Humans are viviparous. (c) Fertilisation is internal in humans. (d) Male and female gametes are haploid. (e) Zygote is diploid. (f) The process of release of ovum from a mature follicle is called ovulation. (g) Ovulation is induced by a hormone called LH. (h) The fusion of male and female gametes is called fertilisation. (i) Fertilisation takes place in ampulla of fallopian tube. (j) Zygote divides to form blastocyst which is implanted in uterus. (k) The structure which provides vascular connection between foetus and uterus is called placenta."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "lebo102.txt line 561",
+   "questions": [
+    "Draw a labelled diagram of male reproductive system."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "lebo102.txt line 562",
+   "questions": [
+    "Draw a labelled diagram of female reproductive system."
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "lebo102.txt line 563",
+   "questions": [
+    "Write two major functions each of testis and ovary."
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "lebo102.txt line 564",
+   "questions": [
+    "Describe the structure of a seminiferous tubule."
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "lebo102.txt line 565",
+   "questions": [
+    "What is spermatogenesis? Briefly describe the process of spermatogenesis."
+   ]
+  },
+  {
+   "id": "ex2.7",
+   "source_ref": "lebo102.txt line 566",
+   "questions": [
+    "Name the hormones involved in regulation of spermatogenesis."
+   ]
+  },
+  {
+   "id": "ex2.8",
+   "source_ref": "lebo102.txt line 567",
+   "questions": [
+    "Define spermiogenesis and spermiation."
+   ]
+  },
+  {
+   "id": "ex2.9",
+   "source_ref": "lebo102.txt line 568",
+   "questions": [
+    "Draw a labelled diagram of sperm."
+   ]
+  },
+  {
+   "id": "ex2.10",
+   "source_ref": "lebo102.txt line 569",
+   "questions": [
+    "What are the major components of seminal plasma?"
+   ]
+  },
+  {
+   "id": "ex2.11",
+   "source_ref": "lebo102.txt line 570",
+   "questions": [
+    "What are the major functions of male accessory ducts and glands?"
+   ]
+  },
+  {
+   "id": "ex2.12",
+   "source_ref": "lebo102.txt line 571",
+   "questions": [
+    "What is oogenesis? Give a brief account of oogenesis."
+   ]
+  },
+  {
+   "id": "ex2.13",
+   "source_ref": "lebo102.txt line 572",
+   "questions": [
+    "Draw a labelled diagram of a section through ovary."
+   ]
+  },
+  {
+   "id": "ex2.14",
+   "source_ref": "lebo102.txt line 573",
+   "questions": [
+    "Draw a labelled diagram of a Graafian follicle?"
+   ]
+  },
+  {
+   "id": "ex2.15",
+   "source_ref": "lebo102.txt lines 574-579",
+   "questions": [
+    "Name the functions of the following: (a) Corpus luteum (b) Endometrium (c) Acrosome (d) Sperm tail (e) Fimbriae"
+   ]
+  },
+  {
+   "id": "ex2.16",
+   "source_ref": "lebo102.txt lines 580-588",
+   "questions": [
+    "Identify True/False statements. Correct each false statement to make it true: (a) Androgens are produced by Sertoli cells. (b) Spermatozoa get nutrition from Sertoli cells. (c) Leydig cells are found in ovary. (d) Leydig cells synthesise androgens. (e) Oogenesis takes place in corpus luteum. (f) Menstrual cycle ceases during pregnancy. (g) Presence or absence of hymen is not a reliable indicator of virginity or sexual experience."
+   ]
+  },
+  {
+   "id": "ex2.17",
+   "source_ref": "lebo102.txt line 589",
+   "questions": [
+    "What is menstrual cycle? Which hormones regulate menstrual cycle?"
+   ]
+  },
+  {
+   "id": "ex2.18",
+   "source_ref": "lebo102.txt line 590",
+   "questions": [
+    "What is parturition? Which hormones are involved in induction of parturition?"
+   ]
+  },
+  {
+   "id": "ex2.19",
+   "source_ref": "lebo102.txt lines 591-592",
+   "questions": [
+    "In our society the women are often blamed for giving birth to daughters. Can you explain why this is not correct?"
+   ]
+  },
+  {
+   "id": "ex2.20",
+   "source_ref": "lebo102.txt lines 593-596",
+   "questions": [
+    "How many eggs are released by a human ovary in a month? How many eggs do you think would have been released if the mother gave birth to identical twins? Would your answer change if the twins born were fraternal?"
+   ]
+  },
+  {
+   "id": "ex2.21",
+   "source_ref": "lebo102.txt lines 597-598",
+   "questions": [
+    "How many eggs do you think were released by the ovary of a female dog which gave birth to 6 puppies?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

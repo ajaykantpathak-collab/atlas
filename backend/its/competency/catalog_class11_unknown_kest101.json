@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "economics",
+  "chapter": 101,
+  "chapter_title": "Introduction: Economics and Statistics",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kest101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kest101.1.1",
+      "title": "What Economics Studies: The Ordinary Business of Life",
+      "section": "1.1",
+      "definition": "Economics, as Alfred Marshall put it, studies man in the ordinary business of life -- how people earn, spend, save and choose among scarce means. Scarcity and choice form its core: unlimited wants chasing limited resources force every household, firm and government to economise.",
+      "formula": "",
+      "key_idea": "Unlimited wants, limited resources -- every economic act is a choice about scarcity.",
+      "textbook_ref": "kest101.txt opening sections (alfred marshall definition, ordinary business of life, scarcity and choice, consumers and producers)",
+      "question_patterns": [
+        "state alfred marshall's definition of economics",
+        "in class 11 introduction to statistics for economics: why is economics called the study of the ordinary business of life",
+        "explain scarcity and choice with an example",
+        "what economic activities do consumers and producers perform",
+        "why must every economy choose what how and for whom to produce",
+        "distinguish economic from non economic activities"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "quote the frame",
+          "explain": "Marshall's definition places economics inside daily life -- earning, spending, saving."
+        },
+        {
+          "step": 2,
+          "action": "identify the root problem",
+          "explain": "Wants multiply while resources stay limited, so scarcity forces choice at every level."
+        },
+        {
+          "step": 3,
+          "action": "name the players",
+          "explain": "Households consume, firms produce, and governments provision -- the ordinary business economics studies."
+        }
+      ]
+    },
+    {
+      "id": "kest101.1.2",
+      "title": "Why Economics Needs Statistics",
+      "section": "1.2",
+      "definition": "Economic facts come as numbers -- prices, incomes, output, employment -- and statistics is the tool-set that collects, organises, presents, analyses and interprets them. Without statistical methods, the economist's statements would remain vague impressions instead of tested conclusions.",
+      "formula": "",
+      "key_idea": "Economics thinks in numbers -- statistics turns those numbers into evidence.",
+      "textbook_ref": "kest101.txt statistics sections (role of statistics in economics, statistical tools, data as numerical statements, use in policy)",
+      "question_patterns": [
+        "what is statistics in the plural and singular sense",
+        "in class 11 introduction: why does economics need statistics",
+        "list the stages of a statistical study",
+        "give examples of statistical data used in economics",
+        "how does statistics help government policy",
+        "can economic statements be made without numbers discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the tool",
+          "explain": "Statistics means both numerical data and the methods of handling such data."
+        },
+        {
+          "step": 2,
+          "action": "map the stages",
+          "explain": "Collection, organisation, presentation, analysis and interpretation form the pipeline every study follows."
+        },
+        {
+          "step": 3,
+          "action": "serve the economics",
+          "explain": "Quantified evidence turns economic guesses into tested findings for households, firms and governments."
+        }
+      ]
+    },
+    {
+      "id": "kest101.1.3",
+      "title": "The Three Central Problems of an Economy",
+      "section": "1.3",
+      "definition": "Every economy, rich or poor, must answer three questions: what to produce, how to produce, and for whom to produce. Market economies answer through prices; centrally planned economies through state decisions; mixed economies blend both -- and statistics measures how well each answer works.",
+      "formula": "",
+      "key_idea": "What, how, for whom -- three questions every economy must answer, by market or by plan.",
+      "textbook_ref": "kest101.txt problems sections (what how and for whom, market economy, planned economy, mixed economy)",
+      "question_patterns": [
+        "state the three central problems of an economy",
+        "in class 11 introduction: how does a market economy answer what to produce",
+        "compare planned and mixed economies",
+        "why does scarcity create the problem of choice of technique",
+        "for whom to produce is decided by what mechanism explain",
+        "relate the central problems to your household's budget decisions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "ask what",
+          "explain": "With scarce resources, choosing which goods to make means refusing others -- the what problem."
+        },
+        {
+          "step": 2,
+          "action": "ask how",
+          "explain": "Labour-intensive or capital-intensive technique is a cost-and-availability choice -- the how problem."
+        },
+        {
+          "step": 3,
+          "action": "ask for whom",
+          "explain": "Distribution of output across households completes the trio -- the for whom problem."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kest101.txt statistics sections",
+      "concept": "kest101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A minister claims inflation is falling. Explain the role statistics must play before the claim is believed.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "demand the data",
+          "explain": "Price data must be collected systematically from markets over comparable periods."
+        },
+        {
+          "step": 2,
+          "action": "apply the pipeline",
+          "explain": "The data are organised, presented and analysed -- an index computed -- before interpretation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Only the statistical pipeline converts a claim about inflation into tested evidence."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kest101.txt problems sections",
+      "concept": "kest101.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A state must choose between building a hospital and a highway. Explain which central problem this illustrates and how the choice is made.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the problem",
+          "explain": "Choosing between two uses of scarce public funds is the 'what to produce' problem."
+        },
+        {
+          "step": 2,
+          "action": "name the mechanism",
+          "explain": "In a mixed economy the government decides through planning, budgets and appraisal of needs."
+        },
+        {
+          "step": 3,
+          "action": "add the statistics",
+          "explain": "Data on health indicators and traffic support the choice -- statistics informing the economic decision."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kest101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain Marshall's definition of economics with examples.",
+        "What is statistics and why is it important in economics?",
+        "Describe the three central problems of an economy.",
+        "Distinguish market, planned and mixed economies.",
+        "List the stages of a statistical study in order.",
+        "Give three examples of economic data you see in daily news."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_12_012",
+   "title": "c12_hin_ar_cbse_12_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question in the CBSE Class 12 Hindi board exam?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"बंजर लड़की का नाम क्या था?\"), while an inferential question requires deducing meaning not explicitly written (e.g., \"बंजर लड़की की स्थिति समाज के किस वर्ग को दर्शाती है?\"). A wrong answer that says \"both need quotes\" reveals the student doesn't grasp that inferential answers synthesize implicit meaning, not just locate explicit sentences.",
+     "self_check": true
+    },
+    {
+     "q": "In the story \"dkys es?kk ikuh ns\", the narrator refuses water to the mother but gives it to the daughter. A student writes: \"The narrator is hypocritical because he helps one beggar but not the other.\" Why is this answer likely to lose marks in a CBSE inferential question?",
+     "a": "The answer imposes an external moral judgment (\"hypocritical\") not supported by the text. The narrator explicitly explains his reasoning: giving water to a thirsty child is \"मानवता\" (humanity), not \"लाचारी\" (compulsion/charity). A CBSE inferential answer must use textual evidence (the narrator's own words in the dialogue with थथ) to infer his mindset, not the student's personal opinion. This error shows the student confuses inference with opinion.",
+     "self_check": true
+    },
+    {
+     "q": "A literal question asks: \"बंजर माँ-बेटी को 'इस्ड़-एमी' क्यों कहा जाता था?\" Using the PEEL structure, write a 3-mark answer with exact textual evidence.",
+     "a": "**Point:** They were called 'इस्ड़-एमी' because of their appearance and behavior.  \n**Evidence:** Text states: \"उनकी वेशभूषा, उनकी मुद्रा, उनके केश-कुंच और उनके दाँतों की धप्पा से चमकती दंत-पंक्तियाँ... लोग उन्हें इस्ड़-एमी कहते थे।\"  \n**Explanation:** The author lists specific physical traits (disheveled look, posture, tangled hair, prominent teeth) that made them appear strange/frightening to villagers, leading to the nickname.  \n**Link:** This literal detail establishes their social marginalization, which the story later explores deeper.  \nA wrong answer that only says \"because they looked dirty\" misses the specific textual descriptors required for full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the poem refrain \"दक्खिन दिसा खोल, इकहु दिसा खोल\" (Open the southern door, open this door) is repeated with seasonal imagery (सीत, बसंत, वर्षा) in the story. What does this progression infer about the beggar girl's life?",
+     "a": "The refrain's repetition across seasons (winter → spring → monsoon) mirrors the cyclical, unending nature of the beggar girl's struggle for water. In winter (\"सीत\"), the door opens reluctantly; in spring (\"बसंत\"), it's slightly better; in monsoon (\"वर्षा\"), water is abundant but the structural deprivation remains (\"इकहु दिसा खोल\" still needed). This infers that seasonal relief doesn't change systemic poverty — the \"door\" (access to resources) stays structurally closed. A student who only explains the literal meaning of seasons misses the inferential link to perpetual marginalization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The story's ending where the narrator's mother scolds him for refusing water to the beggar woman proves the narrator was wrong.\" Use textual evidence to defend or refute.",
+     "a": "The claim oversimplifies. The mother's scolding (\"नकु बिना रिकथ के नहीं होता\") reflects traditional charity (रिकथ), while the narrator's refusal stems from a modern, dignity-based stance (\"यह लाचारी नहीं, मानवता है\"). The text presents both perspectives without declaring one \"wrong\" — the narrator later reflects: \"क्या हम अपने स्तर पर अपने निजी जीवन में उसी हिंसा के भागी तो नहीं बन रहे हैं?\" This ambiguity is deliberate. A full evaluation must acknowledge the text's deliberate moral complexity, not pick a side. The error here is treating literature as having a single correct moral answer.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for this chapter that requires connecting the beggar girl's water struggle to the contemporary issue of urban water scarcity in Indian metros. Provide the ideal 4-step PEEL answer outline.",
+     "a": "**Question:** \"कहानी में बंजर लड़की का पानी के लिए संघर्ष आज के महानगरीय जल संकट को कैसे प्रतिबिंबित करता है? पाठ के प्रमाण सहित समझाइए।\"  \n**Ideal Answer Outline:**  \n1. **Point:** The girl's daily struggle for a pot of water mirrors how urban poor queue for tankers while luxury apartments waste water.  \n2. **Evidence:** Story: \"पानी की कमी... कुएँ सूखे... बाल्टी-भर पानी के लिए झगड़ा\" + Current: \"नल आते हैं 2 घंटे, टैंकर के लिए लाइनें\" (student's knowledge).  \n3. **Explanation:** Both show water access determined by socio-economic power, not need. The story's \"इस्ड़-एमी\" are today's slum dwellers; the narrator's house is the gated community.  \n4. **Link:** The story warns that ignoring this disparity (like the narrator initially did) makes us complicit in structural violence.  \nA poor answer would only describe the story or only describe cities without the inferential bridge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

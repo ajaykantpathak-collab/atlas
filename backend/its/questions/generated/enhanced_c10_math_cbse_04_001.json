@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_001",
+   "title": "c10_math_cbse_04_001",
+   "questions": [
+    {
+     "q": "Write the standard form of a quadratic equation and state the condition on the coefficient of x². Then identify a, b, c for the equation 3x² - 7x + 2 = 0.",
+     "a": "Standard form: ax² + bx + c = 0 where a, b, c ∈ ℝ and a ≠ 0. For 3x² - 7x + 2 = 0, a = 3, b = -7, c = 2. A wrong answer where a student writes a = 3, b = 7, c = 2 reveals they ignore the sign of the middle term; writing a = 0 or omitting the condition a ≠ 0 reveals they don't understand why the quadratic term must exist.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation x² + 3x = x² - 5 is NOT a quadratic equation, even though it contains an x² term initially.",
+     "a": "Subtract x² from both sides: 3x = -5 → 3x + 5 = 0. The x² terms cancel completely, leaving a linear equation. The highest power of x is 1, not 2. A wrong answer claiming it is quadratic because \"x² appears in the original equation\" reveals the student doesn't simplify before classifying — they must reduce to standard form first.",
+     "self_check": true
+    },
+    {
+     "q": "Which of the following are quadratic equations? (i) (x - 2)(x + 3) = 0 (ii) x³ - 4x² + x - 1 = 0 (iii) √2 x² + 3x - √5 = 0 (iv) (x + 1)² = 2(x - 3)",
+     "a": "(i) Expand: x² + x - 6 = 0 → quadratic (a=1, b=1, c=-6). (ii) Highest power is 3 → cubic, NOT quadratic. (iii) √2 x² + 3x - √5 = 0 → quadratic (a=√2, b=3, c=-√5). (iv) Expand: x² + 2x + 1 = 2x - 6 → x² + 7 = 0 → quadratic (a=1, b=0, c=7). A wrong answer on (ii) reveals confusion between degree 2 and degree 3; on (iv), forgetting to expand and simplify before deciding reveals procedural gap.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Any equation with an x² term is a quadratic equation.\" Give a counterexample and explain why the claim is false.",
+     "a": "Counterexample: x² + 2x = x² - 3. Simplifying gives 2x + 3 = 0, which is linear. The claim is false because the x² terms may cancel out after simplification. The definition requires the equation to be *reducible* to ax² + bx + c = 0 with a ≠ 0 after full simplification. A wrong answer giving x³ + x² = 0 as counterexample reveals the student doesn't distinguish between \"contains x²\" and \"is of degree 2\".",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (2x + 1)² = 4x² + 4x + 1 and writes \"This is a quadratic equation.\" Evaluate the student's statement. Is it correct? Justify.",
+     "a": "The student's statement is incorrect. (2x + 1)² = 4x² + 4x + 1 is an *identity* (true for all x), not an equation to solve. A quadratic equation must be of the form ax² + bx + c = 0 with a ≠ 0, where we seek values of x that satisfy it. The student confused an algebraic identity with an equation. A wrong evaluation accepting the statement reveals the student doesn't distinguish between identities (always true) and equations (conditionally true).",
+     "self_check": true
+    },
+    {
+     "q": "Create a quadratic equation in standard form where a = -3, b = 0, c = 5. Then create a different quadratic equation that has the same solutions but different coefficients.",
+     "a": "First equation: -3x² + 0x + 5 = 0 or -3x² + 5 = 0. Multiply by -1: 3x² - 5 = 0 has the same solutions (x = ±√(5/3)). Any non-zero multiple k(-3x² + 5) = 0 works. A poor answer giving -3x² + 5 = 0 and -6x² + 10 = 0 but unable to explain *why* they have same solutions reveals lack of understanding that multiplying an equation by a non-zero constant doesn't change its roots.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_004",
+   "title": "c12_cs_cbse_06_004",
+   "questions": [
+    {
+     "q": "What method of a connection object is used to create a cursor, and what is the primary purpose of that cursor object in mysql.connector?",
+     "a": "The method is `cursor()` (e.g., `cur = conn.cursor()`). The cursor's primary purpose is to execute SQL statements and manage the result set (for SELECT) or report affected rows (for DML). A wrong answer like \"execute() creates the cursor\" or \"cursor stores data permanently\" reveals confusion between connection, cursor, and result set roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you call `cur.execute(\"SELECT name FROM students WHERE class = '12A'\")` on a valid cursor object. What does the cursor hold after this call returns?",
+     "a": "The cursor sends the SQL to the MySQL server, which parses, optimizes, and executes the query, then returns a result set (metadata + rows). The cursor now positions itself before the first row of that result set, ready for fetch operations. It does NOT yet contain the actual data rows in Python memory. A wrong answer like \"the cursor now contains a list of names\" or \"execute() returns the data\" shows misunderstanding of lazy fetching and cursor state.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python snippet (assuming `conn` is an already open mysql.connector connection) that creates a cursor, executes an INSERT statement to add a new student ('Rahul', 95), and prints how many rows were inserted. Do not include commit or close.",
+     "a": "```python\ncur = conn.cursor()\nsql = \"INSERT INTO students (name, cs_marks) VALUES ('Rahul', 95)\"\ncur.execute(sql)\nprint(\"Rows inserted:\", cur.rowcount)\n```\nA wrong answer that uses `fetchall()` after INSERT, or checks `cur.rowcount` before `execute()`, or omits cursor creation reveals gaps in the execute-commit-fetch workflow and the meaning of rowcount for non-SELECT statements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the behavior of `cur.execute()` when the SQL is a SELECT versus when it is an UPDATE. Focus on what the cursor holds immediately after execute returns, and which cursor attribute is meaningful in each case.",
+     "a": "For SELECT: cursor holds a result set positioned before first row; `rowcount` is -1 (or undefined) until all rows are fetched; meaningful next step is `fetchone()/fetchall()`. For UPDATE: cursor holds no result set; `rowcount` immediately gives the number of rows matched/updated; meaningful next step is `conn.commit()`. A wrong answer claiming `rowcount` works the same for both, or that SELECT returns rows directly, shows lack of distinction between result-set-returning and row-count-returning statements.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code and complains that `cur.rowcount` prints -1 after a SELECT query. Evaluate whether this is a bug in their code or expected behavior, and justify your answer.\n\n```python\ncur = conn.cursor()\ncur.execute(\"SELECT * FROM students WHERE cs_marks > 90\")\nprint(cur.rowcount)\n```",
+     "a": "This is expected behavior, not a bug. According to the Python DB-API (PEP 249) and mysql.connector implementation, `rowcount` for SELECT statements is set to -1 before any rows are fetched because the total number of rows in the result set may not be known until all rows are retrieved (especially with unbuffered cursors). The student should fetch rows first, then `rowcount` will reflect the number of rows fetched. A wrong answer saying \"it's a bug\" or \"rowcount should give total rows\" reveals ignorance of the DB-API specification and cursor buffering modes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new scenario (different from students/marks) where you would need to execute a DDL statement (CREATE TABLE) using a cursor. Write the Python code to create the cursor and execute the DDL. Explain why you do not need to fetch anything after this execute.",
+     "a": "Scenario: Creating a table `books` for a library database.\n```python\ncur = conn.cursor()\nddl = \"CREATE TABLE books (id INT PRIMARY KEY, title VARCHAR(100), author VARCHAR(50), year INT)\"\ncur.execute(ddl)\nprint(\"Table created successfully\")\n```\nDDL statements (CREATE, ALTER, DROP) do not return a result set; they either succeed or raise an exception. The cursor does not position a result set, so no fetch is needed or possible. A poor answer that includes `fetchall()` or checks `rowcount` for DDL shows misunderstanding that DDL is not a data manipulation operation and has no row-level result.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

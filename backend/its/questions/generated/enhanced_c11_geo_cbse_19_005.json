@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_005",
+   "title": "c11_geo_cbse_19_005",
+   "questions": [
+    {
+     "q": "Name the two geological formations hosting coal in India and state the approximate percentage of total reserves each holds.",
+     "a": "Correct: Gondwana formation holds ~98% of reserves; Tertiary formation holds ~2%. A wrong answer (e.g., 50-50 split or reversing the percentages) reveals the student has not grasped the overwhelming dominance of Gondwana coal, which is critical for understanding why India's energy infrastructure is concentrated in the Peninsular plateau rather than the Himalayas or North-East.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Gondwana coal has higher calorific value than Tertiary coal, linking geological age, tectonic setting, and coalification process.",
+     "a": "Correct: Gondwana coal (Permo-Carboniferous, ~250-300 Ma) was deposited in stable intracratonic basins, subjected to deep burial and prolonged heat/pressure, driving off volatiles and increasing carbon content. Tertiary coal (Eocene-Oligocene, ~50-60 Ma) formed in tectonically active Himalayan foreland basins with rapid sedimentation but less burial depth and time, retaining more moisture and volatiles. A wrong answer citing \"better vegetation\" or \"different plant types\" shows confusion between biological origin and geological maturation.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Tamil Nadu sources coal from Neyveli (Lignite). Calculate the approximate coal quantity needed daily to generate 1000 MW if the plant operates at 35% thermal efficiency and Neyveli lignite has a calorific value of 15 MJ/kg. (1 MW = 1 MJ/s)",
+     "a": "Steps: (1) Energy output/day = 1000 MW × 86400 s = 86,400,000 MJ. (2) Heat input required = output / efficiency = 86,400,000 / 0.35 = 246,857,143 MJ. (3) Coal mass = heat input / calorific value = 246,857,143 / 15 = 16,457,143 kg ≈ 16,457 tonnes/day. A wrong answer (e.g., forgetting efficiency or unit conversion) reveals inability to link coal quality to real-world energy planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational advantages of the Jharia-Raniganj-Bokaro belt (Damodar Valley) versus the Singrauli-Korba belt (Mahanadi Valley) for supplying coal to the iron-steel industry. Consider coal type, rail connectivity, and proximity to iron ore.",
+     "a": "Correct: Jharia-Raniganj-Bokaro supplies high-grade coking coal (essential for blast furnaces) and is adjacent to the Chota Nagpur iron ore belt (Noamundi, Gua) with dense rail network - the core of India's steel industry (Jamshedpur, Bokaro, Durgapur). Singrauli-Korba has massive non-coking thermal coal reserves feeding pithead power plants (Vindhyachal, Korba) but lacks coking coal and is farther from major iron ore deposits. A student citing only \"larger reserves\" for Singrauli misses the critical coking vs non-coking distinction that drives industrial location.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India should shift all thermal power generation to imported high-GCV coal to reduce ash handling and emissions.\" Assess from energy security, logistics, and economic perspectives.",
+     "a": "Correct evaluation: Not advisable. Imported coal (e.g., Australian 25 MJ/kg) reduces ash but creates strategic vulnerability (supply disruption, price volatility), requires massive port/rail infrastructure (currently congested), and drains foreign exchange (~₹1.5 lakh crore/year). Domestic coal (avg 18-22 MJ/kg) with washing and supercritical technology achieves comparable efficiency while sustaining mining employment and rail revenue. A one-sided answer focusing only on emissions ignores the geopolitical and fiscal dimensions of energy policy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a coal evacuation corridor map for a new 4000 MW ultra-mega power plant in the Mand-Raigarh coalfield (Chhattisgarh). Annotate: coalfield boundary, nearest railway zone, two major consumer states, and one port for potential blending imports.",
+     "a": "Expected: Map showing Mand-Raigarh in SECL (South Eastern Coalfields Ltd) command area; connected via Bilaspur-Jharsuguda line (South East Central Railway zone); supplying to Chhattisgarh and Odisha (local) plus Maharashtra/Tamil Nadu via long-distance rail; Paradip port (Odisha) marked for imported coal blending. Poor answer: missing railway zone, showing incorrect consumer states (e.g., Punjab), or omitting port - indicates inability to integrate coal geography with transport economics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

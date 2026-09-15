@@ -1,0 +1,78 @@
+{
+ "catalog": "catalog_class11_unknown_kest103",
+ "concepts": [
+  {
+   "id": "kest103.1.1",
+   "title": "Classification: Bringing Order to Raw Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Classification: Bringing Order to Raw Data' refers to.",
+     "a": "Raw data, collected unit by unit, is a jumble. Classification arranges it into homogeneous classes on some basis -- geographical, chronological, qualitative or quantitative -- so that the mass can be comprehended and subjected to statistical treatment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification: Bringing Order to Raw Data'.",
+     "a": "Classification is sorting for sight -- one basis at a time, chaos becomes classes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification: Bringing Order to Raw Data' taught, and from which source text?",
+     "a": "1.1 (source: kest103.txt classification sections (classification of raw data, geographical chronological qualitative quantitative, purpose of classification))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest103.1.2",
+   "title": "Variables, Frequency Distributions and Class Intervals",
+   "questions": [
+    {
+     "q": "Using the method 'Variables, Frequency Distributions and Class Intervals', work with: lower_limit = 200, upper_limit = 18. Carry the chain through step by step and give the final value of class_mark.",
+     "a": "109 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Variables, Frequency Distributions and Class Intervals' and work with: lower_limit = 150, upper_limit = 300. Carry the chain through step by step and give the final value of class_mark.",
+     "a": "225 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Variables, Frequency Distributions and Class Intervals' refers to.",
+     "a": "Quantitative data is organised by variables -- characteristics that take different numerical values. A frequency distribution records how many observations fall into each value or class interval; exclusive classes count values up to the upper limit, inclusive classes include both endpoints, and class marks stand for each interval.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Variables, Frequency Distributions and Class Intervals'.",
+     "a": "Count the cases per class -- the frequency distribution is the data's first portrait.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Variables, Frequency Distributions and Class Intervals', in plain ASCII form.",
+     "a": "class_mark = (upper_limit + lower_limit) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kest103.1.3",
+   "title": "Loss of Information and Choice of Classes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Loss of Information and Choice of Classes' refers to.",
+     "a": "Grouping buys clarity at a price: individual values disappear into intervals, so some information is lost. The statistician must therefore choose the number and width of classes with care -- enough classes to preserve the pattern, few enough to stay readable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loss of Information and Choice of Classes'.",
+     "a": "Grouping trades detail for clarity -- the art is losing the least information for the most readability.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Loss of Information and Choice of Classes' taught, and from which source text?",
+     "a": "1.3 (source: kest103.txt grouping sections (loss of information, number of classes, width of class intervals, adjusting classes))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

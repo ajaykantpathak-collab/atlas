@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_011",
+   "title": "c11_cs_cbse_09_011",
+   "questions": [
+    {
+     "q": "What is the base class for all file-related exceptions in Python, and which specific exception is raised when trying to open a non-existent file in read mode?",
+     "a": "The base class for all file-related exceptions is OSError (or IOError in Python 2, but in Python 3 IOError is an alias for OSError). When trying to open a non-existent file in read mode, FileNotFoundError (a subclass of OSError) is raised. A wrong answer like \"Exception\" or \"Error\" indicates the student doesn't know the exception hierarchy; answering \"IOError\" without mentioning FileNotFoundError shows they are using outdated Python 2 knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code snippet is problematic for file handling and how the with statement fixes it:\n```python\nf = open(\"data.txt\", \"r\")\ndata = f.read()\nf.close()\n```",
+     "a": "If an exception occurs during f.read() (e.g., the file is corrupted or a keyboard interrupt), the f.close() line is skipped, leaving the file handle open and potentially causing resource leaks. The with statement (context manager) ensures f.close() is called automatically even if an exception occurs, because it calls the file object's __exit__ method upon block exit. A student who says \"it works fine\" misses the exception scenario; one who suggests try-finally but not with shows they know the problem but not the modern Pythonic solution.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that attempts to open \"config.txt\" for reading, catches FileNotFoundError and PermissionError separately with custom messages, prints the file content if successful, and ensures a \"Cleanup done\" message is printed regardless of success or failure.",
+     "a": "```python\ntry:\n    with open(\"config.txt\", \"r\") as f:\n        content = f.read()\nexcept FileNotFoundError:\n    print(\"Error: config.txt not found.\")\nexcept PermissionError:\n    print(\"Error: Permission denied to read config.txt.\")\nelse:\n    print(\"File content:\", content)\nfinally:\n    print(\"Cleanup done\")\n```\nA wrong answer might omit the else block (putting print in try), catch only generic Exception, or forget finally. This reveals inability to structure multiple specific exception handlers and use else/finally correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the behavior of the following two code segments when \"data.txt\" does not exist:\nSegment A:\n```python\ntry:\n    f = open(\"data.txt\", \"r\")\nexcept FileNotFoundError:\n    print(\"Not found\")\n```\nSegment B:\n```python\ntry:\n    with open(\"data.txt\", \"r\") as f:\n        pass\nexcept FileNotFoundError:\n    print(\"Not found\")\n```\nWhich segment is safer and why?",
+     "a": "Both catch FileNotFoundError, but Segment A leaves the file handle open if open() succeeds but an error occurs later (though not in this snippet). Segment B uses a context manager, so if open() succeeds, the file is guaranteed to be closed when the with block exits (even if an exception occurs inside). Segment B is safer because it ensures resource cleanup automatically. A student who says they are equivalent misses the resource management aspect of with.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a program to append logs to \"app.log\" using `open(\"app.log\", \"a\")`. They wrap it in try-except for FileNotFoundError. Evaluate whether this is correct. If not, what exception should they catch and why?",
+     "a": "In append mode (\"a\"), if the file does not exist, Python creates it, so FileNotFoundError is never raised. The student's except block will never execute. The relevant exceptions are PermissionError (if no write permission) or OSError (for other system errors like disk full). Catching FileNotFoundError here shows misunderstanding of file modes. The correct approach is to catch PermissionError and OSError.",
+     "self_check": true
+    },
+    {
+     "q": "Design a robust function `read_integers(filename)` that reads a file containing one integer per line, returns a list of integers, and handles all possible file-related errors gracefully by printing appropriate messages and returning an empty list. The function must not crash on any input.",
+     "a": "```python\ndef read_integers(filename):\n    try:\n        with open(filename, \"r\") as f:\n            numbers = []\n            for line in f:\n                line = line.strip()\n                if line:\n                    try:\n                        numbers.append(int(line))\n                    except ValueError:\n                        print(f\"Warning: Skipping invalid integer '{line}'\")\n            return numbers\n    except FileNotFoundError:\n        print(f\"Error: File '{filename}' not found.\")\n        return []\n    except PermissionError:\n        print(f\"Error: Permission denied to read '{filename}'.\")\n        return []\n    except OSError as e:\n        print(f\"Error reading file: {e}\")\n        return []\n```\nA poor answer might lack nested try-except for ValueError, catch only generic Exception, or not return an empty list on error. This reveals inability to handle multiple error layers (file opening and data parsing) and ensure a safe return value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

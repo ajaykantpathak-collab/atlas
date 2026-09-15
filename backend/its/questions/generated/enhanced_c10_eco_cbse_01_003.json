@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_003",
+   "title": "c10_eco_cbse_01_003",
+   "questions": [
+    {
+     "q": "Define Per Capita Income and state the formula used to calculate it. What does it represent in the context of comparing countries?",
+     "a": "Per Capita Income (PCI) is the average income earned per person in a country in a given year. Formula: PCI = Total National Income / Total Population. It represents the hypothetical equal share of national income each citizen would receive if income were distributed equally, and is used by the World Bank to classify countries into income groups. A wrong answer (e.g., \"total income of a country\" or \"income of the richest person\") reveals the student confuses aggregate measures with averages, or doesn't understand PCI is a mean, not a median or mode.",
+     "self_check": true
+    },
+    {
+     "q": "Country X has a total national income of $2 trillion and a population of 200 million. Country Y has a total national income of $1.5 trillion and a population of 50 million. Calculate the Per Capita Income of both countries. Which country would the World Bank classify as higher income based solely on PCI? Explain why total income alone is misleading for comparing living standards.",
+     "a": "Country X PCI = $2,000,000,000,000 / 200,000,000 = $10,000. Country Y PCI = $1,500,000,000,000 / 50,000,000 = $30,000. Country Y has higher PCI despite lower total income. Total income is misleading because it ignores population size — a large country can have huge total income but low average living standards. A wrong answer (e.g., choosing Country X because \"$2 trillion > $1.5 trillion\") shows the student hasn't grasped that development comparison requires per-person measures, not aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "The World Bank classifies countries using GNI per capita (Atlas method) thresholds. As per the latest classification, a country with GNI per capita of $4,500 falls into which category? If this country's population grows by 2% annually while total GNI grows by 3% annually, what happens to its PCI over time? Show the calculation for one year.",
+     "a": "$4,500 falls in the **lower-middle-income** category (current threshold: $1,136 – $4,465 for lower-middle? Wait, need to use correct thresholds: As of 2023 classification: Low income ≤ $1,135; Lower middle $1,136 – $4,465; Upper middle $4,466 – $13,845; High > $13,845. So $4,500 is actually **upper-middle-income**. Let's recalc: $4,500 > $4,466 → upper-middle. If population grows 2% and GNI grows 3%, PCI grows by approximately 1% (using approximation: %ΔPCI ≈ %ΔGNI - %ΔPop). Exact: New PCI = (1.03 × GNI) / (1.02 × Pop) = (1.03/1.02) × old PCI ≈ 1.0098 × old PCI → 0.98% increase. A wrong answer (e.g., \"PCI stays same\" or \"PCI falls\") reveals confusion between growth rates of numerator and denominator, or not knowing the current World Bank thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Two countries, P and Q, have identical Per Capita Income of ₹1,00,000 per year. In Country P, the top 10% of households earn 50% of total income; in Country Q, the top 10% earn 25% of total income. The government in Country P spends 2% of GDP on public health and education, while Country Q spends 6%. Analyze which country likely has better human development outcomes for the average citizen and why PCI fails to capture this difference.",
+     "a": "Country Q likely has better human development outcomes. Despite identical PCI, Country Q has lower inequality (top 10% share 25% vs 50%), meaning the median/average citizen has higher actual income. Higher public spending (6% vs 2%) on health and education directly improves literacy, life expectancy, and child mortality — non-income dimensions PCI ignores. PCI is an average that masks distribution and excludes public goods. A wrong answer (e.g., \"both are same because PCI is same\") shows the student treats PCI as a sufficient statistic for development, missing its core limitation: it's a mean that doesn't reflect median experience or public provision.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Per Capita Income is the best indicator of a country's development because it is easy to calculate and allows quick comparison across all nations.\" Use the concepts of inequality, public goods, and environmental sustainability in your evaluation.",
+     "a": "The statement is **false**. PCI is convenient but inadequate as the *best* indicator. (1) Inequality: PCI is a mean; high inequality means most people earn far below the average (e.g., South Africa vs. Czech Republic with similar PCI). (2) Public goods: PCI excludes free healthcare, education, clean air, safety — critical for well-being (e.g., Kerala vs. Haryana in India: similar PCI but Kerala has better health/education due to public spending). (3) Sustainability: PCI counts depletion of natural resources as income (e.g., oil sales) without deducting asset loss. Better indicators: HDI (node c10_eco_cbse_01_006), which combines income, education, health. A wrong answer accepting the statement shows the student hasn't internalized the distinction between *income* and *development* — a core theme of this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a mini case study: Invent two countries (give names, total income, population) such that Country A has higher total income but lower PCI than Country B. Then write one paragraph explaining why an international investor might still prefer Country A for a factory, while a social worker would prefer Country B for a community health project.",
+     "a": "Example: Country A (total income ₹50 lakh crore, population 100 crore → PCI ₹50,000). Country B (total income ₹10 lakh crore, population 1 crore → PCI ₹1,00,000). Investor prefers Country A: larger total market size (100 crore consumers), bigger labor pool, economies of scale. Social worker prefers Country B: higher average income means better tax base for public services, likely better existing infrastructure, less absolute poverty. A poor answer (e.g., \"investor likes higher PCI\") confuses market size with average purchasing power, or doesn't link PCI to different decision contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

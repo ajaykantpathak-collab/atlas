@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_004",
+   "title": "c11_geo_cbse_09_004",
+   "questions": [
+    {
+     "q": "Name the three major divisions of the Northern Plains and the primary river system associated with each division.",
+     "a": "The three divisions are: (1) Indus Plain – Indus River system, (2) Ganga Plain – Ganga River system, (3) Brahmaputra Plain – Brahmaputra River system. A wrong answer (e.g., listing \"Punjab Plain\" as a separate division instead of a subdivision of the Indus Plain) reveals the student cannot distinguish between major divisions and their regional subdivisions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indus Plain is characterised by a series of doabs while the Ganga Plain shows a well-developed sequence of bhangar and khadar.",
+     "a": "The Indus Plain receives lower rainfall and its tributaries (Jhelum, Chenab, Ravi, Beas, Satluj) are spaced widely, creating distinct interfluves (doabs) that remain stable. The Ganga Plain has higher rainfall, numerous closely spaced tributaries, and frequent flooding that continuously reworks the alluvium, forming a clear vertical sequence of older alluvium (bhangar) on higher terraces and newer alluvium (khadar) in active floodplains. A wrong answer attributing doabs to \"hard rock barriers\" reveals confusion between structural interfluves and depositional interfluves.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, a student marks the Brahmaputra Plain extending from the eastern edge of the Ganga Plain to the Purvanchal hills. They label the Majuli island and the Dhansiri river. Identify two errors in this representation.",
+     "a": "Error 1: The Brahmaputra Plain does not extend to the Purvanchal hills; it is bounded by the Patkai-Bum hills to the east and the Shillong Plateau to the south. Error 2: The Dhansiri is a tributary of the Brahmaputra but flows through the Karbi Anglong plateau region before joining; it is not a primary feature of the plain's core alluvial tract. Majuli is correctly placed. A wrong answer that accepts the Purvanchal boundary shows the student confuses the eastern boundary of the Brahmaputra Plain with the northeastern hill range.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the floodplain characteristics of the Ganga Plain (middle Ganga) and the Brahmaputra Plain. Why does the Brahmaputra Plain experience more frequent channel avulsion?",
+     "a": "The middle Ganga Plain has a relatively stable, meandering channel with well-defined levees and backswamps; the Brahmaputra Plain is dominated by a braided, multi-channel system with high sediment load and steep gradient near the Himalayan foothills. Frequent avulsion in the Brahmaputra occurs because: (1) extremely high monsoon discharge (up to 50,000 m³/s) exceeds channel capacity, (2) heavy sediment load (735 million tonnes/year) causes rapid aggradation, raising the channel bed above the floodplain, and (3) the river lacks cohesive banks due to sandy alluvium. A wrong answer citing \"earthquakes\" as the primary cause misses the dominant fluvial-geomorphological controls.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Indus Plain is agriculturally more productive than the Ganga Plain because of its extensive irrigation canal network.\" Provide geographical reasoning.",
+     "a": "The statement is partially true but geographically incomplete. The Indus Plain (Punjab-Haryana) has higher *irrigated* productivity due to the Bhakra-Nangal and Indira Gandhi canal systems enabling double/triple cropping of wheat and rice. However, the Ganga Plain has higher *potential* productivity due to: (1) greater annual rainfall (1000-2000 mm vs 400-800 mm), (2) deeper alluvium (up to 6000 m vs 1000-2000 m), and (3) richer nutrient replenishment from frequent flooding. The evaluation must weigh irrigation infrastructure against natural resource endowment. A wrong answer that ignores the rainfall/alluvium depth difference shows inability to integrate physical and human geography factors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for Class 11 students to distinguish the three plains using only three symbols: a doab symbol (interfluve), a khadar/bhangar boundary symbol, and a braided channel symbol. Specify where each symbol would be placed and why.",
+     "a": "Place the doab symbol in the Indus Plain (e.g., between Satluj and Beas – Bist Doab) because stable interfluves are the defining subdivision there. Place the khadar/bhangar boundary symbol across the Ganga Plain (e.g., along the Ganga-Yamuna Doab edge near Delhi) because the terrace sequence is the dominant geomorphological marker. Place the braided channel symbol in the Brahmaputra Plain (e.g., near Dibrugarh) because multi-channel braiding is the characteristic planform. A poor answer that places braided channels in the Ganga Plain reveals failure to link channel pattern to sediment load and gradient.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

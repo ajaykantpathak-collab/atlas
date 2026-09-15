@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_003",
+   "title": "c12_bio_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the three main categories of IUDs available in India's National Family Planning Programme and give one example of each with its effective lifespan.",
+     "a": "The three categories are: (1) Non-medicated/inert IUDs — e.g., Lippes Loop (effective ~3-5 years, now largely phased out); (2) Copper-releasing IUDs — e.g., Cu-T 380A / Cu-7 / Multiload-375 (effective 5-10 years); (3) Hormone-releasing IUDs — e.g., LNG-20 / Mirena (levonorgestrel-releasing, effective 5 years). A wrong answer (e.g., listing \"condom\" as an IUD type or confusing Cu-T with hormonal IUD) reveals the student cannot distinguish device mechanisms and relies on rote memorization without understanding the classification basis (mode of action: physical barrier vs copper toxicity vs local progestin release).",
+     "self_check": true
+    },
+    {
+     "q": "A 28-year-old woman with a history of migraine with aura asks for contraception. Why are combined oral contraceptive pills (COCPs) containing estrogen CONTRAINDICATED for her, while a copper IUD or progestin-only pill would be safer? Explain the physiological mechanism.",
+     "a": "Estrogen in COCPs increases synthesis of clotting factors (II, VII, IX, X) and decreases antithrombin III, creating a hypercoagulable state. Migraine with aura is an independent risk factor for ischemic stroke; the combination multiplies thrombotic risk (synergistic, not additive). Copper IUD acts locally via copper ions toxic to sperm/ova — no systemic hormones. Progestin-only pill (mini-pill) lacks estrogen, so no increased clotting risk; it works mainly by thickening cervical mucus and suppressing endometrium. A wrong answer citing \"estrogen causes migraine\" or \"pills cause blood clots in everyone\" shows confusion between side effect and absolute contraindication, and ignorance of the specific pathophysiological link (estrogen → hepatic coagulation cascade modulation).",
+     "self_check": true
+    },
+    {
+     "q": "A couple wants a reversible method with >99% effectiveness that does not require daily adherence. They have completed their family but may want a child in 3 years. Which single method best fits, and why would a hormonal IUD (LNG-20) be preferable to a copper IUD for a woman who also has heavy menstrual bleeding (menorrhagia)?",
+     "a": "Hormonal IUD (LNG-20/Mirena) is the best fit: >99% effective (Pearl Index ~0.1-0.2), reversible (fertility returns within 1-3 months after removal), lasts 5 years (covers their 3-year window), no daily action needed. For menorrhagia: LNG-20 releases levonorgestrel locally → endometrial atrophy → reduces menstrual blood loss by 80-90% (therapeutic benefit). Copper IUD often increases menstrual bleeding and dysmenorrhea (copper-induced prostaglandin release → uterine contractions). A wrong answer suggesting \"vasectomy\" (not easily reversible), \"COCP\" (requires daily adherence, lower typical-use effectiveness ~91%), or \"copper IUD for menorrhagia\" (worsens it) shows inability to match method attributes to patient-specific clinical scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of action of Centchroman (Ormeloxifene, \"Saheli\") with that of a combined oral contraceptive pill (COCP). Why is Centchroman taken twice a week for 3 months then once a week, whereas COCP is taken daily for 21 days followed by 7 pill-free days?",
+     "a": "Centchroman is a Selective Estrogen Receptor Modulator (SERM): it antagonizes estrogen receptors in uterus (prevents endometrial proliferation → implantation failure) and breast, but agonizes in bone (prevents osteoporosis). It does NOT suppress ovulation consistently; primary action is anti-implantation. Its long half-life (~160 hours) allows weekly dosing after loading phase. COCP contains ethinyl estradiol + progestin: suppresses ovulation via negative feedback on HPO axis (daily dosing needed to maintain steady hormone levels for 21 days); 7-day break induces withdrawal bleed. A wrong answer stating \"Centchroman is a progestin\" or \"both prevent ovulation\" reveals confusion between SERM pharmacology and steroid hormone contraception, and ignorance of dosing rationale tied to pharmacokinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Emergency contraceptive pills (ECPs) containing levonorgestrel 1.5 mg are a form of regular contraception and can be used multiple times per cycle.\" Identify the biological and programmatic errors.",
+     "a": "The statement is FALSE on two counts: (1) Biological: ECPs are high-dose progestin (levonorgestrel 1.5 mg or ulipristal acetate 30 mg) taken within 72-120h post-coitus; they primarily delay/prevent ovulation if taken pre-ovulation. Repeated use in one cycle causes hormonal disruption — irregular bleeding, unpredictable ovulation — and lower efficacy than regular methods. (2) Programmatic: ECPs are for EMERGENCY use only (condom break, sexual assault, missed pills); they have higher failure rate (~10-25%) vs regular COCP (~0.3% perfect use). WHO and India's guidelines restrict ECP to occasional use. A student agreeing with the statement confuses \"contraception\" (planned, ongoing prevention) with \"emergency backup\" and ignores the endocrine disruption from frequent high-dose progestin exposure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a counseling flowchart for a 35-year-old woman (smoker, BMI 32, controlled hypertension on medication) seeking contraception. At each decision node, state the clinical criterion and the method recommended/rejected with biological justification.",
+     "a": "Flowchart logic: \nStart → Age >35 + Smoker? YES → Estrogen-containing methods (COCP, patch, ring) REJECTED (synergistic thrombotic risk: estrogen ↑ clotting factors + smoking → endothelial damage + age → ↑ baseline CVD risk). \n→ Hypertension (controlled)? YES → Further avoids estrogen (estrogen ↑ angiotensinogen → ↑ BP). \n→ BMI >30? YES → COCP efficacy reduced (hepatic metabolism ↑, volume of distribution ↑); also VTE risk ↑ with obesity. \n→ Recommended: Progestin-only methods (POP, DMPA injection, hormonal IUD LNG-20, implant) — no estrogen, safe in all above conditions. Copper IUD also safe (non-hormonal). \n→ Surgical (tubectomy) if family complete. \nA poor flowchart that recommends COCP \"because she's on BP meds\" or rejects IUD \"due to obesity\" shows failure to apply WHO Medical Eligibility Criteria (MEC) categories and misunderstanding of estrogen-specific vs progestin-specific risks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,419 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 6,
+ "chapter_title": "Flow of Control",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs106.1",
+   "title": "Counting Iterations of the range Function",
+   "section": "6.4.1(B)",
+   "definition": "The range(start, stop, step) function generates integers from start up to but excluding stop, moving by step; the number of values it yields equals the span divided by the step, rounded upward, and a negative step walks downwards.",
+   "formula": "items = (stop - start + step - 1) // step",
+   "key_idea": "The stop value itself never appears in the generated sequence, and omitting start or step defaults them to 0 and 1.",
+   "textbook_ref": "kecs106.txt, section 6.4.1(B) and Example 6.4",
+   "question_patterns": [
+    "How many numbers does range(2, 10) generate, and which ones?",
+    "List the values produced by range(0, 30, 5).",
+    "How many iterations does the loop 'for i in range(20, 30, 2)' make?",
+    "What does list(range(10)) return when start and step are omitted?",
+    "Why does range(0, -9, -1) produce a decreasing sequence?",
+    "A loop must run exactly 7 times starting at 0 with step 1. What stop value should range receive?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the span",
+     "explain": "Subtract the start from the stop to see the ground to cover.",
+     "compute": "span = stop - start"
+    },
+    {
+     "step": 2,
+     "action": "round the span up over the step",
+     "explain": "Adding step minus 1 before floor division rounds the count upward.",
+     "compute": "items = (span + step - 1) // step"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many numbers does range(1, 10, 2) generate?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.2",
+   "title": "Positive Difference with Selection",
+   "section": "6.2",
+   "definition": "An if..else statement picks between two paths, so subtracting the smaller number from the larger always yields a positive difference; equivalently, taking the square root of the squared difference removes the sign.",
+   "formula": "positive_diff = sqrt(raw ** 2)",
+   "key_idea": "Whichever branch runs, the same subtraction pair is ordered so the result never goes negative.",
+   "textbook_ref": "kecs106.txt, section 6.2 and Program 6-2",
+   "question_patterns": [
+    "Rewrite the difference program so the output is always positive, for inputs 5 and 7.",
+    "What does the program print for num1 = 5 and num2 = 7 after the if..else fix?",
+    "Why does the plain statement diff = num1 - num2 print -2 for inputs 5 and 7?",
+    "Explain the syntax of the if..else statement used for the positive difference.",
+    "Evaluate the square-root-of-square trick on the difference 3 - 11 and give the result."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract in the given order",
+     "explain": "The raw difference may be negative.",
+     "compute": "raw = first - second"
+    },
+    {
+     "step": 2,
+     "action": "strip the sign",
+     "explain": "Squaring then taking the square root leaves the magnitude.",
+     "compute": "positive_diff = sqrt(raw ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One number is 9 and the other is 4. What is their positive difference?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.3",
+   "title": "Sum of Digits of an Integer",
+   "section": "6.4.2 and Exercise 7",
+   "definition": "A while loop can peel one digit per pass: the remainder on division by 10 is the last digit, floor division by 10 discards it, and the loop adds each peeled digit into a running total until nothing remains.",
+   "formula": "digit_sum = hundreds + tens + ones",
+   "key_idea": "Modulus 10 captures the current last digit and floor division by 10 shortens the number for the next pass.",
+   "textbook_ref": "kecs106.txt, Exercise 7 and Program 6-10 style loops",
+   "question_patterns": [
+    "Find the sum of the digits of 472 using repeated modulus and floor division.",
+    "Write a program that reads an integer and prints the total of its digits.",
+    "What is the digit sum of 999?",
+    "In the digit-sum loop, which expression yields the last digit in every pass?",
+    "A number's digits add to 15 and its last digit is 6. What do its leading digits add to?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "peel the units digit",
+     "explain": "Modulus 10 isolates the final digit.",
+     "compute": "ones = number % 10"
+    },
+    {
+     "step": 2,
+     "action": "shorten the number",
+     "explain": "Floor division by 10 removes the units digit.",
+     "compute": "rest = number // 10"
+    },
+    {
+     "step": 3,
+     "action": "peel the tens digit",
+     "explain": "The same modulus trick on the shortened number gives the tens digit.",
+     "compute": "tens = rest % 10"
+    },
+    {
+     "step": 4,
+     "action": "keep the leading digit",
+     "explain": "One more floor division leaves the hundreds digit.",
+     "compute": "hundreds = rest // 10"
+    },
+    {
+     "step": 5,
+     "action": "total the digits",
+     "explain": "Add all three extracted digits.",
+     "compute": "digit_sum = hundreds + tens + ones"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the sum of the digits of 472?",
+     "a": "13"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.4",
+   "title": "Factorial of a Number with a Loop",
+   "section": "6.4.1 and Program 6-19",
+   "definition": "The factorial of n multiplies every whole number from 1 up to n; a for loop with range(1, num + 1) folds each value into an accumulator that starts at 1, and negative inputs are refused because no factorial exists there.",
+   "formula": "fact = 1 * 2 * 3 * ... * num",
+   "key_idea": "The accumulator begins at 1 because multiplying by 1 changes nothing, and the loop visits num values.",
+   "textbook_ref": "kecs106.txt, Program 6-19",
+   "question_patterns": [
+    "Trace the factorial program for input 5 and state the printed result.",
+    "Why does the factorial loop use range(1, num + 1) instead of range(1, num)?",
+    "What does the factorial program print when the user enters 0, and why?",
+    "Compute 6 factorial by hand the way the loop would.",
+    "Why is the accumulator initialised to 1 rather than 0?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fold the first two factors",
+     "explain": "The loop multiplies num by num minus 1 first.",
+     "compute": "pair = num * (num - 1)"
+    },
+    {
+     "step": 2,
+     "action": "fold the third factor",
+     "explain": "Each pass multiplies one smaller value.",
+     "compute": "triple = pair * (num - 2)"
+    },
+    {
+     "step": 3,
+     "action": "fold the fourth factor",
+     "explain": "The accumulator keeps growing.",
+     "compute": "quad = triple * (num - 3)"
+    },
+    {
+     "step": 4,
+     "action": "fold the final factor",
+     "explain": "Multiplying by 1 closes the chain.",
+     "compute": "fact5 = quad * (num - 4)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is 5 factorial?",
+     "a": "120"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.5",
+   "title": "Sum of Even Numbers up to N",
+   "section": "6.4.1 and Program 6-8",
+   "definition": "A loop that tests num % 2 == 0 prints or adds only the even members of a sequence; up to a limit n there are n // 2 even numbers, and their total is half-count times half-count plus one.",
+   "formula": "even_sum = half_count * (half_count + 1)",
+   "key_idea": "Every second number is even, so the count of evens below n is simply n // 2.",
+   "textbook_ref": "kecs106.txt, Program 6-8",
+   "question_patterns": [
+    "What total does the even-number program print for the list 1 to 10?",
+    "Find the sum of all even numbers from 1 to 20 using the pairs formula.",
+    "Why does num % 2 == 0 detect an even number?",
+    "How many even numbers appear in the range 1 to 50?",
+    "Modify Program 6-8 so it adds the even numbers into a running total instead of printing them."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the even numbers",
+     "explain": "Half of the numbers up to n are even.",
+     "compute": "half_count = limit // 2"
+    },
+    {
+     "step": 2,
+     "action": "total the evens",
+     "explain": "Doubling k gives 2, 4, 6, ... and their sum factors as k times k plus 1.",
+     "compute": "even_sum = half_count * (half_count + 1)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many even numbers lie between 1 and 20?",
+     "a": "10"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.6",
+   "title": "Loop Sum of a Cubed Sequence",
+   "section": "Programming Exercise 6",
+   "definition": "The sequence 1 + 1/8 + 1/27 + ... + 1/n cubed adds one reciprocal of a perfect cube per loop pass; each pass raises the counter to the power 3, divides 1 by it, and folds the term into the total.",
+   "formula": "total = 1 + 1/2**3 + 1/3**3",
+   "key_idea": "Term k of the sequence equals 1 divided by k cubed, so the exponent operator builds every denominator.",
+   "textbook_ref": "kecs106.txt, Programming Exercise 6",
+   "question_patterns": [
+    "Evaluate the sum 1 + 1/8 + 1/27 correct to three decimal places.",
+    "Write a program that prints the sum 1 + 1/8 + 1/27 + ... + 1/n cubed for input n.",
+    "What is the fourth term of the sequence, written as a fraction?",
+    "How does the loop counter produce each denominator of the sequence?",
+    "Approximate the five-term total of the cubed sequence."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the second term",
+     "explain": "Cube the counter 2 and invert it.",
+     "compute": "term2 = 1 / 2 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "form the third term",
+     "explain": "Cube the counter 3 and invert it.",
+     "compute": "term3 = 1 / 3 ** 3"
+    },
+    {
+     "step": 3,
+     "action": "accumulate the terms",
+     "explain": "The first term is 1, so add the two new terms to it.",
+     "compute": "total = 1 + term2 + term3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the first term of the series 1 + 1/8 + 1/27 + ...?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.7",
+   "title": "Elif Ladder for Grade Allocation",
+   "section": "6.2 and Programming Exercise 10",
+   "definition": "An if..elif..else chain tests grade boundaries from the top down: above 90 percent earns an A, 80 to 90 a B, 70 to 80 a C, 60 to 70 a D, and anything below lands in the final else block; the first true condition wins and the rest are skipped.",
+   "formula": "percentage 90 -> A, 80..90 -> B, 70..80 -> C, 60..70 -> D, else E",
+   "key_idea": "Order matters in an elif ladder: testing the lowest band first would swallow every higher grade.",
+   "textbook_ref": "kecs106.txt, Programming Exercise 10 and Example 6.3",
+   "question_patterns": [
+    "Which grade does a student with 78 percent receive in the given allocation table?",
+    "Write a program that reads a percentage and prints the matching grade A to E.",
+    "Why must the condition for grade A be checked before the condition for grade B?",
+    "What grade results from exactly 80 percent, and which branch catches it?",
+    "How is elif different from a fresh if statement in the same ladder?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the ladder top down",
+     "explain": "Compare the percentage with each boundary in descending order; the first satisfied condition assigns the grade and skips the remaining tests."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In a top-down grade ladder, which letter grade does 95 percent earn when above 90 is an A?",
+     "a": "A"
+    }
+   ]
+  },
+  {
+   "id": "kecs106.8",
+   "title": "Break and Continue Statements",
+   "section": "6.5",
+   "definition": "The break statement abandons the loop entirely and jumps to the first statement after it, while continue abandons only the current pass and returns to the loop's condition for the next pass.",
+   "formula": "break -> exit loop; continue -> next iteration",
+   "key_idea": "Break answers 'stop everything', continue answers 'skip this one', and mixing them up changes the output count.",
+   "textbook_ref": "kecs106.txt, sections 6.5.1 and 6.5.2, Programs 6-12 to 6-15",
+   "question_patterns": [
+    "In Program 6-12, which is the last value printed before the break fires, and why?",
+    "Why is the value 3 missing from the output of the continue demonstration?",
+    "Differentiate break and continue with one example of each.",
+    "A while True loop reads numbers and stops at the first negative entry. Which statement ends the reading?",
+    "What becomes of the statements after a continue inside the loop body for that pass?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the loop with the jump in place",
+     "explain": "Break transfers control past the loop body permanently; continue transfers it back to the loop condition, so the remaining statements of the current pass are skipped only."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which statement abandons a loop entirely?",
+     "a": "break"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs106.we1",
+   "title": "Digit sum of 472",
+   "concept_id": "kecs106.3",
+   "problem": "Using repeated modulus and floor division by 10, find the sum of the digits of 472.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "peel the units digit",
+     "explain": "472 % 10 keeps the last digit.",
+     "compute": "ones = 472 % 10"
+    },
+    {
+     "step": 2,
+     "action": "shorten the number",
+     "explain": "472 // 10 drops that digit.",
+     "compute": "rest = 472 // 10"
+    },
+    {
+     "step": 3,
+     "action": "peel the tens digit",
+     "explain": "47 % 10 gives the tens digit.",
+     "compute": "tens = rest % 10"
+    },
+    {
+     "step": 4,
+     "action": "keep the leading digit",
+     "explain": "47 // 10 leaves the hundreds digit.",
+     "compute": "hundreds = rest // 10"
+    },
+    {
+     "step": 5,
+     "action": "total the digits",
+     "explain": "Add the three extracted digits.",
+     "compute": "digit_sum = hundreds + tens + ones"
+    }
+   ],
+   "answer_note": "The digits 4, 7 and 2 add to 13."
+  },
+  {
+   "id": "kecs106.we2",
+   "title": "Tracing the factorial loop for 6",
+   "concept_id": "kecs106.4",
+   "problem": "Trace the accumulator of Program 6-19 when the user enters 6.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "fold the first two factors",
+     "explain": "6 x 5 enters the accumulator.",
+     "compute": "pair = 6 * 5"
+    },
+    {
+     "step": 2,
+     "action": "fold the third factor",
+     "explain": "Multiply by 4.",
+     "compute": "triple = pair * 4"
+    },
+    {
+     "step": 3,
+     "action": "fold the fourth factor",
+     "explain": "Multiply by 3.",
+     "compute": "quad = triple * 3"
+    },
+    {
+     "step": 4,
+     "action": "fold the last factors",
+     "explain": "Multiply by 2 and by 1.",
+     "compute": "final_fact = quad * 2 * 1"
+    }
+   ],
+   "answer_note": "The loop prints that the factorial of 6 is 720."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs106.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 6 Exercise (items reworded)",
+   "questions": [
+    "What is the difference between the else and elif constructs of an if statement?",
+    "What is an infinite loop? Give one example of code that creates one.",
+    "Find the output: a = 110; while a > 100: print(a); a -= 2.",
+    "Find the output of 'for i in range(20, 30, 2): print(i)'.",
+    "Find the output when country = 'INDIA' and the loop prints each character of country.",
+    "Write a program that checks whether a year entered by the user is a leap year.",
+    "Write a program that prints the minimum and maximum of five numbers entered by the user.",
+    "Write a program that reads a number and reports whether it is a palindrome, reading the same forwards and backwards."
+   ]
+  }
+ ]
+}

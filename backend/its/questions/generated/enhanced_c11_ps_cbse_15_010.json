@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_010",
+   "title": "c11_ps_cbse_15_010",
+   "questions": [
+    {
+     "q": "Which constitutional articles govern the appointment of Supreme Court and High Court judges respectively, and what phrase in these articles became the basis for the Collegium system?",
+     "a": "Article 124(2) for Supreme Court and Article 217(1) for High Courts; the phrase \"after consultation with the Chief Justice of India\" (and other judges) was reinterpreted by the Supreme Court to mean \"concurrence,\" giving the judiciary primacy. A wrong answer (e.g., citing Article 50 or Article 121) reveals confusion between separation of powers and appointment provisions, or inability to locate the correct constitutional text.",
+     "self_check": true
+    },
+    {
+     "q": "In the Second Judges Case (1993), the Supreme Court held that \"consultation\" in Article 124(2) actually means \"concurrence.\" Why did the Court make this interpretive leap, and what practical consequence did it have for the appointment process?",
+     "a": "The Court reasoned that judicial independence (a basic structure feature) would be compromised if the executive had primacy; \"consultation\" with the CJI must be meaningful, not formal. The consequence: the CJI's opinion became binding on the President, and the Collegium (CJI + two senior-most judges) gained effective veto power over appointments. A wrong answer focusing only on \"the Court wanted power\" misses the constitutional reasoning linking independence to appointment primacy.",
+     "self_check": true
+    },
+    {
+     "q": "A vacancy arises in the Supreme Court. The Collegium (CJI + 4 senior-most judges) recommends Lawyer X. The Union Law Minister objects, citing X's past political affiliations. The President seeks the Collegium's reconsideration. The Collegium reiterates its recommendation unanimously. What happens next, and which constitutional principle settles this?",
+     "a": "The President must appoint Lawyer X. Under the Third Judges Case (1998), a unanimous reiteration by the Collegium is binding on the executive. The principle: judicial primacy in appointments is part of the basic structure (judicial independence), so the executive cannot override a unanimous Collegium decision. A wrong answer (e.g., \"President can still refuse\") shows misunderstanding of the binding nature of reiteration and the hierarchy of constitutional principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-1993 appointment system (executive primacy) with the post-1993 Collegium system (judicial primacy) on three dimensions: (a) role of the CJI, (b) role of the executive, (c) transparency and accountability mechanisms.",
+     "a": "Pre-1993: CJI consulted but executive could override; executive had final say; minimal transparency but parliamentary accountability. Post-1993: CJI leads Collegium with primacy; executive bound by unanimous reiteration; no formal transparency mechanism (no minutes, criteria public), no external accountability. A wrong answer conflating the two systems or claiming the Collegium has statutory basis (it doesn't — it's judge-made) reveals failure to distinguish constitutional text from judicial interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "The 99th Constitutional Amendment (2014) created the National Judicial Appointments Commission (NJAC) with the CJI, two senior judges, the Law Minister, and two \"eminent persons.\" The Supreme Court struck it down in 2015. Evaluate: was the Court protecting judicial independence or protecting its own institutional power? Justify with two arguments.",
+     "a": "The Court protected independence: (1) NJAC gave the executive (Law Minister) and political appointees (eminent persons) a collective veto over judicial appointments, violating the basic structure doctrine that judiciary must not depend on executive for composition. (2) The \"eminent persons\" had no defined qualifications and could be removed by the government, creating political influence. A wrong answer claiming \"the Court just wanted to keep power\" ignores the doctrinal reasoning in the NJAC judgment (4:1 majority) linking executive participation to compromised independence.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a reformed judicial appointment system that balances independence with accountability. Your proposal must specify: (a) composition of the appointing body, (b) decision-making rule (consensus/majority/veto), (c) one transparency mechanism, and (d) one accountability check.",
+     "a": "A strong answer: \"A 7-member Judicial Appointments Commission: CJI (chair), 2 senior SC judges, Law Minister, Leader of Opposition, and 2 eminent jurists nominated by a bipartisan panel. Decisions by 5:2 majority including at least 2 judges. All meetings minuted and published after 30 days. Annual report to Parliament on appointments made, criteria used, and diversity metrics.\" A poor answer copies the NJAC exactly or omits a transparency/accountability mechanism, showing inability to synthesize competing principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

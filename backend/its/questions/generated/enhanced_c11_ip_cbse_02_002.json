@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_002",
+   "title": "c11_ip_cbse_02_002",
+   "questions": [
+    {
+     "q": "What does IDLE stand for, and which two distinct windows does it provide when launched?",
+     "a": "IDLE stands for **Integrated Development and Learning Environment**. It provides two windows: (1) the **Shell window** (interactive REPL with `>>>` prompt for immediate single-statement execution) and (2) the **Editor window** (file-based script editor for writing, saving as `.py`, and running multi-line programs via F5).  \nA wrong answer (e.g., \"IDLE is just a text editor\" or \"it only has one window\") reveals the student conflates IDLE with generic editors like Notepad and doesn't grasp the dual-mode design central to Python's interactive+script workflow — a gap that causes them to write multi-line code in the Shell and lose it on restart.",
+     "self_check": true
+    },
+    {
+     "q": "During Python installation on Windows, the checkbox \"Add Python to PATH\" appears. Explain in your own words what this does and why skipping it breaks `python` command in Command Prompt.",
+     "a": "\"Add Python to PATH\" appends the Python installation directory (e.g., `C:\\Users\\Name\\AppData\\Local\\Programs\\Python\\Python311\\`) and its `Scripts\\` subfolder to the **system/user PATH environment variable**. This tells Windows where to look for the `python.exe` executable when you type `python` in any terminal. Without it, Command Prompt searches only default system paths, fails to find `python.exe`, and returns `'python' is not recognized as an internal or external command`.  \nA wrong answer (e.g., \"it makes Python faster\" or \"it installs IDLE\") reveals the student treats PATH as a magic \"make it work\" button without understanding the OS-level executable lookup mechanism — they'll later struggle to run scripts from terminal, use pip, or configure external tools that rely on PATH.",
+     "self_check": true
+    },
+    {
+     "q": "A student installs Python 3.11 on Windows 11 but forgets to check \"Add Python to PATH\". After installation, they open Command Prompt and type `python --version`. What exact error message appears, and what are the **two** ways to fix this without reinstalling?",
+     "a": "**Error:** `'python' is not recognized as an internal or external command, operable program or batch file.`  \n**Fix 1 (temporary per session):** In Command Prompt, run the full path: `C:\\Users\\<username>\\AppData\\Local\\Programs\\Python\\Python311\\python.exe --version` (adjust path to actual install location).  \n**Fix 2 (permanent):** Search \"Environment Variables\" in Start → Edit the system environment variables → Environment Variables → under \"User variables\" or \"System variables\", select `Path` → Edit → New → add the Python install folder and its `Scripts\\` subfolder → OK all dialogs → restart Command Prompt.  \nA wrong answer (e.g., \"reinstall Python\" or \"use IDLE only\") reveals the student lacks OS-level troubleshooting skills and doesn't understand that PATH is a configurable list, not a one-time install setting — they'll be blocked whenever they need terminal access (pip, virtual envs, git hooks).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IDLE Shell window and Editor window across these dimensions: (a) persistence of code after closing, (b) execution model, (c) typical use case, (d) file extension associated. Present as a 4-row comparison table.",
+     "a": "| Dimension | Shell Window | Editor Window |\n|-----------|--------------|---------------|\n| (a) Persistence | Code **lost** on close/restart | Code **saved** in `.py` file on disk |\n| (b) Execution model | **Interactive (REPL)**: each Enter executes immediately | **Script mode**: entire file runs via F5 (Run Module) |\n| (c) Typical use case | Quick tests, API exploration, calculator, debugging snippets | Writing full programs, functions, multi-statement logic |\n| (d) File extension | None (transient session) | `.py` (e.g., `gst_calc.py`) |\n\nA wrong answer (e.g., \"both save files\" or \"Shell runs whole programs\") reveals the student hasn't internalized the REPL vs script-mode distinction — they'll attempt to write 50-line programs in the Shell, lose work on accidental close, and fail to grasp why `def` functions need the Editor.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student claims: *\"IDLE is sufficient for all Python development — professional developers don't need VS Code or PyCharm.\"* Evaluate this statement with **three** specific technical limitations of IDLE that make it unsuitable for large-scale projects, and one scenario where IDLE remains the **preferred** tool.",
+     "a": "**Evaluation: The claim is false for professional work but true for learning.**  \n**Three limitations of IDLE:**  \n1. **No project-wide code intelligence** — lacks cross-file refactoring, type checking, go-to-definition across modules, and integrated linting (pylint/flake8) essential for 1000+ line codebases.  \n2. **No integrated terminal/version control** — cannot run git commands, manage virtual environments, or debug with breakpoints/watch variables side-by-side with code; requires constant window-switching.  \n3. **Weak multi-file navigation** — no file tree explorer, tab grouping, or split-pane editing; managing 20+ `.py` files becomes chaotic.  \n**One preferred scenario:** **Teaching/learning first 6 months** — IDLE's zero-config startup, built-in syntax highlighting, auto-indentation, and immediate Shell feedback reduce cognitive load for beginners learning syntax, indentation, and execution flow without IDE complexity.  \nA wrong answer (e.g., \"IDLE has no debugger\" — it has a basic one; or \"IDLE can't run big files\" — it can) reveals the student confuses *feature absence* with *capacity limits* and doesn't distinguish pedagogical fit from production readiness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **step-by-step verification checklist** (8-10 steps) that a Class 11 student can hand to a friend to prove their Python + IDLE installation is fully functional — including one deliberate \"trap\" step that catches the most common silent failure.",
+     "a": "**Checklist:**  \n1. Open Command Prompt (Win+R → `cmd`).  \n2. Type `python --version` → confirm output shows `Python 3.x.x`.  \n3. Type `python -c \"print('Hello from CLI')\"` → confirm output appears.  \n4. Type `idle` → confirm IDLE Shell window opens with `>>>` prompt.  \n5. In Shell, type `2 + 3 * 4` → confirm `14` appears (tests operator precedence).  \n6. In Shell, type `import sys; print(sys.version)` → confirm version matches step 2.  \n7. **TRAP STEP:** In Shell, type `import tkinter; tkinter._test()` → a small GUI window **must appear** — if it fails with `ModuleNotFoundError` or `TclError`, the installer's \"tcl/tk and IDLE\" optional feature was unchecked (common silent failure on custom installs).  \n8. File → New File → type `print('Editor test')` → save as `test.py` on Desktop.  \n9. Press F5 → confirm \"Editor test\" prints in Shell window.  \n10. Close IDLE, reopen, File → Open → `test.py` → confirm code persists.  \nA poor answer (missing trap step, or checking only `python --version`) reveals the student doesn't know IDLE depends on `tkinter` (often excluded in minimal installs) and equates \"CLI works\" with \"IDLE works\" — they'll later face blank IDLE launches or missing graphics in turtle/graphics modules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

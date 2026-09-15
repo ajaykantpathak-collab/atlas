@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_011",
+   "title": "c12_cs_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is the primary difference between a white hat hacker and a black hat hacker in terms of authorization and intent?",
+     "a": "A white hat hacker (ethical hacker) has explicit authorization from the system owner to test vulnerabilities and intends to improve security. A black hat hacker (cracker) acts without authorization with malicious intent such as data theft or system damage. A wrong answer (e.g., saying both are illegal or both have same intent) reveals confusion about the legal and ethical boundary that defines ethical hacking.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what a grey hat hacker does and why their actions are still considered problematic despite not having malicious intent.",
+     "a": "A grey hat hacker exploits vulnerabilities without authorization but does not do so for personal gain or malice; they may do it for challenge or to expose flaws. However, their actions are illegal because they lack permission, and they may inadvertently cause damage or enable black hats. A wrong answer (e.g., saying grey hats are legal or are same as white hats) shows misunderstanding of the importance of authorization in cybersecurity ethics.",
+     "self_check": true
+    },
+    {
+     "q": "A company discovers a security flaw in their web application. They hire a cybersecurity professional to attempt to exploit the flaw under a signed agreement. The professional successfully accesses the database but does not extract any data, instead documenting the vulnerability and reporting it. Classify this professional's activity and justify your classification.",
+     "a": "This is ethical hacking (white hat). The professional had explicit authorization (signed agreement), the intent was to identify and fix the vulnerability, and no data was stolen. The action was legal and constructive. A wrong classification (e.g., calling it cracking) indicates the student fails to recognize that authorization and intent are the defining criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of ethical hackers and crackers in the context of a ransomware attack (like WannaCry). How does each contribute to the cybersecurity ecosystem?",
+     "a": "Crackers create and deploy ransomware to encrypt victims' data and demand payment, causing financial and operational harm. Ethical hackers analyze ransomware behavior, develop decryption tools, patch vulnerabilities, and strengthen defenses to prevent future attacks. While crackers exploit vulnerabilities, ethical hackers work to close them. A wrong answer that blurs this distinction (e.g., saying ethical hackers also create ransomware) shows a lack of analytical understanding of the opposing roles in cybersecurity.",
+     "self_check": true
+    },
+    {
+     "q": "\"All hacking is illegal and harmful.\" Evaluate this statement using the concepts of white, black, and grey hat hackers. Provide a reasoned judgment.",
+     "a": "The statement is false. White hat hacking is legal and beneficial when performed with authorization to improve security. Black hat hacking (cracking) is illegal and harmful. Grey hat hacking is illegal due to lack of authorization but may not be harmful in intent. The statement oversimplifies a nuanced field. A student who agrees with the statement fails to evaluate the ethical and legal dimensions that differentiate hacking types.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a grey hat hacker's actions lead to a positive outcome for an organization, but still raise ethical and legal concerns. Describe the scenario and explain why organizations should not rely on grey hat hackers.",
+     "a": "Example scenario: A grey hat hacker discovers a vulnerability in a hospital's patient portal, accesses it without permission, and then anonymously emails the IT team with details. The hospital patches the flaw, preventing a potential breach. Positive outcome: vulnerability fixed. Concerns: unauthorized access is illegal; the hacker could have stolen data; no accountability; encourages others to bypass legal channels. Organizations should use authorized ethical hackers (white hats) with contracts and clear scope. A poor answer that ignores legal/ethical concerns or suggests grey hats are a viable alternative shows failure to create a balanced analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

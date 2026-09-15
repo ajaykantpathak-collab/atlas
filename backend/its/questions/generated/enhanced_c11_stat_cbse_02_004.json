@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_004",
+   "title": "c11_stat_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define \"population\" in the statistical sense and give an example where the population is NOT all people in a country.",
+     "a": "In statistics, a population (or universe) is the complete set of all items/individuals possessing specific characteristics relevant to the study. Example: For a study on \"average yield of wheat per hectare in Punjab,\" the population is all wheat-growing plots in Punjab—not all people, not all farms, not all crops. A wrong answer (e.g., \"population means all citizens of India\") reveals the student confuses statistical population with demographic population and cannot define the study-specific scope.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher surveys 100 out of 1,000 households in a village to estimate average income. The sample mean is ₹25,000; the true population mean (unknown to the researcher) is ₹28,000. What is the sampling error? Can increasing the sample size to 500 guarantee the sampling error becomes zero? Explain.",
+     "a": "Sampling error = Population parameter − Sample estimate = ₹28,000 − ₹25,000 = ₹3,000. Increasing sample size to 500 reduces the *expected magnitude* of sampling error but cannot guarantee it becomes zero because sampling error arises from chance variation in which units are selected; only a census (sample size = population size) eliminates it entirely. A wrong answer (\"yes, larger sample removes error\") reveals the student thinks sampling error is a mistake rather than an inherent feature of sampling.",
+     "self_check": true
+    },
+    {
+     "q": "The Census of India 2011 recorded a literacy rate of 74.04%. A private NGO conducts a sample survey in 2012 covering 50,000 households and finds 76.2%. The NGO claims their survey is \"more accurate because it's newer.\" Evaluate this claim using the concepts of sampling error and non-sampling error.",
+     "a": "The claim is flawed. The Census, despite being older, covers the entire population—its literacy rate has zero sampling error (though non-sampling errors like non-response or recording mistakes may exist). The NGO's survey has both sampling error (due to using a sample) and potential non-sampling errors. \"Newer\" does not imply \"more accurate\"; a well-executed census provides the true parameter (subject only to non-sampling errors), while a sample provides an estimate with uncertainty. A wrong answer accepting the NGO's claim reveals the student confuses recency with accuracy and does not grasp that sampling error is absent in a census.",
+     "self_check": true
+    },
+    {
+     "q": "Compare census and sample surveys on these dimensions: (a) ability to provide disaggregated data at the village/block level, (b) feasibility when the measurement destroys the unit (e.g., testing bulb lifespan), (c) scope for intensive, detailed questioning per respondent. Explain why the answer differs for each dimension.",
+     "a": "(a) Census wins: only complete enumeration yields reliable village-level estimates; samples would need impractically large sizes for small-area estimation. (b) Sample wins: destructive testing (e.g., burning bulbs to measure lifespan) makes census impossible—you'd destroy the entire population. (c) Sample wins: with fewer respondents, you can afford longer interviews, deeper probing, and better-trained enumerators; a census forces brevity due to scale. A wrong answer (e.g., \"census is better for everything\") reveals the student treats census as universally superior and ignores context-specific trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "\"Non-sampling errors are more serious than sampling errors because they cannot be reduced by increasing sample size.\" Defend or critique this statement with two distinct examples of non-sampling errors that could occur in BOTH a census and a sample survey.",
+     "a": "The statement is correct. Two non-sampling errors affecting both: (1) Response error—respondents misunderstand \"monthly household expenditure\" (some include rent, others don't), leading to systematic bias regardless of sample size. (2) Coverage error—the sampling frame misses homeless households or new migrants; a census using the same flawed frame repeats the omission. Increasing sample size only reduces sampling variability, not these systematic biases. A wrong answer (\"non-sampling errors can be fixed by larger samples\") reveals the student conflates random error with systematic error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research scenario where a census is clearly inappropriate and a sample survey is the only viable option. Specify the population, the variable, and three practical constraints that rule out a census.",
+     "a": "Scenario: Estimating the average lead content in paint used on toys sold in Delhi markets. Population: All toy units sold in Delhi in a year (millions). Variable: Lead concentration (mg/kg). Constraints: (1) Testing destroys the toy (destructive testing); (2) Cost per lab test is ₹2,000—census would cost billions; (3) Results needed in 3 months for regulatory action—census would take years. A poor answer (e.g., \"surveying all students in a school\") fails to identify a context where census is *impossible*, not just inconvenient, revealing the student cannot distinguish feasibility constraints from preference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

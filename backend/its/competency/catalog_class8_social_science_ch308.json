@@ -1,0 +1,777 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 308,
+ "chapter_title": "Law and Social Justice",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees204.txt",
+ "concepts": [
+  {
+   "id": "hess.308.1",
+   "title": "Market Laws and Protection of Minimum Wages",
+   "section": "Why do we need a law on minimum wages?",
+   "definition": "Legislative mandates setting wage floors ensure that workers receive fair compensation and protect vulnerable market participants from economic exploitation.",
+   "formula": "total_wages = daily_wage * days_worked",
+   "key_idea": "Minimum wage legislation protects low-bargaining workers from exploitative underpayment by profit-seeking employers.",
+   "textbook_ref": "hess308.txt lines 100-102",
+   "question_patterns": [
+    "calculate the total earnings under minimum wage law for a worker receiving daily wage of daily_wage over days_worked days",
+    "find the minimum legal earnings for daily_wage rupees per day across days_worked days in Class 8 social science",
+    "determine the minimum total pay earned when daily wage is daily_wage for days_worked days",
+    "how much wage must an employer legally pay for daily_wage rate over days_worked days",
+    "what is the total legally required payment for daily_wage over days_worked working days"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total statutory earnings",
+     "explain": "Multiply the prescribed minimum daily wage rate by the number of days worked.",
+     "compute": "total_wages = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "hess.308.2",
+   "title": "Implementation and Enforcement of Social Laws",
+   "section": "Enforcement of Laws",
+   "definition": "The government obligation to actively inspect workplaces, impose penalties, and monitor compliance so statutory protections translate into actual benefits for marginalized groups.",
+   "formula": "",
+   "key_idea": "Passage of legislation is insufficient without state-led workplace monitoring and strict penalty enforcement.",
+   "textbook_ref": "hess308.txt lines 102-103",
+   "question_patterns": [
+    "why is legal enforcement necessary to protect market participants",
+    "explain how regular government inspections ensure market fairness",
+    "how does workplace regulation prevent exploitation of powerless laborers",
+    "describe the role of the state in upholding minimum wage rules",
+    "what steps must governments take to enforce labor legislation effectively"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine state enforcement duties",
+     "explain": "Identify the mechanisms such as site inspections and penal sanctions used by authorities to monitor statutory compliance."
+    },
+    {
+     "step": 2,
+     "action": "Assess impact on vulnerable workers",
+     "explain": "Analyze how systematic enforcement prevents powerful entities from undercutting legal standards and worker security."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.3",
+   "title": "Child Labour Laws and Penalties",
+   "section": "Child Labour Regulations",
+   "definition": "Legal prohibitions banning economic employment of children below 14 years across all sectors and adolescents in hazardous industries, backed by penal consequences.",
+   "formula": "",
+   "key_idea": "Constitutional provisions and 2016 statutory amendments classify child employment as a cognizable offense with mandatory jail terms and monetary fines.",
+   "textbook_ref": "hess308.txt lines 103-104",
+   "question_patterns": [
+    "what are the legal penalties for violating child labor laws in India",
+    "explain the child labor prohibition act amendment of 2016",
+    "how does the pencil portal facilitate enforcement against child employment",
+    "describe constitutional provisions prohibiting child labor in hazardous sectors",
+    "summarize the age restrictions and rehabilitation measures under child labor regulations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify statutory bans and age thresholds",
+     "explain": "Review legal prohibitions regarding employment under 14 years and adolescent restrictions in dangerous occupations."
+    },
+    {
+     "step": 2,
+     "action": "Detail regulatory sanctions and monitoring tools",
+     "explain": "Outline prescribed penal sentences, monetary fines, and digital complaining mechanisms like the PENCIL online platform."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.4",
+   "title": "The Bhopal Gas Tragedy and Corporate Liability",
+   "section": "Bhopal Gas Tragedy",
+   "definition": "A catastrophic toxic chemical release resulting from corporate negligence, highlighting issues of enterprise liability, disaster compensation, and environmental clean-up.",
+   "formula": "",
+   "key_idea": "Industrial safety shortcuts and delayed remediation demonstrate the necessity of strict accountability for hazardous chemical operations.",
+   "textbook_ref": "hess308.txt lines 104-105",
+   "question_patterns": [
+    "what caused the bhopal gas tragedy in 1984",
+    "analyze corporate liability and safety failures at the union carbide plant",
+    "how did the disaster impact the health and economic well-being of local residents",
+    "describe the legal settlement and compensation claims following the bhopal disaster",
+    "explain why survivors continue to demand medical care and environmental remediation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify causes of industrial disaster",
+     "explain": "Examine chemical plant safety lapses, cost-cutting choices, and toxic gas leak consequences."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate compensation and liability outcomes",
+     "explain": "Analyze judicial settlements, government representation of victims, and ongoing demands for site decontamination."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.5",
+   "title": "Evaluation of Worker Worth and Safety Disparities",
+   "section": "What is a Worker's Worth?",
+   "definition": "Economic conditions of high labor supply and low wages that lead multinational corporations to reduce safety budgets and treat domestic workers as easily replaceable.",
+   "formula": "",
+   "key_idea": "Labor market surplus enables commercial firms to impose hazardous working conditions and lower compensation.",
+   "textbook_ref": "hess308.txt lines 106-107",
+   "question_patterns": [
+    "why do foreign companies set up manufacturing units in developing nations",
+    "explain how cost-cutting practices compromise workplace safety standards",
+    "how does high unemployment lower the perceived value of worker life",
+    "compare safety infrastructure between foreign plants and Indian operating units",
+    "what factors allow employers to enforce longer hours for lower compensation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze labor market vulnerabilities",
+     "explain": "Assess how elevated unemployment rates force job seekers to accept unsafe workplace environments."
+    },
+    {
+     "step": 2,
+     "action": "Compare cross-border safety standards",
+     "explain": "Examine operational differences between automated safety setups in high-income nations and reduced safety spending in developing countries."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.6",
+   "title": "Government Role in Safety Law Enforcement and Article 21",
+   "section": "Enforcement of Safety Laws",
+   "definition": "The constitutional mandate directing regulatory agencies to enforce factory safety norms to protect citizen rights to life under Article 21.",
+   "formula": "",
+   "key_idea": "Failure to enforce safety regulations violates fundamental constitutional rights to physical safety and life.",
+   "textbook_ref": "hess308.txt lines 107-108",
+   "question_patterns": [
+    "what is the duty of the state regarding article 21 safety enforcement",
+    "explain why local officials permitted hazardous plant installation in populated zones",
+    "how did lax inspection mechanisms fail workers prior to the industrial disaster",
+    "describe how economic investment priorities undermined public safety enforcement",
+    "what measures should regulatory bodies adopt to oversee industrial operations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define state duty under Article 21",
+     "explain": "Connect government regulatory obligations to the protection of life guaranteed by constitutional articles."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate systemic regulatory failures",
+     "explain": "Analyze how industrial investment goals led inspectors to ignore site hazards and urban planning restrictions."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.7",
+   "title": "Environment as a Public Right and Polluter Accountability",
+   "section": "New Laws to Protect the Environment",
+   "definition": "Legal principles establishing pollution-free air and water as part of Article 21 rights and holding environmental polluters financially liable for damages.",
+   "formula": "",
+   "key_idea": "Judicial rulings established environmental quality as an intrinsic public right, shifting pollution responsibility onto industrial polluters.",
+   "textbook_ref": "hess308.txt lines 108-109",
+   "question_patterns": [
+    "how did the subhash kumar vs state of bihar case expand environmental rights",
+    "explain the polluter pays principle in Indian environmental jurisprudence",
+    "why must the environment be treated as a shared public facility rather than a free resource",
+    "describe how supreme court rulings integrated clean air and water into article 21",
+    "what responsibilities do governments have in mitigating industrial pollution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Review landmark judicial rulings",
+     "explain": "Examine legal precedents such as Subhash Kumar vs. State of Bihar that incorporated clean resources into constitutional rights."
+    },
+    {
+     "step": 2,
+     "action": "Apply the polluter pays rule",
+     "explain": "Explain the judicial mechanism requiring industrial entities to finance environmental restoration and pollution penalties."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.8",
+   "title": "Balancing Environmental Protection with Worker Livelihoods",
+   "section": "Environment as a Public Facility",
+   "definition": "Policy challenges involved in enforcing environmental standards without causing unemployment or displacing marginalized populations.",
+   "formula": "",
+   "key_idea": "Environmental regulations must integrate clean technologies while safeguarding worker employment and equitable urban growth.",
+   "textbook_ref": "hess308.txt lines 109-110",
+   "question_patterns": [
+    "how do environmental closure orders impact factory worker livelihoods",
+    "explain the trade-off between urban beautification drives and low-income housing rights",
+    "what measures can balance clean environment goals with industrial worker protection",
+    "describe the impact of mandatory cng conversion on urban air quality and transit",
+    "how can policy ensure that environmental solutions do not disproportionately burden the poor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify socio-economic trade-offs",
+     "explain": "Analyze how abrupt industrial relocations or closures impair working-class livelihoods and shift pollution elsewhere."
+    },
+    {
+     "step": 2,
+     "action": "Formulate balanced policy solutions",
+     "explain": "Evaluate transition strategies like subsidized clean technology adoption and employment protection programs."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.9",
+   "title": "Relocation of Hazardous and Toxic Industries",
+   "section": "Relocation of Hazardous Industries",
+   "definition": "The practice of transferring high-risk production processes and toxic recycling activities from high-regulation countries to developing regions.",
+   "formula": "",
+   "key_idea": "Weaker regulatory oversight drives the global migration of hazardous industries like ship-breaking to South Asia.",
+   "textbook_ref": "hess308.txt lines 110-111",
+   "question_patterns": [
+    "why do developed countries transfer hazardous production to south asian nations",
+    "explain the health and environmental risks associated with ship-breaking in alang",
+    "how do weaker regulatory frameworks attract toxic waste processing industries",
+    "describe the dangers faced by workers in asbestos and heavy metal recycling facilities",
+    "what international safeguards are needed to restrict environmental dumping in developing countries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze cross-border regulatory arbitrage",
+     "explain": "Explain why multinational enterprises seek locations with lower compliance expenditures and relaxed environmental standards."
+    },
+    {
+     "step": 2,
+     "action": "Examine hazardous industry impacts",
+     "explain": "Detail health and safety risks present in sectors like ship scrap yards in Alang and pesticide manufacturing plants."
+    }
+   ]
+  },
+  {
+   "id": "hess.308.10",
+   "title": "Constitution as a Living Ideal and Article 21 Expansion",
+   "section": "The Constitution as a Living Ideal",
+   "definition": "The adaptive capacity of constitutional frameworks to continuously expand fundamental guarantees to meet modern human dignity demands.",
+   "formula": "",
+   "key_idea": "Judicial interpretations continually expand Article 21 rights to embrace health, livelihood, education, shelter, and clean environments.",
+   "textbook_ref": "hess308.txt lines 112-113",
+   "question_patterns": [
+    "why is the Indian constitution described as a living document",
+    "explain how judicial interpretation expanded article 21 to cover health shelter and education",
+    "how have public interest litigations transformed constitutional rights for marginalized groups",
+    "describe the significance of constitutional flexibility in achieving social justice",
+    "what role do citizens play in transforming constitutional provisions into practical realities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain constitutional flexibility",
+     "explain": "Describe how democratic principles permit continuous re-interpretation of basic rights without altering core values."
+    },
+    {
+     "step": 2,
+     "action": "Trace Article 21 judicial expansion",
+     "explain": "List legal precedents that extended the Right to Life to encompass healthcare access, shelter, education, and unpolluted surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess308.txt lines 100-102",
+   "concept": "hess.308.1",
+   "question_type": "compute",
+   "question_pattern": "A daily-wage construction worker is guaranteed a minimum daily wage of Rs {daily_wage}. Calculate the total statutory compensation for working {days_worked} days.",
+   "extracted_variables": {
+    "daily_wage": 350,
+    "days_worked": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply minimum daily wage by total days worked",
+     "explain": "Statutory minimum wage earnings are calculated by multiplying the daily rate by the duration of employment in days.",
+     "compute": "total_wages = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess308.txt lines 100-102",
+   "concept": "hess.308.1",
+   "question_type": "compute",
+   "question_pattern": "Find the total earnings of an agricultural laborer who earns a statutory wage of Rs {daily_wage} per day over a period of {days_worked} days.",
+   "extracted_variables": {
+    "daily_wage": 400,
+    "days_worked": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply minimum daily wage by total days worked",
+     "explain": "Total compensation is computed by scaling the fixed daily rate with the number of days worked.",
+     "compute": "total_wages = daily_wage * days_worked"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.2",
+   "question_type": "verify_property",
+   "question_pattern": "why is legal enforcement necessary to protect market participants",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine state enforcement duties",
+     "explain": "Identify the mechanisms such as site inspections and penal sanctions used by authorities to monitor statutory compliance."
+    },
+    {
+     "step": 2,
+     "action": "Assess impact on vulnerable workers",
+     "explain": "Analyze how systematic enforcement prevents powerful entities from undercutting legal standards and worker security."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain how regular government inspections ensure market fairness",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine state enforcement duties",
+     "explain": "Identify the mechanisms such as site inspections and penal sanctions used by authorities to monitor statutory compliance."
+    },
+    {
+     "step": 2,
+     "action": "Assess impact on vulnerable workers",
+     "explain": "Analyze how systematic enforcement prevents powerful entities from undercutting legal standards and worker security."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.3",
+   "question_type": "verify_property",
+   "question_pattern": "what are the legal penalties for violating child labor laws in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify statutory bans and age thresholds",
+     "explain": "Review legal prohibitions regarding employment under 14 years and adolescent restrictions in dangerous occupations."
+    },
+    {
+     "step": 2,
+     "action": "Detail regulatory sanctions and monitoring tools",
+     "explain": "Outline prescribed penal sentences, monetary fines, and digital complaining mechanisms like the PENCIL online platform."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the child labor prohibition act amendment of 2016",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify statutory bans and age thresholds",
+     "explain": "Review legal prohibitions regarding employment under 14 years and adolescent restrictions in dangerous occupations."
+    },
+    {
+     "step": 2,
+     "action": "Detail regulatory sanctions and monitoring tools",
+     "explain": "Outline prescribed penal sentences, monetary fines, and digital complaining mechanisms like the PENCIL online platform."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.4",
+   "question_type": "verify_property",
+   "question_pattern": "what caused the bhopal gas tragedy in 1984",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify causes of industrial disaster",
+     "explain": "Examine chemical plant safety lapses, cost-cutting choices, and toxic gas leak consequences."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate compensation and liability outcomes",
+     "explain": "Analyze judicial settlements, government representation of victims, and ongoing demands for site decontamination."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.4",
+   "question_type": "verify_property",
+   "question_pattern": "analyze corporate liability and safety failures at the union carbide plant",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify causes of industrial disaster",
+     "explain": "Examine chemical plant safety lapses, cost-cutting choices, and toxic gas leak consequences."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate compensation and liability outcomes",
+     "explain": "Analyze judicial settlements, government representation of victims, and ongoing demands for site decontamination."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.5",
+   "question_type": "verify_property",
+   "question_pattern": "why do foreign companies set up manufacturing units in developing nations",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze labor market vulnerabilities",
+     "explain": "Assess how elevated unemployment rates force job seekers to accept unsafe workplace environments."
+    },
+    {
+     "step": 2,
+     "action": "Compare cross-border safety standards",
+     "explain": "Examine operational differences between automated safety setups in high-income nations and reduced safety spending in developing countries."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.5",
+   "question_type": "verify_property",
+   "question_pattern": "explain how cost-cutting practices compromise workplace safety standards",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze labor market vulnerabilities",
+     "explain": "Assess how elevated unemployment rates force job seekers to accept unsafe workplace environments."
+    },
+    {
+     "step": 2,
+     "action": "Compare cross-border safety standards",
+     "explain": "Examine operational differences between automated safety setups in high-income nations and reduced safety spending in developing countries."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.6",
+   "question_type": "verify_property",
+   "question_pattern": "what is the duty of the state regarding article 21 safety enforcement",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define state duty under Article 21",
+     "explain": "Connect government regulatory obligations to the protection of life guaranteed by constitutional articles."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate systemic regulatory failures",
+     "explain": "Analyze how industrial investment goals led inspectors to ignore site hazards and urban planning restrictions."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.6",
+   "question_type": "verify_property",
+   "question_pattern": "explain why local officials permitted hazardous plant installation in populated zones",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define state duty under Article 21",
+     "explain": "Connect government regulatory obligations to the protection of life guaranteed by constitutional articles."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate systemic regulatory failures",
+     "explain": "Analyze how industrial investment goals led inspectors to ignore site hazards and urban planning restrictions."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.7",
+   "question_type": "verify_property",
+   "question_pattern": "how did the subhash kumar vs state of bihar case expand environmental rights",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Review landmark judicial rulings",
+     "explain": "Examine legal precedents such as Subhash Kumar vs. State of Bihar that incorporated clean resources into constitutional rights."
+    },
+    {
+     "step": 2,
+     "action": "Apply the polluter pays rule",
+     "explain": "Explain the judicial mechanism requiring industrial entities to finance environmental restoration and pollution penalties."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.7",
+   "question_type": "verify_property",
+   "question_pattern": "explain the polluter pays principle in Indian environmental jurisprudence",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Review landmark judicial rulings",
+     "explain": "Examine legal precedents such as Subhash Kumar vs. State of Bihar that incorporated clean resources into constitutional rights."
+    },
+    {
+     "step": 2,
+     "action": "Apply the polluter pays rule",
+     "explain": "Explain the judicial mechanism requiring industrial entities to finance environmental restoration and pollution penalties."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.8",
+   "question_type": "verify_property",
+   "question_pattern": "how do environmental closure orders impact factory worker livelihoods",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify socio-economic trade-offs",
+     "explain": "Analyze how abrupt industrial relocations or closures impair working-class livelihoods and shift pollution elsewhere."
+    },
+    {
+     "step": 2,
+     "action": "Formulate balanced policy solutions",
+     "explain": "Evaluate transition strategies like subsidized clean technology adoption and employment protection programs."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.8",
+   "question_type": "verify_property",
+   "question_pattern": "explain the trade-off between urban beautification drives and low-income housing rights",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify socio-economic trade-offs",
+     "explain": "Analyze how abrupt industrial relocations or closures impair working-class livelihoods and shift pollution elsewhere."
+    },
+    {
+     "step": 2,
+     "action": "Formulate balanced policy solutions",
+     "explain": "Evaluate transition strategies like subsidized clean technology adoption and employment protection programs."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.9",
+   "question_type": "verify_property",
+   "question_pattern": "why do developed countries transfer hazardous production to south asian nations",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze cross-border regulatory arbitrage",
+     "explain": "Explain why multinational enterprises seek locations with lower compliance expenditures and relaxed environmental standards."
+    },
+    {
+     "step": 2,
+     "action": "Examine hazardous industry impacts",
+     "explain": "Detail health and safety risks present in sectors like ship scrap yards in Alang and pesticide manufacturing plants."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.9",
+   "question_type": "verify_property",
+   "question_pattern": "explain the health and environmental risks associated with ship-breaking in alang",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze cross-border regulatory arbitrage",
+     "explain": "Explain why multinational enterprises seek locations with lower compliance expenditures and relaxed environmental standards."
+    },
+    {
+     "step": 2,
+     "action": "Examine hazardous industry impacts",
+     "explain": "Detail health and safety risks present in sectors like ship scrap yards in Alang and pesticide manufacturing plants."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.10",
+   "question_type": "verify_property",
+   "question_pattern": "why is the Indian constitution described as a living document",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain constitutional flexibility",
+     "explain": "Describe how democratic principles permit continuous re-interpretation of basic rights without altering core values."
+    },
+    {
+     "step": 2,
+     "action": "Trace Article 21 judicial expansion",
+     "explain": "List legal precedents that extended the Right to Life to encompass healthcare access, shelter, education, and unpolluted surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.308.10",
+   "question_type": "verify_property",
+   "question_pattern": "explain how judicial interpretation expanded article 21 to cover health shelter and education",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain constitutional flexibility",
+     "explain": "Describe how democratic principles permit continuous re-interpretation of basic rights without altering core values."
+    },
+    {
+     "step": 2,
+     "action": "Trace Article 21 judicial expansion",
+     "explain": "List legal precedents that extended the Right to Life to encompass healthcare access, shelter, education, and unpolluted surroundings."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex308.1",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "Talk to two workers (For example, construction workers, farm workers, factory workers, workers at any shop) to find out if they are receiving the minimum wages laid down by law."
+   ]
+  },
+  {
+   "id": "ex308.2",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "What are the advantages to foreign companies in setting up production in India?"
+   ]
+  },
+  {
+   "id": "ex308.3",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "Do you think the victims of the Bhopal gas tragedy got justice? Discuss."
+   ]
+  },
+  {
+   "id": "ex308.4",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "What do we mean when we speak of law enforcement? Who is responsible for enforcement? Why is enforcement so important?"
+   ]
+  },
+  {
+   "id": "ex308.5",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "How can laws ensure that markets work in a manner that is fair? Give two examples to support your answer."
+   ]
+  },
+  {
+   "id": "ex308.6",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "Imagine yourself to be a worker working in a chemical factory, which has received orders from the government to move to a different site 100 kms away from the present location. Write about how your life would change? Read out your responses in the classroom."
+   ]
+  },
+  {
+   "id": "ex308.7",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "Write a paragraph on the various roles of the government that you have read about in this unit."
+   ]
+  },
+  {
+   "id": "ex308.8",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "What are the sources of environmental pollution in your area? Discuss with respect to (a) air; (b) water and (c) soil. What are the steps being taken to reduce the pollution? Can you suggest some other measures?"
+   ]
+  },
+  {
+   "id": "ex308.9",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "How was environment treated earlier? What has been the change in perception? Discuss."
+   ]
+  },
+  {
+   "id": "ex308.10",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "What do you think the famous cartoonist R.K. Laxman is trying to convey in this cartoon? How does it relate to the 2016 law that you read about on page 103?"
+   ]
+  },
+  {
+   "id": "ex308.11",
+   "source_ref": "hess308.txt line 111",
+   "questions": [
+    "You have read about the Bhopal gas tragedy and the on-going struggle. Students from countries across the world have come together to support this struggle for justice. Use this and other sources to make a wallpaper/exhibition on the Bhopal gas tragedy for your classroom."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_002",
+   "title": "c7_math_ch11_002",
+   "questions": [
+    {
+     "q": "What does HCF stand for, and what does it mathematically signify when comparing two numbers like 12 and 18?",
+     "a": "HCF stands for Highest Common Factor. For 12 and 18, it signifies the largest whole number (which is 6) that can divide both 12 and 18 evenly without leaving a remainder. A student who says HCF is the largest multiple or confuses it with LCM is mixing up factors (divisors) with multiples (products).",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that the HCF of two numbers can sometimes be larger than both of the numbers themselves. Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect. The HCF (Highest Common Factor) can never be greater than the numbers themselves because a factor must divide the number completely, and the largest factor of a number is the number itself. A student who says yes is confusing HCF with LCM (Least Common Multiple), which is always greater than or equal to the given numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Find all the common factors of 30 and 45, and state their HCF.",
+     "a": "Step 1: List the factors of 30: $1, 2, 3, 5, 6, 10, 15, 30$. \nStep 2: List the factors of 45: $1, 3, 5, 9, 15, 45$. \nStep 3: Identify the common factors by matching both lists: $1, 3, 5, 15$. \nStep 4: Select the highest number from the common factors, which is 15. The HCF is 15. A student who includes numbers like 2 or 10 has failed to verify if those numbers divide 45.",
+     "self_check": true
+    },
+    {
+     "q": "If two numbers are prime numbers, such as 7 and 13, what is always their HCF, and why does this happen?",
+     "a": "The HCF of two distinct prime numbers is always 1. This happens because prime numbers only have two distinct factors: 1 and the number itself. Since they share no other factors besides 1, their greatest common factor must be 1. A student who answers 0 or says they have no HCF does not understand that 1 is always a universal factor.",
+     "self_check": true
+    },
+    {
+     "q": "Priya calculated the HCF of 24 and 36. She wrote down the factors of 24 as $1, 2, 3, 4, 6, 8, 12, 24$ and the factors of 36 as $1, 2, 3, 4, 6, 9, 12, 18, 36$. She then concluded that the common factors are $1, 2, 3, 4, 6, 12$, and since 12 is the largest, the HCF is 12. Evaluate Priya's working and check if her conclusion is sound.",
+     "a": "Priya's working is completely correct. She accurately listed all factors for both numbers, correctly identified the intersection of those lists (common factors), and correctly picked the maximum value among them. A student who disagrees likely made a counting or division error when listing the factors.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of composite numbers whose HCF is 6. Show the factor lists to prove your answer.",
+     "a": "Example answer: The numbers 18 and 30. \nFactors of 18: $1, 2, 3, 6, 9, 18$. \nFactors of 30: $1, 2, 3, 5, 6, 10, 15, 30$. \nCommon factors: $1, 2, 3, 6$. \nThe highest common factor is 6. A poor answer would use numbers whose HCF is not 6 or use prime numbers instead of composite numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

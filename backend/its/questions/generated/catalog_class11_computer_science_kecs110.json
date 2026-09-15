@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs110",
+ "concepts": [
+  {
+   "id": "kecs110.1",
+   "title": "Tuple Aggregates: sum, min and max",
+   "questions": [
+    {
+     "q": "Evaluate tuple1.index(45) and tuple1.count(45) for the tuple (23, 1, 45, 67, 45, 9, 55, 45).. Use the method 'Tuple Aggregates: sum, min and max'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of subtotal.",
+     "a": "235 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total of all elements of the tuple (9, 8, 10, 12, 15).. Use the method 'Tuple Aggregates: sum, min and max'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of subtotal.",
+     "a": "235 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Tuple Aggregates: sum, min and max' refers to.",
+     "a": "Built-in functions read a numeric tuple in one call: sum() totals its elements, min() returns the smallest and max() the largest, and sorted() hands back a brand-new sorted list without touching the tuple.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tuple Aggregates: sum, min and max'.",
+     "a": "For the tuple (19, 12, 56, 18, 9, 87, 34) the three functions answer 235, 9 and 87.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Tuple Aggregates: sum, min and max', in plain ASCII form.",
+     "a": "total = sum(tuple1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.2",
+   "title": "Swapping Numbers by Tuple Assignment",
+   "questions": [
+    {
+     "q": "Using the method 'Swapping Numbers by Tuple Assignment', work with: first_value = 5000, second_value = 50000. Carry the chain through step by step and give the final value of new_second.",
+     "a": "5000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Swapping Numbers by Tuple Assignment' and work with: first_value = 120000, second_value = 2500. Carry the chain through step by step and give the final value of new_second.",
+     "a": "120000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Swapping Numbers by Tuple Assignment' refers to.",
+     "a": "Tuple assignment places a tuple of variables on the left of = and values on the right, so two numbers swap without a temporary variable; the counts on both sides must match or a ValueError about unpacking appears.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Swapping Numbers by Tuple Assignment'.",
+     "a": "The right side is fully evaluated before any assignment, which is why no value is lost during the swap.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Swapping Numbers by Tuple Assignment', in plain ASCII form.",
+     "a": "(first, second) = (second, first)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.3",
+   "title": "Circle Area and Circumference Returned as a Tuple",
+   "questions": [
+    {
+     "q": "Using the method 'Circle Area and Circumference Returned as a Tuple', work with: radius = 400. Carry the chain through step by step and give the final value of circumference.",
+     "a": "2512 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Circle Area and Circumference Returned as a Tuple' and work with: radius = 18. Carry the chain through step by step and give the final value of circumference.",
+     "a": "113.04 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Circle Area and Circumference Returned as a Tuple' refers to.",
+     "a": "The function circle(r) computes both the area (3.14 times radius squared) and the circumference (2 times 3.14 times radius), then returns them together as a two-element tuple that the caller unpacks in one statement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Circle Area and Circumference Returned as a Tuple'.",
+     "a": "Returning (area, circumference) lets one function deliver two results without global variables.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Circle Area and Circumference Returned as a Tuple', in plain ASCII form.",
+     "a": "circumference = 2 * 3.14 * radius",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.4",
+   "title": "Aggregating Dictionary Values",
+   "questions": [
+    {
+     "q": "Using the method 'Aggregating Dictionary Values', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of average.",
+     "a": "90.25 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Aggregating Dictionary Values' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of average.",
+     "a": "90.25 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregating Dictionary Values' refers to.",
+     "a": "A dictionary maps unique keys to values, and the methods values() and items() expose the stored data; the marks of a class dictionary can be totalled and averaged by reading the value of every key.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregating Dictionary Values'.",
+     "a": "Keys act as the index, so dict3['Ram'] always yields 89 no matter where the item sits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregating Dictionary Values', in plain ASCII form.",
+     "a": "average = (v1 + v2 + v3 + v4) / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.5",
+   "title": "Character Frequency Dictionary",
+   "questions": [
+    {
+     "q": "Using the method 'Character Frequency Dictionary', work with: total_letters = 120, distinct_letters = 7. Carry the chain through step by step and give the final value of extra_copies.",
+     "a": "113 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Character Frequency Dictionary' and work with: total_letters = 20, distinct_letters = 7. Carry the chain through step by step and give the final value of extra_copies.",
+     "a": "13 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Character Frequency Dictionary' refers to.",
+     "a": "Traversing a string with a dictionary counter tallies each character: the first sighting stores 1 under that key and every later sighting increments it, so the dictionary maps each character to how many times it occurs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Character Frequency Dictionary'.",
+     "a": "For 'HelloWorld' the counter shows l at 3 and o at 2, and every other letter exactly once.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Character Frequency Dictionary', in plain ASCII form.",
+     "a": "extra_copies = total_letters - distinct_letters",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.6",
+   "title": "Single-Element Tuple Comma Rule",
+   "questions": [
+    {
+     "q": "Using the method 'Single-Element Tuple Comma Rule', work with: comma = 25, marks = 8, the = 60, tuple = 100. Carry the chain through step by step and give the final value of tuple5.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Single-Element Tuple Comma Rule' and work with: comma = 24, marks = 30, the = 100, tuple = 6. Carry the chain through step by step and give the final value of tuple5.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Single-Element Tuple Comma Rule' refers to.",
+     "a": "A tuple holding exactly one element still needs a trailing comma: (20) is merely the integer 20 in brackets, while (20,) is a tuple; even without parentheses, comma-separated values such as 1, 2, 3 form a tuple.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Single-Element Tuple Comma Rule'.",
+     "a": "The comma, not the parenthesis, is what makes a tuple.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Single-Element Tuple Comma Rule', in plain ASCII form.",
+     "a": "tuple5 = (20,) # comma marks the tuple",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.7",
+   "title": "Immutable Tuple with a Mutable List Inside",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Immutable Tuple with a Mutable List Inside' refers to.",
+     "a": "Assigning to a tuple position raises TypeError because a tuple is immutable, yet a list stored inside the tuple remains editable through two indices, so tuple2[3][1] = 10 succeeds while tuple2[3] = something does not.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Immutable Tuple with a Mutable List Inside'.",
+     "a": "Immutability freezes the references a tuple holds, not the contents those references point to.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Immutable Tuple with a Mutable List Inside', in plain ASCII form.",
+     "a": "tuple1[4] = 10 -> TypeError; tuple2[3][1] = 10 -> allowed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs110.8",
+   "title": "Dictionary Methods: get, update, del and clear",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dictionary Methods: get, update, del and clear' refers to.",
+     "a": "The get() method fetches a value or falls back to None for a missing key, update() merges another dictionary's pairs in, del removes one key's item or the whole dictionary, and clear() empties every pair while keeping the name alive.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dictionary Methods: get, update, del and clear'.",
+     "a": "After del dict1 the name itself is gone and reuse raises NameError, but after clear() the empty dictionary remains.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dictionary Methods: get, update, del and clear', in plain ASCII form.",
+     "a": "dict1.get(key) -> value or None",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

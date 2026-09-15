@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_008",
+   "title": "c11_biotech_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define allosteric regulation and state two structural features that distinguish allosteric enzymes from simple Michaelis-Menten enzymes.",
+     "a": "Allosteric regulation is the modulation of enzyme activity through effector binding at a regulatory site distinct from the active site, causing conformational changes. Two distinguishing structural features: (1) allosteric enzymes are typically oligomeric with multiple subunits, each containing both an active site and a regulatory/allosteric site; (2) they exhibit cooperativity between subunits, resulting in sigmoidal rather than hyperbolic kinetics. A wrong answer (e.g., \"allosteric inhibitors bind at the active site\" or \"allosteric enzymes follow Michaelis-Menten kinetics\") reveals confusion between allosteric and competitive/non-competitive inhibition, or failure to grasp that allosteric enzymes are multi-subunit proteins with separate regulatory sites.",
+     "self_check": true
+    },
+    {
+     "q": "An allosteric enzyme shows a sigmoidal v₀ vs [S] curve. At low substrate concentration, the curve is shallow; at intermediate [S], it rises steeply; at high [S], it plateaus. Explain in your own words why this shape occurs, using the concept of subunit cooperativity.",
+     "a": "The sigmoidal shape arises from positive cooperativity: the enzyme has multiple subunits. When the first substrate molecule binds to one subunit, it induces a conformational change that increases the affinity of the remaining subunits for substrate. At low [S], few subunits have substrate bound, so overall affinity is low (shallow slope). At intermediate [S], binding to one subunit \"primes\" the others, causing a rapid rise in velocity (steep slope). At high [S], all subunits are saturated, so velocity plateaus at Vₘₐₓ. A wrong answer (e.g., \"the enzyme has multiple active sites but they work independently\" or \"it's because of inhibitor binding\") reveals the student thinks subunits act independently (like multiple Michaelis-Menten enzymes) or confuses cooperativity with inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "Phosphofructokinase-1 (PFK-1) is a key allosteric enzyme in glycolysis. ATP is both a substrate and an allosteric inhibitor; AMP is an allosteric activator. Sketch qualitatively how the v₀ vs [fructose-6-phosphate] curve shifts when: (a) [ATP] is high, (b) [AMP] is high. Label axes and indicate K₀.₅ and Vₘₐₓ changes.",
+     "a": "(a) High [ATP]: curve shifts RIGHT (higher K₀.₅), same Vₘₐₓ - ATP stabilizes the low-affinity T-state, requiring more substrate to reach half-maximal velocity. (b) High [AMP]: curve shifts LEFT (lower K₀.₅), same Vₘₐₓ - AMP stabilizes the high-affinity R-state, increasing substrate affinity. Both effectors change K₀.₅ (substrate concentration at half Vₘₐₓ) but not Vₘₐₓ, because they alter affinity, not catalytic rate per se. A wrong answer (e.g., \"Vₘₐₓ decreases with ATP\" or \"curves become hyperbolic\") reveals confusion between allosteric effectors (which change K₀.₅) and non-competitive inhibitors (which change Vₘₐₓ), or failure to understand that allosteric regulation modulates substrate affinity, not the maximum catalytic capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the kinetic behavior of an allosteric enzyme with positive cooperativity (Hill coefficient nₕ = 2.8) versus a non-cooperative Michaelis-Menten enzyme, when substrate concentration increases from 0.1×Kₘ to 10×Kₘ. Calculate the approximate fold-change in velocity for each and explain the biological significance.",
+     "a": "For Michaelis-Menten enzyme: at [S]=0.1Kₘ, v₀ ≈ 0.091Vₘₐₓ; at [S]=10Kₘ, v₀ ≈ 0.909Vₘₐₓ; fold-change ≈ 10×. For allosteric enzyme (nₕ=2.8, using K₀.₅): at [S]=0.1K₀.₅, v₀ ≈ 0.0016Vₘₐₓ; at [S]=10K₀.₅, v₀ ≈ 0.998Vₘₐₓ; fold-change ≈ 624×. The allosteric enzyme shows ~62× greater sensitivity to substrate changes in this range. Biologically, this allows the enzyme to act as a sharp metabolic switch - small changes in metabolite concentration produce large changes in flux, enabling decisive pathway activation/inactivation. A wrong answer (e.g., \"both show similar fold-change\" or \"allosteric enzyme changes less\") reveals failure to grasp that cooperativity amplifies sensitivity, which is the entire physiological purpose of allosteric regulation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Allosteric inhibition is just non-competitive inhibition with a fancy name, because in both cases the inhibitor binds at a site other than the active site and Vₘₐₓ is unchanged.\" Evaluate this claim. Is it correct? Justify your answer with kinetic and structural evidence.",
+     "a": "The claim is INCORRECT. While both involve binding at a site distinct from the active site, they differ fundamentally: (1) Non-competitive inhibition: inhibitor binds E and ES with equal affinity, reducing functional enzyme concentration → Vₘₐₓ decreases, Kₘ unchanged. (2) Allosteric inhibition: inhibitor binds regulatory site, stabilizing low-affinity T-state → K₀.₅ increases (right shift), Vₘₐₓ typically unchanged. Structurally, non-competitive inhibitors bind a single-site enzyme; allosteric inhibitors require multi-subunit enzymes with distinct regulatory sites and exhibit cooperativity (sigmoidal kinetics). The claim ignores the sigmoidal kinetics, subunit cooperativity, and the fact that allosteric effectors modulate substrate affinity (K₀.₅), not just reduce active enzyme concentration. A wrong evaluation (e.g., \"the claim is correct\") reveals conflation of binding site location with mechanism, missing the central role of cooperativity and conformational selection in allosteric regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical metabolic pathway with 3 enzymes (E1, E2, E3) converting A → B → C → D. D is the end product. Propose an allosteric feedback inhibition scheme that prevents wasteful overproduction of D. Specify: which enzyme is inhibited, by which molecule, whether it's activation or inhibition, and justify why this enzyme is the optimal control point.",
+     "a": "Optimal scheme: D allosterically inhibits E1 (the first committed step). Reasoning: (1) Inhibiting E1 prevents accumulation of all intermediates B and C, saving cellular resources. (2) E1 is typically the rate-limiting/committed step - controlling it gives maximal flux control. (3) Feedback by end product D directly links pathway output to input. Alternative (D inhibits E2 or E3) would allow wasteful buildup of upstream intermediates. A good answer includes: E1 inhibited by D (negative feedback), sigmoidal kinetics for E1, and justification citing metabolic efficiency and flux control coefficients. A poor answer (e.g., \"D inhibits E3 because it's closest to D\") reveals misunderstanding of metabolic control theory - controlling the last step doesn't prevent intermediate accumulation and wastes ATP/precursors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

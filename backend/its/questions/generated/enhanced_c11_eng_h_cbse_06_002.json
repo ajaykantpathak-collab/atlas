@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_06_002",
+   "title": "c11_eng_h_cbse_06_002",
+   "questions": [
+    {
+     "q": "What are the five standard elements of dramatic plot structure (Freytag's Pyramid) in their correct sequential order?",
+     "a": "The five elements in order: Exposition (introduction of setting, characters, situation), Rising Action (series of conflicts building tension), Climax (turning point of maximum tension), Falling Action (consequences of climax), Resolution/Denouement (final outcome). A wrong answer that reverses climax and rising action reveals the student confuses the buildup with the peak moment; omitting exposition suggests they don't recognize how the play establishes its premise in the opening minutes.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Browning Version,\" the play opens with Taplow waiting for Mr. Crocker-Harris who is absent. How does this opening serve as exposition differently from a novel's opening chapter?",
+     "a": "The play's exposition is delivered through Taplow's solo presence and his conversation with Frank - we learn Crocker-Harris's reputation, the school hierarchy, and Taplow's resentment entirely through dialogue and behavior, not authorial description. A wrong answer claiming \"the stage directions explain everything\" reveals the student misses that stage directions only describe physical actions (sitting, pacing), while the crucial backstory emerges through what characters choose to say to each other.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the inciting incident in \"The Browning Version\" and explain why it must occur early in a one-act play's structure.",
+     "a": "The inciting incident is Taplow's arrival for extra work and his imitation of Crocker-Harris, which establishes the central conflict: a student's mockery masking fear versus a teacher's invisible authority. In a one-act play, the inciting incident must occur within the first 10-15% of runtime because there is no \"Act 1\" to establish normalcy - the compressed form demands immediate disruption. A wrong answer identifying Millie's entrance as the inciting incident shows the student confuses a complication with the initial disturbance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the rising action unfolds in \"The Browning Version\" versus a traditional three-act play. What structural constraint forces Rattigan to compress multiple confrontations into a single continuous sequence?",
+     "a": "In a three-act play, rising action spans Act 1 and 2 with scene breaks allowing time jumps; in this one-act play, rising action occurs in real-time through three overlapping confrontations (Taplow-Frank, Taplow-Millie, Frank-Millie-Crocker-Harris) without breaks. The single-room, continuous-time constraint forces simultaneous character dynamics - each new entrant doesn't just add a scene but reshapes existing tensions. A wrong answer listing \"scenes\" as separate events reveals the student imposes novelistic chapter-thinking on dramatic unity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the play's climax occurs when Crocker-Harris receives the Browning translation gift or when he speaks his final lines to the Headmaster. Justify using structural criteria.",
+     "a": "The climax is Crocker-Harris's final speech to the Headmaster (\"I shall say what I have to say...\") because it represents the protagonist's decisive action reversing his passive trajectory - the moment of maximum emotional intensity where suppressed truth erupts. The gift scene is the emotional peak for Taplow but not the structural climax for the protagonist. A wrong answer choosing the gift moment reveals the student confuses audience sentiment with protagonist agency - the structural climax must belong to the central character's irreversible choice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"structural summary\" of \"The Browning Version\" that traces the plot exclusively through entrances and exits, showing how each character's physical movement drives the narrative forward.",
+     "a": "A strong answer: \"The play begins with Taplow's entrance (waiting), Frank's entrance (confidant), Millie's entrance (catalyst), Crocker-Harris's entrance (confrontation), the Headmaster's entrance (institutional pressure), Millie's exit (isolation), and ends with Crocker-Harris and Taplow remaining (new understanding). Each entrance introduces a new conflict vector; each exit removes a buffer.\" A poor answer that summarizes plot events without tracking entrances/exits reveals the student hasn't grasped how dramatic structure is physically embodied in stage traffic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

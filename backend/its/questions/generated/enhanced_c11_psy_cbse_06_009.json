@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_009",
+   "title": "c11_psy_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define the Keyword Method and give one original example (not from the textbook) of using it to learn a foreign language vocabulary word.",
+     "a": "The Keyword Method identifies a familiar native-language word (keyword) that sounds similar to the target foreign word, then creates an interactive mental image linking the keyword and the target meaning. Example: To learn the French word *pain* (meaning \"bread\"), use the English keyword \"pan\" — imagine a loaf of bread frying in a pan. A wrong answer (e.g., \"just repeating the word many times\") reveals the student confuses mnemonic imagery with maintenance rehearsal, missing the critical *interactive image* component that creates a retrieval cue.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses the First-Letter Technique to memorise the seven steps of the PQRST method itself (P-Q-R-S-T). They create the sentence \"Please Quietly Read Slowly Today.\" Explain why this is a *poor* application of the technique for *this specific material*, referencing levels of processing.",
+     "a": "The First-Letter Technique only encodes the *initial letters* at a shallow structural/phonetic level; it does not process the *meaning* of each step (Preview, Question, Read, Self-recitation, Test). Since PQRST is a *conceptual procedure* where understanding each step's purpose is essential for flexible application, a first-letter sentence yields fragile memory that cannot support transfer. A wrong answer (e.g., \"it's fine because it helps recall the order\") reveals the student fails to distinguish between *rote serial recall* (where first-letter works) and *conceptual learning* (where semantic encoding is necessary).",
+     "self_check": true
+    },
+    {
+     "q": "You need to memorise the following 12-item grocery list *in exact order*: milk, bread, apples, soap, rice, eggs, tomatoes, toothpaste, chicken, onions, butter, shampoo. Design a Method of Loci walkthrough using your home as the mental route. Specify: (a) 5 distinct loci in sequence, (b) the interactive image at each locus combining 2-3 items, (c) why this method suits *serial-order* recall better than Chunking.",
+     "a": "(a) Loci: 1) Front door mat, 2) Living room sofa, 3) Kitchen counter, 4) Bathroom sink, 5) Bedroom pillow. (b) Images: 1) Milk carton *wearing* bread as a scarf, apples juggling on top; 2) Soap bar *sliding* on rice grains like a skateboard, eggs balancing on tomatoes; 3) Toothpaste *brushing* chicken's teeth, onions crying; 4) Butter *melting* on shampoo bottle in shower; 5) (Extra items placed at pillow). (c) Method of Loci preserves serial order because the spatial route *is* the retrieval structure — each locus cues the next. Chunking groups by category (dairy, produce, toiletries) which *destroys* the required sequence. A wrong answer that suggests Chunking reveals confusion between *capacity expansion* (Chunking's purpose) and *order preservation* (Loci's purpose).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how the Keyword Method and the Method of Loci each utilise *dual coding* (verbal + imagery systems). Which would be more effective for learning the *meanings* of 20 abstract psychology terms (e.g., \"cognitive dissonance\", \"schema\", \"heuristic\")? Justify with reference to the nature of the material.",
+     "a": "Both use dual coding: Keyword Method links a *verbal keyword* (acoustic bridge) to an *interactive image* of the meaning; Method of Loci links *spatial locations* (visual) to *verbal items* placed there. For *abstract terms*, Keyword Method is superior because each term needs a *concrete, imageable proxy* for its meaning (e.g., \"schema\" → \"skimmer\" → imagine a skimmer organising files into folders). Method of Loci only preserves *order*, not meaning — it would just place \"cognitive dissonance\" at locus 1 without explaining it. A wrong answer choosing Loci reveals the student thinks any imagery helps, missing that *abstract concepts require semantic-to-image translation* (Keyword's strength), not just spatial pegs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"If a student uses deep processing (semantic encoding) while studying, they do not need any mnemonic techniques.\" Use evidence from the chapter on interference and retrieval cues to support your evaluation.",
+     "a": "The claim is *false*. Deep processing ensures *durable encoding* but does not solve two other problems: (1) *Interference* — even deeply processed similar materials (e.g., two history chapters) interfere at retrieval; mnemonics like Method of Loci provide *distinctive retrieval cues* that reduce competition. (2) *Retrieval cue availability* — deep processing creates rich *internal* cues, but mnemonics supply *external, self-generated cues* (loci, keywords, acronyms) that are often more accessible under stress. The chapter explicitly recommends *both* deep processing *and* mnemonics as complementary. A wrong answer agreeing with the claim reveals the student views memory as a single-stage process (encoding only), ignoring the retrieval stage where cues and interference operate.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel, integrated study plan for a Class 11 student preparing for a Biology exam covering: (a) 10 stages of mitosis in order, (b) 15 definitions of genetics terms, (c) 5 experimental procedures (e.g., Mendel's crosses). Assign *one primary mnemonic/strategy* to each component, explain *why* it fits that material type, and schedule the three study sessions to *minimise interference*.",
+     "a": "(a) Mitosis stages (serial, visualisable) → **Method of Loci** using 10 loci along school route; each locus = one stage with interactive image (e.g., \"prophase\" → \"pro-faze\" → a pro dancer *phasing* through chromosomes condensing). (b) Genetics definitions (abstract, verbal) → **Keyword Method** for each term (e.g., \"heterozygous\" → \"hero-zygous\" → hero wearing two different coloured socks = different alleles). (c) Experimental procedures (sequential, causal) → **PQRST** for each: Preview steps, Question \"why this step?\", Read, Self-recite procedure, Test by drawing flowchart. Schedule: Session 1 (9-11 AM) Mitosis (Loci), *break*; Session 2 (12-2 PM) Genetics (Keyword), *break*; Session 3 (3-5 PM) Procedures (PQRST). Interference minimised by: different *modalities* (visual-spatial vs. verbal-imagery vs. conceptual), different *strategies*, and *rest intervals* between similar verbal tasks. A poor answer assigns the same strategy to all three or schedules them back-to-back, showing failure to match strategy to material and ignorance of interference principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

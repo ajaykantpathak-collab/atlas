@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_011",
+   "title": "c12_hist_cbse_12_011",
+   "questions": [
+    {
+     "q": "What was the exact date on which the Constituent Assembly adopted the Preamble (and the Constitution), and which two words were added to it by the 42nd Amendment Act of 1976?",
+     "a": "The Constituent Assembly adopted the Constitution (including the Preamble) on 26 November 1949. The 42nd Amendment (1976) added the words \"Socialist\" and \"Secular\" between \"Sovereign\" and \"Democratic\". A wrong answer (e.g., saying 26 January 1950 for adoption, or naming \"Federal\" as an added word) reveals confusion between adoption and commencement dates, or ignorance of the 42nd Amendment's specific textual changes.",
+     "self_check": true
+    },
+    {
+     "q": "In the Objectives Resolution (1946), Nehru deliberately omitted the word \"Democratic\" while including \"Republic\". Explain Nehru's reasoning as recorded in the Constituent Assembly Debates, and why he believed \"Republic\" implied democracy.",
+     "a": "Nehru argued that \"republic\" inherently contains democracy because a republic means rule by the people, not a monarch. He said: \"it is conceivable that a republic may not be democratic but the whole of our past is witness to this fact that we stand for democratic institutions.\" He avoided \"democratic\" to prevent redundancy, but gave democracy substantive content through justice, equality, and economic democracy. A wrong answer (e.g., \"Nehru forgot\" or \"Nehru opposed democracy\") shows failure to grasp the nuanced distinction between procedural labels and substantive commitments in constitutional drafting.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Preamble's phrase 'Sovereign Socialist Secular Democratic Republic' means India is a socialist state in the Marxist sense.\" Using evidence from the Constituent Assembly debates and the 42nd Amendment context, evaluate this claim.",
+     "a": "The claim is incorrect. In the Constituent Assembly, Nehru clarified: \"We are not going just to copy... whatever system of government we may establish here must fit in with the temper of our people.\" The 42nd Amendment added \"Socialist\" during Emergency to emphasize welfare-state commitments (Directive Principles), not Marxist state ownership. The Supreme Court (e.g., *R. Coelho*, 1999) interprets it as \"social and economic justice\", not a specific ideology. A wrong answer reveals conflation of constitutional terminology with Cold War ideological labels.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Preamble's \"Secular\" (added 1976) with the French *laïcité* model. Identify two key differences in how the state-religion relationship is constitutionally structured, referencing Articles 25–28.",
+     "a": "Differences: (1) French *laïcité* mandates strict separation — state cannot fund religious schools; India's Articles 25–28 allow state funding for religious minority institutions (Art. 30) and permit religious instruction in state-aided schools with consent (Art. 28). (2) France bans religious symbols in public schools; India permits them under Art. 25 (freedom of conscience). Indian secularism = \"principled distance\" (Rajeev Bhargava), not strict separation. A wrong answer (e.g., \"both are identical\") ignores the Constituent Assembly's deliberate choice for \"judicious distance\" over *laïcité*.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess the argument that the Preamble is merely \"symbolic\" and non-justiciable, citing the *Kesavananda Bharati* (1973) and *S.R. Bommai* (1994) judgments.",
+     "a": "The argument is constitutionally outdated. *Kesavananda Bharati* held the Preamble is part of the Constitution and its basic structure (sovereignty, secularism, democracy) cannot be amended. *S.R. Bommai* used the Preamble's \"Secular\" to strike down state governments violating secularism. The Preamble is an interpretive guide for ambiguous provisions and a basic structure benchmark. A wrong answer (e.g., \"Preamble has no legal force\") reflects pre-1973 textbook knowledge and misses the Supreme Court's evolving jurisprudence.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word Preamble for a hypothetical post-colonial nation \"X\" that faced Partition, linguistic diversity, and feudal landlordism. Justify each keyword choice by linking it to a specific historical challenge of Nation X.",
+     "a": "A strong answer will include: \"Sovereign\" (post-colonial independence), \"Socialist\" (feudal landlordism → land reform mandate), \"Secular\" (Partition trauma → state neutrality), \"Democratic\" (colonial denial of franchise → universal adult suffrage), \"Republic\" (monarchical princely states → elected head). Keywords must map to specific historical grievances, not generic ideals. A poor answer copies India's Preamble verbatim without contextual adaptation, showing inability to apply constitutional principles to new historical situations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

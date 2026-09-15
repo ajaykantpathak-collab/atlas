@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_003",
+   "title": "c11_bs_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the precise NCERT definition of 'retail trade' and identify the two key phrases that distinguish it from wholesale trade.",
+     "a": "Correct answer: \"Purchase and sale of goods in relatively small quantities, generally to the ultimate consumers\" — the two distinguishing phrases are \"relatively small quantities\" and \"ultimate consumers\". A wrong answer that says \"selling goods to customers\" or \"selling in small shops\" reveals the student confuses retailing with shop size or general selling, missing the critical criteria of buyer type (ultimate consumer vs reseller) and quantity (small lots vs bulk).",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer sells 500 units of a product to a trader who sells 50 units each to 10 different buyers. The first trader is a wholesaler; the second trader sells all 50 units to a single buyer who uses them in their factory. Is the second trader a retailer? Explain why or why not using the NCERT criteria.",
+     "a": "Correct answer: No, the second trader is NOT a retailer because the buyer is an industrial user (factory) using goods for intermediate use, not an ultimate consumer for personal use. NCERT defines retail trade as sale \"to ultimate consumers for their personal and non-business use\". A wrong answer saying \"yes, because they sold in small quantity\" reveals the misconception that quantity alone determines retailing, ignoring the buyer's purpose — a critical distinction tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh runs a mobile phone shop. He buys 100 phones from a wholesaler, sells 80 to individual customers, and 20 to a small corporate office for employee use. Classify each transaction as retail or wholesale and justify using the 'ultimate consumer' test.",
+     "a": "Correct answer: Sale of 80 phones to individuals = retail trade (ultimate consumers for personal use). Sale of 20 phones to corporate office = wholesale trade (buyer is institutional user for business use, not personal consumption). Steps: (1) Identify buyer in each transaction; (2) Determine if buyer consumes personally or uses for business/resale; (3) Apply NCERT definition: retail = ultimate consumer + personal use. A wrong answer classifying both as retail reveals failure to apply the 'non-business use' criterion — a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the services of retailers to manufacturers/wholesalers (5 services) with services to consumers (6 services). Identify which service appears in both lists but operates differently, and explain the difference in mechanism.",
+     "a": "Correct answer: \"Market information\" appears in both but flows opposite directions. To manufacturers: retailers collect consumer tastes/preferences and pass UPSTREAM. To consumers: retailers provide new product information and pass DOWNSTREAM. Mechanism difference: upstream = feedback for production decisions; downstream = decision support for purchase. A wrong answer listing \"credit facilities\" as common reveals confusion — retailers give credit TO consumers but RECEIVE credit FROM wholesalers; direction matters.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Itinerant retailers survive in India only because they serve poor customers who cannot afford fixed shops.\" Provide three counter-arguments using NCERT features of itinerant retailers.",
+     "a": "Correct evaluation: Statement is incomplete. Counter-arguments: (1) Itinerants provide doorstep convenience (NCERT: \"emphasis on providing greater customer service by making products available at the very doorstep\") — valued by time-poor urban rich too; (2) They handle perishables (fruits/vegetables) requiring daily fresh supply chains that fixed shops can't match; (3) They serve floating populations at events/exhibitions/transport hubs where fixed shops can't exist. A wrong answer agreeing fully reveals confusion between 'low-income focus' (true for some types like market traders) and 'survival reason' (convenience, perishability, mobility are stronger drivers).",
+     "self_check": true
+    },
+    {
+     "q": "Design a classification flowchart that starts with \"All Retailers\" and ends with the four types of itinerant retailers and four types of fixed-shop small retailers, using only NCERT classification bases (fixed place of business → size of operations). Show decision criteria at each branch.",
+     "a": "Expected answer: All Retailers → (Branch 1: Fixed place of business?) → No → Itinerant Retailers → (Branch by mobility/operation style) → Peddlers/Hawkers, Market Traders, Street Traders, Cheap Jacks. Yes → Fixed Shop Retailers → (Branch 2: Size of operations?) → Small → General Stores, Speciality Shops, Street Stall Holders, Second-hand Goods Shops. Large → (covered in next nodes). Poor answer: mixing classification bases (e.g., splitting by 'product type' at first branch) reveals inability to follow NCERT's hierarchical classification logic — a frequent board exam mapping error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_007",
+   "title": "c12_hs_cbse_02_007",
+   "questions": [
+    {
+     "q": "Name the coenzyme form of vitamin B1 (thiamine) and the central metabolic pathway where it acts as a cofactor.",
+     "a": "The coenzyme form is thiamine pyrophosphate (TPP), and it acts as a cofactor in the pyruvate dehydrogenase complex linking glycolysis to the TCA cycle, and in the alpha-ketoglutarate dehydrogenase step of the TCA cycle. A wrong answer (e.g., naming FAD or NAD+) reveals confusion between different B-vitamin coenzymes and their specific metabolic roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person eating a diet high in polished rice but low in legumes, meat, and vegetables is at risk for both beriberi and pellagra, even though these are caused by different vitamin deficiencies.",
+     "a": "Polished rice lacks the bran and germ where thiamine (B1) and niacin (B3) are concentrated; without legumes, meat, or vegetables to provide these vitamins, the diet becomes deficient in both simultaneously. A wrong answer that attributes both deficiencies to a single vitamin or ignores the food processing aspect shows misunderstanding of food sources and the effect of milling on nutrient loss.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old vegetarian student consumes 300 g of cooked rice, 100 g of cooked dal, 100 g of boiled potato, and 100 g of curd daily, but no fruits or leafy greens. Calculate the approximate vitamin C intake from this diet (assume cooked rice 0 mg, dal 0 mg, potato 10 mg/100g, curd 0 mg per 100g) and state whether it meets the ICMR RDA of 40 mg/day for adolescents.",
+     "a": "Vitamin C intake = 100 g potato × 10 mg/100g = 10 mg. This is far below the RDA of 40 mg/day. The student would need to add citrus fruit, amla, guava, or raw capsicum to meet the requirement. A wrong calculation (e.g., assuming curd or dal provide vitamin C) indicates lack of knowledge about which foods are actual sources of vitamin C.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the biochemical basis of neurological symptoms in vitamin B12 deficiency versus vitamin B6 deficiency, referencing their respective coenzyme roles.",
+     "a": "B12 (as methylcobalamin) is required for methionine synthase, which regenerates tetrahydrofolate and methylates homocysteine; its deficiency traps folate, impairing DNA synthesis and causing demyelination via accumulated methylmalonic acid. B6 (as PLP) is a cofactor for glutamate decarboxylase (GABA synthesis) and sphingolipid synthesis; its deficiency reduces inhibitory neurotransmission and myelin maintenance. A response that conflates the two mechanisms or omits the specific enzymatic steps shows incomplete analytical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Taking a high-dose vitamin B-complex supplement daily is harmless because excess water-soluble vitamins are simply excreted in urine.\"",
+     "a": "The statement is largely true for most B-vitamins (B1, B2, B3, B5, B7, B12) but false for vitamin B6 (pyridoxine) and vitamin B3 (niacin) at very high doses: chronic B6 > 100 mg/day can cause sensory neuropathy, and niacin > 35 mg/day (as nicotinic acid) causes flushing and hepatotoxicity. Vitamin C excess (> 2 g/day) may cause osmotic diarrhea and kidney stones. A student who says \"completely harmless\" ignores established upper limits (UL) and specific toxicity profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a pregnant woman (second trimester) that meets the ICMR RDAs for folate (500 µg), vitamin B12 (1.2 µg), and vitamin C (60 mg), using only common Indian foods. List each food with portion size and the nutrient contribution.",
+     "a": "Example menu: Breakfast — 2 besan chilla (60 g besan = 120 µg folate, 0.5 µg B12) + 1 glass fortified soy milk (1 µg B12) + 1 orange (70 mg vitamin C); Lunch — 1 cup cooked spinach dal (100 g spinach = 194 µg folate, 30 g dal = 30 µg folate) + 2 rotis + curd; Snack — 1 amla (600 mg vitamin C) + handful roasted chana; Dinner — 1 cup methi paratha (50 g methi = 100 µg folate) + paneer bhurji (50 g paneer = 0.4 µg B12). Total folate ≈ 444 µg (close, add 1 tbsp flaxseed chutney for extra), B12 ≈ 1.9 µg, vitamin C ≈ 670 mg. A poor answer omits B12 sources (fermented/fortified foods are critical for vegetarians) or relies on overcooked vegetables that destroy folate and vitamin C.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

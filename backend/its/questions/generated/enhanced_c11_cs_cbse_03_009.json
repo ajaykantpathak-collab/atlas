@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_009",
+   "title": "c11_cs_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define the three essential components of a loop structure and state the purpose of each component in one sentence.",
+     "a": "The three components are: (1) Initialisation — sets the starting value of the loop control variable before the first iteration; (2) Condition — a Boolean expression evaluated before each iteration that determines whether the loop continues (true) or terminates (false); (3) Update — modifies the loop control variable during each iteration to progress toward making the condition false. A wrong answer that omits \"update\" or confuses it with the condition reveals the student thinks loops terminate automatically without explicit variable modification, a classic misconception leading to infinite loops.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a pre-test loop (while) and a post-test loop (repeat-until/do-while) using a real-life analogy. Why might you choose one over the other?",
+     "a": "A pre-test loop (while) checks the condition BEFORE executing the body — like checking \"Is the door locked?\" before trying to open it; if already locked, you never attempt. A post-test loop (repeat-until) executes the body AT LEAST ONCE before checking — like tasting a dish before deciding if it needs more salt; you must taste first. Choose pre-test when zero iterations are valid (e.g., processing zero items), and post-test when at least one execution is mandatory (e.g., displaying a menu at least once). A wrong answer that claims \"they are functionally identical\" or \"post-test is always better\" reveals the student cannot distinguish the semantic guarantee of minimum executions, critical for input validation scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Write pseudocode for a loop that reads positive integers from the user until a negative number is entered, then outputs the count of positive numbers entered. Use a sentinel-controlled loop pattern.",
+     "a": "```\ncount ← 0\ninput num\nwhile num ≥ 0 do\n    count ← count + 1\n    input num\nend while\noutput count\n```\nSteps: (1) Initialise counter to 0. (2) Read first number (priming read). (3) While number is non-negative, increment counter and read next number. (4) Loop exits when negative entered. (5) Output count. A wrong answer that places `input num` only inside the loop (missing priming read) or initialises `count ← 1` reveals the student does not understand sentinel-controlled loops require a priming read before the condition check and that the sentinel value itself must not be counted.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two loop fragments. Do they produce the same output? Justify your answer by tracing both with n = 5.\nFragment A: `i ← 1; while i ≤ n do output i; i ← i + 1 end while`\nFragment B: `i ← 1; repeat output i; i ← i + 1 until i > n`",
+     "a": "Yes, both produce identical output: 1 2 3 4 5. Fragment A (pre-test): checks `i ≤ 5` before each iteration; when i=6, condition false, exits after printing 5. Fragment B (post-test): prints 1, increments to 2, checks `2 > 5` false; continues until prints 5, increments to 6, checks `6 > 5` true, exits. Both execute exactly 5 iterations. A wrong answer claiming \"Fragment B prints 6\" or \"Fragment A misses 1\" reveals the student cannot trace post-test loop termination condition correctly — they evaluate `until i > n` as \"continue while i > n\" instead of \"exit when i > n\", confusing the logic of repeat-until vs while.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this loop to compute the sum of first 10 even numbers: `sum ← 0; i ← 2; while i ≤ 20 do sum ← sum + i; i ← i + 1 end while`. Evaluate this algorithm. Is it correct? If not, explain the error and provide the corrected version.",
+     "a": "The algorithm is INCORRECT. It sums all integers from 2 to 20 (2+3+4+...+20 = 209) instead of only even numbers (2+4+6+...+20 = 110). The error: `i ← i + 1` increments by 1, visiting odd numbers too. Correction: change update to `i ← i + 2` so i takes values 2, 4, 6, ..., 20. A wrong answer that says \"it's correct\" or suggests changing condition to `i ≤ 10` reveals the student confuses the loop control variable (which must step through even values) with the count of terms (10 terms). This exposes the deeper misconception: not distinguishing between the VALUE sequence and the ITERATION COUNT.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nested loop algorithm (pseudocode) to print the following pattern for n = 4:\n```\n1\n1 2\n1 2 3\n1 2 3 4\n```\nExplain how the inner loop's termination condition depends on the outer loop's control variable.",
+     "a": "```\ninput n\nfor row ← 1 to n do\n    for col ← 1 to row do\n        output col, \" \"\n    end for\n    output newline\nend for\n```\nOuter loop controls rows (1 to n). Inner loop prints numbers 1 to current row value — so when row=3, inner loop runs for col=1,2,3. The dependency `col ≤ row` makes each row one element longer than the previous. A good answer shows this dependency explicitly. A poor answer that uses fixed inner limit (`col ≤ n`) or prints `row` instead of `col` reveals the student cannot visualise how nested loop variables interact to create triangular patterns — a fundamental skill for matrix processing and pattern generation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

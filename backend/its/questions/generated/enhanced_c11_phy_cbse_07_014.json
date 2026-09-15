@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_014",
+   "title": "c11_phy_cbse_07_014",
+   "questions": [
+    {
+     "q": "What is the total mechanical energy of a 500 kg satellite in a circular orbit at a height of 400 km above Earth's surface? (Given: Rₑ = 6400 km, Mₑ = 6.0 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N·m²/kg²)",
+     "a": "-1.45 × 10¹⁰ J. A wrong answer (positive value or wrong magnitude) reveals the student either forgot the negative sign in potential energy, used wrong orbital radius (forgot to add Earth's radius), or confused total energy with kinetic energy alone.",
+     "self_check": true
+    },
+    {
+     "q": "A satellite in circular orbit has kinetic energy K and potential energy U. If the satellite's orbital radius is doubled, what happens to the ratio |U|/K? Explain why this ratio remains constant regardless of orbital radius.",
+     "a": "The ratio |U|/K remains exactly 2 for any circular orbit radius. A wrong answer (saying it changes) reveals the student doesn't understand that both U ∝ 1/r and K ∝ 1/r, so their ratio is radius-independent. This is a direct consequence of the virial theorem for 1/r² force laws.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the minimum energy required to transfer a 1000 kg satellite from a circular orbit of radius 2Rₑ to a circular orbit of radius 4Rₑ. Also find the change in kinetic energy and potential energy separately. (Use g = 9.8 m/s², Rₑ = 6400 km)",
+     "a": "ΔE = +3.14 × 10⁹ J, ΔK = -3.14 × 10⁹ J, ΔU = +6.27 × 10⁹ J. A wrong answer (wrong signs or magnitudes) reveals confusion about: (a) total energy becomes less negative when moving to higher orbit (energy must be ADDED), (b) kinetic energy DECREASES in higher orbit, (c) potential energy increases (becomes less negative) by twice the total energy change.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical satellites orbit Earth: Satellite A in a circular orbit of radius r, Satellite B in an elliptical orbit with the same semi-major axis a = r. Compare their total mechanical energies. Then compare their kinetic energies at the point where Satellite B is at distance r from Earth's center.",
+     "a": "Total energies are equal (both = -GMm/(2r)). At distance r, Satellite B's kinetic energy differs from Satellite A's - it could be greater or smaller depending on whether that point is perigee or apogee. A wrong answer (saying total energies differ, or that KE is same at same r) reveals misunderstanding that total energy depends only on semi-major axis, not orbit shape, and that KE varies along elliptical orbit while total energy remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the total energy of an orbiting satellite is negative, the satellite must be losing energy continuously and will eventually spiral into Earth.\" Evaluate this statement and identify the error.",
+     "a": "The statement is false. Negative total energy only means the orbit is bound (satellite cannot escape to infinity without additional energy). In ideal Newtonian gravity with no dissipative forces, total energy is CONSERVED - the satellite does not lose energy and will not spiral in. The error confuses \"negative energy\" with \"decreasing energy.\" This is a critical conceptual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have a satellite in circular orbit at height h. You want to move it to a higher circular orbit at height 2h using a single instantaneous rocket burn. Is this possible? If not, what is the minimum number of burns required and why? Describe the intermediate orbit.",
+     "a": "Not possible with one burn. Minimum two burns required (Hohmann transfer). First burn at perigee (original circular orbit) creates elliptical transfer orbit with apogee at target radius. Second burn at apogee circularizes the orbit. A poor answer (saying one burn works, or not mentioning elliptical transfer) reveals lack of understanding that a single impulse changes orbit shape but cannot circularize at a different radius.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

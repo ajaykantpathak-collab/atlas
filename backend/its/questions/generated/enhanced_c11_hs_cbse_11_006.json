@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_006",
+   "title": "c11_hs_cbse_11_006",
+   "questions": [
+    {
+     "q": "List the five stain classifications given in NCERT and state the general reagent principle for each (e.g., vegetable stains → alkaline medium).",
+     "a": "The five classifications and their reagent principles: (1) Vegetable stains (tea, coffee, fruit) — acidic in nature, removed by alkaline medium; (2) Animal stains (blood, milk, egg) — protein in nature, removed by detergents in cold water only; (3) Oil stains (ghee, butter) — removed by grease solvents and absorbents; (4) Mineral stains (ink, rust, medicine) — washed first in acidic medium then alkaline medium; (5) Dye bleeding — removed by dilute alkalies or acids depending on fabric type. A wrong answer (e.g., saying \"hot water for blood\") reveals the student has memorised categories but not the chemical reasoning — they don't grasp that heat coagulates proteins, setting the stain permanently.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats a fresh blood stain on cotton with hot water and soap, then complains the stain darkened and won't come out. Explain why this happened using the protein chemistry of blood.",
+     "a": "Blood contains haemoglobin and other proteins that denature and coagulate when heated, forming insoluble cross-linked complexes that bind tightly to cotton cellulose. Hot water accelerates this coagulation, \"cooking\" the protein into the fabric fibres. Cold water keeps proteins soluble so detergents can emulsify and lift them. A wrong answer (e.g., \"hot water opens fibres\") reveals the student is applying a general cleaning heuristic (heat helps cleaning) without understanding the specific biochemical exception for protein stains — a classic senior-secondary error where prior knowledge overrides stain-specific chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "You have a 3-day-old curry stain (turmeric + oil) on a coloured silk blouse. The NCERT table gives methods for white cotton. Step-by-step, adapt the cotton procedure for this silk garment, justifying each modification.",
+     "a": "Step 1: Identify stain class — vegetable (turmeric) + oil. Step 2: For silk, NEVER use javelle water (hypochlorite) — it destroys silk protein. Replace with gentle sunlight exposure (natural bleaching) after soap wash. Step 3: Ironing with blotting paper — use LOW heat, damp cloth barrier, no direct iron on silk. Step 4: Grease solvent — test methylated spirit on hidden seam first; silk tolerates it but dyes may bleed. Step 5: Final rinse — cold water, no wringing, dry flat in shade. A wrong answer using javelle water or hot iron reveals the student treats the table as a rigid recipe rather than a principle-based framework requiring fiber-specific risk assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chemical action of javelle water (sodium hypochlorite) on an ink stain versus oxalic acid on a rust stain. Why does the NCERT table list both potassium permanganate + oxalic acid sequence AND javelle water as alternatives for ink?",
+     "a": "Javelle water (NaOCl) is an oxidising bleach: it breaks chromophore double bonds in ink dyes via oxidation, decolourising them. Oxalic acid (H₂C₂O₄) is a reducing agent that chelates Fe³⁺ in rust (Fe₂O₃·nH₂O) forming soluble ferrioxalate complex — a completely different mechanism (chelation vs oxidation). For ink, KMnO₄ first oxidises the dye to a colourless form, then oxalic acid reduces the brown MnO₂ residue left by permanganate. Javelle water achieves decolourisation in one step but risks over-bleaching fabric. The table offers alternatives because ink compositions vary (iron gall vs carbon vs dye-based). A wrong answer stating \"both are bleaches\" reveals inability to distinguish oxidative vs reductive chemistry — a critical gap for board questions asking \"explain the chemical principle.\"",
+     "self_check": true
+    },
+    {
+     "q": "A hostel warden proposes a single \"universal stain remover\" spray containing: dilute ammonia, hydrogen peroxide, and liquid detergent. Evaluate this proposal for the 12 stains in Table 1, identifying which stains it would damage and why.",
+     "a": "This mixture would FAIL for: (1) Blood/egg/milk — ammonia is alkaline, but H₂O₂ + heat from reaction could coagulate proteins; (2) Wool/silk — ammonia damages animal fibres, H₂O₂ weakens silk; (3) Rust — needs reducing/chelating agent (oxalic acid), not oxidising H₂O₂; (4) Candle wax — needs solvent + scraping, not aqueous spray; (5) Paint/polish — needs kerosene/turpentine, not water-based mix. It might work for fresh vegetable stains and some dye bleeding. The proposal ignores the core NCERT principle: \"identify the stain and use the right procedure.\" A wrong answer listing only 1-2 failures reveals superficial scanning — the student hasn't mentally cross-referenced each stain's chemistry against the reagent mix.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Stain Emergency Flowchart\" for a college hostel notice board that a fresher with zero Home Science background can follow. It must handle unknown stains, fiber unknowns, and colourfastness risks in ≤ 6 decision nodes.",
+     "a": "A good flowchart: Node 1: FRESH? → YES: blot (don't rub), cold water rinse → Node 2: FABRIC KNOWN? → NO: test hidden seam with water → Node 3: COLOURFAST? → NO: dry-clean only → Node 4: STAIN TYPE RECOGNISED? → YES: follow Table 1 with fiber mods → NO: Node 5: START MILD — cold water + liquid detergent soak 30 min → Node 6: IF PERSISTS → escalate: vegetable→alkaline (borax), animal→enzyme (if safe), oil→solvent (test), mineral→acid (oxalic/lemon) → ALWAYS: final rinse, shade dry. Poor answer: linear list without decision branches — reveals student thinks stain removal is a fixed recipe, not a diagnostic algorithm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

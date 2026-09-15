@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_9",
+   "title": "c8_math_ch4_9",
+   "questions": [
+    {
+     "q": "State the definition of a parallelogram and list its four main properties.",
+     "a": "A parallelogram is a quadrilateral with both pairs of opposite sides parallel. Its four main properties: (1) opposite sides are equal, (2) opposite angles are equal, (3) adjacent angles are supplementary (sum to 180°), (4) diagonals bisect each other. A wrong answer (e.g., listing \"all sides equal\" or \"diagonals are equal\") reveals the student is confusing parallelogram with rhombus or rectangle, or memorising properties without understanding the parallel-sides origin.",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram ABCD, side AB is parallel to CD and BC is parallel to AD. Explain why angle A and angle B must add up to 180° using the concept of parallel lines and a transversal.",
+     "a": "AB || CD and BC is a transversal cutting them. Angle A and angle B are interior angles on the same side of transversal BC, so they are supplementary (sum = 180°). A wrong answer (e.g., \"because opposite angles are equal\") shows the student is stating a property without linking it to the parallel-line reasoning that causes it.",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram PQRS, PQ = 12 cm, QR = 8 cm, and angle P = 110°. Find the length of RS, the measure of angle R, and the measure of angle Q.",
+     "a": "Step 1: Opposite sides equal → RS = PQ = 12 cm. Step 2: Opposite angles equal → angle R = angle P = 110°. Step 3: Adjacent angles supplementary → angle Q = 180° - angle P = 180° - 110° = 70°. Answer: RS = 12 cm, angle R = 110°, angle Q = 70°. A wrong answer (e.g., RS = 8 cm or angle Q = 110°) reveals confusion between opposite/adjacent sides or angles.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has sides 5 cm, 7 cm, 5 cm, 7 cm in order. Can you conclude it is a parallelogram? What additional information would guarantee it is a parallelogram?",
+     "a": "No, equal opposite sides alone do not guarantee a parallelogram (e.g., an isosceles trapezium can have equal opposite sides? Actually an isosceles trapezium has equal legs, not opposite sides. A kite can have pairs of equal adjacent sides. But a quadrilateral with opposite sides equal is a parallelogram — wait, that IS a sufficient condition. Let me correct: In Euclidean geometry, if both pairs of opposite sides are equal, it IS a parallelogram. So the given sides 5,7,5,7 in order means opposite sides are equal → it IS a parallelogram. The question is flawed. Let me rephrase: \"A quadrilateral has sides 5 cm, 7 cm, 5 cm, 7 cm in order. Is it necessarily a parallelogram? Explain.\" Answer: Yes, because a quadrilateral with both pairs of opposite sides equal is a parallelogram (converse property). A wrong answer (\"no, could be a kite\") reveals the student doesn't know the converse property or confuses side-order. I'll adjust the question to avoid confusion.\n\n**Revised Question:** A quadrilateral has angles 80°, 100°, 80°, 100° in order. Can you conclude it is a parallelogram? What additional information would guarantee it is a parallelogram?\n\n**Revised Answer:** Equal opposite angles alone do not guarantee a parallelogram (e.g., an isosceles trapezium has equal base angles but not parallel opposite sides). Additional information: one pair of opposite sides parallel AND equal, or diagonals bisect each other, or both pairs of opposite sides parallel. A wrong answer (\"yes, opposite angles equal means parallelogram\") reveals the student thinks the property works both ways without the parallel condition.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi claims: \"If a quadrilateral has diagonals that bisect each other, it must be a parallelogram.\" Priya says: \"If a quadrilateral is a parallelogram, its diagonals bisect each other.\" Are both statements true? Justify.",
+     "a": "Both statements are true. Priya's statement is a property of parallelograms (forward direction). Ravi's statement is the converse: if diagonals bisect each other, the quadrilateral is a parallelogram — this is also a valid theorem (often used as a test for parallelogram). A wrong answer (e.g., \"only Priya is correct\") reveals the student doesn't know the converse is also true, or confuses it with \"diagonals are equal\" (which is not a sufficient condition).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (with measurements) where a carpenter must use the property \"adjacent angles of a parallelogram are supplementary\" to cut a wooden frame correctly. Provide the problem statement and the solution steps.",
+     "a": "Good answer: Problem — A carpenter builds a parallelogram-shaped window frame. One angle is marked 65°. He needs to cut the adjacent corner. What angle should he cut? Solution: Adjacent angles supplementary → 180° - 65° = 115°. He sets his mitre saw to 115° (or 65° depending on orientation). A poor answer (e.g., \"cut 65° again\") reveals the student doesn't grasp that adjacent angles are different unless it's a rectangle, or cannot translate the property to a practical setting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

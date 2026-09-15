@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_010",
+   "title": "c11_eco_cbse_07_010",
+   "questions": [
+    {
+     "q": "Name the three specific clean fuel programmes for rural and urban households mentioned in the NCERT Class 11 textbook as strategies for sustainable development in India.",
+     "a": "The three programmes are: (1) Subsidised LPG for rural households to replace fuelwood/dung cakes, (2) Gobar gas (biogas) plants with easy loans and subsidies for rural areas, and (3) CNG (Compressed Natural Gas) for urban public transport. A wrong answer (e.g., listing \"electric vehicles\" or \"hydrogen fuel\") reveals the student is importing outside knowledge instead of mastering the specific NCERT curriculum content, which is essential for board exam precision.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Central Pollution Control Board (CPCB) was established in 1974 and why state-level boards followed, using the concept of \"absorptive capacity of the environment\" from the textbook.",
+     "a": "The CPCB was established because water and air pollution had exceeded the environment's absorptive capacity — the ability to absorb degradation without permanent damage. When waste generation surpasses this capacity, the environment fails its waste-assimilation function, leading to health costs (70% water polluted, respiratory diseases). State boards were needed because pollution sources are localised (industries, vehicles, sewage) and require decentralised monitoring, inspection, and standard-setting. A wrong answer focusing only on \"pollution control\" without linking to absorptive capacity and the four functions of environment (c11_eco_cbse_07_001) shows superficial understanding of the economic rationale for regulation.",
+     "self_check": true
+    },
+    {
+     "q": "A village of 500 households currently uses fuelwood for cooking. Each household collects 15 kg/day from nearby forests. The forest regenerates 2,000 kg/day sustainably. Calculate the daily deficit/surplus and explain which Herman Daly rule for sustainable development (from NCERT) is being violated.",
+     "a": "Step 1: Total extraction = 500 households × 15 kg = 7,500 kg/day. Step 2: Regeneration rate = 2,000 kg/day. Step 3: Deficit = 7,500 - 2,000 = 5,500 kg/day (extraction exceeds regeneration). Step 4: This violates Daly's third rule: \"renewable resources should be extracted on a sustainable basis, that is, rate of extraction should not exceed rate of regeneration.\" A wrong calculation (e.g., using per capita forest land 0.06 ha from text instead of given data) or misidentifying the rule (e.g., citing population limit rule) shows inability to apply quantitative sustainability criteria to concrete resource scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mini-hydel plant strategy and Large Hydroelectric project strategy on three dimensions: (a) land use change, (b) transmission losses, (c) ecological disruption. Use only information from the NCERT text.",
+     "a": "From NCERT: Mini-hydel plants (a) do not change land use pattern in their area, (b) generate power locally, doing away with large-scale transmission towers/cables and avoiding transmission loss, (c) are \"more or less environment-friendly\" as they use perennial stream energy without inundating forests or interfering with natural water flow in catchment areas. Large hydro projects (implied contrast) inundate forests, interfere with natural water flow, and require extensive transmission infrastructure. A wrong answer claiming mini-hydel has zero ecological impact or that large hydro has no transmission loss reveals failure to extract comparative information from the text's explicit descriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The shift from chemical fertilisers to biocomposting and from chemical pesticides to neem-based biopest control represents a win-win for farmers and the environment with no trade-offs.\" Use evidence from the NCERT text on costs, yields, and adoption challenges.",
+     "a": "The statement is false. NCERT acknowledges trade-offs: (1) Initial switch to biocomposting followed \"large tracts of productive land adversely affected\" by chemicals — implying a transition period with potentially lower yields. (2) Biocomposting using earthworms is faster but requires knowledge and setup. (3) Biopest control (neem, mixed cropping, predator birds) demands ecological knowledge and may be less immediately effective than broad-spectrum chemicals. (4) The text says farmers \"in large numbers... have again started using compost\" — indicating a reversal after experiencing chemical degradation, not a seamless win-win. A student claiming no trade-offs ignores the historical trajectory of Green Revolution chemical dependence and the text's implicit transition costs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable development policy package for a hypothetical Indian town of 2 lakh people facing: (a) groundwater depletion from tubewells, (b) municipal solid waste dumping, (c) diesel auto-rickshaw pollution. Your package must include exactly one policy instrument from each category: regulatory, economic incentive, and technology promotion, drawn from NCERT strategies.",
+     "a": "Regulatory: Mandate rainwater harvesting for all new buildings (extending CPCB/SPCB standard-setting role to groundwater recharge). Economic Incentive: Subsidised composting bins for households + buy-back guarantee for compost by municipal corporation (mirroring biocomposting promotion and civic authority benefit). Technology Promotion: Convert auto-rickshaw fleet to CNG with dedicated filling stations (replicating Delhi CNG model). A poor answer lists generic ideas (\"awareness campaigns\", \"fines\") without mapping to specific NCERT policy instruments, showing inability to transfer textbook strategies to new contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Reshaping India's Political Map",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.102.2.1",
+   "title": "European Traders Arrive: The Portuguese",
+   "section": "2",
+   "definition": "The sea route to India brought European traders to Indian shores at the end of the fifteenth century, with the Portuguese among the first to set up trading posts and forts on the coasts, opening the chapter of European rivalry for Indian trade.",
+   "formula": "-",
+   "key_idea": "Ocean routes turned India into a stage for European commercial rivalry.",
+   "textbook_ref": "hees102.txt lines 1-155 (arrival of the Portuguese in India)",
+   "question_patterns": [
+    "who were the first Europeans to reach India by sea and when",
+    "why did European trading companies come to India",
+    "where did the Portuguese set up their trading centres in India",
+    "how did the discovery of a sea route change India's trade",
+    "name the European powers that competed for trade in India",
+    "what made Indian coasts attractive to foreign traders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the sea route",
+     "explain": "The Cape route around Africa connected Europe directly to India."},
+    {"step": 2, "action": "identify the arrivals",
+     "explain": "Portuguese came first, followed by Dutch, English and French traders."},
+    {"step": 3, "action": "trace the settlement",
+     "explain": "Fortified trading posts on the coasts began as commerce and grew into power."}
+   ]
+  },
+  {
+   "id": "hees.102.2.2",
+   "title": "The Delhi Sultanate and Its Resistance",
+   "section": "2",
+   "definition": "From the thirteenth century the Delhi Sultanate ruled large parts of north India through dynasties like the Tughlaqs and Lodis, but its power faced constant resistance from regional kingdoms, and southern powers such as the Vijayanagara Empire stayed outside its grip.",
+   "formula": "-",
+   "key_idea": "Sultanate control stretched far but never unopposed - regional powers pushed back.",
+   "textbook_ref": "hees102.txt lines 155-510 (sultanate dynasties, resistance, Tughlaq and Lodi extents)",
+   "question_patterns": [
+    "name the dynasties of the Delhi Sultanate in order",
+    "how did regional kingdoms resist the Delhi Sultanate",
+    "why did the Tughlaq empire begin to break up",
+    "what was the extent of the Lodi dynasty",
+    "describe the resistance to the Delhi Sultanate in the south",
+    "why is the period called one of reshaping the political map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "place the dynasties",
+     "explain": "Follow the succession of sultanate dynasties and their shifting territories."},
+    {"step": 2, "action": "note the resistance",
+     "explain": "Provincial governors and southern kingdoms repeatedly challenged Delhi's authority."},
+    {"step": 3, "action": "mark the limits",
+     "explain": "Empires like Vijayanagara kept the deep south independent of sultanate rule."}
+   ]
+  },
+  {
+   "id": "hees.102.2.3",
+   "title": "The Vijayanagara Empire",
+   "section": "2",
+   "definition": "Founded in the fourteenth century in the Deccan, the Vijayanagara Empire grew into a powerful Hindu kingdom famous for its wealth, trade and the city of Hampi, standing as a major counterforce to the sultanates of the north.",
+   "formula": "-",
+   "key_idea": "Vijayanagara anchored southern power against northern expansion.",
+   "textbook_ref": "hees102.txt lines 509-560 (the Vijayanagara empire)",
+   "question_patterns": [
+    "who founded the Vijayanagara empire and when",
+    "why was the city of Vijayanagara famous",
+    "how did Vijayanagara resist the northern sultanates",
+    "what made Hampi a prosperous city",
+    "which rivers and regions came under Vijayanagara",
+    "describe the political role of Vijayanagara in the Deccan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the founding",
+     "explain": "Brothers of the Sangama line established the kingdom in the mid-1300s."},
+    {"step": 2, "action": "note the prosperity",
+     "explain": "Trade in spices, cloth and gems enriched the capital at Hampi."},
+    {"step": 3, "action": "mark the rivalry",
+     "explain": "Wars with the Bahmani sultans and later Deccan powers shaped the region."}
+   ]
+  },
+  {
+   "id": "hees.102.2.4",
+   "title": "Rajputs, Hoysalas and Regional Kingdoms",
+   "section": "2",
+   "definition": "Beyond the big empires, the political map was studded with regional kingdoms - Rajput houses in the north and west, the Hoysalas in the south, the Eastern Gangas in Odisha - each building temples, trade and armies and adding their patches to India's changing map.",
+   "formula": "-",
+   "key_idea": "Many strong regional kingdoms, not one power, made the medieval political map.",
+   "textbook_ref": "hees102.txt lines 155-165 (Eastern Ganga and Hoysala territories), 390-445",
+   "question_patterns": [
+    "name two regional kingdoms that flourished alongside the sultanate",
+    "where did the Hoysala kingdom rule",
+    "what were the achievements of the Eastern Ganga kingdom",
+    "how did Rajput kingdoms maintain their independence",
+    "why did regional powers flourish during this period",
+    "show how the political map changed between 1300 and 1500"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate each kingdom",
+     "explain": "Place the Rajput states, Hoysalas and Gangas on the map."},
+    {"step": 2, "action": "note their strengths",
+     "explain": "Temples, trade routes and hill forts anchored their power."},
+    {"step": 3, "action": "follow the change",
+     "explain": "Wars and alliances redrew boundaries from one century to the next."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hees102.txt throughout",
+   "questions": [
+     "On an outline map, mark the extent of the Tughlaq and Lodi dynasties.",
+     "Why did European traders build forts in India?",
+     "Describe the resistance faced by the Delhi Sultanate."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hees102.txt Vijayanagara section",
+   "questions": [
+     "Write a short note on the Vijayanagara empire.",
+     "How did regional kingdoms reshape India's political map?"
+   ]
+  }
+ ]
+}

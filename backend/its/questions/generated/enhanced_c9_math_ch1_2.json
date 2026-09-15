@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_2",
+   "title": "c9_math_ch1_2",
+   "questions": [
+    {
+     "q": "What are the coordinates of the point that lies 4 units to the left of the origin and 3 units above the x-axis?",
+     "a": "The coordinates are (-4, 3). A wrong answer like (4, 3) reveals the student ignores the sign convention for left/right movement (negative x for left). An answer like (-3, 4) reveals confusion between the order of coordinates (x comes first, then y) or mixing up horizontal vs vertical distances.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the point (0, -5) lies on the y-axis and not in any quadrant.",
+     "a": "The point (0, -5) has x-coordinate 0, meaning its perpendicular distance from the y-axis is zero — it lies exactly on the y-axis. Since quadrants require both coordinates to be non-zero (positive or negative), any point with x = 0 or y = 0 lies on an axis, not in a quadrant. A wrong explanation like \"it's in the fourth quadrant because y is negative\" reveals the student thinks negative y alone places a point in a quadrant, ignoring the x = 0 condition.",
+     "self_check": true
+    },
+    {
+     "q": "Plot the points A(2.5, -1.5), B(-3, 2), C(0, 4), and D(-2, -3) on a Cartesian plane with 1 cm = 1 unit. Which point lies in the third quadrant?",
+     "a": "Point D(-2, -3) lies in the third quadrant because both coordinates are negative. Steps: (1) Draw axes with scale 1 cm = 1 unit. (2) For A: move 2.5 cm right, 1.5 cm down. (3) For B: move 3 cm left, 2 cm up. (4) For C: stay at origin horizontally, move 4 cm up (on y-axis). (5) For D: move 2 cm left, 3 cm down. A wrong identification like B reveals the student thinks negative x and positive y is third quadrant (it's second). Plotting C incorrectly at (4, 0) reveals confusion between (0, 4) and (4, 0).",
+     "self_check": true
+    },
+    {
+     "q": "A student plots P(3, -2) by moving 3 units up and 2 units left from the origin. Identify the two errors in this method and state the correct coordinates of the point the student actually plotted.",
+     "a": "The student made two errors: (1) moved vertically first instead of horizontally first (order doesn't change final position but violates convention), and (2) moved up (positive y) instead of down (negative y) for the y-coordinate, and left (negative x) instead of right (positive x) for the x-coordinate. The student actually plotted (-2, 3). A wrong answer like \"the student plotted (3, -2) correctly\" reveals the student cannot trace coordinate movements or confuse direction of signed numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If we change the scale from 1 cm = 1 unit to 1 cm = 2 units, the position of the point (4, 6) on the paper moves closer to the origin.\" Is it true or false? Justify.",
+     "a": "False. Changing the scale changes how many centimetres represent one unit, but the point's coordinates (4, 6) remain the same — its geometric location relative to the axes is unchanged. With 1 cm = 2 units, the point is plotted at (2 cm, 3 cm) from the origin instead of (4 cm, 6 cm), so it appears closer on the paper, but its mathematical position in the coordinate plane is identical. A \"true\" answer reveals the student confuses the graphical representation (paper distance) with the mathematical coordinate position.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where plotting three points with specific coordinates helps solve a problem. Give the coordinates and explain what each point represents.",
+     "a": "Example: A farmer in Punjab has a rectangular field. He marks the southwest corner as origin (0, 0). The northeast corner is at (120, 80) metres. A borewell is at (40, 60) and a storage shed at (100, 20). Plotting these helps plan irrigation pipes. A poor answer gives vague coordinates like \"some points\" or uses only positive integers without decimals/negatives, revealing the student cannot connect coordinates to measurable real-world quantities or understand scaling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

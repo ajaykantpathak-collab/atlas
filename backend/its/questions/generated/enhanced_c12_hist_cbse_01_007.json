@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_007",
+   "title": "c12_hist_cbse_01_007",
+   "questions": [
+    {
+     "q": "Identify the specific Harappan site where the \"warehouse\" — a massive structure with surviving lower brick portions and decayed wooden upper parts — was excavated on the Citadel, and name the archaeologist who described it in early reports.",
+     "a": "The warehouse was excavated at **Mohenjodaro** on the Citadel; Ernest Mackay described it in *Further Excavations at Mohenjodaro* (1937). A wrong answer (e.g., \"Harappa\" or \"Great Bath\") reveals confusion between the two major Citadel structures — the warehouse and the Great Bath — or between the two major cities. Students often conflate Harappa's \"granary\" platforms (a series of brick bases) with Mohenjodaro's single large warehouse building.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why archaeologists infer that the upper portions of the Mohenjodaro warehouse were made of wood, even though no wood survives. What specific evidence from the excavation supports this inference?",
+     "a": "The inference rests on **negative evidence**: only the lower brick courses (foundations/plinth) remain intact, while the superstructure left no durable traces — no baked-brick collapse, no stone columns, no roof tiles. In the Indus alluvium, wood decays completely unless charred. The massive brick plinth implies a heavy superstructure; timber is the only locally available material capable of spanning such widths (the building covers ~600 sq. m). A wrong answer (\"wood was found\" or \"seals show it\") reveals a misunderstanding of archaeological preservation biases — students often expect direct evidence for every claim, not realizing that *absence of evidence* (of stone/brick superstructure) is itself evidence when foundations are massive.",
+     "self_check": true
+    },
+    {
+     "q": "At Harappa, archaeologists found a series of **brick platforms** with air ducts beneath them, initially labelled \"granaries.\" At Mohenjodaro, a **single large building** with thick brick walls and a central passage was called a \"warehouse.\" Using the concept of **archaeological interpretation**, explain why the same functional label (\"granary\") may be misleading for both, and what the term \"warehouse\" better captures for Mohenjodaro.",
+     "a": "The Harappa platforms (c. 12 units, each ~15×6 m) have **ventilated hollow bases** — ideal for *grain* storage (preventing moisture/fungal growth). The Mohenjodaro structure lacks such ducts; instead, it has a **central passageway flanked by rooms**, thick walls (load-bearing for upper floors), and no specialized ventilation. This suggests **multi-commodity storage** (grain, cotton, oil, craft goods, imported materials). Calling both \"granaries\" imposes a single function on differing architectures. \"Warehouse\" acknowledges functional versatility. A wrong answer (\"both stored grain\") misses that **form follows function** in archaeology — ductless platforms cannot be assumed to store grain without direct botanical evidence (which is absent at Mohenjodaro's warehouse).",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"It has been calculated that if one labourer moved roughly a cubic metre of earth daily, just to put the foundations in place it would have required four million person-days.\" Using this data, **estimate the minimum number of workers** needed to build the Citadel platforms in **one building season (120 days)**, and explain what this calculation implies about Harappan **labour organization** — not just labour availability.",
+     "a": "4,000,000 person-days ÷ 120 days = **~33,333 workers** simultaneously. This implies **centralized coordination**: recruitment, feeding, housing, tool supply, and task synchronization for a workforce larger than many Early Historic cities' *total* populations. It is not merely \"lots of people\" — it requires **administrative capacity** (rostering, logistics, dispute resolution). A wrong answer (\"33,000 people lived there\") confuses *workforce* with *population*; Mohenjodaro's estimated population is 35,000–50,000. The calculation shows the **state/society could mobilize nearly its entire adult male population** for a single public project — a hallmark of **corvée labour** or communal obligation, not wage labour.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The existence of granaries proves the Harappan Civilisation had a powerful king who collected taxes in grain.\" Use **three distinct pieces of archaeological evidence** from the chapter (excluding the granaries themselves) to support your critique.",
+     "a": "The statement commits the **\"palace = king\" fallacy**. Three counter-evidences: (1) **No royal iconography**: The \"priest-king\" statue is a modern label; no crowns, thrones, or royal inscriptions exist (unlike Mesopotamia/Egypt). (2) **Uniform artefacts without central production**: Standardized bricks, weights, seals appear *across 1.5 million km²* without a single production centre — suggesting **distributed norms**, not top-down decree. (3) **Citadel architecture is utilitarian**: Warehouse, Great Bath, platforms — no palaces, temples, or monumental tombs. The warehouse stores *community* surplus, not *royal* tribute. A wrong answer (\"we haven't found the palace yet\") ignores that **absence of expected royal markers across 2000+ sites** is statistically significant — not an excavation gap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a **historical argument** (150 words) answering: \"Was the Harappan warehouse/granary system a response to **environmental risk** (floods/droughts) or a tool of **social control** (elite appropriation of surplus)?\" Use evidence from: (a) settlement distribution (Map 1), (b) agricultural diversity (wheat, barley, millets, cotton), (c) absence of weapons/fortifications *within* cities (vs. city walls).",
+     "a": "**Environmental risk primary, social control secondary.** (a) Sites cluster in **semi-arid zones** (Indus-Saraswati basins) with unpredictable monsoons and river shifts — surplus buffers *entire communities* against crop failure. (b) **Multi-cropping** (winter wheat/barley + summer millets/cotton) and **ploughed fields at Kalibangan** show risk-spreading agriculture; storage smooths *inter-seasonal* gaps. (c) **City walls are flood-defensive** (raised platforms, gates on high ground), not military — no internal citadels-within-citadels, no weapon hoards. The warehouse sits *openly* on the Citadel, accessible, not hidden. If elites monopolized surplus, we would expect: (i) elite burials with grain offerings (absent — burials are egalitarian), (ii) palace granaries (absent — warehouse is communal infrastructure). Thus, storage is a **collective adaptation to ecological volatility**, later co-opted by emerging authorities — but not *created* for control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

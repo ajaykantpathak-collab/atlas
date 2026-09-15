@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_7",
+   "title": "c8_physics_ch2_7",
+   "questions": [
+    {
+     "q": "State the formula for heat produced by an electric current in a resistor and name the SI unit of each quantity.",
+     "a": "The formula is H = I²Rt. H (heat) is measured in joules (J), I (current) in amperes (A), R (resistance) in ohms (Ω), and t (time) in seconds (s). A wrong answer such as H = I R t (missing the square on current) reveals the student does not recall the quadratic dependence on current, which is the most distinctive feature of Joule's law.",
+     "self_check": true
+    },
+    {
+     "q": "Why does doubling the current through a resistor quadruple the heat produced, while doubling the resistance only doubles the heat (assuming current stays constant)? Explain using the formula H = I²Rt.",
+     "a": "In H = I²Rt, current (I) is squared, so if I becomes 2I, the I² term becomes (2I)² = 4I², multiplying heat by 4. Resistance (R) is to the first power, so doubling R only doubles H. A wrong answer that says \"both double the heat\" shows the student treats the formula as linear in all variables and misses the physical reason: heat depends on the *rate* of energy transfer (power = I²R), and power itself depends on I².",
+     "self_check": true
+    },
+    {
+     "q": "An electric iron draws a current of 4 A from a 220 V supply. Its heating element has a resistance of 55 Ω. Calculate the heat produced in joules if the iron is used for 2 minutes.",
+     "a": "Given: I = 4 A, R = 55 Ω, t = 2 min = 120 s. Formula: H = I²Rt = (4)² × 55 × 120 = 16 × 55 × 120 = 105,600 J. Unit analysis: A² × Ω × s = (C/s)² × (J·s/C²) × s = J. A wrong answer of 26,400 J (using H = I R t) reveals the student forgot to square the current. A wrong answer of 1,760 J (using t = 2 s instead of 120 s) reveals a unit conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical resistors are connected (a) in series and (b) in parallel across the same battery. In which case is more heat produced per minute? Explain using H = I²Rt and the equivalent resistance.",
+     "a": "More heat is produced in the parallel combination. For the same voltage, the equivalent resistance in parallel (R/2) is lower than in series (2R). The total current drawn from the battery is higher in parallel (I_parallel = V/(R/2) = 2V/R) than in series (I_series = V/(2R)). Since total heat H = I²R_eq t, for parallel: H_parallel = (2V/R)² × (R/2) × t = (4V²/R²) × (R/2) × t = 2V²t/R. For series: H_series = (V/(2R))² × (2R) × t = (V²/4R²) × 2R × t = 0.5 V²t/R. Parallel produces 4 times more heat. A wrong answer choosing series reveals the student thinks \"higher resistance always means more heat\" without considering that the current changes drastically when the circuit configuration changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the heat produced in a 10 Ω resistor carrying 2 A for 30 s as H = 2 × 10 × 30 = 600 J. Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. The student used H = I R t instead of H = I² R t. The correct calculation is H = (2)² × 10 × 30 = 4 × 10 × 30 = 1,200 J. The error is omitting the square on the current. This reveals a fundamental misunderstanding of the formula: the student treats heat as linearly proportional to current, whereas the physics (Joule's law) shows a quadratic relationship because power = I²R.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a variable resistor (rheostat), an ammeter, a calorimeter with water, and a thermometer to verify that heat produced is proportional to the square of the current (H ∝ I²). List the steps and the graph you would plot.",
+     "a": "Steps: (1) Set up a circuit with battery, rheostat, ammeter, and a heating coil immersed in a known mass of water in a calorimeter. (2) Adjust rheostat to get a current I₁, close circuit for fixed time t, measure temperature rise Δθ₁. Calculate H₁ = mcΔθ₁. (3) Repeat for at least 4 different currents I₂, I₃... keeping time and water mass constant. (4) Plot H (y-axis) vs I² (x-axis). A straight line through origin verifies H ∝ I². A poor answer that plots H vs I (getting a curve) or does not control time/mass reveals the student cannot isolate variables or translate a proportionality into a graphical test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

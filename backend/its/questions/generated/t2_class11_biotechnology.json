@@ -1,0 +1,382 @@
+{
+ "catalog": "t2_class11_biotechnology",
+ "note": "Wave-2 graded top-ups for class 11 Biotechnology pools (kebt101-112). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "kebt101.1", "title": "Meaning and Scope of Biotechnology", "questions": [
+    {"q": "Which bacterium converts milk into curd by producing lactic acid?", "a": "Lactobacillus"},
+    {"q": "Biotechnology fuses biology with which other field?", "a": "technology"}
+  ]},
+  {"id": "kebt101.2", "title": "Historical Phases of Biotechnology", "questions": [
+    {"q": "Solving the structure of which molecule opened the gene-level engineering phase?", "a": "DNA"},
+    {"q": "Which phase of biotechnology was built on brewing and fermenting: the classical or the prehistoric?", "a": "the classical"}
+  ]},
+  {"id": "kebt101.3", "title": "Fermentation in Traditional Food Processing", "questions": [
+    {"q": "Fermentation of dough and grape juice is microbe-driven and guided by what?", "a": "enzymes"},
+    {"q": "Which acid, made by Lactobacillus, clots milk protein into curds?", "a": "lactic acid"}
+  ]},
+  {"id": "kebt101.4", "title": "Compound Microscope Magnification", "questions": [
+    {"q": "A 10x eyepiece with a 40x objective gives what total magnification?", "a": "400"},
+    {"q": "Total power equals the product of which two lens powers?", "a": "objective and eyepiece"}
+  ]},
+  {"id": "kebt101.5", "title": "Fermented Share of the World Diet", "questions": [
+    {"q": "About what fraction of the world's food is fermented: one third or three quarters?", "a": "one third"},
+    {"q": "A population eats 900 kg of food. About how many kilograms are fermented?", "a": "300"}
+  ]},
+  {"id": "kebt101.6", "title": "Bt Cotton Share of the Hybrid Seed Market", "questions": [
+    {"q": "Bt cotton holds roughly what percent of the Indian hybrid seed market by value?", "a": "45"},
+    {"q": "Which soil bacterium's Cry protein powers Bt cotton: Bacillus thuringiensis or Lactobacillus?", "a": "Bacillus thuringiensis"}
+  ]},
+  {"id": "kebt101.7", "title": "Colour-Coded Branches of Biotechnology", "questions": [
+    {"q": "Which colour code covers medical products like insulin and vaccines: red or green?", "a": "red"},
+    {"q": "Which colour code covers marine and freshwater biotechnology?", "a": "blue"}
+  ]},
+  {"id": "kebt101.8", "title": "Application Domains of Modern Biotechnology", "questions": [
+    {"q": "Which rice carries provitamin A: Golden Rice or Flavr Savr?", "a": "Golden Rice"},
+    {"q": "Using plants that soak up heavy metals to clean polluted sites is part of which domain: planet care or food processing?", "a": "planet care"}
+  ]},
+  {"id": "kebt102.1", "title": "Fluid Mosaic Model", "questions": [
+    {"q": "Who pictured the membrane as a fluid mosaic in 1972: Singer and Nicolson, or Watson and Crick?", "a": "Singer and Nicolson"},
+    {"q": "In the lipid bilayer, hydrophobic tails face which way: inward or outward?", "a": "inward"}
+  ]},
+  {"id": "kebt102.2", "title": "Transport Across the Plasma Membrane", "questions": [
+    {"q": "Which transport costs zero ATP: diffusion or uphill pumping?", "a": "diffusion"},
+    {"q": "Carrier-assisted downhill passage is called what transport: facilitated or active?", "a": "facilitated"}
+  ]},
+  {"id": "kebt102.3", "title": "Membrane Composition Arithmetic", "questions": [
+    {"q": "A membrane runs 52 percent protein and 40 percent lipid. What percent do other components hold?", "a": "8"},
+    {"q": "In the erythrocyte membrane, which share is larger: the protein or the lipid?", "a": "the protein"}
+  ]},
+  {"id": "kebt102.4", "title": "Cell Wall of Bacteria and Plants", "questions": [
+    {"q": "Which polymer cross-links to form the bacterial cell wall: peptidoglycan or cellulose?", "a": "peptidoglycan"},
+    {"q": "Which polymer builds most higher plant cell walls?", "a": "cellulose"}
+  ]},
+  {"id": "kebt102.5", "title": "Endomembrane System", "questions": [
+    {"q": "Which face of the Golgi receives incoming vesicles: cis or trans?", "a": "cis"},
+    {"q": "Which organelle's acid hydrolases recycle damaged organelles by autophagy?", "a": "lysosomes"}
+  ]},
+  {"id": "kebt102.6", "title": "Ribosome Subunits", "questions": [
+    {"q": "The eukaryotic 80S ribosome splits into 60S and which subunit?", "a": "40S"},
+    {"q": "Mitochondria carry which kind of ribosomes: 70S or 80S?", "a": "70S"}
+  ]},
+  {"id": "kebt102.7", "title": "Cytoskeleton and the Axoneme", "questions": [
+    {"q": "How many peripheral doublets ring the cilium's axoneme?", "a": "9"},
+    {"q": "Counting doublets and the central pair, how many microtubules drive one cilium?", "a": "20"}
+  ]},
+  {"id": "kebt102.8", "title": "Chromosome Number and Ploidy", "questions": [
+    {"q": "How many pairs of chromosomes does a human body cell hold?", "a": "23"},
+    {"q": "How many chromosomes does a human gamete carry?", "a": "23"}
+  ]},
+  {"id": "kebt103.1", "title": "Classification of Carbohydrates", "questions": [
+    {"q": "Sugar chains of more than ten units joined by glycosidic bonds are called what?", "a": "polysaccharides"},
+    {"q": "Which sugar class fits the formula Cn(H2O)n: monosaccharides or polysaccharides?", "a": "monosaccharides"}
+  ]},
+  {"id": "kebt103.2", "title": "Stereoisomers, Anomers and Epimers", "questions": [
+    {"q": "How many stereoisomers do glucose's four chiral centres allow?", "a": "16"},
+    {"q": "Sugars differing at a single carbon, like glucose and galactose, are called what?", "a": "epimers"}
+  ]},
+  {"id": "kebt103.3", "title": "Storage and Structural Polysaccharides", "questions": [
+    {"q": "Starch's unbranched component is called what: amylose or amylopectin?", "a": "amylose"},
+    {"q": "Which enzyme do humans lack for digesting cellulose: cellulase or amylase?", "a": "cellulase"}
+  ]},
+  {"id": "kebt103.4", "title": "Fatty Acid Notation", "questions": [
+    {"q": "In fatty acid notation 18:2, what does the 2 count: double bonds or carbons?", "a": "double bonds"},
+    {"q": "Natural fatty acids carry even or odd carbon totals?", "a": "even"}
+  ]},
+  {"id": "kebt103.5", "title": "Lipid Classes", "questions": [
+    {"q": "Which lipid class banks energy in adipose tissue: triacylglycerol or cholesterol?", "a": "triacylglycerol"},
+    {"q": "How many fused rings build a steroid skeleton?", "a": "4"}
+  ]},
+  {"id": "kebt103.6", "title": "Amino Acids and the Zwitterion", "questions": [
+    {"q": "How many standard amino acids enter proteins?", "a": "20"},
+    {"q": "A dipolar ion carrying both plus and minus poles is called a what?", "a": "zwitterion"}
+  ]},
+  {"id": "kebt103.7", "title": "Peptide Bonds and Protein Structure", "questions": [
+    {"q": "How many peptide bonds does a chain of 50 residues hold?", "a": "49"},
+    {"q": "How many levels does protein folding stack: four or forty?", "a": "four"}
+  ]},
+  {"id": "kebt103.8", "title": "Nucleic Acids and the Double Helix", "questions": [
+    {"q": "How many hydrogen bonds join adenine to thymine?", "a": "2"},
+    {"q": "How many hydrogen bonds join guanine to cytosine?", "a": "3"}
+  ]},
+  {"id": "kebt104.1", "title": "Enzyme Classes and Cofactors", "questions": [
+    {"q": "Catalytic RNA molecules are called what?", "a": "ribozymes"},
+    {"q": "The naked protein without its helper is called the what: apoenzyme or holoenzyme?", "a": "apoenzyme"}
+  ]},
+  {"id": "kebt104.2", "title": "Lock-Key and Induced Fit Models", "questions": [
+    {"q": "Who proposed the induced fit model in 1958: Koshland or Fischer?", "a": "Koshland"},
+    {"q": "Which model pictures a rigid active site pre-cut for its substrate: lock and key or induced fit?", "a": "lock and key"}
+  ]},
+  {"id": "kebt104.3", "title": "Factors Affecting Enzyme Activity", "questions": [
+    {"q": "Pepsin peaks near what pH: 1-2 or 9-10?", "a": "1-2"},
+    {"q": "Beyond the optimum, heat does what to the enzyme protein: denatures or strengthens it?", "a": "denatures"}
+  ]},
+  {"id": "kebt104.4", "title": "Michaelis-Menten Kinetics", "questions": [
+    {"q": "At substrate equal to Km, the reaction runs at what fraction of Vmax: half or double?", "a": "half"},
+    {"q": "At substrate far above Km, the rate approaches which ceiling: Vmax or zero?", "a": "Vmax"}
+  ]},
+  {"id": "kebt104.5", "title": "Enzyme Units and Specific Activity", "questions": [
+    {"q": "One enzyme unit converts how much substrate per minute: a micromole or a mole?", "a": "a micromole"},
+    {"q": "One katal equals six times ten to what power enzyme units?", "a": "7"}
+  ]},
+  {"id": "kebt104.6", "title": "Competitive and Non-Competitive Inhibition", "questions": [
+    {"q": "Competitive inhibition raises which constant: Km or Vmax?", "a": "Km"},
+    {"q": "Which inhibitors bind only the enzyme-substrate pair: uncompetitive or competitive?", "a": "uncompetitive"}
+  ]},
+  {"id": "kebt104.7", "title": "Thermodynamics and Free Energy", "questions": [
+    {"q": "A negative free-energy change marks a what process: spontaneous or impossible?", "a": "spontaneous"},
+    {"q": "Enzymes cut the activation barrier but never move the what of a reaction?", "a": "equilibrium"}
+  ]},
+  {"id": "kebt104.8", "title": "ATP the Energy Currency", "questions": [
+    {"q": "Hydrolysing one mole of ATP releases about how many kcal: 7.3 or 73?", "a": "7.3"},
+    {"q": "ATP hydrolysis yields ADP, energy and inorganic what?", "a": "phosphate"}
+  ]},
+  {"id": "kebt105.1", "title": "Cell Signaling Types", "questions": [
+    {"q": "Short-range messengers reaching neighbours at once is what signalling: paracrine or endocrine?", "a": "paracrine"},
+    {"q": "Cancer cells abuse which signalling by making their own growth factors: autocrine or endocrine?", "a": "autocrine"}
+  ]},
+  {"id": "kebt105.2", "title": "Glycolysis and Pyruvate", "questions": [
+    {"q": "The two pyruvates from one glucose carry how many carbon atoms together?", "a": "6"},
+    {"q": "Without oxygen, pyruvate becomes lactate or which alcohol product: ethanol or citrate?", "a": "ethanol"}
+  ]},
+  {"id": "kebt105.3", "title": "Energy Yield of Glycolysis", "questions": [
+    {"q": "What is the net ATP yield of glycolysis per glucose?", "a": "2"},
+    {"q": "How many ATP does fermentation yield per glucose?", "a": "2"}
+  ]},
+  {"id": "kebt105.4", "title": "Citric Acid Cycle", "questions": [
+    {"q": "Which cycle condenses an acetyl group with oxaloacetate: the citric acid cycle or glycolysis?", "a": "the citric acid cycle"},
+    {"q": "Which citric-acid enzyme sits in the inner membrane instead of the matrix: succinate dehydrogenase or citrate synthase?", "a": "succinate dehydrogenase"}
+  ]},
+  {"id": "kebt105.5", "title": "Electron Transport Chain", "questions": [
+    {"q": "One matrix NADH buys about how many ATP: 2.5 or 25?", "a": "2.5"},
+    {"q": "FADH2 enters the electron chain past which complex: I or III?", "a": "I"}
+  ]},
+  {"id": "kebt105.6", "title": "Photosynthesis and the Calvin Cycle", "questions": [
+    {"q": "Which cycle fixes carbon dioxide onto ribulose-1,5-bisphosphate: the Calvin cycle or the Krebs cycle?", "a": "the Calvin cycle"},
+    {"q": "Splitting water in the light reactions releases which gas?", "a": "oxygen"}
+  ]},
+  {"id": "kebt105.7", "title": "Cell Cycle and Mitosis", "questions": [
+    {"q": "Starting from one cell, how many cells do 3 rounds of division leave?", "a": "8"},
+    {"q": "In S phase, the 2C DNA content doubles to what?", "a": "4C"}
+  ]},
+  {"id": "kebt105.8", "title": "Meiosis, Apoptosis and Stem Cells", "questions": [
+    {"q": "Which division halves the chromosome set: meiosis or mitosis?", "a": "meiosis"},
+    {"q": "Programmed cell death without inflammation is called what?", "a": "apoptosis"}
+  ]},
+  {"id": "kebt106.1", "title": "Monohybrid Cross and Test Cross", "questions": [
+    {"q": "What phenotypic ratio does the F2 of a monohybrid cross show: 3:1 or 9:3:3:1?", "a": "3:1"},
+    {"q": "Crossing a dominant-looking plant to the recessive parent is called a what cross?", "a": "test cross"}
+  ]},
+  {"id": "kebt106.2", "title": "Incomplete Dominance and Codominance", "questions": [
+    {"q": "Red crossed with white in the four-o'clock plant gives what colour F1: pink or red?", "a": "pink"},
+    {"q": "Both alleles speaking at once, as in the MN blood group, is called what?", "a": "codominance"}
+  ]},
+  {"id": "kebt106.3", "title": "Dihybrid Cross", "questions": [
+    {"q": "What F2 ratio does a dihybrid cross give: 9:3:3:1 or 3:1?", "a": "9:3:3:1"},
+    {"q": "The dihybrid cross established Mendel's law of which assortment: independent or linked?", "a": "independent"}
+  ]},
+  {"id": "kebt106.4", "title": "Linkage and Crossing Over", "questions": [
+    {"q": "One percent of recombinants marks what map distance: one centimorgan or one metre?", "a": "one centimorgan"},
+    {"q": "Genes seated on one chromosome travel together as a what group?", "a": "linkage"}
+  ]},
+  {"id": "kebt106.5", "title": "Sex-linked Inheritance", "questions": [
+    {"q": "Morgan's stray white-eyed fly was which sex: male or female?", "a": "male"},
+    {"q": "Eye colour in Drosophila rides which chromosome: the X or the Y?", "a": "the X"}
+  ]},
+  {"id": "kebt106.6", "title": "Extrachromosomal Inheritance", "questions": [
+    {"q": "Plastids and mitochondria pass down which parent's line: the mother's or the father's?", "a": "the mother's"},
+    {"q": "Which gamete sheds its cytoplasm at fertilisation, ending paternal organelle inheritance: the sperm or the egg?", "a": "the sperm"}
+  ]},
+  {"id": "kebt106.7", "title": "Polyploidy Levels", "questions": [
+    {"q": "Bread wheat carries how many sets of chromosomes: six or sixty?", "a": "six"},
+    {"q": "Rice is what ploidy level: diploid or tetraploid?", "a": "diploid"}
+  ]},
+  {"id": "kebt106.8", "title": "Forward and Reverse Genetics", "questions": [
+    {"q": "Starting from a phenotype and hunting the gene is which genetics: forward or reverse?", "a": "forward"},
+    {"q": "Which gene-silencing probe does reverse genetics commonly use: RNA interference or a microscope?", "a": "RNA interference"}
+  ]},
+  {"id": "kebt107.1", "title": "DNA as the Genetic Material", "questions": [
+    {"q": "Who observed the transforming principle in 1928: Griffith or Hershey?", "a": "Griffith"},
+    {"q": "In the Hershey-Chase experiment, which labelled molecule entered E. coli: DNA or protein?", "a": "DNA"}
+  ]},
+  {"id": "kebt107.2", "title": "Gene Packaging", "questions": [
+    {"q": "DNA wound around histone octamers forms structures called what?", "a": "nucleosomes"},
+    {"q": "Which histone holds the linker DNA: H1 or H4?", "a": "H1"}
+  ]},
+  {"id": "kebt107.3", "title": "Genome Size Units", "questions": [
+    {"q": "How many bases make one kilobase?", "a": "1000"},
+    {"q": "About what percent of the human genome codes for proteins: two or ninety?", "a": "two"}
+  ]},
+  {"id": "kebt107.4", "title": "Semi-Conservative Replication", "questions": [
+    {"q": "Who proved replication semi-conservative with heavy nitrogen: Meselson and Stahl, or Griffith?", "a": "Meselson and Stahl"},
+    {"q": "The lagging strand is built in short pieces called what fragments?", "a": "Okazaki fragments"}
+  ]},
+  {"id": "kebt107.5", "title": "Bacterial Division Timing", "questions": [
+    {"q": "How many minutes does E. coli need to divide: twenty or sixty?", "a": "twenty"},
+    {"q": "A culture of 100 E. coli cells grows for 20 minutes. How many cells result?", "a": "200"}
+  ]},
+  {"id": "kebt107.6", "title": "Genetic Code Arithmetic", "questions": [
+    {"q": "How many codons does the genetic code hold in total?", "a": "64"},
+    {"q": "Which codon doubles as the start signal?", "a": "AUG"}
+  ]},
+  {"id": "kebt107.7", "title": "Transcription and Translation", "questions": [
+    {"q": "Roughly how many nucleotides per second does RNA polymerase string: forty or four?", "a": "forty"},
+    {"q": "Which end of the eukaryotic transcript receives the methyl-G cap: the 5' end or the 3' end?", "a": "the 5' end"}
+  ]},
+  {"id": "kebt107.8", "title": "Mutation and DNA Repair", "questions": [
+    {"q": "A purine-for-purine substitution is called a what: transition or transversion?", "a": "transition"},
+    {"q": "Which repair clips out UV-induced T-T dimers: nucleotide excision repair or base excision repair?", "a": "nucleotide excision repair"}
+  ]},
+  {"id": "kebt108.1", "title": "Structural Chromosomal Abnormalities", "questions": [
+    {"q": "Repeating a chromosome segment is called what: duplication or deletion?", "a": "duplication"},
+    {"q": "Flipping a segment through 180 degrees is called what?", "a": "inversion"}
+  ]},
+  {"id": "kebt108.2", "title": "Numerical Abnormalities", "questions": [
+    {"q": "Losing one chromosome of a pair is called what: monosomy or trisomy?", "a": "monosomy"},
+    {"q": "A triploid human-count genome would hold how many chromosomes: 69 or 46?", "a": "69"}
+  ]},
+  {"id": "kebt108.3", "title": "Down, Klinefelter and Turner Syndromes", "questions": [
+    {"q": "Trisomy of which chromosome causes Down syndrome: 21 or 17?", "a": "21"},
+    {"q": "Which syndrome shows one Barr body in a male smear: Klinefelter or Turner?", "a": "Klinefelter"}
+  ]},
+  {"id": "kebt108.4", "title": "Incidence Rates of Syndromes", "questions": [
+    {"q": "About one Down baby is born per how many live births: 800 or 8?", "a": "800"},
+    {"q": "One Turner girl appears per how many newborn girls: 2500 or 25?", "a": "2500"}
+  ]},
+  {"id": "kebt108.5", "title": "Monogenic Disorders", "questions": [
+    {"q": "Sickle cell anaemia follows which inheritance: autosomal recessive or X-linked dominant?", "a": "autosomal recessive"},
+    {"q": "Haemophilia follows which inheritance: X-linked recessive or autosomal dominant?", "a": "X-linked recessive"}
+  ]},
+  {"id": "kebt108.6", "title": "Carrier Crosses", "questions": [
+    {"q": "In a carrier-by-carrier recessive cross, what fraction of children are affected: one quarter or all?", "a": "one quarter"},
+    {"q": "In that cross, what fraction of children are carriers: half or none?", "a": "half"}
+  ]},
+  {"id": "kebt108.7", "title": "X-linked Transmission", "questions": [
+    {"q": "A carrier mother passes a recessive X to what fraction of her sons: half or none?", "a": "half"},
+    {"q": "An affected father hands his X to every son or every daughter?", "a": "every daughter"}
+  ]},
+  {"id": "kebt108.8", "title": "Polygenic and Mitochondrial Disorders", "questions": [
+    {"q": "About what percent of diabetes cases are type 2: ninety or ten?", "a": "ninety"},
+    {"q": "Mutated mitochondrial genes ride which parent's line: the mother's or the father's?", "a": "the mother's"}
+  ]},
+  {"id": "kebt109.1", "title": "Correlation and Regression", "questions": [
+    {"q": "Which measure reports how tightly points hug the regression line: R-squared or the mean?", "a": "R-squared"},
+    {"q": "R-squared ranges between zero and what?", "a": "one"}
+  ]},
+  {"id": "kebt109.2", "title": "Statistical Significance", "questions": [
+    {"q": "The traditional p-value cutoff of 0.05 means ninety-five percent what?", "a": "significance"},
+    {"q": "Convert a 0.05 cutoff into a significance percentage.", "a": "95"}
+  ]},
+  {"id": "kebt109.3", "title": "Scope and Milestones of Bioinformatics", "questions": [
+    {"q": "Whose 1965 Atlas of Protein Sequence pioneered bioinformatics: Margaret Dayhoff's or Mendel's?", "a": "Margaret Dayhoff's"},
+    {"q": "In which year did GenBank open: 1982 or 1991?", "a": "1982"}
+  ]},
+  {"id": "kebt109.4", "title": "Biological Databases", "questions": [
+    {"q": "Which database stores 3D structures: PDB or PubMed?", "a": "PDB"},
+    {"q": "Which database stores protein sequences: UniProt or KEGG?", "a": "UniProt"}
+  ]},
+  {"id": "kebt109.5", "title": "Technologies for Biomolecule Analysis", "questions": [
+    {"q": "Which technology amplifies DNA: PCR or HPLC?", "a": "PCR"},
+    {"q": "Which technique fragments molecules to weigh them: mass spectrometry or microscopy?", "a": "mass spectrometry"}
+  ]},
+  {"id": "kebt109.6", "title": "FASTA and FASTQ Records", "questions": [
+    {"q": "How many lines does one FASTQ record hold?", "a": "4"},
+    {"q": "A FASTQ file holds 400 lines. How many reads is that?", "a": "100"}
+  ]},
+  {"id": "kebt109.7", "title": "Sequencing Reads and Coverage", "questions": [
+    {"q": "Roughly how long are short sequencing reads: 100-150 nucleotides or a million?", "a": "100-150"},
+    {"q": "The Broad Institute processes over how many terabytes a day: twenty-four or two?", "a": "twenty-four"}
+  ]},
+  {"id": "kebt109.8", "title": "Genome Informatics Workflow", "questions": [
+    {"q": "After quality control, reads either align to a reference or assemble de novo into what?", "a": "contigs"},
+    {"q": "Which vocabulary standardises gene description: Gene Ontology or a calendar?", "a": "Gene Ontology"}
+  ]},
+  {"id": "kebt110.1", "title": "Protein Data Types", "questions": [
+    {"q": "Which file format stores solved protein 3D coordinates: PDB or FASTQ?", "a": "PDB"},
+    {"q": "Proteins read straight out of genomes with no lab data are called what proteins?", "a": "hypothetical"}
+  ]},
+  {"id": "kebt110.2", "title": "Primary Structure Descriptors", "questions": [
+    {"q": "An instability index under what value predicts a stable protein: forty or four?", "a": "forty"},
+    {"q": "Which value forecasts a protein's hydrophobic character: GRAVY or pH?", "a": "GRAVY"}
+  ]},
+  {"id": "kebt110.3", "title": "Predicting Protein Structures", "questions": [
+    {"q": "Copying a solved relative's fold is which modelling: homology or de novo?", "a": "homology"},
+    {"q": "Which tool builds a model from sequence alone: QUARK or a centrifuge?", "a": "QUARK"}
+  ]},
+  {"id": "kebt110.4", "title": "Cheminformatics and Virtual Screening", "questions": [
+    {"q": "Scoring millions of molecules computationally before synthesis is called what screening: virtual or physical?", "a": "virtual"},
+    {"q": "The CAS registry holds over how many million substances: 219 or 21?", "a": "219"}
+  ]},
+  {"id": "kebt110.5", "title": "Molecular Graphs", "questions": [
+    {"q": "Chemicals live in computers as molecular what, with atoms as nodes and bonds as edges?", "a": "graphs"},
+    {"q": "Which exact test confirms a query sits inside a candidate: subgraph isomorphism or a coin flip?", "a": "subgraph isomorphism"}
+  ]},
+  {"id": "kebt110.6", "title": "Pharmacophore Models", "questions": [
+    {"q": "A pharmacophore collects the steric and electronic what a ligand needs: features or atoms?", "a": "features"},
+    {"q": "Structurally unlike ligands docking one receptor is explained by what model?", "a": "the pharmacophore"}
+  ]},
+  {"id": "kebt110.7", "title": "Lipinski's Rule of Five", "questions": [
+    {"q": "Lipinski's rule caps molecular weight below how many daltons: 500 or 5000?", "a": "500"},
+    {"q": "How many violations does Lipinski's rule tolerate: one or ten?", "a": "one"}
+  ]},
+  {"id": "kebt110.8", "title": "Drug Development Pipeline", "questions": [
+    {"q": "Discovery alone consumes how many years: seven to eight or just one?", "a": "seven to eight"},
+    {"q": "Clinical trials run through phases I to what?", "a": "III"}
+  ]},
+  {"id": "kebt111.1", "title": "Programming Languages for Biologists", "questions": [
+    {"q": "Which language has handled bulk sequence data since bioinformatics began: PERL or COBOL?", "a": "PERL"},
+    {"q": "Who created Python: Guido van Rossum or Denis Noble?", "a": "Guido van Rossum"}
+  ]},
+  {"id": "kebt111.2", "title": "Milestones of Systems Biology", "questions": [
+    {"q": "Who modelled the neuronal action potential in 1952: Hodgkin and Huxley, or Noble?", "a": "Hodgkin and Huxley"},
+    {"q": "The 2012 whole-cell model was of which organism: Mycoplasma genitalium or E. coli?", "a": "Mycoplasma genitalium"}
+  ]},
+  {"id": "kebt111.3", "title": "Integration versus Reductionism", "questions": [
+    {"q": "Systems biology binds network dynamics with which mathematics: differential equations or arithmetic tables?", "a": "differential equations"},
+    {"q": "Cataloguing the parts alone is called what: reductionism or integration?", "a": "reductionism"}
+  ]},
+  {"id": "kebt111.4", "title": "Protocol of a Systems Biology Experiment", "questions": [
+    {"q": "In the systems biology protocol, what follows building the model: simulation or publication?", "a": "simulation"},
+    {"q": "Every discrepancy between model and experiment becomes a new what?", "a": "hypothesis"}
+  ]},
+  {"id": "kebt111.5", "title": "Data Management in Systems Biology", "questions": [
+    {"q": "Which ontology fixes hierarchical meanings for gene terms: Gene Ontology or a dictionary?", "a": "Gene Ontology"},
+    {"q": "Which file style makes data machine-processable: XML-style formats or handwriting?", "a": "XML-style formats"}
+  ]},
+  {"id": "kebt111.6", "title": "Model Analysis Methods", "questions": [
+    {"q": "Which analysis probes a model's stability against disturbances: sensitivity analysis or titration?", "a": "sensitivity analysis"},
+    {"q": "Which tool family uncovers steady and dynamical tendencies: AUTO or a telescope?", "a": "AUTO"}
+  ]},
+  {"id": "kebt112.1", "title": "Microscope Types", "questions": [
+    {"q": "A 10x eyepiece with the 100x oil objective gives what total magnification?", "a": "1000"},
+    {"q": "Which microscopy variant converts density differences into contrast: phase contrast or dark field?", "a": "phase contrast"}
+  ]},
+  {"id": "kebt112.2", "title": "Centrifugation", "questions": [
+    {"q": "Which centrifugation exploits differing sedimentation rates: differential or density-gradient?", "a": "differential"},
+    {"q": "Ultracentrifugation pushes past how many times gravity: one hundred thousand or one hundred?", "a": "one hundred thousand"}
+  ]},
+  {"id": "kebt112.3", "title": "Electrophoresis", "questions": [
+    {"q": "Negatively charged DNA migrates toward which electrode: the anode or the cathode?", "a": "the anode"},
+    {"q": "Which detergent coats proteins uniformly negative: SDS or soap?", "a": "SDS"}
+  ]},
+  {"id": "kebt112.4", "title": "ELISA Formats", "questions": [
+    {"q": "Which ELISA traps antigen between two antibodies: sandwich or direct?", "a": "sandwich"},
+    {"q": "Who developed the ELISA in 1971: Engvall and Perlman, or Mullis?", "a": "Engvall and Perlman"}
+  ]},
+  {"id": "kebt112.5", "title": "Chromatography Modes", "questions": [
+    {"q": "Which chromatography uses biospecific ligand capture: affinity or gas?", "a": "affinity"},
+    {"q": "Which mode sorts molecules by pore size: gel filtration or adsorption?", "a": "gel filtration"}
+  ]},
+  {"id": "kebt112.6", "title": "Beer-Lambert Law", "questions": [
+    {"q": "In the Beer-Lambert law, absorbance equals absorptivity times path length times what: concentration or colour?", "a": "concentration"},
+    {"q": "Transmittance is the ratio of transmitted to what intensity: incident or reflected?", "a": "incident"}
+  ]},
+  {"id": "kebt112.7", "title": "DNA Sequencing Chemistry", "questions": [
+    {"q": "Sanger's chain termination lacks which group to stop strands: the 3-prime hydroxyl or the base?", "a": "the 3-prime hydroxyl"},
+    {"q": "Taq polymerase comes from which bacterium: Thermus aquaticus or E. coli?", "a": "Thermus aquaticus"}
+  ]},
+  {"id": "kebt112.8", "title": "FISH, Microarray and Flow Cytometry", "questions": [
+    {"q": "Which technique anneals a labelled DNA probe to its chromosome site: FISH or flow cytometry?", "a": "FISH"},
+    {"q": "Microarrays flag genes as upregulated or what opposite state?", "a": "downregulated"}
+  ]}
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_006",
+   "title": "c12_cs_cbse_08_006",
+   "questions": [
+    {
+     "q": "What are the initial values of front and rear pointers in an empty linear queue implemented using an array, and why are they set to these values?",
+     "a": "In an empty linear queue, both front and rear are initialised to -1. This indicates that no valid index (0 to size-1) currently holds data. Setting them to -1 (instead of 0) distinguishes \"empty\" from \"one element at index 0\". A wrong answer like front=0, rear=0 reveals confusion between \"empty queue\" and \"queue with one element at index 0\" — a critical error that breaks the first enqueue logic.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a linear queue implemented with an array eventually shows \"Queue Overflow\" even when there are empty slots at the beginning of the array after several dequeue operations.",
+     "a": "In a linear queue, rear only increments and never wraps around. After multiple enqueue/dequeue cycles, front moves forward leaving empty slots at indices 0, 1, ..., front-1. Since rear cannot decrement or wrap to reuse these slots, once rear reaches size-1, the queue reports overflow despite unused capacity. A student who says \"the array is full\" misses the distinction between physical array capacity and logical queue capacity — this is the exact misconception that circular queues solve.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the following operations on a linear queue of size 4 (indices 0-3) with initial front=-1, rear=-1: enqueue(5), enqueue(10), dequeue(), enqueue(15), enqueue(20), enqueue(25). Show the array state, front, and rear after each step. Identify if any operation fails.",
+     "a": "Step-by-step trace:\n1. enqueue(5): front=0, rear=0, arr=[5,_,_,_]\n2. enqueue(10): front=0, rear=1, arr=[5,10,_,_]\n3. dequeue(): returns 5, front=1, rear=1, arr=[_,10,_,_]\n4. enqueue(15): front=1, rear=2, arr=[_,10,15,_]\n5. enqueue(20): front=1, rear=3, arr=[_,10,15,20]\n6. enqueue(25): **OVERFLOW** — rear=3 (size-1), cannot insert. Array has empty slot at index 0 but linear queue cannot reuse it.\nA wrong trace where step 6 succeeds shows the student incorrectly assumes rear wraps around or that front shifting creates space — confusing linear with circular queue behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of enqueue and dequeue in a linear queue implemented with a Python list using `append()` and `pop(0)` versus a fixed-size array with front/rear pointers. Which implementation has better asymptotic performance for dequeue, and why?",
+     "a": "Fixed-size array with pointers: enqueue O(1), dequeue O(1). Python list with `append()`/`pop(0)`: enqueue O(1) amortized, dequeue **O(n)** because `pop(0)` shifts all remaining elements left by one index. The array+pointers implementation has better dequeue performance because it only increments the front pointer — no data movement. A student claiming both are O(1) ignores the hidden cost of list shifting in Python, a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this dequeue code for a linear queue: `if front == -1: return \"Underflow\"; item = arr[front]; front += 1; return item`. Evaluate this code: does it correctly handle the case when the last element is dequeued? If not, what is missing?",
+     "a": "The code is **incorrect** for the last-element case. When queue has one element, front == rear. After `front += 1`, front > rear but both remain at valid indices, so the queue appears non-empty on next enqueue. The missing step: **after removing the last element, reset front = rear = -1**. Correct logic: `if front == rear: front = rear = -1 else: front += 1`. A student who misses this creates a \"phantom queue\" state where isEmpty() fails — a subtle bug that passes simple tests but fails in production.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (not ticket counter or printer queue) where a linear queue's inability to reuse freed front slots causes a genuine problem. Describe the scenario, the queue size constraint, the operation sequence that triggers the issue, and propose a minimal fix without changing to a circular queue.",
+     "a": "**Scenario**: A hospital emergency room triage system with a fixed waiting room of 20 chairs (array size 20). Patients arrive (enqueue) and are called in (dequeue). Over a 12-hour shift, 50 patients arrive but only 20 chairs exist. After 20 patients, the 21st arrival gets \"Overflow\" even though 15 patients have already been treated and chairs 0-14 are empty.\n**Operation sequence**: 20 enqueues → 15 dequeues → 6th enqueue fails.\n**Minimal fix without circular queue**: When front > 0 and rear == size-1, **shift all elements left** so front becomes 0, rear becomes (rear-front), then enqueue. This is O(n) but rare. A poor answer proposes \"increase array size\" (not minimal) or \"use circular queue\" (excluded by constraint).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

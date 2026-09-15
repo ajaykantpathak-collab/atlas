@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_10",
+   "title": "c8_eco_ch2_10",
+   "questions": [
+    {
+     "q": "What is the \"Old-Age Dependency Ratio\" (OADR), and which two demographic age groups are compared to calculate it?",
+     "a": "The Old-Age Dependency Ratio is the ratio of the number of elderly dependents (typically those aged 60 or 65 and above) to the working-age population (aged 15 to 59 or 64), expressed as a percentage. \n\n*What a wrong answer reveals:* If a student includes children (0–14 years) in the numerator, they are confusing the *Old-Age Dependency Ratio* with the *Total Dependency Ratio*. If they use the total population as the denominator, they fail to realize that dependency is measured specifically against the productive labor force that supports them.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a continuous decline in birth rates, combined with an increase in life expectancy, lead to population ageing? Explain the role of both factors.",
+     "a": "A decline in birth rates reduces the influx of newborn children, which shrinks the younger cohorts at the base of the population. Simultaneously, an increase in life expectancy means people are living longer, which expands the older cohorts at the top of the population. Together, these two forces cause the median age of the population to rise, increasing the proportion of elderly citizens.\n\n*What a wrong answer reveals:* The student might believe that population ageing is only caused by people living longer. This reveals a failure to understand that a shrinking base of young people (due to low birth rates) is often the primary driver of rapid population ageing.",
+     "self_check": true
+    },
+    {
+     "q": "A town called Sundarnagar has a total population of 20,000. Among them, 4,000 are children (0–14 years), 12,000 are working-age adults (15–59 years), and 4,000 are senior citizens (60+ years). Calculate the Old-Age Dependency Ratio for Sundarnagar.",
+     "a": "**Step 1:** Identify the elderly population ($60+$ years) = $4,000$.  \n**Step 2:** Identify the working-age population ($15-59$ years) = $12,000$.  \n**Step 3:** Use the formula:  \n$$\\text{OADR} = \\left(\\frac{\\text{Population Aged 60+}}{\\text{Population Aged 15-59}}\\right) \\times 100$$  \n**Step 4:** Substitute the values:  \n$$\\text{OADR} = \\left(\\frac{4,000}{12,000}\\right) \\times 100 = 33.33\\%$$  \n\n*What a wrong answer reveals:* If the student calculates $\\left(\\frac{4,000}{20,000}\\right) \\times 100 = 20\\%$, they have mistakenly used the total population as the denominator, showing they do not understand that the ratio measures the burden specifically on the active working-age group.",
+     "self_check": true
+    },
+    {
+     "q": "If a country's population is ageing rapidly, how will this trend affect the government's tax revenues and its spending on social infrastructure?",
+     "a": "An ageing population shrinks the proportion of working-age adults, leading to a smaller active workforce. This reduces the government's collection of direct income taxes. Simultaneously, the growing number of elderly citizens forces the government to spend more on social infrastructure, specifically healthcare, geriatric hospitals, and pension schemes. Thus, tax revenues decrease while public expenditures increase.\n\n*What a wrong answer reveals:* The student might think that older people pay more taxes because they are wealthier, or that government spending remains unchanged. This shows they do not understand the relationship between active employment, tax collection, and demographic-specific public spending.",
+     "self_check": true
+    },
+    {
+     "q": "A local council suggests converting three vacant primary school buildings into senior citizen community health centers. Evaluate this proposal using demographic and economic reasoning.",
+     "a": "This is an excellent, economically sound proposal. An ageing population is caused by falling birth rates, which means there are fewer children and less demand for primary school infrastructure. At the same time, the growing elderly population increases the demand for healthcare services. Reallocating physical infrastructure from education to healthcare avoids waste, saves construction costs, and directly addresses the shifting needs of the community.\n\n*What a wrong answer reveals:* A weak answer might oppose the plan simply because \"schools are important,\" failing to connect the decline in child population with the rise in senior population. This shows an inability to evaluate infrastructure re-allocation based on demographic shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic 3-point economic action plan for an Indian state experiencing population ageing to ensure its state-run pension system remains financially sustainable.",
+     "a": "A strong action plan should include:\n1. **Raise the Retirement Age:** Increase the retirement age from 60 to 62 or 65, keeping older adults in the active workforce longer so they continue to pay taxes rather than drawing pensions immediately.\n2. **Encourage Private Retirement Savings:** Introduce tax incentives for young workers to save in pension plans like the National Pension System (NPS), reducing their future reliance on state funds.\n3. **Skill Development for Seniors:** Create light-duty, part-time, or digital work opportunities for healthy seniors to help them remain economically productive.\n\n*What a poor answer reveals:* Proposing unrealistic or inflation-inducing solutions (such as \"print more money to pay pensions\" or \"force companies to pay seniors without working\") reveals a lack of understanding of fiscal realities and basic monetary economics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

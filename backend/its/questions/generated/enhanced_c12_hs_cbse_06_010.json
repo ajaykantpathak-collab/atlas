@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_010",
+   "title": "c12_hs_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define monitoring and evaluation in the context of extension programmes. State one key difference in their timing and purpose.",
+     "a": "Monitoring is the continuous, routine tracking of programme activities and outputs during implementation (e.g., weekly session attendance, material distribution). Evaluation is the periodic, in-depth assessment of programme outcomes and impact after a defined period (e.g., measuring dietary diversity change after 6 months). Key difference: monitoring asks \"Are we doing what we planned?\" during implementation; evaluation asks \"Did we achieve what we intended?\" after implementation. A wrong answer that swaps the timing (e.g., \"monitoring happens at the end\") reveals confusion between ongoing tracking and retrospective assessment.",
+     "self_check": true
+    },
+    {
+     "q": "A village-level extension programme distributes iron-folic acid tablets to pregnant women monthly. The supervisor records the number of tablets distributed each month. Is this monitoring or evaluation? Justify your answer and name the type of indicator being tracked.",
+     "a": "This is monitoring because it involves routine, ongoing recording of programme outputs (tablets distributed) during implementation. The indicator is an output indicator (also called a process indicator) — it measures the immediate product of programme activities, not the health outcome (haemoglobin levels) or impact (reduced anaemia prevalence). A student who calls this \"evaluation\" or labels the indicator as \"outcome\" confuses output tracking with result assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monitoring checklist for a 10-session \"Home Gardening for Nutrition\" extension programme. Include at least three items covering different aspects (input, process, output).",
+     "a": "A valid checklist includes: (1) Input: \"Seeds, tools, and training manuals received by session 1\" (resource availability); (2) Process: \"Facilitator demonstrates composting technique in session 3; participants practice under observation\" (activity quality); (3) Output: \"Number of participants who establish a kitchen garden plot by session 5\" (immediate result). Each item must be observable and verifiable. A poor answer lists vague items like \"programme runs well\" or mixes in outcome items like \"families eat more vegetables\" which cannot be monitored during the 10 sessions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare formative evaluation and summative evaluation in extension programmes. Give one specific example of when each would be used in a \"Financial Literacy for SHG Women\" programme.",
+     "a": "Formative evaluation occurs during programme development/implementation to improve design (e.g., pilot-testing the budgeting module with 10 women in month 1, finding they confuse \"savings\" and \"investment,\" then revising the module). Summative evaluation occurs at programme end to judge overall merit (e.g., after 12 months, measuring % of women who maintain written household budgets and access formal credit). A wrong answer that places formative at the end or summative at the start reverses their purpose: formative = improvement, summative = judgment.",
+     "self_check": true
+    },
+    {
+     "q": "An extension officer claims: \"Our sanitation programme succeeded because 90% of households built toilets.\" Critique this claim using M&E terminology. What additional evidence is needed to validate programme success?",
+     "a": "The claim confuses output (toilet construction) with outcome (toilet usage) and impact (reduced open defecation, improved health). 90% construction is an output indicator. To validate success, the officer needs: (1) Outcome evidence: % of households consistently using toilets (observation/spot checks), (2) Impact evidence: reduction in diarrhoea incidence or soil-transmitted helminths, (3) Sustainability evidence: functionality after 1 year. Without these, the claim is an \"output fallacy\" — a classic M&E error where implementation is mistaken for effectiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a logical framework (logframe) matrix for a \"Digital Literacy for Rural Youth\" extension programme. Include the four levels (goal, purpose, outputs, activities) with one measurable indicator and means of verification for each.",
+     "a": "| Level | Narrative Summary | Measurable Indicator | Means of Verification |\n|-------|-------------------|----------------------|----------------------|\n| Goal | Improved employability of rural youth | % increase in youth employed in digital jobs within 2 years | Labour department records, tracer survey |\n| Purpose | Rural youth acquire certified digital skills | 70% of trainees pass NSCDC certification exam | Exam results, certification records |\n| Outputs | 5 batches of 25 youth complete 60-hour curriculum | Number of youth completing ≥80% sessions; curriculum delivered | Attendance registers, session logs |\n| Activities | Curriculum development, trainer recruitment, lab setup, mobilisation | Curriculum approved by month 1; 2 trainers hired; 10 computers installed | Approval minutes, appointment letters, purchase bills |\n\nA poor logframe uses vague indicators (\"youth learn computers\") or mismatches verification means (e.g., \"goal verified by attendance register\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

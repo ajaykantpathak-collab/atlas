@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_010",
+   "title": "c12_geo_cbse_06_010",
+   "questions": [
+    {
+     "q": "Name the three essential raw materials for a blast furnace in the iron and steel industry and state the typical weight ratio of iron ore : coking coal : limestone required to produce one tonne of pig iron.",
+     "a": "The three essential raw materials are iron ore (haematite/magnetite), coking coal, and limestone. The typical weight ratio is approximately 1.5–2.0 tonnes iron ore : 0.6–0.8 tonnes coking coal : 0.2–0.3 tonnes limestone per tonne of pig iron. A wrong answer (e.g., listing 'coal' without specifying coking coal, or reversing the ratios) reveals confusion between thermal coal and coking coal, or ignorance of the weight-losing nature of the process — a common error that leads to incorrect locational analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the iron and steel industry initially concentrate in the Damodar Valley region (Jharkhand-West Bengal) despite the presence of iron ore in Odisha and Karnataka?",
+     "a": "The Damodar Valley offered a rare coincidence of high-grade coking coal (Jharia, Raniganj) and iron ore (Noamundi, Gua) within 100 km, plus limestone from nearby quarries, minimizing transport costs for the two heaviest inputs. A wrong answer citing only 'availability of iron ore' ignores the critical role of coking coal — which cannot be substituted by thermal coal — and overlooks the weight-loss ratio that makes coal proximity decisive. This misconception leads students to predict steel plants near every iron ore deposit.",
+     "self_check": true
+    },
+    {
+     "q": "A steel plant requires 1.6 tonnes of iron ore (65% Fe), 0.7 tonnes of coking coal, and 0.25 tonnes of limestone to produce 1 tonne of crude steel. If the plant produces 3 million tonnes of crude steel annually, calculate the total annual raw material requirement in tonnes. Then, explain how a 10% increase in rail freight rates would affect the plant's locational advantage if it sources iron ore from 400 km away and coal from 150 km away.",
+     "a": "Annual requirement: Iron ore = 1.6 × 3,000,000 = 4,800,000 tonnes; Coking coal = 0.7 × 3,000,000 = 2,100,000 tonnes; Limestone = 0.25 × 3,000,000 = 750,000 tonnes. Total = 7,650,000 tonnes. A 10% freight hike raises transport cost proportionally to distance × weight. Since iron ore tonnage is highest and distance is longest (400 km), its cost share increases most, potentially making coastal locations with imported ore (shorter rail haul from port) relatively more competitive. A wrong answer that calculates only total weight without weighting by distance shows failure to apply the 'tonne-km' concept central to industrial location theory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of the Bhilai Steel Plant (Chhattisgarh) and the Visakhapatnam Steel Plant (Andhra Pradesh) in terms of raw material sourcing, transport infrastructure, and market orientation.",
+     "a": "Bhilai (inland) uses indigenous iron ore from Dalli-Rajhara (100 km) and coking coal from Korba/Kargali (250 km), serving the domestic engineering and construction market in central/north India. Visakhapatnam (coastal) was designed to use imported coking coal (Australia/USA) and high-grade iron ore from Bailadila (transported via slurry pipeline 670 km), with easy export access and a captive port. A wrong answer that treats both as 'raw-material-oriented' misses the strategic shift: Bhilai minimizes assembly cost for domestic inputs, while Visakhapatnam minimizes distribution cost for export and uses pipeline technology to overcome distance — a nuance frequently tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The petrochemical industry in India has shifted from import-substitution at Mumbai to export-oriented integration at Jamnagar due to changes in crude oil sourcing and global value chains.\" Provide two supporting arguments and one limitation.",
+     "a": "Supporting arguments: (1) Mumbai-based complexes (e.g., Rashtriya Chemicals & Fertilisers, Indian Petrochemicals Corporation) were built in the 1960s-70s near the Mumbai High offshore crude source and the Mumbai port for import substitution, using naphtha from local refineries. (2) Jamnagar (Reliance) and Dahej/ Hazira complexes leverage massive imported crude volumes, deep-draft ports, and integrated refinery-cracker-polymer chains to produce for global markets, benefiting from scale economies and flexible feedstock (ethane/propane from gas). Limitation: The statement oversimplifies; Mumbai region still hosts large domestic-market-oriented units (e.g., GAIL's gas-based plants at Pata, Usar) and the shift is not absolute — policy incentives (PCPIRs) also drive location. A wrong answer that ignores the role of natural gas pipelines (HBJ, DVPL) in enabling inland gas-based petrochemicals (e.g., Vijaypur, Auraiya) shows incomplete understanding of feedstock diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new integrated steel plant of 5 MTPA capacity in India. Choose four criteria (with weights), three candidate sites (one inland, one coastal, one near a port with slurry pipeline access), and justify the optimal choice using current freight equalization policy and carbon emission norms.",
+     "a": "Criteria & weights: (1) Raw material assembly cost (30%), (2) Product distribution cost to major markets (25%), (3) Carbon intensity per tonne steel (20%), (4) Infrastructure readiness (water, power, rail/port) (25%). Candidate sites: (A) Sundargarh, Odisha (inland, near iron ore & coal), (B) Kakinada, Andhra Pradesh (coastal, port, imported coal), (C) Paradip, Odisha (port + slurry pipeline from Bailadila). Optimal: Paradip scores high on (1) via pipeline (lowest tonne-km for ore), (2) via coastal shipping to east/south markets, (3) potential for hydrogen-based DRI using renewable power, (4) existing port and industrial infrastructure. A poor answer assigns equal weights or ignores carbon norms, failing to integrate policy (National Steel Policy 2017, PAT scheme) and technology trends — a gap that costs marks in competency-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

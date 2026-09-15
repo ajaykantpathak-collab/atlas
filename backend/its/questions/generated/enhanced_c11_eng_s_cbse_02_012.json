@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_02_012",
+   "title": "c11_eng_s_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the definition of a literal comprehension question?",
+     "a": "A literal comprehension question asks for information explicitly stated in the text, requiring no interpretation. A wrong answer (e.g., \"a question that asks for your opinion\") reveals the student confuses literal comprehension with personal response or inferential thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a literal and an inferential question using an example from \"The Address\".",
+     "a": "A literal question: \"What was the address the narrator remembered?\" (Answer: 46, Marconi Street — directly stated). An inferential question: \"Why did the narrator feel the objects lost their value?\" (Answer: Requires synthesizing clues about strange surroundings, her small room, and emotional detachment). A wrong answer that gives two literal examples shows the student cannot distinguish the reasoning process required for inference.",
+     "self_check": true
+    },
+    {
+     "q": "Read this new excerpt: \"The girl poured tea from a white pot with a gold border. She opened a box and took out spoons. 'We use it for everything,' she said.\" Formulate one literal and one inferential question based only on this excerpt.",
+     "a": "Literal: \"What did the girl use to pour the tea?\" (Answer: a white pot with a gold border). Inferential: \"What does the girl's casual use of the antique spoons suggest about her attitude toward the objects?\" (Answer: She treats them as ordinary, utilitarian items, unlike the narrator's reverence). A wrong inferential question like \"Is the girl rude?\" reveals the student makes unsupported leaps instead of text-grounded inferences.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer: \"Why did Mrs. Dorling refuse to see the narrator the first time?\"\nStudent A: \"Because she was wearing the narrator's mother's cardigan and didn't want to return the belongings.\"\nStudent B: \"Because she hoped no one would come back to claim the things she had taken.\"\nWhich answer is better supported by the text? Justify.",
+     "a": "Student B's answer is better. The text says: \"I thought that no one had come back\" and she closes the door to avoid disturbance. Student A assumes motive (not wanting to return things) without direct evidence; the cardigan is a clue but not proof of refusal reason. A wrong choice of Student A reveals the student conflates a detail (cardigan) with a causal inference not explicitly supported.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The narrator's decision to forget the address was purely practical — she had no space for the objects.\" Is this a complete interpretation? Why or why not?",
+     "a": "No, it is incomplete. The text shows emotional reasons too: objects \"lose their value when severed from them\" and evoke a \"precious time\" she wants to move on from. A student who agrees completely misses the psychological dimension (trauma, letting go) and treats the story as only logistical.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question about the narrator's mother and answer it in two sentences using PEEL (Point, Evidence, Explanation, Link).",
+     "a": "Question: \"Why did the narrator's mother trust Mrs. Dorling with their valuables despite the risk?\"\nAnswer: The mother valued social grace over suspicion (Point). She called it \"an insult to talk like that\" about a formal agreement (Evidence). This shows her belief in gentlemanly honour and reluctance to offend an acquaintance (Explanation). Her misplaced trust ultimately enabled the loss of their heritage (Link). A poor answer would lack textual evidence or fail to link to the broader theme of betrayal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

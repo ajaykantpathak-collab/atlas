@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_17_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_17_001",
+   "title": "c11_eng_w_cbse_17_001",
+   "questions": [
+    {
+     "q": "Who is the poet of \"Refugee Blues\" and in which decade was the poem written?",
+     "a": "W.H. Auden, written in 1939 (1930s). A wrong answer (e.g., naming a different poet or dating it post-WWII) reveals a lack of basic factual recall needed to anchor the historical context.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the poem titled \"Refugee Blues\" rather than \"Refugee Song\" or \"Refugee Poem\"?",
+     "a": "The blues is a specific musical tradition expressing sorrow, resilience, and protest through a repeated refrain and AAB structure; the title signals the poem's musical form and its function as a lament for the stateless. A wrong answer (e.g., \"blues just means sad\") shows the student misses the formal and cultural significance of the blues tradition.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to explain the historical context of this poem to a classmate who knows nothing about World War II, what three key facts would you include?",
+     "a": "1. Nazi Germany's 1935 Nuremberg Laws stripped Jews of citizenship, making them stateless. 2. The 1938 Evian Conference saw 32 nations refuse to raise refugee quotas. 3. By 1939, borders were closed, leaving Jews trapped with \"no place to go.\" A wrong answer (vague or anachronistic facts) reveals an inability to select and apply relevant historical evidence.",
+     "self_check": true
+    },
+    {
+     "q": "How does the blues form (tercets with a repeated refrain, colloquial language) mirror the experience of the refugees in the poem?",
+     "a": "The refrain \"my dear\" echoes the couple's endless pleading and the bureaucratic circularity (committee says \"return next year\"); the simple, song-like rhyme mimics the deceptive simplicity of official language that denies them existence. A wrong answer (focusing only on rhythm or sadness) fails to connect structural choices to the refugees' lived reality.",
+     "self_check": true
+    },
+    {
+     "q": "Some critics say Auden's use of a light, musical form for such a grave subject is inappropriate. Defend or challenge this view with reference to the poem's effect.",
+     "a": "The contrast between the jaunty blues rhythm and the horrific content creates a jarring irony that heightens the tragedy; the accessible form makes the poem memorable, forcing the reader to confront the horror beneath the song. A wrong answer (mere agreement/disagreement without textual evidence) shows an inability to evaluate artistic choices critically.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line blues stanza (AAB pattern) that a refugee today might sing, using the refrain \"no place for us, my dear, no place for us.\"",
+     "a": "Example: \"The border guard checks papers with a sneer, / The border guard checks papers with a sneer, / No place for us, my dear, no place for us.\" A good answer follows AAB structure, includes the refrain, and reflects a specific refugee experience. A poor answer (no refrain, wrong rhyme, generic sadness) reveals misunderstanding of the blues form or lack of empathetic projection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

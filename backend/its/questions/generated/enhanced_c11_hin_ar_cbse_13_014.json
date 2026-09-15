@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_13_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_13_014",
+   "title": "c11_hin_ar_cbse_13_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for Hindi literature?",
+     "a": "PEEL stands for Point (main argument), Evidence (textual reference), Explanation (analysis of evidence), Link (connection to theme/question). A wrong answer like \"Paragraph, Example, Explain, Line\" reveals the student memorized a mnemonic without understanding the analytical function of each component - they'll likely write descriptive paragraphs instead of analytical ones.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"lk;s esa /wi\", the phrase \"nj[rksa dk lk;s\" appears in the first stanza. Explain why simply translating this as \"darkness of the nights\" would be an incomplete evidence point in a PEEL paragraph.",
+     "a": "\"nj[rksa dk lk;s\" functions as a metaphor for systemic oppression and political darkness, not just literal night. A student who only translates literally misses the symbolic layer - they'll write \"the poet describes dark nights\" instead of \"the poet uses night darkness as a metaphor for the ignorance enforced by feudal power structures.\" This reveals confusion between literal meaning and literary function, a critical gap at Class 11 level.",
+     "self_check": true
+    },
+    {
+     "q": "Write the 'Evidence' and 'Explanation' steps of a PEEL paragraph for this prompt: \"Analyze the significance of the word 'fu\"kke' in the final stanza.\" Use actual lines from the poem.",
+     "a": "Evidence: The poet writes \"rsjk fu\"kke gS fly ns 'kqcku 'kk;j dh\" in the third stanza. Explanation: \"fu\"kke\" (ruler/authority) is juxtaposed with \"fly ns 'kqcku 'kk;j\" (dawn's red ray) - the traditional ruler is contrasted with the natural, inevitable force of awakening. The word choice suggests political authority is being challenged by a more powerful, organic force of mass consciousness. A wrong answer would merely define \"fu\"kke\" as \"king\" without analyzing the contrast, showing inability to move from vocabulary to thematic interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the imagery in the first two stanzas (\"e;Llj\", \"nj[r\") with the third stanza (\"fly\", \"'kqcku 'kk;j\"). What structural shift in the poem does this contrast reveal, and how should a student reflect this in their answer organization?",
+     "a": "The shift moves from static, oppressive imagery (closed house, dark nights) to dynamic, liberating imagery (open sky, dawn light). This mirrors the poem's thematic movement from individual suffering to collective awakening. A strong answer organizes paragraphs chronologically: Paragraph 1 analyzes stanzas 1-2 as establishment of oppression; Paragraph 2 analyzes stanza 3 as rupture and hope. A student who treats all stanzas equally misses the poem's dramatic structure - they'll write a list of images instead of an argument about progression.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's thesis statement for a 6-mark question on the poem: \"Nagarjun's poem is about how poor people suffer in dark houses but then the sun rises and they become happy.\" Is this thesis exam-ready? Justify your evaluation.",
+     "a": "No, this thesis is not exam-ready. It reduces a complex political allegory to a simplistic narrative, uses informal language (\"poor people\", \"happy\"), and misses the collective action dimension (\"yksxksa dh vksj\"). A Class 11 thesis must use analytical terminology: \"Nagarjun employs the extended metaphor of domestic darkness to critique feudal oppression, culminating in the dawn imagery that symbolizes collective political consciousness.\" The weak thesis reveals the student cannot distinguish between plot summary and thematic argument - a fundamental skill gap for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create an opening paragraph (Point + Evidence) for this question: \"How does the poem depict the relationship between individual suffering and collective resistance?\" Use the PEEL framework and reference specific poetic devices.",
+     "a": "Point: Nagarjun structures the poem to show individual suffering as the catalyst for collective resistance. Evidence: The first stanza's domestic imagery - \"dgk¡ rks r; Fkk fpjkxk¡ gjsoQ ?kj osQ fy,] dgk¡ fpjkx e;Llj ugha 'kgj osQ fy,\" - uses parallel structure and repetition of \"dgk¡\" to universalize personal grief, while the shift to plural \"pyks ;gk¡ ls pysa vkSj mez Hkj osQ fy,\" in the second stanza transforms individual lament into a collective call to action. A poor answer would quote lines without naming the device (parallelism, shift from singular to plural) or explaining the structural function, showing inability to connect form to meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

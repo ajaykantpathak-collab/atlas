@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_008",
+   "title": "c11_soc_cbse_10_008",
+   "questions": [
+    {
+     "q": "What are the three defining features of a welfare state according to A.R. Desai?",
+     "a": "The three features are: (i) A welfare state is a **positive state** (interventionist, not laissez-faire), (ii) A welfare state is a **democratic state** (with formal multi-party elections), and (iii) A welfare state involves a **mixed economy** (coexistence of private capitalist and public enterprises). A wrong answer that lists \"equality,\" \"social security,\" or \"human rights\" reveals the student has confused Desai's *test criteria* (what the state *should* achieve) with his *defining features* (what the state *is structurally*).",
+     "self_check": true
+    },
+    {
+     "q": "Desai excludes socialist/communist states from his definition of the welfare state. Why does he do this, and what does this reveal about his analytical framework?",
+     "a": "Desai excludes them because his definition requires **formal democratic institutions, especially multi-party elections**, which he argues are absent in communist states. This reveals his framework is **institutional-structural**: he analyses the welfare state as a specific *form of capitalist state*, not merely any state that provides welfare. A wrong answer saying \"because communist states are authoritarian\" misses the theoretical point — Desai is defining a *category* for comparative analysis, not making a moral judgement.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Desai's **third test criterion** (\"Does the welfare state transform the economy so the capitalist profit motive is made subservient to the real needs of the community?\") to the following scenario: A government guarantees minimum support prices (MSP) for farmers but allows private corporations to hoard grain and sell at high prices during shortages. Does this pass Desai's test? Explain in 3 steps.",
+     "a": "**Step 1:** Identify the profit motive: Private corporations hoard grain to sell at higher prices later — this is profit maximization. **Step 2:** Identify community need: Affordable food during shortages. **Step 3:** Compare: The policy *allows* profit motive to override community need (hoarding raises prices, hurting the poor). **Conclusion:** It fails Desai's third criterion. A wrong answer focusing only on the MSP (state intervention) without analyzing the *outcome* for profit vs. need shows the student cannot operationalize the criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Desai's critique of the welfare state with Ghurye's view on tribal integration (assimilationist). What common *nationalist* assumption underlies both, and how does Desai's Marxism diverge from Ghurye's cultural nationalism?",
+     "a": "**Common assumption:** Both believe the *Indian state* (post-colonial) should actively transform society — Ghurye for cultural integration (\"backward Hindus\"), Desai for class emancipation. **Divergence:** Ghurye's nationalism is **cultural-assimilationist** (tribes must merge into Hindu mainstream); Desai's Marxism is **class-revolutionary** (welfare state is a capitalist illusion; true welfare requires overthrowing capitalism). A wrong answer saying \"both want development\" misses the *mechanism* (culture vs. class) and Desai's *radical negation* of the welfare state itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Desai's critique is outdated because modern Nordic countries (Sweden, Norway) have low poverty, high equality, and strong welfare — they *are* successful welfare states.\" Use Desai's **fourth and fifth test criteria** (stable development, full employment) in your evaluation.",
+     "a": "**Evaluation:** The statement is **partially valid but incomplete** by Desai's standards. Nordic states may score better on criteria 1-2 (poverty, inequality), but Desai's **fourth criterion** (stable development free from boom-bust cycles) and **fifth** (full employment) remain problematic: Nordic economies are integrated into global capitalism, experiencing crises (e.g., 1990s Swedish banking crisis, 2008 global crisis) and maintaining \"reserve armies of labour\" (unemployment/underemployment). Desai would argue they *export* instability via capital flows. A wrong answer that only cites low Gini coefficients shows the student accepts liberal welfare metrics uncritically and ignores Desai's *structural* criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **new test criterion** (a sixth one) that Desai *might have added* if he were analyzing the Indian welfare state post-1991 liberalization. Justify it using his Marxist framework.",
+     "a": "**Proposed criterion:** \"Does the welfare state prevent the **commodification of essential services** (water, healthcare, education) and **land dispossession** of peasants/tribals for corporate capital?\" **Justification:** Desai's framework centres on **class exploitation** and **state as instrument of capitalist accumulation**. Post-1991, the Indian state has actively facilitated privatization (commodification) and land acquisition (dispossession) — *expanding* capitalist markets rather than subordinating them. This criterion extends his third test (profit vs. need) to the *neoliberal phase*. A poor answer would propose a liberal criterion like \"transparency\" or \"efficiency,\" showing failure to grasp Desai's class-analytic lens.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

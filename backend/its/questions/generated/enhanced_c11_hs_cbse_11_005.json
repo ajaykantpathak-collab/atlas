@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_005",
+   "title": "c11_hs_cbse_11_005",
+   "questions": [
+    {
+     "q": "List the four physical techniques of stain removal mentioned in the NCERT textbook and give one specific situation where each technique is most appropriate.",
+     "a": "The four techniques are: (1) Scraping – for built‑up surface stains like dried mud or candle wax; (2) Dipping – for overall stains on sturdy fabrics like a coffee‑stained tablecloth; (3) Sponging – for localised stains on delicate fabrics where a reagent is applied with a sponge and blotted from underneath; (4) Drop method – for delicate or coloured fabrics where the reagent is dropped onto the stretched stain over a bowl. A wrong answer (e.g., listing “brushing” or “soaking” as separate techniques) reveals the student has not distinguished the textbook’s specific four methods and may confuse general laundry steps with stain‑specific techniques.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats a fresh blood stain on a wool sweater with hot water and an alkaline detergent. Explain why this is incorrect using two concepts from the chapter.",
+     "a": "Blood is an animal (protein) stain; the textbook states protein stains are removed by detergents in **cold water only** because heat coagulates proteins, setting the stain. Wool is a protein fibre that is **damaged by alkaline substances** and weakens when wet; it requires gentle handling with mild detergents. A wrong answer that only mentions “hot water sets blood” but ignores wool’s sensitivity to alkali shows the student cannot integrate stain classification with fibre‑specific care.",
+     "self_check": true
+    },
+    {
+     "q": "You have a white cotton shirt with an old rust stain. Using only reagents from the textbook’s six categories, design a step‑by‑step removal procedure and name the reagent category used at each step.",
+     "a": "Step 1: Apply oxalic acid (acidic reagent) to dissolve the iron oxide; rub gently. Step 2: Rinse thoroughly. Step 3: If stain persists, apply sodium hydrosulphite (reducing bleach) to reduce any remaining coloured iron compounds. Step 4: Rinse again. Step 5: Wash with soap/detergent (emulsifier) to remove all chemical traces. Step 6: Dry in sunlight (oxidising bleach) for final bleaching. A wrong sequence (e.g., using oxidising bleach before acid) reveals the student does not understand that mineral stains require acidic treatment first, followed by alkaline/bleach, and that reducing bleaches are specific for rust.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast grease solvents and grease absorbents in terms of (a) mechanism of action, (b) suitability for different fabric types, and (c) safety considerations.",
+     "a": "(a) Grease solvents (e.g., turpentine, kerosene) dissolve grease chemically; grease absorbents (e.g., talcum powder, Fuller’s earth) physically soak up grease. (b) Solvents can be used on most fabrics but may affect dyes or delicate fibres; absorbents are safer for delicate/non‑washable fabrics (e.g., silk, wool) because they avoid liquid penetration. (c) Solvents are flammable and volatile – require ventilation; absorbents are non‑flammable but can leave powdery residue requiring brushing. A response that only lists examples without explaining mechanism or safety shows superficial memorisation, not analytical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “For any unknown stain on a coloured synthetic fabric, start with a strong oxidising bleach like sodium hypochlorite to ensure complete removal.” Provide three reasons based on textbook principles.",
+     "a": "The statement is incorrect. Reason 1: General rule – “For unknown stains, start with a simple process and move to a complex one; repeated use of milder reagent is better than one‑time use of a strong agent.” Reason 2: Sodium hypochlorite is an oxidising bleach that can destroy synthetic fibres (e.g., nylon, polyester) and cause irreversible yellowing. Reason 3: Coloured fabrics may lose dye; the textbook advises testing on a hidden area and using dilute alkalies/acids depending on fabric type. A student who agrees reveals a misconception that “stronger chemical = better cleaning” and ignores fabric‑chemical compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision‑flowchart (in text form) that a home‑science student could use to select the correct physical technique and reagent category for a fresh stain on a known fabric. Include at least four decision nodes.",
+     "a": "Example flowchart:\n1. Is the stain fresh? → Yes → Proceed; No → Soak first.\n2. What is the stain class? → Vegetable → Alkaline reagent; Animal → Cold water + detergent; Oil → Grease solvent/absorbent; Mineral → Acidic then alkaline; Dye → Dilute alkali/acid per fabric.\n3. What is the fabric? → Cotton/linen → Can tolerate friction, hot water, strong alkali/bleach; Wool/silk → Gentle kneading, cold water, mild detergent, no alkali; Synthetic → Cool water, mild detergent, avoid chlorine bleach.\n4. Choose technique: Built‑up? → Scraping. Large area? → Dipping. Localised on delicate? → Sponging. Very delicate? → Drop method.\nA poor answer that omits fabric‑specific branches or reagent categories shows inability to synthesise the chapter’s decision framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

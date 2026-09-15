@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_05_014",
+   "title": "c11_hin_ar_cbse_05_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student lacks a structured framework for answer writing and will likely produce unorganized summaries instead of analytical responses.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why merely summarizing the plot of \"xyrk yksgk\" does not fetch full marks in a \"character sketch of Eksgu\" question.",
+     "a": "A summary narrates events; a character sketch analyzes traits through events. If a student writes \"Eksgu is a poor boy who works at the tea stall and learns a poem,\" they are summarizing. They miss explaining *how* the tea-stall incident reveals his helplessness or *why* memorizing the poem shows his yearning for dignity. This misconception stems from confusing \"what happens\" with \"what it means.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Eksgu is oppressed because he is low caste. The teacher beats him. This shows caste discrimination.\" Apply the PEEL framework to improve this answer by adding specific textual evidence and deeper explanation.",
+     "a": "Improved PEEL version: Point – Eksgu internalizes caste oppression. Evidence – When the teacher beats him for no fault, Eksgu \"does not feel it right to protest\" and thinks \"this is how it has always been.\" Explanation – His silence is not weakness but conditioned acceptance; the text says he never saw his father protest either. Link – Thus, the story portrays caste discrimination as a psychological cage, not just physical violence. A wrong answer would keep the vague \"teacher beats him\" without quoting the exact behavioral detail (silence, father's example) that proves internalization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the responses of Eksgu and his father (Ishvar) to the teacher's injustice. Analyze how their differing reactions reveal the story's theme of generational change vs. stagnation.",
+     "a": "Eksgu initially accepts injustice silently (stagnation), but later his subtle rebellion (memorizing the poem perfectly, correcting the teacher's pronunciation) shows awakening. Ishvar, however, warns Eksgu not to dream beyond his caste (\"What will you do with education?\") and later takes pride in Eksgu's menial job. The contrast highlights that the younger generation *can* question the system, but societal pressure (father's fear) pulls them back. A wrong answer would list both as \"submissive\" missing Eksgu's quiet intellectual resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the story's ending where Eksgu rides away on the bicycle \"like a free bird.\" Defend your judgment with textual reasoning.",
+     "a": "The ending is ironically effective: the bicycle ride *looks* like freedom, but the text notes he rides \"with the same blank eyes\" and returns to the same tea stall. The \"free bird\" image is the narrator's/observer's projection, not Eksgu's reality. This irony underscores the story's central message – structural freedom requires more than a momentary escape. A weak evaluation would call it a \"happy ending\" ignoring the textual cues (blank eyes, return to stall) that signal continued entrapment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 60-word answer for: \"How does the tea-stall setting function as a symbol in 'xyrk yksgk'?\" Use PEEL structure.",
+     "a": "Point: The tea stall symbolizes the inescapable caste trap. Evidence: Eksgu works there before and after school; the owner calls him \"lowly\" and the customers treat him as invisible. Explanation: The stall is a microcosm of society where his identity is reduced to \"chamar boy\" regardless of his education. Link: Thus, the setting reinforces that physical mobility (school) doesn't break social immobility. A poor answer would describe the stall physically (smell, cups) without connecting to caste symbolism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

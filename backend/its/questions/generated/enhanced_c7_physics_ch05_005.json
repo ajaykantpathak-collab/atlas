@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_005",
+   "title": "c7_physics_ch05_005",
+   "questions": [
+    {
+     "q": "What three essential components are always required to form a shadow on a surface?",
+     "a": "A source of light, an opaque or translucent object to block the light, and a screen (or surface) to receive the shadow. A wrong answer reveals that the student confuses shadows with reflections or thinks shadows can exist without a surface to fall upon.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a shadow always dark, regardless of whether the object blocking the light is bright red or shiny yellow?",
+     "a": "A shadow is formed because the object completely blocks light rays from reaching that specific region behind it, resulting in an absence of light (darkness). A wrong answer reveals the misconception that a shadow inherits the color of the object that blocks the light.",
+     "self_check": true
+    },
+    {
+     "q": "A student places a cricket ball 20 cm away from a small LED torch (acting as a point source) and projects its shadow on a wall that is 100 cm away from the torch. If the ball has a diameter of 7 cm, calculate the approximate magnification factor if the shadow size depends linearly on the ratio of screen distance to source-to-object distance.",
+     "a": "Steps: \n1. Identify given values: Distance from source to object ($d_{so} = 20\\text{ cm}$), distance from source to screen ($d_{ss} = 100\\text{ cm}$), object size ($h_o = 7\\text{ cm}$).\n2. Identify the formula for linear magnification ($m$) or shadow size ($h_s$): $h_s = h_o \\times \\left(\\frac{d_{ss}}{d_{so}}\\right)$.\n3. Substitute values with units: $h_s = 7\\text{ cm} \\times \\left(\\frac{100\\text{ cm}}{20\\text{ cm}}\\right)$.\n4. Compute and track unit cancellation: $h_s = 7\\text{ cm} \\times 5 = 35\\text{ cm}$.\n5. Verify physical reasonableness: The shadow size is larger than the object because the screen is further away than the object, which aligns with geometric optics.\nAnswer: 35 cm. A wrong answer reveals an error in setting up the ratio of distances or dividing by the wrong distance term.",
+     "self_check": true
+    },
+    {
+     "q": "How does replacing a point source of light (like a small LED bulb) with an extended source of light (like a long tube light) affect the appearance of a shadow cast by an opaque sphere?",
+     "a": "An extended source creates a sharp central dark region called the umbra and a lighter outer fringe called the penumbra, whereas a point source creates only a sharp, uniform umbra. A wrong answer shows a failure to recognize that light rays from different parts of a large source overlap partially to create a faded outer region.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if you move a screen closer to an opaque object while keeping the light source fixed, the shadow will become larger. Evaluate this statement.",
+     "a": "The statement is incorrect because moving the screen closer to the object decreases the spread of the blocked light cone, thereby making the shadow smaller, not larger. A wrong answer indicates confusion between object-to-source distance and screen-to-object distance effects on shadow dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using a torch, a small globe, and a blank wall to demonstrate why shadows change length throughout the day.",
+     "a": "Criteria for a good answer: The student must describe placing a stationary object (globe) and moving the torch from a low angle (simulating morning/evening) to a high vertical angle (simulating noon), noting how the shadow length decreases and then increases while changing angle. A poor answer lacks clear placement of the light source or fails to link the angle of the light beam to the length of the shadow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

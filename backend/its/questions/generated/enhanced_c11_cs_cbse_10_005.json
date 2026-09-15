@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_005",
+   "title": "c11_cs_cbse_10_005",
+   "questions": [
+    {
+     "q": "What is the time complexity of `append()` and `pop()` operations on a `deque` when used as a stack, and why is it more efficient than using a list for the same purpose?",
+     "a": "Both `append()` and `pop()` on a `deque` are O(1) operations because `deque` is implemented as a doubly-linked list of blocks, allowing constant-time insertion and deletion at both ends. A list also has O(1) `append()` and `pop()` at the end, but `deque` has lower constant factors and is thread-safe, making it more efficient for high-frequency stack operations. A wrong answer might claim list is faster or that `deque` has O(n) complexity, revealing a misunderstanding of the underlying data structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `deque` is preferred over a list for implementing a stack in a multi-threaded environment, even though both provide O(1) push and pop at one end.",
+     "a": "`deque` is thread-safe for single operations (append/pop) due to its implementation in C with a global interpreter lock (GIL) friendly design, whereas list operations are not atomic and can lead to race conditions in multi-threaded programs. A wrong answer might say both are thread-safe or that list is thread-safe, indicating a gap in understanding Python's concurrency model.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `reverse_string(s)` that uses a stack implemented with `deque` to reverse the input string `s`. Show the code and trace the execution for `s = \"DATA\"`.",
+     "a": "```python\nfrom collections import deque\ndef reverse_string(s):\n    stack = deque()\n    for ch in s:\n        stack.append(ch)\n    rev = ''\n    while stack:\n        rev += stack.pop()\n    return rev\n```\nTrace for \"DATA\": push D, A, T, A -> stack: ['D','A','T','A'] (left to right). Pop A, T, A, D -> \"ATAD\". A wrong answer might use `pop(0)` or `appendleft()`, confusing stack with queue, or might not import `deque`, showing lack of practical coding skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory overhead of a `deque` versus a list when implementing a stack of 10,000 integers. Which uses more memory and why?",
+     "a": "A `deque` typically uses more memory than a list for the same number of elements because it stores data in blocks (each block holds multiple elements) and maintains pointers to both ends, plus some empty slots for growth at both ends. A list is a contiguous array of pointers, so it has less overhead per element. A wrong answer might claim `deque` uses less memory, confusing it with the fact that `deque` is faster for certain operations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"For a stack that only grows and shrinks at one end, a list is always a better choice than a deque because it has lower memory overhead.\" Provide a justified opinion.",
+     "a": "The statement is false in contexts where thread-safety, consistent O(1) performance without occasional resizing spikes, or the need to later extend to a double-ended queue are required. While list has lower memory overhead, `deque` provides guaranteed O(1) operations without the amortized cost of list resizing and is thread-safe. A wrong answer might agree without considering these factors, showing an inability to evaluate trade-offs beyond memory.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you would need to switch from a list-based stack to a deque-based stack in an existing application. Describe the change and the reason.",
+     "a": "Scenario: A web server uses a list-based stack to track active user sessions for a \"recently closed tabs\" feature. As traffic increases, the server becomes multi-threaded and the list-based stack causes race conditions. Switching to `deque` ensures thread-safe push/pop without external locks. The change: replace `stack = []` with `stack = deque()` and keep `append`/`pop` the same. A poor answer might not mention thread-safety or might suggest changing the algorithm unnecessarily, indicating a lack of understanding of real-world constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

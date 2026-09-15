@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_5",
+   "title": "c8_math_ch7_5",
+   "questions": [
+    {
+     "q": "State the mathematical condition that must be true for two quantities x and y to be in a proportional relationship.",
+     "a": "The ratio y/x must be constant for all corresponding pairs of x and y (and x ≠ 0). Equivalently, y = kx for some constant k. A wrong answer (e.g., \"y increases when x increases\" or \"the difference y-x is constant\") reveals the student confuses proportionality with general increasing relationships or additive change, missing the multiplicative constant-ratio requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the relationship shown in the table below is proportional because \"as x increases, y increases.\" Is the student correct? Explain why or why not.\n| x | 2 | 4 | 6 | 8 |\n| y | 5 | 9 | 13 | 17 |",
+     "a": "The student is incorrect. Although y increases as x increases, the ratios are 5/2 = 2.5, 9/4 = 2.25, 13/6 ≈ 2.17, 17/8 = 2.125 — not constant. This is an additive relationship (y = 2x + 1). A wrong answer accepting the student's claim reveals the misconception that any increasing pattern implies proportionality, ignoring the need for a constant ratio.",
+     "self_check": true
+    },
+    {
+     "q": "The table shows the number of hours worked and total earnings for a part-time job. Determine if the relationship is proportional. If yes, find the constant of proportionality.\n| Hours (h) | 3 | 5 | 8 | 10 |\n| Earnings (₹) | 450 | 750 | 1200 | 1500 |",
+     "a": "Step 1: Compute ratio Earnings/Hours for each row: 450/3 = 150, 750/5 = 150, 1200/8 = 150, 1500/10 = 150.\nStep 2: All ratios equal 150, so the relationship is proportional.\nStep 3: Constant of proportionality k = 150 ₹/hour.\nA wrong answer (e.g., using differences or only checking one pair) reveals the student does not systematically verify constancy across all data points.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two relationships below. Which one is proportional? Justify by analyzing the structure of each equation.\nRelationship A: y = 4x + 2\nRelationship B: y = (3/5)x",
+     "a": "Relationship B is proportional because it is of the form y = kx with k = 3/5 (constant ratio). Relationship A is not proportional because of the +2 term; the ratio y/x = 4 + 2/x changes with x. A wrong answer identifying A as proportional reveals the misconception that any linear equation represents a proportional relationship, overlooking the requirement that the graph must pass through the origin (y-intercept = 0).",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues that the graph of a proportional relationship must be a straight line passing through the origin. They draw a straight line through (0,0) and (2,6) and say the constant of proportionality is 3. Another student says the constant is 1/3 because \"x/y = 2/6 = 1/3\". Evaluate both claims and state who is correct.",
+     "a": "The first student is correct. The constant of proportionality is y/x = 6/2 = 3 (or the slope of the line). The second student computed the reciprocal (x/y), which is not the standard definition of the constant of proportionality when y depends on x. A wrong answer accepting the second student reveals confusion about which quantity is the dependent variable and the direction of the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) involving two quantities that are NOT in a proportional relationship, but where a student might mistakenly think they are. Explain the error.",
+     "a": "Example: A metro card in Delhi has a ₹50 initial balance (non-refundable) and each ride costs ₹10. Total cost for n rides: C = 50 + 10n. A student might see \"₹10 per ride\" and assume proportionality, but the fixed ₹50 makes the ratio C/n = 10 + 50/n vary with n. The error is ignoring the fixed starting value (additive constant). A poor answer would give a proportional scenario (like simple cost per item) or fail to explain why the ratio isn't constant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 6,
+ "chapter_title": "Searching",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs106.1",
+   "title": "Comparisons Made by Linear Search",
+   "section": "6.2 and Example 6.1",
+   "definition": "Linear search compares the key with each element from the first onwards and stops at the first match; the key sitting at zero-based index i costs i plus one comparisons, and the rest of the list stays unchecked.",
+   "formula": "unchecked = size - (zero_index + 1)",
+   "key_idea": "Finding 17 in [8, -4, 7, 17, 0, 2, 19] takes 4 comparisons because three elements precede it.",
+   "textbook_ref": "lecs106.txt, section 6.2, Tables 6.1-6.2 and Program 6-1",
+   "question_patterns": [
+    "How many comparisons does linear search make to find 17 in the list [8, -4, 7, 17, 0, 2, 19]?",
+    "In the 15-element list of Activity 6.1, how many comparisons locate the key 12?",
+    "A key is found at index 4 of a 15-element list. How many elements were scanned and how many were left unchecked?",
+    "Why does linear search return the first match when a list holds duplicate values of the key?",
+    "Determine the position of 8, 1, 99 and 44 in the list [1, -2, 32, 8, 17, 19, 42, 13, 0, 44] by linear search and note the comparisons each takes."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the scanned elements",
+     "explain": "The match at zero-based index i ends a scan of i plus one elements.",
+     "compute": "scanned = zero_index + 1"
+    },
+    {
+     "step": 2,
+     "action": "count the untouched tail",
+     "explain": "Subtract the scan from the list size.",
+     "compute": "unchecked = size - scanned"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Finding 17 in [8, -4, 7, 17, 0, 2, 19] costs how many linear-search comparisons?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.2",
+   "title": "Best and Worst Work of Linear Search",
+   "section": "6.2 and Tables 6.3-6.4",
+   "definition": "The workload of linear search swings with the key's location: a key at the front needs a single comparison, while a key at the last position, or one that is absent, forces comparisons with all n elements.",
+   "formula": "best = 1 comparison; worst = n comparisons",
+   "key_idea": "Searching for 43 in an 11-element list that ends with 43 costs the full 11 comparisons.",
+   "textbook_ref": "lecs106.txt, section 6.2, Activity 6.2 and Tables 6.3-6.4",
+   "question_patterns": [
+    "Why does a key placed first cost only one comparison in linear search?",
+    "How many comparisons does linear search need when the key is the last element of an 11-element list?",
+    "How many comparisons does a failed linear search make on n elements?",
+    "In the list of Activity 6.2, how many comparisons find the key 43?",
+    "For which kind of lists is linear search still a sensible choice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the key in the list",
+     "explain": "Front placement gives the best case of one comparison; last placement or absence gives the worst case of n comparisons."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the best-case comparison count for linear search?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.3",
+   "title": "Middle Position in Binary Search",
+   "section": "6.3 and Algorithm 6.2",
+   "definition": "Binary search keeps two markers, first and last, on a sorted list and probes the midpoint computed by floor-dividing their sum by two, so for ten elements the probe lands on index 5, the sixth element.",
+   "formula": "mid = (first + last) // 2",
+   "key_idea": "When the middle element equals the key the search ends immediately, as 17 found at index 7 shows.",
+   "textbook_ref": "lecs106.txt, section 6.3, Algorithm 6.2 and Table 6.5",
+   "question_patterns": [
+    "Compute the mid index for first = 0 and last = 14 in a 15-element sorted list.",
+    "Why does floor division pick the sixth element as middle when a list holds ten elements?",
+    "A binary search runs from first = 0 to last = 6. Which index is probed next?",
+    "In the list of Example 6.2, why is key 17 found in a single iteration?",
+    "Which condition keeps the binary search loop running, and which comparison ends it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the boundary markers",
+     "explain": "The span marker adds first and last.",
+     "compute": "span = first + last"
+    },
+    {
+     "step": 2,
+     "action": "floor to the midpoint",
+     "explain": "Integer division by 2 rounds the midpoint down.",
+     "compute": "mid = span // 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Binary search keeps first = 0 and last = 9 on a sorted list. Which midpoint index does (first + last) // 2 probe?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.4",
+   "title": "Halving the Search Area",
+   "section": "6.3 and Table 6.7",
+   "definition": "After every unsuccessful midpoint comparison, binary search discards half the remaining list, so a 15-element search area shrinks to 7, then 3, then 1 element across successive iterations.",
+   "formula": "remaining = previous // 2",
+   "key_idea": "Searching key 2 in the 15-element list takes four iterations because 15 halves to 7, 3 and finally 1.",
+   "textbook_ref": "lecs106.txt, section 6.3 and Table 6.7",
+   "question_patterns": [
+    "Starting with 15 elements, how many remain to be searched after three unsuccessful midpoint comparisons?",
+    "Why is the technique named binary search?",
+    "Searching key 2 in Example 6.2 takes how many iterations, and what sequence of search-area sizes passes by?",
+    "Which half is searched next when the middle element is greater than the key?",
+    "Does binary search rearrange the list during the search? Explain."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "halve once",
+     "explain": "After the first failed probe only one half stays in play.",
+     "compute": "after_one = size // 2"
+    },
+    {
+     "step": 2,
+     "action": "halve again",
+     "explain": "The second iteration halves the survivors.",
+     "compute": "after_two = after_one // 2"
+    },
+    {
+     "step": 3,
+     "action": "halve a third time",
+     "explain": "The third iteration leaves a single candidate.",
+     "compute": "after_three = after_two // 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 15-element binary-search area halves after each unsuccessful comparison. How many elements remain after the first comparison?",
+     "a": "7"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.5",
+   "title": "Linear versus Binary Workload",
+   "section": "6.3 and Exercise 7",
+   "definition": "Locating a record at the exact middle of a sorted database costs one comparison for binary search but about half the database for linear search, which is why ordered data rewards binary searching enormously.",
+   "formula": "half = 2 ** exponent / 2",
+   "key_idea": "For 2 to the power 30 records, a middle-position hit costs one comparison in binary search but 536870912 in linear search.",
+   "textbook_ref": "lecs106.txt, Exercise 7",
+   "question_patterns": [
+    "A sorted database holds 2 to the power 30 records and the wanted record sits in the middle. Estimate the comparisons each search needs.",
+    "Why is the term iteration preferred over comparison when describing binary search work?",
+    "What do you infer when a middle-of-file search costs 1 iteration for binary search but half a billion comparisons for linear search?",
+    "Which search would you choose for a sorted telephone directory and why?",
+    "Name two applications that build on binary search techniques."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size up the database",
+     "explain": "Two raised to the power 30 gives the record count.",
+     "compute": "total_records = 2 ** exponent"
+    },
+    {
+     "step": 2,
+     "action": "walk half of it",
+     "explain": "A middle hit forces linear search through about half the records.",
+     "compute": "half = total_records / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "For 2^30 records, how many comparisons does a middle-position hit cost binary search?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.6",
+   "title": "Hash Value by Remainder Method",
+   "section": "6.4 and Program 6-3",
+   "definition": "Hashing computes an element's home slot directly: the remainder method divides the element by the hash table size and uses the remainder as the index, so checking presence needs just one comparison regardless of list size.",
+   "formula": "position = element % table_size + 1",
+   "key_idea": "In the table of size 10, element 16 lands in slot 6 and is reported at position 7.",
+   "textbook_ref": "lecs106.txt, section 6.4, Tables 6.9-6.10 and Program 6-3",
+   "question_patterns": [
+    "Apply the hash function element % 10 to 16, 93 and 80 and give each one's slot.",
+    "Using h(element) = element % 11, where do 44, 121 and 55 land in the hash table?",
+    "Why does a hash-based search need only one key comparison?",
+    "Program 6-3 reports 16 at position 7. Show the arithmetic behind it.",
+    "Store the collection [44, 121, 55, 33, 110, 77, 22, 66] with h(element) = element % 11 and display the table."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the home slot",
+     "explain": "The remainder on division by the table size fixes the slot.",
+     "compute": "slot = element % table_size"
+    },
+    {
+     "step": 2,
+     "action": "convert to a reporting position",
+     "explain": "Program 6-3 adds one to print a human-friendly position.",
+     "compute": "position = slot + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Using the remainder method with a table of size 10, which zero-based slot does element 16 land in?",
+     "a": "6"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.7",
+   "title": "Collision and Perfect Hash Functions",
+   "section": "6.4.1",
+   "definition": "A collision happens when two elements share one hash slot, as 16 and 26 both mapping to 6 under a modulo-10 function; a hash function that gives every element a unique slot is called perfect, and collision resolution decides where the extras go.",
+   "formula": "h(16) = 6 and h(26) = 6 -> collision",
+   "key_idea": "With a perfect hash function, collisions never arise and every search stays a single comparison.",
+   "textbook_ref": "lecs106.txt, section 6.4.1",
+   "question_patterns": [
+    "In the list [34, 16, 2, 26, 80] with hash function element % 10, which two elements collide and where?",
+    "Define collision and collision resolution in hashing.",
+    "When is a hash function called perfect, and what guarantee does it give?",
+    "Name two hash function techniques other than the remainder method.",
+    "Why must the cost of computing a hash function stay small?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the mapping for uniqueness",
+     "explain": "Compute the hash of each element; any shared slot is a collision needing resolution, while a fully unique mapping marks the function perfect."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two elements mapping to one hash slot is called what?",
+     "a": "collision"
+    }
+   ]
+  },
+  {
+   "id": "lecs106.8",
+   "title": "Sorted List Requirement for Binary Search",
+   "section": "6.3 and 6.3.1",
+   "definition": "Binary search only works when the list is already ordered, because each midpoint comparison decides which half can still hold the key; on unsorted data it would discard the wrong half, so the data must be sorted first.",
+   "formula": "sorted list + mid comparison -> discard one half",
+   "key_idea": "A dictionary search for Zoology starts in the second half only because the words are alphabetically arranged.",
+   "textbook_ref": "lecs106.txt, section 6.3, Activity 6.3 and section 6.3.1",
+   "question_patterns": [
+    "Why must a list be sorted before binary search can be trusted?",
+    "Activity 6.3 sorts [17, 8, -4, 7, 0, 2, 19] and searches for 7. How many iterations does binary search need?",
+    "How many key comparisons does binary search take to find -4 in the list [-4, 0, 2, 7, 8, 17, 19]?",
+    "Which real-world tools, such as dictionaries and telephone directories, behave like binary search?",
+    "Where do modified binary search techniques find use in computing systems?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the ordering precondition",
+     "explain": "Check the list is ascending or descending; only then can each midpoint comparison safely eliminate half the candidates."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Binary search demands that the list is already what?",
+     "a": "sorted"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs106.we1",
+   "title": "One-iteration hit for key 17",
+   "concept_id": "lecs106.3",
+   "problem": "In the 15-element sorted list of Example 6.2, find where binary search probes first when searching for 17, and how many iterations it needs.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "sum the markers",
+     "explain": "first is 0 and last is 14.",
+     "compute": "span = 0 + 14"
+    },
+    {
+     "step": 2,
+     "action": "floor to the midpoint",
+     "explain": "14 floor-divided by 2 is 7.",
+     "compute": "mid = span // 2"
+    }
+   ],
+   "answer_note": "The probe lands on index 7 where numList[7] is 17, so the search succeeds in one iteration at position 8."
+  },
+  {
+   "id": "lecs106.we2",
+   "title": "Hashing the key 16",
+   "concept_id": "lecs106.6",
+   "problem": "With a hash table of 10 slots, compute the slot of key 16 by the remainder method and the position Program 6-3 reports.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "remainder on division by 10",
+     "explain": "16 mod 10 leaves 6.",
+     "compute": "slot = 16 % 10"
+    },
+    {
+     "step": 2,
+     "action": "reporting position",
+     "explain": "The program prints slot plus 1.",
+     "compute": "position = slot + 1"
+    }
+   ],
+   "answer_note": "Key 16 sits in slot 6 and is reported at position 7, exactly as the program output shows."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs106.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 6 Exercise (items reworded)",
+   "questions": [
+    "Using linear search, determine the positions of 8, 1, 99 and 44 in the list [1, -2, 32, 8, 17, 19, 42, 13, 0, 44], tabulating the variables in each pass.",
+    "A list [42, -2, 32, 8, 17, 19, 42, 13, 8, 44] holds 8 twice. Which position does linear search return, and what does that mean?",
+    "Estimate the key comparisons linear search and binary search need to find a middle record among 2 to the power 30 sorted records, and interpret the result.",
+    "Use h(element) = element % 11 to store [44, 121, 55, 33, 110, 77, 22, 66] in a hash table, display it, and search for 11, 44, 88 and 121.",
+    "Search for Amazing, Perfect, Great and Wondrous in the word list by linear search, then sort the list and repeat, recording comparisons and iterations.",
+    "In the unsorted number list of Exercise 5, find 1, 5, 55 and 99 by linear search before and after sorting, then locate them by binary search with iteration counts.",
+    "Write a program that mixes 10 negative and positive numbers with a key and reports presence and position via linear search.",
+    "Build a hash table keyed by country-name length for the CountryCapital mapping and search the capitals of India, France and the USA."
+   ]
+  }
+ ]
+}

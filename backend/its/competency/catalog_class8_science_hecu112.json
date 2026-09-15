@@ -1,0 +1,187 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "How Nature Works in Harmony",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.112.12.1",
+   "title": "Sensing and Responding to the Environment",
+   "section": "12.1",
+   "definition": "Organisms constantly take in signals from their surroundings through senses and receptors and respond to them - plants bend toward light, animals flee danger - and such stimulus-response pairs keep living beings tuned to a changing world.",
+   "formula": "-",
+   "key_idea": "Detect the signal, answer it: sensitivity to stimuli is a signature of life.",
+   "textbook_ref": "hecu112.txt lines 61-150 (how do we experience and interpret the environment)",
+   "question_patterns": [
+    "how do organisms respond to changes in their surroundings",
+    "give two examples of plants responding to light or touch",
+    "what is a stimulus - define with an example",
+    "how do animals use their senses to survive",
+    "why is responding to the environment important for life",
+    "compare how humans and plants react to stimuli"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "detect the change",
+     "explain": "Senses or receptors pick up light, sound, touch, chemicals or temperature."},
+    {"step": 2, "action": "process the signal",
+     "explain": "The body interprets the signal and prepares a reaction."},
+    {"step": 3, "action": "respond appropriately",
+     "explain": "Movement, growth or behaviour changes complete the response."}
+   ]
+  },
+  {
+   "id": "hecu.112.12.2",
+   "title": "Living Together: Populations and Communities",
+   "section": "12.2",
+   "definition": "Nature is organised into shared neighbourhoods: all members of one species in an area form a population, and populations of plants, animals and microbes living together in that area make a community, each member finding food and shelter there.",
+   "formula": "-",
+   "key_idea": "One species together is a population; many species together is a community.",
+   "textbook_ref": "hecu112.txt lines 150-215 (who all live together in nature)",
+   "question_patterns": [
+    "define population and community with examples from a pond",
+    "who all live together in a forest community",
+    "how is a population different from a community",
+    "name the members of a garden community",
+    "why do different organisms share the same habitat",
+    "arrange individual, population and community in order of size"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count one species",
+     "explain": "All individuals of one kind in an area form its population."},
+    {"step": 2, "action": "add the other species",
+     "explain": "Populations of all species sharing the habitat build the community."},
+    {"step": 3, "action": "include the non-living setting",
+     "explain": "Together with soil, water and air, the community lives in an ecosystem."}
+   ]
+  },
+  {
+   "id": "hecu.112.12.3",
+   "title": "Interactions Among Organisms",
+   "section": "12.4",
+   "definition": "Organisms interact in many ways: some cooperate in mutualism where both gain, some compete for the same food or light, while others live as parasites or predators and prey - each interaction shapes who thrives in a community.",
+   "formula": "-",
+   "key_idea": "Win-win, win-lose or rivalry - interactions steer the life of a community.",
+   "textbook_ref": "hecu112.txt lines 265-471 (types of interactions in a community)",
+   "question_patterns": [
+    "name the different types of interactions between organisms",
+    "what is mutualism - give an example",
+    "how does competition arise in a community",
+    "distinguish a parasite from a predator",
+    "describe the relationship between a bee and a flower",
+    "how do interactions decide which organisms survive"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "classify the pair",
+     "explain": "Decide whether both benefit, one suffers, or both are harmed."},
+    {"step": 2, "action": "name the interaction",
+     "explain": "Mutualism, competition, predation and parasitism label the common patterns."},
+    {"step": 3, "action": "note the effect",
+     "explain": "Each interaction changes population sizes and community balance."}
+   ]
+  },
+  {
+   "id": "hecu.112.12.4",
+   "title": "Food Chains and Food Webs",
+   "section": "12.5",
+   "definition": "Energy from the sun flows through a community along eating links: green plants trap sunlight as producers, herbivores eat plants, carnivores eat herbivores, and interconnected chains weave into a food web that shows who eats whom.",
+   "formula": "-",
+   "key_idea": "Sun to plant to animal to hunter: every meal passes energy one link along.",
+   "textbook_ref": "hecu112.txt lines 471-589 (who eats whom)",
+   "question_patterns": [
+    "what is a food chain - draw one from a grassland",
+    "who are producers in a food chain and why",
+    "distinguish herbivores, carnivores and omnivores",
+    "how does a food web differ from a food chain",
+    "what happens to a food chain if one member disappears",
+    "trace the energy flow from the sun to a lion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start with the producer",
+     "explain": "Green plants capture solar energy and make food."},
+    {"step": 2, "action": "follow the eaters",
+     "explain": "Herbivores feed on plants, carnivores on herbivores, forming a chain."},
+    {"step": 3, "action": "weave the web",
+     "explain": "Overlapping chains of a community form its food web."}
+   ]
+  },
+  {
+   "id": "hecu.112.12.5",
+   "title": "Decomposers and the Balance of Nature",
+   "section": "12.6",
+   "definition": "Nothing is wasted in nature: decomposers such as fungi and bacteria break down dead bodies and droppings into soil nutrients that plants reuse, while feedback among populations keeps numbers in check - nature's recycling and harmony at work.",
+   "formula": "-",
+   "key_idea": "Decomposers return matter to the soil, closing the loop that keeps ecosystems going.",
+   "textbook_ref": "hecu112.txt lines 589-741 (waste in nature, change, balance)",
+   "question_patterns": [
+    "what happens to dead plants and animals in a forest",
+    "who are decomposers - give two examples",
+    "how do nutrients return to the soil in nature",
+    "why is nature said to maintain a balance",
+    "what would happen if decomposers disappeared",
+    "explain the recycling of matter in an ecosystem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "hand the dead to decomposers",
+     "explain": "Fungi and bacteria break dead matter into simple substances."},
+    {"step": 2, "action": "return nutrients to the soil",
+     "explain": "Plants absorb these nutrients, restarting the food chain."},
+    {"step": 3, "action": "keep the numbers balanced",
+     "explain": "Predation, competition and food supply hold populations in check."}
+   ]
+  },
+  {
+   "id": "hecu.112.12.6",
+   "title": "Ecosystems and Their Benefits",
+   "section": "12.9",
+   "definition": "A community together with its non-living surroundings - soil, water, air, light - works as an ecosystem; forests, ponds and grasslands supply food, water purification, climate control and countless other services on which human life depends.",
+   "formula": "-",
+   "key_idea": "Living community plus physical surroundings equals ecosystem - nature's service provider.",
+   "textbook_ref": "hecu112.txt lines 741-800 (benefits of an ecosystem)",
+   "question_patterns": [
+    "what is an ecosystem - name its living and non-living parts",
+    "give two examples of ecosystems",
+    "list the benefits that a forest ecosystem gives us",
+    "how does a pond work as an ecosystem",
+    "why should ecosystems be protected",
+    "which non-living factors shape an ecosystem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "add the surroundings to the community",
+     "explain": "Living organisms plus air, water, soil and light form the ecosystem."},
+    {"step": 2, "action": "trace the services",
+     "explain": "Food, clean water, fertile soil and moderated climate flow from ecosystems."},
+    {"step": 3, "action": "argue for protection",
+     "explain": "Damaging one part weakens the services, so conservation protects human welfare too."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "hecu112.txt sections 12.1-12.5",
+   "questions": [
+     "Give examples of stimulus and response in plants and animals.",
+     "Draw a food chain of a pond ecosystem.",
+     "Name the types of interactions with one example each."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "hecu112.txt sections 12.6-12.9",
+   "questions": [
+     "How do decomposers maintain the balance of nature?",
+     "Define an ecosystem and list its benefits.",
+     "What happens when one member of a food web is removed?"
+   ]
+  }
+ ]
+}

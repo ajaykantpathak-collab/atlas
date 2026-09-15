@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_02_012",
+   "title": "c12_eng_v_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"How many tigers did the Maharaja kill?\" → \"Ninety-nine\"), while an inferential question requires logical deduction from textual clues (e.g., \"Why did the Maharaja marry a princess from a state with many tigers?\" → inference: to access more tigers for his hunt). A wrong answer that defines both as \"questions answered from the text\" reveals the student cannot distinguish retrieval from reasoning — a critical error that leads to vague, unsupported answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, the text states: \"The Maharaja vowed he would attend to all other matters only after killing the hundred tigers.\" A student writes: \"The Maharaja was a responsible king who prioritised his duty to protect his people from tigers.\" Is this a valid literal or inferential answer? Explain why.",
+     "a": "This is an INVALID inferential answer. The text explicitly states his vow was driven by the astrologer's prophecy (\"death comes from the Tiger\") and his personal obsession, not public safety. The student has imposed an external assumption (kings protect subjects) contradicted by the text's satire on his selfishness. A wrong answer here reveals the student confuses inference with imagination — they must ground inferences in textual evidence, not stereotypes about royalty.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"Evidence-Claim-Warrant\" framework to answer this inferential question: \"Why did the dewan bring a tiger from Madras and release it in the forest?\" Provide the exact textual evidence, your claim, and the logical warrant connecting them.",
+     "a": "Evidence: \"The dewan went home convinced that if the Maharaja did not find the tiger soon, the results could be catastrophic. He felt life returning to him only when he saw the tiger which had been brought from the People's Park in Madras and kept hidden in his house.\" Claim: The dewan staged the tiger's appearance to save his own job and prevent the Maharaja's tyranny (doubling land tax). Warrant: The dewan feared the Maharaja's wrath (\"you may resign from your post\") and knew the Maharaja's obsession made him desperate for the 100th tiger — so he manufactured a solution. A wrong answer citing only \"the dewan wanted to help\" misses the self-preservation motive explicitly supported by the text.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following two questions from past CBSE papers and classify each as literal (L) or inferential (I). Justify your classification with reference to the text.\n(a) \"What gift did the Maharaja buy for his son's third birthday?\"\n(b) \"How does the wooden tiger become the instrument of the Maharaja's death?\"",
+     "a": "(a) L — Answer explicitly stated: \"He spotted a wooden tiger in a toyshop and decided it was the perfect gift.\" (b) I — Requires connecting three separate textual details: (i) sliver pierces hand, (ii) infection spreads, (iii) surgeons operate but Maharaja dies. The text never says \"the wooden tiger killed him\" — the student must synthesise cause-effect across paragraphs. A student labelling both as literal reveals inability to recognise multi-step synthesis as inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"The Maharaja's minions obeyed him out of sincere loyalty.\" The student writes: \"False. They obeyed out of fear. For example, when the Maharaja ordered the dewan to double the land tax, the dewan said 'In that case you may resign from your post' but didn't actually resign — showing fear.\" Is this evaluation correct? Defend your judgment.",
+     "a": "The evaluation is CORRECT. The student correctly identifies the answer as false, provides the right inference (fear, not loyalty), and cites precise textual evidence (dewan's compliance despite protest, officers losing jobs). The warrant is sound: fear of consequences drives obedience, not sincerity. A wrong evaluation accepting \"loyalty\" would reveal the student misses the satirical portrayal of sycophancy — a core theme CBSE expects students to infer from behavioural patterns across the text.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question based on the final paragraph of the story (\"In this manner the hundredth tiger took its final revenge upon the Tiger King.\") that requires synthesising the prophecy, the irony of the 100th tiger, and the wooden tiger's role. Provide the ideal answer structure.",
+     "a": "Question: \"How does the author use dramatic irony to fulfil the astrologer's prophecy through an unexpected agent?\" Ideal answer structure: (1) State the prophecy (death from a tiger), (2) Identify the expected agent (100th real tiger), (3) Identify the actual agent (wooden tiger's sliver), (4) Explain the irony: the Maharaja 'killed' 100 tigers but died from a harmless toy, (5) Conclude: fate operates through the Maharaja's own hubris. A poor answer listing only \"he died from infection\" misses the irony and prophecy-fulfilment — the very essence of the story's satire.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

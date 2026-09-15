@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_06_012",
+   "title": "c12_eng_f_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in the CBSE Class 12 English examination context?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What brand of make-up did Gemini Studios buy?\" Answer: Pancake). An inferential question requires drawing a conclusion not explicitly written (e.g., \"Why did the author pray for crowd-shooting?\" Answer: To avoid the office boy's lectures). A wrong answer that defines both as \"questions based on the text\" reveals the student cannot distinguish retrieval from reasoning, leading to overly brief responses for inferential questions that carry higher marks.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"Subbu was the No. 2 at Gemini Studios. He couldn't have had a more encouraging opening in films than our grown-up make-up boy had.\" Based on this explicit statement and the surrounding context, what can you infer about the office boy's perception of Subbu's success?",
+     "a": "The office boy perceived Subbu's success as unfair because they had similar starting points (both entered films with uncertain prospects, similar education), yet Subbu rose due to Brahmin privilege (\"by virtue of being born a Brahmin\") and sycophancy (\"readiness to say nice things about everything\"), while his own talent was wasted. A wrong answer stating \"Subbu was more talented\" misses the textual evidence of comparable backgrounds and the office boy's explicit resentment toward Subbu's caste advantage and flattery, showing inability to infer character motive from explicit comparative details.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this inferential question: \"How does the author use the incident of the legal adviser recording the actress to reveal the atmosphere at Gemini Studios?\" Provide the Point, Evidence (paraphrased), Explanation, and Link.",
+     "a": "Point: The incident exposes the contrast between the dreamy, artistic atmosphere and the cold, manipulative logic of the legal adviser. Evidence: The lawyer quietly records the actress's tirade and plays it back, leaving her \"struck dumb\" and ending her career. Explanation: While poets and actors operate on emotion and creativity, the lawyer uses technology to humiliate, showing a studio where rationality destroys artistry. Link: This reinforces the chapter's theme of incongruity — legal logic in a world of make-believe. A wrong answer that merely narrates the incident without the \"Link\" step fails to connect the evidence to the broader textual atmosphere, losing 1-2 marks in a 3-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two questions from the NCERT 'Understanding the text' section and classify each as literal (L) or inferential (I), justifying your classification:\nQ1: \"Why was Kothamangalam Subbu considered No. 2 in Gemini Studios?\"\nQ2: \"How does the author describe the incongruity of an English poet addressing the audience at Gemini Studios?\"",
+     "a": "Q1 is Literal (L) — the text explicitly lists Subbu's abilities: loyalty to The Boss, creativity on command, poetry for masses, acting, charity. Q2 is Inferential (I) — \"incongruity\" is not a word used in the text; the student must synthesize the poet's bafflement, the audience's silence, the mismatch of English poetry with Tamil film workers, and The Boss's vague speech to construct the answer. A wrong classification (e.g., marking Q1 as inferential) indicates the student confuses \"listing multiple explicit points\" with \"deriving implicit meaning,\" leading to over-elaboration on factual questions and under-explanation on analytical ones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student response to the inferential question: \"What does the author's discovery of Stephen Spender's identity reveal about the Gemini Studios environment?\"\nStudent Answer: \"The author found out Stephen Spender was the editor of The Encounter. He read The God That Failed and realized Spender was a disillusioned Communist. This explains why the visit was a mystery — the Boss didn't know Spender's politics.\"\nIs this response sufficient for a 4-mark CBSE question? Why or why not?",
+     "a": "Insufficient. The response states facts (literal retrieval) but fails to evaluate what this reveals about the *environment*: the intellectual disconnect between the khadi-clad, Gandhian poets who vaguely feared Communism and the actual anti-Communist intellectual (Spender) they hosted unknowingly. It misses the irony that the studio's \"anti-Communism\" was performative, while the real critic of Communism stood unrecognized. A 4-mark answer must include: (1) the literal discovery, (2) the inference about the studio's shallow political awareness, (3) the irony of the situation, (4) connection to the chapter's theme of incongruity. The student's answer would score 1/4.",
+     "self_check": true
+    },
+    {
+     "q": "Create a literal comprehension question and an inferential comprehension question based on the MRA (Moral Re-Armament Army) visit episode. Ensure the inferential question requires connecting the MRA's plays to the subsequent changes in Tamil drama.",
+     "a": "Literal: \"What were the names of the two plays staged by the Moral Re-Armament Army at Gemini Studios?\" (Answer: 'Jotham Valley' and 'The Forgotten Factor').\nInferential: \"How did the MRA's staging techniques influence Tamil drama in the following years, and what does this reveal about the Gemini Studios' artistic receptivity?\" (Expected answer: Tamil plays adopted the bare stage, white curtain, flute tune for sunrise/sunset scenes from 'Jotham Valley'; this shows the studio's uncritical adoption of foreign artistic forms despite their Gandhian nationalism). A poor inferential question would be \"Did the Gemini staff like the plays?\" (too simple, yes/no). The created inferential question correctly demands synthesis of cause-effect and thematic implication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

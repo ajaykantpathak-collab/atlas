@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_4",
+   "title": "c8_math_ch6_4",
+   "questions": [
+    {
+     "q": "Write the expansion of (x + 1)(y + 1) using the distributive property. Do not simplify.",
+     "a": "(x + 1)(y + 1) = x(y + 1) + 1(y + 1) = xy + x + y + 1. A wrong answer like xy + 1 reveals the student thinks only the first terms multiply and the 1's multiply, missing the cross terms. This shows they are treating it like (a)(b) instead of distributing fully.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (5 + 1)(7 + 1) = 5×7 + 5 + 7 + 1. Use the distributive property in your explanation.",
+     "a": "(5+1)(7+1) = 5(7+1) + 1(7+1) = 5×7 + 5×1 + 1×7 + 1×1 = 35 + 5 + 7 + 1 = 48. The 1 acts as a multiplier that copies the other bracket. A wrong explanation that just computes 6×8=48 without showing distribution reveals the student cannot articulate the structural reason — they only know the arithmetic answer, not the algebraic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Expand (2m + 1)(3n + 1) completely. Show each distribution step.",
+     "a": "(2m + 1)(3n + 1) = 2m(3n + 1) + 1(3n + 1) = 2m×3n + 2m×1 + 1×3n + 1×1 = 6mn + 2m + 3n + 1. A common error: 6mn + 1 (missing 2m and 3n) or 6mn + 5mn (adding unlike terms). This reveals the student either forgets to distribute the 1 to both terms, or incorrectly combines 2m and 3n as like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare (x + 1)(y + 1) and (x + 2)(y + 2). How are their expansions similar and different? Write both expansions.",
+     "a": "(x+1)(y+1) = xy + x + y + 1. (x+2)(y+2) = xy + 2x + 2y + 4. Both have xy term and sum of variable terms and constant. The difference: coefficients of x and y match the constant added (1 vs 2), and constant term is square of that constant (1 vs 4). A student who writes (x+2)(y+2) = xy + x + y + 2 is applying the (a+1)(b+1) pattern incorrectly — they don't see the constant 2 must distribute to both x and y.",
+     "self_check": true
+    },
+    {
+     "q": "A student expanded (p + 1)(q + 1) as pq + 1. Is this correct? If not, identify exactly which distribution step they missed and show the correct expansion.",
+     "a": "Incorrect. The student missed both distributions of the 1: they did not multiply 1 by (q+1) and did not multiply p by 1. Correct: (p+1)(q+1) = p(q+1) + 1(q+1) = pq + p + q + 1. If they only wrote pq+1, they likely think (a+b)(c+d) = ac + bd — a common \"first × first, last × last\" misconception. They need to see the two separate distributions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using rupees, metres, or litres) where you would use (a + 1)(b + 1) to find the answer. Define what a and b represent, then solve it using the expansion.",
+     "a": "Example: A rectangular garden has length (x+1) metres and breadth (y+1) metres. Find its area. Let a = x, b = y. Area = (x+1)(y+1) = xy + x + y + 1 sq m. A poor answer uses numbers only (e.g., 5×6) without variables, or defines a and b as the full lengths (x+1) instead of the variable parts. This shows they don't understand the algebraic structure — they just want to compute.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

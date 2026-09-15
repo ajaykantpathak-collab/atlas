@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_010",
+   "title": "c11_eng_w_cbse_21_010",
+   "questions": [
+    {
+     "q": "In the essay \"Patterns of Creativity,\" Chandrasekhar writes: \"The scientist tries to understand the world by discovering patterns in nature.\" If a student defines \"pattern\" here as \"a decorative design,\" what specific contextual clue in the sentence contradicts this meaning?",
+     "a": "The phrase \"discovering patterns in nature\" contradicts \"decorative design\" because decorative designs are human-made/imposed, not discovered in nature. The verb \"discovering\" signals pre-existence and objectivity, while \"decorative\" implies human artifice. A wrong answer reveals the student is importing everyday connotations (wallpaper, fabric) instead of reading the collocation \"discovering patterns\" as a fixed scientific phrase meaning \"recurring regularities.\"",
+     "self_check": true
+    },
+    {
+     "q": "Chandrasekhar contrasts the scientist's \"pattern of connections\" with the poet's \"pattern of words.\" Explain why \"connections\" and \"words\" are not interchangeable in this parallelism, using the essay's distinction between referential and self-referential language.",
+     "a": "\"Connections\" refers to relationships between external phenomena (objects, forces, events) — the pattern exists independently in nature. \"Words\" refers to linguistic units that constitute the pattern itself — the poem IS the pattern. They're not interchangeable because the scientist's pattern is referential (points outward to reality) while the poet's pattern is self-referential (the arrangement IS the artifact). A wrong answer treats both as \"building blocks\" and misses the ontological distinction the essay builds its argument on.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"substitution test\" to determine the contextual meaning of \"aesthetic\" in this sentence from the essay: \"The scientist's aesthetic satisfaction comes from the economy and elegance of the theory.\" Replace \"aesthetic\" with each option and select the one that preserves the sentence's logic: (a) artistic, (b) sensory, (c) intellectual, (d) emotional.",
+     "a": "(c) intellectual. Substitution: \"The scientist's intellectual satisfaction comes from the economy and elegance of the theory\" — preserves the link between theoretical virtues (economy, elegance) and cognitive reward. (a) \"artistic\" incorrectly implies art-domain; (b) \"sensory\" contradicts abstract theory; (d) \"emotional\" is too broad and misses the cognitive specificity. A wrong answer shows the student hasn't recognized \"aesthetic\" as a term of art in philosophy of science (cf. Dirac, Heisenberg) where it denotes theory-choice criteria, not beauty perception.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Chandrasekhar's repeated use of \"impose\" (as in \"impose a pattern,\" \"impose order\") creates a semantic field that complicates the simple discovery/creation binary. What does this verb choice reveal about his view of scientific creativity?",
+     "a": "\"Impose\" carries agency and constraint: the scientist actively structures data, but the resistance of raw phenomena limits arbitrary imposition. The semantic field (impose, constrain, select, discard) portrays creativity as negotiated — neither pure discovery (passive) nor pure invention (unconstrained). A wrong answer treats \"impose\" as synonymous with \"create\" or \"find,\" missing the dialectic tension that structures the essay's argument about the \"pattern of creativity\" being a third category.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Chandrasekhar uses 'myth' pejoratively to mean 'false belief' when he writes 'the myth of the creative scientist.'\" Defend or refute using the essay's engagement with anthropological and literary senses of \"myth.\"",
+     "a": "Refute. In the essay, \"myth\" functions in the anthropological sense: a foundational narrative that structures a community's self-understanding (like \"the hero scientist\"). Chandrasekhar examines how this myth shapes scientific practice — not to debunk it as false, but to analyze its cultural work. The pejorative \"false belief\" sense would collapse his nuanced sociological point. A wrong answer reveals the student defaults to the common colloquial sense (\"urban myth\") instead of tracking the term's disciplinary polysemy across the essay.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence analytical paragraph about \"Patterns of Creativity\" that correctly uses ALL these key terms in context: paradigm, isomorphism, heuristic, referential, self-referential. Your paragraph must make a coherent argument about the essay's thesis.",
+     "a": "Expected criteria: (1) Each term used in its discipline-appropriate sense (paradigm = Kuhnian framework, not \"example\"; isomorphism = structural mapping, not \"similarity\"; heuristic = discovery strategy, not \"shortcut\"). (2) Terms interact logically: e.g., \"Chandrasekhar argues that the scientist's paradigm seeks referential isomorphism with nature, while the poet's heuristic constructs self-referential coherence.\" (3) Paragraph advances an interpretive claim, not just definitions. Poor answers treat terms as vocabulary display without syntactic integration or argumentative purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

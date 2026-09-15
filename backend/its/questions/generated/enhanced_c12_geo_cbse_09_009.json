@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_009",
+   "title": "c12_geo_cbse_09_009",
+   "questions": [
+    {
+     "q": "A person born in a village in Bihar moves to Patna (urban) for work, then later moves to Delhi (urban) for a better job. According to Census of India classification by place of last residence, how many migration events are recorded for this person, and what are the streams for each event?",
+     "a": "Two migration events are recorded: (1) Village (rural) to Patna (urban) = Rural-Urban stream; (2) Patna (urban) to Delhi (urban) = Urban-Urban stream. A wrong answer (e.g., counting only one event, or misclassifying Patna→Delhi as Rural-Urban) reveals the student confuses \"place of birth\" definition (which would show only Rural-Urban from Bihar village to Delhi) with \"place of last residence\" definition (which captures each move), or fails to apply the rural/urban classification at each step.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Rural-Rural stream constitute the largest share of internal migrants in India (over 50% as per Census 2011), even though Rural-Urban migration receives more policy attention?",
+     "a": "Rural-Rural migration is dominated by female marriage migration (patrilocal residence norms) and seasonal agricultural labour circulation, affecting millions of women and landless workers across states like Uttar Pradesh, Bihar, Rajasthan. Rural-Urban gets more attention because it drives urbanisation, creates visible slums, and strains urban infrastructure, but in sheer volume, marriage-related Rural-Rural flows are larger. A wrong answer (e.g., \"Rural-Urban is largest because of factories\") reveals the student conflates visibility/impact with numerical magnitude and overlooks gendered social norms as a migration driver.",
+     "self_check": true
+    },
+    {
+     "q": "Using Census 2011 data: Maharashtra received 7.4 million inter-state in-migrants (place of last residence), of which 2.1 million were from Uttar Pradesh and 1.3 million from Bihar. If total inter-state in-migrants to Maharashtra = 7.4 million, and intra-state migrants within Maharashtra = 28.6 million, calculate the percentage of total migrants (inter-state + intra-state) in Maharashtra who are inter-state migrants from Uttar Pradesh alone. Show steps.",
+     "a": "Step 1: Total migrants in Maharashtra = Inter-state in-migrants + Intra-state migrants = 7.4M + 28.6M = 36.0 million.\nStep 2: Inter-state migrants from UP to Maharashtra = 2.1 million.\nStep 3: Percentage = (2.1 / 36.0) × 100 = 5.83%.\nA wrong answer (e.g., 2.1/7.4 = 28.4%) reveals the student calculated share within inter-state migrants only, missing that the question asks for share of TOTAL migrants (inter + intra). This tests careful reading of \"total migrants\" vs \"inter-state migrants\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dominant push factors for international emigration from Kerala (to Gulf countries) versus international immigration into India (from Bangladesh). How do the skill profiles and economic drivers differ?",
+     "a": "Kerala→Gulf: Push = high educated unemployment, limited local industrial jobs; Pull = high wages for semi-skilled/skilled labour (construction, nursing, engineering) in oil economies; migrants are predominantly male, semi-skilled to professional, remittance-driven. Bangladesh→India: Push = poverty, landlessness, environmental vulnerability (floods, river erosion); Pull = informal sector work (construction, domestic work, agriculture) in border states (West Bengal, Assam); migrants are often low-skilled, family units, survival-driven. A wrong answer conflating both as \"economic migration\" misses the skill/education gradient, gender composition difference, and the role of historical/cultural ties (Kerala's Gulf connection vs porous Bengal border).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Inter-state migration in India is primarily driven by economic disparities between states, so richer states like Maharashtra and Delhi should bear the full cost of providing social services to migrants.\" Consider demographic, fiscal, and constitutional dimensions.",
+     "a": "The statement is partially valid but incomplete. Valid: richer states (Maharashtra, Delhi, Gujarat, Karnataka) are net migration magnets due to job creation; they do bear infrastructure costs (housing, water, transport). Invalid: (1) Constitution guarantees freedom of movement (Art. 19) — migrants are citizens, not burdens; (2) Source states (UP, Bihar) lose working-age population (demographic dividend leakage) and gain remittances but lose tax base; (3) Migrants contribute to destination state GDP and tax revenue (GST, property taxes); (4) National policies (One Nation One Ration Card, portability of welfare) aim to share fiscal responsibility. A purely economic-disparity view ignores constitutional rights, fiscal federalism, and the fact that migration reduces pressure on source states' resources.",
+     "self_check": true
+    },
+    {
+     "q": "Design a migration data collection framework for a district-level study that captures seasonal/circular migration missed by the Census (which uses place of last residence at a fixed date). Specify: (a) 3 key variables beyond Census categories, (b) 1 qualitative method to capture migrant agency, (c) how to avoid double-counting circular migrants.",
+     "a": "(a) Variables: (i) Duration of stay at destination per trip (days/months), (ii) Frequency of return trips per year, (iii) Remittance amount and channel (formal/informal). (b) Qualitative method: Life-history interviews with 20-30 migrant households tracing migration trajectories over 5-10 years, capturing decision-making, risk perception, and aspirations. (c) Avoid double-counting: Use \"usual place of residence\" (UPR) defined as where person spends ≥6 months/year, verified via Aadhaar-linked mobile location data or ration card usage patterns, supplemented by household roster method (list all members, mark those away >1 month). A poor answer replicates Census questions or suggests one-time surveys, missing the temporal dimension of circular migration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

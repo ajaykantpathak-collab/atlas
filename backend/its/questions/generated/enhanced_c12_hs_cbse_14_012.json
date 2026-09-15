@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_14_012",
+   "title": "c12_hs_cbse_14_012",
+   "questions": [
+    {
+     "q": "A student stores a silk saree folded in a polyethylene bag with naphthalene balls after wearing it once without washing. After 3 months, yellow stains appear along the folds and the fabric feels brittle. Identify the THREE distinct storage principle violations in this scenario.",
+     "a": "Correct answer: (1) Storing soiled garment — body oils/perfume oxidise and attract pests (violates \"clean before storage\" from c12_hs_cbse_14_011). (2) Polyethylene bag traps moisture and off-gasses plasticisers that degrade silk (violates \"breathable container\" principle). (3) Direct contact of naphthalene balls with silk causes chemical staining and fibre embrittlement (violates \"no direct contact with repellents\"). Wrong answers typically miss the soiling aspect (focus only on container/repellent) revealing confusion between \"clean\" and \"visibly clean\" — students think \"worn once = clean enough\" ignoring invisible protein residues.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why wool garments require more rigorous pre-storage cleaning than cotton garments, referencing the chemical nature of wool fibres and pest feeding preferences.",
+     "a": "Correct answer: Wool is protein (keratin) — clothes moth larvae (Tineola bisselliella) and carpet beetle larvae (Anthrenus) possess keratinase enzymes to digest it; cotton is cellulose which these pests cannot digest. Soiled wool retains sweat (protein), food stains (protein), skin cells (keratin) — creating a \"nutrient-enhanced\" target. Cotton pests (silverfish) prefer starch/sizing but damage is slower. Wrong answers state \"wool is delicate\" or \"wool shrinks\" — confusing laundering care with storage vulnerability. This reveals students memorise \"wool needs care\" without linking protein chemistry to pest biology (cross-link to c11_bio_cbse_09_002 proteins).",
+     "self_check": true
+    },
+    {
+     "q": "A family stores winter woolens in a steel trunk with paradichlorobenzene (PDB) crystals sprinkled directly on garments. The trunk is kept in an unventilated attic where summer temperatures reach 40°C. Predict the condition of the woolens after 6 months and justify each prediction with a mechanism.",
+     "a": "Correct predictions: (1) PDB sublimation rate doubles every 10°C rise — at 40°C crystals vanish in weeks, leaving zero residual protection (mechanism: vapour pressure exponential with temperature). (2) Direct contact causes PDB dissolution in wool's lanolin/wax → localised high concentration → fibre swelling and dye bleeding (mechanism: PDB solubility in lipids). (3) Attic heat + no ventilation → condensation cycles → mildew (Aspergillus) on any residual moisture (mechanism: dew point cycling). (4) Steel trunk conducts heat → interior exceeds 45°C → wool keratin denaturation (mechanism: thermal degradation >40°C). Wrong answers focus only on \"PDB evaporates\" missing the direct-contact chemical damage and thermal degradation — reveals students treat repellents as \"magic powder\" without understanding dose-temperature-fibre interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the storage requirements for: (a) cotton khaddar kurta, (b) mulberry silk saree, (c) merino wool sweater, (d) polyester-cotton blend shirt. Create a 4×4 matrix with parameters: pre-storage cleaning method, ideal container material, folding vs hanging, and pest control agent (with safety precaution).",
+     "a": "Correct matrix:\n| Parameter | Cotton khaddar | Mulberry silk | Merino wool | Poly-cotton blend |\n|---|---|---|---|---|\n| Cleaning | Machine wash, hot water, thorough rinse | Dry clean only (or pH-neutral hand wash) | Dry clean or cool wool wash, no agitation | Machine wash warm, tumble dry low |\n| Container | Cotton muslin bag / cardboard box | Acid-free tissue + cotton wrap / breathable box | Cedar-lined box / cotton garment bag | Plastic tote with ventilation holes (OK) |\n| Folding/Hanging | Fold with tissue at folds | Roll on acid-free tube (no creases) | Fold with tissue; never hang (stretches) | Hang or fold (resilient) |\n| Pest control | Neem leaves / lavender sachets (no contact) | Paradichlorobenzene in sachet (no contact) | Naphthalene in sachet / cedar blocks (no contact) | Low risk; cedar / lavender sufficient |\nWrong answers use plastic for silk/wool, hang wool, skip dry-clean for silk, or apply repellents directly — reveals compartmentalised learning (treats each fibre in isolation) instead of integrated decision-making. CBSE asks \"justify your choice\" — this matrix builds that skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a CBSE 5-mark answer: \"Natural pest repellents like neem leaves, lavender, and cedar are safer and equally effective as chemical repellents (naphthalene, PDB) for long-term fabric storage.\" Support your evaluation with three specific limitations of natural repellents and two scenarios where chemicals are unavoidable.",
+     "a": "Correct evaluation: Statement is FALSE. Limitations of naturals: (1) Volatility — neem/lavender lose efficacy in 4-6 weeks vs 6-12 months for PDB (vapour pressure difference). (2) Non-uniform diffusion — sachets create concentration gradients; pests survive in low-vapour zones. (3) No ovicidal action — naturals repel adults but don't kill eggs/larvae already in fibres. Chemicals unavoidable when: (a) Active infestation detected (need lethal concentration), (b) High-value items stored >1 year in pest-prone areas (attics, basements). CBSE expects \"safer\" = lower human toxicity (true) but \"equally effective\" = false equivalence. Wrong answers say \"natural is better because chemical-free\" — reveals greenwashing bias without efficacy data. Must cite vapour pressure, diffusion kinetics, life-cycle coverage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Storage Audit Checklist\" for a school costume department that stores 200+ garments (mixed fibres) year-round. The checklist must have 10 inspection points covering: pre-storage, container, environment, pest monitoring, and retrieval. Each point must be observable/measurable (not subjective).",
+     "a": "Expected checklist (sample points):\n1. Pre-storage: \"Every garment has cleaning tag (date/method) attached\" — verifiable.\n2. Container: \"Zero polyethylene bags; all containers labelled with fibre type\" — observable.\n3. Environment: \"Hygrometer reads 45-55% RH; thermometer 15-25°C; logged weekly\" — measurable.\n4. Pest monitoring: \"Pheromone traps (moth/beetle) placed at 3 locations; checked monthly; log maintained\" — measurable.\n5. Repellent protocol: \"Repellents in breathable sachets only; zero direct fabric contact; replacement date marked\" — observable.\n6. Folding: \"Wool/silk folded with acid-free tissue at creases; no garment hangs on wire hangers\" — observable.\n7. Light: \"Storage room window blacked out; LED only (no UV); lux meter <50 lux\" — measurable.\n8. Airflow: \"Gap under door + vent open; no mould on walls\" — observable.\n9. Retrieval: \"Inspection form: holes? stains? odour? pest evidence? — signed by two students\" — measurable.\n10. Rotation: \"Garments rotated (refolded at new creases) every 6 months; date logged\" — measurable.\nPoor answers: \"Check for cleanliness\" (subjective), \"Use good containers\" (vague), \"Keep pests away\" (unmeasurable). Reveals inability to operationalise principles — CBSE practical exams demand observable criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

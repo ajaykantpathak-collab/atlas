@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_001",
+   "title": "c11_stat_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define correlation in one sentence. What is the single most important thing correlation tells us about two variables?",
+     "a": "Correlation is a statistical measure that describes the extent to which two variables change together in a linear fashion. The most important thing it tells us is the *direction* (together or opposite) and *strength* (how closely) of their linear association — not whether one causes the other. A wrong answer like \"correlation means one variable causes the other\" reveals the causation fallacy. A vague answer like \"it shows relationship\" misses the specificity of *linear* association and the absence of causal implication.",
+     "self_check": true
+    },
+    {
+     "q": "A study finds that cities with more ice cream sales have higher rates of drowning. The newspaper headlines: \"Ice Cream Causes Drowning!\" Explain why this conclusion is flawed using the concept of correlation. What third variable might explain both?",
+     "a": "The study only shows a *correlation* (positive association) between ice cream sales and drowning — not causation. The flaw is assuming that because two variables move together, one causes the other. A third variable, **temperature (summer heat)**, explains both: hot weather increases ice cream sales *and* more people swim, leading to more drownings. A wrong answer that accepts the headline or suggests \"ice cream makes people drowsy\" reveals the causation fallacy and inability to identify confounding variables.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher collects data on \"hours of weekly exercise\" and \"resting heart rate (bpm)\" for 50 adults. She finds that as exercise hours increase, resting heart rate tends to decrease. Identify the direction of correlation. If she plots this on a scatter diagram, what pattern would the points roughly follow?",
+     "a": "This is a **negative correlation** — as one variable (exercise) increases, the other (heart rate) decreases. On a scatter diagram with exercise on the X-axis and heart rate on the Y-axis, the points would roughly follow a **downward-sloping pattern** from left to right. A wrong answer saying \"positive correlation\" or \"points slope upward\" reveals confusion between the direction of variable change and the correlation sign. Saying \"no pattern\" ignores the systematic tendency described.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two statements:  \n(A) \"Correlation coefficient r = 0.9 means variable X causes Y to change.\"  \n(B) \"Correlation coefficient r = 0.9 means X and Y have a strong linear tendency to move together.\"  \nWhich statement is correct? Why is the other statement a dangerous misinterpretation in policy-making?",
+     "a": "Statement (B) is correct. r = 0.9 indicates a strong positive *linear association* — when X is high, Y tends to be high; when X is low, Y tends to be low. Statement (A) is dangerously wrong because it confuses association with causation. In policy, acting on (A) could waste resources (e.g., forcing people to carry umbrellas to prevent rain, since umbrella use correlates with rain). A student choosing (A) or saying \"both are basically the same\" shows the causal fallacy and inability to distinguish statistical evidence from causal claims.",
+     "self_check": true
+    },
+    {
+     "q": "A government report states: \"Districts with more hospitals have higher disease rates. Therefore, building hospitals causes disease.\" Evaluate this reasoning. What type of correlation is likely present? What is the probable real-world explanation?",
+     "a": "The reasoning is **invalid** — it commits the causation fallacy. The correlation is **positive** (more hospitals, more disease). The real explanation: districts with larger/sicker populations *need* more hospitals, so hospitals are built *where disease is already high*. This is **reverse causality** (disease → hospitals) plus a **confounding variable** (population size/health needs). A student who agrees with the report or suggests \"hospitals spread germs\" fails to recognize reverse causality and confounding — critical errors in interpreting observational data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational study to check if there is a correlation between \"daily screen time (hours)\" and \"hours of sleep\" among Class 11 students. Specify: (a) the two variables, (b) how you would collect data, (c) what pattern in the data would suggest negative correlation, and (d) one reason why even a strong correlation would NOT prove screen time *reduces* sleep.",
+     "a": "(a) Variables: X = daily screen time (hours), Y = hours of sleep per night.  \n(b) Collect data via anonymous survey of 50+ Class 11 students, asking for average daily screen time (phone/TV/computer) and average sleep duration over the past week.  \n(c) Negative correlation: as screen time increases, sleep hours tend to decrease — scatter plot points slope downward.  \n(d) **Confounding variable**: stress or academic workload may cause *both* high screen time (procrastination, relaxation) and low sleep (studying late). Correlation cannot isolate screen time as the cause. A poor answer omits (d) or gives a causal claim like \"blue light reduces melatonin\" — that's a mechanism, not a reason correlation ≠ causation. Missing (b) or (c) shows inability to operationalize variables or visualize correlation direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

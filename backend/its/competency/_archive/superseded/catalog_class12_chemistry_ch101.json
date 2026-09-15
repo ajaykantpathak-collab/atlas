@@ -1,0 +1,601 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 101,
+ "chapter_title": "Solutions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\Applied-Maths_MS_EN.txt",
+ "concepts": [
+  {
+   "id": "jech.1.1",
+   "title": "Types of Solutions",
+   "section": "1.1",
+   "definition": "A solution is a homogeneous mixture of two or more substances; based on the physical state of the solute and solvent, solutions are classified as solid, liquid, or gaseous.",
+   "formula": "solution = solute + solvent (homogeneous mixture)",
+   "key_idea": "Solutions are homogeneous mixtures classified by the physical states of solute and solvent, giving nine possible types.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify the given solution as solid liquid or gaseous",
+    "identify the solute and solvent in a given solution",
+    "give an example of a solid in solid solution",
+    "list the types of solutions based on physical state",
+    "what are the different types of solutions with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the physical state of the solute",
+     "explain": "Determine whether the dissolved substance is solid, liquid, or gas."
+    },
+    {
+     "step": 2,
+     "action": "Identify the physical state of the solvent",
+     "explain": "Determine whether the medium in which solute is dispersed is solid, liquid, or gas."
+    },
+    {
+     "step": 3,
+     "action": "Classify the solution type",
+     "explain": "Combine solute and solvent states to classify the solution into one of the nine types such as solid in solid, gas in liquid, etc."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the solution of copper dissolved in gold (alloy).",
+     "solution": "Copper (solute) is solid, gold (solvent) is solid, so it is a solid in solid solution.",
+     "answer": "Solid in solid solution"
+    },
+    {
+     "question": "Identify solute and solvent in carbonated water.",
+     "solution": "CO2 is the solute (gas) and water is the solvent (liquid), giving a gas in liquid solution.",
+     "answer": "Solute = CO2 (gas), Solvent = water (liquid)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example each of a solid in liquid and a liquid in gas solution.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Identify the solute and solvent in a mixture of oxygen and nitrogen in air.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.2",
+   "title": "Expressing Concentration of Solutions",
+   "section": "1.2",
+   "definition": "The concentration of a solution is the amount of solute present in a given quantity of solvent or solution, expressed as molarity, molality, mole fraction, or mass percentage.",
+   "formula": "molarity = moles_solute / volume_solution_L; molality = moles_solute / mass_solvent_kg",
+   "key_idea": "Concentration can be expressed in multiple ways; molarity depends on volume while molality depends on solvent mass and is temperature independent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate molarity of a solution given moles and volume",
+    "calculate molality of a solution given moles and solvent mass",
+    "find mole fraction of components in a solution",
+    "calculate mass percentage of solute in solution",
+    "convert between molarity and molality of a solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute moles of solute",
+     "explain": "Divide the given mass of solute by its molar mass to obtain moles.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Apply the concentration formula",
+     "explain": "Use molarity = moles / volume(L), molality = moles / solvent mass(kg), or mole fraction = moles_component / total_moles as required.",
+     "compute": "molarity = moles_solute / volume_solution_l"
+    },
+    {
+     "step": 3,
+     "action": "Verify units and reasonableness",
+     "explain": "Check that molarity is in mol/L, molality in mol/kg, mole fraction is dimensionless and sums to 1.",
+     "compute": "check = (x_a + x_b) == 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the molarity of a solution containing 4 g of NaOH (molar mass 40) dissolved in 500 mL of solution.",
+     "solution": "moles = 4/40 = 0.1 mol; volume = 0.5 L; molarity = 0.1/0.5 = 0.2 M",
+     "answer": "0.2 M"
+    },
+    {
+     "question": "Calculate the molality of a solution made by dissolving 3 mol of solute in 1.5 kg of solvent.",
+     "solution": "molality = moles_solute / mass_solvent_kg = 3/1.5 = 2 mol/kg",
+     "answer": "2 mol/kg"
+    },
+    {
+     "question": "Find the mole fraction of solute when 2 mol of solute is mixed with 8 mol of solvent.",
+     "solution": "x_solute = 2/(2+8) = 2/10 = 0.2",
+     "answer": "0.2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the mass percentage of solute when 10 g of sugar is dissolved in 90 g of water.",
+     "type": "compute"
+    },
+    {
+     "question": "A solution contains 0.5 mol of solute in 250 mL. Find its molarity.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.3",
+   "title": "Solubility of Gases in Liquids and Henry Law",
+   "section": "1.3",
+   "definition": "Henry's law states that the mole fraction of a gas dissolved in a liquid is directly proportional to the partial pressure of the gas above the liquid at constant temperature.",
+   "formula": "p = K_H * x",
+   "key_idea": "The solubility of a gas in a liquid increases with pressure and decreases with temperature, quantified by Henry's law constant K_H.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate mole fraction of gas using henry law",
+    "find the partial pressure of gas given henry constant and mole fraction",
+    "determine henry law constant from solubility data",
+    "calculate solubility of gas in liquid at given pressure",
+    "how does temperature affect solubility of gases in liquids"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Henry law variables",
+     "explain": "Note the partial pressure p of the gas and Henry constant K_H.",
+     "compute": "identify p and k_h"
+    },
+    {
+     "step": 2,
+     "action": "Apply Henry law formula",
+     "explain": "Mole fraction x = p / K_H, or partial pressure p = K_H * x depending on what is unknown.",
+     "compute": "x = p / k_h"
+    },
+    {
+     "step": 3,
+     "action": "Verify the solubility trend",
+     "explain": "Higher K_H means lower solubility; solubility increases with pressure and decreases with temperature.",
+     "compute": "solubility_high = k_h is small"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the mole fraction of a gas in water if its partial pressure is 0.5 atm and Henry constant K_H is 5 atm.",
+     "solution": "x = p / K_H = 0.5 / 5 = 0.1",
+     "answer": "0.1"
+    },
+    {
+     "question": "Calculate the partial pressure of a gas whose mole fraction in solution is 0.02 and K_H is 50 kbar.",
+     "solution": "p = K_H * x = 50 * 0.02 = 1.0 kbar",
+     "answer": "1.0 kbar"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The Henry constant for CO2 in water is 1.67 kbar. Find the mole fraction of CO2 at 2.5 atm partial pressure.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why aquatic life is more comfortable in cold water than warm water using Henry law.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.4",
+   "title": "Solubility of Solids in Liquids",
+   "section": "1.4",
+   "definition": "Solubility of a solid in a liquid is the maximum amount of the solid that dissolves in a given amount of the liquid at a given temperature to form a saturated solution.",
+   "formula": "solubility = mass_solute / mass_solvent at saturation",
+   "key_idea": "Solid solubility in liquids generally increases with temperature and depends on the nature of solute and solvent (like dissolves like).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the effect of temperature on solubility of solids in liquids",
+    "distinguish between saturated and unsaturated solutions",
+    "how does nature of solute and solvent affect solubility",
+    "why does solubility of solids generally increase with temperature",
+    "what is the effect of pressure on solubility of solids in liquids"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the solute and solvent nature",
+     "explain": "Determine whether the solute and solvent are polar or nonpolar to apply the like dissolves like rule."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the effect of temperature",
+     "explain": "For most solids, solubility increases with temperature because dissolution is often endothermic; for some it decreases."
+    },
+    {
+     "step": 3,
+     "action": "Note the effect of pressure",
+     "explain": "Pressure has negligible effect on solubility of solids in liquids since solids and liquids are nearly incompressible."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does sugar dissolve more in hot water than cold water?",
+     "solution": "Dissolution of sugar is endothermic, so by Le Chatelier principle solubility increases with temperature.",
+     "answer": "Solubility increases with temperature"
+    },
+    {
+     "question": "Why is pressure negligible for solubility of solids in liquids?",
+     "solution": "Solids and liquids are nearly incompressible, so pressure has little effect on their solubility.",
+     "answer": "Pressure has negligible effect"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a saturated and supersaturated solution with an example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the principle of like dissolves like with one example.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.5",
+   "title": "Relative Lowering of Vapor Pressure and Raoult Law",
+   "section": "1.5",
+   "definition": "Raoult's law states that the partial vapor pressure of each volatile component in a solution is equal to the mole fraction of that component times its vapor pressure in the pure state; relative lowering of vapor pressure equals the mole fraction of the solute.",
+   "formula": "(p0 - p) / p0 = x_solute; p = x_solvent * p0",
+   "key_idea": "The relative lowering of vapor pressure of a solution containing a nonvolatile solute equals the mole fraction of the solute and depends only on solute mole fraction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate relative lowering of vapor pressure",
+    "find the vapor pressure of solution using raoult law",
+    "determine mole fraction of solute from vapor pressure lowering",
+    "calculate molar mass of solute from relative lowering of vapor pressure",
+    "verify raoult law for an ideal solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute mole fraction of solute",
+     "explain": "Find moles of solute and solvent, then x_solute = moles_solute / (moles_solute + moles_solvent).",
+     "compute": "x_solute = moles_solute / (moles_solute + moles_solvent)"
+    },
+    {
+     "step": 2,
+     "action": "Apply relative lowering formula",
+     "explain": "Relative lowering (p0 - p)/p0 equals mole fraction of nonvolatile solute.",
+     "compute": "relative_lowering = x_solute"
+    },
+    {
+     "step": 3,
+     "action": "Solve for unknown vapor pressure",
+     "explain": "Rearrange p = p0 * (1 - x_solute) to find the solution vapor pressure.",
+     "compute": "p = p0 * (1 - x_solute)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The vapor pressure of pure water is 1.013 bar. Find the vapor pressure of a solution with solute mole fraction 0.1.",
+     "solution": "p = p0 * (1 - x_solute) = 1.013 * (1 - 0.1) = 1.013 * 0.9 = 0.9117 bar",
+     "answer": "0.9117 bar"
+    },
+    {
+     "question": "Calculate the relative lowering of vapor pressure when 0.2 mol of solute is dissolved in 1.8 mol of solvent.",
+     "solution": "x_solute = 0.2/(0.2+1.8) = 0.1; relative lowering = 0.1",
+     "answer": "0.1"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solution is prepared by dissolving 18 g of glucose (molar mass 180) in 180 g of water. Find the relative lowering of vapor pressure.",
+     "type": "compute"
+    },
+    {
+     "question": "State Raoult's law for a solution of nonvolatile solute in a volatile solvent.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.6",
+   "title": "Elevation of Boiling Point",
+   "section": "1.6",
+   "definition": "The boiling point of a solution is higher than that of the pure solvent because adding a nonvolatile solute lowers the vapor pressure; the elevation is proportional to molality.",
+   "formula": "delta_T_b = K_b * m",
+   "key_idea": "Elevation of boiling point is a colligative property directly proportional to the molality of the solute with proportionality constant K_b.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate elevation in boiling point of a solution",
+    "find the boiling point of solution given kb and molality",
+    "determine molar mass of solute from boiling point elevation",
+    "calculate molality from boiling point elevation data",
+    "verify that boiling point elevation is a colligative property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate molality of solution",
+     "explain": "molality m = moles of solute / mass of solvent in kg.",
+     "compute": "m = moles_solute / mass_solvent_kg"
+    },
+    {
+     "step": 2,
+     "action": "Apply elevation formula",
+     "explain": "Boiling point elevation delta_T_b = K_b * m where K_b is the ebullioscopic constant.",
+     "compute": "delta_tb = k_b * m"
+    },
+    {
+     "step": 3,
+     "action": "Compute boiling point of solution",
+     "explain": "Boiling point of solution = boiling point of pure solvent + elevation.",
+     "compute": "t_b_solution = t_b_pure + delta_tb"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the boiling point elevation for a 0.5 molal solution if K_b of water is 0.512 K kg/mol.",
+     "solution": "delta_T_b = K_b * m = 0.512 * 0.5 = 0.256 K",
+     "answer": "0.256 K"
+    },
+    {
+     "question": "The boiling point of pure water is 373.15 K. Find the boiling point of a 1 molal solution with K_b = 0.512 K kg/mol.",
+     "solution": "delta_T_b = 0.512 * 1 = 0.512 K; T_b = 373.15 + 0.512 = 373.662 K",
+     "answer": "373.662 K"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solution contains 0.1 mol of solute in 0.5 kg of water. Calculate the boiling point elevation if K_b = 0.512 K kg/mol.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why boiling point elevation is called a colligative property.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.7",
+   "title": "Depression of Freezing Point",
+   "section": "1.7",
+   "definition": "The freezing point of a solution is lower than that of the pure solvent because the nonvolatile solute lowers the vapor pressure; the depression is proportional to molality.",
+   "formula": "delta_T_f = K_f * m",
+   "key_idea": "Depression of freezing point is a colligative property proportional to molality with proportionality constant K_f (cryoscopic constant).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate depression in freezing point of a solution",
+    "find the freezing point of solution given kf and molality",
+    "determine molar mass of solute from freezing point depression",
+    "calculate molality from freezing point depression data",
+    "verify that freezing point depression is a colligative property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate molality of solution",
+     "explain": "molality m = moles of solute / mass of solvent in kg.",
+     "compute": "m = moles_solute / mass_solvent_kg"
+    },
+    {
+     "step": 2,
+     "action": "Apply depression formula",
+     "explain": "Freezing point depression delta_T_f = K_f * m where K_f is the cryoscopic constant.",
+     "compute": "delta_tf = k_f * m"
+    },
+    {
+     "step": 3,
+     "action": "Compute freezing point of solution",
+     "explain": "Freezing point of solution = freezing point of pure solvent - depression.",
+     "compute": "t_f_solution = t_f_pure - delta_tf"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the freezing point depression for a 0.25 molal solution if K_f of water is 1.86 K kg/mol.",
+     "solution": "delta_T_f = K_f * m = 1.86 * 0.25 = 0.465 K",
+     "answer": "0.465 K"
+    },
+    {
+     "question": "The freezing point of pure water is 273.15 K. Find the freezing point of a 0.5 molal solution with K_f = 1.86 K kg/mol.",
+     "solution": "delta_T_f = 1.86 * 0.5 = 0.93 K; T_f = 273.15 - 0.93 = 272.22 K",
+     "answer": "272.22 K"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solution contains 0.2 mol of solute in 1 kg of water. Calculate the freezing point depression if K_f = 1.86 K kg/mol.",
+     "type": "compute"
+    },
+    {
+     "question": "Why is common salt used to clear snow from roads in cold countries? Explain using freezing point depression.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.8",
+   "title": "Osmosis and Osmotic Pressure",
+   "section": "1.8",
+   "definition": "Osmosis is the spontaneous flow of solvent molecules through a semipermeable membrane from a dilute solution to a concentrated solution; osmotic pressure is the minimum external pressure needed to stop osmosis.",
+   "formula": "pi = C * R * T",
+   "key_idea": "Osmotic pressure of a solution is proportional to the molar concentration of solute and the absolute temperature, following the form pi = CRT.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate osmotic pressure of a solution",
+    "find molar concentration from osmotic pressure data",
+    "determine molar mass of solute from osmotic pressure",
+    "explain the process of osmosis and semipermeable membrane",
+    "verify that osmotic pressure is a colligative property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate molar concentration of solution",
+     "explain": "Concentration C = moles of solute / volume of solution in litres.",
+     "compute": "c = moles_solute / volume_solution_l"
+    },
+    {
+     "step": 2,
+     "action": "Apply osmotic pressure formula",
+     "explain": "Osmotic pressure pi = C * R * T where R is the gas constant and T is absolute temperature.",
+     "compute": "pi = c * r * t"
+    },
+    {
+     "step": 3,
+     "action": "Verify colligative nature",
+     "explain": "Osmotic pressure depends on number of solute particles and not their identity, confirming it is colligative.",
+     "compute": "is_colligative = pi depends on c"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the osmotic pressure of a 0.1 M solution at 300 K (R = 0.0821 L atm / K mol).",
+     "solution": "pi = C * R * T = 0.1 * 0.0821 * 300 = 2.463 atm",
+     "answer": "2.463 atm"
+    },
+    {
+     "question": "Find the molarity of a solution whose osmotic pressure is 1 atm at 273 K (R = 0.0821 L atm / K mol).",
+     "solution": "C = pi / (R * T) = 1 / (0.0821 * 273) = 1 / 22.4133 = 0.0446 M",
+     "answer": "0.0446 M"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the osmotic pressure of a 0.05 M glucose solution at 298 K (R = 0.0821 L atm / K mol).",
+     "type": "compute"
+    },
+    {
+     "question": "Distinguish between osmosis and diffusion.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.9",
+   "title": "Van't Hoff Factor and Abnormal Molar Mass",
+   "section": "1.9",
+   "definition": "The Van't Hoff factor i is the ratio of the observed colligative property to the normal colligative property, accounting for association or dissociation of solute particles; it leads to abnormal molar masses.",
+   "formula": "i = observed_colligative / calculated_colligative; i = 1 + (n-1)*alpha",
+   "key_idea": "The Van't Hoff factor corrects colligative properties for solutes that dissociate (i > 1) or associate (i < 1), explaining abnormal molar mass measurements.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate van't hoff factor for a dissociating solute",
+    "find the degree of dissociation from van't hoff factor",
+    "calculate abnormal molar mass using van't hoff factor",
+    "determine van't hoff factor for an associating solute",
+    "explain association and dissociation effect on colligative properties"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the nature of solute",
+     "explain": "Identify if the solute dissociates (i > 1) or associates (i < 1) in solution.",
+     "compute": "identify dissociation or association"
+    },
+    {
+     "step": 2,
+     "action": "Calculate Van't Hoff factor",
+     "explain": "For dissociation i = 1 + (n-1)*alpha where n is number of ions and alpha is degree of dissociation; for association i = 1 - (1 - 1/n)*alpha.",
+     "compute": "i = 1 + (n - 1) * alpha"
+    },
+    {
+     "step": 3,
+     "action": "Correct the colligative property",
+     "explain": "Multiply the normal colligative property by i to get the observed value; abnormal molar mass = normal molar mass / i.",
+     "compute": "m_abnormal = m_normal / i"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the Van't Hoff factor for NaCl which dissociates into 2 ions with degree of dissociation 0.9.",
+     "solution": "i = 1 + (n-1)*alpha = 1 + (2-1)*0.9 = 1 + 0.9 = 1.9",
+     "answer": "1.9"
+    },
+    {
+     "question": "A solute associates into a dimer with degree of association 0.8. Find the Van't Hoff factor.",
+     "solution": "For association into dimer n=2, i = 1 - (1 - 1/2)*alpha = 1 - 0.5*0.8 = 1 - 0.4 = 0.6",
+     "answer": "0.6"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the Van't Hoff factor for K2SO4 dissociating into 3 ions with degree of dissociation 0.7.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why acetic acid in benzene shows a lower molar mass than expected.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.10",
+   "title": "Determination of Molar Mass Using Colligative Properties",
+   "section": "1.10",
+   "definition": "The molar mass of a nonvolatile solute can be determined by measuring a colligative property such as osmotic pressure, boiling point elevation, or freezing point depression of its solution.",
+   "formula": "M2 = (K_b * w2 * 1000) / (delta_T_b * w1); M2 = (w2 * R * T) / (pi * V)",
+   "key_idea": "Colligative properties allow determination of the molar mass of an unknown nonvolatile solute from measured solution data.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "determine molar mass of solute from boiling point elevation",
+    "determine molar mass of solute from freezing point depression",
+    "determine molar mass of solute from osmotic pressure",
+    "calculate molar mass using relative lowering of vapor pressure",
+    "compare methods of molar mass determination using colligative properties"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Record measured colligative property and masses",
+     "explain": "Note the mass of solute w2, mass of solvent w1, and the measured colligative property (delta_T_b, delta_T_f, or pi).",
+     "compute": "record w2, w1, delta_tb"
+    },
+    {
+     "step": 2,
+     "action": "Apply the molar mass formula",
+     "explain": "For boiling point elevation M2 = (K_b * w2 * 1000)/(delta_T_b * w1); for osmotic pressure M2 = (w2 * R * T)/(pi * V).",
+     "compute": "m2 = (k_b * w2 * 1000) / (delta_tb * w1)"
+    },
+    {
+     "step": 3,
+     "action": "Compute and verify molar mass",
+     "explain": "Calculate the molar mass and verify it is positive and consistent with the known substance.",
+     "compute": "molar_mass = m2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A solution contains 2 g of solute in 100 g of water. The boiling point elevation is 0.052 K and K_b = 0.512 K kg/mol. Find the molar mass of the solute.",
+     "solution": "M2 = (K_b * w2 * 1000)/(delta_T_b * w1) = (0.512 * 2 * 1000)/(0.052 * 100) = 1024/5.2 = 196.9 g/mol",
+     "answer": "196.9 g/mol"
+    },
+    {
+     "question": "A solution of 1 g of solute in 0.1 L has osmotic pressure 2.46 atm at 300 K (R = 0.0821). Find the molar mass.",
+     "solution": "M2 = (w2 * R * T)/(pi * V) = (1 * 0.0821 * 300)/(2.46 * 0.1) = 24.63/0.246 = 100.1 g/mol",
+     "answer": "100.1 g/mol"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solution of 5 g of solute in 200 g of water freezes at -0.93 K. Calculate the molar mass (K_f = 1.86 K kg/mol).",
+     "type": "compute"
+    },
+    {
+     "question": "Which colligative property is most suitable for determining the molar mass of a macromolecule and why?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

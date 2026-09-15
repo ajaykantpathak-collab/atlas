@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_04_006",
+   "title": "c11_math_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the three essential steps of a mathematical induction proof for an inequality P(n) valid for all n ≥ n₀. Be precise about what is assumed in the inductive hypothesis.",
+     "a": "The three steps are: (1) Base Case: Verify P(n₀) is true for the smallest integer n₀. (2) Inductive Hypothesis: Assume P(k) is true for an arbitrary but fixed integer k ≥ n₀, i.e., assume the inequality holds for n = k. (3) Inductive Step: Prove P(k+1) is true using the assumption P(k) and valid algebraic/inequality manipulations. A wrong answer reveals the student confuses the inductive hypothesis with the conclusion, or thinks we assume P(k) for all k rather than a specific arbitrary k.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why proving 2ⁿ > n² for all n ∈ ℕ requires starting the base case at n = 5 rather than n = 1. What happens if you try n = 1, 2, 3, 4?",
+     "a": "For n=1: 2¹=2 > 1²=1 (true). For n=2: 2²=4 = 2²=4 (false, not strict >). For n=3: 2³=8 < 9=3² (false). For n=4: 2⁴=16 = 4²=16 (false). The inequality only holds from n=5 onward. A wrong answer reveals the student doesn't test base cases systematically or believes induction can \"fix\" a false base case. They may also not understand that the inductive step proof (2k² ≥ (k+1)²) requires k ≥ 3, so base case must be ≥ 5 to satisfy both conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Prove by induction that n! > 2ⁿ for all integers n ≥ 4. Show all steps clearly including the base case, inductive hypothesis, and the algebraic manipulation in the inductive step.",
+     "a": "**Base case (n=4):** 4! = 24, 2⁴ = 16. 24 > 16 ✓\n**Inductive hypothesis:** Assume k! > 2ᵏ for some k ≥ 4.\n**Inductive step:** Prove (k+1)! > 2ᵏ⁺¹.\n(k+1)! = (k+1)·k! > (k+1)·2ᵏ (by inductive hypothesis, since k+1 > 0)\nSince k ≥ 4, k+1 ≥ 5 > 2, so (k+1)·2ᵏ > 2·2ᵏ = 2ᵏ⁺¹.\nThus (k+1)! > 2ᵏ⁺¹. By induction, true for all n ≥ 4.\nA wrong answer typically shows: forgetting to verify base case, not using k ≥ 4 to justify k+1 > 2, multiplying inequality by negative number, or circular reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inductive step for proving ∑ᵢ₌₁ⁿ 1/i² < 2 versus proving ∑ᵢ₌₁ⁿ 1/i² < 2 - 1/n. Why does the second (stronger) inequality make the induction work while the first fails? Show the critical algebraic difference.",
+     "a": "For ∑ 1/i² < 2: Inductive step needs ∑₁ᵏ 1/i² + 1/(k+1)² < 2. But we only know ∑₁ᵏ 1/i² < 2, so adding 1/(k+1)² gives < 2 + 1/(k+1)², which is NOT < 2. Induction fails.\nFor ∑ 1/i² < 2 - 1/n: Assume ∑₁ᵏ 1/i² < 2 - 1/k. Then ∑₁ᵏ⁺¹ 1/i² < 2 - 1/k + 1/(k+1)². Need 2 - 1/k + 1/(k+1)² ≤ 2 - 1/(k+1), i.e., 1/(k+1)² ≤ 1/k - 1/(k+1) = 1/[k(k+1)]. This is true since (k+1)² > k(k+1). The stronger hypothesis provides \"slack\" to absorb the new term. A wrong answer reveals the student doesn't understand the concept of \"strengthening the induction hypothesis\" to create necessary slack.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prove (1+x)ⁿ ≥ 1+nx for x > -1 by induction. Their inductive step: (1+x)ᵏ⁺¹ = (1+x)ᵏ(1+x) ≥ (1+kx)(1+x) = 1 + (k+1)x + kx² ≥ 1 + (k+1)x. Is this proof valid? Identify any hidden assumptions or errors.",
+     "a": "The proof is valid for x > -1. The step (1+x)ᵏ ≥ 1+kx uses the inductive hypothesis. Multiplying by (1+x) preserves the inequality direction because x > -1 ⇒ 1+x > 0. The term kx² ≥ 0 is always true. The only subtle point: the base case n=1 gives (1+x)¹ = 1+x = 1+1·x, which holds. A wrong answer might claim it's invalid because \"x could be negative\" (missing that 1+x > 0 is sufficient) or might not check the base case. Some students incorrectly think kx² ≥ 0 requires x ≥ 0, not realizing squares are always non-negative.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an inequality of the form aⁿ > p(n) where a > 1 is a constant and p(n) is a polynomial, such that the induction proof requires a base case of n ≥ 10. Provide the inequality and explain why n=10 is the minimal base case.",
+     "a": "Example: 1.5ⁿ > n³ for n ≥ 10.\nCheck: 1.5⁹ ≈ 38.4, 9³ = 729 (false). 1.5¹⁰ ≈ 57.7, 10³ = 1000 (false - wait, need better example).\nBetter: 2ⁿ > n³ for n ≥ 10.\n2⁹ = 512, 9³ = 729 (512 < 729). 2¹⁰ = 1024, 10³ = 1000 (1024 > 1000).\nInductive step: Assume 2ᵏ > k³ for k ≥ 10. Then 2ᵏ⁺¹ = 2·2ᵏ > 2k³. Need 2k³ ≥ (k+1)³ = k³ + 3k² + 3k + 1 ⇔ k³ - 3k² - 3k - 1 ≥ 0. For k=10: 1000 - 300 - 30 - 1 = 669 > 0. Derivative 3k² - 6k - 3 > 0 for k ≥ 10, so holds for all k ≥ 10.\nA poor answer would give an inequality where base case works but inductive step fails, or not verify the algebraic condition for the inductive step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

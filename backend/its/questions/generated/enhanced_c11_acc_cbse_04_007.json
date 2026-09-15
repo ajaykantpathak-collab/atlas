@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_007",
+   "title": "c11_acc_cbse_04_007",
+   "questions": [
+    {
+     "q": "In a double column cash book, the cash column shows a debit total of ₹1,25,000 and credit total of ₹98,000. The bank column shows debit total of ₹85,000 and credit total of ₹1,10,000. What are the correct 'Balance c/d' entries for each column, and on which side does each appear?",
+     "a": "Cash column: Balance c/d ₹27,000 on credit side (since debit > credit, difference on shorter credit side). Bank column: Balance c/d ₹25,000 on debit side (since credit > debit, difference on shorter debit side — this represents overdraft). A wrong answer (e.g., putting cash balance on debit side) reveals the student misunderstands that cash payments cannot exceed receipts, so cash balance is always debit, while bank can show credit balance due to overdraft facility.",
+     "self_check": true
+    },
+    {
+     "q": "A student balances the Purchases Book by writing 'Balance c/d' on the credit side with the monthly total and 'Balance b/d' on the debit side next month. Explain why this is fundamentally incorrect for the Purchases Book but correct for the Cash Book.",
+     "a": "The Purchases Book is a nominal account (expense) — it is NOT balanced; its periodic total is credited to Purchases Account in ledger and the book is closed. Only real/personal accounts (Cash, Bank, Debtors, Creditors) are balanced. Cash Book balances because Cash/Bank are real accounts (assets). Writing 'Balance c/d' in Purchases Book treats it like an asset account, which misstates the accounting equation. This error reveals confusion between balancing real accounts vs. closing nominal accounts.",
+     "self_check": true
+    },
+    {
+     "q": "M/s Sharma Traders' petty cash book shows: Imprest ₹5,000. Payments: Stationery ₹1,200, Conveyance ₹850, Postage ₹420, Refreshments ₹630, Miscellaneous ₹1,100. The petty cashier claims ₹4,200 reimbursement. Verify if this is correct and determine the actual balance with petty cashier.",
+     "a": "Total payments = ₹1,200 + ₹850 + ₹420 + ₹630 + ₹1,100 = ₹4,200. Reimbursement claimed = ₹4,200 (correct). Balance with petty cashier = Imprest - Total spent = ₹5,000 - ₹4,200 = ₹800. If student says balance is ₹4,200 or reimbursement should be ₹5,000, they confuse imprest amount with expenditure. The key: reimbursement equals actual expenditure, not the full imprest; balance is unspent imprest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the balancing procedure for the Sales Book vs. the Sales Returns Book. Both show only credit sales/returns. Why does the Sales Book total get credited to Sales Account, while Sales Returns Book total gets debited to Sales Returns Account? What does this reveal about the nature of each book?",
+     "a": "Sales Book records revenue (credit sales) — increases income → credited to Sales Account. Sales Returns Book records reduction in revenue (returns inward) — decreases income → debited to Sales Returns Account (a contra-revenue account). Both books are totaled (not balanced) because they are nominal accounts. The difference in posting direction reveals that returns are not 'negative sales' but a separate contra account for tracking gross vs. net sales. Wrong answer (e.g., both credited) shows failure to understand contra-revenue concept.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's triple column cash book shows: Discount Allowed column total ₹4,800, Discount Received column total ₹3,200. The accountant posts ₹4,800 to Discount Allowed Account (Dr.) and ₹3,200 to Discount Received Account (Cr.). Evaluate if this posting is correct. If not, state the correct treatment and explain the conceptual error.",
+     "a": "Posting is correct in direction but incomplete. Discount Allowed is an expense (nominal) — total debited to Discount Allowed Account. Discount Received is income (nominal) — total credited to Discount Received Account. However, these discount columns are NOT balanced in the cash book — they are only totaled for posting. The error would be writing 'Balance c/d' for discount columns. Correct treatment: total each column at period-end, post to respective nominal accounts, no balance carried forward. This tests understanding that discount columns are memoranda for posting, not accounts to be balanced.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monthly balancing checklist for a junior accountant handling all six subsidiary books. Include: (a) which books are balanced vs. totaled, (b) verification steps before carrying balance forward, (c) common contra-entry pitfalls in cash book, (d) imprest reimbursement timing for petty cash. Format as a decision tree or flowchart description.",
+     "a": "Expected answer: Decision tree starting with \"Book Type?\" → Cash Book (all types) → Balance both amount columns → Verify cash column debit balance, bank column may be credit (overdraft) → Check contra entries (C in L.F.) are NOT posted → Carry Balance b/d. → Purchases/Sales/Purchase Returns/Sales Returns Books → Total amount column only → Post total to respective ledger account (Purchases Dr., Sales Cr., Purchase Returns Cr., Sales Returns Dr.) → No balance c/d. → Petty Cash Book → Total each analysis column → Sum = total expenditure → Verify reimbursement = total expenditure → Balance = Imprest - Expenditure → Post column totals to expense accounts (Dr.) and Petty Cash Account (Cr. with total). Poor answer misses contra-entry exclusion or treats nominal books as balanced.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_004",
+   "title": "c11_biotech_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the Michaelis-Menten equation and define each variable with its standard unit.",
+     "a": "v₀ = (Vₘₐₓ[S])/(Kₘ + [S]); v₀ = initial velocity (mol L⁻¹ s⁻¹), Vₘₐₓ = maximum velocity (mol L⁻¹ s⁻¹), [S] = substrate concentration (mol L⁻¹), Kₘ = Michaelis constant (mol L⁻¹). A wrong answer (e.g., omitting units, confusing Kₘ with k_cat, or writing Vₘₐₓ = k_cat[E]_total without defining [E]_total) reveals the student has memorized the formula without understanding the physical meaning of each term or the dimensional consistency required in kinetic equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Kₘ is the substrate concentration at which the reaction reaches Vₘₐₓ.\" Explain why this is incorrect and state the correct relationship.",
+     "a": "The statement is incorrect because Vₘₐₓ is approached asymptotically as [S] → ∞; Kₘ is the substrate concentration at which v₀ = Vₘₐₓ/2, not Vₘₐₓ. A wrong answer indicates the student confuses the half-saturation point with full saturation, a common error from misreading the hyperbolic graph. It also suggests they haven't internalized that at [S] = Kₘ, the enzyme is only 50% saturated, not 100%.",
+     "self_check": true
+    },
+    {
+     "q": "An enzyme has Vₘₐₓ = 120 μmol min⁻¹ and Kₘ = 5 mM. Calculate the initial velocity when [S] = 15 mM. Show all steps.",
+     "a": "Step 1: Identify given: Vₘₐₓ = 120 μmol min⁻¹, Kₘ = 5 mM, [S] = 15 mM. Step 2: Use v₀ = (Vₘₐₓ[S])/(Kₘ + [S]). Step 3: Substitute: v₀ = (120 × 15)/(5 + 15) = 1800/20 = 90 μmol min⁻¹. Step 4: Verify: [S] = 3×Kₘ, so v₀ should be 3/4 Vₘₐₓ = 90 μmol min⁻¹. A wrong answer (e.g., 60 μmol min⁻¹) reveals the student either used [S] = Kₘ incorrectly or forgot to add Kₘ in the denominator, showing a procedural gap in applying the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinetic behavior at [S] << Kₘ and [S] >> Kₘ. For each region, state the rate law order with respect to [S], the simplified rate equation, and the physical interpretation of why the enzyme behaves that way.",
+     "a": "At [S] << Kₘ: v₀ ≈ (Vₘₐₓ/Kₘ)[S] — first-order in [S]; enzyme active sites are mostly empty, so rate depends on collision frequency. At [S] >> Kₘ: v₀ ≈ Vₘₐₓ — zero-order in [S]; enzyme is saturated, rate limited by catalytic turnover (k_cat). A wrong answer (e.g., swapping the orders, or saying both are first-order) shows the student cannot link the mathematical limits to the molecular occupancy of the active site, a core conceptual bridge in enzyme kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Two enzymes, A and B, act on the same substrate. Enzyme A has Kₘ = 0.2 mM, Vₘₐₓ = 50 μmol min⁻¹; Enzyme B has Kₘ = 5 mM, Vₘₐₓ = 200 μmol min⁻¹. Which enzyme is more efficient at low substrate concentrations (e.g., 0.1 mM)? Justify quantitatively.",
+     "a": "At [S] = 0.1 mM (<< both Kₘ), v₀ ≈ (Vₘₐₓ/Kₘ)[S]. Catalytic efficiency = Vₘₐₓ/Kₘ. For A: 50/0.2 = 250 mM⁻¹ min⁻¹. For B: 200/5 = 40 mM⁻¹ min⁻¹. Enzyme A is 6.25× more efficient at low [S]. A wrong answer choosing B because of higher Vₘₐₓ reveals the student conflates maximal capacity with low-substrate efficiency, ignoring that Kₘ dominates when [S] is limiting — a critical error in physiological contexts where substrates are often scarce.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment to determine Kₘ and Vₘₐₓ for a novel enzyme. Specify: (a) the range of [S] you would test relative to expected Kₘ, (b) the data to collect, (c) the plot to make, and (d) how to extract Kₘ and Vₘₐₓ from that plot without using linear transformations.",
+     "a": "(a) Test [S] from 0.1×Kₘ_est to 10×Kₘ_est (e.g., if Kₘ_est ≈ 1 mM, use 0.1, 0.2, 0.5, 1, 2, 5, 10 mM). (b) Measure initial velocity v₀ (μmol min⁻¹) for each [S]. (c) Plot v₀ (y-axis) vs [S] (x-axis) — rectangular hyperbola. (d) Vₘₐₓ = plateau value; Kₘ = [S] at v₀ = Vₘₐₓ/2 (read from curve). A poor answer that suggests only high [S] or uses Lineweaver-Burk (not in NCERT scope) shows the student doesn't grasp the need for data spanning both kinetic regimes or the direct graphical method taught in the textbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

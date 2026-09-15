@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Natural Resources and Their Use",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.101.1.1",
+   "title": "Natural Resources",
+   "section": "1",
+   "definition": "Natural resources are the gifts of nature that humans use to live and prosper - air, water, soil, forests, grasslands, fish, minerals and energy sources - taken straight from the environment rather than manufactured by people.",
+   "formula": "-",
+   "key_idea": "Anything useful drawn directly from nature counts as a natural resource.",
+   "textbook_ref": "hees101.txt lines 1-90 (natural resources and their categories)",
+   "question_patterns": [
+    "what are natural resources - define with examples",
+    "name five natural resources used in daily life",
+    "how do natural resources differ from man-made goods",
+    "which natural resources support farming",
+    "list the natural resources found in your region",
+    "why are air and water called natural resources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the source",
+     "explain": "The material must come directly from nature, not from a factory."},
+    {"step": 2, "action": "check the usefulness",
+     "explain": "It must satisfy human needs such as food, energy or materials."},
+    {"step": 3, "action": "classify the resource",
+     "explain": "Place it among air, water, soil, forest, mineral or energy resources."}
+   ]
+  },
+  {
+   "id": "hees.101.1.2",
+   "title": "Renewable and Non-Renewable Resources",
+   "section": "1",
+   "definition": "Resources split by their ability to return: renewable resources like sunlight, wind, water and forests can regenerate within a human timescale if used carefully, while non-renewable resources like coal, petroleum and minerals take millions of years to form, so their stock only shrinks with use.",
+   "formula": "-",
+   "key_idea": "Sunlight returns tomorrow; coal burned today is gone for good.",
+   "textbook_ref": "hees101.txt lines 90-140 (categories of natural resources)",
+   "question_patterns": [
+    "differentiate renewable and non-renewable resources with examples",
+    "why is coal called a non-renewable resource",
+    "is groundwater always renewable - explain",
+    "classify sunlight, petroleum, wind and iron ore as renewable or not",
+    "what happens if renewable resources are used faster than they regrow",
+    "which category of resources should be conserved most strictly and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "ask about regeneration",
+     "explain": "Check whether the resource refills itself in a useful span of time."},
+    {"step": 2, "action": "place the resource",
+     "explain": "Flowing and growing resources are renewable; fossil stocks and minerals are not."},
+    {"step": 3, "action": "draw the use rule",
+     "explain": "Renewables need careful use, non-renewables need saving and substitution."}
+   ]
+  },
+  {
+   "id": "hees.101.1.3",
+   "title": "Distribution of Natural Resources",
+   "section": "1",
+   "definition": "Nature has not shared its riches evenly: oil pools under West Asia, minerals lie in particular belts and rivers drain specific highlands, so different regions of India and the world hold different resources, shaping trade, settlements and even disputes like the sharing of Kaveri waters.",
+   "formula": "-",
+   "key_idea": "Where a resource sits decides where industry grows and how regions trade.",
+   "textbook_ref": "hees101.txt lines 295-460 (distribution of natural resources, Kaveri dispute)",
+   "question_patterns": [
+    "why are natural resources unevenly distributed across the world",
+    "how does the distribution of resources affect trade between regions",
+    "name a resource rich region of India and its resources",
+    "how can river water become a source of dispute between states",
+    "why do industries grow near mineral belts",
+    "explain how uneven distribution shapes human settlements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "map the resource",
+     "explain": "Note where geology and climate place each resource."},
+    {"step": 2, "action": "link to human activity",
+     "explain": "Settlements, farms and industries cluster where resources allow."},
+    {"step": 3, "action": "trace the consequences",
+     "explain": "Trade networks and sharing disputes follow from unequal distribution."}
+   ]
+  },
+  {
+   "id": "hees.101.1.4",
+   "title": "Responsible and Wise Use of Resources",
+   "section": "1",
+   "definition": "Because resources are finite or slow to renew, wise use means the three R's - reduce what we consume, reuse what we can, recycle materials - along with conserving water and soil and shifting to renewable energy so future generations inherit working resources.",
+   "formula": "-",
+   "key_idea": "Reduce, reuse, recycle - sustainable habits keep resources alive for tomorrow.",
+   "textbook_ref": "hees101.txt lines 466-540 (responsible and wise use)",
+   "question_patterns": [
+    "what is meant by sustainable use of natural resources",
+    "explain the three R's with one example each",
+    "how can a household conserve water and electricity",
+    "why must resources be saved for future generations",
+    "how does recycling paper help forests",
+    "suggest a resource conservation plan for your school"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "cut the demand",
+     "explain": "Using less and reusing items lowers the pressure on nature."},
+    {"step": 2, "action": "close the loop",
+     "explain": "Recycling turns waste into raw material again."},
+    {"step": 3, "action": "switch the source",
+     "explain": "Renewable energy and careful water use stretch the resource base."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hees101.txt sections on categories and distribution",
+   "questions": [
+     "Classify the following as renewable or non-renewable: sunlight, coal, wind, natural gas.",
+     "Why is the Kaveri water dispute an example of resource sharing?",
+     "How does uneven resource distribution affect where people live?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hees101.txt section on wise use",
+   "questions": [
+     "Explain reduce, reuse and recycle with examples.",
+     "Suggest five ways your school can use resources responsibly."
+   ]
+  }
+ ]
+}

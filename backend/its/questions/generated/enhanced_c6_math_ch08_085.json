@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_085",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_085",
+   "title": "c6_math_ch08_085",
+   "questions": [
+    {
+     "q": "What is the perimeter of a shape?",
+     "a": "The perimeter is the total distance around the boundary of a closed figure. A wrong answer like \"the space inside the shape\" reveals the student is confusing perimeter with area.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a square with a side of 5 cm, why can we multiply by 4 to get the perimeter instead of adding 5+5+5+5?",
+     "a": "Because all four sides of a square are equal, multiplying by 4 is a faster way to find the sum. A wrong answer suggests the student does not recognize the properties of a square or the relationship between repeated addition and multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden is 10 m long and 5 m wide. If you walk around it once, what is the total distance covered?",
+     "a": "The distance is 10 + 5 + 10 + 5 = 30 m. A student who answers \"15 m\" likely forgot that a rectangle has four sides and only added the length and width once.",
+     "self_check": true
+    },
+    {
+     "q": "If a triangle has a perimeter of 20 cm and two sides are 6 cm and 7 cm, how long is the third side?",
+     "a": "The third side is 20 - (6 + 7) = 7 cm. A student failing this likely does not understand that the perimeter is the sum of all three sides and cannot perform inverse operations to find a missing part.",
+     "self_check": true
+    },
+    {
+     "q": "Can two different rectangles have the same perimeter? Explain your reasoning.",
+     "a": "Yes. For example, a 6x2 rectangle (P=16) and a 5x3 rectangle (P=16) have different shapes but the same total boundary length. A student who says \"no\" fails to realize that different combinations of length and width can sum to the same total.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a farmer needs to fence a field. Include at least three sides of different lengths.",
+     "a": "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?\" A poor answer would lack the \"closed figure\" aspect or fail to provide enough information to calculate a sum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

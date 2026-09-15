@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_002",
+   "title": "c7_geo_ch01_002",
+   "questions": [
+    {
+     "q": "Which major physical mountain barrier separates the Indian Subcontinent from the rest of the Asian continent to the north?",
+     "a": "The Himalayan mountain range. A student who answers incorrectly (such as naming the Vindhyas or Western Ghats) is confusing internal Indian mountain ranges with the massive continental divide of the Himalayas that seals off the northern edge of the subcontinent.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the region containing India and its immediate neighbours referred to as a \"subcontinent\" rather than just a regular country or a continent?",
+     "a": "It is called a subcontinent because it is a vast, distinct landmass that is a subdivision of a continent (Asia), separated from the rest of the continent by immense physical barriers like the Himalayas while sharing a common geographical and climatic profile. A wrong answer usually shows the misconception that \"subcontinent\" just means a small country, ignoring the scale and tectonic separation.",
+     "self_check": true
+    },
+    {
+     "q": "If you travel by land directly from New Delhi, India, across its northern and eastern land borders, which three neighbouring countries would you encounter first in that direction?",
+     "a": "Working Steps: \n1. Identify the starting point as New Delhi, India. \n2. Look north toward the Himalayan border to find Nepal and China (Tibet Autonomous Region). \n3. Move northeast/east along the land boundary to find Bhutan and Bangladesh. \n4. Select a contiguous land sequence such as Nepal, China, and Bhutan. \nA wrong answer reveals an inability to read contiguous political boundaries on a regional map, often mixing up land neighbours with maritime neighbours like Sri Lanka.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the position of Sri Lanka and Maldives relative to mainland India. Why are they classified as maritime neighbours rather than land neighbours?",
+     "a": "Sri Lanka and Maldives are separated from mainland India by expanses of ocean water (the Palk Strait and the Indian Ocean respectively) and do not share a continuous land boundary. Therefore, travel and border relations depend entirely on sea routes rather than land routes. A wrong answer indicates confusion between physical land borders and overseas proximity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because the Himalayas completely block the northern boundary, the Indian Subcontinent has no interaction or shared weather patterns with countries north of it.\" Is this statement geographically accurate?",
+     "a": "The statement is inaccurate. While the Himalayas block cold winds from the north and define the subcontinent's physical boundary, rivers originating in the Himalayas flow into multiple countries (such as the Brahmaputra flowing through China/Tibet, India, and Bangladesh), and regional weather patterns like the monsoon interact across these physical divides. A wrong answer shows a rigid, oversimplified view of mountain barriers as absolute walls that stop all ecological and hydrological flows.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical boundary profile for a newly discovered subcontinent-sized landmass, listing three natural criteria it must possess to qualify as a distinct subcontinent.",
+     "a": "Criteria should include: \n1. A distinct continental plate association or large land area. \n2. Severe natural physical barriers on at least one side (like high mountain ranges). \n3. Surrounded by major water bodies on the remaining sides. \nA poor answer lists political features (like having a unified government or common language) instead of physical geographical criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

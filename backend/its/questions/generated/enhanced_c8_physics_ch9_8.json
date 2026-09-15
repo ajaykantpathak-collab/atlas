@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_8",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_8",
+   "title": "c8_physics_ch9_8",
+   "questions": [
+    {
+     "q": "What is the approximate duration of one complete rotation of Earth on its axis relative to the stars (sidereal day), and in which direction does Earth rotate as viewed from above the North Pole?",
+     "a": "One sidereal day is 23 hours 56 minutes 4 seconds. Earth rotates counterclockwise (west to east) as viewed from above the North Pole. A wrong answer (e.g., 24 hours exactly, or clockwise) reveals the student confuses the solar day with the sidereal day, or misunderstands the direction of rotation which determines the apparent east-to-west motion of the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Northern Hemisphere experience summer in June even though Earth is actually farther from the Sun (aphelion) in early July?",
+     "a": "Seasons are caused by the tilt of Earth's axis, not by distance from the Sun. In June, the Northern Hemisphere is tilted toward the Sun, receiving more direct rays and longer daylight hours, causing summer. A wrong answer citing distance reveals the common misconception that seasons are due to Earth's elliptical orbit bringing it closer/farther from the Sun, ignoring the dominant effect of axial tilt on solar angle and day length.",
+     "self_check": true
+    },
+    {
+     "q": "If it is 12:00 noon (solar time) in New Delhi (77° E longitude), what is the solar time in London (0° longitude)? Show your calculation using the rotation rate of Earth.",
+     "a": "Earth rotates 360° in 24 hours = 15° per hour. Longitude difference = 77° - 0° = 77°. Time difference = 77° / 15° per hour = 5.13 hours = 5 hours 8 minutes. New Delhi is ahead (east), so London time = 12:00 - 5h 8m = 6:52 AM. A wrong answer (e.g., subtracting instead of adding, or using 1°=4min incorrectly) reveals confusion about the relationship between longitude, rotation direction, and time zones.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the length of daytime on the June solstice at three latitudes: Equator (0°), Tropic of Cancer (23.5° N), and Arctic Circle (66.5° N). Explain the pattern using the geometry of the circle of illumination.",
+     "a": "Equator: 12 hours (always). Tropic of Cancer: ~13.5 hours (Sun directly overhead at noon, longest day in Northern Hemisphere). Arctic Circle: 24 hours (Midnight Sun, Sun never sets). The pattern shows increasing day length with latitude in the summer hemisphere because the circle of illumination (terminator) moves poleward, leaving high latitudes in continuous daylight. A wrong answer (e.g., all 12 hours, or decreasing day length) reveals inability to visualize how the tilted axis changes the terminator's intersection with latitude lines.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"On the December solstice, the Sun is directly overhead at the Tropic of Capricorn (23.5° S), so that must be the hottest place on Earth that day.\" Evaluate this claim.",
+     "a": "The claim is partially correct about solar position but incorrect about temperature. The Sun is indeed overhead at 23.5° S, giving maximum solar intensity per unit area. However, temperature depends on heat accumulation over time, surface type (land vs ocean), and heat capacity. The hottest places are often subtropical deserts (e.g., Australian outback) due to clear skies and low soil moisture, not exactly at the Tropic. A wrong evaluation (agreeing fully) reveals confusion between instantaneous solar flux and equilibrium temperature, ignoring thermal inertia and geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a ball (Earth), a lamp (Sun), and a protractor to demonstrate why the Arctic Circle experiences 24-hour daylight on the June solstice. List materials, steps, and the key observation.",
+     "a": "Materials: Globe/ball with marked axis and latitude lines, lamp, protractor, dark room. Steps: 1) Tilt ball axis 23.5° from vertical. 2) Place lamp at distance. 3) Position ball so Northern Hemisphere tilts toward lamp (June solstice). 4) Rotate ball on axis. 5) Observe the Arctic Circle (66.5° N) — it remains in light throughout full rotation. Key observation: The terminator (shadow line) does not cross the Arctic Circle because the tilt directs the pole toward the light source. A poor answer (e.g., no tilt, or observing equator) reveals inability to connect axial tilt geometry to the circle of illumination's latitude-dependent behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

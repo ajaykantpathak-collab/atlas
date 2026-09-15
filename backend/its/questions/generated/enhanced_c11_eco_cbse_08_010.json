@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_010",
+   "title": "c11_eco_cbse_08_010",
+   "questions": [
+    {
+     "q": "What were the two main components of Pakistan's regulated policy framework in the late 1950s and 1960s for import-substitution industrialisation?",
+     "a": "The two main components were tariff protection for manufacturing of consumer goods and direct import controls on competing imports. A wrong answer (e.g., \"export promotion and foreign investment liberalisation\") reveals confusion between import-substitution and export-oriented strategies — a fundamental error in identifying Pakistan's early policy stance.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Pakistan's Green Revolution in the 1960s lead to a dramatic change in the agrarian structure, and what was its limitation as a long-term growth driver?",
+     "a": "The Green Revolution introduced mechanisation (tubewells, tractors) and high-yielding varieties, raising foodgrain output and transforming agrarian relations by creating a class of capitalist farmers. However, its limitation was that growth depended on \"good harvests\" rather than institutionalised technical change — when harvests failed, economic indicators stagnated. A wrong answer focusing only on output increase misses the textbook's emphasis on the lack of sustained productivity institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.2, calculate the percentage point decline in Pakistan's average annual GDP growth rate between 1980-90 and 2015-17. Then, using Table 8.3, explain how the sectoral workforce distribution in 2022 reflects the failure of structural transformation.",
+     "a": "Decline = 6.3% - 5.3% = 1.0 percentage point. In 2022, 36% of Pakistan's workforce remained in agriculture (contributing only 24% of GVA), while industry employed just 26% (21% GVA) and services 38% (55% GVA). This shows a \"premature deindustrialisation\" — the workforce shifted from agriculture directly to low-productivity services, bypassing manufacturing. A wrong answer that only states the decline without linking to sectoral shares misses the structural explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sources of foreign exchange earnings for Pakistan and India in the 1980s-90s. Why did Pakistan's reliance on remittances and agricultural exports make its balance of payments more vulnerable than India's?",
+     "a": "Pakistan relied on remittances from Middle-East migrants and exports of volatile agricultural products (cotton, rice), while India diversified into manufactured exports and services. Remittances fluctuate with oil prices and Gulf policies; agricultural exports vary with weather and global commodity cycles. This made Pakistan's foreign exchange earnings unstable, leading to repeated IMF bailouts. A wrong answer that treats remittances as stable \"like export earnings\" ignores their cyclical and exogenous nature.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Pakistan's 1988 reforms were equivalent to India's 1991 reforms in depth and impact.\" Use evidence from Tables 8.2 and 8.5.",
+     "a": "The statement is false. Pakistan's 1988 reforms focused mainly on denationalisation and private-sector incentives without comprehensive trade liberalisation, financial sector reform, or tax restructuring. Post-reform, Pakistan's growth fell from 6.3% to 5.3% (Table 8.2), while India's rose from 5.7% to 7.3%. On human development (Table 8.5), Pakistan's HDI (0.544) lags India (0.685) and China (0.797), with higher infant mortality (51 vs 25.5) and maternal mortality (154 vs 103). A wrong answer claiming equivalence overlooks the absence of structural reforms in Pakistan and the divergent outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-pillar policy package for Pakistan to achieve sustained 6%+ growth with improved human development, using specific data gaps from Tables 8.1-8.5. Justify each pillar with one indicator.",
+     "a": "Pillar 1: **Export-oriented manufacturing** — target: raise industry's workforce share from 26% to 35% in 10 years (Table 8.3 shows industry at 21% GVA with 26% workers). Pillar 2: **Demographic transition** — reduce fertility from 3.4 to 2.5 (Table 8.1) via female education and family planning to capture demographic dividend. Pillar 3: **Human capital investment** — raise mean years of schooling from 4.3 to 7.0 (Table 8.5) and cut infant mortality from 51 to 30 by expanding rural health infrastructure. A poor answer lists generic goals without anchoring each pillar to a specific data gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_4",
+   "title": "c8_geo_ch2_4",
+   "questions": [
+    {
+     "q": "On a standard physical map, what specific physical features do the colors green, brown, blue, and white represent?",
+     "a": "On a physical map, green represents low-elevation landforms (plains and coastal lowlands), brown represents high-elevation landforms (hills and mountain ranges), blue represents water bodies (oceans, seas, lakes, rivers), and white represents snow cover, glaciers, or icy peaks. A wrong answer stating that green represents forests/trees or brown represents soil/deserts reveals that the student is confusing physical relief maps with vegetation or land-use maps.",
+     "self_check": true
+    },
+    {
+     "q": "Why do cartographers use different shades of blue (light blue to deep indigo) and brown (tan/light brown to dark brown) on physical maps instead of just a single shade of blue and brown?",
+     "a": "Cartographers use color shades to show variation in depth and elevation: lighter blue represents shallow water near coasts, while dark blue indicates deep oceanic waters; light brown represents lower hills or plateaus, while dark brown indicates high-altitude mountain peaks. A wrong answer claiming shades show water temperature or soil fertility reveals a misunderstanding of how physical maps depict three-dimensional elevation and depth on a flat surface.",
+     "self_check": true
+    },
+    {
+     "q": "Refer to a physical map of India showing three locations: City A in the Ganga Plain (colored green), City B on the Deccan Plateau (colored yellow-light brown), and Peak C in the Greater Himalayas (colored dark brown with a white top). Rank these three locations in order of increasing altitude above sea level and explain your reasoning.",
+     "a": "1. **City A (Green)**: Lowest elevation (0–200 m above sea level), located on river plains.\n2. **City B (Yellow-Light Brown)**: Intermediate elevation (300–900 m above sea level), located on a plateau.\n3. **Peak C (Dark Brown with White)**: Highest elevation (above 6,000 m), located in mountain ranges above the permanent snowline.\nRanking: City A < City B < Peak C. A wrong order reveals the student cannot map visual color codes to relative height values on Earth's surface.",
+     "self_check": true
+    },
+    {
+     "q": "A student examines a physical map of Northern Africa and sees that the Great Sand Sea region inside the Sahara Desert is colored green. The student concludes: \"This region in Africa must be covered with thick green forests.\" Analyze why this statement is incorrect despite the map color being green.",
+     "a": "The statement is incorrect because colors on a physical relief map represent **elevation above sea level**, not vegetation or climate. The green color indicates that the Great Sand Sea lies at a low altitude (a low basin or lowland plain), not that it has dense plant growth. The Sahara Desert is an arid region despite its low physical altitude. A student making this error fails to separate physical relief (land height) from ecological or climatic factors.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a map designer creates a physical map where green represents high mountains and dark brown represents ocean depths. Evaluate how this non-standard color choices impact map usability and international geographical communication.",
+     "a": "This non-standard map design severely impairs communication because physical map colors follow universal international cartographic conventions established so anyone, regardless of language, can instantly understand terrain. Inverting colors breaks intuitive mental models (where brown signifies rocky high ground and green signifies fertile/low valleys), leading to widespread misinterpretation of geographic data, navigation errors, and poor cross-border communication.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified 4-color legend for a newly discovered island that has a coastal beach area (0–100 m), a central agricultural plateau (100–500 m), an extinct rocky volcanic ridge (500–2,500 m), and a surrounding shallow ocean bay (0–50 m depth). Specify the color choice and elevation range for each feature following standard physical map rules.",
+     "a": "A correct design must follow standard cartographic color standards:\n1. **Shallow Ocean Bay (0–50 m depth)**: Light Blue\n2. **Coastal Beach Area (0–100 m altitude)**: Green\n3. **Central Agricultural Plateau (100–500 m altitude)**: Yellow / Light Brown\n4. **Extinct Volcanic Ridge (500–2,500 m altitude)**: Dark Brown\nA poor answer that uses arbitrary colors (e.g., red for plains, yellow for oceans) shows a failure to adopt universal geographical mapping conventions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

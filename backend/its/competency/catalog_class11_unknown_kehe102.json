@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 102,
+  "chapter_title": "Understanding Oneself: Adolescence",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe102.1.1",
+      "title": "Adolescence: The Bridge Between Childhood and Adulthood",
+      "section": "2.1",
+      "definition": "Adolescence is the transitional stage between childhood and adulthood, marked by rapid physical growth, hormonal change and equally deep psychological and social change. It is the stage the learner currently occupies, which is why the course opens with understanding the self at this age.",
+      "formula": "",
+      "key_idea": "A bridge stage -- body racing, identity forming, relationships renegotiated all at once.",
+      "textbook_ref": "kehe102.txt unit and chapter opening (stage of adolescence, physical and psychological change, understanding your own self)",
+      "question_patterns": [
+        "why is adolescence called a transitional stage",
+        "in class 11 understanding oneself: what changes mark the onset of adolescence",
+        "why is adolescence described as a period of storm and stress",
+        "compare adolescence with childhood in terms of dependence",
+        "what is the significance of studying adolescence in this course",
+        "how do hormones influence adolescent behaviour"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "locate the stage",
+          "explain": "Place adolescence between childhood and adulthood -- roughly the teen years -- as a bridge of transformation."
+        },
+        {
+          "step": 2,
+          "action": "catalogue the changes",
+          "explain": "Growth spurt and secondary sex characteristics run alongside mood swings, self-consciousness and new social expectations."
+        },
+        {
+          "step": 3,
+          "action": "note the task",
+          "explain": "The central task is identity: deciding who one is and will be, apart from parents."
+        }
+      ]
+    },
+    {
+      "id": "kehe102.1.2",
+      "title": "Personal and Social Identity of the Self",
+      "section": "2.2",
+      "definition": "Understanding oneself means mapping the self along two axes: personal identity -- one's abilities, interests, values and aspirations -- and social identity, the roles one plays as daughter or son, friend, student and citizen. Healthy development weaves the two into a coherent self-concept and self-esteem.",
+      "formula": "",
+      "key_idea": "Two mirrors form the self -- the private one of abilities and values, the social one of roles and recognition.",
+      "textbook_ref": "kehe102.txt identity sections (personal identity, social identity, self concept, self esteem, roles of an adolescent)",
+      "question_patterns": [
+        "distinguish personal identity from social identity",
+        "in class 11 understanding oneself: what is self concept and how is it formed",
+        "what roles does an adolescent play in daily life",
+        "how does self esteem influence adolescent behaviour",
+        "explain how family and peers shape identity",
+        "describe yourself in terms of personal and social identity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "inventory the personal",
+          "explain": "List your strengths, interests and values -- the private core of identity."
+        },
+        {
+          "step": 2,
+          "action": "inventory the social",
+          "explain": "List the roles you occupy and the expectations each carries at home, school and among friends."
+        },
+        {
+          "step": 3,
+          "action": "integrate them",
+          "explain": "A stable self-concept aligns what you are with the roles you play, feeding realistic self-esteem."
+        }
+      ]
+    },
+    {
+      "id": "kehe102.1.3",
+      "title": "Influences and Decision Making in Adolescence",
+      "section": "2.3",
+      "definition": "Adolescent choices are steered by family, peers, media and social norms -- sometimes in conflicting directions. The chapter equips learners to recognise these influences and to make reasoned decisions about studies, relationships, appearance and habits rather than drifting with pressure.",
+      "formula": "",
+      "key_idea": "Name the pressures before they name you -- decisions improve when influences are seen clearly.",
+      "textbook_ref": "kehe102.txt influences sections (family peers media influence, decision making, peer pressure, responsible choices)",
+      "question_patterns": [
+        "which influences shape an adolescent's decisions",
+        "in class 11 understanding oneself: what is peer pressure and how can it be handled",
+        "how does media influence adolescent self image",
+        "explain the steps of responsible decision making",
+        "give an example of a conflicting influence and your response",
+        "why do adolescents find decision making difficult"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the influencers",
+          "explain": "Family expectations, peer approval, media images and social norms all pull at adolescent choices."
+        },
+        {
+          "step": 2,
+          "action": "weigh them consciously",
+          "explain": "For any decision, ask whose voice is speaking and whether the choice serves your own goals and values."
+        },
+        {
+          "step": 3,
+          "action": "decide by reason",
+          "explain": "Consider options, consequences and personal values before committing -- decision making as a skill."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe102.txt identity sections",
+      "concept": "kehe102.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student is a class monitor, a tabla learner and the eldest child at home. Separate her personal identity from her social identities.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "list the social roles",
+          "explain": "Monitor, music learner and eldest sibling are social identities, each carrying expectations."
+        },
+        {
+          "step": 2,
+          "action": "probe the personal core",
+          "explain": "Her patience with juniors or love of rhythm are personal traits that persist across roles."
+        },
+        {
+          "step": 3,
+          "action": "connect",
+          "explain": "Her self-concept weaves the traits into the roles -- self-esteem depends on how well the weave holds."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe102.txt influences sections",
+      "concept": "kehe102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Friends tease a boy for not owning an expensive phone. Apply the chapter's approach to his decision.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the influence",
+          "explain": "This is peer pressure -- approval-seeking pulled against family resources."
+        },
+        {
+          "step": 2,
+          "action": "weigh consequences",
+          "explain": "Buying to please peers strains the family budget and feeds endless comparison."
+        },
+        {
+          "step": 3,
+          "action": "decide by values",
+          "explain": "A reasoned decision weighs need against cost and self-respect, not teasing."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe102.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain why adolescence is a critical stage of development.",
+        "Distinguish personal identity from social identity with examples.",
+        "How do family and peers influence adolescent decision making?",
+        "What is self esteem and how can it be strengthened?",
+        "Describe a situation of peer pressure and a reasoned response to it.",
+        "List the major changes of adolescence in physical and psychological terms."
+      ]
+    }
+  ]
+}

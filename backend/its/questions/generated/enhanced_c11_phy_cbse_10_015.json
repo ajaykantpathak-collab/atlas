@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_015",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_015",
+   "title": "c11_phy_cbse_10_015",
+   "questions": [
+    {
+     "q": "State Newton's Law of Cooling mathematically and write the SI unit of the proportionality constant k.",
+     "a": "Newton's Law of Cooling: -dQ/dt = k(T - Ts), where k is the cooling constant. SI unit of k is J/(s·K) or W/K. A wrong answer like \"k has unit W/m²K\" reveals confusion with thermal conductivity or heat transfer coefficient; k here is for the entire body, not per unit area.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Newton's Law of Cooling hold only for small temperature differences? Explain using the physics of heat transfer modes involved.",
+     "a": "For small ΔT, heat loss by radiation is approximately linear with ΔT (from Stefan-Boltzmann: T⁴ - Ts⁴ ≈ 4Ts³ΔT), and convection/conduction are also linear in ΔT. At large ΔT, the T⁴ dependence of radiation dominates, making the rate non-linear in ΔT. A student saying \"because convection stops working\" misunderstands - convection still works but the combined effect becomes non-linear.",
+     "self_check": true
+    },
+    {
+     "q": "A copper sphere of mass 0.2 kg and specific heat 385 J/kg·K cools from 80°C to 70°C in 5 minutes in a room at 20°C. Calculate the cooling constant k for this sphere.",
+     "a": "Given: m = 0.2 kg, s = 385 J/kg·K, T1 = 80°C, T2 = 70°C, Ts = 20°C, t = 300 s.\nAverage temperature = 75°C, ΔT_avg = 75 - 20 = 55°C.\nHeat lost = msΔT = 0.2 × 385 × 10 = 770 J.\nAverage rate = 770/300 = 2.567 W.\nFrom -dQ/dt = k(T - Ts): 2.567 = k × 55 → k = 0.0467 W/K.\nWrong answer using initial ΔT (60°C) gives k = 0.0428 W/K; using final ΔT (50°C) gives k = 0.0513 W/K. The error reveals not understanding that k is defined for instantaneous rate, so average ΔT must be used for finite intervals.",
+     "self_check": true
+    },
+    {
+     "q": "A body cools from 60°C to 40°C in 10 minutes. The surrounding temperature is 20°C. Using Newton's Law of Cooling, find the time taken to cool from 40°C to 30°C.",
+     "a": "Using the integrated form: ln(T - Ts) = -Kt + c.\nFor first interval: ln(60-20) - ln(40-20) = K × 10 → ln(40/20) = 10K → K = ln(2)/10 = 0.0693 min⁻¹.\nFor second interval: ln(40-20) - ln(30-20) = K × t₂ → ln(20/10) = 0.0693 × t₂ → t₂ = ln(2)/0.0693 = 10 minutes.\nA student getting 5 minutes incorrectly assumes constant rate of cooling (linear), not exponential decay of temperature difference.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment to verify Newton's Law of Cooling, a student plots ln(T - Ts) versus time but gets a curve instead of a straight line. List three possible experimental reasons for this deviation.",
+     "a": "1) Temperature difference was too large (>30°C), violating the small ΔT assumption.\n2) The calorimeter was not properly insulated, causing additional heat loss paths not accounted for.\n3) The stirrer was not used consistently, creating temperature gradients within the body.\nA student blaming \"faulty thermometer\" without specifying systematic error shows lack of experimental analysis skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to verify Newton's Law of Cooling. Specify what you would measure, how you would process the data, and what graph would confirm the law.",
+     "a": "Heat water in a steel tumbler to 80°C, place in a room at known Ts. Measure temperature every 2 minutes using a lab thermometer while stirring gently. Plot ln(T - Ts) vs time. A straight line with negative slope confirms the law. Poor answer: \"Use a thermometer and stopwatch\" without specifying stirring, fixed intervals, or the logarithmic plot, shows procedural gaps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

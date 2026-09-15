@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_10",
+   "title": "c8_math_ch3_10",
+   "questions": [
+    {
+     "q": "Write the Mayan symbols for the numbers 4, 7, 13, and 19 using only dots (•) and bars (—). Remember that 5 dots are replaced by one bar.",
+     "a": "4 = •••• (four dots); 7 = —•• (one bar and two dots); 13 = — —••• (two bars and three dots); 19 = — — —•••• (three bars and four dots). A wrong answer (e.g., writing 7 as seven dots) reveals the student has not internalised the grouping rule that five dots equal one bar, which is essential for compact representation and for reading authentic Mayan inscriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mayan system requires a symbol for zero (the shell) while the Roman numeral system does not. Use the concept of place value in your explanation.",
+     "a": "The Mayan system is positional: the same symbol (e.g., a dot) means 1 in the units place, 20 in the 20s place, and 400 in the 400s place. Without a zero placeholder, we could not distinguish 20 (one dot in the 20s place, zero in units) from 1 (one dot in units). Roman numerals are additive, not positional; each symbol has a fixed value regardless of position, so no placeholder is needed. A wrong answer that says \"Romans didn't have zero because they didn't need it\" without mentioning positional vs. additive structure shows the student confuses the role of zero with mere absence of a symbol.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the Mayan number shown below into decimal (base-10).\nTop row: ••• (three dots)\nMiddle row: — (one bar)\nBottom row: 𝟘 (shell)\nShow all steps.",
+     "a": "Step 1: Identify place values from bottom to top: bottom = 20⁰ = 1, middle = 20¹ = 20, top = 20² = 400.\nStep 2: Read each row's value: bottom = 0 (shell), middle = 5 (one bar), top = 3 (three dots).\nStep 3: Multiply each by its place value: 3 × 400 = 1200; 5 × 20 = 100; 0 × 1 = 0.\nStep 4: Sum: 1200 + 100 + 0 = 1300.\nAnswer: 1300. A wrong answer (e.g., 3500) reveals the student either reversed the place values (thinking top is units) or misread the shell as a non-zero digit.",
+     "self_check": true
+    },
+    {
+     "q": "A Mayan inscription shows a number with four rows. The bottom three rows are all shells (zero). The top row has two dots. What is the decimal value? How does this compare to writing 2000 in our base-10 system?",
+     "a": "Place values: row1 (bottom) = 1, row2 = 20, row3 = 400, row4 = 8000. All zeros in rows 1–3 contribute 0. Top row: 2 × 8000 = 16000. In base-10, 2000 is 2 × 1000 with zeros in hundreds, tens, units. The Mayan number 16000 is 2 × 8000 with zeros in 400s, 20s, units. Both use zero placeholders to show empty lower places. A wrong answer of 2000 (thinking top row is thousands) shows the student assumes the base is 10 or misidentifies the fourth place value as 1000 instead of 8000.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts 372 to Mayan and writes: bottom row = —•• (7), middle row = —• (6), top row = • (1). Is this correct? If not, identify the error and give the correct representation.",
+     "a": "Incorrect. The student treated the base as 10 (372 = 3×100 + 7×10 + 2) instead of base 20. Correct conversion: 372 ÷ 20 = 18 remainder 12 → bottom row = 12 = — —•• (two bars, two dots). 18 ÷ 20 = 0 remainder 18 → middle row = 18 = — — —••• (three bars, three dots). Top row = 0 (shell, often omitted if highest place). So correct Mayan: middle row = 18, bottom row = 12. A wrong answer that keeps the student's version shows the student applies base-10 decomposition to a base-20 system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Mayan number (draw or describe the rows) that equals 2024 in decimal. Explain your steps so a Class 6 student could follow.",
+     "a": "Step 1: Divide 2024 by 20 repeatedly.\n2024 ÷ 20 = 101 remainder 4 → units digit = 4 = ••••.\n101 ÷ 20 = 5 remainder 1 → 20s digit = 1 = •.\n5 ÷ 20 = 0 remainder 5 → 400s digit = 5 = —.\nSo from bottom to top: row1 = •••• (4), row2 = • (1), row3 = — (5).\nCheck: 5×400 + 1×20 + 4×1 = 2000 + 20 + 4 = 2024.\nA poor answer that gives random dots/bars without division steps shows the student cannot systematically convert between bases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

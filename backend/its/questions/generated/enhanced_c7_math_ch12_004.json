@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_004",
+   "title": "c7_math_ch12_004",
+   "questions": [
+    {
+     "q": "What is the rule for placing the decimal point in the quotient when dividing a decimal number by a whole number using long division?",
+     "a": "The decimal point in the quotient is placed directly above the decimal point in the dividend as soon as you reach it in the division process. A wrong answer like \"move the decimal point to the right based on the number of zeros\" reveals confusion between multiplying/dividing by powers of 10 and standard long division by a general whole number. Another incorrect answer like \"drop the decimal point at the very end\" shows a lack of understanding of place value alignment during long division.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $12.6 \\div 3$ yields $4.2$ instead of $42$ or $0.42$. How does place value ensure the decimal point stays in the correct position?",
+     "a": "$12.6$ can be viewed as $126$ tenths. Dividing $126$ by $3$ gives $42$ tenths, which is written as $4.2$ because the tenths place sits one position to the right of the decimal point. A wrong answer stating the answer is $42$ ignores the original magnitude of the dividend, treating the decimal point as a mere decorative mark rather than a fixed anchor for place value.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $15.48 \\div 4$ and show the exact decimal placement.",
+     "a": "Steps: 1. Set up the long division: $15.48 \\div 4$. 2. Divide the whole number part: $15 \\div 4 = 3$ with a remainder of $3$, and place the decimal point in the quotient directly above. 3. Bring down the tenths digit $4$ to make $34$ tenths; $34 \\div 4 = 8$ tenths with a remainder of $2$. 4. Bring down the hundredths digit $8$ to make $28$ hundredths; $28 \\div 4 = 7$ hundredths. 5. Combine parts to get $3.87$. A wrong answer like $38.7$ shows the student forgot to align the decimal point with the dividend's decimal point, treating it as a whole number division ($1548 \\div 4$).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of dividing $7.2$ by $3$ versus dividing $0.72$ by $3$. What pattern do you observe in the position of the decimal point and the digits of the quotient?",
+     "a": "$7.2 \\div 3 = 2.4$ and $0.72 \\div 3 = 0.24$. The digits in the quotient ($2$ and $4$) remain identical, but the decimal point shifts one place to the left because the dividend was scaled down by a factor of $10$. A wrong answer reveals a failure to recognize how shifting the decimal place in the dividend proportionally shifts the decimal place in the quotient when dividing by the exact same whole number divisor.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $5.6 \\div 4$ and claims the answer is $1.4$. Another student claims the answer is $0.14$ because \"you always make the number smaller.\" Evaluate both claims using mathematical reasoning.",
+     "a": "The first student ($1.4$) is correct because $4 \\times 1.4 = 5.6$. The second student's claim that division always makes numbers smaller than *every* component is a misconception; while dividing by a whole greater than $1$ reduces the value, the quotient is $1.4$, not $0.14$. A wrong evaluation accepting $0.14$ indicates the student blindly applies a memorized rule about decimals shrinking without verifying their work through multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem involving a decimal and a whole number where the quotient is exactly $3.25$ and the divisor is $8$. Show your steps for constructing this problem.",
+     "a": "To construct this problem, multiply the desired quotient by the whole number divisor: $3.25 \\times 8$. \nStep 1: Set up multiplication: $3.25 \\times 8$. \nStep 2: Multiply ignoring the decimal: $325 \\times 8 = 2600$. \nStep 3: Place the decimal two places from the right: $26.00$, which is $26$. \nStep 4: Formulate the problem: What is $26 \\div 8$? A poor answer shows numbers chosen at random without checking via inverse multiplication, resulting in a quotient that does not equal $3.25$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

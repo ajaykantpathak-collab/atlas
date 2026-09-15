@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_011",
+   "title": "c12_geo_cbse_09_011",
+   "questions": [
+    {
+     "q": "Define physiological density and agricultural density. How do they differ from crude (arithmetic) density in assessing population pressure on land resources?",
+     "a": "Physiological density = Total population / Net cultivated area. Agricultural density = Total agricultural population (cultivators + agricultural labourers + their families) / Net cultivable area. Crude density = Total population / Total land area. Crude density includes deserts, mountains, and urban built-up areas, masking the real pressure on farmland. Physiological density shows how many people each hectare of *actually farmed* land must support; agricultural density shows how many *farming households* share each hectare of *potentially farmable* land. A wrong answer (e.g., using total area for physiological density) reveals the student confuses \"cultivated\" with \"cultivable\" and cannot distinguish between pressure on current production vs. potential expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Kerala and Tamil Nadu have high crude population densities (859 and 555 persons/km²) but relatively low population growth rates (9.4% and ~15% decadal growth 2001-2011), while Bihar and Uttar Pradesh have high crude densities (1102 and 828) AND high growth rates. What does this contrast tell you about the population-resource relationship in these states?",
+     "a": "Kerala and Tamil Nadu are in Phase IV of demographic transition: high density achieved through historical settlement and urbanization, but growth has slowed due to high female literacy, late marriage, and low fertility. Their resource pressure is managed by high urbanization, remittances, and non-farm employment. Bihar and UP are in Phase III/IV transition: high density from fertile alluvial soil and water, but growth remains high due to lower female literacy, early marriage, and high fertility. Resource pressure here is acute — land fragmentation, groundwater depletion, and out-migration. A wrong answer attributing Kerala's low growth to \"low density\" or Bihar's high growth to \"high density\" alone reveals confusion between *stock* (density) and *flow* (growth) and ignores the socio-economic drivers of fertility.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the physiological density for a hypothetical Indian state with: Total population = 80 million, Net cultivated area = 40,000 km², Net cultivable area = 60,000 km², Agricultural population = 30 million. Also compute agricultural density. Interpret both results in terms of resource pressure.",
+     "a": "Step 1: Physiological density = 80,000,000 / 40,000 = 2,000 persons/km² of cultivated land. Step 2: Agricultural density = 30,000,000 / 60,000 = 500 persons/km² of cultivable land. Step 3: Interpretation: Physiological density (2000) is very high — each km² of *currently farmed* land supports 2000 people, indicating intense pressure on existing crops, likely requiring high inputs (fertilizer, irrigation) or food imports. Agricultural density (500) is moderate — each km² of *potential* farmland supports 500 farming people, suggesting room for extensification if cultivable waste is brought under cultivation. A wrong calculation (e.g., using total area) or misinterpretation (saying agricultural density shows \"more pressure than physiological\") reveals misunderstanding of the denominator's meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of India in 2001 (58.2% primary) and 2011 (54.6% primary). Despite this shift, why does the absolute number of agricultural workers continue to rise? What does this imply for per-capita land availability and sustainable agriculture?",
+     "a": "The primary sector's *share* fell because total workforce grew faster in secondary/tertiary sectors, but the *absolute number* of cultivators + agricultural labourers increased from ~234 million (2001) to ~263 million (2011) due to population growth. Meanwhile, net sown area remained nearly constant (~140-142 million hectares). Per-capita cultivated land for agricultural workers thus declined. This implies shrinking farm sizes, disguised unemployment, and pressure to intensify (more water, chemicals) — threatening soil health and groundwater sustainability. A wrong answer claiming \"fewer farmers now\" ignores the denominator (total workforce) and misses the sustainability crisis in smallholder agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's population growth is the primary cause of resource depletion and environmental degradation.\" Use evidence from regional variations in resource use (e.g., Punjab vs. Mizoram) and the concept of ecological footprint.",
+     "a": "The statement is reductionist. Punjab has lower population density (551) than Bihar (1102) but far higher per-capita resource consumption (groundwater for rice-wheat, fertilizer, energy) and severe degradation (water table drop, soil salinity). Mizoram has low density (52) and low degradation. Ecological footprint = population × per-capita consumption × technology factor. Degradation correlates better with *consumption intensity* and *production technology* than population numbers alone. Kerala (high density, low footprint) vs. Delhi (very high density, huge footprint from imported resources) proves the point. A wrong answer agreeing wholly reveals a Malthusian bias ignoring the role of affluence, technology, and distribution in resource crises.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable resource-management plan for a hypothetical district in the Indo-Gangetic plain with: crude density 1200 persons/km², physiological density 2500 persons/km², 70% workforce in agriculture, declining groundwater, and 40% small/marginal farmers (<2 ha). Your plan must address water, soil, livelihoods, and demographic pressure.",
+     "a": "A strong plan integrates: (1) Water: Shift from flood irrigation to drip/sprinkler (PMKSY), promote less water-intensive crops (millets, pulses) via MSP procurement, recharge groundwater via check dams and farm ponds. (2) Soil: Conservation agriculture (zero tillage, residue retention), soil health cards for balanced fertilization, agroforestry on bunds. (3) Livelihoods: Non-farm employment (food processing, rural tourism) to absorb surplus labour, skill training under PMKVY, strengthen FPOs for better market access. (4) Demographic: Expand female education and healthcare (Mission Parivar Vikas) to lower fertility, incentivize later marriage. (5) Governance: Converge MGNREGS for land development, Jal Shakti Abhiyan for water, and RKVY for agriculture. A poor plan focuses only on \"population control\" or \"stop farming\" without addressing the economic compulsion of smallholders or the technological lock-in of water-intensive cropping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

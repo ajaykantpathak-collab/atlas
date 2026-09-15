@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_001",
+   "title": "c11_biotech_cbse_08_001",
+   "questions": [
+    {
+     "q": "What is the centromere index (CI) of a human chromosome whose short arm measures 2.1 µm and long arm measures 5.9 µm, and what morphology class does it belong to?",
+     "a": "CI = (2.1 / (2.1 + 5.9)) × 100 = 26.25% → submetacentric (CI 25–37). A wrong answer of \"metacentric\" reveals the student used absolute arm length difference instead of the ratio; a wrong answer of \"acrocentric\" reveals confusion between CI threshold for submetacentric (25%) and acrocentric (<25%).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why telomeres shorten with each round of DNA replication in somatic cells but not in germ cells, and name the enzyme responsible for this difference.",
+     "a": "DNA polymerase cannot fully replicate the 5′ end of the lagging strand (end-replication problem), causing progressive telomere shortening in somatic cells; germ cells express telomerase (a reverse transcriptase with an RNA template) that adds TTAGGG repeats, maintaining length. A wrong answer citing \"DNA ligase\" or \"helicase\" reveals the student confuses replication machinery with the specialised telomere-maintenance enzyme.",
+     "self_check": true
+    },
+    {
+     "q": "A metaphase chromosome shows a centromere so close to one end that the short arm appears as a mere stalk with a satellite. The total chromosome length is 6.0 µm and the short arm (including stalk) is 0.9 µm. Calculate the centromere index and state the chromosome type and its human karyotype group.",
+     "a": "CI = (0.9 / 6.0) × 100 = 15% → acrocentric (CI < 25%). Human acrocentric chromosomes are 13, 14, 15, 21, 22, Y → Group G. A wrong CI of 15% but classification as \"telocentric\" reveals the student does not know humans lack true telocentric chromosomes; a wrong group assignment (e.g., Group E) reveals confusion between acrocentric and submetacentric groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the functional roles of centromere and telomere during mitosis. Why would a chromosome lacking a functional centromere fail to segregate, while a chromosome lacking functional telomeres would fuse end-to-end?",
+     "a": "Centromere: nucleates kinetochore → microtubule attachment → segregation. Telomere: forms T-loop/shelterin complex → hides DNA end from NHEJ repair machinery → prevents fusion. No centromere = no kinetochore = random segregation/loss. No telomere = exposed double-strand break recognised by DNA-PK/Ku70/80 → ligation to another broken end → dicentric chromosome → breakage-fusion-bridge cycles. A wrong answer swapping the roles reveals the student memorised definitions but not mechanistic consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Centromere position is the sole determinant of chromosome morphology in a standard karyotype.\" Support your evaluation with two pieces of evidence from human cytogenetics.",
+     "a": "The statement is FALSE. Evidence 1: Banding patterns (G/Q/R) reveal internal structure (euchromatin/heterochromatin distribution) independent of centromere position — two submetacentric chromosomes (e.g., chr 4 vs chr 5) differ in banding despite similar CI. Evidence 2: Secondary constrictions (nucleolar organiser regions on acrocentric chromosomes 13, 14, 15, 21, 22) create visible satellites/stalks that modify apparent morphology without changing centromere index. A student calling the statement \"true\" reveals over-reliance on CI alone and ignorance of banding/secondary constriction landmarks used in clinical karyotyping.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical human chromosome that would be classified as metacentric by centromere index but would likely be misidentified as submetacentric on a routine G-banded karyotype. Justify your design with specific banding pattern features.",
+     "a": "Design: Total length 8 µm, p-arm 4 µm, q-arm 4 µm (CI = 50% → metacentric). Insert a large heterochromatic block (C-band positive, G-band dark) spanning 3 µm of the q-arm near the centromere, while the p-arm remains entirely euchromatic (G-band light). On G-banding, the dense dark region on q makes it appear \"shorter\" visually, mimicking a submetacentric CI ~35%. Justification: G-banding stains AT-rich heterochromatin dark; visual arm-length estimation by eye (common in rapid screening) is biased by staining intensity, not physical length. A poor answer lacking specific banding terminology (C-band, G-band, heterochromatin) reveals the student cannot integrate cytogenetic staining principles with morphology classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

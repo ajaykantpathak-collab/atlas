@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_074",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_074",
+   "title": "c6_math_ch07_074",
+   "questions": [
+    {
+     "q": "What is the sum of all interior angles of any quadrilateral?",
+     "a": "The sum is 360 degrees. A wrong answer like \"180 degrees\" shows the student is confusing quadrilaterals with triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Can a quadrilateral be a rectangle if it does not have four right angles? Why or why not?",
+     "a": "No, a rectangle must have all four angles equal to 90 degrees by definition. Answering \"yes\" indicates the student does not understand that properties define the name of the shape.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has three angles measuring 80°, 100°, and 80°. What is the measure of the fourth angle?",
+     "a": "The fourth angle is 100° (360 - 260 = 100). If a student gets this wrong, they likely failed to subtract correctly from 360 or forgot the total sum rule.",
+     "self_check": true
+    },
+    {
+     "q": "How is a rhombus different from a square, even though both have four equal sides?",
+     "a": "A square must have 90-degree angles, whereas a rhombus does not require its angles to be 90 degrees. A wrong answer suggests the student thinks side length is the only defining property of these shapes.",
+     "self_check": true
+    },
+    {
+     "q": "Is it correct to call a square a type of rectangle? Defend your answer.",
+     "a": "Yes, because a square satisfies all properties of a rectangle (opposite sides parallel, all angles 90°), plus it has the extra property of equal sides. If a student says \"no,\" they don't understand the hierarchical nature of geometric classifications.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a figure that is a quadrilateral but is neither a parallelogram nor a trapezium. Describe its properties.",
+     "a": "A kite or a generic irregular quadrilateral. The answer should explain that it has four sides but lacks parallel sides. A poor answer would be drawing a triangle or a shape with more than four sides.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

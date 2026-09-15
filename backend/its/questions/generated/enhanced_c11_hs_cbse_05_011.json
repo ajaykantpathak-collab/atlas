@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_011",
+   "title": "c11_hs_cbse_05_011",
+   "questions": [
+    {
+     "q": "A student performs a burning test on an unknown fibre and observes: the fibre does not shrink away from the flame, catches fire immediately, burns quickly with a yellow flame, continues burning after removal with a glowing ember, smells like burning paper, and leaves a light, soft, grey ash that retains the fabric's shape. Identify the fibre class and the most likely specific fibre.",
+     "a": "The fibre is cellulosic—most likely cotton or linen (rayon also fits but is manufactured). A wrong answer (e.g., \"protein fibre\" or \"synthetic\") reveals the student cannot link the burning paper odour and soft ash to cellulose's thermal decomposition pathway, nor distinguish cellulosic \"afterglow\" from protein's self-extinguishing behaviour. They likely memorised the table without understanding the chemical basis: cellulose → levoglucosan + char (paper smell, grey ash) vs. protein → pyrrole/pyridine + carbonised bead (hair smell, crushable bead).",
+     "self_check": true
+    },
+    {
+     "q": "Two fibres—wool and acrylic—both smell acrid when burned and leave hard, dark beads. A student claims they are indistinguishable by burning test. Explain why this claim is incorrect by comparing their approach-to-flame, in-flame, and after-flame behaviours, and residue texture.",
+     "a": "Wool curls away from flame, burns slowly, self-extinguishes on removal, smells like burning hair (not acrid), and leaves a brittle, curled, crushable bead. Acrylic does not shrink, catches fire, burns rapidly with melting, continues burning after removal, smells acrid, and leaves a hard, black, crinkly (not crushable) bead. A wrong answer reveals the student conflates \"acrid smell\" and \"dark bead\" as identical, missing that wool's protein structure yields crushable carbonised protein residue while acrylic's polyacrylonitrile cyclises to a rigid, non-crushable ladder polymer bead. They also miss the critical behavioural difference: wool self-extinguishes (limiting oxygen index ~25%), acrylic sustains combustion.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a fabric labelled \"65% polyester / 35% cotton.\" Predict the burning test observations for a warp yarn (100% polyester) and a weft yarn (100% cotton) tested separately. Then explain why testing a blended yarn (intimate blend) would produce a confusing result that could lead to misidentification.",
+     "a": "Warp (polyester): shrinks from flame, melts and burns, continues melting after removal, sweet plastic odour, hard black round bead. Weft (cotton): no shrink, ignites, burns quickly, afterglow, burning paper odour, soft grey ash. Blended yarn: the cotton component ignites and sustains flame while polyester melts and drips simultaneously—odour mixes paper and plastic; residue is a contaminated black bead with embedded ash. A wrong answer (e.g., \"blend burns like polyester\") shows the student doesn't grasp that intimate blends exhibit competing thermal pathways—cellulosic flame feeds synthetic melt, masking individual signatures. They also miss that staple-blend yarns (like terecot) require yarn separation before testing, unlike filament blends.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the burning behaviour of nylon 6,6 and polyester (PET) in terms of: (a) chemical origin of the \"acrid\" vs \"sweet\" odour, (b) bead colour difference (tan vs black), and (c) why nylon drips more readily than polyester despite both being melt-burn fibres.",
+     "a": "(a) Nylon 6,6 (polyamide) releases caprolactam, amines, and nitriles (acrid, fishy); PET (polyester) releases terephthalic acid derivatives and cyclic oligomers (sweet, ester-like). (b) Nylon's tan bead comes from partial cyclisation to imide structures with residual aliphatic chains; PET's black bead is highly aromatic carbonaceous char from cyclodehydrogenation of terephthalate units. (c) Nylon's lower melting point (220°C vs 260°C) and lower melt viscosity cause faster dripping; PET's rigid aromatic backbone maintains melt integrity longer. A wrong answer reveals the student treats all synthetics as \"melting beads\" without connecting bead morphology to monomer chemistry—amide vs ester linkage, aliphatic vs aromatic backbone.",
+     "self_check": true
+    },
+    {
+     "q": "A textile conservator argues: \"The burning test is destructive and outdated; FTIR spectroscopy should replace it entirely for museum artefact analysis.\" Evaluate this statement considering: (i) sample size requirements, (ii) information depth, (iii) field practicality, and (iv) blended fabric resolution.",
+     "a": "The statement is partially valid but context-blind. FTIR requires ~1 mg sample (micro-destructive), gives molecular-level identification (functional groups, blend ratios), but needs lab access, calibration, and expertise. Burning test needs ~5 mm yarn, gives only class-level ID, but works in-field in 30 seconds with zero cost. For a 17th-century tapestry, FTIR is justified; for a consumer checking a saree label, burning test is pragmatic. A wrong answer (e.g., \"FTIR is always better\") shows the student cannot weigh analytical trade-offs: destructiveness vs information, lab vs field, qualitative vs quantitative. They also miss that FTIR struggles with surface finishes on fibres, while burning test penetrates finishes to reveal base polymer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision-tree flowchart (text-based) for identifying an unknown single-component fibre using only burning test observations. Include all five observation parameters and branch to the eight NCERT fibres. Ensure mutually exclusive pathways.",
+     "a": "```\nSTART → Approach flame:\n  ├─ Shrinks away → In flame: Melts & burns\n  │                ├─ After flame: Continues melting\n  │                │    ├─ Odour: Acrid → Residue: Hard tan bead → NYLON\n  │                │    ├─ Odour: Sweet plastic → Residue: Hard black bead → POLYESTER\n  │                │    └─ Odour: Acrid → Residue: Hard black crinkly bead → ACRYLIC\n  │                └─ (No other melt-burn fibres in scope)\n  ├─ Curls away → In flame: Burns slowly\n  │               ├─ After flame: Self-extinguishing\n  │               │    ├─ Odour: Burning hair → Residue: Brittle crushable bead → WOOL / SILK\n  │               │    │    (Distinguish by filament vs staple: silk = filament, wool = staple)\n  │               │    └─ (No other self-extinguishing fibres)\n  └─ No shrink, catches fire → In flame: Burns quickly\n                               ├─ After flame: Continues burning with afterglow\n                               │    ├─ Odour: Burning paper → Residue: Soft grey ash, retains shape → COTTON / LINEN\n                               │    │    (Distinguish by yarn: linen = longer, lustrous, stronger)\n                               │    └─ Odour: Burning paper → Residue: Light fluffy ash, very small → RAYON\n                               └─ (No other rapid-burn cellulosics)\n```\nA poor answer uses linear if-then without branching, misses residue texture distinctions (crushable vs crinkly vs fluffy), or fails to separate cotton/linen and wool/silk pairs using supplementary yarn/fabric cues.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

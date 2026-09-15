@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_007",
+   "title": "c12_cs_cbse_05_007",
+   "questions": [
+    {
+     "q": "List four MySQL string functions and one date function that extracts the year from a date.",
+     "a": "Correct answer: String functions — UPPER, LOWER, SUBSTRING, TRIM, CONCAT, LENGTH, LEFT, RIGHT (any four). Date function — YEAR(date). A wrong answer (e.g., saying SUBSTR instead of SUBSTRING, or using EXTRACT(YEAR FROM date) without knowing MySQL supports both) reveals the student is mixing standard SQL with MySQL-specific syntax or confusing function names. MySQL accepts both SUBSTRING and SUBSTR, but the NCERT curriculum uses SUBSTRING. For date extraction, YEAR() is the direct function; EXTRACT is also valid but less commonly taught.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `TRIM('  hello  ')` and `SUBSTRING('hello', 2, 3)` in terms of what they return and when you would use each.",
+     "a": "Correct answer: `TRIM('  hello  ')` removes leading/trailing spaces, returning `'hello'`. `SUBSTRING('hello', 2, 3)` extracts 3 characters starting at position 2 (1-based), returning `'ell'`. Use TRIM to clean dirty data; use SUBSTRING to extract a portion (e.g., first 3 letters for a username). A wrong answer that says SUBSTRING uses 0-based indexing (like Python) reveals the classic off-by-one error — SQL uses 1-based indexing. Another error: thinking TRIM removes spaces *inside* the string (it does not).",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display each student's name in uppercase and their birth year from a table `STUDENT(name VARCHAR(50), dob DATE)`.",
+     "a": "Correct answer:\n```sql\nSELECT UPPER(name) AS student_name, YEAR(dob) AS birth_year FROM STUDENT;\n```\nSteps: (1) Identify columns `name` and `dob`. (2) Apply `UPPER()` to `name` for uppercase. (3) Apply `YEAR()` to `dob` to extract year. (4) Use aliases for clarity. A wrong answer that writes `UPPER(name), EXTRACT(YEAR FROM dob)` is technically correct in MySQL but shows the student may not know the simpler `YEAR()` function emphasized in NCERT. An answer missing aliases or using `SELECT *` shows incomplete understanding of projection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `DATE_FORMAT('2024-03-15', '%d-%m-%Y')` and `DATE_FORMAT('2024-03-15', '%Y-%m-%d')`. Which format matches the default MySQL DATE display? Why does the order of specifiers matter?",
+     "a": "Correct answer: First returns `'15-03-2024'` (DD-MM-YYYY), second returns `'2024-03-15'` (YYYY-MM-DD). The default MySQL DATE display is `'YYYY-MM-DD'`, so the second matches. The order of specifiers determines the human-readable format; `%d-%m-%Y` is common in India, `%Y-%m-%d` is ISO standard. A wrong answer that swaps the outputs reveals confusion about `%d` (day) vs `%m` (month). Another error: thinking `%M` is month (it's month name); `%m` is numeric month.",
+     "self_check": true
+    },
+    {
+     "q": "A query uses `WHERE MONTH(dob) = 1` to find January births. Another uses `WHERE dob LIKE '____-01-%'`. Evaluate which is better and why.",
+     "a": "Correct answer: `MONTH(dob) = 1` is better. It uses the DATE type's internal structure, is sargable (can use an index on `dob`), and is explicit. The `LIKE` pattern treats the date as a string, prevents index use, and relies on the default string representation (which could change with `sql_mode`). A wrong answer that prefers `LIKE` because \"it's simpler\" shows misunderstanding of performance and type safety. The student must know that functions on columns in WHERE clauses can sometimes prevent index usage, but `MONTH()` is optimized in MySQL; `LIKE` with leading wildcards never uses indexes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a query that generates a username for each student: first 3 letters of the first name (lowercase), last 3 letters of the last name (lowercase), and the 2-digit day of birth (e.g., 'rahsha05' for 'Rahul Sharma' born on 5th). Assume `name` is stored as 'Firstname Lastname'.",
+     "a": "Expected answer (criteria for good answer):\n```sql\nSELECT CONCAT(\n    LOWER(SUBSTRING(name, 1, INSTR(name, ' ')-1)),  -- first name, but need first 3 letters\n    LOWER(SUBSTRING(name, INSTR(name, ' ')+1, 3)),  -- last name first 3? Wait, last 3 letters of last name\n    LPAD(DAY(dob), 2, '0')\n) AS username FROM STUDENT;\n```\nActually, the problem says: first 3 letters of first name, last 3 letters of last name. So:\n```sql\nSELECT CONCAT(\n    LOWER(SUBSTRING(name, 1, 3)),\n    LOWER(SUBSTRING(name, INSTR(name, ' ')+1 + LENGTH(SUBSTRING_INDEX(name, ' ', -1)) - 3, 3)), -- too complex\n```\nBetter: Use `SUBSTRING_INDEX` to split.\n```sql\nSELECT CONCAT(\n    LOWER(SUBSTRING(SUBSTRING_INDEX(name, ' ', 1), 1, 3)),\n    LOWER(SUBSTRING(SUBSTRING_INDEX(name, ' ', -1), -3)),  -- MySQL SUBSTRING with negative start counts from end\n    LPAD(DAY(dob), 2, '0')\n) AS username FROM STUDENT;\n```\nA good answer demonstrates: (1) splitting name into first/last using `SUBSTRING_INDEX` or `INSTR`, (2) extracting substrings with correct positions, (3) using `LOWER`, (4) formatting day with `LPAD`. A poor answer uses fixed positions (fails for variable-length names) or forgets `LPAD` (single-digit days become '5' not '05').",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

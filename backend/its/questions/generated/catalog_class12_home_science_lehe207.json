@@ -1,0 +1,339 @@
+{
+ "catalog": "catalog_class12_home_science_lehe207",
+ "concepts": [
+  {
+   "id": "lehe207.1",
+   "title": "Corporate Communication: Meaning and Significance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Corporate Communication: Meaning and Significance' refers to.",
+     "a": "Corporate communication is the coordinated handling of every message an organisation sends inside and outside its walls, run by specialists and generalists. Its primary aim is to shape how stakeholders -- public, competitors, employees, investors -- perceive the organisation, because perception, not just events, decides respectability, standing and success; in a crisis, reactions follow the audience's reading of events.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Corporate Communication: Meaning and Significance'.",
+     "a": "Controlling how the world sees you -- perception of stakeholders, more than events, decides an organisation's fate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Corporate Communication: Meaning and Significance', in plain ASCII form.",
+     "a": "corporate_image = internal_messages plus external_messages plus stakeholder_perception",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.2",
+   "title": "Functions of Corporate Communication",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Functions of Corporate Communication' refers to.",
+     "a": "The function spreads information to employees, stockholders, media and customers; creates and maintains the brand; guards the organisation's reputation; liaises with outside bodies; handles crisis control; and manages sophisticated global communication tools. With rising competition and a media explosion, reputation management has become a priority that professional corporate communicators handle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Corporate Communication'.",
+     "a": "Beyond sharing news, corporate communication builds the brand, guards reputation and steers crisis response.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functions of Corporate Communication', in plain ASCII form.",
+     "a": "corporate_function = information_flow plus brand_building plus reputation_management plus crisis_control",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.3",
+   "title": "Functions of Public Relations Departments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Functions of Public Relations Departments' refers to.",
+     "a": "Corporate PR departments and agencies share five common functions: developing and recommending public relations policy to top management; drafting corporate statements, executive speeches and press releases; publicity through announcements and planned promotional campaigns; maintaining liaison with government units, community, shareholders and investors, including annual and quarterly reports; and preparing in-house publications.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Public Relations Departments'.",
+     "a": "Policy, press releases, publicity, stakeholder liaison and publications form the shared core of PR work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functions of Public Relations Departments', in plain ASCII form.",
+     "a": "pr_work = policy plus statements plus publicity plus relations plus publications",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.4",
+   "title": "Major Areas of PR Activity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Major Areas of PR Activity' refers to.",
+     "a": "Five activity areas: press relations, where PR and journalists depend on each other for news and publicity; advertising, where the PR person decides budget and media; publications such as brochures, folders, pamphlets and house journals; coordination of other media like films, exhibitions, hoardings, puppetry and folk songs; and PR with constituents -- community, bankers, financial analysts, shareholders and employees.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Major Areas of PR Activity'.",
+     "a": "PR and the press feed each other -- news for publicity -- while advertising, publications and media coordination spread the message.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Major Areas of PR Activity', in plain ASCII form.",
+     "a": "pr_areas = press_relations plus advertising plus publications plus media_coordination plus constituent_liaison",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.5",
+   "title": "Arthur W. Page's Seven Principles of Public Relations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Arthur W. Page's Seven Principles of Public Relations' refers to.",
+     "a": "Arthur W. Page managed public relations through seven principles: tell the truth with an accurate picture of the company; prove it with action, since perception is set far more by deeds than words; listen to the customer and keep decision makers informed; manage for tomorrow by anticipating reaction and building goodwill; treat PR as a management function the whole company depends on; remember the company's true character is expressed by its people, each an ambassador; and stay calm, patient and good-humoured, for cool heads communicate best.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arthur W. Page's Seven Principles of Public Relations'.",
+     "a": "Truth plus action beats words -- perception is roughly ninety per cent deeds and ten per cent statements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Arthur W. Page's Seven Principles of Public Relations', in plain ASCII form.",
+     "a": "page_principles = truth plus action plus listening plus tomorrow plus management_function plus people plus calm",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.6",
+   "title": "Internal and External Communication",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Internal and External Communication' refers to.",
+     "a": "Internal communication flows among employer and employees -- vertical, horizontal and diagonal, formal or informal -- binding the organisation, lifting morale and promoting transparency; ineffective communication is the root of most internal problems. External communication links members with government, customers, dealers, corporate bodies and the public, building goodwill, brand preservation and marketing reach. Both use written and oral media, from memos and house journals to letters and annual reports.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Internal and External Communication'.",
+     "a": "Messages inside the organisation bind it; messages outside build goodwill and markets.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Internal and External Communication', in plain ASCII form.",
+     "a": "org_communication = internal_flows plus external_flows",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.7",
+   "title": "The 7 Cs of Composing Messages",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The 7 Cs of Composing Messages' refers to.",
+     "a": "While composing any message seven qualities matter: conciseness so attention is caught quickly; concreteness with all meaning but short length; clarity that never confuses the reader; completeness giving sufficient information; courtesy in tone with compliments to the reader; correctness free of grammatical errors; and consideration, stressing a you-attitude rather than I and we wording.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The 7 Cs of Composing Messages'.",
+     "a": "A well-composed message is brief, concrete, clear, complete, courteous, correct and reader-centred.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The 7 Cs of Composing Messages', in plain ASCII form.",
+     "a": "message_quality = conciseness plus concreteness plus clarity plus completeness plus courtesy plus correctness plus consideration",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.8",
+   "title": "Survey Percentage Reading in Communication Studies",
+   "questions": [
+    {
+     "q": "Calculate how many respondents in a sample of 250 chose a given survey option at 79 per cent. Use the method 'Survey Percentage Reading in Communication Studies'. Work with: agreement_pct = 30, sample_size = 1024. Carry the chain through step by step and give the final value of respondent_count.",
+     "a": "307.2 units",
+     "self_check": false
+    },
+    {
+     "q": "How many of 500 engineers rated cooperation concerns strongest when the share is 88 per cent? Use the method 'Survey Percentage Reading in Communication Studies'. Work with: agreement_pct = 300, sample_size = 1024. Carry the chain through step by step and give the final value of respondent_count.",
+     "a": "3072 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Survey Percentage Reading in Communication Studies' refers to.",
+     "a": "Corporate communication research is reported as percentages of surveyed groups, and each figure converts to head counts by taking that percent of the sample. In the classic workplace studies cited here, most industrial engineers blamed weak communication and cooperation for reduced productivity, and most chief executives held that communicating with employees lifts job satisfaction and the bottom line, yet few managed weekly contact.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Survey Percentage Reading in Communication Studies'.",
+     "a": "A survey percent converts to people by multiplying the sample by the percentage over 100.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Survey Percentage Reading in Communication Studies', in plain ASCII form.",
+     "a": "respondent_count = sample_size * agreement_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.9",
+   "title": "Perception Split: Deeds versus Words",
+   "questions": [
+    {
+     "q": "Calculate the words-based portion of a 50 point public perception rating. Use the method 'Perception Split: Deeds versus Words'. Work with: action_pct = 40, perception_points = 240. Carry the chain through step by step and give the final value of perception_from_action.",
+     "a": "96 units",
+     "self_check": false
+    },
+    {
+     "q": "How many points of a 75 point perception total reflect what the organisation does? Use the method 'Perception Split: Deeds versus Words'. Work with: action_pct = 10, perception_points = 24. Carry the chain through step by step and give the final value of perception_from_action.",
+     "a": "2.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Perception Split: Deeds versus Words' refers to.",
+     "a": "Under Arthur W. Page's second principle, the public judges an organisation overwhelmingly by conduct: about ninety per cent of perception comes from what the organisation does and only ten per cent from what it says. Any perception score can therefore be split into an action share and a statement share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Perception Split: Deeds versus Words'.",
+     "a": "Perception is earned by deeds roughly nine times more than by declarations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Perception Split: Deeds versus Words', in plain ASCII form.",
+     "a": "perception_from_action = perception_points * action_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.10",
+   "title": "Rapport: Analogue versus Digital Message Weight",
+   "questions": [
+    {
+     "q": "Using the method 'Rapport: Analogue versus Digital Message Weight', work with: analogue_pct = 120, message_points = 1500. Carry the chain through step by step and give the final value of analogue_weight.",
+     "a": "1800 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rapport: Analogue versus Digital Message Weight' and work with: analogue_pct = 20, message_points = 1500. Carry the chain through step by step and give the final value of analogue_weight.",
+     "a": "300 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rapport: Analogue versus Digital Message Weight' refers to.",
+     "a": "Rapport is the trust and harmony in a relationship, and it hinges on how a message travels: roughly 93 per cent is carried by body language and manner of speaking (analogue communication, mostly unconscious) while only 7 per cent rides on the words themselves (digital communication). A master communicator works at both conscious and unconscious levels to build rapport with a wide range of people.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rapport: Analogue versus Digital Message Weight'.",
+     "a": "About 93 per cent of a message travels through body language and voice; the words carry only 7 per cent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rapport: Analogue versus Digital Message Weight', in plain ASCII form.",
+     "a": "analogue_weight = message_points * analogue_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.11",
+   "title": "Listening and Core Communicator Skills",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Listening and Core Communicator Skills' refers to.",
+     "a": "Listening is active and has three parts -- hearing as the body receives sound, understanding as the brain derives meaning in context, and responding to show the message landed. Around it sit interpersonal skill in social interaction, negotiation that trades concessions so both sides exit satisfied, presentation with content, structure, packaging and human element, rapport establishment, decision making, telephone etiquette, writing, public speaking, accent neutralisation, and time and stress management.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Listening and Core Communicator Skills'.",
+     "a": "Hearing alone is not listening -- meaning and a response complete the active process.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Listening and Core Communicator Skills', in plain ASCII form.",
+     "a": "listening = hearing plus understanding plus responding",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.12",
+   "title": "Time and Stress Management for Communicators",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Time and Stress Management for Communicators' refers to.",
+     "a": "Time is a matchless resource; managing it means running principles, practices, tools and systems together so work yields more value, greater efficiency and less stress. Stress is the physical, mental and emotional response when life's demands exceed the ability to cope; managing it means taking charge of thoughts, emotions, schedule and environment so that work, relationships, relaxation and fun stay balanced under pressure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Time and Stress Management for Communicators'.",
+     "a": "Good time habits cut stress; managing stress keeps work, relationships and relaxation in balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Time and Stress Management for Communicators', in plain ASCII form.",
+     "a": "balance = demands handled within coping capacity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.13",
+   "title": "ICT in Corporate Communication and the PR Scope",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'ICT in Corporate Communication and the PR Scope' refers to.",
+     "a": "Information and Communication Technology is the umbrella term for every technical means of processing and communicating information -- today mostly digital techniques for transmission, storage and processing, popularised by the union of information technology and telecom. PR scope follows the technology: covering employer-employee communication, extending it to stockholders, media, NGOs, government and customers, and innovating with new media.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ICT in Corporate Communication and the PR Scope'.",
+     "a": "Digital technology widened PR's reach from internal messaging to every outside audience.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'ICT in Corporate Communication and the PR Scope', in plain ASCII form.",
+     "a": "ict_scope = processing plus transmission plus storage of information",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe207.14",
+   "title": "Event Budget Balance",
+   "questions": [
+    {
+     "q": "Calculate the surplus when total income of Rs 8000 exceeds expenses of Rs 6500. Use the method 'Event Budget Balance'. Work with: contributions = 30, decoration_cost = 500, refreshment_cost = 5000, ticket_sales = 120000. Carry the chain through step by step and give the final value of event_balance.",
+     "a": "114530 units",
+     "self_check": false
+    },
+    {
+     "q": "How much remains after an event with Rs 12000 income and Rs 9500 expenses? Use the method 'Event Budget Balance'. Work with: contributions = 10, decoration_cost = 20000, refreshment_cost = 2500, ticket_sales = 50000. Carry the chain through step by step and give the final value of event_balance.",
+     "a": "27510 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Event Budget Balance' refers to.",
+     "a": "Planning a school event ends with an account of money: record every receipt -- tickets, contributions, sales -- and every expense -- refreshments, decoration, transport, invitations. Subtracting total expenses from total income leaves the balance, which tells whether the event finished with a surplus or a deficit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Event Budget Balance'.",
+     "a": "Income minus expenses gives the event's balance -- positive means surplus, negative means deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Event Budget Balance', in plain ASCII form.",
+     "a": "event_balance = total_income - total_expenses",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

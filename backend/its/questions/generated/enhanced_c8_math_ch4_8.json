@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_8",
+   "title": "c8_math_ch4_8",
+   "questions": [
+    {
+     "q": "State the property of the diagonals of a rhombus regarding their intersection.",
+     "a": "The diagonals of a rhombus intersect at right angles (90°) and bisect each other. A wrong answer (e.g., \"diagonals are equal\" or \"diagonals bisect at 60°\") reveals confusion with rectangle properties or a lack of recall of the specific rhombus diagonal property.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the diagonals of a rhombus are perpendicular bisectors, using the fact that all sides of a rhombus are equal.",
+     "a": "Because all sides are equal and the diagonals bisect each other (parallelogram property), the four triangles formed by the diagonals have three equal sides (SSS), so they are congruent. The angles at the intersection are equal and sum to 360°, so each is 90°. A wrong answer that only states \"diagonals are perpendicular\" without linking to triangle congruence shows a gap in understanding the geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In rhombus ABCD, diagonals AC and BD intersect at O. If AC = 24 cm and BD = 10 cm, find the length of side AB.",
+     "a": "Since diagonals bisect each other, AO = 12 cm and BO = 5 cm. Triangle AOB is right-angled at O (diagonals are perpendicular). By Pythagoras, AB² = AO² + BO² = 144 + 25 = 169, so AB = 13 cm. A wrong answer (e.g., 17 cm from adding 12+5) reveals the student did not apply the right triangle property or Pythagoras correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A rhombus has diagonals of lengths 16 cm and 30 cm. Compare its side length to the side length of a square with the same diagonal lengths. What do you observe?",
+     "a": "For the rhombus, side = √(8² + 15²) = 17 cm. For a square, diagonals are equal, so this is not a square. The question tests if the student recognizes that a square is a special rhombus with equal diagonals; a wrong comparison (e.g., saying both have side 17 cm) shows misunderstanding that a square's diagonals must be equal.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a rhombus, the diagonals are equal and perpendicular.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. In a rhombus, diagonals are perpendicular but not necessarily equal; they are equal only in a square (a special rhombus). A wrong evaluation (e.g., agreeing) reveals confusion between rhombus and square properties.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a rhombus with diagonals 6 cm and 8 cm using a ruler and compass. Describe the steps and explain why the construction works.",
+     "a": "Draw a line segment AC = 6 cm. Construct its perpendicular bisector. On the bisector, mark points B and D such that OB = OD = 4 cm (half of 8 cm). Join A, B, C, D. This works because the diagonals of a rhombus are perpendicular bisectors; the construction ensures all sides become equal (each side = √(3²+4²)=5 cm). A poor answer that omits the perpendicular bisector step shows lack of connection between property and construction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

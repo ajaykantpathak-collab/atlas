@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_2",
+   "title": "c9_chem_ch1_2",
+   "questions": [
+    {
+     "q": "Define solute and solvent in a solution. In a solution of iodine in alcohol (tincture of iodine), which is the solute and which is the solvent? State the general rule for identifying them.",
+     "a": "Solute is the component present in smaller amount that gets dissolved; solvent is the component present in larger amount that does the dissolving. In tincture of iodine, iodine (solid) is the solute and alcohol (liquid) is the solvent. The general rule: the substance in lesser quantity (by mass or volume) is solute, the substance in greater quantity is solvent. A wrong answer (e.g., calling alcohol the solute because it's the liquid) reveals the misconception that the liquid is always the solvent, ignoring relative amounts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why mass by mass percentage is preferred for solid-solid solutions (alloys) while volume by volume percentage is used for liquid-liquid solutions. What property of matter makes volume-based concentration tricky for solids?",
+     "a": "Mass is conserved and additive regardless of state, so mass% works for any combination. Volume is not strictly additive (mixing 50 mL water + 50 mL ethanol gives ~96 mL total) and solids have fixed volumes that don't mix uniformly like liquids. Volume-based concentration for solids is tricky because solids have definite volume and don't flow to fill container, making \"volume of solute\" ambiguous. A wrong answer focusing only on \"solids have fixed shape\" misses the non-additivity of volumes and the concept of partial molar volumes.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a solution by dissolving 15 g of common salt (NaCl) in 85 g of water. Calculate the mass by mass percentage of the solution. Then calculate the mass by volume percentage if the final solution volume is 92 mL. Show all steps.",
+     "a": "Step 1: Total mass of solution = mass of solute + mass of solvent = 15 g + 85 g = 100 g.  \nStep 2: Mass by mass % = (mass of solute / mass of solution) × 100 = (15/100) × 100 = 15%.  \nStep 3: Mass by volume % = (mass of solute / volume of solution) × 100 = (15 g / 92 mL) × 100 = 16.3% (approx).  \nA wrong answer using 85 g as solution mass (forgetting to add solute) gives 17.6% mass/mass, revealing the error of confusing solvent mass with solution mass.",
+     "self_check": true
+    },
+    {
+     "q": "Compare three solutions: A) 10% (mass/mass) sugar in water, B) 10% (mass/volume) sugar in water, C) 10% (volume/volume) alcohol in water. If 100 g of each solution is taken, which contains the highest mass of solute? Assume density of water = 1 g/mL, density of 10% sugar solution ≈ 1.04 g/mL, density of 10% alcohol solution ≈ 0.98 g/mL. Reason step by step.",
+     "a": "Solution A: 10% mass/mass → 10 g sugar in 100 g solution.  \nSolution B: 10% mass/volume → 10 g sugar per 100 mL solution. 100 g of this solution has volume = mass/density = 100/1.04 ≈ 96.15 mL. Mass of sugar = (10 g/100 mL) × 96.15 mL = 9.615 g.  \nSolution C: 10% volume/volume → 10 mL alcohol per 100 mL solution. 100 g of this solution has volume = 100/0.98 ≈ 102.04 mL. Volume of alcohol = (10/100) × 102.04 = 10.204 mL. Mass of alcohol = volume × density (ethanol 0.789 g/mL) ≈ 8.05 g.  \nThus A (10 g) > B (9.6 g) > C (8.05 g). A wrong answer assuming all 10% are equal reveals inability to convert between concentration bases using density.",
+     "self_check": true
+    },
+    {
+     "q": "A label on a commercial vinegar bottle reads \"5% acidity\". This means 5% (volume/volume) acetic acid in water. A student argues that 5% (mass/mass) would be a more accurate label because mass doesn't change with temperature. Evaluate this claim. Is the student correct? Justify.",
+     "a": "The student is partially correct that mass% is temperature-independent while volume% changes with thermal expansion. However, for dilute aqueous solutions like vinegar, volume change is negligible (<0.1% per °C), and volume% is traditional and convenient for liquids. Also, \"acidity\" in culinary context refers to volume/volume by convention. A wrong answer saying \"mass% is always better\" ignores practical conventions and the small magnitude of volume change; a wrong answer saying \"volume% is always better\" ignores temperature effects in precise work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to determine which of two unlabelled bottles contains a higher concentration of salt solution, using only a balance, a measuring cup (volume), and a stove. Write the procedure and the calculation you would perform.",
+     "a": "Procedure: 1) Measure equal volumes (e.g., 50 mL) of each solution using measuring cup. 2) Weigh each 50 mL sample (mass/volume gives density). 3) Heat each sample in separate pans to evaporate water completely. 4) Weigh the dry salt residue left in each pan. 5) Calculate mass/volume % = (mass of residue / initial volume) × 100. Higher % indicates higher concentration. A poor answer that only tastes or only weighs equal volumes without evaporation reveals misunderstanding that concentration requires separating solute from solvent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

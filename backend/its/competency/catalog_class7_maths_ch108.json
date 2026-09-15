@@ -1,0 +1,432 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Working with Fractions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp108.txt",
+ "concepts": [
+  {
+   "id": "gegp.8.1.1",
+   "title": "Multiplication of a Whole Number and a Fraction",
+   "section": "8.1",
+   "definition": "To multiply a fraction and a whole number, we divide the multiplicand by the denominator of the multiplier and then multiply the result by the numerator, or treat the whole number as a fraction with denominator 1.",
+   "formula": "whole_num * (num / den) = (whole_num * num) / den",
+   "key_idea": "Repeated addition of the fractional part.",
+   "textbook_ref": "gegp108.txt lines 10-50",
+   "question_patterns": [
+    "find the product of {whole_num} and {num}/{den}",
+    "multiply {whole_num} by {num}/{den}",
+    "calculate {whole_num} times {num}/{den}",
+    "a person walks {num}/{den} km in 1 hour, how far in {whole_num} hours",
+    "explain multiplication of a whole number and a fraction with an example",
+    "short note on multiplication of a whole number and a fraction",
+    "why is multiplication of a whole number and a fraction important",
+    "give one everyday example of multiplication of a whole number and a fraction",
+    "describe multiplication of a whole number and a fraction in your own words",
+    "what do you understand by multiplication of a whole number and a fraction",
+    "list the main points about multiplication of a whole number and a fraction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the whole number by the numerator",
+     "explain": "The whole number is treated as a fraction with denominator 1.",
+     "compute": "top_product = whole_num * num"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the denominator",
+     "explain": "The denominator remains the same as the original fraction.",
+     "compute": "result = top_product / den"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the resulting fraction",
+     "explain": "Reduce the fraction to its lowest form by dividing numerator and denominator by their GCD."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.2",
+   "title": "Multiplication of Two Fractions",
+   "section": "8.1",
+   "definition": "Multiplication of twoput differently,  or more fractions is obtained by taking the product of the numerators divided by the product of the denominators.",
+   "formula": "(a/b) * (c/d) = (a * c) / (b * d)",
+   "key_idea": "Multiply numerators together and denominators together.",
+   "textbook_ref": "gegp108.txt lines 181-182",
+   "question_patterns": [
+    "multiply {num1}/{den1} and {num2}/{den2}",
+    "find the product of {num1}/{den1} and {num2}/{den2}",
+    "calculate {num1}/{den1} times {num2}/{den2}",
+    "what is {num1}/{den1} of {num2}/{den2}",
+    "explain multiplication of two fractions with an example",
+    "short note on multiplication of two fractions",
+    "why is multiplication of two fractions important",
+    "give one everyday example of multiplication of two fractions",
+    "describe multiplication of two fractions in your own words",
+    "what do you understand by multiplication of two fractions",
+    "list the main points about multiplication of two fractions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the product of numerators",
+     "explain": "Multiply num1 and num2.",
+     "compute": "res_num = num1 * num2"
+    },
+    {
+     "step": 2,
+     "action": "Find the product of denominators",
+     "explain": "Multiply den1 and den2.",
+     "compute": "res_den = den1 * den2"
+    },
+    {
+     "step": 3,
+     "action": "Form the resulting fraction",
+     "explain": "The product is the numerator product over the denominator product.",
+     "compute": "result = res_num / res_den"
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.3",
+   "title": "Area of a Rectangle with Fractional Sides",
+   "section": "8.1",
+   "definition": "The area ofin short,  a rectangle of fractional sides equals the product of its sides.",
+   "formula": "area = length * breadth",
+   "key_idea": "Geometric interpretation of fraction multiplication using a unit square.",
+   "textbook_ref": "gegp108.txt lines 180-181",
+   "question_patterns": [
+    "find the area of a rectangle with sides {length_num}/{length_den} and {breadth_num}/{breadth_den}",
+    "calculate the area of a rectangle of sides {length} and {breadth}",
+    "what is the area of a rectangular field with dimensions {length} by {breadth}",
+    "explain area of a rectangle with fractional sides with an example",
+    "short note on area of a rectangle with fractional sides",
+    "why is area of a rectangle with fractional sides important",
+    "give one everyday example of area of a rectangle with fractional sides",
+    "describe area of a rectangle with fractional sides in your own words",
+    "what do you understand by area of a rectangle with fractional sides",
+    "list the main points about area of a rectangle with fractional sides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the lengths of the sides",
+     "explain": "Area is the product of length and breadth.",
+     "compute": "area = length * breadth"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the numerators of the two fractional sides",
+     "explain": "Treat each side as a fraction and multiply their numerators together.",
+     "compute": "res_num = length_num * breadth_num"
+    },
+    {
+     "step": 3,
+     "action": "Multiply the denominators and simplify",
+     "explain": "Multiply the denominators to form the area fraction, then reduce to lowest form.",
+     "compute": "area = res_num / res_den"
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.4",
+   "title": "Simplifying Fractions by Cancelling Common Factors",
+   "section": "8.1",
+   "definition": "When multiplying fractionssimply put, , we can first divide the numerator and denominator by their common factors before multiplying.",
+   "formula": "(a*k)/(b) * (c)/(d*k) = (a*c)/(b*d)",
+   "key_idea": "Reducing fractions to lowest form (apavartana) simplifies calculation.",
+   "textbook_ref": "gegp108.txt lines 182-183",
+   "question_patterns": [
+    "multiply and express in lowest form",
+    "simplify the product of {num1}/{den1} and {num2}/{den2}",
+    "cancel common factors and multiply",
+    "explain simplifying fractions by cancelling common factors with an example",
+    "short note on simplifying fractions by cancelling common factors",
+    "why is simplifying fractions by cancelling common factors important",
+    "give one everyday example of simplifying fractions by cancelling common factors",
+    "describe simplifying fractions by cancelling common factors in your own words",
+    "what do you understand by simplifying fractions by cancelling common factors",
+    "list the main points about simplifying fractions by cancelling common factors"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify common factors",
+     "explain": "Look for numbers in the numerator and denominator that share a divisor.",
+     "compute": "common = 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply remaining terms",
+     "explain": "Multiply the simplified numerators and simplified denominators.",
+     "compute": "result = (num1 * num2) / (den1 * den2)"
+    },
+    {
+     "step": 3,
+     "action": "Reduce the product to lowest form",
+     "explain": "Divide numerator and denominator by their GCD to get the simplest form."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.1.5",
+   "title": "Magnitude of Product",
+   "section": "8.1",
+   "definition": "The relationship between the product and the numbers multiplied depends on whether they are between 0 and 1 or greater than 1.",
+   "formula": "n * f < n (if 0 < f < 1)",
+   "key_idea": "Multiplying by a fraction less than 1 decreases the value.",
+   "textbook_ref": "gegp108.txt lines 184-185",
+   "question_patterns": [
+    "is the product of {val1} and {val2} greater than {val1}",
+    "compare the product with the original numbers",
+    "determine if the result is less than or greater than the factors",
+    "explain magnitude of product with an example",
+    "short note on magnitude of product",
+    "why is magnitude of product important",
+    "give one everyday example of magnitude of product",
+    "describe magnitude of product in your own words",
+    "what do you understand by magnitude of product",
+    "list the main points about magnitude of product"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if factors are between 0 and 1",
+     "explain": "If both are < 1, product is less than both. If one is > 1 and one is < 1, product is between them."
+    },
+    {
+     "step": 2,
+     "action": "Compute the product of the two factors",
+     "explain": "Multiply the two numbers to obtain the product for comparison."
+    },
+    {
+     "step": 3,
+     "action": "Compare the product with the original factors",
+     "explain": "Use the rule: multiplying by a fraction less than 1 decreases the value, while multiplying by a number greater than 1 increases it."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.1",
+   "title": "Reciprocal of a Fraction",
+   "section": "8.2",
+   "definition": "The reciprocal of a fraction a/b is b/a. When we multiply a fraction by its reciprocal, we get 1.",
+   "formula": "reciprocal(a/b) = b/a",
+   "key_idea": "Interchanging the numeratorthat is,  and denominator.",
+   "textbook_ref": "gegp108.txt lines 188-189",
+   "question_patterns": [
+    "find the reciprocal of {num}/{den}",
+    "what is the reciprocal of {val}",
+    "what number multiplied by {num}/{den} gives 1",
+    "explain reciprocal of a fraction with an example",
+    "short note on reciprocal of a fraction",
+    "why is reciprocal of a fraction important",
+    "give one everyday example of reciprocal of a fraction",
+    "describe reciprocal of a fraction in your own words",
+    "what do you understand by reciprocal of a fraction",
+    "list the main points about reciprocal of a fraction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Swap numerator and denominator",
+     "explain": "The new numerator is the old denominator and vice versa.",
+     "compute": "recip_val = den / num"
+    },
+    {
+     "step": 2,
+     "action": "Verify the reciprocal by multiplying with the original",
+     "explain": "A fraction multiplied by its reciprocal equals 1, confirming correctness.",
+     "compute": "check = (num / den) * recip_val"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the reciprocal if needed",
+     "explain": "If the reciprocal is an improper fraction, convert to a mixed number for the final answer."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.2",
+   "title": "Division of Fractions",
+   "section": "8.2",
+   "definition": "Division of oneput differently,  fraction by another is equivalent to multiplication of the first fraction by the reciprocal of the second.",
+   "formula": "(a/b) / (c/d) = (a/b) * (d/c)",
+   "key_idea": "Multiply the dividend by the reciprocal of the divisor.",
+   "textbook_ref": "gegp108.txt lines 189-190",
+   "question_patterns": [
+    "divide {num1}/{den1} by {num2}/{den2}",
+    "calculate {num1}/{den1} divided by {num2}/{den2}",
+    "how many {num2}/{den2} are in {num1}/{den1}",
+    "find the quotient of {num1}/{den1} and {num2}/{den2}",
+    "explain division of fractions with an example",
+    "short note on division of fractions",
+    "why is division of fractions important",
+    "give one everyday example of division of fractions",
+    "describe division of fractions in your own words",
+    "what do you understand by division of fractions",
+    "list the main points about division of fractions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find reciprocal of divisor",
+     "explain": "The divisor is the second fraction."
+    },
+    {
+     "step": 2,
+     "action": "Set reciprocal denominator",
+     "explain": "The denominator of the reciprocal is the numerator of the divisor."
+    },
+    {
+     "step": 3,
+     "action": "Multiply dividend by reciprocal",
+     "explain": "Multiply num1 by recip_num and den1 by recip_den.",
+     "compute": "result = (num1 * recip_num) / (den1 * recip_den)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2.3",
+   "title": "Magnitude of Quotient",
+   "section": "8.2",
+   "definition": "A cube of a number is what you get when the same number is used as a factor three times over -- n x n x n. Numbers made this way are called perfect cubes.",
+   "formula": "dividend / divisor > dividend (if 0 < divisor < 1)",
+   "key_idea": "Triple multiplication of a number by itself; the reverse operation is cube root.",
+   "textbook_ref": "gegp108.txt lines 189-190",
+   "question_patterns": [
+    "is the quotient of {divd} / {divs} greater than {divd}",
+    "compare the quotient with the dividend",
+    "what happens to the value when dividing by a fraction less than 1",
+    "explain magnitude of quotient with an example",
+    "short note on magnitude of quotient",
+    "why is magnitude of quotient important",
+    "give one everyday example of magnitude of quotient",
+    "describe magnitude of quotient in your own words",
+    "what do you understand by magnitude of quotient",
+    "list the main points about magnitude of quotient"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare divisor with 1",
+     "explain": "If divisor < 1, quotient > dividend. If divisor > 1, quotient < dividend."
+    },
+    {
+     "step": 2,
+     "action": "Compute the quotient of dividend divided by divisor",
+     "explain": "Divide the dividend by the divisor to obtain the quotient for comparison."
+    },
+    {
+     "step": 3,
+     "action": "Compare the quotient with the dividend",
+     "explain": "Use the rule: dividing by a fraction less than 1 increases the value, while dividing by a number greater than 1 decreases it."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp108.txt line 176",
+   "concept": "gegp.8.1.1",
+   "question_type": "compute",
+   "question_pattern": "A farmer had {count} grandchildren. She distributed {area_num}/{area_den} acre of land to each. How much land in all?",
+   "extracted_variables": {
+    "count": "whole number of children",
+    "area_num": "numerator of land per child",
+    "area_den": "denominator of land per child"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply count by numerator",
+     "compute": "top_product = count * area_num"
+    },
+    {
+     "step": 2,
+     "action": "Divide by denominator",
+     "compute": "result = top_product / area_den"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp108.txt line 190",
+   "concept": "gegp.8.2.2",
+   "question_type": "compute",
+   "question_pattern": "Leena made {cups} cups of tea using {milk_num}/{milk_den} litre of milk. How much milk in each cup?",
+   "extracted_variables": {
+    "cups": "divisor whole number",
+    "milk_num": "dividend numerator",
+    "milk_den": "dividend denominator"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find reciprocal of cups",
+     "compute": "recip_num = 1"
+    },
+    {
+     "step": 2,
+     "action": "Set reciprocal denominator",
+     "compute": "recip_den = cups"
+    },
+    {
+     "step": 3,
+     "action": "Multiply milk fraction by reciprocal",
+     "compute": "result = (milk_num * recip_num) / (milk_den * recip_den)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "gegp108.txt line 176",
+   "questions": [
+    "Tenzin drinks 1/2 glass of milk every day. How many glasses in a week?",
+    "A team makes 1 km canal in 8 days. How much in 1 day? How much in 5 days?",
+    "Multiply and convert to mixed fraction: 7 * 3/5, 4 * 1/3"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "gegp108.txt line 180",
+   "questions": [
+    "Find products: 1/3 * 1/5, 1/4 * 1/3, 1/5 * 1/2",
+    "Find 1/12 * 1/18",
+    "Find 2/3 * 4/5, 4/6 * 3/5"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "gegp108.txt line 183",
+   "questions": [
+    "Find area of rectangle sides 3 3/4 ft and 9 3/5 ft.",
+    "Which is heavier: 12/15 of 500g or 3/20 of 4kg?",
+    "Distance between 4 saplings if gap is 3/4 m."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "gegp108.txt line 196",
+   "questions": [
+    "Evaluate: 3 / (7/9), (14/4) / 2, (2/3) / (2/3)",
+    "Maria has 8m lace, uses 1/4m per bag. How many bags?",
+    "Car runs 16km on 1L petrol. How far on 2 3/4L?"
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

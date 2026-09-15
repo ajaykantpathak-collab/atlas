@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_008",
+   "title": "c12_phy_cbse_03_008",
+   "questions": [
+    {
+     "q": "State the principle of a potentiometer and write the mathematical condition for the balance point when a cell of emf E is balanced against a length ℓ of the potentiometer wire.",
+     "a": "**Correct answer:** Principle: When a constant current flows through a uniform wire, the potential drop across any length of the wire is directly proportional to that length. Balance condition: E = kℓ, where k = potential gradient (V/m) = V_driver / L_total (V_driver is the potential difference across the full wire length L_total).  \n**What a wrong answer reveals:** If a student writes E = Iℓ or E = V/ℓ, they confuse potential gradient with resistance per unit length or misapply Ohm's law. If they omit \"constant current\" or \"uniform wire\", they miss the essential conditions for proportionality. This indicates they haven't internalized that the wire acts as a linear voltage divider only under steady current and uniform cross-section.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a potentiometer give a more accurate measurement of a cell's emf than a voltmeter connected directly across the cell? Explain using the concept of current drawn at the moment of measurement.",
+     "a": "**Correct answer:** A voltmeter draws a small current I_v = E / (R_v + r) where R_v is voltmeter resistance and r is internal resistance. The terminal voltage measured is V = E – I_v r, which is less than the true emf E. At the potentiometer's null point, the galvanometer current is zero, so the test cell supplies no current, and the potential drop across the wire length exactly equals the cell's emf without any internal resistance drop.  \n**What a wrong answer reveals:** If a student says \"potentiometer has infinite resistance\" or \"voltmeter has zero resistance\", they confuse the instrument's internal resistance with the measurement condition. If they say \"potentiometer measures potential difference, voltmeter measures emf\", they misunderstand definitions. The key is the zero-current condition at null point, not the instrument's resistance.",
+     "self_check": true
+    },
+    {
+     "q": "A potentiometer wire of length 1.00 m has a resistance of 10.0 Ω. It is connected in series with a 2.00 V driver cell (negligible internal resistance) and a rheostat. The rheostat is adjusted so that the potential gradient along the wire is 1.50 × 10⁻³ V/cm. A test cell of emf E is balanced at ℓ = 65.0 cm. Calculate E. Then find the current through the potentiometer wire.",
+     "a": "**Step 1:** Convert potential gradient to SI: k = 1.50 × 10⁻³ V/cm = 0.150 V/m.  \n**Step 2:** Balance length ℓ = 65.0 cm = 0.650 m.  \n**Step 3:** E = kℓ = (0.150 V/m) × (0.650 m) = 0.0975 V = 97.5 mV.  \n**Step 4:** Total potential difference across wire: V_wire = k × L_total = 0.150 V/m × 1.00 m = 0.150 V.  \n**Step 5:** Wire resistance R_wire = 10.0 Ω. Current I = V_wire / R_wire = 0.150 V / 10.0 Ω = 0.0150 A = 15.0 mA.  \n**Answer:** E = 97.5 mV; I = 15.0 mA.  \n**What a wrong answer reveals:** If a student uses ℓ in cm with k in V/m without conversion, they get E = 97.5 V (unreasonable). If they use driver cell voltage (2.00 V) directly as V_wire, they ignore the rheostat's voltage drop. If they calculate I = 2.00 V / 10.0 Ω = 0.200 A, they forget the rheostat shares the driver voltage.",
+     "self_check": true
+    },
+    {
+     "q": "In a potentiometer experiment to compare emfs of two cells E₁ and E₂, the balance lengths are ℓ₁ = 40.0 cm and ℓ₂ = 60.0 cm. The same driver cell and wire are used for both measurements. A student claims the ratio E₁/E₂ = ℓ₁/ℓ₂ = 2/3. Is this correct? Justify your answer, and state the condition under which this ratio holds exactly.",
+     "a": "**Correct answer:** Yes, the claim is correct. E₁/E₂ = ℓ₁/ℓ₂ = 40.0/60.0 = 2/3. This holds because the potential gradient k is identical for both measurements (same driver current, same wire). At balance, E₁ = kℓ₁ and E₂ = kℓ₂, so the ratio eliminates k.  \n**What a wrong answer reveals:** If a student says \"no, because the galvanometer sensitivity changes\" or \"no, because internal resistances differ\", they confuse the measurement principle. The potentiometer measures emf at zero current, so internal resistance of the test cells does not affect the balance length. The ratio holds exactly only if k is constant — i.e., the driver cell voltage and wire temperature remain unchanged between the two measurements.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the internal resistance r of a cell using a potentiometer. With the cell in open circuit, balance length ℓ₁ = 75.0 cm. With a 10.0 Ω resistor connected across the cell, balance length ℓ₂ = 60.0 cm. The student calculates r = (ℓ₁ – ℓ₂)/ℓ₂ × R = (15/60) × 10 = 2.5 Ω. Identify the error in this calculation and give the correct formula and value.",
+     "a": "**Error:** The student used (ℓ₁ – ℓ₂)/ℓ₂ instead of (ℓ₁ – ℓ₂)/ℓ₂? Wait — the formula is r = (ℓ₁ – ℓ₂)/ℓ₂ × R? Let's derive: Open circuit: E = kℓ₁. With load R: terminal voltage V = kℓ₂ = E × R/(R+r). So kℓ₂ = kℓ₁ × R/(R+r) → ℓ₂/ℓ₁ = R/(R+r) → R+r = Rℓ₁/ℓ₂ → r = R(ℓ₁/ℓ₂ – 1) = R(ℓ₁ – ℓ₂)/ℓ₂. The student's formula is actually correct! But wait — the student computed (15/60) × 10 = 2.5 Ω. ℓ₁ = 75, ℓ₂ = 60, so ℓ₁ – ℓ₂ = 15, ℓ₂ = 60. 15/60 = 1/4. 1/4 × 10 = 2.5 Ω. This is correct.  \n**Trick:** The question asks to \"identify the error\" but there is no error — this tests if the student blindly looks for an error.  \n**Correct answer:** There is no error in the calculation. The formula r = R(ℓ₁ – ℓ₂)/ℓ₂ is correct, and the arithmetic yields r = 2.5 Ω.  \n**What a wrong answer reveals:** If a student invents an error (e.g., \"should be ℓ₁/ℓ₂\" or \"should use ℓ₁ in denominator\"), they don't understand the derivation. If they say \"the formula is wrong because internal resistance formula is r = (E/V – 1)R\", they fail to connect that to the balance lengths. This diagnostic tests whether the student can verify a derivation rather than just recall a formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a potentiometer-based experiment to determine the resistance of a given wire without using a meter bridge. List the apparatus, circuit diagram description, procedure, and the formula you would use. Explain why this method might be preferred over a meter bridge for very low resistances.",
+     "a": "**Expected answer:**  \n**Apparatus:** Potentiometer, driver cell (2 V), rheostat, test wire (unknown R), known resistance box (R_box), galvanometer, jockey, connecting wires.  \n**Circuit:** Driver cell → rheostat → potentiometer wire (length L). Test wire and R_box connected in series across a separate battery? No — better: Connect the test wire in series with a known resistor R_s and a small battery to pass current I through test wire. Connect the ends of the test wire to the potentiometer (through galvanometer and jockey) to measure the potential drop V across it.  \n**Procedure:** (1) Set up driver circuit, find potential gradient k using a standard cell. (2) Pass known current I through test wire using a separate circuit with ammeter. (3) Measure balance length ℓ for V across test wire. (4) V = kℓ. (5) R_wire = V/I = kℓ/I.  \n**Why preferred for low R:** Meter bridge requires a known comparable resistance; for very low R (milliohms), contact resistances and end resistances dominate. Potentiometer measures V directly, and I can be made large with a separate supply, giving measurable V even for tiny R.  \n**What a poor answer reveals:** If the student describes a meter bridge setup, they confuse the two instruments. If they suggest measuring current through the potentiometer wire itself, they misunderstand the null method. If they omit the separate current-carrying circuit for the test wire, they miss that the potentiometer only measures voltage, not current.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

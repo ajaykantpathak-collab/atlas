@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_011",
+   "title": "c11_hs_cbse_08_011",
+   "questions": [
+    {
+     "q": "A 10-year-old boy weighs 42 kg and is 138 cm tall. Using the BMI-for-age formula (weight in kg / height in m²), calculate his BMI and state whether this value alone is sufficient to classify him as obese according to WHO growth standards for school-age children.",
+     "a": "BMI = 42 / (1.38)² = 42 / 1.9044 = 22.05 kg/m². No, BMI alone is insufficient; classification requires plotting this value on WHO BMI-for-age percentile charts (or z-scores) specific to sex and exact age in months. A BMI of 22.05 at 10 years may be >+2 SD (obese) for boys but could be normal for girls or different ages. Wrong answers reveal students confuse adult BMI cut-offs (25/30) with paediatric percentile-based classification, ignoring age- and sex-specific growth dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mid-Day Meal Scheme (MDMS) has been more effective in reducing gender gaps in school attendance than in eliminating undernutrition among enrolled children, despite providing 450 kcal and 12g protein per meal as per norms.",
+     "a": "MDMS improves attendance by removing the opportunity cost of sending girls to school (free meal substitutes home labour/meal prep), directly boosting enrolment. However, undernutrition persists because: (1) the meal covers only ~1/3 of daily RDA (1690 kcal, 29.5g protein for 7-9 yr), leaving deficits if breakfast/dinner are inadequate; (2) frequent menu monotony, poor bioavailability of plant-based iron, and irregular supply reduce effective nutrient intake; (3) underlying food insecurity at home, recurrent infections, and poor WASH limit nutrient utilisation. Wrong answers focus only on meal composition, missing the multi-factorial nature of undernutrition and the difference between attendance incentives and nutritional adequacy.",
+     "self_check": true
+    },
+    {
+     "q": "A school health survey finds 18% obesity prevalence in 10-12 year boys from high-income families versus 4% in low-income families. Propose three distinct, evidence-based dietary interventions targeting the high-income group that address the specific drivers mentioned in NCERT (fatty foods, high salt, low fiber, sugary beverages, inactivity), with one measurable outcome indicator for each.",
+     "a": "1. **Replace sugary beverages with water/milk**: School policy banning carbonated drinks/sweetened juices; outcome: ≥50% reduction in added sugar intake from beverages (24-hr recall). 2. **Increase vegetable/fruit servings in tiffin**: Parent workshop + canteen standards requiring ≥1 vegetable + 1 fruit daily; outcome: mean fiber intake ≥20g/day (food frequency questionnaire). 3. **Structured physical activity integration**: Mandatory 45-min daily moderate-vigorous activity (sports/dance/yoga) during school hours; outcome: ≥60% children meeting WHO 60-min MVPA guideline (accelerometer/subjective recall). Wrong answers suggest generic \"healthy eating\" advice without targeting the specific NCERT-identified drivers or lack measurable, time-bound indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pathophysiological pathways linking obesity to Type 2 diabetes versus undernutrition to impaired cognitive performance in school-age children. Identify one common biological mechanism that exacerbates both conditions when they coexist in a population (double burden).",
+     "a": "**Obesity → T2DM**: Chronic caloric surplus → adipose tissue hypertrophy → macrophage infiltration → pro-inflammatory cytokines (TNF-α, IL-6) → insulin receptor substrate phosphorylation inhibition → peripheral insulin resistance → pancreatic β-cell exhaustion → hyperglycaemia. **Undernutrition → cognitive deficits**: Chronic protein-energy-micronutrient deficit → reduced dendritic arborisation, myelination, neurotransmitter synthesis (iron/zinc-dependent) → impaired hippocampal/prefrontal development → reduced attention, memory, executive function. **Common exacerbating mechanism**: **Chronic low-grade inflammation**—obesity drives it via adipokines; undernutrition drives it via gut barrier dysfunction, endotoxemia, and recurrent infections. In double-burden households, shared inflammatory milieu amplifies insulin resistance in overweight members and worsens nutrient partitioning/absorption in undernourished members. Wrong answers list separate mechanisms without identifying the shared inflammatory pathway or confuse correlation with causation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Providing high-calorie snacks (e.g., peanut chikki, laddoos) in the Mid-Day Meal Scheme will simultaneously solve undernutrition in poor children and prevent obesity by replacing junk food cravings.\" Use energy density, nutrient density, and satiety concepts in your evaluation.",
+     "a": "The statement is flawed. **For undernutrition**: High-calorie traditional snacks (chikki ~450 kcal/100g) improve energy density but often lack nutrient density (low protein quality, micronutrients, fiber). They risk displacing the balanced MDM meal (cereal-pulse-vegetable-milk) if served as add-ons, worsening micronutrient gaps. **For obesity prevention**: These snacks are energy-dense, low-satiety (high fat/sugar, low fiber/water), promoting passive overconsumption. They do not \"replace cravings\"—they normalise sweet/fried snack culture. **Better approach**: Fortify the MDM meal itself (e.g., soy-fortified wheat, double-fortified salt, millet inclusion) to increase nutrient density without excess energy density; add a fruit/vegetable component for satiety. Wrong answers endorse the statement uncritically, confusing energy density with nutrient density or assuming traditional = healthy regardless of context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-component \"School Nutrition Action Plan\" for a mixed socio-economic urban school (Classes 6-8) that simultaneously addresses obesity in 22% of students and undernutrition (thinness) in 18%. Each component must target a different leverage point: policy, curriculum, food environment, family engagement, and monitoring. Specify one measurable target per component for a 12-month period.",
+     "a": "1. **Policy**: Ban sale of HFSS (high fat/salt/sugar) foods within 200m of school; target: 100% compliance verified by quarterly inspections. 2. **Curriculum**: Integrate 12-session \"Nutrition Literacy\" module (label reading, portion awareness, media literacy) into science/life skills; target: ≥80% students score ≥70% on post-test. 3. **Food Environment**: Redesign canteen using \"traffic light\" system (green=everyday, amber=select carefully, red=occasionally); target: green items ≥60% of sales volume. 4. **Family Engagement**: Monthly \"Tiffin Audit\" workshops with parents using ICMR balanced diet plates; target: ≥50% families attend ≥3 sessions; mean tiffin diversity score ↑20%. 5. **Monitoring**: Bi-annual BMI-for-age screening + Hb estimation (for undernutrition); target: obesity prevalence ↓3 percentage points; thinness prevalence ↓2.5 percentage points; zero increase in stunting. Poor answers list generic activities without specific leverage points, measurable targets, or dual-condition focus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

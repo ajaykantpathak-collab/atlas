@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_006",
+   "title": "c12_eco_cbse_07_006",
+   "questions": [
+    {
+     "q": "List the three leakages and three injections in a four-sector circular flow model.",
+     "a": "Correct answer: Leakages — Savings (S), Taxes (T), Imports (M). Injections — Investment (I), Government expenditure (G), Exports (X). A wrong answer that swaps any pair (e.g., calls exports a leakage) reveals the student thinks \"goods leaving the country\" means income leaves, confusing real flows with monetary flows. A wrong answer that omits one component shows incomplete knowledge of the four-sector model.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why savings is a leakage and investment is an injection, using the circular flow diagram.",
+     "a": "Savings is income earned by households that is not spent on domestic consumption goods; it exits the income-expenditure stream, reducing the flow returning to firms. Investment is spending by firms on capital goods that is not financed by current household consumption; it enters the stream as additional demand for domestic output. A wrong answer that says \"savings funds investment, so it's not a leakage\" confuses the financial intermediation role (which happens in the capital market) with the real circular flow of income and expenditure. The leakage-injection framework tracks the real flow, not the financial matching.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for an economy (in ₹ crore): S = 200, T = 150, M = 100, I = 180, G = 200, X = 70. Determine whether the economy is in equilibrium. If not, state the direction in which national income will move.",
+     "a": "Leakages = S + T + M = 200 + 150 + 100 = 450. Injections = I + G + X = 180 + 200 + 70 = 450. Since leakages = injections, the economy is in equilibrium. National income will not change. A wrong answer that miscalculates either sum (e.g., forgets M or X) shows arithmetic carelessness. A wrong answer that says \"income will rise because G > T\" ignores that equilibrium depends on total leakages vs total injections, not a single pair.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of an increase in government spending (ΔG > 0) versus an increase in taxes (ΔT > 0) on the circular flow, assuming all other leakages and injections remain constant.",
+     "a": "An increase in G is an increase in an injection; it directly adds to aggregate demand, creating a situation where injections > leakages, so national income rises. An increase in T is an increase in a leakage; it reduces disposable income, lowering consumption and aggregate demand, creating a situation where leakages > injections, so national income falls. A wrong answer that claims both increase income (or both decrease it) reveals the student has not internalized the classification of G as injection and T as leakage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"To boost the economy during a recession, the government should increase both spending and taxes by the same amount.\" (Assume a simple Keynesian model with MPC < 1.)",
+     "a": "In a simple Keynesian model, the balanced-budget multiplier equals 1. An equal increase in G and T raises equilibrium income by exactly the amount of the increase in G. The statement is partially correct: income does rise. However, it ignores that the net injection is only ΔG (since ΔT offsets part of the demand boost via reduced consumption), so the expansionary effect is smaller than a pure spending increase. It also ignores implementation lags, political constraints, and the fact that MPC may differ across income groups. A wrong answer that says \"no effect because they cancel\" confuses the budget balance with the injection-leakage balance.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a four-sector circular flow diagram for a hypothetical economy. Label all monetary flows between households, firms, government, and the foreign sector. Mark each flow as a leakage or an injection and write the equilibrium condition.",
+     "a": "A good answer includes: (1) four sectors arranged in a loop; (2) arrows for C (consumption), S (saving), T (taxes), G (government spending), I (investment), M (imports), X (exports); (3) labels: S, T, M as leakages; I, G, X as injections; (4) equilibrium condition S + T + M = I + G + X. A poor answer missing the foreign sector, mislabeling M or X, or writing the equilibrium as C + I + G + X = C + S + T + M (which is the expenditure-output identity, not the leakage-injection equilibrium) shows the student hasn't grasped the specific leakage-injection framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

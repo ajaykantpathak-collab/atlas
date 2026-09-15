@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_7",
+   "title": "c9_geo_ch2_7",
+   "questions": [
+    {
+     "q": "What is the primary cause of the seasonal reversal of winds in the Indian Monsoon system?",
+     "a": "The primary cause is differential heating of the Indian landmass and the surrounding Indian Ocean, creating a pressure gradient that reverses seasonally. In summer, intense heating over NW India creates a low-pressure zone, drawing moist winds from the high-pressure Indian Ocean; in winter, the land cools faster, creating high pressure that pushes dry winds toward the ocean. A wrong answer (e.g., \"Earth's rotation\" or \"Himalayas blocking winds\") reveals the student confuses the *trigger* (differential heating) with modifying factors (Coriolis, orography) or thinks monsoon is just a local wind.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Southwest Monsoon split into two branches (Arabian Sea and Bay of Bengal) after hitting the Indian mainland?",
+     "a": "The peninsula's triangular shape and the Western Ghats force the moisture-laden winds to bifurcate: one branch moves up the Arabian Sea coast, the other enters the Bay of Bengal and strikes the Eastern Himalayas. The Western Ghats act as a barrier, causing orographic rainfall on the windward side and rain shadow on the leeward side. A wrong answer (e.g., \"because of the Himalayas\" or \"due to Earth's rotation\") shows the student misses the role of peninsular geometry and the Western Ghats in splitting the flow, a classic board-level map interpretation error.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of monsoon onset isochrones, if the monsoon reaches Thiruvananthapuram on June 1 and Delhi on June 29, calculate the average speed of advancement (in km/day) assuming a straight-line distance of 2,400 km. Explain why the actual speed varies.",
+     "a": "Average speed = 2,400 km / 28 days ≈ 85.7 km/day. Actual speed varies because: (1) onset is not uniform – the Bay of Bengal branch moves faster northeastward along the Himalayas, while the Arabian Sea branch moves slower up the west coast; (2) monsoon trough position shifts; (3) breaks in monsoon (due to mid-latitude westerlies) cause pauses. A wrong calculation or missing the \"breaks\" concept reveals the student treats onset as a steady front rather than a pulsating, branched advance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the withdrawal of the Southwest Monsoon with the onset of the Northeast Monsoon. Are they the same process? Justify using pressure patterns and wind direction.",
+     "a": "No, they are distinct. Southwest Monsoon withdrawal (September-October) is a gradual retreat caused by the southward shift of the ITCZ, weakening of the thermal low over NW India, and re-establishment of the subtropical westerly jet. Northeast Monsoon onset (October-December) is the establishment of a new pressure gradient: high pressure over Siberia/Central Asia and low pressure over the warm Bay of Bengal, causing northeasterly winds. A wrong answer conflating them as \"just reversal\" misses the different pressure drivers (thermal low vs. continental high) and the fact that withdrawal is passive while NE monsoon is an active system.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"El Niño always causes drought in India.\" Use the concepts of monsoon variability and ENSO teleconnection.",
+     "a": "The statement is false. El Niño *increases the probability* of below-normal monsoon rainfall (drought) by weakening the Walker Circulation and reducing the pressure gradient, but it does not guarantee drought. Examples: 1997 (strong El Niño) had normal rainfall due to positive Indian Ocean Dipole (IOD); 2002 (moderate El Niño) had severe drought. Other factors (IOD, Eurasian snow cover, MJO) modulate the impact. A wrong \"true\" answer shows deterministic thinking, ignoring the probabilistic nature of teleconnections and the role of other climate modes – a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monsoon preparedness plan for a farmer in Vidarbha (central Maharashtra) that accounts for: (a) typical onset date, (b) probability of mid-season break, (c) withdrawal variability, and (d) crop choice. Justify each element geographically.",
+     "a": "A good plan includes: (a) Sowing kharif crops (cotton, soybean) after June 10-15 when onset is established over Vidarbha (monsoon reaches by June 10-15); (b) Contingency for July-August break (common when monsoon trough shifts to Himalayas) – use drought-tolerant varieties, in-situ moisture conservation; (c) Harvest before October 10 (withdrawal starts from NW India by Sept 15, reaches Vidarbha by Oct 10) to avoid unseasonal rain; (d) Intercrop with pulses for nitrogen fixation. A poor plan uses fixed calendar dates, ignores break probability, or chooses water-intensive rice in rainfed Vidarbha, showing lack of spatial-temporal monsoon understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

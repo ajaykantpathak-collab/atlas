@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_012",
+   "title": "c11_eng_s_cbse_05_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text and can be quoted; an inferential question's answer is not directly stated but must be deduced by combining textual evidence with reasoning. A wrong answer (e.g., \"literal means easy, inferential means hard\") reveals the student confuses difficulty level with the source of the answer, leading to unsupported opinions in inferential responses.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the King is described as \"just and placid.\" Is the question \"Why does the poet call the King 'just and placid'?\" literal or inferential? Explain your classification.",
+     "a": "It is an inferential question because the poem never explicitly explains why the poet chose those adjectives; the student must infer from the King's actions (ordering hangings, then accepting his own hanging) that the labels are ironic. A wrong classification (literal) shows the student thinks any question about a quoted phrase is literal, missing that the *reason* for the description requires interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question using only the poem: \"What specific reason does the chief of builders give to save himself from being hanged?\"",
+     "a": "The chief of builders says, \"O King, it was the workmen's fault.\" Steps: 1) Scan the poem for \"chief of builders\" and \"hanged\". 2) Locate the dialogue where he speaks. 3) Quote his exact words. 4) Verify no other reason is given. A wrong answer (e.g., \"he blamed the architect\") reveals the student relies on memory of the plot sequence rather than textual evidence, a common error when literal details are similar across episodes.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following inferential question: \"Why do the ministers proclaim 'Long live the King! The King is dead' in the same breath?\" Identify two textual clues that support your inference.",
+     "a": "Clue 1: The ministers say, \"Thank Goodness we found someone... if instead we had not, the unruly town might well have turned against the Crown.\" Clue 2: They immediately send heralds to proclaim the next passerby as ruler \"as is our custom.\" Inference: The ministers value stability and tradition over justice or the King's life; they perform the ritual to prevent rebellion. A weak answer uses only one clue or ignores the irony of \"custom,\" showing incomplete evidence gathering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's inferential answer: \"The people accept a melon as king because they are foolish and don't care about governance.\" Is this a valid inference based on the poem? Justify your evaluation.",
+     "a": "No, it is not fully valid. The poem states the people say, \"If His Majesty rejoice in being a melon, that's OK with us, for who are we to say what he should be as long as he leaves us in Peace and Liberty? The principles of laissez faire seem to be well-established there.\" This suggests a deliberate philosophical choice (laissez-faire), not mere foolishness. The student's answer ignores the textual phrase \"principles of laissez faire\" and imposes an external judgment. A valid inference must account for the author's explicit framing.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the poem that requires combining evidence from at least three different stanzas. Provide the question and outline the three pieces of evidence a good answer would use.",
+     "a": "Question: \"How does the poem use the King's 'just and placid' nature to critique blind adherence to procedure?\" Evidence 1: Stanza where King orders arch built to \"edify spectators\" (procedure over purpose). Evidence 2: King accepts his own hanging because \"only one man was so tall he fitted\" (procedure over justice). Evidence 3: Ministers follow \"custom\" to choose next ruler via a passerby (procedure over wisdom). A poor question would be literal (\"What did the King order?\") or use evidence from only one stanza, showing inability to synthesize across the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

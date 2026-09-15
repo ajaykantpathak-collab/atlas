@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch01_007",
+   "title": "c7_bio_ch01_007",
+   "questions": [
+    {
+     "q": "Why do adolescents need a larger quantity of proteins in their balanced diet compared to younger children?",
+     "a": "Adolescents need more protein because they undergo a rapid growth spurt involving the formation of new tissues, muscles, and organs driven by hormonal changes. A wrong answer reveals the misconception that protein is only needed for adults who go to the gym, missing its crucial role in structural growth and cell multiplication during puberty.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a teenager eating only carbohydrate-rich foods like white rice and potatoes all day is not consuming a balanced diet, even if they feel full.",
+     "a": "A diet of only carbohydrates provides energy but lacks proteins for muscle growth, fats for brain development, and vitamins/minerals for immunity and bone strength. A wrong answer shows the misconception that \"balanced diet\" simply means eating enough quantity of food to avoid hunger, ignoring the specific qualitative need for protective and body-building nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan is a 13-year-old boy experiencing a sudden growth spurt in height. Lately, he feels tired all the time, looks pale, and his doctor says his red blood cell count is low. Which specific mineral and food sources are missing from his daily diet?",
+     "a": "Steps: 1. Identify Rohan's symptoms as fatigue and paleness, which indicate poor oxygen transport in the blood (anemia). 2. Recall that hemoglobin in red blood cells requires iron for its formation, and rapid blood volume expansion occurs during adolescent growth spurts. 3. Conclude that iron is deficient, and recommend green leafy vegetables, pomegranate, jaggery, and lentils. A wrong answer reveals the misconception that tiredness in teenagers is always due to lack of sleep, ignoring nutritional deficiency diseases like iron-deficiency anemia common in puberty.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutritional needs of a 14-year-old athlete with a high physical activity level versus a 14-year-old who spends most of the day studying indoors. How should their balanced diets differ?",
+     "a": "Both teenagers need all food groups for growth, but the athlete requires a higher total calorie intake with more carbohydrates for sustained energy and extra proteins for muscle repair. The student with low activity needs fewer total calories to prevent unwanted fat accumulation, but the proportion of vitamins, minerals, and proteins remains equally vital for both. A wrong answer reveals the misunderstanding that balanced diet means the exact same meal plan for every person of the same age, ignoring individual energy expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "A health pamphlet claims that teenagers should completely eliminate all fats from their diet to prevent weight gain during puberty. Evaluate this claim biologically.",
+     "a": "The claim is false because fats are essential during adolescence for hormone production, brain development, and the absorption of fat-soluble vitamins (A, D, E, K). While excess junk fats should be avoided, healthy fats from nuts, seeds, and dairy are critical for proper growth. A wrong answer shows the misconception that all fats are harmful, failing to distinguish between healthy structural fats and unhealthy trans fats.",
+     "self_check": true
+    },
+    {
+     "q": "Design a balanced lunch thali suitable for an adolescent in India that includes carbohydrates, proteins, iron, calcium, and vitamins, explaining why each component is included.",
+     "a": "A good answer includes whole-wheat roti or brown rice (carbohydrates for energy), dal or paneer curry (proteins for muscle growth), palak/spinach sabzi (iron for red blood cells and preventing anemia), a glass of buttermilk or curd (calcium for strong bones), and a side of salad (vitamins and fiber for digestion). A poor answer lists random junk foods or lacks essential food groups, showing a weak grasp of how to translate nutrient science into practical daily meals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_008",
+   "title": "c7_math_ch05_008",
+   "questions": [
+    {
+     "q": "What term describes a pair of angles that lie on opposite sides of a transversal, in interior positions between the two intersected lines, but do not share a vertex?",
+     "a": "The correct answer is alternate interior angles. A student who answers \"corresponding angles\" is confusing positions on the same side of the transversal, while a student who answers \"vertically opposite angles\" is missing the transversal concept entirely.",
+     "self_check": true
+    },
+    {
+     "q": "If a transversal intersects two parallel lines, why are the alternate interior angles equal in measure?",
+     "a": "They are equal because parallel lines maintain a constant distance apart, meaning any intersecting transversal tilts at the exact same angle to both lines, creating congruent rotational symmetry at both intersection points. A wrong answer like \"because they add up to 180 degrees\" shows confusion with consecutive interior angles (linear pairs or co-interior angles).",
+     "self_check": true
+    },
+    {
+     "q": "A transversal intersects two parallel lines. If one alternate interior angle measures $65^\\circ$, what is the measure of its alternate interior pair?",
+     "a": "The measure is $65^\\circ$. \nSteps: \n1. Identify the relationship: Alternate interior angles formed by parallel lines are equal. \n2. Set up the equation: $\\angle A = \\angle B$. \n3. Substitute the given value: $\\angle B = 65^\\circ$. \nA student who answers $115^\\circ$ has incorrectly subtracted the angle from $180^\\circ$, confusing alternate angles with consecutive interior angles or linear pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are cut by a transversal. Angle 3 and Angle 5 are alternate interior angles, with $\\angle 3 = (3x + 10)^\\circ$ and $\\angle 5 = (5x - 20)^\\circ$. Assuming the two lines are parallel, how do you set up the equation to find $x$?",
+     "a": "Set the expressions equal to each other: $3x + 10 = 5x - 20$. \nSteps: \n1. Recognize that alternate interior angles of parallel lines are equal. \n2. Equate the two algebraic expressions. \nA student who sets up $3x + 10 + 5x - 20 = 180$ is wrongly treating them as supplementary angles instead of equal angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if two lines are cut by a transversal and the alternate exterior angles are equal, the two lines must intersect at an acute angle. Evaluate this statement.",
+     "a": "The statement is false. If alternate exterior angles are equal, the two lines are parallel, meaning they never intersect at all. A student who agrees with the statement fails to connect equality of alternate angles with the definition of parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem scenario in an Indian school setting (such as football goalposts or desk frames) where alternate angles can be used to find an unknown angle measurement of a tilted support beam.",
+     "a": "Expected criteria: The student should describe two parallel metal railings of a school balcony crossed by a diagonal support rod, assign an algebraic expression to one alternate interior angle, and provide a clear solving method resulting in a valid degree measure. A poor answer gives numbers without a geometric context or uses non-parallel structures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_003",
+   "title": "c11_biotech_cbse_12_003",
+   "questions": [
+    {
+     "q": "Define absorbance (A) and transmittance (T). Write the mathematical relationship between them.",
+     "a": "Absorbance (A) is the negative logarithm of transmittance: A = -log₁₀(T), where transmittance T = I/I₀ (I = transmitted intensity, I₀ = incident intensity). Absorbance has no units; transmittance is a ratio (often expressed as percentage). A wrong answer (e.g., \"A = I/I₀\" or \"A = log(I/I₀)\") reveals confusion between the definitions and the logarithmic conversion — a critical error because all quantitative spectrophotometry uses absorbance, not transmittance, due to its linear relationship with concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Why is absorbance preferred over transmittance for constructing calibration curves in quantitative spectrophotometry?",
+     "a": "Absorbance is directly proportional to concentration (A = εlc) according to the Beer-Lambert law, giving a straight-line calibration curve passing through the origin. Transmittance relates exponentially to concentration (T = 10^(-εlc)), producing a curved plot that is difficult to use for interpolation. A student who says \"both are linear\" or \"transmittance is easier to measure\" misunderstands the mathematical basis of the Beer-Lambert law and will struggle with dilution calculations and detection limits.",
+     "self_check": true
+    },
+    {
+     "q": "A protein solution shows an absorbance of 0.65 at 280 nm in a 1 cm path-length cuvette. The molar extinction coefficient (ε) for this protein is 45,000 M⁻¹ cm⁻¹. Calculate the molar concentration of the protein. If the molecular weight is 66,000 g/mol, what is the concentration in mg/mL?",
+     "a": "Step 1: Use A = εlc → c = A/(εl) = 0.65 / (45,000 M⁻¹ cm⁻¹ × 1 cm) = 1.444 × 10⁻⁵ M.  \nStep 2: Convert to mg/mL: (1.444 × 10⁻⁵ mol/L) × (66,000 g/mol) = 0.953 g/L = 0.953 mg/mL.  \nA wrong answer (e.g., forgetting path length, using ε in wrong units, or skipping unit conversion) indicates the student cannot chain the Beer-Lambert law with molar mass conversion — a routine task in protein quantification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a colorimeter and a UV-visible spectrophotometer in terms of (a) wavelength selection mechanism, (b) bandwidth, and (c) suitability for scanning an absorption spectrum.",
+     "a": "(a) Colorimeter uses glass filters (fixed wavelengths, broad bandwidth ~30-50 nm); spectrophotometer uses a prism or diffraction grating (continuously tunable, narrow bandwidth ~1-2 nm).  \n(b) Colorimeter bandwidth is wide; spectrophotometer bandwidth is narrow.  \n(c) Spectrophotometer can scan across wavelengths to generate an absorption spectrum; colorimeter cannot. A student who claims \"both use prisms\" or \"colorimeter gives better resolution\" confuses the fundamental optical difference and will misinterpret when to use each instrument.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the absorbance of a dye solution at 520 nm and gets A = 2.8 in a 1 cm cuvette. She dilutes the sample 10-fold and re-measures, obtaining A = 0.32. Does this follow the Beer-Lambert law? Justify your answer quantitatively.",
+     "a": "If Beer-Lambert law held perfectly, a 10-fold dilution should give A = 0.28 (since A ∝ c). The observed A = 0.32 is ~14% higher than expected. This deviation suggests either (i) stray light at high absorbance (A > 2 reduces effective linearity), (ii) incomplete mixing, or (iii) chemical aggregation at high concentration. A student who says \"yes, it follows because absorbance decreased\" fails to apply the quantitative prediction of the law and misses the diagnostic value of dilution linearity checks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a protocol to determine the molar extinction coefficient (ε) of a newly synthesized fluorescent dye at its λmax, using only a UV-visible spectrophotometer, analytical balance, and volumetric glassware. Outline the steps and the graph you would plot.",
+     "a": "1. Accurately weigh ~10 mg dye, dissolve in 100 mL volumetric flask → stock solution.  \n2. Prepare 5-6 serial dilutions (e.g., 2, 4, 6, 8, 10 µM) using volumetric pipettes.  \n3. Scan each dilution from 200-800 nm to find λmax (peak absorbance).  \n4. At λmax, measure absorbance of each dilution in 1 cm cuvette against solvent blank.  \n5. Plot A vs. c (µM). The slope = εl (l = 1 cm), so ε = slope (in M⁻¹ cm⁻¹).  \nA poor answer (e.g., \"measure absorbance of one concentration and use formula\") shows inability to design a calibration experiment and confuse ε determination with single-point concentration measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

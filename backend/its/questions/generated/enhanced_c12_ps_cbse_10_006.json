@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_006",
+   "title": "c12_ps_cbse_10_006",
+   "questions": [
+    {
+     "q": "What were the three categories of industries established by the Industrial Policy Resolution of 1956, and which schedule listed industries exclusively reserved for the public sector?",
+     "a": "The IPR 1956 classified industries into: Schedule A (17 industries exclusively public sector: arms, atomic energy, iron & steel, heavy machinery, etc.), Schedule B (12 industries progressively state-owned but private allowed: machine tools, fertilizers, etc.), and Schedule C (all remaining industries open to private sector with state regulation). A wrong answer (e.g., confusing Schedule A with \"strategic industries only\" or omitting Schedule B) reveals the student doesn't grasp the graded public dominance — the state didn't just own \"key\" industries but a wide swathe including machine tools and fertilizers, reflecting the Mahalanobis emphasis on heavy industrial base.",
+     "self_check": true
+    },
+    {
+     "q": "Why did leading Indian industrialists like J.R.D. Tata and G.D. Birla support the Bombay Plan (1944) which advocated state ownership of heavy industries, despite being private capitalists?",
+     "a": "The Bombay Plan signatories recognized that post-war India lacked sufficient private capital, technology, and entrepreneurial capacity to build the massive infrastructure (dams, steel, power) needed for industrialization. They wanted the state to bear the high risk and long gestation of \"basic industries\" so private firms could later profit from downstream manufacturing. A wrong answer (e.g., \"they were socialists\" or \"they wanted nationalization\") misses the strategic calculation: the Plan explicitly protected private property and sought state investment to CREATE a market for private goods. This reveals a misunderstanding of the political economy of late colonial India — the \"mixed economy\" was a compromise, not an ideological imposition.",
+     "self_check": true
+    },
+    {
+     "q": "In the Second Five Year Plan (1956-61), the Mahalanobis Model prioritized heavy industry in the public sector. How did this create a structural tension with the First Plan's focus on agriculture, and what political mechanism resolved resource allocation between them?",
+     "a": "The First Plan (1951-56) allocated ~44% to agriculture/irrigation to heal Partition's damage; the Second Plan shifted ~60% to industry/mining, diverting investible surplus from agriculture. The tension was resolved politically through the Planning Commission (chaired by PM) where central leadership overrode state-level demands for agricultural investment, justified by the \"socialist pattern\" goal. A wrong answer (e.g., \"market forces decided\" or \"states negotiated equally\") ignores the centralized, top-down nature of Indian planning — the Planning Commission was an extra-constitutional body whose priorities reflected Nehru's vision, not federal bargaining. This reveals confusion between India's quasi-federal planning and true federal systems.",
+     "self_check": true
+    },
+    {
+     "q": "The Congress party's Avadi Resolution (1955) declared a \"socialist pattern of society\" as its goal. Yet the same government offered tax concessions and import protection to private industry. Analyze this apparent contradiction using Francine Frankel's observation about \"two contradictory tendencies\" inside Congress.",
+     "a": "Frankel identifies a contradiction between the Congress *party executive* (ideologically socialist, endorsing state control) and the Congress *government* (pragmatically offering incentives to private capital to boost production). This was resolved by confining public sector to \"commanding heights\" (Schedule A) while letting private sector expand in consumer goods under protection. A wrong answer (e.g., \"Congress was hypocritical\" or \"private sector was forced\") misses the deliberate design: the mixed economy *required* a vibrant private sector to generate employment and tax revenue for the state's welfare goals. The contradiction was managed, not eliminated — a nuance essential for board answers on \"politics of planned development.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The mixed economy model failed because the public sector became inefficient and the private sector was stifled by the Licence Raj.\" Use evidence from the first three Five Year Plans (1951-66) to support or refute.",
+     "a": "The claim is partially true but anachronistic for 1951-66. In this period, public sector *did* build Bhakra-Nangal, Bhilai, Rourkela, and IITs — achievements impossible for weak private capital. The \"Licence Raj\" (Industries Development Regulation Act, 1951) initially *protected* private firms from foreign competition, enabling growth (e.g., TELCO, Bajaj). Inefficiency and corruption emerged later (post-1966 plan holiday). A wrong answer (judging 1950s by 1980s outcomes) shows lack of historical periodization — a key board exam skill. Students must distinguish *design* (mixed economy with public leadership) from *degeneration* (licence-permit raj), which accelerated after the 1966 devaluation and Fourth Plan delay.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 1950 memo from the Planning Commission to the Prime Minister arguing WHY the electricity industry should be in Schedule A (public sector only) of the 1956 IPR, using the concepts of \"natural monopoly,\" \"externalities,\" and \"strategic linkage.\"",
+     "a": "A strong answer: \"Electricity is a natural monopoly (high fixed cost, low marginal cost) — private competition would duplicate grids, raising costs. It has massive positive externalities (industrialization, irrigation, rural welfare) that private firms underinvest in. It is a strategic linkage: steel, railways, and fertilizer plants *require* reliable power; state control ensures coordinated expansion per Plan targets.\" A weak answer (e.g., \"electricity is important so government should do it\") fails to apply economic concepts to political choice. This tests whether students can bridge political economy theory (market failure) to institutional design (Schedule A) — a CUET/JEE-style analytical skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

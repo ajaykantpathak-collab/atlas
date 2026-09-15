@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_004",
+   "title": "c12_cs_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the basic syntax of a SELECT statement to retrieve all columns from a table named 'students'?",
+     "a": "The correct syntax is `SELECT * FROM students;`. A wrong answer like `SELECT ALL FROM students` or `GET * FROM students` reveals that the student confuses SQL keywords or doesn't know that asterisk (*) represents all columns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `SELECT * FROM employees;` and `SELECT emp_name, salary FROM employees;` in terms of the result set.",
+     "a": "The first returns all columns for every row; the second returns only the emp_name and salary columns. A wrong answer that says both return the same data indicates the student doesn't understand column projection.",
+     "self_check": true
+    },
+    {
+     "q": "Write a SELECT query to display the product_name and price columns from a table named 'products', giving the price column an alias 'cost'.",
+     "a": "`SELECT product_name, price AS cost FROM products;` or `SELECT product_name, price cost FROM products;`. A wrong answer missing the alias or using incorrect syntax (e.g., `ALIAS cost`) shows the student hasn't grasped column aliasing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `SELECT DISTINCT city FROM customers;` vs `SELECT city FROM customers;` when the customers table has duplicate city values.",
+     "a": "`SELECT city` returns all rows including duplicates; `SELECT DISTINCT city` returns each city only once. A wrong answer that says they are identical reveals the student doesn't understand the purpose of DISTINCT.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `SELECT FROM students;` and gets an error. Evaluate why this is invalid and how to fix it.",
+     "a": "The SELECT clause must specify at least one column or *. The fix is `SELECT * FROM students;` or `SELECT column_name FROM students;`. A wrong answer that suggests adding a WHERE clause shows the student misidentifies the error as a missing condition rather than a missing column list.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario: a school database has a table 'exams' with columns exam_id, subject, date, max_marks. Write a SELECT query to list all subjects and their maximum marks, with column headers 'Subject' and 'Max Marks'.",
+     "a": "`SELECT subject AS \"Subject\", max_marks AS \"Max Marks\" FROM exams;` (or without quotes if single word). A poor answer might omit aliases or use incorrect alias syntax, indicating the student cannot apply aliasing to improve readability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

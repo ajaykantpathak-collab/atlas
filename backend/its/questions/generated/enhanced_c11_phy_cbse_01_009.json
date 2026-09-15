@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_009",
+   "title": "c11_phy_cbse_01_009",
+   "questions": [
+    {
+     "q": "A student measures the thickness of a human hair as 0.000085 m. Express this in scientific notation and state its order of magnitude. Explain why the order of magnitude is not simply the exponent of the original decimal form.",
+     "a": "Scientific notation: 8.5 × 10^-5 m. Since a = 8.5 > 5, round to 10 × 10^-5 = 10^-4 m. Order of magnitude = -4. A wrong answer of -5 reveals the student forgot the rounding rule (a > 5 increases exponent by 1) and incorrectly used the raw exponent from 0.000085 = 8.5 × 10^-5 without rounding the base.",
+     "self_check": true
+    },
+    {
+     "q": "The mass of an electron is 9.11 × 10^-31 kg and the mass of a proton is 1.67 × 10^-27 kg. A student claims the proton is \"about 4 orders of magnitude heavier\" because -27 - (-31) = 4. Is this correct? Justify using the rounding rule for order of magnitude.",
+     "a": "Electron: 9.11 > 5 → order = -31 + 1 = -30. Proton: 1.67 ≤ 5 → order = -27. Difference = (-27) - (-30) = 3 orders of magnitude. The student's error: they used raw exponents without applying the rounding rule to each base number. This tests whether the student understands order of magnitude is defined after rounding a to 1 or 10, not from the initial scientific notation exponent.",
+     "self_check": true
+    },
+    {
+     "q": "Estimate the number of heartbeats in an average human lifetime (75 years) using order-of-magnitude reasoning. Assume resting heart rate ≈ 70 beats/minute. Show all steps: convert years to minutes, express in scientific notation, apply rounding rule, and state final order of magnitude.",
+     "a": "Step 1: 75 years × 365 days/year × 24 h/day × 60 min/h = 75 × 365 × 1440 min ≈ 3.94 × 10^7 min.\nStep 2: Total beats = 70 beats/min × 3.94 × 10^7 min = 2.76 × 10^9 beats.\nStep 3: 2.76 ≤ 5 → round to 1 × 10^9. Order of magnitude = 9.\nA wrong answer of 10^10 or 10^8 reveals unit conversion errors (e.g., using 365 × 24 × 60 incorrectly) or misapplying the rounding rule (e.g., rounding 2.76 to 10 instead of 1).",
+     "self_check": true
+    },
+    {
+     "q": "Two students estimate the volume of a classroom (10 m × 8 m × 4 m). Student A computes exactly: 320 m³ = 3.2 × 10^2 m³ → order 2. Student B estimates each dimension to nearest order: 10^1 × 10^1 × 10^1 = 10^3 m³ → order 3. Which method is more reliable for order-of-magnitude estimation? Explain why the results differ.",
+     "a": "Student A's method is more reliable. Exact volume = 320 m³ = 3.2 × 10^2 m³. Since 3.2 ≤ 5, order = 2. Student B rounded each dimension prematurely: 10 m (1×10^1), 8 m (8×10^0 → 8>5 → 10^1), 4 m (4×10^0 → 4≤5 → 10^0). Product = 10^1 × 10^1 × 10^0 = 10^2 m³, order 2. Student B's error was rounding 8 m to 10^1 instead of 10^0. Premature rounding of individual factors amplifies error; always compute product first, then find order of magnitude of the result.",
+     "self_check": true
+    },
+    {
+     "q": "A calculated density of a metal sample comes out as 8.9 × 10^4 kg/m³. The student knows typical metal densities are of order 10^4 kg/m³. They conclude the calculation is correct. Evaluate this reasoning: is the conclusion valid? What additional check should be performed?",
+     "a": "The conclusion is partially valid but insufficient. 8.9 × 10^4 kg/m³ has base 8.9 > 5 → order = 4+1 = 5 (i.e., ~10^5 kg/m³), not 10^4. Typical metals (Fe 7.9, Cu 8.9, Pb 11.3 × 10^3 kg/m³) are order 10^4 kg/m³. The student's result is one order too high — likely a unit error (e.g., used g/cm³ without converting: 8.9 g/cm³ = 8.9 × 10^3 kg/m³, order 4). Order-of-magnitude check catches gross errors but not factor-of-10 mistakes; always verify units and significant figures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Fermi estimation to find the order of magnitude of the total length of DNA in all cells of a human body. State your assumptions clearly (number of cells, length of DNA per cell), show the calculation in scientific notation, apply the rounding rule, and give the final order of magnitude.",
+     "a": "Assumptions: ~3.7 × 10^13 cells in human body; each cell has ~2 m of DNA (diploid genome 6.4×10^9 base pairs × 0.34 nm/bp ≈ 2.2 m).\nTotal length = 3.7×10^13 × 2.2 = 8.14×10^13 m.\nBase 8.14 > 5 → round to 10 × 10^13 = 10^14 m.\nOrder of magnitude = 14.\nA poor answer uses vague assumptions (e.g., \"millions of cells\") or forgets to round the final base. Good Fermi estimates require explicit assumptions, unit consistency, and correct rounding rule application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "Control and Coordination",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.106.6.1",
+   "title": "Nervous System - Neurons and Reflex Action",
+   "section": "6.2",
+   "definition": "The nervous system controls and coordinates through neurons that carry electrochemical signals: a reflex action like withdrawing a hand from a flame travels through the spinal cord's reflex arc without waiting for the brain, while the brain handles thinking, balance and memory.",
+   "formula": "-",
+   "key_idea": "Reflex arc short-circuits danger: spinal cord acts first, brain learns later.",
+   "textbook_ref": "jesc106.txt sections on animals - nervous system, reflex actions, human brain",
+   "question_patterns": [
+    "what is a reflex action - describe the reflex arc with an example",
+    "draw and label the structure of a neuron",
+    "why is the spinal cord involved in reflex actions instead of the brain",
+    "name the parts of the human brain and their functions",
+    "how does the nervous tissue cause action in muscle cells",
+    "differentiate voluntary and involuntary actions with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "detect the stimulus",
+     "explain": "Receptors sense heat, touch or pressure and fire signals."},
+    {"step": 2, "action": "route the signal",
+     "explain": "Sensory neuron to spinal cord, relay neuron, then motor neuron."},
+    {"step": 3, "action": "act the response",
+     "explain": "The muscle contracts and pulls the hand away instantly."}
+   ]
+  },
+  {
+   "id": "jesc.106.6.2",
+   "title": "Coordination in Plants",
+   "section": "6.2",
+   "definition": "Plants coordinate without nerves: they respond to touch (mimosa folding), light (phototropism bending shoots), gravity and water using chemical signals - plant hormones like auxin, gibberellin, cytokinin and abscisic acid direct growth in the needed direction.",
+   "formula": "-",
+   "key_idea": "No nerves needed: plant hormones bend growth toward light and away from harm.",
+   "textbook_ref": "jesc106.txt sections on coordination in plants, hormones",
+   "question_patterns": [
+    "how does the mimosa plant respond to touch - explain the immediate response",
+    "what is phototropism - how does auxin cause bending of shoots",
+    "name the plant hormones and their functions",
+    "differentiate tropic and nastic movements with examples",
+    "why do roots grow downward and shoots upward - explain geotropism",
+    "compare nervous coordination in animals and chemical coordination in plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the stimulus",
+     "explain": "Light, gravity, touch or water starts the response."},
+    {"step": 2, "action": "follow the hormone",
+     "explain": "Auxin gathers away from light, making shaded cells elongate."},
+    {"step": 3, "action": "see the movement",
+     "explain": "Differential growth bends the plant toward or away from the stimulus."}
+   ]
+  },
+  {
+   "id": "jesc.106.6.3",
+   "title": "Hormones in Animals - Chemical Coordination",
+   "section": "6.3",
+   "definition": "Endocrine glands pour hormones into the blood to reach target organs: the thyroid controls metabolism, insulin from the pancreas lowers blood sugar, adrenaline prepares fight-or-flight, and the pituitary masters the other glands - completing chemical coordination alongside nerves.",
+   "formula": "-",
+   "key_idea": "Glands whisper through blood: hormones reach only the organs that listen.",
+   "textbook_ref": "jesc106.txt section 6.3 (hormones in animals)",
+   "question_patterns": [
+    "what are hormones - name the endocrine glands and their hormones",
+    "why does blood sugar level fall after insulin injection - explain",
+    "which gland is called the master gland and why",
+    "what is the role of adrenaline in emergency situations",
+    "how does iodine deficiency affect the thyroid gland - explain goitre",
+    "compare nervous and hormonal coordination in animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the gland and hormone",
+     "explain": "Each endocrine gland secretes specific hormones into blood."},
+    {"step": 2, "action": "target the organ",
+     "explain": "Hormones act only on cells carrying their receptors."},
+    {"step": 3, "action": "note the balance",
+     "explain": "Too little or too much hormone causes named disorders."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "jesc106.txt exercises",
+   "questions": [
+     "Draw and label the reflex arc for the given situation.",
+     "Name the hormones of the given endocrine glands with functions.",
+     "Compare nervous and chemical coordination with examples."
+   ]
+  }
+ ]
+}

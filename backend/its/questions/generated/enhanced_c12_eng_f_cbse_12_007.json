@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_12_007",
+   "title": "c12_eng_f_cbse_12_007",
+   "questions": [
+    {
+     "q": "What is the definition of a secondary theme in literature, and how does it differ from the primary theme in terms of textual prominence and function?",
+     "a": "A secondary theme is a supporting idea that runs parallel to the primary theme, developed through specific images or sub-conflicts rather than dominating the entire work; it enriches the primary theme by adding layers of social, psychological, or moral complexity. A wrong answer that equates secondary themes with \"minor topics\" or \"subplots\" reveals a misunderstanding of thematic architecture — secondary themes are not less important, they are more *focused*, often carrying the poem's sharpest critique (e.g., the \"greedy good-doers\" passage targets policy failure specifically, not poverty generally).",
+     "self_check": true
+    },
+    {
+     "q": "In \"A Roadside Stand,\" the poet describes \"greedy good-doers, beneficent beasts of prey\" who \"enforc[e] benefits / That are calculated to soothe them out of their wits.\" Explain in your own words what this oxymoronic phrase reveals about the secondary theme of *institutional betrayal* — and why \"soothe them out of their wits\" is more damning than \"harm them.\"",
+     "a": "The phrase exposes how state welfare schemes, framed as benevolence, actually function as predatory control: \"greedy\" and \"beasts of prey\" strip the rhetoric of charity to reveal self-interest, while \"soothe them out of their wits\" means the rural poor are drugged into passivity, losing the capacity to think, resist, or claim agency — a spiritual death worse than material hardship. A wrong answer that reads this as \"the government helps but inefficiently\" misses the *deliberate* violence of \"enforcing benefits\" and the psychological colonization implied by destroying \"sleeping at night the ancient way.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of secondary themes to analyze the following two lines from different stanzas: \"The requisite lift of spirit has never been found, / Or so the voice of the country seems to complain\" AND \"I can't help owning the great relief it would be / To put these people at one stroke out of their pain.\" What secondary theme connects these moments, and how does the poet implicate himself?",
+     "a": "The connecting secondary theme is **the corrosion of empathy into exterminationist fantasy** — the poet admits that the sheer weight of witnessing \"childish longing in vain\" makes him contemplate mercy killing (\"put these people at one stroke out of their pain\"), then immediately recoils at his own impulse by imagining someone offering him the same \"relief.\" Step 1: Identify the speaker's shift from observation to complicity. Step 2: Note \"voice of the country\" personifies rural suffering as collective complaint. Step 3: Trace \"lift of spirit\" — not money, but dignity — as the unmet need. Step 4: Recognize the final stanza's self-indictment: the poet's \"relief\" mirrors the \"greedy good-doers'\" logic. A wrong answer that treats this as \"the poet feels sad\" ignores the terrifying moral slide from sympathy to violence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the secondary theme of *false urban promises* (\"the life of the moving-pictures' promise / That the party in power is said to be keeping from us\") with the secondary theme of *aesthetic indifference* (\"The hurt to the scenery wouldn't be my complaint / So much as the trusting sorrow of what is unsaid\"). How do these two themes interact to structure the poem's critique of city-country relations?",
+     "a": "The interaction creates a pincer movement: false promises *raise* expectations (\"moving-pictures' promise\" = cinematic modernity), while aesthetic indifference *denies* the humanity behind the scene (\"landscape marred with artless paint\"). The city offers a televised dream but refuses the material reality; the rural poor wait \"in almost open prayer / For the squeal of brakes\" — a sound that should signal commerce but only brings \"selfish cars\" that \"plow up grass\" or ask for gas. The poem structures this as: Stanza 1-2 (promise) → Stanza 3-4 (betrayal) → Stanza 5 (waiting) → Stanza 6 (violation) → Stanza 7 (poet's collapse). A wrong answer that lists them separately misses how the *promise* makes the *indifference* crueler — the stand exists *because* of the promise.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The secondary theme of 'loss of traditional rhythm' (destroy their sleeping at night the ancient way) is the most politically radical element in the poem because it frames modernization as cultural genocide rather than economic exploitation.\" Defend or challenge using textual evidence.",
+     "a": "The claim is **defensible and textually grounded**. \"Destroy their sleeping at night the ancient way\" does not mean literal insomnia — it signifies the rupture of circadian, seasonal, and communal rhythms that sustained rural life for generations. The \"beneficent beasts of prey\" don't just take land; they \"teach them how to sleep\" (factory shifts, school schedules, welfare queues), replacing autonomous rest with regulated unconsciousness. This goes beyond Marxist exploitation (surplus value extraction) into Foucaultian biopolitics (control of life itself). Evidence: \"won't have to think for themselves anymore\" + \"sleep all day\" = total infantilization. A weak evaluation would call this \"metaphorical\" without seeing that for Frost, the *ancient way* of sleeping *is* the culture — its destruction is the poem's final horror.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line stanza in Frost's voice that introduces a *new* secondary theme not explicitly stated in the poem but logically implied by its world — for example, the environmental cost of the \"polished traffic,\" the gendered division of labor at the stand, or the intergenerational transmission of the \"childish longing.\" Your stanza must mirror Frost's rhyme scheme (loose iambic, irregular couplets) and use one image from the original poem.",
+     "a": "*Example strong response:*\nThe berry stains on calloused palms fade slow,  \nWhile asphalt drinks the rain the crops should know.  \nNo moving-picture shows the soil's dark bleed —  \nJust golden squash the city does not need.  \n\n*Criteria met:* (1) New secondary theme: ecological extraction (asphalt vs crops). (2) Mirrors Frost's rhythm and irregular rhyme (slow/know, bleed/need). (3) Uses \"moving-picture\" and \"golden squash\" from poem. (4) Extends \"city money / country scale of gain\" into environmental debt. A poor answer would rhyme mechanically (AABB), ignore the poem's imagery, or state the theme didactically (\"The environment is also hurt\") instead of imaging it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

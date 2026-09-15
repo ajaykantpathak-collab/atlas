@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_002",
+   "title": "c11_hs_cbse_11_002",
+   "questions": [
+    {
+     "q": "Define mending and list the four categories of damage it addresses according to the NCERT Class 11 Home Science textbook.",
+     "a": "Mending is the general term for keeping material free of damage from normal use or accident. The four categories are: (1) repairing cuts, tears, holes; (2) replacing buttons/fasteners, ribbons, laces or fancy attachments; (3) restitching seams; (4) restitching hems. A wrong answer that omits \"restitching hems\" or adds \"stain removal\" reveals confusion between mending (structural repair) and laundry (cleaning/finishing), a critical distinction because mending must precede laundering to prevent further damage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tear in a wool sweater must be mended differently from a tear in a cotton shirt, referencing two fibre properties from Table 2 of the textbook.",
+     "a": "Wool weakens when wet and felts under agitation, so mending must use dry-cleaning-compatible thread, minimal tension, and no hot pressing; cotton is stronger when wet, tolerates alkaline detergents and high-temperature pressing, so a calico patch with cotton thread and hot iron finish is appropriate. A wrong answer that suggests using the same cotton thread and hot iron for both ignores wool’s wet-weakness and felting tendency, leading to shrinkage and distortion after the next wash.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds a 3 mm hole in a silk blouse near the collar. Choose the correct mending method from: (a) stocking darning with silk thread, (b) calico patch with cotton thread, (c) machine zigzag stitch, (d) fusible interfacing. Justify your choice using two silk properties.",
+     "a": "Correct: (a) stocking darning with silk thread. Silk is weaker when wet and scorches easily with dry heat; stocking darning uses fine silk thread, low-tension hand stitches, and avoids pressing—only steam pressing if needed. Calico patch (b) adds bulk and uses cotton thread that may cut silk fibres; machine stitch (c) creates high tension and heat; fusible interfacing (d) requires high heat that scorches silk. A wrong choice reveals ignorance of silk’s wet weakness and heat sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"darning\" and \"patching\" as mending techniques for a hole in a cotton bedsheet versus a hole in a wool sock. Create a 2x2 table with criteria: technique, thread type, stitch tension, post-repair care.",
+     "a": "| Criteria | Cotton Bedsheet (Patching) | Wool Sock (Darning) |\n|---|---|---|\n| Technique | Calico/print patch applied to wrong side | Stocking/web darning over a darning mushroom |\n| Thread Type | Cotton thread matching fabric weight | Wool or nylon blend yarn matching sock weight |\n| Stitch Tension | Moderate; patch secured with running/herringbone stitch | Low; loops left loose to accommodate stretch |\n| Post-repair Care | Hot wash, hot iron (cotton tolerates) | Cold hand wash, flat dry, no iron (prevent felting) |\nA wrong answer that uses high tension on wool or hot iron on the sock shows failure to link fibre properties to procedural decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Mending can be delayed until the weekend because the garment is not being worn.\" Use the textbook's warning about laundering and two fabric-specific risks.",
+     "a": "The statement is unsafe. The textbook states: \"It is absolutely essential that they be attended to before laundering as the strain of washing may lead to greater loss to the fabric.\" Risks: (1) Cotton tears propagate under mechanical agitation, turning a 2 cm tear into a 10 cm irreparable rip. (2) Wool holes enlarge into runs because weakened wet fibres stretch and adjacent loops unravel. Delaying mending until after a wash cycle often makes repair impossible or visibly obvious. A wrong evaluation that treats mending as optional ignores the textbook's explicit sequencing rule and the physics of wet fibre behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mending kit for a hostel student who owns cotton kurtas, wool sweaters, silk dupattas, and polyester track pants. List 10 items with one-sentence justification for each, linking to fibre properties.",
+     "a": "1. Cotton thread (multiple weights) – matches cotton strength, tolerates hot wash/iron. 2. Wool/nylon blend yarn – stretches with wool, resists felting. 3. Fine silk thread – prevents cutting weak wet silk fibres. 4. Polyester all-purpose thread – inert to acids/alkalis, suits polyester’s low moisture regain. 5. Sharps needles (sizes 7-9) – fine for silk/cotton. 6. Crewel/chenille needles (sizes 18-22) – large eye for wool yarn. 7. Darning mushroom – maintains sock shape during web darning. 8. Calico fabric squares – lightweight, pre-shrunk cotton for patches. 9. Assorted buttons (shank, sew-through, snap) – shank for thick wool, sew-through for cotton. 10. Small scissors, thimble, seam ripper – tools for precision without fibre damage. A poor kit uses only one thread type or omits darning mushroom, showing failure to match tools to fibre-specific needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

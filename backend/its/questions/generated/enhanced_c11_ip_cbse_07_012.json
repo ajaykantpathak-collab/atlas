@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_012",
+   "title": "c11_ip_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the correct logical order of clause execution in a SQL query containing WHERE, GROUP BY, HAVING, and ORDER BY clauses?",
+     "a": "Correct order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY. A wrong answer (e.g., putting HAVING before GROUP BY or ORDER BY before SELECT) reveals the student does not understand that grouping must happen before group filtering, and sorting happens on the final projected columns after all filtering. This misconception leads to syntax errors like using column aliases in HAVING (invalid in standard SQL) or expecting WHERE to access aggregate values.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a table `SALES(Salesperson, Region, Amount)`. A student writes: `SELECT Region, SUM(Amount) FROM SALES WHERE SUM(Amount) > 10000 GROUP BY Region;`. Why does this query fail, and how would you correct it?",
+     "a": "The query fails because WHERE clause cannot contain aggregate functions; aggregates are computed after WHERE filters rows. The correct clause for filtering on aggregates is HAVING, placed after GROUP BY: `SELECT Region, SUM(Amount) FROM SALES GROUP BY Region HAVING SUM(Amount) > 10000;`. A student who suggests moving the condition to WHERE or using the alias in WHERE reveals confusion between row-level filtering (WHERE) and group-level filtering (HAVING), a classic Class 11 board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Table `STUDENTS(RollNo, Name, Class, Section, Marks)`. Write a query to display Class, Section, and average marks for each class-section combination where the average marks is at least 75, sorted by average marks descending. Show the complete query with correct clause order.",
+     "a": "`SELECT Class, Section, AVG(Marks) AS Avg_Marks FROM STUDENTS GROUP BY Class, Section HAVING AVG(Marks) >= 75 ORDER BY Avg_Marks DESC;` Steps: 1) Identify grouping columns (Class, Section), 2) Choose aggregate (AVG(Marks)), 3) Apply group filter in HAVING using the aggregate (not alias), 4) Sort using alias in ORDER BY (allowed). A wrong answer using WHERE AVG(Marks) >= 75 or omitting Section from GROUP BY reveals misunderstanding of grouping granularity and clause restrictions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effect of `ORDER BY Marks DESC` versus `ORDER BY 2 DESC` when used with `SELECT Name, Marks FROM STUDENTS`. Under what circumstances would they produce different results?",
+     "a": "`ORDER BY Marks DESC` sorts by the column name; `ORDER BY 2 DESC` sorts by the second column in the SELECT list (positional notation). They produce identical results for `SELECT Name, Marks` but differ if the SELECT list changes (e.g., `SELECT Marks, Name` makes positional 2 refer to Name). Positional notation is discouraged in board exams as it reduces readability and breaks when column order changes. A student claiming they are always equivalent misses the dependency on SELECT column order.",
+     "self_check": true
+    },
+    {
+     "q": "A query uses `GROUP BY Department, Gender` on an `EMPLOYEE` table. The SELECT clause includes `Department, Gender, COUNT(*), AVG(Salary)`. The principal argues: \"Since Department is functionally dependent on Employee_ID (primary key), we should be able to group by Employee_ID only and still select Department.\" Evaluate this claim in the context of standard SQL and MySQL's ONLY_FULL_GROUP_BY mode.",
+     "a": "The claim is invalid in standard SQL and MySQL with ONLY_FULL_GROUP_BY enabled (default in MySQL 5.7+). Every non-aggregated column in SELECT must appear in GROUP BY. Grouping by Employee_ID produces one group per employee, making COUNT(*) always 1 and AVG(Salary) equal to individual salary — not department-level aggregates. The principal confuses functional dependency (a schema property) with grouping semantics (a query operation). A student agreeing reveals lack of understanding of the \"single value per group\" rule for non-aggregated columns.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context, using rupees) requiring a query that uses WHERE, GROUP BY, HAVING, and ORDER BY together. Write the complete query for your scenario and explain why each clause is necessary and why no clause can be omitted.",
+     "a": "Scenario: A retail chain `SALES(Store_ID, City, Product_Category, Sale_Date, Amount)` wants: \"For each city and product category in 2023, show total sales only where total exceeds ₹5,00,000, sorted by total sales descending.\" Query: `SELECT City, Product_Category, SUM(Amount) AS Total_Sales FROM SALES WHERE YEAR(Sale_Date) = 2023 GROUP BY City, Product_Category HAVING SUM(Amount) > 500000 ORDER BY Total_Sales DESC;` WHERE filters rows to 2023 (reduces aggregation load), GROUP BY partitions by city-category, HAVING filters groups on aggregate, ORDER BY sorts final result. Omitting WHERE includes all years; omitting HAVING shows all groups; omitting ORDER BY loses required sort. A poor answer uses a trivial scenario or misses one clause's necessity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

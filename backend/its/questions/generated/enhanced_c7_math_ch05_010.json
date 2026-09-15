@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_010",
+   "title": "c7_math_ch05_010",
+   "questions": [
+    {
+     "q": "What geometric instrument besides a compass is required to draw a straight line through a constructed point when making parallel lines?",
+     "a": "A ruler (or straightedge). If a student answers \"protractor\" or \"set-square\", it shows they confuse compass-and-ruler geometric construction with direct angle measurement tools.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the compass width remain unchanged when transferring an angle from the base line to the external point during a parallel line construction?",
+     "a": "Keeping the compass width unchanged ensures that the arcs drawn have the exact same radius, which is mathematically necessary to replicate an identical angle size. If a student thinks it is just to save time, they misunderstand that arc radius preserves distance consistency in geometric copying.",
+     "self_check": true
+    },
+    {
+     "q": "When constructing a line parallel to line $L$ through an external point $P$ using a transversal $PQ$, if the angle formed at the transversal with line $L$ is measured by an arc, what property of parallel lines are you utilizing?",
+     "a": "Corresponding angles (or alternate interior angles) are equal. Working steps: 1. Identify the transversal cutting line $L$ at point $Q$ and passing through point $P$. 2. Draw an arc from $Q$ cutting line $L$ and transversal $PQ$. 3. With the same radius and center at $P$, draw a corresponding arc. 4. Measure the chord length of the first arc and transfer it to the second arc to ensure equal angles, confirming the converse of the corresponding angles axiom. If a student answers \"perpendicular distance\", they confuse parallel line construction with dropping a perpendicular.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the effect of changing the compass radius *after* drawing the first arc on the base line but *before* drawing the arc at the external point. Will the resulting line be parallel?",
+     "a": "No, the resulting line will not be parallel. Changing the compass radius alters the arc length and thus changes the size of the angle being copied, violating the condition for equal corresponding angles. If a student says it will still be parallel, they do not understand that arc radii dictate angle congruence in compass constructions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's method for constructing a parallel line through point $X$ to line $AB$: \"I drew a line through $X$ perpendicular to $AB$, and then another line through $X$ perpendicular to my first perpendicular line.\" Is this method valid?",
+     "a": "Yes, the method is completely valid. Two lines perpendicular to the same line (or where one is perpendicular to a perpendicular) are parallel to each other. If a student judges it incorrect, they are unaware of alternative valid construction theorems for parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short set of instructions using a ruler and compass to construct a pair of parallel railway tracks separated by exactly 4 cm, starting from a single straight chalk line on the floor.",
+     "a": "1. Mark two points on the initial chalk line and construct perpendiculars of length 4 cm at each point using a compass. 2. Connect the top endpoints of these two perpendiculars with a straight ruler. 3. Verify the distance at multiple points. A poor answer would suggest free-hand drawing or measuring with a protractor instead of using compass arcs for perpendiculars or angle copying.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

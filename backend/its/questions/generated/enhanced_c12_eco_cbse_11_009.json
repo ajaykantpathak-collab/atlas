@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_009",
+   "title": "c12_eco_cbse_11_009",
+   "questions": [
+    {
+     "q": "Define \"autonomous transactions\" in the Balance of Payments and give two examples (one credit, one debit).",
+     "a": "Autonomous transactions are international economic transactions undertaken for profit or economic motive, independent of the state of the BoP. Examples: Credit — export of goods ($50 bn); Debit — import of crude oil ($70 bn). A wrong answer (e.g., \"transactions done by the government\" or \"transactions to fix the deficit\") reveals confusion between autonomous and accommodating (official reserve) transactions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the overall Balance of Payments (including official reserve transactions) always balances in an accounting sense, but a BoP deficit can still exist.",
+     "a": "The overall BoP follows double-entry bookkeeping: every credit has a matching debit, so the sum of all entries (current + capital + financial + official reserves) is identically zero. A \"BoP deficit\" refers only to the autonomous part (above the line): when autonomous debits exceed autonomous credits, the gap is filled by a net credit in official reserves (drawing down reserves), which is an accommodating transaction. A student who says \"BoP deficit means the books don't balance\" misunderstands the accounting identity.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the BoP deficit/surplus from the following data (all values in $ billion):\nExports of goods: 300; Imports of goods: 350; Exports of services: 150; Imports of services: 100; Net primary income: -20; Net secondary income: +50; Foreign direct investment (net): +40; Portfolio investment (net): -10; External commercial borrowing (net): +30; Short-term trade credit (net): -5. Assume no other transactions.",
+     "a": "Step 1: Current Account = (300-350) + (150-100) + (-20) + 50 = -50 + 50 -20 + 50 = +30.\nStep 2: Capital & Financial Account (autonomous) = 40 -10 +30 -5 = +55.\nStep 3: Autonomous receipts (credits) = 300+150+50+40+30 = 570; Autonomous payments (debits) = 350+100+20+10+5 = 485.\nStep 4: Net autonomous = 570 - 485 = +85 (surplus). OR directly: Current Account (+30) + Capital Account (+55) = +85 surplus.\nStep 5: This +85 surplus must be matched by an accommodating outflow of $85 bn in official reserves (increase in reserves). A wrong sign or missing item (e.g., forgetting net primary income) reveals poor classification of current vs capital account items.",
+     "self_check": true
+    },
+    {
+     "q": "India runs a persistent current account deficit (CAD) of 2.5% of GDP, financed entirely by volatile portfolio inflows (\"hot money\"). Analyze the BoP vulnerability this creates compared to a CAD financed by FDI.",
+     "a": "A CAD financed by portfolio inflows (debt/equity liabilities with short maturity) creates a BoP structure where autonomous capital inflows are reversible. If global risk appetite falls, portfolio outflows can exceed the CAD, causing a sudden BoP deficit, reserve depletion, and currency crash. FDI is non-debt creating, long-term, and brings technology; it is far less likely to reverse abruptly. A student who says \"any capital inflow finances the CAD equally\" misses the risk dimension of the composition of financing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A BoP surplus is always desirable for an economy because it means the country is earning more foreign exchange than it spends.\"",
+     "a": "Not always. A persistent surplus may indicate an undervalued exchange rate, repressed domestic demand, or excessive export orientation at the cost of domestic consumption. It can invite trade protectionism from partners (e.g., US labeling India a currency manipulator). Also, accumulating low-yield reserves has an opportunity cost (foregone domestic investment). A student who agrees uncritically confuses mercantilist thinking with modern open-economy macroeconomics.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical BoP table for a small open economy showing a BoP deficit of $10 bn. Include at least 3 current account items and 3 capital account items. Show the accommodating transaction explicitly.",
+     "a": "Example (in $ bn):\nCurrent Account: Exports 80, Imports -100, Net Services +10, Net Transfers +5 → CA = -5.\nCapital Account: FDI +20, Portfolio -15, Loans +5 → KA = +10.\nAutonomous total = CA + KA = +5 (surplus). To get a deficit of -10, change: Portfolio -25 → KA = 0. Then Autonomous total = -5. Deficit = 5? Wait, need deficit 10. Let's do: CA = -15, KA = +5 → Autonomous = -10. Then Official Reserves change = +10 (drawdown). A good answer shows correct double-entry, clear separation of autonomous vs accommodating, and the balancing item.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

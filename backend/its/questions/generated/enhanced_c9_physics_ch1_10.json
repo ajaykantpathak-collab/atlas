@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_10",
+   "title": "c9_physics_ch1_10",
+   "questions": [
+    {
+     "q": "Name one physics principle from Class 9 (motion, force, gravitation, work/energy, or sound) that enables the working of a bicycle, and state the technology it directly produces.",
+     "a": "Principle: Newton's laws of motion (especially second law F=ma and third law action-reaction) and friction. Technology: gear system and braking mechanism. A wrong answer (e.g., \"thermodynamics\") reveals the student cannot map basic mechanics to a familiar machine and confuses energy domains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same physics principle (electromagnetic induction) that allows a generator to produce electricity for a village also creates a societal dilemma when the generator is diesel-powered.",
+     "a": "Electromagnetic induction (Faraday's law) converts mechanical rotation into electrical energy, providing lighting and appliance power. The dilemma: diesel combustion releases CO₂ and particulates, harming health and climate, creating a trade-off between immediate energy access and long-term sustainability. A wrong answer focusing only on \"electricity is good\" shows inability to evaluate trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "A rural household replaces a kerosene lamp (luminous efficacy 0.5 lm/W) with a 5 W LED bulb (efficacy 100 lm/W) powered by a solar panel. If the lamp runs 4 hours daily, calculate the ratio of useful light output (lumens) of the LED to the kerosene lamp for the same electrical energy input. (Assume the solar panel provides the same energy as the kerosene's chemical energy converted at 20% efficiency.)",
+     "a": "Step 1: Kerosene lamp light output per joule = 0.5 lm/W × (1 W = 1 J/s) → 0.5 lm per joule of electrical energy. But kerosene chemical energy to electrical at 20% efficiency means 1 J chemical → 0.2 J electrical → 0.2 × 0.5 = 0.1 lm per joule chemical. Step 2: LED: 100 lm/W → 100 lm per joule electrical. Step 3: Ratio = (100 lm/J) / (0.1 lm/J) = 1000. The LED delivers 1000 times more light per unit of primary energy. A wrong ratio (e.g., 200) reveals confusion between efficacy and overall system efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the societal impact of two sound-based technologies: (a) ultrasound imaging in prenatal care and (b) high-decibel loudspeakers at public events. Analyze how the same physics (sound wave propagation and reflection) leads to divergent ethical outcomes.",
+     "a": "Ultrasound uses high-frequency sound reflection to create images, enabling early medical intervention and reducing mortality — a positive health impact. Loudspeakers amplify sound to high intensities, causing noise-induced hearing loss, sleep disturbance, and stress — a negative public health impact. Both rely on wave propagation and energy transfer, but intent and regulation determine outcome. A wrong answer treating both as \"just sound\" misses the ethical dimension of technology deployment.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since physics gives us powerful technologies like nuclear energy, scientists bear full responsibility for any misuse, such as nuclear weapons.\" Evaluate this claim using the concept of dual-use technology and the role of society/policy.",
+     "a": "The claim is partially true but incomplete. Nuclear fission (physics) enables both power plants and weapons (dual-use). Scientists provide knowledge; however, deployment decisions involve governments, corporations, and public policy. The Non-Proliferation Treaty shows societal governance shapes use. Blaming only scientists ignores democratic accountability. A wrong answer (\"scientists are fully responsible\") reveals a misunderstanding of the science-society interface and the role of regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple community-level project that uses a Class 9 physics concept (choose one: work/energy, sound, or gravitation) to solve a local problem (e.g., water lifting, noise reduction, crop drying). Outline the physics principle, the prototype, and one societal benefit and one risk.",
+     "a": "Example: Gravitational potential energy → kinetic energy → water turbine for irrigation. Prototype: a rainwater tank on a rooftop (height h) feeds a pipe to a small turbine that charges a battery for a drip-irrigation pump. Benefit: reduces manual labor and diesel use. Risk: tank collapse hazard if not maintained; mosquito breeding in stagnant water. A poor answer proposes a \"magic\" device without energy accounting or ignores maintenance/social context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

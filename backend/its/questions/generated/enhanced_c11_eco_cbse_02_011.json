@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_011",
+   "title": "c11_eco_cbse_02_011",
+   "questions": [
+    {
+     "q": "State the four goals of India's Five Year Plans as outlined in the First Five Year Plan document.",
+     "a": "The four goals are: Growth (increase in GDP), Modernisation (adoption of new technology and social outlook), Self-reliance (reducing dependence on imports), and Equity (ensuring benefits reach the poor and reducing inequality). A wrong answer (e.g., listing \"industrialisation\" or \"poverty removal\" as separate goals) reveals the student confuses specific plan priorities with the overarching constitutional goals that guided all plans.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Green Revolution is considered an achievement of the planning strategy despite increasing regional disparities in its initial phase.",
+     "a": "The Green Revolution is an achievement because it transformed India from a food-deficit nation importing wheat under PL-480 to self-sufficiency in food grains by 1990, enabling buffer stocks and price stability for low-income groups. Government intervention (subsidised credit, fertiliser subsidies, research institutes) ensured small farmers eventually benefited, mitigating initial disparities. A wrong answer focusing only on disparities without acknowledging the self-sufficiency outcome reveals the student cannot weigh net welfare gains against distributional concerns.",
+     "self_check": true
+    },
+    {
+     "q": "Using the sectoral GDP share data below, calculate the percentage point change in agriculture's share and industry's share between 1950-51 and 1990-91, and interpret what this indicates about structural transformation.\nSector | 1950-51 | 1990-91\nAgriculture | 59.0% | 34.9%\nIndustry | 13.0% | 24.6%\nServices | 28.0% | 40.5%",
+     "a": "Agriculture share change = 34.9 - 59.0 = -24.1 percentage points. Industry share change = 24.6 - 13.0 = +11.6 percentage points. Services share change = 40.5 - 28.0 = +12.5 percentage points. This indicates structural transformation: agriculture's GDP share halved while industry and services expanded, typical of development. However, the student must note that occupational structure did not shift proportionally (67.5% to 64.9% in agriculture), revealing a \"jobless structural change\" — a key failure. A wrong interpretation ignoring the occupational mismatch misses the core critique.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rationale for import substitution in the 1950s with its critique by the late 1980s. Why did the same policy shift from being necessary to harmful?",
+     "a": "Rationale (1950s): Infant industries lacked capital and technology to compete with developed nations; protection allowed them to learn and achieve scale. Foreign exchange scarcity necessitated restricting luxury imports. Critique (1980s): Protection continued beyond the learning phase, creating captive markets where domestic firms had no incentive to improve quality or efficiency. License raj enabled rent-seeking (big industrialists getting licenses to block competitors). The policy shift from necessary to harmful occurred because protection became permanent rather than temporary, and the government failed to phase it out once industries matured. A wrong answer treating import substitution as uniformly good or bad reveals inability to evaluate policies dynamically over time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Public sector enterprises were a drain on the economy's resources and should have been closed down.\" Use the concepts of market failure, strategic sectors, and opportunity cost in your answer.",
+     "a": "The statement is partially correct but incomplete. Public sector was essential where private sector lacked capital (heavy industry) or where market failure existed (natural monopolies like telecommunications, national defence). However, by the 1990s, many PSUs operated in competitive markets (e.g., Modern Bread, hotels) where private firms were efficient, incurring losses that crowded out public investment in health/education (opportunity cost). The critique is not that PSUs should not exist, but that the government failed to distinguish between (i) sectors only the public sector can provide (defence, public goods) and (ii) sectors where private sector could compete. A wrong answer advocating complete privatisation or complete retention reveals failure to apply the \"market failure vs. government failure\" framework.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a policy brief (150 words) for the 1991 Prime Minister summarising three achievements and three failures of the 1950-1990 planning strategy, and recommend one reform for each failure.",
+     "a": "Achievements: (1) Industrial diversification from cotton/jute to heavy machinery, electronics, automobiles. (2) Food self-sufficiency via Green Revolution, ending PL-480 dependence. (3) Land reform legislation abolishing zamindari, conferring ownership on 200 lakh tenants. Failures & Reforms: (1) 65% workforce in agriculture despite 35% GDP share → Reform: Labour-intensive manufacturing incentives to absorb surplus labour. (2) PSU losses in non-strategic sectors → Reform: Disinvestment from competitive sectors (bread, hotels), focus on strategic/public goods. (3) License raj stifling entrepreneurship and export neglect → Reform: Replace licensing with automatic approval for most industries; shift to export-oriented trade policy. A poor answer lists generic points without linking specific reforms to diagnosed failures, showing inability to translate critique into actionable policy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

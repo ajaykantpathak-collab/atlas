@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_002",
+   "title": "c12_psy_cbse_06_002",
+   "questions": [
+    {
+     "q": "A student rates her attitude toward \"mandatory school uniforms\" as 2 on a 5-point scale (1 = Very bad, 2 = Bad, 3 = Neutral, 4 = Good, 5 = Very good). What is the valence and extremeness of this attitude?",
+     "a": "Valence: Negative (rating 2 falls on the negative side of the neutral midpoint). Extremeness: Moderate (rating 2 is less extreme than 1, but more extreme than 3). A wrong answer (e.g., \"valence positive\" or \"extremeness high\") reveals the student confuses direction with intensity or misreads the scale anchors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an attitude system toward \"health and well-being\" is considered complex (multiplex) while an attitude toward \"a particular classmate\" is considered simple, according to NCERT.",
+     "a": "\"Health and well-being\" is complex because it contains multiple member attitudes (physical health, mental health, happiness, diet, exercise, sleep) each with their own A-B-C components. An attitude toward a particular classmate is simple because it consists mainly of a single evaluation. A wrong answer that says \"health is complex because it has A-B-C components\" confuses the three components of a single attitude with the multiple member attitudes of an attitude system.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul has a strongly negative attitude toward \"junk food\" (valence = negative, extremeness = high). This attitude is central in his \"nutrition\" attitude system. Predict how difficult it would be to change Rahul's attitude toward junk food using a congruent change strategy (making his negative attitude more negative) versus an incongruent change strategy (making it positive). Justify using the features.",
+     "a": "Congruent change (more negative) would be easier because it aligns with the existing valence and centrality; incongruent change (toward positive) would be very difficult because high extremeness and centrality increase resistance to change, especially in the opposite direction. A wrong answer that says \"both are equally easy\" ignores the NCERT principle that extreme and central attitudes resist incongruent change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two attitude systems: System A has a central attitude with high extremeness and negative valence; System B has a peripheral attitude with low extremeness and positive valence. Which system is more resistant to attitude change? Analyze using all four features.",
+     "a": "System A is more resistant. Centrality gives the attitude influence over the system, high extremeness means strong conviction, and negative valence is harder to change than positive valence (NCERT: \"positive attitudes are easier to change than negative attitudes\"). System B's peripheral location, low extremeness, and positive valence make it more malleable. A wrong answer focusing only on valence misses the interaction of centrality and extremeness.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"A simple attitude system is always easier to change than a complex one.\" Use the features of attitudes to support or refute.",
+     "a": "The claim is generally true but not absolute. Simplicity means fewer member attitudes to restructure, so change is easier. However, if the single attitude in a simple system is central, extreme, and negative, it may be more resistant than a peripheral attitude in a complex system. NCERT states \"simple attitudes are easier to change than multiple attitudes\" but also notes centrality and extremeness matter. A wrong answer that says \"always easier\" ignores the moderating role of centrality and extremeness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) involving an attitude toward \"digital payments (UPI)\" that illustrates all four features. Explicitly label valence, extremeness, simplicity/complexity, and centrality in your example.",
+     "a": "Scenario: Priya, a college student, uses UPI daily. Valence: Positive (rates 5/5). Extremeness: High (rating 5). Complexity: Complex system — member attitudes include convenience, security, cashback rewards, merchant acceptance, privacy concerns. Centrality: \"Convenience\" is the central attitude; if she perceives UPI as inconvenient, her overall positive attitude collapses. A poor answer would list features without integrating them into a coherent attitude system or would confuse member attitudes with A-B-C components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

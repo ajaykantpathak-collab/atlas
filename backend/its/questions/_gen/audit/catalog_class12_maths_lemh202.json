@@ -1,0 +1,376 @@
+{
+ "catalog": "catalog_class12_maths_lemh202.json",
+ "concepts": [
+  {
+   "id": "lemh.202.8.2.1",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 3 * 3 + 4 * 3 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 3 * 4 * 3 ** 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 2 * 4 + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 2 * 4 + 1",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 2 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 3 * 3 * 3 + 4 * 3 + 3"
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.2",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 30 * 27"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 19 * 19"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 15 * 9",
+      "bed = 11 * 5",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 72 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 18 * 6",
+      "cost = area * 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 24 * 20 / (4 * 4)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 30 * 27"
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.3",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 23 * 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 4 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 10 * 15",
+      "bed = 6 * 11",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 60 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 6 * 15",
+      "cost = area * 15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 28 * 24 / (4 * 4)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 23 * 26"
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.4",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 * 1 * 1 + 5 * 1 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 4 * 3 * 1 ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 3 * 3 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 3 * 3 + 4",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 3 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "lemh.202.8.2.5",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 * 2 + 2 * 2 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 3 * 2 * 2 ** 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 3 * 3 + 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 3 * 3 + 2",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 5 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "lemh.202.8.2.6",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 * 2 + 4 * 2 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 3 * 2 * 2 ** 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 2 * 4 + 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 2 * 4 + 6",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 2 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "lemh.202.8.2.7",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 2 * 5 * 5 + 7 * 5 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 4 * 3 * 5 ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 2 * 1 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 2 * 1 + 4",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 2 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "lemh.202.8.2.8",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 7 * 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 7 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 9 * 8",
+      "bed = 5 * 4",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 72 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 16 * 19",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 36 * 18 / (6 * 6)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 7 * 3"
+   ]
+  }
+ ]
+}

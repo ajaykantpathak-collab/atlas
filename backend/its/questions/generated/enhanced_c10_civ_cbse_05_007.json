@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_007",
+   "title": "c10_civ_cbse_05_007",
+   "questions": [
+    {
+     "q": "Name any three criteria used to assess the outcomes of democracy as per the Class 10 NCERT framework.",
+     "a": "Correct answer: Any three of — (1) Accountable, responsive and legitimate government, (2) Economic growth and development, (3) Reduction of inequality and poverty, (4) Accommodation of social diversity, (5) Dignity and freedom of citizens.  \nA wrong answer (e.g., \"free media, independent judiciary, federalism\") reveals the student confuses **institutional features** of democracy with **outcome-evaluation criteria**. The former are means; the latter are ends.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT framework insist on evaluating democracy through **outcomes** (like poverty reduction) rather than only through **procedures** (like regular elections)?",
+     "a": "Correct answer: Procedures (elections, constitutions) are necessary but not sufficient; they are the *rules of the game*. Outcomes reveal whether the game actually delivers justice, equity, and dignity to citizens. A democracy that holds elections but fails to reduce hunger has a **procedural legitimacy** but an **outcome deficit**.  \nA wrong answer (\"Elections are enough because people can vote out bad leaders\") reveals the **procedural fallacy** — ignoring structural constraints (caste, patronage, information asymmetry) that make electoral accountability weak in practice.",
+     "self_check": true
+    },
+    {
+     "q": "A State Government passes a law reserving 50% of panchayat seats for women. After ten years, female literacy in the state rises from 52% to 68%, but women's workforce participation remains at 18%. Using the evaluation framework, analyse whether this democratic intervention has been successful.",
+     "a": "Correct analysis:  \n- **Criterion 1 (Accommodation of diversity / political equality):** Success — descriptive representation increased.  \n- **Criterion 2 (Dignity and freedom):** Partial success — literacy rise indicates enhanced capability/freedom.  \n- **Criterion 3 (Reduction of inequality / economic empowerment):** Failure — workforce participation stagnant, suggesting structural barriers (patriarchy, care burden) persist.  \n**Overall verdict:** Democratic procedure (reservation) initiated change, but **substantive outcome** on economic equality remains unmet.  \nA wrong answer (\"It's successful because literacy rose\") reveals **single-criterion bias** — ignoring the framework's multi-dimensional nature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how **accountability** and **responsiveness** differ as evaluation criteria. Give one Indian example where a government was accountable but not responsive, or vice versa.",
+     "a": "Correct answer:  \n- **Accountability** = answerability + enforceability (citizens can sanction rulers via elections, courts, RTI).  \n- **Responsiveness** = government *anticipates and acts* on citizen needs without pressure.  \nExample: A government that loses an election after a famine (accountable via electoral sanction) but ignored early warnings (not responsive). Conversely, a government that quickly expands MGNREGA work during drought without protests (responsive) but faces no electoral penalty for prior neglect (weak accountability).  \nA wrong answer (\"They mean the same thing\") reveals **conceptual conflation** — missing that accountability is *ex post* and responsiveness is *ex ante*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If a democracy has high GDP growth, it is performing well on outcomes.\" Use at least two other criteria from the framework to justify your critique.",
+     "a": "Correct critique: GDP growth is **necessary but insufficient**.  \n- **Inequality criterion:** High growth with rising Gini coefficient (e.g., India 2004–2014) means gains are captured by elites — violates \"reduction of inequality\".  \n- **Dignity/freedom criterion:** Growth via labour repression (e.g., suppressing unions) violates \"dignity of citizens\".  \n- **Social accommodation criterion:** Growth that displaces tribals without consent violates \"accommodation of diversity\".  \n**Verdict:** A democracy performing well must pass *multiple* criteria, not just one.  \nA wrong answer (\"GDP growth means people have money, so it's good\") reveals **reductionism** — collapsing multi-dimensional welfare into a single aggregate metric.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **Democracy Report Card** for your district. Choose four indicators (one per criterion) that a citizen group could realistically track using public data (RTI, government portals, surveys). Explain why each indicator matters.",
+     "a": "Expected answer (sample):  \n1. **Accountability:** % of RTI queries answered within 30 days (measures enforceability).  \n2. **Economic equity:** % of eligible households receiving PDS grain without leakage (measures substantive delivery).  \n3. **Social accommodation:** Number of communal incidents / caste atrocities reported per year (measures protection of diversity).  \n4. **Dignity/freedom:** % of schools with functional toilets for girls (measures capability to exercise freedom).  \nA poor answer (vague indicators like \"corruption level\", \"happiness\") reveals **operationalisation failure** — inability to translate abstract criteria into measurable, verifiable metrics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

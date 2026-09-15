@@ -1,0 +1,209 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 105,
+ "chapter_title": "Thermodynamics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kech105.txt",
+ "concepts": [
+  {
+   "id": "kech.5.1.2.1",
+   "title": "System Classification",
+   "section": "5.1.2",
+   "definition": "Thermodynamic systems are categorized by their ability to exchange matter and energy with the surroundings.",
+   "formula": "none",
+   "key_idea": "Distinction based on boundary permeability to matter and energy.",
+   "textbook_ref": "kech105.txt lines 70-100",
+   "question_patterns": [
+    "define an open system",
+    "how does a closed system differ from an isolated one",
+    "give an example of an isolated system",
+    "classify a thermos flask as a type of system",
+    "explain the boundary of an open system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": []
+  },
+  {
+   "id": "kech.5.2.1.1",
+   "title": "Pressure-Volume Work",
+   "section": "5.2.1",
+   "definition": "Mechanical work performed by or on a system during expansion or compression against an external pressure.",
+   "formula": "w = -p_ext * (v_final - v_initial)",
+   "key_idea": "Work is the product of external pressure and change in volume.",
+   "textbook_ref": "kech105.txt lines 210-230",
+   "question_patterns": [
+    "calculate the work done during expansion",
+    "find the work done when gas is compressed",
+    "what is the pressure volume work for a given volume change",
+    "determine the work done against constant external pressure",
+    "compute work if volume changes by a certain amount"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume difference",
+     "explain": "find the net change in volume",
+     "compute": "delta_v = v_final - v_initial"
+    },
+    {
+     "step": 2,
+     "action": "calculate work",
+     "explain": "multiply negative external pressure by volume change",
+     "compute": "work = -p_ext * delta_v"
+    }
+   ]
+  },
+  {
+   "id": "kech.5.2.2.1",
+   "title": "Enthalpy Change Relation",
+   "section": "5.2.2",
+   "definition": "The relationship between enthalpy change and internal energy change for reactions involving gases.",
+   "formula": "delta_h = delta_u + delta_ng * r * t",
+   "key_idea": "Enthalpy accounts for internal energy plus pressure-volume work.",
+   "textbook_ref": "kech105.txt lines 310-330",
+   "question_patterns": [
+    "calculate enthalpy change from internal energy",
+    "find delta_h given delta_u and temperature",
+    "determine the change in internal energy for a reaction",
+    "how to calculate enthalpy change for gaseous reactions",
+    "compute delta_u using enthalpy change"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate product of gas constant and temperature",
+     "explain": "rt value for the reaction",
+     "compute": "rt_val = r * t"
+    },
+    {
+     "step": 2,
+     "action": "calculate enthalpy change",
+     "explain": "add internal energy change to the product of moles and rt",
+     "compute": "delta_h = delta_u + delta_ng * rt_val"
+    }
+   ]
+  },
+  {
+   "id": "kech.5.2.3.1",
+   "title": "Heat Capacity Calculation",
+   "section": "5.2.3",
+   "definition": "The quantity of heat required to raise the temperature of a given amount of substance by one degree.",
+   "formula": "q = c * m * delta_t",
+   "key_idea": "Heat absorbed is proportional to mass, specific heat, and temperature rise.",
+   "textbook_ref": "kech105.txt lines 360-380",
+   "question_patterns": [
+    "calculate heat required to raise temperature",
+    "find the heat absorbed by a substance",
+    "determine the energy needed for a temperature change",
+    "compute heat using specific heat capacity",
+    "how much heat is needed for a specific mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate temperature change",
+     "explain": "difference between final and initial temperature",
+     "compute": "delta_t = t_final - t_initial"
+    },
+    {
+     "step": 2,
+     "action": "calculate total heat",
+     "explain": "multiply specific heat by mass and temperature change",
+     "compute": "q = c * m * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "kech.5.6.1.1",
+   "title": "Gibbs Energy and Spontaneity",
+   "section": "5.6",
+   "definition": "The criterion for spontaneity of a process at constant temperature and pressure.",
+   "formula": "delta_g = delta_h - t * delta_s",
+   "key_idea": "Negative Gibbs energy change indicates a spontaneous process.",
+   "textbook_ref": "kech105.txt lines 580-600",
+   "question_patterns": [
+    "calculate gibbs energy change",
+    "determine if a reaction is spontaneous",
+    "find delta_g given enthalpy and entropy",
+    "predict spontaneity using gibbs equation",
+    "compute free energy change"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate entropy term",
+     "explain": "product of temperature and entropy change",
+     "compute": "ts = t * delta_s"
+    },
+    {
+     "step": 2,
+     "action": "calculate gibbs energy",
+     "explain": "subtract entropy term from enthalpy change",
+     "compute": "delta_g = delta_h - ts"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech105.txt line 270",
+   "concept": "kech.5.2.1.1",
+   "question_type": "compute",
+   "question_pattern": "calculate work done for expansion of gas against pressure {p} atm with volume change {dv} litres",
+   "extracted_variables": {
+    "p": 1,
+    "dv": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate work",
+     "explain": "work = -p * dv",
+     "compute": "work = -1 * 8"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech105.txt line 340",
+   "concept": "kech.5.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "find delta_u if delta_h is {dh} and delta_ng*rt is {nrt}",
+   "extracted_variables": {
+    "dh": 41,
+    "nrt": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate internal energy change",
+     "explain": "delta_u = delta_h - nrt",
+     "compute": "delta_u = 41 - 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.7",
+   "source_ref": "kech105.txt line 750",
+   "questions": [
+    "In a process, 701 J of heat is absorbed by a system and 394 J of work is done by the system. What is the change in internal energy for the process?"
+   ]
+  },
+  {
+   "id": "ex5.9",
+   "source_ref": "kech105.txt line 760",
+   "questions": [
+    "Calculate the number of kJ of heat necessary to raise the temperature of 60.0 g of aluminium from 35C to 55C. Molar heat capacity of Al is 24 J mol-1 K-1."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

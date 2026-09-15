@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_02_011",
+   "title": "c11_hin_ar_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the basic rule for changing a direct speech sentence in present tense to indirect speech when the reporting verb is in past tense?",
+     "a": "The tense of the reported speech shifts one step back (e.g., present simple becomes past simple). A wrong answer (e.g., \"tense doesn't change\") reveals the student hasn't grasped the backshifting rule, which is fundamental for indirect speech conversion.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"fe;k¡ ulh#íhu us iapg”kkjh vank”k ls flj fgyk;k\", identify the perception verb and explain how its meaning differs from simple \"ns[kuk\".",
+     "a": "The perception verb is \"flj fgyk;k\" (looked angrily). Unlike \"ns[kuk\" (neutral seeing), \"flj fgyk;k\" conveys an emotional attitude (anger) through the adverbial phrase \"flj\" modifying the act of seeing. A wrong answer that just says \"ns[kuk\" misses the nuance of perception verbs combined with adverbs to show manner.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following direct speech from the text to indirect speech: \"fe;k¡ ulh#íhu us iapg”kkjh vank”k ls flj fgyk;kµ ^fudky ysaxs oDr FkksM+k] ij ;g rks dfg,] vkidks iwNuk D;k gS\\*\"",
+     "a": "Step 1: Identify reporting verb: \"iapg”kkjh vank”k ls flj fgyk;k\" (past tense). Step 2: Reported speech: \"fudky ysaxs oDr FkksM+k] ij ;g rks dfg,] vkidks iwNuk D;k gS\". Step 3: Change pronouns: \"vkidks\" -> \"muhks\" (or \"mEuhks\" depending on context). Step 4: Backshift tenses: \"ysaxs\" (future) -> \"ysaxh\" (future in past). Step 5: Adjust time/place: \"ij\" (here) -> \"vk¡\". Step 6: Convert interrogative to indirect question: \"iwNuk D;k gS\" -> \"D;k iwNuk gS\". Final: \"fe;k¡ ulh#íhu us iapg”kkjh vank”k ls flj fgyk;k fd og fudky ysaxh oDr FkksM+k vk¡ ;g rks dfg gS] mls D;k iwNuk gS\". A wrong answer that doesn't backshift the future tense or change pronouns shows incomplete application of conversion rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the word order in these two sentences from the text: (a) \"fe;k¡ e'kgwj gSa NIiu fdLe dh jksfV;k¡ cukus osQ fy,A\" (b) \"fudky ysaxs oDr FkksM+k\". Explain why the author might choose the order in (a) over the standard SOV.",
+     "a": "Sentence (a) uses OSV order (Object-Subject-Verb): \"NIiu fdLe dh jksfV;k¡\" (object) placed before subject \"fe;k¡\" to emphasize the purpose. Sentence (b) follows standard SOV: \"fudky\" (adverb) \"ysaxs\" (subject) \"oDr FkksM+k\" (verb). The author uses OSV in (a) to highlight the object (making dolls) as the focus of Fe;k¡'s eagerness. A wrong answer that says both are SOV fails to recognize how word order shifts emphasis in Hindi.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of using indirect speech in the narrative when the author writes: \"ckn'kkg lyker us I+kQjek;kµ ^dksbZ ,slh ph”k cukvks tks u vkx ls iosQ] u ikuh ls cusA*\". Would direct speech be more powerful here? Justify.",
+     "a": "Indirect speech here summarizes the teacher's suggestion, maintaining narrative flow without breaking into dialogue. Direct speech would be more powerful if the exact words were crucial for character voice, but the author chooses indirect to convey the gist quickly. A wrong answer that says \"direct is always better\" ignores narrative pacing and the author's stylistic choice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new dialogue between Fe;k¡ and the teacher using at least three different perception verbs (e.g., ns[kuk, i<+uk, lquk) in direct speech, then convert the entire dialogue to indirect speech.",
+     "a": "Example dialogue:\nFe;k¡: \"eSa vki dks ns[k jgw gw¡A\"\nTeacher: \"vki D;k i<+ jgs gSa\\\"\nFe;k¡: \"eSa vkidh ckr lqu jgw gw¡A\"\nConverted indirect:\nFe;k¡ told the teacher that she was looking at him. The teacher asked what she was reading. Fe;k¡ replied that she was listening to his words.\nA poor answer uses only \"ns[kuk\" repeatedly or fails to backshift tenses correctly, showing lack of creativity and grammar control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

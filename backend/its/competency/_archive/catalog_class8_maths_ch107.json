@@ -1,0 +1,721 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Comparing Quantities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh107.txt",
+ "concepts": [
+  {
+   "id": "hemh.7.1.1",
+   "title": "Ratio and Proportion",
+   "section": "7.1",
+   "definition": "A mathematical comparison of two quantities of the same kind to determine how many times one value contains another.",
+   "formula": "ratio = quantity_a / quantity_b",
+   "key_idea": "Comparing two values by division.",
+   "textbook_ref": "hemh107.txt lines 5-15",
+   "question_patterns": [
+    "find the ratio of {quantity_a} to {quantity_b}",
+    "calculate the ratio between two speeds",
+    "what is the ratio of {item_1} to {item_2}",
+    "express the comparison as a ratio",
+    "Find the ratio of 60 km to 4 hours.",
+    "Boys to girls are 20 to 15 -- write the ratio."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide quantities",
+     "explain": "The ratio is found by dividing the first quantity by the second.",
+     "compute": "ratio_val = quantity_a / quantity_b"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.1.2",
+   "title": "Percentage Conversion",
+   "section": "7.1",
+   "definition": "Representing a fraction or a ratio as a part of 100 to simplify comparisons.",
+   "formula": "percentage = (part / total) * 100",
+   "key_idea": "Converting a fraction to a base of 100.",
+   "textbook_ref": "hemh107.txt lines 18-30",
+   "question_patterns": [
+    "express the ratio {a}:{b} as a percentage of the whole mix",
+    "convert the ratio {a}:{b} to percentage",
+    "what percent of {total} is {part}",
+    "calculate the percentage of students interested in a subject",
+    "find the percentage of the total distance covered",
+    "State 9/25 as a percent.",
+    "Out of 40 matches, 15 were wins -- win percentage?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate fraction",
+     "explain": "Divide the part by the total to get the fractional value.",
+     "compute": "fraction = part / total"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 100",
+     "explain": "Multiply the fraction by 100 to get the percentage.",
+     "compute": "percentage = fraction * 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.2.1",
+   "title": "Discount and Sale Price",
+   "section": "7.2",
+   "definition": "The slice cut from the list price; what remains to pay is the sale price.",
+   "formula": "discount = marked_price - sale_price",
+   "key_idea": "List price minus the cut equals what you actually pay.",
+   "textbook_ref": "hemh107.txt lines 105-115",
+   "question_patterns": [
+    "find the discount granted on a festival-sale item marked at {marked_price}",
+    "find the discount on an item marked at {marked_price}",
+    "calculate the sale price after a discount of {discount_percent}",
+    "what is the discount amount",
+    "how much is the reduction on the list price",
+    "List price 850 with a 85 cut -- what do you pay?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate discount amount",
+     "explain": "Multiply the marked price by the discount percentage rate.",
+     "compute": "discount_amount = (discount_percent * marked_price) / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract from marked price",
+     "explain": "The sale price is the marked price minus the discount amount.",
+     "compute": "sale_price = marked_price - discount_amount"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.2.2",
+   "title": "Discount Percentage",
+   "section": "7.2",
+   "definition": "The rate of discount calculated as a percentage of the marked price.",
+   "formula": "discount_percent = (discount / marked_price) * 100",
+   "key_idea": "Expressing the price reduction relative to the original marked price.",
+   "textbook_ref": "hemh107.txt lines 118-125",
+   "question_patterns": [
+    "find the discount percent",
+    "calculate the rate of discount",
+    "what percentage reduction was given on the marked price",
+    "determine the discount % if MP is {marked_price} and SP is {sale_price}",
+    "MP 900, SP 810 -- find the percent off."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find discount value",
+     "explain": "Subtract sale price from marked price to find the absolute discount.",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "explain": "Divide the discount by the marked price and multiply by 100.",
+     "compute": "discount_percent = (discount / marked_price) * 100"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.3.1",
+   "title": "Sales Tax and GST",
+   "section": "7.3",
+   "definition": "Government charges added on a sale show up on your bill on top of the item's price.",
+   "formula": "total_bill = price + (tax_rate * price / 100)",
+   "key_idea": "The charge is worked out from the selling price, then tacked on.",
+   "textbook_ref": "hemh107.txt lines 165-180",
+   "question_patterns": [
+    "find the bill amount including GST",
+    "calculate the total price after adding sales tax",
+    "how much tax is paid on an item costing {price}",
+    "what is the final amount to be paid including {tax_rate}% tax",
+    "A 1200 shirt carries 5 percent tax -- what is the bill?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate tax amount",
+     "explain": "Find the tax by applying the tax rate to the original price.",
+     "compute": "tax_amount = (tax_rate * price) / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax to price",
+     "explain": "The total bill is the sum of the original price and the tax amount.",
+     "compute": "total_bill = price + tax_amount"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.3.2",
+   "title": "Price Before Tax",
+   "section": "7.3",
+   "definition": "Given the bill total with tax, undo the addition to recover the sticker price.",
+   "formula": "original_price = (total_price * 100) / (100 + tax_rate)",
+   "key_idea": "Reversing the tax addition to find the base price.",
+   "textbook_ref": "hemh107.txt lines 185-200",
+   "question_patterns": [
+    "find the price before VAT was added",
+    "calculate the original price before GST",
+    "what was the price of the article before tax",
+    "determine the cost excluding {tax_rate}% tax",
+    "The taxed bill is 1260 at 5 percent -- what was the sticker price?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total percentage",
+     "explain": "The total price represents 100% plus the tax percentage.",
+     "compute": "total_percentage = 100 + tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "find original price",
+     "explain": "Divide the total price by the total percentage factor and multiply by 100.",
+     "compute": "original_price = (total_price * 100) / total_percentage"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.5.1",
+   "title": "Compound Interest Formula",
+   "section": "7.5",
+   "definition": "Each period's charge is worked out on a growing balance: the deposited sum plus everything gathered so far.",
+   "formula": "amount = principal * (1 + rate / 100) ** time",
+   "key_idea": "Interest on interest leads to exponential growth.",
+   "textbook_ref": "hemh107.txt lines 265-285",
+   "question_patterns": [
+    "find the compound interest on {principal}",
+    "calculate the amount after {time} years at {rate}% compounded annually",
+    "what is the CI for a sum of {principal}",
+    "determine the final amount using the CI formula",
+    "Find the amount on 8000 at 5 percent for 2 years, compounded yearly."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate amount",
+     "explain": "Use the formula A = P(1 + R/100)^n to find the total amount.",
+     "compute": "amount = principal * ((1 + (rate / 100)) ** time)"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest",
+     "explain": "Subtract the principal from the total amount to find the compound interest.",
+     "compute": "compound_interest = amount - principal"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.6.1",
+   "title": "Appreciation and Growth",
+   "section": "7.6",
+   "definition": "Growth that compounds: each year's rise joins the base, so the whole scales by (1 + rate/100) every year.",
+   "formula": "final_value = initial_value * (1 + growth_rate / 100) ** time",
+   "key_idea": "Population growth follows the same mathematical model as compound interest.",
+   "textbook_ref": "hemh107.txt lines 295-310",
+   "question_patterns": [
+    "find the population after {time} years",
+    "calculate the bacteria count after {time} hours",
+    "what will be the population if it increases at {growth_rate}% p.a.",
+    "estimate the growth of a city's population",
+    "A town of 25000 grows 4 percent yearly -- size after 2 years?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply growth formula",
+     "explain": "Use the compounding formula with the initial value and growth rate.",
+     "compute": "final_value = initial_value * ((1 + (growth_rate / 100)) ** time)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.7.6.2",
+   "title": "Depreciation",
+   "section": "7.6",
+   "definition": "The reduction in the value of an asset over time due to usage, age, or wear and tear.",
+   "formula": "final_value = initial_value * (1 - decay_rate / 100) ** time",
+   "key_idea": "Value decreases exponentially using a negative growth rate in the CI formula.",
+   "textbook_ref": "hemh107.txt lines 315-330",
+   "question_patterns": [
+    "find the value of a machine after depreciation",
+    "calculate the price of a vehicle after {time} years of use",
+    "what is the depreciated value of the item",
+    "find the value if it decreases at {decay_rate}% per annum",
+    "A scooter bought at 40000 sheds 8 percent yearly -- value after 1 year?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply decay formula",
+     "explain": "Use the compounding formula with a subtraction for the decay rate.",
+     "compute": "final_value = initial_value * ((1 - (decay_rate / 100)) ** time)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2",
+   "source_ref": "hemh107.txt lines 110-115",
+   "concept": "hemh.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "An item marked at {marked_price} is sold for {sale_price}. What is the discount and discount %?",
+   "extracted_variables": {
+    "marked_price": "840",
+    "sale_price": "714"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find discount value",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "compute": "discount_percent = (discount / marked_price) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh107.txt lines 175-180",
+   "concept": "hemh.7.3.1",
+   "question_type": "compute",
+   "question_pattern": "The cost of a pair of roller skates was {price}. The sales tax charged was {tax_rate}%. Find the bill amount.",
+   "extracted_variables": {
+    "price": "450",
+    "tax_rate": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate tax amount",
+     "compute": "tax_amount = (tax_rate * price) / 100"
+    },
+    {
+     "step": 2,
+     "action": "add tax to price",
+     "compute": "total_bill = price + tax_amount"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh107.txt lines 280-290",
+   "concept": "hemh.7.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find CI on {principal} for {time} years at {rate}% per annum compounded annually.",
+   "extracted_variables": {
+    "principal": "12600",
+    "time": "2",
+    "rate": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate amount",
+     "compute": "amount = principal * ((1 + (rate / 100)) ** time)"
+    },
+    {
+     "step": 2,
+     "action": "calculate interest",
+     "compute": "compound_interest = amount - principal"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.7.1.1",
+   "question_pattern": "Find the ratio of {qa} km to {qb} hours.",
+   "extracted_variables": {
+    "qa": "60",
+    "qb": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the quantities",
+     "explain": "60/4 = 15",
+     "compute": "ratio = quantity_a / quantity_b"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.1.1",
+   "question_pattern": "Write {qa} to {qb} as a ratio.",
+   "extracted_variables": {
+    "qa": "20",
+    "qb": "15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide and reduce",
+     "explain": "20/15 = 4/3",
+     "compute": "ratio = quantity_a / quantity_b"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.2.1",
+   "question_pattern": "An item marked {mp} sells for {sp} -- how big is the cut?",
+   "extracted_variables": {
+    "mp": "1200",
+    "sp": "960"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract",
+     "explain": "1200 - 960 = 240",
+     "compute": "discount = marked_price - sale_price"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.2.1",
+   "question_pattern": "Marked at {mp} with a cut of {d} -- what is the sale price?",
+   "extracted_variables": {
+    "mp": "850",
+    "d": "85"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cut from the list",
+     "explain": "850 - 85 = 765",
+     "compute": "sale_price = marked_price - discount"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.2.2",
+   "question_pattern": "MP {mp}, SP {sp} -- find the percent off.",
+   "extracted_variables": {
+    "mp": "900",
+    "sp": "810"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the cut",
+     "explain": "900 - 810 = 90",
+     "compute": "discount = marked_price - sale_price"
+    },
+    {
+     "step": 2,
+     "action": "percent of the list",
+     "explain": "90/900 x 100 = 10",
+     "compute": "discount_percent = (discount / marked_price) * 100"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.3.1",
+   "question_pattern": "A {price} item carries {tax_rate} percent tax -- find the bill.",
+   "extracted_variables": {
+    "price": "1200",
+    "tax_rate": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "work out the charge",
+     "explain": "5 x 1200/100 = 60",
+     "compute": "tax = tax_rate * price / 100"
+    },
+    {
+     "step": 2,
+     "action": "tack it on",
+     "explain": "1200 + 60 = 1260",
+     "compute": "total_bill = price + (tax_rate * price / 100)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.3.2",
+   "question_pattern": "The taxed bill is {total} at {tax_rate} percent -- recover the sticker price.",
+   "extracted_variables": {
+    "total": "1260",
+    "tax_rate": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "undo the addition",
+     "explain": "1260 x 100/105 = 1200",
+     "compute": "original_price = (total_price * 100) / (100 + tax_rate)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.5.1",
+   "question_pattern": "Find the amount on {principal} at {rate} percent for {time} years, compounded yearly.",
+   "extracted_variables": {
+    "principal": "8000",
+    "rate": "5",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "grow year by year",
+     "explain": "8000 x (1.05)^2 = 8820",
+     "compute": "amount = principal * (1 + rate / 100) ** time"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.5.1",
+   "question_pattern": "What does {principal} become after {time} years at {rate} percent compounded annually?",
+   "extracted_variables": {
+    "principal": "5000",
+    "rate": "10",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "grow year by year",
+     "explain": "5000 x (1.1)^2 = 6050",
+     "compute": "amount = principal * (1 + rate / 100) ** time"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.6.1",
+   "question_pattern": "A town of {initial_value} grows {growth_rate} percent yearly -- size after {time} years?",
+   "extracted_variables": {
+    "initial_value": "25000",
+    "growth_rate": "4",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound the growth",
+     "explain": "25000 x (1.04)^2 = 27040",
+     "compute": "final_value = initial_value * (1 + growth_rate / 100) ** time"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.6.2",
+   "question_pattern": "An asset worth {initial_value} sheds {decay_rate} percent yearly -- value after {time} year(s)?",
+   "extracted_variables": {
+    "initial_value": "40000",
+    "decay_rate": "8",
+    "time": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound the decay",
+     "explain": "40000 x (0.92) = 36800",
+     "compute": "final_value = initial_value * (1 - decay_rate / 100) ** time"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.1.2",
+   "question_pattern": "What percent of {total} is {part}?",
+   "extracted_variables": {
+    "total": "80",
+    "part": "20"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fraction of the whole",
+     "explain": "20/80 = 0.25",
+     "compute": "fraction = part / total"
+    },
+    {
+     "step": 2,
+     "action": "scale to 100",
+     "explain": "0.25 x 100 = 25",
+     "compute": "percentage = fraction * 100"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.3.2",
+   "question_pattern": "A taxed bill of {total} carries {tax_rate} percent tax -- find the base price.",
+   "extracted_variables": {
+    "total": "1897.5",
+    "tax_rate": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total percent",
+     "explain": "100 + 5 = 105",
+     "compute": "total_percentage = 100 + tax_rate"
+    },
+    {
+     "step": 2,
+     "action": "undo the addition",
+     "explain": "1897.5 x 100/105 = 1807.14",
+     "compute": "original_price = (total_price * 100) / total_percentage"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.6.1",
+   "question_pattern": "Bacteria numbering {initial_value} double-ish at {growth_rate} percent per hour -- count after {time} hours.",
+   "extracted_variables": {
+    "initial_value": "5000",
+    "growth_rate": "10",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound the growth",
+     "explain": "5000 x (1.1)^2 = 6050",
+     "compute": "final_value = initial_value * (1 + growth_rate / 100) ** time"
+    }
+   ],
+   "id": "ex22",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.6.2",
+   "question_pattern": "A machine costing {initial_value} loses {decay_rate} percent yearly -- value after {time} years?",
+   "extracted_variables": {
+    "initial_value": "80000",
+    "decay_rate": "10",
+    "time": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compound the decay",
+     "explain": "80000 x (0.9)^2 = 64800",
+     "compute": "final_value = initial_value * (1 - decay_rate / 100) ** time"
+    }
+   ],
+   "id": "ex23",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.7.1.2",
+   "question_pattern": "Convert the ratio {a}:{b} into a percentage.",
+   "extracted_variables": {
+    "a": "1",
+    "b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total parts",
+     "explain": "1 + 4 = 5",
+     "compute": "total = a + b"
+    },
+    {
+     "step": 2,
+     "action": "scale to 100",
+     "explain": "1/5 x 100 = 20",
+     "compute": "percentage = (part / total) * 100"
+    }
+   ],
+   "id": "ex24",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hemh107.txt lines 85-100",
+   "questions": [
+    "1. Find the ratio of: (a) Speed of a cycle 15 km/h to scooter 30 km/h (b) 5 m to 10 km (c) 50 paise to Rs 5",
+    "2. Convert the following ratios to percentages: (a) 3:4 (b) 2:3",
+    "3. 72% of 25 students are interested in mathematics. How many are not interested?",
+    "4. A football team won 10 matches out of total played. If win percentage was 40, how many matches did they play?",
+    "5. If Chameli had Rs 600 left after spending 75% of her money, how much did she have in the beginning?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hemh107.txt lines 205-220",
+   "questions": [
+    "1. Shop offered 10% discount. What to pay for jeans marked at Rs 1450 and two shirts at Rs 850 each?",
+    "2. Price of TV is Rs 13,000. Sales tax is 12%. Find amount to pay.",
+    "3. Arun bought skates at 20% discount. If he pays Rs 1,600, find marked price.",
+    "4. Purchased hair-dryer for Rs 5,400 including 8% VAT. Find price before VAT.",
+    "5. Article purchased for Rs 1239 including GST of 18%. Find price before GST."
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "hemh107.txt lines 335-345",
+   "questions": [
+    "1. Population increased to 54,000 in 2003 at 5% p.a. Find population in 2001 and 2005.",
+    "2. Bacteria count increasing at 2.5% per hour. Find count after 2 hours if initial was 5,06,000.",
+    "3. Scooter bought at Rs 42,000. Value depreciated at 8% p.a. Find value after one year."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

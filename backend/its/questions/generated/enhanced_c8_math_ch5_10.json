@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_10",
+   "title": "c8_math_ch5_10",
+   "questions": [
+    {
+     "q": "If a two-digit number is written as \\(10a + b\\), what is the algebraic expression for the number formed by reversing its digits?",
+     "a": "The reversed number is \\(10b + a\\). A wrong answer like \\(a + b\\) or \\(10a + b\\) reveals the student does not understand place value: the tens digit becomes the units digit and vice versa, so the new tens digit is \\(b\\) (worth \\(10b\\)) and the new units digit is \\(a\\) (worth \\(a\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the difference between a two-digit number and its reversal is always a multiple of 9.",
+     "a": "Original: \\(10a+b\\), Reversed: \\(10b+a\\). Difference = \\((10a+b) - (10b+a) = 9a - 9b = 9(a-b)\\). Since \\(a,b\\) are integers, \\(a-b\\) is an integer, so the difference is a multiple of 9. A wrong answer that just tests examples (e.g., \"21-12=9, 31-13=18\") shows lack of algebraic generalization; the student relies on pattern recognition without understanding the structural reason.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of a two-digit number and its reversal is 110. Find the number if the digits differ by 4.",
+     "a": "Let number be \\(10a+b\\). Reversed: \\(10b+a\\). Sum: \\(11a+11b = 110 \\Rightarrow a+b=10\\). Difference of digits: \\(|a-b|=4\\). Solve: \\(a+b=10, a-b=4 \\Rightarrow 2a=14 \\Rightarrow a=7, b=3\\). Number = 73. Check: 73+37=110, digits differ by 4. If \\(a-b=-4\\), then \\(a=3,b=7\\) giving 37, which also works. A wrong answer that gives only 73 misses the second possibility; the student forgot the absolute value or didn't consider both orders.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the sum of a two-digit number and its reversal is 99, then the number must be 45 or 54.\" Analyze this claim and determine if it is always true, sometimes true, or never true. Justify.",
+     "a": "The claim is **sometimes true**. Sum = \\(11(a+b)=99 \\Rightarrow a+b=9\\). Pairs of digits summing to 9: (1,8),(2,7),(3,6),(4,5),(5,4),(6,3),(7,2),(8,1). Numbers: 18,27,36,45,54,63,72,81. The student only listed 45 and 54, missing the other six. This reveals the student assumed the digits must be consecutive or didn't systematically list all digit pairs satisfying \\(a+b=9\\).",
+     "self_check": true
+    },
+    {
+     "q": "Ravi solved a puzzle: \"A two-digit number is 4 times the sum of its digits. When 18 is added to the number, the digits are reversed.\" He wrote: \\(10a+b = 4(a+b)\\) and \\(10a+b+18 = 10b+a\\). He got \\(a=2, b=4\\) and answered 24. Check if his solution is correct. If not, identify the error.",
+     "a": "Ravi's equations are correct. From first: \\(10a+b=4a+4b \\Rightarrow 6a=3b \\Rightarrow 2a=b\\). From second: \\(9a-9b=-18 \\Rightarrow a-b=-2\\). Substitute \\(b=2a\\): \\(a-2a=-2 \\Rightarrow -a=-2 \\Rightarrow a=2, b=4\\). Number = 24. Check: Sum of digits=6, 4×6=24. 24+18=42 (reversed). **His solution is correct**. A student who says it's wrong might have miscalculated \\(6a=3b\\) as \\(2a=b\\) (correct) but then solved \\(a-b=-2\\) incorrectly, or might have thought the second equation should be \\(10a+b-18=10b+a\\) (misreading \"added\" as \"subtracted\").",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-digit number reversal puzzle with the following conditions: (1) The number is greater than its reversal. (2) The difference between the number and its reversal is 27. (3) The sum of the digits is 9. Write the puzzle statement and solve it.",
+     "a": "Puzzle: \"I am a two-digit number. My digits add up to 9. I am greater than my reversal, and the difference between us is 27. What number am I?\" Solution: Let number be \\(10a+b\\). \\(a+b=9\\). Difference: \\((10a+b)-(10b+a)=27 \\Rightarrow 9(a-b)=27 \\Rightarrow a-b=3\\). Solve: \\(a+b=9, a-b=3 \\Rightarrow 2a=12 \\Rightarrow a=6, b=3\\). Number = 63. Check: 63>36, 63-36=27, 6+3=9. A poor answer might give a puzzle with no solution (e.g., difference 27 and sum 10, which gives non-integer digits) or forget the \"greater than\" condition leading to two answers (63 and 36).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

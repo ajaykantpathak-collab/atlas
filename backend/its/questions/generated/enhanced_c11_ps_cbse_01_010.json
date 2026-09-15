@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_010",
+   "title": "c11_ps_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the core claim of the Eurocentrism criticism against mainstream political theory?",
+     "a": "The core claim is that mainstream political theory treats the European historical experience and its thinkers (from Plato to Rawls) as the universal standard for political thought, thereby marginalizing or erasing non-Western traditions like Indian, Chinese, African, or Islamic political philosophy. A wrong answer (e.g., \"Eurocentrism means European theory is factually incorrect\") reveals a misunderstanding: the critique is about *exclusion and false universality*, not the internal validity of European ideas.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the abstraction criticism argues that concepts like \"equality\" or \"justice\" can become obstacles to real political change if used without contextual analysis.",
+     "a": "Abstraction strips concepts of the specific power relations, cultural meanings, and material conditions that shape their operation. For example, \"formal equality before law\" (Article 14) is an abstract principle; without analyzing how caste, patriarchy, and poverty structure access to courts, the principle masks substantive inequality. A wrong answer (e.g., \"Abstraction makes theory useless\") misses the nuance: abstraction is necessary for generalization, but becomes a critique when it *replaces* contextual analysis rather than *guiding* it.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the Indian Constitution adopts concepts like liberty, equality, and fraternity from the French Revolution, the Eurocentrism critique does not apply to India.\" Analyze this statement using the distinction between *institutional borrowing* and *theoretical canon formation*.",
+     "a": "The statement confuses constitutional *borrowing* (a deliberate, selective act by the Constituent Assembly) with the *academic canon* of political theory taught in universities. The Assembly adapted French ideals *through* Indian experiences (e.g., adding \"fraternity\" to address caste, per Ambedkar). However, if the syllabus still teaches only Rousseau as the theorist of fraternity, ignoring Ambedkar's theorization, Eurocentrism persists in the *discipline*. A wrong answer reveals the student equates constitutional text with the curriculum of political theory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the abstraction critique with the feminist critique that \"the personal is political.\" How do both challenge the public/private divide in traditional political theory?",
+     "a": "Both critiques argue that traditional theory's abstract universalism (e.g., \"citizen,\" \"individual,\" \"rights\") relies on a false separation of the public sphere (state, economy) from the private sphere (family, household). Abstraction ignores how power operates in the \"private\" domain (caste endogamy, domestic labour, gender violence); feminism names this domain as political. A wrong answer (e.g., \"Feminism is just a subset of abstraction critique\") fails to see that feminism provides a *specific structural analysis* (patriarchy) that the general abstraction critique does not automatically supply.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Including Indian thinkers like Kautilya and Gandhi in the syllabus automatically solves the Eurocentrism problem in political theory.\"",
+     "a": "Inclusion is necessary but not sufficient. If Kautilya is taught only as \"ancient Indian Machiavelli\" (a comparative footnote) or Gandhi only as a \"moral leader\" rather than a theorist of *swaraj*, *satyagraha*, and *trusteeship*, the *epistemic framework* remains Eurocentric. The categories of analysis (sovereignty, state, rights) stay Western. A robust solution requires *recentering* Indian concepts (dharma, swaraj, sarvodaya) as primary analytical lenses. A wrong answer treats \"adding names\" as structural decolonization.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 100-word proposal for a Class 11 Political Theory module that addresses both Eurocentrism and abstraction by designing a unit on \"Justice in the Indian Context.\"",
+     "a": "A strong proposal will: (1) juxtapose Rawls's \"justice as fairness\" with Ambedkar's \"social democracy\" and the *Nyaya* (realized justice) vs. *Niti* (institutional justice) distinction from the *Mahabharata*; (2) use the *Mandal Commission* and *Sabrimala* judgments as case studies to show how abstract principles (merit, equality, religious freedom) play out in caste/gender power structures; (3) require students to write a \"justice audit\" of their school's admission policy. A weak proposal merely lists Indian thinkers without a comparative analytical framework or grounded case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_4",
+   "title": "c9_math_ch3_4",
+   "questions": [
+    {
+     "q": "Define a rational number in the form p/q and state the condition on q. Then, explain in one sentence how you would locate the rational number -5/3 on the number line using the method of successive magnification (do not draw, only describe the steps).",
+     "a": "A rational number is a number of the form p/q where p and q are integers and q ≠ 0. To locate -5/3, first convert it to decimal: -1.666... (recurring). It lies between -1 and -2. Divide [-2, -1] into 10 parts; -1.666... lies between -1.6 and -1.7. Magnify [-1.7, -1.6] (note order) and divide into 10 parts; it lies between -1.66 and -1.67. Continue magnifying the segment containing the recurring 6s. A wrong answer reveals the student either forgets the condition q ≠ 0, or does not understand that successive magnification works on the decimal expansion, or incorrectly handles the negative direction (magnifying from left to right instead of right to left on the negative side).",
+     "self_check": true
+    },
+    {
+     "q": "Two students are discussing the number 0.121212... (recurring). Student A says: \"To locate this on the number line, I will divide [0,1] into 10 parts, then [0.1,0.2] into 10 parts, then [0.12,0.13] into 10 parts, and so on.\" Student B says: \"That will never end because the decimal never terminates, so we cannot locate it exactly.\" Who is correct? Justify your answer using the concept of a unique point on the number line.",
+     "a": "Student A is correct. Although the process of successive magnification continues infinitely (because the decimal is non-terminating recurring), the nested sequence of intervals [0.12, 0.13], [0.1212, 0.1213], ... shrinks to a single unique point. The number line is continuous, so every infinite decimal expansion corresponds to exactly one point, even if we cannot physically complete infinite steps. A wrong answer (choosing Student B) reveals the misconception that a number must have a terminating decimal to have a fixed location, confusing the *process* of approximation with the *existence* of the exact point.",
+     "self_check": true
+    },
+    {
+     "q": "Locate the rational number 7/4 on the number line using the method of successive magnification. Show the first three magnification steps clearly, writing the interval at each step.",
+     "a": "Step 1: 7/4 = 1.75. It lies between 1 and 2. Divide [1,2] into 10 equal parts → tenths. 1.75 lies in the interval [1.7, 1.8].\nStep 2: Magnify [1.7, 1.8] and divide into 10 equal parts → hundredths. 1.75 lies exactly at the 5th division, which is the boundary between [1.75, 1.76] and [1.74, 1.75]. Since 1.75 = 1.75000..., it is exactly at the 5th mark. We can say it lies in [1.75, 1.76] (or exactly on the division line).\nStep 3: Magnify [1.75, 1.76] and divide into 10 parts → thousandths. The number 1.75000... corresponds to the 0th division of this segment (the left endpoint). A wrong answer reveals the student may not convert fraction to decimal correctly, or may not understand that a terminating decimal is a special case of recurring decimal (with recurring 0s), or may incorrectly identify the interval at the hundredths step (e.g., saying [1.74, 1.75] instead of recognizing it's exactly on the mark).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of locating 1/3 ( = 0.333...) and 1/2 ( = 0.5) on the number line using successive magnification. How does the number of magnification steps differ conceptually, and what does this tell you about the nature of their decimal expansions?",
+     "a": "For 1/2 = 0.5, the process terminates after the first magnification: [0,1] → [0.5,0.6] (or exactly at the 5th division of the first magnification). For 1/3 = 0.333..., the process continues infinitely: [0,1] → [0.3,0.4] → [0.33,0.34] → [0.333,0.334] → ... never ending. This shows that terminating decimals correspond to rational numbers whose denominator (in lowest terms) has only prime factors 2 and/or 5, while non-terminating recurring decimals correspond to rational numbers whose denominator has other prime factors. A wrong answer reveals the student thinks both require infinite steps, or that terminating decimals are \"exact\" while recurring decimals are \"approximate\", missing that both represent exact points.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Between any two distinct rational numbers, there are only finitely many rational numbers because the number line has gaps.\" Evaluate this statement. Is it true or false? Provide a counterexample and the correct mathematical principle.",
+     "a": "The statement is FALSE. Counterexample: Between 1/4 and 1/2, we can find 3/8, 5/16, 9/32, ... infinitely many by repeatedly taking the mean (a+b)/2. The correct principle is the **density of rational numbers**: Between any two distinct rational numbers, there exist infinitely many rational numbers. The number line has no gaps when considering rational numbers (though it has gaps filled by irrationals). A wrong answer reveals the student confuses \"countably infinite\" with \"finite\", or thinks the number line is like a discrete set of points, not understanding the density property.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: rupees, metres, kg) that requires a Class 9 student to use the method of successive magnification to locate a rational number on a number line. The problem must involve a non-terminating recurring decimal. Provide the problem statement and the first two magnification steps for the solution.",
+     "a": "Problem: A recipe requires 1/3 kg of sugar. You have a digital scale that shows weight in kg up to 3 decimal places. You want to mark the exact weight 1/3 kg on a number line drawn on the scale's display (range 0 to 1 kg) to check if the scale rounds correctly. Locate 1/3 kg using successive magnification.\nStep 1: 1/3 = 0.333... kg. Lies between 0 and 1. Divide [0,1] into 10 parts → [0.3, 0.4].\nStep 2: Magnify [0.3, 0.4] and divide into 10 parts → [0.33, 0.34].\nA poor answer would use a terminating decimal (like 0.5 kg) or fail to set up the recurring decimal, or not describe the magnification intervals correctly. This reveals the student cannot translate a fraction to its recurring decimal form or apply the magnification steps to a real measurement context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "catalog": "catalog_class8_maths_ch2_linear_equations_one_variable.json",
+ "concepts": [
+  {
+   "id": "c8m2.1.1",
+   "title": "Linear Equation in One Variable",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 5 ** (3 + 2) gives 3125",
+     "compute": "val = 5 ** (3 + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^3 x 5^2.",
+     "a": "3125",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^3 / 5^1.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^3 using the power of a power law.",
+     "a": "1953125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^2 x 5^2 using a^m x b^m = (ab)^m.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-3) and give the value as a fraction.",
+     "a": "1/512",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m2.1.2",
+   "title": "Solution of an Equation (LHS = RHS)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 48 and 50 degrees; the third angle is what? (The third angles must match.)",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 10 cm, 15 cm and 13 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 46 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "67",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m2.2.1",
+   "title": "Solving Equations with the Variable on Both Sides",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 9 when x = 3.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 7x + 5 when x = 2.",
+     "a": "43",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 2x - 6x and give the coefficient of x.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (4 + 2) equals 7 x 4 + 7 x 2. Compute it.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 6 x 5 (respect the order of operations).",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 4) x 9.",
+     "a": "108",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m2.2.2",
+   "title": "Transposing Terms",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Solve for x: 5x + 1 = 51.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 9 = 39.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 64 = 8.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 22 = 3.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x + 9 = 2x + 44.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 5) = 40.",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m2.3.1",
+   "title": "Reducing Equations to Simpler Form",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 6 and 10 have HCF 2 with coprime multipliers 3 and 5. Verify by computing hcf = 2 x 1; then find the HCF value.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 6 and 10 given their HCF is 2 and HCF x LCM = product of the numbers.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 6 and 10 is 30. Use HCF x LCM = a x b to find their HCF.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 6 cm and 10 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 6 minutes and 10 minutes. After how many minutes will they next ring together?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 24 are there up to 100?",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m2.3.2",
+   "title": "Solving Equations with Brackets",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
+     "compute": "val = 3 * 6 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 7 when x = 6.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 3x + 5 when x = 4.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 2x + 4x - 2x and give the coefficient of x.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 6 x (7 + 6) equals 6 x 7 + 6 x 6. Compute it.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 7 + 4 x 3 (respect the order of operations).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 5) x 2.",
+     "a": "22",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "history",
+ "chapter": 102,
+ "chapter_title": "An Empire Across Three Continents",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehs102.txt",
+ "concepts": [
+  {
+   "id": "kehs.102.1.1",
+   "title": "The Roman Empire: Extent, Administration and Army",
+   "section": "",
+   "definition": "The Roman Empire of Augustus and his successors spanned Europe, North Africa and Western Asia around the Mediterranean called 'our sea', governed through provinces under senators and emperors with a professional army of legions guarding the frontiers.",
+   "formula": "",
+   "key_idea": "The empire rested on cities, taxation, law and the army, and bestowal of citizenship spread Roman identity from Italy to the provinces.",
+   "textbook_ref": "kehs102.txt roman empire sections",
+   "question_patterns": [
+    "describe the extent of the roman empire under augustus",
+    "how was the roman empire administered through provinces",
+    "explain the role of the army in the roman empire",
+    "who could be a citizen of rome and how did citizenship spread",
+    "what languages were used in the roman empire",
+    "define the mediterranean as our sea of the romans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.102.2.1",
+   "title": "Society, Economy and Slavery in the Roman World",
+   "section": "",
+   "definition": "Roman society was stratified into elites, middling groups and lower classes with slaves at the bottom, whose labour ran mines, estates and households, while the economy rested on agriculture, long distance trade in wine, olive oil and grain, and monetary exchange across the empire.",
+   "formula": "",
+   "key_idea": "Slavery was a fundamental institution of the Roman economy, and much of the labour force in agriculture and mines came from war captives and traders.",
+   "textbook_ref": "kehs102.txt society and economy sections",
+   "question_patterns": [
+    "describe the social structure of the roman empire",
+    "what was the role of slaves in the roman economy",
+    "name the goods traded across the mediterranean",
+    "how did trade link rome with india and asia",
+    "explain the position of women in roman society",
+    "why is roman economy called slave based by some historians"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.102.3.1",
+   "title": "Late Roman Crisis, Christianity and the Third Century",
+   "section": "",
+   "definition": "From the third century the empire faced invasions, civil wars, plague and monetary crisis, Constantine founded Constantinople as a second capital and recognised Christianity, and the empire split into eastern and western halves with the western empire falling in the fifth century.",
+   "formula": "",
+   "key_idea": "Christianity spread through the empire's cities and became a state religion, reshaping late Roman society while Germanic settlements carved the western provinces.",
+   "textbook_ref": "kehs102.txt late empire and christianity sections",
+   "question_patterns": [
+    "what caused the crisis of the third century in rome",
+    "describe the role of constantine in roman history",
+    "how did christianity spread in the roman empire",
+    "when and why did the western roman empire fall",
+    "what was the significance of constantinople",
+    "explain the relations of rome with its neighbouring iran and germanic groups"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kehs102.txt exercises",
+   "questions": [
+    "If a man lived to be 70 in ancient Rome he would have seen the emperor change many times - discuss.",
+    "Describe the management of the roman empire through provinces.",
+    "Explain the social structure of the roman world.",
+    "What was the position of slaves in roman society?",
+    "How did christianity become a state religion?"
+   ]
+  }
+ ]
+}

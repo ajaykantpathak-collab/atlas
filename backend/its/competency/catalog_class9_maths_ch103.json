@@ -1,0 +1,1569 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "The World of Numbers",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh103.txt",
+ "concepts": [
+  {
+   "id": "iemh.3.1.1",
+   "title": "Natural Numbers",
+   "section": "3.1",
+   "definition": "The numbers 1, 2, 3, ... arose when early herders tracked cattle with pebbles, pairing each animal with one marker; the same idea appears as tally notches cut into ancient bone. Taking a smaller number away from a bigger one is impossible inside this set, which is what pushed the subject forward.",
+   "formula": "N = 1, 2, 3, ...",
+   "key_idea": "Start at one; every element is a whole unit; subtraction can fall out of the set.",
+   "textbook_ref": "iemh103.txt lines 2-48 (section 3.1, 3.1.1)",
+   "question_patterns": [
+    "What do we count with, in the set 1, 2, 3, ...?",
+    "Are the natural numbers closed under subtraction? Give a reason.",
+    "Explain how herders paired cattle with pebbles to keep count.",
+    "Name the set that grew out of tally marks and one-to-one pairing.",
+    "Why did tracing trade and astronomy push people beyond 1, 2, 3, ...?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check membership",
+     "explain": "A member must be a whole number starting from 1 with nothing after the point."
+    },
+    {
+     "step": 2,
+     "action": "Test closure by subtracting",
+     "explain": "If the subtraction dips below 1, the result leaves the set."
+    },
+    {
+     "step": 3,
+     "action": "Conclude closure status",
+     "explain": "Natural numbers are closed under addition and multiplication but not under subtraction, since results like 3 - 5 fall outside the set."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.2.2",
+   "title": "Multiplying by Zero: Brahmagupta's Rule",
+   "section": "3.2.2",
+   "definition": "In his 628 CE work, Brahmagupta equipped the void with full arithmetic: add it or take it away and every number stays as it was, but a product with it always collapses to nothing.",
+   "formula": "product = a * 0",
+   "key_idea": "a + 0 and a - 0 preserve a; a x 0 wipes the board.",
+   "textbook_ref": "iemh103.txt lines 124-144 (Brahmagupta's Rules for Zero)",
+   "question_patterns": [
+    "What is 8 x 0?",
+    "Find the product of 125 and 0.",
+    "State the value of (-15) x 0.",
+    "Explain why a x 0 = 0 for every number a.",
+    "Complete the product: (-7) x 0 = ?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the zero product rule",
+     "explain": "Any number times zero is zero.",
+     "compute": "result = number * 0"
+    },
+    {
+     "step": 2,
+     "action": "Verify with addition and subtraction",
+     "explain": "Confirm that a + 0 = a and a - 0 = a, so zero preserves every number under addition and subtraction.",
+     "compute": "check_add = number + 0"
+    },
+    {
+     "step": 3,
+     "action": "State the final result",
+     "explain": "The product collapses to zero regardless of the sign or size of the other factor.",
+     "compute": "result = 0"
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.3.1",
+   "title": "Arithmetic of Integers",
+   "section": "3.3.1",
+   "definition": "Brahmagupta read signs through trade: wealth (dhana) counts as plus and debt (rina) counts as minus. His sign laws still decide every product: two like signs give wealth, two unlike signs give debt.",
+   "formula": "product sign: like signs give plus, unlike signs give minus",
+   "key_idea": "Like signs pair into plus; unlike signs fall to minus.",
+   "textbook_ref": "iemh103.txt lines 149-202 (section 3.3, rules 1-5, Think and Reflect)",
+   "question_patterns": [
+    "Find the product (-8) x (-7).",
+    "Calculate (-12) x 5.",
+    "Multiply (-20) by 4.",
+    "A trader takes 4 debts of 3 rupees each; what is the total as a signed number?",
+    "Work out the sign and the value of (-6) x (+9)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the sizes, then attach the sign",
+     "explain": "Two debts give a fortune; a debt with a fortune gives a debt.",
+     "compute": "product = integer_a * integer_b"
+    },
+    {
+     "step": 2,
+     "action": "Determine the sign from the pair",
+     "explain": "Like signs (both positive or both negative) yield a positive product; unlike signs yield a negative product."
+    },
+    {
+     "step": 3,
+     "action": "Combine magnitude and sign for the answer",
+     "explain": "The absolute values give the size and the sign rule gives the direction, producing the final signed product.",
+     "compute": "product = sign * abs(integer_a) * abs(integer_b)"
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.1",
+   "title": "Definition of Rational Numbers",
+   "section": "3.4",
+   "definition": "Rational status belongs to a value whenever some fraction with integer top and non-zero bottom, fully reduced, lands exactly on it; every integer qualifies with bottom 1.",
+   "formula": "rational = p / q with integer p, integer q and q not zero",
+   "key_idea": "If it folds into a ratio of two whole values, it belongs; bottoms never hit zero.",
+   "textbook_ref": "iemh103.txt lines 223-260 (section 3.4)",
+   "question_patterns": [
+    "What makes a number rational?",
+    "Is -7 a rational number? Justify your answer.",
+    "Decide whether 0 is rational and explain why.",
+    "Show that 4/6 and 2/3 name one and the same rational number.",
+    "Which single number has every integer as its top with bottom 1?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Try a fraction form",
+     "explain": "Seek integer top p and non-zero integer bottom q with p/q equal to the number."
+    },
+    {
+     "step": 2,
+     "action": "Reduce and confirm",
+     "explain": "If such a pair exists in fully reduced form, the number is rational."
+    },
+    {
+     "step": 3,
+     "action": "Check the bottom is non-zero",
+     "explain": "The denominator q must never be zero, since division by zero is undefined; this is the one hard requirement for rational status."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.2",
+   "title": "Multiplying Rational Numbers",
+   "section": "3.4",
+   "definition": "To multiply two fractions, multiply the tops together for the new top and the bottoms together for the new bottom, then reduce the result.",
+   "formula": "product = (a * c) / (b * d)",
+   "key_idea": "Tops with tops, bottoms with bottoms, then simplify.",
+   "textbook_ref": "iemh103.txt lines 260-280; Exercise Set 3.3 Q4 (lines 396-404)",
+   "question_patterns": [
+    "Find the product 2/3 x 3/10.",
+    "Multiply 7/11 by 5/8.",
+    "Calculate (-4/7) x 5/14.",
+    "What is 5/4 x 2/3? Reduce your answer.",
+    "Work out the product of 9/2 and 2/9."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the tops",
+     "explain": "Top of the first times top of the second.",
+     "compute": "top_product = a * c"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the bottoms",
+     "explain": "Bottom of the first times bottom of the second.",
+     "compute": "bottom_product = b * d"
+    },
+    {
+     "step": 3,
+     "action": "Divide and reduce",
+     "explain": "The product value is top over bottom.",
+     "compute": "product = top_product / bottom_product"
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.5",
+   "title": "Adding Rational Numbers",
+   "section": "3.4",
+   "definition": "To add (or subtract) fractions, give them a common bottom by cross-multiplying, combine the tops, then reduce; subtraction flips the second top's sign first.",
+   "formula": "sum = (a * d + c * b) / (b * d)",
+   "key_idea": "Match the bottoms, add the tops, reduce the result.",
+   "textbook_ref": "iemh103.txt lines 260-280; Exercise Set 3.3 Q2-Q3 (lines 396-404)",
+   "question_patterns": [
+    "Find the sum 2/5 + 3/10.",
+    "Add 7/12 and 5/8.",
+    "Calculate (-4/7) + 3/14.",
+    "Find 5/6 - 1/4.",
+    "Combine -2/9 + (-5/9)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cross-multiply for the common bottom",
+     "explain": "Each top is scaled by the other fraction's bottom.",
+     "compute": "cross_ad = a * d"
+    },
+    {
+     "step": 2,
+     "action": "Scale the second top",
+     "explain": "Second top times first bottom.",
+     "compute": "cross_cb = c * b"
+    },
+    {
+     "step": 3,
+     "action": "Combine the scaled tops",
+     "explain": "Their sum rides over the common bottom.",
+     "compute": "top = cross_ad + cross_cb"
+    },
+    {
+     "step": 4,
+     "action": "Form the common bottom",
+     "explain": "Product of the two bottoms.",
+     "compute": "bottom = b * d"
+    },
+    {
+     "step": 5,
+     "action": "Divide and reduce",
+     "explain": "The combined value is top over bottom.",
+     "compute": "sum = top / bottom"
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.3",
+   "title": "Density of Rational Numbers",
+   "section": "3.4.2",
+   "definition": "No matter how tightly two fractions squeeze together, one more always slips in between: halve their sum and repeat. Such numbers leave no breathing room on the line.",
+   "formula": "middle_rational = (num_a + num_b) / 2",
+   "key_idea": "The mean lands strictly inside; repeat forever.",
+   "textbook_ref": "iemh103.txt lines 741-773 (section 3.4.2, density via averaging)",
+   "question_patterns": [
+    "Find a rational number strictly between -1/2 and 1/4.",
+    "How many rationals lie between 3.1415 and 3.1416?",
+    "Insert two fractions between 1 and 2 by repeated averaging.",
+    "Explain why the mean of two rationals stays rational.",
+    "Name a fraction that sits between 5/4 and 3/2."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the two numbers",
+     "explain": "Sum the given pair.",
+     "compute": "sum_val = num_a + num_b"
+    },
+    {
+     "step": 2,
+     "action": "Halve the sum",
+     "explain": "The average is a rational strictly between them.",
+     "compute": "average = sum_val / 2"
+    },
+    {
+     "step": 3,
+     "action": "Verify it lies strictly between",
+     "explain": "The average of two distinct rationals is itself rational and falls strictly inside the interval, so the process can be repeated to insert infinitely many rationals."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.6",
+   "title": "Representing Rationals on the Number Line",
+   "section": "3.4.1",
+   "definition": "To place a fraction p/q, cut each whole step into q equal pieces, then step p pieces right for positives and left for negatives; improper fractions land past 1 after carrying the wholes.",
+   "formula": "denominator cuts, numerator steps, sign picks the side",
+   "key_idea": "Cut by the bottom, step by the top, carry wholes for tops past the bottom.",
+   "textbook_ref": "iemh103.txt lines 583-677 (section 3.4.1, Figs 3.3-3.7)",
+   "question_patterns": [
+    "Show 3/4 on a number line.",
+    "Where does -3/4 sit relative to -1 and 0?",
+    "Locate 9/4: between which two integers does it fall, and how is the interval cut?",
+    "Draw a line and place 2/3, -5/4 and 11/2 in order.",
+    "Explain why 1/2 sits exactly halfway between 0 and 1."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the unit",
+     "explain": "Divide each whole step into q equal pieces."
+    },
+    {
+     "step": 2,
+     "action": "Step and mark",
+     "explain": "Move p pieces from 0, right for positive p and left for negative p; carry wholes first for improper tops."
+    },
+    {
+     "step": 3,
+     "action": "Label the marked point",
+     "explain": "The landing point on the line is the rational number p/q, confirming the fraction has a unique position on the number line."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.4.7",
+   "title": "Distance Between Two Rationals",
+   "section": "3.4.1",
+   "definition": "The two-sided bars around a difference answer one question: how far apart? Sign is discarded, so the gap between points a and b is the same bars around a - b, and it never comes out negative.",
+   "formula": "distance = abs(a - b)",
+   "key_idea": "Bars measure, never judge: the gap is unsigned.",
+   "textbook_ref": "iemh103.txt lines 708-740 (Example 1, Fig 3.8)",
+   "question_patterns": [
+    "How far apart are -4 and 3 on a number line?",
+    "Find the distance between 2 and -7.",
+    "What is |a - b| for a = -1 and b = 5?",
+    "Calculate the gap between 3/4 and 1/4 on a line.",
+    "Two towns sit at marks -8 and 6 on a map line; find the separation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract in either order",
+     "explain": "Form the difference of the two positions.",
+     "compute": "diff = a - b"
+    },
+    {
+     "step": 2,
+     "action": "Drop the sign",
+     "explain": "The bars make the gap unsigned.",
+     "compute": "distance = abs(diff)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result as a length",
+     "explain": "The non-negative value is the number of unit steps between the two points on the line, independent of order.",
+     "compute": "gap = distance"
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.1",
+   "title": "Irrational Numbers",
+   "section": "3.5",
+   "definition": "Some lengths, like a square's diagonal over its side, refuse every fraction: their decimal tails run on endlessly, never settling into any looping cycle. Hippasus proved this for the unit square's diagonal by trapping a coprime fraction in an impossible position.",
+   "formula": "diagonal of unit square = sqrt(2), which has no fraction form",
+   "key_idea": "Not every length folds into a fraction; the unit square's diagonal was the first shock.",
+   "textbook_ref": "iemh103.txt lines 807-900 (sections 3.5, 3.5.1)",
+   "question_patterns": [
+    "Prove that the diagonal of a unit square is irrational.",
+    "Walk through Hippasus's contradiction for the square root of 2.",
+    "Classify sqrt(81), sqrt(12) and 0.333... as rational or irrational.",
+    "Why can no fraction equal pi exactly?",
+    "State the one property that makes a number irrational."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assume the opposite",
+     "explain": "Suppose root 2 equals p/q with coprime integers p and q."
+    },
+    {
+     "step": 2,
+     "action": "Square and rearrange",
+     "explain": "p squared equals 2 q squared, so p must be even; write p = 2k."
+    },
+    {
+     "step": 3,
+     "action": "Substitute back",
+     "explain": "q squared equals 2 k squared, so q is even too."
+    },
+    {
+     "step": 4,
+     "action": "Land the contradiction",
+     "explain": "Both even contradicts coprimality, so no such fraction exists."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.2",
+   "title": "Constructing Square-Root Lengths",
+   "section": "3.5.2",
+   "definition": "A ruler-and-compass recipe lands irrational measures on the line: raise a right-angle unit leg at the unit mark, join its tip to the origin to form the diagonal, then swing that diagonal down onto the line with an arc.",
+   "formula": "OA = 1, AB = 1 gives OB = sqrt(2); arcs copy lengths",
+   "key_idea": "Right-angle unit legs make a sqrt(2) diagonal; arcs copy it onto the line.",
+   "textbook_ref": "iemh103.txt lines 901-946 (section 3.5.2, Fig 3.11)",
+   "question_patterns": [
+    "Construct a segment of length sqrt(2) and mark it on a line.",
+    "Explain the three steps for placing sqrt(2) on a number line.",
+    "How would you extend the method to sqrt(3)?",
+    "Why does the joined segment OB have length sqrt(2)?",
+    "Sketch the construction needed for sqrt(5)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Raise a perpendicular unit",
+     "explain": "At the unit mark A, draw a perpendicular and mark B one unit up."
+    },
+    {
+     "step": 2,
+     "action": "Join to the origin",
+     "explain": "OB is the diagonal of a unit square, hence sqrt(2)."
+    },
+    {
+     "step": 3,
+     "action": "Swing the arc",
+     "explain": "Centre O, radius OB: the arc cuts the line at the new irrational length."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.5.3",
+   "title": "The Story of Pi",
+   "section": "3.5.3",
+   "definition": "Pi pairs a circle's girth with its width and never settles into a fraction. Aryabhata offered 3.1416 while labelling it an asanna, a near-value; Madhava went further, with an endless alternating sum of odd reciprocals, times 4, closing in on pi.",
+   "formula": "pi/4 = 1 - 1/3 + 1/5 - 1/7 + ...",
+   "key_idea": "One stubborn irrational, two responses: better near-values, or an exact infinite sum.",
+   "textbook_ref": "iemh103.txt lines 947-991 (section 3.5.3)",
+   "question_patterns": [
+    "Whose infinite series first expressed pi exactly?",
+    "Approximate pi using the first three terms of Madhava's series.",
+    "Why can no fraction equal pi exactly?",
+    "What did Aryabhata mean by calling 3.1416 an asanna?",
+    "Write the first four terms of the odd-reciprocal series for pi."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add early terms",
+     "explain": "Summing 1 - 1/3 + 1/5 - 1/7 + ... and scaling by 4 approaches pi."
+    },
+    {
+     "step": 2,
+     "action": "Watch the closes",
+     "explain": "Each extra term tightens the approximation; no finite stop lands exactly on pi."
+    },
+    {
+     "step": 3,
+     "action": "Conclude irrationality",
+     "explain": "Since no fraction equals pi and the series never terminates, pi is irrational; every finite sum is only an asanna, a near-value."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.1",
+   "title": "Predicting Decimal Expansion Type",
+   "section": "3.6.1",
+   "definition": "Reduce fully first, then split the bottom into primes: bottoms built purely from 2s and 5s stop the division dead; any other prime sends the digits into an endless loop.",
+   "formula": "stop condition: bottom's primes are 2s and 5s only",
+   "key_idea": "Bottom primes of 2 and 5 mean a stopping decimal; anything else loops.",
+   "textbook_ref": "iemh103.txt lines 1030-1060 (section 3.6.1, Examples 2-3)",
+   "question_patterns": [
+    "Will 7/20 stop or loop as a decimal? Reason without dividing.",
+    "Decide the decimal fate of 4/15 and 13/250.",
+    "What property of the bottom decides termination?",
+    "Sort 3/50, 2/9 and 7/8 into stopping and looping.",
+    "Why does 1/7 loop forever?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Reduce the fraction",
+     "explain": "Cancel common factors so top and bottom share nothing."
+    },
+    {
+     "step": 2,
+     "action": "Prime-split the bottom",
+     "explain": "Only 2s and 5s: the decimal stops. Any other prime: the digits loop."
+    },
+    {
+     "step": 3,
+     "action": "Classify the decimal expansion",
+     "explain": "A stopping bottom means a terminating decimal; any other prime factor means a non-terminating repeating decimal, with no other outcome possible."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.2",
+   "title": "Terminating Decimals to Fractions",
+   "section": "3.6.1",
+   "definition": "Count the places after the point, put the digits over 1 followed by that many zeros, then reduce: 0.35 lands as 35 over 100, which shrinks to 7/20.",
+   "formula": "places after the point become zeros downstairs",
+   "key_idea": "Places become zeros downstairs; cancel everything common.",
+   "textbook_ref": "iemh103.txt lines 1123-1126 (Example 4: 0.35 = 35/100 = 7/20)",
+   "question_patterns": [
+    "Convert 0.35 into p/q form.",
+    "Write 12.6 as a fraction in lowest terms.",
+    "Express 3.05 as a ratio of integers.",
+    "Turn 0.0120 into a fully reduced fraction.",
+    "Which power of ten goes downstairs for 2.05?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count decimal places",
+     "explain": "The count sets the power of ten downstairs."
+    },
+    {
+     "step": 2,
+     "action": "Place the digits",
+     "explain": "Digits without the point go on top; 1 followed by that many zeros goes below."
+    },
+    {
+     "step": 3,
+     "action": "Reduce fully",
+     "explain": "Cancel common factors, e.g. 35/100 down to 7/20."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.3",
+   "title": "Pure Repeating Decimals to Fractions",
+   "section": "3.6.1",
+   "definition": "When a fixed digit block cycles from the point onward, shift one full cycle with a power of ten, subtract the original, and the endless tail cancels: 0.666... becomes 6 over 9, or 2/3.",
+   "formula": "one nine downstairs per looping digit",
+   "key_idea": "One nine downstairs per looping digit; the loop dissolves.",
+   "textbook_ref": "iemh103.txt lines 1127-1150 (Examples 5-6: 0.6 = 2/3, 0.45 = 5/11)",
+   "question_patterns": [
+    "Convert 0.6 with the 6 repeating into p/q form.",
+    "Express 0.454545... as a fraction.",
+    "Show that 0.45 with both digits repeating equals 5/11.",
+    "How many nines go downstairs for a 3-digit repeating block?",
+    "Turn 0.142857 with the block repeating into a fraction."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the decimal x",
+     "explain": "Write x = 0.666... for example."
+    },
+    {
+     "step": 2,
+     "action": "Shift one full cycle",
+     "explain": "One repeating digit: multiply by 10; two: by 100, and so on."
+    },
+    {
+     "step": 3,
+     "action": "Subtract and solve",
+     "explain": "The shifted read minus x kills the infinite tail; solve for x and reduce."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.4",
+   "title": "General Repeating Decimals to Fractions",
+   "section": "3.6.1",
+   "definition": "Mixed cases need two shifts: first push the plain digits past the point, then push one full cycle, and subtract the two shifted reads; 2.357 with only the 7 repeating reduces to 1061/450.",
+   "formula": "leftover bottom mixes 9s (looping) and 0s (plain) digits",
+   "key_idea": "Shift to purify, shift one cycle, subtract: the leftover bottom mixes 9s and 0s.",
+   "textbook_ref": "iemh103.txt lines 1150-1210 (Examples 7-8: 0.16 = 1/6, 2.357 = 1061/450)",
+   "question_patterns": [
+    "Convert 2.357 with only the 7 repeating into p/q form.",
+    "Express 0.16 with the 6 repeating as a fraction.",
+    "Which shift clears the non-repeating digits first?",
+    "Turn 1.235 with 35 repeating into a fraction in lowest terms.",
+    "Why do zeros appear among the nines in the denominator?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Purify the repeating part",
+     "explain": "Multiply by 10 once per non-repeating digit."
+    },
+    {
+     "step": 2,
+     "action": "Shift one full cycle",
+     "explain": "Multiply once more by 10 per repeating digit."
+    },
+    {
+     "step": 3,
+     "action": "Subtract the shifted reads",
+     "explain": "Subtract the first shifted equation from the second; solve and reduce."
+    }
+   ]
+  },
+  {
+   "id": "iemh.3.6.5",
+   "title": "Cyclic Numbers",
+   "section": "3.6.2",
+   "definition": "Divide 1 by 7 and the block 142857 repeats forever - and it multiplies like a carousel: times 1 through 6 merely spins the same six digits. Such rotating blocks are known as cyclic.",
+   "formula": "1/7 = 0.142857 with the block repeating",
+   "key_idea": "One-seventh's block rotates in place when scaled by 1 through 6.",
+   "textbook_ref": "iemh103.txt lines 1239-1253 (section 3.6.2)",
+   "question_patterns": [
+    "What makes 142857 a cyclic number?",
+    "Which fraction produces the repeating block 142857?",
+    "Compute 142857 x 5 and describe the result.",
+    "Multiply the block by 3 and check the circular shift of digits.",
+    "Find the repeating block of 1/13 by long division."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Run the long division",
+     "explain": "1 divided by 7 gives the repeating block 142857."
+    },
+    {
+     "step": 2,
+     "action": "Multiply and observe",
+     "explain": "Products with 1 through 6 cycle the same digits in a circle."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the cyclic property",
+     "explain": "If every multiplier from 1 to one-less-than-the-block-length merely rotates the digits, the block is cyclic; this rotation is the defining test."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh103.txt lines 211-219 (Exercise Set 3.2 Q3(ii): (-8) x (-7))",
+   "concept": "iemh.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the product ({integer_a}) x ({integer_b}).",
+   "extracted_variables": {
+    "integer_a": "-8",
+    "integer_b": "-7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply sizes, attach sign",
+     "explain": "8 x 7 = 56; two debts give a fortune, so the product is +56.",
+     "compute": "product = integer_a * integer_b"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh103.txt lines 211-215 (Exercise Set 3.2 Q3(i): (-12) x 5)",
+   "concept": "iemh.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate ({integer_a}) x {integer_b}.",
+   "extracted_variables": {
+    "integer_a": "-12",
+    "integer_b": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply sizes, attach sign",
+     "explain": "12 x 5 = 60; a debt with a fortune gives a debt, so the product is -60.",
+     "compute": "product = integer_a * integer_b"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh103.txt lines 136-144 (rule a x 0 = 0); values authored",
+   "concept": "iemh.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the product ({number}) x 0.",
+   "extracted_variables": {
+    "number": "-15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the zero product rule",
+     "explain": "Brahmagupta's rule: a x 0 = 0, so (-15) x 0 = 0.",
+     "compute": "result = number * 0"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh103.txt lines 136-144 (rule a x 0 = 0); values authored",
+   "concept": "iemh.3.2.2",
+   "question_type": "compute",
+   "question_pattern": "What is {number} x 0?",
+   "extracted_variables": {
+    "number": "125"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the zero product rule",
+     "explain": "a x 0 = 0, so 125 x 0 = 0.",
+     "compute": "result = number * 0"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh103.txt lines 396-400 (Exercise Set 3.3 Q4(i): 2/3 x 3/10 = 1/5)",
+   "concept": "iemh.3.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the product {a}/{b} x {c}/{d}.",
+   "extracted_variables": {
+    "a": "2",
+    "b": "3",
+    "c": "3",
+    "d": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the tops",
+     "explain": "2 x 3 = 6.",
+     "compute": "top_product = a * c"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the bottoms",
+     "explain": "3 x 10 = 30.",
+     "compute": "bottom_product = b * d"
+    },
+    {
+     "step": 3,
+     "action": "Divide and reduce",
+     "explain": "6/30 = 1/5, value 0.2.",
+     "compute": "product = top_product / bottom_product"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iemh103.txt lines 396-400 (Exercise Set 3.3 Q4(ii): 7/11 x 5/8)",
+   "concept": "iemh.3.4.2",
+   "question_type": "compute",
+   "question_pattern": "Multiply {a}/{b} by {c}/{d}.",
+   "extracted_variables": {
+    "a": "7",
+    "b": "11",
+    "c": "5",
+    "d": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the tops",
+     "explain": "7 x 5 = 35.",
+     "compute": "top_product = a * c"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the bottoms",
+     "explain": "11 x 8 = 88.",
+     "compute": "bottom_product = b * d"
+    },
+    {
+     "step": 3,
+     "action": "Divide and reduce",
+     "explain": "35/88 is already fully reduced; value about 0.3977.",
+     "compute": "product = top_product / bottom_product"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "iemh103.txt lines 390-395 (Exercise Set 3.3 Q2(i): 2/5 + 3/10 = 7/10)",
+   "concept": "iemh.3.4.5",
+   "question_type": "compute",
+   "question_pattern": "Find the sum {a}/{b} + {c}/{d}.",
+   "extracted_variables": {
+    "a": "2",
+    "b": "5",
+    "c": "3",
+    "d": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Scale the tops to a common bottom",
+     "explain": "2 x 10 = 20.",
+     "compute": "cross_ad = a * d"
+    },
+    {
+     "step": 2,
+     "action": "Second scaled top",
+     "explain": "3 x 5 = 15.",
+     "compute": "cross_cb = c * b"
+    },
+    {
+     "step": 3,
+     "action": "Combine tops",
+     "explain": "20 + 15 = 35.",
+     "compute": "top = cross_ad + cross_cb"
+    },
+    {
+     "step": 4,
+     "action": "Common bottom",
+     "explain": "5 x 10 = 50.",
+     "compute": "bottom = b * d"
+    },
+    {
+     "step": 5,
+     "action": "Divide and reduce",
+     "explain": "35/50 = 7/10, value 0.7.",
+     "compute": "sum = top / bottom"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iemh103.txt lines 392-395 (Exercise Set 3.3 Q3(i): 5/6 - 1/4)",
+   "concept": "iemh.3.4.5",
+   "question_type": "compute",
+   "question_pattern": "Find {a}/{b} - {c}/{d}.",
+   "extracted_variables": {
+    "a": "5",
+    "b": "6",
+    "c": "-1",
+    "d": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Scale the tops to a common bottom",
+     "explain": "5 x 4 = 20.",
+     "compute": "cross_ad = a * d"
+    },
+    {
+     "step": 2,
+     "action": "Second scaled top",
+     "explain": "Flip the sign for subtraction: (-1) x 6 = -6.",
+     "compute": "cross_cb = c * b"
+    },
+    {
+     "step": 3,
+     "action": "Combine tops",
+     "explain": "20 + (-6) = 14.",
+     "compute": "top = cross_ad + cross_cb"
+    },
+    {
+     "step": 4,
+     "action": "Common bottom",
+     "explain": "6 x 4 = 24.",
+     "compute": "bottom = b * d"
+    },
+    {
+     "step": 5,
+     "action": "Divide and reduce",
+     "explain": "14/24 = 7/12, value about 0.5833.",
+     "compute": "sum = top / bottom"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "iemh103.txt lines 780-783 (Exercise Set 3.4 Q2: between -1/2 and 1/4)",
+   "concept": "iemh.3.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find a rational number between {num_a} and {num_b} by averaging.",
+   "extracted_variables": {
+    "num_a": "-0.5",
+    "num_b": "0.25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the pair",
+     "explain": "-0.5 + 0.25 = -0.25.",
+     "compute": "sum_val = num_a + num_b"
+    },
+    {
+     "step": 2,
+     "action": "Halve the sum",
+     "explain": "-0.25 / 2 = -0.125, which lies strictly between.",
+     "compute": "average = sum_val / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "iemh103.txt lines 743-759 (density text: average of 1 and 3/2 is 5/4)",
+   "concept": "iemh.3.4.3",
+   "question_type": "compute",
+   "question_pattern": "Insert a rational between {num_a} and {num_b}.",
+   "extracted_variables": {
+    "num_a": "1",
+    "num_b": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the pair",
+     "explain": "1 + 1.5 = 2.5.",
+     "compute": "sum_val = num_a + num_b"
+    },
+    {
+     "step": 2,
+     "action": "Halve the sum",
+     "explain": "2.5 / 2 = 1.25 = 5/4.",
+     "compute": "average = sum_val / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "iemh103.txt lines 724-740 (Fig 3.8: distance between -4 and 3 is 7)",
+   "concept": "iemh.3.4.7",
+   "question_type": "compute",
+   "question_pattern": "How far apart are {a} and {b} on a number line?",
+   "extracted_variables": {
+    "a": "-4",
+    "b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract",
+     "explain": "-4 - 3 = -7.",
+     "compute": "diff = a - b"
+    },
+    {
+     "step": 2,
+     "action": "Drop the sign",
+     "explain": "The gap is 7 units.",
+     "compute": "distance = abs(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "iemh103.txt lines 724-740 (|a - b| rule); values aligned to Fig 3.8",
+   "concept": "iemh.3.4.7",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between {a} and {b}.",
+   "extracted_variables": {
+    "a": "2",
+    "b": "-7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract",
+     "explain": "2 - (-7) = 9.",
+     "compute": "diff = a - b"
+    },
+    {
+     "step": 2,
+     "action": "Drop the sign",
+     "explain": "The gap is 9 units.",
+     "compute": "distance = abs(diff)"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "iemh103.txt lines 1123-1126 (Example 4: 0.35 = 35/100 = 7/20)",
+   "concept": "iemh.3.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "Convert {val} into the form p/q.",
+   "extracted_variables": {
+    "val": "0.35"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count the places",
+     "explain": "Two places after the point means 100 downstairs."
+    },
+    {
+     "step": 2,
+     "action": "Place and reduce",
+     "explain": "0.35 = 35/100 = 7/20."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "iemh103.txt lines 1127-1140 (Example 5: 0.6 = 6/9 = 2/3)",
+   "concept": "iemh.3.6.3",
+   "question_type": "verify_property",
+   "question_pattern": "Convert {val} (the {block} repeating) into the form p/q.",
+   "extracted_variables": {
+    "val": "0.6",
+    "block": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Shift one cycle",
+     "explain": "10x = 6.6 while x = 0.6."
+    },
+    {
+     "step": 2,
+     "action": "Subtract and solve",
+     "explain": "9x = 6, so x = 6/9 = 2/3."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "iemh103.txt lines 1164-1210 (Example 8: 2.357 = 1061/450)",
+   "concept": "iemh.3.6.4",
+   "question_type": "verify_property",
+   "question_pattern": "Convert {val} (only the 7 repeating) into the form p/q.",
+   "extracted_variables": {
+    "val": "2.357"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Purify",
+     "explain": "100x = 235.7... clears the two non-repeating digits."
+    },
+    {
+     "step": 2,
+     "action": "Shift one cycle and subtract",
+     "explain": "1000x - 100x = 2122, so x = 2122/900 = 1061/450."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What do we count with, in the set 1, 2, 3, ...?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check membership",
+     "explain": "A member must be a whole number starting from 1 with nothing after the point."
+    },
+    {
+     "step": 2,
+     "action": "Test closure by subtracting",
+     "explain": "If the subtraction dips below 1, the result leaves the set."
+    },
+    {
+     "step": 3,
+     "action": "Conclude closure status",
+     "explain": "Natural numbers are closed under addition and multiplication but not under subtraction, since results like 3 - 5 fall outside the set."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Are the natural numbers closed under subtraction? Give a reason.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check membership",
+     "explain": "A member must be a whole number starting from 1 with nothing after the point."
+    },
+    {
+     "step": 2,
+     "action": "Test closure by subtracting",
+     "explain": "If the subtraction dips below 1, the result leaves the set."
+    },
+    {
+     "step": 3,
+     "action": "Conclude closure status",
+     "explain": "Natural numbers are closed under addition and multiplication but not under subtraction, since results like 3 - 5 fall outside the set."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "What makes a number rational?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Try a fraction form",
+     "explain": "Seek integer top p and non-zero integer bottom q with p/q equal to the number."
+    },
+    {
+     "step": 2,
+     "action": "Reduce and confirm",
+     "explain": "If such a pair exists in fully reduced form, the number is rational."
+    },
+    {
+     "step": 3,
+     "action": "Check the bottom is non-zero",
+     "explain": "The denominator q must never be zero, since division by zero is undefined; this is the one hard requirement for rational status."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Is -7 a rational number? Justify your answer.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Try a fraction form",
+     "explain": "Seek integer top p and non-zero integer bottom q with p/q equal to the number."
+    },
+    {
+     "step": 2,
+     "action": "Reduce and confirm",
+     "explain": "If such a pair exists in fully reduced form, the number is rational."
+    },
+    {
+     "step": 3,
+     "action": "Check the bottom is non-zero",
+     "explain": "The denominator q must never be zero, since division by zero is undefined; this is the one hard requirement for rational status."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.4.6",
+   "question_type": "verify_property",
+   "question_pattern": "Show 3/4 on a number line.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Split the unit",
+     "explain": "Divide each whole step into q equal pieces."
+    },
+    {
+     "step": 2,
+     "action": "Step and mark",
+     "explain": "Move p pieces from 0, right for positive p and left for negative p; carry wholes first for improper tops."
+    },
+    {
+     "step": 3,
+     "action": "Label the marked point",
+     "explain": "The landing point on the line is the rational number p/q, confirming the fraction has a unique position on the number line."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.4.6",
+   "question_type": "verify_property",
+   "question_pattern": "Where does -3/4 sit relative to -1 and 0?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Split the unit",
+     "explain": "Divide each whole step into q equal pieces."
+    },
+    {
+     "step": 2,
+     "action": "Step and mark",
+     "explain": "Move p pieces from 0, right for positive p and left for negative p; carry wholes first for improper tops."
+    },
+    {
+     "step": 3,
+     "action": "Label the marked point",
+     "explain": "The landing point on the line is the rational number p/q, confirming the fraction has a unique position on the number line."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Prove that the diagonal of a unit square is irrational.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assume the opposite",
+     "explain": "Suppose root 2 equals p/q with coprime integers p and q."
+    },
+    {
+     "step": 2,
+     "action": "Square and rearrange",
+     "explain": "p squared equals 2 q squared, so p must be even; write p = 2k."
+    },
+    {
+     "step": 3,
+     "action": "Substitute back",
+     "explain": "q squared equals 2 k squared, so q is even too."
+    },
+    {
+     "step": 4,
+     "action": "Land the contradiction",
+     "explain": "Both even contradicts coprimality, so no such fraction exists."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Walk through Hippasus's contradiction for the square root of 2.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assume the opposite",
+     "explain": "Suppose root 2 equals p/q with coprime integers p and q."
+    },
+    {
+     "step": 2,
+     "action": "Square and rearrange",
+     "explain": "p squared equals 2 q squared, so p must be even; write p = 2k."
+    },
+    {
+     "step": 3,
+     "action": "Substitute back",
+     "explain": "q squared equals 2 k squared, so q is even too."
+    },
+    {
+     "step": 4,
+     "action": "Land the contradiction",
+     "explain": "Both even contradicts coprimality, so no such fraction exists."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "Construct a segment of length sqrt(2) and mark it on a line.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Raise a perpendicular unit",
+     "explain": "At the unit mark A, draw a perpendicular and mark B one unit up."
+    },
+    {
+     "step": 2,
+     "action": "Join to the origin",
+     "explain": "OB is the diagonal of a unit square, hence sqrt(2)."
+    },
+    {
+     "step": 3,
+     "action": "Swing the arc",
+     "explain": "Centre O, radius OB: the arc cuts the line at the new irrational length."
+    }
+   ]
+  },
+  {
+   "id": "ex25",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the three steps for placing sqrt(2) on a number line.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Raise a perpendicular unit",
+     "explain": "At the unit mark A, draw a perpendicular and mark B one unit up."
+    },
+    {
+     "step": 2,
+     "action": "Join to the origin",
+     "explain": "OB is the diagonal of a unit square, hence sqrt(2)."
+    },
+    {
+     "step": 3,
+     "action": "Swing the arc",
+     "explain": "Centre O, radius OB: the arc cuts the line at the new irrational length."
+    }
+   ]
+  },
+  {
+   "id": "ex26",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.3",
+   "question_type": "verify_property",
+   "question_pattern": "Whose infinite series first expressed pi exactly?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add early terms",
+     "explain": "Summing 1 - 1/3 + 1/5 - 1/7 + ... and scaling by 4 approaches pi."
+    },
+    {
+     "step": 2,
+     "action": "Watch the closes",
+     "explain": "Each extra term tightens the approximation; no finite stop lands exactly on pi."
+    },
+    {
+     "step": 3,
+     "action": "Conclude irrationality",
+     "explain": "Since no fraction equals pi and the series never terminates, pi is irrational; every finite sum is only an asanna, a near-value."
+    }
+   ]
+  },
+  {
+   "id": "ex27",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.5.3",
+   "question_type": "verify_property",
+   "question_pattern": "Approximate pi using the first three terms of Madhava's series.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add early terms",
+     "explain": "Summing 1 - 1/3 + 1/5 - 1/7 + ... and scaling by 4 approaches pi."
+    },
+    {
+     "step": 2,
+     "action": "Watch the closes",
+     "explain": "Each extra term tightens the approximation; no finite stop lands exactly on pi."
+    },
+    {
+     "step": 3,
+     "action": "Conclude irrationality",
+     "explain": "Since no fraction equals pi and the series never terminates, pi is irrational; every finite sum is only an asanna, a near-value."
+    }
+   ]
+  },
+  {
+   "id": "ex28",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Will 7/20 stop or loop as a decimal? Reason without dividing.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Reduce the fraction",
+     "explain": "Cancel common factors so top and bottom share nothing."
+    },
+    {
+     "step": 2,
+     "action": "Prime-split the bottom",
+     "explain": "Only 2s and 5s: the decimal stops. Any other prime: the digits loop."
+    },
+    {
+     "step": 3,
+     "action": "Classify the decimal expansion",
+     "explain": "A stopping bottom means a terminating decimal; any other prime factor means a non-terminating repeating decimal, with no other outcome possible."
+    }
+   ]
+  },
+  {
+   "id": "ex29",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Decide the decimal fate of 4/15 and 13/250.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Reduce the fraction",
+     "explain": "Cancel common factors so top and bottom share nothing."
+    },
+    {
+     "step": 2,
+     "action": "Prime-split the bottom",
+     "explain": "Only 2s and 5s: the decimal stops. Any other prime: the digits loop."
+    },
+    {
+     "step": 3,
+     "action": "Classify the decimal expansion",
+     "explain": "A stopping bottom means a terminating decimal; any other prime factor means a non-terminating repeating decimal, with no other outcome possible."
+    }
+   ]
+  },
+  {
+   "id": "ex30",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "Express 3.05 as a ratio of integers.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count decimal places",
+     "explain": "The count sets the power of ten downstairs."
+    },
+    {
+     "step": 2,
+     "action": "Place the digits",
+     "explain": "Digits without the point go on top; 1 followed by that many zeros goes below."
+    },
+    {
+     "step": 3,
+     "action": "Reduce fully",
+     "explain": "Cancel common factors, e.g. 35/100 down to 7/20."
+    }
+   ]
+  },
+  {
+   "id": "ex31",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.3",
+   "question_type": "verify_property",
+   "question_pattern": "Show that 0.45 with both digits repeating equals 5/11.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Name the decimal x",
+     "explain": "Write x = 0.666... for example."
+    },
+    {
+     "step": 2,
+     "action": "Shift one full cycle",
+     "explain": "One repeating digit: multiply by 10; two: by 100, and so on."
+    },
+    {
+     "step": 3,
+     "action": "Subtract and solve",
+     "explain": "The shifted read minus x kills the infinite tail; solve for x and reduce."
+    }
+   ]
+  },
+  {
+   "id": "ex32",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.4",
+   "question_type": "verify_property",
+   "question_pattern": "Which shift clears the non-repeating digits first?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Purify the repeating part",
+     "explain": "Multiply by 10 once per non-repeating digit."
+    },
+    {
+     "step": 2,
+     "action": "Shift one full cycle",
+     "explain": "Multiply once more by 10 per repeating digit."
+    },
+    {
+     "step": 3,
+     "action": "Subtract the shifted reads",
+     "explain": "Subtract the first shifted equation from the second; solve and reduce."
+    }
+   ]
+  },
+  {
+   "id": "ex33",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.5",
+   "question_type": "verify_property",
+   "question_pattern": "What makes 142857 a cyclic number?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Run the long division",
+     "explain": "1 divided by 7 gives the repeating block 142857."
+    },
+    {
+     "step": 2,
+     "action": "Multiply and observe",
+     "explain": "Products with 1 through 6 cycle the same digits in a circle."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the cyclic property",
+     "explain": "If every multiplier from 1 to one-less-than-the-block-length merely rotates the digits, the block is cyclic; this rotation is the defining test."
+    }
+   ]
+  },
+  {
+   "id": "ex34",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.3.6.5",
+   "question_type": "verify_property",
+   "question_pattern": "Which fraction produces the repeating block 142857?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Run the long division",
+     "explain": "1 divided by 7 gives the repeating block 142857."
+    },
+    {
+     "step": 2,
+     "action": "Multiply and observe",
+     "explain": "Products with 1 through 6 cycle the same digits in a circle."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the cyclic property",
+     "explain": "If every multiplier from 1 to one-less-than-the-block-length merely rotates the digits, the block is cyclic; this rotation is the defining test."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "iemh103.txt lines 72-87 (Exercise Set 3.1)",
+   "questions": [
+    "A merchant in the port city of Lothal is exchanging bags of spices for copper ingots. He receives 15 ingots for every 2 bags of spices. If he brings 12 bags of spices to the market, how many copper ingots will he leave with?",
+    "Look at the sequence of numbers on one column of the Ishango bone: 11, 13, 17, 19. What do these numbers have in common? List the next three numbers that fit this pattern.",
+    "We know that natural numbers are closed under addition. Are they closed under subtraction? Provide a couple of examples to justify your answer."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "iemh103.txt lines 203-222 (Exercise Set 3.2)",
+   "questions": [
+    "The temperature in the high-altitude desert of Ladakh is recorded as 4 C at noon. By midnight, it drops by 15 C. What is the midnight temperature?",
+    "A spice trader takes a loan (debt) of Rs 850. The next day, he makes a profit (fortune) of Rs 1,200. The following week, he incurs a loss of Rs 450. Write this sequence as an equation using integers and calculate his final financial standing.",
+    "Calculate the following using Brahmagupta's laws: (i) (-12) x 5, (ii) (-8) x (-7), (iii) 0 - (-14), (iv) (-20) / 4",
+    "Explain, using a real-world example of debt, why subtracting a negative number is the same as adding a positive number (e.g., 10 - (-5) = 15)."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "iemh103.txt lines 396-404 (Exercise Set 3.3)",
+   "questions": [
+    "Prove that the following rational numbers are equal: (i) 2/3 and 4/6, (ii) 5/4 and 10/8, (iii) -3/5 and -6/10, (iv) 9/3 and 3",
+    "Find the sum: (i) 2/5 + 3/10, (ii) 7/12 + 5/8, (iii) -4/7 + 3/14",
+    "Find the difference: (i) 5/6 - 1/4, (ii) 11/8 - 3/4, (iii) -7/9 - (-2/3)",
+    "Find the product: (i) 2/3 x 3/10, (ii) 7/11 x 5/8, (iii) -4/7 x 5/14",
+    "Find the quotient: (i) (2/3) / (3/10), (ii) (7/11) / (5/8), (iii) (-4/7) / (5/14)"
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "iemh103.txt lines 774-806 (Exercise Set 3.4)",
+   "questions": [
+    "Represent the rational numbers 2/3, -5/4 and 11/2 on a single number line.",
+    "Find three distinct rational numbers that lie strictly between -1/2 and 1/4.",
+    "Simplify the expression: -(-1/4) + (5/12).",
+    "A tailor has 15 3/4 metres of fine silk. If making one kurta requires 2 1/4 metres of silk, exactly how many kurtas can he make?",
+    "Find three rational numbers between 3.1415 and 3.1416."
+   ]
+  },
+  {
+   "id": "ex3.5",
+   "source_ref": "iemh103.txt lines 1261-1287 (Exercise Set 3.5)",
+   "questions": [
+    "Without performing long division, determine which of the following rational numbers will have terminating decimals and which will be repeating: 7/20, 4/15 and 13/250.",
+    "Perform the long division for 1/13. Identify the repeating block of digits.",
+    "Classify the following numbers as rational or irrational: (i) sqrt(81), (ii) sqrt(12), (iii) 0.33333..., (iv) 0.1234512345..., (v) 1.010010001..."
+   ]
+  },
+  {
+   "id": "ex.end",
+   "source_ref": "iemh103.txt lines 1320-1556 (End-of-Chapter Exercises)",
+   "questions": [
+    "Convert the following rational numbers in the form of a terminating decimal or non-terminating and repeating decimal: (i) 3/50, (ii) 2/9",
+    "Prove that sqrt(5) is an irrational number.",
+    "Convert the following decimal numbers in the form of p/q: (i) 12.6, (ii) 0.0120, (iii) 3.052, (iv) 1.235, (v) 0.23, (vi) 2.05",
+    "Find 6 rational numbers between 3 and 4.",
+    "Find 5 rational numbers between 2/5 and 3/5."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; schema/copyright/DSL/grounding reviewed, deduped, gap-filled and enriched by quality reviewer"
+}

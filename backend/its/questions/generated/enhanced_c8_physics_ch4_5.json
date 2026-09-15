@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_5",
+   "title": "c8_physics_ch4_5",
+   "questions": [
+    {
+     "q": "What is the approximate value of atmospheric pressure at sea level in pascals, and what physical quantity does this pressure represent?",
+     "a": "Atmospheric pressure at sea level is approximately 101,325 Pa (or 1.013 × 10⁵ Pa). It represents the weight of a column of air with 1 m² cross-section extending from sea level to the top of the atmosphere, divided by that area (force per unit area). A wrong answer like \"1000 Pa\" or \"pressure inside a tyre\" reveals the student confuses atmospheric pressure with gauge pressure or typical tyre pressure values, missing the \"weight of air column\" concept entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Why don't we feel the enormous atmospheric pressure (≈100,000 N/m²) pressing on our bodies, even though it's equivalent to having a large truck on every square meter?",
+     "a": "We don't feel it because the fluids inside our body (blood, tissue fluid) exert an equal outward pressure that balances the inward atmospheric pressure. The net force on our skin is nearly zero. A wrong answer like \"our skin is strong enough\" or \"pressure only acts downward\" reveals the misconception that atmospheric pressure acts only in one direction or that biological structures resist it structurally rather than through internal pressure equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the force exerted by atmospheric pressure on the top of a student's head if the cross-sectional area is 0.015 m². Use standard atmospheric pressure = 1.01 × 10⁵ Pa.",
+     "a": "Step 1: Identify given: P = 1.01 × 10⁵ Pa, A = 0.015 m². Find: F.\nStep 2: Formula: P = F/A → F = P × A.\nStep 3: Substitute: F = (1.01 × 10⁵ N/m²) × (0.015 m²).\nStep 4: Compute: F = 1,515 N. Unit check: (N/m²) × m² = N ✓\nStep 5: Reasonable? 1,515 N ≈ 154 kg weight equivalent - plausible for head area.\nAnswer: 1,515 N (or 1.52 × 10³ N). A wrong answer like 151.5 N reveals a decimal place error (using 0.0015 m² instead of 0.015 m²), while 15,150 N suggests confusing cm² with m².",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Atmospheric pressure at the top of Mount Everest (8,848 m) is about one-third of sea level pressure because the air column above is shorter.\" Analyze this statement using the weight-of-air-column model. Is the reasoning correct? Why or why not?",
+     "a": "The reasoning is partially correct but incomplete. Pressure decreases with altitude because the air column above is shorter (less weight), but it's not a simple linear relationship. Air density also decreases with altitude, so the mass per unit height of the column is smaller higher up. At Everest's summit, pressure is actually about 1/3 of sea level (≈34,000 Pa), but this is due to both reduced column height AND reduced density. A wrong answer that says \"yes, exactly one-third because column is one-third height\" reveals the misconception that air density is constant with altitude, ignoring compressibility of air.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's explanation: \"When you drink through a straw, you suck the liquid up. The vacuum you create pulls the liquid upward.\" Is this physically accurate? If not, correct it using atmospheric pressure concepts.",
+     "a": "The explanation is NOT accurate. There is no \"pulling\" force from vacuum. What happens: you reduce pressure inside the straw (by expanding your lungs), so atmospheric pressure (≈101,325 Pa) pushing down on the liquid surface in the glass becomes greater than the reduced pressure at the top of the liquid column in the straw. This pressure difference pushes the liquid up the straw. The liquid rises until the weight of the liquid column equals the pressure difference times area. A wrong evaluation that agrees with \"vacuum pulls\" reveals the deep misconception that vacuum exerts suction force, rather than understanding pressure pushes from higher to lower pressure regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that atmospheric pressure acts in all directions, not just downward. Describe the procedure, what you expect to observe, and how it proves the point.",
+     "a": "Good experiment: Fill a glass completely with water, cover with a stiff card (like an index card), hold the card in place, invert the glass, then release the card. Observation: The card stays in place and water doesn't spill. Explanation: Atmospheric pressure pushes UP on the card with force ≈ P × A, balancing the weight of water pushing down. Since the card holds horizontally, this proves pressure acts upward. For sideways: poke a small hole near the bottom of a water-filled plastic bottle, seal the cap tightly. Water stops flowing because internal pressure drops below atmospheric; loosening the cap lets air in, equalizing pressure, and water spurts out sideways. A poor answer that only shows the \"crushed bottle\" demo (which only shows inward pressure) reveals incomplete understanding that pressure is isotropic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

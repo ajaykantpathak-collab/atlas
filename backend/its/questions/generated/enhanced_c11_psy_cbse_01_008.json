@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_008",
+   "title": "c11_psy_cbse_01_008",
+   "questions": [
+    {
+     "q": "What are the three components of Freud's structural model of personality, and what principle governs the functioning of each?",
+     "a": "The three components are the id (operates on the pleasure principle, seeking immediate gratification), the ego (operates on the reality principle, mediating between id and external world), and the superego (operates on the morality principle, internalizing societal rules). A wrong answer that lists \"conscious, subconscious, unconscious\" reveals confusion between the topographical and structural models — a fundamental category error that prevents understanding intrapsychic conflict.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Freud considered dream analysis the \"royal road to the unconscious\" and how manifest content differs from latent content.",
+     "a": "Dreams allow unconscious wishes (latent content) to express themselves in disguised form (manifest content) because the ego's defenses are relaxed during sleep, bypassing censorship. A wrong answer stating \"dreams show our hidden desires directly\" misses the crucial concept of *disguise* and *censorship* — the very mechanism that makes interpretation necessary and distinguishes psychoanalysis from simple introspection.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old student who was bitten by a dog at age 4 now experiences intense anxiety when seeing any dog, but has no conscious memory of the bite. Using Freud's concepts, explain the likely defense mechanism at work and the role of the unconscious.",
+     "a": "The defense mechanism is repression — the unconscious blocking of a traumatic memory (the bite) from conscious awareness. The anxiety persists because the repressed memory remains active in the unconscious and attaches to the stimulus (dogs) via association. A wrong answer citing \"forgetting\" or \"suppression\" confuses conscious avoidance with unconscious repression, failing to grasp that the memory is *dynamically kept out* of awareness yet still exerts influence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how structuralism (Wundt), behaviourism (Watson), and psychoanalysis (Freud) would explain a person's irrational fear of enclosed spaces. Identify the level of analysis each uses.",
+     "a": "Structuralism would analyze the fear into elemental sensations (e.g., constriction, rapid heartbeat) via introspection — level: conscious experience. Behaviourism would trace it to a conditioned S-R association (e.g., past trauma in an elevator) — level: observable behavior. Psychoanalysis would interpret it as a symbolic displacement of an unconscious conflict (e.g., repressed birth trauma or womb fantasy) — level: unconscious motivation. A wrong answer that treats all three as \"studying the mind\" misses the paradigm shift each represents in subject matter and method.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"Freud's psychosexual stages are scientifically invalid because they cannot be falsified.\" Support your judgment with two specific arguments from philosophy of science and one from psychology.",
+     "a": "The claim is largely valid. Popper's falsifiability criterion: psychoanalytic concepts (e.g., Oedipus complex) are often framed so any behavior confirms them (e.g., both close and distant father-son relationships \"prove\" the complex). Kuhn's paradigm view: psychoanalysis operates as a non-paradigmatic, pre-scientific framework lacking puzzle-solving normal science. From psychology: lack of empirical support for stage fixation predicting adult personality (e.g., oral fixation → smoking) in controlled longitudinal studies. A wrong answer dismissing Freud entirely as \"unscientific\" ignores his heuristic value in generating testable hypotheses (e.g., defense mechanisms, unconscious priming) and his influence on clinical practice.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original, brief case vignette (3-4 sentences) illustrating *reaction formation* as a defense mechanism. Clearly show the unconscious impulse, the conscious behavior, and the exaggeration that signals defense.",
+     "a": "Example: \"Rahul, 14, feels intense unconscious hostility toward his newborn sister who receives all parental attention. Consciously, he becomes excessively doting, constantly hugging her and volunteering to feed her, to the point his parents find it smothering. His over-the-top affection masks the repressed aggression.\" A poor answer describes simple kindness or jealousy without the *exaggerated, rigid, opposite* behavior that marks reaction formation — revealing misunderstanding of the mechanism's defensive, unconscious nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_005",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_005",
+   "title": "c7_geo_ch04_005",
+   "questions": [
+    {
+     "q": "Which soil type is most ideal for growing cotton in the Peninsular Plateau region of India?",
+     "a": "Black soil (also known as Regur soil) is the most ideal for cotton cultivation because it retains moisture well and is rich in lime, iron, magnesium, and alumina. A wrong answer—such as choosing alluvial soil or laterite soil—reveals a common mix-up between general river basin fertility and the specific mineral requirements of the cotton plant, which thrives on moisture-retentive volcanic rock weathering.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why tea plants are grown almost exclusively on hill slopes rather than flat river plains, even though plains receive plenty of water.",
+     "a": "Tea bushes require heavy rainfall (over 200 cm), but they cannot tolerate stagnant or waterlogged roots. Sloping land on hills allows excess rainwater to drain away quickly while keeping the roots moist, preventing root rot. A wrong answer shows that the student confuses total water volume with drainage needs, assuming that if a crop needs water, any flat, flooded plain will work.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in West Bengal wants to switch to a fiber cash crop that requires high temperatures, abundant rainfall, and standing water during its growing period, followed by retting facilities in nearby slow-moving water bodies. Which crop should they choose, and why?",
+     "a": "Steps:\n1. Identify the geographical requirements given: high temperature, abundant rainfall, standing water, and retting.\n2. Recall that retting is the process of soaking stalks in water to rot the outer bark, separating the soft fiber.\n3. Match these requirements to the major fiber cash crops (cotton vs. jute).\n4. Conclude that jute is the correct crop because it grows in alluvial floodplains with standing water and relies on river water for the retting process.\nA wrong answer—such as choosing cotton—reveals that the student does not know the distinct processing requirements (retting) and water needs of jute compared to dry-land cotton.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climatic requirements of tea and coffee. How do their temperature and rainfall needs differ, and how does this affect their distribution across India?",
+     "a": "Tea requires a warm, frost-free climate with 150-300 cm of annual rainfall evenly distributed throughout the year, making it dominant in hill regions like Assam and Darjeeling. Coffee requires warm temperatures (15-28°C) with dry periods during ripening and slightly lower rainfall (100-200 cm), making it dominant in the southern hills of Karnataka, Kerala, and Tamil Nadu. A wrong answer reveals a failure to distinguish between the continuous moisture needed by tea and the seasonal dry ripening phase needed by coffee.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether cultivating water-intensive cash crops like sugarcane or jute in semi-arid regions of western India is a sustainable agricultural practice. Provide geographical justification.",
+     "a": "Cultivating water-intensive cash crops in semi-arid regions is unsustainable because these areas lack natural high rainfall and perennial river flooding, forcing heavy reliance on groundwater pumping. Over time, this leads to severe water table depletion and soil salinization, undermining long-term agricultural productivity. A wrong answer shows that the student ignores physical geographical limits (climate and water availability) in favor of short-term economic gains.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regional agricultural plan for a newly formed hilly district in Northeast India that experiences 250 cm of annual rainfall and has acidic, well-drained soils. Which cash crop should be promoted, and what infrastructure must be developed?",
+     "a": "A good plan will propose planting tea as the primary cash crop because the acidic soil, heavy rainfall, and hill slopes match its exact geographical requirements. The plan must also propose infrastructure like local processing factories (to crush and dry leaves quickly), terraced farming techniques, and transport links to prevent spoilage. A poor answer recommends dry-land crops like cotton, showing complete disregard for soil chemistry, slope, and rainfall constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

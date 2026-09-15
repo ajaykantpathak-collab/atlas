@@ -1,0 +1,626 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 3,
+ "chapter_title": "Contemporary South Asia",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps103.txt",
+ "concepts": [
+  {
+   "id": "c12ps.3.1",
+   "title": "South Asia as a Region",
+   "section": "Introduction: South Asia as a Region",
+   "definition": "South Asia is a distinct geopolitical region comprising the states of India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka and the Maldives, sharing common historical, cultural and colonial legacies while being separated by political boundaries.",
+   "formula": "",
+   "key_idea": "Despite internal diversity and conflict, South Asia is bound together by shared colonial experience, geographical proximity and cultural ties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What countries make up the South Asian region?",
+    "How is South Asia defined as a region?",
+    "What are the common features that bind South Asian countries together?",
+    "Why is South Asia considered a distinct geopolitical region?",
+    "Explain the geographical and cultural basis of South Asia as a region."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the member states of South Asia",
+     "explain": "South Asia includes India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka and the Maldives, with Afghanistan often added in SAARC."
+    },
+    {
+     "step": 2,
+     "action": "Explain the shared historical and cultural legacy",
+     "explain": "Common colonial experience under European powers, shared religious and linguistic traditions, and interwoven histories connect these states."
+    },
+    {
+     "step": 3,
+     "action": "Assess why South Asia is treated as a distinct region",
+     "explain": "Geographical contiguity, shared rivers and mountain systems, and common developmental challenges make South Asia a coherent regional unit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which countries are included in the South Asian region?",
+     "solution": "Step 1: South Asia comprises the states lying on and around the Indian subcontinent. Step 2: These are India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka and the Maldives. Step 3: Afghanistan was later included as the eighth member of SAARC.",
+     "answer": "India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, the Maldives and Afghanistan (in SAARC)",
+     "_n": 1
+    },
+    {
+     "question": "Why is South Asia considered a distinct region despite its conflicts?",
+     "solution": "Step 1: The states share a common colonial past and geographical contiguity. Step 2: Cultural, religious and linguistic ties cross political borders. Step 3: Hence scholars treat South Asia as a coherent regional unit.",
+     "answer": "Because of shared colonial history, geographical contiguity and cultural ties that override political divisions",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the basis on which South Asia is identified as a distinct region.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List the member states of South Asia.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.2",
+   "title": "Conflicts in South Asia",
+   "section": "Conflicts in South Asia",
+   "definition": "South Asia has witnessed inter-state and intra-state conflicts arising from territorial disputes, ethnic tensions, resource sharing and political rivalry, making it one of the most conflict-prone regions of the world.",
+   "formula": "",
+   "key_idea": "Both bilateral disputes (such as India-Pakistan) and internal conflicts (such as in Sri Lanka and Nepal) make South Asia politically unstable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major sources of conflict in South Asia?",
+    "Why is South Asia considered a conflict-prone region?",
+    "Explain the difference between inter-state and intra-state conflicts in South Asia.",
+    "How do ethnic tensions contribute to conflict in South Asia?",
+    "Discuss the impact of conflicts on regional stability."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the types of conflicts in South Asia",
+     "explain": "Conflicts include inter-state wars (India-Pakistan, India-China), civil wars (Sri Lanka), ethnic struggles and Maoist insurgencies (Nepal)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the causes of these conflicts",
+     "explain": "Territorial disputes, river-water sharing, ethnic and religious minority grievances, and competing nationalisms drive conflict."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact on regional stability",
+     "explain": "Ongoing conflicts divert resources from development, encourage arms build-ups and prevent meaningful regional cooperation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the major types of conflicts found in South Asia?",
+     "solution": "Step 1: Inter-state conflicts include India-Pakistan wars and border disputes. Step 2: Intra-state conflicts include civil wars in Sri Lanka and Maoist insurgency in Nepal. Step 3: Ethnic and religious tensions further complicate both types.",
+     "answer": "Inter-state wars, intra-state civil wars, and ethnic and religious tensions"
+    },
+    {
+     "question": "How do conflicts affect regional cooperation in South Asia?",
+     "solution": "Step 1: Conflicts create mistrust among states. Step 2: They lead to arms races and divert funds from development. Step 3: This weakens regional bodies like SAARC.",
+     "answer": "Conflicts breed mistrust, arms races and divert resources, thereby weakening regional cooperation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the major conflicts in South Asia and their causes.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between inter-state and intra-state conflicts with examples from South Asia.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.3",
+   "title": "India-Pakistan Conflicts",
+   "section": "Conflicts: India and Pakistan",
+   "definition": "The India-Pakistan conflict is a prolonged bilateral rivalry originating in the Partition of 1947, marked by three major wars (1947-48, 1965, 1971), the Kargil conflict of 1999, and an ongoing nuclear arms race.",
+   "formula": "",
+   "key_idea": "The India-Pakistan rivalry is the most enduring conflict in South Asia, centred on Kashmir but extending to military, nuclear and strategic competition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the origins of the India-Pakistan conflict?",
+    "How many wars have India and Pakistan fought?",
+    "Explain the strategic rivalry between India and Pakistan.",
+    "What was the Kargil conflict and why is it significant?",
+    "How does the India-Pakistan conflict affect South Asia?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the origin of the conflict to Partition",
+     "explain": "The 1947 Partition created two hostile states divided by religion and disputed territories, sowing the seeds of enduring rivalry."
+    },
+    {
+     "step": 2,
+     "action": "List the major wars and military clashes",
+     "explain": "India and Pakistan fought wars in 1947-48, 1965 and 1971, and the Kargil conflict in 1999, besides ongoing border skirmishes."
+    },
+    {
+     "step": 3,
+     "action": "Assess the strategic and nuclear dimension",
+     "explain": "Both states developed nuclear weapons, making the conflict a global security concern and adding deterrence to the rivalry."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the origins of the India-Pakistan conflict?",
+     "solution": "Step 1: The conflict began with the Partition of India in 1947. Step 2: Disputes over princely states, especially Jammu and Kashmir, triggered the first war. Step 3: Religious nationalism and competing territorial claims sustained the rivalry.",
+     "answer": "The conflict originated in the 1947 Partition and the dispute over Kashmir"
+    },
+    {
+     "question": "Why is the India-Pakistan conflict considered a global security concern?",
+     "solution": "Step 1: Both countries possess nuclear weapons. Step 2: A military confrontation carries the risk of nuclear escalation. Step 3: Hence the international community monitors the conflict closely.",
+     "answer": "Because both states are nuclear-armed, making any escalation a global security threat"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the origins and major phases of the India-Pakistan conflict.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the three major wars fought between India and Pakistan.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.4",
+   "title": "The Kashmir Issue",
+   "section": "Conflicts: The Kashmir Issue",
+   "definition": "The Kashmir issue is the territorial dispute between India and Pakistan over the former princely state of Jammu and Kashmir, which began in 1947 when Pakistan-backed tribal infiltrators attacked and the Maharaja acceded to India.",
+   "formula": "",
+   "key_idea": "Kashmir remains the core dispute between India and Pakistan, the subject of wars, UN interventions, internal insurgency and ongoing diplomatic dialogue.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the Kashmir issue originate?",
+    "What is India's position on Kashmir?",
+    "What is Pakistan's position on Kashmir?",
+    "What role did the UN play in the Kashmir dispute?",
+    "Explain the significance of the Kashmir issue in India-Pakistan relations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the origin of the Kashmir dispute",
+     "explain": "In 1947, Pakistan-backed tribal infiltrators attacked Kashmir; the Maharaja signed the Instrument of Accession to India, making Kashmir an integral part of India."
+    },
+    {
+     "step": 2,
+     "action": "State India's and Pakistan's positions",
+     "explain": "India regards Kashmir as a legal and integral part of the Union; Pakistan claims Kashmir on religious and self-determination grounds."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of the UN and internal dimension",
+     "explain": "The UN brokered a ceasefire and proposed a plebiscite; internal insurgency since 1989 and cross-border terrorism have kept the issue alive."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Kashmir issue originate in 1947?",
+     "solution": "Step 1: Pakistan-backed tribal infiltrators entered Kashmir in 1947. Step 2: Maharaja Hari Singh signed the Instrument of Accession to India. Step 3: Indian troops repelled the infiltrators, leaving Pakistan-occupied Kashmir as a disputed territory.",
+     "answer": "It originated when the Maharaja of Kashmir acceded to India after Pakistan-backed infiltrators attacked in 1947"
+    },
+    {
+     "question": "What is India's official position on Kashmir?",
+     "solution": "Step 1: Kashmir legally acceded to India through the Instrument of Accession. Step 2: The accession was ratified by the Constituent Assembly of Kashmir. Step 3: Hence Kashmir is an integral part of the Indian Union.",
+     "answer": "Kashmir is a legal and integral part of India by virtue of the Instrument of Accession"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the origin and significance of the Kashmir issue in India-Pakistan relations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role did the United Nations play in the Kashmir dispute?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.5",
+   "title": "Bangladesh: Liberation and State-Building",
+   "section": "Bangladesh",
+   "definition": "Bangladesh emerged as an independent nation in 1971 after a liberation war against Pakistan, supported by India, ending the political and linguistic domination of West Pakistan over East Pakistan.",
+   "formula": "",
+   "key_idea": "Bangladesh's creation demonstrated that shared religion alone cannot hold a nation together; linguistic and cultural identity can be a stronger basis of nationalism.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How was Bangladesh created as an independent nation?",
+    "What role did India play in the liberation of Bangladesh?",
+    "Why did East Pakistan seek independence from West Pakistan?",
+    "Explain the political challenges faced by Bangladesh after independence.",
+    "How has Bangladesh evolved as a democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the causes of the liberation war",
+     "explain": "East Pakistan suffered political, economic and linguistic discrimination by West Pakistan, sparking a mass movement under Sheikh Mujibur Rahman."
+    },
+    {
+     "step": 2,
+     "action": "Describe the role of India",
+     "explain": "India provided military and diplomatic support to the Mukti Bahini, leading to the defeat of Pakistani forces in December 1971."
+    },
+    {
+     "step": 3,
+     "action": "Assess post-independence challenges",
+     "explain": "Bangladesh faced famine, political instability, military coups and the assassination of Sheikh Mujib, but later returned to electoral democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was Bangladesh created in 1971?",
+     "solution": "Step 1: East Pakistan rebelled against West Pakistani domination. Step 2: India intervened militarily in support of the Mukti Bahini. Step 3: Pakistani forces surrendered in December 1971, creating independent Bangladesh.",
+     "answer": "Bangladesh was created through a liberation war in 1971 with Indian military support"
+    },
+    {
+     "question": "What does the creation of Bangladesh prove about nationalism?",
+     "solution": "Step 1: Pakistan was founded on religious nationalism. Step 2: Bangladesh's secession showed that linguistic and cultural identity can override religious unity. Step 3: Hence shared religion alone cannot sustain a nation.",
+     "answer": "That linguistic and cultural identity can be a stronger basis of nationalism than religion alone"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes and consequences of the Bangladesh liberation war of 1971.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role did India play in the creation of Bangladesh?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.6",
+   "title": "Sri Lanka and the Ethnic Conflict",
+   "section": "Sri Lanka",
+   "definition": "Sri Lanka's ethnic conflict arose from the Sinhala-majority policies that marginalised the Tamil minority, leading to the demand for a separate Tamil Eelam and a prolonged civil war with the LTTE from 1983 to 2009.",
+   "formula": "",
+   "key_idea": "Majoritarian policies that ignore minority aspirations can trigger violent secessionist movements, as seen in Sri Lanka's Tamil conflict.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the causes of the ethnic conflict in Sri Lanka?",
+    "Who were the LTTE and what did they demand?",
+    "How did majoritarianism affect the Tamils of Sri Lanka?",
+    "What was India's role in the Sri Lankan conflict?",
+    "How was the Sri Lankan civil war resolved?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causes of the conflict",
+     "explain": "The Sinhala-majority government adopted policies making Sinhala the sole official language and favouring Buddhism, alienating the Tamil minority."
+    },
+    {
+     "step": 2,
+     "action": "Describe the rise of the LTTE",
+     "explain": "The Liberation Tigers of Tamil Eelam demanded a separate Tamil state (Eelam) in the north and east, leading to a civil war from 1983."
+    },
+    {
+     "step": 3,
+     "action": "Assess India's role and the resolution",
+     "explain": "India sent the IPKF under the Indo-Sri Lanka Accord of 1987; the LTTE was militarily defeated in 2009, ending the civil war."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the root causes of the ethnic conflict in Sri Lanka?",
+     "solution": "Step 1: Sinhala-majority policies made Sinhala the only official language. Step 2: Tamils faced discrimination in jobs and education. Step 3: This drove the demand for a separate Tamil Eelam.",
+     "answer": "Majoritarian Sinhala policies that discriminated against the Tamil minority"
+    },
+    {
+     "question": "What was India's role in the Sri Lankan ethnic conflict?",
+     "solution": "Step 1: India signed the Indo-Sri Lanka Accord in 1987. Step 2: India sent the Indian Peace Keeping Force (IPKF) to enforce the accord. Step 3: The IPKF became entangled in fighting the LTTE and eventually withdrew.",
+     "answer": "India mediated through the 1987 Accord and deployed the IPKF, though it ultimately withdrew"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes, course and resolution of the ethnic conflict in Sri Lanka.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the demand of the LTTE?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.7",
+   "title": "Nepal's Transition to Democracy",
+   "section": "Nepal",
+   "definition": "Nepal transitioned from an absolute monarchy to a constitutional monarchy and finally to a democratic republic through a popular movement in 2006, aided by a Maoist insurgency that challenged the monarchy.",
+   "formula": "",
+   "key_idea": "Nepal's journey from monarchy to democracy shows how popular movements and insurgencies can force constitutional transformation in a South Asian state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did Nepal transition from a monarchy to a democracy?",
+    "What role did the Maoists play in Nepal's political change?",
+    "Explain the significance of the 2006 popular movement in Nepal.",
+    "What was India's role in Nepal's democratic transition?",
+    "How did Nepal become a federal democratic republic?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the background of monarchical rule",
+     "explain": "Nepal was an absolute monarchy; King Gyanendra dismissed the elected government in 2002 and assumed direct power in 2005."
+    },
+    {
+     "step": 2,
+     "action": "Describe the Maoist insurgency and popular movement",
+     "explain": "The Maoist insurgency challenged the monarchy, and in 2006 a mass pro-democracy movement forced the King to restore Parliament."
+    },
+    {
+     "step": 3,
+     "action": "Assess the outcome",
+     "explain": "The Constituent Assembly abolished the monarchy in 2008, declaring Nepal a federal democratic republic and drafting a new constitution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did Nepal become a democratic republic?",
+     "solution": "Step 1: King Gyanendra seized direct power in 2005. Step 2: A mass pro-democracy movement in 2006 forced him to restore Parliament. Step 3: The Constituent Assembly abolished the monarchy in 2008 and declared Nepal a republic.",
+     "answer": "Through a popular movement in 2006 and abolition of the monarchy by the Constituent Assembly in 2008"
+    },
+    {
+     "question": "What role did the Maoist insurgency play in Nepal's transition?",
+     "solution": "Step 1: The Maoists waged an armed struggle against the monarchy. Step 2: Their movement mobilised rural discontent. Step 3: This weakened the monarchy and paved the way for democratic change.",
+     "answer": "The Maoist insurgency weakened the monarchy and contributed to the democratic transition"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the process by which Nepal transitioned from a monarchy to a democratic republic.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What happened in Nepal in 2006?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.8",
+   "title": "Pakistan's Political Instability",
+   "section": "Pakistan",
+   "definition": "Pakistan has experienced chronic political instability marked by alternating periods of civilian rule and military dictatorship, a weak democracy, conflict with India, and the dominance of the army and intelligence services.",
+   "formula": "",
+   "key_idea": "Pakistan's failure to build a stable democracy is linked to the dominance of the military, the feudal social structure, and the use of anti-India nationalism for legitimacy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why has Pakistan been politically unstable since independence?",
+    "What role does the military play in Pakistan's politics?",
+    "Explain the relationship between democracy and the army in Pakistan.",
+    "How has the conflict with India affected Pakistan's internal politics?",
+    "Why is Pakistan often described as having a weak democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causes of instability",
+     "explain": "A powerful military, weak political parties, feudal social structures and frequent military coups have undermined democracy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of the military",
+     "explain": "The army has directly ruled Pakistan for long periods and even under civilian governments wields decisive influence over foreign and security policy."
+    },
+    {
+     "step": 3,
+     "action": "Assess the link with the India conflict",
+     "explain": "The conflict with India is used to justify military dominance and high defence spending, weakening democratic institutions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Pakistan described as a weak democracy?",
+     "solution": "Step 1: The military has frequently overthrown elected governments. Step 2: Political parties are weak and fragmented. Step 3: Hence civilian governments have limited control over policy.",
+     "answer": "Because the military dominates politics and civilian institutions are weak"
+    },
+    {
+     "question": "How has the conflict with India affected Pakistan's democracy?",
+     "solution": "Step 1: The conflict justifies a large military budget. Step 2: The army uses the conflict to claim political supremacy. Step 3: This weakens elected civilian governments.",
+     "answer": "The conflict strengthens the military at the expense of democratic civilian institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes of political instability in Pakistan.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role does the Pakistan army play in the country's politics?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.9",
+   "title": "SAARC and Its Membership",
+   "section": "Regional Cooperation: SAARC",
+   "definition": "The South Asian Association for Regional Cooperation (SAARC) is a regional intergovernmental organisation founded in 1985 with eight member states aimed at promoting economic, social and cultural development in South Asia.",
+   "formula": "saarc_members = 8",
+   "key_idea": "SAARC brings together the eight South Asian states for regional cooperation, though its effectiveness is limited by India-Pakistan tensions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How many member states does SAARC have?",
+    "When was SAARC established and who are its members?",
+    "What are the objectives of SAARC?",
+    "Calculate the number of SAARC member countries.",
+    "Why has SAARC not been as effective as other regional organisations?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the founding member states of SAARC",
+     "explain": "SAARC was founded in 1985 by seven states: India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka and the Maldives.",
+     "compute": "founding_members = 7"
+    },
+    {
+     "step": 2,
+     "action": "Add Afghanistan as the eighth member",
+     "explain": "Afghanistan joined SAARC in 2007 as the eighth member state, expanding the organisation.",
+     "compute": "saarc_members = founding_members + 1"
+    },
+    {
+     "step": 3,
+     "action": "State the total number of SAARC members",
+     "explain": "SAARC now has eight member states working for regional cooperation in South Asia.",
+     "compute": "result = saarc_members"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many member states does SAARC have after Afghanistan joined?",
+     "solution": "Step 1: SAARC was founded with 7 members. Step 2: Afghanistan joined as the 8th member in 2007. Step 3: Therefore SAARC has 8 member states.",
+     "answer": "8 member states"
+    },
+    {
+     "question": "If SAARC had 7 founding members and one new member was added, how many members does it have now?",
+     "solution": "Step 1: Start with 7 founding members. Step 2: Add 1 new member (Afghanistan). Step 3: 7 + 1 = 8 members.",
+     "answer": "8 members"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the objectives and membership of SAARC.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How many member states does SAARC have? Name them.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.3.10",
+   "title": "Regional Cooperation in South Asia",
+   "section": "Regional Cooperation",
+   "definition": "Regional cooperation in South Asia is pursued through SAARC and sub-regional initiatives like SAFTA, aimed at economic integration, free trade and collective development, though progress is hampered by political conflicts.",
+   "formula": "",
+   "key_idea": "Despite the potential for cooperation, South Asian integration remains limited because bilateral conflicts, especially India-Pakistan tensions, overshadow regional initiatives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major areas of regional cooperation in South Asia?",
+    "What is SAFTA and what are its objectives?",
+    "Why has regional cooperation been limited in South Asia?",
+    "How do India-Pakistan tensions affect SAARC?",
+    "What steps can strengthen regional cooperation in South Asia?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mechanisms of cooperation",
+     "explain": "SAARC provides a platform for cooperation, and SAFTA (South Asian Free Trade Agreement) aims at creating a free-trade zone in the region."
+    },
+    {
+     "step": 2,
+     "action": "Explain the obstacles to cooperation",
+     "explain": "India-Pakistan conflicts, trust deficits, border disputes and fear of Indian dominance among smaller neighbours limit progress."
+    },
+    {
+     "step": 3,
+     "action": "Assess the way forward",
+     "explain": "Confidence-building measures, people-to-people contacts, trade liberalisation and connectivity projects can deepen regional cooperation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why has regional cooperation been limited in South Asia despite SAARC?",
+     "solution": "Step 1: India-Pakistan conflicts dominate the regional agenda. Step 2: Smaller neighbours fear Indian dominance. Step 3: Hence SAARC has achieved limited success compared to the EU or ASEAN.",
+     "answer": "Because bilateral conflicts, especially India-Pakistan tensions, overshadow regional cooperation"
+    },
+    {
+     "question": "What is SAFTA and what is its aim?",
+     "solution": "Step 1: SAFTA is the South Asian Free Trade Agreement. Step 2: It was signed by SAARC members to reduce tariffs. Step 3: Its aim is to create a free-trade area in South Asia.",
+     "answer": "SAFTA is a free-trade agreement among SAARC members aimed at reducing trade barriers in South Asia"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the achievements and limitations of regional cooperation in South Asia.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is SAFTA?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps103.txt",
+   "concept": "c12ps.3.1",
+   "question_type": "short_answer",
+   "question_pattern": "Which countries are included in the South Asian region?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "South Asia comprises the states",
+     "explain": "South Asia comprises the states lying on and around the Indian subcontinent."
+    },
+    {
+     "step": 2,
+     "action": "These are India, Pakistan, Bangladesh",
+     "explain": "These are India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka and the Maldives."
+    },
+    {
+     "step": 3,
+     "action": "Afghanistan was later included as",
+     "explain": "Afghanistan was later included as the eighth member of SAARC."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps103.txt",
+   "concept": "c12ps.3.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why is South Asia considered a distinct region despite its conflicts?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The states share a common",
+     "explain": "The states share a common colonial past and geographical contiguity."
+    },
+    {
+     "step": 2,
+     "action": "Cultural, religious and linguistic ties",
+     "explain": "Cultural, religious and linguistic ties cross political borders."
+    },
+    {
+     "step": 3,
+     "action": "Hence scholars treat South Asia",
+     "explain": "Hence scholars treat South Asia as a coherent regional unit."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

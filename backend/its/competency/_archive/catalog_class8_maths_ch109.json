@@ -1,0 +1,822 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Mensuration",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh109.txt",
+ "concepts": [
+  {
+   "id": "hemh.9.2.1",
+   "title": "Area of a Trapezium",
+   "section": "9.2",
+   "definition": "The measure of the two-dimensional region enclosed by a quadrilateral that has exactly one pair of parallel sides.",
+   "formula": "area = 0.5 * height * (side_a + side_b)",
+   "key_idea": "Take the mean of the two matching sides, then multiply by the perpendicular gap.",
+   "textbook_ref": "hemh109.txt lines 60-100",
+   "question_patterns": [
+    "find the area of a trapezium",
+    "calculate the area of a trapezium shaped field",
+    "the parallel sides of a trapezium are ... and the distance between them is ... find its area",
+    "what is the area of a trapezium with parallel sides ... and height ...",
+    "Parallel sides 12 and 8, gap 6 -- find the covered region."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the parallel sides",
+     "explain": "Add the lengths of the two parallel sides, side_a and side_b.",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by height and divide by 2",
+     "explain": "Multiply the sum of the parallel sides by the height and then divide by 2 to obtain the area.",
+     "compute": "area = 0.5 * height * side_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.2.2",
+   "title": "Area of a Rhombus from Diagonals",
+   "section": "9.2",
+   "definition": "The total space enclosed by a rhombus, determined by taking half the product of its two perpendicular diagonals.",
+   "formula": "area = 0.5 * d1 * d2",
+   "key_idea": "Half of slanted-measure-1 times slanted-measure-2 gives the covered region.",
+   "textbook_ref": "hemh109.txt lines 105-120",
+   "question_patterns": [
+    "find the area of a rhombus whose diagonals are",
+    "calculate the area of a rhombus with diagonals",
+    "what is the area of a rhombus if its diagonals measure",
+    "the diagonals of a rhombus are ... and ... find its area",
+    "Slanted measures 16 and 12 -- find the covered region."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the two diagonals",
+     "explain": "Calculate the product of the lengths of the two diagonals, d1 and d2.",
+     "compute": "diag_product = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "Multiply the diagonal product by 0.5 to find the total area.",
+     "compute": "area = 0.5 * diag_product"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.2.3",
+   "title": "Area of a General Quadrilateral",
+   "section": "9.2",
+   "definition": "The area of any four-sided polygon calculated by splitting it along a diagonal into two triangles and summing their areas using perpendicular offsets.",
+   "formula": "area = 0.5 * diagonal * (h1 + h2)",
+   "key_idea": "Two triangles lean on the same slanted measure; total their halves.",
+   "textbook_ref": "hemh109.txt lines 150-170",
+   "question_patterns": [
+    "find the area of a quadrilateral shaped field with diagonal",
+    "calculate the area of a quadrilateral with diagonal and perpendiculars",
+    "what is the area of a quadrilateral whose diagonal is ... and perpendicular offsets are",
+    "Slant 20 with upright gaps 6 and 4 -- find the region.",
+    "Split a field along its slant and total the two triangles."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the perpendicular heights",
+     "explain": "Add the perpendicular offsets h1 and h2 drawn from opposite vertices to the diagonal.",
+     "compute": "height_sum = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by diagonal and divide by 2",
+     "explain": "Multiply the sum of heights by the diagonal length and divide by 2.",
+     "compute": "area = 0.5 * diagonal * height_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.4.1",
+   "title": "Total Surface Area of a Cuboid",
+   "section": "9.4.1",
+   "definition": "The combined area of all six rectangular faces of a box-shaped solid.",
+   "formula": "area = 2 * (length * width + width * height + height * length)",
+   "key_idea": "Twice the sum of the products of the three pairs of adjacent dimensions.",
+   "textbook_ref": "hemh109.txt lines 220-250",
+   "question_patterns": [
+    "find the total surface area of a cuboid",
+    "calculate the surface area of a cuboidal box",
+    "what is the total surface area of a cuboid with dimensions",
+    "how much sheet is required to make a cuboidal box of",
+    "How much cardboard boxes a 40x30x20 crate?",
+    "Find the tin sheet for a 6x4x2 trunk."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the sum of the products of adjacent sides",
+     "explain": "Multiply length by width, width by height, and height by length, then add these three products.",
+     "compute": "sum_products = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the sum by 2",
+     "explain": "Multiply the sum of the products of adjacent sides by 2 to get the total surface area.",
+     "compute": "total_area = 2 * sum_products"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.4.2",
+   "title": "Lateral Surface Area of a Cuboid",
+   "section": "9.4.1",
+   "definition": "The combined area of the four upright faces of a box-shaped solid, skips the lid and floor.",
+   "formula": "area = 2 * height * (length + width)",
+   "key_idea": "Walk the floor's border, then multiply by how tall the walls stand.",
+   "textbook_ref": "hemh109.txt lines 250-270",
+   "question_patterns": [
+    "find the lateral surface area of a cuboid",
+    "calculate the area of the four walls of a room",
+    "what is the lateral surface area of a cuboidal box of dimensions",
+    "Paint the four walls of a 5x4x3 room -- what area?",
+    "Four walls of a 8x6x4 hall -- area to paint?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the sum of length and width",
+     "explain": "Add the length and width of the base of the cuboid.",
+     "compute": "base_sum = length + width"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by twice the height",
+     "explain": "Multiply the sum of length and width by 2 and then by the height to find the lateral surface area.",
+     "compute": "lateral_area = 2 * height * base_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.4.3",
+   "title": "Total Surface Area of a Cube",
+   "section": "9.4.2",
+   "definition": "The total outer area of a regular six-faced three-dimensional solid where all edges are equal in length.",
+   "formula": "area = 6 * side ** 2",
+   "key_idea": "Six times the square of the side length.",
+   "textbook_ref": "hemh109.txt lines 280-310",
+   "question_patterns": [
+    "find the surface area of a cube",
+    "calculate the total surface area of a cube of side",
+    "what is the surface area of a cube with edge",
+    "How much sheet rolls a closed cube of edge 10?",
+    "Sheet for a closed cube of edge 12?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the side length",
+     "explain": "Multiply the side length by itself to find the area of one face.",
+     "compute": "side_sq = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 6",
+     "explain": "Multiply the area of a single face by 6 to get the total surface area of the cube.",
+     "compute": "total_area = 6 * side_sq"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.4.4",
+   "title": "Curved Surface Area of a Cylinder",
+   "section": "9.4.3",
+   "definition": "The rolled-sheet area of a cylinder's curved side, circular lids excluded.",
+   "formula": "area = 2 * pi * radius * height",
+   "key_idea": "Unroll it: the border of the round sheet times the height.",
+   "textbook_ref": "hemh109.txt lines 320-350",
+   "question_patterns": [
+    "find the curved surface area of a cylinder",
+    "calculate the lateral surface area of a cylindrical pillar",
+    "what is the curved surface area of a cylinder with radius and height",
+    "A pillar 7 m tall, radius 0.5 m -- curved area?",
+    "Curved area of a roller radius 3, length 10?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply 2, pi, radius, and height",
+     "explain": "Calculate the curved surface area by multiplying the base circumference parameters by the height.",
+     "compute": "curved_area = 2 * pi * radius * height"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.4.5",
+   "title": "Total Surface Area of a Cylinder",
+   "section": "9.4.3",
+   "definition": "Everything a closed cylinder shows: the rolled sheet plus both round lids.",
+   "formula": "area = 2 * pi * radius * (radius + height)",
+   "key_idea": "Rolled sheet plus two lids: 2 x pi x r x (r + h).",
+   "textbook_ref": "hemh109.txt lines 350-370",
+   "question_patterns": [
+    "find the total surface area of a cylinder",
+    "calculate the total surface area of a closed cylindrical tank",
+    "what is the total surface area of a cylinder with radius and height",
+    "A closed tank radius 1 m, height 3 m -- total sheet?",
+    "Total sheet for a closed drum radius 7, height 10?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the radius and height",
+     "explain": "Add the radius of the circular base to the height of the cylinder.",
+     "compute": "sum_r_h = radius + height"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 2, pi, and radius",
+     "explain": "Multiply the sum of radius and height by 2, pi, and the radius to get the total surface area.",
+     "compute": "total_area = 2 * pi * radius * sum_r_h"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.5.1",
+   "title": "Volume of a Cuboid",
+   "section": "9.5.1",
+   "definition": "The amount of three-dimensional space enclosed by a cuboid, calculated as the product of its length, width, and height.",
+   "formula": "volume = length * width * height",
+   "key_idea": "Base area multiplied by height.",
+   "textbook_ref": "hemh109.txt lines 410-440",
+   "question_patterns": [
+    "find the volume of a cuboid",
+    "calculate the volume of a cuboidal box",
+    "how much space is occupied by a cuboid of dimensions",
+    "what is the volume of a cuboid with length, breadth, and height",
+    "How much water fills a 2x1.5x1 tank?",
+    "Air in a 3x3x3 box?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply length, width, and height",
+     "explain": "The volume of a cuboid is the product of its length, width, and height.",
+     "compute": "volume = length * width * height"
+    }
+   ]
+  },
+  {
+   "id": "hemh.9.5.2",
+   "title": "Volume of a Cylinder",
+   "section": "9.5.3",
+   "definition": "A cylinder's capacity: the round base's coverage stacked up through its height.",
+   "formula": "volume = pi * radius ** 2 * height",
+   "key_idea": "Base disc area times height: pi x r^2 x h.",
+   "textbook_ref": "hemh109.txt lines 470-500",
+   "question_patterns": [
+    "find the volume of a cylinder",
+    "calculate the capacity of a cylindrical tank",
+    "what is the volume of a cylinder with radius and height",
+    "Capacity of a cylinder radius 7, height 10?",
+    "Water in a cylinder radius 14, height 20?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the radius",
+     "explain": "Multiply the radius of the cylinder by itself.",
+     "compute": "radius_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by pi and height",
+     "explain": "Multiply the squared radius by pi and the height of the cylinder to find the volume.",
+     "compute": "volume = pi * radius_sq * height"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex_trapezium_area",
+   "source_ref": "hemh109.txt Example 1 / Exercise 9.1 Q1",
+   "concept": "hemh.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "The parallel sides of a trapezium are {side_a} m and {side_b} m and the perpendicular distance between them is {height} m. Find its area.",
+   "extracted_variables": {
+    "side_a": "length of first parallel side",
+    "side_b": "length of second parallel side",
+    "height": "distance between parallel sides"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the parallel sides",
+     "explain": "Add side_a and side_b to get the sum of parallel sides.",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by height and divide by 2",
+     "explain": "The area is half the product of height and the sum of parallel sides.",
+     "compute": "area = 0.5 * height * side_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex_rhombus_area",
+   "source_ref": "hemh109.txt Example 2",
+   "concept": "hemh.9.2.2",
+   "question_type": "compute",
+   "question_pattern": "The diagonals of a rhombus are {d1} cm and {d2} cm. Find its area.",
+   "extracted_variables": {
+    "d1": "length of first diagonal",
+    "d2": "length of second diagonal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the two diagonals",
+     "explain": "Find the product of the two diagonals d1 and d2.",
+     "compute": "diag_product = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "The area of a rhombus is half the product of its diagonals.",
+     "compute": "area = 0.5 * diag_product"
+    }
+   ]
+  },
+  {
+   "id": "ex_cylinder_volume",
+   "source_ref": "hemh109.txt Example 10",
+   "concept": "hemh.9.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cylinder of radius {radius} cm and height {height} cm.",
+   "extracted_variables": {
+    "radius": "radius of the cylinder",
+    "height": "height of the cylinder"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the radius",
+     "explain": "Calculate the square of the radius.",
+     "compute": "radius_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by pi and height",
+     "explain": "Multiply the squared radius by pi and height to get the volume.",
+     "compute": "volume = pi * radius_sq * height"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.9.2.1",
+   "question_pattern": "Parallel sides {a} and {b}, gap {h} -- find the covered region.",
+   "extracted_variables": {
+    "a": "12",
+    "b": "8",
+    "h": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the matching sides",
+     "explain": "(12 + 8)/2 = 10",
+     "compute": "mean = 0.5 * (side_a + side_b)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the gap",
+     "explain": "10 x 6 = 60",
+     "compute": "area = 0.5 * height * (side_a + side_b)"
+    }
+   ],
+   "id": "ex1",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.2.2",
+   "question_pattern": "Slanted measures {d1} and {d2} -- find the covered region.",
+   "extracted_variables": {
+    "d1": "16",
+    "d2": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "half the product",
+     "explain": "0.5 x 16 x 12 = 96",
+     "compute": "area = 0.5 * d1 * d2"
+    }
+   ],
+   "id": "ex2",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.2.3",
+   "question_pattern": "Slant {d} with upright gaps {h1} and {h2} -- find the region.",
+   "extracted_variables": {
+    "d": "20",
+    "h1": "6",
+    "h2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the gaps",
+     "explain": "6 + 4 = 10",
+     "compute": "hs = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "halve slant x gaps",
+     "explain": "0.5 x 20 x 10 = 100",
+     "compute": "area = 0.5 * diagonal * (h1 + h2)"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.1",
+   "question_pattern": "Cardboard for a {l}x{w}x{h} crate?",
+   "extracted_variables": {
+    "l": "40",
+    "w": "30",
+    "h": "20"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pairwise products",
+     "explain": "40x30 + 30x20 + 20x40 = 2600",
+     "compute": "pair = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "double it",
+     "explain": "2 x 2600 = 5200",
+     "compute": "area = 2 * (length * width + width * height + height * length)"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.2",
+   "question_pattern": "Paint the four walls of a {l}x{w}x{h} room.",
+   "extracted_variables": {
+    "l": "5",
+    "w": "4",
+    "h": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "walk the floor's border",
+     "explain": "2 x (5 + 4) = 18",
+     "compute": "border = 2 * (length + width)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the height",
+     "explain": "18 x 3 = 54",
+     "compute": "area = 2 * height * (length + width)"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.3",
+   "question_pattern": "Sheet for a closed cube of edge {side}.",
+   "extracted_variables": {
+    "side": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "one face",
+     "explain": "10 x 10 = 100",
+     "compute": "face = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "six faces",
+     "explain": "6 x 100 = 600",
+     "compute": "area = 6 * side ** 2"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.4",
+   "question_pattern": "Pillar radius {r}, height {h} -- curved area?",
+   "extracted_variables": {
+    "r": "0.5",
+    "h": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "unroll the sheet",
+     "explain": "2 x 3.1415927 x 0.5 x 7 = 21.99",
+     "compute": "area = 2 * pi * radius * height"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.5",
+   "question_pattern": "Closed tank radius {r}, height {h} -- total sheet?",
+   "extracted_variables": {
+    "r": "1",
+    "h": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rolled sheet plus lids",
+     "explain": "2 x 3.1415927 x 1 x 4 = 25.13",
+     "compute": "area = 2 * pi * radius * (radius + height)"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.5.1",
+   "question_pattern": "Water filling a {l}x{w}x{h} tank?",
+   "extracted_variables": {
+    "l": "2",
+    "w": "1.5",
+    "h": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the dimensions",
+     "explain": "2 x 1.5 x 1 = 3",
+     "compute": "volume = length * width * height"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.5.2",
+   "question_pattern": "Capacity of a cylinder radius {r}, height {h}?",
+   "extracted_variables": {
+    "r": "7",
+    "h": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "base disc times height",
+     "explain": "3.1415927 x 49 x 10 = 1539.38",
+     "compute": "volume = pi * radius ** 2 * height"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.2.3",
+   "question_pattern": "Slant {d} with upright gaps {h1} and {h2} -- find the region.",
+   "extracted_variables": {
+    "d": "15",
+    "h1": "8",
+    "h2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the gaps",
+     "explain": "8 + 4 = 12",
+     "compute": "hs = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "halve slant x gaps",
+     "explain": "0.5 x 15 x 12 = 90",
+     "compute": "area = 0.5 * diagonal * (h1 + h2)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.1",
+   "question_pattern": "Cardboard for a {l}x{w}x{h} box?",
+   "extracted_variables": {
+    "l": "10",
+    "w": "8",
+    "h": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pairwise products",
+     "explain": "10x8 + 8x4 + 4x10 = 152",
+     "compute": "pair = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "double it",
+     "explain": "2 x 152 = 304",
+     "compute": "area = 2 * (length * width + width * height + height * length)"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.2",
+   "question_pattern": "Whitewash the four walls of a {l}x{w}x{h} room.",
+   "extracted_variables": {
+    "l": "6",
+    "w": "4",
+    "h": "2.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "walk the floor's border",
+     "explain": "2 x (6 + 4) = 20",
+     "compute": "border = 2 * (length + width)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the height",
+     "explain": "20 x 2.5 = 50",
+     "compute": "area = 2 * height * (length + width)"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.3",
+   "question_pattern": "Sheet for a closed cube of edge {side}.",
+   "extracted_variables": {
+    "side": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "one face",
+     "explain": "5 x 5 = 25",
+     "compute": "face = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "six faces",
+     "explain": "6 x 25 = 150",
+     "compute": "area = 6 * side ** 2"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.4",
+   "question_pattern": "Pillar radius {r}, height {h} -- curved area?",
+   "extracted_variables": {
+    "r": "14",
+    "h": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "unroll the sheet",
+     "explain": "2 x 3.1415927 x 14 x 5 = 439.82",
+     "compute": "area = 2 * pi * radius * height"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.4.5",
+   "question_pattern": "Closed drum radius {r}, height {h} -- total sheet?",
+   "extracted_variables": {
+    "r": "2",
+    "h": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rolled sheet plus lids",
+     "explain": "2 x 3.1415927 x 2 x 9 = 113.10",
+     "compute": "area = 2 * pi * radius * (radius + height)"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.9.5.1",
+   "question_pattern": "Grain filling a {l}x{w}x{h} bin -- find the capacity.",
+   "extracted_variables": {
+    "l": "4",
+    "w": "3",
+    "h": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the dimensions",
+     "explain": "4 x 3 x 2 = 24",
+     "compute": "volume = length * width * height"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "hemh109.txt lines 140-200",
+   "questions": [
+    "The shape of the top surface of a table is a trapezium. Find its area if its parallel sides are 1 m and 1.2 m and perpendicular distance between them is 0.8 m.",
+    "The area of a trapezium is 34 cm2 and the length of one of the parallel sides is 10 cm and its height is 4 cm. Find the length of the other parallel side.",
+    "Length of the fence of a trapezium shaped field ABCD is 120 m. If BC = 48 m, CD = 17 m and AD = 40 m, find the area of this field. Side AB is perpendicular to the parallel sides AD and BC.",
+    "The diagonal of a quadrilateral shaped field is 24 m and the perpendiculars dropped on it from the remaining opposite vertices are 8 m and 13 m. Find the area of the field.",
+    "The diagonals of a rhombus are 7.5 cm and 12 cm. Find its area.",
+    "Find the area of a rhombus whose side is 5 cm and whose altitude is 4.8 cm. If one of its diagonals is 8 cm long, find the length of the other diagonal.",
+    "The floor of a building consists of 3000 tiles which are rhombus shaped and each of its diagonals are 45 cm and 30 cm in length. Find the total cost of polishing the floor, if the cost per m2 is Rs 4.",
+    "Mohan wants to buy a trapezium shaped field. Its side along the river is parallel to and twice the side along the road. If the area of this field is 10500 m2 and the perpendicular distance between the two parallel sides is 100 m, find the length of the side along the river.",
+    "Top surface of a raised platform is in the shape of a regular octagon as shown in the figure. Find the area of the octagonal surface.",
+    "There is a pentagonal shaped park as shown in the figure. For finding its area Jyoti and Kavita divided it in two different ways. Find the area of this park using both ways.",
+    "Diagram of the adjacent picture frame has outer dimensions = 24 cm x 28 cm and inner dimensions 16 cm x 20 cm. Find the area of each section of the frame, if the width of each section is same."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "hemh109.txt lines 380-410",
+   "questions": [
+    "There are two cuboidal boxes as shown in the adjoining figure. Which box requires the lesser amount of material to make?",
+    "A suitcase with measures 80 cm x 48 cm x 24 cm is to be covered with a tarpaulin cloth. How many metres of tarpaulin of width 96 cm is required to cover 100 such suitcases?",
+    "Find the side of a cube whose surface area is 600 cm2.",
+    "Rukhsar painted the outside of the cabinet of measure 1 m x 2 m x 1.5 m. How much surface area did she cover if she painted all except the bottom of the cabinet.",
+    "Daniel is painting the walls and ceiling of a cuboidal hall with length, breadth and height of 15 m, 10 m and 7 m respectively. From each can of paint 100 m2 of area is painted. How many cans of paint will she need to paint the room?",
+    "Describe how the two figures at the right are alike and how they are different. Which box has larger lateral surface area?",
+    "A closed cylindrical tank of radius 7 m and height 3 m is made from a sheet of metal. How much sheet of metal is required?",
+    "The lateral surface area of a hollow cylinder is 4224 cm2. It is cut along its height and formed a rectangular sheet of width 33 cm. Find the perimeter of rectangular sheet?",
+    "A road roller takes 750 complete revolutions to move once over to level a road. Find the area of the road if the diameter of a road roller is 84 cm and length is 1 m.",
+    "A company packages its milk powder in cylindrical container whose base has a diameter of 14 cm and height 20 cm. Company places a label around the surface of the container. If the label is placed 2 cm from top and bottom, what is the area of the label."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "hemh109.txt lines 510-540",
+   "questions": [
+    "Given a cylindrical tank, in which situation will you find surface area and in which situation volume.",
+    "Diameter of cylinder A is 7 cm, and the height is 14 cm. Diameter of cylinder B is 14 cm and height is 7 cm. Without doing any calculations can you suggest whose volume is greater? Verify it by finding the volume of both the cylinders. Check whether the cylinder with greater volume also has greater surface area?",
+    "Find the height of a cuboid whose base area is 180 cm2 and volume is 900 cm3?",
+    "A cuboid is of dimensions 60 cm x 54 cm x 30 cm. How many small cubes with side 6 cm can be placed in the given cuboid?",
+    "Find the height of the cylinder whose volume is 1.54 m3 and diameter of the base is 140 cm?",
+    "A milk tank is in the form of cylinder whose radius is 1.5 m and length is 7 m. Find the quantity of milk in litres that can be stored in the tank?",
+    "If each edge of a cube is doubled, (i) how many times will its surface area increase? (ii) how many times will its volume increase?",
+    "Water is pouring into a cubiodal reservoir at the rate of 60 litres per minute. If the volume of reservoir is 108 m3, find the number of hours it will take to fill the reservoir."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

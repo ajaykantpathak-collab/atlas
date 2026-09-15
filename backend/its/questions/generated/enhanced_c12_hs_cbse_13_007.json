@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_007",
+   "title": "c12_hs_cbse_13_007",
+   "questions": [
+    {
+     "q": "A student sees the ISI mark on a cement bag and the AGMARK on a packet of turmeric powder. She says, \"Both marks mean the product is good quality, so they are basically the same thing.\" Is she correct? Explain in one sentence.",
+     "a": "No, she is not correct. The ISI mark (now BIS) certifies *manufactured/industrial products* against Indian Standards under the BIS Act, while AGMARK certifies *agricultural produce* (raw or semi-processed) for grade quality under the Agricultural Produce (Grading and Marking) Act; they operate under different laws, cover different product categories, and test different parameters. A wrong answer reveals the student conflates \"quality mark\" as a generic label without distinguishing the *domain of application* (industrial vs agricultural) and the *legal framework* behind each.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer of packaged drinking water wants to use the ISI mark. He asks: \"Since ISI certification is voluntary for most products, can I skip it and still sell legally?\" What is the correct answer, and why?",
+     "a": "No, he cannot skip it — packaged drinking water is under *mandatory* BIS certification (IS 14543) as per a Government of India notification under the BIS Act; selling it without the ISI mark is an offence. A wrong answer reveals the student does not know that the Central Government can notify specific products for *compulsory* certification even though the BIS scheme is largely voluntary, a critical distinction for consumer safety items.",
+     "self_check": true
+    },
+    {
+     "q": "You buy a tin of mango pulp labelled \"FPO\" and a bottle of honey labelled \"AGMARK\". Later you learn the honey was adulterated with rice syrup. Which mark's certification process *failed* to detect this, and what does that tell you about the *scope* of that mark's testing?",
+     "a": "The AGMARK certification failed to detect adulteration (or the honey was sold with a counterfeit mark). AGMARK grades honey based on parameters like moisture, sucrose, and pollen count, but sophisticated adulterants like rice syrup can mimic these; the mark guarantees *grade standards at the time of packing*, not absolute purity against all modern adulterants. A wrong answer reveals the student assumes a quality mark is a foolproof guarantee against *any* fraud, rather than a compliance check against defined standards at a point in time.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *enforcement mechanism* of the BIS Act (for ISI mark) and the Fruit Products Order (for FPO). Which system gives the certifying body stronger powers to inspect, seize, and prosecute, and why does this matter for consumer confidence?",
+     "a": "The BIS Act (2016) grants the Bureau powers of search, seizure, and prosecution with penalties up to ₹5 lakh and imprisonment up to 2 years for misuse of the Standard Mark; the FPO (under the Essential Commodities Act) also has penal provisions but enforcement is often delegated to state food inspectors with weaker coordination. Stronger centralised enforcement under BIS means faster action against counterfeit marks, directly boosting consumer trust. A wrong answer reveals the student treats all quality marks as having equal legal teeth, ignoring the *institutional capacity* of the certifying body.",
+     "self_check": true
+    },
+    {
+     "q": "A jeweller sells a gold necklace stamped \"916\" (22 carat) but *without* the BIS Hallmark logo (triangle with BIS, year, jeweller's code, assay centre). The customer argues, \"The purity number is there, so it's hallmarked.\" Evaluate this claim.",
+     "a": "The claim is invalid. Under the mandatory BIS Hallmarking Scheme (since June 2021), *only* the complete hallmark — BIS logo, purity grade (e.g., 22K916), assaying centre's mark, jeweller's identification mark, and year of marking — constitutes legal hallmarking; a mere \"916\" stamp is not recognised and offers no legal recourse. A wrong answer reveals the student confuses *purity notation* with the *legally mandated hallmark symbol*, missing the consumer protection purpose of traceability (assay centre + jeweller code).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step checklist a consumer can use *at the point of purchase* to verify that a quality mark on a product is genuine (not counterfeit) for each of the three marks: ISI/BIS, AGMARK, FPO.",
+     "a": "For ISI/BIS: (1) Check the BIS logo + licence number (CM/L-xxxxxx) on the product/label; (2) Verify the licence number on the BIS website or BIS Care app; (3) Ensure the product matches the Indian Standard number printed (e.g., IS 14543 for packaged water). For AGMARK: (1) Look for the AGMARK logo + grade designation (e.g., Grade A, Special); (2) Check the packer's licence number and lot/batch number; (3) Cross-check on the AGMARKNET portal if doubtful. For FPO: (1) Confirm the FPO logo + licence number (FPO-xxx); (2) Verify the manufacturing date and licence validity; (3) Check the FSSAI licence number (now mandatory alongside FPO). A poor answer gives generic advice like \"look for the logo\" without the *verifiable unique identifiers* (licence numbers, portals) that distinguish genuine from fake marks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

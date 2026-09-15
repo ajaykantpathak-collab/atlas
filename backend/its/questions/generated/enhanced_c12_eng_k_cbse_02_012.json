@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_02_012",
+   "title": "c12_eng_k_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question when studying a literary text like \"Eveline\"?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What is the name of Eveline's lover?\" — answer: Frank). An inferential question requires the reader to derive meaning not explicitly written by combining textual clues (e.g., \"Why does Eveline grip the iron railing at the dock?\" — answer: fear of the unknown/duty, supported by \"All the seas of the world tumbled about her heart\" and her prayer for direction). A wrong answer that treats an inferential question as literal (e.g., quoting a line that doesn't exist) reveals the student cannot distinguish explicit from implicit meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, Eveline reviews the familiar objects in her room and wonders \"where on earth all the dust came from.\" An inferential question might ask: \"What does the dust symbolize in Eveline's life?\" A student answers: \"The dust represents her father's abuse.\" Explain why this inference is weak or unsupported, and provide a stronger inference with two textual evidences.",
+     "a": "The inference \"dust represents father's abuse\" is weak because the text never links dust to violence; dust is associated with routine (\"dusted once a week for so many years\") and stagnation. A stronger inference: \"The dust symbolizes the monotonous, inescapable routine of Eveline's domestic life.\" Evidence 1: \"she had dusted once a week for so many years, wondering where on earth all the dust came from\" — shows endless repetition. Evidence 2: \"It was hard work — a hard life — but now that she was about to leave it she did not find it a wholly undesirable life\" — reveals the dusty routine is both burdensome and familiar. A wrong answer that offers unsupported symbolism reveals the student confuses personal association with text-based inference.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEE (Point-Evidence-Explanation) structure to answer this inferential question: \"Why does Eveline's father forbid her from seeing Frank?\" Write a complete 3-sentence response following PEE.",
+     "a": "Point: Eveline's father forbids the relationship because he distrusts sailors and fears losing his daughter's wages. Evidence: He says, \"I know these sailor chaps,\" and later relies on her entire salary (\"seven shillings\") for household expenses while accusing her of squandering money. Explanation: His opposition stems from both prejudice against Frank's profession and economic dependence on Eveline, making her departure a financial threat. A wrong answer that only quotes \"I know these sailor chaps\" without explaining the financial motive shows incomplete evidence synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two questions from a board exam paper and classify each as literal (L) or inferential (I). Justify your classification for each.\nQ1: \"What promise did Eveline make to her mother on her deathbed?\"\nQ2: \"How does the street organ's music influence Eveline's final decision?\"",
+     "a": "Q1 = Literal. The text explicitly states: \"her promise to keep the home together as long as she could\" and describes the mother's final words \"Derevaun Seraun!\" — the answer is directly retrievable. Q2 = Inferential. The text notes the organ music reminds her of the promise and her mother's death, but never states \"the music made her stay.\" The student must connect the music → memory → promise → paralysis chain. A wrong classification (e.g., marking Q2 as literal) reveals the student cannot identify when a question requires synthesizing multiple textual moments.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why does Eveline ultimately refuse to board the ship with Frank?\" Student writes: \"Eveline is a coward who lacks the courage to change her life. She chooses her abusive father over a loving man because she is weak.\" Identify two flaws in this evaluation and rewrite the answer using textual evidence and nuanced interpretation.",
+     "a": "Flaw 1: Uses judgmental language (\"coward,\" \"weak\") instead of analytical terms (\"paralyzed by duty,\" \"psychological entrapment\"). Flaw 2: Ignores textual complexity — the story shows Eveline's genuine love for her father in moments (\"he could be very nice,\" \"read her a ghost story\") and the genuine terror of the unknown (\"All the seas of the world tumbled about her heart\"). Revised answer: \"Eveline's refusal stems from a conflict between filial duty (her deathbed promise to 'keep the home together') and paralyzing fear of the unknown, symbolized by the 'seas of the world' tumbling about her heart. Her grip on the iron railing and 'passive, like a helpless animal' face show psychological immobilization, not mere cowardice — she is trapped by the weight of the familiar, however painful.\" A wrong evaluation that accepts the student's simplistic reading reveals inability to judge interpretive depth.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question about \"Eveline\" that requires synthesizing evidence from at least three different sections of the story (opening, middle, climax). Provide the question and a model answer outline with three evidence points.",
+     "a": "Question: \"Trace how the motif of 'escape' evolves from Eveline's childhood memories to her final paralysis at the dock, using three distinct textual moments.\" Model outline: (1) Opening: The childhood field represents lost freedom — \"they used to play every evening\" before \"a man from Belfast bought the field and built houses\" — escape was natural then. (2) Middle: Frank embodies physical escape — \"She was to go away with him by the night boat to Buenos Aires\" — but even this is tinged with secrecy (\"meet her lover secretly\"). (3) Climax: The dock scene transforms escape into drowning — \"All the seas of the world tumbled about her heart. He was drawing her into them: he would drown her\" — escape becomes existential threat. A poor answer that lists events without connecting the motif's evolution shows inability to synthesize across narrative arc.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

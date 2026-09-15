@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_009",
+   "title": "c11_acc_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the Conservatism Concept in one sentence and give one example of its application in inventory valuation.",
+     "a": "Correct answer: Conservatism requires that anticipated losses be recognised immediately while anticipated gains are ignored until realised; example: closing stock valued at lower of cost (₹200) or net realisable value (₹150). A wrong answer (e.g., \"conservatism means recording everything at the lowest possible value\") reveals the student confuses prudence with deliberate understatement, which creates secret reserves — a violation of the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Materiality Concept permits expensing a ₹500 calculator immediately even though it will last five years, but would not allow expensing a ₹5,00,000 machine.",
+     "a": "Correct answer: Materiality depends on whether the item's omission or misstatement could influence a user's decision; ₹500 is trivial relative to the bakery's total assets/profit, so expensing it does not distort decisions, whereas ₹5,00,000 is significant and must be capitalised and depreciated. A wrong answer (e.g., \"because the calculator is cheap\") shows the student treats materiality as a fixed rupee threshold rather than a relative, judgement-based concept.",
+     "self_check": true
+    },
+    {
+     "q": "A company has a pending lawsuit where lawyers estimate a 60% chance of losing ₹10 lakh. The accountant records a provision for the full ₹10 lakh. Is this correct? Justify using Conservatism.",
+     "a": "Correct answer: Yes, conservatism requires providing for all anticipated losses even if not certain; a 60% probability is more than \"remote\", so a provision for the best estimate (₹10 lakh) is appropriate. A wrong answer (e.g., \"no, because the case is not decided\") reveals the student misunderstands that conservatism applies to *probable* losses, not only certain ones.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Conservatism and Materiality: can they ever conflict? Give a concrete situation where applying one concept might seem to violate the other.",
+     "a": "Correct answer: They can appear to conflict. Example: a ₹10,000 decline in value of a ₹1 crore asset is immaterial (1%) so materiality says ignore it; conservatism says recognise the loss. Resolution: materiality overrides — the loss is too small to affect decisions, so it is not recognised. A wrong answer (e.g., \"they never conflict\") shows the student has not analysed the tension between prudence and significance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Conservatism ensures that financial statements show the worst-case scenario, so they are always reliable for creditors.\" Defend or refute with reasoning.",
+     "a": "Correct answer: Refute. Conservatism prevents *overstatement* of profits/assets, but deliberate understatement (creating secret reserves) also violates the concept and misleads creditors by hiding true profitability. Reliability requires neutrality, not pessimism. A wrong answer (e.g., \"agree, worst-case is safest\") reveals the student equates conservatism with systematic undervaluation, missing the NCERT warning against \"deliberate attempt to underestimate\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario (different from bakery) involving a small manufacturing firm where both Conservatism and Materiality must be applied. Describe the facts, the accounting decision, and the justification for each concept.",
+     "a": "Good answer: Firm buys 1,000 units of raw material at ₹100/unit; market price falls to ₹90. Also buys a ₹2,000 coffee machine for the office (life 4 years). Decision: write down raw material to ₹90 (conservatism); expense coffee machine (materiality — ₹2,000 is trivial vs ₹1 crore turnover). Justification links each decision to the correct concept. A poor answer (e.g., only addresses one concept or uses a fixed rupee rule) shows the student cannot synthesise both concepts in a fresh context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

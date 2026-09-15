@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_005",
+   "title": "c11_eco_cbse_08_005",
+   "questions": [
+    {
+     "q": "From Table 8.2, China's GDP growth rate declined from 10.3% (1980-90) to 5.0% (2024), while India's rose from 5.7% to 6.5%. A student claims \"India's growth performance has overtaken China's.\" Using the concept of base effect and absolute GDP size, explain why this conclusion is economically flawed.",
+     "a": "Correct answer: China's 2024 GDP (PPP) is $35 trillion vs India's $15 trillion (text states China's GDP is ~2.3x India's). A 5% growth on $35T adds $1.75T annual output; 6.5% on $15T adds only $0.975T. China's absolute increment remains larger despite lower percentage. A wrong answer reveals the student confuses growth rate (percentage change) with absolute increment, ignoring base size — a classic \"percentage trap\" in cross-country comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Table 8.3 shows India's agriculture employs 43% workforce but contributes only 18% GVA, while China's agriculture employs 23% workforce for 8% GVA. Calculate the labor productivity ratio (GVA share ÷ workforce share) for agriculture in both countries. What does the difference imply about disguised unemployment?",
+     "a": "Correct answer: India agriculture productivity ratio = 18/43 = 0.42; China = 8/23 = 0.35. India's ratio is HIGHER, meaning each agricultural worker in India produces relatively more GVA share than in China — counterintuitive because China's absolute productivity is higher. The student must realize these are SHARE ratios, not absolute output per worker. A wrong answer (e.g., claiming China's agriculture is more productive based on this ratio) reveals confusion between share-based ratios and absolute labor productivity (GVA per worker in constant PPP $).",
+     "self_check": true
+    },
+    {
+     "q": "Given: India's GNI (PPP) = $9,047 per capita (Table 8.5), Population = 1,428 million (Table 8.1). China's GNI (PPP) = $22,029, Population = 1,411 million. Calculate total GNI (PPP) for each country in trillion $. Verify if the text's claim \"China's GDP (PPP) $35T, India's $15T\" is consistent with these per capita figures (note: GNI ≈ GDP for large economies).",
+     "a": "Correct answer: India total GNI = 9,047 × 1,428M = $12.92T ≈ $13T. China total GNI = 22,029 × 1,411M = $31.08T ≈ $31T. Text states GDP (PPP): China $35T, India $15T. GNI ≈ GDP for large closed economies but differs by net factor income from abroad. The figures are broadly consistent (same order of magnitude). A wrong answer (e.g., multiplying incorrectly, or claiming inconsistency without noting GNI vs GDP distinction) reveals weak large-number arithmetic (lakhs/crores to trillions) and confusion between GNI and GDP concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Table 8.4 shows China's service sector growth was 13.5% (1980-90) but fell to 7.1% (2014-18), while India's rose from 6.9% to 7.6%. Yet China's overall GDP growth (10.3% → 5.0%) fell more sharply than India's (5.7% → 6.5%). Using sectoral weights from Table 8.3 (China: Industry 38%, Services 54%; India: Industry 28%, Services 54%), explain this paradox through the lens of structural transformation and sectoral growth contributions.",
+     "a": "Correct answer: China's 1980-90 boom was driven by industry (10.8%) AND services (13.5%) — both high. By 2014-18, industry slowed to 5.3% (weight 38%), dragging overall growth down despite services at 7.1%. India's industry grew at 6.9% (weight 28%) and services at 7.6% (weight 54%) — both moderate but stable, with services carrying more weight. China's growth deceleration reflects middle-income transition: industry matured, services not yet high-value enough. A wrong answer (e.g., attributing China's slowdown only to services) reveals failure to weight sectoral growth by GVA shares — a critical analytical skill for structural analysis.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"China's growth is contributed by manufacturing and service sectors and India's growth by the service sector.\" Evaluate this claim using Table 8.4 (2014-18): India industry 6.9%, services 7.6%; China industry 5.3%, services 7.1%. Is the claim still valid for the recent period? What policy implication follows for India's \"Make in India\" initiative?",
+     "a": "Correct answer: For 2014-18, India's industry growth (6.9%) actually EXCEEDS China's (5.3%), while services are comparable (7.6% vs 7.1%). The claim holds for 1980-90 (China industry 10.8% vs India 7.4%) but NOT for 2014-18. Policy implication: India's manufacturing is accelerating; \"Make in India\" targets the right sector but needs to sustain >8% industrial growth to replicate China's structural transformation. A wrong answer (blindly accepting the textbook's generalisation without checking the latest data period) reveals uncritical reading — a dangerous habit for evidence-based economics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard to monitor whether India is successfully replicating China's structural transformation (agriculture → industry → services) over the next decade. Specify: (a) the exact indicators with formulas, (b) target thresholds for 2034, (c) one early-warning signal for each indicator.",
+     "a": "Correct answer: (1) Industry GVA share / Industry workforce share ratio — target >1.2 (China 2022: 38/32=1.19); warning: ratio <1.0 for 3 consecutive years. (2) Manufacturing export share in total exports — target >60% (China ~90%); warning: declining trend for 2 years. (3) Urbanisation rate — target >50% (China 65%); warning: urbanisation growth <0.5%/year. A poor answer (e.g., listing generic indicators like \"GDP growth\" without structural specificity) reveals inability to translate structural economics into measurable policy targets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_03_015",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_03_015",
+   "title": "c12_eng_f_cbse_03_015",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a \"text-based discussion\" in Class 12 English, as distinct from a casual conversation about the story?",
+     "a": "A text-based discussion requires every claim to be supported by specific textual evidence (quotes, details, structural choices) and aims to collaboratively construct a deeper interpretation of the author's craft and themes. A casual conversation relies on personal opinion, plot summary, or general feelings without anchoring in the text. A wrong answer (e.g., \"sharing what you liked\") reveals the student conflates discussion with book-club chat, missing the CBSE competency of \"evidence-based reasoning.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Douglas was scared because the big boy threw him in. That's the whole point.\" Identify the two specific discussion-skill gaps this response reveals.",
+     "a": "Gap 1: Reduction of a complex psychological journey (aversion since age 3, terror paralysis, incremental exposure therapy) to a single plot event — failure to trace theme development across the narrative arc. Gap 2: Absence of textual evidence — no reference to sensory details (\"yellow tinge,\" \"paralysed legs,\" \"curtain of life fell\") that make the fear vivid. A wrong answer focusing only on \"he should quote more\" misses the deeper gap: inability to distinguish plot summary from thematic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "During a paired discussion on \"How does the instructor 'build a swimmer' piece by piece?\", Student A says: \"He used a rope and belt.\" Student B responds: \"Yeah, and he made him kick at the side.\" The discussion stalls. Design the exact follow-up question Student A should ask to deepen the analysis, using a talk move from the \"Talking about the text\" section.",
+     "a": "Student A should ask: \"But why does Douglas say 'piece by piece, he built a swimmer' — what does that metaphor suggest about fear that 'teaching me to swim' doesn't?\" This uses the talk move \"probing metaphorical language\" (linked to c12_eng_f_cbse_03_008 Literary Devices) and connects to the textbook's \"Talking about the text\" Q2: \"How did the instructor 'build a swimmer' out of Douglas?\" A weak follow-up like \"What happened next?\" keeps the talk at plot level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two discussion openings for the prompt \"All we have to fear is fear itself\":\nOpening X: \"I agree with Roosevelt. Fear stops us. Douglas proves this.\"\nOpening Y: \"Roosevelt's line appears in the last paragraph as Douglas's epiphany. But notice: Douglas says 'In death there is peace. There is terror only in the fear of death.' That paradox — peace in death, terror in fear — complicates Roosevelt. Let's unpack that.\"\nAnalyze which opening demonstrates higher-order discussion competence and why, referencing two specific CBSE speaking-listening assessment criteria.",
+     "a": "Opening Y is superior. It demonstrates: (1) \"Textual anchoring\" — cites the exact paradox in the final paragraph, not just the Roosevelt quote; (2) \"Interpretive complexity\" — identifies a tension (peace vs terror) that invites exploration, whereas Opening X states a truism. CBSE ASL rubrics reward \"coherence and cohesion\" (Opening Y structures an argument) and \"vocabulary and grammar\" (Opening Y uses \"epiphany,\" \"paradox,\" \"complicates\"). A student choosing X reveals they equate discussion with stating agreement, not literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this peer feedback given after a discussion: \"You talked too much. Let others speak.\" Why is this feedback insufficient for Class 12 competency development? Rewrite it using the \"specific, actionable, text-tied\" framework.",
+     "a": "The feedback is insufficient because it addresses turn-taking quantity, not quality of contribution. It doesn't guide the speaker on *how* to improve their textual reasoning. Rewritten: \"When you said 'Douglas overcame fear by swimming two miles' (3:12), you summarized the plot but didn't analyze the *internal* shift — e.g., his self-talk 'Well, Mr Terror, what can you do to me?' at the lake. Next time, after stating an event, add one line of close reading: 'This shows...' That will move your contribution from summary to analysis.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a discussion prompt for \"Deep Water\" that meets all three CBSE \"Talking about the text\" criteria: (a) invites personal connection, (b) requires textual evidence, (c) extends to a universal theme. Write the prompt and a model opening response (4-5 sentences) demonstrating the target competence.",
+     "a": "Prompt: \"Douglas writes: 'Because I had experienced both the sensation of dying and the terror that fear of it can produce, the will to live somehow grew in intensity.' Recall a moment when a fear you faced revealed something about your own 'will to live.' Anchor your example in a specific sensory detail, like Douglas's 'yellow water' or 'pounding head.'\"\nModel response: \"When I froze on the diving board at 14, I didn't see yellow water — I heard my heartbeat in my ears, just like Douglas's 'pounding in my head.' That sound wasn't panic; it was my body refusing to let me quit. Like Douglas, I realized fear wasn't the enemy — my interpretation of it was. That moment didn't just teach me to dive; it taught me that courage is metabolic, not moral.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_010",
+   "title": "c12_hist_cbse_09_010",
+   "questions": [
+    {
+     "q": "In which year did the American Civil War begin, and what immediate effect did it have on Indian cotton exports to Britain?",
+     "a": "The American Civil War began in 1861. Indian cotton exports to Britain rose from less than 3% of total imports in 1861 to over 90% by 1862. A wrong answer (e.g., 1857 or 1865) reveals confusion with the 1857 Revolt or the war’s end, missing the precise global trigger for the boom.",
+     "self_check": true
+    },
+    {
+     "q": "Why did sahukars willingly give long-term loans (₹100 per acre) to ryots during 1861–1865, but refuse credit after 1865?",
+     "a": "During the boom, sahukars were confident of recovering loans because cotton prices were soaring and export merchants advanced them capital. After 1865, American cotton revived, Indian cotton prices collapsed, and sahukars lost confidence in ryots’ repayment capacity. A wrong answer focusing only on “greed” misses the structural link between global market conditions and local credit availability.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot in the Deccan borrowed ₹500 at 3% monthly interest in 1862. Under the Limitation Law of 1859, the moneylender forced a new bond every three years, rolling over principal + accumulated interest. Calculate the effective principal after 12 years if the rate stays constant. What does this reveal about the debt trap?",
+     "a": "Monthly rate = 3% → annual = 36%. After 3 years: ₹500 × (1.36)³ ≈ ₹500 × 2.52 = ₹1,260 (new principal). After 6 years: ₹1,260 × 2.52 ≈ ₹3,175. After 9 years: ≈ ₹8,000. After 12 years: ≈ ₹20,160. The debt multiplies 40× in 12 years. A wrong calculation (e.g., simple interest) misses the compounding cruelty of the 3-year bond renewal cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ryotwari revenue demand in the Bombay Deccan before and after the cotton boom. Why did the colonial state increase demand by 50–100% in the 1860s settlement despite falling cotton prices?",
+     "a": "The first ryotwari settlement (1820s) was harsh; prices fell after 1832, causing famine and desertion. Demand was moderated in the 1840s. During the boom (1860s), cultivation expanded and prices rose, so the state reassessed land at higher “average rent” (Ricardian principle) and raised demand 50–100%. When prices crashed post-1865, the inflated demand remained. A wrong answer that says “demand was always high” ignores the cyclical reassessment every 30 years and the state’s revenue maximisation motive.",
+     "self_check": true
+    },
+    {
+     "q": "The Deccan Riots Commission (1878) concluded that moneylenders, not government revenue demand, caused the riots. Evaluate this conclusion using evidence from the ryots’ petitions and the commission’s own terms of reference.",
+     "a": "The commission was explicitly asked to judge whether revenue demand caused the revolt — a framing that predetermined the answer. Ryots’ petitions (Source 8, 10) show they blamed both: moneylenders’ forged accounts, refusal of receipts, and deed-of-hire frauds AND the state’s doubled revenue demand when credit dried up. The commission’s conclusion reflects colonial reluctance to admit policy failure. A student who accepts the commission’s verdict uncritically misses the historian’s task of reading official sources against the grain.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-event chronological chain linking the American Civil War to the Deccan Riots of 1875, labeling each event as global, regional, or local in scale.",
+     "a": "1. 1861: American Civil War begins (global) → 2. 1861–65: Cotton exports from India surge to 90% of British imports (regional) → 3. 1862–64: Sahukars advance ₹100/acre; cotton acreage doubles (local) → 4. 1865: War ends; American cotton revives; Indian prices crash (global) → 5. 1866–67: Revenue settlement raises demand 50–100%; sahukars refuse loans (regional) → 6. 1875: Ryots burn debt records in Supa; revolt spreads over 6,500 sq km (local). A chain missing the 1865 price crash or the revenue reassessment fails to connect global trade to local revolt.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

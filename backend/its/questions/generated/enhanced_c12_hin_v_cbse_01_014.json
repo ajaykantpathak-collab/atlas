@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_01_014",
+   "title": "c12_hin_v_cbse_01_014",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between a 'summary answer' and an 'analytical answer' for a prose-based board question?",
+     "a": "A summary answer narrates *what happens* in chronological order (plot retelling). An analytical answer argues *why it matters* by making a claim (Point), backing it with textual proof (Evidence), interpreting that proof (Explanation), and connecting to a larger idea (Link). A wrong answer that says \"analytical answers are longer\" reveals the student confuses length with depth — they think adding more plot details equals analysis, missing that analysis requires *interpretive reasoning*, not more narration.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The father is very sad because his son got a promotion and moved away. This shows the generation gap.\" Identify the missing PEEL component and explain why this answer would score low on a 5-mark CBSE question.",
+     "a": "The answer has a Point (generation gap) but lacks specific Evidence (no scene, dialogue, or action cited) and Explanation (no analysis of *how* the promotion scene reveals the gap). It states the theme as a label without proving it from the text. A wrong answer that says \"it needs more words\" reveals the student thinks elaboration = adding adjectives, not embedding textual proof. The fix: insert \"In the scene where the son reads the promotion letter and says 'legkm baçkij', the father's silence and internal monologue reveal...\" then explain the irony of the phrase.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"Analyze the significance of the phrase 'tks gqvk gksxk' in the story.\" Write only the Point and the first Evidence-Explanation pair.",
+     "a": "Point: The phrase 'tks gqvk gksxk' encapsulates the father's fatalistic resignation and the story's critique of passive acceptance of injustice. Evidence: When the friend (fd'kunk) dies unattended in the hospital and the father asks \"tks gqvk gksxk ls vki oSQls ej x,\\\" the friend replies \"HkkÅ lHkh tu blh ^tks gqvk gksxk* ls ejrs gSa.\" Explanation: The friend's deathbed revelation transforms the phrase from a personal coping mechanism into a societal indictment — it shows how systemic neglect (doctors, officials, family) hides behind fatalism. A wrong answer that quotes the phrase but explains it only as \"the father's philosophy of life\" misses the *ironic reversal* where the victim exposes the phrase's danger.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two draft answers for the question \"How does the setting of the hospital contribute to the story's theme?\"\nDraft A: \"The hospital is dirty and crowded. The friend dies there. The father sees a board 'Mh-vkbZ-tSM-'. This shows neglect.\"\nDraft B: \"The hospital setting acts as a microcosm of institutional apathy. The 'Mh-vkbZ-tSM-' board symbolizes bureaucratic indifference, while the friend's unattended death on a stretcher — ignored by staff building a commercial complex next door — mirrors how society discards the elderly. The father's horrified reaction ('cqjk&lk yxrk') contrasts with the staff's normalization of decay.\"\nAnalyze which draft demonstrates higher-order thinking and why.",
+     "a": "Draft B demonstrates analysis (Bloom's Level 4) because it: (1) interprets setting as *symbol* (microcosm, board as symbol), (2) connects physical details to abstract theme (institutional apathy ↔ societal discarding of elderly), (3) uses contrast (father's horror vs staff's normalization) to deepen the reading. Draft A stays at comprehension (Level 2) — it lists details without interpreting their *function*. A student who picks Draft A as \"better because it's simpler\" reveals they equate clarity with oversimplification, not realizing board rubrics reward *conceptual density* (multiple layers of meaning per sentence).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a 6-mark question on 'fd'kunk's role', a character sketch listing his qualities (kind, loyal, philosophical) with one example each is sufficient.\" Justify your evaluation with reference to CBSE marking scheme expectations for Class 12.",
+     "a": "The claim is false. CBSE 6-mark questions require *critical evaluation of the character's function in the narrative*, not a static trait list. A trait-list answer scores 2-3 marks (knowledge + understanding). To reach 5-6 marks, the answer must analyze: (1) how fd'kunk acts as a *foil* to the son (loyalty vs careerism), (2) how his death *catalyzes* the father's final realization, (3) the *irony* that his \"tks gqvk gksxk\" philosophy is ultimately rejected by the narrative itself. A student who defends the trait-list says \"but the question says 'character sketch'\" — they confuse the *label* with the *demand*; Class 12 \"character sketch\" means *dramatic function analysis*, not adjective collection.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 4-mark question on this chapter that requires comparing two characters' responses to *modernity*, then write the opening Point sentence and one Evidence-Explanation pair for your own question.",
+     "a": "Question: \"Compare the father's and the son's (Hkw\"k.k) response to the forces of modernity (career, urbanization, institutional care) in the story.\" Point: While both characters are swept by modernity, the father experiences it as *loss and alienation* (his world shrinks), whereas the son embraces it as *progress and necessity* (his world expands). Evidence: The son's promotion letter (\"legkm baçkij\") and relocation to a planned township (\"xksy ekosZQV\") represent upward mobility; the father's same events are framed through the \"Ng eaf”kyk bekjr\" (hospital construction) destroying his friend's home and the \"Mh-vkbZ-tSM-\" board mocking institutional care. Explanation: The son's bureaucratic language (\"izs”ksaV&ojtSaV\") and pragmatic \"yaw gh [kk ysa\" reveal internalized capitalist logic; the father's sensory horror (\"mQuh Mªs¯lx xkmu\") shows a pre-modern moral economy where care is personal, not procedural. A weak created question would be \"Who is better, father or son?\" — revealing the student thinks literary analysis is moral judgment, not structural comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

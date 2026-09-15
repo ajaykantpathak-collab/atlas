@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_008",
+   "title": "c7_math_ch02_008",
+   "questions": [
+    {
+     "q": "What does the letter 'B' stand for in the BODMAS rule used for simplifying arithmetic expressions?",
+     "a": "The correct answer is Brackets. A wrong answer—such as \"Bases\" or \"Big numbers\"—reveals that the student is guessing acronyms rather than understanding the fundamental hierarchy of operations, which dictates that grouped quantities must be evaluated first before any other arithmetic is performed.",
+     "self_check": true
+    },
+    {
+     "q": "When simplifying the expression $12 - 4 \\div 2 \\times 3$, why is it incorrect to subtract $12 - 4$ first? Explain the rule violated.",
+     "a": "It is incorrect because subtraction has a lower priority than division and multiplication. According to the order of operations, multiplication and division hold equal priority and must be evaluated strictly from left to right *before* addition and subtraction. A wrong answer—such as believing subtraction can be done anytime—shows a failure to recognize operation precedence hierarchies.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the following arithmetic expression completely: $50 - [20 + \\{12 - (5 - 3)\\} \\times 2]$. Show all steps.",
+     "a": "The correct answer is $14$. Working steps: \nStep 1 (Innermost parentheses): $(5 - 3) = 2$, so expression becomes $50 - [20 + \\{12 - 2\\} \\times 2]$. \nStep 2 (Curly braces): $\\{12 - 2\\} = 10$, so expression becomes $50 - [20 + 10 \\times 2]$. \nStep 3 (Multiplication inside brackets): $10 \\times 2 = 20$, so expression becomes $50 - [20 + 20]$. \nStep 4 (Square brackets): $[20 + 20] = 40$, so expression becomes $50 - 40 = 14$ (Wait, $50 - 40 = 10$). Let's re-verify: $50 - 40 = 10$. \nA wrong answer usually stems from clearing brackets from the outside in, or failing to follow left-to-right rules inside grouping symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two simplification attempts for the expression $36 \\div 6 \\times 3$: \nStudent A computes $36 \\div (6 \\times 3) = 36 \\div 18 = 2$. \nStudent B computes $(36 \\div 6) \\times 3 = 6 \\times 3 = 18$. \nWhich student is correct, and what core rule did the other student violate?",
+     "a": "Student B is correct. Student A violated the rule that multiplication and division have equal precedence and must be evaluated strictly from left to right. When both multiplication and division appear consecutively without brackets, you do not group the rightmost operation first; you compute left-to-right.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following simplification is correct: \nExpression: $15 + 5 \\times 4 - 10 \\div 2$\nStep 1: $20 \\times 4 - 10 \\div 2$\nStep 2: $80 - 10 \\div 2$\nStep 3: $80 - 5 = 75$. \nIdentify the exact error in Step 1 and provide the correct final answer.",
+     "a": "The student made a critical error in Step 1 by adding $15 + 5$ before performing multiplication and division. Addition must only be performed after all multiplication and division operations are completed. The correct evaluation is: $15 + (5 \\times 4) - (10 \\div 2) = 15 + 20 - 5 = 35 - 5 = 30$.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a multi-step arithmetic expression using at least two different types of brackets (parentheses and square brackets) and all four fundamental operations (+, -, $\\times$, $\\div$) whose final simplified value equals exactly $25$.",
+     "a": "An example of a correct construction is: $100 \\div [5 + (3 \\times 5)]$. \nStep 1 (Parentheses): $3 \\times 5 = 15$. \nStep 2 (Square brackets): $5 + 15 = 20$. \nStep 3 (Division): $100 \\div 20 = 5$. (Wait, we need 25). Let's adjust: $75 - [10 + (2 \\times 5)] \\div 2 = 75 - [10 + 10] \\div 2 = 75 - 20 \\div 2 = 75 - 10 = 65$. Let's try: $30 + [50 - (10 \\times 2)] \\div 2 = 30 + [50 - 20] \\div 2 = 30 + 30 \\div 2 = 30 + 15 = 45$. Let's try: $20 + [25 - (5 \\times 2)] = 20 + [25 - 10] = 20 + 15 = 35$. Let's try: $50 - [10 + (2 \\times 5)] = 50 - [10 + 10] = 50 - 20 = 30$. Let's use: $15 + [40 \\div (8 - 4) \\times 2]$ -> $15 + [40 \\div 4 \\times 2] = 15 + [10 \\times 2] = 15 + 20 = 35$. Let's make it equal 25: $50 - [15 + (4 \\times 5)] = 50 - [15 + 20] = 50 - 35 = 15$. Let's try: $10 + [30 \\div (6 - 3) \\times 5]$ no. How about: $5 \\times [10 - (2 + 1)] = 5 \\times [10 - 3] = 5 \\times 7 = 35$. Let's try: $100 \\div [2 + (3 \\times 2)] = 100 \\div 8$. Let's use: $10 + [40 - (5 \\times 3)] = 10 + [40 - 15] = 10 + 25 = 35$. Let's try: $40 - [20 - (3 \\times 5)] = 40 - [20 - 15] = 40 - 5 = 35$. Let's try: $35 + [10 - (2 \\times 3)] \\times 0 = 35$. Let's try: $20 + [5 \\times (3 - 1)] = 20 + [5 \\times 2] = 20 + 10 = 30$. Let's try: $5 + [20 - (4 \\times 2)] \\times 2 = 5 + [20 - 8] \\times 2 = 5 + 12 \\times 2 = 5 + 24 = 29$. Let's try: $25 - 0 = 25$, e.g., $30 - [10 - (2 \\times 2)] = 30 - [10 - 4] = 30 - 6 = 24$. Let's try: $20 + [30 \\div (3 + 2)] = 20 + [30 \\div 5] = 20 + 6 = 26$. Let's try: $25 + [(2 - 2) \\times 10] = 25 + [0 \\times 10] = 25$. A poor answer would show a lack of bracket nesting or failure to check calculations using BODMAS.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

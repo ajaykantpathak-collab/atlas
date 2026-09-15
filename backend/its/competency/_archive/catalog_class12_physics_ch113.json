@@ -1,0 +1,496 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 113,
+ "chapter_title": "Nuclei",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\Biology_MS_EN.txt",
+ "concepts": [
+  {
+   "id": "jeph.13.1",
+   "title": "Composition of the Nucleus",
+   "section": "13.1 Introduction / 13.2 Atomic Masses and Composition of Nucleus",
+   "definition": "The nucleus of an atom is composed of protons and neutrons, collectively called nucleons. The number of protons (Z) equals the atomic number, and the number of neutrons (N) together with protons gives the mass number A = Z + N. A nuclide is written as (A,Z)X.",
+   "formula": "A = Z + N",
+   "key_idea": "Nucleons (protons + neutrons) determine the mass and identity of a nucleus; isotopes share the same Z but differ in N.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given atomic number Z and mass number A, find the number of neutrons N.",
+    "Identify the number of protons and neutrons in a given nuclide notation (A,Z)X.",
+    "Determine which of two nuclides are isotopes based on Z and A.",
+    "Find the total number of nucleons given a nuclide symbol.",
+    "Given the number of neutrons and protons, write the nuclide notation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the atomic number Z (number of protons) and the mass number A from the nuclide notation.",
+     "explain": "The lower-left subscript is Z and the upper-left superscript is A in the notation (A,Z)X."
+    },
+    {
+     "step": 2,
+     "action": "Compute the number of neutrons using N = A - Z.",
+     "explain": "Since the mass number is the sum of protons and neutrons, subtracting Z from A gives the neutron count."
+    },
+    {
+     "step": 3,
+     "action": "State the composition: Z protons, N neutrons, and A total nucleons.",
+     "explain": "This confirms the nucleon composition and allows identification of isotopes (same Z, different A)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many neutrons are there in the nuclide (14,6)C?",
+     "solution": "Z = 6, A = 14. N = A - Z = 14 - 6 = 8.",
+     "answer": "8 neutrons"
+    },
+    {
+     "question": "The nuclide (238,92)U has how many protons and neutrons?",
+     "solution": "Z = 92 protons, A = 238. N = 238 - 92 = 146 neutrons.",
+     "answer": "92 protons and 146 neutrons"
+    },
+    {
+     "question": "Are (12,6)C and (14,6)C isotopes?",
+     "solution": "Both have Z = 6 but different A (12 and 14). Same atomic number, different mass number means they are isotopes.",
+     "answer": "Yes, they are isotopes of carbon."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the number of neutrons in (19,9)F.",
+     "type": "compute"
+    },
+    {
+     "question": "Write the nuclide notation for an atom with 11 protons and 12 neutrons.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.2",
+   "title": "Atomic Mass Unit and Mass-Energy Relation",
+   "section": "13.3 Atomic Mass Unit and Mass-Energy Relation",
+   "definition": "The atomic mass unit (u) is defined as 1/12th of the mass of a carbon-12 atom. 1 u = 1.6605 x 10^-27 kg. Einstein's mass-energy equivalence states that mass can be converted to energy via E = mc^2, where 1 u corresponds to 931.5 MeV of energy.",
+   "formula": "E = m c^2 ; 1 u = 931.5 MeV",
+   "key_idea": "Mass and energy are interchangeable; nuclear energies are conveniently expressed in MeV using the conversion 1 u = 931.5 MeV.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Convert a given mass in atomic mass units (u) to energy in MeV.",
+    "Convert a mass defect in kg to energy in joules using E = mc^2.",
+    "Given a mass in u, find the equivalent energy in MeV.",
+    "Convert an energy in MeV to mass in u.",
+    "Compute the rest mass energy of a particle given its mass in u."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mass m in atomic mass units (u) or kilograms.",
+     "explain": "The mass must be expressed in a consistent unit before applying the mass-energy relation.",
+     "compute": "m = given value in u"
+    },
+    {
+     "step": 2,
+     "action": "Apply the conversion 1 u = 931.5 MeV (or E = mc^2 with c = 3 x 10^8 m/s for SI units).",
+     "explain": "This converts mass directly to the equivalent rest energy.",
+     "compute": "E (MeV) = m (u) x 931.5"
+    },
+    {
+     "step": 3,
+     "action": "Report the energy in MeV (or joules).",
+     "explain": "The result is the rest mass energy corresponding to the given mass.",
+     "compute": "E = m x 931.5 MeV"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the energy equivalent of 1 u in MeV?",
+     "solution": "Using E = mc^2 with 1 u = 1.6605 x 10^-27 kg and c = 3 x 10^8 m/s, E = 1.6605e-27 x (3e8)^2 J = 1.4924e-10 J. Converting to MeV (1 MeV = 1.602e-13 J): E = 1.4924e-10 / 1.602e-13 = 931.5 MeV.",
+     "answer": "1 u = 931.5 MeV"
+    },
+    {
+     "question": "Find the energy equivalent of a mass of 0.2 u.",
+     "solution": "E = 0.2 x 931.5 MeV = 186.3 MeV.",
+     "answer": "186.3 MeV"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Convert a mass of 2 u into energy in MeV.",
+     "type": "compute"
+    },
+    {
+     "question": "What mass in u corresponds to an energy of 465.75 MeV?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.3",
+   "title": "Size of the Nucleus",
+   "section": "13.4 Size of the Nucleus",
+   "definition": "The radius R of a nucleus of mass number A is given by R = R0 * A^(1/3), where R0 is approximately 1.2 fm (1.2 x 10^-15 m). The nuclear volume is proportional to A, implying a constant nuclear density independent of A.",
+   "formula": "R = R0 * A^(1/3), R0 = 1.2 fm",
+   "key_idea": "Nuclear radius scales with the cube root of mass number, leading to a nearly constant nuclear density for all nuclei.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given the mass number A, compute the nuclear radius R.",
+    "Given two nuclei with mass numbers A1 and A2, find the ratio of their radii.",
+    "Compute the nuclear volume given A and verify proportionality to A.",
+    "Estimate the nuclear density and show it is constant.",
+    "Find the mass number A given the nuclear radius R."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mass number A and the constant R0 = 1.2 fm.",
+     "explain": "The empirical radius formula uses the cube root of the mass number.",
+     "compute": "R0 = 1.2 fm, A = given value"
+    },
+    {
+     "step": 2,
+     "action": "Compute A^(1/3) and multiply by R0.",
+     "explain": "The cube root accounts for the roughly constant density and volume scaling with A.",
+     "compute": "R = R0 * A^(1/3)"
+    },
+    {
+     "step": 3,
+     "action": "Report the radius in fm or meters.",
+     "explain": "The result gives the approximate nuclear radius for the given mass number.",
+     "compute": "R = 1.2 * A^(1/3) fm"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Estimate the radius of a nucleus with A = 27.",
+     "solution": "R = R0 * A^(1/3) = 1.2 * (27)^(1/3) = 1.2 * 3 = 3.6 fm.",
+     "answer": "3.6 fm"
+    },
+    {
+     "question": "Find the ratio of the radii of nuclei with A = 8 and A = 64.",
+     "solution": "R1/R2 = (A1/A2)^(1/3) = (8/64)^(1/3) = (1/8)^(1/3) = 1/2.",
+     "answer": "1 : 2"
+    },
+    {
+     "question": "Estimate the radius of a nucleus with A = 216.",
+     "solution": "R = 1.2 * (216)^(1/3) = 1.2 * 6 = 7.2 fm.",
+     "answer": "7.2 fm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the nuclear radius for A = 125.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the ratio of nuclear radii for A = 27 and A = 125.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.4",
+   "title": "Nuclear Force",
+   "section": "13.5 Nuclear Force",
+   "definition": "The nuclear force is the strong attractive force that binds nucleons together inside the nucleus. It is short-ranged (a few fm), charge-independent, stronger than the Coulomb force at short distances, and does not depend on the electric charge of the nucleons.",
+   "formula": "Range ~ a few fm (short range)",
+   "key_idea": "Nuclear force is a short-range, charge-independent, strong attractive force that overcomes Coulomb repulsion between protons to bind the nucleus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the properties of the nuclear force.",
+    "Explain why the nuclear force is called charge-independent.",
+    "Compare the nuclear force with the Coulomb force in terms of range and strength.",
+    "Justify why nuclei do not collapse despite the strong attractive nuclear force.",
+    "Explain the short-range nature of the nuclear force and its consequence."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the key properties of the nuclear force: short range, strong, charge-independent, attractive.",
+     "explain": "These properties distinguish the nuclear force from gravitational and electromagnetic forces."
+    },
+    {
+     "step": 2,
+     "action": "Compare the nuclear force with the Coulomb force acting between protons.",
+     "explain": "At short distances the nuclear force dominates the Coulomb repulsion, ensuring nuclear stability."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how these properties explain nuclear binding and stability.",
+     "explain": "The short range and saturation of the force prevent collapse and explain why binding energy per nucleon is roughly constant."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the nuclear force said to be charge-independent?",
+     "solution": "The nuclear force between two nucleons is approximately the same whether the pair is proton-proton, neutron-neutron, or proton-neutron. Hence it does not depend on electric charge.",
+     "answer": "The nuclear force acts equally between all nucleon pairs regardless of charge."
+    },
+    {
+     "question": "How does the nuclear force overcome Coulomb repulsion in a nucleus?",
+     "solution": "The nuclear force is much stronger than the Coulomb force at short distances (a few fm) inside the nucleus, so it dominates and binds the nucleons together despite proton-proton repulsion.",
+     "answer": "The nuclear force is far stronger than Coulomb repulsion at nuclear distances."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any three properties of the nuclear force.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why the nuclear force is short-ranged and what this implies for large nuclei.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.5",
+   "title": "Mass-Energy and Nuclear Binding Energy",
+   "section": "13.6 Mass-Energy and Nuclear Binding Energy",
+   "definition": "The binding energy of a nucleus is the energy required to separate its nucleons, equal to the mass defect times c^2. The mass defect is Delta_m = [Z*mp + N*mn - M_nucleus], and the binding energy is B = Delta_m * c^2, often expressed as B = Delta_m (in u) * 931.5 MeV.",
+   "formula": "B = Delta_m * c^2 ; Delta_m = Z*mp + N*mn - M",
+   "key_idea": "The mass defect of a nucleus, converted via E = mc^2, gives the binding energy that holds the nucleus together.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given the masses of protons, neutrons, and the nucleus, compute the mass defect.",
+    "Compute the binding energy from the mass defect in u.",
+    "Find the binding energy per nucleon given total binding energy and A.",
+    "Determine the energy released when nucleons combine to form a nucleus.",
+    "Compare the binding energies of two nuclei given their mass defects."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the mass defect Delta_m = Z*mp + N*mn - M_nucleus.",
+     "explain": "The mass defect is the difference between the sum of individual nucleon masses and the actual nuclear mass.",
+     "compute": "Delta_m = Z*mp + N*mn - M"
+    },
+    {
+     "step": 2,
+     "action": "Convert the mass defect to energy using B = Delta_m * 931.5 MeV (if Delta_m is in u).",
+     "explain": "Using the mass-energy equivalence, the mass defect gives the binding energy.",
+     "compute": "B = Delta_m * 931.5 MeV"
+    },
+    {
+     "step": 3,
+     "action": "If required, compute binding energy per nucleon as B/A.",
+     "explain": "Binding energy per nucleon indicates the stability of the nucleus.",
+     "compute": "B/A = B / A MeV"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The mass of a nucleus is 39.962591 u and it has Z = 20, N = 20. Given mp = 1.007825 u and mn = 1.008665 u, find the mass defect and binding energy.",
+     "solution": "Delta_m = 20*1.007825 + 20*1.008665 - 39.962591 = 20.1565 + 20.1733 - 39.962591 = 0.367209 u. B = 0.367209 * 931.5 = 342.05 MeV.",
+     "answer": "Mass defect = 0.367 u, Binding energy = 342.05 MeV"
+    },
+    {
+     "question": "A nucleus has a binding energy of 342 MeV and A = 40. Find the binding energy per nucleon.",
+     "solution": "B/A = 342 / 40 = 8.55 MeV per nucleon.",
+     "answer": "8.55 MeV/nucleon"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the binding energy for a nucleus with mass defect 0.1 u.",
+     "type": "compute"
+    },
+    {
+     "question": "Given total binding energy 128 MeV and A = 16, find binding energy per nucleon.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.6",
+   "title": "Binding Energy Per Nucleon Curve",
+   "section": "13.6.1 Binding Energy per Nucleon Curve",
+   "definition": "A plot of binding energy per nucleon (B/A) versus mass number A shows that B/A rises sharply up to A ~ 8, peaks around A = 56 (iron, ~8.8 MeV/nucleon), and gradually decreases for heavier nuclei. Nuclei near the peak are the most tightly bound and most stable.",
+   "formula": "B/A peaks at A ~ 56 (Fe) ~ 8.8 MeV/nucleon",
+   "key_idea": "The binding energy per nucleon curve explains nuclear stability and the energy release in both fission (heavy nuclei splitting) and fusion (light nuclei combining).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the shape of the binding energy per nucleon curve.",
+    "Identify the most stable nucleus based on the binding energy curve.",
+    "Justify why energy is released in nuclear fission using the curve.",
+    "Justify why energy is released in nuclear fusion using the curve.",
+    "Compare the binding energy per nucleon of light, medium, and heavy nuclei."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall that B/A rises for light nuclei, peaks around A = 56 (iron), and falls for heavy nuclei.",
+     "explain": "The curve indicates that medium-mass nuclei are the most tightly bound."
+    },
+    {
+     "step": 2,
+     "action": "Relate the trend to energy release: fission of heavy nuclei and fusion of light nuclei both move products toward higher B/A.",
+     "explain": "An increase in B/A means mass is converted to energy, which is released."
+    },
+    {
+     "step": 3,
+     "action": "Conclude which nuclei are most stable and why fission/fusion release energy.",
+     "explain": "Nuclei near the peak (A ~ 56) are most stable; energy is released when nuclei move toward this peak."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which nucleus is the most stable according to the binding energy per nucleon curve?",
+     "solution": "The binding energy per nucleon is maximum (~8.8 MeV/nucleon) around A = 56, which corresponds to iron (Fe-56).",
+     "answer": "Iron-56 (A = 56) is the most stable nucleus."
+    },
+    {
+     "question": "Why is energy released in nuclear fission of a heavy nucleus?",
+     "solution": "In fission, a heavy nucleus (low B/A) splits into medium-mass fragments (higher B/A). The increase in binding energy per nucleon results in a release of energy equal to the difference in total binding energy.",
+     "answer": "Energy is released because the fragments have higher binding energy per nucleon than the original heavy nucleus."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why nuclear fusion of light nuclei releases energy with reference to the binding energy curve.",
+     "type": "verify_property"
+    },
+    {
+     "question": "State the approximate value of the peak binding energy per nucleon and the corresponding mass number.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.7",
+   "title": "Radioactivity - Alpha, Beta, Gamma Decay",
+   "section": "13.7 Radioactivity",
+   "definition": "Radioactivity is the spontaneous disintegration of unstable nuclei by emitting radiation. In alpha decay the nucleus emits a helium nucleus (4,2)He, reducing A by 4 and Z by 2. In beta decay a neutron transforms into a proton emitting an electron (beta-) and an antineutrino, increasing Z by 1 with A unchanged. Gamma decay emits high-energy photons with no change in A or Z.",
+   "formula": "Alpha: (A,Z)X -> (A-4, Z-2)Y + (4,2)He ; Beta-: (A,Z)X -> (A, Z+1)Y + e- + anti-nu ; Gamma: (A,Z)X* -> (A,Z)X + gamma",
+   "key_idea": "Radioactive decay changes the composition or energy state of a nucleus; alpha decay changes both A and Z, beta decay changes Z only, and gamma decay only releases energy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Write the nuclear equation for the alpha decay of a given nuclide.",
+    "Write the nuclear equation for the beta-minus decay of a given nuclide.",
+    "Identify the daughter nucleus after an alpha or beta decay.",
+    "Explain the nature and properties of gamma decay.",
+    "Determine the change in A and Z for a given decay process."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of decay (alpha, beta, or gamma) and the parent nuclide (A, Z).",
+     "explain": "The decay type determines how A and Z change in the daughter nucleus."
+    },
+    {
+     "step": 2,
+     "action": "Apply the conservation of mass number and atomic number to find the daughter nuclide.",
+     "explain": "Alpha: A decreases by 4, Z by 2; Beta-: Z increases by 1, A unchanged; Gamma: no change in A or Z."
+    },
+    {
+     "step": 3,
+     "action": "Write the complete nuclear reaction equation.",
+     "explain": "The balanced equation shows the parent, daughter, and emitted particles conserving A and Z."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the alpha decay equation of (238,92)U.",
+     "solution": "Alpha decay: (238,92)U -> (234,90)Th + (4,2)He. A: 238 = 234 + 4, Z: 92 = 90 + 2.",
+     "answer": "(238,92)U -> (234,90)Th + (4,2)He"
+    },
+    {
+     "question": "Write the beta-minus decay equation of (14,6)C.",
+     "solution": "Beta-minus decay: (14,6)C -> (14,7)N + e- + anti-nu. A unchanged, Z increases by 1.",
+     "answer": "(14,6)C -> (14,7)N + e- + anti-nu"
+    },
+    {
+     "question": "What happens during gamma decay of an excited nucleus (A,Z)X*?",
+     "solution": "Gamma decay: (A,Z)X* -> (A,Z)X + gamma. The nucleus emits a photon and loses energy without changing A or Z.",
+     "answer": "(A,Z)X* -> (A,Z)X + gamma (no change in A or Z)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the alpha decay equation for (226,88)Ra.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Write the beta-minus decay equation for (32,15)P.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.13.8",
+   "title": "Law of Radioactive Decay, Half-life and Mean Life",
+   "section": "13.7.1 Law of Radioactive Decay / 13.7.2 Half-life and Mean Life",
+   "definition": "The number of nuclei undergoing decay per unit time is proportional to the number of nuclei present: dN/dt = -lambda*N. Integrating gives N(t) = N0 * e^(-lambda*t), where lambda is the decay constant. The half-life T = 0.693/lambda is the time for half the nuclei to decay, and the mean life tau = 1/lambda is the average lifetime of a nucleus.",
+   "formula": "N = N0 * e^(-lambda*t) ; T = 0.693/lambda ; tau = 1/lambda ; T = 0.693 * tau",
+   "key_idea": "Radioactive decay follows an exponential law characterized by the decay constant; half-life and mean life are related measures of the decay rate.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given N0, lambda, and t, compute the number of remaining nuclei N(t).",
+    "Given the half-life, compute the decay constant lambda.",
+    "Given the decay constant, compute the mean life tau.",
+    "Find the fraction of nuclei remaining after n half-lives.",
+    "Compute the half-life given the decay constant or mean life."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the known quantities: N0, lambda (or half-life T), and time t.",
+     "explain": "The decay law requires the decay constant and elapsed time to find the remaining nuclei.",
+     "compute": "lambda = 0.693 / T (if T is given)"
+    },
+    {
+     "step": 2,
+     "action": "Apply the decay law N(t) = N0 * e^(-lambda*t).",
+     "explain": "The exponential factor accounts for the constant probability of decay per nucleus per unit time.",
+     "compute": "N = N0 * e^(-lambda*t)"
+    },
+    {
+     "step": 3,
+     "action": "If asked, compute half-life T = 0.693/lambda or mean life tau = 1/lambda.",
+     "explain": "Half-life is the time to reduce N to N0/2; mean life is the average lifetime of a nucleus.",
+     "compute": "T = 0.693/lambda, tau = 1/lambda"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A radioactive sample has a half-life of 5 years. What is its decay constant?",
+     "solution": "lambda = 0.693 / T = 0.693 / 5 = 0.1386 per year.",
+     "answer": "lambda = 0.1386 per year"
+    },
+    {
+     "question": "The decay constant of a substance is 0.01 per second. Find its half-life and mean life.",
+     "solution": "T = 0.693 / lambda = 0.693 / 0.01 = 69.3 s. tau = 1 / lambda = 1 / 0.01 = 100 s.",
+     "answer": "Half-life = 69.3 s, Mean life = 100 s"
+    },
+    {
+     "question": "A sample has N0 = 1000 nuclei and lambda = 0.02 per day. How many remain after 10 days?",
+     "solution": "N = N0 * e^(-lambda*t) = 1000 * e^(-0.02*10) = 1000 * e^(-0.2) = 1000 * 0.8187 = 818.7.",
+     "answer": "Approximately 819 nuclei"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Given a half-life of 10 s, compute the decay constant and mean life.",
+     "type": "compute"
+    },
+    {
+     "question": "A sample of 2000 nuclei decays with lambda = 0.05 per hour. Find the number remaining after 20 hours.",
+     "type": "compute"
+    },
+    {
+     "question": "How many half-lives are required for a sample to decay to 1/8 of its initial amount?",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

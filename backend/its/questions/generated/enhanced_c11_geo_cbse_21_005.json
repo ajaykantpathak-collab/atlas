@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_005",
+   "title": "c11_geo_cbse_21_005",
+   "questions": [
+    {
+     "q": "What are the two main categories of airports in India based on the nature of flights they handle?",
+     "a": "The two main categories are domestic airports (handling flights within India) and international airports (handling flights to/from other countries). Some airports function as both. A wrong answer (e.g., classifying by ownership like public/private) reveals confusion between administrative and functional classification.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Northeastern region of India have a higher density of airports per unit area compared to the Deccan Plateau, despite lower population density?",
+     "a": "The Northeastern region's rugged terrain, dense forests, and international borders make surface transport difficult, necessitating air connectivity for strategic and developmental reasons. The Deccan Plateau has relatively flat terrain and well-developed road/rail networks. A wrong answer attributing it solely to tourism or economy misses the strategic and physical geography factors.",
+     "self_check": true
+    },
+    {
+     "q": "Using the map of India's major airports, identify the city that serves as the primary international gateway for South India and explain its locational advantage.",
+     "a": "Chennai (or Bengaluru) serves as a primary international gateway for South India. Locational advantage: coastal location with long runway capability, proximity to Southeast Asia, and major industrial/IT hub generating high passenger and cargo demand. Steps: 1) Locate international airports in South India (Chennai, Bengaluru, Hyderabad, Kochi, Thiruvananthapuram). 2) Compare their international passenger traffic and cargo volume. 3) Analyze geographic position: Chennai's coastal site allows direct routes over Bay of Bengal to Southeast Asia. 4) Conclude Chennai is the busiest international gateway in South India. A wrong answer picking an inland airport like Bengaluru without justifying its hub status shows inability to link geography with function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the domestic air route network of India with its railway network. What does the difference in their spatial patterns reveal about the relative advantages of each mode?",
+     "a": "The railway network is dense in the Northern Plains and Peninsular Plateau, following flat terrain and high population corridors. The domestic air network is hub-and-spoke centered on metros, with spokes to remote/hilly areas (Northeast, J&K, islands). This reveals railways excel in high-volume, short-to-medium distance transport over accessible terrain, while air transport bridges difficult terrain and long distances quickly. A wrong answer stating both serve the same corridors fails to recognize complementary roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the UDAN (Ude Desh ka Aam Nagrik) scheme in reducing regional disparity in air connectivity. Provide two geographical arguments.",
+     "a": "UDAN has improved connectivity to tier-2/3 cities and remote areas (e.g., airports in Arunachal, Himachal, Odisha) by subsidizing routes and developing underserved airports. However, its effectiveness is limited by physical constraints (weather in Himalayas, short runways) and economic viability (low demand on some routes). Two geographical arguments: 1) It targets regions with high relief and poor surface access, addressing physical isolation. 2) It leverages existing airstrips in strategically important border areas. A wrong answer focusing only on number of new routes without analyzing terrain or demand shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new domestic airport in a currently unserved district of India. Justify the location using at least three geographical factors (physical, economic, strategic).",
+     "a": "Example: Propose an airport in Tawang district, Arunachal Pradesh. Factors: 1) Physical: Mountainous terrain makes road access slow and unreliable; air transport reduces travel time from days to hours. 2) Strategic: Proximity to China border requires rapid military/civilian mobility. 3) Economic: Tourism potential (monasteries, scenic beauty) and local horticulture (apples, kiwi) need quick market access. A good answer links specific local geography to national priorities. A poor answer picks a generic location without site-specific reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 108,
+  "chapter_title": "The Luncheon",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww108.1.1",
+      "title": "The Flattering Letter and the Fatal Invitation",
+      "section": "1",
+      "definition": "A young, impecunious writer receives a fan letter from a lady praising his work; flattered, he replies, and she invites herself to a luncheon at Foyot's -- a restaurant of the wealthy -- saying she takes nothing for lunch. Too young to refuse a reader, he budgets the month's rent on the meal.",
+      "formula": "",
+      "key_idea": "Vanity accepts what sense would refuse -- one lunch ordered against a whole month's rent.",
+      "textbook_ref": "keww108.txt opening sections (fan letter from the lady, foyot's restaurant, she takes nothing for lunch, the writer's tight budget)",
+      "question_patterns": [
+        "why does the writer agree to lunch with the lady",
+        "in class 11 the luncheon: why is foyot's an expensive choice",
+        "what did the lady say about her lunching habits",
+        "how much could the writer afford for the meal",
+        "describe the letter that began the whole episode",
+        "what does the story suggest about the writer's vanity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "watch the flattery work",
+          "explain": "Her praise of his book touches his young vanity -- the wound he cannot resist."
+        },
+        {
+          "step": 2,
+          "action": "note the signal ignored",
+          "explain": "She proposes Foyot's, the luxury restaurant, while insisting she never eats luncheon -- a warning unheeded."
+        },
+        {
+          "step": 3,
+          "action": "count the budget",
+          "explain": "He sets aside what should carry him through the month -- the story's stakes are fixed at the table."
+        }
+      ]
+    },
+    {
+      "id": "keww108.1.2",
+      "title": "Ordering While Professing Abstinence",
+      "section": "1",
+      "definition": "The lady declares she never eats more than one thing, and then orders salmon, caviare, asparagus, a peach and champagne and coffee -- while the guest confines himself to the cheapest mutton chop and water. Each new order widens the gap between her profession and her plate, and his panic grows with the bill.",
+      "formula": "",
+      "key_idea": "One thing for lunch -- said while ordering everything else on the menu.",
+      "textbook_ref": "keww108.txt ordering scenes (salmon, caviare, asparagus, peach, champagne coffee, mutton chop and water for the narrator, growing bill and panic)",
+      "question_patterns": [
+        "list the things the lady orders during the luncheon",
+        "in class 11 the luncheon: what does the narrator order for himself and why",
+        "how does the gap between the lady's words and actions create humour",
+        "why does the narrator panic as the meal progresses",
+        "comment on the lady's statement that she never eats more than one thing",
+        "trace the rising bill through the courses of the meal"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "collect her orders",
+          "explain": "Salmon with caviare, asparagus, peach and champagne-coffee arrive course by course, each beyond his means."
+        },
+        {
+          "step": 2,
+          "action": "collect his denials",
+          "explain": "He answers each course by ordering the cheapest chop and water, his heart sinking as the bill climbs."
+        },
+        {
+          "step": 3,
+          "action": "savour the irony",
+          "explain": "Her repeated claims of abstinence against her growing appetite is Maugham's sustained comic irony."
+        }
+      ]
+    },
+    {
+      "id": "keww108.1.3",
+      "title": "Revenge at Last: Remembering the Luncheon",
+      "section": "1",
+      "definition": "The writer leaves with a whole month before him and no money. Years later, meeting her at a play, now enormous in girth, he has his revenge at last: when she names fish as her only food, he asks, with perfect dryness, whether she remembers the fatal luncheon.",
+      "formula": "",
+      "key_idea": "Revenge served without a word -- time itself turns her 'one thing' into the story's final laugh.",
+      "textbook_ref": "keww108.txt ending sections (meeting at the play, her enormous size, fish as her only food, the narrator's retort, revenge motif)",
+      "question_patterns": [
+        "how does the narrator get his revenge at the end",
+        "in class 11 the luncheon: why is the last line of the story amusing",
+        "what has happened to the lady when the writer meets her again",
+        "explain the significance of the word fish in the ending",
+        "is the narrator's revenge justified discuss",
+        "comment on maugham's use of irony throughout the story"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "stage the reunion",
+          "explain": "Years on, at a first night, the vastly enlarged lady greets him warmly as her discovery."
+        },
+        {
+          "step": 2,
+          "action": "set the trap",
+          "explain": "She repeats her old line -- that she takes nothing but one thing, fish."
+        },
+        {
+          "step": 3,
+          "action": "spring the punchline",
+          "explain": "He asks whether she remembers that luncheon -- and her appetite answers what she will not."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww108.txt ordering scenes",
+      "concept": "keww108.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Show how Maugham builds the humour of the luncheon scene through the contrast between speech and action.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "quote the speech",
+          "explain": "The lady insists she never eats anything for luncheon, or just one small thing."
+        },
+        {
+          "step": 2,
+          "action": "quote the action",
+          "explain": "Each insistence is followed by another expensive order -- salmon, caviare, asparagus, peach."
+        },
+        {
+          "step": 3,
+          "action": "state the technique",
+          "explain": "The comedy lives in the widening gap between her words and her plate, with the narrator's panic as chorus."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww108.txt ending sections",
+      "concept": "keww108.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the narrator not remind the lady of the unpaid luncheon when they meet again?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note his restraint",
+          "explain": "He never mentions the debt directly -- a direct accusation would cost him dignity, not her."
+        },
+        {
+          "step": 2,
+          "action": "note his real revenge",
+          "explain": "He waits for her own words -- fish, her only food -- to summon the memory for both of them."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The wittiest revenge needs no accusation; her figure and her phrase together settle the account."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww108.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why did the writer agree to the luncheon at Foyot's?",
+        "Describe the lady's orders during the luncheon.",
+        "How does Maugham create humour in the story?",
+        "Explain the significance of the ending of The Luncheon.",
+        "Sketch the character of the lady in the story.",
+        "Discuss the theme of vanity in the chapter."
+      ]
+    }
+  ]
+}

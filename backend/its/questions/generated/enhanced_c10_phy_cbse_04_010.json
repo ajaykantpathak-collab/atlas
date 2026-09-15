@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_010",
+   "title": "c10_phy_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the lens formula for a thin spherical lens using the Cartesian sign convention. Define each symbol and its SI unit.",
+     "a": "The lens formula is 1/f = 1/v - 1/u, where f = focal length (metre, m), v = image distance from optical centre (metre, m), u = object distance from optical centre (metre, m). All distances measured from the optical centre; positive along the direction of incident light, negative opposite. A wrong answer (e.g., writing 1/f = 1/v + 1/u or using mirror sign convention) reveals confusion between lens and mirror formulas or ignorance of the Cartesian sign convention for lenses.",
+     "self_check": true
+    },
+    {
+     "q": "A convex lens of focal length 10 cm forms a real image of an object placed 15 cm from the lens. Without calculating, explain whether the image distance will be greater than, equal to, or less than 15 cm, and whether the image will be magnified or diminished.",
+     "a": "For a convex lens with object between f and 2f (10 cm < 15 cm < 20 cm), the image forms beyond 2f, so v > 2f = 20 cm, which is greater than u = 15 cm. Since v > u, magnification m = v/u > 1, so the image is magnified. A wrong answer (e.g., saying v < u or image diminished) reveals the student cannot link object position relative to focal points to image characteristics qualitatively — a key board exam skill for ray diagram interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "An object 5 cm tall is placed 30 cm from a convex lens of focal length 10 cm. Calculate the image distance, magnification, and image height. State the nature of the image.",
+     "a": "**Given:** u = -30 cm (object distance, negative by sign convention), f = +10 cm (convex lens), h = +5 cm (object height, positive upward).  \n**Step 1:** Lens formula: 1/f = 1/v - 1/u → 1/10 = 1/v - 1/(-30) = 1/v + 1/30  \n**Step 2:** 1/v = 1/10 - 1/30 = (3 - 1)/30 = 2/30 = 1/15  \n**Step 3:** v = +15 cm (positive → real image on opposite side)  \n**Step 4:** Magnification m = v/u = 15/(-30) = -0.5 (negative → inverted image)  \n**Step 5:** Image height h' = m × h = (-0.5) × 5 = -2.5 cm (negative → inverted, magnitude 2.5 cm)  \n**Answer:** v = +15 cm, m = -0.5, h' = -2.5 cm; image is real, inverted, diminished.  \nA wrong answer with v = -15 cm or m = +0.5 reveals sign convention errors: forgetting u is negative, or using m = -v/u (mirror formula) instead of m = v/u.",
+     "self_check": true
+    },
+    {
+     "q": "A concave lens of focal length 15 cm forms an image 10 cm from the lens on the same side as the object. Find the object distance and magnification. Compare the image size to the object size.",
+     "a": "**Given:** f = -15 cm (concave lens), v = -10 cm (virtual image, same side as object).  \n**Step 1:** 1/f = 1/v - 1/u → 1/(-15) = 1/(-10) - 1/u  \n**Step 2:** -1/15 = -1/10 - 1/u → 1/u = -1/10 + 1/15 = (-3 + 2)/30 = -1/30  \n**Step 3:** u = -30 cm (object on incident light side, as expected)  \n**Step 4:** m = v/u = (-10)/(-30) = +1/3 ≈ +0.33 (positive → erect, virtual)  \n**Step 5:** |m| = 1/3 < 1 → image is diminished (one-third object size).  \n**Answer:** u = -30 cm, m = +1/3; image is virtual, erect, diminished.  \nA wrong answer with u = +30 cm or m = -1/3 reveals inability to handle negative focal length for concave lens and sign of v for virtual images — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses the lens formula 1/f = 1/v - 1/u for a convex lens and gets v = -20 cm for an object at u = -30 cm with f = +10 cm. The student claims the image is real because \"v has a magnitude of 20 cm.\" Evaluate this claim and identify the error.",
+     "a": "The claim is incorrect. For a convex lens (f = +10 cm) with object at u = -30 cm (beyond 2f), the image must be real and formed on the opposite side, so v should be positive. The student's calculation giving v = -20 cm indicates a sign error in applying the formula. Correct calculation: 1/10 = 1/v - 1/(-30) → 1/v = 1/10 - 1/30 = 1/15 → v = +15 cm. The negative v would imply a virtual image on the same side as the object, which only happens for convex lens when object is between f and optical centre (u > -10 cm). The error reveals the student likely used 1/f = 1/v + 1/u (mirror formula) or mishandled the double negative.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the lens formula. List the measurements you would take, how you would vary the object distance, and how you would plot the data to confirm the formula.",
+     "a": "**Experiment:** Fix a convex lens on a stand. Place a candle (object) at a measured distance u from the lens (e.g., 20 cm, 25 cm, 30 cm, 40 cm, 50 cm — all > f). Move a screen on the other side until a sharp inverted image forms; measure v. Repeat for 5-6 object distances. **Plot:** 1/u on x-axis, 1/v on y-axis. The lens formula 1/f = 1/v - 1/u rearranges to 1/v = 1/u + 1/f — a straight line with slope 1 and y-intercept 1/f. Alternatively, plot 1/v vs 1/u and verify intercept gives 1/f. **Verification:** Calculate f from intercept; compare with known focal length. A poor answer (e.g., \"measure u and v and check formula\") reveals lack of understanding of graphical verification, linearization of inverse relationships, or how to handle multiple data points — skills tested in CBSE practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

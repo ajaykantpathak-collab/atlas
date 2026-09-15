@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_005",
+   "title": "c12_math_cbse_13_005",
+   "questions": [
+    {
+     "q": "State Bayes' Theorem for a partition \\(E_1,E_2,\\dots,E_n\\) of the sample space and an event \\(A\\) with \\(P(A)>0\\). Write the formula and explicitly list the three conditions that the events \\(E_i\\) must satisfy to form a partition.",
+     "a": "Bayes' Theorem: \\(P(E_i|A)=\\frac{P(E_i)P(A|E_i)}{\\sum_{j=1}^n P(E_j)P(A|E_j)}\\). The three conditions for a partition are: (i) \\(E_i\\cap E_j=\\emptyset\\) for \\(i\\neq j\\) (pairwise disjoint), (ii) \\(\\bigcup_{i=1}^n E_i = S\\) (exhaustive), (iii) \\(P(E_i)>0\\) for all \\(i\\). A wrong answer that omits the condition \\(P(E_i)>0\\) reveals the student does not understand why the conditional probabilities \\(P(A|E_i)\\) are defined; missing the disjointness condition shows confusion between a partition and a mere covering of the sample space.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the denominator in Bayes' Theorem is exactly \\(P(A)\\), the total probability of the evidence. Use the Theorem of Total Probability in your explanation.",
+     "a": "By the Theorem of Total Probability, since \\(\\{E_i\\}\\) is a partition, \\(P(A)=\\sum_{j=1}^n P(E_j)P(A|E_j)\\). This is precisely the denominator. The denominator represents the overall probability of observing the evidence \\(A\\) regardless of which cause \\(E_i\\) occurred. A wrong answer that treats the denominator as just \\(P(A|E_i)\\) or ignores the sum indicates the student has not connected the partition property to the law of total probability.",
+     "self_check": true
+    },
+    {
+     "q": "A factory has two machines, M1 and M2. M1 produces 60% of the output, M2 produces 40%. M1's defect rate is 2%, M2's defect rate is 5%. An item is chosen at random and found defective. Compute the probability it was produced by M2 using Bayes' Theorem. Show all steps.",
+     "a": "Let \\(E_1\\): item from M1, \\(E_2\\): item from M2, \\(A\\): item defective.\n\\(P(E_1)=0.6,\\; P(E_2)=0.4\\).\n\\(P(A|E_1)=0.02,\\; P(A|E_2)=0.05\\).\n\\(P(A)=P(E_1)P(A|E_1)+P(E_2)P(A|E_2)=0.6\\times0.02+0.4\\times0.05=0.012+0.02=0.032\\).\n\\(P(E_2|A)=\\frac{P(E_2)P(A|E_2)}{P(A)}=\\frac{0.4\\times0.05}{0.032}=\\frac{0.02}{0.032}=0.625\\).\nA wrong answer that swaps prior and likelihood (e.g., uses \\(P(E_1)\\) with \\(P(A|E_2)\\)) or forgets to compute \\(P(A)\\) as a sum reveals a mechanical plug‑in without understanding the roles of prior and likelihood.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a student attempts to use Bayes' Theorem with events \\(E_1,E_2\\) that are not mutually exclusive (they overlap). Explain why the formula would give an incorrect result. Illustrate with a simple Venn diagram description.",
+     "a": "If \\(E_1\\) and \\(E_2\\) overlap, then \\(E_1\\cap E_2\\neq\\emptyset\\). The events \\(A\\cap E_1\\) and \\(A\\cap E_2\\) would also overlap, so \\(P(A)\\neq P(A\\cap E_1)+P(A\\cap E_2)\\); the sum would double‑count the intersection. The Theorem of Total Probability requires a partition (disjoint events) to write \\(P(A)\\) as a sum of disjoint probabilities. Using overlapping events makes the denominator larger than the true \\(P(A)\\), yielding posterior probabilities that sum to more than 1. A wrong answer that claims the formula still works shows the student does not grasp the necessity of disjointness for additivity of probability.",
+     "self_check": true
+    },
+    {
+     "q": "A solution to a Bayes' Theorem problem gives posterior probabilities \\(P(E_1|A)=0.7\\) and \\(P(E_2|A)=0.4\\). The student claims this is correct because both are less than 1. Evaluate this claim and identify the error.",
+     "a": "The claim is incorrect. Since \\(\\{E_1,E_2\\}\\) is a partition, the posterior probabilities must satisfy \\(P(E_1|A)+P(E_2|A)=1\\). Here the sum is \\(1.1>1\\), violating the axioms of probability. The error likely arose from miscalculating the denominator (e.g., forgetting to multiply a prior by its likelihood, or using wrong conditional probabilities). A student who accepts the claim does not understand that posterior probabilities form a probability distribution over the partition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real‑world scenario (different from medical testing or factory defects) that requires Bayes' Theorem. Define the partition, the evidence event, and assign plausible prior and likelihood probabilities. Write the question that asks for a specific posterior probability.",
+     "a": "Example: A spam filter classifies emails. Partition: \\(E_1\\) = email is spam (prior 0.3), \\(E_2\\) = email is not spam (prior 0.7). Evidence \\(A\\): email contains the word \"free\". Likelihoods: \\(P(A|E_1)=0.8\\), \\(P(A|E_2)=0.1\\). Question: \"Given an email contains 'free', what is the probability it is spam?\" A poor answer would use events that are not a partition (e.g., overlapping categories) or assign likelihoods that don't reflect the conditional nature (e.g., giving \\(P(E_1|A)\\) directly). This reveals the student cannot translate a practical situation into the formal structure of Bayes' Theorem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

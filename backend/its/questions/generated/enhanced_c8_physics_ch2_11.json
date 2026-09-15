@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_11",
+   "title": "c8_physics_ch2_11",
+   "questions": [
+    {
+     "q": "State the fundamental chemical difference between a rechargeable (secondary) cell and a non-rechargeable (primary) cell in one sentence.",
+     "a": "A rechargeable cell employs a reversible chemical reaction that can be driven in the opposite direction by an external current, restoring the original reactants, while a non-rechargeable cell uses an irreversible reaction that permanently consumes the reactants. A wrong answer such as \"rechargeable cells have more chemicals\" reveals the student is focusing on quantity rather than the reversibility of the redox reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a zinc–carbon dry cell (used in a wall clock) become useless after a few months even if the clock is switched off, whereas a lithium-ion phone battery holds charge for weeks when the phone is powered down?",
+     "a": "The zinc–carbon cell has a relatively high self-discharge rate due to local action (impurities in zinc causing internal short circuits) and the irreversible nature of its chemistry, while lithium-ion cells have very low self-discharge (<2% per month) because their intercalation chemistry is stable when not cycling. If a student says \"the clock uses more current\", they confuse load current with self-discharge and miss the intrinsic chemical stability difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student buys a pack of four AA alkaline cells for ₹120. Each cell delivers 2.5 Ah at 1.5 V before dying. She also considers four AA NiMH rechargeable cells costing ₹600 that can be recharged 500 times, each cycle delivering 2.0 Ah at 1.2 V. Calculate the cost per watt-hour (Wh) for each option over the lifetime of the rechargeable cells. (Assume 100% charging efficiency for simplicity.)",
+     "a": "**Alkaline:** Energy per cell = 2.5 Ah × 1.5 V = 3.75 Wh. Pack energy = 4 × 3.75 = 15 Wh. Cost per Wh = ₹120 / 15 Wh = **₹8/Wh**.  \n**NiMH:** Energy per cycle per cell = 2.0 Ah × 1.2 V = 2.4 Wh. Pack energy per cycle = 4 × 2.4 = 9.6 Wh. Lifetime energy = 9.6 Wh × 500 cycles = 4800 Wh. Cost per Wh = ₹600 / 4800 Wh = **₹0.125/Wh**.  \nA wrong answer often forgets to multiply by the number of cells or cycles, or mixes up Ah and Wh, showing poor unit tracking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the voltage profiles of an alkaline cell and a NiMH cell during discharge. Which device—a digital camera requiring a minimum 1.1 V per cell or a wall clock working down to 0.8 V—would benefit more from NiMH, and why?",
+     "a": "NiMH maintains a nearly flat voltage around 1.2 V for most of its discharge, then drops sharply; alkaline voltage declines steadily from 1.5 V to 0.8 V. The digital camera needs a stable voltage above 1.1 V, so NiMH's flat profile keeps it operating longer before sudden cutoff. The clock works fine with alkaline's gradual decline. A student who says \"alkaline lasts longer because it starts higher\" ignores the voltage-drop shape and the device's cut-off threshold.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"Throwing used alkaline cells in household trash is harmless because they don't contain mercury anymore.\" Evaluate this statement and explain the environmental concern that remains.",
+     "a": "The statement is partially true (mercury was phased out in the 1990s) but misleading. Alkaline cells still contain zinc, manganese dioxide, and potassium hydroxide electrolyte, which can leach into soil and groundwater. Moreover, the sheer volume of single-use cells creates solid waste. Rechargeable cells reduce waste by replacing hundreds of primaries. A student who agrees completely misses the cumulative impact of heavy metals and resource extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate that a lead–acid cell (like a 6 V lantern battery) can be recharged, while a zinc–carbon cell cannot. List materials, procedure, and the observation that proves reversibility.",
+     "a": "**Materials:** 6 V lead–acid battery, zinc–carbon AA cell, DC power supply (0–12 V), multimeter, connecting wires, 6 V bulb as load.  \n**Procedure:** 1) Discharge both cells through the bulb until voltage drops below 4 V (lead–acid) and 0.8 V (zinc–carbon). 2) Connect the power supply to the lead–acid cell at 7.2 V (2.4 V per cell) for 2 hours. 3) Measure open-circuit voltage of both cells. 4) Reconnect the bulb to each.  \n**Observation:** Lead–acid voltage rises to ~6.3 V and lights the bulb; zinc–carbon voltage remains near 0.8 V and bulb stays dark.  \nA poor answer uses only voltage measurement without a load test, missing that surface charge can mislead.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

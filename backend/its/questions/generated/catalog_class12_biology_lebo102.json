@@ -1,0 +1,267 @@
+{
+ "catalog": "catalog_class12_biology_lebo102",
+ "concepts": [
+  {
+   "id": "lebo102.2.1.1",
+   "title": "Male Reproductive System: Testes, Ducts and Glands",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Male Reproductive System: Testes, Ducts and Glands' refers to.",
+     "a": "The male system pairs testes held in the scrotal pouch with a duct chain running rete testis, vasa efferentia, the epididymis and then the vas deferens, plus seminal vesicles, prostate and bulbourethral glands whose secretions form the seminal plasma.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Male Reproductive System: Testes, Ducts and Glands'.",
+     "a": "Sperms are built inside seminiferous tubules, fed by Sertoli cells and bathed in androgens from Leydig cells, while the scrotum keeps the testes cooler than the body core.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Male Reproductive System: Testes, Ducts and Glands' taught, and from which source text?",
+     "a": "2.1 (source: lebo102.txt lines 17-110 (male reproductive system section))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.2.1",
+   "title": "Female Reproductive System and Mammary Glands",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Female Reproductive System and Mammary Glands' refers to.",
+     "a": "The female system pairs ovaries with oviducts divided into infundibulum, ampulla and isthmus, an inverted-pear uterus in three layers, a cervix and vagina forming the birth canal, external genital folds, and mammary glands built from alveoli, ducts and ampullae.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Female Reproductive System and Mammary Glands'.",
+     "a": "Fimbriae sweep the released ovum into the funnel of the fallopian tube, and the glandular endometrium rebuilds itself every cycle to receive an embryo.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Female Reproductive System and Mammary Glands' taught, and from which source text?",
+     "a": "2.2 (source: lebo102.txt lines 111-181 (female reproductive system and mammary gland sections))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.3.1",
+   "title": "Spermatogenesis Cell Line and Hormonal Control",
+   "questions": [
+    {
+     "q": "Using the method 'Spermatogenesis Cell Line and Hormonal Control', work with: primary_spermatocytes = 150. Carry the chain through step by step and give the final value of result.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Spermatogenesis Cell Line and Hormonal Control' and work with: primary_spermatocytes = 60. Carry the chain through step by step and give the final value of result.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Spermatogenesis Cell Line and Hormonal Control' refers to.",
+     "a": "Spermatogonia lining the tubule wall multiply mitotically; some grow into primary spermatocytes whose two meiotic rounds produce two secondary spermatocytes and then four haploid spermatids, later reshaped into spermatozoa under GnRH, LH and FSH control.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Spermatogenesis Cell Line and Hormonal Control'.",
+     "a": "Meiosis halves the chromosome number from 46 to 23, and each primary spermatocyte ultimately funds four equal spermatids before spermiogenesis and spermiation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Spermatogenesis Cell Line and Hormonal Control', in plain ASCII form.",
+     "a": "spermatids = primary_spermatocytes * 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.3.2",
+   "title": "Human Sperm Structure and Semen Quality Norms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Sperm Structure and Semen Quality Norms' refers to.",
+     "a": "A sperm is a four-part cell -- enzyme-packed acrosome capping the haploid head, a short neck, a mitochondria-rich middle piece and a whip tail -- and fertile human semen carries 200 to 300 million sperms per ejaculate with at least sixty percent normal in form and forty percent strongly motile.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Sperm Structure and Semen Quality Norms'.",
+     "a": "Mid-piece mitochondria power the tail's motion, and acrosomal enzymes let the sperm bore through the ovum's investments at fertilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Human Sperm Structure and Semen Quality Norms' taught, and from which source text?",
+     "a": "2.3 (source: lebo102.txt lines 227-251 (sperm structure, semen norms and accessory secretions))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.3.3",
+   "title": "Oogenesis and Follicular Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Oogenesis and Follicular Development' refers to.",
+     "a": "Oogonia multiply only during fetal life, arrest in prophase-I as primary oocytes, and grow wrapped in granulosa cells through primary, secondary, tertiary and Graafian follicle stages, the oocyte finishing meiosis-I unequally so that one large haploid secondary oocyte plus one minute first polar body emerge before ovulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Oogenesis and Follicular Development'.",
+     "a": "The unequal meiosis-I division parks nearly all cytoplasm in the secondary oocyte, and puberty arrives with each ovary holding only some 60,000-80,000 primary follicles.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Oogenesis and Follicular Development' taught, and from which source text?",
+     "a": "2.3 (source: lebo102.txt lines 252-293 (oogenesis and follicle stages))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.4.1",
+   "title": "Menstrual Cycle Phases and Hormone Control",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Menstrual Cycle Phases and Hormone Control' refers to.",
+     "a": "Over an average 28-29 day cycle the uterus passes through a shedding menstrual phase, a rebuilding follicular phase, a mid-cycle ovulation triggered by the LH surge, and a progesterone-rich luteal phase maintained by the corpus luteum.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Menstrual Cycle Phases and Hormone Control'.",
+     "a": "The mid-cycle LH peak bursts the Graafian follicle, and whether the corpus luteum persists or decays decides pregnancy or another menstruation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Menstrual Cycle Phases and Hormone Control' taught, and from which source text?",
+     "a": "2.4 (source: lebo102.txt lines 300-347 (menstrual cycle section))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.1",
+   "title": "Fertilisation Site, Acrosome Reaction and Zona Block",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fertilisation Site, Acrosome Reaction and Zona Block' refers to.",
+     "a": "Sperms deposited in the vagina swim through cervix and uterus to the ampullary part of the fallopian tube, where acrosomal enzymes let one sperm pierce the zona pellucida while the membrane changes it triggers shut out every other sperm.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fertilisation Site, Acrosome Reaction and Zona Block'.",
+     "a": "Contact with the zona pellucida both blocks extra sperms and pushes the secondary oocyte to finish meiosis-II, releasing a second polar body before the nuclei fuse.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fertilisation Site, Acrosome Reaction and Zona Block' taught, and from which source text?",
+     "a": "2.5 (source: lebo102.txt lines 348-373 and 400-407 (fertilisation events))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.2",
+   "title": "Chromosomal Sex Determination in Humans",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chromosomal Sex Determination in Humans' refers to.",
+     "a": "Human females carry XX and males XY, so every ovum donates an X while each sperm carries either an X or a Y in equal measure, making the fertilising sperm -- and hence the father -- the decider of the baby's sex.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chromosomal Sex Determination in Humans'.",
+     "a": "An X-bearing sperm yields an XX zygote that becomes a girl, a Y-bearing sperm yields XY and a boy, with fifty-fifty odds at every conception.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Chromosomal Sex Determination in Humans' taught, and from which source text?",
+     "a": "2.5 (source: lebo102.txt lines 408-419 (sex determination passage))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.3",
+   "title": "Cleavage, Morula, Blastocyst and Implantation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cleavage, Morula, Blastocyst and Implantation' refers to.",
+     "a": "As the zygote rides the isthmus toward the uterus it divides mitotically into 2, 4, 8 and 16 blastomeres, forms a morula, then hollows into a blastocyst whose trophoblast layer sticks to and sinks into the endometrium in implantation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cleavage, Morula, Blastocyst and Implantation'.",
+     "a": "The outer trophoblast handles attachment while the inner cell mass becomes the embryo proper, and embedding in the endometrium marks the start of pregnancy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cleavage, Morula, Blastocyst and Implantation' taught, and from which source text?",
+     "a": "2.5 (source: lebo102.txt lines 420-436 (cleavage to implantation passage))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.6.1",
+   "title": "Placenta: Structure, Functions and Hormones",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Placenta: Structure, Functions and Hormones' refers to.",
+     "a": "Chorionic villi of the trophoblast interlock with uterine tissue to build the placenta, a dual organ that trades oxygen, nutrients, carbon dioxide and wastes between mother and foetus through the umbilical cord while secreting hCG, hPL, oestrogens and progestogens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Placenta: Structure, Functions and Hormones'.",
+     "a": "The placenta works as the foetus's gut, lungs and kidney and as an endocrine gland, with hCG, hPL and relaxin appearing only in pregnancy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Placenta: Structure, Functions and Hormones' taught, and from which source text?",
+     "a": "2.6 (source: lebo102.txt lines 437-466 (placenta and pregnancy hormones))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.6.2",
+   "title": "Germ Layers, Stem Cells and Gestation Milestones",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Germ Layers, Stem Cells and Gestation Milestones' refers to.",
+     "a": "The implanted inner cell mass sorts into ectoderm, endoderm and then mesoderm -- three layers that build every adult tissue and include potent stem cells -- and the nine-month pregnancy hits signature landmarks such as the heart at one month and major organs by twelve weeks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Germ Layers, Stem Cells and Gestation Milestones'.",
+     "a": "By the end of the first trimester most organ systems exist; hair and first movements show around month five, and fine hair plus separated eyelids mark 24 weeks.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Germ Layers, Stem Cells and Gestation Milestones' taught, and from which source text?",
+     "a": "2.6 (source: lebo102.txt lines 467-494 (germ layer differentiation and month-wise development))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.7.1",
+   "title": "Parturition Reflex and Lactation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Parturition Reflex and Lactation' refers to.",
+     "a": "Childbirth opens with the foetal ejection reflex -- signals from the mature foetus and placenta triggering mild uterine contractions -- which drives a self-reinforcing oxytocin loop until the baby and then the placenta are expelled, after which colostrum-then-milk feeding begins.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parturition Reflex and Lactation'.",
+     "a": "Uterine contraction and oxytocin secretion feed each other in a positive spiral, and the first milk, colostrum, hands the newborn a dose of antibodies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Parturition Reflex and Lactation' taught, and from which source text?",
+     "a": "2.7 (source: lebo102.txt lines 495-518 (parturition and lactation sections))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

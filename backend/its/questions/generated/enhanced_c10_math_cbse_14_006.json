@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_006",
+   "title": "c10_math_cbse_14_006",
+   "questions": [
+    {
+     "q": "Define an impossible event and a certain event in terms of probability.",
+     "a": "An impossible event has P(E) = 0 (no favourable outcomes, m = 0). A certain event has P(E) = 1 (all outcomes are favourable, m = n). A wrong answer (e.g., \"impossible means P < 0\") shows the student does not know the bounds of probability.",
+     "self_check": true
+    },
+    {
+     "q": "When rolling a die, what is the probability of rolling a number greater than 6?",
+     "a": "P(number > 6) = 0 (impossible event), since the die only has numbers 1 to 6 and none is greater than 6. m = 0, n = 6, P = 0/6 = 0. A wrong answer (e.g., 1/6) shows the student counted a non-existent outcome.",
+     "self_check": true
+    },
+    {
+     "q": "When drawing a card from a standard 52-card deck, what is the probability of drawing a card that is either red or black?",
+     "a": "Every card is either red or black, so all 52 outcomes are favourable. P(red or black) = 52/52 = 1 (certain event). A wrong answer (e.g., 26/52 = 1/2) shows the student only counted one color instead of both.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for an event to have P(E) = −0.5? Explain.",
+     "a": "No. Probability is always between 0 and 1 inclusive (0 ≤ P(E) ≤ 1). A negative probability is impossible because the number of favourable outcomes m is always non-negative (m ≥ 0), and n > 0, so m/n ≥ 0. A wrong answer (e.g., \"yes, for very unlikely events\") shows a fundamental misunderstanding of probability bounds.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains only red balls. What is the probability of drawing a blue ball?",
+     "a": "P(blue) = 0 (impossible), since there are no blue balls in the bag (m = 0). A wrong answer (e.g., \"cannot be determined\") shows the student does not recognise that zero favourable outcomes means probability 0.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of an impossible event and a certain event when tossing two coins.",
+     "a": "Impossible: Getting three heads (the sample space is {HH, HT, TH, TT} — only two coins, so three heads is impossible, P = 0). Certain: Getting at least one head or one tail (every outcome has at least one of each, P = 1). A wrong answer (e.g., \"certain: getting two heads\") shows the student confuses a specific outcome with a certain event.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

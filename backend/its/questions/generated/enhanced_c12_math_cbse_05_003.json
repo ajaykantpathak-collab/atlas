@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_003",
+   "title": "c12_math_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the condition required for the quotient \\(\\frac{f}{g}\\) to be continuous at \\(x = c\\) if \\(f\\) and \\(g\\) are continuous at \\(c\\).",
+     "a": "Correct answer: \\(g(c) \\neq 0\\). If a student writes only \"\\(f\\) and \\(g\\) are continuous at \\(c\\)\", they have missed the critical domain restriction. This reveals they treat the quotient rule for continuity exactly like the sum/product rules, ignoring that division by zero is undefined — a frequent error in board exams when checking continuity of rational functions like \\(\\frac{x^2-1}{x-1}\\) at \\(x=1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\(h(x) = \\sin(x^2)\\) is continuous for all real \\(x\\) using the composition theorem. Identify the inner and outer functions and their continuity domains.",
+     "a": "Correct answer: Let \\(g(x)=x^2\\) (inner) and \\(f(u)=\\sin u\\) (outer). \\(g\\) is continuous on \\(\\mathbb{R}\\) (polynomial). \\(f\\) is continuous on \\(\\mathbb{R}\\) (sine function). Since range of \\(g\\) is \\([0,\\infty) \\subseteq \\mathbb{R} = \\text{domain of } f\\), the composition \\(f \\circ g\\) is continuous on \\(\\mathbb{R}\\). A wrong answer that only says \"both are continuous\" without checking the domain condition (range of inner ⊆ domain of outer) shows the student does not understand the hypothesis of Theorem 2 — a common trap in JEE when composing \\(\\sqrt{\\sin x}\\) or \\(\\tan(x^2)\\).",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the function \\(F(x) = \\frac{x^2 - 4}{x - 2}\\) is continuous at \\(x = 2\\). If not, can you redefine \\(F(2)\\) to make it continuous? Show all steps.",
+     "a": "Correct answer: \\(F(x) = \\frac{(x-2)(x+2)}{x-2} = x+2\\) for \\(x \\neq 2\\). \\(F\\) is not defined at \\(x=2\\), so it is not continuous there. However, \\(\\lim_{x \\to 2} F(x) = 4\\). Defining \\(F(2)=4\\) makes it continuous (removable discontinuity). A student who says \"\\(F\\) is continuous because it simplifies to \\(x+2\\)\" has ignored that the original function's domain excludes \\(x=2\\) — they must explicitly state the domain condition \\(g(c) \\neq 0\\) for the quotient rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the continuity of \\(f(x) = |x|\\) and \\(g(x) = \\frac{1}{|x|}\\) at \\(x=0\\). Why does the algebra of continuous functions give different conclusions?",
+     "a": "Correct answer: \\(f(x)=|x|\\) is continuous at \\(0\\) (Example 3, NCERT). \\(g(x)=\\frac{1}{|x|}\\) is not defined at \\(0\\), so the quotient rule does not apply — we cannot even ask about continuity at a point outside the domain. The algebra of continuous functions only guarantees continuity **at points where all functions are defined and the denominator is non-zero**. A student who claims \"\\(1/|x|\\) is discontinuous at 0 because the quotient rule fails\" confuses \"not continuous\" with \"not defined\" — a subtle but important distinction in board marking schemes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Since \\(f(x)=\\sin x\\) and \\(g(x)=\\frac{1}{x}\\) are continuous on their domains, \\(h(x)=\\sin(\\frac{1}{x})\\) is continuous on its domain.\" Is this reasoning correct? Justify.",
+     "a": "Correct answer: The reasoning is **incomplete**. The composition theorem requires \\(g\\) continuous at \\(c\\) **and** \\(f\\) continuous at \\(g(c)\\). For \\(h(x)=\\sin(1/x)\\), \\(g(x)=1/x\\) is continuous on \\(\\mathbb{R}\\setminus\\{0\\}\\). \\(f(u)=\\sin u\\) is continuous on \\(\\mathbb{R}\\). For any \\(c \\neq 0\\), \\(g(c)\\) is defined and \\(f\\) is continuous at \\(g(c)\\), so \\(h\\) is continuous on \\(\\mathbb{R}\\setminus\\{0\\}\\). The student's statement is true but the justification \"continuous on their domains\" is vague — they must explicitly verify the condition \\(f\\) continuous at \\(g(c)\\) for each \\(c\\) in the domain of \\(g\\). This is a typical JEE-style trap where the domain of the composition is not simply the intersection of domains.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\(k(x)\\) that is continuous everywhere except at exactly three points, using only polynomials, absolute value, and rational operations. Explain your construction.",
+     "a": "Expected answer: Example: \\(k(x) = \\frac{|x-1|}{x-1} + \\frac{|x-2|}{x-2} + \\frac{|x-3|}{x-3}\\). Each term is a rational function of \\(|x-a|\\) and \\((x-a)\\), continuous everywhere except at \\(x=a\\) (where denominator zero). Sum of three such terms is continuous except at \\(x=1,2,3\\). A poor answer might use piecewise definitions without leveraging the algebra theorems, showing the student cannot synthesize the algebraic properties to build functions with prescribed discontinuities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

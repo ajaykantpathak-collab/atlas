@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_008",
+   "title": "c12_math_cbse_09_008",
+   "questions": [
+    {
+     "q": "State the exactness condition for the differential equation \\(M(x,y)dx + N(x,y)dy = 0\\). What additional requirement on \\(M\\) and \\(N\\) is needed for this condition to be sufficient?",
+     "a": "The exactness condition is \\(\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}\\). For this condition to be sufficient, \\(M, N, \\frac{\\partial M}{\\partial y}, \\frac{\\partial N}{\\partial x}\\) must be continuous in a simply connected region of the \\(xy\\)-plane. A wrong answer (e.g., only stating the partial derivative equality) reveals the student does not know the continuity/simply-connected hypothesis, which is essential for the existence of the potential function \\(F\\) — a common trap in JEE Advanced theoretical questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the differential equation \\((y^2)dx + (2xy)dy = 0\\) is exact because \\(\\frac{\\partial}{\\partial y}(y^2) = 2y\\) and \\(\\frac{\\partial}{\\partial x}(2xy) = 2y\\). Is the student correct? Explain why or why not, and write the general solution if it is exact.",
+     "a": "Yes, the student is correct. \\(M=y^2, N=2xy\\). \\(\\frac{\\partial M}{\\partial y}=2y, \\frac{\\partial N}{\\partial x}=2y\\). They are equal and continuous everywhere, so the equation is exact. To solve: integrate \\(M\\) w.r.t \\(x\\): \\(F = \\int y^2 dx = xy^2 + g(y)\\). Then \\(\\frac{\\partial F}{\\partial y} = 2xy + g'(y) = N = 2xy \\Rightarrow g'(y)=0 \\Rightarrow g(y)=C_1\\). General solution: \\(xy^2 = C\\). A wrong answer (e.g., forgetting the arbitrary function \\(g(y)\\) or mis-integrating) reveals the student treats the integration as single-variable, ignoring that the \"constant\" of integration can depend on the other variable.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the exact differential equation: \\((3x^2y + 2xy^2)dx + (x^3 + 2x^2y)dy = 0\\). Find the particular solution satisfying \\(y(1)=2\\).",
+     "a": "**Step 1:** Identify \\(M=3x^2y+2xy^2\\), \\(N=x^3+2x^2y\\).  \n**Step 2:** Check exactness: \\(\\frac{\\partial M}{\\partial y}=3x^2+4xy\\), \\(\\frac{\\partial N}{\\partial x}=3x^2+4xy\\). Equal ⇒ exact.  \n**Step 3:** Integrate \\(M\\) w.r.t \\(x\\): \\(F = \\int (3x^2y+2xy^2)dx = x^3y + x^2y^2 + g(y)\\).  \n**Step 4:** Differentiate w.r.t \\(y\\): \\(\\frac{\\partial F}{\\partial y}=x^3+2x^2y+g'(y)\\). Set equal to \\(N\\): \\(x^3+2x^2y+g'(y)=x^3+2x^2y \\Rightarrow g'(y)=0 \\Rightarrow g(y)=C_1\\).  \n**Step 5:** General solution: \\(x^3y + x^2y^2 = C\\).  \n**Step 6:** Apply \\(y(1)=2\\): \\(1^3\\cdot2 + 1^2\\cdot2^2 = 2+4=6 = C\\).  \n**Particular solution:** \\(x^3y + x^2y^2 = 6\\) or \\(x^2y(x+y)=6\\).  \nA wrong answer (e.g., \\(C=2\\) from mis-substituting) reveals arithmetic errors or confusion between general and particular constants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the exact equation method with the variable separable method. Give an example of a differential equation that is both exact and variable separable, and explain how the two solution procedures converge to the same result.",
+     "a": "Consider \\(y dx + x dy = 0\\). It is exact: \\(M=y, N=x\\), \\(\\frac{\\partial M}{\\partial y}=1=\\frac{\\partial N}{\\partial x}\\). Exact method: \\(F=\\int y dx = xy + g(y)\\), \\(\\frac{\\partial F}{\\partial y}=x+g'(y)=x \\Rightarrow g'(y)=0\\), solution \\(xy=C\\). Variable separable: rewrite as \\(\\frac{dx}{x} + \\frac{dy}{y}=0\\) (for \\(xy\\neq0\\)), integrate: \\(\\ln|x|+\\ln|y|=\\ln|C| \\Rightarrow xy=C\\). Both give the same implicit solution. The exact method directly finds the potential function \\(F=xy\\); the separable method integrates after algebraic manipulation. A wrong answer (e.g., claiming they are different methods for different equations) reveals the student does not see that exactness is a structural property while separability is a manipulative technique — an equation can be both.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\((2x+y)dx + (x-2y)dy = 0\\) as follows:  \n\\(M=2x+y, N=x-2y\\) → \\(\\frac{\\partial M}{\\partial y}=1, \\frac{\\partial N}{\\partial x}=1\\) → exact.  \n\\(F = \\int (2x+y)dx = x^2 + xy + g(y)\\).  \n\\(\\frac{\\partial F}{\\partial y} = x + g'(y) = x-2y\\) → \\(g'(y) = -2y\\) → \\(g(y) = -y^2\\).  \nSolution: \\(x^2 + xy - y^2 = C\\).  \nIs this fully correct? If not, identify the error and correct it.",
+     "a": "The solution is **correct**. All steps are valid: exactness holds, integration of \\(M\\) w.r.t \\(x\\) is correct, determination of \\(g(y)\\) by comparing with \\(N\\) is correct, and the final implicit solution \\(x^2+xy-y^2=C\\) is the general solution. A student who claims an error might mistakenly think \\(g(y)\\) should include an \\(x\\)-dependent term, or might mis-differentiate \\(xy\\) as \\(y\\) only (forgetting the product rule). This diagnostic tests whether the student can validate a complete worked solution — a key skill for board exam \"verify\" questions and JEE \"assertion-reason\" items.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a first-order differential equation that is **not** exact but becomes exact after multiplying by an integrating factor \\(\\mu(x)=x\\). Write the original non-exact equation, the integrating factor, the resulting exact equation, and its general solution.",
+     "a": "Start with a known exact equation, e.g., \\(y dx + x dy = 0\\) (exact). Divide by the integrating factor \\(x\\) (assuming \\(x\\neq0\\)): \\(\\frac{y}{x} dx + dy = 0\\). This is the **non-exact** equation: \\(M=\\frac{y}{x}, N=1\\). Check: \\(\\frac{\\partial M}{\\partial y}=\\frac{1}{x}, \\frac{\\partial N}{\\partial x}=0\\) → not equal. Multiply by \\(\\mu(x)=x\\): \\(y dx + x dy = 0\\) (exact). General solution: \\(xy = C\\).  \nA good answer shows the reverse-engineering process. A poor answer (e.g., giving an arbitrary non-exact equation without verifying the integrating factor works) reveals the student does not understand the relationship between exactness and integrating factors — a concept that appears in JEE Main as \"find the integrating factor\" problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_07_010",
+   "title": "c12_eng_k_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define \"etymology\" and explain why the NCERT note on \"entomb'd\" traces it to late Middle English and French origin.",
+     "a": "Etymology is the study of a word's historical development, including its origin and changes in form/meaning. The note shows \"entomb'd\" entered English from French (entomber) in late Middle English (post-1066 Norman Confluence), revealing how English absorbed French vocabulary. A wrong answer (e.g., \"etymology means dictionary definition\") reveals the student confuses word history with current meaning — a critical error for analyzing archaic poetic diction where historical layers enrich meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In \"On Time\", the phrase \"leaden-stepping hours\" appears. Explain how the compound adjective \"leaden-stepping\" creates meaning beyond its individual parts, using the next line (\"heavy Plummets pace\") as evidence.",
+     "a": "\"Leaden\" means made of lead (heavy, dull); \"stepping\" suggests movement. Together they create a kinetic image: hours that move with the heavy, slow drag of lead weights. The next line confirms this — \"Plummets\" are lead weights regulating clock speed. A student who only defines \"leaden\" as \"heavy\" misses the personification: Time's hours are not just slow, they're burdened, mechanical, and reluctant — reinforcing the poem's contrast between temporal drag and eternal swiftness.",
+     "self_check": true
+    },
+    {
+     "q": "The word \"Delphic\" appears in \"On Shakespeare\": \"Those Delphic lines with deep impression took\". Apply your knowledge of classical allusion to explain its contextual meaning and why Milton chooses it over \"prophetic\" or \"wise\".",
+     "a": "\"Delphic\" refers to the Oracle of Delphi — ambiguous, profound, divinatory utterances. Milton uses it because Shakespeare's lines aren't merely wise; they have oracular depth, requiring interpretation, resonating across time like sacred pronouncements. \"Prophetic\" suggests future-telling; \"wise\" is too generic. A wrong answer (\"Delphic means Greek\") shows the student recognizes the origin but misses the literary function: Milton elevates Shakespeare to a secular oracle, making his works a source of timeless, enigmatic truth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the archaic spellings \"Shakespear\", \"easie\", \"conceaving\" in \"On Shakespeare\" with modern equivalents. Analyze how these spellings affect the poem's tone and Milton's deliberate archaism.",
+     "a": "The spellings reflect early 17th-century conventions (pre-standardization). \"Shakespear\" (no final 'e'), \"easie\" (French-influenced -ie), \"conceaving\" (Middle English -eav-). Milton, writing in 1630, uses contemporary spelling — not deliberate archaism. But for modern readers, these spellings create historical distance, reminding us Shakespeare is already a \"monument\" from the past. A student who claims \"Milton misspelled words\" reveals ignorance of historical orthography; one who says \"it makes the poem feel old\" captures the tonal effect but misses that Milton wasn't archaizing — he was writing in his present.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Milton's vocabulary in 'On Time' is simpler and more direct than in 'On Shakespeare' because 'On Time' deals with a universal theme while 'On Shakespeare' is a tribute.\" Support or refute with two vocabulary examples from each poem.",
+     "a": "Refute. \"On Time\" uses dense Latinate diction: \"envious\", \"entomb'd\", \"consum'd\", \"Eternity\", \"divine\" — abstract, philosophical. \"On Shakespeare\" uses concrete, metaphorical vocabulary: \"piled Stones\", \"Star-ypointing Pyramid\", \"live-long Monument\", \"Marble\", \"Sepulcher'd\". The tribute poem is more imagistic, not simpler. A student agreeing with the claim likely equates \"universal theme\" with \"simple words\" — a misconception that overlooks how Milton's philosophical vocabulary in \"On Time\" precisely articulates abstract concepts like temporality vs. eternity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line poem stanza using three archaic/poetic words from Milton's poems (e.g., \"leaden-stepping\", \"Delphic\", \"Sepulcher'd\") in a modern context (e.g., describing a smartphone, traffic, or exam stress), demonstrating their metaphorical transfer.",
+     "a": "Example:\n\"The notification's leaden-stepping chime\nDrags morning from its Delphic screen,\nEach scroll a Sepulcher'd lost time,\nWhere buried focus lies unseen.\"\nGood answers show: (1) correct grammatical integration, (2) metaphorical adaptation (not forced), (3) thematic coherence. Poor answers misuse words as decorations (\"My phone is Delphic\") revealing superficial vocabulary acquisition without semantic flexibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

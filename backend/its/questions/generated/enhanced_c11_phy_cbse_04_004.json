@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_004",
+   "title": "c11_phy_cbse_04_004",
+   "questions": [
+    {
+     "q": "A student writes: \"When a book rests on a table, the weight of the book (mg) and the normal reaction (N) from the table are an action-reaction pair because they are equal and opposite.\" State whether this is correct or incorrect, and identify the two bodies involved in the ACTUAL action-reaction pair for the book's weight.",
+     "a": "**Incorrect.** Weight (mg) is the gravitational force **on the book by the Earth**. Its action-reaction pair is the gravitational force **on the Earth by the book** (equal magnitude, upward direction). The normal force N is a contact force **on the book by the table**; its pair is the force **on the table by the book**. Weight and normal force act on the **same body** (the book), so they cannot be a third-law pair. A wrong answer reveals the student confuses \"equal and opposite forces on one body\" (equilibrium) with \"action-reaction pair\" (two bodies).",
+     "self_check": true
+    },
+    {
+     "q": "A horse pulls a cart forward. The cart pulls the horse backward with an equal force (Newton's Third Law). A student argues: \"Since the forces are equal and opposite, the net force on the horse-cart system is zero, so the system cannot accelerate.\" Explain the flaw in this reasoning using the concept of internal vs. external forces and system definition.",
+     "a": "The student treats the horse-cart as a single system but includes only the internal forces between them. The **external force** that accelerates the system is the **static friction on the horse's hooves by the ground** (forward). The cart pulls the horse back (internal), the horse pulls the cart forward (internal) — these cancel *inside* the system. The ground pushes the horse forward; the horse pushes the ground backward (external to system). Net external force ≠ 0, so acceleration occurs. A wrong answer shows the student cannot distinguish system boundaries and internal/external forces.",
+     "self_check": true
+    },
+    {
+     "q": "A 60 kg woman stands on a 40 kg raft floating on still water (no friction). She walks from one end to the other at 1.5 m/s relative to the raft. Calculate the recoil velocity of the raft relative to water. Take the woman's mass as m_w, raft's mass as m_r, and her velocity relative to water as v_w. Show all steps.",
+     "a": "**Given:** m_w = 60 kg, m_r = 40 kg, v_w/raft = 1.5 m/s. System = woman + raft, isolated horizontally (no external horizontal force).\n**Step 1:** Initial momentum = 0 (system at rest).\n**Step 2:** Final momentum = m_w v_w + m_r v_r = 0 (conservation).\n**Step 3:** Relative velocity: v_w – v_r = 1.5 m/s → v_w = v_r + 1.5.\n**Step 4:** Substitute: 60(v_r + 1.5) + 40 v_r = 0 → 100 v_r + 90 = 0 → v_r = –0.9 m/s.\n**Step 5:** Negative sign means raft moves opposite to woman's walking direction. Magnitude = 0.9 m/s.\n**Unit check:** kg·m/s cancels correctly. A wrong answer (e.g., v_r = –1.5 m/s) reveals the student forgot mass ratio or used relative velocity incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Two blocks A (3 kg) and B (5 kg) are in contact on a smooth horizontal table. A horizontal force F = 32 N is applied on A. Find: (a) acceleration of the system, (b) force exerted by A on B, (c) force exerted by B on A. Draw free-body diagrams for each block separately and for the combined system.",
+     "a": "**System (A+B):** m_total = 8 kg. F_net = 32 N. a = F/m = 4 m/s². (a) **a = 4 m/s²**.\n**Block B (alone):** Only horizontal force = F_BA (force on B by A). F_BA = m_B a = 5 × 4 = 20 N. (b) **F_AB = 20 N forward**.\n**Block A (alone):** Forces: F = 32 N forward, F_AB = 20 N backward. Net = 12 N = m_A a = 3 × 4 = 12 N. (c) **F_BA = 20 N backward**.\n**Check:** F_AB = –F_BA (Third Law satisfied). A wrong answer (e.g., F_AB = 32 N) shows the student applies F to B directly instead of using FBD and Second Law per body.",
+     "self_check": true
+    },
+    {
+     "q": "A rocket of initial mass 5000 kg ejects gas at 2000 m/s relative to the rocket at a rate of 50 kg/s. Calculate the initial thrust force. A student uses F = ma with a = 2000 m/s². Is this correct? Justify using the impulse-momentum form of Newton's Second Law and Third Law.",
+     "a": "**Incorrect.** Thrust is **not** m_rocket × a_exhaust. Thrust = rate of change of momentum of ejected gas = (dm/dt) × v_rel = 50 kg/s × 2000 m/s = **100,000 N**. The rocket gains momentum forward; gas gains momentum backward. By Third Law, force on rocket = – force on gas. The student's error: treating exhaust speed as rocket's acceleration. a_rocket = Thrust / m_rocket = 100,000 / 5000 = 20 m/s² initially. A wrong answer reveals confusion between relative velocity of exhaust and acceleration of rocket.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two spring balances, a string, and a fixed support to demonstrate that action and reaction forces are equal in magnitude and simultaneous. Describe the setup, what you would observe, and how you would verify simultaneity without electronic sensors.",
+     "a": "**Setup:** Fix one spring balance (S1) to a wall. Hook a string to S1, pass it over a frictionless pulley, and attach the second spring balance (S2) to the free end. Pull S2 horizontally with a steady force.\n**Observation:** Both S1 and S2 show **identical readings** at all times during pulling, holding, and releasing.\n**Verification of simultaneity:** The readings change **together** — when you increase pull, both needles move simultaneously; when you stop, both stop changing at the same instant. No lag is observable. This confirms equal magnitude and simultaneity. A poor answer (e.g., \"use a single spring balance\") shows the student doesn't understand that two bodies are needed to manifest the pair.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

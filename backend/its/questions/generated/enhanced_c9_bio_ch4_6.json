@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_6",
+   "title": "c9_bio_ch4_6",
+   "questions": [
+    {
+     "q": "Define structural adaptation and give one example from an Indian animal, explaining the environmental challenge it addresses.",
+     "a": "A structural adaptation is a physical, heritable feature of an organism's body that enhances survival in a specific environment. Example: The Indian Camel (*Camelus dromedarius*) has a hump that stores fat (not water), which can be metabolised for energy and metabolic water during long periods without food in the Thar Desert. A wrong answer that describes a behaviour (e.g., \"camel sits down to avoid sun\") confuses structural with behavioural adaptation, or states the hump stores water, revealing a common factual misconception about the physiological mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the mass nesting (arribada) of Olive Ridley turtles on Odisha's Gahirmatha beach considered a behavioural adaptation? Explain the survival advantage it provides.",
+     "a": "Mass nesting is a behavioural adaptation because it is an inherited, instinctive pattern of synchronous egg-laying by thousands of females. It overwhelms predators (dogs, birds, crabs) through predator satiation—so many eggs are laid simultaneously that predators cannot eat them all, ensuring a higher percentage of hatchlings survive. A wrong answer that calls it \"a habit they learned\" or \"they gather for safety\" reveals a misunderstanding that behavioural adaptations are genetically programmed, not learned, and misses the specific mechanism (predator satiation) that makes it adaptive.",
+     "self_check": true
+    },
+    {
+     "q": "The Indian Rhinoceros (*Rhinoceros unicornis*) in Kaziranga National Park has thick, folded skin that resembles armour plates. Predict how this structural adaptation helps it survive in the tall grasslands and wetlands of the Brahmaputra floodplain.",
+     "a": "The thick skin (up to 4 cm) protects against slashing cuts from sharp-edged grasses (like *Saccharum* species) and bites from insects/parasites in dense vegetation. The deep folds retain mud and water after wallowing, providing evaporative cooling in humid heat and a barrier against biting flies. A wrong answer focusing only on \"protection from predators\" misses the specific abiotic (sharp grass, heat) and biotic (parasites) challenges of its specific microhabitat, showing an inability to link structure to precise environmental pressures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural adaptations for water conservation in a desert plant (Cactus, *Opuntia*) and an aquatic submerged plant (Hydrilla). Identify two structural differences in their leaves and explain the functional significance of each in their respective habitats.",
+     "a": "Cactus leaves are reduced to spines (reducing surface area for transpiration) and have a thick, waxy cuticle with sunken stomata to minimise water loss in arid air. Hydrilla leaves are thin, ribbon-like, lack a cuticle, and have no functional stomata; they absorb water/nutrients directly across their entire surface and have large air spaces (aerenchyma) for buoyancy and gas exchange in water. A wrong answer that only lists \"spines vs. thin leaves\" without explaining *why* (transpiration reduction vs. direct absorption) shows a failure to connect structure to physiological function in the specific medium.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Chameleon (*Chamaeleo zeylanicus* in India) changes its skin colour to match the background because it *wants* to hide from predators.\" Evaluate this statement. Identify the misconception and provide the correct biological explanation for colour change.",
+     "a": "The statement contains two misconceptions: (1) It implies conscious intent (\"wants to hide\"), which is anthropomorphism; colour change is an involuntary physiological response controlled by hormones and the nervous system. (2) The primary functions are intraspecific communication (territorial displays, courtship) and thermoregulation (darkening to absorb heat, lightening to reflect it); camouflage is secondary. A wrong answer that accepts the \"wanting to hide\" explanation reveals Lamarckian thinking (use/disuse driven by need) and ignores the physiological mechanisms (chromatophores) and multiple selective pressures shaping the trait.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation to test whether the behavioural adaptation of earthworms emerging onto the soil surface after heavy rain is triggered by (a) oxygen depletion in waterlogged soil or (b) the ease of movement on wet surfaces for dispersal. State your hypothesis, variables, and expected observations for each hypothesis.",
+     "a": "**Hypothesis 1 (Oxygen):** If oxygen depletion is the trigger, worms will stay submerged in aerated waterlogged soil but emerge from non-aerated waterlogged soil. **Hypothesis 2 (Movement):** If ease of movement is the trigger, worms will emerge equally from both aerated and non-aerated waterlogged soil, but not from moist (non-saturated) soil. **Setup:** Four containers with garden soil and equal worms: (A) saturated, non-aerated; (B) saturated, aerated (bubbler); (C) moist, non-saturated; (D) dry. Observe emergence over 2 hours. A poor answer that only uses one treatment (e.g., just \"wet soil\") cannot distinguish between the two hypotheses, showing a lack of controlled experimental design thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

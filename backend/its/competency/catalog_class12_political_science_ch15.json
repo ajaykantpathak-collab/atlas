@@ -1,0 +1,602 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 15,
+ "chapter_title": "Recent Developments in Indian Politics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps208.txt",
+ "concepts": [
+  {
+   "id": "c12ps.15.1",
+   "title": "End of the Congress System",
+   "section": "Era of One-Party Dominance and its Decline",
+   "definition": "The Congress system refers to the long period after independence in which the Indian National Congress dominated national politics as a broad umbrella party; its decline began in the late 1960s and accelerated after the 1989 elections, ending the era of one-party dominance at the Centre.",
+   "formula": "",
+   "key_idea": "The Congress party's decline was caused by internal splits, the rise of regional and caste-based parties, the Emergency of 1975-77, and growing electoral competition, which ended its position as the natural party of government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Congress system and why did it decline?",
+    "Explain the factors that led to the end of one-party dominance of the Congress.",
+    "How did the 1989 elections mark a turning point in Indian politics?",
+    "What role did the Emergency play in weakening the Congress system?",
+    "Why is the decline of Congress dominance seen as a shift to coalition politics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Congress system of one-party dominance",
+     "explain": "After independence the Congress party won successive elections and formed governments at the Centre and in most states, functioning as a broad umbrella organisation that accommodated diverse social groups."
+    },
+    {
+     "step": 2,
+     "action": "Identify the causes of decline",
+     "explain": "Internal splits in 1969 and 1978, the imposition of the Emergency (1975-77), the rise of regional and caste-based parties, and the growth of opposition unity weakened Congress's electoral base."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance of the 1989 elections",
+     "explain": "The 1989 Lok Sabha elections produced a hung parliament in which Congress emerged as the largest party but could not form a stable government on its own, marking the formal end of the Congress system and the beginning of coalition politics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the 1989 general election considered a turning point in Indian politics?",
+     "solution": "Step 1: Before 1989 the Congress party usually won a majority on its own. Step 2: In 1989 no single party got a clear majority and a coalition government was formed with outside support. Step 3: This ended the era of one-party dominance and opened the era of coalition governments at the Centre.",
+     "answer": "The 1989 election produced a hung parliament, ending Congress's one-party dominance and starting the coalition era",
+     "_n": 1
+    },
+    {
+     "question": "Mention two factors that weakened the Congress system.",
+     "solution": "Step 1: The internal split of 1969 and the subsequent factionalism reduced organisational unity. Step 2: The Emergency of 1975-77 damaged the party's democratic credibility. Step 3: Together these factors eroded the broad social coalition that had sustained Congress dominance.",
+     "answer": "Internal splits and factionalism, and the loss of credibility after the Emergency",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of the Congress system and the reasons for its decline.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the 1989 elections mark the end of one-party dominance in India?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.2",
+   "title": "Rise of the BJP and Hindutva Politics",
+   "section": "Rise of New Political Forces",
+   "definition": "The rise of the BJP refers to the growth of the Bharatiya Janata Party from the late 1980s as a major national party advocating Hindutva, cultural nationalism, and a distinct alternative to the Congress-led secular consensus.",
+   "formula": "",
+   "key_idea": "The BJP's rise was driven by the Ayodhya movement, the decline of Congress, the mobilisation of Hindu nationalist sentiment, and the formation of coalition alliances that expanded its electoral reach.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Trace the rise of the BJP as a major national party.",
+    "What is Hindutva and how did it influence Indian politics?",
+    "How did the Ayodhya movement contribute to the growth of the BJP?",
+    "Explain the relationship between the BJP and coalition politics in the 1990s.",
+    "Why is the rise of the BJP seen as a challenge to the Congress system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline the origins and ideology of the BJP",
+     "explain": "The BJP was formed in 1980 from the earlier Janata Party lineage and adopted Hindutva and cultural nationalism as its core ideology, presenting itself as an alternative to the Congress's secular nationalism."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of the Ayodhya movement",
+     "explain": "The Ram Janmabhoomi movement mobilised Hindu nationalist sentiment around the disputed site at Ayodhya, dramatically expanding the BJP's social base and electoral support in the late 1980s and early 1990s."
+    },
+    {
+     "step": 3,
+     "action": "Assess the BJP's growth through coalitions",
+     "explain": "Through the 1990s the BJP built state-level alliances and led coalition governments at the Centre, gradually moving from the margins to the mainstream and eventually winning a majority on its own in 2014."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Ayodhya movement contribute to the rise of the BJP?",
+     "solution": "Step 1: The Ayodhya movement mobilised support around the Ram Janmabhoomi issue. Step 2: It consolidated Hindu nationalist sentiment across north India. Step 3: This translated into a sharp increase in the BJP's seats in the 1989 and 1991 elections.",
+     "answer": "The Ayodhya movement mobilised Hindu nationalist sentiment and converted it into electoral support for the BJP"
+    },
+    {
+     "question": "What is Hindutva as understood in Indian politics?",
+     "solution": "Step 1: Hindutva is a ideology of cultural nationalism associated with the BJP and the Sangh Parivar. Step 2: It defines the Indian nation in terms of Hindu culture and heritage. Step 3: It has been used to mobilise political support and to challenge the secular nationalist framework of the Congress.",
+     "answer": "Hindutva is an ideology of Hindu cultural nationalism that the BJP uses as its core political identity"
+    },
+    {
+     "question": "Why did the BJP adopt coalition strategies in the 1990s?",
+     "solution": "Step 1: The BJP could not win a majority on its own in the early 1990s. Step 2: Coalition partners helped it expand beyond its core strongholds. Step 3: This strategy enabled it to lead national coalition governments from 1998 to 2004.",
+     "answer": "Because it lacked a majority on its own, the BJP used coalitions to widen its reach and form governments at the Centre"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Trace the rise of the BJP and explain the role of Hindutva in its growth.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did the Ayodhya movement affect the electoral fortunes of the BJP?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.3",
+   "title": "The Coalition Era",
+   "section": "Coalition Politics",
+   "definition": "The coalition era refers to the period from 1989 to 2014 in which no single party won a majority in the Lok Sabha and national governments were formed through coalitions of multiple parties, often led by a large party with regional allies.",
+   "formula": "",
+   "key_idea": "The coalition era reflected the fragmentation of the party system, the growing importance of regional parties, and the need for consensus-based governance at the Centre.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the coalition era in Indian politics?",
+    "Why did coalition governments become common after 1989?",
+    "Explain the role of regional parties in the coalition era.",
+    "What were the advantages and limitations of coalition governments?",
+    "How did coalition politics affect the nature of federalism in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the coalition era",
+     "explain": "The coalition era is the period after 1989 when national governments were formed by alliances of parties rather than a single majority party, reflecting the fragmentation of the party system."
+    },
+    {
+     "step": 2,
+     "action": "Explain the causes of coalition politics",
+     "explain": "The decline of Congress, the rise of regional and caste-based parties, and the inability of any single party to win a Lok Sabha majority made coalitions necessary to form governments."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact of the coalition era",
+     "explain": "Coalition governments gave regional parties a national role, strengthened federal bargaining, and promoted consensus politics, but they also often suffered from instability and policy compromise."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did coalition governments become common in India after 1989?",
+     "solution": "Step 1: No single party won a clear majority in the Lok Sabha after 1989. Step 2: Regional and caste-based parties gained strength and held the balance of power. Step 3: Therefore parties had to form coalitions to secure a majority and form a government.",
+     "answer": "Because no single party won a Lok Sabha majority, parties had to ally to form governments"
+    },
+    {
+     "question": "Mention one advantage and one limitation of coalition governments.",
+     "solution": "Step 1: An advantage is that coalition governments give regional parties a voice in national policy. Step 2: A limitation is that they can be unstable due to conflicting interests among partners. Step 3: Thus coalition politics both widened representation and created governance challenges.",
+     "answer": "Advantage: greater representation of regional interests; Limitation: potential instability"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, causes, and consequences of the coalition era in Indian politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did regional parties shape coalition governments at the Centre?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.4",
+   "title": "Mandal Commission and OBC Politics",
+   "section": "Caste and Social Justice",
+   "definition": "The Mandal Commission was set up in 1979 under B.P. Mandal to identify the socially and educationally backward classes and recommend reservations; its implementation in 1990 reserved 27 percent of central government jobs for Other Backward Classes (OBCs).",
+   "formula": "",
+   "key_idea": "The implementation of the Mandal recommendations politicised caste identity, expanded the OBC vote bank, and strengthened caste-based parties, deeply reshaping Indian electoral politics.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Mandal Commission and what did it recommend?",
+    "Explain the political impact of the implementation of the Mandal recommendations in 1990.",
+    "How did the Mandal policy affect caste-based parties in Indian politics?",
+    "Why was the Mandal Commission report controversial?",
+    "Assess the role of the Mandal Commission in the politics of social justice."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Mandal Commission and its recommendations",
+     "explain": "The Second Backward Classes Commission, chaired by B.P. Mandal, recommended 27 percent reservation in central government jobs for OBCs, identified through social, educational, and economic criteria."
+    },
+    {
+     "step": 2,
+     "action": "Explain the implementation in 1990",
+     "explain": "The V.P. Singh government implemented the Mandal recommendations in August 1990, extending OBC reservations to central government services, which triggered widespread debate and protests."
+    },
+    {
+     "step": 3,
+     "action": "Assess the political consequences",
+     "explain": "Mandal politicised caste identity, strengthened OBC-based parties such as the Samajwadi Party, BSP, and RJD, and shifted the axis of Indian politics from class and ideology towards caste and social justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What did the Mandal Commission recommend and when were its recommendations implemented?",
+     "solution": "Step 1: The Mandal Commission recommended 27 percent reservation for OBCs in central government jobs. Step 2: The recommendations were implemented by the V.P. Singh government in 1990. Step 3: This became a major turning point in the politics of social justice in India.",
+     "answer": "27 percent reservation for OBCs in central jobs, implemented by the V.P. Singh government in 1990"
+    },
+    {
+     "question": "How did the Mandal policy affect caste-based parties?",
+     "solution": "Step 1: Mandal gave political recognition to OBC identity and grievances. Step 2: This strengthened parties that mobilised OBC and Dalit support. Step 3: As a result caste-based parties became major players in states like Uttar Pradesh and Bihar.",
+     "answer": "Mandal strengthened OBC and Dalit-based parties and made caste a central axis of electoral politics"
+    },
+    {
+     "question": "Why was the Mandal Commission report controversial?",
+     "solution": "Step 1: Supporters saw reservations as necessary for social justice and representation. Step 2: Critics argued that caste-based reservations would divide society and undermine merit. Step 3: The controversy led to widespread protests, including self-immolations by upper-caste students.",
+     "answer": "Because it divided opinion between those who saw reservations as social justice and those who saw them as divisive and anti-merit"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the recommendations of the Mandal Commission and its impact on Indian politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the implementation of the Mandal recommendations controversial?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.5",
+   "title": "Economic Reforms of 1991",
+   "section": "New Economic Policy",
+   "definition": "The economic reforms of 1991 were a package of liberalisation, privatisation, and globalisation measures introduced by the Narasimha Rao government to overcome a severe balance of payments crisis and restructure the Indian economy.",
+   "formula": "",
+   "key_idea": "The 1991 reforms dismantled the licence-permit-quota raj, opened the economy to private investment and foreign trade, and integrated India more closely with the global economy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main features of the economic reforms of 1991?",
+    "Why were the economic reforms of 1991 introduced?",
+    "Explain the concepts of liberalisation, privatisation, and globalisation.",
+    "What was the political significance of the 1991 reforms?",
+    "Assess the impact of the New Economic Policy on Indian society."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the context of the 1991 crisis",
+     "explain": "In 1991 India faced a severe balance of payments crisis, a fiscal deficit, and falling foreign exchange reserves, which forced the government to seek an IMF loan and undertake structural reforms."
+    },
+    {
+     "step": 2,
+     "action": "Describe the main features of the reforms",
+     "explain": "The reforms included liberalisation (dismantling industrial licensing and reducing tariffs), privatisation (disinvestment in public sector units), and globalisation (opening the economy to foreign investment and trade)."
+    },
+    {
+     "step": 3,
+     "action": "Assess the political and social impact",
+     "explain": "The reforms shifted the economic consensus towards a market-oriented model, reduced the state's direct role in production, and generated debates over inequality, employment, and the welfare of vulnerable sections."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why were the economic reforms of 1991 introduced?",
+     "solution": "Step 1: India faced a balance of payments crisis and a fiscal deficit in 1991. Step 2: Foreign exchange reserves had fallen to very low levels, forcing an IMF bailout. Step 3: The government introduced liberalisation, privatisation, and globalisation to stabilise and restructure the economy.",
+     "answer": "To overcome a severe balance of payments crisis and restructure the economy through liberalisation, privatisation, and globalisation"
+    },
+    {
+     "question": "What is meant by liberalisation in the context of the 1991 reforms?",
+     "solution": "Step 1: Liberalisation means removing government controls on economic activity. Step 2: It included ending industrial licensing and reducing tariffs and quotas. Step 3: This allowed private firms greater freedom to produce and trade.",
+     "answer": "Removal of government controls such as industrial licensing and trade restrictions to allow freer private economic activity"
+    },
+    {
+     "question": "Mention one positive and one negative effect of the New Economic Policy.",
+     "solution": "Step 1: A positive effect was higher growth and a larger middle class due to liberalisation. Step 2: A negative effect was rising inequality and pressure on agriculture and small industry. Step 3: Thus the reforms produced growth but also new social challenges.",
+     "answer": "Positive: higher economic growth; Negative: rising inequality"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes, features, and impact of the economic reforms of 1991.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by globalisation as part of the 1991 reforms?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.6",
+   "title": "Ayodhya and Communal Politics",
+   "section": "Communalism and Identity",
+   "definition": "Ayodhya and communal politics refer to the political mobilisation around the disputed Ram Janmabhoomi-Babri Masjid site at Ayodhya, which became a symbol of Hindu-Muslim tension and a major issue in Indian electoral politics from the late 1980s.",
+   "formula": "",
+   "key_idea": "The Ayodhya issue deepened communal polarisation, linked religious identity to electoral competition, and raised serious concerns about the secular character of Indian politics.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Ayodhya dispute and why did it become politically significant?",
+    "How did the Ayodhya movement affect communal politics in India?",
+    "Explain the relationship between the Babri Masjid demolition and Indian politics.",
+    "What is communalism and how does it threaten secularism?",
+    "Assess the impact of the Ayodhya issue on the party system in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Ayodhya dispute",
+     "explain": "The Ayodhya dispute centred on a site claimed by Hindus as the birthplace of Lord Ram and by Muslims as the location of the Babri Masjid, making it a deeply contested religious and political issue."
+    },
+    {
+     "step": 2,
+     "action": "Explain the political mobilisation",
+     "explain": "From the late 1980s the BJP and the Vishwa Hindu Parishad led a campaign to build a Ram temple at the site, which mobilised Hindu nationalist sentiment and polarised communities along religious lines."
+    },
+    {
+     "step": 3,
+     "action": "Assess the consequences for secular politics",
+     "explain": "The demolition of the Babri Masjid on 6 December 1992 triggered communal violence, deepened religious polarisation, and posed a major challenge to the secular foundations of the Indian state."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the Ayodhya issue become politically significant in the late 1980s?",
+     "solution": "Step 1: The site was claimed by both Hindu and Muslim communities. Step 2: Political parties and organisations mobilised support around the temple-mosque issue. Step 3: This turned a local dispute into a major national political and electoral issue.",
+     "answer": "Because political mobilisation around the disputed site turned a local religious dispute into a national electoral issue"
+    },
+    {
+     "question": "What was the political impact of the demolition of the Babri Masjid in 1992?",
+     "solution": "Step 1: The demolition on 6 December 1992 led to widespread communal violence. Step 2: It deepened the divide between Hindu and Muslim communities. Step 3: It also raised serious questions about the secular character of the Indian state and party politics.",
+     "answer": "It triggered communal violence, deepened religious polarisation, and challenged the secular foundations of Indian politics"
+    },
+    {
+     "question": "How does communalism threaten secularism in India?",
+     "solution": "Step 1: Communalism uses religious identity for political mobilisation. Step 2: It sets one community against another and promotes hatred. Step 3: This undermines the constitutional principle of equal treatment of all religions that underpins secularism.",
+     "answer": "Communalism politicises religious identity and promotes conflict, undermining the secular principle of equal respect for all religions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the Ayodhya dispute and its impact on communal politics in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does communalism pose a threat to Indian secularism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.7",
+   "title": "Coalition Governments: NDA and UPA",
+   "section": "Coalition Experiments",
+   "definition": "The NDA (National Democratic Alliance) led by the BJP and the UPA (United Progressive Alliance) led by the Congress were the two major coalition formations that governed India during the coalition era, reflecting a multi-party system at the national level.",
+   "formula": "",
+   "key_idea": "The NDA and UPA represented the institutionalisation of coalition politics, in which a large national party led a front of regional and ideological allies to form stable central governments.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the NDA and the UPA in Indian politics?",
+    "Compare the NDA and UPA as coalition experiments.",
+    "How did coalition governments function under the NDA and UPA?",
+    "What role did regional allies play in the NDA and UPA governments?",
+    "Assess the significance of the NDA and UPA for the Indian party system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the formation of the NDA",
+     "explain": "The NDA was a coalition led by the BJP, formed in 1998, which included regional parties such as the TDP, Akali Dal, and later the JD(U), and governed at the Centre from 1998 to 2004 under Prime Minister Atal Bihari Vajpayee."
+    },
+    {
+     "step": 2,
+     "action": "Describe the formation of the UPA",
+     "explain": "The UPA was a coalition led by the Congress, formed after the 2004 elections, which included the Left (initially from outside), the DMK, NCP, and RJD, and governed from 2004 to 2014 under Prime Minister Manmohan Singh."
+    },
+    {
+     "step": 3,
+     "action": "Compare and assess the two coalitions",
+     "explain": "Both the NDA and UPA showed that stable coalition governments were possible at the Centre, that regional allies wielded significant influence, and that coalition politics had become a normal feature of the Indian party system."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the NDA and which party led it?",
+     "solution": "Step 1: The NDA was a coalition of parties formed in 1998. Step 2: It was led by the BJP and included several regional parties. Step 3: It formed the central government under Atal Bihari Vajpayee from 1998 to 2004.",
+     "answer": "The National Democratic Alliance, a BJP-led coalition that governed from 1998 to 2004"
+    },
+    {
+     "question": "What was the UPA and how was it formed?",
+     "solution": "Step 1: The UPA was formed after the 2004 elections when no single party got a majority. Step 2: It was led by the Congress and supported by regional parties and initially the Left. Step 3: It formed the government under Manmohan Singh from 2004 to 2014.",
+     "answer": "The United Progressive Alliance, a Congress-led coalition that governed from 2004 to 2014"
+    },
+    {
+     "question": "What does the experience of the NDA and UPA tell us about Indian politics?",
+     "solution": "Step 1: Both coalitions completed full or near-full terms in office. Step 2: Regional allies played a key role in policy and survival. Step 3: This showed that stable coalition governance had become a normal feature of Indian politics.",
+     "answer": "That stable coalition governments led by a large national party with regional allies had become a normal feature of the Indian party system"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare and contrast the NDA and UPA as coalition experiments in Indian politics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role did regional allies play in the functioning of the NDA and UPA governments?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.9",
+   "title": "India in the New World Order",
+   "section": "Foreign Policy after the Cold War",
+   "definition": "India in the new world order refers to the reorientation of Indian foreign policy after the end of the Cold War and the disintegration of the USSR, as India adapted to a unipolar world, economic globalisation, and new strategic partnerships.",
+   "formula": "",
+   "key_idea": "After the Cold War India moved from non-alignment to a multi-directional foreign policy, deepened economic engagement with the global economy, and built new strategic relationships with the United States, Russia, and other powers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the end of the Cold War affect India's foreign policy?",
+    "Explain the changes in India's foreign policy after 1991.",
+    "What is meant by a multi-directional foreign policy?",
+    "How did economic reforms influence India's role in the world?",
+    "Assess India's relations with the United States in the post-Cold War period."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the impact of the end of the Cold War",
+     "explain": "The disintegration of the USSR in 1991 ended the bipolar world and removed India's most reliable strategic partner, forcing a reorientation of foreign policy in a unipolar world dominated by the United States."
+    },
+    {
+     "step": 2,
+     "action": "Describe the shift to a multi-directional foreign policy",
+     "explain": "India adopted a pragmatic, multi-directional approach, building ties with the US, strengthening relations with Russia, engaging with the European Union, and deepening cooperation with neighbours and regional groupings."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of economic reforms and new partnerships",
+     "explain": "The 1991 economic reforms integrated India with the global economy, while the India-US civil nuclear agreement (2005) marked a new strategic partnership and signalled India's emergence as a major power in the new world order."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the end of the Cold War affect India's foreign policy?",
+     "solution": "Step 1: The collapse of the USSR removed India's key strategic partner. Step 2: The world became unipolar with the US as the dominant power. Step 3: India therefore reoriented its foreign policy towards a pragmatic, multi-directional approach.",
+     "answer": "The end of the Cold War forced India to move from non-alignment to a pragmatic, multi-directional foreign policy in a unipolar world"
+    },
+    {
+     "question": "What is meant by a multi-directional foreign policy?",
+     "solution": "Step 1: A multi-directional policy seeks good relations with all major powers. Step 2: It avoids dependence on any single bloc. Step 3: India pursued ties with the US, Russia, the EU, and regional neighbours simultaneously.",
+     "answer": "A foreign policy that builds relations with all major powers and regions rather than aligning with any single bloc"
+    },
+    {
+     "question": "How did the India-US civil nuclear agreement reflect India's new role in the world?",
+     "solution": "Step 1: The 2005 agreement marked a major strategic partnership with the US. Step 2: It ended India's nuclear isolation and recognised it as a responsible nuclear state. Step 3: This signalled India's emergence as a major power in the new world order.",
+     "answer": "The 2005 civil nuclear agreement signalled a new strategic partnership with the US and India's emergence as a major power"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the changes in India's foreign policy after the end of the Cold War.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did economic reforms and new partnerships shape India's role in the new world order?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.15.10",
+   "title": "Consolidation of Democracy and Contemporary Challenges",
+   "section": "Assessment of Recent Developments",
+   "definition": "The consolidation of democracy refers to the deepening and stabilisation of democratic institutions and practices in India despite the challenges of communalism, caste politics, economic inequality, and regional conflicts in the post-1989 period.",
+   "formula": "",
+   "key_idea": "Recent developments show that Indian democracy has become more inclusive and participatory through coalition politics, decentralisation, and social justice, even as it faces persistent challenges of communal polarisation and inequality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How has Indian democracy consolidated itself since 1989?",
+    "What are the major challenges facing Indian democracy today?",
+    "Assess the role of coalition politics in deepening democracy.",
+    "How have social justice movements affected Indian democracy?",
+    "Evaluate the achievements and limitations of Indian democracy in recent decades."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the achievements of consolidation",
+     "explain": "Since 1989 Indian democracy has become more inclusive through the rise of regional and caste-based parties, the implementation of Mandal reservations, and the constitutionalisation of local government, widening political participation."
+    },
+    {
+     "step": 2,
+     "action": "Identify the continuing challenges",
+     "explain": "Challenges include communal polarisation, caste-based conflict, economic inequality, corruption, and regional insurgencies, which continue to test the resilience of democratic institutions."
+    },
+    {
+     "step": 3,
+     "action": "Assess the overall trajectory",
+     "explain": "Despite these challenges, regular elections, a free press, an independent judiciary, and an active civil society have sustained democratic governance, showing that Indian democracy has both deepened and diversified in the post-1989 period."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has Indian democracy become more inclusive since 1989?",
+     "solution": "Step 1: Regional and caste-based parties have given voice to marginalised groups. Step 2: Mandal reservations and decentralisation have widened participation. Step 3: Together these changes have made democracy more representative and inclusive.",
+     "answer": "Through the rise of regional and caste-based parties, Mandal reservations, and decentralisation, Indian democracy has become more inclusive"
+    },
+    {
+     "question": "Mention two major challenges facing Indian democracy today.",
+     "solution": "Step 1: Communal polarisation threatens social harmony and secularism. Step 2: Economic inequality and corruption undermine social justice. Step 3: These challenges require continuous democratic engagement to address.",
+     "answer": "Communal polarisation and economic inequality are two major challenges facing Indian democracy"
+    },
+    {
+     "question": "Evaluate the overall trajectory of Indian democracy in recent decades.",
+     "solution": "Step 1: Democracy has deepened through wider participation and stronger institutions. Step 2: It has diversified with the rise of new parties and social groups. Step 3: Despite serious challenges, regular elections and an active civil society have kept democracy resilient.",
+     "answer": "Indian democracy has deepened and diversified despite persistent challenges, remaining resilient through regular elections and active institutions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Assess the achievements and challenges of Indian democracy since 1989.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How have coalition politics and social justice movements contributed to the deepening of democracy?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps208.txt",
+   "concept": "c12ps.15.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why is the 1989 general election considered a turning point in Indian politics?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Before 1989 the Congress party",
+     "explain": "Before 1989 the Congress party usually won a majority on its own."
+    },
+    {
+     "step": 2,
+     "action": "In 1989 no single party",
+     "explain": "In 1989 no single party got a clear majority and a coalition government was formed with outside support."
+    },
+    {
+     "step": 3,
+     "action": "This ended the era of",
+     "explain": "This ended the era of one-party dominance and opened the era of coalition governments at the Centre."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps208.txt",
+   "concept": "c12ps.15.1",
+   "question_type": "short_answer",
+   "question_pattern": "Mention two factors that weakened the Congress system.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The internal split of 1969",
+     "explain": "The internal split of 1969 and the subsequent factionalism reduced organisational unity."
+    },
+    {
+     "step": 2,
+     "action": "The Emergency of 1975-77 damaged",
+     "explain": "The Emergency of 1975-77 damaged the party's democratic credibility."
+    },
+    {
+     "step": 3,
+     "action": "Together these factors eroded the",
+     "explain": "Together these factors eroded the broad social coalition that had sustained Congress dominance."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_001",
+   "title": "c12_cs_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a text file and a binary file in terms of how data is stored and interpreted by Python?",
+     "a": "A text file stores data as encoded characters (e.g., UTF-8, ASCII) where each byte or byte-sequence represents a human-readable character; Python automatically handles encoding/decoding when opening in text mode. A binary file stores raw bytes without any character encoding; Python returns bytes objects and performs no translation. A wrong answer (e.g., \"text files are .txt and binary files are .dat\") reveals the student confuses file extension with storage format — the same file can be opened in either mode, but interpretation differs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a Python program that opens a file in 'w' mode, writes \"Hello\", closes it, then reopens the same file in 'r' mode and reads it. They claim the file now contains \"HelloHello\" because 'w' appends. Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. Opening a file in 'w' (write) mode truncates the file to zero length before writing — it does NOT append. The file will contain only \"Hello\". If the student thought 'w' appends, they are confusing 'w' with 'a' (append) mode. This misconception is extremely common and causes data loss in board practicals when students intend to add records but overwrite the entire file instead.",
+     "self_check": true
+    },
+    {
+     "q": "You have a CSV file \"marks.csv\" containing student names and marks (text data). You also have a compiled Python module \"mymodule.pyc\" (bytecode). Which file should be opened in text mode ('r') and which in binary mode ('rb')? Justify your choice for each.",
+     "a": "\"marks.csv\" should be opened in text mode ('r') because it contains human-readable character data (comma-separated values) that Python should decode using the default encoding (UTF-8) into str objects for easy processing (split, strip, int conversion). \"mymodule.pyc\" must be opened in binary mode ('rb') because it contains raw bytecode — non-text bytes that have no valid character encoding; opening in text mode would raise UnicodeDecodeError or produce corrupted data. A wrong assignment shows the student cannot match file content type to the correct mode.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two scenarios: (A) A program writes a list of integers [10, 20, 30] to a file using text mode with str() conversion. (B) The same list is written using pickle.dump() in binary mode. Analyse the differences in (i) file size, (ii) human readability, (iii) ease of reading back into a Python list, and (iv) cross-language portability.",
+     "a": "(A) Text mode: larger file size (characters \"10, 20, 30\" plus delimiters), human-readable in any editor, requires manual parsing (split, int) to reconstruct list, portable to any language (CSV-like). (B) Binary pickle: smaller (compact binary representation), not human-readable (garbage in text editor), trivial to read back with pickle.load() directly into list, Python-specific (not portable). A student who says \"both are same\" misses the core trade-off: text for interoperability, binary for Python-specific efficiency and fidelity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since binary files are more compact and faster, we should always use binary mode for all file operations in Python.\" Defend or refute with at least three concrete arguments.",
+     "a": "Refute. Arguments: (1) Human readability & debugging: text files (logs, config, CSV) can be inspected/edited with Notepad, vi, Excel — critical for maintenance. (2) Interoperability: text (JSON, CSV, XML) is language-agnostic; pickle is Python-only. (3) Encoding control: text mode lets you specify encoding (utf-8, utf-16) for internationalisation; binary mode gives raw bytes — you must handle encoding manually. (4) Simplicity: for simple data (marks, names), text mode with split() is easier than struct/pickle. A student who agrees ignores real-world software engineering constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where choosing the wrong file mode (text vs binary) would cause a silent data corruption bug that is hard to detect. Describe the scenario, the wrong mode used, the symptom, and why it is silent.",
+     "a": "Scenario: A banking app stores transaction records (date, amount, account) using Python's pickle in binary mode. A developer later decides to \"view\" the file and opens it in text mode ('r') to print contents, then accidentally saves it (e.g., via an editor auto-save). The pickle byte stream gets corrupted by UTF-8 decoding/re-encoding (invalid bytes replaced, newline translation on Windows). Symptom: Next run, pickle.load() raises EOFError or unpicklingError — but only for that file; other files work. Silent because: no error at save time, corruption detected only on next read, and the developer may blame \"pickle bug\" not their text-mode edit. Correct answer must identify newline translation (CRLF↔LF) and encoding replacement as the silent corruption mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

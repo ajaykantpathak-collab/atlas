@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_007",
+   "title": "c12_bio_cbse_05_007",
+   "questions": [
+    {
+     "q": "In Morgan's classic experiment, a test cross between an F1 heterozygous female Drosophila (grey body, normal wings) and a double recessive male (black body, vestigial wings) produced 987 grey-normal, 987 black-vestigial, 206 grey-vestigial, and 185 black-normal offspring. What is the recombination frequency between the body colour and wing shape genes?",
+     "a": "Recombination frequency = (Recombinant offspring / Total offspring) × 100 = ((206 + 185) / (987+987+206+185)) × 100 = (391 / 2365) × 100 ≈ 16.5%. A wrong answer (e.g., 50%) reveals the student assumes independent assortment and ignores linkage; a calculation error like using only one recombinant class shows misunderstanding that both reciprocal recombinant types must be summed.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Morgan choose Drosophila melanogaster for his linkage studies, and what specific feature of Drosophila males makes them unique for linkage analysis?",
+     "a": "Morgan chose Drosophila because of its short life cycle (∼10 days at 25°C), high fecundity, easily visible mutations, and only four chromosome pairs. Crucially, Drosophila males show **complete absence of crossing over** (achiasmy), so all gametes from a heterozygous male are parental types. This allows unambiguous detection of linkage in test crosses without recombination in the male parent. A wrong answer that only lists general advantages (short life cycle) misses the critical male-specific feature that simplifies linkage analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a test cross for two linked genes A and B with a recombination frequency of 12%. The heterozygous parent is in coupling phase (AB/ab). If 500 offspring are scored, how many are expected to show the recombinant phenotypes? Show the calculation.",
+     "a": "Recombinant frequency = 12% → expected recombinant offspring = 0.12 × 500 = 60. Since coupling phase produces parental gametes AB and ab, the recombinant phenotypes are Ab and aB, each expected at half the recombinant frequency: 30 each. A wrong answer of 12 (using 12% of 100) or 240 (using 48%) indicates confusion between percentage and proportion, or misidentification of parental vs recombinant classes.",
+     "self_check": true
+    },
+    {
+     "q": "In a three-point test cross involving genes X, Y, and Z, the following recombination frequencies are observed: X-Y = 8%, Y-Z = 15%, X-Z = 7%. What is the correct gene order, and why does the sum of X-Y and Y-Z not equal X-Z?",
+     "a": "The correct order is X-Z-Y (or Y-Z-X). The distance X-Z (7%) is less than X-Y (8%) and Y-Z (15%), so Z must lie between X and Y. The sum X-Y + Y-Z = 23% ≠ X-Z (7%) because double crossovers between X and Y are not counted in the X-Z recombination frequency; they restore parental combinations for the outer markers. A student who orders X-Y-Z fails to recognize that the smallest recombination frequency corresponds to the outermost genes when a middle gene exists.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If two genes are 50 map units apart on the same chromosome, they assort independently.\" Is it true or false? Justify your answer with reference to recombination frequency and the physical basis of independent assortment.",
+     "a": "True. At 50 map units (50% recombination frequency), the genes are either far apart on the same chromosome or on different chromosomes. Crossing over occurs so frequently between them that recombinant and parental gametes are produced in equal proportions (1:1:1:1), mimicking independent assortment. However, they are still physically linked on the same chromosome; independent assortment here is a statistical outcome, not a chromosomal segregation mechanism. A \"false\" answer usually confuses physical linkage with genetic independence, ignoring that 50% RF is the maximum observable recombination frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Drosophila cross to determine whether two new mutations — curled wings (cu) and ebony body (e) — are linked or on different chromosomes. Specify the parental genotypes, the cross scheme, and the phenotypic ratios you would expect in the test-cross progeny for both linkage and independent assortment.",
+     "a": "Parental cross: homozygous wild-type (cu⁺ e⁺ / cu⁺ e⁺) × homozygous double mutant (cu e / cu e). F1 females are heterozygous (cu⁺ e⁺ / cu e) in coupling phase. Test cross: F1 female × double mutant male (cu e / cu e). If linked with RF = 20%, expect ∼40% parental (wild-type, curled-ebony) and ∼10% each recombinant (curled, ebony). If unlinked (independent assortment), expect 1:1:1:1 ratio (25% each). A poor design omits the test cross, uses males for recombination detection, or fails to specify coupling/repulsion phase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

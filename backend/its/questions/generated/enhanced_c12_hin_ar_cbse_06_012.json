@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_06_012",
+   "title": "c12_hin_ar_cbse_06_012",
+   "questions": [
+    {
+     "q": "Classify each of the four vH;kl questions from the chapter as Literal (L) or Inferential (I):\n1. vfLFkj lq[k ij nq[k dh Nk;k iafDr esa nq[k dh Nk;k fdls dgk x;k gS vkSj D;ksa\\\n2. v'kfu&ikr ls 'kkfir mÂr 'kr&'kr ohj iafDr esa fdldh vksj laosQr fd;k x;k gS\\\n3. foIyo&jo ls NksVs gh gSa 'kksHkk ikrs iafDr esa foIyo&jo ls D;k rkRi;Z gS\\ NksVs gh gSa 'kksHkk ikrs ,slk D;ksa dgk x;k gS\\\n4. cknyksa osQ vkxeu ls izo`Qfr esa gksus okys fdu&fdu ifjorZuksa dks dfork js[kkafdr djrh gS\\",
+     "a": "Correct classification: 1=L, 2=I, 3=I, 4=I.\nQuestion 1 asks for a direct detail from stanza 1 (nq[k dh Nk;k = clouds). Questions 2-4 require interpreting metaphors (v'kfu&ikr = lightning, foIyo&jo = horizon, cknyksa = clouds) and connecting them to the poem's social commentary. A student who labels all as Literal reveals they cannot distinguish explicit statement from implied meaning — they will copy lines without analysis and lose 50% marks on inferential questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Question 2 (\"v'kfu&ikr ls 'kkfir mÂr 'kr&'kr ohj...\") is inferential, not literal. What specific cognitive step must you take that you don't take for Question 1?",
+     "a": "Question 1's answer (\"nq[k dh Nk;k = ckny\") is explicitly named in the first stanza. Question 2 asks \"fdldh vksj laosQr fd;k x;k gS\" — the poem describes lightning's sound (\"'kr&'kr ohj\") but never states whose arrival it announces. You must infer from context: lightning precedes rain, so it announces the cloud's (or rain's) arrival. The extra cognitive step is **bridging**: using real-world knowledge (lightning → rain) + textual clue (lightning described in cloud poem) to supply missing information. Students who treat this as literal will search for a name in the text, find none, and write \"not given\" — scoring zero.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 3-step inferential chain to Question 3. Step 1: Quote the exact two lines containing \"foIyo&jo\" and \"NksVs\". Step 2: Explain the metaphorical meaning of each term in the poem's social context. Step 3: Synthesize why the poet says thunder roars only when clouds are far from the horizon.",
+     "a": "Step 1 lines: \"foIyo&jo ls NksVs gh gSa 'kksHkk ikrs\" (stanza 2) and \"foIyo&jo ls NksVs gh gSa 'kksHkk ikrs\" (repeated).\nStep 2: \"foIyo&jo\" (horizon) = the boundary where sky meets earth, symbolizing the oppressive power structure; \"NksVs\" (clouds) = marginalized communities (farmers, laborers) who gather strength away from direct scrutiny.\nStep 3: Thunder (\"kksHkk\") = collective protest/voice. It \"roars\" only when clouds are \"NksVs\" (far from horizon) because the oppressed find their voice only when they organize away from the immediate gaze of power. A student who stops at Step 1 (just quoting) gets 1/3 marks; missing Step 3 (theme connection) loses the remaining 2 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Question 4 (\"cknyksa osQ vkxeu ls izo`Qfr esa gksus okys ifjorZuksa\") with Question 1. Both ask about clouds, but Question 4 demands analysis of *multiple* transformations across the poem. Identify three distinct transformations described in different stanzas and explain how the poet links them to the central theme of \"fuekZ.k\" (creation/renewal).",
+     "a": "Three transformations:\n1. Stanza 1: Clouds gather from \"vaxuk&vax\" (scattered fragments) → unified mass (\"gkM+&ek=k\") — physical aggregation.\n2. Stanza 2: Clouds move from \"lehj&lkxj\" (mountain peaks) → \"xjeh\" (plains) — geographical descent bringing water to parched land.\n3. Stanza 3: Clouds transform from \"vkrad&Hkou\" (thunder-houses) → \"ty&foIyo&Iykou\" (water-horizon-abodes) — functional shift from noise to nourishment.\nLink to \"fuekZ.k\": Each transformation enables renewal — aggregation creates rain-capacity, descent delivers water to crops, functional shift completes the cycle. Students who list only one transformation (e.g., \"clouds bring rain\") treat this as literal recall and miss the \"fdu&fdu\" (which ones, plural) — scoring 1/3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to Question 3: \"foIyo&jo ls NksVs gh gSa 'kksHkk ikrs kyuki baadal door hote hain to awaz aati hai.\" Does it demonstrate inferential comprehension? Justify with reference to the marking scheme expectation for a 3-mark question.",
+     "a": "No. The answer gives a *physical* reason (sound travels far) but the poem uses \"foIyo&jo\" and \"NksVs\" metaphorically. CBSE marking scheme for 3-mark inferential questions requires: (1) identification of metaphor (1 mark), (2) explanation of social symbolism (1 mark), (3) connection to theme of resistance/renewal (1 mark). This answer scores 0/3 because it ignores the metaphor entirely — a classic \"literal trap\" where students apply real-world physics to a symbolic text. The error reveals the student cannot shift from denotative to connotative reading.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for this poem that tests the same skill as Question 3 (metaphor interpretation + theme connection) but focuses on a different image. Provide the question, the two key lines you'd expect students to quote, and the 3-step ideal answer structure.",
+     "a": "Question: \"dfork esa 'gkM+&ek=k' tSls lacksèku dk iz;ksx dj dfo cknyksa dks fdl :i esa prdarshit djrk gS\\ ;g lacksèku fuekZ.k osQ dkSu lk lk/ku cu ldrk gS\\\"\nKey lines: \"gkM+&ek=k gh gS vkèkkj] ,s thou osQ ikjkokj!\" (stanza 3)\nIdeal 3-step answer:\n1. Quote: \"gkM+&ek=k gh gS vkèkkj\" — the poet calls clouds \"gkM+&ek=k\" (dark/black ink).\n2. Metaphor: \"gkM+&ek=k\" = the underestimated, dark-skinned laboring masses whose labor writes the story of civilization (\"thou osQ ikjkokj\").\n3. Theme link: Just as ink creates enduring script, the clouds' dark mass creates life-giving rain — the marginalized create society's sustenance. A good student answer mirrors this structure; a poor answer explains \"gkM+&ek=k\" as literal dark color, missing the social metaphor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

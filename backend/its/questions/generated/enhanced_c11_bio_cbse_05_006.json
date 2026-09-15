@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_006",
+   "title": "c11_bio_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define the term 'staminode' and give one example of a plant where it occurs.",
+     "a": "A staminode is a sterile stamen that does not produce functional pollen grains; it may be reduced or modified. Example: In Salvia, the posterior two stamens are reduced to staminodes. A wrong answer (e.g., \"staminode is a type of pistil\") reveals confusion between male and female reproductive structures and failure to recognize that sterility can occur in stamens.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ovary in a pea flower is described as having marginal placentation, while in tomato it is axile.",
+     "a": "In pea (monocarpellary), the single carpel's ventral suture forms a ridge bearing ovules in two rows — marginal placentation. In tomato (syncarpous, bilocular), fused carpels create a central axis with ovules attached — axile placentation. A wrong answer (e.g., \"both are marginal because they have ovules\") shows inability to link carpel fusion (syncarpous vs apocarpous) to placentation type and misunderstanding of septa formation.",
+     "self_check": true
+    },
+    {
+     "q": "A flower has 5 stamens: filaments of 4 are fused into two bundles of two each, the fifth is free. The anthers are attached to the petals. Identify the cohesion type and adhesion type. Write the androecium part of the floral formula.",
+     "a": "Cohesion: diadelphous (two bundles). Adhesion: epipetalous (attached to petals). Floral formula: A(2+2)+1 or A(2)+ (2)+1 depending on convention. A wrong answer (e.g., \"monadelphous\" or \"epiphyllous\") reveals confusion between number of bundles (diadelphous vs monadelphous) and misidentification of adhesion to perianth (epiphyllous) vs corolla (epipetalous).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the gynoecium of lotus (apocarpous) and mustard (syncarpous) with respect to: (a) number of carpels, (b) fruit type after fertilization, (c) representation in floral diagram.",
+     "a": "(a) Lotus: many free carpels; Mustard: two fused carpels. (b) Lotus: aggregate fruit (etaerio of achenes); Mustard: siliqua (dehiscent capsule from syncarpous ovary). (c) Lotus: multiple separate G symbols in floral diagram; Mustard: single G(2) with bracket indicating fusion. A wrong answer (e.g., \"both give capsule\") shows failure to connect carpel fusion to fruit morphology and misunderstanding of floral diagram symbols for cohesion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a hypogynous flower, the ovary is always superior and the androecium is always epipetalous.\" Justify with examples.",
+     "a": "The statement is false. Hypogynous means gynoecium occupies highest position (superior ovary) but androecium adhesion is independent: mustard (hypogynous) has polyandrous stamens (free, not epipetalous); brinjal (hypogynous) has epipetalous stamens. A wrong answer (e.g., \"true because hypogynous implies epipetalous\") reveals conflation of thalamus position (hypogynous/perigynous/epigynous) with stamen adhesion (epipetalous/epiphyllous).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dissection activity using locally available flowers (e.g., datura, china rose, pea, mustard) to demonstrate all five placentation types. List materials, steps, and observations to record.",
+     "a": "Materials: flowers, blade, needle, hand lens, watch glass, water. Steps: (1) Select flowers representing each placentation: pea (marginal), china rose (axile), mustard (parietal), dianthus (free central), sunflower (basal). (2) Make vertical section of ovary. (3) Observe ovule arrangement. (4) Draw labeled diagrams. (5) Tabulate: flower, carpel number, fusion, placentation type. A poor answer (e.g., \"just look at ovaries\") shows lack of systematic comparative approach and inability to link ovary morphology to placentation classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

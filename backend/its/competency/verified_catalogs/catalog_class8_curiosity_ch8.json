@@ -1,0 +1,572 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Nature of Matter - Elements, Compounds, and Mixtures",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu108.txt",
+ "concepts": [
+  {
+   "id": "c8cu.8.1",
+   "title": "Elements - Metals, Non-metals, and Metalloids",
+   "section": "8.1",
+   "definition": "An element is a pure substance that cannot be broken down into simpler substances by chemical means; elements are classified as metals, non-metals, and metalloids based on their properties.",
+   "formula": "",
+   "key_idea": "Elements are the simplest pure substances and are grouped into metals, non-metals, and metalloids.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an element",
+    "how are elements classified",
+    "what are metals non-metals and metalloids",
+    "give examples of metals and non-metals",
+    "what is the difference between a metal and a non-metal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define an element",
+     "explain": "An element is a pure substance made of only one kind of atom and cannot be split into simpler substances chemically."
+    },
+    {
+     "step": 2,
+     "action": "classify the elements",
+     "explain": "Elements are divided into metals (e.g., iron, copper), non-metals (e.g., oxygen, sulphur), and metalloids (e.g., silicon, boron) based on their properties."
+    },
+    {
+     "step": 3,
+     "action": "give examples",
+     "explain": "Metals are lustrous and conduct electricity; non-metals are dull and poor conductors; metalloids show properties intermediate between metals and non-metals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the following as metal, non-metal, or metalloid: copper, oxygen, silicon.",
+     "solution": "Copper is a metal because it is lustrous and conducts electricity; oxygen is a non-metal as it is a gas and a poor conductor; silicon is a metalloid as it shows intermediate properties.",
+     "answer": "Copper - metal, Oxygen - non-metal, Silicon - metalloid."
+    },
+    {
+     "question": "Why is silicon called a metalloid?",
+     "solution": "Silicon has some properties of metals (lustre) and some of non-metals (brittle, semiconductor), so it is classified as a metalloid.",
+     "answer": "Because it shows properties of both metals and non-metals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an element? Give two examples each of metals and non-metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What are metalloids? Give one example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.2",
+   "title": "Compounds - Organic and Inorganic",
+   "section": "8.2",
+   "definition": "A compound is a pure substance made of two or more elements chemically combined in a fixed ratio; compounds are classified as organic (carbon-based) or inorganic.",
+   "formula": "",
+   "key_idea": "Compounds are formed by the chemical combination of elements in a fixed proportion and have properties different from their constituents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a compound",
+    "how is a compound different from an element",
+    "what are organic and inorganic compounds",
+    "give examples of organic and inorganic compounds",
+    "why do compounds have a fixed composition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define a compound",
+     "explain": "A compound is a pure substance formed when two or more elements combine chemically in a fixed ratio."
+    },
+    {
+     "step": 2,
+     "action": "classify compounds",
+     "explain": "Organic compounds contain carbon (e.g., methane, sugar); inorganic compounds generally do not contain carbon (e.g., water, sodium chloride)."
+    },
+    {
+     "step": 3,
+     "action": "state the key property",
+     "explain": "A compound has properties different from its constituent elements and its composition is always fixed by mass."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Water is a compound. Justify this statement.",
+     "solution": "Water is made of hydrogen and oxygen combined chemically in the fixed ratio 1:8 by mass, and its properties are different from hydrogen and oxygen, so it is a compound.",
+     "answer": "Water has a fixed composition and properties different from its elements."
+    },
+    {
+     "question": "Classify common salt and sugar as organic or inorganic compounds.",
+     "solution": "Common salt (NaCl) does not contain carbon, so it is inorganic; sugar contains carbon, so it is an organic compound.",
+     "answer": "Common salt - inorganic, Sugar - organic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a compound. How does it differ from an element?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples each of organic and inorganic compounds.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.3",
+   "title": "Mixtures - Homogeneous and Heterogeneous",
+   "section": "8.3",
+   "definition": "A mixture is formed when two or more substances are combined physically without any chemical reaction; mixtures are homogeneous when the components are uniformly distributed and heterogeneous when they are not.",
+   "formula": "",
+   "key_idea": "Mixtures retain the properties of their components and can be homogeneous or heterogeneous.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a mixture",
+    "what are homogeneous and heterogeneous mixtures",
+    "give examples of homogeneous and heterogeneous mixtures",
+    "how is a mixture different from a compound",
+    "why do mixtures not have a fixed composition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define a mixture",
+     "explain": "A mixture is obtained by mixing two or more substances physically, with no chemical reaction between them."
+    },
+    {
+     "step": 2,
+     "action": "classify mixtures",
+     "explain": "A homogeneous mixture has a uniform composition throughout (e.g., salt in water); a heterogeneous mixture has visibly distinct components (e.g., sand in water)."
+    },
+    {
+     "step": 3,
+     "action": "state the key property",
+     "explain": "The components of a mixture retain their individual properties and the composition is not fixed, so they can be separated by physical methods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is a solution of salt in water homogeneous or heterogeneous? Give a reason.",
+     "solution": "Salt dissolves uniformly in water so the composition is the same throughout, making it a homogeneous mixture.",
+     "answer": "Homogeneous, because the salt is uniformly distributed."
+    },
+    {
+     "question": "Classify a mixture of oil and water as homogeneous or heterogeneous.",
+     "solution": "Oil and water do not mix and form two visible layers, so the composition is not uniform; it is a heterogeneous mixture.",
+     "answer": "Heterogeneous, because the components are visibly distinct."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a mixture. Give one example each of a homogeneous and a heterogeneous mixture.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does a mixture not have a fixed boiling point unlike a compound?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.4",
+   "title": "Separation of Mixtures",
+   "section": "8.4",
+   "definition": "The components of a mixture can be separated by physical methods such as filtration, evaporation, distillation, sedimentation, decantation, magnetic separation, and chromatography, based on differences in their physical properties.",
+   "formula": "",
+   "key_idea": "Mixtures are separated using methods that exploit differences in particle size, boiling point, density, or magnetic property.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how can a mixture be separated",
+    "what is filtration and where is it used",
+    "how is salt obtained from sea water",
+    "explain the method of distillation",
+    "how will you separate a mixture of sand and salt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the components and their properties",
+     "explain": "Determine the physical properties such as solubility, particle size, boiling point, or magnetic nature that differ between the components."
+    },
+    {
+     "step": 2,
+     "action": "choose the separation method",
+     "explain": "Filtration separates insoluble solids from liquids; evaporation recovers a dissolved solid; distillation separates miscible liquids by boiling point; magnetic separation removes magnetic solids."
+    },
+    {
+     "step": 3,
+     "action": "carry out and verify",
+     "explain": "Apply the chosen method and check that each separated component retains its original properties."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How will you separate a mixture of sand and common salt?",
+     "solution": "Add water to dissolve the salt, filter to remove sand, then evaporate the filtrate to recover salt. Filtration separates sand and evaporation recovers salt.",
+     "answer": "Dissolve, filter to get sand, evaporate filtrate to get salt."
+    },
+    {
+     "question": "How is pure water obtained from sea water?",
+     "solution": "Sea water is heated so water evaporates, leaving salt behind; the water vapour is then condensed to obtain pure water by distillation.",
+     "answer": "By distillation -- evaporation followed by condensation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how you would separate a mixture of iron filings and sulphur powder.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the process of obtaining salt from sea water.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.5",
+   "title": "Differences Between Mixtures and Compounds",
+   "section": "8.5",
+   "definition": "Mixtures are formed by physical combination with variable composition and retain component properties, while compounds are formed by chemical combination in a fixed ratio with new properties.",
+   "formula": "",
+   "key_idea": "Mixtures are physical combinations with variable composition; compounds are chemical combinations with fixed composition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how is a mixture different from a compound",
+    "state three differences between mixtures and compounds",
+    "why do compounds have a fixed composition but mixtures do not",
+    "can the components of a compound be separated by physical methods",
+    "compare mixtures and compounds with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare formation",
+     "explain": "Mixtures are formed by physical mixing; compounds are formed by chemical reaction between elements."
+    },
+    {
+     "step": 2,
+     "action": "compare composition",
+     "explain": "Mixtures have variable composition; compounds always have a fixed ratio of elements by mass."
+    },
+    {
+     "step": 3,
+     "action": "compare properties and separation",
+     "explain": "Components of a mixture retain their properties and can be separated physically; a compound has new properties and can only be separated into elements by chemical methods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Air is a mixture but water is a compound. Justify.",
+     "solution": "Air has variable composition and its components (oxygen, nitrogen) retain their properties and can be separated physically; water has a fixed ratio of hydrogen and oxygen (1:8 by mass) and can only be split chemically, so it is a compound.",
+     "answer": "Air - variable composition, physical separation; Water - fixed composition, chemical separation."
+    },
+    {
+     "question": "Why can the components of a mixture be separated by physical means but those of a compound cannot?",
+     "solution": "In a mixture no chemical bond forms between components, so physical methods work. In a compound the elements are chemically bonded, so only chemical reactions can separate them.",
+     "answer": "Mixtures have no chemical bonds; compounds do."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Tabulate three differences between mixtures and compounds.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do the components of a mixture retain their original properties?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.6",
+   "title": "Symbols of Elements",
+   "section": "8.6",
+   "definition": "Each element is represented by a chemical symbol, usually the first letter or the first letter and another letter of its English or Latin name, with the first letter always capitalised.",
+   "formula": "",
+   "key_idea": "Symbols provide a shorthand, universal way to represent elements in chemical equations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the symbol of an element",
+    "why are symbols used for elements",
+    "write the symbols of common elements",
+    "why is the symbol of sodium Na and not S",
+    "how are symbols of elements derived"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule for symbols",
+     "explain": "A symbol is the first letter (capitalised) or the first letter plus a second small letter of the element's name."
+    },
+    {
+     "step": 2,
+     "action": "handle Latin-derived symbols",
+     "explain": "Some symbols come from Latin names, e.g., Na from Natrium (sodium), K from Kalium (potassium), Fe from Ferrum (iron)."
+    },
+    {
+     "step": 3,
+     "action": "give common examples",
+     "explain": "Hydrogen is H, oxygen is O, carbon is C, copper is Cu, and gold is Au; the first letter is always a capital."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the chemical symbols of sodium, potassium, iron, and copper.",
+     "solution": "Sodium is Na (from Natrium), potassium is K (from Kalium), iron is Fe (from Ferrum), and copper is Cu (from Cuprum).",
+     "answer": "Na, K, Fe, Cu."
+    },
+    {
+     "question": "Why is the symbol of carbon C and not c?",
+     "solution": "The first letter of a symbol is always written as a capital to avoid confusion with other elements; a small c could be mistaken for another element.",
+     "answer": "The first letter of a symbol must be a capital letter."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the symbols of the following elements: hydrogen, oxygen, nitrogen, chlorine, gold.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are some symbols of elements different from their English names? Give two examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.7",
+   "title": "Chemical Formulas of Compounds",
+   "section": "8.7",
+   "definition": "A chemical formula uses the symbols of the constituent elements along with numbers to show the exact number of atoms of each element present in one molecule of a compound.",
+   "formula": "",
+   "key_idea": "A chemical formula indicates both the elements present and the ratio of their atoms in a compound.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a chemical formula",
+    "how is a chemical formula written",
+    "write the formula of water and carbon dioxide",
+    "what information does a chemical formula convey",
+    "how do you write the formula of a compound from valency"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the elements and their valencies",
+     "explain": "Determine the symbols of the elements and their combining capacities (valencies)."
+    },
+    {
+     "step": 2,
+     "action": "write the formula using valency",
+     "explain": "Write the symbols side by side and criss-cross the valencies to get the number of atoms of each element, simplifying if needed."
+    },
+    {
+     "step": 3,
+     "action": "verify the formula",
+     "explain": "Check that the total positive and negative charges balance and that the formula matches the known composition, e.g., H2O has two hydrogen atoms and one oxygen atom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the chemical formula of water and state what it tells us.",
+     "solution": "Water is H2O, meaning each molecule has 2 atoms of hydrogen and 1 atom of oxygen combined chemically.",
+     "answer": "H2O -- 2 hydrogen atoms and 1 oxygen atom."
+    },
+    {
+     "question": "Write the formula of magnesium chloride given that magnesium has valency 2 and chlorine has valency 1.",
+     "solution": "Criss-cross the valencies: Mg gets 1 and Cl gets 2, giving MgCl2.",
+     "answer": "MgCl2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the chemical formulas of carbon dioxide, sodium chloride, and sulphuric acid.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What information is conveyed by the formula H2SO4?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.8",
+   "title": "Properties of Metals and Non-metals",
+   "section": "8.8",
+   "definition": "Metals are generally lustrous, malleable, ductile, good conductors of heat and electricity, and solids at room temperature; non-metals are usually dull, brittle, poor conductors, and may be solids, liquids, or gases.",
+   "formula": "",
+   "key_idea": "Metals and non-metals differ in physical and chemical properties such as lustre, conductivity, malleability, and reaction with oxygen and acids.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the properties of metals",
+    "what are the properties of non-metals",
+    "how do metals differ from non-metals",
+    "why are metals good conductors of electricity",
+    "what happens when metals and non-metals react with oxygen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list physical properties of metals",
+     "explain": "Metals are lustrous, malleable, ductile, good conductors of heat and electricity, and mostly solid at room temperature."
+    },
+    {
+     "step": 2,
+     "action": "list physical properties of non-metals",
+     "explain": "Non-metals are generally dull, brittle, poor conductors, and may exist as solids, liquids, or gases at room temperature."
+    },
+    {
+     "step": 3,
+     "action": "compare chemical properties",
+     "explain": "Metals react with oxygen to form basic oxides and with acids to produce hydrogen gas; non-metals form acidic or neutral oxides and many do not react with acids."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are copper and aluminium used for making electrical wires?",
+     "solution": "Both are metals and are excellent conductors of electricity, and they are ductile so they can be drawn into wires.",
+     "answer": "Because they are good conductors and ductile."
+    },
+    {
+     "question": "A substance is dull in appearance and does not conduct electricity. Is it likely to be a metal or a non-metal?",
+     "solution": "Dull appearance and poor conductivity are properties of non-metals, so the substance is likely a non-metal.",
+     "answer": "Non-metal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three physical properties each of metals and non-metals.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What type of oxides do metals and non-metals form? Give one example each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.9",
+   "title": "Metals, Non-metals, and Metalloids - Identification",
+   "section": "8.9",
+   "definition": "Metalloids are elements that show properties intermediate between metals and non-metals; they are used in electronics and semiconductors because of their partial conductivity.",
+   "formula": "",
+   "key_idea": "Metalloids bridge the gap between metals and non-metals and have intermediate, useful properties.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are metalloids",
+    "give examples of metalloids",
+    "why are metalloids important in electronics",
+    "how can you identify a metalloid",
+    "state two properties that make an element a metalloid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define metalloids",
+     "explain": "Metalloids are elements whose properties lie between those of metals and non-metals."
+    },
+    {
+     "step": 2,
+     "action": "give examples",
+     "explain": "Common metalloids include silicon, boron, germanium, and arsenic."
+    },
+    {
+     "step": 3,
+     "action": "explain their use",
+     "explain": "Because they conduct electricity only under certain conditions, metalloids like silicon are used as semiconductors in electronic devices."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is silicon used in making computer chips?",
+     "solution": "Silicon is a metalloid and a semiconductor, so it can control the flow of electricity, making it ideal for electronic chips.",
+     "answer": "Because silicon is a semiconductor metalloid."
+    },
+    {
+     "question": "An element is lustrous but brittle and is a poor conductor. Is it a metal, non-metal, or metalloid?",
+     "solution": "Lustre is a metallic property but brittleness and poor conductivity are non-metallic, so the element shows intermediate behaviour and is a metalloid.",
+     "answer": "Metalloid."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two metalloids and state one use of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are metalloids called semiconductors?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.8.10",
+   "title": "Pure Substances and Their Classification",
+   "section": "8.10",
+   "definition": "Matter can be classified into pure substances (elements and compounds) and mixtures; pure substances have a fixed composition and definite properties, while mixtures have variable composition.",
+   "formula": "",
+   "key_idea": "All matter is broadly classified as pure substances (elements, compounds) or mixtures (homogeneous, heterogeneous).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how is matter classified",
+    "what are pure substances",
+    "what is the difference between a pure substance and a mixture",
+    "classify matter into elements compounds and mixtures",
+    "give a flowchart for the classification of matter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify matter broadly",
+     "explain": "Matter is first divided into pure substances and mixtures."
+    },
+    {
+     "step": 2,
+     "action": "classify pure substances",
+     "explain": "Pure substances are further divided into elements (cannot be broken down) and compounds (can be broken down chemically into elements)."
+    },
+    {
+     "step": 3,
+     "action": "classify mixtures",
+     "explain": "Mixtures are divided into homogeneous mixtures (uniform composition) and heterogeneous mixtures (non-uniform composition)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the following as element, compound, or mixture: gold, water, air, sodium chloride.",
+     "solution": "Gold is an element; water and sodium chloride are compounds; air is a mixture.",
+     "answer": "Gold - element, Water - compound, Air - mixture, Sodium chloride - compound."
+    },
+    {
+     "question": "Is distilled water a pure substance or a mixture? Justify.",
+     "solution": "Distilled water has a fixed composition (H2O) and definite properties, so it is a pure substance (a compound).",
+     "answer": "Pure substance (compound)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a flowchart to show the classification of matter.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Classify the following as pure substances or mixtures: milk, copper, diamond, soil.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

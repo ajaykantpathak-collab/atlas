@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_010",
+   "title": "c11_biotech_cbse_03_010",
+   "questions": [
+    {
+     "q": "Name two macro-minerals and two trace minerals, and state one distinct biochemical function for each.",
+     "a": "Macro-minerals: Calcium (structural component of hydroxyapatite in bones/teeth, also second messenger in cell signaling) and Potassium (maintains resting membrane potential, essential for nerve impulse propagation). Trace minerals: Iron (heme iron in hemoglobin for O₂ transport, Fe-S clusters in electron transport chain) and Zinc (structural cofactor in zinc-finger transcription factors, catalytic cofactor in carbonic anhydrase). A wrong answer (e.g., listing \"sodium\" as a trace mineral or saying \"calcium gives energy\") reveals confusion between quantity required and functional category, or the misconception that minerals provide caloric energy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a deficiency of vitamin B₁ (thiamine) leads to elevated blood pyruvate and lactate levels, and why this particularly affects the nervous system.",
+     "a": "Thiamine pyrophosphate (TPP) is the coenzyme for pyruvate dehydrogenase complex (PDH) and α-ketoglutarate dehydrogenase in the TCA cycle, and for transketolase in the pentose phosphate pathway. Without TPP, pyruvate cannot enter the TCA cycle, so it accumulates and is converted to lactate by LDH, causing lactic acidosis. The brain relies almost exclusively on aerobic glucose oxidation for ATP; impaired PDH drastically reduces ATP synthesis, leading to neuronal dysfunction (Wernicke-Korsakoff syndrome). A wrong answer that merely says \"thiamine helps energy production\" without naming the specific enzyme complexes shows superficial understanding – the student knows the vitamin is \"for energy\" but cannot link it to the biochemical bottleneck.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old child living in a region with iodine-deficient soil develops a goiter. Using your knowledge of thyroid hormone synthesis, explain the mechanistic link between iodine deficiency and thyroid enlargement.",
+     "a": "Iodine is incorporated into tyrosine residues of thyroglobulin to form monoiodotyrosine (MIT) and diiodotyrosine (DIT), which couple to produce T₃ and T₄. In iodine deficiency, thyroid hormone synthesis drops → low circulating T₃/T₄ → loss of negative feedback on anterior pituitary → increased TSH secretion → TSH stimulates thyroid follicular cell hyperplasia and hypertrophy → goiter. A wrong answer that says \"iodine makes thyroid hormone, so lack of it causes swelling\" misses the *feedback loop* mechanism; the student must articulate the endocrine axis (hypothalamus-pituitary-thyroid) to show analytical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the consequences of excess intake of vitamin A (retinol) versus vitamin C (ascorbic acid). Why does the body handle these two excesses so differently?",
+     "a": "Vitamin A is fat-soluble, stored in hepatic stellate cells; chronic excess causes hypervitaminosis A (hepatotoxicity, teratogenicity, increased intracranial pressure) because elimination is slow. Vitamin C is water-soluble, not stored; excess is rapidly excreted in urine (renal threshold ~1.4 g/day), so toxicity is rare (only osmotic diarrhea at very high doses). The difference stems from solubility determining storage capacity and excretion kinetics. A wrong answer stating \"both are vitamins so both are safe in excess\" or \"vitamin C causes liver damage\" reveals the misconception that all vitamins behave similarly, ignoring the fundamental physicochemical property of solubility.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Taking a daily multivitamin-mineral supplement guarantees optimal enzymatic function and prevents all deficiency diseases.\"",
+     "a": "The claim is false. Supplements provide nutrients in isolated, often synthetic forms; bioavailability differs from food matrices (e.g., non-heme iron absorption is enhanced by dietary vitamin C, inhibited by phytates/tannins). Genetic polymorphisms (e.g., MTHFR C677T affecting folate metabolism) alter individual requirements. Some minerals compete for absorption (Ca²⁺ inhibits Fe²⁺ uptake). Fat-soluble vitamins require dietary fat for absorption; taking them on an empty stomach renders them ineffective. Excess of one nutrient can induce deficiency of another (e.g., high Zn induces Cu deficiency). A good evaluation acknowledges that supplements *can* correct diagnosed deficiencies but are not a substitute for a varied diet. A wrong answer that simply agrees or disagrees without biochemical justification shows lack of critical evaluation skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a week-long vegetarian meal plan for a pregnant woman that ensures adequate intake of iron, folate, calcium, vitamin B₁₂, and vitamin D. Justify each food choice by linking it to the specific nutrient's absorption enhancer or inhibitor.",
+     "a": "A strong answer includes: (1) Iron: sprouted moong dal + lemon juice (vitamin C enhances non-heme Fe absorption); avoids tea/coffee with meals (tannins inhibit). (2) Folate: dark leafy greens (spinach, methi) lightly steamed (folate is heat-labile). (3) Calcium: ragi (finger millet) porridge + sesame seeds; paired with vitamin D fortified milk or sunlight exposure for absorption. (4) Vitamin B₁₂: dairy (curd, paneer) and fortified nutritional yeast (only reliable vegetarian sources). (5) Vitamin D: fortified soy milk, mushrooms exposed to UV light, plus 20 min midday sun. The plan must space calcium and iron meals apart. A poor answer lists foods without addressing enhancers/inhibitors or ignores the B₁₂ challenge in vegetarian diets, showing inability to synthesize knowledge into practical application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

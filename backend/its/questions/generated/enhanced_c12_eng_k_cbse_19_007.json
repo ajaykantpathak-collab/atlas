@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_007",
+   "title": "c12_eng_k_cbse_19_007",
+   "questions": [
+    {
+     "q": "Identify the specific phrase Asimov uses in Section II to define what makes a story science fiction, distinguishing it from genres like \"sports story\" or \"Western story.\"",
+     "a": "Correct answer: \"Science fiction is what it is, not through its content but through its background.\" A wrong answer (e.g., \"futuristic technology\" or \"space travel\") reveals the student is confusing *content* (what happens) with *background* (the societal/scientific setting), missing Asimov's central structural argument in Section II.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the parallel Asimov draws between the \"priest, magician, wizard, shaman\" of prescientific times and the scientist of today. What emotional need do both fulfill?",
+     "a": "Correct answer: Both are perceived as holding the \"secret of controlling the Universe.\" In prescientific times, magical formulas (enchantments/prayers) were believed to control nature via gods; today, scientific laws control nature via understanding. Both fulfill the human longing for wonder and the desire to manipulate the environment. A wrong answer that says \"priests were fake, scientists are real\" misses the *functional parallel* Asimov explicitly draws — he is comparing their *social role*, not their validity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Asimov's \"background vs. content\" distinction to classify the following hypothetical story: \"A detective in a future Mumbai where crimes are predicted by an AI algorithm solves a murder that the algorithm missed.\" Identify the *content* genre and the *background* genre. Justify your answer in two sentences.",
+     "a": "Correct answer: Content genre = Mystery/Detective (clues, deduction, fair play). Background genre = Science Fiction (AI prediction, future society, technology changing law enforcement). Justification: The *plot mechanics* (investigation, red herrings, solution) belong to the mystery tradition; the *setting rules* (AI pre-crime, future Mumbai) constitute the sci-fi background. A wrong answer labeling it only \"sci-fi\" fails to apply Asimov's distinction that content genres survive unchanged against a sci-fi background.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Asimov's discussion of the \"science fiction mystery\" (Section II, paras 5-10) functions as a secondary theme that *qualifies* his primary definition of the genre. Why does he devote significant space to John Campbell's objection and his own rebuttal?",
+     "a": "Correct answer: The mystery discussion serves as a **stress test** for Asimov's claim that sci-fi is defined by background. If a mystery requires strict, known rules (fair play), but sci-fi allows the writer to invent new rules (Q-rays), the genre risks becoming \"unfair.\" Asimov rebuts this by arguing the writer must *establish boundary conditions* beforehand. This secondary theme proves that sci-fi demands *greater* intellectual discipline, not less, refining the primary theme's implication that sci-fi is \"limitless.\" A wrong answer treating this as just an anecdote about Campbell misses its thematic function: it demonstrates the *internal logic* required by the \"background\" definition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Asimov's claim: \"In a narrow sense, only science fiction is valid for today since... the Universe does follow the dictates of the laws of nature.\" Do you agree that mythological fiction is *invalid* as literature? Defend your position using Asimov's own concession in the next paragraph (\"Nevertheless, there are times when we shouldn't be too narrow...\").",
+     "a": "Correct answer: Asimov himself contradicts the \"narrow\" validity claim by conceding mythological fiction is the \"equivalent of science fiction set in another kind of Universe — a prescientific Universe.\" He values them as \"well-written and exciting stories\" that are \"self-consistent.\" A strong evaluation acknowledges that \"validity\" here means *scientific accuracy*, not *literary merit*. A wrong answer agreeing that myths are \"invalid\" ignores Asimov's explicit pivot to inclusivity and his comparison to enjoying historical novels despite outdated technology.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence \"elevator pitch\" for a new science fiction story that demonstrates Asimov's \"background vs. content\" principle. Use a traditional Indian folk genre (e.g., *Panchatantra* fable, *Bhakti* poem, *Virata Parva* disguise) as the content.",
+     "a": "Example answer: \"In a 24th-century orbital habitat governed by a sentient Dharma-Algorithm, a low-caste sanitation engineer discovers the system's 'karma-credit' ledger has been hacked by the ruling elite. Structured as a *Panchatantra* frame-narrative where animal-avatars debate ethics in the virtual temple, the story uses the fable's content to expose the background's corrupted code.\" Criteria: Must name a specific traditional genre (content) and a specific sci-fi setting rule (background). A poor answer describes only a sci-fi plot (e.g., \"robots fight aliens\") without identifying the separable content genre.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

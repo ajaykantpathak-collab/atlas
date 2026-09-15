@@ -1,0 +1,329 @@
+{
+ "catalog": "catalog_class10_social_science_jess105",
+ "concepts": [
+  {
+   "id": "jess.105.1.1",
+   "title": "What is a Mineral: Study by Geographers and Geologists",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'What is a Mineral: Study by Geographers and Geologists' refers to.",
+     "a": "A mineral is a homogenous, naturally occurring substance with a definable internal structure, found in forms ranging from the hardest diamond to the softest talc.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What is a Mineral: Study by Geographers and Geologists'.",
+     "a": "Geographers view minerals as part of the earth's crust and their economic distribution, while geologists study their formation, age and chemical composition.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'What is a Mineral: Study by Geographers and Geologists' taught, and from which source text?",
+     "a": "What is a mineral (source: jess105.txt lines 62-103)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.1.2",
+   "title": "Mode of Occurrence of Minerals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mode of Occurrence of Minerals' refers to.",
+     "a": "Minerals occur in ores in five main settings: veins and lodes in igneous and metamorphic rocks, beds and layers in sedimentary rocks, residual masses of decomposed surface rocks, placer deposits in valley sands, and dissolved or bedded stores in ocean waters.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mode of Occurrence of Minerals'.",
+     "a": "Tin, copper, zinc and lead come from veins and lodes; coal and iron from sedimentary beds; bauxite from decomposition; gold, silver, tin and platinum from placer deposits; common salt, magnesium and bromine from sea water.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mode of Occurrence of Minerals' taught, and from which source text?",
+     "a": "Mode of Occurrence of Minerals (source: jess105.txt lines 104-187)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.2.1",
+   "title": "Ferrous Minerals: Iron Ore Belts and Grades",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ferrous Minerals: Iron Ore Belts and Grades' refers to.",
+     "a": "Ferrous minerals, led by iron ore and manganese, carry iron as their main constituent and supply about three-fourths of the total value of metallic mineral production, anchoring metallurgical industries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ferrous Minerals: Iron Ore Belts and Grades'.",
+     "a": "Magnetite is the finest ore with up to 70 per cent iron and excellent magnetic quality; hematite, at 50-60 per cent iron, is the most used industrial ore; key belts run from Odisha-Jharkhand to Bailadila, Kudremukh and the Maharashtra-Goa belt.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ferrous Minerals: Iron Ore Belts and Grades' taught, and from which source text?",
+     "a": "Ferrous Minerals (source: jess105.txt lines 203-288)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.2.2",
+   "title": "Iron Content of Ore by Grade",
+   "questions": [
+    {
+     "q": "Calculate the iron obtained from a given quantity of magnetite ore. Use the method 'Iron Content of Ore by Grade'. Work with: grade_percent = 18, ore_quantity = 150. Carry the chain through step by step and give the final value of pure_iron.",
+     "a": "27 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the pure metal content of hematite ore of a given grade. Use the method 'Iron Content of Ore by Grade'. Work with: grade_percent = 25, ore_quantity = 4. Carry the chain through step by step and give the final value of pure_iron.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Iron Content of Ore by Grade' refers to.",
+     "a": "The metallic iron obtainable from a batch of ore equals the ore quantity multiplied by its grade percentage, so a 70 per cent magnetite lot yields seven-tenths of its mass as iron.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Iron Content of Ore by Grade'.",
+     "a": "Grade decides value: magnetite at 70 per cent beats hematite at 50-60 per cent, and declining quality raises extraction cost over time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Iron Content of Ore by Grade', in plain ASCII form.",
+     "a": "pure_iron = ore_quantity * grade_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.2.3",
+   "title": "Manganese Needed for Steel Manufacture",
+   "questions": [
+    {
+     "q": "How many kilograms of manganese are needed for a given steel output? Use the method 'Manganese Needed for Steel Manufacture'. Work with: steel_tonnes = 12. Carry the chain through step by step and give the final value of manganese_kg.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the manganese requirement to manufacture a given number of tonnes of steel. Use the method 'Manganese Needed for Steel Manufacture'. Work with: steel_tonnes = 6. Carry the chain through step by step and give the final value of manganese_kg.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Manganese Needed for Steel Manufacture' refers to.",
+     "a": "Steel making consumes manganese in a fixed proportion of about 10 kg per tonne of steel, so the manganese requirement scales directly with planned steel output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Manganese Needed for Steel Manufacture'.",
+     "a": "Besides steel and ferro-manganese alloy, manganese also feeds the manufacture of bleaching powder, insecticides and paints.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Manganese Needed for Steel Manufacture', in plain ASCII form.",
+     "a": "manganese_kg = steel_tonnes * 10",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.3.1",
+   "title": "Non-Ferrous Minerals: Copper and Bauxite",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Ferrous Minerals: Copper and Bauxite' refers to.",
+     "a": "Non-ferrous minerals such as copper, bauxite, lead, zinc and gold contain no iron but drive metallurgical, engineering and electrical industries; India remains critically short of copper reserves.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Ferrous Minerals: Copper and Bauxite'.",
+     "a": "Copper from Balaghat, Khetri and Singhbhum serves cables and electronics; bauxite, a clay-like decomposition product, yields alumina and then aluminium combining strength with lightness.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-Ferrous Minerals: Copper and Bauxite' taught, and from which source text?",
+     "a": "Non-Ferrous Minerals (source: jess105.txt lines 294-391)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.4.1",
+   "title": "Non-Metallic Minerals: Mica and Limestone",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Metallic Minerals: Mica and Limestone' refers to.",
+     "a": "Mica is a plate-like mineral that splits into very thin sheets with excellent dielectric strength and high voltage resistance, while limestone, a rock mineral of calcium carbonates, feeds the cement industry and blast furnaces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Metallic Minerals: Mica and Limestone'.",
+     "a": "The Koderma-Gaya-Hazaribagh belt of Jharkhand leads mica production; Ajmer in Rajasthan and the Nellore belt of Andhra Pradesh follow; limestone is essential for smelting iron ore.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-Metallic Minerals: Mica and Limestone' taught, and from which source text?",
+     "a": "Non-Metallic Minerals (source: jess105.txt lines 418-445)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.5.1",
+   "title": "Hazards of Mining and Conservation of Minerals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hazards of Mining and Conservation of Minerals' refers to.",
+     "a": "Mining exposes workers to dust, noxious fumes, collapsing roofs, inundation and fires, and damages land and water, while workable mineral deposits form only about one per cent of the earth's crust and are finite and non-renewable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hazards of Mining and Conservation of Minerals'.",
+     "a": "Conservation rests on planned sustainable use, improved technology for low grade ores, recycling of metals, scrap use and substitutes; rat-hole mining in Meghalaya has been declared illegal by the National Green Tribunal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Hazards of Mining and Conservation of Minerals' taught, and from which source text?",
+     "a": "Conservation of Minerals (source: jess105.txt lines 158-173, 448-519)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.1",
+   "title": "Conventional Energy: Coal Grades and Occurrence",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Conventional Energy: Coal Grades and Occurrence' refers to.",
+     "a": "Coal, the most abundant fossil fuel in India, occurs in grades set by compression and burial depth: peat with low carbon, lignite a low grade brown coal, bituminous the most popular commercial coal, and anthracite the highest quality hard coal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Conventional Energy: Coal Grades and Occurrence'.",
+     "a": "Gondwana coal over 200 million years old lies in the Damodar valley at Jharia, Raniganj and Bokaro, while tertiary coal about 55 million years old occurs in the north-east; heavy industries sit near coalfields because coal is bulky and loses weight as ash.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Conventional Energy: Coal Grades and Occurrence' taught, and from which source text?",
+     "a": "Conventional Sources of Energy (source: jess105.txt lines 544-601)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.2",
+   "title": "Petroleum and Natural Gas Infrastructure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Petroleum and Natural Gas Infrastructure' refers to.",
+     "a": "Petroleum, the second major energy source after coal, is trapped in anticlines and fault traps of tertiary rocks with gas lying above oil, and natural gas found with it now flows through a growing national pipeline grid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Petroleum and Natural Gas Infrastructure'.",
+     "a": "Mumbai High, Gujarat and Assam lead production, with Digboi the oldest field; the 1,700 km HVJ pipeline built by GAIL has grown into about 18,500 km of cross-country lines heading toward a 34,000 km gas grid.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Petroleum and Natural Gas Infrastructure' taught, and from which source text?",
+     "a": "Conventional Sources of Energy (source: jess105.txt lines 602-662)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.6.3",
+   "title": "Hydro and Thermal Electricity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hydro and Thermal Electricity' refers to.",
+     "a": "Electricity is generated mainly in two ways: hydro electricity from fast flowing water driving turbines, and thermal electricity from burning coal, petroleum or natural gas, with per capita consumption treated as an index of development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hydro and Thermal Electricity'.",
+     "a": "Hydel power is renewable and flows from multipurpose projects like Bhakra Nangal and Damodar Valley Corporation, while thermal stations burn non-renewable fossil fuels.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Hydro and Thermal Electricity' taught, and from which source text?",
+     "a": "Electricity (source: jess105.txt lines 663-683)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.7.1",
+   "title": "Non-Conventional Energy: Solar, Wind and Biogas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Conventional Energy: Solar, Wind and Biogas' refers to.",
+     "a": "Renewable alternatives to fossil fuels include photovoltaic solar power that converts sunlight directly into electricity, wind farms, and biogas from the decomposition of organic and cattle waste.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Conventional Energy: Solar, Wind and Biogas'.",
+     "a": "The largest wind farm cluster runs from Nagercoil to Madurai in Tamil Nadu; gobar gas plants give farmers twin benefits of energy and better manure while saving trees.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-Conventional Energy: Solar, Wind and Biogas' taught, and from which source text?",
+     "a": "Non-Conventional Sources of Energy (source: jess105.txt lines 699-764)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.7.2",
+   "title": "Tidal, Geothermal and Nuclear Energy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tidal, Geothermal and Nuclear Energy' refers to.",
+     "a": "Tidal energy uses floodgate dams on oceanic tides, geothermal energy taps steam from heated groundwater where the geothermal gradient is high, and nuclear energy comes from altering atomic structure using uranium and thorium.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tidal, Geothermal and Nuclear Energy'.",
+     "a": "Ideal tidal sites are the Gulfs of Khambhat and Kuchchh and the Sunderban delta; experimental geothermal plants work at Manikaran in the Parvati valley and Puga Valley in Ladakh; Monazite sands of Kerala are rich in thorium.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tidal, Geothermal and Nuclear Energy' taught, and from which source text?",
+     "a": "Non-Conventional Sources of Energy (source: jess105.txt lines 718-786)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.105.7.3",
+   "title": "Rural Household Energy from Biomass Sources",
+   "questions": [
+    {
+     "q": "Calculate the energy rural households draw from firewood and dung cake. Use the method 'Rural Household Energy from Biomass Sources'. Work with: biomass_percent = 8, rural_energy_requirement = 18. Carry the chain through step by step and give the final value of biomass_energy.",
+     "a": "1.44 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the biomass share of a given rural energy requirement. Use the method 'Rural Household Energy from Biomass Sources'. Work with: biomass_percent = 8, rural_energy_requirement = 75. Carry the chain through step by step and give the final value of biomass_energy.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rural Household Energy from Biomass Sources' refers to.",
+     "a": "In rural India, firewood and cattle dung cake together meet a large estimated share of household energy needs, so the biomass energy used can be computed from the total rural energy requirement and its biomass percentage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rural Household Energy from Biomass Sources'.",
+     "a": "Over 70 per cent of rural energy comes from firewood and dung cake, a pattern that shrinks forest cover and wastes manure, pushing the shift to biogas and solar.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rural Household Energy from Biomass Sources', in plain ASCII form.",
+     "a": "biomass_energy = rural_energy_requirement * biomass_percent / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_007",
+   "title": "c12_chem_cbse_02_007",
+   "questions": [
+    {
+     "q": "State Faraday's first law of electrolysis and write the mathematical proportionality it implies between mass (m) and charge (Q).",
+     "a": "Faraday's first law: The mass of a substance deposited or liberated at an electrode during electrolysis is directly proportional to the quantity of electricity passed through the electrolyte. Mathematically, m ∝ Q, or m = ZQ where Z is the electrochemical equivalent. A wrong answer (e.g., stating m ∝ I only, or confusing with the second law) reveals the student has memorised the law verbatim without grasping the direct proportionality between mass and total charge (not just current).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 96500 C of electricity liberates 108 g of silver from Ag⁺ but only 31.75 g of copper from Cu²⁺, even though the charge is the same.",
+     "a": "The same charge (1 F) provides 1 mole of electrons. For Ag⁺ + e⁻ → Ag, 1 mole of electrons reduces 1 mole of Ag⁺ (108 g). For Cu²⁺ + 2e⁻ → Cu, 1 mole of electrons reduces only 0.5 mole of Cu²⁺ (31.75 g). The difference arises because the number of electrons required per ion (n) differs. A wrong answer that cites \"different molar masses\" without mentioning n shows the student hasn't linked the half-reaction stoichiometry to Faraday's second law (mass ∝ equivalent weight = M/n).",
+     "self_check": true
+    },
+    {
+     "q": "A current of 0.75 A is passed through a CuSO₄ solution for 45 minutes. Calculate the mass of copper deposited at the cathode. (M_Cu = 63.5 g mol⁻¹, F = 96500 C mol⁻¹)",
+     "a": "Step 1: Half-reaction: Cu²⁺ + 2e⁻ → Cu, so n = 2.  \nStep 2: Q = I × t = 0.75 A × (45 × 60) s = 2025 C.  \nStep 3: Moles of e⁻ = Q/F = 2025 / 96500 = 0.02098 mol.  \nStep 4: Moles of Cu = moles of e⁻ / n = 0.02098 / 2 = 0.01049 mol.  \nStep 5: Mass = moles × M = 0.01049 × 63.5 = 0.666 g.  \nA wrong answer (e.g., 1.33 g) typically comes from using n = 1 instead of n = 2, showing the student didn't write the half-reaction or misidentified the oxidation state change.",
+     "self_check": true
+    },
+    {
+     "q": "Three electrolytic cells containing ZnSO₄, AgNO₃, and CuSO₄ are connected in series. A steady current of 2.0 A flows for a certain time, depositing 1.08 g of silver in the AgNO₃ cell. Determine the mass of zinc and copper deposited in the other two cells during the same time. (M_Ag = 108, M_Zn = 65.4, M_Cu = 63.5 g mol⁻¹; n_Ag = 1, n_Zn = 2, n_Cu = 2)",
+     "a": "Step 1: Moles of Ag = 1.08 / 108 = 0.01 mol. Since n_Ag = 1, moles of e⁻ passed = 0.01 mol.  \nStep 2: Same charge passes through all cells (series). Moles of Zn = moles of e⁻ / n_Zn = 0.01 / 2 = 0.005 mol. Mass of Zn = 0.005 × 65.4 = 0.327 g.  \nStep 3: Moles of Cu = moles of e⁻ / n_Cu = 0.01 / 2 = 0.005 mol. Mass of Cu = 0.005 × 63.5 = 0.3175 g.  \nA wrong answer that calculates different moles of electrons for each cell reveals the student doesn't understand that series connection forces identical charge (and thus identical moles of electrons) through every cell.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Calculate the charge needed to produce 20.0 g of calcium from molten CaCl₂.\" They write: Ca²⁺ + e⁻ → Ca, n = 1, Q = (20/40) × 1 × 96500 = 48250 C. Evaluate the student's solution and identify the error.",
+     "a": "The half-reaction is Ca²⁺ + 2e⁻ → Ca, so n = 2, not 1. Correct moles of Ca = 20/40 = 0.5 mol. Moles of e⁻ needed = 0.5 × 2 = 1 mol. Q = 1 × 96500 = 96500 C. The student's error is using n = 1, likely because they confused the oxidation state of Ca (+2) with the number of electrons or simply forgot to balance the half-reaction. This is a classic \"n-error\" that changes the answer by a factor of 2.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to verify Faraday's second law using two different electrolytes (e.g., CuSO₄ and AgNO₃) with inert electrodes. Specify the measurements you would take, the calculations you would perform, and how you would confirm the law.",
+     "a": "Set up two electrolytic cells in series with Pt electrodes: one with CuSO₄, one with AgNO₃. Pass a known current I for a known time t (measure with ammeter and stopwatch). After electrolysis, weigh the cathode mass gain in each cell (m_Cu, m_Ag). Calculate moles of each metal deposited (m/M). Compute the ratio (m_Cu/M_Cu) : (m_Ag/M_Ag) and compare with the inverse ratio of n values (1/2 : 1/1 = 1:2). If the law holds, moles of Cu : moles of Ag = 1 : 2. A poor answer that suggests measuring only mass or using different currents shows the student doesn't grasp that the law compares equivalent weights (M/n) under identical charge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

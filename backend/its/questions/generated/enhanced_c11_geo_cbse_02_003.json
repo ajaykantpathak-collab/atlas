@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_003",
+   "title": "c11_geo_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the two primary elements that constituted the primordial gas clouds from which the first stars formed.",
+     "a": "The two primary elements were hydrogen (~75% by mass) and helium (~25% by mass), produced during Big Bang nucleosynthesis. A wrong answer (e.g., \"oxygen and carbon\" or \"hydrogen only\") reveals the student confuses primordial composition with later stellar nucleosynthesis products or ignores helium's significant abundance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a collapsing gas cloud must lose thermal energy (cool) to continue contracting and form a star.",
+     "a": "As the cloud collapses, gravitational potential energy converts to kinetic energy (heat), increasing pressure. If the cloud cannot radiate this heat away, pressure builds up and halts the collapse (hydrostatic equilibrium). Cooling via molecular line emission (e.g., H₂, CO) and dust radiation allows pressure to drop, letting gravity continue the contraction. A wrong answer (e.g., \"heating helps collapse\") reveals a fundamental misunderstanding of the balance between gravity and gas pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A molecular cloud core has a mass of 2 solar masses (M☉) and a temperature of 10 K. Using the Jeans mass criterion (M_J ≈ (kT/Gμm_H)^(3/2) ρ^(-1/2)), explain qualitatively whether this core will collapse to form a star if its density is 10⁻¹⁸ kg/m³. (Assume μ=2.3 for molecular gas.)",
+     "a": "Step 1: Recognize that Jeans mass increases with temperature and decreases with density. Step 2: At T=10 K and ρ=10⁻¹⁸ kg/m³, typical Jeans mass is ~1-2 M☉. Step 3: Since cloud mass (2 M☉) is comparable to or exceeds M_J, the core is gravitationally unstable and will collapse. Step 4: If density were lower or temperature higher, M_J would exceed 2 M☉ and collapse would not occur. A wrong conclusion (e.g., \"it will not collapse because mass is too small\") reveals inability to apply the Jeans criterion qualitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the star formation history and current star formation rate of a typical spiral galaxy (like the Milky Way) with that of a giant elliptical galaxy. Relate this to their gas content and morphology.",
+     "a": "Spiral galaxies have abundant cold gas in rotating disks, enabling ongoing star formation (1-3 M☉/yr in Milky Way). Elliptical galaxies have little cold gas, old stellar populations, and negligible current star formation. Their stars formed rapidly in early mergers. A wrong answer (e.g., \"ellipticals form more stars because they are bigger\") reveals confusion between total stellar mass and current star formation rate, and ignorance of the gas-star formation link.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The first stars (Population III) were crucial for the formation of later galaxies like the Milky Way.\" Provide two specific reasons.",
+     "a": "True. Reason 1: Population III stars were massive, short-lived, and exploded as supernovae, enriching the interstellar medium with heavy elements (metals) essential for cooling gas to form smaller, long-lived stars like the Sun. Reason 2: Their UV radiation reionized the universe, altering gas thermodynamics and influencing subsequent galaxy assembly. A wrong evaluation (e.g., \"false, first stars had no effect\") reveals ignorance of chemical enrichment and reionization feedback in galaxy evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational strategy using the Giant Metrewave Radio Telescope (GMRT) near Pune to distinguish between a star-forming spiral galaxy and a quiescent elliptical galaxy at redshift z≈0.1.",
+     "a": "Observe 21-cm HI line emission: spirals show strong, broad HI lines (rotating gas disk); ellipticals show weak/no HI. Observe radio continuum at 1.4 GHz: spirals show extended synchrotron emission from supernova remnants; ellipticals may show compact AGN cores. A poor answer (e.g., \"take optical photos\") reveals ignorance of radio tracers of gas and star formation, and of GMRT's capabilities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class6_social_science_ch206",
+ "concepts": [
+  {
+   "id": "fess.206.1.1",
+   "title": "Internal and External Processes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Internal and External Processes' refers to.",
+     "a": "The earth's surface is continuously shaped by two distinct forces: internal processes causing vertical crustal movements, and external processes that erode and deposit surface materials.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Internal and External Processes'.",
+     "a": "Internal forces elevate or depress the crust, while external forces reshape the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Internal and External Processes' taught, and from which source text?",
+     "a": "Introduction (source: fess206.txt lines 12-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.1.2",
+   "title": "Erosion and Deposition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Erosion and Deposition' refers to.",
+     "a": "Erosion refers to the natural degradation of the ground surface, whereas deposition involves the accumulation of transported sediments to form new land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Erosion and Deposition'.",
+     "a": "Erosion lowers the land surface, while deposition rebuilds it using agents like water, wind, and ice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Erosion and Deposition' taught, and from which source text?",
+     "a": "Introduction (source: fess206.txt lines 36-48)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.1",
+   "title": "Mountains and Glaciers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mountains and Glaciers' refers to.",
+     "a": "A mountain represents a prominent high-altitude landform with a narrow peak and wide foundation, sometimes hosting slow-moving ice bodies termed glaciers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mountains and Glaciers'.",
+     "a": "High elevation landforms with steep slopes, cold climates, and glaciers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mountains and Glaciers' taught, and from which source text?",
+     "a": "MOUNTAINS (source: fess206.txt lines 49-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.2",
+   "title": "Elevation Difference of Landforms",
+   "questions": [
+    {
+     "q": "Calculate the elevation difference between Mauna Kea at {height_1} meters and Mount Everest at {height_2} meters.. Use the method 'Elevation Difference of Landforms'. Work with: height_1 = 300, height_2 = 200. Carry the chain through step by step and give the final value of elevation_difference.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the height difference between two peaks measuring {height_1} meters and {height_2} meters.. Use the method 'Elevation Difference of Landforms'. Work with: height_1 = 120, height_2 = 25. Carry the chain through step by step and give the final value of elevation_difference.",
+     "a": "95 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Elevation Difference of Landforms' refers to.",
+     "a": "The vertical distance or height difference calculated between two distinct geographical elevations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elevation Difference of Landforms'.",
+     "a": "Subtract the lower height from the higher height to find the difference in elevation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Elevation Difference of Landforms', in plain ASCII form.",
+     "a": "elevation_difference = height_1 - height_2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.3",
+   "title": "Fold Mountains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fold Mountains' refers to.",
+     "a": "These features arise when tectonic compression buckles the crust, creating elevated structures with highly uneven terrain and pointed summits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fold Mountains'.",
+     "a": "Compressive forces fold crustal layers, creating young fold mountains like the Himalayas or old ones like the Aravalis.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fold Mountains' taught, and from which source text?",
+     "a": "MOUNTAINS (source: fess206.txt lines 75-95)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.4",
+   "title": "Block Mountains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Block Mountains' refers to.",
+     "a": "These structures form when extensive crustal segments fracture and shift vertically, leaving raised sections known as horsts and sunken areas known as graben.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Block Mountains'.",
+     "a": "Faulting and vertical displacement create horsts and graben.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Block Mountains' taught, and from which source text?",
+     "a": "MOUNTAINS (source: fess206.txt lines 96-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.2.5",
+   "title": "Volcanic Mountains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Volcanic Mountains' refers to.",
+     "a": "Elevations constructed from the accumulation of molten rock, ash, and pyroclastic debris erupted from beneath the crust.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Volcanic Mountains'.",
+     "a": "Volcanic activity deposits lava and ash, building up mountains like Mt. Kilimanjaro and Mt. Fujiyama.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Volcanic Mountains' taught, and from which source text?",
+     "a": "MOUNTAINS (source: fess206.txt lines 106-112)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.3.1",
+   "title": "Plateaus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plateaus' refers to.",
+     "a": "An upland landform characterized by a relatively level summit area that rises abruptly above adjacent lowlands on at least one side.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plateaus'.",
+     "a": "Flat-topped elevated landforms rich in mineral resources like coal, iron, and gold.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Plateaus' taught, and from which source text?",
+     "a": "PLATEAUS (source: fess206.txt lines 125-145)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.4.1",
+   "title": "Plains",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plains' refers to.",
+     "a": "Extensive low-elevation flatlands, typically under two hundred meters in altitude, created through the accumulation of alluvial sediments from rivers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plains'.",
+     "a": "Fertile, flat plains formed by river deposition, supporting high population densities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Plains' taught, and from which source text?",
+     "a": "PLAINS (source: fess206.txt lines 150-175)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.206.5.1",
+   "title": "Landforms and Human Habitation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Landforms and Human Habitation' refers to.",
+     "a": "The study of how diverse terrains dictate human settlement patterns, agricultural productivity, and the ecological necessity of conserving natural resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Landforms and Human Habitation'.",
+     "a": "Human activities are heavily influenced by landforms, requiring responsible and sustainable resource use.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Landforms and Human Habitation' taught, and from which source text?",
+     "a": "LANDFORMS AND THE PEOPLE (source: fess206.txt lines 180-205)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

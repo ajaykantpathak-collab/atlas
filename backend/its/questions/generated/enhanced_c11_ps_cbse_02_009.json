@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_009",
+   "title": "c11_ps_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define national self-determination in one sentence, and state which dimension of liberty (negative or positive) it primarily embodies.",
+     "a": "National self-determination is the right of a nation to freely determine its political status and pursue its economic, social, and cultural development; it primarily embodies positive liberty because it is about the collective capacity for self-governance and self-realization, not merely absence of interference. A wrong answer (e.g., defining it as mere independence from colonial rule or associating it only with negative liberty) reveals confusion between the procedural right to choose and the substantive capacity to act as a collective agent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why national self-determination is considered a form of collective freedom rather than just the sum of individual freedoms. Use the concept of positive liberty.",
+     "a": "National self-determination is collective freedom because the \"self\" that governs is the nation as a corporate entity with a shared identity and will, which cannot be reduced to individual choices; positive liberty at the collective level means the nation develops its own institutions, culture, and destiny—conditions that no single individual can create alone. A wrong answer that equates it with majority voting or individual rights aggregation misses the ontological claim that the nation is a distinct moral subject.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the harm principle to the following scenario: A region within a democratic state demands independence, arguing it is a distinct nation. The central government refuses, claiming the secession would harm the economic stability of the whole country. Identify the self-regarding and other-regarding actions, and state whether the harm principle justifies the refusal.",
+     "a": "The region's demand for self-determination is primarily self-regarding (governing its own affairs), but the secession act becomes other-regarding because it affects the remaining state's territory, economy, and citizens. The harm principle may justify refusal only if the harm is serious and definite (e.g., violent conflict, mass displacement), not merely economic inconvenience; the burden of proof lies on the state to show serious harm. A wrong answer that treats all secession as automatically harmful or ignores the threshold of \"serious harm\" misapplies Mill's principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian nationalist movement's demand for Swaraj (as described in the NCERT) with the European liberal nationalist movements of the 19th century (Class 10 History). Identify two similarities and one key difference in their understanding of collective freedom.",
+     "a": "Similarities: both sought freedom from external (colonial/imperial) rule and both invoked the nation as the legitimate source of sovereignty. Difference: Indian Swaraj (especially Gandhi's) emphasized self-rule as moral self-purification and internal freedom from social evils (caste, communalism), whereas European liberal nationalism focused on constitutional self-government and territorial sovereignty. A wrong answer that sees them as identical overlooks the ethical-spiritual dimension of Swaraj.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"National self-determination, if granted to every distinct cultural group, would lead to endless fragmentation and instability; therefore, it should be limited to colonial contexts only.\" Use the concepts of reasonable restrictions and the distinction between internal and external self-determination.",
+     "a": "The claim is partially valid but overstated: international law distinguishes external self-determination (independence) for colonized peoples and internal self-determination (autonomy, federalism) for groups within sovereign states; reasonable restrictions (Article 1 of ICCPR, UN practice) allow limiting secession to protect minority rights and state stability, but not denying all forms of collective autonomy. A wrong answer that endorses unlimited secession or total denial fails to grasp the nuanced balance between collective freedom and political order.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical diverse country that recognizes the right to national self-determination while safeguarding the rights of minorities and the unity of the state. Include at least two specific safeguards.",
+     "a": "A good answer would include: (1) recognition of distinct nations/peoples within the state with the right to internal self-government (autonomy, culture, language); (2) a clear procedure for any secession demand requiring a supermajority referendum, negotiation, and protection of minority rights within the seceding region; (3) a supremacy clause for fundamental rights. A poor answer that grants unilateral secession or ignores minority protection reveals inability to balance collective freedom with other constitutional values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

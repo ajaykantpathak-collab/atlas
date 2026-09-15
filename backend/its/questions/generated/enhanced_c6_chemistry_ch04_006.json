@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_006",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_006",
+   "title": "c6_chemistry_ch04_006",
+   "questions": [
+    {
+     "q": "Name two non-metals that are absolutely essential for keeping an animal alive.",
+     "a": "Oxygen and carbon. If a student only names one or confuses them with metals like iron, it reveals they have not yet distinguished between materials used for construction and materials used for survival.",
+     "self_check": true
+    },
+    {
+     "q": "Why would a human be unable to survive for more than a few minutes without oxygen?",
+     "a": "Oxygen is required for cells to perform respiration and extract energy from food. A wrong answer (e.g., \"it keeps us cool\") reveals the student confuses a biological life-process requirement with simple physical properties like temperature.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to analyze the \"backbone\" of a human cell, which non-metal would you find at the center of every protein and DNA strand?",
+     "a": "Carbon. The student must identify carbon as the structural foundation. A wrong answer suggests the student thinks metals (like calcium) are the primary structural component of all organic molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of iron in a building to the role of oxygen in a human body; how are their functions different?",
+     "a": "Iron provides static structural strength for external objects, while oxygen provides dynamic energy for internal biological survival. A wrong answer shows the student fails to distinguish between materials that are \"used\" to make objects and materials that \"function\" within a living system.",
+     "self_check": true
+    },
+    {
+     "q": "Is it accurate to say that \"metals are more important than non-metals because we build houses with them\"? Why or why not?",
+     "a": "No, it is inaccurate because non-metals are essential for life itself. Without non-metals, there would be no living organisms to live in those houses. A wrong answer indicates the student values visible/tangible utility over invisible life-sustaining necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a planet where there is plenty of iron and gold but no carbon or oxygen. Could life exist there? Explain.",
+     "a": "No, because carbon is the backbone of all organic matter and oxygen is required for energy production. A poor answer fails to connect the biological requirement of these elements to the very definition of \"life.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_006",
+   "title": "c11_ps_cbse_15_006",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly declares that laws inconsistent with Fundamental Rights are void to the extent of inconsistency?",
+     "a": "Article 13(2) of the Constitution of India. A wrong answer (e.g., citing Article 32 or 226) reveals the student confuses the *substantive invalidation rule* (Article 13) with the *remedial enforcement provisions* (Articles 32/226) — they know courts strike down laws but not the textual source of that nullity.",
+     "self_check": true
+    },
+    {
+     "q": "Why can the Supreme Court strike down a constitutional amendment passed by Parliament under Article 368, even though Article 368 grants Parliament constituent power to amend any part of the Constitution?",
+     "a": "Because the \"basic structure doctrine\" (Kesavananda Bharati, 1973) holds that Parliament's amending power under Article 368 cannot destroy the Constitution's basic features (supremacy of Constitution, rule of law, judicial review, federalism, secularism). A wrong answer (e.g., \"Supreme Court has no power over amendments\") reveals the student misses that judicial review extends to *constituent acts* — a uniquely Indian innovation beyond the US model.",
+     "self_check": true
+    },
+    {
+     "q": "A Parliament enacts a law placing a 95% tax on newspaper ink, effectively making newspapers unaffordable. The government argues it's a tax law (Entry 82, Union List) and courts cannot question legislative motive. Apply judicial review principles to determine the likely outcome.",
+     "a": "The law would be struck down. Step 1: Identify the right affected — Article 19(1)(a) freedom of speech/expression includes press freedom. Step 2: Check if restriction is reasonable under Article 19(2) — a 95% tax is a *de facto* ban, not a reasonable restriction. Step 3: Apply the \"effect test\" (not motive test) from *Indian Express v. Union of India* (1985) — courts examine the *impact* on the right, not legislative intent. Step 4: Conclude the law violates the basic structure (free press) and Article 13(2). A wrong answer accepting the \"tax power\" argument reveals the student doesn't grasp that judicial review examines *substance over form* and *effect over motive*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of judicial review in India (Articles 32, 226) with the US model (Marbury v. Madison). Identify two key differences in *justiciability* and *remedial reach*.",
+     "a": "Difference 1: US review is limited to \"cases and controversies\" (Article III); India's Article 226 allows High Courts to review *any* executive/legislative action affecting rights, even without a lis (public law review). Difference 2: US courts cannot issue positive directives (mandamus against executive discretion is limited); Indian courts under Article 142/226 can issue *continuing mandamus*, structural injunctions, and policy directives (e.g., pollution control, police reform). A wrong answer claiming \"both are identical\" reveals ignorance of India's broader *public law* conception of review.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that judicial review gives unelected judges a \"veto\" over elected Parliament, making it anti-democratic. Use the counter-majoritarian difficulty and the Indian Constitution's design to justify your assessment.",
+     "a": "Judicial review is *not* anti-democratic but *constitutional* democracy's safeguard. Step 1: The Constitution (not Parliament) is sovereign — judges enforce the people's higher law (Constituent Assembly's will). Step 2: Review protects minorities and fundamental rights from \"tyranny of the majority\" — democracy ≠ majoritarianism. Step 3: Indian courts practice *dialogue*, not veto — they strike down *specific provisions*, invite legislative re-enactment (e.g., NJAC Act → collegium restored), and avoid policy-making (restraint in *S.R. Bommai*). Step 4: The basic structure doctrine itself was *created* by judges to prevent *Parliament* from becoming anti-democratic (e.g., 39th Amendment ousting election disputes). A wrong answer calling it \"undemocratic\" reveals a majoritarian misunderstanding of constitutional democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical country that grants judicial review power to its apex court, incorporating: (a) explicit voidness of inconsistent laws, (b) direct access for rights violations, (c) basic structure protection, and (d) remedial flexibility.",
+     "a": "\"Article X: (1) Any law, executive action, or constitutional amendment inconsistent with the Fundamental Rights in Chapter II shall be void to the extent of inconsistency. (2) The Supreme Court shall have original jurisdiction to enforce these rights; any person may directly petition the Court. (3) No amendment under Article Y shall alter the Constitution's basic structure, including judicial review, federalism, secularism, and rule of law. (4) The Court may issue any order, direction, or writ (including continuing mandamus and structural remedies) necessary to secure compliance.\" A poor answer omitting (c) or (d) reveals the student treats review as mere *striking down* rather than a *comprehensive constitutional enforcement architecture*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

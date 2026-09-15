@@ -1,0 +1,439 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 3,
+ "chapter_title": "Social Institutions: Continuity and Change",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy103.1",
+   "title": "Caste in the Past: Varna, Jati and the Defining Features",
+   "section": "3.1 Caste and the Caste System - Caste in the Past",
+   "definition": "Caste is an institution tied to the Indian subcontinent, known in Indian languages through two words: varna, a four-fold all-India division into brahmana, kshatriya, vaishya and shudra (with the excluded panchamas), and jati, the regional sub-classification of hundreds of castes and sub-castes. Its defining features are that caste is fixed by birth, marriage is endogamous within the group, food and food-sharing rules apply, castes sit in a hierarchy of rank, sub-castes create segmental organisation, and occupations were hereditary.",
+   "formula": "caste_terms = varna (four_fold_all_india) + jati (regional_subcastes) ; features = birth + endogamy + food_rules + hierarchy + segmental + hereditary_occupation",
+   "key_idea": "The early Vedic varna order of roughly 900-500 BC was loose and open to movement; only in the post-Vedic period did birth-fixed rigid caste appear.",
+   "textbook_ref": "lesy103.txt, section 3.1 Caste in the Past (Portuguese casta, six defining features, Ayyankali box)",
+   "question_patterns": [
+    "distinguish varna from jati in the caste system of India",
+    "list the six defining features of caste given in the chapter on social institutions",
+    "why is caste said to be determined by birth and never a matter of choice?",
+    "what does endogamy mean in the rules of caste marriage?",
+    "how was the early Vedic varna system different from the rigid post-Vedic caste system?",
+    "what is meant by segmental organisation of castes and sub-castes?",
+    "which English word is borrowed from the Portuguese casta and what did it mean?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two-term division",
+     "explain": "varna is the broad all-India four-fold classification while jati names the local hierarchy of hundreds of castes and sub-castes"
+    },
+    {
+     "step": 2,
+     "action": "check the six features",
+     "explain": "birth-fixation, endogamous marriage, food and food-sharing rules, hierarchy of rank, segmental sub-division, and hereditary occupation together define caste"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The four-fold all-India division of caste is called what: varna or jati?",
+     "a": "varna"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.2",
+   "title": "Principles of the Caste System: Separation, Hierarchy, Purity and Pollution",
+   "section": "3.1 Caste and the Caste System - theoretical principles",
+   "definition": "The caste system combines two sets of principles: difference and separation, which keep every caste strictly apart through rules on marriage, food sharing, interaction and occupation, and wholism with hierarchy, under which castes exist only within the societal whole and occupy an ordered rung on a ladder from highest to lowest. This ranking rests on the opposition of purity and pollution - castes nearer the sacred rank high, the ritually polluting rank low - while material power usually tracks social status, and defeated groups were often pushed to low caste status.",
+   "formula": "caste_logic = separation_and_difference + wholism_and_hierarchy ; rank_basis = purity_vs_pollution",
+   "key_idea": "Castes are complementary and non-competing - each has a fixed place no other caste may take - so the system works as a social division of labour without mobility.",
+   "textbook_ref": "lesy103.txt, section 3.1 principles paragraphs (separation, hierarchy, purity-pollution, division of labour, Jotirao Phule box)",
+   "question_patterns": [
+    "what is the role of the ideas of separation and hierarchy in the caste system?",
+    "how do purity and pollution decide the ranking of castes?",
+    "why are castes described as complementary and non-competing groups?",
+    "in what sense does caste work as a social division of labour that allows no mobility?",
+    "how were groups defeated in wars often placed in the caste hierarchy?",
+    "which scriptural rules were designed to prevent the mixing of castes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two-principle combination",
+     "explain": "difference-separation keeps castes apart while wholism-hierarchy arranges them on one ladder inside the societal whole"
+    },
+    {
+     "step": 2,
+     "action": "check the purity-pollution basis",
+     "explain": "ritual purity near the sacred brings high status, ritual pollution brings low status, and economic or military power generally follows social status"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Caste ranking rests on the opposition of purity and what?",
+     "a": "pollution"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.3",
+   "title": "Colonialism and Caste",
+   "section": "3.1 Caste and the Caste System - Colonialism and Caste",
+   "definition": "Colonial rule reshaped caste deeply: British administrators ran methodical surveys of customs, counted castes in the census begun in the 1860s and made ten-yearly from 1881, and the 1901 Census under Herbert Risley recorded the social rank order of castes, provoking hundreds of petitions claiming higher positions. The Government of India Act of 1935 gave legal recognition to scheduled lists of castes and tribes for special state treatment, which is how the labels Scheduled Castes and Scheduled Tribes were born - leading many scholars to call today's caste more a product of colonialism than of ancient tradition.",
+   "formula": "colonial_contributions = caste_surveys + census_rank_order (Risley 1901) + scheduled_lists (1935 Act)",
+   "key_idea": "Once caste identities began to be counted and officially recorded, institutions that had been fluid became rigid - counting changed the thing counted.",
+   "textbook_ref": "lesy103.txt, Colonialism and Caste (1860s census, ten-yearly from 1881, Risley 1901, Government of India Act 1935, depressed classes, Savitri Bai Phule box)",
+   "question_patterns": [
+    "what changes did colonialism bring about in the caste system?",
+    "why is the 1901 Census under Herbert Risley considered important for caste?",
+    "how did the Government of India Act of 1935 create the terms Scheduled Castes and Scheduled Tribes?",
+    "why do some scholars say caste today is more a product of colonialism than of ancient tradition?",
+    "what happened when castes began to be counted and recorded officially?",
+    "which communities were called the depressed classes in colonial administration?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the census intervention",
+     "explain": "the census counted castes and recorded rank order, so fluid identities hardened and petitions poured in claiming higher positions"
+    },
+    {
+     "step": 2,
+     "action": "check the legal milestone",
+     "explain": "the 1935 Act's scheduled lists gave state recognition to discriminated castes and tribes, fixing the modern vocabulary of Scheduled Castes and Scheduled Tribes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Under which census officer did the 1901 census record the social rank order of castes: Herbert Risley or Ambedkar?",
+     "a": "Herbert Risley"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.4",
+   "title": "Counting the Colonial Census Cycles",
+   "section": "3.1 Colonialism and Caste - census arithmetic",
+   "definition": "The colonial census of caste became a regular ten-yearly exercise from 1881 onwards, and independent India continued the practice; the number of census cycles between two census years follows directly from the span of years divided by the ten-year interval.",
+   "formula": "census_cycles = census_span / census_interval",
+   "key_idea": "Divide the years between the first and last census by the interval to get the count of ten-yearly exercises.",
+   "textbook_ref": "lesy103.txt, Colonialism and Caste (census begun in the 1860s, regular ten-yearly from 1881; Census Report 2011 mentioned under tribes)",
+   "question_patterns": [
+    "how many ten-yearly census exercises ran from the 1881 census up to the Census Report 2011?",
+    "compute the number of census cycles between 1881 and 2011 given the ten-year interval",
+    "how long did the colonial period last from around 1800 to Independence in 1947?",
+    "if a census runs every ten years from a starting year, how many cycles occur by a given year?",
+    "why is the census called a ten-yearly exercise in the chapter on caste?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the first census year from the last census year",
+     "explain": "the span shows how many years of census taking separate the two exercises",
+     "compute": "census_span = census_last_year - census_first_year"
+    },
+    {
+     "step": 2,
+     "action": "divide the span by the ten-year interval",
+     "explain": "each interval marks one census cycle, so the quotient counts the exercises",
+     "compute": "census_cycles = census_span / census_interval"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The caste census became a ten-yearly exercise from which year: 1881 or 1901?",
+     "a": "1881"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.5",
+   "title": "Caste in the Present: Politics, Sanskritisation and the Dominant Caste",
+   "section": "3.1 Caste and the Caste System - Caste in the Present",
+   "definition": "Independent India abolished caste in law yet caste stayed central: democratic politics absorbed caste calculus and caste-based parties rose from the 1980s; M.N. Srinivas's concepts name the processes - sanskritisation, where a middle or lower caste raises status by copying the ritual and social practices of a higher caste, and dominant caste, the numerous intermediate castes such as Yadavs, Vokkaligas, Reddys, Marathas, Jats and Patidars who gained landrights through post-Independence land reforms and turned numbers into political power. Caste also turned paradoxical - invisible for privileged upper castes who credit merit, all too visible for scheduled and backward castes whose identity anchors reservations and who still face discrimination; endogamy survived modernisation best of all.",
+   "formula": "new_concepts = sanskritisation + dominant_caste ; visibility = invisible_for_upper_caste_elite + visible_for_scheduled_backward_castes",
+   "key_idea": "Recruitment in mills, urban neighbourhoods and politics kept organising along caste and kinship lines, while marriage within caste remained largely untouched by change.",
+   "textbook_ref": "lesy103.txt, Caste in the Present (nationalist movement, reservations, industry recruitment, politics, Srinivas box, dominant caste examples)",
+   "question_patterns": [
+    "in what sense has caste become relatively invisible for the urban upper castes?",
+    "define sanskritisation as given by M.N. Srinivas in the chapter on social institutions",
+    "what is a dominant caste and how did land reforms create it?",
+    "name four communities cited as examples of dominant castes in different states",
+    "why has caste become all the more visible for scheduled castes and tribes?",
+    "how did caste enter electoral politics after the 1980s?",
+    "which sphere of caste proved strongest against modernisation - marriage or occupation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two Srinivas concepts",
+     "explain": "sanskritisation lifts status by imitating higher castes, and the dominant caste converts population size plus landrights into rural political power"
+    },
+    {
+     "step": 2,
+     "action": "check the visibility paradox",
+     "explain": "privileged upper castes experience caste as declining because it secured their advance, while reserved-category members cannot drop an identity that anchors their lifelines"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Raising one's caste status by copying a higher caste's practices is called what?",
+     "a": "sanskritisation"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.6",
+   "title": "Tribal Communities: Classification by Permanent and Acquired Traits",
+   "section": "3.2 Tribal Communities",
+   "definition": "Tribe is a modern label for some of the oldest inhabitants of the subcontinent, first defined negatively - no written-scripture religion, no state, no sharp class divisions. Positive classification uses permanent traits (region, language, physical characteristics, ecological habitat) and acquired traits (mode of livelihood and degree of assimilation into Hindu society). By language tribes fall into Indo-Aryan, Dravidian, Austric and Tibeto-Burman groups; by race into Negrito, Australoid, Mongoloid, Dravidian and Aryan categories.",
+   "formula": "permanent_traits = region + language + physical_characteristics + ecological_habitat ; acquired_traits = livelihood + assimilation_into_hindu_society",
+   "key_idea": "Tribes range from about seven million members to Andamanese islanders under a hundred, with Gonds, Bhils, Santhals, Oraons, Minas, Bodos and Mundas each a million strong.",
+   "textbook_ref": "lesy103.txt, section 3.2 Tribal Communities (permanent and acquired traits, language and racial categories, biggest tribes list)",
+   "question_patterns": [
+    "how have tribes been classified in India according to permanent and acquired traits?",
+    "name the four language categories into which Indian tribes are grouped",
+    "which racial categories are shared between tribes and the rest of India's population?",
+    "why were tribes first defined in terms of what they were not?",
+    "list the modes of livelihood used to classify tribal communities",
+    "which criterion dominates both academic sociology and public affairs in classifying tribes?",
+    "name the biggest tribes of India mentioned in the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the permanent trait list",
+     "explain": "region, language, physical characteristics and ecological habitat are the permanent traits, with middle India holding about 85 per cent of the tribal population"
+    },
+    {
+     "step": 2,
+     "action": "check the acquired trait list",
+     "explain": "mode of livelihood and extent of incorporation into Hindu society form the acquired classification, assimilation being the dominant criterion"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Is mode of livelihood a permanent or an acquired trait in tribal classification?",
+     "a": "an acquired trait"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.7",
+   "title": "Tribal Population Shares and Census Growth",
+   "section": "3.2 Tribal Communities - population arithmetic",
+   "definition": "Census figures fix the tribal presence in numbers: about 8.2 per cent of India's population, roughly 84 million persons at the 2001 Census, rose to 8.6 per cent, about 104 million persons, in the Census Report 2011; about 85 per cent of tribals live in middle India and over 11 per cent of the remainder in the North-East, where states other than Assam exceed 30 per cent tribal share and some cross 60 per cent.",
+   "formula": "tribal_count = national_population * tribal_share / 100",
+   "key_idea": "Multiply India's population by the tribal percentage to recover the census count of about 84 million in 2001 and 104 million in 2011.",
+   "textbook_ref": "lesy103.txt, section 3.2 Permanent Traits (85 per cent middle India, 8.2 per cent 2001 Census, 8.6 per cent Census Report 2011, North-East concentrations)",
+   "question_patterns": [
+    "using the 8.2 per cent share and the 2001 Census count, find India's implied national population",
+    "compute the tribal population of India in 2001 if the national population was 1028 million and the tribal share 8.2 per cent",
+    "what percentage of India's population did tribes form according to the Census Report 2011?",
+    "how many million tribal persons did the 2011 Census report for the country?",
+    "in which belt does about 85 per cent of India's tribal population live?",
+    "which North-Eastern states have tribal concentrations above 60 per cent?",
+    "find the tribal head count for a state of 30 million people where tribals form 30 per cent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the national population by the tribal share percentage",
+     "explain": "the census gives the tribal percentage of India's population, 8.2 in 2001 or 8.6 in 2011",
+     "compute": "share_total = national_population * tribal_share"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert the percentage into a head count",
+     "explain": "the quotient is the number of tribal persons recorded at that census",
+     "compute": "tribal_count = share_total / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Tribals formed about what percent of India's population at Census 2011: 8.6 or 20?",
+     "a": "8.6"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.8",
+   "title": "Tribal Identity, Development Costs and the Caste-Tribe Debate",
+   "section": "3.2 Tribe - the Career of a Concept / National Development versus Tribal Development",
+   "definition": "Scholars first debated whether tribes sit at one end of a continuum with caste-peasant society or differ wholly because they lack purity-pollution ideas, but by the 1970s every standard criterion - size, isolation, religion, livelihood - had failed to hold the distinction, and some now see tribes as secondary products of colonial contact rather than pristine societies. National development, with its large dams, factories and mines sited in mineral-rich forest areas, made tribals pay a disproportionate price through dispossession, deforestation, private property in land and heavy in-migration - Tripura's tribal share halved in a decade - while tribal identities today centre on resistance, statehood wins like Jharkhand and Chattisgarh, and a rising educated middle class asserting culture and resource control.",
+   "formula": "development_costs = land_dispossession + forest_loss + in_migration ; identity_bases = resistance + statehood + educated_middle_class",
+   "key_idea": "Tribal identities come from interaction with the mainstream, not from primordial traits, and the two great movement issues are control over land and forests and ethnic-cultural identity.",
+   "textbook_ref": "lesy103.txt, Tribe - the Career of a Concept, National Development versus Tribal Development, Tribal Identity Today, Box 3.1 Xaxa",
+   "question_patterns": [
+    "what evidence would you offer against the view that tribes are primitive communities untouched by civilisation?",
+    "why did the tribe-peasantry distinction collapse by the 1970s?",
+    "how did national development in the Nehruvian era cost tribal communities disproportionately?",
+    "what happened to Tripura's tribal share of population within a single decade?",
+    "which two broad sets of issues gave rise to tribal movements?",
+    "how does the tribal middle class assert tribal identity today according to Xaxa?",
+    "name the Gond kingdoms that show adivasis were not always an oppressed group"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the debate and its collapse",
+     "explain": "continuum versus difference arguments failed on size, isolation, religion and livelihood, so tribes are now often read as secondary phenomena of state contact"
+    },
+    {
+     "step": 2,
+     "action": "check the development burden",
+     "explain": "dams, mines and forest exploitation dispossessed tribals, and identity assertions today centre on resistance, resources and culture rather than ancient traits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "By the 1970s, standard criteria for the tribe-caste distinction had done what: failed or held?",
+     "a": "failed"
+    }
+   ]
+  },
+  {
+   "id": "lesy103.9",
+   "title": "Family and Kinship: Nuclear, Extended and Diverse Forms",
+   "section": "3.3 Family and Kinship",
+   "definition": "The family is at once a space of warmth and care and a site of conflict and violence; structurally it may be nuclear - one set of parents and their children - or extended, the so-called joint family with more than one couple and often more than two generations, though the joint family was never the dominant Indian form and the very term is a translated, not native, category. Residence rules divide matrilocal from patrilocal societies, inheritance rules divide matrilineal from patrilineal descent, and patriarchal authority contrasts with matriarchy, which remains theoretical since no historical or anthropological evidence finds societies where women dominate - only matrilineal ones where women inherit but do not control property.",
+   "formula": "family_structures = nuclear + extended_joint ; rules = matrilocal_vs_patrilocal + matrilineal_vs_patrilineal + patriarchy_vs_matriarchy",
+   "key_idea": "Family structure moves with social change - male migration makes women-headed Himalayan villages, and software-industry schedules bring grandparents in as care-givers.",
+   "textbook_ref": "lesy103.txt, section 3.3 Family and Kinship, Nuclear and Extended Family, The Diverse Forms of the Family (I.P. Desai on joint family)",
+   "question_patterns": [
+    "what are some of the different forms that the family can take?",
+    "distinguish a nuclear family from an extended or joint family",
+    "why does I.P. Desai say the term joint family is not a native Indian category?",
+    "explain the difference between matriliny and matriarchy with the evidence problem",
+    "how do matrilocal and patrilocal residence rules differ after marriage?",
+    "in what ways can changes in social structure lead to changes in family structure?",
+    "why are matrilineal women not decision makers in public affairs despite inheriting property?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the family-type contrast",
+     "explain": "a nuclear family holds one couple and their children, while an extended family packs several couples and generations; the joint family was never dominant in India"
+    },
+    {
+     "step": 2,
+     "action": "check the matriarchy evidence claim",
+     "explain": "matriarchy has no historical or anthropological evidence; matrilineal societies exist where women inherit from mothers without controlling property or public decisions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A family of one set of parents and their children is called what: nuclear or extended?",
+     "a": "nuclear"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy103.we1",
+   "concept_id": "lesy103.7",
+   "problem": "India's population at the 2001 Census was about 1028 million and the tribal share was 8.2 per cent. Compute the tribal population in millions.",
+   "given": {
+    "national_population": 1028,
+    "tribal_share": 8.2
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the national population by the tribal share",
+     "compute": "share_total = 1028 * 8.2"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert into millions of persons",
+     "compute": "tribal_count = share_total / 100"
+    }
+   ],
+   "answer": "tribal_count = 84.3 million, matching the chapter's figure of about 84 million tribal persons at the 2001 Census"
+  },
+  {
+   "id": "lesy103.we2",
+   "concept_id": "lesy103.7",
+   "problem": "The tribal count rose from about 84 million (2001) to about 104 million (2011). Find the increase and the growth rate over the decade.",
+   "given": {
+    "census_2001_count": 84,
+    "census_2011_count": 104
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "subtract the 2001 count from the 2011 count",
+     "compute": "added_count = 104 - 84"
+    },
+    {
+     "step": 2,
+     "action": "divide the addition by the 2001 base and scale to a percentage",
+     "compute": "growth_rate = added_count / 84 * 100"
+    }
+   ],
+   "answer": "added_count = 20 million and growth_rate = 23.8 per cent over the decade between the two censuses"
+  },
+  {
+   "id": "lesy103.we3",
+   "concept_id": "lesy103.4",
+   "problem": "The caste census ran ten-yearly from 1881 up to the Census Report 2011. How many census cycles is that?",
+   "given": {
+    "census_first_year": 1881,
+    "census_last_year": 2011,
+    "census_interval": 10
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "subtract the first census year from the last",
+     "compute": "census_span = 2011 - 1881"
+    },
+    {
+     "step": 2,
+     "action": "divide the span by the ten-year interval",
+     "compute": "census_cycles = census_span / 10"
+    }
+   ],
+   "answer": "census_cycles = 13 ten-yearly census exercises"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy103.ex1",
+   "source_ref": "lesy103.txt chapter-end Questions",
+   "questions": [
+    "What is the role of the ideas of separation and hierarchy in the caste system?",
+    "What are some of the rules that the caste system imposes?",
+    "What changes did colonialism bring about in the caste system?",
+    "In what sense has caste become relatively invisible for the urban upper castes?",
+    "How have tribes been classified in India?",
+    "What evidence counts against the view that tribes are isolated primitive communities?",
+    "What factors lie behind the assertion of tribal identities today?",
+    "What different forms can the family take?",
+    "In what ways can changes in social structure lead to changes in family structure?",
+    "Explain the difference between matriliny and matriarchy."
+   ]
+  },
+  {
+   "id": "lesy103.ex2",
+   "source_ref": "lesy103.txt data paragraphs in sections 3.1 and 3.2",
+   "questions": [
+    "A North-Eastern state has 2 million people with a 60 per cent tribal share - find the tribal head count.",
+    "The tribal share moved from 8.2 per cent to 8.6 per cent between the 2001 and 2011 Censuses - by how many percentage points did it rise?",
+    "If 85 of every 100 tribal persons live in middle India, how many of 104 million tribals live outside middle India?"
+   ]
+  }
+ ]
+}

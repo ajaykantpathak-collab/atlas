@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_005",
+   "title": "c11_soc_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the exact year Durkheim was appointed to the first Chair of Sociology at the University of Paris and the name of the journal he founded in 1897.",
+     "a": "Correct answer: Durkheim was appointed to the Chair of Education (later renamed Education and Sociology) at the University of Paris in 1902; the Chair was renamed Education and Sociology in 1913. He founded the journal *Année Sociologique* in 1897. A wrong answer (e.g., giving 1893 for the Chair or confusing the journal with *Archives for Social Science*) reveals the student has memorised isolated dates without linking them to the institutionalisation timeline — they cannot sequence the steps by which sociology gained academic legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Durkheim's decision to study philosophy at the École Normale Supérieure instead of continuing rabbinical training was a necessary condition for his later definition of sociology as a science of social facts.",
+     "a": "Correct answer: Rabbinical training would have confined Durkheim to interpreting sacred texts and religious law, which treat moral codes as divinely given. Philosophy at ENS exposed him to positivism, the scientific method, and the idea that social phenomena could be studied empirically like natural facts. This break allowed him to re-conceive moral codes as *social facts* — human-made, observable, and constraining — rather than divine commandments. A wrong answer that focuses only on \"secularisation\" or \"loss of faith\" misses the methodological shift: the student fails to see that the *type of explanation* changed from theological to sociological, which is the core of Durkheim's contribution.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student claims: \"Durkheim's concept of social facts is just a fancy term for 'culture' or 'norms'.\" Using Durkheim's two defining criteria (externality and constraint), construct a counter-argument that distinguishes a social fact from a mere cultural preference.",
+     "a": "Correct answer steps:\n1. Identify Durkheim's two criteria: social facts are (a) external to the individual and (b) exercise coercive constraint.\n2. Choose an example: e.g., the legal requirement to drive on the left side of the road in India.\n3. Show externality: the rule exists independently of any single driver — it is written in the Motor Vehicles Act, enforced by traffic police, and predates the driver's birth.\n4. Show constraint: a driver who ignores it faces fines, license suspension, or accidents; the pressure to comply is palpable and measurable.\n5. Contrast with a cultural preference: preferring tea over coffee is internal (subjective taste) and carries no external sanction — violation brings no penalty.\n6. Conclude: social facts are a subset of culture/norms that meet both criteria; not all cultural elements are social facts.\nA wrong answer that lists norms without testing externality/constraint reveals the student treats the definition as a label rather than an analytical tool.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Durkheim's and Marx's views on the division of labour as presented in the NCERT text. Identify one fundamental agreement and one fundamental disagreement, and explain how each thinker's biography (Durkheim's republican France vs. Marx's exile in London) might have shaped that difference.",
+     "a": "Correct answer:\n- Agreement: Both see the division of labour as increasing interdependence and complexity in modern society.\n- Disagreement: Durkheim views it as the basis of *organic solidarity* (functional integration, restitutive law), while Marx sees it as a source of *alienation and class conflict* (exploitation, repressive law).\n- Biographical link: Durkheim, building a career in the Third Republic's university system, sought to show how modern society holds together through differentiated but complementary roles — a vision compatible with republican reform. Marx, exiled and politically radical, focused on the power asymmetry between owners and workers that the division of labour conceals.\nA wrong answer that only lists \"Durkheim = solidarity, Marx = conflict\" without linking to their institutional positions shows the student cannot contextualise theory production — a key senior-secondary skill.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Durkheim succeeded in making sociology a science because he used statistical data in *Suicide* (1897).\" Evaluate whether statistical method alone constitutes scientific sociology in Durkheim's view, using his concept of 'social facts as things'.",
+     "a": "Correct answer: The claim is insufficient. Durkheim argued that statistics (suicide rates) are merely *indicators* of underlying social facts (e.g., degree of integration/regulation). The scientific move was not quantification per se, but treating the *rate itself* as a social fact — external to any individual suicide, constraining across generations, and explicable only by other social facts (religious affiliation, family structure). He insisted on *causal explanation at the social level* (e.g., Protestantism → lower integration → higher suicide rate), not correlation-hunting. A student who equates science with numbers misses Durkheim's epistemological breakthrough: the *ontological status* of the social fact as a reality *sui generis*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a mini-project that would allow a Class 11 student to empirically test Durkheim's claim that \"social facts can be observed via aggregated patterns of behaviour.\" Specify the social fact, the observable behavioural indicator, the data source, and the comparison that would validate or challenge the claim.",
+     "a": "Expected answer criteria:\n- Social fact: e.g., \"compulsory schooling norm in India.\"\n- Observable indicator: \"enrolment rate of 6–14 year olds\" (aggregated by district/year).\n- Data source: \"UDISE+ (Unified District Information System for Education) annual reports.\"\n- Comparison: \"Compare enrolment trends before and after the Right to Education Act (2009); if the norm is a social fact, the aggregate pattern should shift sharply and uniformly across diverse regions, independent of individual parental choices.\"\nA poor answer that proposes surveying individual parents' attitudes (\"Do you value education?\") reveals the student still thinks sociological explanation reduces to individual psychology — the very error Durkheim fought.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

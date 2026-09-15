@@ -1,0 +1,141 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip105",
+ "concepts": [
+  {
+   "id": "leip105.1",
+   "title": "Types of Networks LAN MAN WAN",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Networks LAN MAN WAN' refers to.",
+     "a": "Networks are classified by the area they span: a LAN connects computers within a building or campus, a MAN spans a city such as cable networks across town, and a WAN spans countries or the world, with the Internet as the largest WAN. Smaller reach generally means faster speeds and cheaper ownership.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Networks LAN MAN WAN'.",
+     "a": "A LAN is privately owned and measured in metres to kilometres; a WAN uses leased public carrier links across cities and nations. PAN (personal area, e.g. Bluetooth headset) is smaller still.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Types of Networks LAN MAN WAN'.",
+     "a": "Which network type connects computers within one school building?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip105.2",
+   "title": "Network Devices Repeater Switch Router",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Network Devices Repeater Switch Router' refers to.",
+     "a": "Network devices connect and direct traffic: a repeater regenerates a weakening signal, a hub broadcasts incoming data to every port, a switch forwards frames only to the intended port using MAC addresses, a router connects different networks and routes packets between them, a modem modulates digital data onto carrier lines, and a gateway translates between different protocol systems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Network Devices Repeater Switch Router'.",
+     "a": "The intelligence rises up the chain: repeater amplifies, hub shouts to everyone, switch selects the port, router selects the network, gateway translates protocols. A switch learns MAC addresses; a hub never does.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Network Devices Repeater Switch Router'.",
+     "a": "Which device regenerates a weakening signal to extend cable length?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip105.3",
+   "title": "Bandwidth and Data Transfer Time",
+   "questions": [
+    {
+     "q": "Using the method 'Bandwidth and Data Transfer Time', work with: mb = 4096, mbps = 2048. Carry the chain through step by step and give the final value of sec.",
+     "a": "16 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bandwidth and Data Transfer Time' and work with: mb = 256, mbps = 1024. Carry the chain through step by step and give the final value of sec.",
+     "a": "2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bandwidth and Data Transfer Time' refers to.",
+     "a": "Bandwidth is the data-carrying capacity of a channel, measured in bits per second. Transfer time follows from the size of the file in bits divided by the bandwidth: a file of f megabytes over a link of b megabits per second takes f x 8 / b seconds, since one byte is eight bits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bandwidth and Data Transfer Time'.",
+     "a": "Always convert the file size to bits before dividing by the bit rate. The 8x byte-to-bit factor is the step students most often miss; prefixes matter too (1 Mbps is one million bits per second in networking).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bandwidth and Data Transfer Time', in plain ASCII form.",
+     "a": "bits = mb * 8 * kbps_ratio",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip105.4",
+   "title": "Web Address URL and DNS",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Web Address URL and DNS' refers to.",
+     "a": "A URL locates a resource: protocol, domain and path, such as https://www.example.com/index.html. The Domain Name System (DNS) translates the human-readable domain into the numeric IP address that machines route by, like a phonebook for the Internet.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Web Address URL and DNS'.",
+     "a": "Computers route by IP address, humans remember names; DNS resolves the name to the address before the request leaves. https differs from http by the TLS encryption layer.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Web Address URL and DNS'.",
+     "a": "Name the parts of the URL https://www.school.edu.in/results.html.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip105.5",
+   "title": "Network Topologies Star Bus Tree",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Network Topologies Star Bus Tree' refers to.",
+     "a": "Topology is the layout that connects nodes. In a bus every node taps one shared backbone; in a star every node links to a central switch; a tree joins multiple stars onto a backbone. Star failure of the central device downs the whole network, while in a bus a broken backbone splits it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Network Topologies Star Bus Tree'.",
+     "a": "Cabling cost and fault tolerance trade off: star needs the most cable but isolates link failures to one node; bus is cheapest but one cable fault affects many. Mesh, with every node linked to every other, is the most fault-tolerant and the most expensive.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Network Topologies Star Bus Tree'.",
+     "a": "Which topology connects every node to a central switch?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip105.6",
+   "title": "Voice over Internet Protocol and Video Conferencing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Voice over Internet Protocol and Video Conferencing' refers to.",
+     "a": "Voice over Internet Protocol (VoIP) carries telephone calls as packets over IP networks instead of dedicated phone lines, and video conferencing joins distant sites with live two-way audio and video. Both need steady bandwidth and low delay to stay usable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Voice over Internet Protocol and Video Conferencing'.",
+     "a": "Applications are classed by tolerance: file transfer tolerates delay, live voice and video do not, which is why conferencing quality tracks available bandwidth and latency.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Voice over Internet Protocol and Video Conferencing'.",
+     "a": "What is VoIP and how does it differ from traditional telephony?",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

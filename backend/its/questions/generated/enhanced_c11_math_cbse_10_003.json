@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_003",
+   "title": "c11_math_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the section formula for internal division of a line segment joining A(x₁, y₁) and B(x₂, y₂) in the ratio m:n. Then explain in your own words why the formula uses mx₂ + nx₁ (not mx₁ + nx₂) for the x-coordinate.",
+     "a": "The formula is P(x, y) = ((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n)). The weights are reversed because the point P is m parts from A and n parts from B. The distance AP is proportional to m, so P's x-coordinate is closer to B when m is larger. Thus B's coordinate gets weight m (the opposite segment). A wrong answer like (mx₁ + nx₂)/(m+n) reveals the student memorized the formula without understanding the similar-triangle derivation where AP/PB = m/n implies (x-x₁)/(x₂-x) = m/n.",
+     "self_check": true
+    },
+    {
+     "q": "A point P divides the segment joining A(-4, 6) and B(8, -2) internally in the ratio 3:1. Without calculating the exact coordinates, determine whether P lies in the first, second, third, or fourth quadrant. Justify your reasoning using the signs of the weighted averages.",
+     "a": "P lies in the first quadrant. For x-coordinate: x = (3×8 + 1×(-4))/4 = (24-4)/4 = 5 > 0. For y-coordinate: y = (3×(-2) + 1×6)/4 = (-6+6)/4 = 0. Since x > 0 and y = 0, P lies on the positive x-axis (boundary of first quadrant). A student answering \"fourth quadrant\" incorrectly computed y as negative, revealing they used mx₁+nx₂ instead of mx₂+nx₁, or miscalculated the weighted sum signs. The correct reasoning uses the fact that weighted averages preserve sign dominance.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the line segment joining A(2, -5) and B(-6, 3) internally in the ratio 2:3. Then verify your answer by checking that AP:PB = 2:3 using the distance formula.",
+     "a": "Using formula: x = (2×(-6) + 3×2)/5 = (-12+6)/5 = -6/5 = -1.2; y = (2×3 + 3×(-5))/5 = (6-15)/5 = -9/5 = -1.8. So P(-1.2, -1.8). Verification: AP = √[(-1.2-2)² + (-1.8+5)²] = √[(-3.2)² + (3.2)²] = √(10.24+10.24) = √20.48 = 3.2√2. PB = √[(-6+1.2)² + (3+1.8)²] = √[(-4.8)² + (4.8)²] = √(23.04+23.04) = √46.08 = 4.8√2. Ratio AP:PB = 3.2√2 : 4.8√2 = 2:3. A wrong answer with positive coordinates indicates sign errors in substitution or confusion about which coordinate gets which weight.",
+     "self_check": true
+    },
+    {
+     "q": "The midpoint of AB is M(3, 4). Point P divides AB internally in the ratio 1:3. If A has coordinates (1, 2), find the coordinates of B and P. Explain how the midpoint formula and section formula are connected in this solution.",
+     "a": "Using midpoint formula: (1+x₂)/2 = 3 → x₂ = 5; (2+y₂)/2 = 4 → y₂ = 6. So B(5, 6). Now P divides AB in 1:3: x = (1×5 + 3×1)/4 = 8/4 = 2; y = (1×6 + 3×2)/4 = 12/4 = 3. So P(2, 3). Connection: Midpoint is the special case m=n=1. Here we used midpoint to find missing endpoint, then section formula for unequal division. A student who directly assumes P is the midpoint reveals confusion between \"midpoint\" (equal division) and \"internal division in given ratio\" (unequal division).",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find point dividing A(4, -2) and B(-2, 4) in ratio 3:2\" and got P(0, 0). Their working: x = (3×4 + 2×(-2))/5 = (12-4)/5 = 8/5 = 1.6; y = (3×(-2) + 2×4)/5 = (-6+8)/5 = 2/5 = 0.4. They concluded P(1.6, 0.4). Identify the error in their formula application and find the correct coordinates.",
+     "a": "The student used mx₁ + nx₂ instead of mx₂ + nx₁. Correct formula: x = (mx₂ + nx₁)/(m+n) = (3×(-2) + 2×4)/5 = (-6+8)/5 = 2/5 = 0.4; y = (3×4 + 2×(-2))/5 = (12-4)/5 = 8/5 = 1.6. So correct P(0.4, 1.6). The student swapped the weights, a classic reversal error. Their answer (1.6, 0.4) is actually the point dividing in ratio 2:3 (the reciprocal ratio). This reveals they don't understand that the ratio m:n corresponds to AP:PB, so the weight for B's coordinate is m (the part from A).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a straight road between two cities A and B where a rest stop must be placed such that its distance from A is 2/5 of the total road length. Assign coordinates to A and B (use realistic km values), state the ratio, and solve for the rest stop coordinates. Then modify the problem: if the road is extended beyond B by the same length AB, where would a point dividing the extended segment externally in the same ratio lie? (Do not solve the external part - just set it up.)",
+     "a": "Sample problem: City A at (10 km, 20 km), City B at (70 km, 80 km). Rest stop divides AB internally such that AP = (2/5)AB, so AP:PB = 2:3. Using section formula: x = (2×70 + 3×10)/5 = (140+30)/5 = 34 km; y = (2×80 + 3×20)/5 = (160+60)/5 = 44 km. Rest stop at (34, 44). Extension setup: Extended road to C such that B is midpoint of AC. C = (130, 140). Point Q divides AC externally in ratio 2:3 (i.e., AQ:QC = 2:3 with Q beyond C). This tests if the student can distinguish internal vs external division and set up coordinates for extension. A poor answer uses the same coordinates or ratio without extending the segment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

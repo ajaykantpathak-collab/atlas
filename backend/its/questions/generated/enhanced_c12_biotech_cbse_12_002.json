@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_002",
+   "title": "c12_biotech_cbse_12_002",
+   "questions": [
+    {
+     "q": "Name the three primary government agencies in India that provide early-stage funding specifically for biotechnology startups, and state the typical grant range for the earliest ideation stage.",
+     "a": "The three primary agencies are: (1) BIRAC (Biotechnology Industry Research Assistance Council) under DBT — its BIG (Biotechnology Ignition Grant) provides up to ₹50 lakhs for proof-of-concept; (2) DBT (Department of Biotechnology) directly through various scheme-specific grants; (3) DST (Department of Science & Technology) via NSTEDB and TBI (Technology Business Incubator) seed funds. A wrong answer listing only 'Start-up India' or 'MUDRA' reveals the misconception that general startup schemes suffice for biotech's unique capital and timeline needs — biotech requires sector-specific agencies that understand long gestation periods and regulatory risk.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup developing a recombinant protein therapeutic has completed animal toxicity studies and is preparing for Phase I clinical trials. Explain why this startup cannot approach a typical angel investor network (like those for SaaS startups) for its Series A round without first engaging with a biotech-specialized venture capital fund or strategic corporate partner.",
+     "a": "Biotech Series A rounds (typically ₹10–30 crores in India) require investors who understand: (a) the binary regulatory risk of CDSCO/DCGA clinical trial approval; (b) the 7–10 year horizon to exit vs. 3–5 years for software; (c) the need for follow-on capital reserves for Phase II/III; (d) the manufacturing scale-up complexity (GMP compliance). A wrong answer focusing only on 'high risk' misses the structural mismatch — generalist angels lack the technical due diligence capacity and portfolio reserve strategy for capital-intensive, regulated life sciences ventures.",
+     "self_check": true
+    },
+    {
+     "q": "A student team has developed a CRISPR-based diagnostic for tuberculosis that works on sputum samples. They have filed a provisional patent in India. List the next four sequential steps they must take to move from lab prototype to a field-deployable product in the Indian public health system, identifying the specific agency or mechanism for each step.",
+     "a": "Step 1: Complete PCT/international patent filing within 12 months (Indian Patent Office / WIPO) for global IP protection. Step 2: Secure BIRAC BIG grant (up to ₹50L) or SITARE-Gandhian Young Technological Innovation award for prototype validation in clinical samples (BIRAC/DBT). Step 3: Partner with a DBT-supported biotech incubator (e.g., C-CAMP, Venture Center, IKP) for GMP-compliant assay development and regulatory strategy mentorship. Step 4: Engage CDSCO for IVD (in-vitro diagnostic) regulatory pathway — submit technical dossier for manufacturing license and clinical performance evaluation approval. A wrong answer skipping Step 3 or reversing Steps 2–3 reveals ignorance of the 'valley of death' between academic prototype and regulatory-grade product — incubators provide the critical infrastructure bridge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of a biotechnology park (e.g., Genome Valley, Hyderabad) versus a technology business incubator (e.g., C-CAMP, Bengaluru) in the startup ecosystem. Analyze which is more critical for a pre-revenue startup developing a novel enzyme for textile processing, and justify with two specific resources each provides.",
+     "a": "Biotechnology parks (state-government promoted, e.g., Genome Valley, Biotech Park Lucknow) provide: (1) subsidized land/built-up GMP-ready manufacturing modules for scale-up; (2) common effluent treatment and utility infrastructure for production-scale operations. Technology Business Incubators (DBT/DST-supported, e.g., C-CAMP, Venture Center) provide: (1) shared high-end instrumentation (HPLC, mass spec, bioreactors) for R&D; (2) mentorship networks for regulatory strategy, IP, and investor connect. For a pre-revenue enzyme startup, the TBI is more critical initially — it needs R&D infrastructure and regulatory guidance for product characterization (e.g., enzyme kinetics, stability, formulaton) before any manufacturing scale-up. A wrong answer choosing the biotech park reveals confusion between R&D-stage needs (TBI) and commercial manufacturing needs (Park).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Draft National Biotech Development Strategy 2020–24's emphasis on 'connecting academia and industry' primarily benefits large established biotech companies, not early-stage startups.\" Defend or refute with three specific mechanism-level arguments referencing actual policy instruments.",
+     "a": "Refute. The strategy explicitly targets startups through: (1) BIRAC's LEAP (Launching Entrepreneurship Aspirations Program) — funds academic researchers to spin out companies, with milestones tied to incorporation and seed funding; (2) DBT's Biotech Parks and Incubators Network (BPI) — mandates 30% occupancy for startups in supported incubators, with subsidized access to national facilities (e.g., NCCS, NCBS, inStem); (3) Public procurement preference — GeM (Government e-Marketplace) startup category and 'Make in India' procurement norms for diagnostics/vaccines create early revenue streams for startups before private sales. A wrong answer agreeing with the statement ignores the policy design that earmarks resources (funding, infrastructure, market access) specifically for pre-commercial ventures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 12-month milestone plan for a hypothetical biotech startup founded by two PhD graduates developing a bacteriophage cocktail for antibiotic-resistant wound infections. The plan must include: (a) one regulatory milestone with CDSCO, (b) one IP milestone, (c) one funding milestone with a specific scheme, (d) one technical validation milestone, and (e) one ecosystem engagement milestone. Justify the sequence.",
+     "a": "Month 1–3: IP milestone — File provisional patent in India covering phage cocktail composition, formulation, and method of use (Indian Patent Office). Month 3–6: Technical validation — Complete in-vitro efficacy panel against 50 clinical isolates (ESKAPE pathogens) and murine wound infection model (incubator animal facility). Month 6–9: Funding milestone — Submit BIRAC BIG grant proposal (₹50L) with provisional patent + validation data; parallel application to DST-SERB SURE scheme for equipment. Month 9–12: Regulatory milestone — Pre-submission meeting with CDSCO (Biologics Division) for phage therapy regulatory pathway classification (novel biologic vs. ATMP); initiate GLP toxicology study design. Month 12: Ecosystem engagement — Join Association of Biotechnology Led Enterprises (ABLE) startup forum; present at BioInvest or Global Bio-India for investor visibility. Sequence justification: IP first (protects freedom to operate), then data (de-risks funding), then funding (enables regulatory studies), then regulatory engagement (defines path), then ecosystem (scales network). A poor answer sequences funding before IP or regulatory before data, revealing ignorance of dependency chains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

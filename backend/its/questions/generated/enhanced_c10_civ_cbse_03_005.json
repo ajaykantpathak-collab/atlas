@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_03_005",
+   "title": "c10_civ_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is meant by the term \"vote bank\" in the context of caste and Indian elections?",
+     "a": "A \"vote bank\" refers to a cohesive group of voters from a particular caste or community who tend to vote en bloc for a specific party or candidate, often because the party is seen as representing that caste's interests. A wrong answer — such as \"a bank where votes are deposited\" or \"a list of registered voters\" — reveals the student has not grasped the metaphorical political usage and cannot identify how caste solidarity translates into electoral strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Why do political parties in India often give election tickets to candidates based on the caste composition of a constituency?",
+     "a": "Parties distribute tickets to match the dominant caste in a constituency because they assume voters prefer candidates of their own caste, increasing the party's chance of winning that seat. A wrong answer — like \"parties do it to promote social justice\" or \"the Constitution requires caste-based ticket distribution\" — shows the student confuses strategic electoral calculation with constitutional mandate or moral reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical constituency, 40% of voters belong to Caste X, 35% to Caste Y, and 25% to other groups. Party A fields a candidate from Caste X, Party B fields a candidate from Caste Y. If voting follows strict caste lines, which party wins and what percentage of the total vote does it secure?",
+     "a": "Party A wins with 40% of the vote because its candidate's caste (X) forms the largest single bloc. A wrong answer — such as \"Party B wins because 35% is a majority\" or \"no one wins because no caste has 50%\" — reveals the student cannot apply simple plurality logic to caste arithmetic, a common trap in board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of caste in candidate selection with the role of religion in candidate selection. Identify one similarity and one difference in how parties use these identities.",
+     "a": "Similarity: Both are used to calculate electoral arithmetic and mobilise identity-based support. Difference: Caste operates within the Hindu social hierarchy and often determines hyper-local constituency arithmetic, while religion-based mobilisation typically cuts across constituencies and is linked to broader communal narratives. A wrong answer that says \"both are banned by the Constitution\" or \"caste is used only by regional parties, religion only by national parties\" shows inability to analyse structural parallels and distinctions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Caste-based political mobilisation has only weakened Indian democracy by dividing voters along primordial lines.\"",
+     "a": "The statement is partially true but incomplete. Caste mobilisation has indeed entrenched identity politics, but it has also enabled historically oppressed groups (Dalits, OBCs) to gain representation and press for redistributive policies, deepening democratic inclusion. A wrong answer that wholly agrees or disagrees without nuance — e.g., \"caste politics is good because it gives power to lower castes\" — fails the board's expectation for balanced evaluation using evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a campaign strategy for a new political party that wants to win a state election without relying on caste-based appeals. List three concrete steps the party could take.",
+     "a": "A strong answer includes: (1) issue-based manifesto focusing on employment, healthcare, education; (2) candidate selection based on merit and local credibility, not caste; (3) outreach through door-to-door canvassing and social media emphasising governance record. A poor answer — \"tell people caste is bad\" or \"field only upper-caste candidates\" — reveals the student cannot translate the civic ideal of issue-based politics into practical strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

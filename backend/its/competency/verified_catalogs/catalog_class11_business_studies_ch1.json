@@ -1,0 +1,600 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 1,
+ "chapter_title": "Business, Trade and Commerce",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs101.txt",
+ "concepts": [
+  {
+   "id": "c11bs.1.1",
+   "title": "Meaning and Characteristics of Business",
+   "section": "1.1",
+   "definition": "Business refers to those economic activities that are concerned with the production or purchase and sale of goods or supply of services with the main objective of earning profit.",
+   "formula": "",
+   "key_idea": "Business is a human economic activity involving production, exchange, and sale of goods and services undertaken regularly for profit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define business and list its main characteristics.",
+    "Explain the economic nature of business activities.",
+    "What are the essential features that distinguish business from other activities?",
+    "How does regularity of transactions define a business?",
+    "Why is sale or exchange of goods a key characteristic of business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define business",
+     "explain": "Business is an economic activity concerned with production, purchase, and sale of goods or supply of services undertaken for earning profit."
+    },
+    {
+     "step": 2,
+     "action": "List the characteristics",
+     "explain": "The main characteristics are: economic activity, production or procurement of goods, sale or exchange, regularity in dealings, profit motive, element of risk, and uncertainty of return."
+    },
+    {
+     "step": 3,
+     "action": "Explain the profit and risk link",
+     "explain": "Every business is carried out with the intention of earning profit, but it also involves risk and uncertainty of returns, which are inseparable from business activity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is business and why is it called an economic activity?",
+     "solution": "Business is an economic activity because it is undertaken to earn a livelihood or profit by producing or trading goods and services. It involves regular transactions and is driven by the profit motive.",
+     "answer": "Business is a profit-motivated economic activity involving regular production or exchange of goods and services."
+    },
+    {
+     "question": "List any four characteristics of business.",
+     "solution": "The four characteristics are: (1) it is an economic activity, (2) it involves production or procurement of goods and services, (3) it includes sale or exchange for value, and (4) it is carried on regularly with a profit motive.",
+     "answer": "Economic activity, production/procurement, sale or exchange, and regularity with profit motive."
+    },
+    {
+     "question": "Explain how risk and uncertainty of return are related to business.",
+     "solution": "Risk arises because future events affecting business are uncertain, and uncertainty of return means no business can guarantee a fixed profit. These two features are always present in business.",
+     "answer": "Risk and uncertainty of return are unavoidable features of every business activity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define business and state its main characteristics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the profit motive considered an essential feature of business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the element of risk in business with an example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.2",
+   "title": "Comparison of Business, Profession and Employment",
+   "section": "1.2",
+   "definition": "Business is an economic activity for profit through production or trade; profession is an occupation requiring specialised knowledge and service for a fee; employment is work performed under a contract for a salary or wage.",
+   "formula": "",
+   "key_idea": "Business, profession, and employment are three types of economic activities differing in capital, risk, reward, qualification, and transfer of interest.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between business, profession, and employment.",
+    "How does a profession differ from employment?",
+    "Compare the reward received in business, profession, and employment.",
+    "Which economic activity involves the highest risk and why?",
+    "Explain the role of qualification in profession vs employment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define each activity",
+     "explain": "Business is profit-oriented trade or production; profession requires expert knowledge and service for a fee; employment is working for others under a contract for wages."
+    },
+    {
+     "step": 2,
+     "action": "Compare key features",
+     "explain": "Compare on the basis of capital, qualification, reward, risk, transfer of interest, and code of conduct across the three activities."
+    },
+    {
+     "step": 3,
+     "action": "Summarise the reward and risk",
+     "explain": "Business earns profit with high risk, profession earns fees with moderate risk, and employment earns salary with no risk of capital but limited reward."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between business and profession on any four bases.",
+     "solution": "Business requires capital investment, earns profit, has high risk, and needs no formal qualification; profession needs expert knowledge, earns fees, has moderate risk, and is governed by a professional code of conduct.",
+     "answer": "Business earns profit with high risk and no formal qualification; profession earns fees with expert knowledge and a code of conduct."
+    },
+    {
+     "question": "How does employment differ from business?",
+     "solution": "In employment a person works for another under a contract and receives a fixed salary with no capital risk, whereas business is self-driven, involves capital, earns uncertain profit, and carries risk.",
+     "answer": "Employment gives fixed salary with no risk; business gives uncertain profit with capital risk."
+    },
+    {
+     "question": "Why is a profession said to require specialised knowledge?",
+     "solution": "A profession such as law or medicine requires formal education, training, and a recognised qualification, and the practitioner renders expert service governed by a professional body's code of conduct.",
+     "answer": "A profession needs formal qualification, training, and adherence to a code of conduct."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between business, profession, and employment on the basis of reward, risk, and qualification.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is employment considered less risky than business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples each of business, profession, and employment.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.3",
+   "title": "Objectives of Business",
+   "section": "1.3",
+   "definition": "Objectives of business are the goals that a business seeks to achieve through its operations, including economic, social, personal, and national objectives.",
+   "formula": "",
+   "key_idea": "Profit is the primary economic objective but a business must also pursue social and personal objectives to survive and grow.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main objectives of business?",
+    "Explain the economic objectives of business.",
+    "Why are social objectives important for business?",
+    "How do personal objectives differ from social objectives?",
+    "Explain the relationship between profit and social objectives."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the economic objectives",
+     "explain": "Economic objectives include survival, profit, and growth. Profit is essential for survival, while growth ensures long-term success."
+    },
+    {
+     "step": 2,
+     "action": "State the social objectives",
+     "explain": "Social objectives include producing quality goods, fair employment practices, avoiding pollution, and contributing to community welfare."
+    },
+    {
+     "step": 3,
+     "action": "State the personal objectives",
+     "explain": "Personal objectives relate to the goals of employees and owners such as fair salary, job satisfaction, status, and growth opportunities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the economic objectives of business.",
+     "solution": "The economic objectives are survival (continuing in the market), profit (earning enough to reward owners and reinvest), and growth (expanding scale and market reach over time).",
+     "answer": "Survival, profit, and growth are the economic objectives of business."
+    },
+    {
+     "question": "Why must a business pursue social objectives along with profit?",
+     "solution": "A business uses society's resources, so it must produce quality goods, provide fair employment, avoid pollution, and support community welfare to maintain goodwill and long-term survival.",
+     "answer": "Social objectives ensure goodwill, public support, and long-term survival of business."
+    },
+    {
+     "question": "What are personal objectives in business?",
+     "solution": "Personal objectives are the goals of employees and owners such as fair wages, job security, job satisfaction, recognition, and opportunities for advancement.",
+     "answer": "Personal objectives cover fair wages, job satisfaction, and growth of employees and owners."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the economic, social, and personal objectives of business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is profit considered a primary but not the only objective of business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of social objectives of business.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.4",
+   "title": "Classification of Business Activities: Industry and Commerce",
+   "section": "1.4",
+   "definition": "Business activities are broadly classified into industry, concerned with production or processing of goods, and commerce, concerned with the distribution of goods and services.",
+   "formula": "",
+   "key_idea": "All business activities are either industry (production side) or commerce (distribution side), and commerce further includes trade and auxiliaries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify business activities into industry and commerce.",
+    "How does industry differ from commerce?",
+    "Explain the two broad categories of business activities.",
+    "What is the role of commerce in business?",
+    "Why is industry considered the production side of business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define industry and commerce",
+     "explain": "Industry covers activities related to production, processing, or extraction of goods, while commerce covers activities that ensure goods reach consumers."
+    },
+    {
+     "step": 2,
+     "action": "Explain the relationship",
+     "explain": "Industry creates goods and commerce distributes them; both are interdependent and together form the complete business system."
+    },
+    {
+     "step": 3,
+     "action": "Outline the sub-parts of commerce",
+     "explain": "Commerce has two parts -- trade (buying and selling) and auxiliaries to trade (transport, banking, insurance, warehousing, advertising)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify business activities into two broad categories and explain.",
+     "solution": "Business activities are divided into industry (production or processing of goods) and commerce (distribution of goods and services to consumers).",
+     "answer": "Industry and commerce are the two broad categories of business activities."
+    },
+    {
+     "question": "How are industry and commerce interdependent?",
+     "solution": "Industry produces goods that commerce distributes; without industry there is nothing to distribute, and without commerce goods cannot reach consumers, so both support each other.",
+     "answer": "Industry produces and commerce distributes; both are mutually dependent."
+    },
+    {
+     "question": "What are the two parts of commerce?",
+     "solution": "Commerce consists of trade, which is the actual buying and selling, and auxiliaries to trade such as transport, banking, insurance, warehousing, and advertising that support trade.",
+     "answer": "Trade and auxiliaries to trade are the two parts of commerce."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the classification of business activities with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between industry and commerce.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any three auxiliaries to trade.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.5",
+   "title": "Types of Industries: Primary, Secondary and Tertiary",
+   "section": "1.5",
+   "definition": "Primary industries extract or raise resources from nature, secondary industries process or manufacture goods from raw materials, and tertiary industries provide services supporting production and distribution.",
+   "formula": "",
+   "key_idea": "Industries are classified by activity into primary (extractive), secondary (manufacturing and construction), and tertiary (service) sectors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the three types of industries with examples.",
+    "How do primary industries differ from secondary industries?",
+    "What is a tertiary industry and why is it important?",
+    "Give examples of extractive and genetic primary industries.",
+    "Why are tertiary industries called service industries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define primary industries",
+     "explain": "Primary industries are concerned with extraction or raising of natural resources and include extractive industries (mining, fishing) and genetic industries (farming, poultry)."
+    },
+    {
+     "step": 2,
+     "action": "Define secondary industries",
+     "explain": "Secondary industries process the output of primary industries into finished goods; they include manufacturing and construction industries."
+    },
+    {
+     "step": 3,
+     "action": "Define tertiary industries",
+     "explain": "Tertiary industries provide services that support primary and secondary industries, such as transport, banking, insurance, and communication."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain primary industries with two examples.",
+     "solution": "Primary industries extract or raise resources from nature. Extractive industries include mining and fishing; genetic industries include farming and poultry rearing.",
+     "answer": "Primary industries are extractive (mining, fishing) and genetic (farming, poultry)."
+    },
+    {
+     "question": "What are secondary industries? Give examples.",
+     "solution": "Secondary industries transform raw materials from primary industries into finished or semi-finished goods, such as a factory turning iron ore into steel or a construction firm building houses.",
+     "answer": "Secondary industries include manufacturing and construction industries."
+    },
+    {
+     "question": "Why are tertiary industries important for business?",
+     "solution": "Tertiary industries provide essential services like transport, banking, insurance, and communication that help primary and secondary industries function and distribute their output.",
+     "answer": "Tertiary industries provide supporting services for production and distribution."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three types of industries with suitable examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between primary and secondary industries.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of tertiary industries.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.6",
+   "title": "Commerce: Trade and Auxiliaries to Trade",
+   "section": "1.6",
+   "definition": "Commerce is the sum of trade and auxiliaries to trade, where trade is the buying and selling of goods and auxiliaries are services that assist trade such as transport, banking, insurance, warehousing, and advertising.",
+   "formula": "",
+   "key_idea": "Commerce connects producers and consumers through trade (exchange) and auxiliaries (supporting services) that remove barriers of place, time, risk, finance, and information.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define commerce and explain its components.",
+    "What is trade and what are its types?",
+    "Explain the role of auxiliaries to trade.",
+    "How does transport support commerce?",
+    "Why is banking called an auxiliary to trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define commerce and trade",
+     "explain": "Commerce is the distribution side of business and consists of trade (buying and selling of goods and services) and auxiliaries to trade (services that support trade)."
+    },
+    {
+     "step": 2,
+     "action": "Explain types of trade",
+     "explain": "Trade is of two types: internal or home trade (within a country, wholesale and retail) and external or foreign trade (import and export between countries)."
+    },
+    {
+     "step": 3,
+     "action": "Explain auxiliaries to trade",
+     "explain": "Auxiliaries include transport (removes place barrier), warehousing (removes time barrier), insurance (removes risk barrier), banking (provides finance), and advertising (provides information)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is commerce and what are its two components?",
+     "solution": "Commerce is the part of business concerned with distribution of goods. Its two components are trade (buying and selling) and auxiliaries to trade (supporting services like transport and banking).",
+     "answer": "Commerce consists of trade and auxiliaries to trade."
+    },
+    {
+     "question": "Explain internal and external trade with examples.",
+     "solution": "Internal trade is within a country and includes wholesale and retail trade, such as a shop selling cloth in Delhi. External trade is between countries and includes import (buying from abroad) and export (selling abroad).",
+     "answer": "Internal trade is within a country; external trade is import and export across countries."
+    },
+    {
+     "question": "How do auxiliaries to trade help commerce?",
+     "solution": "Auxiliaries remove barriers -- transport removes place barrier, warehousing removes time barrier, insurance removes risk, banking provides finance, and advertising provides information to consumers.",
+     "answer": "Auxiliaries remove place, time, risk, finance, and information barriers in trade."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain commerce and its components with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between internal and external trade.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain any three auxiliaries to trade.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.7",
+   "title": "Business Risk: Meaning and Nature",
+   "section": "1.7",
+   "definition": "Business risk is the probability of loss or insufficient profit caused by unfavourable events or uncertainties that affect business operations.",
+   "formula": "",
+   "key_idea": "Business risk arises from uncertainties and is characterised by uncertainty of return, which is an essential feature of every business.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is business risk?",
+    "Explain the nature of business risk.",
+    "Why is risk considered an essential element of business?",
+    "How does uncertainty of return relate to business risk?",
+    "Explain why no business can be entirely risk-free."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define business risk",
+     "explain": "Business risk is the chance of loss or inadequate profit arising from uncertainties and unfavourable events in business operations."
+    },
+    {
+     "step": 2,
+     "action": "Explain the nature of risk",
+     "explain": "Risk is an essential element of business, arises from uncertainty, and the degree of risk varies with the nature and size of the business."
+    },
+    {
+     "step": 3,
+     "action": "Link risk with uncertainty of return",
+     "explain": "Because future events are uncertain, no business can be sure of its returns; this uncertainty of return is what creates business risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define business risk and explain its nature.",
+     "solution": "Business risk is the probability of loss or low profit due to uncertainties. It is essential to business, arises from uncertainty, and varies in degree with the type and scale of business.",
+     "answer": "Business risk is the chance of loss from uncertainty and is an essential feature of business."
+    },
+    {
+     "question": "Why is no business entirely risk-free?",
+     "solution": "Every business faces uncertainties such as changes in demand, prices, technology, and government policy, which can reduce profit or cause loss, so no business can be completely free of risk.",
+     "answer": "Uncertainties in demand, price, and policy make every business risky."
+    },
+    {
+     "question": "Explain the relationship between risk and uncertainty of return.",
+     "solution": "Uncertainty of return means a business cannot predict its profit, and this very uncertainty is the source of business risk; higher uncertainty means higher risk.",
+     "answer": "Uncertainty of return is the cause of business risk."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and nature of business risk.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is risk considered unavoidable in business?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of situations that create business risk.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.8",
+   "title": "Causes of Business Risk",
+   "section": "1.8",
+   "definition": "Business risk arises from natural causes such as floods and earthquakes, human causes such as negligence and dishonesty, economic causes such as market and price changes, and other causes such as political and technological changes.",
+   "formula": "",
+   "key_idea": "The main causes of business risk are natural, human, economic, and other causes including political, technological, and physical causes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the causes of business risk.",
+    "What are natural causes of business risk? Give examples.",
+    "How do human causes lead to business risk?",
+    "Explain economic causes of business risk.",
+    "How do political and technological changes cause business risk?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State natural and human causes",
+     "explain": "Natural causes include floods, earthquakes, storms, and droughts beyond human control. Human causes include negligence, carelessness, dishonesty, strikes, and riots."
+    },
+    {
+     "step": 2,
+     "action": "State economic causes",
+     "explain": "Economic causes arise from market conditions such as changes in demand, price competition, and changes in consumer tastes that affect sales and profit."
+    },
+    {
+     "step": 3,
+     "action": "State other causes",
+     "explain": "Other causes include political disturbances, changes in government policy, technological obsolescence, and mechanical failures such as power breakdown or machine fault."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain natural and human causes of business risk.",
+     "solution": "Natural causes are events like floods, earthquakes, and droughts that damage business. Human causes include employee negligence, dishonesty, strikes, and riots that disrupt operations.",
+     "answer": "Natural causes are floods and earthquakes; human causes are negligence, dishonesty, and strikes."
+    },
+    {
+     "question": "What are economic causes of business risk?",
+     "solution": "Economic causes include changes in demand, fluctuations in prices, intense competition, and shifts in consumer preferences that reduce sales and profit.",
+     "answer": "Economic causes are demand, price, competition, and preference changes."
+    },
+    {
+     "question": "How do political and technological changes cause business risk?",
+     "solution": "Political changes such as new laws or unrest can disrupt business, while technological changes can make existing products or methods obsolete, causing loss to firms that do not adapt.",
+     "answer": "Political changes disrupt policy and operations; technological changes cause obsolescence."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the various causes of business risk with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between natural and human causes of business risk.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of economic causes of business risk.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.1.9",
+   "title": "Role of Profit in Business",
+   "section": "1.9",
+   "definition": "Profit is the surplus of revenue over costs and acts as a source of income, a measure of efficiency, a means of survival and growth, and a reward for risk-bearing in business.",
+   "formula": "Profit = Total Revenue - Total Cost",
+   "key_idea": "Profit is essential for business survival, growth, and innovation, and it acts as the reward for bearing business risk.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the role of profit in business.",
+    "Why is profit called the reward for risk-bearing?",
+    "How does profit help a business to grow?",
+    "Explain profit as a measure of efficiency.",
+    "Why is profit necessary for the survival of business?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total revenue",
+     "explain": "Total revenue is the income earned from sale of goods and services.",
+     "compute": "total_revenue = price_per_unit * units_sold"
+    },
+    {
+     "step": 2,
+     "action": "Compute total cost",
+     "explain": "Total cost is the sum of all expenses incurred in producing and selling the output.",
+     "compute": "total_cost = fixed_cost + variable_cost"
+    },
+    {
+     "step": 3,
+     "action": "Compute profit and interpret",
+     "explain": "Profit is revenue minus cost; a positive profit indicates efficiency and supports survival and growth.",
+     "compute": "profit = total_revenue - total_cost"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A firm sells 500 units at Rs. 20 each. Its total cost is Rs. 8,000. Find the profit.",
+     "solution": "Total revenue = 500 * 20 = 10,000. Profit = 10,000 - 8,000 = 2,000.",
+     "answer": "Profit = Rs. 2,000"
+    },
+    {
+     "question": "Explain why profit is called the reward for risk-bearing.",
+     "solution": "Business involves risk and uncertainty; profit is the surplus earned after bearing these risks, so it is considered the reward for taking business risk.",
+     "answer": "Profit is the reward for bearing business risk and uncertainty."
+    },
+    {
+     "question": "How does profit help a business to survive and grow?",
+     "solution": "Profit provides income to owners, funds for reinvestment, reserves for bad times, and attracts capital, all of which support survival and growth of the business.",
+     "answer": "Profit funds survival, reinvestment, reserves, and growth of business."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A business earns total revenue of Rs. 50,000 and incurs total cost of Rs. 35,000. Compute the profit.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the role of profit in business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is profit considered a measure of efficiency?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

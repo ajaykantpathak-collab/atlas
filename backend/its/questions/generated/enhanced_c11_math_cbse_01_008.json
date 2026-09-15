@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_008",
+   "title": "c11_math_cbse_01_008",
+   "questions": [
+    {
+     "q": "Draw a Venn diagram representing U = {1,2,3,4,5,6,7,8,9,10}, A = {2,4,6,8,10}, B = {1,2,3,4,5}. Place all elements in the correct regions.",
+     "a": "The rectangle represents U. Circle A contains {2,4,6,8,10}, circle B contains {1,2,3,4,5}. The intersection A∩B = {2,4} goes in the overlapping region. Elements only in A: {6,8,10} go in A's non-overlapping part. Elements only in B: {1,3,5} go in B's non-overlapping part. Elements in U but neither A nor B: {7,9} go outside both circles but inside the rectangle. A wrong answer where {2,4} are placed in both non-overlapping parts reveals the student doesn't understand that intersection elements belong to the shared region only once.",
+     "self_check": true
+    },
+    {
+     "q": "In a Venn diagram with two sets A and B inside universal set U, the region representing (A ∪ B)' is shaded. A student claims this shaded region is the same as A' ∩ B'. Is the student correct? Explain why or why not using the diagram.",
+     "a": "Yes, the student is correct. (A ∪ B)' represents elements in U that are NOT in A ∪ B, i.e., outside both circles. A' ∩ B' represents elements that are in A' (outside A) AND in B' (outside B) - also outside both circles. Both describe the same region: the part of the rectangle outside both circles. A wrong answer claiming they are different reveals the student cannot visually connect set operations to regions, likely memorizing De Morgan's laws without understanding the geometric meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Given U = {x : x ∈ N, x ≤ 12}, A = {x : x is a multiple of 3}, B = {x : x is a multiple of 4}. Draw the Venn diagram and list elements in each region: A only, B only, A∩B, and (A∪B)'.",
+     "a": "U = {1,2,3,4,5,6,7,8,9,10,11,12}. A = {3,6,9,12}. B = {4,8,12}. A∩B = {12}. A only = {3,6,9}. B only = {4,8}. (A∪B)' = U - {3,4,6,8,9,12} = {1,2,5,7,10,11}. A wrong answer where 12 is placed in A only or B only reveals the student doesn't recognize common multiples as intersection. A wrong (A∪B)' missing elements like 11 reveals failure to consider all elements of U.",
+     "self_check": true
+    },
+    {
+     "q": "Three sets A, B, C are represented in a Venn diagram. The region representing A ∩ (B ∪ C) is shaded. Without drawing a new diagram, describe which regions of the 3-circle Venn diagram are shaded. How many distinct regions are shaded?",
+     "a": "B ∪ C covers all regions inside circle B or circle C (including their overlap). A ∩ (B ∪ C) is the part of circle A that overlaps with this union. This shades exactly 3 regions: (1) A∩B∩C' (A and B only), (2) A∩B∩C (all three), (3) A∩B'∩C (A and C only). The region A∩B'∩C' (A only) is NOT shaded. A wrong answer shading 4 regions (including A only) reveals the student thinks intersection with union means \"A and anything\" rather than \"A and (B or C)\".",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a Venn diagram for sets A, B, C where A ⊂ B and B ⊂ C. They draw three separate non-overlapping circles labeled A, B, C. Identify the error and draw the correct diagram.",
+     "a": "The error: subset relationship requires containment, not separation. If A ⊂ B, circle A must be entirely inside circle B. If B ⊂ C, circle B must be entirely inside circle C. The correct diagram shows three concentric circles: smallest A inside B inside C. The student's separate circles represent disjoint sets, not subsets. This error reveals the student confuses \"different sets\" with \"separate circles\" and doesn't understand that Venn diagram geometry encodes subset relations through spatial containment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving three categories (e.g., students taking subjects, people with skills, items with features) that would require a 3-set Venn diagram with exactly 5 non-empty regions out of 8 possible regions. Describe the scenario, define the sets, and specify which 3 regions are empty and why.",
+     "a": "Scenario: A school offers three clubs: Robotics (R), Debate (D), and Chess (C). Rule: Robotics club meets same time as Debate, so no student can be in both. All Chess members must also be in Robotics (C ⊂ R). Sets: R, D, C. Empty regions: (1) R∩D (time conflict), (2) R∩D∩C (impossible since R∩D empty), (3) D∩C (since C⊂R, C∩D ⊂ R∩D = ∅). Non-empty: R only, D only, C only (but C only = ∅ since C⊂R), R∩C (which is C), and outside all. Wait - C only is empty because C⊂R. So non-empty: R only, D only, R∩C, outside. That's 4. Let me adjust: C not subset of R. Better scenario: Students studying Physics (P), Chemistry (C), Biology (B). Medical students must take all three (P∩C∩B non-empty). Engineering students take P and C but not B (P∩C∩B' non-empty). Pure science take P only, C only, B only. No one takes C and B without P (C∩B∩P' = ∅). No one takes only P and B without C (P∩B∩C' = ∅). Empty regions: C∩B∩P', P∩B∩C', and outside all (if all students take at least one). A poor answer with arbitrary empty regions reveals inability to connect real constraints to set logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

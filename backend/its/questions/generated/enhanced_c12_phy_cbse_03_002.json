@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_002",
+   "title": "c12_phy_cbse_03_002",
+   "questions": [
+    {
+     "q": "State Ohm's law in its mathematical form and write the SI unit of resistance. What is the essential condition for a conductor to obey Ohm's law?",
+     "a": "Ohm's law: V = IR, where V is potential difference (volt, V), I is current (ampere, A), R is resistance (ohm, Ω). Essential condition: temperature of the conductor must remain constant. A wrong answer (e.g., missing \"constant temperature\" or giving unit as \"ohm per metre\") reveals the student treats Ohm's law as universally true without conditions, a common Board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ohm's law is V = IR, so resistance R = V/I. Therefore, if I double the voltage across a resistor, the resistance doubles because R is proportional to V.\" Identify the flaw in this reasoning and explain what R = V/I actually defines.",
+     "a": "The flaw: R = V/I defines resistance for any conductor (ohmic or non-ohmic); it does not imply R ∝ V. For an ohmic conductor, R is constant (independent of V and I) — doubling V doubles I, keeping R unchanged. The student confuses the definition of resistance with Ohm's law (which asserts R is constant). A wrong answer shows the student cannot distinguish between a definition and a physical law.",
+     "self_check": true
+    },
+    {
+     "q": "A carbon resistor has a colour code: brown, black, red, gold. It is connected across a 12 V battery. Calculate the current through the resistor. (Colour code: 1st digit, 2nd digit, multiplier, tolerance; brown=1, black=0, red=×100, gold=±5%)",
+     "a": "Step 1: Decode resistance: brown (1), black (0), red (×100) → R = 10 × 100 = 1000 Ω = 1 kΩ. Tolerance ±5% → R = 1000 ± 50 Ω.\nStep 2: Apply Ohm's law: I = V/R = 12 V / 1000 Ω = 0.012 A = 12 mA.\nStep 3: Check units: V/Ω = A (correct). Answer: 12 mA (range 11.4–12.6 mA due to tolerance).\nA wrong answer (e.g., 1.2 A or 120 mA) reveals misreading the colour code multiplier or unit conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "The V–I graphs for three devices are shown: (a) straight line through origin, (b) straight line not through origin, (c) curve symmetric about origin but non-linear. Classify each as ohmic/non-ohmic and give one physical example for each.",
+     "a": "(a) Ohmic: straight line through origin → metallic wire at constant temperature (e.g., copper).\n(b) Non-ohmic: straight line with non-zero intercept → electrochemical cell (EMF + internal resistance) or a diode with threshold voltage.\n(c) Non-ohmic: non-linear but symmetric → thermistor (NTC) or varistor; current increases faster than voltage due to heating.\nA wrong classification (e.g., calling (b) ohmic) shows the student thinks any straight line implies Ohm's law, ignoring the origin condition.",
+     "self_check": true
+    },
+    {
+     "q": "A p-n junction diode has the V–I characteristic: I = I₀(e^(qV/kT) – 1) for V > 0 (forward bias) and I ≈ –I₀ for V < 0 (reverse bias), where I₀ = 1 μA, q = 1.6×10⁻¹⁹ C, k = 1.38×10⁻²³ J/K, T = 300 K. Evaluate whether this device obeys Ohm's law. Justify using the three limitation criteria from NCERT.",
+     "a": "The diode violates all three criteria: (1) V vs I is non-linear (exponential) → limitation (a). (2) Reversing V (say +0.5 V vs –0.5 V) gives vastly different |I| (mA vs μA) → limitation (b). (3) For a given I in forward bias, there is only one V, but in reverse bias, many V values give same I ≈ –I₀ → non-unique relation → limitation (c). Hence, diode is non-ohmic. A wrong answer that only cites non-linearity misses the sign-dependence and non-uniqueness, which are explicitly tested in JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm's law and determine the resistance of the graphite rod. List the steps, the data table columns, and how you will conclude whether graphite is ohmic.",
+     "a": "Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter; voltmeter across rod. (2) Vary rheostat to get 5–6 readings of V (0–9 V) and I. (3) Table: Sr. No., V (V), I (A), R = V/I (Ω). (4) Plot V vs I; if straight line through origin, graphite is ohmic and slope = R. (5) Check if R values are constant within error. Expected: Graphite is ohmic at low currents but may deviate at high currents due to heating. A poor answer omits the rheostat (no variable V), forgets to check origin passage, or doesn't mention temperature control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

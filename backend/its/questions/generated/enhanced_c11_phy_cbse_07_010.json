@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_010",
+   "title": "c11_phy_cbse_07_010",
+   "questions": [
+    {
+     "q": "State the formula for escape velocity from the surface of a planet of mass M and radius R. Write the SI unit of each quantity in the formula.",
+     "a": "The formula is \\(v_e = \\sqrt{\\frac{2GM}{R}}\\). SI units: \\(v_e\\) in m/s, \\(G\\) in N·m²/kg² (or m³·kg⁻¹·s⁻²), \\(M\\) in kg, \\(R\\) in m. A wrong answer (e.g., missing the factor 2, or using \\(g\\) instead of \\(G\\)) reveals the student has memorised the formula without understanding its derivation from energy conservation, or confuses escape velocity with orbital velocity (\\(v_o = \\sqrt{GM/R}\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Why is escape velocity independent of the mass of the projected object? Explain using the energy conservation equation.",
+     "a": "In the energy equation \\(\\frac{1}{2}mv_e^2 = \\frac{GMm}{R}\\), the mass \\(m\\) of the projectile appears on both sides and cancels out. Thus \\(v_e\\) depends only on \\(M\\) and \\(R\\) of the planet. A student who thinks heavier objects need more speed to escape is confusing force (which is proportional to \\(m\\)) with energy per unit mass; they have not realised that gravitational potential energy is also proportional to \\(m\\), so the required kinetic energy per unit mass is unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the escape velocity from the surface of Mars given: mass of Mars \\(M = 6.42 \\times 10^{23}\\) kg, radius of Mars \\(R = 3.39 \\times 10^6\\) m, \\(G = 6.67 \\times 10^{-11}\\) N·m²/kg². Express your answer in km/s.",
+     "a": "Step 1: Identify formula \\(v_e = \\sqrt{2GM/R}\\).  \nStep 2: Substitute values: \\(v_e = \\sqrt{\\frac{2 \\times 6.67 \\times 10^{-11} \\times 6.42 \\times 10^{23}}{3.39 \\times 10^6}}\\).  \nStep 3: Compute numerator: \\(2 \\times 6.67 \\times 6.42 \\times 10^{12} = 85.6 \\times 10^{12} = 8.56 \\times 10^{13}\\).  \nStep 4: Divide by \\(R\\): \\(\\frac{8.56 \\times 10^{13}}{3.39 \\times 10^6} = 2.525 \\times 10^7\\).  \nStep 5: Square root: \\(\\sqrt{2.525 \\times 10^7} = 5.025 \\times 10^3\\) m/s = 5.03 km/s.  \nA wrong answer (e.g., 11.2 km/s) indicates the student used Earth's parameters instead of Mars', or made a unit conversion error (forgetting to convert m/s to km/s).",
+     "self_check": true
+    },
+    {
+     "q": "A projectile is fired from Earth's surface with speed 15 km/s. Ignoring atmospheric drag and other celestial bodies, will it escape Earth's gravity? If yes, what will be its speed at infinity? Use \\(v_e = 11.2\\) km/s for Earth.",
+     "a": "Yes, because 15 km/s > 11.2 km/s. At infinity, total energy is conserved: \\(\\frac{1}{2}m(15)^2 - \\frac{1}{2}m(11.2)^2 = \\frac{1}{2}mv_\\infty^2\\). So \\(v_\\infty = \\sqrt{15^2 - 11.2^2} = \\sqrt{225 - 125.44} = \\sqrt{99.56} \\approx 9.98\\) km/s. A student who answers \"no\" or calculates \\(v_\\infty = 15 - 11.2 = 3.8\\) km/s is incorrectly subtracting speeds instead of using energy conservation (kinetic energies subtract, not speeds).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we launch a rocket from a mountain top (height h above sea level), the escape velocity is less than 11.2 km/s because g is smaller there.\" Evaluate this statement. Is the reasoning fully correct?",
+     "a": "The conclusion is correct (escape velocity decreases with height), but the reasoning is incomplete. Escape velocity at height \\(h\\) is \\(v_e(h) = \\sqrt{\\frac{2GM}{R+h}} = v_e(\\text{surface}) \\sqrt{\\frac{R}{R+h}}\\). It decreases because the gravitational potential well is shallower (potential energy magnitude is smaller), not merely because \\(g\\) is smaller. The student has confused the *cause* (reduced potential energy magnitude) with a *correlated effect* (reduced g). A fully correct explanation must reference the \\(1/r\\) dependence of potential energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that escape velocity is the same for a 1 kg iron ball and a 1000 kg rocket, assuming no air resistance. Describe the setup, measurements, and how you would conclude the independence of mass.",
+     "a": "Setup: In a vacuum chamber (to eliminate air resistance), use a spring-loaded launcher to project a 1 kg iron ball and a 1000 kg rocket model vertically upward with the *same* initial speed \\(v\\). Measure the maximum height reached by each using a laser rangefinder. Repeat for increasing speeds until the object does not return (i.e., it hits the top of the chamber with non-zero speed). The minimum speed at which both objects escape the chamber (or reach a predefined \"infinity\" boundary) will be identical. This shows that the gravitational deceleration \\(g\\) is independent of mass, so the kinematic condition for escape depends only on initial speed, not mass. A poor answer might involve measuring force or acceleration instead of the kinematic outcome, missing the energy-conservation perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

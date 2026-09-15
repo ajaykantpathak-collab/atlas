@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_02_001",
+   "title": "c12_hist_cbse_02_001",
+   "questions": [
+    {
+     "q": "Who was James Prinsep, and what was his official position when he deciphered Brahmi and Kharoshthi?",
+     "a": "James Prinsep was an assay master (senior officer) at the East India Company's mint in Benares (later Calcutta). His numismatic expertise — studying coins daily — gave him the comparative material (especially Indo-Greek bilingual coins) essential for decipherment. A wrong answer (e.g., \"he was a historian\" or \"he worked for the Asiatic Society\") reveals the student misses how his *mint job* provided direct access to the coin evidence that cracked Kharoshthi.",
+     "self_check": true
+    },
+    {
+     "q": "Why did scholars initially assume Asokan inscriptions were in Sanskrit, and what does this reveal about early colonial epistemology?",
+     "a": "Scholars assumed Sanskrit because it was the prestige literary language of Brahmins, whom they consulted as \"native informants\"; they projected Brahminical Sanskrit onto all ancient inscriptions. The inscriptions were actually in Prakrit (vernacular). A wrong answer shows the student doesn't grasp how colonial knowledge production was filtered through Brahmin intermediaries, leading to systematic misidentification of language — a classic \"elite bias\" in source interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Given a set of Indo-Greek coins with Greek legends on the obverse and Kharoshthi on the reverse, explain the exact steps Prinsep would take to assign phonetic values to Kharoshthi signs.",
+     "a": "Step 1: Identify Greek names (e.g., \"Apollodotus\", \"Menander\") from known Greek alphabet. Step 2: Locate the same names in Kharoshthi on the reverse. Step 3: Match sign-by-sign — e.g., the Kharoshthi sign appearing in the same position as Greek \"a\" gets the value /a/. Step 4: Build a sign-list, then test it on longer Kharoshthi-only inscriptions. A wrong answer (e.g., \"he guessed the language first\") misses that *bilingual coins provided the controlled comparison* — the methodological gold standard in decipherment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decipherment strategies for Brahmi and Kharoshthi. Why did Brahmi require \"working backwards\" while Kharoshthi used bilingual coins?",
+     "a": "Brahmi had no bilingual texts in the 1830s; its descendants (Devanagari, Bengali, etc.) were living scripts, so Prinsep traced letter-form evolution *backwards* across centuries of manuscripts. Kharoshthi died out by 3rd century CE — no living descendants — but Indo-Greek coins (2nd–1st century BCE) gave contemporary bilingual parallels. A wrong answer conflates the two methods, showing the student doesn't understand that *decipherment strategy depends on what evidence survives* — a core principle in epigraphy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Prinsep's decipherment was a solitary genius moment.\" Use evidence from the NCERT text about prior scholars and Indian pandits.",
+     "a": "The claim is false. NCERT explicitly states: \"From the late eighteenth century, European scholars aided by Indian pandits worked backwards from contemporary Bengali and Devanagari manuscripts... It was only after decades of painstaking investigations by several epigraphists that James Prinsep was able to decipher Asokan Brahmi in 1838.\" Prinsep built on Colin Mackenzie's collections (1810s), the Asiatic Society's institutional support (1784), and pandits' palaeographic knowledge. A wrong answer reflects the \"great man\" fallacy — ignoring the collaborative, cumulative nature of historical science.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline of 5 key milestones (1784–1838) leading to Brahmi's decipherment, labelling each with the actor(s) and the specific contribution.",
+     "a": "1. 1784: Asiatic Society founded (institutional base). 2. 1810s: Colin Mackenzie collects 8,000+ inscriptions (raw data corpus). 3. 1820s–30s: European scholars + Indian pandits compare modern scripts with older manuscripts (palaeographic chain). 4. Early 1830s: Prinsep studies Indo-Greek coins at Benares mint (Kharoshthi breakthrough). 5. 1838: Prinsep publishes Brahmi decipherment (synthesis). A poor answer lists random dates or omits the pandits' role — revealing the student sees history as isolated events, not a research trajectory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

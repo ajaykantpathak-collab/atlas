@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_002",
+   "title": "c11_phy_cbse_04_002",
+   "questions": [
+    {
+     "q": "State Newton's First Law of Motion in your own words and give the SI unit of the physical quantity that measures inertia.",
+     "a": "Newton's First Law: A body remains at rest or moves with uniform velocity in a straight line unless acted upon by a net external force. Inertia is measured by mass, SI unit: kilogram (kg). A wrong answer (e.g., \"force is needed to keep a body moving\" or \"inertia unit is newton\") reveals the Aristotelian misconception that motion requires a sustaining force, or confusion between inertia (property of mass) and force (interaction).",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg book lies at rest on a horizontal table. The weight of the book is 19.6 N downward. A student claims: \"The normal reaction force from the table is also 19.6 N upward because action and reaction are equal and opposite (Newton's Third Law).\" Is this reasoning correct? Explain why or why not.",
+     "a": "The reasoning is incorrect. The normal reaction (R) and weight (mg) are NOT an action-reaction pair — they act on the *same* body (the book). Action-reaction pairs act on *different* bodies. R = mg here because the book is at rest (First Law: net force = 0), not because of the Third Law. A student giving this answer confuses equilibrium (First Law) with interaction pairs (Third Law) — a classic senior secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "A spaceship of mass 5000 kg is drifting in interstellar space far from any gravitational influence with its engines off. At t = 0, its velocity is 200 m/s along the +x direction. What is its acceleration at t = 100 s? What is the net force on it at that instant? (Assume no external forces.)",
+     "a": "Given: m = 5000 kg, v = 200 m/s (constant), no external forces. Step 1: Identify that \"no external forces\" means F_net = 0 N. Step 2: By Newton's First Law, F_net = 0 ⇒ a = 0 m/s². Step 3: Since velocity is constant, acceleration is zero at all times, including t = 100 s. Step 4: Net force remains 0 N. Answer: a = 0 m/s², F_net = 0 N. A non-zero answer indicates the student believes motion requires a sustaining force or that velocity \"carries\" force — the Aristotelian fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two situations and compare the net force on the body in each:\n(i) A 10 kg block rests on a frictionless horizontal surface. A horizontal force of 50 N is applied for 2 s, then removed. What is the net force on the block *after* the force is removed?\n(ii) The same block moves on a rough horizontal surface with kinetic friction coefficient μ_k = 0.2. A horizontal force of 50 N is applied continuously to keep it moving at constant velocity. What is the net force on the block?",
+     "a": "(i) After the 50 N force is removed, no horizontal forces act (frictionless). Net force = 0 N. Block continues at constant velocity (First Law). (ii) Constant velocity ⇒ a = 0 ⇒ F_net = 0 N. The applied 50 N is exactly balanced by kinetic friction f_k = μ_k mg = 0.2 × 10 × 9.8 = 19.6 N? Wait — if velocity is constant, applied force must equal friction. So if applied force is 50 N, friction must be 50 N, but maximum kinetic friction is 19.6 N. Contradiction! The situation is physically impossible for constant velocity with given numbers. Net force would be 50 - 19.6 = 30.4 N, causing acceleration. A student who says \"net force is zero in both cases\" without checking numerical consistency misses the need to verify physical possibility — a key analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 5 kg box is pushed across a rough floor at constant 2 m/s. The pushing force is 20 N. Find the friction force.\" The student writes: \"Since velocity is constant, a = 0, so F_net = 0. Therefore friction = 20 N.\" Evaluate this solution. Is it complete? What implicit assumption is made?",
+     "a": "The solution is correct in result (friction = 20 N) but incomplete in reasoning. It implicitly assumes the pushing force is *horizontal* and *constant*, and that no other horizontal forces act (e.g., air resistance). A complete solution would state: \"Constant velocity ⇒ a = 0 ⇒ F_net,x = 0. Forces in x-direction: F_push (20 N forward) and f_friction (backward). So F_push - f_friction = 0 ⇒ f_friction = 20 N.\" A student who omits the free-body diagram and direction specification may incorrectly handle cases where forces are at angles or multiple forces act.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a toy car, a long smooth plank, a rough cloth, and a stopwatch to demonstrate that uniform motion does not require a continuous force. Describe the procedure, what you would measure, and how the results support Newton's First Law.",
+     "a": "Procedure: (1) Place the plank horizontally. Give the toy car a gentle push on the bare plank (low friction) and measure time to travel 1 m. Repeat 5 times. (2) Cover the plank with the rough cloth. Give the *same* initial push (same initial speed) and measure time for 1 m. Repeat 5 times. (3) Compare average times. Expected result: On smooth plank, times are nearly equal (constant velocity). On rough cloth, times increase (deceleration due to friction). Conclusion: Without friction (or with negligible friction), the car maintains uniform motion *without* any applied force. Friction is the external force that *changes* motion. A poor answer would involve pushing continuously or not controlling initial speed, revealing misunderstanding of \"uniform motion\" vs \"accelerated motion\" and the role of friction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

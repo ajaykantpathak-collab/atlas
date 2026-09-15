@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_002",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_002",
+   "title": "c7_eco_ch04_002",
+   "questions": [
+    {
+     "q": "What is the primary role of a commercial bank when dealing with people who have surplus income?",
+     "a": "The primary role is to accept deposits from savers and provide them with a safe place for their money while paying them interest. A wrong answer like \"printing currency\" shows confusion between commercial banks and the central bank (RBI).",
+     "self_check": true
+    },
+    {
+     "q": "Why do banks charge a higher interest rate on loans they give out than the interest rate they pay on deposits they accept?",
+     "a": "Banks must cover their operational costs and earn a profit (called the spread) by charging borrowers more than they reward savers. A wrong answer assuming interest rates are equal ignores the business model of financial intermediation and bank profitability.",
+     "self_check": true
+    },
+    {
+     "q": "A local commercial bank in Pune has total deposits worth ₹10,00,000 collected from households, paying them 4% annual interest. It lends ₹8,00,000 of this amount to local businesses at 10% annual interest. What is the bank's net annual interest income earned from this transaction?",
+     "a": "Steps: 1. Calculate interest paid to depositors: 4% of ₹10,00,000 = ₹40,000. 2. Calculate interest earned from borrowers: 10% of ₹8,00,000 = ₹80,000. 3. Subtract interest paid from interest earned: ₹80,000 - ₹40,000 = ₹40,000. Answer: ₹40,000. A wrong answer that calculates interest on the full ₹10,00,000 for both sides fails to understand that banks keep a portion as reserves and do not lend out 100% of deposits.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference in purpose between a commercial bank and a cooperative bank in rural India. How do their ownership and target customers differ?",
+     "a": "Commercial banks operate for profit, serving the general public nationwide, whereas cooperative banks are member-owned, non-profit-oriented institutions created to serve specific local communities, especially farmers and rural artisans. A wrong answer treating them as identical entities ignores the cooperative principle of mutual help versus the corporate profit motive.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact if all depositors in a town simultaneously demanded withdrawal of their cash from a commercial bank, assuming the bank keeps only 10% of deposits as cash reserves.",
+     "a": "This scenario, known as a bank run, would cause the bank to fail because it lends out the remaining 90% of deposits into long-term loans that cannot be instantly converted to cash. A wrong answer assuming the bank has all cash readily available misunderstands fractional reserve banking and liquidity management.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple structure for a rural micro-finance cooperative bank designed to help women weavers in a handloom cluster access credit without falling into debt traps with informal moneylenders.",
+     "a": "A good proposal should include member share contributions, low-interest savings incentives, pooled lending for raw materials, and collective accountability models. A poor proposal relies on high-interest commercial lending or ignores cooperative governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

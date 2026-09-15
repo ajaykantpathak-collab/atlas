@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_009",
+   "title": "c11_cs_cbse_08_009",
+   "questions": [
+    {
+     "q": "What happens if you assign a value to a variable inside a function without declaring it `global`, when a variable with the same name exists in the global scope?",
+     "a": "Python creates a new local variable that shadows the global variable; the global variable remains unchanged. A wrong answer (e.g., \"it modifies the global variable\") reveals the student thinks assignment automatically uses the global variable, missing the core rule that assignment creates a local variable unless declared global.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises an `UnboundLocalError`:\n```python\ncount = 10\ndef increment():\n    count = count + 1\nincrement()\n```",
+     "a": "Inside `increment`, `count` is treated as a local variable because of the assignment `count = ...`. The right-hand side `count + 1` tries to read the local `count` before it has been assigned, causing the error. A wrong answer (e.g., \"it should work because count is global\") shows the student does not understand that assignment makes a variable local by default, and that the global `count` is not accessible for reading once a local `count` is created in the same scope.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `reset_counter()` that sets the global variable `counter` to 0. Assume `counter` has been defined globally. Show the correct use of `global`.",
+     "a": "```python\ncounter = 5\ndef reset_counter():\n    global counter\n    counter = 0\nreset_counter()\nprint(counter)  # Output: 0\n```\nThe `global counter` declaration must appear before any use of `counter` in the function. A wrong answer (missing `global` or placing it after an assignment) indicates the student does not know the declaration must precede all references to that variable in the function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of the following two functions when called. The global variable `data` is a list `[1, 2, 3]`.\n```python\ndef modify1():\n    data.append(4)\n\ndef modify2():\n    data = [4, 5, 6]\n```\nWhich function changes the global `data`? Why?",
+     "a": "`modify1` changes the global `data` because it mutates the list object (via `append`) without reassigning the variable `data`. `modify2` creates a new local variable `data` and leaves the global `data` unchanged. A wrong answer (e.g., both change the global, or neither does) reveals confusion between mutating an object and rebinding a variable name.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The `global` keyword is never needed if you only read a global variable, not write to it.\" Is this statement correct? Justify your answer.",
+     "a": "Yes, the statement is correct. Reading a global variable does not require `global`; Python will look up the name in the global scope if not found locally. `global` is only required when you assign to the variable (i.e., rebind the name). A wrong answer (saying `global` is needed for reading) shows the student overgeneralizes the rule and does not distinguish between name lookup and name binding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small program that uses a global variable `balance` to simulate a simple bank account. Provide functions `deposit(amount)`, `withdraw(amount)`, and `get_balance()` that correctly modify and access the global `balance`. Include the `global` keyword where necessary.",
+     "a": "```python\nbalance = 0\ndef deposit(amount):\n    global balance\n    balance += amount\ndef withdraw(amount):\n    global balance\n    if amount <= balance:\n        balance -= amount\n    else:\n        print(\"Insufficient funds\")\ndef get_balance():\n    return balance  # no global needed for reading\n```\nA good answer includes `global balance` in both `deposit` and `withdraw` because they assign to `balance`, but omits it in `get_balance`. A poor answer either misses `global` in the mutating functions or unnecessarily adds it in `get_balance`, indicating incomplete understanding of when `global` is required.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

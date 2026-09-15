@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_biology_kebo109",
+ "concepts": [
+  {
+   "id": "kebo.109.1.1",
+   "title": "How to Analyse Chemical Composition of Biomolecules",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'How to Analyse Chemical Composition of Biomolecules' refers to.",
+     "a": "Chemical analysis of living tissue involves grinding it in trichloroacetic acid, separating the acid-soluble pool of small molecules from the acid-insoluble fraction of macromolecules, and then identifying the compounds by ash analysis and chromatography techniques.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'How to Analyse Chemical Composition of Biomolecules'.",
+     "a": "The acid-soluble pool holds amino acids, sugars and nucleotides, while the insoluble fraction holds proteins, nucleic acids, polysaccharides and lipids, giving the elemental analysis of living tissue.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'How to Analyse Chemical Composition of Biomolecules' taught, and from which source text?",
+     "a": "9.1 How to analyse chemical composition (source: kebo109.txt section 9.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.2.1",
+   "title": "Proteins, Carbohydrates, Lipids and Nucleic Acids",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Proteins, Carbohydrates, Lipids and Nucleic Acids' refers to.",
+     "a": "Biomolecules include carbohydrates as monosaccharides and polysaccharides such as starch, cellulose and glycogen, lipids as fats and phospholipids, proteins as polymers of twenty amino acids showing primary to quaternary structure, and nucleic acids as deoxyribonucleic acid and ribonucleic acid built of nucleotides.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proteins, Carbohydrates, Lipids and Nucleic Acids'.",
+     "a": "Amino acids are linked by peptide bonds, sugars by glycosidic bonds, fatty acids to glycerol by ester bonds, and nucleotides by phosphodiester bonds, forming the giant molecules of life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Proteins, Carbohydrates, Lipids and Nucleic Acids' taught, and from which source text?",
+     "a": "9.2 Proteins, 9.3 Polysaccharides, 9.4 Nucleic Acids, 9.5 Structure of Proteins (source: kebo109.txt sections 9.2-9.5, 9.7)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.3.1",
+   "title": "Enzymes: Nature, Classes and Factors Affecting Activity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Enzymes: Nature, Classes and Factors Affecting Activity' refers to.",
+     "a": "Enzymes are proteinaceous biocatalysts that lower activation energy and act on a substrate through an active site; they are classified into six classes of oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases, and their activity depends on temperature, pH and substrate concentration, and is checked by competitive inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzymes: Nature, Classes and Factors Affecting Activity'.",
+     "a": "At optimum temperature and pH the enzyme velocity rises with substrate concentration until all active sites are occupied, and a competitive inhibitor mimics the substrate at the active site.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Enzymes: Nature, Classes and Factors Affecting Activity' taught, and from which source text?",
+     "a": "9.12 Enzymes (source: kebo109.txt section 9.12)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.4.1",
+   "title": "Metabolism and the Living State of Cells",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Metabolism and the Living State of Cells' refers to.",
+     "a": "Metabolism is the sum of all chemical reactions in the living cell, made of anabolic pathways that build complex molecules from simpler ones with energy consumption and catabolic pathways that break down molecules releasing energy, with ATP as the energy currency.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Metabolism and the Living State of Cells'.",
+     "a": "The living state is a non-equilibrium steady state that continuously exchanges energy and matter, and metabolism provides the flow of energy through anabolic and catabolic reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Metabolism and the Living State of Cells' taught, and from which source text?",
+     "a": "9.10 Metabolic Basis of Living (source: kebo109.txt sections 9.10, 9.11)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

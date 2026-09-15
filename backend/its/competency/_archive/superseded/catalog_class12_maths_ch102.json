@@ -1,0 +1,539 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Inverse Trigonometric Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lemh102.txt",
+ "concepts": [
+  {
+   "id": "lemh.2.1",
+   "title": "Principal Value Branch of Inverse Sine Function",
+   "section": "2.2",
+   "definition": "The bijective restriction of the sine function onto a closed half-pi interval yields an inverse function whose standard output range is restricted between negative ninety degrees and positive ninety degrees.",
+   "formula": "sin_inv: [-1, 1] -> [-pi/2, pi/2]",
+   "key_idea": "Domain is [-1, 1] and the principal range is [-pi/2, pi/2].",
+   "textbook_ref": "lemh102.txt lines 38-55",
+   "question_patterns": [
+    "determine the domain and principal range of inverse sine function",
+    "what is the principal value branch for inverse sine",
+    "find the angle in the principal branch of sin_inv for a given real value",
+    "state the interval for principal values of arcsin",
+    "Explain the method of Principal Value Branch of Inverse Sine Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify function domain",
+     "explain": "the inputs to sin_inv must lie inside the closed interval from -1 to 1"
+    },
+    {
+     "step": 2,
+     "action": "determine principal branch range",
+     "explain": "the principal output range for sin_inv is restricted to [-pi/2, pi/2]"
+    },
+    {
+     "step": 3,
+     "action": "verify the angle lies within the principal branch",
+     "explain": "confirm that the computed angle theta satisfies sin(theta) = x and theta belongs to [-pi/2, pi/2], ensuring a unique principal value."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.2",
+   "title": "Principal Value Branch of Inverse Cosine Function",
+   "section": "2.2",
+   "definition": "Restricting the domain of cosine to the non-negative interval from zero to pi makes it invertible, producing a primary branch spanning zero to pi radians.",
+   "formula": "cos_inv: [-1, 1] -> [0, pi]",
+   "key_idea": "Domain is [-1, 1] and the principal range is [0, pi].",
+   "textbook_ref": "lemh102.txt lines 80-105",
+   "question_patterns": [
+    "find the principal value branch of inverse cosine",
+    "what is the range of arccos in its principal branch",
+    "determine the output interval for cos_inv x",
+    "calculate the principal angle for inverse cosine of a ratio",
+    "Explain the method of Principal Value Branch of Inverse Cosine Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify valid input ratio",
+     "explain": "ensure the argument x belongs to [-1, 1]"
+    },
+    {
+     "step": 2,
+     "action": "apply principal range limits",
+     "explain": "select the angle theta in [0, pi] such that cos(theta) equals x"
+    },
+    {
+     "step": 3,
+     "action": "confirm the unique angle in the principal branch",
+     "explain": "verify that theta is the only angle in [0, pi] satisfying cos(theta) = x, which guarantees a well-defined principal value."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.3",
+   "title": "Principal Value Branch of Inverse Tangent Function",
+   "section": "2.2",
+   "definition": "The inverse tangent function maps the entire real line onto an open angular interval strictly between negative and positive half-pi.",
+   "formula": "tan_inv: R -> (-pi/2, pi/2)",
+   "key_idea": "Domain is all real numbers and principal range is open interval (-pi/2, pi/2).",
+   "textbook_ref": "lemh102.txt lines 145-165",
+   "question_patterns": [
+    "what is the domain and range of tan_inv",
+    "find the principal value of inverse tangent for a given real number",
+    "determine the range of arctan in its principal branch",
+    "calculate arctan of a negative numerical input",
+    "Explain the method of Principal Value Branch of Inverse Tangent Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify input domain",
+     "explain": "tan_inv accepts any real number as valid input"
+    },
+    {
+     "step": 2,
+     "action": "map to open interval",
+     "explain": "find angle theta in (-pi/2, pi/2) satisfying tan(theta) = x"
+    },
+    {
+     "step": 3,
+     "action": "confirm the angle satisfies the tangent equation within the branch",
+     "explain": "verify that tan(theta) = x and theta lies strictly within (-pi/2, pi/2), ensuring the principal value is unique."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.4",
+   "title": "Principal Value Branch of Inverse Cotangent Function",
+   "section": "2.2",
+   "definition": "Inverse cotangent is defined for all real numbers with its principal value branch mapped into the open interval bounded by zero and pi radians.",
+   "formula": "cot_inv: R -> (0, pi)",
+   "key_idea": "Domain is all real numbers and principal range is open interval (0, pi).",
+   "textbook_ref": "lemh102.txt lines 166-185",
+   "question_patterns": [
+    "find the principal value branch of cot_inv",
+    "what is the range of inverse cotangent",
+    "evaluate cot_inv for a negative real number",
+    "determine the angle for cot_inv within its principal range",
+    "Explain the method of Principal Value Branch of Inverse Cotangent Function."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check domain validity",
+     "explain": "cot_inv is valid for every real input x"
+    },
+    {
+     "step": 2,
+     "action": "select angle in principal branch",
+     "explain": "choose theta in (0, pi) such that cot(theta) = x"
+    },
+    {
+     "step": 3,
+     "action": "verify the unique angle satisfies the cotangent equation",
+     "explain": "confirm that cot(theta) = x and theta is the only such angle in (0, pi), guaranteeing a single principal value."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.5",
+   "title": "Principal Value Branches of Secant and Cosecant Functions",
+   "section": "2.2",
+   "definition": "Inverse secant and inverse cosecant map real values outside the unit open interval (-1, 1) to restricted angular branches excluding points where the base functions are undefined.",
+   "formula": "sec_inv: R - (-1, 1) -> [0, pi] - {pi/2}, cosec_inv: R - (-1, 1) -> [-pi/2, pi/2] - {0}",
+   "key_idea": "Domains are R - (-1, 1) with ranges excluding pi/2 for sec_inv and 0 for cosec_inv.",
+   "textbook_ref": "lemh102.txt lines 106-144",
+   "question_patterns": [
+    "what is the principal value range for inverse secant",
+    "find the principal value branch of cosec_inv",
+    "state the domain and range of sec_inv",
+    "evaluate inverse cosecant at a real value outside (-1, 1)",
+    "Explain the method of Principal Value Branches of Secant and Cosecant Functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify domain requirement",
+     "explain": "ensure absolute value of x is greater than or equal to 1"
+    },
+    {
+     "step": 2,
+     "action": "apply principal range exclusions",
+     "explain": "for sec_inv select theta in [0, pi] except pi/2; for cosec_inv select theta in [-pi/2, pi/2] except 0"
+    },
+    {
+     "step": 3,
+     "action": "confirm the selected angle reproduces the original input",
+     "explain": "substitute theta back into sec(theta) or cosec(theta) to verify it equals x, ensuring the principal value is correct."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.6",
+   "title": "Evaluation of Principal Values of Inverse Functions",
+   "section": "2.2",
+   "definition": "Calculating the unique angle within the principal branch of an inverse trigonometric function corresponding to a specified standard numeric ratio.",
+   "formula": "theta = inv_trig(x) such that theta belongs to Principal Branch",
+   "key_idea": "Adjust angles outside principal range using periodicity and sign symmetries.",
+   "textbook_ref": "lemh102.txt lines 190-215",
+   "question_patterns": [
+    "find the principal value of sin_inv(1/sqrt(2))",
+    "calculate the principal value of cot_inv(-1/sqrt(3))",
+    "find the value of cos_inv(cos(7*pi/6))",
+    "evaluate tan_inv(tan(3*pi/4))",
+    "Explain the method of Evaluation of Principal Values of Inverse Functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "relate ratio to base trigonometric function",
+     "explain": "find basic reference angle matching the ratio magnitude"
+    },
+    {
+     "step": 2,
+     "action": "adjust angle for negative sign and branch limits",
+     "explain": "use reduction formulas to map the angle into the principal value range of the specific inverse function"
+    },
+    {
+     "step": 3,
+     "action": "state the final principal value within the correct branch",
+     "explain": "confirm the adjusted angle lies within the principal branch of the relevant inverse function and report it as the principal value."
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.7",
+   "title": "Simplification using Trigonometric Substitutions",
+   "section": "2.3",
+   "definition": "Transforming complex inverse trigonometric expressions into minimal form by substituting algebraic variables with trigonometric functions and applying standard identity simplifications.",
+   "formula": "tan_inv((cos x)/(1 - sin x)) = pi/4 + x/2",
+   "key_idea": "Substitute algebraic terms with suitable trig functions to collapse nested inverse functions.",
+   "textbook_ref": "lemh102.txt lines 230-270",
+   "question_patterns": [
+    "express tan_inv(cos x / (1 - sin x)) in simplest form",
+    "simplify cot_inv(1 / sqrt(x^2 - 1)) for x > 1",
+    "write tan_inv(sqrt((1 - cos x)/(1 + cos x))) in simplest form",
+    "simplify tan_inv((3*a^2*x - x^3)/(a^3 - 3*a*x^2))",
+    "Explain the method of Simplification using Trigonometric Substitutions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "choose appropriate substitution",
+     "explain": "replace variable x with trigonometric form like sec(theta) or tan(theta)"
+    },
+    {
+     "step": 2,
+     "action": "apply trigonometric identities",
+     "explain": "simplify inner algebraic expression using double angle or half angle formulas"
+    },
+    {
+     "step": 3,
+     "action": "cancel inverse function",
+     "explain": "apply inv_trig(trig(theta)) = theta within allowed domain bounds"
+    }
+   ]
+  },
+  {
+   "id": "lemh.2.8",
+   "title": "Linear Combination of Inverse Trigonometric Values",
+   "section": "2.2",
+   "definition": "Computing the sum or difference of multiple inverse trigonometric terms by individually evaluating each term's principal angle.",
+   "formula": "total_angle = angle_1 + angle_2 + angle_3",
+   "key_idea": "Sum the individually calculated principal values in radians.",
+   "textbook_ref": "lemh102.txt lines 216-228",
+   "question_patterns": [
+    "calculate tan_inv(1) + cos_inv(-1/2) + sin_inv(-1/2)",
+    "find the value of cos_inv(1/2) + 2*sin_inv(1/2)",
+    "evaluate tan_inv(sqrt(3)) - sec_inv(-2)",
+    "find the numerical sum of inverse trigonometric expressions",
+    "Explain the method of Linear Combination of Inverse Trigonometric Values."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum individual evaluated principal angles",
+     "explain": "combine angle_1, angle_2, and angle_3 to obtain the final angle value",
+     "compute": "total_angle = angle_1 + angle_2 + angle_3"
+    },
+    {
+     "step": 2,
+     "action": "Verify each principal angle lies within its respective branch",
+     "explain": "check that each individual angle belongs to the correct principal value range of its inverse trigonometric function before summing.",
+     "compute": "branch_check = (angle_1 in range_1) and (angle_2 in range_2) and (angle_3 in range_3)"
+    },
+    {
+     "step": 3,
+     "action": "Express the total angle in simplified form",
+     "explain": "combine like terms and simplify the total angle to its final numeric or symbolic value.",
+     "compute": "result = total_angle"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh102.txt lines 190-200",
+   "concept": "lemh.2.6",
+   "question_type": "verify_property",
+   "question_pattern": "Find the principal value of sin_inv(1 / sqrt(2))",
+   "extracted_variables": {
+    "val": "1/sqrt(2)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set angle equation",
+     "explain": "let y = sin_inv(1/sqrt(2)), which implies sin(y) = 1/sqrt(2)"
+    },
+    {
+     "step": 2,
+     "action": "identify principal branch angle",
+     "explain": "sin(pi/4) = 1/sqrt(2) and pi/4 lies in [-pi/2, pi/2], so principal value is pi/4"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh102.txt lines 201-215",
+   "concept": "lemh.2.6",
+   "question_type": "verify_property",
+   "question_pattern": "Find the principal value of cot_inv(-1 / sqrt(3))",
+   "extracted_variables": {
+    "val": "-1/sqrt(3)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set angle equation",
+     "explain": "let y = cot_inv(-1/sqrt(3)), which gives cot(y) = -1/sqrt(3)"
+    },
+    {
+     "step": 2,
+     "action": "map to principal interval (0, pi)",
+     "explain": "cot(y) = -cot(pi/3) = cot(pi - pi/3) = cot(2*pi/3); since 2*pi/3 is in (0, pi), principal value is 2*pi/3"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh102.txt lines 230-245",
+   "concept": "lemh.2.7",
+   "question_type": "verify_property",
+   "question_pattern": "Show that sin_inv(2*x*sqrt(1 - x^2)) = 2*sin_inv(x) for -1/sqrt(2) <= x <= 1/sqrt(2)",
+   "extracted_variables": {
+    "lower_bound": "-1/sqrt(2)",
+    "upper_bound": "1/sqrt(2)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute x = sin(theta)",
+     "explain": "let x = sin(theta) so theta = sin_inv(x)"
+    },
+    {
+     "step": 2,
+     "action": "simplify expression inside arcsin",
+     "explain": "2*x*sqrt(1 - x^2) = 2*sin(theta)*cos(theta) = sin(2*theta)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate inverse sine",
+     "explain": "sin_inv(sin(2*theta)) = 2*theta = 2*sin_inv(x)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh102.txt lines 246-260",
+   "concept": "lemh.2.7",
+   "question_type": "verify_property",
+   "question_pattern": "Express tan_inv(cos(x) / (1 - sin(x))) in simplest form",
+   "extracted_variables": {
+    "expression": "cos(x)/(1 - sin(x))"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply half-angle trigonometric formulas",
+     "explain": "rewrite cos(x) as cos^2(x/2) - sin^2(x/2) and 1 - sin(x) as (cos(x/2) - sin(x/2))^2"
+    },
+    {
+     "step": 2,
+     "action": "reduce fractional ratio",
+     "explain": "cancel common factor (cos(x/2) - sin(x/2)) to get (cos(x/2) + sin(x/2)) / (cos(x/2) - sin(x/2)) = tan(pi/4 + x/2)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate tan_inv",
+     "explain": "tan_inv(tan(pi/4 + x/2)) = pi/4 + x/2"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lemh102.txt lines 261-270",
+   "concept": "lemh.2.7",
+   "question_type": "verify_property",
+   "question_pattern": "Write cot_inv(1 / sqrt(x^2 - 1)) for x > 1 in simplest form",
+   "extracted_variables": {
+    "condition": "x > 1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute x = sec(theta)",
+     "explain": "let x = sec(theta) so sqrt(x^2 - 1) = tan(theta)"
+    },
+    {
+     "step": 2,
+     "action": "simplify expression",
+     "explain": "cot_inv(1 / tan(theta)) = cot_inv(cot(theta)) = theta = sec_inv(x)"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh102.txt lines 305-315",
+   "concept": "lemh.2.6",
+   "question_type": "verify_property",
+   "question_pattern": "Find the value of sin_inv(sin(3*pi/5))",
+   "extracted_variables": {
+    "angle": "3*pi/5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "check principal branch range",
+     "explain": "3*pi/5 does not lie in [-pi/2, pi/2]"
+    },
+    {
+     "step": 2,
+     "action": "apply sine reduction identity",
+     "explain": "sin(3*pi/5) = sin(pi - 2*pi/5) = sin(2*pi/5)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate in principal branch",
+     "explain": "sin_inv(sin(2*pi/5)) = 2*pi/5 since 2*pi/5 is in [-pi/2, pi/2]"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.2.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Linear Combination of Inverse Trigonometric Values chain with angle_3 = 2, angle_1 = 3, angle_2 = 5. What value does it produce?",
+   "extracted_variables": {
+    "angle_3": "2",
+    "angle_1": "3",
+    "angle_2": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum individual evaluated principal angles",
+     "explain": "combine angle_1, angle_2, and angle_3 to obtain the final angle value",
+     "compute": "total_angle = angle_1 + angle_2 + angle_3"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "lemh.2.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Linear Combination of Inverse Trigonometric Values chain with angle_3 = 2, angle_1 = 3, angle_2 = 5. What value does it produce?",
+   "extracted_variables": {
+    "angle_3": "2",
+    "angle_1": "3",
+    "angle_2": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum individual evaluated principal angles",
+     "explain": "combine angle_1, angle_2, and angle_3 to obtain the final angle value",
+     "compute": "total_angle = angle_1 + angle_2 + angle_3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "lemh102.txt lines 216-228",
+   "questions": [
+    "Find the principal value of sin_inv(-1/2)",
+    "Find the principal value of cos_inv(sqrt(3)/2)",
+    "Find the principal value of cosec_inv(2)",
+    "Find the principal value of tan_inv(-sqrt(3))",
+    "Find the principal value of cos_inv(-1/2)",
+    "Find the principal value of tan_inv(-1)",
+    "Find the principal value of sec_inv(2/sqrt(3))",
+    "Find the principal value of cot_inv(sqrt(3))",
+    "Find the principal value of cos_inv(-1/sqrt(2))",
+    "Find the principal value of cosec_inv(-sqrt(2))",
+    "Find the value of tan_inv(1) + cos_inv(-1/2) + sin_inv(-1/2)",
+    "Find the value of cos_inv(1/2) + 2*sin_inv(1/2)",
+    "If sin_inv(x) = y, then select correct range of y",
+    "Find the value of tan_inv(sqrt(3)) - sec_inv(-2)"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "lemh102.txt lines 271-300",
+   "questions": [
+    "Prove 3*sin_inv(x) = sin_inv(3*x - 4*x^3) for x in [-1/2, 1/2]",
+    "Prove 3*cos_inv(x) = cos_inv(4*x^3 - 3*x) for x in [1/2, 1]",
+    "Write tan_inv(sqrt(1 + x^2) - 1 / x) in simplest form",
+    "Write tan_inv(sqrt((1 - cos x)/(1 + cos x))) in simplest form",
+    "Write tan_inv((cos x - sin x)/(cos x + sin x)) in simplest form",
+    "Write tan_inv(x / sqrt(a^2 - x^2)) in simplest form",
+    "Write tan_inv((3*a^2*x - x^3)/(a^3 - 3*a*x^2)) in simplest form",
+    "Find value of tan_inv[2*cos(2*sin_inv(1/2))]",
+    "Find value of tan(1/2 * [sin_inv(2*x/(1+x^2)) + cos_inv((1-y^2)/(1+y^2))])",
+    "Find value of sin_inv(sin(2*pi/3))",
+    "Find value of tan_inv(tan(3*pi/4))",
+    "Find value of tan(sin_inv(3/5) + cot_inv(3/2))",
+    "Evaluate cos_inv(cos(7*pi/6))",
+    "Evaluate sin(pi/3 - sin_inv(-1/2))",
+    "Evaluate tan_inv(sqrt(3)) - cot_inv(-sqrt(3))"
+   ]
+  },
+  {
+   "id": "ex2.misc",
+   "source_ref": "lemh102.txt lines 316-340",
+   "questions": [
+    "Find the value of cos_inv(cos(13*pi/6))",
+    "Find the value of tan_inv(tan(7*pi/6))",
+    "Prove 2*sin_inv(3/5) = tan_inv(24/7)",
+    "Prove sin_inv(8/17) + sin_inv(3/5) = tan_inv(77/36)",
+    "Prove cos_inv(4/5) + cos_inv(12/13) = cos_inv(33/65)",
+    "Prove cos_inv(12/13) + sin_inv(3/5) = sin_inv(56/65)",
+    "Prove tan_inv(63/16) = sin_inv(5/13) + cos_inv(3/5)",
+    "Prove tan_inv(x) = 1/2 * cos_inv((1 - x)/(1 + x)) for x in [0, 1]",
+    "Prove cot_inv[(sqrt(1+sin x) + sqrt(1-sin x))/(sqrt(1+sin x) - sqrt(1-sin x))] = x/2",
+    "Prove tan_inv[(sqrt(1+x) - sqrt(1-x))/(sqrt(1+x) + sqrt(1-x))] = pi/4 - 1/2 * cos_inv(x)",
+    "Solve 2*tan_inv(cos x) = tan_inv(2*cosec x)",
+    "Solve tan_inv((1 - x)/(1 + x)) = 1/2 * tan_inv(x) for x > 0",
+    "Evaluate sin(tan_inv x) for |x| < 1",
+    "Solve sin_inv(1 - x) - 2*sin_inv(x) = pi/2"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

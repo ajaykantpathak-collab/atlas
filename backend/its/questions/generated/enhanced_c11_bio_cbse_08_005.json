@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_005",
+   "title": "c11_bio_cbse_08_005",
+   "questions": [
+    {
+     "q": "Name the two types of endoplasmic reticulum and state one major function of each.",
+     "a": "Rough ER (RER) has ribosomes on its cytoplasmic surface and is the site of protein synthesis for secretion and membrane insertion. Smooth ER (SER) lacks ribosomes and is the major site of lipid synthesis (including steroid hormones) and detoxification. A wrong answer (e.g., \"RER makes lipids\") reveals confusion between the two ER types and their distinct biochemical roles.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Golgi apparatus have distinct cis and trans faces, and what would happen if a vesicle from the ER fused with the trans face instead of the cis face?",
+     "a": "The cis face (forming face) receives vesicles from the ER; the trans face (maturing face) releases vesicles for secretion or lysosomal delivery. This polarity ensures ordered modification (e.g., glycosylation) as cargo moves through cisternae. If ER vesicles fused at the trans face, proteins would skip modification and sorting, leading to misfolded proteins and mislocalization. A wrong answer indicates the student views Golgi as a static stack rather than a directional processing pipeline.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a secretory cell with a drug that prevents vesicle budding from the ER. Predict the effect on (a) lysosomal enzyme activity inside lysosomes, (b) secretion of extracellular matrix proteins, and (c) lipid synthesis in the SER.",
+     "a": "(a) Lysosomal enzymes are synthesized on RER and travel via Golgi; blocking ER exit depletes lysosomal enzymes → reduced activity. (b) Secretory proteins (e.g., collagen) cannot leave ER → secretion stops. (c) Lipid synthesis occurs in SER and does not require ER-to-Golgi vesicles; lipids can diffuse laterally or use other transport mechanisms → lipid synthesis continues. A wrong prediction for (c) shows the student thinks all ER functions depend on vesicular transport.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the fate of a protein destined for secretion versus a protein destined for the lysosomal lumen. Include the role of the Golgi in your answer.",
+     "a": "Both are synthesized on RER and enter the Golgi cis face. In the Golgi, secretory proteins are packaged into vesicles that fuse with the plasma membrane (exocytosis). Lysosomal proteins receive a mannose-6-phosphate (M6P) tag in the Golgi, which directs them into clathrin-coated vesicles that bud from the trans face and fuse with late endosomes/lysosomes. The Golgi thus acts as a sorting hub. A poor answer misses the sorting signal (M6P) or thinks lysosomal proteins are secreted.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Lysosomes are formed directly by budding from the rough ER because they contain hydrolytic enzymes.\" Evaluate this statement and correct it using the endomembrane system concept.",
+     "a": "The claim is incorrect. Lysosomal enzymes are synthesized on RER but are processed and sorted in the Golgi apparatus. Vesicles budding from the Golgi's trans face (carrying M6P-tagged enzymes) fuse with endosomes to form mature lysosomes. The ER does not directly produce lysosomes. This misconception arises from overlooking the Golgi's essential role in enzyme modification and targeting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a fluorescent protein tag to demonstrate that the Golgi apparatus modifies proteins received from the ER. Describe the expected observations at 0, 15, and 60 minutes after synthesis.",
+     "a": "Express a fluorescently tagged secretory protein (e.g., GFP-tagged albumin) in cultured cells. At 0 min: fluorescence concentrated in ER (reticular network). At 15 min: fluorescence appears in Golgi (perinuclear stacked structures) as vesicles arrive. At 60 min: fluorescence moves to cell periphery (secretory vesicles) and eventually outside the cell. If Golgi modification is blocked (e.g., by brefeldin A), fluorescence remains in ER. A poor design lacks a time course or control for ER-to-Golgi transport.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_006",
+   "title": "c11_stat_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the formula for standard deviation of an individual series using the direct method?",
+     "a": "σ = √[Σ(xᵢ - x̄)² / N] where x̄ is the arithmetic mean and N is the number of observations. A wrong answer like σ = Σ|xᵢ - x̄|/N reveals confusion with mean deviation; σ = √[Σ(xᵢ - x̄)/N] shows misunderstanding that deviations must be squared before summing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we square the deviations from the mean in standard deviation instead of taking absolute values as in mean deviation.",
+     "a": "Squaring deviations achieves two things: (1) it eliminates negative signs so positive and negative deviations don't cancel out, and (2) it gives more weight to larger deviations, making standard deviation sensitive to outliers. A wrong answer like \"it's just a mathematical convention\" or \"to make calculation easier\" shows lack of understanding of the algebraic properties that make standard deviation suitable for further statistical analysis (e.g., variance addition).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the standard deviation for the individual series: 5, 7, 9, 11, 13 using the direct method. Show all steps.",
+     "a": "Step 1: Mean x̄ = (5+7+9+11+13)/5 = 9. Step 2: Deviations: -4, -2, 0, 2, 4. Step 3: Squared deviations: 16, 4, 0, 4, 16. Step 4: Sum = 40. Step 5: Variance = 40/5 = 8. Step 6: σ = √8 ≈ 2.828. A wrong answer of 2.0 (using N-1 denominator) reveals confusion with sample standard deviation; 40/5 = 8 without square root shows confusion between variance and standard deviation.",
+     "self_check": true
+    },
+    {
+     "q": "For a discrete series with values 10, 20, 30 and frequencies 2, 5, 3, a student computes the mean as 20 and then uses the formula σ = √[Σf(x - x̄)² / Σf]. They get σ = 8.16. Identify if this is correct and explain the error if any.",
+     "a": "The correct mean is (10×2 + 20×5 + 30×3)/10 = 210/10 = 21, not 20. Using x̄=20 gives wrong deviations. Correct squared deviations: f(x-21)² = 2×121 + 5×1 + 3×81 = 242+5+243=490. σ = √(490/10) = 7.0. The student's error was using an incorrect mean (possibly median or mode). This reveals misunderstanding that mean must be computed from the frequency distribution, not assumed.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For any data set, standard deviation is always greater than or equal to mean deviation about mean.\" Is this always true? Justify.",
+     "a": "Yes, it is always true because squaring deviations (xᵢ - x̄)² gives more weight to larger deviations compared to absolute deviations |xᵢ - x̄|. By RMS-AM inequality, √[Σ(xᵢ - x̄)²/N] ≥ Σ|xᵢ - x̄|/N. Equality holds only when all deviations are equal (all values same). A wrong answer claiming \"not always, depends on data\" reveals lack of knowledge of the mathematical relationship between quadratic mean and arithmetic mean.",
+     "self_check": true
+    },
+    {
+     "q": "Create a continuous frequency distribution with 5 classes where the standard deviation calculated by step-deviation method is exactly 10. Provide the class intervals, frequencies, assumed mean, and common factor used.",
+     "a": "Example: Classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 2, 3, 5, 3, 2. Mid-values: 5,15,25,35,45. Choose A=25, h=10. u = (m-25)/10 → -2,-1,0,1,2. Σfu = 2(-2)+3(-1)+5(0)+3(1)+2(2)= -4-3+0+3+4=0. Σfu² = 2(4)+3(1)+5(0)+3(1)+2(4)=8+3+0+3+8=22. N=15. σ = h√[Σfu²/N - (Σfu/N)²] = 10√[22/15 - 0] = 10√1.4667 ≈ 12.11. To get exactly 10, adjust frequencies so Σfu²/N = 1. A valid answer must satisfy Σfu=0 and Σfu²=N. For instance, frequencies 1,1,1,1,1 (N=5) with same u gives Σfu²=10, σ=10√(10/5)=10√2≈14.14. The student must understand the step-deviation formula and how to engineer the numbers. A poor answer would not satisfy the formula constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

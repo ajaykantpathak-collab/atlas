@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_2",
+   "title": "c8_math_ch4_2",
+   "questions": [
+    {
+     "q": "State the definition of a rectangle in one sentence using the words \"quadrilateral\", \"right angles\", and \"parallelogram\".",
+     "a": "A rectangle is a quadrilateral with four right angles, or equivalently a parallelogram with one right angle. A wrong answer that only says \"four equal angles\" misses the 90° requirement; a student who says \"a parallelogram with equal sides\" is confusing rectangle with rhombus/square.",
+     "self_check": true
+    },
+    {
+     "q": "In a rectangle ABCD, side AB = 8 cm and side BC = 5 cm. Without measuring, what are the lengths of CD and AD? Explain why you are certain.",
+     "a": "CD = 8 cm and AD = 5 cm because opposite sides of a rectangle (being a parallelogram) are equal. A wrong answer that gives CD = 5 cm and AD = 8 cm shows the student does not understand which sides are opposite; an answer of \"cannot be determined\" reveals the student does not connect rectangle to parallelogram properties.",
+     "self_check": true
+    },
+    {
+     "q": "Rectangle PQRS has diagonals PR and QS intersecting at O. If PR = 10 cm, what is the length of QS? What is the length of PO?",
+     "a": "QS = 10 cm (diagonals of a rectangle are equal). PO = 5 cm (diagonals bisect each other, so PO = half of PR). A wrong answer of QS = 5 cm or PO = 10 cm indicates confusion between \"equal diagonals\" and \"bisecting diagonals\"; a student who says PO = 2.5 cm might be halving the wrong segment.",
+     "self_check": true
+    },
+    {
+     "q": "A carpenter builds a frame with opposite sides equal: 120 cm and 80 cm. He measures one angle and finds it is 85°. Is this frame a rectangle? Justify your answer using the definition.",
+     "a": "No, it is not a rectangle. Although opposite sides are equal (making it a parallelogram), a rectangle requires all angles to be 90° (or at least one angle 90°). An 85° angle violates the definition. A student who says \"yes, because opposite sides are equal\" is confusing parallelogram with rectangle; a student who says \"no, because adjacent sides are not equal\" is confusing rectangle with square.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan claims: \"Every rectangle is a parallelogram, but not every parallelogram is a rectangle.\" Evaluate this statement and give a counterexample for the second part.",
+     "a": "The statement is correct. A rectangle satisfies the parallelogram condition (opposite sides parallel and equal) and adds the right-angle condition. A counterexample for \"not every parallelogram is a rectangle\" is a rhombus with angles 60° and 120° (or any parallelogram without right angles). A wrong evaluation that says \"false, all parallelograms are rectangles\" shows a fundamental misunderstanding of the hierarchy; a student who gives a square as a counterexample doesn't realize a square IS a rectangle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context: rupees, metres, etc.) that requires using the property \"opposite sides of a rectangle are equal\" to find an unknown length. Write the problem and its solution.",
+     "a": "Example problem: \"A rectangular plot has a perimeter of 140 m. Its length is 10 m more than its breadth. Find the length and breadth.\" Solution uses opposite sides equal to set up 2(l+b)=140 and l=b+10. A poor answer gives a problem that doesn't need the property (e.g., direct area calculation) or a solution that doesn't explicitly use \"opposite sides equal\", showing the student cannot design a task targeting this specific property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

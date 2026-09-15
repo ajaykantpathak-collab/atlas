@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_005",
+   "title": "c11_geo_cbse_24_005",
+   "questions": [
+    {
+     "q": "On a 1:50,000 topographical sheet, you observe a stream network where tributaries join the main river at acute angles (30°–45°) in a repeated branching hierarchy resembling a tree. The contour lines show uniform spacing and the area is underlain by a single rock type. What drainage pattern does this represent, and what does it indicate about the underlying geology?",
+     "a": "This represents a **dendritic drainage pattern**, indicating a **homogeneous lithology** (uniform rock type) with **uniform resistance to erosion** and **gentle, regular slopes**. The acute junction angles and hierarchical branching occur because no structural control (folds, faults, joints, or lithological contrasts) diverts the streams; they erode headward equally in all directions. A wrong answer (e.g., \"trellis\" or \"radial\") reveals the student cannot link junction angle geometry to structural control — they are memorising pattern names without understanding the process-structure relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student identifies a drainage pattern as \"trellis\" because the main streams appear parallel. However, the tributaries join at oblique angles (60°–70°) rather than right angles, and the contour lines show V-shaped valleys crossing ridges without structural alignment. Why is the student's classification incorrect, and what pattern is more likely?",
+     "a": "The classification is incorrect because **trellis patterns require tributaries to join main streams at approximately right angles (90°)**, reflecting erosion along strike valleys in folded strata where resistant layers form ridges and soft layers form valleys. Oblique angles (60°–70°) with no structural alignment of contours suggest a **dendritic or sub-dendritic pattern** on gently dipping or homogeneous rocks where streams adjust to slope rather than structure. A wrong answer reveals the student equates \"parallel main streams\" with trellis without verifying the diagnostic right-angle junction criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Given a topo sheet extract where contours form concentric circles with a spot height of 1,450 m at the centre, and blue-line streams radiate outward in all directions from this centre with junction angles of 120°–180° between adjacent streams, calculate the approximate radius of the radial pattern if the outermost stream reaches the 800 m contour at a map distance of 4.2 cm. The map scale is 1:50,000.",
+     "a": "**Step 1:** Map distance = 4.2 cm. **Step 2:** Scale 1:50,000 means 1 cm = 50,000 cm = 0.5 km. **Step 3:** Ground distance = 4.2 × 0.5 = **2.1 km**. **Step 4:** This 2.1 km is the radial length from the central peak (1,450 m) to the 800 m contour. **Step 5:** The pattern is radial because streams diverge from a single high point (domal uplift or volcanic cone) with wide junction angles. A wrong answer (e.g., using 1 cm = 1 km or forgetting to convert cm to km) reveals inability to apply scale conversion — a fundamental topo sheet skill — and/or failure to recognise that radial patterns are defined by a **central high point** confirmed by concentric contours and spot height.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drainage patterns on two topo sheet extracts: Extract A (Chotanagpur Plateau, 1:50,000) shows a dense network of streams with frequent bifurcation, acute junctions, and no alignment with contour trends. Extract B (Aravalli Range, 1:50,000) shows parallel consequent streams following strike valleys with subsequent tributaries joining at near 90° angles, and contours bending sharply across ridges. Explain how the **difference in geological structure** produces these contrasting patterns, referencing specific structural features.",
+     "a": "Extract A (Chotanagpur) exhibits **dendritic pattern** on **homogeneous, horizontally bedded or gently undulating Archaean gneiss/granite** with no strong structural grain — streams erode headward equally in all directions. Extract B (Aravalli) exhibits **trellis pattern** on **tightly folded Proterozoic metasediments (quartzite, phyllite, limestone)** where **alternating resistant and non-resistant layers** create parallel ridges (strike ridges) and valleys; consequent streams flow down dip slopes in strike valleys, and subsequent streams erode along weak layers cutting across ridges at right angles. A wrong answer that attributes both to \"hard rock\" or \"slope\" without distinguishing **homogeneity vs. alternating strata** and **absence vs. presence of structural control** reveals a superficial understanding of structure-process linkage.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed irrigation project plans to build a dam across a river in a radial drainage basin originating from a volcanic plug. The catchment has steep slopes (contours at 20 m interval, V-spacing < 5 mm on 1:50,000 map) and high drainage density. Evaluate the suitability of this site for a large reservoir considering **sedimentation risk**, **catchment response time**, and **structural stability of the dam foundation**. Justify your assessment.",
+     "a": "**Unsuitable / High risk.** (1) **Sedimentation risk is severe**: radial basins on volcanic plugs have steep, short slopes (high relief ratio) and high drainage density → rapid erosion and high sediment yield; reservoir will silt quickly. (2) **Catchment response time is very short**: steep slopes + radial symmetry = concurrent peak flows from all directions → flash flood risk, difficult spillway design. (3) **Foundation stability questionable**: volcanic plugs may have fractured rock, cooling joints, or pyroclastic layers — poor abutment integrity for a large dam. A \"suitable\" answer reveals failure to integrate **morphometric indicators (slope, drainage density, symmetry)** with **hydrological and engineering consequences** — a critical competency for applied geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 11 practical exam: provide a 10 cm × 10 cm topo sheet extract (1:50,000) showing a **composite drainage pattern** where the upper catchment is radial on a conical hill, the middle reach transitions to trellis across a folded ridge belt, and the lower reach becomes dendritic on an alluvial plain. Specify the **minimum contour interval**, **key symbols to include**, and **three structured questions** that test pattern identification, structural inference, and transition zone analysis.",
+     "a": "**Map specs:** Contour interval = 20 m (steep upper), 10 m (gentle lower); include: perennial/non-perennial streams, spot heights, contour labels, rock outcrop symbol, spring, waterfall. **Q1:** \"Identify the three drainage patterns in zones X, Y, Z and mark the transition boundaries with dashed lines.\" **Q2:** \"For each zone, name the dominant structural control (lithology/structure) and give one map evidence.\" **Q3:** \"Explain why the radial-to-trellis transition occurs at the 600 m contour, referencing the change in contour pattern and stream junction angles.\" A poor answer that lists patterns without map evidence or treats transitions as abrupt rather than gradational reveals inability to **synthesise pattern, process, and structure across a landscape continuum** — the hallmark of senior secondary geographical thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

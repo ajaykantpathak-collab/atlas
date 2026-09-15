@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_009",
+   "title": "c7_math_ch09_009",
+   "questions": [
+    {
+     "q": "If two triangles $\\triangle ABC$ and $\\triangle PQR$ are congruent by the SAS criterion, what does CPCTC allow us to conclude about side $BC$ and side $QR$?",
+     "a": "CPCTC allows us to conclude that side $BC$ is equal in length to side $QR$ because corresponding parts of congruent triangles are congruent. A wrong answer like \"nothing, because SAS only deals with two sides and an angle\" reveals a misunderstanding that congruence of triangles guarantees the equality of *all* corresponding sides and angles, not just the ones used in the test criterion.",
+     "self_check": true
+    },
+    {
+     "q": "A student looks at two triangles and says, \"They have all three pairs of sides equal, so triangle $ABC$ is congruent to triangle $QRP$.\" Is the vertex matching order important when writing the congruence statement, and why?",
+     "a": "Yes, vertex matching order is vital because it establishes exact correspondence; writing $\\triangle ABC \\cong \\triangle QRP$ means vertex $A$ corresponds to $Q$, $B$ to $R$, and $C$ to $P$. A wrong answer like \"order doesn't matter as long as the letters are the same\" indicates confusion regarding corresponding parts, which leads to incorrect side and angle pairings when applying CPCTC.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle XYZ$ and $\\triangle LMN$, we are given $XY = LM$, $\\angle X = \\angle L$, and $XZ = LN$. If $YZ = 7\\text{ cm}$, what is the length of side $MN$?",
+     "a": "The length of $MN$ is $7\\text{ cm}$. Step 1: Identify given information: $XY = LM$, $\\angle X = \\angle L$, $XZ = LN$. Step 2: Apply the SAS congruence criterion since the two sides and the included angle are equal, so $\\triangle XYZ \\cong \\triangle LMN$. Step 3: By CPCTC, corresponding side $YZ$ must equal corresponding side $MN$. Step 4: Substitute $YZ = 7\\text{ cm}$, giving $MN = 7\\text{ cm}$. A wrong answer like $14\\text{ cm}$ shows the student added lengths instead of equating corresponding parts of congruent triangles.",
+     "self_check": true
+    },
+    {
+     "q": "When solving a geometric problem involving two overlapping triangles sharing a common side, what is the first critical observation a student must make?",
+     "a": "The student must identify and explicitly state the common shared side using the Reflexive Property (e.g., $AD = AD$). A wrong answer like \"assume the overlapping parts are unrelated\" shows a lack of analytical skill in decomposing complex geometric diagrams into independent, comparable triangle units.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate proves two triangles are congruent and writes: \"Since $\\triangle PQR \\cong \\triangle STU$, therefore angle $P$ equals angle $U$.\" Evaluate this statement and correct any error.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "The statement is incorrect because the vertex matching order matters. According to $\\triangle PQR \\cong \\triangle STU$, vertex $P$ corresponds to vertex $S$, so angle $P$ must equal angle $U$ is false; angle $P$ equals angle $S$. A wrong answer agreeing with the classmate indicates the student fails to check index alignment in congruence statements.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_010",
+   "title": "c12_ip_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the output of `df.loc[df['Marks'] > 80]` if `df` is a DataFrame with a column 'Marks' containing integer values?",
+     "a": "The output is a new DataFrame containing only the rows where the 'Marks' column value is greater than 80; all columns are retained. A wrong answer (e.g., \"returns a Series\" or \"modifies df in place\") reveals confusion between Boolean indexing (returns subset DataFrame) and column selection (returns Series) or misunderstanding of in‑place vs. non‑destructive operations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `df[df['A'] > 5 & df['B'] < 10]` raises a ValueError, while `df[(df['A'] > 5) & (df['B'] < 10)]` works correctly.",
+     "a": "The `&` operator has higher precedence than `>` and `<`, so Python evaluates `5 & df['B']` first, causing a bitwise operation between an integer and a Series. Parentheses force the comparisons to be evaluated first, producing Boolean Series that can be combined with `&`. A student who omits parentheses does not understand operator precedence in Pandas Boolean expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Given a DataFrame `sales` with columns 'Region', 'Salesperson', 'Amount', write a single statement to get the top 3 salespeople by Amount in the 'North' region, sorted descending.",
+     "a": "`sales.loc[sales['Region'] == 'North'].sort_values('Amount', ascending=False).head(3)`  \nSteps: filter for North region, sort by Amount descending, take first 3 rows. A wrong answer might sort before filtering (inefficient), forget `ascending=False`, or use `nlargest` incorrectly (e.g., on the whole DataFrame). This tests ability to chain filter‑sort‑limit correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `df.sort_values('Score', na_position='first')` and `df.sort_values('Score', na_position='last')` when the 'Score' column contains NaN values. Which rows appear at the top in each case?",
+     "a": "With `na_position='first'`, rows with NaN in 'Score' appear at the top (before the smallest non‑NaN value). With `na_position='last'`, NaN rows appear at the bottom (after the largest non‑NaN value). A student who says NaN rows are dropped or placed randomly does not understand the explicit `na_position` parameter and its default (`last`).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df[df['Age'] > 18 | df['Age'] < 60]` to select adults aged 18‑60. Critique this code and provide the correct version.",
+     "a": "The code uses `|` (OR) instead of `&` (AND), so it selects all rows because every age is either >18 or <60. The correct version is `df[(df['Age'] > 18) & (df['Age'] < 60)]`. A student who misses the logical error confuses inclusive OR with the required AND for range filtering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a DataFrame with columns 'Product', 'Stock', 'ReorderLevel', 'Supplier'. Write a Pandas expression that returns a DataFrame of products needing reorder (Stock < ReorderLevel), sorted by Supplier alphabetically and then by Stock ascending (lowest stock first).",
+     "a": "`df.loc[df['Stock'] < df['ReorderLevel']].sort_values(['Supplier', 'Stock'], ascending=[True, True])`  \nA good answer shows correct Boolean mask comparing two columns, multi‑column sort with a list of columns and a matching list of booleans. A poor answer might sort by a single column, use wrong ascending order, or forget to filter before sorting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

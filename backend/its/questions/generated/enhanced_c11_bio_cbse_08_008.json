@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_008",
+   "title": "c11_bio_cbse_08_008",
+   "questions": [
+    {
+     "q": "Name the two membranes that constitute the nuclear envelope and state the width of the perinuclear space between them.",
+     "a": "The nuclear envelope consists of an outer nuclear membrane and an inner nuclear membrane with a perinuclear space of 10-50 nm between them. A wrong answer (e.g., \"single membrane\" or \"no space\") reveals the student has not distinguished the nuclear envelope from the plasma membrane or confuse it with mitochondrial double membrane where intermembrane space has different dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the nucleolus is not considered a membrane-bound organelle despite being a distinct spherical body within the nucleus.",
+     "a": "The nucleolus lacks a bounding membrane; it is a phase-separated condensate formed by liquid-liquid phase separation of rDNA, transcription machinery, and ribosomal proteins - its boundary is defined by concentration gradients, not a lipid bilayer. A wrong answer claiming it has a membrane reveals the student memorizes \"nucleolus is in nucleus\" without understanding its biophysical nature as a membraneless organelle.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a human karyotype and identifies a chromosome with one very long arm and one extremely short arm. Classify this chromosome and predict the position of its centromere.",
+     "a": "This is an acrocentric chromosome; its centromere is situated close to one end, producing one very long arm (q) and one extremely short arm (p). A wrong classification (e.g., telocentric) reveals the student confuses \"near the end\" (acrocentric) with \"at the end\" (telocentric) - a critical distinction in human cytogenetics since humans lack telocentric chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chromatin state in a transcriptionally active neuron versus a mature erythrocyte. Relate this to nuclear appearance and gene expression.",
+     "a": "Active neurons show abundant euchromatin (loose, lightly stained) allowing transcription; mature mammalian erythrocytes lack a nucleus entirely - they extrude it during differentiation to maximize hemoglobin packing. A wrong answer stating erythrocytes have condensed heterochromatin reveals the student doesn't know mammalian RBCs are anucleate, confusing them with nucleated avian RBCs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Nuclear pores are simple holes in the nuclear envelope that allow free diffusion of all molecules between nucleus and cytoplasm.\"",
+     "a": "The statement is false. Nuclear pores are complex protein assemblies (nuclear pore complexes, ~100 MDa) with a selective barrier formed by FG-nucleoporins; they permit passive diffusion only up to ~40-60 kDa, while larger cargo requires nuclear localization signals and importin/exportin receptors with RanGTP energy. A student agreeing reveals they confuse nuclear pores with simple membrane channels.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using differential staining to distinguish euchromatin from heterochromatin in a plant root tip interphase nucleus. Describe expected observations.",
+     "a": "Use Feulgen staining (DNA-specific) combined with acetocarmine: euchromatin stains lightly (less condensed, transcriptionally active), heterochromatin stains deeply (highly condensed, late-replicating). Under light microscopy, expect a network of pale fibers with intensely dark granules (heterochromatin) often at nuclear periphery and around nucleolus. A poor design using only generic dyes (e.g., safranin) reveals inability to select DNA-specific stains for chromatin differentiation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

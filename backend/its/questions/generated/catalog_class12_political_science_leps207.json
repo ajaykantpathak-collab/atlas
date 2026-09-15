@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class12_political_science_leps207",
+ "concepts": [
+  {
+   "id": "leps.207.1.1",
+   "title": "Region and the Nation: The Indian Approach to Diversity",
+   "questions": [
+    {
+     "q": "Using the method 'Region and the Nation: The Indian Approach to Diversity', work with: boundary_redrawing = 10, democratic_accommodation = 240, unity_with_diversity = 100. Carry the chain through step by step and give the final value of indian_approach.",
+     "a": "350 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Region and the Nation: The Indian Approach to Diversity' and work with: boundary_redrawing = 100, democratic_accommodation = 80, unity_with_diversity = 60. Carry the chain through step by step and give the final value of indian_approach.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Region and the Nation: The Indian Approach to Diversity' refers to.",
+     "a": "Indian nationalism set out to balance unity with diversity -- the nation would not negate the region -- so regional aspirations were treated as legitimate democratic expressions rather than anti-national threats, and the answer to language- and identity-based demands was to redraw internal boundaries, as with Punjab and Haryana in 1966 and later Chhattisgarh, Uttarakhand and Jharkhand, even though Kashmir and Nagaland resisted settlement in the first phase of nation-building.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Region and the Nation: The Indian Approach to Diversity'.",
+     "a": "Where European nations saw cultural diversity as a threat, India's democratic framework let regional identities organise, agitate and still belong to the Union.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Region and the Nation: The Indian Approach to Diversity', in plain ASCII form.",
+     "a": "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.2.1",
+   "title": "Jammu and Kashmir: Roots, Article 370 and Competing Grievances",
+   "questions": [
+    {
+     "q": "Using the method 'Jammu and Kashmir: Roots, Article 370 and Competing Grievances', work with: article_370_special_status = 120, external_dispute_with_pakistan = 120, internal_grievances = 300. Carry the chain through step by step and give the final value of kashmir_dispute.",
+     "a": "540 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Jammu and Kashmir: Roots, Article 370 and Competing Grievances' and work with: article_370_special_status = 80, external_dispute_with_pakistan = 6, internal_grievances = 400. Carry the chain through step by step and give the final value of kashmir_dispute.",
+     "a": "486 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Jammu and Kashmir: Roots, Article 370 and Competing Grievances' refers to.",
+     "a": "A princely state whose ruler Hari Singh wanted independence, Jammu and Kashmir acceded amid a Pakistani-sponsored tribal invasion of 1947 that left part of the territory as Pakistan occupied Jammu and Kashmir; the state's three regions -- Hindu-majority Jammu, Muslim-majority Kashmir valley and Buddhist-Muslim Ladakh -- sat under Article 370's special status, which critics outside wanted revoked for full integration while many Kashmiris found its practice eroded, citing an unheld plebiscite promise, lost autonomy and an unconsolidated democracy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Jammu and Kashmir: Roots, Article 370 and Competing Grievances'.",
+     "a": "Kashmiriyat -- identifying as Kashmiri above all -- sat between Pakistan's religious claim and India's integration, and both external war and internal mistrust grew from that triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Jammu and Kashmir: Roots, Article 370 and Competing Grievances', in plain ASCII form.",
+     "a": "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.3.1",
+   "title": "Kashmir Politics since 1948: From Accord to Insurgency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kashmir Politics since 1948: From Accord to Insurgency' refers to.",
+     "a": "Sheikh Abdullah's land reforms gave way to his 1953 dismissal and long detention; Congress-backed governments and allegations of rigging ruled until the 1974 Indira Gandhi-Sheikh Abdullah accord restored the National Conference, but Farooq Abdullah's 1984 dismissal and the NC-Congress electoral alliance ahead of the widely believed rigged 1987 election bred the resentment that by 1989 became insurgency for a separate Kashmiri nation, pushing the state into a decade of President's rule, violence and the displacement of Kashmiri Pandits before elections returned in 1996 and coalition politics from 2002.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kashmir Politics since 1948: From Accord to Insurgency'.",
+     "a": "Each central interference -- dismissal, alliance, tainted poll -- drained the trust Kashmiris had built in democratic processes and pushed youth toward militancy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Kashmir Politics since 1948: From Accord to Insurgency', in plain ASCII form.",
+     "a": "kashmir_cycle = centre_interventions + 1974_accord + 1987_rigged_election + insurgency_1989",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.4.1",
+   "title": "Dravidian Movement: Regionalism through Democratic Means",
+   "questions": [
+    {
+     "q": "Using the method 'Dravidian Movement: Regionalism through Democratic Means', work with: dmk_agitations = 10, electoral_platform = 200, periyar_dravidar_kazhagam = 80. Carry the chain through step by step and give the final value of dravidian_politics.",
+     "a": "290 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dravidian Movement: Regionalism through Democratic Means' and work with: dmk_agitations = 80, electoral_platform = 30, periyar_dravidar_kazhagam = 25. Carry the chain through step by step and give the final value of dravidian_politics.",
+     "a": "135 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dravidian Movement: Regionalism through Democratic Means' refers to.",
+     "a": "Summed up by the slogan that the north thrives while the south decays, the Dravidian movement of Tamil Nadu opposed Brahmin dominance and north Indian economic and cultural power -- some sections even dreaming of a Dravida nation -- yet it never took to arms, working through public debate and elections: E. V. Ramasami Periyar's Dravidar Kazhagam passed its legacy to the DMK, whose 1953-54 agitations over the Kallakudi station renamed Dalmiapuram, and later anti-Hindi campaigns, carried it to state power and national influence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dravidian Movement: Regionalism through Democratic Means'.",
+     "a": "A movement that began with secessionist daydreams won more through ballots and banners than bullets, becoming a model of democratic regionalism.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dravidian Movement: Regionalism through Democratic Means', in plain ASCII form.",
+     "a": "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.5.1",
+   "title": "Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star",
+   "questions": [
+    {
+     "q": "Using the method 'Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star', work with: anandpur_sahib_resolution_1973 = 150, operation_blue_star_1984 = 300, punjabi_suba_1966 = 3. Carry the chain through step by step and give the final value of punjab_escalation.",
+     "a": "453 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star' and work with: anandpur_sahib_resolution_1973 = 10, operation_blue_star_1984 = 360, punjabi_suba_1966 = 300. Carry the chain through step by step and give the final value of punjab_escalation.",
+     "a": "670 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star' refers to.",
+     "a": "Sikh agitation for a Punjabi-speaking state led by leaders like Master Tara Singh succeeded in 1966 when Punjab was truncated and Sikhs became a majority, but coalition Akali governments faced dismissal from the Centre, thin Hindu support and a community divided by caste and class; the Anandpur Sahib Resolution of 1973 demanded regional autonomy and redefined centre-state relations while speaking of Sikh qaum and bolbala, and after the 1980 dismissal a water-sharing movement slid from moderate Akali leadership into armed insurgency headquartered in the Golden Temple, answered by Operation Blue Star in June 1984.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star'.",
+     "a": "A federal demand for autonomy hardened into insurgency when political dismissal and religious identity fed each other.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Punjab: From Punjabi Suba to Anandpur Sahib and Operation Blue Star', in plain ASCII form.",
+     "a": "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.6.1",
+   "title": "1984 Anti-Sikh Violence and the Road to Peace in Punjab",
+   "questions": [
+    {
+     "q": "Using the method '1984 Anti-Sikh Violence and the Road to Peace in Punjab', work with: decade_of_militancy = 200, elections_1997 = 360, rajiv_longowal_accord_1985 = 3. Carry the chain through step by step and give the final value of punjab_peace_process.",
+     "a": "563 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for '1984 Anti-Sikh Violence and the Road to Peace in Punjab' and work with: decade_of_militancy = 50, elections_1997 = 80, rajiv_longowal_accord_1985 = 40. Carry the chain through step by step and give the final value of punjab_peace_process.",
+     "a": "170 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what '1984 Anti-Sikh Violence and the Road to Peace in Punjab' refers to.",
+     "a": "Indira Gandhi's assassination by her Sikh bodyguards on 31 October 1984 unleashed a week of anti-Sikh violence in which more than two thousand Sikhs died in Delhi alone, crimes the state was slow to punish -- the Nanavati Commission later found systematic organisation of the attacks, and Prime Minister Manmohan Singh apologised in Parliament in 2005; Rajiv Gandhi's July 1985 Punjab Accord with Sant Harchand Singh Longowal promised Chandigarh's transfer, a boundary commission and a Ravi-Beas waters tribunal, yet violence ran nearly a decade more before peace and the 1997 Akali Dal-BJP victory restored normal politics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about '1984 Anti-Sikh Violence and the Road to Peace in Punjab'.",
+     "a": "Accords end wars slowly: the 1985 agreement pointed the way, but only security victory, elections and time returned Punjab to development politics.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for '1984 Anti-Sikh Violence and the Road to Peace in Punjab', in plain ASCII form.",
+     "a": "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.7.1",
+   "title": "North-East: Reorganisation and the Mizo-Naga Secessionist Paths",
+   "questions": [
+    {
+     "q": "Using the method 'North-East: Reorganisation and the Mizo-Naga Secessionist Paths', work with: autonomy_demands = 150, mizo_national_front_accord_1986 = 120, naga_insurgency_unresolved = 300. Carry the chain through step by step and give the final value of north_east_politics.",
+     "a": "570 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'North-East: Reorganisation and the Mizo-Naga Secessionist Paths' and work with: autonomy_demands = 24, mizo_national_front_accord_1986 = 120, naga_insurgency_unresolved = 300. Carry the chain through step by step and give the final value of north_east_politics.",
+     "a": "444 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'North-East: Reorganisation and the Mizo-Naga Secessionist Paths' refers to.",
+     "a": "Carved almost wholly from Assam and linked to India by a 22-kilometre corridor, the North-East's politics pivots on autonomy, secession and opposition to outsiders: reorganisation by 1972 created Nagaland, Manipur, Tripura and Meghalaya with Mizoram and Arunachal following in 1987, while two secessionist stories diverged -- Laldenga's Mizo National Front, born of the 1959 famine, fought two decades of guerrilla war until the 1986 Rajiv Gandhi accord gave Mizoram statehood and made him Chief Minister, whereas A. Z. Phizo's Naga declaration of independence from 1951 has still found no final settlement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'North-East: Reorganisation and the Mizo-Naga Secessionist Paths'.",
+     "a": "Negotiation matured in the hills: where leadership on both sides chose dialogue, insurgency ended in statehood, but where it did not, conflict outlived decades.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'North-East: Reorganisation and the Mizo-Naga Secessionist Paths', in plain ASCII form.",
+     "a": "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.207.8.1",
+   "title": "The Assam Movement against Outsiders, 1979-1985",
+   "questions": [
+    {
+     "q": "Using the method 'The Assam Movement against Outsiders, 1979-1985', work with: aasu_anti_foreigner_agitation = 150, asom_gana_parishad = 6, assam_accord_1985 = 360. Carry the chain through step by step and give the final value of assam_movement.",
+     "a": "516 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Assam Movement against Outsiders, 1979-1985' and work with: aasu_anti_foreigner_agitation = 3, asom_gana_parishad = 60, assam_accord_1985 = 50. Carry the chain through step by step and give the final value of assam_movement.",
+     "a": "113 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Assam Movement against Outsiders, 1979-1985' refers to.",
+     "a": "Suspecting huge illegal Bengali Muslim migration from Bangladesh and resenting that Assam's oil, tea and coal drained out without local benefit, the non-party All Assam Students' Union led from 1979 an anti-foreigner movement demanding detection and deportation of all entrants after 1951 and protesting faulty electoral rolls; after six years of turmoil including blockade tactics and violent deaths, the 1985 Rajiv Gandhi accord promised deportation of post-Bangladesh-war migrants, and the leaders converted their movement into the Asom Gana Parishad, which won power that year on the promise of a Golden Assam.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Assam Movement against Outsiders, 1979-1985'.",
+     "a": "A students' movement converted agitation into a regional party, winning office without settling the outsider question that still animates Assam's politics.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Assam Movement against Outsiders, 1979-1985', in plain ASCII form.",
+     "a": "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

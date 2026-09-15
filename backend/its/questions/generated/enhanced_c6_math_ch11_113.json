@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_113",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_113",
+   "title": "c6_math_ch11_113",
+   "questions": [
+    {
+     "q": "What is the primary difference between a freehand drawing and a geometric construction?",
+     "a": "Geometric construction requires the use of specific tools to follow precise, logical steps, whereas freehand drawing relies on visual estimation. A wrong answer suggests the student thinks construction is just \"drawing neatly,\" missing the requirement for tools and standard procedures.",
+     "self_check": true
+    },
+    {
+     "q": "If you need to draw a circle with a specific radius, which tool from your geometry box should you choose and why?",
+     "a": "You should choose the compass because it is designed to keep a fixed distance from a center point while drawing an arc. If a student chooses a ruler, they fail to understand that a ruler is for straight lines, not for tracing the constant curve of a circle.",
+     "self_check": true
+    },
+    {
+     "q": "A student is asked to draw a line segment 5 cm long. They place the ruler on the paper and draw a line from the 1 cm mark to the 6 cm mark. Is this correct? Explain your reasoning.",
+     "a": "Yes, this is correct because the distance between 1 cm and 6 cm is exactly 5 cm (6 - 1 = 5). If the student says it is wrong, they likely believe you must always start at the 0 mark, ignoring that measuring is about the difference between two points.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to place the center of the protractor exactly on the vertex of an angle when measuring?",
+     "a": "The vertex is the point where the two rays (arms) of the angle meet; if the protractor is shifted, the arms will not align with the degree markings, leading to an incorrect reading. A wrong answer indicates the student views the protractor as a \"stamp\" rather than a precision measuring device.",
+     "self_check": true
+    },
+    {
+     "q": "If you are asked to draw an angle and you only have a ruler, can you construct it accurately? Why or why not?",
+     "a": "No, a ruler can only draw straight lines; it lacks the circular scale necessary to measure or define the amount of rotation (the \"turn\") required for an angle. A wrong answer shows a lack of understanding regarding the specific function of each geometric tool.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the steps you would take to check if two different line segments drawn by your friends are actually the same length.",
+     "a": "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other. A poor answer would suggest \"looking at them to see if they match,\" which ignores the need for standard measurement tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_19_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_19_014",
+   "title": "c11_eng_w_cbse_19_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 11?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Language\") reveals the student memorised a mnemonic without understanding the analytical function of each step — they will likely produce descriptive paragraphs that lack argumentative structure and textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Keats uses a lot of imagery in the poem to show he is sad.\" Why is this an inadequate analytical statement for a Class 11 board answer?",
+     "a": "It is inadequate because it makes a vague claim (\"a lot of imagery\") without identifying a specific device, quoting the exact words, or explaining *how* the imagery creates the effect of sadness. A wrong answer here (e.g., \"It's too short\") misses the core issue: the statement lacks the 'Evidence' and 'Explanation' steps of PEEL, so it cannot earn marks for analysis (AO3) even if the 'Point' is correct.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a PEEL-structured paragraph for a 3-mark question: \"The nightingale is immortal because Keats says it was not born for death and emperors and clowns heard it.\"\nQuestion: \"How does Keats establish the nightingale's immortality in stanza 7?\"",
+     "a": "**Strong PEEL Answer:** Keats establishes the nightingale's immortality by presenting its song as timeless, transcending human history and class. **Evidence:** He declares \"Thou wast not born for death, immortal Bird!\" and notes the same song was heard \"In ancient days by emperor and clown\". **Explanation:** The apostrophe (\"Thou\") elevates the bird to a mythic status, while the juxtaposition of \"emperor and clown\" collapses social hierarchy, suggesting the song exists outside human time. The reference to Ruth (\"sick for home / She stood in tears amid the alien corn\") further universalises the bird's voice as a constant solace across eras. **Link:** Thus, the bird becomes a symbol of eternal art, contrasting sharply with the fleeting human generations that \"tread thee down.\"  \nA weak rewrite would merely paraphrase the quote without analysing \"emperor and clown\" or the Ruth allusion, losing marks for Explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two openings for a 6-mark question on \"the tension between escape and reality\". Which is better and why?\nOpening A: \"In 'Ode to a Nightingale', Keats wants to escape the real world because it is painful.\"\nOpening B: \"Keats explores the tension between the desire for escapism and the inevitability of human suffering through the speaker's oscillation between the nightingale's ethereal realm and the 'fever' of mortal existence.\"",
+     "a": "Opening B is superior. It frames the essay as an analytical exploration (\"explores the tension\", \"oscillation\") rather than a biographical claim (\"Keats wants to escape\"). It uses precise terminology (\"ethereal realm\", \"mortal existence\") and references a specific textual phrase (\"fever\"). A student choosing Opening A reveals a misconception that literature answers are about authorial intention/plot summary rather than textual construction and thematic tension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"The poem's ending ('Was it a vision, or a waking dream?') proves the speaker has successfully escaped reality through imagination.\" Is this a valid interpretation? Justify using the concept of 'negative capability'.",
+     "a": "The claim is **invalid**. The rhetorical question \"Do I wake or sleep?\" signals the *failure* of the imaginative escape — the \"fancy cannot cheat so well / As she is fam'd to do\". Keats's negative capability (holding uncertainties without irritable reaching after fact) is demonstrated by the speaker's *inability* to resolve the experience, not by a successful escape. A student asserting the claim confuses the *desire* for escape (stanzas 2-4) with the poem's *outcome* (stanza 8), ignoring the structural return to the \"sole self\" triggered by the word \"Forlorn!\".",
+     "self_check": true
+    },
+    {
+     "q": "Write a 2-sentence thesis statement for a comparative essay: \"Compare how Keats in 'Ode to a Nightingale' and Shelley in 'Ode to the West Wind' use the natural world to address the poet's role.\" Your thesis must name both poets, identify a similarity and a difference, and use the word \"whereas\".",
+     "a": "**Model Thesis:** Both Keats and Shelley invoke a natural force — the nightingale's song and the West Wind — as a vehicle for poetic transcendence, **whereas** Keats portrays the bird's immortality as a passive, melancholic contrast to human mortality, Shelley figures the wind as an active, revolutionary instrument to scatter his \"dead thoughts\" and prophesy renewal.  \nA poor thesis would list themes without a comparative conjunction (\"whereas\") or treat the poems separately (\"Keats does X. Shelley does Y.\"), failing the 'Compare' command.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

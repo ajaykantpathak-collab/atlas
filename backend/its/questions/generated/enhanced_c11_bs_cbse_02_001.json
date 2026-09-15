@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_001",
+   "title": "c11_bs_cbse_02_001",
+   "questions": [
+    {
+     "q": "State the legal status of a sole proprietorship firm and its owner in the eyes of law.",
+     "a": "In the eyes of law, a sole proprietorship firm and its owner are one and the same — there is no separate legal entity. The owner is personally liable for all business debts. A wrong answer (e.g., \"the firm is a separate legal entity\") reveals the student confuses sole proprietorship with a company or cooperative society, which *do* have separate legal identity. This confusion leads to errors in liability and continuity questions.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul runs a sole proprietorship grocery store. He takes a loan of ₹5 lakh for expansion but the business fails. The business assets are worth ₹2 lakh. Explain whether Rahul's personal car (worth ₹8 lakh) can be seized by the bank to recover the remaining ₹3 lakh.",
+     "a": "Yes, Rahul's personal car can be seized. In sole proprietorship, liability is unlimited — the owner's personal assets are used to repay business debts when business assets are insufficient. A wrong answer (\"No, only business assets can be taken\") shows the student misunderstands \"unlimited liability\" as limited to business assets, confusing it with a company's limited liability. This is the most common board exam error on this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Priya wants to start a freelance graphic design business from home with ₹20,000 capital. She values quick decisions, client confidentiality, and keeping all profits. However, she worries about business continuity if she gets sick. Analyse whether sole proprietorship is suitable for her. Justify with three features.",
+     "a": "Sole proprietorship is suitable. (1) Ease of formation/closure — she can start immediately with minimal formalities using ₹20,000. (2) Quick decision making & confidentiality — no partners to consult, client designs stay private. (3) Direct incentive — all profits are hers. The continuity concern (business stops if she's ill) is a *limitation* she must accept; it doesn't outweigh the merits for a small, skill-based, home-run venture. A partial answer missing the trade-off analysis shows inability to weigh features against context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"control\" feature of sole proprietorship with that of a partnership firm. How does the difference affect decision-making speed and quality in each?",
+     "a": "In sole proprietorship, control is absolute — one person decides everything, enabling instant decisions but risking unbalanced judgement (e.g., great at marketing, poor at finance). In partnership, control is shared — decisions need mutual consent, slowing the process but allowing specialisation (one partner handles finance, another marketing), leading to more balanced decisions. A student who only says \"sole proprietorship is faster\" misses the quality trade-off; board questions often ask \"explain the implication\" not just \"state the feature.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"Unlimited liability is the single biggest reason entrepreneurs avoid sole proprietorship for scaling businesses.\" Evaluate this statement with two arguments for and two against.",
+     "a": "**For:** (1) Banks hesitate to give long-term loans to sole proprietors due to high personal risk, limiting capital for expansion. (2) Fear of losing personal assets (house, car) discourages innovation and risk-taking needed for growth. **Against:** (1) Many small businesses (salons, local retail) *never intend to scale* — unlimited liability is irrelevant if the owner accepts the risk for autonomy. (2) Sole proprietorship allows *testing* a business model cheaply before converting to a company (as Neha's father suggested). A one-sided answer shows lack of evaluative thinking — board questions require balanced analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-column table: Column A = Feature of sole proprietorship, Column B = Real-world example (Indian context), Column C = Merits OR Limitation it creates. Fill 4 rows using different features.",
+     "a": "| Feature | Example | Merit/Limitation |\n|---------|---------|------------------|\n| Ease of formation | Ramesh opens a tea stall in Delhi with ₹10,000, no registration | Merit: Low barrier to entry |\n| Unlimited liability | Anita's boutique fails; her personal scooter sold to pay ₹2 lakh debt | Limitation: Personal assets at risk |\n| Sole risk/profit recipient | Vikas's mobile repair shop earns ₹80,000/month — all his | Merit: Maximum incentive to work hard |\n| No separate entity | Police fine Rajesh's unregistered food cart; *he* pays, not \"the business\" | Limitation: No legal shield for owner |\n\nA table mixing features/merits/limitations incorrectly (e.g., listing \"unlimited liability\" as a merit) reveals confusion between the *feature* and its *consequence*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

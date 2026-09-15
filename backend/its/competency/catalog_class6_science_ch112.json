@@ -1,0 +1,244 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 112,
+ "chapter_title": "Electricity and Circuits",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu103.txt",
+ "concepts": [
+  {
+   "id": "fesc.12.1.1",
+   "title": "Electric Cell Terminals",
+   "section": "12.1",
+   "definition": "An electric cell is a portable source of electricity that converts stored chemical energy into electrical energy, featuring two distinct ends called terminals.",
+   "formula": "terminals = positive_metal_cap + negative_metal_disc",
+   "key_idea": "Cells have two poles, positive and negative, which drive current flow.",
+   "textbook_ref": "fesc112.txt lines 30-45",
+   "question_patterns": [
+    "what are the terminals of an electric cell",
+    "identify the positive terminal of a cell",
+    "how many terminals does a cell have",
+    "where is the negative terminal located on a cell",
+    "describe electric cell terminals with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify metal cap",
+     "explain": "The top metal cap is the positive terminal."
+    },
+    {
+     "step": 2,
+     "action": "Identify metal disc",
+     "explain": "The bottom metal disc is the negative terminal."
+    },
+    {
+     "step": 3,
+     "action": "verify terminal polarity for connection",
+     "explain": "When using the cell in a circuit, connect the positive cap and negative disc to opposite ends of the device so current can flow from positive to negative through the external path."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.2.1",
+   "title": "Bulb Structure and Filament",
+   "section": "12.1",
+   "definition": "An electric bulb produces light when current goes through a thin wire called a filament, which is supported by two terminals at the base.",
+   "formula": "bulb_terminals = metal_case_base + metal_tip_center",
+   "key_idea": "A bulb shines only when current completes a path through its filament.",
+   "textbook_ref": "fesc112.txt lines 55-75",
+   "question_patterns": [
+    "what is the filament of a bulb",
+    "how are the terminals of a bulb arranged",
+    "why does a bulb have two terminals",
+    "what happens if the filament breaks",
+    "what do you understand by bulb structure and filament"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate filament",
+     "explain": "The filament is the thin wire inside the glass bulb."
+    },
+    {
+     "step": 2,
+     "action": "Check continuity",
+     "explain": "If the filament is broken, the circuit is open and the bulb is fused."
+    },
+    {
+     "step": 3,
+     "action": "trace the two terminal connections",
+     "explain": "Confirm that one terminal of the filament connects to the metal base case and the other to the central metal tip, so current can enter through one terminal, heat the filament, and leave through the other."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.3.1",
+   "title": "Electric Circuit Path",
+   "section": "12.3",
+   "definition": "An electric circuit is a continuous closed loop that allows electric current to flow from one terminal of a source to the other through a device.",
+   "formula": "circuit_status = (path_is_closed) ? glowing : not_glowing",
+   "key_idea": "Current flows only in a complete, unbroken loop.",
+   "textbook_ref": "fesc112.txt lines 120-140",
+   "question_patterns": [
+    "what is an electric circuit",
+    "why does the bulb glow in a closed circuit",
+    "what is the direction of current flow",
+    "define a complete path for electricity",
+    "explain electric circuit path in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check path continuity",
+     "explain": "Verify if the path connects positive to negative terminal."
+    },
+    {
+     "step": 2,
+     "action": "Determine bulb state",
+     "explain": "If path is complete, current flows."
+    },
+    {
+     "step": 3,
+     "action": "trace current direction through the loop",
+     "explain": "Current leaves the positive terminal, travels through the bulb and connecting wires, and returns to the negative terminal; any break in this loop stops the flow and the bulb will not glow."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.4.1",
+   "title": "Electric Switch Function",
+   "section": "12.4",
+   "definition": "A switch is a mechanical device used to intentionally break or complete an electric circuit, thereby controlling the movement of current.",
+   "formula": "circuit_state = (switch_position == 'on') ? 1 : 0",
+   "key_idea": "A switch acts as a bridge that can be opened or closed.",
+   "textbook_ref": "fesc112.txt lines 160-185",
+   "question_patterns": [
+    "what is the function of a switch",
+    "how does a switch control a bulb",
+    "what happens when a switch is in the off position",
+    "explain the working of a simple switch",
+    "what do you understand by electric switch function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate switch state",
+     "explain": "Determine if the switch connects the two points."
+    },
+    {
+     "step": 2,
+     "action": "Output circuit status",
+     "explain": "1 means circuit is closed, 0 means open."
+    },
+    {
+     "step": 3,
+     "action": "relate switch position to bulb glow",
+     "explain": "When the switch is in the on position it bridges the gap so current flows and the bulb glows; in the off position the gap breaks the loop, stopping current and turning the bulb off."
+    }
+   ]
+  },
+  {
+   "id": "fesc.12.5.1",
+   "title": "Conductors and Insulators",
+   "section": "12.5",
+   "definition": "Materials split by whether electric current can travel through them: current-passing ones are conductors, current-blocking ones are insulators.",
+   "formula": "material_type = (allows_current) ? conductor : insulator",
+   "key_idea": "Conductors permit current flow; insulators prevent it.",
+   "textbook_ref": "fesc112.txt lines 200-240",
+   "question_patterns": [
+    "distinguish between conductors and insulators",
+    "why are wires made of metal",
+    "is air a conductor or insulator",
+    "give examples of insulators used in daily life",
+    "explain conductors and insulators in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test material conductivity",
+     "explain": "Check if current flows through the material."
+    },
+    {
+     "step": 2,
+     "action": "Classify material",
+     "explain": "If conducts is 1, it is a conductor."
+    },
+    {
+     "step": 3,
+     "action": "justify classification with examples",
+     "explain": "Metals such as copper and aluminium are conductors that allow current to pass, while materials like rubber, plastic, and air are insulators that block current; this is why wires are metal coated with plastic insulation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fesc112.txt",
+   "concept": "fesc.12.1.1",
+   "question_type": "short_answer",
+   "question_pattern": "what are the terminals of an electric cell",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify metal cap",
+     "explain": "The top metal cap is the positive terminal."
+    },
+    {
+     "step": 2,
+     "action": "Identify metal disc",
+     "explain": "The bottom metal disc is the negative terminal."
+    },
+    {
+     "step": 3,
+     "action": "verify terminal polarity for connection",
+     "explain": "When using the cell in a circuit, connect the positive cap and negative disc to opposite ends of the device so current can flow from positive to negative through the external path."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fesc112.txt",
+   "concept": "fesc.12.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "what is the filament of a bulb",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate filament",
+     "explain": "The filament is the thin wire inside the glass bulb."
+    },
+    {
+     "step": 2,
+     "action": "Check continuity",
+     "explain": "If the filament is broken, the circuit is open and the bulb is fused."
+    },
+    {
+     "step": 3,
+     "action": "trace the two terminal connections",
+     "explain": "Confirm that one terminal of the filament connects to the metal base case and the other to the central metal tip, so current can enter through one terminal, heat the filament, and leave through the other."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "fesc112.txt",
+   "questions": [
+    "A device that is used to break an electric circuit is called?",
+    "An electric cell has how many terminals?",
+    "Can electric current flow through metals?",
+    "Why should an electrician use rubber gloves?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

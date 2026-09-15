@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_3",
+   "title": "c8_physics_ch3_3",
+   "questions": [
+    {
+     "q": "A ball is moving horizontally to the right. A vertical upward force acts on it briefly. What happens to the ball's direction of motion?",
+     "a": "The ball's direction changes to an upward-right diagonal. The vertical force adds an upward velocity component, so the resultant velocity points up and right. A wrong answer (e.g., \"direction doesn't change\" or \"ball moves straight up\") reveals the student thinks forces only affect speed or that forces must be parallel to motion to have any effect.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a stone tied to a string and whirled in a horizontal circle continuously change direction even though the tension force is always directed towards the centre?",
+     "a": "The tension force is perpendicular to the stone's instantaneous velocity (tangent to the circle). A perpendicular force changes only the direction of the velocity vector, not its magnitude (speed), causing continuous direction change. A wrong answer (e.g., \"force speeds it up\" or \"centrifugal force pulls it out\") reveals confusion between centripetal force and a fictitious outward force, or misunderstanding that perpendicular forces do no work.",
+     "self_check": true
+    },
+    {
+     "q": "A toy car moves east at 2 m/s. A constant force acts on it towards the north for 3 seconds, giving it a northward velocity of 1.5 m/s. What is the car's final direction of motion relative to east? (Use tan θ = v_north / v_east)",
+     "a": "Given: v_east = 2 m/s (unchanged, no east-west force), v_north = 1.5 m/s.\nStep 1: Identify components: v_x = 2 m/s, v_y = 1.5 m/s.\nStep 2: Use tan θ = v_y / v_x = 1.5 / 2 = 0.75.\nStep 3: θ = tan⁻¹(0.75) ≈ 36.9°.\nStep 4: Final direction is 36.9° north of east.\nWrong answer (e.g., 45° or using speeds incorrectly) reveals inability to resolve vector components or confusion that the eastward speed remains unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two cases: (A) A satellite orbits Earth in a circle at constant speed. (B) A car turns a corner at constant speed. In both cases, the direction changes. Is the force doing work on the object in either case? Explain.",
+     "a": "In both cases, the force (gravity on satellite, friction on car) is perpendicular to the instantaneous velocity. Work done = F·d·cosθ; here θ = 90°, so cosθ = 0. Therefore, **no work is done** in either case. The force changes direction only, not kinetic energy. A wrong answer (\"yes, work is done because direction changes\") reveals the misconception that any force causing motion change does work, ignoring the angle between force and displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"When I swing a bucket of water in a vertical circle, the water stays in because centrifugal force pushes it outward.\" Evaluate this statement and correct the physics.",
+     "a": "The statement is **incorrect**. There is no outward \"centrifugal force\" acting on the water in an inertial frame. The water stays in because **inertia** (Newton's first law) makes it tend to move in a straight line, but the bucket exerts an **inward normal force** (centripetal force) that continuously changes the water's direction, forcing it into a circle. At the top, gravity + normal force provide the centripetal force. A wrong evaluation reveals the persistent \"centrifugal force\" misconception — treating inertia as a real outward force.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using a marble, a curved track (like a bent ruler), and a force sensor (or spring balance) to demonstrate that a force perpendicular to motion changes direction but not speed. Outline the steps and what you would measure.",
+     "a": "Good answer: (1) Launch marble at known speed v along straight track. (2) Let it enter curved section. (3) At a point on the curve, use spring balance to measure radial force F perpendicular to tangent. (4) Measure marble's speed after curve (e.g., using photogate or video analysis). (5) Show speed unchanged while direction turned. Poor answer (e.g., \"push marble and watch it turn\") reveals inability to isolate the perpendicular force component or measure speed independently of direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

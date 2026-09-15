@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_001",
+   "title": "c11_geo_cbse_16_001",
+   "questions": [
+    {
+     "q": "Define arithmetic population density and state its formula with correct units. Why is it insufficient for comparing agricultural pressure in Punjab versus Rajasthan?",
+     "a": "Arithmetic density = Total Population / Total Area (persons/km²). It is insufficient because it includes uninhabitable desert (Thar) and mountainous areas in Rajasthan's denominator, while Punjab's denominator is almost entirely cultivable land. A wrong answer (e.g., \"both states have similar arithmetic density so pressure is similar\") reveals the student confounds total area with productive land, missing the need for physiological density.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Brahmaputra Valley (Assam) has moderate arithmetic density (~400 persons/km²) despite high rainfall and fertile alluvial soil, while the Kerala coastal plain exceeds 800 persons/km² with similar physical endowments.",
+     "a": "Assam's density is moderated by frequent flooding, tea plantation labor systems (low population per hectare), and historical low urbanization. Kerala's high density stems from cash-crop agriculture (rubber, spices), high literacy driving service-sector jobs, remittance economy from Gulf migration, and a dense network of small towns. A wrong answer attributing it solely to \"better soil in Kerala\" reveals a single-factor physical determinism, ignoring human capital and economic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate physiological density for a hypothetical district: Total population 1.2 million, total area 3,000 km², net sown area 1,800 km². Then interpret what this value implies about agricultural pressure compared to the national average (physiological density ~450 persons/km²).",
+     "a": "Step 1: Physiological density = Population / Net Sown Area = 1,200,000 / 1,800 = 667 persons/km². Step 2: This exceeds the national average (450) by 48%, indicating intense pressure on cultivable land — likely a district in the Indo-Gangetic Plain with small landholdings. A wrong calculation (using total area) yields 400 persons/km², masking the real stress on farmland and leading to incorrect policy inferences about land fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population distribution patterns of the Chota Nagpur Plateau (Jharkhand) and the Malwa Plateau (Madhya Pradesh). Both are mineral-rich plateaus, yet Chota Nagpur has pockets of very high density while Malwa shows moderate, even distribution. Analyze the role of industrial vs. agricultural development in creating this contrast.",
+     "a": "Chota Nagpur's density is concentrated in mining-industrial clusters (Jamshedpur, Dhanbad, Bokaro, Ranchi) where mineral-based industries created urban agglomerations, leaving forested interiors sparse. Malwa's black cotton soil supports extensive, labour-intensive agriculture (soybean, wheat, cotton) spread evenly across the plateau, generating a uniform rural density. A wrong answer claiming \"both are plateaus so density should be similar\" ignores how resource type (point-source minerals vs. diffuse soil fertility) shapes settlement geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The proposed Ken-Betwa river interlinking project will automatically increase population density in Bundelkhand by improving water availability.\" Consider physical, economic, and social constraints.",
+     "a": "The statement overestimates deterministic water-population linkage. Constraints: (1) Bundelkhand's rocky terrain and poor soil depth limit agricultural expansion even with irrigation. (2) Lack of industrial base and skill gaps restrict non-farm employment. (3) Out-migration culture persists due to historical feudalism and low education. (4) Project delays and submergence of forests (Panna Tiger Reserve) may offset gains. A naive \"yes\" answer reveals technological determinism, ignoring that density responds to *livelihood systems*, not just water.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend (5 classes) to show district-level population density for Uttar Pradesh using 2011 Census data. Justify your class intervals and explain how you would annotate the map to highlight the Varanasi-Prayagraj-Kanpur urban corridor's influence.",
+     "a": "Good legend: 0–200 (white), 200–500 (light yellow), 500–800 (orange), 800–1,200 (red), >1,200 (dark red) persons/km². Intervals reflect natural breaks: <200 = Bundelkhand/Terai; 200–500 = central plains; 500–800 = eastern plains; 800–1,200 = western plains; >1,200 = core urban districts. Annotation: Use graduated circles for city populations, arrows showing migration flow toward the corridor, and a callout box with \"NH-19 / Railway spine driving linear urbanization\". A poor legend uses equal intervals (e.g., 0–300, 300–600…) which obscures the sharp gradient at the corridor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

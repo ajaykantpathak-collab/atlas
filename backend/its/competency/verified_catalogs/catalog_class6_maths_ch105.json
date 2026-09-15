@@ -1,0 +1,589 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Prime Time: The Idli-Vada Game",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp105.txt",
+ "concepts": [
+  {
+   "id": "fegp.105.5.1.1",
+   "title": "Count of Multiples up to a Limit",
+   "section": "5.1",
+   "definition": "The quantity of positive multiples of a given number that do not exceed a chosen maximum value.",
+   "formula": "count = limit // number",
+   "key_idea": "Integer division of the upper limit by the divisor gives the exact count of multiples.",
+   "textbook_ref": "fegp105.txt lines 20-45",
+   "question_patterns": [
+    "in Class 6 Prime Time: find how many multiples of {number} lie up to {limit}",
+    "calculate how many times a multiple of {number} occurs from 1 to {limit}",
+    "what is the total count of multiples of {number} less than or equal to {limit}",
+    "how many numbers up to {limit} are divisible by {number}",
+    "determine the frequency of multiples of {number} within 1 and {limit}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide limit by number",
+     "explain": "Perform integer division of the upper limit by the divisor number.",
+     "compute": "count = limit // number"
+    },
+    {
+     "step": 2,
+     "action": "verify the remainder is zero",
+     "explain": "Confirm that integer division is valid since multiples occur at regular intervals of the divisor.",
+     "compute": "remainder = limit % number"
+    },
+    {
+     "step": 3,
+     "action": "report the count of multiples",
+     "explain": "The quotient from the division is the exact count of multiples of the number up to the limit.",
+     "compute": "count = limit // number"
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.1.2",
+   "title": "Nth Common Multiple",
+   "section": "5.1",
+   "definition": "The nth term in the ordered sequence of common multiples shared by two or more numbers.",
+   "formula": "nth_multiple = n * lcm",
+   "key_idea": "Every common multiple of a set of numbers is an integer multiple of their lowest common multiple.",
+   "textbook_ref": "fegp105.txt lines 30-60",
+   "question_patterns": [
+    "in Class 6 Prime Time: find the {n}th common multiple of numbers with LCM {lcm}",
+    "calculate the {n}th occurrence of a common multiple given least common multiple {lcm}",
+    "at what number is idli-vada said for the {n}th time if first occurrence is {lcm}",
+    "what is the {n}th multiple shared by two numbers whose LCM is {lcm}",
+    "determine the value of the {n}th common multiple for LCM {lcm}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply ordinal position by LCM",
+     "explain": "Multiply the position n by the least common multiple to obtain the nth common multiple.",
+     "compute": "nth_multiple = n * lcm"
+    },
+    {
+     "step": 2,
+     "action": "verify n is a positive integer",
+     "explain": "Confirm the position n is valid since common multiples occur at every multiple of the LCM.",
+     "compute": "nth_multiple = n * lcm"
+    },
+    {
+     "step": 3,
+     "action": "report the nth common multiple",
+     "explain": "The product gives the exact value at which both numbers share their nth common multiple.",
+     "compute": "nth_multiple = n * lcm"
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.1.3",
+   "title": "Common Factors and Shared Divisors",
+   "section": "5.1",
+   "definition": "Numbers that divide two or more given integers completely without leaving any remainder.",
+   "formula": "common_factors = factors(a) intersect factors(b)",
+   "key_idea": "Shared factors represent common exact divisors or valid stepping distances for both numbers.",
+   "textbook_ref": "fegp105.txt lines 80-110",
+   "question_patterns": [
+    "in Class 6 Prime Time: find the common factors of {num1} and {num2}",
+    "what jump sizes can land on both {num1} and {num2}",
+    "calculate all numbers that divide both {num1} and {num2} exactly",
+    "determine shared factors for the pair {num1} and {num2}",
+    "which jump sizes reach both treasures placed at {num1} and {num2}"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list factors of num1",
+     "explain": "Find all positive integers dividing num1 without remainder."
+    },
+    {
+     "step": 2,
+     "action": "list factors of num2",
+     "explain": "Find all positive integers dividing num2 without remainder."
+    },
+    {
+     "step": 3,
+     "action": "identify intersection",
+     "explain": "Extract the integers that appear in both factor lists."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.1.4",
+   "title": "Perfect Numbers",
+   "section": "5.1",
+   "definition": "A positive integer for which the sum of all its factors equals twice the number itself.",
+   "formula": "sum_of_factors = 2 * number",
+   "key_idea": "Adding all positive divisors of a perfect number results in exactly double its value.",
+   "textbook_ref": "fegp105.txt lines 135-145",
+   "question_patterns": [
+    "in Class 6 Prime Time: verify if {num} is a perfect number",
+    "check whether sum of factors of {num} equals twice {num}",
+    "find if {num} satisfies the condition of a perfect number",
+    "determine if {num} is perfect by summing its factors",
+    "is {num} a perfect number between 1 and 10"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find all factors",
+     "explain": "List all positive integers that divide the given number."
+    },
+    {
+     "step": 2,
+     "action": "sum factors",
+     "explain": "Add all factors together."
+    },
+    {
+     "step": 3,
+     "action": "verify equality",
+     "explain": "Check if the sum of factors equals twice the given number."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.2.1",
+   "title": "Prime and Composite Numbers",
+   "section": "5.2",
+   "definition": "Natural numbers greater than 1 with exactly two distinct factors are prime, while those with more than two factors are composite.",
+   "formula": "factor_count = 2 for prime, >2 for composite",
+   "key_idea": "Primes have no divisors other than 1 and themselves, whereas composites can form non-trivial rectangular arrangements.",
+   "textbook_ref": "fegp105.txt lines 160-200",
+   "question_patterns": [
+    "in Class 6 Prime Time: classify {num} as prime or composite",
+    "which of the following numbers are prime: {num1}, {num2}, {num3}",
+    "determine whether {num} is a prime number",
+    "identify if {num} has more than two factors",
+    "find how many factors {num} has to check if it is prime"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count distinct factors",
+     "explain": "Determine all positive integers that divide the given number."
+    },
+    {
+     "step": 2,
+     "action": "classify number",
+     "explain": "If factor count is exactly 2, it is prime; if greater than 2, it is composite."
+    },
+    {
+     "step": 3,
+     "action": "report classification",
+     "explain": "State whether the number is prime or composite based on the factor count found."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.2.2",
+   "title": "Twin Primes",
+   "section": "5.2",
+   "definition": "Pairs of prime numbers that have a numerical difference of two.",
+   "formula": "p2 - p1 = 2",
+   "key_idea": "Twin primes are consecutive odd prime numbers separated by a single even composite number.",
+   "textbook_ref": "fegp105.txt lines 230-240",
+   "question_patterns": [
+    "in Class 6 Prime Time: find twin prime pairs between {start} and {end}",
+    "determine if {p1} and {p2} are twin primes",
+    "check whether primes {p1} and {p2} differ by 2",
+    "identify twin prime pairs less than {limit}",
+    "are {p1} and {p2} twin primes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify primality",
+     "explain": "Ensure both numbers in the pair are prime numbers."
+    },
+    {
+     "step": 2,
+     "action": "check difference",
+     "explain": "Subtract the smaller prime from the larger prime and verify if the difference is 2."
+    },
+    {
+     "step": 3,
+     "action": "report twin prime status",
+     "explain": "If both numbers are prime and differ by exactly 2, the pair is a twin prime; otherwise it is not."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.3.1",
+   "title": "Co-prime Numbers",
+   "section": "5.3",
+   "definition": "Two numbers that share no common factor other than 1.",
+   "formula": "gcd(a, b) = 1",
+   "key_idea": "Co-prime pairs have 1 as their sole shared divisor, meaning no larger common step size exists.",
+   "textbook_ref": "fegp105.txt lines 250-280",
+   "question_patterns": [
+    "in Class 6 Prime Time: check if {num1} and {num2} are co-prime",
+    "determine whether {num1} and {num2} share any factor other than 1",
+    "are {num1} and {num2} co-prime to each other",
+    "find if the pair {num1} and {num2} is safe in treasure game",
+    "verify co-primality of {num1} and {num2}"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find factors",
+     "explain": "Determine all positive divisors for both numbers."
+    },
+    {
+     "step": 2,
+     "action": "check common divisors",
+     "explain": "If no factor other than 1 is common, the pair is co-prime."
+    },
+    {
+     "step": 3,
+     "action": "report co-primality",
+     "explain": "Conclude whether the pair is co-prime based on whether 1 is the only shared divisor."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.4.1",
+   "title": "Product of Prime Factors",
+   "section": "5.4",
+   "definition": "Reconstructing an integer by multiplying together all elements of its prime factorisation.",
+   "formula": "number = factor1 * factor2 * factor3",
+   "key_idea": "Multiplying the prime building blocks in any order yields the original composite number.",
+   "textbook_ref": "fegp105.txt lines 300-340",
+   "question_patterns": [
+    "in Class 6 Prime Time: find the number whose prime factorisation is {factor1}, {factor2}, and {factor3}",
+    "calculate the number given prime factors {factor1}, {factor2}, {factor3}",
+    "what integer has prime factorisation {factor1} x {factor2} x {factor3}",
+    "determine the value of a number with prime factors {factor1}, {factor2}, {factor3}",
+    "multiply prime factors {factor1}, {factor2}, {factor3} to reconstruct the number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply first two factors",
+     "explain": "Multiply factor1 by factor2 to get an intermediate product.",
+     "compute": "temp = factor1 * factor2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by third factor",
+     "explain": "Multiply the intermediate product by factor3 to find the final number.",
+     "compute": "number = temp * factor3"
+    },
+    {
+     "step": 3,
+     "action": "verify the reconstructed number",
+     "explain": "Confirm the product matches the original composite number by checking that all prime factors divide it exactly.",
+     "compute": "number = (factor1 * factor2) * factor3"
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.4.2",
+   "title": "Divisibility Check via Prime Factorisation",
+   "section": "5.4",
+   "definition": "A number is divisible by another if all prime factors of the divisor appear in the prime factorisation of the dividend with equal or greater frequency.",
+   "formula": "prime_factors(divisor) included in prime_factors(dividend)",
+   "key_idea": "Divisibility holds if the dividend contains all prime components of the divisor.",
+   "textbook_ref": "fegp105.txt lines 350-390",
+   "question_patterns": [
+    "in Class 6 Prime Time: use prime factorisation to test if {dividend} is divisible by {divisor}",
+    "check if {divisor} divides {dividend} using prime factors",
+    "determine whether prime factors of {divisor} are included in {dividend}",
+    "is {dividend} divisible by {divisor} according to factor inclusion",
+    "verify if {divisor} is a factor of {dividend} via prime decomposition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prime factorise dividend",
+     "explain": "Express the dividend as a product of prime numbers."
+    },
+    {
+     "step": 2,
+     "action": "prime factorise divisor",
+     "explain": "Express the divisor as a product of prime numbers."
+    },
+    {
+     "step": 3,
+     "action": "check subset inclusion",
+     "explain": "Verify if every prime factor of the divisor appears in the dividend with sufficient frequency."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.5.1",
+   "title": "Divisibility Rules for 2, 5, and 10",
+   "section": "5.5",
+   "definition": "Testing whether a number is divisible by 2, 5, or 10 by examining its final digit.",
+   "formula": "last_digit test for 2, 5, 10",
+   "key_idea": "The unit digit alone determines divisibility for powers/factors of 10.",
+   "textbook_ref": "fegp105.txt lines 400-440",
+   "question_patterns": [
+    "in Class 6 Prime Time: test if {num} is divisible by {divisor}",
+    "check divisibility of {num} by {divisor} using last digit rule",
+    "determine if {num} ends in a digit divisible by {divisor}",
+    "is {num} divisible by {divisor}",
+    "find whether {num} is a multiple of {divisor} without long division"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "extract unit digit",
+     "explain": "Observe the rightmost digit of the number."
+    },
+    {
+     "step": 2,
+     "action": "apply criterion",
+     "explain": "Check if unit digit is in {0,2,4,6,8} for 2, in {0,5} for 5, or equal to 0 for 10."
+    },
+    {
+     "step": 3,
+     "action": "report divisibility result",
+     "explain": "Conclude whether the number is divisible by the divisor based on whether the unit digit satisfies the matching criterion."
+    }
+   ]
+  },
+  {
+   "id": "fegp.105.5.5.2",
+   "title": "Divisibility Rules for 4 and 8",
+   "section": "5.5",
+   "definition": "Testing divisibility by 4 or 8 by checking if the number formed by the last two or three digits is divisible by 4 or 8 respectively.",
+   "formula": "last_two_digits % 4 == 0 or last_three_digits % 8 == 0",
+   "key_idea": "Higher powers of 2 require examining a corresponding number of ending digits.",
+   "textbook_ref": "fegp105.txt lines 450-500",
+   "question_patterns": [
+    "in Class 6 Prime Time: check if {num} is divisible by 4 using last two digits",
+    "test whether {num} is divisible by 8 using last three digits",
+    "determine if {num} is a multiple of 4 or 8 without full division",
+    "verify divisibility of {num} by 4",
+    "is {num} divisible by 8"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "extract ending block",
+     "explain": "Form a sub-number from the last two digits (for 4) or last three digits (for 8)."
+    },
+    {
+     "step": 2,
+     "action": "test sub-number",
+     "explain": "Divide the extracted sub-number by 4 or 8 to determine overall divisibility."
+    },
+    {
+     "step": 3,
+     "action": "report divisibility result",
+     "explain": "If the sub-number divides evenly, the whole number is divisible by 4 or 8; otherwise it is not."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp105.txt line 35",
+   "concept": "fegp.105.5.1.1",
+   "question_type": "compute_count",
+   "question_pattern": "How many times would the children say idli for numbers 1 to {limit}",
+   "extracted_variables": {
+    "limit": 90,
+    "number": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide limit by number",
+     "explain": "Divide upper limit 90 by divisor 3.",
+     "compute": "count = limit // number"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp105.txt line 38",
+   "concept": "fegp.105.5.1.1",
+   "question_type": "compute_count",
+   "question_pattern": "Find how many times vada is said up to {limit}",
+   "extracted_variables": {
+    "limit": 900,
+    "number": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide limit by number",
+     "explain": "Divide upper limit 900 by divisor 5.",
+     "compute": "count = limit // number"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp105.txt line 30",
+   "concept": "fegp.105.5.1.2",
+   "question_type": "compute_nth_multiple",
+   "question_pattern": "At what number is idli-vada said for the {n}th time if LCM is {lcm}",
+   "extracted_variables": {
+    "n": 10,
+    "lcm": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply ordinal position by LCM",
+     "explain": "Multiply 10 by LCM 15 to find the 10th common multiple.",
+     "compute": "nth_multiple = n * lcm"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "fegp105.txt line 40",
+   "concept": "fegp.105.5.1.2",
+   "question_type": "compute_nth_multiple",
+   "question_pattern": "Find the {n}th common multiple of numbers with LCM {lcm}",
+   "extracted_variables": {
+    "n": 60,
+    "lcm": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply ordinal position by LCM",
+     "explain": "Multiply 60 by LCM 15 to find the 60th common multiple.",
+     "compute": "nth_multiple = n * lcm"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "fegp105.txt line 325",
+   "concept": "fegp.105.5.4.1",
+   "question_type": "reconstruct_number",
+   "question_pattern": "The prime factorisation of a number has one {factor1}, one {factor2}, and one {factor3}. What is the number",
+   "extracted_variables": {
+    "factor1": 2,
+    "factor2": 3,
+    "factor3": 11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply first two factors",
+     "explain": "Multiply factor 2 by factor 3.",
+     "compute": "temp = factor1 * factor2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by third factor",
+     "explain": "Multiply intermediate product 6 by factor 11.",
+     "compute": "number = temp * factor3"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "fegp105.txt line 330",
+   "concept": "fegp.105.5.4.1",
+   "question_type": "reconstruct_number",
+   "question_pattern": "Find the product of three prime factors {factor1}, {factor2}, and {factor3}",
+   "extracted_variables": {
+    "factor1": 5,
+    "factor2": 17,
+    "factor3": 23
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply first two factors",
+     "explain": "Multiply factor 5 by factor 17.",
+     "compute": "temp = factor1 * factor2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by third factor",
+     "explain": "Multiply intermediate product 85 by factor 23.",
+     "compute": "number = temp * factor3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex108",
+   "source_ref": "fegp105.txt page 108",
+   "questions": [
+    "At what number is idli-vada said for the 10th time?",
+    "If the game is played for the numbers 1 to 90, how many times would the children say idli?",
+    "If the game is played for the numbers 1 to 90, how many times would the children say vada?",
+    "If the game is played for the numbers 1 to 90, how many times would the children say idli-vada?"
+   ]
+  },
+  {
+   "id": "ex111",
+   "source_ref": "fegp105.txt page 111",
+   "questions": [
+    "Find all multiples of 40 that lie between 310 and 410.",
+    "I am a number less than 40. One of my factors is 7. The sum of my digits is 8. Who am I?",
+    "Find a perfect number between 1 and 10.",
+    "Find the common factors of 20 and 28.",
+    "Find the common factors of 35 and 50.",
+    "In the treasure hunting game, Grumpy has kept treasures on 28 and 70. What jump sizes will land on both numbers?"
+   ]
+  },
+  {
+   "id": "ex114",
+   "source_ref": "fegp105.txt page 114",
+   "questions": [
+    "Is there any even prime other than 2?",
+    "Which of the following numbers are prime: 23, 51, 37, 26?",
+    "Write three pairs of prime numbers less than 20 whose sum is a multiple of 5.",
+    "Find twin prime pairs between 1 and 100.",
+    "Which of 45, 60, 91, 105, 330 is the product of exactly three distinct prime numbers?"
+   ]
+  },
+  {
+   "id": "ex120",
+   "source_ref": "fegp105.txt page 120",
+   "questions": [
+    "Find the prime factorisations of 64, 104, 105, 243, 320, 141, 1728, 729, 1024, 1331, 1000.",
+    "The prime factorisation of a number has one 2, two 3s, and one 11. What is the number?",
+    "Find three prime numbers, all less than 30, whose product is 1955."
+   ]
+  },
+  {
+   "id": "ex122",
+   "source_ref": "fegp105.txt page 122",
+   "questions": [
+    "Are the pairs 30 and 45, 57 and 85 co-prime?",
+    "Is 225 divisible by 27 using prime factorisation?",
+    "Is 96 divisible by 24 using prime factorisation?"
+   ]
+  },
+  {
+   "id": "ex126",
+   "source_ref": "fegp105.txt page 126",
+   "questions": [
+    "Find the remainders obtained when 78, 99, 173, 572, 980 are divided by 10, 5, and 2.",
+    "Which of 572, 2352, 5600, 6000, 77622160 are divisible by all of 2, 4, 5, 8 and 10?",
+    "Write two numbers whose product is 10000 without 0 as their unit digit."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

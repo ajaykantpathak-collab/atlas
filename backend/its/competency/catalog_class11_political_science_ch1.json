@@ -1,0 +1,467 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 1,
+ "chapter_title": "Constitution: Why and How?",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps201.txt",
+ "concepts": [
+  {
+   "id": "c11ps.1.1",
+   "title": "Meaning and Need for a Constitution",
+   "section": "Why Do We Need a Constitution?",
+   "definition": "A constitution is the supreme law of a country that defines the basic political structure, distributes powers among organs of government, and lays down the fundamental rights and duties of citizens and the state.",
+   "formula": "",
+   "key_idea": "A constitution provides the legal and moral framework for governance, ensuring that power is exercised within defined limits and that the rights of citizens are protected.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a constitution and why is it needed?",
+    "Explain the meaning of a constitution in your own words.",
+    "Why can a country not function without a constitution?",
+    "What are the basic purposes served by a constitution?",
+    "How does a constitution differ from ordinary laws?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the constitution as the supreme law of the land",
+     "explain": "A constitution sets out the rules and principles by which a state is governed and establishes the institutions of government."
+    },
+    {
+     "step": 2,
+     "action": "Identify the core needs it fulfils",
+     "explain": "It provides a framework for governance, limits arbitrary power, protects rights, and expresses the collective identity and aspirations of the people."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish it from ordinary law",
+     "explain": "Ordinary laws are made under the authority of the constitution, which is superior and harder to amend; the constitution is the source of all legal authority."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the constitution called the supreme law of the land?",
+     "solution": "Step 1: The constitution is the highest legal authority from which all other laws derive their validity. Step 2: All government organs and ordinary laws must conform to it. Step 3: Hence it is called the supreme law of the land.",
+     "answer": "Because all laws and government actions derive their validity from it and must conform to it"
+    },
+    {
+     "question": "What would happen if a country had no constitution?",
+     "solution": "Step 1: Without a constitution there would be no defined framework for governance. Step 2: Power could be exercised arbitrarily with no limits and no guaranteed rights. Step 3: This would lead to instability and possible tyranny.",
+     "answer": "There would be no legal framework to limit power or protect rights, leading to arbitrary rule and instability"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of a constitution and list three reasons why a country needs one.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How is a constitution different from an ordinary law?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.2",
+   "title": "Functions of a Constitution",
+   "section": "Functions of a Constitution",
+   "definition": "The functions of a constitution include establishing a framework of government, distributing powers among organs, limiting government power, expressing the identity of the nation, and protecting the rights of citizens.",
+   "formula": "",
+   "key_idea": "A constitution both empowers the government to act and limits its power, while also defining the nation's identity and guaranteeing citizens' rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main functions of a constitution?",
+    "How does a constitution limit the power of the government?",
+    "Explain how a constitution expresses the identity of a nation.",
+    "Why is the function of protecting rights important in a constitution?",
+    "Describe how a constitution distributes powers among different organs of government."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the major functions of a constitution",
+     "explain": "Functions include providing a framework of government, distributing powers, limiting power, expressing national identity, and protecting rights."
+    },
+    {
+     "step": 2,
+     "action": "Explain how each function operates in practice",
+     "explain": "The framework sets up institutions; distribution prevents concentration of power; limits prevent tyranny; identity reflects shared values; rights protect citizens."
+    },
+    {
+     "step": 3,
+     "action": "Illustrate with the Indian example",
+     "explain": "The Indian Constitution establishes Parliament, courts, and executives, distributes powers between Centre and States, and guarantees Fundamental Rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the Indian Constitution limit the power of the government?",
+     "solution": "Step 1: The Constitution lays down Fundamental Rights that the government cannot violate. Step 2: It distributes powers among the legislature, executive, and judiciary with checks and balances. Step 3: Therefore it limits arbitrary government power.",
+     "answer": "By guaranteeing Fundamental Rights and distributing powers among organs with checks and balances"
+    },
+    {
+     "question": "How does a constitution express the identity of a nation?",
+     "solution": "Step 1: A constitution reflects the shared values, history, and aspirations of the people. Step 2: The Preamble of the Indian Constitution declares India as a sovereign, socialist, secular, democratic republic. Step 3: Thus it expresses the nation's identity.",
+     "answer": "By embodying the shared values, aspirations, and principles of the people in its text and Preamble"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe any four functions of a constitution with examples from the Indian Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is limiting government power considered an important function of a constitution?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.3",
+   "title": "Types of Constitutions",
+   "section": "Types of Constitutions",
+   "definition": "Constitutions are classified as written or unwritten, rigid or flexible, and unitary or federal based on whether they are codified in a single document, the difficulty of amendment, and the distribution of power between central and regional governments.",
+   "formula": "",
+   "key_idea": "The Indian Constitution is written, partly rigid and partly flexible, and federal in structure with unitary features, combining elements from different constitutional types.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between a written and an unwritten constitution with examples.",
+    "What is the difference between a rigid and a flexible constitution?",
+    "Explain the difference between a unitary and a federal constitution.",
+    "Why is the Indian Constitution described as partly rigid and partly flexible?",
+    "Classify the Indian Constitution on the basis of its type."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the classification criterion being applied",
+     "explain": "Constitutions are classified by form (written/unwritten), amendment procedure (rigid/flexible), and power distribution (unitary/federal)."
+    },
+    {
+     "step": 2,
+     "action": "Match the constitution's features to the appropriate type",
+     "explain": "Written constitutions are codified in a single document (India, USA); unwritten ones evolve through customs and laws (UK). Rigid constitutions need special procedures for amendment; flexible ones can be amended like ordinary laws."
+    },
+    {
+     "step": 3,
+     "action": "Classify the Indian Constitution accordingly",
+     "explain": "The Indian Constitution is written, partly rigid and partly flexible (some articles amended by simple majority, others by special majority), and federal with unitary features."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The British Constitution is not codified in a single document but is based on statutes, conventions, and judicial decisions. What type is it?",
+     "solution": "Step 1: The constitution is not in a single written document. Step 2: It has evolved through customs, statutes, and judicial pronouncements. Step 3: This is an unwritten constitution.",
+     "answer": "Unwritten constitution"
+    },
+    {
+     "question": "Why is the Indian Constitution described as partly rigid and partly flexible?",
+     "solution": "Step 1: Some provisions can be amended by a simple majority of Parliament. Step 2: Others require a special majority, and some need ratification by half the States. Step 3: Hence it combines rigidity and flexibility.",
+     "answer": "Because different provisions require different amendment procedures, ranging from simple majority to special majority with State ratification"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare written and unwritten constitutions with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the Indian Constitution called federal with unitary features?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.4",
+   "title": "Making of the Indian Constitution",
+   "section": "Making of the Indian Constitution",
+   "definition": "The Indian Constitution was drafted by the Constituent Assembly between December 1946 and November 1949, drawing on the Government of India Act 1935, other constitutions, and the reports of various committees, and was adopted on 26 November 1949.",
+   "formula": "",
+   "key_idea": "The Indian Constitution was made by a representative Constituent Assembly through deliberation, borrowing useful provisions from world constitutions, and adapting them to Indian conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How was the Indian Constitution made?",
+    "What were the main sources from which the Indian Constitution drew?",
+    "Explain the role of the Constituent Assembly in making the Constitution.",
+    "Why did the makers of the Indian Constitution borrow from other constitutions?",
+    "Describe the process of drafting and adopting the Indian Constitution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the formation of the Constituent Assembly",
+     "explain": "The Constituent Assembly was formed in 1946 under the Cabinet Mission Plan, with members elected by provincial assemblies, and Dr. Rajendra Prasad as its President."
+    },
+    {
+     "step": 2,
+     "action": "Describe the drafting process",
+     "explain": "Various committees (like the Drafting Committee chaired by Dr. B.R. Ambedkar) prepared reports; the Drafting Committee consolidated these into a draft which was debated clause by clause."
+    },
+    {
+     "step": 3,
+     "action": "Identify the sources and adoption",
+     "explain": "Provisions were borrowed from the UK, USA, Ireland, Canada, Australia, and others and adapted to Indian needs; the Constitution was adopted on 26 November 1949 and came into force on 26 January 1950."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+     "solution": "Step 1: The Drafting Committee was responsible for preparing the draft of the Constitution. Step 2: It was chaired by Dr. B.R. Ambedkar. Step 3: Hence Dr. B.R. Ambedkar is called the architect of the Indian Constitution.",
+     "answer": "Dr. B.R. Ambedkar"
+    },
+    {
+     "question": "Why did the makers of the Indian Constitution borrow provisions from other constitutions?",
+     "solution": "Step 1: India had no prior experience of a fully democratic constitution. Step 2: Borrowing allowed them to adopt tested and successful provisions. Step 3: They adapted these provisions to suit Indian conditions rather than copying blindly.",
+     "answer": "To adopt tested provisions from established democracies and adapt them to Indian conditions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the process of making the Indian Constitution from the formation of the Constituent Assembly to its adoption.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any three countries from whose constitutions the Indian Constitution borrowed provisions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.5",
+   "title": "The Constituent Assembly",
+   "section": "The Constituent Assembly",
+   "definition": "The Constituent Assembly was the body of elected representatives that deliberated and drafted the Indian Constitution, first meeting on 9 December 1946, with 389 members initially and 299 after partition, representing provinces and princely states.",
+   "formula": "",
+   "key_idea": "The Constituent Assembly was a representative and deliberative body that reflected the diversity of India and worked through committees and detailed debates to produce the Constitution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Constituent Assembly and how was it formed?",
+    "Describe the composition of the Constituent Assembly.",
+    "Explain the working of the Constituent Assembly through its committees.",
+    "Why is the Constituent Assembly considered a representative body?",
+    "What was the role of the Advisory Committee of the Constituent Assembly?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the formation and composition of the Assembly",
+     "explain": "Members were elected by provincial legislative assemblies under the Cabinet Mission Plan; initially 389 members, reduced to 299 after partition, representing provinces and princely states."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the Assembly worked",
+     "explain": "It functioned through several committees such as the Union Powers Committee, Provincial Powers Committee, and Drafting Committee; debates were detailed and recorded."
+    },
+    {
+     "step": 3,
+     "action": "Assess its representative character",
+     "explain": "It included members from different regions, religions, castes, and professions, including women, making it broadly representative of India's diversity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many members did the Constituent Assembly have after the partition of India?",
+     "solution": "Step 1: The original Assembly had 389 members. Step 2: After partition, the members from the areas that went to Pakistan ceased to be members. Step 3: The reduced strength was 299 members.",
+     "answer": "299 members"
+    },
+    {
+     "question": "Why is the Constituent Assembly considered a representative body despite being elected indirectly?",
+     "solution": "Step 1: Members were elected by provincial assemblies, not directly by the people. Step 2: However, the Assembly included people from all regions, religions, communities, and several women. Step 3: Hence it was broadly representative of India's diversity.",
+     "answer": "Because it included members from diverse regions, religions, communities, and professions, reflecting India's plural society"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition and working of the Constituent Assembly.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any three important committees of the Constituent Assembly and their chairpersons.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.6",
+   "title": "Constitutional Amendments",
+   "section": "Constitutional Amendments",
+   "definition": "A constitutional amendment is a formal change or addition to the provisions of the constitution, made to keep it updated with changing times while preserving its basic structure, through procedures laid down in Article 368 of the Indian Constitution.",
+   "formula": "",
+   "key_idea": "The Indian Constitution can be amended by Parliament through different procedures depending on the nature of the provision, ranging from simple majority to special majority with ratification by half the States.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a constitutional amendment and why is it necessary?",
+    "Explain the different methods of amending the Indian Constitution.",
+    "What is the procedure laid down in Article 368 for amending the Constitution?",
+    "Which provisions of the Constitution can be amended by a simple majority?",
+    "Why is the Indian Constitution described as partly rigid and partly flexible in terms of amendment?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the category of the provision to be amended",
+     "explain": "Some provisions are amended by simple majority (Article 4, certain schedules), some by special majority (most articles), and some by special majority plus ratification by at least half the States (federal provisions).",
+     "compute": "verify_property_check"
+    },
+    {
+     "step": 2,
+     "action": "Apply the correct amendment procedure",
+     "explain": "Simple majority: passed like an ordinary law. Special majority: two-thirds of members present and voting plus a majority of the total membership of each House. Special majority plus State ratification: requires consent of legislatures of at least half the States."
+    },
+    {
+     "step": 3,
+     "action": "Verify the result against constitutional requirements",
+     "explain": "Confirm that the correct procedure was followed and that the amendment does not alter the basic structure of the Constitution as laid down by the Supreme Court.",
+     "compute": "verify_property_check"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An amendment changes the boundaries of a State. What procedure is required?",
+     "solution": "Step 1: Changes to State boundaries fall under provisions amendable by simple majority (Article 3). Step 2: Such a bill needs to be passed by a simple majority of Parliament. Step 3: No special majority or State ratification is required.",
+     "answer": "Simple majority of Parliament"
+    },
+    {
+     "question": "If India has 28 States, what is the minimum number of State legislatures that must ratify an amendment to a federal provision?",
+     "solution": "Step 1: Federal provisions require ratification by at least half the States. Step 2: Half of 28 is 14. Step 3: At least 14 State legislatures must ratify the amendment.",
+     "answer": "14 State legislatures"
+    },
+    {
+     "question": "An amendment adds a new Fundamental Right. What majority is needed in Parliament?",
+     "solution": "Step 1: Adding a Fundamental Right is an amendment under Article 368. Step 2: It requires a special majority: two-thirds of members present and voting plus a majority of the total membership of each House. Step 3: No State ratification is needed for this category.",
+     "answer": "Special majority of each House of Parliament"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three methods of amending the Indian Constitution under Article 368 with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "If India has 28 States, calculate the minimum number of State legislatures needed to ratify an amendment to a federal provision.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.7",
+   "title": "Basic Structure Doctrine",
+   "section": "Basic Structure Doctrine",
+   "definition": "The basic structure doctrine is a judicial principle established in the Kesavananda Bharati case (1973) which holds that Parliament cannot amend the basic structure or essential features of the Constitution, even under its amending power under Article 368.",
+   "formula": "",
+   "key_idea": "The Supreme Court established that while Parliament can amend the Constitution, it cannot destroy or damage its basic structure, thus protecting the identity and core principles of the Constitution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the basic structure doctrine?",
+    "Explain the significance of the Kesavananda Bharati case.",
+    "What are the features considered part of the basic structure of the Constitution?",
+    "How does the basic structure doctrine limit the amending power of Parliament?",
+    "Why was the basic structure doctrine evolved by the Supreme Court?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of the doctrine",
+     "explain": "The doctrine was established by the Supreme Court in the Kesavananda Bharati case (1973) in response to Parliament's expansive use of amending power."
+    },
+    {
+     "step": 2,
+     "action": "State the core principle of the doctrine",
+     "explain": "Parliament can amend any part of the Constitution but cannot alter or destroy its basic structure or essential features such as supremacy of the Constitution, rule of law, judicial review, and federalism."
+    },
+    {
+     "step": 3,
+     "action": "Assess the significance of the doctrine",
+     "explain": "It acts as a check on the amending power of Parliament, preserving the identity and core values of the Constitution against any arbitrary change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which case was the basic structure doctrine laid down by the Supreme Court?",
+     "solution": "Step 1: The question concerns the origin of the basic structure doctrine. Step 2: The doctrine was laid down in the Kesavananda Bharati case of 1973. Step 3: This case established that Parliament cannot amend the basic structure.",
+     "answer": "Kesavananda Bharati case (1973)"
+    },
+    {
+     "question": "If Parliament passes an amendment abolishing judicial review, would it be valid under the basic structure doctrine?",
+     "solution": "Step 1: Judicial review is considered a basic feature of the Constitution. Step 2: The basic structure doctrine prevents Parliament from destroying basic features. Step 3: Therefore such an amendment would be invalid.",
+     "answer": "No, because judicial review is part of the basic structure and cannot be abolished by amendment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the basic structure doctrine and its significance in protecting the Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any three features that are considered part of the basic structure of the Indian Constitution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.1.8",
+   "title": "Sources of the Indian Constitution",
+   "section": "Sources of the Indian Constitution",
+   "definition": "The Indian Constitution drew provisions from various sources including the Government of India Act 1935, the British Constitution, the US Constitution, the Irish Constitution, the Canadian Constitution, and the Australian Constitution, adapting them to Indian needs.",
+   "formula": "",
+   "key_idea": "The makers of the Indian Constitution borrowed suitable features from constitutions around the world and adapted them to Indian conditions, creating a unique blend of borrowed and indigenous provisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main sources of the Indian Constitution?",
+    "Which provisions of the Indian Constitution were borrowed from the British Constitution?",
+    "What did the Indian Constitution borrow from the US Constitution?",
+    "Explain the contribution of the Government of India Act 1935 to the Indian Constitution.",
+    "From which country was the concept of Directive Principles borrowed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source constitution being referred to",
+     "explain": "Major sources include the UK (parliamentary system, rule of law), USA (fundamental rights, judicial review, Preamble), Ireland (Directive Principles, election of President), Canada (federation with strong Centre), and Australia (concurrent list)."
+    },
+    {
+     "step": 2,
+     "action": "Match the borrowed provision to its source",
+     "explain": "Parliamentary government from UK, Fundamental Rights and Judicial Review from USA, Directive Principles from Ireland, federal scheme with strong Centre from Canada, and concurrent list from Australia."
+    },
+    {
+     "step": 3,
+     "action": "Explain the adaptation to Indian conditions",
+     "explain": "Provisions were not copied blindly but modified to suit Indian social, political, and economic conditions, making the Constitution a unique blend."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "From which country did the Indian Constitution borrow the concept of Directive Principles of State Policy?",
+     "solution": "Step 1: Directive Principles are guidelines for the state in making laws. Step 2: This concept was borrowed from the Irish Constitution. Step 3: Hence the source is Ireland.",
+     "answer": "Ireland"
+    },
+    {
+     "question": "Which feature of the Indian Constitution was borrowed from the Canadian Constitution?",
+     "solution": "Step 1: The Canadian Constitution provides for a federation with a strong central government. Step 2: The Indian Constitution adopted a similar federal structure with a strong Centre. Step 3: Hence the federal scheme with a strong Centre was borrowed from Canada.",
+     "answer": "Federation with a strong Centre"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the various sources of the Indian Constitution and the provisions borrowed from each.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the contribution of the Government of India Act 1935 to the Indian Constitution?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_009",
+   "title": "c12_geo_cbse_13_009",
+   "questions": [
+    {
+     "q": "Name the specific location in India where a geothermal energy plant has been commissioned, and state the geological feature that makes this site suitable.",
+     "a": "Manikaran in Himachal Pradesh; the site has hot springs and geysers along the Parvati river, indicating high geothermal gradient and accessible subsurface heat. A wrong answer (e.g., \"Ladakh\" or \"Gujarat\") reveals confusion between geothermal and solar/wind potential zones, or inability to link surface thermal manifestations (hot springs) to subsurface heat sources.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India's west coast has greater tidal energy potential than the east coast, referencing specific gulfs and tidal range values.",
+     "a": "The west coast (especially Gulf of Kachchh and Gulf of Khambhat in Gujarat) experiences macro-tidal ranges of 5–11 m due to funnel-shaped coastline amplifying incoming tides, whereas the east coast has micro-tidal ranges (<2 m) because of wider continental shelf and less coastline convergence. A wrong answer citing \"west coast has more waves\" confuses wave energy (wind-driven) with tidal energy (gravitational), or ignores the coastal geometry's role in tidal amplification.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Punjab generates 500 kg of cattle dung daily. If 1 kg dung yields 0.037 m³ biogas (60% methane), and a household needs 1.5 m³/day for cooking, how many households can this supply? Show steps.",
+     "a": "Step 1: Daily biogas production = 500 kg × 0.037 m³/kg = 18.5 m³. Step 2: Households served = 18.5 m³ ÷ 1.5 m³/household = 12.33 ≈ 12 households. Step 3: Methane content = 18.5 × 0.60 = 11.1 m³ CH₄/day. A wrong answer (e.g., 500 ÷ 1.5 = 333) reveals missing the conversion factor (kg → m³) or confusing dung mass with gas volume.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution logic of tidal vs. geothermal energy sites in India. Why are they mutually exclusive in terms of geological setting?",
+     "a": "Tidal sites require coastal zones with high tidal range (west coast gulfs) — sedimentary basins, low elevation. Geothermal sites require tectonically active zones with high heat flow (Himalayan geothermal belt: Manikaran, Puga, Chhumathang) — crystalline rocks, fault zones, high elevation. They are mutually exclusive because tidal needs stable continental margins, while geothermal needs plate boundaries/hotspots. A wrong answer listing \"both need water\" misses the fundamentally different geological controls (coastal hydrodynamics vs. crustal heat flow).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Biogas from municipal waste (like Okhla, Delhi) solves both energy and waste management problems, so it should replace LPG in all urban households.\" Consider scalability, gas quality, and infrastructure.",
+     "a": "Partially true but not scalable for full LPG replacement. Okhla processes 1,950 TPD waste → 12 MW power + compost, but Delhi generates 11,000+ TPD waste. Biogas requires purification (removing CO₂, H₂S) to become bio-CNG for pipelines; current infrastructure lacks city-wide gas grid. LPG has established distribution, higher calorific value (46 MJ/kg vs. biogas ~22 MJ/m³). A wrong answer (\"yes, it's free gas\") ignores purification costs, intermittent supply, and the sheer volume gap between waste-generated gas and urban demand.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level policy proposal for Gujarat to develop tidal energy in the Gulf of Kachchh, addressing: (a) site selection criteria, (b) environmental impact mitigation, (c) grid integration challenges, and (d) community benefit mechanism.",
+     "a": "(a) Select sites with >5 m tidal range, minimal mangrove cover, rocky substrate for barrage foundation (e.g., Kandla Creek). (b) Mitigation: fish ladders, sediment bypass tunnels, phased construction avoiding breeding seasons. (c) Grid: tidal output is predictable but intermittent (4 pulses/day); require battery storage or pumped hydro pairing; connect to GETCO 220 kV substations. (d) Community: 2% revenue share to gram panchayats, priority jobs in O&M, desalinated water co-production. A poor proposal omits (b) or (c), treating tidal as \"just build a dam\" without addressing marine ecology or grid intermittency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

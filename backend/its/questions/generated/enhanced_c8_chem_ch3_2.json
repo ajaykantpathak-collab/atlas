@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_2",
+   "title": "c8_chem_ch3_2",
+   "questions": [
+    {
+     "q": "What term is used to describe a mixture that has a uniform composition throughout?",
+     "a": "A homogeneous mixture. A wrong answer like \"heterogeneous\" indicates confusion between uniform and non-uniform distributions, or a failure to remember that \"homo-\" means same throughout.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a filtered solution of salt water appear completely clear and uniform, whereas a mixture of chalk powder in water appears cloudy?",
+     "a": "Salt dissolves completely to form a homogeneous solution where particles are too small to scatter light or be seen, while chalk particles are larger and remain suspended, creating a heterogeneous mixture with visible boundaries. A wrong answer suggests that particles in both mixtures behave the same way regardless of their solubility and size.",
+     "self_check": true
+    },
+    {
+     "q": "A student mixes 10 g of common salt in 100 mL of water and takes samples from the top, middle, and bottom of the beaker. Each sample tastes equally salty. What type of mixture is this, and why?",
+     "a": "Steps: 1. Observe that every sample tastes the same. 2. Conclude that the solute (salt) is evenly distributed throughout the solvent (water). 3. Identify that uniform composition and single-phase appearance define a homogeneous mixture. Answer: It is a homogeneous mixture because the salt molecules are uniformly distributed at the microscopic level. A wrong answer shows a misunderstanding of how dissolved substances distribute themselves evenly in a solution.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between oil mixed in water and sugar dissolved in water in terms of phase boundaries.",
+     "a": "Sugar in water forms a single phase with no visible boundaries (homogeneous), whereas oil forms separate droplets or a distinct top layer over water, creating two phases with a clear boundary (heterogeneous). A wrong answer reveals an inability to distinguish between single-phase solutions and multi-phase liquid-liquid mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether muddy water collected from a puddle after rain can be classified as a homogeneous mixture if it is left undisturbed for five minutes. Justify your reasoning.",
+     "a": "Muddy water remains heterogeneous even after standing because heavier soil particles settle at the bottom (sedimentation), proving the composition is not uniform throughout. A wrong answer assumes that temporary settling means the mixture has transformed into a single-phase homogeneous system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen test using household items (like oil, salt, water, and sand) to demonstrate to your younger sibling the difference between a homogeneous and a heterogeneous mixture.",
+     "a": "A good answer proposes mixing salt in water to show a clear, uniform liquid (homogeneous) and mixing oil or sand in water to show distinct layers or particles (heterogeneous), along with an explanation of why the components behave differently. A poor answer fails to provide distinct examples or lacks a clear visual criterion for comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

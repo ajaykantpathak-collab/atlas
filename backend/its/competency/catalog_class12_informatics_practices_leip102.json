@@ -1,0 +1,434 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 2,
+ "chapter_title": "Data Handling Using Pandas - I",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leip102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leip102.1",
+   "title": "Series Creation from Scalars, Arrays and Dictionary",
+   "section": "2.2.1",
+   "definition": "A Pandas Series is a one-dimensional labelled column of values, built either from a list of scalars, from a 1-D NumPy array, or from a dictionary whose keys turn into the labels. Without explicit labels the positions run from 0 through N-1, and when custom labels are supplied their count must equal the value count, otherwise a ValueError reports the length mismatch.",
+   "formula": "length_mismatch = abs(data_count - label_count)",
+   "key_idea": "Keys of a dictionary become labels; values and labels must agree in number, and the default labels end at count minus one.",
+   "textbook_ref": "leip102.txt section 2.2.1 A-C (lines 130-251)",
+   "question_patterns": [
+    "what are the default index values of a series built from 10 values",
+    "a series is built from 4 values with only 3 labels; what error does Pandas raise",
+    "write the statement to create a series of marks 10, 20, 30 with pandas",
+    "how do dictionary keys behave when a series is created from a dictionary",
+    "create a series of 2, 3, 4 labelled Feb, Mar, Apr and state the value at Mar",
+    "why must the length of the index match the length of the passed values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mark the last default label",
+     "explain": "default labels run 0 to N-1, so the final one is the value count minus one",
+     "compute": "default_last_index = element_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "measure the label shortfall",
+     "explain": "4 values against 3 labels differ by 1, which the ValueError message reports",
+     "compute": "length_mismatch = abs(data_count - label_count)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A series is built from 4 values but 5 custom labels. What does pandas raise?",
+     "a": "ValueError"
+    }
+   ]
+  },
+  {
+   "id": "leip102.2",
+   "title": "Positional versus Labelled Slicing",
+   "section": "2.2.2 B",
+   "definition": "Slicing cuts a sub-series out of a series. With positional integers the end position is excluded, so [1:3] hands back only positions 1 and 2; with labels the end label is included, so 'USA':'France' hands back three values. Reversing a series uses a negative step [::-1].",
+   "formula": "labelled_count = positional_count + 1",
+   "key_idea": "Count a positional cut as end minus start; a labelled cut adds one because the end label stays in.",
+   "textbook_ref": "leip102.txt section 2.2.2 B (lines 322-393)",
+   "question_patterns": [
+    "how many values does seriesCapCntry[1:3] return and which labels do they carry",
+    "how many values does seriesCapCntry['USA':'France'] return",
+    "why does labelled slicing include the end value while positional slicing does not",
+    "write the slice that shows a series in reverse order",
+    "the slice seriesAlph[1:3] = 50 changes how many values",
+    "how many values does the labelled assignment seriesAlph['c':'e'] = 500 update"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the positional cut",
+     "explain": "positions 1 and 2 survive the cut 1:3 because position 3 is excluded: 3 - 1 = 2 values",
+     "compute": "positional_count = slice_end_position - slice_start_position"
+    },
+    {
+     "step": 2,
+     "action": "add one for the labelled cut",
+     "explain": "USA to France keeps the end label, so the same span returns 2 + 1 = 3 values",
+     "compute": "labelled_count = positional_count + 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The positional slice [1:3] returns how many values?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "leip102.3",
+   "title": "Series Arithmetic and NaN Alignment",
+   "section": "2.2.5 A",
+   "definition": "Adding or subtracting two series matches values by label, not by position. Only labels present in both series get a numeric result; every label unique to one side lands as NaN in the output, and the output carries the union of all labels. For seriesA and seriesB of the chapter, the union holds 7 labels of which 3 match, so 4 results are NaN.",
+   "formula": "nan_results = union_labels - matched_labels",
+   "key_idea": "Matched labels compute (a: 1 + -10 = -9); unmatched labels on either side produce NaN.",
+   "textbook_ref": "leip102.txt section 2.2.5 A, Table 2.2 (lines 535-616)",
+   "question_patterns": [
+    "how many NaN values appear in seriesA + seriesB for the two five-label series of the chapter",
+    "what is the value at label a after seriesA + seriesB",
+    "why does the result of adding two unaligned series carry the union of their indexes",
+    "which labels of seriesA + seriesB produce NaN and why",
+    "find the result at label e when seriesA adds seriesB",
+    "does seriesA + seriesB match values by position or by label"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the union of labels",
+     "explain": "5 labels on each side with 3 shared give 5 + 5 - 3 = 7 output labels",
+     "compute": "union_labels = first_labels + second_labels - matched_labels"
+    },
+    {
+     "step": 2,
+     "action": "count the missing results",
+     "explain": "only the 3 matched labels compute, so 7 - 3 = 4 results are NaN",
+     "compute": "nan_results = union_labels - matched_labels"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Two series share 3 labels and their union holds 7. How many NaN results appear when they are added?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "leip102.4",
+   "title": "fill_value Methods: add, sub, mul, div",
+   "section": "2.2.5 B",
+   "definition": "The explicit methods add(), sub(), mul() and div() do the same arithmetic as the operators but accept a fill_value that stands in for a missing side before computing. With fill_value=1000, the label b of seriesA.sub(seriesB) becomes 2 - 1000 = -998, and the label y becomes 1000 - 20 = 980, replacing what would have been NaN.",
+   "formula": "result_b = value_a_b - fill_value",
+   "key_idea": "Where one side is missing, the fill steps in for it; the arithmetic then proceeds label by label.",
+   "textbook_ref": "leip102.txt section 2.2.5 B, Table 2.3 (lines 617-743)",
+   "question_patterns": [
+    "what does seriesA.sub(seriesB, fill_value=1000) return at label b",
+    "compute the result at label y for seriesA.sub(seriesB, fill_value=1000)",
+    "why do the methods add(), sub(), mul() and div() prefer fill_value over plain operators",
+    "what does seriesA.add(seriesB, fill_value=0) return at label d",
+    "which value fills the missing side before a sub() with fill_value=1000 at label z",
+    "how does div() with fill_value=0 behave at labels where seriesB is missing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fill the missing side of label y",
+     "explain": "seriesA lacks y, so the fill 1000 substitutes for it: 1000 - 20 = 980",
+     "compute": "result_y = fill_value - value_b_y"
+    },
+    {
+     "step": 2,
+     "action": "fill the missing side of label b",
+     "explain": "seriesB lacks b, so the fill substitutes there: 2 - 1000 = -998",
+     "compute": "result_b = value_a_b - fill_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "With fill_value=1000, seriesA.sub(seriesB) at a label where A has 2 and B lacks the label gives what?",
+     "a": "-998"
+    }
+   ]
+  },
+  {
+   "id": "leip102.5",
+   "title": "DataFrame from Dictionary of Lists and Series",
+   "section": "2.3.1",
+   "definition": "A DataFrame grows naturally out of dictionaries: dictionary keys become the column labels and the lists (or series) become the rows or columns. When several series with different labels build one DataFrame, the row labels become the union of all series indexes, and every label a series lacks turns into a NaN cell.",
+   "formula": "total_missing_cells = missing_per_column * column_count",
+   "key_idea": "Keys become columns, label unions become rows, and each absent label-value pair is stored as NaN.",
+   "textbook_ref": "leip102.txt sections 2.3.1 C/D/F (lines 894-1090)",
+   "question_patterns": [
+    "how are the keys of a dictionary used when creating a DataFrame",
+    "in dFrameUnion built from three series, how many cells hold NaN",
+    "what happens when a series lacks a label that another series in the same DataFrame has",
+    "create a DataFrame from a dictionary of lists holding State, GArea and VDF",
+    "how does the columns parameter change the order of DataFrame columns",
+    "why does the row index of a DataFrame from a dictionary of series become the union of series indexes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count what each column is missing",
+     "explain": "each series holds 5 of the 7 union labels, so it misses 7 - 5 = 2 labels",
+     "compute": "missing_per_column = union_labels - own_labels"
+    },
+    {
+     "step": 2,
+     "action": "total the NaN cells",
+     "explain": "2 missing labels per column across 3 columns gives 6 NaN cells, exactly as the chapter output shows",
+     "compute": "total_missing_cells = missing_per_column * column_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Dictionary keys become the what of a DataFrame: columns or rows?",
+     "a": "columns"
+    }
+   ]
+  },
+  {
+   "id": "leip102.6",
+   "title": "DataFrame Attributes: shape, size, T",
+   "section": "2.3.6",
+   "definition": "A DataFrame reports its geometry through attributes: shape returns the (rows, columns) tuple, size returns the total cell count (their product), index and columns list the labels, dtypes gives each column's type, values strips the labels into an ndarray, and T flips the frame so rows and columns trade places.",
+   "formula": "cells_after_new_column = frame_size + row_count",
+   "key_idea": "Size equals rows times columns; appending one column adds exactly one cell per row.",
+   "textbook_ref": "leip102.txt Table 2.4 (lines 1626-1735)",
+   "question_patterns": [
+    "what do ForestAreaDF.shape and ForestAreaDF.size return",
+    "how many values does a 4 by 3 DataFrame hold",
+    "what does DataFrame.T do to the row and column labels",
+    "which attribute lists the data type of every column",
+    "ResultDF of 3 rows and 5 columns gains a new column; what is its new size",
+    "which attributes display the row labels and the column labels of a DataFrame"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the shape entries",
+     "explain": "4 rows by 3 columns give the size 12 shown for ForestAreaDF",
+     "compute": "frame_size = row_count * column_count"
+    },
+    {
+     "step": 2,
+     "action": "grow by one column",
+     "explain": "a new column contributes one cell per existing row: 12 + 4 = 16 cells",
+     "compute": "cells_after_new_column = frame_size + row_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A DataFrame has shape (4, 3). What is its size?",
+     "a": "12"
+    }
+   ]
+  },
+  {
+   "id": "leip102.7",
+   "title": "Adding and Dropping Rows and Columns",
+   "section": "2.3.2",
+   "definition": "Assigning to a fresh column label appends a column at the end, while an existing label updates that column; loc[ ] adds or rewrites whole rows by label. The drop() method removes rows with axis=0 and columns with axis=1, deleting every row that shares a duplicated label, and shrinkage in cells can be tracked arithmetically.",
+   "formula": "size_after_drop = frame_size - dropped_columns * row_count",
+   "key_idea": "New label means add, existing label means update; each dropped column removes one cell per remaining row.",
+   "textbook_ref": "leip102.txt sections 2.3.2 A-C (lines 1091-1267)",
+   "question_patterns": [
+    "write the statement to add a column Preeti with marks 89, 78, 76 to ResultDF",
+    "what happens when a value is assigned to an existing column label",
+    "which statement deletes the row labelled Science from ResultDF",
+    "remove the columns Samridhi, Ramit and Riya from a 3 by 5 DataFrame; what is the resulting size",
+    "what does ResultDF.loc['Maths'] = 0 do to the DataFrame",
+    "why does adding a row with fewer values than columns raise a ValueError"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the starting grid",
+     "explain": "3 subjects by 5 students hold 15 marks",
+     "compute": "frame_size = row_count * column_count"
+    },
+    {
+     "step": 2,
+     "action": "subtract the removed columns",
+     "explain": "dropping 3 of the 5 columns removes 3 cells per row: 15 - 3 * 3 = 6 cells remain",
+     "compute": "size_after_drop = frame_size - dropped_columns * row_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which axis value does drop() use to remove columns?",
+     "a": "axis=1"
+    }
+   ]
+  },
+  {
+   "id": "leip102.8",
+   "title": "append Method for DataFrames",
+   "section": "2.3.5",
+   "definition": "The append() method stacks the rows of a second DataFrame after the first, inventing NaN where columns do not line up and adding unseen columns on the fly. Setting ignore_index=True discards the old row labels and numbers the stacked rows from zero, while verify_integrity=True raises an error on duplicate labels.",
+   "formula": "last_ignored_label = appended_rows - 1",
+   "key_idea": "Rows stack end to end; with ignore_index the combined rows are relabelled 0 through total rows minus one.",
+   "textbook_ref": "leip102.txt section 2.3.5 A (lines 1490-1577)",
+   "question_patterns": [
+    "how many rows result when a 3-row DataFrame is appended to another 3-row DataFrame",
+    "what do the row labels become after append with ignore_index=True",
+    "which parameter of append() raises an error when row labels repeat",
+    "what fills the cells of a column that exists in only one of the two appended DataFrames",
+    "what does sort=True change in the appended DataFrame",
+    "can append() add a series or a dictionary to a DataFrame"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "stack the two row counts",
+     "explain": "3 rows plus 3 rows give 6 rows in the appended frame",
+     "compute": "appended_rows = first_rows + second_rows"
+    },
+    {
+     "step": 2,
+     "action": "read the last fresh label",
+     "explain": "ignore_index numbers rows from 0, so the final label is 6 - 1 = 5",
+     "compute": "last_ignored_label = appended_rows - 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which append() setting renumbers the stacked rows from zero?",
+     "a": "ignore_index=True"
+    }
+   ]
+  },
+  {
+   "id": "leip102.9",
+   "title": "CSV Import Export and Series versus ndarray",
+   "section": "2.4 and 2.5",
+   "definition": "read_csv() loads a comma separated file into a DataFrame, with sep choosing the delimiter, header naming the row that supplies column labels and names supplying fresh ones; to_csv() writes a DataFrame back out, where header=False and index=False suppress the column and row labels. Unlike NumPy arrays, series align by label during operations, tolerate NaN for missing matches, allow non-unique and descending labels, but cost more memory.",
+   "formula": "imported_rows = csv_lines_minus_header",
+   "key_idea": "Keys and headers shape the frame on the way in; header=False and index=False slim the file on the way out; series align by label while ndarrays do not.",
+   "textbook_ref": "leip102.txt sections 2.4.1-2.4.2 and 2.5, Table 2.5 (lines 1736-1899, 1858-1954)",
+   "question_patterns": [
+    "which parameter of read_csv() decides the row used as column names",
+    "write the statement to save a DataFrame without row labels or column headers",
+    "which parameter of read_csv() supplies fresh column labels",
+    "state two differences between a Pandas series and a NumPy ndarray",
+    "how do unaligned series behave compared to unaligned ndarrays during an operation",
+    "which separator character does the to_csv example use to write resultonly.txt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the import knobs",
+     "explain": "sep fixes the delimiter, header=0 takes labels from the first line, names overrides them"
+    },
+    {
+     "step": 2,
+     "action": "check the export knobs",
+     "explain": "header=False drops column names from the file and index=False drops the row labels"
+    },
+    {
+     "step": 3,
+     "action": "contrast with ndarrays",
+     "explain": "series align on labels and fill gaps with NaN; ndarrays have fixed positional indexing and no NaN alignment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which function loads a comma separated file into a DataFrame?",
+     "a": "read_csv()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leip102.txt section 2.2.5 A, Table 2.2 (seriesA + seriesB)",
+   "concept": "leip102.3",
+   "question_type": "numeric",
+   "question_pattern": "seriesA and seriesB each carry 5 labels and share 3 of them. How many results in seriesA + seriesB are NaN?",
+   "extracted_variables": {
+    "first_labels": 5,
+    "second_labels": 5,
+    "matched_labels": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the label union",
+     "explain": "5 + 5 - 3 = 7 labels appear in the output",
+     "compute": "union_labels = first_labels + second_labels - matched_labels"
+    },
+    {
+     "step": 2,
+     "action": "count the NaN results",
+     "explain": "7 - 3 = 4 unmatched labels, matching the NaN cells in Table 2.2",
+     "compute": "nan_results = union_labels - matched_labels"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leip102.txt Table 2.4 (ForestAreaDF shape and size)",
+   "concept": "leip102.6",
+   "question_type": "numeric",
+   "question_pattern": "ForestAreaDF has 4 rows and 3 columns. What are its shape-derived size, and its size after one more column of state data is added?",
+   "extracted_variables": {
+    "row_count": 4,
+    "column_count": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the shape",
+     "explain": "4 * 3 = 12 values, the size shown in the chapter",
+     "compute": "frame_size = row_count * column_count"
+    },
+    {
+     "step": 2,
+     "action": "add one column of rows",
+     "explain": "a new column adds one cell per row: 12 + 4 = 16",
+     "compute": "cells_after_new_column = frame_size + row_count"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leip102.txt Exercise Q5, Q6, Q7 (series practice)",
+   "questions": [
+    "Create Vowels with labels a, e, i, o, u and all values zero; is it an empty series? (no, empty is False)",
+    "Create MTseries, an empty series; what does MTseries.empty return? (True)",
+    "After Vowels is set to 10 everywhere and divided by 2, what is the value at label u? (5)",
+    "Vowels holds zeros and Vowels1 holds [2,5,6,3,8] on the same labels; what does Vowels + Vowels1 give at label e? (5)",
+    "What is the default index of MonthDays built from 12 values? (0 to 11)",
+    "Rename the index of MonthDays to monthno; which attribute does that? (index.name)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leip102.txt Exercise Q9, Q10, Q11 (Sales DataFrame)",
+   "questions": [
+    "The Sales DataFrame has 5 salespersons as rows and 4 years as columns; state its shape and size. ((5, 4) and 20)",
+    "Which attribute shows the row labels of Sales? (Sales.index)",
+    "Display the last two rows of Sales; which method does that? (tail(2))",
+    "Sales2 with one column for 2018 is appended to Sales; how many rows and columns can the result span? (5 rows, 5 columns)",
+    "After Sales.T, what are the row labels? (the years 2014 to 2017)",
+    "Delete the 2014 column from Sales; how many cells remain from 20? (15)"
+   ]
+  }
+ ]
+}

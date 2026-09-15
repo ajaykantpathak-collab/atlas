@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_010",
+   "title": "c11_psy_cbse_07_010",
+   "questions": [
+    {
+     "q": "Name the three major theoretical perspectives on the relationship between thought and language discussed in Class 11 Psychology, and state the core claim of each in one sentence.",
+     "a": "The three perspectives are: (1) Whorf's Linguistic Relativity Hypothesis — language determines thought; (2) Piaget's Cognitive Constructivism — thought precedes and determines language; (3) Vygotsky's Sociocultural Theory — thought and language develop independently then merge around age 2. A wrong answer (e.g., naming only two, or confusing Piaget and Vygotsky's developmental sequence) reveals the student has not encoded the three distinct theoretical frameworks and their directional claims about causality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between linguistic determinism (strong Whorfian hypothesis) and linguistic relativity (weak Whorfian hypothesis) using the example of colour terms in languages with only two basic colour words (e.g., \"light\" and \"dark\") versus languages with eleven basic colour words.",
+     "a": "Linguistic determinism claims speakers of two-colour-term languages cannot perceive or conceptualise colour distinctions beyond light/dark — the language makes certain thoughts impossible. Linguistic relativity claims they can perceive the distinctions but find it harder to remember, categorise, or communicate them — language influences but does not determine thought. A wrong answer that equates the two reveals the student misses the critical distinction between \"thought is impossible\" versus \"thought is influenced/difficult,\" which is the most tested nuance in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher finds that speakers of Language A (which uses absolute cardinal directions like north/south/east/west for spatial relations) outperform speakers of Language B (which uses relative egocentric terms like left/right/front/back) on a non-linguistic spatial memory task requiring cardinal orientation. Which theoretical position does this evidence support, and why? What would the other two positions predict?",
+     "a": "This supports Whorf's linguistic relativity (weak version): habitual use of cardinal-direction language trains attention to absolute spatial frames, enhancing non-linguistic spatial memory. Piaget would predict no language effect — spatial cognition develops through sensorimotor interaction with the world, independent of language. Vygotsky would predict language becomes a cultural tool that mediates spatial thinking, but the effect emerges only after the merger of thought and language (~age 2), not from innate language structure. A wrong answer attributing this to Piaget reveals confusion about Piaget's claim that cognitive structures precede language.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Piaget's and Vygotsky's accounts of the developmental relationship between thought and language before age 2. Specifically address: (a) the origin of each, (b) whether they interact before age 2, and (c) the role of egocentric/private speech.",
+     "a": "(a) Piaget: thought originates in sensorimotor schemas; language originates in social imitation — separate origins. Vygotsky: thought originates in practical action (preverbal); language originates in social communication (pre-intellectual) — separate origins. (b) Piaget: no meaningful interaction before age 2; language merely reflects existing cognitive structures. Vygotsky: no interaction before age 2; they run on parallel tracks. (c) Piaget: egocentric speech is a byproduct of cognitive egocentrism, serves no function, disappears. Vygotsky: private speech is internalised social speech, serves self-regulatory function, transforms into inner speech. A wrong answer claiming Vygotsky says they interact before age 2 reveals misunderstanding of his \"two independent roots\" metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"The fact that Hindi has distinct words for paternal uncle (chacha/tau) and maternal uncle (mama) proves that Hindi speakers think about kinship relationships more precisely than English speakers.\" Use evidence from cross-cultural psychology to evaluate this claim.",
+     "a": "This claim reflects linguistic determinism (strong Whorf), which is not supported. Evidence: (1) English speakers can learn and use the distinctions when explained — they understand \"father's younger brother\" vs \"mother's brother\" conceptually. (2) Kay & Kempton (1984) showed language influences memory/categorisation but not perception of colour. (3) Rosch's work on Dani people (two colour terms) showed they could learn new colour categories. The kinship distinction reflects cultural salience, not cognitive inability. A wrong answer accepting the claim reveals failure to distinguish cultural emphasis from cognitive determinism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether language influences thought in the domain of time perception. Specify: (a) two languages with different temporal metaphors (e.g., horizontal vs vertical), (b) a non-linguistic task, (c) predicted results under Whorf vs Piaget vs Vygotsky.",
+     "a": "(a) Mandarin (vertical time metaphors: \"shàng ge yuè\" = up month = last month) vs English (horizontal: \"back/forward\" in time). (b) Non-linguistic task: participants view temporal sequences (e.g., aging faces) arranged vertically or horizontally, then recall order. (c) Whorf (weak): Mandarin speakers faster/more accurate with vertical layout; English speakers with horizontal. Piaget: no difference — temporal cognition from sensorimotor experience, not language. Vygotsky: difference emerges only after language internalisation (~age 7+); young children show no effect. A poor design (e.g., using linguistic tasks, not controlling for writing direction) reveals inability to isolate language-specific effects from cultural confounds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

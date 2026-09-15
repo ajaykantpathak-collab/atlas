@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_08_010",
+   "title": "c12_hin_ar_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the primary strategy for determining the meaning of an unfamiliar word in a poem when a dictionary is not available?",
+     "a": "The primary strategy is to analyze the context: the surrounding lines, the imagery, the tone, and the cultural setting of the poem. A wrong answer (e.g., \"guess randomly\" or \"skip the word\") reveals that the student does not understand that context provides concrete clues like associated nouns, verbs, and the overall scene.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the word \"फगुनाहट\" appears in a description of spring. Explain what \"फगुनाहट\" likely means and which contextual clues support your interpretation.",
+     "a": "\"फगुनाहट\" refers to the essence or atmosphere of the month of Phagun (spring), suggested by words like \"बौर\" (mango blossoms), \"पनघट\" (waterbody), and the playful mood of children. A wrong answer that defines it merely as \"a month\" misses the nuanced poetic sense of the season's feeling, showing the student cannot distinguish between denotation and connotation.",
+     "self_check": true
+    },
+    {
+     "q": "The poem uses the phrase \"यकसू\" in the line describing children's play. Using the context of the stanza, infer the meaning of \"यकसू\" and write a sentence using it in a similar playful context.",
+     "a": "\"यकसू\" likely means a spontaneous, joyful play or a game of tag, inferred from \"बच्चों की गली\" (children's lane) and \"हँसते-हँसते\" (laughing). A sample sentence: \"यकसू खेलते हुए बच्चे धूल उड़ा रहे थे।\" A wrong answer that treats it as a proper noun or a static object reveals the student cannot connect the word to the dynamic action described.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of \"पनघट\" and \"बौर\" in the poem. How do these two words together create a specific rural setting? Analyze their combined effect.",
+     "a": "\"पनघट\" (a traditional water-drawing place) and \"बौर\" (mango blossoms) together evoke a quintessential North Indian village in spring: the water source as a social hub and the blossoms as a seasonal marker. Their combination grounds the poem in a specific cultural landscape. A wrong answer that treats them as isolated images misses the synthesis of place and time, indicating the student cannot analyze how vocabulary builds setting.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following student interpretation: \"The word 'गब्बर' in the poem means 'brave' because it sounds like the famous villain Gabbar Singh.\" Evaluate whether this interpretation is valid based on contextual evidence.",
+     "a": "The interpretation is invalid because it relies on external pop-culture association, not textual context. The poem uses \"गब्बर\" (if present) likely in a rustic sense (e.g., \"गब्बर\" as a local term for a strong person or a dialect word), but without the actual word in the given text, the student's reasoning is flawed. A wrong answer that accepts the interpretation shows the student cannot distinguish between context-based inference and external association.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line poem stanza using at least three key words from the poem (e.g., \"पनघट\", \"बौर\", \"फगुनाहट\") that captures a similar rural spring atmosphere. Ensure each word is used in a way that makes its meaning clear from the context you create.",
+     "a": "A good answer will integrate the words naturally, e.g.:\n\"पनघट पर छाई फगुनाहट, बौर महके हर डार।\nयकसू खेलें बाल गोपाल, भूलें जग के संसार।\"\nA poor answer that forces words without contextual support (e.g., \"पनघट है बड़ा, बौर है छोटा\") reveals the student cannot use vocabulary to construct meaningful imagery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

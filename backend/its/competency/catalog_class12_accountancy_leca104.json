@@ -1,0 +1,488 @@
+{
+  "class": 12,
+  "subject": "accountancy",
+  "chapter": 4,
+  "chapter_title": "Graphs and Charts for Business Data",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leca104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "leca104.1",
+      "title": "Graphs and Charts: Meaning and Business Uses",
+      "section": "4.1 Graphs and Charts",
+      "definition": "A graph is a pictorial presentation of data carrying at least a two-dimensional relationship, drawn on a horizontal X-axis and a vertical Y-axis; it may be single-line or multiple-line, with distinct line styles and colours separating the lines. Charts turn a mass of raw figures into a picture that communicates accounting information faster than tables -- a picture being worth more than a thousand words.",
+      "formula": "graph_axes = horizontal_x plus vertical_y",
+      "key_idea": "Raw figures hide their message; a two-axis picture delivers it at a glance.",
+      "textbook_ref": "leca104.txt, sections 4.1-4.2 (approx lines 17-46, 616-635)",
+      "question_patterns": [
+        "define charts and graphs and explain how they are useful in business decisions",
+        "why is a graph called a pictorial representation with at least two dimensions",
+        "how do multiple lines in one graph stay distinguishable from each other",
+        "what does it mean that a picture is worth more than a thousand words for accounting data",
+        "which axes does every basic graph carry and how are they placed"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the graph",
+          "explain": "pictorial presentation of data on X and Y axes, single-line or multiple-line"
+        },
+        {
+          "step": 2,
+          "action": "state the business value",
+          "explain": "charts communicate accounting information quickly where raw data resist understanding"
+        }
+      ]
+    },
+    {
+      "id": "leca104.2",
+      "title": "Quarter-wise Sales Totals for Charting",
+      "section": "4.2 Basic Steps: worksheet data",
+      "definition": "Before charting, the worksheet totals the data: row totals give quarter-wise sales of all products and column totals give product-wise sales, with the corner cell holding the overall total. For the sample year 2007-08 of ABC Manufacturing Company, the four quarterly totals add up to the annual sales figure that the chart then displays period-wise.",
+      "formula": "annual_total = qtr1_sales + qtr2_sales + qtr3_sales + qtr4_sales",
+      "key_idea": "Add the four quarterly totals to get the annual sales figure the chart will show period-wise.",
+      "textbook_ref": "leca104.txt, Figure 4.5 quarter totals (approx lines 107-125)",
+      "question_patterns": [
+        "add the Qtr1 to Qtr4 quarterly sales 25844, 11295, 14744 and 21886 to get the annual total plotted in the graph",
+        "the row totals of quarterly sales in the worksheet combine into which annual total for the period-wise graph",
+        "find the annual total sales that the quarter-wise graph of ABC Manufacturing displays",
+        "compute the year total from four quarterly figures before plotting the sales graph",
+        "which sum of the four quarters equals the annual total sales shown in the graph"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the four quarters",
+          "explain": "the annual sales figure is the sum of the quarter-wise totals of all products",
+          "compute": "annual_total = qtr1_sales + qtr2_sales + qtr3_sales + qtr4_sales"
+        }
+      ]
+    },
+    {
+      "id": "leca104.3",
+      "title": "Pie Chart Percentage Share",
+      "section": "4.2.3 Change the Chart Type: pie share",
+      "definition": "In a pie chart every slice shows the size of one item proportionately, and all slices together equal 100 per cent of the whole. A slice's percentage is its value divided by the total of all values, multiplied by 100 -- the same arithmetic the software applies when it labels the parts of the pie.",
+      "formula": "slice_pct = slice_value / whole_total * 100",
+      "key_idea": "Divide the part by the whole and multiply by 100 -- the slices must always sum to 100 per cent.",
+      "textbook_ref": "leca104.txt, pie chart percentage and steps (approx lines 379-436)",
+      "question_patterns": [
+        "the second quarter sold 11295 against an annual total of 73769; find its percentage share of the pie",
+        "a quarter contributing 14744 to total sales of 73769 holds what percentage of the pie chart",
+        "compute the slice percentage when a category's value and the whole total are known",
+        "why must all the slices of a pie chart together equal 100 per cent",
+        "two-wheelers number 23456 of 52095 vehicles registered; what percentage slice do they form"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "divide the part by the whole",
+          "explain": "the slice's fraction of the whole, scaled by 100, gives its percentage of the pie",
+          "compute": "slice_pct = slice_value / whole_total * 100"
+        }
+      ]
+    },
+    {
+      "id": "leca104.4",
+      "title": "Product Series Totals for Radar Comparison",
+      "section": "4.2.5 Radar chart data",
+      "definition": "A radar chart compares the aggregate values of several data series without any category axis. For the personal-care products table, each series -- lowest sales and highest sales -- totals across six products: toothpaste, toothbrush, hair oil, shampoo, toilet soap and bath soap; the two totals then anchor the comparison the radar chart draws.",
+      "formula": "series_total = p1_value + p2_value + p3_value + p4_value + p5_value + p6_value",
+      "key_idea": "Total each data series across all products before the radar chart compares the aggregates.",
+      "textbook_ref": "leca104.txt, product lowest-highest table and radar chart (approx lines 532-578)",
+      "question_patterns": [
+        "the lowest sales are 2345, 500, 988, 2900, 1122 and 952 across six products; find the series total",
+        "add the highest sales 12344, 5415, 3678, 3770, 3861 and 2344 to get the aggregate",
+        "compute the aggregate of a data series before plotting it on a radar chart",
+        "what distinguishes a radar chart from charts built on category axes",
+        "find the combined lowest-sales figure of the six personal-care products"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the series values",
+          "explain": "each data series aggregates across the products to give one comparable figure",
+          "compute": "series_total = p1_value + p2_value + p3_value + p4_value + p5_value + p6_value"
+        }
+      ]
+    },
+    {
+      "id": "leca104.5",
+      "title": "Vehicle Registration Total for the RTO Pie Chart",
+      "section": "4.2.3 Skill Review: RTO data",
+      "definition": "A pie chart of vehicles registered in a city during 2007-08 needs the registration total first: buses, trucks, auto-rickshas, cars, two-wheelers and heavy vehicles each contribute their count, and the six counts add to the whole that the pie divides into percentage slices.",
+      "formula": "registered_total = bus_count + truck_count + auto_count + car_count + two_wheeler_count + heavy_count",
+      "key_idea": "The pie can only divide a whole, so total all vehicle types before slicing.",
+      "textbook_ref": "leca104.txt, Skill Review F vehicle table (approx lines 883-901)",
+      "question_patterns": [
+        "vehicles registered are 575 buses, 5889 trucks, 12345 autos, 9765 cars, 23456 two-wheelers and 65 heavy vehicles; find the total registered",
+        "compute the registration total before drawing the RTO pie chart",
+        "add the six vehicle-type counts of the RTO data",
+        "what whole does the pie chart of registered vehicles divide into slices",
+        "find the combined registrations when each vehicle type's count is known"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the vehicle-type counts",
+          "explain": "the registration whole equals the sum of every vehicle type's count",
+          "compute": "registered_total = bus_count + truck_count + auto_count + car_count + two_wheeler_count + heavy_count"
+        }
+      ]
+    },
+    {
+      "id": "leca104.6",
+      "title": "Marks Distribution Total and Column Chart Share",
+      "section": "4.2.3 Skill Review: marks data",
+      "definition": "A column chart of students' marks bands first totals the distribution: the five class intervals from 0-20 to 81-100 together hold all the students examined. Each band's share of that total shows how the class spread across the intervals, the comparison the column chart draws bar by bar.",
+      "formula": "students_total = band1_count + band2_count + band3_count + band4_count + band5_count",
+      "key_idea": "Sum the marks bands to the full cohort, then the columns compare each band's count.",
+      "textbook_ref": "leca104.txt, Skill Review G marks table (approx lines 903-919)",
+      "question_patterns": [
+        "the marks bands hold 113, 180, 350, 232 and 125 students; find the total number of students",
+        "compute the cohort size from the five class intervals of the marks distribution",
+        "add the band counts 113, 180, 350, 232 and 125 before drawing the column chart",
+        "what does each column of the marks chart represent once the total is known",
+        "verify that the five interval counts of 1000 students add back to the total"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the band counts",
+          "explain": "the five class intervals together cover every student in the cohort",
+          "compute": "students_total = band1_count + band2_count + band3_count + band4_count + band5_count"
+        }
+      ]
+    },
+    {
+      "id": "leca104.7",
+      "title": "Elements of a Chart",
+      "section": "4.2.1 Elements of a Chart/Graph",
+      "definition": "Every chart carries named elements: the chart area covering the entire chart; the plot area bounded by the axes in 2-D and by three axes in 3-D; data points plotted as bars, columns, lines or pie slices, where same-coloured markers form a data series; the horizontal category axis carrying independent values and the vertical value axis carrying dependent values; the legend identifying each series by colour or pattern; chart and axis titles; and data labels that spell out a marker's details.",
+      "formula": "chart_parts = chart_area plus plot_area plus data_series plus axes plus legend plus titles plus labels",
+      "key_idea": "From the outer chart area to the smallest data label, each named element plays one role in reading the picture.",
+      "textbook_ref": "leca104.txt, section 4.2.1 (approx lines 136-176)",
+      "question_patterns": [
+        "describe the elements of a chart: chart area, plot area, data series and legend",
+        "what is the difference between the chart area and the plot area",
+        "what do data markers of the same colour together constitute",
+        "which axis carries categories and which carries dependent values",
+        "what extra information does a data label provide for a data point"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "name the container elements",
+          "explain": "chart area wraps everything; plot area holds the plotting between the axes"
+        },
+        {
+          "step": 2,
+          "action": "name the data elements",
+          "explain": "data points form series, the legend identifies them, titles describe them and labels annotate them"
+        }
+      ]
+    },
+    {
+      "id": "leca104.8",
+      "title": "Choosing Chart Types: Pie, Column, Line, Doughnut and Radar",
+      "section": "4.1 and 4.2.5 chart types",
+      "definition": "Each chart type answers a different question. A pie chart shows the relative share of parts in one whole; a column or bar chart compares absolute values of items or time periods; a line chart traces changes over time; a doughnut chart relates parts to a whole across more than one series, each ring one series, though it reads poorly and a stacked column often serves better; a radar chart compares aggregate values of several series without category axes.",
+      "formula": "chart_choice = pie for share plus column for comparison plus line for trends",
+      "key_idea": "Shares go to pie, comparisons to columns, trends to lines, multi-series wholes to doughnuts.",
+      "textbook_ref": "leca104.txt, chart type descriptions and summary (approx lines 17-29, 561-615, 642-688)",
+      "question_patterns": [
+        "differentiate between pie charts, line charts and column charts",
+        "which chart type best shows the trend of data over a period",
+        "when is a doughnut chart preferred to a pie chart and what is its drawback",
+        "for what comparison was the radar chart drawn in the product data",
+        "which chart suits comparing sales of products at discrete time intervals"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "match type to purpose",
+          "explain": "pie for relative share, column or bar for comparing absolute values, line for movement over time"
+        },
+        {
+          "step": 2,
+          "action": "add the special types",
+          "explain": "doughnut carries multiple rings of series, radar compares aggregates with no category axis"
+        }
+      ]
+    },
+    {
+      "id": "leca104.9",
+      "title": "Conditions for a Pie Chart",
+      "section": "4.2.3 Change the Chart Type",
+      "definition": "Excel can turn a column or bar chart into a pie in a few clicks, but the data must qualify: only one data series is plotted, the plotted values are positive, and no value equals zero. Also, a pie cannot carry more than seven categories, because the categories are the parts of the whole pie.",
+      "formula": "pie_rules = one_series plus positive_values plus at most seven_categories",
+      "key_idea": "One positive series and at most seven categories -- otherwise the pie misrepresents the whole.",
+      "textbook_ref": "leca104.txt, pie chart conditions and creation steps (approx lines 399-436)",
+      "question_patterns": [
+        "a pie chart does not accept more than how many categories",
+        "why must the plotted data values be positive and non-zero for a pie chart",
+        "how many data series can one pie chart display",
+        "which steps change an existing column chart into a pie chart",
+        "what do the categories of a pie chart represent in the whole"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "test the data",
+          "explain": "one series, strictly positive values, and no more than seven categories qualify for a pie"
+        },
+        {
+          "step": 2,
+          "action": "change the type",
+          "explain": "select the chart, choose pie and its sub-type such as 3-D pie from the ribbon tools"
+        }
+      ]
+    },
+    {
+      "id": "leca104.10",
+      "title": "2-D and 3-D Charts and Their Axes",
+      "section": "4.2.5 2D-3D Charts/Graphs",
+      "definition": "A 2-D chart plots on two axes: the horizontal category axis takes the independent known values -- months, quarters, products -- and the vertical value axis takes the dependent derived values. Negative values fall on the far side of the origin, so profit and loss plot above and below the axis. A 3-D chart adds the depth or series axis, the Z-axis, plotting along the depth -- as representing volume needs height, length and breadth together.",
+      "formula": "chart_axes = category_x plus value_y plus depth_z in three dimensions",
+      "key_idea": "X carries categories, Y carries values, and only 3-D adds the Z depth axis.",
+      "textbook_ref": "leca104.txt, section 4.2.5 (approx lines 476-578)",
+      "question_patterns": [
+        "differentiate between 2-D charts and 3-D charts",
+        "on which axis do independent category values go in a 2-D graph",
+        "how are negative values placed on a graph relative to the origin",
+        "name the third axis of a 3-D chart and what it is also called",
+        "in plotting monthly demand, what goes on the X-axis and what on the Y-axis"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "place the 2-D axes",
+          "explain": "categories on the horizontal X, derived values on the vertical Y, negatives beyond the origin"
+        },
+        {
+          "step": 2,
+          "action": "add the third dimension",
+          "explain": "the Z or depth axis lets data plot along the depth of a 3-D chart"
+        }
+      ]
+    },
+    {
+      "id": "leca104.11",
+      "title": "Formatting Charts with Design, Layout and Format",
+      "section": "4.2.2 Formatting of Chart",
+      "definition": "Clicking a chart raises the Chart Tools with three tabs. Design changes chart type, layouts and styles, and its Switch Row/Column swaps the plotted data between axes. Format handles the selected element's look: shape fill with colours, pictures, gradients or textures, outline colour, weight and dashes, effects like shadow and bevel, and WordArt text styles. Layout inserts pictures, clip art, data labels and gridlines.",
+      "formula": "format_tabs = design plus layout plus format",
+      "key_idea": "Design restyles the whole chart, Layout adds insertions, Format dresses the selected element.",
+      "textbook_ref": "leca104.txt, section 4.2.2 (approx lines 178-378)",
+      "question_patterns": [
+        "which three options do the chart tools provide for formatting a chart",
+        "what does the switch row or column option do to a plotted chart",
+        "which formatting choices exist under shape fill for a chart element",
+        "how is the weight or thickness of a chart line or border changed",
+        "what does the legend allow once a chart carries multiple series"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "assign the tabs their roles",
+          "explain": "Design for type, layout and style; Layout for insertions; Format for the element's fill, outline, effects and text"
+        },
+        {
+          "step": 2,
+          "action": "swap the orientation",
+          "explain": "Switch Row/Column exchanges what plays on the X-axis and the Y-axis"
+        }
+      ]
+    },
+    {
+      "id": "leca104.12",
+      "title": "Steps to Create, Resize and Move a Chart",
+      "section": "4.2 and Summary: chart preparation steps",
+      "definition": "Chart-making follows a fixed order: enter data with proper row and column titles; create the basic chart from the chart groups on the ribbon; change its layout or style; add or remove chart titles, axis titles and data labels; show or hide the legend; display or hide axes and gridlines; move or resize the chart -- dragging its borders with the two-headed arrow cursor; and finally save it. Excel redraws the chart automatically whenever the underlying data or range changes.",
+      "formula": "chart_steps = enter_data plus insert_type plus style plus labels plus legend plus move_resize plus save",
+      "key_idea": "Data first, chart type next, then dress it with titles, legend and gridlines, resize, and save.",
+      "textbook_ref": "leca104.txt, chart steps in summary and section 4.2.4 (approx lines 693-722, 467-475)",
+      "question_patterns": [
+        "describe the steps to move, resize and reposition a chart",
+        "which steps prepare a chart from worksheet data in Excel",
+        "what happens to a chart when the data values beneath it change",
+        "how is a chart resized using the borders of the chart",
+        "when would you hide a legend or gridline in a finished chart"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "follow the creation order",
+          "explain": "enter titled data, insert the chart type, then style, label, legend and gridlines"
+        },
+        {
+          "step": 2,
+          "action": "adjust and keep",
+          "explain": "drag borders to resize, reposition as needed, and save; edits to data redraw the chart automatically"
+        }
+      ]
+    },
+    {
+      "id": "leca104.13",
+      "title": "Advantages of Graphs: Explore, Present, Convince",
+      "section": "4.3 Advantages in using Graph/Chart",
+      "definition": "Graphs serve three purposes. They help explore -- testing whether variables relate, say a country's GNP and infant mortality, is quicker on a chart than paging through raw data. They help present -- conveying information in the least time, as newspapers and newsmagazines understood early. And they help convince -- distilling large amounts of information into displays that persuade, and exposing trends even in highly random data such as stock prices.",
+      "formula": "graph_purpose = explore plus present plus convince",
+      "key_idea": "Charts explore relationships, present them fastest, and convince an audience of them.",
+      "textbook_ref": "leca104.txt, section 4.3 (approx lines 616-635)",
+      "question_patterns": [
+        "state the three advantages of using graphs and charts for business data",
+        "how do graphs help in exploring a relationship between two variables",
+        "why do newspapers and magazines rely on charts to sum up their articles",
+        "how can a chart convince an audience where a table of numbers fails",
+        "why do graphs suit highly random data such as stock price movements"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "separate the three purposes",
+          "explain": "explore relationships quickly, present information in little time, convince with distilled displays"
+        },
+        {
+          "step": 2,
+          "action": "note the trend power",
+          "explain": "even random series like stock prices yield their fluctuations to a visual treatment"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "leca104.txt Figure 4.5 quarter totals",
+      "concept": "leca104.2",
+      "question_type": "numeric",
+      "question_pattern": "The quarter-wise total sales of ABC Manufacturing are Rs {qtr1_sales} in Qtr1, {qtr2_sales} in Qtr2, {qtr3_sales} in Qtr3 and {qtr4_sales} in Qtr4. Find the overall total sales of the year.",
+      "extracted_variables": {
+        "qtr1_sales": 25844,
+        "qtr2_sales": 11295,
+        "qtr3_sales": 14744,
+        "qtr4_sales": 21886
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the four quarters",
+          "explain": "25844 + 11295 + 14744 + 21886 = 73769, the annual total",
+          "compute": "annual_total = qtr1_sales + qtr2_sales + qtr3_sales + qtr4_sales"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "leca104.txt pie chart percentage, section 4.2.3",
+      "concept": "leca104.3",
+      "question_type": "numeric",
+      "question_pattern": "A quarter's sales of Rs {slice_value} form part of the annual total of Rs {whole_total}. What percentage slice of the pie does the quarter occupy?",
+      "extracted_variables": {
+        "slice_value": 11295,
+        "whole_total": 73769
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "divide the part by the whole",
+          "explain": "11295 / 73769 x 100 = 15.31 per cent, the quarter's slice of the pie",
+          "compute": "slice_pct = slice_value / whole_total * 100"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "leca104.txt Skill Review F vehicle table",
+      "concept": "leca104.5",
+      "question_type": "numeric",
+      "question_pattern": "The RTO registered {bus_count} buses, {truck_count} trucks, {auto_count} auto-rickshas, {car_count} cars, {two_wheeler_count} two-wheelers and {heavy_count} heavy vehicles in 2007-08. Find the total registrations before drawing the pie chart.",
+      "extracted_variables": {
+        "bus_count": 575,
+        "truck_count": 5889,
+        "auto_count": 12345,
+        "car_count": 9765,
+        "two_wheeler_count": 23456,
+        "heavy_count": 65
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the vehicle-type counts",
+          "explain": "575 + 5889 + 12345 + 9765 + 23456 + 65 = 52095 registered vehicles in all",
+          "compute": "registered_total = bus_count + truck_count + auto_count + car_count + two_wheeler_count + heavy_count"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "leca104.txt Skill Review G marks table",
+      "concept": "leca104.6",
+      "question_type": "numeric",
+      "question_pattern": "The marks bands 0-20, 21-40, 41-60, 61-80 and 81-100 hold {band1_count}, {band2_count}, {band3_count}, {band4_count} and {band5_count} students. Find the total number of students examined.",
+      "extracted_variables": {
+        "band1_count": 113,
+        "band2_count": 180,
+        "band3_count": 350,
+        "band4_count": 232,
+        "band5_count": 125
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the band counts",
+          "explain": "113 + 180 + 350 + 232 + 125 = 1000 students in all",
+          "compute": "students_total = band1_count + band2_count + band3_count + band4_count + band5_count"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-leca104-mcq",
+      "source_ref": "leca104.txt Exercise Q1 Multiple Choice 1-15",
+      "questions": [
+        "A pie chart does not accept more than how many categories: ten, twenty five, seven or three?",
+        "Column charts are useful for: showing data changes over time, illustrating comparisons among items, both, or neither?",
+        "Doughnut charts: contain more than one data series, are comparable with pie charts, both, or neither?",
+        "The 2-D graph uses which axes, and which axis does the 3-D graph add?",
+        "Which chart element details the data values and categories below the chart: data point, data labels, data marker or data table?"
+      ]
+    },
+    {
+      "id": "ex-leca104-short",
+      "source_ref": "leca104.txt Exercise Q2 Answer the Following 1-10",
+      "questions": [
+        "Define charts and graphs and how they are useful in business decisions.",
+        "Write the usage and purpose of column chart, pie chart and line chart.",
+        "Describe data series, legend and data labels.",
+        "What does the percentage in a chart represent and how is it calculated by the software?",
+        "What are the differences between area, XY chart and doughnut, and between 2-D and 3-D charts?",
+        "What is a pie chart and what do percentage values mean in a pie chart?"
+      ]
+    },
+    {
+      "id": "ex-leca104-skill",
+      "source_ref": "leca104.txt Exercise Q3 Skill Review E and G",
+      "questions": [
+        "Prepare a pie chart and a column chart for ten plot areas measuring 5, 7, 8, 9, 8, 10, 4, 6, 7 and 3 hectares respectively.",
+        "Draw a column chart for the marks distribution with bands 0-20 to 81-100 holding 113, 180, 350, 232 and 125 students, after verifying the total of 1000 students."
+      ]
+    }
+  ]
+}

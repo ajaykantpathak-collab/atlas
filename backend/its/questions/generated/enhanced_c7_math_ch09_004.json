@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_004",
+   "title": "c7_math_ch09_004",
+   "questions": [
+    {
+     "q": "What is the exact measure of each interior angle in an equilateral triangle?",
+     "a": "Each interior angle measures $60^\\circ$. A student who answers $90^\\circ$ is confusing equilateral triangles with right-angled triangles, while a student who answers $180^\\circ$ is confusing individual angles with the sum of all three interior angles in a triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Why must all three angles of an equilateral triangle be equal to each other?",
+     "a": "Because all three sides are equal in length, the angles opposite to these equal sides must also be equal (isosceles and equilateral triangle property). A student who says \"because they look symmetrical\" lacks geometric reasoning, whereas the correct mathematical reason relies on the relationship between side lengths and opposite angle measures.",
+     "self_check": true
+    },
+    {
+     "q": "In an equilateral triangle $ABC$, side $AB = 5\\text{ cm}$. If an exterior angle is formed by extending side $BC$ to a point $D$, what is the measure of this exterior angle?",
+     "a": "The measure of the exterior angle is $120^\\circ$. \nSteps:\n1. Identify that triangle $ABC$ is equilateral, so interior angle $\\angle ACB = 60^\\circ$.\n2. Note that the interior angle $\\angle ACB$ and the exterior angle $\\angle ACD$ lie on a straight line ($BCD$), forming a linear pair.\n3. Set up the equation: $\\text{Exterior Angle} + 60^\\circ = 180^\\circ$.\n4. Solve for the exterior angle: $\\text{Exterior Angle} = 180^\\circ - 60^\\circ = 120^\\circ$.\nA student who computes $60^\\circ$ forgot the linear pair supplementary rule, while one who computes $90^\\circ$ guessed randomly.",
+     "self_check": true
+    },
+    {
+     "q": "If a triangle has interior angles measuring $60^\\circ$, $60^\\circ$, and $x^\\circ$, what type of triangle is it and what is the value of $x$?",
+     "a": "The triangle is an equilateral triangle, and $x = 60$. \nSteps:\n1. Use the angle sum property of triangles: sum of angles = $180^\\circ$.\n2. Set up the equation: $60^\\circ + 60^\\circ + x^\\circ = 180^\\circ$.\n3. Simplify the left side: $120^\\circ + x^\\circ = 180^\\circ$.\n4. Solve for $x$: $x = 180 - 120 = 60$. Since all three angles are $60^\\circ$, all three sides are equal, making it equilateral.\nA student who states $x = 120$ incorrectly subtracted instead of using the total angle sum of $180^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that an equilateral triangle can have interior angles of $50^\\circ$, $60^\\circ$, and $70^\\circ$ because it adds up to $180^\\circ$. Evaluate this claim and explain why it is incorrect.",
+     "a": "The claim is false. While $50^\\circ + 60^\\circ + 70^\\circ = 180^\\circ$, an equilateral triangle requires *all* interior angles to be equal. Since $50^\\circ \\neq 60^\\circ \\neq 70^\\circ$, this is actually a scalene triangle, not an equilateral triangle. A student who agrees with the claim confuses the general angle sum property of any triangle with the specific equal-angle requirement of an equilateral triangle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where knowing that all angles of an equilateral triangle are $60^\\circ$ helps solve a real-world design problem involving an Indian rangoli pattern made of equilateral triangles.",
+     "a": "A good response describes tiling a courtyard with triangular tiles where six equilateral triangles meet at a central point, noting that $6 \\times 60^\\circ = 360^\\circ$, which forms a complete circle around the point without any gaps or overlaps. A poor response simply states \"triangles fit together\" without mathematical justification using the $60^\\circ$ angle measure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

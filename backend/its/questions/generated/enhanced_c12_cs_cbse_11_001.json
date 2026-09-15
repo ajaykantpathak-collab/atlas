@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_001",
+   "title": "c12_cs_cbse_11_001",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ndata = [10, 20, 30, 40, 50]\nprint(data[-3])\n```",
+     "a": "Correct answer: 30. Negative indexing starts from -1 for the last element, so -3 refers to the third element from the end. A wrong answer like 20 or 40 reveals the student either counts from -0 (which doesn't exist) or miscounts the offset. If they answer 30 but cannot explain why, they have rote memorisation without understanding the index mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you execute `my_list = [1, 2, 3]; my_list[1] = 99`. How is this different from doing the same with a string?",
+     "a": "Correct answer: The list becomes [1, 99, 3] because lists are mutable — the assignment modifies the existing list object in place. Strings are immutable, so `my_str = \"abc\"; my_str[1] = \"x\"` raises a TypeError. A wrong answer claiming both work the same way reveals the student hasn't grasped mutability as a defining property of lists vs strings. If they say \"list creates a new list\", they confuse mutation with reassignment.",
+     "self_check": true
+    },
+    {
+     "q": "Given `values = [5, 10, 15, 20, 25]`, write a single slicing expression that extracts [15, 20] and another that extracts [25, 20, 15] in reverse order.",
+     "a": "Correct answers: `values[2:4]` for [15, 20] (start=2 inclusive, stop=4 exclusive) and `values[4:1:-1]` for [25, 20, 15] (start=4, stop=1 exclusive, step=-1). Common wrong answers: `values[2:5]` (includes 25), `values[4:0:-1]` (includes 5), or `values[::-1][:3]` (works but not a single slice). Errors reveal confusion about stop-index exclusivity and negative-step boundary conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `list1 = [1, 2]; list2 = [3, 4]; result = list1 + list2` versus `list1.extend(list2)`. What is the value of `list1` in each case after the operation?",
+     "a": "Correct answer: With `+`, `list1` remains [1, 2] because `+` creates a **new list** assigned to `result`. With `extend()`, `list1` becomes [1, 2, 3, 4] because `extend` mutates the original list in place and returns None. A student who says `list1` changes in both cases confuses concatenation (new object) with in-place mutation. This is a critical distinction for memory and aliasing questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `scores = [85, 90, 78]; total = scores * 3` expecting `total` to be the sum of scores multiplied by 3 (i.e., 759). Evaluate whether this code achieves the intended result and explain what it actually does.",
+     "a": "Correct evaluation: The code does NOT achieve the intended result. `scores * 3` performs **repetition**, producing [85, 90, 78, 85, 90, 78, 85, 90, 78] — a new list with the sequence repeated three times. The student confused the `*` operator (repetition for sequences) with arithmetic multiplication. This misconception stems from overgeneralising mathematical notation to Python operators. A correct approach would be `sum(scores) * 3`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a list creation expression using `list()` constructor that produces the list [0, 2, 4, 6, 8] without writing any literal numbers except 0 and 5. Explain your reasoning.",
+     "a": "Expected answer: `list(range(0, 10, 2))` or `list(range(0, 5*2, 2))`. The `range(start, stop, step)` generates 0, 2, 4, 6, 8 (stop=10 excluded). Using `5*2` satisfies the \"only 0 and 5 as literals\" constraint. A poor answer like `list([0,2,4,6,8])` violates the constraint; `list(range(5))` gives [0,1,2,3,4] showing misunderstanding of step parameter. This tests ability to combine constructor, range, and arithmetic creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

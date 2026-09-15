@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_006",
+   "title": "c12_phy_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the balance condition of a Wheatstone bridge in terms of the four resistances R₁, R₂, R₃, R₄ where R₁ and R₂ are adjacent arms on one side of the galvanometer, and R₃ and R₄ are the other two arms. What is the SI unit of each resistance?",
+     "a": "The balance condition is R₁/R₂ = R₃/R₄ (or equivalently R₂/R₁ = R₄/R₃). Each resistance is measured in ohms (Ω). A wrong answer like R₁/R₃ = R₂/R₄ reveals the student has memorized the formula without understanding which arms form the ratio pairs — they are confusing opposite arms with adjacent arms. The correct pairing comes from the loop equations: loop ADBA gives I₁R₁ = I₂R₂ and loop CBDC gives I₂R₄ = I₁R₃, so the ratios must match across the loops.",
+     "self_check": true
+    },
+    {
+     "q": "In a balanced Wheatstone bridge, the galvanometer shows zero deflection. Explain physically why the balance condition R₁/R₂ = R₃/R₄ is independent of (a) the emf of the battery connected across AC, and (b) the internal resistance of the galvanometer connected across BD.",
+     "a": "At balance, I_g = 0, so the galvanometer branch carries no current. The potential difference between B and D is zero, meaning points B and D are at the same potential. The voltage drops across R₁ and R₂ are determined solely by the current division in the left and right branches, which depends only on the resistance ratios, not the total voltage. Since no current flows through the galvanometer, its internal resistance (or any resistance in that branch) carries zero current and thus has zero voltage drop — it does not affect the potentials at B and D. A wrong answer claiming the battery emf matters reveals the student thinks the balance condition comes from absolute voltage values rather than potential equality at B and D.",
+     "self_check": true
+    },
+    {
+     "q": "A Wheatstone bridge has resistances: AB = 120 Ω, BC = 80 Ω, CD = 60 Ω, DA = R (unknown). The bridge is balanced when the galvanometer shows null deflection. Calculate the value of R. If the battery emf is 6 V, what is the current through the 120 Ω resistor?",
+     "a": "Step 1: Identify arms: R₁ = AB = 120 Ω, R₂ = BC = 80 Ω, R₃ = CD = 60 Ω, R₄ = DA = R.\nStep 2: Balance condition: R₁/R₂ = R₃/R₄ → 120/80 = 60/R.\nStep 3: Solve: 1.5 = 60/R → R = 60/1.5 = 40 Ω.\nStep 4: At balance, I_g = 0. The bridge reduces to two parallel branches: (R₁ + R₂) = 200 Ω and (R₃ + R₄) = 100 Ω across 6 V.\nStep 5: Current through left branch (120 Ω + 80 Ω) = V/(R₁+R₂) = 6/200 = 0.03 A = 30 mA.\nThis same current flows through the 120 Ω resistor. A wrong answer using 6/120 = 0.05 A reveals the student forgot the 80 Ω is in series with the 120 Ω in that branch.",
+     "self_check": true
+    },
+    {
+     "q": "A Wheatstone bridge has R₁ = 100 Ω, R₂ = 10 Ω, R₃ = 5 Ω, R₄ = 60 Ω (same as NCERT Example 3.7). A galvanometer of 15 Ω is connected across BD, and a 10 V battery across AC. The bridge is unbalanced. Without solving the full system, predict whether the galvanometer current flows from B to D or from D to B. Justify using potential divider reasoning.",
+     "a": "Step 1: Compare voltage at B and D. Left branch: R₁ = 100 Ω, R₂ = 10 Ω. Right branch: R₃ = 5 Ω, R₄ = 60 Ω.\nStep 2: Potential at B (relative to C) = V × R₂/(R₁+R₂) = 10 × 10/110 = 0.909 V.\nStep 3: Potential at D (relative to C) = V × R₃/(R₃+R₄) = 10 × 5/65 = 0.769 V.\nStep 4: Since V_B > V_D, conventional current flows from higher to lower potential through the galvanometer: from B to D.\nA wrong answer saying D to B reveals the student compared R₁/R₃ instead of the voltage divider ratios, or confused which resistor is the \"lower\" one in each divider. The key is comparing the fraction of total voltage dropped across the lower arm of each divider.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an unbalanced Wheatstone bridge problem and obtains I_g = -2.5 mA. They write: \"The negative sign means the galvanometer current flows opposite to the assumed direction, so the magnitude is 2.5 mA.\" Evaluate this statement. Is it fully correct? What additional physical interpretation does the negative sign provide about the bridge imbalance?",
+     "a": "The statement is correct but incomplete. The negative sign does indicate the actual current direction is opposite to the assumed arrow direction, and the magnitude is 2.5 mA. However, the negative sign also reveals which side of the bridge is at higher potential. If the student assumed I_g flows from B to D, a negative I_g means V_D > V_B. This tells you the right branch voltage divider (R₃, R₄) produces a larger fraction of the battery voltage across its lower resistor than the left branch (R₁, R₂) does. A student who only reports magnitude loses this diagnostic information about which arm resistances need adjustment to achieve balance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a Wheatstone bridge to determine the temperature coefficient of resistance (α) of a nichrome wire. You have: a resistance box (1–1000 Ω), a 2 V battery, a galvanometer, a thermometer, and a water bath with heater. Outline the procedure, the measurements needed, and the formula you would use to calculate α. Assume the bridge is balanced at two different temperatures.",
+     "a": "A good answer includes: (1) Place nichrome wire as R₄ (unknown) in one arm, use resistance box for R₃ (variable), fix R₁ and R₂ as ratio arms (e.g., 100 Ω each). (2) Immerse wire in water bath at room temperature T₁, adjust R₃ for null deflection → record R₃₁ = R₄(T₁). (3) Heat bath to T₂, wait for thermal equilibrium, re-adjust R₃ for null → record R₃₂ = R₄(T₂). (4) Use α = (R₄₂ - R₄₁) / [R₄₁(T₂ - T₁)]. (5) Repeat for multiple temperatures to verify linearity. A poor answer that measures voltage/current instead of using null method reveals the student doesn't understand the bridge's advantage: null measurement avoids self-heating of the wire, which would corrupt the temperature dependence data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

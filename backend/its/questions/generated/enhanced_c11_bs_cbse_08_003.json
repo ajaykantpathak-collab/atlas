@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_003",
+   "title": "c11_bs_cbse_08_003",
+   "questions": [
+    {
+     "q": "Define 'owner's funds' and 'borrowed funds' in one sentence each, using the precise terminology of claim type and repayment obligation.",
+     "a": "Owner's funds: Capital provided by owners (shareholders/partners/proprietor) plus retained earnings, carrying residual claim on income/assets and no mandatory repayment during the firm's life. Borrowed funds: Capital raised as debt (loans, debentures, deposits, trade credit) carrying fixed contractual claim (interest), mandatory repayment at maturity, and usually secured by asset charge. A wrong answer that says \"owner's funds don't need repayment but borrowed funds do\" without mentioning residual vs fixed claim or security reveals confusion between legal obligation and economic substance — a common error where students memorise 'no repayment' but miss that owner's funds are repaid only at liquidation, and that borrowed funds have priority.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Retained earnings are borrowed funds because the company 'borrows' from its own profits.\" Explain why this is incorrect using the ownership basis of classification.",
+     "a": "Retained earnings are owner's funds because they represent undistributed profits belonging to equity shareholders — the residual owners. The ownership basis classifies funds by WHO provides them and WHAT claim they carry: owner's funds come from owners (including profits reinvested on their behalf) and carry residual claim; borrowed funds come from outsiders (banks, debenture holders, public) and carry fixed claim. The student's error confuses internal source (source-of-generation basis) with ownership basis — a classic cross-classification mistake. NCERT explicitly lists retained earnings under owner's funds (Section 8.3.2 and 8.4.1).",
+     "self_check": true
+    },
+    {
+     "q": "Classify each source as Owner's Fund (OF) or Borrowed Fund (BF) and state the deciding criterion: (a) Equity shares, (b) 10% Debentures, (c) Retained earnings, (d) Public deposits, (e) Trade credit, (f) Preference shares.",
+     "a": "(a) OF — residual claim, voting rights, no maturity. (b) BF — fixed interest, maturity, secured charge, creditor status. (c) OF — belongs to equity shareholders, residual claim, no repayment obligation. (d) BF — fixed interest, maturity (≤3 years), depositor is creditor, no voting rights. (e) BF — payable to supplier, fixed period, no ownership rights, creditor claim. (f) OF — shares represent ownership capital, though fixed dividend and priority over equity; NCERT classifies preference shares under owner's funds (Section 8.4.7(b)) because they are share capital, not debt, despite hybrid features. A wrong answer classifying preference shares as borrowed funds reveals misunderstanding of 'share' vs 'debt' legal distinction — preference shares are equity instruments with preferential rights, not debt.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on (i) financial risk, (ii) control, and (iii) tax position when a firm raises ₹50 lakh via equity shares vs 12% debentures. Assume 30% tax rate.",
+     "a": "Equity shares: (i) Lowers financial risk — no fixed obligation, dividends discretionary; (ii) Dilutes control — voting rights to new shareholders; (iii) No tax shield — dividends paid from post-tax profits. 12% Debentures: (i) Increases financial risk — fixed interest ₹6 lakh/year payable even in loss; (ii) No dilution — debenture holders have no voting rights; (iii) Tax shield — interest ₹6 lakh deductible, saving ₹1.8 lakh tax (30% of ₹6 lakh). A wrong answer that says \"debentures are cheaper because interest is tax-deductible\" without quantifying the shield or acknowledging the risk trade-off shows superficial understanding — board exams require explicit risk-return-control-tax integration.",
+     "self_check": true
+    },
+    {
+     "q": "\"Borrowed funds are always cheaper than owner's funds because interest is tax-deductible while dividends are not.\" Evaluate this statement with reference to the concept of weighted average cost of capital (WACC) and financial risk.",
+     "a": "The statement is false. While interest tax shield lowers the explicit cost of debt, excessive borrowing increases financial risk (leverage), raising the cost of equity (shareholders demand higher return for higher risk) and eventually the cost of debt itself (lenders charge higher rates for riskier firms). WACC initially falls with debt but rises after optimal gearing due to bankruptcy risk and agency costs. NCERT Section 8.6(vi) and (ix) highlight risk profile and tax benefits as separate factors affecting choice — they must be weighed together, not in isolation. A wrong answer that agrees without mentioning rising cost of equity or financial distress costs shows inability to synthesise risk and return — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart for a startup founder choosing between owner's funds and borrowed funds for three scenarios: (a) ₹10 lakh for 6 months working capital, (b) ₹1 crore for factory building, (c) ₹25 lakh for R&D with uncertain returns. Use at least four decision criteria from NCERT Section 8.6.",
+     "a": "Flowchart criteria nodes: (1) Purpose & Period → short-term working capital → trade credit/bank overdraft (borrowed, flexible, low cost); long-term fixed asset → equity/debentures (owner's/borrowed, match maturity). (2) Risk Profile → uncertain R&D → equity (owner's, no fixed burden); stable cash flows → debentures (borrowed, tax shield). (3) Control → founder wants full control → avoid equity dilution, prefer debt/preference shares. (4) Credit Worthiness → high debt-equity ratio → avoid secured debentures (charge on assets), prefer equity/internal accruals. A poor answer that lists criteria without scenario-specific logic or ignores the \"matching principle\" (maturity matching) reveals inability to apply classification to real decisions — exactly what board case-study questions test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

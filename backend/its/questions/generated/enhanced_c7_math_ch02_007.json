@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_007",
+   "title": "c7_math_ch02_007",
+   "questions": [
+    {
+     "q": "Which arithmetic expression correctly represents the statement: \"Subtract the product of 7 and 4 from the sum of 15 and 9\"?\nA) $(15 + 9) - (7 \\times 4)$\nB) $15 + 9 - 7 \\times 4$\nC) $(7 \\times 4) - (15 + 9)$\nD) $15 + (9 - 7) \\times 4$",
+     "a": "The correct answer is A: $(15 + 9) - (7 \\times 4)$. \nA student who chooses B might understand the operations but fail to use brackets to establish the correct priority, which violates the phrase \"subtract *from* the sum\". A student who chooses C has reversed the order of subtraction, misunderstanding that \"subtract A from B\" means $B - A$, not $A - B$.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan writes the expression $12 + 8 \\div 4$ to represent the word problem: \"A basket has 12 mangoes and you add 8 more, then divide the total collection equally among 4 friends.\" Is Rohan's expression correct? If not, why?\nA) Yes, it is completely correct.\nB) No, because division takes precedence over addition, so it will divide 8 by 4 first instead of dividing the total sum.\nC) No, because the numbers should be multiplied instead.\nD) No, because 12 should be divided first.",
+     "a": "The correct answer is B. \nA student who chooses A does not understand order of operations or how words dictate grouping; without brackets, $12 + 8 \\div 4$ evaluates the division ($8 \\div 4 = 2$) before the addition, giving 14 instead of dividing the total sum $(12 + 8) \\div 4 = 5$. A student choosing C or D shows confusion regarding the basic arithmetic operations indicated by the words \"add\" and \"divide equally\".",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper had 250 kilograms of rice. He sold 3 bags of rice weighing 25 kg each on Monday, and 4 bags weighing 20 kg each on Tuesday. Write an expression for the remaining rice in kilograms, and compute its value.\nA) $250 - (3 \\times 25 + 4 \\times 20) = 115$ kg\nB) $(250 - 3) \\times 25 + 4 \\times 20 = 6230$ kg\nC) $250 - 3 \\times 25 - 4 \\times 20 = 115$ kg (without brackets)\nD) $250 + (3 \\times 25) - (4 \\times 20) = 245$ kg",
+     "a": "The correct answer is A. \nWorking steps:\n1. Identify initial stock: $250$ kg.\n2. Calculate total sold on Monday: $3 \\times 25$ kg.\n3. Calculate total sold on Tuesday: $4 \\times 20$ kg.\n4. Total sold = $(3 \\times 25) + (4 \\times 20) = 75 + 80 = 155$ kg.\n5. Remaining rice = $250 - 155 = 115$ kg.\nExpressed as a single expression with proper grouping: $250 - ((3 \\times 25) + (4 \\times 20))$. \nA student who chooses B has completely misinterpreted the word problem by grouping the initial stock with the number of bags. A student who chooses D added Monday's sales instead of subtracting them from the total stock.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions written by two students for the problem: \"Divide the difference between 50 and 10 by the sum of 2 and 3.\"\nStudent X writes: $(50 - 10) \\div (2 + 3)$\nStudent Y writes: $50 - 10 \\div 2 + 3$\nWhich student's expression correctly matches the word problem, and what is the mathematical flaw in the other?",
+     "a": "Student X's expression is correct. \nExplanation: The phrase \"the difference between 50 and 10\" must be computed first, requiring parentheses: $(50 - 10)$. Similarly, \"the sum of 2 and 3\" must be computed as a single divisor, requiring parentheses: $(2 + 3)$. Student Y's expression lacks brackets entirely, meaning division ($10 \\div 2$) would be performed first according to order of operations, completely altering the meaning of the word problem. A student who thinks Student Y is correct does not understand how grouping phrases in language translate to parentheses in arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate if the following expression correctly translates the word problem: \"Meera had ₹500. She bought 4 notebooks at ₹45 each and 3 pens at ₹12 each. How much money is left?\"\nExpression: $500 - 4 \\times 45 + 3 \\times 12$\nIs this expression valid? If not, identify the exact error and write the corrected expression.",
+     "a": "The expression is INCORRECT. \nExplanation: Writing $500 - 4 \\times 45 + 3 \\times 12$ means Meera subtracts the cost of notebooks and then *adds* the cost of pens back to her remaining money, which is wrong because she spent money on both items. Both expenses must be grouped together and subtracted from ₹500. \nCorrect expression: $500 - (4 \\times 45 + 3 \\times 12)$ or $500 - (4 \\times 45) - (3 \\times 12)$.\nA student who thinks the original expression is correct fails to recognize that all money spent must be subtracted from the total initial amount.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem based on everyday Indian shopping or school life that can be translated into the exact arithmetic expression: $(1000 - (2 \\times 350)) \\div 3$. Then explain what each part of your expression represents in your story.",
+     "a": "Expected answer criteria:\n1. Must feature a context where ₹1000 is the starting amount.\n2. Must include buying 2 items that cost ₹350 each.\n3. Must involve dividing the remaining balance equally among 3 people or groups.\nExample story: \"Amit went to the market with a ₹1000 note. He bought 2 storybooks priced at ₹350 each. He divided the remaining money equally among his 3 younger siblings. How much money did each sibling get?\" \nExplanation of parts: $1000$ is initial money, $2 \\times 350$ is total cost of books, $1000 - (2 \\times 350)$ is remaining money, and $\\div 3$ splits it equally among 3 siblings. A poor answer fails to use brackets or creates an operation order mismatch (e.g., dividing before subtracting).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

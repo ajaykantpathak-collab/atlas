@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_11",
+   "title": "c8_geo_ch1_11",
+   "questions": [
+    {
+     "q": "Name two traditional community-based water conservation structures found in arid and semi-arid regions of India.",
+     "a": "*Johads* (e.g., in Rajasthan) and *Baolis* (stepwells). A wrong answer reveals an inability to recall traditional Indian community conservation methods and reliance on modern mechanized solutions alone.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why community action is often more effective than isolated individual action in managing common pool resources like village forests or lakes.",
+     "a": "Common pool resources belong to an entire locality; while an individual can reduce personal consumption, community action establishes shared rules, prevents unregulated usage, and restores ecosystems at a landscape scale. A wrong answer reveals confusion between private goods and common pool resources.",
+     "self_check": true
+    },
+    {
+     "q": "A residential community in Bengaluru uses 50,000 liters of water daily. By installing rooftop rainwater harvesting and greywater recycling systems, they save 40% of their daily fresh water requirement. Calculate the total volume of fresh water conserved by the community in a 30-day month.",
+     "a": "Daily savings = 40% of 50,000 L = 20,000 L.\nMonthly savings = 20,000 L/day × 30 days = 600,000 L (or 6 lakh liters).\nA wrong answer reveals errors in percentage calculation or failure to project daily resource conservation figures over a extended timeframe.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how community forest protection in a hilly region like Uttarakhand (e.g., *Van Panchayats*) differs in environmental impact from individual household tree planting in an urban courtyard.",
+     "a": "*Van Panchayats* protect entire contiguous natural woodland ecosystems, preserving slope stability, soil integrity, biodiversity, and regional groundwater recharge. Individual urban tree planting increases localized micro-shade and aesthetic green cover, but cannot restore broad watershed or ecosystem functions. A wrong answer reveals a lack of understanding regarding spatial scale and ecological interdependence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Technological solutions like household water purifiers and electric air conditioners are better long-term solutions to natural resource degradation than community-level conservation practices.\"",
+     "a": "The statement is incorrect because technological devices like purifiers and air conditioners consume energy, release waste heat/brine, and address only local symptoms without protecting the underlying resource. In contrast, community conservation protects the source ecosystems (aquifers, forests, wetlands) sustainably at the root level. A wrong answer reveals reliance on end-of-pipe techno-fixes rather than fundamental geographical conservation principles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step action plan for a school situated in a drought-prone region of Maharashtra to achieve self-sufficiency in non-potable water use through individual and community actions.",
+     "a": "A complete plan includes: (1) Installing rooftop rainwater harvesting on school buildings directed to recharge local groundwater wells (community/institutional step); (2) Constructing greywater filtration beds for handwashing runoff to irrigate school gardens (systemic step); (3) Establishing student-led \"Water Squads\" to audit leaks and eliminate everyday waste (individual step). A poor answer offers generic statements like \"save water\" without concrete spatial, structural, or behavioral steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_004",
+   "title": "c11_geo_cbse_12_004",
+   "questions": [
+    {
+     "q": "A farmer in the Ganga-Yamuna Doab finds white calcareous nodules (kankar) at 1-2 metres depth in his field. The soil is clayey loam, light grey, and requires regular nitrogen fertiliser. Identify the soil type and its local name.",
+     "a": "The soil is Bangar (old alluvium). The presence of kankar (calcium carbonate nodules) at depth, light grey colour, clayey loam texture, and nitrogen deficiency are diagnostic features of Bangar. A wrong answer (e.g., identifying it as Khadar) reveals the student confuses the age sequence — Khadar lacks kankar, is darker, finer, and more fertile because it is annually renewed by floods.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Khadar soils in the active floodplain of the Brahmaputra in Assam are more suitable for jute cultivation than Bangar soils on the higher terraces of the same region.",
+     "a": "Khadar soils receive annual fresh silt deposits during monsoon floods, maintaining high fertility, fine texture (silty clay), good moisture retention, and neutral pH — ideal for water-intensive jute. Bangar soils on higher terraces are above flood level, so they miss annual renewal; they develop kankar, become coarser, lose nitrogen through leaching, and require artificial irrigation and fertilisation. A wrong answer indicates the student does not link flood dynamics to soil renewal and fertility maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Given a soil sample from a coastal delta with the following properties: pH 6.5, texture silty clay, organic carbon 0.8%, available nitrogen low, available phosphorus medium, available potassium high, no kankar. Classify it as Bangar or Khadar and justify using three diagnostic criteria.",
+     "a": "Step 1: Note the absence of kankar — rules out Bangar (kankar is diagnostic of old alluvium). Step 2: Silty clay texture and high potassium indicate recent deposition — characteristic of Khadar. Step 3: Low nitrogen despite high potassium matches Khadar's profile (nitrogen leaches quickly in new deposits; potassium persists from mineral weathering). Step 4: Coastal delta location confirms active floodplain setting. This is Khadar. A wrong classification shows inability to use multiple soil properties simultaneously for identification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural land use patterns in the Bangar belt of the Punjab-Haryana plain versus the Khadar belt of the lower Ganga plain in West Bengal. Explain the role of soil age, texture, and water availability in creating these differences.",
+     "a": "Punjab-Haryana Bangar: Coarse texture, kankar layer impedes drainage, low organic matter → requires canal irrigation (Bhakra Nangal), heavy fertiliser (N, P), supports wheat-rice rotation with high inputs. West Bengal Khadar: Fine texture, annual silt renewal, high moisture retention, near-permanent water table → supports 2-3 crops/year (rice-jute-rice), lower fertiliser need. The difference arises because Bangar is an old, uplifted terrace away from active floods, while Khadar is actively flooded. A weak answer treats both as \"alluvial\" without distinguishing age-driven property changes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of current intensive rice-wheat cropping on Khadar soils of the Indo-Gangetic Plain considering soil health indicators: declining organic carbon, rising salinity in irrigated patches, and groundwater depletion.",
+     "a": "Current practice is unsustainable. Khadar's natural fertility renewal by floods is disrupted by embankments and dams (e.g., Farakka, Tehri). Rice-wheat rotation mines nitrogen and potassium; puddling for rice destroys soil structure; flood irrigation raises water table and brings salts up in semi-arid zones (e.g., southwestern Punjab). Organic carbon has dropped below 0.3% in many areas. Sustainable alternatives: conservation agriculture (zero-till, residue retention), crop diversification (pulses, maize), and managed aquifer recharge. An answer calling it \"sustainable because Khadar is fertile\" ignores the broken renewal cycle and input-driven yield maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a soil survey transect across the Ganga floodplain from the active channel to the upland terrace to map the Bangar-Khadar transition. Specify sampling intervals, depth, and three key parameters to measure at each point.",
+     "a": "Transect: Perpendicular to river, 5 km total length. Sampling: Every 500 m (11 points). Depth: 0-15 cm (topsoil), 15-50 cm (subsoil), 50-100 cm (substratum). Parameters: (1) Texture (sand-silt-clay %) by hydrometer — expects fining toward channel; (2) Calcium carbonate (%) by HCl effusion — expects kankar peak in Bangar zone (2-4 km from channel); (3) Organic carbon (%) by Walkley-Black — expects higher in Khadar topsoil. Good answer includes spatial reasoning; poor answer samples randomly or omits depth-wise sampling missing the kankar horizon.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_010",
+   "title": "c11_bs_cbse_06_010",
+   "questions": [
+    {
+     "q": "State the seven specific steps that business enterprises should take for environmental protection as per NCERT.",
+     "a": "The seven steps are: (i) Top management commitment to create work culture for environmental protection, (ii) Ensuring commitment is shared across all divisions and employees, (iii) Developing clear policies for quality raw materials, superior technology, scientific waste disposal, and employee skill development, (iv) Complying with government pollution prevention laws, (v) Participating in government programmes for hazardous substance management, river cleaning, afforestation, and anti-deforestation, (vi) Periodical assessment of pollution control programmes for cost-benefit progress, (vii) Arranging educational workshops and training for suppliers, dealers, and customers. A wrong answer that lists generic CSR activities (donations, tree planting only) reveals the student confuses discretionary CSR with the specific operational steps for environmental protection prescribed in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT textbook argues that business enterprises should \"take the lead\" in environmental protection rather than waiting for government or consumers to act.",
+     "a": "Business enterprises are leading creators of wealth, employment, trade, and technology; they command huge financial, physical, and human resources; they possess the technical know-how to solve pollution problems at the source through process modification, equipment redesign, and material substitution; and they are major generators of waste in quantity and toxicity. A wrong answer focusing only on \"business causes pollution so it should fix it\" misses the resource-and-capability argument — the textbook emphasizes businesses *can* solve it effectively, not just that they *should* because they caused it.",
+     "self_check": true
+    },
+    {
+     "q": "A chemical manufacturing company dumps untreated waste into a nearby river, causing water pollution. The CEO argues: \"We comply with all current environmental laws. Installing a treatment plant costs ₹50 lakh and will reduce profits. Our legal responsibility is fulfilled.\" Using the five reasons for pollution control from the textbook, evaluate the CEO's position.",
+     "a": "The CEO's position fails on all five grounds: (i) Health hazards — untreated waste causes diseases in communities (reduction of health hazards ignored); (ii) Liability risk — affected people can sue for compensation (reduced risk of liability ignored); (iii) Cost savings — improper technology creates more waste, increasing disposal and cleaning costs (cost savings ignored); (iv) Public image — society increasingly values environmental quality, and non-compliance damages reputation (improved public image ignored); (v) Social benefits — cleaner water improves quality of life and natural resource purity (other social benefits ignored). A wrong answer that accepts the CEO's legal compliance argument reveals the student confuses legal responsibility with social responsibility and misses the business-case rationale for voluntary pollution control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"legal responsibility\" and \"ethical responsibility\" of business towards environmental protection. Use the example of a factory emitting smoke within legal limits but causing respiratory issues in nearby residents.",
+     "a": "Legal responsibility: The factory complies with emission standards set by the Air (Prevention and Control of Pollution) Act — it operates within the law. Ethical responsibility: Despite legal compliance, the factory recognizes its smoke harms human health and voluntarily installs better filters, changes fuel, or modifies processes to reduce emissions below legal limits. The key difference: legal responsibility is mandatory and codified; ethical responsibility is voluntary, based on societal expectations not yet in law, and involves moral judgment about harm. A wrong answer that treats them as identical or says ethical responsibility is \"following laws strictly\" reveals the student hasn't grasped the voluntary, beyond-compliance nature of ethical responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Pollution control is a burden on consumers because businesses will just pass on the costs through higher prices.\" Use textbook reasoning to support your critique.",
+     "a": "The argument is one of the four \"arguments against social responsibility\" listed in the textbook (burden on consumers). However, the textbook counters this through the \"need for pollution control\" section: effective pollution control *reduces* costs by minimizing waste generation, lowering waste disposal expenses, and reducing plant cleaning costs. Moreover, pollution control avoids liability compensation, protects public health (reducing societal healthcare costs), and improves public image — all of which benefit the business financially in the long run. The cost-passing argument assumes pollution control is purely additive cost; the textbook shows it can be cost-saving. A wrong answer that simply agrees with the argument reveals the student hasn't analyzed the textbook's counter-evidence or understood the difference between end-of-pipe treatment costs and process-integrated pollution prevention savings.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comprehensive environmental protection plan for a mid-sized textile dyeing unit in Tamil Nadu that addresses all four pollution types (air, water, land, noise) using the seven NCERT steps. Present it as a 7-point action plan with specific measures for each pollution type.",
+     "a": "A strong answer structures the plan around the seven steps with pollution-specific measures: (1) Top management commitment — CEO declares \"zero liquid discharge\" and \"clean air\" targets in annual report; (2) Shared commitment — all department heads (production, maintenance, HR) sign environmental performance agreements; (3) Clear policies — purchase azo-free dyes (water), install closed-loop water recycling (water), switch to natural gas boilers (air), use soundproof enclosures on looms (noise), segregate hazardous sludge for authorized disposal (land); (4) Legal compliance — obtain TNPCB consent, meet ZLD norms, file monthly returns; (5) Government programmes — join Namami Gange industrial cleanup, participate in Tamil Nadu Green Industry certification; (6) Periodical assessment — quarterly audit of ETP efficiency, air stack monitoring, noise mapping, sludge disposal records with cost-benefit analysis; (7) Education/training — workshops for dye suppliers on eco-friendly chemicals, dealer training on product care labels, customer awareness on sustainable fashion. A poor answer lists generic CSR activities without mapping to the seven steps or four pollution types, revealing inability to operationalize the framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

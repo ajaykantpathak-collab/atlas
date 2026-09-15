@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_4",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_4",
+   "title": "c9_physics_ch6_4",
+   "questions": [
+    {
+     "q": "Define sea breeze and land breeze, and state the typical time of day each occurs at a tropical coastal location.",
+     "a": "Sea breeze: wind blowing from sea to land, typically from late morning (10-11 AM) to sunset. Land breeze: wind blowing from land to sea, typically from late night (after midnight) to early morning (6-7 AM). A wrong answer (e.g., reversing the directions or times) reveals the student has memorized the names but not linked them to the day/night heating cycle. They may also confuse the pressure gradient direction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why land heats up faster than water during the day, using the concept of specific heat capacity. Why does this create a pressure difference at the surface?",
+     "a": "Land (sand/soil) has a much lower specific heat capacity (~0.8 J/g°C) than water (4.18 J/g°C). For the same solar energy input per unit mass, land's temperature rises ~5 times more. This heats the air above land by conduction, making it less dense and creating lower surface pressure. Over water, the smaller temperature rise means air remains cooler and denser, creating higher surface pressure. A wrong answer (e.g., \"water reflects more heat\" or \"land absorbs more radiation\") misses the key thermodynamic property (specific heat capacity) and confuses albedo with heat capacity.",
+     "self_check": true
+    },
+    {
+     "q": "At 2:00 PM on a clear summer day at a coastal town, the air temperature over land is 35°C and over the adjacent sea is 28°C. Describe the complete sequence of physical processes that produces the sea breeze at this moment, starting from solar radiation.",
+     "a": "1) Solar radiation heats land surface strongly (low specific heat capacity). 2) Land surface heats adjacent air by conduction → air expands, density decreases. 3) Warm air rises (convection), creating a low-pressure zone at surface over land. 4) Over sea, weaker heating → air remains cooler/denser → relatively higher surface pressure. 5) Pressure gradient force drives air from sea (high pressure) to land (low pressure) at surface → sea breeze. 6) Rising air over land cools aloft, flows seaward at upper levels, sinks over sea, completing the convection cell. A wrong sequence (e.g., wind blows from hot to cold) reveals confusion between temperature gradient and pressure gradient direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical depth, speed, and duration of sea breeze versus land breeze. Explain the physical reason for each difference using the temperature contrast and boundary layer stability.",
+     "a": "Sea breeze: deeper (500-1000 m), faster (5-10 m/s), longer duration (8-10 hours). Land breeze: shallower (100-300 m), slower (2-5 m/s), shorter duration (4-6 hours). Reason: Daytime heating creates strong instability and deep convection over land, driving a vigorous cell. Nighttime cooling creates a stable boundary layer over land (temperature inversion), suppressing vertical motion and weakening the pressure gradient. A wrong answer stating they are symmetric reveals failure to analyze the role of atmospheric stability (stable vs unstable stratification) in modulating the convection cell.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sea breeze is strongest at noon because that's when the sun is highest.\" Evaluate this statement. Is it correct? Justify your answer with the physics of the sea breeze lifecycle.",
+     "a": "The statement is incorrect. Sea breeze typically *starts* around late morning (10-11 AM) when land has warmed sufficiently to create a pressure gradient, reaches *maximum strength* in mid-afternoon (2-4 PM) when the land-sea temperature contrast peaks (land continues heating after noon due to thermal inertia), and *ceases* around sunset. At noon, the breeze is often still developing. A wrong evaluation (agreeing with the student) shows confusion between solar elevation angle (maximum at noon) and the *temperature difference* (which peaks later due to land's thermal response time).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate the land-sea breeze circulation using a tank of water, a container of sand, a heat lamp, and incense smoke. List the materials, procedure, and what observation would confirm the sea breeze phase.",
+     "a": "Materials: Large transparent tank, water, tray of sand, heat lamp (representing sun), incense stick (smoke tracer). Procedure: Fill tank half with water, place sand tray at one end above water level. Position heat lamp over sand. Light incense near water surface at the far end. Observe smoke movement. For sea breeze phase: smoke should move from water side toward sand side at the bottom (surface flow), rise over sand, and return aloft. A poor design (e.g., heating the water instead of sand, or no smoke tracer) reveals inability to translate the physical mechanism into an experimental model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

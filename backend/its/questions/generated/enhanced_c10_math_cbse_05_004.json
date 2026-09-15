@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_004",
+   "title": "c10_math_cbse_05_004",
+   "questions": [
+    {
+     "q": "Write the formula for the nth term of an AP and state what each symbol represents.",
+     "a": "The formula is \\(a_n = a + (n-1)d\\), where \\(a_n\\) is the nth term, \\(a\\) is the first term, \\(d\\) is the common difference, and \\(n\\) is the term number (a positive integer). A wrong answer reveals the student has not memorised the standard formula or confuses the notation — for example, writing \\(a_n = a + nd\\) (missing the \\(-1\\)) or swapping \\(a\\) and \\(d\\). This indicates they cannot proceed to substitution and solving.",
+     "self_check": true
+    },
+    {
+     "q": "In the AP 7, 12, 17, 22, ..., a student writes the 10th term as \\(a_{10} = 7 + 10 \\times 5 = 57\\). Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The correct calculation is \\(a_{10} = 7 + (10-1) \\times 5 = 7 + 45 = 52\\). The student used \\(n\\) instead of \\((n-1)\\) as the multiplier for the common difference. This misconception arises from thinking the first term corresponds to \\(n=0\\) or miscounting the number of steps from the first term. It reveals a fundamental misunderstanding of why the formula has \\((n-1)\\) — the first term requires zero additions of \\(d\\), the second term requires one addition, and so on.",
+     "self_check": true
+    },
+    {
+     "q": "The 5th term of an AP is 18 and the 9th term is 30. Find the first term and the common difference.",
+     "a": "Given: \\(a_5 = 18\\), \\(a_9 = 30\\). Using \\(a_n = a + (n-1)d\\):\nStep 1: \\(a + 4d = 18\\) (equation 1)\nStep 2: \\(a + 8d = 30\\) (equation 2)\nStep 3: Subtract equation 1 from equation 2: \\(4d = 12 \\Rightarrow d = 3\\)\nStep 4: Substitute \\(d = 3\\) into equation 1: \\(a + 12 = 18 \\Rightarrow a = 6\\)\nAnswer: First term \\(a = 6\\), common difference \\(d = 3\\). A wrong answer typically comes from setting up equations as \\(a + 5d = 18\\) (using \\(n\\) instead of \\(n-1\\)) or making sign errors when subtracting equations. This shows the student cannot translate term positions into correct algebraic expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same common difference. The first term of the first AP is 5 and the first term of the second AP is 12. What is the difference between their 20th terms? Between their 50th terms? What pattern do you notice?",
+     "a": "Let the common difference be \\(d\\). First AP: \\(a_{20}^{(1)} = 5 + 19d\\). Second AP: \\(a_{20}^{(2)} = 12 + 19d\\). Difference = \\((12 + 19d) - (5 + 19d) = 7\\). For 50th terms: \\(a_{50}^{(1)} = 5 + 49d\\), \\(a_{50}^{(2)} = 12 + 49d\\). Difference = \\(7\\). The difference between corresponding terms of two APs with the same common difference is constant and equals the difference of their first terms. A wrong answer (e.g., calculating numerical values assuming a specific \\(d\\)) reveals the student does not recognise that \\(d\\) cancels out and cannot reason algebraically about the structure of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the 15th term of an AP where the 3rd term is 11 and the 7th term is 23.\" Their working:\n\\(a_3 = a + 3d = 11\\)\n\\(a_7 = a + 7d = 23\\)\nSubtracting: \\(4d = 12 \\Rightarrow d = 3\\)\nThen \\(a + 9 = 11 \\Rightarrow a = 2\\)\n\\(a_{15} = 2 + 15 \\times 3 = 47\\)\nIdentify the errors and give the correct answer.",
+     "a": "There are two errors: (1) The equations should be \\(a + 2d = 11\\) and \\(a + 6d = 23\\) (using \\(n-1\\), not \\(n\\)). (2) In the final step, the student used \\(n\\) instead of \\(n-1\\): it should be \\(a_{15} = a + 14d\\). Correct solution:\n\\(a + 2d = 11\\), \\(a + 6d = 23 \\Rightarrow 4d = 12 \\Rightarrow d = 3\\)\n\\(a + 6 = 11 \\Rightarrow a = 5\\)\n\\(a_{15} = 5 + 14 \\times 3 = 47\\). The final answer coincidentally matches, but the method contains two critical errors. If a student misses both errors, they have not internalised the \\((n-1)\\) structure and will fail when the coincidence doesn't occur.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem based on a real-life Indian context (savings, installments, stacking objects, etc.) where the solver must find an unknown term of an AP. The problem should require finding the common difference first from two given terms, then finding a later term.",
+     "a": "Example: \"Rohan saves ₹100 in January and increases his monthly savings by a fixed amount. In May, he saves ₹220. How much will he save in December?\" \nSolution path: January = 1st term (\\(a\\)), May = 5th term (\\(a_5 = 220\\)). \\(a_5 = a + 4d \\Rightarrow 100 + 4d = 220 \\Rightarrow d = 30\\). December = 12th term: \\(a_{12} = 100 + 11 \\times 30 = 430\\). A poor answer gives a problem that only requires direct substitution (e.g., \"first term 5, difference 3, find 10th term\") or has inconsistent data. This reveals the student cannot reverse-engineer the problem structure and only understands forward application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

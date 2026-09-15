@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_036",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_036",
+   "title": "c6_physics_ch11_036",
+   "questions": [
+    {
+     "q": "What happens to light when it encounters an obstacle?",
+     "a": "Light is blocked by the obstacle, creating a shadow on the other side because it cannot bend around the object. A wrong answer suggests the student thinks light can \"curve\" or \"flow\" around corners, ignoring the rectilinear nature of light.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold a straight pipe and a curved pipe to look at a candle, which one allows you to see the flame and why?",
+     "a": "Only the straight pipe works because light travels in a straight line from the candle to your eye. If the pipe is curved, the light hits the inner wall of the pipe and stops, which reveals a student's failure to connect the path of light with the physical shape of the object.",
+     "self_check": true
+    },
+    {
+     "q": "A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?",
+     "a": "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen. If the student says it gets larger, they are confusing distance with magnification properties not covered here, or failing to visualize the \"cone\" of blocked light rays.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not see around the corner of a building?",
+     "a": "Light travels in straight lines and cannot bend around the edges of the building to reach our eyes. A wrong answer suggests a misunderstanding of how light interacts with matter, such as thinking light \"bounces\" around every corner automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Can a shadow ever be a different shape than the object that created it?",
+     "a": "Yes, the shadow’s shape depends on the angle of the light source relative to the object. A wrong answer suggests the student thinks a shadow is a \"mirror image,\" failing to realize it is merely a projection of the area where light is blocked.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove light travels in a straight line using only three pieces of cardboard, a candle, and a pin.",
+     "a": "The student should describe making a tiny hole in the center of all three cards, aligning them perfectly, and checking if the candle flame is visible through all three holes. If the candle is blocked when one card is moved, it proves the path must be perfectly straight. A poor answer fails to ensure the \"alignment\" of the holes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_004",
+   "title": "c11_bs_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define \"material fact\" in the context of Utmost Good Faith in insurance. Give one example of a material fact for a life insurance proposal and one for a fire insurance proposal.",
+     "a": "A material fact is any information that would influence the mind of a prudent insurer in deciding whether to accept the risk or in fixing the rate of premium. For life insurance: the proposer's history of heart disease or smoking habit. For fire insurance: the building's construction type (wooden vs concrete), presence of fire-fighting equipment, or nature of goods stored (flammable chemicals vs textiles). A wrong answer (e.g., \"any fact about the proposer\") reveals the student confuses \"material fact\" with \"any personal detail\" - they don't grasp the legal test: \"would a prudent insurer's decision change?\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the timing requirement for Insurable Interest differs across Life, Fire, and Marine insurance. Use the underlying economic rationale in your answer.",
+     "a": "Life insurance: Insurable interest must exist at policy inception because life insurance combines protection and investment; the insurer needs to prevent speculative betting on lives (moral hazard). Fire insurance: Interest must exist at both inception AND loss because property ownership can transfer - if you sell the house before the fire, you no longer suffer financial loss. Marine insurance: Interest only at time of loss because cargo ownership frequently changes during transit (e.g., goods sold while at sea via bill of lading endorsement); the policy follows the property interest. A wrong answer stating \"all require interest at inception\" shows the student memorised a rule without understanding the commercial logic of property transfer in trade.",
+     "self_check": true
+    },
+    {
+     "q": "Mr. Sharma takes a fire insurance policy on his factory worth ₹50 lakh. Six months later, he sells the factory to Mr. Verma but forgets to assign the policy. A fire occurs two months after the sale. Mr. Sharma files a claim. Will the insurer pay? Justify using the principle of Insurable Interest.",
+     "a": "No, the insurer will not pay. In fire insurance, insurable interest must exist at the time of loss. Mr. Sharma sold the factory, so at the time of fire, he had no pecuniary interest in the property - Mr. Verma bore the financial loss. The policy is not automatically transferable; assignment requires insurer's consent. A wrong answer (\"yes, he paid premium\") reveals the student treats insurance like a financial investment that pays regardless of loss, missing the core principle: insurance indemnifies ACTUAL financial loss, not premium payments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the duty of disclosure under Utmost Good Faith in insurance with the duty of disclosure in a normal commercial contract (caveat emptor). Why is the standard higher in insurance?",
+     "a": "In normal commercial contracts (sale of goods), caveat emptor applies - each party discovers facts themselves; silence is not misrepresentation unless there is active concealment or fiduciary duty. In insurance, the insurer cannot inspect the risk (especially life/health) and relies entirely on the proposer's disclosure. The proposer has exclusive knowledge of material facts. Hence the law imposes uberrimae fidei: voluntary, full, accurate disclosure of ALL material facts. Non-disclosure makes the contract voidable at insurer's option. A wrong answer (\"both require full honesty\") misses the legal distinction: insurance is a contract of adhesion where asymmetry of information is structural, not incidental.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A creditor has insurable interest in the life of a debtor only up to the amount of the debt.\" Is this correct? Explain with reasoning.",
+     "a": "Yes, correct. Insurable interest is limited to the extent of pecuniary loss. A creditor loses financially only to the extent of the unpaid debt (principal + interest) if the debtor dies. Insuring for more would create a wagering contract (profit from death), violating the indemnity principle's spirit. The creditor's interest is quantifiable and finite. A wrong answer (\"creditor can insure for any amount\") shows the student doesn't grasp that insurable interest = measurable financial exposure, not unlimited emotional or relational interest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where BOTH Utmost Good Faith and Insurable Interest are simultaneously violated. Explain how each violation independently voids the contract.",
+     "a": "Scenario: Mr. A takes a ₹2 crore life insurance policy on Mr. B (a casual acquaintance) without Mr. B's knowledge. Mr. A hides that Mr. B has terminal cancer. Violations: (1) Utmost Good Faith: Mr. A concealed a material fact (terminal illness) that would lead to certain rejection or very high premium. Contract voidable by insurer. (2) Insurable Interest: Mr. A has no pecuniary interest in Mr. B's life - no blood relation, no financial dependency, no creditor-debtor relationship. This is a wagering contract, void ab initio. A poor answer focusing only on one violation shows the student treats principles as a checklist rather than understanding they operate independently - either violation alone kills the contract.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

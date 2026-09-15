@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_011",
+   "title": "c12_hs_cbse_10_011",
+   "questions": [
+    {
+     "q": "A 60-year-old male with Type 2 diabetes is prescribed an 1800 kcal diet with 55% energy from carbohydrates. Using the ICMR food exchange list where 1 carbohydrate exchange = 15g carbohydrate = 60 kcal, how many carbohydrate exchanges should he consume per day?",
+     "a": "Correct answer: 16.5 exchanges (rounded to 16 or 17 exchanges distributed across meals).\nSteps: Total carb kcal = 1800 × 0.55 = 990 kcal. Grams of carbohydrate = 990 ÷ 4 = 247.5g. Exchanges = 247.5 ÷ 15 = 16.5 exchanges.\nA wrong answer (e.g., calculating 55% of 1800g instead of kcal, or using 1 exchange = 10g) reveals confusion between percentage of energy vs. percentage of weight, or not knowing the standard exchange values. This is a board exam staple — students lose marks by mixing kcal and grams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a diabetic patient is advised to choose whole fruits over fruit juices, and why a hypertensive patient is advised to choose fresh vegetables over canned vegetables — even though both recommendations involve \"less processing.\"",
+     "a": "Correct answer: For diabetes — whole fruits retain fiber (slows glucose absorption, lowers glycemic response) and have lower glycemic load per serving; juices concentrate sugars and remove fiber causing rapid glucose spikes. For hypertension — canned vegetables contain added sodium (salt/brine as preservative), often 200-400mg per serving, while fresh vegetables are naturally low in sodium and high in potassium. \nA wrong answer that says \"both are less processed so both are healthier\" without distinguishing the MECHANISM (fiber vs. sodium) shows surface-level understanding. Board exams require condition-specific reasoning, not generic \"healthy food\" statements.",
+     "self_check": true
+    },
+    {
+     "q": "A hypertensive patient following a 2000 kcal DASH diet plan consumes the following in one day: 3 servings whole grains, 4 servings vegetables, 4 servings fruits, 2 servings low-fat dairy, 150g lean meat, 2 tsp oil, 1 serving nuts/seeds. The patient adds 1 tsp salt (5g) during cooking. Calculate the approximate sodium intake from added salt alone and evaluate if this fits the DASH sodium target of <2300 mg/day. (Note: 1g salt ≈ 400mg sodium)",
+     "a": "Correct answer: 1 tsp salt = 5g salt × 400mg Na/g = 2000mg sodium from added salt alone. This leaves only 300mg for all other foods — impossible since dairy, meat, grains naturally contain sodium. The plan EXCEEDS the target.\nSteps: (1) Convert tsp salt to grams (5g); (2) Convert salt to sodium (×400); (3) Compare to 2300mg limit; (4) Account for hidden sodium in other foods.\nA wrong answer calculating 5mg or 500mg sodium reveals unit confusion (mg vs g) or not knowing the salt-to-sodium conversion factor. This exact calculation appears in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of dietary fiber in diabetes management versus hypertension management. Why does the SAME nutrient (fiber) serve DIFFERENT primary mechanisms in these two conditions?",
+     "a": "Correct answer: In diabetes — soluble fiber forms viscous gel in intestine, slowing glucose absorption, reducing postprandial glycemic excursion, improving insulin sensitivity (primary mechanism: glycemic control). In hypertension — fiber (especially from whole grains, fruits, vegetables) is a marker of DASH-style diet; associated with higher potassium/magnesium, lower sodium, weight management, and improved endothelial function (primary mechanism: blood pressure reduction via multiple pathways including sodium displacement and vascular health).\nA wrong answer stating \"fiber lowers both sugar and BP\" without distinguishing mechanisms shows lack of analytical depth. Competency questions require explaining WHY the same nutrient operates differently — this is a JEE/NEET biology crossover concept (gut physiology + cardiovascular physiology).",
+     "self_check": true
+    },
+    {
+     "q": "A student designs a diabetic menu providing 1600 kcal with 60% carbohydrate, 15% protein, 25% fat. The menu includes 4 carbohydrate exchanges at breakfast, 5 at lunch, 2 at evening snack, and 5 at dinner. Critique this distribution. Is it appropriate? Justify.",
+     "a": "Correct answer: Total exchanges = 4+5+2+5 = 16 exchanges. At 15g/exchange = 240g carbohydrate = 960 kcal = 60% of 1600 kcal — mathematically correct. BUT distribution is inappropriate: dinner (5 exchanges) and lunch (5 exchanges) are too high; evening snack (2) may be too low to prevent nocturnal hypoglycemia if on medication. Ideal: 4-4-3-5 or 4-5-3-4 to match insulin/medication peaks and prevent long gaps.\nA wrong answer saying \"it's correct because totals match\" ignores the clinical principle of carbohydrate CONSISTENCY across meals — a critical board exam concept. Evaluation requires clinical reasoning, not just arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day vegetarian menu for a 50-year-old woman with both Type 2 diabetes (1600 kcal, 55% carb) and hypertension (DASH, <2300mg Na). Use ICMR food exchanges. Show: meal timing, food items with exchange counts, and one key modification for EACH meal that addresses BOTH conditions simultaneously.",
+     "a": "Expected criteria: (1) Total ~1600 kcal, ~14.5 carb exchanges (55%); (2) Sodium <2300mg (use low-sodium cooking, no added salt); (3) High potassium foods (vegetables, fruits, dairy); (4) Fiber >25g; (5) Carb distribution: ~4-4-3-3.5; (6) Each meal shows dual modification (e.g., breakfast: oats porridge with milk + chia seeds — modification: oats instead of refined cereal for fiber + chia for omega-3/BP; lunch: brown rice + dal + spinach sabzi + curd — modification: brown rice for low GI + spinach for potassium + no salt in cooking).\nA poor answer gives a generic \"healthy\" menu without exchange counts, sodium awareness, or dual-condition modifications. This tests synthesis — the highest board competency level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

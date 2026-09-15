@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_009",
+   "title": "c10_eco_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define Foreign Direct Investment (FDI) in the context of MNC operations in India, and state the two main entry routes (greenfield and brownfield) with one Indian example of each.",
+     "a": "FDI is investment by a resident entity of one economy (the MNC) obtaining a lasting interest (10% or more voting power) in an enterprise resident in another economy (India), reflecting a long-term relationship and significant influence over management. Greenfield: Hyundai Motor India setting up a new plant in Sriperumbudur, Tamil Nadu (1996). Brownfield: Walmart acquiring 77% stake in Flipkart (2018) for $16 billion. A wrong answer that confuses FDI with FPI (portfolio investment in stocks/bonds without management control) reveals the student does not distinguish between \"lasting interest with control\" vs \"short-term financial asset holding\" — a critical distinction for board exam questions on capital flows.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the entry of an MNC like Suzuki (via Maruti Suzuki joint venture) into the Indian passenger car market in 1983 led to a fall in car prices and a rise in consumer surplus, using the demand-supply framework from Class 9.",
+     "a": "Pre-1983, Hindustan Motors (Ambassador) and Premier (Fiat) operated as a duopoly with outdated technology, high costs, and restricted supply — supply curve S₁ was leftward/steep. Suzuki brought modern Japanese lean manufacturing, shifting supply rightward to S₂ (lower marginal cost at every quantity). At the same demand curve D, equilibrium price fell from P₁ to P₂ and quantity rose from Q₁ to Q₂. Consumer surplus = area under D above price — this area expanded significantly. A wrong answer that says \"Suzuki lowered prices because of competition alone\" misses the supply-side technology transfer mechanism; the board exam expects the explicit link: \"MNC brings superior technology → lowers average cost → shifts supply curve right → lowers equilibrium price → raises consumer surplus.\"",
+     "self_check": true
+    },
+    {
+     "q": "The Government of India launched the Production Linked Incentive (PLI) scheme for mobile manufacturing in 2020. Samsung and Foxconn (Taiwanese MNC, Apple's contract manufacturer) invested ₹10,000 crore and ₹8,000 crore respectively. If India's mobile phone exports rose from ₹1,566 crore (2014-15) to ₹1,20,000 crore (2023-24), calculate the Compound Annual Growth Rate (CAGR) of mobile exports over this 9-year period. Show the formula and steps.",
+     "a": "CAGR = (Ending Value / Beginning Value)^(1/n) - 1. Ending Value = ₹1,20,000 crore, Beginning Value = ₹1,566 crore, n = 9 years. Step 1: Ratio = 1,20,000 / 1,566 = 76.628. Step 2: 76.628^(1/9) = 1.574 (using calculator). Step 3: CAGR = 1.574 - 1 = 0.574 = 57.4% per annum. A wrong answer using simple growth rate [(1,20,000-1,566)/1,566]/9 = 840%/9 = 93% ignores compounding — the board exam tests whether students know CAGR is the geometric mean growth rate, not arithmetic mean. Also, forgetting to convert to percentage (0.574 vs 57.4%) loses 1 mark in the marking scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of Amazon (e-commerce MNC) on two Indian stakeholders: (a) a small kirana store owner in Tier-2 city, and (b) a consumer in a metro city. Use the concepts of market power, predatory pricing, and consumer welfare.",
+     "a": "(a) Kirana store: Amazon's deep capital allows predatory pricing (selling below average variable cost to drive out rivals) and bundling (Prime delivery + video + music). This raises entry barriers — kirana loses footfall, bargaining power with suppliers weakens, may exit market → reduced local competition long-term. (b) Metro consumer: Gains from lower prices, vast variety, doorstep delivery, easy returns → consumer surplus rises sharply. However, if Amazon achieves monopoly, it can later raise prices (recoup losses) and exploit seller data to launch private labels (Amazon Basics) competing with third-party sellers. A weak answer only lists \"convenience for consumers, loss for kirana\" without using the economic terms \"predatory pricing\", \"barriers to entry\", \"consumer surplus\", and \"dynamic efficiency vs allocative efficiency trade-off\" — the board exam's competency-based questions require this terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"MNCs in the pharmaceutical sector (e.g., Pfizer, Novartis) strengthen India's health security by bringing patented life-saving drugs, but weaken it by blocking generic competition through evergreening patents.\" Use the TRIPS agreement flexibilities (compulsory licensing) and India's Patent Act Section 3(d) in your answer.",
+     "a": "The statement is partially correct but incomplete. Benefit: MNCs invest in R&D for novel molecules (e.g., Novartis's Glivec for leukemia) — without patent protection, they would not launch in India, denying patients access. Concern: Evergreening (filing new patents on minor modifications like salts, esters, polymorphs) extends monopoly beyond 20 years, keeping prices high. India's Patent Act Section 3(d) prevents evergreening by requiring \"enhanced efficacy\" for new forms — the Supreme Court (Novartis v. Union of India, 2013) upheld this, allowing generic Glivec at ₹8,000/month vs MNC's ₹1.2 lakh/month. TRIPS Article 31 allows compulsory licensing for public health — India issued one for Bayer's Nexavar (2012), reducing price 97%. A wrong answer that says \"patents are bad for poor countries\" ignores the innovation incentive; the board exam expects balanced analysis: \"Patents enable innovation but can be abused; India uses TRIPS flexibilities (Section 3(d), compulsory licensing) to balance access and innovation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy framework for the Indian government to maximise benefits and minimise concerns from MNCs in the electric vehicle (EV) battery manufacturing sector, where Chinese MNCs (CATL, BYD) currently dominate global supply chains. Justify each point with an economic rationale.",
+     "a": "1. **PLI-linked local value addition thresholds**: Offer ₹18,100 crore PLI for Advanced Chemistry Cell (ACC) batteries only if domestic value addition ≥ 60% by Year 5. Rationale: Prevents \"screwdriver assembly\" (importing cells, only packing in India) — ensures technology absorption and backward linkages (cathode/anode material, electrolyte), addressing the concern of import dependence. 2. **Mandatory joint ventures with Indian firms for critical minerals processing**: Require Chinese MNCs to form JVs with PSUs like Khanij Bidesh India Ltd (KABIL) for lithium/cobalt refining. Rationale: Transfers tacit knowledge (tacit = non-codifiable, learned by doing) to Indian engineers; retains strategic control over critical mineral supply — addresses national security concern. 3. **Dynamic FDI cap with sunset clause**: Allow 100% FDI under automatic route for first 10 years, then reduce to 74% with government approval. Rationale: Attracts initial risk capital (high fixed cost, uncertain demand) but ensures long-term Indian ownership — balances \"infant industry protection\" with \"openness to competition\". A poor answer suggests \"ban Chinese MNCs\" — this violates WTO non-discrimination (MFN principle) and raises input costs for Indian EV makers (Ola, Tata), hurting the very industry we want to build.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

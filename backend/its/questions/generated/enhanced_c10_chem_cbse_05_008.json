@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_008",
+   "title": "c10_chem_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the valency of magnesium (atomic number 12) and explain how you determined it using its position in the Modern Periodic Table.",
+     "a": "Magnesium (Z=12) has electron configuration 2,8,2. It is in Group 2, Period 3. Valency = 2 (loses 2 electrons to achieve stable octet). A wrong answer like \"valency = 12\" reveals confusion between atomic number and valence electrons. Writing \"valency = 6\" (group number 16 style) shows misunderstanding that valency for metals = group number, not (8 - group number).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why atomic size decreases from sodium (Na) to chlorine (Cl) in Period 3, even though the number of electrons increases.",
+     "a": "Across Period 3, protons increase (11→17) while electrons add to the same M-shell (n=3). Effective nuclear charge increases, pulling the valence shell closer. No new shell is added. A student who says \"size increases because more electrons\" ignores nuclear charge dominance. Saying \"shielding increases\" is wrong — shielding by same-shell electrons is minimal.",
+     "self_check": true
+    },
+    {
+     "q": "Element X is in Group 14, Period 3. Element Y is in Group 14, Period 4. Predict which has larger atomic size and by approximately how many picometers (pm), given that each new shell adds ~100-150 pm.",
+     "a": "X = Silicon (Si), Y = Germanium (Ge). Y is larger. Down Group 14, a new shell (N-shell) adds. Size increase ≈ 100-150 pm. Typical values: Si ~111 pm, Ge ~122 pm (covalent radii). Difference ~11 pm — smaller than 100 pm because d-electrons in Ge provide poor shielding. A student answering \"X is larger\" reverses the trend. Saying \"difference is 100 pm exactly\" ignores transition metal contraction effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the valency and atomic size trends for Group 1 (alkali metals) and Group 17 (halogens). Why do both groups show constant valency down the group but opposite reactivity trends?",
+     "a": "Group 1: Valency = 1 (loses 1 e⁻), size increases down group, reactivity increases (easier to lose e⁻). Group 17: Valency = 1 (gains 1 e⁻), size increases down group, reactivity decreases (harder to gain e⁻ due to lower effective nuclear charge on valence shell). Both have constant valence electrons (1 and 7). A student saying \"both become more reactive\" confuses metal vs non-metal reactivity. Saying \"valency changes\" ignores same-group valence electron count.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Argon (Ar) has valency 8 because it has 8 valence electrons.\" Evaluate this statement and correct it using the concept of stable octet.",
+     "a": "Incorrect. Argon (Z=18, config 2,8,8) has 8 valence electrons but valency = 0. Valency is combining capacity — Ar has complete octet, does not lose, gain, or share electrons under normal conditions. The student confuses \"valence electron count\" with \"valency\". For noble gases, valency = 0 (except Xe, Kr under extreme conditions). Writing \"valency = 8\" would lose full marks in CBSE.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using the Modern Periodic Table to demonstrate that atomic size decreases across Period 2 but the rate of decrease is not uniform. What data would you plot and what pattern would you expect?",
+     "a": "Plot atomic radius (pm) vs atomic number for Li (152), Be (112), B (85), C (77), N (75), O (73), F (71), Ne (71) — covalent/van der Waals radii. Expect steep drop Li→Be (new p-subshell, poor shielding), then gradual decrease. Non-uniformity: biggest jump at Li→Be (s→p transition), then smaller steps. A student plotting \"smooth curve\" misses subshell effects. Using metallic radii for all gives wrong trend for non-metals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

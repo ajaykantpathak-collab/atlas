@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_005",
+   "title": "c12_ip_cbse_01_005",
+   "questions": [
+    {
+     "q": "List all comparison operators valid in a MySQL WHERE clause and give a one-line example of each.",
+     "a": "The six comparison operators are: = (equal), != or <> (not equal), > (greater than), < (less than), >= (greater than or equal), <= (less than or equal). Example: `Price > 500000`. A wrong answer (e.g., missing <> or confusing != with NOT =) reveals the student has not memorised the complete operator set and may fail to express \"not equal\" in board exam questions that explicitly ask for it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the query `SELECT * FROM INVENTORY WHERE FuelType = 'Petrol' OR FuelType = 'CNG' AND Price < 400000;` might return rows that the user did not intend, and rewrite it to match the intended logic: \"petrol cars OR CNG cars that cost less than ₹4,00,000\".",
+     "a": "AND has higher precedence than OR, so the original query is evaluated as `FuelType = 'Petrol' OR (FuelType = 'CNG' AND Price < 400000)`. This returns all petrol cars regardless of price, plus only cheap CNG cars. The corrected query uses parentheses: `SELECT * FROM INVENTORY WHERE FuelType = 'Petrol' OR (FuelType = 'CNG' AND Price < 400000);` — but to match the stated intention exactly, it should be `(FuelType = 'Petrol' OR FuelType = 'CNG') AND Price < 400000;`. A wrong answer shows the student does not understand operator precedence and will produce incorrect result sets in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display CarId, CarName, and Price from INVENTORY for cars whose Model starts with 'S' and have a Price between ₹5,00,000 and ₹7,00,000 (inclusive), sorted by Price descending.",
+     "a": "```sql\nSELECT CarId, CarName, Price\nFROM INVENTORY\nWHERE Model LIKE 'S%' AND Price BETWEEN 500000 AND 700000\nORDER BY Price DESC;\n```\nSteps: 1) Identify columns; 2) Use LIKE with wildcard % for pattern 'S%'; 3) Use BETWEEN for inclusive range; 4) Combine with AND; 5) Add ORDER BY. A wrong answer (e.g., using = 'S%' or forgetting BETWEEN inclusivity) reveals misunderstanding of pattern matching or range boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Given the SALE table, a student writes: `SELECT * FROM SALE WHERE PaymentMode = 'Credit Card' OR 'Online';` Explain why this returns all rows, and provide the correct condition.",
+     "a": "The condition `'Online'` is a non-empty string, which MySQL evaluates as TRUE in a boolean context. Thus `PaymentMode = 'Credit Card' OR TRUE` is always TRUE, returning every row. The correct condition is `PaymentMode = 'Credit Card' OR PaymentMode = 'Online';` or `PaymentMode IN ('Credit Card', 'Online');`. This misconception is extremely common in board exams; students treat OR as a list separator rather than a logical operator requiring two complete expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following query intended to find cars with NULL FuelType: `SELECT * FROM INVENTORY WHERE FuelType = NULL;` Why does it fail? Provide the correct version and explain the underlying SQL three-valued logic.",
+     "a": "In SQL, any comparison with NULL yields UNKNOWN (not TRUE or FALSE). `FuelType = NULL` evaluates to UNKNOWN for every row, so no rows are selected. The correct query uses `FuelType IS NULL`. This tests the student's grasp of three-valued logic (TRUE, FALSE, UNKNOWN) — a frequent board exam trap. A student who writes `= NULL` will lose marks because the result is an empty set even if NULLs exist.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (different from CARSHOWROOM) that requires a WHERE clause with at least four conditions combined using AND, OR, NOT, and parentheses, involving a string pattern, a date range, a numeric comparison, and a NULL check. Write the complete CREATE TABLE and SELECT statements.",
+     "a": "Scenario: A library database `BOOKS(BookId, Title, Author, Genre, Price, PublishDate, LastBorrowed)`. Find books of Genre 'Fiction' OR 'Mystery' published after 2010-01-01, priced below ₹500, that have never been borrowed (LastBorrowed IS NULL), but exclude titles containing 'Harry Potter'. \n```sql\nCREATE TABLE BOOKS (\n  BookId INT PRIMARY KEY,\n  Title VARCHAR(100),\n  Author VARCHAR(50),\n  Genre VARCHAR(20),\n  Price DECIMAL(8,2),\n  PublishDate DATE,\n  LastBorrowed DATE\n);\nSELECT * FROM BOOKS\nWHERE (Genre = 'Fiction' OR Genre = 'Mystery')\n  AND PublishDate > '2010-01-01'\n  AND Price < 500\n  AND LastBorrowed IS NULL\n  AND Title NOT LIKE '%Harry Potter%';\n```\nA poor answer omits parentheses, uses `= NULL`, or misplaces NOT, showing inability to synthesize multiple WHERE features.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

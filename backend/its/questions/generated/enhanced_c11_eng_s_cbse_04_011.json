@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_04_011",
+   "title": "c11_eng_s_cbse_04_011",
+   "questions": [
+    {
+     "q": "Identify the tense and voice of the verb phrase \"had been placed\" in the sentence: \"She had placed it beneath the bed.\" (Note: The text actually reads \"She had placed it beneath the bed\" but the diagnostic focuses on the passive equivalent \"had been placed\" found in similar contexts). State the tense name and voice.",
+     "a": "Correct: Past perfect passive. The structure is 'had been' + past participle. A wrong answer (e.g., \"past perfect active\" or \"past simple passive\") reveals the student cannot distinguish the passive auxiliary 'been' from the perfect auxiliary 'had', or confuses the agent-less passive with active voice where 'she' is the subject.",
+     "self_check": true
+    },
+    {
+     "q": "In the opening paragraph, the narrator writes: \"As he is returning... he is met by Joe Morgan.\" Then the narrative shifts: \"Andrew... told Morgan to wait.\" Explain why the author uses present progressive passive (\"is met\") in the first clause but past simple active (\"told\") in the second, and what effect this shift creates for the reader.",
+     "a": "Correct: The present progressive passive (\"is met\") creates a vivid, immediate \"live camera\" effect, placing the reader inside the unfolding moment, while the past simple active (\"told\") establishes the conventional narrative past tense for the main story. A wrong answer (e.g., \"it's a mistake\" or \"both are past tense\") shows the student misses the narrative technique of the 'historic present' for dramatic opening and cannot articulate the functional difference between voice and tense choices.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following direct speech from the text into indirect (reported) speech, maintaining the past perfect tense where appropriate: Joe Morgan says, \"I been back and forward here this last hour. The missus wants ye — before time, too.\" Assume the reporting verb is \"Joe Morgan explained that...\"",
+     "a": "Correct: Joe Morgan explained that he had been going back and forward there for the last hour and that his wife wanted him before time too. Steps: 1. Change 'I' to 'he'. 2. Backshift 'been' (present perfect continuous sense) to 'had been going'. 3. Change 'here' to 'there', 'this' to 'that'. 4. Backshift 'wants' to 'wanted'. 5. Adjust 'ye' to 'him'. A wrong answer retaining \"been back and forward\" or \"wants\" shows failure to apply backshifting rules for reported speech in a past narrative context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structures in these two extracts: (A) \"He went into the house for his bag, then together they set out for Number 12 Blaina Terrace.\" (B) \"Fifteen minutes passed. Sweat was now running into Andrew’s eyes, blinding him. One of his sleeves hung down, dripping.\" Analyze how the coordination in (A) vs. the fragmentation and participle clauses in (B) control narrative pacing.",
+     "a": "Correct: Extract (A) uses compound coordination (\"then together they set out\") creating a steady, procedural pace suitable for movement/transition. Extract (B) uses short declarative sentences (\"Fifteen minutes passed\") and present participle clauses (\"blinding him\", \"dripping\") to fracture time, simulate the doctor's sensory overload, and accelerate the reading speed to mirror the frantic resuscitation. A wrong answer merely labeling them \"simple\" or \"complex\" misses the *functional* link between syntax and psychological time.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following student claim: \"Cronin uses the passive voice throughout the medical scenes to show Andrew is not in control.\" Defend or refute using two specific passive constructions from the text (e.g., \"was met,\" \"had been placed,\" \"was heard,\" \"were heard\") and explain the actual rhetorical purpose of each.",
+     "a": "Correct: Refute. The claim confuses grammatical passivity with thematic helplessness. 1. \"Andrew... was met by Joe Morgan\" (para 1): Passive here foregrounds Andrew as the *recipient* of the urgent call, emphasizing his role as the needed professional, not his lack of control. 2. \"The nurse’s voice was heard calling\" (para 4): Agentless passive shifts focus to the *sound* (the signal to act) rather than the nurse, heightening auditory tension. In both, passive voice is a focusing tool, not a weakness indicator. A wrong agreement reveals the student equates passive voice with victimhood, a common middle-school oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word continuation of the final paragraph (\"He reached for his hat and coat...\") mimicking Cronin’s syntactic style: use at least one past perfect verb for a flashback, one agentless passive, and a final sentence starting with a present participle clause describing Andrew’s physical state.",
+     "a": "Expected answer criteria: e.g., \"He had forgotten the promise he made to Christine. The bag was left on the kitchen table. Walking into the grey dawn, his legs trembled with the weight of the life he had held.\" A poor answer uses only simple past, omits the required structures, or writes a plot summary instead of a stylistic imitation, showing inability to consciously manipulate syntax for effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

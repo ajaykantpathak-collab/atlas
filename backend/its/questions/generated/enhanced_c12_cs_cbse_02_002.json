@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_002",
+   "title": "c12_cs_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the function of terminators at both ends of the backbone in a bus topology?",
+     "a": "Terminators absorb electrical signals reaching the ends of the backbone, preventing signal reflection that would cause interference and data corruption. A wrong answer (e.g., \"they amplify the signal\" or \"they connect to the server\") reveals the student confuses terminators with repeaters or central devices, indicating a lack of understanding of signal propagation in shared media.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adding more devices to a bus topology degrades network performance, using the concept of shared bandwidth and collision domain.",
+     "a": "In a bus topology, all devices share the same communication channel (single collision domain). As more devices are added, the probability of simultaneous transmissions (collisions) increases, leading to more retransmissions and reduced effective bandwidth per device. A wrong answer that blames \"cable length\" or \"terminator failure\" shows the student cannot distinguish between physical limitations and media access control issues.",
+     "self_check": true
+    },
+    {
+     "q": "A small office has 8 computers connected in a bus topology using coaxial cable. One computer's network card fails and continuously transmits garbage data. What happens to the rest of the network, and why?",
+     "a": "The entire network becomes unusable because the faulty network card jams the shared medium, preventing any other device from transmitting successfully (a \"babbling node\" scenario). Since all devices share the same cable, there is no isolation. A wrong answer like \"only that computer is affected\" or \"the terminators will block the garbage data\" reveals the student does not grasp that bus topology has no built-in fault isolation — a single misbehaving node can disable the whole segment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fault tolerance of bus topology versus star topology when (a) a drop line/cable to one device fails, and (b) the central backbone/hub fails. Summarise in a 2x2 table.",
+     "a": "| Failure Type | Bus Topology | Star Topology |\n|--------------|--------------|---------------|\n| Drop line / device link fails | Only that device is affected | Only that device is affected |\n| Backbone / hub fails | **Entire network fails** | **Entire network fails** (if hub fails) |\nA wrong answer claiming bus topology survives backbone failure shows a fundamental misunderstanding: the backbone IS the network in bus topology. This confusion often arises from mixing up \"backbone\" with \"server\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bus topology is the best choice for a modern school computer lab with 30 PCs requiring high-speed internet access and file sharing.\" Justify your evaluation with three technical reasons.",
+     "a": "The statement is **false**. Three reasons: (1) Bus topology uses a single collision domain — 30 PCs would cause excessive collisions, drastically reducing throughput. (2) No fault isolation — one cable break or faulty NIC disables the entire lab. (3) Bandwidth is shared, not dedicated — each PC gets a fraction of the total bandwidth, unsuitable for high-speed internet/file sharing. A student who agrees likely confuses \"easy to set up\" with \"suitable for high performance\", ignoring scalability limits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid topology for a small business that uses bus topology for the ground-floor reception area (4 devices) and star topology for the first-floor offices (12 devices), connecting both floors via a switch. Draw a labelled diagram and explain why this hybrid approach is better than pure bus or pure star for this layout.",
+     "a": "A good answer includes: (1) Diagram showing ground-floor devices on a single coaxial cable with terminators, first-floor devices each connected to a central switch, and the switch linked to the bus via a bridge/interface. (2) Explanation: Bus on ground floor saves cabling cost for a linear, low-traffic area; star on first floor provides fault isolation and dedicated bandwidth for higher-density, higher-traffic offices; the switch interconnects the two segments, containing collisions to each segment. A poor answer that puts all 16 devices on one bus ignores the collision domain problem; one that uses star everywhere ignores cost constraints for the linear reception area.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

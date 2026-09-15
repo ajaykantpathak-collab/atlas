@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_009",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_009",
+   "title": "c7_chem_ch01_009",
+   "questions": [
+    {
+     "q": "Which of the following elements is classified as a metalloid? (a) Copper (b) Silicon (c) Sulfur (d) Oxygen",
+     "a": "The correct answer is (b) Silicon. Silicon is a classic metalloid used extensively in computer chips because its electrical conductivity is intermediate between metals and non-metals. A student who chooses (a) copper confuses metalloids with pure metals, which are excellent conductors and malleable. Choosing (c) or (d) shows confusion with non-metals, which are typically poor conductors and lack metallic luster.",
+     "self_check": true
+    },
+    {
+     "q": "Why is silicon described as a \"metalloid\" rather than a true metal, even though it has a shiny, metallic appearance?",
+     "a": "Silicon has a shiny luster like a metal, but it is extremely brittle and shatters when struck instead of being malleable or ductile. Furthermore, its ability to conduct electricity is much lower than that of metals. A student who thinks silicon is a true metal fails to distinguish between surface appearance (luster) and bulk mechanical properties like brittleness and electrical behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A science student tests an unknown grey solid found in the laboratory. It looks shiny like a piece of iron, but when struck with a hammer, it instantly crumbles into a fine powder instead of flattening into a sheet. What does this behavior tell us about the classification of this substance?",
+     "a": "The working steps are: \n1. Observe the physical appearance: shiny (suggests metallic luster). \n2. Observe the mechanical response to force: crumbles into powder (shows extreme brittleness, which is a non-metallic property). \n3. Conclude that the substance has mixed characteristics. \n4. Classify it as a metalloid. \nA student who concludes it is a metal is focusing only on the shiny appearance and ignoring the brittle nature characteristic of metalloids and some non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electrical conductivity of a copper wire, a sulfur lump, and a silicon chip at room temperature. How do their conductivity levels reflect their classification?",
+     "a": "Copper is a metal and has very high electrical conductivity, allowing free electrons to move easily. Sulfur is a non-metal and is an insulator, showing virtually no electrical conductivity. Silicon is a metalloid with intermediate conductivity—higher than sulfur but lower than copper—making it a semiconductor. A student who states that silicon conducts electricity as well as copper does not understand the intermediate nature of metalloid electronic properties.",
+     "self_check": true
+    },
+    {
+     "q": "An engineer wants to build a device that needs a material with high malleability to be drawn into thin wires for high-current household wiring. She considers using a metalloid like arsenic or silicon. Is this a sound engineering choice, and why or why not?",
+     "a": "This is NOT a sound choice. Metalloids like silicon and arsenic are brittle and lack malleability and ductility; they cannot be drawn into wires. Furthermore, their electrical conductivity is too low for efficient high-current power transmission compared to metals like copper or aluminium. A student who approves this choice misunderstands the mechanical and electrical limitations of metalloids.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home investigation to distinguish between a metal rod, a lump of sulfur, and a silicon piece using everyday items like a battery, a small bulb, and a hammer.",
+     "a": "A good design involves two tests: \n1. Mechanical Test: Gently tap each material with a hammer to check for malleability versus brittleness. \n2. Electrical Test: Connect each material in a simple electric circuit with a battery and bulb to see if the bulb lights up. \nA poor answer would suggest melting them or tasting them, which are unsafe and fail to test conductivity or brittleness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

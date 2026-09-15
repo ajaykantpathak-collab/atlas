@@ -1,0 +1,526 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 7,
+ "chapter_title": "Federalism",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps207.txt",
+ "concepts": [
+  {
+   "id": "c11ps.7.1",
+   "title": "Meaning of Federalism",
+   "section": "What is Federalism?",
+   "definition": "Federalism is a system of government in which power is divided between a central authority and its constituent units, such as provinces or states, with each level having its own jurisdiction defined by the constitution.",
+   "formula": "",
+   "key_idea": "Federalism combines unity with diversity by allowing regional governments to handle local matters while a national government handles issues of common concern, all within a constitutional framework.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is federalism and why is it needed?",
+    "Explain the meaning of federalism in your own words.",
+    "How does federalism accommodate diversity within a country?",
+    "What is the difference between a federal and a unitary government?",
+    "Why do large and diverse countries prefer a federal system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define federalism as a division of power between two or more levels of government",
+     "explain": "Federalism is a political system in which sovereignty is constitutionally shared between a central government and regional governments, each operating in its own sphere."
+    },
+    {
+     "step": 2,
+     "action": "Explain the rationale for dividing power",
+     "explain": "Dividing power allows national unity on common matters while giving regional units autonomy over local affairs, which is especially useful for large, diverse countries."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish federalism from a unitary system",
+     "explain": "In a unitary system all power is concentrated in the central government, which may create or abolish regional units; in a federal system the division of power is constitutionally guaranteed and cannot be altered unilaterally."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is federalism considered suitable for a country like India?",
+     "solution": "Step 1: India is a large country with immense linguistic, religious, and cultural diversity. Step 2: A federal system allows regional governments to address local needs while the Centre handles matters of national importance. Step 3: Hence federalism accommodates diversity while maintaining unity.",
+     "answer": "Because it allows regional autonomy for diverse communities while preserving national unity through a common central government"
+    },
+    {
+     "question": "How does a federal system differ from a unitary system?",
+     "solution": "Step 1: In a unitary system there is only one level of government and regional units derive power from the Centre. Step 2: In a federal system power is constitutionally divided between two levels, each with its own jurisdiction. Step 3: Therefore the central government cannot unilaterally abolish or alter the powers of the regional units in a federal system.",
+     "answer": "In federalism power is constitutionally divided between two levels of government, whereas in a unitary system all power is concentrated in the central government"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of federalism and why it is preferred by large and diverse countries.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between a federal and a unitary form of government.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.2",
+   "title": "Features of Federalism",
+   "section": "Features of Federalism",
+   "definition": "The essential features of federalism are two or more levels of government, a written constitution, division of powers between levels, supremacy of the constitution, the authority of courts to interpret the constitution, and rigid amendment procedures for federal provisions.",
+   "formula": "",
+   "key_idea": "A true federation is built on a constitutional guarantee of power-sharing between levels of government, backed by an independent judiciary that interprets and safeguards the division of powers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the essential features of federalism?",
+    "Why is a written constitution necessary for a federal system?",
+    "Explain the role of the judiciary in a federal system.",
+    "How is power divided between different levels of government in a federation?",
+    "Why must the constitution be supreme in a federal system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the essential features of federalism",
+     "explain": "The features are: multiple levels of government, a written constitution, division of powers, supremacy of the constitution, an independent judiciary, and a rigid amendment procedure for provisions affecting the federation."
+    },
+    {
+     "step": 2,
+     "action": "Explain how each feature supports the federation",
+     "explain": "Multiple levels allow autonomy; a written constitution records the division of powers; supremacy of the constitution prevents any level from overriding it; the judiciary resolves disputes between levels; rigid amendment protects the federal balance."
+    },
+    {
+     "step": 3,
+     "action": "Apply the features to assess whether a system is truly federal",
+     "explain": "A system that lacks any of these features, such as a constitution that the Centre can amend unilaterally without regional consent, may be federal in form but unitary in spirit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is an independent judiciary considered a feature of federalism?",
+     "solution": "Step 1: In a federation disputes often arise between the Centre and the States over jurisdiction. Step 2: An independent judiciary interprets the constitution and settles such disputes impartially. Step 3: Hence an independent judiciary is essential to maintain the federal balance.",
+     "answer": "Because it impartially interprets the constitution and resolves disputes between the Centre and the States, safeguarding the federal balance"
+    },
+    {
+     "question": "Why is a written constitution necessary for a federal system?",
+     "solution": "Step 1: A federation involves a division of powers between two levels of government. Step 2: This division must be clearly recorded so that neither level can encroach on the other's powers. Step 3: A written constitution provides this clear and authoritative record of the division of powers.",
+     "answer": "Because it clearly records the division of powers between the levels of government, preventing encroachment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the essential features of federalism and explain how each supports the federal system.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the supremacy of the constitution important in a federal system?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.3",
+   "title": "Federalism in India",
+   "section": "Federalism in India",
+   "definition": "India is a federal country with a Constitution that divides powers between the Union government and the State governments, but it also has strong unitary features such as a single constitution, single citizenship, and a strong Centre, leading scholars to call it 'federal in form but unitary in spirit'.",
+   "formula": "",
+   "key_idea": "The Indian Constitution combines federal features like divided powers and an independent judiciary with unitary features like a strong Centre, making India a quasi-federal or cooperative federal system.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Is India a federal country? Justify your answer.",
+    "Explain the federal features of the Indian Constitution.",
+    "What are the unitary features found in the Indian Constitution?",
+    "Why is India described as 'federal in form but unitary in spirit'?",
+    "How does the Indian Constitution combine federal and unitary features?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the federal features of the Indian Constitution",
+     "explain": "Federal features include a written constitution, division of powers through the Union, State, and Concurrent lists, an independent judiciary, and a rigid amendment procedure for federal provisions."
+    },
+    {
+     "step": 2,
+     "action": "Identify the unitary features of the Indian Constitution",
+     "explain": "Unitary features include a single constitution for the whole country, single citizenship, a strong Centre, the appointment of Governors by the Centre, and emergency provisions that allow the Centre to take over State administration."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the nature of Indian federalism",
+     "explain": "Because the Constitution combines both sets of features, scholars describe India as quasi-federal or cooperative federal, being federal in form but with a strong centralising tendency in spirit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is India described as 'federal in form but unitary in spirit'?",
+     "solution": "Step 1: India has federal features like a written constitution, division of powers, and an independent judiciary. Step 2: However, it also has unitary features like a strong Centre, single citizenship, and emergency provisions that centralise power. Step 3: Hence it is federal in form but unitary in spirit.",
+     "answer": "Because it has federal features like divided powers but also strong unitary features like a powerful Centre and emergency provisions"
+    },
+    {
+     "question": "Mention any three federal features of the Indian Constitution.",
+     "solution": "Step 1: The Constitution has a written form that records the division of powers. Step 2: Powers are divided through the Union, State, and Concurrent lists under the Seventh Schedule. Step 3: An independent judiciary interprets the Constitution and resolves Centre-State disputes.",
+     "answer": "Written constitution, division of powers through three lists, and an independent judiciary"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the federal and unitary features of the Indian Constitution and discuss whether India is truly federal.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List any three unitary features of the Indian Constitution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.4",
+   "title": "Distribution of Powers: Union, State and Concurrent Lists",
+   "section": "Division of Powers",
+   "definition": "The Indian Constitution divides legislative powers between the Union and the States through three lists in the Seventh Schedule: the Union List (subjects of national importance, Centre alone can legislate), the State List (subjects of local importance, States alone can legislate), and the Concurrent List (subjects on which both can legislate, with Central law prevailing in case of conflict).",
+   "formula": "",
+   "key_idea": "The three-list scheme (Union, State, Concurrent) is the core mechanism of Indian federalism, allocating subjects to the appropriate level of government and resolving conflicts through the rule that Central law prevails on the Concurrent List.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the division of powers between the Centre and the States in India.",
+    "What is the Union List and which subjects does it contain?",
+    "What is the State List and which subjects does it contain?",
+    "What is the Concurrent List and what happens when a Central and a State law conflict on it?",
+    "How does the Seventh Schedule organise the division of legislative powers?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three lists in the Seventh Schedule",
+     "explain": "The Union List has subjects of national importance like defence and foreign affairs; the State List has subjects of local importance like police and public health; the Concurrent List has subjects like education and marriage on which both can legislate.",
+     "compute": "union_list_count + state_list_count + concurrent_list_count"
+    },
+    {
+     "step": 2,
+     "action": "Determine which level of government can legislate on a given subject",
+     "explain": "If the subject is on the Union List only Parliament can legislate; if on the State List only the State legislature can legislate; if on the Concurrent List both can legislate."
+    },
+    {
+     "step": 3,
+     "action": "Resolve any conflict on the Concurrent List",
+     "explain": "When a Central law and a State law on a Concurrent List subject conflict, the Central law prevails, and the State law becomes void to the extent of the repugnancy under Article 254."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Defence is a subject in the Seventh Schedule. Which level of government can legislate on it?",
+     "solution": "Step 1: Defence is a subject of national importance. Step 2: It is included in the Union List (Entry 1). Step 3: Therefore only Parliament can legislate on defence.",
+     "answer": "Only Parliament, because defence is on the Union List"
+    },
+    {
+     "question": "Both Parliament and a State legislature pass laws on education, but they conflict. Which law prevails?",
+     "solution": "Step 1: Education is a subject on the Concurrent List. Step 2: Both Parliament and the State legislature can legislate on it. Step 3: Under Article 254, when there is a conflict, the Central law prevails and the State law is void to the extent of the repugnancy.",
+     "answer": "The Central law prevails under Article 254 because education is on the Concurrent List"
+    },
+    {
+     "question": "Public order is a subject in the Seventh Schedule. Can Parliament legislate on it?",
+     "solution": "Step 1: Public order is a subject of local importance. Step 2: It is included in the State List (Entry 1). Step 3: Therefore only the State legislature can normally legislate on it, and Parliament cannot.",
+     "answer": "No, because public order is on the State List and only the State legislature can legislate on it"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the division of legislative powers between the Centre and the States through the three lists in the Seventh Schedule.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What happens when a law made by a State legislature on a Concurrent List subject conflicts with a law made by Parliament?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the following subjects into the appropriate list: defence, police, education, foreign affairs, marriage.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.5",
+   "title": "Centre-State Relations",
+   "section": "Centre-State Relations",
+   "definition": "Centre-State relations in India are governed through legislative relations (division of law-making powers), administrative relations (direction and cooperation between levels), and financial relations (distribution of taxes and grants), shaping how the two levels of government interact.",
+   "formula": "",
+   "key_idea": "The working of Indian federalism depends on how legislative, administrative, and financial powers and resources are shared and coordinated between the Centre and the States.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the legislative relations between the Centre and the States.",
+    "How are financial powers divided between the Centre and the States?",
+    "What is the role of the Finance Commission in Centre-State relations?",
+    "Describe the administrative relations between the Centre and the States.",
+    "How does the Centre give directions to the States under the Constitution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the legislative relations",
+     "explain": "Legislative relations are based on the three lists in the Seventh Schedule; Parliament can also legislate on State subjects under certain conditions like Rajya Sabha resolutions and during emergencies."
+    },
+    {
+     "step": 2,
+     "action": "Describe the administrative and financial relations",
+     "explain": "Administratively, the Centre can give directions to States on construction of national highways and protection of railways; financially, taxes are divided between the lists and the Finance Commission recommends the sharing of central taxes with States."
+    },
+    {
+     "step": 3,
+     "action": "Assess the balance of Centre-State relations",
+     "explain": "While the Constitution provides for cooperation, the financial and administrative powers tilt towards the Centre, making States dependent on central transfers and grants, which is a source of tension in federalism."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the role of the Finance Commission in Centre-State financial relations?",
+     "solution": "Step 1: The Finance Commission is constituted every five years under Article 280. Step 2: It recommends how the net proceeds of central taxes should be distributed between the Centre and the States. Step 3: Thus it determines the financial sharing that sustains Centre-State fiscal relations.",
+     "answer": "It recommends the distribution of central tax revenues between the Centre and the States every five years under Article 280"
+    },
+    {
+     "question": "Under what condition can Parliament legislate on a subject on the State List?",
+     "solution": "Step 1: Normally only a State legislature can make laws on State List subjects. Step 2: However, if the Rajya Sabha passes a resolution by a two-thirds majority that it is in the national interest, Parliament can legislate on that State subject. Step 3: Parliament can also legislate on State subjects during a national emergency.",
+     "answer": "When the Rajya Sabha passes a resolution by two-thirds majority in the national interest, or during a national emergency"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the legislative, administrative, and financial relations between the Centre and the States.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do financial relations between the Centre and the States often become a source of tension?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.6",
+   "title": "Asymmetric Federalism",
+   "section": "Asymmetric Federalism",
+   "definition": "Asymmetric federalism is a feature of the Indian Constitution whereby certain States are given special status and greater autonomy than others through special provisions, reflecting the historical, cultural, or geographical distinctiveness of those States.",
+   "formula": "",
+   "key_idea": "Not all States in the Indian federation have identical powers; the Constitution allows special treatment for certain States to accommodate their unique conditions, making Indian federalism asymmetric.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is asymmetric federalism? Explain with examples from India.",
+    "Why do some States in India enjoy special status?",
+    "Explain the special provisions for the States of Nagaland and Mizoram.",
+    "How does asymmetric federalism strengthen Indian unity?",
+    "What is the constitutional basis for special provisions for certain States?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define asymmetric federalism",
+     "explain": "Asymmetric federalism means that the constituent units of a federation do not all have the same powers; some units enjoy special status or greater autonomy due to their distinct history, culture, or geography."
+    },
+    {
+     "step": 2,
+     "action": "Identify the constitutional provisions that create asymmetry",
+     "explain": "Articles 371 to 371H provide special provisions for States like Nagaland, Assam, Manipur, Andhra Pradesh, Sikkim, Mizoram, Arunachal Pradesh, and Goa, giving them greater autonomy in certain matters."
+    },
+    {
+     "step": 3,
+     "action": "Explain the purpose of asymmetric federalism",
+     "explain": "By giving special treatment to distinctive States, asymmetric federalism accommodates diversity and protects the identity of minority or tribal communities, thereby strengthening national unity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What special provision does Article 371A provide for Nagaland?",
+     "solution": "Step 1: Article 371A is a special provision for the State of Nagaland. Step 2: It provides that no Act of Parliament relating to religious or social practices of the Nagas, Naga customary law, and administration of civil and criminal justice according to Naga customary law shall apply unless the Nagaland Legislative Assembly by a resolution so decides. Step 3: Thus it gives Nagaland special autonomy to protect its tribal identity.",
+     "answer": "Article 371A protects Naga religious and social practices, customary law, and justice administration from central laws unless the State Assembly approves"
+    },
+    {
+     "question": "Why is Indian federalism described as asymmetric?",
+     "solution": "Step 1: In a symmetric federation all units have identical powers. Step 2: In India, certain States like Nagaland, Mizoram, and Sikkim have special constitutional provisions giving them greater autonomy. Step 3: Hence Indian federalism is asymmetric because not all States have the same powers.",
+     "answer": "Because certain States enjoy special constitutional provisions and greater autonomy than others, reflecting their distinct conditions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of asymmetric federalism with examples of special provisions for specific States in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does asymmetric federalism help in maintaining national unity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.7",
+   "title": "Special Provisions for States",
+   "section": "Special Provisions for Some States",
+   "definition": "The Indian Constitution contains special provisions (Articles 371 to 371H) for certain States such as Maharashtra, Gujarat, Nagaland, Assam, Manipur, Andhra Pradesh, Sikkim, Mizoram, Arunachal Pradesh, and Goa, giving them greater autonomy or special protections based on their historical and cultural context.",
+   "formula": "",
+   "key_idea": "Special provisions are tailored constitutional arrangements for specific States that address their unique historical, social, or developmental needs, going beyond the uniform federal scheme.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which Articles of the Constitution provide special provisions for certain States?",
+    "Explain the special provision for Sikkim under the Constitution.",
+    "What is the significance of Article 371 for Maharashtra and Gujarat?",
+    "Why was a special provision made for Mizoram?",
+    "List the States that have special provisions under the Indian Constitution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional articles providing special provisions",
+     "explain": "Articles 371, 371A, 371B, 371C, 371D, 371E, 371F, 371G, and 371H provide special provisions for specific States, each addressing a distinct historical or developmental context."
+    },
+    {
+     "step": 2,
+     "action": "Explain the nature of each special provision",
+     "explain": "For example, Article 371 provides special provisions for Maharashtra and Gujarat regarding regional development boards; Article 371F protects the special status of Sikkim; Article 371G protects Mizo customary law; Article 371H gives special responsibility to the Governor of Arunachal Pradesh."
+    },
+    {
+     "step": 3,
+     "action": "Justify the need for special provisions",
+     "explain": "These provisions were needed because of the unique historical circumstances of these States, such as their late accession, tribal majority populations, or distinctive customary laws, which the uniform federal scheme could not adequately address."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the special provision for Sikkim under the Indian Constitution?",
+     "solution": "Step 1: Sikkim became a State of India in 1975. Step 2: Article 371F provides special provisions for Sikkim, protecting its old laws and the religious and cultural practices of its people. Step 3: Thus the Constitution accommodates Sikkim's unique historical background.",
+     "answer": "Article 371F protects Sikkim's old laws and the religious and cultural practices of its people, reflecting its unique history"
+    },
+    {
+     "question": "What is the significance of Article 371 for Maharashtra and Gujarat?",
+     "solution": "Step 1: Article 371 provides special provisions for Maharashtra and Gujarat. Step 2: It provides for the establishment of separate development boards for Vidarbha, Marathwada, and the rest of Maharashtra, and for Saurashtra, Kutch, and the rest of Gujarat. Step 3: This ensures balanced regional development within these States.",
+     "answer": "It provides for separate regional development boards to ensure balanced development of different regions within Maharashtra and Gujarat"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the special provisions made for various States under Articles 371 to 371H and the reasons for them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any four States that have special provisions under the Indian Constitution.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.8",
+   "title": "Challenges of Federalism",
+   "section": "Challenges to Indian Federalism",
+   "definition": "The major challenges of Indian federalism include regionalism, demands for autonomy, Centre-State disputes over resources and powers, the tension between unity and diversity, and the problem of balancing the interests of majority and minority communities in different States.",
+   "formula": "",
+   "key_idea": "Indian federalism faces ongoing challenges arising from regional disparities, demands for greater autonomy, and the need to balance national unity with regional diversity, requiring flexible and cooperative responses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major challenges of Indian federalism?",
+    "Explain the problem of regionalism in Indian federalism.",
+    "Why do some States demand greater autonomy?",
+    "How does Indian federalism balance unity and diversity?",
+    "What is the tension between the Centre and the States over financial resources?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the major challenges to Indian federalism",
+     "explain": "The challenges include regionalism and demands for autonomy, Centre-State disputes over financial and legislative powers, communal and linguistic tensions, and the problem of accommodating diverse identities within a single nation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the causes of each challenge",
+     "explain": "Regionalism arises from cultural and linguistic distinctiveness and perceived neglect; autonomy demands stem from a feeling that the Centre is too dominant; financial disputes arise from the unequal distribution of resources and taxing powers."
+    },
+    {
+     "step": 3,
+     "action": "Suggest how federalism can meet these challenges",
+     "explain": "These challenges can be met through cooperative federalism, greater financial devolution, respectful dialogue between the Centre and States, and respect for regional identities within a framework of national unity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do some States in India demand greater autonomy?",
+     "solution": "Step 1: Some States feel that the Centre is too dominant in legislative and financial matters. Step 2: They believe that greater autonomy would allow them to address their regional needs more effectively. Step 3: Hence they demand greater autonomy within the federal framework.",
+     "answer": "Because they feel the Centre is too dominant and greater autonomy would let them address regional needs better"
+    },
+    {
+     "question": "How does regionalism pose a challenge to Indian federalism?",
+     "solution": "Step 1: Regionalism is the assertion of regional identity and interests, sometimes against the national interest. Step 2: If taken to an extreme it can threaten national unity and lead to separatist movements. Step 3: Thus regionalism is a challenge that federalism must manage through accommodation and dialogue.",
+     "answer": "Regionalism can threaten national unity by asserting regional interests against the national interest, requiring accommodation through dialogue"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the major challenges of Indian federalism and suggest ways to address them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the difference between regionalism and federalism?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.7.9",
+   "title": "Cooperative Federalism and Decentralisation",
+   "section": "Cooperative Federalism and Decentralisation",
+   "definition": "Cooperative federalism is the principle that the Centre and the States should work together on matters of common concern, while decentralisation is the further sharing of power with local governments, taking democracy to the grassroots level.",
+   "formula": "",
+   "key_idea": "Indian federalism is evolving from a Centre-dominant model towards cooperative federalism and further decentralisation, where multiple levels of government collaborate and power is shared down to local bodies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is cooperative federalism?",
+    "How is decentralisation related to federalism?",
+    "Explain the significance of decentralisation in India.",
+    "What is the difference between competitive and cooperative federalism?",
+    "How does decentralisation strengthen democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define cooperative federalism",
+     "explain": "Cooperative federalism means that the Centre and the States cooperate with each other on matters of common interest, sharing responsibilities rather than acting in isolation or in conflict."
+    },
+    {
+     "step": 2,
+     "action": "Define decentralisation and its relation to federalism",
+     "explain": "Decentralisation is the sharing of power not just between the Centre and States but also with local governments like Panchayats and Municipalities, taking governance closer to the people."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance of these ideas for Indian democracy",
+     "explain": "Cooperative federalism reduces Centre-State conflict and decentralisation empowers local communities, together making democracy more participatory, responsive, and inclusive."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is cooperative federalism and why is it important?",
+     "solution": "Step 1: Cooperative federalism is the idea that the Centre and the States should work together on common issues. Step 2: It reduces conflict and allows joint problem-solving on matters like economic planning and internal security. Step 3: Hence it strengthens the federal system by promoting collaboration.",
+     "answer": "It is the principle of Centre-State cooperation on common matters, important because it reduces conflict and enables joint problem-solving"
+    },
+    {
+     "question": "How does decentralisation strengthen democracy in India?",
+     "solution": "Step 1: Decentralisation shares power with local governments like Panchayats and Municipalities. Step 2: This brings decision-making closer to the people and allows direct participation in governance. Step 3: Thus it makes democracy more participatory and responsive at the grassroots.",
+     "answer": "By sharing power with local governments, it brings decision-making closer to the people and enables direct participation in governance"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concepts of cooperative federalism and decentralisation and their significance for Indian democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the difference between cooperative and competitive federalism?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

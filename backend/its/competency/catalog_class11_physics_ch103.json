@@ -1,0 +1,912 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 103,
+ "chapter_title": "Motion in a Plane",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp101.txt",
+ "concepts": [
+  {
+   "id": "keph.3.1",
+   "title": "Magnitude and Direction of a 2D Vector",
+   "section": "3.5",
+   "definition": "A two-dimensional vector can be completely written as its mutually orthogonal rectangular components, whose root sum of squares gives its overall size and whose ratio gives its angular orientation.",
+   "formula": "magnitude = sqrt(x_comp**2 + y_comp**2), tan_theta = y_comp / x_comp",
+   "key_idea": "The Euclidean length of perpendicular components determines the total vector magnitude.",
+   "textbook_ref": "keph103.txt lines 210-245",
+   "question_patterns": [
+    "find the magnitude of the vector given its components",
+    "calculate the resultant speed from horizontal and vertical components",
+    "what is the magnitude of velocity given vx and vy",
+    "determine the overall vector size from perpendicular components",
+    "work out the value using magnitude and direction of a 2d vector"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum of squares of components",
+     "explain": "Square each perpendicular component and add them together",
+     "compute": "x_comp**2 + y_comp**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Magnitude is the square root of the sum of squares",
+     "compute": "sqrt(sum_sq)"
+    },
+    {
+     "step": 3,
+     "action": "compute direction angle",
+     "explain": "The direction is the arctangent of the ratio of vertical to horizontal component"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving magnitude and direction of a 2d vector.",
+     "solution": "Step 1: sum of squares of components. Step 2: take square root. Step 3: compute direction angle. Working: x_comp**2 + y_comp**2, sqrt(sum_sq).",
+     "answer": "Magnitude and Direction of a 2D Vector applied step by step gives the required result."
+    },
+    {
+     "question": "Apply magnitude and direction of a 2d vector to a fresh example and interpret the result.",
+     "solution": "Step 1: sum of squares of components. Step 2: take square root. Step 3: compute direction angle. Working: x_comp**2 + y_comp**2, sqrt(sum_sq).",
+     "answer": "The method of magnitude and direction of a 2d vector leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.2",
+   "title": "Resultant of Two Perpendicular Vectors",
+   "section": "3.6",
+   "definition": "When two physical vectors act at right angles to one another, their combined effect has a magnitude given by the Pythagorean sum of individual magnitudes.",
+   "formula": "R = sqrt(A**2 + B**2)",
+   "key_idea": "For orthogonal vectors, the cosine cross-term vanishes leaving the square root of the sum of squares.",
+   "textbook_ref": "keph103.txt lines 280-320",
+   "question_patterns": [
+    "find the resultant velocity of rain and wind acting perpendicularly",
+    "calculate the net speed when two motions are at right angles",
+    "what is the magnitude of the resultant of two mutually perpendicular vectors",
+    "determine total velocity from independent orthogonal velocities",
+    "work out the value using resultant of two perpendicular vectors"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square individual magnitudes",
+     "explain": "Compute sum of squares of vector A and vector B",
+     "compute": "vec_a**2 + vec_b**2"
+    },
+    {
+     "step": 2,
+     "action": "evaluate square root",
+     "explain": "The resultant magnitude is the square root of the sum of squares",
+     "compute": "sqrt(sum_squares)"
+    },
+    {
+     "step": 3,
+     "action": "compute direction of resultant",
+     "explain": "The angle of the resultant with the horizontal is the arctangent of the ratio of the two perpendicular magnitudes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving resultant of two perpendicular vectors.",
+     "solution": "Step 1: square individual magnitudes. Step 2: evaluate square root. Step 3: compute direction of resultant. Working: vec_a**2 + vec_b**2, sqrt(sum_squares).",
+     "answer": "Resultant of Two Perpendicular Vectors applied step by step gives the required result."
+    },
+    {
+     "question": "Apply resultant of two perpendicular vectors to a fresh example and interpret the result.",
+     "solution": "Step 1: square individual magnitudes. Step 2: evaluate square root. Step 3: compute direction of resultant. Working: vec_a**2 + vec_b**2, sqrt(sum_squares).",
+     "answer": "The method of resultant of two perpendicular vectors leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.3",
+   "title": "Two-Dimensional Kinematics with Constant Acceleration",
+   "section": "3.8",
+   "definition": "Motion in two dimensions under uniform acceleration separates into two independent straight-line motions along orthogonal axes.",
+   "formula": "x = x0 + vox*t + 0.5*ax*t**2, y = y0 + voy*t + 0.5*ay*t**2",
+   "key_idea": "Orthogonal coordinates evolve independently according to one-dimensional kinematic laws.",
+   "textbook_ref": "keph103.txt lines 430-490",
+   "question_patterns": [
+    "find the position coordinate at a given time under constant 2D acceleration",
+    "calculate the y coordinate of a particle moving in the xy plane",
+    "what is the displacement along an axis after time t",
+    "determine the coordinate of a body with constant acceleration components",
+    "work out the value using two-dimensional kinematics with constant acceleration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute initial velocity contribution",
+     "explain": "Multiply initial velocity component by elapsed time",
+     "compute": "voy * time"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration contribution",
+     "explain": "Calculate displacement due to constant acceleration",
+     "compute": "0.5 * ay * (time**2)"
+    },
+    {
+     "step": 3,
+     "action": "sum position terms",
+     "explain": "Add initial position, initial velocity displacement, and acceleration displacement",
+     "compute": "y0 + disp_v0 + disp_acc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving two-dimensional kinematics with constant acceleration.",
+     "solution": "Step 1: compute initial velocity contribution. Step 2: compute acceleration contribution. Step 3: sum position terms. Working: voy * time, 0.5 * ay * (time**2), y0 + disp_v0 + disp_acc.",
+     "answer": "Two-Dimensional Kinematics with Constant Acceleration applied step by step gives the required result."
+    },
+    {
+     "question": "Apply two-dimensional kinematics with constant acceleration to a fresh example and interpret the result.",
+     "solution": "Step 1: compute initial velocity contribution. Step 2: compute acceleration contribution. Step 3: sum position terms. Working: voy * time, 0.5 * ay * (time**2), y0 + disp_v0 + disp_acc.",
+     "answer": "The method of two-dimensional kinematics with constant acceleration leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.4",
+   "title": "Time of Flight of a Projectile",
+   "section": "3.9",
+   "definition": "The total duration an airborne object spends traversing its parabolic trajectory before returning to its launch elevation.",
+   "formula": "T_f = (2 * v0 * sin_theta) / g",
+   "key_idea": "Time in air depends solely on the vertical launch velocity component and gravitational acceleration.",
+   "textbook_ref": "keph103.txt lines 550-575",
+   "question_patterns": [
+    "find the time of flight of a projectile",
+    "calculate the total time taken by a thrown ball to return to ground level",
+    "how long does the projectile remain in the air",
+    "what is the time of flight given launch speed and angle",
+    "compute the answer step by step for time of flight of a projectile"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute vertical velocity component",
+     "explain": "Multiply launch speed by sine of launch angle",
+     "compute": "v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute total flight duration",
+     "explain": "Double the vertical speed and divide by acceleration due to gravity",
+     "compute": "2 * voy / g"
+    },
+    {
+     "step": 3,
+     "action": "compute time to reach maximum height",
+     "explain": "The time to reach the peak is half the total time of flight since the upward and downward phases are symmetric",
+     "compute": "voy / g"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving time of flight of a projectile.",
+     "solution": "Step 1: compute vertical velocity component. Step 2: compute total flight duration. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, 2 * voy / g, voy / g.",
+     "answer": "Time of Flight of a Projectile applied step by step gives the required result."
+    },
+    {
+     "question": "Apply time of flight of a projectile to a fresh example and interpret the result.",
+     "solution": "Step 1: compute vertical velocity component. Step 2: compute total flight duration. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, 2 * voy / g, voy / g.",
+     "answer": "The method of time of flight of a projectile leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.5",
+   "title": "Maximum Height of a Projectile",
+   "section": "3.9",
+   "definition": "The highest vertical altitude reached by a projectile during flight, occurring when the vertical velocity component momentarily reaches zero.",
+   "formula": "H_m = (v0 * sin_theta)**2 / (2 * g)",
+   "key_idea": "The peak altitude is governed exclusively by the initial vertical velocity component.",
+   "textbook_ref": "keph103.txt lines 570-590",
+   "question_patterns": [
+    "calculate the maximum height reached by a projectile",
+    "find the peak altitude of a thrown ball",
+    "what is the highest elevation attained during projectile flight",
+    "determine maximum vertical height from projection velocity and angle",
+    "compute the answer step by step for maximum height of a projectile"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate vertical velocity component",
+     "explain": "Multiply initial velocity by sine of elevation angle",
+     "compute": "v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute maximum height",
+     "explain": "Square vertical velocity component and divide by twice gravitational acceleration",
+     "compute": "(voy**2) / (2 * g)"
+    },
+    {
+     "step": 3,
+     "action": "compute time to reach maximum height",
+     "explain": "The time to reach the peak equals the vertical velocity component divided by gravitational acceleration",
+     "compute": "voy / g"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving maximum height of a projectile.",
+     "solution": "Step 1: calculate vertical velocity component. Step 2: compute maximum height. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, (voy**2) / (2 * g), voy / g.",
+     "answer": "Maximum Height of a Projectile applied step by step gives the required result."
+    },
+    {
+     "question": "Apply maximum height of a projectile to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate vertical velocity component. Step 2: compute maximum height. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, (voy**2) / (2 * g), voy / g.",
+     "answer": "The method of maximum height of a projectile leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.6",
+   "title": "Horizontal Range of a Projectile",
+   "section": "3.9",
+   "definition": "The total horizontal span traversed by a projectile from its launch position to the point where it returns to the projection level.",
+   "formula": "R = (v0**2 * sin_2theta) / g, R_max = v0**2 / g",
+   "key_idea": "Range is maximized at an launch angle of 45 degrees where sin(2*theta) equals unity.",
+   "textbook_ref": "keph103.txt lines 585-615",
+   "question_patterns": [
+    "find the horizontal range of a projectile",
+    "calculate the distance from thrower where the ball lands",
+    "what is the maximum horizontal distance reachable for a given throw speed",
+    "how far does a projectile travel horizontally",
+    "solve a numerical on horizontal range of a projectile"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute square of initial velocity",
+     "explain": "Square the projection speed",
+     "compute": "v0**2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by trigonometric factor and divide by g",
+     "explain": "Multiply squared speed by sin(2*theta) and divide by g",
+     "compute": "(v0_sq * sin_2theta) / g"
+    },
+    {
+     "step": 3,
+     "action": "compute maximum range",
+     "explain": "The maximum range occurs at 45 degrees where sin(2*theta) equals one, giving v0 squared divided by g",
+     "compute": "v0_sq / g"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving horizontal range of a projectile.",
+     "solution": "Step 1: compute square of initial velocity. Step 2: multiply by trigonometric factor and divide by g. Step 3: compute maximum range. Working: v0**2, (v0_sq * sin_2theta) / g, v0_sq / g.",
+     "answer": "Horizontal Range of a Projectile applied step by step gives the required result."
+    },
+    {
+     "question": "Apply horizontal range of a projectile to a fresh example and interpret the result.",
+     "solution": "Step 1: compute square of initial velocity. Step 2: multiply by trigonometric factor and divide by g. Step 3: compute maximum range. Working: v0**2, (v0_sq * sin_2theta) / g, v0_sq / g.",
+     "answer": "The method of horizontal range of a projectile leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.7",
+   "title": "Centripetal Acceleration from Speed and Radius",
+   "section": "3.10",
+   "definition": "The inward radial acceleration felt by a body traveling along a circular trajectory at constant speed.",
+   "formula": "a_c = v**2 / R",
+   "key_idea": "Continuously redirecting the velocity vector toward the circle's centre produces radial acceleration.",
+   "textbook_ref": "keph103.txt lines 660-705",
+   "question_patterns": [
+    "find the centripetal acceleration of an object in circular motion",
+    "calculate the radial acceleration given linear speed and radius",
+    "what is the acceleration of a particle moving with constant speed along a circle",
+    "determine centripetal acceleration from velocity and curvature radius",
+    "work out the value using centripetal acceleration from speed and radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the linear speed",
+     "explain": "Compute the square of tangential velocity",
+     "compute": "speed**2"
+    },
+    {
+     "step": 2,
+     "action": "divide by orbital radius",
+     "explain": "Divide squared speed by radius of circular path",
+     "compute": "v_sq / radius"
+    },
+    {
+     "step": 3,
+     "action": "compute centripetal force",
+     "explain": "Multiply centripetal acceleration by the mass of the object to obtain the inward force",
+     "compute": "mass * centripetal_acc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving centripetal acceleration from speed and radius.",
+     "solution": "Step 1: square the linear speed. Step 2: divide by orbital radius. Step 3: compute centripetal force. Working: speed**2, v_sq / radius, mass * centripetal_acc.",
+     "answer": "Centripetal Acceleration from Speed and Radius applied step by step gives the required result."
+    },
+    {
+     "question": "Apply centripetal acceleration from speed and radius to a fresh example and interpret the result.",
+     "solution": "Step 1: square the linear speed. Step 2: divide by orbital radius. Step 3: compute centripetal force. Working: speed**2, v_sq / radius, mass * centripetal_acc.",
+     "answer": "The method of centripetal acceleration from speed and radius leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.3.8",
+   "title": "Centripetal Acceleration in terms of Frequency and Radius",
+   "section": "3.10",
+   "definition": "Centripetal acceleration expressed in terms of the rate of revolution or rotational frequency and circular radius.",
+   "formula": "omega = 2 * pi * frequency, a_c = 4 * (pi**2) * (frequency**2) * R",
+   "key_idea": "Circular acceleration scales with the square of rotation rate and directly with path radius.",
+   "textbook_ref": "keph103.txt lines 715-760",
+   "question_patterns": [
+    "calculate centripetal acceleration given revolutions and time",
+    "find the angular speed and radial acceleration from rotational frequency",
+    "what is the acceleration of a revolving body given revolutions per second",
+    "determine circular acceleration from frequency and radius",
+    "calculate centripetal acceleration in terms of frequency and radius for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine rotational frequency",
+     "explain": "Divide number of revolutions by total time taken",
+     "compute": "revolutions / time_taken"
+    },
+    {
+     "step": 2,
+     "action": "compute angular velocity",
+     "explain": "Multiply rotational frequency by 2*pi",
+     "compute": "2 * pi * freq"
+    },
+    {
+     "step": 3,
+     "action": "compute centripetal acceleration",
+     "explain": "Multiply square of angular velocity by radius",
+     "compute": "(omega**2) * radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving centripetal acceleration in terms of frequency and radius.",
+     "solution": "Step 1: determine rotational frequency. Step 2: compute angular velocity. Step 3: compute centripetal acceleration. Working: revolutions / time_taken, 2 * pi * freq, (omega**2) * radius.",
+     "answer": "Centripetal Acceleration in terms of Frequency and Radius applied step by step gives the required result."
+    },
+    {
+     "question": "Apply centripetal acceleration in terms of frequency and radius to a fresh example and interpret the result.",
+     "solution": "Step 1: determine rotational frequency. Step 2: compute angular velocity. Step 3: compute centripetal acceleration. Working: revolutions / time_taken, 2 * pi * freq, (omega**2) * radius.",
+     "answer": "The method of centripetal acceleration in terms of frequency and radius leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex3.1",
+   "source_ref": "keph103.txt lines 145-175",
+   "concept": "keph.3.2",
+   "question_type": "compute",
+   "question_pattern": "Rain is falling vertically with a speed of {vec_a} m/s. Wind starts blowing with a speed of {vec_b} m/s in horizontal direction. Find the resultant speed.",
+   "extracted_variables": {
+    "vec_a": "rain falling speed in m/s",
+    "vec_b": "horizontal wind speed in m/s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square individual magnitudes",
+     "explain": "Compute sum of squares of vector A and vector B",
+     "compute": "sum_squares = vec_a**2 + vec_b**2"
+    },
+    {
+     "step": 2,
+     "action": "evaluate square root",
+     "explain": "The resultant magnitude is the square root of the sum of squares",
+     "compute": "resultant = sqrt(sum_squares)"
+    }
+   ]
+  },
+  {
+   "id": "ex3.8a",
+   "source_ref": "keph103.txt lines 625-645",
+   "concept": "keph.3.5",
+   "question_type": "compute",
+   "question_pattern": "A cricket ball is thrown at a speed of {v0} m/s at an angle whose sine is {sin_theta}. Taking g = {g}, calculate the maximum height.",
+   "extracted_variables": {
+    "v0": "initial projection speed in m/s",
+    "sin_theta": "sine of projection angle",
+    "g": "acceleration due to gravity in m/s^2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate vertical velocity component",
+     "explain": "Multiply initial velocity by sine of elevation angle",
+     "compute": "voy = v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute maximum height",
+     "explain": "Square vertical velocity component and divide by twice gravitational acceleration",
+     "compute": "max_height = (voy**2) / (2 * g)"
+    }
+   ]
+  },
+  {
+   "id": "ex3.8b",
+   "source_ref": "keph103.txt lines 625-645",
+   "concept": "keph.3.4",
+   "question_type": "compute",
+   "question_pattern": "A cricket ball is thrown at a speed of {v0} m/s at an angle whose sine is {sin_theta}. Taking g = {g}, calculate the time taken to return to the same level.",
+   "extracted_variables": {
+    "v0": "initial projection speed in m/s",
+    "sin_theta": "sine of launch angle",
+    "g": "acceleration due to gravity in m/s^2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute vertical velocity component",
+     "explain": "Multiply launch speed by sine of launch angle",
+     "compute": "voy = v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute total flight duration",
+     "explain": "Double the vertical speed and divide by acceleration due to gravity",
+     "compute": "time_of_flight = 2 * voy / g"
+    }
+   ]
+  },
+  {
+   "id": "ex3.9",
+   "source_ref": "keph103.txt lines 740-760",
+   "concept": "keph.3.8",
+   "question_type": "compute",
+   "question_pattern": "An insect in a circular groove of radius {radius} cm completes {revolutions} revolutions in {time_taken} s. Calculate its centripetal acceleration.",
+   "extracted_variables": {
+    "radius": "radius of the circular groove in cm",
+    "revolutions": "number of complete rotations",
+    "time_taken": "time taken in seconds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine rotational frequency",
+     "explain": "Divide number of revolutions by total time taken",
+     "compute": "freq = revolutions / time_taken"
+    },
+    {
+     "step": 2,
+     "action": "compute angular velocity",
+     "explain": "Multiply rotational frequency by 2*pi",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 3,
+     "action": "compute centripetal acceleration",
+     "explain": "Multiply square of angular velocity by radius",
+     "compute": "centripetal_acc = (omega**2) * radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "keph103.txt lines 210-245",
+   "concept": "keph.3.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnitude and direction of a 2d vector step by step",
+   "extracted_variables": {
+    "x_comp": "value of x_comp",
+    "y_comp": "value of y_comp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum of squares of components",
+     "explain": "Square each perpendicular component and add them together",
+     "compute": "sum_sq = x_comp**2 + y_comp**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Magnitude is the square root of the sum of squares",
+     "compute": "magnitude = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "keph103.txt lines 280-320",
+   "concept": "keph.3.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute resultant of two perpendicular vectors step by step",
+   "extracted_variables": {
+    "vec_a": "value of vec_a",
+    "vec_b": "value of vec_b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square individual magnitudes",
+     "explain": "Compute sum of squares of vector A and vector B",
+     "compute": "sum_squares = vec_a**2 + vec_b**2"
+    },
+    {
+     "step": 2,
+     "action": "evaluate square root",
+     "explain": "The resultant magnitude is the square root of the sum of squares",
+     "compute": "resultant = sqrt(sum_squares)"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "keph103.txt lines 430-490",
+   "concept": "keph.3.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute two-dimensional kinematics with constant acceleration step by step",
+   "extracted_variables": {
+    "voy": "value of voy",
+    "time": "value of time",
+    "ay": "value of ay",
+    "y0": "value of y0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute initial velocity contribution",
+     "explain": "Multiply initial velocity component by elapsed time",
+     "compute": "disp_v0 = voy * time"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration contribution",
+     "explain": "Calculate displacement due to constant acceleration",
+     "compute": "disp_acc = 0.5 * ay * (time**2)"
+    },
+    {
+     "step": 3,
+     "action": "sum position terms",
+     "explain": "Add initial position, initial velocity displacement, and acceleration displacement",
+     "compute": "pos_y = y0 + disp_v0 + disp_acc"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "keph103.txt lines 550-575",
+   "concept": "keph.3.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute time of flight of a projectile step by step",
+   "extracted_variables": {
+    "v0": "value of v0",
+    "sin_theta": "value of sin_theta",
+    "g": "value of g"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute vertical velocity component",
+     "explain": "Multiply launch speed by sine of launch angle",
+     "compute": "voy = v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute total flight duration",
+     "explain": "Double the vertical speed and divide by acceleration due to gravity",
+     "compute": "time_of_flight = 2 * voy / g"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "keph103.txt lines 570-590",
+   "concept": "keph.3.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute maximum height of a projectile step by step",
+   "extracted_variables": {
+    "v0": "value of v0",
+    "sin_theta": "value of sin_theta",
+    "g": "value of g"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate vertical velocity component",
+     "explain": "Multiply initial velocity by sine of elevation angle",
+     "compute": "voy = v0 * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "compute maximum height",
+     "explain": "Square vertical velocity component and divide by twice gravitational acceleration",
+     "compute": "max_height = (voy**2) / (2 * g)"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "keph103.txt lines 585-615",
+   "concept": "keph.3.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute horizontal range of a projectile step by step",
+   "extracted_variables": {
+    "v0": "value of v0",
+    "sin_2theta": "value of sin_2theta",
+    "g": "value of g"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute square of initial velocity",
+     "explain": "Square the projection speed",
+     "compute": "v0_sq = v0**2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by trigonometric factor and divide by g",
+     "explain": "Multiply squared speed by sin(2*theta) and divide by g",
+     "compute": "range_dist = (v0_sq * sin_2theta) / g"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "keph103.txt lines 660-705",
+   "concept": "keph.3.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute centripetal acceleration from speed and radius step by step",
+   "extracted_variables": {
+    "speed": "value of speed",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the linear speed",
+     "explain": "Compute the square of tangential velocity",
+     "compute": "v_sq = speed**2"
+    },
+    {
+     "step": 2,
+     "action": "divide by orbital radius",
+     "explain": "Divide squared speed by radius of circular path",
+     "compute": "centripetal_acc = v_sq / radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "keph103.txt lines 715-760",
+   "concept": "keph.3.8",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute centripetal acceleration in terms of frequency and radius step by step",
+   "extracted_variables": {
+    "revolutions": "value of revolutions",
+    "time_taken": "value of time_taken",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine rotational frequency",
+     "explain": "Divide number of revolutions by total time taken",
+     "compute": "freq = revolutions / time_taken"
+    },
+    {
+     "step": 2,
+     "action": "compute angular velocity",
+     "explain": "Multiply rotational frequency by 2*pi",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 3,
+     "action": "compute centripetal acceleration",
+     "explain": "Multiply square of angular velocity by radius",
+     "compute": "centripetal_acc = (omega**2) * radius"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "keph103.txt lines 210-245",
+   "concept": "keph.3.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnitude and direction of a 2d vector step by step",
+   "extracted_variables": {
+    "x_comp": "value of x_comp",
+    "y_comp": "value of y_comp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum of squares of components",
+     "explain": "Square each perpendicular component and add them together",
+     "compute": "sum_sq = x_comp**2 + y_comp**2"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "Magnitude is the square root of the sum of squares",
+     "compute": "magnitude = sqrt(sum_sq)"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "keph103.txt lines 430-490",
+   "concept": "keph.3.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute two-dimensional kinematics with constant acceleration step by step",
+   "extracted_variables": {
+    "voy": "value of voy",
+    "time": "value of time",
+    "ay": "value of ay",
+    "y0": "value of y0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute initial velocity contribution",
+     "explain": "Multiply initial velocity component by elapsed time",
+     "compute": "disp_v0 = voy * time"
+    },
+    {
+     "step": 2,
+     "action": "compute acceleration contribution",
+     "explain": "Calculate displacement due to constant acceleration",
+     "compute": "disp_acc = 0.5 * ay * (time**2)"
+    },
+    {
+     "step": 3,
+     "action": "sum position terms",
+     "explain": "Add initial position, initial velocity displacement, and acceleration displacement",
+     "compute": "pos_y = y0 + disp_v0 + disp_acc"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "keph103.txt lines 585-615",
+   "concept": "keph.3.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute horizontal range of a projectile step by step",
+   "extracted_variables": {
+    "v0": "value of v0",
+    "sin_2theta": "value of sin_2theta",
+    "g": "value of g"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute square of initial velocity",
+     "explain": "Square the projection speed",
+     "compute": "v0_sq = v0**2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by trigonometric factor and divide by g",
+     "explain": "Multiply squared speed by sin(2*theta) and divide by g",
+     "compute": "range_dist = (v0_sq * sin_2theta) / g"
+    }
+   ]
+  },
+  {
+   "id": "exauto12",
+   "source_ref": "keph103.txt lines 660-705",
+   "concept": "keph.3.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute centripetal acceleration from speed and radius step by step",
+   "extracted_variables": {
+    "speed": "value of speed",
+    "radius": "value of radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the linear speed",
+     "explain": "Compute the square of tangential velocity",
+     "compute": "v_sq = speed**2"
+    },
+    {
+     "step": 2,
+     "action": "divide by orbital radius",
+     "explain": "Divide squared speed by radius of circular path",
+     "compute": "centripetal_acc = v_sq / radius"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "keph103.txt line 810",
+   "questions": [
+    "State, for each of the following physical quantities, if it is a scalar or a vector: volume, mass, speed, acceleration, density, number of moles, velocity, angular frequency, displacement, angular velocity."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "keph103.txt line 814",
+   "questions": [
+    "Pick out the two scalar quantities in the following list: force, angular momentum, work, current, linear momentum, electric field, average velocity, magnetic moment, relative velocity."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "keph103.txt line 818",
+   "questions": [
+    "Pick out the only vector quantity in the following list: Temperature, pressure, impulse, time, power, total path length, energy, gravitational potential, coefficient of friction, charge."
+   ]
+  },
+  {
+   "id": "ex3.8",
+   "source_ref": "keph103.txt line 836",
+   "questions": [
+    "Three girls skating on a circular ice ground of radius 200 m start from a point P on the edge of the ground and reach a point Q diametrically opposite to P following different paths. What is the magnitude of the displacement vector for each? For which girl is this equal to the actual length of path skated?"
+   ]
+  },
+  {
+   "id": "ex3.12",
+   "source_ref": "keph103.txt line 850",
+   "questions": [
+    "The ceiling of a long hall is 25 m high. What is the maximum horizontal distance that a ball thrown with a speed of 40 m/s can go without hitting the ceiling of the hall?"
+   ]
+  },
+  {
+   "id": "ex3.13",
+   "source_ref": "keph103.txt line 853",
+   "questions": [
+    "A cricketer can throw a ball to a maximum horizontal distance of 100 m. How much high above the ground can the cricketer throw the same ball?"
+   ]
+  },
+  {
+   "id": "ex3.14",
+   "source_ref": "keph103.txt line 855",
+   "questions": [
+    "A stone tied to the end of a string 80 cm long is whirled in a horizontal circle with a constant speed. If the stone makes 14 revolutions in 25 s, what is the magnitude and direction of acceleration of the stone?"
+   ]
+  },
+  {
+   "id": "ex3.15",
+   "source_ref": "keph103.txt line 858",
+   "questions": [
+    "An aircraft executes a horizontal loop of radius 1.00 km with a steady speed of 900 km/h. Compare its centripetal acceleration with the acceleration due to gravity."
+   ]
+  },
+  {
+   "id": "ex3.18",
+   "source_ref": "keph103.txt line 869",
+   "questions": [
+    "A particle starts from the origin at t = 0 s with a velocity of 10.0 j m/s and moves in the x-y plane with a constant acceleration of (8.0i + 2.0j) m/s^2. (a) At what time is the x-coordinate of the particle 16 m? What is the y-coordinate of the particle at that time? (b) What is the speed of the particle at the time?"
+   ]
+  },
+  {
+   "id": "ex3.22",
+   "source_ref": "keph103.txt line 888",
+   "questions": [
+    "An aircraft is flying at a height of 3400 m above the ground. If the angle subtended at a ground observation point by the aircraft positions 10.0 s apart is 30 degrees, what is the speed of the aircraft?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

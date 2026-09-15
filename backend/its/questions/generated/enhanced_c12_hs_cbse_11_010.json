@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_010",
+   "title": "c12_hs_cbse_11_010",
+   "questions": [
+    {
+     "q": "List four essential criteria for selecting a sofa for a family with young children and a pet dog.",
+     "a": "Correct answer: 1) Durable, stain-resistant fabric (e.g., microfiber, leatherette) that withstands spills and claws; 2) Rounded edges and sturdy frame (hardwood or kiln-dried wood) for safety and longevity; 3) High-resilience foam cushions that retain shape after heavy use; 4) Removable, machine-washable covers for easy cleaning. A wrong answer that only mentions \"color matching the curtains\" or \"low price\" reveals the misconception that aesthetics or cost alone drive selection, ignoring the functional demands of the user group.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"proportion\" is a critical principle when arranging furniture in a small room (e.g., 3 m × 3 m).",
+     "a": "Correct answer: Proportion ensures each piece relates harmoniously to the room size and to other pieces. In a 3 m × 3 m room, a massive 3-seater sofa (2.2 m long) would dominate the space, block traffic, and make the room feel cramped, whereas a compact 2-seater (1.6 m) with a slim-profile armchair leaves breathing room and maintains visual balance. A wrong answer that says \"proportion just means the furniture fits through the door\" reveals confusion between physical fit and visual/functional proportion.",
+     "self_check": true
+    },
+    {
+     "q": "A bedroom measures 3.5 m × 4 m with a window on the 3.5 m wall and a door on the opposite 3.5 m wall. The occupant needs a double bed, a wardrobe, a study table, and a chair. Sketch a furniture arrangement (describe in words) that ensures clear traffic flow from door to window and bed to wardrobe, and provides adequate task lighting for the study table.",
+     "a": "Correct arrangement: Place the bed with its head against the 4 m wall adjacent to the window (so natural light falls on the pillow, not the face). Position the wardrobe on the opposite 4 m wall, centered. Put the study table under the window (for daylight) with the chair tucked under it. Keep a 90 cm wide clear path from the door to the window along the foot of the bed, and a 75 cm path from the bed to the wardrobe. A wrong answer that puts the bed against the window wall blocking the window, or places the study table in the traffic lane, shows failure to apply traffic-flow and lighting principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare solid wood (e.g., sheesham) and engineered wood (e.g., BWP-grade plywood with veneer) for a dining table in a humid coastal climate. Consider durability, cost, maintenance, and environmental impact.",
+     "a": "Correct analysis: Solid wood is durable and refinishable but expands/contracts with humidity, risking warping or cracking unless kiln-dried and sealed; it is expensive (₹30,000–₹60,000) and has higher embodied energy. Engineered wood (BWP plywood) is dimensionally stable in humidity, costs 40–50% less (₹15,000–₹25,000), requires only wipe-clean maintenance, and uses less timber per unit. However, it cannot be sanded deeply and may delaminate if edges are not sealed. For coastal humidity, engineered wood with a quality veneer and sealed edges is the pragmatic choice. A wrong answer that picks solid wood solely because \"it's natural and lasts generations\" ignores the climate-specific failure mode and budget constraint.",
+     "self_check": true
+    },
+    {
+     "q": "A family with an elderly grandparent (uses a walker) and a toddler wants to buy a trendy glass-top coffee table with sharp metal edges for their living room. Critique this choice and recommend a safer alternative that still meets aesthetic goals.",
+     "a": "Correct evaluation: The glass top poses shatter risk if the walker hits it; sharp metal edges are a laceration hazard for the toddler; the transparent top creates visual ambiguity for the elderly person with reduced depth perception. Better alternative: A round/oval upholstered ottoman with a firm, flat top (serves as coffee table, extra seating, and footrest) in a stain-resistant fabric. It eliminates sharp corners, provides a soft surface, adds texture/color, and can have hidden storage. A wrong answer that says \"tempered glass is safe because it breaks into small pieces\" overlooks the injury risk from the break event itself and the ongoing hazard of sharp metal edges.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-functional furniture piece for a 20 m² studio apartment that serves as a bed (for one adult), a wardrobe, and a work desk. Describe its key features, dimensions, materials, and how it would be arranged in the room.",
+     "a": "Expected answer: A loft bed (sleeping area 2 m × 1 m, raised 1.8 m high) with a built-in wardrobe underneath (1 m deep, full width) and a pull-out desk (1 m × 0.6 m) on sliding rails that extends from the wardrobe face. Frame: 18 mm BWP plywood with laminate finish; mattress: 150 mm high-density foam. Ladder doubles as storage shelves. Arrangement: Place the unit against the longest wall (4 m), leaving 2.5 m × 3 m clear floor for living/dining. A poor answer that simply lists \"sofa-bed + separate desk + wardrobe\" misses the integration challenge and space-saving requirement of a studio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

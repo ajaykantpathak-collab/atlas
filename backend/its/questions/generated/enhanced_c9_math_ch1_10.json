@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_10",
+   "title": "c9_math_ch1_10",
+   "questions": [
+    {
+     "q": "State the condition for three points A, B, and C to be collinear using the distance formula. Write the equation that must hold true.",
+     "a": "The condition is that the sum of the lengths of any two segments equals the length of the third segment. For example, AB + BC = AC (if B lies between A and C), or AB + AC = BC (if A lies between B and C), or AC + BC = AB (if C lies between A and B). A wrong answer like \"AB = BC = AC\" reveals the student confuses collinearity with equidistant points or an equilateral triangle. A response \"AB² + BC² = AC²\" shows confusion with the Pythagorean theorem for right triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Three points P(1, 2), Q(4, 6), and R(7, 10) are given. A student calculates PQ = 5, QR = 5, and PR = 10, then says \"PQ + QR = PR, so the points are collinear.\" Is the student's conclusion correct? Explain why or why not, referring to the distance formula.",
+     "a": "Yes, the conclusion is correct. The distances satisfy PQ + QR = 5 + 5 = 10 = PR, which means Q lies between P and R on a straight line. A student who says \"No, because PQ = QR so it's an isosceles triangle\" misunderstands that equal distances do not prevent collinearity; they only indicate Q is the midpoint of PR. A student who says \"We need to check slopes\" is using a different method, not the distance formula condition asked for.",
+     "self_check": true
+    },
+    {
+     "q": "Points A(–2, 1), B(2, 3), and C(6, 5) are plotted. Calculate AB, BC, and AC using the distance formula. Determine if A, B, C are collinear. Show all steps.",
+     "a": "AB = √[(2−(−2))² + (3−1)²] = √[4² + 2²] = √(16+4) = √20 = 2√5 ≈ 4.472.  \nBC = √[(6−2)² + (5−3)²] = √[4² + 2²] = √20 = 2√5 ≈ 4.472.  \nAC = √[(6−(−2))² + (5−1)²] = √[8² + 4²] = √(64+16) = √80 = 4√5 ≈ 8.944.  \nAB + BC = 2√5 + 2√5 = 4√5 = AC. Therefore, the points are collinear. A wrong answer like AB = √20, BC = √20, AC = √80 but then saying \"not collinear because AB ≠ BC\" reveals the student thinks collinearity requires equal distances. A computational error like AC = √(8²+4²) = √(64+16) = √70 shows incorrect addition under the radical.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distance formula method and the area of triangle method for checking collinearity. When would the distance formula method be computationally simpler? When would the area method be simpler? Give one example of coordinates for each case.",
+     "a": "The distance formula method is simpler when coordinates are small integers and the distances work out to perfect squares (e.g., A(0,0), B(3,4), C(6,8) → distances 5, 5, 10). The area method (½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|) is simpler when coordinates involve fractions or radicals that make squaring and square roots messy, because the area formula avoids square roots entirely (e.g., A(1/2, 1/3), B(2/3, 3/4), C(5/6, 7/8)). A student who says \"distance formula is always easier\" fails to recognize that square roots of non-perfect squares create approximation errors, while the area method gives an exact zero test.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that points D(1, 1), E(4, 5), and F(7, 9) are collinear because the differences in x-coordinates are equal (3 each) and differences in y-coordinates are equal (4 each). Evaluate this reasoning. Is it a valid proof of collinearity using the distance formula? If not, what is missing?",
+     "a": "The reasoning is essentially the slope method (equal Δy/Δx), not the distance formula method. While the conclusion is correct (the points are collinear), the student did not use the distance formula condition AB + BC = AC. To use the distance formula, the student must compute DE = √(3²+4²)=5, EF = √(3²+4²)=5, DF = √(6²+8²)=10, and verify DE+EF=DF. The student's argument is a valid geometric observation but does not satisfy the requirement \"using the distance formula.\" A wrong evaluation like \"Yes, it's valid because equal steps mean straight line\" confuses the method with the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a surveyor must check if three boundary stones are in a straight line using their GPS coordinates. Provide coordinates for the three stones such that they are NOT collinear, but the distances are close enough that a rounding error could mislead someone. Explain how to avoid the error.",
+     "a": "Problem: A surveyor records three boundary stones at A(100, 200), B(103, 204), C(106, 209) (in metres). Compute AB = √(3²+4²)=5, BC = √(3²+5²)=√34≈5.831, AC = √(6²+9²)=√117≈10.817. AB+BC≈10.831 ≠ AC. They are not collinear. If the surveyor rounds BC to 5.8 and AC to 10.8, AB+BC=10.8 might falsely appear equal. To avoid this, always use exact radical forms (√34, √117) or compare squares: check if (AB+BC)² = AC²? Actually, better: check if AB² + BC² + 2·AB·BC = AC²? No, the exact condition is AB+BC=AC. Use exact values or a tolerance like 0.001 m. A poor answer gives collinear points or ignores the rounding issue.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

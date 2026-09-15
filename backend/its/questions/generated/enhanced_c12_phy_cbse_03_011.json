@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_03_011",
+   "title": "c12_phy_cbse_03_011",
+   "questions": [
+    {
+     "q": "State the three equivalent formulas for electrical power dissipated in a resistor and give the SI unit of each quantity in the formulas.",
+     "a": "The three formulas are \\(P = VI\\), \\(P = I^2R\\), and \\(P = V^2/R\\). SI units: \\(P\\) in watts (W), \\(V\\) in volts (V), \\(I\\) in amperes (A), \\(R\\) in ohms (Ω). A wrong answer (e.g., missing one formula or giving incorrect units like J for power) reveals that the student has not internalised the algebraic equivalence derived from Ohm's law and the definition of power, which is essential for choosing the convenient form in numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since \\(P = V^2/R\\), if I double the voltage across a resistor, the power becomes four times. But from \\(P = I^2R\\), if I double the voltage, the current also doubles (Ohm's law), so power becomes four times as well. So both formulas agree.\" Is the student's reasoning correct? Explain why or why not.",
+     "a": "Yes, the reasoning is correct. Both formulas are mathematically equivalent via Ohm's law (\\(V = IR\\)). Substituting \\(I = V/R\\) into \\(P = I^2R\\) gives \\(P = (V/R)^2 R = V^2/R\\). The student correctly identifies that doubling \\(V\\) doubles \\(I\\) (for an ohmic resistor), leading to a factor of 4 increase in power in both expressions. A wrong answer (e.g., saying they disagree) reveals a failure to recognise that the formulas are not independent but are linked by Ohm's law, and that the physical situation (ohmic conductor) must be consistent.",
+     "self_check": true
+    },
+    {
+     "q": "An electric geyser rated 2000 W, 230 V is used for 1.5 hours daily. Calculate (a) the current drawn by the geyser, (b) its resistance when hot, and (c) the electrical energy consumed in 30 days in kWh and in joules.",
+     "a": "(a) \\(P = VI \\Rightarrow I = P/V = 2000/230 = 8.696\\) A ≈ 8.70 A.\n(b) \\(R = V/I = 230/8.696 = 26.45\\) Ω ≈ 26.5 Ω. (Alternatively \\(R = V^2/P = 230^2/2000 = 26.45\\) Ω.)\n(c) Energy per day = \\(2 \\text{ kW} \\times 1.5 \\text{ h} = 3 \\text{ kWh}\\). In 30 days = \\(90 \\text{ kWh}\\). In joules: \\(90 \\times 3.6 \\times 10^6 = 3.24 \\times 10^8\\) J.\nA wrong answer (e.g., using \\(P = I^2R\\) with cold resistance, or forgetting to convert kW to W, or misplacing decimal in kWh to J conversion) reveals confusion about rated values vs. operating values, unit conversion between commercial and SI units, or algebraic manipulation errors.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical resistors \\(R\\) are connected (i) in series and (ii) in parallel across the same battery of voltage \\(V\\) (negligible internal resistance). Compare the total power dissipated in the two cases. Which case draws more power from the battery? Explain using the appropriate power formula.",
+     "a": "Series: \\(R_{\\text{eq}} = 2R\\), total power \\(P_s = V^2/(2R)\\). Parallel: \\(R_{\\text{eq}} = R/2\\), total power \\(P_p = V^2/(R/2) = 2V^2/R\\). Ratio \\(P_p/P_s = 4\\). The parallel combination draws four times the power (and current) because the equivalent resistance is lower. Using \\(P = V^2/R\\) is most direct since \\(V\\) is the same across the combination in both cases. A wrong answer (e.g., saying series draws more power because current is same, or calculating power per resistor instead of total) reveals misunderstanding of equivalent resistance and the fact that the battery maintains constant voltage, not constant current.",
+     "self_check": true
+    },
+    {
+     "q": "A transmission line has a total resistance of 10 Ω. It delivers 1 MW of power to a substation. Calculate the power loss in the line if the transmission voltage is (i) 11 kV and (ii) 220 kV. Comment on the result.",
+     "a": "Power delivered \\(P = 1 \\times 10^6\\) W. Current \\(I = P/V\\).\n(i) \\(V = 11 \\times 10^3\\) V → \\(I = 10^6 / (11 \\times 10^3) = 90.9\\) A. Power loss \\(P_{\\text{loss}} = I^2R = (90.9)^2 \\times 10 = 82,600\\) W = 82.6 kW. Loss fraction = 8.26%.\n(ii) \\(V = 220 \\times 10^3\\) V → \\(I = 10^6 / (220 \\times 10^3) = 4.545\\) A. Power loss \\(P_{\\text{loss}} = (4.545)^2 \\times 10 = 206.6\\) W. Loss fraction = 0.0207%.\nIncreasing voltage by 20 times reduces current by 20 times and power loss by 400 times (since \\(P_{\\text{loss}} \\propto I^2 \\propto 1/V^2\\)). A wrong answer (e.g., using \\(P = V^2/R\\) with the transmission voltage instead of the voltage drop across the line resistance) reveals the common misconception that the transmission voltage appears across the line resistance, rather than the load.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 12 V car bulb (rated 21 W), a variable DC power supply (0–15 V), an ammeter, and a voltmeter to verify that the power dissipated in the filament follows \\(P = VI\\) and that the resistance of the filament changes with temperature. Outline the procedure, measurements, and how you would analyse the data.",
+     "a": "Procedure: Connect the bulb in series with the ammeter and power supply; connect the voltmeter across the bulb. Vary the supply voltage from 2 V to 12 V in steps of 1 V. At each step, record \\(V\\) and \\(I\\). Compute \\(P_{\\text{measured}} = VI\\) and \\(R = V/I\\). Plot \\(P\\) vs \\(V\\) and \\(R\\) vs \\(V\\) (or vs \\(I\\)). Analysis: The \\(P\\) vs \\(V\\) curve will be steeper than quadratic because \\(R\\) increases with temperature (higher \\(V\\) → higher \\(I\\) → hotter filament). The \\(R\\) vs \\(V\\) graph will show increasing resistance. A poor answer (e.g., not measuring both \\(V\\) and \\(I\\) simultaneously, assuming constant resistance, or not plotting) reveals lack of understanding of non-ohmic behaviour of filaments and the need to verify \\(P = VI\\) experimentally rather than assuming \\(P = V^2/R\\) with constant \\(R\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

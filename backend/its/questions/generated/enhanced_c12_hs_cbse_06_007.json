@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_007",
+   "title": "c12_hs_cbse_06_007",
+   "questions": [
+    {
+     "q": "A student writes: \"A community is any group of people living in the same village.\" Identify the error in this definition and rewrite it correctly using three essential characteristics from the NCERT framework.",
+     "a": "Error: The definition confuses \"geographical proximity\" with \"community.\" A village is a territorial unit; a community requires (1) social interaction among members, (2) common interests/values/norms, and (3) a sense of belonging/collective identity (\"we-feeling\"). Correct definition: \"A community is a group of people in a defined area who interact socially, share common ties, and possess a collective identity.\" A wrong answer reveals the student memorizes \"village = community\" without understanding the sociological distinction between territorial and social boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a WhatsApp group of 200 Class 12 students from different cities preparing for CUET is NOT a community in the sociological sense, even though they share a common goal. Use the concept of \"territoriality\" and \"face-to-face interaction\" in your answer.",
+     "a": "A WhatsApp group lacks: (1) a defined geographical territory — members are dispersed across cities; (2) sustained face-to-face interaction — communication is mediated, episodic, and task-specific; (3) comprehensive social integration — members don't share daily life, rituals, or mutual obligations beyond exam prep. It is an \"interest group\" or \"virtual network,\" not a community. A wrong answer (e.g., \"it is a community because they help each other\") reveals confusion between instrumental association (goal-based) and community (life-encompassing social system).",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker enters a tribal hamlet and immediately forms a \"Women's Self-Help Group\" without first understanding the existing kinship-based decision-making structure. Which principle of community development is violated? Explain the likely consequence using the concept of \"social organization\" as a community characteristic.",
+     "a": "Violated principle: \"Start from where the people are\" / \"Respect existing social organization.\" Communities have pre-existing structures (kinship, caste, religious leaders) that govern decision-making. Bypassing them creates parallel structures that lack legitimacy, leading to non-participation or conflict. Consequence: The SHG becomes a \"paper group\" — members join for subsidies but don't attend meetings because real decisions still happen in the traditional council. A wrong answer (e.g., \"SHGs always empower women\") reveals ignorance of the principle that community development must work WITH, not against, indigenous social organization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a \"rural community\" and an \"urban slum community\" on four characteristics: (a) territorial boundedness, (b) homogeneity of occupation, (c) nature of social interaction, (d) access to formal institutions. Present as a 2×4 table.",
+     "a": "| Characteristic | Rural Community | Urban Slum Community |\n|----------------|-----------------|----------------------|\n| Territorial boundedness | Clear village revenue boundaries | Ambiguous; often informal settlements on marginal land |\n| Homogeneity of occupation | High (agriculture-dominant) | Low (diverse informal sector: domestic work, construction, vending) |\n| Nature of social interaction | Primary, kinship-based, multiplex | Mix of primary (neighbours) and secondary (employers); often fragmented |\n| Access to formal institutions | Limited but structured (panchayat, PHC, school) | Proximate but exclusionary (hospitals, schools exist but barriers: cost, documentation, discrimination) |\n\nA wrong answer (e.g., \"both are poor so same\") reveals failure to analyze how urbanization transforms community structure — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Community development is successful when the extension worker delivers the maximum number of government schemes to the village.\" Use the principles of \"participation,\" \"self-reliance,\" and \"sustainability\" in your evaluation.",
+     "a": "The statement reflects a \"delivery/top-down\" paradigm, not community development. True community development measures success by: (1) Participation — did villagers *decide* which schemes they need? (2) Self-reliance — did the process build local capacity to manage resources without external dependency? (3) Sustainability — will the benefits continue after the extension worker leaves? If 10 schemes are delivered but the village cannot maintain a single hand-pump, development has failed. A wrong answer (e.g., \"more schemes = more development\") reveals confusion between *output* (schemes delivered) and *outcome* (empowered community) — a critical distinction in both board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step community development intervention for a peri-urban settlement where youth are unemployed but the community has strong religious institutions and a weekly haat (market). Your plan must: (a) use existing social organization, (b) build economic activity, (c) ensure youth leadership. Write as a numbered protocol.",
+     "a": "1. **Participatory Asset Mapping with Religious Leaders**: Convene temple/mosque/gurdwara trustees and youth representatives. Map: (a) physical assets (haat space, community hall), (b) social assets (trust networks, festival organizing skills), (c) economic assets (local demand for snacks, tailoring, bike repair). *Why*: Uses existing legitimate authority (religious institutions) to legitimize youth involvement.\n2. **Co-Create Micro-Enterprise Clusters at the Haat**: Youth form 3-4 groups based on mapped skills (e.g., food cart collective, repair kiosk, recycled crafts). Each group gets a \"starter kit\" (raw materials, basic tools) co-funded by community crowdfunding (₹50/household) + panchayat matching grant. *Why*: Builds economic activity *at* the existing market node; community investment ensures accountability.\n3. **Institutionalize Youth Governance**: Register clusters as a \"Youth Livelihood Cooperative\" under the State Cooperative Act. Office-bearers rotate quarterly. Monthly review at the community hall with religious trustees as mentors. *Why*: Formalizes youth leadership; rotation prevents capture; mentor model respects hierarchy while shifting power.\n\nA poor answer (e.g., \"give skill training\") reveals inability to integrate social, economic, and institutional dimensions — the hallmark of community development thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

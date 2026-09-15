@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_009",
+   "title": "c12_chem_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the Arrhenius equation in its logarithmic form and identify what the slope and intercept represent when ln k is plotted against 1/T.",
+     "a": "ln k = –Ea/R (1/T) + ln A. Slope = –Ea/R, intercept = ln A. A wrong answer (e.g., slope = Ea/R or intercept = A) reveals confusion with sign conventions or forgetting that the plot is ln k vs 1/T, not k vs T.",
+     "self_check": true
+    },
+    {
+     "q": "A reaction has rate constants 2.0 × 10⁻³ s⁻¹ at 300 K and 8.0 × 10⁻³ s⁻¹ at 310 K. Without calculating, predict whether Ea is closer to 50 kJ mol⁻¹ or 100 kJ mol⁻¹. Justify using the rule of thumb that rate doubles for a 10 K rise near room temperature.",
+     "a": "The rate quadruples (×4) for a 10 K rise, which is more than the typical doubling. This suggests Ea is higher than the ~50 kJ mol⁻¹ that gives a doubling; it is closer to 100 kJ mol⁻¹. A student who guesses 50 kJ mol⁻¹ is applying the rule of thumb without checking the actual factor.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the activation energy (in kJ mol⁻¹) for a reaction whose rate constant increases from 1.5 × 10⁻⁴ s⁻¹ at 298 K to 4.5 × 10⁻⁴ s⁻¹ at 308 K. Use R = 8.314 J mol⁻¹ K⁻¹.",
+     "a": "Step 1: Write two-point form: ln(k₂/k₁) = –Ea/R (1/T₂ – 1/T₁).  \nStep 2: k₂/k₁ = 3, ln 3 = 1.0986.  \nStep 3: 1/T₂ – 1/T₁ = 1/308 – 1/298 = –0.0001089 K⁻¹.  \nStep 4: Ea = –R × ln(k₂/k₁) / (1/T₂ – 1/T₁) = –8.314 × 1.0986 / (–0.0001089) = 83,900 J mol⁻¹ = 83.9 kJ mol⁻¹.  \nWrong sign or using log₁₀ instead of ln gives ~36 kJ mol⁻¹ — a common unit/conversion error.",
+     "self_check": true
+    },
+    {
+     "q": "The decomposition of N₂O₅ follows first-order kinetics. At 300 K, k = 2.0 × 10⁻⁵ s⁻¹; at 320 K, k = 8.0 × 10⁻⁵ s⁻¹. A student plots log₁₀ k vs 1/T and obtains a slope of –1200 K. Is this slope consistent with the calculated Ea? Explain.",
+     "a": "For log₁₀ k vs 1/T, slope = –Ea/(2.303 R). From data: ln(k₂/k₁) = ln 4 = 1.386; 1/T₂ – 1/T₁ = –2.083×10⁻⁴ K⁻¹; Ea = 1.386 × 8.314 / 2.083×10⁻⁴ = 55.3 kJ mol⁻¹. Expected slope = –55300/(2.303×8.314) = –2890 K. The student's slope (–1200 K) is far off — they likely used ln k vs 1/T but called it log₁₀, or made a unit error. This tests understanding of log vs ln in the Arrhenius plot.",
+     "self_check": true
+    },
+    {
+     "q": "A catalyst lowers the activation energy of a reaction from 75 kJ mol⁻¹ to 50 kJ mol⁻¹ at 300 K. By what factor does the rate constant increase? Assume the pre-exponential factor A remains unchanged.",
+     "a": "k_cat/k_uncat = exp[–(Ea_cat – Ea_uncat)/RT] = exp[–(50,000 – 75,000)/(8.314×300)] = exp(25000/2494.2) = exp(10.02) ≈ 2.25 × 10⁴. The rate constant increases by a factor of ~22,500. A student who calculates exp(–25000/RT) gets 4.4×10⁻⁵ (the reciprocal) — sign error in the exponent. Another common error: using kJ without converting to J.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using readily available materials (e.g., hydrogen peroxide, manganese dioxide, a gas syringe) to demonstrate that a catalyst lowers the activation energy. Outline the measurements you would take and how you would calculate Ea with and without the catalyst.",
+     "a": "Measure the initial rate of O₂ evolution from H₂O₂ decomposition at 3–4 different temperatures (e.g., 20, 30, 40, 50 °C) with and without a fixed amount of MnO₂. Plot ln k vs 1/T for both sets; slopes give –Ea/R. The catalyzed plot will have a less negative slope (lower Ea). A poor answer omits temperature variation, uses only one temperature, or assumes rate constant is directly measured without determining reaction order first.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

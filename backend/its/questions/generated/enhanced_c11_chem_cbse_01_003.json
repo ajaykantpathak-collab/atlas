@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_003",
+   "title": "c11_chem_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the Law of Definite Proportions and the Law of Multiple Proportions in your own words.",
+     "a": "Law of Definite Proportions: A given compound always contains the same elements in the same fixed proportion by mass. Law of Multiple Proportions: When two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a ratio of small whole numbers. A wrong answer (e.g., confusing the two laws or stating \"fixed ratio by volume\") reveals the student has not distinguished between mass-based and volume-based laws, or has memorized without understanding the \"fixed mass of one element\" condition in the second law.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Law of Definite Proportions hold true for pure compounds but not for mixtures? Explain using the particle nature of matter.",
+     "a": "A pure compound consists of identical molecules (or formula units) with a fixed number of atoms of each element, so the mass ratio is constant. A mixture contains physically combined substances in variable proportions, so its overall composition can change. A wrong answer (e.g., \"mixtures are impure\") shows the student lacks the particulate understanding that compounds have fixed stoichiometry at the molecular level while mixtures do not.",
+     "self_check": true
+    },
+    {
+     "q": "Two oxides of nitrogen are analyzed. Oxide A: 1.00 g contains 0.636 g N. Oxide B: 1.00 g contains 0.467 g N. Show that these data obey the Law of Multiple Proportions. (Atomic masses: N=14, O=16)",
+     "a": "For Oxide A: mass O = 0.364 g. Mass of O per 1 g N = 0.364/0.636 = 0.572 g. For Oxide B: mass O = 0.533 g. Mass of O per 1 g N = 0.533/0.467 = 1.141 g. Ratio of oxygen masses (B:A) = 1.141/0.572 = 1.995 ≈ 2:1. This simple whole-number ratio confirms the Law of Multiple Proportions. A wrong answer (e.g., comparing percentages directly without fixing nitrogen mass) reveals the student misses the critical step of \"fixing the mass of one element\" before comparing.",
+     "self_check": true
+    },
+    {
+     "q": "A student analyzes two samples of water: one from the Ganga river and one from melted Himalayan ice. Both give 11.11% H and 88.89% O by mass. The student concludes this proves the Law of Definite Proportions. Is this conclusion valid? Justify.",
+     "a": "Yes, the conclusion is valid because the law states that a given compound (water) has the same elemental composition by mass regardless of source. The identical percentages from two different natural sources confirm the law. A wrong answer (e.g., \"no, because natural water has impurities\") shows the student confuses the purity of the sample with the law's application to the pure compound; the law applies to the compound itself, and the experiment assumes pure water samples.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The Law of Multiple Proportions is a direct consequence of the Law of Definite Proportions.\" True or false? Explain.",
+     "a": "False. The Law of Definite Proportions deals with the fixed composition of a single compound. The Law of Multiple Proportions compares the compositions of two or more different compounds formed from the same elements. The latter is not a logical consequence of the former; both are independent experimental laws that Dalton's atomic theory explains. A wrong answer (e.g., \"true, because both deal with fixed ratios\") reveals the student does not distinguish between intra-compound and inter-compound relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment (using only a balance and common chemicals) to verify the Law of Definite Proportions for magnesium oxide. Outline the procedure, measurements, and calculation.",
+     "a": "Procedure: 1) Weigh a clean, dry crucible. 2) Add a known mass of magnesium ribbon (e.g., 0.50 g). 3) Heat strongly with lid slightly ajar until reaction completes (Mg + ½O₂ → MgO). 4) Cool and weigh the crucible + product. 5) Calculate mass of oxygen gained = (mass of product) - (mass of Mg). 6) Compute %Mg and %O. Repeat with a different mass of Mg (e.g., 0.80 g). If both trials give ~60.3% Mg and ~39.7% O, the law is verified. A poor answer (e.g., \"mix Mg and O₂ gas in a jar\") shows the student cannot design a controlled combustion experiment or account for oxygen mass by difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch08_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch08_007",
+   "title": "c7_math_ch08_007",
+   "questions": [
+    {
+     "q": "A recipe calls for $2\\frac{1}{2}$ cups of flour. If Rohan wants to make $\\frac{3}{4}$ of the recipe, what operation should he use to find the amount of flour needed, and why?",
+     "a": "Rohan should use multiplication ($\\frac{3}{4} \\times 2\\frac{1}{2}$). A wrong answer like addition or division shows the student does not understand that taking a fractional part (\"$\\frac{3}{4}$ of the recipe\") means multiplying the fraction by the total quantity required.",
+     "self_check": true
+    },
+    {
+     "q": "Priya says that multiplying a number by $\\frac{4}{3}$ will always result in a number smaller than the original number because $\\frac{4}{3}$ is a fraction. Is she correct? Explain briefly.",
+     "a": "Priya is incorrect. Because $\\frac{4}{3}$ is an improper fraction (its numerator is greater than its denominator), its value is greater than $1$. Multiplying any positive number by a fraction greater than $1$ results in a *larger* product, not a smaller one. A wrong answer reveals confusion between proper fractions (which decrease numbers when multiplied) and improper fractions.",
+     "self_check": true
+    },
+    {
+     "q": "A ribbon is $5\\frac{1}{4}$ metres long. If Sunita cuts off $\\frac{2}{3}$ of the ribbon for a craft project, what is the length of the piece she cut off? Give your answer as a mixed number in simplest form.",
+     "a": "First, convert $5\\frac{1}{4}$ to an improper fraction: $\\frac{21}{4}$. Next, set up the multiplication: $\\frac{2}{3} \\times \\frac{21}{4}$. Multiply numerators and denominators: $\\frac{2 \\times 21}{3 \\times 4} = \\frac{42}{12}$. Simplify by dividing numerator and denominator by $6$: $\\frac{7}{2}$, which converts to $3\\frac{1}{2}$ metres. A wrong answer often indicates failure to convert mixed numbers to improper fractions before multiplying or forgetting to simplify.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two word problems: Problem A asks to find $\\frac{3}{5}$ of $40$ litres of milk. Problem B asks to find how many $\\frac{3}{5}$ litre bottles can be filled from $40$ litres of milk. Explain why they require different operations even though the same numbers are given.",
+     "a": "Problem A asks for a fractional part *of* a total quantity, which requires multiplication ($\\frac{3}{5} \\times 40 = 24$ litres). Problem B asks how many times a smaller portion fits *into* a total quantity, which requires division ($40 \\div \\frac{3}{5} = \\frac{200}{3}$ bottles). A wrong answer reveals a failure to interpret the verbal structure of grouping versus fractional scaling.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student work for this problem: \"A farm has $60$ animals. $\\frac{2}{3}$ of them are cows. How many cows are not cows?\" Student's work: $60 \\times \\frac{2}{3} = 40$. Answer: $40$ cows. Is the student completely correct? Justify your evaluation.",
+     "a": "The student calculated the number of cows correctly ($60 \\times \\frac{2}{3} = 40$), but they did not answer the actual question asked, which was how many animals are *not* cows. The student needed to perform a final subtraction step: $60 - 40 = 20$ animals that are not cows. A wrong evaluation shows the student stopped reading the problem carefully after finding the first intermediate product.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem about buying fruits at an Indian vegetable market where the solution requires multiplying a mixed number by a proper fraction, and provide its correct answer.",
+     "a": "A good response should feature a realistic scenario, such as: \"Amit bought $3\\frac{1}{2}$ kg of apples. If $\\frac{3}{7}$ of the apples were red and the rest were green, how many kilograms of red apples did Amit buy?\" The correct calculation is $\\frac{7}{2} \\times \\frac{3}{7} = \\frac{3}{2} = 1\\frac{1}{2}$ kg. A poor answer would use numbers that do not fit real-world contexts or fail to use multiplication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_006",
+   "title": "c11_phy_cbse_02_006",
+   "questions": [
+    {
+     "q": "State the differential definition of instantaneous acceleration and write the integral form that leads to the first kinematic equation \\( v = u + at \\) for constant acceleration.",
+     "a": "Instantaneous acceleration is defined as \\( a = \\frac{dv}{dt} \\). For constant \\( a \\), integrating both sides with respect to time from \\( 0 \\) to \\( t \\) gives \\( \\int_{u}^{v} dv = \\int_{0}^{t} a \\, dt \\), yielding \\( v - u = at \\) or \\( v = u + at \\). A wrong answer (e.g., writing \\( a = \\frac{\\Delta v}{\\Delta t} \\) without the limit) reveals the student confuses average acceleration with the instantaneous definition needed for calculus derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the constant of integration when deriving \\( s = ut + \\frac{1}{2}at^2 \\) is set to zero, and what physical assumption this corresponds to.",
+     "a": "When integrating \\( v = \\frac{ds}{dt} = u + at \\), we get \\( s = ut + \\frac{1}{2}at^2 + C \\). At \\( t=0 \\), the displacement \\( s=0 \\) (origin chosen at starting point), so \\( C=0 \\). This assumes we measure displacement from the initial position. If a student says the constant is zero because \"integration constants are always zero,\" they misunderstand the role of initial conditions in fixing constants.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves along a straight line with acceleration given by \\( a = 6t \\) m/s² (where \\( t \\) is in seconds). If its initial velocity is 2 m/s and initial displacement is 0, find its velocity and displacement at \\( t = 3 \\) s using calculus.",
+     "a": "Given \\( a = \\frac{dv}{dt} = 6t \\). Integrate: \\( \\int_{2}^{v} dv = \\int_{0}^{3} 6t \\, dt \\) → \\( v - 2 = 3t^2 \\big|_0^3 = 27 \\) → \\( v = 29 \\) m/s. Next, \\( v = \\frac{ds}{dt} = 2 + 3t^2 \\). Integrate: \\( \\int_{0}^{s} ds = \\int_{0}^{3} (2 + 3t^2) dt \\) → \\( s = 2t + t^3 \\big|_0^3 = 6 + 27 = 33 \\) m. A wrong answer (e.g., using constant-acceleration formulas) reveals the student does not recognize that the calculus method is required for non-constant acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the algebraic derivation (using average velocity) and the calculus derivation of \\( v^2 = u^2 + 2as \\). Identify the step in the calculus derivation that uses the chain rule and explain why this step is valid only when acceleration is a function of velocity or displacement, not time.",
+     "a": "In calculus derivation, we write \\( a = \\frac{dv}{dt} = \\frac{dv}{ds} \\frac{ds}{dt} = v \\frac{dv}{ds} \\). This chain rule step expresses acceleration in terms of velocity and displacement, allowing integration with respect to \\( s \\): \\( \\int_{u}^{v} v \\, dv = \\int_{0}^{s} a \\, ds \\). It is valid because \\( v = \\frac{ds}{dt} \\) and we treat \\( v \\) as a function of \\( s \\). If acceleration were given as a function of time only, we could not directly integrate \\( a \\, ds \\) without knowing \\( s(t) \\). A wrong answer (e.g., saying the chain rule is always applicable regardless of variable dependence) shows confusion about the functional relationships between kinematic variables.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives \\( s = ut + \\frac{1}{2}at^2 \\) by integrating \\( v = u + at \\) but forgets to change the limits of integration when substituting \\( v = \\frac{ds}{dt} \\). They write \\( \\int_{0}^{s} ds = \\int_{0}^{t} (u + at) dt \\) and obtain the correct result. Evaluate whether the method is mathematically rigorous and explain why the limits are correct despite the substitution.",
+     "a": "The method is rigorous because the limits correspond to the same physical instants: at \\( t=0 \\), \\( s=0 \\); at time \\( t \\), displacement is \\( s \\). The substitution \\( v = \\frac{ds}{dt} \\) does not change the variable of integration (it remains \\( dt \\)), so the limits stay as time limits. The student's approach is correct. If a student claims the limits must be changed to velocity limits, they misunderstand that the integral is still with respect to time, not velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone's accelerometer and a toy car on a ramp to verify the calculus-derived equation \\( v^2 = u^2 + 2as \\) for constant acceleration. Outline the measurements needed and how you would process the data.",
+     "a": "Place the smartphone on the toy car to record acceleration \\( a(t) \\). Verify \\( a \\) is constant. Use the phone's GPS or video analysis to measure displacement \\( s \\) and final velocity \\( v \\) (or compute \\( v \\) by integrating \\( a \\) over time). Plot \\( v^2 \\) vs \\( s \\); the slope should be \\( 2a \\) and intercept \\( u^2 \\). A poor answer (e.g., \"measure speed with a speedometer\") shows lack of understanding of how to obtain instantaneous velocity and displacement from raw acceleration data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class11_political_theory_ch3",
+ "concepts": [
+  {
+   "id": "c11pt.3.1",
+   "title": "Meaning of Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Equality' refers to.",
+     "a": "Equality is the principle that all human beings have equal worth and dignity, and therefore should be treated impartially and given equal consideration in social, political, and economic life, regardless of differences of birth, caste, religion, gender, or wealth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Equality'.",
+     "a": "Equality does not mean sameness of all people; it means that differences of birth or status should not be used to deny any person equal respect, rights, or opportunity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning of Equality' taught, and from which source text?",
+     "a": "Introduction: What is Equality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.2",
+   "title": "Natural and Social Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Natural and Social Equality' refers to.",
+     "a": "Natural equality is the idea that all human beings are born free and equal in dignity by virtue of being human, while social equality is the principle that society should not create or maintain artificial hierarchies of birth, caste, or status that deny people equal standing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Natural and Social Equality'.",
+     "a": "Natural equality is a moral claim about human worth; social equality is a political demand that society be organised so that no group is subordinated by birth or status.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Natural and Social Equality' taught, and from which source text?",
+     "a": "Dimensions of Equality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.3",
+   "title": "Political Equality",
+   "questions": [
+    {
+     "q": "Using the method 'Political Equality', work with: num_voters = 300, vote_weight = 50. Carry the chain through step by step and give the final value of the result.",
+     "a": "15000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Political Equality' and work with: num_voters = 30, vote_weight = 12. Carry the chain through step by step and give the final value of the result.",
+     "a": "360 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Political Equality' refers to.",
+     "a": "Political equality is the principle that all citizens have an equal right to participate in the political process, expressed through universal adult franchise and the principle of 'one person, one vote, one value', so that every citizen's vote carries equal weight.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Equality'.",
+     "a": "Political equality gives every adult citizen an equal voice in choosing representatives, ensuring that no citizen's vote counts for more than another's.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Political Equality', in plain ASCII form.",
+     "a": "vote_weight = 1 (per citizen)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.4",
+   "title": "Social Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Equality' refers to.",
+     "a": "Social equality is the principle that all members of society enjoy equal status and dignity, and that no person is discriminated against or denied respect and opportunity on grounds of caste, religion, gender, race, or birth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Equality'.",
+     "a": "Social equality requires that society be free of discriminatory hierarchies so that every person can live with equal dignity and self-respect.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Social Equality' taught, and from which source text?",
+     "a": "Dimensions of Equality",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.5",
+   "title": "Economic Equality",
+   "questions": [
+    {
+     "q": "Using the method 'Economic Equality', work with: income_poor = 80000, income_rich = 1200, incomes_bottom_quintile_total = 50000, incomes_top_quintile_total = 1200. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.015 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Economic Equality' and work with: income_poor = 50000, income_rich = 120000, incomes_bottom_quintile_total = 80000, incomes_top_quintile_total = 12000. Carry the chain through step by step and give the final value of the result.",
+     "a": "2.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Economic Equality' refers to.",
+     "a": "Economic equality is the principle that there should be a fair distribution of wealth, income, and resources in society, so that extreme disparities of riches and poverty do not deny people basic needs and a life of dignity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic Equality'.",
+     "a": "Economic equality does not require identical incomes for all, but it opposes gross concentration of wealth that leaves some in deprivation while others live in luxury.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Economic Equality', in plain ASCII form.",
+     "a": "inequality_ratio = (income_richest_quintile / income_poorest_quintile)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.6",
+   "title": "Equality of Opportunity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equality of Opportunity' refers to.",
+     "a": "Equality of opportunity is the principle that every individual should have an equal chance to develop their abilities and to compete for positions and rewards in society, without being blocked by barriers of birth, caste, religion, gender, or wealth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equality of Opportunity'.",
+     "a": "Equality of opportunity focuses on fair access to education, employment, and advancement, so that success depends on ability and effort rather than on inherited privilege.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Equality of Opportunity' taught, and from which source text?",
+     "a": "Equality of Opportunity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.7",
+   "title": "Equality and Difference",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equality and Difference' refers to.",
+     "a": "The relationship between equality and difference recognises that while people are different in abilities, needs, and identities, these differences should not become the basis for unequal rights or dignity; true equality often requires treating different people differently to achieve genuine equality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equality and Difference'.",
+     "a": "Equality does not demand uniform treatment; sometimes justice requires recognising differences and giving additional support to those disadvantaged by them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Equality and Difference' taught, and from which source text?",
+     "a": "Equality and Difference",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.8",
+   "title": "Affirmative Action",
+   "questions": [
+    {
+     "q": "Using the method 'Affirmative Action', work with: reservation_percent = 8, reserved_seats = 20, total_seats = 40. Carry the chain through step by step and give the final value of the result.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Affirmative Action' and work with: reservation_percent = 15, reserved_seats = 5, total_seats = 24. Carry the chain through step by step and give the final value of the result.",
+     "a": "19 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Affirmative Action' refers to.",
+     "a": "Affirmative action is a policy by which the state gives special preference or support to historically disadvantaged groups, such as Scheduled Castes, Scheduled Tribes, and Other Backward Classes, in education and employment to overcome the effects of past discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Affirmative Action'.",
+     "a": "Affirmative action seeks to create substantive equality by giving disadvantaged groups preferential access so they can compete on a more equal footing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Affirmative Action', in plain ASCII form.",
+     "a": "reserved_seats = total_seats * reservation_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.9",
+   "title": "Gender Equality",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gender Equality' refers to.",
+     "a": "Gender equality is the principle that men and women should enjoy equal rights, responsibilities, opportunities, and respect in all spheres of life, and that no person should be disadvantaged or privileged on the basis of gender.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gender Equality'.",
+     "a": "Gender equality requires removing patriarchal customs, discriminatory laws, and social practices that subordinate women and deny them equal status with men.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gender Equality' taught, and from which source text?",
+     "a": "Equality in the Indian Context",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11pt.3.10",
+   "title": "Equality in the Indian Context and Its Limitations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Equality in the Indian Context and Its Limitations' refers to.",
+     "a": "In India, equality is given constitutional backing through provisions like Article 14 (equality before law), Article 15 (prohibition of discrimination), and Article 16 (equality of opportunity in employment), along with reservations for SCs, STs, and OBCs; yet deep social and economic inequalities persist as limitations on its full realisation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Equality in the Indian Context and Its Limitations'.",
+     "a": "The Indian Constitution combines formal equality with affirmative action to address caste and gender inequality, but persistent poverty, caste prejudice, and gender discrimination limit the achievement of equality in practice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Equality in the Indian Context and Its Limitations' taught, and from which source text?",
+     "a": "Equality in the Indian Context",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

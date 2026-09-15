@@ -1,0 +1,268 @@
+{
+ "catalog": "t2_class11_informatics_practices",
+ "note": "Wave-2 graded top-ups for class 11 Informatics Practices pools (keip101-108). Numeric answers or one-term factual keys; machine-graded.",
+ "concepts": [
+  {"id": "keip101.1", "title": "Memory Unit Ladder Conversion", "questions": [
+    {"q": "A phone advertises 128 GB of storage. How many megabytes is that? (1 GB = 1024 MB.)", "a": "131072 MB"},
+    {"q": "How many kilobytes make one gigabyte?", "a": "1048576"},
+    {"q": "How many bytes are there in 2 KB?", "a": "2048"},
+    {"q": "How many steps of multiply-by-1024 turn a terabyte into kilobytes?", "a": "3"}
+  ]},
+  {"id": "keip101.2", "title": "Bits, Nibble and Byte Sizes", "questions": [
+    {"q": "How many bits make one nibble?", "a": "4"},
+    {"q": "How many nibbles make one byte?", "a": "2"}
+  ]},
+  {"id": "keip101.3", "title": "Moore Law Transistor Doubling", "questions": [
+    {"q": "A chip carries 8000 components. After 3 doublings, how many components does it carry?", "a": "64000"},
+    {"q": "Who is credited with the 1965 observation that chip component counts double about every two years?", "a": "Gordon Moore"}
+  ]},
+  {"id": "keip101.4", "title": "Primary Memory versus Secondary Memory", "questions": [
+    {"q": "Which primary memory keeps permanent startup code?", "a": "ROM"},
+    {"q": "Which memory is the large non-volatile archive: RAM or secondary storage?", "a": "secondary storage"}
+  ]},
+  {"id": "keip101.5", "title": "CPU Parts: ALU, Control Unit and Registers", "questions": [
+    {"q": "Which CPU part carries out every calculation and comparison?", "a": "ALU"},
+    {"q": "Which CPU part sequences instructions and steers data between units?", "a": "control unit"},
+    {"q": "Which small on-chip stores hold the data in use this instant?", "a": "registers"},
+    {"q": "How many key parts does the chapter name inside the CPU: ALU, control unit and registers?", "a": "3"}
+  ]},
+  {"id": "keip101.6", "title": "Software Categories and FOSS Licensing", "questions": [
+    {"q": "Which software family can a computer never run without: system or application software?", "a": "system software"},
+    {"q": "What does the availability label FOSS make public along with the program?", "a": "source code"}
+  ]},
+  {"id": "keip102.1", "title": "Machine Learning Model Accuracy", "questions": [
+    {"q": "A model gets 72 of 80 test cases right. What is its accuracy in percent?", "a": "90 percent"},
+    {"q": "A model is fitted on training data and then judged on what?", "a": "testing data"}
+  ]},
+  {"id": "keip102.2", "title": "Big Data Characteristics: the Five V", "questions": [
+    {"q": "Which V of big data names the sheer size of the data?", "a": "Volume"},
+    {"q": "Which V names the useful knowledge that justifies the processing cost?", "a": "Value"}
+  ]},
+  {"id": "keip102.3", "title": "Big Data Volume Growth Arithmetic", "questions": [
+    {"q": "A sensor feed creates 3 gigabytes per hour. How many gigabytes does it create in 24 hours?", "a": "72"},
+    {"q": "At 2.5 quintillion bytes per day, how many quintillion bytes arise in 4 days?", "a": "10"}
+  ]},
+  {"id": "keip102.4", "title": "Cloud Service Models IaaS PaaS SaaS", "questions": [
+    {"q": "Which cloud model rents raw virtual machines and storage?", "a": "IaaS"},
+    {"q": "Which cloud model gives end users finished applications on subscription?", "a": "SaaS"}
+  ]},
+  {"id": "keip102.5", "title": "Pay Per Use Cloud Billing", "questions": [
+    {"q": "A cloud bill charges Rs 4 per compute-hour for 100 hours plus Rs 2 per GB for 50 GB stored. What is the total in rupees?", "a": "500"},
+    {"q": "Cloud charging follows which utility-like model: pay per use or one-time licence?", "a": "pay per use"}
+  ]},
+  {"id": "keip102.6", "title": "Grid Computing Parallel Task Split", "questions": [
+    {"q": "A grid of 5 nodes splits 200 equal units evenly. How many units does each node process?", "a": "40"},
+    {"q": "The scattered computers pooled into one virtual supercomputer are individually called what?", "a": "nodes"}
+  ]},
+  {"id": "keip102.7", "title": "Blockchain Append Only Ledger", "questions": [
+    {"q": "In a blockchain of 20 nodes, how many copies of the ledger exist?", "a": "20"},
+    {"q": "A new block joins the chain only after every node does what to it?", "a": "authenticates it"}
+  ]},
+  {"id": "keip102.8", "title": "Internet of Things and Web of Things", "questions": [
+    {"q": "Which extension of IoT reuses standard web services as the single interface for all devices?", "a": "Web of Things"},
+    {"q": "Which phone sensor feeds orientation data to IoT systems: accelerometer or modem?", "a": "accelerometer"}
+  ]},
+  {"id": "keip103.1", "title": "Arithmetic Operators: Floor Division, Modulo, Exponent", "questions": [
+    {"q": "What does 17 // 5 evaluate to in Python?", "a": "3"},
+    {"q": "What does 17 % 5 evaluate to in Python?", "a": "2"}
+  ]},
+  {"id": "keip103.2", "title": "Operator Precedence Evaluation Order", "questions": [
+    {"q": "Evaluate 4 + 6 / 2 in Python.", "a": "7"},
+    {"q": "Which symbols override every precedence rule?", "a": "parentheses"}
+  ]},
+  {"id": "keip103.3", "title": "Augmented Assignment Operators", "questions": [
+    {"q": "After x = 5 and x += 3, what is x?", "a": "8"},
+    {"q": "After x = 4 and x *= 2, what is x?", "a": "8"}
+  ]},
+  {"id": "keip103.4", "title": "Simple Interest Amount Payable", "questions": [
+    {"q": "Find the simple interest on Rs 5000 at 8 percent per year for 2 years, in rupees.", "a": "800"},
+    {"q": "What amount is payable on that loan, in rupees (principal plus interest)?", "a": "5800"}
+  ]},
+  {"id": "keip103.5", "title": "range Function Loop Count and Last Value", "questions": [
+    {"q": "How many values does range(3, 12, 3) yield?", "a": "3"},
+    {"q": "What is the last value printed by range(3, 12, 3)?", "a": "9"}
+  ]},
+  {"id": "keip103.6", "title": "Nested Loop Print Count", "questions": [
+    {"q": "An outer loop runs 4 times and an inner loop runs 3 times per pass. How many times does the innermost statement execute?", "a": "12"},
+    {"q": "What is a loop placed inside another loop called?", "a": "nested loop"}
+  ]},
+  {"id": "keip103.7", "title": "Choosing Python Data Types", "questions": [
+    {"q": "Which data type fits a yes/no fact?", "a": "bool"},
+    {"q": "Which data type fits a measurement carrying decimals?", "a": "float"}
+  ]},
+  {"id": "keip103.8", "title": "Syntax, Logical and Runtime Errors", "questions": [
+    {"q": "Which error kind stops the program before it starts?", "a": "syntax error"},
+    {"q": "A zero denominator aborting a running program belongs to which error kind?", "a": "runtime error"}
+  ]},
+  {"id": "keip103.9", "title": "if elif else Conditional Statements", "questions": [
+    {"q": "Which clause runs when every test in the ladder fails?", "a": "else"},
+    {"q": "How many blocks of an if..elif..else ladder run when one condition matches?", "a": "1"}
+  ]},
+  {"id": "keip104.1", "title": "List Indexing Positive and Negative", "questions": [
+    {"q": "What is the index of the first element of a list?", "a": "0"},
+    {"q": "Which negative index reaches the last element of any list?", "a": "-1"},
+    {"q": "A list has 6 elements. What is the index of its last element?", "a": "5"},
+    {"q": "Accessing an index past either end raises which error?", "a": "IndexError"}
+  ]},
+  {"id": "keip104.2", "title": "List Slicing With a Step Value", "questions": [
+    {"q": "How many elements does the slice list1[1:4] copy?", "a": "3"},
+    {"q": "Which slice returns a whole list reversed?", "a": "[::-1]"}
+  ]},
+  {"id": "keip104.3", "title": "Concatenation and Repetition Operators", "questions": [
+    {"q": "A 3-element list is repeated 3 times with the * operator. How many elements result?", "a": "9"},
+    {"q": "Joining a list with a plain number using + raises which error?", "a": "TypeError"}
+  ]},
+  {"id": "keip104.4", "title": "Built-in Functions on Lists: sum, min, max", "questions": [
+    {"q": "For marks [70, 80, 90], what does sum() return?", "a": "240"},
+    {"q": "For marks [70, 80, 90], what is the mean?", "a": "80"}
+  ]},
+  {"id": "keip104.5", "title": "List Methods: append, extend, insert", "questions": [
+    {"q": "list1 = [1, 2, 3]. After list1.append([4, 5]), how many elements does list1 hold?", "a": "4"},
+    {"q": "list1 = [1, 2, 3]. After list1.extend([4, 5]), how many elements does it hold?", "a": "5"}
+  ]},
+  {"id": "keip104.6", "title": "Traversing a List with a Loop", "questions": [
+    {"q": "Which loop form visits list elements by position: range(len(list1)) or for item in list1?", "a": "range(len(list1))"},
+    {"q": "Walking through a list one element at a time is called what?", "a": "traversal"}
+  ]},
+  {"id": "keip104.7", "title": "Dictionary Keys, Values and Membership", "questions": [
+    {"q": "Fetching a missing key directly raises which error?", "a": "KeyError"},
+    {"q": "Which operator tests whether a key exists in a dictionary without fetching anything?", "a": "in"}
+  ]},
+  {"id": "keip104.8", "title": "Dictionary Methods: len, update, del", "questions": [
+    {"q": "Which dictionary method merges another dictionary's pairs in?", "a": "update()"},
+    {"q": "A dictionary holds 3 pairs; 2 more are merged in and 1 key is deleted. How many pairs remain?", "a": "4"}
+  ]},
+  {"id": "keip105.1", "title": "Measures of Central Tendency: Mean", "questions": [
+    {"q": "Four readings are 10, 20, 30 and 60. What is their mean?", "a": "30"},
+    {"q": "Which measure does one unusually large reading drag toward itself: mean or median?", "a": "mean"}
+  ]},
+  {"id": "keip105.2", "title": "Median of Sorted Data", "questions": [
+    {"q": "Sorted values 12, 15, 40: what is the median?", "a": "15"},
+    {"q": "Sorted values 10, 20, 30, 40: what is the median?", "a": "25"}
+  ]},
+  {"id": "keip105.3", "title": "Mode and Frequency Share", "questions": [
+    {"q": "In the column 5, 7, 7, 9, which value is the mode?", "a": "7"},
+    {"q": "The mode appears 4 times among 20 entries. What is its frequency share in percent?", "a": "20 percent"}
+  ]},
+  {"id": "keip105.4", "title": "Range as Maximum minus Minimum", "questions": [
+    {"q": "Readings span 15 cm to 45 cm. What is the range in cm?", "a": "30"},
+    {"q": "Which values alone decide the range?", "a": "the extremes"}
+  ]},
+  {"id": "keip105.5", "title": "Standard Deviation of a Data Set", "questions": [
+    {"q": "Which spread measure uses every reading rather than only the extremes?", "a": "standard deviation"},
+    {"q": "A small standard deviation means the data are packed how: tightly or widely?", "a": "tightly"}
+  ]},
+  {"id": "keip105.6", "title": "Structured, Unstructured Data and Metadata", "questions": [
+    {"q": "An image's size, type and resolution describe it indirectly. What is such descriptive data called?", "a": "metadata"},
+    {"q": "Data following no fixed record layout is called what?", "a": "unstructured data"}
+  ]},
+  {"id": "keip105.7", "title": "Data Processing Cycle: Input to Output", "questions": [
+    {"q": "In the data processing cycle, what stage follows processing: input or output?", "a": "output"},
+    {"q": "An ATM withdrawal follows which cycle: the data processing cycle or hardware maintenance?", "a": "data processing cycle"}
+  ]},
+  {"id": "keip106.1", "title": "Array versus List in Python", "questions": [
+    {"q": "Which structure stores one single data type in one continuous memory block: a list or a NumPy array?", "a": "NumPy array"},
+    {"q": "Which operation works element-wise on arrays but not on lists: A1 / 3 or len()?", "a": "A1 / 3"}
+  ]},
+  {"id": "keip106.2", "title": "ndarray Attributes: shape, size, itemsize", "questions": [
+    {"q": "An int32 array stores each element in how many bytes?", "a": "4"},
+    {"q": "An array has shape (3, 4). What is its size?", "a": "12"}
+  ]},
+  {"id": "keip106.3", "title": "Two Dimensional Array Indexing", "questions": [
+    {"q": "In marks[i, j], which index counts rows?", "a": "i"},
+    {"q": "In marks[i, j], which index counts columns?", "a": "j"}
+  ]},
+  {"id": "keip106.4", "title": "Matrix Multiplication Cell Value", "questions": [
+    {"q": "Which operator multiplies two matrices properly: * or @?", "a": "@"},
+    {"q": "What is the single cell value of [[1, 2]] @ [[3], [4]]?", "a": "11"}
+  ]},
+  {"id": "keip106.5", "title": "Statistical Operations: sum, mean, axis", "questions": [
+    {"q": "Which axis value collapses each row into one number: axis=0 or axis=1?", "a": "axis=1"},
+    {"q": "A row of 4 cells sums to 40. What is its row mean?", "a": "10"}
+  ]},
+  {"id": "keip106.6", "title": "Reshape Without Losing Elements", "questions": [
+    {"q": "An array of 12 elements reshapes to 4 columns. How many rows does it get?", "a": "3"},
+    {"q": "Reshape must keep which of these fixed: the element count or the shape?", "a": "the element count"}
+  ]},
+  {"id": "keip106.7", "title": "arange Start Stop Step Values", "questions": [
+    {"q": "How many values does np.arange(2, 11, 3) contain?", "a": "3"},
+    {"q": "What is the last value of np.arange(2, 11, 3)?", "a": "8"}
+  ]},
+  {"id": "keip106.8", "title": "Concatenating Arrays Row wise and Column wise", "questions": [
+    {"q": "Which axis value stacks arrays side by side: axis=0 or axis=1?", "a": "axis=1"},
+    {"q": "Two (2, 3) arrays concatenate along axis=1. How many columns has the result?", "a": "6"}
+  ]},
+  {"id": "keip106.9", "title": "Splitting Arrays Into Subarrays", "questions": [
+    {"q": "A 5-row array splits at positions [1, 3]. How many rows does the middle part hold?", "a": "2"},
+    {"q": "Two cut positions divide an array into how many parts?", "a": "3"}
+  ]},
+  {"id": "keip106.10", "title": "Transpose of an Array", "questions": [
+    {"q": "Transposing a 3 by 4 array gives how many rows?", "a": "4"},
+    {"q": "After transpose, the value at row i, column j sits at which position?", "a": "row j, column i"}
+  ]},
+  {"id": "keip107.1", "title": "Manual Attendance Register Volume", "questions": [
+    {"q": "A class of 40 students meets 24 working days a month. How many attendance entries does the teacher write monthly?", "a": "960"},
+    {"q": "That monthly load times 12 months gives how many entries per session?", "a": "11520"}
+  ]},
+  {"id": "keip107.2", "title": "File System Limitations", "questions": [
+    {"q": "The same facts stored in many files is called what?", "a": "redundancy"},
+    {"q": "Which file-system limitation makes programs break when a file's layout changes?", "a": "data dependence"}
+  ]},
+  {"id": "keip107.3", "title": "Removing Redundancy by Splitting Tables", "questions": [
+    {"q": "Dropping the student-name column from a 500-row attendance table removes how many copied values?", "a": "500"},
+    {"q": "Housing guardian facts once removes repeated details for whom: siblings or teachers?", "a": "siblings"}
+  ]},
+  {"id": "keip107.4", "title": "Degree and Cardinality of a Relation", "questions": [
+    {"q": "A relation has 4 columns and 5 rows. What is its degree?", "a": "4"},
+    {"q": "That relation stores how many data values in total?", "a": "20"}
+  ]},
+  {"id": "keip107.5", "title": "Attendance Status P and A Tally", "questions": [
+    {"q": "A student was absent on 6 of 30 working days. What is the attendance percentage?", "a": "80 percent"},
+    {"q": "Which letter marks an absent day in the register: P or A?", "a": "A"}
+  ]},
+  {"id": "keip107.6", "title": "DBMS Terms: Schema, Instance, Metadata", "questions": [
+    {"q": "What is the skeleton design of tables, columns and constraints called?", "a": "schema"},
+    {"q": "What is the snapshot of actual contents at a moment called?", "a": "instance"}
+  ]},
+  {"id": "keip107.7", "title": "Relational Model: Attribute, Tuple, Domain", "questions": [
+    {"q": "What is a row of a relation called?", "a": "tuple"},
+    {"q": "What marks a value that is unknown or not applicable?", "a": "NULL"}
+  ]},
+  {"id": "keip107.8", "title": "Keys: Candidate, Primary, Composite, Foreign", "questions": [
+    {"q": "RollNumber together with AttendanceDate forms which kind of key?", "a": "composite key"},
+    {"q": "The candidate keys left over after choosing the primary are called what?", "a": "alternate keys"}
+  ]},
+  {"id": "keip108.1", "title": "CHAR versus VARCHAR Storage", "questions": [
+    {"q": "Which type pads shorter entries with trailing spaces: CHAR or VARCHAR?", "a": "CHAR"},
+    {"q": "Which type stores just the characters actually typed?", "a": "VARCHAR"}
+  ]},
+  {"id": "keip108.2", "title": "MySQL Data Types and Constraints", "questions": [
+    {"q": "How many bytes does one INT value occupy in MySQL?", "a": "4"},
+    {"q": "In which format does MySQL write DATE values: yyyy-mm-dd or dd-mm-yyyy?", "a": "yyyy-mm-dd"}
+  ]},
+  {"id": "keip108.3", "title": "DDL: CREATE, ALTER, DROP, DESCRIBE", "questions": [
+    {"q": "Which DDL statement permanently removes a table with no undo?", "a": "DROP"},
+    {"q": "Which statement prints a table's columns and types?", "a": "DESCRIBE"}
+  ]},
+  {"id": "keip108.4", "title": "DML: INSERT, UPDATE, DELETE", "questions": [
+    {"q": "Omitting WHERE from DELETE FROM wipes what?", "a": "the entire table"},
+    {"q": "Which clause must UPDATE carry to spare the other rows?", "a": "WHERE"}
+  ]},
+  {"id": "keip108.5", "title": "Annual Salary Computed Column", "questions": [
+    {"q": "An employee earns 25000 monthly. What yearly figure does Pay * 12 give?", "a": "300000"},
+    {"q": "Which keyword relabels a computed output column?", "a": "AS"}
+  ]},
+  {"id": "keip108.6", "title": "Net Profit of Movies", "questions": [
+    {"q": "A movie cost 50 crores to produce and earned 120 crores. What is the net profit in crores?", "a": "70"},
+    {"q": "That profit as a percentage of the production cost is how many percent?", "a": "140 percent"}
+  ]},
+  {"id": "keip108.7", "title": "Department Salary Aggregate", "questions": [
+    {"q": "Department D01 holds salaries 60000, 45000 and 15000. What is their total?", "a": "120000"},
+    {"q": "What is that department's average salary?", "a": "40000"}
+  ]},
+  {"id": "keip108.8", "title": "DISTINCT, ORDER BY, LIKE and NULL Refinement", "questions": [
+    {"q": "Which keyword strips repeated values from output?", "a": "DISTINCT"},
+    {"q": "Which test finds missing values: = NULL or IS NULL?", "a": "IS NULL"}
+  ]}
+ ]
+}

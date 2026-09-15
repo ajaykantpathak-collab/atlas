@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_008",
+   "title": "c12_biotech_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the standard composition of freezing medium for animal cell cryopreservation as per NCERT?",
+     "a": "The standard freezing medium contains 90% serum (usually fetal bovine serum) and 10% dimethyl sulfoxide (DMSO) by volume. A wrong answer (e.g., \"50% serum + 50% DMSO\" or \"culture medium + 10% glycerol\") reveals that the student has memorised the components but not the precise ratio, which is critical because excessive DMSO is cytotoxic and insufficient serum reduces post-thaw attachment.",
+     "self_check": true
+    },
+    {
+     "q": "Why must cells be cooled slowly at approximately 1°C/min before transfer to liquid nitrogen, rather than plunged directly into liquid nitrogen?",
+     "a": "Slow cooling allows intracellular water to exit the cell by osmosis (driven by the increasing extracellular solute concentration as ice forms outside), thereby dehydrating the cell and preventing intracellular ice crystal formation. Direct plunging causes rapid extracellular freezing, trapping water inside where it forms lethal intracellular crystals. A wrong answer focusing only on \"thermal shock\" without mentioning osmotic dehydration shows incomplete understanding of the biophysical mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher has 5 mL of a healthy log-phase CHO cell suspension. They need to prepare freezing medium (90% FBS + 10% DMSO) to resuspend the pellet at a final concentration of 1 × 10⁶ cells/mL. If the cell count is 2 × 10⁶ cells/mL, how many mL of freezing medium should they add to the pelleted cells after centrifugation? (Assume no volume change on adding DMSO to serum.)",
+     "a": "Total cells = 5 mL × 2 × 10⁶ cells/mL = 1 × 10⁷ cells. Desired final concentration = 1 × 10⁶ cells/mL. Required final volume = (1 × 10⁷ cells) / (1 × 10⁶ cells/mL) = 10 mL. Since the pellet volume is negligible after removing supernatant, add 10 mL of freezing medium. A wrong answer (e.g., 5 mL) indicates failure to apply the dilution formula C₁V₁ = C₂V₂ in a cryopreservation context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consequences of using glycerol instead of DMSO as the cryoprotectant for a cell line that is highly sensitive to osmotic shock during CPA addition/removal.",
+     "a": "Glycerol has a higher molecular weight (92 g/mol) and lower membrane permeability than DMSO (78 g/mol), so it enters/exits cells more slowly. For an osmotically sensitive line, this means prolonged exposure to hypertonic CPA solutions during addition/removal, causing excessive shrinkage/swelling and membrane damage. DMSO is preferred for most mammalian lines because its rapid equilibration minimises osmotic stress. A wrong answer stating \"glycerol is better because it's less toxic\" ignores the permeability/osmotic trade-off central to CPA selection.",
+     "self_check": true
+    },
+    {
+     "q": "A student thaws a cryovial by leaving it on the bench at 25°C for 30 minutes. Post-thaw viability by trypan blue exclusion is 8%. Critique this method and state the correct procedure with the biophysical justification.",
+     "a": "The method is incorrect: slow thawing allows time for small ice crystals to recrystallise into larger, membrane-shredding crystals. The correct procedure is rapid thawing in a 37°C water bath with gentle agitation until the last ice crystal disappears (typically 1–2 min), followed by immediate dilution in pre-warmed culture medium to reduce DMSO toxicity. The 8% viability confirms that recrystallisation during slow warming killed most cells. A wrong answer that blames \"DMSO toxicity\" alone misses the dominant role of recrystallisation during slow thawing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified cryopreservation protocol for a hypothetical primary human hepatocyte line that: (a) cannot tolerate DMSO >5% due to metabolic toxicity, (b) requires >80% post-thaw viability for transplantation studies, and (c) must be stored in vapour-phase liquid nitrogen (–150°C) for regulatory compliance. Specify CPA composition, cooling rate, and one critical validation step.",
+     "a": "A strong answer: Use 5% DMSO + 5% hydroxyethyl starch (HES, a non-penetrating CPA) + 90% serum; cool at 0.5°C/min to –80°C (slower rate compensates for lower DMSO); transfer to vapour-phase LN₂. Critical validation: post-thaw metabolic activity assay (e.g., albumin secretion or CYP450 activity) in addition to trypan blue, because membrane integrity ≠ metabolic function in hepatocytes. A poor answer keeps 10% DMSO or omits validation beyond viability staining, showing inability to adapt protocol to cell-type-specific constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

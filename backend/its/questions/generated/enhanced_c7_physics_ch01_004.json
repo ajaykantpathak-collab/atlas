@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_004",
+   "title": "c7_physics_ch01_004",
+   "questions": [
+    {
+     "q": "What is the very first step a scientist typically takes when beginning an investigation using the scientific method?",
+     "a": "The first step is making an observation and asking a question about a natural phenomenon or a problem in the environment. A student who answers \"writing the final conclusion\" confuses the starting point with the end result of an investigation. Another wrong answer like \"building a complex machine\" reveals a misconception that science only involves heavy technology rather than everyday curiosity and questioning.",
+     "self_check": true
+    },
+    {
+     "q": "Why must an experiment in the scientific method keep certain factors (controlled variables) completely constant while changing only one factor (the independent variable)?",
+     "a": "Controlled variables are kept constant to ensure that any change observed in the result (the dependent variable) is caused solely by the single factor being tested, rather than hidden interfering factors. A student who thinks \"all variables must be changed at once to save time\" fails to understand fair testing and causality. This reveals a belief that science is about random mixing rather than precise, isolated cause-and-effect relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests how the length of a pendulum affects its time period. In three trials with lengths 0.2 m, 0.4 m, and 0.6 m, the measured time periods are 0.9 s, 1.3 s, and 1.6 s respectively. If the student plots length on the x-axis and time period on the y-axis, calculate the average change in time period per 0.2 m increase in length across the tested interval.",
+     "a": "Steps:\n1. Identify initial and final values: At length $l_1 = 0.2\\text{ m}$, time $T_1 = 0.9\\text{ s}$; at length $l_3 = 0.6\\text{ m}$, time $T_3 = 1.6\\text{ s}$. Total change in length $\\Delta l = 0.6\\text{ m} - 0.2\\text{ m} = 0.4\\text{ m}$ (which equals two 0.2 m intervals).\n2. Calculate total change in time period: $\\Delta T = T_3 - T_1 = 1.6\\text{ s} - 0.9\\text{ s} = 0.7\\text{ s}$.\n3. Divide total change in time by the number of 0.2 m intervals (2 intervals): $\\text{Average change} = \\frac{0.7\\text{ s}}{2} = 0.35\\text{ s per 0.2 m}$.\n4. Unit analysis: Length is in meters (m), time is in seconds (s), so the rate of change is in seconds per meter ($\\text{s/m}$) or scaled per interval as calculated ($\\text{s/0.2 m}$).\n5. Verification: As length increases, time period increases non-linearly, so the average rate over the 0.4 m span is physically reasonable.\nAnswer: 0.35 s per 0.2 m interval (or $1.75\\text{ s/m}$). An incorrect answer like 0.7 s per 0.2 m indicates the student failed to divide the total change by the number of intermediate intervals, showing an arithmetic error in proportional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "If an experiment's results completely contradict the hypothesis that the student originally proposed, what does this indicate about the validity and success of the scientific method used?",
+     "a": "A contradictory result does not mean the experiment failed; it means the hypothesis was incorrect, which is a very successful outcome because it eliminates a false idea and guides new questions. A student who believes that \"a wrong hypothesis means the entire experiment is a failure and should be hidden\" misunderstands the nature of scientific progress. This reveals the misconception that science is only about proving guesses right rather than discovering objective truths.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims that because their toy car rolled down a wooden ramp faster than a plastic ramp once, they have conclusively proven that wooden surfaces always decrease friction more than plastic surfaces. Evaluate this claim based on the scientific method.",
+     "a": "The claim is invalid because a single trial without controlling for ramp angle, mass of the car, surface cleanliness, and releasing force does not constitute a reliable scientific test. To be valid, the experiment requires multiple trials, consistent conditions, and controlled variables. A student who accepts the classmate's claim as absolute proof lacks skepticism and does not understand the need for reproducibility and large sample sizes in scientific validation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short, step-by-step scientific method protocol to investigate whether the colour of a shallow container affects how fast water evaporates under the Chennai sun.",
+     "a": "Criteria for a good answer: \n1. Question: Does container colour affect evaporation rate?\n2. Hypothesis: Dark-coloured containers absorb more heat radiation, causing water to evaporate faster than in light-coloured containers.\n3. Experiment design: Take two identical shallow containers (e.g., one black, one white), pour exactly 50 mL of water into each using a measuring cylinder, and place both side-by-side in direct sunlight.\n4. Controlled variables: Initial water volume, surface area of containers, location, and exposure time.\n5. Dependent variable: Volume of water remaining after 4 hours (measured using a graduated cylinder).\nA poor answer would just say \"leave two bowls out and look at them,\" lacking controlled variables, precise measurements, and a clear testable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

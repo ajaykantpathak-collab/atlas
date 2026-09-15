@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_008",
+   "title": "c12_biotech_cbse_01_008",
+   "questions": [
+    {
+     "q": "What are the cohesive end (cos) sites of bacteriophage lambda, and what is their function in cloning?",
+     "a": "The cos sites are 12-base single-stranded complementary overhangs (5'-GGGCGGCGACCT-3') at the 5' ends of the linear lambda genome. They allow the linear DNA to circularize upon infection by base-pairing, and they serve as recognition sites for the terminase enzyme that cuts concatemeric DNA during packaging into phage heads. A wrong answer (e.g., \"cos sites are restriction sites for EcoRI\") reveals confusion between cohesive ends and restriction sites — a common error where students conflate the phage's natural packaging signal with artificial cloning sites.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a lambda insertion vector can accept only 5–11 kb of foreign DNA, while a replacement vector accepts 8–23 kb, even though both are derived from the same 48.5 kb wild-type genome.",
+     "a": "Insertion vectors retain all non-essential genes and simply have a unique restriction site inserted into them; the total genome size must stay ≤52 kb, so insert capacity = 52 – (48.5 – size of stuffer) ≈ 5–11 kb. Replacement vectors delete the entire non-essential region (≈15–20 kb) and replace it with the insert; the vector arms (essential genes) total ~30 kb, so insert capacity = 52 – 30 = up to 22 kb (minimum 37 – 30 = 7 kb). A wrong answer focusing only on \"replacement vectors have two restriction sites\" misses the quantitative packaging constraint (37–52 kb) that drives the capacity difference.",
+     "self_check": true
+    },
+    {
+     "q": "A lambda replacement vector has two arms of 20 kb and 10 kb after removal of the non-essential region. What is the allowable size range (in kb) for a foreign DNA insert to be packaged into viable phage particles? Show your calculation.",
+     "a": "Vector arms total = 20 + 10 = 30 kb. Packaging limits: 37–52 kb. Minimum insert = 37 – 30 = 7 kb. Maximum insert = 52 – 30 = 22 kb. Allowable range: 7–22 kb. A student answering \"8–23 kb\" (the textbook typical range) without calculating from the given arm sizes shows rote memorization without understanding the packaging constraint formula: Insert_size = Packaging_limit – Vector_arms_total.",
+     "self_check": true
+    },
+    {
+     "q": "Compare lambda phage vectors and plasmid vectors (like pBR322) on: (a) maximum insert size, (b) screening method for recombinants, and (c) stability of cloned DNA in the host. Which vector would you choose for a 15 kb eukaryotic genomic fragment and why?",
+     "a": "(a) Lambda: 8–23 kb; Plasmid: ≤10 kb. (b) Lambda: plaque formation (lysis) on bacterial lawn; Plasmid: antibiotic resistance + insertional inactivation (e.g., blue-white screening). (c) Lambda: DNA exists as lytic phage particles or integrated prophage — can be unstable if lytic genes express; Plasmid: stable extrachromosomal replication. For a 15 kb fragment, choose lambda replacement vector — plasmids cannot accommodate >10 kb efficiently, and lambda's packaging selection ensures only recombinant phages (with insert) form plaques. A wrong choice of plasmid for 15 kb reveals ignorance of plasmid size limitations and the practical consequence: low copy number, rearrangement, or failed transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher constructs a lambda insertion vector by cloning a 2 kb DNA fragment into the unique EcoRI site within the cI gene (non-essential region). The recombinant phage forms clear plaques on a lawn of *E. coli* K-12(λ⁻). Evaluate whether this phenotype confirms successful insertion and explain the molecular basis.",
+     "a": "Yes, clear plaques confirm insertion. Wild-type lambda forms turbid plaques due to lysogeny (cI repressor maintains lysogeny in some cells). The cI gene is inactivated by EcoRI insertion → no functional repressor → lytic cycle only → clear plaques. This is insertional inactivation of a phenotypic marker (cI). A student saying \"clear plaques mean no insertion\" confuses lambda with blue-white screening (where white = insertion). The error stems from not knowing lambda's natural plaque morphology (turbid = lysogeny) and that cI is a repressor of lysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a lambda replacement vector strategy to clone a 19 kb human genomic DNA fragment. Specify: (i) the restriction enzymes to use for vector arms and insert, (ii) how you would prevent self-ligation of vector arms, and (iii) the screening method to identify recombinants. Justify each choice.",
+     "a": "(i) Use a pair of enzymes (e.g., BamHI and EcoRI) that flank the non-essential region in the vector and have compatible ends with the insert (or use partial digestion with one enzyme for insert). (ii) Dephosphorylate vector arms with alkaline phosphatase after restriction digest — prevents self-ligation because ligase requires 5'-phosphate. (iii) Screen by plaque hybridization using a labeled probe for the human insert, OR use a vector with a selectable marker (e.g., *supF* amber suppressor) that is lost upon replacement (e.g., Spi⁻ selection). Justification: 19 kb fits replacement capacity (7–22 kb). Dephosphorylation ensures high recombinant:non-recombinant ratio. Hybridization directly detects insert sequence. A poor design using a single enzyme for both vector and insert without dephosphorylation yields high background of non-recombinants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

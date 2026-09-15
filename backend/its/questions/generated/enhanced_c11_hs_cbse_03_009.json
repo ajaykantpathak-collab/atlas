@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_009",
+   "title": "c11_hs_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the recommended daily serving ranges for the five food groups in the Food Guide Pyramid for Indians as depicted in the NCERT textbook.",
+     "a": "Correct answer: Cereals 6-11 servings, Vegetables 3-5 servings, Fruits 2-4 servings, Milk 2-3 servings, Meat/Pulses 2-3 servings; Fats, oils and sweets are at the apex to be used sparingly. A wrong answer (e.g., reversing cereals and vegetables) reveals the student has not internalized the pyramid's proportional logic — the base is largest because cereals are the staple energy source in Indian diets, not because they are more nutritious per gram.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Food Guide Pyramid places 'Fats, oils and sweets' at the apex and what 'use sparingly' means in the context of a balanced diet.",
+     "a": "Correct answer: The apex is the smallest section, visually conveying that these foods should contribute the least volume/servings per day; 'use sparingly' means they provide energy (fats) or empty calories (sugars) but few essential nutrients, so they should be limited to small amounts (e.g., 3-4 tsp oil, 1-2 tsp sugar) to avoid displacing nutrient-dense foods. A wrong answer that says 'fats are bad' or 'avoid completely' shows a misconception that all fats are harmful, ignoring that essential fatty acids and fat-soluble vitamin absorption require some dietary fat — the pyramid guides quantity, not elimination.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old vegetarian girl consumes the following in a day: 4 chapatis (cereal), 1 cup cooked rice (cereal), 1 bowl dal (pulse), 1 cup curd (milk), 1 apple (fruit), ½ cup cooked spinach (vegetable), 2 tsp oil (fat). Using the pyramid, identify which food groups she meets, which she falls short on, and suggest two specific additions to meet the minimum servings.",
+     "a": "Correct answer: She meets cereals (≈4 servings, within 6-11), pulses (1 serving, needs 1-2 more), milk (1 serving, needs 1 more), fruits (1 serving, needs 1-3 more), vegetables (1 serving, needs 2-4 more). Fats: 2 tsp oil is within sparingly. Additions: 1) Add 1 more cup curd or 200ml fortified soy milk to meet milk group. 2) Add 1 cup mixed vegetable sabzi (e.g., carrots, beans) and 1 seasonal fruit (e.g., guava) to meet vegetable and fruit minimums. A wrong answer that only counts total items without mapping to groups shows inability to apply the classification system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient concerns for a lacto-vegetarian versus a vegan adolescent using the Vegetarian Food Guide. Which nutrients require special attention in each case and why?",
+     "a": "Correct answer: Lacto-vegetarian (includes milk): vitamin B12 and iron need attention — B12 only from animal products (milk provides some), iron from plants is non-heme with lower bioavailability; dark leafy greens and vitamin C pairing help. Vegan (excludes milk): additionally calcium and vitamin D become critical — must use fortified soy milk, tofu set with calcium, sunlight exposure. Protein quality can be managed in both by cereal-pulse combination. A wrong answer that says 'vegans cannot get enough protein' reveals the misconception that plant proteins are incomplete — they are complementary when combined across meals.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: 'The Food Guide Pyramid is outdated because it promotes high carbohydrate intake from cereals, which causes obesity and diabetes in adolescents.' Use evidence from the pyramid's design and Indian dietary context.",
+     "a": "Correct answer: The statement misinterprets the pyramid — the wide cereal base reflects the traditional Indian dietary pattern where cereals are the affordable staple, but the guideline explicitly states 'cereals should not supply more than 75% of total kcal' and emphasizes whole grains (millets, whole wheat) over refined. The pyramid also mandates liberal vegetables/fruits and moderate protein/fat, which together lower glycemic load. Obesity/diabetes arise from excess refined cereals, sedentary lifestyle, and high fat/sugar — not from following the pyramid's proportions. A wrong answer that agrees without qualification shows inability to evaluate guidelines in context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 15-year-old boy (moderate activity) that meets the minimum servings of the Food Guide Pyramid. Present it as a table with columns: Meal, Food Items, Food Group, Servings. Ensure at least one dark green leafy vegetable and one fortified food are included.",
+     "a": "Expected answer: A table with 5-6 meals (breakfast, mid-morning, lunch, evening snack, dinner, bedtime) showing items like: Breakfast — 2 whole wheat chapatis (cereal, 2), 1 cup sambar with vegetables (pulse 1, vegetable 1), 1 cup curd (milk 1); Mid-morning — 1 banana (fruit 1), 10 almonds (pulse/nut 0.5); Lunch — 1 cup brown rice (cereal 2), 1 cup rajma (pulse 1), ½ cup palak paneer (vegetable 1, milk 0.5), salad (vegetable 0.5); Evening — 1 glass fortified soy milk (milk 1, fortified), 1 roasted chana (pulse 0.5); Dinner — 2 chapatis (cereal 2), 1 cup lauki chana dal (pulse 1, vegetable 1), ½ cup methi leaves (dark green leafy, vegetable 0.5). Totals: Cereal 6, Pulse 4, Milk 2.5, Vegetable 4, Fruit 1 (add 1 more fruit). A poor answer misses group mapping, omits dark greens/fortified food, or exceeds fat/sugar.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

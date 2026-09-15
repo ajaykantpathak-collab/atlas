@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_3",
+   "title": "c8_math_ch9_3",
+   "questions": [
+    {
+     "q": "Given a square of side 10 cm, what is the side length of a square with half its area? Express your answer in simplest radical form.",
+     "a": "The side length is \\(5\\sqrt{2}\\) cm. Half the area means new area = \\(100/2 = 50\\) cm². Side = \\(\\sqrt{50} = 5\\sqrt{2}\\) cm. A wrong answer of 5 cm reveals the student thinks halving the side halves the area (a common linear thinking error). An answer of \\(10/\\sqrt{2}\\) without rationalising shows incomplete simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why constructing a square on half the diagonal of the original square yields a square of half the area. Use the relationship between the side and diagonal of a square in your reasoning.",
+     "a": "The diagonal \\(d\\) of a square of side \\(a\\) is \\(a\\sqrt{2}\\) (by Pythagoras: \\(d^2 = a^2 + a^2 = 2a^2\\)). Half the diagonal is \\(d/2 = a/\\sqrt{2}\\). The area of a square with this side is \\((a/\\sqrt{2})^2 = a^2/2\\), which is half of \\(a^2\\). A wrong answer that states \"the diagonal is double the side\" or \"half the diagonal is half the side\" reveals confusion between linear and quadratic scaling, or not applying the Pythagorean theorem to relate side and diagonal.",
+     "self_check": true
+    },
+    {
+     "q": "A square courtyard has an area of 200 m². You need to mark out a smaller square garden inside it with exactly half the area. What should be the side length of the garden square? Show your calculation.",
+     "a": "Original area = 200 m². Half area = 100 m². Side of garden = \\(\\sqrt{100} = 10\\) m. Steps: 1) Halve the area: 200/2 = 100. 2) Take square root: \\(\\sqrt{100} = 10\\). A wrong answer of \\(\\sqrt{200}/2 \\approx 7.07\\) m reveals the student incorrectly halved the side instead of the area. An answer of 50 m² (just halving the area without square root) shows confusion between area and side length.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods for halving a square: (A) joining the midpoints of the original square, and (B) constructing a square on half the diagonal. Are the resulting squares congruent? Justify your answer.",
+     "a": "Yes, they are congruent. Method A: The segment joining midpoints of adjacent sides is the hypotenuse of a right triangle with legs \\(a/2\\) and \\(a/2\\), so its length is \\(\\sqrt{(a/2)^2 + (a/2)^2} = a/\\sqrt{2}\\). Method B: Half the diagonal = \\(a\\sqrt{2}/2 = a/\\sqrt{2}\\). Both squares have the same side length \\(a/\\sqrt{2}\\), hence same area and are congruent (rotated 45° relative to each other). A wrong answer claiming they are different reveals the student does not recognise that both constructions produce the same length \\(a/\\sqrt{2}\\), or cannot compute the midpoint segment length using Pythagoras.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a square of side 8 cm, then draws its diagonal and claims the square built on the full diagonal has half the area. Evaluate this claim and correct the error.",
+     "a": "The claim is false. The square on the full diagonal has side \\(8\\sqrt{2}\\) cm, area = \\((8\\sqrt{2})^2 = 128\\) cm². The original area is 64 cm². 128 cm² is **double** the original area, not half. The correct construction for half area uses **half the diagonal** (length \\(4\\sqrt{2}\\) cm), giving area 32 cm². A wrong evaluation that agrees with the student reveals confusion between doubling and halving, likely reversing the Baudhayana sutra \"the diagonal produces double the area\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (with numbers) where halving a square is needed, and describe the construction steps a carpenter would follow using only a rope (as a compass) and a straight edge, as in ancient Sulba-sutra practices.",
+     "a": "Example problem: A square wooden board of side 1 m is to be cut into two pieces to make two identical smaller square shelves of equal total area. Each shelf must have half the board's area. Construction: 1) Mark the square board. 2) Stretch rope from one corner to the opposite corner to mark the diagonal. 3) Fold the rope to find the midpoint of the diagonal. 4) Use that half-length as the side to mark out the smaller square on the board. 5) Cut along the lines. A poor answer gives a problem not requiring half-area, or describes measuring with a ruler instead of geometric construction, showing lack of connection to the historical method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class7_science_ch110.json",
+ "concepts": [
+  {
+   "id": "gesc.10.1",
+   "title": "Symbols of Electric Components",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the symbols used for a cell, bulb, switch and battery in circuits.",
+     "a": "Cell: long-short parallel lines; bulb: circle with cross; switch: break with lever; battery: cell symbols in series.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we draw circuit diagrams with symbols?",
+     "a": "Symbols make diagrams neat, quick to draw and understood by everyone.",
+     "self_check": true
+    },
+    {
+     "q": "What does an open switch do to a circuit?",
+     "a": "It breaks the path, so no current flows and the bulb stays off.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.2",
+   "title": "Electric Battery",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electric battery?",
+     "a": "Two or more cells joined in series to give higher voltage.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we combine cells in a torch?",
+     "a": "Two or more cells together give more current and a brighter light than one cell.",
+     "self_check": true
+    },
+    {
+     "q": "What decides which cell terminal connects where?",
+     "a": "Current flows from the positive terminal through the circuit back to the negative terminal.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.3",
+   "title": "Open and Closed Circuits",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a closed circuit?",
+     "a": "A complete, unbroken path from one cell terminal to the other, letting current flow and the bulb glow.",
+     "self_check": true
+    },
+    {
+     "q": "What is an open circuit?",
+     "a": "A broken path (switch off, loose wire) where no current flows.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a bulb not glow when a wire is loose?",
+     "a": "The gap stops the current path, so no electricity flows through the filament.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.4",
+   "title": "Heating Effect of Electric Current",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does a bulb's filament glow?",
+     "a": "Current heats the thin filament till it glows white-hot, giving light.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to the heating when the current is increased?",
+     "a": "More current means more heat - the filament glows brighter (and can burn out).",
+     "self_check": true
+    },
+    {
+     "q": "Name a device that uses the heating effect of current.",
+     "a": "Electric heater, iron, toaster or fuse.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.5",
+   "title": "Factors Influencing Heat Production",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "On what factors does heat produced in a wire depend?",
+     "a": "The current, the wire's resistance (material, length, thickness) and the time current flows.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a thin wire heat more than a thick one for the same current?",
+     "a": "A thin wire has higher resistance, so more heat is produced.",
+     "self_check": true
+    },
+    {
+     "q": "Which metal wires conduct with least heating?",
+     "a": "Thick copper wires - low resistance means little heat loss.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.6",
+   "title": "Electric Fuse",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electric fuse?",
+     "a": "A short wire of low-melting metal in the circuit that melts when current is too high, breaking it.",
+     "self_check": true
+    },
+    {
+     "q": "How does a fuse protect appliances?",
+     "a": "It melts before excess current can overheat wiring or burn the appliance.",
+     "self_check": true
+    },
+    {
+     "q": "What decides the rating of a fuse?",
+     "a": "The safe current limit of the circuit - the fuse wire must melt just above it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.7",
+   "title": "Magnetic Effect of Electric Current",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the magnetic effect of electric current?",
+     "a": "A current-carrying wire acts like a magnet, deflecting a nearby compass needle.",
+     "self_check": true
+    },
+    {
+     "q": "How can you show a wire carries current using a compass?",
+     "a": "Place the compass near the wire - deflection of the needle shows current is flowing.",
+     "self_check": true
+    },
+    {
+     "q": "Who discovered the magnetic effect of current?",
+     "a": "Hans Christian Oersted in 1820.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.8",
+   "title": "Electromagnet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an electromagnet?",
+     "a": "A coil wound on soft iron that acts as a magnet only while current flows through the coil.",
+     "self_check": true
+    },
+    {
+     "q": "How can an electromagnet be made stronger?",
+     "a": "More turns of wire, more current, or a better iron core.",
+     "self_check": true
+    },
+    {
+     "q": "State one advantage of an electromagnet over a permanent magnet.",
+     "a": "It can be switched on and off, and its strength is adjustable.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.9",
+   "title": "Working of an Electric Bell",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does an electric bell work?",
+     "a": "Current makes the electromagnet attract an iron strip; the hammer strikes the gong and the circuit breaks, repeating rapidly.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the bell ring continuously while the switch is on?",
+     "a": "The circuit breaks and remakes each time the hammer moves, so the gong is struck again and again.",
+     "self_check": true
+    },
+    {
+     "q": "What is the role of the contact screw in an electric bell?",
+     "a": "It completes the circuit when the strip springs back, restarting the cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

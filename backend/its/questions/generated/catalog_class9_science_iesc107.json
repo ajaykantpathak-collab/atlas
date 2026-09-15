@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class9_science_iesc107.json",
+ "concepts": [
+  {
+   "id": "iesc.107.7.1",
+   "title": "Work Done by a Force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "work",
+     "expr": "force * distance",
+     "explain": "W = F x s"
+    },
+    {
+     "step": 2,
+     "name": "half_distance_work",
+     "expr": "force * (distance / 2)",
+     "explain": "work over half the distance"
+    },
+    {
+     "step": 3,
+     "name": "work_kj",
+     "expr": "work / 1000",
+     "explain": "convert to kilojoules"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A man pushes a car with 400 N over 25 m. Find the work in kJ.",
+     "vals": {
+      "force": 400,
+      "distance": 25
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "10 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A 50 N force acts through 4 m. Calculate the work done in kJ.",
+     "vals": {
+      "force": 50,
+      "distance": 4
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "0.2 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A crane lifts a load with 2000 N through 12 m. Compute the work in kJ.",
+     "vals": {
+      "force": 2000,
+      "distance": 12
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "24 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A girl pulls her bag with 30 N for 15 m. What work does she do (in kJ)?",
+     "vals": {
+      "force": 30,
+      "distance": 15
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "0.45 kJ",
+     "self_check": false
+    },
+    {
+     "q": "A horse drags a cart with 250 N across 80 m. Find the work in kJ.",
+     "vals": {
+      "force": 250,
+      "distance": 80
+     },
+     "unit": "kJ",
+     "steps": null,
+     "a": "20 kJ",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.7.2",
+   "title": "Kinetic and Potential Energy",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "velocity_squared",
+     "expr": "velocity ** 2",
+     "explain": "square the speed"
+    },
+    {
+     "step": 2,
+     "name": "ke_half_speed",
+     "expr": "mass * (velocity / 2) ** 2 / 2",
+     "explain": "kinetic energy at half the speed"
+    },
+    {
+     "step": 3,
+     "name": "kinetic",
+     "expr": "mass * velocity_squared / 2",
+     "explain": "KE = mv squared / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 4 kg body moves at 5 m/s. Find its kinetic energy.",
+     "vals": {
+      "mass": 4,
+      "velocity": 5
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "50 J",
+     "self_check": false
+    },
+    {
+     "q": "A 0.8 kg fruit hangs 3 m up (g = 9.8). Compute its potential energy.",
+     "vals": {
+      "mass": 0.8,
+      "g": 9.8,
+      "height": 3
+     },
+     "unit": "J",
+     "steps": [
+      [
+       "potential",
+       "mass * g * height"
+      ]
+     ],
+     "a": "23.52 J",
+     "self_check": false
+    },
+    {
+     "q": "A 500 kg car runs at 10 m/s. Calculate its kinetic energy.",
+     "vals": {
+      "mass": 500,
+      "velocity": 10
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "25000 J",
+     "self_check": false
+    },
+    {
+     "q": "A 2 kg ball at 6 m/s: find its kinetic energy.",
+     "vals": {
+      "mass": 2,
+      "velocity": 6
+     },
+     "unit": "J",
+     "steps": null,
+     "a": "36 J",
+     "self_check": false
+    },
+    {
+     "q": "A 15 kg load is raised 4 m (g = 9.8). Find the stored potential energy.",
+     "vals": {
+      "mass": 15,
+      "g": 9.8,
+      "height": 4
+     },
+     "unit": "J",
+     "steps": [
+      [
+       "potential",
+       "mass * g * height"
+      ]
+     ],
+     "a": "588 J",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.107.7.3",
+   "title": "Simple Machines: Levers and Mechanical Advantage",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a lever?",
+     "a": "A rigid rod that turns about a fixed point (fulcrum) to multiply force - a simple machine.",
+     "self_check": true
+    },
+    {
+     "q": "State the law of the lever.",
+     "a": "Load x load arm = effort x effort arm, when the lever balances.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a lever from daily life.",
+     "a": "A see-saw, scissors, crowbar or bottle opener.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

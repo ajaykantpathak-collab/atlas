@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_008",
+   "title": "c12_eco_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define 'economic agent' in the macroeconomic sense and name the three primary domestic agents identified in the NCERT framework.",
+     "a": "An economic agent is any individual or institution that takes economic decisions (what to produce, how much to consume, how much to tax/spend). The three primary domestic agents are **Households, Firms, and Government**. A wrong answer (e.g., listing 'banks' or 'RBI' as a primary agent instead of government) reveals the student confuses **financial intermediaries** with the fundamental institutional sectors; banks are part of the financial system that facilitates flows between agents, not a primary decision-making sector in the basic three-sector model.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why households are simultaneously **suppliers in factor markets** and **demanders in product markets**. Use the terms 'factor income' and 'consumption expenditure' in your answer.",
+     "a": "Households own factors of production (labour, land, capital) and supply them to firms in factor markets, earning **factor incomes** (wages, rent, interest, profit). They then use this income to demand goods and services in product markets, incurring **consumption expenditure**. A wrong answer that says \"households only buy goods\" or \"households only sell labour\" shows the student has not grasped the **circular flow logic** — they miss the dual role that makes the circular flow possible. This misconception often stems from viewing household activity in isolation (micro view) rather than as part of the macroeconomic circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into Household (H), Firm (F), or Government (G) with a one-line justification:\n(a) A self-employed plumber who hires two assistants.\n(b) The Reserve Bank of India.\n(c) A farmer who grows wheat for own consumption and sells surplus.\n(d) Indian Railways.\n(e) A cooperative dairy society owned by milk producers.",
+     "a": "(a) **F** — The plumber organises production, hires wage labour, and aims for profit (entrepreneurial firm). (b) **G** — RBI is a statutory body of the State performing monetary policy (public goal). (c) **H** — Primarily a household; own-consumption dominates, surplus sale is secondary (peasant household, not a capitalist firm). (d) **G** — Indian Railways is a departmental undertaking of the Government of India (public sector enterprise). (e) **F** — A cooperative is a production unit hiring factors and selling output; though owned by households, it operates as a firm. A common error: classifying (c) as Firm because of 'sale' — misses the **predominant motive** (subsistence vs profit). Classifying (b) as Firm misses the **public mandate** (not profit maximisation).",
+     "self_check": true
+    },
+    {
+     "q": "In a mixed economy like India, the government produces goods/services (e.g., railways, defence) AND regulates private firms. Analyse how this **dual role** creates a potential conflict of interest that does not exist for a purely private firm. Give a concrete Indian example.",
+     "a": "As a **producer**, the government wants its enterprises (e.g., BSNL, Air India historically) to survive and grow; as a **regulator**, it must ensure fair competition, consumer protection, and efficient allocation — which may require letting inefficient public firms shrink or exit. Example: The government owning Air India while also regulating aviation slots and bilateral rights created a conflict — private airlines alleged preferential treatment. A private firm faces no such conflict; it only maximises shareholder value. A wrong answer that says \"government firms are always inefficient\" or \"regulation always helps public firms\" shows **ideological bias** instead of institutional analysis. The correct analysis identifies the **principal-agent problem**: the State is both principal (owner) and regulator (rule-maker).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a capitalist economy, the government is just another firm because it also produces goods and hires labour.\" Use the NCERT distinction between **private goals** and **public goals** in your evaluation.",
+     "a": "The statement is **false**. NCERT explicitly states: macroeconomic agents (State, RBI, SEBI) pursue **public goals defined by law/Constitution** (employment, equity, defence, health) — not private profit/welfare maximisation. Firms maximise **private profit**; households maximise **private welfare**. Government production (e.g., public hospitals, rural roads) often occurs where markets fail (public goods, merit goods, externalities) or equity demands universal access. A wrong answer agreeing with the statement confuses **production activity** with **objective function**. The distinction is fundamental to macroeconomics: policy tools (taxation, money supply, interest rates) are deployed for **social welfare**, not organisational surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple **four-sector interaction diagram** (Households, Firms, Government, External Sector) showing the **real flows** (goods, services, factor services) and **money flows** (factor payments, consumption expenditure, taxes, subsidies, exports, imports) between them. Label all eight flows.",
+     "a": "A correct diagram shows:\n**Real flows (clockwise):** (1) Households → Firms: Factor services (labour, land, capital); (2) Firms → Households: Goods/services; (3) Households → Government: Factor services (civil servants); (4) Government → Households: Public goods/services; (5) Firms → Government: Goods/services (procurement); (6) Government → Firms: Infrastructure/regulation; (7) Domestic → External: Exports; (8) External → Domestic: Imports.\n**Money flows (counter-clockwise):** (1) Firms → Households: Factor payments (wages, rent, interest, profit); (2) Households → Firms: Consumption expenditure; (3) Government → Households: Wages/transfers; (4) Households → Government: Taxes; (5) Government → Firms: Subsidies/procurement payments; (6) Firms → Government: Taxes; (7) External → Domestic: Export receipts; (8) Domestic → External: Import payments.\nMissing any flow (especially government↔firm or external flows) reveals incomplete understanding of the **four-sector macro model** that this chapter builds toward.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

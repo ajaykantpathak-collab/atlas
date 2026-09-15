@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_10",
+   "title": "c8_math_ch7_10",
+   "questions": [
+    {
+     "q": "A rectangular image has width 18 cm and height 12 cm. What is its width-to-height ratio in simplest form?",
+     "a": "The ratio is 18:12, which simplifies to 3:2 (dividing both terms by their HCF, 6). A wrong answer like 18:12 (not simplified) reveals the student does not recall that ratios must be expressed in simplest form (c8_math_ch7_3). An answer of 2:3 reveals confusion between width-to-height and height-to-width order.",
+     "self_check": true
+    },
+    {
+     "q": "Riya has a 10 cm × 6 cm photo. She wants to enlarge it to a width of 25 cm. Her friend says, \"Just add 15 cm to the height too, so it becomes 25 cm × 21 cm.\" Why is the friend's method incorrect? Explain using the concept of aspect ratio.",
+     "a": "The original aspect ratio is 10:6 = 5:3. The friend's method gives 25:21, which is not equal to 5:3 (since 5/3 ≠ 25/21). Adding the same amount to both dimensions changes the ratio; only multiplying both dimensions by the same scale factor (here 25/10 = 2.5) preserves the ratio, giving height = 6 × 2.5 = 15 cm. A wrong answer that says \"adding keeps the shape the same\" reveals the additive vs. multiplicative misconception (c8_math_ch7_1).",
+     "self_check": true
+    },
+    {
+     "q": "A movie poster is 60 cm wide and 90 cm tall. You want to make a smaller version with a height of 30 cm for a brochure. What should the width be to keep the poster similar? Show your working using a proportion.",
+     "a": "Step 1: Original ratio = width/height = 60/90 = 2/3.\nStep 2: Let new width = w. New ratio = w/30.\nStep 3: For similarity, 60/90 = w/30.\nStep 4: Cross-multiply: 60 × 30 = 90 × w → 1800 = 90w → w = 20.\nStep 5: New width = 20 cm. (Check: 20:30 = 2:3 ✓)\nA wrong answer like 10 cm (subtracting 30 from 60) shows additive thinking. An answer of 45 cm (using 60/90 = 30/w incorrectly) reveals misplacing the unknown in the proportion.",
+     "self_check": true
+    },
+    {
+     "q": "Two rectangles A and B are similar. Rectangle A has width 14 cm and height 10 cm. Rectangle B has width 21 cm. Without calculating the exact height of B, explain how you know whether B's height is greater than, equal to, or less than 15 cm.",
+     "a": "Rectangle A's aspect ratio = 14/10 = 1.4. Since rectangles are similar, B's width/height = 1.4. Given B's width = 21 cm, height = 21/1.4 = 15 cm exactly. So B's height is equal to 15 cm. A student who says \"greater than 15 cm\" might think width increased by 7 (from 14 to 21), so height should also increase by 7 (from 10 to 17) — again additive reasoning. A student who says \"less than 15 cm\" might incorrectly invert the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"A 4 cm × 6 cm image is scaled to a width of 10 cm. Find the new height.\" Their working: 4/6 = 10/h → 4h = 60 → h = 15. Is the answer correct? If not, identify the error and give the correct height.",
+     "a": "The answer 15 cm is incorrect. The error is in setting up the proportion: the student wrote width/height = new width/new height, but used 4/6 = 10/h. The original width is 4, height is 6, so the ratio is width:height = 4:6 = 2:3. The correct proportion is 4/6 = 10/h (which is what they wrote) — wait, that actually gives h = 15? Let's check: 4/6 = 10/h → 4h = 60 → h = 15. But 10/15 = 2/3, which matches 4/6 = 2/3. So the answer IS correct! The student's working is correct. (This question tests if the evaluator blindly assumes an error.) A wrong judgment that the answer is incorrect reveals the evaluator's own confusion about which dimension corresponds to which.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a student must scale an image while preserving similarity, and the scale factor is NOT a whole number. Provide the problem statement, the given dimensions, what is asked, and the complete solution.",
+     "a": "Example problem: \"A school's rectangular logo is 8 cm wide and 5 cm tall. For the Annual Day banner, the logo must be printed 35 cm wide. What will be its height?\" Solution: Scale factor = 35/8 = 4.375. New height = 5 × 4.375 = 21.875 cm. Or by proportion: 8/5 = 35/h → 8h = 175 → h = 21.875 cm. A poor answer uses a whole-number scale factor (e.g., \"make it 40 cm wide\") or solves additively (height = 5 + 27 = 32 cm), showing inability to construct a non-trivial scaling scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

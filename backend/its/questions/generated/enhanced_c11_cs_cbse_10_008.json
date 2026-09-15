@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_008",
+   "title": "c11_cs_cbse_10_008",
+   "questions": [
+    {
+     "q": "Convert the infix expression \"A + B * C\" to postfix notation. Show the stack state after processing each token.",
+     "a": "Postfix: A B C * +. Stack trace: Start empty. Read A → output A. Read + → push + (stack: +). Read B → output B. Read * → precedence(*) > precedence(+) so push * (stack: + *). Read C → output C. End → pop * then + → output * +. A wrong answer like A B + C * reveals the student ignores precedence and processes left-to-right.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the infix expression \"(A + B) * C\" produces a different postfix than \"A + B * C\" even though both have the same tokens.",
+     "a": "Parentheses force the addition to happen before multiplication. In \"(A+B)*C\", '(' is pushed, then '+', then ')': on ')', we pop '+' to output before pushing '*', giving A B + C *. In \"A+B*C\", '*' has higher precedence than '+', so '*' is pushed on top of '+', giving A B C * +. A student who says they are the same misunderstands that parentheses override precedence by acting as stack delimiters.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the conversion of \"A ^ B ^ C\" to postfix. What is the result and why does the associativity of ^ matter?",
+     "a": "Result: A B C ^ ^. ^ is right-associative. Trace: A→output, ^→push, B→output, ^→incoming ^ has same precedence as stack top ^, but right-associative means we do NOT pop the stack top; we push new ^ (stack: ^ ^). C→output. End→pop both ^ → output ^ ^. If student gives A B ^ C ^, they incorrectly used left-associativity (popping on equal precedence).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stack operations for converting \"A * (B + C) / D\" and \"A * B + C / D\". Identify the step where the stack contents differ and explain why.",
+     "a": "First expression: after reading '(', stack has * (. Second: after reading '*', stack has *; then B output; then + pops * (precedence + < *), outputs *, pushes +. The difference occurs at the '+' token: in first, '(' blocks popping so + is pushed on top of *; in second, * is popped because + has lower precedence. A student missing this cannot handle parentheses as precedence isolators.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes Python code for infix-to-postfix but gets \"A B C * +\" for \"A + (B * C)\". They claim the parentheses are redundant. Evaluate this claim: is the output correct? Is the claim valid?",
+     "a": "Output is correct (same as without parentheses because * already has higher precedence than +). However, the claim \"parentheses are redundant\" is dangerous: in \"A * (B + C)\", parentheses are essential. The algorithm must still process '(' and ')' correctly (push '(', pop until '('). A student who thinks parentheses can be ignored will fail on expressions where parentheses change the order.",
+     "self_check": true
+    },
+    {
+     "q": "Design an infix expression with three operators (+, *, ^) and parentheses that requires the stack to hold at least three operators simultaneously during conversion. Show the maximum stack depth.",
+     "a": "Example: \"A ^ (B * C + D)\". Trace: A→out, ^→push(^), (→push(^), (, *→push(^, (, *), B→out, +→pop * (precedence + < *), push + (stack: ^, (, +), C→out, )→pop +, pop ( (stack: ^), D→out, end→pop ^. Max stack depth = 3 (^, (, * then ^, (, +). A good answer demonstrates understanding of precedence, parentheses, and stack growth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

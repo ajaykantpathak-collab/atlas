@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_002",
+   "title": "c10_phy_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the sequence of energy conversions in a coal-based thermal power plant, starting from the chemical energy of coal and ending with electrical energy. Name the major component where each conversion occurs.",
+     "a": "Chemical energy (coal) → Heat energy (boiler/furnace) → Mechanical energy (steam turbine) → Electrical energy (generator). A wrong answer (e.g., skipping the boiler or turbine, or saying chemical directly to electrical) reveals the student does not understand the intermediate energy forms and the role of each component. They may be memorizing terms without grasping the physical process.",
+     "self_check": true
+    },
+    {
+     "q": "In a hydro power plant, water stored in a dam possesses gravitational potential energy. Explain why the water is made to flow through a narrow pipe (penstock) before striking the turbine, instead of letting it fall freely on the turbine blades.",
+     "a": "The penstock converts potential energy into high-velocity kinetic energy in a controlled, directed jet. This increases the momentum and pressure of water striking the turbine blades, maximizing mechanical energy transfer. A wrong answer (e.g., \"to save space\" or \"to prevent splashing\") shows the student does not connect the penstock to energy conversion (potential → kinetic) and the need for directed high-speed flow for efficient turbine rotation.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant burns 100 kg of coal per hour. The calorific value of coal is 25 MJ/kg. The plant generates 200 MW of electrical power. Calculate the overall efficiency of the plant. (1 MW = 10^6 W, 1 hour = 3600 s)",
+     "a": "Step 1: Input energy per hour = mass × calorific value = 100 kg × 25 MJ/kg = 2500 MJ = 2.5 × 10^9 J.\nStep 2: Output electrical energy per hour = Power × time = 200 × 10^6 W × 3600 s = 7.2 × 10^11 J.\nStep 3: Efficiency = (Output / Input) × 100% = (7.2 × 10^11 / 2.5 × 10^9) × 100% = 28800% → Wait, this is impossible. The error is in output calculation: 200 MW = 200 × 10^6 J/s. In one hour: 200 × 10^6 × 3600 = 7.2 × 10^11 J. Input is 2.5 × 10^9 J. Output > Input? That means the given numbers are inconsistent. A realistic coal plant efficiency is 30-40%. The student must recognize that the problem data is flawed if output exceeds input. A wrong answer that computes 28800% without questioning reveals the student does not check physical reasonableness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy conversion steps in a thermal power plant and a hydro power plant. Identify the step that is fundamentally different and explain why that difference makes hydro power renewable while thermal power is non-renewable.",
+     "a": "The fundamentally different step is the first conversion: thermal plants convert chemical energy of fuel (coal) to heat by combustion — coal is consumed and cannot be replenished on human timescales. Hydro plants convert gravitational potential energy of water (replenished by the water cycle driven by the Sun) to kinetic energy — water is not consumed. A wrong answer focusing only on \"turbine and generator are same\" misses the core distinction: the source energy form and its renewability. The student must link the first conversion step to renewability.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Hydro power plants are 100% efficient because water is not burned and there is no heat loss.\" Evaluate this statement. Is it correct? Justify your answer with at least two specific energy losses that occur in a hydro plant.",
+     "a": "The statement is incorrect. No real power plant is 100% efficient. In hydro plants, losses include: (1) Friction and turbulence in penstock and turbine passages (water loses kinetic energy as heat/sound), (2) Mechanical friction in turbine bearings and generator windings, (3) Electrical resistance losses in generator coils (I²R heating), (4) Kinetic energy of water leaving the turbine (not fully extracted). A wrong answer accepting the claim shows confusion between \"no fuel combustion\" and \"no energy losses.\" The student must distinguish between source renewability and conversion efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using everyday materials (plastic bottles, straws, a small DC motor, LED) to model the working of a hydro power plant. List the materials, sketch the setup, and explain how each part represents a component of a real hydro plant.",
+     "a": "Materials: 2L plastic bottle (dam/reservoir), straw/tube (penstock), small plastic spoon wheel glued to DC motor shaft (turbine+generator), LED (load), water. Setup: Make a hole near bottle bottom, insert straw, seal. Attach motor with spoon wheel at straw outlet. Connect LED to motor terminals. Pour water into bottle → water jets out straw → spins spoon wheel → motor generates electricity → LED glows. Mapping: Bottle = dam (potential energy), Straw = penstock (directed kinetic energy), Spoon wheel = turbine (mechanical energy), Motor = generator (electrical energy), LED = consumer. A poor answer (e.g., just \"pour water on motor\") misses the penstock's role in converting potential to directed kinetic energy and the motor acting as a generator.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_12_007",
+   "title": "c12_ps_cbse_12_007",
+   "questions": [
+    {
+     "q": "Which constitutional provision did the 38th Amendment (1975) primarily target to make the President's satisfaction in proclaiming Emergency non-justiciable?",
+     "a": "The 38th Amendment inserted clauses (4) and (5) into Article 352, declaring that the President's satisfaction under Article 352(1) and (3) is final and conclusive and cannot be questioned in any court. A wrong answer (e.g., \"Article 356\" or \"Article 360\") reveals confusion between National Emergency (Article 352), State Emergency (Article 356), and Financial Emergency (Article 360) — a common error when students memorise amendment numbers without linking each to the specific Emergency type it amended.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 39th Amendment (1975) was enacted immediately after the Allahabad High Court's judgment in *State of Uttar Pradesh v. Raj Narain* (June 1975).",
+     "a": "The Allahabad High Court had invalidated Indira Gandhi's 1971 Lok Sabha election on grounds of corrupt practice, which would have disqualified her from Parliament and forced her resignation as PM. The 39th Amendment inserted Article 329A, placing disputes concerning elections of the PM, President, VP, and Speaker exclusively before a parliamentary committee/body, thereby removing them from judicial review. A wrong answer that merely states \"to protect Indira Gandhi\" without citing the specific judicial trigger (Allahabad HC judgment) and the constitutional mechanism (new Article 329A replacing Article 71/329) shows superficial understanding of the amendment's legal architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen files a writ petition in the High Court under Article 226 challenging a detention order passed under MISA during the Emergency. The High Court dismisses the petition citing the 42nd Amendment. Which specific change in the 42nd Amendment curtailed the High Court's writ jurisdiction, and how did it differ from the pre-Emergency position?",
+     "a": "The 42nd Amendment amended Article 226 to restrict High Courts from issuing writs for enforcement of Fundamental Rights during Emergency (by inserting Article 226(3)-(4) type restrictions) and amended Article 227 to limit supervisory jurisdiction. Pre-Emergency, Article 226 allowed High Courts to issue writs for \"any other purpose\" including Fundamental Rights enforcement even during Emergency (subject to Article 359 suspension). The 42nd Amendment explicitly narrowed this. A wrong answer citing Article 32 (Supreme Court) instead of Article 226 (High Court) or confusing Article 359 (suspension of enforcement) with Article 226 amendment reveals confusion between presidential suspension orders and permanent constitutional amendments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 42nd Amendment's treatment of Directive Principles vs. Fundamental Rights with the position established in the *Kesavananda Bharati* case (1973) and the *Minerva Mills* case (1980). What constitutional principle was the 42nd Amendment attempting to overturn?",
+     "a": "The 42nd Amendment expanded Article 31C to give *all* Directive Principles (not just Articles 39(b)-(c)) precedence over Articles 14, 19, and 31, effectively immunising any law implementing DPs from Fundamental Rights challenge. *Kesavananda* had held that Parliament cannot amend the basic structure; *Minerva Mills* later struck down this expanded Article 31C as violating basic structure (judicial review and balance between Parts III and IV). The 42nd Amendment attempted to overturn the \"basic structure doctrine\" itself by declaring amending power unlimited (Article 368(4)-(5)). A wrong answer that conflates the original Article 31C (1971, protecting only Articles 39(b)-(c)) with the 42nd Amendment's expanded version shows failure to track the evolution of the DP-FR conflict.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that the 42nd Amendment's insertion of \"socialist, secular\" into the Preamble and addition of Fundamental Duties (Article 51A) were mere \"window-dressing\" to legitimise the authoritarian changes in the same amendment. Support your evaluation with two specific provisions from the 42nd Amendment that substantively altered power distribution.",
+     "a": "The Preamble changes and Fundamental Duties were symbolic; the substantive authoritarian shifts were: (1) Article 368(4)-(5) declaring constitutional amendments immune from judicial review, directly attacking basic structure; (2) Articles 131A, 144A, 226A, 228A curtailing Supreme Court and High Court jurisdiction; (3) extending Lok Sabha/Assembly terms from 5 to 6 years (Article 83/172); (4) binding the President to Cabinet advice (Article 74(1)). A weak evaluation treats all 42nd Amendment changes as equal; a strong one distinguishes symbolic/ideological inserts from structural power shifts that entrenched executive dominance.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional argument that a lawyer in 1977 could have used to challenge the 39th Amendment's Article 329A before the Supreme Court, invoking the basic structure doctrine established in *Kesavananda Bharati* (1973).",
+     "a": "A strong argument: \"Article 329A destroys the basic structure by eliminating judicial review of the Prime Minister's election — a core component of free and fair elections (itself part of basic structure per *Kesavananda*). It creates a self-serving parliamentary tribunal replacing an independent judiciary, violating separation of powers and rule of law. The amendment targets a single individual's case (retrospective validation), constituting a fraud on the Constitution.\" A poor answer merely quotes *Kesavananda* without applying its \"essential features\" test to the specific mechanism of Article 329A (parliamentary committee vs. court, retrospective effect, lack of objective criteria).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_02_004",
+   "title": "c12_ca_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the default print behavior in Excel if no print area is defined?",
+     "a": "By default, Excel prints all data on the current worksheet (all cells with content). A wrong answer like \"only the selected cells\" or \"only the visible screen area\" reveals the student confuses print area with selection printing or screen capture, missing that Excel's default is the entire used range of the active sheet.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets a print area as A1:D20, then later adds data in column E. They print and column E is missing. Why did this happen, and how to fix it?",
+     "a": "The print area is static — it does not auto-expand. The fix is to either redefine the print area to include column E (A1:E20) or use a dynamic named range with a table (Ctrl+T) which auto-expands. A wrong answer like \"Excel updates print area automatically\" shows misunderstanding of print area as a fixed reference, not a live range.",
+     "self_check": true
+    },
+    {
+     "q": "You have a wide dataset (columns A to Z) that must fit on one landscape page. Which Page Setup scaling option ensures all columns print on one page width-wise without manually adjusting column widths?",
+     "a": "In Page Setup → Scaling, select \"Fit to: 1 page(s) wide by 99 pages tall\" (or a large number for height). This forces horizontal compression to one page while allowing vertical flow. A wrong answer like \"Adjust to 75%\" shows the student doesn't know the \"Fit to\" feature, which is the standard way to handle wide reports in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare printing a non-contiguous range (e.g., A1:C10 and E1:G10) vs. printing the whole worksheet. How does Excel handle page breaks in each case?",
+     "a": "Non-contiguous ranges print on separate pages (each selection = new page). Whole worksheet prints continuously with automatic page breaks. A wrong answer like \"they print side-by-side on one page\" shows confusion — Excel never merges non-adjacent ranges horizontally; each Print Area selection starts a new page.",
+     "self_check": true
+    },
+    {
+     "q": "A report prints with \"#####\" in a date column even though the cell width looks fine on screen. The student widens the column, but the print preview still shows \"#####\". What is the likely cause and fix?",
+     "a": "The column width in Page Layout view or Print Preview differs from Normal view due to margins/scaling. Fix: adjust column width in Page Layout view (View → Page Layout) or use \"AutoFit Column Width\" in Page Layout. A wrong answer like \"it's a formula error\" shows confusion between display truncation (#####) and actual errors (#VALUE!, #REF!).",
+     "self_check": true
+    },
+    {
+     "q": "Design a print setup for a 12-month cash flow statement (columns A:M, rows 1:50) that must: (a) fit on one A4 page, (b) repeat row 1 (headers) on every page if it spills, (c) show \"Confidential - Page X of Y\" in footer. List the exact steps in order.",
+     "a": "Steps: 1. Page Layout → Print Area → Set Print Area (A1:M50). 2. Page Layout → Page Setup dialog → Page tab: Orientation=Landscape, Scaling=Fit to 1 page wide by 1 page tall. 3. Sheet tab: Rows to repeat at top = $1:$1. 4. Header/Footer tab: Custom Footer → Center: \"Confidential - Page &[Page] of &[Pages]\". 5. Print Preview to verify. A poor answer misses any step, especially \"Rows to repeat\" or dynamic page numbers (&[Page]), showing incomplete mastery of multi-page report setup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

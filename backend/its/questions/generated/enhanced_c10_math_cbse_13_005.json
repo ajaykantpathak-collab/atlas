@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_005",
+   "title": "c10_math_cbse_13_005",
+   "questions": [
+    {
+     "q": "Write the formula for the median of grouped data and define each variable (l, N, cf, f, h) in your own words. State the condition under which this formula is valid.",
+     "a": "Median = l + [(N/2 - cf)/f] × h, where l = lower limit of median class, N = total frequency (sum of all frequencies), cf = cumulative frequency of class before median class, f = frequency of median class, h = class size (upper limit - lower limit). Valid for continuous frequency distributions with equal class intervals. A wrong answer reveals the student has memorised the formula without understanding what each variable represents — for example, confusing cf with the cumulative frequency of the median class itself, or thinking h is the class width only when intervals are equal.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds the median class for a distribution with N = 50 by looking for the class where cumulative frequency first exceeds 25. Another student says we should look for the class where cumulative frequency first exceeds 25.5. Who is correct and why? Explain the reasoning behind using N/2.",
+     "a": "The first student is correct. N/2 = 25 exactly, and we need the class where cumulative frequency first becomes ≥ N/2 (i.e., ≥ 25). Using 25.5 would incorrectly shift the median class when N is even. The reasoning: the median is the value at the (N/2)th position for even N (average of 25th and 26th values conceptually), but in grouped data we use N/2 as the positional index for interpolation. A wrong answer reveals the student doesn't understand that N/2 represents the cumulative frequency position of the median, not a rank that needs +0.5 adjustment — this confusion often comes from misapplying the ungrouped data rule \"median position = (n+1)/2\".",
+     "self_check": true
+    },
+    {
+     "q": "Find the median of the following distribution:\nClass: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 5, 8, 12, 15, 10",
+     "a": "Step 1: N = 5+8+12+15+10 = 50. N/2 = 25.\nStep 2: Cumulative frequencies: 5, 13, 25, 40, 50.\nStep 3: cf first ≥ 25 is at class 20-30 (cf = 25). Median class = 20-30.\nStep 4: l = 20, cf = 13 (cf of preceding class 10-20), f = 12, h = 10.\nStep 5: Median = 20 + [(25 - 13)/12] × 10 = 20 + (12/12) × 10 = 20 + 10 = 30.\nAnswer: 30. A wrong answer typically comes from using cf = 25 (cf of median class instead of preceding class), giving 20 + [(25-25)/12]×10 = 20, or misidentifying median class as 30-40 because cf=25 is exactly at the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Two distributions have the same median class (30-40) and same total frequency N=60. Distribution A has cf=20, f=15 for the median class. Distribution B has cf=25, f=10 for the median class. Both have h=10. Without calculating, which distribution has a higher median? Justify your answer.",
+     "a": "Distribution A has the higher median. Median = l + [(N/2 - cf)/f] × h. N/2 = 30 for both. For A: (30-20)/15 = 10/15 = 2/3. For B: (30-25)/10 = 5/10 = 1/2. Since 2/3 > 1/2, the fraction of the class interval added to l is larger for A. A wrong answer reveals the student doesn't understand the formula as linear interpolation — they might think larger f always means larger median, or that cf closer to N/2 means larger median, without comparing the ratio (N/2 - cf)/f.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved a median problem and got Median = 42.5 for a distribution where the median class is 40-50. The student's working shows: l=40, N=80, cf=35, f=20, h=10. Check if the answer is correct. If not, identify the error.",
+     "a": "The answer is incorrect. Correct calculation: N/2 = 40. Median = 40 + [(40 - 35)/20] × 10 = 40 + (5/20) × 10 = 40 + 2.5 = 42.5. Wait — the calculation gives 42.5, so the answer IS correct! But the student might have made a compensating error: if they used cf=30 (wrong cf), they'd get 40 + [(40-30)/20]×10 = 45. The given working is actually correct. A wrong evaluation (saying it's incorrect) reveals the student cannot verify a solution by recomputing — they might mistakenly think cf should be 40 or that the formula uses (cf - N/2) instead of (N/2 - cf).",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 classes, equal class width 10, total frequency N=40, such that the median is exactly 35. Write the full table with frequencies and cumulative frequencies. Explain how you chose the frequencies.",
+     "a": "One valid distribution: Classes 0-10, 10-20, 20-30, 30-40, 40-50. N=40, N/2=20. Median=35 lies in 30-40, so median class = 30-40, l=30, h=10. Need 30 + [(20 - cf)/f]×10 = 35 → (20-cf)/f = 0.5 → 20-cf = 0.5f → cf = 20 - 0.5f. Choose f=8 (even), then cf=16. So cumulative frequency before median class = 16. Frequencies: 0-10: 5, 10-20: 5, 20-30: 6 (cf=16), 30-40: 8, 40-50: 16 (total 40). Cumulative: 5, 10, 16, 24, 40. A poor answer reveals the student cannot work backwards from the formula — they might guess frequencies randomly or not satisfy the cf constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

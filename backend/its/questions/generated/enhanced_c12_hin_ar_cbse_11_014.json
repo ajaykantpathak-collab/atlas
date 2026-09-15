@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_11_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_11_014",
+   "title": "c12_hin_ar_cbse_11_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing structured answers for literature questions?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has heard the term but not internalized the function of each step — they confuse structure with content. Without knowing the exact role of each component, they cannot self-check if their answer has a clear claim (Point) or a thematic closure (Link).",
+     "self_check": true
+    },
+    {
+     "q": "In the story \"चकती का नक्शा\", the man repeatedly says \"थडा थोडा थोडा थोडा\" while measuring the land. A student writes: \"This shows he is careful.\" Why is this answer incomplete for a 3-mark board question?",
+     "a": "The answer states an observation (careful) but misses the *implication* — the phrase mimics a cold, mechanical calculation that reduces land to mere numbers, exposing greed masked as precision. A 3-mark answer requires: Point (greed disguised as measurement), Evidence (the repeated phrase), Explanation (how repetition creates a tone of possessive control), Link (connects to theme: maps as instruments of power). The incomplete answer lacks Explanation and Link, so it scores 1/3.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL-structured paragraph (80-100 words) answering: \"स्त्री पात्र की 'इप्सित कोज' (desired island) अवधारणा कहानी के केंद्रीय विषय को कैसे प्रतिबिंबित करती है?\" Use one textual detail.",
+     "a": "**Point:** The woman's concept of 'इप्सित कोज' symbolizes the human longing for autonomy beyond material possession. **Evidence:** She describes it as a place where \"इक्लोड द्वीप के प्रयोग में ही द्वीप का जल है\" — the island exists only through its use, not ownership. **Explanation:** This contrasts with the man's cadastral map; her island is defined by relationship and need, not boundary lines, revealing that true belonging comes from use, not legal title. **Link:** Thus, the story critiques land-as-commodity by offering an alternative geography of the heart.  \n*Wrong answer analysis:* If a student only defines 'इप्सित कोज' without contrasting it with the man's map, they miss the thematic tension — the core of the question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the man's \"चकती का नक्शा\" (cadastral map) and the woman's \"इप्सित कोज\" (desired island) as two competing epistemologies of land. What does each reveal about the character's worldview?",
+     "a": "The man's map is a **bureaucratic epistemology** — land as measurable, divisible, ownable property; his worldview is legalistic, possessive, and power-oriented (evidence: \"थडा थोडा\", \"नक्शा बनाकर कब्जा\"). The woman's island is a **relational epistemology** — land as lived space, defined by memory, need, and emotional geography; her worldview is existential, communal, and resistant to quantification (evidence: \"द्वीप के प्रयोग में ही द्वीप का जल है\", rejection of \"वर्गाकार नक्शा\"). The conflict structures the story's central theme: state power vs. human belonging. A weak answer lists differences without naming the *epistemological* contrast, treating them as mere preferences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The story's ending, where the man's map becomes useless because the land is flooded, proves the author believes nature always defeats human greed.\" Defend or refute with textual reasoning.",
+     "a": "**Refute with nuance.** The flood does invalidate the map (\"नक्शा बह गया\"), but the story doesn't frame it as nature's moral victory. Instead, the man *adapts* — he moves to higher ground, continuing his calculus (\"थडा थोडा\" resumes). The woman's island *also* floods, yet her relational geography persists in memory. The author suggests greed is *resilient*, not defeated; maps are remade. A defensible evaluation must acknowledge both the irony (map fails) and the persistence (greed survives). A student who calls it a simple \"nature wins\" moral misses the story's bleak realism — a competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue extension where the woman responds to the man's post-flood statement: \"नया नक्शा बनाएँगे, इस बार ऊँची जमीन पर।\" Her reply must use a metaphor from the story and challenge his epistemology.",
+     "a": "**Woman:** \"ऊँचाई नक्शे में नहीं, पैरों के नीचे होती है।  \nतुम्हारी रेखाएँ डूबेंगी, मेरी कोज तैरेगी।  \nचकती वही जो पाँव तले बने,  \nकागज़ पर नहीं, स्मृति में गढ़े।\"  \n*Criteria:* Uses \"कोज\" (island) and \"पाँव तले\" (lived experience) as metaphors; directly counters \"रेखाएँ\" (lines/map) with embodied knowledge; maintains her voice from the story. A poor answer has her agree, or argue logically without metaphor, or sound like a modern activist — breaking character and textual consistency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

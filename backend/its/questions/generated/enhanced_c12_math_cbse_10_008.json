@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_10_008",
+   "title": "c12_math_cbse_10_008",
+   "questions": [
+    {
+     "q": "Write the vector equation of the line passing through the point with position vector **2i - j + 3k** and parallel to the vector **i + 2j - 2k**. Identify the parameter.",
+     "a": "**r = (2i - j + 3k) + λ(i + 2j - 2k)**, where λ ∈ ℝ.  \nA wrong answer like **r = (i + 2j - 2k) + λ(2i - j + 3k)** reveals the student swapped the fixed point and direction vector — a common error when they don't recognize that the constant vector is the point on the line and the coefficient of λ is the direction.",
+     "self_check": true
+    },
+    {
+     "q": "A line passes through points A(1, 2, -1) and B(3, -1, 2). A student writes its vector equation as **r = (i + 2j - k) + λ(2i - 3j + 3k)**. Is this correct? Explain why or why not.",
+     "a": "Yes, it is correct. The direction vector is B - A = (3-1)i + (-1-2)j + (2-(-1))k = 2i - 3j + 3k. The fixed point is A.  \nIf a student says \"No, because the direction vector should be A - B\", they misunderstand that any scalar multiple of the direction vector works; both B-A and A-B give the same line (just opposite orientation). The parameter λ absorbs the sign.",
+     "self_check": true
+    },
+    {
+     "q": "Find the Cartesian equations of the line **r = (2i - j + 4k) + λ(i + 2j - 2k)**. Hence find the coordinates of the point on this line where x = 4.",
+     "a": "Cartesian: (x - 2)/1 = (y + 1)/2 = (z - 4)/(-2).  \nSet (x-2)/1 = (4-2)/1 = 2 = λ. Then y = -1 + 2(2) = 3, z = 4 - 2(2) = 0. Point: (4, 3, 0).  \nA wrong answer like (4, 5, -4) reveals the student used λ = x = 4 instead of λ = (x-2)/1 — they forgot to subtract the fixed point's coordinate before equating to λ.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given: L₁: **r = (i + 2j + 3k) + λ(2i + 3j + 4k)** and L₂: **r = (2i + 4j + 5k) + μ(4i + 6j + 8k)**. Determine whether they are parallel, intersecting, or skew. Justify.",
+     "a": "The direction vectors are **b₁ = 2i + 3j + 4k** and **b₂ = 4i + 6j + 8k = 2b₁**. Since they are scalar multiples, the lines are parallel (or coincident). Check if a point of L₂ lies on L₁: (2,4,5) - (1,2,3) = (1,2,2) is not a multiple of (2,3,4), so they are distinct parallel lines.  \nA student who says \"intersecting\" likely set up equations and got inconsistent λ, μ but didn't check parallelism first — they missed that parallel lines have proportional direction ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the shortest distance between lines L₁: **r = a₁ + λb₁** and L₂: **r = a₂ + μb₂** using the formula **d = |(a₂ - a₁) · (b₁ × b₂)| / |b₁ × b₂|** and gets d = 0. They conclude the lines intersect. Is this conclusion always correct? Explain.",
+     "a": "No. d = 0 means the lines are coplanar. They could be intersecting OR parallel (including coincident). The student must additionally check if **b₁ × b₂ = 0** (parallel). If cross product is non-zero and d=0, they intersect. If cross product is zero and d=0, they are coincident (infinite intersections). The student forgot the parallel case.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (in an Indian context) that requires finding the shortest distance between two skew lines. Define the lines using vector equations with integer components. Solve it completely.",
+     "a": "Example: Two metro tracks in Delhi are along lines L₁: **r = (i + 2j + 3k) + λ(2i - j + k)** and L₂: **r = (3i - j + 2k) + μ(i + 2j - 2k)**. Find the minimum distance between them to install a safety net.  \nSolution: a₁ = (1,2,3), b₁ = (2,-1,1); a₂ = (3,-1,2), b₂ = (1,2,-2).  \na₂ - a₁ = (2,-3,-1). b₁ × b₂ = |i j k; 2 -1 1; 1 2 -2| = i(2-2) - j(-4-1) + k(4+1) = 0i + 5j + 5k = 5(j+k). |b₁ × b₂| = 5√2.  \n(a₂ - a₁)·(b₁ × b₂) = (2,-3,-1)·(0,5,5) = 0 -15 -5 = -20.  \nd = | -20 | / (5√2) = 4/√2 = 2√2 units.  \nA poor answer uses the parallel lines distance formula or forgets the absolute value — showing they don't understand the geometric meaning of the scalar triple product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

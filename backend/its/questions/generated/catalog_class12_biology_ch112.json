@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class12_biology_ch112",
+ "concepts": [
+  {
+   "id": "jebh.14.1",
+   "title": "Ecosystem Structure: Biotic and Abiotic Components",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ecosystem Structure: Biotic and Abiotic Components' refers to.",
+     "a": "An ecosystem consists of biotic components (producers, consumers, decomposers) and abiotic components (light, temperature, water, soil, inorganic and organic substances) that interact as a functional unit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ecosystem Structure: Biotic and Abiotic Components'.",
+     "a": "Ecosystem structure is defined by the interaction between living (biotic) and non-living (abiotic) components, where producers synthesize food, consumers depend on it, and decomposers recycle nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ecosystem Structure: Biotic and Abiotic Components' taught, and from which source text?",
+     "a": "Ecosystem - Components",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.2",
+   "title": "Productivity: Primary, Secondary, Gross, and Net",
+   "questions": [
+    {
+     "q": "Calculate NPP given GPP and respiration values.. Use the method 'Productivity: Primary, Secondary, Gross, and Net'. Work with: gpp = 400, r = 50. Carry the chain through step by step and give the final value of result.",
+     "a": "350 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate GPP given NPP and respiration values.. Use the method 'Productivity: Primary, Secondary, Gross, and Net'. Work with: gpp = 80, r = 24. Carry the chain through step by step and give the final value of result.",
+     "a": "56 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Productivity: Primary, Secondary, Gross, and Net' refers to.",
+     "a": "Productivity is the rate of biomass production per unit area over a time period. Gross Primary Productivity (GPP) is the total rate of photosynthesis; Net Primary Productivity (NPP) = GPP - R (respiration losses). Secondary productivity is the rate of biomass formation by consumers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Productivity: Primary, Secondary, Gross, and Net'.",
+     "a": "Primary productivity measures the rate at which producers capture solar energy as biomass; net primary productivity is what remains after accounting for respiration, and it supports all consumer biomass (secondary productivity).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Productivity: Primary, Secondary, Gross, and Net', in plain ASCII form.",
+     "a": "NPP = GPP - R",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.3",
+   "title": "Decomposition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Decomposition' refers to.",
+     "a": "Decomposition is the breakdown of complex organic matter into simpler inorganic substances (CO2, water, and nutrients) by decomposers (bacteria and fungi), involving steps of fragmentation, leaching, catabolism, humification, and mineralization.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Decomposition'.",
+     "a": "Decomposition recycles nutrients back to the ecosystem. The rate depends on oxygen availability, temperature, and the chemical composition of detritus; warm, aerobic, and nutrient-rich detritus decomposes fastest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Decomposition' taught, and from which source text?",
+     "a": "Decomposition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.4",
+   "title": "Energy Flow: Food Chain, Food Web, and Trophic Levels",
+   "questions": [
+    {
+     "q": "Calculate the energy available at a given trophic level using the 10% law.. Use the method 'Energy Flow: Food Chain, Food Web, and Trophic Levels'. Work with: producer_energy = 10. Carry the chain through step by step and give the final value of level_3_energy.",
+     "a": "0.1 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the number of trophic levels possible given energy at the producer level.. Use the method 'Energy Flow: Food Chain, Food Web, and Trophic Levels'. Work with: producer_energy = 45. Carry the chain through step by step and give the final value of level_3_energy.",
+     "a": "0.45 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Energy Flow: Food Chain, Food Web, and Trophic Levels' refers to.",
+     "a": "Energy flow in an ecosystem is unidirectional, passing through trophic levels via food chains and food webs. Only about 10% of energy at one trophic level is transferred to the next (Ten Percent Law), with the rest lost as heat during respiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Energy Flow: Food Chain, Food Web, and Trophic Levels'.",
+     "a": "Energy captured by producers flows through consumers along food chains and webs. The unidirectional flow follows the 10% law, meaning higher trophic levels have progressively less energy available, limiting the number of trophic levels.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Energy Flow: Food Chain, Food Web, and Trophic Levels', in plain ASCII form.",
+     "a": "E_next = E_current * 0.10",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.5",
+   "title": "Ecological Pyramids: Numbers, Biomass, and Energy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ecological Pyramids: Numbers, Biomass, and Energy' refers to.",
+     "a": "Ecological pyramids are graphical representations showing the relationship between producers and consumers at successive trophic levels in terms of numbers, biomass, or energy. The base represents producers and the apex represents top carnivores.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ecological Pyramids: Numbers, Biomass, and Energy'.",
+     "a": "Pyramids of numbers and biomass can be upright, inverted, or spindle-shaped depending on the ecosystem, but the pyramid of energy is always upright because energy decreases at each trophic level following the 10% law.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ecological Pyramids: Numbers, Biomass, and Energy' taught, and from which source text?",
+     "a": "Ecological Pyramids",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.6",
+   "title": "Ecological Succession: Primary and Secondary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ecological Succession: Primary and Secondary' refers to.",
+     "a": "Ecological succession is the sequential, directional, and predictable change in the species composition of an ecosystem over time. Primary succession begins on bare, lifeless areas, while secondary succession occurs where an existing community has been disturbed but soil remains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ecological Succession: Primary and Secondary'.",
+     "a": "Succession leads to a relatively stable climax community. Primary succession is slow (starting from bare rock) because soil must form first, while secondary succession is faster because soil and some organisms already exist.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ecological Succession: Primary and Secondary' taught, and from which source text?",
+     "a": "Ecological Succession",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.7",
+   "title": "Nutrient Cycling: Carbon, Nitrogen, and Phosphorus Cycles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nutrient Cycling: Carbon, Nitrogen, and Phosphorus Cycles' refers to.",
+     "a": "Nutrient cycling (biogeochemical cycling) is the movement of nutrient elements through biotic and abiotic components of the ecosystem. The carbon cycle involves CO2 exchange via photosynthesis and respiration; the nitrogen cycle involves fixation, nitrification, denitrification, and ammonification; the phosphorus cycle is sedimentary and lacks a gaseous phase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nutrient Cycling: Carbon, Nitrogen, and Phosphorus Cycles'.",
+     "a": "Nutrients are recycled within ecosystems. Carbon and nitrogen cycles have atmospheric (gaseous) phases, while the phosphorus cycle is largely sedimentary, making phosphorus a limiting nutrient in many ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nutrient Cycling: Carbon, Nitrogen, and Phosphorus Cycles' taught, and from which source text?",
+     "a": "Nutrient Cycling",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.8",
+   "title": "Ecosystem Services: Carbon Fixation, Pollination, and Soil Formation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ecosystem Services: Carbon Fixation, Pollination, and Soil Formation' refers to.",
+     "a": "Ecosystem services are the benefits humans derive from ecosystems, including carbon fixation (regulating climate), pollination (enabling crop production), soil formation (supporting agriculture), oxygen release, nutrient cycling, and flood control. The 2005 Millennium Ecosystem Assessment valued these services globally.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ecosystem Services: Carbon Fixation, Pollination, and Soil Formation'.",
+     "a": "Ecosystems provide essential services free of cost. Forest ecosystems are major carbon sinks fixing atmospheric CO2, pollinators sustain agricultural productivity, and soil-forming processes maintain the foundation for terrestrial life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ecosystem Services: Carbon Fixation, Pollination, and Soil Formation' taught, and from which source text?",
+     "a": "Ecosystem Services",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.9",
+   "title": "Types of Ecosystems: Terrestrial and Aquatic",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Ecosystems: Terrestrial and Aquatic' refers to.",
+     "a": "Ecosystems are broadly classified as terrestrial (forest, grassland, desert) and aquatic (pond, lake, ocean, estuary). Terrestrial ecosystems are dominated by land-based producers, while aquatic ecosystems are dominated by phytoplankton and have distinct vertical zones based on light penetration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Ecosystems: Terrestrial and Aquatic'.",
+     "a": "Ecosystem types differ in their abiotic factors, dominant producers, and productivity. Terrestrial ecosystems like forests have high biomass and NPP, while aquatic ecosystems like oceans have low NPP per unit area despite covering a large surface.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Ecosystems: Terrestrial and Aquatic' taught, and from which source text?",
+     "a": "Types of Ecosystems",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

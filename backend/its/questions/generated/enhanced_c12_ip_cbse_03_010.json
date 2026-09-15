@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_010",
+   "title": "c12_ip_cbse_03_010",
+   "questions": [
+    {
+     "q": "What is the primary function of a recursive resolver in the DNS resolution process?",
+     "a": "A recursive resolver accepts a DNS query from a client (stub resolver) and performs the entire iterative lookup on the client's behalf — querying root, TLD, and authoritative servers sequentially — until it obtains the final IP address or an error, then returns the answer to the client. A wrong answer (e.g., \"it only queries the root server\" or \"it caches only\") reveals the student confuses recursive resolvers with root/TLD servers or misunderstands that the resolver does the full work so the client doesn't have to.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between an A record and a CNAME record in DNS, and give one scenario where you would use each.",
+     "a": "An A record maps a domain name directly to an IPv4 address (e.g., www.example.com → 192.0.2.1). A CNAME record maps a domain name to another domain name (alias), which must then be resolved to an IP (e.g., blog.example.com → www.example.com). Use A for the canonical name pointing to an IP; use CNAME for subdomains/services that should always follow the canonical name's IP (e.g., when migrating servers, update only the A record). A wrong answer (e.g., \"CNAME points to IP\" or \"both do the same\") reveals confusion between direct mapping and aliasing — a critical distinction for zone management.",
+     "self_check": true
+    },
+    {
+     "q": "A user types \"mail.google.com\" in their browser. The local DNS cache is empty. Trace the complete DNS resolution path, naming each server type contacted and the query/response at each step.",
+     "a": "Step 1: Stub resolver → Recursive resolver: query for mail.google.com A record.\nStep 2: Recursive resolver → Root server: query for mail.google.com A record. Root responds with referral to .com TLD servers (NS records for .com).\nStep 3: Recursive resolver → .com TLD server: query for mail.google.com A record. TLD responds with referral to google.com authoritative name servers (NS records for google.com).\nStep 4: Recursive resolver → google.com authoritative server: query for mail.google.com A record. Authoritative responds with A record (IP address) or CNAME (e.g., mail.google.com → googlemail.l.google.com) followed by A record for the target.\nStep 5: Recursive resolver caches the result and returns IP to stub resolver.\nA wrong answer (e.g., skipping root/TLD, or saying root returns IP) reveals the student doesn't grasp the delegation hierarchy — the most common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare recursive and iterative DNS queries. Why does the recursive resolver use iterative queries to root/TLD/authoritative servers, while the client uses a recursive query to the resolver?",
+     "a": "In a recursive query, the queried server must return the final answer or an error — it cannot refer the client elsewhere. In an iterative query, the server returns the best answer it has (often a referral to another server). The client (stub resolver) uses a recursive query to the recursive resolver because it lacks the logic to follow referrals. The recursive resolver uses iterative queries to root/TLD/authoritative servers because those servers are configured to only give referrals (iterative responses) — they don't perform full lookups for others. A wrong answer (e.g., \"recursive resolver uses recursive queries to root\") reveals misunderstanding of server roles and query types — a frequent JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"DNS caching only happens at the recursive resolver; root and TLD servers never cache.\" Defend your answer with technical reasoning.",
+     "a": "The statement is FALSE. Caching occurs at EVERY level: recursive resolver caches all responses (including referrals from root/TLD); root and TLD servers cache negative responses and referrals they receive during their own operations (though they primarily serve cached zone data); even the client OS and browser maintain DNS caches. Caching at root/TLD is critical — without it, every .com query would hit the root again, creating massive load. A wrong answer (agreeing with the statement) reveals the student thinks caching is exclusive to recursive resolvers, missing the distributed caching architecture that makes DNS scalable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a DNS zone file snippet for \"example.com\" that includes: an A record for www pointing to 192.0.2.10, a CNAME for blog pointing to www, an MX record for mail handled by mail.example.com (priority 10), and an NS record delegating \"sub.example.com\" to ns1.sub.example.com (IP 192.0.2.20). Write the zone file entries in standard BIND format.",
+     "a": "```\n$ORIGIN example.com.\n$TTL 3600\n@       IN  SOA ns1.example.com. admin.example.com. 2024010101 7200 3600 1209600 86400\n@       IN  NS  ns1.example.com.\n@       IN  NS  ns2.example.com.\nwww     IN  A   192.0.2.10\nblog    IN  CNAME   www\nmail    IN  A   192.0.2.15\n@       IN  MX  10  mail.example.com.\nsub     IN  NS  ns1.sub.example.com.\nns1.sub IN  A   192.0.2.20\n```\nA poor answer (missing trailing dots on FQDNs, wrong MX target, missing glue record for ns1.sub) reveals the student doesn't understand zone file syntax, relative vs absolute names, or delegation mechanics — all tested in board practicals and CUET.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_002",
+   "title": "c11_cs_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define a stack data structure and state the principle it follows. Use the terms \"linear data structure\", \"top\", and \"restricted access\" in your definition.",
+     "a": "A stack is a linear data structure where insertion and deletion of elements occur only at one end called the top, following the Last-In-First-Out (LIFO) principle. Restricted access means elements can only be added or removed from the top; the middle or bottom elements are inaccessible until all elements above them are removed. A wrong answer that omits \"restricted access\" or \"top\" reveals the student thinks a stack allows random access like an array, confusing it with a list. If the student says FIFO instead of LIFO, they are confusing stack with queue.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A stack is just a list where you can only add and remove from the end. So Python's list append() and pop() make it a stack.\" Explain why this statement is partially correct but conceptually incomplete for a board exam definition.",
+     "a": "The statement correctly identifies that Python's list with append/pop at the end mimics stack behavior, but it is incomplete because: (1) a stack is an abstract data type (ADT) defined by its behavior (LIFO, restricted access), not by its implementation; (2) a list allows operations like insert at index 0, slicing, and random access which violate stack's restricted-access principle; (3) in board exams, you must define stack by its logical properties (LIFO, top pointer, push/pop operations) not by Python syntax. A wrong answer that equates stack with list reveals the student confuses implementation with abstraction — a critical error in data structures.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the state of a stack after the following sequence of operations on an initially empty stack: push(10), push(20), push(30), pop(), push(40), pop(), pop(). Show the stack contents after each step with the top element clearly marked.",
+     "a": "Step-by-step trace:\n1. push(10): Stack = [10] ← top\n2. push(20): Stack = [10, 20] ← top\n3. push(30): Stack = [10, 20, 30] ← top\n4. pop(): removes 30 → Stack = [10, 20] ← top\n5. push(40): Stack = [10, 20, 40] ← top\n6. pop(): removes 40 → Stack = [10, 20] ← top\n7. pop(): removes 20 → Stack = [10] ← top\nFinal stack: [10] with 10 at top. A wrong answer that shows 30 or 40 remaining reveals the student thinks pop removes from bottom (FIFO) or doesn't update the top pointer. If they show [10, 20, 30, 40] at the end, they ignored pop operations entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the access patterns of a stack and a queue using a real-world scenario: a pile of answer scripts on a teacher's desk (stack) vs. students waiting in line at a fee counter (queue). Explain why LIFO is appropriate for the first and FIFO for the second.",
+     "a": "Stack (answer scripts): Teacher places corrected scripts on top of the pile. The last script placed (top) is the first one picked up for entry into the register — LIFO matches \"last corrected, first recorded\". Queue (fee counter): First student to arrive stands at front; they are served first and leave — FIFO matches \"first come, first served\". LIFO would be unfair at a fee counter (last arrival served first), and FIFO would be inefficient for answer scripts (teacher would have to lift the whole pile to access the bottom script). A wrong answer that swaps the principles shows the student cannot map abstract principles to physical constraints — they memorise definitions without understanding the \"why\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since a stack only allows access at the top, it is less useful than a list which allows access anywhere. Therefore, we should always use lists instead of stacks in Python programs.\" Provide a justified judgment with two specific scenarios where a stack's restriction is an advantage.",
+     "a": "The claim is false. Restricted access is a feature, not a limitation — it enforces discipline and prevents accidental corruption of data order. Two scenarios where stack's restriction is advantageous:\n1. **Function call management**: When a function calls another, the return address must be retrieved in exact reverse order (LIFO). A list allowing random access could accidentally pop the wrong return address, crashing the program.\n2. **Undo mechanism in editors**: Each action is pushed; undo pops the most recent action. If the user could access/delete actions from the middle (list behavior), the action history would become inconsistent.\nStack's restriction guarantees correctness by design. A wrong answer that agrees with the claim reveals the student views restrictions as weaknesses rather than invariants that ensure correctness — a fundamental misunderstanding of abstract data types.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world analogy for a stack that is NOT a pile of plates, books, or browser history. Describe the \"push\" and \"pop\" actions in your analogy and explain why LIFO is the only logical order for this scenario.",
+     "a": "**Analogy: A spiral-bound notebook where you write notes on the topmost blank page.**\n- **Push**: Writing a new note on the first blank page you encounter (which is always the topmost unused page).\n- **Pop**: Tearing out the most recently written page to discard or review it.\n- **Why LIFO**: You physically cannot write on a page buried under other written pages without tearing out the pages above it first. The binding forces sequential access from the top. Any attempt to access a middle page violates the physical constraint.\nA poor answer that describes a loose-leaf binder (where you can open any page) reveals the student doesn't grasp that LIFO emerges from physical or logical constraints, not arbitrary choice. A good answer identifies a constraint that forces top-only access.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

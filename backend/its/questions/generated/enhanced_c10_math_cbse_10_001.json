@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_001",
+   "title": "c10_math_cbse_10_001",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Define a tangent to a circle in your own words, and state the theorem about the number of tangents that can be drawn at a point on the circle.",
+     "a": "**Correct answer:** A tangent to a circle is a line that intersects the circle at exactly one point, called the point of contact. The theorem states: \"At any point on a circle, there exists exactly one tangent.\"\n**What a wrong answer reveals:** If a student says \"a line that touches the circle\" without specifying \"exactly one point,\" they confuse tangent with the vague idea of touching. If they say \"two tangents can be drawn at a point on the circle,\" they are confusing this with the external point case (two tangents from outside). This error costs 1 mark in board exams for incomplete definition.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A student draws a line through point P on a circle and claims it is a tangent because \"it touches the circle at P.\" The line also passes through the interior of the circle near P. Is the student correct? Explain why or why not using the definition.",
+     "a": "**Correct answer:** No, the student is incorrect. A tangent must intersect the circle at **exactly one point**. If the line passes through the interior near P, it crosses the circumference at P and at another point (or cuts through), making it a secant, not a tangent. The defining feature is **exactly one intersection point**, not merely \"touching.\"\n**What a wrong answer reveals:** If the student says \"yes, it touches at P so it's a tangent,\" they have the misconception that any line passing through a point on the circle is a tangent. They fail to grasp that \"intersects at exactly one point\" excludes lines that cross the circle. This is the #1 error in 1-mark definition questions.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** In the figure below, O is the centre of a circle of radius 5 cm. Line l passes through point A on the circle such that OA = 5 cm and the perpendicular distance from O to line l is 5 cm. Is line l a tangent to the circle? Justify your answer in 3 steps.",
+     "a": "**Correct answer with steps:**\nStep 1: Given radius OA = 5 cm. The perpendicular distance from centre O to line l is 5 cm.\nStep 2: For a line to be a tangent, the perpendicular distance from the centre to the line must equal the radius (this is the distance condition for tangency, derived from the fact that the tangent is perpendicular to the radius at the point of contact).\nStep 3: Since perpendicular distance = 5 cm = radius, line l touches the circle at exactly one point (the foot of the perpendicular from O), so **line l is a tangent**.\n**What a wrong answer reveals:** If the student only checks \"line passes through A\" and says yes, they ignore the distance condition. If they say \"need angle information,\" they don't recall the distance-radius equivalence. Board exams often give distance-from-centre data to test tangency without a diagram.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare and contrast a tangent, a secant, and a line that does not intersect a circle. Use the terms \"number of intersection points\" and \"position relative to the centre\" in your answer.",
+     "a": "**Correct answer:**\n- **Tangent:** Exactly 1 intersection point (point of contact). Perpendicular distance from centre to line = radius.\n- **Secant:** Exactly 2 intersection points. Perpendicular distance from centre to line < radius.\n- **Non-intersecting line:** 0 intersection points. Perpendicular distance from centre to line > radius.\n**What a wrong answer reveals:** If the student only compares tangent and secant but omits the non-intersecting case, they miss the full classification. If they say \"tangent touches, secant cuts\" without mentioning distance from centre, they lack the analytical link to the radius. Board exam case-study questions require this three-way classification.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** Read the following statement: \"From a point P on the circle, we can draw two tangents to the circle because we can draw two lines through P that touch the circle.\" Is this statement true or false? Identify the error and write the correct statement.",
+     "a": "**Correct answer:** **False.** The error is confusing \"point on the circle\" with \"point outside the circle.\" From a point **on** the circle, exactly **one** tangent can be drawn (existence-uniqueness theorem). From a point **outside** the circle, **two** tangents can be drawn. Correct statement: \"From a point on the circle, exactly one tangent can be drawn; from a point outside the circle, two tangents can be drawn.\"\n**What a wrong answer reveals:** If the student says \"true,\" they have the critical misconception that multiple tangents exist at a point on the circle. This directly contradicts the fundamental theorem and leads to errors in construction problems and proof-based questions (e.g., \"prove that the tangent at a point is unique\").",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Construct a real-life problem (Indian context) where the concept \"exactly one tangent at a point on a circle\" is essential to the solution. The problem must involve a measurement or calculation, not just a definition.",
+     "a": "**Expected answer criteria:** A good problem might be: \"A circular garden of radius 7 m has a straight stone path touching it at exactly one point. A sprinkler is placed at the centre. To water the path without wasting water on the garden, the sprinkler's spray must be directed perpendicular to the path. Explain why there is only one such direction for the sprinkler at the contact point.\" This uses the uniqueness of the tangent (hence uniqueness of the perpendicular radius) for a practical decision.\n**What a poor answer reveals:** If the student writes \"A wheel on a road\" without a calculation or decision element, they only recall an example, not create a problem. If they involve two tangents from an external point, they are working on the next node's concept. Board exam competency questions often ask students to formulate problems — this tests deep ownership of the concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

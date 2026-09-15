@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_9",
+   "title": "c8_math_ch6_9",
+   "questions": [
+    {
+     "q": "Write the expansion of \\((2y - 5)^2\\) using the identity \\((a - b)^2 = a^2 - 2ab + b^2\\). Identify \\(a\\) and \\(b\\) clearly.",
+     "a": "\\(a = 2y\\), \\(b = 5\\). Expansion: \\((2y)^2 - 2(2y)(5) + 5^2 = 4y^2 - 20y + 25\\). A wrong answer like \\(4y^2 - 10y + 25\\) reveals the student forgot to double the product \\(ab\\) (they computed \\(ab\\) instead of \\(2ab\\)). An answer like \\(4y^2 + 20y + 25\\) shows confusion with the \\((a + b)^2\\) identity, missing the minus sign in the middle term.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((a - b)^2\\) is NOT equal to \\(a^2 - b^2\\). Use the distributive property to show the missing term.",
+     "a": "\\((a - b)^2 = (a - b)(a - b) = a(a - b) - b(a - b) = a^2 - ab - ab + b^2 = a^2 - 2ab + b^2\\). The term \\(-2ab\\) is missing in \\(a^2 - b^2\\). A student who says \"because subtraction doesn't distribute like that\" or \"the middle term cancels\" shows they don't see the two \\(-ab\\) terms from the two distributions. The correct explanation must show the two separate \\(-ab\\) products that combine to \\(-2ab\\).",
+     "self_check": true
+    },
+    {
+     "q": "Expand and simplify: \\((3x - 4y)^2 - (3x + 4y)^2\\).",
+     "a": "Step 1: Expand \\((3x - 4y)^2 = 9x^2 - 24xy + 16y^2\\).  \nStep 2: Expand \\((3x + 4y)^2 = 9x^2 + 24xy + 16y^2\\).  \nStep 3: Subtract: \\((9x^2 - 24xy + 16y^2) - (9x^2 + 24xy + 16y^2) = 9x^2 - 24xy + 16y^2 - 9x^2 - 24xy - 16y^2\\).  \nStep 4: Combine like terms: \\(-48xy\\).  \nA wrong answer of \\(0\\) reveals the student subtracted term-by-term without distributing the minus sign to the second expansion (they did \\(9x^2 - 9x^2 = 0\\), \\(-24xy - 24xy = -48xy\\) but then \\(16y^2 - 16y^2 = 0\\) and forgot the middle term sign flip). An answer of \\(-24xy\\) shows they only subtracted one \\(24xy\\) instead of both.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expansions of \\((a - b)^2\\) and \\((b - a)^2\\). Are they equal? Justify your answer algebraically and explain what this means about the order of subtraction inside a square.",
+     "a": "\\((a - b)^2 = a^2 - 2ab + b^2\\). \\((b - a)^2 = b^2 - 2ba + a^2 = a^2 - 2ab + b^2\\). They are equal because squaring removes the sign of the difference: \\((a - b) = -(b - a)\\), and \\((-1)^2 = 1\\). A student who says they are different because \"order matters in subtraction\" is applying a rule for linear expressions to a squared expression without checking the algebra. The correct justification shows the commutative property of addition makes the expanded forms identical.",
+     "self_check": true
+    },
+    {
+     "q": "A student expanded \\((5 - 2x)^2\\) as \\(25 - 10x + 4x^2\\). Is this correct? If not, identify the exact error and give the correct expansion.",
+     "a": "The student's answer is incorrect. The error is in the middle term: they computed \\(-2 \\times 5 \\times 2x = -20x\\) but wrote \\(-10x\\) (they forgot to multiply by 2, or they used \\(b = x\\) instead of \\(b = 2x\\)). Correct expansion: \\(a = 5, b = 2x\\). \\((5)^2 - 2(5)(2x) + (2x)^2 = 25 - 20x + 4x^2\\). A student who says \"it's correct because \\(2 \\times 5 \\times x = 10x\\)\" reveals they misidentified \\(b\\) as \\(x\\) instead of \\(2x\\), ignoring the coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (in an Indian context) that requires using \\((a - b)^2\\) to solve. The problem must involve a square area or a cost calculation. Provide the solution.",
+     "a": "Example: A square garden has side \\((2x - 5)\\) metres. A 1-metre wide path is built inside along the edges, reducing the planting area. Find the area of the planting region in terms of \\(x\\).  \nSolution: Planting region side = \\((2x - 5) - 2 = (2x - 7)\\) m. Area = \\((2x - 7)^2 = 4x^2 - 28x + 49\\) sq m.  \nA poor answer gives a problem that uses \\((a + b)^2\\) or linear multiplication, showing the student cannot recognise situations where a difference is squared. A good answer clearly defines the variable, sets up the subtraction before squaring, and expands correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

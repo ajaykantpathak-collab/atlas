@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 113,
+  "chapter_title": "Coming",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww113.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww113.1.1",
+      "title": "Spring's Arrival in Light and Song",
+      "section": "1",
+      "definition": "Larkin's short lyric paints an English spring evening: longer light, chill and yellow, bathing the serene foreheads of houses, a thrush singing in laurel. The poem's music enacts the season's freshness -- innocence arriving with the birdsong.",
+      "formula": "",
+      "key_idea": "Spring enters as light and thrush-song -- the season's freshness painted in a few chilled, golden strokes.",
+      "textbook_ref": "keww113.txt opening stanzas (longer evenings, light chill and yellow, foreheads of houses, thrush singing laurel surrounded)",
+      "question_patterns": [
+        "how does larkin describe the arrival of spring in coming",
+        "in class 11 coming: what is the significance of the thrush's song",
+        "explain the image of light bathing the foreheads of houses",
+        "what colours and sensations does the opening stanza evoke",
+        "why is the evening described as longer and chill",
+        "how does the setting establish the mood of the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the light",
+          "explain": "Longer, chill, yellow light marks the season's turn -- spring's first signature is lengthening evenings."
+        },
+        {
+          "step": 2,
+          "action": "read the houses",
+          "explain": "Light bathes the 'foreheads' of houses -- personification lending the street a serene, childlike calm."
+        },
+        {
+          "step": 3,
+          "action": "read the song",
+          "explain": "The thrush, laurel-surrounded, begins its song -- spring's voice entering the poem."
+        }
+      ]
+    },
+    {
+      "id": "keww113.1.2",
+      "title": "Childhood's Forgotten Wounds and the Coming of Happiness",
+      "section": "1",
+      "definition": "Against the spring scene the speaker recalls childhood, whose tears he has forgotten, and confesses a pointless, dull ache that becomes unspent joy. Now the birdsong bridles with fresh joy -- happiness arrives from outside, an alien thing the adult can only watch, like a child at a window.",
+      "formula": "",
+      "key_idea": "Happiness comes as a stranger to the adult -- spring's joy witnessed through glass, remembered childhood tears left behind.",
+      "textbook_ref": "keww113.mp3 and text later stanzas (childhood forgotten tears, dull ache, unspent joy, bridled birdsong, alien thing, window)",
+      "question_patterns": [
+        "what does the speaker remember about his childhood in coming",
+        "in class 11 coming: explain the line about laughter and forgotten tears",
+        "why is joy described as an alien thing",
+        "what is the dull ache the speaker mentions",
+        "how does the window image work in the final stanza",
+        "does the poem end happily discuss the mixed feelings"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "recall the childhood stanza",
+          "explain": "The speaker turns back to childhood -- laughter and forgotten tears -- an ache that has no clear cause."
+        },
+        {
+          "step": 2,
+          "action": "read the arrival",
+          "explain": "Into this dullness the season's joy arrives, brimming in the birdsong, fresh and unspent."
+        },
+        {
+          "step": 3,
+          "action": "stand at the window",
+          "explain": "Like a child watching through a window, the adult observes happiness from outside -- moved, but apart."
+        }
+      ]
+    },
+    {
+      "id": "keww113.1.3",
+      "title": "Craft of the Lyric: Small Stanzas and the Thrush's Phrase",
+      "section": "1",
+      "definition": "Larkin builds the poem in three compact stanzas whose clipped phrases and simple rhymes mirror the quick arrival of spring; the thrush's repeated phrase becomes the poem's own music, so that the lyric's shape performs the season it describes.",
+      "formula": "",
+      "key_idea": "Short stanzas and a recurring bird-phrase -- the lyric's form mimics spring's quick, singing arrival.",
+      "textbook_ref": "keww113.txt whole poem (three stanzas, clipped phrases, thrush phrase repeated, simple rhyme and rhythm)",
+      "question_patterns": [
+        "how many stanzas make up the poem coming and how do they develop",
+        "in class 11 coming: comment on larkin's use of short phrases in the poem",
+        "what is the effect of the thrush's phrase repeated in the poem",
+        "describe the rhyme and rhythm of the lyric",
+        "how does the structure of the poem echo its subject",
+        "compare the length of larkin's lines with a sonnet and explain the choice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the stanzas",
+          "explain": "Three small stanzas move the poem from garden light to memory to the window's hope."
+        },
+        {
+          "step": 2,
+          "action": "listen for the bird phrase",
+          "explain": "The thrush's beginning-to-start-again phrase recurs, binding the stanzas like a musical motif."
+        },
+        {
+          "step": 3,
+          "action": "hear the compression",
+          "explain": "Clipped lines and plain rhymes keep the lyric brisk -- form matching the freshness it celebrates."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww113.mp3 later stanzas (keww113.txt)",
+      "concept": "keww113.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the image of happiness as 'an alien thing' that the speaker watches through a window.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the alienness",
+          "explain": "The joy belongs to the season and to childhood, not to the adult speaker's inner weather."
+        },
+        {
+          "step": 2,
+          "action": "identify the glass",
+          "explain": "The window separates watcher from scene -- participation is refused by memory and habit."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Larkin renders happiness as real but unreachable -- seen plainly, felt at a distance."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww113.txt opening stanzas",
+      "concept": "keww113.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Comment on the phrase 'Light, chill and yellow' as a description of spring.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "unpack the three words",
+          "explain": "Chill and yellow hold winter's memory and summer's promise at once -- spring is the hinge season."
+        },
+        {
+          "step": 2,
+          "action": "note the rhythm",
+          "explain": "The short, clipped phrases mime the lightness of the evenings."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Three adjectives carry the whole scene -- compression that is itself the season's freshness."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww113.txt end-of-chapter questions, reworded",
+      "questions": [
+        "How does Larkin describe the coming of spring?",
+        "What memories of childhood surface in the poem?",
+        "Explain the phrase 'unspent joy' in the context of the poem.",
+        "Why is happiness called an alien thing?",
+        "Comment on the use of imagery in Coming.",
+        "What is the significance of the thrush's song in the poem?"
+      ]
+    }
+  ]
+}

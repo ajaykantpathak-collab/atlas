@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_002",
+   "title": "c11_geo_cbse_15_002",
+   "questions": [
+    {
+     "q": "Name the six major anthropogenic drivers of wildlife population decline in India as recognized by the IUCN and the Wildlife Institute of India, and give one specific Indian example for each driver.",
+     "a": "The six drivers are: (1) Habitat loss and fragmentation (e.g., conversion of Terai grasslands to agriculture reducing Swamp Deer habitat), (2) Overexploitation/poaching (e.g., tiger poaching for body parts in Central Indian reserves), (3) Human-wildlife conflict (e.g., elephant crop-raiding leading to retaliatory killings in Hassan, Karnataka), (4) Invasive alien species (e.g., Lantana camara invasion in Western Ghats reducing native forage for herbivores), (5) Pollution (e.g., diclofenac contamination causing vulture population crash across India), (6) Climate change (e.g., rising temperatures shifting Himalayan species' ranges upward). A wrong answer that lists only generic causes like \"deforestation\" without specifying the mechanism (fragmentation vs. conversion) or gives non-Indian examples reveals the student is recalling middle-school generalities rather than analyzing India-specific pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why habitat fragmentation is more detrimental to large carnivores like tigers than an equivalent amount of habitat loss that leaves a single contiguous block, using the concepts of home range, dispersal, and genetic flow.",
+     "a": "Fragmentation breaks a large habitat into smaller, isolated patches. A tiger requires a home range of 60–150 km² (female) to 200–1000 km² (male). If a 1000 km² forest is fragmented into ten 100 km² patches by roads and settlements, no single patch can support a viable breeding population. Dispersing subadults cannot cross the hostile matrix (highways, farmland) to reach other patches, leading to inbreeding depression and demographic stochasticity. In contrast, a single 1000 km² block supports multiple overlapping home ranges and allows natural dispersal. A student who says \"both reduce habitat so both are equally bad\" misunderstands the nonlinear threshold effects of fragmentation — it's not just total area but *spatial configuration* that determines viability.",
+     "self_check": true
+    },
+    {
+     "q": "A tiger reserve in Central India has a core area of 800 km² and a buffer of 1200 km². Recent camera-trap data shows 45 adult tigers. The reserve is bisected by a national highway (NH-44) with heavy traffic and a railway line. Using the concept of functional connectivity, calculate the effective habitat area for tigers if the highway and railway reduce permeability to 30% for tiger movement. Explain the conservation implication.",
+     "a": "Step 1: Total nominal habitat = core + buffer = 2000 km². Step 2: The linear barriers divide the landscape into two sub-landscapes. Permeability of 30% means only 30% of potential dispersers cross successfully. Step 3: Functional connectivity is reduced; the two sides behave as semi-isolated populations. Effective habitat area for a meta-population is not simply additive. Using a simplified circuit theory analogy: effective area ≈ (Area₁ × Area₂ × permeability) / (Area₁ + Area₂) — but more accurately, each side's effective population size is reduced because immigrants are few. Step 4: If the highway splits the reserve roughly equally (1000 km² each side), each subpopulation has ~22 tigers but with limited gene flow. Step 5: This is below the minimum viable population (MVP) of 50–100 for short-term genetic viability. Implication: Without mitigation (underpasses/overpasses), the population will suffer inbreeding depression within 2–3 generations. A student who just subtracts 30% from total area misses the *nonlinear* impact of barriers on meta-population dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the primary drivers of decline for the Great Indian Bustard (Ardeotis nigriceps) in the Thar Desert and the Sangai (Rucervus eldii eldii) in Keibul Lamjao National Park, Manipur. How do the *spatial scales* and *reversibility* of these drivers differ?",
+     "a": "Great Indian Bustard: Primary drivers are habitat loss due to agricultural expansion (irrigation canals converting grasslands to cropland), collision/electrocution with power lines (linear infrastructure density), and free-ranging dogs. These operate at a *landscape scale* (thousands of km²) and are *partially reversible* — power lines can be undergrounded, grasslands restored, dog populations managed. Sangai: Primary driver is habitat degradation of the *phumdi* (floating biomass) due to altered hydrology from the Ithai Barrage (Loktak Hydroelectric Project), which maintains high water levels preventing phumdi from settling and regenerating. This operates at a *single-site scale* (40 km² park) but is *largely irreversible* without major dam operation changes. A student who says \"both are due to habitat loss\" misses the critical difference: bustard decline is driven by diffuse, multi-factor landscape change amenable to targeted interventions, while sangai decline hinges on a single infrastructure decision (dam management) that is politically and technically harder to reverse.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Poaching is the biggest threat to India's tigers today.\" Use evidence from the last three tiger estimation cycles (2014, 2018, 2022) and the NTCA's mortality data to support your judgment.",
+     "a": "The statement is *partially true but incomplete*. NTCA data shows poaching accounts for ~30–40% of recorded tiger deaths annually, but habitat loss and fragmentation drive the *underlying* population ceiling. Tiger numbers increased from 2,226 (2014) to 2,967 (2018) to 3,682 (2022) *despite* poaching, because core habitats in reserves like Bandipur, Nagarhole, and Corbett are well-protected and contiguous. However, in landscapes like the Western Ghats corridor or Central Indian highlands, poaching *combined* with fragmentation prevents population recovery. The biggest threat is *synergistic*: fragmentation creates small populations that are then vulnerable to stochastic poaching events. A student who says \"poaching is #1\" ignores that habitat connectivity determines whether poaching losses are compensated by dispersal. A student who says \"habitat loss is #1\" ignores that in well-connected landscapes, poaching is the proximate cause of local extirpation. The sophisticated answer integrates both.",
+     "self_check": true
+    },
+    {
+     "q": "Design a landscape-level intervention plan to reverse the decline of the Asiatic Lion (Panthera leo persica) in the Greater Gir Landscape, Gujarat, addressing the three most critical drivers. Justify each intervention with a geographical mechanism.",
+     "a": "A strong answer identifies: (1) *Single-population risk* (entire wild population in one landscape) → Intervention: Establish a second free-ranging population at Kuno-Palpur (Madhya Pradesh) or Barda Wildlife Sanctuary (Gujarat) to create spatial redundancy against disease/natural disaster. Mechanism: *Geographic range expansion* reduces extinction risk from stochastic catastrophes. (2) *Habitat saturation and human-lion conflict* (lions dispersing into agro-pastoral matrix) → Intervention: Secure and restore corridor connectivity to Girnar, Mitiyala, and coastal forests; implement community-based conflict mitigation (compensation, livestock insurance). Mechanism: *Functional connectivity* allows natural dispersal without negative human interaction. (3) *Linear infrastructure mortality* (railway lines, highways crossing Gir) → Intervention: Build wildlife underpasses/overpasses on critical stretches; realign proposed infrastructure. Mechanism: *Permeability restoration* re-establishes meta-population dynamics. A poor answer focuses only on anti-poaching or captive breeding, missing the spatial and landscape-ecology dimensions that are central to geographical analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

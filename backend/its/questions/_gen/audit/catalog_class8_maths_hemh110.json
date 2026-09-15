@@ -1,0 +1,179 @@
+{
+ "catalog": "catalog_class8_maths_hemh110.json",
+ "concepts": [
+  {
+   "id": "hemh.110.10.1",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 ** (4 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 2 ** (4 - 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 3 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (4 * 4) ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 4 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 4 ** 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.110.10.2",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 ** (2 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 ** (3 - 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 3 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (3 * 5) ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 8 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 9 ** 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.110.10.3",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 ** (4 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 7 ** (4 - 1)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 2 ** (3 * 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (4 * 5) ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 3 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 4 ** 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.110.10.4",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 14"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 21 * 21"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (77 * 77 - 49 * 49)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 60 / 360 * 2 * 22 / 7 * 21"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 180 / 360 * 22 / 7 * 77 * 77"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "circ = 2 * 22 / 7 * 14"
+   ]
+  }
+ ]
+}

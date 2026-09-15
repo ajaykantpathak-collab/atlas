@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_005",
+   "title": "c12_chem_cbse_04_005",
+   "questions": [
+    {
+     "q": "A student writes the magnetic moment of Fe²⁺ (3d⁶) as 4.90 BM using the spin-only formula. Is this correct? If not, what is the correct value and why?",
+     "a": "The student's answer is incorrect. Fe²⁺ has 3d⁶ configuration. In an octahedral field (aqueous solution), the 6 electrons occupy t₂g⁴ e_g² (high spin), giving 4 unpaired electrons. The spin-only formula μ = √[n(n+2)] = √[4(6)] = √24 = 4.90 BM. However, the student likely miscounted unpaired electrons as 4 without considering the orbital splitting. A wrong answer reveals the student either doesn't apply Hund's rule correctly in the presence of ligand field splitting or confuses high-spin vs low-spin configurations. The correct magnetic moment for high-spin Fe²⁺ is indeed 4.90 BM, but the reasoning must show the electron distribution: t₂g↑↓↑↑ e_g↑↑.",
+     "self_check": true
+    },
+    {
+     "q": "Why is [Ti(H₂O)₆]³⁺ purple while [Sc(H₂O)₆]³⁺ is colourless, even though both are 3d series metal ions in +3 oxidation state?",
+     "a": "Ti³⁺ has configuration 3d¹ (one electron in t₂g), allowing a d-d transition from t₂g to e_g upon absorbing yellow-green light (~500 nm), making the solution appear purple (complementary colour). Sc³⁺ has configuration 3d⁰ — no d electrons exist, so no d-d transition is possible. A wrong answer (e.g., \"both have d electrons\") reveals the student hasn't learned to write correct ionic configurations for transition metals or doesn't understand that d⁰ and d¹⁰ configurations are colourless because there are no electrons to excite (d⁰) or no empty d orbitals to accept electrons (d¹⁰).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the spin-only magnetic moment (in BM) for the following aqueous ions: (a) V²⁺, (b) Cr³⁺, (c) Mn²⁺, (d) Co²⁺. Show the d-electron configuration and number of unpaired electrons for each.",
+     "a": "(a) V²⁺: 3d³ → t₂g³ e_g⁰, n=3 → μ = √[3(5)] = √15 = 3.87 BM  \n(b) Cr³⁺: 3d³ → t₂g³ e_g⁰, n=3 → μ = √15 = 3.87 BM  \n(c) Mn²⁺: 3d⁵ → t₂g³ e_g² (high spin), n=5 → μ = √[5(7)] = √35 = 5.92 BM  \n(d) Co²⁺: 3d⁷ → t₂g⁵ e_g² (high spin), n=3 → μ = √15 = 3.87 BM  \nA wrong answer reveals: miscounting unpaired electrons (e.g., treating Co²⁺ as low-spin with n=1), not knowing high-spin preference for 3d series with weak field ligands like H₂O, or arithmetic errors in √[n(n+2)].",
+     "self_check": true
+    },
+    {
+     "q": "The observed magnetic moment for [Fe(H₂O)₆]²⁺ is 5.3–5.5 BM, while the spin-only value for high-spin Fe²⁺ (3d⁶, n=4) is 4.90 BM. For [Co(H₂O)₆]²⁺, observed is 4.4–5.2 BM vs spin-only 3.87 BM. Explain why the experimental values are consistently higher than spin-only predictions for these two ions but match well for Mn²⁺ (observed 5.96 BM vs calculated 5.92 BM).",
+     "a": "The spin-only formula assumes orbital angular momentum contribution is completely quenched. For Mn²⁺ (3d⁵, high spin, t₂g³ e_g²), the half-filled d-subshell has spherically symmetric electron distribution (L=0), so orbital contribution is zero — spin-only works perfectly. For Fe²⁺ (3d⁶) and Co²⁺ (3d⁷), the t₂g orbitals are not symmetrically filled, leaving residual orbital angular momentum (L ≠ 0) that adds to the magnetic moment. A wrong answer (e.g., \"experimental error\" or \"formula is wrong\") shows the student doesn't understand the limitations of the spin-only approximation or the role of orbital angular momentum in transition metal magnetism.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cu²⁺ (3d⁹) should be colourless because it has only one unpaired electron, and d-d transitions require paired electrons.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. Cu²⁺ (3d⁹) in octahedral field has configuration t₂g⁶ e_g³ — the e_g set has one hole (effectively one unpaired electron). A d-d transition occurs when the single e_g electron is promoted to a higher energy level (or a t₂g electron fills the e_g hole), absorbing red light (~800 nm) and making the solution appear blue. Colour depends on the EXISTENCE of a d-d transition, not on paired electrons. A wrong answer reveals confusion between magnetic properties (unpaired electrons) and spectral properties (d-d transitions), or the belief that only paired electrons can be excited.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a magnet, test tubes, and aqueous solutions of MnSO₄, FeSO₄, CoCl₂, NiCl₂, CuSO₄, and ZnSO₄ (all 0.1 M) to demonstrate the trend in paramagnetism across the first transition series. What would you observe, and how does it correlate with the number of unpaired electrons?",
+     "a": "Bring a strong neodymium magnet near each test tube. Observe: ZnSO₄ (d¹⁰, n=0) — no attraction (diamagnetic). CuSO₄ (d⁹, n=1) — very weak attraction. NiCl₂ (d⁸, n=2) — weak attraction. CoCl₂ (d⁷, n=3) — moderate attraction. FeSO₄ (d⁶, n=4) — stronger attraction. MnSO₄ (d⁵, n=5) — strongest attraction. The force of attraction increases with n, following the trend in spin-only magnetic moment μ = √[n(n+2)]. A poor answer (e.g., \"all are attracted equally\" or \"only Fe is magnetic\") reveals the student doesn't connect magnetic moment magnitude to number of unpaired electrons or doesn't know Zn²⁺ is diamagnetic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

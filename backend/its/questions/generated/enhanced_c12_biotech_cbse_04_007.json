@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_007",
+   "title": "c12_biotech_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between polyclonal antibodies produced by conventional immunisation and monoclonal antibodies produced by hybridoma technology in terms of epitope recognition?",
+     "a": "Polyclonal antibodies are a heterogeneous mixture that recognise multiple epitopes on the same antigen, whereas monoclonal antibodies are homogeneous and recognise only a single, specific epitope. A wrong answer (e.g., \"polyclonal antibodies are stronger\" or \"monoclonal antibodies recognise the whole antigen\") reveals confusion between antibody diversity and specificity — students often conflate \"more antibodies\" with \"better binding\" without understanding that diagnostic precision requires single-epitope targeting.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't normal B lymphocytes (plasma cells) be cultured indefinitely in the laboratory to produce monoclonal antibodies, and how does hybridoma technology solve this problem?",
+     "a": "Normal B lymphocytes have a finite lifespan and undergo apoptosis after a few divisions in culture, making continuous antibody production impossible. Hybridoma technology solves this by fusing B cells with immortal myeloma cells, conferring unlimited proliferative capacity while retaining antibody secretion. A wrong answer (e.g., \"B cells don't produce antibodies in culture\" or \"myeloma cells produce antibodies\") reveals misunderstanding of the complementary roles: B cells provide specificity, myeloma cells provide immortality — neither works alone.",
+     "self_check": true
+    },
+    {
+     "q": "In hybridoma selection using HAT medium, myeloma cells are engineered to lack hypoxanthine-guanine phosphoribosyltransferase (HGPRT). Explain why unfused myeloma cells die in HAT medium while hybridoma cells survive.",
+     "a": "HAT medium contains aminopterin, which blocks the de novo nucleotide synthesis pathway. Cells must use the salvage pathway requiring HGPRT to survive. Myeloma cells lack HGPRT (engineered), so they cannot synthesise nucleotides and die. B cells have HGPRT but die naturally due to limited lifespan. Hybridomas inherit HGPRT from the B cell parent and immortality from the myeloma parent, allowing survival. A wrong answer (e.g., \"HAT medium kills B cells\" or \"myeloma cells survive because they are cancerous\") reveals failure to grasp the metabolic selection logic — the core concept that makes hybridoma technology work.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hybridoma technology workflow with recombinant monoclonal antibody production using phage display. Identify two advantages and two limitations of hybridoma technology relative to phage display.",
+     "a": "Advantages of hybridoma: (1) Uses natural immune system for affinity maturation, yielding high-affinity antibodies without in vitro selection; (2) Produces full-length IgG with native glycosylation patterns important for effector functions. Limitations: (1) Requires animal immunisation (ethical concerns, limited to immunogenic antigens); (2) Murine antibodies trigger human anti-mouse antibody (HAMA) response in patients, requiring humanisation. A wrong answer focusing only on \"hybridoma is older\" or \"phage display is faster\" misses the immunological and structural nuances that determine clinical utility.",
+     "self_check": true
+    },
+    {
+     "q": "A research team develops a monoclonal antibody against a cancer cell surface antigen using hybridoma technology. The antibody works well in ELISA but fails in flow cytometry. Evaluate three possible technical reasons for this discrepancy and propose a validation step for each.",
+     "a": "Possible reasons: (1) Epitope denaturation in ELISA coating vs. native conformation on live cells — validate by staining live vs. fixed cells; (2) Antibody isotype (e.g., IgM) too large for epitope access on intact cells — validate by Fab fragment testing; (3) Fc receptor binding on cancer cells causing false positives — validate with Fc-blocking controls. A wrong answer (e.g., \"ELISA is more sensitive\" or \"flow cytometry is broken\") shows inability to connect antibody biophysics to assay format — a critical competency for translational research.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybridoma-based strategy to generate a monoclonal antibody that specifically neutralises the SARS-CoV-2 spike protein receptor-binding domain (RBD) without binding the N-terminal domain (NTD). Include immunisation protocol, screening assay design, and validation steps.",
+     "a": "Immunise mice with purified RBD protein (not whole spike) adjuvanted with alum. Fuse splenocytes with HGPRT-negative myeloma cells using PEG. Screen hybridoma supernatants by ELISA against RBD (positive) and NTD (negative) — select clones with >100-fold selectivity. Validate: (1) Surface plasmon resonance for KD < 1 nM; (2) Pseudovirus neutralisation assay; (3) Epitope mapping by mutagenesis. A poor answer (e.g., \"inject virus, test for binding\") ignores the need for domain-specific immunogen, counter-screening, and functional validation — revealing gap between textbook protocol and real-world antibody development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

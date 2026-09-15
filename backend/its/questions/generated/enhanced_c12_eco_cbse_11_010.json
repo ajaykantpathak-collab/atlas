@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_010",
+   "title": "c12_eco_cbse_11_010",
+   "questions": [
+    {
+     "q": "Define foreign exchange rate and state how it is quoted in the Indian context (direct vs indirect quote). What does a quote of ₹83.50 per US Dollar mean?",
+     "a": "Foreign exchange rate is the price of one currency in terms of another. In India, the direct quote is used: domestic currency (₹) per unit of foreign currency ($). ₹83.50/$ means you need 83.50 Indian rupees to buy 1 US dollar. A WRONG answer (e.g., \"$83.50 per rupee\" or \"indirect quote\") reveals confusion between direct/indirect quotation methods and misunderstanding of which currency is the base. This is critical because all textbook problems and board exam questions use direct quote for India.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand curve for foreign exchange is downward sloping and the supply curve is upward sloping. Use the example of Indian import of crude oil and export of software services to illustrate.",
+     "a": "Demand curve slopes downward because when the exchange rate rises (₹ depreciates, e.g., from ₹80/$ to ₹85/$), foreign goods become more expensive in rupee terms, so Indian importers demand less foreign exchange (quantity demanded falls). Supply curve slopes upward because when the exchange rate rises, Indian goods become cheaper for foreigners, so exports rise, increasing the supply of foreign exchange (quantity supplied rises). A WRONG answer (e.g., \"demand rises when exchange rate rises\") reveals confusion between price of foreign currency and price of goods — students often mix up the direction of causality. This is the most common error in board exam diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Given the demand and supply functions for US dollars in India: Qd = 500 - 5e and Qs = 100 + 3e, where e is the exchange rate (₹/$) and Q is in million dollars. Calculate the equilibrium exchange rate and equilibrium quantity of foreign exchange. Show all steps.",
+     "a": "Step 1: Set Qd = Qs for equilibrium → 500 - 5e = 100 + 3e\nStep 2: 500 - 100 = 3e + 5e → 400 = 8e\nStep 3: e = 50 → Equilibrium exchange rate = ₹50/$\nStep 4: Substitute e = 50 into either equation: Qd = 500 - 5(50) = 250 million $\nStep 5: Equilibrium quantity = 250 million dollars\nA WRONG answer (e.g., e = 400/8 = 50 but then Q = 500 - 5(50) = 250 — correct, but if student writes Q = 500 - 5(50) = 250 and says \"250 rupees\" instead of \"250 million dollars\") reveals unit confusion. If student solves 500 - 5e = 100 - 3e (wrong sign), they get e = 100, revealing algebraic sign error. This tests application of Class 9 linear equations (c9_math_ch2_8) to economics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the impact on the Indian rupee exchange rate (₹/$) if: (a) Global crude oil prices rise sharply, (b) The US Federal Reserve raises interest rates while RBI keeps rates unchanged, (c) Foreign portfolio investors (FPIs) sell Indian stocks and repatriate funds. For each, state whether the rupee appreciates or depreciates and explain the demand/supply shift.",
+     "a": "(a) Crude oil price rise → India's import bill increases → demand for $ increases (demand curve shifts right) → rupee depreciates (e rises).\n(b) US rate hike → higher returns on US assets → capital outflow from India → demand for $ increases (Indians buy US bonds) AND supply of $ decreases (FPIs sell Indian assets, convert ₹ to $) → both shifts raise e → rupee depreciates.\n(c) FPI sell-off → supply of ₹ increases in forex market (they sell ₹ to buy $) → effectively demand for $ increases → demand curve shifts right → rupee depreciates.\nA WRONG answer (e.g., \"US rate hike makes dollar cheaper\" or \"FPI selling increases supply of dollars\") reveals confusion between asset returns and currency flows, and misunderstanding of who supplies what in the forex market. This tests multi-factor analysis required for CUET/JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A depreciation of the rupee always improves India's trade balance because exports become cheaper and imports become dearer.\" Consider the Marshall-Lerner condition and the J-curve effect in your evaluation.",
+     "a": "The statement is NOT always true. Depreciation improves trade balance ONLY if the sum of price elasticities of demand for exports and imports exceeds 1 (Marshall-Lerner condition). In the short run, elasticities are low (contracts fixed, habits sticky), so trade balance may worsen initially (J-curve effect) before improving later. India's import demand for crude oil is highly inelastic, so depreciation often widens the trade deficit initially. A WRONG answer (\"yes, always improves\" or \"no, never improves\") reveals lack of understanding of elasticity conditions and time lags — a classic JEE/NEET trap. Board exams expect mention of Marshall-Lerner condition for full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example showing how a 10% depreciation of the rupee (from ₹80/$ to ₹88/$) affects the rupee price of an imported good priced at $100 and an exported good priced at ₹5,000. Calculate the percentage change in rupee prices and explain the impact on import volume and export volume assuming price elasticity of demand for imports = -0.5 and for exports = -1.5.",
+     "a": "Import: Initial price = $100 × 80 = ₹8,000. New price = $100 × 88 = ₹8,800. %ΔP = +10%. %ΔQ_import = elasticity × %ΔP = -0.5 × 10% = -5% (import volume falls 5%).\nExport: Initial $ price = ₹5,000 / 80 = $62.5. New $ price = ₹5,000 / 88 = $56.82. %ΔP_$ = -9.09%. %ΔQ_export = -1.5 × (-9.09%) = +13.6% (export volume rises 13.6%).\nTrade balance impact: Import value in $ = $100 × 0.95 = $95m. Export value in $ = $62.5 × 1.136 = $71m. Net effect depends on initial trade volumes.\nA POOR answer (e.g., only calculates rupee prices, ignores elasticity, or assumes export price in rupees changes) reveals inability to distinguish between currency of invoicing and elasticity effects — a key distinction in competitive exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Work, Energy, and Simple Machines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.107.7.1",
+   "title": "Work Done by a Force",
+   "section": "7",
+   "definition": "In science, work is done only when a force moves its point of application along the force's direction: work equals force times displacement, it is zero when the force fails to move the body or acts perpendicular to the motion, and its unit is the joule.",
+   "formula": "work = force * distance",
+   "key_idea": "No displacement, no work: pushing a wall endlessly does zero joules.",
+   "textbook_ref": "iesc107.txt sections on work and its measurement",
+   "question_patterns": [
+    "find the work done when a force of 10 N moves a body 5 m",
+    "define work in scientific terms with its unit",
+    "when is the work done by a force zero - explain",
+    "calculate the work done from the given force and displacement",
+    "a coolie carries a load on his head - is work done - justify",
+    "find the force if the work and displacement are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply force by displacement",
+     "explain": "Work equals force times the distance moved along it.",
+     "compute": "work = force * distance"}
+   ]
+  },
+  {
+   "id": "iesc.107.7.2",
+   "title": "Kinetic and Potential Energy",
+   "section": "7",
+   "definition": "Energy is the capacity to do work, measured in joules: a moving body carries kinetic energy of half mass times velocity squared, while a raised body or a stretched spring stores potential energy by virtue of position or configuration - and energy changes form but the total stays conserved.",
+   "formula": "kinetic = mass * velocity * velocity / 2",
+   "key_idea": "Motion stores as kinetic energy, position as potential energy - together they conserve.",
+   "textbook_ref": "iesc107.txt sections on kinetic energy, potential energy, conservation",
+   "question_patterns": [
+    "find the kinetic energy of a {mass} kg body moving at the given velocity",
+    "define potential energy with two examples",
+    "state the law of conservation of energy with the falling body example",
+    "double the speed of a body - what happens to its kinetic energy",
+    "calculate the potential energy of the given raised object",
+    "where is the kinetic energy maximum in a swinging pendulum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the velocity",
+     "explain": "Velocity enters the formula squared.",
+     "compute": "v_sq = velocity * velocity"},
+    {"step": 2, "action": "take half the mass times v squared",
+     "explain": "The kinetic energy is mass times v squared over 2.",
+     "compute": "kinetic = mass * v_sq / 2"}
+   ]
+  },
+  {
+   "id": "iesc.107.7.3",
+   "title": "Simple Machines: Levers and Mechanical Advantage",
+   "section": "7",
+   "definition": "Simple machines - levers, pulleys, inclined planes - do not create work; they trade a smaller effort over a larger distance, with mechanical advantage comparing load to effort and the lever's fulcrum position deciding how much help each machine gives.",
+   "formula": "-",
+   "key_idea": "Machines trade distance for force: work in equals work out, minus friction.",
+   "textbook_ref": "iesc107.txt sections on simple machines, levers, mechanical advantage",
+   "question_patterns": [
+    "what is a lever - name its parts with a diagram",
+    "define mechanical advantage of a machine",
+    "how does an inclined plane make loading easier",
+    "give two examples of levers from daily life with their classes",
+    "why does a machine never multiply work - explain",
+    "find the effort needed for the given load and mechanical advantage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the machine and its parts",
+     "explain": "Find the fulcrum, effort arm and load arm of the lever."},
+    {"step": 2, "action": "apply the trade-off",
+     "explain": "Smaller effort must move through a proportionally larger distance."},
+    {"step": 3, "action": "compute the advantage",
+     "explain": "Mechanical advantage is load divided by effort, or effort arm over load arm."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc107.txt work example",
+   "concept": "iesc.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "Find the work done when a force of {force} N moves a body through {distance} m.",
+   "extracted_variables": {
+    "force": "force in newtons",
+    "distance": "displacement in metres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply force by displacement",
+     "explain": "Work equals force times distance.",
+     "compute": "work = force * distance"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc107.txt work practice",
+   "concept": "iesc.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "A {force} N push shifts a box {distance} m along the push. Calculate the work done.",
+   "extracted_variables": {
+    "force": "applied force in N",
+    "distance": "displacement in m"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply force by displacement",
+     "explain": "The product gives the work in joules.",
+     "compute": "work = force * distance"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iesc107.txt kinetic energy example",
+   "concept": "iesc.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find the kinetic energy of a {mass} kg body moving with velocity {velocity} m/s.",
+   "extracted_variables": {
+    "mass": "mass in kg",
+    "velocity": "velocity in m/s"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the velocity",
+     "explain": "v squared enters the formula.",
+     "compute": "v_sq = velocity * velocity"},
+    {"step": 2, "action": "take half the mass times v squared",
+     "explain": "Kinetic energy equals the product over 2.",
+     "compute": "kinetic = mass * v_sq / 2"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iesc107.txt kinetic energy practice",
+   "concept": "iesc.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "A ball of mass {mass} kg rolls with velocity {velocity} m/s. Calculate its kinetic energy.",
+   "extracted_variables": {
+    "mass": "mass of the ball in kg",
+    "velocity": "velocity in m/s"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the velocity",
+     "explain": "Compute v squared.",
+     "compute": "v_sq = velocity * velocity"},
+    {"step": 2, "action": "take half the mass times v squared",
+     "explain": "Half the product is the kinetic energy.",
+     "compute": "kinetic = mass * v_sq / 2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "iesc107.txt exercises",
+   "questions": [
+     "Solve the given work-done numericals.",
+     "Find the kinetic energy for the given masses and velocities.",
+     "Explain the conservation of energy with the given example."
+   ]
+  }
+ ]
+}

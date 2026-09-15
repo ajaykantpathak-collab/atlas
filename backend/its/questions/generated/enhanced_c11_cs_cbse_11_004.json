@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_004",
+   "title": "c11_cs_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the primary function of a hub in a network, and at which OSI layer does it operate?",
+     "a": "A hub operates at the Physical Layer (Layer 1) and simply regenerates and broadcasts incoming electrical/optical signals to all other ports without any addressing intelligence. A wrong answer (e.g., \"hub uses MAC addresses\" or \"hub operates at Layer 2\") reveals the student confuses hub with switch and does not understand that hubs are dumb repeaters that create a single collision domain.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a switch is more efficient than a hub for connecting multiple computers in a LAN.",
+     "a": "A switch learns the MAC addresses of connected devices and forwards frames only to the port where the destination device is connected, reducing collisions and improving bandwidth utilization. A hub broadcasts every frame to all ports, causing unnecessary traffic and collisions. A wrong answer that says \"switch is faster\" without mentioning MAC address learning or collision domains shows superficial understanding without grasping the addressing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A small office has 10 computers connected via a switch. They want to connect this LAN to the internet using a broadband cable connection. Which two devices are minimally required at the network boundary, and what is the function of each?",
+     "a": "They need a modem to convert the broadband signal (e.g., coaxial/fiber) to digital Ethernet, and a router to route packets between the office LAN (private IPs) and the internet (public IP). The modem handles signal conversion (Layer 1/2), the router handles IP routing (Layer 3). A wrong answer that omits the router or suggests a hub instead shows inability to apply device roles to a real topology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a router and a gateway. In what situation would you need a gateway instead of a router?",
+     "a": "A router connects networks using the same protocol suite (e.g., IP) and routes based on IP addresses. A gateway connects networks with different protocols (e.g., TCP/IP to SNA, or IoT protocol to IP) and performs protocol translation. You need a gateway when interconnecting heterogeneous networks with incompatible protocol stacks. A wrong answer that treats them as synonyms misses the protocol translation distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A modem is a type of router because both connect networks.\" Defend your position with technical reasoning.",
+     "a": "The statement is false. A modem (modulator-demodulator) converts digital signals to analog for transmission over telephone/cable lines and vice versa; it does not make routing decisions based on IP addresses. A router forwards packets between networks based on IP routing tables. They operate at different layers (modem at Layer 1/2, router at Layer 3). A wrong answer that agrees shows confusion between signal conversion and packet forwarding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a network diagram for a school that has three computer labs (each with 20 computers), a library with 10 computers, and an administrative office with 5 computers. All need internet access. The school gets a single fiber optic connection. List the devices you would use, their quantities, and where you would place them. Justify each choice.",
+     "a": "Expected: One fiber modem (ONU) at entry, one core router, one distribution switch (or router with multiple interfaces), four access switches (one per lab/library/office), and appropriate cabling. Justification: Modem for fiber-to-Ethernet conversion; router for internet routing and NAT; access switches for local MAC-based forwarding in each room. A poor answer might omit the router, use hubs, or not separate access switches per room, showing lack of hierarchical design understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

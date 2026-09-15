@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_10_002",
+   "title": "c12_eng_f_cbse_10_002",
+   "questions": [
+    {
+     "q": "How many stanzas are there in the poem \"Keeping Quiet\", and what is the general pattern of line lengths across them?",
+     "a": "The poem has five stanzas of varying line lengths: the first stanza has 6 lines, the second has 6 lines, the third has 7 lines, the fourth has 9 lines, and the fifth has 5 lines. A wrong answer (e.g., saying all stanzas are equal) reveals the student hasn't observed the visual structure, which is crucial because the varying lengths mirror the poem's theme of breaking routine patterns.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain the shift in thought from the first stanza to the second stanza of the poem.",
+     "a": "The first stanza proposes a concrete action: counting to twelve and keeping still, not speaking, not moving. The second stanza imagines the result of that action: an exotic moment without rush or engines, where everyone is together in a sudden strangeness. A wrong answer that merely repeats the lines shows the student cannot distinguish between the proposal and its imagined consequence, missing the cause-effect structure.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of narrative progression: If the poem were rearranged so that the stanza about the Earth teaching us (second last) came immediately after the first stanza, how would the poem's argument change?",
+     "a": "The poem would lose its logical buildup: the images of fishermen, salt gatherer, and war preparers illustrate the specific harms of constant activity, making the Earth's lesson a culmination. Placing the Earth symbol too early would make the subsequent concrete images feel like afterthoughts rather than evidence. A wrong answer that says \"it wouldn't matter\" reveals the student doesn't grasp that poetic structure is an argument, not a random collection.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poet uses the fourth stanza (about war preparers) to deepen the poem's critique of modern life. What specific contrasts does this stanza introduce?",
+     "a": "The fourth stanza contrasts \"green wars, wars with gas, wars with fire\" and \"victory with no survivors\" with the image of warriors putting on clean clothes and walking with brothers in the shade, doing nothing. This contrasts destructive activity with peaceful inactivity, and uniformed violence with human brotherhood. A wrong answer that only lists the images without explaining the contrast misses the analytical depth needed for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's clarification in the fifth stanza (\"What I want should not be confused with total inactivity\"). Why is this clarification necessary for the poem's overall message?",
+     "a": "The clarification prevents the reader from misinterpreting the call for stillness as a call for death or passivity. It redefines the pause as a life-affirming act (\"Life is what it is about\") and distinguishes it from the \"sadness of never understanding ourselves.\" Without it, the poem could be read as nihilistic. A wrong answer that says \"it's just a clarification\" shows the student cannot evaluate the rhetorical function of a stanza within the whole.",
+     "self_check": true
+    },
+    {
+     "q": "Create a sixth stanza that could follow the last line (\"Now I'll count up to twelve and you keep quiet and I will go\") that extends the poem's theme of learning from nature. Write 4-6 lines.",
+     "a": "A good answer would maintain the tone, use natural imagery (e.g., seasons, seeds), and reflect the idea of silent growth. Example: \"And when the twelve are counted, / the seed beneath the snow / will whisper to the root / that spring is not in noise / but in the quiet push / of green against the dark.\" A poor answer that rhymes forcedly or introduces unrelated ideas shows the student hasn't internalized the poem's voice and thematic logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

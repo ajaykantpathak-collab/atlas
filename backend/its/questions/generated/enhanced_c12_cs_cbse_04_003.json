@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_003",
+   "title": "c12_cs_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the three classical database models and give one real‑world analogy for each (e.g., hierarchical = organization chart).",
+     "a": "The three models are Hierarchical (analogy: file‑system directory tree), Network (analogy: road network with multiple routes between cities), and Relational (analogy: spreadsheet with multiple linked sheets). A wrong answer (e.g., listing \"SQL\" as a model) reveals confusion between a model and a query language.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the hierarchical model cannot naturally represent a many‑to‑many relationship (e.g., Student‑Club) without data redundancy.",
+     "a": "In a hierarchical model, each child has exactly one parent. To represent Student‑Club, you must either duplicate student records under each club or duplicate club records under each student, causing redundancy and update anomalies. A wrong answer (e.g., \"it can using pointers\") shows misunderstanding of the strict tree constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Given a small network‑model diagram with two record types (Owner: Department, Member: Employee) and a set linking them, write the steps to find all employees in the 'CS' department.",
+     "a": "Steps: (1) Locate the 'CS' department record (owner). (2) Follow the 'DEPT‑EMP' set pointers to the first member (employee). (3) Traverse the set's next‑member pointers until back to the owner, collecting each employee record. A wrong answer that suggests \"SELECT * FROM Employee WHERE dept='CS'\" reveals confusion between network (procedural navigation) and relational (declarative query).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three models on: (a) ease of ad‑hoc queries, (b) data independence, (c) implementation complexity. Present as a table.",
+     "a": "| Model | Ad‑hoc Queries | Data Independence | Implementation Complexity |\n|-------|----------------|-------------------|---------------------------|\n| Hierarchical | Poor (pre‑defined paths) | Low (physical order fixed) | Low |\n| Network | Moderate (set‑based navigation) | Moderate | High (pointer management) |\n| Relational | Excellent (SQL, declarative) | High (logical/physical separation) | Moderate (optimizer handles access) |\nA wrong answer that rates hierarchical high on ad‑hoc queries shows lack of understanding of navigational vs. declarative access.",
+     "self_check": true
+    },
+    {
+     "q": "\"Relational model is always superior to hierarchical and network models.\" Evaluate this statement with two arguments for and two against.",
+     "a": "For: (1) Relational provides high data independence and simple querying via SQL. (2) Strong theoretical foundation (Codd's rules) ensures consistency. Against: (1) Hierarchical/network can be faster for fixed, predictable access paths (e.g., IMS in banking). (2) Network model naturally represents complex many‑to‑many without join overhead. A one‑sided answer reveals inability to appreciate context‑dependent trade‑offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tiny database for a \"Library Book‑Loan\" system using each model. Show the structure (records/sets/tables) for: Book, Member, Loan (with due date). Highlight how Loan (many‑to‑many) is handled in each.",
+     "a": "Hierarchical: Two separate trees — Book→Loan and Member→Loan (Loan duplicated). Network: Three record types (Book, Member, Loan) with two sets: Book‑Loan (owner Book, member Loan) and Member‑Loan (owner Member, member Loan). Relational: Three tables (Book, Member, Loan) with Loan having foreign keys book_id and member_id. A poor answer that draws the same structure for all three shows failure to grasp the fundamental structural differences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

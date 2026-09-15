@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_005",
+   "title": "c11_biotech_cbse_02_005",
+   "questions": [
+    {
+     "q": "Name the scientist who discovered the Golgi apparatus and state the year of discovery.",
+     "a": "Camillo Golgi discovered the Golgi apparatus in 1898. A wrong answer (e.g., \"George Palade\" or \"1955\") reveals confusion between the discoverer of the organelle and the scientist who later elucidated the secretory pathway using electron microscopy and autoradiography.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the cis face of the Golgi apparatus is described as the 'forming face' and the trans face as the 'maturing face' in terms of vesicle traffic direction and cargo processing state.",
+     "a": "The cis face (forming face) receives transition vesicles from the ER, so it is where new cisternae form; cargo here is newly arrived and minimally modified. The trans face (maturing face) releases vesicles that have undergone sequential modifications (e.g., glycosylation) as they progressed through the stack; cargo here is fully processed and sorted. A wrong answer that swaps the faces or claims both faces receive ER vesicles indicates a failure to grasp the directional polarity (cis → trans) that underpins the Golgi's assembly-line processing.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cells with a drug that prevents vesicle fusion specifically at the cis face of the Golgi. Predict the immediate effect on (a) the rough ER, (b) the Golgi cisternae, and (c) secretion of a glycoprotein hormone like insulin.",
+     "a": "(a) Rough ER will swell with accumulated secretory proteins because vesicles cannot bud off or fuse with Golgi; (b) Golgi cisternae will gradually shrink/disappear as existing cisternae mature and move to trans face without replacement; (c) Insulin secretion will cease because proinsulin cannot enter Golgi for cleavage and packaging into secretory granules. A wrong answer predicting normal secretion or ER shrinkage shows the student cannot apply the concept of membrane traffic continuity between ER and Golgi.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trafficking route and Golgi modifications of a lysosomal enzyme (e.g., acid hydrolase) versus a secreted protein (e.g., collagen). Highlight the specific tag that diverts the lysosomal enzyme away from the default secretory pathway.",
+     "a": "Both proteins enter the Golgi at the cis face. The lysosomal enzyme receives a mannose-6-phosphate (M6P) tag in the cis/medial cisternae, which is recognized by M6P receptors in the trans-Golgi network, diverting it into clathrin-coated vesicles bound for endosomes/lysosomes. The secreted protein lacks M6P, follows the default constitutive secretory pathway, and is released from the trans face via secretory vesicles. A wrong answer that omits M6P or claims lysosomal enzymes are secreted reveals a gap in understanding signal-mediated sorting in the trans-Golgi network.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Golgi apparatus is the primary site of protein synthesis for secreted proteins.\" Justify your evaluation with evidence from the secretory pathway.",
+     "a": "The statement is false. Protein synthesis occurs on ribosomes attached to the rough ER; the Golgi only modifies (e.g., glycosylation, proteolytic cleavage), sorts, and packages pre-synthesized polypeptides. Evidence: Pulse-chase experiments show radiolabeled amino acids appear first in rough ER, then Golgi, then secretory vesicles—not in Golgi first. A student who agrees with the statement confuses the site of translation (RER) with the site of post-translational processing (Golgi), a classic misconception from oversimplified \"protein factory\" analogies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual experiment using temperature-sensitive yeast mutants to identify a gene required for Golgi-mediated glycosylation of a cell-surface receptor. Outline the key steps, the phenotype you would screen for, and how you would confirm the defect is in the Golgi.",
+     "a": "Key steps: (1) Mutagenize yeast; (2) Screen for temperature-sensitive mutants that fail to bind a fluorescent lectin (e.g., ConA) at restrictive temperature, indicating defective glycosylation; (3) Verify the receptor protein is synthesized (Western blot) but shows faster mobility on SDS-PAGE (loss of sugar chains); (4) Use immunofluorescence to show the mutant receptor accumulates in the ER or early Golgi (colocalization with ER/Golgi markers) instead of reaching the plasma membrane; (5) Sequence the mutated gene to identify a Golgi-resident glycosyltransferase. A poor answer that only says \"check if receptor works\" without linking glycosylation status, subcellular localization, and genetic complementation shows inability to integrate cell biology, genetics, and biochemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_010",
+   "title": "c11_acc_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the meaning of 'credit balance as per cash book' in the context of bank reconciliation, and how does it differ from 'debit balance as per passbook' when both represent overdraft?",
+     "a": "Credit balance as per cash book means the bank column total on the credit side exceeds the debit side, indicating the firm has withdrawn more than deposited (overdraft). Debit balance as per passbook means the bank's records show the customer owes the bank (overdraft from bank's perspective). Both represent the same overdraft situation but from opposite viewpoints: cash book shows it as credit (liability), passbook shows it as debit (asset for bank). A wrong answer reveals confusion between the entity's perspective (cash book) and bank's perspective (passbook) - students often think \"credit balance = favourable\" universally, not realizing it's favourable only in passbook.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares BRS starting with 'Overdraft as per cash book ₹20,000'. They add 'Cheques issued but not presented ₹5,000' and deduct 'Cheques deposited but not collected ₹3,000'. Is this correct? Explain why or why not.",
+     "a": "This is INCORRECT. Starting with overdraft as per cash book (credit balance), cheques issued but not presented REDUCE the overdraft (they will reduce the liability when presented), so they must be DEDUCTED. Cheques deposited but not collected INCREASE the overdraft (the firm recorded receipt but bank hasn't credited), so they must be ADDED. The student applied favourable balance logic (add unpresented, deduct uncollected) to overdraft situation. Wrong answer reveals failure to reverse the treatment when starting balance is negative - a critical conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "Prepare a Bank Reconciliation Statement as on 31st March 2024 from the following: Overdraft as per cash book ₹45,000. Cheques issued but not presented ₹12,000. Cheques deposited but not credited ₹8,000. Bank charges ₹500 not recorded in cash book. Interest on overdraft ₹1,200 debited by bank. Direct deposit by customer ₹6,000 not entered in cash book.",
+     "a": "**Bank Reconciliation Statement as on 31st March 2024**\n| Particulars | (+) Amount ₹ | (-) Amount ₹ |\n|---|---|---|\n| Overdraft as per cash book | 45,000 | |\n| Cheques issued but not presented | | 12,000 |\n| Cheques deposited but not credited | 8,000 | |\n| Bank charges | 500 | |\n| Interest on overdraft | 1,200 | |\n| Direct deposit by customer | | 6,000 |\n| **Overdraft as per passbook** | | **36,300** |\n| **Total** | **54,700** | **54,700** |\n\nSteps: (1) Start with overdraft ₹45,000 in (+) column. (2) Unpresented cheques reduce overdraft → deduct ₹12,000. (3) Uncollected deposits increase overdraft → add ₹8,000. (4) Bank charges increase overdraft → add ₹500. (5) Interest on overdraft increases overdraft → add ₹1,200. (6) Direct deposit reduces overdraft → deduct ₹6,000. (7) Balance: 45,000 + 8,000 + 500 + 1,200 - 12,000 - 6,000 = ₹36,300 overdraft as per passbook. Wrong answer reveals inability to classify each item's effect on overdraft magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the treatment of 'Interest on overdraft debited by bank' and 'Interest on investments collected by bank' when starting point is (a) Overdraft as per cash book, (b) Overdraft as per passbook. Present in a table.",
+     "a": "| Item | Effect on Overdraft | Start: Overdraft per Cash Book | Start: Overdraft per Passbook |\n|---|---|---|---|\n| Interest on overdraft debited by bank | Increases overdraft (more liability) | **Add** (makes cash book overdraft larger to match passbook) | **Deduct** (makes passbook overdraft smaller to match cash book) |\n| Interest on investments collected by bank | Decreases overdraft (adds income) | **Deduct** (reduces cash book overdraft) | **Add** (increases passbook overdraft) |\n\nReasoning: Interest on overdraft is an expense increasing the amount owed to bank. Interest collected is income reducing the amount owed. When starting from cash book, we adjust cash book balance to reach passbook balance. When starting from passbook, we adjust passbook balance to reach cash book balance - hence opposite treatment. Wrong answer reveals memorization without understanding the \"direction of reconciliation\" principle.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In overdraft BRS, we should always put the starting balance in the minus column because overdraft is negative.\" Evaluate this statement and explain the correct presentation format.",
+     "a": "The statement is **incorrect**. In the two-column format (+/-), the starting balance (whether favourable or overdraft) is **always placed in the (+) column** as the first line item. The sign convention is handled by the adjustments: items increasing the overdraft go to (+), items decreasing go to (-). The final balance appears in the column opposite to where the net effect falls. For overdraft as per cash book ₹45,000: write \"Overdraft as per cash book\" in Particulars, ₹45,000 in (+) column. If net adjustments reduce it, final overdraft as per passbook appears in (-) column. Putting starting balance in (-) column would double-count the negative nature. This misconception arises from confusing mathematical negative with accounting presentation format.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new BRS problem with overdraft as per passbook as starting point, including at least 6 adjusting items (mix of timing differences and one error). Provide the problem statement only - do not solve it.",
+     "a": "**Problem:** On 31st December 2023, the passbook of M/s Sharma Traders showed an overdraft of ₹75,000. On comparing with cash book, the following discrepancies were found:\n1. Cheques issued in December ₹25,000, of which ₹8,000 were presented in January 2024.\n2. Cheques deposited ₹18,000, of which ₹5,000 were credited in January 2024.\n3. Bank charged ₹350 for cheque collection, not recorded in cash book.\n4. Interest on overdraft ₹2,100 debited by bank, not entered in cash book.\n5. A customer directly deposited ₹12,000 into the bank account, no entry in cash book.\n6. LIC premium ₹4,500 paid by bank under standing instruction, not recorded in cash book.\n7. **Error:** A cheque of ₹3,200 issued to supplier was recorded in cash book as ₹2,300.\nPrepare Bank Reconciliation Statement as on 31st December 2023 starting with overdraft as per passbook.\n\n*Criteria for good answer:* Student must correctly classify all 7 items with reversed treatment (vs cash book start), handle the error by comparing correct vs recorded amount (₹900 difference), and present in proper two-column format. Poor answer reveals inability to reverse logic when starting point changes and/or mishandling error adjustment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

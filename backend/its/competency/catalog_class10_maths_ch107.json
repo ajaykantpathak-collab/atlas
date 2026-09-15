@@ -1,0 +1,579 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Coordinate Geometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh107.txt",
+ "concepts": [
+  {
+   "id": "jemh.7.1",
+   "title": "Distance Between Two Points",
+   "section": "7.2",
+   "definition": "The distance between any two points in a plane with coordinates (x1, y1) and (x2, y2) is found using the distance formula derived from the Pythagorean theorem.",
+   "formula": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+   "key_idea": "The distance formula generalises the Pythagorean theorem to any two points on the coordinate plane.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the distance between the points {p1} and {p2}",
+    "Calculate the distance between two points whose coordinates are given",
+    "What is the distance between point A(x1, y1) and point B(x2, y2)?",
+    "Determine the length of the line segment joining two given points",
+    "Find the distance between the points (x1, y1) and (x2, y2) on the coordinate plane"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Coordinate gaps",
+     "explain": "dx is the x-gap and dy is the y-gap.",
+     "compute": "dx = x2 - x1"
+    },
+    {
+     "step": 2,
+     "action": "Vertical gap",
+     "explain": "dy = y2 - y1.",
+     "compute": "dy = y2 - y1"
+    },
+    {
+     "step": 3,
+     "action": "Sum of squares",
+     "explain": "Add the squared gaps.",
+     "compute": "sum_sq = dx ** 2 + dy ** 2"
+    },
+    {
+     "step": 4,
+     "action": "Distance",
+     "explain": "d = sqrt(sum_sq).",
+     "compute": "d = sqrt(sum_sq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the distance between the points (2, 3) and (4, 1).",
+     "solution": "dx = 4 - 2 = 2; dy = 1 - 3 = -2; sum_sq = 2^2 + (-2)^2 = 4 + 4 = 8; d = sqrt(8) = 2*sqrt(2)",
+     "answer": "2*sqrt(2) units"
+    },
+    {
+     "question": "Find the distance between the points (-5, 7) and (-1, 3).",
+     "solution": "dx = -1 - (-5) = 4; dy = 3 - 7 = -4; sum_sq = 4^2 + (-4)^2 = 16 + 16 = 32; d = sqrt(32) = 4*sqrt(2)",
+     "answer": "4*sqrt(2) units"
+    },
+    {
+     "question": "Find the distance between the points (a, 0) and (0, b).",
+     "solution": "dx = 0 - a = -a; dy = b - 0 = b; sum_sq = a^2 + b^2; d = sqrt(a^2 + b^2)",
+     "answer": "sqrt(a^2 + b^2) units"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the distance between the points (2, 3) and (4, 1).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the distance between the points (-5, 7) and (-1, 3).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the distance between the points (a, 0) and (0, b).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.2",
+   "title": "Distance of a Point from the Origin",
+   "section": "7.2",
+   "definition": "The distance of a point P(x, y) from the origin O(0, 0) is a special case of the distance formula where one point is the origin.",
+   "formula": "d = sqrt(x^2 + y^2)",
+   "key_idea": "When one point is the origin, the distance formula simplifies to the square root of the sum of squares of the coordinates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the distance of the point {p} from the origin",
+    "How far is the point (x, y) from the origin?",
+    "Calculate the distance of point P from O(0, 0)",
+    "What is the distance of the point (x, y) from the origin?",
+    "Determine the distance of a given point from the origin using the distance formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coordinates of the point and the origin",
+     "explain": "The origin is (0, 0) and the given point is (x, y)."
+    },
+    {
+     "step": 2,
+     "action": "Square both coordinates of the point",
+     "explain": "Compute x squared and y squared.",
+     "compute": "sum_sq = x**2 + y**2"
+    },
+    {
+     "step": 3,
+     "action": "Take the square root of the sum",
+     "explain": "The square root gives the distance from the origin to the point.",
+     "compute": "d = sqrt(sum_sq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the distance of the point (3, 4) from the origin.",
+     "solution": "sum_sq = 3^2 + 4^2 = 9 + 16 = 25; d = sqrt(25) = 5",
+     "answer": "5 units"
+    },
+    {
+     "question": "Find the distance of the point (-6, 8) from the origin.",
+     "solution": "sum_sq = (-6)^2 + 8^2 = 36 + 64 = 100; d = sqrt(100) = 10",
+     "answer": "10 units"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the distance of the point (3, 4) from the origin.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the distance of the point (-6, 8) from the origin.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the distance of the point (5, -12) from the origin.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3",
+   "title": "Section Formula (Internal Division)",
+   "section": "7.3",
+   "definition": "The coordinates of a point that divides the line segment joining two points internally in a given ratio are found using the section formula.",
+   "formula": "P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n))",
+   "key_idea": "The section formula gives the weighted average of the coordinates based on the ratio of division.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the coordinates of the point which divides the line segment joining {p1} and {p2} internally in the ratio {m}:{n}",
+    "Find the point that internally divides the segment joining two given points in the given ratio",
+    "Determine the coordinates of the point of internal division of a line segment",
+    "Calculate the coordinates using the section formula for internal division",
+    "What are the coordinates of the point dividing the segment AB in the ratio m:n internally?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two endpoints and the ratio m:n",
+     "explain": "Label the endpoints (x1, y1) and (x2, y2) and the internal ratio m:n."
+    },
+    {
+     "step": 2,
+     "action": "Apply the section formula for x-coordinate",
+     "explain": "Compute the x-coordinate as (m*x2 + n*x1)/(m+n).",
+     "compute": "px = (m*x2 + n*x1)/(m+n)"
+    },
+    {
+     "step": 3,
+     "action": "Apply the section formula for y-coordinate",
+     "explain": "Compute the y-coordinate as (m*y2 + n*y1)/(m+n).",
+     "compute": "py = (m*y2 + n*y1)/(m+n)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the coordinates of the point which divides the line segment joining (1, 3) and (2, 7) internally in the ratio 1:2.",
+     "solution": "px = (1*2 + 2*1)/(1+2) = (2+2)/3 = 4/3; py = (1*7 + 2*3)/(1+2) = (7+6)/3 = 13/3",
+     "answer": "(4/3, 13/3)"
+    },
+    {
+     "question": "Find the coordinates of the point which divides the line segment joining (4, -3) and (8, 5) internally in the ratio 3:1.",
+     "solution": "px = (3*8 + 1*4)/(3+1) = (24+4)/4 = 7; py = (3*5 + 1*(-3))/(3+1) = (15-3)/4 = 3",
+     "answer": "(7, 3)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the coordinates of the point which divides the line segment joining (1, 3) and (2, 7) internally in the ratio 1:2.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the coordinates of the point which divides the line segment joining (4, -3) and (8, 5) internally in the ratio 3:1.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the coordinates of the point which divides the line segment joining (-2, 4) and (6, -2) internally in the ratio 2:3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.4",
+   "title": "Midpoint of a Line Segment",
+   "section": "7.3",
+   "definition": "The midpoint of a line segment is the point that divides the segment into two equal parts, obtained as a special case of the section formula with ratio 1:1.",
+   "formula": "M = ((x1 + x2)/2, (y1 + y2)/2)",
+   "key_idea": "The midpoint is the average of the x-coordinates and the average of the y-coordinates of the two endpoints.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the midpoint of the line segment joining {p1} and {p2}",
+    "What is the midpoint of the segment with endpoints (x1, y1) and (x2, y2)?",
+    "Calculate the coordinates of the midpoint of a given line segment",
+    "Determine the midpoint using the midpoint formula",
+    "Find the middle point of the segment joining two given points"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coordinates of the two endpoints",
+     "explain": "Label the endpoints as (x1, y1) and (x2, y2)."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the average of the x-coordinates",
+     "explain": "Add the x-coordinates and divide by 2.",
+     "compute": "mx = (x1 + x2)/2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the average of the y-coordinates",
+     "explain": "Add the y-coordinates and divide by 2 to get the midpoint.",
+     "compute": "my = (y1 + y2)/2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the midpoint of the line segment joining (2, 3) and (4, 5).",
+     "solution": "mx = (2+4)/2 = 3; my = (3+5)/2 = 4",
+     "answer": "(3, 4)"
+    },
+    {
+     "question": "Find the midpoint of the line segment joining (-1, 7) and (3, -5).",
+     "solution": "mx = (-1+3)/2 = 1; my = (7+(-5))/2 = 1",
+     "answer": "(1, 1)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the midpoint of the line segment joining (2, 3) and (4, 5).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the midpoint of the line segment joining (-1, 7) and (3, -5).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the midpoint of the line segment joining (0, 0) and (6, 8).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.5",
+   "title": "Coordinates of Point Dividing a Segment in a Given Ratio",
+   "section": "7.3",
+   "definition": "Finding the coordinates of a point that divides the line segment joining two given points in a specified ratio, which may be internal or external.",
+   "formula": "P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n)) for internal division",
+   "key_idea": "The ratio determines the weights applied to each endpoint coordinate in the section formula.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the coordinates of the point which divides the line segment joining {p1} and {p2} in the ratio {m}:{n}",
+    "Determine the coordinates of the point dividing AB in the ratio k:1",
+    "Find the point on the line segment joining two points that divides it in the given ratio",
+    "Calculate the dividing point coordinates for a given ratio",
+    "What point divides the segment joining (x1, y1) and (x2, y2) in the ratio m:n?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the endpoints and the ratio of division",
+     "explain": "Note the coordinates of the two endpoints and the ratio m:n in which the point divides the segment."
+    },
+    {
+     "step": 2,
+     "action": "Compute the x-coordinate using the section formula",
+     "explain": "Apply (m*x2 + n*x1)/(m+n) to find the x-coordinate of the dividing point.",
+     "compute": "px = (m*x2 + n*x1)/(m+n)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the y-coordinate using the section formula",
+     "explain": "Apply (m*y2 + n*y1)/(m+n) to find the y-coordinate of the dividing point.",
+     "compute": "py = (m*y2 + n*y1)/(m+n)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+     "solution": "First trisection point (ratio 1:2): px = (1*(-2)+2*4)/3 = 2, py = (1*(-3)+2*(-1))/3 = -5/3. Second trisection point (ratio 2:1): px = (2*(-2)+1*4)/3 = 0, py = (2*(-3)+1*(-1))/3 = -7/3.",
+     "answer": "(2, -5/3) and (0, -7/3)"
+    },
+    {
+     "question": "Find the coordinates of the point which divides the line joining (1, -2) and (3, 4) in the ratio 2:3.",
+     "solution": "px = (2*3 + 3*1)/(2+3) = (6+3)/5 = 9/5; py = (2*4 + 3*(-2))/(2+3) = (8-6)/5 = 2/5",
+     "answer": "(9/5, 2/5)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the coordinates of the point which divides the line joining (1, -2) and (3, 4) in the ratio 2:3.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the coordinates of the point dividing the segment joining (-1, 2) and (5, -4) in the ratio 3:2.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.6",
+   "title": "Area of a Triangle Using Coordinates",
+   "section": "7.4",
+   "definition": "The area of a triangle whose vertices are given by their coordinates can be calculated directly without knowing the base and height, using the coordinate area formula.",
+   "formula": "A = 0.5 * |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|",
+   "key_idea": "The area is the absolute value of half the determinant formed by the coordinates of the three vertices.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the area of the triangle whose vertices are {p1}, {p2}, and {p3}",
+    "Calculate the area of a triangle given the coordinates of its three vertices",
+    "What is the area of the triangle with vertices (x1, y1), (x2, y2), (x3, y3)?",
+    "Determine the area of a triangle using the coordinate formula",
+    "Find the area of the triangle formed by three given points"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coordinates of the three vertices",
+     "explain": "Label the vertices as (x1, y1), (x2, y2), and (x3, y3)."
+    },
+    {
+     "step": 2,
+     "action": "Compute the determinant expression",
+     "explain": "Calculate x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2).",
+     "compute": "det = x1*(y2 - y3) + x2*(y3 - y1) + x3*(y1 - y2)"
+    },
+    {
+     "step": 3,
+     "action": "Take half the absolute value",
+     "explain": "The area is half the absolute value of the determinant expression.",
+     "compute": "A = 0.5 * abs(det)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of the triangle whose vertices are (1, 1), (4, 2), and (2, 5).",
+     "solution": "det = 1(2-5) + 4(5-1) + 2(1-2) = 1(-3) + 4(4) + 2(-1) = -3 + 16 - 2 = 11; A = 0.5 * |11| = 5.5",
+     "answer": "5.5 square units"
+    },
+    {
+     "question": "Find the area of the triangle whose vertices are (2, 3), (-1, 0), and (4, 8).",
+     "solution": "det = 2(0-8) + (-1)(8-3) + 4(3-0) = 2(-8) + (-1)(5) + 4(3) = -16 - 5 + 12 = -9; A = 0.5 * |-9| = 4.5",
+     "answer": "4.5 square units"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area of the triangle whose vertices are (1, 1), (4, 2), and (2, 5).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of the triangle whose vertices are (2, 3), (-1, 0), and (4, 8).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of the triangle whose vertices are (0, 0), (5, 0), and (0, 5).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.7",
+   "title": "Collinearity of Three Points",
+   "section": "7.4",
+   "definition": "Three points are said to be collinear if they all lie on the same straight line, which can be verified using the area of the triangle formed by them.",
+   "formula": "Area = 0 implies the three points are collinear",
+   "key_idea": "If the area of the triangle formed by three points is zero, the points lie on a straight line.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Check whether the points {p1}, {p2}, and {p3} are collinear",
+    "Determine if three given points lie on the same straight line",
+    "Verify collinearity of three points using the area formula",
+    "Are the points (x1, y1), (x2, y2), (x3, y3) collinear?",
+    "Show that the three given points are collinear"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coordinates of the three points",
+     "explain": "Label the points as (x1, y1), (x2, y2), and (x3, y3)."
+    },
+    {
+     "step": 2,
+     "action": "Compute the area expression",
+     "explain": "Calculate x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)."
+    },
+    {
+     "step": 3,
+     "action": "Check if the area is zero",
+     "explain": "If the computed value is zero, the three points are collinear; otherwise, they are not collinear."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Check whether the points (1, 2), (3, 4), and (5, 6) are collinear.",
+     "solution": "det = 1(4-6) + 3(6-2) + 5(2-4) = 1(-2) + 3(4) + 5(-2) = -2 + 12 - 10 = 0; Area = 0.5*|0| = 0. Since the area is 0, the points are collinear.",
+     "answer": "The points are collinear"
+    },
+    {
+     "question": "Check whether the points (2, 3), (4, 5), and (6, 9) are collinear.",
+     "solution": "det = 2(5-9) + 4(9-3) + 6(3-5) = 2(-4) + 4(6) + 6(-2) = -8 + 24 - 12 = 4; Area = 0.5*|4| = 2. Since the area is not 0, the points are not collinear.",
+     "answer": "The points are not collinear"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Check whether the points (1, 2), (3, 4), and (5, 6) are collinear.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Check whether the points (2, 3), (4, 5), and (6, 9) are collinear.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Show that the points (7, 10), (-2, 5), and (3, -4) are not collinear.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.8",
+   "title": "Centroid of a Triangle",
+   "section": "7.3",
+   "definition": "The centroid of a triangle is the point where the three medians of the triangle intersect, and its coordinates are the average of the coordinates of the three vertices.",
+   "formula": "G = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3)",
+   "key_idea": "The centroid is the arithmetic mean of the coordinates of the three vertices of the triangle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the centroid of the triangle whose vertices are {p1}, {p2}, and {p3}",
+    "What is the centroid of a triangle with vertices (x1, y1), (x2, y2), (x3, y3)?",
+    "Calculate the coordinates of the centroid of a given triangle",
+    "Determine the centroid using the centroid formula",
+    "Find the point of intersection of the medians of a triangle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coordinates of the three vertices",
+     "explain": "Label the vertices as (x1, y1), (x2, y2), and (x3, y3)."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the average of the x-coordinates",
+     "explain": "Add the three x-coordinates and divide by 3.",
+     "compute": "gx = (x1 + x2 + x3)/3"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the average of the y-coordinates",
+     "explain": "Add the three y-coordinates and divide by 3 to get the centroid.",
+     "compute": "gy = (y1 + y2 + y3)/3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the centroid of the triangle whose vertices are (1, 2), (3, 4), and (5, 6).",
+     "solution": "gx = (1+3+5)/3 = 3; gy = (2+4+6)/3 = 4",
+     "answer": "(3, 4)"
+    },
+    {
+     "question": "Find the centroid of the triangle whose vertices are (2, -1), (0, 3), and (4, 5).",
+     "solution": "gx = (2+0+4)/3 = 2; gy = (-1+3+5)/3 = 7/3",
+     "answer": "(2, 7/3)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the centroid of the triangle whose vertices are (1, 2), (3, 4), and (5, 6).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the centroid of the triangle whose vertices are (2, -1), (0, 3), and (4, 5).",
+     "type": "compute"
+    },
+    {
+     "question": "Find the centroid of the triangle whose vertices are (0, 0), (6, 0), and (0, 9).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.9",
+   "title": "Type of Quadrilateral Using Coordinates",
+   "section": "7.2",
+   "definition": "The type of quadrilateral formed by four given points can be determined by computing the lengths of all sides and diagonals using the distance formula and comparing them.",
+   "formula": "Compare all side lengths d12, d23, d34, d41 and diagonal lengths d13, d24 to classify the quadrilateral",
+   "key_idea": "Equal opposite sides indicate a parallelogram; equal sides with equal diagonals indicate a rectangle; equal sides with unequal diagonals indicate a rhombus; equal sides with equal diagonals and right angles indicate a square.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the type of quadrilateral formed by the points {p1}, {p2}, {p3}, and {p4}",
+    "Determine whether the given four points form a square, rectangle, rhombus, or parallelogram",
+    "Identify the type of quadrilateral using the distance formula",
+    "What type of quadrilateral is formed by the four given points?",
+    "Classify the quadrilateral by computing side and diagonal lengths"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the lengths of all four sides using the distance formula",
+     "explain": "Calculate d12, d23, d34, and d41 using the distance formula between consecutive vertices."
+    },
+    {
+     "step": 2,
+     "action": "Compute the lengths of both diagonals",
+     "explain": "Calculate d13 and d24 using the distance formula between opposite vertices."
+    },
+    {
+     "step": 3,
+     "action": "Compare side and diagonal lengths to classify the quadrilateral",
+     "explain": "If all sides are equal and diagonals are equal, it is a square. If all sides are equal but diagonals are unequal, it is a rhombus. If opposite sides are equal and diagonals are equal, it is a rectangle. If opposite sides are equal but diagonals are unequal, it is a parallelogram."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the type of quadrilateral formed by the points (0, 0), (4, 0), (4, 3), and (0, 3).",
+     "solution": "Sides: d12 = 4, d23 = 3, d34 = 4, d41 = 3. Opposite sides are equal. Diagonals: d13 = 5, d24 = 5. Diagonals are equal. So it is a rectangle.",
+     "answer": "Rectangle"
+    },
+    {
+     "question": "Find the type of quadrilateral formed by the points (0, 0), (3, 0), (4, 3), and (1, 3).",
+     "solution": "Sides: d12 = 3, d23 = sqrt(10), d34 = 3, d41 = sqrt(10). Opposite sides are equal. Diagonals: d13 = 5, d24 = sqrt(2). Diagonals are unequal. So it is a parallelogram.",
+     "answer": "Parallelogram"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the type of quadrilateral formed by the points (0, 0), (4, 0), (4, 3), and (0, 3).",
+     "type": "verify_property"
+    },
+    {
+     "question": "Find the type of quadrilateral formed by the points (0, 0), (3, 0), (4, 3), and (1, 3).",
+     "type": "verify_property"
+    },
+    {
+     "question": "Find the type of quadrilateral formed by the points (1, 1), (4, 1), (4, 4), and (1, 4).",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "worked_examples": [],
+ "exercises": []
+}

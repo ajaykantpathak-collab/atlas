@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch1_5",
+   "title": "c8_civ_ch1_5",
+   "questions": [
+    {
+     "q": "What is the primary method used to determine the winner in Lok Sabha and State Legislative Assembly elections in India?",
+     "a": "The winner is determined by the First-Past-The-Post (FPTP) system, where the candidate who secures the highest number of votes in a particular constituency wins, even if they do not get an absolute majority of 50% plus one vote. A wrong answer shows confusion between proportional representation systems used in other countries and India's plurality system, indicating the student needs to review constituency-based voting mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution establish an independent body like the Election Commission of India rather than letting the ruling political party organize elections?",
+     "a": "An independent Election Commission prevents the ruling party from misusing government machinery or changing election rules to favor themselves, thereby guaranteeing free and fair elections. A wrong answer reveals the misconception that the government in power controls election operations, missing the core democratic principle of institutional separation and neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "If a citizen moves from Mumbai to Chennai for work just two weeks before the general elections, can they cast their vote in Chennai using their old voter ID card from Mumbai?",
+     "a": "No, the citizen cannot vote in Chennai unless their name is registered in the electoral roll of their new local constituency in Chennai, as voting rights are tied to a specific territorial constituency where one is legally registered. A wrong answer indicates a misunderstanding of how voter registration and territorial constituencies operate in India's electoral system.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how dividing a large country like India into territorial constituencies affects the accountability of elected representatives.",
+     "a": "Dividing the country into distinct geographical constituencies ensures that every specific region and its population have a designated Member of Parliament or Legislative Assembly to voice their local concerns in the legislature. A wrong answer suggests the student thinks national leaders are elected in a single nationwide pool without local accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a First-Past-The-Post system, a candidate who receives only 35% of the total votes cast can still win the seat.\" Is this valid under India's electoral system?",
+     "a": "This statement is entirely valid; under FPTP, a candidate wins simply by securing more votes than any single opponent, regardless of whether total votes for them equal a majority of ballots cast. A wrong answer reveals a confusion between plurality (most votes among candidates) and absolute majority (more than half of all votes cast).",
+     "self_check": true
+    },
+    {
+     "q": "Design a short two-step procedure that a newly turned 18-year-old student must follow to participate in the upcoming state assembly elections.",
+     "a": "The student must first verify their age and residency eligibility under Article 326, and second, fill out Form 6 with the local Booth Level Officer or online via the National Voters' Service Portal to get their name included in the electoral roll. A poor answer fails to connect the right to vote with the mandatory administrative registration process required to actually cast a ballot.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_004",
+   "title": "c11_chem_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the formula for calculating the formal charge on an atom in a Lewis structure and define each term in the formula.",
+     "a": "Formal Charge (FC) = (valence electrons in free atom) – (non-bonding/lone-pair electrons) – ½(bonding/shared electrons). Valence electrons = group number for main-group elements. Non-bonding electrons = electrons in lone pairs on that atom in the Lewis structure. Bonding electrons = total electrons in bonds to that atom (each single bond = 2, double = 4, triple = 6). A wrong answer (e.g., forgetting the ½ factor or counting bonds instead of bonding electrons) reveals the student does not understand that each shared pair is split equally between the two bonded atoms.",
+     "self_check": true
+    },
+    {
+     "q": "In the Lewis structure of the nitrite ion (NO₂⁻) with a N=O double bond and a N–O single bond (and a lone pair on N), the formal charge on the doubly bonded O is 0, on the singly bonded O is –1, and on N is 0. Explain why the formal charge on the singly bonded oxygen is –1 even though oxygen is more electronegative than nitrogen.",
+     "a": "Formal charge assumes pure covalent sharing (electrons split equally), so it does not account for electronegativity differences. The singly bonded O has 6 valence electrons – 6 lone-pair electrons – ½(2 bonding electrons) = –1. The negative formal charge arises because that oxygen “owns” more electrons in the Lewis structure than a neutral O atom. A wrong answer (e.g., “electronegativity makes it negative”) confuses formal charge with partial charge/oxidation state and shows the student thinks formal charge reflects actual electron density.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the formal charge on each atom in the thiocyanate ion (SCN⁻) for the Lewis structure :S≡C–N:⁻ (with a lone pair on C and a lone pair on N, and a negative charge on the ion). Show your working.",
+     "a": "Valence electrons: S=6, C=4, N=5.  \nS: lone pairs = 2 electrons (one lone pair), bonding = 6 (triple bond) → FC = 6 – 2 – ½(6) = 6 – 2 – 3 = +1.  \nC: lone pairs = 2, bonding = 8 (triple + single) → FC = 4 – 2 – ½(8) = 4 – 2 – 4 = –2.  \nN: lone pairs = 6 (three lone pairs), bonding = 2 (single bond) → FC = 5 – 6 – ½(2) = 5 – 6 – 1 = –2.  \nSum = +1 –2 –2 = –3, but ion charge is –1 → this structure is unlikely. A correct calculation for the major contributor :S=C=N:⁻ gives FC(S)=0, FC(C)=0, FC(N)=–1. An error in counting bonding electrons (e.g., using bond order instead of electron count) or forgetting the ½ factor leads to wrong charges and inability to judge stability.",
+     "self_check": true
+    },
+    {
+     "q": "Two possible Lewis structures for fulminate ion (CNO⁻) are :C≡N–O:⁻ and :C=N=O:⁻ (with appropriate lone pairs). Using formal charge, determine which structure is the major contributor to the resonance hybrid. Justify your answer.",
+     "a": "For :C≡N–O:⁻: C (valence 4) has 2 lone-pair e⁻ + 6 bonding e⁻ → FC = 4 – 2 – 3 = –1. N (5) has 0 lone-pair + 8 bonding → FC = 5 – 0 – 4 = +1. O (6) has 6 lone-pair + 2 bonding → FC = 6 – 6 – 1 = –1. Sum = –1.  \nFor :C=N=O:⁻: C has 2 lone-pair + 6 bonding → FC = 4 – 2 – 3 = –1. N has 2 lone-pair + 6 bonding → FC = 5 – 2 – 3 = 0. O has 4 lone-pair + 4 bonding → FC = 6 – 4 – 2 = 0. Sum = –1.  \nThe second structure has smaller formal charges (–1, 0, 0) and places the negative charge on carbon (less electronegative than O) but overall lower charge separation. Actually, the first structure has charges –1, +1, –1 (larger magnitude). The second is more stable. A student who only minimises the number of non-zero formal charges might incorrectly pick the first; the correct analysis considers both magnitude and electronegativity.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the Lewis structure of CO₂ as O=C=O and calculates formal charges: O = 6 – 4 – ½(4) = 0, C = 4 – 0 – ½(8) = 0. They conclude that because all formal charges are zero, this is the only valid Lewis structure and no resonance exists. Evaluate this reasoning.",
+     "a": "The reasoning is flawed. Zero formal charges indicate a very stable Lewis structure, but resonance can still occur if there are alternative structures with the same atomic arrangement and similar energy. For CO₂, the structure O≡C–O⁻ (with charges +1 on C, –1 on one O) is a minor contributor because it has non-zero formal charges. The major contributor is indeed O=C=O, but resonance hybrid includes minor contributors that explain properties like bond length (116 pm, between double and triple). The student’s error is equating “zero formal charge” with “no resonance possible.” Resonance exists whenever multiple valid Lewis structures can be drawn; formal charge helps rank them, not eliminate resonance entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Lewis structure for the hypothetical molecule X₃ (linear, central atom X) that obeys the octet rule and has formal charges of +1 on the central atom and –1 on each terminal atom. State the required number of valence electrons for atom X and draw the structure with lone pairs.",
+     "a": "Let X have V valence electrons. Central X: bonded to two terminal X atoms. To have FC = +1: V – lone-pair e⁻ – ½(bonding e⁻) = +1. Terminal X: FC = –1 = V – lone-pair e⁻ – ½(bonding e⁻). With single bonds (2 bonding e⁻ each) and octets: terminal X each have 3 lone pairs (6 e⁻) → FC = V – 6 – 1 = –1 → V = 6. Central X: two single bonds (4 bonding e⁻) and 1 lone pair (2 e⁻) → FC = 6 – 2 – 2 = +2 (not +1). Try double bonds: each terminal X double bonded (4 bonding e⁻) and 2 lone pairs (4 e⁻) → FC = 6 – 4 – 2 = 0. Not –1. Try central X with one single and one double bond? Not symmetric. The only symmetric linear X₃ with FC +1 central and –1 terminals is if X has 5 valence electrons (like N). Then central N: two double bonds (8 bonding e⁻), 0 lone pairs → FC = 5 – 0 – 4 = +1. Terminal N: one double bond (4 bonding e⁻), 2 lone pairs (4 e⁻) → FC = 5 – 4 – 2 = –1. Structure: :N=N=N: with charges +1 on central, –1 on each terminal. Total valence electrons = 5×3 + 1 (for –1 charge?) Wait, ion charge? The problem says molecule X₃, neutral. Sum of FC = +1 –1 –1 = –1, so it must be an ion X₃⁻. A good answer identifies the valence electron count and draws the structure with correct lone pairs and charges. A poor answer ignores the sum-of-charges constraint or miscounts electrons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

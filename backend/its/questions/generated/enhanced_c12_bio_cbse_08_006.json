@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_006",
+   "title": "c12_bio_cbse_08_006",
+   "questions": [
+    {
+     "q": "Name the two viral glycoproteins on the HIV envelope and state the specific host cell receptor and co-receptor each binds to during viral entry.",
+     "a": "Correct answer: gp120 binds to CD4 receptor on helper T cells; gp41 mediates fusion after gp120 binds to co-receptor CCR5 (on macrophages, early infection) or CXCR4 (on T cells, late infection). A wrong answer (e.g., \"gp120 binds to CCR5 directly\" or \"gp41 binds CD4\") reveals confusion between receptor binding (gp120-CD4) and co-receptor binding (gp120-CCR5/CXCR4) versus fusion execution (gp41). Students often conflate the roles because both glycoproteins are on the envelope.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why reverse transcriptase has high error rate and how this property contributes to HIV's ability to evade both host immunity and antiretroviral drugs.",
+     "a": "Correct answer: Reverse transcriptase lacks 3'→5' exonuclease proofreading activity (unlike host DNA polymerases), resulting in error rate ~10⁻⁴ to 10⁻⁵ per base per replication cycle. This generates massive genetic diversity (quasispecies) within a single patient, allowing rapid selection of immune escape mutants (CTL epitope mutations) and drug-resistant variants (e.g., M184V mutation conferring lamivudine resistance). A wrong answer attributing high mutation rate to \"RNA being unstable\" or \"host cell enzymes making errors\" reveals fundamental misunderstanding that the viral enzyme itself is error-prone, not the nucleic acid or host machinery.",
+     "self_check": true
+    },
+    {
+     "q": "A patient on antiretroviral therapy shows viral load rebound. Genotypic resistance testing reveals a mutation in the protease gene (D30N). At which specific stage of the HIV replication cycle does this mutation exert its effect, and what is the immediate biochemical consequence for viral particle production?",
+     "a": "Correct answer: The mutation acts at the MATURATION stage (after budding). Protease normally cleaves the Gag-Pol polyprotein into functional proteins (matrix, capsid, nucleocapsid, reverse transcriptase, integrase, protease). D30N mutation reduces protease inhibitor binding affinity → protease remains active despite drug → polyproteins are cleaved → infectious mature virions are produced. A wrong answer placing the effect at \"assembly\" or \"budding\" or stating \"protease makes RNA\" reveals confusion between the timing of protease action (post-budding maturation) versus assembly (Gag polyprotein multimerization at membrane) and confusion between protease function (protein cleavage) and reverse transcriptase function (RNA→DNA).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the integration step of HIV replication with the lysogenic cycle of bacteriophage lambda. Identify two similarities and two differences in mechanism and consequence.",
+     "a": "Correct answer: Similarities: (1) Both involve viral DNA integration into host chromosome (provirus/prophage); (2) Both use a viral-encoded integrase/recombinase enzyme. Differences: (1) HIV integrates randomly in active transcription units (LEDGF/p75 tethering), lambda integrates at specific attB site; (2) HIV integration is irreversible and obligatory for replication, lambda integration is reversible (lysis-lysogeny decision) and not required for lytic replication. A wrong answer stating \"both integrate at specific sites\" or \"both can excise spontaneously\" reveals confusion between retroviral integration (random, permanent) and temperate phage lysogeny (site-specific, reversible).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"HIV kills CD4+ T cells primarily by direct viral cytopathic effect during active replication.\" Is this fully correct, partially correct, or incorrect? Justify with two mechanisms of CD4+ T cell depletion.",
+     "a": "Correct answer: Partially correct. Direct cytopathic effect (syncytia formation, membrane disruption, apoptosis of infected cells) contributes, but MAJOR mechanisms are: (1) Immune activation-driven apoptosis of bystander uninfected CD4+ T cells (chronic immune activation from microbial translocation across damaged gut mucosa); (2) Thymic dysfunction and impaired homeostatic proliferation reducing naive T cell output. A wrong answer claiming \"only direct killing\" or \"only bystander apoptosis\" reveals oversimplification — both mechanisms operate simultaneously, with bystander apoptosis accounting for >90% of CD4+ loss in chronic infection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment to determine whether a newly discovered compound X inhibits HIV integrase or HIV protease. Specify the assay system, controls, readout, and how you would distinguish between the two mechanisms.",
+     "a": "Expected answer: Use cell-free biochemical assays with purified enzymes. Assay 1: Integrase assay — incubate purified HIV integrase with viral DNA ends (U3/U5) and target DNA plasmid ± compound X; measure integrated product by qPCR or gel electrophoresis. Assay 2: Protease assay — incubate purified HIV protease with fluorescent Gag-Pol peptide substrate ± compound X; measure fluorescence increase from cleavage. Controls: DMSO vehicle, known integrase inhibitor (raltegravir), known protease inhibitor (darunavir). If X inhibits integrase assay but not protease assay → integrase inhibitor; vice versa. A poor answer using only cell-based infection assay without biochemical separation cannot distinguish mechanism because both inhibitors reduce viral replication downstream.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

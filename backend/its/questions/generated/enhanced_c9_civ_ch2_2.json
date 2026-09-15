@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_2",
+   "title": "c9_civ_ch2_2",
+   "questions": [
+    {
+     "q": "Under which constitutional article is the Election Commission of India established, and what are the three specific election domains it controls?",
+     "a": "Article 324 establishes ECI. It controls elections to: (1) Parliament (Lok Sabha + Rajya Sabha), (2) State Legislatures (Vidhan Sabha + Vidhan Parishad), and (3) Offices of President and Vice-President. A wrong answer (e.g., \"Article 326\" or \"only Lok Sabha elections\") reveals confusion between the franchise article (326) and the election management article (324), or ignorance of ECI's scope beyond general elections.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide security of tenure and fixed conditions of service for the Chief Election Commissioner (CEC), but not explicitly for the other two Election Commissioners?",
+     "a": "The CEC can only be removed like a Supreme Court judge (by Parliament via impeachment), insulating them from executive pressure. The other two Commissioners lack identical constitutional protection — they can be removed by the President on the CEC's recommendation. This asymmetry creates a hierarchy where the CEC leads but the Commission decides by majority. A wrong answer (e.g., \"all three have equal protection\") misses the structural vulnerability of the two Commissioners and the 2023 Supreme Court ruling (Anoop Baranwal case) that demanded parity.",
+     "self_check": true
+    },
+    {
+     "q": "During a state assembly election, the ruling party's Chief Minister announces a new welfare scheme two days before polling. The ECI issues a notice citing Model Code of Conduct violation. The CM argues the scheme was approved months earlier and only announced now. How should ECI decide?",
+     "a": "ECI should rule it a violation. The Model Code prohibits announcements of new schemes/projects that may influence voters **after the election schedule is announced**, regardless of prior approval. The timing of the announcement — not the approval — is the trigger. A wrong answer (e.g., \"no violation since approved earlier\") shows misunderstanding that MCC regulates **electoral fairness during the campaign period**, not policy legality. ECI's power here derives from Article 324's \"superintendence, direction, and control\" — a broad constitutional mandate, not a specific statute.",
+     "self_check": true
+    },
+    {
+     "q": "Compare ECI's power to disqualify a candidate for corrupt practices (under Representation of People Act, 1951) with its power to derecognize a political party. Which power is constitutional and which is statutory? Why does this distinction matter?",
+     "a": "Disqualification of candidates (Section 8A, RPA 1951) is **statutory** — Parliament can amend it. Derecognition of parties (Paragraph 16A, Election Symbols Order 1968) is also **statutory/executive order-based**. Neither is directly constitutional; both flow from Article 324's enabling mandate. The distinction matters because statutory powers can be diluted by legislative amendment, while constitutional powers (like conducting elections) cannot. A wrong answer (e.g., \"both are constitutional\") reveals failure to distinguish the Constitution's framework from laws made under it.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Since the Executive appoints Election Commissioners, ECI can never be truly independent. The collegium system (PM + LoP + CJI) for appointments, mandated by the 2023 Supreme Court judgment, solves this.\" Is this evaluation sound?",
+     "a": "The argument is **partially sound but incomplete**. The collegium (PM, Leader of Opposition, CJI) for CEC/EC appointments (Anoop Baranwal v. Union of India, 2023) reduces executive dominance, but: (1) The LoP may not exist (no party with 10% seats), (2) CJI's inclusion mixes judicial function with executive appointment, (3) Post-appointment independence depends on **tenure security and financial autonomy**, not just appointment method. A weak evaluation treats appointment reform as a complete fix, ignoring structural dependencies like budget control by Law Ministry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-paragraph constitutional amendment proposal to strengthen ECI's independence. Your proposal must address: (a) appointment process, (b) tenure protection for all three Commissioners, (c) financial autonomy. Use Article 324 as the base.",
+     "a": "**Proposal:** \"Amend Article 324 to establish a permanent, independent Election Commission Secretariat with its budget charged on the Consolidated Fund of India (not voted by Parliament). Mandate a collegium of PM, LoP, CJI, and two senior-most Supreme Court judges for appointing all three Commissioners. Grant all three Commissioners identical removal protection (impeachment by 2/3 Parliament majority) and fixed 6-year terms or age 65, whichever earlier.\" A poor proposal misses any of the three pillars, copies existing law without constitutional entrenchment, or creates new politicized bodies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

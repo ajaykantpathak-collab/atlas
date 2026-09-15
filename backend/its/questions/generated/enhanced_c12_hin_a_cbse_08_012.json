@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_08_012",
+   "title": "c12_hin_a_cbse_08_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"कबीर के गुरु का नाम क्या था?\"), while an inferential question requires the reader to deduce meaning not explicitly written (e.g., \"कबीर की वाणी में सामाजिक समरसता का भाव कैसे व्यक्त होता है?\"). A wrong answer that says \"both need reading the text\" misses the crucial distinction: literal = retrieval, inferential = reasoning with evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the first pada of Kabir in this chapter, the line \"जगत मिथ्या, ब्रह्म सत्य\" appears. A student answers the inferential question \"कबीर संसार को क्षणभंगुर क्यों मानते हैं?\" by quoting this line. Is this a complete inferential answer? Why or why not?",
+     "a": "No, quoting the line is only the *evidence* step. An inferential answer must also *explain* how that evidence supports the inference: the line states the world is illusory (मिथ्या) and only Brahman is eternal, implying the world's transient nature. The student must connect \"मिथ्या\" to \"क्षणभंगुर\" and link it to Kabir's philosophy. A wrong answer that stops at the quote shows confusion between evidence and explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the second pada: \"मन न रंगाए, रंगाए जोगी कपड़ा\" (The mind is not dyed, only the yogi's robe is dyed). Answer the literal question: \"जोगी क्या रंगाता है?\" and the inferential question: \"कबीर बाह्य आडंबर पर क्यों प्रहार करते हैं?\" Show your PEEL structure for the inferential answer.",
+     "a": "Literal: जोगी अपना कपड़ा रंगाता है। Inferential PEEL: Point — कबीर बाह्य आडंबर को निरर्थक मानते हैं। Evidence — \"मन न रंगाए, रंगाए जोगी कपड़ा\"। Explanation — केवल वस्त्र रंगने से मन शुद्ध नहीं होता; वास्तविक साधना आंतरिक है। Link — यह कबीर के निर्गुण भक्ति और आंतरिक पवित्रता के सिद्धांत को दर्शाता है। A wrong answer that gives only the point without evidence shows inability to structure inferential responses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two questions: (A) \"कबीर की भाषा में कौन-कौन सी बोलियों का मिश्रण है?\" (B) \"कबीर की भाषा जनमानस की भाषा क्यों कही जाती है?\" Identify which is literal and which is inferential, and explain the different cognitive demands.",
+     "a": "(A) is literal — it asks for a list of dialects (खड़ी बोली, ब्रज, अवधी, आदि) directly mentioned in the introductory text. (B) is inferential — it requires analyzing *why* the mixture makes it accessible: simple vocabulary, everyday metaphors, oral rhythm. The cognitive demand shifts from retrieval (A) to synthesis of textual features with sociolinguistic context (B). A wrong answer that treats both as factual recall fails to recognize the analytical leap in (B).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"कबीर की 'उलटबांसी' शैली का उद्देश्य क्या है?\": \"कबीर उलटबांसी इसलिए लिखते हैं ताकि लोग चकरा जाएँ और सोचने पर मजबूर हों।\" Evaluate this answer. Is it sufficient for a 3-mark board question? What would you add?",
+     "a": "The answer is partially correct but incomplete for 3 marks. It identifies the effect (confusion → thought) but misses the *purpose*: to shatter conventional thinking, reveal paradoxical truths (e.g., \"मछली जल में प्यासी\"), and awaken spiritual insight. A full answer needs: (1) definition of उलटबांसी, (2) example from the poem, (3) explanation of how it disrupts assumptions, (4) link to Kabir's non-dual philosophy. The student's answer shows surface-level understanding — a common board-exam trap where students confuse *effect* with *purpose*.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the third pada (\"कबीर दास की वाणी में...\") that requires connecting imagery to theme. Provide the question and a model PEEL answer.",
+     "a": "Question: \"तीसरे पद में 'आगि लगाई जल में' बिंब के माध्यम से कबीर कौन-सा आध्यात्मिक सत्य व्यक्त करते हैं?\" Model PEEL: Point — आत्मा की परमात्मा में विलीनता की तीव्र आकांक्षा। Evidence — \"आगि लगाई जल में, जल बुझाई आगि\"। Explanation — जल (आत्मा) में आग (प्रेम/विरह) लगना असंभव लगता है, पर भक्ति में यह संभव है; यह विरोधाभास उलटबांसी है। Link — यह निर्गुण भक्ति के 'असंभव को संभव बनाने' वाले रहस्य को दर्शाता है। A poor question would be literal (\"तीसरे पद में कौन-सा बिंब है?\") showing inability to design inferential tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

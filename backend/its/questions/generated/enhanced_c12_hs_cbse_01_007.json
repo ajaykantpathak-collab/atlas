@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_01_007",
+   "title": "c12_hs_cbse_01_007",
+   "questions": [
+    {
+     "q": "Define SWOT Analysis in the context of career planning and name its four components.",
+     "a": "SWOT Analysis is a self-assessment tool where an individual evaluates internal Strengths and Weaknesses and external Opportunities and Threats to make informed career choices. The four components are Strengths, Weaknesses, Opportunities, Threats. A wrong answer (e.g., listing “hobbies” as a component or confusing Weaknesses with Threats) reveals the student cannot distinguish internal vs. external factors or misunderstands the purpose of each quadrant.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes “I am bad at maths” under Threats. Explain why this is incorrect and where it belongs.",
+     "a": "“I am bad at maths” is an internal attribute — a skill gap — so it belongs under **Weaknesses**. Threats are external factors like “high competition in engineering” or “automation of routine coding jobs”. Placing it under Threats shows the student conflates personal limitations with environmental challenges, leading to misdirected career strategies (e.g., blaming the market instead of upskilling).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following entries, classify each into the correct SWOT quadrant: (a) “Strong communication skills”, (b) “New B.Sc. Data Science programme at a nearby university”, (c) “Family expects me to join the family business”, (d) “Procrastination habit”.",
+     "a": "(a) Strength (internal positive), (b) Opportunity (external positive), (c) Threat (external negative — pressure limiting choice), (d) Weakness (internal negative). Misclassification indicates the student cannot reliably separate internal/external or positive/negative dimensions, which undermines the entire analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two students: Student A has strengths in empathy and biology, weaknesses in physics, opportunities in nursing and paramedical courses, threats in NEET competition. Student B has strengths in coding and logic, weaknesses in public speaking, opportunities in AI/ML certifications, threats in rapid tech obsolescence. Which student’s SWOT suggests a clearer “strength–opportunity” match? Justify.",
+     "a": "Student A shows a clearer match: empathy + biology directly align with nursing/paramedical roles (high compatibility). Student B’s coding strength matches AI/ML, but the threat of rapid obsolescence and weakness in public speaking (needed for team-based tech roles) create more friction. A wrong judgment (e.g., picking B because “tech is hot”) ignores the interplay of weaknesses and threats, a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this SWOT entry: “Opportunity: I can become a doctor because my parents will pay for coaching.” Identify the flaw and rewrite it correctly.",
+     "a": "The flaw: “parents will pay for coaching” is a **resource/enabler**, not an Opportunity. Opportunities are external favourable conditions in the environment (e.g., “new AIIMS campus opening in my state”, “scholarship for rural students”). A correct rewrite: “Opportunity: State government has launched free NEET coaching for girls; Threat: High NEET cut-off for general category.” The error shows the student mistakes personal support systems for environmental scanning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-SWOT (2 items per quadrant) for a Class 12 student who wants to pursue **sustainable fashion design** but lives in a tier-3 city with no design colleges nearby. Use specific, realistic entries.",
+     "a": "**Strengths**: (1) Sketching and upcycling old clothes, (2) Strong environmental values. **Weaknesses**: (1) No formal portfolio, (2) Limited knowledge of textile technology. **Opportunities**: (1) Online certificate courses (NIFT/CEED prep), (2) Growing e‑market for sustainable brands. **Threats**: (1) Family pressure for “stable” government job, (2) Poor local internship access. A poor answer lists generic items like “hardworking” or “money” without tying to the specific career context, showing lack of applied analytical thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

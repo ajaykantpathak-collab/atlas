@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_003",
+   "title": "c11_geo_cbse_24_003",
+   "questions": [
+    {
+     "q": "What is the relationship between contour line spacing and slope steepness on a topographical map?",
+     "a": "Closely spaced contour lines indicate a steep slope, while widely spaced contour lines indicate a gentle slope. A wrong answer (e.g., saying wide spacing means steep) reveals the student has not grasped the inverse relationship between horizontal equivalent and gradient.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a concave slope show contour lines that are closely spaced at the top and widely spaced at the bottom?",
+     "a": "A concave slope is steeper at the top and gentler at the bottom; since steepness is shown by close contour spacing, the top has closely spaced contours and the bottom has widely spaced contours. A wrong answer (e.g., reversing the pattern) indicates confusion between concave and convex slope profiles.",
+     "self_check": true
+    },
+    {
+     "q": "On a 1:50,000 topographical map with a contour interval of 20 m, you measure the horizontal distance between two adjacent contours on a slope as 2 mm on the map. Calculate the average gradient of that slope in degrees (use tan θ = vertical interval / horizontal equivalent). Is the slope gentle or steep?",
+     "a": "Horizontal equivalent = 2 mm × 50,000 = 100,000 mm = 100 m. Vertical interval = 20 m. tan θ = 20/100 = 0.2 → θ ≈ 11.3°. Since gradient < 15°, it is a gentle slope. A wrong calculation (e.g., forgetting to convert map distance to ground distance) reveals inability to apply scale and contour interval together.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the slope patterns on the windward and leeward sides of a hill in the Western Ghats as shown on a topographical map. How would the contour spacing differ and what does it indicate about erosion processes?",
+     "a": "The windward side (facing rain-bearing winds) typically shows steeper, more closely spaced contours due to higher erosion, while the leeward side shows gentler, widely spaced contours. A student who cannot differentiate sides or link to erosion reveals a lack of analytical connection between physical processes and map representation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that on a topographical map, a convex slope is always steeper than a concave slope. Evaluate this statement with reference to contour patterns.",
+     "a": "The statement is false. Convex and concave refer to the shape of the slope profile, not absolute steepness. A convex slope can be gentle overall (widely spaced contours at top, closely spaced at bottom) while a concave slope can be steep overall (closely spaced at top, widely spaced at bottom). The claim confuses slope shape with slope gradient. A wrong evaluation shows inability to distinguish between gradient and profile curvature.",
+     "self_check": true
+    },
+    {
+     "q": "Sketch a cross-section profile from a given contour map segment (contours at 100m, 120m, 140m, 160m, 180m with increasing spacing from top to bottom) and annotate it to show the slope type. Propose a suitable land use for this slope in the context of Indian agriculture.",
+     "a": "The increasing spacing from top to bottom indicates a convex slope. Suitable land use: terraced farming or plantation crops (tea, coffee) on the upper gentle part, with soil conservation measures on the steeper lower part. A poor answer would misidentify the slope type or suggest inappropriate land use (e.g., intensive cultivation on steep lower slopes without conservation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

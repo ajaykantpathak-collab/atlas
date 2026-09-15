@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_15_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_15_012",
+   "title": "c11_hin_ar_cbse_15_012",
+   "questions": [
+    {
+     "q": "What is the definition of a literal comprehension question in the context of Hindi poetry analysis?",
+     "a": "A literal comprehension question asks for information explicitly stated in the poem's text, requiring no interpretation beyond the written words (e.g., \"List the three things the poet says are NOT the smallest\"). A wrong answer like \"It's about understanding the deep meaning\" reveals the student confuses literal with inferential comprehension, leading to over-interpretation of direct factual questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"lcls [krjukd gksrk gS eqnkZ 'kkafr ls Hkj tkuk\" appears. Is the question \"Why does the poet compare the smallest thing to a bird that doesn't fly away?\" literal or inferential? Explain your reasoning.",
+     "a": "This is an inferential question because the poem never explicitly states the *reason* for the comparison; the student must infer the symbolic connection between the bird's helplessness and the common man's trapped existence using the imagery of \"ohjku gq, vk¡xuksa\" and \"ejfl;k\". A wrong classification as \"literal\" reveals the student believes any question about the poem's content is literal, missing that \"why\" demands reasoning beyond textual retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "Given the question: \"Stanza 3 mentions 'vkiosQ ftLe osQ iwjc esa pqHk tk,'. Identify the literal subject being described and the inferential meaning of 'pqHk tk,' in the context of the 1984 riots.\"",
+     "a": "Step 1: Literal subject = \"vkRek\" (the individual/person) from line \"vkRek dk lwjt Mwc tk,\". Step 2: Literal action = \"pqHk tk,\" (falls/goes into). Step 3: Inferential meaning = The crushing of human dignity/voice into the \"fwjc\" (darkness/abyss) of communal violence, where justice (\"ftLe\") is buried. A wrong answer describing only the physical falling reveals inability to connect the verb \"pqHk\" to the historical metaphor of systemic erasure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal imagery of \"cSBs&fcBk, idM+s tkuk\" (Stanza 1) with the inferential imagery of \"lcls [krjukd og pk¡n gksrk gS tks gj gR;kdkaM osQ ckn... vkidh vk¡[kksa dks fepks± dh rjg ugha xM+rk gS\" (Stanza 3). How does the shift from abstract negation to concrete sensory detail change the reader's comprehension of \"smallest\"?",
+     "a": "The literal negation (\"cSBs&fcBk, idM+s tkuk\") defines \"smallest\" by exclusion (intellectual understanding), while the inferential sensory detail (\"vk¡[kksa dks fepks± dh rjg ugha xM+rk\") forces visceral embodiment (experiential understanding). The shift moves comprehension from cognitive agreement to empathetic horror – the reader *feels* the weight on their own eyes. A wrong answer listing only the images without analyzing the *shift in reader position* misses the pedagogical purpose of the poem's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to \"Why is the dead body's silence the smallest thing?\": \"Because the poet says 'vkRek dk lwjt Mwc tk,' so the dead person has no voice left.\" Is this a sufficient inferential answer for Class 11 board standards? Justify.",
+     "a": "No, it is insufficient. The answer only paraphrases the literal line (\"lwjt Mwc tk\") without inferring the *socio-political implication*: that the silence represents the state's erasure of minority voices during the 1984 riots, where \"ftLe osQ iwjc\" (justice's darkness) swallows testimony. Board-level inferential answers require: (1) Textual anchor, (2) Historical context linkage, (3) Thematic generalization. This answer stops at step 1.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for this poem that requires connecting the \"pakshi\" (bird) imagery in Stanza 4 with the \"nqgjko\" (helpless person) in Stanza 3, and explain what a model answer must include.",
+     "a": "Question: \"The bird that 'does not fly away like a petal' (Stanza 4) and the 'helpless person in the jaws of death' (Stanza 3) – what shared condition of the common citizen do they jointly reveal?\" Model answer must include: (1) Both images depict *forced passivity* – neither chooses to stay; (2) The bird's \"p<+rk gS\" (trembles) mirrors the person's \"Hkwy tkrh\" (shaking voice); (3) Both symbolize the citizen stripped of agency by state violence (\"xaqMs dh rjg vdM+rk\" / \"ph\"kksa ls mBrh vaèksiu\"). A poor answer would describe the bird and person separately without synthesizing the shared political metaphor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

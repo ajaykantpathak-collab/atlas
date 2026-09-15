@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_009",
+   "title": "c7_math_ch07_009",
+   "questions": [
+    {
+     "q": "What geometric tool is primarily used to measure and transfer an exact side length of a triangle from your ruler onto your construction paper when doing an SSS construction?",
+     "a": "The correct answer is a pair of compasses. A wrong answer like \"a protractor\" reveals a confusion between measuring angles and measuring/transferring linear side lengths, while an answer like \"a set square\" shows a lack of familiarity with standard geometric construction tools.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given three side lengths of 3 cm, 4 cm, and 8 cm, why is it impossible to construct a triangle using these lengths, even if you use a sharp pencil and precise compasses?",
+     "a": "The correct answer is that it violates the Triangle Inequality Property, because the sum of the two shorter sides (3 cm + 4 cm = 7 cm) is less than the third side (8 cm), meaning the arcs drawn from the endpoints will never meet. A wrong answer like \"the lines are too short\" or \"you need a protractor\" shows a failure to understand that side lengths must satisfy the fundamental inequality condition before any construction can take place.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a triangle $\\triangle PQR$ where side $PQ = 6\\text{ cm}$, side $QR = 5\\text{ cm}$, and side $RP = 4\\text{ cm}$. What is the radius of the compass arc drawn from point $P$ to locate vertex $R$?",
+     "a": "The correct answer is 4 cm. Working steps: 1) Identify the side lengths: $PQ = 6\\text{ cm}$ (base), $QR = 5\\text{ cm}$, and $RP = 4\\text{ cm}$. 2) Draw the base line segment $PQ$ of length 6 cm using a ruler. 3) To find vertex $R$, we need its distance from $P$ and $Q$. The distance from $P$ to $R$ is given as side $RP = 4\\text{ cm}$. 4) Therefore, set the compass width to 4 cm using the ruler, place the metal pointer at $P$, and draw an arc above line $PQ$. A wrong answer like 5 cm or 6 cm shows that the student confused which compass radius belongs to which vertex pair ($RP$ vs $QR$).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"If two different students construct a triangle with side lengths 5 cm, 7 cm, and 9 cm using the SSS method, their triangles may look different in size or shape depending on how they rotated their paper.\" Is this statement correct or incorrect, and why?",
+     "a": "The statement is incorrect. According to the Side-Side-Side (SSS) congruence criterion, all triangles constructed with the exact same three side lengths are congruent, meaning they are identical in shape and size; any apparent difference is only due to rotation or reflection on the page, not a change in the triangle's actual geometry. A wrong answer agreeing with the statement reveals a misunderstanding of geometric uniqueness and congruence.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to construct $\\triangle ABC$ with $AB = 7\\text{ cm}$, $BC = 4\\text{ cm}$, and $AC = 2\\text{ cm}$. The student draws base $AB = 7\\text{ cm}$, opens the compass to 4 cm from point $B$, and opens the compass to 2 cm from point $A$, but the arcs fail to intersect. Evaluate why this failure occurred.",
+     "a": "The failure occurred because the student did not check the triangle inequality before starting: $AC + BC = 2 + 4 = 6\\text{ cm}$, which is less than $AB = 7\\text{ cm}$. Because the sum of the two smaller sides is less than the longest side, the distance between the two arcs is too small to bridge the gap, making intersection impossible. A wrong answer blaming \"a broken compass\" or \"not pressing hard enough\" indicates a failure to connect algebraic side inequalities with physical geometric limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of three integer side lengths that can form a triangle where one side is exactly 10 cm, and explain the exact compass steps you would take to construct it on your notebook.",
+     "a": "An acceptable answer would choose two sides whose sum is strictly greater than 10 cm, such as 7 cm and 6 cm (since $7 + 6 = 13 > 10$). The construction steps: 1) Draw a baseline segment $AB = 10\\text{ cm}$ using a ruler. 2) Open the compass to 7 cm, place the pointer at $A$, and draw an arc above the baseline. 3) Open the compass to 6 cm, place the pointer at $B$, and draw an intersecting arc to mark vertex $C$. 4) Join $AC$ and $BC$ with straight line segments. A poor answer would choose sides like 4 cm and 5 cm ($4+5=9 < 10$), which cannot form a triangle, showing a failure to apply the triangle inequality rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

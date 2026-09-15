@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 1,
+ "chapter_title": "Exploring the Investigative World of Science",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.101.1.1",
+   "title": "Science Begins with Wonder and Questions",
+   "section": "1",
+   "definition": "Science grows out of curiosity about ordinary things - the Grade 6 'Why' and 'How' questions mature in Grade 8 into sharper, focused questions that can actually be tested, from why dough rises to whether the world is getting warmer.",
+   "formula": "-",
+   "key_idea": "A focused question is the starting point of every scientific investigation.",
+   "textbook_ref": "hecu101.txt lines 20-60 (wonder, evolution of ideas, focused questions)",
+   "question_patterns": [
+    "how does science begin according to the chapter",
+    "what makes a question suitable for investigation",
+    "give two everyday puzzles that science can investigate",
+    "why are focused questions better than simple ones in Grade 8",
+    "how did the idea of science evolve from Grade 6 to Grade 8",
+    "write a focused question about something you observe daily"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start from wonder",
+     "explain": "Curiosity about the world raises the first questions."},
+    {"step": 2, "action": "sharpen the question",
+     "explain": "A broad wonder is narrowed until it can guide observation and experiment."},
+    {"step": 3, "action": "plan the test",
+     "explain": "A good question suggests ways to collect evidence."}
+   ]
+  },
+  {
+   "id": "hecu.101.1.2",
+   "title": "The Process of Investigation",
+   "section": "1",
+   "definition": "Investigation in science runs step by step: ask a focused question, observe carefully, design and run a simple experiment, then explain clearly what the observations show, using them to improve understanding.",
+   "formula": "-",
+   "key_idea": "Question, observe, experiment, explain - then repeat with sharper understanding.",
+   "textbook_ref": "hecu101.txt lines 40-70 (observe carefully, experiment thoughtfully, explain clearly)",
+   "question_patterns": [
+    "list the steps of a scientific investigation",
+    "why do observations come before conclusions in an investigation",
+    "how does an experiment help answer a focused question",
+    "what should be done after the results of an experiment are in",
+    "explain the phrase learn how to find new facts",
+    "design a simple investigation for a question of your own"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pose the question",
+     "explain": "Choose one focused, testable question."},
+    {"step": 2, "action": "gather evidence",
+     "explain": "Observe carefully and experiment thoughtfully under controlled conditions."},
+    {"step": 3, "action": "explain and refine",
+     "explain": "Interpret the results and let them improve the current understanding."}
+   ]
+  },
+  {
+   "id": "hecu.101.1.3",
+   "title": "Everyday Puzzles as Scientific Problems",
+   "section": "1",
+   "definition": "Real-world puzzles hide in ordinary life - rising dough, warming climates, drying clothes - and the chapter's own worked example shows how an everyday situation can be turned into a full investigation with method and reasoning.",
+   "formula": "-",
+   "key_idea": "Investigation practice starts with familiar situations, not faraway mysteries.",
+   "textbook_ref": "hecu101.txt lines 55-70 (dough rises, world warming), 279-325 (worked everyday investigation)",
+   "question_patterns": [
+    "give an example of an everyday situation that can be investigated scientifically",
+    "how would you investigate why dough rises",
+    "what everyday question does the chapter investigate in detail",
+    "why is climate change called a bigger mystery for investigation",
+    "turn a kitchen observation into an investigable question",
+    "what did the chapter's sample investigation demonstrate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the puzzle",
+     "explain": "Pick an ordinary observation that raises a why or how."},
+    {"step": 2, "action": "apply the investigation cycle",
+     "explain": "Question, observation, experiment and explanation apply anywhere."},
+    {"step": 3, "action": "connect to bigger questions",
+     "explain": "The same habits scale up to Earth-scale puzzles such as warming."}
+   ]
+  },
+  {
+   "id": "hecu.101.1.4",
+   "title": "Roots and Kites: The Attitude of a Young Scientist",
+   "section": "1",
+   "definition": "The book's symbols teach the scientific temperament - the root on left pages stands for staying grounded in observation, tradition and environment, while the kite on right pages reminds learners to let ideas soar toward the unknown.",
+   "formula": "-",
+   "key_idea": "Grounded observation plus soaring imagination together define the investigator's attitude.",
+   "textbook_ref": "hecu101.txt lines 60-90 (root and kite symbolism)",
+   "question_patterns": [
+    "what do the root and kite symbols on the pages stand for",
+    "why must scientific ideas stay grounded in observation",
+    "how does imagination help a young scientist",
+    "what attitude does the chapter ask learners to bring",
+    "explain the balance between heritage and exploration in science",
+    "which symbol reminds you to explore the unknown"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the symbols",
+     "explain": "Root for grounded observation and heritage; kite for ideas taking flight."},
+    {"step": 2, "action": "balance the two",
+     "explain": "Good science pairs evidence with imaginative leaps."},
+    {"step": 3, "action": "apply the attitude",
+     "explain": "Learners act as investigators, not only readers of facts."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hecu101.txt lines 20-90 (probe and ponder, symbols)",
+   "questions": [
+    "Write one focused question that makes you curious about the world.",
+    "What do the root and the kite on the page corners symbolise?",
+    "How is Grade 8 science different from simple why-questions of earlier grades?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hecu101.txt lines 279-325 (sample investigation)",
+   "questions": [
+    "Describe the everyday investigation worked through in the chapter.",
+    "Which steps of the investigation cycle can you identify in the sample?"
+   ]
+  }
+ ]
+}

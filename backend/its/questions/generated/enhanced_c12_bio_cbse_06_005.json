@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_005",
+   "title": "c12_bio_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define transcription and state which DNA strand serves as the template. What is the direction of RNA synthesis relative to the template strand?",
+     "a": "Transcription is the synthesis of RNA from a DNA template. The template strand (non-coding strand, 3'→5') is read by RNA polymerase to synthesize a complementary RNA strand in the 5'→3' direction. The coding strand (5'→3') has the same sequence as the RNA (except T→U). A wrong answer (e.g., \"coding strand is template\" or \"RNA made 3'→5'\") reveals confusion between template/coding strands and misunderstanding of polymerase directionality — a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "In prokaryotes, the RNA polymerase holoenzyme consists of core enzyme (α₂ββ'ω) and a sigma (σ) factor. Explain why the sigma factor is essential for initiation but dissociates after elongation begins.",
+     "a": "The sigma factor provides promoter specificity — it recognizes the -35 (TTGACA) and -10 (TATAAT/Pribnow box) consensus sequences, enabling the holoenzyme to bind specifically at transcription start sites. Once the open complex forms and ~10 nucleotides are synthesized, sigma factor dissociates because its job (promoter recognition) is done; the core enzyme then continues processive elongation. A wrong answer (e.g., \"sigma factor catalyzes elongation\" or \"sigma stays throughout\") shows lack of understanding of subunit functions and the transition from initiation to elongation — a common NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A eukaryotic gene has the sequence 5'-ATG GCT TAA-3' on its coding strand. Write the sequence of the mature mRNA produced after transcription and processing. Assume no introns in this segment.",
+     "a": "Template strand: 3'-TAC CGA ATT-5'. Pre-mRNA (5'→3'): 5'-AUG GCU UAA-3'. After processing: 5' cap (7-methylguanosine) added, 3' poly-A tail added. Mature mRNA: 5'-[cap]AUG GCU UAA[poly-A]-3'. A wrong answer (e.g., writing DNA bases, forgetting U for T, reversing direction, omitting cap/tail) reveals multiple gaps: not applying base-pairing rules, confusing transcription direction, or missing eukaryotic-specific modifications — all tested in board and NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Compare rho-dependent and rho-independent (intrinsic) termination in prokaryotes. How does the mechanism of rho-independent termination rely on RNA secondary structure?",
+     "a": "Rho-dependent: Rho protein (helicase) binds rut site on nascent RNA, moves 5'→3' using ATP, catches up to paused RNA polymerase at termination site, unwinds RNA-DNA hybrid, releasing transcript. Rho-independent: GC-rich inverted repeat followed by poly-U sequence in DNA → transcribed into self-complementary RNA forming a stable hairpin (stem-loop) followed by weak rU-dA bonds; hairpin causes RNA polymerase pausing, weak rU-dA bonds allow transcript dissociation. A wrong answer (e.g., \"rho cuts RNA\" or \"hairpin forms in DNA\") shows confusion between protein-factor vs. RNA-structure mechanisms and where the structure forms — a key analytical distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In eukaryotes, the primary transcript (pre-mRNA) is identical to the mature mRNA except for the removal of introns.\" Identify all errors and correct them.",
+     "a": "The statement has three errors: (1) Pre-mRNA also receives a 5' cap (7-methylguanosine linked 5'-5') immediately after initiation. (2) Pre-mRNA receives a 3' poly-A tail (~200-250 adenines) after cleavage at polyadenylation signal (AAUAAA). (3) Introns are removed by splicing (spliceosome), but exons are joined — the mature mRNA is shorter, not just \"introns removed.\" A student missing any of these three modifications shows incomplete understanding of eukaryotic RNA processing — a frequent board exam descriptive question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using radioactive labeling to prove that RNA is synthesized from a DNA template in the 5'→3' direction. Specify the isotope, incubation times, and expected results.",
+     "a": "Use α-³²P-UTP (labels 5' end of incoming nucleotide). Incubate cell extract with DNA template for very short pulses (15 sec, 30 sec, 60 sec). Isolate RNA, digest with RNase T1 (cuts after G), run on gel electrophoresis. Shortest pulses show label only in shortest fragments near 5' end of gene; longer pulses show label progressively further along. This proves 5'→3' synthesis (5' end made first). A poor design (e.g., using ³H-uracil without pulse-chase, or measuring total incorporation only) fails to demonstrate directionality — tests experimental reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

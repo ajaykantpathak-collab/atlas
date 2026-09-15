@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_003",
+   "title": "c11_chem_cbse_02_003",
+   "questions": [
+    {
+     "q": "In Rutherford's alpha-scattering experiment, what was the approximate thickness of the gold foil used, and why was gold specifically chosen?",
+     "a": "The gold foil was approximately 100 nm thick (about 400 atomic layers). Gold was chosen because it is highly malleable and can be beaten into extremely thin sheets without breaking, and its high atomic number (Z=79) provides strong Coulombic repulsion for alpha particles. A wrong answer (e.g., \"1 mm thick\" or \"aluminium foil\") reveals the student doesn't understand the experimental requirement for a target thin enough to allow most alpha particles to pass through while still producing measurable scattering from a single atomic layer interaction.",
+     "self_check": true
+    },
+    {
+     "q": "If Thomson's plum pudding model were correct, what specific scattering pattern would have been observed for alpha particles passing through the gold foil, and why?",
+     "a": "Alpha particles would have experienced only small-angle deflections (a few degrees at most) with virtually zero large-angle scattering. In Thomson's model, the positive charge is diffuse over the entire atomic volume (~10⁻¹⁰ m radius), so the maximum Coulombic force on an alpha particle is too weak to cause large deflections. A student who says \"some would bounce back\" or \"most would be deflected\" reveals they haven't grasped that a diffuse positive charge cannot exert the enormous repulsive force needed for 180° scattering — only a concentrated nucleus can.",
+     "self_check": true
+    },
+    {
+     "q": "An alpha particle with kinetic energy 5.0 MeV approaches a gold nucleus (Z=79) head-on. Calculate the distance of closest approach (in meters) assuming the nucleus remains stationary. Use k = 9×10⁹ N·m²/C², e = 1.6×10⁻¹⁹ C.",
+     "a": "**Steps:**\n1. Convert alpha particle KE to joules: 5.0 MeV = 5.0 × 10⁶ × 1.6×10⁻¹⁹ = 8.0×10⁻¹³ J\n2. Alpha particle charge = +2e = 3.2×10⁻¹⁹ C; Gold nucleus charge = +79e = 1.264×10⁻¹⁷ C\n3. At distance of closest approach r₀, initial KE = electrostatic PE: ½mv² = k(2e)(79e)/r₀\n4. r₀ = k(158e²)/KE = (9×10⁹ × 158 × (1.6×10⁻¹⁹)²) / (8.0×10⁻¹³)\n5. r₀ = (9×10⁹ × 158 × 2.56×10⁻³⁸) / (8.0×10⁻¹³) = 4.6×10⁻¹⁴ m\n**Answer:** 4.6×10⁻¹⁴ m (46 fm). A wrong answer (e.g., 10⁻¹⁰ m) reveals confusion between atomic radius and nuclear distance scale, or incorrect charge values for alpha particle/gold nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Rutherford and Thomson models on these three criteria: (a) distribution of positive charge, (b) explanation of alpha-scattering results, (c) prediction of atomic stability. Which model fails on each criterion and why?",
+     "a": "(a) Thomson: positive charge diffuse throughout sphere; Rutherford: concentrated in tiny nucleus. Thomson fails — cannot produce large-angle scattering. (b) Thomson predicts only small deflections; Rutherford predicts most pass through, few deflect at large angles, very few rebound. Thomson fails — contradicts experimental observation of 180° scattering. (c) Both fail stability: Thomson's static electrons would collapse; Rutherford's orbiting electrons should radiate energy (Maxwell) and spiral in within 10⁻⁸ s. Rutherford fails — classical EM theory makes orbiting electrons unstable. A student who says \"Rutherford explains stability\" reveals they haven't connected Maxwell's electromagnetic theory to accelerating charges.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Rutherford's model successfully explains why atoms are electrically neutral.\" Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "**Partially correct.** Rutherford's model accounts for neutrality by having equal numbers of protons in the nucleus and electrons in orbits (Z protons = Z electrons). However, it does not explain *why* the number of electrons equals the number of protons — it simply postulates it to match the known fact of neutrality. The model also cannot explain why electrons don't fall into the nucleus (stability) or how they are arranged (distribution/energies). A student who says \"fully correct\" reveals they confuse accounting for a fact with explaining its origin; a student who says \"incorrect\" misses that the model does structurally incorporate equal + and - charges.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could vary the atomic number Z of the foil material while keeping foil thickness constant (in atoms per unit area), how would the fraction of alpha particles scattered at >90° change? Sketch the expected relationship and explain the physics.",
+     "a": "**Expected answer:** Fraction scattered at >90° ∝ Z². Sketch: parabolic curve starting at origin, rising steeply. Physics: Rutherford scattering cross-section for angle θ is dσ/dΩ = (kZe·2e / 4KE)² · csc⁴(θ/2). For fixed θ > 90°, the Z² dependence comes from (Ze)² in numerator — Coulomb force scales with nuclear charge. Doubling Z quadruples large-angle scattering. A poor answer (linear or no Z-dependence) reveals the student hasn't connected Coulomb's law (F ∝ q₁q₂) to scattering probability, or doesn't realize the alpha particle charge is fixed at +2e while target charge varies with Z.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

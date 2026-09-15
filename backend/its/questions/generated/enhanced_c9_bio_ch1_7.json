@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_7",
+   "title": "c9_bio_ch1_7",
+   "questions": [
+    {
+     "q": "Name the two types of endoplasmic reticulum and state the key structural feature that distinguishes them visually under an electron microscope.",
+     "a": "The two types are rough endoplasmic reticulum (RER) and smooth endoplasmic reticulum (SER). RER appears studded with ribosomes giving a \"rough\" or granular appearance, while SER lacks ribosomes and appears as smooth tubular membranes. A wrong answer (e.g., \"RER has DNA, SER doesn't\" or confusing with Golgi) reveals the student is memorizing names without linking structure to the defining feature - ribosome attachment - which is the basis for all functional differences.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a protein destined for secretion is synthesized on rough ER rather than on free ribosomes in the cytoplasm, and what would happen if it were made on free ribosomes instead.",
+     "a": "Secretory proteins have a signal peptide that directs the ribosome-mRNA complex to dock on the ER membrane; the growing polypeptide threads into the ER lumen where it folds, gets glycosylated, and is packaged into transport vesicles for the Golgi. If synthesized on free ribosomes, the protein would remain in the cytosol, unable to enter the secretory pathway, lacking proper folding environment and modifications, and would likely be degraded. A wrong answer (e.g., \"free ribosomes can't make large proteins\" or \"ER has more energy\") shows the student doesn't understand the signal hypothesis and co-translational translocation - the central mechanism linking ribosome location to protein destination.",
+     "self_check": true
+    },
+    {
+     "q": "A liver cell detoxifies alcohol using enzymes in the smooth ER. Predict how chronic alcohol consumption would affect the smooth ER in hepatocytes and explain the cellular consequence for lipid metabolism.",
+     "a": "Chronic alcohol induces proliferation of smooth ER (hypertrophy) to increase detoxification capacity (cytochrome P450 enzymes). This expanded SER increases lipid synthesis, leading to fatty liver (hepatic steatosis) because the same enzymes that detoxify also catalyze lipid synthesis, and the metabolic burden shifts toward fat accumulation. A wrong answer (e.g., \"alcohol damages rough ER\" or \"no change in ER\") reveals the student doesn't connect SER's dual role in detoxification and lipid synthesis, or understand enzyme induction as an adaptive response.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of a protein synthesized on rough ER versus a protein synthesized on free ribosomes. Trace both pathways from translation to final destination, identifying three key differences in processing.",
+     "a": "RER protein: signal peptide binds SRP → ribosome docks on ER → co-translational insertion into lumen → folding, N-glycosylation, disulfide bonds → vesicle buds off → Golgi → further modification → secretory vesicle → exocytosis OR membrane insertion. Free ribosome protein: translation completes in cytosol → folds with chaperones → functions in cytosol/nucleus/mitochondria/peroxisomes. Three differences: (1) co-translational vs post-translational translocation, (2) glycosylation and disulfide bond formation in ER lumen vs none in cytosol, (3) vesicular transport through Golgi vs direct targeting. A wrong answer (e.g., \"both go to Golgi\" or \"free ribosome proteins get glycosylated\") shows confusion about compartmentalization of post-translational modifications.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since smooth ER makes lipids and rough ER makes proteins, a cell that needs lots of membranes (like a rapidly dividing cell) should have more rough ER to make the membrane proteins.\" Evaluate this statement and correct the error.",
+     "a": "The statement is partially correct but incomplete. Membranes require BOTH lipids (from SER) AND proteins (from RER). A rapidly dividing cell needs expanded SER for phospholipid synthesis to build new membranes, plus RER for membrane protein synthesis. The error is assuming membrane biogenesis depends only on proteins. Correct view: SER proliferates for lipid synthesis during membrane expansion (e.g., in dividing cells, steroid-secreting cells), while RER expands for secretory protein demand. A wrong evaluation (e.g., agreeing completely) reveals the student treats lipid and protein synthesis as independent rather than coordinated for membrane biogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a light microscope and available school lab materials to demonstrate that rough ER is involved in protein synthesis, without using electron microscopy or radioactive labeling.",
+     "a": "Good answer: Treat onion root tip cells with cycloheximide (protein synthesis inhibitor) vs control, stain with basophilic dye (methylene blue/toluidine blue) that binds RNA-rich regions. RER-rich regions (basophilic cytoplasm) will show reduced staining in treated cells because ribosomes detach from ER when protein synthesis stops. Alternatively, compare pancreatic acinar cells (high RER, intense basophilia) with adipocytes (low RER, pale cytoplasm) in prepared slides - correlate basophilia intensity with known secretory function. Poor answer (e.g., \"look for rough ER under light microscope\") reveals the student doesn't understand resolution limits of light microscopy or that RER visualization requires RNA staining as proxy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

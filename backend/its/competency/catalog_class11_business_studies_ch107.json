@@ -1,0 +1,410 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 107,
+ "chapter_title": "Formation of a Company",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs107.txt",
+ "concepts": [
+  {
+   "id": "kebs.107.1",
+   "title": "Stages in the Formation of a Company",
+   "section": "7.1",
+   "definition": "The complete setup of a corporate enterprise encompasses distinct sequential phases starting from an initial venture concept to official registration and public fundraising.",
+   "formula": "N/A",
+   "key_idea": "Company formation progresses through promotion, incorporation, and capital subscription.",
+   "textbook_ref": "kebs107.txt lines 30-55",
+   "question_patterns": [
+    "what are the stages in forming a company",
+    "explain the phases involved in company formation",
+    "describe the primary stages of setting up a business entity",
+    "list the main stages to establish a public company",
+    "Explain stages in the formation of a company in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Promotion Phase",
+     "explain": "Conceiving the business idea, assessing feasibility, and preparing essential registration documents."
+    },
+    {
+     "step": 2,
+     "action": "Identify Incorporation Phase",
+     "explain": "Submitting statutory forms and fees to the Registrar of Companies to receive the Certificate of Incorporation."
+    },
+    {
+     "step": 3,
+     "action": "Identify Capital Subscription Phase",
+     "explain": "Issuing prospectus, obtaining SEBI approval, securing minimum subscription, and allotting securities (for public companies)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.2",
+   "title": "Promoters and Their Primary Functions",
+   "section": "7.2.1",
+   "definition": "A promoter is an individual or group that conceptualizes a business project, conducts feasibility analyses, and mobilizes key resources to bring the company into existence.",
+   "formula": "N/A",
+   "key_idea": "Promoters identify opportunities, test feasibility, select names, and arrange necessary registration documents.",
+   "textbook_ref": "kebs107.txt lines 56-110",
+   "question_patterns": [
+    "who is a promoter in business",
+    "what are the main functions performed by a promoter",
+    "explain technical financial and economic feasibility studies",
+    "describe the steps taken by promoters prior to registration",
+    "Explain promoters and their primary functions in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Opportunity Identification and Feasibility Studies",
+     "explain": "Discover business potential and evaluate technical, financial, and economic viability."
+    },
+    {
+     "step": 2,
+     "action": "Name Approval and Signatory Finalization",
+     "explain": "Apply for ROC name approval and choose Memorandum signatories."
+    },
+    {
+     "step": 3,
+     "action": "Professional Appointments and Document Preparation",
+     "explain": "Engage bankers and auditors, and draft MOA, AOA, and consent statements."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.3",
+   "title": "Legal Position and Pre-Incorporation Liabilities of Promoters",
+   "section": "7.2.1",
+   "definition": "Promoters stand in a fiduciary relation to the company they create, barring them from making undisclosed profits while remaining personally liable for pre-incorporation agreements.",
+   "formula": "N/A",
+   "key_idea": "Promoters owe fiduciary duties and carry personal liability for contracts executed before registration.",
+   "textbook_ref": "kebs107.txt lines 210-245",
+   "question_patterns": [
+    "what is the legal position of a promoter",
+    "are promoters personally liable for preliminary contracts",
+    "can a company ratify pre-incorporation contracts",
+    "explain secret profits in relation to promoters",
+    "Explain legal position and pre-incorporation liabilities of promoters in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Fiduciary Capacity",
+     "explain": "Promoters must act in utmost good faith and fully disclose any profits derived during promotion."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Preliminary Contracts Liability",
+     "explain": "Pre-incorporation contracts do not bind the unformed company; promoters remain personally responsible unless new contracts are executed post-incorporation."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.4",
+   "title": "Memorandum of Association and Its Essential Clauses",
+   "section": "7.2.1",
+   "definition": "The fundamental charter of a corporate body that delineates its powers, scope of activities, capital structure, and external relationships.",
+   "formula": "N/A",
+   "key_idea": "MOA sets the boundaries and main objects beyond which a company cannot act.",
+   "textbook_ref": "kebs107.txt lines 125-180",
+   "question_patterns": [
+    "what is a memorandum of association",
+    "explain the six main clauses of MOA",
+    "what is the significance of the objects clause",
+    "describe the capital clause and name clause of MOA",
+    "Explain memorandum of association and its essential clauses in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List Constitutional Clauses",
+     "explain": "Identify Name Clause, Registered Office Clause, Objects Clause, Liability Clause, Capital Clause, and Subscription Clause."
+    },
+    {
+     "step": 2,
+     "action": "Verify Legal Scope",
+     "explain": "Confirm that actions outside the Objects Clause are ultra vires and void."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.5",
+   "title": "Calculation of Unpaid Shareholder Liability",
+   "section": "7.2.1",
+   "definition": "The maximum financial obligation of a shareholder in a company limited by shares, calculated as the unpaid balance on the nominal value of shares held.",
+   "formula": "total_liability = shares_count * (face_value - paid_per_share)",
+   "key_idea": "A member's liability is strictly limited to the unpaid portion of their subscribed share capital.",
+   "textbook_ref": "kebs107.txt lines 150-165",
+   "question_patterns": [
+    "calculate the remaining liability of a shareholder",
+    "find the unpaid share liability for a member",
+    "determine how much a shareholder can be called upon to pay",
+    "compute maximum liability of a member owning shares",
+    "Explain calculation of unpaid shareholder liability in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate unpaid amount per share",
+     "explain": "Subtract the amount already paid per share from the nominal face value.",
+     "compute": "face_value - paid_per_share"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total unpaid liability",
+     "explain": "Multiply the unpaid amount per share by the total number of shares owned.",
+     "compute": "shares_count * unpaid_per_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving calculation of unpaid shareholder liability.",
+     "solution": "Step 1: Calculate unpaid amount per share. Step 2: Calculate total unpaid liability. Working: face_value - paid_per_share, shares_count * unpaid_per_share.",
+     "answer": "Calculation of Unpaid Shareholder Liability applied step by step gives the required result."
+    },
+    {
+     "question": "Apply calculation of unpaid shareholder liability to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate unpaid amount per share. Step 2: Calculate total unpaid liability. Working: face_value - paid_per_share, shares_count * unpaid_per_share.",
+     "answer": "The method of calculation of unpaid shareholder liability leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.6",
+   "title": "Articles of Association and Comparison with MOA",
+   "section": "7.2.1",
+   "definition": "A document containing internal governance rules that manage the operational management of a company, remaining subordinate to the Memorandum of Association.",
+   "formula": "N/A",
+   "key_idea": "AOA governs internal administration while MOA defines external boundaries.",
+   "textbook_ref": "kebs107.txt lines 181-205",
+   "question_patterns": [
+    "what are the articles of association",
+    "distinguish between memorandum of association and articles of association",
+    "can acts beyond articles of association be ratified",
+    "explain table F in relation to articles of association",
+    "Explain articles of association and comparison with moa in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Purpose and Hierarchy",
+     "explain": "AOA regulates internal management and is subordinate to MOA and the Companies Act."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate Ratification",
+     "explain": "Irregular acts violating AOA can be ratified by members if consistent with MOA."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.7",
+   "title": "Statutory Documents for Company Registration",
+   "section": "7.2.1",
+   "definition": "The requisite legal documentation including MOA, AOA, director consents, agreement, statutory declaration, and fee proof submitted to the Registrar.",
+   "formula": "N/A",
+   "key_idea": "A company registration requires specific legal declarations, consents, and constitutional filings.",
+   "textbook_ref": "kebs107.txt lines 120-209",
+   "question_patterns": [
+    "list documents required for incorporation of a company",
+    "what is a statutory declaration in company formation",
+    "what consent document is needed from proposed directors",
+    "explain documents submitted to registrar of companies",
+    "Explain statutory documents for company registration in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compile Core Filings",
+     "explain": "Gather MOA, AOA, written director consents, management agreements, and fee receipt."
+    },
+    {
+     "step": 2,
+     "action": "Verify Legal Compliance Declaration",
+     "explain": "Obtain a statutory declaration signed by an authorized professional attesting to legal compliance."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.8",
+   "title": "Certificate of Incorporation and Legal Conclusiveness",
+   "section": "7.2.2",
+   "definition": "The official document issued by the Registrar of Companies certifying that a company is legally created, serving as irrefutable proof of legal personality.",
+   "formula": "N/A",
+   "key_idea": "Certificate of Incorporation provides conclusive proof of the legal birth and existence of a corporate body.",
+   "textbook_ref": "kebs107.txt lines 246-300",
+   "question_patterns": [
+    "what is a certificate of incorporation",
+    "why is certificate of incorporation called conclusive evidence",
+    "what is corporate identity number CIN",
+    "explain the effect of issuing a certificate of incorporation",
+    "Explain certificate of incorporation and legal conclusiveness in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Understand Legal Entity Status",
+     "explain": "Issuance establishes an independent legal person with perpetual succession starting on the date printed."
+    },
+    {
+     "step": 2,
+     "action": "Assess Conclusive Evidence Principle",
+     "explain": "Once issued, registration validity cannot be challenged despite preliminary procedural irregularities."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.9",
+   "title": "Calculation of Minimum Subscription",
+   "section": "7.2.3",
+   "definition": "The threshold minimum capital sum that must be subscribed by the public before a company can proceed with share allotment, mandated as 90 percent of the public issue.",
+   "formula": "min_subscription = total_issue_amount * 0.90",
+   "key_idea": "At least 90% of the public issue must be subscribed to validate allotment.",
+   "textbook_ref": "kebs107.txt lines 315-340",
+   "question_patterns": [
+    "calculate the minimum subscription amount required",
+    "find the minimum subscription for an issue size",
+    "determine the minimum application amount for share allotment",
+    "compute 90 percent minimum subscription threshold",
+    "Explain calculation of minimum subscription in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate required minimum subscription amount",
+     "explain": "Multiply total issue amount by 0.90 as per SEBI regulations.",
+     "compute": "total_issue_amount * 0.90"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving calculation of minimum subscription.",
+     "solution": "Step 1: Calculate required minimum subscription amount. Working: total_issue_amount * 0.90.",
+     "answer": "Calculation of Minimum Subscription applied step by step gives the required result."
+    },
+    {
+     "question": "Apply calculation of minimum subscription to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate required minimum subscription amount. Working: total_issue_amount * 0.90.",
+     "answer": "The method of calculation of minimum subscription leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.10",
+   "title": "Capital Subscription Formalities and Prospectus",
+   "section": "7.2.3",
+   "definition": "The systematic procedure through which a public enterprise invites public capital contributions via prospectus filing, SEBI approval, stock exchange listing, and allotment.",
+   "formula": "N/A",
+   "key_idea": "Public fundraising mandates SEBI clearance, prospectus registration, minimum subscription compliance, and return of allotment filing.",
+   "textbook_ref": "kebs107.txt lines 301-355",
+   "question_patterns": [
+    "what are the steps in capital subscription stage",
+    "what is a prospectus and why is it issued",
+    "explain return of allotment",
+    "what happens if minimum subscription is not raised",
+    "Explain capital subscription formalities and prospectus in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "SEBI Approval and Prospectus Filing",
+     "explain": "Obtain SEBI disclosure clearance and file a prospectus or statement in lieu with ROC."
+    },
+    {
+     "step": 2,
+     "action": "Intermediary Appointment and Stock Exchange Listing",
+     "explain": "Appoint bankers, brokers, and underwriters, and apply to stock exchanges for listing."
+    },
+    {
+     "step": 3,
+     "action": "Subscription Verification and Allotment",
+     "explain": "Verify receipt of 90% minimum subscription within stipulated timeline, allot shares, and file return of allotment."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Section 7.2.1 Liability Clause Example",
+   "concept": "kebs.107.5",
+   "question_type": "compute",
+   "question_pattern": "A shareholder holds {shares_count} shares of nominal value rupees {face_value} each. If the shareholder has already paid rupees {paid_per_share} per share, calculate the maximum remaining liability.",
+   "extracted_variables": {
+    "shares_count": 1000,
+    "face_value": 10,
+    "paid_per_share": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate unpaid amount per share",
+     "explain": "Subtract paid amount per share from face value.",
+     "compute": "unpaid_per_share = face_value - paid_per_share"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total unpaid liability",
+     "explain": "Multiply unpaid per share by total shares count.",
+     "compute": "total_liability = shares_count * unpaid_per_share"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Section 7.2.3 Capital Subscription",
+   "concept": "kebs.107.9",
+   "question_type": "compute",
+   "question_pattern": "A public company issues shares worth rupees {total_issue_amount}. Calculate the minimum subscription amount required as per SEBI guidelines.",
+   "extracted_variables": {
+    "total_issue_amount": 5000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate required minimum subscription amount",
+     "explain": "Compute 90% of total issue amount.",
+     "compute": "min_subscription = total_issue_amount * 0.90"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex107.1",
+   "source_ref": "Short Answer Questions",
+   "questions": [
+    "Name the stages in the formation of a company.",
+    "List the documents required for the incorporation of a company.",
+    "What is a prospectus? Is it necessary for every company to file a prospectus?",
+    "Briefly explain the term 'Return of Allotment'.",
+    "At which stage in the formation of a company does it interact with SEBI."
+   ]
+  },
+  {
+   "id": "ex107.2",
+   "source_ref": "Long Answer Questions",
+   "questions": [
+    "What is meant by the term 'Promotion'. Discuss the legal position of promoters with respect to a company promoted by them.",
+    "Explain the steps taken by promoters in the promotion of a company.",
+    "What is a 'Memorandum of Association'? Briefly explain its clauses.",
+    "Distinguish between 'Memorandum of Association' and 'Articles of Association.'",
+    "What is the meaning of 'Certificate of Incorporation'?",
+    "Discuss the stages of formation of a company?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

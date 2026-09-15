@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_010",
+   "title": "c11_ip_cbse_07_010",
+   "questions": [
+    {
+     "q": "What are the three logical operators available in SQL WHERE clause, and what is the result of the expression `TRUE AND FALSE OR TRUE` when evaluated according to SQL precedence rules?",
+     "a": "The three logical operators are AND, OR, NOT. SQL evaluates AND before OR, so `TRUE AND FALSE` becomes FALSE, then `FALSE OR TRUE` becomes TRUE. A wrong answer (e.g., saying OR is evaluated first or misidentifying operators) reveals the student does not know operator precedence or the complete set of logical operators, leading to incorrect condition combination in queries.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the query `SELECT * FROM STUDENT WHERE Grade = 'A' OR 'B';` will return all rows in the table, even those with Grade 'C', and how to correct it.",
+     "a": "The condition `'B'` is a non-empty string, which evaluates to TRUE in SQL boolean context, so `Grade = 'A' OR TRUE` is always TRUE. The correct syntax is `Grade = 'A' OR Grade = 'B'` or `Grade IN ('A', 'B')`. A student who thinks `'B'` compares to Grade reveals a fundamental misunderstanding of how SQL evaluates expressions — they treat OR as a linguistic \"or\" rather than a binary operator requiring two boolean operands.",
+     "self_check": true
+    },
+    {
+     "q": "Given a table PRODUCT(P_ID, P_NAME, PRICE, STOCK) with data: (1, 'Pen', 10, 100), (2, 'Notebook', 50, 0), (3, 'Eraser', 5, NULL), (4, 'Scale', 15, 50). Write a query to find products that are either out of stock (STOCK = 0) or have unknown stock (STOCK IS NULL) and price less than 20.",
+     "a": "```sql\nSELECT * FROM PRODUCT \nWHERE (STOCK = 0 OR STOCK IS NULL) AND PRICE < 20;\n```\nReturns rows for Notebook (50, 0) — wait, price 50 not < 20, so excluded; Eraser (5, NULL) — price 5 < 20, included. Only Eraser qualifies. A wrong answer (e.g., missing parentheses, using `STOCK = NULL` instead of `IS NULL`) shows the student cannot handle NULL semantics or logical grouping, both critical for accurate filtering.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of these two queries on a table with a column CITY containing values: 'Delhi', 'Mumbai', 'Chennai', 'Kolkata', 'Bengaluru', NULL.\nQuery A: `SELECT * FROM TABLE WHERE CITY NOT IN ('Delhi', 'Mumbai');`\nQuery B: `SELECT * FROM TABLE WHERE CITY NOT IN ('Delhi', 'Mumbai', NULL);`\nExplain the difference and why it occurs.",
+     "a": "Query A returns rows with 'Chennai', 'Kolkata', 'Bengaluru' (excludes NULL because `NULL NOT IN (...)` yields UNKNOWN, not TRUE). Query B returns **zero rows** because `NULL` in the list makes the entire `NOT IN` condition evaluate to UNKNOWN for every row (since `value <> NULL` is UNKNOWN). This tests deep understanding of three-valued logic and NULL behavior in set operations — a classic senior-secondary pitfall.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `SELECT * FROM EMPLOYEE WHERE SALARY BETWEEN 30000 AND 50000 AND DEPT = 'IT' OR DEPT = 'HR';` intending to get IT or HR employees with salary in range. Critique this query and rewrite it correctly.",
+     "a": "Due to precedence (AND before OR), the query means: `(SALARY BETWEEN 30000 AND 50000 AND DEPT = 'IT') OR (DEPT = 'HR')` — so ALL HR employees are included regardless of salary. Correct version: `SELECT * FROM EMPLOYEE WHERE SALARY BETWEEN 30000 AND 50000 AND (DEPT = 'IT' OR DEPT = 'HR');` or `... AND DEPT IN ('IT', 'HR');`. A student who misses the precedence issue cannot reliably construct multi-condition filters — a critical board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) requiring a WHERE clause that uses at least four different operator types (e.g., comparison, logical, BETWEEN, LIKE, IS NULL). Write the complete query and explain each condition's purpose.",
+     "a": "Scenario: School library database BOOKS(B_ID, TITLE, AUTHOR, PRICE, CATEGORY, ISSUED_DATE). Find books priced between 200-500, category starting with 'Sci', not issued yet (ISSUED_DATE IS NULL), and author not 'Unknown'.\n```sql\nSELECT * FROM BOOKS \nWHERE PRICE BETWEEN 200 AND 500 \n  AND CATEGORY LIKE 'Sci%' \n  AND ISSUED_DATE IS NULL \n  AND AUTHOR != 'Unknown';\n```\nUses BETWEEN, LIKE, IS NULL, !=, AND. A poor answer uses only one operator type or fails to justify each condition, indicating inability to synthesize operators for realistic filtering — a key competency for board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

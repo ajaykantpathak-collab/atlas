@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_011",
+   "title": "c11_cs_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the standard symbol for a two-input AND gate, and how many rows will its truth table have?",
+     "a": "The standard symbol for a two-input AND gate is a D-shaped symbol with two inputs on the left and one output on the right. Its truth table has 4 rows (2^2 = 4). A wrong answer (e.g., drawing a triangle or saying 2 rows) reveals the student confuses gate symbols or doesn't understand that truth table rows equal 2^n for n inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NOT gate is also called an inverter, and draw its symbol.",
+     "a": "The NOT gate is called an inverter because it outputs the opposite (complement) of its single input: 0 becomes 1, and 1 becomes 0. Its symbol is a triangle pointing right with a small circle (bubble) at the output. A wrong answer (e.g., saying it amplifies the signal or drawing a gate with two inputs) shows the student doesn't grasp the complement operation or the unique single-input nature of NOT.",
+     "self_check": true
+    },
+    {
+     "q": "Given a 2-input OR gate and a 2-input AND gate, both with inputs A=1, B=0, determine the output of each gate and write the Boolean expression for the combined output if the OR gate's output is fed into the AND gate's first input while the AND gate's second input is held at 1.",
+     "a": "OR gate output = 1+0 = 1. AND gate output = 1·1 = 1. Combined Boolean expression: (A+B)·1 = A+B. A wrong answer (e.g., OR output 0, or combined expression A·B) indicates the student cannot apply gate operations sequentially or misunderstands the identity law (X·1 = X).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbols of the NAND gate and the AND gate. What is the significance of the small circle (bubble) at the output of the NAND gate, and how does it affect the truth table relative to the AND gate?",
+     "a": "The NAND gate symbol is an AND gate with a bubble at the output. The bubble represents logical negation (NOT). Thus, the NAND truth table is the exact complement of the AND truth table: where AND outputs 1, NAND outputs 0, and vice versa. A wrong answer (e.g., saying the bubble indicates an active-low input) shows the student misinterprets the bubble as an input polarity indicator rather than output inversion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the XOR gate symbol is identical to the OR gate symbol except for an extra curved line on the input side. Evaluate this claim and justify whether the XOR gate can be considered a \"universal gate\" like NAND or NOR.",
+     "a": "The claim is correct about the symbol: XOR has an additional curved line on the input side compared to OR. However, XOR is NOT a universal gate because it cannot implement the NOT function alone (XOR with one input tied to 1 acts as NOT, but that requires a constant 1 source; strictly, a single gate type must realize all Boolean functions without external constants). NAND and NOR are universal because they can realize AND, OR, NOT individually. A wrong answer (e.g., saying XOR is universal) reveals confusion about the definition of functional completeness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple security system using only 2-input logic gates that activates an alarm (output 1) when either a window sensor (W) OR a door sensor (D) is triggered, but NOT when both are triggered simultaneously (to avoid false alarms during testing). Draw the logic circuit diagram using standard gate symbols and write the Boolean expression.",
+     "a": "The required behavior is XOR: Alarm = W ⊕ D = W'D + WD'. Circuit: two NOT gates, two AND gates, one OR gate (or a single XOR gate symbol). A poor answer (e.g., using OR gate only) shows the student didn't analyze the \"but NOT both\" condition, which is the defining characteristic of XOR.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

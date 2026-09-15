@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_01_001",
+   "title": "c12_hin_a_cbse_01_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the \"Before You Read\" section in a literature textbook?",
+     "a": "The primary purpose is to provide the reader with essential background information about the author, historical period, literary movement, and key concepts so that the subsequent text can be understood in its proper context. A wrong answer (e.g., \"to summarize the story\") reveals that the student confuses context with plot summary and does not grasp the preparatory function of background knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why knowing the Bhakti movement is important for understanding Tulsidas's poetry.",
+     "a": "The Bhakti movement emphasized personal devotion to a deity, use of vernacular languages, and rejection of ritualistic orthodoxy. Tulsidas wrote within this tradition, so his themes of devotion (bhakti), use of Awadhi, and focus on Rama as a personal god are directly shaped by it. A wrong answer that only mentions \"religion\" without linking to vernacular literature or social reform shows a superficial understanding of the movement's literary impact.",
+     "self_check": true
+    },
+    {
+     "q": "Given a new Hindi poem by an unfamiliar poet, list the first three specific pieces of contextual information you would seek before reading it, and explain why each matters.",
+     "a": "1. Author's lifespan and region → places the poet in time and space. 2. Literary period/movement (e.g., Chhayavad, Pragativad) → indicates dominant themes and styles. 3. Language/dialect used (e.g., Braj, Khari Boli) → signals the intended audience and literary tradition. A wrong answer that lists only \"author's name\" or \"summary\" shows the student does not know what constitutes useful context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contextual background of Tulsidas (16th century, Bhakti movement, Awadhi) with that of a modern Hindi poet like Nirala (20th century, Chhayavad, Khari Boli). How do these differences affect the themes and language of their poetry?",
+     "a": "Tulsidas's context (medieval, Bhakti, Awadhi) leads to themes of devotion, dharma, and social harmony using accessible language for mass appeal. Nirala's context (colonial modernity, Chhayavad, Khari Boli) leads to themes of individualism, mysticism, and linguistic experimentation. A wrong answer that only notes \"different times\" without connecting specific contextual factors to literary outcomes fails to analyze the causal link between context and text.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The 'Before You Read' section is optional; you can understand the poem just by reading it.\" Defend your position with examples from this chapter.",
+     "a": "The statement is false. Without the background that Tulsidas wrote during the Bhakti movement in Awadhi, a student might misinterpret his use of Rama as merely a mythological character rather than a personal deity accessible to all castes. The provided biographical note clarifies his scholarly mastery of Sanskrit and Persian, which explains the syntactic richness in his Awadhi poetry. A wrong answer that agrees with the statement reveals a misconception that literary texts are self-contained and context-independent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief \"Before You Read\" note for a hypothetical Hindi poem written in 1942 by a poet from Bengal writing in Khari Boli about the Quit India Movement. Include author background, historical context, and literary significance.",
+     "a": "A good answer includes: Author: e.g., a Bengali poet influenced by Tagore and progressive writers. Historical context: 1942 Quit India Movement, British repression, nationalist fervor. Literary significance: Use of Khari Boli for pan-Indian reach, blend of romantic and revolutionary imagery. A poor answer that omits the historical event or language choice shows the student cannot transfer the skill to a new scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

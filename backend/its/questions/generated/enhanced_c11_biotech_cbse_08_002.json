@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_002",
+   "title": "c11_biotech_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the standard banding technique used for routine clinical karyotyping, and what specific chromosomal feature does it exploit to produce the banding pattern?",
+     "a": "GTG-banding (Giemsa-Trypsin-Giemsa) is the standard. It exploits differential chromatin composition: trypsin partially digests histone proteins in AT-rich heterochromatin (late-replicating, condensed), which then stain dark with Giemsa (G-bands), while GC-rich euchromatin (early-replicating, less condensed) resists digestion and stains light (R-bands). A wrong answer (e.g., \"Q-banding uses quinacrine fluorescence\" or \"bands correspond to genes\") reveals confusion between banding mechanisms and the misconception that bands = genes.",
+     "self_check": true
+    },
+    {
+     "q": "Why is colchicine added to lymphocyte cultures during karyotype preparation, and what would be the consequence if the incubation time exceeded 2 hours?",
+     "a": "Colchicine depolymerizes microtubules, preventing spindle formation and arresting cells at metaphase (when chromosomes are maximally condensed). Exceeding 2 hours causes chromosome over-condensation, making bands too thin to resolve, and increases mitotic index artifactually, potentially missing low-level mosaicism. A wrong answer (e.g., \"colchicine stimulates division\" or \"longer time gives more cells\") reveals misunderstanding of microtubule dynamics and the trade-off between cell yield and band resolution.",
+     "self_check": true
+    },
+    {
+     "q": "A karyogram from a 2-year-old female with developmental delay shows 46 chromosomes. Chromosome 5 has a terminal deletion on the short arm at band p15.2. Write the complete ISCN 2020 nomenclature and name the associated syndrome.",
+     "a": "46,XX,del(5)(p15.2) — Cri-du-chat syndrome. Steps: (1) Count total chromosomes = 46. (2) Determine sex chromosomes = XX. (3) Identify abnormality: deletion on chr 5 short arm. (4) Specify band: p15.2 (region 1, band 5, sub-band 2). (5) Apply ISCN format: total, sex, abnormality in parentheses with chromosome number and breakpoint. A wrong answer (e.g., \"46,XX,5p-\" or missing band designation) reveals incomplete ISCN syntax knowledge and inability to translate visual finding to standardized notation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare G-banding and high-resolution banding (prometaphase banding). For detecting a 3 Mb pericentric inversion on chromosome 9, which would you choose and why? What is the theoretical resolution limit of each?",
+     "a": "Choose high-resolution banding (prometaphase, 550-850 bands) over standard G-banding (400-550 bands). Standard G-banding resolution ≈ 5-10 Mb/band; high-resolution ≈ 2-5 Mb/band. A 3 Mb inversion may be invisible at 400 bands (single band) but spans 1-2 bands at 850 bands, allowing detection of band order reversal. A wrong answer (e.g., \"G-banding is better because bands are darker\" or \"both have same resolution\") reveals confusion between band number and physical resolution, and inability to match technique to abnormality size.",
+     "self_check": true
+    },
+    {
+     "q": "A prenatal karyotype reports 47,XX,+21. The mother is 38 years old. The lab concludes \"maternal meiosis I non-disjunction.\" Evaluate this conclusion. What additional test would distinguish meiosis I vs II error, and why is the distinction clinically relevant?",
+     "a": "The conclusion is presumptive, not proven. Karyotype alone cannot distinguish meiosis I vs II non-disjunction; both produce trisomy 21. To distinguish: perform DNA polymorphism analysis (STR markers) on chromosome 21 in parents and child. Meiosis I error → heterozygosity at centromeric markers (two different maternal alleles); Meiosis II error → homozygosity (identical sister chromatids). Clinically relevant: meiosis I errors increase with maternal age; meiosis II errors do not. Recurrence risk counseling differs. A wrong answer (e.g., \"karyotype shows it's meiosis I because of maternal age\") reveals confusion between correlation and mechanistic diagnosis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quality-controlled karyotyping workflow for a new diagnostic lab. Include: (a) minimum metaphases to analyze for constitutional vs mosaic detection, (b) banding resolution target, (c) two mandatory QC checkpoints with acceptance criteria, (d) reporting turnaround time for urgent prenatal vs routine postnatal.",
+     "a": "(a) Constitutional: 20 metaphases (ISCN); Mosaic detection (≥10% level): 50 metaphases (95% confidence). (b) Target ≥550 bands (high-resolution) for prenatal; 400-550 for routine postnatal. (c) QC1: Mitotic index >5% after 72h culture — if <2%, re-culture. QC2: Band resolution ≥400 on 10 consecutive spreads — if <350, optimize trypsin time. (d) Urgent prenatal (CVS/amnio): 7-10 days; Routine postnatal: 14-21 days. A poor answer (e.g., \"analyze 5 cells, any banding, report in 1 week\") reveals ignorance of statistical sampling for mosaicism, banding standards, and clinical urgency tiers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

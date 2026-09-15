@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_006",
+   "title": "c11_bio_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the three fundamental characteristics (symmetry, germ layers, coelom type) that define Phylum Platyhelminthes and distinguish it from Phylum Cnidaria and Phylum Aschelminthes.",
+     "a": "Platyhelminthes: bilateral symmetry, triploblastic, acoelomate. Cnidaria: radial symmetry, diploblastic, acoelomate. Aschelminthes: bilateral symmetry, triploblastic, pseudocoelomate. A wrong answer (e.g., calling flatworms pseudocoelomate or diploblastic) reveals confusion between the three major body cavity types — the student has not internalised that acoelomate means complete absence of a body cavity lined by mesoderm, not just a \"false\" cavity. This error cascades into misclassifying organ-level organisation and misunderstanding why flatworms lack circulatory/respiratory systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tapeworm (Taenia) lacks a digestive tract entirely, while a liver fluke (Fasciola) possesses a branched gastrovascular cavity — both are endoparasites in the same phylum.",
+     "a": "Taenia lives in the nutrient-rich intestinal lumen where it absorbs dissolved nutrients directly through its tegument (syncytial epidermis with microvilli), rendering a gut unnecessary — energy saved by gut loss is redirected to reproduction (proglottids). Fasciola inhabits the bile duct, a harsher environment with bile salts and lower free-nutrient concentration; it retains a muscular pharynx and branched intestine to actively suck blood/tissue fluid and distribute it via gastrovascular branches. A wrong answer (\"both lack guts\" or \"both have guts\") shows the student memorises \"parasites lose organs\" without analysing microenvironment-specific selection pressures — a classic senior-secondary error of overgeneralising parasitic adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Flame cells in Planaria are analogous to nephridia in earthworms because both excrete nitrogenous waste.\" Evaluate this statement using structural and functional criteria.",
+     "a": "The statement is partially correct functionally (both osmoregulate/excrete) but structurally incorrect — flame cells are protonephridia (closed tubules with ciliated flame cell driving filtrate through tubule to nephridiopore), while nephridia are metanephridia (open tubules with ciliated funnel/nephrostome collecting coelomic fluid). Since Platyhelminthes are acoelomate, they lack coelomic fluid to filter; flame cells filter interstitial fluid directly. Earthworms (coelomate) filter coelomic fluid via nephrostome. A wrong evaluation (\"they are homologous\" or \"completely different\") reveals the student cannot link body cavity type to excretory structure evolution — a key analytical skill for board-level comparative questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regenerative capacity of Planaria with that of Hydra (Cnidaria) and an earthworm (Annelida). What cellular mechanism explains the difference in regeneration potential?",
+     "a": "Planaria > Hydra > Earthworm in regeneration potential. Planaria possess pluripotent adult stem cells (neoblasts) distributed throughout parenchyma — any fragment containing neoblasts regenerates a complete worm. Hydra has interstitial stem cells but restricted to body column; head regeneration requires specific positional cues. Earthworms regenerate only anterior segments from posterior fragments (and vice versa) via blastema formation from dedifferentiated cells, limited by segment polarity and fixed segment number. A poor comparison (\"all regenerate equally\" or \"only Planaria regenerates\") shows the student treats regeneration as a binary trait rather than a spectrum linked to stem cell distribution, body plan plasticity, and developmental constraints — missing the evolutionary-developmental biology perspective examiners expect.",
+     "self_check": true
+    },
+    {
+     "q": "Given the life cycle of Taenia solium (human = definitive host, pig = intermediate host), predict the epidemiological consequence if a human ingests T. solium eggs instead of cysticerci. Explain the pathological outcome and why this breaks the typical life cycle.",
+     "a": "Ingesting eggs → oncospheres hatch in human intestine → penetrate intestinal wall → enter circulation → encyst as cysticerci in human tissues (muscle, brain, eye) → cysticercosis (neurocysticercosis if in brain). Human becomes accidental intermediate host — dead end for parasite (no pig eats human muscle typically). Typical cycle: human eats undercooked pork with cysticerci → adult tapeworm in intestine (taeniasis) → eggs passed in faeces → pig ingests eggs → cysticerci in pig muscle. Breaking point: human-to-human faecal-oral transmission of eggs bypasses pig, causing severe disease but no adult worm propagation. A wrong prediction (\"nothing happens\" or \"adult worm develops\") shows the student memorises the cycle linearly without understanding host-specific developmental triggers (oncosphere vs. cysticercus) — a frequent board exam application question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory investigation using live Planaria to demonstrate (a) phototaxis/chemotaxis, (b) regeneration polarity, and (c) flame cell function. Specify controls, observations, and how you would distinguish flame cell-driven excretion from simple diffusion.",
+     "a": "(a) Place Planaria in Petri dish half-covered with black paper; shine light on illuminated half — observe negative phototaxis (move to dark). Control: uniform illumination. (b) Transverse cut at 1/3 body length — anterior fragment regenerates tail, posterior regenerates head; stain with Hoechst to visualise neoblast migration. Control: uncut worms. (c) Incubate in dilute methylene blue or fluorescent dextran — flame cells filter and concentrate dye in protonephridial tubules visible as glowing tubules under fluorescence microscopy; diffusion would show uniform body fluorescence. Control: metabolic inhibitor (cyanide) stops ciliary beating → no tubular concentration. A poor design lacks controls, uses qualitative-only observations, or confuses ciliary beating with diffusion — revealing inability to design controlled experiments linking structure to function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

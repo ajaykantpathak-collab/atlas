@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_008",
+   "title": "c7_math_ch14_008",
+   "questions": [
+    {
+     "q": "What type of symmetry is primarily responsible for extending a tiling infinitely across a plane by sliding a unit shape in a fixed direction without turning it?",
+     "a": "Translational symmetry. If a student answers \"rotational symmetry\" or \"line symmetry\", it reveals a confusion between moving a shape along a straight path (translation) and spinning or flipping it.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a tiling made of equilateral triangles possess rotational symmetry of order 6 around a vertex where six triangles meet, but a tiling of regular pentagons cannot tile the plane at all?",
+     "a": "Equilateral triangles have interior angles of 60°, and six of them fit around a point to sum to 360° (6 × 60° = 360°), creating a rotation center of order 6. Regular pentagons have interior angles of 108°, which do not divide 360° evenly, making a regular pentagonal tiling impossible. A wrong answer shows a failure to connect interior angle sums to 360° at a vertex.",
+     "self_check": true
+    },
+    {
+     "q": "In a tiled wall pattern, a square tile of side length 15 cm is translated horizontally by a vector $\\vec{v} = (30\\text{ cm}, 0\\text{ cm})$. If the original tile's center is at coordinate $(15, 15)$, what are the coordinates of the center of the newly translated tile?",
+     "a": "Step 1: Identify the original center coordinates as $(x_1, y_1) = (15, 15)$.\nStep 2: Identify the translation vector $\\vec{v} = (dx, dy) = (30, 0)$.\nStep 3: Apply the translation formula for coordinates: $(x_2, y_2) = (x_1 + dx, y_1 + dy)$.\nStep 4: Compute $x_2 = 15 + 30 = 45$ and $y_2 = 15 + 0 = 15$.\nStep 5: The new center coordinates are $(45, 15)$ cm.\nA wrong answer usually indicates that the student added the translation vector to only one coordinate or confused horizontal and vertical axes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a semi-regular tiling made of squares and regular octagons with a regular tiling of squares. How do their rotational symmetries at a vertex differ?",
+     "a": "In a regular square tiling, four squares meet at every vertex, giving a 4-fold rotational symmetry (order 4, angle 90°). In a semi-regular tiling of squares and octagons (where one square and two octagons meet at each vertex, with interior angles 90° + 135° + 135° = 360°), the local arrangement at the vertex has lower rotational symmetry (order 2 or 1 depending on the exact pattern configuration) because the shapes alternating around the vertex are not all identical. A wrong answer shows misunderstanding of how mixed polygon vertex configurations affect local rotational order.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a tiling made of scalene triangles has both line symmetry and rotational symmetry because the overall pattern looks neat. Evaluate this claim.",
+     "a": "The claim is false. A scalene triangle has no lines of symmetry and no rotational symmetry of its own. While a clever arrangement of asymmetric scalene triangles can create a pattern with global translational symmetry, the individual tiles themselves do not possess reflectional or rotational symmetry, meaning the pattern's symmetry comes entirely from translation, not from internal shape symmetry. A wrong answer reveals a confusion between the symmetry of an individual tile and the symmetry of an assembled pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Design a composite tile unit consisting of a square and four right-angled triangles that possesses both 4-fold rotational symmetry and four lines of symmetry when tessellated. Describe its layout.",
+     "a": "The expected design places a central square of side $s$, with four identical right-angled triangles attached to its four outer edges such that their hypotenuses or legs match the square's sides, arranged symmetrically so that rotating the composite unit by 90°, 180°, or 270° maps it onto itself, and reflecting across horizontal, vertical, and diagonal axes maintains exact overlap. A poor answer lacks proper angle or side alignment, creating gaps or asymmetric layouts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

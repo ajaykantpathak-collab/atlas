@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_11_012",
+   "title": "c12_eng_k_cbse_11_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"How many swans does the poet count?\" → \"nine-and-fifty\"). An inferential question's answer is not directly stated but must be deduced by combining textual clues (e.g., \"Why is the poet's heart sore?\" → requires linking \"nineteenth autumn,\" \"all's changed,\" and \"trod with a lighter tread\"). A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty with cognitive process; the real distinction is source of answer: text vs. text+reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"The nineteenth autumn has come upon me / Since I first made my count\" appears. A student writes: \"The poet has been counting swans for 19 years.\" Is this a literal or inferential statement? Justify.",
+     "a": "This is a literal statement because the text explicitly says \"The nineteenth autumn has come upon me / Since I first made my count,\" which directly means he has been counting for nineteen autumns (years). A wrong answer calling it \"inferential\" reveals the student thinks any statement involving a number or time calculation is automatically inferential, missing that the text itself provides the calculation.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states: \"Unwearied still, lover by lover, / They paddle in the cold / Companionable streams or climb the air; / Their hearts have not grown old.\" A question asks: \"What does the phrase 'their hearts have not grown old' suggest about the swans?\" Write a two-sentence inferential answer using textual evidence.",
+     "a": "The phrase suggests the swans retain eternal youth and passion unlike the aging poet. Evidence: \"Unwearied still\" and \"Passion or conquest... attend upon them still\" show they remain energetic and driven. A wrong answer like \"The swans are immortal\" over-infers beyond the text; the poem says their hearts haven't grown old, not that they cannot die. The error is confusing poetic symbolism with literal biological claim.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two questions: (A) \"What time of day is described in the first stanza?\" (B) \"Why does the poet contrast the 'still sky' with the 'clamorous wings' of the swans?\" Classify each as literal or inferential and explain the reasoning for each classification.",
+     "a": "(A) is literal: the text says \"Under the October twilight\" — directly stated. (B) is inferential: the text presents both images but never explicitly explains the poet's purpose for contrasting them; the student must infer that the stillness reflects the poet's inner sorrow/aging while the clamour reflects the swans' enduring vitality. A wrong answer classifying both as literal shows the student thinks any question answerable from the poem is literal, missing that inferential questions require interpreting authorial intent not explicitly declared.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"What contributes to the beauty and mystery of the swans' lives?\" with: \"The swans are beautiful and mysterious because they are wild and free.\" Evaluate this answer. Does it meet the standard for a good inferential response? Why or why not?",
+     "a": "No, it does not meet the standard. A strong inferential answer must cite specific textual evidence (e.g., \"Unwearied still,\" \"lover by lover,\" \"Mysterious, beautiful,\" \"drift on the still water,\" \"By what lake's edge or pool / Delight men's eyes\") and explain how those details create beauty/mystery. The student's answer uses vague adjectives (\"wild and free\") not found in the poem and provides zero textual support. This reveals the misconception that inferential answers are personal opinions rather than text-grounded deductions.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the final stanza (\"But now they drift on the still water, / Mysterious, beautiful; / Among what rushes will they build, / By what lake's edge or pool / Delight men's eyes when I awake some day / To find they have flown away?\") and provide a model answer with two pieces of textual evidence.",
+     "a": "Sample question: \"Why does the poet end the poem with a rhetorical question about the swans flying away?\" Model answer: The rhetorical question reveals the poet's fear of loss and impermanence. Evidence 1: \"when I awake some day / To find they have flown away\" shows he anticipates their sudden disappearance. Evidence 2: \"Mysterious, beautiful\" and \"drift on the still water\" contrast with the suddenness of \"flown away,\" heightening the sense of fragility. A poor answer would merely paraphrase the stanza without addressing the \"why\" of the rhetorical structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

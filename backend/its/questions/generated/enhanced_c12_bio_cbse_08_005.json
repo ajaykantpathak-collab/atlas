@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_005",
+   "title": "c12_bio_cbse_08_005",
+   "questions": [
+    {
+     "q": "Name the type of vaccine used for BCG, OPV, and hepatitis B in India's Universal Immunization Programme, and state one characteristic feature of each type.",
+     "a": "BCG = live attenuated (Mycobacterium bovis strain); OPV = live attenuated (Sabin strains); Hepatitis B = recombinant subunit (HBsAg produced in yeast). Live attenuated vaccines replicate weakly in host, inducing strong cellular and humoral immunity; subunit vaccines contain only antigenic protein, cannot replicate, safer for immunocompromised. A wrong answer (e.g., calling hepatitis B \"live attenuated\") reveals confusion between whole-organism and subunit strategies, and ignorance of recombinant DNA technology in vaccines.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a child who receives the full schedule of DPT (diphtheria, pertussis, tetanus) vaccines still needs booster doses at 16-24 months and 5-6 years, whereas a single dose of live attenuated measles vaccine often gives lifelong protection.",
+     "a": "DPT contains inactivated toxins (toxoids) and killed bacteria — these are T-dependent antigens but do not replicate, so antigen persistence is short; memory cell pool contracts over time, requiring boosters to re-expand it. Live attenuated measles virus replicates in host, providing prolonged antigen exposure and continuous stimulation of memory cells, mimicking natural infection. A wrong answer (e.g., \"DPT is weaker\") reveals failure to link antigen persistence, replication capacity, and memory cell maintenance — a core concept tested in NEET.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old child missed the MMR vaccine at 9-12 months. The parents ask if giving it now is still effective. Apply the concept of immunological memory and age-related immune maturation to justify your answer.",
+     "a": "Yes, MMR (live attenuated) can be given at any age >9 months; the immune system is fully competent by 10 years. The vaccine will induce primary response → memory cells → protection. However, if the child had measles naturally, vaccination is unnecessary (natural infection gives superior memory). A wrong answer (e.g., \"too late, immunity window closed\") reveals misunderstanding that adaptive immunity has no upper age limit for primary vaccination — only lower limit (maternal antibody interference <9 months).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the immunological basis of herd immunity for a highly contagious disease like measles (R₀ ≈ 12-18) versus a less contagious disease like polio (R₀ ≈ 5-7). Calculate the approximate vaccination coverage threshold for each and explain why measles outbreaks occur even with 85% coverage.",
+     "a": "Herd immunity threshold = 1 - 1/R₀. Measles: 1 - 1/15 ≈ 93-94%; Polio: 1 - 1/6 ≈ 83-85%. At 85% coverage, measles Rₑ = R₀(1 - coverage) = 15 × 0.15 = 2.25 > 1, so transmission sustains. Polio Rₑ = 6 × 0.15 = 0.9 < 1, transmission dies out. A wrong answer (same threshold for both) reveals ignorance of R₀'s role and inability to apply the formula — a frequent JEE/NEET quantitative biology trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"mRNA COVID-19 vaccines alter human DNA because mRNA enters the nucleus and integrates into the genome.\" Identify the biological errors and explain the actual mechanism.",
+     "a": "The statement is FALSE. Errors: (1) mRNA vaccines deliver lipid-nanoparticle-encapsulated mRNA into cytoplasm, NOT nucleus; (2) mRNA cannot integrate into DNA — no reverse transcriptase or integrase present; (3) mRNA is translated by ribosomes into spike protein, then degraded by cellular RNases within days. Actual mechanism: cytoplasmic translation → MHC I presentation → CD8+ T cell activation + B cell activation → neutralizing antibodies + memory cells. A wrong evaluation reveals fundamental misunderstanding of central dogma, subcellular localization, and vaccine platform biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple community-level study to estimate the herd immunity threshold for a new vaccine in a rural Indian block, using only vaccination records and reported case data over 12 months. Outline the key variables, data sources, and analytical steps.",
+     "a": "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP). Steps: (1) Calculate monthly coverage from denominator (census) and numerator (doses administered); (2) Plot incidence vs. coverage over time; (3) Identify coverage level where incidence drops sustainably near zero; (4) Estimate Rₑ = 1/(1 - coverage) at that point; (5) Compare with theoretical 1 - 1/R₀. Good answer includes confounding factors (migration, serosurveys). Poor answer ignores time lag, uses crude coverage without age-stratification, or confuses correlation with causation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

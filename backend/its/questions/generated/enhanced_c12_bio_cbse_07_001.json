@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_001",
+   "title": "c12_bio_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the composition of Earth's primitive atmosphere as proposed by Oparin and Haldane, and explain why the absence of free oxygen was essential for chemical evolution.",
+     "a": "The primitive atmosphere was reducing, containing CH₄ (methane), NH₃ (ammonia), H₂ (hydrogen), H₂O (water vapour), and CO₂ (carbon dioxide), with NO free O₂. Free oxygen would oxidise and destroy the simple organic molecules (amino acids, nucleotides) as they formed, preventing their accumulation. A wrong answer (e.g., \"atmosphere had O₂\" or \"O₂ helped form organics\") reveals the student confuses modern oxidising atmosphere with early reducing conditions, or misunderstands oxidation as constructive rather than destructive to nascent organics.",
+     "self_check": true
+    },
+    {
+     "q": "In the Miller-Urey experiment, a mixture of CH₄, NH₃, H₂, and H₂O was subjected to electrical sparks for a week. The products included glycine, alanine, and aspartic acid. Explain why the experiment used a closed circulation system with a condenser and a boiling flask, and what the condenser simulated in nature.",
+     "a": "The boiling flask simulated volcanic heat/ocean evaporation, the spark electrodes simulated lightning, and the condenser simulated atmospheric cooling and rain — returning dissolved organics to the \"ocean\" flask, mimicking the natural water cycle that concentrated organics in primordial seas. A wrong answer (e.g., \"condenser just cooled the gas\" or \"it prevented explosion\") shows the student misses the geological analogy: the apparatus was a mini Earth, not just a chemistry setup. The closed loop is critical — it models continuous recycling, not a one-time reaction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Miller-Urey proved life originated exactly as Oparin-Haldane described.\" Evaluate this statement. What does the experiment actually demonstrate, and what critical step remains unproven?",
+     "a": "The statement is FALSE. Miller-Urey demonstrated Stage 2 only: abiotic synthesis of simple organic monomers (amino acids) from inorganic precursors under simulated early Earth conditions. It did NOT demonstrate polymerisation into macromolecules (Stage 3), formation of bounded protocells (Stage 4), or the emergence of self-replication and metabolism. A wrong evaluation (accepting the claim) reveals confusion between \"necessary condition demonstrated\" and \"sufficient mechanism proven\" — a classic competitive-exam trap where partial evidence is overgeneralised.",
+     "self_check": true
+    },
+    {
+     "q": "Compare coacervates (Oparin) and microspheres (Fox) as protocell models. Identify TWO structural similarities and ONE functional difference relevant to the origin of metabolism.",
+     "a": "Similarities: (1) Both are spherical, membrane-bounded structures formed by spontaneous self-assembly of macromolecules (coacervates from protein-polysaccharide complexes; microspheres from proteinoids). (2) Both selectively concentrate molecules from surroundings and maintain an internal environment distinct from the external medium. Difference: Coacervates lack a true lipid bilayer — their boundary is a phase-separated interface, so they cannot maintain steep electrochemical gradients. Microspheres, formed from thermally polymerised proteinoids, have a more defined proteinaceous boundary that can exhibit selective permeability and even rudimentary enzyme-like activity (Fox showed they catalyse peptide bond formation). A wrong answer (e.g., \"both have lipid membranes\" or \"both do photosynthesis\") reveals failure to distinguish physical self-assembly from biological membrane function.",
+     "self_check": true
+    },
+    {
+     "q": "If the early atmosphere were weakly oxidising (containing some CO₂ and N₂ but little CH₄/NH₃), how would the yield and variety of amino acids in a Miller-Urey type experiment change? Justify using the role of H₂ and reducing power.",
+     "a": "Yield and variety would DECREASE significantly. CH₄ and NH₃ provide the reducing power (H atoms, C-N bonds) needed to form C-C and C-N bonds in amino acids. In a CO₂/N₂ atmosphere, carbon is fully oxidised (+4) and nitrogen is inert (N≡N); reducing them to amino acid oxidation states requires massive energy input and specific catalysts (e.g., FeS minerals at hydrothermal vents). The classic experiment's high yield depends on the ready availability of reduced C and N. A wrong answer (e.g., \"same yield, just slower\" or \"more variety because CO₂ has more carbon\") shows the student doesn't track oxidation states or the thermodynamic role of H₂ as electron donor.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern follow-up experiment to test whether clay minerals (e.g., montmorillonite) could have catalysed the polymerisation of amino acids into peptides on early Earth. Specify: (a) reactants, (b) conditions, (c) analytical method to detect products, and (d) one control essential for validity.",
+     "a": "(a) Reactants: aqueous solution of activated amino acids (e.g., aminoacyl adenylates or amino acids + condensing agent like cyanamide) + montmorillonite clay. (b) Conditions: wet-dry cycles (simulating tidal pools) at 50-80°C, pH 6-8, for days-weeks. (c) Analysis: HPLC-MS to identify and quantify peptide oligomers (di-, tri-peptides) and determine sequence distribution. (d) Essential control: identical reaction WITHOUT clay (or with inert sand) to confirm catalysis is due to clay's surface chemistry, not thermal condensation alone. A poor answer (missing control, using only amino acids without activation, or suggesting gel electrophoresis for small peptides) reveals lack of experimental design rigour — confusing detection method with separation principle, or ignoring the thermodynamic barrier to condensation in water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_002",
+   "title": "c11_geo_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define the Inter-Tropical Convergence Zone (ITCZ) and state its typical latitudinal position over India during the peak southwest monsoon season (July-August).",
+     "a": "The ITCZ is a low-pressure trough where northeast and southeast trade winds converge, characterised by ascending air, cloud formation, and heavy rainfall. During peak monsoon (July-August), it shifts to 20°-25°N, roughly along the Gangetic plains from Rajasthan to West Bengal. A wrong answer (e.g., \"ITCZ stays at the equator\" or \"ITCZ is a high-pressure zone\") reveals confusion between the equatorial trough's mean position and its seasonal migration, or misunderstanding of convergence vs. divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the subtropical westerly jet stream must shift north of the Himalayas for the southwest monsoon to onset over Kerala.",
+     "a": "The subtropical westerly jet (STWJ) flows south of the Himalayas in winter, maintaining subsidence and stable conditions over India. Its northward shift beyond the Himalayas (around late May) removes this subsidence, allows the ITCZ to move north, and permits the tropical easterly jet (TEJ) to establish over the peninsula — creating upper-level divergence that sustains monsoon convection. A wrong answer focusing only on surface winds misses the critical upper-air control: the STWJ acts as a \"lid\" suppressing convection; its removal is the trigger.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of pressure gradient force, calculate the approximate pressure difference (in hPa) required between the Mascarene High (near 20°S, 60°E) and the Tibetan thermal low (near 30°N, 90°E) to generate the low-level Somali Jet (speed ~40 m/s) at 15°N latitude, assuming geostrophic balance and air density ρ = 1.1 kg/m³. (Coriolis parameter f = 2Ω sin φ, Ω = 7.292 × 10⁻⁵ rad/s)",
+     "a": "Step 1: Coriolis parameter at 15°N: f = 2 × 7.292×10⁻⁵ × sin(15°) = 3.78×10⁻⁵ s⁻¹. Step 2: Geostrophic wind equation: Vg = (1/ρf) × (ΔP/Δn). Step 3: Distance Δn ≈ 5500 km = 5.5×10⁶ m (great-circle distance). Step 4: Rearrange: ΔP = Vg × ρ × f × Δn = 40 × 1.1 × 3.78×10⁻⁵ × 5.5×10⁶ = 9120 Pa ≈ 91 hPa. Step 5: Actual observed gradient is ~15-20 hPa because flow is not purely geostrophic (friction, curvature, ageostrophic component). A wrong answer using ΔP = ρV² or ignoring Coriolis reveals confusion between gradient wind and geostrophic balance, or misunderstanding the scale of monsoon pressure gradients.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Tibetan Plateau as an \"elevated heat source\" versus the Mascarene High as a \"remote forcing\" in monsoon onset. Which plays the dominant role in the *initial* onset over Kerala, and why?",
+     "a": "The Tibetan Plateau (elevated heat source) generates a deep thermal low by June, creating the continental-scale pressure gradient. However, the *initial* onset over Kerala (June 1) is triggered by the Mascarene High's cross-equatorial flow (Somali Jet) which brings moisture and vorticity. The Plateau's heating is necessary but not sufficient for onset timing; the Mascarene High's intensity and the Somali Jet's organisation determine the exact onset date. A wrong answer claiming \"Tibet causes onset\" ignores the observed lag: Tibet heats from April, but monsoon waits for the cross-equatorial surge. Confusing \"necessary condition\" with \"trigger\" is the key error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The tropical easterly jet (TEJ) is a *result* of the monsoon, not a *cause* of monsoon onset.\" Support your evaluation with dynamical reasoning.",
+     "a": "The statement is largely correct. The TEJ (at ~150 hPa, 10-15°N) forms due to strong latent heat release from monsoon convection over the Bay of Bengal and northeastern India, creating an upper-level anticyclone (Tibetan High) whose southern flank produces easterly flow via thermal wind balance. It *amplifies* and *sustains* the monsoon by providing upper-level divergence, but the onset trigger is the STWJ withdrawal and low-level cross-equatorial flow. A wrong answer claiming \"TEJ causes onset\" reverses causality: TEJ peaks in July-August, weeks after onset. This confusion stems from mixing up the monsoon *maintenance* mechanism with the *onset* mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual model (flowchart or annotated diagram description) showing the sequence of events from April heating to monsoon onset over Kerala, incorporating: Tibetan heating, ITCZ migration, STWJ withdrawal, Mascarene High intensification, Somali Jet formation, and TEJ establishment. Label each step with approximate timing (month/week).",
+     "a": "Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens. (2) Early May: ITCZ moves to 10°N; STWJ still south of Himalayas. (3) Mid-May: Mascarene High strengthens (winter hemisphere cooling); cross-equatorial flow begins. (4) Late May: STWJ jumps north of Himalayas (key trigger); ITCZ jumps to 20°N. (5) June 1: Somali Jet (Findlater Jet) peaks at 850 hPa; moisture surge hits Kerala → onset. (6) Mid-June: Deep convection over NE India → latent heating → Tibetan High forms → TEJ establishes at 150 hPa. A poor model misses the STWJ jump as the gatekeeper, or shows ITCZ moving gradually rather than jumping, or omits the Mascarene High's role in the low-level jet.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_003",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_003",
+   "title": "c6_chemistry_ch05_003",
+   "questions": [
+    {
+     "q": "What are the two specific substances present in the environment that must react with iron to cause rusting?",
+     "a": "The two substances are oxygen (from air) and water (from moisture). A wrong answer suggests the student is guessing common environmental factors (like dust or sunlight) rather than identifying the specific chemical reactants needed for oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the formation of rust considered a \"chemical change\" rather than a \"physical change\"?",
+     "a": "It is a chemical change because a new substance (iron oxide) is formed with different properties, and the process cannot be reversed by simple means. A wrong answer suggests the student believes the change is merely in shape or appearance, missing the fact that the material itself has changed composition.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a block of pure iron and it turns into rust, what happens to its ability to stick to a magnet?",
+     "a": "The block will lose its ability to stick to a magnet because rust is non-magnetic. A wrong answer indicates the student has not grasped that the physical properties of the material (magnetism) change when the chemical structure changes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical appearance of iron and rust.",
+     "a": "Iron is grey, hard, and strong, whereas rust is reddish-brown, brittle, and weak. A wrong answer reveals confusion between the original metal and the product of the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "If an iron rod is kept in a vacuum (an area with no air or moisture), will it rust? Explain why.",
+     "a": "No, it will not rust because the necessary reactants (oxygen and water) are absent. This tests the student's ability to apply the conditions of the chemical change to a hypothetical scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to prove that moisture is necessary for iron to rust.",
+     "a": "Place one iron nail in a dry container and one in a container with water/moisture, then observe which one changes over a week. A poor answer fails to include a \"control\" (the dry nail) to compare against, showing a lack of scientific methodology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

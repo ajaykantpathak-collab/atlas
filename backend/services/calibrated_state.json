@@ -1,0 +1,390 @@
+{
+  "calibration_applied": true,
+  "timestamp": "2026-08-31 20:33:56",
+  "agents": {
+    "ethics_bot": {
+      "params": {
+        "hint_cap_per_question": 3,
+        "attempt_before_hint": 1,
+        "scope_strictness": "strict",
+        "answer_leak_threshold": "evaluate",
+        "unicode_script_guard": true,
+        "empty_diagnostic_fallback": "generate_from_misconceptions",
+        "misconception_revelation_policy": "address_by_name_without_solution",
+        "off_topic_redirect_attempts": 2
+      },
+      "subject_overrides": {
+        "amath": {
+          "hint_cap_per_question": 5,
+          "attempt_before_hint": 1,
+          "rationale": "Procedural math has multi-step solution paths (quadratic formula, matrix multiplication, series sums). Each step can independently fail, requiring up to 5 hints to walk through the procedure."
+        },
+        "cs": {
+          "hint_cap_per_question": 4,
+          "attempt_before_hint": 1,
+          "rationale": "SQL UPDATE and stack operations have syntax-sensitive steps where one wrong keyword derails the entire answer."
+        },
+        "angl": {
+          "hint_cap_per_question": 2,
+          "attempt_before_hint": 2,
+          "rationale": "Reflective and creative writing tasks have multiple valid approaches; students need space to attempt before nudging."
+        },
+        "hin": {
+          "hint_cap_per_question": 2,
+          "attempt_before_hint": 2,
+          "unicode_script_guard": true,
+          "rationale": "Literary analysis in Hindi has interpretive flexibility; premature hinting stifles personal response. Devanagari script requires additional encoding validation."
+        },
+        "engl": {
+          "hint_cap_per_question": 2,
+          "attempt_before_hint": 2,
+          "rationale": "Literary analysis (imagery, irony, symbolism) has layered interpretations; students benefit from multiple attempts to develop their own reading."
+        },
+        "hpe": {
+          "hint_cap_per_question": 3,
+          "attempt_before_hint": 1,
+          "rationale": "Fitness tests have correct/incorrect technique — procedural errors must be caught early."
+        },
+        "bio": {
+          "answer_leak_threshold": "analyze",
+          "rationale": "Even at analyze level, biology misconceptions (C4 pathway, cancer classification) are conceptually dense; revealing full answers too early prevents the student from working through the mechanism."
+        }
+      },
+      "rationale": "The data reveals that most nodes carry 2–3 tightly scoped misconceptions tied to specific curriculum boundaries (e.g., C3 vs C4 pathway in bio, debit vs credit side in accounting, LIFO in CS). hint_ca"
+    },
+    "assessment_bot": {
+      "params": {
+        "difficulty_offset_by_cognitive_level": {
+          "remember": -1.0,
+          "understand": -0.3,
+          "apply": 0.0,
+          "analyze": 0.5,
+          "evaluate": 1.0,
+          "create": 1.3
+        },
+        "question_type_by_mastery": {
+          "0.0-0.2": "recall",
+          "0.2-0.4": "recall_with_context",
+          "0.4-0.6": "diagnostic",
+          "0.6-0.8": "application",
+          "0.8-1.0": "synthesis"
+        },
+        "irt_discrimination_target": 0.45,
+        "question_pool_refresh_rate": 0.3,
+        "misconception_coverage_weight": 0.6,
+        "scenario_complexity_by_subject": {
+          "default": "moderate",
+          "acc": "high",
+          "amath": "moderate",
+          "bio": "moderate",
+          "bs": "high"
+        }
+      },
+      "subject_overrides": {
+        "amath": {
+          "irt_discrimination_target": 0.55,
+          "scenario_complexity": "low",
+          "rationale": "Math problems are precise and unambiguous — high discrimination is achievable because answers are binary (correct/incorrect). Scenarios are minimal."
+        },
+        "engl": {
+          "irt_discrimination_target": 0.35,
+          "scenario_complexity": "high",
+          "rationale": "Literary analysis has multiple valid interpretations, so discrimination must be lower. Scenario complexity is high because questions embed extract-based analysis."
+        },
+        "hin": {
+          "irt_discrimination_target": 0.35,
+          "scenario_complexity": "high",
+          "rationale": "Same as English — interpretive literary analysis in Hindi has multiple valid readings."
+        },
+        "cs": {
+          "irt_discrimination_target": 0.5,
+          "scenario_complexity": "moderate",
+          "rationale": "SQL and data structure questions have clear correctness criteria but embed scenarios (library databases, student records) that add moderate complexity."
+        },
+        "bio": {
+          "irt_discrimination_target": 0.48,
+          "scenario_complexity": "moderate",
+          "rationale": "Biology has factually correct answers but requires multi-step reasoning (e.g., C4 plant in temperate climate) that allows good discrimination."
+        }
+      },
+      "rationale": "The dataset shows a clear cognitive-level hierarchy. 'remember' nodes (bio definition, swimming facts) are pure recall and should be easiest (offset -1.0). 'apply' is the dominant level across most su"
+    },
+    "scaffold_bot": {
+      "params": {
+        "hint_level_thresholds": {
+          "mastery_0.0-0.3_and_frustration_low": 1,
+          "mastery_0.0-0.3_and_frustration_med": 2,
+          "mastery_0.3-0.6_and_frustration_low": 1,
+          "mastery_0.3-0.6_and_frustration_med": 2,
+          "mastery_0.3-0.6_and_frustration_high": 3,
+          "mastery_0.6-0.8_and_frustration_low": 0,
+          "mastery_0.6-0.8_and_frustration_med": 1,
+          "mastery_0.8-1.0": 0
+        },
+        "max_hints_before_redirect": 3,
+        "scaffold_escalation_rate": "moderate",
+        "hint_style_by_subject": {
+          "default": "conceptual_nudge",
+          "amath": "step_decomposition",
+          "chem": "principle_reminder",
+          "acc": "rule_application_frame",
+          "cs": "syntax_template",
+          "bio": "process_visualization",
+          "engl": "textual_evidence_prompt",
+          "hin": "contextual_interpretation"
+        },
+        "prerequisite_jump_threshold": 0.15
+      },
+      "subject_overrides": {
+        "amath": {
+          "hint_level_thresholds": {
+            "mastery_0.0-0.3_and_frustration_med": 1,
+            "mastery_0.0-0.3_and_frustration_high": 2,
+            "mastery_0.0-0.3_and_frustration_critical": 3
+          },
+          "max_hints_before_redirect": 4,
+          "scaffold_escalation_rate": "fast",
+          "rationale": "Math misconceptions in the data (discriminant sign error, sigma-n confusion, matrix element-wise vs dot-product) are procedural and each step is independently diagnosable. Fast escalation prevents students from grinding on one procedural mistake."
+        },
+        "bio": {
+          "max_hints_before_redirect": 3,
+          "hint_style": "process_visualization_with_analogy",
+          "rationale": "C4 pathway, spermatogenesis, and cancer concepts require understanding multi-step biological processes. Hints should use process diagrams and analogies (e.g., CO2 pump analogy for C4) rather than text alone."
+        },
+        "hin": {
+          "max_hints_before_redirect": 2,
+          "scaffold_escalation_rate": "slow",
+          "hint_style": "contextual_interpretation",
+          "rationale": "Hindi literary analysis (काकी, बेटी का बंधन) requires cultural and emotional context. Slow escalation allows students to develop personal interpretations. Premature scaffolding undermines literary engagement."
+        },
+        "engl": {
+          "max_hints_before_redirect": 2,
+          "scaffold_escalation_rate": "slow",
+          "hint_style": "textual_evidence_prompt",
+          "rationale": "Literary analysis (The Lament, Blake poems) benefits from students forming their own reading first. Hints should direct to textual evidence rather than providing interpretation."
+        },
+        "cs": {
+          "hint_style": "syntax_template_with_explanation",
+          "max_hints_before_redirect": 4,
+          "rationale": "SQL and data structure misconceptions (UPDATE without WHERE, LIFO confusion) are syntax-sensitive. Templates (e.g., 'UPDATE ... SET ... WHERE ...') with brief explanations are most effective."
+        }
+      },
+      "rationale": "The data reveals that misconceptions cluster by type and depth. For low-mastery students (0.0-0.3), level-2 hints (partial worked examples) are needed when frustration is medium — this matches the pat"
+    },
+    "feedback_bot": {
+      "params": {
+        "feedback_type_by_error_match": {
+          "known_misconception": "targeted_remediation",
+          "partial_match": "guided_correction",
+          "novel_error": "generic_feedback_with_curiosity_prompt"
+        },
+        "misconception_addressal_priority": "most_severe_first",
+        "positive_feedback_ratio": 0.4,
+        "misconception_naming_policy": "name_and_explain",
+        "error_specificity_level": "high",
+        "feedback_length_by_cognitive_level": {
+          "remember": "brief",
+          "understand": "moderate",
+          "apply": "detailed",
+          "analyze": "detailed_with_framework",
+          "evaluate": "socratic",
+          "create": "encouraging_reflective"
+        },
+        "correction_first_then_explanation": true
+      },
+      "subject_overrides": {
+        "amath": {
+          "positive_feedback_ratio": 0.35,
+          "feedback_type_by_error_match": {
+            "known_misconception": "step_by_step_remediation"
+          },
+          "rationale": "Math students need dense, precise correction. Procedural errors (sign mistakes, formula confusion) require immediate correction before explanation. Lower positive ratio because math feedback should be direct."
+        },
+        "engl": {
+          "positive_feedback_ratio": 0.55,
+          "feedback_type_by_error_match": {
+            "known_misconception": "socratic_questioning"
+          },
+          "rationale": "Literary analysis benefits from questions that guide the student to self-discovery rather than direct correction. Higher positive ratio to encourage risk-taking in interpretation."
+        },
+        "hin": {
+          "positive_feedback_ratio": 0.5,
+          "misconception_naming_policy": "explain_without_labeling",
+          "rationale": "Hindi literary analysis is culturally sensitive. Directly labeling a student's reading as a 'misconception' can feel dismissive of their personal interpretation. Feedback should explain alternative readings without dismissing their initial response."
+        },
+        "acc": {
+          "feedback_type_by_error_match": {
+            "known_misconception": "contrastive_feedback"
+          },
+          "rationale": "Accounting misconceptions in the data are almost always confusions between two similar concepts (book-keeping vs accounting, debit vs credit side, operating vs financing costs). Contrastive feedback ('X is not Y — here is the key difference...') directly mirrors the misconception structure in the data."
+        },
+        "cs": {
+          "feedback_type_by_error_match": {
+            "known_misconception": "show_correct_then_explain"
+          },
+          "rationale": "CS misconceptions (UPDATE without WHERE, stack LIFO confusion) benefit from showing the correct code/output first, then explaining the difference. This mirrors the diagnostic answer pattern in the data."
+        }
+      },
+      "rationale": "The data shows three categories of student errors: (1) known misconceptions that map directly to the documented misconception list (e.g., recording dishonoured cheque on debit side), (2) partial match"
+    },
+    "motivator_bot": {
+      "params": {
+        "frustration_threshold": 0.7,
+        "boredom_threshold": 0.3,
+        "celebration_frequency": "milestone_based",
+        "empathy_vs_challenge_balance": "challenge_first_then_empathy",
+        "frustration_intervention_type": "reframe_and_simplify",
+        "boredom_intervention_type": "increase_complexity_or_add_competition",
+        "mastery_celebration_thresholds": [
+          0.5,
+          0.75,
+          1.0
+        ],
+        "struggle_normalization_triggers": [
+          "procedural_error_repeated",
+          "conceptual_confusion_detected"
+        ],
+        "growth_mindset_language": true
+      },
+      "subject_overrides": {
+        "amath": {
+          "frustration_threshold": 0.6,
+          "boredom_threshold": 0.25,
+          "rationale": "Math has the highest frustration potential due to binary correctness. Procedural errors accumulate faster. Lower boredom threshold because repetitive calculation practice is common."
+        },
+        "engl": {
+          "frustration_threshold": 0.8,
+          "boredom_threshold": 0.4,
+          "empathy_vs_challenge_balance": "empathy_first_then_challenge",
+          "rationale": "Literary analysis is subjective and students may feel their interpretation is 'wrong.' Higher frustration tolerance and empathy-first approach prevents students from feeling their personal reading is being rejected."
+        },
+        "hin": {
+          "frustration_threshold": 0.75,
+          "boredom_threshold": 0.35,
+          "empathy_vs_challenge_balance": "empathy_first_then_challenge",
+          "rationale": "Same as English — Hindi literary analysis is culturally and emotionally grounded. Students need reassurance that multiple interpretations exist before being challenged."
+        },
+        "pe": {
+          "celebration_frequency": "every_attempt",
+          "frustration_threshold": 0.8,
+          "rationale": "Physical Education has low-stakes assessment. Effort and participation matter more than correctness. Celebrate every attempt to build confidence."
+        },
+        "bio": {
+          "frustration_intervention_type": "analogy_based_reframe",
+          "rationale": "Biology misconceptions in the data involve complex processes (meiosis, C4 pathway). Reframing through analogy (e.g., 'the cell is a factory') is more effective than simplification alone."
+        }
+      },
+      "rationale": "The data reveals two distinct motivation profiles across subjects. Procedural subjects (amath, chem, cs) cause frustration through repeated errors (wrong signs, syntax errors, formula misapplication) "
+    },
+    "tutor_bot": {
+      "params": {
+        "format_by_learning_style": {
+          "visual": "diagram_or_chart",
+          "auditory": "step_by_step_narration",
+          "kinesthetic": "interactive_problem_solving",
+          "reading_writing": "structured_text_with_examples",
+          "mixed": "multi_modal_default"
+        },
+        "prerequisite_check_depth": 2,
+        "explanation_depth_by_mastery": {
+          "0.0-0.3": "foundational_with_analogies",
+          "0.3-0.6": "conceptual_with_examples",
+          "0.6-0.8": "concise_with_edge_cases",
+          "0.8-1.0": "reference_summary"
+        },
+        "example_density_by_subject": {
+          "default": "moderate",
+          "amath": "high",
+          "chem": "high",
+          "acc": "high",
+          "cs": "high",
+          "bio": "moderate",
+          "geo": "moderate",
+          "engl": "low",
+          "hin": "low"
+        },
+        "worked_example_fade_rate": 0.3,
+        "concrete_to_abstract_progression": true,
+        "local_context_integration": true
+      },
+      "subject_overrides": {
+        "amath": {
+          "format_by_learning_style": {
+            "visual": "graph_plus_formula",
+            "kinesthetic": "guided_calculation_worksheet"
+          },
+          "example_density": "very_high",
+          "prerequisite_check_depth": 3,
+          "worked_example_fade_rate": 0.2,
+          "rationale": "Applied math has chained prerequisites (arithmetic mean → standard deviation → probability). Three-tier prerequisite checking is needed. Very high example density with slow fade (0.2) because procedural fluency requires extensive practice before independent problem-solving."
+        },
+        "acc": {
+          "format_by_learning_style": {
+            "visual": "tabular_format_with_columns",
+            "reading_writing": "journal_entry_template"
+          },
+          "example_density": "high",
+          "prerequisite_check_depth": 2,
+          "rationale": "Accounting is taught through journal entries and T-accounts in the data. Templates and tabular formats are the most effective presentation mode. Prerequisites include double-entry principles and account classification."
+        },
+        "bio": {
+          "format_by_learning_style": {
+            "visual": "process_flow_diagram",
+            "kinesthetic": "label_the_diagram"
+          },
+          "example_density": "moderate",
+          "prerequisite_check_depth": 2,
+          "rationale": "Biology content (cell structure, meiosis, C4 pathway) is process-heavy. Diagrams and labeling exercises are most effective. Prerequisites include cell biology fundamentals and basic chemistry."
+        },
+        "cs": {
+          "format_by_learning_style": {
+            "kinesthetic": "live_code_execution",
+            "visual": "code_with_annotations"
+          },
+          "example_density": "very_high",
+          "prerequisite_check_depth": 2,
+          "rationale": "CS topics (SQL, stacks, HTTP) benefit from executable code examples and annotated outputs. Very high example density because programming concepts click through repeated pattern exposure. Prerequisites include basic programming logic and database fundamentals."
+        },
+        "hin": {
+          "format_by_learning_style": {
+            "reading_writing": "annotated_text_with_glossary",
+            "auditory": "recitation_and_discussion"
+          },
+          "example_density": "low",
+          "prerequisite_check_depth": 1,
+          "local_context_integration": "high",
+          "rationale": "Hindi literature benefits from annotated text (तт्पर्य annotations) and glossary support for difficult words. Low example density because literary analysis is interpretive, not procedural. Deep local cultural context is essential."
+        },
+        "engl": {
+          "format_by_learning_style": {
+            "reading_writing": "annotated_passage",
+            "visual": "theme_mapping_diagram"
+          },
+          "example_density": "low",
+          "prerequisite_check_depth": 1,
+          "rationale": "English literary analysis uses annotated passages and theme-mapping diagrams rather than worked examples. Shallow prerequisite depth because analysis skills transfer across texts."
+        },
+        "hpe": {
+          "format_by_learning_style": {
+            "kinesthetic": "video_demonstration_plus_practice",
+            "visual": "technique_breakdown_sequence"
+          },
+          "example_density": "moderate",
+          "prerequisite_check_depth": 1,
+          "rationale": "Physical education topics (abdominal curl test, BMI classification, pranayama) require visual demonstrations of technique. Video or image sequences are essential. Prerequisites are minimal for individual fitness tests."
+        },
+        "geo": {
+          "format_by_learning_style": {
+            "visual": "map_overlay_and_diagram"
+          },
+          "example_density": "moderate",
+          "prerequisite_check_depth": 2,
+          "rationale": "Geography (Koppen classification, dot maps, urbanization) is inherently spatial. Maps, diagrams, and overlays are the primary teaching format. Prerequisites include basic map-reading and climate fundamentals."
+        }
+      },
+      "rationale": "The data shows strong evidence for format variation by subject. Math and CS problems in the dataset are inherently procedural and benefit from step-by-step worked examples (the diagnostic answers for "
+    }
+  },
+  "orchestrator_rules": 25,
+  "cross_agent_rules_count": 14
+}

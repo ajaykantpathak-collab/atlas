@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch3_7",
+   "title": "c8_civ_ch3_7",
+   "questions": [
+    {
+     "q": "What is the primary judicial officer in charge of civil cases at the district level called?",
+     "a": "The primary judicial officer for civil cases at the district level is called the District Judge. When criminal cases are tried at the same level, the presiding officer is known as the Sessions Judge. A wrong answer—such as naming a High Court Chief Justice or a District Collector—reveals a confusion between executive administrative officers (like collectors) and judicial officers, or a failure to distinguish between state-level and district-level courts.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian judicial system have subordinate courts at the district and local levels instead of handling all lawsuits directly in the Supreme Court or High Courts?",
+     "a": "Subordinate courts exist to ensure local accessibility, reduce travel burdens on ordinary citizens, and manage the massive volume of daily civil and criminal disputes efficiently. A wrong answer—such as thinking subordinate courts are there just to collect fines for the government—shows a misunderstanding of the judiciary's primary role in dispute resolution and accessible justice.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper in a district town discovers that a supplier has breached a major business contract, causing financial loss. Which local court should the shopkeeper approach first to file a civil suit for damages?",
+     "a": "The shopkeeper should approach the local civil court (subordinate court or civil judge junior/senior division) within that district, which handles civil disputes concerning property, contracts, and money matters. A wrong answer—such as filing an appeal in the Supreme Court directly—indicates a failure to understand original jurisdiction and the rule that lawsuits must begin at the lowest appropriate judicial tier.",
+     "self_check": true
+    },
+    {
+     "q": "How does the division of work between a District Judge (handling civil cases) and a Sessions Judge (handling criminal cases) reflect the dual nature of legal disputes in society?",
+     "a": "Society faces two distinct categories of legal wrongs: civil disputes (involving rights, contracts, property, and family matters between private parties) and criminal offenses (involving acts harmful to society at large, like theft, assault, or fraud, prosecuted by the state). Separating them into civil courts and sessions courts ensures specialized handling, proper procedural safeguards, and appropriate remedies such as damages versus imprisonment. A wrong answer treats all legal trouble as the same, confusing civil compensation with criminal punishment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because district and subordinate courts are under the administrative control of the State High Court, their decisions are completely independent of local political influence.\" Is this statement fully accurate?",
+     "a": "The statement is partially accurate regarding institutional design: placing subordinate courts under High Court control (rather than local politicians or the executive) is a vital constitutional safeguard protecting judicial independence. However, institutional independence alone cannot fully shield local courts from external pressures without vigilant public awareness and strong professional ethics. A wrong answer assumes that administrative oversight guarantees absolute perfection without considering local socioeconomic pressures or infrastructural backlogs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short procedural outline showing the step-by-step path a local property dispute would take from its initial filing in a subordinate court up to a potential appeal at the district court level.",
+     "a": "A good response outlines: (1) Filing a plaint in the lowest competent Civil Judge's court; (2) Service of summons to the defendant to present their defense; (3) Trial, hearing of arguments, and examination of evidence; (4) Pronouncement of judgment by the Civil Judge; and (5) Filing an appeal before the District Judge if either party is dissatisfied with the initial verdict. A poor answer confuses criminal trial steps (like police FIRs and arrest warrants) with civil lawsuits or jumps straight to the Supreme Court.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

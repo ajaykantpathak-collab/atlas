@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_002",
+   "title": "c10_bio_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define a monohybrid cross and state the phenotypic ratio observed in the F2 generation when Mendel crossed pure-breeding tall and dwarf pea plants.",
+     "a": "A monohybrid cross is a cross between two pure-breeding parents differing in one pair of contrasting traits. The F2 phenotypic ratio is 3:1 (dominant:recessive). A wrong answer (e.g., saying 1:2:1 phenotypic ratio or defining monohybrid as involving two traits) reveals confusion between genotypic and phenotypic ratios or between monohybrid and dihybrid crosses.",
+     "self_check": true
+    },
+    {
+     "q": "In a monohybrid cross of pea plants for seed shape (round R dominant over wrinkled r), an F1 plant (Rr) is self-pollinated. Explain why wrinkled seeds reappear in the F2 generation even though they were absent in F1.",
+     "a": "Wrinkled seeds reappear because the recessive allele (r) is not lost in F1 heterozygotes (Rr) — it is masked by the dominant allele (R). During gamete formation in F1, alleles segregate so that 50% of gametes carry r. When two r gametes fuse (probability 1/4), the homozygous recessive (rr) genotype appears, expressing the wrinkled phenotype. A wrong answer suggesting blending or mutation reveals a fundamental misunderstanding of particulate inheritance and allele segregation.",
+     "self_check": true
+    },
+    {
+     "q": "A student crosses a pure-breeding tall pea plant (TT) with a pure-breeding dwarf plant (tt). The F1 plants are all tall. If the student now crosses an F1 plant with a dwarf plant (test cross), what phenotypic ratio is expected in the offspring? Show the Punnett square.",
+     "a": "The cross is Tt × tt. Gametes: T, t from F1 and t from dwarf. Offspring genotypes: Tt (tall) and tt (dwarf) in 1:1 ratio. Phenotypic ratio = 1 tall : 1 dwarf. A wrong answer (e.g., 3:1 or all tall) reveals failure to distinguish self-pollination of F1 (Tt × Tt) from a test cross (Tt × tt), a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genotypic and phenotypic ratios in the F2 generation of a monohybrid cross. Why are they different? Use the terms homozygous dominant, heterozygous, and homozygous recessive in your explanation.",
+     "a": "Genotypic ratio = 1 TT : 2 Tt : 1 tt (1:2:1). Phenotypic ratio = 3 tall : 1 dwarf (3:1). They differ because both TT and Tt express the same dominant phenotype (tall), so three genotypic classes collapse into two phenotypic classes. A wrong answer stating they are the same or confusing genotype with phenotype shows lack of conceptual clarity on dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In Mendel's monohybrid cross, the F1 generation shows an intermediate trait because the alleles blend.\" Evaluate this statement and correct it using evidence from Mendel's experiments.",
+     "a": "The statement is incorrect. Mendel's F1 showed only the dominant trait (e.g., all tall), not an intermediate. The recessive trait reappeared unchanged in F2, proving alleles do not blend but segregate intact. This particulate inheritance is the foundation of genetics. A wrong evaluation (agreeing with blending) indicates the student holds the pre-Mendelian \"blending inheritance\" misconception, which Mendel disproved.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using pea plants (or any locally available plant with a clear dominant/recessive trait) to verify Mendel's 3:1 phenotypic ratio in F2. List the steps, controls, and how you would count and analyze results.",
+     "a": "Steps: (1) Obtain pure-breeding lines for contrasting traits (e.g., green vs. yellow seeds). (2) Cross-pollinate them (P generation). (3) Grow F1 seeds — confirm all show dominant trait. (4) Self-pollinate multiple F1 plants. (5) Collect F2 seeds, grow them, count phenotypes. (6) Use chi-square test to compare observed ratio to 3:1. Controls: prevent unwanted pollination, use large sample size (>100 F2 plants). A poor answer lacking controls, small sample, or statistical check shows inability to design a valid heredity experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

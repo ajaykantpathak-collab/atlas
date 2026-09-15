@@ -1,0 +1,247 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Mineral and Energy Resources",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.205.1",
+   "title": "Distribution of Key Minerals",
+   "section": "Distribution of Minerals",
+   "definition": "Metallic minerals like iron, manganese, bauxite and copper occur mainly in the peninsular plateau's old crystalline rocks, and over 97 per cent of coal reserves lie in the valleys of Damodar, Sone, Mahanadi and Godavari, making mineral geography highly concentrated.",
+   "formula": "outside_share = 100 - valley_share",
+   "key_idea": "Subtracting the valley share of coal from 100 gives the coal lying outside these valleys.",
+   "textbook_ref": "legy205.txt distribution of minerals and coal reserves (over 97 per cent in valleys)",
+   "question_patterns": [
+    "where do India's metallic minerals mainly occur",
+    "compute the coal share outside the great valleys",
+    "name the coal-bearing valleys of peninsular India",
+    "why does bauxite suit plateau regions",
+    "state the distribution of manganese",
+    "relate geology to mineral concentration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the valley share",
+     "explain": "over 97 per cent of coal reserves lie in the valleys",
+     "compute": "valley_share = 97"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the remainder is coal outside these valleys",
+     "compute": "outside_share = 100 - valley_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.205.2",
+   "title": "Ferrous, Non-ferrous and Non-metallic Minerals",
+   "section": "Ferrous Mineral",
+   "definition": "Ferrous minerals - iron ore, manganese, chromite and nickel - form the backbone of metallurgical industries; non-ferrous minerals like copper, bauxite and lead feed electrical and manufacturing uses, while mica and limestone lead non-metallic minerals.",
+   "formula": "",
+   "key_idea": "Iron ore belts of Odisha-Jharkhand, Durg-Bastar, Bellary-Chitradurga and Maharashtra-Goa anchor India's steel economy.",
+   "textbook_ref": "legy205.txt ferrous, non-ferrous and non-metallic mineral sections",
+   "question_patterns": [
+    "name India's four iron ore belts",
+    "distinguish ferrous from non-ferrous minerals with examples",
+    "which minerals support the electrical industry",
+    "state the uses of limestone and mica",
+    "why is manganese vital for steel making",
+    "describe bauxite distribution in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the minerals",
+     "explain": "iron, manganese, chromite and nickel are ferrous; copper, bauxite and lead are non-ferrous"
+    },
+    {
+     "step": 2,
+     "action": "map the belts",
+     "explain": "Odisha-Jharkhand and Durg-Bastar belts carry the richest hematite"
+    },
+    {
+     "step": 3,
+     "action": "close with uses",
+     "explain": "each mineral feeds a distinct industrial chain"
+    }
+   ]
+  },
+  {
+   "id": "legy.205.3",
+   "title": "Conventional and Non-conventional Energy",
+   "section": "Energy Resources",
+   "definition": "Conventional energy includes coal, petroleum, natural gas and hydel power, while non-conventional sources - solar, wind, tidal, geothermal, biogas - are renewable and decentralised; India's energy strategy pushes non-conventional sources to cut import dependence and pollution.",
+   "formula": "",
+   "key_idea": "Solar and wind energy suit India's geography, from Thar desert sun to the coastal wind corridors of Tamil Nadu and Gujarat.",
+   "textbook_ref": "legy205.txt conventional and non-conventional energy sections",
+   "question_patterns": [
+    "differentiate conventional and non-conventional energy",
+    "state the potential of solar and wind energy in India",
+    "describe biogas as a rural energy source",
+    "where is tidal energy possible in India",
+    "why must India reduce coal dependence",
+    "name geothermal energy sites mentioned in the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the sources",
+     "explain": "coal, oil, gas and hydel are conventional; solar, wind, tidal and biogas are not"
+    },
+    {
+     "step": 2,
+     "action": "match source to place",
+     "explain": "Rajasthan's sun, coastal Tamil Nadu's wind and Gulf of Khambhat's tides fit distinct sources"
+    },
+    {
+     "step": 3,
+     "action": "close with strategy",
+     "explain": "renewables cut imports and local pollution together"
+    }
+   ]
+  },
+  {
+   "id": "legy.205.4",
+   "title": "Conservation of Minerals and Energy",
+   "section": "Conservation of Minerals",
+   "definition": "Minerals are finite and non-reproducible, so conservation demands planned extraction, improved technology, recycling of metals, reduced wastage and substitution; energy conservation adds efficiency standards, mass transit and renewable substitution.",
+   "formula": "",
+   "key_idea": "Recycling one tonne of scrap steel saves ore, coal and energy together - conservation multiplies resources.",
+   "textbook_ref": "legy205.txt conservation of minerals and energy sections",
+   "question_patterns": [
+    "why is conservation of minerals necessary",
+    "list methods of mineral conservation",
+    "how does recycling save energy",
+    "state energy conservation measures for households",
+    "relate public transport to energy saving",
+    "explain substitution with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the finiteness",
+     "explain": "minerals cannot regrow, so every tonne extracted is gone forever"
+    },
+    {
+     "step": 2,
+     "action": "list the tools",
+     "explain": "efficient technology, recycling and substitution stretch the stock"
+    },
+    {
+     "step": 3,
+     "action": "close with behaviour",
+     "explain": "transit choices and efficiency norms conserve at the demand end"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy205_1",
+   "source_ref": "legy205.txt coal valleys passage",
+   "concept": "legy.205.1",
+   "question_type": "compute",
+   "question_pattern": "Over 97 per cent of coal reserves occur in the Damodar, Sone, Mahanadi and Godavari valleys. Compute the share of coal outside these valleys.",
+   "extracted_variables": {
+    "valley_share": 97
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the valley share",
+     "explain": "about 97 per cent lies in the valleys",
+     "compute": "valley_share = 97"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 97 = 3 per cent lies elsewhere",
+     "compute": "outside_share = 100 - valley_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy205_2",
+   "source_ref": "legy205.txt energy sections",
+   "concept": "legy.205.3",
+   "question_type": "short_answer",
+   "question_pattern": "Match four regions of India with suitable non-conventional energy sources.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Thar desert",
+     "explain": "high insolation suits solar plants"
+    },
+    {
+     "step": 2,
+     "action": "Tamil Nadu coast",
+     "explain": "strong sea winds suit wind farms"
+    },
+    {
+     "step": 3,
+     "action": "Gulf of Khambhat",
+     "explain": "high tidal range suits tidal power; rural plains suit biogas"
+    }
+   ]
+  },
+  {
+   "id": "we_legy205_3",
+   "source_ref": "legy205.txt conservation section",
+   "concept": "legy.205.4",
+   "question_type": "short_answer",
+   "question_pattern": "Suggest three measures to conserve minerals in industry.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recycle scrap",
+     "explain": "steel and aluminium scrap reduce ore demand"
+    },
+    {
+     "step": 2,
+     "action": "improve technology",
+     "explain": "better beneficiation raises yield per tonne mined"
+    },
+    {
+     "step": 3,
+     "action": "substitute",
+     "explain": "fibre optics replaced copper in many networks"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy205_1",
+   "source_ref": "legy205.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the distribution of ferrous minerals in India",
+    "compute the coal share outside the main valleys",
+    "differentiate conventional and non-conventional energy",
+    "explain the potential of solar and wind energy in India",
+    "suggest conservation measures for minerals"
+   ]
+  },
+  {
+   "id": "ex_legy205_2",
+   "source_ref": "legy205.txt applied questions, reworded",
+   "questions": [
+    "argue why mineral geography constrains industrial location",
+    "evaluate India's renewable energy strategy",
+    "explain geothermal and tidal prospects",
+    "relate energy conservation to sustainable development",
+    "plan a village energy mix with local sources"
+   ]
+  }
+ ]
+}

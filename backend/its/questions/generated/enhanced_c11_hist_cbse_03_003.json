@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_03_003",
+   "title": "c11_hist_cbse_03_003",
+   "questions": [
+    {
+     "q": "Name the four main tiers of the Roman Catholic Church's clerical hierarchy in descending order of authority during the High Middle Ages (c. 1000–1300).",
+     "a": "The four main tiers are: (1) Pope (Bishop of Rome), (2) Cardinals (princes of the Church, papal electors), (3) Archbishops/Bishops (diocesan ordinaries), (4) Parish Priests (local clergy administering sacraments). A wrong answer — such as placing monks above bishops or omitting cardinals — reveals confusion between the *monastic* hierarchy (abbot → prior → monk) and the *secular* clerical hierarchy that governed dioceses and parishes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Gregorian Reform (1073 onwards) insist on clerical celibacy and the abolition of simony? Explain the institutional logic, not just the moral reasoning.",
+     "a": "Clerical celibacy prevented church offices from becoming hereditary family property (as happened with the *patrimonium* of married priests), ensuring that bishops and abbots remained loyal to the papal centre rather than local dynasties. Abolishing simony (buying/selling offices) protected the Pope's exclusive right to appoint bishops — the *investiture* — which was the primary lever of papal control over the episcopacy. A wrong answer focusing only on \"purity\" or \"corruption\" misses the structural point: the Reform was a centralisation drive to make the Church a unified, hierarchical bureaucracy answerable to Rome.",
+     "self_check": true
+    },
+    {
+     "q": "A 12th-century French bishop holds a fief from the King of France and also receives the ring and staff (spiritual symbols) from the Pope. In 1122, the Concordat of Worms resolves this dual allegiance. Apply the concept of *investiture* to explain: who now grants the temporalities (land) and who grants the spiritualities (ring/staff)?",
+     "a": "Under the Concordat of Worms (1122): the Emperor/King grants the *temporalities* (land, regalia, feudal rights) by sceptre; the Pope (or his legate) grants the *spiritualities* (ring and staff) by canonical election and consecration. The bishop does homage to the king for the fief but owes canonical obedience to the Pope. A wrong answer — e.g., \"the Pope gives everything\" or \"the king appoints the bishop\" — shows failure to grasp the dual-nature compromise that defined church-state relations for centuries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the revenue base of the medieval Catholic Church (tithes, Peter's Pence, annates, benefices) with the revenue base of the Delhi Sultanate (khiraj, jizya, zakat, ghanima). Identify two structural similarities and one fundamental difference in how each institution legitimised its fiscal claims.",
+     "a": "Similarities: (1) Both claimed a *divinely sanctioned share* of agricultural produce (tithe = 1/10th; khiraj = land tax sanctioned by Islamic law). (2) Both used a *hierarchical collection apparatus* (archdeacons/collectors; amils/muqaddams). Fundamental difference: The Church's fiscal legitimacy derived from *canon law* and the spiritual obligation of salvation (refusal = excommunication), while the Sultanate's derived from *sharia* and the political contract of protection (dhimma) for non-Muslims. A wrong answer conflating \"tax\" and \"tithe\" as identical misses the sacramental coercion unique to the Church.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Avignon Papacy (1309–1377) weakened the universal authority of the Church more than the Great Schism (1378–1417) did.\" Use evidence from institutional mechanisms (taxation, appointments, legal appeals) to justify your position.",
+     "a": "The Avignon Papacy weakened authority *structurally* by making the papacy appear a French puppet: French cardinals dominated the College, papal taxation (annates, servitia) flowed to Avignon, and appointments (provisions) bypassed local chapters — eroding the Church's claim to supranational neutrality. The Great Schism damaged *legitimacy* (two/three popes), but the *institutional machinery* (curia, courts, tax collection) continued functioning under each obedience. Thus Avignon did deeper structural harm; the Schism was a crisis of *personnel*, Avignon a crisis of *institutional independence*. A wrong answer treating both as equally damaging conflates legitimacy crisis with structural capture.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a flowchart showing how a papal bull (e.g., *Unam Sanctam*, 1302) moved from drafting in the Roman Curia to enforcement in an English parish. Include at least five institutional nodes (offices, courts, officials) and explain where local resistance could block the process.",
+     "a": "Flow: Pope → Cardinal Secretary of State → Papal Chancery (drafting/sealing) → Apostolic Camera (registration/taxation) → Papal Nuncio/Legate (transmission) → Archbishop of Canterbury (metropolitan) → Bishop of Diocese (episcopal register) → Archdeacon (visitation) → Parish Priest (publication in vernacular). Resistance points: (1) King's *placet* (royal assent required in England via *Statutes of Provisors*), (2) Chapter's right to elect bishop (bypassed by papal provision), (3) Common law courts issuing *writs of prohibition* against ecclesiastical jurisdiction. A poor flowchart omits the *secular gatekeepers* (king, parliament, common law) showing ignorance of the Church's embeddedness in feudal polity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

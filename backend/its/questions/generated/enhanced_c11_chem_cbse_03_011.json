@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_011",
+   "title": "c11_chem_cbse_03_011",
+   "questions": [
+    {
+     "q": "State the valency of phosphorus (Group 15) and sulphur (Group 16) in their hydrides PH₃ and H₂S, and explain how these values are derived from their group numbers.",
+     "a": "Phosphorus (Group 15) has valency 3 in PH₃ (8 – 15 = 3, or 5 valence electrons → shares 3); sulphur (Group 16) has valency 2 in H₂S (8 – 16 = 2, or 6 valence electrons → shares 2). A wrong answer (e.g., P = 5, S = 6) reveals the student is quoting valence electron count instead of applying the “8 minus group number” rule for non-metal hydrides.",
+     "self_check": true
+    },
+    {
+     "q": "Why does aluminium (Group 13) form AlCl₃ while chlorine (Group 17) forms Cl₂O₇? Use electronegativity and valency concepts to explain the different oxidation states of chlorine in these two compounds.",
+     "a": "In AlCl₃, Al (EN ≈ 1.5) is less electronegative than Cl (EN ≈ 3.0), so Al loses 3 electrons → oxidation state +3; each Cl gains 1 electron → –1. In Cl₂O₇, O (EN ≈ 3.5) is more electronegative than Cl, so each O takes 2 electrons → –2; total –14 balanced by two Cl at +7 each. A wrong answer that assigns Cl a fixed valency of 1 in both compounds shows the student confuses valency (combining capacity) with oxidation state (electronegativity-dependent charge).",
+     "self_check": true
+    },
+    {
+     "q": "Predict the formula of the stable binary compound formed between element X (Group 2, Period 3) and element Y (Group 16, Period 2). Show the valency cross-multiplication steps.",
+     "a": "X = Mg (Group 2 → valency 2), Y = O (Group 16 → valency 2). Cross-multiply: Mg²⁺ O²⁻ → Mg₁O₁ → MgO. Steps: (1) Identify groups → valencies: Mg = 2, O = 2. (2) Write symbols with valencies as superscripts: Mg² O². (3) Cross valencies: Mg₂ O₂. (4) Simplify subscripts by dividing by HCF (2) → Mg₁O₁. (5) Write formula MgO. A wrong formula MgO₂ or Mg₂O reveals failure to simplify subscripts or mis-assigning oxygen valency as 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the valency trends of Group 14 elements (C, Si, Ge, Sn, Pb) in their oxides. Why does carbon form CO and CO₂ while lead predominantly forms PbO and PbO₂? Analyse using inert pair effect and periodic trends.",
+     "a": "Group 14 elements have 4 valence electrons → expected valency 4 (e.g., CO₂, SiO₂, GeO₂, SnO₂). Down the group, the inert pair effect (reluctance of ns² electrons to participate) increases: Sn shows +2 (SnO) and +4 (SnO₂); Pb prefers +2 (PbO) over +4 (PbO₂). Carbon, being second period, lacks d-orbitals and shows maximum covalency 4 but also forms CO (formal oxidation state +2) due to strong π-bonding. A wrong answer claiming all Group 14 oxides are MO₂ ignores the increasing stability of lower oxidation states down the group.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formula of aluminium sulphide as AlS, arguing “Al is Group 13 (valency 3), S is Group 16 (valency 2), so cross-multiply gives Al₂S₃, but I simplified to AlS by dividing by 2.” Evaluate this reasoning and correct the error.",
+     "a": "The student’s cross-multiplication (Al³⁺ S²⁻ → Al₂S₃) is correct, but simplification is invalid: subscripts represent the *ratio* of ions in the crystal lattice, not a fraction. Al₂S₃ means 2 Al³⁺ ions for every 3 S²⁻ ions; dividing by 2 gives non-integer subscripts (Al₁S₁.₅), which is chemically meaningless. The correct formula is Al₂S₃. This error reveals the student treats chemical formulas as mathematical fractions rather than fixed stoichiometric ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a periodic table and the valency cross-rule to predict and verify the formulas of three binary compounds formed between pairs of elements chosen from: Na, Mg, Al, Cl, O, S. Write the predicted formulas and the reasoning for each.",
+     "a": "Example predictions: (1) Na (Gr1, val1) + Cl (Gr17, val1) → NaCl. (2) Mg (Gr2, val2) + O (Gr16, val2) → MgO. (3) Al (Gr13, val3) + S (Gr16, val2) → Al₂S₃. Reasoning: identify group → assign valency (metals = group no., non-metals = 8 – group no.) → cross-multiply → simplify to lowest whole-number ratio. A poor answer uses random pairing, ignores the cross-rule, or writes formulas like AlS₃ (wrong cross-multiplication) or MgCl (ignores Mg valency 2).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

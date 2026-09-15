@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_010",
+   "title": "c11_bs_cbse_09_010",
+   "questions": [
+    {
+     "q": "List the three broad categories of incentives provided by the Government of India to MSMEs and name one specific scheme under each category.",
+     "a": "The three categories are: (1) Tax Holidays – e.g., exemption under Section 10AA for SEZ units or Section 80-IA for infrastructure/backward area units; (2) Subsidies – e.g., Credit Linked Capital Subsidy Scheme (CLCSS) for technology upgradation; (3) Credit Facilities – e.g., MUDRA loans (Shishu/Kishor/Tarun) or CGTMSE guarantee cover. A wrong answer that mixes categories (e.g., calling MUDRA a subsidy) or lists state-level schemes reveals the student cannot classify incentives by their economic nature (tax expenditure vs. fiscal outlay vs. credit enhancement).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 5-year income tax holiday is more valuable to a newly established micro enterprise in a backward district than to a large, mature company in the same district.",
+     "a": "A new micro enterprise typically has low initial profits and high reinvestment needs; the tax holiday preserves scarce cash flow for working capital and growth, directly increasing survival probability. A large mature company already has stable profits, access to capital markets, and tax planning options, so the marginal benefit of the holiday is smaller. A wrong answer focusing only on the tax rate (same for both) misses the liquidity and life-cycle perspective — this is a classic confusion between statutory incidence and economic incidence of incentives.",
+     "self_check": true
+    },
+    {
+     "q": "A micro enterprise invests ₹40 lakh in eligible plant and machinery under CLCSS (15% capital subsidy, maximum ₹15 lakh). The machine is financed by a term loan of ₹30 lakh at 10% p.a. and own funds of ₹10 lakh. Calculate the effective subsidy received and the reduction in the loan burden if the subsidy is credited upfront to the loan account.",
+     "a": "Step 1: Eligible subsidy = 15% of ₹40 lakh = ₹6 lakh (within ₹15 lakh cap). Step 2: Subsidy credited to loan account reduces outstanding principal from ₹30 lakh to ₹24 lakh. Step 3: Annual interest saving = ₹6 lakh × 10% = ₹60,000. Step 4: Effective loan burden reduction = ₹6 lakh principal + PV of interest savings. A wrong answer calculating subsidy on loan amount (₹30 lakh) instead of investment (₹40 lakh) shows misunderstanding of CLCSS linkage to investment, not debt. Another error: ignoring the cap — if investment were ₹1.2 crore, subsidy would be capped at ₹15 lakh.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a 5% interest subvention on a ₹50 lakh working capital loan versus a 15% capital subsidy on a ₹50 lakh machinery purchase for a small enterprise. Which provides greater annual cash flow relief in the first year? Assume loan tenure 5 years, interest rate 12% p.a. for both.",
+     "a": "Interest subvention: saves 5% × ₹50 lakh = ₹2.5 lakh per year for the loan tenure. Capital subsidy (CLCSS): 15% × ₹50 lakh = ₹7.5 lakh upfront (capped at ₹15 lakh). If subsidy reduces loan principal, first-year interest saving = ₹7.5 lakh × 12% = ₹90,000. Thus, interest subvention gives higher *annual* cash flow relief (₹2.5 lakh vs ₹0.9 lakh), but capital subsidy gives a large *lump sum* reduction in debt. A wrong answer comparing ₹7.5 lakh to ₹2.5 lakh directly confuses stock (principal reduction) with flow (annual interest saving) — a fundamental financial literacy error.",
+     "self_check": true
+    },
+    {
+     "q": "\"CGTMSE guarantee cover makes collateral completely unnecessary for MSME loans up to ₹5 crore.\" Evaluate this statement with reference to the guarantee fee and lender's discretion.",
+     "a": "The statement is partially false. CGTMSE provides guarantee cover up to 85% (75% for loans above ₹50 lakh) of the default amount, but the *lender still has credit risk* on the uncovered portion (15–25%) and may require collateral for that portion. Also, the borrower pays an annual guarantee fee (0.37%–1.35% of sanctioned amount), which is a cost. Lenders retain full discretion on sanctioning; CGTMSE only reimburses after default. A wrong answer treating CGTMSE as \"collateral-free for sure\" ignores the risk-sharing design and the fee burden — a common oversimplification in textbook summaries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a combined incentive package for a women-led SC/ST-owned micro enterprise in a rural backward district manufacturing herbal products. Specify one tax, one subsidy, and one credit incentive with scheme names and quantitative benefits (use standard rates). Justify why this combination is synergistic.",
+     "a": "Tax: Section 80-IA – 100% deduction of profits for 5 years + 50% for next 5 years (backward area). Subsidy: CLCSS – 15% capital subsidy (max ₹15 lakh) on ₹1 crore machinery = ₹15 lakh upfront. Credit: Stand-Up India – ₹10 lakh to ₹1 crore composite loan (term + working capital) at lowest bank rate, with CGTMSE cover (85% guarantee, fee waiver for SC/ST women). Synergy: Tax holiday boosts post-tax ROI, making the project bankable; subsidy reduces loan amount needed; Stand-Up India + CGTMSE ensures the smaller loan is sanctioned without collateral. A poor answer lists schemes without quantifying benefits or explaining how they interact (e.g., subsidy lowering the loan-to-value ratio, improving CGTMSE eligibility).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_001",
+   "title": "c11_geo_cbse_12_001",
+   "questions": [
+    {
+     "q": "Define pedogenesis and state the five factors of soil formation using the CLORPT acronym.",
+     "a": "Pedogenesis is the process of soil formation from parent material through the interaction of five factors: Climate (C), Organisms (O), Relief/Topography (R), Parent Material (P), and Time (T). A wrong answer (e.g., listing only climate and parent material) reveals the student has not internalized the holistic, multi-factor nature of soil formation and still views soil as a simple product of weathering alone.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two regions with the same parent rock (e.g., basalt) can develop completely different soil profiles — one becoming black soil (Vertisol) and the other red soil (Alfisol).",
+     "a": "Differences arise primarily from climate (rainfall, temperature) and relief. In semi-arid regions (e.g., Deccan Plateau), limited leaching allows calcium/magnesium carbonates to accumulate, forming black cotton soil with high shrink-swell capacity. In humid regions (e.g., Western Ghats slopes), intense leaching removes bases, oxidizes iron, and creates red, acidic soils. A wrong answer attributing difference only to parent rock shows the student ignores climate and topography as active soil-forming factors.",
+     "self_check": true
+    },
+    {
+     "q": "A soil profile shows a thick, dark A horizon rich in organic matter, underlain by a B horizon with clay accumulation (illuviation) and iron oxides. The parent material is granite. The region receives 1500 mm annual rainfall with distinct wet/dry seasons. Identify the dominant pedogenic processes and explain the horizon sequence.",
+     "a": "Dominant processes: (1) Weathering of granite releases quartz, feldspar, mica; (2) Humification in wet season creates dark A horizon; (3) Eluviation of clay/Fe/Al oxides from A horizon during heavy rain; (4) Illuviation in B horizon as water percolates down; (5) Mineralization releases nutrients. The sequence A (humus accumulation) → E (eluviation, if present) → B (illuviation) reflects vertical translocation driven by seasonal moisture. A wrong answer missing eluviation/illuviation indicates the student does not grasp vertical material movement as a core pedogenic mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of time in soil formation on a stable plateau surface versus an active floodplain. How does the concept of \"soil age\" differ from \"chronological age\"?",
+     "a": "On a stable plateau (e.g., Chotanagpur), time allows deep weathering, horizon development, and nutrient depletion — soils are \"old\" (highly weathered, kaolinitic). On an active floodplain (e.g., Ganga), frequent deposition resets the clock — soils are \"young\" (weak horizons, high fertility) regardless of absolute time. Soil age reflects pedogenic maturity (horizon differentiation, mineral transformation), not years. A wrong answer equating soil age with calendar years reveals a misunderstanding of time as a factor of intensity/duration of processes, not just duration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Soil formation is simply the weathering of rock.\" Use the concepts of humification, mineralization, and organism activity to justify your answer.",
+     "a": "The statement is false. Weathering only produces regolith (unconsolidated mineral matter). Soil formation requires: (1) Humification — decomposition of organic residues into stable humus by microbes, giving soil structure and CEC; (2) Mineralization — release of inorganic nutrients from organic matter, making them available to plants; (3) Bioturbation — earthworms, roots mixing layers and creating pores. Without organisms, there is no A horizon, no nutrient cycling, no soil — only weathered rock. A wrong answer accepting the statement shows the student conflates geological weathering with pedogenesis, missing the biological engine of soil.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation to compare soil formation on two slopes of the same hill (north-facing vs. south-facing) in the Himalayan foothills. Specify what you would measure, how, and what pedogenic differences you would expect.",
+     "a": "Measure: (1) Soil temperature/moisture at 10 cm depth (daily for a week); (2) Organic matter content (loss-on-ignition); (3) Horizon thickness (dig pits); (4) pH and base saturation. Expect north-facing (cooler, moister): thicker O/A horizons, higher organic matter, lower pH, more leaching (E horizon), acidic. South-facing (warmer, drier): thinner horizons, lower organic matter, higher pH, less leaching, more calcium carbonate. A poor answer measuring only texture or colour misses the microclimate-driven process differences (humification vs. mineralization rates) that define pedogenesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

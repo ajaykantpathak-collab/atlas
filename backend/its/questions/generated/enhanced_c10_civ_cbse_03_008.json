@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_03_008",
+   "title": "c10_civ_cbse_03_008",
+   "questions": [
+    {
+     "q": "Which article of the Indian Constitution explicitly abolishes untouchability and forbids its practice in any form?",
+     "a": "Article 17. A wrong answer (e.g., Article 15 or Article 14) reveals the student confuses the general equality provision with the specific provision targeting the caste-based practice of untouchability. Article 17 is the only article that names a social practice and criminalises it directly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Article 15(1) prohibits discrimination by the \"State\" while Article 15(2) prohibits discrimination by \"any person\" in access to shops, public restaurants, hotels, and places of public entertainment.",
+     "a": "Article 15(1) is a vertical right — it restrains State action (laws, policies, government decisions) because the State has coercive power. Article 15(2) is a horizontal right — it extends to private individuals because access to public spaces is essential for dignified social life, and the Constitution makers wanted to eradicate social boycott practices. A wrong answer that says \"both bind the State\" shows the student has not grasped the vertical/horizontal distinction in fundamental rights application.",
+     "self_check": true
+    },
+    {
+     "q": "A private unaided school refuses admission to a student because she is a girl. The parents approach the High Court under Article 226. Can Article 15(1) be invoked against the school? Reason your answer.",
+     "a": "No, Article 15(1) binds only the \"State\" as defined in Article 12. A private unaided school is not \"State\" unless it performs governmental functions or is deeply controlled by the government (Pramati Educational Trust case). However, the parents may invoke the Right to Education Act, 2009 (Section 12(1)(c)) which mandates 25% quota in private unaided schools, or argue that the school's recognition by the State brings it under Article 12. A wrong answer saying \"Yes, Article 15 applies to everyone\" reveals confusion between vertical and horizontal application of fundamental rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of \"sex\" in Article 15(1) as originally understood versus the Supreme Court's interpretation in NALSA v. Union of India (2014) and Navtej Singh Johar v. Union of India (2018). What constitutional principle allows this expansion?",
+     "a": "Originally \"sex\" meant biological male/female. In NALSA, the Court held \"sex\" includes gender identity, recognising transgender persons as a third gender. In Navtej, the Court read \"sex\" to include sexual orientation, decriminalising consensual same-sex relations. The principle is \"living constitution\" / dynamic interpretation — fundamental rights evolve with societal understanding of dignity (Article 21). A wrong answer stating \"Parliament must amend the Constitution\" shows the student does not understand judicial interpretation as a method of constitutional adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Article 17 in eradicating manual scavenging despite the Prohibition of Employment as Manual Scavengers and their Rehabilitation Act, 2013. What structural gap remains?",
+     "a": "Article 17 provides constitutional backing, but manual scavenging persists due to: (1) caste-based occupational binding not fully addressed by criminal law alone, (2) lack of rehabilitation and alternative livelihoods for freed scavengers, (3) local bodies (municipalities) themselves violating the law by employing contract workers for sewer cleaning, and (4) the \"State\" under Article 12 includes local bodies, yet enforcement is weak. The structural gap is the absence of a mandatory, time-bound rehabilitation framework with budgetary allocation. A wrong answer saying \"Article 17 banned it, so it should be over\" reveals ignorance of the implementation gap between constitutional text and social reality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph provision for a hypothetical Article 15(5) that would explicitly prohibit discrimination by private educational institutions (unaided) on grounds of gender, religion, and caste in admissions and fee structure, while preserving minority rights under Article 30.",
+     "a": "A good answer: \"Nothing in Article 30 shall prevent the State from making any special provision, by law, for the advancement of any socially and educationally backward classes of citizens or for the Scheduled Castes or the Scheduled Tribes in so far as such special provisions relate to admission to private educational institutions, whether aided or unaided by the State, other than minority educational institutions referred to in clause (1) of Article 30, provided that such law shall not authorize discrimination on grounds of gender, religion, or caste in fee structure or access to facilities.\" This mirrors the actual Article 15(5) inserted by the 93rd Amendment (2005). A poor answer that ignores Article 30 minority rights shows the student cannot balance competing constitutional values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

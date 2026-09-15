@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_054",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_054",
+   "title": "c6_math_ch05_054",
+   "questions": [
+    {
+     "q": "If a notebook costs $n$ rupees, how would you write the cost of 5 such notebooks?",
+     "a": "The correct answer is $5n$. An answer of $n+5$ reveals the student confuses multiplication (repeated addition of items) with addition (increasing the value by a constant amount).",
+     "self_check": true
+    },
+    {
+     "q": "If a boy is $x$ years old today, what was his age 3 years ago? Explain why you chose your operation.",
+     "a": "The answer is $x - 3$. If a student answers $3 - x$, they have reversed the order of subtraction, failing to realize that the current age ($x$) is the starting point from which we take away 3 years.",
+     "self_check": true
+    },
+    {
+     "q": "A number is increased by 7. Write an expression for this. If the number is 10, what is the result?",
+     "a": "The expression is $n + 7$. If $n=10$, the result is $10 + 7 = 17$. A student who writes $7n$ does not understand that \"increased by\" represents addition, not multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions $x + 4$ and $4x$. How are they different in meaning?",
+     "a": "$x + 4$ means 4 is added to the value of $x$, while $4x$ means $x$ is multiplied by 4. A student who says they are the same ignores the fundamental difference between scaling a value and shifting a value.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer has $y$ mangoes and divides them equally into 6 baskets. Write the expression. If he has 30 mangoes, is your expression valid? Justify.",
+     "a": "The expression is $y/6$. It is valid because for $y=30$, $30/6 = 5$ mangoes per basket. A student who writes $6/y$ has failed to identify the dividend (total) and the divisor (number of groups).",
+     "self_check": true
+    },
+    {
+     "q": "Create an expression for a situation where a shopkeeper gives a discount of 5 rupees on any item costing $p$ rupees.",
+     "a": "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction). A poor answer like $5 - p$ shows the student does not understand that the discount is taken away from the original price.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

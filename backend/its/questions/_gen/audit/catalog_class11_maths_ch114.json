@@ -1,0 +1,449 @@
+{
+ "catalog": "catalog_class11_maths_ch114.json",
+ "concepts": [
+  {
+   "id": "kemh.14.1.1",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 1 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 1 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 1 / 6"
+   ]
+  },
+  {
+   "id": "kemh.14.1.2",
+   "family": "interest",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "si = 10000 * 5 * 4 / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "si = 10000 * 5 * 4 / 100",
+      "amount = 10000 + si"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "principal = 2000 * 100 / (5 * 4)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amount = 10000 * (1 + 5 / 100) ** 3",
+      "ci = amount - 10000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amount = 10000 * (1 + 5 / 100) ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amount = 10000 * (1 + 10 / 200) ** 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "si = 10000 * 5 * 4 / 100"
+   ]
+  },
+  {
+   "id": "kemh.14.1.4",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 2 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 2 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 2 / 6"
+   ]
+  },
+  {
+   "id": "kemh.14.1.5",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 1 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 2 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 1 / 6"
+   ]
+  },
+  {
+   "id": "kemh.14.2.1",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 5 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 3 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 5 / 6"
+   ]
+  },
+  {
+   "id": "kemh.14.2.2",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 3 / 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p = 3 / 6"
+   ]
+  },
+  {
+   "id": "kemh.14.2.3",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 5 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 3 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.14.2.4",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 2 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 4 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.14.2.5",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 2 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.14.2.6",
+   "family": "probability",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p = 1 / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p = 3 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p = 2 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "outcomes = 2 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "outcomes = 6 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p = 5 / 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

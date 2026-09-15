@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_8",
+   "title": "c8_bio_ch2_8",
+   "questions": [
+    {
+     "q": "What is the primary function of white blood cells (leukocytes) in the human body?",
+     "a": "White blood cells protect the body by identifying, attacking, and destroying foreign pathogens like bacteria and viruses. A wrong answer often confuses white blood cells with red blood cells, which transport oxygen rather than fighting infections.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the skin act as a crucial part of the body's innate immunity even before any pathogen enters the bloodstream?",
+     "a": "The skin acts as a physical and chemical barrier (via acidic sweat and oils) that prevents pathogens from entering the body in the first place. A wrong answer suggests the skin only provides structural shape, missing its protective role as an immune barrier.",
+     "self_check": true
+    },
+    {
+     "q": "If a person's body produces specific Y-shaped proteins to bind to and neutralize a newly encountered virus, what are these proteins called?",
+     "a": "Steps: 1. Identify the foreign invader as an antigen. 2. Recognize that the body responds by producing specialized protective proteins. 3. Identify these specialized defense proteins as antibodies. 4. Conclude that antibodies bind specifically to antigens to neutralize them. Answer: Antibodies. A wrong answer confuses them with antigens, which are the foreign substances that trigger antibody production.",
+     "self_check": true
+    },
+    {
+     "q": "How do innate immunity and adaptive immunity differ in their response time and specificity when a pathogen attacks the body?",
+     "a": "Innate immunity provides a fast, non-specific defense against any general invader using barriers and basic white blood cells. Adaptive immunity takes longer to activate initially but provides a highly specific, targeted response with immunological memory for future encounters. A wrong answer assumes both responses happen at the exact same speed and treat all pathogens identically.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Taking antibiotics whenever you have a common cold strengthens your body's natural immunity.\" Is this scientifically correct?",
+     "a": "This statement is incorrect. Common colds are caused by viruses, whereas antibiotics only target bacteria; misusing antibiotics does not train the immune system and can lead to bacterial resistance. A wrong answer shows a misunderstanding of pathogen types and how immunity develops naturally versus through medicinal intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model or analogy using everyday household items to explain how antibodies lock onto specific antigens during an immune response.",
+     "a": "A good model uses a lock and key, where a specific key (antibody) fits only into one exact lock (antigenic marker on a pathogen), demonstrating specificity. A poor model treats all defense mechanisms as generic walls or nets that catch anything without recognizing specific shapes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

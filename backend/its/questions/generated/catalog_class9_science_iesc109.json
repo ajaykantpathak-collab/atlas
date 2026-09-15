@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class9_science_iesc109.json",
+ "concepts": [
+  {
+   "id": "iesc.109.9.1",
+   "title": "Laws of Chemical Combination",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the law of conservation of mass.",
+     "a": "In a chemical reaction, mass is neither created nor destroyed - reactant mass equals product mass.",
+     "self_check": true
+    },
+    {
+     "q": "State the law of constant proportions.",
+     "a": "A pure compound always contains the same elements in the same ratio by mass.",
+     "self_check": true
+    },
+    {
+     "q": "Which law says 18 g of water always holds 2 g hydrogen and 16 g oxygen?",
+     "a": "The law of constant proportions (1:8 by mass).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.109.9.2",
+   "title": "Atoms, Molecules and Ions",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Define an atom.",
+     "a": "The smallest particle of an element that takes part in a chemical reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Define a molecule.",
+     "a": "Two or more atoms chemically bonded together - of the same element (O2) or different (H2O).",
+     "self_check": true
+    },
+    {
+     "q": "What is an ion?",
+     "a": "A charged particle formed when an atom gains or loses electrons - cation (positive) or anion (negative).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.109.9.3",
+   "title": "Writing Chemical Formulae",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the rules for writing chemical formulae using valencies.",
+     "a": "Write symbols, cross over valencies as subscripts, simplify, and keep the compound neutral.",
+     "self_check": true
+    },
+    {
+     "q": "Write the formula of calcium hydroxide (Ca2+, OH-).",
+     "a": "Ca(OH)2 - two hydroxide ions balance one calcium ion.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the formula of water H2O and not HO2?",
+     "a": "Valencies cross over: H valency 1 and O valency 2 give H2O, matching the 1:8 mass ratio.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.109.9.4",
+   "title": "Atomic Mass, Molecular Mass and the Mole Idea",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is atomic mass?",
+     "a": "The mass of an atom compared with the mass of a carbon-12 atom taken as 12 u.",
+     "self_check": true
+    },
+    {
+     "q": "What is molecular mass?",
+     "a": "The sum of atomic masses of all atoms in one molecule of a substance.",
+     "self_check": true
+    },
+    {
+     "q": "What is a mole?",
+     "a": "6.022 x 10^23 particles of a substance - its mass in grams equals the molecular mass.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

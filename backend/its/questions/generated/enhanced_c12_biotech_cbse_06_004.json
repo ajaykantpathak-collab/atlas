@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_004",
+   "title": "c12_biotech_cbse_06_004",
+   "questions": [
+    {
+     "q": "A student writes: \"Auxins promote shoot formation and cytokinins promote root formation in tissue culture.\" Is this statement correct? Explain why or why not in one sentence.",
+     "a": "The statement is incorrect — it reverses the primary roles: auxins (especially at higher concentrations relative to cytokinins) promote root formation and callus induction, while cytokinins promote shoot formation and cell division. A wrong answer reveals the student has memorized hormone names but not their antagonistic functions in organogenesis, a classic confusion that costs marks in both board \"explain the role\" questions and NEET assertion-reason items.",
+     "self_check": true
+    },
+    {
+     "q": "An explant of carrot root is cultured on MS medium supplemented with 2 mg/L 2,4-D and 0.2 mg/L kinetin. After 3 weeks, a white, friable callus forms. The callus is then transferred to a medium containing 0.01 mg/L NAA and 1 mg/L BAP. Predict the most likely morphogenic response and justify using the auxin:cytokinin ratio concept.",
+     "a": "Shoot organogenesis (adventitious shoot formation) will occur because the second medium has a high cytokinin:auxin ratio (BAP 1 mg/L vs NAA 0.01 mg/L ≈ 100:1), which favors shoot differentiation per Skoog-Miller. A wrong prediction (e.g., \"more callus\" or \"roots\") indicates the student cannot apply the ratio principle dynamically across subculture steps — a frequent error in board case-based questions where sequential media are described.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to induce direct somatic embryogenesis from citrus nucellar callus. She knows that high auxin (2,4-D) induces embryogenic callus, but prolonged exposure causes somaclonal variation. Design a two-stage hormone regimen (concentrations in mg/L) that minimizes 2,4-D exposure while maximizing embryo yield, and explain the rationale for each stage.",
+     "a": "Stage 1 (induction): MS + 2 mg/L 2,4-D + 0.5 mg/L BAP for 4 weeks — high auxin initiates embryogenic competence. Stage 2 (development): MS + 0.1 mg/L NAA + 1 mg/L BAP + 0.1 mg/L GA₃ for 6 weeks — low auxin, high cytokinin promotes embryo maturation and reduces somaclonal variation risk. A poor answer uses only one medium or keeps 2,4-D throughout, showing inability to design sequential hormone strategies — a skill tested in JEE Advanced \"experimental design\" biotechnology questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the use of 2,4-D versus NAA as auxin sources in callus induction media for monocots (e.g., rice) versus dicots (e.g., tobacco). Include structural stability, metabolic degradation, and typical effective concentration ranges in your analysis.",
+     "a": "2,4-D (synthetic, dichloro-substituted) is more stable to endogenous auxin oxidases and effective at 0.5–2 mg/L for both monocots and dicots; NAA (naphthaleneacetic acid) is less stable, often requires 1–5 mg/L, and is preferred for root induction rather than callus. Monocots especially require 2,4-D for competent callus because they rapidly degrade NAA/IAA. A superficial answer stating \"both are auxins\" misses the practical tissue-culture nuance that determines protocol success — a distinction NEET expects in \"which hormone for which purpose\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"For any given plant species, there exists a single universal auxin:cytokinin ratio that produces optimal shoot regeneration across all explant types.\" Defend or refute with two specific biological reasons.",
+     "a": "The claim is false. Reason 1: Explant source (leaf vs root vs meristem) has different endogenous hormone levels and sensitivity — e.g., meristematic explants need lower cytokinin than mature leaf explants. Reason 2: Genotype × medium interaction means even within a species, cultivars respond differently (e.g., Indica vs Japonica rice). A student who agrees reveals a \"recipe-following\" mindset instead of understanding physiological context — a critical gap for competitive exams asking \"why does this protocol fail for cultivar X?\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 3-step micropropagation protocol for a hypothetical endangered medicinal plant (assume it is a dicot shrub) using only auxin and cytokinin manipulations. Specify hormone types, concentrations (mg/L), and the developmental goal of each step. Justify each choice in one sentence.",
+     "a": "Step 1 (shoot initiation): MS + 0.1 mg/L NAA + 2 mg/L BAP — high cytokinin breaks apical dominance and induces multiple axillary shoots. Step 2 (shoot multiplication): MS + 0.05 mg/L IAA + 1.5 mg/L kinetin — moderate cytokinin maintains proliferation while low auxin prevents hyperhydricity. Step 3 (rooting): ½ MS + 1 mg/L IBA (no cytokinin) — high auxin:zero cytokinin ratio induces adventitious roots for acclimatization. A weak protocol uses the same hormones throughout or omits the rooting step, showing inability to map hormone ratios to sequential developmental transitions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

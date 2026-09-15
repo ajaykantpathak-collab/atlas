@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_001",
+   "title": "c12_acc_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the primary purpose of financial statement analysis according to NCERT. Why is it considered an \"integral part of accounting\"?",
+     "a": "The primary purpose is to meet the information needs of decision-makers (internal and external users) by analyzing, comparing, and interpreting financial data from financial statements. It is integral to accounting because accounting ends with the preparation of financial statements, but their utility is unlocked only through analysis — without analysis, statements are just \"data,\" not \"information.\" A wrong answer (e.g., \"to calculate profit\" or \"to prepare tax returns\") reveals the student confuses the *recording* function of accounting with the *analysis* function.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Financial statement analysis is only useful for external users like investors and banks; management already knows everything about the company.\" Is this statement correct? Explain using the concept of 'internal users' and 'SWOT analysis'.",
+     "a": "The statement is incorrect. Management (internal users) relies heavily on financial statement analysis for strategic planning, controlling operations, and identifying strengths/weaknesses (SWOT analysis). NCERT explicitly states that ratio analysis enables management to do its own SWOT analysis by explaining changes in the business. A wrong answer indicates the student misunderstands that analysis serves *both* internal (management, employees) and external (investors, creditors, government) users, and that management needs structured analysis to go beyond intuition.",
+     "self_check": true
+    },
+    {
+     "q": "A company has a Current Ratio of 2.5:1 and a Quick Ratio of 1.2:1. The industry average Current Ratio is 2:1 and Quick Ratio is 1:1. Using the concept of 'cross-sectional analysis', evaluate the company's short-term liquidity position relative to the industry.",
+     "a": "The company's Current Ratio (2.5:1) and Quick Ratio (1.2:1) are both higher than industry averages (2:1 and 1:1), indicating a stronger short-term liquidity position than peers. Cross-sectional analysis (inter-firm comparison) helps assess whether the firm's performance is better or worse than industry benchmarks. A wrong answer (e.g., \"higher ratio is always bad\" or ignoring industry comparison) shows the student cannot apply comparative analysis or misunderstands that liquidity ratios have an optimal range — excessively high may indicate underutilisation of resources.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'Intra-firm Comparison' and 'Inter-firm Comparison' in financial statement analysis. Give one specific example of a decision each type supports.",
+     "a": "Intra-firm comparison (time-series analysis) compares a firm's ratios over multiple accounting periods to identify trends (e.g., declining gross profit margin over 5 years supports a decision to revise pricing strategy). Inter-firm comparison (cross-sectional analysis) compares a firm's ratios with other firms or industry averages to benchmark competitiveness (e.g., lower inventory turnover than industry leader supports a decision to improve supply chain). A weak answer confuses the two or gives generic examples without linking to a specific decision.",
+     "self_check": true
+    },
+    {
+     "q": "\"Ratio analysis is a substitute for financial statement analysis.\" Critically evaluate this statement using at least three limitations of ratio analysis from NCERT.",
+     "a": "The statement is false. Ratio analysis is a *tool* of financial statement analysis, not a substitute. Three NCERT limitations prove this: (1) Ratios are based on historical accounting data which ignores price-level changes (inflation), making inter-temporal comparisons misleading. (2) Ratios ignore qualitative factors (employee morale, brand value) which are critical for decisions. (3) Variations in accounting policies (depreciation method, inventory valuation) make cross-sectional comparisons unreliable. A student who agrees with the statement fails to grasp that ratios are \"means to an end\" and \"whistle-blowers,\" not solutions themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a stakeholder uses financial statement analysis for *forecasting*. Identify the stakeholder, the specific ratio(s) they would analyse, and one non-financial factor they must also consider (as per NCERT's limitation on forecasting).",
+     "a": "Scenario: A venture capitalist (stakeholder) evaluates a Mumbai-based ed-tech startup for Series A funding. They analyse the startup's Revenue Growth Rate (trend analysis over 3 years), Return on Capital Employed (ROCE), and Debt-Equity Ratio to forecast future scalability and risk. Non-financial factor: Quality of the founding team and market disruption potential (qualitative aspect ignored by ratios). A poor answer gives a generic scenario without naming specific ratios or misses the NCERT-emphasized limitation that forecasting requires non-financial factors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

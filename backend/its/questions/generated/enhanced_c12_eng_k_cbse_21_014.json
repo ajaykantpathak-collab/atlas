@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_21_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_21_014",
+   "title": "c12_eng_k_cbse_21_014",
+   "questions": [
+    {
+     "q": "Define the PEEL structure for literature answer writing and state the purpose of each component in one sentence.",
+     "a": "PEEL stands for Point (a clear topic sentence answering the question), Evidence (a specific textual reference — quote, paraphrase, or stage direction), Explanation (analysis of how the evidence supports the point, focusing on language, technique, or implication), and Link (a concluding sentence connecting back to the question or wider theme). A wrong answer that lists \"Point, Example, Explain, Link\" but cannot articulate the *analytical* function of Explanation (e.g., saying it's just \"explaining the quote\") reveals the student treats PEEL as a formula rather than a reasoning scaffold.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: *\"Manjula is selfish because she didn't want to move to Koramangala after her parents died.\"* Explain why this answer would lose marks in a CBSE 6-mark question, referencing the marking scheme expectations.",
+     "a": "The answer loses marks because: (1) it makes a reductive judgment (\"selfish\") without textual nuance — Manjula gives practical reasons (job, commute, house maintenance) and Malini *insists* on selling the Koramangala house; (2) it provides no Evidence from the text; (3) it lacks Explanation of dramatic irony or the Image's role in complicating this view; (4) no Link to the play's exploration of guilt, memory, or bilingual identity. CBSE marking requires *analytical depth*, not moral labeling. A student who thinks \"giving an opinion\" suffices misunderstands that literature answers must be *evidence-driven arguments*.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this 3-mark question: *\"How does Karnad use the television studio setting to reflect Manjula's public vs. private self?\"* Write a complete PEEL paragraph.",
+     "a": "**Point:** The sterile, high-tech television studio symbolizes Manjula's curated public persona as a successful English novelist, contrasting with her messy private guilt.  \n**Evidence:** The stage directions describe a \"spartan\" studio with \"no camera\" — just a plasma screen and a red bulb — where Manjula performs a \"confident\" monologue, but later the Image persists on screen after the \"red light switches off,\" exposing her unscripted self.  \n**Explanation:** The studio's minimalism mirrors her crafted narrative (betrayal for money, sacrifice for sister), while the malfunctioning Image — which should disappear but stays — acts as the return of the repressed, forcing private truths (Pramod's abandonment, her resentment of Malini) into the open.  \n**Link:** Thus, the setting becomes a metaphor for the fracture between Manjula's performed celebrity and her fragmented identity.  \n*Reasoning:* This works because each component does its job: Point answers \"how\", Evidence cites specific stage directions, Explanation analyzes *symbolic function*, Link ties to core theme.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two answers to the question *\"Discuss the significance of the title 'Broken Images'.\"* Which is stronger and why?  \n**Answer A:** The title comes from T.S. Eliot's *The Waste Land* and means modern life is fragmented. Manjula's life is broken because she writes in English and her sister dies.  \n**Answer B:** The title operates at three levels: (1) the epigraph from Eliot establishes a cultural wasteland where \"broken images\" replace coherent identity; (2) Manjula's televised Image literally breaks from its recorded function to become an independent interrogator, fracturing her monologue into dialogue; (3) her bilingual psyche — Kannada roots, English success — creates a split self, echoed in Malini's \"English dreams\" vs. Manjula's \"Kannada reality.\"  \nAnalyze using specific criteria: textual range, analytical depth, structural coherence.",
+     "a": "**Answer B is stronger.** It demonstrates: (1) **Textual range** — integrates epigraph, stagecraft (Image's rebellion), and character psychology; (2) **Analytical depth** — moves beyond plot summary to *how* the title works structurally (monologue→dialogue) and thematically (bilingual split); (3) **Structural coherence** — three distinct, layered points with implicit PEEL logic. Answer A merely paraphrases the epigraph and reduces the play to two plot points, showing *remembering* not *analyzing*. A student who prefers Answer A likely conflates \"knowing the reference\" with \"analyzing its function\" — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: *\"The play 'Broken Images' is a monologue, not a dialogue, because only Manjula speaks; the Image is just a technical glitch.\"* Defend or refute using dramatic theory and textual evidence.",
+     "a": "**Refute.** The claim confuses *form* with *function*. Dramatically, the play *begins* as a monologue (Manjula addressing an invisible audience) but *becomes* a dialogue when the Image acquires agency — it initiates speech (\"Where are you going?\"), challenges Manjula (\"You can't go yet\"), and sustains independent conversation for 80% of the playtext. Karnad's stage direction explicitly states: \"Manjula and her image react to each other exactly as though they were both live characters.\" The Image is not a glitch but a *dramatization of the divided self* — a convention seen in Pirandello's *Six Characters in Search of an Author* or Shakespeare's soliloquies externalized. A student calling it a \"glitch\" reads literally, missing the *metatheatrical* device central to the play's exploration of identity fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word diary entry from Malini's perspective on the day Manjula's novel is published, capturing her voice as revealed through Manjula's and the Image's descriptions. Use at least two textual inferences.",
+     "a": "*Sample criteria for a strong answer:*  \n- Voice: intelligent, vivacious, self-aware, not self-pitying (Image: \"She radiated life from the wheelchair... hungry for life. Gobbled it all up.\")  \n- Relationship complexity: loves Manjula but knows she's \"second best\" (Manjula: \"I have always been reconciled to being the second best.\")  \n- Language: thinks/dreams in English (Manjula: \"She breathed, laughed, dreamt in English.\")  \n- Agency: insisted on selling Koramangala house to not burden Manjula.  \n*Weak answer reveals:* sentimentality (\"poor me\"), passive voice, ignoring her intellectual vitality, or writing in Kannada-inflected English — missing the central irony that the \"Kannada sister\" lives in English.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

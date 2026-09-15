@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 204,
+  "chapter_title": "Care and Maintenance of Fabrics",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe204.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe204.1.1",
+      "title": "Soil, Stains and Their Removal",
+      "section": "11.1",
+      "definition": "Fabrics gather two kinds of soil: everyday dust and grease, and accidental stains -- tea, ink, curry, blood, rust. Each stain has a chemistry: fresh stains yield to prompt treatment; protein stains like blood need cold water; grease needs solvents; tannin stains like tea need acids. The rule is act fast and treat by type.",
+      "formula": "",
+      "key_idea": "Match the remedy to the stain -- cold for blood, solvent for grease, acid for tea -- and never let a stain set.",
+      "textbook_ref": "kehe204.txt stain sections (kinds of soil, tea coffee ink blood curry rust stains, removal methods, fresh stains easier)",
+      "question_patterns": [
+        "how would you remove a tea stain from cotton",
+        "in class 11 care and maintenance of fabrics: why must blood stains be washed in cold water",
+        "what method removes ink from a shirt",
+        "distinguish dust soil from stain soil",
+        "state the general rules of stain removal",
+        "treat a curry stain on a tablecloth explaining each step"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "identify the stain",
+          "explain": "Ask what caused it -- grease, protein, tannin, dye or mineral -- since each class needs its own solvent or reagent."
+        },
+        {
+          "step": 2,
+          "action": "treat promptly and gently",
+          "explain": "Blot fresh stains, work the remover from the edge inward, and avoid hot water that sets protein stains."
+        },
+        {
+          "step": 3,
+          "action": "rinse and check",
+          "explain": "Rinse after treatment and inspect before drying, since heat fixes any residue left behind."
+        }
+      ]
+    },
+    {
+      "id": "kehe204.1.2",
+      "title": "Laundering: Washing, Drying and Ironing by Fabric",
+      "section": "11.2",
+      "definition": "Regular laundering follows a cycle -- sorting, soaking, washing, rinsing, drying, finishing -- tuned to the fabric: cottons bear vigorous washing and hot ironing; silks and woollens demand mild detergent, gentle handling and low heat. Sorting by colour and fabric protects the whole wash.",
+      "formula": "",
+      "key_idea": "Sort, soak, wash, rinse, dry, press -- with the vigour scaled down for silk and wool, up for cotton.",
+      "textbook_ref": "kehe204.txt laundering sections (steps of washing, sorting, soaking, rubbing, rinsing, drying shade or sun, ironing temperatures for fabrics)",
+      "question_patterns": [
+        "describe the steps of laundering a cotton garment",
+        "in class 11 care and maintenance of fabrics: why are clothes sorted before washing",
+        "how should woollens be washed and dried",
+        "what ironing temperatures suit silk and cotton",
+        "why are coloured clothes dried in shade",
+        "prepare a laundering routine for a family's weekly wash"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort and prepare",
+          "explain": "Separate whites from colours, cottons from delicates; mend and empty pockets before soaking."
+        },
+        {
+          "step": 2,
+          "action": "wash to the fabric",
+          "explain": "Use the mildest effective method -- gentle kneading for silk and wool, rubbing and machine action only for sturdy cottons."
+        },
+        {
+          "step": 3,
+          "action": "dry and finish",
+          "explain": "Shape woollens flat away from sun, line-dry colours in shade, and iron each fabric at its safe temperature."
+        }
+      ]
+    },
+    {
+      "id": "kehe204.1.3",
+      "title": "Storage and Long-Term Care of Fabrics",
+      "section": "11.3",
+      "definition": "Between uses, fabrics need storage that blocks their enemies -- moisture, insects, dust and sunlight. Clean items only are stored; woollens get washed, sunned and packed with repellents; silks are wrapped; and periodic airing keeps long-stored textiles fresh and safe.",
+      "formula": "",
+      "key_idea": "Clean before you store, keep out damp, light and moths -- and visit the trunk between seasons.",
+      "textbook_ref": "kehe204.txt storage sections (storage of clothes, protection from insects and moisture, naphthalene, airing, wrapping silks, packing woollens)",
+      "question_patterns": [
+        "how should woollens be stored for the summer",
+        "in class 11 care and maintenance of fabrics: why must clothes be clean before storage",
+        "what damages stored fabrics and how is it prevented",
+        "why are silks wrapped in muslin",
+        "explain the role of repellents in fabric storage",
+        "set up a storage plan for seasonal clothing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "clean first",
+          "explain": "Launder or dry-clean before storage -- soil and stains feed insects and set permanently over time."
+        },
+        {
+          "step": 2,
+          "action": "block the enemies",
+          "explain": "Pack dry items in breathable covers with repellents, away from damp walls and direct light."
+        },
+        {
+          "step": 3,
+          "action": "air periodically",
+          "explain": "Open trunks on dry, sunny days to refresh fabrics and spot trouble early."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe204.txt stain sections",
+      "concept": "kehe204.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A student spills ink on a white cotton shirt. Give the removal steps in order.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "act while fresh",
+          "explain": "Blot the excess at once -- never rub, which spreads the dye deeper."
+        },
+        {
+          "step": 2,
+          "action": "apply the matched remover",
+          "explain": "Treat with a suitable stain remover or mild acid solution, working from the stain's edge inward."
+        },
+        {
+          "step": 3,
+          "action": "rinse and verify",
+          "explain": "Rinse thoroughly and inspect before any drying, repeating if a shadow remains."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe204.txt storage sections",
+      "concept": "kehe204.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A family packs woollen sweaters away for summer. List the correct storage steps and the mistakes to avoid.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "wash and dry fully",
+          "explain": "Unwashed wool invites moths; trapped damp invites mildew -- so clean and sun-dry first."
+        },
+        {
+          "step": 2,
+          "action": "pack with protection",
+          "explain": "Fold with repellent sachets in breathable bags, stored in a cool dry shelf."
+        },
+        {
+          "step": 3,
+          "action": "maintain the store",
+          "explain": "Air the packed woollens on dry days and renew repellents mid-season."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe204.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain the steps of laundering a cotton shirt.",
+        "How do the washing needs of silk differ from cotton?",
+        "Give methods of removing tea and blood stains with reasons.",
+        "Describe safe storage of wool and silk fabrics.",
+        "Why is sorting done before washing clothes?",
+        "List common mistakes that spoil fabrics during care."
+      ]
+    }
+  ]
+}

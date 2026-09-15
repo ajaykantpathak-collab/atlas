@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_11",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_11",
+   "title": "c9_physics_ch5_11",
+   "questions": [
+    {
+     "q": "State the law of reflection for sound and compare it with the law for light.",
+     "a": "The law of reflection for sound: the angle of incidence equals the angle of reflection (measured from the normal to the surface). This is the same law as for light. Both sound and light reflect off surfaces following this law. The difference is that sound is a mechanical wave (needs a medium) while light is electromagnetic (can reflect in vacuum), but the reflection law is identical. A wrong answer (e.g., \"sound reflects differently from light\") is incorrect — the law of reflection is the same for both.",
+     "self_check": true
+    },
+    {
+     "q": "What is the minimum distance required to hear a distinct echo? Explain the calculation. (Speed of sound = 340 m/s.)",
+     "a": "The minimum distance is about 17 m. The human ear can distinguish two sounds if they are separated by at least 0.1 seconds. Sound travels to the surface and back, so the total distance is 340 * 0.1 = 34 m. The surface must be at half this distance: 34/2 = 17 m. A wrong answer (e.g., 34 m) forgets to divide by 2 — the sound travels to the surface and back, so the surface is at half the total distance.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between echo and reverberation.",
+     "a": "Echo: A distinct reflected sound heard separately from the original, occurring when the reflecting surface is far enough (>= 17 m) that the reflected sound returns after >= 0.1 s. Reverberation: The persistence of sound due to multiple rapid reflections in an enclosed space, where the reflections blend together and are not heard as distinct echoes. Echo is a single, distinct reflection; reverberation is many overlapping reflections. A wrong answer (e.g., \"echo is loud, reverberation is quiet\") confuses loudness with the distinction — the difference is timing and distinctness, not loudness.",
+     "self_check": true
+    },
+    {
+     "q": "How does sonar work? Explain using reflection of sound.",
+     "a": "Sonar (Sound Navigation and Ranging) sends ultrasound pulses from a ship into the water. The sound reflects off the ocean floor (or fish, submarines) and returns to the ship. The time delay between sending and receiving is measured. Distance = speed * time / 2 (divided by 2 because sound travels to the target and back). Knowing the speed of sound in water (~1500 m/s), the distance to the reflecting object is calculated. A wrong answer (e.g., \"sonar uses light\") confuses sonar (sound) with radar (radio waves).",
+     "self_check": true
+    },
+    {
+     "q": "Why do concert halls use sound-absorbing materials on walls? Relate this to reverberation.",
+     "a": "Concert halls use sound-absorbing materials (curtains, foam panels, wood) to reduce reverberation. Excessive reverberation causes sounds to overlap and blur, making speech unclear and music muddy. Absorbing materials reduce reflections, shortening the reverberation time so that each note is distinct. The optimal reverberation time depends on the use: ~1.5 s for speech, ~2 s for orchestral music. A wrong answer (e.g., \"to make the hall look nice\") misses the acoustic purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Echoes and reverberation are the same thing.\" Evaluate this statement and explain the difference.",
+     "a": "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different. Echo is a single, distinct reflected sound heard separately from the original, requiring a reflecting surface at least 17 m away (so the delay is >= 0.1 s). Reverberation is the persistence of sound due to many rapid, overlapping reflections in an enclosed space, where the reflections blend together and are not heard as distinct. Echo = distinct, separated reflection (far surface). Reverberation = overlapping, blended reflections (near surfaces, enclosed space).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

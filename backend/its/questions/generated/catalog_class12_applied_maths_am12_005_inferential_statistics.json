@@ -1,0 +1,263 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_005_inferential_statistics.json",
+ "concepts": [
+  {
+   "id": "am12_005.1",
+   "title": "Population and Sample",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 6000 * 5 * 3 / 100 gives 900",
+     "compute": "si = 6000 * 5 * 3 / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 6000 at 5% per annum for 3 years.",
+     "a": "900",
+     "self_check": false
+    },
+    {
+     "q": "Rs 6000 is deposited at 5% simple interest per annum for 3 years. Find the maturity amount.",
+     "a": "6900",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 5% per annum simple interest earns Rs 900 in 3 years. Find the principal (two decimal places).",
+     "a": "6000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 6000 at 5% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "945.75",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 6000 grows for 3 years at 5% per annum compounded annually (two decimal places)?",
+     "a": "6945.75",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 6000 at 10% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "7293.04",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_005.2",
+   "title": "Parameter and Statistic",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 9, 7, 9 (two decimal places).",
+     "a": "0.89",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 3, 1, 7, 4 (two decimal places).",
+     "a": "4.69",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 4. Find its standard deviation.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 5 and the mean is 100.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 20 and 46. Find the interquartile range.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_005.3",
+   "title": "Sampling Distribution and Standard Error",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers 13 and 22.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -5 on a number line and moves -28 steps (negative means left). Where does it finish?",
+     "a": "-33",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -9 and -2.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Divide -75 by 6.",
+     "a": "-12.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 2 and return it.",
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 9 x 5 + 9 x 7 as 9 x (5 + 7).",
+     "a": "108",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_005.4",
+   "title": "Hypothesis Null and Alternative",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the dispersion formula to the data",
+     "explain": "apply the dispersion formula to the data: mean = (7 + 9 + 13) / 3 gives 9.66667",
+     "compute": "mean = (7 + 9 + 13) / 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the dispersion formula to the data: md = (abs(7 - mean) + abs(9 - mean) + abs(13 - mean)) / 3 gives 2.22222",
+     "compute": "md = (abs(7 - mean) + abs(9 - mean) + abs(13 - mean)) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 7, 9, 13 (two decimal places).",
+     "a": "2.22",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 3, 3, 1, 5 (two decimal places).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 16. Find its standard deviation.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 4 and the mean is 80.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 19 and 57. Find the interquartile range.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For 19 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_005.5",
+   "title": "One Sample t Test",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 7, 10, 2 (two decimal places).",
+     "a": "2.89",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 6, 4, 9, 7 (two decimal places).",
+     "a": "3.25",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 25. Find its standard deviation.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 10 and the mean is 60.",
+     "a": "16.6667",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 19 and 50. Find the interquartile range.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_005.6",
+   "title": "Statistical Significance",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the dispersion formula to the data",
+     "explain": "apply the dispersion formula to the data: mean = (7 + 12 + 5) / 3 gives 8",
+     "compute": "mean = (7 + 12 + 5) / 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the dispersion formula to the data: md = (abs(7 - mean) + abs(12 - mean) + abs(5 - mean)) / 3 gives 2.66667",
+     "compute": "md = (abs(7 - mean) + abs(12 - mean) + abs(5 - mean)) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 7, 12, 5 (two decimal places).",
+     "a": "2.67",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 5, 7, 5, 1 (two decimal places).",
+     "a": "4.75",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 4. Find its standard deviation.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 4 and the mean is 40.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 20 and 57. Find the interquartile range.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "For 15 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

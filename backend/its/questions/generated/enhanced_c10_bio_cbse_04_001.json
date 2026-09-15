@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_001",
+   "title": "c10_bio_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define 'accumulation of variation' in the context of reproduction. Why is it considered the basis of heredity?",
+     "a": "Accumulation of variation refers to the gradual build-up of genetic differences among individuals of a population across generations due to mutations, meiotic recombination, and random fertilization. It is the basis of heredity because heredity is the transmission of traits from parents to offspring, and variation ensures that offspring are not exact copies, allowing traits to be assorted and selected. A wrong answer (e.g., \"variation means mutations only\" or \"heredity means cloning\") reveals the student conflates variation with mutation alone or misunderstands heredity as exact replication rather than transmission with modification.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Asexual reproduction produces no variation at all, so it has no role in evolution.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. Asexual reproduction produces *less* variation, not zero. Variations arise from DNA replication errors (mutations) during mitotic divisions. These mutations can be passed to offspring and accumulate over generations, contributing to evolution (e.g., antibiotic resistance in bacteria). A wrong answer (agreeing with the student) reveals the misconception that variation only comes from meiosis/fertilization, ignoring the role of mutations in asexual lineages — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "In a flowering plant, a pollen grain fertilizes an ovule. List the three distinct stages in this sexual reproduction process where new genetic combinations can arise, and name the specific mechanism at each stage.",
+     "a": "1. **During meiosis in anther/ovule**: Crossing over (prophase I) and independent assortment (metaphase I) create recombinant chromosomes.  \n2. **During gamete formation**: Random segregation of homologous chromosomes into gametes.  \n3. **During fertilization**: Random fusion of one male gamete with one female gamete (out of millions possible combinations).  \nA wrong answer (e.g., listing only \"meiosis\" or \"fertilization\" without mechanisms) shows the student cannot break down the process into discrete variation-generating events — a key skill for board exam explanation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnitude and sources of variation in binary fission (amoeba) vs. sexual reproduction in humans. Why does sexual reproduction produce far more variation per generation?",
+     "a": "In binary fission, variation arises only from rare DNA replication errors (mutation rate ~10⁻⁹ per base per division). In humans, each meiosis generates variation via crossing over (1-3 events per chromosome pair), independent assortment (2²³ ≈ 8.4 million combinations), and random fertilization (8.4M × 8.4M ≈ 70 trillion zygotic combinations). Sexual reproduction produces exponentially more variation because it *reshuffles existing alleles* in every generation, whereas asexual reproduction only accumulates *new mutations* slowly. A wrong answer (e.g., \"sexual reproduction has more mutations\") confuses recombination with mutation rate.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows a crop using vegetative propagation (cuttings) for 10 years. Another farmer grows the same crop from seeds each year. Which population will show more phenotypic variation after 10 years? Justify your answer with two biological reasons.",
+     "a": "The seed-grown population will show far more variation. Reason 1: Sexual reproduction via seeds involves meiosis (crossing over, independent assortment) and random fertilization, generating new allele combinations every generation. Reason 2: Vegetative propagation is mitotic — offspring are clones; variation only arises from somatic mutations, which are rare and not systematically reshuffled. A wrong answer (choosing vegetative propagation or citing only \"mutations\") fails to recognize that recombination in sexual reproduction is a *directed, high-volume* variation generator each generation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using coloured beads or paper strips to model how independent assortment and fertilization create variation in offspring. Your model must show at least 3 chromosome pairs and produce 4 distinct offspring genotypes from two parents.",
+     "a": "**Model**: Use 3 pairs of homologous chromosomes (e.g., red/blue, green/yellow, orange/purple beads). Parent 1: all maternal colours; Parent 2: all paternal colours.  \n**Steps**: (1) Simulate meiosis: randomly segregate each pair into gametes (2³ = 8 gamete types per parent). (2) Simulate fertilization: randomly pick one gamete from each parent. (3) Record offspring genotype (e.g., red+green+orange). Repeat 4 times.  \n**Good answer** shows distinct combinations and explains how randomness at two stages (meiosis + fertilization) multiplies variation. **Poor answer** produces identical offspring or misses the two-stage randomness, revealing a lack of understanding of combinatorial variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

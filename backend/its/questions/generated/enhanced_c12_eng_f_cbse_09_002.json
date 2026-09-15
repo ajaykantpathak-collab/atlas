@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_09_002",
+   "title": "c12_eng_f_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the grammatical structure of the entire poem \"My Mother at Sixty-six\" and how does it relate to the narrative flow?",
+     "a": "The poem is written as a single sentence punctuated only by commas. This creates an uninterrupted stream of consciousness that mirrors the poet's continuous thought process during the car ride and airport wait, allowing observations of the outside world (trees, children) to flow directly into internal realizations about aging without structural breaks. A wrong answer (e.g., \"it has multiple stanzas\" or \"it uses full stops\") reveals the student hasn't noticed the poem's unique single-sentence construction, which is central to its narrative technique.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the narrative perspective shifts between the car ride and the airport scene, and why this shift matters for the poem's emotional arc.",
+     "a": "During the car ride, the poet observes her mother dozing (close internal focus) then deliberately looks outward at sprinting trees and merry children (external distraction). At the airport after security, she returns her gaze to her mother (wan, pale as winter moon) and feels the childhood fear resurface. This shift from internal pain → external distraction → forced return to reality structures the poem's emotional arc: avoidance → confrontation → suppressed acceptance. A wrong answer that treats both scenes as similar observations misses the deliberate psychological movement from逃避 (avoidance) to 面对 (facing).",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"narrative time\" to this poem: identify the three distinct time markers in the poem and explain how they compress a longer emotional history into a single morning.",
+     "a": "Step 1: Identify explicit time markers — \"last Friday morning\" (drive), \"after the airport's security check\" (airport), and the implied present of parting (\"see you soon\"). Step 2: Recognize the compressed emotional timeline — the \"old familiar ache\" and \"childhood's fear\" reference years of dreading this moment. Step 3: Analyze compression — the few hours of the journey contain the poet's entire lifelong fear of losing her mother. Step 4: Connect to structure — the single sentence enacts this compression by allowing past (childhood fear) and present (parting) to coexist grammatically. A wrong answer listing only clock-time markers misses the psychological time compression that defines the poem's narrative depth.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the poem's narrative structure uses contrast between movement and stillness to reinforce its central tension. Provide specific structural evidence.",
+     "a": "The narrative alternates between stillness (mother dozing \"open mouthed\", \"wan, pale as a late winter's moon\") and movement (trees \"sprinting\", children \"spilling out\", the car driving, the poet's smile). Structurally, the first half presents stillness → movement → stillness (mother → trees/children → mother again). This oscillation mirrors the poet's emotional vacillation between confronting mortality (stillness/death imagery) and seeking life (movement/youth imagery). The single sentence forces these contrasts to collide without resolution, enacting the tension between accepting aging and denying it. A wrong answer that only lists images without linking them to narrative structure misses how the poem's form enacts its meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the single-sentence structure for this poem's narrative purpose. Could the same story be told in multiple sentences? Justify your judgment.",
+     "a": "The single-sentence structure is highly effective because: (1) It mimics the uninterrupted nature of grief/anxiety — thoughts don't pause for periods. (2) It forces the external world (trees, children) to grammatically coexist with internal pain, showing how life continues around grief. (3) The commas create breath-like pauses that mirror the poet's suppressed emotions. Multiple sentences would create artificial boundaries between observation and feeling, allowing the reader to \"pause\" and distance themselves — exactly what the poet cannot do. A wrong answer claiming multiple sentences would work equally well fails to understand how syntactic form embodies psychological state in this poem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief narrative poem (4-6 lines) about a personal farewell that uses a single-sentence structure with commas to convey continuous thought. Include at least one shift between external observation and internal feeling.",
+     "a": "A strong answer will: (1) Use only commas, no full stops. (2) Show clear temporal progression (departure → observation → internal feeling → parting words). (3) Include a distinct shift from looking outward to looking inward. (4) End with suppressed emotion (smile, understated words). Example: \"Standing at the station platform watching father adjust his coat collar, the train's whistle cutting through morning fog, I notice his hands tremble slightly on the suitcase handle, the same hands that taught me to ride a bicycle, and feel the childhood fear of separation rise in my throat, but all I say is safe journey Papa, all I do is wave and wave and wave...\" A poor answer uses multiple sentences, lacks the observation-feeling shift, or doesn't suppress the final emotion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

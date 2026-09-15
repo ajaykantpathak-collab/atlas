@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_1",
+   "title": "c8_math_ch13_1",
+   "questions": [
+    {
+     "q": "If the trick is \"Think of a number. Double it. Add 10. Divide by 2. Subtract the original number,\" what is the algebraic expression after the \"Add 10\" step if the original number is \\(x\\)?",
+     "a": "The correct expression is \\(2x + 10\\). A wrong answer like \\(2(x + 10)\\) or \\(2x + 5\\) reveals the student does not follow the sequence of operations in order or misapplies the distributive property. They may be combining steps incorrectly instead of building the expression step by step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the trick \"Think of a number. Multiply by 4. Add 8. Divide by 4. Subtract the original number\" always gives the answer 2, using algebra.",
+     "a": "Let the number be \\(x\\). Steps: \\(4x \\rightarrow 4x + 8 \\rightarrow (4x + 8)/4 = x + 2 \\rightarrow (x + 2) - x = 2\\). The variable \\(x\\) cancels in the final subtraction, leaving the constant 2. A wrong explanation that just says \"it always gives 2\" without showing the algebraic cancellation reveals the student cannot connect the arithmetic steps to algebraic manipulation. They may not see that dividing \\(4x + 8\\) by 4 gives \\(x + 2\\) (distributive property).",
+     "self_check": true
+    },
+    {
+     "q": "A trick says: \"Think of a number. Add 5. Multiply by 3. Subtract 9. Divide by 3. Subtract the original number.\" If you start with 12, what is the final answer? Show the algebraic working to prove it works for any number.",
+     "a": "Arithmetic with 12: \\(12 + 5 = 17\\), \\(17 \\times 3 = 51\\), \\(51 - 9 = 42\\), \\(42 / 3 = 14\\), \\(14 - 12 = 2\\). Algebraic: \\(x \\rightarrow x + 5 \\rightarrow 3(x + 5) = 3x + 15 \\rightarrow 3x + 15 - 9 = 3x + 6 \\rightarrow (3x + 6)/3 = x + 2 \\rightarrow (x + 2) - x = 2\\). Final answer is always 2. A wrong answer (e.g., 3 or 5) or incorrect algebra (e.g., \\(3x + 5\\) instead of \\(3(x + 5)\\)) reveals the student either miscalculates the arithmetic or fails to apply the distributive property correctly when multiplying the binomial by 3.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two tricks:\nTrick A: \"Think of a number. Multiply by 2. Add 6. Divide by 2. Subtract the original number.\"\nTrick B: \"Think of a number. Add 3. Multiply by 2. Divide by 2. Subtract the original number.\"\nDo they give the same final answer? Explain using algebra.",
+     "a": "Trick A: \\(x \\rightarrow 2x \\rightarrow 2x + 6 \\rightarrow (2x + 6)/2 = x + 3 \\rightarrow (x + 3) - x = 3\\). Trick B: \\(x \\rightarrow x + 3 \\rightarrow 2(x + 3) = 2x + 6 \\rightarrow (2x + 6)/2 = x + 3 \\rightarrow (x + 3) - x = 3\\). Both give 3. The operations are commutative in effect (multiply then add vs add then multiply) because of the distributive property. A wrong answer saying they are different reveals the student does not recognize that \\(2(x + 3) = 2x + 6\\) and that the sequence of operations can be rearranged while preserving the result. They may treat the tricks as completely separate without algebraic comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the trick 'Think of a number. Multiply by 5. Add 15. Divide by 5. Subtract the original number,' the answer is always 15 because you added 15.\" Evaluate this claim and correct the error.",
+     "a": "The claim is false. Algebraic working: \\(x \\rightarrow 5x \\rightarrow 5x + 15 \\rightarrow (5x + 15)/5 = x + 3 \\rightarrow (x + 3) - x = 3\\). The answer is 3, not 15. The student's error is ignoring the division step: adding 15 then dividing by 5 reduces the added amount to 3. A wrong evaluation that agrees with the student reveals they do not track how each operation transforms the expression, especially how division distributes over addition. They focus on the number \"15\" added rather than its algebraic effect.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own \"Think of a Number\" trick that always gives the answer 7. Write the trick in words, then prove it works using algebra with variable \\(x\\).",
+     "a": "Example trick: \"Think of a number. Multiply by 4. Add 28. Divide by 4. Subtract the original number.\" Algebraic proof: \\(x \\rightarrow 4x \\rightarrow 4x + 28 \\rightarrow (4x + 28)/4 = x + 7 \\rightarrow (x + 7) - x = 7\\). A good answer shows a valid sequence where the constant added is a multiple of the multiplier (here 28 = 4 × 7) so that division yields \\(x + 7\\). A poor answer might have mismatched operations (e.g., multiply by 3, add 28, divide by 4) that don't simplify to a constant, or the algebra doesn't cancel \\(x\\), revealing the student doesn't understand the structural requirement for the variable to disappear.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

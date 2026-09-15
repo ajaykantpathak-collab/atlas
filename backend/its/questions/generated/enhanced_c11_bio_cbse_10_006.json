@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_006",
+   "title": "c11_bio_cbse_10_006",
+   "questions": [
+    {
+     "q": "Name the five sequential sub-stages of Prophase I and state the one defining chromosomal event that characterises each sub-stage.",
+     "a": "Leptotene: chromosomes become visible as thin threads; Zygotene: synapsis begins, homologous chromosomes pair forming synaptonemal complex; Pachytene: crossing over occurs at recombination nodules between non-sister chromatids; Diplotene: synaptonemal complex dissolves, chiasmata become visible as X-shaped structures; Diakinesis: chiasmata terminalise, chromosomes maximally condense, nuclear envelope breaks down. A wrong answer (e.g., listing \"crossing over in zygotene\" or \"chiasmata in pachytene\") reveals confusion about the temporal order of synapsis, recombination, and chiasma formation — a classic error that leads to incorrect predictions about when genetic exchange happens.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why crossing over between non-sister chromatids of homologous chromosomes (not sister chromatids) is essential for generating genetic variation in gametes.",
+     "a": "Crossing over exchanges alleles between paternal and maternal chromosomes, creating recombinant chromatids with new allele combinations. Sister chromatids are genetically identical (barring replication errors), so exchange between them produces no new combinations. A wrong answer stating \"crossing over occurs between sister chromatids\" or \"it increases chromosome number\" reveals a fundamental misunderstanding of the source of genetic diversity and the definition of homologous versus sister chromatids.",
+     "self_check": true
+    },
+    {
+     "q": "A cell with 2n = 8 chromosomes enters Meiosis I. After Telophase I, how many chromosomes and how many DNA molecules (chromatids) are present in each daughter nucleus? Justify your numbers.",
+     "a": "Each daughter nucleus has 4 chromosomes (n = 4) and 8 DNA molecules (each chromosome still comprises two sister chromatids). Reasoning: Meiosis I separates homologous pairs, halving chromosome number from 2n=8 to n=4. DNA replication occurred only once in pre-meiotic S phase, so each chromosome still consists of two chromatids. A wrong answer of \"4 chromosomes and 4 DNA molecules\" confuses Meiosis I with Meiosis II (where sister chromatids separate). An answer of \"8 chromosomes\" fails to recognise reductional division.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinetochore-microtubule attachment in Metaphase I of meiosis with Metaphase of mitosis. How does this difference ensure homologous chromosomes separate in Anaphase I while sister chromatids separate in mitotic anaphase?",
+     "a": "In Metaphase I, microtubules from opposite poles attach to kinetochores of homologous chromosomes (each homologue's two sister chromatids act as a unit), so the bivalent is pulled toward opposite poles. In mitosis, microtubules from opposite poles attach to kinetochores of sister chromatids of the same chromosome, pulling them apart. The difference: meiosis I has monopolar attachment of sister kinetochores (they function as one), while mitosis has bipolar attachment. A wrong answer claiming \"kinetochores attach similarly in both\" misses the mechanistic basis of reductional versus equational division.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since crossing over occurs in pachytene, chiasmata should be visible in pachytene.\" Evaluate this statement and explain why chiasmata become visible only in diplotene.",
+     "a": "The statement is incorrect. In pachytene, the synaptonemal complex tightly holds homologous chromosomes together, physically masking the crossover sites. Chiasmata become visible only in diplotene when the synaptonemal complex dissolves and homologues start moving apart but remain attached at crossover points, forming X-shaped chiasmata. A wrong evaluation accepting the student's argument shows ignorance of the structural role of the synaptonemal complex in concealing chiasmata until its disassembly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion flower buds (or any locally available plant) to demonstrate that Meiosis I reduces chromosome number. Specify the stage you would observe, the stain you would use, and the expected chromosome count in the observed cells compared to a root tip mitotic cell of the same plant.",
+     "a": "Collect young anthers from onion flower buds, squash in acetocarmine stain, and observe pollen mother cells (PMCs) at Metaphase I. Count bivalents (each = one homologous pair) — number should be half the somatic chromosome number (e.g., onion 2n=16, so 8 bivalents). Compare with root tip mitotic metaphase showing 16 individual chromosomes. A poor design (e.g., using root tips for meiosis, or counting chromatids instead of bivalents) reveals inability to select appropriate tissue (gametogenic vs somatic) and stage for observing reductional division.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

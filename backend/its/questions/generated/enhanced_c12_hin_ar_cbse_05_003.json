@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_05_003",
+   "title": "c12_hin_ar_cbse_05_003",
+   "questions": [
+    {
+     "q": "What are the three core components of 'setting' in a literary text, and which component is most prominently established in the opening stanza of \"मेघ\"?",
+     "a": "The three core components are time (temporal), place (spatial), and physical environment (sensory/atmospheric). In the opening stanza of \"मेघ\", the physical environment — specifically the dense fog (\"उह्य त्य\"), frost (\"पकड\"), and cold — is most prominently established, creating a tactile and visual setting before time or place are explicitly named. A wrong answer that lists only \"time and place\" reveals the student thinks of setting as merely a backdrop rather than an immersive sensory field; a wrong answer identifying \"characters\" as a component of setting confuses setting with characterisation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the poet uses the image \"लिसन की डफेरा पर पकड से झाँख लेते पीले-पीले बच्चों के उनग गाल\" to contribute to the atmosphere of the poem. What specific mood does this image evoke?",
+     "a": "The image depicts children's cheeks glowing yellow-red from frostbite or cold exposure while they peek from behind a woodpile (\"लिसन की डफेरा\"). This evokes a mood of vulnerable innocence amid harshness — the children are small, unprotected, yet curious and alive. The contrast between the biting cold (implied by \"पकड\") and the warm colour of their cheeks creates a poignant atmosphere of resilience. A wrong answer focusing only on the literal description (\"children hiding behind wood\") misses the atmospheric function; a wrong answer claiming it shows \"happiness\" ignores the physical danger implied by frost on children's faces.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'atmospheric shift' to the poem: identify the exact stanza where the atmosphere changes from static stillness to dynamic movement, and list three specific words/phrases from that stanza that signal this shift.",
+     "a": "The shift occurs in the stanza describing sunrise (\"तब वकवक वकवक...\"). Three signals: (1) \"वकवक वकवक\" (onomatopoeic repetition suggesting sudden, rhythmic movement), (2) \"टुनटुन\" (temple bell breaking silence with sound), (3) \"उठी धूप\" (sun rising — active verb \"उठी\" replacing static descriptions). A student who picks the opening stanza misunderstands that the poem begins in stillness; one who selects the final stanza without identifying the *transition* stanza fails to grasp that atmospheric shift is a process, not an endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the spatial setting expands from the domestic/immediate (\"लिसन की डफेरा\", \"पीक सरसों\") to the communal/cosmic (\"मंदिर का घंटा\", \"आकाश\") across the poem. What does this spatial progression suggest about the relationship between individual experience and collective rhythm in village life?",
+     "a": "The poem begins with intimate, domestic space (woodpile, mustard field edges, children's faces) — the private world of sensation. It expands to the temple bell (\"मंदिर का घंटा\") marking communal time, then to the sky (\"आकाश\") where the sun rises for everyone. This progression mirrors how village life moves from individual survival (warming hands, protecting children) to shared rituals (prayer, work cycles) governed by nature's clock. The spatial expansion *is* the atmosphere deepening from personal chill to collective awakening. A wrong answer listing settings without connecting them to the individual/collective dynamic treats setting as a list rather than a meaningful structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The atmosphere of 'मेघ' is primarily melancholic because it depicts poverty and harsh winter.\" Defend or refute using at least two textual evidences.",
+     "a": "Refute. The atmosphere is *not* primarily melancholic; it is resilient and life-affirming. Evidence 1: \"पीले-पीले बच्चों के उनग गाल\" — the children's glowing cheeks suggest vitality, not despair; they are \"उनग\" (fresh/alive), not withered. Evidence 2: The poem ends with \"उठी धूप\" and the bell's \"टुनटुन\" — images of renewal and rhythm, not stagnation. The cold is a condition, not a verdict. A student agreeing with the claim imposes an urban, deficit-based reading on a poem that celebrates rural endurance; they confuse *hardship* with *hopelessness*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza in Hindi (or English) that establishes a distinct setting and atmosphere for a *summer afternoon* in a similar village, using at least three sensory images. Your stanza must show, not tell, the mood.",
+     "a": "Example (Hindi):\n\"खपरैल तले लू का सन्नाटा,\nनीम की छाँव में खाट की रस्सी चरमराई,\nआम की गंध लिए हवा — बेसुध,\nपसीने की बूँद गिरती है, भाप बन उड़ जाती।\"\nSensory images: auditory (\"सन्नाटा\", \"चरमराई\"), olfactory (\"आम की गंध\"), tactile/thermal (\"लू\", \"पसीने की बूँद\", \"भाप\"). Atmosphere: heavy, drowsy, suspended. A poor answer uses abstract adjectives (\"बहुत गर्मी थी\", \"उदास माहौल\") instead of concrete sensory details, revealing the student hasn't internalised 'show, don't tell' as the core technique for atmosphere creation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

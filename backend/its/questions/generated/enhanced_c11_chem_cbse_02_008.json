@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_008",
+   "title": "c11_chem_cbse_02_008",
+   "questions": [
+    {
+     "q": "State Bohr's quantization condition for angular momentum and write the formula for the radius of the nth orbit in hydrogen atom. What is the value of the Bohr radius a₀?",
+     "a": "Bohr's quantization condition: m_e v r = n h/2π (n = 1, 2, 3...). Radius formula: r_n = n²a₀ where a₀ = 52.9 pm. A wrong answer (e.g., writing r ∝ n instead of n², or confusing a₀ with 0.529 Å) reveals the student has memorized formulas without understanding the derivation from centripetal force = Coulomb force combined with quantized angular momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the electron in Bohr's model not radiate energy while moving in a stationary orbit, even though it is accelerating (changing direction)? How does this contradict Maxwell's electromagnetic theory?",
+     "a": "Bohr postulated as a fundamental assumption that electrons in stationary states do not radiate, despite centripetal acceleration. This directly contradicts Maxwell's theory which states any accelerating charge must radiate electromagnetic waves. A student who says \"the electron doesn't accelerate\" misunderstands circular motion; one who says \"quantum mechanics explains it\" is anticipating the next model — the correct answer acknowledges this is an ad hoc postulate that Bohr introduced to stabilize the atom, later justified by de Broglie's standing wave condition.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the wavelength (in nm) of the photon emitted when an electron in He⁺ ion transitions from n = 4 to n = 2. Given R_H = 2.18 × 10⁻¹⁸ J, h = 6.626 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m/s.",
+     "a": "Step 1: Energy for hydrogen-like ion E_n = -Z²R_H/n². For He⁺, Z = 2.\nStep 2: E_i = -4 × 2.18×10⁻¹⁸/16 = -0.545×10⁻¹⁸ J; E_f = -4 × 2.18×10⁻¹⁸/4 = -2.18×10⁻¹⁸ J.\nStep 3: ΔE = E_f - E_i = -1.635×10⁻¹⁸ J (emission, so |ΔE| = 1.635×10⁻¹⁸ J).\nStep 4: λ = hc/|ΔE| = (6.626×10⁻³⁴ × 3.00×10⁸)/(1.635×10⁻¹⁸) = 1.216×10⁻⁷ m = 121.6 nm.\nWrong answers typically forget Z² factor (giving 486 nm, the H-β line) or use Rydberg formula incorrectly with n_f, n_i swapped.",
+     "self_check": true
+    },
+    {
+     "q": "The Balmer series lies in the visible region, while Lyman is UV and Paschen is IR. Using the energy level diagram, explain why the energy gaps ΔE decrease as n increases, and how this determines the spectral region for each series.",
+     "a": "Energy levels E_n = -R_H/n² get closer as n increases (|E_n| ∝ 1/n²). Transitions to n_f = 1 (Lyman) have largest ΔE (~10.2 eV to 13.6 eV) → UV. Transitions to n_f = 2 (Balmer) have smaller ΔE (~1.9 eV to 3.4 eV) → visible. Transitions to n_f = 3 (Paschen) have even smaller ΔE (<1.5 eV) → IR. A student who says \"higher n means higher energy\" confuses quantum number with energy magnitude; the negative sign and inverse square relation are crucial.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Bohr's model perfectly explains the hydrogen spectrum, so it should work for helium by just changing Z=2.\" Evaluate this statement. What specific experimental evidence contradicts it?",
+     "a": "The statement is false. Bohr's model works only for one-electron systems (H, He⁺, Li²⁺). For neutral helium (2 electrons), electron-electron repulsion introduces a three-body problem that breaks the central-force assumption. Evidence: helium spectrum shows many more lines than predicted, including singlet/triplet splitting (spin effects) and no simple Rydberg formula with single Z. The model also cannot explain fine structure (doublets) in hydrogen itself, which requires relativistic corrections and spin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using de Broglie's hypothesis (λ = h/p) to derive Bohr's quantization condition. Show how the \"standing wave\" condition on a circular orbit leads to m_e v r = n h/2π.",
+     "a": "For a stable standing wave on a circular orbit of radius r, the circumference must contain an integer number of wavelengths: 2πr = nλ. Substitute de Broglie λ = h/(m_e v): 2πr = n h/(m_e v) → m_e v r = n h/2π. A good answer includes this derivation and notes that n=1,2,3... corresponds to 1,2,3... wavelengths fitting the orbit. A poor answer merely states the formula without the standing wave reasoning, missing the conceptual bridge between particle and wave pictures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

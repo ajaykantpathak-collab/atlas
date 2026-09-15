@@ -1,0 +1,234 @@
+{
+ "catalog": "catalog_class6_social_science_ch308",
+ "concepts": [
+  {
+   "id": "fess.308.1",
+   "title": "Farm and Non-Farm Occupations in Rural Areas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Farm and Non-Farm Occupations in Rural Areas' refers to.",
+     "a": "Rural economies comprise agricultural work such as crop cultivation alongside diverse non-farm trades including craft-making, retail shops, repair services, and transportation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Farm and Non-Farm Occupations in Rural Areas'.",
+     "a": "Rural livelihoods extend beyond crop cultivation to incorporate local service industries and craft production.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Farm and Non-Farm Occupations in Rural Areas' taught, and from which source text?",
+     "a": "Kalpattu village (source: fess308.txt lines 30-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.2",
+   "title": "Wage Earners and Agricultural Labour Income",
+   "questions": [
+    {
+     "q": "Calculate total income earned by an agricultural labourer over a given number of days. Use the method 'Wage Earners and Agricultural Labour Income'. Work with: daily_wage = 50, days_worked = 240. Carry the chain through step by step and give the final value of total_income.",
+     "a": "12000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the seasonal earnings of a landless farm worker. Use the method 'Wage Earners and Agricultural Labour Income'. Work with: daily_wage = 50, days_worked = 300. Carry the chain through step by step and give the final value of total_income.",
+     "a": "15000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Wage Earners and Agricultural Labour Income' refers to.",
+     "a": "Landless agricultural workers sell their manual labor during farming seasons for daily wages, facing low pay and lack of year-round employment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wage Earners and Agricultural Labour Income'.",
+     "a": "Agricultural labourers experience seasonal employment gaps and low wage rates due to landlessness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Wage Earners and Agricultural Labour Income', in plain ASCII form.",
+     "a": "total_income = daily_wage * days_worked",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.3",
+   "title": "Small Farmers and Crop Loan Obligations",
+   "questions": [
+    {
+     "q": "Find the remaining paddy bags available for household consumption after repaying a crop loan. Use the method 'Small Farmers and Crop Loan Obligations'. Work with: loan_repayment_bags = 400, total_paddy_bags = 24. Carry the chain through step by step and give the final value of net_paddy_retained.",
+     "a": "-376 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate paddy retained by a small farmer after settling input debts. Use the method 'Small Farmers and Crop Loan Obligations'. Work with: loan_repayment_bags = 300, total_paddy_bags = 24. Carry the chain through step by step and give the final value of net_paddy_retained.",
+     "a": "-276 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Small Farmers and Crop Loan Obligations' refers to.",
+     "a": "Smallholders cultivate limited acreage primarily using family labour and often depend on trade loans for inputs, obligating them to sell produce below market prices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Small Farmers and Crop Loan Obligations'.",
+     "a": "Small-scale agriculturalists face income shortfalls and trader loan commitments that reduce marketable surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Small Farmers and Crop Loan Obligations', in plain ASCII form.",
+     "a": "net_paddy_retained = total_paddy_bags - loan_repayment_bags",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.4",
+   "title": "Causes and Dynamics of Rural Debt Trap",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Causes and Dynamics of Rural Debt Trap' refers to.",
+     "a": "A cycle of compounding debt occurs when crop failure or health emergencies force farmers to borrow repeatedly, exceeding their capacity to repay.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Causes and Dynamics of Rural Debt Trap'.",
+     "a": "High interest rates, bad seeds, monsoon failure, and distress borrowing lead to persistent rural indebtedness.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Causes and Dynamics of Rural Debt Trap' taught, and from which source text?",
+     "a": "On being in Debt (source: fess308.txt lines 185-210)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.5",
+   "title": "Large Farmers and Diversified Rural Enterprises",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Large Farmers and Diversified Rural Enterprises' refers to.",
+     "a": "Wealthy agrarian landowners operate large acreage, employ hired labor, and expand capital into processing mills, trade, and financial lending.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Large Farmers and Diversified Rural Enterprises'.",
+     "a": "Large farmers generate substantial surpluses enabling investment in off-farm commercial ventures.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Large Farmers and Diversified Rural Enterprises' taught, and from which source text?",
+     "a": "Ramalingam and Karuthamma (source: fess308.txt lines 215-235)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.6",
+   "title": "Categorization and Proportions of Indian Farmers",
+   "questions": [
+    {
+     "q": "Calculate the number of small farmers in a region given the total farmer population. Use the method 'Categorization and Proportions of Indian Farmers'. Work with: total_farmers = 240. Carry the chain through step by step and give the final value of small_farmer_count.",
+     "a": "192 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the count of small landholders using the national eighty percent proportion. Use the method 'Categorization and Proportions of Indian Farmers'. Work with: total_farmers = 40. Carry the chain through step by step and give the final value of small_farmer_count.",
+     "a": "32 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Categorization and Proportions of Indian Farmers' refers to.",
+     "a": "Indian agriculture is dominated by smallholders (80%) and landless laborers (40% of rural families), while large landholders comprise only 20% of farmers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Categorization and Proportions of Indian Farmers'.",
+     "a": "Most cultivators in India operate marginal plots insufficient for full year-round subsistence.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Categorization and Proportions of Indian Farmers', in plain ASCII form.",
+     "a": "small_farmer_count = total_farmers * 80 / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.7",
+   "title": "Terrace Farming and Community Labour in Hilly Regions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Terrace Farming and Community Labour in Hilly Regions' refers to.",
+     "a": "Slope cultivation technique where hillside land is carved into stepped flat terraces with raised borders to retain water for paddy growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Terrace Farming and Community Labour in Hilly Regions'.",
+     "a": "Terrace carving enables hillside irrigation and rice cultivation through collective group labor.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Terrace Farming and Community Labour in Hilly Regions' taught, and from which source text?",
+     "a": "Terrace Farming in Nagaland (source: fess308.txt lines 270-300)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.8",
+   "title": "Forest Gathering and Supplementary Rural Livelihoods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Forest Gathering and Supplementary Rural Livelihoods' refers to.",
+     "a": "Non-wood forest produce collection, livestock rearing, and dairy cooperative sales provide essential supplementary earnings for rural households.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forest Gathering and Supplementary Rural Livelihoods'.",
+     "a": "Rural families rely on natural resource gathering and animal husbandry to supplement seasonal farming income.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Forest Gathering and Supplementary Rural Livelihoods' taught, and from which source text?",
+     "a": "Terrace Farming in Nagaland (source: fess308.txt lines 305-325)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.308.9",
+   "title": "Coastal Fishing Economy and Revenue Share Calculation",
+   "questions": [
+    {
+     "q": "Calculate individual share value from total fish auction revenue divided into equal parts. Use the method 'Coastal Fishing Economy and Revenue Share Calculation'. Work with: total_auction_revenue = 50000, total_shares = 75. Carry the chain through step by step and give the final value of share_amount.",
+     "a": "666.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the per-share payout from daily catch earnings. Use the method 'Coastal Fishing Economy and Revenue Share Calculation'. Work with: total_auction_revenue = 80000, total_shares = 40. Carry the chain through step by step and give the final value of share_amount.",
+     "a": "2000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Coastal Fishing Economy and Revenue Share Calculation' refers to.",
+     "a": "Maritime fishing livelihoods depend on equipment investment and daily auctioning of catch, where revenues are divided into designated functional shares.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coastal Fishing Economy and Revenue Share Calculation'.",
+     "a": "Fish catch proceeds are distributed among crew members and equipment owners, with seasonal fishing bans requiring lean-period loans.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Coastal Fishing Economy and Revenue Share Calculation', in plain ASCII form.",
+     "a": "share_amount = total_auction_revenue / total_shares",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

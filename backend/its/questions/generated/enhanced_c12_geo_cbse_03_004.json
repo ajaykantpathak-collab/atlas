@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_004",
+   "title": "c12_geo_cbse_03_004",
+   "questions": [
+    {
+     "q": "Name the four approaches to human development listed in NCERT Table 3.1 and identify the economist associated with the Capability Approach.",
+     "a": "The four approaches are: (1) Income Approach, (2) Welfare Approach, (3) Basic Needs Approach, (4) Capability Approach. The Capability Approach is associated with Prof. Amartya Sen. A wrong answer (e.g., naming \"GDP Approach\" or \"Growth Approach\" instead of Income Approach, or attributing Capability Approach to Mahbub ul Haq) reveals confusion between the *measurement tool* (HDI by Haq) and the *philosophical foundation* (Capability Approach by Sen), or inability to distinguish the four distinct frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Income Approach considers higher income as equivalent to higher human development, and give one reason why this equivalence fails in practice.",
+     "a": "The Income Approach assumes income reflects the level of freedom an individual enjoys — more income means more choices. This fails because income growth can be unequal (e.g., rising GDP with stagnant wages for the poor), spent on non-development goods (defence, luxury imports), or earned at the cost of health/environment (industrial pollution reducing life expectancy). A student who says \"income buys everything\" misses that *choices* require capabilities (health, education) which income alone cannot guarantee if public goods are absent.",
+     "self_check": true
+    },
+    {
+     "q": "A state government increases education spending by 20% but school dropout rates among girls remain unchanged. Using the Welfare Approach and Capability Approach, explain this outcome in two sentences each.",
+     "a": "Welfare Approach: The government fulfilled its responsibility by maximising expenditure on education (a welfare good); people are passive recipients, so if dropouts persist, it is due to household-level factors beyond state control. Capability Approach: Spending alone does not build capabilities — if girls lack *freedom* to attend (social norms, safety, sanitation, care burden), the *capability* to be educated remains unrealised. A wrong answer that blames \"corruption\" or \"lazy parents\" under both approaches shows failure to distinguish the *theoretical logic* of each framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Basic Needs Approach and Capability Approach on: (a) who defines the needs, (b) role of human agency, (c) treatment of diversity. Present as a 3-row table.",
+     "a": "| Dimension | Basic Needs Approach | Capability Approach |\n|-----------|---------------------|---------------------|\n| Who defines needs | Experts/institutions (ILO list: health, education, food, water, sanitation, housing) | Individuals/communities — needs derive from what people *value* being and doing |\n| Human agency | Passive beneficiaries; provision is top-down | Active agents; development expands *freedom to choose* |\n| Treatment of diversity | Uniform list for all \"defined sections\" | Inherent — capabilities vary by context (disability, gender, geography) |\n\nA student who merges the two (\"both provide basic needs\") misses the epistemological shift: from *externally defined minimum* to *internally valued freedom*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Capability Approach is just the Basic Needs Approach with a fancy name — both want people to have health, education, and food.\" Use Amartya Sen's distinction between *functionings* and *capabilities*.",
+     "a": "The critique is invalid. Basic Needs focuses on *achieved functionings* (being nourished, literate, housed) — a checklist of outcomes. Capability Approach focuses on *capabilities* — the *real freedoms* or *opportunities* to achieve those functionings. A person may have food available (capability) but choose to fast (functioning not achieved) — Basic Needs counts this as failure; Capability respects the choice. Conversely, a girl enrolled in school (Basic Need met) but pulled out for marriage lacks the *capability* to be educated. Sen's distinction: functionings = \"beings and doings\"; capabilities = \"the freedom to achieve those beings and doings.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level development intervention that operationalises the Capability Approach for adolescent girls. Specify: (a) the capability targeted, (b) two conversion factors addressed, (c) one indicator of success that is NOT an enrolment or attendance number.",
+     "a": "(a) Capability: \"Being able to participate in community decision-making\" (political agency). (b) Conversion factors addressed: (i) Social norms — via facilitated dialogues with parents/elders on girls' right to speak; (ii) Physical infrastructure — safe transport to panchayat meetings. (c) Success indicator: Number of girls who *submit a written proposal* to the Gram Sabha on a local issue (e.g., water tap location) — this measures *exercised agency*, not just presence. A weak answer lists \"life skills training\" without specifying which capability it expands or how conversion factors (caste, gender, disability) are addressed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

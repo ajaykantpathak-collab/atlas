@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_007",
+   "title": "c12_geo_cbse_17_007",
+   "questions": [
+    {
+     "q": "Name the four seismic zones of India (Zone II to V) in order of increasing hazard and state the primary tectonic feature responsible for Zone V.",
+     "a": "Zone II (Low), Zone III (Moderate), Zone IV (High), Zone V (Very High). Zone V is driven by the Main Boundary Thrust (MBT) and Main Central Thrust (MCT) in the Himalaya where the Indian plate underthrusts Eurasia. A wrong answer (e.g., listing zones alphabetically or citing the Deccan Traps for Zone V) reveals the student has memorized zone numbers without linking them to plate-boundary processes taught in c11_geo_cbse_04_008 and c11_geo_cbse_11_002.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Brahmaputra Valley experiences annual flooding while the Deccan Plateau rivers (e.g., Godavari) flood less frequently but more catastrophically when they do.",
+     "a": "Brahmaputra: high sediment load from young Himalaya + glacial melt + concentrated monsoon rainfall + braided channel with low carrying capacity = annual overbank flooding. Godavari: mature hard-rock basin, lower sediment, but extreme cyclonic rainfall events (e.g., 2019) on low-infiltration basalt generate flash floods with high velocity. A wrong answer attributing both solely to \"heavy rain\" misses the geomorphic contrast (alluvial vs. bedrock channels) and the role of sediment — a confusion rooted in not connecting Class 11 fluvial geomorphology (c11_geo_cbse_07_003) to disaster patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A district receives 40% of its normal monsoon rainfall. Reservoir storage is at 30% of capacity. Kharif sowing is 60% of normal area. Classify the drought type(s) prevailing and justify with IMD criteria.",
+     "a": "Meteorological drought (rainfall deficit > 25% of normal), hydrological drought (reservoir storage < 50% of normal), and agricultural drought (sown area < 75% of normal + soil moisture deficit). All three coexist. A student who only says \"meteorological drought\" fails to apply the IMD's multi-index framework (c11_geo_cbse_11_005) and cannot explain why drinking water shortages persist after rains return.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cyclone vulnerability of the Odisha coast (Bay of Bengal) and the Gujarat coast (Arabian Sea) using three factors: cyclone frequency, storm surge potential, and population density in the 0-10 m elevation zone.",
+     "a": "Odisha: higher frequency (4-5 cyclones/decade), wide shallow continental shelf amplifies surge (up to 7 m), high rural population density in deltaic plains = extreme vulnerability. Gujarat: lower frequency (1-2/decade), narrower shelf but steep coast concentrates surge in gulfs (Kutch, Khambhat), dense urban/industrial clusters in low-lying areas = high economic risk despite fewer events. A wrong answer treating both coasts as equally vulnerable ignores the bathymetric control on surge — a gap from not linking Class 11 coastal processes (c11_geo_cbse_07_007) to cyclone hazards.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Building higher embankments is the best long-term solution for flood control in the Ganga-Brahmaputra plains.\"",
+     "a": "Embankments disconnect rivers from floodplains, raising bed levels via sedimentation, increasing breach risk, and transferring flood risk downstream. They also prevent natural groundwater recharge and soil fertility renewal. Sustainable alternatives: floodplain zoning, wetland restoration, upstream watershed management (linking to c11_geo_cbse_13_006), and room-for-river approaches. A student endorsing embankments reveals a purely engineering mindset, missing the geomorphic reality that alluvial rivers need lateral space — a concept from c11_geo_cbse_07_003.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based early warning system for a drought-prone block in Bundelkhand that integrates IMD's Standardized Precipitation Index (SPI), groundwater monitoring wells, and crop-sowing advisories. List the data flow steps from sensor to farmer.",
+     "a": "1) Automatic weather stations + rain gauges feed daily rainfall to block-level server. 2) Server computes 1-month and 3-month SPI weekly. 3) Piezometer network transmits groundwater depth via telemetry. 4) Combined SPI + groundwater threshold triggers \"drought watch/alert/emergency\" SMS to Gram Panchayat. 5) Krishi Vigyan Kendra translates alert into crop-specific advisory (e.g., switch to millet, delay sowing, deficit irrigation). 6) Advisory disseminated via WhatsApp groups, village loudspeakers, and SHG meetings. A poor answer lists only \"SMS alerts\" without the hydro-meteorological decision logic, showing inability to synthesize monitoring, communication, and agronomic response — a key competency for CUET geography case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_001",
+   "title": "c11_ps_cbse_16_001",
+   "questions": [
+    {
+     "q": "What is the constitutional article that distributes legislative powers between the Union and the States in India, and what are the three lists it creates?",
+     "a": "Article 246 read with the Seventh Schedule creates three lists: Union List (List I), State List (List II), and Concurrent List (List III). A wrong answer (e.g., citing Article 1 or Article 356) reveals the student confuses the *distribution* of powers with the *territorial* definition of India or *emergency* provisions, indicating they have not internalised the structural architecture of the Seventh Schedule.",
+     "self_check": true
+    },
+    {
+     "q": "Why is India classified as a \"holding together\" federation rather than a \"coming together\" federation? Explain using the historical context of the Constitution's framing.",
+     "a": "India is a \"holding together\" federation because the Union was formed by *devolving* powers from a pre-existing unitary colonial structure to accommodate diversity, not by independent States voluntarily pooling sovereignty (as in the USA, Switzerland, or Australia). A wrong answer that cites \"India has a strong Centre\" confuses *outcome* with *origin*—the classification depends on the *process of formation*, not the current power balance. This misconception shows the student memorised labels without understanding the historical logic.",
+     "self_check": true
+    },
+    {
+     "q": "A State legislature passes a law on \"public health and sanitation\" (State List Entry 6). The Union Parliament later passes a law on \"prevention of infectious diseases spreading across State borders\" (Union List Entry 81 read with Concurrent List Entry 29). A conflict arises. Which law prevails and under what constitutional provision?",
+     "a": "The Union law prevails under Article 254(1) because the subject falls in the Concurrent List (Entry 29: \"prevention of the extension from one State to another of infectious or contagious diseases\") and Article 254 establishes Union paramountcy in case of repugnancy. A wrong answer (e.g., \"State law prevails because health is a State subject\") reveals the student cannot identify *overlap* between lists or apply the repugnancy doctrine—they treat lists as watertight compartments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the residuary power clause in India (Article 248) with that in the United States (10th Amendment). What does this difference reveal about the *design intent* of each federation?",
+     "a": "India vests residuary powers in the Union (Article 248), signalling a *centripetal* design to preserve unity in a diverse, newly independent territory. The US vests residuary powers in the States (10th Amendment), signalling a *centrifugal* design to protect State sovereignty. A wrong answer that merely states \"India has strong Centre, US has strong States\" without linking to *residuary power allocation* shows the student cannot connect constitutional text to theoretical federal design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Concurrent List undermines federalism because it allows the Union to encroach on State subjects.\" Use the concepts of cooperative federalism and legislative competence.",
+     "a": "The argument is partially valid but incomplete. The Concurrent List *enables* cooperative federalism by allowing both levels to legislate on shared concerns (education, forests, marriage), with Union law prevailing only in case of *actual conflict* (Article 254). It becomes an encroachment tool only when the Union uses its paramountcy to *occupy the field* without necessity. A one-sided answer (\"Concurrent List is bad/good\") reveals inability to weigh institutional design against political practice—a key senior-secondary analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Seventh Schedule entry for a new subject: \"Regulation of artificial intelligence in public services.\" Justify whether it belongs in the Union List, State List, or Concurrent List using the principles of federal division of powers.",
+     "a": "A strong answer places it in the **Concurrent List** with a justification: AI regulation has *national standards* (data privacy, algorithmic bias, interoperability) needing Union framework, but *local deployment* (health diagnostics, agricultural advisory, municipal services) needs State discretion. A poor answer places it solely in Union List (\"technology is national\") or State List (\"public services are local\") showing inability to apply the *subsidiarity* principle—deciding the level based on *spillover effects* and *economies of scale*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

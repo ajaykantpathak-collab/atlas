@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_008",
+   "title": "c12_chem_cbse_10_008",
+   "questions": [
+    {
+     "q": "Name the three components of a nucleotide and specify the carbon atoms on the pentose sugar where the base and phosphate group are attached.",
+     "a": "The three components are: (1) a nitrogenous base (adenine, guanine, cytosine, thymine, or uracil), (2) a pentose sugar (β-D-ribose or β-D-2-deoxyribose), and (3) phosphoric acid. The base attaches to the 1′ carbon of the sugar via an N-glycosidic bond; the phosphate attaches to the 5′ carbon via a phosphoester bond. A wrong answer (e.g., \"base at 3′, phosphate at 1′\") reveals confusion with the directionality of the phosphodiester linkage and the numbering convention that distinguishes sugar carbons (primed) from base atoms.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the structure of a DNA dinucleotide as: Base–Sugar–Phosphate–Sugar–Base, with the phosphate linked to the 3′ carbon of the first sugar and the 5′ carbon of the second. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. In a phosphodiester linkage, the phosphate group forms two ester bonds: one with the 3′-OH of the first nucleotide's sugar and one with the 5′-OH of the second nucleotide's sugar. The correct connectivity is 3′→5′ phosphodiester bond, meaning the phosphate bridges the 3′ carbon of the first sugar and the 5′ carbon of the second. The student's description has the phosphate attached to the 3′ of the first (correct) but implies the second attachment is at the 5′ of the second (also correct) — however, the written sequence \"Base–Sugar–Phosphate–Sugar–Base\" omits the 3′-OH of the first sugar and 5′-OH of the second, suggesting a misunderstanding that the phosphate simply sits between sugars without specifying the two distinct ester bonds. The error reveals a lack of clarity on the 3′–5′ directionality that defines the strand polarity.",
+     "self_check": true
+    },
+    {
+     "q": "A segment of one DNA strand has the sequence 5′-ATGCCT-3′. Write the sequence of the complementary strand in the 5′→3′ direction. Show the base pairing with hydrogen bond counts.",
+     "a": "Given strand (5′→3′): A – T – G – C – C – T\nComplementary strand (3′→5′): T – A – C – G – G – A\nRewritten 5′→3′: **5′-AGG CAT-3′** (or 5′-AGGCAT-3′)\nBase pairs: A=T (2 H-bonds), T=A (2), G≡C (3), C≡G (3), C≡G (3), T=A (2).\nA wrong answer like 5′-TACGGA-3′ (same direction as given) reveals the student does not understand antiparallel strand orientation. Writing A-U instead of A-T reveals confusion between DNA and RNA base pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hydrolysis products of a DNA nucleotide containing thymine versus an RNA nucleotide containing uracil. What structural difference in the sugar accounts for the different stability of DNA and RNA under alkaline hydrolysis?",
+     "a": "DNA nucleotide (with thymine) hydrolysis yields: 2-deoxy-D-ribose, phosphoric acid, thymine.\nRNA nucleotide (with uracil) hydrolysis yields: D-ribose, phosphoric acid, uracil.\nThe 2′-OH group in ribose (RNA) makes the phosphodiester bond susceptible to intramolecular nucleophilic attack under alkaline conditions, forming a 2′,3′-cyclic phosphate intermediate and cleaving the backbone. DNA lacks the 2′-OH (has 2′-H), so it is stable to alkali. A wrong answer citing \"thymine vs uracil\" as the stability factor reveals confusion between base composition and backbone chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A forensic lab receives a DNA sample. They hydrolyze it completely and find the molar ratio of bases: A : G : C : T = 1.3 : 0.9 : 0.9 : 1.2. Does this data obey Chargaff's rules? If not, what experimental error might explain the deviation?",
+     "a": "Chargaff's rules state: %A = %T and %G = %C (molar equivalence in double-stranded DNA).\nGiven ratios: A=1.3, T=1.2 (not equal); G=0.9, C=0.9 (equal).\nThe data **does not obey** Chargaff's rules because A ≠ T.\nPossible experimental error: incomplete hydrolysis (some dinucleotides remain, skewing quantification), degradation of thymine to a non-detected product, or contamination with single-stranded DNA/RNA where base pairing rules don't apply. A student who says \"it obeys because G=C\" ignores the A≠T violation — revealing a partial understanding that misses the requirement for **both** equalities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test to distinguish between a solution of DNA and a solution of RNA using only reagents available in a school laboratory (dilute NaOH, dilute HCl, heat, and pH paper). Explain the principle.",
+     "a": "**Test:** Take two test tubes. Add equal volumes of the nucleic acid solutions. To each, add 1 mL dilute NaOH (0.1 M). Heat both in a water bath at 60°C for 10 min. Cool, then test pH with pH paper.\n**Observation:** RNA solution becomes acidic (pH < 7) due to liberation of phosphate groups from backbone cleavage; DNA solution remains near neutral.\n**Principle:** Alkali catalyzes intramolecular transesterification via the 2′-OH of ribose in RNA, cleaving the phosphodiester backbone and releasing free phosphate (acidic). DNA lacks 2′-OH, so no cleavage occurs.\nA poor answer suggesting \"add Fehling's solution\" or \"test for reducing sugar\" reveals confusion between nucleic acid chemistry and carbohydrate chemistry (pentose sugars are not free in intact nucleic acids).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

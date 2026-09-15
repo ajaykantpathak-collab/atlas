@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Security in the Contemporary World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.105.1",
+   "title": "Traditional Notions of Security",
+   "section": "Traditional Notions: External",
+   "definition": "Traditional security centres the state and external military threats: greatest danger is war and violence from other states, and responses run through balance of power and alliance building, with deterrence and defense as the chief policy instruments including nuclear deterrence.",
+   "formula": "",
+   "key_idea": "Security here means protecting the state - sovereignty, territory and population - from foreign military force.",
+   "textbook_ref": "leps105.txt traditional security, balance of power and deterrence sections",
+   "question_patterns": [
+    "define traditional security and its referent object",
+    "what threats does traditional security foreground",
+    "explain balance of power and alliance building",
+    "define deterrence, defence and security dilemma",
+    "describe nuclear deterrence and its logic",
+    "compare disarmament, arms control and non-proliferation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the referent",
+     "explain": "the state with its territory and sovereignty is what is secured"
+    },
+    {
+     "step": 2,
+     "action": "list the instruments",
+     "explain": "alliances, balance of power, deterrence and defence are the tools"
+    },
+    {
+     "step": 3,
+     "action": "close with the bomb",
+     "explain": "nuclear deterrence rested on mutually assured destruction"
+    }
+   ]
+  },
+  {
+   "id": "leps.105.2",
+   "title": "Non-traditional Notions of Security",
+   "section": "Non-traditional Notions",
+   "definition": "Non-traditional security widens the referent to people and humanity: human security covers terrorism, human rights, global poverty and epidemics; global security addresses climate change, international terrorism and health epidemics that cross borders and threaten individuals more than armies do.",
+   "formula": "",
+   "key_idea": "When threats come from germs, warming or terror networks, armies are the wrong instrument and people, not just states, are the protected.",
+   "textbook_ref": "leps105.txt human security, global poverty, epidemics and climate sections",
+   "question_patterns": [
+    "define non-traditional security and its referent",
+    "name the components of human security",
+    "how do epidemics become security threats",
+    "explain climate change as a security issue",
+    "compare state-centric and people-centric security",
+    "relate cooperation to addressing non-traditional threats"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "widen the lens",
+     "explain": "the referent shifts from state territory to human lives"
+    },
+    {
+     "step": 2,
+     "action": "list the threats",
+     "explain": "poverty, epidemics, terrorism and climate change cross borders"
+    },
+    {
+     "step": 3,
+     "action": "close with cooperation",
+     "explain": "no single state can arrest pandemics or warming alone"
+    }
+   ]
+  },
+  {
+   "id": "leps.105.3",
+   "title": "New Sources: Terrorism and Human Rights",
+   "section": "New Sources of Threats",
+   "definition": "New threats include international terrorism by non-state networks, human rights abuses within states that the world may judge, and migration pressures; debates ask when the international community may act inside a sovereign state for humanitarian protection.",
+   "formula": "",
+   "key_idea": "Terror networks and rights abuses challenge both sovereignty's shield and the state's monopoly over security talk.",
+   "textbook_ref": "leps105.txt terrorism, human rights and migration threat sections",
+   "question_patterns": [
+    "define international terrorism as a security threat",
+    "how do human rights issues become security concerns",
+    "explain the debate over intervention in sovereign states",
+    "relate migration to security discussions",
+    "compare state and non-state threats",
+    "evaluate the responsibility to protect idea"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the actors",
+     "explain": "terror networks operate across borders without state flags"
+    },
+    {
+     "step": 2,
+     "action": "raise the rights",
+     "explain": "genocide and abuse invite international scrutiny despite sovereignty"
+    },
+    {
+     "step": 3,
+     "action": "close with movement",
+     "explain": "migration links conflict, poverty and security debates"
+    }
+   ]
+  },
+  {
+   "id": "leps.105.4",
+   "title": "Cooperative Security and India's Strategy",
+   "section": "Cooperative Security",
+   "definition": "Non-traditional threats demand cooperative security - joint action through institutions and agreements rather than force; India's security strategy combines strengthening military capabilities, internal security against separatism and terrorism, and developing the economy so that no citizen feels excluded.",
+   "formula": "",
+   "key_idea": "India's three-pillar strategy - strength, internal stability and development - shows security as capability plus inclusion.",
+   "textbook_ref": "leps105.txt cooperative security and India's three-pillar strategy sections",
+   "question_patterns": [
+    "define cooperative security with examples",
+    "state the three components of India's security strategy",
+    "how does development serve security",
+    "explain India's nuclear doctrine of no first use",
+    "relate internal security to democratic rights",
+    "evaluate international cooperation against terrorism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cooperate by design",
+     "explain": "treaties, forums and agreements replace unilateral force for shared threats"
+    },
+    {
+     "step": 2,
+     "action": "apply India's pillars",
+     "explain": "military strength, internal order and economic growth are the three pillars"
+    },
+    {
+     "step": 3,
+     "action": "close with inclusion",
+     "explain": "development closes the grievances that feed insecurity"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps105_1",
+   "source_ref": "leps105.txt cold war dates",
+   "concept": "leps.105.1",
+   "question_type": "compute",
+   "question_pattern": "The UN-centred postwar system dates from 1945 and the Cold War order ended around 1991. Compute the Cold War era's length in years.",
+   "extracted_variables": {
+    "start_year": 1945,
+    "end_year": 1991
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "1945 start, 1991 end",
+     "compute": "start_year = 1945"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1991 - 1945 = 46 years",
+     "compute": "cold_war_span = end_year - start_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps105_2",
+   "source_ref": "leps105.txt human security section",
+   "concept": "leps.105.2",
+   "question_type": "short_answer",
+   "question_pattern": "List three non-traditional threats and explain one's cross-border nature.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "epidemics",
+     "explain": "diseases travel with people and goods across borders"
+    },
+    {
+     "step": 2,
+     "action": "climate change",
+     "explain": "greenhouse gases warm the planet regardless of source country"
+    },
+    {
+     "step": 3,
+     "action": "terrorism",
+     "explain": "networks strike across frontiers without declaring war"
+    }
+   ]
+  },
+  {
+   "id": "we_leps105_3",
+   "source_ref": "leps105.txt India strategy section",
+   "concept": "leps.105.4",
+   "question_type": "short_answer",
+   "question_pattern": "Describe India's three-pillar security strategy.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "military pillar",
+     "explain": "strengthening capabilities including nuclear deterrence"
+    },
+    {
+     "step": 2,
+     "action": "internal pillar",
+     "explain": "countering separatism and terrorism within democratic limits"
+    },
+    {
+     "step": 3,
+     "action": "development pillar",
+     "explain": "growth that includes citizens removes insecurity's roots"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps105_1",
+   "source_ref": "leps105.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "differentiate traditional and non-traditional security",
+    "compute the Cold War era's length from 1945 to 1991",
+    "explain deterrence and the security dilemma",
+    "describe India's three-pillar security strategy",
+    "discuss cooperative security against epidemics"
+   ]
+  },
+  {
+   "id": "ex_leps105_2",
+   "source_ref": "leps105.txt applied questions, reworded",
+   "questions": [
+    "argue whether climate change is a security issue",
+    "relate human rights to humanitarian intervention",
+    "evaluate nuclear deterrence in South Asia",
+    "map international counter-terrorism cooperation",
+    "connect poverty reduction to national security"
+   ]
+  }
+ ]
+}

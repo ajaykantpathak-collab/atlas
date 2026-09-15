@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_2",
+   "title": "c8_physics_ch9_2",
+   "questions": [
+    {
+     "q": "What is the approximate average thickness of Earth's continental crust and oceanic crust, and what is Earth's average radius?",
+     "a": "Continental crust averages 30-70 km thick, oceanic crust averages 5-10 km thick, and Earth's average radius is about 6,371 km. A wrong answer (e.g., saying crust is hundreds of km thick) reveals the student has not grasped the extreme thinness of the crust relative to Earth's size - a fundamental scale misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Why is continental crust thicker but less dense than oceanic crust, and how does this difference affect Earth's surface elevation?",
+     "a": "Continental crust is composed mainly of low-density granitic rocks (∼2.7 g/cm³) allowing it to \"float\" higher on the mantle, forming continents above sea level. Oceanic crust is made of denser basaltic rocks (∼3.0 g/cm³) and sits lower, forming ocean basins. A wrong answer (e.g., \"continental crust is thicker because it's heavier\") reveals confusion between thickness and density, and misunderstanding of isostasy (buoyancy of crust on mantle).",
+     "self_check": true
+    },
+    {
+     "q": "If Earth were scaled down to a sphere of radius 50 cm (like a large beach ball), calculate the thickness of continental crust and oceanic crust on this model in millimetres. Show your working.",
+     "a": "**Step 1:** Identify scale factor. Real Earth radius = 6,371 km = 6,371,000 m. Model radius = 0.50 m. Scale = 0.50 / 6,371,000 = 7.85 × 10⁻⁸.\n**Step 2:** Model continental crust thickness = 30 km (average) × scale = 30,000 m × 7.85 × 10⁻⁸ = 0.00235 m = 2.35 mm.\n**Step 3:** Model oceanic crust thickness = 7 km (average) × scale = 7,000 m × 7.85 × 10⁻⁸ = 0.00055 m = 0.55 mm.\n**Answer:** Continental crust ≈ 2.4 mm, oceanic crust ≈ 0.6 mm on a 50 cm radius model.\nA wrong answer (e.g., getting centimetres instead of millimetres) reveals errors in unit conversion (km to m) or misunderstanding of scaling ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements and identify which is scientifically accurate. Explain your reasoning using the concept of crustal composition and density.\nStatement A: \"The crust is a uniform layer of rock that goes all the way down to the mantle.\"\nStatement B: \"The crust has two distinct types with different thicknesses, densities, and compositions.\"",
+     "a": "Statement B is accurate. The crust is not uniform; it has continental crust (thicker, granitic, less dense) and oceanic crust (thinner, basaltic, denser). This difference explains why continents stand high and oceans sit low. Choosing Statement A reveals the misconception that the crust is a single homogeneous layer, ignoring the fundamental duality that drives Earth's surface topography.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the crust is so thin compared to Earth's radius, it cannot possibly support massive mountain ranges like the Himalayas.\" Evaluate this claim using the concept of isostasy and crustal thickness variations.",
+     "a": "The claim is incorrect. While the *average* crust is thin (∼30 km), mountain ranges have crustal roots extending much deeper (up to 70-80 km) due to isostasy - the crust \"floats\" on the denser mantle like icebergs on water. Thicker crustal roots support higher elevations. A wrong evaluation (agreeing with the student) reveals a lack of understanding of isostatic equilibrium and that crustal thickness varies significantly, not just the global average.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using everyday materials (fruit, clay, balls, etc.) to show the relative thinness of Earth's crust and the difference between continental and oceanic crust. List materials, procedure, and what each part represents.",
+     "a": "**Example answer:** Use a large watermelon (radius ~15 cm) as Earth. The green rind (∼2-3 mm) represents the crust. Cut a slice: the thicker rind on one side = continental crust, thinner on other = oceanic crust. Or use an onion: outer skin = crust, layers = mantle/core. **Key criteria:** Must show crust << radius, and two distinct crustal thicknesses. A poor answer (e.g., using a thick cardboard shell) fails to convey the extreme thinness ratio (∼1/200).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_007",
+   "title": "c7_chem_ch02_007",
+   "questions": [
+    {
+     "q": "Which of the following describes a permanent change observed in a typical Indian kitchen?\nA) Melting of ghee stored in a jar\nB) Boiling of water to make steam for tea\nC) Cooking of raw rice into soft cooked rice\nD) Dissolving common salt in a glass of water",
+     "a": "The correct answer is C. Cooking raw rice changes its chemical composition, making it soft, digestible, and completely impossible to turn back into hard raw rice. If a student chooses A or D, they are confusing physical state changes or dissolving processes (which are reversible by physical methods like cooling or evaporation) with permanent chemical transformations.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the burning of an incense stick (agarbatti) considered a permanent change even though it produces pleasant smoke and ash?\nA) Because the smoke can be easily collected back into a solid stick.\nB) Because new substances like ash, carbon dioxide, and water vapor are formed, and the original incense material cannot be recovered.\nC) Because the process happens very slowly over time.\nD) Because heating is a physical method that always reverses changes.",
+     "a": "The correct answer is B. Burning is a chemical reaction (combustion) that destroys the original substance to create entirely new products like ash and gases, making it irreversible. If a student chooses A, they mistakenly believe all matter floating in the air can be reassembled, missing the core definition of permanent chemical changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a shiny iron nail, leaves it in damp coastal air in Mumbai for two weeks, and observes a reddish-brown flaky coating ($Fe_2O_3 \\cdot xH_2O$) forming on it. Can this change be reversed by scraping off the flakes, and why?\nA) Yes, because scraping removes the outer layer and reveals shiny metal underneath.\nB) No, because a new chemical substance (rust) has been formed by the reaction of iron with oxygen and moisture.\nC) Yes, because rust can melt back into pure iron when heated.\nD) No, because the iron nail completely disappears into thin air.",
+     "a": "Steps to solve:\n1. Identify the process: The formation of a reddish-brown flaky coating on iron in damp air is rusting.\n2. Recall the chemical reaction: Iron reacts with oxygen and water to form hydrated iron(III) oxide (rust), which is a completely new chemical substance.\n3. Evaluate reversibility: Once iron turns into rust, physical scraping only removes the damaged product; the original iron underneath that reacted is permanently lost.\n4. Conclude: The change is permanent and irreversible.\nThe correct answer is B. If a student chooses A, they confuse uncovering unreacted metal with reversing the chemical reaction that already destroyed the surface iron.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two processes: Process 1: Dissolving sugar in warm milk. Process 2: Heating sugar until it turns into a black, bitter solid (caramelization/charring). Which statement correctly compares their permanence?\nA) Both are permanent because the sugar disappears in both cases.\nB) Process 1 is permanent because the sugar molecules break apart forever, while Process 2 is reversible by cooling.\nC) Process 1 is temporary and reversible because sugar can be recovered by evaporating the water, whereas Process 2 is permanent because the black residue is a completely new chemical substance with different properties.\nD) Both are temporary because no atoms are destroyed in either process.",
+     "a": "The correct answer is C. Dissolving is a physical change where sugar retains its properties in solution and can be recovered, while charring breaks down sugar molecules into carbon and other products, creating a permanent, irreversible chemical change. Choosing any other option shows a failure to distinguish between physical solutions and chemical decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Freezing water into ice cubes in a refrigerator is a permanent change because the liquid water becomes hard and solid like a rock.\" Is this claim scientifically valid?\nA) Yes, because hard solids can never change back into liquids.\nB) No, because freezing is a physical change in state; when the ice cube is left at room temperature, it melts back into liquid water without forming any new substance.\nC) Yes, because the temperature drops below zero, destroying the original water molecules.\nD) No, but only because refrigerators consume electricity which changes the water chemically.",
+     "a": "The correct answer is B. Hardness does not determine permanence; state changes like freezing and melting are physical and easily reversible by adding or removing heat. If a student agrees with the claim, they confuse physical hardness with chemical permanency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple two-step kitchen or classroom test to prove experimentally whether dissolving washing soda in water is a temporary (reversible) change or a permanent change. Describe the expected observations.\nA) Step 1: Dissolve washing soda in water to form a clear solution. Step 2: Heat the solution in an evaporating dish until all water evaporates completely. Observation: White washing soda crystals are left behind, proving the change is temporary and reversible.",
+     "a": "The expected response must include a method to recover the original solute (evaporation/crystallization) and an observation showing no new substance was permanently formed. A poor answer would suggest burning the solution or claiming that washing soda vanishes forever, showing a lack of understanding of physical dissolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

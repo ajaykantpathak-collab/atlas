@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_007",
+   "title": "c11_ip_cbse_07_007",
+   "questions": [
+    {
+     "q": "What is the correct syntax to insert a single row into a table `STUDENT(RollNo INT, Name VARCHAR(20), Class INT)` providing values for all columns in the defined order?",
+     "a": "Correct answer: `INSERT INTO STUDENT VALUES (101, 'Rahul', 11);`  \nA wrong answer like `INSERT INTO STUDENT (101, 'Rahul', 11);` (missing VALUES) or `INSERT STUDENT VALUES (101, Rahul, 11);` (missing quotes on string) reveals the student does not recall the mandatory VALUES keyword or the quoting rules for string literals.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement `INSERT INTO CLUB_MEMBERS (RegNo, Name) VALUES (104, 'Meera');` succeeds even though the table has four columns, and describe what values will be stored in the `Club` and `JoinDate` columns for this new row.",
+     "a": "Correct answer: The explicit column list `(RegNo, Name)` tells MySQL to only expect values for those two columns; omitted columns `Club` and `JoinDate` receive their defined defaults — `Club` gets NULL (no DEFAULT defined) and `JoinDate` gets CURDATE() (the DEFAULT expression). A wrong answer claiming an error occurs or that all columns must be listed shows the student misunderstands that INSERT allows partial column specification and relies on column defaults.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single INSERT statement to add the following three rows to a table `PRODUCT(PID INT PRIMARY KEY, PName VARCHAR(15), Price DECIMAL(8,2), Category VARCHAR(10) DEFAULT 'General')`: (1, 'Pen', 10.00, 'Stationery'), (2, 'Notebook', 50.00, DEFAULT), (3, 'Eraser', 5.00, NULL).",
+     "a": "Correct answer:  \n`INSERT INTO PRODUCT (PID, PName, Price, Category) VALUES (1, 'Pen', 10.00, 'Stationery'), (2, 'Notebook', 50.00, DEFAULT), (3, 'Eraser', 5.00, NULL);`  \nA wrong answer that uses separate INSERT statements, omits the column list, or writes `NULL` as a string `'NULL'` reveals the student cannot construct multi-row syntax, confuse DEFAULT keyword with string, or mishandle NULL literal.",
+     "self_check": true
+    },
+    {
+     "q": "A table `EMP(EID INT PRIMARY KEY, EName VARCHAR(20), DeptID INT, FOREIGN KEY (DeptID) REFERENCES DEPT(DID))` currently has `DEPT` rows with DID 10, 20. Predict the outcome of: `INSERT INTO EMP VALUES (101, 'Amit', 30);` and explain the constraint mechanism involved.",
+     "a": "Correct answer: The statement fails with a foreign key constraint violation (error 1452) because DeptID 30 does not exist in the referenced DEPT table. The FOREIGN KEY constraint checks the value against the parent table at insertion time. A wrong answer saying it succeeds or fails due to primary key shows the student cannot distinguish between PRIMARY KEY and FOREIGN KEY constraint enforcement during INSERT.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following approach: \"To insert 100 rows, I will write 100 separate INSERT statements because it's easier to debug.\" Justify whether this is good practice in a production database environment.",
+     "a": "Correct answer: This is poor practice. A single multi-row INSERT is atomic (all rows succeed or none), reduces network round-trips, minimizes log flushes, and acquires locks once. 100 separate statements increase overhead, risk partial insertion on failure, and complicate transaction management. A wrong answer endorsing separate statements reveals the student lacks understanding of transaction atomicity, performance, and ACID properties in DML.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new table `LIBRARY_BOOK(BookID INT PRIMARY KEY, Title VARCHAR(50) NOT NULL, Author VARCHAR(30), Genre VARCHAR(15) DEFAULT 'Fiction', Copies INT DEFAULT 1)` and write a single INSERT statement that adds three books: (101, 'Wings of Fire', 'APJ Abdul Kalam', 'Biography', 5), (102, 'The Alchemist', 'Paulo Coelho', DEFAULT, DEFAULT), (103, 'Unknown', NULL, 'Mystery', 2). Explain any errors you anticipate.",
+     "a": "Correct answer: The third row will fail because `Author` is not declared NOT NULL but the INSERT provides NULL — that is allowed. However, `Title` is NOT NULL and we gave 'Unknown' (valid). The statement:  \n`INSERT INTO LIBRARY_BOOK (BookID, Title, Author, Genre, Copies) VALUES (101, 'Wings of Fire', 'APJ Abdul Kalam', 'Biography', 5), (102, 'The Alchemist', 'Paulo Coelho', DEFAULT, DEFAULT), (103, 'Unknown', NULL, 'Mystery', 2);`  \nAll three rows insert successfully. A wrong answer flagging the NULL in Author as error shows the student confuses NOT NULL constraint (only on Title) with general NULL handling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

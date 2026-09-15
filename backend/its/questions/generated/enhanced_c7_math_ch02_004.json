@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_004",
+   "title": "c7_math_ch02_004",
+   "questions": [
+    {
+     "q": "Which of the following expressions is equivalent to $4 \\times (5 + 3)$?\nA) $(4 \\times 5) + 3$\nB) $(4 \\times 5) + (4 \\times 3)$\nC) $4 + (5 \\times 3)$\nD) $(4 + 5) \\times (4 + 3)$",
+     "a": "B) $(4 \\times 5) + (4 \\times 3)$. A student who chooses A likely made the misconception of distributing the multiplication to only the first term inside the parentheses, forgetting that the factor outside must multiply every term inside the bracket.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expression $12 - (4 + 2)$ is equivalent to $(12 - 4) - 2$ or if it is not equivalent, prove why.",
+     "a": "They are NOT equivalent. $12 - (4 + 2) = 12 - 6 = 6$, whereas $(12 - 4) - 2 = 8 - 2 = 6$ happen to match here, but let's check $20 - (5 + 5) = 10$ versus $(20 - 5) - 5 = 10$. Wait, subtraction is not associative! Let's use $20 - (10 - 2) = 12$, while $(20 - 10) - 2 = 8$. A student who thinks subtraction is associative believes that removing parentheses never changes the value, ignoring how negative signs distribute over grouping symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $8 \\times 17 + 8 \\times 3$ by first converting it into an equivalent factored expression. What is the final value?",
+     "a": "Steps: 1. Identify the common factor in both terms, which is $8$. 2. Rewrite the expression using the distributive property: $8 \\times (17 + 3)$. 3. Compute the sum inside the parentheses: $17 + 3 = 20$. 4. Multiply the result by the common factor: $8 \\times 20 = 160$. Answer: 160. A student who gets a wrong answer usually multiplies $8 \\times 17$ and $8 \\times 3$ separately and adds incorrectly, or fails to factor out the common number.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions $E_1 = 15 + 25 + 35$ and $E_2 = 5 \\times (3 + 5 + 7)$. Without calculating the full value separately for a long time, analyze if they are equivalent and explain your reasoning using number properties.",
+     "a": "They ARE equivalent. In $E_2$, distributing the $5$ gives $5 \\times 3 + 5 \\times 5 + 5 \\times 7$, which evaluates to $15 + 25 + 35$, matching $E_1$. A student who says they are not equivalent fails to recognize how factoring out a greatest common divisor from each term creates an equivalent expression.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the expression $50 - 10 \\times 2$ is equivalent to $(50 - 10) \\times 2$. Judge whether this claim is correct and identify the exact error in their reasoning.",
+     "a": "The claim is INCORRECT. $50 - 10 \\times 2$ evaluates to $50 - 20 = 30$ using order of operations (multiplication before subtraction). Meanwhile, $(50 - 10) \\times 2$ evaluates to $40 \\times 2 = 80$ because the parentheses force subtraction to happen first. A student who thinks they are equivalent ignores the strict rules of operator precedence and treats written strings as interchangeable without regard to grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Create two different arithmetic expressions that are equivalent to $60$, where one expression uses addition and multiplication with brackets, and the other uses subtraction and division.",
+     "a": "A valid response should provide two distinct expressions, such as $(5 + 5) \\times (3 + 3)$ or $(120 \\div 2) - 0$, that both simplify to $60$ following standard order of operations. A poor answer gives expressions that evaluate to different numbers or violate basic arithmetic rules (like division by zero).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

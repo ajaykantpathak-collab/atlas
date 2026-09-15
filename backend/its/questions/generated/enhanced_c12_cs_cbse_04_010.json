@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_010",
+   "title": "c12_cs_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the defining requirement for a relation to be in First Normal Form (1NF)?",
+     "a": "A relation is in 1NF if and only if every attribute domain contains only atomic (indivisible) values and there are no repeating groups (i.e., no multivalued attributes or composite attributes). A wrong answer such as \"1NF means having a primary key\" reveals that the student confuses 1NF with the basic requirement of a relation (every relation must have a key) and does not understand that 1NF specifically addresses atomicity and absence of repeating groups.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a relation R(A, B, C, D) with functional dependencies {AB → C, A → D}. The candidate key is AB. Is R in 2NF? Explain why or why not.",
+     "a": "R is NOT in 2NF because there is a partial dependency: A → D, where D is a non‑prime attribute (not part of any candidate key) and A is a proper subset of the candidate key AB. 2NF requires that no non‑prime attribute be partially dependent on any candidate key. A student who answers \"Yes, because AB → C is a full dependency\" shows they only checked one dependency and missed the partial dependency A → D, a common oversight when multiple FDs exist.",
+     "self_check": true
+    },
+    {
+     "q": "Given a relation schema Student_Course(Student_ID, Student_Name, Course_ID, Course_Name, Instructor_ID, Instructor_Name) with functional dependencies: Student_ID → Student_Name, Course_ID → Course_Name, Instructor_ID → Instructor_Name, and (Student_ID, Course_ID) → Instructor_ID. Normalize this relation up to 3NF. Show the resulting schemas and their keys.",
+     "a": "Step 1: Identify candidate key = (Student_ID, Course_ID). Non‑prime attributes: Student_Name, Course_Name, Instructor_ID, Instructor_Name.\nStep 2: Check 1NF — all attributes atomic, assume satisfied.\nStep 3: Check 2NF — partial dependencies exist: Student_ID → Student_Name (Student_Name depends on part of key), Course_ID → Course_Name. Decompose into:\nR1(Student_ID, Student_Name) with key Student_ID\nR2(Course_ID, Course_Name) with key Course_ID\nR3(Student_ID, Course_ID, Instructor_ID, Instructor_Name) with key (Student_ID, Course_ID)\nStep 4: Check 3NF on R3 — transitive dependency: Instructor_ID → Instructor_Name (Instructor_ID is non‑prime in R3). Decompose R3 into:\nR3a(Student_ID, Course_ID, Instructor_ID) key (Student_ID, Course_ID)\nR3b(Instructor_ID, Instructor_Name) key Instructor_ID\nFinal 3NF schemas: R1, R2, R3a, R3b. A student who stops at 2NF or fails to spot the transitive dependency in R3 shows they cannot chain the normalization steps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast partial dependency and transitive dependency. Give an example of each using a relation with attributes (A, B, C, D) where the candidate key is (A, B).",
+     "a": "Partial dependency: a non‑prime attribute depends on a proper subset of a candidate key. Example: A → C (C is non‑prime, A is part of key (A,B)). Transitive dependency: a non‑prime attribute depends on another non‑prime attribute (which in turn depends on the key). Example: (A,B) → C and C → D, where C and D are non‑prime. Then D is transitively dependent on the key via C. A student who says \"both are dependencies on non‑key attributes\" fails to distinguish that partial dependency involves a part of the key, while transitive dependency involves a non‑key attribute determining another non‑key attribute.",
+     "self_check": true
+    },
+    {
+     "q": "A database designer claims: \"If a relation is in 3NF, it is automatically in 2NF and 1NF.\" Evaluate this statement. Is it always true? Justify your answer.",
+     "a": "The statement is TRUE. The normal forms are hierarchical: 1NF ⊂ 2NF ⊂ 3NF. By definition, a relation in 3NF must satisfy all conditions of 2NF, which in turn must satisfy all conditions of 1NF. Therefore, 3NF implies 2NF and 1NF. A student who says \"False, because 3NF only deals with transitive dependencies\" misunderstands the inclusive nature of the normal form hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new relation schema (with at least 5 attributes and a composite key) that is in 1NF but violates both 2NF and 3NF. List the functional dependencies and explain the violations.",
+     "a": "Example: Relation R(Student_ID, Course_ID, Student_Name, Course_Name, Instructor_Name) with key (Student_ID, Course_ID). FDs: Student_ID → Student_Name, Course_ID → Course_Name, (Student_ID, Course_ID) → Instructor_Name, Instructor_Name → Course_ID (assume each instructor teaches exactly one course).\nViolations: Partial dependencies Student_ID → Student_Name and Course_ID → Course_Name break 2NF. Transitive dependency: (Student_ID, Course_ID) → Instructor_Name and Instructor_Name → Course_ID makes Course_ID transitively dependent on the key (via Instructor_Name), breaking 3NF. A good answer must explicitly show both violation types. A poor answer might only show one violation or confuse the direction of transitive dependency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

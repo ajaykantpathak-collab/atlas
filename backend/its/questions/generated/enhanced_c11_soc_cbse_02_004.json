@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_004",
+   "title": "c11_soc_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define ascribed status and give two examples from Indian society that are not caste or gender.",
+     "a": "Ascribed status is a social position assigned at birth or received involuntarily, independent of individual effort. Examples: (1) being the eldest son in a family (birth order), (2) belonging to a particular linguistic community (mother tongue). A wrong answer that lists \"doctor\" or \"graduate\" reveals confusion between ascribed and achieved status; a wrong answer that says \"caste is the only ascribed status\" shows insufficient range of examples.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues, \"In modern India, caste no longer determines your status because you can become an IAS officer regardless of your birth.\" Explain why this statement confuses achieved status with the persistence of ascribed status.",
+     "a": "The statement correctly notes that achieved statuses (like IAS officer) are now legally open to all, but it ignores that ascribed statuses (caste, gender, family background) still shape access to resources (coaching, networks, confidence) needed to achieve that position. NCERT explicitly states: \"even in modern achievement-based societies, ascribed status matters.\" A wrong answer that agrees completely misses the sociological distinction between legal openness and structural constraint; a wrong answer that says \"caste determines everything\" misses the achieved-status dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi is a 30-year-old male, born into a Dalit family in Tamil Nadu. He has an MBA, works as a marketing manager, is married, and has a daughter. List his status set and identify which are ascribed and which are achieved. Then write his status sequence from birth to now.",
+     "a": "Status set (simultaneous): son (ascribed), brother (ascribed), Dalit (ascribed), male (ascribed), Tamil (ascribed), MBA holder (achieved), marketing manager (achieved), husband (achieved/voluntary), father (achieved/voluntary). Status sequence (chronological): son/brother/Dalit/male/Tamil (at birth) → student (achieved) → MBA holder (achieved) → marketing manager (achieved) → husband (achieved) → father (achieved). A wrong answer that mixes the two lists (e.g., puts \"husband\" in the sequence before \"MBA\") shows confusion between simultaneous holding (set) and temporal ordering (sequence).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the prestige of a \"government school teacher\" and a \"private corporate lawyer\" in contemporary urban India. Why might the teacher have higher prestige in a rural village while the lawyer has higher prestige in a metropolitan city? Use the concept that prestige attaches to the status, not the person.",
+     "a": "Prestige is the social evaluation of a position. In a rural village, the teacher represents state authority, education, and stability — values the community prizes — so the status \"government teacher\" carries high prestige regardless of the individual's personality. In a metro city, the corporate lawyer status is associated with high income, cosmopolitan lifestyle, and global connectivity — values the urban middle class prizes — so that status carries higher prestige. The same person moving from village to city would experience a shift in how they are treated because the prestige stays with the status in that context. A wrong answer that says \"the teacher is a better person\" confuses prestige with personal virtue; a wrong answer that says \"prestige is the same everywhere\" ignores cultural variability.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the functionalist claim that \"social stratification (including ascribed status) ensures the most important positions are filled by the most qualified persons.\" Use the Indian caste system as a counter-example.",
+     "a": "The functionalist argument (Davis & Moore) assumes an open, meritocratic system where rewards motivate talent. The Indian caste system historically assigned occupations by birth (ascribed status), preventing talented individuals from lower castes from entering \"important\" positions (priesthood, administration) regardless of ability. This demonstrates that ascribed-status systems can block meritocratic allocation, contradicting the functionalist claim. NCERT notes: \"In a traditional caste system social hierarchy is fixed, rigid and transmitted across generations.\" A weak evaluation merely repeats the functionalist view without evidence; a strong evaluation uses the caste counter-example to show the claim is not universally valid.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional life-history vignette (150 words) for a person born in 1990 in a tribal community in Jharkhand that illustrates: (a) at least three ascribed statuses, (b) at least two achieved statuses, (c) a status sequence with five stages, and (d) one instance where an ascribed status constrained an achieved status.",
+     "a": "A good vignette will name the person, set the context (e.g., Santhal tribe, Jharkhand, 1990), list ascribed statuses (tribal, female, daughter of a farmer), achieved statuses (nurse, panchayat member), show a sequence (child → student → nurse → married woman → panchayat member), and include a constraint (e.g., tribal customary law initially barred women from panchayat leadership, delaying her election). A poor answer will omit one of the four required elements, confuse set/sequence, or present a constraint that is not ascribed-status-based (e.g., \"she failed an exam\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

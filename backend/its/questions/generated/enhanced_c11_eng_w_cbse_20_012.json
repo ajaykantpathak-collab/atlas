@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_20_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_20_012",
+   "title": "c11_eng_w_cbse_20_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"How many tigers were captured?\"), while an inferential question requires the reader to deduce meaning by combining textual evidence (e.g., \"Why does the sheepdog make frantic signs?\"). A wrong answer that says \"literal questions are easy and inferential questions are hard\" reveals the student confuses difficulty level with the cognitive process; the distinction is about the source of the answer (explicit vs. implicit), not complexity.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the tiger king claims, \"We feel that means are more important than ends.\" Explain in your own words what this statement literally means and what it implies about the tiger king's character.",
+     "a": "Literally, the tiger king asserts that his group values ethical methods over results. Inferentially, this is a manipulative lie to cover their defeat; the king uses moral language to disguise predatory intent. A student who only paraphrases the literal meaning (\"he cares about methods\") misses the irony and fails to connect the statement to the king's earlier order to \"teach that sheep dog a lesson\", showing an inability to detect sarcasm and situational irony.",
+     "self_check": true
+    },
+    {
+     "q": "A question asks: \"Why does Ajamil refuse to meet the sheepdog's eyes?\" Using the poem, list the steps you would take to construct an inferential answer.",
+     "a": "Step 1: Identify the literal action – Ajamil avoids eye contact. Step 2: Locate the sheepdog's simultaneous action – \"kept on making frantic signs\" and \"simply disgusted\". Step 3: Recall the sheepdog's trait – \"never told a lie in his life\". Step 4: Connect to the tiger king's lies – Ajamil \"pretended to believe every single word\". Step 5: Infer that Ajamil avoids the dog's eyes because the dog's honesty would expose the farce, and Ajamil chooses political expediency over truth. A wrong answer that says \"Ajamil is shy\" ignores textual evidence and shows failure to link character traits across stanzas.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal events of the tiger king's first visit (stanzas 2-3) with his second appearance (stanza 4). What does the shift in his physical condition reveal about the poem's satirical target?",
+     "a": "Literally, the king leaves confidently and returns injured (\"black patch on his eye\", \"tail in a sling\"). Inferentially, the physical defeat contrasts with his boastful language, satirising political leaders who project strength but capitulate quickly when confronted with real power. A student who only notes the injuries without linking them to the king's unchanged rhetoric (\"I've got it all planned\") misses the satire on performative leadership.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poem's final image – \"well fed tigers and fat sheep drink from the same pond with a full stomach for a common bond\" – as a comment on political compromise. Support your judgment with two textual reasons.",
+     "a": "The image is effective because: (1) it uses the earlier established predator-prey relationship (tigers/sheep) to show an unnatural, transactional peace bought by sacrificing the sheep's safety; (2) the phrase \"full stomach for a common bond\" reduces citizenship to biological satisfaction, echoing the tiger king's earlier \"means are more important than ends\" hypocrisy. A weak evaluation that calls it \"a happy ending\" ignores the irony established by the sheepdog's disgust and Ajamil's calculated ignorance, revealing a literal reading of the surface narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Write a new inferential question about the sheepdog's internal monologue after being ignored by Ajamil, and provide a model answer grounded in the poem.",
+     "a": "Question: \"What might the sheepdog be thinking when Ajamil cuts the tigers loose?\" Model answer: The sheepdog thinks, \"My loyalty protected every sheep, yet my master sides with the killers. He values a treaty signed over a feast more than the truth I see.\" This infers the dog's perspective from its established honesty (\"never told a lie\"), its disgust at the king's lies, and Ajamil's deliberate avoidance of its gaze. A poor answer invents feelings unrelated to the text (e.g., \"The dog wants a treat\") showing failure to anchor inference in characterisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_010",
+   "title": "c11_bs_cbse_04_010",
+   "questions": [
+    {
+     "q": "List the five types of warehouses mentioned in the NCERT textbook for Class 11 Business Studies.",
+     "a": "The five types are: (1) Private warehouses, (2) Public warehouses, (3) Bonded warehouses, (4) Government warehouses, (5) Cooperative warehouses. A wrong answer (e.g., listing \"cold storage\" or \"distribution centre\" as a type) reveals the student is confusing *functional classification* (based on activity) with *ownership/legal classification* (based on who owns/operates it). The textbook classifies by ownership and legal status, not by technology or function.",
+     "self_check": true
+    },
+    {
+     "q": "A small manufacturer of herbal soaps in Kerala wants to store finished goods near the port in Mumbai for export. They cannot afford their own warehouse. They also want the warehouse to grade, pack, and label the soaps as per different countries' regulations. Which type of warehouse should they choose, and why?",
+     "a": "They should choose a **public warehouse**. Public warehouses are licensed by the government, available to any member of the public on payment of storage fees, and crucially, they offer value-added services like packaging, labelling, and grading — which this manufacturer explicitly needs. A wrong answer choosing \"bonded warehouse\" reveals the misconception that bonded warehouses are for all export goods; they are only for *imported* goods awaiting customs duty payment. Choosing \"private warehouse\" ignores the capital constraint.",
+     "self_check": true
+    },
+    {
+     "q": "An importer brings in 500 tonnes of copper ingots from Chile. The customs duty is ₹2 crore. The importer does not have the funds to pay the duty immediately, nor does he need all 500 tonnes at once. He wants to sell 100 tonnes per month to local buyers. Explain how a bonded warehouse solves this problem, referencing at least two specific features of bonded warehouses.",
+     "a": "A bonded warehouse allows the importer to: (1) Store the goods *without paying customs duty* until they are removed (duty deferred), and (2) Remove goods **in part** as and when required, paying duty only on the quantity removed. This avoids blocking ₹2 crore upfront and matches cash flow with sales. A wrong answer that says \"the importer avoids duty altogether\" reveals a fundamental misunderstanding — duty is deferred, not waived. If the goods are exported from the bonded warehouse, duty is not paid, but that’s not the case here.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of **'break the bulk'** with **'consolidation'** in warehousing. Give a real-world example for each where the *same* warehouse performs both functions on different days.",
+     "a": "**Break the bulk**: Warehouse receives large homogeneous quantities from a plant and breaks them into smaller lots for multiple customers. Example: A warehouse receives 10,000 kg of wheat from a flour mill and packs it into 50 kg bags for 200 retailers.  \n**Consolidation**: Warehouse receives small lots from multiple plants/suppliers and combines them into one large shipment for a single customer. Example: The same warehouse receives 500 kg each of apples, oranges, and bananas from three different farms, combines them into one refrigerated truck for a supermarket chain.  \nA wrong answer that swaps the definitions or gives examples where only one function occurs reveals the student hasn't grasped the *direction of flow*: break-bulk = one-to-many; consolidation = many-to-one.",
+     "self_check": true
+    },
+    {
+     "q": "\"Price stabilisation by warehousing is only beneficial for producers, not consumers.\" Evaluate this statement with reference to the mechanism of stock piling and release.",
+     "a": "The statement is **false**. Price stabilisation benefits **both** producers and consumers. During harvest (high supply, low demand), warehouses **stock pile** — absorbing excess supply, preventing prices from crashing, protecting farmer incomes. During off-season (low supply, high demand), warehouses **release** stored goods — increasing supply, preventing price spikes, protecting consumers from inflation. A wrong answer agreeing with the statement reveals a one-sided view of market equilibrium; the student sees only the producer’s gain during glut, ignoring the consumer’s gain during scarcity. The warehouse acts as a buffer stabilising prices *across time*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical business scenario where a **cooperative warehouse** provides **financing** to its member-farmers. Specify: (a) the crop, (b) the timing, (c) the collateral, (d) the loan use, and (e) the repayment source. Ensure it reflects the real purpose of cooperative warehouses.",
+     "a": "**Scenario**: A cooperative society of 50 soybean farmers in Madhya Pradesh operates a warehouse.  \n(a) Crop: Soybean (harvested Oct-Nov).  \n(b) Timing: Immediately post-harvest, when market prices are lowest (₹3,500/quintal).  \n(c) Collateral: Farmers deposit 100 quintals each in the cooperative warehouse; warehouse issues **warehouse receipts** (negotiable instruments).  \n(d) Loan use: Farmers borrow ₹3 lakh each (at 7% p.a.) from a bank *against the warehouse receipt* to buy seeds/fertiliser for the *next* rabi crop (wheat), instead of selling soybean at throwaway prices.  \n(e) Repayment source: In Jan-Feb, when soybean prices rise to ₹5,000/quintal, farmers sell the stock, repay the loan, and retain higher profit.  \nA poor answer that uses a private warehouse, or omits the warehouse receipt, or has the loan for consumption (not production) reveals the student doesn't understand the unique *member-centric, production-financing* role of cooperative warehouses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

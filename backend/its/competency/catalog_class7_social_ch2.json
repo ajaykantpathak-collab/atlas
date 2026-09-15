@@ -1,0 +1,663 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Understanding the Weather",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees102.txt",
+ "concepts": [
+  {
+   "id": "c7ss.2.1",
+   "title": "Difference Between Weather and Climate",
+   "section": "Weather and Climate",
+   "definition": "Weather is the condition of the atmosphere at a particular place and time, while climate is the average weather condition of a place over a long period, usually 30 years or more.",
+   "formula": "",
+   "key_idea": "Weather is short-term and changes frequently, whereas climate is long-term and represents the general pattern of weather.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define weather and climate.",
+    "State the difference between weather and climate.",
+    "Give an example of a weather condition and a climate type.",
+    "Explain why weather changes frequently.",
+    "Describe the time period used to define climate."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the definitions",
+     "explain": "State that weather is the atmospheric condition at a place and time, while climate is the average weather over a long period."
+    },
+    {
+     "step": 2,
+     "action": "Verify the time scale",
+     "explain": "Confirm that weather is measured over hours or days, while climate is measured over 30 years or more."
+    },
+    {
+     "step": 3,
+     "action": "Contrast the properties",
+     "explain": "Check that weather is variable and local, while climate is stable and regional."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between weather and climate?",
+     "solution": "Weather refers to the state of the atmosphere at a specific place and time (e.g. a hot, sunny afternoon), while climate is the average weather of a place over a long period (e.g. a tropical climate).",
+     "answer": "Weather is short-term; climate is the long-term average of weather."
+    },
+    {
+     "question": "Is 'today is rainy' a statement about weather or climate?",
+     "solution": "The statement describes the atmospheric condition of a single day, so it refers to weather, not climate.",
+     "answer": "It is a statement about weather."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define weather and climate.",
+     "type": "recall"
+    },
+    {
+     "question": "State two differences between weather and climate.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the statement 'Chennai has a hot and humid climate' as describing weather or climate.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.2",
+   "title": "Elements of Weather",
+   "section": "Elements of Weather",
+   "definition": "The main elements of weather are temperature, humidity, rainfall, wind speed and direction, and atmospheric pressure, which together describe the state of the atmosphere.",
+   "formula": "",
+   "key_idea": "The elements of weather are measured using specific instruments and their values determine the daily weather conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the elements of weather.",
+    "Define temperature and humidity.",
+    "Explain the importance of atmospheric pressure.",
+    "Describe how wind speed and direction affect weather.",
+    "Relate rainfall to the water cycle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the elements",
+     "explain": "List temperature, humidity, rainfall, wind and atmospheric pressure as the elements of weather."
+    },
+    {
+     "step": 2,
+     "action": "Verify the definitions",
+     "explain": "Confirm that temperature measures heat, humidity measures water vapour, and pressure measures the weight of the atmosphere."
+    },
+    {
+     "step": 3,
+     "action": "Relate elements to weather",
+     "explain": "Check that changes in these elements produce different weather conditions such as rain, heat or storms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main elements of weather?",
+     "solution": "The main elements of weather are temperature, humidity, rainfall, wind speed and direction, and atmospheric pressure.",
+     "answer": "Temperature, humidity, rainfall, wind and atmospheric pressure."
+    },
+    {
+     "question": "Which element of weather is measured using a hygrometer?",
+     "solution": "A hygrometer measures humidity, which is the amount of water vapour present in the air.",
+     "answer": "Humidity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the five main elements of weather.",
+     "type": "recall"
+    },
+    {
+     "question": "Define humidity and name the instrument used to measure it.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how atmospheric pressure affects weather.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.3",
+   "title": "Measurement of Temperature",
+   "section": "Measurement of Temperature",
+   "definition": "Temperature is the degree of hotness or coldness of the air, measured using a thermometer in degrees Celsius (°C) or Fahrenheit (°F), with maximum and minimum thermometers recording the day's highest and lowest temperatures.",
+   "formula": "",
+   "key_idea": "Temperature is measured at a standard height in a Stevenson screen to obtain accurate and comparable readings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define temperature and state its units.",
+    "Name the instrument used to measure temperature.",
+    "Explain the use of maximum and minimum thermometers.",
+    "Describe how temperature is recorded in a weather station.",
+    "Convert a temperature from Celsius to Fahrenheit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given temperature",
+     "explain": "Note the temperature in Celsius that needs to be converted to Fahrenheit, e.g. 25°C.",
+     "compute": "c_v = 25"
+    },
+    {
+     "step": 2,
+     "action": "Apply the conversion formula",
+     "explain": "Use the formula F = (C x 9/5) + 32 to convert Celsius to Fahrenheit.",
+     "compute": "f_v = (c_v * 9/5) + 32"
+    },
+    {
+     "step": 3,
+     "action": "Compute and interpret the result",
+     "explain": "Calculate the Fahrenheit value and round it to a suitable precision."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Convert 25°C to Fahrenheit.",
+     "solution": "F = (25 x 9/5) + 32 = 45 + 32 = 77°F.",
+     "answer": "77°F."
+    },
+    {
+     "question": "If the maximum temperature of a day is 38°C and the minimum is 24°C, what is the daily range of temperature?",
+     "solution": "Range = Maximum - Minimum = 38 - 24 = 14°C.",
+     "answer": "The daily range of temperature is 14°C."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the instrument used to measure temperature and state its units.",
+     "type": "recall"
+    },
+    {
+     "question": "Convert 30°C to Fahrenheit.",
+     "type": "compute"
+    },
+    {
+     "question": "If the maximum temperature is 40°C and the minimum is 28°C, calculate the daily temperature range.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.4",
+   "title": "Measurement of Rainfall",
+   "section": "Measurement of Rainfall",
+   "definition": "Rainfall is measured using a rain gauge, which collects rainwater and expresses the depth of rainfall in millimetres (mm) or centimetres (cm).",
+   "formula": "",
+   "key_idea": "Rainfall is recorded daily at a fixed time, and the monthly and annual totals help understand the climate of a region.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the instrument used to measure rainfall.",
+    "State the unit of measurement for rainfall.",
+    "Explain how a rain gauge works.",
+    "Describe the difference between daily and annual rainfall.",
+    "Calculate the total rainfall from weekly data."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the daily rainfall values",
+     "explain": "Note the rainfall recorded for each day of the week in millimetres, e.g. [5, 0, 12, 8, 0, 3, 10]."
+    },
+    {
+     "step": 2,
+     "action": "Sum the daily values",
+     "explain": "Add the daily rainfall amounts to find the total weekly rainfall."
+    },
+    {
+     "step": 3,
+     "action": "Compute the average daily rainfall",
+     "explain": "Divide the total weekly rainfall by the number of days to find the average."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A rain gauge recorded the following daily rainfall in mm for a week: 5, 0, 12, 8, 0, 3, 10. What is the total rainfall for the week?",
+     "solution": "Total = 5 + 0 + 12 + 8 + 0 + 3 + 10 = 38 mm.",
+     "answer": "38 mm."
+    },
+    {
+     "question": "Using the weekly total of 38 mm, what is the average daily rainfall for the week?",
+     "solution": "Average = 38 / 7 = 5.43 mm per day.",
+     "answer": "Approximately 5.43 mm per day."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the instrument used to measure rainfall and state its unit.",
+     "type": "recall"
+    },
+    {
+     "question": "If daily rainfall for five days is 10, 15, 5, 20, 0 mm, calculate the total rainfall.",
+     "type": "compute"
+    },
+    {
+     "question": "Using the data above, calculate the average daily rainfall.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.5",
+   "title": "Wind and Atmospheric Pressure",
+   "section": "Wind and Atmospheric Pressure",
+   "definition": "Atmospheric pressure is the weight of the air above a place, measured with a barometer; differences in pressure cause wind, which is the horizontal movement of air from high-pressure to low-pressure areas.",
+   "formula": "",
+   "key_idea": "Wind always blows from high-pressure areas to low-pressure areas, and its speed and direction are measured using an anemometer and a wind vane.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define atmospheric pressure.",
+    "Name the instrument used to measure atmospheric pressure.",
+    "Explain the cause of wind.",
+    "Name the instruments used to measure wind speed and direction.",
+    "Describe how pressure differences affect weather."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the definitions",
+     "explain": "State that atmospheric pressure is the weight of air and wind is air moving from high to low pressure areas."
+    },
+    {
+     "step": 2,
+     "action": "Verify the cause of wind",
+     "explain": "Confirm that air moves from regions of high pressure to regions of low pressure, creating wind."
+    },
+    {
+     "step": 3,
+     "action": "Relate pressure to weather",
+     "explain": "Check that low pressure usually brings cloudy and rainy weather, while high pressure brings clear skies."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does wind blow from one place to another?",
+     "solution": "Wind blows because of differences in atmospheric pressure: air moves from areas of high pressure to areas of low pressure to balance the pressure difference.",
+     "answer": "Because air moves from high-pressure to low-pressure areas."
+    },
+    {
+     "question": "Which instrument is used to measure atmospheric pressure, and what is its unit?",
+     "solution": "A barometer measures atmospheric pressure, and the unit is the millibar (mb) or hectopascal (hPa).",
+     "answer": "Barometer; unit is millibar (mb)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define atmospheric pressure and name its measuring instrument.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why wind blows from high-pressure to low-pressure areas.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the instruments used to measure wind speed and wind direction.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.6",
+   "title": "Weather Instruments",
+   "section": "Weather Instruments",
+   "definition": "Weather is measured using instruments such as the thermometer (temperature), barometer (atmospheric pressure), rain gauge (rainfall), hygrometer (humidity), anemometer (wind speed) and wind vane (wind direction).",
+   "formula": "",
+   "key_idea": "Each weather instrument measures a specific element of weather, and together they provide the data for weather records and forecasting.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the instruments used to measure weather elements.",
+    "Match each weather instrument with the element it measures.",
+    "Explain the working of a barometer.",
+    "Describe how a rain gauge is set up.",
+    "State the unit of measurement for each weather instrument."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the instruments",
+     "explain": "List thermometer, barometer, rain gauge, hygrometer, anemometer and wind vane."
+    },
+    {
+     "step": 2,
+     "action": "Verify the element measured",
+     "explain": "Confirm that each instrument measures the correct element: thermometer-temperature, barometer-pressure, rain gauge-rainfall, hygrometer-humidity, anemometer-wind speed, wind vane-wind direction."
+    },
+    {
+     "step": 3,
+     "action": "Relate instruments to weather records",
+     "explain": "Check that readings from these instruments are combined to prepare weather reports and forecasts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which instrument is used to measure each of the following: temperature, atmospheric pressure, rainfall?",
+     "solution": "Temperature is measured by a thermometer, atmospheric pressure by a barometer, and rainfall by a rain gauge.",
+     "answer": "Thermometer, barometer and rain gauge respectively."
+    },
+    {
+     "question": "What does an anemometer measure and what is its unit?",
+     "solution": "An anemometer measures wind speed, and the unit is kilometres per hour (km/h) or metres per second (m/s).",
+     "answer": "Wind speed; unit is km/h or m/s."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List six weather instruments and the element each measures.",
+     "type": "recall"
+    },
+    {
+     "question": "Match the following instruments with the elements they measure: hygrometer, wind vane, barometer.",
+     "type": "verify_property"
+    },
+    {
+     "question": "State the unit of measurement for temperature, rainfall and wind speed.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.7",
+   "title": "Weather Forecasting",
+   "section": "Weather Forecasting",
+   "definition": "Weather forecasting is the prediction of weather conditions for a place and time in the future, based on data from weather stations and satellites.",
+   "formula": "",
+   "key_idea": "Weather forecasts help people prepare for extreme weather and plan activities such as agriculture, aviation and daily life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define weather forecasting.",
+    "List the sources of data for weather forecasting.",
+    "Explain the role of satellites in weather forecasting.",
+    "Describe the importance of weather forecasts for farmers.",
+    "Discuss how forecasts help in disaster management."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the definition and sources",
+     "explain": "State that weather forecasting predicts future weather using data from weather stations, satellites and computers."
+    },
+    {
+     "step": 2,
+     "action": "Verify the methods",
+     "explain": "Confirm that meteorologists analyse temperature, pressure, humidity and wind data to predict weather."
+    },
+    {
+     "step": 3,
+     "action": "Relate forecasts to applications",
+     "explain": "Check that forecasts help agriculture, aviation, disaster management and daily planning."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do satellites help in weather forecasting?",
+     "solution": "Satellites continuously monitor cloud cover, temperature and pressure patterns over large areas and send data to meteorological stations, which use it to predict weather more accurately.",
+     "answer": "By monitoring clouds, temperature and pressure from space."
+    },
+    {
+     "question": "Why are weather forecasts important for farmers?",
+     "solution": "Forecasts help farmers decide when to sow, irrigate, harvest or protect crops, reducing losses due to unexpected rain or drought.",
+     "answer": "They help farmers plan sowing, irrigation and harvesting."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define weather forecasting.",
+     "type": "recall"
+    },
+    {
+     "question": "State two sources of data used in weather forecasting.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain how weather forecasts help in disaster management.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.8",
+   "title": "Effect of Weather on Daily Life",
+   "section": "Effect of Weather on Daily Life",
+   "definition": "Weather affects daily life in many ways, influencing clothing, food, housing, occupations, transport and health, and extreme weather can disrupt normal activities.",
+   "formula": "",
+   "key_idea": "People adapt their clothing, food and daily routines according to the weather, and extreme weather events require special precautions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain how weather affects clothing.",
+    "Describe the effect of weather on food habits.",
+    "Discuss how weather influences housing design.",
+    "Explain the impact of extreme weather on transport.",
+    "Describe how weather affects health."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the effects of weather",
+     "explain": "List how weather influences clothing, food, housing, occupations, transport and health."
+    },
+    {
+     "step": 2,
+     "action": "Verify the adaptations",
+     "explain": "Confirm that people wear warm clothes in cold weather, eat light food in summer, and build sloping roofs in rainy regions."
+    },
+    {
+     "step": 3,
+     "action": "Relate extreme weather to precautions",
+     "explain": "Check that floods, cyclones and heatwaves require special safety measures and can disrupt transport and daily life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does weather affect the clothing of people?",
+     "solution": "People wear light, cotton clothes in hot weather to stay cool, and thick, woollen clothes in cold weather to keep warm, adapting their clothing to the temperature.",
+     "answer": "Clothing is chosen according to the temperature and season."
+    },
+    {
+     "question": "Why do houses in rainy regions have sloping roofs?",
+     "solution": "Sloping roofs allow rainwater to flow off quickly, preventing water from accumulating and damaging the roof or walls of the house.",
+     "answer": "To allow rainwater to drain off quickly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State two ways in which weather affects daily life.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how extreme weather affects transport.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how people adapt their food habits to different weather conditions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.2.9",
+   "title": "Humidity and the Water Cycle",
+   "section": "Humidity and the Water Cycle",
+   "definition": "Humidity is the amount of water vapour present in the air, measured as relative humidity using a hygrometer; it plays a key role in evaporation, cloud formation and the water cycle.",
+   "formula": "",
+   "key_idea": "High humidity reduces evaporation and causes discomfort, while low humidity increases evaporation; humidity is essential for rainfall.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define humidity and relative humidity.",
+    "Name the instrument used to measure humidity.",
+    "Explain the relationship between humidity and rainfall.",
+    "Describe the role of humidity in the water cycle.",
+    "State the effect of high humidity on human comfort."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given values",
+     "explain": "Note the actual vapour pressure and the saturated vapour pressure at a given temperature, e.g. actual = 15 mb, saturated = 25 mb.",
+     "compute": "actual = 15"
+    },
+    {
+     "step": 2,
+     "action": "Identify the given values",
+     "explain": "Note the actual vapour pressure and the saturated vapour pressure at a given temperature, e.g. actual = 15 mb, saturated = 25 mb.",
+     "compute": "saturated = 25"
+    },
+    {
+     "step": 3,
+     "action": "Apply the relative humidity formula",
+     "explain": "Use the formula Relative Humidity = (Actual vapour pressure / Saturated vapour pressure) x 100.",
+     "compute": "rh = (actual / saturated) * 100"
+    },
+    {
+     "step": 4,
+     "action": "Compute and interpret the result",
+     "explain": "Calculate the relative humidity as a percentage and state whether the air is humid or dry."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the actual vapour pressure is 15 mb and the saturated vapour pressure at that temperature is 25 mb, calculate the relative humidity.",
+     "solution": "Relative Humidity = (15 / 25) x 100 = 60%.",
+     "answer": "60%."
+    },
+    {
+     "question": "If the relative humidity is 80% and the saturated vapour pressure is 30 mb, what is the actual vapour pressure?",
+     "solution": "Actual vapour pressure = (80 / 100) x 30 = 24 mb.",
+     "answer": "24 mb."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define humidity and name the instrument used to measure it.",
+     "type": "recall"
+    },
+    {
+     "question": "If the actual vapour pressure is 20 mb and the saturated vapour pressure is 40 mb, calculate the relative humidity.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the role of humidity in the formation of clouds.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c7ss.2.3.1",
+   "source_ref": "generated practice sample aligned to gees102.txt",
+   "concept": "c7ss.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the f v step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute c v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "c_v = 25"
+    },
+    {
+     "step": 2,
+     "action": "compute f v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "f_v = (c_v * 9/5) + 32"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.2.3.2",
+   "source_ref": "generated practice sample aligned to gees102.txt",
+   "concept": "c7ss.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the f v step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute c v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "c_v = 25"
+    },
+    {
+     "step": 2,
+     "action": "compute f v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "f_v = (c_v * 9/5) + 32"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.2.9.1",
+   "source_ref": "generated practice sample aligned to gees102.txt",
+   "concept": "c7ss.2.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the rh step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute actual",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "actual = 15"
+    },
+    {
+     "step": 2,
+     "action": "compute saturated",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "saturated = 25"
+    },
+    {
+     "step": 3,
+     "action": "compute rh",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "rh = (actual / saturated) * 100"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.2.9.2",
+   "source_ref": "generated practice sample aligned to gees102.txt",
+   "concept": "c7ss.2.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the rh step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute actual",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "actual = 15"
+    },
+    {
+     "step": 2,
+     "action": "compute saturated",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "saturated = 25"
+    },
+    {
+     "step": 3,
+     "action": "compute rh",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "rh = (actual / saturated) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

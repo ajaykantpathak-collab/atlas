@@ -1,0 +1,599 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 101,
+ "chapter_title": "Some Basic Concepts of Chemistry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech101.txt",
+ "concepts": [
+  {
+   "id": "jech.1.1",
+   "title": "Importance and Scope of Chemistry",
+   "section": "1.1",
+   "definition": "Chemistry is the science of substances, their properties, structures, transformations, and the energy changes accompanying these transformations; it plays a central role in science and is interlinked with physics, biology, medicine, and technology.",
+   "formula": "",
+   "key_idea": "Chemistry underpins the study of matter and its changes, enabling applications in medicine, agriculture, industry, and daily life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state the importance and scope of chemistry",
+    "list five areas where chemistry plays an important role",
+    "explain why chemistry is called a central science",
+    "describe the role of chemistry in medicine and agriculture",
+    "short note on the scope of chemistry in daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of chemistry",
+     "explain": "Recognise that chemistry deals with the composition, structure, properties, and transformations of matter."
+    },
+    {
+     "step": 2,
+     "action": "List the major branches and applications",
+     "explain": "Enumerate areas such as medicine, agriculture, industry, environment, and materials where chemistry is applied."
+    },
+    {
+     "step": 3,
+     "action": "Relate chemistry to other sciences",
+     "explain": "Explain how chemistry connects with physics, biology, and geology, justifying its central role in science."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is chemistry considered a central science?",
+     "solution": "Chemistry links physics (study of matter and energy) with biology (study of living matter) because living and non-living systems are made of the same chemical elements and obey the same physical laws.",
+     "answer": "Chemistry is central because it explains the composition and behaviour of all matter, bridging physics and biology."
+    },
+    {
+     "question": "Give two examples of the role of chemistry in daily life.",
+     "solution": "Chemistry is involved in the preparation of food, drugs, soaps, detergents, and materials like plastics.",
+     "answer": "Food preparation and the manufacture of drugs are two examples of chemistry in daily life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of chemistry in the field of medicine.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List three applications of chemistry in agriculture.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.2",
+   "title": "Laws of Chemical Combination",
+   "section": "1.3",
+   "definition": "The fundamental laws governing chemical reactions: law of conservation of mass, law of definite proportions, law of multiple proportions, Gay Lussac law, and Avogadro law, which together describe how elements combine to form compounds.",
+   "formula": "mass_reactants = mass_products",
+   "key_idea": "Matter is neither created nor destroyed in a chemical reaction; elements combine in fixed and multiple whole-number mass ratios.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state the law of conservation of mass",
+    "state the law of definite proportions with an example",
+    "state the law of multiple proportions with an example",
+    "verify the law of multiple proportions for two oxides of an element",
+    "explain the laws of chemical combination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the relevant law",
+     "explain": "Determine whether the problem concerns conservation of mass, definite proportions, or multiple proportions."
+    },
+    {
+     "step": 2,
+     "action": "Write the masses of reactants and products or the combining ratios",
+     "explain": "Tabulate the given masses of elements or compounds involved in the reaction."
+    },
+    {
+     "step": 3,
+     "action": "Verify the law by comparing ratios",
+     "explain": "Check that total mass is conserved, or that combining mass ratios are constant (definite) or simple whole numbers (multiple)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Hydrogen and oxygen combine in the ratio 1:8 by mass to form water. Verify the law of definite proportions.",
+     "solution": "In water, the mass ratio of H to O is always 2:16 = 1:8 regardless of the source. This fixed ratio confirms the law of definite proportions.",
+     "answer": "The fixed mass ratio 1:8 of H:O in water verifies the law of definite proportions."
+    },
+    {
+     "question": "Two oxides of nitrogen contain 46.7% and 30.4% nitrogen respectively. Verify the law of multiple proportions.",
+     "solution": "For oxide 1, mass of N per 1 g O = 46.7/53.3 = 0.876. For oxide 2, mass of N per 1 g O = 30.4/69.6 = 0.437. Ratio 0.876:0.437 = 2:1, a simple whole number ratio.",
+     "answer": "The ratio of nitrogen masses combining with a fixed mass of oxygen is 2:1, verifying the law of multiple proportions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State and explain the law of multiple proportions with a suitable example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "5.0 g of CaCO3 on heating gives 2.8 g of CaO and 2.2 g of CO2. Show that the data illustrates the law of conservation of mass.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.3",
+   "title": "Dalton's Atomic Theory",
+   "section": "1.4",
+   "definition": "A theory proposing that all matter is made of indivisible atoms, atoms of the same element are identical in mass and properties, atoms combine in simple whole-number ratios to form compounds, and chemical reactions involve rearrangement of atoms.",
+   "formula": "compound = atoms_A(x) + atoms_B(y)",
+   "key_idea": "Matter consists of indivisible atoms that combine in fixed whole-number ratios; atoms are neither created nor destroyed in reactions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "state the postulates of dalton atomic theory",
+    "explain the limitations of dalton atomic theory",
+    "how does dalton theory explain the law of definite proportions",
+    "how does dalton theory explain the law of multiple proportions",
+    "short note on dalton atomic theory"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the postulates of the theory",
+     "explain": "Recall that matter is made of atoms, atoms of an element are identical, atoms combine in whole-number ratios, and atoms are rearranged in reactions."
+    },
+    {
+     "step": 2,
+     "action": "Connect the postulates to the laws of combination",
+     "explain": "Show that identical atoms and fixed ratios explain definite proportions, while different whole-number ratios explain multiple proportions."
+    },
+    {
+     "step": 3,
+     "action": "Identify the limitations",
+     "explain": "Note that atoms are divisible into subatomic particles and that atoms of the same element can differ in mass (isotopes)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does Dalton's atomic theory explain the law of definite proportions?",
+     "solution": "According to Dalton, atoms of each element have a fixed mass and compounds form when atoms combine in a fixed whole-number ratio. Hence the mass ratio of elements in a compound is always constant.",
+     "answer": "Dalton's theory explains definite proportions because atoms combine in fixed ratios with fixed masses."
+    },
+    {
+     "question": "State two limitations of Dalton atomic theory.",
+     "solution": "Dalton assumed atoms are indivisible, but atoms are made of protons, neutrons, and electrons. He also assumed all atoms of an element are identical in mass, but isotopes exist.",
+     "answer": "Atoms are divisible (subatomic particles) and atoms of an element can have different masses (isotopes)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the main postulates of Dalton atomic theory.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain any two limitations of Dalton atomic theory.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.4",
+   "title": "Atomic and Molecular Masses",
+   "section": "1.5",
+   "definition": "Atomic mass is the relative mass of an atom expressed in atomic mass units (u), defined relative to one-twelfth the mass of a carbon-12 atom; molecular mass is the sum of the atomic masses of all atoms in a molecule.",
+   "formula": "molecular_mass = sum(atomic_mass_i * count_i)",
+   "key_idea": "Atomic and molecular masses are relative quantities measured on the carbon-12 scale; molecular mass is obtained by adding the atomic masses of constituent atoms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the molecular mass of a given compound",
+    "find the atomic mass of an element in amu",
+    "calculate the formula mass of an ionic compound",
+    "determine the molecular mass of glucose",
+    "compute the molecular mass of water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the atomic masses of all constituent elements",
+     "explain": "Look up the atomic mass of each element present in the molecule."
+    },
+    {
+     "step": 2,
+     "action": "Count the number of atoms of each element",
+     "explain": "Determine the subscript (count) of each element from the molecular formula."
+    },
+    {
+     "step": 3,
+     "action": "Sum the products of atomic mass and count",
+     "explain": "Multiply each atomic mass by its count and add all contributions to get the molecular mass."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the molecular mass of water (H2O). (H = 1.008 u, O = 16.00 u)",
+     "solution": "Molecular mass = 2*1.008 + 16.00 = 2.016 + 16.00 = 18.016 u.",
+     "answer": "18.016 u"
+    },
+    {
+     "question": "Calculate the molecular mass of CO2. (C = 12.01 u, O = 16.00 u)",
+     "solution": "Molecular mass = 12.01 + 2*16.00 = 12.01 + 32.00 = 44.01 u.",
+     "answer": "44.01 u"
+    },
+    {
+     "question": "Calculate the formula mass of NaCl. (Na = 22.99 u, Cl = 35.45 u)",
+     "solution": "Formula mass = 22.99 + 35.45 = 58.44 u.",
+     "answer": "58.44 u"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the molecular mass of glucose C6H12O6. (C=12.01, H=1.008, O=16.00 u)",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the molecular mass of methane CH4. (C=12.01, H=1.008 u)",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.5",
+   "title": "Mole Concept and Molar Mass",
+   "section": "1.6",
+   "definition": "A mole is the amount of substance containing as many elementary entities as there are atoms in exactly 12 g of carbon-12, equal to Avogadro number (6.022e23); molar mass is the mass of one mole of a substance in grams.",
+   "formula": "moles = mass / molar_mass; number = moles * N_A",
+   "key_idea": "One mole of any substance contains 6.022 x 10^23 particles and has a mass equal to its molar mass in grams.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the number of moles from a given mass",
+    "calculate the mass of a given number of moles",
+    "find the number of atoms or molecules in a given mass",
+    "calculate the number of moles of atoms in a given mass of an element",
+    "determine the mass of one mole of a compound"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the molar mass of the substance",
+     "explain": "Add the atomic masses of all atoms in the formula to get the molar mass in g/mol.",
+     "compute": "(atomic_mass * count)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate moles from mass or mass from moles",
+     "explain": "Use moles = mass / molar_mass, or mass = moles * molar_mass as required.",
+     "compute": "mass / molar_mass"
+    },
+    {
+     "step": 3,
+     "action": "Convert moles to number of particles if needed",
+     "explain": "Multiply the number of moles by Avogadro number (6.022e23) to get the number of particles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the number of moles in 36 g of water. (Molar mass of water = 18 g/mol)",
+     "solution": "moles = mass / molar_mass = 36 / 18 = 2 mol.",
+     "answer": "2 mol"
+    },
+    {
+     "question": "Calculate the number of molecules in 11 g of CO2. (Molar mass = 44 g/mol, N_A = 6.022e23)",
+     "solution": "moles = 11 / 44 = 0.25 mol. Number of molecules = 0.25 * 6.022e23 = 1.5055e23.",
+     "answer": "1.5055 x 10^23 molecules"
+    },
+    {
+     "question": "Calculate the mass of 0.5 mol of NaOH. (Molar mass = 40 g/mol)",
+     "solution": "mass = moles * molar_mass = 0.5 * 40 = 20 g.",
+     "answer": "20 g"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the number of moles in 22 g of CO2. (Molar mass = 44 g/mol)",
+     "type": "compute"
+    },
+    {
+     "question": "Find the number of atoms in 0.2 mol of zinc.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.6",
+   "title": "Percentage Composition",
+   "section": "1.7",
+   "definition": "The percentage composition of a compound gives the mass percent of each element present, calculated as the ratio of the total mass of that element in one mole of the compound to the molar mass, multiplied by 100.",
+   "formula": "percent_element = (mass_of_element / molar_mass) * 100",
+   "key_idea": "The mass percent of each element equals the total mass of that element in one mole divided by the molar mass, times 100.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the percentage composition of a compound",
+    "find the mass percent of an element in a compound",
+    "determine the percentage of oxygen in water",
+    "calculate the percent composition of glucose",
+    "find the percentage of nitrogen in urea"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the molar mass of the compound",
+     "explain": "Add the atomic masses of all atoms in the molecular formula.",
+     "compute": "(atomic_mass * count)"
+    },
+    {
+     "step": 2,
+     "action": "Find the total mass of the given element in one mole",
+     "explain": "Multiply the atomic mass of the element by the number of its atoms in the formula.",
+     "compute": "atomic_mass_element * count_element"
+    },
+    {
+     "step": 3,
+     "action": "Compute the mass percent",
+     "explain": "Divide the element mass by the molar mass and multiply by 100.",
+     "compute": "(element_mass / molar_mass) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the percentage of oxygen in water (H2O). (H=1.008, O=16.00 u)",
+     "solution": "Molar mass = 2*1.008 + 16.00 = 18.016 g/mol. Mass of O = 16.00. Percent O = (16.00 / 18.016) * 100 = 88.81%.",
+     "answer": "88.81% oxygen"
+    },
+    {
+     "question": "Calculate the percentage composition of CO2. (C=12.01, O=16.00 u)",
+     "solution": "Molar mass = 12.01 + 2*16.00 = 44.01 g/mol. Percent C = (12.01/44.01)*100 = 27.29%. Percent O = (32.00/44.01)*100 = 72.71%.",
+     "answer": "C = 27.29%, O = 72.71%"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the percentage of nitrogen in urea (NH2CONH2). (N=14, H=1, C=12, O=16 u)",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the percentage composition of CH4. (C=12.01, H=1.008 u)",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.7",
+   "title": "Empirical and Molecular Formula",
+   "section": "1.8",
+   "definition": "The empirical formula gives the simplest whole-number ratio of atoms of each element in a compound, while the molecular formula gives the actual number of atoms of each element in a molecule; the molecular formula is an integer multiple of the empirical formula.",
+   "formula": "molecular_formula = (empirical_formula)_n; n = molar_mass / empirical_mass",
+   "key_idea": "Convert mass percent to moles, find the simplest mole ratio for the empirical formula, then multiply by n = molar_mass / empirical_formula_mass to get the molecular formula.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "determine the empirical formula of a compound from percentage composition",
+    "calculate the molecular formula given the empirical formula and molar mass",
+    "find the empirical formula from the given masses of elements",
+    "determine the molecular formula of a compound from percent composition and molar mass",
+    "find the empirical and molecular formula of a compound"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert mass percent of each element to moles",
+     "explain": "Assume 100 g of compound so mass percent equals mass in grams, then divide by atomic mass.",
+     "compute": "mass_percent / atomic_mass"
+    },
+    {
+     "step": 2,
+     "action": "Find the simplest whole-number mole ratio",
+     "explain": "Divide each mole value by the smallest mole value to get the ratio for the empirical formula.",
+     "compute": "moles_element / moles_total"
+    },
+    {
+     "step": 3,
+     "action": "Determine the molecular formula using n",
+     "explain": "Calculate n = molar_mass / empirical_formula_mass and multiply the empirical formula subscripts by n."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A compound contains 4.07% H, 24.27% C, and 71.65% Cl. Its molar mass is 98.96 g/mol. Find the molecular formula. (H=1, C=12, Cl=35.5)",
+     "solution": "Moles: H=4.07/1=4.07, C=24.27/12=2.02, Cl=71.65/35.5=2.02. Ratio: H:C:Cl = 2:1:1. Empirical formula = CH2Cl, mass = 49.5. n = 98.96/49.5 = 2. Molecular formula = C2H4Cl2.",
+     "answer": "C2H4Cl2"
+    },
+    {
+     "question": "An oxide of nitrogen has 30.4% N and 69.6% O. Find its empirical formula. (N=14, O=16)",
+     "solution": "Moles: N=30.4/14=2.17, O=69.6/16=4.35. Ratio: N:O = 2.17/2.17 : 4.35/2.17 = 1:2. Empirical formula = NO2.",
+     "answer": "NO2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A compound has 80% C and 20% H. Its molar mass is 30 g/mol. Find the molecular formula. (C=12, H=1)",
+     "type": "compute"
+    },
+    {
+     "question": "Determine the empirical formula of a compound containing 63.5% Ag and 36.5% N. (Ag=108, N=14)",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.8",
+   "title": "Stoichiometry and Calculations Based on Stoichiometry",
+   "section": "1.9",
+   "definition": "Stoichiometry deals with the calculation of masses and volumes of reactants and products in chemical reactions using the balanced chemical equation and the mole concept.",
+   "formula": "moles_product = moles_reactant * (coeff_product / coeff_reactant)",
+   "key_idea": "A balanced equation gives the mole ratios of reactants and products; use these ratios to convert between masses, moles, and volumes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the mass of product formed from a given mass of reactant",
+    "calculate the mass of reactant required to produce a given mass of product",
+    "determine the volume of gas produced in a reaction",
+    "calculate the amount of CO2 produced from combustion of a hydrocarbon",
+    "find the moles of product from moles of reactant using stoichiometry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write and balance the chemical equation",
+     "explain": "Ensure the equation is balanced to get the correct mole ratios of reactants and products."
+    },
+    {
+     "step": 2,
+     "action": "Convert the given mass of reactant to moles",
+     "explain": "Divide the given mass by the molar mass of the reactant.",
+     "compute": "mass_reactant / molar_mass_reactant"
+    },
+    {
+     "step": 3,
+     "action": "Use the mole ratio to find moles and mass of product",
+     "explain": "Multiply by the ratio of product coefficient to reactant coefficient, then convert to mass."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the mass of CO2 produced when 10 g of CaCO3 decomposes. (CaCO3 -> CaO + CO2; CaCO3=100, CO2=44 g/mol)",
+     "solution": "Moles of CaCO3 = 10/100 = 0.1 mol. From the equation, 1 mol CaCO3 gives 1 mol CO2. Moles CO2 = 0.1 mol. Mass CO2 = 0.1 * 44 = 4.4 g.",
+     "answer": "4.4 g CO2"
+    },
+    {
+     "question": "How many moles of methane are required to produce 22 g of CO2 on complete combustion? (CH4 + 2O2 -> CO2 + 2H2O; CO2=44 g/mol)",
+     "solution": "Moles CO2 = 22/44 = 0.5 mol. From the equation, 1 mol CH4 gives 1 mol CO2. Moles CH4 needed = 0.5 mol.",
+     "answer": "0.5 mol CH4"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the mass of water produced by the complete combustion of 16 g of methane. (CH4 + 2O2 -> CO2 + 2H2O)",
+     "type": "compute"
+    },
+    {
+     "question": "How much CaO is obtained by heating 25 g of CaCO3? (CaCO3 -> CaO + CO2)",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.9",
+   "title": "Limiting Reagent",
+   "section": "1.9",
+   "definition": "The limiting reagent is the reactant that is completely consumed first in a chemical reaction, thereby limiting the amount of product formed; the other reactants are present in excess.",
+   "formula": "product_amount = min(moles_reactant_i / coeff_i) * coeff_product",
+   "key_idea": "The reactant giving the least amount of product (per its stoichiometric coefficient) is the limiting reagent and determines the maximum product yield.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the limiting reagent in a given reaction mixture",
+    "calculate the amount of product formed given the masses of two reactants",
+    "determine which reactant is in excess and by how much",
+    "find the limiting reagent and the mass of product formed",
+    "calculate the amount of product when one reactant is limiting"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the given masses of all reactants to moles",
+     "explain": "Divide each reactant mass by its molar mass.",
+     "compute": "mass_reactant / molar_mass_reactant"
+    },
+    {
+     "step": 2,
+     "action": "Divide each mole value by its stoichiometric coefficient",
+     "explain": "The reactant with the smallest mole-to-coefficient ratio is the limiting reagent."
+    },
+    {
+     "step": 3,
+     "action": "Calculate the product amount using the limiting reagent",
+     "explain": "Use the mole ratio from the balanced equation based on the limiting reagent to find the product mass."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In the reaction 3A + 2B -> 4C, 30 g of A (M=10) reacts with 20 g of B (M=10). Identify the limiting reagent and find the mass of C (M=20) formed.",
+     "solution": "Moles A = 30/10 = 3, ratio A = 3/3 = 1. Moles B = 20/10 = 2, ratio B = 2/2 = 1. Both ratios are equal, so neither is limiting (stoichiometric). Moles C = 1 * 4 = 4. Mass C = 4 * 20 = 80 g.",
+     "answer": "Neither is limiting; 80 g of C formed"
+    },
+    {
+     "question": "50.0 g of N2 (M=28) reacts with 10.0 g of H2 (M=2) to form NH3. Identify the limiting reagent. (N2 + 3H2 -> 2NH3)",
+     "solution": "Moles N2 = 50/28 = 1.786, ratio = 1.786/1 = 1.786. Moles H2 = 10/2 = 5, ratio = 5/3 = 1.667. H2 has the smaller ratio, so H2 is the limiting reagent.",
+     "answer": "H2 is the limiting reagent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "20 g of H2 (M=2) reacts with 64 g of O2 (M=32) to form water. Identify the limiting reagent. (2H2 + O2 -> 2H2O)",
+     "type": "compute"
+    },
+    {
+     "question": "In the reaction A + 2B -> 3C, 5 mol of A reacts with 8 mol of B. Find the limiting reagent and moles of C formed.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jech.1.10",
+   "title": "Concentration Terms: Molarity, Molality, Mole Fraction",
+   "section": "1.10",
+   "definition": "Molarity is the number of moles of solute per litre of solution; molality is the number of moles of solute per kilogram of solvent; mole fraction is the ratio of moles of one component to the total moles of all components in the mixture.",
+   "formula": "Molarity = moles_solute / volume_solution(L); Molality = moles_solute / mass_solvent(kg); mole_fraction = moles_component / total_moles",
+   "key_idea": "Concentration expresses the amount of solute relative to the amount of solution or solvent; molarity depends on volume while molality and mole fraction depend only on masses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the molarity of a solution given moles of solute and volume",
+    "calculate the molality of a solution given mass of solute and solvent",
+    "calculate the mole fraction of a component in a mixture",
+    "find the molarity of a solution prepared by dissolving a given mass in a given volume",
+    "determine the molality and mole fraction of a solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate moles of solute and identify the given quantity",
+     "explain": "Divide the mass of solute by its molar mass to get moles; note the volume of solution (for molarity) or mass of solvent (for molality).",
+     "compute": "mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Apply the appropriate concentration formula",
+     "explain": "Use Molarity = moles/volume(L), Molality = moles/mass_solvent(kg), or mole_fraction = moles_component/total_moles.",
+     "compute": "moles_solute / quantity"
+    },
+    {
+     "step": 3,
+     "action": "Compute the final numerical value with units",
+     "explain": "Substitute the values and simplify, reporting the answer with correct units (M, m, or dimensionless).",
+     "compute": "moles_solute / quantity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the molarity of a solution containing 4 g of NaOH in 500 mL of solution. (Molar mass NaOH = 40 g/mol)",
+     "solution": "Moles NaOH = 4/40 = 0.1 mol. Volume = 500 mL = 0.5 L. Molarity = 0.1/0.5 = 0.2 M.",
+     "answer": "0.2 M"
+    },
+    {
+     "question": "Calculate the molality of a solution containing 18 g of glucose in 250 g of water. (Molar mass glucose = 180 g/mol)",
+     "solution": "Moles glucose = 18/180 = 0.1 mol. Mass of water = 250 g = 0.25 kg. Molality = 0.1/0.25 = 0.4 m.",
+     "answer": "0.4 m"
+    },
+    {
+     "question": "Calculate the mole fraction of glucose in a solution containing 0.1 mol glucose and 1.5 mol water.",
+     "solution": "Total moles = 0.1 + 1.5 = 1.6. Mole fraction of glucose = 0.1/1.6 = 0.0625.",
+     "answer": "0.0625"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the molarity of a solution prepared by dissolving 5.85 g of NaCl in 250 mL of water. (Molar mass NaCl = 58.5 g/mol)",
+     "type": "compute"
+    },
+    {
+     "question": "Calculate the mole fraction of water in a mixture of 2 mol ethanol and 3 mol water.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

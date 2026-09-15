@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_011",
+   "title": "c11_chem_cbse_02_011",
+   "questions": [
+    {
+     "q": "State the mathematical form of Heisenberg's Uncertainty Principle and define each symbol with its SI unit.",
+     "a": "Δx Δp ≥ h/4π, where Δx = uncertainty in position (m), Δp = uncertainty in momentum (kg m s⁻¹), h = Planck's constant (6.626 × 10⁻³⁴ J s). A wrong answer like Δx Δv ≥ h/4π reveals confusion between momentum and velocity — the student forgets Δp = m Δv. Writing Δx Δp ≥ h instead of h/4π shows they memorised an approximate form without the precise factor.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Heisenberg's Uncertainty Principle make the concept of a definite electron orbit (like in Bohr's model) impossible?",
+     "a": "A definite orbit requires simultaneously known position (on the orbit) and momentum (tangential velocity) at every instant. The principle forbids this: if position is known precisely (Δx → 0), momentum becomes completely uncertain (Δp → ∞). The electron cannot have a fixed trajectory. A student who says \"orbits are fuzzy\" or \"we cannot measure accurately\" misses the ontological point — it is not a measurement problem; the electron fundamentally does not possess a simultaneous position and momentum.",
+     "self_check": true
+    },
+    {
+     "q": "An electron is confined within a region of 100 pm (1 × 10⁻¹⁰ m). Calculate the minimum uncertainty in its velocity. (mₑ = 9.11 × 10⁻³¹ kg, h = 6.626 × 10⁻³⁴ J s)",
+     "a": "Step 1: Δx = 1 × 10⁻¹⁰ m (given). Step 2: Use Δx Δp ≥ h/4π → Δp ≥ h/(4π Δx). Step 3: Δp = m Δv → Δv ≥ h/(4π m Δx). Step 4: Substitute: Δv ≥ (6.626×10⁻³⁴) / (4 × 3.14 × 9.11×10⁻³¹ × 1×10⁻¹⁰) = 5.79 × 10⁵ m s⁻¹. A wrong answer using h instead of h/4π gives 7.28 × 10⁶ m s⁻¹ — off by factor of 4π. Forgetting to convert pm to m gives absurdly small Δv.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the uncertainty in velocity for an electron (mass 9.11 × 10⁻³¹ kg) and a cricket ball (mass 0.15 kg) when both are localised to Δx = 1 nm. Explain why the principle is negligible for macroscopic objects.",
+     "a": "For electron: Δv ≥ 5.79 × 10⁴ m s⁻¹ (huge, comparable to orbital speeds). For cricket ball: Δv ≥ 3.51 × 10⁻³¹ m s⁻¹ (immeasurably small). The principle is negligible for macroscopic objects because Δv ∝ 1/m — large mass makes Δv vanishingly small. A student who calculates both correctly but says \"principle doesn't apply to big objects\" is wrong — it applies universally, but the effect is negligible. The principle does not \"switch off\" above a certain size.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If we use a photon of very long wavelength to observe the electron, the momentum transfer is small, so we can measure position and momentum simultaneously with high precision.\" Evaluate this claim.",
+     "a": "The claim is false. Long wavelength (low momentum) photons give poor position resolution (Δx ≈ λ). To reduce Δx, we need short wavelength (high momentum) photons, which increase Δp. The product Δx Δp cannot be beaten — it is a fundamental limit, not a technical one. A student who agrees reveals the misconception that uncertainty arises only from measurement disturbance, not from the wave nature of matter itself.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that an electron cannot have a definite trajectory. Use the concepts of wave-particle duality and the uncertainty principle.",
+     "a": "Imagine a double-slit experiment with electrons. If the electron had a definite trajectory, it would pass through one slit and hit the screen at a predictable point — no interference pattern. But we observe an interference pattern (wave nature), meaning the electron's position at the slits is not definite. To \"see\" which slit it goes through, we shine light — but the photon's momentum disturbs the electron enough to destroy the interference pattern. The very act of defining the trajectory destroys the wave behaviour that makes the pattern. A poor answer describes only the measurement disturbance without linking to wave nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

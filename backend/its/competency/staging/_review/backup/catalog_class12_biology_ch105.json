@@ -1,0 +1,343 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 105,
+ "chapter_title": "Molecular Basis of Inheritance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo105.txt",
+ "concepts": [
+  {
+   "id": "lebo.5.1.1",
+   "title": "Chargaff's Rule of Base Pairing",
+   "section": "5.1.1",
+   "definition": "In a double-stranded DNA molecule, the proportion of Adenine is equal to Thymine, and Guanine is equal to Cytosine, meaning the ratio of purines to pyrimidines is 1:1.",
+   "formula": "A = T; G = C; A + G = T + C",
+   "key_idea": "Base equivalence ensures the stability and uniform width of the DNA double helix.",
+   "textbook_ref": "lebo105.txt lines 85-105",
+   "question_patterns": [
+    "If a DNA sample has {cytosine_percent} percent cytosine, calculate the percentage of adenine",
+    "Find the percentage of all bases if thymine is {thymine_percent}",
+    "Calculate the amount of guanine given the percentage of adenine",
+    "What is the percentage of purines in a double stranded DNA with {cytosine_percent} cytosine?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate the given base to its complement",
+     "explain": "According to Chargaff's rule, Guanine equals Cytosine and Adenine equals Thymine.",
+     "compute": "complement_base = given_percent"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the sum of the known base pair",
+     "explain": "Add the percentages of the two complementary bases.",
+     "compute": "pair_sum = given_percent + complement_base"
+    },
+    {
+     "step": 3,
+     "action": "Find the remaining percentage for the other pair",
+     "explain": "Subtract the sum of the first pair from the total 100 percent.",
+     "compute": "remaining_sum = 100 - pair_sum"
+    },
+    {
+     "step": 4,
+     "action": "Determine the percentage of the target base",
+     "explain": "Divide the remaining percentage by 2 to find the individual base percentage.",
+     "compute": "target_percent = remaining_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.1.2",
+   "title": "Physical Dimensions of DNA Helix",
+   "section": "5.1.2",
+   "definition": "The total length of a DNA molecule is determined by the number of base pairs multiplied by the distance between consecutive pairs.",
+   "formula": "length = total_bp * distance_per_bp",
+   "key_idea": "DNA length is a characteristic feature of an organism's genome size.",
+   "textbook_ref": "lebo105.txt lines 115-130",
+   "question_patterns": [
+    "Calculate the length of DNA in a cell with {total_bp} base pairs",
+    "What is the total length of human haploid DNA?",
+    "Find the number of base pairs if the DNA length is {length_mm} mm",
+    "How long is a DNA molecule with {bp_count} nucleotides?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply base pairs by distance",
+     "explain": "The distance between two consecutive base pairs is 0.34 nm (0.34 * 10^-9 m).",
+     "compute": "length_meters = total_bp * 0.34 * 0.000000001"
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.1.3",
+   "title": "Nucleosome Packaging",
+   "section": "5.1.2",
+   "definition": "A nucleosome is the basic unit of DNA packaging in eukaryotes, consisting of DNA wrapped around a histone octamer.",
+   "formula": "num_nucleosomes = total_bp / 200",
+   "key_idea": "In brief, In brief, 200 base pairs of DNA are indeed typically associated with one nucleosome unit.",
+   "textbook_ref": "lebo105.txt lines 145-165",
+   "question_patterns": [
+    "How many nucleosomes are present in a mammalian cell with {total_bp} base pairs?",
+    "Calculate the number of histone complexes needed for {bp_count} DNA",
+    "Find the total DNA length associated with {n_beads} nucleosomes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total base pairs by nucleosome capacity",
+     "explain": "One nucleosome contains approximately 200 base pairs of DNA.",
+     "compute": "num_nucleosomes = total_bp / 200"
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.4.2",
+   "title": "DNA Replication Rate",
+   "section": "5.4.2",
+   "definition": "The efficiency of DNA polymerase is measured by the number of nucleotides added to the growing chain per unit of time.",
+   "formula": "rate = total_bp / time_seconds",
+   "key_idea": "In brief, In brief, In brief, Biological replication is extremely rapid, averaging thousands of base pairs per second.",
+   "textbook_ref": "lebo105.txt lines 285-305",
+   "question_patterns": [
+    "Calculate the average rate of polymerisation if {total_bp} are replicated in {minutes} minutes",
+    "How many base pairs are added per second in E. coli?",
+    "Find the time required to replicate {genome_size} at a rate of {bp_per_sec}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert time to seconds",
+     "explain": "Multiply minutes by 60 to get the total duration in seconds.",
+     "compute": "total_seconds = minutes * 60"
+    },
+    {
+     "step": 2,
+     "action": "Calculate rate per second",
+     "explain": "Divide the total base pairs by the total time in seconds.",
+     "compute": "rate = total_bp / total_seconds"
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.5.1",
+   "title": "Transcription Unit Components",
+   "section": "5.5.1",
+   "definition": "In brief, In brief, In brief, In brief, a segment of DNA that undergoes transcription, defined by a promoter, a structural gene, and a terminator sequence.",
+   "formula": "RNA_sequence = complement(template_strand)",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, Transcription is directional (5' to 3') and uses only the template strand (3' to 5').",
+   "textbook_ref": "lebo105.txt lines 360-390",
+   "question_patterns": [
+    "Identify the coding strand given the template sequence",
+    "Write the mRNA sequence from the coding strand {coding_seq}",
+    "What is the polarity of the template strand?",
+    "Where is the promoter located relative to the structural gene?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify strands",
+     "explain": "The strand with 3'->5' polarity is the template; 5'->3' is the coding strand."
+    },
+    {
+     "step": 2,
+     "action": "Apply complementarity",
+     "explain": "mRNA is identical to the coding strand, but Uracil (U) replaces Thymine (T)."
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.6.0",
+   "title": "Genetic Code Combinatorics",
+   "section": "5.6",
+   "definition": "The mathematical logic that a triplet of four possible nitrogenous bases provides enough unique combinations to code for twenty amino acids.",
+   "formula": "total_codons = 4 ** 3",
+   "key_idea": "A triplet code generates 64 codons, ensuring redundancy (degeneracy) for 20 amino acids.",
+   "textbook_ref": "lebo105.txt lines 500-520",
+   "question_patterns": [
+    "How many codons are possible with a triplet code of 4 bases?",
+    "Why is a doublet code insufficient for 20 amino acids?",
+    "Calculate the number of possible codons if the code was a {n_let} letter word"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate permutations",
+     "explain": "Raise the number of base types (4) to the power of the codon length (3).",
+     "compute": "total_codons = 4 ** 3"
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.8.1",
+   "title": "Lac Operon Regulation",
+   "section": "5.8.1",
+   "definition": "A coordinated system in bacteria where a group of genes involved in lactose metabolism are indeed regulated by a single promoter and an operator.",
+   "formula": "inducer + repressor = inactive_repressor",
+   "key_idea": "Lactose acts as an inducer that prevents the repressor from blocking transcription.",
+   "textbook_ref": "lebo105.txt lines 660-710",
+   "question_patterns": [
+    "Explain the role of lactose in the lac operon",
+    "What happens to the lac operon in the absence of an inducer?",
+    "Identify the functions of z, y, and a genes",
+    "Why is lac operon regulation considered negative?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze repressor state",
+     "explain": "In absence of lactose, i-gene product (repressor) binds to the operator."
+    },
+    {
+     "step": 2,
+     "action": "Analyze induction",
+     "explain": "Lactose binds to the repressor, changing its shape so it cannot bind to the operator, allowing RNA polymerase to proceed."
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.9.1",
+   "title": "Human Genome Salient Features",
+   "section": "5.9.1",
+   "definition": "The comprehensive data points regarding the size, gene count, and composition of the human genetic blueprint.",
+   "formula": "coding_percentage < 2",
+   "key_idea": "The human genome is vast (3.1 billion bp) but only a tiny fraction codes for proteins.",
+   "textbook_ref": "lebo105.txt lines 820-850",
+   "question_patterns": [
+    "What is the total number of base pairs in the human genome?",
+    "What percentage of the human genome codes for proteins?",
+    "Which human chromosome has the most and least genes?",
+    "What are SNPs?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall genome size",
+     "explain": "Human genome contains approximately 3164.7 million base pairs."
+    },
+    {
+     "step": 2,
+     "action": "Recall gene distribution",
+     "explain": "Chromosome 1 has 2968 genes; Y chromosome has 231 genes."
+    }
+   ]
+  },
+  {
+   "id": "lebo.5.10.0",
+   "title": "DNA Fingerprinting and VNTR",
+   "section": "5.10",
+   "definition": "A technique used to identify individuals by analyzing the unique patterns of repetitive DNA sequences called Variable Number of Tandem Repeats.",
+   "formula": "polymorphism_frequency > 0.01",
+   "key_idea": "Non-coding repetitive sequences show high variation between individuals, serving as genetic markers.",
+   "textbook_ref": "lebo105.txt lines 910-960",
+   "question_patterns": [
+    "What is the basis of DNA fingerprinting?",
+    "Define VNTR",
+    "List the steps involved in DNA fingerprinting",
+    "How is DNA polymorphism useful in forensics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify satellite DNA",
+     "explain": "Bulk DNA is separated from satellite DNA using density gradient centrifugation."
+    },
+    {
+     "step": 2,
+     "action": "Detect VNTRs",
+     "explain": "Southern blotting and hybridization with radiolabelled probes reveal unique banding patterns."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo105.txt Exercise 2",
+   "concept": "lebo.5.1.1",
+   "question_type": "compute",
+   "question_pattern": "If a double stranded DNA has 20 per cent of cytosine, calculate the per cent of adenine in the DNA.",
+   "extracted_variables": {
+    "given_percent": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Equate the given base to its complement",
+     "explain": "G = C = 20%",
+     "compute": "complement_base = 20"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the sum of the known base pair",
+     "explain": "G + C = 20 + 20 = 40%",
+     "compute": "pair_sum = 20 + 20"
+    },
+    {
+     "step": 3,
+     "action": "Find the remaining percentage for the other pair",
+     "explain": "A + T = 100 - 40 = 60%",
+     "compute": "remaining_sum = 100 - 40"
+    },
+    {
+     "step": 4,
+     "action": "Determine the percentage of the target base",
+     "explain": "A = 60 / 2 = 30%",
+     "compute": "target_percent = 60 / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo105.txt Section 5.1.2",
+   "concept": "lebo.5.1.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the length of DNA in a typical mammalian cell with 6.6 x 10^9 base pairs.",
+   "extracted_variables": {
+    "total_bp": 6600000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply base pairs by distance",
+     "explain": "Length = 6.6e9 * 0.34e-9 meters",
+     "compute": "length_meters = 6600000000 * 0.34 * 0.000000001"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "lebo105.txt Exercise 1",
+   "questions": [
+    "Group the following as nitrogenous bases and nucleosides: Adenine, Cytidine, Thymine, Guanosine, Uracil and Cytosine."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "lebo105.txt Exercise 2",
+   "questions": [
+    "If a double stranded DNA has 20 per cent of cytosine, calculate the per cent of adenine in the DNA."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "lebo105.txt Exercise 3",
+   "questions": [
+    "If the sequence of one strand of DNA is 5'-ATGCATGCATGCATGCATGCATGCATGC-3', write down the sequence of complementary strand in 5'->3' direction."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

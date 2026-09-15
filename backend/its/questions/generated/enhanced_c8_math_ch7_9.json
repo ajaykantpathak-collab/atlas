@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_9",
+   "title": "c8_math_ch7_9",
+   "questions": [
+    {
+     "q": "If 5 kg of wheat costs ₹125, what is the cost of 1 kg of wheat? (Recall the unitary method step for direct proportion.)",
+     "a": "₹25. A wrong answer (e.g., ₹625 by multiplying) reveals the student does not recall that the unitary method requires finding the value for ONE unit first by dividing, not multiplying. They may confuse \"cost of 1 kg\" with \"cost of 5 kg\" and apply the wrong operation.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 60 km in 1 hour at constant speed. Explain why the distance travelled in 3 hours is 180 km, using the concept of constant ratio. (Do not just calculate; explain the reasoning.)",
+     "a": "Because distance and time are in direct proportion when speed is constant, the ratio distance/time remains the same (60 km/h). For 3 hours, distance = 60 × 3 = 180 km. A wrong explanation (e.g., \"add 60 three times\" without referencing the constant ratio) shows the student relies on repeated addition rather than understanding the multiplicative relationship that defines direct proportion.",
+     "self_check": true
+    },
+    {
+     "q": "A recipe uses 3 cups of flour for 12 cookies. How many cups of flour are needed for 30 cookies? Solve using the proportion method.",
+     "a": "Let x be cups of flour for 30 cookies. Since flour ∝ cookies, 3/12 = x/30. Cross-multiply: 12x = 90 → x = 7.5 cups. A wrong answer like 7.5 cups but with steps 3/12 = 30/x (inverted proportion) reveals the student sets up the proportion incorrectly, mixing up the positions of known and unknown quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two situations: (A) 4 workers paint a wall in 6 hours. (B) 4 workers paint 2 walls in 6 hours. Which situation(s) represent direct proportion between workers and time? Explain.",
+     "a": "Neither. In (A), workers and time are inversely proportional (more workers, less time). In (B), walls and time are directly proportional (more walls, more time) if workers are constant. A student who says both are direct proportion confuses the variables; they must identify which quantities are being compared and whether the third quantity is held constant.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"8 metres of cloth cost ₹480. Find cost of 15 metres.\" Their working: 480 ÷ 8 = 60, then 60 × 15 = 900. Is this correct? Justify your answer.",
+     "a": "Yes, correct. The student used the unitary method correctly: cost per metre = ₹60, then cost for 15 metres = ₹900. If a student says it's wrong because they expected a proportion setup (8/480 = 15/x), they fail to recognize that the unitary method and proportion method are equivalent for direct proportion problems.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires direct proportion to solve, involving at least two steps (e.g., first find the constant, then use it for a different quantity). Provide the solution.",
+     "a": "Example problem: \"A car uses 5 litres of petrol to travel 75 km. How far can it travel on 12 litres? If petrol costs ₹95 per litre, what is the cost for the 12 litres?\" Solution: Step 1: Distance per litre = 75/5 = 15 km/litre. Step 2: Distance for 12 litres = 15 × 12 = 180 km. Step 3: Cost = 12 × ₹95 = ₹1140. A poor answer would be a one-step problem or a problem that is not direct proportion (e.g., involving inverse proportion), showing the student cannot construct a valid direct proportion scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

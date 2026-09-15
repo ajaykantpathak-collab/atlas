@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch8_2",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch8_2",
+   "title": "c9_engl_ch8_2",
+   "questions": [
+    {
+     "q": "What is the defining structural feature of an epistolary text that distinguishes it from a first-person narrative?",
+     "a": "An epistolary text is structured as a document (letter, diary entry, email) addressed to a specific recipient, with conventions like salutation, date, and sign-off — whereas a first-person narrative has no required addressee or document conventions. A wrong answer (e.g., \"both use 'I'\") reveals the student confuses *point of view* with *form* — they miss that epistolary writing is defined by its materiality as a communicated artifact, not just its pronoun.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Follow That Dream,\" the mother writes: \"I am writing this because I want you to have something to hold onto when the path gets unclear.\" How does the epistolary form make this line function differently than if it appeared in a third-person story?",
+     "a": "In the letter, the line directly addresses the daughter (\"you\"), creating immediate intimacy and purpose — the text *is* the object she holds onto. In third-person, it would become reported speech (\"She wrote that she wanted her daughter to have...\"), distancing the reader and turning the gesture into description rather than enactment. A wrong answer focusing only on \"both show the mother's care\" misses the performative difference: the letter *performs* the care; the story *describes* it.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The letter format makes the mother's advice more convincing because letters are personal.\" Improve this analysis by applying the concept of 'constructed audience' — how the *imagined recipient* shapes the writer's choices.",
+     "a": "Step 1: Identify the claim — \"letters are personal\" is vague. Step 2: Apply 'constructed audience' — the mother *constructs* her daughter as vulnerable, dreaming, needing guidance. Step 3: Show evidence — she uses \"you\" 14 times, recalls shared memories (\"remember the kite?\"), and anticipates objections (\"I know you'll say...\"). Step 4: Conclude — the advice is convincing *because* it's tailored to this specific constructed daughter, not because letters are inherently personal. A wrong answer that stops at \"it's personal\" fails to analyze *how* the form enables rhetorical precision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the epistolary form in \"Follow That Dream\" (single letter, mother to daughter) with the diary-entry form in *The Diary of Anne Frank*. How does the *difference in recipient* (specific person vs. imaginary friend \"Kitty\") change the nature of self-disclosure?",
+     "a": "The mother's letter is *relational* — she discloses to *guide* her daughter, selecting memories and advice for the daughter's future use. Anne's diary is *exploratory* — she discloses to *understand herself*, writing to an imaginary confidant who won't judge. The mother curates; Anne discovers. A wrong answer saying \"both are private\" misses that privacy functions differently: one protects a relationship, the other creates a self.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The epistolary form in 'Follow That Dream' limits the narrative because we only get the mother's perspective — we never hear the daughter's voice.\" Defend or challenge using the concept of 'silent addressee.'",
+     "a": "Challenge. The daughter's silence is *structural* — her anticipated reactions (\"You'll roll your eyes,\" \"You'll say I'm old-fashioned\") are woven into the mother's prose. The mother *ventriloquizes* the daughter's voice to pre-empt it. The form doesn't exclude the daughter; it makes her presence felt through absence. A wrong answer agreeing with the claim treats the letter as a monologue rather than a simulated dialogue — missing how epistolary writing *depends* on the invisible recipient to shape every sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word \"letter within a letter\" — the daughter's reply to her mother, composed *inside the margins* of the original letter, that uses epistolary conventions to show she has internalized the mother's central metaphor (the kite string).",
+     "a": "A strong reply: \"Ma — Found your letter in my suitcase. The kite string? I'm holding it. Not pulling. Just... steady. Wind's rough today. But I feel you in the tension. Your daughter, flying.\" Criteria: uses salutation/sign-off, responds to specific metaphor, shows internalization through action (\"holding,\" \"steady\"), maintains intimate tone. A poor reply writes a summary (\"I liked your advice about the kite\") — failing to *enact* the epistolary voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

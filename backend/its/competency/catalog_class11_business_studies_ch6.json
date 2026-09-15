@@ -1,0 +1,516 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 6,
+ "chapter_title": "Social Responsibilities of Business and Business Ethics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs106.txt",
+ "concepts": [
+  {
+   "id": "c11bs.6.1",
+   "title": "Meaning of Social Responsibility",
+   "section": "Social Responsibility: Concept and Meaning",
+   "definition": "Social responsibility of business refers to the obligation of business enterprises to act in ways that protect and promote the interests of all stakeholders -- owners, employees, consumers, government, and the community -- while pursuing economic objectives.",
+   "formula": "",
+   "key_idea": "Social responsibility means businesses must balance profit-making with their duties towards all stakeholders and society at large, not just shareholders.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by social responsibility of business?",
+    "Why should a business be socially responsible?",
+    "Explain the concept of social responsibility with examples.",
+    "How does social responsibility differ from legal responsibility?",
+    "What is the relationship between business and society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stakeholders affected by the business activity",
+     "explain": "Stakeholders include owners, employees, consumers, government, and the community; each has distinct interests the business must consider."
+    },
+    {
+     "step": 2,
+     "action": "Determine the obligation of business towards those stakeholders",
+     "explain": "Social responsibility requires the business to protect and promote stakeholder interests beyond mere legal compliance and profit-making."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the business balances economic and social goals",
+     "explain": "A socially responsible business pursues profit while safeguarding stakeholder welfare and contributing to societal well-being."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A factory earns profits but pollutes the nearby river, harming the local community. Is the factory fulfilling its social responsibility?",
+     "solution": "Step 1: The factory's activity harms the community, a key stakeholder. Step 2: Social responsibility requires protecting community interests, not just earning profit. Step 3: The factory is not fulfilling its social responsibility.",
+     "answer": "No, because it ignores the interests of the community stakeholder"
+    },
+    {
+     "question": "A company provides fair wages, safe working conditions, and quality products to customers. What concept is the company demonstrating?",
+     "solution": "Step 1: The company protects the interests of employees and consumers. Step 2: Protecting stakeholder welfare is the essence of social responsibility. Step 3: The company is demonstrating social responsibility.",
+     "answer": "Social responsibility of business"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of social responsibility of business with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is social responsibility considered important for business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.2",
+   "title": "Arguments for Social Responsibility",
+   "section": "Arguments for Social Responsibility",
+   "definition": "Arguments for social responsibility include long-run business interest, better public image, avoidance of government regulation, moral justification, resource availability, and contribution to solving social problems created by business.",
+   "formula": "",
+   "key_idea": "Being socially responsible benefits business in the long run by building trust, avoiding regulation, and justifying the use of societal resources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main arguments in favour of social responsibility?",
+    "How does social responsibility help in the long-run survival of business?",
+    "Explain how social responsibility improves the public image of a firm.",
+    "Why does social responsibility help avoid government regulation?",
+    "What is the moral justification for social responsibility?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific argument being presented",
+     "explain": "Arguments include long-run interest, public image, avoiding regulation, moral justification, and resource availability."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the argument links social responsibility to business benefit",
+     "explain": "A good public image builds customer loyalty; responsibility avoids stricter laws; moral duty justifies the use of societal resources."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the overall case for social responsibility",
+     "explain": "Together these arguments show that social responsibility is both morally right and economically beneficial for business."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company that adopts eco-friendly practices avoids strict government inspections and gains loyal customers. Which arguments for social responsibility are illustrated?",
+     "solution": "Step 1: The company avoids regulation and gains customer loyalty. Step 2: These correspond to avoiding government regulation and improving public image. Step 3: The arguments illustrated are avoidance of regulation and better public image.",
+     "answer": "Avoidance of government regulation and better public image"
+    },
+    {
+     "question": "A business argues that since it uses society's resources, it has a duty to give back to society. Which argument for social responsibility is this?",
+     "solution": "Step 1: The argument is based on the use of societal resources. Step 2: Using society's resources creates a moral duty to contribute back. Step 3: This is the moral justification argument.",
+     "answer": "Moral justification for social responsibility"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss any five arguments in favour of social responsibility of business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does social responsibility contribute to the long-run interest of business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.3",
+   "title": "Arguments Against Social Responsibility",
+   "section": "Arguments Against Social Responsibility",
+   "definition": "Arguments against social responsibility include the view that business exists for profit, that social responsibility dilutes business goals, that it lacks accountability, that it involves high cost, and that business lacks social expertise to solve social problems.",
+   "formula": "",
+   "key_idea": "Critics argue that business should focus on profit, that social responsibility lacks accountability and expertise, and that it imposes costs that reduce efficiency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main arguments against social responsibility?",
+    "Why do some argue that business should focus only on profit?",
+    "How does social responsibility increase the cost of business?",
+    "Why is lack of accountability an argument against social responsibility?",
+    "What is the argument that business lacks social expertise?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific argument against social responsibility",
+     "explain": "Arguments include profit-only motive, dilution of goals, lack of accountability, high cost, and lack of social expertise."
+    },
+    {
+     "step": 2,
+     "action": "Explain the reasoning behind the argument",
+     "explain": "Business is seen as an economic unit; social spending raises costs; managers are not accountable to society for social spending; businesses lack skills to solve social problems."
+    },
+    {
+     "step": 3,
+     "action": "Present the implication of the argument",
+     "explain": "The argument suggests that social responsibility should be left to government and society, not business, to avoid inefficiency and diluted focus."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manager argues that spending company funds on community welfare reduces shareholder returns and that managers are not accountable to society for such spending. Which arguments against social responsibility are being used?",
+     "solution": "Step 1: The manager cites reduced returns and lack of accountability. Step 2: These correspond to the high cost argument and the lack of accountability argument. Step 3: The arguments are high cost and lack of accountability.",
+     "answer": "High cost of social responsibility and lack of accountability"
+    },
+    {
+     "question": "A critic says businesses are economic institutions and should not take on roles meant for government. Which argument against social responsibility is this?",
+     "solution": "Step 1: The critic argues business should focus on economic goals. Step 2: This reflects the profit-only motive and dilution of business goals argument. Step 3: This is the argument that business exists for profit, not social roles.",
+     "answer": "Business exists for profit (dilution of business goals)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five arguments against social responsibility of business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is lack of social expertise considered an argument against social responsibility?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.4",
+   "title": "Business Ethics",
+   "section": "Business Ethics",
+   "definition": "Business ethics refers to the moral principles and standards that guide the conduct of business, determining what is right or wrong in business decisions and actions, and covering issues like fair trade, honest advertising, and ethical treatment of stakeholders.",
+   "formula": "",
+   "key_idea": "Business ethics are the moral principles that guide business conduct, ensuring decisions are not only legal and profitable but also morally right.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by business ethics?",
+    "Why are business ethics important for a firm?",
+    "How do business ethics differ from legal compliance?",
+    "Explain the role of ethics in business decision-making.",
+    "Give examples of ethical and unethical business practices."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the business decision or practice in question",
+     "explain": "Determine the action being evaluated, such as advertising claims, pricing, or treatment of employees."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the action against moral principles and standards",
+     "explain": "Ethics asks whether the action is honest, fair, and just to stakeholders, beyond mere legality."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the practice is ethical or unethical",
+     "explain": "An ethical practice aligns with moral principles; an unethical practice exploits or harms stakeholders even if technically legal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company advertises that its product cures a disease when it does not. Is this an ethical or unethical business practice?",
+     "solution": "Step 1: The practice is making false advertising claims. Step 2: False advertising violates the moral principle of honesty and harms consumers. Step 3: This is an unethical business practice.",
+     "answer": "Unethical, because it involves false and misleading advertising"
+    },
+    {
+     "question": "A firm pays fair wages, does not use child labour, and discloses all product information honestly. What is this firm demonstrating?",
+     "solution": "Step 1: The firm's actions are honest, fair, and just to stakeholders. Step 2: Such conduct aligns with moral business principles. Step 3: The firm is demonstrating business ethics.",
+     "answer": "Business ethics, through fair wages, no child labour, and honest disclosure"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define business ethics and explain its importance with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do business ethics differ from mere legal compliance?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.5",
+   "title": "Elements of Business Ethics",
+   "section": "Elements of Business Ethics",
+   "definition": "The key elements of business ethics include top management commitment, publication of a code of conduct, establishment of compliance mechanisms, involvement of employees at all levels, and measurement of results to ensure ethical practices are followed.",
+   "formula": "",
+   "key_idea": "Effective business ethics require leadership commitment, a clear code of conduct, compliance mechanisms, employee involvement, and ongoing measurement of ethical performance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main elements of business ethics?",
+    "Why is top management commitment important for business ethics?",
+    "What is a code of conduct and why should it be published?",
+    "Explain the role of compliance mechanisms in business ethics.",
+    "How can employees be involved in maintaining business ethics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the element of business ethics being discussed",
+     "explain": "Elements include top management commitment, code of conduct, compliance mechanisms, employee involvement, and measurement of results."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of the element in promoting ethical conduct",
+     "explain": "Top management sets the tone; the code defines standards; compliance mechanisms enforce them; employees implement them; measurement tracks adherence."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the element contributes to an ethical culture",
+     "explain": "Together these elements create a system where ethical behavior is defined, enforced, practiced, and monitored across the organisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company's CEO publicly commits to ethical practices and the company publishes a written code of conduct for all employees. Which elements of business ethics are being applied?",
+     "solution": "Step 1: The CEO commits and a code is published. Step 2: These correspond to top management commitment and publication of a code of conduct. Step 3: The elements are top management commitment and a published code of conduct.",
+     "answer": "Top management commitment and publication of a code of conduct"
+    },
+    {
+     "question": "A firm sets up an ethics committee to monitor compliance and surveys employees annually on ethical practices. Which elements are being implemented?",
+     "solution": "Step 1: The firm sets up a compliance mechanism and measures results. Step 2: These are compliance mechanisms and measurement of results. Step 3: The elements are compliance mechanisms and measurement of results.",
+     "answer": "Establishment of compliance mechanisms and measurement of results"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the five key elements of business ethics.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is employee involvement necessary for business ethics?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.6",
+   "title": "Social Responsibility Towards Different Groups",
+   "section": "Social Responsibility Towards Different Interest Groups",
+   "definition": "Business has social responsibility towards different stakeholder groups: shareholders (fair return), employees (fair wages and safety), consumers (quality and fair price), community (environment and development), and government (taxes and compliance).",
+   "formula": "",
+   "key_idea": "A socially responsible business must discharge its duties towards all stakeholder groups -- shareholders, employees, consumers, community, and government -- in a balanced manner.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the social responsibilities of business towards consumers?",
+    "Explain the social responsibility of business towards employees.",
+    "What is the responsibility of business towards shareholders?",
+    "Describe the social responsibility of business towards the community.",
+    "What are the responsibilities of business towards the government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stakeholder group in question",
+     "explain": "Stakeholder groups include shareholders, employees, consumers, community, and government."
+    },
+    {
+     "step": 2,
+     "action": "Determine the specific responsibilities towards that group",
+     "explain": "Shareholders: fair returns; employees: fair wages, safety, growth; consumers: quality, fair price, after-sales service; community: pollution control, employment, welfare; government: taxes, law compliance."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how fulfilling these duties reflects social responsibility",
+     "explain": "Discharging duties towards all groups ensures the business contributes positively to each stakeholder, fulfilling its social responsibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company ensures its products meet quality standards, charges fair prices, and provides honest advertising. Towards which stakeholder group is it being socially responsible?",
+     "solution": "Step 1: The actions concern product quality, pricing, and advertising. Step 2: These are responsibilities towards consumers. Step 3: The company is being socially responsible towards consumers.",
+     "answer": "Consumers"
+    },
+    {
+     "question": "A firm pays taxes on time, complies with all laws, and contributes to local infrastructure development. Towards which stakeholder groups is it being responsible?",
+     "solution": "Step 1: The actions include tax payment, legal compliance, and infrastructure contribution. Step 2: Taxes and compliance are duties towards government; infrastructure helps the community. Step 3: The firm is responsible towards the government and the community.",
+     "answer": "Government and the community"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the social responsibility of business towards any four stakeholder groups.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the responsibilities of business towards its employees?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.7",
+   "title": "Social Responsibility Towards Consumers",
+   "section": "Responsibility Towards Consumers",
+   "definition": "Business responsibility towards consumers includes providing quality goods and services at fair prices, honest advertising, after-sales service, safe products, and redressal of consumer grievances, as consumers are often vulnerable to exploitation.",
+   "formula": "",
+   "key_idea": "Consumers are the most vulnerable stakeholder group, so businesses must ensure quality, fair pricing, honest information, and grievance redressal to protect their interests.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is social responsibility towards consumers important?",
+    "What are the specific responsibilities of business towards consumers?",
+    "How can businesses ensure fair treatment of consumers?",
+    "Explain the role of honest advertising in consumer protection.",
+    "What is the importance of after-sales service for consumers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the consumer interest at stake",
+     "explain": "Interests include product quality, fair price, safety, honest information, and grievance redressal."
+    },
+    {
+     "step": 2,
+     "action": "Determine the business action needed to protect that interest",
+     "explain": "Quality control ensures standards; fair pricing avoids exploitation; honest advertising prevents deception; after-sales service supports consumers post-purchase."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the action fulfills consumer responsibility",
+     "explain": "Protecting these interests ensures consumers are not exploited and receive value for money, fulfilling the business's social responsibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company recalls a batch of defective products and offers free replacements to all affected customers. Which consumer responsibility is it fulfilling?",
+     "solution": "Step 1: The company acts on defective products and offers replacements. Step 2: This addresses product safety and grievance redressal. Step 3: The company is fulfilling its responsibility of providing safe products and redressal.",
+     "answer": "Responsibility for product safety and consumer grievance redressal"
+    },
+    {
+     "question": "A seller charges different prices to different customers for the same product without any justification. Is this fulfilling consumer responsibility?",
+     "solution": "Step 1: The seller charges unfair, discriminatory prices. Step 2: Fair pricing is a key consumer responsibility. Step 3: The seller is not fulfilling its responsibility towards consumers.",
+     "answer": "No, because fair pricing is a key responsibility towards consumers"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the social responsibility of business towards consumers in detail.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are consumers considered a vulnerable stakeholder group?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.8",
+   "title": "Corporate Governance",
+   "section": "Corporate Governance",
+   "definition": "Corporate governance is the system of rules, practices, and processes by which a company is directed and controlled, ensuring transparency, accountability, and fairness in its relationship with all stakeholders, particularly shareholders and management.",
+   "formula": "",
+   "key_idea": "Corporate governance ensures that companies are managed in a transparent and accountable manner, balancing the interests of shareholders, management, and other stakeholders.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is corporate governance and why is it important?",
+    "Explain the principles of corporate governance.",
+    "How does corporate governance protect shareholder interests?",
+    "What is the role of the board of directors in corporate governance?",
+    "How does corporate governance promote transparency and accountability?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the governance principle or mechanism in question",
+     "explain": "Principles include transparency, accountability, fairness, and responsibility; mechanisms include the board of directors, audits, and disclosure norms."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the principle or mechanism balances stakeholder interests",
+     "explain": "Transparency ensures information flow; accountability fixes responsibility; the board oversees management on behalf of shareholders."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how good governance benefits the company and stakeholders",
+     "explain": "Good governance builds trust, attracts investment, prevents misuse of power, and ensures long-term sustainable performance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company regularly discloses its financial statements, has an independent board, and conducts external audits. Which concept is the company practicing?",
+     "solution": "Step 1: The company discloses financials, has an independent board, and conducts audits. Step 2: These are mechanisms of transparency, accountability, and oversight. Step 3: The company is practicing corporate governance.",
+     "answer": "Corporate governance, through disclosure, independent board, and external audits"
+    },
+    {
+     "question": "Why is an independent board of directors important for corporate governance?",
+     "solution": "Step 1: The board oversees management on behalf of shareholders. Step 2: Independence ensures unbiased oversight and prevents misuse of power. Step 3: An independent board strengthens accountability and protects shareholder interests.",
+     "answer": "It ensures unbiased oversight of management and protects shareholder interests"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of corporate governance and its key principles.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does corporate governance promote accountability in a company?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.6.9",
+   "title": "CSR in India",
+   "section": "Corporate Social Responsibility in India",
+   "definition": "Corporate Social Responsibility (CSR) in India refers to the statutory and voluntary initiatives by companies to integrate social and environmental concerns in their operations, with the Companies Act mandating qualifying companies to spend a portion of profits on CSR activities.",
+   "formula": "",
+   "key_idea": "CSR in India combines voluntary social initiatives with statutory requirements, requiring qualifying companies to spend a specified percentage of profits on socially beneficial activities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is CSR and how is it practiced in India?",
+    "Explain the statutory provisions for CSR under the Companies Act.",
+    "What types of activities are covered under CSR in India?",
+    "How does CSR differ from general social responsibility?",
+    "Why was CSR made mandatory for certain companies in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the CSR activity is voluntary or statutory",
+     "explain": "Voluntary CSR is self-initiated; statutory CSR is mandated by the Companies Act for qualifying companies based on profit, turnover, or net worth thresholds."
+    },
+    {
+     "step": 2,
+     "action": "Determine the type of CSR activity undertaken",
+     "explain": "Eligible activities include education, health, environment, rural development, poverty alleviation, and heritage protection as specified in the Act."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the activity fulfills CSR obligations",
+     "explain": "Spending the mandated percentage of profits on eligible activities fulfills the statutory CSR obligation and contributes to social development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A large company spends 2% of its average net profits on building schools in rural areas as required by law. What is this an example of?",
+     "solution": "Step 1: The company spends a mandated percentage of profits on a social activity. Step 2: This is statutory CSR under the Companies Act. Step 3: This is an example of CSR in India.",
+     "answer": "Statutory Corporate Social Responsibility (CSR) in India"
+    },
+    {
+     "question": "A company voluntarily organizes free health camps in nearby villages beyond any legal requirement. Is this statutory or voluntary CSR?",
+     "solution": "Step 1: The activity is beyond legal requirement. Step 2: CSR undertaken without legal mandate is voluntary. Step 3: This is voluntary CSR.",
+     "answer": "Voluntary CSR, as it goes beyond statutory requirements"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of CSR in India and the statutory provisions governing it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List any four activities eligible under CSR in India.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

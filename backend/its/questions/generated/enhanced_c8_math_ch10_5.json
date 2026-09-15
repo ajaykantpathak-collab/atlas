@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_5",
+   "title": "c8_math_ch10_5",
+   "questions": [
+    {
+     "q": "What is the first step when sharing a quantity in a given ratio like 3:5:7?",
+     "a": "The first step is to find the sum of the ratio terms (3+5+7=15). This sum represents the total number of equal parts the quantity is divided into. A wrong answer (e.g., directly multiplying the total by 3) reveals the student thinks the ratio numbers are the actual shares or does not understand the concept of \"parts\" in a ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A sum of ₹600 is divided between A and B in the ratio 2:3. A student calculates A's share as \\( \\frac{2}{3} \\times 600 = ₹400 \\). Why is this incorrect?",
+     "a": "The student used the wrong denominator. The correct denominator is the sum of the ratio terms (2+3=5), not the second term (3). The correct share for A is \\( \\frac{2}{5} \\times 600 = ₹240 \\). A wrong answer reveals the misconception that the ratio a:b means the fraction a/b of the total, instead of a/(a+b).",
+     "self_check": true
+    },
+    {
+     "q": "Three friends share a 2.4 kg bag of rice in the ratio 1:2:3. Calculate the share of each friend in grams.",
+     "a": "Step 1: Sum of ratio terms = 1+2+3 = 6 parts.\nStep 2: Total quantity = 2.4 kg = 2400 grams.\nStep 3: Value of one part = 2400 g ÷ 6 = 400 g.\nStep 4: Shares: 1st = 1 × 400 = 400 g, 2nd = 2 × 400 = 800 g, 3rd = 3 × 400 = 1200 g.\nStep 5: Check: 400+800+1200 = 2400 g. Correct.\nA wrong answer (e.g., 400, 800, 1200 without unit conversion, or using 2.4 directly) reveals errors in unit conversion or forgetting to sum the ratio terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods for sharing ₹500 in ratio 2:3:\nMethod X: Find 1 part = 500 ÷ (2+3) = 100, then shares = 200 and 300.\nMethod Y: Share of first = \\( \\frac{2}{2+3} \\times 500 \\), share of second = \\( \\frac{3}{2+3} \\times 500 \\).\nAre these methods equivalent? Explain why or why not.",
+     "a": "Yes, they are equivalent. Method X explicitly calculates the value of one part (unitary method), while Method Y uses the fraction of the total directly. Both rely on the same principle: each share is (ratio term / sum of terms) × total. A student who says they are different may not see the algebraic equivalence \\( \\frac{a}{a+b} \\times Q = a \\times \\frac{Q}{a+b} \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Divide 60 cm in the ratio 1:2:3\" and writes: 1st = 10 cm, 2nd = 20 cm, 3rd = 30 cm. Is this correct? Justify your answer.",
+     "a": "The answer is incorrect. Sum of ratio terms = 1+2+3 = 6. Value of one part = 60 ÷ 6 = 10 cm. Correct shares: 10 cm, 20 cm, 30 cm. Wait, the student's numbers match! But the student likely just multiplied the ratio numbers by 10 without showing the division step. If they got the right numbers by coincidence (e.g., thinking ratio numbers are the shares directly), the working is flawed. A correct justification must show the sum of parts step. If the student only wrote the final numbers without the sum step, it reveals a lack of procedural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where a total quantity is shared in a ratio of 3:4:5, and one of the shares is 600 mL. Ask a question that requires finding the total quantity.",
+     "a": "Example problem: \"Three jars contain juice in the ratio 3:4:5. The middle jar has 600 mL. What is the total amount of juice?\" A good answer sets up the ratio, identifies that the middle share corresponds to 4 parts, finds 1 part = 150 mL, then total = 12 parts = 1800 mL. A poor answer might assume 600 mL is the total or use the wrong ratio term, revealing confusion about which share corresponds to which ratio number.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

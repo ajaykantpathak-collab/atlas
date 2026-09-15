@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_001",
+   "title": "c12_ip_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define \"digital footprint\" in one sentence using the exact terminology from the NCERT Class 12 Informatics Practices textbook.",
+     "a": "A digital footprint is the trail of data created by a user's online activities, including both active contributions (posts, uploads) and passive traces (cookies, IP logs, metadata), which persists on servers and can be aggregated to build a profile. A wrong answer that only mentions \"social media posts\" reveals the misconception that digital footprints are solely user-generated content, ignoring automated tracking like cookies, device fingerprinting, and ISP logs — a gap that leads to underestimating privacy risks in board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"I don't post anything on social media, so I have no digital footprint.\" Explain why this statement is incorrect, giving two specific examples of passive data traces the student still leaves.",
+     "a": "The statement is incorrect because passive digital footprints are created without deliberate user action. Examples: (1) The student's ISP logs every website visited, timestamp, and duration — even in \"incognito\" mode. (2) Websites place first-party and third-party cookies that track scrolling behaviour, time spent, and mouse movements. A wrong answer that claims \"incognito mode prevents all tracking\" reveals confusion between browser history (local) and server-side logging (remote) — a distinction tested in CBSE competency questions on privacy.",
+     "self_check": true
+    },
+    {
+     "q": "Priya orders groceries via a mobile app, pays with UPI, and enables \"location access\" for delivery tracking. List the active and passive digital footprints created in this single transaction, and identify which footprint persists longest on third-party servers.",
+     "a": "Active: Order details (items, quantity), UPI transaction ID, delivery address entered, app rating submitted. Passive: Device ID, OS version, IP address, GPS coordinates (continuous during delivery), app usage duration, payment gateway logs, cell tower triangulation. The UPI transaction ID and payment gateway logs persist longest — regulated by RBI to be retained for 10 years — whereas GPS coordinates may be deleted per app policy. A wrong answer that says \"location data persists longest\" ignores financial data retention laws, showing inability to connect digital footprints to regulatory frameworks — a JEE/NEET-style interdisciplinary trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the digital footprint of a Class 12 student who uses a school-issued Chromebook (managed by IT admin) versus their personal smartphone. Analyse three differences in data visibility, retention, and control.",
+     "a": "(1) Visibility: School Chromebook — all traffic (DNS, HTTPS domains, keystrokes if keylogger installed) is visible to admin via MDM; smartphone — only app-level data visible to developers, ISP sees encrypted domains. (2) Retention: School device logs retained per institutional policy (often 1–7 years); smartphone data retained per app/OS vendor policies (Google/Apple: 18–24 months default). (3) Control: Student cannot install privacy tools on managed Chromebook; on smartphone, they can use DNS-over-HTTPS, tracker blockers, or GrapheneOS. A wrong answer that claims \"both are equally private\" fails to analyse institutional vs. personal device governance — a key concept for CUET case-based questions on digital citizenship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Deleting your social media account erases your digital footprint.\" Provide a reasoned judgment with two technical reasons why remnants persist.",
+     "a": "The claim is false. Reason 1: Data brokers (e.g., Acxiom, Oracle Data Cloud) have already scraped and aggregated public posts, likes, and profile info into shadow profiles linked to email/phone hashes — deletion doesn't propagate to third-party databases. Reason 2: Platforms retain \"backup logs\" and \"anonymised analytics\" for 90–180 days per GDPR/IT Rules; metadata (friend graph, login timestamps) is often excluded from user-initiated deletion. A wrong answer that says \"GDPR gives right to be forgotten, so it's erased\" shows ignorance of jurisdictional limits (India's DPDP Act 2023 has narrower erasure rights) and technical replication — a frequent board exam assertion-reason trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Digital Footprint Audit Checklist\" for a Class 12 student preparing for college admissions. Include 5 actionable items that reveal hidden passive footprints, not just social media cleanup.",
+     "a": "A strong checklist includes: (1) Search your name + \"site:linkedin.com\" / \"site:github.com\" / \"site:medium.com\" to find forgotten profiles. (2) Check haveibeenpwned.com for email breaches — reveals accounts you forgot. (3) Review Google \"My Activity\" (myactivity.google.com) for search/YouTube/location history. (4) Audit app permissions: Settings → Privacy → Location / Microphone / Contacts — revoke unused. (5) Request data download from Instagram/WhatsApp/Google (Takeout) to see metadata (EXIF, timestamps, device IDs). A poor answer listing only \"delete old posts, make profile private\" reveals the misconception that digital footprint = visible content only, missing the passive, systemic data layer — exactly what competitive exams test via \"hidden assumption\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_004",
+   "title": "c11_bio_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the primary CO₂ acceptor in the Calvin cycle, how many carbons does it contain, and which enzyme catalyses its carboxylation?",
+     "a": "The primary CO₂ acceptor is ribulose-1,5-bisphosphate (RuBP), a 5-carbon ketose sugar. The enzyme is RuBisCO (ribulose-1,5-bisphosphate carboxylase-oxygenase). A wrong answer (e.g., \"PGA\" or \"a 2-carbon compound\") reveals the student hasn't grasped that carboxylation *adds* a carbon to a 5-carbon acceptor to make two 3-carbon products — a counterintuitive stoichiometry that confused scientists for years.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the term \"dark reaction\" a misnomer for the Calvin cycle, and what experimental evidence supports this?",
+     "a": "The Calvin cycle is not light-independent; it requires ATP and NADPH produced *only* during light reactions. Evidence: if illuminated chloroplasts are transferred to darkness, carbon fixation continues briefly using existing ATP/NADPH pools, then stops. Re-illumination restarts it. A student calling it \"dark reaction\" thinks it occurs at night — but in nature, it runs *simultaneously* with light reactions during daytime. The misconception ignores the obligate coupling between thylakoid and stroma processes.",
+     "self_check": true
+    },
+    {
+     "q": "A C3 plant fixes 6 molecules of CO₂. Calculate the total ATP and NADPH consumed, and explain why the ATP:NADPH ratio (1.5:1) exceeds the 1.28:1 ratio produced by non-cyclic photophosphorylation alone.",
+     "a": "For 6 CO₂: 18 ATP and 12 NADPH consumed (3 ATP + 2 NADPH per CO₂). Non-cyclic photophosphorylation yields ~1.28 ATP per NADPH (assuming 3 H⁺/ATP and 12 H⁺/2 NADPH). The deficit (1.5 vs 1.28) is met by cyclic photophosphorylation around PSI, which produces ATP without NADPH. A student who only calculates 18/12 but cannot explain the *source* of extra ATP misses the functional integration of cyclic and non-cyclic electron flow — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cellular localisation of the Calvin cycle in C3 versus C4 plants. Why does this spatial separation eliminate photorespiration in C4 plants?",
+     "a": "In C3 plants, the Calvin cycle occurs in all mesophyll chloroplasts where RuBisCO contacts both CO₂ and O₂. In C4 plants, it occurs *only* in bundle sheath chloroplasts. The C4 cycle pumps CO₂ (as malate/aspartate) into bundle sheath cells, creating high [CO₂] that saturates RuBisCO's carboxylase site, outcompeting O₂. A student who says \"C4 plants lack RuBisCO\" or \"Calvin cycle is absent in C4 mesophyll\" confuses *initial fixation* (PEP carboxylase in mesophyll) with the *Calvin cycle* (RuBisCO in bundle sheath) — the universal carbon reduction pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"RuBisCO is an inefficient enzyme because it fixes O₂ instead of CO₂, wasting energy.\" Is this a fair assessment? Justify using kinetic and evolutionary perspectives.",
+     "a": "Unfair. RuBisCO's *kcat* for carboxylation is low (~3 s⁻¹) but its *specificity factor* (CO₂/O₂ discrimination) is ~80-100 — remarkable given CO₂ and O₂ are similar small gases. At current atmospheric [CO₂]:[O₂] (~0.04%), oxygenase activity is ~25% of carboxylase rate. Evolutionarily, RuBisCO originated when O₂ was negligible; it cannot be \"redesigned\" easily because its active site binds both substrates competitively. The \"inefficiency\" is a historical constraint, not poor design. A student calling it \"inefficient\" without context misses the biochemical and evolutionary nuance examiners expect.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using ¹⁴CO₂ pulse-chase labelling to determine whether a newly discovered plant uses the C3 or C4 pathway. Specify the time points, compounds to analyse, and expected labelling patterns for each pathway.",
+     "a": "Pulse: expose illuminated leaf to ¹⁴CO₂ for 5 sec. Chase: transfer to unlabelled air. Sample at 5 sec, 30 sec, 2 min. Analyse via chromatography/autoradiography. C3: ¹⁴C appears first in 3-PGA (C3 acid) at 5 sec, then sugar phosphates. C4: ¹⁴C appears first in oxaloacetate/malate (C4 acids) at 5 sec, *then* in 3-PGA/sugars at 30 sec+ after transport to bundle sheath. A poor answer tests only final products (starch) or uses single time point — missing the kinetic signature of the *first stable labelled product*, which defines the pathway.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_001",
+   "title": "c11_geo_cbse_14_001",
+   "questions": [
+    {
+     "q": "Define natural vegetation and state the three primary environmental controls that determine its type in India.",
+     "a": "Natural vegetation is plant cover that grows without human aid and remains undisturbed long enough to reach climatic climax. The three controls are: (1) precipitation (amount and seasonality), (2) temperature (mean annual and range), and (3) relief/soil (altitude, aspect, drainage). A wrong answer that omits \"undisturbed by humans\" or lists only rainfall reveals confusion between natural vegetation and planted forests/crops, or a failure to integrate temperature and relief as independent controls.",
+     "self_check": true
+    },
+    {
+     "q": "Why do Tropical Evergreen forests occur on the windward side of the Western Ghats but not on the leeward side, even though both receive rainfall from the same monsoon system?",
+     "a": "The windward side receives orographic rainfall >200 cm annually with no distinct dry season, meeting the evergreen threshold of >200 cm and short dry period. The leeward side lies in a rain shadow, receiving <100 cm with a pronounced dry season, favoring deciduous or thorn types. A student who answers \"both get rain so both should be evergreen\" misunderstands the critical role of rainfall seasonality and the rain-shadow effect, confusing total annual rain with effective moisture availability.",
+     "self_check": true
+    },
+    {
+     "q": "Given a station at 12°N latitude, 800 m altitude, with annual rainfall 150 cm and a dry season of 4 months, identify the natural vegetation type and justify using climatic thresholds.",
+     "a": "Step 1: Note rainfall 150 cm → falls in 100-200 cm range (deciduous zone). Step 2: Dry season 4 months → distinct dry period, not evergreen. Step 3: Altitude 800 m at 12°N → mean annual temperature ~22°C (using lapse rate 6.5°C/km from sea-level ~27°C), well within tropical range. Step 4: Combine → Tropical Moist Deciduous Forest. A wrong answer of \"Evergreen\" ignores the dry season length; \"Thorn\" misreads the rainfall threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climatic envelopes of Tropical Dry Deciduous and Tropical Thorn forests. Explain why the latter replaces the former along a rainfall gradient from east to west in the Deccan Plateau.",
+     "a": "Tropical Dry Deciduous: 75-100 cm rainfall, dry season 5-6 months. Tropical Thorn: <75 cm rainfall, dry season >6 months. Moving westward across the Deccan, rainfall declines from ~100 cm to <50 cm due to increasing distance from Bay of Bengal branch and rain shadow of Western Ghats. The longer, more intense drought selects for xerophytic adaptations (thorns, succulence, deep roots), causing a gradual floristic shift. A student who attributes the change solely to temperature or soil misses the primary driver: decreasing moisture availability and increasing aridity index.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Montane forests in the Himalayas are simply cooler versions of tropical forests found at lower altitudes.\" Provide two specific reasons why this is incorrect.",
+     "a": "The statement is incorrect. Reason 1: Montane forests show distinct altitudinal zonation (subtropical pine → temperate broadleaf → coniferous → alpine) driven by temperature lapse rate, not a uniform cooling. Reason 2: Species composition changes fundamentally (e.g., sal replaced by oak, then deodar, then fir) with new genera/families appearing, not just stunted tropical species. A student who agrees confuses temperature as the only variable, ignoring that photoperiod, frost, snow cover, and soil development also shift with altitude, creating discrete biome boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a climatic criteria table (columns: Forest Type, Annual Rainfall Range, Dry Season Length, Mean Annual Temperature Range) for the five major natural vegetation types of India. Use it to predict the vegetation type for a hypothetical location at 28°N, 2000 m altitude, 180 cm rainfall, 3-month dry season.",
+     "a": "A good table lists: Tropical Evergreen (>200 cm, <1 month dry, >22°C), Tropical Moist Deciduous (100-200 cm, 3-4 months, >22°C), Tropical Dry Deciduous (75-100 cm, 5-6 months, >22°C), Tropical Thorn (<75 cm, >6 months, >22°C), Montane (variable rain, temperature-driven zones). For the given location: altitude 2000 m at 28°N → MAT ~10°C (lapse rate), rainfall 180 cm, dry season 3 months → falls in Montane Wet Temperate zone (150-250 cm, 10-15°C). A poor answer forces it into Tropical Moist Deciduous ignoring the temperature drop with altitude, showing failure to apply altitudinal zonation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

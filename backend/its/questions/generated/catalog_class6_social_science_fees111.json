@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class6_social_science_fees111",
+ "concepts": [
+  {
+   "id": "fees.11.1",
+   "title": "Panchayati Raj: Self-Government in Villages",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Panchayati Raj: Self-Government in Villages' refers to.",
+     "a": "Panchayati Raj is a system of local self-government in rural India: villagers manage their own affairs through panchayats at village, block and district levels, bringing governance close to the people.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Panchayati Raj: Self-Government in Villages'.",
+     "a": "Self-government means villagers decide local matters themselves instead of running to the state or national capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Panchayati Raj: Self-Government in Villages', in plain ASCII form.",
+     "a": "panchayati raj = village + block + district levels",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.11.2",
+   "title": "The Gram Sabha: Assembly of All Adults",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Gram Sabha: Assembly of All Adults' refers to.",
+     "a": "The gram sabha is the general body of all registered adult villagers; it meets to discuss village needs, approve plans and budgets, and hold the elected panchayat answerable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Gram Sabha: Assembly of All Adults'.",
+     "a": "Direct democracy lives in the gram sabha: every adult has a seat and a voice before the elected members act.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Gram Sabha: Assembly of All Adults' taught, and from which source text?",
+     "a": "Gram sabha (source: fees111.txt, Gram sabha)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.11.3",
+   "title": "The Gram Panchayat and Its Members",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Gram Panchayat and Its Members' refers to.",
+     "a": "Villagers elect ward members and a sarpanch to form the gram panchayat, which carries out the gram sabha's decisions, maintains water, roads and records, and levies small local taxes for village work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Gram Panchayat and Its Members'.",
+     "a": "Elected representatives do the day-to-day work, but they answer to the gram sabha that chose them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Gram Panchayat and Its Members' taught, and from which source text?",
+     "a": "Gram panchayat (source: fees111.txt, Gram panchayat)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.11.4",
+   "title": "Lakshmanpur: A Village Case Study",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lakshmanpur: A Village Case Study' refers to.",
+     "a": "Lakshmanpur, a village of about 200 houses in the Himalayan foothills, shows local government at work: farmers' needs for water, roads and a school, disputes and resources, all settled through the panchayat system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lakshmanpur: A Village Case Study'.",
+     "a": "A concrete village turns civics into life: every need, from a broken road to a stolen crop, reaches the panchayat first.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Lakshmanpur: A Village Case Study' taught, and from which source text?",
+     "a": "Lakshmanpur example (source: fees111.txt, Lakshmanpur example)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

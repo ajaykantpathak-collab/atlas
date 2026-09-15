@@ -1,0 +1,516 @@
+{
+ "class": "11",
+ "subject": "political_theory",
+ "chapter": 7,
+ "chapter_title": "Nationalism",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps107.txt",
+ "concepts": [
+  {
+   "id": "c11pt.7.1",
+   "title": "Meaning of Nation and Nationalism",
+   "section": "Introducing Nationalism",
+   "definition": "A nation is a community of people who share a common identity based on shared language, culture, history, or territory, while nationalism is the ideology that holds that the nation should be the primary political unit and that the boundaries of the state should coincide with those of the nation.",
+   "formula": "",
+   "key_idea": "Nationalism links the cultural community (the nation) with the political community (the state), treating the nation as the basis of political identity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a nation and how is it different from a state?",
+    "Define nationalism in your own words.",
+    "What are the common features that bind people into a nation?",
+    "How does nationalism relate a nation to the state?",
+    "Explain the difference between a nation and nationalism."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a nation as a shared-identity community",
+     "explain": "A nation is formed when people share common features such as language, culture, history, religion, or territory and develop a sense of belonging together."
+    },
+    {
+     "step": 2,
+     "action": "Define nationalism as a political ideology",
+     "explain": "Nationalism is the belief that the nation should be the central unit of political life and that every nation is entitled to its own state."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish nation from nationalism",
+     "explain": "The nation is the community itself, whereas nationalism is the ideology or sentiment that demands political recognition for that community."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between a nation and nationalism?",
+     "solution": "Step 1: A nation is a community sharing common identity markers. Step 2: Nationalism is the ideology that the nation should form its own political state. Step 3: Thus the nation is the community while nationalism is the political idea about it.",
+     "answer": "A nation is the community; nationalism is the ideology demanding political recognition for that community"
+    },
+    {
+     "question": "Why is it difficult to define a nation in terms of a single feature?",
+     "solution": "Step 1: Nations are bound by many possible features such as language, history, culture, or territory. Step 2: No single feature is found in every nation, and some nations share a feature without being one nation. Step 3: Hence a nation is defined by a combination of shared features and a shared consciousness.",
+     "answer": "Because no single feature is common to all nations; a nation rests on a combination of shared features and collective consciousness"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define nation and nationalism and explain how they are related.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is it difficult to define a nation on the basis of any single feature?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.2",
+   "title": "Features that Constitute a Nation",
+   "section": "What is a Nation?",
+   "definition": "A nation is constituted by a combination of shared features such as common language, common history, common culture or traditions, common territory, and a shared political vision, together with a collective consciousness of belonging.",
+   "formula": "",
+   "key_idea": "No single feature defines a nation; it is the combination of shared characteristics and a shared sense of identity that makes a nation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main features that make a nation?",
+    "Is a common language essential for a nation? Give reasons.",
+    "Can a nation exist without a shared territory?",
+    "Which features are necessary and which are sufficient for a nation?",
+    "Explain why no single feature can define a nation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the candidate features of a nation",
+     "explain": "Common features include language, history, culture, territory, religion, race, and shared political aspirations."
+    },
+    {
+     "step": 2,
+     "action": "count how many features a given community shares",
+     "explain": "A community becomes a nation when a sufficient combination of these features is present along with a shared consciousness."
+    },
+    {
+     "step": 3,
+     "action": "decide nationhood from the score and consciousness",
+     "explain": "If the score is high and the people share a collective sense of belonging, the community qualifies as a nation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A community shares a common language, history, and territory and considers itself one people. Does it qualify as a nation?",
+     "solution": "Step 1: The shared features are language, history, and territory, giving a score of 3. Step 2: The community also has a collective consciousness of belonging. Step 3: With a high feature score and shared consciousness, it qualifies as a nation.",
+     "answer": "Yes, it qualifies as a nation"
+    },
+    {
+     "question": "Two groups share a religion but have different languages, histories, and no shared political vision. Do they form one nation?",
+     "solution": "Step 1: Only religion is shared, giving a score of 1. Step 2: There is no shared political vision or collective consciousness. Step 3: Hence they do not form a single nation.",
+     "answer": "No, they do not form one nation"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any four features that constitute a nation and explain why none alone is sufficient.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Is a common language essential for nationhood? Justify your answer.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.3",
+   "title": "Types of Nationalism",
+   "section": "Varieties of Nationalism",
+   "definition": "Nationalism takes different forms including civic nationalism based on shared citizenship and political values, ethnic or cultural nationalism based on shared culture or ethnicity, anti-colonial nationalism directed against foreign rule, and expansionist nationalism that seeks dominance over others.",
+   "formula": "",
+   "key_idea": "Nationalism is not a single doctrine; its character depends on whether it is based on citizenship, culture, opposition to colonialism, or expansion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different types of nationalism?",
+    "Distinguish between civic nationalism and ethnic nationalism.",
+    "What is anti-colonial nationalism and how did it arise?",
+    "How does expansionist nationalism differ from other forms?",
+    "Explain with examples why nationalism takes different forms."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis on which nationalism rests",
+     "explain": "Civic nationalism rests on citizenship and shared political principles, while ethnic nationalism rests on shared culture, language, or ancestry."
+    },
+    {
+     "step": 2,
+     "action": "Classify by the political context",
+     "explain": "Anti-colonial nationalism arises against foreign domination and is liberating, whereas expansionist nationalism seeks to assert dominance over other peoples."
+    },
+    {
+     "step": 3,
+     "action": "Illustrate with examples",
+     "explain": "French nationalism is often cited as civic, German nationalism as ethnic, Indian nationalism as anti-colonial, and Nazi nationalism as expansionist."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is civic nationalism different from ethnic nationalism?",
+     "solution": "Step 1: Civic nationalism bases membership on citizenship and shared political values. Step 2: Ethnic nationalism bases membership on shared culture, language, or ancestry. Step 3: Thus civic nationalism is inclusive while ethnic nationalism can be exclusive.",
+     "answer": "Civic nationalism is based on citizenship and political values; ethnic nationalism is based on shared culture or ancestry"
+    },
+    {
+     "question": "Why is Indian nationalism described as anti-colonial nationalism?",
+     "solution": "Step 1: Indian nationalism developed in opposition to British colonial rule. Step 2: It united diverse communities against a common foreign oppressor. Step 3: Hence it is described as anti-colonial nationalism.",
+     "answer": "Because it united diverse Indian communities against British colonial domination"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the main types of nationalism with one example each.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is expansionist nationalism considered dangerous?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.4",
+   "title": "Nation and State",
+   "section": "Nation and State",
+   "definition": "A nation is a community of people sharing a common identity, whereas a state is a political entity with a defined territory, population, government, and sovereignty; a nation-state exists when the boundaries of the nation and the state coincide.",
+   "formula": "",
+   "key_idea": "The nation is a cultural and psychological community, while the state is a legal and political entity; the nation-state is the ideal where the two overlap.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between a nation and a state?",
+    "What is a nation-state?",
+    "Can a state exist without being a nation?",
+    "Can a nation exist without having its own state?",
+    "Explain the relationship between nation and state."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the state as a political entity",
+     "explain": "A state has four elements: a defined territory, a population, a government, and sovereignty, regardless of whether the people share a national identity."
+    },
+    {
+     "step": 2,
+     "action": "Define the nation as a community of identity",
+     "explain": "A nation is a people sharing common cultural or historical features and a sense of belonging, even if they lack their own state."
+    },
+    {
+     "step": 3,
+     "action": "Explain the nation-state",
+     "explain": "A nation-state arises when a single nation forms a single state, so political and cultural boundaries coincide; many modern states are multi-national rather than pure nation-states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can a nation exist without a state of its own? Give an example.",
+     "solution": "Step 1: A nation is a community of shared identity and need not have its own state. Step 2: The Kurds share a common language and culture but are spread across several states without their own. Step 3: Hence a nation can exist without a state.",
+     "answer": "Yes, for example the Kurds are a nation without their own state"
+    },
+    {
+     "question": "Why is India called a state rather than a single nation?",
+     "solution": "Step 1: India has a defined territory, population, government, and sovereignty, so it is a state. Step 2: India contains many distinct linguistic and cultural communities, each of which could be called a nation. Step 3: Therefore India is better described as a multi-national state.",
+     "answer": "Because India is a state containing many distinct nations or cultural communities"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between nation, state, and nation-state with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Is every state a nation? Give one reason.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.5",
+   "title": "Right to Self-Determination",
+   "section": "National Self-Determination",
+   "definition": "The right to self-determination is the principle that every nation has the right to decide its own political status, including the right to form its own independent state or to choose to be part of another state.",
+   "formula": "",
+   "key_idea": "Self-determination links nationalism to freedom by asserting that a nation should be free to choose its political destiny.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the right to self-determination?",
+    "How does self-determination relate to nationalism?",
+    "What are the limits of the right to self-determination?",
+    "Why is self-determination difficult to apply in practice?",
+    "Explain the connection between self-determination and the formation of new states."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the principle of self-determination",
+     "explain": "Every nation has the right to freely determine its political status and pursue its economic, social, and cultural development."
+    },
+    {
+     "step": 2,
+     "action": "Explain its link to nationalism",
+     "explain": "Self-determination is the political expression of nationalism, allowing a nation to seek its own state or to choose integration with another."
+    },
+    {
+     "step": 3,
+     "action": "Note the practical limits",
+     "explain": "Applying self-determination is difficult because nations are intermixed, secession may harm other communities, and unlimited self-determination could fragment existing states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the right to self-determination support the creation of new states?",
+     "solution": "Step 1: Self-determination allows a nation to choose its political status. Step 2: If a nation chooses independence, it may form its own state. Step 3: Thus self-determination has justified the creation of many new states after decolonisation.",
+     "answer": "By allowing a nation to choose independence and form its own state"
+    },
+    {
+     "question": "Why is the right to self-determination not applied without limits?",
+     "solution": "Step 1: Nations often live intermixed within the same territory. Step 2: Unlimited secession could displace other communities and fragment states. Step 3: Therefore self-determination is balanced against stability and the rights of others.",
+     "answer": "Because unlimited secession could harm other communities and destabilise states"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the right to self-determination and discuss its limitations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is self-determination difficult to apply in multi-national states?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.6",
+   "title": "Nationalism and Democracy",
+   "section": "Nationalism and Democracy",
+   "definition": "Nationalism and democracy are linked because nationalism demands that the people of a nation govern themselves, which is the core idea of democracy; yet nationalism can also threaten democracy when it becomes exclusive or majoritarian.",
+   "formula": "",
+   "key_idea": "Nationalism supports democracy by asserting self-rule, but it can undermine democracy when it suppresses minorities in the name of the nation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are nationalism and democracy related?",
+    "In what ways can nationalism support democracy?",
+    "How can nationalism become a threat to democracy?",
+    "Why is majoritarian nationalism dangerous for minorities?",
+    "Explain the tension between nationalism and democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Show how nationalism supports democracy",
+     "explain": "Nationalism asserts that the people of a nation should rule themselves, which is the principle of popular sovereignty underlying democracy."
+    },
+    {
+     "step": 2,
+     "action": "Show how nationalism can threaten democracy",
+     "explain": "When the nation is defined in exclusive cultural terms, the majority may impose its will on minorities, undermining equal rights."
+    },
+    {
+     "step": 3,
+     "action": "Balance the two",
+     "explain": "A healthy democracy requires nationalism that is inclusive and civic, respecting the rights of all communities within the nation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does nationalism support the idea of democracy?",
+     "solution": "Step 1: Nationalism holds that the nation should govern itself. Step 2: This means power belongs to the people of the nation, which is popular sovereignty. Step 3: Hence nationalism provides the basis for democratic self-rule.",
+     "answer": "By asserting that the people of the nation should rule themselves, which is popular sovereignty"
+    },
+    {
+     "question": "How can nationalism become a threat to democracy?",
+     "solution": "Step 1: When the nation is defined in exclusive cultural terms, the majority community dominates. Step 2: Minorities may be denied equal rights in the name of the nation. Step 3: Thus exclusive nationalism can undermine democracy.",
+     "answer": "When it becomes exclusive and majoritarian, suppressing the rights of minorities"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the relationship between nationalism and democracy, showing both the supportive and the threatening aspects.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is majoritarian nationalism considered a threat to democracy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.7",
+   "title": "Nationalism in India",
+   "section": "Nationalism in India",
+   "definition": "Indian nationalism developed as an anti-colonial nationalism that united diverse linguistic, religious, and regional communities against British rule, building a shared identity around the idea of a common Indian nation.",
+   "formula": "",
+   "key_idea": "Indian nationalism was forged in the struggle against colonialism and is based on shared citizenship rather than a single language, religion, or ethnicity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did nationalism develop in India?",
+    "Why is Indian nationalism called anti-colonial nationalism?",
+    "What factors united the diverse people of India into one nation?",
+    "How did the freedom struggle strengthen Indian nationalism?",
+    "Explain the basis of Indian national identity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the colonial context",
+     "explain": "Indian nationalism arose in opposition to British colonial rule, which created a common experience of oppression across diverse communities."
+    },
+    {
+     "step": 2,
+     "action": "Identify the unifying factors",
+     "explain": "Shared grievances against colonialism, the freedom struggle, the Indian National Congress, and a shared constitutional vision united Indians."
+    },
+    {
+     "step": 3,
+     "action": "Explain the inclusive basis",
+     "explain": "Indian nationalism is civic and inclusive, resting on shared citizenship and a common constitution rather than a single language or religion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Indian nationalism described as anti-colonial?",
+     "solution": "Step 1: Indian nationalism grew out of opposition to British colonial rule. Step 2: It united diverse communities against a common foreign oppressor. Step 3: Hence it is described as anti-colonial nationalism.",
+     "answer": "Because it united diverse Indian communities against British colonial domination"
+    },
+    {
+     "question": "How did the freedom struggle strengthen Indian nationalism?",
+     "solution": "Step 1: The freedom struggle created common symbols, leaders, and goals. Step 2: Movements like Non-Cooperation and Civil Disobedience drew people from all regions together. Step 3: This shared struggle forged a common Indian national identity.",
+     "answer": "By creating common symbols, leaders, and mass movements that united Indians across regions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how Indian nationalism developed as an anti-colonial nationalism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What made Indian nationalism inclusive rather than ethnic?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.8",
+   "title": "Challenges to Nationalism",
+   "section": "Challenges to Nationalism",
+   "definition": "Nationalism faces challenges from separatist movements, regional and linguistic identities, religious communalism, globalisation, and the rise of narrow ethno-nationalism that threatens the unity of multi-national states.",
+   "formula": "",
+   "key_idea": "Nationalism in modern states is challenged by competing sub-national identities, communal divisions, and globalising forces that weaken the hold of the nation-state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major challenges to nationalism today?",
+    "How do separatist movements challenge nationalism?",
+    "How does communalism threaten national unity?",
+    "What is the impact of globalisation on nationalism?",
+    "How can a multi-national state deal with sub-national identities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the internal challenges",
+     "explain": "Separatist movements, regional and linguistic identities, and religious communalism can weaken the unity of the nation."
+    },
+    {
+     "step": 2,
+     "action": "Identify the external challenges",
+     "explain": "Globalisation, transnational institutions, and the flow of people and ideas reduce the exclusive hold of the nation-state."
+    },
+    {
+     "step": 3,
+     "action": "Suggest responses",
+     "explain": "Inclusive citizenship, federal accommodation of regional identities, and secular politics help manage these challenges within a multi-national state."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do separatist movements challenge nationalism?",
+     "solution": "Step 1: Separatist movements demand a separate state for a particular community. Step 2: They reject the shared national identity in favour of a narrower one. Step 3: This challenges the unity of the existing nation-state.",
+     "answer": "By demanding separate statehood and rejecting the shared national identity"
+    },
+    {
+     "question": "How does globalisation challenge the nation-state?",
+     "solution": "Step 1: Globalisation links economies and cultures across borders. Step 2: It reduces the exclusive control of the nation-state over its economy and society. Step 3: Thus it weakens the traditional hold of nationalism.",
+     "answer": "By reducing the exclusive control of the nation-state over economy and society"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the major challenges to nationalism in the contemporary world.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How can a multi-national state accommodate sub-national identities?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.7.9",
+   "title": "Critique of Nationalism",
+   "section": "Critique of Nationalism",
+   "definition": "Critics argue that nationalism can become an exclusive and aggressive ideology that suppresses minorities, glorifies the state, fuels wars, and subordinates the rights of individuals and other communities to the demands of the nation.",
+   "formula": "",
+   "key_idea": "While nationalism can unite people for freedom, it can also become oppressive when it treats one identity as superior and demands unquestioning loyalty.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main criticisms of nationalism?",
+    "How can nationalism become oppressive?",
+    "Why is nationalism sometimes associated with war and violence?",
+    "How does nationalism affect minorities?",
+    "Is nationalism a liberating or a dangerous ideology? Discuss."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the positive side of nationalism",
+     "explain": "Nationalism has inspired anti-colonial struggles and united people for self-rule and democracy."
+    },
+    {
+     "step": 2,
+     "action": "State the criticisms",
+     "explain": "Nationalism can become exclusive, suppress minorities, glorify the state, and justify aggression against other nations."
+    },
+    {
+     "step": 3,
+     "action": "Reach a balanced judgement",
+     "explain": "Nationalism is neither wholly good nor wholly bad; its effect depends on whether it is inclusive and democratic or exclusive and aggressive."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can nationalism become oppressive for minorities?",
+     "solution": "Step 1: When the nation is defined by the majority culture, minorities are seen as outsiders. Step 2: Their language and rights may be suppressed in the name of national unity. Step 3: Thus nationalism can become oppressive for minorities.",
+     "answer": "By defining the nation in terms of the majority culture and suppressing minority identities"
+    },
+    {
+     "question": "Why is nationalism sometimes linked to war and violence?",
+     "solution": "Step 1: Aggressive nationalism glorifies the nation above all else. Step 2: It can justify domination or aggression against other nations. Step 3: Hence it has been linked to wars such as those driven by fascist nationalism.",
+     "answer": "Because aggressive nationalism glorifies the nation and justifies domination over others"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Critically examine nationalism, mentioning both its strengths and its dangers.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is nationalism considered a double-edged ideology?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_035",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_035",
+   "title": "c6_physics_ch11_035",
+   "questions": [
+    {
+     "q": "Which of these is a natural source of light: a lit candle, the Sun, a torch, or a street lamp?",
+     "a": "The Sun is the natural source. A wrong answer (like choosing a candle) shows the student confuses \"things that give light\" with \"things that exist naturally,\" failing to distinguish between human-made and naturally occurring phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "If you are in a dark room and switch on a study lamp, is the lamp a natural or artificial source of light? Why?",
+     "a": "It is an artificial source because it is a human-made object designed to produce light when powered. A wrong answer suggests a failure to recognize that \"artificial\" implies a human-made device rather than a biological or celestial process.",
+     "self_check": true
+    },
+    {
+     "q": "No, it is a natural source. Even though it is not a star or the sun, it is a living organism that produces its own light without human help. A wrong answer reveals a misconception that only \"huge\" objects like stars can be natural sources.",
+     "a": "**Correct Answer:**\nNo, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence. Artificial sources of light are man-made, whereas fireflies occur naturally in the environment.\n\n**Analysis of a Wrong Answer:**\nA wrong answer (e.g., \"Yes, because it glows\") reveals a misconception that **any object that emits light is automatically classified as artificial.** The student likely confuses the *action* of glowing with the *origin* of the light, failing to distinguish between human-made technology (like lightbulbs or candles) and natural biological phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we call the Sun our most important natural source of light while stars are also natural?",
+     "a": "The Sun is the closest star to Earth and provides the vast majority of the light and heat necessary for life, whereas other stars are too distant to illuminate our surroundings effectively. A wrong answer indicates a lack of understanding regarding the scale and proximity of light sources.",
+     "self_check": true
+    },
+    {
+     "q": "Could a mirror be considered a source of light? Justify your answer.",
+     "a": "No, a mirror is not a source of light because it only reflects light from other sources; it does not produce its own. A wrong answer shows the student confuses reflection (bouncing light) with emission (producing light).",
+     "self_check": true
+    },
+    {
+     "q": "List three artificial sources of light found in your home and suggest one way they have improved our daily lives compared to ancient times.",
+     "a": "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather, unlike natural fire which is difficult to control. A poor answer fails to connect the utility of the object to human innovation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch13_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch13_11",
+   "title": "c8_math_ch13_11",
+   "questions": [
+    {
+     "q": "A student writes the equation for \"Riya is 3 years older than twice Aman's age. The sum of their ages is 27\" as 2x + 3 = 27. What is the error in this equation?",
+     "a": "The equation 2x + 3 = 27 only represents Riya's age (2x + 3) equalling 27, but the problem states the SUM of their ages is 27. The correct equation is x + (2x + 3) = 27. A wrong answer reveals the student treats \"sum of ages\" as applying to only one person's age expression, missing that both ages must be added.",
+     "self_check": true
+    },
+    {
+     "q": "In a rectangle, the length is 5 cm more than the breadth. The perimeter is 50 cm. A student writes: 2(x + 5) + 2x = 50. Explain why this equation correctly models the problem, identifying what x represents.",
+     "a": "x represents the breadth in cm. Length = x + 5. Perimeter = 2(length + breadth) = 2(x + 5 + x) = 2(2x + 5) = 4x + 10. The student's equation 2(x + 5) + 2x = 50 expands to 2x + 10 + 2x = 4x + 10 = 50, which is correct. A wrong explanation reveals the student doesn't connect the perimeter formula to the algebraic expressions for length and breadth.",
+     "self_check": true
+    },
+    {
+     "q": "Solve: \"The sum of three consecutive even numbers is 90. Find the numbers.\" Show all steps.",
+     "a": "Let the smallest even number be x. Next: x + 2, Next: x + 4. Equation: x + (x + 2) + (x + 4) = 90 → 3x + 6 = 90 → 3x = 84 → x = 28. Numbers: 28, 30, 32. Check: 28 + 30 + 32 = 90. A wrong answer (e.g., x = 30) reveals the student may have used x, x+1, x+2 (consecutive integers) instead of consecutive even numbers, or made an arithmetic error in 90 - 6 = 84.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two problems: (A) \"A number increased by 15 equals 40\" and (B) \"A number increased by 15% equals 40.\" Why does (A) lead to a linear equation but (B) does not? What would the equation for (B) look like?",
+     "a": "(A) gives x + 15 = 40 (linear, variable to power 1). (B) gives x + 0.15x = 40 or 1.15x = 40, which is still linear! Both are actually linear. A student saying (B) is not linear reveals the misconception that percentages create non-linear equations. The correct insight: percentage increase of a variable is still a linear term (1.15x), not x² or higher powers.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Mohan has ₹500 in ₹10 and ₹20 notes. Total notes = 35. Find number of ₹10 notes.\" Their working: Let x = ₹10 notes. ₹20 notes = 35 - x. Equation: 10x + 20(35 - x) = 500 → 10x + 700 - 20x = 500 → -10x = -200 → x = 20. They answer \"20 notes of ₹10\". Is this correct? Justify.",
+     "a": "Yes, correct. Check: 20 × ₹10 = ₹200; 15 × ₹20 = ₹300; Total = ₹500; Total notes = 35. The negative coefficient (-10x) was handled correctly by dividing -200 by -10 = 20. A wrong judgment (saying it's incorrect because of negative sign) reveals the student doesn't understand that negative coefficients are valid and dividing negatives gives positives.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that leads to the equation 5x - 3(x + 4) = 20. Define what x represents and write the full word problem.",
+     "a": "Example: \"A shopkeeper sells pens for ₹5 each and pencils for ₹3 each. He sells 4 more pencils than pens. His total earnings are ₹20. How many pens did he sell?\" Here x = number of pens, x+4 = pencils. Equation: 5x + 3(x+4) = 20 → 5x + 3x + 12 = 20 → 8x = 8 → x = 1. Wait, this gives 5x + 3(x+4) not 5x - 3(x+4). For minus: \"A taxi charges ₹5 per km for the first part and gives a discount of ₹3 per km for the next part which is 4 km longer. Total fare is ₹20.\" Better: \"Arjun buys x notebooks at ₹5 each. He returns (x+4) defective pencils and gets ₹3 refund per pencil. His net payment is ₹20.\" A poor answer uses unrealistic contexts or misaligns the minus sign with the situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

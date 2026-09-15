@@ -1,0 +1,397 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 105,
+ "chapter_title": "Exploring Mixtures and their Separation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc105.txt",
+ "concepts": [
+  {
+   "id": "iesc.5.1",
+   "title": "Classification of Mixtures",
+   "section": "5.1",
+   "definition": "Mixtures are categorized using the uniformity of their composition into homogeneous and heterogeneous types.",
+   "formula": "Mixture = Component_A + Component_B + ...",
+   "key_idea": "Homogeneous mixtures have uniform distribution, while heterogeneous mixtures have visible boundaries.",
+   "textbook_ref": "iesc105.txt lines 73-84",
+   "question_patterns": [
+    "classify the following as homogeneous or heterogeneous",
+    "is a mixture of oil and water homogeneous",
+    "give examples of uniform and non-uniform mixtures",
+    "how can we distinguish between a solution and a suspension"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine uniformity",
+     "explain": "Check if the components are spread evenly and if there are visible boundaries between them."
+    },
+    {
+     "step": 2,
+     "action": "check particle visibility",
+     "explain": "If particles are visible to the naked eye or settle over time, it is heterogeneous."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.2.A",
+   "title": "Mass by Mass Percentage",
+   "section": "5.2.2",
+   "definition": "A method to express concentration by calculating the mass of solute relative to the total mass of the solution.",
+   "formula": "percentage = (mass_solute / mass_solution) * 100",
+   "key_idea": "Concentration based on the weight of components.",
+   "textbook_ref": "iesc105.txt lines 99-109",
+   "question_patterns": [
+    "calculate the mass by mass percentage of the solution",
+    "find the concentration of salt in water by mass",
+    "what is the percentage concentration if ...g is dissolved in ...g",
+    "determine the mass percentage of a solute"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total mass",
+     "explain": "Add the mass of the solute and the mass of the solvent to get the total solution mass.",
+     "compute": "mass_solution = mass_solute + mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "apply percentage formula",
+     "explain": "Divide the solute mass by the total solution mass and multiply by 100.",
+     "compute": "percentage = (mass_solute / mass_solution) * 100"
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.2.B",
+   "title": "Mass by Volume Percentage",
+   "section": "5.2.2",
+   "definition": "Concentration expressed as the mass of solute present in 100 units of volume of the solution.",
+   "formula": "percentage = (mass_solute / volume_solution) * 100",
+   "key_idea": "In brief, Commonly used for liquid both both both both both both both both both both both both both both both both both both both both both both both both medicines and laboratory reagents.",
+   "textbook_ref": "iesc105.txt lines 111-122",
+   "question_patterns": [
+    "find the mass by volume percentage",
+    "calculate the concentration in % m/v",
+    "how much solute is in 100mL of a ...% solution",
+    "calculate the concentration of glucose in saline"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide mass by volume",
+     "explain": "Take the mass of the solute and divide it by the total volume of the solution.",
+     "compute": "ratio = mass_solute / volume_solution"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "Multiply the ratio by 100 to get the percentage concentration.",
+     "compute": "percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.3",
+   "title": "Solubility and Saturated Solutions",
+   "section": "5.2.3",
+   "definition": "In brief, In brief, In brief, Solubility is indeed the maximum amount of solute that can dissolve in a specific amount of solvent at a fixed temperature.",
+   "formula": "mass_needed = (solubility_per_100g * solvent_mass) / 100",
+   "key_idea": "Saturated solutions cannot dissolve more solute at a given temperature.",
+   "textbook_ref": "iesc105.txt lines 135-159",
+   "question_patterns": [
+    "what mass of salt is needed to make a saturated solution",
+    "calculate the solubility of ... at ... degrees",
+    "how much solute will precipitate on cooling",
+    "find the amount of solute required for ...g of water"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale solubility to solvent mass",
+     "explain": "Multiply the standard solubility (per 100g) by the given solvent mass and divide by 100.",
+     "compute": "mass_needed = (solubility_per_100g * solvent_mass) / 100"
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.1",
+   "title": "Crystallization",
+   "section": "5.3.1",
+   "definition": "A purification technique where a pure solid is separated from a solution by forming crystals as the solvent cools or evaporates.",
+   "formula": "mass_precipitated = mass_initial - mass_final_solubility",
+   "key_idea": "Based on the decrease in solubility of solids with decreasing temperature.",
+   "textbook_ref": "iesc105.txt lines 160-209",
+   "question_patterns": [
+    "how are pure crystals of copper sulfate obtained",
+    "explain the process of crystallization",
+    "why is crystallization better than simple evaporation",
+    "how to separate a pure solid from an impure sample"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prepare saturated solution",
+     "explain": "Dissolve the substance in a minimum amount of hot solvent."
+    },
+    {
+     "step": 2,
+     "action": "filter and cool",
+     "explain": "Remove insoluble impurities while hot, then allow the filtrate to cool slowly to form crystals."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.2",
+   "title": "Distillation",
+   "section": "5.3.2",
+   "definition": "In brief, In brief, a process used to separate miscible liquids or a liquid from a solid by boiling the mixture and condensing the resulting vapors.",
+   "formula": "delta_boiling_point >= 25",
+   "key_idea": "Separates components using significant differences in boiling points.",
+   "textbook_ref": "iesc105.txt lines 210-259",
+   "question_patterns": [
+    "how to separate acetone and water",
+    "explain the principle of distillation",
+    "when is distillation used for separation",
+    "how can we recover both solute and solvent from a solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "heat the mixture",
+     "explain": "Heat the liquid mixture in a flask until the component with the lower boiling point vaporizes."
+    },
+    {
+     "step": 2,
+     "action": "condense the vapor",
+     "explain": "Pass the vapors through a condenser cooled by water to turn them back into liquid form."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.3",
+   "title": "Paper Chromatography",
+   "section": "5.3.3",
+   "definition": "In brief, in brief, in brief, In brief, a technique used to separate constituents of a mixture, like dyes in ink, using their different rates of movement through a medium.",
+   "formula": "separation_rate = distance_moved_by_solute / distance_moved_by_solvent",
+   "key_idea": "Separation depends on solubility and interaction with the stationary phase.",
+   "textbook_ref": "iesc105.txt lines 260-284",
+   "question_patterns": [
+    "how to separate pigments in black ink",
+    "what is the principle of chromatography",
+    "can we separate colors in a flower petal",
+    "explain the use of chromatography in forensic science"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the sample",
+     "explain": "Place a small drop of the mixture on a strip of filter paper."
+    },
+    {
+     "step": 2,
+     "action": "develop the chromatogram",
+     "explain": "Dip the end of the paper in a solvent so it rises, carrying components at different speeds."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.1",
+   "title": "Separating Funnel",
+   "section": "5.4.1",
+   "definition": "In brief, In brief, In brief, In brief, a device used to separate two immiscible liquids that form distinct layers using their densities.",
+   "formula": "density_layer_1 != density_layer_2",
+   "key_idea": "In brief, Heavier liquid settles at the both bottom and is drained first.",
+   "textbook_ref": "iesc105.txt lines 285-314",
+   "question_patterns": [
+    "how to separate oil and water",
+    "explain the use of a separating funnel",
+    "which layer will be at the bottom in an oil-water mixture",
+    "how to separate two immiscible liquids"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "allow layers to form",
+     "explain": "Pour the mixture into the funnel and let it stand until two clear layers appear."
+    },
+    {
+     "step": 2,
+     "action": "drain the bottom layer",
+     "explain": "Open the stopcock to collect the denser liquid from the bottom into a separate container."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.2",
+   "title": "Sublimation",
+   "section": "5.4.2",
+   "definition": "In brief, the direct transition of a material from solid to gas phase upon heating, used to separate sublimable solids from non-sublimable ones.",
+   "formula": "solid + heat -> gas",
+   "key_idea": "Separates substances like camphor or naphthalene from sand or salt.",
+   "textbook_ref": "iesc105.txt lines 315-334",
+   "question_patterns": [
+    "how to separate camphor and sand",
+    "define sublimation with examples",
+    "how to separate naphthalene from common salt",
+    "what happens when dry ice is heated"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "heat the solid mixture",
+     "explain": "Gently heat the mixture in a dish covered with an inverted funnel."
+    },
+    {
+     "step": 2,
+     "action": "collect the sublimate",
+     "explain": "The sublimable substance vaporizes and deposits as a solid on the cool inner walls of the funnel."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.3",
+   "title": "Centrifugation",
+   "section": "5.4.3",
+   "definition": "A method that uses rapid rotation to force denser particles to the bottom of a container, separating them from the liquid.",
+   "formula": "centrifugal_force = mass * radius * angular_velocity**2",
+   "key_idea": "In brief, In brief, In brief, In brief, Used for separating cream from milk or blood cells from plasma.",
+   "textbook_ref": "iesc105.txt lines 335-374",
+   "question_patterns": [
+    "how is cream separated from milk",
+    "explain the principle of centrifugation",
+    "how are blood components separated in a lab",
+    "what is a paperfuge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spin the mixture",
+     "explain": "Rotate the mixture at high speed in a centrifuge machine."
+    },
+    {
+     "step": 2,
+     "action": "separate by density",
+     "explain": "The heavier particles move to the bottom while the lighter liquid stays on top."
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.5",
+   "title": "Tyndall Effect",
+   "section": "5.5",
+   "definition": "The phenomenon where light is scattered by particles in a colloid or suspension, making the beam's path visible.",
+   "formula": "scattering_intensity proportional_to 1/wavelength**4",
+   "key_idea": "In brief, Distinguishes true solutions from both both both both both both both both both both both both both both both both both both both both both both both both colloids and suspensions.",
+   "textbook_ref": "iesc105.txt lines 395-414",
+   "question_patterns": [
+    "why is the path of light visible in milk but not in salt water",
+    "define the Tyndall effect",
+    "give examples of Tyndall effect in daily life",
+    "how to identify a colloid using a laser"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pass light beam",
+     "explain": "Direct a narrow beam of light through the liquid mixture."
+    },
+    {
+     "step": 2,
+     "action": "observe the path",
+     "explain": "If the path of light is visible from the side, the mixture is a colloid or suspension."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iesc105.txt lines 101-109",
+   "concept": "iesc.5.2.2.A",
+   "question_type": "compute",
+   "question_pattern": "If {mass_solute} g of salt is dissolved in {mass_solvent} g of water, calculate the mass by mass percentage of the solution formed.",
+   "extracted_variables": {
+    "mass_solute": "mass of salt",
+    "mass_solvent": "mass of water"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total mass",
+     "explain": "Sum of solute and solvent mass.",
+     "compute": "mass_solution = mass_solute + mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage",
+     "explain": "Solute mass divided by solution mass times 100.",
+     "compute": "percentage = (mass_solute / mass_solution) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "iesc105.txt lines 115-122",
+   "concept": "iesc.5.2.2.B",
+   "question_type": "compute",
+   "question_pattern": "If {mass_solute} g of glucose is dissolved in water to make {volume_solution} mL of solution, calculate its concentration in mass by volume percentage.",
+   "extracted_variables": {
+    "mass_solute": "mass of glucose",
+    "volume_solution": "total volume of solution"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate percentage",
+     "explain": "Mass of solute divided by volume of solution times 100.",
+     "compute": "percentage = (mass_solute / volume_solution) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.4.1",
+   "source_ref": "iesc105.txt lines 425-428",
+   "questions": [
+    "A cake recipe uses dry ingredients, namely 75 g of sugar for 420 g of all-purpose flour and 5 g of sodium hydrogencarbonate. Express the concentration of each component in the mixture using an appropriate method."
+   ]
+  },
+  {
+   "id": "ex5.4.2",
+   "source_ref": "iesc105.txt lines 429-430",
+   "questions": [
+    "A brass alloy contains 70% copper by mass. Calculate the quantities of copper and zinc present in 120 g of brass."
+   ]
+  },
+  {
+   "id": "ex5.13",
+   "source_ref": "iesc105.txt lines 455-465",
+   "questions": [
+    "What mass of potassium nitrate would be needed to prepare its saturated solution in 50 g of water at 40 °C?",
+    "A student makes a saturated solution of potassium chloride in water at 80 °C and leaves the solution to cool at room temperature (25 °C). What would she observe as the solution cools?"
+   ]
+  },
+  {
+   "id": "ex5.14",
+   "source_ref": "iesc105.txt lines 466-470",
+   "questions": [
+    "Calculate the mass percentage (% m/m) concentration of sugar in each student's solution: Student A (20g sugar in 80g water), Student B (20g sugar in 100g water), Student C (30g sugar in 80g water).",
+    "Whose solution is the most concentrated?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

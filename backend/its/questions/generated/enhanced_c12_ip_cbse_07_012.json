@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_012",
+   "title": "c12_ip_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the official Government of India portal for reporting cybercrimes, and what is the dedicated helpline number for financial cyber frauds that operates 24x7?",
+     "a": "The official portal is **cybercrime.gov.in** (National Cyber Crime Reporting Portal) and the 24x7 helpline for financial cyber frauds is **1930**. A wrong answer (e.g., \"cybercell.gov.in\" or \"100/112\") reveals the student confuses the specialized cybercrime reporting infrastructure with general police emergency numbers or state-level portals, which delays the critical \"golden hour\" response for financial fraud where CFCFRMS can intercept fund transfers.",
+     "self_check": true
+    },
+    {
+     "q": "A student receives an email appearing to be from their university's \"IT Support\" asking them to verify their password via a linked form. They enter their credentials. Later, they find their email has been used to send spam. Explain why simply changing the password afterward is insufficient from a legal reporting perspective, and name the specific IT Act section that covers this offence.",
+     "a": "Changing the password secures the account but does not create a legal record of the crime. The offence is **phishing combined with identity theft/cheating by personation**, covered under **Section 66C (identity theft)** and **Section 66D (cheating by personation using computer resource)** of the IT Act, 2000. A student who thinks \"changing password fixes it\" misunderstands that cybercrime reporting serves two purposes: (1) enabling investigation/prosecution, and (2) creating an official record for potential compensation claims under Section 43A/72A. Without a complaint on cybercrime.gov.in or at a cyber cell, there is no legal trail.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend's Instagram account is hacked. The hacker posts morphed obscene images of your friend and demands ₹20,000 to restore access. List the exact sequence of 5 actions your friend must take in the first 2 hours, including the specific portal/helpline and the IT Act sections to cite in the complaint.",
+     "a": "Correct sequence: (1) **Do not pay ransom** — it encourages crime and offers no guarantee. (2) **Preserve evidence**: screenshots of hacker's messages/demands, morphed images (do not delete), login activity logs from Instagram's \"Security → Login Activity\". (3) **Report immediately on cybercrime.gov.in** under \"Report Cyber Crime → Report Other Cyber Crime\" (or \"Report Women/Child Related Crime\" if applicable) citing **Section 66C (identity theft), Section 66D (cheating by personation), Section 67/67A (publishing obscene/sexually explicit material), Section 384 IPC (extortion)**. (4) **Call 1930** if any financial demand/payment involved. (5) **Use Instagram's \"Report Account → Hacked Account\" flow** simultaneously. A wrong sequence (e.g., contacting Instagram first, delaying portal report) loses the \"golden hour\" for financial tracing and weakens legal standing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of CERT-In (Indian Computer Emergency Response Team) and the National Cyber Crime Reporting Portal (cybercrime.gov.in). In which scenario would a college student directly approach CERT-In vs. the portal?",
+     "a": "**CERT-In** (under MeitY) is the *national nodal agency* for cybersecurity *incident response, coordination, and advisories* — it handles large-scale incidents (botnets, vulnerabilities in critical infrastructure, zero-day exploits) and issues alerts (e.g., \"CISA Advisory on Apache Log4j\"). **cybercrime.gov.in** is the *citizen-facing complaint registration platform* for individual victims of cybercrimes (fraud, harassment, hacking, etc.). A college student whose laptop is infected with ransomware *and* who has evidence of a campus-wide phishing campaign targeting university emails should report the *personal incident* on cybercrime.gov.in and *also* forward the phishing emails/indicators of compromise to **incident@cert-in.org.in** for broader analysis. Approaching CERT-In directly for a personal Instagram hack is incorrect — CERT-In does not register individual FIRs or handle victim compensation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Filing an FIR at the local police station is always the first and best step after any cyber incident in India.\" Provide two specific counter-examples where this approach would fail or delay justice.",
+     "a": "The statement is **false**. Counter-example 1: **Financial cyber fraud (UPI/banking)** — the *only* mechanism to potentially freeze/recover money in real-time is reporting via **1930 or cybercrime.gov.in** within the \"golden hour\" to activate CFCFRMS. Walking to a police station to file an FIR takes hours, during which funds are moved offshore. Counter-example 2: **Non-cognizable offences under IT Act** (e.g., Section 66E — violation of privacy, Section 72 — breach of confidentiality) — police may refuse FIR registration, directing the victim to file a *private complaint* before a Magistrate. The portal complaint generates an acknowledgment (PDF with complaint ID) that *is* a legal record and can be escalated to the Cyber Crime Cell/SP if police refuse action.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Cyber Incident Response Checklist\" poster for your school computer lab that a Class 10 student can follow independently. It must have 6 numbered steps, use simple language, include the portal URL and helpline, and specify what evidence to collect for three common school-relevant scenarios: (a) cyberbullying on WhatsApp, (b) fake profile impersonation on Instagram, (c) malware infection from a downloaded game.",
+     "a": "A good answer will produce a checklist like:\n1. **STOP** — Do not reply, do not pay, do not delete anything.\n2. **COLLECT EVIDENCE**: (a) Screenshots of chats/profile + bully's number; (b) Screenshots of fake profile URL, posts, DMs + \"Report\" receipts; (c) Photo of ransom note/pop-up, note file names/extensions, run antivirus scan log.\n3. **REPORT ONLINE** → Open **cybercrime.gov.in** → Click \"File a Complaint\" → Select category (Women/Child for bullying/impersonation; Other for malware) → Fill form → Submit → **Save PDF acknowledgment**.\n4. **CALL 1930** if money involved (e.g., game purchase scam).\n5. **INFORM TRUSTED ADULT** (teacher/parent) + School IT admin (for malware on lab PC).\n6. **SECURE ACCOUNTS** — Enable 2FA, change passwords from a clean device, revoke suspicious sessions.\nA poor answer omits the portal/helpline, mixes step order (e.g., \"inform adult\" before evidence collection), or uses vague evidence instructions (\"save messages\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_011",
+   "title": "c11_ps_cbse_11_011",
+   "questions": [
+    {
+     "q": "Which Supreme Court case first held that in case of conflict between Fundamental Rights and Directive Principles, the Fundamental Rights would prevail?",
+     "a": "State of Madras v. Champakam Dorairajan (1951). A wrong answer (e.g., Kesavananda Bharati or Golaknath) reveals the student cannot distinguish the chronological evolution of the doctrine and may conflate the basic structure case with the earlier conflict rule.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court in Minerva Mills (1980) strike down the extension of Article 31C to all Directive Principles by the 42nd Amendment?",
+     "a": "Because giving absolute primacy to all Directive Principles over Fundamental Rights (Articles 14, 19) would destroy the basic structure of the Constitution, which requires a balance between Part III and Part IV. A wrong answer (e.g., \"because Directive Principles are not justiciable\") shows the student misses the core reasoning: it is about preserving constitutional balance, not justiciability.",
+     "self_check": true
+    },
+    {
+     "q": "A state enacts a law nationalising all private hospitals to implement Article 47 (improving public health). The law provides no compensation. A doctor challenges it under Article 19(1)(g) (freedom of profession). Under current law, which provision prevails and why?",
+     "a": "Article 19(1)(g) prevails because Article 31C protects only laws implementing Articles 39(b) and (c) (material resources distribution, prevention of concentration of wealth). Article 47 is not covered. A wrong answer (e.g., \"Directive Principle prevails because it's for public health\") reveals the student does not know the limited scope of Article 31C after Minerva Mills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 25th Amendment (1971) and the 42nd Amendment (1976) regarding Article 31C. What changed and what was the judicial response?",
+     "a": "The 25th Amendment inserted Article 31C giving primacy to Articles 39(b)-(c) over Articles 14, 19, 31. The 42nd Amendment extended this primacy to all Directive Principles. The Supreme Court in Minerva Mills struck down the 42nd Amendment extension as unconstitutional, restoring the 25th Amendment position. A wrong answer indicates the student cannot track constitutional amendments and their judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Directive Principles are superior to Fundamental Rights because they represent the collective good, while Fundamental Rights are individualistic.\" Use constitutional provisions and case law.",
+     "a": "The statement is incorrect. The Constitution does not establish superiority; it mandates harmonious construction. Fundamental Rights are justiciable and protect individual dignity; Directive Principles guide state policy for collective welfare. The basic structure doctrine (Kesavananda, Minerva Mills) holds that both are essential and neither can be absolutely overridden. A wrong answer shows the student has not internalized the balance principle and may hold a populist misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a public interest litigation claiming that a state's failure to provide clean drinking water violates Fundamental Rights, using Directive Principles as interpretive aids.",
+     "a": "A good answer cites Article 21 (right to life) read with Article 47 (public health) and Article 39(b) (material resources), referencing cases like Subhash Kumar v. State of Bihar (1991) where the Court used Directive Principles to expand Fundamental Rights. A poor answer merely lists Directive Principles without linking them to a justiciable Fundamental Right, showing inability to use the harmonious construction technique.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

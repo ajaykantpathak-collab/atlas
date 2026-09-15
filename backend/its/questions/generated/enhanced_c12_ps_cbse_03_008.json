@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_03_008",
+   "title": "c12_ps_cbse_03_008",
+   "questions": [
+    {
+     "q": "What are the three specific constraints on US hegemony discussed in this node, and which one operates primarily through the requirement of consensus among sovereign allies?",
+     "a": "The three constraints are: (1) domestic public opinion, (2) US institutional checks (Congress, judiciary, bureaucracy), and (3) NATO alliance politics. NATO operates through consensus among sovereign allies — all 32 members must agree for collective action. A wrong answer (e.g., listing \"UN Security Council\" or \"economic interdependence\") reveals the student is confusing this node's scope with broader constraints covered in c12_ps_cbse_03_009 or c12_ps_cbse_03_006.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the US Congress have more effective constraint power over prolonged military engagements than over short-term strikes, and which specific legislative tool embodies this constraint?",
+     "a": "Congress controls funding (power of the purse) and has the War Powers Resolution (1973) requiring presidential notification within 48 hours and limiting unauthorized deployments to 60-90 days. Short-term strikes often finish before Congress can mobilize opposition, but prolonged wars require continuous appropriations. A student who says \"Congress declares war\" misunderstands — the last formal declaration was 1941; modern constraints work through funding and the War Powers Resolution, not Article I declarations.",
+     "self_check": true
+    },
+    {
+     "q": "In 2013, President Obama sought congressional authorization for strikes against Syria after chemical weapons use. The administration ultimately pursued a diplomatic solution instead. Apply the concept of \"public opinion as constraint\" to explain why this shift occurred, citing specific polling data trends.",
+     "a": "Public opposition to intervention was overwhelming: polls showed 60-65% opposed strikes, with only 20-25% support. After Iraq/Afghanistan fatigue, both parties' bases were skeptical. Obama faced likely congressional defeat (first time since 1790s a president lost a war vote). The shift to diplomacy (Russian-brokered chemical weapons removal) reflected this constraint. A wrong answer focusing only on \"Russian diplomacy\" misses the domestic political calculation that made diplomacy preferable to a lost vote.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how NATO constrained US action in Kosovo (1999) versus Iraq (2003). Identify the specific NATO decision-making rule that explains the difference.",
+     "a": "Kosovo: NATO acted collectively after consensus (all 19 members agreed) despite no UN mandate — the alliance's consensus rule enabled action. Iraq 2003: France, Germany, Belgium vetoed NATO involvement; the US bypassed NATO for a \"coalition of the willing.\" The consensus rule (Article 4/5 requiring unanimity) means any single ally can block alliance action. A student who says \"NATO supported both\" or \"UN mandate was the difference\" confuses NATO's internal rules with UN Security Council vetoes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"NATO is not a constraint on US hegemony but an instrument of it — the US dominates NATO decision-making.\" Provide evidence for and against, then give your reasoned judgment.",
+     "a": "For: US provides ~70% of NATO defense spending, commands integrated military structure (SACEUR always American), and often sets agenda. Against: Consensus rule gives each ally veto (France 1966 withdrawal, Turkey 2003 blocking NATO Iraq role, Germany 2011 Libya restrictions). Judgment: NATO is a \"constrained instrument\" — it amplifies US power when allies agree but binds the US to consult and compromise when they don't. A one-sided answer (\"NATO is just a tool\" or \"NATO fully constrains\") fails to capture this dialectic.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word policy memo to a hypothetical US President explaining how the three constraints (public opinion, institutions, NATO) would likely affect a proposed 2025 intervention in a hypothetical crisis. Prioritize the constraints by likely impact.",
+     "a": "A strong memo: (1) Public opinion — cite current war-weariness polls, partisan polarization, \"America First\" sentiment; likely the strongest constraint. (2) Institutions — War Powers Resolution timeline, congressional polarization making authorization unlikely, potential judicial challenges. (3) NATO — assess key allies' positions (UK/France vs. Germany/Turkey), consensus requirement. Prioritization: public opinion > institutions > NATO (since NATO action requires prior domestic political space). A weak memo treats constraints abstractly without current political context or prioritization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

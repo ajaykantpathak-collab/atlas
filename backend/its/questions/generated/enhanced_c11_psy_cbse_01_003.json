@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_003",
+   "title": "c11_psy_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the primary epistemological difference between psychology as a natural science and psychology as a social science regarding the nature of causation in human behaviour?",
+     "a": "Natural science psychology assumes behaviour has specific, identifiable causes that can be isolated and tested under controlled conditions to establish universal cause-effect laws (e.g., \"sleep deprivation causes attention deficits\"). Social science psychology assumes behaviour has multiple, interacting causes rooted in the dynamic person-environment system, where context and meaning are irreducible (e.g., \"attention deficits emerge from an interplay of sleep, motivation, cultural expectations, and socioeconomic stress\"). A wrong answer that says \"natural science uses numbers, social science uses words\" reveals a methodological confusion — both use quantitative and qualitative data; the difference is in the *ontological assumption* about causation.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies \"examination anxiety\" by measuring heart rate, cortisol levels, and fMRI activation in students during a simulated test, then correlates these with performance scores. Another researcher conducts in-depth interviews with the same students about their family expectations, cultural beliefs about success, and past failures. Classify each approach and explain why the *same phenomenon* can be studied from both perspectives without contradiction.",
+     "a": "The first is natural science (biological markers, controlled simulation, correlation for prediction); the second is social science (subjective meaning, socio-cultural context, idiographic understanding). They are not contradictory because they operate at different levels of analysis: the first explains *proximate mechanisms* (how anxiety manifests physiologically), the second explains *distal meanings* (why anxiety takes this form for this person in this culture). A wrong answer claiming \"only one is scientific\" reveals the misconception that science = only natural science methods, ignoring that social science uses systematic, verifiable methods appropriate to its object of study.",
+     "self_check": true
+    },
+    {
+     "q": "A school wants to reduce bullying. The counsellor proposes: (A) an fMRI study of bullies' brains to find neural correlates of aggression, (B) a survey of school climate, peer norms, and teacher responses, (C) a controlled experiment testing if a reward system reduces bullying incidents. Which proposals align with natural science, which with social science, and which could bridge both? Justify.",
+     "a": "(A) Natural science — seeks biological causes under controlled measurement. (B) Social science — examines behaviour in socio-cultural context (school climate, norms). (C) Natural science — uses experimental control to test cause-effect (reward → behaviour change). A bridge would be a mixed-methods design: e.g., test the reward system (experiment) *and* interview students about fairness and peer reactions (qualitative). A wrong answer that labels (C) as social science because it's \"applied\" reveals confusion: *application* does not determine the paradigm; *methodological logic* (control, isolation of variables, prediction) does.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"Psychology as a natural science... assumes that all behavioural phenomena have causes which can be discovered if we can collect data systematically under controlled conditions.\" Critique this statement using the concept of *ecological validity* and the *person-environment interaction* central to social science psychology.",
+     "a": "The statement reflects the natural science ideal of *internal validity* (control → causal inference) but risks *ecological invalidity*: behaviour in a lab may not reflect behaviour in real socio-cultural contexts where meaning, agency, and power dynamics operate. Social science psychology argues that removing context (controlling variables) strips away the very phenomena we seek to understand — e.g., a child's \"aggression\" in a lab game may be play; in a caste-divided classroom, it may be resistance. The critique is not that controlled studies are useless, but that they answer *different questions* (mechanism vs. meaning). A wrong answer that dismisses natural science as \"artificial\" fails to appreciate that *both* validities are needed: natural science for mechanism, social science for contextual generalization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Neuroscience (fMRI, EEG) has made the social science approach in psychology obsolete because we can now see the biological basis of all behaviour.\"",
+     "a": "The claim commits *reductionism* — confusing *correlates* with *explanations*. Neuroscience shows *where* and *when* brain activity occurs during behaviour, but not *why* it means what it does to the person in their world. Example: fMRI shows amygdala activation when a student sees a low grade. Natural science explains the fear circuit; social science explains why *this* grade triggers shame in *this* student given their family's honour culture, economic precarity, and identity as \"the smart one.\" The biological substrate is necessary but not sufficient for the psychological meaning. A wrong answer agreeing with the claim reveals *neurocentrism* — the senior-secondary error of equating biological data with complete psychological explanation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question on \"social media use and adolescent well-being\" that *explicitly requires* integration of natural science and social science approaches. Specify: (a) the natural science component (variables, method), (b) the social science component (variables, method), (c) how the two datasets would be integrated in analysis.",
+     "a": "(a) Natural science: Measure cortisol awakening response (CAR), sleep duration (actigraphy), and fMRI reward circuitry activation during social media use — experimental manipulation: passive scrolling vs. active posting. (b) Social science: Photovoice interviews where adolescents document and narrate their online experiences; thematic analysis of narratives on identity, belonging, comparison, and cyberbullying within family/peer/school contexts. (c) Integration: Use *joint displays* — map neural/physiological patterns to narrative themes (e.g., high amygdala activation + narratives of \"fear of missing out\" in marginalized students). This tests *embodiment of social experience*. A poor answer that simply lists both methods without integration reveals *methodological pluralism without theoretical synthesis* — a common senior-secondary error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

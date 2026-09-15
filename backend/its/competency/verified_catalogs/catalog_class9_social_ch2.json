@@ -1,0 +1,672 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Shaping of the Earth's Surface",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest102.txt",
+ "concepts": [
+  {
+   "id": "c9ss.2.1",
+   "title": "Theory of Plate Tectonics",
+   "section": "2.1",
+   "definition": "The theory of plate tectonics states that the Earth's outer shell is made up of large rigid plates that move over the semi-fluid layer below, causing the continents and oceans to shift over geological time.",
+   "formula": "",
+   "key_idea": "The Earth's lithosphere is broken into plates whose slow movement shapes continents, mountains, and ocean basins.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the theory of plate tectonics?",
+    "What are tectonic plates?",
+    "How do tectonic plates move?",
+    "What landforms result from the movement of tectonic plates?",
+    "How does plate tectonics explain the drifting of continents?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the theory",
+     "explain": "The Earth's outer shell, the lithosphere, is broken into large rigid plates called tectonic plates."
+    },
+    {
+     "step": 2,
+     "action": "Explain plate movement",
+     "explain": "These plates move slowly over the semi-fluid asthenosphere beneath them, carrying continents and oceans."
+    },
+    {
+     "step": 3,
+     "action": "Link to landforms",
+     "explain": "The movement of plates causes continents to drift and builds mountains, trenches, and ocean basins over geological time."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the theory of plate tectonics?",
+     "solution": "The Earth's outer shell is made of large rigid plates that move over the layer below, shifting continents and oceans.",
+     "answer": "The Earth's lithosphere is made of moving rigid plates."
+    },
+    {
+     "question": "How does plate tectonics explain the drifting of continents?",
+     "solution": "Continents are carried by moving plates, so over geological time they drift apart or come together.",
+     "answer": "Continents drift because the plates carrying them move."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are tectonic plates?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What landforms result from the movement of tectonic plates?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do tectonic plates move?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.2",
+   "title": "Interior of the Earth",
+   "section": "2.2",
+   "definition": "The interior of the Earth is made up of three main layers: the crust, the mantle, and the core, each with different composition, temperature, and state.",
+   "formula": "",
+   "key_idea": "The Earth has three main layers -- crust, mantle, and core -- that differ in composition and temperature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three main layers of the Earth?",
+    "What is the crust made of?",
+    "What is the mantle?",
+    "What is the core and what is it made of?",
+    "How does temperature change as we go deeper into the Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the three layers",
+     "explain": "The Earth has three main layers: the crust on the outside, the mantle in the middle, and the core at the centre."
+    },
+    {
+     "step": 2,
+     "action": "Describe the crust and mantle",
+     "explain": "The crust is the thin solid outer layer of rock, and the mantle is a thicker layer of semi-solid rock beneath it."
+    },
+    {
+     "step": 3,
+     "action": "Describe the core",
+     "explain": "The core is the hottest innermost layer, made mostly of iron and nickel, with a liquid outer part and a solid inner part."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three main layers of the Earth?",
+     "solution": "The three main layers are the crust, the mantle, and the core.",
+     "answer": "Crust, mantle, and core."
+    },
+    {
+     "question": "What is the core and what is it made of?",
+     "solution": "The core is the innermost and hottest layer, made mostly of iron and nickel.",
+     "answer": "The innermost layer, made of iron and nickel."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the crust made of?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the mantle?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does temperature change as we go deeper into the Earth?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.3",
+   "title": "Weathering and Erosion",
+   "section": "2.3",
+   "definition": "Weathering is the breaking down of rocks at or near the Earth's surface by natural agents such as temperature, water, and wind, while erosion is the wearing away and removal of the broken material by moving agents.",
+   "formula": "",
+   "key_idea": "Weathering breaks rocks in place, and erosion carries the broken material away, together shaping the land surface.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is weathering?",
+    "What is erosion?",
+    "What is the difference between weathering and erosion?",
+    "What agents cause weathering?",
+    "How do weathering and erosion shape the Earth's surface?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define weathering",
+     "explain": "Weathering is the breaking down of rocks in place by temperature, water, wind, and living things."
+    },
+    {
+     "step": 2,
+     "action": "Define erosion",
+     "explain": "Erosion is the removal and transport of the broken rock material by moving agents like water, wind, and ice."
+    },
+    {
+     "step": 3,
+     "action": "Explain the difference",
+     "explain": "Weathering breaks rocks where they are, while erosion carries the broken material away to new places."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between weathering and erosion?",
+     "solution": "Weathering breaks rocks in place, while erosion carries the broken material away.",
+     "answer": "Weathering breaks in place; erosion carries material away."
+    },
+    {
+     "question": "What agents cause weathering?",
+     "solution": "Temperature changes, water, wind, and living things all cause weathering of rocks.",
+     "answer": "Temperature, water, wind, and living things."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is weathering?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is erosion?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do weathering and erosion shape the Earth's surface?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.4",
+   "title": "Agents of Gradation: River",
+   "section": "2.4",
+   "definition": "A river is a flowing body of fresh water that shapes the land through erosion in its upper course, transportation in its middle course, and deposition in its lower course.",
+   "formula": "",
+   "key_idea": "Rivers shape valleys and plains by eroding in the upper course, carrying sediment in the middle, and depositing it in the lower course.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does a river shape the land?",
+    "What happens in the upper course of a river?",
+    "What happens in the lower course of a river?",
+    "What landforms are created by river deposition?",
+    "How do rivers form valleys and plains?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the upper course",
+     "explain": "In the upper course, a fast-flowing river erodes the land and cuts deep V-shaped valleys."
+    },
+    {
+     "step": 2,
+     "action": "Describe the middle course",
+     "explain": "In the middle course, the river slows down and transports the eroded sediment downstream."
+    },
+    {
+     "step": 3,
+     "action": "Describe the lower course",
+     "explain": "In the lower course, the river deposits sediment, forming floodplains, deltas, and broad plains."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a river shape the land?",
+     "solution": "A river erodes in the upper course, transports sediment in the middle, and deposits it in the lower course.",
+     "answer": "It erodes, transports, and deposits sediment along its course."
+    },
+    {
+     "question": "What landforms are created by river deposition?",
+     "solution": "River deposition forms floodplains, deltas, and broad plains in the lower course.",
+     "answer": "Floodplains, deltas, and plains."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What happens in the upper course of a river?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What happens in the lower course of a river?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do rivers form valleys and plains?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.5",
+   "title": "Agents of Gradation: Waves, Wind, and Glaciers",
+   "section": "2.5",
+   "definition": "Waves, wind, and glaciers are agents of gradation that shape the land: waves erode and build coastlines, wind carves and deposits in deserts, and glaciers scrape and deposit in cold regions.",
+   "formula": "",
+   "key_idea": "Waves shape coasts, wind shapes deserts, and glaciers shape cold mountain and polar regions through erosion and deposition.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do waves shape the coastline?",
+    "What landforms are created by wind?",
+    "How do glaciers shape the land?",
+    "What is the difference between the action of wind and glaciers?",
+    "Give one example of a landform made by each agent."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe wave action",
+     "explain": "Waves erode the coast to form cliffs and caves and deposit sand to form beaches."
+    },
+    {
+     "step": 2,
+     "action": "Describe wind action",
+     "explain": "Wind erodes and deposits sand in deserts, forming sand dunes and shaping rocks."
+    },
+    {
+     "step": 3,
+     "action": "Describe glacier action",
+     "explain": "Glaciers slowly scrape the land, carving U-shaped valleys and depositing debris as moraines."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do waves shape the coastline?",
+     "solution": "Waves erode the coast to form cliffs and caves and deposit sand to form beaches.",
+     "answer": "They erode cliffs and caves and deposit beaches."
+    },
+    {
+     "question": "What landforms are created by wind?",
+     "solution": "Wind forms sand dunes and shapes rocks in desert regions through erosion and deposition.",
+     "answer": "Sand dunes and shaped desert rocks."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do glaciers shape the land?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the difference between the action of wind and glaciers?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a landform made by each agent.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.6",
+   "title": "Agents of Gradation: Underground Water",
+   "section": "2.6",
+   "definition": "Underground water is an agent of gradation that dissolves and deposits minerals in rocks, especially limestone, forming features such as caves, sinkholes, and stalactites.",
+   "formula": "",
+   "key_idea": "Underground water dissolves soluble rocks like limestone to form caves and deposits minerals to form stalactites and stalagmites.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does underground water shape the land?",
+    "What landforms are created by underground water?",
+    "What is a sinkhole?",
+    "How are caves formed by underground water?",
+    "What are stalactites and stalagmites?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the dissolving action",
+     "explain": "Underground water dissolves soluble rocks like limestone, enlarging cracks into caves and passages."
+    },
+    {
+     "step": 2,
+     "action": "Describe surface features",
+     "explain": "When the rock below dissolves, the surface can collapse to form sinkholes and depressions."
+    },
+    {
+     "step": 3,
+     "action": "Describe depositional features",
+     "explain": "Water dripping in caves deposits minerals, forming stalactites hanging from the roof and stalagmites rising from the floor."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does underground water shape the land?",
+     "solution": "Underground water dissolves limestone to form caves and sinkholes and deposits minerals to form stalactites and stalagmites.",
+     "answer": "It dissolves rock to form caves and deposits minerals to form stalactites and stalagmites."
+    },
+    {
+     "question": "What is a sinkhole?",
+     "solution": "A sinkhole is a depression or hole in the ground formed when the rock below is dissolved by underground water and the surface collapses.",
+     "answer": "A surface depression formed by dissolution and collapse of rock below."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What landforms are created by underground water?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How are caves formed by underground water?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are stalactites and stalagmites?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.7",
+   "title": "Landforms and Disasters: Earthquakes and Landslides",
+   "section": "2.7",
+   "definition": "Earthquakes are sudden shaking of the ground caused by movements of tectonic plates, and landslides are the rapid sliding of rock and soil down a slope, both of which can cause great damage.",
+   "formula": "",
+   "key_idea": "Earthquakes result from plate movements, and landslides from unstable slopes; both are natural disasters that reshape the land and harm people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an earthquake?",
+    "What causes an earthquake?",
+    "What is a landslide?",
+    "What conditions trigger a landslide?",
+    "How can the damage from earthquakes and landslides be reduced?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define an earthquake",
+     "explain": "An earthquake is a sudden shaking of the ground caused by the movement of tectonic plates."
+    },
+    {
+     "step": 2,
+     "action": "Define a landslide",
+     "explain": "A landslide is the rapid downward sliding of rock and soil on a slope, often triggered by rain or earthquakes."
+    },
+    {
+     "step": 3,
+     "action": "Explain damage reduction",
+     "explain": "Building strong structures, avoiding unstable slopes, and early warning systems help reduce damage from these disasters."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What causes an earthquake?",
+     "solution": "Earthquakes are caused by the sudden movement of tectonic plates releasing energy in the Earth's crust.",
+     "answer": "Movement of tectonic plates releasing energy."
+    },
+    {
+     "question": "What conditions trigger a landslide?",
+     "solution": "Heavy rain, earthquakes, and steep unstable slopes can trigger a landslide.",
+     "answer": "Heavy rain, earthquakes, and steep unstable slopes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an earthquake?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is a landslide?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can the damage from earthquakes and landslides be reduced?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.8",
+   "title": "Landforms and Disasters: Avalanches, GLOF, and Dust Storms",
+   "section": "2.8",
+   "definition": "Avalanches are rapid flows of snow down a mountain, a glacial lake outburst flood (GLOF) is a sudden release of water from a glacial lake, and dust storms are strong winds carrying clouds of dust across dry regions.",
+   "formula": "",
+   "key_idea": "Avalanches, GLOFs, and dust storms are natural hazards in mountains and dry regions that can cause sudden and severe damage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an avalanche?",
+    "What is a GLOF?",
+    "What is a dust storm?",
+    "How does a GLOF differ from a normal flood?",
+    "Why are dust storms common in dry regions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define an avalanche",
+     "explain": "An avalanche is a rapid flow of snow and ice down a mountain slope, often triggered by slope instability or warming."
+    },
+    {
+     "step": 2,
+     "action": "Define a GLOF",
+     "explain": "A GLOF is a sudden and violent flood caused when a glacial lake bursts, releasing a large volume of water downstream."
+    },
+    {
+     "step": 3,
+     "action": "Define a dust storm",
+     "explain": "A dust storm is a strong wind that lifts and carries clouds of dust across dry, bare regions, reducing visibility and damaging crops."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a GLOF?",
+     "solution": "A GLOF is a sudden flood caused when a glacial lake bursts and releases a large volume of water downstream.",
+     "answer": "A sudden flood from a bursting glacial lake."
+    },
+    {
+     "question": "Why are dust storms common in dry regions?",
+     "solution": "Dry regions have loose, bare soil and little vegetation, so strong winds easily lift and carry the dust.",
+     "answer": "Loose bare soil and little vegetation let winds lift dust."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an avalanche?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is a dust storm?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a GLOF differ from a normal flood?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.9",
+   "title": "Mountain Building",
+   "section": "2.9",
+   "definition": "Mountain building, or orogeny, is the process by which mountains are formed mainly when tectonic plates collide, compressing and folding the rock layers of the crust over long periods.",
+   "formula": "",
+   "key_idea": "Mountains form when colliding plates compress and fold the crust, a slow process that builds ranges like the Himalayas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is mountain building?",
+    "How are fold mountains formed?",
+    "What role do tectonic plates play in mountain building?",
+    "Give an example of a fold mountain range.",
+    "Why is mountain building a slow process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define mountain building",
+     "explain": "Mountain building, or orogeny, is the process by which mountains are formed over long periods."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of plates",
+     "explain": "When two plates collide, they compress the crust, folding and pushing up rock layers to form fold mountains."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "The Himalayas were formed by the collision of the Indian and Eurasian plates, which folded and lifted the crust."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are fold mountains formed?",
+     "solution": "Fold mountains form when colliding plates compress and fold the rock layers of the crust upward.",
+     "answer": "By compression and folding of crustal rock layers."
+    },
+    {
+     "question": "Give an example of a fold mountain range.",
+     "solution": "The Himalayas are a fold mountain range formed by the collision of the Indian and Eurasian plates.",
+     "answer": "The Himalayas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is mountain building?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What role do tectonic plates play in mountain building?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is mountain building a slow process?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.10",
+   "title": "Formation of Valleys and Plains",
+   "section": "2.10",
+   "definition": "Valleys are low areas of land between hills or mountains, usually carved by rivers or glaciers, while plains are broad flat areas of land often formed by the deposition of sediment by rivers.",
+   "formula": "",
+   "key_idea": "Valleys are carved by erosion of rivers or glaciers, and plains are built up by deposition of river sediment over time.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are valleys formed?",
+    "What is the difference between a V-shaped and a U-shaped valley?",
+    "How are plains formed?",
+    "Why are plains fertile and good for farming?",
+    "What role do rivers play in forming valleys and plains?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain valley formation",
+     "explain": "Valleys form when rivers cut downward to make V-shaped valleys or when glaciers carve U-shaped valleys."
+    },
+    {
+     "step": 2,
+     "action": "Explain plain formation",
+     "explain": "Plains form when rivers deposit sediment over a wide area over a long time, building flat land."
+    },
+    {
+     "step": 3,
+     "action": "Link to fertility",
+     "explain": "River-deposited sediment is rich in minerals, making plains fertile and ideal for farming."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are valleys formed?",
+     "solution": "Valleys are carved by rivers cutting downward to form V-shaped valleys or by glaciers carving U-shaped valleys.",
+     "answer": "By erosion by rivers or glaciers."
+    },
+    {
+     "question": "Why are plains fertile and good for farming?",
+     "solution": "Plains are made of river-deposited sediment that is rich in minerals, making the soil fertile.",
+     "answer": "Because river sediment makes the soil rich in minerals."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the difference between a V-shaped and a U-shaped valley?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How are plains formed?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What role do rivers play in forming valleys and plains?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.2.11",
+   "title": "Impact of Natural Disasters",
+   "section": "2.11",
+   "definition": "Natural disasters such as earthquakes, landslides, floods, and storms cause loss of life and property, damage infrastructure, displace people, and disrupt the economy and environment.",
+   "formula": "",
+   "key_idea": "Natural disasters harm people, property, and the environment, so preparedness and mitigation are essential to reduce their impact.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main impacts of natural disasters?",
+    "How do natural disasters affect the economy?",
+    "How can we reduce the impact of natural disasters?",
+    "Why is disaster preparedness important?",
+    "Give two examples of how natural disasters affect people."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the main impacts",
+     "explain": "Natural disasters cause loss of life, damage to property and infrastructure, displacement of people, and environmental harm."
+    },
+    {
+     "step": 2,
+     "action": "Explain economic effects",
+     "explain": "They disrupt farming, trade, and services, leading to loss of income and high costs of recovery."
+    },
+    {
+     "step": 3,
+     "action": "Explain mitigation",
+     "explain": "Preparedness, early warning, strong buildings, and rescue plans help reduce the impact of natural disasters."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main impacts of natural disasters?",
+     "solution": "They cause loss of life, damage to property and infrastructure, displacement, and environmental harm.",
+     "answer": "Loss of life, property damage, displacement, and environmental harm."
+    },
+    {
+     "question": "How can we reduce the impact of natural disasters?",
+     "solution": "Preparedness, early warning systems, strong buildings, and rescue plans help reduce the impact.",
+     "answer": "Through preparedness, early warnings, strong buildings, and rescue plans."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do natural disasters affect the economy?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is disaster preparedness important?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give two examples of how natural disasters affect people.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_008",
+   "title": "c10_math_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the closure property of rational numbers under subtraction that is used in this proof.",
+     "a": "If a and b are rational numbers, then a − b is also rational. A wrong answer (e.g., \"rational minus irrational is rational\") reveals the student confuses closure (which applies only to operations within the rationals) with cross-set operations.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof, after assuming 5 − √3 = r (rational), we write √3 = 5 − r. Explain why this step is valid and why it leads to a contradiction.",
+     "a": "The step is valid because we simply rearranged the equation (subtracted r from both sides, then swapped). Since 5 is rational and r is rational (by assumption), 5 − r is rational by closure. But this says √3 is rational, contradicting the proven fact that √3 is irrational. A wrong answer (e.g., \"we assumed √3 is irrational so it stays irrational\") misses that the contradiction arises from the assumption, not from an independent fact.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"5 is rational, √3 is irrational, so 5 − √3 must be irrational because rational and irrational don't mix.\" Identify the flaw in this reasoning.",
+     "a": "The flaw is that \"rational and irrational don't mix\" is an unproven assertion, not a theorem. While the result is correct, the justification is incomplete. The board exam requires the contradiction argument: assume rational, isolate the irrational, derive contradiction. A wrong answer accepting this as sufficient shows the student does not understand the need for rigorous proof.",
+     "self_check": true
+    },
+    {
+     "q": "Is 5 + √3 irrational? Prove it using the same method.",
+     "a": "Yes. Assume 5 + √3 = r (rational). Then √3 = r − 5. Since r and 5 are rational, r − 5 is rational, so √3 is rational — contradiction. Hence 5 + √3 is irrational. A wrong answer (e.g., \"yes, because addition works the same way\") without the proof shows the student recognises the pattern but cannot formalise it.",
+     "self_check": true
+    },
+    {
+     "q": "Is √3 − 5 irrational? How does this differ from 5 − √3?",
+     "a": "Yes, √3 − 5 is irrational. Proof: assume √3 − 5 = r (rational). Then √3 = r + 5. Since r and 5 are rational, r + 5 is rational, so √3 is rational — contradiction. It differs from 5 − √3 only in sign; both are irrational because the irrational component √3 cannot be eliminated by adding/subtracting a rational. A wrong answer (e.g., \"√3 − 5 = −(5 − √3) so it's rational if 5 − √3 is rational\") confuses negation with rationality — the negative of an irrational is still irrational.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that 7 − 2√5 is irrational. (Hint: Use the irrationality of √5 and closure of rationals.)",
+     "a": "Assume 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational. Then √5 = (7 − r)/2, which is rational (division of rational by non-zero rational 2). But √5 is irrational (proved similarly to √3). Contradiction. Hence 7 − 2√5 is irrational. A poor answer fails to handle the coefficient 2 correctly or forgets that √5 must be proven or assumed irrational.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

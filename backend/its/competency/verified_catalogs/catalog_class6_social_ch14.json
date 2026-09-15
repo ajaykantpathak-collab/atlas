@@ -1,0 +1,533 @@
+{
+ "class": "6",
+ "subject": "social_science",
+ "chapter": 14,
+ "chapter_title": "Economic Activities Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees114.txt",
+ "concepts": [
+  {
+   "id": "c6ss.14.1",
+   "title": "Primary Sector",
+   "section": "Sectors of the Economy",
+   "definition": "The primary sector includes economic activities that use natural resources directly, such as agriculture, fishing, forestry, and mining.",
+   "formula": "",
+   "key_idea": "Primary activities produce raw materials by using natural resources; they form the base of the economy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the primary sector? Give two examples.",
+    "Why is agriculture a primary sector activity?",
+    "List three primary sector activities.",
+    "How does the primary sector support other sectors?",
+    "Explain why mining is classified as a primary activity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the activity",
+     "explain": "Note the economic activity being considered."
+    },
+    {
+     "step": 2,
+     "action": "Check direct use of natural resources",
+     "explain": "Verify that the activity uses natural resources directly (land, water, minerals)."
+    },
+    {
+     "step": 3,
+     "action": "Classify as primary",
+     "explain": "If natural resources are used directly, classify the activity as a primary sector activity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is fishing a primary sector activity? Justify.",
+     "solution": "Fishing uses a natural resource (fish from water) directly, so it is a primary sector activity.",
+     "answer": "Yes, fishing is a primary sector activity because it uses natural resources directly."
+    },
+    {
+     "question": "Name two primary sector activities and the natural resource each uses.",
+     "solution": "Agriculture uses land and water; mining uses mineral deposits.",
+     "answer": "Agriculture (land/water) and mining (minerals) are primary activities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three activities that belong to the primary sector.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the primary sector is called the base of the economy.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.2",
+   "title": "Secondary Sector",
+   "section": "Sectors of the Economy",
+   "definition": "The secondary sector includes activities that process raw materials from the primary sector into finished goods, such as manufacturing and construction.",
+   "formula": "",
+   "key_idea": "Secondary activities transform raw materials into finished products; factories and construction sites are common examples.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the secondary sector? Give two examples.",
+    "How does the secondary sector depend on the primary sector?",
+    "List three secondary sector activities.",
+    "Explain why manufacturing is a secondary activity.",
+    "Distinguish between primary and secondary activities with one example each."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the activity",
+     "explain": "Note the economic activity being considered."
+    },
+    {
+     "step": 2,
+     "action": "Check for processing of raw materials",
+     "explain": "Verify that the activity transforms raw materials into finished goods."
+    },
+    {
+     "step": 3,
+     "action": "Classify as secondary",
+     "explain": "If raw materials are processed into goods, classify the activity as a secondary sector activity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is making cloth from cotton a secondary sector activity? Justify.",
+     "solution": "Cotton (raw material) is processed into cloth (finished good), so this is a secondary sector activity.",
+     "answer": "Yes, making cloth from cotton is a secondary sector activity."
+    },
+    {
+     "question": "Give one example of construction as a secondary activity.",
+     "solution": "Building a bridge uses raw materials like cement and steel to create a structure, so it is a secondary activity.",
+     "answer": "Building a bridge is a secondary sector activity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two secondary sector activities in your region.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the secondary sector depends on the primary sector.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.3",
+   "title": "Tertiary Sector",
+   "section": "Sectors of the Economy",
+   "definition": "The tertiary sector includes activities that provide services rather than goods, such as trade, transport, banking, teaching, and healthcare.",
+   "formula": "",
+   "key_idea": "Tertiary activities support primary and secondary sectors by providing services that move, sell, and maintain goods and people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the tertiary sector? Give two examples.",
+    "How does the tertiary sector differ from the primary and secondary sectors?",
+    "List three services provided by the tertiary sector.",
+    "Why is transport a tertiary activity?",
+    "Explain how the tertiary sector supports the other two sectors."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the activity",
+     "explain": "Note the economic activity being considered."
+    },
+    {
+     "step": 2,
+     "action": "Check for service provision",
+     "explain": "Verify that the activity provides a service rather than producing a physical good."
+    },
+    {
+     "step": 3,
+     "action": "Classify as tertiary",
+     "explain": "If a service is provided, classify the activity as a tertiary sector activity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is a doctor's work a tertiary sector activity? Justify.",
+     "solution": "A doctor provides a service (healthcare) rather than a physical good, so this is a tertiary sector activity.",
+     "answer": "Yes, a doctor's work is a tertiary sector activity."
+    },
+    {
+     "question": "Explain how transport supports the primary and secondary sectors.",
+     "solution": "Transport moves raw materials to factories and finished goods to markets, supporting both sectors.",
+     "answer": "Transport supports other sectors by moving goods to where they are needed."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three tertiary sector activities in your locality.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one way the tertiary sector supports the secondary sector.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.4",
+   "title": "Production and Consumption",
+   "section": "Production and Consumption",
+   "definition": "Production is the process of making goods and services; consumption is the act of using them to satisfy needs and wants.",
+   "formula": "",
+   "key_idea": "Production creates goods and services; consumption uses them; the two are linked in a continuous economic cycle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define production with one example.",
+    "Define consumption with one example.",
+    "How are production and consumption related?",
+    "Calculate total production given output of several units.",
+    "Explain why production and consumption must be balanced."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify units of production",
+     "explain": "List the quantity produced by each unit or worker."
+    },
+    {
+     "step": 2,
+     "action": "Sum the production",
+     "explain": "Add the quantities from all units to get total production."
+    },
+    {
+     "step": 3,
+     "action": "Compare with consumption",
+     "explain": "Check whether total production meets the consumption requirement.",
+     "compute": "surplus = total_production - total_consumption"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A factory produces 200, 150, and 250 units in three shifts. What is the total production?",
+     "solution": "Add the units: 200 + 150 + 250 = 600.",
+     "answer": "The total production is 600 units."
+    },
+    {
+     "question": "If 600 units are produced and 550 are consumed, how many units remain?",
+     "solution": "Subtract consumption from production: 600 - 550 = 50.",
+     "answer": "50 units remain after consumption."
+    },
+    {
+     "question": "A bakery bakes 80 loaves and sells 65. How many loaves are left unsold?",
+     "solution": "Subtract sold loaves from baked loaves: 80 - 65 = 15.",
+     "answer": "15 loaves are left unsold."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Three farms produce 120, 90, and 140 kg of rice. Find the total production.",
+     "type": "compute"
+    },
+    {
+     "question": "Define production and consumption in one sentence each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.5",
+   "title": "Barter System and Money",
+   "section": "Barter System and Money",
+   "definition": "The barter system is the direct exchange of one good for another without money; money is a medium that makes exchange easier.",
+   "formula": "",
+   "key_idea": "Money solves the problems of barter (double coincidence of wants) by acting as a common medium of exchange.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the barter system? Give one example.",
+    "State one problem with the barter system.",
+    "How does money solve the problem of double coincidence of wants?",
+    "Explain one advantage of using money over barter.",
+    "Describe a situation where barter might still be used."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the exchange method",
+     "explain": "Determine whether goods are exchanged directly (barter) or through money."
+    },
+    {
+     "step": 2,
+     "action": "Check for double coincidence",
+     "explain": "For barter, verify that each party wants what the other has."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on suitability",
+     "explain": "State whether barter works or whether money is needed to complete the exchange."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A farmer exchanges rice for cloth with a weaver. Identify the system and one condition needed.",
+     "solution": "This is the barter system; it works only if the weaver wants rice and the farmer wants cloth (double coincidence of wants).",
+     "answer": "This is the barter system; it needs a double coincidence of wants."
+    },
+    {
+     "question": "Why is money preferred over barter in modern markets?",
+     "solution": "Money removes the need to find someone who wants exactly what you offer, making exchange faster and easier.",
+     "answer": "Money is preferred because it avoids the need for a double coincidence of wants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of a barter exchange.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one problem of the barter system that money solves.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.6",
+   "title": "Markets and Trade",
+   "section": "Markets and Trade",
+   "definition": "A market is a place or system where buyers and sellers exchange goods and services; trade is the buying and selling of goods, within a region or between regions.",
+   "formula": "",
+   "key_idea": "Markets bring buyers and sellers together; trade may be local, national, or international, moving goods from producers to consumers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a market? Give one example.",
+    "Distinguish between local trade and international trade.",
+    "How do markets help producers and consumers?",
+    "List two types of markets with examples.",
+    "Explain one role of trade in the economy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the setting",
+     "explain": "Determine whether the exchange happens in a physical or virtual market."
+    },
+    {
+     "step": 2,
+     "action": "Check for buyers and sellers",
+     "explain": "Verify that there are buyers who demand and sellers who supply goods or services."
+    },
+    {
+     "step": 3,
+     "action": "Classify the trade",
+     "explain": "State whether the trade is local, national, or international based on the regions involved."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A weekly vegetable market in a village brings farmers and buyers together. Explain its role.",
+     "solution": "The market lets farmers sell produce and buyers buy food, enabling exchange and trade.",
+     "answer": "The market enables exchange between producers and consumers."
+    },
+    {
+     "question": "Distinguish between local trade and international trade with one example each.",
+     "solution": "Local trade: selling vegetables within a town; international trade: exporting spices to another country.",
+     "answer": "Local trade is within a region; international trade is between countries."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of a market in your area.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one difference between local and international trade.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.7",
+   "title": "Needs and Wants",
+   "section": "Needs and Wants",
+   "definition": "Needs are essentials required for survival and well-being, such as food, clothing, and shelter; wants are desires that improve comfort but are not essential.",
+   "formula": "",
+   "key_idea": "Needs are limited and must be met first; wants are unlimited and can be chosen based on available resources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between needs and wants with one example each.",
+    "List three basic needs of a person.",
+    "Why are wants considered unlimited?",
+    "Give one example of a want that can become a need over time.",
+    "Explain why people must prioritise needs over wants."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the item",
+     "explain": "Note the good or service being considered."
+    },
+    {
+     "step": 2,
+     "action": "Check necessity for survival",
+     "explain": "Determine whether the item is essential for survival and well-being (need) or a comfort (want)."
+    },
+    {
+     "step": 3,
+     "action": "Classify as need or want",
+     "explain": "If essential, classify it as a need; if a comfort, classify it as a want."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify 'a meal' and 'a mobile phone' as need or want.",
+     "solution": "A meal is essential for survival, so it is a need; a mobile phone improves comfort but is not essential for survival, so it is a want.",
+     "answer": "A meal is a need; a mobile phone is a want."
+    },
+    {
+     "question": "Why must needs be met before wants?",
+     "solution": "Needs are required for survival, while wants only improve comfort, so resources should first meet needs.",
+     "answer": "Needs must be met first because they are essential for survival."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two needs and two wants of a student.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why wants are called unlimited.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.14.8",
+   "title": "Economic Activities in the Local Area",
+   "section": "Economic Activities in the Local Area",
+   "definition": "Economic activities in a local area are the production, trade, and service activities that people nearby undertake to earn a living and meet local needs.",
+   "formula": "",
+   "key_idea": "Observing local shops, farms, and services helps classify nearby economic activities into primary, secondary, and tertiary sectors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List three economic activities in your locality.",
+    "Classify a local activity into the correct sector.",
+    "Calculate the number of workers in each sector from local data.",
+    "Explain how a local shop supports the community.",
+    "Describe one primary, one secondary, and one tertiary activity near your home."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List local activities",
+     "explain": "Record each economic activity observed in the local area and its worker count."
+    },
+    {
+     "step": 2,
+     "action": "Group by sector",
+     "explain": "Count the workers in primary, secondary, and tertiary sectors separately."
+    },
+    {
+     "step": 3,
+     "action": "Compute totals",
+     "explain": "Add the sector counts to get the total number of local workers.",
+     "compute": "total_workers = primary + secondary + tertiary"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a village, 30 people farm, 20 work in a small mill, and 50 run shops. How many workers are in each sector and in total?",
+     "solution": "Primary (farming) = 30; Secondary (mill) = 20; Tertiary (shops) = 50; Total = 30 + 20 + 50 = 100.",
+     "answer": "Primary = 30, Secondary = 20, Tertiary = 50; Total = 100 workers."
+    },
+    {
+     "question": "A locality has 15 primary, 25 secondary, and 40 tertiary workers. What is the total number of workers?",
+     "solution": "Add the sector counts: 15 + 25 + 40 = 80.",
+     "answer": "There are 80 workers in total."
+    },
+    {
+     "question": "Out of 90 local workers, 40 are in the tertiary sector. How many are in the primary and secondary sectors together?",
+     "solution": "Subtract tertiary workers from the total: 90 - 40 = 50.",
+     "answer": "50 workers are in the primary and secondary sectors together."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In a town, 40 people farm, 30 work in factories, and 60 provide services. Find the total number of workers.",
+     "type": "compute"
+    },
+    {
+     "question": "Classify a local bakery as primary, secondary, or tertiary and justify.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.14.4",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {total_production} = 6, {total_consumption} = 9, compute the production and consumption step by step.",
+   "extracted_variables": {
+    "total_production": "6",
+    "total_consumption": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify units of production",
+     "explain": "List the quantity produced by each unit or worker."
+    },
+    {
+     "step": 2,
+     "action": "Sum the production",
+     "explain": "Add the quantities from all units to get total production."
+    },
+    {
+     "step": 3,
+     "action": "Compare with consumption",
+     "explain": "Check whether total production meets the consumption requirement.",
+     "compute": "surplus = total_production - total_consumption"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.14.8",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {primary} = 6, {secondary} = 9, {tertiary} = 12, compute the economic activities in the local area step by step.",
+   "extracted_variables": {
+    "primary": "6",
+    "secondary": "9",
+    "tertiary": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List local activities",
+     "explain": "Record each economic activity observed in the local area and its worker count."
+    },
+    {
+     "step": 2,
+     "action": "Group by sector",
+     "explain": "Count the workers in primary, secondary, and tertiary sectors separately."
+    },
+    {
+     "step": 3,
+     "action": "Compute totals",
+     "explain": "Add the sector counts to get the total number of local workers.",
+     "compute": "total_workers = primary + secondary + tertiary"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

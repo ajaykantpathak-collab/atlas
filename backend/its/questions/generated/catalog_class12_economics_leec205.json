@@ -1,0 +1,254 @@
+{
+ "catalog": "catalog_class12_economics_leec205",
+ "concepts": [
+  {
+   "id": "leec.205.1.1",
+   "title": "Market Equilibrium: Equilibrium Price and Quantity",
+   "questions": [
+    {
+     "q": "Using the method 'Market Equilibrium: Equilibrium Price and Quantity', work with: demand_intercept = 100, demand_slope = 3, supply_intercept = 240, supply_slope = 120. Carry the chain through step by step and give the final value of equilibrium_quantity.",
+     "a": "103.4146 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Market Equilibrium: Equilibrium Price and Quantity' and work with: demand_intercept = 8, demand_slope = 300, supply_intercept = 3, supply_slope = 150. Carry the chain through step by step and give the final value of equilibrium_quantity.",
+     "a": "4.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Market Equilibrium: Equilibrium Price and Quantity' refers to.",
+     "a": "A competitive market is in equilibrium where the quantity all buyers plan to purchase equals the quantity all firms plan to sell, so the market clears; for straight-line demand and supply curves the clearing price is found by solving the two equations together.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Equilibrium: Equilibrium Price and Quantity'.",
+     "a": "One price reconciles the plans of every buyer and seller, and the quantity traded there is the equilibrium quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Equilibrium: Equilibrium Price and Quantity', in plain ASCII form.",
+     "a": "equilibrium_price = price_gap / slope_sum",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.1.2",
+   "title": "Excess Demand, Excess Supply and Price Adjustment",
+   "questions": [
+    {
+     "q": "Compute the shortage at a price below the clearing level from the two curves. Use the method 'Excess Demand, Excess Supply and Price Adjustment'. Work with: quantity_demanded = 20, quantity_supplied = 12. Carry the chain through step by step and give the final value of excess_demand_at_price.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the surplus of goods at a price higher than the market clearing price. Use the method 'Excess Demand, Excess Supply and Price Adjustment'. Work with: quantity_demanded = 50, quantity_supplied = 20. Carry the chain through step by step and give the final value of excess_demand_at_price.",
+     "a": "30 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Excess Demand, Excess Supply and Price Adjustment' refers to.",
+     "a": "At any price below the clearing level buyers want more than sellers offer - excess demand - and price is bid up; above it sellers offer more than buyers take - excess supply - and price is cut, the invisible hand pushing the market back to equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Excess Demand, Excess Supply and Price Adjustment'.",
+     "a": "Shortages raise price, gluts lower it, and the drift stops only where the market clears.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Excess Demand, Excess Supply and Price Adjustment', in plain ASCII form.",
+     "a": "excess_demand_at_price = quantity_demanded - quantity_supplied",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.1.3",
+   "title": "Labour Market: Wage Determination and the Demand for Labour",
+   "questions": [
+    {
+     "q": "Using the method 'Labour Market: Wage Determination and the Demand for Labour', work with: marginal_product_of_labour = 20, marginal_revenue = 8. Carry the chain through step by step and give the final value of marginal_revenue_product_of_labour.",
+     "a": "160 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Labour Market: Wage Determination and the Demand for Labour' and work with: marginal_product_of_labour = 25, marginal_revenue = 15. Carry the chain through step by step and give the final value of marginal_revenue_product_of_labour.",
+     "a": "375 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Labour Market: Wage Determination and the Demand for Labour' refers to.",
+     "a": "Firms hire labour until the wage equals the marginal revenue product of labour - the extra revenue from one more worker - which under price taking equals price times marginal product; households weigh income against leisure, giving an upward-sloping market supply of labour, and the wage settles where the two curves cross.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Labour Market: Wage Determination and the Demand for Labour'.",
+     "a": "Hiring stops where the last worker adds exactly what the wage costs, and that rule slopes labour demand downward.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Labour Market: Wage Determination and the Demand for Labour', in plain ASCII form.",
+     "a": "marginal_revenue_product_of_labour = marginal_revenue * marginal_product_of_labour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.1.4",
+   "title": "Effects of a Demand Shift on Equilibrium",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effects of a Demand Shift on Equilibrium' refers to.",
+     "a": "With the number of firms fixed, a rightward shift of demand - from higher incomes for a normal good or more buyers - raises both equilibrium price and quantity, while a leftward shift lowers both; price and quantity always move together when demand shifts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effects of a Demand Shift on Equilibrium'.",
+     "a": "Move demand and equilibrium slides along the supply curve, carrying price and quantity in the same direction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Effects of a Demand Shift on Equilibrium', in plain ASCII form.",
+     "a": "demand_shift_right implies price_up and quantity_up (supply unchanged)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.1.5",
+   "title": "Effects of a Supply Shift on Equilibrium",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effects of a Supply Shift on Equilibrium' refers to.",
+     "a": "With demand unchanged, a leftward supply shift - say from costlier inputs - raises equilibrium price and lowers quantity, while a rightward supply shift from better technology or more firms lowers price and raises quantity; price and quantity move in opposite directions when supply shifts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effects of a Supply Shift on Equilibrium'.",
+     "a": "Move supply and equilibrium slides along the demand curve, pushing price and quantity in opposite directions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Effects of a Supply Shift on Equilibrium', in plain ASCII form.",
+     "a": "supply_shift_left implies price_up and quantity_down (demand unchanged)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.1.6",
+   "title": "Simultaneous Shifts of Demand and Supply",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Simultaneous Shifts of Demand and Supply' refers to.",
+     "a": "When both curves move at once, one equilibrium variable is pinned down by the direction of the shifts and the other depends on their relative size: same-direction shifts fix quantity but leave price ambiguous, opposite-direction shifts fix price but leave quantity ambiguous.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Simultaneous Shifts of Demand and Supply'.",
+     "a": "A shift fixes its own variable - demand governs quantity direction, supply governs price direction - and magnitudes settle the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Simultaneous Shifts of Demand and Supply', in plain ASCII form.",
+     "a": "both_shift_right implies quantity_up; price_ambiguous (depends on magnitudes)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.2.1",
+   "title": "Free Entry and Exit: Price at Minimum Average Cost and Number of Firms",
+   "questions": [
+    {
+     "q": "Using the method 'Free Entry and Exit: Price at Minimum Average Cost and Number of Firms', work with: demand_intercept = 60, demand_slope = 6, minimum_average_cost = 10, output_per_firm = 40. Carry the chain through step by step and give the final value of number_of_firms.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Free Entry and Exit: Price at Minimum Average Cost and Number of Firms' and work with: demand_intercept = 100, demand_slope = 6, minimum_average_cost = 10, output_per_firm = 40. Carry the chain through step by step and give the final value of number_of_firms.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Free Entry and Exit: Price at Minimum Average Cost and Number of Firms' refers to.",
+     "a": "With identical firms free to enter or leave, supernormal profits attract entrants and losses drive exits until price settles at the minimum average cost; the equilibrium quantity is whatever demand absorbs at that price, and the number of firms is that quantity divided by each firm's output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Free Entry and Exit: Price at Minimum Average Cost and Number of Firms'.",
+     "a": "Entry and exit police profits to normal, pinning price at the average cost floor while quantity follows demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Free Entry and Exit: Price at Minimum Average Cost and Number of Firms', in plain ASCII form.",
+     "a": "number_of_firms = equilibrium_quantity / output_per_firm",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.3.1",
+   "title": "Price Ceiling and Rationing",
+   "questions": [
+    {
+     "q": "Using the method 'Price Ceiling and Rationing', work with: quantity_demanded_at_ceiling = 360, quantity_supplied_at_ceiling = 120. Carry the chain through step by step and give the final value of shortage_from_ceiling.",
+     "a": "240 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Price Ceiling and Rationing' and work with: quantity_demanded_at_ceiling = 60, quantity_supplied_at_ceiling = 24. Carry the chain through step by step and give the final value of shortage_from_ceiling.",
+     "a": "36 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Ceiling and Rationing' refers to.",
+     "a": "A price ceiling is a government-imposed maximum set below the market clearing price for essentials; it creates a shortage that is usually shared out by rationing through fair price shops, bringing long queues and the risk of a black market.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Ceiling and Rationing'.",
+     "a": "Capping the price below equilibrium makes goods cheaper but scarcer, so rationing must ration out the shortfall.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Ceiling and Rationing', in plain ASCII form.",
+     "a": "shortage_from_ceiling = quantity_demanded_at_ceiling - quantity_supplied_at_ceiling",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.205.3.2",
+   "title": "Price Floor and Support Programmes",
+   "questions": [
+    {
+     "q": "Using the method 'Price Floor and Support Programmes', work with: quantity_demanded_at_floor = 24, quantity_supplied_at_floor = 360. Carry the chain through step by step and give the final value of surplus_from_floor.",
+     "a": "336 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Price Floor and Support Programmes' and work with: quantity_demanded_at_floor = 40, quantity_supplied_at_floor = 4. Carry the chain through step by step and give the final value of surplus_from_floor.",
+     "a": "-36 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Floor and Support Programmes' refers to.",
+     "a": "A price floor is a government-imposed minimum set above the market clearing price, as in farm support prices or minimum wage laws; it creates a surplus that the government must buy up, or in the labour market, potential unemployment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Floor and Support Programmes'.",
+     "a": "Propping the price above equilibrium rewards sellers per unit but leaves unsold surplus for the state to absorb.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Floor and Support Programmes', in plain ASCII form.",
+     "a": "surplus_from_floor = quantity_supplied_at_floor - quantity_demanded_at_floor",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

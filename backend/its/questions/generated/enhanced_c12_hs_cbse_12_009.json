@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_009",
+   "title": "c12_hs_cbse_12_009",
+   "questions": [
+    {
+     "q": "What is the FIRST step in the programme planning process according to the NCERT Class 12 Home Science textbook?",
+     "a": "The first step is Situation Analysis (or \"Understanding the Situation\"). A wrong answer like \"Setting objectives\" or \"Identifying needs\" reveals the student confuses the sequence — they jump to solutions before understanding the context. Situation analysis involves collecting data about the community's resources, problems, customs, and existing programmes. Without this, objectives may be unrealistic or irrelevant.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"flexibility\" is a critical principle of programme planning in extension education. Give a concrete village-level example.",
+     "a": "Flexibility allows the plan to adapt to unexpected changes like weather, policy shifts, or community feedback. For example, if a planned dairy training must shift from monsoon to winter due to fodder scarcity, a flexible plan adjusts timelines and resources without abandoning the objective. A wrong answer like \"flexibility means changing objectives anytime\" shows misunderstanding — flexibility applies to methods and timing, not core objectives which remain need-based.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker plans a nutrition programme for adolescent girls. She sets the objective: \"Improve nutritional status of 100 girls in 3 months.\" During implementation, she finds girls attend irregularly due to school exams. Using the programme cycle, what should she do NEXT and WHY?",
+     "a": "She should modify the implementation schedule (e.g., shift sessions to weekends) and document this change — this is the \"Reconsideration\" step feeding back into \"Plan of Work.\" The cycle demands that evaluation findings (irregular attendance) trigger adjustments before the next cycle. A wrong answer like \"continue as planned\" or \"abandon the programme\" shows failure to grasp the cyclic, adaptive nature of programme planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Top-down\" and \"Participatory\" approaches to programme planning across these dimensions: (a) Who identifies needs? (b) Role of local people? (c) Sustainability of outcomes. Which approach aligns with NCERT principles?",
+     "a": "Top-down: (a) External experts, (b) Passive recipients, (c) Low sustainability. Participatory: (a) Community with facilitator, (b) Active partners in planning/implementation, (c) High sustainability. NCERT emphasizes participatory planning (principle of \"cooperation\" and \"based on felt needs\"). A wrong answer claiming top-down is faster and therefore better misses the core extension philosophy: empowerment and ownership ensure lasting change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this objective for a sanitation programme: \"Make the village open-defecation free.\" Is it a well-formulated extension objective? Justify using SMART criteria.",
+     "a": "No, it lacks specificity and measurability. A SMART version: \"Achieve 100% household toilet construction and usage in Village X within 12 months, verified by monthly spot-checks.\" The original is a vision, not an operational objective — it doesn't specify target population, timeline, or verification method. Students often confuse goals with objectives; this error leads to unevaluable programmes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page programme cycle diagram for a \"Kitchen Garden Promotion\" project in a tribal block. Include all 7 steps, show feedback loops, and label where community participation occurs. Use only standard extension terminology.",
+     "a": "A good diagram shows: 1. Situation Analysis (community mapping) → 2. Need Identification (nutrition deficit) → 3. Objective Setting (SMART) → 4. Plan of Work (activities, timeline, budget) → 5. Implementation (training, seed distribution) → 6. Evaluation (adoption rate, yield) → 7. Reconsideration (modify crops, timing) → back to Step 1. Community participation marked at Steps 1, 2, 4, 5, 6. Poor answers miss feedback arrows or treat evaluation as an endpoint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

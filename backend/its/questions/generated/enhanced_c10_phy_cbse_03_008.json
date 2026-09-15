@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_008",
+   "title": "c10_phy_cbse_03_008",
+   "questions": [
+    {
+     "q": "Name the two major gaseous pollutants released during combustion of coal in a thermal power plant that contribute to acid rain.",
+     "a": "Sulphur dioxide (SO₂) and nitrogen oxides (NOₓ). A wrong answer (e.g., naming CO₂ or CO) reveals the student confuses greenhouse gases with acid rain precursors — a specific board exam trap where SO₂/NOₓ are the required keywords for acid rain questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why nuclear energy is considered a low-carbon source but still poses a long-term environmental hazard that fossil fuels do not.",
+     "a": "Nuclear fission emits negligible CO₂ during operation (low-carbon), but produces high-level radioactive waste (spent fuel) requiring isolation for thousands of years — a persistent radiological hazard absent in fossil fuel waste. A wrong answer focusing only on \"radiation leaks\" or \"meltdowns\" misses the specific distinction: **routine waste management** vs **accidental release**, which is the board exam differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "A 500 MW coal-fired power plant operates at 35% efficiency. Calorific value of coal = 25 MJ/kg. Carbon content = 70% by mass. Calculate the mass of CO₂ emitted per hour. (Molar mass: C=12, O=16). Use the reaction: C + O₂ → CO₂.",
+     "a": "**Step 1:** Electrical energy output per hour = 500 MW × 3600 s = 1.8×10⁹ J = 1800 MJ.  \n**Step 2:** Heat input required = Output / Efficiency = 1800 MJ / 0.35 = 5142.86 MJ.  \n**Step 3:** Mass of coal burnt = Heat input / Calorific value = 5142.86 MJ / 25 MJ/kg = 205.71 kg.  \n**Step 4:** Mass of carbon in coal = 70% of 205.71 kg = 144 kg.  \n**Step 5:** Moles of carbon = 144,000 g / 12 g/mol = 12,000 mol.  \n**Step 6:** Moles of CO₂ produced = 12,000 mol (1:1 stoichiometry). Mass of CO₂ = 12,000 mol × 44 g/mol = 528,000 g = **528 kg CO₂ per hour**.  \nA wrong answer often forgets the efficiency factor (Step 2) or uses 12 g/mol for CO₂ molar mass — both are common board exam calculation errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of a large hydroelectric dam versus a solar photovoltaic farm of equivalent capacity (100 MW) on three parameters: (i) land submergence, (ii) methane emissions, (iii) end-of-life waste.",
+     "a": "(i) Hydro: submerges vast forest/agricultural land (ecosystem loss, displacement). Solar: uses dry/waste land, no submergence.  \n(ii) Hydro: submerged vegetation decays anaerobically → significant CH₄ (potent GHG). Solar: negligible operational emissions.  \n(iii) Hydro: minimal waste (concrete/steel). Solar: panels contain toxic metals (Cd, Pb) requiring e-waste recycling after 25 years.  \nA wrong answer claiming \"hydro has zero emissions\" ignores reservoir methane — a specific IPCC/NCERT highlighted issue.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Biogas plants solve both energy and waste problems in villages with zero negative environmental impact.\"",
+     "a": "**False.** While biogas utilizes cattle dung/agri-waste (reducing methane from open decay) and provides clean cooking fuel, it has impacts: (1) Slurry discharge can cause waterlogging and nitrate leaching if not managed. (2) Incomplete combustion in traditional stoves still emits particulates. (3) Large-scale plants may compete with fodder/fertilizer use of dung. Board exams test this nuance: **renewable ≠ impact-free**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-based investigation to compare particulate matter (PM2.5) levels near a diesel generator set versus a rooftop solar installation during operational hours.",
+     "a": "**Good answer criteria:** (1) Use identical low-cost PM sensors (e.g., Plantower PMS5003) placed 5m from each source at same height. (2) Log data every 5 min for 2 hours during typical load. (3) Control: measure background AQI simultaneously. (4) Present as time-series graph with mean±SD. (5) Conclude with statistical comparison (t-test if taught). A poor answer lacks controls, uses single snapshot readings, or ignores meteorological variables (wind).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

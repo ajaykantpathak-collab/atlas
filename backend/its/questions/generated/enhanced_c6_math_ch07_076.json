@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_076",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_076",
+   "title": "c6_math_ch07_076",
+   "questions": [
+    {
+     "q": "What is the name of the line segment that connects two points on a circle and passes through the center?",
+     "a": "The line segment is called the diameter. A student who answers \"radius\" confuses the line from the center to the edge with the line stretching across the entire circle.",
+     "self_check": true
+    },
+    {
+     "q": "If a circle has a radius of 5 cm, why is it incorrect to say the diameter is 5 cm as well?",
+     "a": "It is incorrect because the diameter must stretch from one side to the other, covering two radii; thus, it is 10 cm. A student who says it remains 5 cm fails to understand that the diameter represents the full width, not just the distance from the center.",
+     "self_check": true
+    },
+    {
+     "q": "A circular park has a diameter of 20 meters. If a path is built from the center to the edge, how long will the path be?",
+     "a": "The path (radius) will be 10 meters. We find this by dividing the diameter (20m) by 2 (20 ÷ 2 = 10). A student who answers 40m has mistakenly multiplied instead of dividing.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the diameter considered a special type of chord?",
+     "a": "The diameter is a chord because it connects two points on the circle, but it is special because it is the longest possible chord as it passes through the center. A student who cannot explain this does not see the relationship between a general chord and the diameter.",
+     "self_check": true
+    },
+    {
+     "q": "If you draw a chord that does not pass through the center, is it still a diameter? Why or why not?",
+     "a": "No, it is not a diameter. A diameter must pass through the center to be the longest line segment; any other chord is shorter. A student who says \"yes\" does not understand the unique requirement of the diameter passing through the center.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a circle and mark a point A on the edge and point B on the edge. Draw a chord AB and an arc AB. How do they differ?",
+     "a": "The chord AB is a straight line segment, while the arc AB is the curved path along the edge of the circle. A poor answer would fail to distinguish between the straight distance and the curved boundary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

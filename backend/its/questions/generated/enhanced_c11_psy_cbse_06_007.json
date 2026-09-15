@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_007",
+   "title": "c11_psy_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the core assumption of Trace Decay Theory and name the classic experimental finding that contradicts it.",
+     "a": "**Core assumption**: Memory traces are physical changes in the brain that fade automatically when not rehearsed/used over time. **Contradicting finding**: Jenkins and Dallenbach (1924) showed participants who *slept* after learning forgot *less* than those who stayed awake — if decay were due to disuse, sleep (no rehearsal) should cause *more* forgetting, not less.  \n**Wrong answer reveals**: Student confuses decay with interference (e.g., \"sleep reduces interference so decay is proven\") or misstates the finding (e.g., \"awake group forgot less\"). This shows they haven't grasped that decay theory predicts *time-based* loss, while the sleep/wake study isolates *intervening activity* as the critical factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student learns List A (Spanish words), then List B (Italian words), then fails to recall List A. They claim: \"This proves retroactive interference because List B came after List A.\" Explain why this reasoning is incomplete and what experimental control is needed to confirm retroactive interference.",
+     "a": "**Correct reasoning**: Retroactive interference requires showing that List B *caused* the forgetting of List A *beyond* what would happen from time passage alone. The student's claim confuses temporal sequence with causation. A **control group** must learn List A, then *rest* (no List B), then recall List A. Only if the experimental group (learns List B) recalls *significantly less* List A than the control group can retroactive interference be inferred.  \n**Wrong answer reveals**: Student treats \"learning B after A → poor recall of A\" as sufficient proof, ignoring the need for a no-interference baseline. This is the most common Class 11 error: missing the *comparative experimental design* (Table 6.1) that isolates interference from decay.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proactive interference experiment to test whether learning Chemistry formulas *before* Physics formulas reduces Physics recall. Specify: (a) experimental group procedure, (b) control group procedure, (c) dependent variable, (d) predicted outcome if proactive interference operates.",
+     "a": "**Design**:  \n(a) **Experimental group**: Learn Chemistry formulas (List A) → Learn Physics formulas (List B) → Recall Physics formulas (List B).  \n(b) **Control group**: *Rest* (no List A) → Learn Physics formulas (List B) → Recall Physics formulas (List B).  \n(c) **Dependent variable**: Number of Physics formulas correctly recalled.  \n(d) **Predicted outcome**: Experimental group recalls *fewer* Physics formulas than control group, because prior Chemistry learning (List A) proactively interferes with later Physics learning (List B).  \n**Wrong answer reveals**: Student swaps experimental/control procedures (e.g., control learns Chemistry too), measures wrong DV (recalls Chemistry instead of Physics), or predicts *retroactive* interference pattern. Shows confusion about *directionality*: proactive = past→future, retroactive = future→past.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (i) Why does Trace Decay Theory predict *more* forgetting after 8 hours awake than 8 hours asleep, while Interference Theory predicts the *opposite*? (ii) How does Retrieval Failure Theory differ from both in explaining the *same* sleep/wake data?",
+     "a": "**(i) Decay vs Interference on sleep/wake**:  \n- **Decay**: Traces fade with *time*. 8 hours = 8 hours decay regardless of state → predicts *equal* forgetting. (But historically, decay theorists assumed \"disuse\" during sleep = *more* decay, hence the Jenkins-Dallenbach result contradicted them.)  \n- **Interference**: Forgetting comes from *competing learning*. Awake = interference from daily activities; Asleep = minimal interference → predicts *less* forgetting after sleep.  \n\n**(ii) Retrieval Failure difference**: Argues traces are *intact* in both conditions; sleep provides *better retrieval cues* (e.g., context match, reduced cue overload) or consolidates cue-target links. Forgetting is not trace loss or competition — it's *cue mismatch* at recall.  \n**Wrong answer reveals**: Student conflates decay and interference predictions (e.g., \"both predict less forgetting after sleep\") or treats retrieval failure as \"just another interference type.\" Misses the *theoretical locus*: decay = storage, interference = retrieval competition, retrieval failure = cue absence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Repression explains why crime witnesses often forget traumatic details — the memories are too painful, so the unconscious blocks them.\" Use evidence from NCERT Box 6.4 and modern memory research to support your judgment.",
+     "a": "**Evaluation**: The claim *partially aligns* with Freud's repression concept (Box 6.4: \"painful, threatening, embarrassing memories held out of consciousness\") but **overgeneralizes** and **misapplies** it.  \n- **Support**: Repression *can* explain *complete* amnesia for *personally traumatic* events (e.g., abuse, fugue states in Box 6.4).  \n- **Contradiction**: Witness forgetting is usually *fragmentary*, not total; details return with cues (retrieval failure); high stress *impairs encoding* (not retrieval) via amygdala-hippocampus disruption — not unconscious blocking. Modern research shows *suppression* (conscious effort) and *encoding failure* are more common than Freudian repression.  \n**Verdict**: Plausible for *clinical* amnesia, *inadequate* for *eyewitness* forgetting.  \n**Wrong answer reveals**: Student accepts repression as a universal explanation for all stress-related forgetting, ignoring encoding/retrieval distinctions and over-attributing to unconscious motives. Shows lack of critical evaluation skill needed for board \"analyze\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a *realistic* Class 11 scenario where **all three theories** (decay, interference, repression) could *plausibly* explain a student's forgetting — then specify *one unique prediction* each theory makes that would let a researcher distinguish them experimentally.",
+     "a": "**Scenario**: Rohan studies Biology Chapter 5 (Cell Structure) on Monday. On Tuesday, he studies Chemistry Chapter 2 (Atomic Structure). On Wednesday, he witnesses a minor lab accident (broken beaker, no injuries). On Thursday's Biology test, he cannot recall *any* Cell Structure content.  \n\n**Unique experimental predictions**:  \n| Theory | Unique Prediction | Test Design |  \n|--------|-------------------|-------------|  \n| **Trace Decay** | Forgetting correlates *only* with *time elapsed* (Mon→Thu), *not* with Tuesday's Chemistry study or Wednesday's accident. | Compare Group 1 (Mon Bio → Tue Chem → Thu test) vs Group 2 (Mon Bio → Tue rest → Thu test). **Decay predicts equal forgetting.** |  \n| **Interference** | Forgetting is *greater* in Group 1 (Chem interpolated) than Group 2 (rest). *Specificity*: Chemistry (similar structural content) causes *more* interference than unrelated task (e.g., jogging). | Add Group 3 (Mon Bio → Tue jogging → Thu test). **Interference predicts: Group 1 < Group 3 ≈ Group 2 recall.** |  \n| **Repression** | Forgetting is *selective* for *accident-related* Biology content (e.g., cell membrane rupture), not general cell facts. *No forgetting* if accident hadn't occurred. | Compare recall of \"cell membrane\" vs \"mitochondria\" items. **Repression predicts: membrane items << mitochondria items *only* in accident group.** |  \n\n**Poor answer reveals**: Student gives vague predictions (\"decay = time, interference = other subjects, repression = trauma\") without *testable, mutually exclusive* experimental contrasts. Shows inability to operationalize theories — a key board exam competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

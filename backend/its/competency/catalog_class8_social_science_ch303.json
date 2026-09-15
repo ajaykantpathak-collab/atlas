@@ -1,0 +1,738 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 303,
+ "chapter_title": "Parliament and the Making of Laws",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees206.txt",
+ "concepts": [
+  {
+   "id": "hess.303.1.1",
+   "title": "Universal Adult Franchise and Democratic Consent",
+   "section": "Why should People Decide?",
+   "definition": "The democratic entitlement granting every mature citizen the prerogative to participate in political elections without discrimination.",
+   "formula": "voting_age_threshold = 18",
+   "key_idea": "Democratic authority originates directly from the consent and collective electoral choices of the citizenry.",
+   "textbook_ref": "hess303.txt lines 45-92",
+   "question_patterns": [
+    "What is meant by universal adult franchise in modern governance?",
+    "Explain why the Indian independence struggle championed the right to vote for all mature citizens.",
+    "How does popular consent establish the foundation of a democratic administration?",
+    "Describe the significance of the principle that every citizen has an equal vote.",
+    "Identify the primary reasons nationalists demanded voting rights for all adults."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify principle",
+     "explain": "Verify that universal adult franchise grants every adult individual equal voting power."
+    },
+    {
+     "step": 2,
+     "action": "link to sovereignty",
+     "explain": "Demonstrate that popular approval through ballots legitimises constitutional state authority."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.2.1",
+   "title": "Representative Democracy and Legislative Delegation",
+   "section": "People and their Representatives",
+   "definition": "A governance structure wherein the populace does not rule directly but delegates policy decisions to elected deputies.",
+   "formula": "delegated_authority = popular_vote -> legislative_seats",
+   "key_idea": "Citizens direct and supervise governance through representatives chosen from distinct territorial constituencies.",
+   "textbook_ref": "hess303.txt lines 95-135",
+   "question_patterns": [
+    "What is the functioning model of a representative democracy?",
+    "How do citizens indirectly guide policy creation through their selected representatives?",
+    "Explain the link between territorial electoral constituencies and parliamentary deputies.",
+    "Why are legislative members elected for defined periodic terms rather than indefinitely?",
+    "Describe how an electorate controls administrative authorities through regular general ballots."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define representative mechanism",
+     "explain": "Check that the polity selects members from delineated constituencies to act on their behalf."
+    },
+    {
+     "step": 2,
+     "action": "verify periodic accountability",
+     "explain": "Confirm that periodic terms guarantee responsiveness and enable replacement by voters."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.1",
+   "title": "Lok Sabha Majority for Government Formation",
+   "section": "The Role of the Parliament",
+   "definition": "The mathematical threshold of elected legislators a political party or coalition must secure to establish the national executive.",
+   "formula": "majority_seats = (total_seats // 2) + 1",
+   "key_idea": "Executive authority requires commanding more than half of the elected membership of the lower house.",
+   "textbook_ref": "hess303.txt lines 185-225",
+   "question_patterns": [
+    "Calculate the number of seats needed to secure a majority in the Lok Sabha with total_seats seats.",
+    "Find the majority threshold required to form the central administration given total_seats seats.",
+    "What is the minimum seat requirement for a winning legislative majority when total_seats are contested?",
+    "Determine the majority mark in a house comprising total_seats legislators.",
+    "How much support is strictly needed in an assembly of total_seats members to form the executive?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by two",
+     "explain": "Compute integer half of total seats in the lower house",
+     "compute": "half_seats = total_seats // 2"
+    },
+    {
+     "step": 2,
+     "action": "add one for majority",
+     "explain": "A working majority requires at least one seat beyond half",
+     "compute": "majority_seats = half_seats + 1"
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.2",
+   "title": "Coalition Government Formation",
+   "section": "To Select the National Government",
+   "definition": "An alliance formed by multiple political factions when no single party secures an absolute legislative majority.",
+   "formula": "coalition_seats = party_a_seats + party_b_seats >= majority_threshold",
+   "key_idea": "Distinct political groups unite around common priorities to meet the executive threshold.",
+   "textbook_ref": "hess303.txt lines 215-245",
+   "question_patterns": [
+    "What necessitates the emergence of a coalition government after general elections?",
+    "Explain how multiple political factions collaborate when single-party majorities are absent.",
+    "How do allied groups fulfill constitutional criteria to select the Prime Minister and ministers?",
+    "Describe the factors that prompt regional and national parties to form a joint ministry.",
+    "Identify how coalition arrangements maintain collective accountability in Parliament."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess majority condition",
+     "explain": "Check if any individual party secured at least the constitutional majority boundary."
+    },
+    {
+     "step": 2,
+     "action": "validate coalition pact",
+     "explain": "Verify that post-poll alliances consolidate enough combined seats to surpass the majority mark."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.3",
+   "title": "Composition of Rajya Sabha",
+   "section": "The Role of the Parliament",
+   "definition": "The aggregate tally of members constituting the Council of States through indirect state election and presidential nomination.",
+   "formula": "total_rs_members = elected_rs + nominated_rs",
+   "key_idea": "The upper house combines state-elected representatives with distinguished presidential nominees.",
+   "textbook_ref": "hess303.txt lines 240-265",
+   "question_patterns": [
+    "Calculate the total strength of the Rajya Sabha having elected_rs elected and nominated_rs nominated members.",
+    "Find the total membership of the Council of States given elected_rs and nominated_rs.",
+    "Determine the aggregate strength when elected_rs state delegates join nominated_rs appointed figures.",
+    "What is the total count of Rajya Sabha seats combining elected_rs and nominated_rs?",
+    "Compute the combined number of upper house members from elected_rs state delegates and nominated_rs nominees."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum elected and nominated seats",
+     "explain": "Combine indirectly elected state legislators with presidential appointees",
+     "compute": "total_rs_members = elected_rs + nominated_rs"
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.4",
+   "title": "Parliamentary Oversight via Question Hour",
+   "section": "To Control, Guide and Inform the Government",
+   "definition": "The formal opening interval of legislative sessions allowing lawmakers to interrogate ministerial functioning and policies.",
+   "formula": "executive_scrutiny = questions_posed + ministerial_replies",
+   "key_idea": "Questioning executive officials keeps the ministry vigilant and accountable to public interests.",
+   "textbook_ref": "hess303.txt lines 266-310",
+   "question_patterns": [
+    "What is the significance of Question Hour in controlling executive action?",
+    "How do lawmakers use parliamentary queries to highlight governance shortcomings?",
+    "Explain the mechanism through which legislative interrogations provide public feedback to ministries.",
+    "Describe how Question Hour sustains day-to-day administrative transparency.",
+    "Identify the primary utility of parliamentary queries regarding welfare scheme implementations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify oversight tool",
+     "explain": "Confirm Question Hour initiates daily parliamentary sessions to elicit operational disclosures."
+    },
+    {
+     "step": 2,
+     "action": "examine feedback mechanism",
+     "explain": "Demonstrate that ministerial replies force public departments to rectify identified flaws."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.5",
+   "title": "Constitutional Function of the Opposition",
+   "section": "To Control, Guide and Inform the Government",
+   "definition": "Legislative parties remaining outside the governing coalition tasked with scrutinising executive proposals and offering alternatives.",
+   "formula": "opposition_strength = total_house_seats - ruling_coalition_seats",
+   "key_idea": "An active opposition curbs unilateral executive actions and mobilises public consciousness on national issues.",
+   "textbook_ref": "hess303.txt lines 200-215, lines 275-285",
+   "question_patterns": [
+    "What role does the opposition party perform within a healthy constitutional order?",
+    "How do non-ruling political parties point out weaknesses in state policy frameworks?",
+    "Explain the duties of the principal opposition group inside the legislative chamber.",
+    "Describe how opposing factions rally citizen sentiment regarding contentious legislative matters.",
+    "Why is an active parliamentary opposition considered indispensable for democratic governance?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify non-governing parties",
+     "explain": "Identify all elected factions not included in the ruling majority formation."
+    },
+    {
+     "step": 2,
+     "action": "evaluate watchdog duties",
+     "explain": "Verify their role in critiquing state budgets, legislative acts, and executive shortcomings."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.4.1",
+   "title": "Citizen Advocacy and the Legislative Process",
+   "section": "How Do New Laws Come About?",
+   "definition": "The participatory pathway wherein civil society groups articulate social issues to prompt statutory enactments by parliamentarians.",
+   "formula": "statutory_act = social_advocacy + committee_scrutiny + presidential_assent",
+   "key_idea": "Statutory evolution often commences with civilian campaigns that compel Parliament to address urgent social grievances.",
+   "textbook_ref": "hess303.txt lines 315-375",
+   "question_patterns": [
+    "How did citizen mobilisations help enact the Domestic Violence Act 2005?",
+    "Describe the stages involved in turning a widespread public concern into an enforceable statute.",
+    "Explain the contribution of standing committees and civil petitions in revising proposed legislation.",
+    "What role do public forums and media reports serve in advancing novel legislative protections?",
+    "Detail the progression of draft proposals from civil draft circulation to final presidential approval."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social mobilization",
+     "explain": "Recognize that civic testimonies and advocacy groups draft initial legislative proposals."
+    },
+    {
+     "step": 2,
+     "action": "trace parliamentary passage",
+     "explain": "Follow standing committee reviews, bilateral chamber voting, and eventual presidential consent."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.5.1",
+   "title": "Popular Resistance to Arbitrary and Repressive Laws",
+   "section": "Unpopular and Controversial Laws",
+   "definition": "Civil dissent exercised by citizens against statutes that are formally valid yet perceived as unjust, inequitable, or repressive.",
+   "formula": "civil_resistance = public_meetings + media_criticism + peaceful_boycotts",
+   "key_idea": "Democratic engagement extends beyond polling day to active resistance against unfair legislative actions.",
+   "textbook_ref": "hess303.txt lines 380-435",
+   "question_patterns": [
+    "Why can a constitutionally valid law still provoke intense public disapproval?",
+    "How do citizens manifest opposition to statutes that curb basic human liberties?",
+    "Explain why colonial measures like the Sedition Act of 1870 are described as arbitrary.",
+    "Describe historical instances of peaceful defiance that triggered significant legal reforms.",
+    "What peaceful methods are accessible to citizens protesting against unpopular municipal or central laws?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish legality from legitimacy",
+     "explain": "A statute passed by standard legislative voting may still conflict with democratic equity."
+    },
+    {
+     "step": 2,
+     "action": "verify forms of civil expression",
+     "explain": "Examine peaceful demonstrations, editorial commentary, and public protests demanding repeal or reform."
+    }
+   ]
+  },
+  {
+   "id": "hess.303.5.2",
+   "title": "Judicial Review of Unconstitutional Legislation",
+   "section": "Unpopular and Controversial Laws",
+   "definition": "The constitutional authority of independent courts to alter, strike down, or invalidate enactments violating constitutional norms.",
+   "formula": "judicial_action = strike_down if law_contravenes_constitution else uphold",
+   "key_idea": "The judiciary acts as a final safeguard ensuring all parliamentary legislation complies with foundational constitutional guarantees.",
+   "textbook_ref": "hess303.txt lines 405-430",
+   "question_patterns": [
+    "How do courts intervene when legislative acts violate constitutional guarantees?",
+    "What recourse is available to individuals affected by unfair or discriminatory municipal statutes?",
+    "Explain the constitutional authority of the judiciary to amend or annul parliamentary laws.",
+    "Describe how judicial review resolves conflicts between urban zoning laws and vendors' livelihoods.",
+    "Why can citizens approach judicial tribunals to challenge statutory enactments?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify constitutional review power",
+     "explain": "Verify that appellate courts possess constitutional prerogative to evaluate statutes."
+    },
+    {
+     "step": 2,
+     "action": "determine judicial remedy",
+     "explain": "Confirm the court may annul or modify clauses contrary to constitutional rights."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess303.txt lines 185-210",
+   "concept": "hess.303.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the number of seats needed to secure a majority in the Lok Sabha with {total_seats} seats.",
+   "extracted_variables": {
+    "total_seats": 543
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by two",
+     "explain": "Compute integer half of total seats in the lower house",
+     "compute": "half_seats = total_seats // 2"
+    },
+    {
+     "step": 2,
+     "action": "add one for majority",
+     "explain": "A working majority requires at least one seat beyond half",
+     "compute": "majority_seats = half_seats + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess303.txt lines 185-210",
+   "concept": "hess.303.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the majority threshold required to form the central administration given {total_seats} seats.",
+   "extracted_variables": {
+    "total_seats": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by two",
+     "explain": "Compute integer half of total seats in the lower house",
+     "compute": "half_seats = total_seats // 2"
+    },
+    {
+     "step": 2,
+     "action": "add one for majority",
+     "explain": "A working majority requires at least one seat beyond half",
+     "compute": "majority_seats = half_seats + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess303.txt lines 240-265",
+   "concept": "hess.303.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total strength of the Rajya Sabha having {elected_rs} elected and {nominated_rs} nominated members.",
+   "extracted_variables": {
+    "elected_rs": 233,
+    "nominated_rs": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum elected and nominated seats",
+     "explain": "Combine indirectly elected state legislators with presidential appointees",
+     "compute": "total_rs_members = elected_rs + nominated_rs"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hess303.txt lines 240-265",
+   "concept": "hess.303.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find the total membership of the Council of States given {elected_rs} and {nominated_rs}.",
+   "extracted_variables": {
+    "elected_rs": 238,
+    "nominated_rs": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum elected and nominated seats",
+     "explain": "Combine indirectly elected state legislators with presidential appointees",
+     "compute": "total_rs_members = elected_rs + nominated_rs"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is meant by universal adult franchise in modern governance?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify principle",
+     "explain": "Verify that universal adult franchise grants every adult individual equal voting power."
+    },
+    {
+     "step": 2,
+     "action": "link to sovereignty",
+     "explain": "Demonstrate that popular approval through ballots legitimises constitutional state authority."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why the Indian independence struggle championed the right to vote for all mature citizens.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify principle",
+     "explain": "Verify that universal adult franchise grants every adult individual equal voting power."
+    },
+    {
+     "step": 2,
+     "action": "link to sovereignty",
+     "explain": "Demonstrate that popular approval through ballots legitimises constitutional state authority."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is the functioning model of a representative democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define representative mechanism",
+     "explain": "Check that the polity selects members from delineated constituencies to act on their behalf."
+    },
+    {
+     "step": 2,
+     "action": "verify periodic accountability",
+     "explain": "Confirm that periodic terms guarantee responsiveness and enable replacement by voters."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "How do citizens indirectly guide policy creation through their selected representatives?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define representative mechanism",
+     "explain": "Check that the polity selects members from delineated constituencies to act on their behalf."
+    },
+    {
+     "step": 2,
+     "action": "verify periodic accountability",
+     "explain": "Confirm that periodic terms guarantee responsiveness and enable replacement by voters."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "What necessitates the emergence of a coalition government after general elections?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assess majority condition",
+     "explain": "Check if any individual party secured at least the constitutional majority boundary."
+    },
+    {
+     "step": 2,
+     "action": "validate coalition pact",
+     "explain": "Verify that post-poll alliances consolidate enough combined seats to surpass the majority mark."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how multiple political factions collaborate when single-party majorities are absent.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assess majority condition",
+     "explain": "Check if any individual party secured at least the constitutional majority boundary."
+    },
+    {
+     "step": 2,
+     "action": "validate coalition pact",
+     "explain": "Verify that post-poll alliances consolidate enough combined seats to surpass the majority mark."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "What is the significance of Question Hour in controlling executive action?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify oversight tool",
+     "explain": "Confirm Question Hour initiates daily parliamentary sessions to elicit operational disclosures."
+    },
+    {
+     "step": 2,
+     "action": "examine feedback mechanism",
+     "explain": "Demonstrate that ministerial replies force public departments to rectify identified flaws."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "How do lawmakers use parliamentary queries to highlight governance shortcomings?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify oversight tool",
+     "explain": "Confirm Question Hour initiates daily parliamentary sessions to elicit operational disclosures."
+    },
+    {
+     "step": 2,
+     "action": "examine feedback mechanism",
+     "explain": "Demonstrate that ministerial replies force public departments to rectify identified flaws."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.5",
+   "question_type": "verify_property",
+   "question_pattern": "What role does the opposition party perform within a healthy constitutional order?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify non-governing parties",
+     "explain": "Identify all elected factions not included in the ruling majority formation."
+    },
+    {
+     "step": 2,
+     "action": "evaluate watchdog duties",
+     "explain": "Verify their role in critiquing state budgets, legislative acts, and executive shortcomings."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.3.5",
+   "question_type": "verify_property",
+   "question_pattern": "How do non-ruling political parties point out weaknesses in state policy frameworks?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify non-governing parties",
+     "explain": "Identify all elected factions not included in the ruling majority formation."
+    },
+    {
+     "step": 2,
+     "action": "evaluate watchdog duties",
+     "explain": "Verify their role in critiquing state budgets, legislative acts, and executive shortcomings."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "How did citizen mobilisations help enact the Domestic Violence Act 2005?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social mobilization",
+     "explain": "Recognize that civic testimonies and advocacy groups draft initial legislative proposals."
+    },
+    {
+     "step": 2,
+     "action": "trace parliamentary passage",
+     "explain": "Follow standing committee reviews, bilateral chamber voting, and eventual presidential consent."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the stages involved in turning a widespread public concern into an enforceable statute.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social mobilization",
+     "explain": "Recognize that civic testimonies and advocacy groups draft initial legislative proposals."
+    },
+    {
+     "step": 2,
+     "action": "trace parliamentary passage",
+     "explain": "Follow standing committee reviews, bilateral chamber voting, and eventual presidential consent."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why can a constitutionally valid law still provoke intense public disapproval?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish legality from legitimacy",
+     "explain": "A statute passed by standard legislative voting may still conflict with democratic equity."
+    },
+    {
+     "step": 2,
+     "action": "verify forms of civil expression",
+     "explain": "Examine peaceful demonstrations, editorial commentary, and public protests demanding repeal or reform."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "How do citizens manifest opposition to statutes that curb basic human liberties?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish legality from legitimacy",
+     "explain": "A statute passed by standard legislative voting may still conflict with democratic equity."
+    },
+    {
+     "step": 2,
+     "action": "verify forms of civil expression",
+     "explain": "Examine peaceful demonstrations, editorial commentary, and public protests demanding repeal or reform."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "How do courts intervene when legislative acts violate constitutional guarantees?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify constitutional review power",
+     "explain": "Verify that appellate courts possess constitutional prerogative to evaluate statutes."
+    },
+    {
+     "step": 2,
+     "action": "determine judicial remedy",
+     "explain": "Confirm the court may annul or modify clauses contrary to constitutional rights."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.303.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "What recourse is available to individuals affected by unfair or discriminatory municipal statutes?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify constitutional review power",
+     "explain": "Verify that appellate courts possess constitutional prerogative to evaluate statutes."
+    },
+    {
+     "step": 2,
+     "action": "determine judicial remedy",
+     "explain": "Confirm the court may annul or modify clauses contrary to constitutional rights."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex303.1",
+   "source_ref": "hess303.txt lines 450-452",
+   "questions": [
+    "Why do you think our national movement supported the idea that all adults have a right to vote?"
+   ]
+  },
+  {
+   "id": "ex303.2",
+   "source_ref": "hess303.txt lines 453-458",
+   "questions": [
+    "In this 2004 map of Parliamentary constituencies alongside, roughly identify the constituencies in your State. What is the name of the MP from your constituency? How many MPs does your state have? Why are certain constituencies coloured green while others are coloured blue?"
+   ]
+  },
+  {
+   "id": "ex303.3",
+   "source_ref": "hess303.txt lines 459-478",
+   "questions": [
+    "You have read in Chapter 1 that the 'Parliamentary form of government' that exists in India has three tiers. This includes the Parliament (central government) and the various State Legislatures (state governments). Fill in the table with information on the various representatives from your area."
+   ]
+  },
+  {
+   "id": "ex303.4",
+   "source_ref": "hess303.txt lines 479-482",
+   "questions": [
+    "Re-read the storyboard on how a new law on domestic violence got passed. Describe in your own words the different ways in which women's groups worked to make this happen."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

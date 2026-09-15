@@ -1,0 +1,205 @@
+{
+ "class": 8,
+ "subject": "english",
+ "chapter": 1,
+ "chapter_title": "The Wit that Won Hearts",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hepr101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hepr.1.1",
+   "title": "Tenali Rama's Wit Wins Hearts",
+   "section": "The Wit that Won Hearts, Let us read",
+   "definition": "Tenali Ramakrishna, the witty poet of Krishnadeva Raya's court, uses humour instead of argument; a plate of paddy seeds and a joke about yawning melt the king's anger and reunite him with Queen Thirumalambal.",
+   "formula": "wit + timing = problem solved",
+   "key_idea": "Wit works where lectures fail: laughter opens the mind that pride had closed.",
+   "textbook_ref": "hepr101.txt, The Wit that Won Hearts, Let us read",
+   "question_patterns": [
+    "how does tenali rama solve the quarrel between the king and the queen",
+    "why did the king stop speaking to queen thirumalambal",
+    "what trick did tenali rama play with the paddy seeds",
+    "how does the yawning joke make the king realise his mistake",
+    "why is tenali ramakrishna loved in the court of krishnadeva raya",
+    "what gifts did the royal couple give tenali rama"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the central events",
+     "explain": "Retell the main happenings in one or two sentences."
+    },
+    {
+     "step": 2,
+     "action": "trace the turn",
+     "explain": "Point to the moment of change, realisation or sacrifice."
+    },
+    {
+     "step": 3,
+     "action": "state the theme",
+     "explain": "Say the message of the text in one sentence of your own."
+    }
+   ]
+  },
+  {
+   "id": "hepr.1.2",
+   "title": "Pride and Apology: The Royal Quarrel",
+   "section": "The Wit that Won Hearts, Let us think and reflect",
+   "definition": "A small misunderstanding grows when pride blinds the king; harmony returns only when he admits that he overreacted, showing that a sincere apology can end a long silence.",
+   "formula": "",
+   "key_idea": "Pride prolongs quarrels; admitting fault, as the king does, needs maturity and self-awareness.",
+   "textbook_ref": "hepr101.txt, The Wit that Won Hearts, Let us think and reflect",
+   "question_patterns": [
+    "why did the king punish the queen for yawning",
+    "what does the king mean by i let my pride blind me",
+    "how did the queen feel during the weeks of silence",
+    "why does the queen say we can leave this quarrel behind us",
+    "what does the king's apology show about his character",
+    "how does the story end for the royal couple"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the cause",
+     "explain": "Note the tiny trigger, a yawn during a poem, that began the quarrel."
+    },
+    {
+     "step": 2,
+     "action": "follow the silence",
+     "explain": "Describe the sadness the quarrel spreads through the palace."
+    },
+    {
+     "step": 3,
+     "action": "watch the repair",
+     "explain": "Trace the apology that restores the bond and the joy of the court."
+    }
+   ]
+  },
+  {
+   "id": "hepr.1.3",
+   "title": "A Strategy of Indirect Teaching",
+   "section": "The Wit that Won Hearts, Let us read",
+   "definition": "Tenali Rama asks for time and plans his move; he raises the paddy seed matter in open court, lets the courtiers laugh first, and leads the king to the truth about yawning without ever mentioning the quarrel.",
+   "formula": "",
+   "key_idea": "Indirect teaching protects dignity: the learner discovers the lesson himself, so it is accepted gladly.",
+   "textbook_ref": "hepr101.txt, The Wit that Won Hearts, Let us read",
+   "question_patterns": [
+    "why does tenali rama ask for time before helping the queen",
+    "what is the strategy behind the special paddy seeds",
+    "why does tenali rama speak in the open court instead of privately",
+    "how do the courtiers react when rama shows his seeds",
+    "why does rama say the real issue is the person who sows the seeds",
+    "what makes the king realise that yawning is natural"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the goal",
+     "explain": "Say what Rama wants: the king must see his own unfairness."
+    },
+    {
+     "step": 2,
+     "action": "follow the plan",
+     "explain": "Trace each step, from the seed claim to the yawn question."
+    },
+    {
+     "step": 3,
+     "action": "judge the method",
+     "explain": "Explain why the indirect way succeeds where direct advice would fail."
+    }
+   ]
+  },
+  {
+   "id": "hepr.1.4",
+   "title": "Word Meanings: Distraught, Insurmountable and Sceptical",
+   "section": "The Wit that Won Hearts, Let us learn",
+   "definition": "Court-tale words take meaning from context: distraught means extremely sad, insurmountable means undefeatable, sceptical means doubtful, and orchestrated means arranged carefully.",
+   "formula": "",
+   "key_idea": "Feelings words like distraught and forlorn paint the silent palace before Rama's plan works.",
+   "textbook_ref": "hepr101.txt, The Wit that Won Hearts, Let us learn",
+   "question_patterns": [
+    "what does distraught mean in the story",
+    "which problems are called insurmountable here",
+    "who looked at rama with sceptical eyes",
+    "what does orchestrated the settlement mean",
+    "find the meaning of gnawed as used in the story",
+    "use the word profusely in a sentence of your own"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the word",
+     "explain": "Find the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "read the clues around it",
+     "explain": "Use nearby words to sense the meaning that fits."
+    },
+    {
+     "step": 3,
+     "action": "test a replacement",
+     "explain": "Swap in the guessed meaning and check the sentence still works."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr101.txt, Let us read",
+   "concept": "hepr.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Why does Tenali Rama introduce the paddy seeds in the full court instead of speaking to the king alone?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the king's mood",
+     "explain": "A private lecture on yawning would wound the king's pride all over again."
+    },
+    {
+     "step": 2,
+     "action": "see the design",
+     "explain": "Before the whole court, the yawning joke becomes public laughter, letting the king laugh at himself and change without being shamed."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hepr101.txt, Let us read (closing)",
+   "concept": "hepr.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "What does the queen's reply to the apology reveal about her?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read her words",
+     "explain": "She offers to leave the quarrel behind and asks to hear the poem."
+    },
+    {
+     "step": 2,
+     "action": "name the quality",
+     "explain": "Her readiness to forgive and her wish to listen show grace and affection."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hepr101.txt, Let us discuss and think and reflect",
+   "questions": [
+    "Rectify the false statements about the quarrel and the paddy seeds.",
+    "Why does the queen believe only Tenali Rama can help the king understand?",
+    "What does the queen's regret about choosing the wrong day suggest about her feelings?",
+    "How does the story conclude and what lesson can be learnt from it?",
+    "Why was the reign of Krishnadeva Raya called the Golden Era?"
+   ]
+  }
+ ]
+}

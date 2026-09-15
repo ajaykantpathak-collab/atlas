@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_005",
+   "title": "c12_hs_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define \"family\" in one sentence using the three essential criteria from the sociological perspective (membership, residence, roles).",
+     "a": "A family is a socially recognized group bound by marriage, blood, or adoption, sharing a common household, and enacting culturally defined roles (e.g., parent, child). A wrong answer that only mentions \"people living together\" misses the role/kinship dimension — students often confuse \"household\" (a residential unit) with \"family\" (a kinship/role unit). For example, four unrelated students sharing a flat are a household, not a family.",
+     "self_check": true
+    },
+    {
+     "q": "A couple lives with their two children and the husband's widowed mother. The mother contributes her pension to household expenses and cares for the grandchildren while the parents work. The couple makes major financial decisions jointly. Classify this family by structure AND explain why labeling it simply \"joint\" or \"nuclear\" is incomplete.",
+     "a": "Structurally, it is a **supplemented nuclear family** (nuclear core + one grandparent). Functionally, it operates as a **partially joint family** — economic pooling and childcare are shared, but decision-making authority rests with the nuclear couple. Labeling it only \"joint\" ignores the nuclear decision-making core; labeling it only \"nuclear\" ignores the grandmother's functional integration. Students often force binary classification; the correct approach is to describe structure and function separately.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"family functions\" framework to this scenario: A 14-year-old girl in a single-mother household learns budgeting by helping her mother manage monthly expenses, receives emotional support during exam stress, and attends a government school where she learns civic values. Identify which three family functions are illustrated and explain how the single-parent structure modifies each.",
+     "a": "1. **Economic function**: Mother-daughter budgeting replaces dual-parent income pooling; the child assumes adult-like financial socialization earlier. 2. **Psychological/emotional function**: The mother is sole provider of emotional security — no \"backup\" parent — increasing role strain. 3. **Socialization function**: Civic values are transmitted solely through mother + school (no father's modeling); the daughter may internalize gender-flexible roles. A wrong answer lists functions generically without linking to structural modification — e.g., \"family provides emotional support\" without noting the absence of a second parent changes HOW support is delivered.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"protective function\" of family in a traditional joint family versus a modern nuclear family in urban India. Use the concepts of **risk pooling** and **privacy-autonomy trade-off** in your analysis.",
+     "a": "In a joint family, protective function operates through **risk pooling**: multiple earners buffer job loss, illness, or old age; childcare is distributed. The trade-off is low privacy/autonomy — decisions are collective. In a nuclear family, protection relies on **formal systems** (insurance, savings, paid care) and **state/social safety nets**; the trade-off is high autonomy but concentrated risk — one job loss devastates the unit. Students often romanticize joint families as \"always protective\" or nuclear families as \"always free\" — the analytical lens is the risk-autonomy trade-off, not moral judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The rise of live-in relationships and single-parent families in urban India indicates the decline of the family as an institution.\" Defend your position using evidence from changing marriage ages, fertility rates, and legal recognition (e.g., Domestic Violence Act 2005, Supreme Court rulings on live-in partners).",
+     "a": "The statement is **false** — it confuses *structural change* with *institutional decline*. Evidence: (1) Marriage age rising (women: 22.1 years, NFHS-5) reflects delayed marriage, not rejection; (2) Fertility rate at 2.0 (replacement level) shows family formation continues; (3) Legal expansion (Domestic Violence Act 2005 covers live-in partners; Supreme Court grants inheritance/maintenance rights) proves the *institution* is adapting, not dying. Families are diversifying, not disappearing. A weak answer agrees with \"decline\" citing divorce rates without contextualizing legal/social recognition of new forms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question interview schedule for a sociological study on \"How urban middle-class Indian families negotiate elder care when adult children migrate for work.\" Ensure each question maps to a specific family function (economic, psychological, socialization, etc.) and captures structural constraints.",
+     "a": "Good schedule example: 1. Economic: \"How are caregiving costs (medical, hired help) shared among siblings living in different cities?\" 2. Psychological: \"How do you maintain emotional closeness with aging parents when visits are rare?\" 3. Socialization: \"What values about filial duty do you consciously teach your children, given distance?\" 4. Protective: \"What emergency plans exist if a parent falls ill suddenly?\" 5. Recreational: \"How does the family create shared leisure across households?\" Poor schedules ask generic \"How is elder care managed?\" without function-specific probes or structural context (migration, sibling dispersion).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

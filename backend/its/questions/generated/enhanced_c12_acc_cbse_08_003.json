@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_003",
+   "title": "c12_acc_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the primary base of comparison used in Vertical Analysis of a Statement of Profit and Loss.",
+     "a": "The primary base is **Revenue from Operations (Net Sales)**, expressed as 100%, against which all other items (Cost of Revenue from Operations, Gross Profit, Operating Expenses, Net Profit) are shown as percentages. A wrong answer (e.g., \"Total Assets\" or \"Previous Year's Revenue\") reveals the student confuses the base used for the Balance Sheet (Total Assets) with that for the Statement of Profit and Loss, or confuses Vertical Analysis with Horizontal Analysis where the base is the prior period's figure.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Horizontal Analysis and Vertical Analysis are the same thing because both calculate percentages.\" Explain why this statement is incorrect by identifying the fundamental difference in *what* is being compared.",
+     "a": "The statement is incorrect because Horizontal Analysis compares **the same line item across different time periods** (e.g., Revenue 2023 vs Revenue 2022 vs Revenue 2021) to spot trends, while Vertical Analysis compares **different line items within the same period** against a common base (e.g., Cost of Goods Sold as % of Revenue, Rent as % of Revenue in 2023 only) to reveal structural composition. A wrong explanation indicates the student focuses on the mechanical calculation of percentages rather than the analytical objective and dimension of comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for a company, identify which analysis (Horizontal or Vertical) each calculation represents:\n(A) Revenue from Operations 2023: ₹500 Lakhs; 2022: ₹400 Lakhs. Change = +₹100 Lakhs (+25%).\n(B) Revenue from Operations 2023: ₹500 Lakhs (100%); Cost of Revenue from Operations 2023: ₹300 Lakhs (60%); Gross Profit 2023: ₹200 Lakhs (40%).",
+     "a": "(A) is **Horizontal Analysis** — it compares Revenue across two years (2022 vs 2023) showing absolute and percentage change over time. (B) is **Vertical Analysis** — it expresses each 2023 item as a percentage of 2023 Revenue (the base) to show the profit structure within a single year. If a student swaps them, they confuse the *time-series* dimension (Horizontal) with the *cross-sectional/structural* dimension (Vertical).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the usefulness of Horizontal Analysis versus Vertical Analysis for the following two decisions:\n(i) A bank assessing whether a borrower's debt repayment capacity has improved over the last 3 years.\n(ii) An investor comparing the cost structure of two competing companies (Company A and Company B) for the current year.\nJustify your choice for each.",
+     "a": "(i) **Horizontal Analysis** is more useful because it tracks the *trend* of key solvency indicators (e.g., Debt-to-Equity, Interest Coverage Ratio, Cash Flow from Operations) over multiple years, revealing improvement or deterioration in repayment capacity.\n(ii) **Vertical Analysis** (Common Size Statements) is more useful because it standardises the statements by expressing all items as percentages of Revenue (or Total Assets), enabling direct *inter-firm comparison* of cost structures regardless of the companies' absolute size differences. A wrong match shows the student does not grasp the decision-context alignment: trend analysis → Horizontal; structural benchmarking → Vertical.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Vertical Analysis is superior to Horizontal Analysis because it allows comparison between companies of different sizes, whereas Horizontal Analysis only works for a single company over time.\"",
+     "a": "The statement is **partially correct but misleading**. Vertical Analysis *does* enable inter-firm comparison by removing size effects (common-size percentages), which is a key advantage. However, Horizontal Analysis is **not limited to a single company** — analysts routinely perform Horizontal Analysis on *multiple* companies and then compare their *trend patterns* (e.g., Company A's revenue grew 10% CAGR vs Company B's 5% CAGR). Moreover, Horizontal Analysis is indispensable for *intra-firm* trend detection (e.g., identifying creeping cost increases) which Vertical Analysis of a single year cannot reveal. The two are **complementary**, not hierarchical. A student calling one \"superior\" shows a lack of synthesis — they treat tools as substitutes rather than complements serving different analytical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-case: Create a hypothetical 3-year data set for a company's \"Revenue from Operations\" and \"Employee Benefits Expense\" where Horizontal Analysis shows a favourable trend but Vertical Analysis reveals a deteriorating structural position. Present the data and explain the contradiction.",
+     "a": "**Hypothetical Data (₹ Lakhs):**\n| Year | Revenue | Employee Expense | Horizontal: Expense Growth | Vertical: Expense % of Revenue |\n|------|---------|------------------|----------------------------|-------------------------------|\n| 2021 | 100     | 20               | —                          | 20%                           |\n| 2022 | 120     | 22               | +10%                       | 18.3%                         |\n| 2023 | 150     | 30               | +36%                       | 20%                           |\n\n**Horizontal view:** Revenue grew 50% over 3 years; Employee Expense grew 50% (20→30) — seems proportional, \"favourable\".\n**Vertical view:** Employee Expense % was 20% (2021), dropped to 18.3% (2022), but **returned to 20% (2023)** — the structural gain was lost.\n**Contradiction:** Horizontal shows expense *kept pace* with revenue growth (both +50%), but Vertical exposes that the **expense ratio reverted to its original level**, meaning no sustainable efficiency improvement occurred. A good answer must show data where absolute growth rates match but the percentage-of-base ratio worsens or stagnates. A poor answer uses data where both analyses agree, missing the core concept that they measure different things.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

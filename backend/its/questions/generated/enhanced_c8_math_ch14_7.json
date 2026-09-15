@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_7",
+   "title": "c8_math_ch14_7",
+   "questions": [
+    {
+     "q": "If a rectangle has a perimeter of 20 cm, can you determine its exact area? Answer yes or no and give a reason.",
+     "a": "No, because multiple rectangles with perimeter 20 cm exist (e.g., 6×4 gives area 24 cm², 7×3 gives 21 cm², 9×1 gives 9 cm²). A wrong answer of \"yes\" reveals the student thinks perimeter uniquely fixes the dimensions, confusing the formula P = 2(l+w) with a single solution for l and w.",
+     "self_check": true
+    },
+    {
+     "q": "Two different shapes have the same perimeter. Student A says they must have the same area because the boundary length is identical. Student B says the areas can be different. Who is correct and why?",
+     "a": "Student B is correct. Perimeter is a one-dimensional measure of the boundary, while area is a two-dimensional measure of the interior. The same length of boundary can enclose different amounts of space depending on the shape's configuration. A wrong answer choosing Student A shows the student conflates linear and square measures, not recognizing that area depends on how the boundary is arranged.",
+     "self_check": true
+    },
+    {
+     "q": "A wire of length 36 cm is bent into a square. The same wire is then bent into a rectangle with length 13 cm. Find the area of each shape and state which shape encloses more area.",
+     "a": "Square: side = 36/4 = 9 cm, area = 9×9 = 81 cm². Rectangle: perimeter = 36 = 2(13 + breadth) → breadth = 5 cm, area = 13×5 = 65 cm². The square encloses more area (81 cm² > 65 cm²). A wrong answer might miscalculate breadth as 36 - 13 = 23 cm, showing confusion between perimeter and semi-perimeter, or forget to divide by 2.",
+     "self_check": true
+    },
+    {
+     "q": "Consider all rectangles with a fixed perimeter of 24 cm. As the length increases from 1 cm to 11 cm, how does the area change? Describe the pattern and explain why it happens.",
+     "a": "Area increases from 11 cm² (1×11) to a maximum of 36 cm² (6×6 square), then decreases symmetrically to 11 cm² (11×1). This happens because area = l × (12 - l) = 12l - l², a quadratic that peaks when l = 6. A wrong answer stating area always increases or always decreases reveals the student hasn't explored the full range or doesn't see the symmetric relationship between length and breadth.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If you increase the perimeter of a shape, its area will always increase.\" Evaluate this statement with a counterexample or proof.",
+     "a": "The statement is false. Counterexample: A 10×1 rectangle has perimeter 22 cm and area 10 cm². A 6×6 square has perimeter 24 cm (larger) and area 36 cm² (larger). But a 20×1 rectangle has perimeter 42 cm (larger than 24) and area 20 cm² (smaller than 36). So increasing perimeter does not guarantee increased area. A wrong answer agreeing with the claim shows the student assumes a direct proportional relationship between perimeter and area.",
+     "self_check": true
+    },
+    {
+     "q": "Design two different shapes (not rectangles) that have the same perimeter but very different areas. Draw them on grid paper, label dimensions, and calculate both perimeters and areas to verify.",
+     "a": "Example: A right triangle with legs 6 cm and 8 cm (hypotenuse 10 cm) has perimeter 24 cm and area 24 cm². A regular hexagon with side 4 cm has perimeter 24 cm and area ≈ 41.6 cm². Both have perimeter 24 cm but different areas. A poor answer might use two rectangles, which doesn't show the concept extends beyond rectangles, or might not verify calculations, indicating lack of precision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

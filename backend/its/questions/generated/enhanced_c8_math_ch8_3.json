@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_3",
+   "title": "c8_math_ch8_3",
+   "questions": [
+    {
+     "q": "Write 40% as a fraction in simplest form and as a decimal.",
+     "a": "Fraction: 40/100 = 2/5. Decimal: 0.40 or 0.4. A wrong answer like 40/100 without simplifying reveals the student doesn't know to reduce fractions. Writing 0.04 reveals they shift the decimal point incorrectly (dividing by 1000 instead of 100).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 125% converts to a fraction greater than 1 and a decimal greater than 1, while 50% converts to values less than 1.",
+     "a": "125% means 125 per 100, which is 125/100 = 1.25, both greater than 1 because the numerator exceeds the denominator. 50% means 50 per 100 = 1/2 = 0.5, less than 1. A wrong answer that just states the conversions without comparing to 1 reveals the student treats the procedure mechanically without understanding the magnitude meaning of percent.",
+     "self_check": true
+    },
+    {
+     "q": "Convert 37.5% to a fraction in simplest form and to a decimal. Show all steps.",
+     "a": "Step 1: Write as fraction: 37.5/100. Step 2: Remove decimal by multiplying numerator and denominator by 10: 375/1000. Step 3: Simplify by dividing by 125: 3/8. Step 4: Decimal: 37.5 ÷ 100 = 0.375. A wrong answer of 37.5/100 = 0.375 without simplifying the fraction reveals the student doesn't handle decimal percentages correctly. Writing 3/8 but decimal 0.0375 reveals decimal shift error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conversions: 66 2/3% and 66.6%. Which fraction is exactly equivalent to the percentage? Why is one exact and the other approximate?",
+     "a": "66 2/3% = (200/3)% = 200/300 = 2/3 exactly. 66.6% = 66.6/100 = 666/1000 = 333/500, which is not exactly 2/3. The mixed number percentage represents the exact fraction 2/3, while the decimal percentage is a rounded approximation. A student who says both are 2/3 doesn't understand that terminating decimals cannot represent 1/3 exactly.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts 0.8% to a decimal and writes 0.8. Identify the error and show the correct conversion.",
+     "a": "The student forgot to divide by 100. 0.8% = 0.8/100 = 0.008. The error is treating the percentage number as already a decimal. Correct steps: 0.8% = 0.8/100 = 8/1000 = 0.008. A wrong answer that says \"move decimal two places left from 0.8 to get 0.008\" but then writes 0.08 reveals confusion about decimal places when the percentage is less than 1%.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation where you would need to convert a percentage like 12.5% to a fraction (1/8) to solve a problem mentally. Explain why the fraction helps.",
+     "a": "Example: A shirt costs ₹800 with 12.5% discount. Converting 12.5% to 1/8 lets you mentally compute discount as ₹800 × 1/8 = ₹100. The fraction 1/8 is easier to multiply than 0.125 or 12.5/100. A poor answer gives a situation but doesn't explain the computational advantage of the fraction form, showing lack of flexible thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

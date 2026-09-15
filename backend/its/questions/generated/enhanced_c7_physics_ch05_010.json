@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_010",
+   "title": "c7_physics_ch05_010",
+   "questions": [
+    {
+     "q": "What is the primary optical phenomenon responsible for the repeating patterns seen inside a kaleidoscope?",
+     "a": "The primary phenomenon is multiple reflections. A wrong answer like \"refraction\" or \"dispersion\" shows the student is confusing mirrors with lenses or prisms. Mirrors reflect light repeatedly between surfaces, which is the core principle of a kaleidoscope.",
+     "self_check": true
+    },
+    {
+     "q": "Why does decreasing the angle between two plane mirrors increase the number of images seen of an object placed between them?",
+     "a": "Decreasing the angle reduces the space between the reflecting surfaces, allowing light rays to bounce back and forth more times before escaping our eyes. A wrong answer stating that \"smaller angles make light travel faster\" confuses wave speed with geometric path length and reflection frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Two plane mirrors are placed at an angle of $60^\\circ$ to each other. Calculate the number of images formed of an object placed symmetrically between them.",
+     "a": "Steps: 1. Identify the given angle $\\theta = 60^\\circ$. 2. Use the multiple reflection formula $N = (\\frac{360^\\circ}{\\theta}) - 1$. 3. Substitute the angle: $N = (\\frac{360^\\circ}{60^\\circ}) - 1$. 4. Compute division: $360 / 60 = 6$. 5. Subtract one: $6 - 1 = 5$ images. The answer is 5 images. A wrong answer of 6 indicates the student forgot to subtract 1 for overlapping symmetrical images.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the number of images formed if the angle between two mirrors is changed from $90^\\circ$ to $45^\\circ$.",
+     "a": "At $90^\\circ$, $N = (\\frac{360}{90}) - 1 = 3$ images. At $45^\\circ$, $N = (\\frac{360}{45}) - 1 = 7$ images. Halving the angle more than doubles the number of images because multiple reflections multiply exponentially with tighter angles. A wrong answer assuming a linear decrease shows a misunderstanding of angular geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a kaleidoscope can produce a clear pattern if the internal mirrors are placed at an angle of $50^\\circ$. Explain why or why not.",
+     "a": "A kaleidoscope requires an angle that divides evenly into $360^\\circ$ to form clean, symmetrical patterns without overlapping blur. Since $360^\\circ$ divided by $50^\\circ$ is $7.2$ (not a whole number), the images will overlap and create a messy, asymmetrical blur. A wrong answer claiming any angle works ignores the requirement of geometric symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple procedure using everyday materials found in a typical Indian home to test how mirror angles affect image count.",
+     "a": "Criteria for a good answer: Take two small flat pocket mirrors, tape them along one edge to form a hinged hinge, place a coin between them on a paper marked with a protractor, and record image counts at $90^\\circ$, $60^\\circ$, and $45^\\circ$. A poor answer lacks a method for measuring the angle or counting the overlapping images clearly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

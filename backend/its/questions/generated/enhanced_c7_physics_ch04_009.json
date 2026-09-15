@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_009",
+   "title": "c7_physics_ch04_009",
+   "questions": [
+    {
+     "q": "What is the mathematical formula used to calculate distance if you know the speed of an object and the time it has traveled, along with its SI unit?",
+     "a": "Distance = Speed $\\times$ Time, with the SI unit being meters (m). A student who answers \"Distance = Speed / Time\" is confusing the distance formula with the speed formula, demonstrating a failure to understand how algebraic rearrangement works when isolating variables.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we convert time given in minutes or hours into seconds (or speed into m/s) before performing a distance calculation when using standard SI units?",
+     "a": "We must convert units so that the time units in the speed denominator cancel out with the time units multiplied during the calculation, leaving only the desired unit of length. A student who says \"units do not matter as long as the numbers are correct\" fails to understand dimensional analysis and will end up with nonsensical composite units like meter-hours per second.",
+     "self_check": true
+    },
+    {
+     "q": "A school bus in Bengaluru travels at a uniform speed of $40\\text{ m/s}$ for a duration of $15\\text{ seconds}$. Calculate the total distance covered by the bus.",
+     "a": "Step 1: Identify given quantities: Speed ($v$) = $40\\text{ m/s}$, Time ($t$) = $15\\text{ s}$.\nStep 2: Identify formula: $Distance = Speed \\times Time$.\nStep 3: Substitute values: $Distance = 40\\text{ m/s} \\times 15\\text{ s}$.\nStep 4: Compute and cancel units: $40 \\times 15 = 600$, and the seconds units cancel out ($\\text{m/s} \\times \\text{s} = \\text{m}$).\nStep 5: Final Answer = $600\\text{ m}$. A student who computes $40 / 15$ has used the wrong formula, while one who multiplies $40 \\times 15$ and forgets the meter unit has missed dimensional tracking.",
+     "self_check": true
+    },
+    {
+     "q": "Two cyclists start at the same point. Cyclist A travels at $10\\text{ m/s}$ and Cyclist B travels at $5\\text{ m/s}$. If both travel for a distance of $300\\text{ meters}$, analyze who will take less time and calculate the exact difference in their arrival times.",
+     "a": "Cyclist A takes less time because higher speed results in a shorter duration for a fixed distance ($Time = Distance / Speed$). Cyclist A's time is $300\\text{ m} / 10\\text{ m/s} = 30\\text{ s}$, while Cyclist B's time is $300\\text{ m} / 5\\text{ m/s} = 60\\text{ s}$. The difference is $60\\text{ s} - 30\\text{ s} = 30\\text{ seconds}$. A student who states that Cyclist B takes less time has inverted the inverse proportionality between speed and time.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates that a bullock cart moving at $2\\text{ m/s}$ covers a distance of $10\\text{ meters}$ in $20\\text{ seconds}$. Evaluate whether this calculation is physically reasonable and identify any mathematical errors.",
+     "a": "The calculation is incorrect because $2\\text{ m/s} \\times 20\\text{ s}$ equals $40\\text{ meters}$, not $10\\text{ meters}$. Alternatively, finding time as $10\\text{ m} / 2\\text{ m/s}$ yields $5\\text{ seconds}$, not $20\\text{ seconds}$. A student who accepts $20\\text{ seconds}$ as correct fails to check their work using the reverse relationship ($Speed = Distance / Time$: $10/20 = 0.5\\text{ m/s} \\neq 2\\text{ m/s}$).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple indoor classroom experiment using a rolling toy car on a straight floor tile track to determine the time taken to cover a measured distance of $2\\text{ meters}$, given that the car moves at a constant speed of $0.5\\text{ m/s}$.",
+     "a": "Mark a starting line and a finishing line exactly $2\\text{ meters}$ apart using a measuring tape. Release the toy car from rest (ensuring it reaches a uniform speed of $0.5\\text{ m/s}$) and start a stopwatch when it crosses the start line, stopping it at the finish line. Calculate expected time as $Time = Distance / Speed = 2\\text{ m} / 0.5\\text{ m/s} = 4\\text{ seconds}$, then compare your stopwatch reading to test experimental accuracy. A poor answer fails to connect the mathematical formula to physical measurement steps or ignores unit consistency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_006",
+   "title": "c11_bs_cbse_09_006",
+   "questions": [
+    {
+     "q": "Define the term 'entrepreneur' as per the CBSE Class 11 Business Studies textbook. How does it differ from the dictionary definition of a business owner?",
+     "a": "An entrepreneur is the person who conceives a business idea, mobilizes resources, establishes the enterprise, and bears the risk of uncertainty for profit. The textbook emphasizes the entrepreneurial functions of innovation, organization of production, and calculated risk-taking, not merely ownership. A wrong answer that equates entrepreneur with any business owner reveals the misconception that ownership alone defines entrepreneurship, ignoring the functional aspects of opportunity recognition and value creation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a manager, even a CEO with high decision-making power, is not considered an entrepreneur. Use the concepts of risk-bearing and residual claimancy.",
+     "a": "A manager is an agent of the owner-entrepreneur, bound by a contract of employment. They do not bear the residual risk of loss (their salary is fixed) nor do they have a residual claim on profits beyond contractual bonuses. A wrong answer that focuses only on decision-making authority reveals the misconception that high-level management equals entrepreneurship, confusing delegated authority with ownership of uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul starts a food delivery app, invests ₹50 lakh, and hires Priya as Operations Manager at ₹80,000/month. After six months, the app fails and assets are sold for ₹10 lakh. Who bears the financial loss and why? What does this illustrate about the entrepreneur-manager distinction?",
+     "a": "Rahul bears the entire loss of ₹40 lakh because he is the residual claimant and risk-bearer. Priya receives her salary regardless of the venture's outcome. This illustrates the fundamental distinction: the entrepreneur bears uncertainty and residual risk, while the manager is insulated by a fixed contract. A wrong answer suggesting shared loss reveals confusion between contractual employment and entrepreneurial risk.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the innovation orientation of an entrepreneur and a manager in a mature MSME. Why might a manager resist radical innovation that an entrepreneur would pursue?",
+     "a": "The entrepreneur drives innovation as a survival and growth imperative, often pursuing disruptive changes. A manager in a mature MSME focuses on efficiency, process adherence, and incremental improvement to meet set targets; radical innovation threatens existing routines and performance metrics. A wrong answer that assumes managers are equally innovative reveals the misconception that innovation is a shared trait rather than a role-specific imperative tied to residual claimancy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a startup, the founder often acts as both entrepreneur and manager. This dual role eliminates the distinction between the two.\" Provide a reasoned judgment.",
+     "a": "The statement is false. Even when one person performs both functions, the roles remain conceptually distinct. As entrepreneur, the founder decides *what* business to pursue and bears the risk; as manager, they decide *how* to execute daily operations. The distinction persists in the nature of decisions: strategic vs. operational, risk-bearing vs. risk-mitigating. A wrong answer agreeing with the statement reveals the conflation of role occupancy with role definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving a family-owned manufacturing MSME where the second-generation successor transitions from a managerial role to an entrepreneurial role. Describe the specific changes in their risk exposure, decision-making scope, and reward structure.",
+     "a": "A good answer describes a successor who previously managed a plant as a salaried employee (fixed pay, operational decisions, no personal liability) and then purchases equity, guarantees loans, diversifies product lines, and claims residual profits. The changes: personal assets at risk, strategic decisions on markets and capital allocation, income becomes variable profit share. A poor answer that only describes a promotion reveals the misconception that hierarchy change equals role transformation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

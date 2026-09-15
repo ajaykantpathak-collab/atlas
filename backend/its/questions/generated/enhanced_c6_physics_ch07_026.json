@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_026",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_026",
+   "title": "c6_physics_ch07_026",
+   "questions": [
+    {
+     "q": "If you touch a cold windowpane on a sunny day and it feels warm, which process is primarily responsible for the heat reaching the glass from the sun?",
+     "a": "The process is radiation. A wrong answer like \"conduction\" suggests the student thinks the sun must touch the glass, missing that radiation travels through empty space or air without needing a medium.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it better to wear white or light-coloured clothing in the summer compared to dark-coloured clothing?",
+     "a": "Light colours reflect most of the heat radiation from the sun, keeping you cooler. A wrong answer often assumes color only affects appearance, failing to understand the relationship between light absorption and heat energy.",
+     "self_check": true
+    },
+    {
+     "q": "A metal spoon is placed in a bowl of hot dal. After one minute, the handle of the spoon becomes hot. Explain the movement of heat in this scenario.",
+     "a": "The heat moves through the spoon via conduction. The kinetic energy of the hot molecules in the dal is transferred to the molecules of the spoon, which then vibrate and pass that energy along the length of the metal handle. A wrong answer might confuse this with convection, forgetting that convection requires the movement of a fluid (liquid or gas).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a pressure cooker cook food faster using steam?",
+     "a": "The pressure cooker traps hot steam inside, creating a convection current where the hot, pressurized steam circulates rapidly around the food. A wrong answer would likely ignore the role of circulating fluids (convection) and focus only on the fire heating the bottom of the pot.",
+     "self_check": true
+    },
+    {
+     "q": "If you are holding a hot cup of tea, why does a woollen tea cozy keep the tea hot longer than a metal cover?",
+     "a": "Wool acts as an insulator because it traps air, which is a poor conductor of heat, preventing the heat from escaping the cup. A wrong answer suggests wool \"makes\" heat, failing to understand that insulators simply slow down the rate of heat loss.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test if a silver-coloured thermos keeps water colder than a black-coloured plastic bottle when left in the sun.",
+     "a": "The experiment should involve placing equal amounts of ice-cold water in both containers and measuring their temperature every 30 minutes while in direct sunlight. A poor answer would lack a control variable (like placing both in the same spot) or fail to measure the temperature change over time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

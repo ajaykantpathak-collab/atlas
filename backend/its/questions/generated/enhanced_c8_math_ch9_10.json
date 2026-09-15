@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_10",
+   "title": "c8_math_ch9_10",
+   "questions": [
+    {
+     "q": "State the condition required for a triangle with sides of lengths 5 cm, 12 cm, and 13 cm to be a right-angled triangle using the converse of the Pythagoras theorem.",
+     "a": "The condition is: \\(5^2 + 12^2 = 13^2\\). Since \\(25 + 144 = 169\\) and \\(13^2 = 169\\), the equality holds, so the triangle is right-angled. A wrong answer (e.g., checking \\(5^2 + 13^2 = 12^2\\)) reveals the student does not understand that the longest side must be identified as the hypotenuse before applying the converse.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a triangle with sides 8 cm, 15 cm, and 16 cm is right-angled because \\(8^2 + 15^2 = 64 + 225 = 289\\) and \\(16^2 = 256\\), and 289 is close to 256. Explain why this reasoning is incorrect.",
+     "a": "The reasoning is incorrect because the converse of Pythagoras theorem requires exact equality, not approximate equality. \\(8^2 + 15^2 = 289\\) while \\(16^2 = 256\\); since \\(289 \\neq 256\\), the triangle is not right-angled (it is acute because the sum of squares of the shorter sides is greater than the square of the longest side). A wrong answer that accepts \"close enough\" reveals the student treats the theorem as an estimation tool rather than an exact mathematical condition.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether a triangle with sides 9 m, 40 m, and 41 m is right-angled. Show all steps.",
+     "a": "Step 1: Identify the longest side: 41 m.\nStep 2: Square all sides: \\(9^2 = 81\\), \\(40^2 = 1600\\), \\(41^2 = 1681\\).\nStep 3: Sum of squares of shorter sides: \\(81 + 1600 = 1681\\).\nStep 4: Compare: \\(1681 = 1681\\). The equality holds.\nConclusion: Yes, the triangle is right-angled with the right angle opposite the 41 m side. A wrong answer (e.g., misidentifying 40 m as the longest side) reveals the student does not consistently identify the hypotenuse as the longest side before applying the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have side lengths (7, 24, 25) and (7, 24, 26). Without calculating the squares fully, explain which one is right-angled and how the difference in the longest side affects the angle type.",
+     "a": "For (7, 24, 25): \\(7^2 + 24^2 = 49 + 576 = 625 = 25^2\\), so it is right-angled.\nFor (7, 24, 26): \\(7^2 + 24^2 = 625\\) but \\(26^2 = 676\\). Since \\(625 < 676\\), the sum of squares of the shorter sides is less than the square of the longest side, so the triangle is obtuse-angled (angle > 90°). Increasing the longest side while keeping the other two fixed makes the angle opposite it larger than 90°. A wrong answer that says both are right-angled or cannot compare reveals the student does not understand the relationship between the inequality of squares and angle type (acute/right/obtuse).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"Is a triangle with sides 1.5 cm, 2 cm, and 2.5 cm right-angled?\" Their working: \\(1.5^2 = 2.25\\), \\(2^2 = 4\\), \\(2.5^2 = 6.25\\). \\(2.25 + 4 = 6.25\\). So it is right-angled. Evaluate this solution. Is it fully correct? If not, what is missing?",
+     "a": "The solution is mathematically correct in computation and conclusion. However, it is incomplete because the student did not explicitly state the identification of the longest side (2.5 cm) as the hypotenuse before applying the converse. While the arithmetic is right, the logical step \"longest side = 2.5 cm\" should be shown. A solution that omits this step reveals the student may be pattern-matching (checking all combinations) rather than understanding the structural requirement that the hypotenuse is the longest side.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using metres or centimetres) where a person needs to verify a right angle using only a measuring tape and the converse of Pythagoras theorem. Provide the three measurements you would give them and state whether the angle is 90°.",
+     "a": "Example: Ramesh is laying tiles in his kitchen. He measures two adjacent walls from the corner: 3 m and 4 m. He then measures the diagonal distance between the endpoints of these measurements and gets 5 m. The three measurements are 3 m, 4 m, 5 m. Since \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\), the corner is a perfect right angle. A poor answer would give measurements that do not satisfy the Pythagorean relation (e.g., 3, 4, 6) or forget to specify which is the diagonal, revealing the student cannot construct a valid Pythagorean triple or apply the concept to a practical layout scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

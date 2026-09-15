@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_2",
+   "title": "c9_eco_ch1_2",
+   "questions": [
+    {
+     "q": "Define 'limited resources' in economics and name the four categories of factors of production.",
+     "a": "Limited resources are the scarce factors of production used to create goods and services: land (natural resources), labour (human effort), capital (tools, machinery, infrastructure), and entrepreneurship (organizing ability). A wrong answer that only lists \"money\" or \"raw materials\" reveals the student confuses financial capital with real capital and misses the broader classification of factors of production.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"If India had more money, we could satisfy all our wants\" is economically incorrect.",
+     "a": "Money is a medium of exchange, not a resource itself; printing more money without increasing the actual factors of production (land, labour, capital, entrepreneurship) leads to inflation, not more goods. A wrong answer that agrees reveals the misconception that money equals real resources, ignoring that production requires physical and human inputs studied in c8_eco_ch1_3 to c8_eco_ch1_6.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 100 hectares of cultivable land, 200 workers, and ₹50 lakh capital. It wants to produce wheat, build a school, and start a textile unit. Using the concept of limited resources, explain why all three cannot be achieved simultaneously. Quantify the trade-off if 40 hectares are used for the school.",
+     "a": "Land is limited to 100 hectares. Using 40 hectares for the school leaves only 60 hectares for wheat and textile raw material (cotton). Labour and capital must also be split. The trade-off: 40 hectares diverted from agriculture reduces potential wheat/cotton output. A wrong answer that says \"we can do all if we work harder\" ignores the physical limit of land (a factor of production) and confuses effort with resource availability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource constraints faced by (a) a landless agricultural labourer in Bihar and (b) a startup founder in Bengaluru. How does the nature of 'limited resources' differ for each?",
+     "a": "The labourer's primary scarcity is lack of land and capital (owned resources), relying only on labour. The founder has access to capital (investors) and labour (hiring), but faces scarcity of entrepreneurial talent, skilled labour, and time. A wrong answer that treats both as having identical resource bundles misses that factor endowments vary across economic agents, a concept linking to c8_eco_ch1_8 (interconnection of factors).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Technological progress eliminates scarcity because we can produce more with the same resources.\"",
+     "a": "Technology reduces scarcity per unit of output (efficiency) but does not eliminate it because wants grow faster (e.g., new goods like smartphones create new wants) and resources remain finite. A wrong answer that agrees confuses 'less scarcity' with 'no scarcity', ignoring that unlimited wants are a defining human characteristic, not a temporary shortage.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a personal 'resource-want' table for a Class 9 student preparing for board exams. List your limited resources (time, energy, money, study materials) and unlimited wants (high marks, leisure, hobbies, sleep). Propose one allocation decision and state its opportunity cost.",
+     "a": "Example: Resources – 16 waking hours, ₹500 pocket money, textbooks. Wants – 4 hours study, 3 hours cricket, 2 hours phone, 8 hours sleep. Decision: Allocate 2 extra hours to study by reducing cricket. Opportunity cost: foregone cricket practice and fitness. A poor answer lists only money or time, ignoring multiple resource dimensions, or states opportunity cost as \"lost marks\" instead of the next best alternative forgone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

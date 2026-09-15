@@ -1,0 +1,235 @@
+{
+  "class": 11,
+  "subject": "physics",
+  "chapter": 205,
+  "chapter_title": "Kinetic Theory",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph205.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keph205.12.2.1",
+      "title": "Molecular Nature of Matter",
+      "section": "12.2",
+      "definition": "All matter is built from molecules -- atoms bound into groups -- with gaps between them far larger than the molecules themselves in gases. Avogadro's hypothesis that equal volumes of gas at the same conditions hold equal molecule counts fixes the counting unit: one mole contains 6.02 x 10^23 molecules.",
+      "formula": "",
+      "key_idea": "Behaviour of matter follows from molecule counts and gaps -- one mole is always 6.02e23 molecules regardless of the substance.",
+      "textbook_ref": "keph205.txt lines 30-120 (sections 12.1, 12.2 molecular nature of matter, Dalton's atomic hypothesis, Avogadro's law and number)",
+      "question_patterns": [
+        "state Avogadro's law and the value of Avogadro's number",
+        "in class 11 kinetic theory: how many molecules does one mole of any gas contain",
+        "find the number of molecules in the given mass of a substance",
+        "why did early scientists doubt the atomic hypothesis",
+        "what evidence supports the molecular picture of matter",
+        "relate moles mass and molecular mass in a counting problem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "count by moles", "explain": "Divide the sample's mass by its molecular mass to get the number of moles."},
+        {"step": 2, "action": "scale by Avogadro's number", "explain": "Multiplying moles by 6.02e23 gives the molecule count."},
+        {"step": 3, "action": "apply Avogadro's hypothesis", "explain": "Equal volumes of different gases at the same temperature and pressure carry equal molecule numbers, which is why molar volumes match."}
+      ]
+    },
+    {
+      "id": "keph205.12.3.1",
+      "title": "Gas Laws and the Ideal Gas Equation",
+      "section": "12.3",
+      "definition": "Dilute gases obey simple patterns: Boyle's law fixes pressure times volume at one temperature, Charles's law fixes volume over temperature at one pressure, and combining them with the amount of gas gives the ideal gas equation, pressure times volume equal to the number of moles times R times absolute temperature.",
+      "formula": "gas_law = n_moles * gas_const * temp",
+      "key_idea": "pV = n R T packs Boyle and Charles into one state equation for any dilute gas.",
+      "textbook_ref": "keph205.txt lines 121-260 (section 12.3 behaviour of gases, Boyle's law, Charles's law, pressure law, ideal gas equation, dew and humidity aside)",
+      "question_patterns": [
+        "state Boyle's law and Charles's law with their conditions",
+        "in class 11 kinetic theory: use the ideal gas equation to find the missing state variable",
+        "a gas is compressed at constant temperature, find the new pressure",
+        "what is the value and meaning of the universal gas constant",
+        "combine the gas laws into the single ideal gas equation",
+        "find the volume of one mole of gas at standard temperature and pressure"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply moles by R and temperature", "explain": "The right side n R T equals pressure times volume for an ideal gas.",
+         "compute": "gas_law = n_moles * gas_const * temp"}
+      ]
+    },
+    {
+      "id": "keph205.12.4.1",
+      "title": "Pressure of an Ideal Gas from Molecular Motion",
+      "section": "12.4",
+      "definition": "Gas pressure is the drumbeat of countless molecular impacts on the walls. Counting the collisions with momentum change per hit yields the kinetic theory result: pressure equals one third the product of the molecular number density and the mean squared molecular speed -- the square average of the speeds in the distribution.",
+      "formula": "",
+      "key_idea": "Pressure is molecular momentum delivered per second per area -- one third of density times mean square speed.",
+      "textbook_ref": "keph205.txt lines 261-400 (section 12.4 kinetic theory of an ideal gas, pressure of an ideal gas, rms speed, assumptions of the theory)",
+      "question_patterns": [
+        "derive the expression for the pressure of an ideal gas using kinetic theory",
+        "in class 11 kinetic theory: what is the rms speed and why is the square of it used",
+        "relate pressure to the mean square molecular speed",
+        "state the assumptions behind the kinetic theory of gases",
+        "why do faster molecules raise the pressure of a gas",
+        "connect the average kinetic energy of molecules to the gas temperature"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "track one collision", "explain": "A molecule bouncing off a wall reverses one momentum component, delivering a fixed impulse per hit."},
+        {"step": 2, "action": "sum over all molecules", "explain": "Averaging over random directions leaves one third of the mean squared speed contributing to each wall."},
+        {"step": 3, "action": "quote the result", "explain": "Pressure equals one third of mass density times the mean square speed, and temperature is proportional to that mean square speed."}
+      ]
+    },
+    {
+      "id": "keph205.12.4.2",
+      "title": "RMS Speed of Gas Molecules",
+      "section": "12.4",
+      "definition": "Equating the kinetic theory pressure to the ideal gas law exposes the typical molecular speed: the root mean square speed equals the square root of three times the universal gas constant times absolute temperature, all over the molar mass. Light molecules therefore outrun heavy ones at the same temperature.",
+      "formula": "v_rms = sqrt(3 * gas_const * temp / molar_mass)",
+      "key_idea": "Root of 3RT over M -- hydrogen molecules sprint about four times faster than oxygen at the same temperature.",
+      "textbook_ref": "keph205.txt lines 330-400 (section 12.4 rms speed expression, dependence on molar mass and temperature)",
+      "question_patterns": [
+        "find the rms speed of the given gas at the given temperature",
+        "in class 11 kinetic theory: how does rms speed depend on molar mass",
+        "compare the rms speeds of two gases at the same temperature",
+        "at what temperature does a gas molecule reach the given rms speed",
+        "why is the rms speed used rather than the simple average speed",
+        "estimate the typical molecular speed of air at room temperature"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "form the ratio under the root", "explain": "Multiply three, the gas constant and the temperature, then divide by the molar mass in kilograms per mole.",
+         "compute": "speed_sq = 3 * gas_const * temp / molar_mass"},
+        {"step": 2, "action": "take the square root", "explain": "The root gives the root mean square molecular speed.",
+         "compute": "v_rms = sqrt(speed_sq)"}
+      ]
+    },
+    {
+      "id": "keph205.12.5.1",
+      "title": "Law of Equipartition of Energy",
+      "section": "12.5",
+      "definition": "In thermal equilibrium every independent way a molecule can store energy -- each degree of freedom -- carries the same average energy, one half of Boltzmann's constant times temperature. A monatomic molecule with three translational degrees holds 3/2 kT; adding rotational degrees raises the share accordingly.",
+      "formula": "",
+      "key_idea": "Energy splits equally among available degrees of freedom -- half kT each, no favourites.",
+      "textbook_ref": "keph205.txt lines 401-500 (section 12.5 law of equipartition of energy, degrees of freedom, monatomic and diatomic molecules, vibrational modes)",
+      "question_patterns": [
+        "state the law of equipartition of energy",
+        "in class 11 kinetic theory: how many degrees of freedom does a diatomic molecule have",
+        "find the average energy of a monatomic molecule at the given temperature",
+        "why does each degree of freedom carry half kT",
+        "how do rotational modes change the energy share of a molecule",
+        "apply equipartition to count the total energy of a mole of gas"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "count the degrees of freedom", "explain": "Translation gives three always; rotations add two for linear diatomic molecules (three for nonlinear), and vibration adds more at high temperature."},
+        {"step": 2, "action": "share the energy equally", "explain": "Each degree of freedom stores half kT on average by the equipartition law."},
+        {"step": 3, "action": "total the energy", "explain": "Multiplying degrees of freedom by half kT gives the mean energy per molecule; scaling by Avogadro's number gives the molar internal energy."}
+      ]
+    },
+    {
+      "id": "keph205.12.6.1",
+      "title": "Specific Heats of Gases from Equipartition",
+      "section": "12.6",
+      "definition": "Equipartition predicts molar specific heats directly: a monatomic gas needs 3/2 R to raise its temperature at constant volume, a diatomic gas 5/2 R once rotations join in. The predicted Cp minus Cv equals R in each case, matching Mayer's relation and explaining why gases differ in heat capacity by their molecular structure.",
+      "formula": "",
+      "key_idea": "Count the degrees of freedom, multiply by R over two -- that is the constant-volume molar specific heat.",
+      "textbook_ref": "keph205.txt lines 480-560 (section 12.6 specific heat capacity of monatomic diatomic and polyatomic gases, agreement with experiment)",
+      "question_patterns": [
+        "predict the molar specific heat of a monatomic gas at constant volume",
+        "in class 11 kinetic theory: why is Cv of a diatomic gas larger than that of a monatomic gas",
+        "verify Mayer's relation for the given gas using predicted heats",
+        "what happens to the specific heat when vibrational modes wake up",
+        "compute gamma for a diatomic gas from equipartition",
+        "relate the internal energy of a mole of gas to its Cv"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "count active modes", "explain": "Monatomic: three translational degrees. Diatomic: five below the vibration turn-on temperature."},
+        {"step": 2, "action": "multiply by half R", "explain": "Cv equals degrees of freedom times R over two; Cp follows by adding R."},
+        {"step": 3, "action": "check the ratio", "explain": "Gamma = Cp/Cv comes out 5/3 for monatomic and 7/5 for diatomic gases, matching measurement."}
+      ]
+    },
+    {
+      "id": "keph205.12.7.1",
+      "title": "Mean Free Path",
+      "section": "12.7",
+      "definition": "Between collisions a molecule travels straight lines of random length; the average of these is the mean free path. It shrinks when molecules are bigger or the gas denser, and at atmospheric pressure it is a few hundred nanometres -- small, yet about a thousand times the molecular diameter.",
+      "formula": "",
+      "key_idea": "Mean free path is the typical clear runway between molecular collisions -- inversely tied to density and molecular size.",
+      "textbook_ref": "keph205.txt lines 561-640 (section 12.7 mean free path, collision cross section, estimate at STP, collision frequency)",
+      "question_patterns": [
+        "define mean free path of a gas molecule",
+        "in class 11 kinetic theory: on what factors does the mean free path depend",
+        "estimate the mean free path of air molecules at standard conditions",
+        "why is the mean free path much larger than the molecular diameter",
+        "how does mean free path change when the gas is compressed",
+        "relate collision frequency to mean free path and average speed"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "picture the sweep volume", "explain": "A moving molecule sweeps a cylinder of diameter twice the molecular radius per unit path; collisions happen inside it."},
+        {"step": 2, "action": "divide by the crowdedness", "explain": "The path length whose sweep cylinder holds one other molecule is the mean free path -- inversely proportional to number density."},
+        {"step": 3, "action": "quote typical numbers", "explain": "At STP the mean free path of air molecules is a few hundred nanometres, giving collision rates of order a billion per second."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keph205.txt lines 121-260 (ideal gas equation)",
+      "concept": "keph205.12.3.1",
+      "question_type": "compute",
+      "question_pattern": "Find pV for {n_moles} moles of ideal gas at {temp} K (R = {gas_const}).",
+      "extracted_variables": {"n_moles": 1, "temp": 300, "gas_const": 8.314},
+      "solution_template": [
+        {"step": 1, "action": "multiply moles by R and temperature", "explain": "gas_law = 1 * 8.314 * 300 = 2494.2 J -- this is pV.", "compute": "gas_law = n_moles * gas_const * temp"}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keph205.txt lines 121-260 (ideal gas equation)",
+      "concept": "keph205.12.3.1",
+      "question_type": "compute",
+      "question_pattern": "Two moles of gas sit at {temp} K; using R = {gas_const}, compute pV of the sample.",
+      "extracted_variables": {"n_moles": 2, "temp": 273, "gas_const": 8.314},
+      "solution_template": [
+        {"step": 1, "action": "multiply moles by R and temperature", "explain": "gas_law = 2 * 8.314 * 273 = 4539.4 J.", "compute": "gas_law = n_moles * gas_const * temp"}
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "keph205.txt lines 330-400 (rms speed)",
+      "concept": "keph205.12.4.2",
+      "question_type": "compute",
+      "question_pattern": "Find the rms speed of nitrogen (molar mass {molar_mass} kg/mol) at {temp} K.",
+      "extracted_variables": {"temp": 300, "molar_mass": 0.028, "gas_const": 8.314},
+      "solution_template": [
+        {"step": 1, "action": "form the ratio under the root", "explain": "speed_sq = 3 * 8.314 * 300 / 0.028, about 267386.", "compute": "speed_sq = 3 * gas_const * temp / molar_mass"},
+        {"step": 2, "action": "take the square root", "explain": "v_rms = sqrt(267386), about 517 m/s.", "compute": "v_rms = sqrt(speed_sq)"}
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "keph205.txt lines 330-400 (rms speed)",
+      "concept": "keph205.12.4.2",
+      "question_type": "compute",
+      "question_pattern": "Helium (molar mass {molar_mass} kg/mol) sits at {temp} K; compute its rms molecular speed.",
+      "extracted_variables": {"temp": 300, "molar_mass": 0.004, "gas_const": 8.314},
+      "solution_template": [
+        {"step": 1, "action": "form the ratio under the root", "explain": "speed_sq = 3 * 8.314 * 300 / 0.004, about 1870650.", "compute": "speed_sq = 3 * gas_const * temp / molar_mass"},
+        {"step": 2, "action": "take the square root", "explain": "v_rms = sqrt(1870650), about 1368 m/s.", "compute": "v_rms = sqrt(speed_sq)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keph205.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Estimate the fraction of molecular volume to the actual volume occupied by the gas at STP.",
+        "Molar volume is the volume occupied by one mole of gas; find it at the given temperature and pressure.",
+        "Find the rms speed and average speed of the given gas molecules at the stated temperature.",
+        "A vessel holds the given moles of gas at the given pressure; find the temperature.",
+        "State the number of degrees of freedom of the given molecule and its energy at the given temperature.",
+        "Compute the mean free path of air molecules using the given data.",
+        "From the given pressure and density of a gas, find the rms speed of its molecules.",
+        "Explain why gases at the same temperature have the same average kinetic energy but different rms speeds."
+      ]
+    }
+  ]
+}

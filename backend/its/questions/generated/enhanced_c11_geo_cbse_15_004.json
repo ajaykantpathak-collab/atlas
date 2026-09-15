@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_004",
+   "title": "c11_geo_cbse_15_004",
+   "questions": [
+    {
+     "q": "What are the three mandatory zones in a UNESCO Biosphere Reserve, and which zone permits the highest intensity of human economic activity?",
+     "a": "The three zones are: Core Zone (strictly protected, no human activity), Buffer Zone (surrounds core, allows research, education, limited recreation), and Transition Zone (outermost, permits sustainable agriculture, forestry, settlements). The Transition Zone permits the highest intensity of human economic activity. A wrong answer (e.g., naming \"Buffer Zone\" for highest activity) reveals confusion about the gradient of protection – students often think the buffer is the main human-use zone, missing that the transition zone is explicitly designed for sustainable livelihoods.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the UNESCO Man and the Biosphere (MAB) Programme require a \"Transition Zone\" in every biosphere reserve, whereas a National Park under India's Wildlife Protection Act has no such zone?",
+     "a": "The MAB Programme's mandate is \"conservation AND sustainable use,\" requiring a zone where local communities live and practice livelihoods to demonstrate harmony. National Parks follow a \"protectionist\" model (Section 35, WLPA 1972) where human activity is prohibited to secure inviolate spaces for wildlife. A wrong answer (e.g., \"Transition Zone is for tourism\") reveals a misconception that biosphere reserves are just larger parks; the student misses the fundamental paradigm shift from *exclusion* to *integration* of people in conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Given the map coordinates: 11°30'N 76°30'E (Nilgiri), 22°00'N 88°30'E (Sundarbans), and 34°15'N 75°30'E (Cold Desert), identify which biosphere reserves these correspond to and state the biogeographic province each represents (use Rodgers & Panwar classification).",
+     "a": "Step 1: Recognize coordinates – Nilgiri (Western Ghats), Sundarbans (Gangetic Delta), Cold Desert (Trans-Himalaya). Step 2: Match to biogeographic provinces – Nilgiri: Western Ghats (Malabar rainforest); Sundarbans: Gangetic Plain (deltaic mangroves); Cold Desert: Trans-Himalaya (cold desert). Step 3: Verify UNESCO status – All three are UNESCO-designated. A wrong answer (e.g., assigning Sundarbans to \"Coasts\" province) reveals inability to link geographic location to biogeographic classification, a key skill for analyzing representativeness of the network.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zonation logic of a Biosphere Reserve with that of a Tiger Reserve under Project Tiger. How does the \"Core-Buffer\" terminology differ in its legal and ecological meaning between the two?",
+     "a": "In Tiger Reserves (Project Tiger), \"Core\" = Critical Tiger Habitat (inviolate, legally notified under Section 38V WLPA), \"Buffer\" = Peripheral area with *restricted* human use (Section 38V(4)). In Biosphere Reserves, \"Core\" = strictly protected ecosystem (often a national park), \"Buffer\" = zone for research/education *around* core, \"Transition\" = sustainable use zone *outside* buffer. The Tiger Reserve has no \"Transition Zone\" equivalent; its buffer still prioritizes tiger conservation over human livelihoods. A wrong answer (equating the two buffers) reveals failure to distinguish species-centric (tiger) vs. ecosystem-centric (biosphere) planning frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's Biosphere Reserve network is ecologically representative because it covers all 10 biogeographic zones of the country.\" Use the current list of 18 reserves and the Rodgers & Panwar (1988) classification to justify your answer.",
+     "a": "The statement is **false**. India has 10 biogeographic zones (Rodgers & Panwar), but the 18 biosphere reserves are concentrated in 7 zones. Gaps: **Thar Desert** (no reserve), **Indian Desert** (only Cold Desert represents Trans-Himalaya, not hot desert), **Coasts** (only Sundarbans represents mangroves; no reserve for western coast/estuaries), **Islands** (Great Nicobar represents Andaman & Nicobar, but Lakshadweep has none). A wrong answer claiming \"true\" reveals rote memorization of the number 18 without analyzing spatial coverage against the biogeographic framework – a critical evaluation skill for conservation planning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new Biosphere Reserve in the **Thar Desert** (currently unrepresented). Specify: (a) a suitable Core Zone (existing PA), (b) Buffer Zone boundaries, (c) Transition Zone activities involving Bishnoi communities, and (d) one ecological and one socio-economic criterion from UNESCO MAB guidelines that your proposal satisfies.",
+     "a": "A strong proposal: (a) Core = Desert National Park (Jaisalmer) – protects Great Indian Bustard habitat; (b) Buffer = 10-15 km eco-sensitive zone around park, including orans (sacred groves); (c) Transition = Bishnoi-led ecotourism, rainwater harvesting (khadins), sustainable pastoralism; (d) Ecological criterion: represents \"Thar Desert\" biogeographic province (Rodgers & Panwar Zone 3); Socio-economic criterion: integrates traditional conservation ethics (Bishnoi principles) as cultural landscape. A poor answer (e.g., proposing a core zone in agricultural land) reveals ignorance of the requirement that core zones must be legally protected, minimally disturbed ecosystems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

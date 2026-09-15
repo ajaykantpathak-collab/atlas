@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_003",
+   "title": "c11_eco_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the two sectors in the Mahalanobis model and which sector receives priority investment in the Second Five Year Plan.",
+     "a": "The two sectors are: (1) Capital goods sector (heavy industry producing machines, steel, equipment) and (2) Consumer goods sector (producing final consumption goods). Priority investment goes to the capital goods sector. A wrong answer (e.g., prioritizing consumer goods or agriculture) reveals confusion with the First Plan's focus or misunderstanding that the model's core mechanism is expanding the *production capacity* itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mahalanobis argue that a developing country with scarce foreign exchange should invest in heavy industry *before* consumer goods, even though this reduces current consumption?",
+     "a": "Because without domestic capital goods production, every expansion of consumer goods capacity requires imported machinery, creating a permanent foreign exchange bottleneck. Building heavy industry first relaxes this constraint: once domestic machines are available, consumer goods capacity can grow using domestic resources only. A wrong answer focusing only on \"industrialization\" or \"employment\" misses the specific *foreign exchange constraint* logic central to the model.",
+     "self_check": true
+    },
+    {
+     "q": "In the Second Plan, total public sector outlay was ₹4,800 crore. If 70% was allocated to industry and minerals, and within that, 60% went to heavy industry (steel, machine tools, heavy electricals), calculate the absolute amount (in crore) allocated to heavy industry. Show steps.",
+     "a": "Step 1: Total plan outlay = ₹4,800 crore.\nStep 2: Industry & minerals share = 70% of 4,800 = 0.70 × 4,800 = ₹3,360 crore.\nStep 3: Heavy industry share within industry = 60% of 3,360 = 0.60 × 3,360 = ₹2,016 crore.\nAnswer: ₹2,016 crore. A wrong calculation (e.g., taking 60% of total outlay) reveals inability to handle nested percentage allocations common in plan document analysis.",
+     "self_check": true
+    },
+    {
+     "q": "The Industrial Policy Resolution 1956 classified industries into three schedules. Schedule A (exclusive state monopoly) included arms, atomic energy, iron & steel. Schedule B (state-led, private supplementary) included machine tools, ferro-alloys, road/sea transport. Schedule C (private sector) included all remaining. Analyze: Why were machine tools placed in Schedule B rather than Schedule A or C, given the Mahalanobis model's logic?",
+     "a": "Machine tools are the \"machines that make machines\" — the core of the capital goods sector. Schedule A (full monopoly) would limit capacity expansion speed; Schedule C (private only) risked under-investment due to long gestation and low initial profitability. Schedule B allowed the state to establish core capacity (HMT, etc.) while permitting private entry to broaden the base. A wrong answer treating all heavy industry as Schedule A ignores the model's need for *rapid* capacity building beyond state resources alone.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Mahalanobis model failed because India's industrial growth rate averaged only 6% during 1956-61, below the plan target.\" Use the concepts of gestation lags, import substitution, and capacity utilization.",
+     "a": "The critique is flawed: heavy industry projects (steel plants at Bhilai, Rourkela, Durgapur) have 5-7 year gestation lags; their output contribution appears in *later* plans. The 6% growth reflects *construction phase* investment (which raises GDP via investment demand) not yet matured capacity. Moreover, the model succeeded in its strategic goal: by 1965, India produced 90% of its machinery domestically, ending foreign exchange dependence on capital goods imports. Judging a long-gestation strategy by its 5-year growth rate commits a timing fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified two-sector allocation rule for a hypothetical Third Plan (1961-66) that addresses the Second Plan's neglect of agriculture and employment while preserving the heavy industry base. Specify the sectoral investment shares and justify each.",
+     "a": "Proposed allocation: Capital goods sector 45% (down from ~55%), Consumer goods sector 25% (up from ~15%), Agriculture & irrigation 30% (new explicit sector). Justification: (1) Heavy industry base now exists (3 steel plants, machine tool factories) — marginal return on further heavy investment declines; (2) Consumer goods sector needs matching capacity to absorb wage goods demand from new industrial workers; (3) Agriculture stagnation (0.5% growth in 2nd Plan) threatens food security and raw material supply (cotton, jute) for industry. A poor answer merely repeats Second Plan shares or ignores the inter-sectoral linkage (wage goods constraint).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

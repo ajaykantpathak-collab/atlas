@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_006",
+   "title": "c11_psy_cbse_02_006",
+   "questions": [
+    {
+     "q": "Define \"structured interview\" and give one example of a closed-ended question format used in it.",
+     "a": "A structured interview uses a pre-determined interview schedule with fixed wording and sequence of questions; the interviewer cannot modify questions. Example of closed-ended format: \"On a scale of 1-5, how satisfied are you with your school's counselling services? (1=Very Dissatisfied, 5=Very Satisfied).\" A wrong answer (e.g., \"interview where interviewer asks whatever they want\") reveals confusion between structured and unstructured interviews — the student misses the standardisation aspect critical for reliability.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sends a Google Form link via WhatsApp to study \"attitudes of Indian teenagers towards online gaming.\" Only 200 responses are received from 5000 shared links. Explain why this sample may not represent the target population, using the concept of \"self-selection bias.\"",
+     "a": "The sample suffers from self-selection bias: only teenagers with smartphones, internet access, WhatsApp usage, and motivation to respond participated. Those without devices, with limited data, or indifferent to gaming are systematically excluded. A wrong answer (e.g., \"sample size is too small\") misses the systematic exclusion mechanism — the student confuses sample size with sample representativeness, a senior-secondary error where they don't distinguish random error from systematic bias.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item questionnaire snippet to measure \"academic stress\" among Class 11 students. Use one Likert-scale item, one multiple-choice item, and one open-ended item. Label each item's question type.",
+     "a": "1. Likert-scale (closed-ended): \"I feel overwhelmed by my academic workload.\" (1=Strongly Disagree to 5=Strongly Agree)  \n2. Multiple-choice (closed-ended): \"What is your primary source of academic stress? (a) Board exams (b) Competitive exams (c) Parental expectations (d) Peer comparison (e) Other)\"  \n3. Open-ended: \"Describe one situation in the past month where you felt most academically stressed.\"  \nA wrong answer using only closed-ended items reveals the student cannot match question type to data need — they don't grasp that open-ended items capture unexpected nuances (e.g., \"teacher's sarcastic remark\") that predefined options miss.",
+     "self_check": true
+    },
+    {
+     "q": "Compare telephone survey and face-to-face interview on: (a) response rate, (b) depth of response, (c) cost per respondent. Which method would you choose for studying \"grief experiences of parents who lost children in a road accident\"? Justify.",
+     "a": "(a) Telephone: lower response rate (refusal, uncooperativeness); Face-to-face: higher (rapport, trust).  \n(b) Telephone: superficial (no visual cues, short attention); Face-to-face: deep (probing, non-verbal cues).  \n(c) Telephone: lower cost; Face-to-face: higher (travel, time).  \nFor grief study: face-to-face interview — sensitive topic requires empathy, trust, and ability to observe distress; telephone would feel cold and yield superficial data. A wrong choice (telephone for \"cost\") reveals the student prioritises logistics over ethical and methodological fit — a senior-secondary error where they treat methods as interchangeable tools rather than context-sensitive choices.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this survey question: \"Don't you agree that the new education policy will improve student outcomes? (Yes/No)\". Identify two flaws and rewrite it as a neutral, closed-ended item with a 5-point scale.",
+     "a": "Flaws: (1) Leading question — \"Don't you agree\" pressures toward \"Yes\"; (2) Double-barrelled — \"improve student outcomes\" is vague (academic? well-being? equity?).  \nRewritten: \"To what extent do you believe the new education policy will affect student learning outcomes? (1=Strongly Negative, 2=Negative, 3=Neutral, 4=Positive, 5=Strongly Positive).\" A wrong answer that only fixes the scale (e.g., keeps \"Don't you agree\") reveals the student misses the wording bias — they focus on format over the subtle language that distorts responses, a critical error in questionnaire design.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini research plan (4 steps) to survey \"impact of social media on sleep patterns of Class 11 students in Delhi government schools.\" Specify: sampling method, data collection tool, one ethical precaution, and one limitation you cannot avoid.",
+     "a": "1. Sampling: Stratified random sampling — divide schools by district, randomly select 5 schools, then randomly select 30 Class 11 students per school (n=150).  \n2. Tool: Self-administered questionnaire with sleep diary (7 days) + social media usage log (screen-time app screenshots) + demographic items.  \n3. Ethical precaution: Anonymous responses (no names, code numbers only); parental consent + student assent forms; debriefing about sleep hygiene.  \n4. Unavoidable limitation: Self-report bias — students may underreport late-night usage or overestimate sleep; cannot verify objectively without intrusive monitoring. A poor plan (e.g., \"share link on Instagram\") reveals the student conflates convenience sampling with research rigour — they don't grasp that survey methodology demands systematic sampling to support generalisation claims.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

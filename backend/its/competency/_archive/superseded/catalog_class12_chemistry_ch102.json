@@ -1,0 +1,1109 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 102,
+ "chapter_title": "Electrochemistry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech102.txt",
+ "concepts": [
+  {
+   "id": "lech.2.2.1",
+   "title": "Standard Cell Potential",
+   "section": "2.2",
+   "definition": "The potential difference between cathode and anode electrodes under standard thermodynamic conditions with zero net current flow.",
+   "formula": "E_cell = E_cathode - E_anode",
+   "key_idea": "Standard cell EMF is calculated by subtracting the anode standard reduction potential from the cathode standard reduction potential.",
+   "textbook_ref": "lech102.txt lines 90-120",
+   "question_patterns": [
+    "calculate standard cell potential from electrode potentials",
+    "find the standard emf of a galvanic cell",
+    "determine the cell potential under standard conditions",
+    "evaluate standard electromotive force given cathode and anode reduction potentials",
+    "what is the standard cell voltage for the redox pair"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract anode potential from cathode potential",
+     "explain": "Standard EMF is given by right-hand electrode potential minus left-hand electrode potential.",
+     "compute": "E_cell = e_cathode - e_anode"
+    },
+    {
+     "step": 2,
+     "action": "Identify cathode and anode from reduction potentials",
+     "explain": "The electrode with higher standard reduction potential acts as cathode (reduction), the lower one as anode (oxidation).",
+     "compute": "cathode = max(e_cathode, e_anode)"
+    },
+    {
+     "step": 3,
+     "action": "Verify spontaneity of the cell reaction",
+     "explain": "A positive E_cell value confirms the redox reaction is thermodynamically spontaneous under standard conditions.",
+     "compute": "is_spontaneous = e_cell > 0"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.3.1",
+   "title": "Nernst Equation for Cell EMF",
+   "section": "2.3",
+   "definition": "An equation expressing electrode or cell electromotive force as a function of standard cell potential and reaction quotient.",
+   "formula": "E_cell = E_deg_cell - (0.059 / n) * log_Q",
+   "key_idea": "Non-standard cell potential depends logarithmically on the ratio of product ion concentrations to reactant ion concentrations.",
+   "textbook_ref": "lech102.txt lines 190-230",
+   "question_patterns": [
+    "calculate non-standard cell potential using Nernst equation",
+    "find the cell emf at specified ion concentrations",
+    "determine electromotive force for non-unit concentration cell",
+    "evaluate cell potential when reactant and product concentrations vary",
+    "what is the cell voltage given standard potential and log reaction quotient"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate voltage drop due to reaction quotient",
+     "explain": "Multiply 0.059 by reaction quotient log divided by transferred electron count.",
+     "compute": "voltage_drop = (0.059 / n) * log_q"
+    },
+    {
+     "step": 2,
+     "action": "Subtract voltage drop from standard cell potential",
+     "explain": "Cell EMF under non-standard conditions is standard EMF minus concentration drop term.",
+     "compute": "E_cell = e_deg_cell - voltage_drop"
+    },
+    {
+     "step": 3,
+     "action": "Verify cell spontaneity under non-standard conditions",
+     "explain": "If E_cell is positive the cell reaction is spontaneous at the given concentrations; a negative value indicates non-spontaneity.",
+     "compute": "is_spontaneous = e_cell > 0"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.3.2",
+   "title": "Equilibrium Constant from Nernst Equation",
+   "section": "2.3.1",
+   "definition": "The exact relationship connecting standard electrode potential of a cell with the equilibrium constant of its overall cell reaction at 298 K.",
+   "formula": "log_Kc = (n * E_deg_cell) / 0.059",
+   "key_idea": "At chemical equilibrium the cell potential becomes zero, directly linking standard cell potential to the equilibrium constant.",
+   "textbook_ref": "lech102.txt lines 250-280",
+   "question_patterns": [
+    "calculate equilibrium constant log value from standard cell potential",
+    "find log Kc for a cell reaction given standard emf",
+    "determine equilibrium constant exponent from standard electrode potentials",
+    "evaluate logarithm of Kc using electron number and standard potential",
+    "what is the value of log Kc for the redox reaction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply transferred electron number by standard potential",
+     "explain": "Calculate total standard voltage scaled by electron charge factor.",
+     "compute": "numerator = n * e_deg_cell"
+    },
+    {
+     "step": 2,
+     "action": "Divide product by Nernst constant 0.059",
+     "explain": "Logarithm of equilibrium constant is proportional to standard potential times electron count.",
+     "compute": "log_Kc = numerator / 0.059"
+    },
+    {
+     "step": 3,
+     "action": "Compute the equilibrium constant from its logarithm",
+     "explain": "Take the antilogarithm to obtain the actual equilibrium constant Kc from log Kc.",
+     "compute": "Kc = 10 ** log_kc"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.3.3",
+   "title": "Standard Gibbs Energy of Cell Reaction",
+   "section": "2.3.2",
+   "definition": "The standard free energy change of an electrochemical reaction derived from standard cell potential and electron stoichiometry.",
+   "formula": "delta_G = -1 * n * F * E_deg_cell",
+   "key_idea": "Electrical work obtainable from a cell equals the negative change in standard Gibbs free energy.",
+   "textbook_ref": "lech102.txt lines 290-320",
+   "question_patterns": [
+    "calculate standard Gibbs energy change for cell reaction",
+    "find standard free energy from cell emf and charge",
+    "determine delta G standard given standard potential and Faraday constant",
+    "evaluate maximum work done by galvanic cell reaction",
+    "what is the standard Gibbs free energy change in joules per mole"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate standard Gibbs free energy change",
+     "explain": "Multiply negative charge transferred by standard cell potential.",
+     "compute": "delta_g = -1 * n * f * e_deg_cell"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total charge transferred during the reaction",
+     "explain": "Total charge equals the number of moles of electrons multiplied by Faraday constant.",
+     "compute": "total_charge = n * f"
+    },
+    {
+     "step": 3,
+     "action": "Verify thermodynamic feasibility of the cell reaction",
+     "explain": "A negative delta_G confirms the cell reaction is spontaneous; the magnitude indicates maximum useful electrical work obtainable.",
+     "compute": "is_spontaneous = delta_g < 0"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.4.1",
+   "title": "Resistivity and Conductivity of Electrolytes",
+   "section": "2.4",
+   "definition": "The intrinsic material property quantifying resistance to charge transport across a defined cross-sectional electrolyte column.",
+   "formula": "rho = (R * A) / l",
+   "key_idea": "Resistivity is directly proportional to solution resistance and area of cross-section, inversely proportional to column length.",
+   "textbook_ref": "lech102.txt lines 330-370",
+   "question_patterns": [
+    "calculate resistivity of electrolyte solution column",
+    "find specific resistance from resistance and dimensions",
+    "determine electrical resistivity given area length and resistance",
+    "evaluate electrolyte resistivity from column geometry",
+    "what is the solution resistivity in ohm cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply resistance by cross-sectional area",
+     "explain": "Form product of resistance and cross section.",
+     "compute": "ra_product = r * a"
+    },
+    {
+     "step": 2,
+     "action": "Divide by column length",
+     "explain": "Resistivity equals resistance times area divided by length.",
+     "compute": "rho = ra_product / l"
+    },
+    {
+     "step": 3,
+     "action": "Compute conductivity from resistivity",
+     "explain": "Conductivity is the reciprocal of resistivity and characterizes the ease of ion transport through the electrolyte.",
+     "compute": "kappa = 1 / rho"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.4.2",
+   "title": "Cell Constant and Solution Conductivity",
+   "section": "2.4.1",
+   "definition": "The geometric ratio of distance between electrodes to their effective area, evaluated by measuring resistance of a standard solution.",
+   "formula": "cell_constant = R * kappa",
+   "key_idea": "Cell constant depends purely on cell geometry and equals resistance times standard conductivity.",
+   "textbook_ref": "lech102.txt lines 380-420",
+   "question_patterns": [
+    "calculate cell constant from solution resistance and conductivity",
+    "find cell constant G star for conductivity cell",
+    "determine cell factor using standard KCl solution data",
+    "evaluate conductivity cell constant in inverse centimeters",
+    "what is the cell constant given resistance and conductivity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply measured resistance by known specific conductivity",
+     "explain": "Cell constant G star equals resistance times conductivity.",
+     "compute": "cell_constant = r * kappa"
+    },
+    {
+     "step": 2,
+     "action": "Determine unknown solution conductivity using the cell constant",
+     "explain": "Once the cell constant is known, conductivity of any solution is found by dividing cell constant by its measured resistance.",
+     "compute": "kappa_unknown = cell_constant / r_unknown"
+    },
+    {
+     "step": 3,
+     "action": "Verify dimensional consistency of the cell constant",
+     "explain": "Cell constant has units of inverse length (cm-1 or m-1), confirming it depends only on electrode geometry and not on the solution.",
+     "compute": "units = 1 / length"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.4.3",
+   "title": "Molar Conductivity of Electrolytic Solutions",
+   "section": "2.4.3",
+   "definition": "The total electrical conducting capability of all ions formed by one mole of dissolved electrolyte at given concentration.",
+   "formula": "lambda_m = (1000 * kappa) / molarity",
+   "key_idea": "Molar conductivity scales solution conductivity by total volume containing one mole of dissolved electrolyte.",
+   "textbook_ref": "lech102.txt lines 430-460",
+   "question_patterns": [
+    "calculate molar conductivity from specific conductivity and concentration",
+    "find molar conductivity of electrolyte solution",
+    "determine molar conductance given conductivity and molarity",
+    "evaluate lambda m in S cm2 per mol",
+    "what is the molar conductivity for given salt solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply conductivity by conversion factor 1000",
+     "explain": "Scale conductivity to volume-equivalent molar units.",
+     "compute": "scaled_kappa = 1000 * kappa"
+    },
+    {
+     "step": 2,
+     "action": "Divide scaled conductivity by concentration in molarity",
+     "explain": "Molar conductivity is scaled conductivity divided by molarity.",
+     "compute": "lambda_m = scaled_kappa / molarity"
+    },
+    {
+     "step": 3,
+     "action": "Compare molar conductivity with limiting molar conductivity",
+     "explain": "The ratio of molar conductivity at a given concentration to limiting molar conductivity indicates the degree of dissociation of the electrolyte.",
+     "compute": "alpha = lambda_m / lambda_m_deg"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.4.4",
+   "title": "Kohlrausch Law of Independent Migration of Ions",
+   "section": "2.4.2",
+   "definition": "A fundamental law stating limiting molar conductivity of an electrolyte equals sum of individual limiting molar conductivities of constituent ions.",
+   "formula": "lambda_m_deg = nu_pos * lambda_pos + nu_neg * lambda_neg",
+   "key_idea": "At infinite dilution each ion migrates independently, contributing a constant characteristic value to total molar conductivity.",
+   "textbook_ref": "lech102.txt lines 490-530",
+   "question_patterns": [
+    "calculate limiting molar conductivity using Kohlrausch law",
+    "find total limiting molar conductivity from ionic conductivities",
+    "determine limiting molar conductance for salt electrolyte",
+    "evaluate lambda m deg using individual ion contributions",
+    "what is the limiting molar conductivity of electrolyte at infinite dilution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate cation contribution",
+     "explain": "Multiply number of cations by individual cation limiting conductivity.",
+     "compute": "pos_part = nu_pos * lambda_pos"
+    },
+    {
+     "step": 2,
+     "action": "Calculate anion contribution",
+     "explain": "Multiply number of anions by individual anion limiting conductivity.",
+     "compute": "neg_part = nu_neg * lambda_neg"
+    },
+    {
+     "step": 3,
+     "action": "Sum ionic contributions",
+     "explain": "Add cation and anion contributions to obtain limiting molar conductivity.",
+     "compute": "lambda_m_deg = pos_part + neg_part"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.4.5",
+   "title": "Degree of Dissociation of Weak Electrolytes",
+   "section": "2.4.2",
+   "definition": "The fraction of weak electrolyte solute molecules dissociated into ions at a specific solution concentration.",
+   "formula": "alpha = lambda_m / lambda_m_deg",
+   "key_idea": "Degree of dissociation equals ratio of molar conductivity at concentration c to limiting molar conductivity at infinite dilution.",
+   "textbook_ref": "lech102.txt lines 530-560",
+   "question_patterns": [
+    "calculate degree of dissociation alpha for weak electrolyte",
+    "find fraction of dissociated weak acid molecules",
+    "determine degree of ionization from molar conductivities",
+    "evaluate alpha given lambda m and limiting lambda m deg",
+    "what is the degree of dissociation for weak acid solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide molar conductivity by limiting molar conductivity",
+     "explain": "Degree of dissociation alpha is ratio of molar conductivity to limiting molar conductivity.",
+     "compute": "alpha = lambda_m / lambda_m_deg"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the dissociation constant of the weak electrolyte",
+     "explain": "Using Ostwald dilution law, the dissociation constant Ka relates alpha and concentration C as Ka = C * alpha^2 / (1 - alpha).",
+     "compute": "Ka = (molarity * alpha * alpha) / (1 - alpha)"
+    },
+    {
+     "step": 3,
+     "action": "Verify the weak electrolyte behavior",
+     "explain": "For a weak electrolyte alpha is much less than 1, confirming partial dissociation and validating the Ostwald approximation.",
+     "compute": "is_weak = alpha < 1"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.5.1",
+   "title": "Electric Charge in Electrolysis",
+   "section": "2.5",
+   "definition": "The total quantitative electric charge passed through an electrolytic cell during an electrolysis process.",
+   "formula": "Q = I * t",
+   "key_idea": "Total electric charge in coulombs equals electric current in amperes multiplied by time in seconds.",
+   "textbook_ref": "lech102.txt lines 580-610",
+   "question_patterns": [
+    "calculate charge passed during electrolysis",
+    "find quantity of electricity in coulombs",
+    "determine total charge given current and time duration",
+    "evaluate charge transferred across electrolytic wire",
+    "what is the quantity of charge in coulombs for given current and time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply electric current by time in seconds",
+     "explain": "Charge Q equals steady current I times duration t.",
+     "compute": "q = i * t"
+    },
+    {
+     "step": 2,
+     "action": "Convert charge to moles of electrons",
+     "explain": "Divide total charge by Faraday constant to obtain the number of moles of electrons transferred during electrolysis.",
+     "compute": "moles_e = q / f"
+    },
+    {
+     "step": 3,
+     "action": "Relate moles of electrons to moles of substance deposited",
+     "explain": "Divide moles of electrons by the stoichiometric number of electrons per mole of product to find moles of substance transformed.",
+     "compute": "moles_substance = moles_e / n"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.5.2",
+   "title": "Mass Deposited in Electrolysis",
+   "section": "2.5",
+   "definition": "Faraday's first law quantitative relationship governing mass of substance deposited or liberated at an electrode during electrolysis.",
+   "formula": "mass = (molar_mass * I * t) / (n * F)",
+   "key_idea": "Deposited mass is directly proportional to electric charge passed and element equivalent mass.",
+   "textbook_ref": "lech102.txt lines 610-650",
+   "question_patterns": [
+    "calculate mass of metal deposited during electrolysis",
+    "find weight of element liberated at cathode",
+    "determine mass deposited given current duration and stoichiometry",
+    "evaluate yield of electrodeposited metal using Faraday law",
+    "what is the mass of metal deposited at electrode in grams"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total electric charge",
+     "explain": "Multiply steady current by duration in seconds.",
+     "compute": "q = i * t"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of deposited substance",
+     "explain": "Mass equals molar mass times charge passed divided by electrons transferred times Faraday constant.",
+     "compute": "mass = (molar_mass * q) / (n * f)"
+    },
+    {
+     "step": 3,
+     "action": "Verify the deposited mass against Faraday first law proportionality",
+     "explain": "The calculated mass should be directly proportional to the total charge passed, confirming Faraday first law of electrolysis.",
+     "compute": "mass_proportional = mass / q"
+    }
+   ]
+  },
+  {
+   "id": "lech.2.6.1",
+   "title": "Batteries, Fuel Cells and Corrosion Mechanism",
+   "section": "2.6",
+   "definition": "Principles governing commercial primary cells, secondary rechargeable batteries, continuous fuel cells, and electrochemical metallic corrosion.",
+   "formula": "E_cell_overall = E_cathode - E_anode",
+   "key_idea": "Batteries convert chemical energy directly into electrical work through spontaneous localized half-cell redox reactions.",
+   "textbook_ref": "lech102.txt lines 680-770",
+   "question_patterns": [
+    "describe chemical working of primary or secondary batteries",
+    "explain electrode half-reactions in fuel cell",
+    "how does lead storage battery operate during discharge and charge",
+    "explain corrosion of iron as an electrochemical process",
+    "differentiate primary and secondary battery systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify anodic oxidation process",
+     "explain": "Substance undergoes electron loss at anode oxidation site."
+    },
+    {
+     "step": 2,
+     "action": "Identify cathodic reduction process",
+     "explain": "Oxidizing species accepts electrons at cathodic site."
+    },
+    {
+     "step": 3,
+     "action": "Combine half-reactions for net cell process",
+     "explain": "Sum half-cell reactions to verify overall cell chemical transformation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lech102.txt lines 110-120",
+   "concept": "lech.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the standard cell potential for Daniell cell where standard reduction potential of Cu2+/Cu is {E_cathode} V and Zn2+/Zn is {E_anode} V.",
+   "extracted_variables": {
+    "E_cathode": 0.34,
+    "E_anode": -0.76
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract anode potential from cathode potential",
+     "explain": "Standard EMF is given by right-hand electrode potential minus left-hand electrode potential.",
+     "compute": "E_cell = e_cathode - e_anode"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lech102.txt lines 120-130",
+   "concept": "lech.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "Determine the standard cell EMF for silver-copper cell given E cathode Ag+/Ag is {E_cathode} V and E anode Cu2+/Cu is {E_anode} V.",
+   "extracted_variables": {
+    "E_cathode": 0.8,
+    "E_anode": 0.34
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract anode potential from cathode potential",
+     "explain": "Standard EMF is given by right-hand electrode potential minus left-hand electrode potential.",
+     "compute": "E_cell = e_cathode - e_anode"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lech102.txt lines 230-245",
+   "concept": "lech.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate non-standard cell potential E_cell for Mg|Mg2+(0.13M)||Ag+(0.0001M)|Ag cell having standard potential {E_deg_cell} V, transferred electrons {n}, and log reaction quotient {log_Q}.",
+   "extracted_variables": {
+    "E_deg_cell": 3.17,
+    "n": 2,
+    "log_Q": 4.11
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate voltage drop due to reaction quotient",
+     "explain": "Multiply 0.059 by reaction quotient log divided by transferred electron count.",
+     "compute": "voltage_drop = (0.059 / n) * log_q"
+    },
+    {
+     "step": 2,
+     "action": "Subtract voltage drop from standard cell potential",
+     "explain": "Cell EMF under non-standard conditions is standard EMF minus concentration drop term.",
+     "compute": "E_cell = e_deg_cell - voltage_drop"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lech102.txt lines 320-330",
+   "concept": "lech.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find cell EMF for Ni|Ni2+(0.16M)||Ag+(0.002M)|Ag with standard potential {E_deg_cell} V, electron number {n}, and log reaction quotient {log_Q}.",
+   "extracted_variables": {
+    "E_deg_cell": 1.05,
+    "n": 2,
+    "log_Q": 4.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate voltage drop due to reaction quotient",
+     "explain": "Multiply 0.059 by reaction quotient log divided by transferred electron count.",
+     "compute": "voltage_drop = (0.059 / n) * log_q"
+    },
+    {
+     "step": 2,
+     "action": "Subtract voltage drop from standard cell potential",
+     "explain": "Cell EMF under non-standard conditions is standard EMF minus concentration drop term.",
+     "compute": "E_cell = e_deg_cell - voltage_drop"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lech102.txt lines 280-290",
+   "concept": "lech.2.3.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate log Kc for reaction Cu + 2Ag+ -> Cu2+ + 2Ag having standard potential {E_deg_cell} V and transferred electron count {n}.",
+   "extracted_variables": {
+    "E_deg_cell": 0.46,
+    "n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply transferred electron number by standard potential",
+     "explain": "Calculate total standard voltage scaled by electron charge factor.",
+     "compute": "numerator = n * e_deg_cell"
+    },
+    {
+     "step": 2,
+     "action": "Divide product by Nernst constant 0.059",
+     "explain": "Logarithm of equilibrium constant is proportional to standard potential times electron count.",
+     "compute": "log_Kc = numerator / 0.059"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lech102.txt lines 265-275",
+   "concept": "lech.2.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find log Kc for Daniell cell reaction with standard EMF {E_deg_cell} V and electron number {n}.",
+   "extracted_variables": {
+    "E_deg_cell": 1.1,
+    "n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply transferred electron number by standard potential",
+     "explain": "Calculate total standard voltage scaled by electron charge factor.",
+     "compute": "numerator = n * e_deg_cell"
+    },
+    {
+     "step": 2,
+     "action": "Divide product by Nernst constant 0.059",
+     "explain": "Logarithm of equilibrium constant is proportional to standard potential times electron count.",
+     "compute": "log_Kc = numerator / 0.059"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lech102.txt lines 310-320",
+   "concept": "lech.2.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate standard Gibbs energy delta G in Joules per mole for Daniell cell with electron transfer {n}, Faraday constant {F} C/mol, and standard potential {E_deg_cell} V.",
+   "extracted_variables": {
+    "n": 2,
+    "F": 96487,
+    "E_deg_cell": 1.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate standard Gibbs free energy change",
+     "explain": "Multiply negative charge transferred by standard cell potential.",
+     "compute": "delta_g = -1 * n * f * e_deg_cell"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lech102.txt lines 320-330",
+   "concept": "lech.2.3.3",
+   "question_type": "compute",
+   "question_pattern": "Determine standard Gibbs energy change delta G in Joules for cell reaction with {n} electrons transferred, Faraday constant {F} C/mol, and standard potential {E_deg_cell} V.",
+   "extracted_variables": {
+    "n": 2,
+    "F": 96487,
+    "E_deg_cell": 0.236
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate standard Gibbs free energy change",
+     "explain": "Multiply negative charge transferred by standard cell potential.",
+     "compute": "delta_g = -1 * n * f * e_deg_cell"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "lech102.txt lines 470-480",
+   "concept": "lech.2.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate resistivity rho in ohm cm of NaOH solution column having resistance {R} ohm, cross sectional area {A} cm2, and length {l} cm.",
+   "extracted_variables": {
+    "R": 5550,
+    "A": 0.785,
+    "l": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply resistance by cross-sectional area",
+     "explain": "Form product of resistance and cross section.",
+     "compute": "ra_product = r * a"
+    },
+    {
+     "step": 2,
+     "action": "Divide by column length",
+     "explain": "Resistivity equals resistance times area divided by length.",
+     "compute": "rho = ra_product / l"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "lech102.txt lines 350-365",
+   "concept": "lech.2.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find electrical resistivity rho of an electrolyte column with resistance {R} ohm, cross section {A} cm2, and length {l} cm.",
+   "extracted_variables": {
+    "R": 200,
+    "A": 1.5,
+    "l": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply resistance by cross-sectional area",
+     "explain": "Form product of resistance and cross section.",
+     "compute": "ra_product = r * a"
+    },
+    {
+     "step": 2,
+     "action": "Divide by column length",
+     "explain": "Resistivity equals resistance times area divided by length.",
+     "compute": "rho = ra_product / l"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "lech102.txt lines 450-460",
+   "concept": "lech.2.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate cell constant G star in m-1 for conductivity cell filled with KCl having resistance {R} ohm and conductivity {kappa} S/m.",
+   "extracted_variables": {
+    "R": 100,
+    "kappa": 1.29
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply measured resistance by known specific conductivity",
+     "explain": "Cell constant G star equals resistance times conductivity.",
+     "compute": "cell_constant = r * kappa"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "lech102.txt lines 590-600",
+   "concept": "lech.2.4.2",
+   "question_type": "compute",
+   "question_pattern": "Determine cell constant in cm-1 for conductivity cell with resistance {R} ohm and KCl solution conductivity {kappa} S/cm.",
+   "extracted_variables": {
+    "R": 1500,
+    "kappa": 0.000146
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply measured resistance by known specific conductivity",
+     "explain": "Cell constant G star equals resistance times conductivity.",
+     "compute": "cell_constant = r * kappa"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "lech102.txt lines 590-595",
+   "concept": "lech.2.4.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate molar conductivity lambda m in S cm2 mol-1 of KCl solution having conductivity {kappa} S cm-1 and concentration {molarity} M.",
+   "extracted_variables": {
+    "kappa": 0.0248,
+    "molarity": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply conductivity by conversion factor 1000",
+     "explain": "Scale conductivity to volume-equivalent molar units.",
+     "compute": "scaled_kappa = 1000 * kappa"
+    },
+    {
+     "step": 2,
+     "action": "Divide scaled conductivity by concentration in molarity",
+     "explain": "Molar conductivity is scaled conductivity divided by molarity.",
+     "compute": "lambda_m = scaled_kappa / molarity"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "lech102.txt lines 600-610",
+   "concept": "lech.2.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find molar conductivity in S cm2 mol-1 for acetic acid with conductivity {kappa} S cm-1 and concentration {molarity} mol/L.",
+   "extracted_variables": {
+    "kappa": 7.896e-05,
+    "molarity": 0.00241
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply conductivity by conversion factor 1000",
+     "explain": "Scale conductivity to volume-equivalent molar units.",
+     "compute": "scaled_kappa = 1000 * kappa"
+    },
+    {
+     "step": 2,
+     "action": "Divide scaled conductivity by concentration in molarity",
+     "explain": "Molar conductivity is scaled conductivity divided by molarity.",
+     "compute": "lambda_m = scaled_kappa / molarity"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "lech102.txt lines 560-570",
+   "concept": "lech.2.4.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate limiting molar conductivity lambda m deg for CaCl2 given cation count {nu_pos}, cation limiting molar conductivity {lambda_pos} S cm2 mol-1, anion count {nu_neg}, and anion limiting conductivity {lambda_neg} S cm2 mol-1.",
+   "extracted_variables": {
+    "nu_pos": 1,
+    "lambda_pos": 119,
+    "nu_neg": 2,
+    "lambda_neg": 76.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate cation contribution",
+     "explain": "Multiply number of cations by individual cation limiting conductivity.",
+     "compute": "pos_part = nu_pos * lambda_pos"
+    },
+    {
+     "step": 2,
+     "action": "Calculate anion contribution",
+     "explain": "Multiply number of anions by individual anion limiting conductivity.",
+     "compute": "neg_part = nu_neg * lambda_neg"
+    },
+    {
+     "step": 3,
+     "action": "Sum ionic contributions",
+     "explain": "Add cation and anion contributions to obtain limiting molar conductivity.",
+     "compute": "lambda_m_deg = pos_part + neg_part"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "lech102.txt lines 570-575",
+   "concept": "lech.2.4.4",
+   "question_type": "compute",
+   "question_pattern": "Determine limiting molar conductivity lambda m deg for MgSO4 with cation stoichiometry {nu_pos}, cation conductivity {lambda_pos} S cm2 mol-1, anion stoichiometry {nu_neg}, and anion conductivity {lambda_neg} S cm2 mol-1.",
+   "extracted_variables": {
+    "nu_pos": 1,
+    "lambda_pos": 106,
+    "nu_neg": 1,
+    "lambda_neg": 160
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate cation contribution",
+     "explain": "Multiply number of cations by individual cation limiting conductivity.",
+     "compute": "pos_part = nu_pos * lambda_pos"
+    },
+    {
+     "step": 2,
+     "action": "Calculate anion contribution",
+     "explain": "Multiply number of anions by individual anion limiting conductivity.",
+     "compute": "neg_part = nu_neg * lambda_neg"
+    },
+    {
+     "step": 3,
+     "action": "Sum ionic contributions",
+     "explain": "Add cation and anion contributions to obtain limiting molar conductivity.",
+     "compute": "lambda_m_deg = pos_part + neg_part"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "lech102.txt lines 580-590",
+   "concept": "lech.2.4.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate degree of dissociation alpha for methanoic acid having molar conductivity {lambda_m} S cm2 mol-1 and limiting molar conductivity {lambda_m_deg} S cm2 mol-1.",
+   "extracted_variables": {
+    "lambda_m": 46.1,
+    "lambda_m_deg": 404.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide molar conductivity by limiting molar conductivity",
+     "explain": "Degree of dissociation alpha is ratio of molar conductivity to limiting molar conductivity.",
+     "compute": "alpha = lambda_m / lambda_m_deg"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "lech102.txt lines 575-585",
+   "concept": "lech.2.4.5",
+   "question_type": "compute",
+   "question_pattern": "Find degree of ionization alpha for acetic acid solution with lambda m {lambda_m} S cm2 mol-1 and limiting lambda m deg {lambda_m_deg} S cm2 mol-1.",
+   "extracted_variables": {
+    "lambda_m": 48.15,
+    "lambda_m_deg": 390.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide molar conductivity by limiting molar conductivity",
+     "explain": "Degree of dissociation alpha is ratio of molar conductivity to limiting molar conductivity.",
+     "compute": "alpha = lambda_m / lambda_m_deg"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "lech102.txt lines 620-630",
+   "concept": "lech.2.5.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate charge Q in coulombs passed during electrolysis with steady current {I} amperes over duration {t} seconds.",
+   "extracted_variables": {
+    "I": 1.5,
+    "t": 600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply electric current by time in seconds",
+     "explain": "Charge Q equals steady current I times duration t.",
+     "compute": "q = i * t"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "lech102.txt lines 635-645",
+   "concept": "lech.2.5.1",
+   "question_type": "compute",
+   "question_pattern": "Determine total electric charge Q passed through metallic wire when current {I} amperes flows for duration {t} seconds.",
+   "extracted_variables": {
+    "I": 0.5,
+    "t": 7200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply electric current by time in seconds",
+     "explain": "Charge Q equals steady current I times duration t.",
+     "compute": "q = i * t"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "lech102.txt lines 625-635",
+   "concept": "lech.2.5.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate mass of copper deposited at cathode during electrolysis of CuSO4 with current {I} amperes for time {t} seconds, given copper molar mass {molar_mass} g/mol, electron transfer {n}, and Faraday constant {F} C/mol.",
+   "extracted_variables": {
+    "I": 1.5,
+    "t": 600,
+    "molar_mass": 63.5,
+    "n": 2,
+    "F": 96487
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total electric charge",
+     "explain": "Multiply steady current by duration in seconds.",
+     "compute": "q = i * t"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of deposited substance",
+     "explain": "Mass equals molar mass times charge passed divided by electrons transferred times Faraday constant.",
+     "compute": "mass = (molar_mass * q) / (n * f)"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "lech102.txt lines 610-620",
+   "concept": "lech.2.5.2",
+   "question_type": "compute",
+   "question_pattern": "Determine mass of nickel deposited from Ni(NO3)2 solution using current {I} amperes for {t} seconds, with molar mass {molar_mass} g/mol, valence {n}, and Faraday constant {F} C/mol.",
+   "extracted_variables": {
+    "I": 5,
+    "t": 1200,
+    "molar_mass": 58.7,
+    "n": 2,
+    "F": 96487
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total electric charge",
+     "explain": "Multiply steady current by duration in seconds.",
+     "compute": "q = i * t"
+    },
+    {
+     "step": 2,
+     "action": "Calculate mass of deposited substance",
+     "explain": "Mass equals molar mass times charge passed divided by electrons transferred times Faraday constant.",
+     "compute": "mass = (molar_mass * q) / (n * f)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "lech102.txt line 585",
+   "questions": [
+    "Arrange the following metals in the order in which they displace each other from the solution of their salts: Al, Cu, Fe, Mg and Zn."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "lech102.txt line 587",
+   "questions": [
+    "Given the standard electrode potentials: K+/K = -2.93V, Ag+/Ag = 0.80V, Hg2+/Hg = 0.79V, Mg2+/Mg = -2.37V, Cr3+/Cr = -0.74V. Arrange these metals in their increasing order of reducing power."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "lech102.txt line 590",
+   "questions": [
+    "Depict the galvanic cell in which the reaction Zn(s) + 2Ag+(aq) -> Zn2+(aq) + 2Ag(s) takes place. Show: (i) Which electrode is negatively charged? (ii) The carriers of current in the cell. (iii) Individual reaction at each electrode."
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "lech102.txt line 593",
+   "questions": [
+    "Calculate the standard cell potentials of galvanic cells in which the following reactions take place: (i) 2Cr(s) + 3Cd2+(aq) -> 2Cr3+(aq) + 3Cd(s) (ii) Fe2+(aq) + Ag+(aq) -> Fe3+(aq) + Ag(s). Calculate standard Gibbs energy and equilibrium constant for each reaction."
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "lech102.txt line 596",
+   "questions": [
+    "Write the Nernst equation and emf of the following cells at 298 K: (i) Mg(s)|Mg2+(0.001M)||Cu2+(0.0001M)|Cu(s) (ii) Fe(s)|Fe2+(0.001M)||H+(1M)|H2(g)(1bar)|Pt(s) (iii) Sn(s)|Sn2+(0.050M)||H+(0.020M)|H2(g)(1bar)|Pt(s) (iv) Pt(s)|Br-(0.010M)|Br2(l)||H+(0.030M)|H2(g)(1bar)|Pt(s)."
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "lech102.txt line 600",
+   "questions": [
+    "In button cells widely used in watches, the reaction is Zn(s) + Ag2O(s) + H2O(l) -> Zn2+(aq) + 2Ag(s) + 2OH-(aq). Determine standard Gibbs energy and standard cell EMF."
+   ]
+  },
+  {
+   "id": "ex2.7",
+   "source_ref": "lech102.txt line 603",
+   "questions": [
+    "Define conductivity and molar conductivity for the solution of an electrolyte. Discuss their variation with concentration."
+   ]
+  },
+  {
+   "id": "ex2.8",
+   "source_ref": "lech102.txt line 605",
+   "questions": [
+    "The conductivity of 0.20 M solution of KCl at 298 K is 0.0248 S cm-1. Calculate its molar conductivity."
+   ]
+  },
+  {
+   "id": "ex2.9",
+   "source_ref": "lech102.txt line 607",
+   "questions": [
+    "The resistance of a conductivity cell containing 0.001 M KCl solution at 298 K is 1500 ohm. What is the cell constant if conductivity of 0.001 M KCl at 298 K is 0.146 x 10-3 S cm-1?"
+   ]
+  },
+  {
+   "id": "ex2.10",
+   "source_ref": "lech102.txt line 610",
+   "questions": [
+    "The conductivity of sodium chloride at 298 K has been determined at different concentrations. Calculate molar conductivity for all concentrations and draw a plot between molar conductivity and c^0.5 to find limiting molar conductivity."
+   ]
+  },
+  {
+   "id": "ex2.11",
+   "source_ref": "lech102.txt line 613",
+   "questions": [
+    "Conductivity of 0.00241 M acetic acid is 7.896 x 10-5 S cm-1. Calculate its molar conductivity. If limiting molar conductivity for acetic acid is 390.5 S cm2 mol-1, what is its dissociation constant?"
+   ]
+  },
+  {
+   "id": "ex2.12",
+   "source_ref": "lech102.txt line 616",
+   "questions": [
+    "How much charge is required for the following reductions: (i) 1 mol of Al3+ to Al? (ii) 1 mol of Cu2+ to Cu? (iii) 1 mol of MnO4- to Mn2+?"
+   ]
+  },
+  {
+   "id": "ex2.13",
+   "source_ref": "lech102.txt line 619",
+   "questions": [
+    "How much electricity in terms of Faraday is required to produce: (i) 20.0 g of Ca from molten CaCl2? (ii) 40.0 g of Al from molten Al2O3?"
+   ]
+  },
+  {
+   "id": "ex2.14",
+   "source_ref": "lech102.txt line 622",
+   "questions": [
+    "How much electricity is required in coulomb for the oxidation of: (i) 1 mol of H2O to O2? (ii) 1 mol of FeO to Fe2O3?"
+   ]
+  },
+  {
+   "id": "ex2.15",
+   "source_ref": "lech102.txt line 625",
+   "questions": [
+    "A solution of Ni(NO3)2 is electrolysed between platinum electrodes using a current of 5 amperes for 20 minutes. What mass of Ni is deposited at the cathode?"
+   ]
+  },
+  {
+   "id": "ex2.16",
+   "source_ref": "lech102.txt line 628",
+   "questions": [
+    "Three electrolytic cells A, B, C containing solutions of ZnSO4, AgNO3, CuSO4 respectively are connected in series. A steady current of 1.5 amperes was passed through them until 1.45 g of silver deposited at cathode of cell B. How long did current flow? What mass of copper and zinc were deposited?"
+   ]
+  },
+  {
+   "id": "ex2.17",
+   "source_ref": "lech102.txt line 632",
+   "questions": [
+    "Using standard electrode potentials, predict if the reaction between the following is feasible: (i) Fe3+(aq) and I-(aq) (ii) Ag+(aq) and Cu(s) (iii) Fe3+(aq) and Br-(aq) (iv) Ag(s) and Fe3+(aq) (v) Br2(aq) and Fe2+(aq)."
+   ]
+  },
+  {
+   "id": "ex2.18",
+   "source_ref": "lech102.txt line 636",
+   "questions": [
+    "Predict the products of electrolysis in each of the following: (i) An aqueous solution of AgNO3 with silver electrodes. (ii) An aqueous solution of AgNO3 with platinum electrodes. (iii) A dilute solution of H2SO4 with platinum electrodes. (iv) An aqueous solution of CuCl2 with platinum electrodes."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "lech.2.2.1: bad compute 'E_cathode - E_anode' (unknown symbol: E_cathode)",
+  "lech.2.3.1: bad compute '(0.059 / n) * log_Q' (unknown symbol: log_Q)",
+  "lech.2.3.1: bad compute 'E_deg_cell - voltage_drop' (unknown symbol: E_deg_cell)",
+  "lech.2.3.2: bad compute 'n * E_deg_cell' (unknown symbol: E_deg_cell)",
+  "lech.2.3.3: bad compute '-1 * n * F * E_deg_cell' (unknown symbol: F)",
+  "lech.2.4.1: bad compute 'R * A' (unknown symbol: R)",
+  "lech.2.4.2: bad compute 'R * kappa' (unknown symbol: R)",
+  "lech.2.5.1: bad compute 'I * t' (unknown symbol: I)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

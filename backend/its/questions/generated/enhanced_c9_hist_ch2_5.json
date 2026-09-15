@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_5",
+   "title": "c9_hist_ch2_5",
+   "questions": [
+    {
+     "q": "Name the two key archaeological sites in the Indian subcontinent that provide the earliest evidence of Neolithic agriculture and settlement, and state the approximate time period for each.",
+     "a": "Mehrgarh (Balochistan, c. 7000 BCE) and Lahuradewa (Ganga Valley, c. 7000–6000 BCE) are the earliest. A wrong answer (e.g., naming Harappa or Mohenjo-daro) reveals the student confuses the Neolithic village phase with the later urban Harappan phase, missing the 3000-year gap and the fundamental difference between village farming and city civilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the domestication of wheat and barley at Mehrgarh could not have happened without the prior existence of wild varieties in the surrounding environment, and what this tells us about the process of domestication.",
+     "a": "Domestication is a co-evolutionary process where humans selectively harvest and replant wild stands, gradually altering plant genetics (e.g., non-shattering rachis, larger grains). Wild wheat and barley grew naturally in the Fertile Crescent foothills near Mehrgarh; humans did not \"invent\" the plants but redirected their evolution. A wrong answer (e.g., \"humans created wheat\") reveals a misconception of domestication as a single inventive act rather than a long-term mutual adaptation between species.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Neolithic people settled down because farming produces more food than hunting-gathering, so it was an obvious choice.\" Using evidence from the Neolithic transition, evaluate this claim and explain why the shift was neither obvious nor universally beneficial in the short term.",
+     "a": "Early farming required more labor, yielded less reliable nutrition, increased disease (sedentism, proximity to animals), and reduced dietary diversity compared to broad-spectrum foraging. Skeletal evidence shows Neolithic farmers had more dental caries, iron deficiency, and lower stature than Mesolithic foragers. The shift was driven by population pressure, climate instability, and social factors — not \"obvious\" superiority. A wrong answer accepting the claim reveals a teleological fallacy: judging past choices by modern outcomes, ignoring the lived costs of the transition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Neolithic subsistence patterns of the Kashmir Valley (Burzahom, Gufkral) with those of the Deccan Plateau (Piklihal, Tekkalakota). Identify two major differences and explain how local ecology shaped each.",
+     "a": "Kashmir: pit dwellings, hunting (deer, ibex) alongside cultivation of wheat, barley, lentils; cold climate favored animal husbandry and storage. Deccan: surface huts, millet cultivation (ragi, jowar), cattle pastoralism; semi-arid ecology favored drought-resistant millets and mobile herding. A wrong answer listing only crops misses the ecological logic: each region's \"Neolithic package\" was a specific adaptation to rainfall, temperature, and soil — not a uniform template imposed from outside.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the significance of pottery in Neolithic settlements. Was it merely a container technology, or did it transform social and economic relations? Justify with two specific examples from subcontinental sites.",
+     "a": "Pottery enabled surplus storage (granaries at Mehrgarh), processing of new foods (dairy, fermented grains), and standardization of exchange (identical vessels at Chirand). It also created new labor specialization (potters) and symbolic expression (painted designs at Sanganakallu). A wrong answer calling it \"just for storage\" misses how material culture actively reshapes social organization — pottery is both a cause and effect of sedentary complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-stage chronological narrative showing how a Mesolithic community in the Ganga Valley (c. 8000 BCE) could have transitioned to a Neolithic village (c. 6000 BCE) like Lahuradewa. Each stage must identify a specific driver (environmental, demographic, technological, social) and the resulting change.",
+     "a": "Stage 1 (Environmental): Post-glacial monsoon intensification expands wetlands → wild rice (Oryza nivara) proliferates. Stage 2 (Demographic): Rich resources support larger semi-sedentary bands → territoriality increases. Stage 3 (Technological): Selection of non-shattering rice, pottery for boiling/storage → investment in fixed facilities. Stage 4 (Social): Hereditary leadership manages communal labor for field clearance/irrigation → village with social hierarchy. A poor answer lists stages without causal links, treating transition as a checklist rather than a dynamic feedback loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

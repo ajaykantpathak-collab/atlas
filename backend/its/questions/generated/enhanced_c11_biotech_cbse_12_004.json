@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_004",
+   "title": "c11_biotech_cbse_12_004",
+   "questions": [
+    {
+     "q": "Define gel filtration chromatography and state the single physical property it exploits for separation.",
+     "a": "Gel filtration chromatography (size exclusion chromatography) separates molecules based on their hydrodynamic radius (effective size in solution) as they pass through a porous stationary phase; larger molecules are excluded from pores and elute first, while smaller molecules enter pores and elute later. A wrong answer like \"separates by molecular weight\" reveals confusion between molecular weight (a chemical property) and hydrodynamic size (a physical property in solution) — students often forget that shape and hydration affect elution, not just molecular weight.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a globular protein of 100 kDa elutes earlier than a linear DNA fragment of 100 kDa on the same gel filtration column.",
+     "a": "The globular protein has a smaller hydrodynamic radius (more compact shape) than the linear DNA of the same molecular weight, so the DNA experiences greater steric hindrance and enters pores more readily, resulting in a larger elution volume. A wrong answer claiming \"same molecular weight means same elution\" reveals the misconception that gel filtration separates by molecular weight alone, ignoring the critical role of molecular conformation and hydration in determining the Stokes radius.",
+     "self_check": true
+    },
+    {
+     "q": "A mixture contains Protein A (pI 4.5), Protein B (pI 7.0), and Protein C (pI 9.5). You apply the mixture to a DEAE-Sepharose (anion exchanger) column equilibrated at pH 8.0. Predict which proteins bind and their elution order using a linear NaCl gradient (0–1 M).",
+     "a": "At pH 8.0: Protein A (pI 4.5) is negatively charged → binds strongly; Protein B (pI 7.0) is slightly negative → binds weakly; Protein C (pI 9.5) is positively charged → does not bind (flows through). Elution order with increasing salt: Protein C (flow-through), then Protein B (low salt), then Protein A (high salt). A wrong answer reversing the elution order reveals confusion about the relationship between net charge magnitude and salt concentration required for displacement — students often think \"more negative binds less\" instead of \"more negative requires more counter-ions to displace.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effect of increasing ionic strength (salt concentration) on resolution in gel filtration versus ion exchange chromatography.",
+     "a": "In gel filtration, ionic strength minimally affects separation (only reduces non-specific ionic interactions); resolution depends on pore size distribution and flow rate. In ion exchange, increasing ionic strength is the primary elution mechanism — it competes with bound molecules for charged groups, so resolution is highly sensitive to salt gradient slope and starting conductivity. A wrong answer stating \"salt improves resolution in both\" reveals failure to distinguish between a separation mechanism based on physical exclusion (size) versus competitive binding (charge).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher chooses CM-cellulose (cation exchanger) at pH 5.0 to purify a protein with pI 6.5. Evaluate this choice and suggest a better condition if the protein is unstable below pH 6.0.",
+     "a": "At pH 5.0, the protein (pI 6.5) is positively charged and will bind to CM-cellulose — the choice is logically correct for binding. However, since the protein is unstable below pH 6.0, this condition risks denaturation. Better: use an anion exchanger (e.g., DEAE) at pH 7.5 where the protein is negatively charged and stable, or switch to gel filtration as a pH-independent alternative. A wrong answer insisting on CM-cellulose at pH 5.0 reveals inability to integrate protein stability constraints with chromatographic principles — a common error when students treat techniques as rigid recipes rather than adaptable tools.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step purification scheme for a target enzyme (MW 60 kDa, pI 5.0) from a crude plant extract containing proteases (MW 25 kDa, pI 8.0), polysaccharides, and pigments. Justify the order of steps.",
+     "a": "Step 1: Ion exchange on DEAE-agarose at pH 7.0. Target (pI 5.0) binds (negative); proteases (pI 8.0) flow through (positive); polysaccharides/pigments often flow through or wash off. Elute target with 0–0.5 M NaCl gradient. Step 2: Gel filtration (Sephadex G-75) to separate target (60 kDa) from any remaining similarly charged contaminants and to exchange into storage buffer. Order justification: Ion exchange first for high-capacity capture and removal of bulk contaminants (proteases); gel filtration last for high-resolution polishing and buffer exchange. A poor answer reversing the order reveals misunderstanding of capacity vs resolution trade-offs — gel filtration has low sample capacity and would be overloaded by crude extract.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

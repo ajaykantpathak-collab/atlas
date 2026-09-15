@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_008",
+   "title": "c11_bio_cbse_03_008",
+   "questions": [
+    {
+     "q": "Name the type of life cycle exhibited by *Volvox* and state the ploidy of its dominant vegetative colony. At what stage does meiosis occur in this cycle?",
+     "a": "*Volvox* exhibits a haplontic life cycle. Its dominant vegetative colony is haploid (n). Meiosis occurs in the zygote (zygotic meiosis) immediately after fertilization, producing haploid zoospores that develop into new colonies. A wrong answer (e.g., saying the colony is diploid or meiosis occurs during gamete formation) reveals the student confuses haplontic with diplontic cycles or misidentifies the dominant phase.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why bryophytes are called \"amphibians of the plant kingdom\" in the context of their haplodiplontic life cycle. How does the dependence of the sporophyte on the gametophyte differ from the relationship in pteridophytes?",
+     "a": "Bryophytes require water for motile male gametes (antherozoids) to swim to the archegonium, hence \"amphibians.\" In their haplodiplontic cycle, the diploid sporophyte (foot, seta, capsule) is nutritionally dependent on the haploid gametophyte throughout its life. In pteridophytes (also haplodiplontic), the sporophyte is the dominant, independent, vascular plant body, while the gametophyte (prothallus) is small, short-lived, and independent. A wrong answer that claims the bryophyte sporophyte is independent or that the pteridophyte gametophyte is dominant reveals confusion about which phase is free-living in each group.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a fern prothallus under a microscope and sees archegonia and antheridia on the same structure. The prothallus is heart-shaped and ~5 mm wide. Identify the ploidy of the prothallus cells and the type of meiosis occurring in the fern life cycle. Predict what would happen if water is absent during the mature prothallus stage.",
+     "a": "The prothallus is the haploid (n) gametophyte. Ferns exhibit haplodiplontic life cycle with sporic meiosis: meiosis occurs in spore mother cells (sporangia) to produce haploid spores. Without water, flagellated antherozoids cannot swim to archegonia; fertilization fails, zygote is not formed, and the diploid sporophyte generation cannot begin. A wrong answer (e.g., prothallus is diploid, or meiosis occurs in gametes) indicates inability to distinguish sporic meiosis from gametic/zygotic meiosis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the site and timing of meiosis in the life cycles of *Fucus* (brown alga), *Funaria* (moss), and *Pinus* (gymnosperm). Construct a table with columns: Organism, Life Cycle Type, Stage of Meiosis, Ploidy of Dominant Vegetative Phase.",
+     "a": "| Organism | Life Cycle Type | Stage of Meiosis | Dominant Phase Ploidy |\n|----------|----------------|------------------|----------------------|\n| *Fucus*  | Diplontic      | Gametic (in sex organs) | Diploid (2n) |\n| *Funaria*| Haplodiplontic | Sporic (in capsule) | Haploid (n) |\n| *Pinus*  | Diplontic      | Gametic (in microsporangia/megasporangia) | Diploid (2n) |\nA wrong answer placing meiosis in the zygote for *Fucus* or *Pinus* shows failure to recognize that diplontic organisms have no free-living haploid phase; meiosis must occur during gamete formation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In all haplodiplontic plants, the gametophyte and sporophyte are morphologically similar and equally long-lived.\" Use specific examples from bryophytes and pteridophytes to justify your evaluation.",
+     "a": "The statement is false. Haplodiplontic only means both phases are multicellular and free-living; it does not imply similarity. In bryophytes (e.g., *Marchantia*, *Funaria*), the gametophyte is dominant, photosynthetic, long-lived; the sporophyte is short-lived, dependent, and unbranched. In pteridophytes (e.g., *Dryopteris*, *Selaginella*), the sporophyte is dominant, vascular, perennial; the gametophyte (prothallus) is tiny, short-lived, and non-vascular. A student who agrees with the statement conflates \"haplodiplontic\" with \"isomorphic alternation\" (which occurs in some algae like *Ulva*, not in land plants).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic investigation using permanent slides to distinguish between a haplontic alga (e.g., *Chlamydomonas*), a haplodiplontic bryophyte (e.g., *Marchantia* thallus vs. sporophyte), and a diplontic gymnosperm (e.g., *Pinus* ovule). List the slides you would request, the key observation for each, and the conclusion you would draw about the dominant phase ploidy.",
+     "a": "Slides: 1) *Chlamydomonas* vegetative cell (shows single nucleus, no pairing). 2) *Marchantia* gemma cup (haploid) and *Marchantia* sporophyte capsule (diploid spore mother cells). 3) *Pinus* ovule LS showing megaspore mother cell (diploid) and mature embryo sac (haploid). Observations: *Chlamydomonas* shows only haploid vegetative cells; *Marchantia* shows large haploid thallus and small diploid sporophyte; *Pinus* shows massive diploid ovule tissue with microscopic haploid embryo sac. Conclusion: Dominant phase is haploid in *Chlamydomonas*, haploid in *Marchantia*, diploid in *Pinus*. A poor answer requests only whole-mount slides without specifying the critical cellular details (ploidy indicators like chromosome number or meiotic stage).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

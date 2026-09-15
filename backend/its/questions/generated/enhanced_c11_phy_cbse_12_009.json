@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_009",
+   "title": "c11_phy_cbse_12_009",
+   "questions": [
+    {
+     "q": "State the Maxwell-Boltzmann speed distribution function f(v) for an ideal gas, defining every symbol with its SI unit. What is the physical meaning of f(v)dv?",
+     "a": "f(v) = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT}, where m = molecular mass (kg), k_B = 1.38×10^{-23} J/K, T = temperature (K), v = speed (m/s). f(v)dv is the fraction of molecules with speeds between v and v+dv (dimensionless). A wrong answer (e.g., omitting the v^2 factor or the normalization constant) reveals the student memorizes the exponential but forgets the phase-space volume factor v^2 that makes low speeds less probable than the exponential alone suggests.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the most probable speed v_p is less than the average speed v_avg, which in turn is less than the rms speed v_rms, using the shape of the Maxwell-Boltzmann curve.",
+     "a": "The curve is right-skewed (positive skew) because the v^2 factor pushes the peak rightward from zero, but the exponential tail extends far to high speeds. The mean v_avg is pulled toward the tail more than the peak v_p, and v_rms = √⟨v^2⟩ weights high speeds even more heavily (squaring before averaging), so v_p < v_avg < v_rms. A student who claims v_p = v_avg = v_rms or orders them incorrectly confuses the distribution with a symmetric Gaussian and ignores the v^2 weighting.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the most probable speed, average speed, and rms speed of nitrogen molecules (M = 28.0 g/mol) at 300 K. Use R = 8.31 J/mol·K and N_A = 6.022×10^{23} mol^{-1}.",
+     "a": "Step 1: m = M/N_A = 0.0280 kg/mol / 6.022×10^{23} mol^{-1} = 4.65×10^{-26} kg.  \nStep 2: v_p = √(2k_BT/m) = √(2×1.38×10^{-23}×300 / 4.65×10^{-26}) = √(1.78×10^5) = 422 m/s.  \nStep 3: v_avg = √(8k_BT/πm) = √(8/π) × v_p/√2 = √(4/π) × v_p = 1.128 × 422 = 476 m/s.  \nStep 4: v_rms = √(3k_BT/m) = √(3/2) × v_p = 1.225 × 422 = 517 m/s.  \nCheck: v_p : v_avg : v_rms = 1 : 1.128 : 1.225. A wrong answer often uses M instead of m, forgets to convert g to kg, or uses R instead of k_B without adjusting for N_A.",
+     "self_check": true
+    },
+    {
+     "q": "Two gases, helium (M = 4 g/mol) and oxygen (M = 32 g/mol), are at the same temperature. Sketch their Maxwell-Boltzmann curves on the same axes. Which gas has a higher fraction of molecules with speeds > 2000 m/s? Justify quantitatively.",
+     "a": "Helium's curve is broader and shifted right (lower mass → higher speeds at same T). The fraction with v > 2000 m/s is ∫_{2000}^∞ f(v)dv. Since v_rms(He) ≈ 2.83 × v_rms(O_2) at same T, helium's distribution extends much further. Quantitatively, the exponential factor e^{-mv^2/2k_BT} decays slower for smaller m, so helium has a far larger high-speed tail. A student who says oxygen has more high-speed molecules because it's \"heavier and has more momentum\" confuses momentum with speed distribution and ignores the mass in the exponent.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At a given temperature, all gas molecules have the same kinetic energy, so the Maxwell distribution should be a vertical line at v = v_rms.\" Evaluate this statement and identify the misconception.",
+     "a": "The statement is false. Temperature fixes the *average* translational kinetic energy (3/2 k_BT), not the energy of each molecule. Collisions constantly redistribute energy, creating a spread of speeds. The Maxwell distribution is the equilibrium result of this stochastic process. The misconception is equating a thermodynamic average with a microscopic certainty – a category error between ensemble average and individual value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using a velocity selector (rotating slotted disks) to experimentally verify the Maxwell-Boltzmann distribution for argon gas at 400 K. Specify the key measurements and how you would extract f(v).",
+     "a": "Use two coaxial disks with narrow radial slots offset by angle θ, separated by distance L. Only molecules with speed v = ωL/θ pass through both slots. Vary ω and measure the transmitted flux I(ω) with a detector. The flux is proportional to v^3 f(v) (accounting for flux ∝ v and the v^2 in f(v)). Plot I(ω) vs v; normalize area to 1. Compare with theoretical f(v). A poor answer omits the v^3 factor or assumes the selector transmits all speeds equally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

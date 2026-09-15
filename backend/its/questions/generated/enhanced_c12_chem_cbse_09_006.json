@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_006",
+   "title": "c12_chem_cbse_09_006",
+   "questions": [
+    {
+     "q": "A student writes: \"Tertiary amines have higher boiling points than primary amines because they have more alkyl groups which increase van der Waals forces.\" Is this statement correct? Answer yes/no and justify in one sentence.",
+     "a": "No. The statement is incorrect because tertiary amines lack N–H bonds and cannot form intermolecular hydrogen bonds, while primary amines have two N–H bonds enabling extensive H-bonding; H-bonding dominates over van der Waals forces for amines of comparable molar mass, making primary > secondary > tertiary the correct boiling point order. A wrong answer reveals the student is overgeneralising the \"more alkyl groups = higher b.p.\" rule from alkanes without recognising the specific, stronger H-bonding capability in primary amines.",
+     "self_check": true
+    },
+    {
+     "q": "Butan-1-amine (C₄H₁₁N, molar mass 73 g/mol) and n-butanol (C₄H₁₀O, molar mass 74 g/mol) have nearly identical molar masses. Yet n-butanol boils at 390 K while butan-1-amine boils at 351 K. Explain this 39 K difference using electronegativity and hydrogen bond strength.",
+     "a": "Oxygen (EN=3.5) is more electronegative than nitrogen (EN=3.0), so the O–H bond is more polar than N–H, making O–H···O hydrogen bonds significantly stronger than N–H···N; additionally, each alcohol molecule can form two H-bonds (one as donor via O–H, one as acceptor via lone pairs on O), while primary amines also form two but with weaker N–H···N bonds. A wrong answer (e.g., \"alcohols have more H-bonds\" or \"molar mass difference\") shows the student misses the electronegativity–bond polarity–H-bond strength chain and the quantitative impact of ~40 K.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in increasing order of boiling point: (CH₃)₃N, CH₃CH₂CH₂NH₂, (CH₃)₂NH, CH₃CH₂CH₂CH₃. All have molar mass ~73 g/mol. Show your reasoning step by step.",
+     "a": "CH₃CH₂CH₂CH₃ (butane, alkane, only van der Waals) < (CH₃)₃N (trimethylamine, 3° amine, no N–H, only dipole-dipole + vdW) < (CH₃)₂NH (dimethylamine, 2° amine, one N–H, moderate H-bonding) < CH₃CH₂CH₂NH₂ (butan-1-amine, 1° amine, two N–H, strongest H-bonding). Steps: (1) Identify functional groups and H-bonding capacity; (2) Rank intermolecular forces: vdW < dipole-dipole < H-bonding; (3) Within H-bonding, more N–H bonds = stronger association; (4) Verify with NCERT Table 9.2 values: butane ~273 K, trimethylamine 310.5 K, dimethylamine 329.3 K, butan-1-amine 350.8 K. A wrong order (e.g., putting tertiary above secondary) reveals confusion between inductive effect (which increases electron density on N) and H-bonding capacity (which requires N–H bonds).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Aniline (C₆H₅NH₂) is more soluble in water than cyclohexylamine (C₆H₁₁NH₂) because the phenyl group is planar and packs better.\" Evaluate this claim and explain the actual solubility difference.",
+     "a": "The claim is false. Aniline is LESS soluble in water (3.6 g/100 mL at 20°C) than cyclohexylamine (miscible). The phenyl group in aniline is hydrophobic and, more importantly, the lone pair on nitrogen delocalises into the benzene ring (resonance), reducing its availability for H-bonding with water. Cyclohexylamine has a saturated aliphatic ring — no resonance, full lone pair availability, and the alkyl group is less hydrophobic per carbon than aryl. A wrong evaluation shows the student ignores resonance effects on H-bond acceptor strength and confuses \"planarity\" with hydrophilicity.",
+     "self_check": true
+    },
+    {
+     "q": "Given the pKb values: CH₃NH₂ (3.38), (CH₃)₂NH (3.27), (CH₃)₃N (4.22), NH₃ (4.75). A student argues: \"Basicity order should be 3° > 2° > 1° > NH₃ because +I effect increases with more methyl groups.\" Is the student's reasoning valid for aqueous phase? Explain why the observed order is (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃.",
+     "a": "The student's reasoning is valid ONLY for gas phase. In aqueous phase, solvation of the conjugate acid (ammonium ion) dominates: primary ammonium (RNH₃⁺) has three N–H bonds for H-bonding with water → best solvation; secondary has two; tertiary has one → poorest solvation. Steric hindrance from three methyl groups in (CH₃)₃N further blocks solvation. Thus the interplay: +I effect favours 3°, but solvation + steric favour 1° > 2° > 3°. The observed order (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃ reflects this balance. A wrong answer that ignores solvation/steric reveals the student applies gas-phase logic to solution-phase data — a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between three unlabelled bottles containing: (i) a primary aliphatic amine, (ii) a secondary aliphatic amine, (iii) a tertiary aliphatic amine — all liquids of similar molar mass (~73 g/mol). You have access to: water, HCl, NaOH, benzenesulphonyl chloride (Hinsberg's reagent), and ice-cold NaNO₂/HCl. Describe the procedure and expected observations for each.",
+     "a": "Use Hinsberg's test (benzenesulphonyl chloride + NaOH): (1) Primary amine: reacts to give N-alkylbenzenesulphonamide soluble in NaOH (acidic N–H); on acidification, precipitate reforms. (2) Secondary amine: gives N,N-dialkylbenzenesulphonamide insoluble in NaOH (no N–H). (3) Tertiary amine: no reaction with Hinsberg's reagent (no N–H). Alternative: nitrous acid test at 0–5°C — primary aliphatic gives N₂ gas + alcohol; secondary gives N-nitrosoamine (yellow oil); tertiary gives nitrosamine salt (soluble). A poor design (e.g., only using solubility in water) fails because all three are miscible at this molar mass. The answer tests whether the student can select a reaction that exploits the NUMBER of N–H bonds — the defining structural difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

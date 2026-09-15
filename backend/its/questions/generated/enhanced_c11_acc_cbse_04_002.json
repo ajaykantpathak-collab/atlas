@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_002",
+   "title": "c11_acc_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the exact meaning of a contra entry in a Two-column Cash Book and give the standard notation used in the L.F. column for such entries.",
+     "a": "A contra entry records a transaction where both cash and bank accounts are affected simultaneously, such as cash deposited into bank (debit Bank, credit Cash) or cash withdrawn from bank (debit Cash, credit Bank). The letter 'C' is written in the L.F. column on both sides to indicate no ledger posting is required. A wrong answer (e.g., \"contra means credit entry\" or \"no notation needed\") reveals the student confuses contra with regular entries and doesn't understand that contra entries complete the double entry within the cash book itself.",
+     "self_check": true
+    },
+    {
+     "q": "A business receives a cheque of ₹15,000 from a debtor on 10th March but deposits it into the bank on 12th March. Explain how this will be recorded in a Two-column Cash Book on both dates and why the treatment differs from a cheque deposited on the same day.",
+     "a": "On 10th March (receipt): Debit Cash Column ₹15,000 (treating cheque as cash). On 12th March (deposit): Contra entry — Debit Bank Column ₹15,000, Credit Cash Column ₹15,000 with 'C' in L.F. If deposited same day, it would go directly to Bank Column on receipt side. A wrong answer (e.g., recording directly in Bank column on 10th or not making contra entry on 12th) shows the student doesn't grasp that a cheque in hand is cash equivalent until deposited, and the physical movement of cash-to-bank requires a contra entry.",
+     "self_check": true
+    },
+    {
+     "q": "Record the following in a Three-column Cash Book of M/s Sharma Traders (April 2024):\n1. Cash in hand ₹25,000; Bank overdraft ₹10,000.\n2. Received cheque from Rahul ₹8,000 (deposited same day), discount allowed ₹200.\n3. Paid rent by cheque ₹5,000.\n4. Cash withdrawn for office use ₹3,000.\n5. Cheque received from Rahul on 2nd (₹8,000) dishonoured on 5th.\nShow the balancing of cash and bank columns.",
+     "a": "Step 1: Opening balances — Dr. Cash ₹25,000; Cr. Bank ₹10,000 (overdraft). Step 2: Rahul — Dr. Bank ₹8,000, Dr. Discount Allowed ₹200. Step 3: Rent — Cr. Bank ₹5,000. Step 4: Contra — Dr. Cash ₹3,000, Cr. Bank ₹3,000 (C). Step 5: Dishonour — Cr. Bank ₹8,000 (reverse original receipt). Balancing: Cash Dr. total ₹28,000, Cr. ₹3,000 → Balance c/d ₹25,000 Dr. Bank Dr. total ₹8,000, Cr. total ₹18,000 (10,000+5,000+3,000) → Balance c/d ₹10,000 Cr. (overdraft). A wrong answer (e.g., missing discount column, wrong side for overdraft, not reversing dishonour in bank column) reveals confusion about three-column layout, overdraft as credit balance, and dishonour treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the posting rules for (a) regular entries and (b) contra entries from a Two-column Cash Book to ledger accounts. Why are contra entries not posted?",
+     "a": "Regular entries: Debit side accounts (receipts) are credited in their respective ledger accounts (e.g., Sales A/c credited with \"By Cash/Bank\"); Credit side accounts (payments) are debited in their ledger accounts (e.g., Rent A/c debited with \"To Cash/Bank\"). Contra entries: Both aspects (Cash and Bank) are already in the cash book; posting would duplicate the double entry. Hence, they are ignored during ledger posting. A wrong answer (e.g., \"contra entries are posted to a Contra Account\") shows the student doesn't realize the cash book itself serves as the ledger for cash and bank, making separate ledger accounts redundant for these entries.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a Three-column Cash Book, the Discount Allowed column on the debit side and Discount Received column on the credit side are balanced like cash and bank columns to find the net discount.\" Evaluate this statement and explain the correct treatment of discount columns at period-end.",
+     "a": "The statement is incorrect. Discount columns are **not balanced**; they are only **totaled**. The total of Discount Allowed (debit side) is debited to Discount Allowed Account in the ledger; the total of Discount Received (credit side) is credited to Discount Received Account. These are nominal accounts closed by transfer to Profit & Loss. Balancing them would imply a \"discount balance\" carried forward, which has no meaning. A wrong evaluation (agreeing with the student) reveals the fundamental misconception that all amount columns in a cash book are balanced, confusing real accounts (cash, bank) with nominal accounts (discounts).",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of 5 transactions for a fictional business that would require the use of **all** features of a Three-column Cash Book: cash receipt/payment, cheque receipt/payment (same-day and later deposit), contra entry, dishonoured cheque, bank charges, and both types of cash discounts. List the transactions with dates and amounts.",
+     "a": "A good answer provides 5 distinct transactions covering all features, e.g.:\n1. May 1: Cash ₹50,000; Bank ₹20,000 (Dr.)\n2. May 5: Sold goods to Aman ₹10,000, received cheque (deposited same day), allowed 2% discount.\n3. May 10: Received cheque from Bimal ₹15,000 (not deposited), allowed 1% discount.\n4. May 12: Deposited Bimal's cheque into bank.\n5. May 15: Paid creditor Chetan by cheque ₹12,000, received 2% discount.\n6. May 20: Withdrew cash from bank ₹5,000 for office.\n7. May 25: Bimal's cheque dishonoured.\n8. May 30: Bank charged ₹500 interest on overdraft.\n(Any similar set with correct amounts and sequence is acceptable.) A poor answer misses one or more features (e.g., no later deposit, no dishonour, no bank charges) showing the student cannot synthesize the full scope of three-column cash book transactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

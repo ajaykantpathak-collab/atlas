@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_009",
+   "title": "c11_ip_cbse_01_009",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the five core management functions of an Operating System as per the NCERT Class 11 curriculum.",
+     "a": "The five core functions are: (1) Process Management, (2) Memory Management, (3) File Management, (4) Device Management, (5) Security & Access Control. A wrong answer (e.g., listing \"GUI provision\" or \"internet browsing\") reveals the student conflates OS *features* (what users see) with OS *functions* (what the OS does internally). It indicates a surface-level understanding focused on the user interface rather than resource management.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: Explain in your own words why an Operating System is called a \"Resource Manager\". Use the restaurant analogy (or your own) to describe how the OS resolves a conflict when two applications simultaneously request the printer.",
+     "a": "The OS is a resource manager because it allocates scarce hardware resources (CPU time, RAM, printer) among competing processes fairly and safely. In the printer conflict, the OS spooler (part of device management) accepts both print jobs, queues them in a buffer on disk, and sends them to the printer one by one, preventing garbled output. A wrong answer (e.g., \"the printer decides\" or \"the applications talk to each other\") reveals the misconception that hardware or applications coordinate directly, ignoring the OS's central arbitration role.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A school lab has 20 PCs running Windows 10. The admin wants to switch to a Linux distribution (Ubuntu) to reduce licensing costs. List **three** specific OS functions that will remain exactly the same for the end-user (students typing Python code) and **two** functions that might behave differently, requiring teacher retraining.",
+     "a": "Same: (1) Process Management (running Python interpreter), (2) File Management (saving .py files to disk), (3) Memory Management (allocating RAM to the editor). Different: (1) Device Management (driver model for printers/scanners differs; Linux uses CUPS, Windows uses proprietary drivers), (2) Security & Access Control (Linux uses permission bits/rwx and sudo; Windows uses ACLs and UAC). A wrong answer listing \"GUI changes\" as a function difference shows confusion between the *shell* (GUI) and the *kernel* functions. The OS functions are identical in purpose; only implementation/policy differs.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare a **Real-Time OS (RTOS)** like FreeRTOS used in a car's airbag controller and a **General-Purpose OS (GPOS)** like Windows 11 used on a laptop. Create a table with four rows: (i) Primary Design Goal, (ii) Task Scheduling Policy, (iii) Response Time Guarantee, (iv) Consequence of Missing a Deadline.",
+     "a": "| Aspect | RTOS (Airbag) | GPOS (Laptop) |\n| :--- | :--- | :--- |\n| **Primary Goal** | Determinism & meeting deadlines | Throughput, fairness, user responsiveness |\n| **Scheduling** | Priority-based preemptive (fixed priority) | Dynamic priority, time-slicing (CFS in Linux) |\n| **Response Guarantee** | Hard real-time: **guaranteed** worst-case latency (µs) | Soft real-time: **best-effort**, no hard bound |\n| **Missed Deadline** | **Catastrophic failure** (injury/death) | Degraded UX (lag, dropped frame), recoverable |\nA wrong answer stating \"RTOS is faster\" misses the point: RTOS is *predictable*, not necessarily faster. It reveals confusion between *performance* (speed) and *determinism* (bounded latency).",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"A mobile OS (Android/iOS) is just a cut-down version of a desktop OS (Linux/Unix) with a touch interface.\" Critique this statement using **three** architectural differences in resource management (memory, process, security) that prove mobile OSs are fundamentally redesigned, not merely trimmed.",
+     "a": "The statement is **false**. Three fundamental redesigns: (1) **Memory**: Mobile OS uses aggressive *apps hibernation/killing* (Low Memory Killer in Android, Jetsam in iOS) and *swapless* design (no swap partition on flash) vs desktop's demand paging with swap. (2) **Process**: Mobile enforces *application sandboxing* (each app = distinct UID, no shared memory by default) vs desktop's cooperative processes with shared libraries/user space. (3) **Security**: Mobile uses *capability-based permissions* (user grants runtime consent per sensor/data) vs desktop's *discretionary access control* (user owns all their files/processes). A wrong answer focusing only on \"screen size\" or \"touch vs mouse\" evaluates the UI, not the OS architecture.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a **new OS type classification** for a hypothetical \"Smart City Traffic Grid OS\" that manages 10,000 interconnected traffic lights, cameras, and emergency vehicle sensors. Define its **name**, **primary scheduling policy**, **memory model**, and **failure recovery mechanism**. Justify each choice in one sentence.",
+     "a": "**Name**: Distributed Real-Time Fault-Tolerant OS (DRTF-OS). **Scheduling**: Global Earliest Deadline First (EDF) across nodes — ensures city-wide coordination of green corridors for ambulances. **Memory**: Shared-nothing architecture with replicated state machines (Raft consensus) — no single point of failure, survives node crashes. **Recovery**: Automatic checkpointing + leader election < 50ms — traffic lights revert to safe timed mode instantly if central coordinator fails. A poor answer describes a standard \"Distributed OS\" without real-time constraints or fault-tolerance specifics, showing inability to synthesize requirements into a novel classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

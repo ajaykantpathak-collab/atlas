@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_011",
+   "title": "c12_biotech_cbse_01_011",
+   "questions": [
+    {
+     "q": "Define a shuttle vector and state the **minimum** genetic elements it must possess to function in both *E. coli* and *S. cerevisiae*.",
+     "a": "A shuttle vector is a plasmid that can replicate in two different host species. The minimum elements are: (1) an origin of replication functional in *E. coli* (e.g., pMB1), (2) an origin of replication functional in yeast (e.g., 2μ ori or ARS/CEN), (3) a selectable marker for *E. coli* (e.g., ampR), and (4) a selectable marker for yeast (e.g., URA3). A wrong answer that omits **both** origins or lists only antibiotic resistances reveals the misconception that selectable markers alone enable replication.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I add the *URA3* gene to pBR322, it becomes a yeast-*E. coli* shuttle vector because now I can select in both hosts.\" Explain why this statement is **incorrect** and what critical component is missing.",
+     "a": "The statement is incorrect because **selectable markers only allow selection of cells that have taken up the plasmid; they do not confer the ability to replicate**. pBR322 carries only the *E. coli* pMB1 ori. Without a yeast origin (2μ ori or ARS/CEN), the plasmid cannot initiate DNA synthesis in yeast and will be diluted out after a few divisions, even if *URA3* allows initial selection. This misconception confuses **selection** with **replication**.",
+     "self_check": true
+    },
+    {
+     "q": "You have a YEp (Yeast Episomal Plasmid) shuttle vector with a 2μ origin (high copy, ~50–100 copies/cell in yeast) and a pMB1 origin (high copy in *E. coli*). You clone a toxic gene into it and transform *E. coli*. The transformants grow very slowly. Propose **one** modification to the vector backbone (not the insert) that would alleviate toxicity in *E. coli* while retaining shuttle capability.",
+     "a": "Replace the high-copy pMB1 origin with a **low-copy *E. coli* origin** (e.g., pSC101, ~5 copies/cell) or use a **copy-number mutant** of pMB1 (e.g., pUC ori with *rop* gene). This reduces gene dosage in *E. coli* during cloning/propagation, lowering toxicity, while the 2μ ori still gives high copy in yeast for expression. A wrong answer suggesting \"remove the *E. coli* ori\" would destroy shuttle function; suggesting \"use a weaker promoter\" addresses expression, not replication burden.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **YEp** (2μ-based) and **YCp** (ARS/CEN-based) shuttle vectors on three parameters: (i) copy number in yeast, (ii) mitotic stability, (iii) suitability for cloning toxic genes in yeast. Present as a table.",
+     "a": "| Parameter | YEp (2μ ori) | YCp (ARS + CEN) |\n|-----------|--------------|-----------------|\n| Copy number in yeast | High (50–100) | Low (1–2, mimics chromosome) |\n| Mitotic stability | Low (unequal segregation) | High (centromere ensures segregation) |\n| Toxic gene cloning in yeast | Poor (high expression burden) | Good (low copy reduces burden) |\nA wrong answer that swaps stability or copy number indicates confusion between the 2μ plasmid's selfish replication and the centromere's segregation machinery.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For producing a human glycoprotein, a YIp (Yeast Integrating Plasmid) shuttle vector is superior to a YEp vector because integration into the yeast genome guarantees stable inheritance without selection pressure.\" State **two** major drawbacks of YIp for this application.",
+     "a": "Drawbacks: (1) **Low copy number** — single integration yields only one gene copy per cell, giving very low protein yield compared to multi-copy YEp. (2) **Position-effect variegation** — integration site influences expression level unpredictably (heterochromatin silencing), requiring screening of many integrants. YIp is preferred for gene knockout/functional studies, not high-level protein production. A wrong answer focusing only on \"difficult cloning\" misses the quantitative expression limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **minimal** shuttle vector for shuttling a gene between *E. coli* and a **mammalian cell line** (e.g., CHO). List the four essential elements (with one example each) and explain why a yeast 2μ ori **cannot** replace the mammalian replication element.",
+     "a": "Essential elements: (1) *E. coli* ori (e.g., pMB1), (2) Mammalian replication element — **SV40 ori** (requires large T antigen) or **EBV oriP** (requires EBNA1), (3) *E. coli* selectable marker (e.g., ampR/kanR), (4) Mammalian selectable marker (e.g., neoR/G418 resistance or dhfr). The 2μ ori cannot function in mammalian cells because it relies on yeast-specific replication proteins (Rep1, Rep2, Flp) and chromatin structure absent in mammals. A wrong answer using \"CMV promoter\" as the replication element confuses transcription with DNA replication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

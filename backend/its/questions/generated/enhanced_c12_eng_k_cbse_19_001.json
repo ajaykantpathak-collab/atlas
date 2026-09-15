@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_001",
+   "title": "c12_eng_k_cbse_19_001",
+   "questions": [
+    {
+     "q": "According to Asimov, what historical development made science fiction possible as a literary genre, and approximately when did it occur?",
+     "a": "The Industrial Revolution (c. 1800) made science fiction possible because it was the first time the rate of scientific and technological change became noticeable within a human lifetime, giving people the idea that science and technology produce the future. A wrong answer (e.g., \"the invention of the printing press\" or \"the Space Age\") reveals the student hasn't grasped Asimov's core causal link: *perceived rate of change* → *concept of a different future* → *science fiction*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the parallel Asimov draws between the \"priest, magician, wizard, shaman\" of prescientific times and the \"scientist\" of today. What functional role do they share?",
+     "a": "Both are perceived as holders of the \"secret of controlling the Universe\" — the priest through magical formulas (enchantments/prayers), the scientist through understanding natural laws. Advances in their respective knowledge (magical formulas vs. scientific understanding) enhance human power. A wrong answer that focuses only on \"both are respected\" or \"both explain things\" misses the *functional equivalence* Asimov stresses: *control over the environment via specialised knowledge*.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov argues that science fiction is defined by its *background*, not its *content*. Apply this criterion: would a murder mystery set on a Mars colony in 2150, where the detective uses a standard forensic kit (DNA, fingerprints) and no speculative technology, count as science fiction? Justify using Asimov's \"sports story on a space station\" analogy.",
+     "a": "Yes, it is science fiction. Asimov's test: take the content of any genre (murder mystery) and place it against a background involving a society significantly different from our own (Mars colony, 2150) — the nature of the story hasn't changed, but it *has become* science fiction also. The absence of speculative *forensic* tech doesn't matter; the *societal background* (interplanetary civilisation) is sufficient. A \"no\" answer reveals the student still equates sci-fi with gadgetry/content rather than setting/background.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse why John W. Campbell believed a science fiction mystery was \"impossible\" to write fairly. Then evaluate Asimov's counter-argument: what *specific condition* must the writer meet to make a sci-fi mystery fair, and how does this mirror the rules of a classical mystery?",
+     "a": "Campbell feared writers would invent arbitrary new rules (e.g., a \"pocket-frannistan\" with \"Q-rays\") mid-story to solve the puzzle, violating the \"fair play\" rule that the reader must have access to the same clues and rules as the detective. Asimov counters: the writer must *carefully explain all boundary conditions of the imaginary society upfront* — what can and cannot be done. With boundaries fixed, the reader sees every clue the investigator sees, just as in a classical mystery. The specific condition: *explicit, fixed world-rules established before the puzzle unfolds*. Missing this shows the student hasn't distinguished \"hard\" sci-fi mystery (rules known) from \"soft\" deus ex machina.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov writes: \"It would be wrong to throw out a style of literature that has tickled the human fancy for thousands of years for the trivial reason that it is not in accord with reality.\" Evaluate this statement: does Asimov's *own* narrow definition of science fiction (requiring a universe of natural laws) contradict his defence of mythological fiction? Support your judgment with textual evidence.",
+     "a": "No contradiction. Asimov *maintains* a narrow definition (\"only science fiction is valid for today\" because the universe *does* follow natural laws) but *separately* argues that prescientific fiction remains valuable *as literature* set in a self-consistent \"prescientific universe\" — it fulfils the same emotional need (wonder) via a different cosmology. He explicitly says: \"I am willing to consider it the equivalent of science fiction set in another kind of Universe.\" The contradiction would exist only if he demanded myths *be* sci-fi; he doesn't. A \"yes\" answer shows the student conflates *definitional validity* with *literary value*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"Before You Read\" note for a Class 12 student about to study Asimov's essay. Your note must include: (a) Asimov's identity and why he's authoritative, (b) the two-part structure of the essay, (c) the central distinction (prescientific vs. scientific universe), and (d) the \"background vs. content\" definition of genre. Write it as if you were the teacher introducing the lesson.",
+     "a": "Isaac Asimov (1920–1992), a biochemist and one of history's most prolific science-fiction writers, argues in this essay that true science fiction was born only after the Industrial Revolution (~1800), when humanity first realised that *science and technology* — not gods or magic — drive the future. The essay has two parts: first, \"The Prescientific Universe,\" where Asimov shows how myths and legends satisfied our \"longing for wonder\" through gods, magical formulas, and supernatural beings (Centau­rs, flying carpets, crystal balls) — a universe controlled by will and placatable powers. Second, \"The Universe of Science Fiction,\" where he redefines genre: a story becomes science fiction not through its *content* (sports, mystery, Western) but through its *background* — a society significantly different from ours, governed by impersonal, discoverable laws of nature. He illustrates this with a sports story in zero-gravity, a Western with dolphin-herders, and defends the possibility of a fair-play science-fiction mystery (citing his own *The Caves of Steel*). As you read, track how he moves from *what came before* to *what makes sci-fi unique*, and note his tone toward prescientific imagination — respectful but firm on the boundary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

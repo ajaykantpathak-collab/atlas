@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 103,
+  "chapter_title": "Discovering Tut: the Saga Continues",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb103.1.1",
+      "title": "The Mummy Meets Modern Science: The CT Scan",
+      "section": "1",
+      "definition": "More than three millennia after his death, the boy king Tutankhamun is wheeled from his tomb in the Valley of the Kings into a computed tomography scanner. The saga that began with Howard Carter's discovery continues through a CT scan that images the mummy layer by layer without disturbing a single binding.",
+      "formula": "",
+      "key_idea": "From candle-lit tomb to digital slices -- archaeology hands the boy king to machine vision, and the saga continues.",
+      "textbook_ref": "kehb103.txt opening and scan sections (forensic reconstruction, computed tomography, mummy taken for scanning, valley of the kings)",
+      "question_patterns": [
+        "why was the mummy of tut scanned with a ct scanner",
+        "in class 11 discovering tut: how does modern science continue the saga of tutankhamun",
+        "what is forensic reconstruction and why is it attempted on the mummy",
+        "describe the scene of moving the mummy to the scanner",
+        "how is a ct scan better than the old x ray examinations",
+        "what questions about tut's death does science hope to answer"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the occasion", "explain": "The mummy is moved briefly from its resting place so a portable CT unit can record hundreds of cross-sectional images."},
+        {"step": 2, "action": "explain the purpose", "explain": "The scan seeks the truth of the king's life and death -- age, health, and the cause that ended him -- without unwrapping damage."},
+        {"step": 3, "action": "note the continuity", "explain": "Each era re-examines Tut with its best tools -- Carter's chisels, X-rays, now computed tomography -- the saga continuing across generations."}
+      ]
+    },
+    {
+      "id": "kehb103.1.2",
+      "title": "Carter's Discovery and the Buried Treasure",
+      "section": "1",
+      "definition": "Howard Carter's 1922 breakthrough opened a tomb stuffed with funerary treasures -- golden coffins, jewellery, ritual objects -- made for a king's afterlife. But Carter's eager clearing did its own harm: hot knives and resins cemented the body to the coffin, and the mummy was cut apart and reassembled in modern sand, bone by bone.",
+      "formula": "",
+      "key_idea": "Treasure found, mummy damaged -- the first discovery's haste taught later science what not to do.",
+      "textbook_ref": "kehb103.txt carter sections (howard carter 1922, funerary treasures, resins, cutting the body free, burglar evidence of ancient robbery)",
+      "question_patterns": [
+        "what did howard carter find in the tomb in 1922",
+        "in class 11 discovering tut: how was the mummy damaged while clearing the treasures",
+        "why were resins a problem in removing the body from the coffin",
+        "what evidence shows that ancient robbers had entered the tomb",
+        "describe the funerary treasures found with tut",
+        "why does the author call carter's method rough"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "recall the discovery", "explain": "After years of searching, Carter cleared the tomb of Tutankhamun and revealed astonishing golden furnishings."},
+        {"step": 2, "action": "record the damage", "explain": "Ritual resins had hardened like cement; to free the body, Carter's team heated knives and prised the limbs apart, leaving the mummy in pieces."},
+        {"step": 3, "action": "contrast eras", "explain": "What treasure-hunting tolerated, today's archaeology forbids -- the difference underlines the chapter's theme of improving inquiry."}
+      ]
+    },
+    {
+      "id": "kehb103.1.3",
+      "title": "Findings of the Scan: A Family History and a Broken Body",
+      "section": "1",
+      "definition": "The scan and later research sketch Tut's life: a boy king of a powerful dynasty descending from Amenhotep III and Akhenaten, the heretic who promoted the worship of Aten; a body with a broken sternum and bent foot; and an early death whose exact cause remains debated -- illness, accident or foul play.",
+      "formula": "",
+      "key_idea": "Bones testify -- a dynasty's story, a heretic's revolution, and a boy's mysterious end read from a scanned skeleton.",
+      "textbook_ref": "kehb103.txt findings sections (amenhotep akhenaten aten worship, broken body, sternum, foot, mystery of death, speculated causes)",
+      "question_patterns": [
+        "what did the ct scan reveal about tut's body",
+        "in class 11 discovering tut: which ancestors of tut are discussed and why",
+        "why is akhenaten called a heretic king",
+        "what theories are offered about tut's death",
+        "what was unusual about tut's foot and sternum",
+        "how long ago did tut die and how do we know"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the dynasty", "explain": "The chapter places Tut in the line of Amenhotep III and Akhenaten, whose radical shift to worshipping the Aten disrupted Egypt's old gods."},
+        {"step": 2, "action": "read the body's clues", "explain": "Imaging shows a cleft palate, a bent left foot, and damage near the chest -- clues debated as disease, accident or post-mortem breakage."},
+        {"step": 3, "action": "leave the verdict open", "explain": "Science narrows but does not close the case; the chapter's point is the honest, ongoing questioning."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb103.txt opening sections (scan procedure)",
+      "concept": "kehb103.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Compare Carter's examination of the mummy with the modern CT scan in terms of method and damage.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the old method", "explain": "Carter's team used heat and leverage to strip the body from its coffin, breaking it apart."},
+        {"step": 2, "action": "recall the new method", "explain": "The CT scanner images layer upon layer without touching a single binding or bone."},
+        {"step": 3, "action": "state the contrast", "explain": "Inquiry has moved from extraction to observation -- gaining answers while preserving the evidence."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb103.txt findings sections (dynasty and death)",
+      "concept": "kehb103.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the chapter call Tut's death an unfinished mystery? Present the competing explanations it mentions.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "list the suspicions", "explain": "Illness or a bad leg, an accident such as a fall or chariot mishap, and possible foul play by rivals all circulate."},
+        {"step": 2, "action": "weigh the evidence", "explain": "The scan documents body damage but cannot certify which event killed the young king."},
+        {"step": 3, "action": "conclude", "explain": "Hence the saga continues -- each new technique refines the questions even where it cannot settle the verdict."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Give reasons why the CT scan of Tut's mummy was a landmark event.",
+        "How did Howard Carter's methods harm the mummy?",
+        "What does the chapter tell us about the royal family Tut belonged to?",
+        "What possible causes of Tut's death are suggested in the chapter?",
+        "Explain the significance of the title 'Discovering Tut: the Saga Continues'.",
+        "How has the study of Tut's mummy changed from 1922 to the present?"
+      ]
+    }
+  ]
+}

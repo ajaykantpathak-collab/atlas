@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_002",
+   "title": "c12_ps_cbse_06_002",
+   "questions": [
+    {
+     "q": "Which principal organ of the UN consists of all member states, each having one vote, and serves as the main deliberative and policy-making body?",
+     "a": "The General Assembly. A wrong answer (e.g., Security Council) reveals confusion between the universal membership of the GA and the limited, weighted membership of the SC. Students often conflate the two because both discuss international issues, but only the GA has universal representation and no veto.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the UN Charter grant veto power exclusively to the five permanent members of the Security Council (P5)?",
+     "a": "The veto reflects the post-WWII power structure: the P5 were the victorious great powers whose participation was deemed essential for the UN’s effectiveness. Without their guaranteed consent, they might not have joined or would ignore UN decisions. A wrong answer (e.g., “to ensure fairness” or “because they contribute most to the budget”) shows misunderstanding of the realist foundation of the UN — the system prioritises great-power consensus over sovereign equality in security matters.",
+     "self_check": true
+    },
+    {
+     "q": "A resolution calling for immediate humanitarian access in a conflict zone is adopted by the General Assembly with 140 votes in favour, 10 against, and 5 abstentions. The Security Council later considers a binding resolution on the same issue but fails because one P5 member casts a veto. Explain the legal and practical difference between the two outcomes.",
+     "a": "The GA resolution is recommendatory (non-binding) under Article 10-14 of the Charter; it expresses world opinion but imposes no legal obligation. The SC resolution, if adopted under Chapter VII, would be legally binding on all members (Article 25). The veto prevents a binding decision, leaving only the GA’s moral pressure. A wrong answer that treats both as equally binding ignores the Charter’s hierarchy: the SC has primary responsibility for peace and security with enforcement power; the GA does not.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Secretary-General’s role under Article 99 (bringing matters threatening peace to the Security Council) with the General Assembly’s “Uniting for Peace” resolution (1950). How do they differ in initiating action when the SC is deadlocked?",
+     "a": "Article 99 gives the SG a proactive, political agenda-setting power — a personal diplomatic tool. “Uniting for Peace” allows the GA to recommend collective measures (including force) when the SC fails due to veto, but only by a two-thirds majority and the recommendations remain non-binding. The SG acts as an individual office-holder; the GA acts as a collective body. A wrong answer that equates them misses the SG’s independent political initiative versus the GA’s procedural workaround.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “Specialised agencies like WHO and UNESCO are subordinate organs of the UN because they report to ECOSOC.”",
+     "a": "The claim is incorrect. Specialised agencies are autonomous intergovernmental organisations established by separate treaties; they enter into “relationship agreements” with the UN (Article 57, 63) and coordinate via ECOSOC, but they have their own membership, budgets, and governance. Subordinate organs (e.g., UNDP) are created by the GA/SC and fully integrated. A wrong answer reveals confusion between “part of the UN system” and “subsidiary organ of the UN.”",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a new UN specialised agency to address cyber-security threats, specifying its mandate, governance structure, and relationship with existing UN bodies (Security Council, ITU, GA).",
+     "a": "A strong proposal will: (1) define a clear mandate (norm-setting, capacity-building, incident response), (2) propose a governance structure (plenary of states, executive board with equitable regional rotation, secretariat), (3) specify a relationship agreement with the UN under Article 57, (4) clarify coordination with ITU (technical standards) and SC (threats to peace), and (5) note funding through assessed/voluntary contributions. A poor proposal treats it as a subsidiary body of the SC or GA, ignores the need for technical autonomy, or duplicates ITU’s mandate without coordination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

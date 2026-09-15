@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_012",
+   "title": "c11_ip_cbse_04_012",
+   "questions": [
+    {
+     "q": "What does the expression `for key in my_dict:` iterate over in Python 3.7+?",
+     "a": "It iterates over the keys of `my_dict` in insertion order. A wrong answer (e.g., \"it iterates over values\" or \"it iterates over key-value pairs\") reveals the student confuses dictionary iteration with list iteration or does not know that plain `for key in dict` yields keys only.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a `RuntimeError: dictionary changed size during iteration`:\n```python\nd = {'a': 1, 'b': 2}\nfor k in d:\n    d['c'] = 3\n```",
+     "a": "The loop iterates over the dictionary `d` while simultaneously adding a new key `'c'`, which changes the dictionary's size. Python forbids this because the iterator becomes invalid. A wrong answer (e.g., \"it works fine\" or \"it raises KeyError\") shows the student does not understand that iterators track the dictionary's structure and cannot handle size changes.",
+     "self_check": true
+    },
+    {
+     "q": "Given `marks = {'Physics': 85, 'Chemistry': 92, 'Maths': 78}`, write a loop that creates a new dictionary `high_marks` containing only subjects with marks ≥ 90.",
+     "a": "```python\nhigh_marks = {}\nfor subject, mark in marks.items():\n    if mark >= 90:\n        high_marks[subject] = mark\n```\nA wrong answer might try to delete from `marks` during iteration (causing RuntimeError) or use `for subject in marks:` and then `marks[subject]` without `.items()`. This reveals the student cannot apply safe filtering or correctly unpack key-value pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and performance implications of these two traversal methods for a dictionary with 10,000 items:\nMethod A: `for k in d: print(d[k])`\nMethod B: `for k, v in d.items(): print(v)`",
+     "a": "Method B is more efficient because `d.items()` yields key-value tuples directly, avoiding a second hash lookup `d[k]` for each iteration. Method A performs an extra dictionary lookup per iteration. A wrong answer claiming they are identical shows the student does not analyze the internal mechanism of dictionary access.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to double every value in `scores = {'A': 10, 'B': 20}`:\n```python\nfor v in scores.values():\n    v = v * 2\n```\nEvaluate whether this updates the original dictionary. Justify your answer.",
+     "a": "No, it does not update the dictionary. `scores.values()` returns a view of values; the loop variable `v` is a local reference to each value (integers are immutable). Reassigning `v` only changes the local variable, not the dictionary entry. A wrong answer saying \"yes, values are doubled\" reveals the student misunderstands that iteration over values does not provide a reference to the dictionary slot.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would need to traverse a dictionary and safely modify it by both updating existing values and adding new keys. Write the complete Python code for it.",
+     "a": "Scenario: A mobile recharge shop maintains a dictionary `balance = {'9876543210': 500, '9123456789': 1200}` storing phone numbers and wallet balances. At day-end, they add ₹50 bonus to each existing customer and register a new customer `'9988776655'` with ₹300. Correct code:\n```python\nbalance = {'9876543210': 500, '9123456789': 1200}",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

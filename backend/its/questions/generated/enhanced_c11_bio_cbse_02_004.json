@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_004",
+   "title": "c11_bio_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the five major groups of Kingdom Protista as per Whittaker's classification and give one distinguishing feature for each group.",
+     "a": "The five groups are: (1) Chrysophytes — cell walls with silica (diatoms) or cellulose (desmids), photosynthetic; (2) Dinoflagellates — stiff cellulose plates, two flagella (one longitudinal, one transverse), mostly marine photosynthetic; (3) Euglenoids — protein-rich pellicle instead of cell wall, two flagella, mixotrophic (photosynthetic in light, heterotrophic in dark); (4) Slime moulds — saprophytic, form plasmodium, produce resistant spores; (5) Protozoans — heterotrophic, four subgroups based on locomotion: amoeboid (pseudopodia), flagellated (flagella), ciliated (cilia), sporozoans (spore-forming parasites). A wrong answer (e.g., listing bacteria or fungi, or missing mixotrophy in euglenoids) reveals the student has not internalised the unique eukaryotic features that separate Protista from Monera and the nutritional/structural diversity within Protista.",
+     "self_check": true
+    },
+    {
+     "q": "Why are diatoms considered the 'chief producers in the oceans' and what happens to their silica cell walls after they die?",
+     "a": "Diatoms are photosynthetic chrysophytes that form massive populations (blooms) in oceans, fixing carbon dioxide and releasing oxygen — they are primary producers at the base of the marine food web. Their cell walls are embedded with silica, making them indestructible; upon death, these silica shells sink and accumulate over billions of years as diatomaceous earth, used commercially in polishing and filtration. A wrong answer (e.g., saying cell walls are made of cellulose or that they decompose quickly) shows the student confuses diatom walls with plant cell walls and misses the geological significance of silica deposition.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a freshwater protist under a microscope: it has a flexible body, two flagella (one short, one long), and contains chloroplasts. In darkness, it engulfs small bacteria. Identify the group and explain its nutritional flexibility.",
+     "a": "The protist is a euglenoid (e.g., Euglena). It possesses a pellicle (protein strips) allowing flexibility, two flagella for locomotion, and chloroplasts with pigments identical to higher plants. In light, it performs photosynthesis (autotrophic); in darkness, it switches to heterotrophy by phagocytosing bacteria — this mixotrophic mode is a hallmark of euglenoids. A wrong answer (e.g., classifying as a dinoflagellate or plant) reveals confusion between cellulose plates (dinoflagellates) vs. pellicle (euglenoids) and failure to recognise mixotrophy as a defining euglenoid trait.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locomotion and feeding mechanisms of Amoeba (amoeboid protozoan) and Paramoecium (ciliated protozoan). How do these differences reflect their ecological niches?",
+     "a": "Amoeba uses pseudopodia (false feet) for slow gliding and engulfing prey (phagocytosis), suited for benthic/moist soil environments where it creeps over surfaces. Paramoecium has thousands of coordinated cilia that create water currents, steering food particles into a permanent gullet (cytostome), enabling rapid swimming and efficient filter-feeding in open water. The difference reflects niche partitioning: Amoeba is a bottom-dwelling predator, Paramoecium a pelagic filter-feeder. A wrong answer (e.g., saying both use flagella or both have a gullet) indicates the student has not linked organelle structure to functional adaptation in protozoan subgroups.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Slime moulds are fungi because they produce spores and decompose organic matter.' Is this classification correct? Justify using three protistan features of slime moulds.",
+     "a": "The statement is incorrect. Slime moulds are protists, not fungi, because: (1) their vegetative stage is a multinucleate plasmodium (not a chitinous hyphal mycelium), (2) they ingest food by phagocytosis (engulfing) rather than absorptive nutrition (secreting enzymes externally), and (3) their spores have true walls but are dispersed by air currents after being borne on fruiting bodies formed from the plasmodium — distinct from fungal spore production on specialised hyphae. A wrong evaluation (agreeing with the statement) shows the student relies on superficial similarities (spores, saprophytism) and ignores fundamental differences in cell structure, nutrition mode, and life cycle that place slime moulds in Protista.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory investigation to demonstrate the mixotrophic nature of Euglena using only a light microscope, a culture of Euglena, and basic lab materials. Outline the procedure, expected observations, and conclusion.",
+     "a": "Procedure: (1) Split Euglena culture into two flasks — one kept in continuous light, one in complete darkness (wrap in foil). (2) After 48 hours, place a drop from each on separate slides, add a drop of dilute iodine solution (stains starch). (3) Observe under microscope: light-exposed cells show blue-black starch granules in chloroplasts (photosynthetic product); dark-kept cells lack starch but may show food vacuoles with engulfed bacteria if bacteria were added to culture. Conclusion: Euglena synthesises starch in light (autotrophy) and ingests particles in dark (heterotrophy), confirming mixotrophy. A poor design (e.g., no control, no starch test, or assuming colour change alone proves photosynthesis) reveals inability to translate mixotrophy concept into a testable experiment with proper controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

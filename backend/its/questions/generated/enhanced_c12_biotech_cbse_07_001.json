@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_001",
+   "title": "c12_biotech_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the correct sequence of the five stages of micropropagation from mother plant to field-ready plantlet?",
+     "a": "Stage 0 (Mother plant selection & preparation) → Stage I (Aseptic establishment of explant) → Stage II (Shoot multiplication) → Stage III (Rooting of shoots) → Stage IV (Acclimatization/Hardening).  \nA wrong sequence (e.g., putting rooting before multiplication) reveals the student does not understand the logical dependency: you cannot root shoots that haven't been multiplied yet, and you cannot multiply contaminated explants.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In Stage II of micropropagation, we add high auxin to promote shoot proliferation.\" Is this statement correct? Explain why or why not using the auxin:cytokinin ratio concept.",
+     "a": "The statement is incorrect. Stage II requires a **high cytokinin:auxin ratio** (e.g., BAP 2–5 mg/L with low/no auxin) to promote shoot proliferation. High auxin:cytokinin ratios induce root formation (used in Stage III), not shoot multiplication. This error shows the student has memorized \"hormones are used\" but not the **directional logic** of the Skoog & Miller hypothesis: cytokinin drives shoot bud formation, auxin drives root formation.",
+     "self_check": true
+    },
+    {
+     "q": "A tissue culture lab prepares 5 L of Stage II multiplication medium for banana. The protocol requires MS basal salts + 30 g/L sucrose + 2 mg/L BAP (a cytokinin) + 0.1 mg/L NAA (an auxin) + 8 g/L agar, pH 5.8. The lab has a 1 mg/mL BAP stock and a 0.1 mg/mL NAA stock. Calculate the volume (in mL) of each stock to add to the 5 L medium. Show all steps.",
+     "a": "**Step 1:** Total BAP needed = 2 mg/L × 5 L = 10 mg.  \n**Step 2:** BAP stock concentration = 1 mg/mL → Volume = 10 mg ÷ 1 mg/mL = **10 mL**.  \n**Step 3:** Total NAA needed = 0.1 mg/L × 5 L = 0.5 mg.  \n**Step 4:** NAA stock concentration = 0.1 mg/mL → Volume = 0.5 mg ÷ 0.1 mg/mL = **5 mL**.  \n**Answer:** Add 10 mL BAP stock and 5 mL NAA stock to 5 L medium.  \nA wrong answer (e.g., 2 mL BAP) reveals unit confusion (mg/L vs mg/mL) or forgetting to multiply by total volume — a common error in media preparation calculations for JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Compare micropropagation and conventional vegetative propagation (cuttings) for a woody perennial crop like teak (Tectona grandis) on these parameters: (a) multiplication rate per year, (b) genetic fidelity, (c) disease status of propagules, (d) space requirement. Present as a 4-row table.",
+     "a": "| Parameter | Micropropagation | Conventional Cuttings |\n|-----------|------------------|-----------------------|\n| (a) Multiplication rate/year | 10⁴–10⁶ plantlets from one explant (exponential) | Linear: 10–50 cuttings per mother plant |\n| (b) Genetic fidelity | High (clonal), but somaclonal variation risk after many subcultures | Very high (no tissue culture stress) |\n| (c) Disease status | Virus-free if meristem used; otherwise may carry pathogens | Often carries systemic viruses/fungi |\n| (d) Space requirement | Minimal: thousands in 1 m² culture room | Large: mother plants + rooting beds in field |\n\nA student who claims \"micropropagation always gives 100% genetic fidelity\" misses the somaclonal variation risk (covered in node c12_biotech_cbse_07_003) and shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial lab claims: \"Our Stage IV hardening protocol uses 100% humidity for 4 weeks, then direct field transfer.\" Evaluate this claim. Is it scientifically sound? Justify your evaluation with two physiological reasons.",
+     "a": "The claim is **unsound**.  \n**Reason 1:** 100% humidity prevents cuticle development and stomatal function — plantlets remain physiologically \"in vitro\" (heterotrophic, poor wax deposition). Gradual humidity reduction (e.g., 90% → 70% → 50% over 2–3 weeks) is essential for acclimatization.  \n**Reason 2:** Direct field transfer after constant 100% humidity causes lethal desiccation because stomata cannot close rapidly and roots are not yet functional in soil.  \nA student who says \"high humidity is good for survival\" confuses *in vitro* culture conditions (where humidity prevents desiccation of non-rooted shoots) with *ex vitro* hardening requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a micropropagation protocol for a newly discovered endangered medicinal herb *X* (dicot, woody). Specify: (a) explant choice with justification, (b) Stage I sterilant and duration, (c) Stage II hormone combination (names & concentrations), (d) Stage III hormone, (e) one critical quality control check at each stage. Present as a 5-row table.",
+     "a": "| Stage | Protocol Detail |\n|-------|-----------------|\n| (a) Explant | Shoot apical meristem (0.5–1 mm) — minimizes virus carryover, high regeneration potential, juvenile physiology |\n| (b) Stage I sterilant | 0.1% HgCl₂ for 5 min → 3× sterile water rinses (or 4% NaOCl for 15 min for softer tissue) |\n| (c) Stage II hormones | MS + 2 mg/L BAP + 0.5 mg/L Kin (synergistic cytokinins) + 0.1 mg/L NAA (low auxin for shoot quality) |\n| (d) Stage III hormone | ½ MS + 1 mg/L IBA (auxin for rooting) — charcoal added to adsorb excess cytokinin |\n| (e) QC checks | Stage I: % contamination < 10%; Stage II: multiplication rate > 4 shoots/explant/subculture; Stage III: rooting % > 80%; Stage IV: survival % > 90% after 4 weeks |\n\nA poor answer uses leaf explants for a woody species (low response), omits QC metrics, or copies banana protocol without adjusting for woody physiology — showing inability to transfer principles to a novel context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

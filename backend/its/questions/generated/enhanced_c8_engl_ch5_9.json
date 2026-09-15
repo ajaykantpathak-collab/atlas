@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_9",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_9",
+   "title": "c8_engl_ch5_9",
+   "questions": [
+    {
+     "q": "What is the difference in part of speech and basic meaning between the verb \"to fuse\" and the noun \"a fuse\"?",
+     "a": "The verb \"to fuse\" means to join, blend, or melt together into a single entity (e.g., \"to fuse metals\"). The noun \"a fuse\" refers to an electrical safety device that breaks a circuit when the current is too high.\n\n*Wrong answer reveals:* If a student thinks \"fuse\" only has one meaning, it shows they struggle with homographs (words with the same spelling but different meanings and parts of speech) and rely on rote memorization rather than contextual analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In a space station manual, you read: \"The command center decided to *forbid* the use of personal heaters to prevent a critical power overload.\" Based on this sentence, explain why the station authorities would *forbid* something and what the word means in your own words.",
+     "a": "\"Forbid\" means to officially ban or not allow something. The authorities forbid personal heaters because using them could cause a \"critical power overload,\" which is dangerous for the space station.\n\n*Wrong answer reveals:* If a student says it means \"to suggest\" or \"to encourage,\" they are ignoring the negative consequence (\"prevent a critical power overload\") and misinterpreting the authoritative tone of \"command center.\"",
+     "self_check": true
+    },
+    {
+     "q": "Read this sentence: \"When the cabin pressure dropped, the alarms rang *abruptly*, causing the crew to drop their tools.\" Rewrite this sentence replacing *abruptly* with a contextual synonym, and explain how the change in words affects the speed of the action.",
+     "a": "**Steps to solve:**\n1. Identify the target word: \"abruptly\" (an adverb describing how the alarms rang).\n2. Analyze context clues: \"cabin pressure dropped,\" \"causing the crew to drop their tools\" (indicates suddenness, surprise).\n3. Select a synonym: \"suddenly\" or \"without warning\".\n4. Rewrite: \"When the cabin pressure dropped, the alarms rang *suddenly*, causing the crew to drop their tools.\"\n5. Explain the effect: Both words convey that there was no time to prepare, emphasizing the immediate, shocking nature of the event.\n\n*Wrong answer reveals:* If a student replaces it with \"gradually\" or \"loudly\", they misunderstand the temporal aspect of \"abruptly\" (suddenness vs. volume or slow pace).",
+     "self_check": true
+    },
+    {
+     "q": "Read the following paragraph:\n\"The space station’s *dietitian* carefully weighed every gram of dehydrated food. Space agency *regulations* were strict because lifting heavy cargo into orbit was incredibly expensive. Thus, keeping pets was tacitly *forbidden*.\"\n\nAnalyze how the roles of the *dietitian* and the *regulations* directly lead to pets being *forbidden*.",
+     "a": "The *dietitian* manages weight limits by weighing food down to the gram. This strict weight control is mandated by space agency *regulations* (official rules) because cargo weight is expensive. Since pets add extra weight and consume extra food, they violate these strict weight regulations, which is why keeping them is *forbidden* (banned).\n\n*Wrong answer reveals:* The student fails to connect the causal chain (dietitian weighing food $\\rightarrow$ strict weight rules $\\rightarrow$ banning pets to save weight) and treats the three words as completely unrelated terms.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a \"dietitian\" is exactly the same as a \"cook\" or a \"chef\" on a space station. Evaluate this statement using context clues about weight, science, and space regulations. Is the student correct? Why or why not?",
+     "a": "The student is incorrect. While a chef focuses on preparing tasty meals, a *dietitian* is a scientific expert who calculates nutritional value and precise weights to ensure health and meet strict space station *regulations*. The context of weighing food down to the gram indicates a focus on resource management and health science, not culinary arts.\n\n*Wrong answer reveals:* The student has a superficial understanding of food-related professions and ignores the scientific/regulatory context of space travel.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short, creative paragraph (3-4 sentences) set in a futuristic Indian school where a student tries to sneak in a robotic toy. You must use at least three of these words correctly in context: *regulation*, *forbid*, *fuse*.",
+     "a": "**Expected response criteria:**\n1. Uses at least three target words accurately.\n2. Fits the futuristic Indian school context.\n3. Grammatically correct.\n\n*Example of a high-quality response:* \"According to the new school *regulation*, all AI-powered toys were strictly *forbidden* on campus to prevent distractions. However, Rohan tried to sneak his mini-drone inside by hiding it in his bag. Unfortunately, as he passed the security gate, the drone's batteries began to *fuse* with the metal zipper, triggering a loud sensor alarm.\"\n\n*Wrong/poor answer reveals:* If the student uses the words in a way that violates their parts of speech (e.g., \"I regulation my room\") or fails to build a coherent narrative context, they lack functional mastery of the vocabulary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

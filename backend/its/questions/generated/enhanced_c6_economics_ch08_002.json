@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch08_002",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch08_002",
+   "title": "c6_economics_ch08_002",
+   "questions": [
+    {
+     "q": "Who are the two main groups of people that interact with a bank?",
+     "a": "The two groups are savers and borrowers. A wrong answer suggests the student hasn't grasped the basic \"two-sided\" nature of banking mentioned in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Why would someone choose to deposit money in a bank instead of keeping it in a metal box at home?",
+     "a": "A bank keeps money safe and pays interest, helping the savings grow. A wrong answer reveals the student thinks banks are just for hiding money, ignoring the growth aspect (interest).",
+     "self_check": true
+    },
+    {
+     "q": "If you deposit ₹1,000 at a 5% interest rate, how much interest do you earn in one year?",
+     "a": "You earn ₹50. The calculation is 1,000 * 0.05. A wrong answer shows the student struggles with basic percentage applications in financial contexts.",
+     "self_check": true
+    },
+    {
+     "q": "How does a bank benefit from the money deposited by savers?",
+     "a": "The bank uses those deposits to provide loans (borrowing) to others. A wrong answer indicates the student views the bank as a static vault rather than an active financial institution.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better for the economy if money sits in a jar or is deposited in a bank? Why?",
+     "a": "It is better in a bank because the money is put to work by being lent to borrowers who might use it for productive activities. A wrong answer reveals a failure to understand the \"flow\" of money in an economy.",
+     "self_check": true
+    },
+    {
+     "q": "If you were a bank manager, why would you pay interest to the people who deposit their money?",
+     "a": "To encourage them to keep their money in the bank so the bank has enough funds to lend out. A poor answer fails to see the bank's need for a stable supply of money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

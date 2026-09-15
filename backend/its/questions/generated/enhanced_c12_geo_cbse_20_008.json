@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_008",
+   "title": "c12_geo_cbse_20_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a bar diagram and a histogram in terms of the data they represent and the spacing between bars?",
+     "a": "A bar diagram represents discrete or categorical data (e.g., crop production by state) with gaps between bars to emphasize separate categories, while a histogram represents continuous numerical data (e.g., temperature ranges) with adjacent bars (no gaps) because the class intervals form a continuous scale. A wrong answer that says “both have gaps” or “histograms are for categorical data” reveals confusion between discrete and continuous variables — a critical distinction for choosing the correct graphical method in geography practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we use frequency density (frequency ÷ class width) instead of raw frequency when constructing a histogram with unequal class intervals?",
+     "a": "In a histogram, the area of each bar must be proportional to the frequency of that class. When class intervals are equal, height ∝ frequency automatically gives area ∝ frequency. With unequal widths, using raw frequency as height would make wider classes appear disproportionately large, distorting the visual impression of the distribution. Frequency density corrects this by making height = frequency/width, so area = height × width = frequency. A student who answers “it’s just a rule” or “to make the graph look better” misses the geometric principle that area represents quantity — a concept that also applies in choropleth mapping (c12_geo_cbse_20_011) where shading intensity represents density.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following frequency distribution of monthly rainfall (in cm) for a station, construct the histogram. Determine whether frequency density is needed and calculate it for the first two classes.\n\n| Rainfall (cm) | Frequency (months) |\n|---------------|--------------------|\n| 0–10          | 12                 |\n| 10–20         | 18                 |\n| 20–30         | 25                 |\n| 30–50         | 15                 |\n| 50–70         | 8                  |",
+     "a": "Step 1: Check class intervals: 0–10 (width=10), 10–20 (10), 20–30 (10), 30–50 (20), 50–70 (20). Since widths are not all equal (10 vs 20), frequency density is required.  \nStep 2: Frequency density = frequency / class width.  \nFor 0–10: 12/10 = 1.2  \nFor 10–20: 18/10 = 1.8  \nFor 20–30: 25/10 = 2.5  \nFor 30–50: 15/20 = 0.75  \nFor 50–70: 8/20 = 0.4  \nStep 3: On X-axis, mark true class boundaries (0, 10, 20, 30, 50, 70). On Y-axis, mark frequency density (0 to 3). Draw adjacent rectangles with widths = class width and heights = frequency density.  \nA wrong answer that uses raw frequency for height would produce a misleading histogram where the 30–50 and 50–70 bars appear too tall, masking the fact that the highest concentration is actually in the 20–30 cm class.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a histogram for the annual temperature range (in °C) of 50 Indian cities using class intervals 10–15, 15–20, 20–25, 25–30, 30–35. The resulting histogram shows a distinct peak at 20–25 and a long tail toward higher ranges. What does this shape indicate about the temperature distribution across these cities, and which geographical factor might explain it?",
+     "a": "The histogram is positively skewed (right-skewed), meaning most cities have a moderate annual temperature range (20–25°C), while fewer cities experience larger ranges. This pattern is typical for India where the majority of cities lie in the tropical/subtropical zone with relatively small annual ranges, while cities in the interior (e.g., Delhi, Nagpur) or high-altitude regions have larger ranges due to continentality and altitude effects. A student who says “it shows normal distribution” or “the peak is the mean” confuses skewness with symmetry and misses the link between statistical shape and physical geography (continentality, latitude, altitude — covered in c11_geo_cbse_10_001, c11_geo_cbse_10_005).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: “For comparing the rainfall distribution of two stations, it is better to draw two separate histograms on the same graph paper using different shading patterns rather than a single frequency polygon.” Justify your answer with reference to visual clarity and geographical interpretation.",
+     "a": "The statement is generally incorrect. Overlapping histograms with different shading become visually cluttered, especially when class intervals are many, making it hard to compare peaks, spreads, and modal classes. A frequency polygon (c12_geo_cbse_20_009) — which joins midpoints of histogram tops — allows clear superimposition of multiple distributions on the same axes with distinct line styles/colors, enabling direct comparison of shape, central tendency, and variability. Histograms are superior for showing the “area = frequency” concept for a single distribution. A student who agrees without qualification overlooks the standard graphical practice in climatology (e.g., comparing monsoon rainfall of Mumbai vs. Chennai) where polygons are preferred for multi-station comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Design a histogram to represent the distribution of population density (persons/km²) across districts of a state, given that the data has highly unequal class intervals (e.g., 0–50, 50–100, 100–200, 200–500, 500–1000, 1000+). Specify the exact steps you would take, including how you would handle the open-ended class “1000+”, and explain how the resulting histogram helps a planner identify priority districts for infrastructure investment.",
+     "a": "Step 1: Convert to exclusive form with true boundaries. Step 2: Compute class widths (50, 50, 100, 300, 500). Step 3: For open-ended class 1000+, assume a reasonable upper bound based on context (e.g., 1500 or 2000) and note the assumption. Step 4: Calculate frequency density = frequency / width for each class. Step 5: Choose scales: X-axis = density (0 to 1500), Y-axis = frequency density. Step 6: Draw adjacent bars with widths proportional to class intervals and heights = frequency density. Step 7: Interpret: tall, narrow bars at low densities indicate many sparsely populated districts; short, wide bars at high densities indicate few but very dense districts. Planners can target districts in the highest density classes (where bars may be short but area represents large population) for urban infrastructure, and low-density districts for rural connectivity. A poor answer that ignores the open-ended class or uses raw frequency would misrepresent the distribution and lead to flawed policy decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

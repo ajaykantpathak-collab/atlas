@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Shaping of the Earth's Surface",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.102.2.1",
+   "title": "Forces Shaping the Earth's Surface",
+   "section": "2",
+   "definition": "The earth's surface is constantly shaped by two families of forces: internal forces from within the earth that raise mountains and trigger earthquakes and volcanoes, and external forces of weathering and erosion that wear the relief down and redeposit it.",
+   "formula": "-",
+   "key_idea": "Building forces within, wearing forces without: the landscape is their tug-of-war.",
+   "textbook_ref": "iest102.txt opening sections (what shapes the earth's surface)",
+   "question_patterns": [
+    "what forces shape the earth's surface",
+    "differentiate internal and external forces with examples",
+    "how are mountains formed - explain",
+    "what causes earthquakes and volcanoes",
+    "which forces wear down the landforms",
+    "explain how the same force builds and destroys landforms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the internal forces",
+     "explain": "Movements inside the earth fold, fault and lift the crust."},
+    {"step": 2, "action": "identify the external forces",
+     "explain": "Weathering and erosion wear and redeposit the surface."},
+    {"step": 3, "action": "combine the story",
+     "explain": "Present landforms record the balance of both force families."}
+   ]
+  },
+  {
+   "id": "iest.102.2.2",
+   "title": "Weathering and Erosion",
+   "section": "2",
+   "definition": "Weathering breaks rocks in place through sun, water, frost and living things; erosion carries the broken material away through rivers, wind, glaciers and sea waves, depositing it as plains, deltas and sand dunes elsewhere.",
+   "formula": "-",
+   "key_idea": "Weathering breaks, erosion carries, deposition builds - the three-step landform cycle.",
+   "textbook_ref": "iest102.txt sections on weathering, erosion and deposition",
+   "question_patterns": [
+    "differentiate weathering and erosion with examples",
+    "how do rivers shape the land - describe the landforms",
+    "what landforms does wind create in deserts",
+    "how do glaciers change the surface of the earth",
+    "name the agents of erosion and their work",
+    "explain deposition with two landform examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the breaking",
+     "explain": "Weathering crumbles rock without moving it far."},
+    {"step": 2, "action": "note the carrying",
+     "explain": "Rivers, wind, waves and glaciers transport the debris."},
+    {"step": 3, "action": "note the building",
+     "explain": "Deposition lays down plains, deltas and dunes."}
+   ]
+  },
+  {
+   "id": "iest.102.2.3",
+   "title": "Landforms and Human Life",
+   "section": "2",
+   "definition": "Mountains, plateaus and plains each host distinct human activities - farming in plains, herding and tourism in mountains, mining on plateaus - while hazards like earthquakes demand that settlements respect the forces shaping the land.",
+   "formula": "-",
+   "key_idea": "Landform decides livelihood: plains farm, mountains herd, plateaus mine.",
+   "textbook_ref": "iest102.txt sections on landforms and human adaptation",
+   "question_patterns": [
+    "compare life in mountains, plateaus and plains",
+    "why are plains densely populated - give reasons",
+    "what economic activities suit a plateau region",
+    "how should people prepare for earthquake hazards",
+    "how has a landform shaped the life of people in your region",
+    "relate landforms to transport and settlement patterns"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the landform",
+     "explain": "Relief, soil and climate set the possibilities."},
+    {"step": 2, "action": "match the livelihood",
+     "explain": "Farming, herding, mining or trade follow the land."},
+    {"step": 3, "action": "respect the hazards",
+     "explain": "Preparedness for quakes and floods completes wise settlement."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iest102.txt exercises",
+   "questions": [
+     "Distinguish internal and external forces of the earth.",
+     "Describe the landforms made by a river along its course.",
+     "Explain the effect of landforms on human activities."
+   ]
+  }
+ ]
+}

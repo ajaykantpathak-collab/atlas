@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_007",
+   "title": "c11_bs_cbse_10_007",
+   "questions": [
+    {
+     "q": "State the definition of chain stores or multiple shops as per NCERT Class 11 Business Studies.",
+     "a": "Chain stores or multiple shops are networks of retail shops owned and operated by manufacturers or intermediaries, dealing in standardised and branded consumer products with rapid sales turnover, having identical merchandising strategies, centralised procurement, and head office control. A wrong answer that mentions \"wide variety of products\" or \"credit sales\" reveals confusion with departmental stores. If the student omits \"centralised procurement\" or \"cash basis\", they have missed the operational core that distinguishes chain stores.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why chain stores are typically located in populous localities rather than a single central location like a departmental store.",
+     "a": "Chain stores aim to bring the shop to the customer's neighbourhood (near residence or workplace) for convenience, whereas departmental stores attract customers to a central hub. A wrong answer suggesting \"chain stores need central location for brand visibility\" confuses the location strategy — chain stores decentralise to reduce customer travel time, which is critical for daily-use standardised goods. If the student says \"to save rent\", they misunderstand that populous areas often have higher rents; the trade-off is higher sales volume from accessibility.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer of branded packaged spices wants to expand via chain stores. They currently sell through wholesalers. List three operational changes they must implement to run chain stores successfully, based on NCERT features.",
+     "a": "1. Set up centralised procurement at head office — all spice packets sourced/manufactured centrally and dispatched to branches. 2. Implement fixed uniform pricing across all outlets with cash-only sales (no credit). 3. Appoint branch managers for daily operations and inspectors for quality/service audits. A wrong answer suggesting \"allow branch managers to set local prices\" or \"give credit to regular customers\" violates the core features of fixed pricing and cash basis. If they miss \"daily cash deposits to head office account\", they haven't grasped the financial control mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare chain stores and departmental stores on the parameter \"range of products\". Why does this difference exist given their distinct business models?",
+     "a": "Departmental stores carry a wide variety of unrelated product lines (groceries, clothing, electronics) to be a one-stop shop; chain stores focus on a narrow, specialised range (e.g., only footwear or only garments) because they are often manufacturer-owned and sell their own branded goods. A wrong answer claiming \"chain stores also keep wide variety to attract more customers\" ignores the textbook's explicit limitation: \"limited selection of goods\". The reason: chain stores achieve economies of scale through specialisation and high turnover of few SKUs, while departmental stores rely on cross-category footfall.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Chain stores are always more profitable than departmental stores because they have lower operating costs.\" Defend or critique using at least three points from merits and limitations.",
+     "a": "Critique — the statement is false. While chain stores have lower costs (centralised buying, no bad debts, no middlemen), they face high risk if demand shifts (unsold central stock), limited product flexibility, and lack of personal service reduces customer loyalty. Departmental stores, despite higher costs, can adjust product mix, offer credit/services to retain high-income customers, and clear stock via discounts. A student who agrees without qualification shows superficial understanding of \"low cost\" merit while ignoring \"difficult to change demand\" limitation. Profitability depends on market context, not just cost structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini business plan for a new chain store venture in India selling affordable branded school uniforms. Specify: (a) two locations you would choose and why, (b) how centralised procurement would work, (c) one major risk you would plan for.",
+     "a": "(a) Locations: Near clusters of schools in residential areas (e.g., Dwarka, Delhi; Koramangala, Bangalore) — high footfall of target customers (parents/students). (b) Centralised procurement: Head office contracts fabric manufacturers, standardises designs, produces in bulk, packs in labelled bundles, dispatches to branches based on pre-season orders. (c) Risk: Sudden change in school uniform policy (colour/design) leaves huge unsold stock at central depot — mitigation: include buy-back clause with schools or keep fabric unstitched until confirmed orders. A poor answer chooses \"mall locations\" (wrong demographic), suggests \"branch-level purchasing\" (violates centralisation), or ignores policy-change risk (shows lack of analytical depth).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

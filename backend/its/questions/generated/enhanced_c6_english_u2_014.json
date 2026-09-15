@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u2_014",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u2_014",
+   "title": "c6_english_u2_014",
+   "questions": [
+    {
+     "q": "What do we mean by the \"tone\" of a poem?\nAnswer: The tone is the poet's attitude or mood toward the subject. A wrong answer suggests the student confuses \"tone\" with \"topic,\" which means they aren't looking at the *feel* of the words.",
+     "a": "Tone is the poet’s attitude toward the subject, such as being playful, serious, or excited. A student who says \"the tone is about a funny man\" is confusing the *subject* with the *attitude*; this reveals they need help distinguishing between *what* the poem is about and *how* the poet feels about it.",
+     "self_check": true
+    },
+    {
+     "q": "If a poem describes a man wearing shoes on his hands, why is this funny?\nAnswer: It is funny because it is the opposite of what we expect. A wrong answer suggests the student doesn't see the connection between \"expectation\" and \"comedy.\"",
+     "a": "It is funny because it creates a surprise—we expect shoes on feet, not hands. If a student answers \"because he is weird,\" they are missing the mechanism of humour (the gap between expectation and reality); they need to focus on identifying the \"normal\" expectation first.",
+     "self_check": true
+    },
+    {
+     "q": "A poem says a man went for a swim in the desert. How would you describe the tone?\nAnswer: The tone is absurd or humorous. To find this, compare \"swimming\" (needs water) with \"desert\" (has no water).",
+     "a": "The tone is absurd or playful. Steps: 1. Identify the action (swimming). 2. Identify the setting (desert). 3. Compare them to see if it makes sense. 4. Label the resulting feeling as \"absurd.\" If a student says \"sad,\" they are misinterpreting the situation as a tragedy instead of a joke.",
+     "self_check": true
+    },
+    {
+     "q": "How does the \"gap\" between expectation and action create humour?\nAnswer: The gap creates a surprise that forces our brains to see the situation as silly. A wrong answer suggests the student thinks humour is just about words rather than the *logic* of the poem.",
+     "a": "Humour happens when our brain expects a logical outcome but gets a surprising, illogical one instead. If a student says \"it's just a funny word,\" they are failing to see the structural logic behind why we laugh at specific events.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a poem about a sad event to have a humorous tone?\nAnswer: Generally no, because the tone dictates the audience's reaction. A wrong answer shows a misunderstanding of how authors signal feelings to readers.",
+     "a": "It is unlikely, as the tone is the \"mood\" the author sets. If a student says \"yes,\" they might be confusing \"dark humour\" (which is advanced) with the basic concept of tone. Remind them that tone is the *guide* for how we should react to the poem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-line scenario that would make a reader laugh.\nAnswer: A line like \"The baker tried to bake a cake using a brick.\" The answer must show an expectation (baking a cake) being met with an absurd action (using a brick).",
+     "a": "\"The chef tried to stir his soup with a giant ladder.\" This works because a ladder is clearly the wrong tool for soup. A poor answer would be \"The chef was very funny,\" which is just an opinion and doesn't explain *why* it is funny through an action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

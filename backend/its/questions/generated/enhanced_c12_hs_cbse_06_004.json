@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_004",
+   "title": "c12_hs_cbse_06_004",
+   "questions": [
+    {
+     "q": "A student writes: \"Intrapersonal communication is when you talk to yourself out loud.\" Is this statement fully accurate? Explain why or why not in two sentences.",
+     "a": "No, the statement is incomplete. Intrapersonal communication includes silent internal dialogue, mental rehearsal, and reflective thinking — not only overt self-talk. Speaking aloud to oneself is just one external manifestation; the core process is cognitive and often non-verbal. A wrong answer reveals the misconception that communication requires observable verbal behavior, ignoring the internal psychological dimension central to intrapersonal communication.",
+     "self_check": true
+    },
+    {
+     "q": "In a village health program, an ASHA worker uses a flip chart to explain immunization schedules to a group of 15 mothers, answers their questions, and adjusts her explanation based on their confused expressions. Classify this communication event as intrapersonal, interpersonal, or mass communication. Justify your classification using two distinguishing features.",
+     "a": "This is interpersonal communication (specifically small-group interpersonal). Two distinguishing features: (1) Immediate, two-way feedback — the ASHA worker sees confusion and adapts in real time; (2) Limited, known participants (15 mothers) allowing mutual influence and relational dynamics. A wrong answer classifying it as mass communication reveals confusion between \"group setting\" and \"mass audience\" — mass communication lacks immediate feedback and involves anonymous, heterogeneous receivers.",
+     "self_check": true
+    },
+    {
+     "q": "An extension officer wants to promote a new composting technique. She prepares a 30-second radio spot (broadcast twice daily for a week) and also conducts five village-level demonstrations with 20 farmers each. Analyze the complementary roles of these two methods using the concepts of feedback, audience homogeneity, and message permanence.",
+     "a": "Radio (mass communication): delayed/no direct feedback, heterogeneous anonymous audience, message is transient (heard once unless recorded) but reaches thousands simultaneously. Demonstrations (interpersonal): immediate feedback via Q&A and observation, homogeneous known audience (farmers with similar needs), message is reinforced through hands-on practice and social discussion. The radio spot creates awareness broadly; demonstrations enable skill-building and attitude change through interaction. A wrong answer that treats them as interchangeable ignores the feedback-permanence trade-off critical for extension strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare intrapersonal and interpersonal communication on the dimension of \"noise\" (communication barriers). Give one unique barrier for each type and explain why it does not apply to the other type.",
+     "a": "Intrapersonal unique barrier: Cognitive dissonance / self-deception — internal psychological conflict distorts self-talk (e.g., a farmer ignoring climate risk because \"it never happened before\"). This does not apply to interpersonal because it requires an internal monologue, not an exchange. Interpersonal unique barrier: Semantic noise from dialect/jargon mismatch — the ASHA worker uses medical terms the mothers don't understand. This does not apply to intrapersonal because there is no encoder-decoder translation between different individuals. A wrong answer listing \"distraction\" for both misses the structural difference: intrapersonal noise is intra-psychic; interpersonal noise is inter-relational.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Mass communication is superior to interpersonal communication for changing deep-seated cultural practices like child marriage because it reaches more people faster.\" Provide a reasoned judgment with two arguments for and two against, then state your conclusion.",
+     "a": "Arguments FOR: (1) Scale and speed — a single TV serial can model new norms to millions simultaneously; (2) Anonymity reduces social pressure — viewers can privately reconsider norms without public confrontation. Arguments AGAINST: (1) No immediate feedback to address counter-arguments or misconceptions; (2) Low credibility for sensitive topics — trusted interpersonal sources (elders, peers) are more persuasive for norm change. CONCLUSION: Mass communication is necessary for agenda-setting and diffusion of information, but interpersonal communication is essential for persuasion and sustained behavioral change; they are complementary, not hierarchical. A wrong answer picking one as \"superior\" reveals a media-centric bias ignoring the social-psychological reality of normative change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-step extension communication strategy to promote kitchen gardening in an urban slum community. Explicitly assign one step to intrapersonal, one to interpersonal, and one to mass communication. Explain the specific psychological function each step serves.",
+     "a": "Step 1 (Mass): Distribute colorful posters in community centers and play a 2-min audio jingle on local cable TV — Function: Awareness & agenda-setting (reach heterogeneous audience, create topic salience). Step 2 (Interpersonal): Organize hands-on demo sessions in each lane led by trained peer educators — Function: Skill-building & social norm reinforcement (immediate feedback, peer modeling, collective efficacy). Step 3 (Intrapersonal): Provide each household a simple \"Gardening Diary\" with prompts for weekly reflection: \"What grew well? What will I change?\" — Function: Self-monitoring & internalization (converts external behavior into personal habit through metacognition). A poor answer assigns generic activities without linking each to its unique psychological mechanism (e.g., using mass media for skill training).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

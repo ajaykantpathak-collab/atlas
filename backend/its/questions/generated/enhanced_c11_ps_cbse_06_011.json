@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_011",
+   "title": "c11_ps_cbse_06_011",
+   "questions": [
+    {
+     "q": "Which article of the Constitution defines citizenship by domicile at the commencement of the Constitution, and what are the two main conditions it prescribes?",
+     "a": "Article 5 defines citizenship by domicile. The two main conditions are: (1) the person must have been born in the territory of India, or either parent born in India, or ordinarily resident in India for at least five years immediately preceding the commencement of the Constitution. A wrong answer (e.g., citing Article 6 or 7) reveals confusion between domicile-based citizenship and migration-based categories.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers include separate provisions for migrants from Pakistan (Article 6) and migrants to Pakistan (Article 7) instead of a single rule for all migrants?",
+     "a": "The Partition created asymmetrical migration flows: people moving to India needed assurance of citizenship (Art. 6), while those who moved to Pakistan but might return needed a regulated re-entry mechanism (Art. 7). A single rule would not address the distinct intentions and cut-off dates (19 July 1948 vs. 1 March 1947). A wrong answer that treats both articles as identical shows failure to grasp the historical context of Partition.",
+     "self_check": true
+    },
+    {
+     "q": "A person born in Rangoon (Burma) in 1930 to parents born in India, who has never lived in India, applies for Indian citizenship in 1950. Under which article can they claim citizenship, and what additional step is required?",
+     "a": "Article 8 covers persons of Indian origin residing outside India. They must register as an Indian citizen with the diplomatic/consular representative of India in the country of residence. A wrong answer citing Article 5 (domicile) reveals misunderstanding that domicile requires residence in India, not just parentage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the citizenship consequences for two individuals: (A) an Indian citizen who voluntarily acquires Pakistani citizenship in 1951, and (B) an Indian citizen who voluntarily acquires British citizenship in 1951. What does Article 9 imply for each?",
+     "a": "Article 9 states that any person who voluntarily acquires citizenship of a foreign state ceases to be an Indian citizen. It applies equally to both (A) and (B) — the foreign state's identity does not matter. A wrong answer that exempts (A) because Pakistan was part of undivided India shows confusion between Partition-era provisions (Art. 6/7) and the general renunciation rule (Art. 9).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Article 11 makes the Citizenship Act, 1955, immune from judicial review because it grants Parliament plenary power over citizenship.\"",
+     "a": "The statement is incorrect. Article 11 empowers Parliament to make laws on citizenship, but such laws are subject to judicial review for conformity with Fundamental Rights (Part III) and the basic structure doctrine (Kesavananda Bharati). A wrong answer accepting the statement reveals a misunderstanding of parliamentary supremacy vs. constitutional supremacy in India.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Article 5A that would grant citizenship to a stateless person born in India between 1950 and 1987 to parents who were not Indian citizens, and explain how it would interact with Article 11.",
+     "a": "A good answer proposes a provision granting citizenship by birth to stateless persons born in India during that period, subject to registration, and notes that Article 11 allows Parliament to enact such a provision by law (as done in the 1986 and 2003 amendments). A poor answer either ignores the statelessness condition or fails to link it to Parliament's legislative power under Article 11.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

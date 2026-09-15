@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_004",
+   "title": "c11_acc_cbse_09_004",
+   "questions": [
+    {
+     "q": "A trial balance shows \"Commission Received ₹5,000\". Additional information states: \"Commission of ₹1,500 is still receivable for the current year.\" What is the correct adjusting entry and its effect on the Profit & Loss Account?",
+     "a": "Correct entry: Accrued Commission A/c Dr. ₹1,500 To Commission Received A/c ₹1,500. Effect: Commission Received in P&L increases to ₹6,500 (₹5,000 + ₹1,500); Accrued Commission ₹1,500 appears as Current Asset in Balance Sheet. A wrong answer (e.g., debiting Commission Received) reveals the student confuses the direction of adjustment — they think \"receivable\" means reduce income, not increase it. This shows they haven't internalised that accrued income is an **asset** representing a right to receive, so it must be debited to increase assets and credited to increase revenue.",
+     "self_check": true
+    },
+    {
+     "q": "A business receives ₹12,000 rent on March 1, 2024 for 12 months (March 2024 – February 2025). The accounting year ends March 31, 2024. The bookkeeper records the full ₹12,000 as Rent Received in the P&L. Explain why this violates the accrual concept and state the correct adjustment with amounts.",
+     "a": "Violation: Only 1 month (March) rent ₹1,000 (12,000/12) belongs to current year; ₹11,000 belongs to next year. Recording full ₹12,000 overstates current year profit by ₹11,000. Correct adjustment: Rent Received A/c Dr. ₹11,000 To Rent Received in Advance A/c ₹11,000. P&L shows Rent Received ₹1,000; Balance Sheet shows Rent Received in Advance ₹11,000 as Current Liability. A wrong answer (e.g., adjusting ₹12,000 or ₹1,000) reveals the student cannot apportion income based on time period — they either treat all as advance or all as current. This shows lack of understanding of **time-period allocation** central to accrual accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Trial Balance shows: Interest Received ₹8,000. Additional Info: (i) Interest accrued on investments ₹2,000; (ii) Interest received in advance for next quarter ₹1,500. Pass adjusting entries and calculate the net Interest Received to be credited to P&L.",
+     "a": "Entries: (1) Accrued Interest A/c Dr. ₹2,000 To Interest Received A/c ₹2,000; (2) Interest Received A/c Dr. ₹1,500 To Interest Received in Advance A/c ₹1,500. Net Interest in P&L = ₹8,000 + ₹2,000 – ₹1,500 = ₹8,500. Balance Sheet: Accrued Interest ₹2,000 (Asset); Interest Received in Advance ₹1,500 (Liability). A wrong net amount (e.g., ₹6,500 or ₹11,500) reveals the student adds/subtracts incorrectly — they may deduct accrued income or add advance income. This shows confusion between **asset creation (debit)** for accrued and **liability creation (credit)** for advance, and their opposite effects on revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Balance Sheet treatment of Accrued Income and Income Received in Advance. Why does one appear on the Asset side and the other on the Liability side? Use the accounting equation to justify.",
+     "a": "Accrued Income = Asset (right to receive cash) → Increases Assets, Increases Capital via Revenue (A = L + C+R). Income Received in Advance = Liability (obligation to deliver service) → Increases Liabilities, Decreases Capital via reduced Revenue (A = L+Obligation + C-R). Both maintain equation balance. Accrued Income: Dr. Asset (+A), Cr. Revenue (+C). Advance Income: Dr. Revenue (-C), Cr. Liability (+L). A student who places both on Asset side or both on Liability side fails to recognise the **economic substance**: Accrued = \"We did work, they owe us\" (Asset); Advance = \"They paid, we owe work\" (Liability). This reveals a fundamental misunderstanding of the **dual aspect** — every adjustment has two equal effects maintaining A = L + C.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since both Accrued Income and Income Received in Advance involve cash not matching the earning period, why not just wait for cash and record then? Adjustments are unnecessary complexity.\" Evaluate this statement using the matching principle and a concrete example.",
+     "a": "The statement is **incorrect**. Matching principle requires revenues to be recognised in the period **earned**, not when cash is received. Example: A CA firm completes ₹5 lakh audit work in March 2024, bills client, receives payment in April 2024. Without accrual adjustment: FY 2023-24 shows ₹0 revenue (understated profit), FY 2024-25 shows ₹5 lakh (overstated profit). This distorts year-on-year comparison, tax liability, and decision-making. Adjustments are **necessary complexity** to reflect economic reality. A student agreeing with the statement reveals they view accounting as **cash-tracking**, not **performance measurement** — they miss that financial statements serve users (investors, banks) who need accrual-based profit, not cash flow.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario for a small Indian business (e.g., a tuition centre, a rental property owner, or a freelance consultant) where BOTH Accrued Income and Income Received in Advance exist simultaneously at year-end. Write the additional information notes as they would appear in a CBSE exam question, then show the complete adjustment entries and P&L/Balance Sheet treatment.",
+     "a": "Scenario: \"Meera's Tuition Centre\" (Year-end March 31, 2024).\nAdditional Information:\n(i) Tuition fees for March 2024 ₹15,000 are still receivable from 3 students.\n(ii) Quarterly fees for April-June 2024 ₹18,000 received in advance on March 28, 2024 and credited to Fees Received A/c.\nAdjustment Entries:\n1. Accrued Fees A/c Dr. 15,000 To Fees Received A/c 15,000\n2. Fees Received A/c Dr. 18,000 To Fees Received in Advance A/c 18,000\nP&L: Fees Received = Trial Balance amount + 15,000 – 18,000\nBalance Sheet: Accrued Fees ₹15,000 (Current Asset); Fees Received in Advance ₹18,000 (Current Liability).\nA poor answer (missing one adjustment, wrong signs, or incorrect P&L amount) reveals the student cannot **handle simultaneous opposing adjustments** — they treat each in isolation but fail when both appear together. This shows they memorise procedures without understanding the **net effect on revenue recognition**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

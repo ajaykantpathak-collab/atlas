@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_040",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_040",
+   "title": "c6_math_ch03_040",
+   "questions": [
+    {
+     "q": "What does the fraction $5/8$ represent in terms of division?",
+     "a": "It represents 5 divided by 8 ($5 \\div 8$). A student who answers \"8 divided by 5\" is confusing the numerator and denominator, failing to recognize that the top number is the amount being shared (the dividend).",
+     "self_check": true
+    },
+    {
+     "q": "If 7 friends share 2 pizzas equally, can you write this as a division problem and then as a fraction?",
+     "a": "Division: $2 \\div 7$; Fraction: $2/7$. A student who says $7/2$ believes the larger number must always be the denominator, ignoring the context that the 2 pizzas are the items being cut.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant has 5 kg of rice to pack into 4 equal bags. How much rice goes into each bag? Show your steps.",
+     "a": "1. Identify dividend: 5 kg. 2. Identify divisor: 4 bags. 3. Form division: $5 \\div 4$. 4. Form fraction: $5/4$ kg (or $1 \\frac{1}{4}$ kg). A student who answers $4/5$ has swapped the items and the containers.",
+     "self_check": true
+    },
+    {
+     "q": "Why is $3 \\div 4$ the same as $3/4$? Use the example of sharing 3 rotis among 4 children.",
+     "a": "When you divide 3 rotis into 4 parts each, you have 12 pieces of size $1/4$. Giving each child 3 pieces means they get $3 \\times 1/4 = 3/4$. If a student cannot explain this, they are memorizing the symbol without seeing the physical division.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a fraction $a/b$ to be equal to a whole number? Give an example and explain why.",
+     "a": "Yes, if $a$ is a multiple of $b$. For example, $8/4 = 2$, because sharing 8 rotis among 4 people results in each person getting 2 whole rotis. Answering \"no\" suggests the student thinks fractions must always be \"broken\" pieces less than 1.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving 5 litres of juice and 3 people that results in a fraction.",
+     "a": "\"If 5 litres of juice are poured equally into 3 large glasses, how many litres of juice are in each glass?\" An answer failing to connect the total amount (5) to the numerator (5) shows a lack of understanding of the division-fraction relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

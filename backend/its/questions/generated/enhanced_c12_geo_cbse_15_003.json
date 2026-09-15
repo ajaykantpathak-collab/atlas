@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_003",
+   "title": "c12_geo_cbse_15_003",
+   "questions": [
+    {
+     "q": "Name the four metropolitan cities connected by the Golden Quadrilateral and state the total length of the corridor as per NHAI data.",
+     "a": "The Golden Quadrilateral connects Delhi, Mumbai, Chennai, and Kolkata with a total length of 5,846 km. A wrong answer (e.g., listing Bengaluru instead of Chennai, or stating 7,000 km) reveals the student has memorised the name \"Golden Quadrilateral\" without internalising the specific nodal cities that define the quadrilateral's geometry or the official NHDP Phase I/II length figure used in board exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the North-South Corridor includes a Cochin-Salem spur while the main alignment runs from Srinagar to Kanniyakumari. What geographical constraint does this spur address?",
+     "a": "The Cochin-Salem spur connects the major port city of Kochi (Cochin) and the industrial hub of Salem to the main North-South spine, addressing the geographical constraint that the Western Ghats create a barrier between the Kerala coastal plain and the interior Deccan plateau. Without the spur, Kerala's export-oriented economy (spices, seafood, rubber) would lack direct high-speed access to the national corridor. A student who omits the port-hinterland logic or confuses the spur with the East-West Corridor shows they treat corridors as abstract lines rather than solutions to terrain-induced accessibility gaps.",
+     "self_check": true
+    },
+    {
+     "q": "A freight truck travels from Delhi to Chennai via the Golden Quadrilateral (GQ) arm. The pre-GQ route (NH-2 + NH-4 old alignment) was 2,350 km with average speed 40 km/h due to single-lane sections and urban congestion. The GQ alignment is 2,180 km with 4/6 lanes allowing 80 km/h average. Calculate the percentage reduction in transit time. Show steps.",
+     "a": "Step 1: Pre-GQ time = 2,350 km ÷ 40 km/h = 58.75 hours. Step 2: Post-GQ time = 2,180 km ÷ 80 km/h = 27.25 hours. Step 3: Time saved = 58.75 – 27.25 = 31.5 hours. Step 4: Percentage reduction = (31.5 ÷ 58.75) × 100 = 53.6%. A wrong answer using only distance reduction (7.2%) or only speed doubling (50%) reveals the student fails to combine both distance shortening and speed improvement — a classic competitive exam trap where \"time = distance/speed\" must be applied to both changed variables simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional economic impact of the East-West Corridor (Silchar–Porbandar) versus the Golden Quadrilateral. Why does the East-West Corridor have higher transformative potential for the Northeast but lower current freight density?",
+     "a": "The East-West Corridor links the landlocked Northeast (Silchar) to the western port of Porbandar, reducing the region's historical isolation and enabling export-oriented industries (tea, bamboo, horticulture) to access global markets — high transformative potential. However, current freight density is lower than GQ because the Northeast's industrial base is nascent, agricultural surplus is limited, and the corridor traverses low-population-density terrain (hills, forests) with fewer consumption centres. The GQ connects four established mega-consumption and production hubs, generating immediate high traffic. A student who claims both corridors have equal freight density ignores the \"chicken-egg\" problem of infrastructure preceding demand in peripheral regions versus reinforcing existing cores.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Golden Quadrilateral has solved India's inter-metro freight logistics problem.\" Use evidence on last-mile connectivity, toll plaza delays, and missing multimodal links to support your judgment.",
+     "a": "The statement is partially true but overstated. GQ reduced line-haul transit time by 40–50% (evidence: Delhi–Mumbai from 72h to 36h), but last-mile connectivity to industrial clusters (e.g., Bhiwandi, Sriperumbudur) remains on congested 2-lane roads. Toll plazas (even with FASTag) create queuing delays during peak hours. Critically, GQ lacks integrated multimodal hubs — only 12% of GQ length has proximate railway sidings or inland container depots, forcing break-of-bulk handling. A student who answers \"true\" without caveats misses the competitive exam expectation to critique infrastructure completeness using the \"first-mile/last-mile\" and \"multimodal integration\" frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 12 board practical: mark the Golden Quadrilateral, North-South Corridor, and East-West Corridor on an outline map of India. Include (a) terminal cities, (b) two major intermediate cities per corridor, (c) one major port connected by each corridor, and (d) the approximate latitude/longitude of the GQ's geometric centre. Provide the expected answer key.",
+     "a": "Expected annotation: (a) GQ terminals: Delhi (28.6°N, 77.2°E), Mumbai (19.1°N, 72.9°E), Chennai (13.1°N, 80.3°E), Kolkata (22.6°N, 88.4°E). NS Corridor: Srinagar (34.1°N, 74.8°E) to Kanniyakumari (8.1°N, 77.5°E) + Kochi (9.9°N, 76.3°E)–Salem (11.7°N, 78.1°E) spur. EW Corridor: Silchar (24.8°N, 92.8°E) to Porbandar (21.6°N, 69.6°E). (b) GQ intermediates: Jaipur, Pune, Bengaluru, Varanasi. NS: Nagpur, Hyderabad. EW: Guwahati, Raipur. (c) Ports: GQ → Mumbai (JNPT), Chennai, Kolkata (Haldia); NS → Kochi; EW → Porbandar, Kandla (nearby). (d) GQ geometric centre ≈ 20.5°N, 78.5°E (near Nagpur). A poor answer that places terminals incorrectly (e.g., Kolkata on west coast) or omits the Kochi-Salem spur shows the student cannot visualise the corridors as a connected network — a core map skill for board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

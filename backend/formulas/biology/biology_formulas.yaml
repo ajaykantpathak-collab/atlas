@@ -1,0 +1,2654 @@
+---
+- formula_id: "BIO_GEN_001"
+  name: "Mendel's Law of Segregation (Monohybrid 3:1 ratio)"
+  latex: "P(Gg \\times Gg) = \\frac{1}{4} GG + \\frac{1}{2} Gg + \\frac{1}{4} gg"
+  variables:
+    - symbol: "GG"
+      name: "homozygous_dominant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "Gg"
+      name: "heterozygous"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "gg"
+      name: "homozygous_recessive"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["single_gene", "complete_dominance", "heterozygous_parents"]
+  grade_range: ["class8", "class10", "class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_MENDEL"]
+
+- formula_id: "BIO_GEN_002"
+  name: "Dihybrid Cross Ratio (9:3:3:1)"
+  latex: "P(RrYy \\times RrYy) = \\frac{9}{16} R\_Y\_ + \\frac{3}{16} R\_yy + \\frac{3}{16} rrY\_ + \\frac{1}{16} rryy"
+  variables:
+    - symbol: "R\_"
+      name: "dominant_first_trait"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "Y\_"
+      name: "dominant_second_trait"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["two_independent_genes", "complete_dominance", "dihybrid_heterozygotes"]
+  grade_range: ["class10", "class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_MENDEL", "BIO_DIHYBRID"]
+
+- formula_id: "BIO_GEN_003"
+  name: "Testcross Ratio (Backcross 1:1)"
+  latex: "P(Aa \\times aa) = \\frac{1}{2} Aa + \\frac{1}{2} aa"
+  variables:
+    - symbol: "Aa"
+      name: "heterozygous_offspring"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "aa"
+      name: "homozygous_recessive_offspring"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["unknown_genotype_parent", "homozygous_recessive_tester"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_TESTCROSS"]
+
+- formula_id: "BIO_GEN_004"
+  name: "Trihybrid Cross Ratio (27:9:9:9:3:3:3:1)"
+  latex: "P(AaBbCc \\times AaBbCc) = 27 A\_B\_C\_ : 9 A\_B\_cc : 9 A\_bbC\_ : 9 aaB\_C\_ : 3 A\_bbcc : 3 aaB\_cc : 3 aabbC\_ : 1 aabbcc"
+  variables: []
+  preconditions: ["three_independent_genes", "complete_dominance"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_TRIHYBRID"]
+
+- formula_id: "BIO_GEN_005"
+  name: "Dihybrid Testcross Ratio"
+  latex: "P(AaBb \\times aabb) = \\frac{1}{4} AaBb : \\frac{1}{4} Aabb : \\frac{1}{4} aaBb : \\frac{1}{4} aabb"
+  variables: []
+  preconditions: ["dihybrid_heterozygote", "doubly_recessive_tester"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_TESTCROSS", "BIO_DIHYBRID"]
+
+- formula_id: "BIO_GEN_006"
+  name: "Incomplete Dominance Ratio (1:2:1)"
+  latex: "P(Rr \\times Rr) = \\frac{1}{4} RR + \\frac{1}{2} Rr + \\frac{1}{4} rr"
+  variables:
+    - symbol: "RR"
+      name: "dominant_phenotype"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "Rr"
+      name: "intermediate_phenotype"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "rr"
+      name: "recessive_phenotype"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["incomplete_dominance", "blending_inheritance"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Non-Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_INCOMP_DOM"]
+
+- formula_id: "BIO_GEN_007"
+  name: "Codominance Ratio (1:2:1 phenotypic)"
+  latex: "P(I^A I^B \\times I^A I^B) = \\frac{1}{4} I^A I^A : \\frac{1}{2} I^A I^B : \\frac{1}{4} I^B I^B"
+  variables:
+    - symbol: "I^A I^A"
+      name: "type_A_blood"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "I^A I^B"
+      name: "type_AB_blood"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "I^B I^B"
+      name: "type_B_blood"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["codominant_alleles", "ABO_blood_group"]
+  grade_range: ["class9", "class12", "neet", "undergraduate"]
+  chapter: "Non-Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_CODOMINANCE"]
+
+- formula_id: "BIO_GEN_008"
+  name: "X-linked Recessive Probability (Mother Carrier × Normal Father)"
+  latex: "P(X^H X^h \\times X^H Y) = \\frac{1}{4} X^H X^H : \\frac{1}{4} X^H X^h : \\frac{1}{4} X^H Y : \\frac{1}{4} X^h Y"
+  variables:
+    - symbol: "X^H"
+      name: "normal_allele"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "X^h"
+      name: "disease_allele"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["x_linked_recessive", "carrier_mother", "normal_father"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Sex-linked Inheritance"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_XLINKED"]
+
+- formula_id: "BIO_GEN_009"
+  name: "X-linked Dominant Cross (Affected Father × Normal Mother)"
+  latex: "P(X^D Y \\times X^d X^d) = \\frac{1}{2} X^D X^d (daughters_affected) : \\frac{1}{2} X^d Y (sons_normal)"
+  variables:
+    - symbol: "X^D"
+      name: "dominant_disease_allele"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "X^d"
+      name: "normal_allele"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["x_linked_dominant", "affected_father"]
+  grade_range: ["class12", "undergraduate"]
+  chapter: "Sex-linked Inheritance"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_XLINKED"]
+
+- formula_id: "BIO_GEN_010"
+  name: "Hardy-Weinberg Allele Frequency Relationship"
+  latex: "p + q = 1"
+  variables:
+    - symbol: "p"
+      name: "dominant_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "q"
+      name: "recessive_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["two_allele_system", "hardy_weinberg_population"]
+  grade_range: ["class12", "neet", "undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW", "BIO_ALLELE_FREQ"]
+
+- formula_id: "BIO_GEN_011"
+  name: "Hardy-Weinberg Genotype Frequency"
+  latex: "p^2 + 2pq + q^2 = 1"
+  variables:
+    - symbol: "p^2"
+      name: "homozygous_dominant_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "2pq"
+      name: "heterozygous_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "q^2"
+      name: "homozygous_recessive_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["random_mating", "no_selection", "no_mutation", "no_migration", "large_population"]
+  grade_range: ["class12", "neet", "undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW"]
+
+- formula_id: "BIO_GEN_012"
+  name: "Hardy-Weinberg Carrier Frequency"
+  latex: "P(carrier) = 2pq = 2p\\sqrt{q^2}"
+  variables:
+    - symbol: "p"
+      name: "normal_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "q"
+      name: "disease_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["autosomal_recessive_disease", "hardy_weinberg"]
+  grade_range: ["class12", "neet", "undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW", "BIO_CARRIER"]
+
+- formula_id: "BIO_GEN_013"
+  name: "Recessive Disease Frequency from Carrier Frequency"
+  latex: "q^2 = (\\text{carrier_freq} / 2)^2"
+  variables:
+    - symbol: "q^2"
+      name: "disease_incidence"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["autosomal_recessive", "known_carrier_frequency"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW", "BIO_DISEASE_FREQ"]
+
+- formula_id: "BIO_GEN_014"
+  name: "Hardy-Weinberg Three-Allele Frequencies"
+  latex: "p + q + r = 1 \\quad \\text{and} \\quad p^2 + q^2 + r^2 + 2pq + 2pr + 2qr = 1"
+  variables:
+    - symbol: "p"
+      name: "first_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "q"
+      name: "second_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "r"
+      name: "third_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["three_allele_system"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW"]
+
+- formula_id: "BIO_GEN_015"
+  name: "Recombination Frequency"
+  latex: "RF = \\frac{R}{T} \\times 100\\%"
+  variables:
+    - symbol: "R"
+      name: "recombinant_offspring_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "T"
+      name: "total_offspring_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["linked_genes", "dihybrid_testcross", "observed_progeny"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_RECOMB"]
+
+- formula_id: "BIO_GEN_016"
+  name: "Map Distance (Genetic Distance)"
+  latex: "d = RF = \\frac{\\text{recombinants}}{\\text{total_progeny}} \\times 100 \\quad \\text{(centiMorgans, cM)}"
+  variables:
+    - symbol: "d"
+      name: "map_distance"
+      unit: "cM"
+      dimensional_formula: ""
+      quantity_type: "distance"
+  preconditions: ["linked_genes", "recombination_data"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_LINKAGE", "BIO_MAP_DIST"]
+
+- formula_id: "BIO_GEN_017"
+  name: "Map Distance with Double Crossovers Correction"
+  latex: "d = \\frac{R + 2DCO}{T} \\times 100"
+  variables:
+    - symbol: "R"
+      name: "single_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "DCO"
+      name: "double_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "T"
+      name: "total_progeny"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["three_point_testcross", "linked_genes"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_LINKAGE", "BIO_DCO"]
+
+- formula_id: "BIO_GEN_018"
+  name: "Coefficient of Coincidence"
+  latex: "C = \\frac{DCO_{observed}}{DCO_{expected}}"
+  variables:
+    - symbol: "DCO_{observed}"
+      name: "observed_double_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "DCO_{expected}"
+      name: "expected_double_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["three_point_cross", "interference_calculation"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_COINCIDENCE"]
+
+- formula_id: "BIO_GEN_019"
+  name: "Interference"
+  latex: "I = 1 - C"
+  variables:
+    - symbol: "I"
+      name: "interference"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "coefficient_of_coincidence"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["three_point_cross", "coefficient_of_coincidence_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_INTERFERENCE"]
+
+- formula_id: "BIO_GEN_020"
+  name: "Chi-Square Test for Genetic Ratios"
+  latex: "\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}"
+  variables:
+    - symbol: "O_i"
+      name: "observed_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "E_i"
+      name: "expected_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["observed_and_expected_progeny_counts", "df_known"]
+  grade_range: ["class12", "neet", "undergraduate", "graduate"]
+  chapter: "Biostatistics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_CHISQUARE"]
+
+- formula_id: "BIO_GEN_021"
+  name: "Degrees of Freedom for Chi-Square"
+  latex: "df = n - 1"
+  variables:
+    - symbol: "df"
+      name: "degrees_of_freedom"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "n"
+      name: "number_of_phenotypic_classes"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["chi_square_goodness_of_fit"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Biostatistics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_CHISQUARE", "BIO_DF"]
+
+- formula_id: "BIO_GEN_022"
+  name: "Hardy-Weinberg inbreeding coefficient (F)"
+  latex: "F = \\frac{H_e - H_o}{H_e} = 1 - \\frac{H_o}{H_e}"
+  variables:
+    - symbol: "H_e"
+      name: "expected_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "H_o"
+      name: "observed_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["population_with_inbreeding", "heterozygosity_data"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_INBREEDING"]
+
+- formula_id: "BIO_GEN_023"
+  name: "Inbreeding Coefficient from Pedigree"
+  latex: "F_X = \\sum \\left(\\frac{1}{2}\\right)^{n_1+n_2+1}(1+F_A)"
+  variables:
+    - symbol: "F_X"
+      name: "inbreeding_coefficient_of_individual_X"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_1"
+      name: "generations_from_X_to_common_ancestor_via_mother"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "n_2"
+      name: "generations_from_X_to_common_ancestor_via_father"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "F_A"
+      name: "inbreeding_coefficient_of_common_ancestor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["known_pedigree", "common_ancestors_identified"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_INBREEDING", "BIO_PEDIGREE"]
+
+- formula_id: "BIO_GEN_024"
+  name: "Wright's F-Statistic F_ST"
+  latex: "F_{ST} = \\frac{H_T - H_S}{H_T}"
+  variables:
+    - symbol: "H_T"
+      name: "total_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "H_S"
+      name: "average_subpopulation_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["multiple_subpopulations", "allele_frequency_data"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_FST", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_025"
+  name: "Wright's F-Statistics Relationship"
+  latex: "F_{IT} = F_{IS} + F_{ST} - F_{IS} \\cdot F_{ST}"
+  variables:
+    - symbol: "F_{IT}"
+      name: "total_inbreeding_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "F_{IS}"
+      name: "inbreeding_within_subpopulation"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "F_{ST}"
+      name: "genetic_differentiation_among_subpopulations"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["hierarchical_population_structure"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_FSTAT"]
+
+- formula_id: "BIO_GEN_026"
+  name: "Gene Flow Effect on Allele Frequencies"
+  latex: "p_1' = (1 - m)p_1 + mp_2"
+  variables:
+    - symbol: "p_1'"
+      name: "new_allele_frequency_subpopulation_1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "m"
+      name: "migration_rate"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "proportion"
+    - symbol: "p_1"
+      name: "allele_frequency_subpopulation_1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "p_2"
+      name: "allele_frequency_subpopulation_2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["two_subpopulations", "migration_occurring"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_GENE_FLOW"]
+
+- formula_id: "BIO_GEN_027"
+  name: "Hardy-Weinberg Heterozygote Advantage (Overdominance)"
+  latex: "\\Delta p = \\frac{pq(wh - w\\bar{w})}{\\bar{w}}"
+  variables:
+    - symbol: "\\Delta p"
+      name: "change_in_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency_change"
+    - symbol: "wh"
+      name: "fitness_of_heterozygote"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "relative_fitness"
+    - symbol: "w"
+      name: "mean_population_fitness"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "relative_fitness"
+  preconditions: ["heterozygote_advantage", "selection_pressure"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_SELECTION", "BIO_HW"]
+
+- formula_id: "BIO_GEN_028"
+  name: "Mutation-Selection Balance (Recessive Lethal)"
+  latex: "q = \\sqrt{\\frac{\\mu}{s}}"
+  variables:
+    - symbol: "q"
+      name: "equilibrium_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "\\mu"
+      name: "mutation_rate"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "rate"
+    - symbol: "s"
+      name: "selection_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["mutation_selection_balance", "recessive_disease"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_MUTATION", "BIO_SELECTION"]
+
+- formula_id: "BIO_GEN_029"
+  name: "Backcross (BC1) Expected Ratio for Single Gene"
+  latex: "P(Aa \\times AaBC) = \\frac{1}{2} Aa : \\frac{1}{2} aa"
+  variables: []
+  preconditions: ["backcross_progeny", "single_locus"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Plant Breeding Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_BACKCROSS"]
+
+- formula_id: "BIO_GEN_030"
+  name: "Allele Frequency from Phenotype Count (Recessive)"
+  latex: "q = \\sqrt{\\frac{n_{rr}}{N}}"
+  variables:
+    - symbol: "q"
+      name: "recessive_allele_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "n_{rr}"
+      name: "count_of_recessive_phenotype"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "N"
+      name: "total_population"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["recessive_phenotype_visible", "large_sample", "hardy_weinberg"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HW", "BIO_ALLELE_FREQ"]
+
+- formula_id: "BIO_GEN_031"
+  name: "Codominance: Multiple Allele Genotype Frequencies (ABO)"
+  latex: "P(blood\_type\_A) = p^2 + 2pr, \\quad P(AB) = 2pq, \\quad P(B) = q^2 + 2qr"
+  variables:
+    - symbol: "p"
+      name: "I^A_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "q"
+      name: "I^B_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "r"
+      name: "i_frequency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["ABO_blood_group", "three_alleles", "hardy_weinberg"]
+  grade_range: ["class12", "undergraduate"]
+  chapter: "Non-Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_ABO", "BIO_MULTI_ALLELE"]
+
+- formula_id: "BIO_GEN_032"
+  name: "Penetrance and Expressivity Adjusted Phenotype Ratio"
+  latex: "P(phenotype) = P(genotype) \\times P(penetrance)"
+  variables:
+    - symbol: "P(penetrance)"
+      name: "penetrance"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["incomplete_penetrance", "known_genotype"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Non-Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_PENETRANCE"]
+
+- formula_id: "BIO_GEN_033"
+  name: "Genomic Imprinting: Parent-of-Origin Effect Probability"
+  latex: "P(phenotype|maternal\_allele) \\neq P(phenotype|paternal\_allele)"
+  variables: []
+  preconditions: ["imprinted_gene", "parental_origin_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Non-Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_IMPRINTING"]
+
+- formula_id: "BIO_GEN_034"
+  name: "Effective Population Size (Random Genetic Drift)"
+  latex: "N_e = \\frac{4N_m N_f}{N_m + N_f}"
+  variables:
+    - symbol: "N_m"
+      name: "breeding_males"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "N_f"
+      name: "breeding_females"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["sex_ratio_skewed", "random_mating"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_NE", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_035"
+  name: "Effective Population Size (Fluctuating Populations)"
+  latex: "N_e = \\frac{t}{\\sum_{i=1}^{t} \\frac{1}{N_i}}"
+  variables:
+    - symbol: "t"
+      name: "number_of_generations"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "N_i"
+      name: "population_size_in_generation_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["varying_population_sizes", "harmonic_mean"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_NE", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_036"
+  name: "Expected Heterozygosity Under Drift"
+  latex: "H_t = H_0 \\left(1 - \\frac{1}{2N_e}\\right)^t"
+  variables:
+    - symbol: "H_t"
+      name: "expected_heterozygosity_at_time_t"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "H_0"
+      name: "initial_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "N_e"
+      name: "effective_population_size"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "t"
+      name: "number_of_generations"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["genetic_drift", "finite_population"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_DRIFT", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_037"
+  name: "Mutation-Random Drift Equilibrium (Neutral Mutation)"
+  latex: "\\pi = 4N_e\\mu"
+  variables:
+    - symbol: "\\pi"
+      name: "average_nucleotide_diversity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "N_e"
+      name: "effective_population_size"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "\\mu"
+      name: "neutral_mutation_rate_per_generation"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "rate"
+  preconditions: ["neutral_evolution", "mutation_drift_equilibrium"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_MOL_EVO", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_038"
+  name: "Three-point Test Cross Gene Order Probability"
+  latex: "P(gene\_order) = \\frac{DCO + SCO_{outer} + SCO_{inner}}{T} \\times 100"
+  variables:
+    - symbol: "DCO"
+      name: "double_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "SCO_{outer}"
+      name: "outer_single_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "SCO_{inner}"
+      name: "inner_single_crossover_count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["three_point_linkage", "gene_order_determination"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Linkage and Crossing Over"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_THREE_POINT"]
+
+- formula_id: "BIO_GEN_039"
+  name: "Linkage Disequilibrium (D)"
+  latex: "D = P(AB) - p_A \\cdot p_B"
+  variables:
+    - symbol: "P(AB)"
+      name: "frequency_of_AB_haplotype"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "p_A"
+      name: "frequency_of_allele_A"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "p_B"
+      name: "frequency_of_allele_B"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["two_loci", "linkage_disequilibrium"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_LD", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_040"
+  name: "Normalized Linkage Disequilibrium (D')"
+  latex: "D' = \\frac{D}{D_{max}}"
+  variables:
+    - symbol: "D"
+      name: "linkage_disequilibrium"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "D_{max}"
+      name: "maximum_possible_D_given_allele_frequencies"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["linkage_disequilibrium_data", "allele_frequencies_known"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_LD", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_041"
+  name: "Chi-Square p-value Interpretation"
+  latex: "p > 0.05 \\Rightarrow \\text{accept } H_0 \\text{ (ratios fit expected)}; \\quad p < 0.05 \\Rightarrow \\text{reject } H_0"
+  variables:
+    - symbol: "p"
+      name: "p_value"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["chi_square_calculated", "df_known"]
+  grade_range: ["class12", "neet", "undergraduate", "graduate"]
+  chapter: "Biostatistics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_CHISQUARE", "BIO_PVALUE"]
+
+- formula_id: "BIO_GEN_042"
+  name: "Hardy-Weinberg Chi-Square Degrees of Freedom for Three Genotypes"
+  latex: "df = 3 - 1 - 1 = 1"
+  variables:
+    - symbol: "df"
+      name: "degrees_of_freedom"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["hardy_weinberg_chi_square", "p_estimated_from_data"]
+  grade_range: ["class12", "undergraduate"]
+  chapter: "Biostatistics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_CHISQUARE", "BIO_DF"]
+
+- formula_id: "BIO_GEN_043"
+  name: "LOD Score for Linkage Analysis"
+  latex: "LOD = \\log_{10}\\left(\\frac{L(\\theta = \\theta_0)}{L(\\theta = 0.5)}\\right)"
+  variables:
+    - symbol: "L"
+      name: "likelihood"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+    - symbol: "\\theta"
+      name: "recombination_fraction"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+  preconditions: ["linkage_analysis", "pedigree_data"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Linkage Analysis"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_LOD", "BIO_LINKAGE"]
+
+- formula_id: "BIO_GEN_044"
+  name: "Coefficient of Relationship (r)"
+  latex: "r_{AB} = \\sum \\left(\\frac{1}{2}\\right)^{n_1+n_2}"
+  variables:
+    - symbol: "r_{AB}"
+      name: "coefficient_of_relationship"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "n_1"
+      name: "generations_from_A_to_common_ancestor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+    - symbol: "n_2"
+      name: "generations_from_B_to_common_ancestor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["pedigree_analysis", "common_ancestors_identified"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Quantitative Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_PEDIGREE", "BIO_RELATIONSHIP"]
+
+- formula_id: "BIO_GEN_045"
+  name: "Coefficient of Inbreeding (F) for Offspring of Consanguineous Mating"
+  latex: "F = r_{father,mother} / 2"
+  variables:
+    - symbol: "F"
+      name: "inbreeding_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "r_{father,mother}"
+      name: "coefficient_of_relationship_between_parents"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["consanguineous_mating", "known_pedigree"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_INBREEDING", "BIO_CONSANGUINITY"]
+
+- formula_id: "BIO_GEN_046"
+  name: "Nei's Standard Genetic Distance"
+  latex: "D = -\\ln(J_{XY} / \\sqrt{J_X J_Y})"
+  variables:
+    - symbol: "J_{XY}"
+      name: "normalized_genetic_identity_between_X_and_Y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "J_X"
+      name: "homozygosity_of_population_X"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "J_Y"
+      name: "homozygosity_of_population_Y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["two_populations", "multiple_loci"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_GEN_DIST", "BIO_PHYLOGENETICS"]
+
+- formula_id: "BIO_GEN_047"
+  name: "Heterozygosity (Expected)"
+  latex: "H_e = 1 - \\sum_{i=1}^{k} p_i^2"
+  variables:
+    - symbol: "H_e"
+      name: "expected_heterozygosity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "p_i"
+      name: "frequency_of_i-th_allele"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "frequency"
+    - symbol: "k"
+      name: "number_of_alleles"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "count"
+  preconditions: ["multiple_alleles", "hardy_weinberg"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Population Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_HETEROZYGOSITY", "BIO_POP_GEN"]
+
+- formula_id: "BIO_GEN_048"
+  name: "Autosomal Dominant: Probability of Affected Offspring"
+  latex: "P(Aa \\times Aa \\to affected) = P(Aa \\times aa \\to affected) = \\frac{3}{4}"
+  variables: []
+  preconditions: ["autosomal_dominant", "at_least_one_affected_parent"]
+  grade_range: ["class12", "neet", "undergraduate"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_AUTO_DOM"]
+
+- formula_id: "BIO_GEN_049"
+  name: "Y-linked Inheritance (All Sons Affected)"
+  latex: "P(XY^D \\times XX \\to XY^D \\text{ son}) = 1"
+  variables: []
+  preconditions: ["y_linked_trait", "affected_father"]
+  grade_range: ["class12", "undergraduate"]
+  chapter: "Sex-linked Inheritance"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_YLINKED"]
+
+- formula_id: "BIO_GEN_050"
+  name: "Punnett Square Probability Product Rule"
+  latex: "P(A\_B\_) = P(A\_) \\times P(B\_) = \\frac{3}{4} \\times \\frac{3}{4} = \\frac{9}{16}"
+  variables:
+    - symbol: "P(A\_B\_)"
+      name: "probability_double_dominant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "probability"
+  preconditions: ["independent_assortment", "dihybrid_heterozygotes"]
+  grade_range: ["class10", "class12", "neet"]
+  chapter: "Mendelian Genetics"
+  subject: "biology"
+  concept_tags: ["BIO_GEN", "BIO_PUNNETT"]
+
+- formula_id: "BIO_PHYSIO_001"
+  name: "Cardiac Output (CO)"
+  latex: "CO = SV \\times HR"
+  variables:
+    - symbol: "CO"
+      name: "cardiac_output"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "SV"
+      name: "stroke_volume"
+      unit: "mL/beat"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "HR"
+      name: "heart_rate"
+      unit: "beats/min"
+      dimensional_formula: "[T]^{-1}"
+      quantity_type: "frequency"
+  preconditions: ["healthy_heart", "normal_rhythm"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO"]
+
+- formula_id: "BIO_PHYSIO_002"
+  name: "Stroke Volume (SV)"
+  latex: "SV = EDV - ESV"
+  variables:
+    - symbol: "SV"
+      name: "stroke_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "EDV"
+      name: "end_diastolic_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "ESV"
+      name: "end_systolic_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["normal_ventricular_function"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO"]
+
+- formula_id: "BIO_PHYSIO_003"
+  name: "Ejection Fraction (EF)"
+  latex: "EF = \\frac{SV}{EDV} \\times 100\\%"
+  variables:
+    - symbol: "EF"
+      name: "ejection_fraction"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+    - symbol: "SV"
+      name: "stroke_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "EDV"
+      name: "end_diastolic_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["normal_ventricular_function"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_EF"]
+
+- formula_id: "BIO_PHYSIO_004"
+  name: "Pulse Pressure (PP)"
+  latex: "PP = SBP - DBP"
+  variables:
+    - symbol: "PP"
+      name: "pulse_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "SBP"
+      name: "systolic_blood_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "DBP"
+      name: "diastolic_blood_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["arterial_blood_pressure_measured"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_BP"]
+
+- formula_id: "BIO_PHYSIO_005"
+  name: "Mean Arterial Pressure (MAP)"
+  latex: "MAP = DBP + \\frac{1}{3} PP = \\frac{SBP + 2DBP}{3}"
+  variables:
+    - symbol: "MAP"
+      name: "mean_arterial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "SBP"
+      name: "systolic_blood_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "DBP"
+      name: "diastolic_blood_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["blood_pressure_recorded"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_MAP"]
+
+- formula_id: "BIO_PHYSIO_006"
+  name: "Total Peripheral Resistance (TPR)"
+  latex: "TPR = \\frac{MAP}{CO}"
+  variables:
+    - symbol: "TPR"
+      name: "total_peripheral_resistance"
+      unit: "mmHg/(L/min)"
+      dimensional_formula: "[M][L]^{-4}[T]"
+      quantity_type: "resistance"
+    - symbol: "MAP"
+      name: "mean_arterial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "CO"
+      name: "cardiac_output"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+  preconditions: ["MAP_known", "CO_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_TPR"]
+
+- formula_id: "BIO_PHYSIO_007"
+  name: "Tidal Volume (VT)"
+  latex: "V_T = V_{E} / f"
+  variables:
+    - symbol: "V_T"
+      name: "tidal_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "V_E"
+      name: "minute_ventilation"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "f"
+      name: "respiratory_rate"
+      unit: "breaths/min"
+      dimensional_formula: "[T]^{-1}"
+      quantity_type: "frequency"
+  preconditions: ["normal_breathing", "resting_state"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP"]
+
+- formula_id: "BIO_PHYSIO_008"
+  name: "Vital Capacity (VC)"
+  latex: "VC = IRV + TV + ERV"
+  variables:
+    - symbol: "VC"
+      name: "vital_capacity"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "IRV"
+      name: "inspiratory_reserve_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "TV"
+      name: "tidal_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "ERV"
+      name: "expiratory_reserve_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["spirometry_measured", "full_effort"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_SPIROMETRY"]
+
+- formula_id: "BIO_PHYSIO_009"
+  name: "Total Lung Capacity (TLC)"
+  latex: "TLC = VC + RV = IRV + TV + ERV + RV"
+  variables:
+    symbol: "TLC"
+      name: "total_lung_capacity"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "VC"
+      name: "vital_capacity"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "RV"
+      name: "residual_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["spirometry_and_plethysmography"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_LUNG_VOL"]
+
+- formula_id: "BIO_PHYSIO_010"
+  name: "FEV1/FVC Ratio"
+  latex: "FEV_1/FVC = \\frac{\\text{volume_exhaled_in_1s}}{\\text{forced_vital_capacity}} \\times 100\\%"
+  variables:
+    - symbol: "FEV_1"
+      name: "forced_expiratory_volume_1s"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "FVC"
+      name: "forced_vital_capacity"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["spirometry_performed"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_FEV1_FVC"]
+
+- formula_id: "BIO_PHYSIO_011"
+  name: "Minute Ventilation (VE)"
+  latex: "\\dot{V}_E = V_T \\times f"
+  variables:
+    - symbol: "\\dot{V}_E"
+      name: "minute_ventilation"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "V_T"
+      name: "tidal_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "f"
+      name: "respiratory_frequency"
+      unit: "breaths/min"
+      dimensional_formula: "[T]^{-1}"
+      quantity_type: "frequency"
+  preconditions: ["tidal_volume_and_rate_known"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_VE"]
+
+- formula_id: "BIO_PHYSIO_012"
+  name: "Alveolar Ventilation (VA)"
+  latex: "\\dot{V}_A = (V_T - V_D) \\times f"
+  variables:
+    - symbol: "\\dot{V}_A"
+      name: "alveolar_ventilation"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "V_T"
+      name: "tidal_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "V_D"
+      name: "dead_space_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "f"
+      name: "respiratory_frequency"
+      unit: "breaths/min"
+      dimensional_formula: "[T]^{-1}"
+      quantity_type: "frequency"
+  preconditions: ["tidal_volume", "dead_space", "respiratory_rate_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_VA"]
+
+- formula_id: "BIO_PHYSIO_013"
+  name: "Alveolar Gas Equation"
+  latex: "P_{A\\text{O}_2} = F_{i\\text{O}_2}(P_B - P_{H\\text{2O}}) - \\frac{P_{a\\text{CO}_2}}{R}"
+  variables:
+    - symbol: "P_{A\\text{O}_2}"
+      name: "alveolar_oxygen_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "F_{i\\text{O}_2}"
+      name: "inspired_oxygen_fraction"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "fraction"
+    - symbol: "P_B"
+      name: "barometric_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_{H\\text{2O}}"
+      name: "water_vapor_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_{a\\text{CO}_2}"
+      name: "arterial_CO2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "R"
+      name: "respiratory_quotient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "ratio"
+  preconditions: ["barometric_pressure_known", "arterial_blood_gas_available"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_ALVEOLAR_GAS"]
+
+- formula_id: "BIO_PHYSIO_014"
+  name: "Alveolar-Arterial Oxygen Gradient (A-a Gradient)"
+  latex: "A-a \\text{ gradient} = P_{A\\text{O}_2} - P_{a\\text{O}_2}"
+  variables:
+    - symbol: "P_{A\\text{O}_2}"
+      name: "alveolar_O2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_{a\\text{O}_2}"
+      name: "arterial_O2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["ABG_results", "alveolar_calculation_done"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_AA_GRADIENT"]
+
+- formula_id: "BIO_PHYSIO_015"
+  name: "Bohr Equation for Dead Space"
+  latex: "\\frac{V_D}{V_T} = \\frac{P_{a\\text{CO}_2} - P_{E\\text{CO}_2}}{P_{a\\text{CO}_2}}"
+  variables:
+    - symbol: "V_D"
+      name: "dead_space_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "V_T"
+      name: "tidal_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "P_{a\\text{CO}_2}"
+      name: "arterial_CO2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_{E\\text{CO}_2}"
+      name: "mixed_expired_CO2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["capnography_data", "arterial_blood_gas"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_BOHR"]
+
+- formula_id: "BIO_PHYSIO_016"
+  name: "Fick's Law for Pulmonary Diffusion"
+  latex: "\\dot{V}_{gas} = \\frac{A \\cdot D \\cdot (P_1 - P_2)}{T}"
+  variables:
+    - symbol: "\\dot{V}_{gas}"
+      name: "gas_transfer_rate"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "A"
+      name: "surface_area"
+      unit: "m^2"
+      dimensional_formula: "[L]^2"
+      quantity_type: "area"
+    - symbol: "D"
+      name: "diffusion_coefficient"
+      unit: "mL/min/mmHg/m^2"
+      dimensional_formula: ""
+      quantity_type: "diffusion_coefficient"
+    - symbol: "P_1"
+      name: "partial_pressure_alveolar_side"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_2"
+      name: "partial_pressure_capillary_side"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "T"
+      name: "membrane_thickness"
+      unit: "cm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+  preconditions: ["diffusion_conditions_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Respiratory System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RESP", "BIO_FICK_DIFF"]
+
+- formula_id: "BIO_PHYSIO_017"
+  name: "Glomerular Filtration Rate (GFR)"
+  latex: "GFR = \\frac{U_{cr} \\times V}{P_{cr}}"
+  variables:
+    - symbol: "U_{cr}"
+      name: "urine_creatinine_concentration"
+      unit: "mg/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "V"
+      name: "urine_flow_rate"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P_{cr}"
+      name: "plasma_creatinine_concentration"
+      unit: "mg/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["24h_urine_collection", "plasma_sample"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_GFR"]
+
+- formula_id: "BIO_PHYSIO_018"
+  name: "Creatinine Clearance (CrCl)"
+  latex: "CrCl = \\frac{U_{cr} \\times V}{P_{cr}}"
+  variables:
+    - symbol: "U_{cr}"
+      name: "urine_creatinine_concentration"
+      unit: "mg/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "V"
+      name: "urine_volume_per_time"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P_{cr}"
+      name: "plasma_creatinine_concentration"
+      unit: "mg/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["timed_urine_collection"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_CRCL"]
+
+- formula_id: "BIO_PHYSIO_019"
+  name: "Filtration Fraction (FF)"
+  latex: "FF = \\frac{GFR}{RPF}"
+  variables:
+    - symbol: "FF"
+      name: "filtration_fraction"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "ratio"
+    - symbol: "GFR"
+      name: "glomerular_filtration_rate"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "RPF"
+      name: "renal_plasma_flow"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+  preconditions: ["GFR_and_RPF_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_FF"]
+
+- formula_id: "BIO_PHYSIO_020"
+  name: "Renal Plasma Flow (RPF) from PAH Clearance"
+  latex: "RPF = \\frac{U_{PAH} \\times V}{P_{PAH}}"
+  variables:
+    - symbol: "RPF"
+      name: "renal_plasma_flow"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "U_{PAH}"
+      name: "urine_PAH_concentration"
+      unit: "mg/mL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "V"
+      name: "urine_flow_rate"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P_{PAH}"
+      name: "plasma_PAH_concentration"
+      unit: "mg/mL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["PAH_infusion", "steady_state_achieved"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_RPF"]
+
+- formula_id: "BIO_PHYSIO_021"
+  name: "Renal Blood Flow (RBF)"
+  latex: "RBF = \\frac{RPF}{1 - Hct}"
+  variables:
+    - symbol: "RBF"
+      name: "renal_blood_flow"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "RPF"
+      name: "renal_plasma_flow"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "Hct"
+      name: "hematocrit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "fraction"
+  preconditions: ["RPF_known", "hematocrit_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_RBF"]
+
+- formula_id: "BIO_PHYSIO_022"
+  name: "Filtered Load"
+  latex: "FL = GFR \\times P_{substance}"
+  variables:
+    - symbol: "FL"
+      name: "filtered_load"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "GFR"
+      name: "glomerular_filtration_rate"
+      unit: "mL/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P_{substance}"
+      name: "plasma_concentration_of_substance"
+      unit: "mg/mL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["substance_freely_filtered"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_FILTERED_LOAD"]
+
+- formula_id: "BIO_PHYSIO_023"
+  name: "Tubular Reabsorption Rate"
+  latex: "TR = FL - Ex"
+  variables:
+    - symbol: "TR"
+      name: "tubular_reabsorption_rate"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "FL"
+      name: "filtered_load"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "Ex"
+      name: "excretion_rate"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+  preconditions: ["substance_filtered_and_reabsorbed"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_REABSORPTION"]
+
+- formula_id: "BIO_PHYSIO_024"
+  name: "Tubular Secretion Rate"
+  latex: "TS = Ex - FL"
+  variables:
+    - symbol: "TS"
+      name: "tubular_secretion_rate"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "Ex"
+      name: "excretion_rate"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "FL"
+      name: "filtered_load"
+      unit: "mg/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+  preconditions: ["substance_secreted_into_tubule"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Renal System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_RENAL", "BIO_SECRETION"]
+
+- formula_id: "BIO_PHYSIO_025"
+  name: "Fick Principle for Cardiac Output"
+  latex: "CO = \\frac{\\dot{V}_{O_2}}{C_{a\\text{O}_2} - C_{v\\text{O}_2}}"
+  variables:
+    - symbol: "CO"
+      name: "cardiac_output"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "\\dot{V}_{O_2}"
+      name: "oxygen_consumption_rate"
+      unit: "mL O_2/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "C_{a\\text{O}_2}"
+      name: "arterial_oxygen_content"
+      unit: "mL O_2/L blood"
+      dimensional_formula: "[M][L]^{-2}"
+      quantity_type: "concentration"
+    - symbol: "C_{v\\text{O}_2}"
+      name: "venous_oxygen_content"
+      unit: "mL O_2/L blood"
+      dimensional_formula: "[M][L]^{-2}"
+      quantity_type: "concentration"
+  preconditions: ["oxygen_consumption_measured", "arterial_and_venous_blood_gas"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_FICK"]
+
+- formula_id: "BIO_PHYSIO_026"
+  name: "Nernst Equation for Membrane Potential"
+  latex: "E_{ion} = \\frac{RT}{zF} \\ln\\frac{[ion]_{out}}{[ion]_{in}}"
+  variables:
+    - symbol: "E_{ion}"
+      name: "equilibrium_potential_for_ion"
+      unit: "mV"
+      dimensional_formula: "[M][L]^2[T]^{-3}[I]^{-1}"
+      quantity_type: "potential"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+      dimensional_formula: "[M][L]^2[T]^{-2}[\\Theta]^{-1}[mol]^{-1}"
+      quantity_type: "constant"
+    - symbol: "T"
+      name: "absolute_temperature"
+      unit: "K"
+      dimensional_formula: "[\\Theta]"
+      quantity_type: "temperature"
+    - symbol: "z"
+      name: "ion_valence"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "F"
+      name: "Faraday_constant"
+      unit: "C/mol"
+      dimensional_formula: "[I][T][mol]^{-1}"
+      quantity_type: "constant"
+    - symbol: "[ion]_{out}"
+      name: "extracellular_ion_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "[ion]_{in}"
+      name: "intracellular_ion_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["ion_concentrations_known", "temperature_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERNST", "BIO_MEMBRANE"]
+
+- formula_id: "BIO_PHYSIO_027"
+  name: "Goldman-Hodgkin-Katz (GHK) Voltage Equation"
+  latex: "V_m = \\frac{RT}{F} \\ln\\frac{P_{K}[K^+]_o + P_{Na}[Na^+]_o + P_{Cl}[Cl^-]_i}{P_{K}[K^+]_i + P_{Na}[Na^+]_i + P_{Cl}[Cl^-]_o}"
+  variables:
+    - symbol: "V_m"
+      name: "resting_membrane_potential"
+      unit: "mV"
+      dimensional_formula: "[M][L]^2[T]^{-3}[I]^{-1}"
+      quantity_type: "potential"
+    - symbol: "P_{K}"
+      name: "potassium_permeability"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "permeability"
+    - symbol: "P_{Na}"
+      name: "sodium_permeability"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "permeability"
+    - symbol: "P_{Cl}"
+      name: "chloride_permeability"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "permeability"
+  preconditions: ["ion_concentrations_and_permeabilities_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_GHK", "BIO_MEMBRANE"]
+
+- formula_id: "BIO_PHYSIO_028"
+  name: "Nernst Equation at 37C (Simplified)"
+  latex: "E_{ion} = \\frac{61.5}{z} \\log_{10}\\frac{[ion]_{out}}{[ion]_{in}}"
+  variables:
+    - symbol: "E_{ion}"
+      name: "equilibrium_potential_mV"
+      unit: "mV"
+      dimensional_formula: ""
+      quantity_type: "potential"
+    - symbol: "z"
+      name: "ion_valence"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["body_temperature_37C"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERNST"]
+
+- formula_id: "BIO_PHYSIO_029"
+  name: "Action Potential Threshold"
+  latex: "V_{threshold} \\approx -55 \\text{ mV}"
+  variables:
+    - symbol: "V_{threshold}"
+      name: "threshold_potential"
+      unit: "mV"
+      dimensional_formula: ""
+      quantity_type: "potential"
+  preconditions: ["typical_neuronal_membrane"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERVOUS", "BIO_AP"]
+
+- formula_id: "BIO_PHYSIO_030"
+  name: "Length Constant (Membrane Passive Spread)"
+  latex: "\\lambda = \\sqrt{\\frac{r_m}{r_i}}"
+  variables:
+    - symbol: "\\lambda"
+      name: "length_constant"
+      unit: "mm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+    - symbol: "r_m"
+      name: "membrane_resistance_per_unit_length"
+      unit: "\\Omega \\cdot cm"
+      dimensional_formula: "[M][L]^3[T]^{-3}[I]^{-2}"
+      quantity_type: "resistance"
+    - symbol: "r_i"
+      name: "internal_axial_resistance_per_unit_length"
+      unit: "\\Omega/cm"
+      dimensional_formula: "[M][L][T]^{-3}[I]^{-2}"
+      quantity_type: "resistance"
+  preconditions: ["passive_membrane_properties_known"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERVOUS", "BIO_CABLE"]
+
+- formula_id: "BIO_PHYSIO_031"
+  name: "Membrane Time Constant"
+  latex: "\\tau_m = r_m \\cdot c_m"
+  variables:
+    - symbol: "\\tau_m"
+      name: "membrane_time_constant"
+      unit: "ms"
+      dimensional_formula: "[T]"
+      quantity_type: "time"
+    - symbol: "r_m"
+      name: "membrane_resistance"
+      unit: "\\Omega \\cdot cm^2"
+      dimensional_formula: "[M][L]^2[T]^{-3}[I]^{-2}"
+      quantity_type: "resistance"
+    - symbol: "c_m"
+      name: "membrane_capacitance_per_unit_area"
+      unit: "\\mu F/cm^2"
+      dimensional_formula: "[M]^{-1}[L]^{-2}[T]^4[I]^2"
+      quantity_type: "capacitance"
+  preconditions: ["membrane_properties_known"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERVOUS", "BIO_TAU"]
+
+- formula_id: "BIO_PHYSIO_032"
+  name: "Cable Equation (Passive Spread)"
+  latex: "\\tau_m \\frac{\\partial V}{\\partial t} = \\lambda^2 \\frac{\\partial^2 V}{\\partial x^2} - V + r_m I_{ext}"
+  variables:
+    - symbol: "\\tau_m"
+      name: "membrane_time_constant"
+      unit: "ms"
+      dimensional_formula: "[T]"
+      quantity_type: "time"
+    - symbol: "\\lambda"
+      name: "length_constant"
+      unit: "mm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+    - symbol: "V"
+      name: "membrane_potential"
+      unit: "mV"
+      dimensional_formula: ""
+      quantity_type: "potential"
+  preconditions: ["passive_electrotonic_spread"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Nervous System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_NERVOUS", "BIO_CABLE_EQ"]
+
+- formula_id: "BIO_PHYSIO_033"
+  name: "Hormone Concentration (plasma)"
+  latex: "C = \\frac{n}{V_{plasma}}"
+  variables:
+    - symbol: "C"
+      name: "hormone_concentration"
+      unit: "ng/mL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "n"
+      name: "amount_of_hormone"
+      unit: "ng"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "V_{plasma}"
+      name: "plasma_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["hormone_amount_and_plasma_volume_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Endocrine System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_ENDOCRINE"]
+
+- formula_id: "BIO_PHYSIO_034"
+  name: "Receptor-Ligand Dissociation Constant (Kd)"
+  latex: "K_d = \\frac{[R][L]}{[RL]}"
+  variables:
+    - symbol: "K_d"
+      name: "dissociation_constant"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "[R]"
+      name: "free_receptor_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "[L]"
+      name: "free_ligand_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "[RL]"
+      name: "receptor_ligand_complex_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["receptor_ligand_binding_equilibrium"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Endocrine System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_ENDOCRINE", "BIO_KINETICS"]
+
+- formula_id: "BIO_PHYSIO_035"
+  name: "Maximum Binding Capacity (Bmax)"
+  latex: "B_{max} = [R]_{total}"
+  variables:
+    - symbol: "B_{max}"
+      name: "maximum_binding_capacity"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "[R]_{total}"
+      name: "total_receptor_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["receptor_ligand_saturation"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Endocrine System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_ENDOCRINE", "BIO_BMAX"]
+
+- formula_id: "BIO_PHYSIO_036"
+  name: "Hill Equation for Cooperative Binding"
+  latex: "Y = \\frac{[L]^n}{K_d^n + [L]^n}"
+  variables:
+    - symbol: "Y"
+      name: "fractional_saturation"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "proportion"
+    - symbol: "[L]"
+      name: "ligand_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "K_d"
+      name: "dissociation_constant"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "n"
+      name: "Hill_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["cooperative_binding", "multiple_binding_sites"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Endocrine System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_ENDOCRINE", "BIO_HILL"]
+
+- formula_id: "BIO_PHYSIO_037"
+  name: "Basal Metabolic Rate (Harris-Benedict Male)"
+  latex: "BMR = 88.362 + (13.397 \\times W) + (4.799 \\times H) - (5.677 \\times A)"
+  variables:
+    - symbol: "BMR"
+      name: "basal_metabolic_rate"
+      unit: "kcal/day"
+      dimensional_formula: "[M][L]^2[T]^{-2}[T]^{-1}"
+      quantity_type: "power"
+    - symbol: "W"
+      name: "weight"
+      unit: "kg"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "H"
+      name: "height"
+      unit: "cm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+    - symbol: "A"
+      name: "age"
+      unit: "years"
+      dimensional_formula: "[T]"
+      quantity_type: "time"
+  preconditions: ["male", "fasted", "thermoneutral", "resting"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Digestive System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_METABOLISM", "BIO_BMR"]
+
+- formula_id: "BIO_PHYSIO_038"
+  name: "Basal Metabolic Rate (Harris-Benedict Female)"
+  latex: "BMR = 447.593 + (9.247 \\times W) + (3.098 \\times H) - (4.330 \\times A)"
+  variables:
+    - symbol: "BMR"
+      name: "basal_metabolic_rate"
+      unit: "kcal/day"
+      dimensional_formula: "[M][L]^2[T]^{-2}[T]^{-1}"
+      quantity_type: "power"
+    - symbol: "W"
+      name: "weight_kg"
+      unit: "kg"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "H"
+      name: "height_cm"
+      unit: "cm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+    - symbol: "A"
+      name: "age_years"
+      unit: "years"
+      dimensional_formula: "[T]"
+      quantity_type: "time"
+  preconditions: ["female", "fasted", "thermoneutral", "resting"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Digestive System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_METABOLISM", "BIO_BMR"]
+
+- formula_id: "BIO_PHYSIO_039"
+  name: "Body Mass Index (BMI)"
+  latex: "BMI = \\frac{W}{H^2}"
+  variables:
+    - symbol: "W"
+      name: "body_weight"
+      unit: "kg"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "H"
+      name: "height"
+      unit: "m"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+  preconditions: ["adult_human"]
+  grade_range: ["class7", "class10", "class12", "undergraduate"]
+  chapter: "Digestive System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BMI", "BIO_NUTRITION"]
+
+- formula_id: "BIO_PHYSIO_040"
+  name: "Body Surface Area (Mosteller Formula)"
+  latex: "BSA = \\sqrt{\\frac{W(\\text{kg}) \\times H(\\text{cm})}{3600}}"
+  variables:
+    - symbol: "BSA"
+      name: "body_surface_area"
+      unit: "m^2"
+      dimensional_formula: "[L]^2"
+      quantity_type: "area"
+    - symbol: "W"
+      name: "weight"
+      unit: "kg"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "H"
+      name: "height"
+      unit: "cm"
+      dimensional_formula: "[L]"
+      quantity_type: "length"
+  preconditions: ["weight_and_height_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Digestive System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BSA", "BIO_NUTRITION"]
+
+- formula_id: "BIO_PHYSIO_041"
+  name: "Hematocrit (Hct)"
+  latex: "Hct = \\frac{V_{RBC}}{V_{blood}} \\times 100\\%"
+  variables:
+    - symbol: "Hct"
+      name: "hematocrit"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+    - symbol: "V_{RBC}"
+      name: "volume_of_red_blood_cells"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+    - symbol: "V_{blood}"
+      name: "total_blood_volume"
+      unit: "mL"
+      dimensional_formula: "[L]"
+      quantity_type: "volume"
+  preconditions: ["blood_sample", "centrifugation"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_HCT"]
+
+- formula_id: "BIO_PHYSIO_042"
+  name: "Mean Corpuscular Volume (MCV)"
+  latex: "MCV = \\frac{Hct}{RBC} \\times 10"
+  variables:
+    - symbol: "MCV"
+      name: "mean_corpuscular_volume"
+      unit: "fL"
+      dimensional_formula: "[L]^3"
+      quantity_type: "volume"
+    - symbol: "Hct"
+      name: "hematocrit"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+    - symbol: "RBC"
+      name: "red_blood_cell_count"
+      unit: "10^6/\\mu L"
+      dimensional_formula: "[L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["CBC_results_available"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_MCV"]
+
+- formula_id: "BIO_PHYSIO_043"
+  name: "Mean Corpuscular Hemoglobin (MCH)"
+  latex: "MCH = \\frac{Hb}{RBC} \\times 10"
+  variables:
+    - symbol: "MCH"
+      name: "mean_corpuscular_hemoglobin"
+      unit: "pg"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "Hb"
+      name: "hemoglobin_concentration"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "RBC"
+      name: "red_blood_cell_count"
+      unit: "10^6/\\mu L"
+      dimensional_formula: "[L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["CBC_results"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_MCH"]
+
+- formula_id: "BIO_PHYSIO_044"
+  name: "Mean Corpuscular Hemoglobin Concentration (MCHC)"
+  latex: "MCHC = \\frac{Hb}{Hct} \\times 100"
+  variables:
+    - symbol: "MCHC"
+      name: "mean_corpuscular_hemoglobin_concentration"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "Hb"
+      name: "hemoglobin_concentration"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "Hct"
+      name: "hematocrit"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+  preconditions: ["CBC_results"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_MCHC"]
+
+- formula_id: "BIO_PHYSIO_045"
+  name: "Blood Oxygen Content (CaO2)"
+  latex: "C_{a\\text{O}_2} = (1.34 \\times Hb \\times SaO_2) + (0.003 \\times PaO_2)"
+  variables:
+    - symbol: "C_{a\\text{O}_2}"
+      name: "arterial_oxygen_content"
+      unit: "mL O_2/dL"
+      dimensional_formula: "[M][L]^{-2}"
+      quantity_type: "concentration"
+    - symbol: "Hb"
+      name: "hemoglobin_concentration"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "SaO_2"
+      name: "arterial_oxygen_saturation"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "proportion"
+    - symbol: "PaO_2"
+      name: "arterial_O2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["ABG", "hemoglobin_measured"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_O2_CONTENT"]
+
+- formula_id: "BIO_PHYSIO_046"
+  name: "Oxygen Saturation (SaO2)"
+  latex: "SaO_2 = \\frac{O_2Hb}{Hb_{total}}"
+  variables:
+    - symbol: "SaO_2"
+      name: "oxygen_saturation"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+    - symbol: "O_2Hb"
+      name: "oxygenated_hemoglobin"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "Hb_{total}"
+      name: "total_hemoglobin"
+      unit: "g/dL"
+      dimensional_formula: "[M][L]^{-3}"
+      quantity_type: "concentration"
+  preconditions: ["cooximetry_or_pulse_oximetry"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_SATO2"]
+
+- formula_id: "BIO_PHYSIO_047"
+  name: "Oxygen-Hemoglobin Dissociation (Hill Equation)"
+  latex: "SaO_2 = \\frac{P_{a\\text{O}_2}^{2.7}}{P_{50}^{2.7} + P_{a\\text{O}_2}^{2.7}}"
+  variables:
+    - symbol: "SaO_2"
+      name: "oxygen_saturation"
+      unit: "%"
+      dimensional_formula: ""
+      quantity_type: "percentage"
+    - symbol: "P_{a\\text{O}_2}"
+      name: "arterial_O2_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "P_{50}"
+      name: "PO2_at_50percent_saturation"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["oxygen_dissociation_data"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_O2_HB_DISSOC"]
+
+- formula_id: "BIO_PHYSIO_048"
+  name: "P50 (PO2 at 50% Saturation)"
+  latex: "P_{50} = 26.7 \\text{ mmHg (normal)}"
+  variables:
+    - symbol: "P_{50}"
+      name: "P50_oxygen_partial_pressure"
+      unit: "mmHg"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["oxygen_dissociation_curve"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_P50"]
+
+- formula_id: "BIO_PHYSIO_049"
+  name: "Bohr Effect: O2 Affinity Shift"
+  latex: "\\Delta \\log(P_{50}) = \\alpha \\times \\Delta pH + \\beta \\times \\Delta [CO_2]"
+  variables:
+    - symbol: "\\Delta \\log(P_{50})"
+      name: "change_in_P50_log"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "\\Delta pH"
+      name: "change_in_pH"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+  preconditions: ["acid-base_changes", "oxygen_dissociation"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Blood"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_BLOOD", "BIO_BOHR"]
+
+- formula_id: "BIO_PHYSIO_050"
+  name: "Oxygen Delivery to Tissues (DO2)"
+  latex: "DO_2 = CO \\times CaO_2 \\times 10"
+  variables:
+    - symbol: "DO_2"
+      name: "oxygen_delivery"
+      unit: "mL O_2/min"
+      dimensional_formula: "[M][T]^{-1}"
+      quantity_type: "mass_flow"
+    - symbol: "CO"
+      name: "cardiac_output"
+      unit: "L/min"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "CaO_2"
+      name: "arterial_oxygen_content"
+      unit: "mL O_2/dL"
+      dimensional_formula: "[M][L]^{-2}"
+      quantity_type: "concentration"
+  preconditions: ["CO_and_CaO2_measured"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Cardiovascular System"
+  subject: "biology"
+  concept_tags: ["BIO_PHYSIO", "BIO_CARDIO", "BIO_O2_DELIVERY"]
+
+- formula_id: "BIO_PHYTO_001"
+  name: "Water Potential (Ψ)"
+  latex: "\\Psi = \\Psi_s + \\Psi_p + \\Psi_g + \\Psi_m"
+  variables:
+    - symbol: "\\Psi"
+      name: "total_water_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "\\Psi_s"
+      name: "solute_osmotic_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "\\Psi_p"
+      name: "pressure_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "\\Psi_g"
+      name: "gravitational_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "\\Psi_m"
+      name: "matric_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["plant_cell_or_tissue", "water_movement_context"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Water Relations"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_WATER_POT"]
+
+- formula_id: "BIO_PHYTO_002"
+  name: "Solute Potential (Ψs)"
+  latex: "\\Psi_s = -iCRT"
+  variables:
+    - symbol: "\\Psi_s"
+      name: "solute_potential"
+      unit: "MPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "i"
+      name: "ionization_constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "C"
+      name: "molar_concentration"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "J/(mol K)"
+      dimensional_formula: "[M][L]^2[T]^{-2}[\\Theta]^{-1}[mol]^{-1}"
+      quantity_type: "constant"
+    - symbol: "T"
+      name: "absolute_temperature"
+      unit: "K"
+      dimensional_formula: "[\\Theta]"
+      quantity_type: "temperature"
+  preconditions: ["solution_properties_known"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Water Relations"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_PSI_S"]
+
+- formula_id: "BIO_PHYTO_003"
+  name: "Osmotic Pressure (π)"
+  latex: "\\pi = iMRT"
+  variables:
+    - symbol: "\\pi"
+      name: "osmotic_pressure"
+      unit: "atm"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "i"
+      name: "van't_Hoff_factor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "dimensionless"
+    - symbol: "M"
+      name: "molarity"
+      unit: "mol/L"
+      dimensional_formula: "[mol][L]^{-3}"
+      quantity_type: "concentration"
+    - symbol: "R"
+      name: "gas_constant"
+      unit: "L atm/(mol K)"
+      dimensional_formula: "[M][L]^2[T]^{-2}[\\Theta]^{-1}[mol]^{-1}"
+      quantity_type: "constant"
+    - symbol: "T"
+      name: "absolute_temperature"
+      unit: "K"
+      dimensional_formula: "[\\Theta]"
+      quantity_type: "temperature"
+  preconditions: ["solution_at_equilibrium"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Water Relations"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_OSMOTIC_PRESSURE"]
+
+- formula_id: "BIO_PHYTO_004"
+  name: "Relative Water Content (RWC)"
+  latex: "RWC = \\frac{FW - DW}{TW - DW} \\times 100\\%"
+  variables:
+    - symbol: "FW"
+      name: "fresh_weight"
+      unit: "g"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "DW"
+      name: "dry_weight"
+      unit: "g"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+    - symbol: "TW"
+      name: "turgid_weight"
+      unit: "g"
+      dimensional_formula: "[M]"
+      quantity_type: "mass"
+  preconditions: ["leaf_sample", "turgid_and_dry_weights_measured"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Water Relations"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_RWC"]
+
+- formula_id: "BIO_PHYTO_005"
+  name: "Stomatal Conductance (gs)"
+  latex: "g_s = \\frac{E}{VPD}"
+  variables:
+    - symbol: "g_s"
+      name: "stomatal_conductance"
+      unit: "mol H2O/(m^2 s)"
+      dimensional_formula: "[M][L]^{-2}[T]^{-1}"
+      quantity_type: "conductance"
+    - symbol: "E"
+      name: "transpiration_rate"
+      unit: "mmol H2O/(m^2 s)"
+      dimensional_formula: "[M][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "VPD"
+      name: "vapor_pressure_deficit"
+      unit: "kPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["leaf_gas_exchange_measured"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Stomatal Physiology"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_GS", "BIO_STOMATA"]
+
+- formula_id: "BIO_PHYTO_006"
+  name: "Transpiration Rate (E)"
+  latex: "E = g_s \\times VPD"
+  variables:
+    - symbol: "E"
+      name: "transpiration_rate"
+      unit: "mmol/(m^2 s)"
+      dimensional_formula: "[M][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "g_s"
+      name: "stomatal_conductance"
+      unit: "mol/(m^2 s)"
+      dimensional_formula: "[M][L]^{-2}[T]^{-1}"
+      quantity_type: "conductance"
+    - symbol: "VPD"
+      name: "vapor_pressure_deficit"
+      unit: "kPa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+  preconditions: ["stomatal_conductance_known", "VPD_known"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Transpiration"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_TRANSPIRATION"]
+
+- formula_id: "BIO_PHYTO_007"
+  name: "Guttation Rate"
+  latex: "\\dot{V}_{guttation} = P_r - E_{transpiration}"
+  variables:
+    - symbol: "\\dot{V}_{guttation}"
+      name: "guttation_rate"
+      unit: "mL/h"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P_r"
+      name: "root_pressure"
+      unit: "atm"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "E_{transpiration}"
+      name: "transpiration_rate"
+      unit: "mL/h"
+      dimensional_formula: "[L][T]^{-1}"
+      quantity_type: "flow_rate"
+  preconditions: ["root_pressure_active", "high_humidity"]
+  grade_range: ["class11", "class12"]
+  chapter: "Transpiration"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_GUTTATION"]
+
+- formula_id: "BIO_PHYTO_008"
+  name: "Photosynthetic Light Reaction Efficiency"
+  latex: "\\eta_{light} = \\frac{O_2 \\text{ evolved}}{\\text{photons_absorbed}}"
+  variables:
+    - symbol: "\\eta_{light}"
+      name: "light_reaction_efficiency"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "quantum_yield"
+    - symbol: "O_2 \\text{ evolved}"
+      name: "oxygen_molecules_produced"
+      unit: "mol"
+      dimensional_formula: "[mol]"
+      quantity_type: "amount"
+  preconditions: ["oxygen_electrode_measurement"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Photosynthesis"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_PHOTOSYNTHESIS", "BIO_EFFICIENCY"]
+
+- formula_id: "BIO_PHYTO_009"
+  name: "Net Photosynthetic Rate (Pn)"
+  latex: "P_n = P_g - R_d"
+  variables:
+    - symbol: "P_n"
+      name: "net_photosynthetic_rate"
+      unit: "\\mu mol CO_2/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "P_g"
+      name: "gross_photosynthetic_rate"
+      unit: "\\mu mol CO_2/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "R_d"
+      name: "dark_respiration_rate"
+      unit: "\\mu mol CO_2/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+  preconditions: ["infrared_gas_analyzer", "dark_respiration_measured"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Photosynthesis"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_PHOTOSYNTHESIS", "BIO_PN"]
+
+- formula_id: "BIO_PHYTO_010"
+  name: "Maximum Theoretical Photosynthetic Rate (PAR-limited)"
+  latex: "P_{max} = \\Phi_{PSII} \\times I_{PAR} \\times 0.5"
+  variables:
+    - symbol: "P_{max}"
+      name: "maximum_gross_photosynthesis"
+      unit: "\\mu mol CO_2/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "\\Phi_{PSII}"
+      name: "quantum_yield_PSII"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "proportion"
+    - symbol: "I_{PAR}"
+      name: "photosynthetically_active_radiation"
+      unit: "\\mu mol photons/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+  preconditions: ["PAR_measured", "PSII_quantum_yield_known"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Photosynthesis"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_PHOTOSYNTHESIS", "BIO_PMAX"]
+
+- formula_id: "BIO_PHYTO_011"
+  name: "Water Use Efficiency (WUE)"
+  latex: "WUE = \\frac{P_n}{E}"
+  variables:
+    - symbol: "WUE"
+      name: "water_use_efficiency"
+      unit: "\\mu mol CO_2/(mol H_2O)"
+      dimensional_formula: ""
+      quantity_type: "ratio"
+    - symbol: "P_n"
+      name: "net_photosynthetic_rate"
+      unit: "\\mu mol CO_2/(m^2 s)"
+      dimensional_formula: "[mol][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+    - symbol: "E"
+      name: "transpiration_rate"
+      unit: "mmol H_2O/(m^2 s)"
+      dimensional_formula: "[M][L]^{-2}[T]^{-1}"
+      quantity_type: "flux"
+  preconditions: ["leaf_gas_exchange_measured"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Photosynthesis"
+  subject: "biology"
+  concept_tags: ["BIO_PHYTO", "BIO_PHOTOSYNTHESIS", "BIO_WUE"]
+
+- formula_id: "BIO_PHYTO_012"
+  name: "Pressure Flow Hypothesis (Mass Flow Rate)"
+  latex: "F = -P \\cdot L_p \\cdot A"
+  variables:
+    - symbol: "F"
+      name: "mass_flow_rate"
+      unit: "m^3/s"
+      dimensional_formula: "[L]^3[T]^{-1}"
+      quantity_type: "flow_rate"
+    - symbol: "P"
+      name: "hydrostatic_pressure_gradient"
+      unit: "Pa"
+      dimensional_formula: "[M][L]^{-1}[T]^{-2}"
+      quantity_type: "pressure"
+    - symbol: "L_p"
+      name: "hydraulic_conductivity"
+      unit: "m^2 s/Pa"
+      dimensional_formula: "[L]^2[T][M]^{-1}[L]^2[T]^2"
+      quantity_type: "conductance"
+    - symbol: "A"
+      name: "cross_sectional_area"
+      unit: "m^2"
+      dimensional

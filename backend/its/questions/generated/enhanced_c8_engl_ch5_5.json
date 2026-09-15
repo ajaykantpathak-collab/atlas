@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_5",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_5",
+   "title": "c8_engl_ch5_5",
+   "questions": [
+    {
+     "q": "What is the primary defining characteristic of the science fiction genre?\nA. Stories about historical figures set in ancient kingdoms.\nB. Stories featuring magical creatures, talking trees, and spells.\nC. Stories based on imaginative but scientifically plausible technology, space exploration, or future settings.\nD. Non-fictional biographies written by modern scientists.",
+     "a": "Correct Answer: C\nExplanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings. A student choosing B confuses science fiction with fantasy, which relies on magic rather than science.",
+     "self_check": true
+    },
+    {
+     "q": "In Arthur C. Clarke's narrative set on a space station, how does the zero-gravity environment affect the behavior of Claribel the canary compared to a bird on Earth?\nA. Claribel flies faster because there is no atmospheric air resistance in space.\nB. Claribel hangs upside down in mid-air with her feet pulled up, floating comfortably without needing to flap her wings constantly.\nC. Claribel refuses to fly because birds cannot breathe in weightless conditions.\nD. Claribel grows much larger in size due to the lack of downward gravitational force.",
+     "a": "Correct Answer: B\nExplanation: In zero gravity, a bird can float and hover without fighting the constant downward pull of Earth's gravity, allowing Claribel to rest motionless in mid-air. Option A is incorrect because air exists inside the pressurized space station; option C is scientifically wrong since pressurized stations provide oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The story *Feathered Friend* is just a lighthearted comedy about a pet bird, so the space station setting does not really matter to the plot.\" How should this interpretation be corrected using sci-fi genre analysis?\nA. The setting matters because without space weapons, science fiction cannot exist.\nB. The setting is crucial because zero gravity and the closed life-support system of the space station directly cause the main crisis—an oxygen leak that only the bird detects.\nC. The setting does not matter because the exact same event could happen in an ordinary village house with a chimney.\nD. The setting is only used to show off futuristic computer graphics and laser equipment.",
+     "a": "Correct Answer: B\nExplanation: In science fiction, setting is an active force. The sealed atmosphere of a space station in zero gravity creates the unique danger of oxygen failure, making the setting indispensable to the plot. Option C fails to recognize that Earth houses have free atmospheric air exchange, unlike sealed space habitats.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following scene description: *\"Sven operated his welding torch while floating strapped to his workspace, catching loose metal filings with a portable suction hose before they drifted into the intake vents.\"* Which two science fiction details are highlighted here?\nA. Alien encounters and time travel portals.\nB. Zero gravity requiring tethering/strapping and air-flow management to prevent floating debris damage.\nC. Magical levitation and telepathic machine control.\nD. Atmospheric pressure decay and deep-sea diving gear.",
+     "a": "Correct Answer: B\nExplanation: The passage highlights physical adaptation to zero gravity (strapping oneself down) and environmental safety in weightlessness (preventing floating filings from clogging air vents). Option C incorrectly identifies physical sci-fi features as magic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate why Arthur C. Clarke chose a canary—a traditional mining symbol—for a futuristic space station setting instead of a high-tech electronic sensor.\nA. Space stations in science fiction are forbidden from using electronic sensors due to cosmic rays.\nB. It contrasts human over-reliance on complex technology with simple biological indicators, showing that human/animal nature remains vital even in high-tech futures.\nC. Canaries generate artificial gravity whenever they sing in a space habitat.\nD. Electronic equipment was completely unknown when modern science fiction was written.",
+     "a": "Correct Answer: B\nExplanation: Clarke uses a classic miner's sentinel (a canary) in a futuristic setting to create a thematic parallel: despite advanced engineering, living organisms remain exquisitely sensitive to ecological hazards. Option A is factually untrue, and Option C invents fantasy mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short 2-sentence science fiction scenario that uses zero gravity to create a problem for an astronaut performing an everyday task.",
+     "a": "Expected Answer: The narrative should explicitly describe an ordinary task disrupted by weightlessness (e.g., \"Rohan tried to squeeze toothpaste onto his brush, but the blue gel broke into small floating spheres that drifted toward the computer console. As he scrambled to catch them, his sudden push launched him backward across the control room.\").\nExplanation: A weak answer will include non-scientific elements like magic spells or ignore the physical behavior of unanchored objects in weightlessness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

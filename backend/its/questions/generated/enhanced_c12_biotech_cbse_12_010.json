@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_010",
+   "title": "c12_biotech_cbse_12_010",
+   "questions": [
+    {
+     "q": "Name two Indian biotechnology companies that successfully commercialized recombinant therapeutic proteins, and state the first product each company brought to market.",
+     "a": "Biocon (recombinant human insulin, 2004) and Shantha Biotechnics (recombinant hepatitis B vaccine Shanvac-B, 1997). A wrong answer — such as naming only vaccine companies or confusing generic pharma with biotech — reveals the student cannot distinguish biotechnology (living systems, recombinant DNA) from traditional chemical synthesis pharmaceuticals, a fundamental classification error that costs marks in both board and NEET biotechnology questions.",
+     "self_check": true
+    },
+    {
+     "q": "Biocon's recombinant human insulin (Insugen) received marketing approval in India in 2004. Explain why Biocon had to conduct clinical trials in India even though human insulin was already approved and marketed globally for over 20 years.",
+     "a": "Because biosimilars (unlike chemical generics) are not identical copies — they are highly similar but derived from different cell lines and manufacturing processes, requiring demonstration of comparable safety, efficacy, and immunogenicity in the local population per DCGI/CDSCO guidelines. A student who answers \"because Indian law requires local trials for all drugs\" misses the crucial distinction between small-molecule generics (bioequivalence only) and biosimilars (comparability exercise), a concept tested in NEET Biotechnology and board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Serum Institute of India (SII) became the world's largest vaccine manufacturer by doses. In 2020, SII partnered with AstraZeneca/Oxford to manufacture Covishield (ChAdOx1 nCoV-19). Identify the THREE most critical pre-existing capabilities SII leveraged to scale from zero to 100+ million doses/month within 6 months.",
+     "a": "(1) Existing large-scale mammalian cell culture infrastructure (bioreactors, perfusion systems) built for other viral vaccines; (2) Established cold-chain logistics and fill-finish capacity across multiple sites; (3) Pre-qualified WHO GMP facilities and regulatory track record enabling emergency use authorization speed. A student listing only \"funding\" or \"government support\" fails to recognize that manufacturing biologics at pandemic scale requires decade-long capital investment in specialized infrastructure — a key insight for JEE-style application questions on bioprocess scale-up.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the IP strategy of Genentech (founded 1976, first recombinant human insulin 1982) with Biocon (founded 1978, first recombinant insulin 2004). How did the difference in patent landscape timing shape their respective business models?",
+     "a": "Genentech pioneered foundational rDNA patents (Cohen-Boyer, Goeddel insulin patents) enabling a first-mover innovator model with exclusive licensing and premium pricing. Biocon entered post-patent-expiry era, adopting a biosimilar/follow-on strategy: reverse-engineering processes, building cost-efficient manufacturing, and competing on price/access in emerging markets. A student who says \"both did the same thing\" ignores how IP regime maturity dictates whether a biotech plays as innovator (high R&D, high margin) or biosimilar (process innovation, volume margin) — a strategic distinction central to CBSE entrepreneurship case analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Bharat Biotech's Covaxin (inactivated whole-virion vaccine) succeeded because it used older, proven technology, while mRNA vaccines were too risky for India.\" Defend or critique with evidence from regulatory, manufacturing, and public health perspectives.",
+     "a": "Critique: The statement oversimplifies. Covaxin's inactivated platform *did* leverage Bharat Biotech's existing Vero cell platform (from Japanese encephalitis, rabies vaccines) enabling faster tech transfer. However, mRNA was not \"too risky\" — India lacked lipid nanoparticle (LNP) manufacturing capacity and -70°C cold chain at scale in 2020. Covaxin's 2-8°C stability was a *strategic fit* for India's infrastructure, not proof of technological inferiority of mRNA. A student agreeing without nuance fails to distinguish platform risk from ecosystem readiness — a systems-thinking error penalized in competency-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page case study framework template that a Class 12 student could use to analyze ANY biotech company (Indian or global) for board exam preparation. Specify 6 mandatory sections with 1-2 guiding questions per section.",
+     "a": "A strong template includes: (1) **Origin Story** — What unmet need did the founder(s) identify? What was the founding science? (2) **Technology Platform** — Is it platform (reusable) or product-specific? What is the core IP? (3) **Regulatory Pathway** — First approval jurisdiction? Biosimilar vs novel? Key trial design? (4) **Business Model** — Revenue source: product sales, licensing, CDMO, royalties? Margin profile? (5) **Funding & Scale** — Capital sources (VC, govt, strategic)? Inflection points? (6) **Impact Metrics** — Patients reached, revenue, jobs, follow-on innovation. A template missing \"platform vs product\" or \"regulatory strategy\" shows the student views biotech as generic business, not science-driven enterprise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

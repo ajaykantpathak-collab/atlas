@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_02_006",
+   "title": "c11_ps_cbse_02_006",
+   "questions": [
+    {
+     "q": "State Mill's Harm Principle in one sentence, explicitly mentioning the distinction between self-regarding and other-regarding actions.",
+     "a": "Mill's Harm Principle holds that the only legitimate reason for society or the state to interfere with an individual's liberty is to prevent harm to others; actions that concern only the individual (self-regarding actions) are not subject to external coercion, while actions affecting others (other-regarding actions) may be constrained only to prevent serious harm. A wrong answer that omits the self-regarding/other-regarding distinction or fails to specify \"serious harm\" reveals the student has memorized a slogan without grasping the analytical structure Mill uses to limit state power.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Mill argues that playing loud music in an apartment building should attract only social disapproval (e.g., neighbours refusing to greet the person) rather than police intervention.",
+     "a": "Mill classifies loud music as an other-regarding action causing *minor* harm (inconvenience, sleep disturbance) rather than *serious* harm (physical injury, violation of rights). He insists legal coercion is disproportionate for minor harms; social disapproval preserves the neighbour's freedom while signalling the cost of inconsiderate behaviour. A wrong answer that says \"loud music causes no harm\" ignores Mill's explicit admission of harm, while an answer advocating police action for any harm reveals a failure to understand Mill's proportionality threshold and his preference for non-legal sanctions.",
+     "self_check": true
+    },
+    {
+     "q": "A state government bans the sale of energy drinks to minors, citing medical studies showing long-term cardiac risks. Using Mill's Harm Principle, analyze whether this ban is a justifiable constraint on the liberty of minors (or their parents).",
+     "a": "The ban targets a self-regarding action (consumption primarily affects the minor's own health). Mill explicitly excludes paternalistic interference — preventing harm to the actor themselves — from legitimate state power; only harm to *others* justifies coercion. Therefore, the ban violates the Harm Principle. A wrong answer justifying the ban because \"it protects children\" reveals the common conflation of *paternalism* (protecting people from themselves) with the *harm principle* (protecting people from each other), a confusion Mill directly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mill's Harm Principle with the Indian Constitution's \"reasonable restrictions\" on Article 19(1)(a) (freedom of speech). Identify one key similarity and one key difference in how they define the limits of state interference.",
+     "a": "Similarity: Both require the state to demonstrate a concrete justification (harm to others / public order, morality, etc.) before restricting liberty, rejecting arbitrary power. Difference: Mill permits interference *only* to prevent harm to others, whereas Article 19(2) allows restrictions on broader grounds like \"decency,\" \"morality,\" and \"defamation\" which may not involve Mill's strict \"serious harm to definite individuals\" threshold. A wrong answer claiming they are identical overlooks the wider constitutional grounds; an answer claiming they are opposed misses the shared liberal logic of justified constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Mill's Harm Principle makes it impossible for the state to regulate hate speech because speech is just words and cannot cause physical harm.\" Provide a reasoned judgment.",
+     "a": "The statement is false. Mill explicitly includes incitement to violence and hate campaigns that \"foment hatred\" and \"put people in danger\" as causing *serious harm* to others, justifying legal constraints. He distinguishes mere expression of unpopular opinions (protected) from speech that directly instigates harm to definite individuals (restrictable). A wrong answer agreeing with the statement reveals a reductive reading that equates \"harm\" only with physical assault, ignoring Mill's broader conception of harm as including the creation of conditions that endanger the liberty and safety of others.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy guideline for a university disciplinary committee on when to impose formal sanctions (suspension, expulsion) versus informal censure (warning, counselling) for student protests, explicitly applying Mill's distinction between serious harm and minor inconvenience.",
+     "a": "A strong answer will: (1) Define the threshold: formal sanctions only for protest actions causing serious harm — physical violence, credible threats, destruction of property, or targeted harassment that silences specific individuals. (2) Specify that peaceful occupation, chanting, poster displays, or boycotts causing mere disruption, offense, or administrative inconvenience attract only informal censure or dialogue. (3) Justify this by citing Mill's insistence that legal/coercive force must be reserved for serious harm to preserve the \"minimum area of non-interference.\" A poor answer either bans all disruptive protests (ignoring the self-regarding/expressive dimension) or permits any protest short of violence (ignoring the possibility of serious non-physical harm like targeted harassment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

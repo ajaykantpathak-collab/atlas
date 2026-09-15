@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_1",
+   "title": "c9_hist_ch2_1",
+   "questions": [
+    {
+     "q": "What is the approximate time range for the emergence of *Homo sapiens* in Africa according to current archaeological and genetic evidence?",
+     "a": "*Homo sapiens* emerged in Africa approximately 300,000 years ago, based on fossils from Jebel Irhoud (Morocco) and genetic studies. A wrong answer like \"2 million years ago\" reveals confusion between *Homo erectus* and *Homo sapiens*; \"10,000 years ago\" confuses our species' origin with the start of agriculture. Students often compress the vast timescale of human evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the \"Out of Africa\" theory considered the most widely accepted model for human migration, and what evidence supports it over the multiregional hypothesis?",
+     "a": "The Out of Africa theory is supported by genetic evidence (mitochondrial DNA and Y-chromosome studies showing all modern humans share recent African ancestry), fossil evidence (oldest *Homo sapiens* fossils in Africa), and archaeological continuity. A wrong answer citing only \"fossils found in Africa\" misses the crucial genetic evidence. Students often think multiple human species evolved separately in different regions (multiregional hypothesis) - this misconception ignores DNA evidence of a single recent African origin with limited interbreeding.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student claims: \"Hunter-gatherers lived a harsh, short life constantly on the verge of starvation.\" Using evidence from the !Kung San studies and skeletal remains, evaluate this claim.",
+     "a": "The claim is largely incorrect. Ethnographic studies of the !Kung San (Kalahari) show hunter-gatherers worked 15-20 hours/week for food, had diverse nutrition (75+ plant species), low disease rates, and egalitarian sharing. Skeletal evidence shows taller stature and better dental health than early farmers. A wrong answer accepting the claim reveals the \"progress narrative\" misconception - assuming agriculture automatically improved life quality. Students miss that farming brought harder labor, nutritional deficiency, and social inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social organization of a typical Upper Palaeolithic hunter-gatherer band (25-50 people) with a Neolithic village (200-500 people). Analyze how subsistence strategy shaped leadership, gender roles, and property concepts.",
+     "a": "Hunter-gatherer bands: mobile, egalitarian, leadership by consensus/skill (not inheritance), flexible gender roles (both hunt/gather), usufruct property (use rights only). Neolithic villages: sedentary, emerging hierarchy, hereditary leadership, stricter gender division (men farm, women process), private property in land/storage. A wrong answer listing only population size misses the causal chain: mobility prevents accumulation → prevents hierarchy; sedentism enables storage → enables surplus → enables hierarchy. Students often describe features without linking to subsistence logic.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The control of fire was the single most important technological breakthrough in human evolution.\" Assess its validity using evidence from cooking, protection, tool-making, and social dimensions.",
+     "a": "The statement is largely valid but oversimplified. Fire (controlled ~400,000-1 mya) enabled cooking (increased calorie absorption, reduced gut size, expanded brain), protection (expanded range into colder regions), tool-making (heat-treating stone, hardening wood), and social bonding (extended day, storytelling). However, stone tool innovation (Oldowan→Acheulean→Levallois) and language were equally foundational. A wrong answer treating fire as \"just for warmth\" misses the biological cascade: cooking → energy surplus → brain expansion → complex culture. Students often isolate technologies rather than seeing feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the co-evolution of three key human traits (bipedalism, brain expansion, tool complexity) from 4 mya to 50,000 BCE. Annotate each major transition with the selective pressure that likely drove it.",
+     "a": "A strong answer shows: 4 mya - *Australopithecus* bipedalism (savannah adaptation, energy-efficient travel); 2.5 mya - *Homo habilis* stone tools + brain 600cc (scavenging/meat access); 1.8 mya - *Homo erectus* Acheulean handaxes + brain 900cc + fire (hunting, cooking, migration); 300 kya - *Homo sapiens* brain 1350cc + symbolic behavior (social complexity, language); 50 kya - Upper Palaeolithic blade tools, art, fishing (cognitive revolution). Poor answers list traits in isolation without showing feedback: tools → meat → brain → better tools. Students struggle with \"co-evolution\" - they treat traits as sequential rather than mutually reinforcing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

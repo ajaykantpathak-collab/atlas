@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_biology_kebo113",
+ "concepts": [
+  {
+   "id": "kebo.113.1.1",
+   "title": "Growth, Its Phases and Growth Rate",
+   "questions": [
+    {
+     "q": "Using the method 'Growth, Its Phases and Growth Rate', work with: increase = 100, initial = 75. Carry the chain through step by step and give the final value of growth_rate_percent.",
+     "a": "133.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Growth, Its Phases and Growth Rate' and work with: increase = 120, initial = 300. Carry the chain through step by step and give the final value of growth_rate_percent.",
+     "a": "40 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth, Its Phases and Growth Rate' refers to.",
+     "a": "Growth is an irreversible permanent increase in size of an organ or its parts, measured by increase in cell number, area, weight or volume; it follows a lag phase, log phase and stationary phase, and its rate can be arithmetic or geometric and is expressed as increased growth per unit time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth, Its Phases and Growth Rate'.",
+     "a": "An embryo with two leaves producing twenty leaves by geometric growth doubles at each step, showing that geometric growth follows compound interest while arithmetic growth adds a constant number of cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth, Its Phases and Growth Rate', in plain ASCII form.",
+     "a": "growth_rate_percent = increase / initial * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.2.1",
+   "title": "Differentiation, Dedifferentiation and Redifferentiation; Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Differentiation, Dedifferentiation and Redifferentiation; Development' refers to.",
+     "a": "Cells derived from meristems undergo differentiation into specialised cells, dedifferentiation regains division capacity forming interfascicular cambium, and redifferentiation matures them again; development of the plant also shows plasticity such as heterophylly and is followed by senescence and death.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Differentiation, Dedifferentiation and Redifferentiation; Development'.",
+     "a": "Heterophylly in cotton and coriander shows plasticity, where leaves of juvenile and mature plants take different shapes in response to environment or phases of life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Differentiation, Dedifferentiation and Redifferentiation; Development' taught, and from which source text?",
+     "a": "13.2 Differentiation, Dedifferentiation, Redifferentiation, 13.3 Development (source: kebo113.txt sections 13.2, 13.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.3.1",
+   "title": "Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene and ABA",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene and ABA' refers to.",
+     "a": "Plant growth regulators include auxins promoting apical dominance and rooting, gibberellins causing bolting and internode elongation, cytokinins promoting cell division and delaying senescence, gaseous ethylene promoting fruit ripening and triple response, and abscisic acid as the stress hormone closing stomata.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene and ABA'.",
+     "a": "Auxin's apical dominance and cytokinin's promotion of lateral buds act in opposition, and ethylene is unique among PGRs in being a gas that hastens ripening.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene and ABA' taught, and from which source text?",
+     "a": "13.4 Plant Growth Regulators (source: kebo113.txt sections 13.4.1-13.4.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.4.1",
+   "title": "Photoperiodism and Vernalisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Photoperiodism and Vernalisation' refers to.",
+     "a": "Photoperiodism is the response of plants to the relative length of light and dark periods, classifying them into long day, short day and day neutral plants, while vernalisation is the induction of flowering by prolonged cold treatment as in winter varieties of wheat and barley.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photoperiodism and Vernalisation'.",
+     "a": "The site of photoperiodic perception is the leaf, and vernalisation prevents precocious reproductive development late in the season, with the hormone behind it named vernalin.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Photoperiodism and Vernalisation' taught, and from which source text?",
+     "a": "13.5 Photoperiodism, 13.6 Vernalisation (source: kebo113.txt sections 13.5, 13.6)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

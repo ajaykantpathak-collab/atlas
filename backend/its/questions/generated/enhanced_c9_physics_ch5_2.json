@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_2",
+   "title": "c9_physics_ch5_2",
+   "questions": [
+    {
+     "q": "What are the three requirements for sound production?",
+     "a": "Three requirements: (1) A vibrating source (e.g., vocal cords, string, membrane) that creates the disturbance. (2) A medium (air, water, solid) that carries the disturbance as compressions and rarefactions. (3) A receiver (ear or microphone) that detects the vibrations and converts them to perceptible signals. Without any one of these, sound is not produced or perceived. A wrong answer (e.g., \"a source and air\") omits the receiver and limits the medium to air — sound travels in water and solids too.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how a vibrating tuning fork produces sound. Describe the formation of compressions and rarefactions.",
+     "a": "When the tuning fork vibrates, its prongs move back and forth. As a prong moves outward, it pushes air molecules together, creating a compression (region of higher pressure). As the prong moves back, it pulls molecules apart, creating a rarefaction (region of lower pressure). These alternating compressions and rarefactions propagate outward through the air as a longitudinal wave. When the wave reaches the ear, it vibrates the eardrum, producing the sensation of sound. A wrong answer (e.g., \"the tuning fork makes the air vibrate\") is correct but incomplete — it must describe the specific mechanism of compressions and rarefactions.",
+     "self_check": true
+    },
+    {
+     "q": "Why cannot sound travel through vacuum? Explain with an example.",
+     "a": "Sound is a mechanical wave — it requires a material medium to propagate. In vacuum, there are no molecules to compress or rarefy, so there is nothing to carry the disturbance. Example: An electric bell in a vacuum jar cannot be heard as air is pumped out — the bell still vibrates, but without air molecules, no sound wave propagates. This demonstrates that sound needs a medium. A wrong answer (e.g., \"sound is too weak in vacuum\") misses the point — it is not about weakness but about the absence of a medium to carry the wave.",
+     "self_check": true
+    },
+    {
+     "q": "Describe three different ways sound is produced in the human body and in musical instruments.",
+     "a": "(1) Vocal cords — air from the lungs vibrates the vocal cords, producing voice. (2) Strings — plucking or bowing a guitar or violin string makes it vibrate, producing sound. (3) Membranes — striking a drum vibrates the membrane, producing sound. (4) Air columns — blowing into a flute or trumpet vibrates the air column, producing sound. In each case, a vibration creates compressions and rarefactions in the surrounding medium. A wrong answer (e.g., \"sound is produced by talking\") is too vague — it must describe the physical mechanism (vibration of a specific source).",
+     "self_check": true
+    },
+    {
+     "q": "How does sound travel through a solid (e.g., a metal rod) compared to air?",
+     "a": "Sound travels through a solid as compressions and rarefactions, just as in air, but faster because the molecules in a solid are closer together, allowing the disturbance to propagate more quickly. In air, molecules are far apart, so the wave travels slower (~343 m/s). In a metal rod, molecules are close and tightly bonded, so the wave travels much faster (~5000 m/s). The mechanism is the same (vibrations creating compressions and rarefactions), but the medium's properties (density, elasticity) determine the speed. A wrong answer (e.g., \"sound cannot travel through solids\") is incorrect — sound travels through solids, and faster than through air.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Sound is produced when something moves.\" Evaluate this statement and refine it to be precise.",
+     "a": "The statement is too vague. Not all motion produces sound — a slowly moving object does not produce sound. Sound is produced by vibration — rapid, oscillatory motion that creates compressions and rarefactions in a medium. A fan blade rotating slowly may be silent, but a fan blade vibrating rapidly produces sound. The refinement: \"Sound is produced by a vibrating source that creates compressions and rarefactions in a medium.\" The key distinction is vibration (rapid oscillation), not just motion. A wrong evaluation (agreeing with the original) confuses any motion with the specific vibratory motion that produces sound.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

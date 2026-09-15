@@ -1,0 +1,169 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 101,
+ "chapter_title": "Some Basic Concepts of Chemistry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kech101.txt",
+ "concepts": [
+  {
+   "id": "kech.1.7.1",
+   "title": "Average Atomic Mass",
+   "section": "1.7.2",
+   "definition": "The weighted mean of the masses of all naturally occurring isotopes of an element, calculated based on their relative abundance.",
+   "formula": "avg_mass = sum(isotope_mass * abundance_fraction)",
+   "key_idea": "Isotopes contribute to the total atomic mass proportional to how common they are in nature.",
+   "textbook_ref": "kech101.txt lines 570-590",
+   "question_patterns": [
+    "calculate the average atomic mass of element X",
+    "find the average mass given isotopic abundances",
+    "determine the mean atomic mass of an element",
+    "compute the average atomic mass from isotope data",
+    "what is the average atomic mass of the element"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply each isotope mass by its abundance fraction",
+     "explain": "convert percentage to decimal and multiply by mass",
+     "compute": "term1 = mass1 * (percent1 / 100)"
+    },
+    {
+     "step": 2,
+     "action": "sum the products",
+     "explain": "add all weighted mass contributions",
+     "compute": "avg_mass = term1 + (mass2 * (percent2 / 100))"
+    }
+   ]
+  },
+  {
+   "id": "kech.1.9.0",
+   "title": "Mass Percent of Elements",
+   "section": "1.9",
+   "definition": "The percentage by weight that a specific element contributes to the total molar mass of a chemical compound.",
+   "formula": "mass_percent = (mass_of_element / molar_mass_compound) * 100",
+   "key_idea": "The ratio of an element's mass to the compound's total mass expressed as a percentage.",
+   "textbook_ref": "kech101.txt lines 670-690",
+   "question_patterns": [
+    "calculate the mass percent of element X in compound Y",
+    "find the percentage composition of elements in Y",
+    "what is the mass percent of each element in the compound",
+    "determine the mass percent of components in Y",
+    "compute the mass percentage of elements in the given substance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the total molar mass of the compound",
+     "explain": "sum the atomic masses of all atoms in the formula",
+     "compute": "total_mass = (n1 * atomic_mass1) + (n2 * atomic_mass2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate the mass percent",
+     "explain": "divide the element's total mass by compound mass and multiply by 100",
+     "compute": "mass_percent = ((n1 * atomic_mass1) / total_mass) * 100"
+    }
+   ]
+  },
+  {
+   "id": "kech.1.10.3",
+   "title": "Molarity of Solutions",
+   "section": "1.10.2",
+   "definition": "A measure of concentration defined as the number of moles of solute present in exactly one litre of the total solution.",
+   "formula": "molarity = moles_solute / volume_solution_litres",
+   "key_idea": "Concentration expressed as moles per unit volume of solution.",
+   "textbook_ref": "kech101.txt lines 910-930",
+   "question_patterns": [
+    "calculate the molarity of the solution",
+    "find the molar concentration of the solute",
+    "what is the molarity of X grams dissolved in Y mL",
+    "determine the molarity of the prepared solution",
+    "compute the molarity of the given mixture"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find moles of solute",
+     "explain": "divide given mass by molar mass of the solute",
+     "compute": "moles = mass / molar_mass"
+    },
+    {
+     "step": 2,
+     "action": "calculate molarity",
+     "explain": "divide moles by volume in litres",
+     "compute": "molarity = moles / (volume_ml / 1000)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech101.txt line 680",
+   "concept": "kech.1.9.0",
+   "question_type": "compute",
+   "question_pattern": "calculate mass percent of {element} in {compound}",
+   "extracted_variables": {
+    "n1": 2,
+    "atomic_mass1": 1.008,
+    "total_mass": 18.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate element mass",
+     "explain": "multiply atoms by atomic mass",
+     "compute": "element_mass = n1 * atomic_mass1"
+    },
+    {
+     "step": 2,
+     "action": "calculate percent",
+     "explain": "divide by total and multiply by 100",
+     "compute": "mass_percent = (element_mass / total_mass) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech101.txt line 950",
+   "concept": "kech.1.10.3",
+   "question_type": "compute",
+   "question_pattern": "molarity of {mass} g of solute in {volume} mL",
+   "extracted_variables": {
+    "mass": 4,
+    "molar_mass": 40,
+    "volume_ml": 250
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate moles",
+     "explain": "mass divided by molar mass",
+     "compute": "moles = mass / molar_mass"
+    },
+    {
+     "step": 2,
+     "action": "calculate molarity",
+     "explain": "moles divided by volume in litres",
+     "compute": "molarity = moles / (volume_ml / 1000)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "kech101.txt lines 1050-1060",
+   "questions": [
+    "Calculate the molar mass of H2O, CO2, and CH4.",
+    "Determine the mass percent of elements in Na2SO4.",
+    "Calculate the molarity of a solution with 20g sugar in 2L."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

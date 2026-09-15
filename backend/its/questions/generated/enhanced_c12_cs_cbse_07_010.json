@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_010",
+   "title": "c12_cs_cbse_07_010",
+   "questions": [
+    {
+     "q": "How many cells does a 4-variable K-map have, and what does each cell represent?",
+     "a": "A 4-variable K-map has 16 cells (2⁴), each representing one unique minterm (for SOP) or maxterm (for POS) corresponding to a specific combination of the four variables. A wrong answer like \"8 cells\" or \"each cell represents a variable\" reveals the student confuses K-map size with 3-variable maps or misunderstands the cell-to-minterm mapping — they likely memorised \"K-map has 2ⁿ cells\" without connecting n to the number of variables.",
+     "self_check": true
+    },
+    {
+     "q": "In a 3-variable K-map for variables A, B, C, the cells for minterms m₀ (A'B'C') and m₁ (A'B'C) are adjacent. The cells for m₀ and m₄ (AB'C') are NOT adjacent. Explain why, using the concept of Gray code ordering.",
+     "a": "K-map rows/columns follow Gray code (00, 01, 11, 10) so adjacent cells differ in exactly ONE variable. m₀ (000) and m₁ (001) differ only in C — adjacent. m₀ (000) and m₄ (100) differ in A — but in a 3-variable K-map with BC as columns (00,01,11,10) and A as rows (0,1), m₀ is at (A=0, BC=00) and m₄ is at (A=1, BC=00) — they ARE vertically adjacent! The student who says they are not adjacent likely used binary ordering (00,01,10,11) instead of Gray code, or mislabelled the map. This exposes the critical misconception: K-map adjacency depends on Gray code labelling, not physical position alone.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean function F(A,B,C,D) = Σm(0,1,2,3,4,5,6,7), draw the 4-variable K-map, form the largest possible groups, and write the simplified SOP expression.",
+     "a": "The K-map has 1s in the top two rows (A=0, all BCD combinations). Two valid octet groups: (1) entire top row A=0 (m₀-m₇) → A' (B,C,D eliminated). Simplified SOP: F = A'. A wrong answer like F = A'B' + A'B + AB' + AB shows the student made four separate quads instead of one octet — they missed that the top two rows together form an octet because the map wraps vertically. This reveals they don't understand wrap-around adjacency across the top/bottom boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the simplified SOP expressions obtained from these two groupings of the same K-map (1s at m₀, m₁, m₄, m₅): Grouping 1: one quad (m₀,m₁,m₄,m₅). Grouping 2: two pairs (m₀,m₁) and (m₄,m₅). Which grouping gives the minimal expression and why?",
+     "a": "Grouping 1 (quad) gives F = B'C' (A and D eliminated) — 1 term, 2 literals. Grouping 2 (two pairs) gives F = A'B'C' + AB'C' = B'C'(A' + A) = B'C' — same expression but derived inefficiently. The quad is minimal because larger groups eliminate more variables. A student who claims both are \"equally minimal\" because they yield the same final expression misses the point: the QUAD is the correct grouping strategy — it directly gives the minimal form without requiring post-simplification. This tests whether they understand that grouping strategy matters for algorithmic minimality, not just algebraic equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies F(A,B,C) = Σm(0,2,5,6) using a K-map and gets F = A'B'C' + A'BC' + AB'C + ABC'. They claim this is minimal because \"all minterms are covered.\" Evaluate this claim and provide the correct minimal SOP.",
+     "a": "The claim is FALSE. The K-map for m₀(000), m₂(010), m₅(101), m₆(110) has NO adjacent 1s — each is isolated. No pairs possible. The expression F = A'B'C' + A'BC' + AB'C + ABC' is the canonical SOP, NOT minimal. The minimal SOP IS the canonical form here (4 terms, 12 literals) because no simplification exists. The student's error: they think \"covering all minterms\" = minimal, but minimal means FEWEST terms and FEWEST literals per term. They failed to check for adjacency. This reveals the misconception that K-map simplification always reduces terms — sometimes it doesn't, and recognising that is part of mastery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-variable Boolean function F(A,B,C) where the minimal SOP has exactly 2 product terms, each with exactly 2 literals, and the function is NOT symmetric in all variables. Draw its K-map and write the expression.",
+     "a": "Example: F = A'B + AC. K-map (BC columns: 00,01,11,10; A rows: 0,1): 1s at m₂(010), m₃(011) → pair (A'B); 1s at m₅(101), m₇(111) → pair (AC). No larger groups possible. Terms: A'B (2 literals), AC (2 literals). Not symmetric (A appears complemented in first, uncomplemented in second; B and C not interchangeable). A poor answer like F = AB + BC (symmetric in A,C) or F = A'B' + AB (2 terms but 4 literals total, not 2 each) shows the student doesn't grasp how group size determines literal count (pair → 2 literals in 3-var map) or what \"symmetric\" means. This tests creative synthesis of K-map constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 101,
+ "chapter_title": "Food: Where Does it Come From?",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebo112.txt",
+ "concepts": [
+  {
+   "id": "fesc.101.1",
+   "title": "Food Ingredients",
+   "section": "1.1",
+   "definition": "The raw both materials and materials that are indeed combined to prepare a specific food dish.",
+   "formula": "dish = ingredient_1 + ingredient_2 + ... + ingredient_n",
+   "key_idea": "Every food item is composed of one or more basic components.",
+   "textbook_ref": "fesc101.txt lines 25-45",
+   "question_patterns": [
+    "what are the ingredients of {dish}",
+    "list the materials needed to make {dish}",
+    "how many ingredients are in boiled rice",
+    "identify the components used in vegetable curry",
+    "why is food ingredients important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the food item",
+     "explain": "Determine the specific dish being analyzed."
+    },
+    {
+     "step": 2,
+     "action": "List raw materials",
+     "explain": "Break down the dish into the individual substances required for its preparation."
+    },
+    {
+     "step": 3,
+     "action": "Verify each ingredient's role",
+     "explain": "Confirm that every listed material is actually used in preparing the dish, so no ingredient is missed or wrongly added."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.2",
+   "title": "Primary Food Sources",
+   "section": "1.2",
+   "definition": "The biological origins of food materials, classified into plant-based and animal-based sources.",
+   "formula": "total_sources = plant_sources + animal_sources",
+   "key_idea": "Most of our food comes from either plants or animals.",
+   "textbook_ref": "fesc101.txt lines 55-85",
+   "question_patterns": [
+    "where does {food_item} come from",
+    "identify the source of {ingredient}",
+    "classify {item} as a plant or animal product",
+    "what are the main sources of human food",
+    "give one everyday example of primary food sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the ingredient",
+     "explain": "Look at the origin of the specific ingredient."
+    },
+    {
+     "step": 2,
+     "action": "Categorize the source",
+     "explain": "Assign the ingredient to either the plant kingdom or animal kingdom."
+    },
+    {
+     "step": 3,
+     "action": "Verify with examples",
+     "explain": "Cross-check the classification against known examples, such as rice from plants and milk from animals, to confirm the source category is correct."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.3",
+   "title": "Edible Plant Parts",
+   "section": "1.3",
+   "definition": "Specific parts of a plant, like roots, stems, leaves, flowers, or seeds, that are safe for consumption.",
+   "formula": "edible_parts = count(roots, stems, leaves, flowers, fruits, seeds)",
+   "key_idea": "Different plants provide food through different organs.",
+   "textbook_ref": "fesc101.txt lines 95-125",
+   "question_patterns": [
+    "which part of the {plant_name} do we eat",
+    "is the {part} of {plant_name} edible",
+    "name a plant where we eat two or more parts",
+    "identify the edible part in a mustard plant",
+    "justify why edible plant parts matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the plant",
+     "explain": "Select the specific plant being studied."
+    },
+    {
+     "step": 2,
+     "action": "Locate the consumed organ",
+     "explain": "Determine if the food comes from the root, stem, leaf, flower, fruit, or seed."
+    },
+    {
+     "step": 3,
+     "action": "Confirm edibility",
+     "explain": "Verify that the identified plant part is safe and commonly eaten, ruling out any toxic or inedible portions."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.4",
+   "title": "Sprouting",
+   "section": "1.4",
+   "definition": "The process of germinating seeds where a small white structure grows out, making them highly nutritious.",
+   "formula": "sprout_growth = initial_seed + water + time",
+   "key_idea": "Germination turns dry seeds into living sprouts.",
+   "textbook_ref": "fesc101.txt lines 145-165",
+   "question_patterns": [
+    "how to make sprouts from {seed_type}",
+    "what is the white structure in sprouted seeds",
+    "explain the process of sprouting moong",
+    "what happens when seeds are left in a wet cloth",
+    "describe sprouting with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Soak seeds",
+     "explain": "Place dry seeds in water for a day."
+    },
+    {
+     "step": 2,
+     "action": "Drain and wrap",
+     "explain": "Remove water and keep seeds in a damp cloth."
+    },
+    {
+     "step": 3,
+     "action": "Observe growth",
+     "explain": "Check for the emergence of a small white radicle."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.5",
+   "title": "Nectar and Honey Production",
+   "section": "1.4",
+   "definition": "Bees collect sweet juices from both flowers and convert them into honey to store in beehives.",
+   "formula": "honey = bee_processing(nectar)",
+   "key_idea": "Honey is stored nectar used by bees as food throughout the year.",
+   "textbook_ref": "fesc101.txt lines 170-185",
+   "question_patterns": [
+    "where do bees get nectar from",
+    "how is honey produced",
+    "why do bees store honey in hives",
+    "what is nectar",
+    "give one everyday example of nectar and honey production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Collection",
+     "explain": "Bees visit flowers to gather nectar."
+    },
+    {
+     "step": 2,
+     "action": "Conversion",
+     "explain": "Bees transform nectar into honey."
+    },
+    {
+     "step": 3,
+     "action": "Storage",
+     "explain": "Honey is kept in the beehive for future use."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.6",
+   "title": "Herbivores",
+   "section": "1.5",
+   "definition": "Animals that eat only plants or plant products.",
+   "formula": "diet = {plants, plant_products}",
+   "key_idea": "Plant-eaters belong to Group 1 of animal classification.",
+   "textbook_ref": "fesc101.txt lines 210-215",
+   "question_patterns": [
+    "define a herbivore",
+    "is a {animal} a herbivore",
+    "give examples of herbivores",
+    "which group of animals eats only plants",
+    "why is herbivores important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze diet",
+     "explain": "Check if the animal eats plants, animals, or both."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "If the diet is strictly plant-based, it is a herbivore."
+    },
+    {
+     "step": 3,
+     "action": "Support with examples",
+     "explain": "Reinforce the classification by recalling known herbivores such as cows, deer, and goats that feed only on plants."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.7",
+   "title": "Carnivores",
+   "section": "1.5",
+   "definition": "Animals that eat only other animals.",
+   "formula": "diet = {animals}",
+   "key_idea": "Meat-eaters belong to Group 2 of animal classification.",
+   "textbook_ref": "fesc101.txt lines 215-218",
+   "question_patterns": [
+    "what are carnivores",
+    "classify a lion based on its food habits",
+    "name three carnivores",
+    "which animals eat only other animals",
+    "give one everyday example of carnivores"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze diet",
+     "explain": "Determine if the animal feeds on other living creatures."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "If the diet is strictly animal-based, it is a carnivore."
+    },
+    {
+     "step": 3,
+     "action": "Support with examples",
+     "explain": "Reinforce the classification by recalling known carnivores such as lions, tigers, and eagles that feed only on other animals."
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.8",
+   "title": "Omnivores",
+   "section": "1.5",
+   "definition": "Animals that consume both plants and other animals.",
+   "formula": "diet = {plants, animals}",
+   "key_idea": "Mixed-diet consumers belong to Group 3 of animal classification.",
+   "textbook_ref": "fesc101.txt lines 218-222",
+   "question_patterns": [
+    "what is an omnivore",
+    "are humans herbivores or omnivores",
+    "is a dog an omnivore",
+    "classify animals that eat both plants and meat",
+    "what do you understand by omnivores"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze diet",
+     "explain": "Check if the animal consumes both plant and animal matter."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "If the diet includes both, it is an omnivore."
+    },
+    {
+     "step": 3,
+     "action": "Support with examples",
+     "explain": "Reinforce the classification by recalling known omnivores such as humans, dogs, and crows that eat both plants and animals."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc101.txt Table 1.2",
+   "concept": "fesc.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "What are the ingredients of Dal?",
+   "extracted_variables": {
+    "dish": "Dal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the food item",
+     "explain": "The dish is Dal."
+    },
+    {
+     "step": 2,
+     "action": "List raw materials",
+     "explain": "The ingredients are pulses, water, salt, oil/ghee, and spices."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc101.txt Table 1.6",
+   "concept": "fesc.101.7",
+   "question_type": "verify_property",
+   "question_pattern": "Why is a lion classified as a carnivore?",
+   "extracted_variables": {
+    "animal": "lion"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze diet",
+     "explain": "A lion eats only other animals."
+    },
+    {
+     "step": 2,
+     "action": "Classify",
+     "explain": "Since it eats only meat, it is a carnivore."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fesc101.txt Exercise 1",
+   "questions": [
+    "Do you find that all living beings need the same kind of food?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "fesc101.txt Exercise 2",
+   "questions": [
+    "Name five plants and their parts that we eat."
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "fesc101.txt Exercise 4",
+   "questions": [
+    "Tiger is a carnivore because it eats only meat.",
+    "Deer eats only plant products and so, is called herbivore.",
+    "Parrot eats only plant products.",
+    "The milk that we drink, which comes from cows, buffaloes and goats is an animal product.",
+    "We get sugar from sugarcane."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

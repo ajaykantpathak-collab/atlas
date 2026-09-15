@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_002",
+   "title": "c11_chem_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define lattice enthalpy of an ionic compound and state its sign convention for the process: MX(s) → M⁺(g) + X⁻(g).",
+     "a": "Lattice enthalpy is the energy required to completely separate one mole of solid ionic compound into its gaseous constituent ions at infinite separation. For MX(s) → M⁺(g) + X⁻(g), it is endothermic (ΔH > 0, positive sign). A wrong answer (e.g., negative sign or defining it as energy released during lattice formation) reveals confusion between the definition (separation) and the stabilization energy (formation), a common error when students conflate the two perspectives.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formation of NaCl(s) from Na(g) and Cl(g) is exothermic overall, even though the ionization of Na(g) and electron gain by Cl(g) together are endothermic.",
+     "a": "The overall process Na(g) + ½Cl₂(g) → NaCl(s) is exothermic because the lattice enthalpy released when Na⁺(g) and Cl⁻(g) form the solid crystal (-788 kJ/mol) is larger in magnitude than the sum of ionization enthalpy of Na (+496 kJ/mol) and electron gain enthalpy of Cl (-349 kJ/mol), which is +147 kJ/mol. The net energy change is negative. A wrong answer indicates the student cannot synthesize the three energy steps into a coherent energy cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Given: IE₁(Na) = 496 kJ/mol, EA(Cl) = -349 kJ/mol, ΔH_f°(NaCl) = -411 kJ/mol, ΔH_sub(Na) = 108 kJ/mol, ½BDE(Cl₂) = 121 kJ/mol. Use a Born-Haber cycle to calculate the lattice enthalpy of NaCl.",
+     "a": "Steps: \n1) Na(s) → Na(g) ΔH = +108 kJ/mol\n2) Na(g) → Na⁺(g) + e⁻ ΔH = +496 kJ/mol\n3) ½Cl₂(g) → Cl(g) ΔH = +121 kJ/mol\n4) Cl(g) + e⁻ → Cl⁻(g) ΔH = -349 kJ/mol\n5) Na⁺(g) + Cl⁻(g) → NaCl(s) ΔH = -LE (lattice enthalpy, exothermic)\nSum = ΔH_f° = -411 kJ/mol\nLE = 108 + 496 + 121 - 349 + 411 = 787 kJ/mol (≈ 788 kJ/mol).\nA wrong answer usually stems from sign errors in the cycle or misplacing the lattice enthalpy term.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the lattice enthalpies of NaCl and MgO. Both have rock-salt structure. Predict which has higher lattice enthalpy and justify using ionic charges and radii.",
+     "a": "MgO has higher lattice enthalpy. Both have same crystal structure (rock salt), but MgO has Mg²⁺ and O²⁻ (charge product = 4) vs NaCl with Na⁺ and Cl⁻ (charge product = 1). Also, Mg²⁺ (72 pm) and O²⁻ (140 pm) are smaller than Na⁺ (102 pm) and Cl⁻ (181 pm), giving shorter interionic distance. Lattice enthalpy ∝ (charge product)/(sum of radii). A wrong answer ignoring charge magnitude or radius trend shows incomplete understanding of Coulombic dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since lattice enthalpy is always positive (endothermic), forming an ionic lattice always absorbs energy.\" Evaluate this statement.",
+     "a": "The statement is false. Lattice enthalpy is defined for the separation process (endothermic, positive). The reverse process — formation of lattice from gaseous ions — releases the same magnitude of energy (exothermic, negative). The student confuses the sign convention of the defined process with the energy change of formation. Correct evaluation requires distinguishing between the defined direction and the actual stabilizing step.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that lattice enthalpy is the decisive factor making ionic bond formation favorable, using hypothetical elements A (low IE) and B (high EA) but with very low lattice enthalpy due to large ionic sizes.",
+     "a": "Choose A = large alkali metal (e.g., Cs) and B = large halogen (e.g., I). Even though IE(Cs) is low (376 kJ/mol) and EA(I) is high (-295 kJ/mol), the sum is +81 kJ/mol. If the lattice enthalpy of CsI were only -500 kJ/mol (hypothetically low due to large ions), the net would be +81 - 500 = -419 kJ/mol (still exothermic). But if lattice enthalpy were even lower (e.g., -50 kJ/mol), net would be +31 kJ/mol (unfavorable). This shows lattice enthalpy must be sufficiently large to overcome the endothermic ion formation. A poor answer fails to construct a quantitative comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

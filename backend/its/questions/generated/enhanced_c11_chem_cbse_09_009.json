@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_009",
+   "title": "c11_chem_cbse_09_009",
+   "questions": [
+    {
+     "q": "A water sample contains only Ca(HCO₃)₂. Which single method from the following will completely remove its hardness? (a) Adding washing soda (b) Boiling (c) Adding Calgon (d) Passing through cation exchange resin",
+     "a": "Correct answer: (b) Boiling. Temporary hardness due to Ca(HCO₃)₂ decomposes on heating: Ca(HCO₃)₂ → CaCO₃↓ + CO₂↑ + H₂O. The insoluble CaCO₃ precipitates and can be filtered off. A wrong answer (e.g., choosing washing soda) reveals the student cannot distinguish that boiling specifically targets bicarbonate hardness, while washing soda is for permanent hardness (sulfates/chlorides). Choosing Calgon or ion exchange shows confusion - these work for both types but are unnecessarily expensive for pure temporary hardness.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adding a calculated amount of washing soda (Na₂CO₃) removes permanent hardness caused by CaSO₄, but adding excess washing soda makes the water unsuitable for domestic use.",
+     "a": "Correct explanation: Na₂CO₃ + CaSO₄ → CaCO₃↓ + Na₂SO₄. The CaCO₃ precipitates, removing Ca²⁺. Excess Na₂CO₃ leaves residual Na₂CO₃ in water, making it alkaline (pH ~11), which irritates skin, damages fabrics, and tastes soapy. A wrong answer (e.g., \"excess causes more precipitation\") reveals misunderstanding that Na₂CO₃ itself is soluble and does not precipitate without Ca²⁺/Mg²⁺. The student misses that the problem is residual alkalinity, not further reaction.",
+     "self_check": true
+    },
+    {
+     "q": "10 L of hard water contains 162 mg of Ca(HCO₃)₂ (molar mass = 162 g/mol). Calculate the minimum mass of CaO (molar mass = 56 g/mol) required for Clark's method to remove this temporary hardness completely. Show the balanced equation and steps.",
+     "a": "Balanced equation: Ca(HCO₃)₂ + CaO → 2CaCO₃↓ + H₂O. Moles of Ca(HCO₃)₂ = 162 mg / 162 g/mol = 0.001 mol. 1 mol Ca(HCO₃)₂ requires 1 mol CaO. Moles CaO needed = 0.001 mol. Mass CaO = 0.001 × 56 = 0.056 g = 56 mg. A wrong answer (e.g., 112 mg) reveals the student used 2:1 mole ratio incorrectly or forgot to convert mg to g. Forgetting to precipitate as CaCO₃ shows they don't understand Clark's method uses lime to convert soluble bicarbonate to insoluble carbonate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the permutit (zeolite) process and synthetic ion exchange resin method for removing permanent hardness. Which method can produce deionised (demineralised) water and why?",
+     "a": "Permutit (Na₂Ze) exchanges only cations: 2Na⁺Ze + Ca²⁺ → CaZe + 2Na⁺. It softens but leaves anions (Cl⁻, SO₄²⁻) so water still conducts electricity. Synthetic resins use cation exchanger (H⁺ form) followed by anion exchanger (OH⁻ form): H⁺ replaces Ca²⁺/Mg²⁺, OH⁻ replaces Cl⁻/SO₄²⁻; H⁺ + OH⁻ → H₂O. Only synthetic resins produce deionised water. A wrong answer (saying permutit gives deionised water) reveals confusion between softening (removing hardness cations only) and demineralisation (removing all ions).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction for Calgon (Na₆P₆O₁₈, sodium hexametaphosphate) softening as: Na₆P₆O₁₈ + Ca²⁺ → CaNa₄P₆O₁₈ + 2Na⁺. Evaluate if this equation correctly represents the mechanism. Justify.",
+     "a": "The equation is incorrect. Calgon works by forming a soluble complex: Na₆P₆O₁₈ → 2Na⁺ + Na₄P₆O₁₈⁴⁻; Na₄P₆O₁₈⁴⁻ + Ca²⁺ → [Ca(Na₄P₆O₁₈)]²⁻ (soluble complex). The student's equation shows a simple double displacement with wrong stoichiometry and misses the key concept - Calgon sequesters Ca²⁺/Mg²⁺ as soluble complexes, preventing precipitation, NOT removing them. A wrong evaluation reveals the student thinks Calgon precipitates hardness like washing soda, missing the fundamental difference: complexation vs precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-stage home water treatment system for groundwater that has both temporary hardness (Ca(HCO₃)₂) and permanent hardness (MgSO₄), plus suspended clay particles. Specify the sequence of units and the chemical principle at each stage.",
+     "a": "Good answer: Stage 1: Sedimentation/filtration (removes suspended clay - physical). Stage 2: Boiling or Clark's method (removes temporary hardness via CaCO₃ precipitation). Stage 3: Washing soda or ion exchange column (removes permanent Mg²⁺ as MgCO₃ or exchanges Mg²⁺ for Na⁺). Sequence matters - boiling first reduces load on chemical stage. Poor answer (random order, missing filtration, or using only one chemical) reveals inability to integrate multiple concepts: physical separation, thermal decomposition, precipitation, ion exchange - and ignoring that suspended solids would clog later stages.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

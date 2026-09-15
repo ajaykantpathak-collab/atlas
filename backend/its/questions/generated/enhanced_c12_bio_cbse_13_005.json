@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_005",
+   "title": "c12_bio_cbse_13_005",
+   "questions": [
+    {
+     "q": "A population of 500 individuals has a per capita birth rate of 0.08/year and per capita death rate of 0.03/year. Assuming exponential growth, what is the population size after 5 years?",
+     "a": "Correct answer: N = N₀e^(rt) = 500 × e^((0.08-0.03)×5) = 500 × e^0.25 ≈ 500 × 1.284 = 642 individuals. A wrong answer using r = 0.08 (ignoring death rate) gives 746; using simple interest N = 500 + 500×0.05×5 = 625 reveals confusion between continuous and discrete growth models. The error shows the student doesn't understand that r = b - d and that exponential growth is continuous compounding.",
+     "self_check": true
+    },
+    {
+     "q": "In the logistic equation dN/dt = rN[(K-N)/K], what happens to the growth rate dN/dt when N = K/2? Explain why this point is biologically significant.",
+     "a": "At N = K/2, dN/dt = r(K/2)[(K-K/2)/K] = r(K/2)(1/2) = rK/4. This is the MAXIMUM growth rate (inflection point of the S-curve). Biologically, this is where the population adds individuals fastest — resources are abundant but population is large enough to utilize them efficiently. A student who says \"growth rate is zero\" confuses N=K (carrying capacity) with N=K/2. A student who says \"growth rate is rN\" forgets the (K-N)/K term. This tests understanding that logistic growth is density-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "A fish population in a lake follows logistic growth with r = 0.6/year and K = 10,000. If current population is 2,000, calculate the instantaneous growth rate (dN/dt). If the population were 8,000 instead, what would dN/dt be? Compare and explain the difference.",
+     "a": "At N=2,000: dN/dt = 0.6 × 2000 × [(10000-2000)/10000] = 1200 × 0.8 = 960 fish/year.\nAt N=8,000: dN/dt = 0.6 × 8000 × [(10000-8000)/10000] = 4800 × 0.2 = 960 fish/year.\nBoth give SAME growth rate (960) because logistic curve is symmetric around K/2 = 5,000. N=2,000 and N=8,000 are equidistant from K/2. A student who calculates different values misunderstands the symmetry. A student who says \"growth is faster at 8,000 because more individuals\" ignores density-dependence. This tests ability to apply the equation and interpret its symmetric property.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the assumptions of exponential vs logistic growth models. A population of deer in a protected reserve shows exponential growth for 10 years, then growth slows. Propose THREE specific biological reasons for this transition, linking each to a violated exponential model assumption.",
+     "a": "Exponential assumptions: (1) unlimited resources, (2) no predation/disease, (3) constant r, (4) no time lags, (5) closed population. Transition reasons: (a) Food depletion violates assumption 1 — carrying capacity K is reached. (b) Increased predator attraction (wolves) violates assumption 2 — density-dependent mortality increases. (c) Waste accumulation/disease spread violates assumption 3 — r decreases as density rises. A student listing only \"resources finish\" gives incomplete answer. A student saying \"mutation changes r\" confuses evolutionary time with ecological time. This tests analytical comparison of model assumptions vs reality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The logistic growth model is always more accurate than the exponential model for predicting real population dynamics.\" Provide a counterexample where exponential model is appropriate, and a scenario where logistic model fails.",
+     "a": "Statement is FALSE. Exponential model is appropriate for: (1) Invasive species in early colonization (e.g., water hyacinth in new lake, first 2-3 years), (2) Populations recovering from catastrophe (e.g., wildebeest after drought), (3) Laboratory cultures with unlimited medium. Logistic model fails when: (1) Time lags cause overshoot/oscillations (e.g., reindeer on St. Matthew Island), (2) Allee effect at low N (e.g., difficulty finding mates), (3) Environmental stochasticity (drought/flood) makes K variable. A student saying \"logistic is always better\" shows dogmatic thinking. A student unable to name a logistic failure case hasn't grasped model limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-month experiment to determine whether a laboratory population of Tribolium (flour beetles) follows exponential or logistic growth. Specify: (a) independent/dependent variables, (b) how you'll estimate r and K, (c) statistical test to compare model fit, (d) one confounding factor to control.",
+     "a": "(a) Independent: time (weeks); Dependent: population count N(t). (b) Fit N(t) = N₀e^(rt) for exponential; for logistic, use linearized form: 1/N vs t gives slope r/K, intercept 1/K. Or nonlinear regression on dN/dt = rN(1-N/K). (c) Compare AIC (Akaike Information Criterion) or R² of both fits; lower AIC = better model. (d) Confounding factor: flour quantity/quality — must replenish at fixed intervals to separate resource limitation from waste accumulation. A poor answer measures only final population, ignores time-series data, or doesn't specify how to distinguish models statistically. This tests experimental design and model selection skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_003",
+   "title": "c11_geo_cbse_16_003",
+   "questions": [
+    {
+     "q": "Define sex ratio as used in the Indian Census and state the all-India sex ratio according to Census 2011.",
+     "a": "Sex ratio in Indian Census = (Number of females / Number of males) × 1000. All-India sex ratio (2011) = 943 females per 1000 males. A wrong answer (e.g., \"943 males per 1000 females\" or \"percentage of females\") reveals confusion between ratio expression formats and inability to recall the standard Indian demographic convention where 1000 males is the base.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Kerala (1084) and Puducherry (1037) have sex ratios above 1000 while Haryana (879) and NCT Delhi (868) have ratios below 900, despite all being relatively developed states.",
+     "a": "Kerala/Puducherry: historical matrilineal traditions, high female literacy, low sex-selective abortion, male out-migration to Gulf. Haryana/Delhi: strong patriarchal culture, sex-selective abortion (low child sex ratio), female foeticide, in-migration of male labourers. Wrong answers citing only \"development level\" or \"poverty\" miss the cultural and migration dimensions that override economic development in determining sex ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A hypothetical state has population: 0-14 years = 32%, 15-59 years = 60%, 60+ = 8%. Calculate the total dependency ratio and the youth/old-age dependency ratios separately. Show working.",
+     "a": "Working population (15-59) = 60%. Dependent population = 32% + 8% = 40%. Total dependency ratio = (40/60) × 100 = 66.7 dependents per 100 working persons. Youth dependency = (32/60) × 100 = 53.3. Old-age dependency = (8/60) × 100 = 13.3. Wrong calculations (e.g., using total population as denominator) indicate misunderstanding of dependency ratio as a ratio TO working population, not total population.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the population pyramids of India (2011) and Japan (2020). Identify three structural differences and explain what each implies for economic policy in the two countries.",
+     "a": "1) India: broad base (high 0-14%) → need for schools, vaccines, child nutrition. Japan: narrow base → school closures, childcare incentives. 2) India: expanding working-age bulge → demographic dividend potential, job creation urgency. Japan: shrinking working-age → labour shortage, automation push, raise retirement age. 3) India: tiny apex (low 60+) → minimal pension burden. Japan: wide apex → massive healthcare/pension costs, need for elder care infrastructure. Wrong answers describing only shape without policy implications show inability to connect structure to governance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rising female literacy automatically improves child sex ratio.\" Use Census 2011 data from at least two contrasting states to support your judgment.",
+     "a": "Statement is FALSE. Kerala: female literacy 92%, child sex ratio 964 (good but not perfect). Haryana: female literacy 66%, child sex ratio 834 (very low). But Gujarat: female literacy 70%, child sex ratio 890 (lower than Kerala despite similar literacy to Haryana). Tamil Nadu: female literacy 73%, child sex ratio 943 (better than Gujarat). This shows son preference culture and sex-selection technology access mediate the literacy-sex ratio link. Wrong \"true\" answers ignore cultural persistence and technology misuse among educated groups.",
+     "self_check": true
+    },
+    {
+     "q": "Design a district-level intervention plan to improve female literacy in a hypothetical low-literacy district (female literacy 45%, gender gap 25%, rural 80%). Specify three targeted strategies with geographical justification for each.",
+     "a": "1) Mobile schools for pastoral communities (spatial dispersion requires flexible infrastructure). 2) Conditional cash transfers for girls' secondary completion (economic barrier in agrarian economy). 3) Female teacher recruitment from same district (cultural barrier: parents won't send girls to male teachers). Poor answers give generic \"build more schools\" without addressing distance, opportunity cost, or socio-cultural constraints specific to the district's geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

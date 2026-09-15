@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_004",
+   "title": "c10_chem_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the general representation of a decomposition reaction? Write the symbolic equation.",
+     "a": "The general representation is AB → A + B, where a single compound AB decomposes into simpler substances A and B. A wrong answer (e.g., A + B → AB) reveals confusion with combination reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the decomposition of silver chloride require light, while calcium carbonate requires heat? Explain the difference in energy sources.",
+     "a": "Silver chloride decomposes via photolytic decomposition because its bonds can be broken by photon energy from light; calcium carbonate requires high thermal energy to break strong ionic bonds. A wrong answer that says both need heat shows misunderstanding of photolytic reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following equation for the thermal decomposition of lead nitrate: Pb(NO₃)₂(s) → PbO(s) + NO₂(g) + O₂(g). Identify the type of decomposition.",
+     "a": "Balanced equation: 2Pb(NO₃)₂(s) → 2PbO(s) + 4NO₂(g) + O₂(g). Type: Thermal decomposition. A wrong balance (e.g., missing coefficient 2 for PbO) reveals difficulty in balancing oxygen atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products of thermal decomposition of metal carbonates (e.g., CaCO₃) and metal nitrates (e.g., Cu(NO₃)₂). What pattern do you observe in the gaseous products?",
+     "a": "Metal carbonates decompose to metal oxide and CO₂; metal nitrates decompose to metal oxide, NO₂, and O₂. The pattern: carbonates give CO₂, nitrates give NO₂ and O₂. A wrong answer that says both give CO₂ shows lack of analysis of anion influence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the electrolytic decomposition of water as: H₂O(l) → H₂(g) + O₂(g). Is this equation correct? Justify your answer.",
+     "a": "The equation is not balanced. Correct balanced equation: 2H₂O(l) → 2H₂(g) + O₂(g). The student's equation violates the law of conservation of mass (oxygen atoms not balanced). A wrong evaluation that says it's correct reveals ignorance of balancing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate photolytic decomposition of silver bromide. List materials, procedure, and expected observation.",
+     "a": "Materials: Silver bromide (AgBr), watch glass, sunlight. Procedure: Spread AgBr on watch glass, expose to sunlight. Observation: Pale yellow AgBr turns grey due to formation of silver metal. A poor answer omits the color change or uses silver chloride without noting similar behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

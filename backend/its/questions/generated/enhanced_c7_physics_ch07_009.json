@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_009",
+   "title": "c7_physics_ch07_009",
+   "questions": [
+    {
+     "q": "What is an olfactory indicator?",
+     "a": "An olfactory indicator is a substance whose smell changes or remains unaffected depending on whether it is mixed with an acidic or basic medium. A wrong answer usually confuses olfactory indicators with visual indicators like litmus or turmeric, which change color instead of smell. Students need to remember that \"olfactory\" relates to the sense of smell.",
+     "self_check": true
+    },
+    {
+     "q": "Why does vanilla essence retain its characteristic smell in a test tube containing dilute hydrochloric acid, but lose its smell when mixed with sodium hydroxide solution?",
+     "a": "Vanilla essence retains its aroma in an acid because the scent molecules are not chemically altered or neutralized by acidic hydrogen ions, whereas basic hydroxide ions react with and alter the volatile compounds responsible for the fragrance. A wrong answer suggests that bases enhance smells or that acids destroy all organic molecules. Students must realize that basic solutions specifically disrupt the chemical structure of these scent compounds.",
+     "self_check": true
+    },
+    {
+     "q": "A student takes a cloth strip treated with onion extract. When 5 mL of vinegar (an acid) is added to one section, the onion smell persists. When 5 mL of lime water (a base) is added to another section, the onion smell disappears. Calculate the total volume of liquid used across both tests and state the final olfactory observation for the base-treated section.",
+     "a": "Steps:\n1. Identify given volumes: Vinegar volume = 5 mL, lime water volume = 5 mL.\n2. Calculate total volume: Total volume = 5 mL + 5 mL = 10 mL.\n3. Analyze the acid-treated section: Vinegar is acidic; therefore, the onion smell persists.\n4. Analyze the base-treated section: Lime water is basic; therefore, the onion smell disappears.\nAnswer: Total volume is 10 mL; the onion smell disappears in the base-treated section. A wrong calculation or observation indicates confusion between acid and base properties on olfactory indicators.",
+     "self_check": true
+    },
+    {
+     "q": "How can you use a piece of cotton cloth treated with clove oil to determine whether an unknown colourless liquid in a beaker is baking soda solution or a dilute solution of tamarind?",
+     "a": "Clove oil has a strong, distinct spicy aroma. When drops of the unknown liquid are placed on the cloth, if the clove smell disappears, the liquid is basic (baking soda solution). If the clove smell remains detectable, the liquid is acidic (tamarind solution). A wrong answer shows a failure to link the retention or destruction of the specific scent to the acidic or basic nature of the test liquid.",
+     "self_check": true
+    },
+    {
+     "q": "A laboratory assistant claims that adding soap solution to vanilla essence will make the vanilla smell even stronger because soap is a strong cleaning agent. Is this claim scientifically valid? Justify your answer.",
+     "a": "The claim is invalid because soap solution is basic in nature. Bases destroy or mask the characteristic fragrance of olfactory indicators like vanilla, so the scent would fade or disappear, not become stronger. A wrong answer reveals a misconception that cleaning agents amplify all pleasant smells instead of recognizing their basic chemical behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using onion juice and common kitchen items to test whether window cleaner is acidic or basic.",
+     "a": "Criteria for a good answer: The student should suggest soaking a cloth strip in onion juice, letting it dry, and then placing a few drops of window cleaner on it. If the raw onion smell vanishes, the window cleaner is basic; if the smell remains, it is acidic. A poor answer fails to use onion juice correctly or lacks a clear procedure for observing the change in smell.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

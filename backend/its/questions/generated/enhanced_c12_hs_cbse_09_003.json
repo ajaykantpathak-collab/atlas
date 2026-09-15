@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_003",
+   "title": "c12_hs_cbse_09_003",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: What is the additional energy requirement (in kcal/day) for an Indian woman during the first 6 months of exclusive lactation according to ICMR‑NIN 2020 RDA?",
+     "a": "The correct answer is **+600 kcal/day** over the sedentary adult woman’s RDA. A wrong answer (e.g., +350 kcal, which is the pregnancy increment) reveals that the student is confusing lactation increments with pregnancy increments or is using outdated RDA values.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why the protein increment during 0–6 months lactation (+19 g/day) is higher than during pregnancy (+9.5 g/day in the third trimester), even though the fetal growth rate is rapid in late pregnancy.",
+     "a": "During lactation, the mother secretes about 1.1 g protein per 100 mL of milk; for 750 mL/day this amounts to ~8.3 g protein secreted daily. With a net utilisation efficiency of ~70%, the dietary increment needed is ~19 g/day. In pregnancy, the fetal accretion is spread over months, and the mother’s metabolic adaptations (increased efficiency, reduced losses) lower the daily dietary increment. A wrong answer that simply states \"because the baby is bigger\" shows a lack of understanding of the metabolic efficiency differences and the direct secretory loss in milk.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A 25‑year‑old sedentary woman (RDA energy = 1900 kcal/day, protein = 46 g/day) begins exclusive breastfeeding. Calculate her total daily energy and protein requirements for the first 6 months. Show the calculation steps.",
+     "a": "**Steps:**  \n1. Base energy RDA (sedentary woman) = 1900 kcal/day.  \n2. Lactation increment (0–6 months) = +600 kcal/day.  \n3. Total energy = 1900 + 600 = **2500 kcal/day**.  \n4. Base protein RDA = 46 g/day.  \n5. Lactation protein increment (0–6 months) = +19 g/day.  \n6. Total protein = 46 + 19 = **65 g/day**.  \nA wrong answer that adds the pregnancy increment (+350 kcal, +9.5 g) instead of the lactation increment indicates the student cannot distinguish between the two physiological states.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the micronutrient increments for iron, calcium, and vitamin A during lactation (0–6 months) with those during pregnancy. Which nutrient shows the largest *relative* increase (percentage over base RDA) in lactation versus pregnancy, and why?",
+     "a": "**Analysis:**  \n- Iron: Pregnancy increment = +21 mg/day (base 21 mg → 100% increase); Lactation increment = 0 mg/day (base 21 mg → 0% increase) because menstrual losses are absent.  \n- Calcium: Pregnancy increment = +400 mg/day (base 600 mg → 67% increase); Lactation increment = +400 mg/day (base 600 mg → 67% increase).  \n- Vitamin A: Pregnancy increment = +100 µg/day (base 600 µg → 17% increase); Lactation increment = +350 µg/day (base 600 µg → 58% increase).  \n**Conclusion:** Vitamin A shows the largest relative increase in lactation (58% vs 17% in pregnancy) because milk is a major vehicle for vitamin A delivery to the infant, and maternal stores are rapidly depleted. A wrong answer picking iron or calcium indicates the student has not compared the percentage changes or is unaware that iron requirement does not rise during lactation.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A lactating mother is advised to consume 500 mL of toned milk (3% fat, 3.1 g protein/100 mL) daily to meet her calcium and protein increments. Critique this advice: Does 500 mL milk alone cover the *additional* calcium (+400 mg) and protein (+19 g) requirements for 0–6 months lactation? Justify with calculations.",
+     "a": "**Calculations:**  \n- Calcium in 500 mL toned milk ≈ 500 × 120 mg/100 mL = **600 mg** (covers the +400 mg increment).  \n- Protein in 500 mL toned milk = 500 × 3.1 g/100 mL = **15.5 g** (falls short of the +19 g increment by 3.5 g).  \n**Critique:** The advice adequately covers calcium but **does not fully meet the protein increment**; an additional 3.5 g protein (e.g., one egg or 30 g paneer) is needed. A wrong answer that says \"yes, milk covers both\" shows the student did not compute the protein shortfall or assumes milk protein content is higher.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a one‑day snack plan (three snacks) that provides exactly the *additional* energy (600 kcal) and protein (19 g) required for a mother in the first 6 months of lactation, using only common Indian foods (e.g., roasted chana, banana, peanut chikki, besan laddoo). List each snack with its quantity, energy, and protein content, and show the totals.",
+     "a": "**Example plan (values approximate from IFCT 2017):**  \n1. Roasted chana 50 g → 185 kcal, 10.5 g protein  \n2. Banana 1 medium (100 g) → 90 kcal, 1.2 g protein  \n3. Peanut chikki 30 g → 145 kcal, 4.5 g protein  \n**Total:** 420 kcal, 16.2 g protein → **still short by 180 kcal and 2.8 g protein**.  \nA good answer will adjust quantities or add a fourth item (e.g., 10 g ghee = 90 kcal, 0 g protein; 20 g paneer = 52 kcal, 3.6 g protein) to reach exactly 600 kcal and 19 g protein. A poor answer that only lists foods without calculations or that overshoots/undershoots significantly reveals the student cannot translate RDA increments into practical food combinations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

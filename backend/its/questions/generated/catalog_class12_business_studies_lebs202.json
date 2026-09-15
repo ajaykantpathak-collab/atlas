@@ -1,0 +1,408 @@
+{
+ "catalog": "catalog_class12_business_studies_lebs202",
+ "concepts": [
+  {
+   "id": "lebs.202.1.1",
+   "title": "Meaning and Nature of Marketing",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning and Nature of Marketing', work with: exchange_mechanism = 4, market_offering = 3, need_identification = 18. Carry the chain through step by step and give the final value of marketing.",
+     "a": "25 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning and Nature of Marketing' and work with: exchange_mechanism = 240, market_offering = 500, need_identification = 240. Carry the chain through step by step and give the final value of marketing.",
+     "a": "980 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning and Nature of Marketing' refers to.",
+     "a": "Marketing is the whole set of activities -- from sensing what buyers want before anything is produced to service after the sale -- through which goods and services flow from maker to user in exchange for value; it is a social process of creating offers and trading them freely.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Nature of Marketing'.",
+     "a": "Selling is only one spoke; the wheel starts before production and keeps turning after the product is sold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning and Nature of Marketing', in plain ASCII form.",
+     "a": "marketing = need_identification + market_offering + exchange_mechanism",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.2.1",
+   "title": "Marketing Management Philosophies",
+   "questions": [
+    {
+     "q": "Using the method 'Marketing Management Philosophies', work with: marketing_concept = 3, product_concept = 240, production_concept = 5, selling_concept = 500, societal_marketing_concept = 25. Carry the chain through step by step and give the final value of evolution_of_philosophies.",
+     "a": "773 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Marketing Management Philosophies' and work with: marketing_concept = 75, product_concept = 75, production_concept = 45, selling_concept = 18, societal_marketing_concept = 400. Carry the chain through step by step and give the final value of evolution_of_philosophies.",
+     "a": "613 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marketing Management Philosophies' refers to.",
+     "a": "Firms have progressed through five philosophies: the production concept chases availability and affordability, the product concept chases quality, the selling concept pushes whatever is made, the marketing concept starts from customer needs, and the societal marketing concept adds the long-run welfare of society to customer satisfaction and profit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marketing Management Philosophies'.",
+     "a": "Each step of the ladder widens the firm's attention -- from the factory, to the product, to the hard sell, to the customer, and finally to society.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marketing Management Philosophies', in plain ASCII form.",
+     "a": "evolution_of_philosophies = production_concept + product_concept + selling_concept + marketing_concept + societal_marketing_concept",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.3.1",
+   "title": "Marketing versus Selling",
+   "questions": [
+    {
+     "q": "Using the method 'Marketing versus Selling', work with: marketing_scope_is_much_wider = 6. Carry the chain through step by step and give the final value of selling_activity_transfers_ownership.",
+     "a": "6 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Marketing versus Selling' and work with: marketing_scope_is_much_wider = 75. Carry the chain through step by step and give the final value of selling_activity_transfers_ownership.",
+     "a": "75 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marketing versus Selling' refers to.",
+     "a": "Selling transfers ownership of a finished product for money, starting after production and ending with the sale; marketing is the far wider canvas that starts long before the product exists, keeps the customer's need at the centre, and profits through satisfaction and repeat business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marketing versus Selling'.",
+     "a": "Selling stares at the product and the day's turnover; marketing stares at the customer and the whole relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marketing versus Selling', in plain ASCII form.",
+     "a": "selling_activity_transfers_ownership = marketing_scope_is_much_wider",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.4.1",
+   "title": "Functions of Marketing",
+   "questions": [
+    {
+     "q": "Using the method 'Functions of Marketing', work with: branding = 50, customer_support = 200, market_information = 3, packaging_and_labelling = 80, physical_distribution = 24, pricing = 240, product_design = 240, promotion = 150, standardisation_and_grading = 40. Carry the chain through step by step and give the final value of functions_of_marketing.",
+     "a": "1027 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Functions of Marketing' and work with: branding = 15, customer_support = 12, market_information = 30, packaging_and_labelling = 10, physical_distribution = 24, pricing = 20, product_design = 15, promotion = 12, standardisation_and_grading = 400. Carry the chain through step by step and give the final value of functions_of_marketing.",
+     "a": "538 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Functions of Marketing' refers to.",
+     "a": "Marketing performs a chain of jobs: collecting and analysing market information, planning, designing and developing the product, standardising and grading, packaging and labelling, branding, fixing prices, promoting, distributing physically, transporting, warehousing and serving customers after the sale.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Marketing'.",
+     "a": "Every function either shapes the offer, informs the buyer, or moves and protects the goods on the way to the customer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functions of Marketing', in plain ASCII form.",
+     "a": "functions_of_marketing = market_information + product_design + standardisation_and_grading + packaging_and_labelling + branding + pricing + promotion + physical_distribution + customer_support",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.5.1",
+   "title": "Marketing Mix and its Elements",
+   "questions": [
+    {
+     "q": "Using the method 'Marketing Mix and its Elements', work with: place = 20, price = 120000, product = 10, promotion = 80. Carry the chain through step by step and give the final value of marketing_mix.",
+     "a": "120110 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Marketing Mix and its Elements' and work with: place = 75, price = 5000, product = 240, promotion = 24. Carry the chain through step by step and give the final value of marketing_mix.",
+     "a": "5339 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marketing Mix and its Elements' refers to.",
+     "a": "The marketing mix is the set of controllable tools a firm blends to answer its market: product (what is offered), price (what is charged), place (how it reaches buyers) and promotion (how buyers are told and persuaded), with each element carrying its own sub-decisions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marketing Mix and its Elements'.",
+     "a": "The mix must hang together -- a premium product with poor distribution or no promotion fails -- so the elements are chosen as one package.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marketing Mix and its Elements', in plain ASCII form.",
+     "a": "marketing_mix = product + price + place + promotion",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.6.1",
+   "title": "Classification of Products",
+   "questions": [
+    {
+     "q": "Using the method 'Classification of Products', work with: consumer_products = 75, industrial_products = 240. Carry the chain through step by step and give the final value of product_classes.",
+     "a": "315 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Classification of Products' and work with: consumer_products = 300, industrial_products = 8. Carry the chain through step by step and give the final value of product_classes.",
+     "a": "308 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Classification of Products' refers to.",
+     "a": "Products split into consumer products bought for personal use and industrial products used as inputs; consumer goods are further sorted by shopping effort into convenience, shopping and speciality products, and by durability into non-durable, durable and services.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Products'.",
+     "a": "The buyer's effort and the product's life decide the class, and the class decides the marketing treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classification of Products', in plain ASCII form.",
+     "a": "product_classes = consumer_products + industrial_products",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.7.1",
+   "title": "Branding and Brand Name",
+   "questions": [
+    {
+     "q": "Using the method 'Branding and Brand Name', work with: brand_mark = 120, brand_name = 15, trademark_protection = 25. Carry the chain through step by step and give the final value of brand_equity.",
+     "a": "160 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Branding and Brand Name' and work with: brand_mark = 75, brand_name = 30, trademark_protection = 60. Carry the chain through step by step and give the final value of brand_equity.",
+     "a": "165 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Branding and Brand Name' refers to.",
+     "a": "Branding gives a product an identity that separates it from identical rival offerings: the brand is the overall identification, the brand name is the speakable part, the brand mark is the design, and a registered brand becomes a trademark; a good name is short, distinctive, adaptable and lasting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Branding and Brand Name'.",
+     "a": "A brand turns a commodity into a promise, letting the firm charge differently and win repeat buyers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Branding and Brand Name', in plain ASCII form.",
+     "a": "brand_equity = brand_name + brand_mark + trademark_protection",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.8.1",
+   "title": "Packaging and Labelling",
+   "questions": [
+    {
+     "q": "Using the method 'Packaging and Labelling', work with: identification = 500, information = 150, promotion = 4, protection = 20. Carry the chain through step by step and give the final value of package_functions.",
+     "a": "674 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Packaging and Labelling' and work with: identification = 18, information = 60, promotion = 200, protection = 30. Carry the chain through step by step and give the final value of package_functions.",
+     "a": "308 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Packaging and Labelling' refers to.",
+     "a": "Packaging wraps the product at three levels -- primary wrapper, secondary carton and transport packaging -- protecting it, promoting it and easing use, while the label on the package identifies, describes, grades, promotes and legally warns through printed information.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Packaging and Labelling'.",
+     "a": "The package is the silent salesman on the shelf, and the label is the voice printed on it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Packaging and Labelling', in plain ASCII form.",
+     "a": "package_functions = protection + promotion + identification + information",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.9.1",
+   "title": "Factors Determining Price",
+   "questions": [
+    {
+     "q": "Using the method 'Factors Determining Price', work with: buyer_utility_ceiling_minus_cost_floor = 12000. Carry the chain through step by step and give the final value of price_band.",
+     "a": "12000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Factors Determining Price' and work with: buyer_utility_ceiling_minus_cost_floor = 50000. Carry the chain through step by step and give the final value of price_band.",
+     "a": "50000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Factors Determining Price' refers to.",
+     "a": "The price a firm settles on is pulled by several forces: the cost of the product setting the floor, the utility and demand of the buyer setting the ceiling, the extent of competition, government regulation of prices, the firm's own pricing objectives and the marketing methods in use.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Determining Price'.",
+     "a": "Cost says do not go below, demand says do not go above, and competition, law and objectives squeeze the band further.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Factors Determining Price', in plain ASCII form.",
+     "a": "price_band = buyer_utility_ceiling_minus_cost_floor",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.10.1",
+   "title": "Physical Distribution and its Components",
+   "questions": [
+    {
+     "q": "Using the method 'Physical Distribution and its Components', work with: inventory_control = 8, order_processing = 3, transportation = 8, warehousing = 15. Carry the chain through step by step and give the final value of physical_distribution.",
+     "a": "34 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Physical Distribution and its Components' and work with: inventory_control = 80, order_processing = 500, transportation = 5, warehousing = 360. Carry the chain through step by step and give the final value of physical_distribution.",
+     "a": "945 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Physical Distribution and its Components' refers to.",
+     "a": "Physical distribution carries the product physically from the factory to the customer through four linked decisions: order processing, transportation, warehousing and inventory control, all aimed at the right goods arriving at the right place and time at least cost.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Physical Distribution and its Components'.",
+     "a": "Distribution decisions trade service level against cost -- more warehouses and faster transport please customers but eat margins.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Physical Distribution and its Components', in plain ASCII form.",
+     "a": "physical_distribution = order_processing + transportation + warehousing + inventory_control",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.11.1",
+   "title": "Promotion Mix and its Tools",
+   "questions": [
+    {
+     "q": "Using the method 'Promotion Mix and its Tools', work with: advertising = 80, personal_selling = 400, publicity = 60, sales_promotion = 8000. Carry the chain through step by step and give the final value of promotion_mix.",
+     "a": "8540 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Promotion Mix and its Tools' and work with: advertising = 8, personal_selling = 3, publicity = 4, sales_promotion = 5000. Carry the chain through step by step and give the final value of promotion_mix.",
+     "a": "5015 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Promotion Mix and its Tools' refers to.",
+     "a": "The promotion mix is the blend of four communication tools -- advertising, personal selling, sales promotion and publicity or public relations -- chosen together so that buyers learn about, trust and buy the product.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Promotion Mix and its Tools'.",
+     "a": "Mass tools build reach and image; face-to-face tools build conviction; the right blend depends on the product and the market.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Promotion Mix and its Tools', in plain ASCII form.",
+     "a": "promotion_mix = advertising + personal_selling + sales_promotion + publicity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.12.1",
+   "title": "Advertising and Personal Selling",
+   "questions": [
+    {
+     "q": "Using the method 'Advertising and Personal Selling', work with: personal_selling_reach_is_direct_and_flexible = 500. Carry the chain through step by step and give the final value of advertising_reach_is_mass_and_impersonal.",
+     "a": "500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Advertising and Personal Selling' and work with: personal_selling_reach_is_direct_and_flexible = 25. Carry the chain through step by step and give the final value of advertising_reach_is_mass_and_impersonal.",
+     "a": "25 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Advertising and Personal Selling' refers to.",
+     "a": "Advertising is a paid, impersonal message from an identified sponsor reaching a mass audience at low cost per contact, while personal selling is an oral, face-to-face presentation that is flexible, gives instant feedback and closes the sale -- the two differ on reach, cost, feedback and flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Advertising and Personal Selling'.",
+     "a": "Advertising whispers to millions and cannot answer back; the salesperson speaks to one and can.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Advertising and Personal Selling', in plain ASCII form.",
+     "a": "advertising_reach_is_mass_and_impersonal = personal_selling_reach_is_direct_and_flexible",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.202.13.1",
+   "title": "Sales Promotion Techniques",
+   "questions": [
+    {
+     "q": "Using the method 'Sales Promotion Techniques', work with: short_term_incentive_plus_immediate_purchase = 2500. Carry the chain through step by step and give the final value of sales_promotion_effect.",
+     "a": "2500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sales Promotion Techniques' and work with: short_term_incentive_plus_immediate_purchase = 12000. Carry the chain through step by step and give the final value of sales_promotion_effect.",
+     "a": "12000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sales Promotion Techniques' refers to.",
+     "a": "Sales promotion is the short-term incentive layer of promotion -- rebates, discounts, refunds, product combinations, quantity gifts, lucky draws, contests, sampling and zero-percent finance -- used to push buyers to act now and to back up advertising and selling.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sales Promotion Techniques'.",
+     "a": "Where advertising persuades slowly, a time-limited offer makes the customer buy on the spot.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sales Promotion Techniques', in plain ASCII form.",
+     "a": "sales_promotion_effect = short_term_incentive_plus_immediate_purchase",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

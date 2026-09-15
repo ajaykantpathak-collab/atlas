@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_010",
+   "title": "c12_cs_cbse_03_010",
+   "questions": [
+    {
+     "q": "A student says: \"A webpage that uses JavaScript to show a live clock is dynamic because the content changes.\" Is this statement correct? Explain why or why not in 2-3 sentences.",
+     "a": "No, the statement is incorrect. A live clock implemented purely with client-side JavaScript runs in the browser after the static HTML/CSS/JS files are delivered — the server still sends the same fixed files to every user. Dynamic pages are defined by server-side content generation before the response is sent, not by client-side interactivity. A wrong answer reveals confusion between client-side dynamism (interactivity) and server-side dynamism (personalized content generation).",
+     "self_check": true
+    },
+    {
+     "q": "Two websites: Site A serves the same `about.html` file to every visitor. Site B runs a Python script that reads the visitor's IP, looks up their city in a GeoIP database, and inserts \"Welcome to [City]!\" into the HTML before sending it. Which site uses static delivery and which uses dynamic delivery? What happens to the server's CPU and memory usage per request in each case?",
+     "a": "Site A is static; Site B is dynamic. For Site A, the server only reads a file from disk and sends it — minimal CPU/memory. For Site B, the server must start/execute a Python process, query a database, perform string interpolation, and then send the response — significantly higher CPU and memory per request. A wrong answer (e.g., saying both are static because they send HTML) shows the student doesn't grasp that dynamic pages involve server-side computation, not just the final output format.",
+     "self_check": true
+    },
+    {
+     "q": "A small bakery wants a website showing their menu, location, and opening hours. The menu changes once a quarter. The owner has no technical staff and a ₹5,000/year hosting budget. Recommend static or dynamic. Justify with three specific technical reasons.",
+     "a": "Recommend static. Reasons: (1) Content changes infrequently — no need for a CMS or database; (2) Static hosting (GitHub Pages, Netlify) is free or near-zero cost, fitting the budget; (3) No server-side code means zero attack surface for injection attacks and no patching burden. A wrong recommendation of \"dynamic for easy updates\" ignores the cost/complexity mismatch — a dynamic site requires a database, backend, and paid hosting, which exceeds the budget and skill set.",
+     "self_check": true
+    },
+    {
+     "q": "Compare caching behavior: A static `product.html` page vs a dynamic `/product?id=123` page that fetches data from a database. Explain how a CDN (Content Delivery Network) would treat each, and what header the dynamic page must send to prevent stale cached content.",
+     "a": "The static page is cached aggressively by CDNs (edge servers) because the content is identical for all users — `Cache-Control: public, max-age=31536000` is typical. The dynamic page must send `Cache-Control: private, no-store` (or `no-cache` with revalidation) because the content is user-specific; caching it at the CDN would show User A's data to User B. A wrong answer (e.g., \"both can be cached the same way\") reveals ignorance of cache-key semantics and the security risk of caching personalized data.",
+     "self_check": true
+    },
+    {
+     "q": "A developer claims: \"Static sites are always faster than dynamic sites.\" Evaluate this claim. Provide one scenario where a dynamic page could feel faster to the user, and one where a static page is definitively faster.",
+     "a": "The claim is false. Dynamic can feel faster when: the server uses server-side rendering (SSR) with a warm cache and sends a fully rendered HTML response in <100ms, while a static site loads a large JS bundle that hydrates slowly on a weak mobile CPU. Static is definitively faster for: a simple blog post on a global CDN — the file is served from an edge node 10ms away with zero server computation. A wrong evaluation (e.g., \"static always wins\") shows lack of understanding of client-side hydration costs and SSR optimizations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid architecture for a news website: the homepage and article pages must be SEO-friendly and load instantly; the \"My Feed\" page shows personalized recommendations. Specify which pages are static, which are dynamic, and how they share a common header/footer without duplicating code.",
+     "a": "Homepage and article pages: pre-rendered static HTML (generated at build time or via incremental static regeneration). \"My Feed\": dynamic, server-rendered per request with user session. Shared header/footer: use a templating engine (e.g., Jinja2, Nunjucks) at build time for static pages, and the same template partials at request time for the dynamic page — or use a headless CMS with a component library that outputs HTML fragments for both contexts. A poor answer (e.g., \"make everything dynamic for consistency\") misses the performance/SEO benefits of static rendering for public content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc103.json",
+ "concepts": [
+  {
+   "id": "jesc.103.3.1",
+   "title": "Physical Properties of Metals and Non-metals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State two physical properties each of metals and non-metals.",
+     "a": "Metals: lustrous, good conductors, sonorous, malleable. Non-metals: dull, poor conductors, brittle.",
+     "self_check": true
+    },
+    {
+     "q": "Name a non-metal that conducts electricity and a metal that is liquid at room temperature.",
+     "a": "Graphite conducts; mercury is the liquid metal.",
+     "self_check": true
+    },
+    {
+     "q": "Why can metals be drawn into wires?",
+     "a": "Metals are ductile - their layers of atoms can slide without breaking the metallic bond.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.103.3.2",
+   "title": "Chemical Properties - Reactions of Metals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when iron reacts with steam?",
+     "a": "Iron oxide (Fe3O4) and hydrogen gas form - iron does not react with cold or hot water, only steam.",
+     "self_check": true
+    },
+    {
+     "q": "Why is sodium stored in kerosene?",
+     "a": "Sodium reacts so fast with air and moisture that it catches fire; kerosene keeps air away.",
+     "self_check": true
+    },
+    {
+     "q": "What is an amphoteric oxide? Give an example.",
+     "a": "An oxide reacting with both acids and bases, e.g. aluminium oxide or zinc oxide.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.103.3.3",
+   "title": "Metallurgy - Extraction and Corrosion",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Arrange the steps of extracting a metal from its sulphide ore.",
+     "a": "Concentration of ore, roasting in air to oxide, then reduction of the oxide to metal (and refining).",
+     "self_check": true
+    },
+    {
+     "q": "Why is aluminium used to reduce metal oxides like manganese dioxide?",
+     "a": "Aluminium is highly reactive and its reaction with oxides releases great heat (thermite), reducing them to metal.",
+     "self_check": true
+    },
+    {
+     "q": "What is anode mud?",
+     "a": "The insoluble impurities that collect below the anode during electrolytic refining of a metal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

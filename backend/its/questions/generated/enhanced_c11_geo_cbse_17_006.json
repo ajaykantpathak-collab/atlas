@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_006",
+   "title": "c11_geo_cbse_17_006",
+   "questions": [
+    {
+     "q": "According to the Census of India 2011, what is the minimum population size and the key criterion used to define a \"slum\" in a statutory town?",
+     "a": "A slum is defined as a compact area of at least 300 population or about 60-70 households of poorly built, congested tenements in an unhygienic environment usually with inadequate infrastructure and lacking proper sanitary and drinking water facilities. A wrong answer (e.g., \"any area with poor people\" or \"population 5000\") reveals the student is using a colloquial understanding instead of the precise Census definition required for board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"push factor\" of rural distress and the \"pull factor\" of urban employment together lead to slum formation rather than planned urban expansion in Indian cities.",
+     "a": "Rural distress (agrarian crisis, land fragmentation) pushes migrants who lack capital and skills; urban pull offers informal sector jobs but no affordable housing. City master plans fail to allocate land for low-income housing, forcing migrants onto marginal lands (floodplains, hill slopes, railway sides) creating slums. A wrong answer that only mentions \"population growth\" misses the structural mismatch between labour absorption and housing supply — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of \"carrying capacity,\" calculate the approximate vehicle density (vehicles per km of road) for Delhi if the registered vehicle count is 12 million and the total road length is 33,000 km. Interpret whether this exceeds the threshold for severe congestion.",
+     "a": "Step 1: Vehicle density = Total registered vehicles / Total road length = 12,000,000 / 33,000 ≈ 364 vehicles/km. Step 2: Compare with the Ministry of Road Transport threshold: >300 vehicles/km indicates severe congestion. Step 3: Conclusion: Delhi exceeds the threshold, confirming severe congestion. A wrong calculation (e.g., using lane-km instead of road-km) or missing the interpretation step shows inability to apply quantitative thresholds to geographical diagnosis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial pattern of air pollution (PM2.5) in the Indo-Gangetic Plain during winter versus summer. Explain the role of meteorology and urban emissions in creating this pattern.",
+     "a": "Winter: Stable atmospheric conditions (low mixing height, temperature inversion, low wind speed) trap emissions from vehicles, industry, and biomass burning, creating a persistent high-PM2.5 corridor from Punjab to West Bengal. Summer: Deep convective mixing and higher wind speeds disperse pollutants, lowering concentrations despite similar emissions. A student who only lists sources (vehicles, stubble burning) without linking to meteorological trapping mechanisms fails to analyze the *spatial-temporal pattern* — a key board exam requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Smart Cities Mission solves urban congestion by building more flyovers and widening roads.\" Use the concept of induced demand and sustainable mobility.",
+     "a": "The statement is flawed. Flyovers and road widening induce more private vehicle trips (induced demand), shifting congestion to junctions and failing long-term. Sustainable mobility requires public transport integration, non-motorized transport, and transit-oriented development — core to Smart Cities Mission but often under-implemented. A student agreeing with the statement reveals a \"predict and provide\" engineering mindset instead of geographical systems thinking about travel demand management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map for a Class 11 project showing the spatial correlation between slum clusters, major traffic congestion nodes, and air quality monitoring stations exceeding NAAQS in any one Indian megacity (e.g., Mumbai, Delhi, Kolkata). List the data sources you would use.",
+     "a": "A good answer includes: Base map (ward boundaries), slum layer (Census 2011 slum enumeration blocks or state slum survey), congestion nodes (traffic police junction volume data or Google Maps typical traffic layer), AQI stations (CPCB/SAFAR real-time data), annotations linking co-location (e.g., \"M-East ward: 77% slum population, 3 congestion junctions, PM2.5 annual avg 120 µg/m³\"). Data sources: Census GIS, City Traffic Police, CPCB, SAFAR, OpenStreetMap. A poor answer uses only one data source or shows no spatial correlation reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

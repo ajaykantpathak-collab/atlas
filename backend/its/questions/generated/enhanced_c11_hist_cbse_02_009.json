@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_009",
+   "title": "c11_hist_cbse_02_009",
+   "questions": [
+    {
+     "q": "In which year did the Roman Empire officially split into eastern and western administrative halves, and who was the emperor responsible?",
+     "a": "The formal division occurred in 395 CE upon the death of Theodosius I, when the empire was divided between his sons Arcadius (East) and Honorius (West). A wrong answer (e.g., Diocletian in 286 CE) reveals confusion between the *Tetrarchy* (administrative decentralization with shared sovereignty) and the *permanent dynastic partition* of 395 CE — a critical distinction because the Tetrarchy was designed to manage unity, while the 395 split reflected irreversible divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Roman government stopped minting silver denarii and switched to gold solidi as the primary currency in the fourth century.",
+     "a": "The Spanish silver mines (Rio Tinto) were exhausted by the mid-third century, and the state lacked bullion to maintain a stable silver currency; Constantine introduced the gold solidus (4.5g pure gold) because gold was available from eastern trade and African mines, and its high value-per-weight made it practical for military pay and imperial taxation. A wrong answer citing \"inflation alone\" misses the *supply-side constraint* — you cannot mint silver coins without silver — and confuses symptom (inflation) with cause (bullion famine).",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The Western Roman Empire fell because Germanic tribes were militarily superior.\" Using evidence from the third and fourth centuries, evaluate this claim.",
+     "a": "The claim is incorrect. Germanic groups (Goths, Vandals, Franks) had *inferior* equipment and organization compared to the Roman *comitatenses*; they succeeded because Rome *recruited* them as *foederati* (federate troops) due to manpower shortages and fiscal exhaustion — e.g., Valens settled Goths in 376 CE as allies, not conquerors. A wrong answer accepting \"military superiority\" ignores the *internal* causes: the Roman army became dependent on non-citizen mercenaries because the citizen-taxpayer base collapsed, turning the frontier from a defended line into a negotiated zone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fiscal responses of Diocletian (284–305 CE) and Constantine (306–337 CE) to the third-century monetary crisis. How did their solutions differ in long-term impact?",
+     "a": "Diocletian attempted *price controls* (Edict on Maximum Prices, 301 CE) and *tax-in-kind* (annona) to bypass broken currency — a command-economy approach that failed because it ignored market forces. Constantine *reformed the currency* by introducing the gold solidus and *monetized taxation* (collecting taxes in gold), restoring trust and enabling a fiscal-military recovery in the East. A wrong answer treating both as \"currency reform\" misses the paradigm shift: Diocletian froze the economy; Constantine re-monetized it on a gold standard that lasted 700 years in Byzantium.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the argument: \"The Western Empire collapsed because it lost its tax base (North Africa) to the Vandals in 429 CE, while the East retained Egypt and Anatolia.\" Is this sufficient explanation?",
+     "a": "The loss of North Africa (429–439 CE) was a *decisive blow* — it cut off the West's primary grain and revenue source (Africa produced 40% of Western revenue) — but it is *not sufficient alone*. The West had already lost effective control of Gaul, Spain, and Britain to Germanic kingdoms *before* 429 CE, and its army was largely *foederati* with divided loyalties. The East survived because it had *urbanized, monetized provinces* (Egypt, Asia Minor, Syria) *and* a functioning bureaucracy that could redirect resources. A wrong answer treating Africa as \"the cause\" confuses the *final straw* with the *structural weakness* built over a century.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a causal chain diagram (minimum 6 links) connecting the exhaustion of Spanish silver mines (c. 200 CE) to the deposition of Romulus Augustulus (476 CE). Label each link as economic, military, or political.",
+     "a": "1. Spanish silver mines exhausted (c. 200 CE) → **Economic** (bullion famine)\n2. Denarius debased to <5% silver (235–284 CE) → **Economic** (currency collapse)\n3. Soldiers demand pay in gold/kind; state imposes *annona* (tax-in-kind) → **Economic/Military** (fiscal militarization)\n4. Landowners flee tax burdens; *coloni* bound to soil (origins of serfdom) → **Economic/Political** (rural immobilization)\n5. Army recruits Germanic *foederati*; frontier becomes settlement zone → **Military/Political** (loss of monopoly on force)\n6. Vandals take Carthage (439 CE); West loses African revenue → **Economic** (fiscal terminal crisis)\n7. Ricimer (Germanic general) makes/unseats emperors; Odoacer deposes Romulus (476 CE) → **Political** (sovereignty transfer)\nA poor answer lists events without *causal labeling* or misses the *feedback loop* between fiscal decline and military barbarization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

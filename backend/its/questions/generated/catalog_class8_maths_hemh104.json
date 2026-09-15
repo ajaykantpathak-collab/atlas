@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class8_maths_hemh104.json",
+ "concepts": [
+  {
+   "id": "hemh.104.4.1",
+   "title": "Organising Data with Tally Marks",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 4 + 7 gives 13",
+     "compute": "total = 2 + 4 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 2, 4 and 7. Find the total frequency.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 2 units. If a row shows 9 symbols, what value does it represent?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 2 units, how many symbols represent 28 units?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 5 books. A bar is 7 units tall. How many books does it show?",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 55 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 45 out of 180 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.4.2",
+   "title": "Circle Graphs and Drawing Pie Charts",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 12 x 6/7.",
+     "a": "72/7",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/6 of 24.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 4/8 and 5/4.",
+     "a": "5/8",
+     "self_check": false
+    },
+    {
+     "q": "Divide 8/2 by 8/5.",
+     "a": "5/2",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 3/6 and give it as a fraction.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 3/7 and 3/7 (same denominator).",
+     "a": "6/7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.4.3",
+   "title": "Random Experiments and Equally Likely Outcomes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 6 (there are 4 such outcomes). (give the fraction)",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.104.4.4",
+   "title": "Probability of an Event",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 7 (there are 5 such outcomes). (give the fraction)",
+     "a": "5/36",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

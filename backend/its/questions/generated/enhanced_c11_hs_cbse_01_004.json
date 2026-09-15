@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_01_004",
+   "title": "c11_hs_cbse_01_004",
+   "questions": [
+    {
+     "q": "Define 'family' in the context of Human Ecology and Family Sciences, distinguishing it from a 'household'.",
+     "a": "In HEFS, family is defined as a kinship-based social unit bound by emotional ties, mutual obligations, and intergenerational continuity, functioning as the primary context for human development. A household is a residential and economic unit (people sharing a kitchen and roof) which may or may not be a family (e.g., flatmates). A wrong answer that equates family with household reveals a confusion between structural residence and functional relationships, ignoring the developmental and ecological significance of kinship bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the family is considered the 'central social unit' for individual development, using the concept of 'mediation' between the individual and society.",
+     "a": "The family mediates macro-level forces (economic policies, cultural norms, media influences) into micro-level daily experiences (meal routines, language use, value transmission, stress buffering). For example, a family's response to a parent's job loss (macro-economic event) determines the adolescent's nutritional intake, emotional security, and educational continuity (micro-developmental outcomes). A wrong answer that lists functions (socialization, economic support) without explaining the *mediating process* shows a static, checklist understanding rather than a dynamic ecological perspective.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old girl in a single-mother household in urban Mumbai manages her younger sibling's homework, prepares dinner, and negotiates with the landlord for rent extension while her mother works a 12-hour shift. Identify three family processes demonstrated here and explain how they contribute to her development.",
+     "a": "1. **Role allocation/parentification**: She assumes caregiving and managerial roles, developing responsibility and executive function but risking emotional burden. 2. **Resource management**: She stretches limited time/money, building practical problem-solving skills. 3. **Emotional regulation/co-regulation**: She suppresses her own fatigue to support sibling/mother, learning empathy but potentially delaying self-care. A wrong answer that only labels this as 'chores' or 'maturity' misses the developmental trade-offs and the systemic nature of family processes where individual development is shaped by structural constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the developmental affordances of a three-generation joint family in a rural setting versus a dual-career nuclear family in a metropolitan city for an adolescent's identity formation. Use the ecological concepts of 'proximal processes' and 'ecological transition'.",
+     "a": "Joint family: Multiple caregivers provide diverse proximal processes (grandmother's storytelling, uncle's mentoring, cousin peer group), offering rich identity scripts but potential role confusion. Ecological transitions (e.g., marriage of a cousin) are collective, buffering stress. Nuclear family: Fewer but more intensive proximal processes with parents; identity negotiation is more autonomous but lonely during transitions (e.g., parent job transfer). The adolescent in the nuclear family experiences a sharper ecological transition when entering boarding school, while the joint family adolescent transitions gradually through shared rituals. A wrong answer that merely lists 'more people vs. fewer people' fails to analyze the *quality and pattern* of interactions (proximal processes) and the *nature of life changes* (ecological transitions).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The traditional Indian joint family is inherently better for adolescent well-being than the modern nuclear family because it provides more social support.\" Use evidence from family systems theory and the concept of 'family resilience'.",
+     "a": "The statement is an oversimplification. Family resilience depends on *processes* (communication clarity, flexibility, shared meaning-making) not *structure* alone. A joint family with rigid hierarchies, suppressed autonomy, and intergenerational conflict can undermine adolescent agency. A nuclear family with democratic communication, external support networks (friends, counselors), and adaptive coping can foster higher well-being. Research shows family *functioning* (cohesion, adaptability) predicts outcomes better than family *type*. A wrong answer that agrees/disagrees based on personal preference or cultural stereotype reveals a lack of systems thinking and evidence-based evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 'Family Ecological Map' for a hypothetical adolescent that visually represents the family as a system nested within three larger systems (school, community, media culture). Show bidirectional influences with specific examples of resource flows and stressors.",
+     "a": "A good map places the adolescent at the center, surrounded by family subsystem (parents, siblings, grandparents) with arrows showing: emotional support ↔ academic pressure; financial resources ↔ time scarcity. School system: teacher expectations → family schedule; family advocacy → school accommodations. Community: neighborhood safety → outdoor play; family participation → community cohesion. Media culture: digital access → skill building; algorithmic content → value conflicts. Each arrow is labeled with a specific resource/stressor. A poor map shows only one-directional arrows or generic labels like 'influence', indicating failure to grasp reciprocal determinism and the specificity of ecological exchange.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_005",
+   "title": "c12_geo_cbse_12_005",
+   "questions": [
+    {
+     "q": "Name the river on which Bhakra Dam is built and the reservoir it creates. Which three states are the primary beneficiaries of its irrigation and power?",
+     "a": "Bhakra Dam is on the **Sutlej River** creating **Gobind Sagar Reservoir**. Primary beneficiary states: **Punjab, Haryana, Rajasthan** (also Himachal Pradesh gets 12% free power royalty). A wrong answer (e.g., naming Beas or Ravi) reveals confusion between Indus tributaries — students often mix up Bhakra (Sutlej) with Pong Dam (Beas) or Thein Dam (Ravi). Misidentifying beneficiary states (e.g., including Uttar Pradesh) shows lack of awareness of the inter-state agreement (1981) and the Rajasthan Feeder Canal's role.",
+     "self_check": true
+    },
+    {
+     "q": "Why was Damodar Valley Corporation (DVC) called the \"Sorrow of Bengal\" before the project, and how did the project's design specifically address this compared to Bhakra-Nangal?",
+     "a": "The Damodar River caused **annual devastating floods** in the lower Bengal plains due to its **flashy regime** (short, intense monsoon discharge from Chota Nagpur plateau) and **high sediment load** raising the riverbed. DVC addressed this with **multiple low dams (Tilaiya, Maithon, Panchet, Konar)** creating **detention storage** for flood moderation, unlike Bhakra's single high **gravity dam** designed for **over-year storage** in a perennial Himalayan river. A wrong answer citing \"irrigation as primary goal\" for DVC reveals misunderstanding: DVC's *primary* mandate was flood control + industrial power; irrigation was secondary. Confusing it with Bhakra's design shows failure to link river regime (Himalayan vs. Peninsular) to dam design.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data: Bhakra Dam height = 226 m, Gobind Sagar live storage = 7.19 billion cubic meters (BCM). Damodar Valley's Maithon Dam height = 50 m, live storage = 0.47 BCM. Calculate the approximate storage-to-height ratio for each. What does this contrast reveal about their operational strategies?",
+     "a": "**Bhakra:** 7.19 BCM / 226 m ≈ **0.0318 BCM/m**. **Maithon:** 0.47 BCM / 50 m ≈ **0.0094 BCM/m**. Bhakra's ratio is ~3.4× higher. **Interpretation:** Bhakra's high ratio reflects a **deep, narrow Himalayan gorge** enabling massive *over-year storage* (carryover across dry years) for assured irrigation. Maithon's low ratio reflects a **wide, shallow valley** on a plateau river where storage is limited; the project relies on *multiple dams in series* for *within-year flood moderation* and run-of-river power. A student calculating only absolute storage (7.19 vs 0.47) misses the geomorphic control on design strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inter-state water sharing disputes associated with Bhakra-Nangal and Damodar Valley. Why has Bhakra seen more legal/contested negotiations (e.g., 1981 Agreement, SYL Canal issue) while DVC operates under a central corporation?",
+     "a": "**Bhakra-Nangal:** Involves **three riparian states (Punjab, Haryana, Rajasthan)** with competing claims on a *shared river (Sutlej)* after Punjab's reorganization (1966). The **1981 Agreement** allocated fixed shares, but the **Sutlej-Yamuna Link (SYL) Canal** to transfer Haryana's share remains incomplete due to Punjab's opposition — a classic **upper vs. lower riparian conflict** within a federal structure. **DVC:** Created by a **Central Act (1948)** as a **statutory corporation** covering Jharkhand (then Bihar) and West Bengal. The *Damodar is fully contained* within the DVC command area; water allocation is managed *administratively by the Centre*, not by bilateral state negotiation. A wrong answer claiming \"DVC has no disputes\" ignores the **Jharkhand-West Bengal tension over water diversion for Kolkata vs. industrial use**, but correctly identifying the *institutional mechanism* (Central corporation vs. inter-state agreement) is key.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bhakra-Nangal enabled the Green Revolution; Damodar Valley enabled the industrial revolution in eastern India.\" Is this an oversimplification? Justify with two specific pieces of evidence for each project.",
+     "a": "**Not a full oversimplification but incomplete.** **Bhakra evidence:** (1) Provided **assured irrigation to 1.4 M ha** in Punjab-Haryana, enabling **high-yielding wheat/rice varieties** (Green Revolution core). (2) **Cheap hydro-power (1,325 MW)** ran tubewells for groundwater irrigation — *but* this caused **groundwater depletion** (c12_geo_cbse_12_003) and **soil salinity** (NCERT p.44). **DVC evidence:** (1) **Thermal power stations (Bokaro, Chandrapura, Durgapur)** supplied **base-load power to steel plants** (Bokaro, Durgapur, Rourkela) — *but* DVC's *hydro* component is minor (144 MW). (2) **Flood control** protected **coal mines (Jharia, Raniganj)** and **rail/road networks** — *but* **sedimentation** reduced reservoir capacity by ~40% (Maithon), limiting long-term flood moderation. **Nuance:** Both projects had *unintended ecological costs* (displacement, waterlogging, salinity) not captured in the \"revolution\" narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point \"Sustainability Audit\" checklist for a *new* multipurpose project on a Himalayan river (like Bhakra) vs. a Peninsular river (like Damodar). For each point, specify the *indicator* and the *threshold* that would trigger a red flag.",
+     "a": "**Himalayan River (Bhakra-type) Audit:**\n1. **Sedimentation Rate:** Indicator = % live storage lost/decade. **Red flag: > 1%/year** (Bhakra loses ~0.5%/yr; high Himalayan erosion risk).\n2. **Seismic Safety:** Indicator = Maximum Credible Earthquake (MCE) vs. Design Basis Earthquake (DBE). **Red flag: MCE > DBE + 0.5g** (Himalayas = Zone IV/V).\n3. **Downstream Flow Regime:** Indicator = % of lean-season flow released. **Red flag: < 20% of virgin lean flow** (impacts delta ecology, groundwater recharge).\n\n**Peninsular River (DVC-type) Audit:**\n1. **Reservoir Sedimentation:** Indicator = % dead storage filled. **Red flag: > 30% in 25 years** (Maithon lost ~40% in 60 yrs; plateau rivers carry coarse sediment).\n2. **Water Quality (Industrial):** Indicator = Heavy metal concentration (Hg, Pb, As) in reservoir. **Red flag: > CPCB Class C limits** (DVC area has coal mining/metallurgy).\n3. **Displacement & Rehabilitation:** Indicator = % displaced families with secure livelihood after 5 years. **Red flag: < 60%** (DVC displaced ~50,000; tribal rehabilitation remains incomplete).\n\nA poor answer lists generic \"environmental impact\" without *quantifiable indicators* or *river-type-specific thresholds*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

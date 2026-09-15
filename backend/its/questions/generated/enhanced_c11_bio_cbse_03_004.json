@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_004",
+   "title": "c11_bio_cbse_03_004",
+   "questions": [
+    {
+     "q": "Define the term 'amphibians of the plant kingdom' as applied to bryophytes. State the specific biological reason for this analogy.",
+     "a": "Bryophytes are called amphibians of the plant kingdom because they live in soil (terrestrial habitat) but require an external film of water for sexual reproduction — specifically for the flagellated antherozoids to swim to the archegonium. A wrong answer (e.g., 'they live both in water and on land') reveals confusion with the zoological meaning of amphibian and misses the critical link between water dependence and fertilization biology.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a green, ribbon-like, dorsiventral thallus with gemma cups on its upper surface and unicellular rhizoids below. She identifies it as a moss. Explain why this identification is incorrect and name the correct group.",
+     "a": "The described features — dorsiventral thallus, gemma cups for asexual reproduction, and unicellular rhizoids — are characteristic of liverworts (e.g., *Marchantia*), not mosses. Mosses have an upright leafy gametophore with multicellular rhizoids and lack gemma cups. A wrong answer indicates the student cannot differentiate liverwort and moss gametophyte morphology and asexual structures.",
+     "self_check": true
+    },
+    {
+     "q": "In the life cycle of *Funaria* (moss), a spore germinates to form a filamentous, branched structure. Name this structure and explain its biological significance in the moss life cycle.",
+     "a": "The structure is the protonema. It is the first stage of the moss gametophyte, developing directly from the haploid spore. Its significance: (1) it increases surface area for photosynthesis and absorption; (2) it produces lateral buds that develop into the leafy gametophore (the second, dominant stage). A wrong answer (e.g., 'prothallus' or 'rhizoid') confuses moss protonema with the pteridophyte gametophyte or misidentifies the function of rhizoids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sporophyte of a liverwort (e.g., *Marchantia*) and a moss (e.g., *Funaria*) in terms of (a) structural complexity, (b) duration of dependence on gametophyte, and (c) mechanism of spore dispersal.",
+     "a": "(a) Liverwort sporophyte is simple: foot, seta, capsule; moss sporophyte is more elaborate with a distinct foot, long seta, capsule with operculum and peristome teeth. (b) In both, sporophyte is dependent on gametophyte, but moss sporophyte persists longer due to photosynthetic capsule and seta. (c) Liverworts lack specialized dispersal; mosses have hygroscopic peristome teeth that regulate spore release. A wrong answer that claims liverworts have peristome teeth or that moss sporophyte is independent reveals misunderstanding of sporophyte evolution and dispersal adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The dominant generation in bryophytes is the sporophyte because it produces spores through meiosis.\" Identify the error and correct it with reasoning.",
+     "a": "The statement is incorrect. In bryophytes, the dominant, independent, photosynthetic generation is the haploid gametophyte (thallus or leafy shoot). The sporophyte is diploid, short-lived, nutritionally dependent on the gametophyte, and produces spores by meiosis. The error confuses 'dominance' (ecological independence and longevity) with 'meiotic function'. A student making this error has not grasped the alternation of generations concept where 'dominant' refers to the free-living phase, not the phase where meiosis occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation experiment to demonstrate that bryophytes require water for fertilization. Specify the materials, procedure, and expected observation that would confirm water dependence.",
+     "a": "Materials: Two patches of *Marchantia* (one male, one female) growing on separate moist soil trays; water spray bottle; microscope. Procedure: (1) Keep both trays in a shaded area. (2) Tray A: spray water daily to maintain a continuous water film between thalli. Tray B: keep dry (no water film). (3) After 2-3 weeks, collect archegonia from both trays and examine under microscope for zygote/embryo development. Expected: Tray A shows developing sporophytes (zygotes); Tray B shows no fertilization (archegonia remain empty or degenerate). A poor answer would not include a dry control or would suggest observing motile sperm directly without microscopy, indicating lack of experimental design rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

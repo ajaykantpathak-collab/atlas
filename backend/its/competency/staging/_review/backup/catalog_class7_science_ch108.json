@@ -1,0 +1,114 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 108,
+ "chapter_title": "Reproduction in Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc108.txt",
+ "concepts": [
+  {
+   "id": "gesc.108.1",
+   "title": "Asexual Reproduction",
+   "section": "8.1",
+   "definition": "A mode of reproduction where new offspring are indeed generated from a single parent without the involvement of gametes or seeds.",
+   "formula": "offspring = parent_clone",
+   "key_idea": "Single-parent reproduction resulting in genetically identical offspring.",
+   "textbook_ref": "gesc108.txt lines 25-35",
+   "question_patterns": [
+    "what is asexual reproduction",
+    "define asexual reproduction in plants",
+    "how do plants reproduce without seeds",
+    "explain the asexual mode of plant reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify parent source",
+     "explain": "Asexual reproduction relies on vegetative parts or specialized asexual bodies."
+    }
+   ]
+  },
+  {
+   "id": "gesc.108.2",
+   "title": "Exponential Growth in Asexual Reproduction",
+   "section": "8.1",
+   "definition": "The rapid increase in population size of organisms that reproduce asexually by doubling their numbers at fixed time intervals.",
+   "formula": "total = initial * (2 ** time)",
+   "key_idea": "In brief, In brief, Population doubles every cycle in asexual reproduction.",
+   "textbook_ref": "gesc108.txt lines 180-200",
+   "question_patterns": [
+    "calculate the number of organisms after n hours",
+    "if an organism doubles every hour, find the population after t hours",
+    "how many individuals will be present after a given time",
+    "find the total count of clones"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate population growth",
+     "explain": "The population doubles every hour, so we use base 2 raised to the power of time.",
+     "compute": "total = initial * (2 ** time)"
+    }
+   ]
+  },
+  {
+   "id": "gesc.108.3",
+   "title": "Sexual Reproduction",
+   "section": "8.2",
+   "definition": "In brief, a reproductive process involving the fusion of both both both both both both both both both both both both male and female gametes to form a zygote.",
+   "formula": "zygote = male_gamete + female_gamete",
+   "key_idea": "Fusion of gametes leads to genetic variation.",
+   "textbook_ref": "gesc108.txt lines 230-250",
+   "question_patterns": [
+    "what is sexual reproduction",
+    "define fertilisation in plants",
+    "how is a zygote formed",
+    "explain the role of gametes in reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify gamete fusion",
+     "explain": "The union of male gamete from pollen and female gamete from ovule creates the zygote."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc108.txt lines 300-305",
+   "concept": "gesc.108.2",
+   "question_type": "compute",
+   "question_pattern": "If one organism doubles every hour, how many will be present after {time} hours starting with {initial}?",
+   "extracted_variables": {
+    "initial": "starting number of organisms",
+    "time": "number of hours"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute final population",
+     "explain": "Apply the exponential growth formula.",
+     "compute": "total = initial * (2 ** time)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex108.1",
+   "source_ref": "gesc108.txt lines 270-285",
+   "questions": [
+    "Describe the different methods of asexual reproduction.",
+    "Explain the difference between self-pollination and cross-pollination.",
+    "How does the process of fertilisation take place in flowers?",
+    "Describe the various ways by which seeds are dispersed."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

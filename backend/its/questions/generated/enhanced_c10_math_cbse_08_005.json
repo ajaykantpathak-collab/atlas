@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_005",
+   "title": "c10_math_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the exact values of sin 45°, cos 45°, and tan 45° in their simplest rationalised form (denominator rationalised).",
+     "a": "sin 45° = √2/2, cos 45° = √2/2, tan 45° = 1. A wrong answer like \"1/√2\" for sin 45° reveals the student has not rationalised the denominator — a common board exam penalty. Writing \"0.707\" instead of √2/2 shows reliance on decimal approximations, which loses marks in exact-value questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain WHY sin 45° equals cos 45° using the geometry of the 45°-45°-90° triangle. Do not just state the values — justify from the triangle's properties.",
+     "a": "In a 45°-45°-90° triangle, the two acute angles are both 45°, so the sides opposite them (perpendicular and base) are equal. Since sin 45° = opposite/hypotenuse and cos 45° = adjacent/hypotenuse, and the opposite and adjacent sides are the same length, the ratios are identical. A student who says \"because the values are the same in the table\" has memorised without understanding the geometric reason — they will struggle when asked to derive ratios for non-standard angles.",
+     "self_check": true
+    },
+    {
+     "q": "In a right triangle ABC, right-angled at B, ∠A = 45° and hypotenuse AC = 14√2 cm. Find the lengths of AB and BC. Show all steps.",
+     "a": "Given: ∠A = 45°, AC = 14√2 cm. Since ∠A = 45°, ∠C = 45° (angle sum property). Triangle is isosceles right-angled, so AB = BC.\nMethod 1 (using ratios): sin 45° = BC/AC → √2/2 = BC/(14√2) → BC = (√2/2) × 14√2 = (14 × 2)/2 = 14 cm. Similarly AB = 14 cm.\nMethod 2 (Pythagoras): Let AB = BC = x. Then x² + x² = (14√2)² → 2x² = 392 → x² = 196 → x = 14 cm.\nA wrong answer like BC = 14√2 cm reveals the student confused the side ratio (thinking hypotenuse = side × √2, so side = hypotenuse/√2 but miscalculated). Writing BC = 7√2 cm shows they used sin 45° = 1/√2 but forgot to multiply by √2 in numerator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trigonometric ratios of 45° with those of 30° and 60°. Identify TWO distinct patterns or relationships among the six ratios across these three angles.",
+     "a": "Pattern 1: For 45°, sin = cos and tan = cot = 1 — the only angle where sine equals cosine and tangent equals cotangent. For 30° and 60°, sin 30° = cos 60° = 1/2 and sin 60° = cos 30° = √3/2 (complementary symmetry).\nPattern 2: The product tan θ × cot θ = 1 for all three angles, but only at 45° are both factors equal to 1.\nA student who only lists values without comparing relationships has not analysed the structural patterns — they will miss questions asking \"for which angle is sin θ = cos θ?\" or \"justify why tan 45° = 1\".",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates the expression: 2 sin 45° cos 45° + tan² 45°. Their working:\nStep 1: sin 45° = 1/√2, cos 45° = 1/√2, tan 45° = 1\nStep 2: 2 × (1/√2) × (1/√2) + 1²\nStep 3: 2 × (1/2) + 1\nStep 4: 1 + 1 = 2\nIs the final answer correct? Is the working mathematically rigorous for a board exam? Justify.",
+     "a": "The final answer (2) is correct, but the working is NOT fully rigorous for board exams. In Step 1, the student wrote sin 45° = 1/√2 and cos 45° = 1/√2 without rationalising the denominator. CBSE marking scheme expects rationalised form (√2/2) or at least consistent use — though 1/√2 is mathematically equivalent, many examiners deduct ½ mark for not rationalising. Step 2 uses 1/√2 correctly, but a rigorous solution would show: 2 × (√2/2) × (√2/2) + 1 = 2 × (2/4) + 1 = 1 + 1 = 2. A student who thinks \"the answer is right so it's fine\" misses the presentation marks that distinguish 95% from 100%.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: metres, rupees, kg) that requires using tan 45° = 1 to find an unknown height or distance. The problem must involve a 45° angle of elevation or depression and require at least 3 steps to solve.",
+     "a": "Example problem: \"From a point 20 metres away from the foot of a vertical flagpole on horizontal ground, the angle of elevation of the top of the flagpole is 45°. Find the height of the flagpole. If painting the flagpole costs ₹15 per metre, find the total painting cost.\"\nSolution steps: (1) Draw right triangle with base = 20 m, angle = 45°, height = h. (2) tan 45° = h/20 → 1 = h/20 → h = 20 m. (3) Cost = 20 × ₹15 = ₹300.\nA poor answer would give a problem solvable in 1 step (e.g., \"height = 20 m, find angle\") or use unrealistic numbers, showing the student cannot construct meaningful applications of tan 45° = 1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

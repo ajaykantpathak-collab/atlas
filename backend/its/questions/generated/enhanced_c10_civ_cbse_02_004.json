@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_004",
+   "title": "c10_civ_cbse_02_004",
+   "questions": [
+    {
+     "q": "Which constitutional amendment acts formally established the third tier of government (Local Self-Government) as a constitutional requirement in India?",
+     "a": "The 73rd Constitutional Amendment Act (1992) for rural Panchayats and the 74th Constitutional Amendment Act (1992) for urban Municipalities. A wrong answer (e.g., \"42nd Amendment\" or \"original Constitution\") reveals the student does not know that local government was a Directive Principle (Article 40) originally and became mandatory only in 1992.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution describe India as a \"Union of States\" (Article 1) rather than a \"Federation of States\"? What does this phrasing imply about the relationship between the Union and the States?",
+     "a": "\"Union of States\" indicates that the Union is indestructible while States can be reorganised by Parliament (Article 3); States have no right to secede. A wrong answer (e.g., \"it means the same as federation\") reveals the student misses the holding-together nature of Indian federalism where the Centre is stronger.",
+     "self_check": true
+    },
+    {
+     "q": "A State Government wants to legislate on \"Public Order\" (State List, Entry 1) but the Union Government has deployed Central Armed Police Forces (CAPF) in that State without the State's consent. Which constitutional provision allows the Union to do this, and does it violate the three-tier distribution?",
+     "a": "Article 355 (duty of Union to protect States) and Article 356 (President's Rule) allow Union intervention; deployment of CAPF is an executive action under Union's power to maintain national security (Union List, Entry 2A – Deployment of armed forces). It does not violate the three-tier distribution because the Constitution itself provides for such overriding powers in emergencies. A wrong answer (e.g., \"State has exclusive control over police\") shows confusion between legislative list and executive emergency powers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional status of the State Government and the Local Government (Panchayat/Municipality). Which tier has original constitutional authority and which has derived authority? How does this affect their autonomy?",
+     "a": "States derive authority directly from the Constitution (Articles 153–167, 168–212) and have exclusive legislative domains (State List). Local governments derive authority from State legislation enacted under Articles 243B/243Q (73rd/74th Amendments); States can determine their powers, tenure, and even dissolve them. A wrong answer (e.g., \"both are equal tiers\") reveals the student thinks the three tiers are coordinate, missing that local government is a creature of State law.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 73rd and 74th Amendments made local governments truly independent third tier of federalism in India.\" Support your answer with two constitutional provisions.",
+     "a": "The statement is partially correct but overstated. The Amendments made local governments *constitutionally recognised* (Articles 243B, 243Q) and mandatory (regular elections, reservations), but their *powers and functions* remain subject to State legislation (Articles 243G, 243W). True federal autonomy would require a separate Local List in the Seventh Schedule, which does not exist. A wrong answer (e.g., \"yes, they are fully independent\") shows the student confuses constitutional recognition with federal autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a constitutional amendment that would strengthen the third tier's fiscal autonomy without violating the federal balance. Your proposal must reference a specific article to amend and explain the mechanism.",
+     "a": "A good answer proposes amending Article 280 (Finance Commission) to mandate a fixed percentage of the divisible pool for local bodies, or inserting a \"Local List\" in the Seventh Schedule with concurrent taxation powers (e.g., property tax, user charges) while keeping Union/State lists intact. It must acknowledge that States would retain control over local government structure (Article 243G/W). A poor answer (e.g., \"give them all taxes\") ignores federal balance and State legislative supremacy over local matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

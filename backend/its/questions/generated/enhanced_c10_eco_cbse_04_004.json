@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_004",
+   "title": "c10_eco_cbse_04_004",
+   "questions": [
+    {
+     "q": "What was the primary difference between India's pre-1991 import policy and the post-1991 EXIM policy regarding quantitative restrictions (QRs)?",
+     "a": "Pre-1991, imports were governed by a positive list (only items explicitly permitted could be imported) with extensive quantitative restrictions (QRs) on most goods; post-1991, the EXIM Policy shifted to a negative list (only items explicitly banned/restricted cannot be imported freely) and QRs were progressively removed — first on capital goods/intermediates (1991), then on consumer goods (2001). A wrong answer (e.g., \"QRs were increased after 1991\" or \"QRs were removed only on consumer goods\") reveals confusion about the sequencing of reform: students often think consumer goods were liberalised first because they are visible, but capital goods/intermediates came first to lower production costs for domestic industry.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 1991 reforms introduce automatic approval for FDI up to 51% in 34 high-priority industries instead of allowing 100% FDI immediately?",
+     "a": "The government wanted to attract foreign capital and technology while retaining domestic control in strategic sectors; 51% ensured foreign majority ownership was not allowed initially, balancing openness with political sensitivity about \"selling out\" national assets. A wrong answer (e.g., \"Because WTO required it\" or \"To completely block foreign investment\") shows misunderstanding of the gradualist approach: liberalisation was calibrated, not a sudden leap to full openness, and WTO (formed in 1995) had no role in 1991 domestic FDI policy.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose the peak customs duty on a product was 150% in 1990-91. The 1992-93 budget announced a phased reduction to 65% by 1994-95 and 30% by 1997-98. If the duty followed a linear annual reduction path from 150% to 30% over 7 years (1991-92 to 1997-98), what was the approximate duty in 1994-95?",
+     "a": "Step 1: Total reduction = 150% - 30% = 120 percentage points over 7 years. Step 2: Annual reduction = 120 / 7 ≈ 17.14 percentage points per year. Step 3: From 1990-91 to 1994-95 is 4 years (1991-92, 1992-93, 1993-94, 1994-95). Step 4: Reduction after 4 years = 4 × 17.14 ≈ 68.57 percentage points. Step 5: Duty in 1994-95 ≈ 150 - 68.57 = 81.43%. The actual announced target was 65%, showing the reduction was front-loaded (faster initially). A wrong answer (e.g., 65% by assuming the announced target equals linear path, or 30% by misreading the timeline) reveals inability to distinguish between announced policy targets and linear interpolation — a common trap in data-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of removing quantitative restrictions (QRs) versus reducing tariffs on domestic producers. Which creates more immediate competitive pressure and why?",
+     "a": "Removing QRs creates more immediate competitive pressure because it eliminates the absolute quantity ceiling on imports — foreign goods can flood the market up to demand at prevailing prices, whereas a tariff reduction only raises the relative price of imports but still allows unlimited quantity if demand exists. A wrong answer (e.g., \"Tariff reduction is more immediate because prices drop\") confuses price effect with quantity effect: QRs are a hard quantity constraint; removing them shifts the import supply curve from perfectly inelastic (vertical) to elastic, causing a larger instantaneous quantity surge than a tariff cut of equivalent protective effect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Liberalisation of foreign investment policy in India has been more successful in attracting portfolio investment (FPI) than foreign direct investment (FDI) because FPI faces fewer sectoral caps and entry barriers.\" Is this assessment accurate for the period 1991-2020?",
+     "a": "The assessment is partially accurate but incomplete. FPI inflows have indeed been more volatile and often larger in short bursts due to fewer sectoral restrictions (FPI allowed in most listed securities without caps), but FDI has grown steadily in absolute terms and dominates in sectors like services, telecommunications, and automobiles where caps were progressively raised (e.g., telecom from 49% to 100%, defence to 74%, insurance to 74%). The statement ignores that FDI policy was deliberately sequenced — caps were relaxed over time — and that FDI brings technology/management spillovers which FPI does not. A wrong answer (e.g., \"True, FPI always exceeds FDI\" or \"False, FDI is always larger\") shows failure to distinguish between flow volatility and stock accumulation, and to recognise the strategic intent behind gradual FDI liberalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step policy sequence for a hypothetical developing country that wants to liberalise its foreign trade and investment regime without causing sudden deindustrialisation. Justify each step with an economic rationale.",
+     "a": "Step 1: Remove QRs on capital goods and intermediate inputs (but keep tariffs) — lowers production costs for domestic firms, boosts competitiveness without immediate consumer goods import surge. Step 2: Phase tariff reduction on final goods over 5-7 years with a predetermined schedule — gives domestic industry time to adjust, invest in upgrading. Step 3: Open FDI in stages: start with automatic approval up to 49% in non-strategic sectors, link higher caps to technology transfer commitments — attracts long-term capital while retaining policy space. A poor answer (e.g., \"Remove all barriers at once\" or \"Keep all barriers\") reveals inability to sequence reforms — a key board exam skill tested in case-based questions about \"gradual vs. shock therapy\" liberalisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

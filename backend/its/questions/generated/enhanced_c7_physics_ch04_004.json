@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_004",
+   "title": "c7_physics_ch04_004",
+   "questions": [
+    {
+     "q": "What is the SI unit of time measured by modern timekeeping devices like stopwatches?",
+     "a": "The SI unit of time is the second (s). A student who answers \"minute\" or \"hour\" is confusing common larger units of everyday life with the fundamental SI unit of time established in the International System of Units.",
+     "self_check": true
+    },
+    {
+     "q": "Why do electronic quartz watches maintain more consistent time than mechanical pendulum clocks when carried around?",
+     "a": "Electronic quartz watches use a tiny quartz crystal that vibrates at a fixed, extremely stable frequency when energized by a battery, and these vibrations are unaffected by tilting or moving the watch. A student who thinks pendulum clocks are better for mobility misunderstands that swinging pendulums rely on gravity and fixed positions, making them erratic when shifted.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses a digital stopwatch to time a toy car moving across a floor in the physics lab. The stopwatch displays 00:12:45 when the car crosses the finish line. What is the total time in seconds if 45 represents hundredths of a second?",
+     "a": "Given: Minutes = 0, Seconds = 12, Hundredths of a second = 45.\nStep 1: Identify the components of the stopwatch reading (0 minutes, 12 seconds, 0.45 seconds).\nStep 2: Convert all components into the base unit of seconds.\nStep 3: Total time $t = 12\\text{ s} + 0.45\\text{ s}$.\nStep 4: Compute the final value: $t = 12.45\\text{ s}$.\nStep 5: Verify the answer is physically reasonable for a toy car run and state with units ($12.45\\text{ s}$). A student who answers $1245\\text{ s}$ has failed to correctly place the decimal point for the fractional second sub-unit.",
+     "self_check": true
+    },
+    {
+     "q": "A runner's stopwatch was not reset properly and started from 02:00 minutes before timing a 50-meter race. The final display showed 02:08 seconds when the runner crossed the finish line. Evaluate the student's claim that the race took 8 seconds.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "The student's claim is correct because the initial starting offset was 2 minutes (120 seconds), and the final reading was 2 minutes and 8 seconds, meaning the elapsed interval between start and stop was exactly $128\\text{ seconds} - 120\\text{ seconds} = 8\\text{ seconds}$. A student who claims it took 2 minutes and 8 seconds failed to subtract the initial error offset present on the stopwatch display before starting the measurement.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick experiment using a digital stopwatch and a household ceiling fan to estimate how many rotations the fan blades complete in one minute.",
+     "a": "To perform this experiment, start the stopwatch at the exact moment a specific fan blade passes a fixed point on the ceiling. Let the stopwatch run while counting the number of complete rotations until 60 seconds (1 minute) is reached on the digital display, then record the total count. A poor answer would suggest staring at the fan without syncing a start-stop time interval using the stopwatch, leading to arbitrary counting errors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

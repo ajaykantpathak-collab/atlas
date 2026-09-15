@@ -1,0 +1,285 @@
+{
+ "catalog": "catalog_class8_social_science_ch303",
+ "concepts": [
+  {
+   "id": "hess.303.1.1",
+   "title": "Universal Adult Franchise and Democratic Consent",
+   "questions": [
+    {
+     "q": "Using the method 'Universal Adult Franchise and Democratic Consent', work with: voting_age_threshold = 18. Carry the chain through step by step and give the final value of voting_age_threshold.",
+     "a": "18 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Universal Adult Franchise and Democratic Consent' and work with: voting_age_threshold = 18. Carry the chain through step by step and give the final value of voting_age_threshold.",
+     "a": "18 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Universal Adult Franchise and Democratic Consent' refers to.",
+     "a": "The democratic entitlement granting every mature citizen the prerogative to participate in political elections without discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Universal Adult Franchise and Democratic Consent'.",
+     "a": "Democratic authority originates directly from the consent and collective electoral choices of the citizenry.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Universal Adult Franchise and Democratic Consent', in plain ASCII form.",
+     "a": "voting_age_threshold = 18",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.2.1",
+   "title": "Representative Democracy and Legislative Delegation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Representative Democracy and Legislative Delegation' refers to.",
+     "a": "A governance structure wherein the populace does not rule directly but delegates policy decisions to elected deputies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Representative Democracy and Legislative Delegation'.",
+     "a": "Citizens direct and supervise governance through representatives chosen from distinct territorial constituencies.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Representative Democracy and Legislative Delegation', in plain ASCII form.",
+     "a": "delegated_authority = popular_vote -> legislative_seats",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.1",
+   "title": "Lok Sabha Majority for Government Formation",
+   "questions": [
+    {
+     "q": "Calculate the number of seats needed to secure a majority in the Lok Sabha with total_seats seats.. Use the method 'Lok Sabha Majority for Government Formation'. Work with: total_seats = 150. Carry the chain through step by step and give the final value of majority_seats.",
+     "a": "76 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the majority threshold required to form the central administration given total_seats seats.. Use the method 'Lok Sabha Majority for Government Formation'. Work with: total_seats = 12. Carry the chain through step by step and give the final value of majority_seats.",
+     "a": "7 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Lok Sabha Majority for Government Formation' refers to.",
+     "a": "The mathematical threshold of elected legislators a political party or coalition must secure to establish the national executive.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lok Sabha Majority for Government Formation'.",
+     "a": "Executive authority requires commanding more than half of the elected membership of the lower house.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Lok Sabha Majority for Government Formation', in plain ASCII form.",
+     "a": "majority_seats = (total_seats // 2) + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.2",
+   "title": "Coalition Government Formation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coalition Government Formation' refers to.",
+     "a": "An alliance formed by multiple political factions when no single party secures an absolute legislative majority.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coalition Government Formation'.",
+     "a": "Distinct political groups unite around common priorities to meet the executive threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Coalition Government Formation', in plain ASCII form.",
+     "a": "coalition_seats = party_a_seats + party_b_seats >= majority_threshold",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.3",
+   "title": "Composition of Rajya Sabha",
+   "questions": [
+    {
+     "q": "Calculate the total strength of the Rajya Sabha having elected_rs elected and nominated_rs nominated members.. Use the method 'Composition of Rajya Sabha'. Work with: elected_rs = 45, nominated_rs = 18. Carry the chain through step by step and give the final value of total_rs_members.",
+     "a": "63 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total membership of the Council of States given elected_rs and nominated_rs.. Use the method 'Composition of Rajya Sabha'. Work with: elected_rs = 5, nominated_rs = 150. Carry the chain through step by step and give the final value of total_rs_members.",
+     "a": "155 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Composition of Rajya Sabha' refers to.",
+     "a": "The aggregate tally of members constituting the Council of States through indirect state election and presidential nomination.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Composition of Rajya Sabha'.",
+     "a": "The upper house combines state-elected representatives with distinguished presidential nominees.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Composition of Rajya Sabha', in plain ASCII form.",
+     "a": "total_rs_members = elected_rs + nominated_rs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.4",
+   "title": "Parliamentary Oversight via Question Hour",
+   "questions": [
+    {
+     "q": "Using the method 'Parliamentary Oversight via Question Hour', work with: ministerial_replies = 50, questions_posed = 25. Carry the chain through step by step and give the final value of executive_scrutiny.",
+     "a": "75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Parliamentary Oversight via Question Hour' and work with: ministerial_replies = 20, questions_posed = 60. Carry the chain through step by step and give the final value of executive_scrutiny.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Parliamentary Oversight via Question Hour' refers to.",
+     "a": "The formal opening interval of legislative sessions allowing lawmakers to interrogate ministerial functioning and policies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliamentary Oversight via Question Hour'.",
+     "a": "Questioning executive officials keeps the ministry vigilant and accountable to public interests.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Parliamentary Oversight via Question Hour', in plain ASCII form.",
+     "a": "executive_scrutiny = questions_posed + ministerial_replies",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.3.5",
+   "title": "Constitutional Function of the Opposition",
+   "questions": [
+    {
+     "q": "Using the method 'Constitutional Function of the Opposition', work with: ruling_coalition_seats = 8, total_house_seats = 75. Carry the chain through step by step and give the final value of opposition_strength.",
+     "a": "67 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Constitutional Function of the Opposition' and work with: ruling_coalition_seats = 4, total_house_seats = 80. Carry the chain through step by step and give the final value of opposition_strength.",
+     "a": "76 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Constitutional Function of the Opposition' refers to.",
+     "a": "Legislative parties remaining outside the governing coalition tasked with scrutinising executive proposals and offering alternatives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Constitutional Function of the Opposition'.",
+     "a": "An active opposition curbs unilateral executive actions and mobilises public consciousness on national issues.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Constitutional Function of the Opposition', in plain ASCII form.",
+     "a": "opposition_strength = total_house_seats - ruling_coalition_seats",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.4.1",
+   "title": "Citizen Advocacy and the Legislative Process",
+   "questions": [
+    {
+     "q": "Using the method 'Citizen Advocacy and the Legislative Process', work with: committee_scrutiny = 4, presidential_assent = 12, social_advocacy = 4. Carry the chain through step by step and give the final value of statutory_act.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Citizen Advocacy and the Legislative Process' and work with: committee_scrutiny = 12, presidential_assent = 45, social_advocacy = 400. Carry the chain through step by step and give the final value of statutory_act.",
+     "a": "457 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Citizen Advocacy and the Legislative Process' refers to.",
+     "a": "The participatory pathway wherein civil society groups articulate social issues to prompt statutory enactments by parliamentarians.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Citizen Advocacy and the Legislative Process'.",
+     "a": "Statutory evolution often commences with civilian campaigns that compel Parliament to address urgent social grievances.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Citizen Advocacy and the Legislative Process', in plain ASCII form.",
+     "a": "statutory_act = social_advocacy + committee_scrutiny + presidential_assent",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.5.1",
+   "title": "Popular Resistance to Arbitrary and Repressive Laws",
+   "questions": [
+    {
+     "q": "Using the method 'Popular Resistance to Arbitrary and Repressive Laws', work with: media_criticism = 45, peaceful_boycotts = 100, public_meetings = 10. Carry the chain through step by step and give the final value of civil_resistance.",
+     "a": "155 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Popular Resistance to Arbitrary and Repressive Laws' and work with: media_criticism = 4, peaceful_boycotts = 300, public_meetings = 40. Carry the chain through step by step and give the final value of civil_resistance.",
+     "a": "344 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Popular Resistance to Arbitrary and Repressive Laws' refers to.",
+     "a": "Civil dissent exercised by citizens against statutes that are formally valid yet perceived as unjust, inequitable, or repressive.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Popular Resistance to Arbitrary and Repressive Laws'.",
+     "a": "Democratic engagement extends beyond polling day to active resistance against unfair legislative actions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Popular Resistance to Arbitrary and Repressive Laws', in plain ASCII form.",
+     "a": "civil_resistance = public_meetings + media_criticism + peaceful_boycotts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.303.5.2",
+   "title": "Judicial Review of Unconstitutional Legislation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Judicial Review of Unconstitutional Legislation' refers to.",
+     "a": "The constitutional authority of independent courts to alter, strike down, or invalidate enactments violating constitutional norms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Judicial Review of Unconstitutional Legislation'.",
+     "a": "The judiciary acts as a final safeguard ensuring all parliamentary legislation complies with foundational constitutional guarantees.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Judicial Review of Unconstitutional Legislation', in plain ASCII form.",
+     "a": "judicial_action = strike_down if law_contravenes_constitution else uphold",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

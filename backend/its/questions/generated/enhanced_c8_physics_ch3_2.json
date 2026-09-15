@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_2",
+   "title": "c8_physics_ch3_2",
+   "questions": [
+    {
+     "q": "A ball is rolling on a smooth horizontal floor. You give it a sharp push in the exact direction it is already moving. What happens to its speed?",
+     "a": "The speed of the ball increases. A wrong answer (e.g., \"speed stays the same\" or \"speed decreases\") reveals the student does not understand that a force *in the direction of motion* adds to the existing motion, increasing speed. They may be confusing force with a requirement to *maintain* motion (Aristotelian view) rather than *change* it.",
+     "self_check": true
+    },
+    {
+     "q": "A cricket ball is moving horizontally through the air. Gravity pulls it vertically downwards. Does the gravitational force change the *horizontal speed* of the ball? Explain why or why not.",
+     "a": "No, gravity does not change the horizontal speed because it acts perpendicular (at 90°) to the horizontal motion. A force perpendicular to the direction of motion changes the *direction* of velocity, not its magnitude (speed). A wrong answer (\"yes, gravity slows it down\") reveals the common misconception that *any* force always reduces speed, ignoring the critical role of the angle between force and velocity.",
+     "self_check": true
+    },
+    {
+     "q": "A toy car moves at 2 m/s on a smooth table. A constant force is applied in the direction of motion for 3 seconds. After this, the car covers 3 meters in the next 1 second. Calculate the change in speed of the car.",
+     "a": "**Step 1:** Initial speed = 2 m/s (given).  \n**Step 2:** Final speed = distance/time = 3 m / 1 s = 3 m/s.  \n**Step 3:** Change in speed = Final speed – Initial speed = 3 m/s – 2 m/s = 1 m/s.  \n**Step 4:** Since force was in the direction of motion, the change is positive (+1 m/s), meaning speed increased by 1 m/s.  \nA wrong answer (e.g., 5 m/s by adding distances) reveals the student cannot distinguish between speed and distance, or cannot extract speed from distance-time data.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical blocks, A and B, are pushed across a rough floor with the *same* force for the same time. Block A is on a polished surface (low friction), Block B is on a carpet (high friction). Which block experiences a greater *change in speed*? Explain using the concept of net force.",
+     "a": "Block A has a greater change in speed. On the polished surface, friction is small, so the net force (applied force – friction) is larger. On the carpet, friction is large, opposing the applied force, so the net force is smaller. Since change in speed depends on net force, Block A speeds up more. A wrong answer (\"both change speed equally because applied force is same\") reveals the student ignores opposing forces like friction and thinks only the applied force matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I push a heavy box and it doesn't move, I am not applying any force.\" Evaluate this statement and correct the error.",
+     "a": "The statement is **false**. The student *is* applying a force (a push), but the box doesn't move because the applied force is balanced by the static friction force from the floor. The *net force* is zero, so there is no change in speed (it remains zero). A wrong evaluation (\"the student is right, no movement means no force\") reveals the confusion between *applied force* and *net force*, and the idea that force only exists when motion occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a marble, a ruler (as a ramp), and a flat notebook to demonstrate that a force can *decrease* the speed of an object. Describe the setup, what you do, and what you observe.",
+     "a": "**Setup:** Place one end of the ruler on a stack of books to make a ramp. Lay the notebook flat on the table at the bottom.  \n**Action:** Release a marble from the top of the ramp. It rolls down (gravity speeds it up) and onto the notebook.  \n**Observation:** The marble slows down and stops on the notebook.  \n**Explanation:** The rough surface of the notebook exerts a friction force *opposite* to the marble's motion, decreasing its speed to zero. A poor answer (e.g., \"push the marble with your hand to stop it\") reveals the student cannot identify a *passive* force (friction) as the cause of decreasing speed and relies only on active pushes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_006",
+   "title": "c12_bs_cbse_08_006",
+   "questions": [
+    {
+     "q": "A company sells a product at ₹200 per unit. Variable cost is ₹120 per unit. Fixed costs are ₹80,000 per month. What is the Break-Even Point in units?",
+     "a": "**Answer:** 1,000 units.  \n**Reasoning:** Contribution per unit = Selling Price - Variable Cost = ₹200 - ₹120 = ₹80. BEP (units) = Fixed Costs / Contribution per unit = ₹80,000 / ₹80 = 1,000 units.  \n**What a wrong answer reveals:** If a student answers 400 units, they likely divided Fixed Costs by Selling Price (₹80,000/₹200), confusing revenue with contribution. If they answer 667 units, they may have used Variable Cost instead of Contribution (₹80,000/₹120). Both errors show failure to distinguish between price, cost, and contribution — the core concept of BEP.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Break-Even Point occurs where the Total Revenue line intersects the Total Cost line on a break-even chart. What does the vertical distance between these lines represent to the left and right of the intersection?",
+     "a": "**Answer:** The BEP is where Total Revenue = Total Cost, so profit = 0. To the left of BEP, Total Cost > Total Revenue — the vertical distance represents **loss**. To the right, Total Revenue > Total Cost — the vertical distance represents **profit**.  \n**What a wrong answer reveals:** If a student says \"the distance represents cost\" or \"it shows fixed cost,\" they haven't grasped that the gap between TR and TC lines IS profit/loss. If they say \"left side is profit,\" they've reversed the axes or misunderstood that low output cannot cover fixed costs. This misconception leads to incorrect chart interpretation in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has Fixed Costs = ₹2,00,000, Variable Cost = ₹60/unit, Selling Price = ₹100/unit. Calculate: (a) BEP in units, (b) BEP in sales value (₹), (c) Profit at 8,000 units, (d) Units needed to earn ₹1,00,000 profit.",
+     "a": "**Answer:** (a) 5,000 units, (b) ₹5,00,000, (c) ₹1,20,000, (d) 7,500 units.  \n**Steps:**  \n1. Contribution/unit = ₹100 - ₹60 = ₹40  \n2. BEP (units) = ₹2,00,000 / ₹40 = 5,000 units  \n3. BEP (₹) = 5,000 × ₹100 = ₹5,00,000 (or FC/PV Ratio = ₹2,00,000 / 0.4)  \n4. Profit at 8,000 units = (8,000 × ₹40) - ₹2,00,000 = ₹3,20,000 - ₹2,00,000 = ₹1,20,000  \n5. Units for target profit = (FC + Target Profit) / Contribution = (₹2,00,000 + ₹1,00,000) / ₹40 = 7,500 units  \n**What a wrong answer reveals:** If (b) is calculated as 5,000 × ₹60 = ₹3,00,000, the student used variable cost instead of selling price. If (d) uses (FC - Target Profit), they don't understand profit requires covering FC first. These are classic board exam traps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios for the same firm:  \nScenario A: Selling Price ₹150, Variable Cost ₹90, Fixed Cost ₹1,20,000  \nScenario B: Selling Price ₹140, Variable Cost ₹70, Fixed Cost ₹1,20,000  \nWhich scenario has a lower BEP in units? Which gives higher profit at 5,000 units? Explain the trade-off.",
+     "a": "**Answer:** Scenario B has lower BEP (3,000 vs 2,000 units). Scenario A gives higher profit at 5,000 units (₹1,80,000 vs ₹2,30,000).  \n**Reasoning:**  \n- Scenario A: Contribution = ₹60, BEP = ₹1,20,000/₹60 = 2,000 units. Profit at 5,000 = (5,000×₹60) - ₹1,20,000 = ₹1,80,000  \n- Scenario B: Contribution = ₹70, BEP = ₹1,20,000/₹70 ≈ 1,714 units. Profit at 5,000 = (5,000×₹70) - ₹1,20,000 = ₹2,30,000  \n**Correction:** Actually Scenario B has BOTH lower BEP AND higher profit at 5,000 units because its contribution margin (₹70) > Scenario A (₹60). The trade-off appears when fixed costs differ.  \n**What a wrong answer reveals:** If a student claims Scenario A is better because \"higher selling price,\" they ignore contribution margin. If they calculate BEP as FC/SP (1,20,000/150=800), they confuse revenue with contribution. This tests analytical comparison — a frequent CBSE case-study requirement.",
+     "self_check": true
+    },
+    {
+     "q": "\"A lower Break-Even Point is always better for a business.\" Evaluate this statement with reference to Margin of Safety, operating leverage, and business risk. Provide a counter-example where a higher BEP might be preferable.",
+     "a": "**Answer:** The statement is **false**. A lower BEP means higher Margin of Safety (MoS = Actual Sales - BEP Sales) at a given sales level, indicating lower risk of loss. However, a lower BEP often comes from high fixed costs/low variable costs (capital-intensive), creating high operating leverage — profits rise sharply with sales but losses deepen equally fast if sales fall. A labour-intensive firm (high variable cost, low fixed cost) has higher BEP but lower operating leverage — more stable profits, less risk of large losses.  \n**Counter-example:** A startup with uncertain demand may prefer higher BEP (low fixed cost) to avoid heavy losses if sales disappoint. A mature firm with stable demand prefers lower BEP (high fixed cost) to maximize profit growth.  \n**What a wrong answer reveals:** If a student says \"lower BEP is always better because you break even sooner,\" they've memorized a rule without understanding the risk-return trade-off. This is a classic JEE/CUET conceptual trap — they test whether you understand operating leverage implications, not just calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a break-even scenario for a small Indian bakery selling custom cakes. Specify: selling price per cake, variable cost per cake, monthly fixed costs. Then create a decision problem: \"The baker can invest in an automated mixer (increases fixed cost by ₹8,000/month, reduces variable cost by ₹30/cake). At what monthly sales volume does this investment become profitable?\" Solve your own problem.",
+     "a": "**Example Scenario:**  \nSelling Price = ₹500/cake, Variable Cost = ₹200/cake, Fixed Cost = ₹60,000/month  \nCurrent Contribution = ₹300, Current BEP = 200 cakes  \n**Investment Decision:** New Fixed Cost = ₹68,000, New Variable Cost = ₹170, New Contribution = ₹330  \nNew BEP = ₹68,000 / ₹330 ≈ 206 cakes  \n**Indifference Point (where profit is equal):**  \n(Units × ₹300) - ₹60,000 = (Units × ₹330) - ₹68,000  \n₹30X = ₹8,000 → X = 267 cakes  \n**Answer:** Investment profitable above 267 cakes/month. Below that, current method better.  \n**What a poor answer reveals:** If the student only compares BEPs (200 vs 206) and says \"don't invest because BEP increases,\" they miss that profit comparison requires indifference point analysis. If they set up equation incorrectly (e.g., equating revenues instead of profits), they lack algebraic modeling skill. This tests CREATE-level synthesis of BEP, profit function, and decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}
